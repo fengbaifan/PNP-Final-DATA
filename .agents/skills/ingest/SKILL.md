@@ -7,48 +7,43 @@ triggers:
   - 摄入来源
   - 语义处理
   - 知识元成稿
-description: 负责第一部分的摄入、处理、知识元三个阶段，逐阶段保存过程与结果。不得自动接续知识发现。
+description: 负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。
 ---
 
 # ingest
 
-负责第一部分的摄入、处理、知识元三个阶段，逐阶段保存过程与结果。不得自动接续知识发现。
+负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。
 
-## 输入与阶段边界
+## 输入与工作
 
-输入为明确的来源、版本和本次范围，先读取 AGENTS.md 与 pipeline 的交接边界。不把三个阶段合并成一个 completed。
+1. 摄入：读取用户任务、01-domain 的材料约定、来源版本和具体范围；核对可读性、章节/页码及缺失材料，登记来源。空库无历史对象是正常起点。
+2. 处理：完整阅读声明范围内正文、注释与必要图像，理解论述、语境、对象和断言；保留来源定位、实际覆盖、歧义和遗漏。按语义划分，不用关键词或固定切块代替阅读。
+3. 成稿：检索现有对象并判断同一性、类型和边界，形成有来源的 KU 正文及必要 claim；claim 是待证/有据断言，证据另指来源。不能判明的对象暂缓，不为补齐类型或结构制造对象。
 
-### 1 摄入
+标题与描述按 REV-018 使用中英文：title 采用“中文名（English name）”，name_en 保存对应英文名称，正文描述包含语义等值的中文与英文。名称待定和推测性表述在两种语言中都保留限定；具体写法见字段契约与正文参考。检查语言对应关系，不以英文存在就判定翻译合格。
+按 REV-019、020 分开共用元数据、类型内容、关系与证据。内容包含描述、属性及按需的履历/作品/评价/研究文献/沿革记录，不能只写简短摘要；第三部分说明对应关系、证据和未决项。人物规范名以经核对的全名为主。逐项审视正文参考中的类型内容范围，适用但缺证的项目列入待补，不用空字段制造完整性，也不漏掉用户明确要求的项目。
 
-先读取 01-domain 的领域范围、类型与命名约束，再核对来源本体、版本、语言、章节及范围，来源只追加。登记来源定位、缺失材料、source_assets 指纹和 processing_scope。过程与阶段结果分别保存于 03-processing/<id>/process/stages.md 和同包 results/stages.md 的阶段 1；02-sources/source-registry.md 保存当前来源登记。已有来源历史记录保留，不在来源目录新增可迭代的过程文档。
+类型边界以 `01-domain/taxonomy-registry.md` 为准，按原文指称的对象判断，不能按名字或文件后缀机械归类。未具正式题名但可定位的通信、合同、收据等仍应逐项判断 archive 成稿；不得以“脚注”“仅为引文”或“无全名”为由整批略去。有独立意义而八类暂不能表达的对象须保存为类型待决项，不自动丢弃。
 
-### 2 处理
+## 产出与交接
 
-Agent 完整阅读范围内正文、标题、注释、表格及必要图像，判断跨页论述和语境，记录理解、取舍与不确定性。固定行数切块、关键词脚本不能代替阅读。
-保留 compact-v4 的 source-map.jsonl、semantic-units.jsonl、candidate-ledger.jsonl、manifest.json、summary.md 接口；其中 summary 是兼容工件，不复制新的结果报告。来源行跨度并集须覆盖 processing_scope，无未读范围冒充完成。
-manifest.fingerprint_mode 使用 text_crlf_to_lf_v1；source_assets 指纹与 processing_scope 范围分开，输入漂移使有效状态重开。
-过程写入 03-processing/<id>/process/stages.md；结果写入同包 results/stages.md。历史已接受包不因改规则而重复阅读或改写旧验收。
+摄入、处理的过程和结果分别在 03-processing/<task-id>/process/stages.md、results/stages.md。KU 成稿过程在同包 process/knowledge.md，知识结果在 04-knowledge/results/<task-id>.md，正文原位维护；实际成稿后在 accepted.yml 登记引用，既有试填不得批量接收。
 
-### 3 知识元
+明确新增、更新、无变化和暂缓对象，逐个说明来源支持与缺口。上下文充分的成稿对象交 verify；依赖未读范围或关键歧义的对象不交接。第一次成稿不填写虚假的验证日期或任何预设层级。
 
-从语义分析判断对象边界、KU 类型与正文内容。每个候选检索已有对象，payload.knowledge_match 记录 novel、existing_target、potential_duplicate、potential_conflict 或 undetermined 及目标引用。不能判明重复/冲突时暂缓对象；没有冲突信号时不运行完整冲突裁决。
-只在来源足以支撑时写入知识元；claim 是证据支撑，不建立独立知识发现任务。候选 approved 后才执行具体写回，实际结果记 applied/no_delta/blocked，不以文件创建冒充验收。
-过程写入 04-knowledge/process/<id>.md，阶段结果写入 04-knowledge/results/<id>.md，正文仅在 units 下维护当前版本。
+## 必要检查与工具
 
-## 完成与下一步
-
-明确已读、已分析、已成稿对象及各自证据、未解决项；semantic_acceptance 必须记录 Agent、来源版本、复读边界和遗漏，不由脚本推导。初期 Theme/Topic 不强制补齐。成稿后交给 verify 做对齐，仍受阻的对象留下。
-必要时使用 scripts/validate_processing_package.py 校验覆盖、引用和指纹；机械通过不等于语义接受。
+直接核对范围覆盖、来源定位、对象重复和正文忠实性；自查不能称独立验收。普通任务不强制 JSONL/manifest/summary 五件套。既有 compact-v4 包及其机器校验按 model-semantic-processing 契约处理，来源指纹变化需重审受影响内容。
+批量候选接口使用 payload.knowledge_match 和 candidate 状态；approved 后的实际写回才记 applied，无变化 no_delta，失败 blocked。机器完整性不代替 semantic_acceptance。
 
 ## 按需直接参考
 
-- `references/body-template.md`
-- `references/citation.md`
-- `references/distillation-system-contract.md`
-- `references/hierarchy-field.md`
-- `references/knowledge-unit-field-contract.md`
-- `references/model-semantic-processing.md`
-- `references/relation-types.md`
-- `references/taxonomy.md`
-
-- `.agents/skills/system-upgrade/references/work-package-contract.md`
+- `references/body-template.md`：知识元三部分、双语描述及各类内容范围。
+- `references/knowledge-unit-field-contract.md`：创建或更新共同元数据。
+- `references/taxonomy.md`：类型、名称及重复对象判断。
+- `references/citation.md`：新增或整理出处。
+- `references/distillation-system-contract.md`：来源/候选/成稿证据边界有疑问时。
+- `references/relation-types.md`：正文包含关系、需要记录正式边时。
+- `references/hierarchy-field.md`：后续结构实际启动后使用，初期不填。
+- `references/model-semantic-processing.md`：仅 compact-v4 接口或相应历史包续接。
+- `.agents/skills/system-upgrade/references/work-package-contract.md`：仅批量机器写回或旧接口续接。

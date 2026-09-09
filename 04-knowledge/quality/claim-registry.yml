@@ -1,42 +1,123 @@
-# 断言注册表（claim-registry）
-# total: 5
+# 第一章样例断言；来源为 Haskell 本章，未直接验证其所引原件。
+# total: 12
+# source 直接绑定来源；不将知识元本身当作断言的证明。
 - claim_id: m1-papal-nephews-led-patronage
-  statement_zh: 教皇与侄子是十七世纪罗马赞助潮流的主导者
-  statement_en: Popes and their nephews led Roman patronage
+  statement_zh: Haskell 认为教皇及其侄辈逐渐主导罗马艺术赞助和趣味，这一趋势在 Urban VIII 时达到高潮；他们并非唯一赞助人，且该判断不等于赞助从此才开始。
+  attribution: 作者历史解释
+  evidence_status: source_backed
   source:
     doc_id: patrons-and-painters
-    source_span: ch. 1, pp. 1-5
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 15–70; print pp. 3–4
   supports: []
   supported_by: []
 - claim_id: m2-compatriot-networks
-  statement_zh: 艺术家的职业起步依赖同乡赞助人网络
-  statement_en: Artists launched careers through compatriot patron networks
+  statement_zh: Haskell 将同乡保护、住处与客户引介概括为部分博洛尼亚画家在罗马发展的共同路径；籍贯与礼仪亦影响家户服务机会，不能推为所有画家的必经生涯。
+  attribution: 作者概括，附具名事例
+  evidence_status: source_backed
   source:
     doc_id: patrons-and-painters
-    source_span: ch. 1, pp. 3-4
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 71–110,214–223; print pp. 4–7
   supports: []
   supported_by: []
 - claim_id: m3-deposit-figure-pricing
-  statement_zh: 定金与按人物数计价是十七世纪委托的通行惯例
-  statement_en: Deposits and per-figure pricing were standard commission practice
+  statement_zh: 本章材料中定金、分期付款和按主要人物计价较常见，但比例、金额和材料负担不同；Domenichino 每位 130、Lanfranco 100、Guercino 报 125 ducats，背景人物与反例须保留。
+  attribution: 惯例概括及具体报价；非统一制度
+  evidence_status: source_backed
   source:
     doc_id: patrons-and-painters
-    source_span: ch. 1, pp. 12-13
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 320–338,478–552,927–980; print pp. 10,13–14,22–23
   supports: []
   supported_by: []
 - claim_id: m4-servitu-particolare-terms
-  statement_zh: servitu particolare 提供月俸、市价报酬与旅费，艺术家视为家族成员
-  statement_en: Servitu particolare offered allowance, market pay and travel costs, treating artists as family
+  statement_zh: servitù particolare 可包括家户住处、津贴及学习旅费；优先服务仍以作品另行计酬为前提，famiglia 不等于血缘家庭，也不意味着艺术家绝对不能为他人工作。
+  attribution: 作者概括；Vasalli 证词经转引
+  evidence_status: source_backed
   source:
     doc_id: patrons-and-painters
-    source_span: ch. 1, pp. 5-7
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 154–247,278–283; print pp. 6–8
   supports: []
   supported_by: []
 - claim_id: m5-accademia-1633-monopoly
-  statement_zh: 1633 年圣路加学院获对全体罗马艺术家的征税权与公共委托垄断，后因反对撤销
-  statement_en: In 1633 the Accademia gained tax rights and a public-commission monopoly, later withdrawn
+  statement_zh: 1633 年学院得到对艺术家和画商征税及公共委托排他安排，Haskell 明言措施遭反对、未全面施行并撤回；法令不等于实际垄断完成。
+  attribution: 制度叙述与施行限制
+  evidence_status: source_backed
   source:
     doc_id: patrons-and-painters
-    source_span: ch. 1, pp. 16-17
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 678–736; print pp. 17–18
+  supports: []
+  supported_by: []
+- claim_id: m6-modelli-qualified-generalization
+  statement_zh: 正文将十七世纪上半叶稿本要求描述为较少见，并对博洛尼亚画家作广泛否定；同页脚注补入 Camassei、Sacchi 例子和 Cortona 归属争议。Gaulli 引入说是可能性，不能转为确定首创事实。
+  attribution: 正文与脚注互相限定
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 393–446,461–468; print pp. 11–12
+  supports: []
+  supported_by: []
+- claim_id: m7-studio-stock-and-new-commission
+  statement_zh: Valguarnera 请求完成 Lanfranco 的既有画稿和 Poussin 的《瘟疫》，同时向 Poussin 全新委托《春》；先有画稿的交易与从零订制在同一事例中并存。
+  attribution: 具体交易叙述；Haskell 转述
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 591–606; print pp. 15
+  supports: []
+  supported_by: []
+- claim_id: m8-artists-status-and-genius
+  statement_zh: Haskell 区分十七世纪艺术家的财富、社会尊重和礼仪地位上升，与文艺复兴式英雄崇拜及神秘创造者光环的减弱；高价、贵族化外表和荣衔不能各自直接证明艺术自主。
+  attribution: 作者史学解释，非量化事实
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 620–677,737–806,858–881; print pp. 16–21
+  supports: []
+  supported_by: []
+- claim_id: m9-anecdote-evidence-boundary
+  statement_zh: Paul V 的相关话语经 Malvasia 以传闻形式引出；Bernini 举镜、Innocent X 递画布等故事被 Haskell 视为旧逸事的重写。它们可说明职业身份叙事，但不足以在本项目确认事件发生。
+  attribution: 来源可信度与本次证据裁决
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 628–662,763–798; print pp. 16,19
+  supports: []
+  supported_by: []
+- claim_id: m10-rosa-independence-and-exceptions
+  statement_zh: 罗萨以拒定金、依灵感作画和按成品质量定价表达独立性；这不等于无市场与宣传活动。Ferri 拒预付仍有事务繁多的理由，Luti 的低依附姿态也限制对“无追随者”的绝对理解。
+  attribution: 画家自述、传记评价与 Haskell 解释分层
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 905–980; print pp. 22–23
+  supports: []
+  supported_by: []
+- claim_id: m11-patronage-instability-and-market
+  statement_zh: Haskell 认为教皇更替造成亲族收入与地位变动，过度依附可能危及画家发展；罗马供需和收藏流动推动工作室现画、画商与展览。Montalto 是去世教皇侄辈仍获尊重的例外，不能把趋势当作每个人命运。
+  attribution: 作者因果解释及反例
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 56–70,199–247,553–615; print pp. 4–8,14–15
+  supports: []
+  supported_by: []
+- claim_id: m12-academy-and-bent-overlap
+  statement_zh: 学院与 Schildersbent 的组织方式及征税立场不同，但 Van Laer 同时属于两者，Cerquozzi 亦为学院会员；群体对立不能推成成员绝对互斥，也不能将 Rosa 挂入画家帮。
+  attribution: 成员事实及关系边界裁决
+  evidence_status: source_backed
+  source:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 723–736,753–754,819–833; print pp. 18,20
   supports: []
   supported_by: []

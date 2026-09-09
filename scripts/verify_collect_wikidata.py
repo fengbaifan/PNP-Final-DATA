@@ -69,7 +69,6 @@ _last_request_started = 0.0
 TYPE_QID_MAP = {
     "person": "Q5",
     "work": "Q386724",
-    "publication": "Q732577",
     "place": "Q618123",
 }
 
@@ -334,7 +333,8 @@ def match_place(entity: dict, ku_name_en: str) -> tuple[int, int, list[dict]]:
     return score, max_score, matched
 
 
-def match_publication(entity: dict, ku_name_en: str) -> tuple[int, int, list[dict]]:
+def match_archive(entity: dict, ku_name_en: str) -> tuple[int, int, list[dict]]:
+    # Published bibliography is one subset of archive; an unknown P31 is not a type conflict.
     score, max_score, matched = 0, 0, []
     pub_qids = {"Q571": "book", "Q191067": "article", "Q1002697": "journal", "Q7318358": "review",
                 "Q49848": "periodical", "Q7377": "newspaper", "Q5292": "encyclopedia",
@@ -349,9 +349,9 @@ def match_publication(entity: dict, ku_name_en: str) -> tuple[int, int, list[dic
             break
     if found_pub:
         score += 1
-        matched.append({"field": "instance_of", "expected": "publication", "actual": found_pub, "result": "pass"})
+        matched.append({"field": "instance_of", "expected": "archive", "actual": found_pub, "result": "pass"})
     else:
-        matched.append({"field": "instance_of", "expected": "publication", "actual": "not found", "result": "fail" if p31_claims else "none"})
+        matched.append({"field": "instance_of", "expected": "archive", "actual": "unclassified_document", "result": "none"})
     max_score += 1
     if get_claims(entity, "P50") or get_claims(entity, "P577") or get_claims(entity, "P123"):
         score += 1
@@ -452,7 +452,7 @@ TYPE_MATCHER = {
     "person": match_person,
     "institution": match_generic_entity,
     "place": match_place,
-    "publication": match_publication,
+    "archive": match_archive,
     "work": match_work,
     "term": match_concept_entity,
     "procedure": match_concept_entity,
@@ -465,11 +465,11 @@ def infer_claim_scope(ku_type: str, quality: str) -> str:
         return "term_existence"
     if ku_type == "event":
         return "event_identity_only"
-    if ku_type == "publication" and quality == "strong":
+    if ku_type == "archive" and quality == "strong":
         return "bibliographic_fact"
     if ku_type in {"person", "institution", "place", "work"} and quality == "strong":
         return "basic_fact"
-    if ku_type == "publication":
+    if ku_type == "archive":
         return "bibliographic_hint"
     return "entity_identity_only"
 

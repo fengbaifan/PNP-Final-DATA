@@ -1,3 +1,3 @@
-# 术语索引
+# terms
 
-- [专属服务（servitu particolare）](../../04-knowledge/units/terms/servitu-particolare.md)
+暂无本项目有效条目。

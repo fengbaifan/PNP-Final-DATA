@@ -1,53 +1,24 @@
 ---
-title: 专属服务（servitu particolare）
-name_en: servitu particolare
-term_original: servitù particolare
-term_zh: 专属服务
-academic_translation_status: confirmed
+title: 专属服务（servitù particolare）
 type: term
-sub_type: patronage_term
+created: 2026-09-09
+updated: 2026-09-09
+evidence_status: source_backed
 sources:
-  - citation: "Haskell, Francis. Patrons and Painters: A Study in the Relations Between Italian Art and Society in the Age of the Baroque. Rev. ed. New Haven: Yale University Press, 1980, ch. 1, pp. 5-7."
-    location: 第一章第 5-7 页
+  - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), ch. 1, pp. 6–8."
+    location: "第1章，印刷页 6–8"
     evidence_ref:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
-      chapter_id: 01-chp-1
-      chunk_id: null
-created: 2026-09-09
-updated: 2026-09-09
-confidence: medium
-consensus: tentative
-source_count: 1
-last_verified: 2026-09-09
-review_due: 2027-03-09
-version: 1
-primary_domain: patrons-and-painters
-primary_dimension: A
-evidence_status: source_backed
-verification_level: L1
-tags: [patronage, contract, famiglia, allowance]
-hierarchy_scope_note: Theme 与 Topic 挂载待主题涌现后回填
+      source_span: "ch. 1, print pp. 6–8"
 ---
-
 
 ## 描述
 
-十七世纪赞助人—艺术家关系中最紧密的制度形式：艺术家受固定赞助人长期雇佣，常居于赞助人府邸，获月俸并按市场价取得作品报酬；赞助人承担其旅行学习费用；艺术家被视为王公家族（famiglia）成员，可沿等级阶梯晋升（如萨基 1637-1640 年间在枢机安东尼奥·巴尔贝里尼府中的位置变动）。
+十七世纪文本描述的赞助人与艺术家紧密服务关系。艺术家常住在赞助人府邸、获月俸，作品仍按价值另付酬；学习旅行可由赞助人承担。famiglia 在此指包括侍从与工作人员的家庭组织，不意味着血缘亲属。
 
-## 双语要点
+优先服务不等于绝对禁止为他人作画。艺术家也可能独立居住而领取津贴、给予原保护人优先权。第一章中的萨基家户等级与特雷维萨尼住处可作具体事例，但不机械将所有赞助关系命名为此制度。
 
-- 意大利语原词：servitù particolare
-- 英文释义：personal service / private retainer relationship
-- 对比项：独立工作室承接委托、画廊画销售
+## 来源与未决项
 
-## 验证状态
-
-- **证据状态**: source_backed
-- **验证层级**: L1（单一来源、语义阅读）
-- **验证日期**: 2026-09-09
-
-## 相关知识元
-
-- [[commission-contracting]]
-- [[urbano-viii]]
+本条为第一章样例的来源支持成稿与章内对齐结果；不表示已由独立原典或外部权威验证。出处以 sources 所列印刷页为准。

@@ -1,61 +1,27 @@
 ---
-title: 《阿什杜德的瘟疫》（The Plague at Ashdod, c. 1631）
-name_en: The Plague at Ashdod
-title_original: La Peste d'Asdod
-title_original_language: fr
-title_zh: 《阿什杜德的瘟疫》
+title: 《阿什杜德的瘟疫》（The Plague at Ashdod）
 type: work
-sub_type: painting
+created: 2026-09-09
+updated: 2026-09-09
+evidence_status: source_backed
+relations:
+  - {"relation_type":"created_by","target":"persons/nicolas-poussin.md","note":"普桑工作室中的既有初稿；未据此补写创作年份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"associated_person","target":"persons/fabrizio-valguarnera.md","note":"看见初稿后商议完成；不是从零委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
-  - citation: "Haskell, Francis. Patrons and Painters: A Study in the Relations Between Italian Art and Society in the Age of the Baroque. Rev. ed. New Haven: Yale University Press, 1980, ch. 1, p. 14."
-    location: 第一章第 14 页
+  - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), ch. 1, pp. 15."
+    location: "第1章，印刷页 15"
     evidence_ref:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
-      chapter_id: 01-chp-1
-      chunk_id: null
-created: 2026-09-09
-updated: 2026-09-09
-confidence: medium
-consensus: tentative
-source_count: 1
-last_verified: 2026-09-09
-review_due: 2027-03-09
-version: 1
-primary_domain: patrons-and-painters
-primary_dimension: E
-evidence_status: source_backed
-verification_level: L1
-tags: [poussin, painting, stock-picture, valguarnera]
-hierarchy_scope_note: Theme 与 Topic 挂载待主题涌现后回填
+      source_span: "ch. 1, print pp. 15"
 ---
-
 
 ## 描述
 
-普桑（Nicolas Poussin）约 1631 年的布面油画，现存卢浮宫。西西里冒险家与钻石走私者瓦尔瓜内拉（Fabrizio Valguarnera）在普桑工作室看到此画初稿后安排其完成，并追加委托新作《春》——是工作室存货画销售惯例的典型实例。
+普桑的画作。瓦尔瓜尔内拉在其工作室见到尚处初步阶段的作品，商议将其完成，并另行委托《春》。这提供了从工作室现有画稿到交易的具体事例。
 
-## 核心内容
+本章段落没有给出 1631 年、材质或卢浮宫现藏信息，这些旧卡内容暂不作为本次有效事实。保留既有含年份路径以维持对象引用；路径不是年代证据。未核对图像，不据文字补写画面细节。
 
-- **name_en**: The Plague at Ashdod
-- **creator**: 普桑（Nicolas Poussin）
-- **date**: 约 1631
-- **material_medium**: 布面油画
-- **current_location**: 卢浮宫（Louvre, Paris）
-- **cultural_context**: 工作室存货画销售惯例的实例——西西里冒险家与钻石走私者瓦尔瓜内拉（Fabrizio Valguarnera）在普桑工作室看到初稿，安排完成此画并追加委托《春》。
+## 来源与未决项
 
-## 双语要点
-
-- 意大利语境名：La peste di Asdod
-- 关键词：studio stock picture、Valguarnera、commission practice
-
-## 验证状态
-
-- **证据状态**: source_backed
-- **验证层级**: L1（单一来源、语义阅读）
-- **验证日期**: 2026-09-09
-
-## 相关知识元
-
-- [[commission-contracting]]
-- [[salvator-rosa]]
+本条为第一章样例的来源支持成稿与章内对齐结果；不表示已由独立原典或外部权威验证。出处以 sources 所列印刷页为准。

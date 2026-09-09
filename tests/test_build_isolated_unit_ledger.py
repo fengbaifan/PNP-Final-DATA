@@ -119,8 +119,8 @@ class IsolatedUnitLedgerTests(unittest.TestCase):
             self.write_unit(
                 root,
                 "events/example.md",
-                body="[Target](../publications/target.md)\n",
-                weak_associations=[{"target": "../publications/target.md", "reason": "needs_review"}],
+                body="[Target](../archives/target.md)\n",
+                weak_associations=[{"target": "../archives/target.md", "reason": "needs_review"}],
             )
 
             rows = ledger.build_ledger_from_triage([triage], root / "04-knowledge" / "units")
@@ -155,7 +155,7 @@ class IsolatedUnitLedgerTests(unittest.TestCase):
                         "evidence_status: externally_verified",
                         "---",
                         "",
-                        "[Target](../publications/target.md)",
+                        "[Target](../archives/target.md)",
                     ]
                 ),
                 encoding="utf-8",
@@ -274,12 +274,12 @@ class IsolatedUnitLedgerTests(unittest.TestCase):
             self.write_unit(
                 root,
                 "persons/pending.md",
-                weak_associations=[{"target": "../publications/context.md", "reason": "review"}],
+                weak_associations=[{"target": "../archives/context.md", "reason": "review"}],
             )
             self.write_unit(
                 root,
                 "persons/new-weak.md",
-                weak_associations=[{"target": "../publications/context.md", "reason": "review"}],
+                weak_associations=[{"target": "../archives/context.md", "reason": "review"}],
             )
 
             with patch.object(ledger, "all_units", return_value=units):

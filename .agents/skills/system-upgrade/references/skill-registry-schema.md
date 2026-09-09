@@ -1,4 +1,4 @@
-# Skill Registry Snapshot Contract v4.0
+# Skill Registry Snapshot Contract
 
 Skill 注册表是可重建导航快照，不是第二份 Skill 定义。
 
@@ -32,6 +32,8 @@ router 额外声明 `routes_to`。不得再用目录层级猜测 router/leaf；�
 - `scripts` 来自 Skill 与这些 direct references 中的显式 `scripts/*.py` 引用。
 
 相邻目录中的文件不会因为“放在 references 下”而自动成为有效合同。未被任何 Skill 直接引用的 reference、断裂 reference、间接隐藏 reference、孤立脚本引用、重复 frontmatter key 和第二 Skill 根都必须报错。reference 可以链接另一份已直接登记的 reference 作为交叉说明，但不得增加 `AGENTS -> SKILL -> direct reference` 之外的必读层级。
+
+直接登记表示路径可发现，不表示每次使用 Skill 都全文读取所有参考。清单注明适用情境，按当前问题选择；跨 Skill 的共享契约使用完整仓库路径。注册表不替代各任务当前 results，也不收纳用户原话或过程正文。
 
 ## 生成与校验
 

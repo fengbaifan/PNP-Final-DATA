@@ -14,7 +14,7 @@ import yaml
 
 BASE = Path(__file__).resolve().parents[1]
 DEFAULT_UNITS = BASE / "04-knowledge" / "units"
-UNIT_DIRS = ("persons", "institutions", "places", "works", "publications", "terms", "procedures", "events")
+UNIT_DIRS = ("persons", "institutions", "places", "works", "archives", "terms", "procedures", "events")
 
 
 def read_unit(path: Path, units_dir: Path) -> dict[str, Any]:
@@ -41,7 +41,7 @@ def read_unit(path: Path, units_dir: Path) -> dict[str, Any]:
         score += 1
         reasons.append("no_wikipedia_or_wikidata_anchor")
     unit_type = path.parent.name.removesuffix("s")
-    if unit_type in {"person", "publication", "term"}:
+    if unit_type in {"person", "archive", "term"}:
         score += 1
         reasons.append("priority_unit_type")
     return {

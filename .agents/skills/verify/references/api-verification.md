@@ -2,6 +2,8 @@
 
 > API 验证只负责生成有限范围 evidence，不负责直接宣告知识元 VERIFIED。
 
+REV-017 的 Wikipedia—Wikidata 双重核对由 verify/SKILL.md 规定。下列 API 字段和写回上限是现有接口能力，不能代替双向 QID 与实际身份比较；脚本没有自动完成该步骤。官方记录支持某个事实，不等于缺少的 Wiki 配对已完成。
+
 ## 一、通用原则
 
 1. API 命中只说明找到候选页面、实体或元数据。
@@ -20,10 +22,12 @@
 | institution | `entity_identity_only` |
 | place | `entity_identity_only` |
 | work | `entity_identity_only` |
-| publication | `bibliographic_hint` |
+| archive | `bibliographic_hint` |
 | term | `term_existence` |
 | procedure | `term_existence` |
 | event | `event_identity_only` |
+
+archive 包括未出版手稿、书信及档案，书目数据库只覆盖其中一部分。出版年、ISBN、出版商不是所有 archive 的必需属性；未找到出版物类型或书目匹配不证明文献不存在。API 原字段（如 publication_year）保持提供方名称。
 
 > claim 不作为知识元类型，其验证通过 quality/claim-registry.yml 的证据层独立管理。
 
@@ -81,7 +85,7 @@ Term / Procedure 的任意 `instance of (P31)` 不能自动算作概念类型命
 | 类型 | 关键字段 |
 |---|---|
 | person | P31、P569、P570、P106、P27、P800 |
-| publication | P31、P50、P577、P123、DOI/ISBN 相关字段 |
+| archive | P31、P50、P577、P123、DOI/ISBN 相关字段 |
 | work | P31、P170、P571、P195、馆藏或创作者字段 |
 | place | P31、P17、坐标、历史名称或机构属性 |
 | term / procedure | P279、P31、P1343，仅作术语或程序候选 |

@@ -93,7 +93,7 @@ def _normalize_target_path(target, source=None):
     return normalized
 
 def iter_all_units():
-    for dname in ["persons","institutions","places","works","publications","terms","procedures","events"]:
+    for dname in ["persons","institutions","places","works","archives","terms","procedures","events"]:
         d = UNITS / dname
         if d.exists():
             for f in sorted(d.glob("*.md")):
@@ -105,19 +105,19 @@ all_paths = set()
 
 def _target_type_from_path(target):
     target = _normalize_target_path(target)
-    for d in ["persons","institutions","places","works","publications","terms","procedures","events","topics","themes","domains","dimensions","claim"]:
+    for d in ["persons","institutions","places","works","archives","terms","procedures","events","topics","themes","domains","dimensions","claim"]:
         if f"/{d}/" in target or target.startswith(f"{d}/"):
             return d.rstrip("s")
     return "unknown"
 
 def _infer_type(target):
     target = _normalize_target_path(target)
-    for d in ["persons","institutions","places","works","publications","terms","procedures","events"]:
+    for d in ["persons","institutions","places","works","archives","terms","procedures","events"]:
         if f"/{d}/" in target or target.startswith(f"{d}/"):
             return {
                 "persons": "involves_person","institutions": "associated_institution",
                 "places": "located_at","works": "relates_to_work",
-                "publications": "cited_by","terms": "relates_to_term",
+                "archives": "cited_by","terms": "relates_to_term",
                 "procedures": "uses_procedure","events": "relates_to_event",
             }.get(d, "related_to")
     return "related_to"
@@ -242,7 +242,7 @@ for f, dname in iter_all_units():
     # ── Source 2: five-level hierarchy memberships ──
     allowed_hierarchy_roles = {
         "term_anchor", "representative_work", "key_person", "key_institution",
-        "geographical_context", "source_publication", "procedure", "evidence_event",
+        "geographical_context", "source_archive", "procedure", "evidence_event",
         "historical_context", "counterexample", "boundary_case", "supporting_source",
         "contested_claim",
     }

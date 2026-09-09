@@ -1,4 +1,6 @@
-# Work Package、Candidate 与 Write-back Contract v1.0
+# Work Package、Candidate 与 Write-back Contract
+
+适用范围：以下计划、机器账本及事务字段仅用于批量机器写回或既有接口的续接。普通语义编辑在现有过程记录中说明依据、原位更新并定向核对，不强制另建候选/计划/摘要。
 
 ## 一、工作包边界
 
@@ -118,5 +120,5 @@ candidate-decision-ledger.jsonl # 对历史候选作追加式裁决时
 evidence.jsonl             # 存在证据收集时
 apply-plan.jsonl           # 存在正式写回时
 runner-state.json          # 长任务或需要恢复时
-summary.md                 # 最终结果与未解决项
+summary.md                 # 仅旧接口兼容；人工交接引用业务 results，不重复写报告
 ```

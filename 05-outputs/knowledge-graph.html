@@ -1284,110 +1284,40 @@ h3 {
       <span class="brand-copy"><strong>《赞助人与画家》知识基础设施</strong><span>Patrons and Painters Knowledge Distillation</span></span>
     </a>
     <nav class="site-nav" aria-label="页面导航">
-      <a href="#overview">总览</a><a href="#architecture">结构</a><a href="#books">书目</a><a href="#knowledge-graph">图谱</a><a href="#pipeline">技术路径</a><a href="#progress">进展</a><a href="#next">下一步</a>
+      <a href="#overview">总览</a><a href="#architecture">结构</a><a href="#books">书目</a><a href="#knowledge-graph">图谱</a><a href="#pipeline">研究流程</a><a href="#progress">进展</a><a href="#next">下一步</a>
     </nav>
   </div>
 </header>
 
 <main id="main-content" class="page-shell">
-  <section id="overview" class="hero" aria-labelledby="overview-title">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <p class="hero-kicker">学术档案目录 · 巴洛克时期意大利艺术与社会</p>
-        <h1 id="overview-title">赞助人与画家<br>知识基础设施</h1>
-        <p class="hero-en">One book. Three parts. Seventeen chapters.</p>
-        <p class="hero-lede">从 Francis Haskell《赞助人与画家》进入一套可追溯的知识基础设施：对象、关系、层级与证据彼此连接，也保留尚未完成的研究边界。</p>
-        <div class="hero-actions"><a class="primary-action" href="#architecture">浏览研究框架</a><a class="secondary-action" href="#knowledge-graph">打开知识图谱</a></div>
-      </div>
-      <div class="hero-visual" aria-label="知识图谱预览">
-        <span class="hero-preview-label">Live corpus preview</span>
-        <svg id="heroGraph" role="img" aria-label="知识图谱节点与关系预览"></svg>
-        <div class="hero-graph-card"><strong>Gian Lorenzo Bernini</strong><span>人物 · 巴洛克雕塑家</span><p>连接作品、出版物与方法节点。完整图谱支持筛选、缩放和证据详情。</p></div>
-      </div>
-    </div>
-    <div class="hero-footer">
-      <div class="hero-footer-inner">
-        <div>
-          <div class="type-key" aria-label="图谱视觉编码">
-            <strong>点：知识元类型</strong>
-            <span class="key-item"><i class="key-dot" style="background:#3B82F6"></i>人物</span><span class="key-item"><i class="key-dot" style="background:#8B5CF6"></i>机构</span><span class="key-item"><i class="key-dot" style="background:#06B6D4"></i>地点</span><span class="key-item"><i class="key-dot" style="background:#F59E0B"></i>作品</span><span class="key-item"><i class="key-dot" style="background:#6366F1"></i>出版物</span><span class="key-item"><i class="key-dot" style="background:#10B981"></i>术语</span><span class="key-item"><i class="key-dot" style="background:#EC4899"></i>程序</span><span class="key-item"><i class="key-dot" style="background:#EF4444"></i>事件</span>
-          </div>
-          <div class="visual-key" aria-label="节点与连线说明"><span class="key-item"><i class="key-ring"></i>圈：当前选择</span><span class="key-item"><i class="key-line"></i>线：普通关系</span><span class="key-item"><i class="key-line strong"></i>线：选中路径</span></div>
-        </div>
-        <div class="project-scale" aria-label="项目规模"><strong><span id="overviewNodeCount">1,642</span> 图节点 · <span id="overviewRelationCount">6,464</span> 关系记录</strong><br><span id="overviewHierarchyCount">1,642</span> 个 KU 已完成五级挂载 · <span id="overviewTopicCount">62</span> 个 Topic 定义 · 130/130 结构健康 · 更新 2026-08-30</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="paper-shell">
-    <section id="architecture" class="section content-width" aria-labelledby="architecture-title">
-      <div class="section-heading"><p class="eyebrow">Research structure</p><h2 id="architecture-title">一套可下钻的<br>研究结构</h2><p class="section-lede">主干采用 Domain → Dimension → Theme → Topic → KU。Cluster 只保留为跨层发现候选，不替代正式结构节点。</p></div>
-      <div class="structure-layout">
-        <aside class="structure-metrics" aria-label="层级结构规模"><div class="structure-metric"><strong>1</strong><span>Domain</span></div><div class="structure-metric"><strong>5</strong><span>Dimension</span></div><div class="structure-metric"><strong>33</strong><span>Theme</span></div><div class="structure-metric"><strong id="structureTopicCount">62</strong><span>Topic 定义</span></div></aside>
-        <div class="hierarchy-panel">
-          <div class="hierarchy-level"><div class="level-label">Level 1<span>Domain</span></div><div class="core-theme"><strong>信息可视化的历史与理论</strong><span>视觉传知工具如何在历史、理论、技术与制度条件中演化</span></div></div>
-          <div class="hierarchy-level">
-            <div class="level-label">Level 2<span>Dimension</span></div>
-            <div class="dimension-tabs" role="tablist" aria-label="五个研究维度">
-              <button class="dimension-tab" style="--dimension-color:#4F7FEA" type="button" role="tab" aria-selected="false" data-dimension="A"><strong>A · 认识论</strong><span>5 个 Theme</span></button>
-              <button class="dimension-tab active" style="--dimension-color:#2FA99B" type="button" role="tab" aria-selected="true" data-dimension="B"><strong>B · 视觉编码</strong><span>8 个 Theme</span></button>
-              <button class="dimension-tab" style="--dimension-color:#D99A2B" type="button" role="tab" aria-selected="false" data-dimension="C"><strong>C · 历史谱系</strong><span>8 个 Theme</span></button>
-              <button class="dimension-tab" style="--dimension-color:#9877D9" type="button" role="tab" aria-selected="false" data-dimension="D"><strong>D · 批判传统</strong><span>9 个 Theme</span></button>
-              <button class="dimension-tab" style="--dimension-color:#D95745" type="button" role="tab" aria-selected="false" data-dimension="E"><strong>E · 身体与人机</strong><span>3 个 Theme</span></button>
-            </div>
-          </div>
-          <div class="hierarchy-level">
-            <div class="level-label">Level 3<span>Theme</span></div>
-            <div class="issue-panel" id="dimensionPanel" role="tabpanel">
-              <div class="issue-summary"><strong id="dimensionTitle">B · 视觉编码技术体系</strong><span><b id="dimensionCount">8</b> 个 Theme · 选择上方维度查看</span></div>
-              <ul class="issue-list" id="dimensionIssues"><li>B.1 组织式与网格式编码</li><li>B.2 几何式量化编码</li><li>B.3 拟真式与复合编码</li><li>B.4 制图与等值线技术</li><li>B.5 统计与流量编码</li><li>B.6 现代信息图表技术</li><li>B.7 设计标准与质量控制</li><li>B.8 统计方法与决策支持</li></ul>
-            </div>
-          </div>
-          <div class="hierarchy-level">
-            <div class="level-label">Level 4<span>Topic</span></div>
-            <div><div class="theme-band"><strong><span id="level4TopicCount">62</span> 个正式 Topic 定义</strong>提出具体研究问题；<span id="level4TopicAssigned">1,642</span> 个 KU 已通过 <code>topic_memberships</code> 建立多对多归属，未决对象不根据画面位置推定。</div></div>
-          </div>
-          <div class="hierarchy-level">
-            <div class="level-label">Level 5<span>Knowledge Unit</span></div>
-            <div><div class="theme-band"><strong><span id="architectureNodeCount">1,642</span> 个知识元</strong>其中 <span id="hierarchyCompleteCount">1,642</span> 个已完成 Domain、Dimension、Theme 与 Topic 挂载；其余 <span id="hierarchyPendingCount">0</span> 个保留为待裁决对象。</div><p class="hierarchy-note">KU 可多对多进入 Topic；Cluster 只提供跨层发现信号，不自动晋升。</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="books" class="section content-width" aria-labelledby="books-title">
-      <div class="section-heading"><p class="eyebrow">Distilled monographs</p><h2 id="books-title">三部书，三条<br>知识路径</h2><p class="section-lede">每本书按书目身份、研究问题、材料方法、学术贡献和蒸馏结果介绍。数据可交叉重叠，不以三书相加替代全库总量。</p></div>
-      <div class="book-list">
-        <article class="book-card" aria-labelledby="brinton-book-title">
-          <img class="book-cover" src="assets/cover-brinton-1914.png" alt="Graphic Methods for Presenting Facts 项目书目封面缩略图" width="128" height="171" loading="lazy">
-          <div class="book-main"><div class="book-author">Willard C. Brinton · 1914</div><h3 class="book-title" id="brinton-book-title">《以图表呈现事实》</h3><p class="book-title-en">Graphic Methods for Presenting Facts</p><p class="book-citation">New York: The Engineering Magazine Company, 1914. 实用方法论专著，17 章、254 幅图版。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>事实如何用曲线、条形、面积、地图与比较图准确表达。</dd></div><div><dt>材料与方法</dt><dd>以实例、反例和图版比较建立尺度、基线与标注规范。</dd></div><div><dt>学术贡献</dt><dd>记录统计图形转向组织管理与公共沟通的早期实践。</dd></div></dl></div>
-          <aside class="book-data" aria-label="Brinton 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>190</strong><span>关联知识元</span></div><div class="book-stat"><strong>127</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>807</strong><span>证据命中关系</span></div></div><div class="book-progress">18/18 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>术语 <strong>106</strong></div><div>程序 <strong>42</strong></div><div>人物 <strong>11</strong></div><div>其他 <strong>31</strong></div></div></aside>
-        </article>
-        <article class="book-card" aria-labelledby="lima-book-title">
-          <img class="book-cover" src="assets/cover-lima-circles-2017.png" alt="Book of Circles 项目书目封面缩略图" width="128" height="171" loading="lazy">
-          <div class="book-main"><div class="book-author">Manuel Lima · 2017</div><h3 class="book-title" id="lima-book-title">《圆圈之书：视觉化的知识领域》</h3><p class="book-title-en">Book of Circles: Visualizing Spheres of Knowledge</p><p class="book-citation">New York: Princeton Architectural Press, 2017. 视觉文化史与类型学专著，7 个家族、21 种模式。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>圆形为何跨文化反复成为知识组织与视觉表达的基本形式。</dd></div><div><dt>材料与方法</dt><dd>比较 300 余幅图像，以历史、符号学与认知研究建立类型谱系。</dd></div><div><dt>学术贡献</dt><dd>把圆形从形式母题推进为可比较、可检验的视觉语法。</dd></div></dl></div>
-          <aside class="book-data" aria-label="Lima 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>436</strong><span>关联知识元</span></div><div class="book-stat"><strong>51</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>527</strong><span>证据命中关系</span></div></div><div class="book-progress">6/6 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>作品 <strong>259</strong></div><div>人物 <strong>73</strong></div><div>术语 <strong>45</strong></div><div>其他 <strong>59</strong></div></div></aside>
-        </article>
-        <article class="book-card" aria-labelledby="rendgen-book-title">
-          <img class="book-cover" src="assets/cover-rendgen-history-2019.png" alt="History of Information Graphics 项目书目封面缩略图" width="128" height="171" loading="lazy">
-          <div class="book-main"><div class="book-author">Sandra Rendgen, editor · 2019</div><h3 class="book-title" id="rendgen-book-title">《信息图表史》</h3><p class="book-title-en">History of Information Graphics</p><p class="book-citation">Cologne: TASCHEN, 2019. 编著式历史图集，9 章、462 页，约 400 件历史案例。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>信息图形如何跨时期参与知识生产、传播和社会组织。</dd></div><div><dt>材料与方法</dt><dd>以年代叙事、作品图录与专题收藏并行组织历史视觉材料。</dd></div><div><dt>学术贡献</dt><dd>提供最广的对象与出处网络，同时保留欧美馆藏偏向的边界。</dd></div></dl></div>
-          <aside class="book-data" aria-label="Rendgen 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>1,024</strong><span>关联知识元</span></div><div class="book-stat"><strong>97</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>1,429</strong><span>证据命中关系</span></div></div><div class="book-progress">10/10 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>人物 <strong>355</strong></div><div>作品 <strong>352</strong></div><div>术语 <strong>139</strong></div><div>其他 <strong>178</strong></div></div></aside>
-        </article>
-      </div>
-      <div class="book-method-note"><strong>统计边界：</strong>“关联知识元”按 KU 的 <code>doc_id</code> 或 <code>sources[].evidence_ref.doc_id</code> 去重回溯；同一对象可由多本书共同支撑。关系数是来源证据命中的索引行，不等于去重后的抽象命题。</div>
-    </section>
-  </div>
-
-  <section id="knowledge-graph" class="graph-section" aria-labelledby="graph-title">
+<section id="overview" class="hero" aria-labelledby="overview-title">
+ <div class="hero-inner"><div class="hero-copy">
+ <p class="hero-kicker">从材料出发 · 让知识结构逐步形成</p>
+ <h1 id="overview-title">赞助人与画家<br>知识基础设施</h1>
+ <p class="hero-en">Knowledge, relationships, and emergence.</p>
+ <p class="hero-lede">从来源阅读到知识元与关系，再从真实联系中逐级形成问题、主题、维度和领域。这里呈现本项目实际形成的知识及其边界。</p>
+ <div class="hero-actions"><a class="primary-action" href="#architecture">浏览知识结构</a><a class="secondary-action" href="#knowledge-graph">打开知识图谱</a></div>
+ </div><div class="hero-visual" aria-label="知识图谱预览"><span class="hero-preview-label">Knowledge preview</span><svg id="heroGraph" role="img" aria-label="知识图谱预览"></svg>
+ <div class="hero-graph-card"><strong id="projectState">尚未执行研究</strong><span>知识元 · 关系 · 涌现</span><p id="projectStateNote">暂无本项目知识数据。后续实际成果将在这里呈现。</p></div></div></div>
+ <div class="hero-footer"><div class="hero-footer-inner"><div class="visual-key"><span class="key-item"><i class="key-dot" style="background:#3B82F6"></i>点：知识元</span><span class="key-item"><i class="key-line"></i>线：有据关系</span></div>
+ <div class="project-scale"><strong><span id="overviewNodeCount">0</span> 个知识元 · <span id="overviewRelationCount">0</span> 条关系</strong><br><span id="overviewTopicCount">0</span> 个 Topic · 以实际成果为准</div></div></div>
+</section>
+<div class="paper-shell">
+<section id="architecture" class="section content-width" aria-labelledby="architecture-title">
+ <div class="section-heading"><p class="eyebrow">Emergent structure</p><h2 id="architecture-title">结构从知识中<br>逐级形成</h2><p class="section-lede">知识元及关系 → Topic → Theme → Dimension → Domain。具体名称、数量和归属由材料支持，尚未形成的层次可以留空。</p></div>
+ <div class="structure-layout"><aside class="structure-metrics" id="structureMetrics" aria-label="结构数量"></aside><div class="hierarchy-panel" id="structureGroups" aria-live="polite"><p>尚未形成研究结构。</p></div></div>
+</section>
+<section id="books" class="section content-width"><div class="section-heading"><p class="eyebrow">Source materials</p><h2>从来源开始</h2><p class="section-lede">初始材料范围为 Francis Haskell《赞助人与画家》。每次研究明确所用版本和阅读范围；来源存在不代表已经处理。</p></div><a class="secondary-action" href="../02-sources/source-registry.md">查看来源登记</a></section>
+<section id="knowledge-graph" class="graph-section" aria-labelledby="graph-title">
     <div class="content-width">
-      <div class="section-heading"><p class="eyebrow">Knowledge graph</p><h2 id="graph-title">从全库进入<br>一条关系</h2><p class="section-lede">节点按知识元类型着色，大小反映连接度；选择节点后强调相邻路径。层级归属在上方展示，图中不根据画面位置推断结构。</p></div>
+      <div class="section-heading"><p class="eyebrow">Knowledge graph</p><h2 id="graph-title">从知识进入<br>一条关系</h2><p class="section-lede">节点按知识元类型着色，大小反映连接度；选择节点后强调相邻路径。层级归属在上方展示，图中不根据画面位置推断结构。</p></div>
       <div class="graph-shell">
-        <div class="graph-toolbar"><div class="graph-summary" id="graphSummary" aria-live="polite"><span>节点 <strong>—</strong></span><span>可视关系 <strong>—</strong></span><span>类型 <strong>8</strong></span></div><div class="graph-actions" aria-label="图谱视图控制"><button class="graph-button" type="button" id="zoomOutButton">缩小</button><button class="graph-button" type="button" id="zoomResetButton">复位</button><button class="graph-button" type="button" id="zoomInButton">放大</button></div></div>
+        <div class="graph-toolbar"><div class="graph-summary" id="graphSummary" aria-live="polite"><span>节点 <strong>—</strong></span><span>可视关系 <strong>—</strong></span><span>类型 <strong>0</strong></span></div><div class="graph-actions" aria-label="图谱视图控制"><button class="graph-button" type="button" id="zoomOutButton">缩小</button><button class="graph-button" type="button" id="zoomResetButton">复位</button><button class="graph-button" type="button" id="zoomInButton">放大</button></div></div>
         <div class="graph-layout">
           <aside class="graph-sidebar" aria-label="图谱筛选">
-            <label class="search-label" for="searchInput">搜索标题、英文名或标签</label><input class="search-input" type="search" id="searchInput" placeholder="例如：贝尔尼尼、乌尔班八世" autocomplete="off">
+            <label class="search-label" for="searchInput">搜索标题、英文名或标签</label><input class="search-input" type="search" id="searchInput" placeholder="输入实际知识元名称" autocomplete="off">
             <div class="filter-heading">知识元类型</div><div class="legend" id="legend"></div><button class="reset-filter" type="button" id="resetFilterButton">清除筛选</button><p class="filter-status" id="filterStatus" aria-live="polite">正在载入图谱…</p>
-            <div class="filter-heading">连线语义</div><div class="relation-key"><span class="key-item"><i class="key-line"></i>显式关系</span><span class="key-item"><i class="key-line" style="border-top-style:dashed"></i>规则推断</span><span class="key-item"><i class="key-line strong"></i>选中邻接路径</span></div>
+            <div class="filter-heading">连线语义</div><div class="relation-key"><span class="key-item"><i class="key-line"></i>显式关系</span><span class="key-item"><i class="key-line" style="border-top-style:dashed"></i>规则派生</span><span class="key-item"><i class="key-line strong"></i>选中邻接路径</span></div>
           </aside>
           <div class="graph-stage" id="graphStage"><svg id="graph" role="img" aria-label="知识元关系力导向图"></svg><div class="graph-empty" id="graphEmpty">没有符合当前条件的知识元，请调整关键词或类型。</div><aside class="detail" id="detail" aria-label="知识元详情" aria-hidden="true"><button class="detail-close" type="button" id="detailCloseButton" aria-label="关闭知识元详情">×</button><div id="detailContent"></div></aside></div>
         </div>
@@ -1395,29 +1325,12 @@ h3 {
       </div>
     </div>
   </section>
+<section id="pipeline" class="section content-width"><div class="section-heading"><p class="eyebrow">Research workflow</p><h2>先建立知识<br>再理解其联系</h2><p class="section-lede">摄入 → 处理 → 知识元 → 对齐 → 补足 → 关系。后续开展涌现分析，组织成果并呈现。</p></div><p>各环节保留过程、依据和当前结果。关键问题未解决时明确边界，不以页面规模或完整层级代替研究质量。</p></section>
+<section id="progress" class="section content-width"><div class="section-heading"><p class="eyebrow">Current state</p><h2>当前成果</h2><p class="section-lede" id="progressSummary">尚未执行研究，暂无有效知识成果。</p></div></section>
+<section id="next" class="section content-width"><div class="section-heading"><p class="eyebrow">Next step</p><h2>由实际研究<br>决定下一步</h2><p class="section-lede">从明确的来源与阅读范围开始。后续依据各阶段结果推进，保留不确定性，不预设将发现哪些主题。</p></div></section>
+</div></main>
 
-  <div class="paper-shell">
-    <section id="pipeline" class="section content-width" aria-labelledby="pipeline-title">
-      <div class="section-heading"><p class="eyebrow">Technical pathway</p><h2 id="pipeline-title">从来源到输出<br>六个动作</h2><p class="section-lede">语义阅读与判断由 Agent 承担；脚本负责索引、校验、dry-run 和受控写回。任何自动化都不直接提升置信度或验证状态。</p></div>
-      <div class="pathway" aria-label="知识蒸馏技术路径"><article class="pathway-step"><code>INTAKE</code><h3>摄入</h3><p>只读归档、哈希与章节映射。</p></article><article class="pathway-step"><code>READ</code><h3>阅读</h3><p>逐章抽取、消歧与类型判断。</p></article><article class="pathway-step"><code>COMPILE</code><h3>编译</h3><p>将候选编译为八类知识元。</p></article><article class="pathway-step"><code>VERIFY</code><h3>验证</h3><p>collect → evidence → dry-run → apply。</p></article><article class="pathway-step"><code>ORGANIZE</code><h3>组织</h3><p>关系、层级、主题与语义补足。</p></article><article class="pathway-step"><code>OUTPUT</code><h3>输出</h3><p>研究产出、回溯与发布门禁。</p></article></div>
-    </section>
-
-    <section id="progress" class="section content-width" aria-labelledby="progress-title">
-      <div class="section-heading"><p class="eyebrow">Current progress</p><h2 id="progress-title">五级结构基本闭合，<br>证据深化继续</h2><p class="section-lede">完成事实、运行信号和延期语义工作分开呈现。130/130 结构健康与 37/37 语义工件完整说明系统可运行，不等同于逐条学术验收。</p></div>
-      <div class="progress-facts"><article class="progress-fact"><strong>1,642/1,642</strong><h3>五级层级已挂载</h3><p>层级缺口已归零；边界案例继续保留角色与范围说明。</p></article><article class="progress-fact"><strong>280/280</strong><h3>claim 来源完整</h3><p>断言均保留来源与 source span。</p></article><article class="progress-fact"><strong>2,789/2,789</strong><h3>显式关系有证据</h3><p>另有 3,675 条规则推断关系，保持分层。</p></article><article class="progress-fact"><strong>1,642/1,642</strong><h3>现存 KU 已审</h3><p>证据不足对象保持延期或 tentative，不伪装为人工确认完成。</p></article></div>
-      <ol class="batch-timeline" aria-label="最近关键执行批次"><li class="batch-item"><div class="batch-id">BATCH 326</div><div><h3>层级尾项与重复合并</h3><p>4 个层级尾项完成裁决；2 个 Topic membership 写回，2 对重复 KU 合并。</p></div><div class="batch-result">层级缺口归零</div></li><li class="batch-item"><div class="batch-id">BATCH 321–322</div><div><h3>候选生命周期收敛</h3><p>关系与 creator 候选逐项复核；不充分证据保留延期，不自动升级为正式知识。</p></div><div class="batch-result">24 个 active candidate</div></li><li class="batch-item"><div class="batch-id">BATCH 323–325</div><div><h3>全库语义 enrich 收口</h3><p>最终 381 个对象完成复核；34 个补写，347 个转为来源复核延期，全库待审窗口归零。</p></div><div class="batch-result">现存 KU 全部已审</div></li></ol>
-      <div class="scope-note"><strong>当前边界：</strong>1,412 个知识元仍为单来源，24 个 active candidate 尚待处理；证据链评分 54/55 的唯一扣分来自外部 URL 尚未纳入本地 <code>doc_id</code> 口径。结构闭合不等于外部验证完成。</div>
-    </section>
-
-    <section id="next" class="section content-width" aria-labelledby="next-title">
-      <div class="section-heading"><p class="eyebrow">Next work</p><h2 id="next-title">从结构闭合，<br>走向证据与输出闭环</h2><p class="section-lede">下一阶段不再继续大规模挂载，而是修正证据审计口径、选择性补证，并检验 Topic 能否稳定支撑研究问题。</p></div>
-      <div class="next-grid"><article class="next-card primary"><span class="next-state">Priority 1 · audit</span><h3>修正外部证据计分</h3><p>让权威 URL 与本地 <code>doc_id</code> 分轨计入可解析证据，消除 54/55 中的口径性扣分。</p></article><article class="next-card"><span class="next-state">Priority 2 · evidence</span><h3>定向深化研究证据</h3><p>从 1,412 个单来源、1,446 个 tentative 对象中优先补证高连接 KU，不无差别重开。</p></article><article class="next-card"><span class="next-state">Priority 3 · output</span><h3>用 62 个 Topic 形成论证</h3><p>复核 Topic 边界与反例，再形成专题综述、查询结果与可回写研究输出。</p></article></div>
-      <div class="sources-panel"><strong>口径说明：</strong>本页于 2026-08-30 依据层级 v7.4、Batch 326、当前关系索引与健康快照更新。机械检查、语义审查、外部验证和正式验收保持区分。</div>
-    </section>
-  </div>
-</main>
-
-<footer class="site-footer"><div class="footer-inner"><span>Patrons and Painters Knowledge Distillation · Academic archive &amp; graph</span><span>Project v5.3.0 · initialized 2026-09-09</span></div></footer>
+<footer class="site-footer"><div class="footer-inner"><span>Patrons and Painters Knowledge Distillation · Academic archive &amp; graph</span><span>Project initialization · 0.1.0</span></div></footer>
 <div class="tooltip" id="tooltip" role="status"></div>
 
 <script>
@@ -1454,28 +1367,6 @@ const TYPE_POSITIONS = {
   event: [0.50, 0.18]
 };
 
-const DIMENSION_DATA = {
-  A: {
-    title: "A · 认识论与哲学基础",
-    issues: ["A.1 可视化的历史必然性", "A.2 物质与认识论条件", "A.3 图形学的学科独立性", "A.4 普遍可读性的理想与现实", "A.5 从知识插图到知识生产工具"]
-  },
-  B: {
-    title: "B · 视觉编码技术体系",
-    issues: ["B.1 组织式与网格式编码", "B.2 几何式量化编码", "B.3 拟真式与复合编码", "B.4 制图与等值线技术", "B.5 统计与流量编码", "B.6 现代信息图表技术", "B.7 设计标准与质量控制", "B.8 统计方法与决策支持"]
-  },
-  C: {
-    title: "C · 历史实践谱系",
-    issues: ["C.1 古代视觉知识工具", "C.2 中世纪图像传统", "C.3 文艺复兴与近代早期", "C.4 科学革命与统计起源", "C.5 十九世纪统计革命", "C.6 二十世纪实践", "C.7 早期新闻信息图表", "C.8 管理可视化传统"]
-  },
-  D: {
-    title: "D · 批判性传统与边界探索",
-    issues: ["D.1 讽刺可视化谱系", "D.2 编码失效与不可能性", "D.3 数据自传与主观量化", "D.4 批判性地图学", "D.5 教育可视化谱系", "D.6 改革、创新与惯例", "D.7 信息设计美学论争", "D.8 历史性与劳动政治", "D.9 新闻图形作为历史记录"]
-  },
-  E: {
-    title: "E · 身体图像与人机关系",
-    issues: ["E.1 解剖学可视化传统", "E.2 身体即机器隐喻", "E.3 人因学标准化的知识政治"]
-  }
-};
 
 let graphData = null;
 let simulation = null;
@@ -1513,6 +1404,7 @@ async function loadData() {
   }
 
   updateProjectMetrics();
+  renderStructure();
   renderHeroPreview();
   buildLegend();
   applyFilters();
@@ -1546,8 +1438,60 @@ function updateProjectMetrics() {
   document.getElementById("graphSummary").innerHTML = `
     <span>节点 <strong>${nodeCount}</strong></span>
     <span>可视化关系 <strong>${numberFormat.format(stats.total_links)}</strong></span>
-    <span>类型 <strong>${Object.keys(stats.by_type).length}</strong></span>
+    <span>类型 <strong>${Object.values(stats.by_type).filter(count => count > 0).length}</strong></span>
   `;
+}
+
+
+function renderStructure() {
+  const kinds = [["topics", "Topic"], ["themes", "Theme"], ["dimensions", "Dimension"], ["domains", "Domain"]];
+  const metrics = document.getElementById("structureMetrics");
+  const groups = document.getElementById("structureGroups");
+  metrics.replaceChildren();
+  groups.replaceChildren();
+  for (const [key, label] of kinds) {
+    const values = graphData.structure?.[key] || [];
+    const metric = document.createElement("div");
+    metric.className = "structure-metric";
+    metric.innerHTML = `<strong>${values.length}</strong><span>${label}</span>`;
+    metrics.appendChild(metric);
+    if (!values.length) continue;
+    const group = document.createElement("div");
+    group.className = "hierarchy-level";
+    const heading = document.createElement("div");
+    heading.className = "level-label";
+    heading.textContent = label;
+    const content = document.createElement("div");
+    content.className = "core-theme";
+    for (const node of values) {
+      const title = document.createElement("a");
+      title.textContent = node.title || node.code || node.id;
+      title.href = "../04-knowledge/structure/" + node.path.split("/").map(encodeURIComponent).join("/");
+      const item = document.createElement("p");
+      item.appendChild(title);
+      if (node.basis) item.appendChild(document.createTextNode(" — " + node.basis));
+      for (const member of node.members || []) {
+        if (!member || typeof member.ref !== "string") continue;
+        const link = document.createElement("a");
+        link.textContent = member.role || "成员依据";
+        link.href = "../" + member.ref.split("/").map(encodeURIComponent).join("/");
+        item.append(document.createTextNode(" · "), link);
+      }
+      content.appendChild(item);
+    }
+    group.append(heading, content);
+    groups.appendChild(group);
+  }
+  if (!groups.childElementCount) {
+    const message = document.createElement("p");
+    message.className = "section-lede";
+    message.textContent = "尚未形成 Topic、Theme、Dimension 或 Domain；不预设研究结构。";
+    groups.appendChild(message);
+  }
+  const total = graphData.nodes.length;
+  document.getElementById("projectState").textContent = total ? "当前知识成果" : "尚未执行研究";
+  document.getElementById("projectStateNote").textContent = total ? "浏览实际知识、关系及其证据。各对象的核验与未决状态分别说明。" : "暂无本项目知识数据。后续实际成果将在这里呈现。";
+  document.getElementById("progressSummary").textContent = total ? `当前有 ${total} 个知识元、${graphData.links.length} 条可视关系。数量不代表验证或涌现已经完成。` : "尚未执行研究，暂无有效知识成果。";
 }
 
 function renderHeroPreview() {
@@ -1573,7 +1517,7 @@ function renderHeroPreview() {
     .filter((link) => ids.has(endpointId(link.source)) && ids.has(endpointId(link.target)))
     .slice(0, 360)
     .map((link) => ({ ...link, source: endpointId(link.source), target: endpointId(link.target) }));
-  const previewFocus = "persons:william-playfair";
+  const previewFocus = sampled[0]?.id;
   const previewNeighbors = new Set([previewFocus]);
   for (const relation of links) {
     if (relation.source === previewFocus) previewNeighbors.add(relation.target);
@@ -1609,7 +1553,7 @@ function buildLegend() {
   const legend = document.getElementById("legend");
   legend.replaceChildren();
 
-  const definitions = [[null, "全部", "#64748B"], ...Object.entries(TYPE_ZH).map(([type, label]) => [type, label, TYPE_COLORS[type]])];
+  const definitions = [[null, "全部", "#64748B"], ...Object.entries(TYPE_ZH).filter(([type]) => graphData.stats.by_type[type] > 0).map(([type, label]) => [type, label, TYPE_COLORS[type]])];
   for (const [type, label, color] of definitions) {
     const button = document.createElement("button");
     button.type = "button";
@@ -1661,6 +1605,7 @@ function applyFilters() {
   const typeText = currentType ? TYPE_ZH[currentType] : "全部类型";
   const queryText = query ? `，关键词“${currentQuery.trim()}”` : "";
   document.getElementById("filterStatus").textContent = `${typeText}${queryText}：${numberFormat.format(nodes.length)} 个节点，${numberFormat.format(links.length)} 条关系。`;
+  document.getElementById("graphEmpty").textContent = graphData.nodes.length ? "没有符合当前筛选的知识元。" : "暂无本项目知识数据。研究尚未执行。";
   document.getElementById("graphEmpty").classList.toggle("visible", nodes.length === 0);
 }
 
@@ -1842,7 +1787,12 @@ function showDetail(node) {
       ${tags}
     </div>
     ${node.description ? `<p class="detail-description">${escapeHtml(node.description)}</p>` : ""}
-    <div class="detail-path">04-knowledge/units/${escapeHtml(node.path || "")}</div>
+    <div class="detail-path"><a href="../04-knowledge/units/${String(node.path || "").split("/").map(encodeURIComponent).join("/")}">阅读知识元与依据</a></div>
+    ${(node.sources || []).filter(source => source && typeof source === "object").map(source => {
+      const file = source.evidence_ref?.source_file;
+      const label = escapeHtml([source.citation, source.location].filter(Boolean).join(" · "));
+      return file ? `<p><a href="../${String(file).split("/").map(encodeURIComponent).join("/")}">${label || "查看来源"}</a></p>` : label ? `<p>${label}</p>` : "";
+    }).join("")}
   `;
   detail.classList.add("visible");
   detail.setAttribute("aria-hidden", "false");
@@ -1896,26 +1846,6 @@ document.getElementById("zoomOutButton").addEventListener("click", () => zoomGra
 
 document.getElementById("graph").addEventListener("click", (event) => {
   if (event.target === document.getElementById("graph")) closeDetail();
-});
-
-document.querySelectorAll(".dimension-tab").forEach((button) => {
-  button.addEventListener("click", () => {
-    const key = button.dataset.dimension;
-    const data = DIMENSION_DATA[key];
-    if (!data) return;
-    document.querySelectorAll(".dimension-tab").forEach((item) => {
-      const selected = item === button;
-      item.classList.toggle("active", selected);
-      item.setAttribute("aria-selected", selected ? "true" : "false");
-    });
-    document.getElementById("dimensionTitle").textContent = data.title;
-    document.getElementById("dimensionCount").textContent = data.issues.length;
-    document.getElementById("dimensionIssues").replaceChildren(...data.issues.map((issue) => {
-      const item = document.createElement("li");
-      item.textContent = issue;
-      return item;
-    }));
-  });
 });
 
 window.addEventListener("keydown", (event) => {

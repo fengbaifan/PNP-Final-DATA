@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T15:23:45",
+  "timestamp": "2026-09-09T15:56:50",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,9 +10,9 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 10,
-    "type_coverage": "8/8",
-    "base_type_coverage": "8/8",
+    "total_units": 0,
+    "type_coverage": "0/8",
+    "base_type_coverage": "0/8",
     "structure_node_coverage": "0/4",
     "deprecated_type_drift": 0,
     "hierarchy_version": "unknown"
@@ -26,87 +26,39 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 10,
+    "total_units": 0,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 10,
+    "units_missing_any_assignment": 0,
     "field_coverage": {
-      "primary_domain": "10/10",
-      "primary_dimension": "10/10",
-      "primary_theme": "0/10",
-      "topic_memberships": "0/10"
+      "primary_domain": "0/0",
+      "primary_dimension": "0/0",
+      "primary_theme": "0/0",
+      "topic_memberships": "0/0"
     }
   },
   "counts_by_type": {
-    "persons": 3,
-    "institutions": 1,
-    "places": 1,
-    "works": 1,
-    "publications": 1,
-    "terms": 1,
-    "procedures": 1,
-    "events": 1
+    "persons": 0,
+    "institutions": 0,
+    "places": 0,
+    "works": 0,
+    "publications": 0,
+    "terms": 0,
+    "procedures": 0,
+    "events": 0
   },
   "required_field_missing": {
     "title": [],
-    "name_en": [],
     "type": [],
     "sources": [],
     "created": [],
-    "updated": [],
-    "confidence": [],
-    "consensus": [],
-    "source_count": [],
-    "last_verified": [],
-    "review_due": [],
-    "version": []
+    "updated": []
   },
   "recommended_field_missing": {
     "sub_type": [],
     "tags": [],
     "evidence_status": []
   },
-  "recommended_field_missing_by_type": {
-    "persons": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "institutions": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "places": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "works": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "publications": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "terms": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "procedures": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    },
-    "events": {
-      "sub_type": 0,
-      "tags": 0,
-      "evidence_status": 0
-    }
-  },
+  "recommended_field_missing_by_type": {},
   "frontmatter_missing": [],
   "frontmatter_malformed": [],
   "body_only_field_issues": [],
@@ -125,18 +77,7 @@
   "verification_state_conflicts": [],
   "unverified_by_type": {},
   "migration_todo_sources": [],
-  "obsidian_syntax": [
-    "04-knowledge/units/persons/guercino.md",
-    "04-knowledge/units/persons/salvator-rosa.md",
-    "04-knowledge/units/persons/urbano-viii.md",
-    "04-knowledge/units/institutions/accademia-di-san-luca.md",
-    "04-knowledge/units/places/rome.md",
-    "04-knowledge/units/works/plague-at-ashdod-1631.md",
-    "04-knowledge/units/publications/patrons-and-painters.md",
-    "04-knowledge/units/terms/servitu-particolare.md",
-    "04-knowledge/units/procedures/commission-contracting.md",
-    "04-knowledge/units/events/schildersbent-formation-1623.md"
-  ],
+  "obsidian_syntax": [],
   "local_file_issues": [],
   "markdown_link_issues": [],
   "duplicate_basenames": {},
@@ -167,19 +108,19 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 10,
+    "sources_with_evidence_ref": 0,
     "sources_without_evidence_ref": 0,
-    "evidence_ref_resolvable": 10,
+    "evidence_ref_resolvable": 0,
     "evidence_ref_broken": 0
   },
   "claim_traceability": {
     "claim_registry_exists": true,
-    "total_claims": 5,
-    "claims_with_source": 5,
-    "claims_with_source_span": 5,
+    "total_claims": 0,
+    "claims_with_source": 0,
+    "claims_with_source_span": 0,
     "claims_with_supports": 0,
     "claims_with_supported_by": 0,
-    "claims_with_statement_en": 5
+    "claims_with_statement_en": 0
   },
   "relation_traceability": {
     "relation_index_exists": true,
@@ -339,11 +280,11 @@
   "structural_health": {
     "score_kind": "structural_contract_health",
     "max_score": 130,
-    "total": 114,
+    "total": 105,
     "rule_authority": 20,
     "frontmatter": 20,
     "verification_semantics": 20,
-    "traceability": 9,
+    "traceability": 0,
     "dataflow": 2,
     "report_freshness": 8,
     "engineering_safety": 5,
@@ -353,52 +294,33 @@
   "knowledge_structure_quality": {
     "score_kind": "knowledge_schema_and_state_integrity",
     "max_score": 65,
-    "total": 55,
+    "total": 65,
     "disambiguation": 15,
     "type_correctness": 10,
     "enum_validity": 10,
     "verification_coverage": 10,
     "recommended_fields": 10,
-    "hierarchy_assignment": 0
+    "hierarchy_assignment": 10
   },
   "evidence_quality": {
     "score_kind": "evidence_chain_integrity",
     "max_score": 55,
-    "total": 55,
-    "evidence_ref_coverage": 20,
+    "total": 35,
+    "evidence_ref_coverage": 0,
     "chunk_meta_completeness": 15,
     "source_hash_completeness": 10,
     "verification_schema_coverage": 10
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 10,
-    "source_count_distribution": {
-      "single_source": 10
-    },
-    "confidence_distribution": {
-      "medium": 10
-    },
-    "consensus_distribution": {
-      "tentative": 10
-    },
-    "evidence_status_distribution": {
-      "source_backed": 10
-    },
+    "total_units": 0,
+    "source_count_distribution": {},
+    "confidence_distribution": {},
+    "consensus_distribution": {},
+    "evidence_status_distribution": {},
     "isolated_units": {
-      "count": 10,
-      "sample": [
-        "events/schildersbent-formation-1623.md",
-        "institutions/accademia-di-san-luca.md",
-        "persons/guercino.md",
-        "persons/salvator-rosa.md",
-        "persons/urbano-viii.md",
-        "places/rome.md",
-        "procedures/commission-contracting.md",
-        "publications/patrons-and-painters.md",
-        "terms/servitu-particolare.md",
-        "works/plague-at-ashdod-1631.md"
-      ]
+      "count": 0,
+      "sample": []
     },
     "candidate_debt": {
       "total": 15,
@@ -430,16 +352,18 @@
       }
     },
     "research_debt": {
-      "single_source_units": 10,
-      "tentative_units": 10,
+      "single_source_units": 0,
+      "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
-      "units_missing_hierarchy_assignment": 10
+      "units_missing_hierarchy_assignment": 0
     }
   },
   "execution_scope": {
     "part": "knowledge",
-    "hierarchy_assignment": "not_in_current_scope"
+    "hierarchy_assignment": "not_in_current_scope",
+    "knowledge_inputs": "accepted_catalog",
+    "processing_inventory_is_research_progress": false
   },
   "content_quality": {
     "metric_kind": "deterministic_content_integrity",

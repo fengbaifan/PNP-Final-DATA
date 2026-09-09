@@ -4,7 +4,7 @@
 
 ## Chicago 17th Edition（默认格式）
 
-**所有知识元页面 `## 参考文献` 和 frontmatter `citation` 字段统一使用。**
+知识元 sources.citation 与内容中的研究文献清单采用一致的书目信息格式；来源登记、文献清单和第三部分的证据定位各有用途，不要求另建第四个顶层“参考文献”部分或复制文献卡。引用结构以字段/正文契约为准。
 
 ### Bibliography 条目模板
 
@@ -34,7 +34,7 @@
 
 ### APA 7th Edition（可选）
 
-可在 citation.json 的 `apa` 字段中额外记录，但不作主标识。
+仅当具体输出任务要求时转换，不为每个 KU 额外生成 citation.json。
 
 ---
 

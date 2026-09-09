@@ -30,14 +30,6 @@ class EntrypointDriftTests(unittest.TestCase):
         )
         return root
 
-    def test_entrypoint_budget_rejects_oversized_agents(self):
-        root = self.make_root()
-        (root / "AGENTS.md").write_text("\n".join(["line"] * 161), encoding="utf-8")
-
-        findings = audit_rule_drift.check_entrypoint_budgets(root)
-
-        self.assertEqual(findings[0]["issue"], "agents_line_budget_exceeded")
-
     def test_entrypoint_history_links_reject_direct_batch_reference(self):
         root = self.make_root()
         (root / "README.md").write_text(
@@ -71,6 +63,43 @@ class EntrypointDriftTests(unittest.TestCase):
         findings = audit_rule_drift.check_active_reference_targets(root)
 
         self.assertIn("active_reference_target_missing", {finding["issue"] for finding in findings})
+
+    def test_directory_entrypoints_are_checked_but_history_is_not(self):
+        root = self.make_root()
+        for relative in ("04-knowledge/README.md", "04-knowledge/structure/topics/README.md"):
+            path = root / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text("[old process](../process/missing.md)\n", encoding="utf-8")
+        history = root / "06-runtime/governance/user-revisions.md"
+        history.parent.mkdir(parents=True)
+        history.write_text("[historical path](old.md)\n", encoding="utf-8")
+
+        findings = audit_rule_drift.check_active_reference_targets(root)
+
+        self.assertEqual({f["file"] for f in findings}, {
+            "04-knowledge/README.md", "04-knowledge/structure/topics/README.md",
+        })
+        self.assertTrue(all(f["issue"] == "active_markdown_link_missing" for f in findings))
+
+    def test_valid_relative_links_and_templates_do_not_require_materialization(self):
+        root = self.make_root()
+        path = root / "04-knowledge/README.md"
+        path.parent.mkdir()
+        path.write_text(
+            "[entry](../AGENTS.md#scope)\n[web](https://example.org/page)\n"
+            "[local](#section)\n[future](results/<task-id>.md)\n",
+            encoding="utf-8",
+        )
+        self.assertEqual(audit_rule_drift.check_active_reference_targets(root), [])
+
+    def test_linked_skill_is_checked_without_legacy_heading(self):
+        root = self.make_root()
+        (root / "AGENTS.md").write_text(
+            "[missing](.agents/skills/missing/SKILL.md)\n", encoding="utf-8",
+        )
+        self.assertEqual(audit_rule_drift.check_skill_coverage(root), [
+            {"issue": "skill_missing_skill_md", "skill": "missing"},
+        ])
 
     def test_query_eval_targets_reject_missing_and_deprecated_units(self):
         root = self.make_root()

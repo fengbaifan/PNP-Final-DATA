@@ -1,129 +1,46 @@
-# Knowledge Unit 字段与存储契约 v2.0
+# 知识元字段与存储
 
-本文件是 `04-knowledge/units/**/*.md` 的唯一字段与 frontmatter 存储权威。8 类 KU 为 `person`、`institution`、`place`、`work`、`publication`、`term`、`procedure`、`event`；structure node、claim 和 Cluster 不使用 KU `type`。
+这是各类 KU 共用的 frontmatter 元数据契约（REV-019）。人物生平、作品属性、建筑沿革等属于正文内容，不能与来源/处理元数据混成一套类型各异的表头。内容判断不能由字段存在推导。
 
-## 一、机械必需字段
-
-以下字段与 `scripts/audit_repo.py` 的 `REQUIRED_FIELDS` 一致，缺失属于结构错误：
+## 最小字段
 
 ```yaml
-title: 中文名（English Name）
-name_en: English Name
-type: person | institution | place | work | publication | term | procedure | event
+title: "那不勒斯（Naples）"
+name_en: "Naples"
+type: person | institution | place | work | archive | term | procedure | event
+evidence_status: source_backed
 sources:
-  - <source-record>
+  - citation: 来源书目信息
+    location: 章节、页码或图像定位
+    evidence_ref:
+      doc_id: 实际来源标识
+      source_file: 实际文件路径
+      source_span: "lines 起始行–结束行; print pp. 印刷页"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-confidence: low | medium | high
-consensus: confirmed | disputed | tentative
-source_count: 1
-last_verified: YYYY-MM-DD
-review_due: YYYY-MM-DD
-version: 1
 ```
 
-推荐字段为 `sub_type`、`tags` 和 `evidence_status`。`verification_level` 在 `consensus != tentative` 时必须存在。`primary_domain`、`primary_dimension`、`primary_theme` 与 `topic_memberships` 是五级层级的目标字段，但历史未回填属于研究债务，不冒充 P0 schema error。
+来源应能核实对象和本次内容；定位不精确时记录原因，不填伪路径。日期对应实际创建/更新事件。成稿后通过 accepted.yml 登记有效引用，不表示外部事实已确认。
+各类型统一使用 title、name_en、type、created、updated、evidence_status、sources 及其相同子字段；sub_type 等可选字段也使用统一含义。示例 source_backed 只适用于实际有原文支持的内容，不是所有新对象的默认值。
+本地文本引用记录来源版本、文件和 source_span 中的具体行范围，PDF 同时保留印刷页/必要的 PDF 页区别；这里的“行数”指可追溯定位，不用总行数冒充覆盖。多个不连续位置分别列明。外部网页按实际 URL、访问日期、版本/段落或记录标识定位，不虚构本地行号。版本指纹可引用来源登记及处理记录，不在各 KU 重复复制整份来源清单。
+元数据登记“引用了什么”，内容属性/记录须注明“哪一出处支持这一信息”；整卡 evidence_status 不能代替事实级的支持范围。第三部分“关系与证据”（REV-020）解释证据绑定及其边界；现有 relations 在 frontmatter 中保留机器兼容位置，但逻辑上属于第三部分，不是一般来源元数据。不复制或搬动已成立的关系记录。
+title 为“中文名（English name）”，name_en 保存同一英文名称，沿用现有字段，不再增加同义的 title_zh/title_en 副本。上述名称只是格式示例，不是待填的默认对象。英文惯用名与原语言名称分清，例如 Naples 是英文名，Napoli 是意大利语名，原文名/别名可按需另存。
+人物以有依据的全名作为规范展示名；称号、昵称、别名、荣誉头衔和贵族头衔在内容中分别记录，不能互相替代。仅知惯用名时保留可确认名称并注明全名待对齐，不能为满足格式虚构全名；规范名变更不改稳定文件路径。
+没有可靠通行译名时可以采用忠实的描述性暂译，并在正文注明；不得把暂译声称为官方题名。身份或名称无法确定时保留已知原名及明确待定说明，双语要求不授权臆造。原文名、别名、tags、sub_type 按实际内容写。描述中英文存于同一正文，见 body-template.md；不另设重复的 description 字段或语言副本文件。来源格式见 citation.md。
 
-## 二、可选字段组
+## 按实际事件启用的字段
 
-可选字段只在有真实内容时写入；不得用空占位制造“完整”。空数组在 schema 明确允许集合值时合法。
+- evidence_status：unverified/source_backed/partially_verified/externally_verified/model_supported；模型判断不能成为来源事实。
+- confidence：low/medium/high；consensus：tentative/disputed/confirmed。有判断依据才赋值，不默认所有对象中等可信；confirmed 不由来源数量推导。
+- verification_level 和 last_verified 仅在实际核验后记录；review_due 仅在有明确复查安排时使用。L1–L7 是既有接口兼容码。
+- source_count 如使用，应与实际去重来源绑定一致；不存时可派生。
+- relations 仅在关系成立后写，weak_associations 不自动转正。
+- topic_memberships、primary_theme、primary_dimension、primary_domain 等只在相关结构实际形成后使用，父层缺失合法，不作为研究债务。
+- version 仅供既有机器接口兼容，普通文档通过 Git 和过程记录追溯，不强制初稿填写。
 
-```yaml
-sub_type:
-tags: []
-disambiguation:
-doc_id:
+机器验证状态写回仍遵守 verify 的 evidence 格式和受控 apply；其字段要求只在调用该接口时适用，不能反向强制普通初稿填满。
+同一对象一个固定正文路径、一组 frontmatter；状态与正文一致，来源本体不改写。身份冲突不机械合并。
 
-name_original:
-language_original:
-script_original:
-name_latinized:
-name_ascii:
-name_zh:
-aliases: []
-authority_sources: []
-translation_status:
-translation_note:
+## 关联契约
 
-evidence_status: unverified | source_backed | partially_verified | externally_verified | model_supported
-verification_level: L1 | L2 | L3 | L4 | L5 | L6 | L7
-verification_methods: []
-
-primary_domain:
-secondary_domains: []
-primary_dimension:
-secondary_dimensions: []
-primary_theme:
-secondary_themes: []
-role_in_theme:
-topic_memberships: []
-hierarchy_scope_note:
-
-relations: []
-weak_associations: []
-related: []              # 只作历史兼容，不是正式 relation 权威
-conflicts: []            # 只作历史兼容；现行冲突记录在 work package
-```
-
-层级值与 membership role 见 `hierarchy-field.md`；正式 relation 类型见 `relation-types.md`。验证状态的晋级与写回只遵循 `.agents/skills/verify/SKILL.md`，本文件不建立第二套状态裁决。
-
-## 三、来源结构
-
-`sources` 是来源绑定列表，`source_count` 必须等于实际去重后绑定的条目数，不使用增量猜测：
-
-```yaml
-sources:
-  - citation: "Chicago 17th 可引用条目"
-    location: "chapter / page / figure / source span"
-    evidence_ref:
-      doc_id: "patrons-and-painters"
-      source_file: "02-sources/02-Markdown/01_CHP-1.md"
-      chapter_id: "01-chp-1"
-      chunk_id: null
-```
-
-- `evidence_ref.doc_id` 必须对应真实来源目录。
-- `evidence_ref.source_file` 只能写真实存在的仓库路径，不得假设固定 `original.md`。
-- 无法精确定位时不写伪路径，使用 `source_file_status: needs_precise_source_file` 并记录原因。
-- citation 格式见 `citation.md`；文件路径不是来源主标识。
-
-## 四、名称与身份
-
-- `name_en` 优先取自原始来源或可审查权威来源；不得只根据 slug 静默推断。
-- 来源确无英文名时，可由 Agent 明确转写，并在 `translation_note` 或工作包 decision 中记录依据与不确定性。
-- `type` 是对象类别，不是唯一性依据；同一现实对象不得因类型标签差异重复建档。
-- 文件命名、同名消歧和类型判断见 `taxonomy.md`。
-
-## 五、类型专有内容
-
-下列字段是语义建构提示，不是全库统一必需字段。只有来源支持时才写入；缺失默认是内容债务，不是机械结构故障。
-
-| 类型 | 优先字段 |
-|---|---|
-| person | `birth_death`、`nationality`、`occupation`、`contribution_scope`、`representative_works`、`associated_institutions` |
-| institution | `official_name`、`institution_type`、`location`、`active_period`、`parent_institution`、`collections` |
-| place | `modern_name`、`historical_names`、`coordinates`、`spatial_scope`、`administrative_context`、`related_events` |
-| work | `title_original`、`creator`、`year`、`medium`、`format`、`collection`、`image_assets`、`visual_features` |
-| publication | `title_original`、`author`、`publication_year`、`publisher`、`doi`、`isbn`、`worldcat`、`archive_url`、`edition` |
-| term | `term_original`、`term_zh`、`definition`、`scope_note`、`broader_terms`、`narrower_terms`、`related_terms` |
-| procedure | `action_name`、`steps`、`inputs`、`outputs`、`constraints`、`example_works`、`historical_context` |
-| event | `date`、`location`、`participants`、`cause`、`result`、`associated_works`、`source_basis` |
-
-## 六、文件与正文边界
-
-1. 每个 KU 只有一组起止 `---` frontmatter，文件编码为 UTF-8。
-2. 字段推荐顺序为身份 -> 分类 -> 来源 -> 层级 -> relation -> 生命周期 -> 验证；不得为了重排而制造无语义 diff。
-3. 正文从 `## 描述`、`## 定义` 或 `body-template.md` 允许的类型章节开始，不残留第二段 YAML。
-4. 正文与 frontmatter 的验证状态不得冲突；`## 相关知识元` 不能覆盖 relation index 的权威口径。
-5. 字段、来源路径和 relation 涉及不同语义，不使用通用 normalize writer 猜测；正式修订先形成 exact change-set，再跑最近邻门禁。
-
-## 七、状态诚实
-
-无人工工作流下，新建 KU 不得直接写为 `confirmed` 或 `externally_verified`。推荐初始状态为 `confidence: medium`、`consensus: tentative`、`evidence_status: source_backed`；证据不足时保留 `needs_evidence`、`external_not_found`、`unresolved` 或 `deferred`。单一来源、QID 或脚本分数不得自动晋级。
-
-## 八、验收
-
-- 必需字段、枚举、type/目录与 source path 通过 `python scripts/audit_repo.py --summary`。
-- `source_count` 与真实绑定来源一致。
-- `required_field_missing` 不新增；推荐字段和类型专有内容缺口进入研究债务。
-- 层级映射、relation mirror 和验证正文不与各自权威索引冲突。
+层级表达见 hierarchy-field.md，关系类型见 relation-types.md。类型专有内容按真实材料选择，不能为字段完整编造国籍、日期、作品或验证结论。

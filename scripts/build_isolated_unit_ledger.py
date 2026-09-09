@@ -26,7 +26,7 @@ UNITS = BASE / "04-knowledge" / "units"
 BATCH_RE = re.compile(r"batch-(\d+)")
 DATE_PREFIX = re.compile(r"^(\d{4}-\d{2}-\d{2})")
 FRONTMATTER_RE = re.compile(r"\A(?:\ufeff)?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
-UNIT_DIRS = ["persons", "institutions", "places", "works", "publications", "terms", "procedures", "events"]
+UNIT_DIRS = ["persons", "institutions", "places", "works", "archives", "terms", "procedures", "events"]
 PENDING_REVIEW_BUCKETS = {
     "needs_minimal_relation",
     "needs_minimum_relation_review",

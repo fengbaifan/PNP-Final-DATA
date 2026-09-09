@@ -1,93 +1,19 @@
-# no-data 与开放网页研究规则 v2.0
+# 外部无数据与证据记录
 
-本文件定义 Wikipedia、Wikidata 或其他外部数据库有数据/无数据时的处理边界。规则面向能力，不绑定已经退役的 provider。
+从属于 verify/SKILL.md。Wikipedia 页面或 QID 存在不等于验证通过，搜索无结果不等于对象不存在；请求失败也不能记成无结果。每个实体的双重身份核对及未完成处置统一遵循 verify，不另设网站搜索级数。
 
-## 一、基础规则
+## 实际记录
 
-```text
-页面存在 != 验证通过
-QID 存在 != externally_verified
-API success != 知识成立
-无页面或无 QID != 对象不存在
-外部数据库缺失 != 原始来源无效
-```
+命中来源后记录实际 URL/记录标识、访问日期、候选 QID、对象匹配依据、支持的事实与限制；涉及重定向或消歧义须说明。未实际查询的字段不填“未找到”。普通语义查证直接写入 03-processing/<task-id>/process/knowledge.md，知识正文在原位补充可支持内容；使用机器验证状态接口时才按 evidence JSONL → 语义裁决 → dry-run/apply 的契约写回。
 
-API、浏览器和开放网页研究只能产出 evidence candidate，不直接裁决 KU、claim 或 relation。
+没有匹配页面/QID时分别记“未找到”；缺少任一侧或粒度/身份冲突时记“双重验证未完成/冲突待解”。其他 Getty、档案馆、图书馆、博物馆或适用官方记录可以支持具体事实，但不冒称 Wiki 配对通过。按对象选择合适来源，不强制所有对象依次搜索 DOI、ISBN 或书目数据库。
 
-## 二、有数据时
+## 状态边界
 
-命中外部来源后至少记录：
+- 原文确有支持时保留 source_backed；仅有模型线索不得伪造 source_backed 或已读外证。
+- source_backed_only 可作为旧队列的描述标签，不是新增 evidence_status 枚举；不得与当前字段契约混用。
+- entity_identity_only、term_existence、bibliographic_hint 等支持范围不同，标题命中不验证整篇内容。
+- confidence/consensus 与具体事实的状态上限统一见 result-handling.md，不在此复制冲突阈值。单源或多源的数量本身都不构成状态晋升依据。
+- 采集工具只定位和收集候选；Agent 负责实际内容阅读与裁决。工具限制不禁止 Agent 在已授权范围内做普通语义编辑，亦不意味着每次网页查证必须新增一个机器工作包。
 
-```yaml
-platform:
-url:
-qid:
-match_quality: strong | medium | weak
-claim_scope:
-candidate_rank:
-redirect_or_disambiguation:
-supports:
-limits:
-```
-
-- `entity_identity_only` 只能证明实体身份候选。
-- `term_existence` 只能证明术语存在。
-- `bibliographic_hint` 只能证明书目信息线索。
-- 单一 evidence 不得提升为 `confidence: high`、`consensus: confirmed` 或 `externally_verified`。
-
-## 三、无数据时
-
-无数据必须记录为证据状态，而不是删除或否定 KU：
-
-```yaml
-external_lookup:
-  wikipedia: no_wikipedia_page
-  wikidata: no_wikidata_qid
-  external_databases: external_not_found
-  next_route: browser_or_open_web
-```
-
-后续按对象类型选择独立来源：
-
-```text
-Wikipedia / Wikidata 无结果
--> 浏览器或开放网页搜索
--> CrossRef / DOI / WorldCat
--> archive.org / library / institutional page
--> source_backed_only 或 model_supported
-```
-
-如果原始文献明确存在，状态可保持 `source_backed` 或 `source_backed_only`；只有模型知识时必须写为 `model_supported`。
-
-## 四、工具中立边界
-
-任何外部研究工具可以搜索、打开、快照、抽取正文并生成 citation/evidence candidate，但不得：
-
-- 判断 KU 类型；
-- 裁决 claim 或 relation；
-- 提升 confidence、consensus 或 verification 状态；
-- 直接写 KU、claim 或 relation。
-
-产物必须进入 evidence JSONL，再交给 Agent 复核和 apply gate：
-
-```json
-{
-  "evidence_id": "ev-...",
-  "adapter": "browser_or_open_web",
-  "source_url": "",
-  "snapshot_ref": "",
-  "extracted_text_ref": "",
-  "candidate_citation": "",
-  "supports": [],
-  "claim_scope": "",
-  "match_quality": "weak",
-  "limits": ""
-}
-```
-
-## 五、验收信号
-
-- apply gate 阻断把 no-data 解释为 deletion；
-- apply gate 阻断单源 evidence 越权升级；
-- backlog 能显示 `external_not_found` 与 `source_backed_only` 队列；
-- 现行规则不依赖特定 provider 缓存、CLI 或兼容脚本。
+失败、未命中、身份未决与已支持事实在过程和当前结果中分别说明。既有外证、成功写回记录与恢复指纹按对应接口保留；不因缺证而删除有来源依据的知识元。

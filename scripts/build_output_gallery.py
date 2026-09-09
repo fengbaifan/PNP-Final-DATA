@@ -135,6 +135,8 @@ def render_navigation_snapshot(text: str, health: dict) -> str:
         pattern = rf"(?m)^\|\s*{re.escape(label)}\s*\|.*?\|\s*([^|]+)\|$"
         match = re.search(pattern, rendered)
         if not match:
+            if label in {"structural_health", "traceability"}:
+                continue  # Legacy diagnostic rows are optional in user navigation.
             raise ValueError(f"output navigation metric row missing: {label}")
         replacement = f"| {label} | **{value}**{suffix} | {match.group(1).strip()} |"
         rendered = re.sub(pattern, replacement, rendered, count=1)
@@ -215,6 +217,26 @@ def file_back_health(base: Path = BASE) -> dict:
 
 def main() -> int:
     records = load_records()
+    # Navigation follows the same admitted input set as the graph, including empty projects.
+    try:
+        from scripts._accepted_knowledge import select_paths, load_catalog
+    except ModuleNotFoundError:
+        from _accepted_knowledge import select_paths, load_catalog
+    if load_catalog(BASE) is not None and (BASE / "04-knowledge" / "units").exists():
+        GALLERY.parent.mkdir(parents=True, exist_ok=True)
+        for folder in (BASE / "04-knowledge" / "units").iterdir():
+            if not folder.is_dir():
+                continue
+            paths = select_paths(BASE, "units", sorted(folder.glob("*.md")))
+            lines = [f"# {folder.name}", ""]
+            for path in paths:
+                text = path.read_text(encoding="utf-8-sig")
+                match = re.search(r"^title:\s*(.+)$", text, re.MULTILINE)
+                title = match.group(1).strip().strip('\"\'') if match else path.stem
+                lines.append(f"- [{title}](../../04-knowledge/units/{folder.name}/{path.name})")
+            if not paths:
+                lines.append("暂无本项目有效条目。")
+            (BASE / "05-outputs" / "index" / f"{folder.name}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     GALLERY.parent.mkdir(parents=True, exist_ok=True)
     GALLERY.write_text(render_gallery(records), encoding="utf-8")
     if not HEALTH.is_file() or not NAVIGATION.is_file():

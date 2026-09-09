@@ -1,82 +1,27 @@
-# 知识图谱数据格式规范
+# 页面数据契约
 
-## JSON结构
+保留现有页面样式和适用交互，数据来自本项目 accepted.yml 登记的有效对象，未接收的遗留内容不进入展示。
 
 ```json
 {
-  "nodes": [{
-    "id": "string",
-    "title": "中文标题",
-    "name_en": "English Name",
-    "type": "person|institution|place|work|publication|term|procedure|event",
-    "type_zh": "人物|机构|地点|作品|出版物|术语|程序|事件",
-    "color": "#HEX",
-    "tags": ["标签1", "标签2"],
-    "confidence": "high|medium|low",
-    "consensus": "confirmed|tentative|debated",
-    "sub_type": "子类型",
-    "source_count": "来源数量",
-    "evidence_status": "验证状态",
-    "primary_domain": "领域代码",
-    "secondary_domains": ["次级领域代码"],
-    "primary_dimension": "维度代码",
-    "primary_theme": "Theme 稳定代码",
-    "secondary_themes": ["次级 Theme 代码"],
-    "role_in_theme": "Theme 内角色",
-    "topic_memberships": [{"topic": "Topic 代码", "theme": "父 Theme", "role": "成员角色"}],
-    "hierarchy_scope_note": "层级适用范围说明",
-    "description": "简短描述",
-    "path": "相对路径"
-  }],
-  "links": [{
-    "source": "node_id",
-    "target": "node_id",
-    "relation_type": "权威 relation vocabulary 中的关系类型",
-    "relation_source": "explicit|inferred_by_rule|migrated_from_related",
-    "review_status": "关系审查状态",
-    "confidence": "high|medium|low",
-    "evidence_ref": {}
-  }],
-  "structure": {
-    "domains": [{"id": "patrons-and-painters", "code": "patrons-and-painters", "title": "..."}],
-    "dimensions": [{"id": "B-visual-encoding-techniques", "code": "B", "title": "..."}],
-    "themes": [{"id": "b4-cartography-and-isoline-techniques", "code": "B.4", "title": "..."}],
-    "topics": [{"id": "maps-and-power", "code": "maps-and-power", "parent_theme": "D.4", "title": "..."}]
-  },
+  "nodes": [],
+  "links": [],
+  "structure": {"topics": [], "themes": [], "dimensions": [], "domains": []},
   "stats": {
-    "total_nodes": 1637,
-    "total_links": 2225,
-    "relation_index_total": 3466,
-    "skipped_non_unit_relations": 1241,
-    "by_type": {"person": 430, "institution": 90, "place": 19, "work": 620, "publication": 74, "term": 284, "procedure": 91, "event": 29},
-    "hierarchy": {
-      "domain_assigned": 340,
-      "dimension_assigned": 340,
-      "theme_assigned": 340,
-      "topic_assigned": 0
-    },
-    "structure_nodes": {"domains": 1, "dimensions": 5, "themes": 33, "topics": 22}
+    "total_nodes": 0,
+    "total_links": 0,
+    "relation_index_total": 0,
+    "by_type": {},
+    "hierarchy": {"domain_assigned": 0, "dimension_assigned": 0, "theme_assigned": 0, "topic_assigned": 0},
+    "structure_nodes": {"topics": 0, "themes": 0, "dimensions": 0, "domains": 0}
   }
 }
 ```
 
-## 数据生成器
+nodes 含稳定 id、title、type、path 及实际存在的状态/来源信息；KU 类型为 person/institution/place/work/archive/term/procedure/event。consensus 如提供，使用 tentative/disputed/confirmed。
+后续呈现须保留 KU 的双语标题/描述及元数据、内容、关系与证据三部分，结构化属性和历史变化来自实际正文，不为页面反填知识。当前仅明确消费规则，尚未完成全库双语/三部分内容迁移及页面适配；本轮不刷新网页。
+links 只表示登记对象间已有证据的正式关系，含 source/target/relation_type 及实际 evidence_ref；端点不在本次数据范围的边不显示，不能把遗留全库关系数量当当前统计。
+structure 各数组按实际节点生成，父层未形成合法。展示字段兼容 primary_*、topic_memberships 和 code，但不得预设 A–E 分组或填满所有层级。
+统计、筛选和详情都从当前数据派生，不放旧项目示例规模；空数据有明确说明。
 
-`scripts/build_knowledge_graph_data.py` — 从 `04-knowledge/units/` 提取全部知识元，
-读取 `04-knowledge/structure/` 的正式层级，以 `04-knowledge/quality/relation-index.yml` 为唯一关系来源，并只生成：
-
-- `05-outputs/knowledge-graph-data.json`：机器可读 JSON。
-- `05-outputs/knowledge-graph-data.js`：供 `file://` 直接打开 HTML 时读取的同内容脚本。
-
-## 展示实现与依赖
-
-- `05-outputs/vendor/d3.v7.9.0.min.js`：固定版本的本地 D3 运行时；页面不得依赖远程脚本或字体。
-- `05-outputs/knowledge-graph.html`：当前 D3 二维主入口，读取 `knowledge-graph-data.*`。
-- `05-outputs/knowledge-graph-2d.html`：冻结的 D3 二维归档，读取独立的 `knowledge-graph-2d-data.*`。
-- `05-outputs/knowledge-graph-2d-manifest.json`：冻结二维归档的入口、数据、D3 依赖与 SHA-256 边界。
-
-`knowledge-graph-2d-manifest.json` 是用户输出完整性清单，不是 runtime R2 provenance manifest。它只约束冻结二维归档；`hash_mode: sha256-lf-normalized-v1` 要求计算前把 CRLF 规范化为 LF，以保证 Windows 与 Linux 检出一致。当前主入口的数据由生成器和 closure 管理。
-
-层级字段只呈现仓库中已正式写入的挂载。缺失 `primary_theme` 的知识元进入“待组织空间”；缺失 `topic_memberships` 时不得根据相似度或画面需要虚构 Topic。
-
-`structure.*[].id` 是结构文件的稳定 slug，显示与布局匹配必须优先使用 `code`。例如 Theme 文件 `b4-cartography-and-isoline-techniques.md` 的 `id` 为文件名 slug，而正式层级键是 `code: B.4`。
+scripts/build_knowledge_graph_data.py 生成 knowledge-graph-data.json/js；knowledge-graph.html 是当前入口。本地 D3 资源与样式保留，历史 knowledge-graph-2d* 不改写或作为当前数据。检查数据切换、空状态、动态层级、节点关系和证据链接。

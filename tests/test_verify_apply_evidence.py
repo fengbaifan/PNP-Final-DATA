@@ -64,6 +64,45 @@ def ku_text() -> str:
     )
 
 
+def test_verification_update_stays_in_third_part_and_preserves_neighbors():
+    text = ku_text().replace("Body\n", (
+        "## 内容\n\n### 描述\nChinese and English description.\n\n"
+        "## 关系与证据\n\n### 关系\nExisting relation.\n\n"
+        "### 验证状态\nOld status.\n\n### 待补与争议\nKeep this gap.\n\n"
+        "## 附录\nKeep this appendix.\n"
+    ))
+    result, outcome, _ = verifier._render_entry(evidence_entry("unused.md"), text)
+    assert outcome == "applied"
+    assert result is not None
+    assert "\n## 验证状态\n" not in result
+    assert result.count("### 验证状态\n") == 1
+    assert "Old status." not in result
+    assert "Existing relation." in result and "Keep this gap." in result
+    assert "Keep this appendix." in result
+    assert result.index("### 验证状态") < result.index("### 待补与争议") < result.index("## 附录")
+
+
+def test_legacy_verification_migrates_without_creating_a_version_counter():
+    text = ku_text().replace("version: 1\n", "").replace("Body\n", (
+        "## 内容\nKeep content.\n\n## 验证状态\nOld status.\n\n"
+        "## 关系与证据\n### 待补与争议\nKeep gap.\n"
+    ))
+    result, _, _ = verifier._render_entry(evidence_entry("unused.md"), text)
+    assert result is not None
+    assert verifier.scalar_fm(verifier.extract_frontmatter(result), "version") == ""
+    assert result.count("## 关系与证据\n") == 1
+    assert result.count("### 验证状态\n") == 1
+    assert "\n## 验证状态\n" not in result and "Old status." not in result
+    assert "Keep content." in result and "Keep gap." in result
+
+
+def test_duplicate_evidence_sections_block_without_rewriting():
+    text = ku_text() + "\n## 关系与证据\nA\n## 关系与证据\nB\n"
+    result, outcome, detail = verifier._render_entry(evidence_entry("unused.md"), text)
+    assert result is None and outcome == "blocked"
+    assert "ambiguous duplicate" in detail
+
+
 def test_runtime_state_rejects_resume_after_input_change():
     with tempfile.TemporaryDirectory() as tmp:
         state_path = Path(tmp) / "runner-state.json"

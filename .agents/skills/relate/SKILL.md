@@ -5,30 +5,26 @@ phase: current
 triggers:
   - relate
   - 关系关联
-description: 负责第六阶段的关系分析和正式写回，承接原 lint 中关系与断言证据契约。
+description: 负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。
 ---
 
 # relate
 
-负责第六阶段的关系分析和正式写回，承接原 lint 中关系与断言证据契约。
+负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。
 
-## 输入与执行
+## 输入与工作
 
-读取知识元、对齐/补足结果和相关原始段落。Agent 审查端点是否同一对象、具体 relation_type、方向、时间/语境及证据责任。
-正式关系由 KU frontmatter.relations 或 claim bindings 表达；relation-index.yml 是派生投影。受控关系词表来自 ingest/references/relation-types.yml。
-共享标签、同章出现、相似度、正文链接、related 和 weak_associations 不自动成为正式关系。不为消除孤点凑边。
-关系候选、证据、逐条决定先记录，再形成 exact apply plan 和可审阅 diff，受控写回后记录 applied/no_delta/blocked。同一文件串行；冲突或缺证交给 verify/source review，只回到必要环节。
-反向关系仅按受控 inverse 规则生成索引，不反写知识事实，不自动补出间接关系。
+读取本次有效 KU、对齐/补足结果及原始段落；判断端点、relation_type、方向、时间/语境和支持该关系的证据。词表见 `.agents/skills/ingest/references/relation-types.yml`，不能为填词表或消除孤点制造边。
+同章共现、相似度、标签、正文链接、related、weak_associations 只是线索，不能自动转为正式关系；间接路径不直接成为事实关系。
 
-## 过程、结果与完成
+## 产出与交接
 
-04-knowledge/process/<id>.md：逐关系分析、来源定位、方向/类型依据及不采纳理由。
-04-knowledge/results/<id>.md：正式关系、待证关系、否决关系清单，关联唯一当前 KU/证据文件。无可确认关系是合法结果。
-必要时运行 scripts/audit_relation_consistency.py、scripts/build_relation_index.py。正式图谱只包含有证据的关系；建成关系不自动启动 synthesize 或页面制作。
+03-processing/<task-id>/process/knowledge.md 保存判断理由与来源；04-knowledge/results/<task-id>.md 列正式、待证、否决关系和未解决问题。正式断言仅在 KU frontmatter.relations 或 claim bindings 维护，relation-index.yml 为派生索引。
+单对象编辑直接原位更新并检查证据、端点和方向；批量机器写回使用 exact apply plan、dry-run diff 及适用执行接口，同一文件串行，实际结果记 applied/no_delta/blocked。反向边仅按词表规则投影，不反写新事实。
+身份有误回 verify，原文/覆盖不足回 ingest，具体缺口回 enrich。无可成立关系是合法结果；第一部分到此交付，不自动启动发现或页面制作。
 
 ## 按需直接参考
 
 - `references/claim-evidence-governance.md`
 - `references/relation-governance.md`
-
 - `.agents/skills/system-upgrade/references/work-package-contract.md`

@@ -42,7 +42,7 @@ PROJECTIONS = (
     {
         "name": "knowledge_graph",
         "generator": "scripts/build_knowledge_graph_data.py",
-        "inputs": ("04-knowledge/units/**/*.md", "04-knowledge/structure/**/*.md", "04-knowledge/quality/relation-index.yml"),
+        "inputs": ("04-knowledge/accepted.yml", "04-knowledge/units/**/*.md", "04-knowledge/structure/**/*.md", "04-knowledge/quality/relation-index.yml"),
         "outputs": ("05-outputs/knowledge-graph-data.json", "05-outputs/knowledge-graph-data.js"),
     },
     {
@@ -60,8 +60,8 @@ PROJECTIONS = (
     {
         "name": "output_navigation",
         "generator": "scripts/build_output_gallery.py",
-        "inputs": ("06-runtime/state/current-health.json",),
-        "outputs": ("05-outputs/index/index.md",),
+        "inputs": ("04-knowledge/accepted.yml", "04-knowledge/units/**/*.md", "06-runtime/state/current-health.json"),
+        "outputs": ("05-outputs/index/index.md", "05-outputs/index/persons.md", "05-outputs/index/institutions.md", "05-outputs/index/places.md", "05-outputs/index/works.md", "05-outputs/index/archives.md", "05-outputs/index/terms.md", "05-outputs/index/procedures.md", "05-outputs/index/events.md"),
     },
     {
         "name": "runtime_index",
@@ -78,7 +78,7 @@ PROJECTIONS = (
     {
         "name": "health_and_backlog",
         "generator": "scripts/write_current_health.py",
-        "inputs": ("04-knowledge/units/**/*.md", "03-processing/**/*", "04-knowledge/quality/**/*"),
+        "inputs": ("04-knowledge/accepted.yml", "04-knowledge/units/**/*.md", "03-processing/**/*", "04-knowledge/quality/**/*"),
         "outputs": ("06-runtime/state/current-health.json", "06-runtime/governance/governance-backlog.md"),
     },
 )

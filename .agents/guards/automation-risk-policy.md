@@ -1,4 +1,4 @@
-# Automation Risk Policy v2.0
+# Automation Risk Policy
 
 ## Scope
 

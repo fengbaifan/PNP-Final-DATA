@@ -1,16 +1,16 @@
-# 知识库导航
+# 当前知识导航
 
-以下索引来自当前知识元文件；不代表外部验证或语义验收已完成。
+本项目尚未执行研究。导航仅引用有效成果，遗留试填文件保留供追溯，不计为本项目成果。文件存在和机械检查不代表语义验收。
 
 | 指标 | 当前快照 | 说明 |
 |---|---|---|
-| 知识元总数 | **10**（以 `current-health.json` 当前快照为准） | 机械状态，非语义验收 |
-| claim 数 | **5** | 机械状态，非语义验收 |
-| relation 数 | **0** | 机械状态，非语义验收 |
-| structural_health | **114/130** | 机械状态，非语义验收 |
-| traceability | **9/15** | 机械状态，非语义验收 |
+| 知识元总数 | **0**（以 `current-health.json` 当前快照为准） | 有效成果范围 |
+| claim 数 | **0** | 有效成果范围 |
+| relation 数 | **0** | 有效成果范围 |
 
-## 类型索引
+[当前页面](../knowledge-graph.html) · [输出登记](output-gallery.md)
+
+类型导航：
 
 - [人物](persons.md)
 - [机构](institutions.md)
@@ -20,6 +20,3 @@
 - [术语](terms.md)
 - [程序](procedures.md)
 - [事件](events.md)
-
-- [输出登记总览](output-gallery.md)
-- [当前知识图谱](../knowledge-graph.html)

@@ -10,10 +10,18 @@ from scripts import verify_collect_wikipedia
 
 
 class CurrentTaxonomyRoutingTests(unittest.TestCase):
+    def test_archive_matcher_does_not_reject_unclassified_unpublished_document(self):
+        entity = {"claims": {"P31": [{"mainsnak": {"datavalue": {"value": {"id": "unknown-document-kind"}}}}]}}
+        score, maximum, matched = verify_collect_wikidata.match_archive(entity, "An unpublished letter")
+        self.assertEqual((score, maximum), (0, 2))
+        self.assertEqual(matched[0]["result"], "none")
+        self.assertEqual(matched[0]["expected"], "archive")
+        self.assertEqual(verify_collect_wikidata.infer_claim_scope("archive", "weak"), "bibliographic_hint")
+
     def test_wikidata_matchers_cover_current_eight_types(self):
         self.assertEqual(
             set(verify_collect_wikidata.TYPE_MATCHER),
-            {"person", "institution", "place", "work", "publication", "term", "procedure", "event"},
+            {"person", "institution", "place", "work", "archive", "term", "procedure", "event"},
         )
 
     def test_claim_scope_uses_current_term_and_event_types(self):
@@ -24,7 +32,7 @@ class CurrentTaxonomyRoutingTests(unittest.TestCase):
     def test_wikipedia_scope_uses_current_eight_type_taxonomy(self):
         self.assertEqual(
             set(verify_collect_wikipedia.TYPE_ALIASES.values()),
-            {"person", "institution", "place", "work", "publication", "term", "procedure", "event"},
+            {"person", "institution", "place", "work", "archive", "term", "procedure", "event"},
         )
         self.assertEqual(verify_collect_wikipedia.infer_claim_scope("term"), "term_existence")
         self.assertEqual(verify_collect_wikipedia.infer_claim_scope("procedure"), "term_existence")

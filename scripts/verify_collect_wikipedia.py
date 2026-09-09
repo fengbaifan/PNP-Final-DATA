@@ -41,7 +41,7 @@ TYPE_ALIASES = {
     "institutions": "institution",
     "places": "place",
     "works": "work",
-    "publications": "publication",
+    "archives": "archive",
     "terms": "term",
     "procedures": "procedure",
     "events": "event",
@@ -141,7 +141,7 @@ def infer_claim_scope(ku_type: str) -> str:
         return "term_existence"
     if ku_type == "event":
         return "event_identity_only"
-    if ku_type == "publication":
+    if ku_type == "archive":
         return "bibliographic_hint"
     return "entity_identity_only"
 
@@ -149,7 +149,7 @@ def infer_claim_scope(ku_type: str) -> str:
 def infer_claim_target(ku_type: str) -> str:
     if ku_type in {"term", "procedure"}:
         return "term"
-    if ku_type == "publication":
+    if ku_type == "archive":
         return "title_or_bibliographic_identity"
     if ku_type == "event":
         return "event_name"

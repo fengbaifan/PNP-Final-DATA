@@ -1,61 +1,7 @@
-# Distillation System Contract v2.1
+# 摄入的证据边界
 
-## 一、对象链
+普通语义任务：明确来源和范围，完整阅读，形成可定位分析，判断对象及断言，保存过程/结果，成稿后交接。证据不足保留待证，不预设层级，不从共现制造关系。
+候选与正式对象分开，成稿与对齐/验证分开。来源本体只追加；登记可更新。判断由 Agent 负责，脚本只辅助机械工作。
 
-```text
-Source Signal
--> Source Block
--> Semantic Unit
--> Candidate
--> Existing-knowledge screening
--> Typed Write-back
--> KU / Claim / Relation / Evidence / Structure
-```
-
-后续 growth、output 与 file-back 复用同一 candidate/write-back 边界，不再建立另一条流水线。
-
-## 二、不可变原则
-
-1. Agent 负责语义阅读、候选边界、类型、命名、claim、relation 和 hierarchy 判断。
-2. 脚本负责校验、hash、索引、collect、dry-run 与已批准机械写回。
-3. `02-sources/` 来源本体只追加；顶层登记文件可更新、不可删除。
-4. 证据不足必须保留不确定状态。
-5. A-E 五个 pilot 维度、8 类 KU 与 4 类 structure node 不因摄入工具变化而被改写；Theme/Topic 数与实时 KU 数以现行结构与 health 快照为准。
-
-## 三、覆盖证明
-
-- 每个 source block 必须被读取、合并或有理由排除。
-- 每个可用 block 必须关联 semantic unit。
-- 每个 block 必须关联候选，或有具体 `no_candidate_reason`。
-- 每个候选必须筛查现有知识，区分新对象、既有目标、潜在重复、潜在冲突与无法判断。
-- source block、semantic unit、candidate 与正式对象之间可以正反向追踪。
-
-覆盖证明保存在 compact-v4 的三个 JSONL 和 manifest 中；历史 legacy processing 继续使用原有 chapter artifacts。
-
-## 四、候选与写回
-
-候选使用 work package contract 的统一 envelope；来源候选的 `payload.knowledge_match` 保存重复/冲突筛查。正式对象按类型路由：
-
-| candidate | route |
-|---|---|
-| unit create/merge | ingest / verify exact change-set |
-| claim | claim/evidence governance |
-| relation | relation governance |
-| evidence | verify collect/apply |
-| theme/topic | synthesize 的边界审查与结构写回 |
-| cluster | synthesize boundary test；只保留发现信号，不物化 structure node |
-| hierarchy_change | synthesize |
-
-候选不是正式对象。`approved` 也不是 `applied`；无变化必须记录 `no_delta`。
-
-## 五、禁止
-
-- 用正则、切块器或 LLM 摘要声称替代完整语义阅读。
-- 把 structure node 或 claim 建成 KU。
-- 把 legacy `related` 或弱共现直接升格为正式 relation。
-- 把 output 解释直接写回知识事实。
-- 为满足文件清单制造空工件。
-
-## 六、完成
-
-processing 完成要求覆盖证明闭合；知识写回完成要求 candidate、decision、evidence、apply 与定向验证闭合。两者必须分别记录，不能用一个 completed 混写。
+使用 compact-v4 机器接口时，source block、semantic unit、candidate 和正式对象之间保留可追踪引用，覆盖和来源指纹按 model-semantic-processing.md 核验。接口中的 payload.knowledge_match 区分新对象、既有对象、重复、冲突和未知，approved 不等于 applied，失败或无变化按实记状态。
+既有包保留历史声明，不伪回填。本项目接收成果依据实际新阶段结果，在 accepted.yml 登记引用；文件存在或旧包 completed 不等于本项目已执行。

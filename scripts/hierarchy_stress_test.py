@@ -26,14 +26,14 @@ HIERARCHY_FIELDS = ("primary_domain", "primary_dimension", "primary_theme", "top
 FRONTMATTER_RE = re.compile(r"\A(?:\ufeff)?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9'-]{2,}|[\u4e00-\u9fff]{2,}")
 UNIT_LINK_RE = re.compile(r"\.\./\.\./units/([A-Za-z0-9_./-]+\.md)")
-UNIT_DIRS = ("persons", "institutions", "places", "works", "publications", "terms", "procedures", "events")
+UNIT_DIRS = ("persons", "institutions", "places", "works", "archives", "terms", "procedures", "events")
 ALLOWED_ROLES = {
     "term_anchor",
     "representative_work",
     "key_person",
     "key_institution",
     "geographical_context",
-    "source_publication",
+    "source_archive",
     "procedure",
     "evidence_event",
     "historical_context",
@@ -47,7 +47,7 @@ DEFAULT_ROLE_BY_TYPE = {
     "institution": "key_institution",
     "place": "geographical_context",
     "work": "representative_work",
-    "publication": "source_publication",
+    "archive": "source_archive",
     "term": "term_anchor",
     "procedure": "procedure",
     "event": "evidence_event",

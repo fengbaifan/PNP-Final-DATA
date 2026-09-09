@@ -39,7 +39,7 @@ reviewer: optional
 notes: optional
 ```
 
-`verification_level` 只使用 `L1`–`L7` 表示验证渠道级联；
+`verification_level` 只使用 `L1`–`L7` 作为既有验证渠道兼容码，不表示七级必走搜索或六个业务阶段；
 `evidence_status` 使用 `unverified / source_backed / partially_verified /
 externally_verified / model_supported`。两者不得再使用同名的两套枚举。
 

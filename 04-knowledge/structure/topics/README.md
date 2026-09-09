@@ -1,5 +1,6 @@
 # structure/topics
 
-Topic 是五级主干的 Level 4，表达可研究、可回答的具体问题。每个 Topic 必须声明 `parent_theme`，并由不同类型 KU 通过 `topic_memberships` 以明确 role 提供材料。
+Topic 从 KU、关系和断言的语义联系中形成具体问题，不要求先有 parent_theme 或凑齐不同 KU 类型。上层 Theme 未形成合法；成立依据和反例按 [synthesize](../../../.agents/skills/synthesize/SKILL.md) 记录。
 
 Topic 不是 KU 的排他父目录；同一 KU 可以支持多个 Topic。
+当前不开展，已成立节点以 [accepted.yml](../../accepted.yml) 为准，不能以磁盘文件或候选索引推导完成。

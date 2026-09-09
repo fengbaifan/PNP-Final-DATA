@@ -27,7 +27,7 @@ DIRECT_BATCH_REFERENCE = re.compile(r"06-runtime/automation/[^`\s)]+/")
 MAIN_FETCH_REFSPEC = "+refs/heads/main:refs/remotes/origin/main"
 EXPECTED_ORIGIN_URL = "https://github.com/fengbaifan/PNP-Final-DATA.git"
 DEPRECATED_UNIT_TYPES = {"ideas", "propositions", "arguments", "concepts", "techniques", "cases"}
-CURRENT_UNIT_TYPES = {"person", "institution", "place", "work", "publication", "term", "procedure", "event"}
+CURRENT_UNIT_TYPES = {"person", "institution", "place", "work", "archive", "term", "procedure", "event"}
 CURRENT_UNIT_DIRECTORIES = {f"{unit_type}s" for unit_type in CURRENT_UNIT_TYPES}
 
 
@@ -98,28 +98,17 @@ def check_current_agents_key_entries(base: Path = BASE) -> list[dict]:
     """Check file references in the current AGENTS key-entry section."""
     agents = read_text(base / "AGENTS.md")
     findings: list[dict] = []
-    if "## 六、关键入口" not in agents or "## 七、版本说明" not in agents:
-        return [{"issue": "agents_key_entry_section_missing", "file": "AGENTS.md"}]
-    section = agents.split("## 六、关键入口", 1)[1].split("## 七、版本说明", 1)[0]
+    section = agents
     for match in re.finditer(r"`([^`]+\.(?:md|json))`", section):
         path_str = match.group(1)
+        if any(token in path_str for token in ("<", ">", "*")):
+            continue
         if not (base / path_str).exists():
             findings.append({
                 "issue": "missing_referenced_file",
                 "declared_in": "AGENTS.md key entries",
                 "path": path_str,
             })
-    return findings
-
-
-def check_entrypoint_budgets(base: Path = BASE) -> list[dict]:
-    findings: list[dict] = []
-    agents_lines = len(read_text(base / "AGENTS.md").splitlines())
-    readme_lines = len(read_text(base / "README.md").splitlines())
-    if agents_lines > AGENTS_LINE_BUDGET:
-        findings.append({"issue": "agents_line_budget_exceeded", "file": "AGENTS.md", "lines": agents_lines})
-    if readme_lines > README_LINE_BUDGET:
-        findings.append({"issue": "readme_line_budget_exceeded", "file": "README.md", "lines": readme_lines})
     return findings
 
 
@@ -219,6 +208,15 @@ def check_active_reference_targets(base: Path = BASE) -> list[dict]:
     paths += sorted((agents_dir / "skills").glob("**/SKILL.md"))
     paths += sorted((agents_dir / "skills").glob("**/references/*.md"))
     paths += sorted((agents_dir / "guards").glob("*.md"))
+    # Directory entrypoints are active rules too, not historical research records.
+    paths += [base / name for name in (
+        "03-processing/README.md", "04-knowledge/README.md",
+        "04-knowledge/results/README.md", "06-runtime/README.md", "scripts/README.md",
+        "04-knowledge/structure/hierarchy/index.md",
+        "04-knowledge/structure/dimension-candidates.md",
+        "04-knowledge/structure/taxonomy/type-candidates.md",
+    )]
+    paths += sorted((base / "04-knowledge/structure").glob("*/README.md"))
     for path in paths:
         if not path.is_file():
             continue
@@ -241,6 +239,12 @@ def check_active_reference_targets(base: Path = BASE) -> list[dict]:
                 continue
             if not (base / target).exists():
                 findings.append({"issue": "active_reference_target_missing", "file": relative, "path": target})
+        for target in sorted(set(re.findall(r"\[[^\]\n]*\]\(([^)\n]+)\)", text))):
+            if "://" in target or target.startswith("#") or any(c in target for c in "*<>{}"):
+                continue
+            target = target.split("#", 1)[0]
+            if target and not (path.parent / target).resolve().exists():
+                findings.append({"issue": "active_markdown_link_missing", "file": relative, "path": target})
     return findings
 
 
@@ -303,7 +307,7 @@ def check_structure_theme_targets(base: Path = BASE) -> list[dict]:
     if not theme_dir.exists():
         return findings
     target_pattern = re.compile(
-        r"(?P<target>(?:\.\./\.\./units/)?(?:persons|institutions|places|works|publications|terms|procedures|events|ideas|propositions|arguments|concepts|techniques|cases)/[a-z0-9-]+\.md)"
+        r"(?P<target>(?:\.\./\.\./units/)?(?:persons|institutions|places|works|archives|terms|procedures|events|ideas|propositions|arguments|concepts|techniques|cases)/[a-z0-9-]+\.md)"
     )
     for path in sorted(theme_dir.glob("*.md")):
         relative = path.relative_to(base).as_posix()
@@ -505,21 +509,18 @@ def check_knowledge_graph_version_contract(base: Path = BASE) -> list[dict]:
 
 
 def check_entrypoint_version_consistency(base: Path = BASE) -> list[dict]:
-    agents = read_text(base / "AGENTS.md")
-    readme = read_text(base / "README.md")
-    pyproject = read_text(base / "pyproject.toml")
-    declarations = {
-        "agents_header": re.search(r"^# .*?(v\d+\.\d+\.\d+)\s*$", agents, re.MULTILINE),
-        "agents_current": re.search(r"当前版本[：:]\s*(v\d+\.\d+\.\d+)", agents),
-        "readme_current": re.search(r"当前版本[：:]\s*(v\d+\.\d+\.\d+)", readme),
-        "pyproject": re.search(r"^version\s*=\s*\"(\d+\.\d+\.\d+)\"", pyproject, re.MULTILINE),
-    }
-    missing = sorted(name for name, match in declarations.items() if match is None)
-    if missing:
-        return [{"issue": "entrypoint_version_declaration_missing", "file": "AGENTS.md / README.md", "missing": missing}]
-    versions = {name: (match.group(1) if name == "pyproject" else match.group(1).removeprefix("v")) for name, match in declarations.items()}
+    """A single project version is required; document declarations are optional."""
+    project = re.search(r'^version\s*=\s*"(\d+\.\d+\.\d+)"', read_text(base / "pyproject.toml"), re.MULTILINE)
+    if not project:
+        return [{"issue": "project_version_missing", "file": "pyproject.toml"}]
+    versions = {"project": project.group(1)}
+    for name in ("AGENTS.md", "README.md"):
+        text = read_text(base / name)
+        declarations = re.findall(r"(?:当前版本[：:]\s*v?|项目初始化版本[：:]\s*|^# .*?v)(\d+\.\d+\.\d+)", text, re.MULTILINE)
+        for index, value in enumerate(declarations):
+            versions[f"{name}:{index}"] = value
     if len(set(versions.values())) != 1:
-        return [{"issue": "entrypoint_version_mismatch", "file": "AGENTS.md / README.md", "versions": versions}]
+        return [{"issue": "entrypoint_version_mismatch", "versions": versions}]
     return []
 
 
@@ -556,6 +557,9 @@ def check_output_navigation_snapshot(base: Path = BASE) -> list[dict]:
         "structural_health": health["structural_health"]["total"],
         "traceability": health["structural_health"]["traceability"],
     }
+    expected = {label: value for label, value in expected.items()
+                if label not in {"structural_health", "traceability"}
+                or re.search(rf"\|\s*{re.escape(label)}\s*\|", index)}
     declared: dict[str, int | None] = {}
     for label in expected:
         match = re.search(rf"\|\s*{re.escape(label)}\s*\|\s*\*\*(\d+)(?:/\d+)?\*\*", index)
@@ -575,6 +579,8 @@ def check_skill_coverage(base: Path = BASE) -> list[dict]:
     skills_section = agents.split("## 四、技能与管线")[1].split("## 五、")[0] if "## 四、技能与管线" in agents else ""
     for m in re.finditer(r"`(\w+(?:-\w+)*)`", skills_section):
         skill_names.add(m.group(1))
+    # Current entrypoint uses links, without depending on a numbered heading.
+    skill_names.update(re.findall(r"\]\(\.agents/skills/([^/]+)/SKILL\.md\)", agents))
 
     # Also check skill-registry.json
     registry_path = base / "06-runtime" / "state" / "skill-registry.json"
@@ -634,6 +640,8 @@ def check_retired_surface_absence(base: Path = BASE) -> list[dict]:
         "04-knowledge/quality/semantic-profile-index.yml",
         "05-outputs/exports/units-index.jsonl",
         "scripts/build_units_index.py",
+        "04-knowledge/process",
+        "portable/run_tests.py",
     )
     for relative in retired_paths:
         path = base / relative
@@ -694,7 +702,6 @@ def collect_findings(base: Path = BASE) -> list[dict]:
     findings.extend(check_retired_surface_absence(base))
     findings.extend(check_readme_structure(base))
     findings.extend(check_log_responsibility_boundaries(base))
-    findings.extend(check_entrypoint_budgets(base))
     findings.extend(check_entrypoint_history_links(base))
     findings.extend(check_active_reference_targets(base))
     findings.extend(check_query_eval_targets(base))

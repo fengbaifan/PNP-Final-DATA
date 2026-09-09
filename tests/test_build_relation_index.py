@@ -68,8 +68,8 @@ class BuildRelationIndexTests(unittest.TestCase):
             {
                 "source": "persons/source.md",
                 "source_type": "person",
-                "target": "publications/target.md",
-                "target_type": "publication",
+                "target": "archives/target.md",
+                "target_type": "archive",
                 "relation_type": "author_of",
                 "review_status": "needs_evidence",
             }
@@ -90,8 +90,8 @@ class BuildRelationIndexTests(unittest.TestCase):
 
         inverse = self.module._build_inverse_relation(
             {
-                "source": "publications/example-atlas.md",
-                "source_type": "publication",
+                "source": "archives/example-atlas.md",
+                "source_type": "archive",
                 "target": "persons/example-patron.md",
                 "target_type": "person",
                 "relation_type": "commissioned_by",

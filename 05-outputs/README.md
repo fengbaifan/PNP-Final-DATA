@@ -1,19 +1,7 @@
-# 知识呈现与输出
+# 呈现与页面
 
-本目录承载第二部分的成果组织、定稿与页面；当前保留既有展示，不因整理目录而启动知识发现或宣称展示内容已验收。
-
-| 位置 | 职责 |
-|---|---|
-| `process/<id>.md` | 成果组织、草稿修订、设计、制作和检查过程 |
-| `results/<id>.md` | 内容定稿或结果说明、验收状态与唯一成果链接 |
-| `results/<id>/` | 确有需要时保存该成果的导出附件；不预建空目录 |
-| `index/` | 内容导航与生成的 output-gallery.md |
-| `knowledge-graph.html`、`knowledge-graph-data.*` | 现有知识图谱主入口与数据；固定路径更新 |
-| `assets/`、`vendor/` | 页面资源与依赖 |
-| `output-registry.yml` | 无 bundle-local metadata 的成果登记，标明真实状态 |
-
-不再单设 drafts、exports 或 retrospects 分类；过程归 process，定稿和导出归 results。摄入快照与处理分析归 03-processing，知识分析归 04-knowledge。结果文档引用知识正文与页面，不复制第二套成果。
-
-`knowledge-graph-2d.html`、独立的 `knowledge-graph-2d-data.*` 和 `knowledge-graph-2d-manifest.json` 是保留的历史二维快照及完整性证据，不是当前主入口。保留路径，不通过本次目录整理改写历史。
-
-系统状态、用户原话、升级日志与机器运行记录归 06-runtime。新成果需要时才创建固定对象文档，后续原位更新。
+保留 knowledge-graph.html 的视觉样式、布局与适用交互，页面数据来自 04-knowledge/accepted.yml 指向的实际成果及对应正式关系。空项目显示空状态，不使用旧数据或预设 A–E 分组。
+process/<output-id>.md 记录内容、设计和修改理由；results/<output-id>.md 保存定稿/交付链接、状态与限制。导出附件需要时才在同名子目录保存。
+index 提供当前导航；assets/vendor 保留页面依赖；output-registry.yml 登记输出。知识内容、证据只引用原位置，不复制正文。
+knowledge-graph-2d* 是历史页面与完整性证据，保留但不作为当前项目入口或有效成果。
+数据变化时更新统计、筛选、节点详情、层级和证据链接，并检查实际交互；页面布局不能反过来要求研究填满节点。

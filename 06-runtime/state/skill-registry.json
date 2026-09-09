@@ -7,7 +7,7 @@
       "path": ".agents/skills/compose/SKILL.md",
       "kind": "leaf",
       "phase": "later",
-      "description": "第二部分的成果组织、查询、内容设计与页面呈现技能。初期不自动启动；用户明确查询或展示时可定向调用。",
+      "description": "按用户任务查询、组织和呈现可用知识；不自动启动发现或替页面补造数据。",
       "triggers": [
         "compose",
         "知识呈现",
@@ -18,27 +18,29 @@
         ".agents/skills/compose/references/data-schema.md"
       ],
       "scripts": [
-        "scripts/build_knowledge_graph_data.py",
-        "scripts/build_output_gallery.py"
+        "scripts/build_knowledge_graph_data.py"
       ]
     },
     "enrich": {
       "path": ".agents/skills/enrich/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责第五阶段，围绕已对齐知识元的明确内容缺口补足。目录分类不代表自动启动知识发现。",
+      "description": "负责阶段 5，围绕可用知识元的明确缺口补足。",
       "triggers": [
         "enrich",
         "补足知识元"
       ],
-      "references": [],
+      "references": [
+        ".agents/skills/ingest/references/body-template.md",
+        ".agents/skills/ingest/references/knowledge-unit-field-contract.md"
+      ],
       "scripts": []
     },
     "ingest": {
       "path": ".agents/skills/ingest/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责第一部分的摄入、处理、知识元三个阶段，逐阶段保存过程与结果。不得自动接续知识发现。",
+      "description": "负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。",
       "triggers": [
         "ingest",
         "摄入来源",
@@ -56,16 +58,13 @@
         ".agents/skills/ingest/references/taxonomy.md",
         ".agents/skills/system-upgrade/references/work-package-contract.md"
       ],
-      "scripts": [
-        "scripts/audit_repo.py",
-        "scripts/validate_processing_package.py"
-      ]
+      "scripts": []
     },
     "inspector": {
       "path": ".agents/skills/inspector/SKILL.md",
       "kind": "leaf",
       "phase": "support",
-      "description": "统一负责内容、来源覆盖、编码、证据状态、规则和系统结构的定向检查。吸收原 read-full、encoding-check、audit-confidence 与 system-review；不构成额外生产阶段。",
+      "description": "按指定问题审查内容、来源、证据或系统，不构成额外生产阶段。",
       "triggers": [
         "inspector",
         "系统审阅",
@@ -73,17 +72,13 @@
         "内容检查"
       ],
       "references": [],
-      "scripts": [
-        "scripts/audit_content_quality.py",
-        "scripts/audit_repo.py",
-        "scripts/audit_rule_drift.py"
-      ]
+      "scripts": []
     },
     "relate": {
       "path": ".agents/skills/relate/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责第六阶段的关系分析和正式写回，承接原 lint 中关系与断言证据契约。",
+      "description": "负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。",
       "triggers": [
         "relate",
         "关系关联"
@@ -93,22 +88,20 @@
         ".agents/skills/relate/references/relation-governance.md",
         ".agents/skills/system-upgrade/references/work-package-contract.md"
       ],
-      "scripts": [
-        "scripts/audit_relation_consistency.py",
-        "scripts/build_relation_index.py"
-      ]
+      "scripts": []
     },
     "synthesize": {
       "path": ".agents/skills/synthesize/SKILL.md",
       "kind": "leaf",
       "phase": "later",
-      "description": "第二部分的知识发现、结构与主题涌现及结构演化技能。用户明确启动后才执行；初期知识元/关系变化不触发。",
+      "description": "用户启动第二部分后，从已有知识及关系中发现新联系与解释，逐级形成研究结构。",
       "triggers": [
         "synthesize",
         "知识发现",
         "涌现分析"
       ],
       "references": [
+        ".agents/skills/ingest/references/hierarchy-field.md",
         ".agents/skills/system-upgrade/references/work-package-contract.md"
       ],
       "scripts": []
@@ -117,7 +110,7 @@
       "path": ".agents/skills/system-upgrade/SKILL.md",
       "kind": "leaf",
       "phase": "support",
-      "description": "处理用户已授权的规则、阶段流程、Skills、辅助代码和目录重构。",
+      "description": "执行已授权的系统调整，保持规则、Skills 与实际工具一致。",
       "triggers": [
         "system-upgrade",
         "系统升级",
@@ -136,26 +129,15 @@
       ],
       "scripts": [
         "scripts/_runtime_state.py",
-        "scripts/audit_repo.py",
-        "scripts/audit_system_upgrade_chain.py",
         "scripts/build_runtime_index.py",
-        "scripts/evidence_batch_runner.py",
-        "scripts/generate_governance_backlog.py",
-        "scripts/hierarchy_stress_test.py",
-        "scripts/pre_commit_check.py",
-        "scripts/run_sync_closure.py",
-        "scripts/skill_registry.py",
-        "scripts/verify_apply_evidence.py",
-        "scripts/verify_collect_wikidata.py",
-        "scripts/verify_collect_wikipedia.py",
-        "scripts/write_current_health.py"
+        "scripts/skill_registry.py"
       ]
     },
     "verify": {
       "path": ".agents/skills/verify/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责第四阶段对齐及各阶段必要的事实验证，包含原 reconcile 的冲突裁决职责。",
+      "description": "负责阶段 4 的身份与表述对齐，以及各阶段围绕明确问题的事实核验。",
       "triggers": [
         "verify",
         "知识元对齐",
@@ -170,9 +152,7 @@
         ".agents/skills/verify/references/result-handling.md",
         ".agents/skills/verify/references/type-verification.md"
       ],
-      "scripts": [
-        "scripts/verify_apply_evidence.py"
-      ]
+      "scripts": []
     }
   }
 }

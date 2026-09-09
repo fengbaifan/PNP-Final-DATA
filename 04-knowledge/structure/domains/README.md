@@ -1,3 +1,5 @@
 # structure/domains
 
-领域（Domain）是 Level 1 总问题域，不是 A–E 分析维度。当前只 materialize 一个测试领域，但 Domain 数量可按 `01-domain/domain-registry.md` 演化；领域内的分析轴位于 `../dimensions/`。
+Domain 由已形成的 Dimension 及其联系概括而来，不将项目名称或测试领域当作预定成员。具体名称、数量与边界由后续已启动的 synthesize 决定；当前不开展。
+
+已成立节点以 [accepted.yml](../../accepted.yml) 为准，规则见 [领域登记边界](../../../01-domain/domain-registry.md)。过程在 03-processing/<task-id>/process/knowledge.md，结果在 04-knowledge/results/<task-id>.md。

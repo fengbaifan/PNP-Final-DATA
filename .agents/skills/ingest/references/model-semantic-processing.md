@@ -1,4 +1,4 @@
-# Compact Semantic Processing Protocol v4.2
+# Compact Semantic Processing Protocol
 
 ## 一、source-map.jsonl
 
@@ -8,7 +8,9 @@
 {"block_id":"b001","source_file":"02-sources/doc/ch01/original.md","line_start":1,"line_end":8,"parallel_sources":[],"block_type":"body_argument","read_status":"read","continuity_refs":[],"semantic_unit_refs":["su001"],"candidate_refs":[],"no_candidate_reason":null,"notes":null}
 ```
 
-`read_status`：`read`、`merged`、`excluded_with_reason`、`needs_review`。正式写回前不得存在 `needs_review`；排除项必须有理由。
+仅在使用 compact-v4 工具或续接其历史包时采用本协议；普通新任务不强制五件套。
+
+`read_status`：`read`、`merged`、`excluded_with_reason`、`needs_review`。本包全部范围完成时不得存在 `needs_review`；部分交接须明确对象依赖范围已完整阅读且未受其余未读语境影响，不能把部分完成写成全包完成；排除项必须有理由。
 
 ## 二、semantic-units.jsonl
 

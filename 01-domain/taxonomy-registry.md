@@ -1,60 +1,29 @@
-# Taxonomy Registry — 类型体系成长注册表 v4.0
+# 对象表达类型
 
-本文件定义当前领域知识库的知识元类型注册规则。8 类基础类型沿用系统通用框架，本领域按其艺术史研究对象重新释义。
+类型是表达规则，不是预设研究内容。不要求每类都出现对象，类型不足时根据材料记录语义边界并扩展，不为凑齐词表创造知识。
 
-## 一、设计原则
+| type | 内容 |
+|---|---|
+| person | 人物 |
+| institution | 具有组织身份的机构、团体及政治实体；含国家、共和国、政府、修会、学院等 |
+| place | 地理位置及建筑空间；含城市、地区、街道、广场、宫殿、教堂及房间 |
+| work | 可辨认的艺术作品、建筑构件、艺术图册及设计对象；含绘画、雕塑、壁画、草图、装饰构件 |
+| archive | 文献与档案，不限是否出版；含书信、手稿、合同、收据、名册、图录、史料及学术著作/论文 |
+| term | 概念与术语 |
+| procedure | 程序、机制或操作惯例 |
+| event | 事件 |
 
-1. **基础类型先行**：8 类 knowledge unit，4 类 structure node；Cluster 属于发现候选，不是结构类型。
-2. **发现优先于预设**：新类型必须来自摄入、查询、审查中的反复结构性需求。
-3. **类型晋升有证据**：候选类型必须证明现有类型无法清晰表达其语义角色。
-4. **迁移可恢复**：新增、合并、弃用类型须保留映射记录（见 taxonomy-migration-map.json）。
-5. **领域可替换**：不同垂直领域可扩展不同类型，但共享同一套生命周期和审查协议。
+claim 是可判断的断言，evidence 指向支持或反驳它的来源，不另作为 KU 类型。
+后续 structure node 使用 topic、theme、dimension、domain；这些具体节点须从下层知识与关系中涌现。Cluster 只是候选观察，不是正式结构。
+对象命名、身份和来源规则见 ingest 的直接参考；具体结构边界见 synthesize。旧类型迁移映射留在历史治理记录，不作为新项目生成步骤。
 
-## 二、Knowledge Units（8 类基础类型）
+## 按语境辨认边界（REV-016）
 
-| 目录 | type | 角色 |
-|------|------|------|
-| `persons/` | `person` | 自然人行动者（画家/赞助人/经纪人/学者/收藏家） |
-| `institutions/` | `institution` | 组织实体（教会/修会/学院/行会/宫廷/家族） |
-| `places/` | `place` | 地理坐标点（城市/教堂/宫殿/工作室） |
-| `works/` | `work` | 视觉与物质对象（绘画/雕塑/建筑/委托作品） |
-| `publications/` | `publication` | 书目身份文本（传记/文献/目录/理论著作） |
-| `terms/` | `term` | 稳定术语/概念名称（赞助机制术语/艺术史概念） |
-| `procedures/` | `procedure` | 可操作知识/流程/工艺（委托流程/合同惯例/技艺） |
-| `events/` | `event` | 单一历史发生项（委托/庆典/艺术事件） |
+- “威尼斯”指城市、行程或出版地点时为 place；“威尼斯共和国”作为统治、外交或制度行动主体时为 institution。不能从地名自动生成共和国对象。
+- 教堂、宫殿、图书馆的建筑空间为 place；同名宗教团体、管理机构为 institution。谈收藏管理、馆藏编号时辨认的是保管机构，不能把建筑与保管者合并。
+- 建筑整体与内部空间为 place；被单独描述的柱、祭坛、门、穹顶构件以及内部绘画、雕塑为 work。建筑里的作品不是建筑的别名；“穹顶”指空间位置和“穹顶壁画”指作品时分别判断。
+- 艺术图册、画册原作为视觉创作对象时归 work；图录、档案册、学术图册作为文献载体时归 archive。同一对象可有两种作用，不仅因角色不同复制两卡；只有确为不同对象（如原作与其出版图录）才分开并关联。
+- archive 是本项目对所有文献的总称，含学术文献，不要求年代久远、已经出版或收入档案馆。其载体/文献种类可用 sub_type 表达；外部数据库中的 publication_year 等原字段名不因此改变。
+- 人物身份、作品主题、材料、荣衔、金额、时间、断言和证据不能按名词逐一强塞八类。可独立讨论的材料/颜色/身份概念可归 term；某批实物、神话图像角色等若现有定义不能忠实表达，记录原文和所缺能力，再判断是否扩类，不默默丢弃或临时冒充 person/work。
 
-## 三、Structure Nodes（4 类）
-
-| 目录 | node_type | 角色 | 判断规则 |
-|------|-----------|------|---------|
-| `structure/domains/` | `domain` | Level 1 总问题域 | 当前项目《赞助人与画家》：巴洛克时期意大利艺术与社会 |
-| `structure/dimensions/` | `dimension` | Level 2 分析维度 | 当前 A–E 五个 pilot 维度 |
-| `structure/themes/` | `theme` | 稳定问题群 | hierarchy Level 3；A.1/B.2 等代码 |
-| `structure/topics/` | `topic` | 可研究问题 | hierarchy Level 4；组织多类 KU 材料 |
-
-> structure node 不是 knowledge unit。如果一个对象可包含多个 unit，应提升为 structure node。
-> canonical hierarchy 为 domain -> dimension -> theme -> topic -> KU。Cluster 仅存在于 discovery candidate/work package，可对任意层级形成召回信号，但不能作为正式 structure node。
-
-## 四、Assertion & Evidence 层
-
-| 元素 | 存储 | 格式 |
-|------|------|------|
-| `claim` | `quality/claim-registry.yml` | YAML |
-| `evidence` | `quality/` | JSON |
-| `source` | 嵌入 claim/evidence | 内联 |
-| `citation` | 嵌入 source | Chicago 17th |
-
-> claim 不作为 knowledge unit 目录存在。旧 ideas/ 目录已归档至 claim-registry.yml。
-
-## 五、废弃类型映射
-
-| 旧 type | 新 type | 迁移日期 |
-|---------|---------|---------|
-| `concept` | `term` | 2026-05-08 |
-| `technique` | `procedure` 或 `term` | 2026-05-08 |
-| `case` | `event` 或 `topic`（structure node） | 2026-05-08 |
-| `idea` | `claim-registry.yml` 或 `term` | 2026-05-08 |
-| `theme` | structure node（非 knowledge unit） | 2026-05-08 |
-| `conflict` | frontmatter `conflicts` 字段或 quality/ | 2026-05-08 |
-
-完整映射见 `06-runtime/governance/taxonomy-migration-map.json`。
+类型数量不是提取配额，也不是完整性证明。逐行阅读后，所有有独立意义的对象都须明确处置：已有卡、新卡、作为属性/图像内容保留、待消歧，或现有类型不能表达。未有书名不意味着文献不能成稿，可用作者、对象、时间和出处作描述性标题；“希望找到的合同”不能被写成已存在的档案。

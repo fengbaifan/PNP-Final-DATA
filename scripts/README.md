@@ -1,47 +1,32 @@
-# Scripts — 受控机械执行器
+# 辅助脚本入口
 
-本目录只承载确定性索引、校验、证据分流和经授权写回。Agent 与 Skill Contract 负责语义阅读和裁决；脚本输出不得被解释为事实确认、关系批准或知识成熟。
+本目录提供定位、索引、校验、候选采集和受控写回。语义阅读、身份核对及关系判断由 Agent 按相应 Skill 完成；脚本成功不等于语义验收。脚本不是另一套工作流或权限表，按 AGENTS 的授权和实际任务选用。
 
-## 主要入口
+## 常用检查
 
-- `run_sync_closure.py`：默认读取 Git 变化集，只运行最近邻只读门禁；`--full` 强制全量审计与测试；发布门禁使用 `--refresh-generated --full --check-generated`。
-- `apply_topic_memberships.py`：只消费已审、带 Topic 哈希和 Git 基线的精确计划；整批预检后 dry-run 或原子写回 KU 五级层级字段。默认拒绝已有层级；显式 `existing_hierarchy_policy: merge` 时按 Topic 键安全增量合并、保留既有关系并跳过无变化对象。脚本不负责语义分类。
-- `evidence_batch_runner.py --batch-manifest <manifest>`：证据批次路由器。只做 evidence 分类、非空队列输出、可选 L1 dry-run/apply 和一次 change-aware closure，不承担通用 Pipeline、语义裁决、快照或 Git 操作。
-- `audit_repo.py`：一次解析 KU 快照，分别报告结构契约健康、知识结构质量、证据质量、runtime 保留状态与未计分的知识成熟度。
-- `audit_unverified_queue.py`：只读评估全库或指定结果集中的置信度、单来源、到期与状态冲突；必须显式指定 JSONL 输出，可附中文摘要，不修改 KU 状态。
-- `plan_verification_batch.py`：从置信度队列中机械筛选 120–180 个同时为单来源与 tentative 的高价值 KU，可用重复的 `--unit-type` 限定批次对象类型，按 40–50 个划分 checkpoint，并报告 Topic 覆盖；不收集证据或改变知识状态。
-- `verify_collect_wikidata.py`：Wikidata L2 evidence collector；单 KU 的候选实体一次批量拉取，429/5xx/超时采用有界重试并输出结构化 `collection_error`，`--retry-from` 只重跑历史 `api_error` 且不覆盖原 evidence。
-- `verify_collect_lcnaf.py`：人物/机构的 LC/NACO 权威名称 evidence collector；校验名称与 authority 类型，歧义缩写和类型冲突 fail closed，只生成待 Agent 复核的 JSONL。
-- `verify_collect_openlibrary.py`：Work/Publication 的 Open Library 书目 evidence collector；核对标题、初版年、作者、出版社与 ISBN，年份冲突和同名异作者 fail closed，不验证视觉解释或领域相关性。
-- `build_discovery_index.py`：把关系、processing、runtime 与 output 的候选归并为统一 candidate index；不执行任何写回。
-- `build_generated_projection_manifest.py`：为当前生成式 R2 投影记录有效输入、生成器、参数、KU 状态摘要与输出哈希。
-- `validate_processing_package.py`：校验 compact-v4 指纹资产、processing scope、逐行跨度并集与 Agent 复读字段；来源漂移返回 `reopened_source_drift`。
-- `build_runtime_index.py`：重建运行批次索引；`--retention-report` 只读报告 R1/R2/R3、容量与 provenance 状态。R2 必须由 manifest 精确声明且输出哈希匹配。
-- `hierarchy_stress_test.py`：默认只读输出五级层级缺口；显式 `--queue-output` 才生成语义待审队列。
-- `plan_relation_candidates.py`：默认只读召回关系候选；显式 `--write` 才刷新候选投影。
+- `python scripts/audit_rule_drift.py`：核对现行入口、规则和明确路径。
+- `python scripts/skill_registry.py`：检查唯一 Skill 根、名称、触发词、直接参考及派生注册表；Skill 变更后用 `--export` 更新导航。
+- `python -m pytest tests/<相关测试文件>.py`：检验受影响的代码行为；需要全套回归时才使用 `python -m pytest tests`。
+- `audit_repo.py`、`audit_relation_consistency.py`、`audit_content_quality.py`：按问题选择只读检查，结构/编码检查不替代语义判断。
+- `validate_processing_package.py`：仅用于既有 compact-v4 机器接口；不强制普通语义任务生成该包。
 
-## 权限边界
+## 按需工具
 
-| 类别 | 默认风险 | 约束 |
-|---|---:|---|
-| `audit_*.py` / `validate_*.py` | 只读 | 不修改知识或来源 |
-| `build_*.py` / `generate_*.py` / `write_*.py` | 按脚本授权 | 只写明确定义的派生投影 |
-| `collect_*.py` / `verify_collect_*.py` | 需确认 | 只收集证据，不自动 apply |
-| `verify_apply_evidence.py` | 需确认 | 仅消费通过策略校验的 evidence JSONL；正式写回必须显式 `--apply` |
-| `evidence_batch_runner.py` | 需确认 | `--apply-low-risk` 仅允许既有 KU 的 L1 证据写回 |
-| `hierarchy_stress_test.py --queue-output` | 需确认 | 只生成缺口队列，不决定或写回归属 |
-| `plan_relation_candidates.py --write` | 需确认 | 只刷新候选，不批准或应用关系 |
+| 工作 | 工具与边界 |
+|---|---|
+| 外部候选采集 | verify_collect_*.py 只产生候选证据；Wikipedia/Wikidata collector 目前未自动完成双向 QID 配对，须按 verify 直接阅读与核对。Open Library 等书目来源只覆盖 archive 的适用子集 |
+| 验证状态写回 | verify_apply_evidence.py 使用证据、语义裁决、dry-run 和显式 apply；evidence_batch_runner.py 只路由已有证据，不自行批准知识 |
+| 未决事项定位 | audit_unverified_queue.py、plan_verification_batch.py、plan_relation_candidates.py 输出候选或计划；工具中的批量默认值不是日常研究固定配额 |
+| 关系与名称投影 | build_relation_index.py、build_translation_index.py 按实际输入生成索引，正式事实仍在 KU；当前成果范围由 accepted.yml 指定 |
+| 后续结构 | build_discovery_index.py、hierarchy_stress_test.py、apply_topic_memberships.py 仅在相应任务已启动时使用，不因空层级自动执行 |
+| 运行与生成记录 | build_runtime_index.py、build_generated_projection_manifest.py 记录实际运行/输入输出，不证明研究完成；不为普通编辑刷新全部快照 |
 
-任何脚本都不得自动：
+## 收尾与历史入口
 
-- 选择 KU 类型或裁决 claim 真伪；
-- 将单来源证据升级为 `confirmed` 或 `externally_verified`；
-- 把候选、health、backlog 或测试通过等同于语义验收；
-- 创建分支、worktree、commit 或 push；
-- 删除历史 runtime 工件。
+`run_sync_closure.py` 是可选的检查组合器，默认依据变化选择检查；`--full` 扩大审计和测试，`--refresh-generated` 会改写派生文件，`--check-generated` 比较 HEAD。仅在任务需要并允许相关写入时使用，不是每阶段固定动作；当前页面暂停，不运行全量生成来通过检查。
 
-## 收尾约定
+CI 在提交/推送触发的独立环境中依 `.github/workflows/quality.yml` 验证，不构成每次本地语义编辑的审批链。本地检查通过不等于远端 CI 已通过，提交/推送仍依据用户明确授权。
 
-一个用户目标原则上只有一个 work package。包内 checkpoint 不重复触发全量收尾；最终统一执行一次生成刷新和全量门禁。生成内容先刷新并提交，随后再以 `--check-generated` 验证相对 `HEAD` 无漂移。旧固定行切块摄入器和批次内一次性 writer 已退役，不在工作树保留第二套可执行系统。
+workflow-copy-manifest.json 是最初导入的历史清单，其中路径和数量不代表当前系统。portable/verify_copy.py 仅校验原始导出包或未修改的副本，不用于判断已迭代项目是否正确。当前测试直接使用 pytest；旧 portable/run_tests.py 所依赖的导入路径已经退役，不保留第二套测试入口。
 
-退役脚本不在工作树建立第二套归档；Git 历史与系统升级记录承担 provenance。历史 runtime evidence 仍按保留契约原地保存，不受此规则影响。
+不默认新增工作包、机器状态、全量收尾或固定审核轮数。每项实际任务的过程与结果按 pipeline 分布存储；系统调整只记既有升级日志。

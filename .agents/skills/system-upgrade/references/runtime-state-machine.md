@@ -1,4 +1,4 @@
-# Batch-local Runtime State Contract v3.0
+# Batch-local Runtime State Contract
 
 ## 一、权威边界
 

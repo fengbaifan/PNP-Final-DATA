@@ -1,113 +1,32 @@
-# Index 分层契约
+# 索引、导航与事实来源
 
-> 本契约定义仓库中各类 index 的职责边界，避免把权威索引、派生输出、浏览导航和候选状态混写为同一层。
-> 它服务于 workflow-first 与渐进式披露体系，不改变当前 `04-knowledge/quality/` 的根目录位置。
+本参考说明渐进式读取时各类入口的责任，不按文件所在目录或是否被脚本读取来判断权威性。共同原则及记录方式见 AGENTS.md，阶段存储见 pipeline。
 
-## 一、总原则
+## 按职责区分
 
-1. index 不是单一概念，必须按职责分层解释。
-2. 会被 pipeline、verify、quality、growth 或受控脚本直接读取并作为写回依据的 index，属于权威索引层。
-3. 面向浏览、查询、写作和导出的 index，只能作为输出层导航或派生产物，不承担事实裁决。
-4. 当不同层的 index 内容不一致时，以 `04-knowledge/` 下的权威知识文件与权威索引为准；`05-outputs/` 视为待同步的派生层。
-5. 当前不迁移 `04-knowledge/quality/`；如未来要迁移，必须连同 pipeline、scripts、governance 记录做正式系统升级。
+| 类别 | 当前入口 | 使用边界 |
+|---|---|---|
+| 有效范围登记 | 04-knowledge/accepted.yml | 登记可用对象、断言及结构，不复制正文或证明全部事实已验证 |
+| 知识与证据 | 04-knowledge/units/、quality/claim-registry.yml、实际成立的 structure 节点及证据 | 对象正文、KU relations 和绑定证据是判断具体知识的依据；原始事实最终回查 02-sources 或实际外部来源 |
+| 当前任务结果 | 04-knowledge/results/<task-id>.md | 说明范围、完成度、成果位置、未决项和交接；不是另一套知识正文 |
+| 过程与历史裁决 | 03-processing/<task-id>/process/stages.md、process/knowledge.md | 分阶段保留实际阅读、语义判断及更改理由；不把历史状态当当前状态 |
+| 可重建索引 | 04-knowledge/quality/relation-index.yml、translation-index.yml | 分别由 KU 关系和名称生成，是检索投影；不能因位于 quality 就成为独立事实源 |
+| 导航 | 01-domain/index.md、04-knowledge/structure/hierarchy/index.md、各目录 README | 只指向规则、结果或对象；不复制全部事实、不维护另一套成员数量 |
+| 运行快照与候选 | 06-runtime/state/、实际候选/冲突记录 | 派生信号或待决内容，不代表知识成立或自动开工 |
+| 呈现 | 05-outputs/ 的导航、数据和页面 | 用户启动后读取有效成果；当前冻结页面不反向定义类型、数量或研究完成度 |
 
-## 二、四类 index
+quality 目录中的正式断言、成功写回记录、候选与派生索引有不同责任，不能将整个目录统称为“权威索引”。关系冲突回到 KU relations/claim bindings 和具体证据处理；名称冲突回到 KU 正文及来源，不改权威正文去迁就旧投影。
 
-### 1. 权威索引
+## 渐进式定位
 
-定义：
-- 属于知识权威层的一部分。
-- 服务于 assertion、relation、verification、authority、hierarchy 等正式状态。
-- 可以被 workflow 读取，可参与受控写回、验证与治理。
+先从当前任务结果或导航找到相关对象，再阅读该对象、关系与对应证据；需要理解判断变化时回到 03 中的相关过程段落。无需为查询一个对象预读全部 units、quality 或历史日志；要求完整阅读的研究材料仍按声明范围读完。
 
-当前仓库中的权威索引：
-- `04-knowledge/quality/claim-registry.yml`
-- `04-knowledge/quality/relation-index.yml`
-- `04-knowledge/quality/translation-index.yml`
-- `04-knowledge/structure/hierarchy/index.md`
-- `04-knowledge/structure/domains/`
-- `04-knowledge/structure/dimensions/`
-- `04-knowledge/structure/topics/`
-- `04-knowledge/structure/themes/`
+Skill 注册表只提供路径与能力导航；读取选定 Skill 及实际需要的直接 reference，不将注册清单自动展开成全部必读。
 
-边界：
-- 权威索引可以被输出层读取，但输出层不得反向覆盖其事实口径。
-- 权威索引不是面向消费的目录页，不以浏览友好性替代结构完整性。
-- `translation-index.yml` 必须完整投影 eligible KU，不得用固定行数截断；KU 删除后必须重建以移除 stale slug。
+## 更新与边界
 
-### 2. 派生输出
-
-定义：
-- 从权威知识层导出的辅助索引或数据投影。
-- 主要服务于快速检索、展示或跨工具消费。
-- 不直接承担知识裁决，也不是 workflow 的唯一事实来源。
-
-当前仓库中的派生输出：
-- `05-outputs/knowledge-graph-data.json`
-
-边界：
-- 派生输出可以为 query / compose / display 提供便利，但不能替代 `04-knowledge/` 的权威文件。
-- 若派生输出与权威索引不一致，应先修生成链或刷新派生产物，而不是改写权威层去迁就输出层。
-
-### 3. 浏览导航
-
-定义：
-- 面向人类阅读、写作和查询入口的导航页。
-- 允许对权威层做摘要、聚合和重新编排。
-- 只承担“如何找到内容”的职责，不承担“什么是最终事实”的职责。
-
-当前仓库中的浏览导航：
-- `05-outputs/index/index.md`
-- `05-outputs/index/persons.md`
-- `05-outputs/index/places.md`
-- `05-outputs/index/publications.md`
-- `05-outputs/index/works.md`
-- `05-outputs/index/README.md`
-
-边界：
-- 浏览导航可以引用快照统计，但必须声明其为导航层说明，不是权威状态本体。
-- 浏览导航一旦展示数值快照，必须在 sync closure 时与 `current-health.json` 及权威索引对齐；无法稳定维护的数值应删除而不是保留过期口径。
-- 浏览导航不得继续维持已废弃 taxonomy、旧目录别名或不存在的索引页链接。
-
-### 4. 候选状态
-
-定义：
-- 用于记录尚未进入权威知识层的候选、冲突或待裁决对象。
-- 可以被 review、quality、growth 或 system-upgrade 读取，但不能被当作已成立事实。
-
-当前仓库中的候选状态：
-- `04-knowledge/quality/relation-candidates.yml`
-- `04-knowledge/structure/dimension-candidates.md`
-- `04-knowledge/structure/taxonomy/`
-- `04-knowledge/quality/conflicts/`（冲突复核与裁决记录，不是 KU 类型）
-- `06-runtime/state/candidate-index.jsonl`（统一派生候选视图，不是知识事实）
-
-边界：
-- 候选状态不是输出导航，也不是权威索引。
-- 候选状态若要升级为权威层，必须经过对应 skill 的门禁和正式写回路径。
-
-## 三、输出层读取顺序
-
-当 output / query 场景需要读取索引时，默认顺序为：
-
-1. `04-knowledge/units/` 与 `04-knowledge/structure/`
-2. `04-knowledge/quality/` 中的权威索引
-3. `05-outputs/index/` 作为浏览导航层
-4. `05-outputs/results/<id>/` 中按需生成的导出附件
-
-禁止把上述顺序改写为“先读 output index，再把其统计或 taxonomy 当作事实源”。
-
-## 四、当前仓库的直接结论
-
-1. `04-knowledge/quality/` 目前位置合理，继续视为 Layer 2b 的权威层，不迁移。
-2. 当前主要问题不是 quality 放错位置，而是 `05-outputs/index/` 的导航页曾长期滞后于权威口径。
-3. output 技能文档不得再使用 `records/index/` 这类旧别名，而应显式区分权威索引与输出导航。
-4. 若未来扩充 output 导航页，应先确认导航页只做浏览入口，不复制或发明新的知识类型体系。
-
-## 五、验收关注点
-
-- `05-outputs/index/index.md` 是否已清除旧 taxonomy 与旧统计口径
-- output / query skill 是否已显式区分权威索引、浏览导航与派生输出
-- README 与 system-upgrade 记录是否能定位本契约
-- `04-knowledge/quality/` 是否继续保持 Layer 2b 权威层定位
-- `translation-index.yml` 的 indexed、declared total 和 eligible KU 是否一致，且 missing、stale、duplicate 均为 `0`
+- 只刷新本次改动直接影响且任务允许的投影，不将全量生成、健康分数或与 HEAD 一致作为日常语义门禁。
+- 关系/翻译索引的完整性按生成器声明的输入范围检查。磁盘全量索引可能包含未接收对象，展示必须再依据 accepted.yml 选取有效输入；索引条数不等于有效成果数。
+- 输入、参数与输出指纹在实际使用的生成记录中保留；规则内容更新只需要刷新受影响的 Skill 导航，无须因此刷新研究数据或页面。
+- 05-outputs 的旧页面及旧导航当前冻结。archive 分类、双语及三部分内容展示在后续呈现任务中依据新知识适配，不为链接检查提前创建页面。
+- 结构成员、名称、数量与归属由已启动的 synthesize 形成；导航不能宣称已存在预设 Domain、A–E 维度、33 个 Theme，或强制 Topic 先有上层节点。

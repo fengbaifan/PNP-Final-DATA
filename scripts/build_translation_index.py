@@ -11,7 +11,7 @@ import yaml
 
 BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / "04-knowledge" / "quality" / "translation-index.yml"
-TRANSLATION_UNIT_TYPES = ["persons", "terms", "publications", "works", "institutions"]
+TRANSLATION_UNIT_TYPES = ["persons", "terms", "archives", "works", "institutions"]
 
 
 def build_index(base: Path = BASE) -> list[dict[str, str]]:

@@ -29,7 +29,9 @@ VERIFICATION_LOG = BASE / "04-knowledge" / "quality" / "verification-log.md"
 EVIDENCE_FIELDS = ("evidence_status", "verification_level", "confidence", "consensus")
 SAFE_CONFIDENCE = {"medium", "low"}
 FRONTMATTER_RE = re.compile(r"^\ufeff?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
-VERIFY_SECTION_RE = re.compile(r"(## 验证状态\n)(.*?)(?=\n## |\n---|\Z)", re.DOTALL)
+VERIFY_SECTION_RE = re.compile(r"^## 验证状态[ \t]*\n.*?(?=^##[ \t]+|^---[ \t]*$|\Z)", re.MULTILINE | re.DOTALL)
+EVIDENCE_SECTION_RE = re.compile(r"^## 关系与证据[ \t]*$", re.MULTILINE)
+NESTED_VERIFY_RE = re.compile(r"^### 验证状态[ \t]*\n.*?(?=^#{1,3}[ \t]+|\Z)", re.MULTILINE | re.DOTALL)
 
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -91,6 +93,26 @@ def _set_frontmatter_scalar(frontmatter: str, field: str, value: object) -> str:
     return frontmatter.rstrip() + f"\n{field}: {rendered}"
 
 
+def _upsert_verification_section(body: str, section: str) -> str:
+    """Keep machine verification under the third part; preserve unrelated content."""
+    if len(VERIFY_SECTION_RE.findall(body)) > 1 or len(EVIDENCE_SECTION_RE.findall(body)) > 1:
+        raise ValueError("ambiguous duplicate verification/evidence sections")
+    body = VERIFY_SECTION_RE.sub("", body)
+    evidence = EVIDENCE_SECTION_RE.search(body)
+    if evidence is None:
+        return body.rstrip("\n") + "\n\n## 关系与证据\n\n" + section + "\n"
+    following = re.search(r"^#{1,2}[ \t]+", body[evidence.end():], re.MULTILINE)
+    end = evidence.end() + following.start() if following else len(body)
+    contents = body[evidence.end():end]
+    if len(NESTED_VERIFY_RE.findall(contents)) > 1:
+        raise ValueError("ambiguous duplicate nested verification sections")
+    if NESTED_VERIFY_RE.search(contents):
+        contents = NESTED_VERIFY_RE.sub(lambda _: section + "\n", contents)
+    else:
+        contents = contents.rstrip("\n") + "\n\n" + section + "\n"
+    return body[:evidence.end()] + contents + body[end:]
+
+
 def _render_entry(entry: dict, current_text: str) -> tuple[str | None, str, str]:
     issues = validate_evidence_schema(entry)
     if issues:
@@ -127,15 +149,15 @@ def _render_entry(entry: dict, current_text: str) -> tuple[str | None, str, str]
     new_frontmatter = _set_frontmatter_scalar(new_frontmatter, "last_verified", today)
     new_frontmatter = _set_frontmatter_scalar(new_frontmatter, "updated", today)
     version_match = re.search(r"^version:\s*(\d+)", new_frontmatter, re.MULTILINE)
-    version = int(version_match.group(1)) + 1 if version_match else 2
-    new_frontmatter = _set_frontmatter_scalar(new_frontmatter, "version", version)
+    if version_match:
+        new_frontmatter = _set_frontmatter_scalar(new_frontmatter, "version", int(version_match.group(1)) + 1)
 
     match = FRONTMATTER_RE.search(current_text.replace("\r\n", "\n"))
     if match is None:
         return None, "blocked", "no frontmatter"
     body = current_text.replace("\r\n", "\n")[match.end():]
     section = (
-        "## 验证状态\n\n"
+        "### 验证状态\n\n"
         f"- **证据状态**: {changes.get('evidence_status', scalar_fm(new_frontmatter, 'evidence_status'))}\n"
         f"- **验证层级**: {changes.get('verification_level', scalar_fm(new_frontmatter, 'verification_level'))}\n"
         f"- **验证平台**: {entry.get('platform', 'N/A')}\n"
@@ -147,10 +169,10 @@ def _render_entry(entry: dict, current_text: str) -> tuple[str | None, str, str]
         section += f"- **来源URL**: {entry['url']}\n"
     if entry.get("notes"):
         section += f"- **说明**: {entry['notes']}\n"
-    if VERIFY_SECTION_RE.search(body):
-        body = VERIFY_SECTION_RE.sub(section + "\n", body)
-    else:
-        body = body.rstrip("\n") + "\n\n" + section + "\n"
+    try:
+        body = _upsert_verification_section(body, section)
+    except ValueError as exc:
+        return None, "blocked", str(exc)
     new_text = f"---\n{new_frontmatter}\n---\n{body}"
     outcome = "no_delta" if new_text == current_text else "applied"
     return new_text, outcome, ", ".join(details) or "metadata refreshed"

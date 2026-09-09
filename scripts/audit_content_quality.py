@@ -42,7 +42,7 @@ TYPE_DIR_MAP = {
     "persons": "person",
     "concepts": "concept",
     "works": "work",
-    "publications": "publication",
+    "archives": "archive",
     "cases": "case",
     "places": "place",
     "techniques": "technique",
@@ -293,7 +293,7 @@ def check_local_file_reachable(files: list[Path]) -> list[dict]:
     return findings
 
 
-REQUIRED_PERIOD_TYPES = {"person", "persons", "work", "works", "publication", "publications", "case", "cases"}
+REQUIRED_PERIOD_TYPES = {"person", "persons", "work", "works", "archive", "archives", "case", "cases"}
 OPTIONAL_PERIOD_TYPES = {"concept", "concepts", "technique", "techniques", "idea", "ideas", "place", "places"}
 
 
@@ -316,7 +316,7 @@ def check_empty_frontmatter_values(files: list[Path]) -> list[dict]:
     return findings
 
 
-TYPE_NAMES_BARE = {"person", "concept", "work", "publication", "case", "place", "technique", "idea"}
+TYPE_NAMES_BARE = {"person", "concept", "work", "archive", "case", "place", "technique", "idea"}
 
 PLACEHOLDER_PATTERNS = [
     "待补充", "TODO", "TBD", "相关描述", "相关内容", "重要概念",

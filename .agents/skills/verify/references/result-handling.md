@@ -2,16 +2,18 @@
 
 本文件以当前两阶段验证模型为准，替代旧的单阶段 Wikipedia 结果写法。
 
+本参考约束调用验证状态接口的写回；常规语义正文及过程记录按 AGENTS 与 verify 执行。REV-017 的双重身份核对是额外的语义条件：下列脚本允许的状态上限不证明 Wikipedia—Wikidata 配对通过。当前 collector/apply 未自动执行该配对，Agent 须按 verify 记录实际核对结论。缺少一侧时不得写成双重验证完成，已获支持的具体事实与未完成身份配对分别说明。
+
 ## 一、结果处理与状态裁决原则
 
-1. 任何外部验证都先进入 evidence JSONL。
+1. 使用验证状态接口的外部证据先进入 evidence JSONL。
 2. collect 阶段不直接写知识元。
 3. apply 阶段由 `verify_apply_evidence.py` 统一写回；整批预检不通过时不得修改任何 KU 或 verification log。
 4. 写回前必须支持 `--dry-run`。
 5. 只有成功提交的 apply/no_delta 记录进入 `verification-log.md`；blocked/failed 留在 work package 状态与 summary。
 6. `confidence`、`consensus`、`evidence_status` 与 `verification_level` 的变化必须针对明确的 assertion scope 进行语义裁决。
 7. 来源数量、QID 命中、时间经过或脚本分数都不能自动触发状态晋升或降级。
-8. 本文件是 confidence/consensus 状态变化的唯一执行权威；其他 Skill 只引用，不另建阈值表。
+8. 本文件从属于 AGENTS 与 verify，集中说明 confidence/consensus 接口处理；其他 Skill 引用，不另建阈值表。
 
 ## 二、推荐变更字段
 
@@ -23,7 +25,7 @@
 - `consensus`
 - `last_verified`
 - `updated`
-- 正文 `## 验证状态`
+- 正文第三部分 `## 关系与证据` 下的 `### 验证状态`
 
 ## 三、阻断规则
 
@@ -35,7 +37,7 @@
 - `entity_identity_only` / `term_existence` / `event_identity_only` / `bibliographic_hint` 单源 evidence 不得推荐 `externally_verified`
 - `source_count` 不得自动递增
 - `last_verified` 或 `review_due` 到期只产生复核信号，不自动降低 `confidence`
-- `L7` 只能形成 `source_backed` 或 `model_supported`
+- `L7` 不能充当外证；只有实际来源支持时才保留 `source_backed`，仅模型知识为 `model_supported`
 - 消歧义页、弱标题匹配、关键字段冲突必须阻断或进入二次验证
 
 ## 三点五、claim_scope 写回上限
@@ -62,8 +64,12 @@
 
 ## 四、正文写入格式
 
+工具将验证段写入第三部分“关系与证据”下，保留相邻关系、证据和待补内容；旧顶层验证段在实际写回时归并，不另造第四部分。出现重复且无法确定目标的段落则阻断，避免覆盖不明内容。未有 version 字段的普通 KU 不新增版本计数，既有接口版本继续兼容；不因此全库重写或执行外部采集。
+
 ```markdown
-## 验证状态
+## 关系与证据
+
+### 验证状态
 
 - **证据状态**: source_backed / partially_verified / externally_verified / model_supported / unverified
 - **验证层级**: L1-L7

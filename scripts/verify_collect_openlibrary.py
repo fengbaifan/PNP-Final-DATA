@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect Open Library bibliographic evidence for work/publication KUs."""
+"""Collect Open Library bibliographic evidence for work/archive KUs."""
 
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ HTTP_TIMEOUT = 25
 MAX_API_RETRIES = 2
 REQUEST_DELAY = 1.05
 MAX_CANDIDATES = 10
-TYPE_ALIASES = {"works": "work", "publications": "publication"}
+TYPE_ALIASES = {"works": "work", "archives": "archive"}
 QUALITY_RANK = {"none": 0, "weak": 1, "medium": 2, "strong": 3}
 
 
@@ -238,8 +238,8 @@ def collect_one(path: Path, verbose: bool = False) -> dict | None:
     if not fm:
         return None
     ku_type = scalar_fm(fm, "type").lower() or TYPE_ALIASES.get(path.parent.name, "")
-    if ku_type not in {"work", "publication"}:
-        raise ValueError(f"Open Library collector 只接受 work/publication：{path}")
+    if ku_type not in {"work", "archive"}:
+        raise ValueError(f"Open Library collector 只接受 work/archive：{path}")
     display_title = scalar_fm(fm, "title")
     original_title = scalar_fm(fm, "title_original")
     title = scalar_fm(fm, "name_en") or original_title or display_title
@@ -323,7 +323,7 @@ def main() -> int:
         files = load_result_targets(resolve(args.input_result, BASE), BASE, UNITS, args.checkpoint)
     invalid = [path for path in files if path.parent.name not in TYPE_ALIASES]
     if invalid:
-        parser.error(f"Open Library collector 收到非 work/publication 目标：{invalid[0]}")
+        parser.error(f"Open Library collector 收到非 work/archive 目标：{invalid[0]}")
     if args.dry_run:
         print(f"targets={len(files)} checkpoint={args.checkpoint or 'all'} output={args.output}")
         return 0

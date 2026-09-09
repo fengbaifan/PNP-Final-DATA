@@ -7,43 +7,42 @@ triggers:
   - 知识元对齐
   - 验证知识元
   - 冲突裁决
-description: 负责第四阶段对齐及各阶段必要的事实验证，包含原 reconcile 的冲突裁决职责。
+description: 负责阶段 4 的身份与表述对齐，以及各阶段围绕明确问题的事实核验。
 ---
 
 # verify
 
-负责第四阶段对齐及各阶段必要的事实验证，包含原 reconcile 的冲突裁决职责。
+负责阶段 4 的身份与表述对齐，以及各阶段围绕明确问题的事实核验。
 
-## 输入
+## 输入与工作
 
-已有知识元、来源依据和明确待核问题。先读取知识元成稿结果；必要时做局部补证，不默认遍历所有网站或运行全部 collector。
+读 KU 成稿结果、相关来源与待核问题。比较名称、别名、身份、年代和作品/文献版本；同名不等于同一对象。章内对齐可以依据原文完成，但不能代替外部身份验证。
+按 REV-017，每个实体均须尝试 Wikipedia 与 Wikidata 双重身份核对；对齐时完成，未完成项明确交补足，不重复已经有效的判断。通过条件如下：
 
-## 对齐与冲突
+1. 阅读 Wikipedia 实际条目和 Wikidata 实体内容，将名称/别名、对象类型、年代、地点、作者或版本等身份特征与来源中的对象逐项比较，不能只看标题或搜索分数。
+2. 核对候选 QID 的 Wikipedia sitelink，以及该 Wikipedia 页的 Wikidata item 链接（或 pageprops.wikibase_item），确认双向指向同一个 QID。记录实际语言版本、规范页面与重定向；若重定向扩大到人物、系列或其他上位对象，不能当作具体作品/文献的匹配。
+3. 缺少一侧、只有消歧义页、粒度不一致或身份冲突时，记录“未找到／双重验证未完成／冲突待解”及理由。候选 QID 不写成已确认标识；保留有原文依据的 KU，不借用作者、保管机构或相关对象的 QID。
+4. 在现有过程文件记录两侧 URL、QID、实际访问日期、身份比较和双向核对结论；结果区分章内对齐、双重身份验证与具体事实验证。已有证据可复用，不要求每轮重复搜索。
 
-1. 语义比较库内名称、别名、身份、年代、作品/出版物版本；同名不等于同一对象。
-2. 需要外部锚点时，直接读取权威来源正文；API 只辅助定位。优先已有证据和问题最匹配的来源，不固定 Wikipedia 优先级。
-3. 记录命中与未命中、冲突两侧事实、来源独立性及裁决依据；身份锚点只能支持身份，不能验证整篇条目。
-4. 存在可复现冲突时判定 resolved、parallel_interpretations、deferred 或 rejected；无冲突不制造冲突流程。无法证明同一对象时不合并；合并授权按当前任务实际范围判断。
+外部事实补证须读能支持该问题的实际内容，记录来源独立性及支持范围。Wikipedia 与 Wikidata 相互关联，不因来自两个站点就计为两份独立事实证据；身份通过不等于整篇 KU 已验证。Getty 及其他官方来源按对象和缺口选择，见 enrich 与按类型参考。
+仅遇真实冲突时比较两侧来源和语境，得出已解决、并列解释、暂缓或否决；身份无法确认时不合并。
 
-## 证据与写回
+## 产出与交接
 
-collect → evidence JSONL → Agent 判断 → scripts/verify_apply_evidence.py --dry-run → --apply。
-collect 不改事实；只有受控 apply 更新验证状态、日期及正文验证区块。先整批预检，再原子写知识与成功日志；失败不记 completed，恢复前核对 evidence 指纹。
-source_independence_group 必须填写；同一来源的转引不能伪装独立证据，source_count 不自动累加。
-身份证据、QID、链接、来源数量或模型知识不能自动把 confidence/consensus/verification 提升至完全确认。证据不足保留不确定状态。
-L1–L7 是现有验证字段代码，不是本项目阶段编号；适用范围见 result-handling。
+03-processing/<task-id>/process/knowledge.md 记录比较和理由，04-knowledge/results/<task-id>.md 记录已对齐、待消歧、争议和实际修改。验证日期只记录真正发生的验证，对齐不等于发现层级归属。
+可用对象及内容缺口交 enrich；关键身份不明的对象阻断相关关系/合并。无须补足对象记录理由后进入关系阶段，不额外走一次全面核验。
 
-## 过程、结果与交接
+## 工具边界
 
-在 04-knowledge/process/<id>.md 记录逐对象比较、证据和判断；在 results/<id>.md 记录已对齐、待消歧、冲突及具体改动。需要的 JSONL 证据仍留在同一工作包，通过引用关联，不复制第二套。
-仅成功写回进入 quality/verification-log.md。对齐通过对象交给 enrich；无缺口对象也需明确说明后进入关系阶段。Theme/Topic 挂载不属于对齐。
+常规语义编辑在授权范围内原位更新并核对。使用现有验证状态批量接口时遵守 collect → evidence JSONL → Agent 判断 → verify_apply_evidence.py --dry-run → --apply；整批预检、原子写回，恢复核对输入指纹。此时填写 source_independence_group，防止转引被计为独立来源。
+L1–L7 仅是该接口兼容代码，不是业务阶段或事实可信度的自动排名。数量、脚本分数不自动提高 confidence/consensus；失败和 no_delta 如实记录。
+现有 Wikipedia/Wikidata collector 分别收集候选，尚未实现上述双向 QID 核对；其成功输出不能代替 Agent 的实际阅读与配对判断，也不能称为自动双重验证通过。
 
 ## 按需直接参考
 
-- `references/api-verification.md`
-- `references/cascade.md`
-- `references/no-data-and-browser-research.md`
-- `references/result-handling.md`
-- `references/type-verification.md`
-
-- `.agents/skills/system-upgrade/references/work-package-contract.md`
+- `references/type-verification.md`：按对象类型选择身份特征与补证来源。
+- `references/cascade.md`：来源选择与渠道代码含义。
+- `references/no-data-and-browser-research.md`：失败、未命中或开放网页查证。
+- `references/api-verification.md`：实际调用 API collector 时的证据格式。
+- `references/result-handling.md`：需要改变验证状态或使用机器写回时。
+- `.agents/skills/system-upgrade/references/work-package-contract.md`：仅批量机器写回或旧接口续接。

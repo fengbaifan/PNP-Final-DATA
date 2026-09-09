@@ -1,3 +1,3 @@
-# 作品索引
+# works
 
-- [《阿什杜德的瘟疫》（The Plague at Ashdod, c. 1631）](../../04-knowledge/units/works/plague-at-ashdod-1631.md)
+暂无本项目有效条目。

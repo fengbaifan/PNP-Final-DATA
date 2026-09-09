@@ -1,3 +1,3 @@
-# 出版物索引
+# publications
 
-- [《赞助人与画家》（Patrons and Painters, 1980）](../../04-knowledge/units/publications/patrons-and-painters.md)
+暂无本项目有效条目。

@@ -196,7 +196,7 @@ def gen_candidate_opportunities(health: dict) -> list[dict]:
         items.append(item("OPP-ISOLATED", "isolated units may warrant relation review", str(isolated), "candidate_opportunity"))
     candidate_debt = maturity.get("candidate_debt", {})
     if candidate_debt.get("total", 0):
-        items.append(item("OPP-CANDIDATES", "active discovery candidates", str(candidate_debt["total"]), "candidate_opportunity"))
+        items.append(item("OPP-CANDIDATES", "recorded candidates (inventory, not a discovery result)", str(candidate_debt["total"]), "candidate_opportunity"))
     return items
 
 
@@ -246,6 +246,10 @@ def generate_md(health: dict) -> str:
         f"> Maturity metrics: {maturity.get('metric_kind', 'missing')}",
         "",
     ]
+    if health.get("execution_scope", {}).get("knowledge_inputs") == "accepted_catalog":
+        lines.extend([
+            "> 有效知识按 accepted.yml 统计。下面的处理包、候选与 dataflow 项仍为历史库存诊断，不表示本项目已执行，也不自动成为开工或交接门禁。", "",
+        ])
     lines.extend(render_section("System defects - P0", gen_p0(health)))
     lines.extend(render_section("System defects - P1", gen_p1(health) + gen_p1_content(health) + gen_p1_ingest_coverage(health)))
     lines.extend(render_section("System defects - P2", gen_p2_content(health) + gen_p2_runtime(health)))

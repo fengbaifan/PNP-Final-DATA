@@ -26,8 +26,10 @@ from pathlib import Path
 
 try:
     from scripts._relation_schema import RELATION_TYPES
+    from scripts._accepted_knowledge import select_paths, select_claims, load_catalog
 except ModuleNotFoundError:
     from _relation_schema import RELATION_TYPES
+    from _accepted_knowledge import select_paths, select_claims, load_catalog
 
 RELATION_TYPE_TOTAL = len(RELATION_TYPES)
 
@@ -37,7 +39,7 @@ BASE_UNIT_TYPES = [
     "institutions",
     "places",
     "works",
-    "publications",
+    "archives",
     "terms",
     "procedures",
     "events",
@@ -51,7 +53,7 @@ TYPE_DIR_MAP = {
     "institutions": "institution",
     "places": "place",
     "works": "work",
-    "publications": "publication",
+    "archives": "archive",
     "terms": "term",
     "procedures": "procedure",
     "events": "event",
@@ -66,17 +68,10 @@ STRUCTURE_DIRS = ["domains", "dimensions", "themes", "topics"]
 
 REQUIRED_FIELDS = [
     "title",
-    "name_en",
     "type",
     "sources",
     "created",
     "updated",
-    "confidence",
-    "consensus",
-    "source_count",
-    "last_verified",
-    "review_due",
-    "version",
 ]
 
 RECOMMENDED_FIELDS = ["sub_type", "tags", "evidence_status"]
@@ -190,12 +185,12 @@ def iter_unit_files(base: Path) -> list[Path]:
     files: list[Path] = []
     for type_name in discover_unit_types(base):
         files.extend(sorted((units / type_name).glob("*.md")))
-    return files
+    return select_paths(base, "units", files)
 
 
 def count_by_type(base: Path) -> dict[str, int]:
     units = base / "04-knowledge" / "units"
-    return {type_name: len(list((units / type_name).glob("*.md"))) for type_name in discover_unit_types(base)}
+    return {type_name: len(select_paths(base, "units", list((units / type_name).glob("*.md")))) for type_name in discover_unit_types(base)}
 
 
 def count_structure_nodes(base: Path) -> dict[str, int]:
@@ -204,7 +199,7 @@ def count_structure_nodes(base: Path) -> dict[str, int]:
     for dname in STRUCTURE_DIRS:
         d = structure / dname
         if d.exists():
-            result[dname] = len([f for f in d.rglob("*.md") if f.is_file() and f.name.lower() != "readme.md"])
+            result[dname] = len(select_paths(base, "structure", [f for f in d.rglob("*.md") if f.is_file() and f.name.lower() != "readme.md"]))
         else:
             result[dname] = 0
     return result
@@ -597,6 +592,7 @@ def claim_traceability_check(base: Path) -> dict:
     else:
         entries = []
 
+    entries = select_claims(base, entries)
     total = len(entries)
     with_source = 0
     with_source_span = 0
@@ -1391,13 +1387,13 @@ TRANSLATION_FIELD_GROUPS = {
     "institutions": ["name_original", "name_original_language", "name_zh", "translation_status"],
     "places": [],
     "works": ["title_original", "title_original_language", "title_zh"],
-    "publications": ["title_original", "title_original_language", "title_zh"],
+    "archives": ["title_original", "title_original_language", "title_zh"],
     "terms": ["term_original", "term_zh", "academic_translation_status"],
     "procedures": [],
     "events": [],
 }
 
-TRANSLATION_INDEX_TYPES = ["persons", "terms", "publications", "works", "institutions"]
+TRANSLATION_INDEX_TYPES = ["persons", "terms", "archives", "works", "institutions"]
 
 
 def translation_coverage_gap_count(translation_health: dict) -> int:
@@ -1511,7 +1507,16 @@ def relation_health_check(base: Path) -> dict:
     try:
         import yaml
         data = yaml.safe_load(idx.read_text(encoding="utf-8"))
-        relations = [r for r in data if isinstance(r, dict)]
+        relations = [r for r in (data or []) if isinstance(r, dict)]
+        if load_catalog(base) is not None:
+            try:
+                from scripts.build_knowledge_graph_data import endpoint_node_id
+            except ModuleNotFoundError:
+                from build_knowledge_graph_data import endpoint_node_id
+            units_root = base / "04-knowledge" / "units"
+            admitted = {endpoint_node_id(path.relative_to(units_root).as_posix()) for path in iter_unit_files(base)}
+            relations = [r for r in relations if endpoint_node_id(str(r.get("source", ""))) in admitted
+                         and endpoint_node_id(str(r.get("target", ""))) in admitted]
         sources = {}
         types = {}
         for r in relations:
@@ -1728,10 +1733,12 @@ def build_results(base: Path) -> dict:
     raw_results["evidence_quality"] = build_evidence_quality_score(raw_results)
     raw_results["knowledge_maturity"] = knowledge_maturity_check(base, snapshots)
     agents_entry = base / "AGENTS.md"
-    first_part = agents_entry.is_file() and "当前执行第一部分" in read_text(agents_entry)
+    first_part = agents_entry.is_file() and any(value in read_text(agents_entry) for value in ("当前执行第一部分", "研究尚未执行"))
     raw_results["execution_scope"] = {
         "part": "knowledge" if first_part else "unspecified",
         "hierarchy_assignment": "not_in_current_scope" if first_part else "review_required",
+        "knowledge_inputs": "accepted_catalog" if load_catalog(base) is not None else "legacy_inventory",
+        "processing_inventory_is_research_progress": False,
     }
     return raw_results
 

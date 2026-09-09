@@ -9,6 +9,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from scripts._accepted_knowledge import select_paths, load_catalog
+except ModuleNotFoundError:
+    from _accepted_knowledge import select_paths, load_catalog
+
 
 BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / "05-outputs" / "knowledge-graph-data.json"
@@ -19,7 +24,7 @@ TYPE_COLORS = {
     "institution": "#8B5CF6",
     "place": "#06B6D4",
     "work": "#F59E0B",
-    "publication": "#6366F1",
+    "archive": "#6366F1",
     "term": "#10B981",
     "procedure": "#EC4899",
     "event": "#EF4444",
@@ -29,7 +34,7 @@ TYPE_ZH = {
     "institution": "机构",
     "place": "地点",
     "work": "作品",
-    "publication": "出版物",
+    "archive": "文献与档案",
     "term": "术语",
     "procedure": "程序",
     "event": "事件",
@@ -97,7 +102,7 @@ def endpoint_node_id(value: str) -> str:
 
 
 def build_structure(base: Path) -> dict[str, list[dict]]:
-    """Read the authoritative Domain -> Dimension -> Theme -> Topic structure."""
+    """Read actual structure nodes; missing parent levels are valid."""
     root = base / "04-knowledge" / "structure"
     folders = {
         "domains": "domain",
@@ -107,7 +112,7 @@ def build_structure(base: Path) -> dict[str, list[dict]]:
     }
     structure: dict[str, list[dict]] = {key: [] for key in folders}
     for key, expected_type in folders.items():
-        for path in sorted((root / key).glob("*.md")):
+        for path in select_paths(base, "structure", sorted((root / key).glob("*.md"))):
             if path.name.lower() == "readme.md":
                 continue
             frontmatter, body = parse_frontmatter(path.read_text(encoding="utf-8"))
@@ -128,6 +133,8 @@ def build_structure(base: Path) -> dict[str, list[dict]]:
                     "title": safe_str(frontmatter.get("title")),
                     "name_en": safe_str(frontmatter.get("name_en")),
                     "core_question": safe_str(frontmatter.get("core_question"), max_length=320),
+                    "members": frontmatter.get("members") if isinstance(frontmatter.get("members"), list) else [],
+                    "basis": safe_str(frontmatter.get("basis"), max_length=800),
                     "primary_domain": safe_str(frontmatter.get("primary_domain") or frontmatter.get("parent_domain")),
                     "primary_dimension": safe_str(frontmatter.get("primary_dimension") or frontmatter.get("dimension_code")),
                     "parent_theme": safe_str(frontmatter.get("parent_theme")),
@@ -146,7 +153,7 @@ def build_graph(base: Path = BASE) -> dict:
     node_ids: set[str] = set()
     structure = build_structure(base)
 
-    for path in sorted(units.rglob("*.md")):
+    for path in select_paths(base, "units", sorted(units.rglob("*.md"))):
         text = path.read_text(encoding="utf-8")
         frontmatter, body = parse_frontmatter(text)
         if not frontmatter:
@@ -171,6 +178,7 @@ def build_graph(base: Path = BASE) -> dict:
                 "evidence_status": safe_str(frontmatter.get("evidence_status")),
                 "description": description_match.group(1).strip()[:200] if description_match else "",
                 "path": relative,
+                "sources": frontmatter.get("sources") if isinstance(frontmatter.get("sources"), list) else [],
                 "primary_domain": safe_str(frontmatter.get("primary_domain")),
                 "secondary_domains": safe_list(frontmatter.get("secondary_domains")),
                 "primary_dimension": safe_str(frontmatter.get("primary_dimension")),
@@ -183,7 +191,7 @@ def build_graph(base: Path = BASE) -> dict:
         )
         node_ids.add(node_id)
 
-    relations = yaml.safe_load(relation_index.read_text(encoding="utf-8")) or []
+    relations = (yaml.safe_load(relation_index.read_text(encoding="utf-8")) or []) if relation_index.exists() else []
     links = []
     for relation in relations:
         source = endpoint_node_id(str(relation.get("source", "")))
@@ -218,8 +226,8 @@ def build_graph(base: Path = BASE) -> dict:
         "stats": {
             "total_nodes": len(nodes),
             "total_links": len(links),
-            "relation_index_total": len(relations),
-            "skipped_non_unit_relations": len(relations) - len(links),
+            "relation_index_total": len(links) if load_catalog(base) is not None else len(relations),
+            "skipped_non_unit_relations": 0 if load_catalog(base) is not None else len(relations) - len(links),
             "by_type": by_type,
             "hierarchy": hierarchy,
             "structure_nodes": {key: len(values) for key, values in structure.items()},

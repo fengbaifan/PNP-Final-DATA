@@ -1,6 +1,2946 @@
 # Relation Index v2.1
 # generated: 2026-09-09
-# total: 0
-# sources: {}
+# total: 173
+# sources: {'explicit': 173}
 
-[]
+- source: persons/alessandro-peretti-montalto.md
+  source_type: person
+  target: persons/sixtus-v.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 68–70; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/alessandro-vasalli.md
+  source_type: person
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 179–185; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/andrea-camassei.md
+  source_type: person
+  target: works/camassei-martyrdom-saint-sebastian.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 脚注收据识别画家；不据合同条款猜测全部画面。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 335–338,372,514–516; print pp. 10,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/andrea-sacchi.md
+  source_type: person
+  target: persons/antonio-barberini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 195–198; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/andrea-sacchi.md
+  source_type: person
+  target: institutions/barberini-household.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 此处家户成员为 Antonio 的服务组织，非血缘成员。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 195–198; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/camillo-pamfili.md
+  source_type: person
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 231–233,308–319,505–519; print pp. 7,9,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/camillo-pamfili.md
+  source_type: person
+  target: persons/guglielmo-cortese.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 231–233; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/caravaggio.md
+  source_type: person
+  target: works/caravaggio-conversion-saint-paul.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 1600 年合同中的画家与题材对象；不同实物版本不在此合并。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/caravaggio.md
+  source_type: person
+  target: works/caravaggio-martyrdom-saint-peter.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 1600 年合同中的画家与题材对象；提交设计为约定。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/cardinal-borghese-ch1.md
+  source_type: person
+  target: persons/domenichino.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 79–83; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/charles-v.md
+  source_type: person
+  target: persons/titian.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 799–804; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/ciro-ferri.md
+  source_type: person
+  target: works/ferri-sant-agnese-modello.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 1670 年要求 Ferri 提供彩稿，并在批准后不得擅改；保留约定语境。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–440; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/ciro-ferri.md
+  source_type: person
+  target: works/ferri-laparelli-altarpiece.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: Ferri 为画家，章中未给准确题名和具体教堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 507–508; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/clement-xi.md
+  source_type: person
+  target: persons/giuseppe-ghezzi.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 授予 Ghezzi 在圣彼得的一项 benefice，保留来源职位用语。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 771–773; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/domenichino.md
+  source_type: person
+  target: procedures/per-figure-pricing.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 主要人物每位 130 ducats，排除背景人物。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 498–502; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/duke-parma-ghezzi.md
+  source_type: person
+  target: persons/giuseppe-ghezzi.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 771–773; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/fabrizio-valguarnera.md
+  source_type: person
+  target: procedures/studio-stock-sale.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 591–601; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/federigo-zuccari.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 1593–1594 年尝试振兴学院，不作为首次创立的证明。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 681–683; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/flavio-chigi.md
+  source_type: person
+  target: persons/mario-de-fiori.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 282–283; print pp. 8
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/francesco-albani.md
+  source_type: person
+  target: works/albani-servi-altarpiece-1639.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: Albani 的 1639 祭坛画委托语境；与另条高比例定金不强行合并。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 514–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/francesco-barberini.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 694–696; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/frederick-iii.md
+  source_type: person
+  target: persons/gentile-bellini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 本章脚注记授予 Count Palatine，未给日期。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 799–800; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giovanni-bonati.md
+  source_type: person
+  target: persons/cardinal-pio-bonati.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 186–187; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giovanni-bonati.md
+  source_type: person
+  target: procedures/patron-funded-study-travel.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: Pio 资助其六城学习旅行为实际事例。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 186–187; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giovanni-lanfranco.md
+  source_type: person
+  target: procedures/per-figure-pricing.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 同段记每位主要人物 100 ducats，不能误作 130。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 498–502; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giuseppe-ghezzi.md
+  source_type: person
+  target: institutions/arcadia.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 本章明确 Ghezzi 当选 Arcadia 学会成员。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 770–773; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/gregory-xv.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 1621 年确认学院章程。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 690–691; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/guercino.md
+  source_type: person
+  target: procedures/per-figure-pricing.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 548–552,569–570; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/guido-reni.md
+  source_type: person
+  target: works/reni-justice-embracing-peace.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 该信向 Reni 委托，尚未由本章识别版本与完成时间。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 531–534; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/innocent-xiii.md
+  source_type: person
+  target: persons/giuseppe-ghezzi.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 任命 Ghezzi 为 master of ceremonies。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 771–773; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/lodovico-gimignani.md
+  source_type: person
+  target: persons/cardinal-rospigliosi-gimignani.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 186–187; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/lodovico-gimignani.md
+  source_type: person
+  target: procedures/patron-funded-study-travel.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 赴 Venice 学习的赞助旅行事例。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 186–187; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/ludovico-ludovisi.md
+  source_type: person
+  target: persons/domenichino.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 79–83; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/marcello-sacchetti.md
+  source_type: person
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 217–220; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/maurizio-di-savoia.md
+  source_type: person
+  target: persons/gio-gasparo-baldoini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 任命 Baldoini 为 per nostro pittore，本章脚注引述任命。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 188–189; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/michelangelo-cerquozzi.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 脚注明确 Cerquozzi 是学院会员。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 753–754; print pp. 18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/nicolas-poussin.md
+  source_type: person
+  target: works/poussin-spring-valguarnera.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 接受另订《春》的画家；不由此证明成品现存。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 599–601; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/paolo-girolamo-piola.md
+  source_type: person
+  target: persons/marchese-pallavicini-piola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 1690 年要求住在这位保护人宫外；仅保留该居住协商语境。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 278–281; print pp. 8
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/paul-v.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 687–689; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/peter-paul-rubens.md
+  source_type: person
+  target: works/rubens-chiesa-nuova-altarpiece-1606.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 1606 年在承担祭坛画前被要求示画，尚未在本章精确识别实物版本。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 402–404; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pier-francesco-mola.md
+  source_type: person
+  target: procedures/iconographic-consultation.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pieter-van-laer.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 脚注明确 Van Laer 是学院会员；与画家帮身份可以并存。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 753–754; print pp. 18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pieter-van-laer.md
+  source_type: person
+  target: institutions/schildersbent.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 本章所述画家帮成员 Van Laer，同时有学院会员身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 819–833; print pp. 20
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pietro-mulier.md
+  source_type: person
+  target: persons/duke-bracciano-mulier.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 雇主公爵不愿 Mulier 离开罗马；不由称号补全公爵身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 231–233; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pietro-ottoboni.md
+  source_type: person
+  target: persons/francesco-trevisani.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 220–223; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/salvator-rosa.md
+  source_type: person
+  target: procedures/exhibition-self-promotion.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 展览期间组织喝彩者等宣传行为，依据章内传记转述。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 917–926; print pp. 22
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/sebastiano-ricci.md
+  source_type: person
+  target: works/ricci-beheading-john-baptist-1682.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 1682 委托要求 Ricci 表现斩首题材；不宣称核实完成与现藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 326–328; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/vincenzo-armanni-ch1.md
+  source_type: person
+  target: persons/camillo-pamfili.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 未注明日期的信就 Valmontone 别墅装饰提供建议。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 329–330; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: institutions/biblioteca-augusta.md
+  source_type: institution
+  target: places/perugia.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 书中明确图书馆位于 Perugia。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 236–237; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: institutions/biblioteca-casanatense.md
+  source_type: institution
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 书中明确图书馆位于 Rome。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 89–92; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: institutions/colnaghi.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 书中所记 1961 年画商目录所在地。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 467–468; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/chiesa-de-servi-bologna.md
+  source_type: place
+  target: places/bologna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 教堂在 Bologna。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 515–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/naples-cathedral.md
+  source_type: place
+  target: places/naples.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 教堂地点为 Naples。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 498–502; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/palazzo-barberini.md
+  source_type: place
+  target: works/barberini-salone-bozzetto-disputed.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 463–464; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/palazzo-doria-pamfili.md
+  source_type: place
+  target: works/cortona-doria-pamfili-modelli-disputed.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 争议稿本被说是为该宫画廊天顶设计，不表示稿本位于宫内。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 461–463; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/pamfili-country-house-valmontone.md
+  source_type: place
+  target: places/valmontone.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 建筑位于 Valmontone，建筑与城市分别建模。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 312–313; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/sant-agnese-piazza-navona.md
+  source_type: place
+  target: places/piazza-navona.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 教堂定位为 Piazza Navona。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–439; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: places/sant-antonino-piacenza.md
+  source_type: place
+  target: places/piacenza.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 教堂名称与城市在委托事例中明确并列定位。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 323–326; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/albani-servi-altarpiece-1639.md
+  source_type: work
+  target: persons/bonifazio-gozadini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Gozadini 承诺供应画布及群青，关系限材料供应承诺。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 515–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/albani-servi-altarpiece-1639.md
+  source_type: work
+  target: places/chiesa-de-servi-bologna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 指定为 Bologna 的 Chiesa de’ Servi 祭坛画。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 515–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-cardinal-borghese-head.md
+  source_type: work
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 700–703; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-david.md
+  source_type: work
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 作品作者与举镜逸事分离；本边不声称举镜实际发生。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 764–767,796; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-thomas-baker-bust.md
+  source_type: work
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 本章所记 Bernini 胸像及其异常价格。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 668–673,699–700; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-thomas-baker-bust.md
+  source_type: work
+  target: persons/thomas-baker.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 委托者付 6000 scudi，此价明确为例外。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 699–700; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-thomas-baker-bust.md
+  source_type: work
+  target: institutions/victoria-and-albert-museum.md
+  target_type: institution
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 仅记录 Haskell 书中时点的馆藏，未核今日现状。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 699–700; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/camassei-martyrdom-saint-sebastian.md
+  source_type: work
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 335–338,372,514–516; print pp. 10,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/camassei-martyrdom-saint-sebastian.md
+  source_type: work
+  target: places/san-sebastiano-palatine.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 委托的指定安装场所，非今日现场核验。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 335–338; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/camassei-peter-paul-mamertine-modello.md
+  source_type: work
+  target: persons/andrea-camassei.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 464–466; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/camassei-peter-paul-mamertine-modello.md
+  source_type: work
+  target: institutions/pinacoteca-vaticana.md
+  target_type: institution
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 本书写作时所记馆藏，非今日核验。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 464–466; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/caravaggio-giustiniani-rejected-altarpiece.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 退画被明确归于 Caravaggio；具体实物版本尚未识别。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 349–353; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/caravaggio-giustiniani-rejected-altarpiece.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Giustiniani 买入被拒祭坛画；非该画初始委托人。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 349–353; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-laparelli-altarpiece.md
+  source_type: work
+  target: persons/annibale-laparelli.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 507–508; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-laparelli-altarpiece.md
+  source_type: work
+  target: places/cortona.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 来源明确工程在 Cortona，具体教堂不明。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 507–508; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-sant-agnese-cupola.md
+  source_type: work
+  target: persons/ciro-ferri.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: Ferri 的穹顶装饰工程；四年是约定工期。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–450; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-sant-agnese-cupola.md
+  source_type: work
+  target: places/sant-agnese-piazza-navona.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 工程位于 Piazza Navona 的 S. Agnese。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–450; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/gaulli-gesu-vaults.md
+  source_type: work
+  target: persons/giovan-battista-gaulli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: Gaulli 的中殿及横翼拱顶工程；八年为给予的工期。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 447–452; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/gaulli-gesu-vaults.md
+  source_type: work
+  target: places/gesu-rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 工程在罗马 Gesù 教堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 447–452; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/gavasetti-sant-antonino-frescoes.md
+  source_type: work
+  target: persons/camillo-gavasetti.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 章中明确指 Gavasetti 在该教堂的壁画与 1624 合同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 323–326,520–521; print pp. 9,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/gavasetti-sant-antonino-frescoes.md
+  source_type: work
+  target: places/sant-antonino-piacenza.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 作品定位为 Piacenza 的 S. Antonino 教堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 323–326; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/lanfranco-crucifixion-stock.md
+  source_type: work
+  target: persons/giovanni-lanfranco.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 工作室中已经勾画的画布，作者为 Lanfranco。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 597–599; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/lanfranco-crucifixion-stock.md
+  source_type: work
+  target: persons/fabrizio-valguarnera.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Valguarnera 请求完成现有画稿。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 596–599; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/lanfranco-magdalene-stock.md
+  source_type: work
+  target: persons/giovanni-lanfranco.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 工作室中已经勾画的画布，作者为 Lanfranco。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 597–599; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/lanfranco-magdalene-stock.md
+  source_type: work
+  target: persons/fabrizio-valguarnera.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Valguarnera 请求完成现有画稿。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 596–599; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/mola-air-valmontone.md
+  source_type: work
+  target: works/mola-four-elements-valmontone.md
+  target_type: work
+  relation_type: part_of
+  inverse_relation_type: null
+  note: 空气是四元素装饰题材之一，本卡保留方案内容。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/mola-four-elements-valmontone.md
+  source_type: work
+  target: places/pamfili-country-house-valmontone.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 四元素装饰所处的建筑，与作品已有城市层级定位并存。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 312–313; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/mola-four-elements-valmontone.md
+  source_type: work
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 本章明确将四元素装饰项目归于 Mola；不引入第六章毁损叙述。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/mola-four-elements-valmontone.md
+  source_type: work
+  target: persons/camillo-pamfili.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: Pamfili 别墅工程，相关付款与材料分担脚注支持委托关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319,505–519; print pp. 9,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/mola-four-elements-valmontone.md
+  source_type: work
+  target: places/valmontone.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 地点为 Valmontone 的乡间宅邸；限书中工程语境。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/plague-at-ashdod-1631.md
+  source_type: work
+  target: persons/nicolas-poussin.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 普桑工作室中的既有初稿；未据此补写创作年份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 599–601; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/plague-at-ashdod-1631.md
+  source_type: work
+  target: persons/fabrizio-valguarnera.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 看见初稿后商议完成；不是从零委托。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 599–601; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/poussin-massacre-innocents.md
+  source_type: work
+  target: persons/nicolas-poussin.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 与 Reni 同题作分开；具体版本仍保留范围限制。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 373–375; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/poussin-spring-valguarnera.md
+  source_type: work
+  target: persons/fabrizio-valguarnera.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 与安排完成《瘟疫》不同，这是全新委托。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 599–601; print pp. 15
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/reni-justice-embracing-peace.md
+  source_type: work
+  target: persons/duke-mantua-reni-1617.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 531–534; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/reni-massacre-innocents.md
+  source_type: work
+  target: persons/guido-reni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 373–375; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ricci-beheading-john-baptist-1682.md
+  source_type: work
+  target: institutions/confraternita-san-giovanni-battista-decollato-bologna.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 善会为原文要求作画的委托人。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 326–328; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/rubens-chiesa-nuova-altarpiece-1606.md
+  source_type: work
+  target: places/chiesa-nuova.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 委托指定的教堂场所。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 402–404; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/sacchi-capuchin-altarpiece-modello.md
+  source_type: work
+  target: persons/andrea-sacchi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 467–468; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/sacchi-capuchin-altarpiece-modello.md
+  source_type: work
+  target: persons/denis-mahon.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 本书记录时属于 Mahon 收藏，不延伸到今天。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 467–468; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/sacchi-capuchin-altarpiece-modello.md
+  source_type: work
+  target: institutions/colnaghi.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 1961 年 5–6 月目录号 2 所涉画商经手记录。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 467–468; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/valentin-genre-commission.md
+  source_type: work
+  target: persons/valentin.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 被要求按这些人物角色作画的画家；作品实际完成未知。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 389–392; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/accademia-statutes-confirmed-1621.md
+  source_type: archive
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 所述章程属于该学院，具体文本版本未知。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 690–691; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/ameyden-relazione-1642.md
+  source_type: archive
+  target: persons/ameyden.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: MS.5001 手稿署名。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 89–92; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/ameyden-relazione-1642.md
+  source_type: archive
+  target: institutions/biblioteca-casanatense.md
+  target_type: institution
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 本书记录 MS.5001 馆藏位置，未核今日馆藏状态。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 89–92; print pp. 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/armanni-delle-lettere.md
+  source_type: archive
+  target: persons/vincenzo-armanni-ch1.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 本章所引 Armanni 信集，书目条目补全题名。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 329–330; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/armanni-pamfili-letter-undated.md
+  source_type: archive
+  target: persons/vincenzo-armanni-ch1.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信署名者据原页确认为 Armanni。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 329–330; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/armanni-pamfili-letter-undated.md
+  source_type: archive
+  target: persons/camillo-pamfili.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人为 Camillo Pamfili。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 329–330; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/armanni-pamfili-letter-undated.md
+  source_type: archive
+  target: archives/armanni-delle-lettere.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 329–330; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/arragona-mantua-letter-1621.md
+  source_type: archive
+  target: persons/fabrizio-arragona.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1621-10-09；收信人为未具名曼图亚公国大臣。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 542–547,567–568; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/baldoini-painter-appointment.md
+  source_type: archive
+  target: persons/gio-gasparo-baldoini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 任命文书中的受任人；日期未知。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 188–189; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/bianconi-letter-1762.md
+  source_type: archive
+  target: persons/gl-bianconi.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1762-11-22；本章未列收信人。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 896–898; print pp. 21
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/camassei-sebastian-receipt.md
+  source_type: archive
+  target: works/camassei-martyrdom-saint-sebastian.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 收据用于确认该祭坛画的画家身份；与合同文本分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 335–338,372–374; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/camassei-sebastian-receipt.md
+  source_type: archive
+  target: archives/bertolotti-artisti-bolognesi.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: 收据刊录在该书 pp.161–162；所指是文献刊收关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 372–374; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/camassei-urban-contract-1633.md
+  source_type: archive
+  target: persons/andrea-camassei.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 承担列明材料费用的合同画家。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 514–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/camassei-urban-contract-1633.md
+  source_type: archive
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 本章明言与 Urban VIII 的合同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 514–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/caravaggio-altarpieces-contract-1600.md
+  source_type: archive
+  target: works/caravaggio-conversion-saint-paul.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 合同涉及《圣保罗归化》委托与预先示稿要求。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401,421; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/caravaggio-altarpieces-contract-1600.md
+  source_type: archive
+  target: works/caravaggio-martyrdom-saint-peter.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401,421; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/cellini-autobiography.md
+  source_type: archive
+  target: persons/benvenuto-cellini.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 本章明确引用 Cellini 的自传。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 634–635; print pp. 16
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/coke-arundell-letter-1620.md
+  source_type: archive
+  target: persons/mr-coke-rome-correspondent.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 40–55; print pp. 3–4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/coke-arundell-letter-1620.md
+  source_type: archive
+  target: persons/lord-arundell-coke-correspondent.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1620-10-08；经 Hervey 转引。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 40–55; print pp. 3–4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/colnaghi-catalogue-1961.md
+  source_type: archive
+  target: works/sacchi-capuchin-altarpiece-modello.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 467–468; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/de-rosis-ruffo-letter-1663.md
+  source_type: archive
+  target: persons/giuseppe-de-rosis.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 971–972; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/de-rosis-ruffo-letter-1663.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1663-09-22；代理人对罗萨的评价。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 971–972; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/ferri-ruffo-letter-1672.md
+  source_type: archive
+  target: persons/ciro-ferri.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 974–978; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/ferri-ruffo-letter-1672.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 974–978; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/gavasetti-piacenza-contract-1624.md
+  source_type: archive
+  target: works/gavasetti-sant-antonino-frescoes.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 条款描述该壁画工程的题材自由与颜料要求。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 323–326,520–521; print pp. 9,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/gessi-leopardi-letter-1647.md
+  source_type: archive
+  target: persons/berlingete-gessi.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 509–510; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/gessi-leopardi-letter-1647.md
+  source_type: archive
+  target: persons/cesare-leopardi-dosimo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 509–510; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/gini-cortona-letter-1666.md
+  source_type: archive
+  target: persons/onorato-gini.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 本章署 Gini，信经 Claretta 概述。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 415–418; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/gini-cortona-letter-1666.md
+  source_type: archive
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 383–385,415–418; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/giovanni-adamo-piola-letter-1690.md
+  source_type: archive
+  target: persons/giovanni-adamo-piola.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 给定尺寸而放开题材的委托信作者；全名不展开。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 354–356,376; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/giovanni-adamo-piola-letter-1690.md
+  source_type: archive
+  target: persons/paolo-girolamo-piola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 委托信所向画家为 Paolo Girolamo Piola。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 354–356,376; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/grassi-cortona-bozzetti-1957.md
+  source_type: archive
+  target: works/cortona-doria-pamfili-modelli-disputed.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: Grassi 论文主张的归属对象；论文存在不证明归属成立。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 461–463; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/guercino-ruffo-letter-1649.md
+  source_type: archive
+  target: persons/guercino.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1649-09-25；每位主要人物报价交涉。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 548–552,569–570; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/guercino-ruffo-letter-1649.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1649-09-25；每位主要人物报价交涉。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 548–552,569–570; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/lanfranco-barberini-letter-1640.md
+  source_type: archive
+  target: persons/giovanni-lanfranco.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1640-07-14；收信人只写 Cardinal Barberini，不据此选择 Francesco 或 Antonio。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 408–425; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/lhoggidi-1627.md
+  source_type: archive
+  target: persons/abate-lancellotti.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 脚注署作者，1627 年初刊。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 45–47; print pp. 3
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/minnitti-augusta-terms-1617.md
+  source_type: archive
+  target: persons/mario-minnitti.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 条款所涉画家为 Minnitti。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 321–322; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/mola-borrowed-genealogy-gods.md
+  source_type: archive
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Mola 为选择图像内容借阅这部未具题名的神谱。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 312–316; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/mola-borrowed-virgil-commentary.md
+  source_type: archive
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Mola 借阅的带注释 Virgil 文本，不指定某部作品或版本。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 312–316; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/mola-pamfili-contract-1657.md
+  source_type: archive
+  target: works/mola-four-elements-valmontone.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: Valmontone 工程的材料分担条款；不宣称取得整份合同原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 312–319,505–506,514–519; print pp. 9,13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/negri-san-tommaso-letter-1676.md
+  source_type: archive
+  target: persons/paolo-negri.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1676-12-24；引述画家气质的观念。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 889–900; print pp. 21
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/negri-san-tommaso-letter-1676.md
+  source_type: archive
+  target: persons/marchese-san-tommaso-negri.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1676-12-24；引述画家气质的观念。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 889–900; print pp. 21
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/novetti-ruffo-letter-1670.md
+  source_type: archive
+  target: persons/francesco-novetti.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1670-03-22；关于 Maratta 委托困难的抱怨。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 750–758; print pp. 18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/novetti-ruffo-letter-1670.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1670-03-22；关于 Maratta 委托困难的抱怨。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 750–758; print pp. 18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/pascoli-trevisani-life-ms1383.md
+  source_type: archive
+  target: persons/pascoli.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 未刊传记署名；本次未读手稿。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 236–237; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/pascoli-trevisani-life-ms1383.md
+  source_type: archive
+  target: institutions/biblioteca-augusta.md
+  target_type: institution
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 本书记录 Perugia MS.1383，未核今日馆藏状态。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 236–237; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/pascoli-trevisani-life-ms1383.md
+  source_type: archive
+  target: persons/francesco-trevisani.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 这篇未刊传记的传主为 Trevisani。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 236–237; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/quarisimini-carrara-letter-1696.md
+  source_type: archive
+  target: persons/carlo-quarisimini-ch1.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1696-07-11；作者显示名据 PDF 校正为 Quarismini。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 511–513; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/quarisimini-carrara-letter-1696.md
+  source_type: archive
+  target: persons/ventura-carrara.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 511–513; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/ricci-bologna-terms-1682.md
+  source_type: archive
+  target: works/ricci-beheading-john-baptist-1682.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 条款规定该委托对象的题材，不证明实际完成。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 326–328; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/rosa-ruffo-letter-1666.md
+  source_type: archive
+  target: persons/salvator-rosa.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1666-04-01；罗萨自述创作动机。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 937–947; print pp. 22
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/rosa-ruffo-letter-1666.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1666-04-01；罗萨自述创作动机。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 937–947; print pp. 22
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/salviati-medici-letter-1662.md
+  source_type: archive
+  target: persons/jacopo-salviati.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 书信作者；1662-07-22；代理人就 Claude 作品购画和定价报告。本次依据 Haskell 转引，未读原件。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 537–540,565–566; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/salviati-medici-letter-1662.md
+  source_type: archive
+  target: persons/leopoldo-de-medici.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 537–540,565–566; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/savini-gubbio-terms-1608.md
+  source_type: archive
+  target: persons/saverio-savini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 条款所约束画家为 Savini，不借其他实例补全文本。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 321–322; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/testi-fontana-bernini-letter.md
+  source_type: archive
+  target: persons/fulvio-testi.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: 本章明确书信作者。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 699–703; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/testi-fontana-bernini-letter.md
+  source_type: archive
+  target: persons/francesco-fontana.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 本章明确收信人为 Conte Francesco Fontana。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 699–703; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/testi-fontana-bernini-letter.md
+  source_type: archive
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中记 Bernini 报酬；不据金额猜测信的具体日期。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 699–703; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/vasalli-testimony-mola-pamfili.md
+  source_type: archive
+  target: persons/alessandro-vasalli.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 证词发言者为 Vasalli；不等同断言其亲笔写成原记录。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 179–185; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/vasalli-testimony-mola-pamfili.md
+  source_type: archive
+  target: terms/servitu-particolare.md
+  target_type: term
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 证词说明有偿优先服务；语义概念与文献载体分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 179–185; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/accademia-tax-privilege-1633.md
+  source_type: event
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 678–722; print pp. 17–18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/accademia-tax-privilege-1633.md
+  source_type: event
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Urban VIII 时采取措施；不把法律授予与全面实现混同。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 690–722; print pp. 17–18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/guercino-iconography-query-1665.md
+  source_type: event
+  target: persons/guercino.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: Guercino 主动询问具体图像细节。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 295–307; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/guercino-iconography-query-1665.md
+  source_type: event
+  target: works/guercino-sicilian-altarpiece-1665.md
+  target_type: work
+  relation_type: associated_work
+  inverse_relation_type: null
+  note: 询问对象为西西里修道院祭坛画方案；非完成证明。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 295–307; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/guercino-iconography-query-1665.md
+  source_type: event
+  target: procedures/iconographic-consultation.md
+  target_type: procedure
+  relation_type: uses_procedure
+  inverse_relation_type: null
+  note: 询问衣色、会规载体、人物方位和照明是具体协商行为。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 295–307; print pp. 9
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/lanfranco-leo-attila-request-1640.md
+  source_type: event
+  target: persons/giovanni-lanfranco.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 申请人为 Lanfranco；只证明提出申请。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 408–425; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/lanfranco-leo-attila-request-1640.md
+  source_type: event
+  target: places/naples.md
+  target_type: place
+  relation_type: occurred_at
+  inverse_relation_type: null
+  note: 1640-07-14 申请信自 Naples 发出。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 420–425; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/sacchi-household-promotion-1640.md
+  source_type: event
+  target: persons/andrea-sacchi.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 1640 年晋级事件的画家主体。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 195–198; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/sacchi-household-promotion-1640.md
+  source_type: event
+  target: persons/antonio-barberini.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 晋级发生于 Antonio 的家户。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 195–198; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/schildersbent-formation-1623.md
+  source_type: event
+  target: institutions/schildersbent.md
+  target_type: institution
+  relation_type: associated_institution
+  inverse_relation_type: null
+  note: 此事件记录该组织形成，不把组织与事件合并。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 819–823; print pp. 20
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/schildersbent-formation-1623.md
+  source_type: event
+  target: places/rome.md
+  target_type: place
+  relation_type: occurred_at
+  inverse_relation_type: null
+  note: 1623 年在罗马形成。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 819–823; print pp. 20
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/titian-honours-1533.md
+  source_type: event
+  target: persons/titian.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 荣衔接受者为 Titian。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 799–804; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: events/titian-honours-1533.md
+  source_type: event
+  target: persons/charles-v.md
+  target_type: person
+  relation_type: associated_person
+  inverse_relation_type: null
+  note: 荣衔授予者为 Charles V。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 799–804; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation

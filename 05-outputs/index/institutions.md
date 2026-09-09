@@ -1,3 +1,3 @@
-# 机构索引
+# institutions
 
-- [圣路加学院（Accademia di S. Luca）](../../04-knowledge/units/institutions/accademia-di-san-luca.md)
+暂无本项目有效条目。
