@@ -182,7 +182,10 @@ def gen_research_debt(health: dict) -> list[dict]:
         "candidates_needing_evidence": "candidates needing evidence",
         "units_missing_hierarchy_assignment": "knowledge units missing complete hierarchy assignment",
     }
-    return [item(f"RD-{key.upper()}", labels[key], str(value), "research_debt") for key, value in debt.items() if value]
+    hierarchy_paused = health.get("execution_scope", {}).get("hierarchy_assignment") == "not_in_current_scope"
+    return [item(f"RD-{key.upper()}", labels[key], str(value),
+                 "not_in_current_scope" if key == "units_missing_hierarchy_assignment" and hierarchy_paused else "research_debt")
+            for key, value in debt.items() if value]
 
 
 def gen_candidate_opportunities(health: dict) -> list[dict]:

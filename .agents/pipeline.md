@@ -1,142 +1,54 @@
-# Workflow Router — Skill 驱动的轻量编排契约 v2.5
+# 分阶段工作流 v6.0.1
 
-> 本文件只定义跨 Skill 路由、正式状态边界和全局不变量。
-> Skill 负责阶段内部流程，Agent 负责语义判断，脚本负责确定性重复工作。
-> 本文件不是线性状态机，也不要求每个任务依次经过全部路由。
+本文件是 AGENTS.md 的阶段交接契约；同一 Codex 系统内执行，不设另一套路由入口。
 
----
+## 一、两部分与当前范围
 
-## 一、三条工作循环
+第一部分：知识元与知识图谱。当前按 摄入 → 处理 → 知识元 → 对齐 → 补足 → 关系 执行。
+第二部分：知识发现与知识呈现。用户启动后，在已有知识与关系基础上进行发现、涌现、成果组织与页面展示。
 
-```text
-生产循环：source -> semantic processing -> candidate decision -> typed write-back -> knowledge
-成长循环：knowledge/output/external signal -> discovery -> candidate -> typed write-back
-治理循环：targeted check -> risk gate -> final closeout
-```
+第一部分的基础对象与关系生产不等于知识发现。候选账本用于保留待审对象，候选索引只是投影；不得从这些名称推导启动第二部分。
 
-治理循环是侧面控制，不是每个知识步骤都要进入的生产阶段。
+## 二、六阶段交接
 
----
-
-## 二、五类事件路由
-
-| 输入事件 | 主 Skill | 主要产物 | 下一路由 |
+| 阶段 | 输入与语义工作 | 结果及进入下一阶段的条件 | Skill |
 |---|---|---|---|
-| 新来源或未处理来源包 | `ingest` | 覆盖证明、semantic units、candidate ledger | 验证、晋升或 defer |
-| 已有 KU 需要补足、验证或冲突裁决 | `enrich` / `verify` / `reconcile` | evidence、decision、apply plan | 类型化写回 |
-| 库内变化、外部研究或输出产生新信号 | `synthesize` / `retrospect` | discovery candidates | 证据绑定或 defer |
-| 查询、写作和展示请求 | `query` / `compose` | output bundle + metadata | file-back 候选或结束 |
-| 当前状态、规则、架构或发布收尾 | `inspector` / `system-review` / `system-upgrade` | 定向检查、审查结论、必要投影 | 完成或明确 blocked |
+| 1 摄入 | 文献、版本、原始文件；确定本次阅读范围及缺失材料 | 来源登记可定位，范围明确；文件缺失单列 | ingest |
+| 2 处理 | 逐段读正文、注释及必要图像；理解论述与语境，记录歧义 | 处理范围的覆盖证据、语义分析和结果已保存；未读部分不得冒充完成 | ingest |
+| 3 知识元 | 判断对象边界与类型；检索现有知识以筛查重复和冲突；来源支持下成稿 | 新增、更新、暂缓清单；正文和来源可追溯。初稿不等于对齐完成 | ingest |
+| 4 对齐 | 名称、别名、身份、版本、年代、既有对象与权威记录的比对 | 对齐依据、冲突及裁决；对象不明时不合并、不开展依赖其身份的写回 | verify |
+| 5 补足 | 围绕既有条目实际缺口阅读必要资料、补正文及证据 | 补了什么、根据什么、还缺什么；原书与外部补充有区分 | enrich |
+| 6 关系 | 分析明确端点间的关系类型、方向、时间范围与直接证据 | 正式、待证、否决的关系清单；正式关系及索引与依据一致 | relate |
 
-路由由当前对象状态触发，不以固定 P0-P13 顺序推进。
+先完成本阶段过程与结果记录，再交接具备条件的对象。无需补足或无关系可建立时，记录已审查且无新增。阶段顺序不要求为形式完整而重复读取已接受范围；补证可返回相关阶段，并在原文档记录版本变化。
 
-`candidate decision` 必须检索现有知识并识别重复/冲突信号。它是每个候选的轻量必检项；完整 `reconcile` 只在存在可复现冲突时触发，不是生产循环中的固定阶段。
+## 三、过程、结果与唯一成果位置
 
----
+按同一来源/工作对象的稳定 ID 关联，不为每个阶段另建 work package。
 
-## 三、统一候选边界
+| 内容 | 过程文档 | 阶段结果 | 唯一当前成果 |
+|---|---|---|---|
+| 摄入 | 03-processing/<id>/process/stages.md 的阶段 1 | 同包 results/stages.md 的阶段 1；02-sources/source-registry.md 更新来源登记 | 02-sources 原始资产与来源登记 |
+| 处理 | 03-processing/<id>/process/stages.md | 03-processing/<id>/results/stages.md | 来源定位、语义单元、候选与 manifest |
+| 知识元、对齐、补足、关系 | 04-knowledge/process/<id>.md | 04-knowledge/results/<id>.md | units 正文与 quality 证据/关系索引 |
+| 后续发现、涌现 | 04-knowledge/process/<id>.md | 04-knowledge/results/<id>.md | 审查后的 structure 与对应断言证据 |
+| 成果组织、页面 | 05-outputs/process/<id>.md | 05-outputs/results/<id>.md | 05-outputs 中固定的成果/页面入口 |
 
-来源内发现、库内发现、关系图发现、外部研究和 output file-back 都先进入候选账本。
-候选状态统一为：
+阶段记录按编号分节：范围、原始依据、分析过程、决定/修改理由、下一步；结果按对象说明成果链接、状态、完成依据与缺口。无需新内容时不创建空文件。
 
-```text
-candidate
-needs_evidence
-ready_for_review
-approved
-applied
-no_delta
-deferred
-rejected
-blocked
-```
+业务目录从 01-domain 开始，其编号表示目录职责，不是阶段编号。摄入前读取领域约束；摄入和处理共享同一包的过程/结果文件，按阶段分节。目录与命名见 `01-domain/naming-conventions.md`。来源目录不再新增可迭代的过程文档，已有来源历史记录保留。
 
-候选不得直接等同于正式 KU、claim、relation、theme 或 hierarchy 变更。
-统一投影把候选派生为 `active / terminal / historical_non_replay`；只有 active 进入 backlog 和下一动作路由，原始 R1 账本不因投影分类而被改写。
-候选 envelope、发现边界与类型化写回规则见：
+同一对象文件持续更迭，过程追加重要决定，结果维护当前有效版本。旧结论通过过程与 Git 历史追溯，证据原件不覆写。现有 compact-v4 五类工件保留其路径和哈希契约，summary.md 是历史/兼容摘要；新阶段结果以 results/stages.md 为交接入口，禁止复制第二套同内容摘要。
 
-- `.agents/skills/06-growth/synthesize/SKILL.md`
-- `.agents/skills/00-coordination/system-upgrade/references/work-package-contract.md`
+## 四、状态与完成
 
----
+阶段状态：未开始、处理中、已完成、部分完成、受阻、暂不开展。已完成必须有过程依据和可审查结果；整体进度按各对象阶段状态说明，不报无依据的综合百分比。
 
-## 四、类型化写回
+候选仍沿用 candidate / needs_evidence / ready_for_review / approved / applied / no_delta / deferred / rejected / blocked；阶段状态不替代候选或验证状态。候选和验证的机器字段契约见对应 Skill。
 
-| 目标状态 | 权威入口 |
-|---|---|
-| verification 字段与正文验证状态 | `verify -> verify_apply_evidence.py` |
-| source 追加 | `ingest`，仅追加到 `02-sources/` |
-| KU create / merge | `ingest` 或 `reconcile` 的已批准 exact change-set |
-| claim | claim/evidence 治理规则下的已批准 exact change-set |
-| relation | relation governance 下的受控 apply 入口 |
-| theme / topic / hierarchy | `synthesize` boundary test 后交给 `evolve-hierarchy` |
-| cluster | 只保留为发现信号；如需写回，另建 theme / topic / claim / relation / hierarchy_change 候选 |
-| hierarchy | `evolve-hierarchy` 专项变更 |
+初期完整层级挂载属于暂不开展，不是必须消除的缺陷；身份、来源、正文与正式关系证据缺口仍需如实记录。
 
-不得建立自动决定语义的通用 writer。高频机械写回可以使用 map-driven 执行器，但决策必须先完成。
-验证写回必须整批预检、原子提交知识与成功日志；恢复时先核对输入指纹。失败或阻断不产生 completed 状态。
+## 五、辅助工具与收尾
 
----
-
-## 五、自动化与风险
-
-```text
-L0 机械检查/索引：允许全量自动化
-L1 已批准的低风险现有对象写回：dry-run 后允许受控批量 apply
-L2 语义审查：自动收集和整理，Agent 决策
-L3 冲突、建模和结构变化：专项审查，不自动 apply
-```
-
-允许并发：网络 collect、只读扫描、互不依赖的审计。
-必须串行：同一文件写回、正式 relation/hierarchy 变更、生成投影发布。
-
----
-
-## 六、工作包与收尾
-
-一个用户目标原则上对应一个 work package；checkpoint 留在同一工作包内，不另建微批次。
-
-最小工件按需使用：
-
-```text
-manifest.json
-candidate-ledger.jsonl
-evidence.jsonl
-apply-plan.jsonl
-summary.md
-runner-state.json   # 仅长任务或可恢复写回
-```
-
-中间步骤运行最近邻定向检查；生成投影和完整 closure 每个工作包最多执行一次。
-
----
-
-## 七、全局不变量
-
-1. `02-sources/` 来源本体只追加，不改写、不删除；顶层登记类文件可更新但不得删除。
-2. collect 只产出 evidence，不直接写知识事实。
-3. 证据不足必须保留不确定状态。
-4. 脚本不得裁决 KU 类型、claim、relation、theme 成熟度或 hierarchy placement。
-5. output 不是知识权威源；新发现必须先回到候选账本。
-6. health、backlog、Hook 和脚本结果只是运行信号。
-7. 历史 runtime 默认原地保留；新 R2 投影使用基线引用和增量，不重复复制全量状态。
-8. Git 提交与推送不属于知识批次 runner 的职责，且必须有用户当次明确授权。
-9. 用户级指令和自动记忆不属于项目权威状态；客户端硬门禁统一调用 `scripts/agent_guard.py`。
-
----
-
-## 八、验收
-
-- 路由目标 Skill 均存在且名称唯一。
-- 注册表固定由磁盘契约派生；当前架构为 18 个 leaf，无聚合 router，分类 README 不参与执行。
-- 活跃执行阅读深度最多为 `AGENTS -> SKILL -> direct reference`；reference 不得隐藏未由 Skill 直接登记的必读规则。
-- 正式写回可反查 candidate、decision、evidence 和 apply 结果。
-- `deferred` 候选仅在输入或证据变化后重新进入队列。
-- 零候选输出使用 `reviewed_no_candidates`，不得标记为已写回。
-- 完整发布验收不以 health 分数或 chain 文件存在性单独判定。
-
----
-
-## 九、版本
-
-当前版本：v2.5（2026-08-07）。历史修订只见 `06-runtime/governance/system-upgrade-log.md`。
+直接语义分析优先；代码仅用于明确可机械判定的辅助工作。索引刷新不执行知识发现；受控写回不能代替判断。
+定向检查随实际改动进行。完整 closure 只用于系统改造或交付收尾；发现失败先修复其原因，再检查受影响部分。提交发布时才以 --check-generated 核对提交基线，不为通过此检查而越权提交。

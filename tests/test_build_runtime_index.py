@@ -249,7 +249,7 @@ class RuntimeIndexTests(unittest.TestCase):
         self.assertIn("- Exact duplicate groups: `1`", index)
         self.assertIn("- Ephemeral residue: `0`", index)
         self.assertIn(
-            "[Runtime artifact retention policy](../../.agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md)",
+            "[Runtime artifact retention policy](../../.agents/skills/system-upgrade/references/runtime-artifact-retention.md)",
             index,
         )
         self.assertNotIn("safe to delete", index.lower())

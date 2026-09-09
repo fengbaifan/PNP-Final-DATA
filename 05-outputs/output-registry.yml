@@ -67,5 +67,4 @@ records:
   - 05-outputs/vendor/*
   - 05-outputs/knowledge-graph-2d*
   - 05-outputs/knowledge-graph-v2.css
-  - 05-outputs/exports/.gitkeep
   - 05-outputs/index/.gitkeep

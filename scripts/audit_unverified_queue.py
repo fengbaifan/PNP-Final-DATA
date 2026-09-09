@@ -221,7 +221,7 @@ def assess(unit: Unit, today: date) -> dict:
 
     if conflicts:
         priority = "P0"
-        next_step = "reconcile" if "unresolved_conflicts" in conflicts else "verify"
+        next_step = "verify"  # identity, evidence and conflict review share one Skill
     elif any(reason in reasons for reason in {"zero_or_missing_source_count", "unverified_evidence", "review_overdue"}):
         priority = "P1"
         next_step = "verify"

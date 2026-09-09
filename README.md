@@ -1,68 +1,61 @@
-# 《赞助人与画家》知识蒸馏系统
+# 《赞助人与画家》知识系统
 
-**Patrons and Painters Knowledge Distillation** — 以 Francis Haskell《Patrons and Painters》（Yale University Press, 1980 修订版）为核心来源的证据可追溯知识蒸馏系统，研究巴洛克时期意大利艺术与社会。
+当前版本：v6.0.1。以 Francis Haskell《Patrons and Painters》为来源基础，研究巴洛克时期意大利艺术与社会。
 
-## 系统概述
+## 从哪里开始
 
-按任务事件进入生产、成长与治理三条循环：来源语义处理 → 候选决策 → 类型化写回 → 知识库；已有知识、外部研究与输出可触发新候选。Agent 负责语义判断，脚本负责机械检查与受控执行。现行路由见 `.agents/pipeline.md`。
+- [AGENTS.md](AGENTS.md)：Codex 唯一总入口，规定目标、边界与记录义务。
+- [分阶段工作流](.agents/pipeline.md)：阶段职责、交接与过程/结果存储。
+- `.agents/skills/`：同一系统的唯一技能目录；没有另一套客户端规则。
+- [用户原话与修订记录](06-runtime/governance/user-revisions.md)与[当前要求](06-runtime/governance/current-requirements.md)。
 
-- **权威入口**：`AGENTS.md`（总纲、边界、优先级与索引）
-- **领域配置**：`01-domain/`（当前领域：《赞助人与画家》；A–E 五个 pilot 维度）
-- **核心来源**：`02-sources/`（23 个章节 PDF + 79 个 OCR Markdown + 三格式索引）
-- **18 个 Skills**：`.agents/skills/` 为唯一语义权威；`.claude/skills/` 仅作扁平发现链接
-- **客户端门禁**：`scripts/agent_guard.py`（Codex/Claude Hook 硬阻断）
+## 工作范围
 
-## 目录结构
+第一部分：知识元与知识图谱，依次为 **摄入 → 处理 → 知识元 → 对齐 → 补足 → 关系**。
+第二部分：知识发现与知识呈现，后续开展发现、涌现和成果组织，最终形成页面。
 
-```
-01-domain/      领域配置（taxonomy / domain / dimension / overrides / naming）
-02-sources/     原始来源（来源本体只追加；顶层登记文件可更新）
-03-processing/  处理中间层（compact-v4 工作包）
-04-knowledge/   知识库（units 8 类 / structure 4 类 / quality 断言与证据）
-05-outputs/     输出产物（知识图谱 HTML、导出、草稿）
-06-runtime/     运行状态（health、governance、automation、checkpoints）
-scripts/        执行脚本（audit_/build_/collect_/validate_/apply_ 前缀权限表见 01-domain/naming-conventions.md）
-tests/          回归测试
-portable/       便携测试入口
-```
+当前执行第一部分，第二部分不自动启动。语义分析是主体，脚本仅用于必要辅助。
 
-## 全书结构（正文 17 章，三部）
+## 目录
 
-- **Part I — Rome**（第 1–6 章）：赞助机制 / 乌尔班八世及其随从 / 修会 / 私人赞助人 / 更广泛的公众 / 罗马赞助的衰落
-- **Part II — Dispersal**（第 7–8 章）：欧洲的介入 / 外省景象
-- **Part III — Venice**（第 9–17 章）：国家贵族与教会 / 外国影响 / 外国侨民 / 启蒙运动 / 出版商与鉴赏家 / 弗朗切斯科·阿尔加罗蒂 / 新方向 / 画商与小资产阶级 / 最后的赞助人
-- **书后材料**：结论 / 附录 / 第二版后记 / 参考书目 / 索引
+| 目录 | 内容 |
+|---|---|
+| 01-domain | 领域对象、术语与适用边界 |
+| 02-sources | 原始来源、版本资产与登记 |
+| 03-processing | 摄入与处理的过程、覆盖证据和阶段结果 |
+| 04-knowledge | 知识过程、阶段结果、知识元、关系与证据 |
+| 05-outputs | 呈现过程、定稿与页面 |
+| 06-runtime | 对话记录、治理和必要机器状态 |
 
-详见 `02-sources/source-registry.md`。
+各阶段过程与结果分开，固定路径持续更迭，实际成果只保留一个当前版本。原始来源不覆盖。
 
-## 当前状态
+从 01 的领域约束开始，目录职责见 [命名规范](01-domain/naming-conventions.md)。目录编号不等同于执行阶段：
 
-- 当前版本：v5.3.0
-- 新领域初始化：2026-09-09。A–E 五个维度为 `pilot` 起始框架，首次全量摄入后经 `evolve-hierarchy` 重评晋升 `core`。
-- 第一章试点已形成 10 个知识元与 5 个断言登记；候选账本仍为 approved。外部验证、Theme/Topic 挂载及写回状态收口仍待处理；同步检查不替代语义验收。
-- 语言约定：KU 正文中文为主，人名/书名/术语附英文原文；引文保留英文原文（见 `01-domain/workflow-overrides.md`）。
-- 旧领域（信息图表史）的任何数量、分数与验收结论均不随迁。
-
-## 快速开始
-
-```powershell
-# 机械校验（只读）
-python scripts\audit_repo.py --summary
-python scripts\skill_registry.py
-
-# 处理包校验（compact-v4）
-python scripts\validate_processing_package.py 03-processing\<doc-id>
-
-# 整体验收（依赖 Git 与领域结构，需先完成初始化）
-python scripts\run_sync_closure.py --refresh-generated --full --check-generated
-
-# 测试
-python -X utf8 -B portable\run_tests.py
+```mermaid
+flowchart LR
+    A[01 领域约束] --> B[摄入] --> C[处理] --> D[知识元] --> E[对齐] --> F[补足] --> G[关系]
+    S[02 来源与登记] --> B
+    B -.过程与结果.-> P[03 processing]
+    C -.过程与结果.-> P
+    D -.-> K[04 knowledge]
+    E -.-> K
+    F -.-> K
+    G -.-> K
+    G -.用户启动第二部分.-> H[发现与涌现]
+    H -.知识成果.-> K
+    H --> I[05 成果组织与页面呈现]
+    R[06 用户记录与运行治理] -.支持.-> A
 ```
 
-## 治理要点
+## 当前研究状态
 
-- 单主线 Git：只保留 `main`，不创建分支或额外 worktree（细则见 `.agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md`）。
-- commit、push 等外部状态变更必须由用户明确授权。
-- `02-sources/` 来源本体只追加（顶层登记文件可更新、不可删除）；摄入必须保留覆盖证明；证据不足保留不确定状态。
-- 健康分数、backlog 与脚本输出只是运行信号，不是知识裁决本体。
+第一章已有 10 个知识元和 5 个断言登记。历史候选仍为 approved，不能据此宣称写回状态收口、身份对齐、补足或关系阶段已完成。完整 Theme/Topic 挂载当前暂不开展。
+
+现存展示页面属于既有模板或机械投影，不等于第二部分已完成；当前知识入口见 [知识导航](05-outputs/index/index.md)。
+
+## 检查与维护
+
+日常优先直接审阅相关文本；必要时运行 `python scripts/validate_processing_package.py <包目录>` 或定向检查。
+系统改造收尾使用 `python scripts/run_sync_closure.py --refresh-generated --full`；经授权提交后、发布前使用 `--check-generated` 检查提交基线。
+
+运行环境权限以 Codex 实际配置为准，本项目不宣称自动 Hook 已加载。只使用 main；Git 提交和推送需明确授权。

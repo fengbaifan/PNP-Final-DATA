@@ -42,9 +42,8 @@ FILE_BACK_STATUSES = {
 }
 EXCLUDED_OUTPUT_FILES = {
     "05-outputs/README.md",
-    "05-outputs/drafts/README.md",
-    "05-outputs/drafts/.gitkeep",
-    "05-outputs/retrospects/.gitkeep",
+    "05-outputs/process/README.md",
+    "05-outputs/results/README.md",
     "05-outputs/output-registry.yml",
     "05-outputs/index/README.md",
     "05-outputs/index/output-gallery.md",

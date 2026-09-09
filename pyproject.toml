@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patrons-and-painters-knowledge-distillation"
-version = "5.3.0"
+version = "6.0.1"
 description = "Evidence-traceable knowledge distillation system for Patrons and Painters: Italian art and society in the age of the Baroque"
 readme = "README.md"
 requires-python = ">=3.10"

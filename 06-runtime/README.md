@@ -1,43 +1,15 @@
-# 系统运行层
+# 运行与治理记录
 
-本目录只保存当前派生状态、可追溯 work package 与评测用例，不定义知识蒸馏流程。
-权威顺序是 `AGENTS.md -> Skill -> direct reference`。
+本目录不定义另一套流程。Codex 通过 AGENTS.md、.agents/pipeline.md 与唯一 Skill 根执行。
 
-## 当前目录
+- [user-revisions.md](governance/user-revisions.md)：每条本项目可见用户消息的原话、目的解释与处理结果，持续追加。
+- [current-requirements.md](governance/current-requirements.md)：当前有效要求，引用原话编号。
+- [system-upgrade-log.md](governance/system-upgrade-log.md)：系统变更的过程、最终结果与验证记录，固定文件版本更迭。
+- governance/governance-backlog.md：派生信号，不代替语义裁决。
+- state/：必要机器快照；候选索引不等于已执行知识发现。
+- automation/：既有 evidence、decision、plan、manifest、result、summary 与必要恢复状态。按同一工作对象关联业务阶段过程和结果，不另建同用途副本。
+- eval/：既有评测证据。
 
-```text
-06-runtime/
-├── state/
-│   ├── current-health.json
-│   ├── skill-registry.json
-│   ├── candidate-index.jsonl
-│   ├── discovery-manifest.json
-│   └── generated-projections-manifest.json
-├── governance/
-│   ├── governance-backlog.md
-│   ├── system-upgrade-log.md
-│   ├── relation-generic-explicit-baseline.jsonl
-│   └── taxonomy-migration-map.json
-├── automation/
-│   ├── index.md
-│   └── <work-package>/
-└── eval/
-    └── query-eval-set.jsonl
-```
-
-## 边界
-
-1. `state/` 是可重建投影；health、backlog 和 candidate index 不是语义裁决。
-2. 长任务状态只位于当前 work package 的 `runner-state.json`，不存在仓库级全局 runtime state。
-3. `automation/` 保留 evidence、decision、plan、manifest、result 和 summary。批次内一次性 writer 不作为现行执行器保留；稳定执行器只位于 `scripts/`。
-4. candidate index 同时保存完整 inventory 和 `lifecycle_class`；backlog 只统计 `active`，不把 terminal 或 historical non-replay 计作债务。
-5. 生成式 R2 投影必须由 provenance manifest 明确列出且输出哈希匹配；inventory/summary 默认是 R1。工作包最终只刷新一次并执行 `--check-generated`。
-6. audit 报告默认输出到终端或当前 work package，不在根运行层堆积日期版本快照。
-7. 系统升级影响、删除边界与验收证据只写入 `system-upgrade-log.md`，不再维护逐次 upgrade-impact 副本。
-
-## 入口
-
-- `python scripts/build_runtime_index.py`：刷新 work package 索引。
-- `python scripts/build_runtime_index.py --retention-report`：只读检查 R1/R2/R3 和残留。
-- `python scripts/hierarchy_stress_test.py`：只读输出五级层级缺口；显式 `--queue-output` 才写待审队列。
-- `python scripts/run_sync_closure.py --refresh-generated --full --check-generated`：最终发布门禁。
+处理和知识的过程/结果保存在各自业务目录。历史证据默认保留；来源和不可替代裁决不删除。生成索引不改历史账本。
+不另设全局 checkpoints/traces 目录；恢复状态沿用 automation 中既有工作包位置，阶段完成依据由业务目录的 process/results 保存。
+Git 未授权时不提交；此时以重复生成的哈希稳定性核验幂等，发布前再执行基于 HEAD 的 --check-generated。

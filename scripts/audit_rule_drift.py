@@ -2,7 +2,7 @@
 """
 audit_rule_drift.py — 规则漂移检测
 =====================================
-对比 AGENTS / skills / hooks / README 中的规则声明与磁盘事实，
+对比 AGENTS / skills / README 中的规则声明与磁盘事实，
 检测文档与脚本事实之间的不一致。
 """
 
@@ -135,12 +135,7 @@ def check_sync_closure_contract(base: Path = BASE) -> list[dict]:
     closure = base / "scripts" / "run_sync_closure.py"
     if not closure.exists():
         return [{"issue": "sync_closure_missing", "script": "scripts/run_sync_closure.py"}]
-    settings = json.loads(read_text(base / ".agents" / "settings.json"))
-    permissions = settings.get("permissions", {})
-    if any("scripts/run_sync_closure.py" in pattern for pattern in permissions.get("deny", [])):
-        return [{"issue": "sync_closure_denied", "script": "scripts/run_sync_closure.py"}]
-    if not any("scripts/run_sync_closure.py" in pattern for pattern in permissions.get("confirm", [])):
-        return [{"issue": "sync_closure_not_confirmed", "script": "scripts/run_sync_closure.py"}]
+
     return []
 
 
@@ -335,7 +330,7 @@ def check_claim_registry_header(base: Path = BASE) -> list[dict]:
 
 
 def check_relation_schema_contract(base: Path = BASE) -> list[dict]:
-    schema_path = base / ".agents" / "skills" / "01-intake" / "ingest" / "references" / "relation-types.yml"
+    schema_path = base / ".agents" / "skills" / "ingest" / "references" / "relation-types.yml"
     doc_path = schema_path.with_suffix(".md")
     if not schema_path.is_file():
         return [{"issue": "relation_schema_missing", "file": schema_path.relative_to(base).as_posix()}]
@@ -396,8 +391,7 @@ def check_display_taxonomy_contract(base: Path = BASE) -> list[dict]:
     if set(colors or {}) != CURRENT_UNIT_TYPES or set(labels or {}) != CURRENT_UNIT_TYPES:
         findings.append({"issue": "knowledge_graph_taxonomy_drift", "script": script.relative_to(base).as_posix()})
     for relative in (
-        ".agents/skills/09-display/knowledge-graph/SKILL.md",
-        ".agents/skills/09-display/knowledge-graph/references/data-schema.md",
+        ".agents/skills/compose/references/data-schema.md",
     ):
         path = base / relative
         text = read_text(path)
@@ -609,57 +603,17 @@ def check_skill_coverage(base: Path = BASE) -> list[dict]:
     return findings
 
 
-def check_settings_coverage(base: Path = BASE) -> list[dict]:
-    """Check all scripts/*.py are covered by settings.json allow/deny."""
+def check_codex_core_layout(base: Path = BASE) -> list[dict]:
+    """Reject redundant client systems; require the Codex entry and one Skill root."""
     findings: list[dict] = []
-    settings_path = base / ".agents" / "settings.json"
-    if not settings_path.exists():
-        return [{"issue": "missing_settings_json"}]
-
-    settings = json.loads(read_text(settings_path))
-    allow_patterns = settings.get("permissions", {}).get("allow", [])
-    deny_patterns = settings.get("permissions", {}).get("deny", [])
-    confirm_patterns = settings.get("permissions", {}).get("confirm", [])
-
-    all_patterns = allow_patterns + deny_patterns + confirm_patterns
-    for pattern in all_patterns:
-        match = re.search(r"python scripts/([A-Za-z0-9_-]+\.py)", pattern)
-        if match and "*" not in match.group(1) and not (base / "scripts" / match.group(1)).is_file():
-            findings.append({"issue": "stale_script_permission", "script": f"scripts/{match.group(1)}"})
-
-    if any("scripts/scan_sources.py" in pattern for pattern in allow_patterns):
-        findings.append({"issue": "mutable_scan_sources_allowed", "script": "scripts/scan_sources.py"})
-
-    for py_script in sorted((base / "scripts").glob("*.py")):
-        script_name = py_script.name
-        # Skip temporary / diagnostic scripts
-        if script_name.startswith("_"):
-            continue
-        covered = False
-        for pattern in allow_patterns + deny_patterns + confirm_patterns:
-            # Extract script name from Bash(...) pattern
-            m = re.search(r"python scripts/([\w_]+\.py)", pattern)
-            if m:
-                script_pat = m.group(1)
-            else:
-                script_pat = pattern.replace("Bash(", "").rstrip(" *)")
-                script_pat = script_pat.replace("python scripts/", "").replace("scripts/", "")
-
-            # Handle wildcard patterns like "repair_*.py"
-            if "*" in script_pat:
-                prefix = script_pat.split("*")[0]
-                if script_name.startswith(prefix):
-                    covered = True
-                    break
-            elif script_name == script_pat:
-                covered = True
-                break
-        if not covered:
-            findings.append({
-                "issue": "script_not_in_settings",
-                "script": f"scripts/{script_name}",
-            })
-
+    for relative in ("AGENTS.md", ".agents/pipeline.md"):
+        if not (base / relative).is_file():
+            findings.append({"issue": "codex_core_missing", "path": relative})
+    if not (base / ".agents/skills").is_dir():
+        findings.append({"issue": "codex_skill_root_missing", "path": ".agents/skills"})
+    for relative in (".claude", "CLAUDE.md", ".agents/settings.json", ".codex/hooks.json"):
+        if (base / relative).exists():
+            findings.append({"issue": "redundant_client_surface", "path": relative})
     return findings
 
 
@@ -736,7 +690,7 @@ def collect_findings(base: Path = BASE) -> list[dict]:
 
     findings.extend(check_current_agents_key_entries(base))
     findings.extend(check_skill_coverage(base))
-    findings.extend(check_settings_coverage(base))
+    findings.extend(check_codex_core_layout(base))
     findings.extend(check_retired_surface_absence(base))
     findings.extend(check_readme_structure(base))
     findings.extend(check_log_responsibility_boundaries(base))

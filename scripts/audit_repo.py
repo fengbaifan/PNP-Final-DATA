@@ -830,74 +830,17 @@ def disambiguation_check(files: list[Path], duplicates: dict[str, list[str]], ba
 
 
 def rule_authority_check(base: Path) -> dict:
-    agents_dir = base / ".agents"
-    codex_hooks = base / ".codex" / "hooks.json"
-    claude_dir = base / ".claude"
-    agents_settings = agents_dir / "settings.json"
-    claude_settings = claude_dir / "settings.json"
-    claude_skills = claude_dir / "skills"
-    claude_entry = base / "CLAUDE.md"
-    guard_script = base / "scripts" / "agent_guard.py"
-
-    adapter_issues: list[str] = []
-
-    def hook_uses_shared_guard(path: Path) -> bool:
-        if not path.is_file():
-            return False
-        try:
-            payload = json.loads(read_text(path))
-        except json.JSONDecodeError:
-            adapter_issues.append(f"invalid JSON: {path.relative_to(base).as_posix()}")
-            return False
-        return "scripts/agent_guard.py" in json.dumps(payload, ensure_ascii=False)
-
-    if codex_hooks.is_file() and not hook_uses_shared_guard(codex_hooks):
-        adapter_issues.append(".codex/hooks.json does not call scripts/agent_guard.py")
-    if claude_settings.is_file() and not hook_uses_shared_guard(claude_settings):
-        adapter_issues.append(".claude/settings.json does not call scripts/agent_guard.py")
-    if claude_entry.is_file() and "@AGENTS.md" not in read_text(claude_entry):
-        adapter_issues.append("CLAUDE.md does not import AGENTS.md")
-
-    canonical: dict[str, Path] = {}
-    for skill_file in sorted((agents_dir / "skills").rglob("SKILL.md")):
-        match = re.search(r"^name:\s*(.+?)\s*$", read_text(skill_file), re.MULTILINE)
-        if match:
-            canonical[match.group(1)] = skill_file.parent.resolve()
-
-    def claude_adapter_target(alias: Path) -> Path | None:
-        if alias.is_symlink() or getattr(alias, "is_junction", lambda: False)():
-            return alias.resolve()
-        if not alias.is_file():
-            return None
-        raw_target = read_text(alias).strip()
-        if not raw_target or "\n" in raw_target or "\r" in raw_target:
-            return None
-        target = Path(raw_target)
-        if target.is_absolute():
-            return None
-        return (alias.parent / target).resolve()
-
-    if claude_skills.is_dir():
-        for name, target in canonical.items():
-            alias = claude_skills / name
-            adapter_target = claude_adapter_target(alias)
-            if adapter_target is None:
-                adapter_issues.append(f"missing Claude Skill adapter: {name}")
-            elif adapter_target != target:
-                adapter_issues.append(f"Claude Skill adapter target mismatch: {name}")
-        for alias in claude_skills.iterdir():
-            if alias.name not in canonical:
-                adapter_issues.append(f"unexpected Claude Skill adapter: {alias.name}")
-
+    try:
+        from scripts.audit_rule_drift import check_codex_core_layout
+    except ModuleNotFoundError:
+        from audit_rule_drift import check_codex_core_layout
     return {
-        "agents_dir_exists": agents_dir.exists(),
-        "agents_settings_exists": agents_settings.exists(),
-        "codex_hooks_exists": codex_hooks.is_file(),
-        "claude_entry_exists": claude_entry.is_file(),
-        "claude_settings_exists": claude_settings.exists(),
-        "claude_skill_adapters_exist": claude_skills.is_dir(),
-        "agent_guard_exists": guard_script.is_file(),
-        "adapter_issues": adapter_issues,
+        "agents_dir_exists": (base / ".agents/skills").is_dir(),
+        "agents_entry_exists": (base / "AGENTS.md").is_file(),
+        "pipeline_exists": (base / ".agents/pipeline.md").is_file(),
+        "client": "codex",
+        "hook_status": "not_configured",
+        "adapter_issues": check_codex_core_layout(base),
         "legacy_references": 0,
     }
 
@@ -1050,18 +993,10 @@ def build_structural_health_score(results: dict) -> dict:
     ra_score = 20
     if not rule_authority.get("agents_dir_exists", False):
         ra_score -= 5
-    if not rule_authority.get("agents_settings_exists", False):
-        ra_score -= 2
-    if not rule_authority.get("codex_hooks_exists", False):
-        ra_score -= 4
-    if not rule_authority.get("claude_entry_exists", False):
-        ra_score -= 3
-    if not rule_authority.get("claude_settings_exists", False):
-        ra_score -= 2
-    if not rule_authority.get("claude_skill_adapters_exist", False):
-        ra_score -= 2
-    if not rule_authority.get("agent_guard_exists", False):
-        ra_score -= 2
+    if not rule_authority.get("agents_entry_exists", False):
+        ra_score -= 10
+    if not rule_authority.get("pipeline_exists", False):
+        ra_score -= 5
     if rule_authority.get("adapter_issues"):
         ra_score -= min(len(rule_authority["adapter_issues"]), 5)
     ra_score = max(0, ra_score)
@@ -1792,6 +1727,12 @@ def build_results(base: Path) -> dict:
     raw_results["knowledge_structure_quality"] = build_knowledge_structure_quality_score(raw_results)
     raw_results["evidence_quality"] = build_evidence_quality_score(raw_results)
     raw_results["knowledge_maturity"] = knowledge_maturity_check(base, snapshots)
+    agents_entry = base / "AGENTS.md"
+    first_part = agents_entry.is_file() and "当前执行第一部分" in read_text(agents_entry)
+    raw_results["execution_scope"] = {
+        "part": "knowledge" if first_part else "unspecified",
+        "hierarchy_assignment": "not_in_current_scope" if first_part else "review_required",
+    }
     return raw_results
 
 
@@ -1825,9 +1766,8 @@ def print_report(results: dict) -> None:
 
     ra = results["rule_authority"]
     print("规则权威:")
-    print(f"  .agents/ 目录: {'✓' if ra['agents_dir_exists'] else '✗'} | settings.json: {'✓' if ra['agents_settings_exists'] else '✗'}")
-    print(f"  Codex Hook: {'✓' if ra['codex_hooks_exists'] else '✗'} | shared guard: {'✓' if ra['agent_guard_exists'] else '✗'}")
-    print(f"  Claude 入口: {'✓' if ra['claude_entry_exists'] else '✗'} | settings: {'✓' if ra['claude_settings_exists'] else '✗'} | Skill adapters: {'✓' if ra['claude_skill_adapters_exist'] else '✗'}")
+    print(f"  Codex AGENTS 入口: {ra['agents_entry_exists']} | Skill 根: {ra['agents_dir_exists']} | 阶段契约: {ra['pipeline_exists']}")
+    print("  Hook: 未配置；权限由实际 Codex 环境控制")
     print(f"  客户端适配问题: {len(ra['adapter_issues'])} ({'✗ 需修复' if ra['adapter_issues'] else '✓ 干净'})")
     for issue in ra["adapter_issues"][:10]:
         print(f"    - {issue}")

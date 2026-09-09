@@ -86,11 +86,10 @@ def build_steps(
         steps.extend(
             [
                 Step("build relation index", script("build_relation_index.py")),
-                Step("build relation candidates", script("plan_relation_candidates.py")),
                 Step("build runtime index", script("build_runtime_index.py")),
                 Step("build translation index", script("build_translation_index.py")),
                 Step("build knowledge graph data", script("build_knowledge_graph_data.py")),
-                Step("build discovery index", script("build_discovery_index.py")),
+                Step("index existing candidates", script("build_discovery_index.py")),
                 Step("export skill registry", script("skill_registry.py", "--export")),
                 Step("write health and backlog", script("write_current_health.py")),
                 Step("build output gallery and navigation", script("build_output_gallery.py")),

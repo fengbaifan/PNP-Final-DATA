@@ -1,6 +1,6 @@
 # Dimension Registry — 维度体系成长注册表
 
-本文件定义当前垂直领域的 Level 2 维度注册规则。它不把 5 个维度固定为永久结构，而是把它们视为新领域初始化阶段设计的起始框架：全部处于 `pilot` 状态，首次全量摄入后经 `evolve-hierarchy` 重评方可晋升 `core`。
+本文件定义当前垂直领域的 Level 2 维度注册规则。它不把 5 个维度固定为永久结构，而是把它们视为新领域初始化阶段设计的起始框架：全部处于 `pilot` 状态，第二部分启动后经 `synthesize` 重评方可晋升 `core`。
 
 ## 一、设计原则
 
@@ -29,7 +29,7 @@
 | `core` | 稳定核心维度 | 正常承载 Theme、Topic 与知识元 |
 | `pilot` | 起始框架维度 | 可建立映射和样本 Theme/Topic；晋升需重评 |
 | `proposed` | 候选维度 | 记录观察，不修改正式 hierarchy |
-| `core_candidate` | 准备晋升 | 需通过 evolve-hierarchy、sys-audit、evidence/boundary/hierarchy impact 审查 |
+| `core_candidate` | 准备晋升 | 需通过 synthesize、inspector、evidence/boundary/hierarchy impact 审查 |
 | `split_candidate` | 准备拆分 | 需定义拆分边界和迁移影响 |
 | `merge_candidate` | 准备合并 | 需说明重叠原因与旧编号映射 |
 | `deprecated` | 不再扩展 | 保留历史链接，不再新增 Theme/Topic |

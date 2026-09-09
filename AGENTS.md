@@ -1,159 +1,74 @@
-# Knowledge Distillation - 按需披露总纲 v5.3.0
+# 《赞助人与画家》知识系统 — Codex 总入口 v6.0.1
 
-本文件是系统权威入口，只保留总纲、边界、优先级与索引。
-流程细节、字段清单、模板、异常分支和历史运行记录必须下沉到最近的 skill、reference 或 runtime 索引。
+## 一、权威与范围
 
----
+- 当前版本：v6.0.1（2026-09-09）。Codex 是本项目唯一执行客户端。
+- 本文件规定目标、边界和入口；`.agents/pipeline.md` 规定阶段交接，`.agents/skills/` 是唯一 Skill 根。它们是同一系统的从属文件，不是独立客户端。
+- 用户当前要求优先于项目规则；来源事实以原始材料为准，历史报告和自动记忆不授权改动。
+- 权限由实际 Codex 运行环境决定，不维护另一份 allow/confirm/deny 清单；不把配置存在视为 Hook 生效。
+- 中文沟通，语义分析为基础。直接阅读、分析和撰写；代码只在必要的定位、校验、受控写回、索引和页面实现中辅助，不替代语义判断。
 
-## 一、文件角色
+## 二、工作目标
 
-- `AGENTS.md`：总纲、架构边界、执行优先级、规则分发表、关键入口。
-- `.agents/skills/**/SKILL.md`：技能触发、输入、执行、权限、状态、产物与下一跳。
-- `.agents/skills/{05-quality,06-growth,07-output}/README.md`：分类导航，不是可运行 Skill。
-- `.agents/skills/**/references/*.md`：共享契约、长 schema/模板或条件分支；不是短规则的默认存放处。
-- `.codex/hooks.json`、`.claude/settings.json`、`CLAUDE.md`、`.claude/skills/`：客户端薄适配；只调用共享门禁或链接权威 Skill，不另存语义规则。
-- `01-domain/*.md`：taxonomy、命名和 workflow override。
-- `06-runtime/automation/index.md`：自动生成的运行批次索引。
-- `06-runtime/governance/system-upgrade-log.md`：正式系统升级记录。
+第一部分：知识元与知识图谱，按 **摄入 → 处理 → 知识元 → 对齐 → 补足 → 关系** 顺序执行。
+第二部分：知识发现与知识呈现，后续开展发现、涌现和成果组织，最终形成页面展示。
 
-### 按需披露规则
+当前执行第一部分。不得因新增 KU、图谱孤点、层级空缺或输出而自动启动第二部分。初期 Theme/Topic 挂载标为暂不开展，不为填字段制造主题。后续部分由用户明确启动。
 
-1. `AGENTS.md` 只保留摘要规则、决策边界和路径索引。
-2. `SKILL.md` 必须足以完成常规路径；不得把每次执行必读的短规则拆成 reference。
-3. 只有跨 Skill 共享、篇幅较长、独立版本化或仅在条件分支读取的 schema、模板、枚举和异常规则才下沉。
-4. 活跃规则的最大阅读深度为 `AGENTS -> SKILL -> direct reference`；不得用 reference 再引出未在 Skill 直接登记的必读 reference。
-5. 短、单一调用方、与 Skill 合并后仍可快速阅读的细则必须并入 `SKILL.md`；Skill 是否独立由触发、权限、状态和产物边界决定，不由行数决定。
-6. 系统升级先更新最近权威落点，再同步必要入口；历史 batch 不得逐条追加到 `AGENTS.md` 或 `README.md`。
-7. 用户级 AGENTS/CLAUDE 指令和自动记忆只作非权威背景；可变事实必须以当前 checkout、实时检查和带时间戳状态为准，记忆不得授权写入、删除、提交或推送。
+各阶段先保存过程和结果再交接；已具备条件的对象可以继续，阻断对象单列。无新增也是可接受结果，需说明审查依据。阶段执行不自动增加逐步用户审批。
 
----
+## 三、记录、目录和版本
 
-## 二、三层架构
+- 每次收到本项目中实际可见的用户消息，先在 `06-runtime/governance/user-revisions.md` 追加原话；普通问答也记录，解释与处理结果另列，不把普通消息升级为规则。
+- `06-runtime/governance/current-requirements.md` 汇总当前有效要求，引用原话编号；本文件只规定记录义务，不复制会话正文。
+- 不声称记录未提供的其他任务或后台消息。文件无法写入时应说明，恢复后补记。
+- 过程记录与阶段结果在相应业务目录分开保存，具体位置见 pipeline。每个对象沿用固定路径版本更迭，不按日期、轮次或“最终版”复制同用途文档。
+- 结果报告指向唯一当前成果；历史原话、证据、裁决与来源版本保留，不以更新结果为由抹去。
+- `02-sources/` 来源本体只追加，不改写、不删除；顶层登记文件可以更新、不能删除。
+- 业务目录从 `01-domain/` 开始，保存领域约束与命名规范；编号表示内容职责，不等同于六个阶段。
+- `03-processing/` 保存摄入与处理的过程、覆盖证据和结果；`04-knowledge/` 保存知识分析过程、知识元、关系、证据与成果状态；`05-outputs/` 保存呈现过程、定稿及页面。
+- `06-runtime/` 保存用户记录、治理日志与必要机器状态，不代替业务阶段结果。
 
-```text
-Layer 3 - Structure Nodes
-  domain / dimension / theme / topic
-  目录: 04-knowledge/structure/
+## 四、知识与执行边界
 
-Layer 2a - Knowledge Units
-  person / institution / place / work / publication / term / procedure / event
-  目录: 04-knowledge/units/
+- KU 类型：person / institution / place / work / publication / term / procedure / event。claim 属于断言与证据层，不是 KU。
+- 后续结构主轴：domain → dimension → theme → topic → KU；Cluster 仅为发现候选，不是正式结构节点。
+- 来源阅读、候选、知识元成稿、对齐、补足、正式关系与语义验收分别记状态，不以文件存在或健康分数推导完成。
+- 处理保留来源定位和覆盖证明；脚本不得代替完整语义阅读。证据不足保留待证，来源变化按指纹重开有效处理状态。
+- 候选在写回前检索现有对象，判断重复与冲突。approved 不等于 applied；无变化记 no_delta，失败不记 completed。
+- 外部补证先 collect → evidence JSONL，经过语义判断后用 `scripts/verify_apply_evidence.py` dry-run/apply 写回验证状态。身份对齐不等于事实全部验证。
+- 正式关系须有有效端点、受控类型、方向及支持该具体关系的证据。共现、标签、正文链接与 weak_associations 不自动成为正式关系。
+- 同一文件写回串行，整批验证写回先预检并原子提交；恢复先核对证据指纹。
+- 只使用 main，不创建其他分支或 worktree。提交、推送需用户明确授权；本地完成与远程同步分别核验。
+- 系统修订先处理权威契约及直接依赖，再按影响做必要检查。不把全套测试、刷新索引或外部采集变成每个语义步骤的固定动作。
 
-Layer 2b - Assertion & Evidence
-  claim / source / citation / evidence
-  目录: 04-knowledge/quality/
-```
+## 五、Skills
 
-判断边界：
-
-- 能自然容纳多个 knowledge unit 的对象属于 structure node。
-- `claim` 属于断言与证据层，不是 knowledge unit 类型。
-- 禁止恢复或新建 `ideas/`、`propositions/`、`arguments/`、`concepts/`、`techniques/`、`cases/`。
-
----
-
-## 三、系统总原则
-
-1. 中文优先；正式报告、审查结论、治理记录与交付总结默认使用中文。仅代码、路径、字段名、标准名称及无可靠译名的术语保留英文，必要时首次出现附中文说明。
-2. workflow-first：中心是 Agent + Skill Contract + Event Routing + State Honesty，不是脚本集合。
-3. 来源只读：`02-sources/` 内来源本体（`01-book/`、`02-Markdown/`、`03-Index/` 等子目录）只追加，不改写、不删除；顶层登记类文件（`README.md`、`source-registry*.md`）可更新但不得删除。
-4. 摄入必须保留覆盖证明；禁止用脚本替代语义阅读。
-5. enrich 以网页语义补写为核心，外部链接只是导航锚点。
-6. 验证走 `collect -> evidence JSONL -> apply` 两阶段；正式写回入口为 `scripts/verify_apply_evidence.py`。
-7. 证据不足必须保留不确定状态，不得伪装成人工确认完成。
-8. health、backlog 和脚本输出只是运行信号，不是知识裁决本体。
-9. `AGENTS.md` 与 `README.md` 必须与磁盘事实同步。
-10. 编码执行遵循最小改动、先读后写、状态诚实和显式验证；细则见 `.agents/skills/00-coordination/system-upgrade/references/coding-execution-principles.md`。
-11. Git 采用单主线治理：Codex、VS Code 和命令行均不得创建分支或额外 worktree；只保留 `main`，细则见 `.agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md`。
-12. work package 的 evidence、decision、plan、manifest、result 与 summary 默认保留；批次内旧执行器、重复规范和过时快照在明确授权后由 Git 历史保存，不在工作树维护第二套现行系统。细则见 `.agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md`。
-13. 生成式状态快照必须幂等；发布门禁使用 `--check-generated` 阻断未提交的索引或状态漂移。
-14. `weak_associations` 是正式关系图的排除信号；relation index 的 legacy `related` 与正文链接 fallback 不得将其重新升级为 `relations`。
-15. R2 可重建投影必须由 provenance manifest 明确列出，并记录有效输入、生成器、参数、KU 状态摘要与匹配的输出哈希；未列出、缺失或哈希不符时按 R1 保留，窄范围生成态信号另标 `review_required`。
-16. 一个用户目标原则上只建立一个 work package；checkpoint 留在包内，机械重复默认自动化，语义裁决不得自动化。
-17. 仓库内唯一 Skill 根为 `.agents/skills/`；Skill 角色与触发词必须在无重复键的 frontmatter 显式声明，注册表只作派生快照，并拒绝隐藏的多层 reference。
-18. 层级主轴为 `domain -> dimension -> theme -> topic -> KU`；A.1/B.2 等稳定代码现表示 Level 3 theme，Topic 是可研究问题，KU 通过多对多 `topic_memberships` 提供材料。Cluster 是可作用于任意层级的发现候选，不是 structure node，也不得自动晋升层级。
-19. compact-v4 必须分开记录 `source_assets` 指纹范围与 `processing_scope` 复读范围；scope 资产须由跨度并集逐行无缺口覆盖，来源漂移自动重开有效摄入状态。`semantic_artifact_integrity` 不替代 Agent 语义验收。
-20. 验证写回必须整批预检并原子提交；blocked/failed 不得记 completed。长任务恢复只使用 work package 内状态，并在跳过 processed item 前核对 evidence 指纹。
-21. candidate index 同时保留完整 inventory 与派生 `lifecycle_class`；backlog 只统计 active，不把 terminal 或 historical non-replay 伪装为待办。
-22. Markdown guard 只解释治理边界；Codex 与 Claude Code 的硬阻断统一由 `scripts/agent_guard.py` 执行，且只有客户端识别并信任 Hook 后才算生效。
-23. commit、push 等外部状态变更必须由用户明确授权；Skill、历史惯例和自动记忆不能替代当次授权。
-
----
-
-## 四、规则分发
-
-| 规则主题 | 权威落点 |
+| Skill | 职责 |
 |---|---|
-| 摄入流程与覆盖证明 | `.agents/skills/01-intake/ingest/SKILL.md` |
-| 系统契约 | `.agents/skills/01-intake/ingest/references/distillation-system-contract.md` |
-| KU 字段与存储 | `.agents/skills/01-intake/ingest/references/knowledge-unit-field-contract.md` |
-| taxonomy | `.agents/skills/01-intake/ingest/references/taxonomy.md` |
-| 层级字段 | `.agents/skills/01-intake/ingest/references/hierarchy-field.md` |
-| relation 治理 | `.agents/skills/01-intake/ingest/references/relation-types.md`；`.agents/skills/05-quality/lint/references/relation-governance.md` |
-| claim / evidence 治理 | `.agents/skills/05-quality/lint/references/claim-evidence-governance.md` |
-| 验证级联 | `.agents/skills/03-verification/verify/references/` |
-| 编码执行与升级 | `.agents/skills/00-coordination/system-upgrade/references/` |
-| Git 单主线治理 | `.agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md` |
-| 运行工件保留治理 | `.agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md` |
-| 批次状态边界 | `.agents/skills/00-coordination/system-upgrade/references/runtime-state-machine.md` |
-| 领域规则 | `01-domain/` |
-| Domain 演化 | `01-domain/domain-registry.md` |
-| 自动化风险语义 | `.agents/guards/automation-risk-policy.md` |
-| 客户端硬门禁 | `scripts/agent_guard.py`；`.codex/hooks.json`；`.claude/settings.json` |
-| 运行状态 | `06-runtime/README.md` |
+| ingest | 第一至第三阶段：来源登记、语义处理、知识元成稿，逐阶段留存结果 |
+| verify | 第四阶段：身份和表述对齐、冲突处理；各阶段必要的证据验证 |
+| enrich | 第五阶段：围绕已有知识元的明确缺口语义补足 |
+| relate | 第六阶段：关系审查、证据绑定和正式写回 |
+| synthesize | 第二部分：知识发现、涌现与结构演化；当前不自动启动 |
+| compose | 第二部分：查询、成果组织、内容定稿和页面呈现 |
+| inspector | 定向审阅、内容/编码/证据/系统检查；不重写规则 |
+| system-upgrade | 已授权的规则、Skill 和系统重构 |
 
----
-
-## 五、执行优先级
-
-1. `AGENTS.md`
-2. `01-domain/taxonomy-registry.md`
-3. `01-domain/workflow-overrides.md`
-4. `01-domain/naming-conventions.md`
-5. `.agents/guards/`
-6. `scripts/agent_guard.py` 的确定性阻断结果
-7. 对应 skill 的 `SKILL.md`
-8. 对应 skill 的 `references/*.md`
-9. `README.md` 与其他导航文档
-
----
+常规规则直接写在 SKILL.md；只有共享契约、长枚举或条件分支使用直接 reference。读取深度为 AGENTS → Skill → direct reference；无重复技能、隐式多层必读或独立规则副本。
+Skill 固定路径为 `.agents/skills/<skill-name>/SKILL.md`，不使用历史阶段分类目录；阶段顺序由 pipeline 规定。
 
 ## 六、关键入口
 
-### Workflow Router
-
 - `.agents/pipeline.md`
-- `.agents/guards/automation-risk-policy.md`
-- `scripts/agent_guard.py`；`.codex/hooks.json`；`.claude/settings.json`
-
-### Domain
-
-- `01-domain/taxonomy-registry.md`
-- `01-domain/domain-registry.md`
 - `01-domain/workflow-overrides.md`
+- `01-domain/taxonomy-registry.md`
 - `01-domain/naming-conventions.md`
-
-### Skills
-
-- `.agents/skills/01-intake/ingest/SKILL.md`
-- `.agents/skills/03-verification/verify/SKILL.md`
-- `.agents/skills/05-quality/README.md`
-- `.agents/skills/06-growth/README.md`
-- `.agents/skills/07-output/README.md`
-- `.agents/skills/08-inspection/inspector/SKILL.md`
-- `.agents/skills/08-inspection/system-review/SKILL.md`
-
-### Governance
-
-- `06-runtime/automation/index.md`
-- `06-runtime/state/current-health.json`
-- `06-runtime/governance/governance-backlog.md`
+- `06-runtime/governance/user-revisions.md`
+- `06-runtime/governance/current-requirements.md`
 - `06-runtime/governance/system-upgrade-log.md`
-
----
+- `06-runtime/state/skill-registry.json`（派生导航，不是权威）
 
 ## 七、版本说明
 
-- 当前版本：v5.3.0（2026-08-07）
-- 本次修订：增加 Codex/Claude 项目适配与共享可执行门禁；合并重叠的 review/sys-audit，移除 inspection router；收紧记忆、外部写入和 Skill 路由边界。
-- 完整升级记录：`06-runtime/governance/system-upgrade-log.md`
+当前版本：v6.0.1。升级过程、删除范围和验收证据只记入系统升级日志。当前文件代表规则已落地，不代表既有研究成果重新经过语义验收。

@@ -11,7 +11,6 @@ SCHEMA_PATH = (
     BASE
     / ".agents"
     / "skills"
-    / "01-intake"
     / "ingest"
     / "references"
     / "relation-types.yml"

@@ -18,7 +18,7 @@ SCRIPT_REF = re.compile(r"scripts/[A-Za-z0-9_-]+\.py")
 REFERENCE_REF = re.compile(
     r"`([^`\r\n]+\.md)`|\[[^\]]+\]\(([^)\r\n]+\.md)\)"
 )
-SKIP_WALK_DIRS = {".git", ".tmp", ".venv", "node_modules", "__pycache__", ".claude"}
+SKIP_WALK_DIRS = {".git", ".tmp", ".venv", "node_modules", "__pycache__", ".specstory"}
 
 
 class UniqueKeyLoader(yaml.SafeLoader):
@@ -72,11 +72,6 @@ def discover_skill_dirs(skills_dir: Path = SKILLS_DIR) -> dict[str, Path]:
         if name and name not in mapping:
             mapping[name] = skill_file
     return mapping
-
-
-def _category(skill_file: Path, skills_dir: Path) -> str:
-    first = skill_file.relative_to(skills_dir).parts[0]
-    return re.sub(r"^\d{2}-", "", first)
 
 
 def _normalized_reference(raw: str, source: Path, base: Path) -> Path | None:
@@ -147,8 +142,8 @@ def _skill_entry(skill_file: Path, base: Path, skills_dir: Path) -> dict:
     })
     entry = {
         "path": skill_file.relative_to(base).as_posix(),
-        "category": _category(skill_file, skills_dir),
         "kind": str(metadata.get("kind") or "").strip(),
+        "phase": str(metadata.get("phase") or "support").strip(),
         "description": description,
         "triggers": _metadata_list(metadata, "triggers"),
         "references": references,
@@ -201,6 +196,11 @@ def validate(registry: dict[str, dict], base: Path = BASE) -> list[str]:
     skills_dir = base / ".agents" / "skills"
     actual = build_registry(base)
 
+    for path in discover_skill_files(skills_dir):
+        name = str(_frontmatter(path).get("name") or "").strip()
+        if path.relative_to(skills_dir).parts != (name, "SKILL.md"):
+            issues.append(f"Skill 必须使用扁平规范路径: {path.relative_to(base).as_posix()}")
+
     for path in external_skill_files(base):
         issues.append(f"唯一 Skill 根之外存在 SKILL.md: {path.relative_to(base).as_posix()}")
 
@@ -211,6 +211,8 @@ def validate(registry: dict[str, dict], base: Path = BASE) -> list[str]:
     trigger_owners: dict[str, list[str]] = {}
     referenced: set[str] = set()
     for name, entry in actual.items():
+        if entry.get("phase") not in {"current", "later", "support"}:
+            issues.append(f"[{name}] invalid phase")
         kind = entry.get("kind")
         if kind not in {"leaf", "router"}:
             issues.append(f"[{name}] kind 必须为 leaf 或 router")

@@ -51,7 +51,7 @@ class EntrypointDriftTests(unittest.TestCase):
 
     def test_active_reference_targets_reject_retired_rule_files(self):
         root = self.make_root()
-        references = root / ".agents" / "skills" / "05-quality" / "lint" / "references"
+        references = root / ".agents" / "skills" / "relate" / "references"
         references.mkdir(parents=True)
         (references / "confidence.md").write_text("See hierarchy-archive/v5.md\n", encoding="utf-8")
 
@@ -175,16 +175,11 @@ class EntrypointDriftTests(unittest.TestCase):
 
         self.assertEqual(findings[0]["issue"], "output_navigation_snapshot_stale")
 
-    def test_sync_closure_contract_rejects_deny_rule(self):
+    def test_sync_closure_contract_rejects_missing_executor(self):
         root = self.make_root()
-        (root / ".agents" / "settings.json").write_text(
-            json.dumps({"permissions": {"confirm": [], "deny": ["Bash(python scripts/run_sync_closure.py *)"]}}),
-            encoding="utf-8",
-        )
-
+        (root / "scripts/run_sync_closure.py").unlink()
         findings = audit_rule_drift.check_sync_closure_contract(root)
-
-        self.assertEqual(findings[0]["issue"], "sync_closure_denied")
+        self.assertEqual(findings[0]["issue"], "sync_closure_missing")
 
     def test_ci_sync_closure_contract_rejects_missing_refresh(self):
         root = self.make_root()
@@ -266,7 +261,7 @@ class EntrypointDriftTests(unittest.TestCase):
 
     def test_relation_schema_rejects_unknown_inverse_type(self):
         root = self.make_root()
-        references = root / ".agents" / "skills" / "01-intake" / "ingest" / "references"
+        references = root / ".agents" / "skills" / "ingest" / "references"
         references.mkdir(parents=True)
         (references / "relation-types.yml").write_text(
             "types: [one]\nlegacy_generic_types: []\ninverse: {one: missing}\n",
@@ -278,31 +273,17 @@ class EntrypointDriftTests(unittest.TestCase):
 
         self.assertEqual(findings[0]["issue"], "relation_schema_invalid")
 
-    def test_settings_coverage_rejects_stale_script_and_mutable_scan_allow(self):
+    def test_codex_layout_rejects_old_permission_copy(self):
         root = self.make_root()
-        (root / ".agents" / "settings.json").write_text(
-            json.dumps({
-                "permissions": {
-                    "allow": ["Bash(python scripts/scan_sources.py *)"],
-                    "confirm": ["Bash(python scripts/run_sync_closure.py *)"],
-                    "deny": ["Bash(python scripts/missing.py *)"],
-                }
-            }),
-            encoding="utf-8",
-        )
-        (root / "scripts" / "scan_sources.py").write_text("# scan\n", encoding="utf-8")
-
-        findings = audit_rule_drift.check_settings_coverage(root)
-
-        self.assertIn("stale_script_permission", {item["issue"] for item in findings})
-        self.assertIn("mutable_scan_sources_allowed", {item["issue"] for item in findings})
+        findings = audit_rule_drift.check_codex_core_layout(root)
+        self.assertIn("redundant_client_surface", {item["issue"] for item in findings})
 
     def test_retired_surface_absence_rejects_archive_and_skill_changelog(self):
         root = self.make_root()
         archive = root / "scripts" / "archive"
         archive.mkdir()
         (archive / "old.py").write_text("# retired\n", encoding="utf-8")
-        skill = root / ".agents" / "skills" / "01-intake" / "ingest"
+        skill = root / ".agents" / "skills" / "ingest"
         skill.mkdir(parents=True)
         (skill / "CHANGELOG.md").write_text("# duplicate history\n", encoding="utf-8")
 

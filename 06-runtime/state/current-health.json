@@ -1,13 +1,11 @@
 {
-  "timestamp": "2026-09-09T12:56:39",
+  "timestamp": "2026-09-09T15:23:45",
   "rule_authority": {
     "agents_dir_exists": true,
-    "agents_settings_exists": true,
-    "codex_hooks_exists": true,
-    "claude_entry_exists": true,
-    "claude_settings_exists": true,
-    "claude_skill_adapters_exist": true,
-    "agent_guard_exists": true,
+    "agents_entry_exists": true,
+    "pipeline_exists": true,
+    "client": "codex",
+    "hook_status": "not_configured",
     "adapter_issues": [],
     "legacy_references": 0
   },
@@ -159,7 +157,9 @@
     "03-Index: missing processing directory",
     "patrons-and-painters: missing processing directory"
   ],
-  "snapshot_disclaimer_missing": [],
+  "snapshot_disclaimer_missing": [
+    "drafts/README.md missing"
+  ],
   "current_health_exists": true,
   "governance_backlog_exists": true,
   "chunk_meta": {
@@ -339,13 +339,13 @@
   "structural_health": {
     "score_kind": "structural_contract_health",
     "max_score": 130,
-    "total": 116,
+    "total": 114,
     "rule_authority": 20,
     "frontmatter": 20,
     "verification_semantics": 20,
     "traceability": 9,
     "dataflow": 2,
-    "report_freshness": 10,
+    "report_freshness": 8,
     "engineering_safety": 5,
     "recall_quality": 15,
     "semantic_artifact_integrity": 15
@@ -436,6 +436,10 @@
       "candidates_needing_evidence": 0,
       "units_missing_hierarchy_assignment": 10
     }
+  },
+  "execution_scope": {
+    "part": "knowledge",
+    "hierarchy_assignment": "not_in_current_scope"
   },
   "content_quality": {
     "metric_kind": "deterministic_content_integrity",

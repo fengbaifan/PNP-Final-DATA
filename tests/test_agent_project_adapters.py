@@ -1,50 +1,44 @@
-import json
+import tempfile
 import unittest
+import subprocess
+import sys
+import json
 from pathlib import Path
-from tempfile import TemporaryDirectory
-
 from scripts.audit_repo import rule_authority_check
+from scripts.audit_rule_drift import check_codex_core_layout
 
+class CodexLayoutTests(unittest.TestCase):
+    def test_audit_cli_runs_without_importing_as_package(self):
+        root = Path(__file__).resolve().parents[1]
+        run = subprocess.run([sys.executable, "scripts/audit_repo.py", "--summary"],
+                             cwd=root, capture_output=True, text=True, encoding="utf-8")
+        self.assertEqual(run.returncode, 0, run.stderr)
+        self.assertEqual(json.loads(run.stdout)["rule_authority"]["client"], "codex")
 
-class AgentProjectAdapterTests(unittest.TestCase):
-    def make_root(self, root: Path) -> None:
-        skill = root / ".agents" / "skills" / "01-intake" / "ingest"
-        skill.mkdir(parents=True)
-        (skill / "SKILL.md").write_text("---\nname: ingest\n---\n", encoding="utf-8")
-        (root / ".agents" / "settings.json").write_text("{}\n", encoding="utf-8")
-        (root / "scripts").mkdir()
-        (root / "scripts" / "agent_guard.py").write_text("# guard\n", encoding="utf-8")
-        (root / ".codex").mkdir()
-        (root / ".codex" / "hooks.json").write_text(
-            json.dumps({"command": "python scripts/agent_guard.py"}), encoding="utf-8"
-        )
-        (root / ".claude" / "skills").mkdir(parents=True)
-        (root / ".claude" / "settings.json").write_text(
-            json.dumps({"command": "python scripts/agent_guard.py"}), encoding="utf-8"
-        )
-        (root / "CLAUDE.md").write_text("@AGENTS.md\n", encoding="utf-8")
-        (root / ".claude" / "skills" / "ingest").write_text(
-            "../../.agents/skills/01-intake/ingest", encoding="utf-8"
-        )
+    def make_root(self, directory):
+        root = Path(directory)
+        (root / ".agents/skills").mkdir(parents=True)
+        (root / "AGENTS.md").write_text("Codex", encoding="utf-8")
+        (root / ".agents/pipeline.md").write_text("stages", encoding="utf-8")
+        return root
 
-    def test_complete_adapters_are_accepted(self):
-        with TemporaryDirectory() as temp_dir:
-            root = Path(temp_dir)
-            self.make_root(root)
+    def test_clean_checkout_needs_no_machine_local_adapters(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = self.make_root(temp)
             result = rule_authority_check(root)
             self.assertEqual(result["adapter_issues"], [])
-            self.assertTrue(result["codex_hooks_exists"])
-            self.assertTrue(result["claude_skill_adapters_exist"])
+            self.assertEqual(result["hook_status"], "not_configured")
+            self.assertEqual(result["client"], "codex")
 
-    def test_wrong_skill_alias_is_reported(self):
-        with TemporaryDirectory() as temp_dir:
-            root = Path(temp_dir)
-            self.make_root(root)
-            alias = root / ".claude" / "skills" / "ingest"
-            alias.write_text("../../missing", encoding="utf-8")
-            result = rule_authority_check(root)
-            self.assertIn("Claude Skill adapter target mismatch: ingest", result["adapter_issues"])
+    def test_redundant_client_is_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = self.make_root(temp)
+            (root / ".claude").mkdir()
+            (root / ".agents/settings.json").write_text("{}", encoding="utf-8")
+            self.assertEqual({f["path"] for f in check_codex_core_layout(root)}, {".claude", ".agents/settings.json"})
 
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_missing_entry_is_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = self.make_root(temp)
+            (root / "AGENTS.md").unlink()
+            self.assertIn("codex_core_missing", {f["issue"] for f in check_codex_core_layout(root)})

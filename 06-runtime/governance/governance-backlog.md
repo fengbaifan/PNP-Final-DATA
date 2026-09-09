@@ -1,8 +1,8 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-09 12:56
-> Structural health: 116/130
+> Snapshot: 2026-09-09 15:23
+> Structural health: 114/130
 > Knowledge units: 10
 > Maturity metrics: unscored_semantic_maturity
 
@@ -26,7 +26,7 @@ No active items.
 |---|---|---|---|
 | RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 10 | research_debt |
 | RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 10 | research_debt |
-| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 10 | research_debt |
+| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 10 | not_in_current_scope |
 
 ## Candidate opportunities (not accepted knowledge)
 

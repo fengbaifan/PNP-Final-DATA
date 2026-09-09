@@ -20,7 +20,7 @@
 | output_id | type | artifacts | uncertain | candidates | file-back status |
 |---|---|---:|---:|---:|---|
 | `current-knowledge-graph` | visualization | 3 | 1 | 0 | not_reviewed |
-| `inherited-display-resources` | template | 14 | 1 | 0 | not_reviewed |
+| `inherited-display-resources` | template | 13 | 1 | 0 | not_reviewed |
 | `knowledge-navigation` | navigation | 9 | 1 | 0 | not_reviewed |
 
 ## Boundaries

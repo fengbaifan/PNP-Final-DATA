@@ -21,7 +21,7 @@
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
 - These are capacity signals only; they do not authorize deletion or historical rewrite.
-- [Runtime artifact retention policy](../../.agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md)
+- [Runtime artifact retention policy](../../.agents/skills/system-upgrade/references/runtime-artifact-retention.md)
 
 ## Themes
 

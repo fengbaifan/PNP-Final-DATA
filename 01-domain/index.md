@@ -28,6 +28,7 @@
 | `domain-registry.md` | Level 1 Domain：当前实例、候选 Domain 与演化边界 |
 | `dimension-registry.md` | Level 2 维度体系：当前 pilot 维度、候选维度、拆分/合并/弃用规则 |
 | `workflow-overrides.md` | 当前领域的对象、候选、层级演化、双语约定与状态诚实覆盖规则 |
+| `naming-conventions.md` | 从 01 开始的目录职责、稳定命名与迁移边界 |
 
 ## 三、候选观察队列
 
@@ -42,10 +43,10 @@
 2. 不直接新增正式 Level 2 维度。新维度先进入候选观察队列。
 3. 能作为 `sub_type` 解决的问题，不晋升为新 `type`。
 4. 能作为 Topic 或 Level 3 Theme 解决的问题，不晋升为新 Level 2 Dimension。
-5. 类型或维度晋升必须通过 `evolve-hierarchy`、`sys-audit` 和状态诚实门槛；无人工工作流下由 Agent 写明 evidence、boundary test、hierarchy impact 与 unresolved items。
+5. 类型或维度晋升必须通过 `synthesize`、`inspector` 和状态诚实门槛；无人工工作流下由 Agent 写明 evidence、boundary test、hierarchy impact 与 unresolved items。
 6. 若通用 Skill 与本领域配置出现可复现冲突，按 `AGENTS.md` 优先级解释并触发 `system-upgrade`，不得长期保留两套活跃规则。
 7. 若确认某条领域经验需要升级为系统规则，应移交 `system-upgrade`，而不是只停留在对话中。
-8. 5 个 A–E 维度当前均为 `pilot`：新领域初始化设计的起始框架，首次全量摄入后经 `evolve-hierarchy` 重评方可晋升 `core`。
+8. 5 个 A–E 维度当前均为 `pilot`：新领域初始化设计的起始框架，第二部分启动后经 `synthesize` 重评方可晋升 `core`。
 
 ## 五、状态快照入口
 

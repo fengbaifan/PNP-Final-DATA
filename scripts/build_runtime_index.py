@@ -308,7 +308,7 @@ def build_runtime_index(root: Path = BASE, recent_limit: int = 15) -> str:
         f"- Possible R2 projections without valid provenance: `{retention['r2_provenance']['review_required']}` files (`review_required`, retained as R1)",
         f"- R3 ephemeral residue: `{retention['retention_tiers']['R3']['files']}` files",
         "- These are capacity signals only; they do not authorize deletion or historical rewrite.",
-        "- [Runtime artifact retention policy](../../.agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md)",
+        "- [Runtime artifact retention policy](../../.agents/skills/system-upgrade/references/runtime-artifact-retention.md)",
         "",
         "## Themes",
         "",

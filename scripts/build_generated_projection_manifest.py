@@ -18,7 +18,7 @@ PROJECTIONS = (
             "04-knowledge/units/**/*.md",
             "04-knowledge/structure/**/*.md",
             "04-knowledge/quality/claim-registry.yml",
-            ".agents/skills/01-intake/ingest/references/relation-types.yml",
+            ".agents/skills/ingest/references/relation-types.yml",
         ),
         "outputs": ("04-knowledge/quality/relation-index.yml",),
     },

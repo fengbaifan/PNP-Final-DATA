@@ -1,97 +1,39 @@
-# Naming Conventions v1.0
+# 目录与命名规范
 
-> 本文件定义仓库的目录、文件、Skill 与脚本命名规范。
-> 所有新增与重构必须遵守。历史中文混名在后续迁移中逐步替换。
+本文件规定目录职责和稳定命名；执行顺序与阶段交接以 `.agents/pipeline.md` 为准，权限以 AGENTS.md 和实际运行环境为准。
 
-## 一、目录命名
+## 一、从 01 开始的业务目录
 
-```
-数字前缀 + 英文主名（kebab-case）
+| 目录 | 职责 | 与工作流的关系 |
+|---|---|---|
+| `01-domain/` | 领域范围、类型、术语及命名约束 | 摄入前读取；领域约束改变时原位修订 |
+| `02-sources/` | 来源本体、版本资产与来源登记 | 摄入的来源依据；不存可改写的处理过程 |
+| `03-processing/` | 摄入和处理的过程、结果、来源定位及候选 | 第一、二阶段；向知识元阶段交接 |
+| `04-knowledge/` | 知识元、对齐、补足、关系及对应过程/结果 | 第三至六阶段；后续发现启动后继续在此保存知识成果 |
+| `05-outputs/` | 成果组织、内容定稿、导出及页面 | 第二部分的知识呈现；保留已有展示入口 |
+| `06-runtime/` | 用户原话、有效要求、系统修订与必要机器状态 | 支持业务执行，不替代阶段过程与结果 |
 
-根级:
-  01-domain/        # 领域配置
-  02-sources/       # 原始来源
-  03-processing/    # 处理中间层
-  04-knowledge/     # 知识库
-  05-outputs/       # 输出产物
-  06-runtime/       # 系统运行
+根目录编号从 01 起，表示内容职责，不等同于六个执行阶段。不要按阶段复制知识元，也不为两大部分再套两层顶级目录。来源已有子目录及文件名保留，不能为统一外观破坏来源定位和指纹。
 
-Skill 阶段:
-  00-coordination/
-  01-intake/
-  02-multisource/
-  03-verification/
-  04-relations/
-  05-quality/
-  06-growth/
-  07-output/
-  08-inspection/
-  09-display/
-```
+## 二、稳定对象与过程、结果
 
-**禁止**:
-- 中文规则文件名
-- 空格
-- `phase` / `final` / `temp` / `old` / `new` 命名
-- 阶段名和功能名混用
+- 同一来源/工作对象沿用稳定 `<id>`，在 pipeline 指定位置关联过程与结果。
+- 过程记录分析、依据和决定变化；结果保存当前状态并指向唯一成果。
+- 文件原位版本更迭，不新建日期、轮次或 `final-v2` 等同用途副本。
+- 新规则文档与业务目录使用英文 kebab-case；既有来源文件和机器接口名不作外观性迁移。
+- 知识元正文沿用 `04-knowledge/units/<type-directory>/<slug>.md`，不因进入对齐、补足或关系阶段搬动正文。
+- compact-v4 的五类工件及 manifest 哈希契约保持稳定；新增阶段说明不复制工件内容。
 
-## 二、文件命名
+## 三、Skill 路径
 
-统一 **kebab-case**。
+唯一布局为 `.agents/skills/<skill-name>/SKILL.md`；直接参考位于同目录的 `references/<topic>.md`。
 
-```
-correct: reading-ledger.md, claim-registry.yml, relation-governance.md
-wrong:   Step6_Methodology_Report.md, old-settings.json, final-v2.md
-```
+不再使用历史阶段分类目录。技能名、触发词和适用部分由 SKILL.md frontmatter 声明；注册表仅派生导航，顺序由 pipeline 规定。八个技能的职责见 AGENTS.md，不在本文件复制清单。
 
-## 三、Skill 命名
+## 四、脚本命名
 
-```
-.agents/skills/<stage-id>-<stage-name>/<skill-name>/SKILL.md
-.agents/skills/<stage-id>-<stage-name>/<skill-name>/references/<topic>.md
+脚本沿用 Python 的 snake_case，如 `audit_repo.py`、`build_relation_index.py`、`verify_apply_evidence.py`。名称说明用途，不赋予权限；`build_*` 可能写入派生文件，不能视为只读。只在必要定位、检查、受控写回和展示实现中使用脚本，不增加语义步骤的固定调用链。
 
-示例:
-.agents/skills/00-coordination/system-upgrade/SKILL.md
-.agents/skills/01-intake/ingest/SKILL.md
-.agents/skills/01-intake/ingest/references/taxonomy.md
-```
+## 五、迁移
 
-Skill 目录名使用 **英文 kebab-case**，不使用中文。触发词映射在 `AGENTS.md` 中维护。
-
-## 四、Script 命名
-
-| 前缀 | 含义 | 默认权限 |
-|------|------|----------|
-| `audit_*` | 只读审计/检查 | allow |
-| `build_*` | 只读索引生成 | allow |
-| `scan_*` | 只读扫描 | allow |
-| `collect_*` | 证据收集 | confirm |
-| `validate_*` | 只读校验 | allow |
-| `apply_*` | 写回操作 | confirm/deny |
-| `migrate_*` | 历史迁移（已完成） | deny |
-| `repair_*` | 一次性修复（已完成） | deny |
-| `backfill_*` | 一次性回填（已完成） | deny |
-| `normalize_*` | 一次性规范化（已完成） | deny |
-
-## 五、知识文件命名
-
-```
-Knowledge Unit: {slug}.md         # gian-lorenzo-bernini.md
-Structure Node:  {name}.md        # dimension-a.md
-Claim Registry:  claim-registry.yml
-Relation Index:  relation-index.yml
-```
-
-**禁止**:
-- 在文件名中显式加 type 标签（如 `bernini-person.md`）
-- 使用 `/` 连接独立概念
-- 中文文件名
-
-## 六、迁移规则
-
-从中文混名迁移到英文时:
-1. 先生成 `path-reference-map.md`
-2. 逐目录移动（不一次全部迁移）
-3. 全局 grep + replace 路径引用
-4. 引用量最大的目录（`04-knowledge/`）放最后
-5. 每步单独提交
+先核对目录实际内容、调用者和来源/证据边界；从 01 的契约修订开始，再依次处理业务目录及系统依赖。迁移映射与验证记入既有 system-upgrade-log.md，不另建映射报告。Windows 移动或删除前验证绝对路径在仓库内，联接不递归进入目标。修复活跃引用，历史记录保留当时路径。Git 提交、推送按明确授权执行。

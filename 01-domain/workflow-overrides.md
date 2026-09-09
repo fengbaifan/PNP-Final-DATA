@@ -9,13 +9,13 @@
 3. 当前 Level 1 是“《赞助人与画家》：巴洛克时期意大利艺术与社会”；A–E 是 Level 2 维度（pilot），不是五个 domain。
 4. A.1/B.2 等稳定代码是 Level 3 Theme；Topic 是可研究问题，KU 可以通过多个 `topic_memberships` 支持多个 Topic。
 5. Cluster 是带 `target_level`、`scope` 与 `basis` 的发现候选，可以跨任意层级，但不是 structure node。
-6. 新 KU 或重构 KU 必须能映射完整五级字段；历史 KU 只能通过语义分批审查回填。
+6. 初期 KU 保留有证据的领域/维度信息，Theme/Topic 完整挂载暂不开展；第二部分启动后逐对象语义审查，不自动回填。
 
 ## 二、候选与冲突
 
 1. 新来源使用 compact-v4；历史 legacy 包只读保留，不作为新任务模板。
 2. 每个候选必须检索现有 KU、claim、relation 和权威索引，识别既有目标、潜在重复与潜在冲突。
-3. 重复/冲突筛查是候选决策的一部分；完整 `reconcile` 仅由可复现冲突信号触发。
+3. 重复/冲突筛查是候选决策的一部分；知识元成稿后按第四阶段进行身份和表述对齐，完整冲突裁决仅在出现可复现冲突时开展。
 4. 无法归类的对象进入 type、dimension、topic 或其他相应候选账本，不得直接扩张正式 taxonomy。
 
 ## 三、维度演化
@@ -24,7 +24,7 @@
 2. 新维度候选至少需要 5 个不可归类 KU，或至少 2 个长期跨 Theme 且无法由现有结构解释的成熟 Theme。
 3. 新维度至少能稳定组织 2 个 Theme；每个 Theme 至少具有可操作 Topic 与可审查 KU/claim/evidence 支撑。
 4. 正式变更必须记录 evidence、boundary test、hierarchy impact、迁移映射和 unresolved items。
-5. 当前 5 个 A–E 维度均为 `pilot` 起始框架：首次全量摄入后由 `evolve-hierarchy` 执行重评，通过者晋升 `core`；重评证据记录于 `06-runtime/governance/system-upgrade-log.md`。
+5. 当前 5 个 A–E 维度均为 `pilot` 起始框架：第二部分启动后由 `synthesize` 执行重评，通过者晋升 `core`；重评过程与结果分别记录于 `04-knowledge/process/` 和 `04-knowledge/results/`，正式结构在 `structure/` 原位更新。只有系统契约变更才写系统升级日志。
 
 ## 四、双语约定（本领域覆盖规则）
 

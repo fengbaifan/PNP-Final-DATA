@@ -11,7 +11,7 @@ def record() -> dict:
     return {
         "output_id": "example",
         "output_type": "research_memo",
-        "artifact_patterns": ["05-outputs/drafts/example.md"],
+        "artifact_patterns": ["05-outputs/results/example.md"],
         "used_units": [],
         "used_claims": [],
         "used_relations": [],
@@ -27,9 +27,9 @@ class BuildOutputGalleryTests(unittest.TestCase):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = Path(tmp.name)
-        (root / "05-outputs" / "drafts").mkdir(parents=True)
+        (root / "05-outputs" / "results").mkdir(parents=True)
         (root / "05-outputs" / "index").mkdir(parents=True)
-        (root / "05-outputs" / "drafts" / "example.md").write_text("# Example\n", encoding="utf-8")
+        (root / "05-outputs" / "results" / "example.md").write_text("# Example\n", encoding="utf-8")
         (root / "05-outputs" / "output-registry.yml").write_text(
             yaml.safe_dump({"version": "1.0", "records": [record()]}, sort_keys=False),
             encoding="utf-8",
@@ -49,7 +49,7 @@ class BuildOutputGalleryTests(unittest.TestCase):
 
     def test_unregistered_output_is_reported(self):
         root = self.make_root()
-        (root / "05-outputs" / "drafts" / "unregistered.md").write_text("# Missing\n", encoding="utf-8")
+        (root / "05-outputs" / "results" / "unregistered.md").write_text("# Missing\n", encoding="utf-8")
 
         findings = build_output_gallery.validate_output_metadata(root)
 
