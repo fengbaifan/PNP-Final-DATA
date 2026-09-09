@@ -76,9 +76,9 @@ sources:
   - citation: "Chicago 17th 可引用条目"
     location: "chapter / page / figure / source span"
     evidence_ref:
-      doc_id: "2017-lima-book-of-circles"
-      source_file: "02-sources/2017-lima-book-of-circles/05_Taxonomy_ZH.md"
-      chapter_id: "05-taxonomy"
+      doc_id: "patrons-and-painters"
+      source_file: "02-sources/02-Markdown/01_CHP-1.md"
+      chapter_id: "01-chp-1"
       chunk_id: null
 ```
 

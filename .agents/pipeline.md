@@ -113,7 +113,7 @@ runner-state.json   # 仅长任务或可恢复写回
 
 ## 七、全局不变量
 
-1. `02-sources/` 只追加，不改写、不删除。
+1. `02-sources/` 来源本体只追加，不改写、不删除；顶层登记类文件可更新但不得删除。
 2. collect 只产出 evidence，不直接写知识事实。
 3. 证据不足必须保留不确定状态。
 4. 脚本不得裁决 KU 类型、claim、relation、theme 成熟度或 hierarchy placement。

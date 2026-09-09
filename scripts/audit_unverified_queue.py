@@ -74,12 +74,8 @@ def reason_from_lines(lines: list[str]) -> str:
 
 def source_family(text: str) -> str:
     text_lc = text.lower()
-    if "graphic methods for presenting facts" in text_lc or "brinton" in text_lc:
-        return "Brinton 1914"
-    if "history of information graphics" in text_lc or "rendgen" in text_lc:
-        return "Rendgen 2019"
-    if "book of trees" in text_lc or "book of circles" in text_lc or "lima" in text_lc:
-        return "Lima"
+    if "patrons and painters" in text_lc or "haskell" in text_lc:
+        return "Haskell 1980"
     if "wikipedia" in text_lc:
         return "Wikipedia-derived"
     return "other/unknown"

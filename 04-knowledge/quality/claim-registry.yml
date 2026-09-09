@@ -1,2 +1,42 @@
-# 新项目断言表；尚无断言。
-[]
+# 断言注册表（claim-registry）
+# total: 5
+- claim_id: m1-papal-nephews-led-patronage
+  statement_zh: 教皇与侄子是十七世纪罗马赞助潮流的主导者
+  statement_en: Popes and their nephews led Roman patronage
+  source:
+    doc_id: patrons-and-painters
+    source_span: ch. 1, pp. 1-5
+  supports: []
+  supported_by: []
+- claim_id: m2-compatriot-networks
+  statement_zh: 艺术家的职业起步依赖同乡赞助人网络
+  statement_en: Artists launched careers through compatriot patron networks
+  source:
+    doc_id: patrons-and-painters
+    source_span: ch. 1, pp. 3-4
+  supports: []
+  supported_by: []
+- claim_id: m3-deposit-figure-pricing
+  statement_zh: 定金与按人物数计价是十七世纪委托的通行惯例
+  statement_en: Deposits and per-figure pricing were standard commission practice
+  source:
+    doc_id: patrons-and-painters
+    source_span: ch. 1, pp. 12-13
+  supports: []
+  supported_by: []
+- claim_id: m4-servitu-particolare-terms
+  statement_zh: servitu particolare 提供月俸、市价报酬与旅费，艺术家视为家族成员
+  statement_en: Servitu particolare offered allowance, market pay and travel costs, treating artists as family
+  source:
+    doc_id: patrons-and-painters
+    source_span: ch. 1, pp. 5-7
+  supports: []
+  supported_by: []
+- claim_id: m5-accademia-1633-monopoly
+  statement_zh: 1633 年圣路加学院获对全体罗马艺术家的征税权与公共委托垄断，后因反对撤销
+  statement_en: In 1633 the Accademia gained tax rights and a public-commission monopoly, later withdrawn
+  source:
+    doc_id: patrons-and-painters
+    source_span: ch. 1, pp. 16-17
+  supports: []
+  supported_by: []

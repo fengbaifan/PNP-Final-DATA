@@ -60,6 +60,45 @@ class AgentGuardTests(unittest.TestCase):
             }
             self.assertIsNotNone(agent_guard.decision_for(patch))
 
+    def test_registry_update_allows_absolute_paths(self):
+        payload = {
+            "tool_name": "Edit",
+            "tool_input": {"file_path": "C:/repo/02-sources/source-registry.md"},
+        }
+        self.assertIsNone(agent_guard.decision_for(payload))
+
+    def test_allows_updates_to_sources_registry_files(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            registry = Path(temp_dir) / "02-sources" / "source-registry.md"
+            registry.parent.mkdir(parents=True)
+            registry.write_text("registry", encoding="utf-8")
+            for tool_name in ("Write", "Edit"):
+                payload = {
+                    "cwd": temp_dir,
+                    "tool_name": tool_name,
+                    "tool_input": {"file_path": "02-sources/source-registry.md"},
+                }
+                self.assertIsNone(agent_guard.decision_for(payload))
+
+        patch = {
+            "tool_name": "apply_patch",
+            "tool_input": {"command": "*** Update File: 02-sources/README.md\n"},
+        }
+        self.assertIsNone(agent_guard.decision_for(patch))
+
+    def test_still_blocks_deletes_and_source_content_edits(self):
+        patch = {
+            "tool_name": "apply_patch",
+            "tool_input": {"command": "*** Delete File: 02-sources/README.md\n"},
+        }
+        self.assertIsNotNone(agent_guard.decision_for(patch))
+        for operation in ("Update", "Delete"):
+            patch = {
+                "tool_name": "apply_patch",
+                "tool_input": {"command": f"*** {operation} File: 02-sources/doc/source.md\n"},
+            }
+            self.assertIsNotNone(agent_guard.decision_for(patch))
+
     def test_allows_new_source_files(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             write = {

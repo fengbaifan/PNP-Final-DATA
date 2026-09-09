@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 def load_module():
@@ -125,16 +126,33 @@ class PlanRelationCandidatesTests(unittest.TestCase):
         self.assertEqual(self.module._materialized_structure_target("C.6"), "")
 
     def test_theme_code_resolves_through_frontmatter(self):
-        self.assertEqual(
-            self.module._materialized_theme_target("C.6"),
-            "themes/c6-twentieth-century-visualization.md",
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            themes = Path(tmp) / "04-knowledge" / "structure" / "themes"
+            themes.mkdir(parents=True)
+            (themes / "c6-seventeenth-century-venice.md").write_text(
+                "---\ntheme_code: C.6\n---\n", encoding="utf-8"
+            )
+            (themes / "b2-artist-training-and-guilds.md").write_text(
+                "---\ntheme_code: B.2\n---\n", encoding="utf-8"
+            )
+            with mock.patch.object(self.module, "BASE", Path(tmp)):
+                self.assertEqual(
+                    self.module._materialized_theme_target("C.6"),
+                    "themes/c6-seventeenth-century-venice.md",
+                )
 
     def test_existing_topic_path_is_resolved(self):
-        self.assertEqual(
-            self.module._materialized_structure_target("topics/visualization-and-governance.md"),
-            "topics/visualization-and-governance.md",
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            topics = Path(tmp) / "04-knowledge" / "structure" / "topics"
+            topics.mkdir(parents=True)
+            (topics / "art-and-institutional-power.md").write_text(
+                "---\nnode_type: topic\n---\n", encoding="utf-8"
+            )
+            with mock.patch.object(self.module, "BASE", Path(tmp)):
+                self.assertEqual(
+                    self.module._materialized_structure_target("topics/art-and-institutional-power.md"),
+                    "topics/art-and-institutional-power.md",
+                )
 
     def test_weak_association_pair_is_not_recalled_as_candidate(self):
         source = "terms/source.md"

@@ -1,6 +1,6 @@
 # Domain Registry — 领域演化注册规则
 
-Domain 是五级主干的 Level 1，总结一套能够独立提出问题、组织分析维度并持续吸收来源的研究领域。当前只 materialize “信息可视化的历史与理论”，但数量不是永久上限。
+Domain 是五级主干的 Level 1，总结一套能够独立提出问题、组织分析维度并持续吸收来源的研究领域。当前 materialize 的 Domain 为“《赞助人与画家》：巴洛克时期意大利艺术与社会”，处于 `pilot` 状态，首次全量摄入后复核晋升。
 
 ## 一、层级关系
 
@@ -37,4 +37,10 @@ candidate -> needs_evidence -> ready_for_review -> approved
 
 | slug | 名称 | 状态 |
 |---|---|---|
-| `information-visualization-history-and-theory` | 信息可视化的历史与理论 | active |
+| `patrons-and-painters` | 《赞助人与画家》：巴洛克时期意大利艺术与社会 | pilot |
+
+晋升条件：完成首次全量摄入、5 个 pilot 维度经重评后至少 3 个晋升 `core`，且 Domain 边界通过反例与边界测试（由 `evolve-hierarchy` 记录 evidence 与 unresolved items）。
+
+## 五、变更记录
+
+- 2026-09-09：新领域初始化。废弃旧领域 `information-visualization-history-and-theory`（信息可视化的历史与理论，active，旧项目历史状态不随迁），新建 `patrons-and-painters` 并标为 `pilot`。

@@ -1,2 +1,45 @@
-# 新项目空翻译投影；使用 build_translation_index.py 重建。
-[]
+generated: '2026-09-09'
+total: 7
+index:
+- slug: persons/guercino
+  type: persons
+  name_en: Guercino (Giovanni Francesco Barbieri)
+  title: 圭尔奇诺（Guercino）
+  name_original: Guercino (Giovanni Francesco Barbieri)
+  language_original: it
+- slug: persons/salvator-rosa
+  type: persons
+  name_en: Salvator Rosa
+  title: 萨尔瓦多·罗萨（Salvator Rosa）
+  name_original: Salvator Rosa
+  language_original: it
+- slug: persons/urbano-viii
+  type: persons
+  name_en: Urban VIII (Maffeo Barberini)
+  title: 乌尔班八世（Urban VIII）
+  name_original: Urbano VIII (Maffeo Barberini)
+  language_original: it
+- slug: terms/servitu-particolare
+  type: terms
+  name_en: servitu particolare
+  title: 专属服务（servitu particolare）
+  name_original: ''
+  language_original: ''
+- slug: publications/patrons-and-painters
+  type: publications
+  name_en: Patrons and Painters (revised edition, 1980)
+  title: 《赞助人与画家》（Patrons and Painters, 1980）
+  name_original: ''
+  language_original: ''
+- slug: works/plague-at-ashdod-1631
+  type: works
+  name_en: The Plague at Ashdod
+  title: 《阿什杜德的瘟疫》（The Plague at Ashdod, c. 1631）
+  name_original: ''
+  language_original: ''
+- slug: institutions/accademia-di-san-luca
+  type: institutions
+  name_en: Accademia di S. Luca
+  title: 圣路加学院（Accademia di S. Luca）
+  name_original: Accademia di S. Luca
+  language_original: ''

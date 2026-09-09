@@ -31,7 +31,7 @@ UNITS = BASE / "04-knowledge" / "units"
 SUGGEST_API = "https://id.loc.gov/authorities/names/suggest2/"
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "Infographic-Knowledge-Distillation/5.3",
+    "User-Agent": "PNP-Knowledge-Distillation/5.3",
 }
 HTTP_TIMEOUT = 20
 MAX_API_RETRIES = 2

@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Infographic Knowledge Distillation 项目总览：目标、架构、技术路径、知识图谱、当前进展与下一步。">
+<meta name="description" content="《赞助人与画家》知识蒸馏项目总览：研究结构、知识图谱、当前进展与下一步。">
 <link rel="icon" href="assets/ikd-mark.png">
-<title>Infographic Knowledge Distillation — 项目总览与知识图谱</title>
+<title>《赞助人与画家》知识蒸馏 — 项目总览与知识图谱</title>
 <script src="vendor/d3.v7.9.0.min.js"></script>
 <script src="knowledge-graph-data.js"></script>
 <style>
@@ -1281,7 +1281,7 @@ h3 {
   <div class="header-inner">
     <a class="brand" href="#overview" aria-label="返回项目总览">
       <img class="brand-mark-image" src="assets/ikd-mark.png" alt="" width="36" height="36">
-      <span class="brand-copy"><strong>信息图表史知识基础设施</strong><span>Infographic Knowledge Distillation</span></span>
+      <span class="brand-copy"><strong>《赞助人与画家》知识基础设施</strong><span>Patrons and Painters Knowledge Distillation</span></span>
     </a>
     <nav class="site-nav" aria-label="页面导航">
       <a href="#overview">总览</a><a href="#architecture">结构</a><a href="#books">书目</a><a href="#knowledge-graph">图谱</a><a href="#pipeline">技术路径</a><a href="#progress">进展</a><a href="#next">下一步</a>
@@ -1293,16 +1293,16 @@ h3 {
   <section id="overview" class="hero" aria-labelledby="overview-title">
     <div class="hero-inner">
       <div class="hero-copy">
-        <p class="hero-kicker">学术档案目录 · 信息图表史</p>
-        <h1 id="overview-title">信息图表史<br>知识基础设施</h1>
-        <p class="hero-en">One domain. Five dimensions. Thirty-three themes.</p>
-        <p class="hero-lede">从三部核心著作进入一套可追溯的知识基础设施：对象、关系、层级与证据彼此连接，也保留尚未完成的研究边界。</p>
+        <p class="hero-kicker">学术档案目录 · 巴洛克时期意大利艺术与社会</p>
+        <h1 id="overview-title">赞助人与画家<br>知识基础设施</h1>
+        <p class="hero-en">One book. Three parts. Seventeen chapters.</p>
+        <p class="hero-lede">从 Francis Haskell《赞助人与画家》进入一套可追溯的知识基础设施：对象、关系、层级与证据彼此连接，也保留尚未完成的研究边界。</p>
         <div class="hero-actions"><a class="primary-action" href="#architecture">浏览研究框架</a><a class="secondary-action" href="#knowledge-graph">打开知识图谱</a></div>
       </div>
       <div class="hero-visual" aria-label="知识图谱预览">
         <span class="hero-preview-label">Live corpus preview</span>
         <svg id="heroGraph" role="img" aria-label="知识图谱节点与关系预览"></svg>
-        <div class="hero-graph-card"><strong>William Playfair</strong><span>人物 · 统计图形史</span><p>连接作品、出版物与方法节点。完整图谱支持筛选、缩放和证据详情。</p></div>
+        <div class="hero-graph-card"><strong>Gian Lorenzo Bernini</strong><span>人物 · 巴洛克雕塑家</span><p>连接作品、出版物与方法节点。完整图谱支持筛选、缩放和证据详情。</p></div>
       </div>
     </div>
     <div class="hero-footer">
@@ -1385,7 +1385,7 @@ h3 {
         <div class="graph-toolbar"><div class="graph-summary" id="graphSummary" aria-live="polite"><span>节点 <strong>—</strong></span><span>可视关系 <strong>—</strong></span><span>类型 <strong>8</strong></span></div><div class="graph-actions" aria-label="图谱视图控制"><button class="graph-button" type="button" id="zoomOutButton">缩小</button><button class="graph-button" type="button" id="zoomResetButton">复位</button><button class="graph-button" type="button" id="zoomInButton">放大</button></div></div>
         <div class="graph-layout">
           <aside class="graph-sidebar" aria-label="图谱筛选">
-            <label class="search-label" for="searchInput">搜索标题、英文名或标签</label><input class="search-input" type="search" id="searchInput" placeholder="例如：地图、Playfair" autocomplete="off">
+            <label class="search-label" for="searchInput">搜索标题、英文名或标签</label><input class="search-input" type="search" id="searchInput" placeholder="例如：贝尔尼尼、乌尔班八世" autocomplete="off">
             <div class="filter-heading">知识元类型</div><div class="legend" id="legend"></div><button class="reset-filter" type="button" id="resetFilterButton">清除筛选</button><p class="filter-status" id="filterStatus" aria-live="polite">正在载入图谱…</p>
             <div class="filter-heading">连线语义</div><div class="relation-key"><span class="key-item"><i class="key-line"></i>显式关系</span><span class="key-item"><i class="key-line" style="border-top-style:dashed"></i>规则推断</span><span class="key-item"><i class="key-line strong"></i>选中邻接路径</span></div>
           </aside>
@@ -1417,7 +1417,7 @@ h3 {
   </div>
 </main>
 
-<footer class="site-footer"><div class="footer-inner"><span>Infographic Knowledge Distillation · Academic archive &amp; graph</span><span>Project v5.3.0 · knowledge &amp; verification 2026-08-30</span></div></footer>
+<footer class="site-footer"><div class="footer-inner"><span>Patrons and Painters Knowledge Distillation · Academic archive &amp; graph</span><span>Project v5.3.0 · initialized 2026-09-09</span></div></footer>
 <div class="tooltip" id="tooltip" role="status"></div>
 
 <script>

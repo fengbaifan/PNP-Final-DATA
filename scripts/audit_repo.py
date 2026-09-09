@@ -865,7 +865,7 @@ def rule_authority_check(base: Path) -> dict:
             canonical[match.group(1)] = skill_file.parent.resolve()
 
     def claude_adapter_target(alias: Path) -> Path | None:
-        if alias.is_symlink():
+        if alias.is_symlink() or getattr(alias, "is_junction", lambda: False)():
             return alias.resolve()
         if not alias.is_file():
             return None

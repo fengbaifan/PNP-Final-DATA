@@ -37,24 +37,24 @@ class VerifyCollectOpenLibraryTests(unittest.TestCase):
 
     def test_missing_author_variant_does_not_create_false_ambiguity(self):
         docs = [
-            {"key": "/works/OL1W", "title": "Atlas of the British flora", "author_name": ["Franklyn Perring"], "first_publish_year": 1962, "publisher": ["Nelson"]},
-            {"key": "/works/OL2W", "title": "Atlas of the British flora", "author_name": [], "first_publish_year": 1962, "publisher": ["Nelson"]},
+            {"key": "/works/OL1W", "title": "Patrons and painters", "author_name": ["Francis Haskell"], "first_publish_year": 1962, "publisher": ["Nelson"]},
+            {"key": "/works/OL2W", "title": "Patrons and painters", "author_name": [], "first_publish_year": 1962, "publisher": ["Nelson"]},
         ]
-        best, _, blocking = openlibrary.evaluate_candidates("Atlas of the British Flora", 1962, docs)
+        best, _, blocking = openlibrary.evaluate_candidates("Patrons and Painters", 1962, docs)
         self.assertIsNone(blocking)
-        self.assertEqual(best["authors"], ["Franklyn Perring"])
+        self.assertEqual(best["authors"], ["Francis Haskell"])
 
     def test_expanded_author_name_is_same_identity_for_ambiguity_check(self):
         docs = [
-            {"key": "/works/OL1W", "title": "Atlas of the British flora", "author_name": ["Franklyn Perring"], "first_publish_year": 1962, "publisher": ["Nelson"]},
-            {"key": "/works/OL2W", "title": "Atlas of the British flora", "author_name": ["Franklyn Hugh Perring"], "first_publish_year": 1962, "publisher": ["Nelson"]},
+            {"key": "/works/OL1W", "title": "Patrons and painters", "author_name": ["Francis Haskell"], "first_publish_year": 1962, "publisher": ["Nelson"]},
+            {"key": "/works/OL2W", "title": "Patrons and painters", "author_name": ["Francis James Herbert Haskell"], "first_publish_year": 1962, "publisher": ["Nelson"]},
         ]
-        _, _, blocking = openlibrary.evaluate_candidates("Atlas of the British Flora", 1962, docs)
+        _, _, blocking = openlibrary.evaluate_candidates("Patrons and Painters", 1962, docs)
         self.assertIsNone(blocking)
 
     def test_coverage_range_does_not_override_slug_publication_year(self):
         self.assertEqual(
-            openlibrary.expected_year("", "Atlas of climatic types in the United States 1900-1939", "", "", "atlas-climatic-types-us-1941"),
+            openlibrary.expected_year("", "Italian art and society 1900-1939", "", "", "italian-art-society-1941"),
             1941,
         )
 

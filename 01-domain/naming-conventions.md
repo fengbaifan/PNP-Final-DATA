@@ -76,14 +76,14 @@ Skill 目录名使用 **英文 kebab-case**，不使用中文。触发词映射�
 ## 五、知识文件命名
 
 ```
-Knowledge Unit: {slug}.md         # william-playfair.md
+Knowledge Unit: {slug}.md         # gian-lorenzo-bernini.md
 Structure Node:  {name}.md        # dimension-a.md
 Claim Registry:  claim-registry.yml
 Relation Index:  relation-index.yml
 ```
 
 **禁止**:
-- 在文件名中显式加 type 标签（如 `playfair-person.md`）
+- 在文件名中显式加 type 标签（如 `bernini-person.md`）
 - 使用 `/` 连接独立概念
 - 中文文件名
 

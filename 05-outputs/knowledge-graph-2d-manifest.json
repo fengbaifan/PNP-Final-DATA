@@ -1,0 +1,15 @@
+{
+  "hash_mode": "sha256-lf-normalized-v1",
+  "description": "迁移遗留的二维展示模板，数据为空；仅记录当前文件完整性，不代表本领域研究成果或历史验收。",
+  "sha256": {
+    "knowledge-graph-2d.html": "8edcdccb3be96ed3ef0286ca2205f8b7eaf275627c50f81dab976af57ecdebe8",
+    "knowledge-graph-2d-data.json": "13fdfdd32ac1c057a6488eb696af604f3746c45398eb601df49ec1610697e120",
+    "knowledge-graph-2d-data.js": "4fb5abdb58229b6e981433fdad897c19aaf036395f8c2301bb4faa043ef439f2",
+    "knowledge-graph-v2.css": "3a463c27af088d71bb9e090951d7c717fc60a9cd819db2319c72532ba1ccb4b7",
+    "vendor/d3.v7.9.0.min.js": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+    "assets/cover-brinton-1914.png": "a258191f925458c2b82ae3ca5ba08dbac6e4153d7d181982850234d129b32295",
+    "assets/cover-lima-circles-2017.png": "97405f787e9f23cf2ed1f8ed314ee146aeed2a31220be680f1d53d2d90ce2d1c",
+    "assets/cover-rendgen-history-2019.png": "ae8a2d7b436e631b97607ae00b270c403039eb8d6f2c50770e05f7b38b98d373",
+    "assets/ikd-mark.png": "ad14faac6c80ab0ba0daf93d6b140cde8d5e1c2495751226912eb2799541c00e"
+  }
+}

@@ -90,7 +90,7 @@ enrich 应根据页面语义自行判断补写重点，但默认优先考虑以�
 |---|---|
 | person | 身份锚点、职业/领域、时期、关键作品、合作与影响边界、核心传记/研究文献、Wikipedia/Wikidata 链接 |
 | term | 定义、核心特征、概念边界、类型区分、历史脉络、局限/误区、代表作品/人物、关键方法论文献、Wikipedia/Wikidata 链接 |
-| work | 创作者、年代、媒介、语境、设计分析、当前收藏/出版信息、关键目录/研究文献、Wikipedia/Wikidata 或馆藏页链接 |
+| work | 创作者、年代、媒介、语境、作品分析（主题/风格/图像志）、当前收藏/出版信息、关键目录/研究文献、Wikipedia/Wikidata 或馆藏页链接 |
 | publication | 作者/编者、出版信息、版本信息、学术定位、议题范围、历史语境、相关核心研究、Wikipedia/Wikidata/馆藏或书目页链接 |
 | institution/place/event | 身份事实、时间地点锚点、功能角色、历史语境、相关作品/人物、关键历史研究或档案来源、Wikipedia/Wikidata 链接 |
 

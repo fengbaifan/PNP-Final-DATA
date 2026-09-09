@@ -14,40 +14,40 @@
 ```
 # person（人物）：英文姓名转写（小写、短横线）
 <firstname-lastname>.md
-例：adam-dant.md、charles-joseph-minard.md、jacques-bertin.md
+例：gian-lorenzo-bernini.md、urbano-viii.md、francesco-algarotti.md
 
 # work（作品）：作品英文名 + 年份后缀（YYYY 或 YYYY-YYYY）
 <work-title-dashed>-<year>.md
-例：alluvial-valley-mississippi-maps-1944.md、durer-human-proportion-1528.md
+例：ecstasy-of-saint-teresa-1652.md、palazzo-barberini-ceiling-fresco-1639.md
 规则：所有有日期的作品必须带年份后缀；无日期的抽象作品可省略
 
 # publication（著作）：书名/文章名（无冗余后缀）
 <title-dashed>.md
-例：durer-four-books-human-proportion.md、semiology-of-graphics.md
+例：patrons-and-painters.md、le-vite-de-pittori.md
 规则：目录已标识类型，文件名不得再带 -publication、-book、-article 等冗余后缀
 
 # term（术语）：概念/术语定义
 <english-term-dashed>.md
-例：choropleth-map.md、information-visualization.md、data-ink-ratio.md
+例：baroque.md、patronage.md、servitu-particolare.md
 规则：抽象概念、通用类别名、理论标签。回答"这个术语是什么意思"。
 与 procedure 的区别：term 描述"是什么"，procedure 描述"怎么做"。
 
 # procedure（规程）：具体操作方法
 <english-gerund-dashed>.md
-例：choropleth-mapping.md、wood-engraving.md、transparent-paper-superimposition.md
+例：fresco-painting.md、commission-contracting.md、art-restoration.md
 规则：文件名优先使用动词/动作形式（mapping 非 map, engraving 非 engrave）。
 包含明确操作步骤的技术方法。抽象类别名归入 term。
 
 # event（事件）：单一历史发生项
 <event-description-dashed>.md
-例：1854-broad-street-cholera-outbreak.md、hull-house-mapping-project-1895.md
+例：1625-holy-year-jubilee.md、palazzo-barberini-inauguration-1633.md
 规则：含日期的前置；可定位到特定时间、地点、参与者。
 大型历史过程/运动谱系/案例组 → topic/theme/cluster。
 
 # institution（机构）：组织实体
 <english-name-dashed>.md
-例：british-library.md、metropolitan-museum-of-art.md
-规则：博物馆、图书馆、档案馆、学校、报社、出版社等。区别于 place（地理坐标点）。
+例：accademia-di-san-luca.md、jesuit-order.md、barberini-family.md
+规则：教会、修会、学院、行会、宫廷、家族等。区别于 place（地理坐标点）。
 
 # claim（断言）：不作为知识元目录
 claim 存储在 quality/claim-registry.yml 索引中。
@@ -55,27 +55,27 @@ claim 存储在 quality/claim-registry.yml 索引中。
 
 # place / institution（地点/机构）：英文地名
 <english-place-name-dashed>.md
-例：metropolitan-museum-of-art.md、london.md
-规则：不得与上级地点重复（如已有 london.md，不得新建 london-city.md）
+例：rome.md、venice.md
+规则：不得与上级地点重复（如已有 rome.md，不得新建 rome-city.md）
 ```
 
 ### 命名禁忌（必须遵守）
 
 ```
 1. 禁止使用 doc-id 前缀
-   ❌ 2019-rendgen-charles-joseph-minard.md
-   ✅ charles-joseph-minard.md
+   ❌ chp-2-gian-lorenzo-bernini.md
+   ✅ gian-lorenzo-bernini.md
 
 2. 禁止在 publications 目录使用 -publication 后缀
-   ❌ hooke-micrographia-publication.md
-   ✅ hooke-micrographia.md
+   ❌ vite-de-pittori-publication.md
+   ✅ vite-de-pittori.md
 
 3. 禁止使用中文拼音
-   ❌ zhongguo.md、RendgenSandra.md
+   ❌ beiernini.md、HaskellFrancis.md
 
 4. 禁止使用空格（用短横线 - 代替）
-   ❌ Charles Joseph Minard.md
-   ✅ charles-joseph-minard.md
+   ❌ Gian Lorenzo Bernini.md
+   ✅ gian-lorenzo-bernini.md
 
 5. 禁止使用特殊字符（只允许 a-z、0-9、连字符 -）
    ❌ 亚伯拉罕·林肯.md、data-vis.md
@@ -88,7 +88,7 @@ claim 存储在 quality/claim-registry.yml 索引中。
    （目录已表明类型）
 
 8. 禁止在 procedures 目录的文件名中包含 -procedure/-method 后缀
-   （目录已表明类型；动作型名称应优先使用 gerund，如 `choropleth-mapping.md`）
+   （目录已表明类型；动作型名称应优先使用 gerund，如 `fresco-painting.md`）
 
 9. 禁止在 places 目录的文件名中包含 -place/-location 后缀
    （目录已表明类型）
@@ -100,26 +100,26 @@ claim 存储在 quality/claim-registry.yml 索引中。
 
 | 类型组合 | 规则 | 示例 |
 |---------|------|------|
-| term + procedure 同名 | 从对象本体区分：术语名保留 noun，操作过程用 action/gerund | `choropleth-map.md` (term) + `choropleth-mapping.md` (procedure) |
-| term + place 同名 | place 用全地名或历史名消歧 | `paris.md` (place) |
-| 同一 type 内同名 | 必须为不同实体 | `copper-engraving.md` (19c报纸) vs `copperplate-engraving.md` (早期科学) |
+| term + procedure 同名 | 从对象本体区分：术语名保留 noun，操作过程用 action/gerund | `fresco.md` (term) + `fresco-painting.md` (procedure) |
+| term + place 同名 | place 用全地名或历史名消歧 | `rome.md` (place) |
+| 同一 type 内同名 | 必须为不同实体 | `assumption-of-the-virgin-1601.md` (Carracci) vs `assumption-of-the-virgin-1650.md` (Guercino) |
 
 ### 年份后缀规则（works/events）
 
 ```
 强制添加年份后缀：
-  ✅ minard-napoleon-march-1869.md
-  ✅ nightingale-rose-diagram-1858.md
-  ✅ cholera-epidemics-coverage-1849-1854.md
+  ✅ ecstasy-of-saint-teresa-1652.md
+  ✅ calling-of-saint-matthew-1600.md
+  ✅ palazzo-barberini-frescoes-1633-1639.md
 
 可省略年份（仅限无具体日期的抽象作品）：
-  ✅ graphic-method.md（无具体年代）
-  ✅ forma-urbis-romae.md（古代作品无确切日期）
+  ✅ barberini-faun.md（古代雕塑无确切日期）
+  ✅ borghese-collection-inventory.md（无具体年代）
 
 年份格式：
-  - 精确年份：-1858
-  - 年代范围：-1849-1854（不超过4位数字则用连字符分隔）
-  - 世纪描述：19th-century-national-statistics-movement.md（用序数词非数字）
+  - 精确年份：-1652
+  - 年代范围：-1633-1639（不超过4位数字则用连字符分隔）
+  - 世纪描述：17th-century-roman-art-market.md（用序数词非数字）
 ```
 
 ## 类型总览
@@ -127,22 +127,24 @@ claim 存储在 quality/claim-registry.yml 索引中。
 ```
 Knowledge Units（8 类）
 │
-├── Person             ── 可被指认为个人的行动者（设计师/学者/艺术家/工程师/哲学家）
-├── Institution        ── 具有组织结构、制度目标的实体（博物馆/图书馆/学校/报社）
-├── Place              ── 地理坐标点或空间位置（遗迹/机构/城市/区域）
-├── Work               ── 可被观看/分析/复制的视觉与物质对象
-├── Publication        ── 具有书目身份的文本出版物（专著/论文/宣言/报告）
-├── Term               ── 稳定术语、概念名称、设计原则、分类名称
-├── Procedure          ── 可被执行/复用/传授的操作性知识（工艺/方法/流程）
+├── Person             ── 可被指认为个人的行动者（画家/赞助人/经纪人/学者/收藏家）
+├── Institution        ── 具有组织结构、制度目标的实体（教会/修会/学院/行会/宫廷/家族）
+├── Place              ── 地理坐标点或空间位置（城市/教堂/宫殿/区域）
+├── Work               ── 可被观看/分析/复制的视觉与物质对象（绘画/雕塑/建筑/委托作品）
+├── Publication        ── 具有书目身份的文本出版物（传记/文献/目录/理论著作）
+├── Term               ── 稳定术语、概念名称、艺术史概念、赞助机制术语
+├── Procedure          ── 可被执行/复用/传授的操作性知识（工艺/流程/委托惯例）
 └── Event              ── 特定时间/地点/参与者的历史发生项
 
-Structure Nodes（5 类）
+Structure Nodes（4 类）
 │
-├── Domain             ── 总问题域（A–E 五大维度）
-├── Dimension          ── 分析维度（对应 hierarchy L2）
-├── Topic              ── 稳定议题（对应 hierarchy L3）
-├── Theme              ── 跨材料涌现主题
-└── Cluster            ── 知识元集合（案例组/作品组/机构组）
+├── Domain             ── 总问题域（Level 1）
+├── Dimension          ── 分析维度（Level 2；当前 A–E 五个 pilot 维度）
+├── Theme              ── 稳定问题群（Level 3；A.1/B.2 等代码）
+└── Topic              ── 可研究问题（Level 4；组织多类 KU 材料）
+
+> canonical hierarchy 为 domain -> dimension -> theme -> topic -> KU。
+> Cluster 是发现候选，不是 structure node。
 ```
 
 ### 废弃类型映射
@@ -163,7 +165,7 @@ Structure Nodes（5 类）
 ## Person（人物）
 
 ```yaml
-sub_type: designer | scholar | artist | engineer | architect | philosopher | explorer | other
+sub_type: painter | sculptor | architect | patron | collector | dealer | scholar | cleric | other
 name_en: <标准英文名>
 birth_death: <生卒年>
 nationality: <国籍/文化背景>
@@ -183,7 +185,7 @@ influenced_by: [<受谁影响>]
 ## Institution（机构）
 
 ```yaml
-sub_type: museum | library | archive | school | university | publisher | newspaper | research_institute | government_agency | other
+sub_type: church | religious_order | academy | guild | court | family | civic_body | other
 name_en: <标准英文名>
 name_original: <原语言名>
 language_original: <ISO 639-1>
@@ -200,7 +202,7 @@ associated_publications: []
 ## Term（术语）
 
 ```yaml
-sub_type: concept_name | design_principle | theoretical_framework | methodology | classification | other
+sub_type: concept_name | art_historical_concept | patronage_term | theoretical_framework | methodology | other
 name_en: <标准英文名>
 term_original: <原文术语>
 term_original_language: <ISO 639-1>
@@ -219,7 +221,7 @@ related_terms: [<相关术语>]
 ## Procedure（规程）
 
 ```yaml
-sub_type: manufacturing | design_method | process | workflow | analytical_method | other
+sub_type: artistic_technique | conservation_method | contractual_practice | process | workflow | other
 name_en: <英文名（优先使用 gerund 形式）>
 period_developed: <发展时期>
 developed_by: [<发明者>]
@@ -238,7 +240,7 @@ successor_procedures: [<后续/替代工艺>]
 ## Event（事件）
 
 ```yaml
-sub_type: historical_occurrence | movement | exhibition | discovery | experiment | other
+sub_type: historical_occurrence | commission | ceremony | conclave | exhibition | other
 name_en: <标准英文名>
 date_range: <时间范围或精确日期>
 location:
@@ -272,7 +274,7 @@ outcome: >
 - **academic_significance**:
   - <学术意义要点1>
   - <学术意义要点2>
-- **design_analysis**: <设计分析要点>
+- **artwork_analysis**: <作品分析要点（主题/风格/图像志）>
 ```
 
 ---
@@ -314,7 +316,7 @@ chicago_citation: >
 ## 地点（Place）
 
 ```yaml
-sub_type: archaeological_site | design_institution | city | geographical_region | museum | school
+sub_type: city | church | palace | building | geographical_region | other
 name_en: <标准英文名>
 location_coords: <地理位置（国家/地区）>
 period_active: <活跃/存续时期>

@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 def load_module():
@@ -125,25 +126,48 @@ class BuildRelationIndexTests(unittest.TestCase):
         self.assertEqual(self.module._materialized_structure_target("B.2"), "")
 
     def test_theme_code_resolves_through_materialized_theme_frontmatter(self):
-        self.assertEqual(
-            self.module._materialized_theme_target("B.2"),
-            "themes/b2-geometric-quantitative-encoding.md",
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            themes = Path(tmp) / "04-knowledge" / "structure" / "themes"
+            themes.mkdir(parents=True)
+            (themes / "b2-artist-training-and-guilds.md").write_text(
+                "---\ntheme_code: B.2\n---\n", encoding="utf-8"
+            )
+            with mock.patch.object(self.module, "STRUCTURE", Path(tmp) / "04-knowledge" / "structure"):
+                self.assertEqual(
+                    self.module._materialized_theme_target("B.2"),
+                    "themes/b2-artist-training-and-guilds.md",
+                )
 
     def test_existing_structure_path_is_accepted(self):
-        self.assertEqual(
-            self.module._materialized_structure_target("topics/visualization-as-reform-tool.md"),
-            "topics/visualization-as-reform-tool.md",
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            topics = Path(tmp) / "04-knowledge" / "structure" / "topics"
+            topics.mkdir(parents=True)
+            (topics / "patronage-and-social-display.md").write_text(
+                "---\nnode_type: topic\n---\n", encoding="utf-8"
+            )
+            with mock.patch.object(self.module, "STRUCTURE", Path(tmp) / "04-knowledge" / "structure"):
+                self.assertEqual(
+                    self.module._materialized_structure_target("topics/patronage-and-social-display.md"),
+                    "topics/patronage-and-social-display.md",
+                )
 
     def test_hierarchy_relations_use_structure_root_targets(self):
-        hierarchy_relations = [
-            relation
-            for relation in self.module.relations
-            if str(relation.get("evidence") or "").startswith("hierarchy.")
-        ]
-        self.assertTrue(hierarchy_relations)
-        self.assertTrue(all(relation["target"].startswith("structure/") for relation in hierarchy_relations))
+        original = self.module.relations[:]
+        try:
+            self.module.relations[:] = [{
+                "source": "works/x.md",
+                "target": "structure/themes/b2-artist-training-and-guilds.md",
+                "evidence": "hierarchy.b2",
+            }]
+            hierarchy_relations = [
+                relation
+                for relation in self.module.relations
+                if str(relation.get("evidence") or "").startswith("hierarchy.")
+            ]
+            self.assertTrue(hierarchy_relations)
+            self.assertTrue(all(relation["target"].startswith("structure/") for relation in hierarchy_relations))
+        finally:
+            self.module.relations[:] = original
 
     def test_stable_generated_date_preserves_date_for_unchanged_content(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -4,6 +4,9 @@
 .legacy/
 scripts/archive/
 
+# Client discovery junctions (Windows directory junctions, machine-local)
+.claude/skills/
+
 # Claude Code local settings (contains API keys, personal config)
 .claude/settings.local.json
 

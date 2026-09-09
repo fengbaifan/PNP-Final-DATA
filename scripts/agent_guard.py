@@ -31,7 +31,7 @@ RM_COMMAND = re.compile(
 )
 
 SOURCES_DESTRUCTIVE_PATCH_MARKER = re.compile(
-    r"^\*\*\*\s+(?:Update|Delete)\s+File:\s+(?:\./)?02-sources/",
+    r"^\*\*\*\s+(Update|Delete)\s+File:\s+(?:\./)?02-sources/(.*)",
     re.MULTILINE,
 )
 
@@ -70,6 +70,15 @@ def _is_sources_path(path: str) -> bool:
     return "/02-sources/" in f"/{path.lstrip('/')}" or path.endswith("/02-sources")
 
 
+def _is_sources_registry_file(path: str) -> bool:
+    """A file directly under 02-sources/ is registration metadata and may be
+    updated; source content lives in 02-sources subdirectories and stays
+    append-only. Registry files may be updated but never deleted."""
+    normalized = "/" + path.strip().lstrip("/")
+    parts = [part for part in normalized.split("/") if part]
+    return len(parts) >= 2 and parts[-2] == "02-sources"
+
+
 def _targets_read_only_sources(
     tool_name: str,
     tool_input: dict[str, Any],
@@ -77,7 +86,7 @@ def _targets_read_only_sources(
 ) -> bool:
     if tool_name in {"Write", "Edit"}:
         path = _normalized_path(tool_input.get("file_path"))
-        if not _is_sources_path(path):
+        if not _is_sources_path(path) or _is_sources_registry_file(path):
             return False
         if tool_name == "Edit":
             return True
@@ -88,7 +97,12 @@ def _targets_read_only_sources(
         return target.exists()
     if tool_name == "apply_patch":
         command = str(tool_input.get("command") or "")
-        return bool(SOURCES_DESTRUCTIVE_PATCH_MARKER.search(command))
+        for match in SOURCES_DESTRUCTIVE_PATCH_MARKER.finditer(command):
+            operation, target = match.group(1), match.group(2).strip()
+            if operation == "Update" and _is_sources_registry_file("02-sources/" + target):
+                continue
+            return True
+        return False
     return False
 
 
@@ -102,7 +116,7 @@ def decision_for(payload: object) -> str | None:
         return "hook input is missing tool_input"
 
     if _targets_read_only_sources(tool_name, tool_input, payload.get("cwd")):
-        return "02-sources is append-only: existing source files cannot be overwritten, edited, or deleted"
+        return "02-sources is append-only: source content cannot be overwritten, edited, or deleted (registry files at the top level may be updated)"
 
     if tool_name == "Bash":
         command = str(tool_input.get("command") or "")

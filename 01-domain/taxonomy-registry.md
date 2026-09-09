@@ -1,6 +1,6 @@
 # Taxonomy Registry — 类型体系成长注册表 v4.0
 
-本文件定义当前领域知识库的知识元类型注册规则。
+本文件定义当前领域知识库的知识元类型注册规则。8 类基础类型沿用系统通用框架，本领域按其艺术史研究对象重新释义。
 
 ## 一、设计原则
 
@@ -14,21 +14,21 @@
 
 | 目录 | type | 角色 |
 |------|------|------|
-| `persons/` | `person` | 自然人行动者 |
-| `institutions/` | `institution` | 组织实体（博物馆/图书馆/学校/报社/出版社） |
-| `places/` | `place` | 地理坐标点 |
-| `works/` | `work` | 视觉/物质/设计对象 |
-| `publications/` | `publication` | 书目身份文本 |
-| `terms/` | `term` | 稳定术语/概念名称/设计原则 |
-| `procedures/` | `procedure` | 可操作知识/流程/工艺 |
-| `events/` | `event` | 单一历史发生项 |
+| `persons/` | `person` | 自然人行动者（画家/赞助人/经纪人/学者/收藏家） |
+| `institutions/` | `institution` | 组织实体（教会/修会/学院/行会/宫廷/家族） |
+| `places/` | `place` | 地理坐标点（城市/教堂/宫殿/工作室） |
+| `works/` | `work` | 视觉与物质对象（绘画/雕塑/建筑/委托作品） |
+| `publications/` | `publication` | 书目身份文本（传记/文献/目录/理论著作） |
+| `terms/` | `term` | 稳定术语/概念名称（赞助机制术语/艺术史概念） |
+| `procedures/` | `procedure` | 可操作知识/流程/工艺（委托流程/合同惯例/技艺） |
+| `events/` | `event` | 单一历史发生项（委托/庆典/艺术事件） |
 
 ## 三、Structure Nodes（4 类）
 
 | 目录 | node_type | 角色 | 判断规则 |
 |------|-----------|------|---------|
-| `structure/domains/` | `domain` | Level 1 总问题域 | 当前项目信息可视化史与理论 |
-| `structure/dimensions/` | `dimension` | Level 2 分析维度 | 当前 A–E 五维度 |
+| `structure/domains/` | `domain` | Level 1 总问题域 | 当前项目《赞助人与画家》：巴洛克时期意大利艺术与社会 |
+| `structure/dimensions/` | `dimension` | Level 2 分析维度 | 当前 A–E 五个 pilot 维度 |
 | `structure/themes/` | `theme` | 稳定问题群 | hierarchy Level 3；A.1/B.2 等代码 |
 | `structure/topics/` | `topic` | 可研究问题 | hierarchy Level 4；组织多类 KU 材料 |
 

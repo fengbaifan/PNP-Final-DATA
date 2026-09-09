@@ -17,19 +17,19 @@ Cluster 不属于主干。它是可作用于任意层级的 discovery candidate�
 ## 二、KU 顶层字段
 
 ```yaml
-primary_domain: information-visualization-history-and-theory
+primary_domain: patrons-and-painters
 secondary_domains: []
-primary_dimension: B
+primary_dimension: A
 secondary_dimensions: []
-primary_theme: B.7
+primary_theme: A.2
 secondary_themes: []
 role_in_theme: representative_work
 topic_memberships:
-  - topic: topics/brinton-design-standards-1914.md
+  - topic: topics/commission-contracts-rome.md
     role: representative_work
     primary: true
-    scope_note: "该作品用于检验图形设计标准如何形成。"
-hierarchy_scope_note: "B.7 提供主导航；该 KU 仍可在其他 Topic 中承担不同角色。"
+    scope_note: "该作品用于检验十七世纪罗马委托合同的条款惯例。"
+hierarchy_scope_note: "A.2 提供主导航；该 KU 仍可在其他 Topic 中承担不同角色。"
 ```
 
 以上字段必须位于 frontmatter 顶层。`topic_memberships` 是多对多关系，不得压缩为一个排他性的 `parent_topic`。

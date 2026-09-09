@@ -18,9 +18,9 @@ Source Signal
 
 1. Agent 负责语义阅读、候选边界、类型、命名、claim、relation 和 hierarchy 判断。
 2. 脚本负责校验、hash、索引、collect、dry-run 与已批准机械写回。
-3. `02-sources/` 只追加。
+3. `02-sources/` 来源本体只追加；顶层登记文件可更新、不可删除。
 4. 证据不足必须保留不确定状态。
-5. A-E 五维度、33 个稳定 Theme 代码、8 类 KU 与 4 类 structure node 不因摄入工具变化而被改写；Topic 数和实时 KU 数以现行结构与 health 快照为准。
+5. A-E 五个 pilot 维度、8 类 KU 与 4 类 structure node 不因摄入工具变化而被改写；Theme/Topic 数与实时 KU 数以现行结构与 health 快照为准。
 
 ## 三、覆盖证明
 

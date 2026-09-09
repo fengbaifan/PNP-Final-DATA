@@ -18,7 +18,7 @@ SCRIPT_REF = re.compile(r"scripts/[A-Za-z0-9_-]+\.py")
 REFERENCE_REF = re.compile(
     r"`([^`\r\n]+\.md)`|\[[^\]]+\]\(([^)\r\n]+\.md)\)"
 )
-SKIP_WALK_DIRS = {".git", ".tmp", ".venv", "node_modules", "__pycache__"}
+SKIP_WALK_DIRS = {".git", ".tmp", ".venv", "node_modules", "__pycache__", ".claude"}
 
 
 class UniqueKeyLoader(yaml.SafeLoader):

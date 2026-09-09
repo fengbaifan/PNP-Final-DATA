@@ -26,7 +26,7 @@ UNITS = BASE / "04-knowledge" / "units"
 SEARCH_API = "https://openlibrary.org/search.json"
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "Infographic-Knowledge-Distillation/5.3 (+https://github.com/fengbaifan/Infographic-Knowledge-Distillation)",
+    "User-Agent": "PNP-Knowledge-Distillation/5.3 (+https://github.com/fengbaifan/PNP-Final-DATA)",
 }
 HTTP_TIMEOUT = 25
 MAX_API_RETRIES = 2

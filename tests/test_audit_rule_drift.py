@@ -213,7 +213,7 @@ class EntrypointDriftTests(unittest.TestCase):
             ("for-each-ref", "--format=%(refname)", "refs/remotes/origin"): "refs/remotes/origin/HEAD\nrefs/remotes/origin/main\n",
             ("worktree", "list", "--porcelain"): "worktree C:/repo\nHEAD abc\nbranch refs/heads/main\n",
             ("config", "--get-all", "remote.origin.fetch"): "+refs/heads/main:refs/remotes/origin/main\n",
-            ("config", "--get", "remote.origin.url"): "https://github.com/fengbaifan/Infographic-Knowledge-Distillation.git\n",
+            ("config", "--get", "remote.origin.url"): "https://github.com/fengbaifan/PNP-Final-DATA.git\n",
         }
 
         findings = audit_rule_drift.check_mainline_only_git_contract(root, lambda *args: outputs[args])
@@ -228,7 +228,7 @@ class EntrypointDriftTests(unittest.TestCase):
             ("for-each-ref", "--format=%(refname)", "refs/remotes/origin"): "refs/remotes/origin/HEAD\nrefs/remotes/origin/main\n",
             ("worktree", "list", "--porcelain"): "worktree C:/repo\nHEAD abc\nbranch refs/heads/main\n\nworktree C:/repo-wt\nHEAD def\nbranch refs/heads/main\n",
             ("config", "--get-all", "remote.origin.fetch"): "+refs/heads/*:refs/remotes/origin/*\n",
-            ("config", "--get", "remote.origin.url"): "https://github.com/fengbaifan/Infographic-Knowledge-Distillation.git\n",
+            ("config", "--get", "remote.origin.url"): "https://github.com/fengbaifan/PNP-Final-DATA.git\n",
         }
 
         findings = audit_rule_drift.check_mainline_only_git_contract(root, lambda *args: outputs[args])

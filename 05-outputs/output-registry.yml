@@ -1,2 +1,71 @@
-# 新项目输出登记；尚无输出。
-[]
+records:
+- used_units:
+  - 04-knowledge/units/events/schildersbent-formation-1623.md
+  - 04-knowledge/units/institutions/accademia-di-san-luca.md
+  - 04-knowledge/units/persons/guercino.md
+  - 04-knowledge/units/persons/salvator-rosa.md
+  - 04-knowledge/units/persons/urbano-viii.md
+  - 04-knowledge/units/places/rome.md
+  - 04-knowledge/units/procedures/commission-contracting.md
+  - 04-knowledge/units/publications/patrons-and-painters.md
+  - 04-knowledge/units/terms/servitu-particolare.md
+  - 04-knowledge/units/works/plague-at-ashdod-1631.md
+  used_claims: &id001 []
+  used_relations: &id002 []
+  source_refs: &id003 []
+  uncertain_points:
+  - 当前知识图谱为机械投影，层级和外部验证未完成。
+  file_back_status: not_reviewed
+  candidate_refs: &id004 []
+  output_id: current-knowledge-graph
+  output_type: visualization
+  artifact_patterns:
+  - 05-outputs/knowledge-graph.html
+  - 05-outputs/knowledge-graph-data.*
+- used_units:
+  - 04-knowledge/units/events/schildersbent-formation-1623.md
+  - 04-knowledge/units/institutions/accademia-di-san-luca.md
+  - 04-knowledge/units/persons/guercino.md
+  - 04-knowledge/units/persons/salvator-rosa.md
+  - 04-knowledge/units/persons/urbano-viii.md
+  - 04-knowledge/units/places/rome.md
+  - 04-knowledge/units/procedures/commission-contracting.md
+  - 04-knowledge/units/publications/patrons-and-painters.md
+  - 04-knowledge/units/terms/servitu-particolare.md
+  - 04-knowledge/units/works/plague-at-ashdod-1631.md
+  used_claims: *id001
+  used_relations: *id002
+  source_refs: *id003
+  uncertain_points:
+  - 类型导航不等于内容验收。
+  file_back_status: not_reviewed
+  candidate_refs: *id004
+  output_id: knowledge-navigation
+  output_type: navigation
+  artifact_patterns:
+  - 05-outputs/index/index.md
+  - 05-outputs/index/persons.md
+  - 05-outputs/index/institutions.md
+  - 05-outputs/index/places.md
+  - 05-outputs/index/works.md
+  - 05-outputs/index/publications.md
+  - 05-outputs/index/terms.md
+  - 05-outputs/index/procedures.md
+  - 05-outputs/index/events.md
+- used_units: []
+  used_claims: *id001
+  used_relations: *id002
+  source_refs: *id003
+  uncertain_points:
+  - 迁移保留的展示模板、静态资源和空目录标记；旧领域文案不属于本领域研究结论。
+  file_back_status: not_reviewed
+  candidate_refs: *id004
+  output_id: inherited-display-resources
+  output_type: template
+  artifact_patterns:
+  - 05-outputs/assets/*
+  - 05-outputs/vendor/*
+  - 05-outputs/knowledge-graph-2d*
+  - 05-outputs/knowledge-graph-v2.css
+  - 05-outputs/exports/.gitkeep
+  - 05-outputs/index/.gitkeep

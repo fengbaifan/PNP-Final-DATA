@@ -43,7 +43,7 @@ description: >
 
 - schema、枚举、目录、链接和 frontmatter 是否满足契约；
 - collect/apply、candidate/knowledge、health/semantic acceptance 是否越层；
-- `02-sources/` 只追加、验证原子写回、状态诚实等不变量是否实际成立；
+- `02-sources/` 来源本体只追加（顶层登记文件可更新、不可删除）、验证原子写回、状态诚实等不变量是否实际成立；
 - 实现是否保持最小范围、覆盖直接依赖并运行能捕获回归的验证；
 - Git、临时工件、失败和跳过项是否诚实记录。
 

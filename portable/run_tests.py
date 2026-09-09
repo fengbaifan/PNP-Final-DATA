@@ -21,28 +21,31 @@ def main() -> int:
         raise SystemExit("Run the copy inside the extracted package: python portable/run_tests.py")
     manifest = json.loads((root / "workflow-copy-manifest.json").read_text(encoding="utf-8"))
     fixture_texts = {
-        "04-knowledge/structure/themes/b2-geometric-quantitative-encoding.md":
+        "04-knowledge/structure/themes/b2-artist-training-and-guilds.md":
             "---\nnode_type: theme\ntheme_code: B.2\n---\n# Synthetic test fixture\n",
-        "04-knowledge/structure/themes/c6-twentieth-century-visualization.md":
+        "04-knowledge/structure/themes/c6-seventeenth-century-venice.md":
             "---\nnode_type: theme\ntheme_code: C.6\n---\n# Synthetic test fixture\n",
-        "04-knowledge/structure/topics/visualization-as-reform-tool.md":
+        "04-knowledge/structure/topics/patronage-and-social-display.md":
             "---\nnode_type: topic\n---\n# Synthetic test fixture\n",
-        "04-knowledge/structure/topics/visualization-and-governance.md":
+        "04-knowledge/structure/topics/art-and-institutional-power.md":
             "---\nnode_type: topic\n---\n# Synthetic test fixture\n",
         "04-knowledge/units/works/portable-test-example.md":
             "---\ntitle: Synthetic test object\nname_en: Synthetic test object\ntype: work\n"
             "primary_theme: B.2\nrole_in_theme: representative_work\n"
-            "topic_memberships:\n  - topic: topics/visualization-as-reform-tool.md\n"
+            "topic_memberships:\n  - topic: topics/patronage-and-social-display.md\n"
             "    role: representative_work\n    primary: true\n"
             "confidence: medium\nconsensus: tentative\nsource_count: 0\n"
             "sources: []\nrelations: []\n---\n## Description\nSynthetic test fixture only.\n",
     }
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONDONTWRITEBYTECODE="1")
-    with tempfile.TemporaryDirectory(prefix="ikd-workflow-tests-") as temp:
+    with tempfile.TemporaryDirectory(prefix="pnp-workflow-tests-") as temp:
         sandbox = Path(temp)
         for entry in manifest["files"]:
             rel = entry["path"]
             source = (root / rel).resolve()
+            if source.is_dir():
+                # client adapter junctions resolve to directories; copy file entries only
+                continue
             destination = (sandbox / rel).resolve()
             if not source.is_relative_to(root) or not destination.is_relative_to(sandbox):
                 raise ValueError("Manifest path escapes package: " + rel)

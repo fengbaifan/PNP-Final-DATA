@@ -1,4 +1,6 @@
 import json
+import os
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -108,3 +110,26 @@ class CompactProcessingProfileTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ClaudeSkillAdapterTests(unittest.TestCase):
+    """Windows directory junctions count as valid client skill adapters."""
+
+    def test_junction_counts_as_valid_adapter(self):
+        if os.name != "nt":
+            self.skipTest("junctions are Windows-only")
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            canonical = base / ".agents" / "skills" / "ingest"
+            canonical.mkdir(parents=True)
+            (canonical / "SKILL.md").write_text(
+                "---" + chr(10) + "name: ingest" + chr(10) + "---" + chr(10), encoding="utf-8"
+            )
+            adapter = base / ".claude" / "skills"
+            adapter.mkdir(parents=True)
+            subprocess.run(
+                ["cmd", "/c", "mklink", "/J", str(adapter / "ingest"), str(canonical)],
+                check=True, capture_output=True,
+            )
+            result = audit_repo.rule_authority_check(base)
+            self.assertEqual(result["adapter_issues"], [])

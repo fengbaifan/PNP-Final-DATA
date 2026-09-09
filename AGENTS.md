@@ -56,7 +56,7 @@ Layer 2b - Assertion & Evidence
 
 1. 中文优先；正式报告、审查结论、治理记录与交付总结默认使用中文。仅代码、路径、字段名、标准名称及无可靠译名的术语保留英文，必要时首次出现附中文说明。
 2. workflow-first：中心是 Agent + Skill Contract + Event Routing + State Honesty，不是脚本集合。
-3. 来源只读：`02-sources/` 只追加，不改写、不删除。
+3. 来源只读：`02-sources/` 内来源本体（`01-book/`、`02-Markdown/`、`03-Index/` 等子目录）只追加，不改写、不删除；顶层登记类文件（`README.md`、`source-registry*.md`）可更新但不得删除。
 4. 摄入必须保留覆盖证明；禁止用脚本替代语义阅读。
 5. enrich 以网页语义补写为核心，外部链接只是导航锚点。
 6. 验证走 `collect -> evidence JSONL -> apply` 两阶段；正式写回入口为 `scripts/verify_apply_evidence.py`。

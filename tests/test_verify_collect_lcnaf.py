@@ -11,13 +11,13 @@ def hit(label, rdf_type, **more):
 class VerifyCollectLcnafTests(unittest.TestCase):
     def test_person_heading_can_support_basic_fact_scope(self):
         candidate = hit(
-            "Minard, Charles Joseph, 1781-1870",
+            "Bernini, Gian Lorenzo, 1598-1680",
             "PersonalName",
-            birthdates=["1781"],
-            deathdates=["1870"],
-            occupations=["Civil engineers", "Cartographers"],
+            birthdates=["1598"],
+            deathdates=["1680"],
+            occupations=["Artists", "Sculptors", "Architects"],
         )
-        best, _, blocking = lcnaf.evaluate_candidates("Charles Joseph Minard", "person", [candidate])
+        best, _, blocking = lcnaf.evaluate_candidates("Gian Lorenzo Bernini", "person", [candidate])
         self.assertIsNone(blocking)
         self.assertEqual(best["match_quality"], "strong")
         self.assertTrue(lcnaf.basic_fact_scope("person", best["verified_fields"], "strong"))
