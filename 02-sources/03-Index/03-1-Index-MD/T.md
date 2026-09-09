@@ -1,0 +1,133 @@
+
+
+| Main Entry | Location | Sub-entry | Detail | Page Numbers |
+| :---- | :---- | :---- | :---- | :---- |
+| Tacca, Pietro |  |  |  | 97, 174, 178 |
+| Tacca, Pietro |  | documents relating to commissions from Paolo Giordano Orsini, Duke of Bracciano |  | 387, 389 |
+| Talbot, Bruno |  |  |  | 197 |
+| Tankerville, Lord |  |  |  | 286 |
+| Tarso, Archbishop of |  |  |  | 113 |
+| Tassi, Agostino |  |  |  | 49, 56 |
+| Tassis, Count |  |  |  | 273 |
+| Tasso, Torquato |  |  |  | 103, 318, 339 |
+| Tasso, Torquato |  | Gerusalemme Liberata |  | 335, 336 |
+| Temanza, Tommaso |  |  |  | 361n |
+| Temanza, Tommaso |  | Zibaldone |  | 165n |
+| Tencala, Cristoforo |  |  |  | 219 |
+| Teniers, David |  |  |  | 358 |
+| Teodoli, Marchese |  |  |  | 143 |
+| Tesi, Mauro |  |  |  | 358, 359, 360, 409 |
+| Tessin, Count Carl Gustav |  |  |  | 292, 293, 304 |
+| Tessin, Count Carl Gustav |  | and Tiepolo |  | 293, 342 |
+| Tessin, Count Carl Gustav |  | and A. M. Zanetti the Elder |  | 341, 342 |
+| Tessin, Nicodemus, the Younger |  |  |  | 56n, 406 |
+| Testa, Pietro |  |  |  | 95, 100n, 101n, 110, 111, 112, 114, 124, 135 |
+| Testa, Pietro |  | and Cassiano dal Pozzo |  | 110, 111, 112 |
+| Testa, Pietro |  | and Niccolò Simonelli |  | 124n |
+| Testa, Pietro |  | Trattato di Pittura |  | 112 |
+| Testi, Fulvio |  |  |  | 17n, 348 |
+| Teti, Girolamo |  |  |  | 52n, 56 |
+| Theatines |  |  |  |  |
+| Theatines |  | church in Munich |  | 193 |
+| Theatines |  | in Paris |  | 186 |
+| Theatines |  | in Rome |  | 71, 72, 76, 78 |
+| Théodon, Jean Baptiste |  |  |  | 92, 400 |
+| Théodon, Jean Baptiste |  | Faith crushing Idolatry |  | 92 |
+| Thornhill, Sir James |  |  |  | 286 |
+| Tiepolo, Giambattista |  |  |  | xvii, 192, 214, 246, 248, 250, 252, 254, 255, 256, 262, 264, 265, 266, 267, 268, 269n, 270, 271, 272, 276, 279, 293, 296, 297, 302, 309, 315, 322, 323, 332, 333, 342, 343, 344, 345, 361, 374, 376, 377, 383n, 393, 405n, 406, 409 |
+| Tiepolo, Giambattista |  | admiration for Castiglione |  | 267 |
+| Tiepolo, Giambattista |  | altarpieces for royal chapel at Aranjuez |  | 297 |
+| Tiepolo, Giambattista |  | and F. Algarotti |  | 347, 349, 351, 352, 353, 354, 355, 357, 359, 360 |
+| Tiepolo, Giambattista |  | and F. Algarotti | mutual influence | 354 |
+| Tiepolo, Giambattista |  | and F. Algarotti | unfinished portrait of Algarotti | 359 |
+| Tiepolo, Giambattista |  | and Scuola del Carmine |  | 273 |
+| Tiepolo, Giambattista |  | Apotheosis of Pisani |  | 254 |
+| Tiepolo, Giambattista |  | Banquet of Cleopatra |  | 256, 257, 298, 352, 353 |
+| Tiepolo, Giambattista |  | Banquet of Cleopatra | modello | 352, 353 |
+| Tiepolo, Giambattista |  | Banquet of Cleopatra | F. Algarotti and | 353 |
+| Tiepolo, Giambattista |  | Bath of Diana |  | 354 |
+| Tiepolo, Giambattista |  | belief in Venetian ancien régime |  | 246, 257 |
+| Tiepolo, Giambattista |  | Brutus killing Arruns |  | 252n |
+| Tiepolo, Giambattista |  | Continence of Scipio |  | 256 |
+| Tiepolo, Giambattista |  | Danaë |  | 293 |
+| Tiepolo, Giambattista |  | drawings in Pietro Monaco collection |  | 345 |
+| Tiepolo, Giambattista |  | drawings of Oriental heads |  | 260n |
+| Tiepolo, Giambattista |  | early battle scenes and triumphs from Roman history |  | 252 |
+| Tiepolo, Giambattista |  | Education of the Virgin |  | 273 |
+| Tiepolo, Giambattista |  | Family of Darius before Alexander the Great |  | 256 |
+| Tiepolo, Giambattista |  | Flora |  | 353 |
+| Tiepolo, Giambattista |  | French admirers |  | 257 |
+| Tiepolo, Giambattista |  | frescoes in Udine |  | 253 |
+| Tiepolo, Giambattista |  | frescoes and portraits for Labia family |  | 257, 262 |
+| Tiepolo, Giambattista |  | frescoes of scenes from Homer, Virgil, Tasso, and Ariosto for Valmarana family |  | 258 |
+| Tiepolo, Giambattista |  | Judgment of Solomon |  | 253 |
+| Tiepolo, Giambattista |  | Madonna del Carmelo |  | 270, 273 |
+| Tiepolo, Giambattista |  | Maecenas |  | 353 |
+| Tiepolo, Giambattista |  | Martyrdom of St John the Bishop |  | 262 |
+| Tiepolo, Giambattista |  | modello of Beheading of St John the Baptist |  | 293 |
+| Tiepolo, Giambattista |  | Neptune paying Homage to Venice |  | 246 |
+| Tiepolo, Giambattista |  | payments to |  | 273 |
+| Tiepolo, Giambattista |  | Powers of Eloquence |  | 256 |
+| Tiepolo, Giambattista |  | prices |  | 262 |
+| Tiepolo, Giambattista |  | Reception of Henri III of France by the Contarini |  | 357 |
+| Tiepolo, Giambattista |  | St Dominic instituting the Rosary |  | 271 |
+| Tiepolo, Giambattista |  | St Helen finding the True Cross |  | 271 |
+| Tiepolo, Giambattista |  | Saints Agnes, Rose and Catherine |  | 271 |
+| Tiepolo, Giambattista |  | sketch of the Rape of Ganymede |  | 377 |
+| Tiepolo, Giambattista |  | Strength protecting Wisdom |  | 254 |
+| Tiepolo, Giambattista |  | Triumph of the Arts |  | 256 |
+| Tiepolo, Giambattista |  | Triumph of the Faith |  | 272 |
+| Tiepolo, Giambattista |  | Vari Capricci |  | 344, 380 |
+| Tiepolo, Giambattista |  | views on his patrons |  | 253 |
+| Tiepolo, Giambattista |  | visit to Madrid at instigation of Venetian government |  | 246 |
+| Tiepolo, Giambattista |  | work in Palazzo Clerici, Milan |  | 273n |
+| Tiepolo, Giambattista |  | work for Corner |  | 252 |
+| Tiepolo, Giambattista |  | work for Dolfin |  | 252, 253 |
+| Tiepolo, Giambattista |  | work for Valmarana family |  | 258 |
+| Tiepolo, Giambattista |  | work in Würzburg |  | 296 |
+| Tiepolo, Giambattista |  | work in Würzburg | Apollo conducting Frederick Barbarossa's bride | 296 |
+| Tiepolo, Giambattista |  | work in Würzburg | Bishop Harold von Hocheim being invested with the princedom by the Emperor in 1163 | 296 |
+| Tiepolo, Giambattista |  | work in Würzburg | Marriage of the couple being blessed by the Bishop of Würzburg in 1156 | 296 |
+| Tiepolo, Giambattista |  | work in Würzburg | The Four Continents paying homage to Karl Philip von Greiffenklau | 296 |
+| Tiepolo, Gian Domenico |  |  |  | 253n, 323, 374, 377, 380 |
+| Tiepolo, Gian Domenico |  | drawings and scenes from rural life |  | 325 |
+| Tiepolo, Gian Domenico |  | paintings in S. Polo of Via Crucis |  | 323 |
+| Tintoretto |  |  |  | 241, 248, 313, 373 |
+| Tintoretto |  | Fortitude |  | 313 |
+| Tintoretto |  | Temperance |  | 313 |
+| Titian |  |  |  | 19, 38, 39, 54, 56, 97, 114, 128, 160, 181, 184, 192, 222, 231, 241, 262, 283, 340, 348, 354, 359, 373, 374, 401 |
+| Titian |  | Andrians, The |  | 25 |
+| Titian |  | Bacchanals |  | 171 |
+| Titian |  | Bacchus and Ariadne |  | 25 |
+| Titian |  | Holy Family with St Catherine |  | 38 |
+| Titian |  | St Peter Martyr |  | 233 |
+| Titian |  | Venus del Pardo |  | 185 |
+| Titian |  | Worship of Venus |  | 25, 105, 171 |
+| Titles granted to artists |  |  |  | 19 |
+| Tofts, Katherine |  |  |  | 302 |
+| Toni, Don Pietro Antonio |  |  |  | 345, 346 |
+| Toni, Don Pietro Antonio |  | and P. A. Novelli |  | 345 |
+| Toni, Don Pietro Antonio |  | and S. Ricci |  | 345 |
+| Toninotto, Padre Giuseppe |  |  |  | 376 |
+| Torcellan, Gianfranco |  |  |  | 394 |
+| Torelli, Felice |  |  |  | 203, 227, 348 |
+| Torelli, Felice |  | commission from Stefano Conti |  | 389 |
+| Torelli, Giacomo |  |  |  | 182, 183 |
+| Torelli, Giuseppe |  |  |  | 389 |
+| Torresani, Andrea |  |  |  | 266 |
+| Trevisani, Francesco |  |  |  | 7, 129, 164, 194, 227, 233n, 282 |
+| Trevisani, Francesco |  | portrait of Cardinal Ottoboni |  | 164n |
+| Trevisani, Francesco |  | work for Cardinal Ottoboni |  | 164 |
+| Triga, G. |  |  |  | xviii |
+| Triva, Antonio |  |  |  | 193 |
+| Tron, Caterina Dolfin |  |  |  | 318 |
+| Troy, François de |  |  |  | 285 |
+| Tubeuf, Jacques |  |  |  | 181 |
+| Tura, Cosimo |  |  |  |  |
+| Tura, Cosimo |  | Pietà |  | 382 |
+| Turchi, Alessandro |  |  |  |  |
+| Turchi, Alessandro |  | Death of Cleopatra |  | 185 |
+| Turin |  |  |  |  |
+| Turin |  | art patronage in late 17th century |  | 202 |
+| Turin |  | Venetian artists and |  | 296, 297 |
+

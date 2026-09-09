@@ -1,0 +1,251 @@
+# 13 CHP-13 intro
+
+[Page 2]
+Chapter 13
+PUBLISHERS AND CONNOISSEURS
+HERE was in Venice during the eighteenth century one section of society whose
+Tcontacts with the rest of Europe were particularly close and whose extensive patronage of the arts was correspondingly in tune with international taste. Ever since the sixteenth century book publishers had played an important rôle in the Venetian economy, and in the last hundred years of the Republic’s life great, and sometimes successful, efforts were made to uphold Venetian supremacy in this field.1 As long as criticism of the aristocratic regime was avoided, the censorship remained fairly lax: indeed, the traveller Grosley noted that ‘on imprime tous les jours, avec approbation et permission, des traductions d’ouvrages françois, qui, à Paris meme, n’osent paroître que sous une permission tacite’,2 and this helped to create an international market for Venetian books.
+We know from many travellers that the bookshops were one of the centres of cultural life where it was most possible to get in touch with Venetians.3
+Many publishers therefore wished to produce lavishly illustrated books for export, and the government encouraged this policy by enforcing advantageous copyright laws.4
+In the long run these laws, which granted twenty-year monopolies, lowered the quality of books aimed at the Venetian market, but luxury editions to tempt English, French and German amateurs greatly gained. Moreover, the increasing number of travellers to
+Venice,’ not all of whom could acquire original views of the city or employ copyists to record its main masterpieces, led to a new demand for good engraving. The best works of the early years of the new century, heralding the great revival of the ’thirties and
+’forties,are books like Carlevarijs’Le Fabriche e Vedute di Venetia (1703) or II Gran Teatro delle Pitture e Prospettive di Venezia, published in 1720 by Domenico Lovisa with drawings of famous monuments and pictures by a number of artists, including the young Tiepolo. Both of these publications were designed for travellers, as were Marieschi’s views of 1741 which so appealed to Fragonard on his visit to Venice many years later.5 In fact, for the first time for two or three hundred years many of the leading artists of the day devoted much of their labour and talents to book illustrating. And because of the very different market at which they were aiming and the’limitations of size and technique, they often produced work which seems wholly out of character with their more familiar large-scale painting.
+
+[Page 333]
+To understand the part played by publishers in this new source of patronage four ventures, closely related but not identical, must be distinguished. In the first place draughtsmen and engravers, or sometimes merely engravers, might reproduce wellestablished masterpieces of Venetian art. Such was the book sponsored by Domenico
+Lovisa. This practice naturally continued throughout the eighteenth century as it had in the past, but it is of little direct relevance to the history of patronage. Secondly, leading contemporary painters sometimes produced pictures whose primary purpose was to be reproduced by some engraver. Thirdly, and far more frequently, artists produced drawings designed to be engraved as bookillustrations. And fourthly a number of artists produced their own engravings.
+It is evident that the expense and authority required to persuade an artist of the stature of Tiepolo or Piazzetta to produce paintings or drawings designed for reproduction could not be borne by the engraver himself. A well-established publisher was essential. Such publishers always owned their own shops, and, in the more important cases, their own printing works. They dealt either in sets of loose prints or in illustrated books. In either case they employed the print makers and commissioned drawings or sometimes paintings from the artists they found suitable. In this way they were considerable patrons in their own right; but often, especially when the venture was an expensive one, they themselves depended on patronage to make it possible; and the list of subscribers and the dedications in their books can tell us much about the market they aimed at.
+Two broad categories of illustrated books were published in Venice during the eighteenth century. There were, first, the innumerable collections of poems and eulogies brought out to commemorate specific ceremonies involving the nobility—a processional taking up of office, a marriage, the entry of a young girl into a convent and other occasions of the same kind. These might be little more than the briefest pamphlets with the title page decorated with an elaborate frieze, though frequently there were also full-page illustrations. Such pamphlets were commissioned from the publisher with instructions as to their make-up. ‘The paper must be of excellent quality,’ wrote
+Caterina Barbarigo in 1765 through her agent Gaspara Gozzi,1 ‘the characters good and well laid-out; no frieze of engravings, but rather a pretty title page, some handsome heads of pages and a few attractive end plates where convenient. The family arms must be intertwined with those of the Zorzi.... The book must have 24 pages .. . and 500 copies'must be printed.’ These collections, which were the plague of Venetian poets who were required to contribute verses and the mainstay of many fine artists, were enormously popular with the public. ‘Bundles of them are sent round, like baskets of flowers or sweetmeats, to guests, parents and friends. And the books meet just the same fate. They are fingered by the butler and the servants; they fall to pieces within a day; and whereas flowers can be smelt and sweets have at any rate some taste, no one at all reads these verses. All the same at the very first wedding new collections turn up, and a woman would not think herself well married if she did not have a trousseau of verses.
+
+[Page 334]
+I suspect that she insists on it in the marriage contract.... everyone cornplains about the abuse; everyone wants it.’1 And the practice could be expensive. One noble said that he had spent a thousand ducats on such a collection, and here Saverio Bettinelli exploded:
+‘I have never seen a scientific or important book more luxuriously produced. Print and paper of the finest quality, vignettes and endpapers by the best engravers, with the lightest and most costly and delicately printed frames on every page. So that the most wretched sonnet is sometimes more elegantly produced than was ever any ode of
+Horace or psalm of David.’ But despite an element of truth in this outburst, it was for the second class of illustrated books, which consisted of fine editions of modern and especially ancient authors, that many of the most striking designs were produced.
+Three publishers stand out above all the others for the enterprise and quality of their patronage—Giambattista Albrizzi, Giambattista Pasquali and Antonio Zatta.
+Albrizzi was a notable collector of contemporary pictures as welT as the publisher of some of the most finely produced books of the century. He was born in 1699 and inherited a flourishing concern from his father.2 In his youth he travelled widely, especially in Germany and Austria with which he maintained close links. Indeed, he sent his son to be educated in Vienna.3 He was always keenly interested in the foreign market and one of his most popular books was a guide to Venice II Forestiere Illuminate which he first brought out in 1737 with a dedication to the Elector of Saxony. Albrizzi also played a fairly prominent part in the intellectual life of Venice. His brother Almord organised a society, the Accademia Albrizziana, which concerned itself with literary and scientific phenomena,4 and he himself edited a weekly bulletin, the Novelle della
+Repubblica delle Lettere, which commented on and reviewed the latest books published all over Europe.5 From the advertisements and dedications in this journal and elsewhere we derive the impression that Albrizzi was a devout and militant Catholic in close touch with clerical circles and many of the great aristocratic famflies, especially the
+Pisani. He figured prominently among the members of the Scuola di S. Rocco, of which he became Guardiano in his old age. All these connections are stressed in the choice and style of his publications.
+In 1736 he began to bring out a complete edition in French of the works of Bossuet, each volume of which was dedicated to a member of the Austrian royal family. The revived interest in Bossuet at this time was directly concerned with the increasing spread of heretical opinions throughout Europe,6 and by printing the works in the original French, Albrizzi was clearly hoping to reach a wide international public. But for us the main interest of this splendid publication is that in it for the first time Albrizzi employed Piazzetta as his illustrator. He had for some years been planning to revive
+‘the reputation of Venetian prints, which has in the past understandably fallen in the
+
+[Page 335]
+eyes not only of our own writers, but in those of foreigners also’.1 This book gave him a wonderful opportunity to achieve his aim. Thereafter the two men were so intimately linked in friendship as well as in business partnership that Albrizzi eventually had the artist buried in his own family vault. Albrizzi had not discovered Piazzetta as an illustrator—twelve years before their first enterprise together the artist had already produced a frontispiece for a devotional book published by Recurti with whom Albrizzi maintained close relations2—but for many years he enjoyed an almost complete monopoly of Piazzetta’s work in this field and their co-operation left its mark on all his most splendid editions. For the worldly publisher with his wide international contacts the solitary and painstaking artist produced a series of illustrations quite unlike the rest of his work. Long before he painted his first tentative arcadian rococo pictures and at a time when he was mainly concerned to produce exalted religious altarpieces, Piazzetta began drawing for Albrizzi’s Bossuet a series of vignettes and illustrations of a delicate fantasy that were as new to Venetian books as they were to him. Views, landscapes, small genre scenes and frankly irrelevant Chinoiserie and putti, quite apart from the more familiar religious imagery and hieratic portraits, helped to make digestible the thundering tomes of Bossuet for the archbishops and rich monasteries of Central
+Europe. The book set a pattern for their future ventures, and in general Albrizzi’s editions are characterised by an opulent, aristocratic elegance, often tinged with melancholy, and weighty even at its most frivolous, that sets them apart from other publications.
+Albrizzi’s patronage of Piazzetta reached its climax in the most famous of all
+Venetian eighteenth-century books—the Gerusalemme Liberata which he brought out in 1745 (Plate 57a). Like most of his enterprises this too was designed for an international public. It was dedicated to the Empress Maria Teresa, whose taste for the luxurious is well attested by the decorations carried out during her rule at Schonbrunn, and the list of subscribers provides a glittering series of names from all over Europe as well as the more familiar connoisseurs and artists in Venice itself such as Marshal Schulenburg and
+Consul Smith, Rosalba Camera and Pellegrini. For this book Piazzetta produced some seventy drawings?; the dramatic ones show that inability to tell an heroic story which is apparent in many of his paintings, but the pastoral compositions with their elegantly posed shepherds and other country-folk about their ordinary pursuits have some of the quality of Boucher, though Piazzetta’s world is much less artificial. The book was in fact a" success in France. It was much admired by the Abbé Richard,4 and it inspired
+For Albrizzi’s relations with Recurti, another religiously minded publisher, see the Novelle (passim).
+Richard, H, p. 492—quoted by Morazzoni, p. 125.
+
+[Page 336]
+Francesco Gerbault, Louis XV’s interpreter of Spanish and Italian, to issue an invitation for subscriptions for an equally sumptuous edition of the Orlando Furioso—a project that came to nothing.1 Indeed, on other occasions when working for Albrizzi, Piazzetta himself could achieve an entirely French sophistication as he showed in 1747 when designing a frontispiece for the most unpromising of books, Platnerus’ Institutiones
+Chirurgicae. Meanwhile in Venice the Guardi brothers plagiarised his illustrations for the
+Gerusalemme Liberata in a series of large decorative canvases depicting scenes from the poem.2
+Albrizzi was well aware of the debt that he owed to his friend. After Piazzetta’s death in 1754 he published an account of his Use as the preface to a collection of the artist’s academic drawings and he did everything he could to keep his memory alive.
+But he also employed a number of other illustrators on his books. Pietro Antonio
+Novelli, Giuseppe Zais and Alessandro Longhi all provided occasional drawings for the firm,3 and his shop became one of the most flourishing artistic centres in Venice, as
+Robert Adam realised when he passed through in 1761 and entrusted Albrizzi with the sale of his book on Diocletian’s palace.4
+Besides employing artists for commercial purposes Albrizzi was keen to build up a private collection for himself. He owned several hundred drawings and many paintings by Piazzetta, including a Sacrifice of Iphigenia of which he was particularly proud,5 and he was a special admirer of Rosalba Carriera. Above all he patronised the landscape artists Francesco Zuccarelli and die strangely neglected Zais for whom he had a high regard.6 When in 1770 he was Guardiano of the Scuola di S. Rocco, he took two of that artist’s pictures to the exhibition on 16 August, but his attempts to help the povertystricken painter met with little response. In 1777 this generous publisher died at the age of 85 after a successful Use as one of the most influential patrons of the century... Giambattista Pasquali also produced many fine and luxurious books, but his outlook was very different from that of Albrizzi. He was a vigorous man of independent opinions, the friend of non-conforming spirits, such as Angelo Querini, Carlo Antonio
+Pilati and Francesco Albergati-Capacelli.7 ‘They are complete opposites,’ wrote a forthright friend of both men in 1749,8 ‘Albrizzi is incapable, timid to a degree and lacks strong support. Pasquali is shrewd, powerfully backed and gives the impression of
+
+[Page 337]
+succeeding in the affairs that interest him... . .' Pasquali worshipped Carlo Lodoli,1 and he chased under the censorship, which, he implied in a letter to a bookseller in Prato, prevented him publishing what he wanted.2 From time to time he was prepared to take the law into his own hands: in 1764 he got into trouble with the Inquisitori di Stato for secretly distributing copies of Beccaria’s forbidden Dei delitti e delle pene', but he was no martyr and under pressure he revealed the names of all the clients to whom he had sold the book.3 He showed little interest in producing elegant pamphlets for aristocratic ceremonies, and in his general outlook he was guided by his patron Joseph Smith, who retained a controlling interest in the firm—it is significant that one of the first books produced by Pasquali was an English grammar.4 It was naturally Pasquali who published the fine illustrated books which recorded some of the treasures in Smith’s collection— his paintings by Cignani and Ricci in 1749, and eighteen years later the Dactylografa
+Smithiana. This contained 100 plates engraved by Brustolon, mostly in a severely neoclassical style, illustrating Smith’s medals and gems, and it was clearly influenced by
+Albrizzi’s publication a few years earlier of the gems in A. M. Zanetti’s collection. But the general presentation is far simpler with none of the rich and elaborate decoration of that book, and the text—printed in Latin only—is aimed at a more scholarly public.
+The only concession to the more painterly. Baroque style is an endplate of Perseus and the Head of Medusa, engraved by Brustolon from a drawing by Pietro Antonio Novelli, an artist almost as closely associated with Pasquali as Piazzetta was with Albrizzi.
+On one occasion Pasquali too employed Piazzetta to provide illustrations for a religious work, the Beatae Mariae Virginis Officium, published in 1740 with plates of great religious intimacy.5 But this little book was especially commissioned and financed by à rich merchant called Caime and it stands out from the general run of Pasquali’s pubUcations. His most enterprising venture was the seventeen-volume edition of the works of Goldoni, which began to appear in 1761. This was produced in the closest collaboration with the author, and was designed to mark a new departure in book illustration. Until now, complained Goldoni,6 his works had been produced in a style that could only be described as ‘commercial’. Paper and printing had been economised to a degree that would discredit the best book in the world. Now all this was to change.
+Much more attention was to be paid to paper, to printing, to illustration. It was true that this would mean a more expensive book, but ‘My dear friend, I reply, surely you
+- too like an elegant, clean and well adorned page’. In fact, despite the tone of these remarks, Pasquali’s edition of Goldoni was not designed as a luxurious enterprise.
+
+[Page 338]
+There was no list of subscribers, and the volumes were aimed at a wide general public.
+For the illustrations Pasquali employed the young Pietro Antonio Novelli, who was just beginning to acquire a reputation. Over a hundred drawings were required and these were reproduced by various engravers.
+Goldoni himself explained the novelty of the undertaking. He was tired of the général run of frontispieces with their Muses, Apollos, Masks, Satyrs, Apes and so on, which were now so common that artists could not think of any new way of treating them. In any case such generalised symbols no longer attracted the interest of the public. And so ‘from that love of novelty which has always been my aim’ he proposed that the frontispiece to each volume should represent a scene from his own life.1 Thus we come across him as a young boy of nine, writing his first comedy to the delighted surprise of his parents; brilliantly passing his Latin exams at school in Perugia (Plate
+57b); acting his first rôle in the theatre, dressed as an old woman—and so on through a whole sequence of illustrated biography. The intimacy of these drawings and the idea of taking the public into his confidence in this way affected the plates that Novelli designed to illustrate the plays themselves. The scene is set in the prosperous but relatively simple world of the rich professional classes of mid-eighteenth-century Venice, and from no other source—certainly not from the pictures of Pietro Longhi—can we get such a vivid impression of the period. The quality of the drawings, which are of great delicacy and refinement, justify Goldoni’s enthusiasm. As in most of Pasquah’s books, which were aimed at the very same sort of public as that illustrated in Novelli’s drawings, there is a complete lack of the pomp that characterises Albrizzi’s pubheations. His were the ideals of that enlightened bourgeoisie in whose suture so many hopes were placed all over Europe. He brought experimental science within its reach through his wittily illustrated translations of the latest works by the Abbé Nollet in Paris; he dedicated his edition of Vignola to the ‘rinomatissimo Padre Carlo Lodoli, Professore celeberrimo d’Arti e Scienze’, and later we find him supporting Visentini’s attack on
+Baroque architecture. Among the publishers of sumptuous books his was certainly the most ‘enlightened’ voice in Venice.
+The third of the greater Venetian publishers, Antonio Zatta, was also a controversial figure in the political field. He took a combative part in the storms that raged about the
+Jesuits, whose side he strongly supported.2 This made him unpopular with the authorities, who were often antagonistic to the Society and who were at all times anxious to damp down any religious disputes. On two or three occasions Zatta actually ran into trouble with the Inquisitori for proposing to publish attacks by the Jesuits on their principal enemies at home and abroad—the local-Dominicans and the Portuguese
+
+[Page 339]
+government1—and he himself was said by contemporaries to be a lay member of the
+Society.2 But as a private individual he emerges far more indistinctly from the past than do the other two men. He seems to have played little part in social Use, and there are no traces of his activities in the writings of others. His own prefaces are usually vivid, and show him to have been a man of enterprise, intelligence and sometimes trenchant wit. He once mocked his enemies for finding Jesuits everywhere and parodied their pedantic efforts to give heavy symbolical interpretations to merely decorative ornament:
+the vignette on one of his books, writes an indignant ‘Segretario dell’Accademia dei
+Cacadubbj’, must clearly be an attack on the Jesuits. It shows a fountain supported by a dolphin. The dolphin, which lures fish into nets, is treacherous and therefore represents the Jesuits, and the basin of water obviously depicts the accommodating nature of
+Venetian morals.. .,3 A glance at his catalogues shows that Zatta was the most prolific publisher in eighteenth-century Venice.4 He did not promote illustrated books much before the second half of the century, but thereafter he ranged widely. Apart from ceremonial pamphlets, his most important contribution lay in the elegant production of well-established Italian classics—Petrarch in 1756, Dante in 1757, and some years later Ariosto, Tasso and Metastasio. Zatta was indeed a passionate supporter of Dante when such views were unfashionable, and the illustrated edition that he sponsored was the first to appear for two centuries. The strain of coping with mediaeval iconography proved a difficult one for the two artists who especially worked for him, Francesco
+Fontebasso and Gaetano Zompini, and the results, though often engaging, hardly contribute much to an interpretation of the poem. Much more satisfactory are Novelli’s illustrations for the works of Metastasio which began to appear in 1781, and which show clear signs of heralding the Romantic movement.5 Seven years later the same artist produced a second set of drawings for a complete edition of Goldoni, and this time he placed the comedies in a far lower social world than he had done when working earlier for Pasquali.
+Many other publishers besides Albrizzi, Pasquali and Zatta produced fine illustrated books, but on the whole they failed to influence artistic output in the striking way achieved by their more important colleagues and they cannot therefore be discussed here. On the other hand the publisher Maffeo Pinelli, who during the eighteenth century was mostly engaged in turning out books for the State of no artistic interest, was a private collector and patron on a large scale. Though he is best known for his library, one of the most famous in Europe, he also owned many hundred pictures.8
+
+[Page 340]
+He was born in 1735 and soon acquired a great reputation for learning. There is indeed about his collection a certain element of scholarly completeness and eclecticism which suggests that he too, following in the footsteps of Lodoli and others, was interested in the historical approach to art: but his real enthusiasm seems to have been for the sixteenth century. Pictures attributed to Giorgione, Bassano, Veronese and Titian, as well as others by Palma Giovane, Padovanino and Pietro della Vecchia, figure very strongly in his collection. Most of the artists of his own century were also well represented—Tiepolo with four pictures—and the painter with whom he was most in touch was a late and second-hand follower of Piazzetta, Francesco Maggiotto. He painted for
+Pinelli a series of portraits of all the Doges (Plate 68a), Venetian Popes and Cardinals, as well as allegories of Good Inclinations leading a Youth to Knowledge, and the Arts of
+Painting, Typography, Diplomacy and Numismatics. After Pinelli’s death in 1785 both his library and picture collection were dispersed, to the great distress of many contemporaries.1
+Print sellers too were often important art patrons and among these the most conspicuous was the firm of Remondini which was established at Bassano, but which had a branch in Venice.2 The Remondini also published books, but the main activity
+. of the firm lay in issuing separate prints. On the whole their market was restricted to a very different public from that of the great enterprises that have been discussed so far.
+They specialised in cheap romantic novels and in devotional prints to be hung up in peasants’ houses; but towards the middle of the eighteenth century they greatly expanded and began to acquire an international clientèle. This brought them into rivalry with the more established institutions which greeted their appearance on the scene with bitter hostility, the more so as the Remondini had few scruples about producing facsimiles of other publications at much reduced prices. As the firm grew richer it was able to employ not only some of the best printers but also many leading artists to produce paintings and drawings for extensive reproduction. Piazzetta, Amigoni, Guarana and, above all, Pietro Longhi were popularised by the Remondini in this way.3
+Other particularly important printsellers were the German Joseph Wagner, who opened a shop in 1742, which was of the utmost significance.to printers, though he seems to have commissioned little original work from other artists4; Teodoro Viero, himself a printer, who opened a shop in 1754 to which the same applies5; and Lodovico Furnaletto, who was a dealer in prints with no claims to practice the art himself. Furnaletto
+' was established for more than thirty years on the Ponte de’Baretteri; his most significant gesture was the commissioning in 1766 of twelve drawings by Canaletto, representing the principal Ducal ceremonies, to be engraved by Brustolon.
+Rava, 1911.
+
+[Page 341]
+Around these printsellers and publishers was grouped a number.of men who sometimes dabbled in both activities, and whose patronage was very important in diversifying the Venetian scene. By far the most interesting was Antonio Maria Zanetti the Elder (Plate 58a).1 He was himself a draughtsman and engraver of talent as well as an influential collector, and he lived in the very centre of that cosmopolitan world of connoisseurs that was so characteristic of Venice in the first part of the century. He was born in 1679, and studied painting in Venice and later Bologna. Early in the eighteenth century he was already in contact with most of the leading artists, above all Sebastiano and Marco Ricci (whose particular friend he was)2 and Rosalba Carriera, ani he soon became known as one of the chief connoisseurs and collectors, especially of gems. When
+Crozat came to Venice in 1716, he formed a close friendship with Zanetti, who in turn set out for Paris in 1720 after passing through Rotterdam. He stayed in Paris at the same time as his friend Rosalba Carriera and her brother-in-law Giovanni Antonio Pellegrini, and he shared the welcome that they received from the connoisseurs of the city. He met
+Mariette, with whom he corresponded to the end of his life,3 and he was introduced to the Regent, who entrusted him with the purchase of pictures for his gallery and sent him his own indecent illustrations for an edition of Daphnis and Chloe. From Paris he went to London, where he visited the leading collectors and where he succeeded in buying Lord Arundel’s Parmigianino drawings which were to exert great influence on his taste. Soon after his return to Venice in 1722 he seems to have gone to Vienna, and he certainly returned there in 1736. On this visit he bought pictures from the heirs of
+Prince Eugene—among them a Poussin, a Castiglione, and a pastoral by Crespi, ‘one of the finest things he ever painted’.4
+In Venice itself Zanetti was in touch with Joseph Smith and Schulenburg, the two leading foreign collectors, as well as with virtually all the principal artists for whom he sometimes acted as agent. Among foreign visitors the Swedish Count Tessin was his especial friend. Tessin had a particular fondness for the rococo and the lighthearted—
+‘peu d’anciens, mais l’élite des modernes et tous sujets gracieux et rians’—and he made
+
+[Page 342]
+use of Zanetti’s taste and scholarship to increase his own collections.1 He sent him a young protégé for instruction: ‘il s’agit de l’employer d’abord selon ses talens, et de Luy faire gagner l’argent des Ignorants, jusqu’à ce qu’il soit en état de travailler pour les Connoisseurs’, but the unfortunate young man died almost immediately.2 Through Zanetti
+Tessin sent friendly messages to Tiepolo, hoping that the painter had not been offended by the King of Sweden’s refusal to pay the exorbitant sum required to lure him to
+Stockholm.3 Tessin also bought from Zanetti pictures by Zuccarelli and Nogari, as well as prints by G. M. Crespi, and used his good offices to commission a figure by the sculptor Gai, whom he considered to be ‘un demi-Michel Ange’. The figure was, characteristically enough, to represent ‘une Venus sortant des Bains pour figurer avec une Bathsheba de Giovanni da Bologna qui m’appartient’.4
+It is thus clear that Zanetti frequently acted as an intermediary between Venice and the rest of Europe. But his actual collections reflected very little interest in contemporary art outside his own city. He owned pictures by the German artists Brand and Dietrich, but thereis no evidence to showthat he ever bought modern French or English paintings, drawings or prints, though some of the older works that he acquired in those countries were of great significance and proved influential in the development of his taste.
+Besides three history paintings by Sebastiano and half a dozen landscapes which he commissioned from Marco Ricci, he also owned pastels and miniatures by Rosalba
+Camera and was a keen admirer of Canaletto and Zuccarelli at the very beginning of their careers. More important, for their novelty, were the medals and gems that he brought back from London, Paris, Rotterdam and Vienna, and above all his large collection of prints.5 '
+This collection was the source of endless pride to him. ‘With the greatest effort and expense’, he wrote with some complacency in 1752,6 ‘I have assembled a collection of prints in Italy and on my travels which exceeds anything that might be expected of a private citizen. Indeed I can hope to be able to show you any rare print by any artist you ask for, except the dish engraved with a Bacchanal by Annibale7 and the lascivious
+
+[Page 343]
+prints of Giulio Romano engraved by Marc’Antonio with Aretino’s.sonnets. I have never seen these in all my life—either in Italy, or in Holland, France or England. At various times I have owned a number of copies of some print; but for me it is enough to have a single fine copy—for I am not one of those collectors who make a great flourish and boast of having three or four or even more copies of a rare print. And so, when I have owned several different examples of one, even a rare one, I have taken little account of it. And for one little print missing from my collection which I have been unable to buy I have often given all the spare copies I have owned. And to tell you the truth I have frequently made mad exchanges of this kind.’ ' -
+Yet although completeness was his principal aim, he did show certain preferences
+—above all for those Mannerist and ‘picturesque’ works which bore the closest resemblance to the rococo: Ugo da Carpi and Parmigianino whom he had engraved by
+Faldoni; Rembrandtand Callot whomhe bought on his foreign travels; and Castiglione, twelve of whose drawings he himself engraved in 1759.1 ‘There are people’, wrote his namesake the younger A. M. Zanetti,2 ‘who like prints engraved with great speed and liveliness and with broad strokes. Such people are artists and, with them, those collectors who are held to be perfect connoisseurs. On the other hand the general public likes carefully finished prints, and especially those with strong contrasts of light and shade, which strike the imagination at first sight.’ There can be no doubt that Zanetti belonged in the first of these two groups.
+Zanetti himself considered that his most important achievement was his rediscovery of the process for making chiaroscuro woodcuts in three or four different colours. He - revived this technique, which had been familiar to sixteenth-century artists, during his " stay in London, and he produced about fifty cuts in all, mostly copied or adapted from his Parmigianino drawings. He then destroyed the plates and dedicated the set as a whole to the Prince of Liechtenstein, while individual sheets were dedicated to English, French and Venetian friends.3 As works of art these are not very attractive, but they are important because they reflect so faithfully that combination of the scholarly and the fanciful which was such a feature of Zanetti’s taste and that of similar amateurs elsewhere in
+Europe. For these men the rococo and the neo-classical were not in conflict. Zanetti, had a passion for antiquity, but he was just as enthusiastic about the etchings of Tiepolo - which he was the first to publish4: they are ‘of a lively and extremely spirited taste and worthy of the highest praise’. Francesco Algarotti was one of the last men to retain this synthesis of opposing styles, but being of a more theoretical cast of mind, he was more worried by apparent contradictions in his taste. Zanetti felt no such qualms.
+His most important work, Delle Antiche Statue Greche e Romane, was begun in 1725, though it was only published fifteen years later (by Albrizzi). In it Zanetti subordinated
+
+[Page 344]
+fantasy to the exigencies of scholarship, and his plates mark an important stage in the arrival of neo-classical taste in Venice. Nine years later, in 1749, he showed still further awareness of these tendencies in the illustrations which he provided for the catalogue of his own collection of-gems and medals—Dactyliotheca Ant. M. Zanetti, for which Albrizzi was, after some hesitation, again chosen as publisher.1 The famous Florentine antiquary
+Francesco Gori wrote a Latin commentary, but a more general public was kept in mind and an Italian translation was provided. A suitable foreigner to whom to dedicate the book was searched for, first the King of Poland, and then the Queen of Sweden, who was eventually chosen. Though Zanetti wrote that he had produced the book to please his friends and especially ‘those foreigners who were unable to come to Venice to see his medals’, there can be little doubt that the magnificent volume, which was published at his own expense, was partly designed as an exceedingly luxurious sale catalogue, thus justifying the Abbé Clement’s description of Zanetti as ‘fameux amateur, et un peu marchand d’antiques... .'?
+Zanetti himself used to paint for his own pleasure,3 and he drew some lively caricatures of the leading operatic figures of the day.4 Combined with his revival of wood chiaroscuro and the many prints that he engraved at different periods of his life, these habits gave him considerable insight into the processes of more genuinely creative artists. It was claimed at the end of the eighteenth century that Rosalba Camera had learnt much from him5; and it is easy enough to see what an important figure he must have been for the Tiepolo of the Vari Capriccj. But as a patron Zanetti is of real significance chiefly for his employment of Gaetano Zompini, whom he took into his house and provided with a regular allowance. Zompini engraved a series of Castiglione drawings belonging to Zanetti, and in 1753 he made the drawings for his masterpiece
+Le Arti che vanno per via nella Città di Venezia, the most serious attempt of any Venetian artist to break new ground in his subject-matter and a genuinely moving and convincing survey of the life of the tradesmen and the poor in a city celebrated chiefly for its wealth and frivolity.7
+Zanetti’s rôle was thus important, but instead of being one among many, as he would have been had he lived in Paris, he was alone. ‘Every day I realise more’, he wrote as early as 1752,8 ‘that there are no more amateurs or patrons here in Italy who are interested in the fine arts. And the few that there are turn over each zecchino two
+Zanetti also employed Rosalba’s pupil Félicita Sartori as an engraver and owned a large collection of her work—see Memorie, published 1843, and referred to in note 1, p. 276.
+
+[Page 57]
+SN
+OIT
+ARTS
+ULLI
+KO
+OB
+NAITE
+NE
+Vloo hcs ta smax e nitaL sih ses sa p ino dlo
+G:illevo
+N.b
+—izzirblA rehsilbup sih dna tsitra eht fo stiartroP
+:
+attezzai
+P„ yb dehsilbup skrow sih fo
+
+[Page 58]
+)95 dna
+ecnerolF
+
+[Page 59]
+rerroC
+orodoeT
+:
+illetsa
+C
+onidranre
+B.b
+rejawS
+oedamA
+:avona
+C
+
+[Page 60]
+G. Volpato: Mourners at tomb of Francesco Algarotti in Pisa
+
+[Page 345]
+or three times before being ready to spend it on that sort of thing... . .’ The situation was Venetian rather than Italian, but when Zanetti died in 1767 at the age of 89 his words were even truer.
+He was outlived by his identically named younger cousin with whom he had collaborated on his two main books. Antonio Maria the Younger was, however, an extremely perceptive critic rather than a patron or connoisseur. His own drawings and prints were limited to copies of some of the great classic artists which he published as
+Varíe Pitture a Fresco in 1760, and though mention must be made of his admirable revision of Boschini’s Ricche Miniere edited in 1733 with a friendly dedication to his elder cousin and his own Della Pittura Veneziana of 1771, he played little part in contemporary artistic Use. But his taste and scholarship were put to practical use and he was made responsible for preventing the export of the great masterpieces of the past.
+On a much lower level, but still recognisably within the same world, was the engraver Pietro Monaco, who in 1743 published a collection of fifty-five prints taken from religious pictures mostly in Venetian private collections. Later editions in 1763 and then in 1779, posthumously published by Viero, brought the number of plates up to
+112? Of the contemporary works reproduced a strikingly high proportion belonged to
+Monaco himself: eight drawings by Tiepolo, nine paintings by Pittoni, and one each by Zais, Piazzetta and Nazari. Such a collection might well suggest that Monaco was a patron similar to Albrizzi or Zanetti. In fact, he was almost certainly using the plates to advertise his activities as a dealer, of which we know from a letter written in 1763 to
+John Strange enclosing a list of seventeen pictures ‘singolari e scielti’ which he owned and was anxious to sell.2
+And we can penetrate still further into this world of connoisseurs. There was, for instance, the priest Don Pietro Antonio Toni, who was born near Modena in 1692 and who settled in Venice thirty years later.3 Though he was desperately short of money, he was a keen collector, and through his friendship with all the leading artists of the day he was able to amass a number of prints. His closest friend was Sebastiano Ricci whom he cared for during an illness and who in return gave him engravings after his works and a modello of an Adoration of the Magi. In happier moments he would gamble on Ricci’s behalf, for the painter was something of a ‘voyeur’ in this respect and preferred to watch others rather than take part himself. Toni was also in close touch with Pittoni, and above all he acted as adviser and patron to his special protege the young Pietro Antonio
+Novelli to whom he left his collections when he died in 1748. Toni was a learned man, and the discussions he had with Novelli and the explanations he gave of the pictures that they visited together may have played their part in bringing out the pedantry that was to be such a feature of that artist’s later years. He was also a dealer, and he acted as
+This was written in 1790, but internal evidence makes it clear that it was sketched out by 1762.
+
+[Page 346]
+agent for many far more important collectors than himself, such as Zaccaria Sagredo,
+Zanetti, Consul Smith and various foreign visitors.
+With Toni as guide we can descend yet another stage into the flourishing and parasitic art world of Venice, and follow him to a stall in the Merceria where he would go and buy prints from the hunchback Leonardo Pasquetti. And after that we finally
+- reach anonymity and silence.
+
+**Footnotes:**
+1 For a general survey of the whole field, reproducing many of the most important documents, see Horatio Brown.
+2 Quoted by M. Berengo, 1957, p. 1322.
+3 See, for instance, the comments of J. G. Goethe, I, p. 38.
+4 Berengo, 1957, and Morazzoni. See also Gallo, 1948, pp. 153-214. It should be noted that Marin, Vin, p. 234, challenges the optimistic view generally given of eighteenth-century engraving in Venice.
+5 Morazzoni, p. 70.
+1 Roberti, 1900, pp. 3 26-3 5.
+1 Bettinelli: Lettere inglesi—letters seconds.
+2 Morazzoni, p. 131.
+3 This seems clear from the dedication of the eighth volume of the Bossuet in 1755.
+4 Battagia, p. 76.
+6 The Novelle della Repubblica delle Lettere was published as from 1729.
+6 Hazard, 1946,1, pp. 105-7 and note.
+1 From an advertisement in the Novelle of 19 March 1730 for a proposed edition of the works of St Augustine.
+2 The book was Padre Antonio da Venezia: La Chiesa di Gesù Cristo vendicata ne' suoi contrasegni e ne' suoi dogmi, for which Piazzetta drew Religion trampling on Heresy engraved by Pitteri—see Gallo, 1948, p. 176, note 4.
+3 The drawings originally belonged to Albrizzi himself. They were at one time in England and are now in the Royal Library, Turin.
+1 Hofer, p. 37.
+2 These paintings are divided between the museums of Washington, Copenhagen and Hull and . private collections in London.
+3 Morazzoni.
+4 G. A. Moschini, 1809, p. 5, and Gradenigo, p. 71.
+5 [G. B. Albrizzi] : Memorie.
+6 G. A. Moschini, 1815,1, p. xv. See the same writer, 1806, HI, p. 49, and 1924, p. 82, for references to Albrizzi’s vast collection of prints. I have unfortunately been unable to trace the catalogue of these which was made by Pietro Brandolese.
+7 Morazzoni, p. 117.
+8 Letter from P. E. Gherardi to L. A. Muratori of 12 July 1749 in the Biblioteca Estense, Modena: ... Il Pasquali è il rovescio dell’Albrizzi. Questo incauto e pauroso di soverchio, e privo di forti appoggi; quegli accorto, ben appoggiato, e che ha maniera di riuscir negli affari di suo intéresse.....’
+1 [Andrea Memmo], 1786, p. 45. We know that Lodoli, who was Revisore della Stampa, had a great influence on publishers and booksellers (see Conti’s letter to Vico of 1728. published by Fisch and Bergin, p. 184) and it is reasonable to assume that Pasquali paid a good deal of attention to his advice.
+2 See his letter of 7 January 1785/6 to the Prato bookseller Niccola Mazzoni published by Nuti, 1941, p. 199: ‘La Toscana è felice per un altro conto giacchè non si censura i libri come qui, e si puo stampare quello si vuole... . .’
+3 Archivio di Stato, Venice—Inquisitori di Stato, 537, p. Z2v, 27 Agosto 1764.
+4 Novelle della Repubblica delle Lettere, 8 Settembre 1736.
+5 Morazzoni, p. 116.
+6 Delle Commedie di Carlo Goldoni avvocato veneto, Vol. I, 1761—L’Autore a chi legge, pp. v and vi.
+1 Delle Commedie di Carlo Goldoni avvocato veneto, Vol. H, 1762, p. 1.
+2 See Lettera del Magnifico Signor Antonio Zatta a Sua Eccellenza il Signor Duca di... . In Fiorenza [in fact, Venice], 1761, and also Lettera Giustificativa di Antonio Zatta, Venezia, 1761. Because of Zatta’s sarcasm and devious way of conducting an argument there has hitherto been some controversy about his position in relation to the Jesuits. The material published here makes it clear beyond doubt that he strongly supported them.
+1 Archi vio di Stato, Venice—Inquisitori di Stato, 535, p. 173, 18 Giugno 1759, and 536, p. 4IV,
+19 Novembre 17Ó0.
+2 ‘. . . terziario, a quel die pare, dei Gesuiti,’ wrote Giovanni de Cattaneo of him, and ‘le fameux Zatta, imprimeur de la Société, et Jésuite du Tiers Ordre,’ said the Nouvelles Ecclésiastiques—Neri, 1899, pp. 109 and 114.
+3 Lettera del Magnifico Signor Antonio Zatta (see p. 338, note 2), p. 23.
+4 Catalogo di Libri latini c italiani che trovansi vendibili nel negozio di Antonio Zatta efigli Libraj Stampatori in Venezia, 1790. 5 G. da Venezia, 1934, pp. 25-34.
+8 Catalogo di quadri raccolti dal fu Signor Maffeo Pinelli ed ora posti in vendita in Venezia, 1785. Sec also G. A. Moschini, 1806, II, p. 64.
+1 Morelli, V, p. 348.
+2 Bercngo, 1957, and also Mostra dei Remondini, 1958. "
+3 See the seven letters from Pietro Longhi to Remondini between 1748 and 1752 published by A.
+4 G. A. Moschini, 1924, p. 132.
+5 Gallo, 1948, p. 184, and G. A. Moschini, 1924, p. 132.
+6 Gallo, 1948, pp. 158 and 186.
+1 See especially G. Lorenzetti, 1917, and F. Borroni.
+2 Marco Ricci, who painted six pictures for Zanetti, wrote of him in 1723 as ‘mio amico oltre misura’—Bottari, II, pp. 128-30. Zanetti helped to get Marco Ricci commissions from other patrons such as Federico Correr—Lorenzetti, 1917, p. 138.
+3 Mariette wrote a charming account of Zanetti in his Ahecedario, and Zanetti, in his will, left the French connoisseur a pastel by Rosalba—Lorenzetti, 1917, p. 145.
+4 Biblioteca Marciana, Venice—MSS. Italiani—Cl. XI, Cod. CXVI, 7356. This is a volume belonging to A. M. Zanetti containing some of his notes and a number of letters to him, notably from the Prince of Liechtenstein, Count Tessin and Marshal Schulenburg. These are indexed and summarised by Zanetti himself at the beginning of the volume. A receipt, dated 10 August 1736 in Vienna, signed Anne Marie de Savoye, refers to ‘un Poussin representant un Miracle des Apôtres; L’autre de Castiglione Benedetto avec des animaux et figures’ as well as fifteen gems and cameos as having been sold to Zanetti; while he himself in his Memorie de gl’acquisti fatti da me Antonio Mra Zanetti q Girolamo in Vienna dall’ Heredita del Pncipe Eugenio di Savoia, l’Anno 1736 mentions the Castiglione, but not the Poussin. He adds a ‘bellissimo Quadretto in rame con magnifica cornice dorata rappresentante una vezzosa Pastorella, che dorme, con Pastore, che si piglia gioco con picciola paglia a risvegliarla, et che addita silentio à giovine Pastorello, che ride, et altre figure in Lontano delle cose più belle, che lo Spagnolo di Bologna habbia dipinto’.
+1 Biblioteca Marciana, Venice-—MSS. Italiani—Cl. XI, Cod. CXVI, 7356. The seven letters from Tessin are dated 23 September 1736 (from Vienna), 9 November 1736 (from Strahlsund), 12 March 1737,
+20 April 1744, 5 April 1748,11 June 1748 (all from Stockholm), 26 October 1743 (—but 1748)—from Copenhagen. The present quotation comes from the last of these letters.
+2 ibid. From the first and third letters. There is no indication who the painter was.
+3 ibid. From the third letter: ‘.. . Je vous prie de me dire un mot du Sr Tiepolo, il me tient toujours a cœur, et j’auray grande envie de savoir, il n’y a que le prix qui nous éloigné encore trop ... je suis persuadé que Tiepolo ne se repentiroit pas, et je luy donneray, ainsy que je luy ay offert, chambres et table dans ma maison, outre la pension du Roy.
+4 ibid. Third letter—see also Chapter 10.
+5 See Lorenzetti, 1917, p. 75, and Bottari, II, pp. 129 and 179 ff. Two of Zanetti’s Sebastiano Riccis —Esther and Ahasuerus and The Presentation in the Temple—were engraved by Pietro Monaco in Raccolta di Opere scelte, Nos. 41 and 84. A portrait of Zanetti by Rosalba Carriera was used as the frontispiece to his Dactyliotheca in 1749.
+6 Biblioteca Marucelliana, Florence—MSS. B. VIII, 13, p. 400: Letter to A. F. Gori of 22 December 1752.
+7 ‘all’esclusione della tazza d’Annibale, intagliata in una sottocoppa, rappresentante un Baccanale’— for this see Kurz, 1955, pp. 282-7.
+1 Lorenzetti, 1917, p. 122.
+2 In the preface to Varie Pitture a Fresco de'Principali Maestri Veneziani, 1760.
+3 Among these were Mariette, Crozat, Vleughels, the Duke of Devonshire, Sir Andrew Fountaine, Dr Richard Mead, Joseph Smith, Rosalba Carriera and Zaccaria Sagredo.
+4 Lorenzetti, 1917, p. 55, Zanetti may well have published these as early as 1743.
+1 Borroni, p. 28.
+2 P. Clement, p. 124. In 1767 John Northall wrote (p. 43 8): ‘There are plates published of these antiquities, which are to be seen at Signor Lanetti’s [sic], a dealer, who has a fine collection of pictures and drawings; some of his own from wooden plates; cameos, and intaglios.... .’
+3 Bottari, II, pp. 129-30.
+4 Blunt and Croft-Murray, p. 146.
+5 This was the opinion of the first editor of Rosalba’s diary, Vianello—sec Lorenzetti, 1917, p. 12.
+6 G. A. Moschini, 1806, III, p. 92.
+7 Battistella, 1930, pp. 60 ff.
+8 Biblioteca Marucelliana, Florence—MSS. B. VIII, 13—Letter of 26 August 1752 to A. F. Gori.
+2.loV ot eceipsitnorf— 5471,atarebiL emmelasureG ot eceipdne 1671,ilauqsaP
+85 setalP ees( YR UT NE CHT NEET HGIE EHT FO SN ORT AP NAITE NE VER OM ossaS.M.G : ihgnoL.A.b fo inireG esehcraM htiw redlE éht ittenaZ.M.A : ihcco Z.
+1 Pietro Monaco: Raccolta Ji centododici stampe.
+2 Letter of 4 February 1763/4 in British Museum, Add. MSS. 23,729, f. 49.
+3 Toni is referred to in G. A. Moschini, 1924, p. 167, who derives all his information from a manuscript life by the artist P. A. Novelli which is now in the Seminario Patriarcale, Venice—MSS. 788. 25.

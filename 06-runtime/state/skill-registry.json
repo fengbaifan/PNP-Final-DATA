@@ -1,0 +1,329 @@
+{
+  "version": "4.0",
+  "generated_by": "scripts/skill_registry.py",
+  "source": ".agents/skills/**/SKILL.md",
+  "skills": {
+    "audit-confidence": {
+      "path": ".agents/skills/05-quality/audit-confidence/SKILL.md",
+      "category": "quality",
+      "kind": "leaf",
+      "description": "置信度与证据状态的只读审计技能。报告低置信、单来源、逾期和状态冲突对象， 生成待验证队列，但不自动 enrich、晋升状态或写回知识元。",
+      "triggers": [
+        "audit-confidence",
+        "置信度审计"
+      ],
+      "references": [
+        ".agents/skills/03-verification/verify/references/result-handling.md",
+        ".agents/skills/05-quality/lint/references/claim-evidence-governance.md"
+      ],
+      "scripts": [
+        "scripts/audit_unverified_queue.py"
+      ]
+    },
+    "build-hierarchy": {
+      "path": ".agents/skills/06-growth/build-hierarchy/SKILL.md",
+      "category": "growth",
+      "kind": "leaf",
+      "description": "构建或重建领域—维度—主题—议题—知识元五级组织；Cluster 只作跨层发现候选。",
+      "triggers": [
+        "build-hierarchy",
+        "构建层级"
+      ],
+      "references": [
+        ".agents/skills/01-intake/ingest/references/hierarchy-field.md"
+      ],
+      "scripts": [
+        "scripts/apply_topic_memberships.py",
+        "scripts/hierarchy_stress_test.py"
+      ]
+    },
+    "compose": {
+      "path": ".agents/skills/07-output/compose/SKILL.md",
+      "category": "output",
+      "kind": "leaf",
+      "description": "知识生产写作技能。基于知识元、层级体系、涌现主题和验证边界规划提纲或生成结构化文本输出。",
+      "triggers": [
+        "compose",
+        "写作生成",
+        "draft-outline",
+        "写作提纲",
+        "规划写作"
+      ],
+      "references": [],
+      "scripts": []
+    },
+    "encoding-check": {
+      "path": ".agents/skills/08-inspection/encoding-check/SKILL.md",
+      "category": "inspection",
+      "kind": "leaf",
+      "description": "文件编码审查技能。诊断乱码、UnicodeDecodeError、UnicodeEncodeError、UTF-8 BOM、 CRLF/LF 和终端显示问题；修复前必须区分文件字节损坏与终端解码错误。",
+      "triggers": [
+        "encoding-check",
+        "编码检查"
+      ],
+      "references": [],
+      "scripts": []
+    },
+    "enrich": {
+      "path": ".agents/skills/06-growth/enrich/SKILL.md",
+      "category": "growth",
+      "kind": "leaf",
+      "description": "学术平台全面补足技能。针对知识元进行 Wikipedia / Wikidata 与开放网页来源补足。 触发词：enrich <知识元>。 当用户要求补充知识、语义扩写或 enrich 时触发；只要求验证既有事实或状态时使用 verify。",
+      "triggers": [
+        "enrich",
+        "补充知识"
+      ],
+      "references": [],
+      "scripts": []
+    },
+    "evolve-hierarchy": {
+      "path": ".agents/skills/06-growth/evolve-hierarchy/SKILL.md",
+      "category": "growth",
+      "kind": "leaf",
+      "description": "按增量信号重评既有领域—维度—主题—议题结构，必要时形成受证据约束的结构变更。",
+      "triggers": [
+        "evolve-hierarchy",
+        "演化层级"
+      ],
+      "references": [],
+      "scripts": [
+        "scripts/hierarchy_stress_test.py"
+      ]
+    },
+    "ingest": {
+      "path": ".agents/skills/01-intake/ingest/SKILL.md",
+      "category": "intake",
+      "kind": "leaf",
+      "description": "Coverage-Proven Semantic Ingest v4.3。Agent 完整阅读新来源，以紧凑 JSONL 证明 source span 覆盖、语义压缩、候选召回与决策；脚本不得替代语义阅读。 触发词：ingest、scan-sources、新来源摄入。",
+      "triggers": [
+        "ingest",
+        "摄入来源"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md",
+        ".agents/skills/01-intake/ingest/references/body-template.md",
+        ".agents/skills/01-intake/ingest/references/citation.md",
+        ".agents/skills/01-intake/ingest/references/distillation-system-contract.md",
+        ".agents/skills/01-intake/ingest/references/hierarchy-field.md",
+        ".agents/skills/01-intake/ingest/references/knowledge-unit-field-contract.md",
+        ".agents/skills/01-intake/ingest/references/model-semantic-processing.md",
+        ".agents/skills/01-intake/ingest/references/relation-types.md",
+        ".agents/skills/01-intake/ingest/references/taxonomy.md"
+      ],
+      "scripts": [
+        "scripts/audit_repo.py",
+        "scripts/validate_processing_package.py"
+      ]
+    },
+    "inspector": {
+      "path": ".agents/skills/08-inspection/inspector/SKILL.md",
+      "category": "inspection",
+      "kind": "leaf",
+      "description": "系统健康检查技能。以 audit_repo.py 和 current-health.json 为事实入口， 区分结构门禁、证据链完整性、知识成熟度、研究债务与候选机会。",
+      "triggers": [
+        "inspector",
+        "当前健康状态"
+      ],
+      "references": [],
+      "scripts": [
+        "scripts/audit_repo.py",
+        "scripts/write_current_health.py"
+      ]
+    },
+    "knowledge-graph": {
+      "path": ".agents/skills/09-display/knowledge-graph/SKILL.md",
+      "category": "display",
+      "kind": "leaf",
+      "description": "知识图谱可视化展示。将知识蒸馏系统的全部知识元渲染为交互式 D3.js 二维关系图； 支持筛选、搜索、详情、缩放与视图控制。触发关键词：知识图谱、knowledge graph、 可视化展示、展示页面。",
+      "triggers": [
+        "knowledge-graph",
+        "知识图谱",
+        "knowledge graph",
+        "可视化展示",
+        "展示页面",
+        "knowledge map",
+        "知识元展示"
+      ],
+      "references": [
+        ".agents/skills/09-display/knowledge-graph/references/data-schema.md"
+      ],
+      "scripts": [
+        "scripts/build_knowledge_graph_data.py"
+      ]
+    },
+    "lint": {
+      "path": ".agents/skills/05-quality/lint/SKILL.md",
+      "category": "quality",
+      "kind": "leaf",
+      "description": "知识库确定性结构检查技能。检查 schema、命名、链接、索引和关系/断言结构， 只输出机械发现与修复队列，不执行置信度裁决、enrich 或 output 回溯。",
+      "triggers": [
+        "lint",
+        "lint-frontmatter",
+        "结构检查",
+        "frontmatter检查"
+      ],
+      "references": [
+        ".agents/skills/05-quality/lint/references/claim-evidence-governance.md",
+        ".agents/skills/05-quality/lint/references/relation-governance.md"
+      ],
+      "scripts": []
+    },
+    "query": {
+      "path": ".agents/skills/07-output/query/SKILL.md",
+      "category": "output",
+      "kind": "leaf",
+      "description": "跨知识库查询技能。综合知识元、层级、主题、索引和当前验证状态，返回带证据边界的答案。",
+      "triggers": [
+        "query",
+        "知识库查询"
+      ],
+      "references": [],
+      "scripts": []
+    },
+    "read-full": {
+      "path": ".agents/skills/08-inspection/read-full/SKILL.md",
+      "category": "inspection",
+      "kind": "leaf",
+      "description": "单文档全量语义覆盖审查技能。在用户明确要求、覆盖证明异常或高风险复核时， 完整阅读指定来源并输出遗漏报告；不作为每次 ingest 的固定尾部步骤，不修改知识库。",
+      "triggers": [
+        "read-full",
+        "全量阅读",
+        "检查遗漏",
+        "全文审查"
+      ],
+      "references": [],
+      "scripts": []
+    },
+    "reconcile": {
+      "path": ".agents/skills/05-quality/reconcile/SKILL.md",
+      "category": "quality",
+      "kind": "leaf",
+      "description": "知识库冲突裁决技能。对同一对象、断言或关系中的矛盾证据执行来源复核、边界裁决和受控写回。 触发词：reconcile、冲突裁决、冲突解决。",
+      "triggers": [
+        "reconcile",
+        "冲突裁决"
+      ],
+      "references": [
+        ".agents/skills/05-quality/lint/references/claim-evidence-governance.md"
+      ],
+      "scripts": []
+    },
+    "retrospect": {
+      "path": ".agents/skills/07-output/retrospect/SKILL.md",
+      "category": "output",
+      "kind": "leaf",
+      "description": "对 query、essay、deck、graph、dashboard 等输出执行语义回溯，识别可回流候选并记录诚实的 file-back 状态。",
+      "triggers": [
+        "retrospect",
+        "输出回溯"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md"
+      ],
+      "scripts": []
+    },
+    "synthesize": {
+      "path": ".agents/skills/06-growth/synthesize/SKILL.md",
+      "category": "growth",
+      "kind": "leaf",
+      "description": "从知识库增量、关系图、外部研究和 output file-back 信号中发现跨来源模式，形成可追踪候选；不直接宣布主题成熟。",
+      "triggers": [
+        "synthesize",
+        "综合发现"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md"
+      ],
+      "scripts": [
+        "scripts/build_discovery_index.py"
+      ]
+    },
+    "system-review": {
+      "path": ".agents/skills/08-inspection/system-review/SKILL.md",
+      "category": "inspection",
+      "kind": "leaf",
+      "description": "系统规则与架构审查技能。用户要求规则合规、实现审查、系统审查或架构审查时使用； 以 compliance 或 architecture 模式输出可定位 findings，不修改规则或知识。",
+      "triggers": [
+        "system-review",
+        "规则审查",
+        "系统审查",
+        "架构审查"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/coding-execution-principles.md"
+      ],
+      "scripts": [
+        "scripts/audit_repo.py"
+      ]
+    },
+    "system-upgrade": {
+      "path": ".agents/skills/00-coordination/system-upgrade/SKILL.md",
+      "category": "coordination",
+      "kind": "leaf",
+      "description": "系统升级官技能。把已确认的规则、Skill、事件路由与执行器变更写回最近的权威落点， 同步入口、验证行为并记录历史影响。用于系统规则修订、架构简化和规则/实现漂移修复。",
+      "triggers": [
+        "system-upgrade",
+        "系统升级",
+        "规则修订"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/coding-execution-principles.md",
+        ".agents/skills/00-coordination/system-upgrade/references/index-layering-contract.md",
+        ".agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md",
+        ".agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md",
+        ".agents/skills/00-coordination/system-upgrade/references/runtime-state-machine.md",
+        ".agents/skills/00-coordination/system-upgrade/references/script-governance.md",
+        ".agents/skills/00-coordination/system-upgrade/references/skill-registry-schema.md",
+        ".agents/skills/00-coordination/system-upgrade/references/upgrade-acceptance-gates.md",
+        ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md"
+      ],
+      "scripts": [
+        "scripts/_runtime_state.py",
+        "scripts/audit_repo.py",
+        "scripts/audit_system_upgrade_chain.py",
+        "scripts/build_runtime_index.py",
+        "scripts/evidence_batch_runner.py",
+        "scripts/generate_governance_backlog.py",
+        "scripts/hierarchy_stress_test.py",
+        "scripts/pre_commit_check.py",
+        "scripts/run_sync_closure.py",
+        "scripts/skill_registry.py",
+        "scripts/verify_apply_evidence.py",
+        "scripts/verify_collect_wikidata.py",
+        "scripts/verify_collect_wikipedia.py",
+        "scripts/write_current_health.py"
+      ]
+    },
+    "verify": {
+      "path": ".agents/skills/03-verification/verify/SKILL.md",
+      "category": "verification",
+      "kind": "leaf",
+      "description": "验证技能。执行单来源或多来源级联验证，并严格采用 verify_collect_* -> evidence JSONL -> verify_apply_evidence.py 的两阶段工作流。 被 ingest、enrich、reconcile 等流程调用，也可独立触发。",
+      "triggers": [
+        "verify",
+        "验证知识元",
+        "multi-source",
+        "多来源验证"
+      ],
+      "references": [
+        ".agents/skills/00-coordination/system-upgrade/references/runtime-state-machine.md",
+        ".agents/skills/03-verification/verify/references/api-verification.md",
+        ".agents/skills/03-verification/verify/references/cascade.md",
+        ".agents/skills/03-verification/verify/references/no-data-and-browser-research.md",
+        ".agents/skills/03-verification/verify/references/result-handling.md",
+        ".agents/skills/03-verification/verify/references/type-verification.md"
+      ],
+      "scripts": [
+        "scripts/_evidence_policy.py",
+        "scripts/_runtime_state.py",
+        "scripts/evidence_batch_runner.py",
+        "scripts/verify_apply_evidence.py",
+        "scripts/verify_collect_lcnaf.py",
+        "scripts/verify_collect_openalex.py",
+        "scripts/verify_collect_openlibrary.py",
+        "scripts/verify_collect_wikidata.py",
+        "scripts/verify_collect_wikipedia.py"
+      ]
+    }
+  }
+}

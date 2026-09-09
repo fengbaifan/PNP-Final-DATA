@@ -1,0 +1,18 @@
+{
+  "description": "Repository hard-safety policy. Semantic rules remain in AGENTS.md and .agents/skills/.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|apply_patch|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/scripts/agent_guard.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking repository safety policy"
+          }
+        ]
+      }
+    ]
+  }
+}

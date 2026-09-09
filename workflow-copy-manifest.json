@@ -1,0 +1,1619 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-08T12:58:17.239288+00:00",
+  "source_project": "Infographic Knowledge Distillation",
+  "source_commit": "0b372e43bdb5c241a15dee8da7c71370d569c048",
+  "source_git_status_before_export": "",
+  "scope": "complete current workflow contracts, skills, executors, tests, adapters and UI code; no research corpus",
+  "source_file_count": 187,
+  "generated_file_count": 47,
+  "skill_count": 18,
+  "script_python_count": 41,
+  "test_python_count": 39,
+  "excluded": [
+    ".git/ and remote credentials",
+    "local settings and secrets",
+    "source books and source texts",
+    "processing evidence and historical work packages",
+    "knowledge units, claims and relations",
+    "materialized domain/dimension/theme/topic nodes",
+    "source-project health and acceptance snapshots",
+    "source-project evaluation cases and migration mappings",
+    "caches, virtual environments and temporary files"
+  ],
+  "portability": "source domain settings and branded UI retained unchanged; review REUSE.md before activation",
+  "files": [
+    {
+      "path": ".agents/guards/apply-gates.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/guards/apply-gates.md",
+      "sha256": "aec4b7d1a8f53be0ed4509cfe527a962a218638561aa5e34b7219d571e6cb152",
+      "bytes": 2672
+    },
+    {
+      "path": ".agents/guards/automation-risk-policy.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/guards/automation-risk-policy.md",
+      "sha256": "c6ed1a45fd05743debff532ae4ad1d11636488f9ff6741258dcb4b129cc680cd",
+      "bytes": 1780
+    },
+    {
+      "path": ".agents/guards/state-honesty.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/guards/state-honesty.md",
+      "sha256": "0672e5822c95da0e7bf2e0c50211a9a17ec053b8ab074519ccbabcc981069c24",
+      "bytes": 1893
+    },
+    {
+      "path": ".agents/pipeline.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/pipeline.md",
+      "sha256": "d9825985fe21380c23bbb765e70f44d55bc82ee642a00de6261f68375fd1e556",
+      "bytes": 6081
+    },
+    {
+      "path": ".agents/settings.json",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/settings.json",
+      "sha256": "ca86a77251fe1a8be1096697bee1f55df0ebc8a1822414080950df60f371710e",
+      "bytes": 2671
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/SKILL.md",
+      "sha256": "39ab2ac5cc02a6316cfd5b51168ec7e822874eecff35ad53944703590d7c65a3",
+      "bytes": 6282
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/coding-execution-principles.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/coding-execution-principles.md",
+      "sha256": "e34ade70d93b61c042006e616580f2fccc007197cd34444742d5028c948e9a63",
+      "bytes": 5445
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/index-layering-contract.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/index-layering-contract.md",
+      "sha256": "8924c06743dcb75ef97c80cd529039247ef3fe1633172c633fdb24b4e31d92c5",
+      "bytes": 5501
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/mainline-only-git-governance.md",
+      "sha256": "83b0ad130800587bde1f8ec63906333a49d67328fab153e724f01d06624577b4",
+      "bytes": 1509
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/runtime-artifact-retention.md",
+      "sha256": "4f60d2f034f62057c6faefbf7c68857361168aaabb13e429a4d57eb021908c49",
+      "bytes": 1954
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/runtime-state-machine.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/runtime-state-machine.md",
+      "sha256": "5a0c89f54a6adac863509229d0047e39ba18c057a123dbaa5897b5fe4605ddf0",
+      "bytes": 1724
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/script-governance.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/script-governance.md",
+      "sha256": "ee3d7849149677149dbe742911a7a2e21f3ac173a6846f594854583e046c50d0",
+      "bytes": 5660
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/skill-registry-schema.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/skill-registry-schema.md",
+      "sha256": "6eda710320e0cfcbc2c82235d38adabb0fc9abbfb644eaa8b4e0e77e07ee5dec",
+      "bytes": 1708
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/upgrade-acceptance-gates.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/upgrade-acceptance-gates.md",
+      "sha256": "302d53a1cca4ed92c5e27832f7c22a2202cf4c1487273b92eb1387c9a9163b14",
+      "bytes": 2764
+    },
+    {
+      "path": ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/00-coordination/system-upgrade/references/work-package-contract.md",
+      "sha256": "2ec4b337d50780a0618aeacde2fe3102d96345c9e6c1550ae08ad9f253dfe0cf",
+      "bytes": 5240
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/SKILL.md",
+      "sha256": "9d52cb4c9511e2d6de67e89158490a1d5a8db849898f4477e19dd67cccacd41f",
+      "bytes": 5976
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/body-template.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/body-template.md",
+      "sha256": "0bd9114797c0238a4f5a4878f95696764ec7a7e88a141dbd60291bc0a8e248c3",
+      "bytes": 3508
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/citation.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/citation.md",
+      "sha256": "4e67e0dc3438155639aedbec085a1b4646d360489c7ec429bf2f22e3e4e34296",
+      "bytes": 1237
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/distillation-system-contract.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/distillation-system-contract.md",
+      "sha256": "cb9d86a548619facf5ba73fcd72df8393aedf22f6c85def8a368a5a3de9cc26a",
+      "bytes": 2572
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/hierarchy-field.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/hierarchy-field.md",
+      "sha256": "cfc60d29a0de78a3dc55ae801036bd0888ecaa0ef6cd4815209359f15ed87ac5",
+      "bytes": 3730
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/knowledge-unit-field-contract.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/knowledge-unit-field-contract.md",
+      "sha256": "021af99136738675e37ac5cba4d0ccf32f8a6aa1c450558a7803ee5506ed9128",
+      "bytes": 6159
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/model-semantic-processing.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/model-semantic-processing.md",
+      "sha256": "43677df76535095e50284df461f4e901ad4c9627411aea48a3da59b0a396285f",
+      "bytes": 4580
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/relation-types.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/relation-types.md",
+      "sha256": "dbefb183d3f35b33df3bd4e5ee65de8651019843a9e07cf64964e30119a5af7d",
+      "bytes": 2430
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/relation-types.yml",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/relation-types.yml",
+      "sha256": "7b97958c53b2f1ef4c72dcf8d37592816802e3634b73ac3801501037065c3f54",
+      "bytes": 2974
+    },
+    {
+      "path": ".agents/skills/01-intake/ingest/references/taxonomy.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/01-intake/ingest/references/taxonomy.md",
+      "sha256": "ccf6427569161ba3e1250c63a624c6a625b8e1971c56e95c35c7d7e55efb88cb",
+      "bytes": 11779
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/SKILL.md",
+      "sha256": "13b2c14dda0236668f128add3598cc533623fbd9d56b643206b8b67c0b408877",
+      "bytes": 5955
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/references/api-verification.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/references/api-verification.md",
+      "sha256": "937a6e02ac3f3ebefc7aa060b0982bf4354b725621a658c942543f4fe4d5261e",
+      "bytes": 4379
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/references/cascade.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/references/cascade.md",
+      "sha256": "00b4495f95dcc94ff56b28b5ef1ccd9b48ee7f64103d738eadf2793b8c9e05d7",
+      "bytes": 5727
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/references/no-data-and-browser-research.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/references/no-data-and-browser-research.md",
+      "sha256": "56b3307612ff822a545947f11a2bfd7deb86219fcd75a2cdb1da850a11ff1a9b",
+      "bytes": 2565
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/references/result-handling.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/references/result-handling.md",
+      "sha256": "90b6a5bf67d66ba2fdc06acf385d5e08ca52168af5e2b7cffbcea545dded09ca",
+      "bytes": 4164
+    },
+    {
+      "path": ".agents/skills/03-verification/verify/references/type-verification.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/03-verification/verify/references/type-verification.md",
+      "sha256": "88b466829afb2a9a3c7691cf9988044a19ca5738dfba9bc4bc21a8a488f35ce5",
+      "bytes": 6634
+    },
+    {
+      "path": ".agents/skills/05-quality/README.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/README.md",
+      "sha256": "6240f5d9ab6637a0a4f680dce6d1b41abb63b12828994df8f02a8ed34c0bd30b",
+      "bytes": 645
+    },
+    {
+      "path": ".agents/skills/05-quality/audit-confidence/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/audit-confidence/SKILL.md",
+      "sha256": "8d813199ff9c8dc3936223516968623f9ee02003a3c61e764b4b6d00bffac3f2",
+      "bytes": 1891
+    },
+    {
+      "path": ".agents/skills/05-quality/lint/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/lint/SKILL.md",
+      "sha256": "741795ef5344ffa81c45ba208f924d0918d887a4adda237abc9aebbf880129a1",
+      "bytes": 1621
+    },
+    {
+      "path": ".agents/skills/05-quality/lint/references/claim-evidence-governance.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/lint/references/claim-evidence-governance.md",
+      "sha256": "7b3f2f5b66d4e61d63d9703a3a686727311d213f019442c945cb4d5adfc5326f",
+      "bytes": 2229
+    },
+    {
+      "path": ".agents/skills/05-quality/lint/references/relation-governance.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/lint/references/relation-governance.md",
+      "sha256": "c23dc2f1934ec4739310d05414b946a70231655316f0e35a32665233477beb04",
+      "bytes": 2517
+    },
+    {
+      "path": ".agents/skills/05-quality/reconcile/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/05-quality/reconcile/SKILL.md",
+      "sha256": "c2c3e811b02b3b4a9d1bd94cf7fba6691e6cc516dba7c7199e76106f6762b0f2",
+      "bytes": 3136
+    },
+    {
+      "path": ".agents/skills/06-growth/README.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/06-growth/README.md",
+      "sha256": "4382443b7c77af49326c6bc6083bdd8d650c4b3a42c8024faa094632578cf5f4",
+      "bytes": 614
+    },
+    {
+      "path": ".agents/skills/06-growth/build-hierarchy/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/06-growth/build-hierarchy/SKILL.md",
+      "sha256": "f7d483b57b285ca9362ceb95c89fbf5f2f83ba7fb2ce0c82f8494029d2b0225b",
+      "bytes": 3917
+    },
+    {
+      "path": ".agents/skills/06-growth/enrich/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/06-growth/enrich/SKILL.md",
+      "sha256": "320e977ad84ec19364613209a45d65863aa27e9654c025751b37520816cb9fd8",
+      "bytes": 8033
+    },
+    {
+      "path": ".agents/skills/06-growth/evolve-hierarchy/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/06-growth/evolve-hierarchy/SKILL.md",
+      "sha256": "a465c7a412f631a732dfdc2d99f117b75b22d8c22b3ddb0c44bd02ebd5bfe837",
+      "bytes": 1908
+    },
+    {
+      "path": ".agents/skills/06-growth/synthesize/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/06-growth/synthesize/SKILL.md",
+      "sha256": "b5fc2c9f25b4ef6f5e2056d4be961d10337c2cb4489f6e7e29b29a5ff3c3a665",
+      "bytes": 2989
+    },
+    {
+      "path": ".agents/skills/07-output/README.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/07-output/README.md",
+      "sha256": "ceb0cd20acb62c28012641c5cc53607148265b68bf4758d721f8ef6745507bf2",
+      "bytes": 615
+    },
+    {
+      "path": ".agents/skills/07-output/compose/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/07-output/compose/SKILL.md",
+      "sha256": "5fe03357f6e36116db9c033a589fd894784775dd7ce0c99db927f6f9116d7e1f",
+      "bytes": 2496
+    },
+    {
+      "path": ".agents/skills/07-output/query/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/07-output/query/SKILL.md",
+      "sha256": "782c51149b164c8a6456bfbef65740778980797c1635c28531e1af043216eeff",
+      "bytes": 1457
+    },
+    {
+      "path": ".agents/skills/07-output/retrospect/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/07-output/retrospect/SKILL.md",
+      "sha256": "fd13d149588bc1da81ca72b2de7c11d8c73f4f17e5c64dd5b834d8a0cf778f0d",
+      "bytes": 2213
+    },
+    {
+      "path": ".agents/skills/08-inspection/encoding-check/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/08-inspection/encoding-check/SKILL.md",
+      "sha256": "0a41d31804e57a7a2ddaf663de64980c6d3c9fcb14a27faafbf4934089fb236e",
+      "bytes": 1605
+    },
+    {
+      "path": ".agents/skills/08-inspection/inspector/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/08-inspection/inspector/SKILL.md",
+      "sha256": "ecfb4f7f4a54e7cb67679cebcd1ad0334d61eb17cb4e7f2187434dc16179441a",
+      "bytes": 2019
+    },
+    {
+      "path": ".agents/skills/08-inspection/read-full/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/08-inspection/read-full/SKILL.md",
+      "sha256": "4841353220d73beb764954fdbf0f908aa05f46acb609a86dee8b21284801568a",
+      "bytes": 2005
+    },
+    {
+      "path": ".agents/skills/08-inspection/system-review/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/08-inspection/system-review/SKILL.md",
+      "sha256": "1d8e5401a5d88baf6fcc2b59a246e50b36975246971e985c6fdd7c18325434f1",
+      "bytes": 3322
+    },
+    {
+      "path": ".agents/skills/09-display/knowledge-graph/SKILL.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/09-display/knowledge-graph/SKILL.md",
+      "sha256": "88f6e8a646899996af921466e25bc38ed9d8fb5e74dbad0176c94924672e42a2",
+      "bytes": 2900
+    },
+    {
+      "path": ".agents/skills/09-display/knowledge-graph/references/data-schema.md",
+      "kind": "exact_source_copy",
+      "source_path": ".agents/skills/09-display/knowledge-graph/references/data-schema.md",
+      "sha256": "de68d019093f8a27157d7f4b00ac431c933858133c27e190331f0e2a880b3fbc",
+      "bytes": 4040
+    },
+    {
+      "path": ".claude/settings.json",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/settings.json",
+      "sha256": "9ea76d437e8e7fd8fa89d045792b8c30821d07f7f3ae4de2e086d260f9076193",
+      "bytes": 377
+    },
+    {
+      "path": ".claude/skills/audit-confidence",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/audit-confidence",
+      "sha256": "6dc9de5012036c5f1fd967dd61dba4408854b16cae3f095c44d78922d021f052",
+      "bytes": 48
+    },
+    {
+      "path": ".claude/skills/build-hierarchy",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/build-hierarchy",
+      "sha256": "aa89c8ce35dc86343d66fdc4874f345aaaccfbd6e5db3a54483daa0aaf8a0a2d",
+      "bytes": 46
+    },
+    {
+      "path": ".claude/skills/compose",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/compose",
+      "sha256": "c4a67dde833cda41a56d6650b785849786cfb2f8f613fab68d1edc673adbac84",
+      "bytes": 38
+    },
+    {
+      "path": ".claude/skills/encoding-check",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/encoding-check",
+      "sha256": "b625f2b4560481306a5ad3b7389db9f9f4b3e9ec496fa6822b3ece2a6e68770c",
+      "bytes": 49
+    },
+    {
+      "path": ".claude/skills/enrich",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/enrich",
+      "sha256": "4ad79cfa38dd3029e35add189989f8e4c6d048e807947dc55a092a9006afd9f9",
+      "bytes": 37
+    },
+    {
+      "path": ".claude/skills/evolve-hierarchy",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/evolve-hierarchy",
+      "sha256": "dc0bed91ce6f7852002b24c277a21eb032fd43aabcd47b126be1e1eb99844a07",
+      "bytes": 47
+    },
+    {
+      "path": ".claude/skills/ingest",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/ingest",
+      "sha256": "a988b8f3d6db4b2326ac9c11549b31074334db80d3e1e7ea9b6c9146b6d08a50",
+      "bytes": 37
+    },
+    {
+      "path": ".claude/skills/inspector",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/inspector",
+      "sha256": "037a6be0d095c2058fa8ad34da320f43510541b54d0fb496e08c838f950be70c",
+      "bytes": 44
+    },
+    {
+      "path": ".claude/skills/knowledge-graph",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/knowledge-graph",
+      "sha256": "f9b73db2b5ae05c1a407598aabd05a47022bd7063c5a045628ffda726b70b659",
+      "bytes": 47
+    },
+    {
+      "path": ".claude/skills/lint",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/lint",
+      "sha256": "adecde0d58720e844f13eaf1c1075dfbc688bdf3c8ad6f7fec9b4fef0792562f",
+      "bytes": 36
+    },
+    {
+      "path": ".claude/skills/query",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/query",
+      "sha256": "cfa931f616daa8bb1811b8bf49bbd8c3bca1973d1823565a282765ddaef4ca65",
+      "bytes": 36
+    },
+    {
+      "path": ".claude/skills/read-full",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/read-full",
+      "sha256": "f61fb51bd178d61c12516b94510db58c2ccb9a3d93ee03da81e037c57188ba3d",
+      "bytes": 44
+    },
+    {
+      "path": ".claude/skills/reconcile",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/reconcile",
+      "sha256": "7a4556dea83b6ac77d0376b45deedb015d4999f09496c698aaf170f6b64ca001",
+      "bytes": 41
+    },
+    {
+      "path": ".claude/skills/retrospect",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/retrospect",
+      "sha256": "06b29f6c40dc1ab0c6d966fae5e12a43f5190a336200de006aec93689f5947e1",
+      "bytes": 41
+    },
+    {
+      "path": ".claude/skills/synthesize",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/synthesize",
+      "sha256": "3703dd4a65e854dbc081e26694de3f76e64c4d36ae62de8beab1c615774689f5",
+      "bytes": 41
+    },
+    {
+      "path": ".claude/skills/system-review",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/system-review",
+      "sha256": "85d3238558dff4660842f17247012fd4b831c09c318407e78118134531d85e36",
+      "bytes": 48
+    },
+    {
+      "path": ".claude/skills/system-upgrade",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/system-upgrade",
+      "sha256": "d0cc023a11ad56b343c2c16245a381c361dde6fb5388c265a1630921c39d13f3",
+      "bytes": 51
+    },
+    {
+      "path": ".claude/skills/verify",
+      "kind": "exact_source_copy",
+      "source_path": ".claude/skills/verify",
+      "sha256": "541cca9b191703c7e5eb65b15e59e8d12574748bef702cef10997ecb2d1ab00d",
+      "bytes": 43
+    },
+    {
+      "path": ".codex/hooks.json",
+      "kind": "exact_source_copy",
+      "source_path": ".codex/hooks.json",
+      "sha256": "42bea5bc53c02b5a50546d9407eb2f84b5cc303debcaf4be44d6020fb2672c85",
+      "bytes": 517
+    },
+    {
+      "path": ".gitattributes",
+      "kind": "exact_source_copy",
+      "source_path": ".gitattributes",
+      "sha256": "8697d529938c3c92f076129625433b5b5bfe166d6e4b43d0266695187e8ee125",
+      "bytes": 85
+    },
+    {
+      "path": ".github/workflows/quality.yml",
+      "kind": "exact_source_copy",
+      "source_path": ".github/workflows/quality.yml",
+      "sha256": "c81650cbbad89d41d66201f6fe120017659380a6f7b0ae31c1919ad276365e21",
+      "bytes": 966
+    },
+    {
+      "path": ".gitignore",
+      "kind": "exact_source_copy",
+      "source_path": ".gitignore",
+      "sha256": "51395812f2a6da610d5745d92307cff7b0dd83484bce747e0bb6273b8f6261c8",
+      "bytes": 634
+    },
+    {
+      "path": "01-domain/dimension-registry.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/dimension-registry.md",
+      "sha256": "f731a510b16b84b7e3e60482596972cd67e3c2ebd7aee13d4ce576926eb0b4c5",
+      "bytes": 4178
+    },
+    {
+      "path": "01-domain/domain-registry.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/domain-registry.md",
+      "sha256": "c0d8859ffa190948d48f4849b37b747c0348b005cc34da39df87f45f01b6b37d",
+      "bytes": 1637
+    },
+    {
+      "path": "01-domain/index.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/index.md",
+      "sha256": "8958f7ac832b8d82cbd0ec295020c0c2d99c2ed0f04b813abbbe876ab535d9c8",
+      "bytes": 2895
+    },
+    {
+      "path": "01-domain/naming-conventions.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/naming-conventions.md",
+      "sha256": "86118ff92fceff1155431056552bfc4b2d2029ecd07e9c0d7575b7b30c2c4ac7",
+      "bytes": 2687
+    },
+    {
+      "path": "01-domain/taxonomy-registry.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/taxonomy-registry.md",
+      "sha256": "cae17ad3e05129dff77d05b1b6ded56cc0054752a44dfd6ee859d9d8975250b7",
+      "bytes": 3061
+    },
+    {
+      "path": "01-domain/workflow-overrides.md",
+      "kind": "exact_source_copy",
+      "source_path": "01-domain/workflow-overrides.md",
+      "sha256": "6d415aff84e65446edf8d36254705d7ebc0f80180fd5834770f1b6a692f37798",
+      "bytes": 2419
+    },
+    {
+      "path": "02-sources/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "02-sources/_catalog.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "5b9de4c73b1837db67a771e8559b8a29a8d6cc85d65bb4b8157d2e4530093ede",
+      "bytes": 130
+    },
+    {
+      "path": "03-processing/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "03-processing/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "03-processing/README.md",
+      "sha256": "ed54b833c6f8b7dd61f444e819b06a4779eb1fe7411833b5b750bf8176f2233d",
+      "bytes": 2316
+    },
+    {
+      "path": "04-knowledge/quality/claim-registry.yml",
+      "kind": "generated_portable_scaffold",
+      "sha256": "f85139109274659a0b63783f2c9396e198accf24d866cd9170a68366df0ba9d7",
+      "bytes": 42
+    },
+    {
+      "path": "04-knowledge/quality/conflicts/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/quality/relation-candidates.yml",
+      "kind": "generated_portable_scaffold",
+      "sha256": "93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88",
+      "bytes": 66
+    },
+    {
+      "path": "04-knowledge/quality/relation-index.yml",
+      "kind": "generated_portable_scaffold",
+      "sha256": "5c79b86c2bd46291926641debaefb5bd78e7e96eb8d267f4dac3a6f0b898d1a2",
+      "bytes": 73
+    },
+    {
+      "path": "04-knowledge/quality/translation-index.yml",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e1bcabbe450a5c27bd72afc7fe298673885a9c3410599d6c09e88e7bc2c558de",
+      "bytes": 76
+    },
+    {
+      "path": "04-knowledge/quality/verification-log.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "5cad5ac20338682e25c16854f2ed311f0d416226d91dc9d16f89cf4f05387653",
+      "bytes": 53
+    },
+    {
+      "path": "04-knowledge/structure/dimensions/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/dimensions/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "04-knowledge/structure/dimensions/README.md",
+      "sha256": "997f479ae8ab7ad7015cf5ab593b8bceb2f03eb58f1e96a2e223d430a756a0dc",
+      "bytes": 221
+    },
+    {
+      "path": "04-knowledge/structure/domains/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/domains/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "04-knowledge/structure/domains/README.md",
+      "sha256": "34c8c13328a50341bed8176898959261734a89b3b63f6bba373b47818714c93a",
+      "bytes": 249
+    },
+    {
+      "path": "04-knowledge/structure/hierarchy/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/taxonomy/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/themes/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/themes/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "04-knowledge/structure/themes/README.md",
+      "sha256": "46da9dd087856f4061545c7a14f61f0f2855e6bf47b07e5aee02dd22b984f04e",
+      "bytes": 300
+    },
+    {
+      "path": "04-knowledge/structure/topics/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/structure/topics/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "04-knowledge/structure/topics/README.md",
+      "sha256": "dee118a0f80d98815b2a3432b4fa49f0c6c5a8b383a98c47d3314924ff587152",
+      "bytes": 299
+    },
+    {
+      "path": "04-knowledge/units/events/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/institutions/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/persons/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/places/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/procedures/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/publications/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/terms/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "04-knowledge/units/works/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "05-outputs/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/README.md",
+      "sha256": "9071fb119f921e90f1de4f88eb527b284571062b0c3e6738fd919311aab5a6fd",
+      "bytes": 1050
+    },
+    {
+      "path": "05-outputs/assets/cover-brinton-1914.png",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/assets/cover-brinton-1914.png",
+      "sha256": "5a89d9e917f5ae443fbcf48bd46794c46f906d977ba2d532c52ddcbb9a10913f",
+      "bytes": 832887
+    },
+    {
+      "path": "05-outputs/assets/cover-lima-circles-2017.png",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/assets/cover-lima-circles-2017.png",
+      "sha256": "e889c1d37e9297eb508f3df31e1a88dfe392a5097296ccd4e78620ad143d991a",
+      "bytes": 764533
+    },
+    {
+      "path": "05-outputs/assets/cover-rendgen-history-2019.png",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/assets/cover-rendgen-history-2019.png",
+      "sha256": "d8d28b6fa8d6b2eaf749cf46c6aa36cb1d54330b99f5ebcb35fca5944e1488f9",
+      "bytes": 870328
+    },
+    {
+      "path": "05-outputs/assets/ikd-mark.png",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/assets/ikd-mark.png",
+      "sha256": "55f2ef3f63536331a9eccb6075d43a68c901d8f12f23591472f5c7494fc6b0a3",
+      "bytes": 44106
+    },
+    {
+      "path": "05-outputs/drafts/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "05-outputs/drafts/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/drafts/README.md",
+      "sha256": "3f291093a5ac458aca3f5241a602b209af705bdf42d3458b3f2105638224348a",
+      "bytes": 940
+    },
+    {
+      "path": "05-outputs/exports/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "05-outputs/index/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "05-outputs/index/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/index/README.md",
+      "sha256": "1e044208788a299b821b42cac4ba0cb9a510cb131d83cdd72c33165cd3d5764b",
+      "bytes": 397
+    },
+    {
+      "path": "05-outputs/knowledge-graph-2d-data.js",
+      "kind": "generated_portable_scaffold",
+      "sha256": "4fb5abdb58229b6e981433fdad897c19aaf036395f8c2301bb4faa043ef439f2",
+      "bytes": 489
+    },
+    {
+      "path": "05-outputs/knowledge-graph-2d-data.json",
+      "kind": "generated_portable_scaffold",
+      "sha256": "13fdfdd32ac1c057a6488eb696af604f3746c45398eb601df49ec1610697e120",
+      "bytes": 692
+    },
+    {
+      "path": "05-outputs/knowledge-graph-2d.html",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/knowledge-graph-2d.html",
+      "sha256": "20257a34f5ec5616dfe3dae9371308b1421b0fe250bcaf1c12a877f6d7db8478",
+      "bytes": 66074
+    },
+    {
+      "path": "05-outputs/knowledge-graph-data.js",
+      "kind": "generated_portable_scaffold",
+      "sha256": "4fb5abdb58229b6e981433fdad897c19aaf036395f8c2301bb4faa043ef439f2",
+      "bytes": 489
+    },
+    {
+      "path": "05-outputs/knowledge-graph-data.json",
+      "kind": "generated_portable_scaffold",
+      "sha256": "13fdfdd32ac1c057a6488eb696af604f3746c45398eb601df49ec1610697e120",
+      "bytes": 692
+    },
+    {
+      "path": "05-outputs/knowledge-graph-v2.css",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/knowledge-graph-v2.css",
+      "sha256": "3a463c27af088d71bb9e090951d7c717fc60a9cd819db2319c72532ba1ccb4b7",
+      "bytes": 27768
+    },
+    {
+      "path": "05-outputs/knowledge-graph.html",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/knowledge-graph.html",
+      "sha256": "e7b127f3a19d54c9279a1123910125df6706c422d2fba302b3d2d314a1eb901f",
+      "bytes": 67187
+    },
+    {
+      "path": "05-outputs/output-registry.yml",
+      "kind": "generated_portable_scaffold",
+      "sha256": "a852b5e90eb8a492bdfcdf2f970fd9d654f633746204f0a89dde7dd884bfa46f",
+      "bytes": 45
+    },
+    {
+      "path": "05-outputs/vendor/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/vendor/README.md",
+      "sha256": "479344bd77ed6646cf0ba16437d7223571f629230126022553536afb8e064b33",
+      "bytes": 586
+    },
+    {
+      "path": "05-outputs/vendor/d3.LICENSE.txt",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/vendor/d3.LICENSE.txt",
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+      "bytes": 731
+    },
+    {
+      "path": "05-outputs/vendor/d3.v7.9.0.min.js",
+      "kind": "exact_source_copy",
+      "source_path": "05-outputs/vendor/d3.v7.9.0.min.js",
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+      "bytes": 279706
+    },
+    {
+      "path": "06-runtime/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "06-runtime/README.md",
+      "sha256": "a62f62a9bb5b2f8f394f36772a422ec87400c024cd7cccfa7dccce028a0639ff",
+      "bytes": 2180
+    },
+    {
+      "path": "06-runtime/automation/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/automation/index.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "f08327caf2a094fa53e91acefabcc11dcd3ffb750587107f417d63657a5b1fff",
+      "bytes": 1307
+    },
+    {
+      "path": "06-runtime/checkpoints/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/checkpoints/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "06-runtime/checkpoints/README.md",
+      "sha256": "42bc48bef80f3fe003ffd0ed8259dcd5e3d52c019296957e1ab3d24bd674cd91",
+      "bytes": 414
+    },
+    {
+      "path": "06-runtime/eval/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/eval/query-eval-set.jsonl",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/governance/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/governance/governance-backlog.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e487cf65ffeab403683bdc4f3f88f1249903ccc01a9fa1891f97ac1a7d27db03",
+      "bytes": 152
+    },
+    {
+      "path": "06-runtime/governance/relation-generic-explicit-baseline.jsonl",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/governance/system-upgrade-log.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "62dd5d1376c5e7119b1d2458cd24ad396fff25b0c05be491429f71969de294db",
+      "bytes": 459
+    },
+    {
+      "path": "06-runtime/governance/taxonomy-migration-map.json",
+      "kind": "generated_portable_scaffold",
+      "sha256": "b7243b95c7b825f08ca7be8c43f9c2e2b57f449aafe541779a44dc6566094dba",
+      "bytes": 73
+    },
+    {
+      "path": "06-runtime/state/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/state/skill-registry.json",
+      "kind": "generated_portable_scaffold",
+      "sha256": "a5b683d07512a6fd217711161b026a9b4b0722df7a3fb0ce680db68f30b90c40",
+      "bytes": 13570
+    },
+    {
+      "path": "06-runtime/traces/.gitkeep",
+      "kind": "generated_portable_scaffold",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "06-runtime/traces/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "06-runtime/traces/README.md",
+      "sha256": "90c2112c61ab8a58f9429d8bed0f9eca861a33e4e78c2973f3e57a0d9405923f",
+      "bytes": 305
+    },
+    {
+      "path": "AGENTS.md",
+      "kind": "exact_source_copy",
+      "source_path": "AGENTS.md",
+      "sha256": "490164d611ceec91d09ff24c9dd88b7b49f907a1693bb39c278490ad84eb1a46",
+      "bytes": 9864
+    },
+    {
+      "path": "CLAUDE.md",
+      "kind": "exact_source_copy",
+      "source_path": "CLAUDE.md",
+      "sha256": "dbeaa5fe34d770a82cc4a48afc6756d7b1ebcf432ca1166b22b23dbdc0e843ba",
+      "bytes": 521
+    },
+    {
+      "path": "README.md",
+      "kind": "exact_source_copy",
+      "source_path": "README.md",
+      "sha256": "a46dfcfdcef03b8fccd606c6eddfef2847a1ff2b8a689dc9c6eb8f137f6221b9",
+      "bytes": 6350
+    },
+    {
+      "path": "REUSE.md",
+      "kind": "generated_portable_scaffold",
+      "sha256": "df38d0334251980ae05586ebae47bfd454da27620dcb3b925404fda933190e3f",
+      "bytes": 9329
+    },
+    {
+      "path": "portable/run_tests.py",
+      "kind": "generated_portable_scaffold",
+      "sha256": "21605a370eb88dc15d7c22952296f551bbda3cb01b348557051dae960d03e58b",
+      "bytes": 3284
+    },
+    {
+      "path": "portable/verify_copy.py",
+      "kind": "generated_portable_scaffold",
+      "sha256": "2fda68e3a58b101489dafd8d43e6691edb8b39b2a69604c2049038d075d247c3",
+      "bytes": 2583
+    },
+    {
+      "path": "pyproject.toml",
+      "kind": "exact_source_copy",
+      "source_path": "pyproject.toml",
+      "sha256": "e8308a4cca9bebfd0a515c6c8fae096e664faa6b8361e5249826be4a45af10a6",
+      "bytes": 538
+    },
+    {
+      "path": "scripts/README.md",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/README.md",
+      "sha256": "ae121ccb1372c536ed9c54fc68a5f010856fae67707aeb45dc417fe8580b0135",
+      "bytes": 4951
+    },
+    {
+      "path": "scripts/_evidence_policy.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/_evidence_policy.py",
+      "sha256": "076db138f371448a546e6865c6b5f6299d440a0492a8816deff7726e6210963f",
+      "bytes": 5188
+    },
+    {
+      "path": "scripts/_relation_schema.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/_relation_schema.py",
+      "sha256": "7c8978f12806c1d2a5a92603f2adcd3298747db973af05d9c034fac04eaf4cad",
+      "bytes": 1913
+    },
+    {
+      "path": "scripts/_runtime_state.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/_runtime_state.py",
+      "sha256": "8c7af4f3fc5f7b3ad6c4de901c496344ab285fb8020415a22ba855b776c40ada",
+      "bytes": 6801
+    },
+    {
+      "path": "scripts/_source_fingerprint.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/_source_fingerprint.py",
+      "sha256": "21173380f184376b8303712e18cfca3303b29dedb83601d8adfaad7af92dde1f",
+      "bytes": 4607
+    },
+    {
+      "path": "scripts/_verification_targets.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/_verification_targets.py",
+      "sha256": "4c7065bcc10ae30d40ac202ebf049498299d25e4dea3bdb32dae10283981ba4b",
+      "bytes": 4138
+    },
+    {
+      "path": "scripts/agent_guard.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/agent_guard.py",
+      "sha256": "00d9c8be82e14b4b511333d1a61768143a891fd0429a276e766e12cdef0316d4",
+      "bytes": 5485
+    },
+    {
+      "path": "scripts/apply_topic_memberships.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/apply_topic_memberships.py",
+      "sha256": "beb33f45e5879cdc2d815f0d37c3c3da53e233ff12d9184eb384fa8832705eb6",
+      "bytes": 30453
+    },
+    {
+      "path": "scripts/audit_content_quality.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_content_quality.py",
+      "sha256": "8f995efa0b0c98d0f6ff24a15c1cc7a6e7cc3f23801e711d0ee930a5d3ef8b71",
+      "bytes": 23235
+    },
+    {
+      "path": "scripts/audit_relation_consistency.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_relation_consistency.py",
+      "sha256": "ffdc5be1a1460f0d6987d980c8a20a29647eb80c3a816061fedeeef037d8fec0",
+      "bytes": 7174
+    },
+    {
+      "path": "scripts/audit_repo.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_repo.py",
+      "sha256": "1f9cebe90cebcd335f925de3f1d8efa4ef8ba79a71cfaea3932256ba9c974bf1",
+      "bytes": 83642
+    },
+    {
+      "path": "scripts/audit_rule_drift.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_rule_drift.py",
+      "sha256": "51f2a46fb2c96d247dffdca90ac6716cd2a9ee7c85a131f424189dac3d171b1d",
+      "bytes": 37930
+    },
+    {
+      "path": "scripts/audit_system_upgrade_chain.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_system_upgrade_chain.py",
+      "sha256": "3113e3852e79753e303558224daa359ff2c3e8b97b5eed790c70fe1996bdee7f",
+      "bytes": 11920
+    },
+    {
+      "path": "scripts/audit_unverified_queue.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/audit_unverified_queue.py",
+      "sha256": "3d260fb75e042ae2272e0189a0c1ea83cbc4398a7f516c744580c0d899149222",
+      "bytes": 13598
+    },
+    {
+      "path": "scripts/build_discovery_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_discovery_index.py",
+      "sha256": "c2813786b32d1680730f6a656e723ac44de836556f0dcabf9bed2bd1185f27fc",
+      "bytes": 18189
+    },
+    {
+      "path": "scripts/build_enrich_inventory.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_enrich_inventory.py",
+      "sha256": "7548557460af37bdde2b3bc4ed8e6bfef58ef33d8612dd3276bac35660ad9aec",
+      "bytes": 6301
+    },
+    {
+      "path": "scripts/build_generated_projection_manifest.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_generated_projection_manifest.py",
+      "sha256": "126e153acbbad186824e306570219290ba217e9379f6d397f9b2a6e14f3a6f3a",
+      "bytes": 5961
+    },
+    {
+      "path": "scripts/build_isolated_unit_ledger.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_isolated_unit_ledger.py",
+      "sha256": "e01d9e83e1d6ac61ef5396c97c8fd8500252ea834008012e98063ed3a0316eb8",
+      "bytes": 26754
+    },
+    {
+      "path": "scripts/build_knowledge_graph_data.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_knowledge_graph_data.py",
+      "sha256": "2b1b4aa7819145ac57698c68826c2886ccc8d7ecb5030c31e6c68833d28affca",
+      "bytes": 10077
+    },
+    {
+      "path": "scripts/build_output_gallery.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_output_gallery.py",
+      "sha256": "37874150b44b8a2fe74cff68e58511fa965c1c5393c54e02d740e13381eb5ef1",
+      "bytes": 9741
+    },
+    {
+      "path": "scripts/build_relation_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_relation_index.py",
+      "sha256": "dfc5177d92a94105f9f4ca109767e7bff417183349463cee205d8112d3f28800",
+      "bytes": 18831
+    },
+    {
+      "path": "scripts/build_runtime_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_runtime_index.py",
+      "sha256": "67a15ec50de462d4ed15300c7f1e97494fb8a98d6a4133fece059ab892ddccac",
+      "bytes": 14087
+    },
+    {
+      "path": "scripts/build_translation_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/build_translation_index.py",
+      "sha256": "2a8bec57a32a80af71a79cd3fde1ca174c30688617f92ab416c52844465d4b8b",
+      "bytes": 2933
+    },
+    {
+      "path": "scripts/evidence_batch_runner.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/evidence_batch_runner.py",
+      "sha256": "7aa5d1ffe1f645239102e552165739e31bb28df5cf542ecc7bfa147ea83f4aca",
+      "bytes": 10930
+    },
+    {
+      "path": "scripts/generate_claim_support_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/generate_claim_support_candidates.py",
+      "sha256": "30c10490b0adcaa2448d67d4a5c559d581961b99d63a78c518003e1890502bcc",
+      "bytes": 9482
+    },
+    {
+      "path": "scripts/generate_governance_backlog.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/generate_governance_backlog.py",
+      "sha256": "fd8cecc03b3eb875ff6e67564934c216e1e61586ed557c50b90931b9568ef1a3",
+      "bytes": 13534
+    },
+    {
+      "path": "scripts/generate_relation_evidence_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/generate_relation_evidence_candidates.py",
+      "sha256": "dc13b401510223d6a607cb01273b3f23d227b01483c0171e89fe5cf3ebfc9997",
+      "bytes": 13832
+    },
+    {
+      "path": "scripts/hierarchy_stress_test.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/hierarchy_stress_test.py",
+      "sha256": "8715fc0caf180b6de4e773b2a3d0a9c49ec898aceddd89065ab56c52e64b43f0",
+      "bytes": 42070
+    },
+    {
+      "path": "scripts/plan_relation_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/plan_relation_candidates.py",
+      "sha256": "800d5d3228a32ab4a697ee0cffeaf15ea10c0ca437d35966e3c80d4d0ad32b1f",
+      "bytes": 16800
+    },
+    {
+      "path": "scripts/plan_verification_batch.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/plan_verification_batch.py",
+      "sha256": "72a51b8d1cb37be8a6d5eb336a102c153c0fc09185a91a8cee4573ba3ab32b15",
+      "bytes": 13307
+    },
+    {
+      "path": "scripts/pre_commit_check.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/pre_commit_check.py",
+      "sha256": "951f8f3ef241331757dfed99541c787a77eda7e41c1a2914128578455373ba13",
+      "bytes": 1634
+    },
+    {
+      "path": "scripts/run_sync_closure.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/run_sync_closure.py",
+      "sha256": "c34363d3c7039ffa560a420d45acc2cc21b2016aa2257a6d6a0c865d321a97d5",
+      "bytes": 6803
+    },
+    {
+      "path": "scripts/skill_registry.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/skill_registry.py",
+      "sha256": "7bde7173ca295657bb1fd09d3fb64c6b26cfd2ff07f3cd685831767880549b0d",
+      "bytes": 12046
+    },
+    {
+      "path": "scripts/summarize_relation_review_queue.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/summarize_relation_review_queue.py",
+      "sha256": "26b51a0302a86f32970f7f7fa39f22a00d82a692153d0f6b49e12a9336280e25",
+      "bytes": 15011
+    },
+    {
+      "path": "scripts/validate_processing_package.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/validate_processing_package.py",
+      "sha256": "cbfa359a110732226ba5f84b657e069b5792bf6a4ad459c0d71f4d6c7cc210e1",
+      "bytes": 16009
+    },
+    {
+      "path": "scripts/verify_apply_evidence.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_apply_evidence.py",
+      "sha256": "6d89943e038089e5da511e414d3c0c30674801b021a5bd306893d575aa50303b",
+      "bytes": 16236
+    },
+    {
+      "path": "scripts/verify_collect_lcnaf.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_collect_lcnaf.py",
+      "sha256": "957871672b53315b31fb1a398305b4cac85fed2944938260e8a21d187bf67824",
+      "bytes": 13042
+    },
+    {
+      "path": "scripts/verify_collect_openalex.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_collect_openalex.py",
+      "sha256": "c219a72cfa5dfc0a1e0971decb67ab9c44e8d5de31ba4b5cffc909376f6aef22",
+      "bytes": 12340
+    },
+    {
+      "path": "scripts/verify_collect_openlibrary.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_collect_openlibrary.py",
+      "sha256": "22e75bc4806ec877a9a7f55864bd51ba7511b1ee965c128882b9476f2fb291fa",
+      "bytes": 14128
+    },
+    {
+      "path": "scripts/verify_collect_wikidata.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_collect_wikidata.py",
+      "sha256": "cf04e992cdbd7f9d086c112226ca814794c1c45b2ba3bc229428af3ea2d59334",
+      "bytes": 33756
+    },
+    {
+      "path": "scripts/verify_collect_wikipedia.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/verify_collect_wikipedia.py",
+      "sha256": "9604bd40be5f59d5f8d0d7ee33f6ecd5add37d293fe64a929e6fb6b74b519d93",
+      "bytes": 17142
+    },
+    {
+      "path": "scripts/write_current_health.py",
+      "kind": "exact_source_copy",
+      "source_path": "scripts/write_current_health.py",
+      "sha256": "57a5f767062d21a0641f7e483b66b52994d19d4791b3b2a977d2c18e3b9d5fb1",
+      "bytes": 2730
+    },
+    {
+      "path": "tests/test_agent_guard.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_agent_guard.py",
+      "sha256": "24af33f2d562fbf8f70ed3378bc42e048de09ecc276d09c2bc849b12249d7260",
+      "bytes": 3445
+    },
+    {
+      "path": "tests/test_agent_project_adapters.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_agent_project_adapters.py",
+      "sha256": "3d2c707f61b90a15a0048c320c1147bed01d2370cd2418737b0a13c11895a673",
+      "bytes": 2172
+    },
+    {
+      "path": "tests/test_apply_topic_memberships.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_apply_topic_memberships.py",
+      "sha256": "39cf9adeb0ceb46c13807800d9676d5bba1de26bfa714c5e576bf9cc03ca4128",
+      "bytes": 9010
+    },
+    {
+      "path": "tests/test_audit_content_quality.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_content_quality.py",
+      "sha256": "a6ffaee1e8ed3a1b8fc5aa122e5bc63ea91c0a8560e120dd3797c0b4c55094d1",
+      "bytes": 2148
+    },
+    {
+      "path": "tests/test_audit_relation_consistency.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_relation_consistency.py",
+      "sha256": "868b07360864efe6e2f0f7a6d092653209f171309645477830b73ada15e23972",
+      "bytes": 4220
+    },
+    {
+      "path": "tests/test_audit_repo_processing_profiles.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_repo_processing_profiles.py",
+      "sha256": "f63c6b541eb436124798024ef1dc51a5a3e7225490353260537f163c1bdfee1e",
+      "bytes": 4844
+    },
+    {
+      "path": "tests/test_audit_repo_snapshot.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_repo_snapshot.py",
+      "sha256": "0d708fc7cb4a8b49ecc12902f4b1368026a2fc770608a80cd4f746204b073b58",
+      "bytes": 1681
+    },
+    {
+      "path": "tests/test_audit_repo_translation_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_repo_translation_index.py",
+      "sha256": "09883c000a0679702b4f3298f1380321564d3a7ea81933fee3d8e33030e8388d",
+      "bytes": 1771
+    },
+    {
+      "path": "tests/test_audit_repo_verification_semantics.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_repo_verification_semantics.py",
+      "sha256": "75e498da784a81f27415d9693c5056cc3dc64b27e6d036f2d7918627e0d6398e",
+      "bytes": 1727
+    },
+    {
+      "path": "tests/test_audit_rule_drift.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_rule_drift.py",
+      "sha256": "c75ef42ce6b608ebf050def8787eac720de5256ca6dbe32f7c989922ba260160",
+      "bytes": 19637
+    },
+    {
+      "path": "tests/test_audit_system_upgrade_chain.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_audit_system_upgrade_chain.py",
+      "sha256": "24abe4f7f4e08da3dc2772b21dcdaf2827a2f232da3b1ace7fc9edfcf707af33",
+      "bytes": 727
+    },
+    {
+      "path": "tests/test_build_discovery_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_discovery_index.py",
+      "sha256": "19bbe12f041e929517e9519ec34272aeec8e2b247e46fbd31418e351f31ec332",
+      "bytes": 10284
+    },
+    {
+      "path": "tests/test_build_enrich_inventory.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_enrich_inventory.py",
+      "sha256": "52d1c33c89acd51c90a69177dfefcd8890f7113e5c2ae9f5436b21bcc951d0c7",
+      "bytes": 2420
+    },
+    {
+      "path": "tests/test_build_isolated_unit_ledger.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_isolated_unit_ledger.py",
+      "sha256": "aa0e3545a5f781a823a73024028e1fcc695543c7305dadcb15a5eb616563ac28",
+      "bytes": 20675
+    },
+    {
+      "path": "tests/test_build_knowledge_graph_data.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_knowledge_graph_data.py",
+      "sha256": "ef3b969bfb4b6654ad55613f8f9b560a04eeed745879e3af6ac9c1c1008f31e8",
+      "bytes": 4626
+    },
+    {
+      "path": "tests/test_build_output_gallery.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_output_gallery.py",
+      "sha256": "754632a461127cf880f1beeccc461755ed47f335b06410ec33de4bdf6fdc1694",
+      "bytes": 2897
+    },
+    {
+      "path": "tests/test_build_relation_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_relation_index.py",
+      "sha256": "80a82518e13e740195d70e21835b41cca6730f5a353e0fd590f6b230c624f549",
+      "bytes": 7024
+    },
+    {
+      "path": "tests/test_build_runtime_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_runtime_index.py",
+      "sha256": "d1f27f433fd5a55e717ebc45f02b09d89585bcf9ee225426aa8675d9a0925120",
+      "bytes": 13040
+    },
+    {
+      "path": "tests/test_build_translation_index.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_build_translation_index.py",
+      "sha256": "ddb78bea2e1584c4bfded3db840e50020aef00d4f1422a52af893cf88f0143af",
+      "bytes": 2787
+    },
+    {
+      "path": "tests/test_current_taxonomy_routing.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_current_taxonomy_routing.py",
+      "sha256": "093e67d60819be9b2c871641da75b5e63fd494c7e8c05f4f6b66872b56d304eb",
+      "bytes": 12180
+    },
+    {
+      "path": "tests/test_evidence_batch_runner.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_evidence_batch_runner.py",
+      "sha256": "5a38ddb4d8dc274982fa7f4dce46068effdac3c32a660899c6cc1c1d2b10f93c",
+      "bytes": 2808
+    },
+    {
+      "path": "tests/test_generate_claim_support_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_generate_claim_support_candidates.py",
+      "sha256": "d803cfc64a1025cc23ef6aec272e57987b919a9bd7e6f29628849c3ed4ac6860",
+      "bytes": 8250
+    },
+    {
+      "path": "tests/test_generate_governance_backlog.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_generate_governance_backlog.py",
+      "sha256": "a3de70ffc60d4e331c6fc75b68c258e419b950d941ec37d1f52fbd10665d0ed5",
+      "bytes": 3309
+    },
+    {
+      "path": "tests/test_generate_relation_evidence_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_generate_relation_evidence_candidates.py",
+      "sha256": "5e26377d057371a55228d5a1808fdc475f039221030e350814085452c51410fa",
+      "bytes": 8518
+    },
+    {
+      "path": "tests/test_governance_state_honesty.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_governance_state_honesty.py",
+      "sha256": "c1152a5811c176e4dcb49b9dd8e72133ae86e5d3a2cd6fc6e08bdac95038eadb",
+      "bytes": 3510
+    },
+    {
+      "path": "tests/test_hierarchy_review_recall.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_hierarchy_review_recall.py",
+      "sha256": "388c0c3295e57980cb287472e8d2396bd94756b8f2e4c90a8399bdde09c837c5",
+      "bytes": 14251
+    },
+    {
+      "path": "tests/test_knowledge_maturity.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_knowledge_maturity.py",
+      "sha256": "0bafedc6e69b25c9d2ae4bc40deae76310bbf019a94472996cd4130b1e9324f6",
+      "bytes": 6662
+    },
+    {
+      "path": "tests/test_plan_relation_candidates.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_plan_relation_candidates.py",
+      "sha256": "712d7b6785ebdebc94b9a40960f3eeb756bbe7288729359af68c89e232383bee",
+      "bytes": 6944
+    },
+    {
+      "path": "tests/test_plan_verification_batch.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_plan_verification_batch.py",
+      "sha256": "eec4e26605fc988b1cd4afe0d61eb5dbdd08d59ac89f09228b8998bed9850464",
+      "bytes": 2797
+    },
+    {
+      "path": "tests/test_run_sync_closure.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_run_sync_closure.py",
+      "sha256": "40a03f62444116d0d875251ee0af28f389c5e07ae4ca44c36c85b5d9bcf94d4d",
+      "bytes": 4818
+    },
+    {
+      "path": "tests/test_skill_registry.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_skill_registry.py",
+      "sha256": "3d818633a44e55b8b21c2695b93b963ac8cb6180feec473221128b841d3b5238",
+      "bytes": 4484
+    },
+    {
+      "path": "tests/test_summarize_relation_review_queue.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_summarize_relation_review_queue.py",
+      "sha256": "63d4d5ed288ae19196cbb385f7e4d8964aa8f419092b5957fb7a16b2eaad71b9",
+      "bytes": 5650
+    },
+    {
+      "path": "tests/test_validate_processing_package.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_validate_processing_package.py",
+      "sha256": "913e04a38c908d9289841b820f5e10e32b94d3106ff287d4712b797116e28b4b",
+      "bytes": 13833
+    },
+    {
+      "path": "tests/test_verification_targets.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_verification_targets.py",
+      "sha256": "877ec1d1451edd8024835d589872985a9162d2ddff48b61f331e568cb249006e",
+      "bytes": 3733
+    },
+    {
+      "path": "tests/test_verify_apply_evidence.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_verify_apply_evidence.py",
+      "sha256": "3a0f146bd3bf79d63585c01ec6b34294bc6c5c0f99e3fff247ef6eb4c19c9269",
+      "bytes": 5374
+    },
+    {
+      "path": "tests/test_verify_collect_lcnaf.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_verify_collect_lcnaf.py",
+      "sha256": "d968f3167f911e900c6d4d18c65d388f921966dd874a849d1bb5aa206aa207a1",
+      "bytes": 2115
+    },
+    {
+      "path": "tests/test_verify_collect_openalex.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_verify_collect_openalex.py",
+      "sha256": "21bfb3d30f07458787a8972f6bdaa10f3f39bbea65e8d95c1aa1a4cb5f0a8e79",
+      "bytes": 2408
+    },
+    {
+      "path": "tests/test_verify_collect_openlibrary.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_verify_collect_openlibrary.py",
+      "sha256": "5f499a80cc0c65bb2efb59028970c3a4801a9abf397b047bb925ae6f314a1730",
+      "bytes": 3310
+    },
+    {
+      "path": "tests/test_write_current_health.py",
+      "kind": "exact_source_copy",
+      "source_path": "tests/test_write_current_health.py",
+      "sha256": "e19cb6b5dce2362243570ca81b337064a2fb42fe221af7c002b62edda438099f",
+      "bytes": 2175
+    }
+  ],
+  "manifest_hash_boundary": "This manifest excludes itself; the outer archive SHA-256 covers all archive bytes."
+}

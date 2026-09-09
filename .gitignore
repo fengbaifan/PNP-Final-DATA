@@ -1,0 +1,48 @@
+# Claude Code / SpecStory
+.specstory/
+.opencli/
+.legacy/
+scripts/archive/
+
+# Claude Code local settings (contains API keys, personal config)
+.claude/settings.local.json
+
+# Environment and local configs
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Build outputs
+node_modules/
+dist/
+build/
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+
+# 旧目录结构（已迁移至新架构）
+wiki/
+sources/
+processed/
+00-元方法论/
+
+# 临时文件
+migration-plan.md
+_catalog.json

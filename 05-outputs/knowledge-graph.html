@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Infographic Knowledge Distillation 项目总览：目标、架构、技术路径、知识图谱、当前进展与下一步。">
+<link rel="icon" href="assets/ikd-mark.png">
+<title>Infographic Knowledge Distillation — 项目总览与知识图谱</title>
+<script src="vendor/d3.v7.9.0.min.js"></script>
+<script src="knowledge-graph-data.js"></script>
+<style>
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #7c3aed;
+  --success: #059669;
+  --warning: #b45309;
+  --danger: #dc2626;
+  --ink: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --line-strong: #d1d5db;
+  --surface: #ffffff;
+  --surface-soft: #f8fafc;
+  --surface-blue: #eff6ff;
+  --surface-green: #ecfdf5;
+  --surface-amber: #fffbeb;
+  --page: #f3f4f6;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --shadow: 0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 30px rgba(15, 23, 42, 0.06);
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--page);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+button,
+input { font: inherit; }
+
+button { color: inherit; }
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1000;
+  padding: 8px 12px;
+  color: #fff;
+  background: var(--ink);
+  border-radius: 8px;
+  transform: translateY(-160%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.92);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(14px);
+}
+
+.header-inner {
+  width: min(1180px, calc(100% - 40px));
+  min-height: 64px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.brand-mark {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: var(--ink);
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.brand-copy { min-width: 0; }
+
+.brand-copy strong {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.brand-copy span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.site-nav a {
+  padding: 7px 9px;
+  color: var(--muted);
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  color: var(--ink);
+  background: var(--surface-soft);
+  outline: none;
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.section {
+  padding: 72px 0 0;
+  scroll-margin-top: 72px;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p { margin-top: 0; }
+
+h1 {
+  max-width: 900px;
+  margin-bottom: 20px;
+  font-size: clamp(38px, 6vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.section-lede,
+.hero-lede {
+  color: var(--ink-soft);
+  font-size: 17px;
+}
+
+.hero {
+  padding: 72px 0 8px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.7fr);
+  align-items: end;
+  gap: 48px;
+}
+
+.hero-lede {
+  max-width: 760px;
+  margin-bottom: 26px;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hero-meta strong { color: var(--ink); }
+
+.hero-aside {
+  padding: 24px;
+  color: #fff;
+  background: var(--ink);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.hero-aside .label {
+  margin-bottom: 30px;
+  color: #93c5fd;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-aside strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.hero-aside p {
+  margin-bottom: 0;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 44px;
+}
+
+.metric-card,
+.content-card,
+.architecture-card,
+.progress-card,
+.next-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+.metric-card { padding: 20px; }
+
+.metric-value {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 780;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.metric-label {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.scope-note {
+  margin-top: 16px;
+  padding: 14px 16px;
+  color: var(--ink-soft);
+  background: var(--surface-blue);
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid var(--primary);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.scope-note strong { color: #1e40af; }
+
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.book-list {
+  display: grid;
+  gap: 18px;
+}
+
+.book-card {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1.15fr) minmax(310px, 0.85fr);
+  gap: 28px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+.book-identity {
+  display: flex;
+  min-height: 220px;
+  padding: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  background: var(--ink);
+  border-radius: var(--radius);
+}
+
+.book-number {
+  color: #93c5fd;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.book-year {
+  font-size: 36px;
+  font-weight: 780;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.book-status {
+  color: #cbd5e1;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.book-main { min-width: 0; }
+
+.book-author {
+  margin-bottom: 5px;
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.book-title {
+  margin-bottom: 4px;
+  font-size: clamp(23px, 3vw, 32px);
+  letter-spacing: -0.025em;
+}
+
+.book-title-en {
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.book-citation {
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  color: var(--ink-soft);
+  background: var(--surface-soft);
+  border-left: 3px solid var(--line-strong);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.book-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 18px;
+  margin-bottom: 20px;
+}
+
+.book-meta div {
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--line);
+}
+
+.book-meta dt {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.book-meta dd {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.book-analysis {
+  display: grid;
+  gap: 12px;
+}
+
+.book-analysis h4 {
+  margin: 0 0 3px;
+  font-size: 12px;
+}
+
+.book-analysis p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.book-data {
+  align-self: stretch;
+  padding: 20px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.book-data-heading {
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.book-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.book-stat {
+  padding: 11px 9px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.book-stat strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.book-stat span {
+  display: block;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.35;
+}
+
+.book-progress {
+  margin-bottom: 18px;
+  padding: 11px 12px;
+  color: var(--ink-soft);
+  background: var(--surface-green);
+  border: 1px solid #a7f3d0;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+.type-heading {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.type-breakdown {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.type-breakdown div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 7px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+
+.type-breakdown strong {
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.book-data-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+.book-method-note {
+  margin-top: 16px;
+  padding: 14px 16px;
+  color: var(--ink-soft);
+  background: var(--surface-amber);
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.content-card { padding: 26px; }
+
+.card-index {
+  display: block;
+  margin-bottom: 34px;
+  color: var(--primary-dark);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.content-card p,
+.architecture-card p,
+.progress-card p,
+.next-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.architecture-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.architecture-card {
+  display: grid;
+  grid-template-columns: 128px minmax(0, 1fr) minmax(190px, 0.42fr);
+  align-items: center;
+  gap: 22px;
+  padding: 22px 24px;
+}
+
+.layer-code {
+  color: var(--primary-dark);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.architecture-card h3 { margin-bottom: 4px; }
+
+.architecture-fact {
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+}
+
+.architecture-fact strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.architecture-fact span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.architecture-connector {
+  height: 22px;
+  margin-left: 62px;
+  border-left: 1px solid var(--line-strong);
+}
+
+.pipeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.pipeline::before {
+  content: "";
+  position: absolute;
+  top: 26px;
+  right: 7%;
+  left: 7%;
+  height: 1px;
+  background: var(--line-strong);
+}
+
+.pipeline-step {
+  position: relative;
+  min-height: 190px;
+  padding: 54px 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.pipeline-step::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 6px);
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  background: var(--surface);
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+}
+
+.pipeline-step code {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--primary-dark);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.pipeline-step h3 { font-size: 15px; }
+
+.pipeline-step p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.workflow-rule {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 16px;
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.workflow-rule div {
+  padding: 18px;
+  background: var(--surface-soft);
+}
+
+.workflow-rule strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.workflow-rule span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.graph-shell {
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.graph-toolbar {
+  min-height: 64px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.graph-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.graph-summary strong { color: var(--ink); }
+
+.graph-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.graph-button,
+.reset-filter {
+  min-height: 34px;
+  padding: 6px 10px;
+  cursor: pointer;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.graph-button:hover,
+.graph-button:focus-visible,
+.reset-filter:hover,
+.reset-filter:focus-visible {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.graph-layout {
+  display: grid;
+  grid-template-columns: 224px minmax(0, 1fr);
+  min-height: 680px;
+}
+
+.graph-sidebar {
+  padding: 18px;
+  background: var(--surface-soft);
+  border-right: 1px solid var(--line);
+}
+
+.search-label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 11px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.filter-heading {
+  margin: 22px 0 8px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.legend {
+  display: grid;
+  gap: 4px;
+}
+
+.legend-item {
+  width: 100%;
+  padding: 7px 8px;
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--ink-soft);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.legend-item:hover,
+.legend-item:focus-visible {
+  background: var(--surface);
+  border-color: var(--line);
+  outline: none;
+}
+
+.legend-item.active {
+  color: var(--ink);
+  background: var(--surface);
+  border-color: var(--line-strong);
+  font-weight: 700;
+}
+
+.legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.legend-count {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.reset-filter {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.filter-status {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.graph-stage {
+  position: relative;
+  min-width: 0;
+  min-height: 680px;
+  overflow: hidden;
+  background: #fbfdff;
+}
+
+#graph {
+  display: block;
+  width: 100%;
+  height: 680px;
+  cursor: grab;
+}
+
+#graph:active { cursor: grabbing; }
+
+.graph-empty {
+  position: absolute;
+  inset: 0;
+  display: none;
+  place-items: center;
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+  pointer-events: none;
+}
+
+.graph-empty.visible { display: grid; }
+
+.node { cursor: pointer; }
+
+.node circle {
+  stroke: var(--surface);
+  stroke-width: 2px;
+  transition: stroke-width 140ms ease;
+}
+
+.node:hover circle,
+.node:focus circle { stroke-width: 4px; }
+
+.node text {
+  fill: #4b5563;
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 600;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.link {
+  stroke: #cbd5e1;
+  stroke-opacity: 0.46;
+  stroke-width: 0.65px;
+}
+
+.detail {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  width: min(350px, calc(100% - 32px));
+  max-height: calc(100% - 32px);
+  padding: 22px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transform: translateX(calc(100% + 32px));
+  visibility: hidden;
+  transition: transform 180ms ease, visibility 180ms ease;
+}
+
+.detail.visible {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.detail-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.detail-type {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.detail h3 {
+  padding-right: 24px;
+  font-size: 19px;
+}
+
+.detail-en {
+  margin: -2px 0 14px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.detail-meta span {
+  padding: 3px 7px;
+  color: var(--ink-soft);
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+.detail-description {
+  margin-bottom: 14px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.detail-path {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  overflow-wrap: anywhere;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 300;
+  max-width: 280px;
+  padding: 6px 9px;
+  color: #fff;
+  background: var(--ink);
+  border-radius: 7px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 11px;
+  line-height: 1.4;
+  transition: opacity 120ms ease;
+}
+
+.graph-caption {
+  margin: 0;
+  padding: 13px 16px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+}
+
+.progress-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: 18px;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.progress-card { padding: 20px; }
+
+.progress-card strong {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.status-panel {
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.status-panel h3 { margin-bottom: 18px; }
+
+.status-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+
+.status-row:first-of-type { border-top: 0; }
+
+.status-row span { color: var(--muted); }
+
+.status-row strong { text-align: right; }
+
+.batch-timeline {
+  margin-top: 18px;
+  padding: 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.batch-item {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr) 116px;
+  gap: 18px;
+  padding: 20px 22px;
+  border-top: 1px solid var(--line);
+}
+
+.batch-item:first-child { border-top: 0; }
+
+.batch-id {
+  color: var(--primary-dark);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.batch-item h3 {
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.batch-item p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.batch-result {
+  align-self: start;
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.next-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.next-card { padding: 22px; }
+
+.next-card.primary {
+  background: var(--surface-blue);
+  border-color: #bfdbfe;
+}
+
+.next-card h3 { font-size: 16px; }
+
+.next-state {
+  display: inline-block;
+  margin-bottom: 28px;
+  color: var(--primary-dark);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.next-sequence {
+  margin-top: 14px;
+  padding: 17px 18px;
+  color: var(--ink-soft);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-align: center;
+}
+
+.sources-panel {
+  margin-top: 18px;
+  padding: 18px 20px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 11px;
+}
+
+.sources-panel strong { color: var(--ink-soft); }
+
+.sources-panel code {
+  font-family: var(--font-mono);
+  overflow-wrap: anywhere;
+}
+
+.site-footer {
+  margin-top: 72px;
+  padding: 28px 0 34px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+}
+
+.footer-inner {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.load-error {
+  color: #991b1b;
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+@media (max-width: 980px) {
+  .site-nav a:nth-child(2),
+  .site-nav a:nth-child(3) { display: none; }
+  .hero-grid,
+  .progress-layout { grid-template-columns: 1fr; }
+  .metrics-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .goal-grid,
+  .next-grid { grid-template-columns: 1fr; }
+  .book-card {
+    grid-template-columns: 130px minmax(0, 1fr);
+  }
+  .book-data {
+    grid-column: 2;
+  }
+  .pipeline { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pipeline::before { display: none; }
+  .architecture-card { grid-template-columns: 100px minmax(0, 1fr); }
+  .architecture-fact {
+    grid-column: 2;
+    padding: 10px 0 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+  .graph-layout { grid-template-columns: 190px minmax(0, 1fr); }
+}
+
+@media (max-width: 720px) {
+  .header-inner,
+  .page-shell,
+  .footer-inner { width: min(100% - 24px, 1180px); }
+  .site-nav a { display: none; }
+  .site-nav a:last-child { display: block; }
+  .brand-copy span { display: none; }
+  .hero { padding-top: 48px; }
+  .section { padding-top: 56px; }
+  .metrics-grid,
+  .progress-grid { grid-template-columns: 1fr; }
+  .book-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 18px;
+  }
+  .book-identity {
+    min-height: 132px;
+  }
+  .book-data { grid-column: auto; }
+  .book-meta { grid-template-columns: 1fr; }
+  .book-stat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .architecture-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .architecture-fact { grid-column: auto; }
+  .architecture-connector { margin-left: 22px; }
+  .pipeline { grid-template-columns: 1fr; }
+  .pipeline-step {
+    min-height: 0;
+    padding: 18px 18px 18px 48px;
+  }
+  .pipeline-step::before {
+    top: 22px;
+    left: 18px;
+  }
+  .workflow-rule { grid-template-columns: 1fr; }
+  .graph-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .graph-layout { grid-template-columns: 1fr; }
+  .graph-sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .legend { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .graph-stage,
+  #graph { min-height: 560px; height: 560px; }
+  .batch-item { grid-template-columns: 1fr; gap: 8px; }
+  .batch-result { text-align: left; }
+  .footer-inner { flex-direction: column; gap: 6px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after { transition-duration: 0.01ms !important; }
+}
+</style>
+<link rel="stylesheet" href="knowledge-graph-v2.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">跳至主要内容</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#overview" aria-label="返回项目总览">
+      <img class="brand-mark-image" src="assets/ikd-mark.png" alt="" width="36" height="36">
+      <span class="brand-copy"><strong>信息图表史知识基础设施</strong><span>Infographic Knowledge Distillation</span></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="#overview">总览</a><a href="#architecture">结构</a><a href="#books">书目</a><a href="#knowledge-graph">图谱</a><a href="#pipeline">技术路径</a><a href="#progress">进展</a><a href="#next">下一步</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content" class="page-shell">
+  <section id="overview" class="hero" aria-labelledby="overview-title">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker">学术档案目录 · 信息图表史</p>
+        <h1 id="overview-title">信息图表史<br>知识基础设施</h1>
+        <p class="hero-en">One domain. Five dimensions. Thirty-three themes.</p>
+        <p class="hero-lede">从三部核心著作进入一套可追溯的知识基础设施：对象、关系、层级与证据彼此连接，也保留尚未完成的研究边界。</p>
+        <div class="hero-actions"><a class="primary-action" href="#architecture">浏览研究框架</a><a class="secondary-action" href="#knowledge-graph">打开知识图谱</a></div>
+      </div>
+      <div class="hero-visual" aria-label="知识图谱预览">
+        <span class="hero-preview-label">Live corpus preview</span>
+        <svg id="heroGraph" role="img" aria-label="知识图谱节点与关系预览"></svg>
+        <div class="hero-graph-card"><strong>William Playfair</strong><span>人物 · 统计图形史</span><p>连接作品、出版物与方法节点。完整图谱支持筛选、缩放和证据详情。</p></div>
+      </div>
+    </div>
+    <div class="hero-footer">
+      <div class="hero-footer-inner">
+        <div>
+          <div class="type-key" aria-label="图谱视觉编码">
+            <strong>点：知识元类型</strong>
+            <span class="key-item"><i class="key-dot" style="background:#3B82F6"></i>人物</span><span class="key-item"><i class="key-dot" style="background:#8B5CF6"></i>机构</span><span class="key-item"><i class="key-dot" style="background:#06B6D4"></i>地点</span><span class="key-item"><i class="key-dot" style="background:#F59E0B"></i>作品</span><span class="key-item"><i class="key-dot" style="background:#6366F1"></i>出版物</span><span class="key-item"><i class="key-dot" style="background:#10B981"></i>术语</span><span class="key-item"><i class="key-dot" style="background:#EC4899"></i>程序</span><span class="key-item"><i class="key-dot" style="background:#EF4444"></i>事件</span>
+          </div>
+          <div class="visual-key" aria-label="节点与连线说明"><span class="key-item"><i class="key-ring"></i>圈：当前选择</span><span class="key-item"><i class="key-line"></i>线：普通关系</span><span class="key-item"><i class="key-line strong"></i>线：选中路径</span></div>
+        </div>
+        <div class="project-scale" aria-label="项目规模"><strong><span id="overviewNodeCount">1,642</span> 图节点 · <span id="overviewRelationCount">6,464</span> 关系记录</strong><br><span id="overviewHierarchyCount">1,642</span> 个 KU 已完成五级挂载 · <span id="overviewTopicCount">62</span> 个 Topic 定义 · 130/130 结构健康 · 更新 2026-08-30</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="paper-shell">
+    <section id="architecture" class="section content-width" aria-labelledby="architecture-title">
+      <div class="section-heading"><p class="eyebrow">Research structure</p><h2 id="architecture-title">一套可下钻的<br>研究结构</h2><p class="section-lede">主干采用 Domain → Dimension → Theme → Topic → KU。Cluster 只保留为跨层发现候选，不替代正式结构节点。</p></div>
+      <div class="structure-layout">
+        <aside class="structure-metrics" aria-label="层级结构规模"><div class="structure-metric"><strong>1</strong><span>Domain</span></div><div class="structure-metric"><strong>5</strong><span>Dimension</span></div><div class="structure-metric"><strong>33</strong><span>Theme</span></div><div class="structure-metric"><strong id="structureTopicCount">62</strong><span>Topic 定义</span></div></aside>
+        <div class="hierarchy-panel">
+          <div class="hierarchy-level"><div class="level-label">Level 1<span>Domain</span></div><div class="core-theme"><strong>信息可视化的历史与理论</strong><span>视觉传知工具如何在历史、理论、技术与制度条件中演化</span></div></div>
+          <div class="hierarchy-level">
+            <div class="level-label">Level 2<span>Dimension</span></div>
+            <div class="dimension-tabs" role="tablist" aria-label="五个研究维度">
+              <button class="dimension-tab" style="--dimension-color:#4F7FEA" type="button" role="tab" aria-selected="false" data-dimension="A"><strong>A · 认识论</strong><span>5 个 Theme</span></button>
+              <button class="dimension-tab active" style="--dimension-color:#2FA99B" type="button" role="tab" aria-selected="true" data-dimension="B"><strong>B · 视觉编码</strong><span>8 个 Theme</span></button>
+              <button class="dimension-tab" style="--dimension-color:#D99A2B" type="button" role="tab" aria-selected="false" data-dimension="C"><strong>C · 历史谱系</strong><span>8 个 Theme</span></button>
+              <button class="dimension-tab" style="--dimension-color:#9877D9" type="button" role="tab" aria-selected="false" data-dimension="D"><strong>D · 批判传统</strong><span>9 个 Theme</span></button>
+              <button class="dimension-tab" style="--dimension-color:#D95745" type="button" role="tab" aria-selected="false" data-dimension="E"><strong>E · 身体与人机</strong><span>3 个 Theme</span></button>
+            </div>
+          </div>
+          <div class="hierarchy-level">
+            <div class="level-label">Level 3<span>Theme</span></div>
+            <div class="issue-panel" id="dimensionPanel" role="tabpanel">
+              <div class="issue-summary"><strong id="dimensionTitle">B · 视觉编码技术体系</strong><span><b id="dimensionCount">8</b> 个 Theme · 选择上方维度查看</span></div>
+              <ul class="issue-list" id="dimensionIssues"><li>B.1 组织式与网格式编码</li><li>B.2 几何式量化编码</li><li>B.3 拟真式与复合编码</li><li>B.4 制图与等值线技术</li><li>B.5 统计与流量编码</li><li>B.6 现代信息图表技术</li><li>B.7 设计标准与质量控制</li><li>B.8 统计方法与决策支持</li></ul>
+            </div>
+          </div>
+          <div class="hierarchy-level">
+            <div class="level-label">Level 4<span>Topic</span></div>
+            <div><div class="theme-band"><strong><span id="level4TopicCount">62</span> 个正式 Topic 定义</strong>提出具体研究问题；<span id="level4TopicAssigned">1,642</span> 个 KU 已通过 <code>topic_memberships</code> 建立多对多归属，未决对象不根据画面位置推定。</div></div>
+          </div>
+          <div class="hierarchy-level">
+            <div class="level-label">Level 5<span>Knowledge Unit</span></div>
+            <div><div class="theme-band"><strong><span id="architectureNodeCount">1,642</span> 个知识元</strong>其中 <span id="hierarchyCompleteCount">1,642</span> 个已完成 Domain、Dimension、Theme 与 Topic 挂载；其余 <span id="hierarchyPendingCount">0</span> 个保留为待裁决对象。</div><p class="hierarchy-note">KU 可多对多进入 Topic；Cluster 只提供跨层发现信号，不自动晋升。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="books" class="section content-width" aria-labelledby="books-title">
+      <div class="section-heading"><p class="eyebrow">Distilled monographs</p><h2 id="books-title">三部书，三条<br>知识路径</h2><p class="section-lede">每本书按书目身份、研究问题、材料方法、学术贡献和蒸馏结果介绍。数据可交叉重叠，不以三书相加替代全库总量。</p></div>
+      <div class="book-list">
+        <article class="book-card" aria-labelledby="brinton-book-title">
+          <img class="book-cover" src="assets/cover-brinton-1914.png" alt="Graphic Methods for Presenting Facts 项目书目封面缩略图" width="128" height="171" loading="lazy">
+          <div class="book-main"><div class="book-author">Willard C. Brinton · 1914</div><h3 class="book-title" id="brinton-book-title">《以图表呈现事实》</h3><p class="book-title-en">Graphic Methods for Presenting Facts</p><p class="book-citation">New York: The Engineering Magazine Company, 1914. 实用方法论专著，17 章、254 幅图版。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>事实如何用曲线、条形、面积、地图与比较图准确表达。</dd></div><div><dt>材料与方法</dt><dd>以实例、反例和图版比较建立尺度、基线与标注规范。</dd></div><div><dt>学术贡献</dt><dd>记录统计图形转向组织管理与公共沟通的早期实践。</dd></div></dl></div>
+          <aside class="book-data" aria-label="Brinton 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>190</strong><span>关联知识元</span></div><div class="book-stat"><strong>127</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>807</strong><span>证据命中关系</span></div></div><div class="book-progress">18/18 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>术语 <strong>106</strong></div><div>程序 <strong>42</strong></div><div>人物 <strong>11</strong></div><div>其他 <strong>31</strong></div></div></aside>
+        </article>
+        <article class="book-card" aria-labelledby="lima-book-title">
+          <img class="book-cover" src="assets/cover-lima-circles-2017.png" alt="Book of Circles 项目书目封面缩略图" width="128" height="171" loading="lazy">
+          <div class="book-main"><div class="book-author">Manuel Lima · 2017</div><h3 class="book-title" id="lima-book-title">《圆圈之书：视觉化的知识领域》</h3><p class="book-title-en">Book of Circles: Visualizing Spheres of Knowledge</p><p class="book-citation">New York: Princeton Architectural Press, 2017. 视觉文化史与类型学专著，7 个家族、21 种模式。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>圆形为何跨文化反复成为知识组织与视觉表达的基本形式。</dd></div><div><dt>材料与方法</dt><dd>比较 300 余幅图像，以历史、符号学与认知研究建立类型谱系。</dd></div><div><dt>学术贡献</dt><dd>把圆形从形式母题推进为可比较、可检验的视觉语法。</dd></div></dl></div>
+          <aside class="book-data" aria-label="Lima 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>436</strong><span>关联知识元</span></div><div class="book-stat"><strong>51</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>527</strong><span>证据命中关系</span></div></div><div class="book-progress">6/6 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>作品 <strong>259</strong></div><div>人物 <strong>73</strong></div><div>术语 <strong>45</strong></div><div>其他 <strong>59</strong></div></div></aside>
+        </article>
+        <article class="book-card" aria-labelledby="rendgen-book-title">
+          <img class="book-cover" src="assets/cover-rendgen-history-2019.png" alt="History of Information Graphics 项目书目封面缩略图" width="128" height="171" loading="lazy">
+          <div class="book-main"><div class="book-author">Sandra Rendgen, editor · 2019</div><h3 class="book-title" id="rendgen-book-title">《信息图表史》</h3><p class="book-title-en">History of Information Graphics</p><p class="book-citation">Cologne: TASCHEN, 2019. 编著式历史图集，9 章、462 页，约 400 件历史案例。</p><dl class="book-summary"><div><dt>研究问题</dt><dd>信息图形如何跨时期参与知识生产、传播和社会组织。</dd></div><div><dt>材料与方法</dt><dd>以年代叙事、作品图录与专题收藏并行组织历史视觉材料。</dd></div><div><dt>学术贡献</dt><dd>提供最广的对象与出处网络，同时保留欧美馆藏偏向的边界。</dd></div></dl></div>
+          <aside class="book-data" aria-label="Rendgen 蒸馏数据"><h4 class="book-data-heading">蒸馏结果</h4><div class="book-stat-grid"><div class="book-stat"><strong>1,024</strong><span>关联知识元</span></div><div class="book-stat"><strong>97</strong><span>来源命中 claim</span></div><div class="book-stat"><strong>1,429</strong><span>证据命中关系</span></div></div><div class="book-progress">10/10 processing units · compact-v4 语义验收通过</div><div class="type-breakdown"><div>人物 <strong>355</strong></div><div>作品 <strong>352</strong></div><div>术语 <strong>139</strong></div><div>其他 <strong>178</strong></div></div></aside>
+        </article>
+      </div>
+      <div class="book-method-note"><strong>统计边界：</strong>“关联知识元”按 KU 的 <code>doc_id</code> 或 <code>sources[].evidence_ref.doc_id</code> 去重回溯；同一对象可由多本书共同支撑。关系数是来源证据命中的索引行，不等于去重后的抽象命题。</div>
+    </section>
+  </div>
+
+  <section id="knowledge-graph" class="graph-section" aria-labelledby="graph-title">
+    <div class="content-width">
+      <div class="section-heading"><p class="eyebrow">Knowledge graph</p><h2 id="graph-title">从全库进入<br>一条关系</h2><p class="section-lede">节点按知识元类型着色，大小反映连接度；选择节点后强调相邻路径。层级归属在上方展示，图中不根据画面位置推断结构。</p></div>
+      <div class="graph-shell">
+        <div class="graph-toolbar"><div class="graph-summary" id="graphSummary" aria-live="polite"><span>节点 <strong>—</strong></span><span>可视关系 <strong>—</strong></span><span>类型 <strong>8</strong></span></div><div class="graph-actions" aria-label="图谱视图控制"><button class="graph-button" type="button" id="zoomOutButton">缩小</button><button class="graph-button" type="button" id="zoomResetButton">复位</button><button class="graph-button" type="button" id="zoomInButton">放大</button></div></div>
+        <div class="graph-layout">
+          <aside class="graph-sidebar" aria-label="图谱筛选">
+            <label class="search-label" for="searchInput">搜索标题、英文名或标签</label><input class="search-input" type="search" id="searchInput" placeholder="例如：地图、Playfair" autocomplete="off">
+            <div class="filter-heading">知识元类型</div><div class="legend" id="legend"></div><button class="reset-filter" type="button" id="resetFilterButton">清除筛选</button><p class="filter-status" id="filterStatus" aria-live="polite">正在载入图谱…</p>
+            <div class="filter-heading">连线语义</div><div class="relation-key"><span class="key-item"><i class="key-line"></i>显式关系</span><span class="key-item"><i class="key-line" style="border-top-style:dashed"></i>规则推断</span><span class="key-item"><i class="key-line strong"></i>选中邻接路径</span></div>
+          </aside>
+          <div class="graph-stage" id="graphStage"><svg id="graph" role="img" aria-label="知识元关系力导向图"></svg><div class="graph-empty" id="graphEmpty">没有符合当前条件的知识元，请调整关键词或类型。</div><aside class="detail" id="detail" aria-label="知识元详情" aria-hidden="true"><button class="detail-close" type="button" id="detailCloseButton" aria-label="关闭知识元详情">×</button><div id="detailContent"></div></aside></div>
+        </div>
+        <p class="graph-caption">图中呈现 KU-to-KU 关系；端点不是知识元的记录仍保留在权威关系索引中。页面及 D3 运行时均可离线加载。</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="paper-shell">
+    <section id="pipeline" class="section content-width" aria-labelledby="pipeline-title">
+      <div class="section-heading"><p class="eyebrow">Technical pathway</p><h2 id="pipeline-title">从来源到输出<br>六个动作</h2><p class="section-lede">语义阅读与判断由 Agent 承担；脚本负责索引、校验、dry-run 和受控写回。任何自动化都不直接提升置信度或验证状态。</p></div>
+      <div class="pathway" aria-label="知识蒸馏技术路径"><article class="pathway-step"><code>INTAKE</code><h3>摄入</h3><p>只读归档、哈希与章节映射。</p></article><article class="pathway-step"><code>READ</code><h3>阅读</h3><p>逐章抽取、消歧与类型判断。</p></article><article class="pathway-step"><code>COMPILE</code><h3>编译</h3><p>将候选编译为八类知识元。</p></article><article class="pathway-step"><code>VERIFY</code><h3>验证</h3><p>collect → evidence → dry-run → apply。</p></article><article class="pathway-step"><code>ORGANIZE</code><h3>组织</h3><p>关系、层级、主题与语义补足。</p></article><article class="pathway-step"><code>OUTPUT</code><h3>输出</h3><p>研究产出、回溯与发布门禁。</p></article></div>
+    </section>
+
+    <section id="progress" class="section content-width" aria-labelledby="progress-title">
+      <div class="section-heading"><p class="eyebrow">Current progress</p><h2 id="progress-title">五级结构基本闭合，<br>证据深化继续</h2><p class="section-lede">完成事实、运行信号和延期语义工作分开呈现。130/130 结构健康与 37/37 语义工件完整说明系统可运行，不等同于逐条学术验收。</p></div>
+      <div class="progress-facts"><article class="progress-fact"><strong>1,642/1,642</strong><h3>五级层级已挂载</h3><p>层级缺口已归零；边界案例继续保留角色与范围说明。</p></article><article class="progress-fact"><strong>280/280</strong><h3>claim 来源完整</h3><p>断言均保留来源与 source span。</p></article><article class="progress-fact"><strong>2,789/2,789</strong><h3>显式关系有证据</h3><p>另有 3,675 条规则推断关系，保持分层。</p></article><article class="progress-fact"><strong>1,642/1,642</strong><h3>现存 KU 已审</h3><p>证据不足对象保持延期或 tentative，不伪装为人工确认完成。</p></article></div>
+      <ol class="batch-timeline" aria-label="最近关键执行批次"><li class="batch-item"><div class="batch-id">BATCH 326</div><div><h3>层级尾项与重复合并</h3><p>4 个层级尾项完成裁决；2 个 Topic membership 写回，2 对重复 KU 合并。</p></div><div class="batch-result">层级缺口归零</div></li><li class="batch-item"><div class="batch-id">BATCH 321–322</div><div><h3>候选生命周期收敛</h3><p>关系与 creator 候选逐项复核；不充分证据保留延期，不自动升级为正式知识。</p></div><div class="batch-result">24 个 active candidate</div></li><li class="batch-item"><div class="batch-id">BATCH 323–325</div><div><h3>全库语义 enrich 收口</h3><p>最终 381 个对象完成复核；34 个补写，347 个转为来源复核延期，全库待审窗口归零。</p></div><div class="batch-result">现存 KU 全部已审</div></li></ol>
+      <div class="scope-note"><strong>当前边界：</strong>1,412 个知识元仍为单来源，24 个 active candidate 尚待处理；证据链评分 54/55 的唯一扣分来自外部 URL 尚未纳入本地 <code>doc_id</code> 口径。结构闭合不等于外部验证完成。</div>
+    </section>
+
+    <section id="next" class="section content-width" aria-labelledby="next-title">
+      <div class="section-heading"><p class="eyebrow">Next work</p><h2 id="next-title">从结构闭合，<br>走向证据与输出闭环</h2><p class="section-lede">下一阶段不再继续大规模挂载，而是修正证据审计口径、选择性补证，并检验 Topic 能否稳定支撑研究问题。</p></div>
+      <div class="next-grid"><article class="next-card primary"><span class="next-state">Priority 1 · audit</span><h3>修正外部证据计分</h3><p>让权威 URL 与本地 <code>doc_id</code> 分轨计入可解析证据，消除 54/55 中的口径性扣分。</p></article><article class="next-card"><span class="next-state">Priority 2 · evidence</span><h3>定向深化研究证据</h3><p>从 1,412 个单来源、1,446 个 tentative 对象中优先补证高连接 KU，不无差别重开。</p></article><article class="next-card"><span class="next-state">Priority 3 · output</span><h3>用 62 个 Topic 形成论证</h3><p>复核 Topic 边界与反例，再形成专题综述、查询结果与可回写研究输出。</p></article></div>
+      <div class="sources-panel"><strong>口径说明：</strong>本页于 2026-08-30 依据层级 v7.4、Batch 326、当前关系索引与健康快照更新。机械检查、语义审查、外部验证和正式验收保持区分。</div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="footer-inner"><span>Infographic Knowledge Distillation · Academic archive &amp; graph</span><span>Project v5.3.0 · knowledge &amp; verification 2026-08-30</span></div></footer>
+<div class="tooltip" id="tooltip" role="status"></div>
+
+<script>
+const TYPE_COLORS = {
+  person: "#3B82F6",
+  institution: "#8B5CF6",
+  place: "#06B6D4",
+  work: "#F59E0B",
+  publication: "#6366F1",
+  term: "#10B981",
+  procedure: "#EC4899",
+  event: "#EF4444"
+};
+
+const TYPE_ZH = {
+  person: "人物",
+  institution: "机构",
+  place: "地点",
+  work: "作品",
+  publication: "出版物",
+  term: "术语",
+  procedure: "程序",
+  event: "事件"
+};
+
+const TYPE_POSITIONS = {
+  person: [0.28, 0.30],
+  institution: [0.68, 0.28],
+  place: [0.82, 0.47],
+  work: [0.54, 0.72],
+  publication: [0.76, 0.68],
+  term: [0.34, 0.65],
+  procedure: [0.17, 0.50],
+  event: [0.50, 0.18]
+};
+
+const DIMENSION_DATA = {
+  A: {
+    title: "A · 认识论与哲学基础",
+    issues: ["A.1 可视化的历史必然性", "A.2 物质与认识论条件", "A.3 图形学的学科独立性", "A.4 普遍可读性的理想与现实", "A.5 从知识插图到知识生产工具"]
+  },
+  B: {
+    title: "B · 视觉编码技术体系",
+    issues: ["B.1 组织式与网格式编码", "B.2 几何式量化编码", "B.3 拟真式与复合编码", "B.4 制图与等值线技术", "B.5 统计与流量编码", "B.6 现代信息图表技术", "B.7 设计标准与质量控制", "B.8 统计方法与决策支持"]
+  },
+  C: {
+    title: "C · 历史实践谱系",
+    issues: ["C.1 古代视觉知识工具", "C.2 中世纪图像传统", "C.3 文艺复兴与近代早期", "C.4 科学革命与统计起源", "C.5 十九世纪统计革命", "C.6 二十世纪实践", "C.7 早期新闻信息图表", "C.8 管理可视化传统"]
+  },
+  D: {
+    title: "D · 批判性传统与边界探索",
+    issues: ["D.1 讽刺可视化谱系", "D.2 编码失效与不可能性", "D.3 数据自传与主观量化", "D.4 批判性地图学", "D.5 教育可视化谱系", "D.6 改革、创新与惯例", "D.7 信息设计美学论争", "D.8 历史性与劳动政治", "D.9 新闻图形作为历史记录"]
+  },
+  E: {
+    title: "E · 身体图像与人机关系",
+    issues: ["E.1 解剖学可视化传统", "E.2 身体即机器隐喻", "E.3 人因学标准化的知识政治"]
+  }
+};
+
+let graphData = null;
+let simulation = null;
+let graphSvg = null;
+let zoomBehavior = null;
+let graphLayer = null;
+let currentType = null;
+let currentQuery = "";
+let renderedNodeSelection = null;
+let renderedLinkSelection = null;
+let activeNodeId = null;
+
+const numberFormat = new Intl.NumberFormat("zh-CN");
+
+function endpointId(endpoint) {
+  return typeof endpoint === "object" && endpoint !== null ? endpoint.id : endpoint;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+async function loadData() {
+  if (window.KNOWLEDGE_GRAPH_DATA) {
+    graphData = window.KNOWLEDGE_GRAPH_DATA;
+  } else {
+    const response = await fetch("knowledge-graph-data.json");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    graphData = await response.json();
+  }
+
+  updateProjectMetrics();
+  renderHeroPreview();
+  buildLegend();
+  applyFilters();
+}
+
+function updateProjectMetrics() {
+  const stats = graphData.stats;
+  const nodeCount = numberFormat.format(stats.total_nodes);
+  const relationCount = numberFormat.format(stats.relation_index_total);
+  const topicCount = numberFormat.format(stats.structure_nodes?.topics || 0);
+  const topicAssigned = stats.hierarchy?.topic_assigned || 0;
+  const hierarchyCount = numberFormat.format(topicAssigned);
+  const hierarchyPending = numberFormat.format(Math.max(0, stats.total_nodes - topicAssigned));
+
+  const setMetric = (id, value) => {
+    const element = document.getElementById(id);
+    if (element) element.textContent = value;
+  };
+
+  for (const id of ["overviewNodeCount", "architectureNodeCount"]) {
+    setMetric(id, nodeCount);
+  }
+  setMetric("overviewRelationCount", relationCount);
+  setMetric("overviewHierarchyCount", hierarchyCount);
+  setMetric("hierarchyCompleteCount", hierarchyCount);
+  setMetric("hierarchyPendingCount", hierarchyPending);
+  setMetric("level4TopicAssigned", hierarchyCount);
+  for (const id of ["overviewTopicCount", "structureTopicCount", "level4TopicCount"]) {
+    setMetric(id, topicCount);
+  }
+  document.getElementById("graphSummary").innerHTML = `
+    <span>节点 <strong>${nodeCount}</strong></span>
+    <span>可视化关系 <strong>${numberFormat.format(stats.total_links)}</strong></span>
+    <span>类型 <strong>${Object.keys(stats.by_type).length}</strong></span>
+  `;
+}
+
+function renderHeroPreview() {
+  const svgElement = document.getElementById("heroGraph");
+  if (!svgElement || !graphData?.nodes?.length) return;
+
+  const width = Math.max(svgElement.clientWidth, 560);
+  const height = Math.max(svgElement.clientHeight, 420);
+  const degree = new Map();
+  for (const link of graphData.links) {
+    const source = endpointId(link.source);
+    const target = endpointId(link.target);
+    degree.set(source, (degree.get(source) || 0) + 1);
+    degree.set(target, (degree.get(target) || 0) + 1);
+  }
+
+  const sampled = [...graphData.nodes]
+    .sort((a, b) => (degree.get(b.id) || 0) - (degree.get(a.id) || 0))
+    .slice(0, 220)
+    .map((node) => ({ ...node }));
+  const ids = new Set(sampled.map((node) => node.id));
+  const links = graphData.links
+    .filter((link) => ids.has(endpointId(link.source)) && ids.has(endpointId(link.target)))
+    .slice(0, 360)
+    .map((link) => ({ ...link, source: endpointId(link.source), target: endpointId(link.target) }));
+  const previewFocus = "persons:william-playfair";
+  const previewNeighbors = new Set([previewFocus]);
+  for (const relation of links) {
+    if (relation.source === previewFocus) previewNeighbors.add(relation.target);
+    if (relation.target === previewFocus) previewNeighbors.add(relation.source);
+  }
+
+  svgElement.replaceChildren();
+  const svg = d3.select(svgElement).attr("viewBox", [0, 0, width, height]);
+  const link = svg.append("g").attr("aria-hidden", "true").selectAll("line").data(links).join("line")
+    .attr("stroke", (item) => item.source === previewFocus || item.target === previewFocus ? "#a9c7ff" : "#6f86a0")
+    .attr("stroke-opacity", (item) => item.source === previewFocus || item.target === previewFocus ? 0.92 : item.relation_source === "inferred" ? 0.08 : 0.16)
+    .attr("stroke-width", (item) => item.source === previewFocus || item.target === previewFocus ? 1.8 : item.relation_source === "inferred" ? 0.45 : 0.7);
+  const node = svg.append("g").attr("aria-hidden", "true").selectAll("circle").data(sampled).join("circle")
+    .attr("r", (item) => Math.min(3 + Math.sqrt(degree.get(item.id) || 0) * 0.85, 9))
+    .attr("fill", (item) => TYPE_COLORS[item.type] || "#8ea2b8")
+    .attr("stroke", (item) => item.id === previewFocus ? "#ffffff" : previewNeighbors.has(item.id) ? "#a9c7ff" : "rgba(255,255,255,.55)")
+    .attr("stroke-width", (item) => item.id === previewFocus ? 3 : previewNeighbors.has(item.id) ? 1.7 : 0.7);
+
+  const previewSimulation = d3.forceSimulation(sampled)
+    .force("link", d3.forceLink(links).id((item) => item.id).distance(48).strength(0.26))
+    .force("charge", d3.forceManyBody().strength(-46))
+    .force("collision", d3.forceCollide().radius((item) => Math.min(5 + Math.sqrt(degree.get(item.id) || 0), 12)))
+    .force("x", d3.forceX((item) => (TYPE_POSITIONS[item.type]?.[0] || 0.5) * width).strength(0.07))
+    .force("y", d3.forceY((item) => (TYPE_POSITIONS[item.type]?.[1] || 0.5) * height).strength(0.07))
+    .on("tick", () => {
+      link.attr("x1", (item) => item.source.x).attr("y1", (item) => item.source.y).attr("x2", (item) => item.target.x).attr("y2", (item) => item.target.y);
+      node.attr("cx", (item) => item.x).attr("cy", (item) => item.y);
+    });
+  setTimeout(() => previewSimulation.alphaTarget(0).stop(), 2800);
+}
+
+function buildLegend() {
+  const legend = document.getElementById("legend");
+  legend.replaceChildren();
+
+  const definitions = [[null, "全部", "#64748B"], ...Object.entries(TYPE_ZH).map(([type, label]) => [type, label, TYPE_COLORS[type]])];
+  for (const [type, label, color] of definitions) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `legend-item${type === currentType ? " active" : ""}`;
+    button.dataset.type = type || "all";
+    button.setAttribute("aria-pressed", type === currentType ? "true" : "false");
+    const count = type ? graphData.stats.by_type[type] || 0 : graphData.stats.total_nodes;
+    button.innerHTML = `
+      <span class="legend-dot" style="background:${color}"></span>
+      <span>${label}</span>
+      <span class="legend-count">${numberFormat.format(count)}</span>
+    `;
+    button.addEventListener("click", () => {
+      currentType = type;
+      updateLegendState();
+      applyFilters();
+    });
+    legend.appendChild(button);
+  }
+}
+
+function updateLegendState() {
+  document.querySelectorAll(".legend-item").forEach((button) => {
+    const isActive = button.dataset.type === (currentType || "all");
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
+}
+
+function applyFilters() {
+  const query = currentQuery.trim().toLocaleLowerCase("zh-CN");
+  let nodes = graphData.nodes;
+
+  if (currentType) {
+    nodes = nodes.filter((node) => node.type === currentType);
+  }
+
+  if (query) {
+    nodes = nodes.filter((node) => {
+      const values = [node.title, node.name_en, node.sub_type, ...(node.tags || [])];
+      return values.some((value) => String(value || "").toLocaleLowerCase("zh-CN").includes(query));
+    });
+  }
+
+  const nodeIds = new Set(nodes.map((node) => node.id));
+  const links = graphData.links.filter((link) => nodeIds.has(endpointId(link.source)) && nodeIds.has(endpointId(link.target)));
+  renderGraph(nodes, links);
+
+  const typeText = currentType ? TYPE_ZH[currentType] : "全部类型";
+  const queryText = query ? `，关键词“${currentQuery.trim()}”` : "";
+  document.getElementById("filterStatus").textContent = `${typeText}${queryText}：${numberFormat.format(nodes.length)} 个节点，${numberFormat.format(links.length)} 条关系。`;
+  document.getElementById("graphEmpty").classList.toggle("visible", nodes.length === 0);
+}
+
+function renderGraph(nodes, links) {
+  if (simulation) simulation.stop();
+
+  const stage = document.getElementById("graphStage");
+  const width = Math.max(stage.clientWidth, 320);
+  const height = stage.clientHeight || 680;
+  const renderNodes = nodes.map((node) => ({ ...node }));
+  const renderNodeIds = new Set(renderNodes.map((node) => node.id));
+  const renderLinks = links
+    .map((link) => ({ ...link, source: endpointId(link.source), target: endpointId(link.target) }))
+    .filter((link) => renderNodeIds.has(link.source) && renderNodeIds.has(link.target));
+
+  const svgElement = document.getElementById("graph");
+  svgElement.replaceChildren();
+  graphSvg = d3.select(svgElement)
+    .attr("viewBox", [0, 0, width, height])
+    .attr("width", width)
+    .attr("height", height);
+
+  graphLayer = graphSvg.append("g");
+  zoomBehavior = d3.zoom()
+    .scaleExtent([0.12, 8])
+    .on("zoom", (event) => graphLayer.attr("transform", event.transform));
+  graphSvg.call(zoomBehavior);
+
+  if (renderNodes.length === 0) return;
+
+  const degree = new Map();
+  for (const relation of renderLinks) {
+    degree.set(relation.source, (degree.get(relation.source) || 0) + 1);
+    degree.set(relation.target, (degree.get(relation.target) || 0) + 1);
+  }
+  const densityScale = renderNodes.length > 800 ? 0.68 : renderNodes.length > 300 ? 0.82 : 1;
+  const radiusFor = (item) => Math.max(2.8, Math.min((3.1 + Math.sqrt(degree.get(item.id) || 0) * 1.15) * densityScale, 13));
+
+  const link = graphLayer.append("g")
+    .attr("aria-hidden", "true")
+    .selectAll("line")
+    .data(renderLinks)
+    .join("line")
+    .attr("class", (item) => `link${item.relation_source === "inferred" ? " inferred" : ""}`);
+
+  const node = graphLayer.append("g")
+    .selectAll("g")
+    .data(renderNodes)
+    .join("g")
+    .attr("class", "node")
+    .attr("tabindex", renderNodes.length <= 200 ? 0 : null)
+    .attr("role", renderNodes.length <= 200 ? "button" : null)
+    .attr("aria-label", renderNodes.length <= 200 ? (item) => `${item.title}，${item.type_zh}` : null)
+    .call(d3.drag()
+      .on("start", dragStarted)
+      .on("drag", dragged)
+      .on("end", dragEnded))
+    .on("click", (event, item) => {
+      event.stopPropagation();
+      highlightNode(item.id);
+      showDetail(item);
+    })
+    .on("keydown", (event, item) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        highlightNode(item.id);
+        showDetail(item);
+      }
+    })
+    .on("mouseenter", showTooltip)
+    .on("mousemove", moveTooltip)
+    .on("mouseleave", hideTooltip);
+
+  node.append("circle")
+    .attr("r", radiusFor)
+    .attr("fill", (item) => TYPE_COLORS[item.type] || "#94A3B8");
+
+  if (renderNodes.length < 170) {
+    node.append("text")
+      .text((item) => item.title.length > 12 ? `${item.title.slice(0, 12)}…` : item.title)
+      .attr("dy", (item) => radiusFor(item) + 12);
+  }
+
+  renderedLinkSelection = link;
+  renderedNodeSelection = node;
+  activeNodeId = null;
+
+  const charge = renderNodes.length > 800 ? -52 : renderNodes.length > 250 ? -78 : -138;
+  simulation = d3.forceSimulation(renderNodes)
+    .force("link", d3.forceLink(renderLinks).id((item) => item.id).distance(renderNodes.length > 800 ? 44 : 62).strength((item) => item.relation_source === "inferred" ? 0.1 : 0.25))
+    .force("charge", d3.forceManyBody().strength(charge))
+    .force("center", d3.forceCenter(width / 2, height / 2).strength(0.035))
+    .force("collision", d3.forceCollide().radius((item) => radiusFor(item) + 3))
+    .force("x", d3.forceX((item) => (TYPE_POSITIONS[item.type]?.[0] || 0.5) * width).strength(0.045))
+    .force("y", d3.forceY((item) => (TYPE_POSITIONS[item.type]?.[1] || 0.5) * height).strength(0.045))
+    .on("tick", () => {
+      link
+        .attr("x1", (item) => item.source.x)
+        .attr("y1", (item) => item.source.y)
+        .attr("x2", (item) => item.target.x)
+        .attr("y2", (item) => item.target.y);
+      node.attr("transform", (item) => `translate(${item.x},${item.y})`);
+    });
+
+  function dragStarted(event, item) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    item.fx = item.x;
+    item.fy = item.y;
+  }
+
+  function dragged(event, item) {
+    item.fx = event.x;
+    item.fy = event.y;
+  }
+
+  function dragEnded(event, item) {
+    if (!event.active) simulation.alphaTarget(0);
+    item.fx = null;
+    item.fy = null;
+  }
+}
+
+function highlightNode(nodeId) {
+  if (!renderedNodeSelection || !renderedLinkSelection) return;
+  activeNodeId = nodeId;
+  const neighborIds = new Set([nodeId]);
+  renderedLinkSelection.each((item) => {
+    const source = endpointId(item.source);
+    const target = endpointId(item.target);
+    if (source === nodeId) neighborIds.add(target);
+    if (target === nodeId) neighborIds.add(source);
+  });
+  renderedNodeSelection
+    .classed("selected", (item) => item.id === nodeId)
+    .classed("dimmed", (item) => !neighborIds.has(item.id));
+  renderedLinkSelection
+    .classed("selected", (item) => endpointId(item.source) === nodeId || endpointId(item.target) === nodeId)
+    .classed("dimmed", (item) => endpointId(item.source) !== nodeId && endpointId(item.target) !== nodeId);
+}
+
+function clearNodeHighlight() {
+  activeNodeId = null;
+  renderedNodeSelection?.classed("selected", false).classed("dimmed", false);
+  renderedLinkSelection?.classed("selected", false).classed("dimmed", false);
+}
+
+function showTooltip(event, item) {
+  const tooltip = document.getElementById("tooltip");
+  tooltip.textContent = `${item.title} · ${item.type_zh}`;
+  tooltip.style.opacity = "1";
+  moveTooltip(event);
+}
+
+function moveTooltip(event) {
+  const tooltip = document.getElementById("tooltip");
+  tooltip.style.left = `${event.clientX + 12}px`;
+  tooltip.style.top = `${event.clientY - 32}px`;
+}
+
+function hideTooltip() {
+  document.getElementById("tooltip").style.opacity = "0";
+}
+
+function showDetail(node) {
+  const detail = document.getElementById("detail");
+  const content = document.getElementById("detailContent");
+  const color = TYPE_COLORS[node.type] || "#64748B";
+  const tags = (node.tags || []).filter(Boolean).map((tag) => `<span>#${escapeHtml(tag)}</span>`).join("");
+
+  content.innerHTML = `
+    <span class="detail-type" style="background:${color}18;color:${color}">${escapeHtml(node.type_zh)}</span>
+    <h3>${escapeHtml(node.title)}</h3>
+    ${node.name_en ? `<p class="detail-en">${escapeHtml(node.name_en)}</p>` : ""}
+    <div class="detail-meta">
+      <span>置信度：${escapeHtml(node.confidence || "—")}</span>
+      <span>共识：${escapeHtml(node.consensus || "—")}</span>
+      <span>来源：${escapeHtml(node.source_count || "—")}</span>
+      <span>验证：${escapeHtml(node.evidence_status || "—")}</span>
+      ${tags}
+    </div>
+    ${node.description ? `<p class="detail-description">${escapeHtml(node.description)}</p>` : ""}
+    <div class="detail-path">04-knowledge/units/${escapeHtml(node.path || "")}</div>
+  `;
+  detail.classList.add("visible");
+  detail.setAttribute("aria-hidden", "false");
+}
+
+function closeDetail() {
+  const detail = document.getElementById("detail");
+  detail.classList.remove("visible");
+  detail.setAttribute("aria-hidden", "true");
+  clearNodeHighlight();
+}
+
+function resetGraphView() {
+  if (!graphSvg || !zoomBehavior) return;
+  graphSvg.transition().duration(220).call(zoomBehavior.transform, d3.zoomIdentity);
+}
+
+function zoomGraph(scaleFactor) {
+  if (!graphSvg || !zoomBehavior) return;
+  graphSvg.transition().duration(180).call(zoomBehavior.scaleBy, scaleFactor);
+}
+
+function showLoadError(error) {
+  console.error("Knowledge graph load failed", error);
+  const status = document.getElementById("filterStatus");
+  status.classList.add("load-error");
+  status.textContent = `图谱加载失败：${error.message}。请确认 knowledge-graph-data.js 与本页位于同一目录。`;
+  document.getElementById("graphEmpty").textContent = "图谱数据未能载入。";
+  document.getElementById("graphEmpty").classList.add("visible");
+}
+
+document.getElementById("searchInput").addEventListener("input", (event) => {
+  currentQuery = event.target.value;
+  applyFilters();
+  closeDetail();
+});
+
+document.getElementById("resetFilterButton").addEventListener("click", () => {
+  currentType = null;
+  currentQuery = "";
+  document.getElementById("searchInput").value = "";
+  updateLegendState();
+  applyFilters();
+  closeDetail();
+});
+
+document.getElementById("detailCloseButton").addEventListener("click", closeDetail);
+document.getElementById("zoomResetButton").addEventListener("click", resetGraphView);
+document.getElementById("zoomInButton").addEventListener("click", () => zoomGraph(1.35));
+document.getElementById("zoomOutButton").addEventListener("click", () => zoomGraph(0.74));
+
+document.getElementById("graph").addEventListener("click", (event) => {
+  if (event.target === document.getElementById("graph")) closeDetail();
+});
+
+document.querySelectorAll(".dimension-tab").forEach((button) => {
+  button.addEventListener("click", () => {
+    const key = button.dataset.dimension;
+    const data = DIMENSION_DATA[key];
+    if (!data) return;
+    document.querySelectorAll(".dimension-tab").forEach((item) => {
+      const selected = item === button;
+      item.classList.toggle("active", selected);
+      item.setAttribute("aria-selected", selected ? "true" : "false");
+    });
+    document.getElementById("dimensionTitle").textContent = data.title;
+    document.getElementById("dimensionCount").textContent = data.issues.length;
+    document.getElementById("dimensionIssues").replaceChildren(...data.issues.map((issue) => {
+      const item = document.createElement("li");
+      item.textContent = issue;
+      return item;
+    }));
+  });
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeDetail();
+});
+
+loadData().catch(showLoadError);
+</script>
+</body>
+</html>

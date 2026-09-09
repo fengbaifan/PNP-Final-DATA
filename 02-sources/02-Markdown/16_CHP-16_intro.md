@@ -1,0 +1,89 @@
+# 16 CHP-16 intro
+
+[Page 2]
+Chapter 16
+DEALERS AND PETITS BOURGEOIS
+E have seen that the most significant art patrons to emerge in the second half
+Wof the eighteenth century were those men who had been affected by die new ideas which penetrated into Venice through the medium of figures like Carlo Lodoli and
+Francesco Algarotti. But in some ways tbe taste that they promoted—whether severely functional or a return to the classical—bore little relation to what had hitherto been the most fruitful tradition of Venetian art. This tradition, which found its last great master in Francesco "Guardi,'was carried on rather by men of far less exalted position, who in their own day attracted little attention as did the kind of painting that they enjoyed and encouraged. In so far as they were known at all, these men were looked upon purely as dealers or agents who helped to plunder on behalf of foreign embassies the riches of the seemingly inexhaustible city in which they lived. Yet, while fulfilling these activities, they often found time to build up small collections of their own which reflect a definite taste that may well appeal to us today more than the spectacular patronage of a Farsetti, a Memmo or a Querini.
+In the very centre of this world was Giovan Maria Sasso (Plate 58), buying and selling as fast as he could, putting a small collection on the side for himself, dealing with
+British agents who alternatively flattered and bullied him, finding the time somehow to engage in long exchanges of letters with friends and other dealers, turning out the odd pamphlet, amassing facts of all kinds and planning a great book, which he never completed, on the history of Venetian painting.1 It was a life typical of a number of figures at the time, and characteristically Sasso only just survived the Republic and died in
+1803. - .
+He had been born some sixty years earlier of poor parents, and had himself studied painting for a short time, but his real moment did not come until 1774 when he first made contact with the British Residency. He was soon on excellent termswith the new occupant of the post, John Strange, and the two men saw each other and corresponded
+' for nearly twenty years.2 They grumbled about the times: the old days are gone for ever; domestic life is at an end; women go out at all hours of the day and night. They condoled with each other in their losses and illnesses, exchanged gossip. And above all they did involved, lucrative business together. Strange employed Sasso to buy him
+Venetian pictures of all kinds—Giorgiones and Titians, Veroneses and Tintorettos, and
+
+[Page 374]
+—less frequently—the moderns: Rosalba, Canaletto and Tiepolo especially. These pictures found a temporary resting-place in Strange’s country house near Treviso or his apartments in London, and were then sold to rich amateurs—or would have been, were it not for the fact that ‘no one likes old pictures any more; they want modern trash’.
+The process could be difficult. Collections likely to be dispersed had to be examined in absolute secrecy; transport was enormously expensive; the customs were troublesome and had to be evaded if possible. And in the midst of all these complications Strange occasionally commissioned a modern work of art—for himself or for a client. He planned to bring out an edition of Zompini’s Le Arti che vanno per le vie nella citta di Venezia; and he employed the little-known Francesco Guardi (Plate 64).
+He was somewhat diffident about this, for the artist, though ‘spirited’, was all too apt to miss the ‘truth’ of the views that he painted.1 And so Strange would implore
+Sasso to tell Guardi that his drawings must be ‘hot just clear, well finished and a pair, but also coloured exactly’. Yet Strange admired Guardi, and at one time or another he owned a large number of his works; for like many others who were settled in Venice, far removed from the more advanced currents of London, Paris or Rome, he loved the brio and rich colour of Venetian painting, and was out of sympathy with the new, dry, neo-classical works that were the rage in those towns. And so we find him speaking enthusiastically of Tiepolo, and ‘falling in love’ with a detail from one of his pictures— a pigeon on a twig—which he wants cut out for himself.2
+Not all Sasso’s clients were so keen. The painter and dealer, G. A. Armanni, travelling between Bologna and Rome, wrote derisively of an English visitor Mr Poore:
+‘How strange that someone who loves the subtlety of the Greeks should have the patience to look at the stranezze of Tiepolo, the caricatures of Celesti and the schiribizzi of so many other lesser painters!’3 But Armanni was in touch with all the new fashions, while in the enclosed world of Venice itself, among the agents and dealers, the minor clerics and doctors with'whom we are concerned, there was no need yet to reject the heritage of recent Venetian painting. Certainly Sasso seems to have felt all the admiration of a previous generation for the rich, bold virtuosity of the earlier eighteenthcentury painters. When Canova wrote from Rome to ask for a modello by Tiepolo, he was told that Sasso had bought them all.4 In fact this was not true, but the rumour probably reflects his known love of this kind of painting. In the collection he made for himself which was auctioned after his death in 1803 there were a number of such pictures—by Giambattista and Gian Domenico Tiepolo, as well as one of his own copies of one of them, and 100 drawings; he also owned modelli by Sebastiano Ricci, Pittoni
+
+[Page 375]
+and Piazzetta; drawings and sketches by Canaletto and Carlevarijs; and a painting and seven drawings by Guardi.1
+Strange left, but he provided a letter of introduction to Sasso for his successor, Sir
+Richard Worsley: ‘He is a great lover and a great connoisseur of all beautiful things. He already has fine treasures and I know that you will be able to find more for him.’2 Sasso did; and quite soon Sir Richard Worsley was himself presenting a Guardi to Lady
+Palmerston. In fact no English dealer in Venice thought of doing without Sasso whose trustworthiness and expert knowledge were responsible for stripping the city of many
+-masterpieces during the last years of the eighteenth century.3 '
+Sasso was the best known of such dealers to the English, but there were many others of a similar kind, whose tastes helped to keep alive a love of colour and fantasy in Venetian art. The Abate Giacomo della Lena, for instance, was also on the fringes of scholarship.4 He was a close friend of the Abate G. A. Moschini, an antiquarian who saved many Venetian records from destruction, and he himself wrote an account of the ‘Spoliation of Pictures from Venice’.5 This deals with the activities of various collectors who had removed pictures from the city, ranging from Cardinal Leopold de’
+Medici to his own contemporaries. As a nineteenth-century historian drily commented, he was well qualified to write such an account, for he himself was deeply involved in picture dealing—mainly with the Germans. Della Lena had been born in Lucca in 1732, but he spent most of his life in Venice, where he acted as Spanish vice-consul and where he died in 1807. He probably owed the job to his brother Innocenzo, who was the
+-Spanish Ambassador’s doctor, while another brother, Eusebio, was a friend of Casanova.
+Della Lena, like Sasso, also collected pictures for himself, though on a more modest scale. He owned a few Canalettos, some works by very minor contemporaries, and, above all, thirty-two paintings by Francesco Guardi. The enthusiasm that della Lena felt for this artist is rationalised in a letter that he wrote to the economist, Giuseppe
+Maria Ortes.6 The arts, he comments, are unlike the sciences. For in the arts fantasy must dominate and take precedence over the intellect. In other words, truth must be made to serve falsehood. What is of value and pleasurable in the arts is indirect and unformulated;
+. while the value of the Sciences is clear and complete.
+- It was only in such an atmosphere as this that Francesco Guardi, with his disregard for ‘truth’, could flourish, untroubled by the more literal-minded English, who demanded a clear and unimaginative rendering of what they saw with their own eyes.
+
+[Page 376]
+Another collector who took the same line and who may well have belonged to the circle of Sasso and della Lena was a canon ofChioggia Cathedral, Dr GiovanniVianello.1
+Like them he had pretensions to scholarship which he showed—though hardly justified
+—in the edition he brought out in 1793 of Rosalba’s journal. It is not certain whether or not he was a dealer, but the publication of a catalogue of his paintings in 1790, some three years before his death, strongly suggests that he was by then willing to dispose of them. He owned over 200 pictures, the vast majority of which were Venetian of the seventeenth and eighteenth centuries. His special favourite was Pietrp della Vecchia by whom he owned twenty-five pictures, many of them fantasy heads ‘alia Giorgionesca’.
+Most of the great artists of his century were well represented with many drawings and paintings by Rosalba, Ricci, Piazzetta and Tiepolo. Of these artists he seems to have preferred the sketches, and above all the capricious bust portraits that were so popular at the time. Vianello also owned three works by Francesco Guardi—two paintings and a drawing—but his appreciation of this artist was greater than such a small number would suggest. He deplored Guardi’s absence from the standard reference books. Alone among those who wrote about him, he did not drag in Canaletto and make the inevitably unfavourable comparison. By implication, indeed, he defended Guardi from the attacks that were made on his deficiencies in perspective. Above all he specially admired him for those qualities that were peculiarly his own—the movement, the colour, the vivacity, the sparkling lights, the macchiette ‘secondo si dice dalli Pittori’. .
+More modest than any of these but with similar tastes was the Dominican Padre
+Giuseppe Toninotto.2 We come across him rather pathetically begging from foreign tourists as he shows them round the Frari, or in disgrace with the State Inquisition for selling improper prints. Yet he too played his part in helping to record—and to collect— some of the glories of Venetian art before the Republic finally collapsed. In 1785 he was responsible for publishing a series of nine large prints by Giovanni del Pian of Carpaccio’s famous scenes of the Life of St Ursula. And his collection shows a similar taste to those that have already been investigated. There were, of course, some old masters with ambitious attributions to Titian, Bassano and others. There were a number of tnodelli, a couple of Pietro della Vecchias ‘sulla maniera di Zorzone’ and many Flemish paintings, as well as a selection of eighteenth-century pictures, mainly small views and landscapes by Carlevarijs, Marco Ricci and Marieschi. He too owned several paintings by the most neglected masters of his day—Giuseppe Zais and Francesco Guardi: twelve paintings and four drawings by the former and eight paintings by the latter. Four of these were
+'caprizi copiosi di figure’ and four were unnamed Venetian views.
+Another figure in this group was the rich German business man Amadeo Swajer (Plate 59a) who lived most of his life in Venice and died there in 1792.3 He was principally a collector of manuscripts, and after his death the possible dispersal of the secret
+
+[Page 377]
+ones caused, some anxiety to the Inquisitors of State, who acquired them all. But he was also in touch with a number of artists, notably Giambattista Tiepolo and his son Gian
+Domenico on whose behalf he negotiated a few commissions, and with Canova who painted his portrait.
+A much more adventurous and successful dealer than any of these was the Abate
+Luigi Celotti, who survived the downfall of the Republic by half a century.1 But hewas at home in all regimes—as long as there were clients to buy his pictures. Constantly building up collections and then dispersing them, he turns up again and again in London,
+Paris and his native Venice, usually preceded by a discreet little announcement in the papers that an ‘amateur éclairé’ was wishing to dispose of some of his works of art.2
+These were of all kinds and included ‘illumined miniature paintings taken from the
+Choral Books of the Papal Chapel in the Vatican during the French Revolution’.3 But apart from such mediaeval treasures for which he was famous, he owned—and, of course, sold—old masters of all sorts and many eighteenth-century Venetian paintings.
+It is legitimate to infer from his rhapsodic accounts of these not only a considerable gift for salesmanship but also a genuine and individual taste which is similar to that of some of the humbler dealers so far recorded.4 Of his eight Canalettos, four ‘joignent à la richesse de leur composition, à l’imitation exacte et spirituelle dans tous leurs détails, et à la manière vague et légère que l’on admire ordinairement dans les Productions de cet habile Peintre, le précieux avantage d’etre enrichis de Figures de la main du célèbre
+Tiepolo, son ami’, an unusual recommendation in 1807. His Sebastiano Ricci pastoral scene is ‘d’un coloris frais et d’un pinceau léger’. His Tiepolo sketches—of the Rape of
+Ganymede and an allegorical subject—are ‘d’une grande facilité de touche, et d’une composition fougueuse . . ..6
+In all these men, so similar in their status and their place in society, we can see a strikingly similar type of collection and patronage. They were outside the main currents of the intellectual life of Venice which have been examined in the last few chapters.
+by Valerio Vannetti in Roveredo; and another set of the 1780s and 1790s, mostly about politics, from the
+Durazzo family in Genoa with which he was in close touch.
+A letter from him to G. B. Tiepolo and one from G. D. Tiepolo to him are published by Urbani de
+Ghelthof, 1879, pp. 19 and 32. The former, which refers to Tiepolo’s ‘consaputo quadro’ for the King of
+France, is claimed to belong to Urbani de Ghelthof’s own collection and should perhaps.be treated with some,caution, as it appears (Ateneo Veneto, Maggio 1937) that he was far from reliable in his use of documents. His papers and manuscripts are mentioned in the Archivio di Stato, Venice—Inquisitori, 540, p. 164—30 Maggio 1792. ‘
+
+[Page 378]
+They earned their livings by pandering to the international demand for old masters, and they themselves assembled pictures by artists who were the victims of the change in taste that swept through Europe during the second half of the eighteenth century. Time has effected a remarkable revolution and to us they now appear as the true guardians of the Venetian tradition.
+
+**Footnotes:**
+1 For a short biography see Cicogna’s footnote to his edition in 1856 of Sasso’s Osservazioni sopra i lavori A niello; also Lorenzetti, 1914. For bis portrait by Alessandro Longhi see Bollettino dei Musei Civici Veneziani, 1959, No. 2.
+2 The letters from Strange to Sasso are in the Epistolario Moschini, Biblioteca Cotter, Venice. There are quotations from them in Mauroner, 1947, pp. 48-50. Sasso’s replies are mostly missing, but there are four letters from him to Strange in the British Museum, Add. MSS. 23,730—ff. 359-63.
+1 For all references to the patronage of Guardi with full indications of sources see Haskell, in Journal of the Warburg Institute, i960, pp. 256-76.
+2 Strange-Sasso correspondence, Letter 8, dated 22 December 1784,
+3 Two volumes of Lettere pittoriche di G. A. Armanni a G. M Sasso containing hundreds of letters arranged in the vaguest of chronological orders between 1783 and 1803 are in the Archivio of the Seminario Patriarcale, Venice—MSS. 565 and 566. Mr Poore is discussed in a letter of 7 July 1789. In two auctions—4 and 19 April 1805 (Richardson)—prints and drawings belonging to an Edward Poore were sold, but there is no reference to any Tiepolo among them.
+4 Published by Haskell in Journal of Warburg Institute, i960, p. 276.
+1 Sasso’s collection is documented in the Catalog de quadri del q. Giammaria Sasso, che si mettono all'incanto nella sua casa al ponte di Cannareggio, n.381—not recorded by Lugt, but copies exist in the Biblioteca Civica, Padua and the Accademia Carrara, Bergamo.
+2 Strange-Sasso correspondence—Letter 57—3 October 1793.
+3 Among those in touch with Sasso were A. Hume—see Lorenzetti, 1914, who publishes three letters of 1790-2; John Skippe (1778-9) and Hamilton, Marquis of Douglas (1800-2)—see letters in the Epistolario Moschini, Biblioteca Correr, Venice.
+4 Haskell, in Journal of Warburg Institute, i960, pp. 261-2.
+5 Biblioteca Correr, Venice—MSS. Raccolta Cicogna 3006/9 and other versions. See Haskell, 1967.
+6 Of 14 January 1786—in Biblioteca Correr, MSS. Cod. Cicogna, 3198.
+1 See the catalogue of his pictures published in. 1790.
+2 Haskell, in Journal os Warburg Institute, i960, pp. 263-4, for all references.
+3 A good deal of Swajer’s correspondence is in the Seminario Patriarcale in Venice—above all a volume of letters dating from the 1750s and 1760s, mosdy concerned with literature, addressed to him
+1 Levi, I, p. cxxxv, says that he died in abouf’1846.
+2 See, for instance, the announcement ‘Agli amatori delle Arti belle’ in Gazzetta di Venezia, 4 Maggio 1821.
+3 Christies’, 26 May 1825. The miniatures are described by William Young Ottley.
+4 Noticele Tableaux, par les plus grands maitres dTtalie,... composant le cabinet de M. Celottide Venise...., Paris 1807.
+6 In 1814 he sold some more Tiepolos and also Piazzettas—see Notice d’une collection de tableaux [appartenant à M.r Celotti] doni la vente aura lieu le luridi 14 Novembre 1814. The words in brackets are added in ink to the printed catalogue in the copy which I have seen.

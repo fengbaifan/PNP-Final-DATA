@@ -1,0 +1,56 @@
+# 15 CHP-15 sec i
+
+FILIPPO FARSETTI
+Y 1764, the year of Algarotti’s death, the great flowering of Venetian art was very
+Bnearly at an end. Piazzetta had been dead for ten years; Tiepolo was in Spain and showed no desire to.return to Italy; Pittoni, though president of the Accademia, was increasingly neglected as his powers declined. Everyone recognised that the new generation of history painters—men like Fontebasso and Zugno (born in 1709) and
+Guaraña (born in 1720) —were adding little beyond imitation to the heritage of the past.
+Of the view painters, Canaletto went on mechanically repeating himself until he too died in 1769, while Francesco Guardi was virtually unknown to the great patrons and was working for an altogether different public, as will become clear in a later chapter.
+Zuccarelli was mostly out ofVenice, and Zais was living in poverty, almost completely neglected. Of the great names of the first half of the century only Pietro Longhi carried on for another twenty years, while his son Alessandro was bringing a new spirit of detached observation into his portraits of the grandees and intellectuals of the dying
+Republic.1
+The artists were vanishing—but so too were the patrons and even the great collections they had amassed. The Sagredo pictures were being dispersed; the Schulenburg collection was broken up in 1775, and in any case most of it had long since been sent to
+Germany; Smith’s best paintings had been acquired for George III in 1762, and the remainder of his gallery was sold by his widow a few years later. Algarotti’s own pictures began to be dispersed soon after the death of his brother Bonomo in 1776.
+When Zanetti died in 1767, Mariette wrote that he assumed that his pictures too would soon be leaving Venice, as no one seemed interested any longer in forming a collection there.2 These were the men who had encouraged the revival of Venetian painting during' the first half of the century, and the great patrician families were even more concerned to sell their possessions to the hordes of agents that descended like vultures on Venice. -
+And yet a few men of great distinction proved that the ‘Enlightenment’, as it had reached Venice through publishers and travellers or men of letters such as Lodoli and
+Algarotti, suggested new possibilities for a different kind of patronage, though it is
+
+[Page 302]
+not surprising that they tended to turn away from painting. The man who exercised the greatest influence in this way was Filippo Farsetti.1 He was born in 1703 of an exceedingly rich family that had only acquired patrician status in 1664, and at about the age of 17 or 18 he became the pupil of Padre Lodoli2—the direct inspirer of all three patrons discussed in this chapter. Like the others he too travelled a great deal and thus acquired a far wider range of culture than was common in the Venetian nobility. In particular he lived for some years in Paris. He avoided the political responsibilities attached to his status by becoming an abate, and most of his time, energy and money was devoted to the arts.
+The originality of Farsetti’s tastes could be better gauged if we had more information about the chronology of his collecting. There is, however, no doubt that he was by far the most important figure behind the neo-classical movement in Venice, and that as the century advanced, his contemporaries, and then his successors, considered him to be the most significant of all patrons in the city. This reputation was earned chiefly by the immense collection he assembled in his family palace near the Rialto of casts taken from antique statues all over Europe, but especially in Rome. He was able to do this through the intervention of his cousin, Carlo Rezzonico, who became Pope Clement
+XIII in 1758. In Rome he moved with all the assurance of an English milord,employing the sculptor Ventura Furlani to make casts from the main statues of antiquity and the painter Luigi Pozzi to copy the principal works of Raphael and Annibale Carracci.
+That his taste was not as hidebound as that of the later, more rigid, theorists of neoclassicism is shown by his choice of four statues to represent modern sculpture—
+Michelangelo’s Risen Christ in Santa Maria sopra Minerva, Sansovino’s Bacchus,
+Giambologna’s Mercury and Bernini’s Neptune—and also by his small collection of paintings. Few contemporaries were represented, apart from the inevitable Zuccarelli, but he showed great enthusiasm for the Dutch and Flemish and he owned pictures attributed to a wide range of seventeenth-century Italian masters. Essentially his outlook was cosmopolitan rather than Venetian, and this was reflected in his choice of paintings, in the strong classical bias of his sculptures and in the architecture of his country house.
+This far surpassed in extravagance even the collections he had assembled in Venice.
+He had originally planned to construct a Roman-type villa at Padua, but when a dispute with local landowners made this impossible, he turned to the family estates at S. Maria di Sala, a few miles away. The villa, designed to hold his expanding collections, was wholly unlike the standard Venetian prototypes, and was in some ways much closer to the Austrian pattern. A convex bay in the centre projects from the main block, which is joined by lower two-storey wings to small, square pavilions at each end. The lower storey of these wings is made up of rectangular arcades into which are inserted forty-two
+Doric columns from the Temple of the Dea Concordia in Rome which were ceded to
+
+[Page 363]
+him by the Pope.1 An excessive rigidity breaks up the natural rhythm demanded by the plan, and even at the height of its glory it must have been impressive rather than beautiful. It is now a battered shell used as a store by local peasants. Farsetti was said to have spent a million ducats on its adornment, thus nearly ruining his family, but striking the imagination of his contemporaries beyond measure. ‘The marvellous splendour of the villa’, wrote one of them breathlessly,2 ‘the richness, the grandeur, the fine taste, the collection of rarities, the arrangement of the different parts, everything that is there, everything that decorates it and goes to make up the whole, everything proclaims the genius, the nobility, the fine taste, the magnificence of this man who was so highly thought of in Paris’. As much attention was paid to the gardens as to the house itself:
+its great botanical rarities were among the most celebrated sights of the Veneto, and it was decorated with columns, temples and towers.
+Farsetti’s ostentatious wealth and devotion to classical sculpture would in themselves have made him a most important figure in the society of his time. But his real influence derived from his keen interest in the contemporary arts. There seems no doubt whatsoever that he was making a deliberate attempt to change the nature of
+Venetian painting and sculpture, and that he was at least partly successful. His collections were open to students who were encouraged to come and copy them. And as the
+Academy had nothing that could even remotely compare with his casts from the antique, his palace became the main centre for all those who were absorbing the theories of Algarotti and others about the need to follow classical models—it is particularly fitting, therefore, that Farsetti should have given Algarotti a regular allowance during the last year of the latter’s Use.3
+Among all those who studied in the Palazzo Farsetti the most famous was Antonio
+Canova, who came to' Venice in 1768, and whose first works, two baskets of fruit and flowers, were placed on the staircase of the palace.4 Thus well before the sculptor went to Rome he was already steeped in the works of antiquity, and when he was actually on the spot he often commented in his diary that he had already seen Farsetti’s copies of the originals that he was now viewing; he even found that Raphael’s loggie had been much easier to study in the version that he had known in Venice.5
+But Farsetti did not live to see the success of the one artist who appeared to justify his faith in a classic revival. Some five or six years before his death in 1774 he was struck down by illness and thereafter he was largely incapacitated. He was, however, by no means the only member of his family to encourage the arts. His cousin Daniele (17251787), himself an amateur painter who once showed some of his pastels at the exhibitionof S. Rocco, inherited the collection and even increased it, and also continued the
+- 2 Letter from P. Boscovich to Vallisnieri of 1772 published 1811, p. 33.
+
+[Page 364]
+patronage os contemporary artists. Daniele’s brother, Tommaso Giuseppe (1720-91), was more interested in his fine collection of books and manuscripts than in works of art, but he too remained loyal to the family tradition of which he wrote an exalted account. However, a note of ruefulness comes in when he describes Filippo’s collecting and mentions the enormous expense that was involved, and the last years of his fife were embittered by the dissipated extravagance of his nephew Anton Francesco whom he even denounced to the Inquisitors.1 This was to no avail, and in the first years of the nineteenth century the property was finally broken up and the collections sold, to the indignant dismay of Venetian scholars.2
+Because Canova was the only important artist to emerge from Venice at the end of the eighteenth century, the influence of Farsetti seems in retrospect to have been negligible or deleterious. His contemporaries thought very differently, and all their hopes for a grëat cultural revival were based on his patronage. At a time when the nobility was no longer playing its traditional rôle of supporting the arts, he alone was held up as an example in a flood of poems and speeches. For all that, he remains a shadowy character, more interesting for his apparent aims than for his achievements.
+He stands midway between the self-sufficient and magnificent patrons of the past and those new men, exemplified by Andrea Memmo, who saw in their support for the arts a public service designed to benefit the community.
+
+**Footnotes:**
+1 The main sources for Farsetti’s life are the relevant passages in the family history published by his cousin Tommaso Giuseppe in 1778 and the pamphlet of 1829 by [P. A. Paravia]. The pictures in the Farsetti gallery and a great deal of useful material about Filippo and other members of the family are recorded in the article by Giovanni Sforza, 1911, pp. 153-95.
+2 [Andrea Memmo], 1786, p. 60, for Farsetti’s admiration of Lodoli.
+1 De Tipaldo, 1833, and Mazzotti, 1954, p. 133.
+3 Archivio di Stato, Venice—Sezione Notarise: Lodovico Gabrieli—Atti, 7567, p. 788V, shows that on ri April 1764 N. H. Filippo Farsetti made a yearly allowance of 550 zecchini to Algarotti.
+4 Malamani: Canova, p. 6.
+6 Canova: Quaderni, pp. 18 and 31. -
+8 Haskell and Levey, 1958, p. 185.
+1 Archivio di Stato, Venice—Inquisitori di Stato (Busta 540), Annotazioni, p. 164—30 Maggio 1792.
+2 Moschini, 1806, II, p. 114.
+3 See Chapter 12.
+4 For a brief general biography of Andrea Memmo see P. Molmenti: ‘Un nobil huomo veneziano del secolo XVIII', n.d. and above all Torcellan, 1963.
+5 See Chapter 11.
+6 Tabacco, pp. 32 if.

@@ -1,0 +1,43 @@
+# 03 CHP-3 sec i
+
+URING most of the seventeenth century the many religious organisations
+Dwhich had been formed within the Church to forward the aims of the Counter
+Reformation acquired increasing riches and influence. Jesuits, Oratorians and Theatines especially occupied important posts in the hierarchy; their churches were extended, rebuilt, decorated and copied; artists eagerly competed for their commissions. By about
+1700 the mother churches of these Orders were the most richly furnished in Rome, and they have ever since appeared to travellers as the very embodiment of that Baroque taste which, it is inferred, they deliberately fostered as an instrument of propaganda.1
+The charge, later repeated ad nauseam, was first made by an English traveller in 1620?
+‘In the next place’, wrote Grey Brydges, 5th Lord Chandos, in his Discourse of Rome,
+‘the present Coiledges, Churches and religious Houses come in turne, in which of late years, those of the Jesuits be of principall reputation where in their chiefe Church lyes buried their founder Ignatius, and his tombe is there to be seene.
+‘. . . Wherein is inserted all possible inventions, to catch mens affections, and to ravish their understanding: as first, the gloriousness of their Altars, infinit number of images, priestly ornaments, and the divers actions they use in that service; besides the most excellent and exquisite Musicke of the world, that surprizes our eares. So that whatsoever can be imagined, to expresse either Solemnitie, or Devotion, is by them used.’
+This passage, though it contains an element of truth, is a tribute more to the staunchness of Brydges’s Protestant convictions than to his real understanding of the situation.
+For in fact the patronage of the Jesuits and the other Orders was very much more circumscribed by a large number of complex events than is immediately apparent.
+In the first place, their very success effectively put an end to much of the individual flavour that each had been able to contribute to the spiritual and intellectual life of
+Rome. In their origins they had to some extent been isolated, engaged not only in fighting the heretics but also in resisting some of the more worldly members of the papal court, even at times the popes themselves. They had in fact consisted of relatively small groups of the devout, clustered round some saint or natural leader, propagating ideas that were often looked upon with some suspicion by the hierarchy, and yet
+
+[Page 64]
+encouraging in their followers an intensity of devotion that sometimes bore fruit in other fields. Thus it has been suggested that the Oratorians may have given some special encouragement to the anti-conformist religious painting of Caravaggio.1 As the century advanced all that was changed. Even before Guido Bentivoglio came to Rome in 1600, he was advised to get in touch with the Oratorians as they were the most influential members of the clergy.2 Paul V was friendly with the Jesuits. Gregory XV and his
+. nephew had been educated by them. One of this Pope’s most important actions was to decree the canonisation of the two great Jesuits, Ignatius and Francis Xavier, and the founder of the Oratorians Philip Neri—and the occasion was followed by spectacular ceremonies and the commissioning of paintings of the two Jesuits by Van Dyck who was in Rome at the time.3 Urban VIII followed much the same policy. He at once published the bull of canonisation, and at all times he and his family showed their strong sympathies with the Orders, and especially the Jesuits. In 1639 and 1640 he paid two visits to their church, the Gesù, during the celebrations to mark the centenary of the approval of their statutes, and his nephew Antonio, who was a special benefactor of the Society, had one of these occasions recorded in a picture by Andrea Sacchi.4 No wonder that the Imago primi saettili, the magnificently produced volume which the
+Jesuits of Antwerp published to celebrate the centenary, stunned the world with the audacity of its self-satisfaction.
+Thus it came about that the Jesuits (and the other religious Orders) were too closely integrated into the very fabric of society to impose any distinct accent of their own, even had that been their intention. Their influence on the arts can be found everywhere
+—or nowhere. It was a Jesuit, Padre Ottonefli, who pressed Pietro da Cortona’s claims on the Barberini when they were having their palace decorated and who later wrote a highly casuistical treatise in collaboration with the artist on the persuasive possibilities of painting.5 It was another Jesuit, Gian Paolo Oliva, who became one of Bernini’s closest and most influential friends. And yet the Jesuits had to wait for decades before they were able to make any progress whatsoever with the decoration of their own churches.
+For, curiously enough, their triumphant success in every field was for a long time accompanied by an extreme shortage of money which made their church building absolutely dependent on the support of the powerful families who ruled Rome. The whole mechanism of patronage was determined by these families, and their superiority
+On the other hand Leo van Puyvelde, 1939, pp. 225 ff, attributes the two pictures in the Vatican to
+Rubens and suggests that they must have been painted in 1608 when the beatification of the Saints was being discussed. There is absolutely no documentary evidence for this supposition and much that makes it inherently unlikely.
+
+[Page 65]
+was assured by legal as well as by financial forces. For in an effort to encourage the reconstruction of Rome in the middle of the sixteenth century the rich aristocracy had been given the right to expropriate neighbours who had no desire to build and they were even allowed to dispossess unco-operative religious institutions.1 The patronage of the Orders was deeply affected by this tendency, and the building and decoration of their churches can best be studied as a reflection of the dialectic that ensued from it—the clash, sometimes hostile, sometimes so smooth as to be almost imperceptible, between two different types of patron, one with the spiritual authority that came from having a saint as founder, the other with the money.
+But another factor was involved: the limited number of artists of really first-class quality. On the whole the patronage of the popes and their courtiers was mainly directed into far more personal channels than the uncomfortably autonomous churches of the religious Orders. As long as this patronage was really intense, few of the great artists were given many opportunities of working outside St Peter’s, the family palace or the titular church. Thus during the reign of Urban VIII neither Bernini nor
+Pietro da Cortona produced anything significant for the Gesù despite the fact that both men were closely associated with the Jesuits. It was only when this all-powerful source of patronage temporarily dried up that the religious Orders, especially the Jesuits, were
+’ able to call on the talents of really great artists. And even then it was recognised by everyone concerned that the claims of secular princes came first: at the very end of the century the Duchess of Savoy, who was most anxious to employ Ciro Ferri for a certain job, wrote that the engagements he would be breaking ‘were only with nuns:
+she did not therefore believe them to be such as to prevent him coming to Turin’.2
+Thus the decoration of the Gesù, S. Ignazio, S. Andrea della Valle, the Chiesa
+Nuova and other churches belonging to the principal religious Orders depended on a synthesis derived from conflicting forces which varied greatly in strength at different periods of the seventeenth century. This can best be understood if these churches are studied before, during and, above all, after the reign of Urban VIII.
+
+**Footnotes:**
+1 Friedlaender, p. 123, and the forceful, but not necessarily decisive, rejection of this opinion by G. Cozzi, 1961, pp. 36 ss.
+2 Bentivoglio, 1807, p. 48.
+3 La Canonizazzione dei Santi Ignazio di Lojola e Francesco Saverio—Ricordi del terzo centenario, Roma 1923; and also Redig de Campos, 1936.
+4 Pastor, XIII, pp. 610-11. The picture is now in the Galleria Nazionale di Arte Antica, Rome.
+5 Odomenigio Lelonotti da Fanano e Britio Prenetteri [Gio. Dom. Ottonelli e Pietro da Cortona]: Trattato.
+1 Delumeau, pp. 238-41.
+2 Claretta, 1893, p. 33.
+3 For fully documented history of the church see Pecchiai, 1952.
