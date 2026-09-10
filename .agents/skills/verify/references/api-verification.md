@@ -19,6 +19,7 @@ REV-017 的 Wikipedia—Wikidata 双重核对由 verify/SKILL.md 规定。下列
 | 知识元类型 | 默认 claim_scope |
 |---|---|
 | person | `entity_identity_only` |
+| family | `entity_identity_only` |
 | institution | `entity_identity_only` |
 | place | `entity_identity_only` |
 | work | `entity_identity_only` |

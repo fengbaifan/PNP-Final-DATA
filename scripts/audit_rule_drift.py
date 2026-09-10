@@ -27,8 +27,8 @@ DIRECT_BATCH_REFERENCE = re.compile(r"06-runtime/automation/[^`\s)]+/")
 MAIN_FETCH_REFSPEC = "+refs/heads/main:refs/remotes/origin/main"
 EXPECTED_ORIGIN_URL = "https://github.com/fengbaifan/PNP-Final-DATA.git"
 DEPRECATED_UNIT_TYPES = {"ideas", "propositions", "arguments", "concepts", "techniques", "cases"}
-CURRENT_UNIT_TYPES = {"person", "institution", "place", "work", "archive", "term", "procedure", "event"}
-CURRENT_UNIT_DIRECTORIES = {f"{unit_type}s" for unit_type in CURRENT_UNIT_TYPES}
+CURRENT_UNIT_TYPES = {"person", "family", "institution", "place", "work", "archive", "term", "procedure", "event"}
+CURRENT_UNIT_DIRECTORIES = {"families" if unit_type == "family" else f"{unit_type}s" for unit_type in CURRENT_UNIT_TYPES}
 
 
 def read_text(path: Path) -> str:
@@ -307,7 +307,7 @@ def check_structure_theme_targets(base: Path = BASE) -> list[dict]:
     if not theme_dir.exists():
         return findings
     target_pattern = re.compile(
-        r"(?P<target>(?:\.\./\.\./units/)?(?:persons|institutions|places|works|archives|terms|procedures|events|ideas|propositions|arguments|concepts|techniques|cases)/[a-z0-9-]+\.md)"
+        r"(?P<target>(?:\.\./\.\./units/)?(?:persons|families|institutions|places|works|archives|terms|procedures|events|ideas|propositions|arguments|concepts|techniques|cases)/[a-z0-9-]+\.md)"
     )
     for path in sorted(theme_dir.glob("*.md")):
         relative = path.relative_to(base).as_posix()
@@ -372,7 +372,7 @@ def check_relation_schema_contract(base: Path = BASE) -> list[dict]:
 
 
 def check_active_taxonomy_scripts(base: Path = BASE) -> list[dict]:
-    """Keep active verification and queue scripts on the current eight-type taxonomy."""
+    """Keep active verification and queue scripts on the current KU taxonomy."""
     findings: list[dict] = []
     matcher_keys = mapping_assignment_keys(base / "scripts" / "verify_collect_wikidata.py", "TYPE_MATCHER")
     if matcher_keys != CURRENT_UNIT_TYPES:

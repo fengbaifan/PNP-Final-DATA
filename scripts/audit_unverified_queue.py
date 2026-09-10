@@ -22,7 +22,7 @@ UNITS = ROOT / "04-knowledge" / "units"
 RELATION_INDEX = ROOT / "04-knowledge" / "quality" / "relation-index.yml"
 
 LLM_FIRST_TYPES = {"terms", "procedures"}
-DIRECT_TYPES = {"persons", "institutions", "places", "works", "archives", "events"}
+DIRECT_TYPES = {"persons", "families", "institutions", "places", "works", "archives", "events"}
 
 
 @dataclass(frozen=True)
@@ -90,7 +90,7 @@ def recommended_action(type_name: str, reason: str) -> str:
         "llm_internal_pending",
     }:
         return "llm_internal_semantic_review"
-    if type_name in {"persons", "places", "institutions"}:
+    if type_name in {"persons", "places", "families", "institutions"}:
         return "identity_evidence_collect"
     if type_name in {"works", "archives"}:
         return "bibliographic_direct_verification"

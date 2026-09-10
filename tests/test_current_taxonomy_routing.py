@@ -10,6 +10,29 @@ from scripts import verify_collect_wikipedia
 
 
 class CurrentTaxonomyRoutingTests(unittest.TestCase):
+    def test_family_card_reaches_enrichment_translation_and_accepted_inventory(self):
+        from scripts import build_enrich_inventory, build_translation_index, audit_repo
+        with TemporaryDirectory() as temp:
+            root = Path(temp)
+            unit = root / "04-knowledge/units/families/example.md"
+            unit.parent.mkdir(parents=True)
+            unit.write_text('---\ntitle: "示例家族（Example Family）"\nname_en: Example Family\ntype: family\n---\n', encoding="utf-8")
+            rows = build_enrich_inventory.build_inventory(root / "04-knowledge/units")
+            self.assertEqual([(r["unit"], r["unit_type"]) for r in rows], [("families/example.md", "family")])
+            self.assertEqual(build_translation_index.build_index(root)[0]["slug"], "families/example")
+            self.assertIn(unit, audit_repo.iter_unit_files(root))
+
+    def test_family_namesake_with_generic_claims_is_not_verified_as_a_family(self):
+        claim = {"mainsnak": {"datavalue": {"value": {"id": "Q5"}}}}
+        entity = {"labels": {"en": {"value": "Example Family"}},
+                  "claims": {"P31": [claim], "P1343": [claim]}}
+        quality, _, fields = verify_collect_wikidata.match_score({}, entity, "Example Family", "family")
+        self.assertNotEqual(quality, "strong")
+        self.assertTrue(any(f["field"] == "family_identity" and f["result"] == "none" for f in fields))
+        self.assertEqual(verify_collect_wikidata.infer_claim_scope("family", "strong"), "entity_identity_only")
+        self.assertEqual(verify_collect_wikipedia.infer_claim_scope("family"), "entity_identity_only")
+        self.assertEqual(audit_unverified_queue.recommended_action("families", "generic_unverified"), "identity_evidence_collect")
+
     def test_archive_matcher_does_not_reject_unclassified_unpublished_document(self):
         entity = {"claims": {"P31": [{"mainsnak": {"datavalue": {"value": {"id": "unknown-document-kind"}}}}]}}
         score, maximum, matched = verify_collect_wikidata.match_archive(entity, "An unpublished letter")
@@ -18,10 +41,10 @@ class CurrentTaxonomyRoutingTests(unittest.TestCase):
         self.assertEqual(matched[0]["expected"], "archive")
         self.assertEqual(verify_collect_wikidata.infer_claim_scope("archive", "weak"), "bibliographic_hint")
 
-    def test_wikidata_matchers_cover_current_eight_types(self):
+    def test_wikidata_matchers_cover_current_nine_types(self):
         self.assertEqual(
             set(verify_collect_wikidata.TYPE_MATCHER),
-            {"person", "institution", "place", "work", "archive", "term", "procedure", "event"},
+            {"person", "family", "institution", "place", "work", "archive", "term", "procedure", "event"},
         )
 
     def test_claim_scope_uses_current_term_and_event_types(self):
@@ -29,10 +52,10 @@ class CurrentTaxonomyRoutingTests(unittest.TestCase):
         self.assertEqual(verify_collect_wikidata.infer_claim_scope("event", "strong"), "event_identity_only")
         self.assertEqual(verify_collect_wikidata.infer_claim_target("procedure", "term_existence"), "term")
 
-    def test_wikipedia_scope_uses_current_eight_type_taxonomy(self):
+    def test_wikipedia_scope_uses_current_nine_type_taxonomy(self):
         self.assertEqual(
             set(verify_collect_wikipedia.TYPE_ALIASES.values()),
-            {"person", "institution", "place", "work", "archive", "term", "procedure", "event"},
+            {"person", "family", "institution", "place", "work", "archive", "term", "procedure", "event"},
         )
         self.assertEqual(verify_collect_wikipedia.infer_claim_scope("term"), "term_existence")
         self.assertEqual(verify_collect_wikipedia.infer_claim_scope("procedure"), "term_existence")

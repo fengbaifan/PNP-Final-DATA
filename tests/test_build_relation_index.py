@@ -21,6 +21,10 @@ def load_module():
 
 
 class BuildRelationIndexTests(unittest.TestCase):
+    def test_family_target_type_preserves_irregular_plural(self):
+        self.assertEqual(self.module._target_type_from_path("../families/example.md"), "family")
+        self.assertEqual(self.module._target_type_from_path("04-knowledge/units/families/example.md"), "family")
+
     @classmethod
     def setUpClass(cls):
         cls.module = load_module()

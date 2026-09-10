@@ -90,7 +90,7 @@ def load_jsonl(path):
     ]
 
 all_units = set()
-for dname in ["persons","institutions","places","works","archives","terms","procedures","events"]:
+for dname in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
     d = UNITS / dname
     if d.exists():
         for f in d.rglob("*.md"):

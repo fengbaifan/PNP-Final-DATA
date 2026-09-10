@@ -93,7 +93,7 @@ def _normalize_target_path(target, source=None):
     return normalized
 
 def iter_all_units():
-    for dname in ["persons","institutions","places","works","archives","terms","procedures","events"]:
+    for dname in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
         d = UNITS / dname
         if d.exists():
             for f in sorted(d.glob("*.md")):
@@ -105,14 +105,14 @@ all_paths = set()
 
 def _target_type_from_path(target):
     target = _normalize_target_path(target)
-    for d in ["persons","institutions","places","works","archives","terms","procedures","events","topics","themes","domains","dimensions","claim"]:
+    for d in ["persons","families","institutions","places","works","archives","terms","procedures","events","topics","themes","domains","dimensions","claim"]:
         if f"/{d}/" in target or target.startswith(f"{d}/"):
-            return d.rstrip("s")
+            return "family" if d == "families" else d.rstrip("s")
     return "unknown"
 
 def _infer_type(target):
     target = _normalize_target_path(target)
-    for d in ["persons","institutions","places","works","archives","terms","procedures","events"]:
+    for d in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
         if f"/{d}/" in target or target.startswith(f"{d}/"):
             return {
                 "persons": "involves_person","institutions": "associated_institution",
@@ -217,7 +217,7 @@ def _should_build_inverse(rel):
 # ── Scan all units ──
 for f, dname in iter_all_units():
     rel = str(f.relative_to(UNITS)).replace("\\", "/")
-    path_to_type[rel] = dname.rstrip("s")
+    path_to_type[rel] = ("family" if dname == "families" else dname.rstrip("s"))
     all_paths.add(rel)
 
 for f, dname in iter_all_units():
@@ -227,7 +227,7 @@ for f, dname in iter_all_units():
     if not fm:
         continue
     source_rel = str(f.relative_to(UNITS)).replace("\\", "/")
-    source_type = dname.rstrip("s")
+    source_type = ("family" if dname == "families" else dname.rstrip("s"))
 
     # ── Source 1: relations field ──
     try:

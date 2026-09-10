@@ -36,6 +36,7 @@ RELATION_TYPE_TOTAL = len(RELATION_TYPES)
 
 BASE_UNIT_TYPES = [
     "persons",
+    "families",
     "institutions",
     "places",
     "works",
@@ -50,6 +51,7 @@ DEPRECATED_DIRS = ["concepts", "techniques", "cases", "ideas"]
 
 TYPE_DIR_MAP = {
     "persons": "person",
+    "families": "family",
     "institutions": "institution",
     "places": "place",
     "works": "work",
@@ -1384,6 +1386,7 @@ def semantic_artifact_integrity_check(base: Path) -> dict:
 
 TRANSLATION_FIELD_GROUPS = {
     "persons": ["name_original", "language_original", "name_zh", "translation_status"],
+    "families": ["name_original", "name_original_language", "name_zh", "translation_status"],
     "institutions": ["name_original", "name_original_language", "name_zh", "translation_status"],
     "places": [],
     "works": ["title_original", "title_original_language", "title_zh"],
@@ -1393,7 +1396,7 @@ TRANSLATION_FIELD_GROUPS = {
     "events": [],
 }
 
-TRANSLATION_INDEX_TYPES = ["persons", "terms", "archives", "works", "institutions"]
+TRANSLATION_INDEX_TYPES = ["persons", "terms", "archives", "works", "families", "institutions"]
 
 
 def translation_coverage_gap_count(translation_health: dict) -> int:

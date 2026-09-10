@@ -40,6 +40,7 @@ CONTENT_QUALITY_METRIC_BOUNDARY = (
 
 TYPE_DIR_MAP = {
     "persons": "person",
+    "families": "family",
     "concepts": "concept",
     "works": "work",
     "archives": "archive",
@@ -316,7 +317,7 @@ def check_empty_frontmatter_values(files: list[Path]) -> list[dict]:
     return findings
 
 
-TYPE_NAMES_BARE = {"person", "concept", "work", "archive", "case", "place", "technique", "idea"}
+TYPE_NAMES_BARE = {"person", "family", "concept", "work", "archive", "case", "place", "technique", "idea"}
 
 PLACEHOLDER_PATTERNS = [
     "待补充", "TODO", "TBD", "相关描述", "相关内容", "重要概念",

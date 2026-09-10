@@ -26,7 +26,7 @@ UNITS = BASE / "04-knowledge" / "units"
 BATCH_RE = re.compile(r"batch-(\d+)")
 DATE_PREFIX = re.compile(r"^(\d{4}-\d{2}-\d{2})")
 FRONTMATTER_RE = re.compile(r"\A(?:\ufeff)?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
-UNIT_DIRS = ["persons", "institutions", "places", "works", "archives", "terms", "procedures", "events"]
+UNIT_DIRS = ["persons", "families", "institutions", "places", "works", "archives", "terms", "procedures", "events"]
 PENDING_REVIEW_BUCKETS = {
     "needs_minimal_relation",
     "needs_minimum_relation_review",
@@ -283,7 +283,7 @@ def build_ledger_from_triage(paths: list[Path], units_dir: Path = UNITS) -> list
                 "batch_number": batch_no,
                 "batch": row.get("batch") or path.parent.name,
                 "unit": unit,
-                "unit_type": row.get("unit_type") or unit.split("/", 1)[0].rstrip("s"),
+                "unit_type": row.get("unit_type") or ("family" if unit.startswith("families/") else unit.split("/", 1)[0].rstrip("s")),
                 "bucket": row.get("bucket") or row.get("decision") or "unknown",
                 "historical_bucket": row.get("historical_bucket") or row.get("bucket") or row.get("decision") or "unknown",
                 "historical_snapshot": historical,

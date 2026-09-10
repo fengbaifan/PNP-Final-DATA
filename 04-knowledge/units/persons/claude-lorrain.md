@@ -1,24 +1,65 @@
 ---
 title: "克劳德·洛兰（Claude Lorrain）"
+name_en: "Claude Lorrain"
 type: person
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-10
 evidence_status: source_backed
 sources:
-  - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 8, 14."
-    location: "第一章印刷页 8, 14"
-    evidence_ref:
-      doc_id: patrons-and-painters
-      source_file: 02-sources/02-Markdown/01_CHP-1.md
-      source_span: "ch. 1, print pp. 8, 14"
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
+  location: 第一章；印刷页 8；OCR L265–273,283
+  sentence_summary: 成对装饰和构图讨论，脚注指向 Claude 的相关研究。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 265–273,283; print pp. 8
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
+  location: 第一章；印刷页 14；OCR L538–540,565–566
+  sentence_summary: Salviati 1662-07-22 信说 Claude 只对中等身份客户预定价格。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 538–540,565–566; print pp. 14
+- citation: "Wikipedia (en), Claude Lorrain, revision 1373831548. https://en.wikipedia.org/wiki/Claude_Lorrain. Accessed 2026-09-10."
+  location: "导言身份段；REV-034 初步对齐，非全文补足"
+  sentence_summary: "Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。"
+- citation: "Wikidata, Q214074, revision 2539087728. https://www.wikidata.org/wiki/Q214074. Accessed 2026-09-10."
+  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
+  sentence_summary: "Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。"
 ---
 
-## 描述
+## 内容
 
-本章以 Claude 的构图与成对装饰作引用，并据 Salviati 1662 年信件说明其只向中等身份客户预定价格。
+### 描述
+
+**中文：** 本章以 Claude 的构图与成对装饰作引用，并据 Salviati 1662 年信件说明其只向中等身份客户预定价格。
 
 艺术家报价受买家身份影响的具体例子，不证明所有贵族赞助均不预议价格。第六章科隆纳委托另留待后续。
 
-## 来源与未决项
+**English:** The chapter cites Claude's compositions and paired decoration. Salviati's 1662 letter reports fixed prices only for middling clients, an individual practice rather than a rule for all noble patronage. Chapter 6 commissions remain separate.
 
-本次只测试第一章；第六章草稿仍未接收。章内对齐与来源核对不等于独立原典或外部权威验证，未明信息按上述边界保留。
+### 已有信息
+
+| 项目 | 内容 | 依据 |
+|---|---|---|
+| 名称／对应英文 | Claude Lorrain | S1、S2；标题中的语境说明为登记用语 |
+| 报价线索 | Salviati 1662 信；据客户身份区别预议价格 | S1、S2，支持范围见各条句意摘要 |
+
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+
+
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Claude_Lorrain) 的 wikibase_item 与 [Wikidata Q214074](https://www.wikidata.org/wiki/Q214074) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+
+## 关系与证据
+
+S1：第一章；印刷页 8；OCR L265–273,283；S2：第一章；印刷页 14；OCR L538–540,565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
+**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。

@@ -21,6 +21,7 @@ OUT_JS = BASE / "05-outputs" / "knowledge-graph-data.js"
 
 TYPE_COLORS = {
     "person": "#3B82F6",
+    "family": "#A16207",
     "institution": "#8B5CF6",
     "place": "#06B6D4",
     "work": "#F59E0B",
@@ -31,6 +32,7 @@ TYPE_COLORS = {
 }
 TYPE_ZH = {
     "person": "人物",
+    "family": "家族",
     "institution": "机构",
     "place": "地点",
     "work": "作品",

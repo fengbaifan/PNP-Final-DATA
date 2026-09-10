@@ -38,6 +38,7 @@ HEADERS = {"User-Agent": "Knowledge-Distillation/1.0"}
 
 TYPE_ALIASES = {
     "persons": "person",
+    "families": "family",
     "institutions": "institution",
     "places": "place",
     "works": "work",

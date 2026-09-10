@@ -26,7 +26,7 @@ HIERARCHY_FIELDS = ("primary_domain", "primary_dimension", "primary_theme", "top
 FRONTMATTER_RE = re.compile(r"\A(?:\ufeff)?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9'-]{2,}|[\u4e00-\u9fff]{2,}")
 UNIT_LINK_RE = re.compile(r"\.\./\.\./units/([A-Za-z0-9_./-]+\.md)")
-UNIT_DIRS = ("persons", "institutions", "places", "works", "archives", "terms", "procedures", "events")
+UNIT_DIRS = ("persons", "families", "institutions", "places", "works", "archives", "terms", "procedures", "events")
 ALLOWED_ROLES = {
     "term_anchor",
     "representative_work",
@@ -332,7 +332,7 @@ def build_source_hierarchy_review_records(
         if not refs:
             continue
         chapters = sorted({ref["chapter_id"] for ref in refs if ref.get("chapter_id")})
-        unit_type = str(data.get("type") or path.parent.name.rstrip("s")).strip()
+        unit_type = str(data.get("type") or ("family" if path.parent.name == "families" else path.parent.name.rstrip("s"))).strip()
         if unit_type_filter is not None and unit_type != unit_type_filter:
             continue
         sub_type = str(data.get("sub_type") or "<none>").strip()
@@ -345,7 +345,7 @@ def build_source_hierarchy_review_records(
         relative = repo_path(path, root)
         key = unit_key(path, units)
         chapters = sorted({ref["chapter_id"] for ref in refs if ref.get("chapter_id")})
-        unit_type = str(data.get("type") or path.parent.name.rstrip("s")).strip()
+        unit_type = str(data.get("type") or ("family" if path.parent.name == "families" else path.parent.name.rstrip("s"))).strip()
         sub_type = str(data.get("sub_type") or "<none>").strip()
         candidates = recall_topics_for_unit(
             key=key,

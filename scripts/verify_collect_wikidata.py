@@ -448,8 +448,19 @@ def match_concept_entity(entity: dict, ku_name_en: str) -> tuple[int, int, list[
     return score, max_score, matched
 
 
+def match_family(entity: dict, ku_name_en: str) -> tuple[int, int, list[dict]]:
+    """Collect a candidate without certifying kinship from a label or generic P31."""
+    return 0, 1, [{
+        "field": "family_identity",
+        "expected": "source-backed family or branch, not surname, person or household",
+        "actual": "requires semantic comparison of candidate and source context",
+        "result": "none",
+    }]
+
+
 TYPE_MATCHER = {
     "person": match_person,
+    "family": match_family,
     "institution": match_generic_entity,
     "place": match_place,
     "archive": match_archive,

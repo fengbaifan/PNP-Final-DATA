@@ -31,6 +31,7 @@ relations:
 - 要求 inverse 的类型使用 schema 中的映射；自动补全只生成派生 backlink，不构成第二次语义裁决。
 - `evidence_ref`、`claim_id` 或明确的 `needs_evidence` 状态至少存在一个。
 - 不得仅凭共享标签、年代、同章或正文链接提升为正式关系。
+- 家族适用既有类型：`member_of` 从 person 指向 family，须有成员身份依据，并在 note 中注明已知亲缘／婚姻／收养性质和时期；指向 institution 时仍是组织成员关系。`part_of` 从 family 支系指向有据的上级家族，不用于联姻、受雇或同姓。两类关系都不因 family 分类自动生成；具体亲缘可先在内容表记录，未受控的关系谓词不临时写入正式图谱。
 
 ## 三、来源与审查状态
 

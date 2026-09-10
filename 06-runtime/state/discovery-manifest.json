@@ -2,49 +2,31 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:b5165abb3bc01ff5ff76f1b90088174ae55dee84033899c84c7a80d771afc7ad",
+  "baseline_input_fingerprint": "sha256:5fa6a62a552d8330a5bfad306b0a4a28d67538ed176e639177af0ff2bca78154",
   "input_state": {
-    "03-processing/patrons-and-painters-chp-1/candidate-ledger.jsonl": "sha256:2a46ba5d94b97a20806341fd1babaa302b70dace57607d7596fae8b80ed87a97",
     "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
   },
   "source_counts": {
-    "03-processing/patrons-and-painters-chp-1/candidate-ledger.jsonl": 15,
     "04-knowledge/quality/relation-candidates.yml": 0
   },
   "candidate_transition_source_counts": {},
   "applied_candidate_transition_counts": {},
   "candidate_counts": {
-    "total": 15,
-    "by_origin_type": {
-      "source": 15
-    },
-    "by_candidate_type": {
-      "claim": 5,
-      "unit": 10
-    },
-    "by_state": {
-      "approved": 15
-    },
-    "by_lifecycle_class": {
-      "active": 15
-    }
+    "total": 0,
+    "by_origin_type": {},
+    "by_candidate_type": {},
+    "by_state": {},
+    "by_lifecycle_class": {}
   },
   "actionable_candidate_counts": {
-    "total": 15,
-    "by_origin_type": {
-      "source": 15
-    },
-    "by_candidate_type": {
-      "claim": 5,
-      "unit": 10
-    },
-    "by_state": {
-      "approved": 15
-    }
+    "total": 0,
+    "by_origin_type": {},
+    "by_candidate_type": {},
+    "by_state": {}
   },
   "legacy_projection_normalizations": {},
   "issues": [],
   "output_hashes": {
-    "06-runtime/state/candidate-index.jsonl": "sha256:b47bd53932156a4d81e0422600a5f9b9018f5d9495f1e2b4abafb9cfc153d4bc"
+    "06-runtime/state/candidate-index.jsonl": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }

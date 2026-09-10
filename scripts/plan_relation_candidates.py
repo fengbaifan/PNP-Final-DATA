@@ -79,7 +79,7 @@ def _normalize_target(target):
 # ── Build all-units registry ──
 all_units = {}
 unit_paths = []
-for dname in ["persons","institutions","places","works","archives","terms","procedures","events"]:
+for dname in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
     d = UNITS / dname
     if not d.exists():
         continue
@@ -125,7 +125,7 @@ for dname in ["persons","institutions","places","works","archives","terms","proc
 
         all_units[rel] = {
             "path": rel,
-            "type": dname.rstrip("s"),
+            "type": ("family" if dname == "families" else dname.rstrip("s")),
             "title": title,
             "name_en": name_en,
             "tags": tags,

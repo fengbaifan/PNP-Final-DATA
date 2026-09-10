@@ -21,7 +21,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 UNIT_PREFIX = "04-knowledge/units/"
-UNIT_DIRS = {"persons", "institutions", "places", "works", "archives", "terms", "procedures", "events"}
+UNIT_DIRS = {"persons", "families", "institutions", "places", "works", "archives", "terms", "procedures", "events"}
 
 
 def read_jsonl(path: Path) -> list[dict]:

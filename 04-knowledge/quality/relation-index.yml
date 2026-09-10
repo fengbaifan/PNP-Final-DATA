@@ -1,5 +1,5 @@
 # Relation Index v2.1
-# generated: 2026-09-09
+# generated: 2026-09-10
 # total: 173
 # sources: {'explicit': 173}
 
@@ -2304,7 +2304,7 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 脚注署作者，1627 年初刊。
+  note: 脚注署作者；该注称 1627 年初刊，与外部书目存在差异，见正文。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters

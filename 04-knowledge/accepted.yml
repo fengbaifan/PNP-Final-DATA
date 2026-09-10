@@ -1,4 +1,4 @@
-# 当前有效成果；REV-016 类型迁移和补漏不表示全量完整性已经验收。
+# 当前有效成果；REV-033 登记收口：298 个 KU，暂缓项见第一章结果；不表示全量事实验证或提取穷尽。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/ameyden-relazione-1642.md
@@ -46,21 +46,21 @@ units:
 - 04-knowledge/units/events/schildersbent-formation-1623.md
 - 04-knowledge/units/events/titian-honours-1533.md
 - 04-knowledge/units/institutions/accademia-di-san-luca.md
-- 04-knowledge/units/institutions/aldobrandini-family.md
+- 04-knowledge/units/families/aldobrandini-family.md
 - 04-knowledge/units/institutions/apostolic-chamber.md
 - 04-knowledge/units/institutions/arcadia.md
 - 04-knowledge/units/institutions/barberini-household.md
 - 04-knowledge/units/institutions/barnabites.md
 - 04-knowledge/units/institutions/biblioteca-augusta.md
 - 04-knowledge/units/institutions/biblioteca-casanatense.md
-- 04-knowledge/units/institutions/borghese-family.md
+- 04-knowledge/units/families/borghese-family.md
 - 04-knowledge/units/institutions/capuchins.md
 - 04-knowledge/units/institutions/colnaghi.md
 - 04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md
 - 04-knowledge/units/institutions/fabbrica-di-san-pietro.md
 - 04-knowledge/units/institutions/jesuits.md
 - 04-knowledge/units/institutions/oratorians.md
-- 04-knowledge/units/institutions/peretti-family.md
+- 04-knowledge/units/families/peretti-family.md
 - 04-knowledge/units/institutions/pinacoteca-vaticana.md
 - 04-knowledge/units/institutions/schildersbent.md
 - 04-knowledge/units/institutions/theatines.md
@@ -259,6 +259,7 @@ units:
 - 04-knowledge/units/terms/inspiration.md
 - 04-knowledge/units/terms/modello.md
 - 04-knowledge/units/terms/nepotism.md
+- 04-knowledge/units/terms/news-sheets.md
 - 04-knowledge/units/terms/nostro-pittore.md
 - 04-knowledge/units/terms/pendant-pictures.md
 - 04-knowledge/units/terms/platonism.md

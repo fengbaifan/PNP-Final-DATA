@@ -1,24 +1,58 @@
 ---
 title: "那不勒斯主教座堂（Naples Cathedral）"
+name_en: "Naples Cathedral"
 type: place
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-10
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/naples.md","note":"教堂地点为 Naples。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 498–502; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
-  - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 13."
-    location: "第一章印刷页 13；OCR 行 500–502"
-    evidence_ref:
-      doc_id: patrons-and-painters
-      source_file: 02-sources/02-Markdown/01_CHP-1.md
-      source_span: "lines 500–502; print pp. 13"
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
+  location: 第一章；印刷页 13；OCR L500–502
+  sentence_summary: Domenichino 和 Lanfranco 的壁画计价例所在教堂：每位主要人物分别为 130 和 100 杜卡特。印刷页 13 的原句明确区分两人的费率。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 500–502; print pp. 13
+- citation: "Wikipedia (en), Naples Cathedral, revision 1367241929. https://en.wikipedia.org/wiki/Naples_Cathedral. Accessed 2026-09-10."
+  location: "导言身份段；REV-034 初步对齐，非全文补足"
+  sentence_summary: "Naples Cathedral／Duomo di Napoli，城市主教座堂；非整个 Naples 城市。"
+- citation: "Wikidata, Q256486, revision 2539061103. https://www.wikidata.org/wiki/Q256486. Accessed 2026-09-10."
+  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
+  sentence_summary: "Naples Cathedral／Duomo di Napoli，城市主教座堂；非整个 Naples 城市。"
 ---
 
-## 描述
+## 内容
 
-Domenichino 和 Lanfranco 的壁画计价例所在教堂：每位主要人物分别为 130 和 100 杜卡特。印刷页 13 的原句明确区分两人的费率。
+### 描述
 
-## 来源与未决项
+**中文：** Domenichino 和 Lanfranco 的壁画计价例所在教堂：每位主要人物分别为 130 和 100 杜卡特。印刷页 13 的原句明确区分两人的费率。
 
-保留章内能确认的对象边界。书目、通信与作品的来源卡只作知识登记，不新增或假造原始文献；未标日期、实物身份、原典核验和现状不补填。
+**English:** The church provides the fresco-pricing example of Domenichino receiving 130 and Lanfranco 100 ducats per principal figure. The PDF of printed page 13 distinguishes their rates.
+
+### 已有信息
+
+| 项目 | 内容 | 依据 |
+|---|---|---|
+| 名称／对应英文 | Naples Cathedral | S1；标题中的语境说明为登记用语 |
+| 工程计价 | Domenichino 130／Lanfranco 100 ducats；OCR too 已校正 | S1，支持范围见各条句意摘要 |
+
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+
+
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Naples Cathedral／Duomo di Napoli，城市主教座堂；非整个 Naples 城市。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Naples_Cathedral) 的 wikibase_item 与 [Wikidata Q256486](https://www.wikidata.org/wiki/Q256486) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+
+## 关系与证据
+
+S1：第一章；印刷页 13；OCR L500–502。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
