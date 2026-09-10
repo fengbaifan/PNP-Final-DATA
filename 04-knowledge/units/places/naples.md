@@ -25,6 +25,21 @@ sources:
   - citation: "Wikidata, Q2634, revision 2540181848. https://www.wikidata.org/wiki/Q2634. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
     sentence_summary: "Naples／Napoli 城市；补齐反向链，不把那不勒斯王国作为同一 KU。"
+  - citation: 'Wikidata, Q2634, revision 2540181848. https://www.wikidata.org/wiki/Q2634. Accessed 2026-09-10.'
+    location: 'REV-045：实际实体响应；P31/P17/P131/P625/P1448/P1376/P1667；读取 rank、限定词、引用及所用实体标签'
+    sentence_summary: '城市与市镇属性须区分；坐标是定位点而非边界。历史政体和行政日期未因 preferred 或限定词存在而自动采信；两个 TGN 号分别指聚落与市镇。'
+  - citation: 'UNESCO World Heritage Centre, Historic Centre of Naples, dossier 726bis. https://whc.unesco.org/en/list/726/. Accessed 2026-09-10.'
+    location: 'Description、Brief synthesis、Integrity、名录信息栏；本次定向复核范围、面积和时间口径'
+    sentence_summary: '现列遗产区 1,021 ha、缓冲区 1,350 ha，1995 年列入、2011 年边界调整；两种面积不能合成城市面积。'
+  - citation: 'Wiley Online Books, Art and Architecture in Naples, 1266–1713: New Approaches. https://onlinelibrary.wiley.com/doi/book/10.1002/9781444324389. Accessed 2026-09-10.'
+    location: '书目头部 Editor(s)、First published、Online ISBN／DOI 及目录；书内章节未读'
+    sentence_summary: '确认 Cordelia Warr 与 Janis Elliott 为编者，出版年 2010，电子 ISBN 9781444324389；书目核对不等于读过原书。'
+  - citation: 'The University of Manchester, Research Explorer, Art and Architecture in Naples, 1266-1713: New Approaches. https://research.manchester.ac.uk/en/publications/art-and-architecture-in-naples-1266-1713-new-approaches/. Accessed 2026-09-10.'
+    location: '出版地、出版社、纸本 ISBN、出版年及引文导出；责任者角色以 Wiley 的 Editor(s) 为准'
+    sentence_summary: '记录 Chichester、John Wiley & Sons Ltd、纸本 ISBN 9781405198615、2010；数据库 author 字段不覆盖出版社明示的编者角色。'
+  - citation: 'Brill, Preliminary Material, in A Companion to Early Modern Naples. https://brill.com/display/book/9789004251830/B9789004251830_001.xml. Accessed 2026-09-10 via indexed publisher record.'
+    location: '出版商检索索引中的 Editor、series、publisher、ISBN、publication year；直达页面读取失败，非原书全文'
+    sentence_summary: '检索记录列 Tommaso Astarita 为编者，Brill，2013，Brill’s Companions to European History 2，电子 ISBN 9789004251830；直达与原书正文仍未读。'
 ---
 
 ## 内容
@@ -35,62 +50,94 @@ sources:
 
 **English:** Naples is the city from which Lanfranco wrote a letter dated 14 July 1640, as cited in Chapter 1. It is also the location of the cathedral whose frescoes provide an example in the chapter of pricing by the number of principal figures. This entry refers to the city, not a political entity of the same name; the cathedral is distinguished as a specific building.
 
-### 地理与对象边界
+### 名称
 
-| 字段 | 内容 | 依据与限制 |
+| 字段 | 值 | 证据 |
 |---|---|---|
-| 规范名称 | 那不勒斯（Naples） | 本书称名；稳定城市对象 |
-| 原语与地方名称 | Napoli（意大利语）；Napule（那不勒斯语）；Neapolis（历史名称） | WP 信息框／Notes；UNESCO 古代格网说明 |
-| 多值属性 | 城市（city）、港口城市（port city）、区域首府（regional capital）、历史都城（historic capital） | WP 导言／History；这些角色有不同历史适用期，不把当代区域首府倒投至 1640 年 |
-| 当代地理定位 | 意大利 Campania 的区域首府，位于那不勒斯湾 | WP 导言／Geography；行政区与都市圈并非同一边界 |
-| 地点性质 | 意大利南部、那不勒斯湾的港口城市 | UNESCO Brief synthesis、criterion (ii) |
-| 本书定位 | 兰弗兰科 1640-07-14 信件发出地；主教座堂计价实例所在地 | Haskell p. 11、13，原 sources 行号 |
-| 城市与建筑 | [那不勒斯主教座堂](naples-cathedral.md)是城市内的具体建筑，不能把设计师或建造年代填给整座城市 | 章内语义边界 |
-| 城市与遗产区 | Historic Centre of Naples 于 1995 年列入世界遗产；这是历史中心遗产区的资格，不是整座城市与遗产区同一 | UNESCO Date of Inscription、Integrity |
+| 中文名 | 那不勒斯 | S1；S6 中文标签 |
+| 英文名 | Naples | S3；S6 英文标签 |
+| 意大利语名 | Napoli | S3；S6 名称字段 |
+| 那不勒斯语名 | Napule | S3；S6 那不勒斯语标签 |
+| 历史名称 | Neapolis | S2–S3；S7 的古代城市叙述 |
+| 更早聚落称名 | Parthenope／Palaepolis | S7 Brief synthesis；不简单视作同一时期异名 |
 
-### 历史背景与名称
+### 地理与基本信息
 
-| 时期 | 内容 | 依据 |
+| 字段 | 值 | 证据 |
 |---|---|---|
-| 古代 | Neapolis 为历史名称，城市保存希腊—罗马时期格网及遗存 | UNESCO Description、criterion (iv) |
-| 西班牙统治时期 | 王宫及教会建筑等构成城市建筑背景；此处仅登记统治时期背景，不生成独立政体 KU | UNESCO Brief synthesis 的 Spanish rule 段 |
-| 1734 起 | 波旁统治时期的城市及宫殿发展 | UNESCO Brief synthesis；不倒投到本章 1640 年通信 |
+| 本卡对象 | 城市／聚落（City／inhabited place） | S1 语境；S3；S6 |
+| 国家（当代） | 意大利（Italy） | S3；S6；不倒投至 1640 年 |
+| 大区（当代） | 坎帕尼亚（Campania） | S3；S6 首府字段 |
+| 行政上级（当代） | 那不勒斯广域市（Metropolitan City of Naples） | S6；行政单位大于本卡城市对象 |
+| 地理位置 | 意大利南部，那不勒斯湾 | S2–S3、S7 |
+| 城市定位点 | 约北纬 40°50′09″、东经 14°14′55″ | S6 坐标；不是城市边界或建筑位置 |
+| 城市面积 | 本轮未核定 | 遗产区面积不填入本字段 |
 
-以上为与理解书中地点有关的背景摘录，不是城市通史，也不是完整的行政归属年表。
+### 地点属性
 
-### 全文阅读后的取舍与研究线索
+| 属性／角色 | 时间与范围 | 证据 |
+|---|---|---|
+| 城市（City） | 本章与当代均可识别的聚落对象 | S1、S3、S6 |
+| 港口城市（Port city） | 地理与历史功能 | S7 Brief synthesis |
+| 大区首府（Regional capital） | 当代 Campania | S3；S6 |
+| 历史都城（Historic capital） | 须按具体政权及时期理解 | S3 History；S7；非恒定国籍 |
+| 市镇（Comune） | S6 同时表达的现代行政属性 | 与聚落范围有关但不当作完全相同的空间边界 |
 
-WP 对象页已从信息框读至正文、注释和书目。保留与本书对象有关的名称、地理和时期边界；页面的教堂、宫殿、博物馆及艺术学校清单是地点内对象的线索，不批量归为城市自身的创作者、所有者或作品。
+### 历史与本章活动
 
-| 内容范围 | 采用或暂缓 |
-|---|---|
-| 历史政权 | 城市先后作为不同政权都城的表述可作历史角色；具体政权转换日期仍须按事件核定，不生成连续无缺的统治年表 |
-| 遗产范围 | 导言信息框的面积与建筑节中的核心区／缓冲区口径不一，仍以 UNESCO 对象范围为准，不把不同面积相加 |
-| 文学、戏剧与影视 | 页面带缺引注／需清理提示，相关评价与“最早”说法不作为已经核验的城市事实 |
-| 现代人口、经济、交通及体育 | 已读，未为本章历史知识扩写这些实时数据；不同统计边界与年份不并作一个值 |
-| 研究书目 | Cordelia Warr、Janis Elliott，Art and Architecture in Naples, 1266–1713: New Approaches（2010）；Tommaso Astarita，A Companion to Early Modern Naples（2013） |
+| 时间 | 事项 | 对象／范围 | 证据与限定 |
+|---|---|---|---|
+| 古代 | 更早聚落与 Neapolis 的发展 | Parthenope／Palaepolis；Neapolis | S7 分述更早聚落与后来的建立过程；未据一个日期填作全部城市唯一成立日 |
+| 希腊—罗马时期 | 城市格网与遗存 | 历史城市空间 | S2、S7；不等于所有建筑均建于古代 |
+| 西班牙统治时期 | 王宫及教会建筑发展 | 城市建筑背景 | S7；概述不转写为无缺口的统治年表 |
+| 1640-07-14 | 兰弗兰科写信 | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md)所在城市 | S1，第一章 p. 11，L423–425 |
+| 本章所述主教座堂工程 | 按主要人物数量计酬 | [那不勒斯主教座堂](naples-cathedral.md) | S1，第一章 p. 13，L500–502；城市不是工程创作者 |
+| 1734 起 | 波旁统治下城市及宫殿发展 | 城市及相关王室建筑 | S7；不倒投到 1640 年 |
 
-上述书目仅由 WP 引注识别，原书未读，作者／编者责任与具体版本仍待出版社记录核对；不另建文献副本。
+### 历史中心遗产区
 
+本节记录城市内相关遗产范围，不把遗产地与城市合并。
 
-### 初步对齐（REV-034，2026-09-10）
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 遗产名称 | 那不勒斯历史中心（Historic Centre of Naples） | S7 |
+| 列入年份 | 1995 | S7 名录信息栏 |
+| 边界调整年份 | 2011 | S7 Integrity／名录信息栏 |
+| 遗产区面积 | 1,021 ha | S7，2026-09-10 所读记录 |
+| 缓冲区面积 | 1,350 ha | S7 同上；与遗产区分列，不相加为城市面积 |
+| 档案编号 | 726bis | S7；这是遗产名录编号，不是城市 QID |
 
-**身份配对通过。** Naples／Napoli 城市；补齐反向链，不把那不勒斯王国作为同一 KU。
+### 研究文献
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Naples) 的 wikibase_item 与 [Wikidata Q2634](https://www.wikidata.org/wiki/Q2634) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+| 文献 | 责任者 | 版本／出版信息 | 阅读范围 |
+|---|---|---|---|
+| *Art and Architecture in Naples, 1266–1713: New Approaches* | Cordelia Warr，编者；Janis Elliott，编者 | Chichester：John Wiley & Sons Ltd，2010；纸本 ISBN 9781405198615；电子 ISBN 9781444324389；DOI 10.1002/9781444324389 | S8 出版社书目与目录、S9 学校记录已读；原书章节未读 |
+| *A Companion to Early Modern Naples* | Tommaso Astarita，编者 | Brill，2013；Brill’s Companions to European History 2；电子 ISBN 9789004251830 | S10 出版商索引记录，直达页失败；原书未读，保留访问范围限制 |
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 本章相关内容
+
+本章一处用那不勒斯定位兰弗兰科的通信，另一处讨论此地主教座堂工程的计价。城市、主教座堂建筑及其内部壁画是不同对象；设计师、建造年代、作品创作者和收藏不混入城市字段。城市中教堂、宫殿、学校等清单只作后续对象线索，不因百科列出就批量新增知识元。
 
 ## 关系与证据
 
-### 初步对齐与补足状态
+### 关系记录
 
-已访问 [English Wikipedia / Naples](https://en.wikipedia.org/wiki/Naples)，确认所指是城市，并点击 Wikidata item 到 [Q2634](https://www.wikidata.org/wiki/Q2634)。当时 WD sitelink 读取失败；REV-034 已补齐实体及 WD→WP 反向核对，Q2634 身份配对通过。本轮仍不导入详细属性。REV-029 已完成英文 revision 1373700383 全文阅读，新增名称和属性注明 WP，既有历史背景仍据 UNESCO。完整阅读不等于文章中全部说法均通过核验。
+本卡目前没有正式关系。通信地点、建筑所在地及历史角色已按内容字段保存，后续须按明确端点和具体来源形成关系；WD 的国家／行政／首府字段不直接生成正式边。
 
-UNESCO 记录的是历史中心，不能用该遗产地标识替代城市 QID；它可以支持页面明确描述的城市地理与历史背景。上述语义范围分别保存，不做实体合并。外部来源已读并补入有限内容，整卡保留 source_backed，不表示阶段全面完成。
+### 身份与阅读范围
+
+[Wikipedia / Naples](https://en.wikipedia.org/wiki/Naples) ↔ [Wikidata Q2634](https://www.wikidata.org/wiki/Q2634) 的城市身份配对已完成。复用 S3 的英文全文阅读（revision 1373700383）；S4 的较新 revision 1374047338 只读过身份段，不冒称全文已读。S6 本轮取得实际实体响应并核对适用属性及所用标签，配对 sitelink 仍一致。S8–S10 只支持所述书目事实。整卡保持 source_backed。
 
 ### 待补与争议
 
-- 英文对象页全文阅读及 Wikidata 双向配对已完成；适用字段提取、历史行政归属的细分时间与研究书目核对仍待补足。
-- Getty TGN 尚未直接核查；本轮采用适用官方来源 UNESCO，不假称已访问所有权威库。
-- 建筑、城市与政治实体继续分别建模；具体建筑内部作品的身份及收藏信息须在相应对象核对。
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 行政日期 | S6 对当前广域市给 2015-01-01 起始限定、对旧省给 2014-12-31 终止；这些日期尚未直接核原行政依据，未编入确定沿革 |
+| 历史政体 | S6 有多个国家／都城值和不同时间精度，若干缺声明引用；暂不拼成连续统治史。城市与那不勒斯王国分别建模 |
+| 现代国家时间 | S6 的 Italy 带 1861-03-17 起始值；不据此把现代共和国制度追溯到该日 |
+| 遗产面积 | 本轮已按 UNESCO 将遗产区与缓冲区分开；旧 WP 的不同口径不混加，完整边界地图尚未核读 |
+| Getty 标识 | S6 分列 TGN 7004474（Naples，inhabited place）、7051538（Napoli，municipality）；本卡城市语境以前者为待核入口。原站本轮读取失败，两号均不能标为 Getty 已核 |
+| 书目日期 | S8 首发 2010-02-12，S9 发布字段 2010-08-18；当前书目保留年精度，不冒称同一载体唯一精确出版日。S10 仅索引可读，待直达记录 |
+| 其他内容 | 历史政权细分、建筑和内部作品的具体身份仍按各对象补证；现代人口、交通、经济、体育及缺引文学评价不为本章扩写 |
+
+S1–S10 按元数据 sources 顺序对应。字段 rank、引用、精度、访问失败与采用／暂缓依据见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-045 及其补足证据文件。

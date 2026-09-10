@@ -31,39 +31,74 @@ sources:
 
 **English:** A letter sent by Fulvio Testi from Rome to Count Francesco Fontana on 29 January 1633. Haskell uses it to discuss Bernini's prices for sculpture, his payment for the head of Cardinal Borghese, and his monthly salary from the Fabbrica di S. Pietro. The full date, absent from the chapter, has been supplied from the letter's closing in Fraschetti's printed transcription on p. 108. The manuscript itself has not been examined.
 
-### 文献信息
+### 题名与文献属性
 
-| 字段 | 内容 | 依据 |
+| 字段 | 值 | 证据 |
 |---|---|---|
-| 题名性质 | 本项目自拟的中英文描述性题名，非原信正式标题；中文人名为音译，泰斯蒂沿用现有译名，丰塔纳为暂译 | 本章仅说明发收者，未提供原题 |
-| 文献类型 | 书信（letter） | Haskell，L700 |
-| 发信人 | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | Haskell，L700 |
-| 收信人 | [弗朗切斯科·丰塔纳伯爵（Count Francesco Fontana）](../persons/francesco-fontana.md) | Haskell，L700；仅指本处收信人，不与同名人物合并 |
-| 所述内容 | 雕像可值 4,000 或 5,000 scudi；枢机肖像头部酬金 1,000 scudi；月俸 300 scudi | Haskell，L701–703；属于书中对信件内容的转述 |
-| 日期／发信地 | 1633-01-29／罗马（Rome） | Fraschetti p. 108 注 1 信末；扫描图核对 |
-| 文本语言 | 所读刊引为意大利语 | Fraschetti p. 108 注 1；不是对未见手稿的独立语言鉴定 |
-| 刊引路径 | Haskell → Fraschetti（1900）p. 108 注 1 → 其说明所称 Campori 刊本／Ferrari Morena 家旧藏手稿 | Fraschetti 的编者说明已读；Campori 版本及手稿未直接核验，旧藏地不等于今日保管地 |
+| 中文题名 | 富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信 | S1 发收者；项目自拟描述性题名 |
+| 英文题名 | Letter from Fulvio Testi to Francesco Fontana | S1 发收者；项目自拟描述性题名 |
+| 原件正式题名 | 未知 | 来源未提供，不能把项目题名当作原题 |
+| 类型 | 书信（Letter） | S1，L700 |
+| 所读文本语言 | 意大利语（Italian） | S2，p. 108 注 1 的刊引文字 |
+| 发信日期 | 1633-01-29 | S2，p. 108 注 1 信末 |
+| 发信地点 | [罗马（Rome）](../places/rome.md) | S2 同上 |
+| 中文人名处理 | 泰斯蒂沿用现有译名；丰塔纳为暂译音译 | 规范表达，不增加身份结论 |
 
-### 刊引信件的内容与限定
+### 责任者与所述人物
 
-刊引以省略号起首；“刊引全文已读”指读完该页实际刊出的文字，不表示原信全文或手稿已经取得。
+| 角色 | 人物 | 限定 | 证据 |
+|---|---|---|---|
+| 发信人／作者 | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 与后来的刊引责任者分开 | S1，L700；S2 |
+| 收信人 | [弗朗切斯科·丰塔纳伯爵（Count Francesco Fontana）](../persons/francesco-fontana.md) | 仅指该通信对象，不合并同名天文学家 | S1，L700；S2 |
+| 所述人物 | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 信中评价与报酬的对象 | S1，L699–703；S2 |
 
-- 泰斯蒂自述在家与数位文人交谈，贝尔尼尼也参加；对贝尔尼尼文学谈吐、绘画及雕塑能力的赞扬保留为发信人的评价。
-- 信中把柱饰报酬 12,000 scudi、建筑师月俸 300 scudi、雕像估价 4,000 或 5,000 scudi、枢机肖像 1,000 scudi 分别叙述，不能合计成一次委托金额，也不是收据。
-- 贝尔尼尼赠素描并已开始绘制泰斯蒂油画肖像；石质肖像是以继续停留为条件的意向，不记成已完成实物。
-- 信末要求收信人勿向他人出示并撕毁信件，属于通信语气和传播意愿；不能据此推断原件后来确已销毁。
+### 内容条目
 
+| 事项 | 内容 | 性质与限定 | 证据 |
+|---|---|---|---|
+| 柱饰报酬 | 12,000 scudi | 信中所述金额，不是本项目核过的付款收据 | S2，p. 108 注 1 |
+| 建筑师月俸 | 300 scudi／月；圣彼得营建机构 | 月度俸给，不与作品价合计 | S1，L701–703；S2 |
+| 雕像价格 | 4,000 或 5,000 scudi | 原文的两种估价，不作一个确定成交数 | S1，L701–703；S2 |
+| 枢机肖像头部酬金 | 1,000 scudi | 博尔盖塞枢机肖像，与其他金额分开 | S1，L701–703；S2 |
+| 文人交往 | 泰斯蒂自述在家与数位文人交谈，贝尔尼尼参加 | 信中叙述，不扩成全部交游网络 | S2 |
+| 对贝尔尼尼的评价 | 赞扬文学谈吐、绘画与雕塑能力 | 评价者为泰斯蒂 | S2 |
+| 素描赠送 | 贝尔尼尼赠素描 | 具体实物版本与今藏待核 | S2 |
+| 油画肖像 | 贝尔尼尼已开始绘制泰斯蒂肖像 | “已开始”不等于完成 | S2 |
+| 石质肖像 | 以泰斯蒂继续停留为条件的制作意向 | 条件性计划，不登记为已完成作品 | S2 |
+| 传播意愿 | 要求收信人不向他人出示并撕毁 | 不能推定后来确已销毁 | S2 信末 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 刊引与传承
 
-**尚无配对。** 保留既有 Fraschetti 刊引所支持的日期和通信对象；没有该封信的 Wiki 配对，作者或 Bernini 的 QID 不可替代。
+| 环节 | 责任者／载体 | 定位 | 已读范围／限制 |
+|---|---|---|---|
+| 本章转引 | Francis Haskell，*Patrons and Painters*，1980 | 第一章 p. 17，L699–703 | S1；引 Fraschetti p. 108 |
+| 本次所读刊引 | Stanislao Fraschetti，*Il Bernini: la sua vita, la sua opera, il suo tempo*；Milano：Ulrico Hoepli，1900 | 第十二章 p. 108 注 1，PDF 第 158 页 | S2；刊引及扫描页已读，连读 p. 107–110 |
+| 较早刊本线索 | Campori 刊本 | S2 编者说明提及 | 未直接核验，详细版本待查 |
+| 手稿旧藏线索 | Ferrari Morena 家旧藏 | S2 编者说明提及 | 原件未见，旧藏不等于今日保管地 |
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+### 本章相关内容
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+Haskell 以信中几个不同性质的金额说明贝尔尼尼的报酬。补读刊引后，日期、发信地、艺术交往和肖像制作的条件可分别记录；不能把不同委托、估价和月俸相加。刊引以省略号起首，“刊引全文已读”仅指读完该页实际刊出的文字，不等于获得原信全文。
 
 ## 关系与证据
 
-三条既有正式关系保留于 frontmatter，分别对应发信人、收信人和所述人物。Haskell 第一章印刷页 17、OCR L699–703 支持原有边；Fraschetti p. 108 刊本文字增加日期、地点及内容依据，不自动新增图谱边。英文与意大利语查询未定位到该封具体书信的 Wikipedia 对象页；作者或博尔盖塞胸像页面不是书信的替代 QID。本卡外部内容已有补充，双向配对仍未完成。
+### 关系记录
 
-信末日期与发信地已由刊引解决；手稿原件、今日保管地、索书号及 Campori 初刊信息仍待核。中文音译与双语描述只是规范表达；收信人进一步身份见相应人物卡的带依据判断。本条为 REV-016 补漏，REV-028–030 原位规范并补证，固定路径不变。描述性标题未擅加原信不存在的正式题名。
+正式关系保留在元数据：书信 → 泰斯蒂（authored_by）、书信 → 丰塔纳（associated_person，note 明确收信人）、书信 → 贝尔尼尼（has_subject）。S1 p. 17、L699–703 支持三条边；新补日期和地点不自动生成图谱边。收信人的字段语义已明确，正式边以后可按受控词表细化，当前不改变方向或强加作者关系。
+
+### 身份与证据范围
+
+尚无该封具体书信的 Wikipedia—Wikidata 配对。英文及意大利语查询未定位对象页，不证明条目不存在，也不以作者或胸像 QID 代替。S2 支持刊本文字及信末信息，不能替代手稿核验；整卡仍为 source_backed。语言字段描述所读刊引，不冒称完成原手稿语言鉴定。
+
+### 待补
+
+| 字段／问题 | 状态 |
+|---|---|
+| 手稿原件 | 未核 |
+| 今日保管机构 | 未核 |
+| 索书号 | 未核 |
+| Campori 初刊题名、日期及版次 | 未核 |
+| 收信人进一步身份 | 见人物卡带依据的判断；同名消歧仍有缺口 |
+| 具体作品及付款原据 | 不能仅凭信中转述补定版本与支付事实 |
+
+S1–S2 对应元数据 sources 顺序。REV-016 补漏、REV-028–030 补证及本轮整理的过程见[knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)；固定路径原位更迭。

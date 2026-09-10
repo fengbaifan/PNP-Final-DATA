@@ -30,6 +30,18 @@ sources:
   - citation: "Wikidata, Q447730, revision 2537267979. https://www.wikidata.org/wiki/Q447730. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
     sentence_summary: "1582–1647 年博洛尼亚体系画家；补齐反向链，不与同名运动员混同。"
+  - citation: "Wikidata, Q447730, revision 2537267979. https://www.wikidata.org/wiki/Q447730. Accessed 2026-09-10."
+    location: "REV-038：P569/P570/P19/P20/P106/P1066/P463/P937/P245；rank、时间精度、限定词与引用"
+    sentence_summary: "字段摘要：取画家/素描家及带年精度的活动记录；不取 deprecated 的 graphic artist，死亡日与署名传记有异文。"
+  - citation: "Erich Schleier, \"LANFRANCO, Giovanni,\" Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/ Accessed 2026-09-10."
+    location: "开篇父母/出生；1616 婚姻及女儿；1631–1632 任职；1634 迁居与1646返罗马；1647 卒葬段。定向阅读"
+    sentence_summary: "转述：补亲缘、学院任职及活动时段；记 1647-11-29 去世、翌日安葬，与 Wiki 的 11-30 区别，未断言异文成因。"
+  - citation: "National Gallery of Art, \"Saint Cecilia and an Angel,\" accession 1961.9.73. https://www.nga.gov/artworks/46172-saint-cecilia-and-angel Accessed 2026-09-10."
+    location: "题名/作者/年代、Artwork overview、Provenance 及注[2]、1994年书目；定向读取，原清册和论文未读"
+    sentence_summary: "转述：两位作者并列、分期年代、布面油画及尺寸；馆方转录 1741 年清册分配作者部位，并列后续归属研究。"
+  - citation: "Treccani, \"Lanfranco, Giovanni,\" Enciclopedia on line. https://www.treccani.it/enciclopedia/giovanni-lanfranco/ Accessed 2026-09-10."
+    location: "导言出生地点；与署名 DBI 对照"
+    sentence_summary: "转述：出生地点列 Terenzo, Parma；署名 DBI 列 Parma，具体地点保留来源区别，不自动合并。"
 ---
 
 ## 内容
@@ -46,9 +58,9 @@ sources:
 |---|---|---|
 | 规范展示名 | Giovanni Lanfranco | NGA、WP、WD |
 | 名称变体 | Giovanni di Stefano Lanfranco（NGA 倒置形式为 Lanfranco, Giovanni di Stefano）；Giovanni Gaspare Lanfranco（WP Biography、WD 别名） | 均记录来源，不把两种扩展名机械拼接为一个全名；正式全名形式仍待专门传记核对 |
-| 生卒 | 1582–1647；WP 记 1582-01-26、1647-11-30 | 年份 NGA；日月 WP |
+| 生卒 | 生于 1582-01-26；卒日暂存异文：WP／WD 记 1647-11-30，Schleier／DBI 记 11-29、翌日安葬 | S7、S8；不自行断定百科把安葬日误作死亡日 |
 | 出生／去世地 | 帕尔马／罗马 | WP 导言、Biography |
-| 亲缘 | 父母 Stefano、Cornelia；配偶 Cassandra Barli，WP 信息框记 1616 年结婚 | 仅 WP，尚未追到教区或婚姻原始记录 |
+| 亲缘 | 父母 Stefano、Cornelia；配偶 Cassandra Barli，1616 年 1 月结婚；女儿 Flavia（1617-03-28）、Angela（1618-02-14） | S8 亲缘段；父母、配偶不再仅据 WP。Cornelia 娘家姓未明，仍未读教区或婚姻原件 |
 | 文化归属 | Italian；不等于现代国籍 | NGA |
 
 ### 学习、任职与本章活动
@@ -57,19 +69,38 @@ sources:
 |---|---|---|
 | 早期至 1602 前后 | 先随 Agostino Carracci 学习，后赴 Annibale Carracci 的罗马工作室 | WP Biography |
 | 早期 | Haskell 以其经历说明早期保护对职业起步的重要 | 本书 p. 7，L210–213 |
-| 1631 | WP 记任圣路加学院 Principe；属于学院职务，不自动翻译为世袭“亲王” | WP Return to Rome，尚未核学院原档 |
+| 1631–1632 | 圣路加学院 Principe：S8 记 1631 年 1 月当选、1632 年连任 | 署名传记支持该职务，学院原档未读；不是世袭“亲王”头衔 |
+| 1634–1646；1646 年末 | 那不勒斯活动阶段，后回罗马；不据城市年段推断期间未离境 | WD P937 年精度限定（S7）；S8 记 1634 年 3 月迁入、1646 年末返回 |
 | 1640-07-14 | 从 Naples 写信申请《教皇利奥与阿提拉》委托，提出展示画布构图 | 本书 p. 11，L408–425；[通信条目](../archives/lanfranco-barberini-letter-1640.md) |
 | 那不勒斯主教座堂计酬 | 主要人物每位 100 杜卡特，与 Domenichino 的 130 区分 | 本书 p. 13，L500–502 |
 | Valguarnera 交易 | 要求完成工作室既有《受难》《抹大拉》画稿；不因本次补生平改成从零委托 | 本书 p. 15，L596–601 |
+
+### Wikidata 字段与采用范围（REV-038）
+
+S7 为 Q447730 修订 2537267979；复用此前身份配对，所用 QID 标签已实际读取。以下是人物属性，未创建正式关系。
+
+| 字段 | 内容／处理 | 依据边界 |
+|---|---|---|
+| P569／P570 | 1582-01-26、1647-11-30，normal、日精度 | 出生与 S8 一致；死亡与 S8 冲突，保留各值及来源，不按引用数量裁决 |
+| P19／P20 | 帕尔马（Parma，Q2683）／罗马（Rome，Q220） | 前者引 ULAN，后者为 Wiki 导入；另与 S8 相合。Treccani 简明在线条目（S10）写 Terenzo，与署名 DBI 的 Parma 不同，出生具体地点仍待原档 |
+| P106 | 画家、素描家 / Painter, draftsman，可并存 | 两者 normal；graphic artist 为 deprecated，不采纳；printmaker 值仅为 Wiki 导入，本组未扩成确定职业标签 |
+| P1066／P463 | Agostino Carracci（Q316269）；圣路加学院（Q338523） | 师承 normal 无引，与既有 WP／S8 相合；学院声明引用 NGA 历史项目链接，原链接本轮未读，职务年表依据 S8 |
+| P937 | 罗马 1602（时间点）、1612–1631、1646–1647；帕尔马 1610（时间点）；那不勒斯 1634–1646 | 有日期者均为年精度，引用 RKD 47865 而未重读原站；不扩为 1 月 1 日或无间断居住记录。1631 的区间终点不当作确定离开罗马日 |
+| P937 的其他值 | 皮亚琴察（Piacenza，Q13329）；威尼斯（Venice，Q641）无时期 | 前者与既有早期经历相符；威尼斯活动证据原站未读，暂不放入确定年表 |
+| P245 | Getty ULAN 500022495 | WD 所列，无附带引用；不视为原 ULAN 页已核 |
+
+父母、配偶等适用 WD 字段本响应未列，已从 S8 定向补入；其缺值不是无亲缘。P800 的选列作品未自动接收或穷尽。
 
 ### 作品、评价与研究文献
 
 | 对象 | 角色与范围 | 依据 |
 |---|---|---|
 | [《受难》画稿](../works/lanfranco-crucifixion-stock.md)、[《抹大拉》画稿](../works/lanfranco-magdalene-stock.md) | 本章涉及的既有稿本；具体实物版本仍待核 | 本书 p. 15 |
-| 《圣则济利亚与天使》（Saint Cecilia and an Angel） | NGA 将 Orazio Gentileschi 与 Lanfranco 并列；年代分别列约 1617/1618、1621/1627；不简化为兰弗兰科独作 | NGA，馆号 1961.9.73；具体参与阶段尚待作品页研究 |
+| 《圣则济利亚与天使》（Saint Cecilia and an Angel） | NGA 并列 Orazio Gentileschi 与 Lanfranco，约 1617/1618 和约 1621/1627；布面油画，87.5 × 108 cm；现登记 NGA 1961.9.73 | 本轮实读作品页 S9。馆方转录 1741 年清册归属为 Gentileschi 画头像、Lanfranco 作其余部分；这是历史归属记录，不冒充本轮技术检测结论 |
 | *Giovanni Lanfranco (1582–1647)* | Giovanni-Pietro Bernini，Parma, 1982，1985 修订版；仅书目已核 | NGA Bibliography |
 | “Giovanni Lanfranco,” *The Age of Correggio and the Carracci* | Erich Schleier，Washington, 1986，pp. 483–494；仅书目已核，未读全文 | NGA Bibliography |
+| “LANFRANCO, Giovanni” | Erich Schleier，DBI 63（2004）；本轮已读亲缘、任职、那不勒斯阶段及卒葬相关段落 | S8，所引原件未读 |
+| “Saint Cecilia and an Angel: ‘The Heads by Gentileschi, the Rest by Lanfranco’” | Diane De Grazia、Erich Schleier，*The Burlington Magazine* 136（1994），pp. 73–78 | S9 书目记录已读；论文未通读，作品的历史归属转录来自馆方网页正文 |
 
 上表不是全集。Haskell 的案例解释与后续风格评价分别处理；本次未补成一套完整的评价史。
 
@@ -94,7 +125,7 @@ sources:
 
 ### 待补与争议
 
-- 姓名扩展形式、精确生卒日期、亲缘和职务仍需传记/原档复核；不要把 Principe 或 Cavalier 拼进本名。
+- 亲缘与 Principe 任职已有署名传记支持；姓名扩展形式、出生具体地点及卒日 29／30 日异文仍待原档。不要把 Principe 或 Cavalier 拼进本名。
 - 荣誉授予的准确时间和文书、完整履历、作品清单与评价史尚未系统查询。
 - 本章两件稿本和 1640 年申请方案的实物身份未由本轮生平补充解决。
-- 双向 Wiki 配对已于 REV-034 完成；后续提取适用 WD 字段，NGA 的具体事实仍按原证据范围使用。
+- REV-038 已提取适用 WD 字段，复用 REV-034 配对及既有 WP 全文阅读。威尼斯活动、原 ULAN／RKD 记录和作品技术研究仍待核；NGA 清册转录不等同于直接读取原清册。

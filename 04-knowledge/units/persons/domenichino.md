@@ -30,6 +30,12 @@ sources:
   - citation: "Wikidata, Q320118, revision 2540996976. https://www.wikidata.org/wiki/Q320118. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
     sentence_summary: "Domenico Zampieri／Domenichino，1581–1641 年画家；补齐此前缺失的 WD→英文页反向链。"
+  - citation: "Wikidata, Q320118, revision 2540996976. https://www.wikidata.org/wiki/Q320118. Accessed 2026-09-10."
+    location: "REV-038：P569/P570/P19/P20/P106/P1066/P463/P27/P245；rank、限定词及引用"
+    sentence_summary: "字段摘要：死亡日 preferred 1641-04-15 与 normal 1641-04-16 并存；入会年为 1614，原引用图录页未读，不机械覆盖外部传记。"
+  - citation: "Maria Gabriella Matarazzo, \"ZAMPIERI, Domenico, detto Domenichino,\" Dizionario Biografico degli Italiani 100 (2020). https://www.treccani.it/enciclopedia/zampieri-domenico-detto-domenichino_(Dizionario-Biografico)/ Accessed 2026-09-10."
+    location: "开篇亲缘与训练；Polet 礼拜堂签约/完成；婚姻、1621 任命；晚年卒日段。定向阅读，未读所引原档"
+    sentence_summary: "转述：补部分家庭、学习顺序及任命；记礼拜堂 1615 年 9 月完成、人物 1641-04-06 去世，与其他来源异文分别保留。"
 ---
 
 ## 内容
@@ -46,7 +52,7 @@ sources:
 |---|---|---|
 | 全名 | Domenico Zampieri；中文为音译 | NG、Met |
 | 惯用名 | Domenichino，意为“小多梅尼科”，与身材有关的昵称，不是贵族头衔 | Met 首段 |
-| 生卒 | 1581–1641；WP 导言记 1581-10-21、1641-04-06，精确日月暂仅据该条目 | NG；WP |
+| 生卒 | 1581-10-21—1641-04-06；死亡日暂采用 Matarazzo 署名传记，保留 WD 的 4 月 15／16 日异文 | DBI（S8）与 WP 一致；WD（S7）存在多值冲突，不按 rank 自动覆盖 |
 | 出生／去世地点 | 博洛尼亚／那不勒斯 | NG |
 | 职业与文化归属 | 意大利画家；Met 亦讨论其建筑、音乐修养；不将文化分类换算为现代国籍 | NG、Met |
 
@@ -54,11 +60,34 @@ sources:
 
 | 时期 | 内容 | 依据 |
 |---|---|---|
-| 博洛尼亚学习期 | 在卡拉奇学院学习；NG 具体记 Ludovico Carracci，WP 另记早先随 Denis Calvaert 学习 | NG、Met；WP Life，早期顺序待传记原典核查 |
+| 博洛尼亚学习期 | 先随 Denys Calvaert，约 1595 年经 Agostino 引介转入 Ludovico 的学校；引介人不自动等同于授课教师 | S8 学习段；WD P1066 的 Calvaert 截止年为 1595、精度为年且无引用（S7） |
 | 1602 起 | 至罗马协助 Annibale Carracci 的法尔内塞宫画廊工程 | Met；NG 对到达时间保留“可能已于 1602” |
 | 1617、1620 年代 | 1617 返博洛尼亚，1620 年代再在罗马活动，之后赴那不勒斯 | NG |
-| 1621 | 同乡教皇即位后回罗马，Ludovico 任其为 Vatican architect；这里保留本书职称，不扩大为未经核定的制度职责 | Haskell p. 4，L79–83 |
+| 1621-04-01 | Haskell 概称 Vatican architect；Matarazzo 细化为 Camera apostolica 的 architetto generale，由当日 breve 任命，月俸 25 金杜卡特 | Haskell p. 4，L79–83；S8 任职段转引文献，原任命书未读；不把泛称与正式职名无条件互换 |
 | 那不勒斯主教座堂工程 | 主要人物每位 130 杜卡特，不含背景人物 | Haskell p. 13，L498–502 |
+
+### 亲缘与家庭
+
+| 对象 | 关系与信息 | 依据及限定 |
+|---|---|---|
+| Zampiero de’ Zampieri；Valeria | 父亲与母亲；父名另有 Giampiero Giampieri 形式 | S8 开篇；不拼接成一个更长的名字 |
+| Gentile；Gabriele／Sebastiano | 姐妹 Gentile；兄弟名字在传记与公证文书转述间有异文 | S8；未拆成两位兄弟或自行决定正确名 |
+| Marsibilia Barbetti；Maria Camilla | 1620-04-27 与 Marsibilia 结婚；Maria Camilla 为女儿 | S8 婚姻段；原婚姻记录未读 |
+
+### Wikidata 字段与采用范围（REV-038）
+
+S7 为 Q320118 修订 2540996976。姓名、身份与原有配对相符；事实冲突不因此消失。
+
+| 字段 | 内容／处理 | 声明范围 |
+|---|---|---|
+| P569／P570 | 出生 1581-10-21；死亡字段含 1641-04-15（preferred）和 1641-04-16（normal），均为日精度 | 出生所列引用是 Wiki 导入；死亡分别有外部数据库引用，但本轮未读这些原站。保留两值；S8 将 4 月 6 日具体引向 Faraglia 1885 p. 454，故现阶段沿用 6 日，并不宣称异文已彻底解决 |
+| P19／P20 | 博洛尼亚（Bologna，Q1891）／那不勒斯（Naples，Q2634） | normal；与既有馆方内容一致 |
+| P106 | 画家、建筑师 / Painter, architect，可并存 | painter normal 有引用，architect normal 无引用；建筑活动另由已读 Met 和 S8 支持，非仅按无引 WD 值授予标签 |
+| P1066 | Denys Calvaert（Q544264）、Ludovico Carracci（Q380553） | 均 normal、无引用；结合 S8 采用训练顺序，1595 不扩成具体日期 |
+| P463 | 圣路加学院（Q338523）；WD 开始年 1614 | normal；引展览图录 *Caravaggio’s Rome 1600–1630*, Essays, p. 261，原页未读，入会年暂不写入确定年表；成员与 Principe 任职分开 |
+| P27／P245 | 教皇国（Q170174）无引、无时期，国籍暂缓；ULAN 500018832 仅作 WD 所列规范号 | 原 ULAN 记录本轮未读，不标为 Getty 核验完成 |
+
+WD 未列亲缘字段不否定 S8 的亲缘材料；P800 不是经过本项目逐件核查的作品清单。
 
 ### 作品、评价与研究文献
 
@@ -66,7 +95,7 @@ sources:
 
 | 作品 | 角色与时间 | 依据 |
 |---|---|---|
-| 圣则济利亚生平壁画，San Luigi dei Francesi | 画家；Met 记 1612–1615，NG 记可能 1614 已完；保存两个口径 | Met 正文；NG 简介 |
+| 圣则济利亚生平壁画（Life of Saint Cecilia），San Luigi dei Francesi | 画家；S8 记 1612-02-16 签约、1615 年 9 月完成，与 Met 年段相容；暂采用此过程年表，保留 NG“可能 1614 已完” | S8 转引 Spear；Met、NG；合同原件未读 |
 | 《圣哲罗姆最后的圣餐》（The Last Communion of Saint Jerome） | 画家；1614，Met 记藏 Pinacoteca Vaticana | Met 末段 |
 | 那不勒斯主教座堂 San Gennaro 礼拜堂壁画 | 参与画家，不把整个建筑或全部装饰独占归给他 | Met、NG；本章计酬语境 |
 
@@ -75,6 +104,7 @@ sources:
 | Keith Christiansen | 将其构图理解为通过程式化动作表达情感的古典艺术；这是有署名的研究解释 | Met 2008 文章，已读正文 |
 | Richard Spear | *Domenichino*，New Haven: Yale University Press, 1982；仅核 Met 推荐书目，未读该书 | Met Further Reading |
 | Francis Haskell | 本章用于讨论任职和按人物计酬；原典经其转述，未直接读取 | 原 sources 中本书 |
+| Maria Gabriella Matarazzo | “ZAMPIERI, Domenico, detto Domenichino”，DBI 100（2020）；本轮读取相关传记段落，不等于读过其所引档案 | S8 |
 
 WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作为独立问题：Lanfranco 的指责、支持者的辩护和 Ruskin 的批评各有主体，不能合写为客观定论。本轮只保留这一解释线索，未据此新增“抄袭”或“影响”正式关系。书目区 Serra 1909 的 ISBN 被页面标为年款不兼容，故未复制该 ISBN；作品目录也未整表冒充已逐件核实的全集。
 
@@ -97,7 +127,7 @@ WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作�
 
 ### 待补与争议
 
-- 尚未系统查证：亲缘、婚姻、其他称号、任职职责、完整作品与研究清单。精确生卒日月目前只据 WP。
-- 圣则济利亚壁画完成时间存在资料口径差异，不抹平为唯一年份；不影响本章人物身份对齐。
+- 已补部分亲缘、婚姻与任命资料；兄弟名字异文、完整亲缘、其他称号、任职职责、完整作品与研究清单仍有缺口。
+- 生卒日月已有 S8 支持；死亡日 6／15／16 日冲突和圣则济利亚壁画完成日期差异保留。所采用工作年表及理由见表，不等于所有原始文献已核。
 - Met 对死亡原因的推测未采为确定史实；更直接传记、档案及说法之间的关系尚待核查。
-- Wikipedia—Wikidata 双向配对已于 REV-034 完成；适用 WD 字段及馆方事实差异交补足。
+- REV-038 已提取适用 WD 字段，复用 REV-034 双向身份核对及既有 WP 全文阅读。入会年等仍待原页，整卡保持 source_backed。
