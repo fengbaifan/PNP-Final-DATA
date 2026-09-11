@@ -141,7 +141,7 @@
           "06-runtime/state/current-health.json"
         ],
         "files": 319,
-        "digest": "sha256:f71d9de6814aaa07e232112355cdd1e7801086a22367446c48e728f828b65f0d"
+        "digest": "sha256:33aced8c0346f4e0acef70bfde0529fefa47313160f4afefec6f24dbcce06b2f"
       },
       "outputs": {
         "05-outputs/index/index.md": "sha256:43d3a619f3fe575084c3a2cb34492e8512cfc92bb40f55d2ae6c8b6103324834",
@@ -210,8 +210,8 @@
         "digest": "sha256:a0dd71846408ab6ac6ca259dd01469e0e4cbba55f6b627908b311a7cd091bb7f"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:c28e4bf948e5a5d0ceae8fb674bb226377e33e343edc4bfdc5a25161cc9f4717",
-        "06-runtime/governance/governance-backlog.md": "sha256:50d0a13da41250859a5748bb46168896c263fad688e65e263069d370738d502a"
+        "06-runtime/state/current-health.json": "sha256:d713a65e801fd56d9c5bfdea7aed391b7f6fbb1edf961e9eddc34be68c0bb033",
+        "06-runtime/governance/governance-backlog.md": "sha256:6b4c0de81d4540d60910431194df2ea3ffb0c4daeeef87614e28c426039ebc81"
       },
       "missing_outputs": []
     }

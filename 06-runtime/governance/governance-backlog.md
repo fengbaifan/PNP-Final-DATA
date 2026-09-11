@@ -1,7 +1,7 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-12 00:08
+> Snapshot: 2026-09-12 00:16
 > Structural health: 61/130
 > Knowledge units: 298
 > Maturity metrics: unscored_semantic_maturity

@@ -1270,7 +1270,7 @@ def recall_quality_check(base: Path) -> dict:
         if compact_processing_profile(doc_dir):
             total_chapters += 1
             missing = set(compact_processing_issues(doc_dir, root=base))
-            relative = str(doc_dir.relative_to(base))
+            relative = doc_dir.relative_to(base).as_posix()
             if "candidate-ledger.jsonl" in missing:
                 chapters_without_candidate.append(relative)
                 chapters_without_decision.append(relative)
@@ -1281,7 +1281,7 @@ def recall_quality_check(base: Path) -> dict:
             if compact_processing_profile(ch_dir):
                 total_chapters += 1
                 missing = set(compact_processing_issues(ch_dir, root=base))
-                relative = str(ch_dir.relative_to(base))
+                relative = ch_dir.relative_to(base).as_posix()
                 if any(item.startswith("candidate-ledger.jsonl") for item in missing):
                     chapters_without_candidate.append(relative)
                     chapters_without_decision.append(relative)
@@ -1290,17 +1290,17 @@ def recall_quality_check(base: Path) -> dict:
                 continue
             total_chapters += 1
             if not (ch_dir / "candidate-units.md").exists():
-                chapters_without_candidate.append(str(ch_dir.relative_to(base)))
+                chapters_without_candidate.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "extraction-decision-matrix.md").exists():
-                chapters_without_decision.append(str(ch_dir.relative_to(base)))
+                chapters_without_decision.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "recall-audit.md").exists():
-                chapters_without_recall.append(str(ch_dir.relative_to(base)))
+                chapters_without_recall.append(ch_dir.relative_to(base).as_posix())
             # Check semantic-map for unresolved candidates
             sm = ch_dir / "semantic-map.md"
             if sm.exists():
                 content = read_text(sm)
                 if "❌" in content or "scaffolded" in content.lower() or "pending" in content.lower():
-                    semantic_maps_with_unresolved.append(str(ch_dir.relative_to(base)))
+                    semantic_maps_with_unresolved.append(ch_dir.relative_to(base).as_posix())
 
         # Check manifest status
         mf = doc_dir / "manifest.json"
@@ -1339,7 +1339,7 @@ def semantic_artifact_integrity_check(base: Path) -> dict:
         if compact_processing_profile(doc_dir):
             total_chapters += 1
             missing = set(compact_processing_issues(doc_dir, root=base))
-            relative = str(doc_dir.relative_to(base))
+            relative = doc_dir.relative_to(base).as_posix()
             if "source-map.jsonl" in missing:
                 chapters_without_ledger.append(relative)
                 chapters_without_structure.append(relative)
@@ -1352,7 +1352,7 @@ def semantic_artifact_integrity_check(base: Path) -> dict:
             if compact_processing_profile(ch_dir):
                 total_chapters += 1
                 missing = set(compact_processing_issues(ch_dir, root=base))
-                relative = str(ch_dir.relative_to(base))
+                relative = ch_dir.relative_to(base).as_posix()
                 if any(item.startswith("source-map.jsonl") for item in missing):
                     chapters_without_ledger.append(relative)
                     chapters_without_structure.append(relative)
@@ -1363,15 +1363,15 @@ def semantic_artifact_integrity_check(base: Path) -> dict:
                 continue
             total_chapters += 1
             if not (ch_dir / "reading-ledger.md").exists():
-                chapters_without_ledger.append(str(ch_dir.relative_to(base)))
+                chapters_without_ledger.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "continuity-map.md").exists():
-                chapters_without_continuity.append(str(ch_dir.relative_to(base)))
+                chapters_without_continuity.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "semantic-stitch-log.md").exists():
-                chapters_without_stitch.append(str(ch_dir.relative_to(base)))
+                chapters_without_stitch.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "source-structure-map.md").exists():
-                chapters_without_structure.append(str(ch_dir.relative_to(base)))
+                chapters_without_structure.append(ch_dir.relative_to(base).as_posix())
             if not (ch_dir / "extraction-coverage-matrix.md").exists():
-                chapters_without_coverage_matrix.append(str(ch_dir.relative_to(base)))
+                chapters_without_coverage_matrix.append(ch_dir.relative_to(base).as_posix())
 
     return {
         "metric_label": "语义工件完整性",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T00:08:41",
+  "timestamp": "2026-09-12T00:16:51",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -1067,22 +1067,22 @@
   "recall_quality": {
     "total_chapters": 4,
     "chapters_without_candidate": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_decision": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_recall": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "semantic_maps_with_unresolved": [],
     "manifests_scaffolded": 0
@@ -1092,34 +1092,34 @@
     "metric_boundary": "只检查覆盖工件与引用闭合，不代表语义验收",
     "total_chapters": 4,
     "chapters_without_reading_ledger": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_continuity_map": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_semantic_stitch_log": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_source_structure_map": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ],
     "chapters_without_extraction_coverage_matrix": [
-      "03-processing\\patrons-and-painters-chp-1\\process",
-      "03-processing\\patrons-and-painters-chp-1\\results",
-      "03-processing\\patrons-and-painters-chp-6\\process",
-      "03-processing\\patrons-and-painters-chp-6\\results"
+      "03-processing/patrons-and-painters-chp-1/process",
+      "03-processing/patrons-and-painters-chp-1/results",
+      "03-processing/patrons-and-painters-chp-6/process",
+      "03-processing/patrons-and-painters-chp-6/results"
     ]
   },
   "semantic_acceptance": {

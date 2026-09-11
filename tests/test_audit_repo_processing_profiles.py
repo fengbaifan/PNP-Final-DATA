@@ -106,6 +106,13 @@ class CompactProcessingProfileTests(unittest.TestCase):
             "example-source: compact-v4 missing candidate-ledger.jsonl",
             audit_repo.dataflow_issues(root),
         )
+        expected = "03-processing/example-source"
+        recall = audit_repo.recall_quality_check(root)
+        integrity = audit_repo.semantic_artifact_integrity_check(root)
+        self.assertEqual(recall["chapters_without_candidate"], [expected])
+        self.assertEqual(recall["chapters_without_recall"], [expected])
+        self.assertEqual(integrity["chapters_without_reading_ledger"], [expected])
+        self.assertEqual(integrity["chapters_without_continuity_map"], [expected])
 
 
 if __name__ == "__main__":
