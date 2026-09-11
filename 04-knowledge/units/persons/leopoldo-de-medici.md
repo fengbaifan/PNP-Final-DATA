@@ -3,7 +3,7 @@ title: "莱奥波尔多·德·美第奇（Leopoldo de’ Medici）"
 name_en: "Leopoldo de’ Medici"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -19,6 +19,12 @@ sources:
 - citation: "Wikidata, Q968920, revision 2522954967. https://www.wikidata.org/wiki/Q968920. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1617–1675 年美第奇学者与赞助人 Leopoldo；后来任枢机，不能把 1662 年通信日期当作已经获枢机任命的证据。"
+- citation: "Wikipedia (en), Leopoldo de' Medici, revision 1358922464. https://en.wikipedia.org/wiki/Leopoldo_de'_Medici Accessed 2026-09-11."
+  location: "全文2324字符；章节：Biography、Ancestors、References"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q968920, revision 2543647845. https://www.wikidata.org/wiki/Q968920. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -39,6 +45,24 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+**语义摘要：** 1617–1675年的Medici王子、枢机、学者和收藏家；页面记其科学学院、艺术收藏及通信。1662信件时他尚未于1667年受任枢机，字段须保留时间差。
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Leopoldo de' Medici（en）；revision 1358922464；2324字符 | 全文覆盖：Biography、Ancestors、References |
+| Wikidata身份 | [Q968920](https://www.wikidata.org/wiki/Q968920)；与enwiki标题双向一致 | revision 2543647845；只采用下列适用字段 |
+| 性别 | 男 | Wikidata P21；有参考 |
+| 出生日期 | 1617-11-06 | Wikidata P569；有参考 |
+| 去世日期 | 1675-11-10 | Wikidata P570；有参考 |
+| 出生地 | 彼提宫；佛罗伦萨 | Wikidata P19；有参考 |
+| 去世地 | 佛罗伦萨 | Wikidata P20；有参考 |
+| 身份／职业标签 | Catholic priest；赞助者；艺术收藏家 | Wikidata P106；有参考；未列参考 |
+| 父亲 | 科西莫二世·德·美第奇 | Wikidata P22；未列参考 |
+| 母亲 | 奧地利女大公瑪利亞·馬格達萊納 | Wikidata P25；未列参考 |
+| 成员身份 | 秕糠学会 | Wikidata P463；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 1617–1675 年美第奇学者与赞助人 Leopoldo；后来任枢机，不能把 1662 年通信日期当作已经获枢机任命的证据。
@@ -53,4 +77,4 @@ S1：第一章；印刷页 14；OCR L538–540, 565–566。编号按文件头 s
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

@@ -3,7 +3,7 @@ title: "纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）"
 name_en: "S. Agnese in Piazza Navona"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/piazza-navona.md","note":"教堂定位为 Piazza Navona。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 437–439; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -21,6 +21,12 @@ sources:
 - citation: "Wikidata, Q1192577, revision 2519963951. https://www.wikidata.org/wiki/Q1192577. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Sant’Agnese in Agone 与 Sant’Agnese in Piazza Navona 同指，地名和建筑类型相符。"
+- citation: "Wikipedia (en), Sant'Agnese in Agone, revision 1362791584. https://en.wikipedia.org/wiki/Sant'Agnese_in_Agone Accessed 2026-09-11."
+  location: "全文8851字符；章节：History、Interior、Origin of name and legends、Cardinal-Deacons、Gallery、See also、References、External links"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q1192577, revision 2519963951. https://www.wikidata.org/wiki/Q1192577. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -41,6 +47,17 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Sant'Agnese in Agone（en）；revision 1362791584；8851字符 | 全文覆盖：History、Interior、Origin of name and legends、Cardinal-Deacons、Gallery、See also、References、External links |
+| Wikidata身份 | [Q1192577](https://www.wikidata.org/wiki/Q1192577)；与enwiki标题双向一致 | revision 2519963951；只采用下列适用字段 |
+| 对象类型 | 教堂 | Wikidata P31；有参考 |
+| 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
+| 行政位置 | 罗马 | Wikidata P131；有参考 |
+| 成立／建造时间 | 1650 | Wikidata P571；有参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** Sant’Agnese in Agone 与 Sant’Agnese in Piazza Navona 同指，地名和建筑类型相符。
@@ -55,4 +72,4 @@ S1：第一章；印刷页 12；OCR L438–453。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

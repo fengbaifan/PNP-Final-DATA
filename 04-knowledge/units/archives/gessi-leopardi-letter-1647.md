@@ -3,7 +3,7 @@ title: "贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（
 name_en: "Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/berlingete-gessi.md","note":"书信作者；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 509–510; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 486–489, 509–510; print pp. 13
+- citation: 'Michelangelo Gualandi, Memorie originali risguardanti le Belle Arti, vol. I (Bologna, 1840–1845), p. 40, as cited by Haskell.'
+  location: Haskell给出的刊布链；本轮未直接取得Gualandi原页
+  sentence_summary: 只确认卷页与Haskell所引材料支付句，不扩写原信背景。
 ---
 
 ## 内容
@@ -36,6 +39,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 艺术生产成本与委托惯例通信 | S1 |
+| 作者／受文人 | Berlingero Gessi → Don Cesare Leopardi d’Osimo | S1 |
+| 日期 | 1647-07-10 | S1 |
+| 核心内容 | 即使对普通画家，画布、绷框／打底及群青通常由委托方交付或负担 | S1；按Haskell引句范围 |
+| 可支持范围 | 委托材料分担的一项同时代说法；不能外推为所有地点与所有合同的统一规则 | 语义裁决 |
+| 刊布链 | Michelangelo Gualandi, *Memorie originali risguardanti le Belle Arti*, vol.I, p.40 → Haskell | S1–S2 |
+| 未决载体 | 原信全文、署地、原档号和具体作品／委托背景未取得 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -50,4 +63,4 @@ S1：第一章；印刷页 13；OCR L486–489, 509–510。编号按文件头 s
 
 文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已按通信双方、日期、成本字段、适用范围和刊布链闭合。“惯例”仅作为该信的同时代陈述，不提升为跨地域普遍规则；原件、档号和具体委托背景未解决。

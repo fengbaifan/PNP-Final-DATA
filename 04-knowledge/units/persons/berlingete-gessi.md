@@ -3,7 +3,7 @@ title: "贝尔林杰罗·杰西（Berlingero Gessi）"
 name_en: "Berlingero Gessi"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -39,6 +39,20 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮定向补足（REV-055，2026-09-11）
+
+| 字段 | 当前结论 | 依据／边界 |
+|---|---|---|
+| 全名／登记名 | Berlingero Gessi | 章内正文、脚注或已读刊本文本；未把检索名形自动当别名 |
+| 名称变体／称号 | Berlingero Gessi；OCR误作Berlingete；Berlinghiero Gessi为已排除同名人 | 保留原文拼写、OCR纠正或称号边界 |
+| 身份标签 | 通信者；委托材料惯例的陈述者 | 标签可并列；不据单一行为扩张职业身份 |
+| 已知活动时段与地点 | 1647-07-10致Don Cesare Leopardi d’Osimo | 仅在现有证据范围内 |
+| 履历／本章活动 | 说明画布、绷框／打底和群青通常由委托人提供或负担。 | 章内来源及本卡新增来源；具体支持范围见sources |
+| Wikipedia—Wikidata结果 | Q2897287的Berlinghiero Gessi卒于1639年，不可能写1647年信；未找到可替代的Wikipedia—Wikidata配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+| 生卒、国籍、亲缘、教育、完整职业履历 | 当前未获可归属于本人的可靠资料 | 已检索未解决；不表示该人物没有这些属性 |
+
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **已排除误配。** Q2897287 为 1639 年去世的 Berlinghiero Gessi 枢机，不能认作 1647 年写信的 Berlingero Gessi；原文人物保留。
@@ -53,4 +67,4 @@ S1：第一章；印刷页 13；OCR L509–510。编号按文件头 sources 顺�
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。

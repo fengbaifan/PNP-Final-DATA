@@ -3,7 +3,7 @@ title: "米开朗基罗（Michelangelo）"
 name_en: "Michelangelo"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -19,6 +19,12 @@ sources:
 - citation: "Wikidata, Q5592, revision 2541754009. https://www.wikidata.org/wiki/Q5592. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Michelangelo Buonarroti，1475–1564 年艺术家；与章中英雄崇拜的历史语境相容。"
+- citation: "Wikipedia (en), Michelangelo, revision 1373115839. https://en.wikipedia.org/wiki/Michelangelo Accessed 2026-09-11."
+  location: "全文45331字符；章节：Biography、Early life, 1475–1488、Apprenticeships, 1488–1492、Bologna, Florence, and Rome, 1492–1499、Florence, 1499–1505、Tomb of Julius II, 1505–1545、Sistine Chapel ceiling, 1508 –1512、Florence under Medici popes, 1513 – early 1534、Rome, 1534–1546、St Peter's Basilica, 1546–1564、Personal life、Faith"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q5592, revision 2541754009. https://www.wikidata.org/wiki/Q5592. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -39,6 +45,28 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+**语义摘要：** Michelangelo Buonarroti，佛罗伦萨雕塑家、画家、建筑师和诗人；全文涵盖训练、Medici与教皇委托、主要作品、建筑和影响。第一章只把其声望用作艺术家社会地位的历史参照。
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Michelangelo（en）；revision 1373115839；45331字符 | 全文覆盖：Biography、Early life, 1475–1488、Apprenticeships, 1488–1492、Bologna, Florence, and Rome, 1492–1499、Florence, 1499–1505、Tomb of Julius II, 1505–1545、Sistine Chapel ceiling, 1508 –1512、Florence under Medici popes, 1513 – early 1534、Rome, 1534–1546、St Peter's Basilica, 1546–1564、Personal life、Faith |
+| Wikidata身份 | [Q5592](https://www.wikidata.org/wiki/Q5592)；与enwiki标题双向一致 | revision 2541754009；只采用下列适用字段 |
+| 性别 | 男 | Wikidata P21；有参考 |
+| 出生日期 | 1475-03-06 | Wikidata P569；有参考 |
+| 去世日期 | 1564-02-18 | Wikidata P570；有参考 |
+| 出生地 | 卡普雷塞-米开朗基罗 | Wikidata P19；有参考 |
+| 去世地 | 罗马 | Wikidata P20；有参考 |
+| 国籍／公民身份 | 佛罗伦萨共和国 | Wikidata P27；有参考 |
+| 身份／职业标签 | 雕塑家；建筑绘图员；畫家；建筑师；诗人；承建商；作家；視覺藝術家 | Wikidata P106；有参考 |
+| 父亲 | Lodovico di Leonardo Buonarroti Simoni | Wikidata P22；有参考 |
+| 母亲 | Francesca di Neri del Miniato Siena | Wikidata P25；有参考 |
+| 配偶 | novalue | Wikidata P26；未列参考 |
+| 教育／训练机构 | 佛罗伦萨大学 | Wikidata P69；有参考 |
+| 代表作 | 大衛像；哀悼基督 (米开朗琪罗)；垂死的奴隸；最后的审判；聖家庭與聖約翰；樓梯上的聖母；半人馬之戰；胜利的天才 | Wikidata P800；未列参考 |
+| 艺术或思想运动 | 文藝復興全盛期；Renaissance painting | Wikidata P135；有参考；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** Michelangelo Buonarroti，1475–1564 年艺术家；与章中英雄崇拜的历史语境相容。
@@ -53,4 +81,4 @@ S1：第一章；印刷页 16；OCR L623, 641–646。编号按文件头 sources
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

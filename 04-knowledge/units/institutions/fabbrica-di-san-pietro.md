@@ -3,7 +3,7 @@ title: "圣彼得营造管理机构（Fabbrica di S. Pietro）"
 name_en: "Fabbrica di S. Pietro"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -19,24 +19,45 @@ sources:
 - citation: "Wikidata, Q2381511, revision 2511529862. https://www.wikidata.org/wiki/Q2381511. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "负责圣彼得大殿事务的机构；与大殿建筑分别对应，现代行政归属不在此裁定。"
+- citation: "Wikipedia (en), Fabric of Saint Peter, revision 1364129357. https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter. Accessed 2026-09-11."
+  location: "全文：身份、历史、负责人及书目；不含外链全文"
+  sentence_summary: "机构负责大殿保存、维护、神圣性与访客秩序；条目以1523年Clement VII委员会为成立节点。"
+- citation: "Wikidata Q2381511, revision 2511529862. https://www.wikidata.org/wiki/Q2381511. Accessed 2026-09-11."
+  location: "P31／P571／P17及rank、引用、enwiki与itwiki sitelink"
+  sentence_summary: "两站互链支持身份；1908年成立项与机构官方、Wikipedia沿革冲突，不采用为唯一成立年。"
+- citation: "Fabbrica di San Pietro, La Fabbrica di San Pietro. https://www.basilicasanpietro.va/it/san-pietro/la-fabbrica-di-san-pietro. Accessed 2026-09-11."
+  location: "机构介绍全文"
+  sentence_summary: "官方将机构工作追溯至1506年新大殿奠基，说明从重建转向保存、维护、使用与现场人员管理。"
+- citation: "Fabbrica di San Pietro, Gli Archivi della Basilica. https://www.basilicasanpietro.va/it/san-pietro/gli-archivi-della-basilica. Accessed 2026-09-11."
+  location: "历史总档案馆说明全文"
+  sentence_summary: "档案保存自16世纪初以来大殿建造、装饰和维护记录；档案馆正式设立于1579-01-13。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章脚注记其支付 Bernini 每月 300 scudi 薪俸；不等同圣彼得大殿建筑。
+**中文：** 圣彼得营造管理机构是负责梵蒂冈圣彼得大殿重建、保存、维护、装饰和使用秩序的教廷关联机构。第一章脚注记其向贝尔尼尼支付每月300斯库多；支付主体是机构，不是大殿建筑本体。（S1、S4、S6）
 
-**English:** The chapter's note records this institution paying Bernini 300 scudi per month. It is distinct from the building of St Peter's Basilica.
+**English:** The Fabric of Saint Peter is the institution associated with the Holy See that has overseen the rebuilding, conservation, maintenance, decorum and use of St Peter's Basilica. Chapter 1 records it paying Bernini 300 scudi per month; the payer is the institution, distinct from the basilica building. (S1, S4, S6)
 
-### 已有信息
+### 名称与机构信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Fabbrica di S. Pietro | S1；标题中的语境说明为登记用语 |
-| 支付记录 | Bernini 每月 300 scudi；非建筑本体 | S1，支持范围见各条句意摘要 |
+| 规范名 | Fabbrica di San Pietro／Fabric of Saint Peter；拉丁名 Reverenda Fabrica Sancti Petri；本章缩写Fabbrica di S. Pietro | S1、S4、S6 |
+| 性质 | 与圣座关联的天主教机构；官网和2022年宗座宪章表述为负责圣彼得大殿全部相关事务 | S4、S6 |
+| 核心职责 | 重建阶段的工程和行政；后续的大殿保存、维护、装饰、神圣性、工作人员和访客秩序 | S4、S6 |
+| 负责人 | 大殿总铎通常兼任Fabbrica主席；现任人员只作当代沿革，不回填17世纪 | S4、S6 |
+| 本章支付 | 向Gian Lorenzo Bernini支付每月300 scudi；原账目及起止期仍待档案核定 | S1 |
+| 档案 | Archivio Storico Generale保存16世纪初以来建造、装饰及维护记录；档案馆1579-01-13正式设立 | S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 历史沿革与制度边界
+
+- 官网以1506年4月18日新大殿奠基为长期工作起点；Wikipedia以1523年Clement VII设委员会为机构成立节点。两者分别描述工程连续性与正式组织节点，暂不压成一个“唯一成立年”。（S4、S6）
+- 机构在重建之后继续承担保存、维护和开放使用；其历史不仅是一次建筑委员会。（S6）
+- 官网指出近代现场用工包括技术传承、工资支持、家庭援助及病老保障，并有女性参与建造与装饰；这些是机构通史，不据此推断贝尔尼尼个人待遇。（S6）
+- 2022年《Praedicate evangelium》确认其为与圣座关联的机构，并说明其在大殿保存、内部纪律和访客管理方面的职责。（S4、S6）
 
 
 ### 初步对齐（REV-034，2026-09-10）
@@ -49,8 +70,10 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 17；OCR L700–703。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段核对；S6–7为机构官网全文。官网没有在本页给出17世纪逐项薪资账目，故不把机构通史当作贝尔尼尼支付的第二证据。
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续补足规范名／别名、组织性质、成立与变更、驻地、职责、成员或管理者、历史沿革及研究来源。家户、宗教团体、政府、馆藏机构按实际对象区分，不默认现代法人身份。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) ↔ [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511)双向身份核对继续通过。WD把P571记为1908且有一条引用，与官方1506连续性和Wikipedia的1523委员会节点不一致，排除为唯一成立年；WD的现代Vatican City国家字段也不回填17世纪政治归属。贝尔尼尼薪资的支付期、职位、账簿条目和币制口径仍待Fabbrica档案。

@@ -3,7 +3,7 @@ title: "热那亚（Genoa）"
 name_en: "Genoa"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -26,6 +26,12 @@ sources:
 - citation: "Wikidata, Q1449, revision 2540418635. https://www.wikidata.org/wiki/Q1449. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Genoa／Genova 城市；不与热那亚共和国混用。"
+- citation: "Wikipedia (en), Genoa, revision 1374273230. https://en.wikipedia.org/wiki/Genoa Accessed 2026-09-11."
+  location: "全文76973字符；章节：Etymology、History、Prehistory and Roman times、Middle Ages to early modern period、5th to 10th centuries、Rise of the Genoese Republic、13th and 14th centuries、15th and 16th centuries、17th century、18th century、The fall of the Republic、19th century"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q1449, revision 2540418635. https://www.wikidata.org/wiki/Q1449. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -46,6 +52,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Genoa（en）；revision 1374273230；76973字符 | 全文覆盖：Etymology、History、Prehistory and Roman times、Middle Ages to early modern period、5th to 10th centuries、Rise of the Genoese Republic、13th and 14th centuries、15th and 16th centuries、17th century、18th century、The fall of the Republic、19th century |
+| Wikidata身份 | [Q1449](https://www.wikidata.org/wiki/Q1449)；与enwiki标题双向一致 | revision 2540418635；只采用下列适用字段 |
+| 对象类型 | 意大利市镇；大城市；港湾城市 | Wikidata P31；有参考；未列参考 |
+| 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
+| 行政位置 | 熱那亞廣域市 | Wikidata P131；有参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** Genoa／Genova 城市；不与热那亚共和国混用。
@@ -60,4 +76,4 @@ S1：第一章；印刷页 8；OCR L278–281；S2：第一章；印刷页 12；
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

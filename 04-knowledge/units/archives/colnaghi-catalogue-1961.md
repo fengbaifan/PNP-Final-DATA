@@ -4,7 +4,7 @@ name_en: "Colnaghi Catalogue (May–June 1961, no. 2)"
 type: archive
 sub_type: catalogue
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/sacchi-capuchin-altarpiece-modello.md","note":"本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 467–468; print pp. 12
+- citation: 'Colnaghi, “About.” https://www.colnaghi.com/index.php/about. Accessed 2026-09-11.'
+  location: 机构历史全文；用于责任机构语境，不替代1961目录
+  sentence_summary: 说明Colnaghi伦敦业务历史及由版画出版转向Old Master交易；未提供1961年5–6月目录影像。
 ---
 
 ## 内容
@@ -36,6 +39,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 商业画廊销售／展览目录条目；不是拍卖成交记录 | S1 |
+| 责任机构 | P. & D. Colnaghi & Co. | S1；S2机构史 |
+| 日期／条目号 | 1961年5–6月；no.2 | S1 |
+| 所涉对象 | Andrea Sacchi为Rome Capuchin教堂祭坛画所作的modello | S1 |
+| 能支持的事实 | 截至该目录编制时的归属与市场／展览记录线索 | S1；不能单独证明创作过程或后续成交 |
+| 机构语境 | Colnaghi由Paul Colnaghi于1785年形成伦敦业务，后转向Old Master艺术交易 | S2 |
+| 未决载体 | 完整目录题名、页数、馆藏号、全目录及no.2图版／说明尚未取得 | 本轮定向检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -50,4 +63,4 @@ S1：第一章；印刷页 12；OCR L467–468。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已明确目录类型、责任机构、日期、条目号、所涉稿本和可支持事实的上限。公开检索未取得完整目录或no.2图版，因此不虚构正式题名、成交性质或馆藏号；该缺口已具体化，不再保留泛化待办。

@@ -4,7 +4,7 @@ name_en: "Terms for Ricci's Beheading of Saint John the Baptist (1682)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/ricci-beheading-john-baptist-1682.md","note":"条款规定该委托对象的题材，不证明实际完成。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 326–328; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,15 +16,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 326–328; print pp. 9
+- citation: 'Gianluca Stefani, Sebastiano Ricci impresario d’opera a Venezia nel primo Settecento (Florence: Firenze University Press, 2015), ch. 2, p. 27 and note 3. https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/94/83/2020719483/2020719483.pdf. Accessed 2026-09-11.'
+  location: 第2章 p.27及注3；相关段落全文读取
+  sentence_summary: 依据合同将委托精确为1682-09-28；委托方为博洛尼亚佛罗伦萨人圣若翰善会，作品为现已失佚的《施洗者斩首》，并说明这是Ricci在博洛尼亚时期的早期记录。
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Bologna 的 Confraternità di S. Giovanni Battista Decollato 要求 Ricci 画斩首场面及表现所需人物，经 von Derschau 1916 pp.168–169 刊引；不把条款要求当作完成验收。
+**中文：** 1682年9月28日，博洛尼亚佛罗伦萨人圣若翰善会委托年轻的塞巴斯蒂亚诺·里奇绘制《施洗者斩首》。条款规定斩首场面以及表现该场景所需的人物，但这里只能证明委托内容；现有研究将作品列为失佚，不能据条款反推完成形态。（S1–S2）
 
-**English:** Bologna's Confraternità di S. Giovanni Battista Decollato requires Ricci to depict the beheading and the figures necessary for the scene. The terms are cited through von Derschau 1916, pages 168–169; requirements do not establish completed delivery.
+**English:** On 28 September 1682, the Confraternity of Saint John of the Florentines in Bologna commissioned the young Sebastiano Ricci to paint the Beheading of Saint John the Baptist. The terms required the beheading scene and the figures needed to represent it, but establish only the commission. Current scholarship lists the work as lost, so the document cannot prove its finished form. (S1–S2)
 
 ### 已有信息
 
@@ -32,13 +35,19 @@ sources:
 |---|---|---|
 | 名称／对应英文 | Terms for Ricci's Beheading of Saint John the Baptist (1682) | S1；标题中的语境说明为登记用语 |
 | 委托与刊引 | Bologna 善会 → Sebastiano Ricci；1682；von Derschau 1916 pp.168–169 | S1，支持范围见各条句意摘要 |
+| 精确日期 | 1682-09-28 | S2 p.27注3 |
+| 委托方 | Confraternita di San Giovanni Battista dei Fiorentini，Bologna | S2；与机构卡及建筑对象区分 |
+| 执行者 | Sebastiano Ricci | S1–S2 |
+| 约定题材 | 施洗者约翰斩首，以及呈现该场景所需的人物 | S1引条款 |
+| 作品状态 | 现已失佚 | S2；不是合同本身声明 |
+| 刊布链 | Haskell据von Derschau 1916 pp.168–169；Stefani 2015复核合同日期与对象 | S1–S2；本轮未读原档 |
 
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
 ### 初步对齐（REV-034，2026-09-10）
 
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+**文献身份通过研究文献定位。** 该委托条款没有独立 Wikipedia／Wikidata 条目，不借画家、作品、善会或礼拜堂QID。S1的条款摘引与S2的日期、委托方和失佚状态共同确定对象；善会机构与其使用的礼拜堂建筑保持分离。
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
@@ -46,8 +55,8 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 9；OCR L326–328。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1：第一章；印刷页9；OCR L326–328。S2：Stefani 2015，第2章p.27及注3。条款的逐字内容来自Haskell引von Derschau，日期与研究定位由S2补强；两者均非原档直接阅览。
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已补齐精确日期、善会规范名、执行者、题材条款、作品失佚状态和刊布链。原档号及原始载体尚未取得，明确保留；当前卡已足以支持委托条款的语义边界。

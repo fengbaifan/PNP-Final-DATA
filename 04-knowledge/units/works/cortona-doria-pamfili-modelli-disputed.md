@@ -3,7 +3,7 @@ title: "归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（
 name_en: "Doria-Pamfili modelli attributed to Cortona (disputed)"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -13,6 +13,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 461–463; print pp. 12
+- citation: "Luigi Grassi, “Pietro da Cortona e i ‘bozzetti’ per la Galleria di Palazzo Doria Pamphili,” Bollettino d’Arte 42, no. 1 (1957): 28–43. https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1482234949180_07_-_Grassi_28.pdf. Accessed 2026-09-11."
+  location: "官方期刊PDF全文pp.28–43"
+  sentence_summary: "逐件讨论七件Patrizi收藏油画稿与画廊壁画的关系，提出约1651末至1652初及Cortona亲笔归属；该归属作为作者判断保留。"
 ---
 
 ## 内容
@@ -33,6 +36,21 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮作品补足（REV-055，2026-09-11）
+
+| 字段 | 当前结论 | 依据／边界 |
+|---|---|---|
+| 作品名／规范指称 | 多里亚—潘菲利画廊七件油画草稿组（Seven oil modelli for the Doria Pamphili Gallery） | 精确题名可证时采用；不可证时保留描述性名 |
+| 创作者／归属 | Luigi Grassi主张Pietro da Cortona亲笔；Haskell记录归属未获普遍接受 | 争议归属不写成确定事实 |
+| 创作／委托时间 | Grassi推定约1651年末至1652年初 | 区分合同、开工、完成、毁失或后续记录 |
+| 委托人／赞助方 | Doria Pamphili宫画廊工程语境 | 仅写当前证据可支持的法律或历史主体 |
+| 创作地／原位置／现位置 | 1957年记为Rome的Patrizi收藏；本轮不外推当前藏地 | 历史位置和现藏不互相覆盖 |
+| 类型、材质与尺寸 | 七件油画bozzetti；与壁画和cartoni区分 | 缺项不根据同类作品补推 |
+| 状态与语义边界 | 保留“有论证但有争议”的归属层级；不能生成确定created_by边。 | 委托、稿本、完成作品、归属和现藏分别判断 |
+| Wikipedia—Wikidata结果 | 七件集合和具体单件边界未形成同粒度Wikipedia—Wikidata对象；不借画廊或Cortona QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
@@ -47,4 +65,4 @@ S1：第一章；印刷页 12；OCR L461–463。编号按文件头 sources 顺�
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

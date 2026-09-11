@@ -3,7 +3,7 @@ title: "西班牙（Spain）"
 name_en: "Spain"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
@@ -19,6 +19,12 @@ sources:
 - citation: "Wikidata, Q29, revision 2542143031. https://www.wikidata.org/wiki/Q29. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "英文 Q29 为现代西班牙国家记录；本章活动范围与特定历史政权尚未分清，不能直接采用现代国家属性。"
+- citation: "Wikipedia (en), Spain, revision 1374250988. https://en.wikipedia.org/wiki/Spain Accessed 2026-09-11."
+  location: "全文98692字符；章节：Etymology、History、Prehistory and Iberian peoples、Roman Hispania and the Visigothic Kingdom、Muslim era and Reconquista、Spanish Empire、18th century、Liberalism and nation state、Civil War and Francoist dictatorship、Restoration of democracy、Economic prosperity and crash、Constitutional issues"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q29, revision 2542143031. https://www.wikidata.org/wiki/Q29. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -39,6 +45,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Spain（en）；revision 1374250988；98692字符 | 全文覆盖：Etymology、History、Prehistory and Iberian peoples、Roman Hispania and the Visigothic Kingdom、Muslim era and Reconquista、Spanish Empire、18th century、Liberalism and nation state、Civil War and Francoist dictatorship、Restoration of democracy、Economic prosperity and crash、Constitutional issues |
+| Wikidata身份 | [Q29](https://www.wikidata.org/wiki/Q29)；与enwiki标题双向一致 | revision 2542143031；只采用下列适用字段 |
+| 对象类型 | 主權國家；王国；地理、地域意义上的国家、地区；地中海国家；民族國家 | Wikidata P31；有参考；未列参考 |
+| 国家／历史政治归属 | 西班牙 | Wikidata P17；未列参考 |
+| 成立／建造时间 | 1715；1812-03-19；1931-12-09；1978-12-29；1516-03-14 | Wikidata P571；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **范围待对齐。** 英文 Q29 为现代西班牙国家记录；本章活动范围与特定历史政权尚未分清，不能直接采用现代国家属性。
@@ -53,4 +69,4 @@ S1：第一章；印刷页 18；OCR L745–747。编号按文件头 sources 顺�
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

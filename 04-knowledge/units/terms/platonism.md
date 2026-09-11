@@ -3,7 +3,7 @@ title: "柏拉图主义（Platonism）"
 name_en: "Platonism"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -19,6 +19,12 @@ sources:
 - citation: "Wikidata, Q193589, revision 2542231345. https://www.wikidata.org/wiki/Q193589. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "柏拉图主义概念；不由这一链接推断艺术家个人师承或学派成员。"
+- citation: "Wikipedia (en), Platonism, revision 1373980270. https://en.wikipedia.org/wiki/Platonism Accessed 2026-09-11."
+  location: "全文16793字符；章节：Philosophy、History、Ancient philosophy、The Academy、The Skeptical Academy、Middle Platonism、Neoplatonism、Medieval philosophy、Christianity and Platonism、Modern philosophy、Renaissance、Contemporary philosophy"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q193589, revision 2542231345. https://www.wikidata.org/wiki/Q193589. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -39,6 +45,14 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Platonism（en）；revision 1373980270；16793字符 | 全文覆盖：Philosophy、History、Ancient philosophy、The Academy、The Skeptical Academy、Middle Platonism、Neoplatonism、Medieval philosophy、Christianity and Platonism、Modern philosophy、Renaissance、Contemporary philosophy |
+| Wikidata身份 | [Q193589](https://www.wikidata.org/wiki/Q193589)；与enwiki标题双向一致 | revision 2542231345；只采用下列适用字段 |
+| 对象类型 | 哲学立场；哲學學派 | Wikidata P31；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 柏拉图主义概念；不由这一链接推断艺术家个人师承或学派成员。
@@ -53,4 +67,4 @@ S1：第一章；印刷页 16；OCR L650–654。编号按文件头 sources 顺�
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

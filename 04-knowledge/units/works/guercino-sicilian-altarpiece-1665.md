@@ -1,9 +1,9 @@
 ---
-title: "圭尔奇诺 1665 年西西里祭坛画委托对象（Guercino’s Sicilian altarpiece commission of 1665）"
-name_en: "Guercino’s Sicilian altarpiece commission of 1665"
+title: "圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）"
+name_en: "Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -13,25 +13,43 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 295–307; print pp. 9
+- citation: "Fondazione Federico Zeri, entry 57026, work 58737. https://catalogo.fondazionezeri.unibo.it/entry/work/58737/. Accessed 2026-09-11."
+  location: "作品目录全文；题名、作者、地点、毁失状态和书目"
+  sentence_summary: "把1665年协商与Messina的San Gregorio祭坛画相连并记录1908年毁失；保留Saint Albert／John the Baptist描述差异。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 委托要求包含圣母子、接受会衣与会规的 Teresa、Joseph、John the Baptist 与天使；画家另询衣色、人物位置与光线。本段证明委托方案，不独立证明完成、现存或现藏。人物仅为图像角色，不由此确认历史事件。
+**中文：** 圭尔奇诺1665年为墨西拿圣额我略堂创作的祭坛画，现可由Zeri目录与章内图像询问相连；作品1908年毁失。Zeri题名中的耶路撒冷的圣亚尔伯与章内转述的施洗者约翰存在图像描述差异，暂不强行统一。
 
-**English:** The proposed altarpiece included the Madonna and Child, Saint Teresa receiving her habit and rule, Saint Joseph, Saint John the Baptist and angels. Guercino asked about dress, placement and light. The proposal does not by itself identify a completed surviving painting.
+**English:** Guercino’s 1665 altarpiece for San Gregorio in Messina can now be linked to the chapter’s iconographic questions through the Zeri catalogue; it was destroyed in 1908. The catalogue names Saint Albert of Jerusalem where the chapter names Saint John the Baptist, so the discrepancy remains explicit.
 
 ### 已有信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Guercino’s Sicilian altarpiece commission of 1665 | S1；标题中的语境说明为登记用语 |
+| 名称／对应英文 | Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel | S1；标题中的语境说明为登记用语 |
 | 图像方案 | 圣母子、德肋撒、约瑟、施洗者约翰及天使；须核定服饰、安置与光线 | S1，支持范围见各条句意摘要 |
 
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
+
+### 本轮作品补足（REV-055，2026-09-11）
+
+| 字段 | 当前结论 | 依据／边界 |
+|---|---|---|
+| 作品名／规范指称 | 《阿维拉的圣德肋撒从加尔默罗圣母领受会衣》（Saint Teresa of Ávila Receiving the Habit from Our Lady of Mount Carmel） | 精确题名可证时采用；不可证时保留描述性名 |
+| 创作者／归属 | Giovanni Francesco Barbieri（Guercino） | 争议归属不写成确定事实 |
+| 创作／委托时间 | 1665年委托／作品记录；1908年毁失 | 区分合同、开工、完成、毁失或后续记录 |
+| 委托人／赞助方 | 西西里修院，法人规范名未由现有资料确认 | 仅写当前证据可支持的法律或历史主体 |
+| 创作地／原位置／现位置 | Messina，Chiesa di San Gregorio；后毁失 | 历史位置和现藏不互相覆盖 |
+| 类型、材质与尺寸 | 祭坛画；材质与尺寸以未读Salerno条目为后续入口 | 缺项不根据同类作品补推 |
+| 状态与语义边界 | Zeri题名列Saint Albert of Jerusalem，Haskell转述列John the Baptist；图像角色差异保持并列，不自行统一。 | 委托、稿本、完成作品、归属和现藏分别判断 |
+| Wikipedia—Wikidata结果 | 无独立Wikipedia—Wikidata作品配对；Fondazione Zeri目录entry 57026／work 58737作为身份锚点。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
 
 ### 初步对齐（REV-034，2026-09-10）
 
@@ -47,4 +65,4 @@ S1：第一章；印刷页 9；OCR L295–307。编号按文件头 sources 顺�
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

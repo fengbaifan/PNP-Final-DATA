@@ -3,7 +3,7 @@ title: "天才观（Genius）"
 name_en: "Genius"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -33,6 +33,12 @@ sources:
 - citation: "Wikidata, Q185030, revision 2539088863. https://www.wikidata.org/wiki/Q185030. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Wikipedia 讨论天才特质，WD Q185030 的描述偏具有能力的个人；本章为历史天才观，不因文字相同直接确认对象一致。"
+- citation: "Wikipedia (en), Genius, revision 1369817606. https://en.wikipedia.org/wiki/Genius Accessed 2026-09-11."
+  location: "全文20322字符；章节：Etymology、Historical development、Galton、Psychology、IQ and genius、Philosophy、The idea of the male genius、Literature and pop culture、See also、References、Bibliography、Further reading"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q185030, revision 2539088863. https://www.wikidata.org/wiki/Q185030. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -53,6 +59,14 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Genius（en）；revision 1369817606；20322字符 | 全文覆盖：Etymology、Historical development、Galton、Psychology、IQ and genius、Philosophy、The idea of the male genius、Literature and pop culture、See also、References、Bibliography、Further reading |
+| Wikidata身份 | [Q185030](https://www.wikidata.org/wiki/Q185030)；与enwiki标题双向一致 | revision 2539088863；只采用下列适用字段 |
+| 对象类型 | approbative；性格特征 | Wikidata P31；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **范围待对齐。** Wikipedia 讨论天才特质，WD Q185030 的描述偏具有能力的个人；本章为历史天才观，不因文字相同直接确认对象一致。
@@ -67,4 +81,4 @@ S1：第一章；印刷页 16；OCR L650–654；S2：第一章；印刷页 19, 
 
 本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
 
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

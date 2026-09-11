@@ -3,10 +3,10 @@ title: "乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Let
 name_en: "Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
-  - {"relation_type":"authored_by","target":"persons/giovanni-lanfranco.md","note":"书信作者；1640-07-14；收信人只写 Cardinal Barberini，不据此选择 Francesco 或 Antonio。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 408–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"authored_by","target":"persons/giovanni-lanfranco.md","note":"1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini。","evidence_ref":{"doc_id":"treccani-dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"1640 petition paragraph"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L408–425
@@ -15,29 +15,41 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 408–425; print pp. 11
+- citation: 'Erich Schleier, “Lanfranco, Giovanni,” Dizionario Biografico degli Italiani, vol. 63 (2004), Treccani. https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/. Accessed 2026-09-11.'
+  location: 1640年请愿段；全文阅读
+  sentence_summary: 明确1640-07-14请愿对象为主持Fabbrica di San Pietro会议的Francesco Barberini；目标为圣良教堂祭台画，原先委托Giuseppe Cesari而其于1640年去世；Lanfranco准备了钢笔素描但未获委托。
+- citation: 'Oskar Pollak, “Die Kunsttätigkeit unter Urban VIII,” Jahrbuch der Königlich Preussischen Kunstsammlungen 34 (1913), p. 26, as cited by Haskell.'
+  location: Haskell给出的刊布链；本轮未直接取得原文
+  sentence_summary: Haskell所据1640-07-14书信刊布位置；仅作版本链，不冒充已读Pollak或原件。
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 从 Naples 发出，申请 Pope Leo and Attila 祭坛画，并主动提出在画布上展示构图；引自 Pollak，不能写已获委托。
+**中文：** 乔万尼·兰弗兰科于1640年7月14日从那不勒斯致信弗朗切斯科·巴贝里尼，申请接替当年去世的朱塞佩·切萨里，为圣彼得大教堂圣良祭台创作“教皇良一世与阿提拉”题材。为说明构图困难，他主动提出在画布上展示设计；他准备过钢笔素描，但没有得到该委托。（S1–S3）
 
-**English:** Sent from Naples, the letter requests the Pope Leo and Attila altarpiece commission and offers to show the composition on canvas. It is cited from Pollak; the request does not establish that the commission was awarded.
+**English:** On 14 July 1640 Giovanni Lanfranco wrote from Naples to Francesco Barberini, seeking to replace the recently deceased Giuseppe Cesari as painter of the Saint Leo altarpiece in St Peter's, with the subject of Pope Leo I and Attila. He volunteered to show the design on canvas to explain the compositional difficulty. Although he prepared pen drawings, he did not receive the commission. (S1–S3)
 
 ### 已有信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
 | 名称／对应英文 | Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14) | S1；标题中的语境说明为登记用语 |
-| 发信定位 | Naples；1640-07-14；收信人为本章 Cardinal Barberini | S1，支持范围见各条句意摘要 |
+| 发信定位 | Naples；1640-07-14 | S1 |
+| 作者／受文人 | Giovanni Lanfranco → Francesco Barberini | S1作者；S2明确受文对象 |
+| 请求事项 | 取得圣彼得大教堂Saint Leo祭台的“Pope Leo and Attila”画作委托 | S1–S2 |
+| 前序委托 | 原交Giuseppe Cesari；其于1640年去世后出现空缺 | S2 |
+| 提案方式 | 主动表示以画布展示整体构图，并另有钢笔素描 | S1–S2 |
+| 结果 | 未获委托 | S2；不得把申请边写成commissioned_by |
+| 刊布链 | Haskell引Pollak 1913 p.26 | S1、S3；本轮未读Pollak及手稿 |
 
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
 ### 初步对齐（REV-034，2026-09-10）
 
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+**文献身份通过来源链定位。** 该信没有独立Wikipedia／Wikidata条目，不借人物或建筑QID。Haskell提供日期、出发地、题材和Pollak页码，Schleier的DBI全文明确了Francesco Barberini、前序委托和未获委托结果；两者语境一致。
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
@@ -45,8 +57,8 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 11；OCR L408–425。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1：第一章；印刷页11；OCR L408–425。S2：Schleier，DBI“Lanfranco, Giovanni”全文中1640段。S3：Pollak 1913 p.26的版本链仅据Haskell，未直接读取。DBI是后出的研究叙述，不替代手稿原件。
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已补齐受文人、目标祭台、前序委托、提案方式、准备性素描和未获委托结果，并保留Pollak—Haskell刊布链。手稿原件与档号仍未取得；现有来源足以区分“请求委托”与“实际获委托”。

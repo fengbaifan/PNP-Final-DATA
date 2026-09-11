@@ -4,7 +4,7 @@ name_en: "Genealogy of the Gods Borrowed by Mola (title unidentified)"
 type: archive
 sub_type: unidentified_book
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/pier-francesco-mola.md","note":"Mola 为选择图像内容借阅这部未具题名的神谱。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–316; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–316; print pp. 9
+- citation: 'L. Montalto, “Gli affreschi del Palazzo Pamphilj in Valmontone,” Commentari (1955): 267–302, especially p. 290, as cited by Haskell.'
+  location: Haskell书目与具体页码；本轮未取得论文原页
+  sentence_summary: 作为借阅行为的研究刊布链；未提供足以认定具体神谱版本的证据。
 ---
 
 ## 内容
@@ -36,6 +39,17 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 借阅书籍的语境指代；未识别版本 | S1 |
+| 借阅人 | Pier Francesco Mola | S1 |
+| 出借人 | Valmontone当地一位有一定地位的律师；姓名未给 | S1 |
+| 使用目的 | 为Four Elements装饰选择可表现的神话 | S1 |
+| 可确认的后续选择 | Air包含Juno、Milky Way、Zephyr与Chloris、Ganymede、Iris与Turnus等母题 | S1 lines316–319；不能证明均来自本书 |
+| 刊布链 | Haskell据Montalto 1955 p.290 | S1–S2 |
+| 排除 | 不凭“genealogy of the gods”认定Boccaccio《异教诸神谱系》或任何具体版本 | 语义裁决 |
+| 未决载体 | 原题、作者、语言、版次、出版信息及现存地均未知 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 原文只说神谱书；作者、正式题名和版本不明，不能凭主题认定 Boccaccio 或其他著作。
@@ -50,4 +64,4 @@ S1：第一章；印刷页 9；OCR L312–316。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已把借阅人、出借人角色、用途、后续图像选择和刊布链分字段记录。任何Boccaccio或其他神谱候选都缺少版本证据，故正式结论是“语境对象可确认、书目身份不可恢复”，不再泛化待配QID。

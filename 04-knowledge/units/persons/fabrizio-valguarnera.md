@@ -3,7 +3,7 @@ title: "法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）"
 name_en: "Fabrizio Valguarnera"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/studio-stock-sale.md","note":"请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 591–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 591–603; print pp. 15
+- citation: "Metropolitan Museum of Art, Valentin de Boulogne: Beyond Caravaggio (2016), sections on the Valguarnera trial. https://resources.metmuseum.org/resources/metpublications/pdf/Valentin_de_Boulogne_Beyond_Caravaggio.pdf. Accessed 2026-09-11."
+  location: "展览图录全文相关段；Valguarnera审判与画家交易"
+  sentence_summary: "确认其西西里贵族背景、钻石案、1631年逮捕审判及与Lanfranco、Poussin、Valentin等人的艺术交易。"
 ---
 
 ## 内容
@@ -37,6 +40,20 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮定向补足（REV-055，2026-09-11）
+
+| 字段 | 当前结论 | 依据／边界 |
+|---|---|---|
+| 全名／登记名 | Fabrizio Valguarnera | 章内正文、脚注或已读刊本文本；未把检索名形自动当别名 |
+| 名称变体／称号 | Fabrizio Valguarnera | 保留原文拼写、OCR纠正或称号边界 |
+| 身份标签 | 西西里贵族；艺术购买者／委托人；1631年钻石案被告 | 标签可并列；不据单一行为扩张职业身份 |
+| 已知活动时段与地点 | 1630–1632年前后；罗马 | 仅在现有证据范围内 |
+| 履历／本章活动 | 与Lanfranco、Poussin、Valentin等画家交易；审判证词揭示画作作为商品与文化身份标志的市场语境。 | 章内来源及本卡新增来源；具体支持范围见sources |
+| Wikipedia—Wikidata结果 | 没有可靠的独立人物Wikipedia—Wikidata配对；Valentin或《阿什杜德瘟疫》作品页不能代替其个人身份。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+| 生卒、国籍、亲缘、教育、完整职业履历 | 当前未获可归属于本人的可靠资料 | 已检索未解决；不表示该人物没有这些属性 |
+
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
@@ -51,4 +68,4 @@ S1：第一章；印刷页 15；OCR L591–603。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。

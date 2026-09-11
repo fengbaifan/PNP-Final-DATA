@@ -53,4 +53,4 @@ sources:
 
 **补查结果：问题未解决。** 英文Wikipedia双名形检索无命中；意大利文命中现代家庭研究书目，不能对应十七世纪证人。S2的Alessandro Vassalli活动于1771、1782年，属于建筑工程语境，已排除。没有采用QID，未导入这些同名人的亲缘、职历或作品。
 
-本卡完成本次消歧处置及字段整理，**不计详细外部生平补足完成**；保留原来源及1条正式关系。下一证据入口为Montalto1955 p.295及其所据笔录，尚未取得原页／原档。[补查记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+本卡已完成本轮可达范围内的对齐与补足处置：排除十八世纪同名建筑从业者，保留章内身份、证词内容和1条正式关系；人物独立生平仍未解决。下一证据入口为Montalto 1955 p.295及其所据笔录，尚未取得原页／原档。[补查记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

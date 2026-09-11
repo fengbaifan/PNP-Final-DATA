@@ -3,7 +3,7 @@ title: "萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Lett
 name_en: "Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/salvator-rosa.md","note":"书信作者；1666-04-01；罗萨自述创作动机。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 937–947; print pp. 22"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 937–947; print pp. 22
+- citation: 'Maria Concetta Calabrese, “Ruffo, Antonio,” Dizionario Biografico degli Italiani, vol. 89 (2017), Treccani. https://www.treccani.it/enciclopedia/antonio-ruffo_(Dizionario-Biografico)/. Accessed 2026-09-11.'
+  location: 收藏与通信段；全文阅读
+  sentence_summary: 确认Vincenzo Ruffo通信刊布、Rosa等艺术家在收藏网络中的位置及1916出版信息。
+- citation: 'Vincenzo Ruffo, “La galleria Ruffo nel secolo XVII in Messina,” Bollettino d’Arte 10 (1916), p. 180, as cited by Haskell.'
+  location: Haskell给出的具体页码；本轮未直接读该页
+  sentence_summary: 作为该信引句的刊布链；引句仍按Haskell可见原文。
 ---
 
 ## 内容
@@ -36,6 +42,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 艺术家致潜在赞助人的创作立场通信 | S1 |
+| 作者／受文人 | Salvator Rosa → Don Antonio Ruffo | S1 |
+| 日期 | 1666-04-01 | S1 |
+| 核心自述 | Rosa称作画不是为致富而是满足自己，只在热情／灵感驱迫时使用画笔 | S1 |
+| 证据性质 | 艺术家的自我塑造与谈判声明；不直接证明其实际经济独立或所有作品均无委托 | 语义裁决 |
+| 刊布链 | Vincenzo Ruffo 1916, p.180 → Haskell；Haskell脚注作Russo，应依书目与后续研究校正为Ruffo | S1–S2 |
+| 未决载体 | 具体委托／作品、署地、完整原文、原件和档号未取得 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -50,4 +66,4 @@ S1：第一章；印刷页 22；OCR L937–947。编号按文件头 sources 顺�
 
 文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已按通信身份、日期、艺术家自述、证据性质和刊布链闭合。该段是Rosa的自我表述与委托谈判姿态，不转写为客观经济独立事实；原件和具体委托仍未知。

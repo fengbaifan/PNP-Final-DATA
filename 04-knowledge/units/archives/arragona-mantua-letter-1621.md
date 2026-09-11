@@ -3,7 +3,7 @@ title: "法布里齐奥·阿拉戈纳致曼图亚公国大臣的信（1621-10-09
 name_en: "Letter from Fabrizio Arragona to a Mantuan Ducal Minister (1621-10-09)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/fabrizio-arragona.md","note":"书信作者；1621-10-09；收信人为未具名曼图亚公国大臣。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 542–547,567–568; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 542–547, 567–568; print pp. 14
+- citation: 'Alessandro Luzio, La galleria dei Gonzaga venduta all’Inghilterra nel 1627–38 (Milan, 1913), p. 295, as cited by Haskell.'
+  location: Haskell给出的刊布链；本轮未直接取得Luzio原页
+  sentence_summary: 书目信息与页码可定位；不据未读刊本扩写收信人或原档。
 ---
 
 ## 内容
@@ -35,6 +38,15 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 商务／委托通信；描述性题名 | S1 |
+| 作者／受文人 | Fabrizio Arragona → 未具名Mantuan ducal chancellor | S1 |
+| 成文日期／语境 | 1621-10-09；作者为Mantua驻Rome代理人 | S1 |
+| 核心内容 | 若公爵希望得到又快又好的服务，必须先汇款给Rome画家作为定金；画家明确表示只为预付者工作 | S1 |
+| 刊布链 | Alessandro Luzio, *La galleria dei Gonzaga venduta all’Inghilterra nel 1627–38* (1913), p.295 → Haskell | S1及同书书目；未读Luzio原页 |
+| 未决载体 | 收信人姓名、原题、原语全文、原档号和手稿保存处未取得 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -49,4 +61,4 @@ S1：第一章；印刷页 14；OCR L542–547, 567–568。编号按文件头 s
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已按发信人、受文角色、日期、地点语境、经济条款和刊布链完成结构化。对象没有独立Wikimedia条目，不强配QID；收信人姓名、手稿与档号仍未解决，已作为真实载体缺口保留。

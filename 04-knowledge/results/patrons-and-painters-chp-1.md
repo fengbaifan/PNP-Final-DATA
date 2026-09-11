@@ -1,14 +1,37 @@
 # 第一章样例：当前成果与补足进度
 
-**分类更新（REV-036，2026-09-10）：** 已加入 family，三张明确家族卡迁入 families，保留原 slug、来源和对齐结论；现为家族 3、机构 17，总计仍为 298。巴贝里尼家族／家户混合卡暂留 institution 并明确待拆分边界，不使用家族 QID 代指家户。对齐通过总数仍为 160；以下分类统计与入口已按新类型更新；迁移映射和必要验证见[系统修订记录](../../06-runtime/governance/system-upgrade-log.md#rev-036增加-family-家族类2026-09-10)。
+**当前执行点（REV-055，2026-09-11）：剩余129张知识元卡的对齐与补足已经收口。** 第一章当前有效298个知识元，均已形成结构化补足或明确的检索后未决结论；本轮129/129完成，整个补足阶段为298/298。这里的“完成”指每张卡都已处理到当前证据上限，不表示所有未知生平、原档、版本或争议均已解决。
 
-**当前执行点（REV-052，2026-09-11）：连续推进第一章补足，新增 157 张详细内容稿已保存；整个补足阶段尚未收口。** 当前有效 **298 个知识元**，已逐项记录初步对齐结论：**168 项身份配对通过，130 项尚未确认配对**（REV-034基线160＋REV-052新增阿伦德尔、朱利奥·罗斯皮廖西、瓦尔蒙托内宫殿、文琴佐·朱斯蒂尼亚尼和圣马太退画、费迪南多·贡扎加及雷尼《屠杀婴孩》及bozzetto术语8）。这不是全部身份均已解决或检索已经穷尽；补足中新发现的时期与主体范围限制随卡记录，可用对象继续推进，关键身份、版本或范围未明的对象阻断有关合并与新增关系。
+当前有**172项Wikipedia—Wikidata身份配对通过，126项未确认配对**。本轮新增确认Giovanni Ludovico Bianconi、Johann Adam Andreas I、Gaspar Méndez de Haro和Niccolò Maria Pallavicini四人；Berlingero Gessi、Jacopo Salviati等年代冲突候选已明确排除。单封书信、具体事件、章内术语、未定名作品或争议稿组没有同粒度独立条目时，保留无配对状态，不借相关对象QID。
 
-上一步登记完成的是来源范围内的登记与处置：中英文标题／描述、统一元数据、内容及已有结构化信息、关系与证据、章页／行号和句意摘要。全名、作品版本、外部字段及下表暂缓项仍有缺口；**登记收口不表示全章提取已证明穷尽，也不表示外部补足或史实验证完成**。未解决线索有明确去向，没有为完成状态虚构身份。
+全章来源定位现为**1594条**。累计完整阅读**193个Wikipedia对象／候选页（178英文、14意大利文、1德文）**；配对通过后提取适用Wikidata字段，并保留rank、限定信息和有无引用状态。另采用王室收藏、国家博物馆、文化遗产目录、Treccani、Fondazione Zeri、官方期刊与开放学术文献补证。页面或字段未提供的信息保持未知，不由模板推断。
 
-既有 **12 条复杂断言、173 条正式有向关系**保留，没有新建关系。详细外部补足内容覆盖为 **169/298 卡**（既有 12 卡＋REV-052 新增 157 卡），不是全部缺口解决数。**123 个 Wikipedia 对象／候选页全文已读（116 英文、7 意大利文）**，本轮新增 113 页，其中博尔盖塞双胸像页仍属版本待证；其余 **129 卡尚未保存详细外部补足内容稿**，已处理卡仍有未决项。瓦萨利及帕尔马公爵人物卡和萨基晋级事件已保存消歧／引文链处置，但尚无独立生平／外部事件事实，仍在这129卡中。采集成功、查询失败与字段整理均不增加覆盖数。第六章、知识涌现和页面暂停。
+既有**12条复杂断言、173条正式有向关系**保持不变。本轮只完成对齐与补足，没有提前重做关系、知识发现、涌现或页面。关系阶段下一步集中复核现有端点、方向、类型与证据，并判断本轮新增事实是否足以形成新关系。
 
-**同步状态：** 截至前一轮的系统维护及 REV-052 研究成果已提交为 `94d2a77` 并核验远端 `origin/main` 一致。本节新增的十二卡补足、过程证据和统计为后续本地改动，尚未提交推送。
+**同步状态：** 本轮成果已按授权纳入main提交并推送；交付时以本地HEAD与`origin/main`一致性核验为准。
+
+## REV-055剩余129卡的最终结果
+
+| 类型 | 数量 | 本轮结果 |
+|---|---:|---|
+| archive | 23 | 书信、合同、自传、图录与论文补入发受者、日期、载体、刊布链、内容和支持范围；原件未得处逐项保留 |
+| event | 3 | 图像询问、委托申请与家户晋级分别补入参与者、时间、结果和证据边界 |
+| institution | 6 | 机构身份、沿革与官方来源完成；博洛尼亚善会与其会址建筑保持分离 |
+| person | 54 | 37卡完成双站全文和结构字段，17卡完成消歧与检索后未决处置；人物允许多身份标签 |
+| place | 20 | 全部完成双站身份核对，补入位置、历史名称、行政／政治归属和建筑沿革的适用字段 |
+| term | 6 | 三项有相符概念页，三项按章内历史语义定义；均记录原语、证据角色和排除边界 |
+| work | 17 | 三项完成双站对象核对，十四项由馆藏、目录、论文或明确未知状态完成题名、作者、年代、位置与版本边界 |
+| **合计** | **129** | **129/129均已写入固定知识元路径，并有语义应用证据记录** |
+
+129卡中69卡在本轮完成Wikipedia全文与Wikidata完整实体的双向核对；本轮共新读70个Wikipedia页（62英文、7意大利文、1德文）。其余对象的“未配对”是逐项检索和粒度判断后的结果，不是漏做。逐项采纳、暂缓、页面版本与写入前后SHA256见[过程记录](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-055剩余129卡对齐与补足收口)及[补足证据](../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+
+关键识别成果包括：
+
+- Piola书信中的Giovanni Adamo确认为列支敦士登亲王Johann Adam Andreas I；官方王室资料用于裁决Wikidata内并列生卒日。
+- 驻罗马的Marchese del Carpio确认为Gaspar Méndez de Haro；Piola的Marchese Pallavicini确认为Niccolò Maria Pallavicini。
+- Valentin的风俗画定位为《有算命人的音乐聚会》；Rubens 1606年Chiesa Nuova委托定位为格勒诺布尔现藏第一版祭坛画。
+- Albani、Ferri、Gavasetti、Guercino、Ricci对象补入规范题名、时间、位置或失佚状态；Guercino图像角色异文及Cortona稿组归属仍保持争议层级。
+- artistic independence、artistic temperament和inspiration只作为第一章中的分析性知识元补定义，不预置为未来Topic、Theme、Dimension或Domain。
 
 ## 连续补足的已保存结果（REV-052）
 
@@ -96,16 +119,16 @@ MS.5001 的官方修复项目记录已支持同馆号、题名、17世纪和纸�
 | 摄入 | 第一章完整 OCR 与 PDF、书名版权页已定位 | 为本章消歧另定向读取同书书目及索引，未展开其他章节 |
 | 处理 | OCR L1–980 已逐行语义阅读，正文/脚注/跨页有处置 | 行号覆盖不是对象提取完整性的证明；REV-016 已回查具体遗漏 |
 | 知识元 | REV-033 收口：298 个登记对象；289 卡原位整理，8 卡保留，新增新闻纸术语 | 已知线索的暂缓与不拆分裁决见下表；全名、版本等交初步对齐，不宣称提取穷尽 |
-| 对齐 | 298项均有结论；当前168项身份配对通过 | 130项未确认；补足中按证据继续消歧，见上方当前状态 |
-| 补足 | 当前详细内容覆盖169/298（既有12＋本轮157）；123个WP对象／候选页全文已读 | 进行中；129卡尚无详细外部内容稿，已处理对象也有具体未决项 |
+| 对齐 | 298项均有结论；当前172项身份配对通过 | 126项未确认均有检索后结论；不强制分配QID |
+| 补足 | 当前覆盖298/298；193个WP对象／候选页全文已读；来源定位1594条 | 所有卡已处理到当前证据上限；具体未知与争议逐卡保留 |
 | 关系 | 173 条逐条附 note、来源文件、行号及印刷页 | 不以同页共现造边，不以消除孤点证明完备 |
-| 发现与页面 | 暂不开展 | 没有新增涌现结构或刷新页面；本轮研究修改尚未提交推送 |
+| 发现与页面 | 暂不开展 | 没有新增涌现结构或刷新页面 |
 
 [摄入处理定稿及完整逐行分析](../../03-processing/patrons-and-painters-chp-1/results/stages.md) · [必要处理记录](../../03-processing/patrons-and-painters-chp-1/process/stages.md) · [知识判断与边界修订过程](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)
 
 ## 当前成果统计
 
-当前正文仍以本章证据为主，外部身份与事实支持分开记录。当前168项身份配对通过；其中《瘟疫》Q3900760 与泰斯蒂 Q594614 沿用既有适用 WD 属性提取，其余身份配对不等于详细属性已接收。各卡保留 source_backed 总体状态，正文区分具体外部支持、初步对应、来源差异及未验证内容。
+当前正文仍以本章证据为主，外部身份与事实支持分开记录。当前172项身份配对通过；其中《瘟疫》Q3900760 与泰斯蒂 Q594614 沿用既有适用 WD 属性，其余配对对象按类型接收本轮可用字段。身份配对不等于整卡事实全部验证。各卡保留 source_backed 总体状态，正文区分具体外部支持、初步对应、来源差异及未验证内容。
 
 | 类型 | 数量 |
 |---|---:|
@@ -127,7 +150,7 @@ MS.5001 的官方修复项目记录已支持同馆号、题名、17世纪和纸�
 - **已解决**：同书索引 Domenichino 子条明确第 4 页所述枢机为 Scipione Borghese。原候选卡沿用路径并限定该处身份，不再把整个人物都笼统暂缓。
 - **已补足**：Armanni 信集题名/卷数/年份、Bertolotti 缩题、Grassi 1957 论文的刊名及页码，均可由同书书目定向核对。
 - **新增补证**：泰斯蒂致丰塔纳的信已据 Fraschetti 第十二章第 108 页注 1 刊引及扫描图补入罗马、1633 年 1 月 29 日；泰斯蒂的 1593 年 8 月 23 日按 Treccani 区分为受洗日，不照搬 WD 为确定生日。刊引不等于手稿原件。
-- **尚未解决**：第 17 页头部肖像端点与具体版本，Giovanni Adamo 等其他身份全名、无题名借阅书的版本、若干缩引文献、原件文本及当今馆藏。
+- **尚未解决**：第 17 页头部肖像端点与具体版本、无题名借阅书的版本、若干缩引文献、部分原件文本与当今馆藏；Alessandro Vasalli、Berlingero Gessi、Jacopo Salviati、授 Giuseppe Ghezzi 荣衔的帕尔马公爵等身份仍受证据限制。Giovanni Adamo 已在 REV-055 确认为 Johann Adam Andreas I。
 - **类型待决**：具体材料/设备实物与图像角色不能不加说明地套入当前类型；当前相关文字与图像题材已保留，后续依据实际对象决定是否扩展。
 - **沿用的重要纠正**：费率为 Domenichino 130、Lanfranco 100、Guercino 报 125 ducats；萨基家户属于 Antonio 而非 Francesco；《瘟疫》已有稿后商议完成，《春》为另行新委托；稿本争议、逸事与“首次引入”推测不转确定事实。
 
@@ -183,24 +206,24 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | archive | [阿尔曼尼《书信集》（Armanni's Collected Letters）](../units/archives/armanni-delle-lettere.md) | 第一章；印刷页 9；OCR L329–330 | 尚无配对 |
 | archive | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](../units/archives/armanni-pamfili-letter-undated.md) | 第一章；印刷页 9；OCR L329–330 | 尚无配对 |
 | archive | [法布里齐奥·阿拉戈纳致曼图亚公国大臣的信（1621-10-09）（Letter from Fabrizio Arragona to a Mantuan Ducal Minister (1621-10-09)）](../units/archives/arragona-mantua-letter-1621.md) | 第一章；印刷页 14；OCR L542–547, 567–568 | 尚无配对 |
-| archive | [巴尔多伊尼的家户画家任命文字（Appointment of Baldoini as Household Painter）](../units/archives/baldoini-painter-appointment.md) | 第一章；印刷页 6；OCR L173–175,188–189 | 尚无配对 |
+| archive | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../units/archives/baldoini-painter-appointment.md) | 第一章；印刷页 6；OCR L173–175,188–189 | 尚无配对 |
 | archive | [贝尔托洛蒂《罗马的博洛尼亚、费拉拉及原教皇国其他艺术家》（Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome）](../units/archives/bertolotti-artisti-bolognesi.md) | 第一章；印刷页 10；OCR L372–374 | 尚无配对 |
-| archive | [G. L. 比安科尼的信（1762-11-22）（Letter by G. L. Bianconi (1762-11-22)）](../units/archives/bianconi-letter-1762.md) | 第一章；印刷页 21；OCR L896–898 | 尚无配对 |
-| archive | [卡马塞伊《圣塞巴斯蒂安殉难》的收据刊录（Published Receipt for Camassei's Martyrdom of Saint Sebastian）](../units/archives/camassei-sebastian-receipt.md) | 第一章；印刷页 10；OCR L335–338,372–374 | 尚无配对 |
+| archive | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../units/archives/bianconi-letter-1762.md) | 第一章；印刷页 21；OCR L896–898 | 文献身份已由刊本定位 |
+| archive | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](../units/archives/camassei-sebastian-receipt.md) | 第一章；印刷页 10；OCR L335–338,372–374 | 尚无配对 |
 | archive | [卡马塞伊与乌尔班八世的合同（1633）（Contract between Camassei and Urban VIII (1633)）](../units/archives/camassei-urban-contract-1633.md) | 第一章；印刷页 13；OCR L514–516 | 尚无配对 |
 | archive | [卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）](../units/archives/caravaggio-altarpieces-contract-1600.md) | 第一章；印刷页 11；OCR L397–401,421 | 尚无配对 |
-| archive | [切利尼自传（本章引用）（Cellini's Autobiography (as cited in chapter 1)）](../units/archives/cellini-autobiography.md) | 第一章；印刷页 16；OCR L634–635 | 身份配对通过 Q4014886 |
-| archive | [科克先生致阿伦德尔勋爵的信（1620-10-08）（Letter from Mr Coke to Lord Arundell (1620-10-08)）](../units/archives/coke-arundell-letter-1620.md) | 第一章；印刷页 3, 4；OCR L40–44,48,53–55 | 尚无配对 |
+| archive | [本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellini）](../units/archives/cellini-autobiography.md) | 第一章；印刷页 16；OCR L634–635 | 身份配对通过 Q4014886 |
+| archive | [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../units/archives/coke-arundell-letter-1620.md) | 第一章；印刷页 3, 4；OCR L40–44,48,53–55 | 尚无配对 |
 | archive | [科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）](../units/archives/colnaghi-catalogue-1961.md) | 第一章；印刷页 12；OCR L467–468 | 尚无配对 |
 | archive | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）](../units/archives/de-rosis-ruffo-letter-1663.md) | 第一章；印刷页 23；OCR L957–958, 971–972 | 尚无配对 |
 | archive | [奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）](../units/archives/ferri-ruffo-letter-1672.md) | 第一章；印刷页 23；OCR L974–978 | 尚无配对 |
-| archive | [加瓦塞蒂皮亚琴察壁画委托条款（1624）（Terms for Gavasetti's Piacenza Frescoes (1624)）](../units/archives/gavasetti-piacenza-contract-1624.md) | 第一章；印刷页 9；OCR L323–326 | 尚无配对 |
+| archive | [加瓦塞蒂皮亚琴察壁画委托条款（1624）（Terms for Gavasetti's Piacenza Frescoes (1624)）](../units/archives/gavasetti-piacenza-contract-1624.md) | 第一章；印刷页 9；OCR L323–326 | 文献身份通过来源链定位 |
 | archive | [贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）](../units/archives/gessi-leopardi-letter-1647.md) | 第一章；印刷页 13；OCR L486–489, 509–510 | 尚无配对 |
 | archive | [奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）](../units/archives/gini-cortona-letter-1666.md) | 第一章；印刷页 11；OCR L383–385,415–418 | 尚无配对 |
-| archive | [乔万尼·阿达莫致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Giovanni Adamo to Paolo Girolamo Piola (1690-02-03)）](../units/archives/giovanni-adamo-piola-letter-1690.md) | 第一章；印刷页 10；OCR L354–356,376 | 尚无配对 |
-| archive | [格拉西关于科尔托纳与多利亚潘菲利宫画廊草稿的论文（1957）（Grassi's Article on Cortona and the Bozzetti for the Doria Pamphili Gallery (1957)）](../units/archives/grassi-cortona-bozzetti-1957.md) | 第一章；印刷页 12；OCR L461–463 | 尚无配对 |
+| archive | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../units/archives/giovanni-adamo-piola-letter-1690.md) | 第一章；印刷页 10；OCR L354–356,376 | 文献身份已由刊本定位 |
+| archive | [格拉西关于科尔托纳与多利亚潘菲利宫画廊草稿的论文（1957）（Grassi's Article on Cortona and the Bozzetti for the Doria Pamphili Gallery (1957)）](../units/archives/grassi-cortona-bozzetti-1957.md) | 第一章；印刷页 12；OCR L461–463 | 文献身份已由期刊原文定位 |
 | archive | [圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）](../units/archives/guercino-ruffo-letter-1649.md) | 第一章；印刷页 14；OCR L548–552, 569–570 | 尚无配对 |
-| archive | [乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）](../units/archives/lanfranco-barberini-letter-1640.md) | 第一章；印刷页 11；OCR L408–425 | 尚无配对 |
+| archive | [乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）](../units/archives/lanfranco-barberini-letter-1640.md) | 第一章；印刷页 11；OCR L408–425 | 文献身份通过来源链定位 |
 | archive | [《当今》（1627）（L'Hoggidi (1627)）](../units/archives/lhoggidi-1627.md) | 第一章；印刷页 3；OCR L45–47 | 版本待证 |
 | archive | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../units/archives/minnitti-augusta-terms-1617.md) | 第一章；印刷页 9；OCR L321–322 | 尚无配对 |
 | archive | [莫拉借阅的神谱书（题名未明）（Genealogy of the Gods Borrowed by Mola (title unidentified)）](../units/archives/mola-borrowed-genealogy-gods.md) | 第一章；印刷页 9；OCR L312–316 | 尚无配对 |
@@ -208,10 +231,10 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | archive | [莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）（Contract Terms for Mola and Pamfili's Valmontone Project (1657)）](../units/archives/mola-pamfili-contract-1657.md) | 第一章；印刷页 13；OCR L505–506,514–519 | 尚无配对 |
 | archive | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../units/archives/negri-san-tommaso-letter-1676.md) | 第一章；印刷页 21；OCR L889–900 | 尚无配对 |
 | archive | [弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）](../units/archives/novetti-ruffo-letter-1670.md) | 第一章；印刷页 18；OCR L750–758 | 尚无配对 |
-| archive | [帕斯科利未刊《特雷维萨尼传》（MS.1383）（Pascoli's Unpublished Life of Trevisani (MS.1383)）](../units/archives/pascoli-trevisani-life-ms1383.md) | 第一章；印刷页 7；OCR L236–237 | 尚无配对 |
+| archive | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../units/archives/pascoli-trevisani-life-ms1383.md) | 第一章；印刷页 7；OCR L236–237 | 尚无配对 |
 | archive | [《赞助人与画家》（Patrons and Painters）](../units/archives/patrons-and-painters.md) | 书名页及版权页；无章节、未编号；OCR L3–17 | 尚无配对 |
-| archive | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../units/archives/quarisimini-carrara-letter-1696.md) | 第一章；印刷页 13；OCR L511–513 | 尚无配对 |
-| archive | [里奇《施洗者约翰斩首》的委托条款（1682）（Terms for Ricci's Beheading of Saint John the Baptist (1682)）](../units/archives/ricci-bologna-terms-1682.md) | 第一章；印刷页 9；OCR L326–328 | 尚无配对 |
+| archive | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../units/archives/quarisimini-carrara-letter-1696.md) | 第一章；印刷页 13；OCR L511–513 | 文献身份已由刊本定位 |
+| archive | [里奇《施洗者约翰斩首》的委托条款（1682）（Terms for Ricci's Beheading of Saint John the Baptist (1682)）](../units/archives/ricci-bologna-terms-1682.md) | 第一章；印刷页 9；OCR L326–328 | 文献身份通过研究文献定位 |
 | archive | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../units/archives/rosa-ruffo-letter-1666.md) | 第一章；印刷页 22；OCR L937–947 | 尚无配对 |
 | archive | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../units/archives/salviati-medici-letter-1662.md) | 第一章；印刷页 14；OCR L537–540, 565–566 | 尚无配对 |
 | archive | [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../units/archives/savini-gubbio-terms-1608.md) | 第一章；印刷页 9；OCR L321–322 | 尚无配对 |
@@ -234,7 +257,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | family | [博尔盖塞家族（Borghese Family）](../units/families/borghese-family.md) | 第一章；印刷页 5；OCR L111–116 | 身份配对通过 Q241133 |
 | institution | [嘉布遣会（Capuchins）](../units/institutions/capuchins.md) | 第一章；印刷页 5；OCR L125–130 | 身份配对通过 Q124862 |
 | institution | [科尔纳吉画廊（Colnaghi's）](../units/institutions/colnaghi.md) | 第一章；印刷页 12；OCR L467–468 | 身份配对通过 Q5147759 |
-| institution | [博洛尼亚圣若翰斩首善会（Confraternity of Saint John the Baptist Beheaded, Bologna）](../units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md) | 第一章；印刷页 9；OCR L326–328 | 尚无配对 |
+| institution | [博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John of the Florentines, Bologna）](../units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md) | 第一章；印刷页 9；OCR L326–328 | 尚无机构配对 |
 | institution | [圣彼得营造管理机构（Fabbrica di S. Pietro）](../units/institutions/fabbrica-di-san-pietro.md) | 第一章；印刷页 17；OCR L700–703 | 身份配对通过 Q2381511 |
 | institution | [耶稣会（Jesuits）](../units/institutions/jesuits.md) | 第一章；印刷页 5；OCR L125–130 | 身份配对通过 Q36380 |
 | institution | [奥拉托利会（Oratorians）](../units/institutions/oratorians.md) | 第一章；印刷页 5；OCR L125–130 | 身份配对通过 Q247132 |
@@ -265,10 +288,10 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [卡拉瓦乔（Caravaggio）](../units/persons/caravaggio.md) | 第一章；印刷页 10；OCR L349–353 | 身份配对通过 Q42207 |
 | person | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../units/persons/cardinal-borghese-ch1.md) | 第一章；印刷页 4；OCR L79–83 | 身份配对通过 Q452570 |
 | person | [卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）](../units/persons/cardinal-pio-bonati.md) | 第一章；印刷页 6；OCR L186–187 | 身份配对通过 Q2939240 |
-| person | [罗斯皮廖西枢机（吉米尼亚尼的保护人）（Cardinal Rospigliosi (Gimignani’s patron)）](../units/persons/cardinal-rospigliosi-gimignani.md) | 第一章；印刷页 6；OCR L186–187 | 候选待证 |
+| person | [朱利奥·罗斯皮廖西（Giulio Rospigliosi）](../units/persons/cardinal-rospigliosi-gimignani.md) | 第一章；印刷页 6；OCR L186–187 | 候选待证 |
 | person | [卡洛·切萨雷·马尔瓦西亚（Carlo Cesare Malvasia）](../units/persons/carlo-cesare-malvasia.md) | 第一章；印刷页 16；OCR L630–638,657–658 | 身份配对通过 Q1160847 |
 | person | [卡洛·马拉塔（Carlo Maratta）](../units/persons/carlo-maratta.md) | 第一章；印刷页 17；OCR L670–677,704–710 | 身份配对通过 Q538998 |
-| person | [卡洛·夸里斯米尼（1696 年通信者）（Carlo Quarismini (correspondent in 1696)）](../units/persons/carlo-quarisimini-ch1.md) | 第一章；印刷页 13；OCR L511–513 | 尚无配对 |
+| person | [卡洛·夸里斯米尼（1696年通信者）（Carlo Quarismini, correspondent in 1696）](../units/persons/carlo-quarisimini-ch1.md) | 第一章；印刷页 13；OCR L511–513 | 尚无配对 |
 | person | [卡洛·里多尔菲（Carlo Ridolfi）](../units/persons/carlo-ridolfi.md) | 第一章；印刷页 19；OCR L763–767 | 身份配对通过 Q776990 |
 | person | [切萨雷·莱奥帕尔迪·多西莫（Don Cesare Leopardi d’Osimo）](../units/persons/cesare-leopardi-dosimo.md) | 第一章；印刷页 13；OCR L509–510 | 尚无配对 |
 | person | [查理五世（Charles V）](../units/persons/charles-v.md) | 第一章；印刷页 19；OCR L764–767, 799–804 | 身份配对通过 Q32500 |
@@ -280,7 +303,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [丹尼斯·马洪（Denis Mahon）](../units/persons/denis-mahon.md) | 第一章；印刷页 12；OCR L467–468 | 身份配对通过 Q3705445 |
 | person | [多梅尼科·赞皮耶里（Domenico Zampieri）](../units/persons/domenichino.md) | 第一章印刷页 4, 13；OCR 行 79–83, 498–502 | 身份配对通过 Q320118 |
 | person | [布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulier’s patron)）](../units/persons/duke-bracciano-mulier.md) | 第一章；印刷页 7；OCR L231–233 | 尚无配对 |
-| person | [曼图亚公爵（雷尼 1617 年委托语境）（Duke of Mantua (Reni’s 1617 commission)）](../units/persons/duke-mantua-reni-1617.md) | 第一章；印刷页 14；OCR L531–534 | 身份配对通过 Q969739 |
+| person | [费迪南多·贡扎加（Ferdinando Gonzaga）](../units/persons/duke-mantua-reni-1617.md) | 第一章；印刷页 14；OCR L531–534 | 身份配对通过 Q969739 |
 | person | [帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s honorary appointment)）](../units/persons/duke-parma-ghezzi.md) | 第一章；印刷页 19；OCR L770–773 | 尚无配对 |
 | person | [法布里齐奥·阿拉戈纳（Fabrizio Arragona）](../units/persons/fabrizio-arragona.md) | 第一章；印刷页 14；OCR L567–568 | 尚无配对 |
 | person | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../units/persons/fabrizio-valguarnera.md) | 第一章；印刷页 15；OCR L591–603 | 尚无配对 |
@@ -302,10 +325,10 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）](../units/persons/giammaria-morandi.md) | 第一章；印刷页 18；OCR L744–745 | 身份配对通过 Q1773095 |
 | person | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../units/persons/gian-lorenzo-bernini.md) | 第一章；印刷页 16, 17；OCR L641–646,656,668–672 | 身份配对通过 Q160538 |
 | person | [乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）](../units/persons/gianandrea-carlone.md) | 第一章；印刷页 21；OCR L858–861 | 身份配对通过 Q3106993 |
-| person | [乔·加斯帕罗·巴尔多伊尼（名字有缩写）（Gio. Gasparo Baldoini）](../units/persons/gio-gasparo-baldoini.md) | 第一章；印刷页 6；OCR L188–189 | 尚无配对 |
+| person | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../units/persons/gio-gasparo-baldoini.md) | 第一章；印刷页 6；OCR L188–189 | 尚无配对 |
 | person | [瓦萨里（Vasari）](../units/persons/giorgio-vasari.md) | 第一章；印刷页 21；OCR L882–884 | 身份配对通过 Q128027 |
 | person | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../units/persons/giovan-battista-gaulli.md) | 第一章；印刷页 12；OCR L430–460 | 身份配对通过 Q520573 |
-| person | [乔万尼·阿达莫（皮奥拉的委托人）（Giovanni Adamo (Piola’s patron)）](../units/persons/giovanni-adamo-piola.md) | 第一章；印刷页 10；OCR L354–356, 376 | 尚无配对 |
+| person | [列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）](../units/persons/giovanni-adamo-piola.md) | 第一章；印刷页 10；OCR L354–356, 376 | 身份配对通过 Q581481 |
 | person | [乔瓦尼·博纳蒂（Giovanni Bonatti）](../units/persons/giovanni-bonati.md) | 第一章；印刷页 6；OCR L186–187 | 身份配对通过 Q5565359 |
 | person | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../units/persons/giovanni-lanfranco.md) | 第一章印刷页 7, 11, 13, 15；OCR 行 210–213, 408–425, 500–502, 596–601 | 身份配对通过 Q447730 |
 | person | [乔万尼·奥达齐（Giovanni Odazzi）](../units/persons/giovanni-odazzi.md) | 第一章；印刷页 12；OCR L455–457 | 身份配对通过 Q464446 |
@@ -314,7 +337,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [朱利奥·曼奇尼（Giulio Mancini）](../units/persons/giulio-mancini.md) | 第一章；印刷页 14；OCR L529–531 | 身份配对通过 Q3769699 |
 | person | [朱塞佩·德·罗西斯（Giuseppe de Rosis）](../units/persons/giuseppe-de-rosis.md) | 第一章；印刷页 23；OCR L971–972 | 尚无配对 |
 | person | [朱塞佩·盖齐（Giuseppe Ghezzi）](../units/persons/giuseppe-ghezzi.md) | 第一章；印刷页 19；OCR L770–773 | 身份配对通过 Q1749764 |
-| person | [G. L. 比安科尼（名字有缩写）（G. L. Bianconi）](../units/persons/gl-bianconi.md) | 第一章；印刷页 21；OCR L896–898 | 候选待证 |
+| person | [乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）](../units/persons/gl-bianconi.md) | 第一章；印刷页 21；OCR L896–898 | 身份配对通过 Q5563896 |
 | person | [格列高利十五世（Gregory XV）](../units/persons/gregory-xv.md) | 第一章；印刷页 3；OCR L26–27 | 身份配对通过 Q132692 |
 | person | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../units/persons/guercino.md) | 第1章，印刷页 9, 14；OCR 行 295–307, 548–552, 569–570 | 身份配对通过 Q334262 |
 | person | [古列尔莫·科尔泰塞（Guglielmo Cortese）](../units/persons/guglielmo-cortese.md) | 第一章；印刷页 7；OCR L231–233 | 身份配对通过 Q1749032 |
@@ -330,9 +353,9 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [卢多维科·卢多维西（Ludovico Ludovisi）](../units/persons/ludovico-ludovisi.md) | 第一章；印刷页 4；OCR L79–83 | 身份配对通过 Q707750 |
 | person | [马尔切洛·萨凯蒂（Marcello Sacchetti）](../units/persons/marcello-sacchetti.md) | 第一章；印刷页 7；OCR L217–220 | 身份配对通过 Q6087600 |
 | person | [科斯塔古蒂侯爵（卡尔洛内婚姻事例语境）（Marchese Costaguti (Carlone marriage context)）](../units/persons/marchese-costaguti-household.md) | 第一章；印刷页 21；OCR L858–861 | 尚无配对 |
-| person | [德尔卡尔皮奥侯爵（西班牙驻罗马大使）（Marchese Del Carpio (Spanish ambassador in Rome)）](../units/persons/marchese-del-carpio.md) | 第一章；印刷页 10；OCR L369–371 | 尚无配对 |
-| person | [朱斯蒂尼亚尼侯爵（卡拉瓦乔收藏者）（Marchese Giustiniani (Caravaggio collector)）](../units/persons/marchese-giustiniani-ch1.md) | 第一章；印刷页 10；OCR L349–353 | 身份配对通过 Q1396468 |
-| person | [帕拉维奇尼侯爵（皮奥拉的罗马保护人）（Marchese Pallavicini (Piola’s Roman patron)）](../units/persons/marchese-pallavicini-piola.md) | 第一章；印刷页 8；OCR L278–281 | 尚无配对 |
+| person | [加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）](../units/persons/marchese-del-carpio.md) | 第一章；印刷页 10；OCR L369–371 | 身份配对通过 Q380763 |
+| person | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../units/persons/marchese-giustiniani-ch1.md) | 第一章；印刷页 10；OCR L349–353 | 身份配对通过 Q1396468 |
+| person | [尼科洛·马里亚·帕拉维奇尼侯爵（Niccolò Maria Pallavicini）](../units/persons/marchese-pallavicini-piola.md) | 第一章；印刷页 8；OCR L278–281 | 身份配对通过 Q105105120 |
 | person | [圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (Negri’s correspondent)）](../units/persons/marchese-san-tommaso-negri.md) | 第一章；印刷页 21；OCR L899–900 | 尚无配对 |
 | person | [马里奥·努齐（Mario Nuzzi）](../units/persons/mario-de-fiori.md) | 第一章；印刷页 8；OCR L282 | 身份配对通过 Q1227379 |
 | person | [马里奥·明尼蒂（Mario Minniti）](../units/persons/mario-minnitti.md) | 第一章；印刷页 9；OCR L322 | 身份配对通过 Q153619 |
@@ -343,7 +366,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [托马斯·科克（Thomas Coke，阿伦德尔家户通信者）](../units/persons/mr-coke-rome-correspondent.md) | 第一章；印刷页 3, 4；OCR L40–44,48,53–55 | 尚无配对 |
 | person | [尼古拉·普桑（Nicolas Poussin）](../units/persons/nicolas-poussin.md) | 第一章；印刷页 10；OCR L373–374 | 身份配对通过 Q41554 |
 | person | [奥诺拉托·吉尼（Onorato Gini）](../units/persons/onorato-gini.md) | 第一章；印刷页 11；OCR L415–418 | 尚无配对 |
-| person | [保罗·吉罗拉莫·皮奥拉（Paolo Girolamo Piola）](../units/persons/paolo-girolamo-piola.md) | 第一章；印刷页 8；OCR L278–281 | 身份配对通过 Q3894101 |
+| person | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../units/persons/paolo-girolamo-piola.md) | 第一章；印刷页 8；OCR L278–281 | 身份配对通过 Q3894101 |
 | person | [保罗·圭多蒂（Paolo Guidotti）](../units/persons/paolo-guidotti.md) | 第一章；印刷页 14；OCR L535–537 | 身份配对通过 Q3894144 |
 | person | [保罗·内格里（Paolo Negri）](../units/persons/paolo-negri.md) | 第一章；印刷页 21；OCR L899–900 | 已排除误配 |
 | person | [利奥内·帕斯科利（Lione Pascoli）](../units/persons/pascoli.md) | 第一章；印刷页 6；OCR L178–187 | 身份配对通过 Q1101774 |
@@ -357,7 +380,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [拉斐尔（Raphael）](../units/persons/raphael.md) | 第一章；印刷页 16；OCR L623 | 身份配对通过 Q5597 |
 | person | [伦勃朗（Rembrandt）](../units/persons/rembrandt.md) | 第一章；印刷页 17；OCR L674–677 | 身份配对通过 Q5598 |
 | person | [萨尔瓦多·罗萨（Salvator Rosa）](../units/persons/salvator-rosa.md) | 第一章；印刷页 11；OCR L382–389 | 身份配对通过 Q359421 |
-| person | [萨韦里奥·萨维尼（Saverio Savini）](../units/persons/saverio-savini.md) | 第一章；印刷页 9；OCR L321–322 | 尚无配对 |
+| person | [萨尔维奥·萨维尼（Salvio Savini）](../units/persons/saverio-savini.md) | 第一章；印刷页 9；OCR L321–322 | 尚无配对 |
 | person | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](../units/persons/sebastiano-ricci.md) | 第一章；印刷页 9；OCR L326–328 | 身份配对通过 Q506483 |
 | person | [西斯笃五世（Sixtus V）](../units/persons/sixtus-v.md) | 第一章；印刷页 4；OCR L68–69 | 身份配对通过 Q133350 |
 | person | [托马斯·贝克（Thomas Baker）](../units/persons/thomas-baker.md) | 第一章；印刷页 17；OCR L699–700 | 候选待证 |
@@ -365,7 +388,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | person | [乌尔班八世（Urban VIII）](../units/persons/urbano-viii.md) | 第一章；印刷页 3；OCR L15–34 | 身份配对通过 Q131579 |
 | person | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../units/persons/valentin.md) | 第一章；印刷页 11；OCR L389–392 | 身份配对通过 Q1337275 |
 | person | [文图拉·卡拉拉伯爵（Count Ventura Carrara）](../units/persons/ventura-carrara.md) | 第一章；印刷页 13；OCR L511–513 | 尚无配对 |
-| person | [温琴佐·阿尔曼尼（致卡米洛信的作者）（Vincenzo Armanni (author of the letter to Camillo)）](../units/persons/vincenzo-armanni-ch1.md) | 第一章；印刷页 9；OCR L329–330 | 候选待证 |
+| person | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../units/persons/vincenzo-armanni-ch1.md) | 第一章；印刷页 9；OCR L329–330 | 候选待证 |
 | person | [维吉尔（Virgil）](../units/persons/virgil.md) | 第一章；印刷页 9；OCR L314–319 | 身份配对通过 Q1398 |
 | place | [奥古斯塔（西西里）（Augusta, Sicily）](../units/places/augusta-sicily.md) | 第一章；印刷页 9；OCR L322 | 身份配对通过 Q194005 |
 | place | [博洛尼亚（Bologna）](../units/places/bologna.md) | 第一章；印刷页 4, 5；OCR L79–88,101–110 | 身份配对通过 Q1891 |
@@ -385,7 +408,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | place | [那不勒斯（Naples）](../units/places/naples.md) | 第一章印刷页 11, 13；OCR 行 423–425, 500–502 | 身份配对通过 Q2634 |
 | place | [巴贝里尼宫（Palazzo Barberini）](../units/places/palazzo-barberini.md) | 第一章；印刷页 12；OCR L461–468 | 身份配对通过 Q1136614 |
 | place | [多利亚潘菲利宫（Palazzo Doria-Pamfili）](../units/places/palazzo-doria-pamfili.md) | 第一章；印刷页 12；OCR L461–463 | 身份配对通过 Q385387 |
-| place | [潘菲利在瓦尔蒙托内的乡间宅邸（Pamfili's Country House at Valmontone）](../units/places/pamfili-country-house-valmontone.md) | 第一章；印刷页 9；OCR L312–319 | 尚无配对 |
+| place | [瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）](../units/places/pamfili-country-house-valmontone.md) | 第一章；印刷页 9；OCR L312–319 | 尚无配对 |
 | place | [帕尔马（Parma）](../units/places/parma.md) | 第一章；印刷页 6；OCR L169–171, 186–187 | 身份配对通过 Q2683 |
 | place | [佩鲁贾（Perugia）](../units/places/perugia.md) | 第一章；印刷页 7；OCR L236–237 | 身份配对通过 Q3437 |
 | place | [皮亚琴察（Piacenza）](../units/places/piacenza.md) | 第一章；印刷页 9；OCR L323–326 | 身份配对通过 Q13329 |
@@ -396,8 +419,8 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | place | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](../units/places/sant-agnese-piazza-navona.md) | 第一章；印刷页 12；OCR L438–453 | 身份配对通过 Q1192577 |
 | place | [谷地圣安德烈堂（S. Andrea della Valle）](../units/places/sant-andrea-della-valle.md) | 第一章；印刷页 5, 6；OCR L139–141,147–152 | 身份配对通过 Q1631593 |
 | place | [皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）](../units/places/sant-antonino-piacenza.md) | 第一章；印刷页 9；OCR L323–326 | 身份配对通过 Q1670729 |
-| place | [圣母大殿（S. Maria Maggiore）](../units/places/santa-maria-maggiore.md) | 第一章；印刷页 5；OCR L120–124 | 身份配对通过 Q186282 |
-| place | [米涅瓦圣母堂（S. Maria sopra Minerva）](../units/places/santa-maria-sopra-minerva.md) | 第一章；印刷页 5；OCR L120–124 | 身份配对通过 Q823685 |
+| place | [圣母大殿（Santa Maria Maggiore）](../units/places/santa-maria-maggiore.md) | 第一章；印刷页 5；OCR L120–124 | 身份配对通过 Q186282 |
+| place | [米涅瓦圣母堂（Santa Maria sopra Minerva）](../units/places/santa-maria-sopra-minerva.md) | 第一章；印刷页 5；OCR L120–124 | 身份配对通过 Q823685 |
 | place | [西西里（Sicily）](../units/places/sicily.md) | 第一章；印刷页 9；OCR L295–307,322 | 范围待对齐 |
 | place | [西班牙（Spain）](../units/places/spain.md) | 第一章；印刷页 18；OCR L745–747 | 范围待对齐 |
 | place | [圣彼得大殿（St Peter's Basilica）](../units/places/st-peters-basilica.md) | 第一章；印刷页 3, 5；OCR L28,115–116 | 身份配对通过 Q12512 |
@@ -421,21 +444,21 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | term | [艺术家气质（Artistic temperament）](../units/terms/artistic-temperament.md) | 第一章；印刷页 21, 22；OCR L882–893,905–926 | 尚无配对 |
 | term | [同巢之鸟（Bentveughels）](../units/terms/bentveughels.md) | 第一章；印刷页 20；OCR L819–833 | 范围待对齐 |
 | term | [艺术家“波希米亚”群体（Bohemian artists）](../units/terms/bohemian-artists.md) | 第一章；印刷页 16；OCR L624–627 | 范围待对齐 |
-| term | [草稿（Bozzetto）](../units/terms/bozzetto.md) | 第一章；印刷页 12；OCR L461–468 | 身份配对通过（REV-052，Q5416402） |
+| term | [构思草稿（Bozzetto）](../units/terms/bozzetto.md) | 第一章；印刷页 12；OCR L461–468 | 身份配对通过（REV-052，Q5416402） |
 | term | [定金（Caparra）](../units/terms/caparra.md) | 第一章；印刷页 13；OCR L478–485,503–508 | 范围待对齐 |
 | term | [基督骑士荣衔（Cavaliere dell’abito di Cristo）](../units/terms/cavaliere-abito-cristo.md) | 第一章；印刷页 19；OCR L774–777 | 尚无配对 |
 | term | [行宫伯爵（Count Palatine）](../units/terms/count-palatine.md) | 第一章；印刷页 19；OCR L799–804 | 身份配对通过 Q22932 |
 | term | [祈祷用图像（Devotional picture）](../units/terms/devotional-picture.md) | 第一章；印刷页 20；OCR L811–818 | 尚无配对 |
 | term | [鉴赏爱好者（Dilettante）](../units/terms/dilettante.md) | 第一章；印刷页 6；OCR L160–164 | 候选待证 |
 | term | [家户（Famiglia）](../units/terms/famiglia.md) | 第一章；印刷页 6, 7；OCR L171–177,195–198 | 范围待对齐 |
-| term | [壁画（Fresco）](../units/terms/fresco.md) | 第一章；印刷页 8；OCR L258–264 | 身份配对通过 Q134194 |
+| term | [湿壁画技法（Fresco）](../units/terms/fresco.md) | 第一章；印刷页 8；OCR L258–264 | 身份配对通过 Q134194 |
 | term | [可移动画廊画（Gallery picture）](../units/terms/gallery-picture.md) | 第一章；印刷页 8；OCR L265–273 | 尚无配对 |
 | term | [天才观（Genius）](../units/terms/genius.md) | 第一章；印刷页 16；OCR L650–654 | 范围待对齐 |
 | term | [荣誉侍从（Gentiluomo d’onore）](../units/terms/gentiluomo-onore.md) | 第一章；印刷页 19；OCR L770–773 | 范围待对齐 |
 | term | [历史画（History painting）](../units/terms/history-painting.md) | 第一章；印刷页 15；OCR L603–606 | 身份配对通过 Q742333 |
 | term | [圣年（Holy Year）](../units/terms/holy-year.md) | 第一章；印刷页 12；OCR L453–455 | 身份配对通过 Q838794 |
 | term | [灵感与热情（Inspiration / entusiasmo）](../units/terms/inspiration.md) | 第一章；印刷页 22；OCR L937–947 | 尚无配对 |
-| term | [预备油画稿（Modello）](../units/terms/modello.md) | 第一章；印刷页 11, 12；OCR L393–414,430–446 | 身份配对通过 Q3859830 |
+| term | [预备稿／模型（Modello）](../units/terms/modello.md) | 第一章；印刷页 11, 12；OCR L393–414,430–446 | 身份配对通过 Q3859830 |
 | term | [教皇亲族任用（Nepotism）](../units/terms/nepotism.md) | 第一章；印刷页 4；OCR L56–70 | 身份配对通过 Q161165 |
 | term | [新闻纸（News sheets）](../units/terms/news-sheets.md) | 第一章；印刷页 19；OCR L778–783 | 尚无配对 |
 | term | [本府画家（Nostro pittore）](../units/terms/nostro-pittore.md) | 第一章；印刷页 6；OCR L173–189 | 范围待对齐 |
@@ -445,7 +468,7 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | term | [特定保护人服务（Servitù particolare）](../units/terms/servitu-particolare.md) | 第一章；印刷页 6, 7；OCR L165–177,195–198 | 尚无配对 |
 | term | [领衔教堂（Titular church）](../units/terms/titular-church.md) | 第一章；印刷页 5；OCR L117–124 | 身份配对通过 Q1092939 |
 | term | [群青（Ultramarine / oltremare）](../units/terms/ultramarine.md) | 第一章；印刷页 13；OCR L486–519 | 身份配对通过 Q219660 |
-| work | [阿尔巴尼博洛尼亚塞尔维教堂祭坛画（1639 年记载）（Albani’s Servi altarpiece in Bologna (documented in 1639)）](../units/works/albani-servi-altarpiece-1639.md) | 第一章；印刷页 13；OCR L515–516 | 尚无配对 |
+| work | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../units/works/albani-servi-altarpiece-1639.md) | 第一章；印刷页 13；OCR L515–516 | 尚无配对 |
 | work | [巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto for the Barberini Salone (disputed attribution)）](../units/works/barberini-salone-bozzetto-disputed.md) | 第一章；印刷页 12；OCR L463–464 | 尚无配对 |
 | work | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../units/works/bernini-cardinal-borghese-head.md) | 第一章；印刷页 17；OCR L700–703 | 版本待证 |
 | work | [贝尔尼尼《大卫》（Bernini’s David）](../units/works/bernini-david.md) | 第一章；印刷页 19；OCR L763–767 | 身份配对通过 Q766487 |
@@ -453,16 +476,16 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | work | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../units/works/camassei-martyrdom-saint-sebastian.md) | 第一章；印刷页 10；OCR L336–338,372–374 | 尚无配对 |
 | work | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../units/works/camassei-peter-paul-mamertine-modello.md) | 第一章；印刷页 12；OCR L464–466 | 尚无配对 |
 | work | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../units/works/caravaggio-conversion-saint-paul.md) | 第一章；印刷页 11；OCR L397–401 | 版本待证 |
-| work | [朱斯蒂尼亚尼购藏的卡拉瓦乔退画（Caravaggio’s rejected altarpiece acquired by Giustiniani）](../units/works/caravaggio-giustiniani-rejected-altarpiece.md) | 第一章；印刷页 10；OCR L349–353 | 身份配对通过 Q577248 |
+| work | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../units/works/caravaggio-giustiniani-rejected-altarpiece.md) | 第一章；印刷页 10；OCR L349–353 | 身份配对通过 Q577248 |
 | work | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../units/works/caravaggio-martyrdom-saint-peter.md) | 第一章；印刷页 11；OCR L397–401 | 版本待证 |
 | work | [1635 年演出的喜剧（题名未明）（Unidentified comedy performed in 1635）](../units/works/comedy-performed-1635.md) | 第一章；印刷页 21；OCR L858–863,894–895 | 尚无配对 |
 | work | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../units/works/cortona-doria-pamfili-modelli-disputed.md) | 第一章；印刷页 12；OCR L461–463 | 尚无配对 |
-| work | [费里为拉帕雷利所作科尔托纳祭坛画（Ferri’s altarpiece for Annibale Laparelli in Cortona）](../units/works/ferri-laparelli-altarpiece.md) | 第一章；印刷页 13；OCR L507–508 | 尚无配对 |
-| work | [费里圣阿涅塞穹顶壁画工程（Ferri’s cupola fresco project at S. Agnese）](../units/works/ferri-sant-agnese-cupola.md) | 第一章；印刷页 12；OCR L437–453 | 尚无配对 |
+| work | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../units/works/ferri-laparelli-altarpiece.md) | 第一章；印刷页 13；OCR L507–508 | 尚无配对 |
+| work | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../units/works/ferri-sant-agnese-cupola.md) | 第一章；印刷页 12；OCR L437–453 | 尚无配对 |
 | work | [费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）](../units/works/ferri-sant-agnese-modello.md) | 第一章；印刷页 12；OCR L437–441 | 尚无配对 |
 | work | [盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）](../units/works/gaulli-gesu-vaults.md) | 第一章；印刷页 12；OCR L452–454 | 范围待对齐 |
-| work | [加瓦塞蒂圣安东尼诺堂壁画（Gavasetti’s frescoes at S. Antonino）](../units/works/gavasetti-sant-antonino-frescoes.md) | 第一章；印刷页 9；OCR L323–326 | 尚无配对 |
-| work | [圭尔奇诺 1665 年西西里祭坛画委托对象（Guercino’s Sicilian altarpiece commission of 1665）](../units/works/guercino-sicilian-altarpiece-1665.md) | 第一章；印刷页 9；OCR L295–307 | 尚无配对 |
+| work | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../units/works/gavasetti-sant-antonino-frescoes.md) | 第一章；印刷页 9；OCR L323–326 | 尚无配对 |
+| work | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../units/works/guercino-sicilian-altarpiece-1665.md) | 第一章；印刷页 9；OCR L295–307 | 尚无配对 |
 | work | [兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）](../units/works/lanfranco-crucifixion-stock.md) | 第一章；印刷页 15；OCR L596–601 | 尚无配对 |
 | work | [兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）](../units/works/lanfranco-magdalene-stock.md) | 第一章；印刷页 15；OCR L596–601 | 尚无配对 |
 | work | [莫拉瓦尔蒙托内《空气》构图方案（Mola’s design for Air at Valmontone）](../units/works/mola-air-valmontone.md) | 第一章；印刷页 9；OCR L316–319 | 尚无配对 |
@@ -471,11 +494,11 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | work | [普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）](../units/works/poussin-massacre-innocents.md) | 第一章；印刷页 10；OCR L372–374 | 候选待证 |
 | work | [普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）](../units/works/poussin-spring-valguarnera.md) | 第一章；印刷页 15；OCR L599–601 | 尚无配对 |
 | work | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../units/works/reni-justice-embracing-peace.md) | 第一章；印刷页 14；OCR L531–534 | 尚无配对 |
-| work | [雷尼《屠杀婴孩》（本章提及）（Reni’s Massacre of the Innocents (chapter 1 reference)）](../units/works/reni-massacre-innocents.md) | 第一章；印刷页 10；OCR L372–374 | 身份配对通过 Q2448678 |
+| work | [雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）](../units/works/reni-massacre-innocents.md) | 第一章；印刷页 10；OCR L372–374 | 身份配对通过 Q2448678 |
 | work | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../units/works/ricci-beheading-john-baptist-1682.md) | 第一章；印刷页 9；OCR L326–328 | 尚无配对 |
-| work | [鲁本斯新教堂祭坛画委托（1606）（Rubens’s Chiesa Nuova altarpiece commission (1606)）](../units/works/rubens-chiesa-nuova-altarpiece-1606.md) | 第一章；印刷页 11；OCR L402–404 | 尚无配对 |
+| work | [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../units/works/rubens-chiesa-nuova-altarpiece-1606.md) | 第一章；印刷页 11；OCR L402–404 | 尚无配对 |
 | work | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../units/works/sacchi-capuchin-altarpiece-modello.md) | 第一章；印刷页 12；OCR L466–468 | 尚无配对 |
-| work | [瓦朗坦风俗画委托（题名未明）（Valentin’s genre-painting commission (title unidentified)）](../units/works/valentin-genre-commission.md) | 第一章；印刷页 11；OCR L389–392 | 尚无配对 |
+| work | [瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）](../units/works/valentin-genre-commission.md) | 第一章；印刷页 11；OCR L389–392 | 尚无配对 |
 
 298 卡已具双语关键内容、三部分结构、来源定位及句意摘要。这里记录来源范围内的成稿状态；未把形式齐备当作独立语义验收，未把补足阶段需要的字段提前编满。
 
@@ -492,16 +515,16 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | [弗朗切斯科·丰塔纳](../units/persons/francesco-fontana.md) | 以家族研究第 2.3 节第 66–67 页及刊引信初步对应收信人，补多角色、亲缘及部分履历 | 尚未找到匹配 Wiki 对象配对；不能使用同名天文学家身份；生卒、教育及完整履历待补 |
 | [泰斯蒂致丰塔纳的信](../units/archives/testi-fontana-bernini-letter.md) | 双语标题；Fraschetti 刊引支持 1633-01-29 罗马发信及艺术交往内容，章页和句子摘要齐备 | 所读为刊引，手稿、今日保管地、索书号和 Campori 初刊未核；无该封信的 Wiki 配对 |
 
-八卡的早期过程、实际访问及阅读范围见 [knowledge.md](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-026–030。后续补足覆盖以本文件顶部当前数为准；继续处理已有卡的实际缺口及尚无详细稿的对象。已完成的阅读与有效身份判断复用，访问失败项保留，避免无新条件反复请求。REV-033 已在登记阶段补齐其余来源摘要；后续新增外部事实仍须带各自来源，不由脚本生成判断。关系复核在补足交接后开展。
+八卡的早期过程、实际访问及阅读范围见 [knowledge.md](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-026–030。补足覆盖以本文件顶部当前数为准；所有对象均已处理到当前证据上限。已完成的阅读与有效身份判断复用，访问失败项和未决项保留，避免无新条件反复请求。后续新增外部事实仍须带各自来源。关系复核在补足交接后开展。
 
-## 下一步顺序（REV-052，沿用逐阶段执行）
+## 下一步顺序（REV-055，沿用逐阶段执行）
 
 | 顺序 | 已保存结果 | 下一步／边界 |
 |---|---|---|
 | 摄入与处理 | 唯一阶段定稿及逐行语义分析已保存 | 仅在发现来源缺页或错页时回退 |
 | 知识元登记 | 298个有效对象，剩余线索均有处置与交接 | 补证不另建同对象副本 |
-| 对齐 | 298项均有结论；168项身份配对通过 | 130项未确认；补足中按证据继续消歧 |
-| 补足 | 详细内容覆盖169/298（既有12＋本轮157）；123个WP对象／候选页全文已读 | 继续处理129卡；已处理对象也保留具体未决项 |
-| 关系 | 已有173条正式关系保留 | 补足收口后集中审查端点、方向、类型和具体证据 |
+| 对齐 | 298项均有结论；172项身份配对通过 | 126项未确认均有消歧或检索后边界 |
+| 补足 | 覆盖298/298；193个WP对象／候选页全文已读；来源定位1594条 | 已收口；具体未知和争议随卡进入后续证据更新 |
+| 关系 | 已有173条正式关系保留 | 下一步集中审查端点、方向、类型和具体证据，并评估新增事实支持的关系 |
 
-每步保留必要依据与未决项，定稿沿固定路径更新；前一步尚未收口时不并行扩展后一步。第六章、知识发现／涌现及页面仍后置。REV-052 正在执行的研究成果和 REV-049 后续系统维护均为本地改动，尚未提交推送。
+每步保留必要依据与未决项，定稿沿固定路径更新。第六章、知识发现／涌现及页面仍后置；下一业务步骤是第一章关系阶段。

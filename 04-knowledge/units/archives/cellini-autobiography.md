@@ -1,9 +1,9 @@
 ---
-title: "切利尼自传（本章引用）（Cellini's Autobiography (as cited in chapter 1)）"
-name_en: "Cellini's Autobiography (as cited in chapter 1)"
+title: "本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellini）"
+name_en: "The Life of Benvenuto Cellini"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/benvenuto-cellini.md","note":"本章明确引用 Cellini 的自传。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 634–635; print pp. 16"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,34 +16,41 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 634–635; print pp. 16
 - citation: "Wikipedia (it), Vita (Benvenuto Cellini), revision 151158550. https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini). Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "意大利语 Vita 指 Cellini 自传这一著作；英文 Autobiography 重定向到作者，已排除。通过仅限著作层，不确定 Haskell 所用版次。"
+  location: "全文；7175 字符；revision 151158550"
+  sentence_summary: "全文说明该自传1558年至1566年11月间写作、很大部分口述，1728年由Antonio Cocchi首次刊印；原稿1805年重现于佛罗伦萨Biblioteca Medicea Laurenziana，并概述编辑史、内容目的和代表性版本。"
 - citation: "Wikidata, Q4014886, revision 2379066146. https://www.wikidata.org/wiki/Q4014886. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 itwiki sitelink；判断范围见正文"
-  sentence_summary: "意大利语 Vita 指 Cellini 自传这一著作；英文 Autobiography 重定向到作者，已排除。通过仅限著作层，不确定 Haskell 所用版次。"
+  sentence_summary: "Q4014886与意大利语页面双向一致；采用有GND参考的作者Cellini、1728年出版时间、意大利语和自传体裁字段，未采用无来源或不适用字段。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Haskell 用其叙事作艺术家异常行为得到宽容的参照；没有在本章列版本，暂不填出版年。
+**中文：** 《生平》是本韦努托·切利尼于1558年至1566年11月间撰写、很大部分以口述完成的意大利语自传，1728年首次刊印。它以艺术家自身的事业、作品、冲突和自我辩护为中心；Haskell 将其中的行为叙事作为社会对卓越艺术家异常举止较为宽容的参照，但没有说明所用版本。（S1–S3）
 
-**English:** Haskell uses this narrative as a reference for tolerance of exceptional artistic behaviour. The chapter specifies no edition, so no publication year is assigned.
+**English:** The Life is Benvenuto Cellini's Italian autobiography, written from 1558 to November 1566, much of it by dictation, and first printed in 1728. It centres on the artist's career, works, conflicts, and self-defence. Haskell uses its narrative as a reference for tolerance of exceptional artistic behaviour but does not identify the edition he consulted. (S1–S3)
 
 ### 已有信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Cellini's Autobiography (as cited in chapter 1) | S1；标题中的语境说明为登记用语 |
-| 作者与版本 | Benvenuto Cellini；本章未列具体版本 | S1，支持范围见各条句意摘要 |
+| 原题／通行简称 | *La Vita di Benvenuto di Maestro Giovanni Cellini fiorentino, scritta, per lui medesimo, in Firenze*；简称 *Vita*／*La vita* | S2导言 |
+| 作者 | Benvenuto Cellini | S2；S3 P50（有GND参考） |
+| 类型／语言 | 自传；意大利语 | S2；S3 P136、P407（有GND参考） |
+| 写作时间 | 1558年至1566年11月；很大部分以口述完成 | S2“Storia editoriale” |
+| 首次刊印 | 1728年，Antonio Cocchi主持刊印；刊地标作Colonia，页面提示可能是避审查的泛称 | S2“Storia editoriale”；S3 P577仅支持年份 |
+| 手稿流转 | 作者去世后经继承人、Cavalcanti家族；1691年属Francesco Redi并制作副本；1805年原稿重现于佛罗伦萨Biblioteca Medicea Laurenziana | S2“Storia editoriale” |
+| 早期翻译 | Thomas Nugent 英译（1771）；Goethe 德译（1796） | S2“Storia editoriale” |
+| 内容与立场 | 以艺术家实现抱负和天才、作品制作及困难为核心，同时具有自我辩护目的；作者的取舍与个人好恶须作为叙述立场审读 | S2“Contenuti” |
+| 本章使用边界 | Haskell仅以自传叙事作论述参照，未列具体版本；本卡不把1728首刊自动当作Haskell所用本 | S1–S2 |
 
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
 ### 初步对齐（REV-034，2026-09-10）
 
-**身份配对通过。** 意大利语 Vita 指 Cellini 自传这一著作；英文 Autobiography 重定向到作者，已排除。通过仅限著作层，不确定 Haskell 所用版次。
+**身份配对通过并完成全文补足。** [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) revision 151158550 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致。全文已读；Wikidata 仅接收带参考的作者、首次出版年份、语言与体裁，页面的编辑史和内容分析不冒充对 Haskell 所用版次的证明。
 
 [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) 的 wikibase_item 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
@@ -51,8 +58,8 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 16；OCR L634–635。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1：第一章；印刷页16；OCR L634–635。S2：Wikipedia（it）全文，revision 151158550，7175字符。S3：Wikidata Q4014886 revision 2379066146；所采P50、P577、P407、P136均带GND来源组。Wikimedia两者用于身份与通用书目信息，作为同一来源组，不计为两份独立事实证据。
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** Wikipedia–Wikidata 双向身份核对、页面全文阅读和适用结构字段提取均已完成；补齐原题、作者、语言、体裁、写作期、首刊、手稿流转、早期翻译、内容立场与版本边界。未识别 Haskell 所用具体版本，因此只保留该项明确缺口。

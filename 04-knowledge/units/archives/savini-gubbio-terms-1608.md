@@ -4,7 +4,7 @@ name_en: "Published Terms for Savini's Gubbio Commission (1608)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/saverio-savini.md","note":"条款所约束画家为 Savini，不借其他实例补全文本。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 321–322; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 321–322; print pp. 9
+- citation: 'Michelangelo Gualandi, Memorie originali risguardanti le Belle Arti, vol. IV (Bologna, 1840–1845), p. 60, as cited by Haskell.'
+  location: Haskell给出的刊布链；本轮未直接取得Gualandi原页
+  sentence_summary: 仅确认卷页与1608年Gubbio／Savini定位；不移植相邻案例的条款内容。
 ---
 
 ## 内容
@@ -36,6 +39,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 委托条款的后出刊录 | S1 |
+| 执行者 | Saverio Savini | S1 |
+| 地点／日期 | Gubbio；1608 | S1 |
+| 刊布链 | Michelangelo Gualandi, *Memorie originali risguardanti le Belle Arti*, vol.IV, p.60 → Haskell | S1–S2 |
+| 当前可支持范围 | 该时地存在与Savini委托相关的条款，Haskell将其作为按人物数量影响价格的例证来源 | S1；本章未转录条款 |
+| 不可补写 | 委托方、具体题材、人物数量、金额、期限、材料和验收均无可读原文支持 | 语义裁决 |
+| 未决载体 | Gualandi原页、原档、档号和签署形态未取得 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -50,4 +63,4 @@ S1：第一章；印刷页 9；OCR L321–322。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已将对象限定为1608年Gubbio委托条款的刊录，补齐刊布链、可支持范围与不可补写字段。公开检索未取得Gualandi原页或原档，因此保留明确的来源不可达结论，不强配QID。

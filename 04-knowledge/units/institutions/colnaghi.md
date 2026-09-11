@@ -3,7 +3,7 @@ title: "科尔纳吉画廊（Colnaghi's）"
 name_en: "Colnaghi's"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/london.md","note":"书中所记 1961 年画商目录所在地。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -21,24 +21,45 @@ sources:
 - citation: "Wikidata, Q5147759, revision 2534621132. https://www.wikidata.org/wiki/Q5147759. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "伦敦艺术经销机构，英文规范名 P. & D. Colnaghi & Co.；不是某次图录。"
+- citation: "Wikipedia (en), P. & D. Colnaghi & Co., revision 1362648719. https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.. Accessed 2026-09-11."
+  location: "全文：创办、合伙人、版画与古代大师业务、近现代沿革、档案及书目；不含外链全文"
+  sentence_summary: "补足1760年以来巴黎与伦敦业务、名称和合伙关系变化、版画出版到古代大师交易的转向及档案归属。"
+- citation: "Wikidata Q5147759, revision 2534621132. https://www.wikidata.org/wiki/Q5147759. Accessed 2026-09-11."
+  location: "P31／P571／P159／P17／P127／P856及rank、限定词、引用、enwiki sitelink"
+  sentence_summary: "1760和伦敦总部字段有引用；所有权字段仅记2001年后Konrad Bernheimer，不能代表现状。"
+- citation: "Colnaghi, About. https://www.colnaghi.com/index.php/about. Accessed 2026-09-11."
+  location: "机构历史全文"
+  sentence_summary: "机构自述1760年巴黎创办、1767年伦敦分店、1785年Paul Colnaghi加入及后续画商业务沿革。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章通过科尔纳吉画廊 1961 年 5–6 月图录第 2 号定位 Sacchi 的罗马 Capuchin 教堂祭坛稿。这里登记画商／画廊机构，与图录和作品分开；目录信息不单独证明已经售出。
+**中文：** 科尔纳吉是1760年起源于巴黎、1767年进入伦敦的艺术经销与出版机构，19世纪以版画业务著称，19世纪末后逐渐成为古代大师绘画与素描的重要经销商。第一章以其1961年5—6月第2号图录定位萨基祭坛稿；机构、该期图录和具体作品分别建卡，图录出现不自动证明成交。（S1、S4、S6）
 
-**English:** Haskell identifies Sacchi's altarpiece modello for a Roman Capuchin church with Colnaghi's catalogue of May–June 1961, number 2. This is a dealer or gallery institution, distinct from the catalogue and painting.
+**English:** Colnaghi is an art-dealing and publishing business founded in Paris in 1760 and established in London in 1767. Known first for prints, it became a major dealer in Old Master paintings and drawings from the late nineteenth century onward. Chapter 1 uses its May–June 1961 catalogue no. 2 to identify Sacchi's altarpiece modello; the firm, catalogue and object remain distinct entities. (S1, S4, S6)
 
-### 已有信息
+### 名称与机构信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Colnaghi's | S1；标题中的语境说明为登记用语 |
-| 目录线索 | 1961 年 5–6 月，第 2 号；不据目录推定已售 | S1，支持范围见各条句意摘要 |
+| 规范名 | Colnaghi；历史法人／商号 P. & D. Colnaghi & Co.；本章简称 Colnaghi's | S1、S4、S6 |
+| 性质 | 艺术经销商、画廊与历史上的版画出版／经销机构 | S4–6 |
+| 起源 | 1760年Giovanni Battista Torre在巴黎设店；1767年其子Anthony Torre在伦敦开设版画分店 | S4、S6 |
+| Paul Colnaghi加入 | 1784年受聘管理巴黎店，1785年来伦敦；后与多名合伙人经营，商号随合伙关系变化 | S4、S6 |
+| 业务转向 | 19世纪主要经营和出版版画；19世纪末以后扩大古代大师绘画交易，后形成重要素描业务 | S4 |
+| 档案 | 商行档案现存Waddesdon Manor的Windmill Hill Archives；Wikipedia称产权属Colnaghi Holding Ltd | S4 |
+| 本章目录 | 1961年5—6月，第2号；仅为作品归属／流传线索，不据此推定出售 | S1 |
+| 所在地 | 第一章和WD均指伦敦；具体历史地址曾随时期多次变化，当前地址不回填1961年 | S1、S4–6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 机构沿革与市场角色
+
+- 1788年Anthony Torre退休后，机构曾以Molteno, Colnaghi & Co.经营；Paul Colnaghi及其子Dominic、Martin参与后又出现家族内部诉讼和业务分立。（S4）
+- 商行获摄政王、后来的George IV皇家认证，并曾协助整理皇家收藏；这一身份与每一笔具体销售须分证。（S4）
+- 19世纪中期机构出版克里米亚战争图像和早期摄影，并协助英国及法国艺术展览；这些业务说明其不仅经营绘画。（S4）
+- 19世纪末至20世纪，Colnaghi与Berenson、Knoedler等合作，为欧美收藏家和博物馆经手古代大师作品；具体作品交易仍须逐件查provenance。（S4）
+- 1911年与Obach & Co.合并后短暂改名，1914年恢复P. & D. Colnaghi and Company；1937年改为有限公司，随后经历多次所有权和地址变化。（S4）
 
 
 ### 初步对齐（REV-034，2026-09-10）
@@ -51,8 +72,10 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 12；OCR L467–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次Wikipedia全文；S5为WD字段核对；S6为机构自述历史。机构自述和Wikipedia对细节依赖各自来源，本轮未把其列举的每项交易当作独立验证。
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续补足规范名／别名、组织性质、成立与变更、驻地、职责、成员或管理者、历史沿革及研究来源。家户、宗教团体、政府、馆藏机构按实际对象区分，不默认现代法人身份。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) ↔ [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759)双向身份核对继续通过。WD的1760成立与伦敦总部字段有来源，当前所有权、现址及法人连续性没有通过WD完整建立。1961年第2号图录的完整书目信息、萨基作品条目全文、成交与否以及现藏地仍待实物目录或馆藏档案，不能由机构通史补齐。

@@ -3,7 +3,7 @@ title: "兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfr
 name_en: "Lanfranco's Request for the Pope Leo and Attila Commission (1640)"
 type: event
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/giovanni-lanfranco.md","note":"申请人为 Lanfranco；只证明提出申请。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 408–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,24 +16,40 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 408–425; print pp. 11
+- citation: "Erich Schleier, LANFRANCO, Giovanni, Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "1640-07-14请求段全文及相关书目；传记其他相关生平段此前已读"
+  sentence_summary: "传记确认收件人为主持Fabbrica会众的Francesco Barberini、目标为圣彼得大殿圣良祭坛画、Lanfranco作过若干钢笔稿且未获委托。"
+- citation: "Oskar Pollak, Die Kunsttätigkeit unter Urban VIII, vol. II, Die Peterskirche in Rom (Vienna, 1931), p. 26."
+  location: "由第一章注释核得书目与页码；原页未读"
+  sentence_summary: "1640-07-14那不勒斯来信的引文入口，不作为第二份已读证据。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1640-07-14 从 Naples 致信 Cardinal Barberini 申请圣彼得祭坛画，主动提议示画布构图以说明难度；申请不等于已经获准、完成。
+**中文：** 1640年7月14日，兰弗兰科从那不勒斯致信时任圣彼得营造会众主持者弗朗切斯科·巴贝里尼，请求承接圣彼得大殿圣良祭坛的《教皇利奥与阿提拉》。他已作若干钢笔构图并提议以画布方案说明构图难度，但最终没有获得委托；申请、方案和授予结果必须分开。（S1、S2）
 
-**English:** On 14 July 1640, Lanfranco writes from Naples to Cardinal Barberini requesting the St Peter's altarpiece commission and offers a composition on canvas to explain its difficulties. The request does not establish approval or completion.
+**English:** On 14 July 1640, Lanfranco wrote from Naples to Francesco Barberini, then presiding over the Fabric congregation, seeking the altarpiece of Pope Leo and Attila for St Peter's. He had made several pen studies and proposed a composition on canvas to explain the difficulty, but did not receive the commission. Request, design and award outcome remain distinct. (S1, S2)
 
-### 已有信息
+### 事件字段
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Lanfranco's Request for the Pope Leo and Attila Commission (1640) | S1；标题中的语境说明为登记用语 |
-| 时间地点 | 1640-07-14；Naples；申请而非已获准 | S1，支持范围见各条句意摘要 |
+| 名称性质 | 本项目描述性事件名，不是信件原题 | S1 |
+| 日期／发信地 | 1640-07-14；Naples | S1、S2 |
+| 申请人 | Giovanni Lanfranco | S1、S2 |
+| 收件人 | Cardinal Francesco Barberini；不是小Antonio | S2 |
+| 收件人职务语境 | preside della congregazione della Fabbrica di S. Pietro | S2 |
+| 目标委托 | 圣彼得大殿圣良礼拜堂／祭坛的《教皇利奥与阿提拉》祭坛画；原受托人Giuseppe Cesari于1640年去世 | S2 |
+| 已做准备 | 若干钢笔素描；拟以“in tela il disegno”展示构图与困难 | S1、S2 |
+| 结果 | 未获委托；不能把后来同题作品算作Lanfranco完成品 | S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 事件过程与后续边界
+
+第一章以此说明重要祭坛画也不一定强制提交modello，Lanfranco展示画布构图的建议来自画家本人。Schleier传记补足申请对象、收件人和失败结果；两条已读来源都沿用同一封信及后续研究链，不能算两份独立原始证据。（S1、S2）
+
+1646年后Fabbrica把同题任务交给Alessandro Algardi并形成1646—1653年的大理石浮雕，这属于后续不同委托、媒介和作者。本卡不把该浮雕建立为Lanfranco作品，也不以其完成反推1640申请已批准。
 
 
 ### 初步对齐（REV-034，2026-09-10）
@@ -46,8 +62,10 @@ sources:
 
 ## 关系与证据
 
-S1：第一章；印刷页 11；OCR L408–425。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1为第一章章页／行号；S2为DBI传记相关段；S3仅为第一章注释所指未读原页。文件头2条正式关系保留；Francesco Barberini、Fabbrica和St Peter's是有据候选端点，待关系阶段与现有卡核对后决定。
 
 文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续补足确切时段、地点、参与者、事件经过、结果与后续变化；计划、规定、实施和撤回分别核实，不因标题带年份推定全过程发生于同年。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 对齐与未决项
+
+该申请事件无独立Wikipedia—Wikidata对象，人物和后来的Algardi作品QID都不能代替事件身份。原信全文、钢笔稿现藏与数量、画布方案是否实际制作、评审过程及不授予理由仍待Pollak原页、Fabbrica档案与素描目录。

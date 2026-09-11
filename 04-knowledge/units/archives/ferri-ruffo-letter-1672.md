@@ -3,7 +3,7 @@ title: "奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter fro
 name_en: "Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/ciro-ferri.md","note":"书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 974–978; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 974–978; print pp. 23
+- citation: 'Maria Concetta Calabrese, “Ruffo, Antonio,” Dizionario Biografico degli Italiani, vol. 89 (2017), Treccani. https://www.treccani.it/enciclopedia/antonio-ruffo_(Dizionario-Biografico)/. Accessed 2026-09-11.'
+  location: 收藏与通信段；全文阅读
+  sentence_summary: 确认Vincenzo Ruffo刊布的通信集范围及其1916出版信息。
+- citation: 'Vincenzo Ruffo, “La galleria Ruffo nel secolo XVII in Messina,” Bollettino d’Arte 10 (1916), p. 298, as cited by Haskell.'
+  location: Haskell给出的具体页码；本轮未直接读该页
+  sentence_summary: 作为具体信件刊布链；引句按Haskell完整上下文保留。
 ---
 
 ## 内容
@@ -36,6 +42,16 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
 
 
+### 补足字段（REV-055，2026-09-11）
+
+| 文献类型 | 艺术家致收藏家的委托通信 | S1 |
+| 作者／受文人 | Ciro Ferri → Antonio Ruffo | S1 |
+| 日期 | 1672-09-19 | S1 |
+| 核心陈述 | Ferri称自己惯常不收预付款，以保持自由 | S1 |
+| 必须连读的限定 | 紧接着说明事务繁多，并归荣耀于上帝；不能只摘“自由”塑造现代自治宣言 | S1 |
+| 刊布链 | Vincenzo Ruffo 1916, p.298 → Haskell；Ruffo刊布共182封1646–1673年通信 | S1–S2 |
+| 未决载体 | 原语全文除引句外、原件、档号、署地及具体委托对象未取得 | 本轮检索结论 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
@@ -50,4 +66,4 @@ S1：第一章；印刷页 23；OCR L974–978。编号按文件头 sources 顺�
 
 文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成通信身份、日期、核心陈述、限定语和刊布链的结构化。拒收预付款不能脱离“事务繁多”的后句解释；原件、档号与具体委托对象尚未取得，明确保留。

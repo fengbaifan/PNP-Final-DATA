@@ -476,3 +476,35 @@ Maratta卡采用Wikipedia与DBI一致的1625年5月18日，保留Wikidata并存�
 DBI支持1649—1650年与Antonio Ruffo密集通信、两项付款和拟议委托，卡内已加入Ruffo及活动地点KU的可点击导航。第一章本身只引信件为价格研究线索，没有具体金额；补足阶段未新增正式边，也未把通信、委托、付款、作品和赞助合成单一关系。原信、作品端点与金额待后续作品级补证及集中关系审查。
 
 英文Wikipedia抽取正文47316字符并完整阅读；DBI正文与书目、National Gallery艺术家传记均读完，所引原档与研究著作未冒称已读。写入前后SHA256及采用范围已记enrichment-evidence.jsonl；校验时另将Vasalli文献采集记录中误落为物理换行的书目文本转义回单行JSON，原文字段与语义未改，并追加record_repair说明。卡片YAML、旧来源前缀、链接和关系一致性纳入本轮必要检查。下一步继续处理尚无详细稿的129卡。
+
+### REV-055：剩余129卡连续补足——机构组
+
+完成6张机构卡的语义补足，新增20条来源，详细覆盖由169/298增至175/298，尚余123卡。Wikipedia对象／候选页全文新增6页：Apostolic Camera 7285、P. & D. Colnaghi & Co. 11881、Fabric of Saint Peter 2217、Pinacoteca vaticana 23496、Victoria and Albert Museum 89713、Oratorio di San Giovanni Battista dei Fiorentini 1411字符；累计129页（120英文、9意大利文）。五个原有机构配对仍为168项通过总数的一部分，未新增确认配对或正式关系。
+
+博洛尼亚善会由Haskell、Stefani所引1682-09-28合同及地方政府文化页面的艺术家／题材／礼拜堂语境，规范为Confraternita di San Giovanni dei Fiorentini。意大利语会址页与WD Q28229297双向互链，但P31为former church building／church building，明确排除其作为善会机构QID；没有把建筑与团体合并。完整章程、成立年、成员与法人沿革继续待原档。
+
+宗座财务院约1100年WD成立值无引用，不写成确定创设日；Colnaghi的1760、1767、1785节点与1961具体图录分开；Fabbrica官网从1506年工程起点叙述，Wikipedia以1523年委员会为组织节点，WD 1908与两者冲突，三者并列不强合。Pinacoteca的1790收藏、1817公共画廊及1932专馆分别记录；V&A的1852、1857、1899名称／迁址节点分开，机器人限制下未取得单件Baker胸像官方目录，不虚构馆号与现陈列。
+
+6卡旧来源、evidence_status与既有正式关系均保留；YAML、相对链接和enrichment-evidence.jsonl逐行解析通过。写入前后SHA256、全文版本和阅读长度已追加同包evidence。当前继续下一组，未进入集中关系审查。
+
+#### 事件组三卡
+
+圭尔奇诺1665图像询问、兰弗兰科1640委托申请、萨基1640家户晋级三卡已收口，新增6条来源；覆盖178/298，来源定位1415条，Wikipedia全文计数不变。具体事件不以参与者或后来作品QID代替，三卡均保留无配对。
+
+Zeri条目57026全文已读，支持圭尔奇诺祭坛画1665年、末知Messina Chiesa di S. Gregorio及1908毁失；其题材列Saint Albert of Jerusalem，与第一章Saint John the Baptist异文并存。Schleier的Lanfranco传记相关段确认收件人为主持Fabbrica会众的Francesco Barberini、目标为圣良祭坛，并明确画家未获委托；申请与后来Algardi同题浮雕不合并。Sacchi方面核到Incisa della Rocchetta 1924文章DOI，但正文页面仍受验证阻断；检索索引转录的BAV Arch. Barberini III, 9, n. XIV只支持1637低等级名单，原PDF链接404，不能升级为1640晋级独立外证。
+
+三卡旧来源和5条既有正式关系保留；YAML、相对链接及evidence JSONL通过。萨基卡以“完成可达检索并明确未决结论”计本阶段处置，不写成全部事实获证。
+
+### REV-055：剩余129卡对齐与补足收口
+
+本轮按机构、事件、文献／档案、人物、地点、术语、作品顺序，原位完成剩余129张卡：archive 23、event 3、institution 6、person 54、place 20、term 6、work 17。未新建知识元、来源文献或发现层级。详细补足或有明确检索后未决结论的处置由169/298推进到298/298；全章来源定位由1389条增至1594条，正式关系仍为173条。
+
+129卡中69卡完成Wikipedia全文与Wikidata完整实体的双向身份核对；本轮新读70个Wikipedia对象／候选页（62英文、7意大利文、1德文），全章累计193页（178英文、14意大利文、1德文）。其余对象包括单封书信、合同、事件、分析术语、未定名作品、争议稿组和仅由称号指代的人物；这些对象完成英文优先、适用原语回退及权威目录定向检索后，按“无独立条目／粒度不一致／身份冲突／原件未得”分别记录，不借相关人物、作品、建筑或机构QID。
+
+本轮新增确认四个人物身份：G. L. Bianconi由1762年刊本信解除为Giovanni Ludovico Bianconi；Piola书信中的Giovanni Adamo由刊本爵号、年代及官方王室资料确认作Johann Adam Andreas I von Liechtenstein；驻罗马的Marchese del Carpio确认作Gaspar Méndez de Haro；Piola的Marchese Pallavicini确认作Niccolò Maria Pallavicini。全章配对由168增至172，126项保持未确认。其中Berlingero Gessi与Jacopo Salviati的既有候选因死亡年代冲突继续明确排除；Thomas Baker消歧义页不能代替人物；Alessandro Vasalli和授Giuseppe Ghezzi荣衔的帕尔马公爵保留“已处理但身份未解决”。
+
+作品补足将章内描述与馆藏／研究对象连接：Valentin的风俗画定位为列支敦士登王室收藏《有算命人的音乐聚会》；Rubens 1606年Chiesa Nuova委托定位到格勒诺布尔现藏第一版祭坛画；Albani、Ferri、Gavasetti、Guercino及Ricci对象补入规范题名、时间、位置或失佚状态。Cortona稿组归属、Guercino图像角色异文、Lanfranco库存稿、1635年未定名喜剧和Barberini所谓稿本继续按争议或未知状态保存，没有为收口改写证据等级。
+
+术语只补章内操作性定义、原语、发言者／作者归责和排除边界，不将artistic independence、artistic temperament或inspiration预置为Topic／Theme。Wikidata字段保留rank、限定信息及有无引用状态；未列字段不解释为对象没有该属性。129条语义应用记录含写入前后SHA256、来源增量、全文阅读范围、QID状态与裁决，其中9条早期记录和120条收口记录共同构成本次完整证据集。
+
+本阶段完成的是第一章298个知识元的对齐与补足处置，**不表示每个未知事实已被解决，也不表示关系阶段已经重做**。所有未决项已落在对应卡的具体字段；下一步依工作流集中审查173条既有正式关系及新增事实可能支持的关系，知识涌现、Topic／Theme／Dimension／Domain和页面仍暂停。

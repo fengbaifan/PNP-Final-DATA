@@ -3,7 +3,7 @@ title: "尼古拉·普桑（Nicolas Poussin）"
 name_en: "Nicolas Poussin"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_work","target":"works/poussin-spring-valguarnera.md","note":"接受另订《春》的画家；不由此证明成品现存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -28,6 +28,12 @@ sources:
 - citation: "Wikidata, Q41554, revision 2533435644. https://www.wikidata.org/wiki/Q41554. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1594–1665 年在罗马活动的法国画家 Nicolas Poussin；与 Dughet 区分。"
+- citation: "Wikipedia (en), Nicolas Poussin, revision 1370684443. https://en.wikipedia.org/wiki/Nicolas_Poussin Accessed 2026-09-11."
+  location: "全文38035字符；章节：Biography、Early years – Les Andelys and Paris、First residence in Rome (1624–1640)、Return to France (1641–42)、Final years in Rome (1642–1665)、Subjects、Religion、Mythology and classical literature、Poetry and allegory、Landscapes and townscapes、Style and method、Legacy"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q41554, revision 2533435644. https://www.wikidata.org/wiki/Q41554. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -50,6 +56,25 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+**语义摘要：** 法国古典主义画家，职业核心在罗马；页面涵盖法国训练、罗马赞助、短暂返法、晚期作品、理论与影响。与Gaspard Dughet及其别名Gaspard Poussin严格区分。
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Nicolas Poussin（en）；revision 1370684443；38035字符 | 全文覆盖：Biography、Early years – Les Andelys and Paris、First residence in Rome (1624–1640)、Return to France (1641–42)、Final years in Rome (1642–1665)、Subjects、Religion、Mythology and classical literature、Poetry and allegory、Landscapes and townscapes、Style and method、Legacy |
+| Wikidata身份 | [Q41554](https://www.wikidata.org/wiki/Q41554)；与enwiki标题双向一致 | revision 2533435644；只采用下列适用字段 |
+| 性别 | 男 | Wikidata P21；有参考 |
+| 出生日期 | 1594-06 | Wikidata P569；有参考 |
+| 去世日期 | 1665-11-19 | Wikidata P570；有参考 |
+| 出生地 | 莱桑德利 | Wikidata P19；有参考 |
+| 去世地 | 罗马 | Wikidata P20；有参考 |
+| 国籍／公民身份 | 法蘭西王國；法國 | Wikidata P27；有参考 |
+| 身份／职业标签 | 畫家；平面设计师；建筑绘图员；視覺藝術家 | Wikidata P106；有参考 |
+| 配偶 | Anne-Marie Dughet | Wikidata P26；未列参考 |
+| 代表作 | Et in Arcadia ego；The Inspiration of the Poet；Landscape during a Thunderstorm with Pyramus and Thisbe；The Four Seasons；Seven Sacraments；The Victory of Joshua over the Amorites；The lamentation over the dead Christ | Wikidata P800；有参考；未列参考 |
+| 艺术或思想运动 | 古典主義 | Wikidata P135；有参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 1594–1665 年在罗马活动的法国画家 Nicolas Poussin；与 Dughet 区分。
@@ -64,4 +89,4 @@ S1：第一章；印刷页 10；OCR L373–374；S2：第一章；印刷页 15�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

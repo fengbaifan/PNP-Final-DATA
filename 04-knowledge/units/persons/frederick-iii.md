@@ -3,7 +3,7 @@ title: "皇帝腓特烈三世（Frederick III）"
 name_en: "Frederick III"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/gentile-bellini.md","note":"本章脚注记授予 Count Palatine，未给日期。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–800; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -21,6 +21,12 @@ sources:
 - citation: "Wikidata, Q150966, revision 2528994406. https://www.wikidata.org/wiki/Q150966. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "十五世纪神圣罗马皇帝，与 Gentile Bellini 的时代和皇帝称谓相符。"
+- citation: "Wikipedia (en), Frederick III, Holy Roman Emperor, revision 1371534850. https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor Accessed 2026-09-11."
+  location: "全文22252字符；章节：Early life、Personality、Emperor、Patronage of the arts、Legacy、Marriage and children、Death、Heraldry、Male-line family tree、References、Bibliography、External links"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q150966, revision 2528994406. https://www.wikidata.org/wiki/Q150966. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -41,6 +47,28 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+**语义摘要：** 已读取人物页全文；本卡只接收与身份、生平、职业和本章语境有关的字段。
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Frederick III, Holy Roman Emperor（en）；revision 1371534850；22252字符 | 全文覆盖：Early life、Personality、Emperor、Patronage of the arts、Legacy、Marriage and children、Death、Heraldry、Male-line family tree、References、Bibliography、External links |
+| Wikidata身份 | [Q150966](https://www.wikidata.org/wiki/Q150966)；与enwiki标题双向一致 | revision 2528994406；只采用下列适用字段 |
+| 性别 | 男 | Wikidata P21；有参考 |
+| 出生日期 | 1415-09-21 | Wikidata P569；有参考 |
+| 去世日期 | 1493-08-19；1493-08-18 | Wikidata P570；有参考 |
+| 出生地 | 因斯布鲁克 | Wikidata P19；有参考 |
+| 去世地 | 林茨 | Wikidata P20；有参考 |
+| 国籍／公民身份 | 神聖羅馬帝國 | Wikidata P27；有参考 |
+| 身份／职业标签 | 統治者；mint lord | Wikidata P106；有参考；未列参考 |
+| 父亲 | 恩斯特 | Wikidata P22；未列参考 |
+| 母亲 | 辛巴卡·馬索維卡 | Wikidata P25；未列参考 |
+| 配偶 | 葡萄牙的莉奥诺 | Wikidata P26；有参考 |
+| 子女 | 馬克西米利安一世；奧地利的庫妮君德；Christof von Habsburg；Helene von Habsburg；Johann von Habsburg | Wikidata P40；有参考；未列参考 |
+| 成员身份 | Confraternity of the Rosary | Wikidata P463；未列参考 |
+| 荣誉／奖项 | Knight of the Order of the Golden Fleece；金薔薇 (榮譽)；Knight in the Order of the Holy Sepulchre；Knight of the Garter | Wikidata P166；有参考；未列参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 十五世纪神圣罗马皇帝，与 Gentile Bellini 的时代和皇帝称谓相符。
@@ -55,4 +83,4 @@ S1：第一章；印刷页 19；OCR L799–800。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

@@ -3,7 +3,7 @@ title: "弗朗切斯科·巴贝里尼（Francesco Barberini）"
 name_en: "Francesco Barberini"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 694–696; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -21,6 +21,12 @@ sources:
 - citation: "Wikidata, Q534683, revision 2522316305. https://www.wikidata.org/wiki/Q534683. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1597–1679 年 Urban VIII 侄辈枢机，Antonio 的兄长；排除同姓其他世代。"
+- citation: "Wikipedia (en), Francesco Barberini (1597–1679), revision 1361831714. https://en.wikipedia.org/wiki/Francesco_Barberini_(1597%E2%80%931679) Accessed 2026-09-11."
+  location: "全文9004字符；章节：Life、Career、Patronage、Palazzo Barberini、Churches、Episcopal succession、Notes、References、Further reading、External links"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q534683, revision 2543537538. https://www.wikidata.org/wiki/Q534683. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -43,6 +49,23 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+**语义摘要：** 1597–1679年的枢机、Urban VIII侄子、外交官与赞助人；页面涵盖教廷任职、外交、流亡与文化资助。1640 Lanfranco请愿已由DBI明确指向他。
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Francesco Barberini (1597–1679)（en）；revision 1361831714；9004字符 | 全文覆盖：Life、Career、Patronage、Palazzo Barberini、Churches、Episcopal succession、Notes、References、Further reading、External links |
+| Wikidata身份 | [Q534683](https://www.wikidata.org/wiki/Q534683)；与enwiki标题双向一致 | revision 2543537538；只采用下列适用字段 |
+| 性别 | 男 | Wikidata P21；有参考 |
+| 出生日期 | 1597-09-23 | Wikidata P569；有参考 |
+| 去世日期 | 1679-12-10 | Wikidata P570；有参考 |
+| 出生地 | 佛罗伦萨 | Wikidata P19；有参考 |
+| 去世地 | 罗马 | Wikidata P20；未列参考 |
+| 身份／职业标签 | Catholic priest；專員；法学家 | Wikidata P106；有参考；未列参考 |
+| 父亲 | 卡羅·巴貝里尼 | Wikidata P22；未列参考 |
+| 教育／训练机构 | 比萨大学 | Wikidata P69；有参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 1597–1679 年 Urban VIII 侄辈枢机，Antonio 的兄长；排除同姓其他世代。
@@ -57,4 +80,4 @@ S1：第一章；印刷页 17；OCR L691–696。编号按文件头 sources 顺�
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

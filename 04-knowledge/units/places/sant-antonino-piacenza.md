@@ -3,7 +3,7 @@ title: "皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）"
 name_en: "S. Antonino, Piacenza"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/piacenza.md","note":"教堂名称与城市在委托事例中明确并列定位。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 323–326; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -28,6 +28,12 @@ sources:
 - citation: "Wikidata, Q1670729, revision 2488491810. https://www.wikidata.org/wiki/Q1670729. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "皮亚琴察圣安托尼诺堂，符合 Gavasetti 壁画所在地。"
+- citation: "Wikipedia (en), Sant'Antonino, Piacenza, revision 1341776021. https://en.wikipedia.org/wiki/Sant'Antonino,_Piacenza Accessed 2026-09-11."
+  location: "全文1454字符；章节：Description、References"
+  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
+- citation: "Wikidata, Q1670729, revision 2488491810. https://www.wikidata.org/wiki/Q1670729. Accessed 2026-09-11."
+  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
+  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
 ---
 
 ## 内容
@@ -48,6 +54,17 @@ sources:
 规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
 
 
+### 本轮结构化补足（REV-055，2026-09-11）
+
+| 字段 | 当前值 | 依据／状态 |
+|---|---|---|
+| Wikipedia全文 | Sant'Antonino, Piacenza（en）；revision 1341776021；1454字符 | 全文覆盖：Description、References |
+| Wikidata身份 | [Q1670729](https://www.wikidata.org/wiki/Q1670729)；与enwiki标题双向一致 | revision 2488491810；只采用下列适用字段 |
+| 对象类型 | 乙级宗座圣殿；博物馆建筑 | Wikidata P31；有参考；未列参考 |
+| 国家／历史政治归属 | 意大利 | Wikidata P17；未列参考 |
+| 行政位置 | 皮亚琴察 | Wikidata P131；未列参考 |
+| 成立／建造时间 | 1000-00-00 | Wikidata P571；有参考 |
+
 ### 初步对齐（REV-034，2026-09-10）
 
 **身份配对通过。** 皮亚琴察圣安托尼诺堂，符合 Gavasetti 壁画所在地。
@@ -62,4 +79,4 @@ S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；
 
 文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

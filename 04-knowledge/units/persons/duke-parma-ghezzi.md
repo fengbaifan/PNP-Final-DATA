@@ -52,4 +52,4 @@ sources:
 
 S1：第一章，印刷页19，OCR L770–773。S2为Giuseppe DBI全文；S3为Pier Leone DBI受衔段选读。二者支持消歧，不支持本公爵新增生平事实。
 
-文件头1条指向[Giuseppe Ghezzi](../persons/giuseppe-ghezzi.md)的既有关系保留；其对象仍是本章未具名公爵，不合并到猜测人名。当前为**已处理但身份未解决**，本轮不计详细外部生平补足，status仍为source_backed；阻断依赖具体公爵身份的新字段和关系。
+文件头1条指向[Giuseppe Ghezzi](../persons/giuseppe-ghezzi.md)的既有关系保留；其对象仍是本章未具名公爵，不合并到猜测人名。本轮已完成可达范围内的对齐与补足处置，当前结论为**已处理但身份未解决**；status仍为source_backed，并阻断依赖具体公爵身份的新字段和关系。
