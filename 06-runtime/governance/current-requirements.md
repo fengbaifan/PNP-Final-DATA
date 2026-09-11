@@ -1,6 +1,6 @@
 # 当前有效要求索引
 
-更新依据：REV-032（2026-09-09）。用户原话及演变保留在 [user-revisions.md](user-revisions.md)；本文件只定位有效要求与规则，不复制研究报告或完整实施历史。
+更新依据：REV-056（2026-09-11）。用户原话及演变保留在 [user-revisions.md](user-revisions.md)；本文件只定位有效要求与规则，不复制研究报告或完整实施历史。
 
 | 编号 | 当前要求 | 原话依据 | 权威入口 |
 |---|---|---|---|
@@ -26,7 +26,7 @@
 | R-20 | 初始化项目不沿用过高版本 | REV-008 | 项目 0.1.0，规则不单独编号；既有机器格式版本与项目版本分开 |
 | R-21 | 当前只测试第一章，逐行语义阅读、处理断行跨页；第六章后置 | REV-013、014、015 | [第一章结果](../../04-knowledge/results/patrons-and-painters-chp-1.md) |
 | R-22 | archive 包含所有文献；城市/政体、建筑/作品按指称区分；类型不足和遗漏须记录 | REV-016 | [类型规则](../../01-domain/taxonomy-registry.md) |
-| R-23 | Wikipedia 先查英文，无对应条目时按对象背景回退相关语种；双向身份核对后提取 Wikidata 适用字段；完整阅读实际百科对象页后提取叙述，适用官方来源补证 | REV-017、027、028 | [verify](../../.agents/skills/verify/SKILL.md)、[enrich](../../.agents/skills/enrich/SKILL.md)；配对或全文阅读未完成如实记录 |
+| R-23 | 对齐与补足按实体类型选择专业数据库、规范记录、保管机构、数字化原件及研究来源；Wikipedia／Wikidata是有准确对象时采用的可选身份链，QID不作为全部实体完成条件。人物纳入国家人物辞典与档案记录，文献纳入联合目录、手稿目录和Internet Archive等可核版本全文 | REV-017、027、028、056 | [verify](../../.agents/skills/verify/SKILL.md)、[按类型来源](../../.agents/skills/verify/references/type-verification.md)、[enrich](../../.agents/skills/enrich/SKILL.md)；记录每个来源支持范围与阅读程度 |
 | R-24 | 标题与描述完整中英文对应，信件不混用外文人名与中文“致／信”；翻译不新增事实 | REV-018、028 | [元数据规则](../../.agents/skills/ingest/references/knowledge-unit-field-contract.md)、[内容规则](../../.agents/skills/ingest/references/body-template.md) |
 | R-25 | 统一元数据＋按类型的内容＋关系与证据；全名优先，记录结构化属性与历史变化 | REV-019、020 | 同上；适用缺口明确待补，不填造事实 |
 | R-26 | 全面核对入口与路径，落实渐进式读取和分布记录 | REV-022 | AGENTS 的渐进式读取与分布记录；pipeline 的阶段交接 |
@@ -35,7 +35,7 @@
 | R-29 | 从摄入与处理开始顺序收口，每阶段保存唯一当前定稿后清理过程，再交接下一阶段；不同时扩展未收口阶段 | REV-032 | pipeline 阶段收口规则；必要证据、裁决及用户原话保留，定稿不另建副本 |
 | R-30 | 增加 family 家族类，区分成员、支系与家户／随从组织；同姓不推定同族 | REV-035、036 | [类型规则](../../01-domain/taxonomy-registry.md)、ingest 内容与关系契约 |
 | R-31 | 九类实体统一按分组独立字段、多值条目及时间履历／沿革表达；事实、证据与处理过程分开 | REV-041、042 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；实际整理时原位采用，不以规则更新标记旧卡完成 |
-| R-32 | 卡内直接展示 QID、Wikipedia 链接及可点击的关联知识元；身份状态、内容关联与正式关系分别说明 | REV-046–049 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；元数据保留唯一机器关系记录，正文提供一致的阅读入口 |
+| R-32 | 卡内直接展示实际适用的权威记录与稳定标识；QID、Wikipedia、人物辞典、档号／书目号、馆藏号及数字化全文均按对象选用，并与可点击关联知识元分开说明 | REV-046–049、056 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；元数据保留唯一机器关系记录，正文提供一致的阅读入口 |
 
 ## 执行状态的唯一落点
 
