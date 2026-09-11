@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T23:26:55",
+  "timestamp": "2026-09-12T00:08:41",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -11,8 +11,8 @@
   },
   "summary": {
     "total_units": 298,
-    "type_coverage": "8/8",
-    "base_type_coverage": "8/8",
+    "type_coverage": "9/9",
+    "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
     "deprecated_type_drift": 0,
     "hierarchy_version": "unknown"
@@ -38,7 +38,8 @@
   },
   "counts_by_type": {
     "persons": 124,
-    "institutions": 20,
+    "families": 3,
+    "institutions": 17,
     "places": 38,
     "works": 31,
     "archives": 39,
@@ -179,22 +180,22 @@
       "04-knowledge/units/persons/ventura-carrara.md",
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
+      "04-knowledge/units/families/aldobrandini-family.md",
+      "04-knowledge/units/families/borghese-family.md",
+      "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
-      "04-knowledge/units/institutions/aldobrandini-family.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/barberini-household.md",
       "04-knowledge/units/institutions/barnabites.md",
       "04-knowledge/units/institutions/biblioteca-augusta.md",
       "04-knowledge/units/institutions/biblioteca-casanatense.md",
-      "04-knowledge/units/institutions/borghese-family.md",
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/colnaghi.md",
       "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/oratorians.md",
-      "04-knowledge/units/institutions/peretti-family.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/theatines.md",
@@ -452,22 +453,22 @@
       "04-knowledge/units/persons/ventura-carrara.md",
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
+      "04-knowledge/units/families/aldobrandini-family.md",
+      "04-knowledge/units/families/borghese-family.md",
+      "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
-      "04-knowledge/units/institutions/aldobrandini-family.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/barberini-household.md",
       "04-knowledge/units/institutions/barnabites.md",
       "04-knowledge/units/institutions/biblioteca-augusta.md",
       "04-knowledge/units/institutions/biblioteca-casanatense.md",
-      "04-knowledge/units/institutions/borghese-family.md",
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/colnaghi.md",
       "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/oratorians.md",
-      "04-knowledge/units/institutions/peretti-family.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/theatines.md",
@@ -635,9 +636,14 @@
       "tags": 124,
       "evidence_status": 0
     },
+    "families": {
+      "sub_type": 3,
+      "tags": 3,
+      "evidence_status": 0
+    },
     "institutions": {
-      "sub_type": 20,
-      "tags": 20,
+      "sub_type": 17,
+      "tags": 17,
       "evidence_status": 0
     },
     "places": {
@@ -722,8 +728,8 @@
   "evidence_ref": {
     "sources_with_evidence_ref": 298,
     "sources_without_evidence_ref": 0,
-    "evidence_ref_resolvable": 298,
-    "evidence_ref_broken": 0
+    "evidence_ref_resolvable": 294,
+    "evidence_ref_broken": 4
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -881,22 +887,22 @@
         "04-knowledge/units/persons/ventura-carrara.md",
         "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
         "04-knowledge/units/persons/virgil.md",
+        "04-knowledge/units/families/aldobrandini-family.md",
+        "04-knowledge/units/families/borghese-family.md",
+        "04-knowledge/units/families/peretti-family.md",
         "04-knowledge/units/institutions/accademia-di-san-luca.md",
-        "04-knowledge/units/institutions/aldobrandini-family.md",
         "04-knowledge/units/institutions/apostolic-chamber.md",
         "04-knowledge/units/institutions/arcadia.md",
         "04-knowledge/units/institutions/barberini-household.md",
         "04-knowledge/units/institutions/barnabites.md",
         "04-knowledge/units/institutions/biblioteca-augusta.md",
         "04-knowledge/units/institutions/biblioteca-casanatense.md",
-        "04-knowledge/units/institutions/borghese-family.md",
         "04-knowledge/units/institutions/capuchins.md",
         "04-knowledge/units/institutions/colnaghi.md",
         "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
         "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
         "04-knowledge/units/institutions/jesuits.md",
         "04-knowledge/units/institutions/oratorians.md",
-        "04-knowledge/units/institutions/peretti-family.md",
         "04-knowledge/units/institutions/pinacoteca-vaticana.md",
         "04-knowledge/units/institutions/schildersbent.md",
         "04-knowledge/units/institutions/theatines.md",
@@ -1128,23 +1134,8 @@
     "packages": []
   },
   "rule_drift": {
-    "findings": 1,
-    "details": [
-      {
-        "issue": "output_navigation_snapshot_stale",
-        "file": "05-outputs/index/index.md",
-        "declared": {
-          "知识元总数": 0,
-          "claim 数": 0,
-          "relation 数": 0
-        },
-        "expected": {
-          "知识元总数": 298,
-          "claim 数": 12,
-          "relation 数": 173
-        }
-      }
-    ]
+    "findings": 0,
+    "details": []
   },
   "architecture_drift": {
     "deprecated_type_drift": 0,
@@ -1163,13 +1154,22 @@
         "translation_status": "0/134"
       }
     },
-    "institutions": {
-      "total": 20,
+    "families": {
+      "total": 3,
       "coverage": {
-        "name_original": "0/20",
-        "name_original_language": "0/20",
-        "name_zh": "0/20",
-        "translation_status": "0/20"
+        "name_original": "0/3",
+        "name_original_language": "0/3",
+        "name_zh": "0/3",
+        "translation_status": "0/3"
+      }
+    },
+    "institutions": {
+      "total": 17,
+      "coverage": {
+        "name_original": "0/17",
+        "name_original_language": "0/17",
+        "name_zh": "0/17",
+        "translation_status": "0/17"
       }
     },
     "works": {
@@ -1287,15 +1287,15 @@
       "count": 99,
       "sample": [
         "archives/patrons-and-painters.md",
-        "institutions/aldobrandini-family.md",
+        "families/aldobrandini-family.md",
+        "families/borghese-family.md",
+        "families/peretti-family.md",
         "institutions/apostolic-chamber.md",
         "institutions/barnabites.md",
-        "institutions/borghese-family.md",
         "institutions/capuchins.md",
         "institutions/fabbrica-di-san-pietro.md",
         "institutions/jesuits.md",
         "institutions/oratorians.md",
-        "institutions/peretti-family.md",
         "institutions/theatines.md",
         "persons/andrea-pozzo.md",
         "persons/andrea-procaccini.md",
@@ -1355,9 +1355,9 @@
     "body_type_residue": 0,
     "h1_in_body": 0,
     "english_headings": 0,
-    "placeholder_content": 1,
+    "placeholder_content": 15,
     "fm_body_verify_conflict": 0,
     "total_files": 317,
-    "total_findings": 945
+    "total_findings": 959
   }
 }

@@ -1,3 +1,19 @@
 # institutions
 
-暂无本项目有效条目。
+- [圣路加学院（Accademia di S. Luca）](../../04-knowledge/units/institutions/accademia-di-san-luca.md)
+- [宗座财务院（Apostolic Chamber）](../../04-knowledge/units/institutions/apostolic-chamber.md)
+- [阿尔卡迪亚学会（Society of Arcadia）](../../04-knowledge/units/institutions/arcadia.md)
+- [巴贝里尼家族及家户（Barberini Family and Households）](../../04-knowledge/units/institutions/barberini-household.md)
+- [巴尔纳伯会（Barnabites）](../../04-knowledge/units/institutions/barnabites.md)
+- [奥古斯塔图书馆（Biblioteca Augusta）](../../04-knowledge/units/institutions/biblioteca-augusta.md)
+- [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../../04-knowledge/units/institutions/biblioteca-casanatense.md)
+- [嘉布遣会（Capuchins）](../../04-knowledge/units/institutions/capuchins.md)
+- [科尔纳吉画廊（Colnaghi's）](../../04-knowledge/units/institutions/colnaghi.md)
+- [博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John of the Florentines, Bologna）](../../04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md)
+- [圣彼得营造管理机构（Fabbrica di S. Pietro）](../../04-knowledge/units/institutions/fabbrica-di-san-pietro.md)
+- [耶稣会（Jesuits）](../../04-knowledge/units/institutions/jesuits.md)
+- [奥拉托利会（Oratorians）](../../04-knowledge/units/institutions/oratorians.md)
+- [梵蒂冈绘画馆（Pinacoteca Vaticana）](../../04-knowledge/units/institutions/pinacoteca-vaticana.md)
+- [画家帮（Schildersbent）](../../04-knowledge/units/institutions/schildersbent.md)
+- [戴蒂尼会（Theatines）](../../04-knowledge/units/institutions/theatines.md)
+- [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../../04-knowledge/units/institutions/victoria-and-albert-museum.md)

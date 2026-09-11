@@ -21,7 +21,7 @@
 |---|---|---:|---:|---:|---|
 | `current-knowledge-graph` | visualization | 3 | 1 | 0 | not_reviewed |
 | `inherited-display-resources` | template | 13 | 1 | 0 | not_reviewed |
-| `knowledge-navigation` | navigation | 9 | 1 | 0 | not_reviewed |
+| `knowledge-navigation` | navigation | 10 | 1 | 0 | not_reviewed |
 
 ## Boundaries
 

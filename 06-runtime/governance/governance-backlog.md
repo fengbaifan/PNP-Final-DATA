@@ -1,7 +1,7 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-09 23:26
+> Snapshot: 2026-09-12 00:08
 > Structural health: 61/130
 > Knowledge units: 298
 > Maturity metrics: unscored_semantic_maturity
@@ -10,9 +10,7 @@
 
 ## System defects - P0
 
-| ID | Issue | Scope | Status |
-|---|---|---|---|
-| P0-RULE-DRIFT | active rules differ from repository facts | 1 findings | open |
+No active items.
 
 ## System defects - P1
 
@@ -22,10 +20,14 @@
 | P1-TRANSLATION-PERSONS-LANGUAGE_ORIGINAL | translation field coverage incomplete: persons.language_original | 134 missing | open |
 | P1-TRANSLATION-PERSONS-NAME_ZH | translation field coverage incomplete: persons.name_zh | 134 missing | open |
 | P1-TRANSLATION-PERSONS-TRANSLATION_STATUS | translation field coverage incomplete: persons.translation_status | 134 missing | open |
-| P1-TRANSLATION-INSTITUTIONS-NAME_ORIGINAL | translation field coverage incomplete: institutions.name_original | 20 missing | open |
-| P1-TRANSLATION-INSTITUTIONS-NAME_ORIGINAL_LANGUAGE | translation field coverage incomplete: institutions.name_original_language | 20 missing | open |
-| P1-TRANSLATION-INSTITUTIONS-NAME_ZH | translation field coverage incomplete: institutions.name_zh | 20 missing | open |
-| P1-TRANSLATION-INSTITUTIONS-TRANSLATION_STATUS | translation field coverage incomplete: institutions.translation_status | 20 missing | open |
+| P1-TRANSLATION-FAMILIES-NAME_ORIGINAL | translation field coverage incomplete: families.name_original | 3 missing | open |
+| P1-TRANSLATION-FAMILIES-NAME_ORIGINAL_LANGUAGE | translation field coverage incomplete: families.name_original_language | 3 missing | open |
+| P1-TRANSLATION-FAMILIES-NAME_ZH | translation field coverage incomplete: families.name_zh | 3 missing | open |
+| P1-TRANSLATION-FAMILIES-TRANSLATION_STATUS | translation field coverage incomplete: families.translation_status | 3 missing | open |
+| P1-TRANSLATION-INSTITUTIONS-NAME_ORIGINAL | translation field coverage incomplete: institutions.name_original | 17 missing | open |
+| P1-TRANSLATION-INSTITUTIONS-NAME_ORIGINAL_LANGUAGE | translation field coverage incomplete: institutions.name_original_language | 17 missing | open |
+| P1-TRANSLATION-INSTITUTIONS-NAME_ZH | translation field coverage incomplete: institutions.name_zh | 17 missing | open |
+| P1-TRANSLATION-INSTITUTIONS-TRANSLATION_STATUS | translation field coverage incomplete: institutions.translation_status | 17 missing | open |
 | P1-TRANSLATION-WORKS-TITLE_ORIGINAL | translation field coverage incomplete: works.title_original | 35 missing | open |
 | P1-TRANSLATION-WORKS-TITLE_ORIGINAL_LANGUAGE | translation field coverage incomplete: works.title_original_language | 35 missing | open |
 | P1-TRANSLATION-WORKS-TITLE_ZH | translation field coverage incomplete: works.title_zh | 35 missing | open |
@@ -37,6 +39,7 @@
 | P1-TRANSLATION-TERMS-ACADEMIC_TRANSLATION_STATUS | translation field coverage incomplete: terms.academic_translation_status | 30 missing | open |
 | P1-VERIFY-LEVEL | verification_level missing | 298 files | open |
 | P1-DATAFLOW | source-to-processing dataflow is incomplete | 4 findings | open |
+| P1-EVIDENCE-REF | evidence references are broken | 4 | open |
 | P1-CONTENT-SECTIONS | required content sections missing | 318 files | open |
 | P1-INGEST-CHAPTERS_WITHOUT_READING_LEDGER | chapters without reading ledger | 4 packages | open |
 | P1-INGEST-CHAPTERS_WITHOUT_CONTINUITY_MAP | chapters without continuity map | 4 packages | open |
@@ -51,7 +54,7 @@
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| P2-CONTENT-PLACEHOLDER | placeholder content remains | 1 findings | open |
+| P2-CONTENT-PLACEHOLDER | placeholder content remains | 15 findings | open |
 
 ## Research debt (not a system defect)
 
@@ -69,6 +72,6 @@
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| C-FM | required frontmatter coverage complete | 2026-09-09 | completed |
-| C-VERIFY | verification state conflicts absent | 2026-09-09 | completed |
-| C-SCHEMA | deprecated type drift absent | 2026-09-09 | completed |
+| C-FM | required frontmatter coverage complete | 2026-09-12 | completed |
+| C-VERIFY | verification state conflicts absent | 2026-09-12 | completed |
+| C-SCHEMA | deprecated type drift absent | 2026-09-12 | completed |

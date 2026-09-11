@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -72,6 +73,19 @@ class BuildKnowledgeGraphDataTests(unittest.TestCase):
 
         self.assertTrue(rendered.startswith("window.KNOWLEDGE_GRAPH_DATA="))
         self.assertIn('"terms:example"', rendered)
+
+    def test_normalizes_yaml_dates_before_json_serialization(self):
+        nested = {
+            "sources": [{"accessed": date(2026, 9, 11)}],
+            "evidence_ref": {"reviewed": date(2026, 9, 12)},
+        }
+
+        normalized = build_knowledge_graph_data.json_compatible(nested)
+        rendered = build_knowledge_graph_data.render_data_script(normalized)
+
+        self.assertEqual(normalized["sources"][0]["accessed"], "2026-09-11")
+        self.assertEqual(normalized["evidence_ref"]["reviewed"], "2026-09-12")
+        self.assertIn('"accessed":"2026-09-11"', rendered)
 
     def test_preserves_formal_hierarchy_and_topic_membership(self):
         with tempfile.TemporaryDirectory() as tmp:

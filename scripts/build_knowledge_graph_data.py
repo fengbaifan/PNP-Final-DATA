@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date, datetime
 from pathlib import Path
 
 import yaml
@@ -93,6 +94,17 @@ def safe_topic_memberships(value) -> list[str | dict]:
                 compact["theme"] = theme
             memberships.append(compact)
     return memberships
+
+
+def json_compatible(value):
+    """Normalize YAML-native values before they cross the JSON boundary."""
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    if isinstance(value, dict):
+        return {str(key): json_compatible(item) for key, item in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [json_compatible(item) for item in value]
+    return value
 
 
 def endpoint_node_id(value: str) -> str:
@@ -221,7 +233,7 @@ def build_graph(base: Path = BASE) -> dict:
         "theme_assigned": sum(bool(node["primary_theme"] or node["secondary_themes"]) for node in nodes),
         "topic_assigned": sum(bool(node["topic_memberships"]) for node in nodes),
     }
-    return {
+    return json_compatible({
         "nodes": nodes,
         "links": links,
         "structure": structure,
@@ -234,7 +246,7 @@ def build_graph(base: Path = BASE) -> dict:
             "hierarchy": hierarchy,
             "structure_nodes": {key: len(values) for key, values in structure.items()},
         },
-    }
+    })
 
 
 def render_data_script(data: dict) -> str:

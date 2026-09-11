@@ -1,5 +1,5 @@
 # Relation Index v2.1
-# generated: 2026-09-10
+# generated: 2026-09-12
 # total: 173
 # sources: {'explicit': 173}
 
@@ -791,7 +791,7 @@
   target_type: work
   relation_type: associated_work
   inverse_relation_type: null
-  note: 1682 委托要求 Ricci 表现斩首题材；不宣称核实完成与现藏。
+  note: 1682年委托要求Ricci表现斩首题材；DBI确认合同日期为9月28日并说明作品已佚，不把委托等同现存作品。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1862,12 +1862,12 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 书信作者；1762-11-22；本章未列收信人。本次依据 Haskell 转引，未读原件。
+  note: 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 896–898; print pp. 21
+    doc_id: bottari-ticozzi-letter-collection-v7
+    source_file: https://archive.org/details/diletteresulla07bott
+    source_span: vol. VII, letter X, pp. 357–362
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -2202,12 +2202,12 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 给定尺寸而放开题材的委托信作者；全名不展开。
+  note: 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 354–356,376; print pp. 10
+    doc_id: bottari-ticozzi-letter-collection-v6
+    source_file: https://archive.org/details/diletteresulla06bott
+    source_span: vol. VI, letter XXVII, pp. 147–148
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -2287,12 +2287,12 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 书信作者；1640-07-14；收信人只写 Cardinal Barberini，不据此选择 Francesco 或 Antonio。本次依据 Haskell 转引，未读原件。
+  note: 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 408–425; print pp. 11
+    doc_id: treccani-dbi-lanfranco
+    source_file: https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/
+    source_span: 1640 petition paragraph
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -2508,12 +2508,12 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 书信作者；1696-07-11；作者显示名据 PDF 校正为 Quarismini。本次依据 Haskell 转引，未读原件。
+  note: Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 511–513; print pp. 13
+    doc_id: bottari-ticozzi-letter-collection-v5
+    source_file: https://archive.org/details/diletteresulla05bott
+    source_span: vol. V, letter XLVI, pp. 185–187
   claim_id: null
   confidence: medium
   relation_source: explicit

@@ -741,3 +741,16 @@ REV-028–030 处理结果：多角色、双语信件标题、英文优先及来
 > 提交并同步
 
 目的与执行范围：将REV-056形成的AGENTS、pipeline、verify、enrich、按类型来源表、正文身份入口、有效要求索引及治理记录提交到`main`，推送至`origin/main`并单独核验远端一致性。本次同步不启动新的实体补足、关系、发现或页面阶段。
+
+## REV-058｜2026-09-12｜修复main分支Quality gate失败
+
+用户原话：
+
+> [fengbaifan/PNP-Final-DATA – Quality gate #9](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/34570941693?notification_referrer_id=NT_kwHOB7smzdoALFJlcG9zaXRvcnk7MTM2MTQyNzAwOTtDaGVja1N1aXRlOzkzNjQ5OTQwNDcz&notifications_query=is%3Aunread)
+>
+> [Quality gate workflow run failed for main branch](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/34570941693?notification_referrer_id=NT_kwHOB7smzdoALFJlcG9zaXRvcnk7MTM2MTQyNzAwOTtDaGVja1N1aXRlOzkzNjQ5OTQwNDcz&notifications_query=is%3Aunread)
+>
+> 9 hours ago
+> 这什么意思，修复这个问题
+
+目的与执行范围：读取GitHub Actions运行34570941693的失败步骤和日志，复现并修复导致main质量门禁失败的实际问题，运行相应本地检查；为使远端门禁重新执行，将修复提交并推送到main，再核验新的远端运行结果。不得通过删除有效检查或降低证据要求制造通过。

@@ -4,7 +4,7 @@ records:
   used_relations: &id002 []
   source_refs: &id003 []
   uncertain_points:
-  - 本项目尚未执行研究；当前有效成果为空，遗留试填不纳入展示。
+  - 当前数据是第一章样例中298个有效知识元与173条正式关系的可重建投影；知识发现尚未启动，页面尚未按新数据完成语义审阅与适配。
   file_back_status: not_reviewed
   candidate_refs: &id004 []
   output_id: current-knowledge-graph
@@ -17,18 +17,19 @@ records:
   used_relations: *id002
   source_refs: *id003
   uncertain_points:
-  - 本项目尚未执行研究；当前有效成果为空，遗留试填不纳入展示。
+  - 当前索引用于定位第一章样例知识元；字段完整度与语义完成状态须回查知识元卡及第一章结果，不由索引存在自动证明。
   file_back_status: not_reviewed
   candidate_refs: *id004
   output_id: knowledge-navigation
   output_type: navigation
   artifact_patterns:
   - 05-outputs/index/index.md
+  - 05-outputs/index/archives.md
+  - 05-outputs/index/families.md
   - 05-outputs/index/persons.md
   - 05-outputs/index/institutions.md
   - 05-outputs/index/places.md
   - 05-outputs/index/works.md
-  - 05-outputs/index/publications.md
   - 05-outputs/index/terms.md
   - 05-outputs/index/procedures.md
   - 05-outputs/index/events.md
