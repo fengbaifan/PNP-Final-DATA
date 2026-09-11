@@ -3,7 +3,7 @@ title: "行宫伯爵（Count Palatine）"
 name_en: "Count Palatine"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -19,38 +19,44 @@ sources:
 - citation: "Wikidata, Q22932, revision 2485413121. https://www.wikidata.org/wiki/Q22932. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "行宫伯爵职衔与后来的荣衔概念；不指某块领地或特定个人。"
+- citation: "Wikipedia (en), Count palatine, revision 1371113571. https://en.wikipedia.org/wiki/Count_palatine. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "Wikidata, Q22932, revision 2485413121. https://www.wikidata.org/wiki/Q22932. Accessed 2026-09-11."
+  location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
+  sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Frederick III 授 Gentile Bellini 的尊号例子；不与 Titian 所获 Lateran Palace 等不同称谓未经依据等同。
+**中文：** 行宫伯爵是由宫廷职务发展出多种地方职衔、贵族称号和荣誉形式的历史称谓。第一章以腓特烈三世授予真蒂莱·贝利尼的尊号说明艺术家所获承认；仅有称号不能证明其拥有领地或持续履行宫廷职务。
 
-**English:** The chapter cites Frederick III's grant of this honorary title to Gentile Bellini as an earlier example of artistic distinction. It must not be treated as identical to every title granted to Titian in 1533.
+**English:** Count palatine is a historical designation that developed from a palace office into various territorial, noble, and honorary forms. Haskell cites Frederick III's grant to Gentile Bellini as an example of recognition of an artist. Possession of the title alone does not establish territorial ownership or continuing court service.
 
-### 已有信息
+### 名称与适用范围
 
-| 项目 | 内容 | 依据 |
+- 英文：count palatine；德语相关形式 Pfalzgraf；具体语种形式不保证各时期权利完全相同。[S4]
+- 起源与变体：由宫廷职务发展，存在帝国、地方及教廷语境；职权、继承性或纯荣誉性质须依授予制度和文书判断。[S4]
+- 章内事例：Frederick III授Gentile Bellini；Titian在1533年所得Lateran Palace等复合称号依本章注4保留原文，不能据“count”一词把全部称号和权限合并。[S1]
+
+### Wikidata字段
+
+| 属性 | 记录值 | 采用范围 |
 |---|---|---|
-| 名称／对应英文 | Count Palatine | S1；标题中的语境说明为登记用语 |
-| 章内授予事例 | Frederick III 授予 Gentile Bellini | S1，支持范围见各条句意摘要 |
+| P31 | 贵族头衔 Q355567；职位 Q4164871 | 均normal rank；所读声明未附引用，作类型导航 |
+| P279 | Graf Q28989；count Q3519259 | 仅指分类，不能推出特定艺术家的权利、领地或爵位继承 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+[S5；引用实体标签已核对。]
 
+### 对齐
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 行宫伯爵职衔与后来的荣衔概念；不指某块领地或特定个人。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Count_palatine) 的 wikibase_item 与 [Wikidata Q22932](https://www.wikidata.org/wiki/Q22932) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[Wikipedia：Count palatine](https://en.wikipedia.org/wiki/Count_palatine) ↔ [Wikidata Q22932](https://www.wikidata.org/wiki/Q22932)身份配对沿用；本次读完对象页，仍按事实分别取舍。[S2–S5]
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L799–804。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页19，OCR L799–804，章内Bellini及Titian称谓。
+- S2–S3：初步身份对齐；S4–S5：全文补足与本次WD字段读取。
+- Wikipedia艺术家清单把Bellini写作Giovanni，与本章Gentile不符，本卡不采用该名单断言；Titian获衔与某幅骑马像的因果联结亦未采用。授予原件尚未读，异文未据百科消除。
+- 当前无正式关系。未决为准确授予文书、完整称号、日期与权利，不以所有同名职衔共用同一权限。状态维持 source_backed。

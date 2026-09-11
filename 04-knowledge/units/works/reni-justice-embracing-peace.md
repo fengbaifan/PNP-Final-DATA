@@ -3,7 +3,7 @@ title: "雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embrac
 name_en: "Reni’s Justice embracing Peace commission (1617)"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/duke-mantua-reni-1617.md","note":"1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,38 +15,45 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 531–534; print pp. 14
+- citation: "Gino Benzoni, FERDINANDO Gonzaga, duca di Mantova e dei Monferrato, DBI 46 (1996). https://www.treccani.it/enciclopedia/ferdinando-gonzaga-duca-di-mantova-e-dei-monferrato_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "已读出生／教育、辞去枢机及加冕、Camilla与Caterina婚姻、Favorita和死亡相关段；全文其余未读"
+  sentence_summary: "1587–1626，1617在任曼图亚公爵及Reni赞助语境；教育、1615辞枢机、1616加冕与婚姻异文，不把百科1615继位混写照录。"
+- citation: "Haskell, Patrons and Painters, ch.1, p.14, note 2: Luzio, p.48."
+  location: "02-sources/02-Markdown/01_CHP-1.md，OCR L531–534及L563；本轮回读注释链"
+  sentence_summary: "信件依据指向Luzio p.48；本轮英文／意大利文精确及变体查询未获可识别作品条目或已读原刊，原定尺寸和报酬仍只能依Haskell摘要。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 曼图亚公爵给定尺寸并许以慷慨回报，没有预先列出金额；本章只支持委托及题材。
+**中文：** 1617年曼图亚公爵向雷尼提出《正义拥抱和平》绘画委托，指定尺寸但没有预定金额。公爵可对应费迪南多·贡扎加；本轮仍未查到可确认的现存作品或信件原刊，不能把“许诺厚酬”当作实际支付。（S1–S3）
 
-**English:** In 1617 the Duke of Mantua specified dimensions for Justice embracing Peace and promised Reni a generous reward without fixing a price. The chapter records the commission's subject and terms rather than identifying a surviving object.
+**English:** In 1617 the Duke of Mantua requested a painting of Justice embracing Peace from Reni, specifying its dimensions but no price. The duke can be identified as Ferdinando Gonzaga. No surviving painting or original letter publication has yet been confirmed here, and the promised reward is not an actual payment. (S1–S3)
 
-### 已有信息
+### 委托字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Reni’s Justice embracing Peace commission (1617) | S1；标题中的语境说明为登记用语 |
-| 题材与酬劳 | 正义拥抱和平；指定尺寸，许诺厚酬但未定金额 | S1，支持范围见各条句意摘要 |
+| 登记题名 | 正义拥抱和平／Justice embracing Peace；描述性委托题名 | S1；不假称现存馆藏正式题名 |
+| 拟创作者 | 圭多·雷尼／Guido Reni | S1 |
+| 委托方 | 费迪南多·贡扎加，1617年在任曼图亚公爵 | S1–S2及人物身份核对 |
+| 时间 | 1617 | S1；月日未得 |
+| 主题 | 正义与和平的拟人形象相拥 | S1题名所支持的最低含义；人物数量以外的构图细节未得 |
+| 尺寸 | 信中给过尺寸，本章未转录数值 | S1 |
+| 约定酬劳 | 许诺慷慨回报，未事先定价 | S1；不是免费赠画或已付某金额 |
+| 媒介／材料／地点 | 尚无足够依据 | 不从Reni别作推定 |
+| 完成／现藏 | 未核 | 委托发生不等于作品完成或存世 |
+| 原信刊引定位 | Haskell p.14 note 2，Luzio p.48 | S3，原刊未读 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 对象边界
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+Reni的贡扎加《赫拉克勒斯功业》及其他题为“正义”的绘画不能只凭作者、赞助人或部分题名相同并入本卡。保留本章所指新委托这一范围；公爵身份已有进展，作品身份没有同步被解决。
 
 ## 关系与证据
 
-S1：第一章；印刷页 14；OCR L531–534。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+没有已确认的本对象Wikipedia—Wikidata配对；英文题名、意大利文Giustizia／Pace及Gonzaga／Reni检索本轮未形成可核对象。查询未命中只表示本轮未找到，不宣称不存在条目或作品。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+文件头commissioned_by通往[费迪南多·贡扎加](../persons/duke-mantua-reni-1617.md)，原S1证据保留；[雷尼](../persons/guido-reni.md)为导航，尚不补未实施的创作关系。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**待补：** Luzio p.48全文及所引信件、具体日期／尺寸、完成记录和画目。S2只支持委托人背景，不支持作品物理属性；S3为章内回读，不计独立外部来源。原章定位和句意摘要不变。

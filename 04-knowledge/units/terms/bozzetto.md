@@ -1,9 +1,9 @@
 ---
-title: "草稿（Bozzetto）"
+title: "构思草稿（Bozzetto）"
 name_en: "Bozzetto"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -19,38 +19,51 @@ sources:
 - citation: "Wikidata, Q3859830, revision 2425613665. https://www.wikidata.org/wiki/Q3859830. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "英文重定向 Maquette Q17126762 偏雕塑／建筑缩模，另查 Modello Q3859830 与现有预备稿术语重叠；不强行把本章油画草稿合并到任一对象。"
+- citation: "Wikipedia (it), Bozzetto, revision 148597322. https://it.wikipedia.org/wiki/Bozzetto. Accessed 2026-09-11."
+  location: "全文1944字符；复用英文重定向范围不合的前次查询，按意大利术语回退"
+  sentence_summary: "视觉／舞台艺术中的较小预备草案；条目历史起源和本真性判断不作为无条件定义。"
+- citation: "Wikidata Q5416402, revision 2494830224. https://www.wikidata.org/wiki/Q5416402. Accessed 2026-09-11."
+  location: "itwiki双向链接、P279、P1014；所引model／sculpture实际标签已核"
+  sentence_summary: "同名术语及Getty300047838对应；P279把全部归雕塑不适用于本章绘画草案，不采用该父类。"
+- citation: "National Gallery, Modelli. https://www.nationalgallery.org.uk/paintings/glossary/modelli. Accessed 2026-09-11."
+  location: "词条正文全文两段"
+  sentence_summary: "modello展示预期结果并辅助设计，媒介不限；bozzetto粗略与modello较精细是可作的区分，且须与ricordo区分。"
+- citation: "Getty AAT 300047838, bozzetti. https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300047838. Accessed 2026-09-11."
+  location: "规范记录全文5583字符；含定义、异名、关系及来源列表"
+  sentence_summary: "较充分展开的预备草案，多为雕塑，也可绘画／素描；与maquette区分；其详略标准与National Gallery相对区分不同。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 章中用来称巴贝里尼大厅所谓稿本，与 modello 有交叠但不能机械视为任意素描；具体归属有争议。
+**中文：** Bozzetto是构思中的预备草案，可为绘画、素描或雕塑模型。本章以此称一件所谓巴贝里尼大厅草稿，其作者归属仍有争议。不同词典对草案精细程度的界定不一，不能仅凭名称推定媒介、先后阶段或真伪。（S1、S4–S7）
 
-**English:** The chapter uses bozzetto for a supposed sketch for the Barberini Salone whose attribution Haskell doubts. Its usage overlaps with modello but does not make every drawing a bozzetto or resolve this object's disputed authorship.
+**English:** A bozzetto is a preliminary conception that may take the form of a painting, drawing or sculptural model. Haskell uses the term for a supposed Barberini Salone sketch whose attribution he disputes. Definitions differ over its degree of finish; the name alone does not establish medium, sequence or authorship. (S1, S4–S7)
 
-### 已有信息
+### 术语字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Bozzetto | S1；标题中的语境说明为登记用语 |
-| 章内事例 | 巴贝里尼大厅所谓草稿；归属有争议 | S1，支持范围见各条句意摘要 |
+| 原语／复数 | 意大利语bozzetto／bozzetti | S4、S7 |
+| 中文显示 | 构思草稿；Getty异名“雏型”保留为术语参照 | S7；不是所有实物的统一馆藏题名 |
+| 类型 | 构思与预备阶段的视觉作品称谓 | S4、S6–S7 |
+| 媒介 | 可绘、可画，也可三维塑制；不限定油画或泥塑 | S7 |
+| 功能 | 探索设计、作为后续执行参照；是否供赞助人审定需具体依据 | S4、S6–S7 |
+| 范围区别 | 本章绘画稿不能整体并入仅指雕塑缩模的英文Maquette对象 | S1、S4–S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 用法、例外及研究
 
+National Gallery以较粗略bozzetto与较精细modello作相对区分；Getty把bozzetti定义为已有一定展开的草案，并把更粗的雕塑草案称maquettes。两种区分采用不同参照，不据此建立固定“草稿→小样→终稿”的普遍阶段序列。（S6–S7）
 
-### 初步对齐（REV-034，2026-09-10）
+意大利百科有关史前起源及草案比成品更本真的评价未获本轮独立支持，不采为确定艺术史定律。个别图注1918戏服设计只是术语跨媒介例子，不能扩大本章研究年代。（S4）
 
-**范围待对齐。** 英文重定向 Maquette Q17126762 偏雕塑／建筑缩模，另查 Modello Q3859830 与现有预备稿术语重叠；不强行把本章油画草稿合并到任一对象。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+书目线索：Julius S. Held, *The Oil Sketches of Peter Paul Rubens*（1980）p.5见Getty来源表；*Le Muse*第II卷（1964）p.393见意大利百科。只读引文记录，未读原书。（S4、S7）
 
 ## 关系与证据
 
-S1：第一章；印刷页 12；OCR L461–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia（it）：Bozzetto](https://it.wikipedia.org/wiki/Bozzetto) ↔ [Wikidata Q5416402](https://www.wikidata.org/wiki/Q5416402) 双向一致。意大利术语与绘画／素描适用范围、[Getty AAT300047838](https://www.getty.edu/vow/AATFullDisplay?subjectid=300047838)共同支持本章用法，本轮确认此术语身份。WD的sculpture父类过窄，未导入；身份通过不代表每个WD字段正确。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+S4全文、S6词条及S7规范记录全文已读。保留旧候选Q3859830及Maquette的历史排除过程，不覆盖成“早已正确配对”。
 
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+[Modello](modello.md)、[预备稿提交程序](../procedures/modello-approval.md)、[争议巴贝里尼草稿](../works/barberini-salone-bozzetto-disputed.md)为导航，尚无正式关系。草稿真实作者、是否预备而非后摹仍由作品卡处理，不因术语解决而连带确认。S1章页／行号和句意摘要保留。

@@ -4,7 +4,7 @@ name_en: "Armanni's Collected Letters"
 type: archive
 sub_type: letter_collection
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/vincenzo-armanni-ch1.md","note":"本章所引 Armanni 信集，书目条目补全题名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -23,38 +23,55 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 69–70; print p. 412
   sentence_summary: 同书书目列 Vincenzo Armanni《Delle lettere del Signor V. A. nobile d’ugubbio》，3 卷，Roma，1663、1674。
+- citation: "Vincenzo Armanni, Delle lettere..., vol. I (Roma: Iacomo Dragondelli, 1663). Biblioteca Nazionale Centrale di Roma / Google scan via Internet Archive. https://archive.org/details/bub_gb_7QeLKwkXauIC. Accessed 2026-09-11."
+  location: "题名页及相邻相关信的OCR选读；所引致Camillo信pp.215–216全文逐页对影像，非整卷或原信手稿。"
+  sentence_summary: "卷一献给Camillo Pamphili；pp.215–216报告送去十一项家族史题材，首项族谱树，其余十项许画家改进表现但须保留核心；未载发信日期与地点。"
+- citation: "Umberto Coldagelli, «ARMANNI, Vincenzo», Dizionario Biografico degli Italiani 4 (1962). https://www.treccani.it/enciclopedia/vincenzo-armanni_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "56行web传记全文已读，采用卷册出版与编辑责任段，不接受文内1698仍属作者生前出版的矛盾。"
+  sentence_summary: "卷I Roma1663；卷II与III Macerata1674；Carlo Cartari撰作者传，Giustiniani及Niccolini促成选集出版。"
+- citation: "Armanni, Delle lettere, vols. II–III, scans bub_gb_949r2maZ_jMC and bub_gb_tq28JVV2qXoC. https://archive.org/details/bub_gb_949r2maZ_jMC ; https://archive.org/details/bub_gb_tq28JVV2qXoC. Accessed 2026-09-11."
+  location: "只选读卷首约3600字符；卷II题名献辞、卷III题名刊记和献辞开头。"
+  sentence_summary: "卷II献Carlo Rossetti，卷III献Vittoria della Rovere；卷III刊记Macerata、Giuseppe Piccini、1674。卷II抓取题名页未完整显示刊记，出版地年另据专业书目。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章未标日期的 Pamfili 装饰建议信指卷 I p.215。书后书目展开为 Delle lettere del Signor V. A. nobile d’ugubbio，3 卷，Roma，1663、1674；卷别与两年对应关系未在该条展开，保留原书目信息。
+**中文：** 温琴佐·阿尔曼尼的意大利语书信集，三卷分别于1663年和1674年刊行。第一卷收有致卡米洛·潘菲利的瓦尔蒙托内装饰建议信；刊印本与原信手稿须分别识别。[S1–S5]
 
-**English:** The undated letter advising Pamfili on decoration is cited at volume I, page 215. Haskell's bibliography expands the collection's title to Delle lettere del Signor V. A. nobile d’ugubbio and lists three volumes, Rome, 1663 and 1674; it does not specify which volumes correspond to each year.
+**English:** Vincenzo Armanni's Italian letters were published in three volumes in 1663 and 1674. Volume I includes his advice to Camillo Pamfili on decoration at Valmontone. The printed collection is distinct from the original letter manuscripts. [S1–S5]
 
-### 已有信息
+### 题名与责任
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Armanni's Collected Letters | S1；标题中的语境说明为登记用语 |
-| 卷册与刊行 | 3 卷；Roma；1663、1674，卷年对应待核 | S1，支持范围见各条句意摘要 |
+| 作者 | 温琴佐·阿尔曼尼（Vincenzo Armanni） | S2–S4 |
+| 卷一原题主干 | Delle lettere del signor Vincenzo Armanni scritte a nome proprio e disposte sotto diversi capi. Volume primo；大小写规范化转录 | S3 |
+| 文献类型／语言 | 书信选集；意大利语 | S3、S5 |
+| 作者传责任 | Carlo Cartari；作者传附卷一 | S3、S4 |
+| 编辑出版协助 | M. Giustiniani与L. Niccolini推动选集刊行；不据缩写填造全名 | S4 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 卷册与版本
 
+| 卷 | 地点、出版者、年 | 献辞对象 | 依据 |
+|---|---|---|---|
+| I | Roma；Iacomo Dragondelli；1663 | Camillo Pamphili | S3题名页 |
+| II | Macerata；1674；本次所读卷首页未完整显刊记，出版者待核 | Carlo Rossetti | S4；S5献辞 |
+| III | Macerata；Giuseppe Piccini；1674 | Vittoria della Rovere，托斯卡纳大公夫人 | S5题名刊记与献辞 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 本章所引文本
 
-**尚无配对。** 同书书目已核题名、卷数及年份；登记名与意大利语 Delle lettere 未命中对象页，不能借作者 QID 代替信集。
+- 卷I印刷pp.215–216：[致潘菲利装饰建议信](armanni-pamfili-letter-undated.md)。Haskell只指p.215；本次顺读至信尾p.216。[S1、S3]
+- 卷I的数字扫描来自罗马国家中央图书馆藏本；Internet Archive标识为 `bub_gb_7QeLKwkXauIC`。这是扫描本识别，未核原信手稿馆藏号。[S3]
+- 另外两卷扫描标识见S5；本次只读卷首相关部分，未读全三卷。
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+### 身份对齐
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+仍无本信集独立的Wikipedia—Wikidata确认配对；不得借用作者QID。已有原题、分卷刊记和扫描标识改善了版本定位，但不是Wiki配对。
 
 ## 关系与证据
 
-S1：第一章；印刷页 9；OCR L329–330；S2：同书书目（非第一章）；印刷页 412；OCR L69–70。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+文件头保留既有作者关系；正文链接是导航。S1–S5按文件头sources顺序对应，保留第一章第9页L329–330及书目定位。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**裁决与限制：** Haskell把三卷出版地概列Roma；本次依原刊及专业传记区分卷I的Roma与卷II–III的Macerata。各卷献辞对象不同，不把全三卷都写成献给Camillo。1663、1674是刊印年，不是所收各信写作年。DBI中将1698书列于作者生前刊行的文字与1684卒年不合，未采用。原件、全卷内容和完整编辑史仍未核。

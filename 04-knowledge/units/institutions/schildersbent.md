@@ -3,7 +3,7 @@ title: "画家帮（Schildersbent）"
 name_en: "Schildersbent"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -19,40 +19,54 @@ sources:
 - citation: "Wikidata, Q514377, revision 2503490291. https://www.wikidata.org/wiki/Q514377. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "罗马北方艺术家社群 Bentvueghels 与 Schildersbent 同指；成立年精度不在此裁定。"
+- citation: "Wikipedia (en), Bentvueghels, revision 1372100851. https://en.wikipedia.org/wiki/Bentvueghels. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "Wikidata, Q514377, revision 2503490291. https://www.wikidata.org/wiki/Q514377. Accessed 2026-09-11."
+  location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
+  sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
+- citation: "The Phoebus Foundation, “The Bentvueghels”. https://phoebusfoundation.org/en/agenda/the-bentvueghels/ Accessed 2026-09-11."
+  location: "2023年Centraal Museum展览介绍及Jan Miel图注全文"
+  sentence_summary: "17世纪早期罗马北方艺术家团体；借展说明不代替历史成员名录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 在罗马保护荷兰与佛兰德斯艺术家利益的互助组织。第一章称其没有章程或固定领导，以宴饮、模拟仪式等活动著称，并抵制学院向外国艺术家征税。
+**中文：** 画家帮（Schildersbent／Bentvueghels）是十七世纪早期在罗马形成、以荷兰和佛兰德斯艺术家为主的互助群体。它以宴饮、成员绰号和模拟仪式著称；本章称其没有章程或固定领导，并描述它与圣路加学院的紧张关系。
 
-其成立另建事件卡，持续制度活动保存在本卡。范拉尔同时加入学院，不能据群体对立设定排他成员资格；第一章没有支持罗萨为本组织成员。
+**English:** The Schildersbent or Bentvueghels was a mutual-support group formed in early seventeenth-century Rome, mainly among Dutch and Flemish artists. It was known for feasts, members’ nicknames, and mock rituals. Haskell describes it as lacking statutes or fixed leadership and discusses its tensions with the Accademia di San Luca.
 
-**English:** The Schildersbent protected Dutch and Flemish artists in Rome. Haskell describes it as lacking statutes or fixed leadership, known for feasts and mock rituals, and resisting the Academy's taxation of foreign artists. Its formation is a separate event. Van Laer's Academy membership prevents treating the groups as mutually exclusive; chapter 1 does not establish Rosa's membership.
+### 名称与组织信息
 
-### 已有信息
+- 名称：Schildersbent；Bentvueghels；成员称谓另见[同巢之鸟](../terms/bentveughels.md)。[S1、S4]
+- 类型：非正式艺术家群体；不推定为具有现代法人登记的协会。[S1、S4]
+- 活动地：[罗马](../places/rome.md)。[S1、S4、S6]
+- 成员范围：以荷兰、佛兰德斯艺术家为主，但非国籍排他；包括画家、雕塑家、版画家等，具体成员须逐项核实。[S4]
+- 领导及章程：Haskell称没有章程或固定领导；不能据此推断其没有任何社群约定。[S1]
 
-| 项目 | 内容 | 依据 |
+### 活动与沿革
+
+| 时间／方面 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Schildersbent | S1；标题中的语境说明为登记用语 |
-| 组织边界 | 互助组织；持续活动与 1623 成立事件分开 | S1，支持范围见各条句意摘要 |
+| 成立 | 第一章记1623年；百科概述约1620年；官方展览说明仅支持17世纪早期 | S1、S4、S6；不强合成一个精确日期 |
+| 社群活动 | 入会、宴饮、成员别名bentnaam及模拟仪式 | S1、S4 |
+| 象征与地点 | 以Bacchus相关意象组织部分仪式；把Santa Costanza中的墓物视为酒神墓是成员的历史理解，不是实际墓主鉴定 | S4 |
+| 学院关系 | 本章涉及反对学院向外国艺术家征税；范拉尔同时入学院，群体间紧张不能推出个人成员资格排他 | S1 |
+| 1720年 | 百科记Clement XI禁止相关活动；原禁令未读，不能把它无条件当作所有活动立即终止的证明 | S4 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### Wikidata与对齐
 
+[Wikipedia：Bentvueghels](https://en.wikipedia.org/wiki/Bentvueghels) ↔ [Q514377](https://www.wikidata.org/wiki/Q514377)身份配对沿用。[S2–S5]
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 罗马北方艺术家社群 Bentvueghels 与 Schildersbent 同指；成立年精度不在此裁定。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Bentvueghels) 的 wikibase_item 与 [Wikidata Q514377](https://www.wikidata.org/wiki/Q514377) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- P31 artist collective（Q1400264）：normal rank，所读声明未附引用，仅作组织类型导航。[S5]
+- P571“+1600-00-00”，precision 8为1600年代十年精度，不是1600年精确值，也不是整个十七世纪；与约1620／章内1623不符，未采用。[S5]
+- P576为1720年、年精度，未附引用；仅保留上表禁令报道及限制，不把WD日期独立当作解散事实。[S5]
 
 ## 关系与证据
 
-S1：第一章；印刷页 20；OCR L819–833。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续补足规范名／别名、组织性质、成立与变更、驻地、职责、成员或管理者、历史沿革及研究来源。家户、宗教团体、政府、馆藏机构按实际对象区分，不默认现代法人身份。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页20，OCR L819–833；S2–S3初步对齐；S4–S5本次全文与WD字段；S6为2023年展览介绍全文。
+- Wikipedia中范拉尔与学院的说法引用Haskell，不能把它算作独立于本章的第二证据。展览借出Jan Miel作品的清单也不代替完整历史成员名册。
+- 当前没有正式关系；成立事件与持续组织分开。罗萨成员身份、本章每人的入会和别名仍须个案证据。
+- 未决：成立日期异文、1720禁令原文、完整成员与活动地点证据。来源支持状态维持 source_backed，未宣称所有史实验证完成。

@@ -1,10 +1,10 @@
 ---
-title: "巴尔多伊尼的家户画家任命文字（Appointment of Baldoini as Household Painter）"
-name_en: "Appointment of Baldoini as Household Painter"
+title: "毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）"
+name_en: "Maurice of Savoy’s appointment of Baldoino as his painter"
 type: archive
 sub_type: appointment_record
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/gio-gasparo-baldoini.md","note":"任命文书中的受任人；日期未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,38 +16,50 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 173–175,188–189; print pp. 6
+- citation: "Harvard University, I Tatti, “Library acquisitions, June 2018”, Fine Arts list, Baudi di Vesme entry. https://itatti.harvard.edu/news/library-acquisitions-june-2018. Accessed 2026-09-11."
+  location: "Fine Arts（LC Class N）中的完整书目条目；网页检索返回的条目文本；未读1932年著作正文"
+  sentence_summary: "登记Alessandro Baudi di Vesme的L’arte negli Stati Sabaudi，1932年都灵出版，Società piemontese di archeologia e belle arti，Fratelli Bocca经销；只支持引文载体书目信息。"
+- citation: "Luc Thevenon, “Décor et mobilier des cathédrales de Provence orientale aux XVIIe et XVIIIe siècles”, Provence historique, fasc. 259 (2016). https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf. Accessed 2026-09-11."
+  location: "印刷页31–32及注30–33；PDF页7–8（索引从0起）；另读题页与摘要，非全文论文阅读"
+  sentence_summary: "Giovanni-Gaspare Baldoino／Baudoin，尼斯约1590–1669，父Gio-Ludovico，子Bernardin；1622起可追踪活动，1640起受Maurice de Savoie保护，兼从事绘画和工程。该年不等于任命文书签署年。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Maurizio di Savoia 任命 Gio. Gasparo Baldoini 为 per nostro pittore 的文字，经 Baudi di Vesme 1932 p.23 引述；正文列权利与待遇。现只登记被引任命内容，不编造原件标题、签署日期或档号。
+**中文：** 本卡记录毛里齐奥·迪·萨伏依任命巴尔多伊诺为“本府画家”的被引文字。哈斯克尔通过Baudi di Vesme于1932年刊行的研究第23页引用该任命；本轮补明引文载体与受任人姓名，尚未读到1932年第23页或任命原件。（S1–S3）
 
-**English:** The text appoints Gio. Gasparo Baldoini as Maurizio di Savoia's painter, using per nostro pittore, and is cited through Baudi di Vesme 1932, page 23. The chapter describes rights and remuneration; the original title, signing date and archival reference remain unknown.
+**English:** This record concerns the quoted appointment of Baldoino as Maurice of Savoy’s painter. Haskell cites it through page 23 of Baudi di Vesme’s 1932 publication. The cited publication and the appointee’s name have been clarified, but neither that page nor the original appointment has been directly examined. (S1–S3)
 
-### 已有信息
+### 文献字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Appointment of Baldoini as Household Painter | S1；标题中的语境说明为登记用语 |
-| 任命双方 | Maurizio di Savoia → Gio. Gasparo Baldoini；称谓 per nostro pittore | S1，支持范围见各条句意摘要 |
+| 标题性质／Title status | 中英文描述性标题；不是原件自题 | S1 |
+| 类型／Document type | 任用文字（appointment record）；原件具体文书形制未核 | S1 |
+| 任用者／Appointing patron | 毛里齐奥·迪·萨伏依（Maurizio di Savoia） | S1 |
+| 受任人／Appointee | Giovanni Gaspare Baldoino；章内作Gio. Gasparo Baldoini | S1、S3 |
+| 措辞／Wording | per nostro pittore；译为任为本府画家 | S1 |
+| 原件日期／Date | 未知；S3的1640年是保护关系线索，不是原件签署日期 | S1、S3 |
+| 语言／Language | 被引任用短语为意大利语；未据短语断言全文语种和篇幅 | S1 |
+| 原件题名、签署、馆藏号 | 未核 | 当前阅读范围 |
+| 1932年载体／Cited publication | Alessandro Baudi di Vesme，《L’arte negli Stati Sabaudi, ai tempi di Carlo Emanuele I, di Vittorio Amedeo I, e della Reggenza di Cristina di Francia》；中文描述为《萨伏依诸邦在卡洛·埃马努埃莱一世、维托里奥·阿梅代奥一世及克里斯蒂娜摄政时期的艺术》 | S2 |
+| 刊行／Publication | 都灵，Società piemontese di archeologia e belle arti，1932；Fratelli Bocca为登记的经销者，不擅改为原文书保管机构 | S2 |
+| 被引页／Cited page | p.23 | S1；该页原文未读 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 内容与传递链
 
+哈斯克尔正文将这类任用与荣誉、权限、特权、豁免、收益和酬报等权益联系起来；具体金额、期限、交付件数和独占服务义务未载于本章引文，保持未知。（S1）
 
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+原任用文字 → Baudi di Vesme 1932 p.23 → Haskell第一章p.6。当前直接读到最后一层及外部馆藏书目；不把书目登记当作原任命内容验证。（S1、S2）
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L173–175,188–189。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+| 关系／角色 | 知识元入口 | 状态 |
+|---|---|---|
+| associated_person：受任人 | [巴尔多伊诺](../persons/gio-gasparo-baldoini.md) | 文件头既有正式关系，保留S1依据 |
+| 任用者 | [毛里齐奥](../persons/maurizio-di-savoia.md) | S1；留待集中关系阶段判断 |
+| 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1；语义导航 |
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+无确认Wikipedia／Wikidata对象；不借出版物作者或受任人的QID。S1章内位置为p.6、OCR L173–175、188–189；S2为馆藏书目范围，S3为人物对应研究。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留阅读范围。已保存书目与身份补足，原件待证，evidence_status仍为source_backed。

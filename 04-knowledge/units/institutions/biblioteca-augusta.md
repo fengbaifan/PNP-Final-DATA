@@ -3,7 +3,7 @@ title: "奥古斯塔图书馆（Biblioteca Augusta）"
 name_en: "Biblioteca Augusta"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/perugia.md","note":"书中明确图书馆位于 Perugia。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 236–237; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -21,38 +21,52 @@ sources:
 - citation: "Wikidata, Q3639560, revision 2476730461. https://www.wikidata.org/wiki/Q3639560. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "佩鲁贾的 Augusta 图书馆；不把馆藏 MS.1383 当作机构自身。"
+- citation: "Wikipedia (en), Biblioteca Augusta, revision 1212538139. https://en.wikipedia.org/wiki/Biblioteca_Augusta. Accessed 2026-09-11."
+  location: "完整对象页2176字符，含正文、书目；本轮全文补足。"
+  sentence_summary: "1582捐赠与1623开放分开；现址和早期馆址不同。"
+- citation: "Wikidata, Q3639560, revision 2476730461. https://www.wikidata.org/wiki/Q3639560. Reviewed 2026-09-11."
+  location: "复用实体抓取，读取P131/P625/P856及rank；P571/P112未载，不造字段。"
+  sentence_summary: "佩鲁贾机构身份和地理定位；官网有preferred、normal及deprecated，不能当多个同时有效主页。"
+- citation: "Comune di Perugia, «Biblioteca Augusta», updated 2026-08-04. https://www.comune.perugia.it/biblioteca-augusta-perugia/. Accessed 2026-09-11."
+  location: "web工具所见181行页面全文（馆史、地址、馆藏、服务、附加项目）；requests503与稍后web超时另记，未当正文。"
+  sentence_summary: "市立历史文献保藏机构；Podiani1582捐赠、1623连续公共开放，现址Palazzo Conestabile della Staffa；未核到MS.1383专属目录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Perugia 藏 Pascoli 未刊 Trevisani 传 MS.1383 的机构。
+**中文：** 奥古斯塔图书馆是佩鲁贾市立历史文献保藏机构，起源于1582年普罗斯佩罗·波迪亚尼的捐赠，1623年起持续面向公众开放。本章以该机构定位帕斯科利的MS.1383；机构、馆舍与手稿分别登记。
 
-**English:** Haskell identifies this institution in Perugia as holding Pascoli's unpublished Life of Trevisani, MS.1383.
+**English:** The Biblioteca Augusta is Perugia's municipal historical library, originating in Prospero Podiani's donation of 1582 and continuously open to the public from 1623. The chapter uses the institution to locate Pascoli's MS.1383; the library, its building and the manuscript remain distinct objects.
 
-### 已有信息
+### 名称与组织
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Biblioteca Augusta | S1；标题中的语境说明为登记用语 |
-| 地点与文献 | Perugia；Pascoli 未刊传记 MS.1383；按来源时点 | S1，支持范围见各条句意摘要 |
+| 名称 | Biblioteca Augusta；Biblioteca comunale Augusta | S1、S4、S6 |
+| 性质 | 市立历史文献保藏图书馆；佩鲁贾市图书馆体系组成部分 | S6 |
+| 捐赠人 | Prospero Podiani；1582年捐赠与1623年公共开放是不同节点 | S4、S6 |
+| 所在城市 | 佩鲁贾／Perugia，意大利 | S1、S5、S6 |
+| 当前馆舍 | Palazzo Conestabile della Staffa，Porta Sole，Via delle Prome 15 | S4、S6 |
+| 早期馆舍 | Palazzo Meniconi，Piazza Piccola；未用现址覆盖早期馆址 | S4 |
+| 馆史与建筑史区别 | 馆方述及Maria Bonaparte Valentini于1849年移居该宫殿，不表示图书馆1849年迁入 | S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 沿革、馆藏与职能
 
+- **1582年：** Podiani捐赠藏书，构成机构起源。[S4、S6]
+- **1623年起：** 连续公共开放；不能把这一年当作首次形成藏书。[S4、S6]
+- **历史收藏：** 手稿、摇篮本、16世纪印本、期刊及19世纪形成的若干收藏；不据概述推断每件文献的材质或完好程度。[S6]
+- **保存与研究服务：** 文献保藏、书目咨询、借阅和馆际服务、古籍及手稿阅览、复制、数字化和修复等。具体服务开放情况须依馆方即时通知，不从历史介绍推定当日开放。[S6]
+- **本章馆藏线索：** Pascoli关于Trevisani的MS.1383。后来传记书目亦指向该馆相关手稿汇编，但本轮未取得该卷的当前项目目录。[S1；关联文献卡]
+- **研究书目：** Giovanni Cecchini的1978年馆史，以及Cristina Dondi、Laura Panzanelli Fratoni2016年有关早期馆史研究；当前从百科书目识别，未读两项研究全文。[S4]
 
-### 初步对齐（REV-034，2026-09-10）
+### 外部标识与字段范围
 
-**身份配对通过。** 佩鲁贾的 Augusta 图书馆；不把馆藏 MS.1383 当作机构自身。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Biblioteca_Augusta) 的 wikibase_item 与 [Wikidata Q3639560](https://www.wikidata.org/wiki/Q3639560) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[Wikipedia英文页](https://en.wikipedia.org/wiki/Biblioteca_Augusta)与[Wikidata Q3639560](https://www.wikidata.org/wiki/Q3639560)双向身份配对复用。P625坐标43.11361111、12.39055556仅作现代定位；P856优先官网为[佩鲁贾市政府馆页](https://www.comune.perugia.it/biblioteca-augusta-perugia/)。P571、P112在抓取中为空，成立节点与捐赠人采用馆史，不造WD已有对应值的印象。[S5、S6]
 
 ## 关系与证据
 
-S1：第一章；印刷页 7；OCR L236–237。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续补足规范名／别名、组织性质、成立与变更、驻地、职责、成员或管理者、历史沿革及研究来源。家户、宗教团体、政府、馆藏机构按实际对象区分，不默认现代法人身份。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 位于：[佩鲁贾](../places/perugia.md)，文件头保留该正式关系。馆藏线索：[Pascoli《特雷维萨尼传》手稿](../archives/pascoli-trevisani-life-ms1383.md)；此链接不另造关系。
+- S1：第一章，第7页，L236–237；S2–S3为初步身份核对；S4为完整百科页；S5为WD字段复核；S6为官网全文阅读。各条按文件头顺序。
+- 市政府列出的其他修复项目、受损文献或Binni展厅不是MS.1383的专属记录，也不是整座图书馆更名。当前机构身份已配对，具体手稿状态仍未核。

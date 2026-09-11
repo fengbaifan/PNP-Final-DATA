@@ -84,6 +84,7 @@
         "关系关联"
       ],
       "references": [
+        ".agents/skills/ingest/references/body-template.md",
         ".agents/skills/relate/references/claim-evidence-governance.md",
         ".agents/skills/relate/references/relation-governance.md",
         ".agents/skills/system-upgrade/references/work-package-contract.md"
@@ -145,6 +146,7 @@
         "冲突裁决"
       ],
       "references": [
+        ".agents/skills/ingest/references/body-template.md",
         ".agents/skills/system-upgrade/references/work-package-contract.md",
         ".agents/skills/verify/references/api-verification.md",
         ".agents/skills/verify/references/cascade.md",

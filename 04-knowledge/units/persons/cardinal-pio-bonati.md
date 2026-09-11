@@ -3,7 +3,7 @@ title: "卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）"
 name_en: "Carlo Pio di Savoia"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -22,40 +22,79 @@ sources:
 - citation: "Giuseppe Bonati, English Wikipedia. https://en.wikipedia.org/wiki/Giuseppe_Bonati. Accessed 2026-09-10."
   location: "导言，姓名异形与学习旅行段"
   sentence_summary: "画家 Giovanni Bonatti 的保护人具名为 Carlo Pio di Savoia，配合年代用于枢机消歧。"
+- citation: "Wikipedia (en), Carlo Pio di Savoia, revision 1362030305. https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia. Read 2026-09-11."
+  location: "全文4742字符，含早年、教职、继任表、注释及书目"
+  sentence_summary: "父母、枢机与主教履历；1650财政职务、军役和书目对象需区别，不采用年份混合。"
+- citation: "Wikidata, Q2939240, revision 2521251388. https://www.wikidata.org/wiki/Q2939240. Read 2026-09-11."
+  location: "enwiki；性别、生卒、亲属、职业、P39及限定时间／引用"
+  sentence_summary: "枢机、主教任命与祝圣分开，财政任职年精度不作1月1日；无引亲属项不直接导入。"
+- citation: "Salvador Miranda, PIO, iuniore, Carlo (1622–1689), The Cardinals of the Holy Roman Church. https://cardinals.fiu.edu/bios1654.htm. Accessed 2026-09-11."
+  location: "该人物传记完整段，含书目；网页工具403后直接HTTP200取得，不称全页所有人物已读"
+  sentence_summary: "1650司库署职员与1652司库、1654创建／授领衔、1655任命／祝圣、1663之前辞任分别记录。"
+- citation: "David M. Cheney, Carlo Cardinal Pio di Savoia, Catholic-Hierarchy. https://www.catholic-hierarchy.org/bishop/bpids.html. Accessed 2026-09-11."
+  location: "完整事件表、来源、祝圣谱系和所祝圣人表；网页解码失败后直接HTTP200按检测编码读取"
+  sentence_summary: "1663-02-26附Before限定；教职转换时间，不把祝圣谱系当血缘或师承。"
+- citation: "BONATTI, Giovanni, detto Giovannino del Pio o il Ferraresino, Dizionario Biografico degli Italiani 11 (1969),署名**. https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "传记全文7972字符中保护人、训练、六城旅行及收藏段"
+  sentence_summary: "明确Carlo Pio junior保护Bonatti；旅行次序与时长有传记分歧，不能借保护身份消除。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 资助 Giovanni Bonati 多城市学习旅行的枢机，完整姓名未由本章给出。只在该事实范围内可定位。
+**中文：** 卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia，1622–1689），亦称Carlo Pio junior／iuniore，是枢机和艺术赞助人。本章以其资助博纳蒂赴六座城市学习为例。他与叔辈枢机Carlo Emanuele Pio di Savoia不是同一人。
 
-**English:** Cardinal Pio funded Giovanni Bonati's study journey through several cities. The chapter gives no full name; identity remains limited to this patronage context.
+**English:** Carlo Pio di Savoia (1622–1689), also called Carlo Pio junior or iuniore, was a cardinal and patron. This chapter cites his funding of Bonati's study journey to six cities. He is distinct from his uncle, Cardinal Carlo Emanuele Pio di Savoia.
 
-### 已有信息
+### 姓名、基本信息与亲缘
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Cardinal Pio (Bonati’s patron) | S1；标题中的语境说明为登记用语 |
-| 赞助活动 | Giovanni Bonati 多城市学习旅行 | S1，支持范围见各条句意摘要 |
+| 全名 | Carlo Pio di Savoia；卡洛·皮奥·迪·萨伏依 | S2–S8 |
+| 区分词 | junior／iuniore；原登记Cardinal Pio (Bonati’s patron) | S1–S4、S7、S9 |
+| 性别 | 男 | S6 |
+| 出生 | 1622-04-07，Ferrara | S5–S8 |
+| 去世／安葬 | 1689-02-13，Rome；葬Gesù叔辈墓内 | S5–S8 |
+| 父亲 | Ascanio Pio di Savoia | S5、S7 |
+| 母亲 | Eleonora Mattei | S5、S7 |
+| 叔辈 | Carlo Emanuele Pio di Savoia | S5、S7 |
+| 配偶／子女 | 已读来源未确认，不填“无” | 阅读范围 |
+| 身份标签 | 枢机、主教、教廷行政职员、艺术赞助人 | S1、S5–S9 |
+| 国籍边界 | 意大利／教皇国语境；奥地利保护枢机不证明奥地利国籍 | S5 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 教育与职业履历
 
+| 时间 | 事项 | 依据／限制 |
+|---|---|---|
+| 1639年 | 前往罗马 | S7 |
+| 1640年代 | 有军旅、旅行及被俘叙述 | S5、S7；所属军队、地名和战役细节尚未核实，不据Duke of Ferrara简写重建政体 |
+| 1650年 | Apostolic Chamber职员 | S7；不是此年已任总司库 |
+| 1652年 | 取得总司库职务 | S7；买职细节未查原始收据 |
+| 1654-03-02／03-23 | 创建枢机／授帽和Santa Maria in Domnica领衔 | S7–S8；两个事件 |
+| 1654–1655年 | Urbino教皇使节 | S7 |
+| 1655-08-02／09-05 | Ferrara主教任命／祝圣 | S6–S8 |
+| 1663-02-26之前 | 辞去Ferrara教区治理 | S7–S8；Before限定必须保留 |
+| 1664-02-11 | Sant’Eustachio领衔执事 | S5、S7–S8 |
+| 1667-11-14 | Santa Prisca领衔司铎 | S5、S7–S8 |
+| 1671–1672年 | 枢机团司库 | S6–S7；与宗座财政署司库是不同职位 |
+| 1675-01-28 | San Crisogono领衔司铎 | S5、S7–S8 |
+| 1681-12-01 | Santa Maria in Trastevere领衔司铎 | S5、S7–S8 |
+| 1683-02-15 | Sabina枢机主教 | S5、S7–S8 |
 
-### 初步对齐（REV-034，2026-09-10）
+祝圣者Giambattista Spada及助礼者Nembrini、Theodoli属于教职仪式关系，不是父母、血缘祖先或绘画导师。教育资料在S7缺失；未据其他网页片段补具名学位。
 
-**身份配对通过。** Carlo Pio di Savoia（1622–1689）；Bonati 英文页的具名保护人与旅行线索支持该配对，区别叔辈 Carlo Emanuele。
+### 艺术赞助、收藏与研究入口
 
-名称记录：规范显示为 卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）；原登记名／来源名形 Cardinal Pio (Bonati’s patron) 保留为检索异名，不因显示更新改动稳定路径。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia) 的 wikibase_item 与 [Wikidata Q2939240](https://www.wikidata.org/wiki/Q2939240) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- **本章：** 资助[博纳蒂](giovanni-bonati.md)到Florence、Bologna、Modena、Parma、Milan、Venice学习。（S1）
+- **外部传记：** Carlo Pio junior经画家早期教师结识并保护博纳蒂；复制名作、参与收藏管理的记载与具体旅行分开。旅行顺序和停留时长未能统一。（S9）
+- **书目区别：** WP列Baroni《Un cardinale del Seicento: Carlo Emanuele Pio di Savoia》（1969），题名对象是叔辈，不能直接当作本人的专传。Cardella卷VII相关页作为检索入口，原书未读。（S5、S7）
+- 具体藏品目录、委托金额和遗产处置仍须清册／馆藏证据，不以收藏家标签填满作品清单。
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L186–187。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+**S1：第一章，印刷页6，OCR L186–187。** 句意为皮奥枢机出资支持博纳蒂六城学习旅行；本章本身没有完整姓名。S2–S4初步配对，S9专业传记的junior与人物训练情节提供补充消歧依据。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[Wikipedia](https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia)与[Wikidata Q2939240](https://www.wikidata.org/wiki/Q2939240)维持已核双向配对，完整姓名称谓不再仅靠本章推出。本卡暂无发出的正式关系；博纳蒂卡已有指向本卡的关系，本轮不另造反向事实。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+各来源按元数据S1–S9编号。未决项包括早期军旅、学业和收藏逐件归属；详细内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/cardinal-pio-bonati定位。

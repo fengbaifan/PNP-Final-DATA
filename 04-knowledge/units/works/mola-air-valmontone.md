@@ -3,7 +3,7 @@ title: "莫拉瓦尔蒙托内《空气》构图方案（Mola’s design for Air 
 name_en: "Mola’s design for Air at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"part_of","target":"works/mola-four-elements-valmontone.md","note":"空气是四元素装饰题材之一，本卡保留方案内容。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 308–319; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,38 +15,42 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 316–319; print pp. 9
+- citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "复用人物卡已有全文阅读，本次定向回读Valmontone合同方案、付款与诉讼段；重新保存原页正文。"
+  sentence_summary: "1300scudi合同方案未获签署；1658年底已绘若干部分；未完成Aurora由Cozza奉命毁去；诉讼至1664。"
+- citation: "Museo di Palazzo Doria Pamphilj, Il Museo di Palazzo Doria Pamphilj. https://www.palazzodoriapamphiljvalmontone.it/il-museo-di-palazzo-doria-pamphilj/. Accessed 2026-09-11."
+  location: "7614字符正文全文已读，含考古、建筑、各房间装饰与图注；不等于实地或影像鉴定。"
+  sentence_summary: "1651购入、1654建新宫、约1670完成；Molli及1666起Del Grande；現存空气厅Preti1661，Mola现存America和Africa两室1658–59。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《四元素》中的空气部分包含 Juno 离云、Milky Way、Zephyr 与 Chloris、Ganymede 及 Iris 向 Turnus 显现等题材。本卡登记作者所述方案，不声称独立看过壁画。
+**中文：** 本章所述莫拉为瓦尔蒙托内《四元素》工程构思的《空气》方案，包含多项古典神话。外部研究说明莫拉的空气厅装饰曾部分实施并遭毁改；现存普雷蒂1661年《空气》厅不能作为莫拉方案的现状或图像。[S1–S3]
 
-**English:** The scheme for Air in the Four Elements includes Juno, clouds, the Milky Way, Zephyr and Chloris, Ganymede, Iris and Turnus. The card records the chapter's described iconographic programme, not a fresh visual examination of the painting.
+**English:** The chapter describes Mola's proposed Air scheme for the Four Elements project at Valmontone through several classical myths. External scholarship records partial execution and destruction of Mola's decoration; the surviving Air room painted by Mattia Preti in 1661 is not the present state or image of Mola's scheme. [S1–S3]
 
-### 已有信息
+### 方案字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Mola’s design for Air at Valmontone | S1；标题中的语境说明为登记用语 |
-| 方案内容 | 朱诺、云层、银河、泽菲罗斯与克洛里斯、伽倪墨得斯、伊里斯、图尔努斯 | S1，支持范围见各条句意摘要 |
+| 构思者 | Pier Francesco Mola | S1 |
+| 上属项目 | [瓦尔蒙托内四元素方案](mola-four-elements-valmontone.md) | S1 |
+| 建筑 | [Valmontone的Pamfili宫殿](../places/pamfili-country-house-valmontone.md) | S1–S3 |
+| 图像题材 | Juno离云、Milky Way、Zephyr与Chloris、Ganymede、Iris向Turnus显现 | S1；分别保留原词，不推定全部已绘 |
+| 创作时间 | 方案的独立起草日期未核；相关工程1657–1658语境 | S1、S2 |
+| 材质／尺寸 | 方案载体及尺寸未明；不能借现存普雷蒂壁画填入 | S1–S3 |
+| 赞助人 | Camillo Pamfili | S1、S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 实施与后续版本
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- S2记1658年底Mola已绘Aurora及空气厅四个画面；并不是只停留在纸上，也不等于本章列举的每个题材逐一完成。
+- 争议后Camillo令Cozza毁去未完成Aurora。此事有专业研究依据，未读原诉讼记录。[S2]
+- 馆方记录现存空气厅为Mattia Preti于1661年绘制，内容含时间、名声、爱情、命运以及昼夜行进。它是后来的独立装饰，不能拿来描述莫拉原构图。[S3]
 
 ## 关系与证据
 
-S1：第一章；印刷页 9；OCR L316–319。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+无这项具体方案的Wikipedia—Wikidata确认配对；不借作者或宫殿QID。S1第一章第9页L316–319；S2Mola专业研究；S3馆方现存装饰说明。保留原有part_of关系。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+已补入原方案／局部执行／毁改／现存后作的界限，但本章神话条目与每个原画面的对应、原稿实物、准确毁损日期仍未核。第一章与外部资料各标来源，没有引用第六章。

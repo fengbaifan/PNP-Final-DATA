@@ -3,7 +3,7 @@ title: "卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Sa
 name_en: "Caravaggio’s Martyrdom of Saint Peter commission"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -19,38 +19,46 @@ sources:
 - citation: "Wikidata, Q685916, revision 2519207942. https://www.wikidata.org/wiki/Q685916. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Q685916 为 1601 年 Cerasi 礼拜堂现画，本卡记录 1600 年委托及预备设计要求；原约、初版和现作的对应尚未核定。"
+- citation: "Wikipedia (en), Crucifixion of Saint Peter (Caravaggio), revision 1361249053. https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio). Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
+  sentence_summary: "现存1601布面版、1600柏木板原约与后续版本史分开；合同设计要求、报酬和期限是条目依据刊本的转述，不是本次查阅原合同。"
+- citation: "Catalogo generale dei Beni Culturali, Crocifissione di San Pietro, 1200182974. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200182974. Accessed 2026-09-11."
+  location: "网页对象记录全文2591字符；编目1984、更新2006；未读附件完整档案"
+  sentence_summary: "卡拉瓦乔、罗马人民圣母堂、布面油画；说明1600-09-24两画委托、八月期限及1601-11-10支付结算，不能把简写tele当作原合同底材逐字转录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 与《圣保罗归化》同段所述 1600 年委托，要求提交方案；不把合同要求等同已查到并看过实际草图。
+**中文：** 本知识元记录卡拉瓦乔1600年切拉西礼拜堂《圣彼得殉难》委托及预备设计要求。原约柏木板与1601年前后完成、现存礼拜堂的布面《圣彼得钉十字架》分开记录，不把现作全部物理字段赋给委托。（S1、S4–S5）
 
-**English:** The 1600 commission required designs for the Martyrdom of Saint Peter alongside the Conversion of Saint Paul. Haskell's contract discussion does not establish that a particular sketch was executed or survives.
+**English:** This unit records the 1600 Cerasi Chapel commission for Caravaggio’s Martyrdom of Saint Peter and its preparatory-design requirement. The contracted cypress panel is distinguished from the later canvas Crucifixion of Saint Peter in the chapel; the surviving work’s physical properties are not treated as attributes of the commission itself. (S1, S4–S5)
 
-### 已有信息
+### 委托字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Caravaggio’s Martyrdom of Saint Peter commission | S1；标题中的语境说明为登记用语 |
-| 合同内容 | 1600 年；须提交设计；不等于已有实物稿证据 | S1，支持范围见各条句意摘要 |
+| 创作者 | 卡拉瓦乔／Caravaggio | S1、S4–S5 |
+| 题材与题名 | 本章Martyrdom of Saint Peter；现作常题Crucifixion of Saint Peter／圣彼得钉十字架 | S1、S4–S5；题名差异不自动等于不同圣人 |
+| 签约时间 | 1600-09-24 | S4–S5 |
+| 委托方 | Tiberio Cerasi | S4 |
+| 原定位置 | 罗马人民圣母堂切拉西礼拜堂，与圣保罗题配合 | S4–S5 |
+| 原约底材／规格 | 柏木板，10×8 palmi；八个月期限 | S4；S5只概称tele |
+| 设计要求 | 正式执行前提交人物与其他设计 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 版本与时间
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**版本待证。** Q685916 为 1601 年 Cerasi 礼拜堂现画，本卡记录 1600 年委托及预备设计要求；原约、初版和现作的对应尚未核定。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- **原约／早期版本：** S4介绍早期圣彼得版本的后续清册及失踪线索；其现在所在未能确认，不能把瓦伦西亚等候选作品直接认作原版。（S4）
+- **现存布面版：** S4记约1601、230×175厘米，描绘圣彼得倒钉十字架；S5确认卡拉瓦乔、布面油画及人民圣母堂，网页未列尺寸，尺寸仅属S4版本字段。（S4–S5）
+- **1601-11-10：** 文献概述指出结算及总价比原约少100 scudi；不从结算日反推所有施工节点。（S4–S5）
+- **1605：** S4记木工安装支付线索，不能据此将原约日期或绘制年份改为1605。（S4）
+- **图像与摹本：** S4图注所列Honthorst摹图不等于卡拉瓦乔本人执行前所交设计。（S4）
 
 ## 关系与证据
 
-S1：第一章；印刷页 11；OCR L397–401。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+候选[Wikipedia：Crucifixion of Saint Peter (Caravaggio)](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)) ↔ [Wikidata Q685916](https://www.wikidata.org/wiki/Q685916)对应现存布面版，不能因此给整个委托对象确认相同QID。S4全文12577字符已读；S5官方网页全文已读，未读附件或原始合同。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[同一合同](../archives/caravaggio-altarpieces-contract-1600.md)、[圣保罗委托](caravaggio-conversion-saint-paul.md)与[画家](../persons/caravaggio.md)为关联导航，文件头尚无正式边。本章证据足以保留委托与提交设计的事实。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**未决：** 原约刊本、第一版身份／流传及当时拒收或替换原因；现版馆藏编目支持现版，不替代整个执行过程的证据。S编号、原章页／行号及句意摘要保持元数据顺序。

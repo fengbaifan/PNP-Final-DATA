@@ -3,7 +3,7 @@ title: "题材与图像志协商（Consultation over subjects and iconography）
 name_en: "Consultation over subjects and iconography"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8, 9.'
@@ -20,38 +20,42 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 382–392; print pp. 11
+- citation: "Vincenzo Armanni, Delle lettere..., vol. I (Roma: Iacomo Dragondelli, 1663). Biblioteca Nazionale Centrale di Roma / Google scan via Internet Archive. https://archive.org/details/bub_gb_7QeLKwkXauIC. Accessed 2026-09-11."
+  location: "题名页及相邻相关信的OCR选读；所引致Camillo信pp.215–216全文逐页对影像，非整卷或原信手稿。"
+  sentence_summary: "卷一献给Camillo Pamphili；pp.215–216报告送去十一项家族史题材，首项族谱树，其余十项许画家改进表现但须保留核心；未载发信日期与地点。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 在委托主题既定后，画家可向赞助人追问图像细节，也可借书、向学者朋友求助；方向不总是赞助人向画家下令。
+**中文：** 题材与图像志协商是委托人、画家及可能参与的学者围绕故事、人物与表现方式交换意见的历史做法。阿尔曼尼信提供一个具体实例：提出家族历史题材，同时允许画家在不改变核心的前提下改进表现。[S1–S3]
 
-**English:** Painters could consult patrons, books or learned advisers when developing a prescribed subject. The chapter describes negotiation as well as instructions; it does not reduce every commission to one-way commands from patrons.
+**English:** Consultation over subjects and iconography is the historical exchange of ideas among patrons, painters and, where involved, learned advisers concerning stories, figures and their representation. Armanni's letter offers a specific example: it proposes subjects from family history while allowing the painter to improve their presentation without altering their essentials. [S1–S3]
 
-### 已有信息
+### 参与者、材料与行动
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Consultation over subjects and iconography | S1、S2；标题中的语境说明为登记用语 |
-| 参与者与材料 | 画家、赞助人、学者；书籍及图像方案 | S1、S2，支持范围见各条句意摘要 |
+| 参与者 | 委托人、画家；学者或朋友按案例介入，不要求每次均有专职顾问 | S1–S3 |
+| 输入材料 | 题材要求、书籍、历史叙事、信件或说明 | S1、S3 |
+| 行动 | 提问、借书、求助、选题、讨论表现和修改；方向可以双向 | S1–S3 |
+| 可形成的结果 | 题材清单、图像说明、建议或进一步问题；不等于已执行作品 | S1、S3 |
+| 自由与限制 | 题材核心、表现构思及画家个人偏好可分别协商 | S1–S3 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 具体实例
 
+- Guercino追问细节、Mola借书求助，说明画家不是仅被动接受指令。[S1]
+- Cortona、Rosa的偏好与Valentin收到的具体指示不同；不能概括成统一“完全自由”或“完全服从”。[S2]
+- [阿尔曼尼致Camillo Pamfili信](../archives/armanni-pamfili-letter-undated.md)，刊本I，pp.215–216，报告送去十一项Historie；首项是族谱树，另外十项未逐名列出。[S3]
+- 该信允许未具名画家另作更巧妙的表现，同时保留核心；本信不证明整套方案已实施，也不具名莫拉。[S3]
 
-### 初步对齐（REV-034，2026-09-10）
+### 身份对齐
 
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+仍无这项历史惯例独立的Wikipedia—Wikidata确认配对；不以宽泛iconography概念替代操作过程。刊本外证已补充角色责任与方案／实施边界。
 
 ## 关系与证据
 
-S1：第一章；印刷页 8, 9；OCR L274–277,288–330；S2：第一章；印刷页 11；OCR L382–392。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+暂无正式关系。S1第一章第8–9页L274–277、288–330；S2第11页L382–392；S3为实际读过的阿尔曼尼信pp.215–216。内容链接是导航。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+未读完整十一题方案或对应执行记录，不生成十一件作品，不从同章Mola案例推定信中画家。程序是历史做法，不转为本项目必经审核步骤。

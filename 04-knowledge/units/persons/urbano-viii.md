@@ -40,40 +40,111 @@ sources:
 - citation: "Wikidata, Q131579, revision 2539416092. https://www.wikidata.org/wiki/Q131579. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Maffeo Barberini／Urban VIII，1623–1644 年在位教皇；保留本章赞助史解释范围。"
+- citation: "Wikipedia (en), Pope Urban VIII, revision 1362440731. https://en.wikipedia.org/wiki/Pope_Urban_VIII. Accessed 2026-09-10."
+  location: "全文：信息框、所有正文节、图注、References、Sources、Works及External links；REV-052"
+  sentence_summary: "姓名、亲缘、任职、赞助及研究线索；全文阅读不代表采纳出生地、授职年和Cathedra委托等有疑点陈述。"
+- citation: "Wikidata, Q131579, revision 2539416092. https://www.wikidata.org/wiki/Q131579. Accessed 2026-09-10."
+  location: "P21/P569/P570/P19/P20/P22/P25/P69/P39/P214/P245；REV-052"
+  sentence_summary: "逐项比较生年日期、历法、亲属标签和职务限定；生日5日与15日、驻法任期等保留异文。"
+- citation: "The Holy See, Urbano VIII. https://www.vatican.va/content/vatican/it/holy-father/urbano-viii.html. Accessed 2026-09-10."
+  location: "人物表：Inizio pontificato、Fine pontificato、Nome secolare、Nascita；REV-052"
+  sentence_summary: "世俗名Maffeo Barberini、1623年8月6日与9月29日、1644年7月29日及Fiorentino。"
+- citation: "Georg Lutz, URBANO VIII, Enciclopedia dei Papi (2000). https://www.treccani.it/enciclopedia/urbano-viii_(Enciclopedia-dei-Papi)/. Accessed 2026-09-10."
+  location: "出生与家庭、1604年授职及驻法任命段定向阅读；未读该长传记全文；REV-052"
+  sentence_summary: "全名Maffeo Virginio Romolo Barberini，佛罗伦萨1568年4月5日出生并受洗；1604年9月高级圣秩与10月28日主教祝圣，区别WP异文。"
+- citation: "Pietro Zander, The Cathedra of Saint Peter, Fabbrica di San Pietro. https://www.basilicasanpietro.va/en/san-pietro/the-cathedra-of-saint-peter. Accessed 2026-09-10."
+  location: "全文中铜质宝座纪念物委托与1666年完成段；REV-052"
+  sentence_summary: "委托者为Alexander VII，1666完成；不把现存铜质Cathedra采作Urban VIII委托。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1623 年即位的教皇，第一章亦使用 Maffeo Barberini。Haskell 将其赞助视为既有发展高潮，而非从无到有的新纪元；赞助规模扩大与权力收紧并存。
+**中文：** 乌尔班八世原名Maffeo Barberini，1623–1644年任教皇，是本章的关键赞助人。Haskell把其赞助理解为既有发展的高潮，并指出赞助规模扩大与权力控制加强并存；具体措施的实施情况须与颁布本身区分。
 
-圣路加学院 1633 年措施未充分执行并最终撤回。与 Camassei 的八人祭坛画委托为具体事例。无本章来源的出生年份不补填。
+**English:** Urban VIII, born Maffeo Barberini, was pope from 1623 to 1644 and a central patron in chapter 1. Haskell interprets his patronage as the culmination of earlier developments, combining increased patronage with tighter control; the implementation of particular measures must be distinguished from their promulgation.
 
-**English:** Acceding in 1623 and also called Maffeo Barberini, Urban VIII represents a culmination of earlier patronage with tighter control. Academy measures in 1633 were incompletely enforced and withdrawn; Camassei's eight-figure altarpiece is a specific commission. An unsupported birth year is omitted.
+### 姓名
 
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Urban VIII | S1、S2、S3、S4；标题中的语境说明为登记用语 |
-| 称谓及措施 | Maffeo Barberini；1623 即位；1633 学院措施及撤回 | S1、S2、S3、S4，支持范围见各条句意摘要 |
+| 教皇名 | 乌尔班八世（Urban VIII）；意大利语Urbano VIII；拉丁语Urbanus VIII | S7、S9 |
+| 世俗常用名 | Maffeo Barberini | S2、S9 |
+| 全名异文 | Maffeo Virginio Romolo Barberini（Lutz）；Maffeo Vincenzo Barberini（WP） | S10／S7；不拼成一个姓名 |
+| 同名边界 | 不与其家族中1631–1685年的同名Maffeo混同 | S7消歧说明 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 基本信息
 
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 性别 | 男（male） | S8，P21 |
+| 出生日期 | Lutz记1568年4月5日；WP导言把此日称作受洗日 | S10、S7 |
+| 受洗日期 | 1568年4月5日，佛罗伦萨 | S10 |
+| 出生地点 | 采用佛罗伦萨的传记记录；WP记Barberino Val d’Elsa，保留差异 | S10、S8；S9仅称Fiorentino |
+| 去世日期 | 1644年7月29日 | S7–S9；WD公历日精度 |
+| 去世地点 | [罗马（Rome）](../places/rome.md) | S7、S8 |
+| 国籍／政治身份 | 教皇与教皇国统治者；不填现代国籍 | S7 |
+| 身份标签：赞助人 | 艺术与建筑赞助 | S1–S4 |
+| 身份标签：诗人 | 拉丁诗写作 | S7 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 亲缘
 
-**身份配对通过。** Maffeo Barberini／Urban VIII，1623–1644 年在位教皇；保留本章赞助史解释范围。
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 父亲 | Antonio Barberini | S7、S8、S10；不与下列同名亲属合并 |
+| 母亲 | Camilla Barbadori；WP作Barbadoro | S8、S10／S7 |
+| 叔辈监护人 | Francesco Barberini，宗座原书记官 | S7、S10；不是其同名侄子枢机 |
+| 兄弟 | Antonio Marcello Barberini（年长者） | S7 |
+| 侄子 | Francesco Barberini | S7 |
+| 侄子 | Antonio Barberini（年轻者） | S7 |
+| 侄子 | Taddeo Barberini | S7 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Urban_VIII) 的 wikibase_item 与 [Wikidata Q131579](https://www.wikidata.org/wiki/Q131579) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 教育与职业履历
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 时间 | 活动 | 依据 |
+|---|---|---|
+| 早年 | 接受耶稣会教育 | S7、S10 |
+| 1589 | 在比萨大学取得法律博士学位 | S7；S8 P69对应University of Pisa |
+| 1604年9月 | 获高级圣秩，具体序列待核 | S10；不直接采用WP的1592年9月24日授职 |
+| 1604年10月28日 | 主教祝圣 | S7、S10 |
+| 1604年起 | 驻法教廷使节；结束年WP概括1606，WD任职项至1607年9月20日，暂不统一 | S7、S8 |
+| 1606年9月11日 | 获擢升为枢机 | S7 |
+| 1608–1617 | 任Spoleto主教 | S7；S8有具体起止限定，未将日精度视为另行独立验证 |
+| 1623年8月6日 | 当选教皇 | S7–S9 |
+| 1623年9月29日 | 加冕 | S7、S9；与当选日分列 |
+
+### 赞助、著述与研究
+
+| 类型 | 内容 | 依据 |
+|---|---|---|
+| 艺术赞助 | [贝尔尼尼](gian-lorenzo-bernini.md)及圣彼得大殿华盖等工程 | S7；具体作品逐项辨别，不整段导入委托清单 |
+| 本章委托 | Camassei为S. Sebastiano作八人物祭坛画 | S3，p.10，L336–338、372–374 |
+| 著述线索 | Constitutio contra astrologos iudiciarios，1631 | S7 Works；未读原刊 |
+| 研究著作 | Laurie Nussdorfer，Civic Politics in the Rome of Urban VIII，Princeton UP，1992 | S7书目；未通读 |
+| 研究论文 | Carla Keyvanian，“Concerted Efforts: The Quarter of the Barberini Casa Grande in Seventeenth-Century Rome”，JSAH 64(3), 2005，292–311 | S7书目；未读正文 |
+
+### 本章相关内容
+
+S1：p.3，L15–34，1623年后的赞助规模与控制。S2：p.4，L71–83，同乡网络及世俗名。S3：p.10，具体祭坛画与收据。S4：pp.17–18，L691–698、717–722，学院地位、保护人与1633措施，后文明确未充分实行且撤回。
 
 ## 关系与证据
 
-S1：第一章；印刷页 3；OCR L15–34；S2：第一章；印刷页 4；OCR L71–83；S3：第一章；印刷页 10；OCR L336–338,372–374；S4：第一章；印刷页 17, 18；OCR L691–698,717–722。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[Wikidata Q131579](https://www.wikidata.org/wiki/Q131579) ↔ [Wikipedia：Pope Urban VIII（英文）](https://en.wikipedia.org/wiki/Pope_Urban_VIII)。REV-034配对沿用，REV-052全文已读；ULAN 500057346、VIAF 96062867为WD标识，原站未核。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 关系记录
+
+本卡暂无正式出边；[圣路加学院](../institutions/accademia-di-san-luca.md)、[贝尔尼尼](gian-lorenzo-bernini.md)等内容链接供阅读，正式关系须按具体行为和证据统一处理。
+
+### 证据、排除与未决项
+
+S1–S4为章内证据，S5–S6是历史对齐，S7–S8为本轮WP全文及WD字段，S9–S11为各自标明范围的补证。WP与WD不算独立双源。
+
+- 姓名、出生地、出生／受洗日、授职年和驻法任期有差异，保留分字段来源。WD生日还有4月15日normal项，两项均标儒略历，不能仅见相差十日就自行归并。
+- WP列“cathedra”为其委托；S11将现存铜质宝座纪念物归于亚历山大七世并记1666完成。本卡不采用前者，也不把不同时期的设计或构想自动等同现存作品。
+- 家族整体赞助不一概算作本人委托；债务统计、传闻、轶事和虚构文学形象不转为未经限定的本人生平事实。
+- 圣彼得数字体验页本次返回502；实际改读可访问的机构作品说明，不将访问失败计为已读。
+
+[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体source_backed，补足仍有上述未决项。

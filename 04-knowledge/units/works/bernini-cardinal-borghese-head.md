@@ -21,38 +21,92 @@ sources:
 - citation: "Wikidata, Q16534303, revision 2444019046. https://www.wikidata.org/wiki/Q16534303. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Wikipedia 页合述两件 Scipione 胸像，但 Q16534303 标签限定第一版；章中只说 head，不能把双向链接相同误当版本一致。端点及版次继续待证。"
+- citation: "Wikipedia (en), Two Busts of Cardinal Scipione Borghese, revision 1361325465. https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese. Accessed 2026-09-10."
+  location: "候选对象页全文：信息框、描述、委托、文献日期、流传、评价、预备稿及注释"
+  sentence_summary: "明确联系 1633-01-29 Testi 致 Fontana 信与 Scipione 胸像，但页面合述两件，不能确定信中的具体版本。"
+- citation: "Wikidata, Q16534303, revision 2444019046. https://www.wikidata.org/wiki/Q16534303. Accessed 2026-09-10."
+  location: "候选 labels 与 enwiki sitelink、WP wikibase_item；未向本对象导入该候选全部属性"
+  sentence_summary: "英文标签为第一版，enwiki 合述两版；链接互返不消除对象范围错位。"
+- citation: "Sonja Felici, Busto di Scipione Borghese, Galleria Borghese, January 2024, inv. CCLXV. https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2. Accessed 2026-09-10."
+  location: "技术卡、全文与书目；原档、Testi 原信及付款原件未读"
+  sentence_summary: "第一版 1632、Carrara marble、77.2 cm，馆号及保存史；记教皇下令及不同付款记载。"
+- citation: "Sonja Felici, Bust of Scipione Borghese, Galleria Borghese, January 2024, inv. CCLXVI. https://www.collezionegalleriaborghese.it/en/opere/bust-of-scipione-borghese. Accessed 2026-09-10."
+  location: "技术卡、目录正文及书目全文；所引原著未读"
+  sentence_summary: "第二版 1632、大理石、78 cm，与第一版区分；制作轶事有不同传述，不能当精确工期。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 相关信件据称记价 1000 scudi。枢机未在该脚注具全名，版本与现藏仍待核。
+**中文：** 第一章转引泰斯蒂 1633 年致丰塔纳的信，记贝尔尼尼为博尔盖塞枢机所作肖像头部的酬金为 1,000 scudi。外部目录与信件对应线索现将被表现者指向希皮奥内·博尔盖塞，但馆藏有两件 1632 年胸像，信件尚不能区分具体一件。本卡继续记录章中作品指称，不把两件实物并为一个已对齐对象。（S1、S4、S6–S7）
 
-**English:** A letter cited in chapter 1 assigns 1,000 scudi to Bernini's portrait head of Cardinal Borghese. This note does not give the sitter's full name or resolve the specific version and present location.
+**English:** Chapter 1 cites Testi's 1633 letter to Fontana, reporting a payment of 1,000 scudi for Bernini's portrait head of Cardinal Borghese. External catalogue and correspondence references now identify the sitter as Scipione Borghese, but two marble busts dated 1632 survive, and the letter does not distinguish one version. This entry retains the chapter's work reference without merging the two objects into a single aligned entity. (S1, S4, S6–S7)
 
-### 已有信息
+### 题名、责任者与日期
+
+| 字段 | 内容 | 依据与限定 |
+|---|---|---|
+| 项目题名 | 贝尔尼尼的博尔盖塞枢机肖像头部／Bernini’s portrait head of Cardinal Borghese | S1；描述性题名，非原作者题名 |
+| 对应馆方题名 | Busto di Scipione Borghese／Bust of Scipione Borghese | S6–S7 |
+| 创作者 | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | S1、S6–S7 |
+| 被表现者 | [希皮奥内·博尔盖塞（Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | S4 将同日同发收人的信与胸像联系；S6–S7 目录及书目补强，不仅靠第 4 页同名推定 |
+| 信件日期 | 1633-01-29 | S4；[书信卡](../archives/testi-fontana-bernini-letter.md) 已保存 Fraschetti 刊引来源与范围 |
+| 现存对应版本年代 | 两件均为 1632 年；不把 1633 年书信日期当制作年份 | S6–S7 |
+| 制作地点 | 罗马的工作语境明确，具体工坊未核定 | S4、S6–S7；不补地址 |
+| 委托与报偿 | 馆方记教皇下令、枢机报偿；分别记录。1632 年的教皇不可能是已于 1621 年去世的保禄五世 | S6；S4 也提示传记年代问题 |
+
+### 两件现存实物的对照
+
+以下是候选实物各自信息，不是本章对象已经选定的属性。
+
+| 字段 | 第一版 | 第二版 |
+|---|---|---|
+| 馆号 | CCLXV | CCLXVI |
+| 目录日期 | 1632 | 1632 |
+| 材质 | 卡拉拉大理石 | 大理石 |
+| 高度 | 77.2 cm | 78 cm |
+| 位置 | 罗马 Galleria Borghese，第 14 室 | 罗马 Galleria Borghese，第 14 室 |
+| 形制区别 | 额部石料裂纹；上身及神情表现见 S6 | 肩部较方，披肩褶皱与抛光有差别；也有较小裂纹，不能笼统写绝无缺陷 |
+| 来源 | S6 | S7 |
+
+材质是被雕刻的石料；衣服“丝绸”是表现对象，不填为雕塑材质。尺寸分别用馆方对象卡，不将 Wikipedia 信息框单一 78 cm 套到两件上。制作三天／十五夜为传记轶事异文，不固定为施工工期。
+
+### 金额与证据责任
+
+| 记录 | 金额 | 性质与限制 |
+|---|---|---|
+| Haskell 引 Testi 书信 | 1,000 scudi | S1 p.17 L700–703；书信报道，不等于账簿付款 |
+| 馆方所引报闻 | 500 zecchini，另有值 150 scudi 的钻石 | S6；币种和实物报酬分开，不自动兑换凑数 |
+| 馆方所引 1632 年 12 月账簿 | 500 scudi | S6；所引原始登记未读，不据此直接判前一报道虚假 |
+| Wikipedia 所列账簿日期 | 1632-12-23 | S4 的原始文献线索；未独立核收据原件 |
+
+各记录是否针对同一结算范围、包括两版或包含其他酬赠尚未解决；不能把差值自动解释为第二版价格。
+
+### 流传与研究
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Bernini’s portrait head of Cardinal Borghese | S1；标题中的语境说明为登记用语 |
-| 创作者与记载金额 | Bernini；引信记 1,000 scudi | S1，支持范围见各条句意摘要 |
-
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**版本待证。** Wikipedia 页合述两件 Scipione 胸像，但 Q16534303 标签限定第一版；章中只说 head，不能把双向链接相同误当版本一致。端点及版次继续待证。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 早期陈列 | 两版在 Villa Borghese 不同位置陈列 | S6–S7 |
+| 后续流传 | 1892 年由意大利国家购入，经威尼斯 Accademia 保存，1908 年回 Villa Pinciana | S6–S7；不套用博物馆整体 1902 年购入日期 |
+| 研究入口 | Howard Hibbard, “Un nuovo documento sul busto del cardinale Scipione Borghese del Bernini” (1961), pp.101–105 | S6–S7 书目；原论文未读 |
+| 书信版本入口 | Fulvio Testi, *Lettere [1609–1633]*, ed. M. L. Doglio, vol. I (1967), p.463 | S6–S7 书目；该版未读 |
+| 评价者 | Hibbard、Wittkower、Avery 对两版各有评价，来自 S4 转述 | 评价不等同版本同一性证据，不替代原著 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 17；OCR L700–703。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 对齐结论
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+**仍为版本待证，未采用确认 QID。** [英文 Wikipedia 两件胸像页](https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese) 与 [Wikidata Q16534303](https://www.wikidata.org/wiki/Q16534303) 链接互返，但后者英文标签只指第一版。本人身份、两件共同题材和单件作品身份是不同判断。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+本轮将“被表现者也完全不明”缩小为“Scipione 已有外部对应依据，具体版次与结算范围仍未明”；初步对齐统计继续归版本待证，不计新增配对通过。
+
+### 正式关系与导航
+
+保留作品 → [贝尔尼尼](../persons/gian-lorenzo-bernini.md) 的 **created_by** 正式边，证据为第一章 p.17 L700–703。被表现者与[泰斯蒂书信](../archives/testi-fontana-bernini-letter.md)在内容字段提供导航；集中关系阶段再按具体证据接收相应边，不以新增链接冒充已完成关系处理。
+
+### 当前结果
+
+候选版本、馆号、材质、尺寸、陈列与报偿记录已分项保存；未选定单件 QID、未新建两件卡、未改原章文本或既有关系。原信、支付档案及完整实物鉴定仍待核。整卡维持 source_backed。
+
+[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足与裁决记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)

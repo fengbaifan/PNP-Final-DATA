@@ -3,7 +3,7 @@ title: "定金（Caparra）"
 name_en: "Caparra"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -33,40 +33,52 @@ sources:
 - citation: "Wikidata, Q699604, revision 2441912359. https://www.wikidata.org/wiki/Q699604. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 itwiki sitelink；判断范围见正文"
   sentence_summary: "英文是地名消歧义页；意大利语 Q699604 解释现代民法担保金，本章可能兼指预付款，历史合同功能未核前不照搬现代法律定义。"
+- citation: "Wikipedia (it), Caparra, revision 137490065. https://it.wikipedia.org/wiki/Caparra. Accessed 2026-09-11."
+  location: "全文7490字符，含图注、注释及书目；对象页，不含外链原著"
+  sentence_summary: "现代民法担保金概念与本章预付款范围不同，不移入当代退约或税务条文。"
+- citation: "Wikidata Q699604, revision 2441912359. https://www.wikidata.org/wiki/Q699604. Accessed 2026-09-11."
+  location: "双向sitelink及适用字段／rank／限定词／引用；采纳边界见正文"
+  sentence_summary: "双向一致只证明现代法概念候选；历史预付款功能范围仍未解决，不整批导入法律属性。"
+- citation: "Treccani, Vocabolario on line, caparra. https://www.treccani.it/vocabolario/caparra/. Accessed 2026-09-11."
+  location: "词条全文"
+  sentence_summary: "既有强化合同／担保的专门义，也有普通用语中预付款义；不能以同词推出十七世纪合同有现代特定效力。"
+- citation: "National Gallery of Art, Italian Paintings of the Seventeenth and Eighteenth Centuries, Guercino entries, pp.163,167–169. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/italian-paintings-17th-and-18th-centuries.pdf. Accessed 2026-09-11."
+  location: "PDF页索引181、185–187；正文及注5–13完整读取，账簿原件未读"
+  sentence_summary: "1649预付款、两半身人物、付款金额涂改及同题移转；1653中介担保免预付款的书信转述。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 艺术委托订立时先付的一部分约定款项，是本章合同与书信中的支付用语。Haskell 列举比例约七分之一至近一半及分期支付的多种安排。
+**中文：** 本章caparra是订立艺术委托时预先交付的一部分款项。它可涉及履约承诺，但具体担保、抵扣或退还效力须看当时约定；普通意大利语也用此词指预付款，不能仅凭词形套入现代民法规则。（S1–S3、S8）
 
-不能把该范围设为强制法律标准。罗萨拒绝预收以免承诺束缚创作，是理解惯例边界的明确例子；“通行”不等于无例外。
+**English:** In this chapter, caparra denotes an advance made when arranging an artistic commission. Its precise effect as security, credit or a refundable payment depends on the historical agreement. Italian also uses the word more generally for an advance, so the term alone does not establish modern civil-law consequences. (S1–S3, S8)
 
-**English:** A caparra was an advance towards a commission. The examples range from about one seventh to nearly half of the price, with differing later payments. These are contractual examples, not a legal standard; Rosa's refusal was a particular artistic choice.
+### 术语字段
 
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Caparra | S1、S2、S3；标题中的语境说明为登记用语 |
-| 支付性质 | 委托预付款；章内比例约七分之一至近一半 | S1、S2、S3，支持范围见各条句意摘要 |
+| 名称 | caparra；本项目沿用“定金”，具体语境可释委托预付款 | S1–S3、S8 |
+| 参与方 | 委托方、画家；也可经中介保证或转付 | S9 |
+| 时间位置 | 在作品完成结算前；具体支付日分别记录 | S1、S9 |
+| 数额 | 本章实例约总价七分之一至近一半；非固定或法定比例 | S1 |
+| 功能 | 初期付款及承诺联系；法律效力不能只由金额或译名推断 | S1–S3、S8 |
+| 后续 | 抵价、移至另一作品或是否退回须有对应记录 | S9 |
+| 现代候选范围 | Q699604为现代法概念，不作为本章历史款项的已确认ID | S6–S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 有据变体与例外
 
+NGA目录刊引Guercino账簿1649年预付款及随后结算，涉及两半身人物作品；后续记录有题名与金额涂改，学者提出款项转入另一幅画的解释，未当作无争议事实。（S9）
 
-### 初步对齐（REV-034，2026-09-10）
+同目录注11转述1653年4月17日信：因熟识中介Zaneletti的保证，Guercino没有向一项方济各会委托索取预付款。它说明免付可以来自信任与代理保障，并非只有画家拒绝所有约束一种原因。信件原件未读。（S9）
 
-**范围待对齐。** 英文是地名消歧义页；意大利语 Q699604 解释现代民法担保金，本章可能兼指预付款，历史合同功能未核前不照搬现代法律定义。
+罗萨的拒预付是另一明确例外：本章据其通信将此与创作自由相连。不能用其个人态度消除其他画家的合同安排。（S3）
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+意大利百科全文主要讲现代担保和退约制度，本文仅用来说明候选外延；其中双倍返还、增值税和消费者退约条文没有回填本章，也不作为当前法律建议。（S6）
 
 ## 关系与证据
 
-S1：第一章；印刷页 13；OCR L478–485,503–508；S2：第一章；印刷页 14；OCR L541–552；S3：第一章；印刷页 22, 23；OCR L927–947,952–958。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia（it）：Caparra](https://it.wikipedia.org/wiki/Caparra) ↔ [Q699604](https://www.wikidata.org/wiki/Q699604)为候选双向配对，历史范围仍待证。全文7490字符、Treccani词条及NGA指定段落已读；没有读账簿MS.B.331原件和1653信原件。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+[付款程序](../procedures/commission-payment.md)与[按人物计价](../procedures/per-figure-pricing.md)为导航，无新增正式关系。S1–S3的章页、行号和摘要完整保留；约定、付款令、实收与余额分别记证据，source_backed不变。

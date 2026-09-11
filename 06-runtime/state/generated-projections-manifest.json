@@ -121,7 +121,7 @@
           "05-outputs/**/*"
         ],
         "files": 30,
-        "digest": "sha256:6c8e33448588dde1b548c4fbd1166a829d30689e8e6ad7fb5170f29793c1d5b7"
+        "digest": "sha256:3a19abd92786eda0bd0e51c628bd11c15eb714a9f92e42dd82219cd40b13a5df"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:9e44b4e26fa9c0a58869e2aaec96bb855e97bbd78acb62be8e477315cc5e79f7"
@@ -144,7 +144,7 @@
         "digest": "sha256:0e833acd668faa49acf10be50c6167618401cfe978a1cdfecc009d09f896a8ae"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:cb79bf45a17d0f64061513d6d82092f2083e02b05b5149aff848a338aca6b260",
+        "05-outputs/index/index.md": "sha256:408d20ce9f91a7bfa9af80f4675a6f63d47c5a8338df16599cf205e0298da4e1",
         "05-outputs/index/persons.md": "sha256:919c047d8fb6e9e3bc9765c83d6e704ab397322b4712ac250d68b0d837afdbcf",
         "05-outputs/index/institutions.md": "sha256:35bc3c13d8710437061d78d08ad36bab79eee35f44226780ec38b77a18e91448",
         "05-outputs/index/places.md": "sha256:ea531e7cd4c023ff136e871ca2c82f0fad479e5c721fde1c7aebf197291b6667",
@@ -187,10 +187,10 @@
           ".agents/skills/**/references/*.md"
         ],
         "files": 33,
-        "digest": "sha256:ca5849ac0c7281dc966803edf0ca08749f433b993bc5d82f645f83be272e2c02"
+        "digest": "sha256:b435d6dd849b6e32790ce011dd31d65156daddd5a128bfb20ab9ab1508bee858"
       },
       "outputs": {
-        "06-runtime/state/skill-registry.json": "sha256:f484ba1c4f4cbacebd72e86eae8b91af6815e63fa15a06f105df146553dabe30"
+        "06-runtime/state/skill-registry.json": "sha256:192b160cedac22a85ffe6986a0ddd4ca1400feef6ca1d8b0caf0446093671ac7"
       },
       "missing_outputs": []
     },

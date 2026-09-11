@@ -3,7 +3,7 @@ title: "贾钦托·布兰迪（Giacinto Brandi）"
 name_en: "Giacinto Brandi"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -26,38 +26,67 @@ sources:
 - citation: "Wikidata, Q1748199, revision 2526934675. https://www.wikidata.org/wiki/Q1748199. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1621–1691 年罗马、那不勒斯画家，与章中传记时代相容。"
+- citation: "Wikipedia (en), Giacinto Brandi, revision 1365391474. https://en.wikipedia.org/wiki/Giacinto_Brandi. Accessed 2026-09-11."
+  location: "全文阅读信息框、正文、图注、表格及注释书目；6818字符；未把被引外链视为已读"
+  sentence_summary: "补足姓名、生平、亲缘、职业、作品与研究线索；日期及身份错项按正文逐项处置。"
+- citation: "Wikidata, Q1748199, revision 2526934675. https://www.wikidata.org/wiki/Q1748199. Accessed 2026-09-11."
+  location: "相关属性值、限定词、时间精度、rank、引用及 enwiki sitelink；采用的关联实体标签已核"
+  sentence_summary: "支持适用结构化字段；多值、无引用项及与正文冲突项保留限制，双站不计独立互证。"
+- citation: "Antonella Pampalone, BRANDI, Giacinto, Dizionario Biografico degli Italiani 14 (1972). https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "正文前8500字符及末2300字符、书目前1500字符选读"
+  sentence_summary: "婚姻、师承、委托及学院任职；生地须与较新研究异文并列。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 以工作迅速著称；传记另描述其拥有仆人与马车的生活。声誉与生活描写均须归责来源。
+**中文：** 贾钦托·布兰迪是主要在罗马工作的画家，创作祭坛画及大型壁画，并担任圣路加学院Prince。第一章记其作画迅速的声誉与仆人、马车的传记描写；这些不等同实测工时或完整财产记录。（S1–2、S5、S7）
 
-**English:** Brandi was known for speed; a separate biography describes servants and a carriage. Both reputation and lifestyle retain their source attribution.
+**English:** Giacinto Brandi was a painter active mainly in Rome, producing altarpieces and monumental frescoes and serving as Prince of the Accademia di San Luca. Chapter 1 reports his reputation for speed and biographical descriptions of servants and a carriage, rather than measured working times or a complete property record. (S1–2, S5, S7)
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Giacinto Brandi | S1、S2；标题中的语境说明为登记用语 |
-| 分别记载 | 作画迅速的声誉；仆人与马车的传记描写 | S1、S2，支持范围见各条句意摘要 |
+| 全名 | Giacinto Brandi／贾钦托·布兰迪 | S5、S7 |
+| 身份／性别 | 画家、装饰工程负责人、学院管理者；男 | S5、S6、S7 |
+| 生年 | 1621；WD preferred给2月23日，DBI1972只给年，确日待较新文献 | S6、S7 |
+| 生地 | Poli、Rome、Gaeta存在异文；DBI1972及WD preferred为Poli，WP正文及较新研究指Rome；暂不裁成唯一地点 | S5、S6、S7 |
+| 卒日 | 1691年1月18–19日（DBI）；WP及WD为19日 | S5、S6、S7 |
+| 卒地 | 罗马 | S5、S6 |
+| 历史活动区 | 罗马、那不勒斯、Gaeta等；Gaeta工作地点不自动证明出生地 | S7 |
+| 荣衔 | Innocent X因Palazzo Pamphilj工作授骑士荣誉，据DBI；具体授衔文书未读 | S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘与师承
 
+- 父亲：Giovanni，装饰图案绘制与刺绣工作者；祖父Vincenzo。父亲1620年职业记载不是Giacinto出生前的职业。（S7）
+- 配偶：Maria Teresa Cagier（Cagieri／Cascieri），1640年9月19日结婚。（S7）
+- 女儿：Maria Isabella（1662年生），1681年3月20日与Philipp／Filippo Roos成婚。DBI述父亲反对此婚，评价与动机按作者归责，不直接写成普遍文化冲突结论。（S7）
+- 其他子女：DBI称多名，未逐个具名。（S7）
+- 老师：Algardi、Giovanni Giacomo Sementi／Semenza、Lanfranco；DBI把Lanfranco学习期限于1646–1647。（S6 P1066、S7）
 
-### 初步对齐（REV-034，2026-09-10）
+### 履历及作品
 
-**身份配对通过。** 1621–1691 年罗马、那不勒斯画家，与章中传记时代相容。
+- 1633年：进入Sementi工作室；与Giovan Battista Magni的长期训练属DBI推测，不能作确定日期链。（S7）
+- 1647年2月1日：加入Virtuosi al Pantheon；1651年12月28日已参加圣路加学院会议。（S7）
+- 1650年：Santa Maria in Via Lata天顶绘画完成；1653年Navona广场Palazzo Pamphilj神话壁画结款153 scudi。（S7）
+- 1666年前：Gaeta主教座堂地下堂装饰及祭坛画；未将Gaeta作为唯一出生地。（S7）
+- 1668年及1684–1685年：学院Prince任职记录。（S7）
+- 1671年起：San Carlo al Corso装饰；1673–1684年主持绘画及灰泥设计，具体部分及合作施工需区分。（S7）
+- 1680年10月9日：San Silvestro in Capite天顶合同；1685年《圣安德烈殉教》，Santa Maria in Via Lata。（S7）
+- 1687–1688年：为都灵王宫绘《信仰驱逐异端》。（S7）
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Giacinto_Brandi) 的 wikibase_item 与 [Wikidata Q1748199](https://www.wikidata.org/wiki/Q1748199) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 评价与研究
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+Mattia Preti在1665年致Ruffo信中的赞誉由DBI转引，不自动证明对被比较画家的师承或合作。Antonella Pampalone，DBI14（1972）本次选读；Guendalina Serafinelli专著《Giacinto Brandi (1621–1691)》（2015）为WP所引较新研究，尚未通读，其生地证据待核。（S5、S7）
 
 ## 关系与证据
 
-S1：第一章；印刷页 12；OCR L456–457；S2：第一章；印刷页 18；OCR L741–742。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与来源定位
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giacinto_Brandi) ↔ [Wikidata Q1748199](https://www.wikidata.org/wiki/Q1748199)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+尚无本卡正式出边；[兰弗兰科](../persons/giovanni-lanfranco.md)、[马蒂亚·普雷蒂](../persons/mattia-preti.md)、[学院](../institutions/accademia-di-san-luca.md)为相关知识元导航。
+
+出生地多值及卒日范围保留；WD preferred不压过较新学术异文。WD P1066的Semenza标签与文献Sementi名形对应仍须具体身份检查后建边。作画速度评价不作数量化生产率。原始婚姻、付款与授衔文书未直接读。

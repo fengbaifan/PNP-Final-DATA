@@ -4,7 +4,7 @@ name_en: "Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papa
 type: archive
 sub_type: scholarly_book
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -21,38 +21,53 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 161; print p. 414
   sentence_summary: 书目展开 Artisti bolognesi, ferraresi ed alcuni altri del già stato pontificio in Roma nei secoli XV, XVI, XVII，署 A. Bertolotti，未标出版日期。
+- citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
+  location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
+  sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
+- citation: "Getty Research Institute / Internet Archive, catalog metadata for gri_33125008336477. https://archive.org/details/gri_33125008336477. Accessed 2026-09-11."
+  location: "只读metadata：题名、责任者、出版地／印者、编目年及扫描标识；未读该版本内容。"
+  sentence_summary: "另一个馆藏扫描编目为1886且题名含tratte；不将其与本次题名页1885本不加区别地合并，不据元数据断言独立修订版。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章据此书 pp.161–162 所刊收据识别 Camassei。书后书目展开为 Artisti bolognesi, ferraresi ed alcuni altri del già stato pontificio in Roma nei secoli XV, XVI, XVII，未列日期（n.d.）；不凭记忆补出版年。
+**中文：** 安东尼诺·贝尔托洛蒂利用罗马档案编写的艺术家研究，涉及15至17世纪博洛尼亚、费拉拉及原教皇国其他地区艺术家。本次核读1885年博洛尼亚刊本的题名页及部分引言、档案引文，确认本章所引付款文字，但保留其姓名与日期冲突。[S1–S4]
 
-**English:** Chapter 1 uses receipts published on pages 161–162 of this book to identify Camassei. Haskell's bibliography gives the expanded Italian title and n.d.; no publication year is supplied from memory.
+**English:** Antonino Bertolotti's archival study concerns artists from Bologna, Ferrara and other parts of the former Papal States working in Rome in the fifteenth to seventeenth centuries. The title page and selected passages of the Bologna 1885 printing have been examined, including the payment text cited in Chapter 1; a conflict between its named official and date remains unresolved. [S1–S4]
 
-### 已有信息
+### 书目字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome | S1；标题中的语境说明为登记用语 |
-| 原题 | Artisti bolognesi, ferraresi ed alcuni altri del già stato pontificio in Roma nei secoli XV, XVI, XVII；书目未列出版年 | S1，支持范围见各条句意摘要 |
+| 作者全名 | Antonino Bertolotti | S3 |
+| 原题 | Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII | S3 |
+| 副题 | Studi e ricerche negli archivi romani | S3题名页 |
+| 刊印地点／印者／年 | Bologna；Regia tipografia；1885 | S3原刊题名页 |
+| 语言／性质 | 意大利语；档案研究与选录，非完整艺术家传记集 | S3引言选读 |
+| 数字本 | Getty Research Institute藏本扫描；IA `artistibolognesi00bert` | S3 |
+| 另一个馆藏记录 | IA `gri_33125008336477`编目1886，题名含tratte；只读metadata，未判定为独立修订版 | S4 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 本章引文与档案字段
 
+| 字段 | 刊本文字 | 依据 |
+|---|---|---|
+| 文种 | Urban VIII的chirografo／付款令；不写成画家亲署收据或原委托合同 | S3 pp.161–162 |
+| 受命付款者 | Marcello Sacchetti，Depositario Generale | S3 |
+| 画家姓名原载 | Antonio Camassei；不在未核原档前悄改为Andrea | S3 |
+| 作品 | 圣塞巴斯蒂安殉难；十palmi；八个人物 | S3 |
+| 金额／材料承担 | 150scudi；画家承担画布、颜料、蓝色等费用 | S3 |
+| 交付语境 | San Sebastiano in Campo Vaccino；文本提及Taddeo Barberini出资修复 | S3 |
+| 署日 | 1633年5月16日，影像确认 | S3 p.162 |
+| 原档引记 | R. Chirografi 1631–33，fol.554；原卷尚未读 | S3 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 身份对齐
 
-**尚无配对。** 同书书目已核缩题；英文登记名未命中对象页，仅做同名 sitelink 查询，仍需按意大利语原题与版次检索。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+尚无该书的独立Wikipedia—Wikidata配对。不借作者QID；1885本题名刊记与1886编目记录分别保存。
 
 ## 关系与证据
 
-S1：第一章；印刷页 10；OCR L372–374；S2：同书书目（非第一章）；印刷页 414；OCR L161。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+尚无正式关系。S1第一章第10页L372–374、S2书目原称n.d.及“收据”的摘要作为来源叙述保留；本次直接读刊本的文种、年与冲突以S3另列。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**关键未决：** 1633署日与已核[马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md)1629卒年不合；原刊又写Antonio Camassei。不能把这项付款直接写入萨凯蒂1633生平或自动更正人名／日期。印刷161–162页对应本次查看 `page/n174.jpg`、`page/n175.jpg`；OCR及扫描叶序不能代替印刷页码。第162页随后Guercino的1638年收据是另一文书，不并入此令。未读全书、1886记录所指实物及原档。

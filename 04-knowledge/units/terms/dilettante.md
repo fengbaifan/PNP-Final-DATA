@@ -3,7 +3,7 @@ title: "鉴赏爱好者（Dilettante）"
 name_en: "Dilettante"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -33,38 +33,47 @@ sources:
 - citation: "Wikidata, Q3027976, revision 2539848587. https://www.wikidata.org/wiki/Q3027976. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "英文为消歧义页，不能把鉴赏爱好者直接等同当代业余者概念；待按历史艺术语境补证。"
+- citation: "Treccani, Vocabolario on line, dilettante. https://www.treccani.it/vocabolario/dilettante/. Read 2026-09-11."
+  location: "完整词条1569字符；义项1a和2"
+  sentence_summary: "区分非职业爱好、一般欣赏与贬义能力不足，不将后者倒推为本章所有人的属性。"
+- citation: "Wikipedia (it), Dilettante, revision 152221321. https://it.wikipedia.org/wiki/Dilettante. Read 2026-09-11."
+  location: "候选页全文4503字符，含图注、艺术／体育、注释及书目；英文Dilettante为消歧页，按意大利原词回查"
+  sentence_summary: "一般amateur概念；无职业资格不证明无能力，体育规则及现代业余制度不套用于本章鉴赏者。"
+- citation: "Wikidata, Q455595, revision 2528372342. https://www.wikidata.org/wiki/Q455595. Read 2026-09-11."
+  location: "labels、类型及itwiki／enwiki；候选范围比较，未导入实体字段"
+  sentence_summary: "itwiki Dilettante↔Q455595，enwiki为Amateur；两侧链接成立但概念比本章艺术鉴赏角色宽，不认同一身份。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 章中与画家、收藏、学院交往有关的非职业艺术爱好/鉴赏角色；不将其等同今日贬义的业余无知者。
+**中文：** 鉴赏爱好者（dilettante，复数dilettanti）在本章指参与艺术欣赏、收藏、交游或委托的非职业艺术角色。它描述参与方式，不自动判定鉴赏能力低下，也不表示必然拥有爵位或收藏。
 
-**English:** The chapter uses dilettante for an amateur interested in art and connoisseurship, in the contexts of artists, collecting and academies. It should not automatically be translated as an ignorant or incompetent person.
+**English:** In this chapter, a dilettante participates in appreciation, collecting, artistic sociability or commissions without necessarily being a professional artist. The designation concerns a mode of participation; it does not automatically imply poor judgement, noble status or ownership of a collection.
 
-### 已有信息
+### 术语字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Dilettante | S1、S2、S3；标题中的语境说明为登记用语 |
-| 词义边界 | 非职业艺术爱好与鉴赏；不含必然贬义 | S1、S2、S3，支持范围见各条句意摘要 |
+| 原语／词形 | 意大利语dilettante；复数dilettanti | S1、S6 |
+| 英文释义 | art amateur／art enthusiast；本章视语境可为鉴赏者 | S1–S3、S6 |
+| 本章时期／范围 | 十七世纪罗马艺术交往与交易 | S1–S3 |
+| 核心含义 | 非以某艺术职业谋生而参与、欣赏或实践；并非能力必然较低 | S6–S7 |
+| 章内作用 | 艺术家与买家间的中间角色；收藏与社交圈成员 | S1–S3 |
+| 易混概念 | dealer是交易角色；patron是具体资助关系；connoisseur强调鉴别判断；可兼具但不能互换 | 本章语境比较；每个角色仍须事实支持 |
+| 排除义 | 今天贬义的“外行”“半吊子”；体育的资格／奖金规定 | S6–S7，不能回投 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 用法与实例位置
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**候选待证。** 英文为消歧义页，不能把鉴赏爱好者直接等同当代业余者概念；待按历史艺术语境补证。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- p.6 L160–164：与中间人、画商、旅行者和代理并列，处于委托和面向未知买家的交易之间。
+- p.15 L581–590：绘画需求和收藏语境；不能从爱好者标签推定具体购买。
+- p.18 L733–736：艺术家的交游与组织语境；不能仅因聚会共现就建立赞助边。
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L160–164；S2：第一章；印刷页 15；OCR L581–590；S3：第一章；印刷页 18；OCR L733–736。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[画商](art-dealer.md) · [展览与自我宣传](../procedures/exhibition-self-promotion.md)为概念导航，不是已登记的正式关系。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+**候选仍未通过：** [英文Dilettante消歧页](https://en.wikipedia.org/wiki/Dilettante)及旧Q3027976不作角色标识；[意大利文Dilettante](https://it.wikipedia.org/wiki/Dilettante)双向链接[Q455595](https://www.wikidata.org/wiki/Q455595)，英文反链为Amateur，但它是跨领域一般业余者，不能等同本章特定艺术角色。未接收该QID，未导入其被弃用的P31。
 
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S1–S3保留原章页行号；S6为词义区分，S7–S8为范围比较，Wiki页引用Treccani不增加独立词义证据。意大利页现代书目未逐本阅读，不列作本章历史用法已验证研究。历史称谓的最早用例、不同作者褒贬及具体人的自我称呼仍待原文；本轮已补词形、用法与异义，未消除身份配对缺口。[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

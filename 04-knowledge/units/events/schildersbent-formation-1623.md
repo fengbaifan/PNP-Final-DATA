@@ -3,7 +3,7 @@ title: "画家帮成立（1623）（Formation of the Schildersbent (1623)）"
 name_en: "Formation of the Schildersbent (1623)"
 type: event
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_institution","target":"institutions/schildersbent.md","note":"此事件记录该组织形成，不把组织与事件合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,40 +16,44 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 819–833; print pp. 20
+- citation: "Wikipedia (en), Bentvueghels, revision 1372100851. https://en.wikipedia.org/wiki/Bentvueghels. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "The Phoebus Foundation, “The Bentvueghels”. https://phoebusfoundation.org/en/agenda/the-bentvueghels/ Accessed 2026-09-11."
+  location: "2023年Centraal Museum展览介绍及Jan Miel图注全文"
+  sentence_summary: "17世纪早期罗马北方艺术家团体；借展说明不代替历史成员名录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Schildersbent 于 1623 年在罗马形成的事件。本次查看印刷页 20 PDF，确认 OCR 的“1623?”是句点加脚注号 2，不是对年份的问号。
+**中文：** 本卡记录画家帮在罗马形成的事件，沿用第一章所记1623年。外部概述另用约1620年或十七世纪早期，精确年份未据此统一；成立事件与组织的长期活动分开保存。
 
-组织活动、抗税和成员在机构卡记录；不把事件当作持续组织，或把第一章正文作为对被引 Hoogewerff 原著的独立核验。
+**English:** This record concerns the formation of the Schildersbent in Rome, retaining the year 1623 given in chapter 1. External accounts also use around 1620 or the early seventeenth century, so the precise year remains unresolved. Formation is distinguished from the organization’s continuing activities.
 
-**English:** The Schildersbent formed in Rome in 1623. The PDF confirms that the OCR's question mark after 1623 is a period and superscript note number, not uncertainty about the year. Continuing activities, tax resistance and members belong to the institution entry; reading Haskell does not verify Hoogewerff's original work.
+### 事件信息
 
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+| 字段 | 当前内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Formation of the Schildersbent (1623) | S1；标题中的语境说明为登记用语 |
-| 时间地点 | 1623；Rome；成立事件与组织分开 | S1，支持范围见各条句意摘要 |
+| 时间 | 本章1623；外部约1620／十七世纪早期 | S1–S3 |
+| 地点 | [Rome／罗马](../places/rome.md) | S1–S3 |
+| 形成的组织 | [Schildersbent／画家帮](../institutions/schildersbent.md) | S1–S3 |
+| 参与者范围 | 在罗马的北方艺术家，主要来自荷兰与佛兰德斯；准确创始成员名单未核 | S1–S3 |
+| 单次仪式及具体日期 | 现有材料不足 | 不将后来的入会仪式反推为成立典礼 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 来源读法与结果
 
+- 既有PDF回读确认OCR“1623?”为句点加上标脚注2，不是作者质疑年份；保留这一原读裁决。[S1]
+- 外部组织页全文及Phoebus Foundation展览说明支持十七世纪早期在罗马形成的群体背景；它们没有解决本章所引Hoogewerff原著中的精确纪年。[S2–S3]
+- 缺章程或固定领袖不等于可以虚构一个现代社团登记日期。持续聚居、宴饮、抗税及成员活动由机构卡承接。
 
-### 初步对齐（REV-034，2026-09-10）
+### 对齐
 
-**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+此成立事件未有独立确认Wiki配对。Bentvueghels的Q514377属于形成的组织，不赋给事件；不把WD有冲突的成立字段直接改写为本事件年份。
 
 ## 关系与证据
 
-S1：第一章；印刷页 20；OCR L819–833。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1：第一章，印刷页20，OCR L819–833及既有PDF回读。S2：Bentvueghels英文页全文。S3：Phoebus Foundation2023展览介绍全文；不是历史成立文书。
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续补足确切时段、地点、参与者、事件经过、结果与后续变化；计划、规定、实施和撤回分别核实，不因标题带年份推定全过程发生于同年。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+文件头2条既有关系保留。occurred_at注释中的1623是本章日期，集中关系阶段应显式加上来源限定，不宣称异文已消除。未决为确切年份、创始成员、地点细节及原引研究核对。状态维持 source_backed。

@@ -3,7 +3,7 @@ title: "安德烈亚·卡马塞伊（Andrea Camassei）"
 name_en: "Andrea Camassei"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_work","target":"works/camassei-martyrdom-saint-sebastian.md","note":"脚注收据识别画家；不据合同条款猜测全部画面。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372,514–516; print pp. 10,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -35,38 +35,91 @@ sources:
 - citation: "Wikidata, Q3615565, revision 2512803733. https://www.wikidata.org/wiki/Q3615565. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "十七世纪巴贝里尼圈画家 Andrea Camassei，与章中画家及工程时代相容。"
+- citation: "Wikipedia (en), Andrea Camassei, revision 1365391539. https://en.wikipedia.org/wiki/Andrea_Camassei. Accessed 2026-09-11."
+  location: "对象页全文4152字符已读，包含信息框、正文、图注、注释和书目。"
+  sentence_summary: "只采与本章对象有关且经语义判断的内容，异文与不采用字段见卡。"
+- citation: "Wikidata Q3615565, revision 2512803733. https://www.wikidata.org/wiki/Q3615565. Accessed 2026-09-11."
+  location: "复用配对并读生卒日期精度、出生地、死亡地、性别及职业；被引标签已核。"
+  sentence_summary: "生年1602精度9不能写1月1日，graphic artist不机械译为雕塑家；WP信息框出生地与正文不一致。"
+- citation: "Sandra Vasco, CAMASSEI, Andrea, Dizionario Biografico degli Italiani 17 (1974). https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文及书目已读；传记引述的原档与研究原篇未因此视为已读。"
+  sentence_summary: "1602-12-01为洗礼，Bevagna出生；亲缘、训练、委托、1633圣塞巴斯蒂安付款及1630–35圣彼得施洗工程分别记录。"
+- citation: "Carmen C. Bambach (2014), Saint Sebastian Clubbed to Death, Andrea Camassei, The Metropolitan Museum of Art, 65.137. https://www.metmuseum.org/art/collection/search/338324. Accessed 2026-09-11."
+  location: "已读说明、公开对象字段、图注；页面折叠的完整流传／展览／参考文献内容未展开，不称全部档案已读。"
+  sentence_summary: "红粉笔素描46.0×30.5厘米、馆号65.137是祭坛画准备稿；画与稿均有斗兽场，箭的处理不同。素描不等于祭坛画。"
+- citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
+  location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
+  sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 乌尔班八世 S. Sebastiano 祭坛画收据所指画家；章中还给出其《圣彼得与圣保罗施洗》稿的实例。1633 年材料负担属于具体合同。
+**中文：** 安德烈亚·卡马塞伊（1602–1649）是贝瓦尼亚出身、主要在罗马工作的画家、素描家和版画作者，曾服务于巴贝里尼赞助圈。本章涉及其圣塞巴斯蒂安祭坛画的付款与材料条件，以及圣彼得施洗题材的准备稿；人物、文书与具体作品版本分开。[S1–S10]
 
-**English:** Camassei is named in the receipt for Urban VIII's S. Sebastiano altarpiece. The chapter also cites his modello of Saints Peter and Paul baptizing. Material costs in 1633 belong to a particular agreement.
+**English:** Andrea Camassei (1602–1649) was a painter, draughtsman and printmaker from Bevagna, active mainly in Rome within Barberini patronage. Chapter 1 discusses payment and material terms for his Saint Sebastian altarpiece and a preparatory painting of Saint Peter baptizing. The artist, documents and individual work versions are recorded separately. [S1–S10]
 
-### 已有信息
+### 姓名、身份与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Andrea Camassei | S1、S2、S3；标题中的语境说明为登记用语 |
-| 作品与合同 | S. Sebastiano 祭坛画、彼得保罗施洗稿；1633 材料责任 | S1、S2、S3，支持范围见各条句意摘要 |
+| 全名／通用名 | Andrea Camassei；安德烈亚·卡马塞伊 | S6–S9 |
+| 性别 | 男 | S7 |
+| 身份标签 | 画家、素描家、版画作者、装饰及舞台设计参与者 | S6、S8 |
+| 生年／洗礼 | 1602年；1602-12-01洗礼，不当出生日期 | S7年精度9；S8 |
+| 出生地 | Bevagna（贝瓦尼亚，Q20144），当时教皇国；不采用WP信息框Macerata Feltria | S6正文、S7、S8、S9 |
+| 死亡／安葬 | 1649-08-18罗马；次日葬Sant’Agostino | S7、S8 |
+| 国籍表达 | 意大利艺术史语境、教皇国出生及活动；不追填现代意大利公民身份 | S6、S8 |
+| 荣衔／职位 | 1634年获西斯廷小堂custode职位，1644年失去；1632及1635年各任Bevagna两月执政官 | S8；非永久贵族头衔 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘关系
 
+| 字段 | 人物与限定 | 依据 |
+|---|---|---|
+| 父亲 | Lorenzo，从事麻类加工 | S8 |
+| 母亲 | Angelina Angeli；WP作Angelina d’Anton Maria Angeli | S6、S8 |
+| 兄弟 | Vincenzo Camassei，1636同住记录 | S8 |
+| 配偶 | Giovanna Baratella；异形Barattella、Barat[t]elli；1635–1636结婚 | S8 |
+| 岳父 | Pietro Baratella，传记述其职业及嫁资 | S8 |
+| 儿子 | Francesco Bonaventura，1636-09-19受洗；Giuseppe，后为继承人 | S8；受洗日不是生日 |
+| 女儿 | Maddalena、Claudia，1649居住记录 | S8 |
+| 教父母 | 儿子Francesco Bonaventura的教父母为Taddeo与Costanza Barberini | S8；不当生父母 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 学习与职业履历
 
-**身份配对通过。** 十七世纪巴贝里尼圈画家 Andrea Camassei，与章中画家及工程时代相容。
+| 时间 | 事项 | 依据／限定 |
+|---|---|---|
+| 早年 | 随Ascensidonio Spacca学习是旧传记说法，直接作品证据不足 | S8 |
+| 1626复活节 | 罗马via Paolina居住记录；不能断言此前绝未到罗马 | S8 |
+| 罗马早期 | Pascoli记入Domenichino工作室；对Correggio、Raphael的研习不同于亲授 | S8 |
+| 1625–1630之间 | Bentivoglio宫《丘比特与普绪克婚礼》及向Taddeo Barberini引介 | S8，作品已佚 |
+| 1628年 | Castelfusano合作工程，一月25scudi；具体手笔难分 | S8 |
+| 1630–1635年 | 圣彼得大殿施洗壁画的付款及结算 | S8 |
+| 1630–1631年前后 | 嘉布遣教堂《哀悼基督》 | S6、S8 |
+| 1633年 | 《Erminia sul Giordano》服装、舞台设计；1637刊谱插图据其设计 | S8 |
+| 1633年1月6日 | 圣路加学院记录中获负责人提名；提名不等于当选 | S8 |
+| 1635–1636年 | 结婚并居via Ferratina／今Frattina | S8 |
+| 1639年 | 在Bevagna购置地产 | S8 |
+| 1644年 | Lateran《君士坦丁凯旋》付款；Urban VIII去世使主要赞助关系改变 | S8 |
+| 1648年 | 完成《米尔维安桥之战》；Navona的Pamphilj宫《巴克斯与阿里阿德涅》饰带委托 | S8 |
+| 1649–1654年 | 死后财产清册；1654余款付儿子，不当画家继续活动 | S8 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Camassei) 的 wikibase_item 与 [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 作品及研究
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 作品 | 对象与版本 | 依据 |
+|---|---|---|
+| [《圣塞巴斯蒂安殉难》](../works/camassei-martyrdom-saint-sebastian.md) | 帕拉蒂尼教堂祭坛画，1633付款；Met准备素描65.137不同实物 | S1、S8–S10 |
+| [圣彼得施洗准备稿](../works/camassei-peter-paul-mamertine-modello.md) | 原章Vatican编号820／539 m；专业文献列多个相关稿，不把尺寸及流传混用 | S3、S8 |
+| 《哀悼基督》（Lamentation over the Dead Christ） | Santa Maria della Concezione，约1630–31 | S8 |
+| 《天使的创造》（Creation of the Angels） | Palazzo Barberini，1632；与后来的大穹顶工程分开 | S8 |
+| 《尼俄柏子女之死》（Massacre of the Niobids）；《狄安娜狩猎》（Hunt of Diana） | WP1638–39、DBI约1630；未作无条件精确定年 | S6、S8 |
+| 《君士坦丁凯旋》《米尔维安桥之战》 | Lateran壁画；WP1646–47概括与DBI分期付款／完成不同 | S6、S8 |
+
+研究入口：Attilio Presenzini（1880）；A. Sutherland Harris《A Contribution to Andrea Camassei Studies》（Art Bulletin52，1970，49–70）；M. Aronberg Lavin关于画家材料付款的论文（同刊52，1970，192–194）；Silvestro Nessi（2005）。这里核书目线索，不称原篇全读。Bambach对准备素描的说明已读，风格判断保留评价者责任。[S6、S8、S9]
 
 ## 关系与证据
 
-S1：第一章；印刷页 10；OCR L336–338,372–374；S2：第一章；印刷页 13；OCR L514–515；S3：第一章；印刷页 12；OCR L465–466。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia](https://en.wikipedia.org/wiki/Andrea_Camassei) ↔ [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565)复用并核对；英文页4152字符全文已读。S1–S10按sources排序，保留本章第10、12、13页来源。原有作品关联边保留，正文导航与亲缘字段未自动成边。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**未决：** 贝尔托洛蒂原刊写Antonio Camassei及1633年向Marcello Sacchetti下令，后者1629卒年造成冲突；Haskell、DBI、Met支持Andrea及该祭坛画，但不能消除原刊问题。旧传记被杀传闻不作为确定死因。精确出生日期、全部作品与婚姻原档未核。

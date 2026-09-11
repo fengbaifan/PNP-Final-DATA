@@ -3,7 +3,7 @@ title: "自画像（Self-portrait）"
 name_en: "Self-portrait"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -26,38 +26,49 @@ sources:
 - citation: "Wikidata, Q192110, revision 2525864132. https://www.wikidata.org/wiki/Q192110. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "艺术家自我表现的肖像类型；不是任何一幅具体自画像。"
+- citation: "Wikipedia (en), Self-portrait, revision 1373389998. https://en.wikipedia.org/wiki/Self-portrait. Accessed 2026-09-11."
+  location: "全文52158字符，含图注、注释及书目；对象页，不含外链原著"
+  sentence_summary: "自我表现可独立或嵌入其他图像、多媒介；识别须区分摹本及有争议归属。"
+- citation: "Wikidata Q192110, revision 2525864132. https://www.wikidata.org/wiki/Q192110. Accessed 2026-09-11."
+  location: "双向sitelink及适用字段／rank／限定词／引用；采纳边界见正文"
+  sentence_summary: "P279肖像、P31art genre为normal无引用；P1014及self-portraits限定词仅作规范库线索。"
+- citation: "National Gallery, Salvator Rosa, Philosophy, NG4680. https://www.nationalgallery.org.uk/paintings/salvator-rosa-philosophy. Accessed 2026-09-11."
+  location: "Overview、In-depth、Key facts、Provenance及Bibliography网页文字已读"
+  sentence_summary: "馆方将旧称自画像重释为哲学拟人像，旧识别据背面较晚题字；c1645、Niccolini委托，不能仅据WP图注确认为自画像。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 作者用同代艺术家自画像与 Rosa 的不同自我形象讨论职业身份；本轮未独立检查所有图像。
+**中文：** 自画像指艺术家制作的自身形象，可以独立成像，也可以嵌入群像、宗教或寓意构图，并不限于绘画。本章借此讨论职业身份与社会姿态；识别某幅作品为自画像须有具体依据。（S1–S2、S5–S7）
 
-**English:** Haskell compares contemporary artists' self-portraits with Rosa's different self-image to discuss professional identity. The images have not all been independently examined for this task.
+**English:** A self-portrait is an artist’s representation of themself, made independently or within a group, religious or allegorical composition, and in media beyond painting. Haskell uses self-images to discuss professional identity and social bearing. Identifying a particular work as a self-portrait requires object-specific evidence. (S1–S2, S5–S7)
 
-### 已有信息
+### 术语字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Self-portrait | S1、S2；标题中的语境说明为登记用语 |
-| 章内讨论 | 同代艺术家与 Rosa 自我形象比较；未独立逐幅看图 | S1、S2，支持范围见各条句意摘要 |
+| 名称 | 自画像；Self-portrait | S5–S6 |
+| 判定核心 | 作者与被表现者的同一性；摹本中的被表现者不等于摹写者 | S5 |
+| 媒介 | 绘画、素描、版画、雕塑、摄影等 | S5 |
+| 构图形式 | 独立、嵌入群像、扮演角色等可交叠 | S5 |
+| 可能用途 | 形象表达、技艺展示、赠送、收藏与职业宣传；逐作判断 | S5 |
+| WD父类 | 肖像Q134307；normal、无附引用；P31 art genre按艺术门类理解，不误译为固定流派 | S6，标签已核 |
+| AAT线索 | 300124534，WD限定名self-portraits；原记录未读 | S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 章内解释与对象修订
 
+服装、道具、姿态和所扮角色可以参与身份表达，但画面衣着不等于实际作画着装，图像表情也不能直接当作心理诊断。全文所列个人性格、神经医学和“第一幅”说法不在此作为核实事实采用。（S5）
 
-### 初步对齐（REV-034，2026-09-10）
+**罗萨例证的限制：** Wikipedia图集仍把持铭牌男子列作罗萨自画像；National Gallery NG4680现题《哲学》（Philosophy），说明旧自画像识别与背面十八／十九世纪题字有关，现解释为原为Niccolini绘制的哲学拟人像。馆方字段约1645，正文说1640年代初，保留此粒度差异。不得据旧图注直接建立“Rosa描绘Rosa”的确定边。（S5、S7）
 
-**身份配对通过。** 艺术家自我表现的肖像类型；不是任何一幅具体自画像。
+这项修订不抹去Haskell对罗萨自我形象的历史论述；本章所有相关图像尚未逐幅核验，不能把一幅争议扩为全部自画像均误认。（S1–S2）
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Self-portrait) 的 wikibase_item 与 [Wikidata Q192110](https://www.wikidata.org/wiki/Q192110) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+研究线索：Ernst van de Wetering等，*Rembrandt by Himself*（1999）；W. W. Roworth，“Salvator Rosa’s Self-Portraits: Some Problems of Identity and Meaning”（1989）,117–148。仅分别读S5、S7所列书目信息，原文未读。
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L791–795；S2：第一章；印刷页 22；OCR L911–914。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia：Self-portrait](https://en.wikipedia.org/wiki/Self-portrait) ↔ [Q192110](https://www.wikidata.org/wiki/Q192110)为概念配对。全文52158字符包括图注、分类和书目已读；馆方NG4680说明、字段、来源沿革及书目已读。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S1–S2的章页／行号与句意摘要保留。暂无正式关系；[历史画](history-painting.md)与自画像可在同一作品中交叠，本文导航不自动生成题材边。source_backed不变。

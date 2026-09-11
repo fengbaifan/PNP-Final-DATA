@@ -3,7 +3,7 @@ title: "卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（
 name_en: "Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/andrea-camassei.md","note":"Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 464–466; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,38 +16,37 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 464–466; print pp. 12
+- citation: "Sandra Vasco, CAMASSEI, Andrea, Dizionario Biografico degli Italiani 17 (1974). https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文及书目已读；传记引述的原档与研究原篇未因此视为已读。"
+  sentence_summary: "1602-12-01为洗礼，Bevagna出生；亲缘、训练、委托、1633圣塞巴斯蒂安付款及1630–35圣彼得施洗工程分别记录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Waterhouse 向 Haskell 指出此 modello，曾属 Barberini，书中记藏 Pinacoteca Vaticana，编号 820、旧号 539 m。流传和编号只限本书记录时点。
+**中文：** Haskell据Waterhouse提示登记的卡马塞伊施洗题材准备稿，书中记原属巴贝里尼并藏梵蒂冈绘画馆。专业传记把相关圣彼得施洗工程及三件准备稿联系起来，但本章“彼得与保罗”题名与研究所称“彼得为普罗策索、马尔蒂尼亚诺施洗”仍须以馆藏实物核定。[S1、S2]
 
-**English:** Haskell records this modello on information from Waterhouse. Formerly in the Barberini collection, it was listed in the Pinacoteca Vaticana as no. 820, formerly 539 m. These are source-period references, not a newly checked current inventory.
+**English:** Haskell records a Camassei baptism modello on information from Waterhouse, formerly in the Barberini collection and listed in the Vatican Pinacoteca. A scholarly biography connects a related Saint Peter baptism project with three preparatory paintings, but the chapter's Peter-and-Paul title and the study's identification of Processus and Martinian as those baptized still require object-level verification. [S1–S2]
 
-### 已有信息
+### 作品、收藏与编号
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison | S1；标题中的语境说明为登记用语 |
-| 来源所记收藏与编号 | 原 Barberini 藏；Pinacoteca Vaticana 820，旧号 539 m | S1，支持范围见各条句意摘要 |
+| 创作者 | Andrea Camassei，Haskell据Waterhouse | S1 |
+| 本章题名 | Saints Peter and Paul baptizing in the Mamertine Prison | S1 |
+| 相关工程研究题名 | S. Pietro che battezza i ss. Processo e Martiniano；不是无条件改成本卡实物题名 | S2 |
+| 作品形态 | modello／绘画准备稿；非已毁大殿壁画本身 | S1、S2 |
+| 本书记录时馆藏 | Pinacoteca Vaticana，820，旧号539 m | S1；未核今日馆号 |
+| 早期归属 | Barberini旧藏 | S1；完整流传未核 |
+| 尺寸、材质、署款 | 本轮未取得该实物记录 | 不借其他稿本字段 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 工程及其他版本
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+专业传记记圣彼得大殿门上壁画于1630年11月7日有付款、1635年12月结算，18世纪后半叶毁去。它列三件相关bozzetti：巴黎J. Petit Horry旧藏、梵蒂冈绘画馆、Ditchley Foundation，以及Düsseldorf准备素描。只有馆名相合仍不足以证明旧820号等于每个研究所说的实物；不同版本的图像、尺寸与归属各待核。[S2]
 
 ## 关系与证据
 
-S1：第一章；印刷页 12；OCR L464–466。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+无独立Wikipedia—Wikidata确认配对。S1第一章第12页L464–466；S2专业传记及其引文链。保留既有作者及本书时点馆藏关系，地点不升级为今日实地确认。
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+本次补足工程时间和多稿并存的证据，保留题名／人物识别未决，未新建另两件稿的知识元。相关原档、梵蒂冈清册及画面未读，不以同题和同馆自动归并。

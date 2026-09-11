@@ -3,7 +3,7 @@ title: "新闻纸（News sheets）"
 name_en: "News sheets"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, p. 19."
@@ -13,36 +13,44 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 778–783; print p. 19"
+  - citation: "Wikipedia (en), Journalism of early modern Europe, revision 1360695845. https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe. Accessed 2026-09-11."
+    location: "全文14747字符，含图注、注释及书目；对象页，不含外链原著"
+    sentence_summary: "早期新闻可手写或印刷，按网络流通；本章Lauri的具体读物未由该页证实。"
+  - citation: "Wikidata Q4829575, revision 2276662307. https://www.wikidata.org/wiki/Q4829575. Accessed 2026-09-11."
+    location: "双向sitelink及适用字段／rank／限定词／引用；采纳边界见正文"
+    sentence_summary: "Avviso重定向至新闻史页面，现代页面范围比本章新闻纸类别宽；保留背景候选，不确认为本卡ID。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章所称 news-sheets 是劳里为掌握谈资而阅读的新闻性文本。Haskell 据传记描述其在学院交往中的用途，并将一般教育视为社会成功的条件。这里登记文本类别术语；原文没有给出某份新闻纸的题名、刊期或出版者，不能凭类别制造一份具体文献。
+**中文：** 本章news-sheets指劳里为学院交谈准备谈资而阅读的新闻性文本。早期近代欧洲新闻存在手写、抄传和印刷等形式；本章没有指出具体刊物、刊期或载体，不能直接归为现代报纸。（S1–S2）
 
-**English:** The chapter's news-sheets are news-bearing texts that Lauri reportedly studied to converse appropriately at academy gatherings. Drawing on biography, Haskell discusses their use in sociability and the importance of general education for social success. This entry records a textual category; no particular title, issue or publisher is identified.
+**English:** Haskell’s news-sheets are news-bearing texts reportedly read by Lauri to prepare for conversation at academy gatherings. Early modern news circulated in manuscript and printed forms. The chapter identifies no particular title, issue or medium, so these texts cannot automatically be classified as modern newspapers. (S1–S2)
 
-### 已有信息
+### 术语字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 原文形式 | news-sheets；中文暂译“新闻纸” | S1 |
-| 章内阅读者 | Filippo Lauri（菲利波·劳里） | S1，传记转述 |
-| 使用语境 | 为学院聚会准备谈资；教育与社会交往 | S1，区分传记记载与 Haskell 的解释 |
-| 对象边界 | term；未指明具体刊物，暂不另建 archive | S1 仅有类别名称 |
+| 本章原词 | news-sheets；新闻纸为暂译，非特定刊名 | S1 |
+| 背景用语 | 意大利语avviso／avvisi；德语Zeitungen为相关新闻形式，不自动等同本章原件 | S2 |
+| 内容范围 | 政治、军事、商业及社会消息，具体内容依新闻文本 | S2 |
+| 载体 | 手写与印刷可以并存，新闻不必都是印制 | S2 |
+| 流通方式 | 抄写者、通信与递送网络；单份或订阅均见于相关背景 | S2 |
+| 章内阅读者 | Filippo Lauri，来自传记转述 | S1 |
+| 未知字段 | 实际刊名、语言、期号、日期、出版者、稿本或印本、阅读原件 | S1未载，不填造 |
 
+### 背景、来源与范围
 
-### 初步对齐（REV-034，2026-09-10）
+已读英文页把Avviso导向*Journalism of early modern Europe*，覆盖跨地区的新闻制作和流通史；不是某一新闻纸的对象页。它提供手写与印刷并存的背景，但不能证明Lauri读过其中任何一份存世avviso。（S2–S3）
 
-**尚无配对。** 术语已有本章语义依据；登记名未命中可确认的 Wiki 配对，待按原词、历史含义及概念粒度继续查询，不能以现代相近概念强配。
+新闻记录可能传递谣言、政治立场和经过选择的信息；它是某条消息如何流通的证据，不自动证明消息所述事件为真。百科按城市概括的新闻特点、具体产量和审查个案没有逐项核原档，本卡不扩大采用。（S2）
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+研究线索：Paola Molino，“Connected News: German Zeitungen and Italian avvisi in the Fugger collection (1568–1604)”（2016）,267–295；Sheila Barker，“‘Secret and Uncertain’: A History of Avvisi at the Court of the Medici Grand Dukes”（2016）,716–738。仅读百科脚注，论文全文未读。（S2）
 
 ## 关系与证据
 
-S1 对应文件头第一章第 19 页 L778–783。阅读行为来自 Haskell 的传记转述；本次没有查阅新闻纸原件，也不据此建立已独立核实的阅读事件或正式关系。
+[Wikipedia：Journalism of early modern Europe](https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe) ↔ [Q4829575](https://www.wikidata.org/wiki/Q4829575)双向一致，但页名与范围比本卡类别宽，仍不采用确认QID。实际阅读全文14747字符，未把Avviso重定向短页当作全文对象页。
 
-待对齐与补足：历史语境中的词义、媒介形态及适用研究；只有新增来源明确具体题名或版本时，才判断是否登记独立 archive。本章的使用语境不等于一份跨时期的新闻媒介定义。
+暂无正式关系。S1第一章第19页L778–783、传记转述与Haskell解释分开保留。没有独立新闻纸原件，仍登记为term，不凭类别制造archive；Lauri的实际阅读事件待其传记原文补证。

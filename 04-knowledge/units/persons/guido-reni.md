@@ -3,7 +3,7 @@ title: "圭多·雷尼（Guido Reni）"
 name_en: "Guido Reni"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_work","target":"works/reni-justice-embracing-peace.md","note":"该信向 Reni 委托，尚未由本章识别版本与完成时间。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -35,38 +35,77 @@ sources:
 - citation: "Wikidata, Q109061, revision 2541021912. https://www.wikidata.org/wiki/Q109061. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1575–1642 年博洛尼亚画家 Guido Reni，符合 1617 年委托语境。"
+- citation: "Wikipedia (en), Guido Reni, revision 1370409975. https://en.wikipedia.org/wiki/Guido_Reni. Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不含全部外链"
+  sentence_summary: "生平、父母、训练、艺术职业、作品与后世评价，20587字符全文；未证传闻、学生名单及多版本统计不机械采纳。"
+- citation: "Wikidata Q109061, revision 2542997489. https://www.wikidata.org/wiki/Q109061. Accessed 2026-09-11."
+  location: "适用身份字段及双向链接、rank、限定词、日期精度与单位；字段采用范围见正文"
+  sentence_summary: "日期和博洛尼亚地点；多角色区分画家、素描与蚀刻，广泛标签需具体工作支持；生日相同日期存在两种历法模型。"
+- citation: "British Museum, Guido Reni, BIOG43407. https://www.britishmuseum.org/collection/term/BIOG43407. Accessed 2026-09-11."
+  location: "身份、Biography及Bibliography完整短记录；相关1045对象未逐件查看"
+  sentence_summary: "Bolognese／Italian男性画家、素描家、蚀刻家；1622访那不勒斯异于WP1618；书目包括Pepper1984、死后清册刊文与2022展览。"
+- citation: "Caterina Volpi, Reni, Guido, Enciclopedia dei ragazzi (2006). https://www.treccani.it/enciclopedia/guido-reni_(Enciclopedia-dei-ragazzi)/. Accessed 2026-09-11."
+  location: "传记三节全文"
+  sentence_summary: "Calvaert及卡拉奇训练、1601赴罗马、1608–1614博尔盖塞、1614返博洛尼亚、1627Spada及艺术赞助；传记解释不等同原支付档案。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1617 年受曼图亚公爵邀画《正义拥抱和平》，对方仅许慷慨酬谢未定价格。关于 Paul V 容忍其怪癖的话是 Malvasia 传闻，不作可靠引言。
+**中文：** 圭多·雷尼是博洛尼亚画家、素描家与蚀刻家，主要在博洛尼亚和罗马活动，作品兼有宗教、神话和寓意题材。本章涉及1617年曼图亚公爵不定价委托、对《屠杀婴孩》合同的研究期待，以及须按传闻处理的Malvasia记述。（S1–S3、S6–S9）
 
-**English:** Mantua's duke commissioned Justice embracing Peace in 1617 without a fixed price, promising generous recompense. Malvasia's story of Paul V tolerating Reni's eccentricities is hearsay, not a secure papal quotation.
+**English:** Guido Reni was a Bolognese painter, draughtsman and etcher, active chiefly in Bologna and Rome in religious, mythological and allegorical subjects. This chapter discusses an unpriced ducal commission of 1617, a hoped-for contract for the Massacre of the Innocents, and an anecdote reported by Malvasia. (S1–S3, S6–S9)
 
-### 已有信息
+### 姓名、基本信息与身份
+
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 全名／通用名 | 圭多·雷尼／Guido Reni | S6–S9；未获可扩展的其他法定全名 |
+| 称誉 | “神圣的圭多”／the Divine Guido | S9标题及S6所列Spear书名；不是贵族爵位 |
+| 身份标签 | 画家、素描家、蚀刻家／painter, draughtsman, etcher；宗教画、神话画、壁画作者 | S6–S9；WD其他设计类标签无具体项目支持的不全部接收 |
+| 性别 | 男／male | S7–S8 |
+| 生日 | 1575-11-04 | S6–S7；WD有相同日期但两历法模型，不进行未经依据的转换 |
+| 卒日 | 1642-08-18 | S6–S7 |
+| 出生地／去世地 | 博洛尼亚／Bologna | S6–S9 |
+| 文化与历史归属 | 意大利／博洛尼亚；当时教皇国 | S6–S8，不写现代意大利共和国国籍 |
+| 父亲 | Daniele Reni，音乐家家庭背景 | S6 |
+| 母亲 | Ginevra Pozzi | S6 |
+| 兄弟姐妹 | 英文页称独子；未读原户籍，不由此建立全家族谱 | S6 |
+| 配偶／子女／贵族头衔 | 本轮所读材料不足，未填 | 不以空字段推断不存在 |
+
+### 训练与职业履历
+
+- **约九岁：** 入Denis Calvaert工作室；后来与Albani、Domenichino转到卡拉奇学园。相似训练背景不等于三人每次迁移均同日。（S6、S9）
+- **约1595–1598：** 参加Accademia degli Incamminati；S6记1598前后离开并作纪念Clement VIII访博洛尼亚的版画，关于争执的叙述仍属传记。（S6）
+- **1601：** 赴罗马，与Albani同行，接触Annibale Carracci团队及Sfondrato赞助。（S6、S9）
+- **1608–1614：** 为博尔盖塞相关工程作画，涉及梵蒂冈、Quirinale、圣母大殿及Aurora；不将这些地点概括成同一个委托主体。（S9）
+- **1611：** 作《屠杀婴孩》，原设博洛尼亚圣多明我堂Berò礼拜堂，具体见作品卡。（S6）
+- **1614以后：** 主要回博洛尼亚经营工作室；继续接受异地委托。（S6、S9）
+- **1617：** 曼图亚公爵订《正义拥抱和平》，给尺寸而只许厚酬，不预先定金额。（S2）
+- **赴那不勒斯：** S6记1618，British Museum记1622；本轮保留异文，不自动算成已证明两次旅行。（S6、S8）
+- **1627：** 再到罗马，受Bernardino Spada支持。（S9）
+- **1630年代至1642：** 后期画法趋轻、部分未完成；赌博导致欠债和工作室复作的解释须归于传记作者，不能替代单件作品证据。（S6、S9）
+
+### 作品、教学与研究
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Guido Reni | S1、S2、S3；标题中的语境说明为登记用语 |
-| 委托及证据限定 | 1617 曼图亚委托；Malvasia 教皇话语属传闻 | S1、S2、S3，支持范围见各条句意摘要 |
+| 《屠杀婴孩》／Massacre of the Innocents | 1611；博洛尼亚藏品，合同未读 | S1、S6及作品卡 |
+| 《曙光》／Aurora | 罗马Borghese原属工程；WP所列1616支付金额无引用，未用来推翻S9的1608–1614工作概述 | S6、S9 |
+| 《赫拉克勒斯功业》／Labours of Hercules | Ferdinando Gonzaga委托系列；与《正义拥抱和平》不合并 | S6、S9 |
+| 《大天使米迦勒》／Archangel Michael | 1630年代嘉布遣会教堂工程；撒旦面容影射Pamphilj是传说 | S6 |
+| 学生线索 | Simone Cantarini、Giovanni Andrea Sirani等见传记；S6长名单及近200人数未逐项外核，不生成全部师承边 | S6 |
+| 评价者 | Malvasia的个人经历叙述；Ruskin的负面评价及20世纪复兴分时期表达 | S3、S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 1575–1642 年博洛尼亚画家 Guido Reni，符合 1617 年委托语境。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Guido_Reni) 的 wikibase_item 与 [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+研究书目按来源列为待读：D. Stephen Pepper, *Guido Reni*（1984）；Richard E. Spear, *The “Divine” Guido: Religion, Sex, Money, and Art in the World of Guido Reni*（1997）；Marzia Faietti, “Rome 1610: Guido Reni after Annibale Carracci”, *Print Quarterly* 28（2011）, 276–281；J. T. Spike与T. Di Zio关于1642死后清册的刊文（1988, 43–65，完整题名待核）。这些书目来自S6／S8，未声称通读原著。
 
 ## 关系与证据
 
-S1：第一章；印刷页 10；OCR L373–374；S2：第一章；印刷页 14；OCR L531–534；S3：第一章；印刷页 21；OCR L884–889。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia：Guido Reni](https://en.wikipedia.org/wiki/Guido_Reni) ↔ [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061) 双向一致，复用已通过身份。S6全文20587字符已读；S7含限定、精度、单位、引用状态和实际标签；S8短传及书目、S9三节正文已读。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+- 文件头associated_work链接[《正义拥抱和平》](../works/reni-justice-embracing-peace.md)，依据S2。
+- [1617年委托人Ferdinando Gonzaga](duke-mantua-reni-1617.md)、[《屠杀婴孩》](../works/reni-massacre-innocents.md)为关联导航，不把所有职业标签和学生名字自动建边。
+- **待核：** 赴那不勒斯年份、具体原支付、后期复作责任与亲缘原档。WP《圣塞巴斯蒂安》版本数量及《亚特兰大与希波墨涅斯》年代前后不一，未整段采入；“Beatrice Cenci”旧归属不作为确定亲笔。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S编号按文件头顺序；章页、行号、句意摘要及既有关系保留，source_backed不作全卡验证提升。

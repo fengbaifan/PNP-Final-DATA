@@ -4,7 +4,7 @@ name_en: "Contract for Caravaggio's Two Altarpieces (1600)"
 type: archive
 sub_type: contract
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/caravaggio-conversion-saint-paul.md","note":"合同涉及《圣保罗归化》委托与预先示稿要求。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 397–401,421; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,38 +17,48 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 397–401,421; print pp. 11
+- citation: "Wikipedia (en), Crucifixion of Saint Peter (Caravaggio), revision 1361249053. https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio). Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
+  sentence_summary: "现存1601布面版、1600柏木板原约与后续版本史分开；合同设计要求、报酬和期限是条目依据刊本的转述，不是本次查阅原合同。"
+- citation: "Catalogo generale dei Beni Culturali, Crocifissione di San Pietro, 1200182974. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200182974. Accessed 2026-09-11."
+  location: "网页对象记录全文2591字符；编目1984、更新2006；未读附件完整档案"
+  sentence_summary: "卡拉瓦乔、罗马人民圣母堂、布面油画；说明1600-09-24两画委托、八月期限及1601-11-10支付结算，不能把简写tele当作原合同底材逐字转录。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 涉及《圣保罗归化》《圣彼得殉难》，执行前应提交人物和其他设计。Haskell 指 Friedlaender p.302 已刊合同。两作品、合同及提交设计的程序是不同对象，不由要求断定实际稿本存世。
+**中文：** 1600年切拉西礼拜堂两题绘画合同规定卡拉瓦乔先提交人物及构图设计。本轮通过作品史及官方编目补到1600年9月24日、八个月期限与结算线索；尚未直接阅读合同原件或Friedlaender刊本。（S1–S3）
 
-**English:** The contract concerns the Conversion of Saint Paul and the Martyrdom of Saint Peter and requires designs of figures and other elements before execution. Haskell cites its publication by Friedlaender on page 302. The paintings, contract and design procedure are distinct; the requirement does not prove that preparatory designs survive.
+**English:** The 1600 contract for the Cerasi Chapel paintings required Caravaggio to submit designs before execution. The work history and official catalogue add a date of 24 September 1600, an eight-month deadline and a settlement reference. Neither the original contract nor Friedlaender’s printed transcription has been read in this review. (S1–S3)
 
-### 已有信息
+### 文献字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Contract for Caravaggio's Two Altarpieces (1600) | S1；标题中的语境说明为登记用语 |
-| 作品与刊录 | 《圣保罗归化》《圣彼得殉难》；Friedlaender p.302；1600 | S1，支持范围见各条句意摘要 |
+| 文献类型 | 绘画委托合同／painting commission contract | S1–S3 |
+| 登记题名 | 卡拉瓦乔切拉西礼拜堂两画合同（1600）／Contract for Caravaggio’s two Cerasi Chapel paintings (1600) | 描述性双语题名，不作原件卷首题名 |
+| 日期 | 1600-09-24 | S2–S3 |
+| 委托方／执行方 | Tiberio Cerasi／Michelangelo Merisi da Caravaggio | S2；Cerasi为教廷财务官，未采用另一百科误称枢机 |
+| 地点与对象 | 罗马人民圣母堂切拉西礼拜堂；圣保罗归化、圣彼得殉难两题 | S1–S3 |
+| 原始语言 | 本轮未读原件，不据网页语言判断原件语言 | 阅读边界 |
+| 刊本线索 | Haskell引Walter Friedlaender, *Caravaggio Studies*, p.302；英文作品页讨论pp.302–303 | S1–S2；仅引文定位 |
+| 原件保管／索书号 | 未核 | 未读原档案目录 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 已知条款及履行线索
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- **预备设计：** 执行前提交人物和其他设计；书面要求不等于已找到实际草图。（S1）
+- **底材与尺寸约定：** 英文作品史记两块柏木板、高10宽8罗马palmi；不将历史单位直接当作厘米，亦不以现存布面版尺寸覆盖。（S2）
+- **期限：** 八个月。（S2–S3）
+- **原约总酬金：** 400 scudi；S2记银行家Giustiniani处领50预付款，未直接核阅支付原件，不默认此次Giustiniani缩名已经精确指向个人。（S2）
+- **验收要求：** 须使委托人满意、预先出示方案；究竟如何实际执行与拒收原因仍需原件链。（S1–S2）
+- **结算：** S2–S3指1601-11-10及总额减少100 scudi；合同原约、实际结算及1605安装记录是不同事件，不把400写成最终实付总额。（S2–S3）
 
 ## 关系与证据
 
-S1：第一章；印刷页 11；OCR L397–401,421。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+本合同没有可确认的独立Wikipedia—Wikidata配对，不能借用画家或其中某幅作品的QID。来源S2的英文对象页全文已读，S3网页记录全文已读；两者支持本轮条款线索，不等于看过合同手稿或刊本原页。
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+文件头两条has_subject分别连到[圣保罗委托](../works/caravaggio-conversion-saint-paul.md)与[圣彼得委托](../works/caravaggio-martyrdom-saint-peter.md)；同一合同不复制成两份档案。[画家](../persons/caravaggio.md)为关联导航，本轮未新增边。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**未决：** 核对Friedlaender p.302及完整上下页、签署人、公证人与原件藏所。官方目录将两作品概称tele，英文作品史指原约柏木板；本轮不将目录概述当原合同逐字转录。原章内证据及已有关系不因缺Wiki配对失效。来源编号、章页／行号及句意摘要保留于元数据。

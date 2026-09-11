@@ -4,7 +4,7 @@ name_en: "Vasalli's Testimony on the Mola–Pamfili Service Dispute"
 type: archive
 sub_type: testimony
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/alessandro-vasalli.md","note":"证词发言者为 Vasalli；不等同断言其亲笔写成原记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,38 +17,57 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+- citation: "Francis Haskell, Patrons and Painters, Bibliography."
+  location: "同书书目OCR L836–837"
+  sentence_summary: "Montalto缩写对应1955年Commentari所刊Gli affreschi del Palazzo Pamphilj in Valmontone，pp.267–302；本章另指定p.295。"
+  evidence_ref: {"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/21_CHP-21Bibliography.md","source_span":"lines 836–837"}
+- citation: "Doria Pamphilj, Bibliografia (bibliografia-villa.pdf). https://www.dopart.it/roma/it/wp-content/uploads/2011/09/bibliografia-villa.pdf. Accessed 2026-09-11."
+  location: "PDF第1页，Montalto文献条目；该页已读"
+  sentence_summary: "馆方书目确认Montalto论文刊于Commentari 6 (1955), pp.267–302；同年Un mecenate in Roma barocca是另一本著作。书目不能代替论文p.295或原证词。"
 ---
+
 
 ## 内容
 
 ### 描述
 
-**中文：** Haskell 经 Montalto p.295 转引的 Alessandro Vasalli 证词。论述家户艺术家的优先服务义务仍以作品付酬为前提。记录作为文献对象，与其中的制度断言及作证者分开；未识别原档号、日期或签署形态。
+**中文：** 本记录是哈斯克尔经L. Montalto论文转引的亚历山德罗·瓦萨利证词，讨论画家优先服务保护人仍须获得报酬。已确认转引论文的题名、期刊、年份和页码，原始笔录的日期、载体及档号仍未核定。
 
-**English:** Haskell cites Alessandro Vasalli's testimony through Montalto, page 295. It explains that a household artist's obligation of priority service still presupposes payment for paintings. The documentary record is distinct from the witness and the institutional claim; its date, archival reference and signed form remain unidentified.
+**English:** This record concerns Alessandro Vasalli's testimony, quoted by Haskell through an article by L. Montalto, on payment within a painter's obligation of priority service to a patron. The intermediary article's title, journal, year and pages have been identified; the original deposition's date, physical form and archival reference remain unconfirmed.
 
-### 已有信息
+### 文献识别与责任者
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Vasalli's Testimony on the Mola–Pamfili Service Dispute | S1；标题中的语境说明为登记用语 |
-| 作证者与转引 | Alessandro Vasalli；经 Montalto p.295 转引；不是 Giorgio Vasari | S1，支持范围见各条句意摘要 |
+| 规范描述题 | 瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute） | 项目描述题，不冒充档案原题 |
+| 文献类别 | 证词／证词记录 | S1 |
+| 发言者 | Alessandro Vasalli，画家 | S1；不是Giorgio Vasari |
+| 记录执笔／签署人 | 未知 | 不能因发言者已知便称亲笔文献 |
+| 涉及人物 | Pier Francesco Mola；Prince Pamfili | S1 |
+| 引文语言 | 意大利文 | S1所呈引文；原件语言和拼写未目视核实 |
+| 原件日期／地点／档号／材质 | 均未核定 | 不以论文出版年或相关工程地点代填 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 刊引链与版本
 
+1. 原证词记录：原件及原档未读。
+2. **L. Montalto，《瓦尔蒙托内潘菲利宫的壁画》（The Frescoes of Palazzo Pamphilj in Valmontone / Gli affreschi del Palazzo Pamphilj in Valmontone），Commentari 6（1955），pp.267–302，章注指p.295。** 同书书目与Doria Pamphilj馆方书目相合；论文p.295未读。（S1–S3）
+3. Haskell《赞助人与画家》第一章p.6、L179–185引述；此为本项目实际已读文本。（S1）
 
-### 初步对齐（REV-034，2026-09-10）
+Montalto同年另有《Un mecenate in Roma barocca》，馆方书目分别列出；不把它当作本证词的已确认转引载体。上述中文、英文论文题为说明性译名。
 
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+### 内容条目与适用范围
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 内容 | 说明 |
+|---|---|
+| 服务条件 | 家户登记与供给背景下，本业服务应优先考虑保护人。（S1） |
+| 酬劳条件 | 优先不免除作品付酬；供给和具体作品报酬须分开。（S1） |
+| 证言性质 | 证人对职业惯例的陈述；不直接证明所有合同相同，也不等于判决结果。（S1） |
+| 原件校勘 | 尚未完成；不据OCR改造意大利文全文或虚构删节内容。 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L179–185。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+**S1：第一章p.6、L179–185；S2：同书书目L836–837；S3：馆方书目PDF第1页。** S2–S3支持刊物识别，不独立证实原证詞史实。
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+已有2条正式关系保留：[作证者瓦萨利](../persons/alessandro-vasalli.md)、[特定保护人服务](../terms/servitu-particolare.md)。相关[莫拉](../persons/pier-francesco-mola.md)与潘菲利争议不能由仅有书目资料扩成新的诉讼事实。
 
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+尚无此证词对象的Wikipedia—Wikidata配对；不借论文作者、画家或宫殿QID。已保存刊引及内容范围补足；原件、原刊p.295、准确档号和判决结果仍待证，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

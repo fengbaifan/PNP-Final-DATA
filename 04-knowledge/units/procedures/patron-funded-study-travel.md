@@ -3,7 +3,7 @@ title: "赞助人资助学习旅行（Patron-funded study travel）"
 name_en: "Patron-funded study travel"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,38 +13,48 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 165–189; print pp. 6
+- citation: "BONATTI, Giovanni, detto Giovannino del Pio o il Ferraresino, Dizionario Biografico degli Italiani 11 (1969). https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/. Read 2026-09-11."
+  location: "本轮已全文读7972字符；复用训练、Carlo Pio及六城旅行段"
+  sentence_summary: "支持Bonatti有保护人与跨城学习；旅行顺序、日期、Venice时长及师承年份有异文，不将六城列表当确定行程。"
+- citation: "Letizia Lanzetta, GIMIGNANI, Ludovico, Dizionario Biografico degli Italiani 54 (2000). https://www.treccani.it/enciclopedia/ludovico-gimignani_(Dizionario-Biografico)/. Read 2026-09-11."
+  location: "本轮已全文读20149字符；复用Venice、Lombardy、Modena学习及赞助人语境"
+  sentence_summary: "补足旅行与学习背景；不能凭Rospigliosi姓氏给本章资助枢机强配Giulio、Iacopo或Felice。"
+- citation: "Francesco Petrucci, Il “Martirio di San Lorenzo”. Presso il Museo Francescano di Roma. Un capolavoro sconosciuto di Ludovico Gimignani. Palazzo Chigi, Ariccia, 11 June 2021 (signed 6 June 2021). https://www.palazzochigiariccia.it/__trashed/. Accessed 2026-09-11."
+  location: "文章全文；旅行背景段及注3"
+  sentence_summary: "明确Giulio Rospigliosi推动Gimignani赴Parma、Venice学习，并据Russo1990将旅行改为1665而非1668；同行列Guglielmo Cortese和Giovanni Bonati。Russo原论文未读，不能当独立原档证明。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 赞助人为艺术家赴其他城市看作品、改善色彩支付费用；Bonati 与 Gimignani 的脚注行程提供具体实例。
+**中文：** 赞助人资助学习旅行，是本章中保护人承担艺术家赴异地观看作品、改进绘画所需费用的做法。Bonatti多城旅行与Gimignani赴威尼斯是具体事例；旅行目的、实际路线及资助条件须分别有据。
 
-**English:** Patrons could finance journeys to see art and improve a painter's practice, including colour. Bonati's travels through several cities and Gimignani's journey to Venice are specific examples, not evidence that every protected artist received such funding.
+**English:** Patron-funded study travel is the practice, described in this chapter, of patrons meeting the costs of artists travelling to see works and improve their painting. Bonatti's multi-city travel and Gimignani's visit to Venice are examples. Purposes, actual itineraries and funding conditions require separate evidence.
 
-### 已有信息
+### 参与者、条件与环节
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Patron-funded study travel | S1；标题中的语境说明为登记用语 |
-| 具体事例 | Pio 资助 Bonati 多城学习；Rospigliosi 资助 Gimignani 赴威尼斯 | S1，支持范围见各条句意摘要 |
+| 参与者 | 出资保护人、受助艺术家；当地作品／艺术家是学习资源，不自动为导师 | S1–S3 |
+| 前提 | 保护关系存在，认为异地观看有助专业实践 | S1 |
+| 投入 | 旅费支持；具体数额、支付方式、食宿账目未核 | S1 |
+| 活动 | 前往其他城市，观看作品与绘画学习 | S1–S3 |
+| 目的 | Parma观看Correggio壁画、Venice改善色彩是作者举例 | S1；不一一套给所有旅行者 |
+| 输出 | 可确认的旅行／观看经历；技艺提高是目标，不从出行事实推定已实现 | 证据边界 |
+| 例外 | 不是每位受保护艺术家的固定待遇，也不是本项目研究流程 | S1语境 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 实例分列
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 艺术家／保护人 | 章内及外部线索 | 限制 |
+|---|---|---|
+| Giovanni Bonatti／Carlo Pio di Savoia | 章注列Florence、Bologna、Modena、Parma、Milan、Venice；专业传记补入训练与旅行背景 | S1–S2；城市列举不作为时间顺序，Venice停留一年多／三年异文保留 |
+| Lodovico／Ludovico Gimignani／Giulio Rospigliosi | 章注明确资助赴Venice；Petrucci据Russo将旅行重定1665，并指明Giulio Rospigliosi推动、Bernini建议，目的地Parma与Venice | S1、S3–S4；S4同行列Guglielmo Cortese及Bonati，S3另列Gaulli；不合并所有路线和付款，也不混同Bonati的Pio资助 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L165–189。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[博纳蒂](../persons/giovanni-bonati.md) · [卡洛·皮奥](../persons/cardinal-pio-bonati.md) · [吉米尼亚尼](../persons/lodovico-gimignani.md) · [帕尔马](../places/parma.md) · [威尼斯](../places/venice.md)为对象入口；已有个人赞助边仍在各卡，本程序不替代人—人或人—地点事实。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+S1：第一章p.6 L165–189（包括脚注）；S4馆方研究全文补证Giulio Rospigliosi及1665旅行，Russo原论文未读。S2–S3复用本轮已读专业传记，有相同转引线索，不另称独立原档。**Wiki双重验证未完成**：这是来源概括的特定操作做法，英文描述题及原语相关检索未得同粒度页；不把Grand Tour、艺术赞助或某个人的QID填入程序。Wikipedia人物页不能作为程序的身份配对。
 
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+本轮补入条件、输入、活动和目的／结果区别；资助原信／账目、完整路线、实际学习成果与同行者／日期异文仍有缺口；Gimignani该次旅行资助人已对应Giulio Rospigliosi。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

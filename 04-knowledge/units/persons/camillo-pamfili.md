@@ -3,7 +3,7 @@ title: "卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Mar
 name_en: "Camillo Francesco Maria Pamphili"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/pier-francesco-mola.md","note":"Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233,308–319,505–519; print pp. 7,9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -43,42 +43,89 @@ sources:
 - citation: "Wikidata, Q2935138, revision 2526528022. https://www.wikidata.org/wiki/Q2935138. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Camillo Francesco Maria Pamphili／Pamphilj，1622–1666 年瓦尔蒙托内亲王；亲王领地与章中工程匹配。"
+- citation: "Wikipedia (en), Camillo Francesco Maria Pamphili, revision 1373867264. https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili. Read 2026-09-11."
+  location: "全文9364字符；信息框、早年、枢机任职、婚姻、家族、肖像及参考"
+  sentence_summary: "五子女、枢机辞任与赞助；直到1657不能返罗马及1760由已去世夫妇继承等说法不采用。"
+- citation: "Wikidata, Q2935138, revision 2526528022. https://www.wikidata.org/wiki/Q2935138. Read 2026-09-11."
+  location: "enwiki；P21/P569/P570/P19/P20/P22/P25/P26/P40/P106/P27/P39，含时间精度和来源"
+  sentence_summary: "1647婚期属性只有年精度；四个子女链接不是完整子女表，身份锚点不支持所有日期。"
+- citation: "Benedetta Borello, PAMPHILI, Camillo, Dizionario Biografico degli Italiani 80 (2014). https://www.treccani.it/enciclopedia/camillo-pamphili_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文15723字符；生平、居所、家产、收藏、Valmontone及书目"
+  sentence_summary: "1644创建枢机与授领衔分开；1647婚姻、1648和解及在罗马居住；Valmontone交易／工程与图书收藏。"
+- citation: "Doria Pamphilj, Biografie Roma. https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/. Accessed 2026-09-11."
+  location: "定向阅读Camillo、Olimpia Aldobrandini、Giovanni Battista、Anna段及邻近Maidalchini段，不称全站全页传记已读"
+  sentence_summary: "五子女逐名；长子1709卒、Teresa生年与百科异文；1648住Corso，1760继承归Doria后裔而非早已去世的Anna夫妇。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 第一章 Valmontone 工程的 Prince Pamfili，与脚注致 Camillo Pamfili 的建议处于同一工程语境；涉及莫拉和 Cortese 的雇用、题材建议、材料和行动限制。
+**中文：** 卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili，1622–1666）是教皇英诺森十世的侄子，曾任枢机，1647年辞任后与奥林皮娅·阿尔多布兰迪尼结婚。他是贵族、收藏家和艺术委托人；本章涉及其瓦尔蒙托内工程及与画家的服务、付款和工作条件。
 
-本章不承担第六章婚姻、回城或工程毁损的完整生平。身份依据限当前章明确称谓及同工程连接。
+**English:** Camillo Francesco Maria Pamphili (1622–1666), a nephew of Pope Innocent X, was a cardinal before resigning in 1647 to marry Olimpia Aldobrandini. A nobleman, collector and patron, he appears in this chapter through the Valmontone project and the service, payment and working conditions of its painters.
 
-**English:** Prince Pamfili and the advice addressed to Camillo Pamfili belong to the same Valmontone project context, involving Mola, Cortese, subjects, materials and movement restrictions. This does not incorporate chapter 6's marriage, return or destruction narrative.
+### 姓名与基本信息
 
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Camillo Pamfili | S1、S2、S3、S4；标题中的语境说明为登记用语 |
-| 身份依据 | Valmontone 同工程中的 Prince Pamfili 与致 Camillo 建议信 | S1、S2、S3、S4，支持范围见各条句意摘要 |
+| 全名 | Camillo Francesco Maria Pamphili | S5–S8 |
+| 通用名／拼写 | Camillo Pamphili；Camillo Pamphilj；章中Pamfili | S1–S10 |
+| 头衔／时段 | 枢机1644–1647；瓦尔蒙托内亲王自1651；圣马蒂诺-阿尔奇米诺亲王及经婚姻关联的Rossano头衔须区别各自授予／继承 | S7、S9–S10 |
+| 身份标签 | 贵族、曾任枢机、军事官职担任者、收藏家、艺术赞助人 | S7–S10；不是终身神职身份 |
+| 性别 | 男 | S8 |
+| 出生 | 1622-02-21，那不勒斯（Naples） | S7–S10 |
+| 去世 | 1666-07-26，罗马Corso街家族宫邸 | S7、S9 |
+| 政治范围 | 罗马教廷及教皇国贵族语境，不填现代意大利国籍 | S1、S7–S9 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘
 
+| 关系字段 | 姓名／说明 | 依据 |
+|---|---|---|
+| 父亲 | Pamphilio Pamphili | S7–S10 |
+| 母亲 | Olimpia Maidalchini | S7–S10；与配偶同名而不同人 |
+| 伯父 | Giovanni Battista Pamphili，即Pope Innocent X | S7、S9 |
+| 姐妹 | Maria Flaminia；Costanza | S7、S9–S10；Costanza生年1627／1629有异文，暂不裁定 |
+| 配偶 | Olimpia Aldobrandini；1647-02-10结婚，前夫Paolo Borghese | S7、S9–S10 |
+| 儿子 | Giovanni Battista（1648–1709）；Benedetto（1653–1730，后来成为枢机） | S9–S10；不采用WP长子1717卒年 |
+| 女儿 | Flaminia；Anna（1652–1728）；Teresa（1650／1654–1704） | S7、S10；Teresa生年保留百科／馆方差异 |
 
-### 初步对齐（REV-034，2026-09-10）
+Camillo Astalli-Pamphili是另一位后来担任枢机侄的亲属，不与本卡合并。WP信息框只列Teresa、WD只链四名子女，均不是完整家庭名单。
 
-**身份配对通过。** Camillo Francesco Maria Pamphili／Pamphilj，1622–1666 年瓦尔蒙托内亲王；亲王领地与章中工程匹配。
+### 教育与任职
 
-名称记录：规范显示为 卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）；原登记名／来源名形 Camillo Pamfili 保留为检索异名，不因显示更新改动稳定路径。
+- 学习诗歌、哲学、数学和建筑；馆方还记其人文学养、音乐兴趣和Umoristi学会成员身份。未取得具名学校学位证据。（S7、S10）
+- **1644年9–10月：** 获教会军队、舰队及Borgo等军事／行政职务。（S7、S9）
+- **1644-11-14：** 创建为枢机；**12-12：** 授帽及Santa Maria in Domnica领衔。馆方“12月12日枢机侄”的简写不代替创建日期。（S8–S10）
+- **1647-01-21：** 辞去枢机身份；随后2月10日结婚。（S7、S9–S10）
+- **1651年：** 取得Valmontone等领地，发展当地宫殿项目。（S9–S10）
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili) 的 wikibase_item 与 [Wikidata Q2935138](https://www.wikidata.org/wiki/Q2935138) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 居所、收藏与委托
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 项目 | 内容 | 依据及限度 |
+|---|---|---|
+| 婚后居所 | 初期离开罗马，后住Corso宫邸；1648已与教皇和解并在罗马生活 | S9–S10；不采用WP“1657以前未返罗马” |
+| 婚姻与收藏 | Aldobrandini嫁资收藏与Pamphili购藏汇合，为今日Doria Pamphilj收藏的重要来源 | S7、S10；不是所有家产都由同一嫁资取得 |
+| Valmontone | 1651购得；1650年代兴建与装饰 | S9；章中1657材料约定、咨询及付款分别见S1–S4 |
+| 画家合作与争议 | 与[莫拉](pier-francesco-mola.md)、[科尔泰塞](guglielmo-cortese.md)有关的委托、服务及外出条件 | S1–S4；具体动作不得合并为无条件人格依附 |
+| Sant’Andrea al Quirinale | WP记1658委托Bernini，工程完成在其死后 | S7；建筑专页／账簿未核，不把完成工作归死者执行 |
+| 肖像 | Algardi胸像、Sustermans画作、Gaulli肖像为检索线索；馆方另有Gaulli《教会将军卡米洛》fc714 | S7、S10；版本、馆号及作者应逐件核，未把各肖像合成一件 |
+
+**继承边界：** WP称1760年Anna与Giovanni继承宫邸，与二人的生卒不符；馆方说明为其婚姻建立的Doria后裔继承关系。这里不生成跨世纪的错误人物继承边。（S7、S10）
+
+### 研究入口
+
+Borello的DBI传记已读；其列举的家族档案、1651财产安排、图书清册及研究论文尚未逐件阅读。WP关于懒惰、私情及家庭冲突的评价不能脱离叙述者与史料责任当作个人属性。（S7、S9）
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L179–185；S2：第一章；印刷页 7；OCR L231–233；S3：第一章；印刷页 9；OCR L312–319,329–330；S4：第一章；印刷页 13；OCR L495–497,505–506,516–519。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 章内来源
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+- **S1：第一章p6，L179–185。** Vasalli证词说明优先服务仍须正常支付作品报酬。
+- **S2：p7，L231–233。** Mola、Cortese短暂离开Valmontone需许可。
+- **S3：p9，L312–319、329–330。** 题材咨询及Armanni来信。
+- **S4：p13，L495–497、505–506、516–519。** 食宿、预付款及材料条件。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+保留元数据中对[莫拉](pier-francesco-mola.md)与[科尔泰塞](guglielmo-cortese.md)的两条既有正式关系。本次新增亲缘、官职和收藏字段尚未转为新边；各字段已列证据。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili)与[Wikidata Q2935138](https://www.wikidata.org/wiki/Q2935138)双向配对沿用REV-034。S5–S6为初对齐，S7–S10本轮补足。头衔授予文件、子女生年异文和各工程账簿待核；source_backed不变。[过程](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/camillo-pamfili定位。

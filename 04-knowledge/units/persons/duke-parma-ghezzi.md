@@ -3,7 +3,7 @@ title: "帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s hono
 name_en: "Duke of Parma (Ghezzi’s honorary appointment)"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/giuseppe-ghezzi.md","note":"授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 771–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,38 +15,41 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–773; print pp. 19
+- citation: "Rossella Faraglia, “GHEZZI, Giuseppe”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "传记正文和书目全文，21160字符；未读其引用的原始档案"
+  sentence_summary: "生卒、父母配偶及子女、法律职业、学院职责、展览与绘画、Arcadia别名和晚年。"
+- citation: "Treccani, “GHEZZI, Pier Leone”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/pier-leone-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "选读1705入会至1710受衔及1712委托段；未读整篇"
+  sentence_summary: "1710年2月11日帕尔马公爵授骑士十字给Pier Leone；与Giuseppe的gentiluomo d’onore不是同一事例。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 授 Giuseppe Ghezzi gentiluomo d’onore 的公爵；具体人名、时间未在本章给出。
+**中文：** 本卡保留第一章所记授予朱塞佩·盖齐 gentiluomo d’onore 的帕尔马公爵。现有检索尚未确定其姓名及授予日期；其子皮耶尔·莱昂内另获帕尔马骑士十字的事例，不能用来补定本卡身份。
 
-**English:** The duke granted Giuseppe Ghezzi the title gentiluomo d'onore. His personal name and the date are not supplied.
+**English:** This record preserves the Duke of Parma whom Haskell identifies as granting Giuseppe Ghezzi the title gentiluomo d’onore. The duke’s personal identity and the grant’s date remain unresolved. A separate grant of a Parma knighthood to Ghezzi’s son Pier Leone cannot establish this duke’s identity.
 
-### 已有信息
+### 已知信息与缺口
 
-| 项目 | 内容 | 依据 |
+| 字段 | 当前结论 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Duke of Parma (Ghezzi’s honorary appointment) | S1；标题中的语境说明为登记用语 |
-| 授衔 | Giuseppe Ghezzi：gentiluomo d’onore | S1，支持范围见各条句意摘要 |
+| 章内称谓 | Duke of Parma／帕尔马公爵 | S1 |
+| 受衔者 | Giuseppe Ghezzi／朱塞佩·盖齐 | S1 |
+| 所授称号 | gentiluomo d’onore | S1 |
+| 个人全名、生卒、父母配偶 | 尚未确认，不能以当时某位公爵猜填 | 本次检索未解决 |
+| 授予日期 | 未确认 | 同上 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 消歧结果
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- 已完整阅读Giuseppe Ghezzi的DBI传记；该文支持其生平及任职背景，但没有明确本次帕尔马荣誉侍从授予者姓名。[S2]
+- 另读Pier Leone传记相关段，1710年2月11日获帕尔马公爵授骑士十字者是儿子Pier Leone。受衔人和荣誉均与本卡不同，不用该日期推定Giuseppe的授衔。[S3]
+- 英文、Giuseppe全名与意大利语duca／gentiluomo／onore组合查询仍未解决具体身份，未证明无条目。
+- 不采用确认QID或某位公爵的Wikipedia链接；后续需本章所引Pascoli相应段及授予文书，不能用爵位列表代替。
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L770–773。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1：第一章，印刷页19，OCR L770–773。S2为Giuseppe DBI全文；S3为Pier Leone DBI受衔段选读。二者支持消歧，不支持本公爵新增生平事实。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+文件头1条指向[Giuseppe Ghezzi](../persons/giuseppe-ghezzi.md)的既有关系保留；其对象仍是本章未具名公爵，不合并到猜测人名。当前为**已处理但身份未解决**，本轮不计详细外部生平补足，status仍为source_backed；阻断依赖具体公爵身份的新字段和关系。

@@ -3,7 +3,7 @@ title: "科尔托纳（Cortona）"
 name_en: "Cortona"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -26,38 +26,56 @@ sources:
 - citation: "Wikidata, Q52080, revision 2532452411. https://www.wikidata.org/wiki/Q52080. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "托斯卡纳 Cortona 城镇；不是画家别名。"
+- citation: "Wikipedia (en), Cortona, revision 1370060359. https://en.wikipedia.org/wiki/Cortona. Accessed 2026-09-11."
+  location: "完整对象页17189字符，正文、表格、图注和注释书目已读；非被引文献全部已读。"
+  sentence_summary: "采用与本章有关的定义、地理或语境；具体异文与不采用内容见正文。"
+- citation: "Wikidata Q52080, revision 2532452411. https://www.wikidata.org/wiki/Q52080. Reviewed 2026-09-11."
+  location: "复用实体抓取，读取P625/P2044/P131和P856，核单位与标签。"
+  sentence_summary: "现代坐标、494米且bounds493–495、Arezzo省；不以494米代表全市各处，deprecated官网不并列为当前官网。"
+- citation: "Gabriele Taddei, «7 gennaio 1411: 60.000 fiorini e Cortona è fiorentina», Portale Storia di Firenze, Università degli Studi di Firenze. https://www.storiadifirenze.org/?p=4162. Accessed 2026-09-11."
+  location: "全文及文末两项研究书目已读；不等于已读转让原文书。"
+  sentence_summary: "1411-01-07，Ladislao向佛罗伦萨共和国转让城市及contado，金额60000金弗罗林；不是英语百科所写直接卖给美第奇家族。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Pietro da Cortona 的同乡关系所涉城市，也是 Ferri 为 Laparelli 作祭坛画的地点；与画家姓名分开。
+**中文：** 科尔托纳是意大利托斯卡纳阿雷佐省的城镇与市镇，位于瓦尔迪基亚纳上方的山地。本章在皮耶特罗·达·科尔托纳的托斯卡纳联系及费里为拉帕雷利制作祭坛画的语境中提及该地；城市与同名画家分开。[S1–S7]
 
-**English:** This city appears in Pietro da Cortona's compatriot connections and as the site of Ferri's altarpiece for Laparelli. It is distinct from the painter's name.
+**English:** Cortona is a town and comune in the province of Arezzo, Tuscany, Italy, on the hills above the Val di Chiana. Chapter 1 mentions it in the context of Pietro da Cortona's Tuscan connections and Ferri's altarpiece for Laparelli. The place is distinct from the painter. [S1–S7]
 
-### 已有信息
+### 名称与地理字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Cortona | S1、S2；标题中的语境说明为登记用语 |
-| 地点与对象边界 | 城市；与 Pietro da Cortona 人物分开 | S1、S2，支持范围见各条句意摘要 |
+| 通用名 | 科尔托纳／Cortona | S3–S6 |
+| 历史名 | Etruscan Curtun；Latin Cortona | S5 |
+| 对象类型 | 城镇及现代comune；不以市镇范围代替每座建筑 | S5、S6 |
+| 现代行政归属 | 意大利，托斯卡纳，阿雷佐省（Q16115） | S5、S6 |
+| WD坐标 | 北纬43.275555555556、东经11.988055555556 | S6 P625 |
+| WD海拔值 | 494米，数值上下界493–495米；不代表全市所有位置 | S6 P2044 |
+| 官网记录 | http://www.comune.cortona.ar.it；另一个deprecated值不列为当前官网 | S6 P856；本轮未独立读官网 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 历史沿革
 
+- 古代为伊特鲁里亚城市，后进入罗马统治；建城神话不作为实证纪年。[S5]
+- 1325–1409年Casali家族统治。[S5]
+- 1409年被Ladislao占领；1411年1月7日向佛罗伦萨共和国转让城市及contado，金额60000金弗罗林。[S7]
+- 1737年托斯卡纳统治由美第奇转到洛林王朝；这里是城市政治归属语境，不是城市由家族私人所有的断言。[S5]
 
-### 初步对齐（REV-034，2026-09-10）
+### 本章定位与文化场所
 
-**身份配对通过。** 托斯卡纳 Cortona 城镇；不是画家别名。
+- [皮耶特罗·达·科尔托纳](../persons/pietro-da-cortona.md)的地名与人物身份分列；S1“同乡”联系指托斯卡纳背景，不证明萨凯蒂也出生在Cortona。[S1；两人物卡外证]
+- 费里为Laparelli作祭坛画的地点为Cortona；不凭城市名认定具体教堂或现藏地。[S2]
+- Palazzo Casali又称Palazzo Pretorio，为MAEC所在；学院始于1727。建筑、博物馆和收藏不能互换身份。[S5]
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Cortona) 的 wikibase_item 与 [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 身份对齐
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+复用双向身份核对：[Wikipedia英文页](https://en.wikipedia.org/wiki/Cortona) ↔ [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080)。本轮全文阅读英文页revision1370060359及相关WD字段。
 
 ## 关系与证据
 
-S1：第一章；印刷页 7；OCR L217–220；S2：第一章；印刷页 13；OCR L507–508。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+尚无正式关系；正文人物链接仅导航。sources依次S1–S7；第一章第7页L217–220、第13页L507–508定位保留。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+**冲突与未决：** WP把1411受让人写作Medici，依据S7专业历史研究采用佛罗伦萨共和国。WP山城约600米与WD494米不作同一测量点竞争值。诺亚建城传说、可疑建筑先后说法及百科画家出生年未采入此城市卡。新外部历史、地理来源不证明本章祭坛画的具体归属。

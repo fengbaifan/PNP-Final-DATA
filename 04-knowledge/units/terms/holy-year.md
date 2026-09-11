@@ -3,7 +3,7 @@ title: "圣年（Holy Year）"
 name_en: "Holy Year"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -19,38 +19,49 @@ sources:
 - citation: "Wikidata, Q838794, revision 2504788674. https://www.wikidata.org/wiki/Q838794. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "天主教圣年／Jubilee 制度概念；不是某个单独年份或特定圣年事件。"
+- citation: "Wikipedia (en), Jubilee in the Catholic Church, revision 1374163520. https://en.wikipedia.org/wiki/Jubilee_in_the_Catholic_Church. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "Wikidata, Q838794, revision 2504788674. https://www.wikidata.org/wiki/Q838794. Accessed 2026-09-11."
+  location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
+  sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
+- citation: "Jubilee 2025, “What is the Jubilee?”. https://www.iubilaeum2025.va/en/giubileo-2025/segni-del-giubileo.html Accessed 2026-09-11."
+  location: "官方说明正文全文及特征清单；未递归读取各特征页面"
+  sentence_summary: "1300年首次基督教圣年，1343年规定50年间隔，1470年调整为25年；朝圣与圣门。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 在本章作为促使教堂装饰完工的特殊时机，未具体指定某一年的活动。
+**中文：** 圣年是天主教围绕朝圣、悔罪和赦罪开展的宗教纪念制度，包括定期圣年和特别圣年。第一章仅把它作为可能促使教堂装饰完工的时机，未指定某一届活动。
 
-**English:** Haskell presents a Holy Year as an occasion that could accelerate church decoration. The general reference does not identify a particular dated celebration as a separate event.
+**English:** A Holy Year or Jubilee is a Catholic observance associated with pilgrimage, penitence, and indulgences, with ordinary and extraordinary forms. Haskell mentions it as an occasion that could hasten church decoration without identifying one particular celebration.
 
-### 已有信息
+### 名称与基本信息
 
-| 项目 | 内容 | 依据 |
+- 英文：Holy Year；Jubilee in the Catholic Church。[S4]
+- 对象：重复举行的宗教纪念制度；本卡不是单独事件，也不把现代一届圣年的组织者作为跨时期管理者。[S1、S4]
+- 主要活动：朝圣，后来与开启、通过圣门等活动结合；具体赦罪条件随各届规定，不统一推断。[S4、S6]
+- 语源背景：官方说明回顾犹太教jubilee的第五十年传统；其中债务和土地规定不能直接转写为天主教每届圣年的通行民事效力。[S6]
+
+### 沿革
+
+| 时间 | 事项 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Holy Year | S1；标题中的语境说明为登记用语 |
-| 章内作用 | 推动教堂装饰进度的宗教时机 | S1，支持范围见各条句意摘要 |
+| 1300 | Boniface VIII宣告首届基督教圣年 | S4、S6 |
+| 1343 | Clement VI规定以50年为间隔 | S6；不是把1343本身写成首个50年圣年 |
+| 1470 | Paul II将间隔调整为25年 | S6 |
+| 后续 | 定期圣年之外亦可宣告特别圣年 | S4、S6；具体各届另有条件 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+本章材料中“为圣年赶工”是一般背景；不能自动给每项教堂工程添加1625、1650、1675或1700年的完工日期。[S1]
 
+### 身份与Wikidata
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 天主教圣年／Jubilee 制度概念；不是某个单独年份或特定圣年事件。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Jubilee_in_the_Catholic_Church) 的 wikibase_item 与 [Wikidata Q838794](https://www.wikidata.org/wiki/Q838794) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[Wikipedia对象页](https://en.wikipedia.org/wiki/Jubilee_in_the_Catholic_Church) ↔ [Q838794](https://www.wikidata.org/wiki/Q838794)配对沿用。P31 planned event（Q1656682）、P279 year（Q577）为所读normal rank分类声明，未附引用；只作概念分类导航，不把本卡改为某个已发生的单届事件。[S5]
 
 ## 关系与证据
 
-S1：第一章；印刷页 12；OCR L453–455。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页12，OCR L453–455；S2–S3：初步对齐；S4–S5：本次全文及WD读取；S6：圣年官方说明。
+- Wikipedia各届表部分起止日期、天数及1700年教皇归属不能仅按表格复制；本卡仅采用上述有直接依据的制度沿革。未开展各届日历考订，未采用未来届次推测。
+- 当前无正式关系。未决为本章具体工程是否与某届圣年存在有证据的联系，后续须逐案依据合同、工程记录或作者明确论述。状态维持 source_backed。

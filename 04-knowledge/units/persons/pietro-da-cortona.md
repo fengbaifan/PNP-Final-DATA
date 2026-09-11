@@ -3,7 +3,7 @@ title: "皮耶特罗·达·科尔托纳（Pietro da Cortona）"
 name_en: "Pietro da Cortona"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -33,40 +33,80 @@ sources:
 - citation: "Wikidata, Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。"
+- citation: "Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-11."
+  location: "全文16432字符，含正文、信息框／表格、图注及注释书目；原输出截断处补读"
+  sentence_summary: "与原配对QID互链一致；叙述按专业传记与本章核对，不自动接收所有作品和亲缘。"
+- citation: "Wikidata Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10; reviewed 2026-09-11."
+  location: "复用完整抓取，读取适用日期、身份、亲缘／师承、职业及限定／引用；被采用关联标签另已查询"
+  sentence_summary: "日期多值与年精度分别处理；QID及sitelink复核不等于所有字段事实无误。"
+- citation: "Giuliano Briganti, BERRETTINI, Pietro, DBI 9 (1967). https://www.treccani.it/enciclopedia/pietro-berrettini_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "选读开头至早期建筑段约前10500字符；未读全篇39133字符，不使用截断末句"
+  sentence_summary: "旧传记1596生年与后期馆方1597不同；亲缘与早期训练、Sacchetti赞助、绘画和建筑责任分别记录。"
+- citation: "Istituto Centrale per la Grafica, Pietro da Cortona e il disegno, exhibition 1997–1998. https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html. Accessed 2026-09-11."
+  location: "选读展览介绍至LA MOSTRA前的概述；长作品清单未完整阅读，原输出截断不记全文"
+  sentence_summary: "采用1597生年、1634–1636学院负责人任期及设计／出资教堂；99页与百余素描、Cortona与Ferri多手及可能旧藏均须分开。"
 ---
 
 ## 内容
 
 ### 描述
+**中文：** 皮耶特罗·贝雷蒂尼以出生地名“达·科尔托纳”知名，是主要在罗马、佛罗伦萨工作的画家、建筑师和装饰设计者。第一章用其与萨凯蒂的保护关系、画题协商及预备稿争议讨论委托实践；艺术声誉不能直接等同创作自主程度。[S1–S3、S6]
+**English:** Pietro Berrettini, known by the name of his native Cortona, was a painter, architect and decorative designer active principally in Rome and Florence. Chapter 1 discusses his protection by Sacchetti, negotiations over subjects and disputed preliminary designs. Artistic reputation alone does not establish the degree of creative autonomy. [S1–S3, S6]
 
-**中文：** 获 Marcello Sacchetti 同乡照顾并入住宫邸的画家。第一章说他不愿自行选择画题；Rosa 则反对依题订画，两人的声誉和自主性并非简单正相关。
-
-Grassi 发表的若干归属稿与 Barberini 大厅所谓 bozzetto 仍有争议，不确认为其作品。
-
-**English:** Cortona received lodging from compatriot Sacchetti and disliked choosing subjects, unlike Rosa's resistance to prescribed commissions. Reputation and autonomy therefore do not simply coincide. Grassi's attributed modelli and the Barberini bozzetto remain disputed.
-
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+### 姓名与基本信息
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Pietro da Cortona | S1、S2、S3；标题中的语境说明为登记用语 |
-| 保护与创作 | Sacchetti 同乡保护；不愿自拟画题；预备稿有争议 | S1、S2、S3，支持范围见各条句意摘要 |
+| 全名 | 皮耶特罗·贝雷蒂尼／Pietro Berrettini | S6、S8 |
+| 通用名 | Pietro da Cortona；不是Cortona地点实体 | S6 |
+| 性别／身份标签 | 男；画家、建筑师、素描与装饰设计者 | S6–S9 |
+| 生年 | 当前依后期馆方展览采用1597；传统1596仍列异文 | S9；S7、S8用1596 |
+| 精确生日／洗礼 | 未定；WP导言为11月1日1596或1597，注释称1597-11-27洗礼；不互换生日与洗礼日 | S6–S8 |
+| 出生地 | Cortona，托斯卡纳大公国 | S6、S8 |
+| 卒日／地点 | 1669-05-16，罗马 | S6、S7 |
+| 安葬／纪念 | 亲自设计并出资的SS. Luca e Martina教堂；馆方区分教堂与地下纪念墓 | S9 |
+| 国籍表达 | 意大利／托斯卡纳文化来源，教皇国工作；不加现代国家公民资格 | S6、S8 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘、学习与教学
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 父亲 | Giovanni Berrettini | S8 |
+| 母亲 | Francesca Balestrari | S8 |
+| 同族Filippo | S8称cugino，WP称uncle；世代关系冲突保留，不先建亲缘边 | S6、S8 |
+| 配偶／子女 | WP称终身未婚；所读范围没有可靠完整家族记录 | S6；不由教堂“爱女”比喻造女儿 |
+| 师承 | Andrea Commodi，后Baccio Ciarpi | S6、S8；WD两项标签已核 |
+| 学习对象 | 古代艺术及Raphael、Michelangelo、Polidoro等；学习前代作品不等于直接师承 | S8 |
+| 学生／协作者 | Ciro Ferri；Castelfusano工程有Andrea Sacchi参与。WP的长表混合学生与工作室参与者，不批量导入师生边 | S6、S9 |
 
+### 职业履历
+| 时间 | 事项 | 依据 |
+|---|---|---|
+| 约1612／1613 | 随Commodi赴罗马，后转Ciarpi处 | S6、S8 |
+| 约1620起 | 经托斯卡纳知识与赞助圈联系Cassiano dal Pozzo和Marcello Sacchetti | S8 |
+| 1622–1623 | Palazzo Mattei装饰 | S6、S8 |
+| 1624–1626 | Santa Bibiana壁画，Barberini保护扩大 | S6、S8 |
+| 1626–1629 | Castelfusano装饰与早期建筑工作，协作完成 | S8 |
+| 1633–1639 | Barberini宫大厅天顶工程 | S6 |
+| 1634起 | 圣路加学院负责人；馆方记1634–1636，WP记1634–1638，终期待原记录 | S6、S9 |
+| 1637／1641／1647 | 佛罗伦萨Pitti工程的初访、续作及返罗马分别记；后由Ferri续成 | S6 |
+| 1651–1654 | Piazza Navona的Palazzo Pamphilj装饰 | S6 |
+| 至1665 | Chiesa Nuova长期装饰工程陆续完成 | S6；不倒推单一年份完成全部阶段 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 作品、工程及文字
+| 类型／名称 | 责任与限制 | 依据 |
+|---|---|---|
+| 《神意与巴贝里尼权力寓言》／Allegory of Divine Providence and Barberini Power | 大厅天顶；与Sacchi的Divine Wisdom不是同作 | S6 |
+| Pitti宫四时代／行星厅 | 绘画、灰泥和图像方案需分工；Ferri参与后续 | S6、S9 |
+| SS. Luca e Martina | 建筑设计兼出资，不因画家角色漏掉建筑师／赞助者属性 | S9 |
+| Santa Maria della Pace／Santa Maria in Via Lata | 改造、立面等具体职责，不说整座建筑全部新建 | S6 |
+| Trattato della pittura e scultura, uso et abuso loro（1652） | 与Giandomenico Ottonelli相关的合著归属；详细版本及署名待原版 | S6；不照搬页下注释的名字混用 |
+| Tabulae anatomicae | 早期解剖绘图与后期刻印出版分开；不采用WP“死后一百年”作精确出版纪年 | S6 |
+| 本章归属有争议的稿本 | Grassi所刊Doria–Pamphilj稿组及Barberini大厅bozzetto继续存疑 | S3；名气与风格概括不能替代作品鉴定 |
 
-**身份配对通过。** Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_da_Cortona) 的 wikibase_item 与 [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 评价与研究
+构图人物数量的论争反映不同艺术主张，不变成固定人数规则。[S6] Briganti1967的赞助阶层与风格解释是作者论断，不能当作本项目已经发现的普遍规律。[S8选读] 相关书目：Merz2008关于罗马建筑、Campbell1977关于Pitti宫、Lo Bianco主编1997展览研究；仅核见书目信息。ICG1997展览由Simonetta Prosperi Valenti Rodinò编目录，介绍素描的设计、学习及多人协作性质；本轮未全读展出作品清单。[S6、S9]
 
 ## 关系与证据
-
-S1：第一章；印刷页 7；OCR L217–220；S2：第一章；印刷页 11, 12；OCR L382–388,413–418,430–435；S3：第一章；印刷页 12；OCR L461–464。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 相关知识元：[萨凯蒂](marcello-sacchetti.md)、[萨基](andrea-sacchi.md)、[科尔托纳城市](../places/cortona.md)、[有争议的Doria–Pamphilj稿组](../works/cortona-doria-pamfili-modelli-disputed.md)、[Barberini大厅所谓草稿](../works/barberini-salone-bozzetto-disputed.md)。当前未新增正式出边。
+- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Pietro_da_Cortona) ↔ [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)。ULAN500115154仅从WD核得编号，本轮未读Getty记录；WD的general contractor标签未机械作为现代职业导入。
+- S1–S3保存章页／行数与句意，S4–S5为旧对齐，S6–S9为补足。DBI仅选读早年部分，ICG仅选读介绍；不得标为这两来源全文已读。
+- 未决：精确生日、亲缘、学院终期、书信与稿本原证据。仍为source_backed；第六章和发现未开展。

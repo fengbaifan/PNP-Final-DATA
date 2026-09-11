@@ -33,38 +33,76 @@ sources:
 - citation: "Wikidata, Q173950, revision 2528326710. https://www.wikidata.org/wiki/Q173950. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "购买、销售或中介艺术品的职业／经营角色；不把现代经营制度反投到本章。"
+- citation: "Wikipedia (en), Art dealer, revision 1370147549. https://en.wikipedia.org/wiki/Art_dealer. Accessed 2026-09-10."
+  location: "导言、历史、职业要求、现代画廊、收费展览、组织名单及全部注释书目；全文7569字符"
+  sentence_summary: "买卖或中介艺术品的角色；现代代理、佣金、画廊和协会制度不可回投十七世纪；职业起源段缺引注。"
+- citation: "Wikidata, Q173950, revision 2528326710. https://www.wikidata.org/wiki/Q173950. Accessed 2026-09-10."
+  location: "enwiki sitelink；P31/P279/P1014及限定语引用"
+  sentence_summary: "职业概念的身份锚点；Getty AAT编号300386253经词表正文另核，不把职业概念当一个人或某公司。"
+- citation: "Getty Research Institute, Art & Architecture Thesaurus, art dealers, ID 300386253. https://www.getty.edu/vow/AATFullDisplay?find=art+dealers&logic=AND&note=&subjectid=300386253. Accessed 2026-09-10."
+  location: "完整词条：scope note、英语及德荷语词形、层级、related concepts和来源"
+  sentence_summary: "代表艺术家并从事艺术品买卖的个人或法人团体；与art dealerships相关、与gallerists用法重叠，非完全同义。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 在艺术家与买方之间活动的中介角色。作者同时讨论其市场作用及低端画家可能遭遇的压迫，不能当作每位画商行为。
+**中文：** 画商指买卖艺术品或促成其交易的个人或经营主体，是一种职业与市场角色。第一章讨论画商、代理人与买方之间的联系，也重构部分贫困画家依赖经销商的处境；这种分析不能概括为所有画商的行为。英文 art dealer 的对象范围不限于绘画，“画商”是本章沿用译名。（S1–S3、S6、S8）
 
-**English:** The chapter discusses dealers as market intermediaries and describes the dependence of some poorly paid painters on them. Haskell's account of exploitation does not establish the conduct of every dealer or identify every unnamed intermediary.
+**English:** An art dealer is a person or business engaged in buying and selling works of art or facilitating their exchange. The term denotes an occupational and market role. Chapter 1 discusses dealers, agents and buyers, and reconstructs the dependence of some impoverished painters on dealers; this does not establish the conduct of every dealer. Unlike the narrower implication of the chapter’s Chinese label, the English term is not restricted to paintings. (S1–S3, S6, S8)
 
-### 已有信息
+### 名称、定义与边界
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Art dealer | S1、S2、S3；标题中的语境说明为登记用语 |
-| 角色 | 绘画市场中介；部分低收入画家的交易对象 | S1、S2、S3，支持范围见各条句意摘要 |
+| 中文常用名 | 画商；泛艺术媒介语境可释作艺术品经销商 | S1–S3章内绘画语境；S6、S8一般范围 |
+| 英文 | art dealer；复数art dealers；art-dealers、dealers, art为词形变体 | S8 |
+| 德语／荷兰语 | Kunsthändler；kunsthandelaar／kunsthandelaren | S8；不据语言推职业起源国 |
+| 概念类型 | 职业或交易角色，term；具体承担者可另为person或institution | S6–S8；类别按对象区分 |
+| 一般含义 | 购买、销售艺术品或居间促成交易；AAT还强调代表艺术家 | S6、S8；并非每宗交易都含独家艺术家代理 |
+| 可兼身份 | 收藏家、鉴定者、艺术家、代理人或画廊经营者等可与经销角色重叠，但每项须另有证据 | S6论述；重叠可能性不是任何个人的事实 |
+| 适用时期 | 本章对象为十七世纪意大利市场；一般词表不提供统一起始年代 | S1–S3、S8 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 角色与工作内容
 
+| 项目 | 可描述的工作 | 记录限制 |
+|---|---|---|
+| 买入与转售 | 经销商可能买入自有库存后转售 | S6；须区别所有权、持有及销售代理 |
+| 居间与代理 | 在艺术家、卖方、买方之间撮合，或代表艺术家推介 | S1、S6、S8；代理不自动意味着拥有作品 |
+| 作品判断 | 观察作品、比较风格、研究真伪与估价 | S6；不能据职业标签认定鉴定结论正确 |
+| 市场组织 | 现代语境包括展览、画廊、艺术家推广、与收藏机构联系 | S6；不得预设本章出现现代商业画廊制度 |
+| 交易权力 | Haskell讨论部分画家的依附及经销商议价地位 | S3；保留作者分析身份，不为匿名人物编造实体 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 与相邻概念的区别
 
-**身份配对通过。** 购买、销售或中介艺术品的职业／经营角色；不把现代经营制度反投到本章。
+| 概念 | 区别 | 依据 |
+|---|---|---|
+| art dealerships | 经销企业或经营组织；AAT列为相关概念300443854，不是该职业概念本身 | S8 related concepts；关联词条未全文另读 |
+| gallerists | 画廊经营者；AAT列“用法重叠”，不是同义替换 | S8，相关编号300379169 |
+| 艺术代理人 | 可替他人办交易；没有购销证据不一概称画商 | S1、S6一般角色区分 |
+| 赞助人／收藏家 | 购买、资助或收藏行为本身，不足以证明职业经销 | S1–S3研究语境 |
+| 画廊空间 | 建筑或展示空间，与经营人、经营组织分开 | S6 |
+| 拍卖师／鉴定人 | 可与经销工作交叉，但角色并不相同 | S6 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Art_dealer) 的 wikibase_item 与 [Wikidata Q173950](https://www.wikidata.org/wiki/Q173950) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 原文用法与研究来源
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 来源定位 | 句子摘要 | 使用范围 |
+|---|---|---|
+| 第一章，印刷页6，OCR L160–164 | 艺术家与买方之间有画商和代理参与 | S1；中介类型 |
+| 第一章，印刷页15，OCR L607–609 | 市场交易与展览发挥作用 | S2；具体制度依原文，不反推现代佣金 |
+| 第一章，印刷页20，OCR L811–818 | 作者重构贫困画家对经销商的依赖 | S3；部分群体的解释，不是全部画商结论 |
+
+S6书目列 Titia Hulst 编 *A History of the Western Art Market: A Sourcebook of Writings on Artists, Dealers, and Markets*（2017；《西方艺术市场史：艺术家、画商与市场文献选编》，暂译）。本轮仅读页面所列书目信息，未读该书全文。
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L160–164；S2：第一章；印刷页 15；OCR L607–609；S3：第一章；印刷页 20；OCR L811–818。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+[Wikipedia英文Art dealer](https://en.wikipedia.org/wiki/Art_dealer)与[Wikidata Q173950](https://www.wikidata.org/wiki/Q173950)双向一致；[Getty AAT 300386253](https://vocab.getty.edu/page/aat/300386253)正文已读，支持角色范围。S4–S5保留初步对齐，S6–S8为本次详细补足。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+**不采纳项：** WP称独立职业“或许”产生于意大利文艺复兴且缺引注，不确定为起源事实；25%–50%现代佣金、市场投资建议、各协会会员制度不当作十七世纪规则；现代名录不自动摄入本章。没有英文原词或行为证据，不把每个“代理”合并为画商。
 
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+本卡无正式关系。职业概念可供人物属性引用；具体买卖、委托和代理须使用实际参与者、作品及时间作为关系端点与语境，不能以术语卡代替匿名交易者。未预设Topic或上层发现。
+
+**补足结果：** 已完成全文阅读、词表核对、角色范围与本章用法整理；起源和具体交易者身份仍按个案待证。source_backed不变。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：terms/art-dealer；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。

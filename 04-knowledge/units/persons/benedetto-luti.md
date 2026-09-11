@@ -3,7 +3,7 @@ title: "贝内代托·卢蒂（Benedetto Luti）"
 name_en: "Benedetto Luti"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -26,38 +26,71 @@ sources:
 - citation: "Wikidata, Q816847, revision 2536308991. https://www.wikidata.org/wiki/Q816847. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1666–1724 年意大利画家，与 Pascoli 传记语境相容。"
+- citation: "Wikipedia (en), Benedetto Luti, revision 1365387077. https://en.wikipedia.org/wiki/Benedetto_Luti. Accessed 2026-09-11."
+  location: "全文阅读信息框、正文、图注、表格及注释书目；3911字符；未把被引外链视为已读"
+  sentence_summary: "补足姓名、生平、亲缘、职业、作品与研究线索；日期及身份错项按正文逐项处置。"
+- citation: "Wikidata, Q816847, revision 2536308991. https://www.wikidata.org/wiki/Q816847. Accessed 2026-09-11."
+  location: "相关属性值、限定词、时间精度、rank、引用及 enwiki sitelink；采用的关联实体标签已核"
+  sentence_summary: "支持适用结构化字段；多值、无引用项及与正文冲突项保留限制，双站不计独立互证。"
+- citation: "Alessandro Serafini, LUTI, Benedetto, Dizionario Biografico degli Italiani 66 (2006). https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "正文前8500字符及末2300字符、书目前1500字符选读"
+  sentence_summary: "亲缘、训练、赴罗马、具体委托、入会、教学和遗嘱；竞赛年代有异文。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 被 Pascoli 描述为少向权贵寻求保护，认为良好工作是正直者的保护；在章末用作罗萨独立策略的局部相似例，不能当作其追随者。
+**中文：** 贝内代托·卢蒂是佛罗伦萨出身、在罗马活动的画家、粉彩画家、素描教师、鉴赏家及艺术交易者。第一章引用Pascoli所述少向权贵求保护的态度；外部材料仍记录具体赞助，二者不能被压成“没有赞助人”。（S1–2、S5、S7）
 
-**English:** Pascoli describes Luti as seldom seeking powerful protectors and regarding good work as an honest person's protection. Haskell offers a partial parallel to Rosa's independence, not evidence of discipleship.
+**English:** Benedetto Luti was a Florentine-born painter, pastelist, drawing teacher, connoisseur and art dealer active in Rome. Chapter 1 quotes Pascoli on his reluctance to seek powerful protectors, while external sources document patronage; this does not mean that he had no patrons. (S1–2, S5, S7)
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Benedetto Luti | S1、S2；标题中的语境说明为登记用语 |
-| 评价者 | Pascoli；少求权贵保护，重视良好工作 | S1、S2，支持范围见各条句意摘要 |
+| 全名 | Benedetto Luti／贝内代托·卢蒂 | S5、S7 |
+| 性别 | 男 | S6 P21 |
+| 生年／生日 | 1666年11月17日 | S6 P569、S7 |
+| 生地 | 佛罗伦萨／Florence | S6 P19、S7 |
+| 卒年／卒日 | 1724年6月17日 | S6 P570、S7 |
+| 卒地 | 罗马，Villa Medici al Pincio寓所 | S7 |
+| 历史归属 | 托斯卡纳出身；罗马职业活动，不填现代国籍 | S7 |
+| 荣衔 | 1724年遗嘱记录称eques；获衔的具体授予行为未由已读段落确定 | S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘与师承
 
+- 父亲：Iacopo，佛罗伦萨工匠。（S7）
+- 母亲：本次未核姓名。（S7）
+- 配偶：Margherita，佛罗伦萨人；婚期不详，DBI推测1705年前。（S7）
+- 儿子：Carlo（1705–1776，法律及教廷职务）、Giovanni Angelo（1707–1771，神职）。（S7）
+- 女儿：Chiara、Maria Maddalena。（S7）
+- 老师：Anton Domenico Gabbiani；WD P1066及DBI支持。临摹Raphael、Ferri等不等同直接师生。（S6、S7）
 
-### 初步对齐（REV-034，2026-09-10）
+### 履历与作品
 
-**身份配对通过。** 1666–1724 年意大利画家，与 Pascoli 传记语境相容。
+- 1684年5月3日：致Gabbiani信谈在比萨临摹，具体原信本次未读。（S7）
+- 1687–1689年：为Pontedera旧堂绘《圣母与炼狱灵魂》，属已能确认的佛罗伦萨时期作品。（S7）
+- 1690年：迁罗马；Paolo Falconieri为早期支持者，保持与Cosimo III等美第奇成员的联系。（S7）
+- 1692–1693年：为Giovanni Niccolò Berzighelli作《上帝驱逐该隐》及《西门家的宴会》，现与Kedleston收藏关联；不与其他同题小铜板混同。（S7）
+- 1694年4月12日：当选圣路加学院成员；1697年加入Virtuosi al Pantheon。（S7）
+- 1700年：《马丁五世升荣》装饰Palazzo Colonna；1702年Magnanapoli圣加大利纳堂《抹大拉领圣体》。（S7）
+- 1707年：学院现藏两件小铜板《法利赛人家的宴会》《以马忤斯的晚餐》；教学及艺术交易逐渐成为重要活动。（S7）
+- 1720年：学院Prince，依据WP；不能把这一任职同时当作授骑士衔的法律证明。（S5、S7）
+- 1724年6月10日遗嘱登记，6月17日去世；安葬San Nicola dei Prefetti。（S7）
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Benedetto_Luti) 的 wikibase_item 与 [Wikidata Q816847](https://www.wikidata.org/wiki/Q816847) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 教学、评价与研究
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+直接学生与围绕工作室学习者分开：DBI列Giovanni Domenico Piastrini及Antonio Grecolini为直接学生，William Kent、Vanloo兄弟、Panini等围绕工作室，不批量写成同等师承。（S7）
+
+Pascoli关于重视作品与少求保护的判断是第一章引文；Richardson关于鉴赏能力的评价由DBI转述。研究入口：Alessandro Serafini，DBI66（2006）；S7. P. Bowron有关绘画及粉彩研究（1980），后者仅书目线索。（S2、S7）
 
 ## 关系与证据
 
-S1：第一章；印刷页 8；OCR L278；S2：第一章；印刷页 23；OCR L978–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与来源定位
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Benedetto_Luti) ↔ [Wikidata Q816847](https://www.wikidata.org/wiki/Q816847)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+尚无本卡发出的正式边；[Pascoli](../persons/pascoli.md)为相关知识元导航，关系须依证据另审。原文与[罗萨](../persons/salvator-rosa.md)的局部相似不是师生关系。
+
+WD生卒日均normal、日精度，与DBI相合；地点及师承中的维基来源不算独立互证。WP“1720在学院获骑士衔”与Prince任职应区分。DBI所称1691 Clementino比赛与官方学院竞赛沿革及别处1692记录有差异，本卡暂不新增该比赛事实。作品总数、完整藏品及全部学生不作穷尽承诺。

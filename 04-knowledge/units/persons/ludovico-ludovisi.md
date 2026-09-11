@@ -21,38 +21,106 @@ sources:
 - citation: "Wikidata, Q707750, revision 2538998104. https://www.wikidata.org/wiki/Q707750. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1595–1632 年枢机及收藏者，区别后来成为 Gregory XV 的 Alessandro Ludovisi。"
+- citation: "Wikipedia (en), Ludovico Ludovisi, revision 1357701182. https://en.wikipedia.org/wiki/Ludovico_Ludovisi. Accessed 2026-09-10."
+  location: "全文语义阅读：信息框、正文、图注、主教传承表及参考文献"
+  sentence_summary: "亲缘、教育、职位、艺术赞助；与专业传记核对授枢机日期及离罗马时间，剔除 Montecitorio 误归。"
+- citation: "Wikidata, Q707750, revision 2538998104. https://www.wikidata.org/wiki/Q707750. Accessed 2026-09-10."
+  location: "P569/P570/P19/P20/P22/P69/P106/P39/P214 及 sitelink、时间限定"
+  sentence_summary: "生卒、授枢机及主教职务分开；任期起点与祝圣不可直接合并。"
+- citation: "Paolo Broggio and Sabina Brevaglieri, LUDOVISI, Ludovico, Dizionario Biografico degli Italiani 66 (2006). https://www.treccani.it/enciclopedia/ludovico-ludovisi_(Dizionario-Biografico)/. Accessed 2026-09-10."
+  location: "传记正文及书目已读；所引档案、清单、原书未读"
+  sentence_summary: "教育、家属、1621 年职务、1632 年离罗马及赞助边界；观点与档案线索均标责任者。"
+- citation: "Roma Capitale, Palazzo di Montecitorio, Turismo Roma. https://www.turismoroma.it/it/node/1403. Accessed 2026-09-10."
+  location: "官方页面检索摘要：1653 年起建与委托背景；本轮未声称阅读全文"
+  sentence_summary: "Montecitorio 始于 1653 年 Innocent X 为 Ludovisi 家族的委托，不能归给 1632 年已逝的本枢机。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章所指 Gregory XV 的侄辈 Ludovico，为 Domenichino 提供梵蒂冈建筑师职位；与教皇 Cardinal Ludovisi 区分。
+**中文：** 卢多维科·卢多维西（1595–1632）是格列高利十五世的侄子，任枢机及博洛尼亚总主教，也是罗马重要的收藏者和艺术赞助人。第一章记他为 Domenichino 提供梵蒂冈建筑师职位；他与成为教皇的 Alessandro Ludovisi 以及后世家族成员须分开。（S1、S4–S6）
 
-**English:** Gregory XV's nephew Ludovico offered Domenichino a Vatican architect's post. He is distinct from the Cardinal Ludovisi who became pope.
+**English:** Ludovico Ludovisi (1595–1632), nephew of Gregory XV, was a cardinal and archbishop of Bologna, as well as an important collector and patron in Rome. Chapter 1 records his provision of a Vatican architect's post to Domenichino. He is distinct from Alessandro Ludovisi, who became pope, and from later family members. (S1, S4–S6)
 
-### 已有信息
+### 姓名与身份
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Ludovico Ludovisi | S1；标题中的语境说明为登记用语 |
-| 亲缘与活动 | Gregory XV 侄辈；向 Domenichino 提供职位 | S1，支持范围见各条句意摘要 |
+| 全名／通用名 | Ludovico Ludovisi（卢多维科·卢多维西） | S4–S6 |
+| 名称变体 | Lodovico、Lodovisio 见 S6 所列历史文献题名，不另立人物 | S6 |
+| 称号 | il cardinale padrone；为其权力地位的历史称谓，不作另一姓名 | S4 |
+| 身份标签 | 枢机、总主教、教廷行政人员、收藏者、赞助人 | S4–S6 |
+| 家族 | Ludovisi；贵族家庭背景不等于本人继承父弟全部世俗爵位 | S4、S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 基本信息与亲缘
 
+| 字段 | 内容 | 依据与限定 |
+|---|---|---|
+| 性别 | 男 | S4 人物表述 |
+| 生年／生日 | 1595-10-27；S5 normal、日精度、格里高利历，S6 相同；S4 导言另列 22 日，保留异文 | S4–S6 |
+| 出生地 | 博洛尼亚（Bologna） | S4–S6 |
+| 卒日 | 1632-11-18；S5 normal、日精度、格里高利历 | S4–S6 |
+| 去世地 | 博洛尼亚 | S4–S6 |
+| 历史政治背景 | 教皇国、博洛尼亚贵族家庭；不写现代共和国国籍 | S4、S6 |
+| 父亲 | Orazio Ludovisi（奥拉齐奥·卢多维西，暂译） | S4、S6；S5 父亲属性无引用，非独立证明 |
+| 母亲 | Lavinia Albergati（拉维尼娅·阿尔贝尔加蒂，暂译） | S4、S6 |
+| 叔父 | Alessandro Ludovisi，即[格列高利十五世](gregory-xv.md) | S1、S4、S6 |
+| 弟弟 | Niccolò Ludovisi（尼科洛·卢多维西，暂译） | S6 |
+| 配偶／子女 | 本轮未有可列的具体记录；不借弟弟婚姻归入本人 | 来源缺口 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 教育及职业履历
 
-**身份配对通过。** 1595–1632 年枢机及收藏者，区别后来成为 Gregory XV 的 Alessandro Ludovisi。
+| 时间 | 条目 | 依据与限定 |
+|---|---|---|
+| 早年 | 罗马 Collegio Germanico 学习 | S4、S6 |
+| 1612 年后 | 回博洛尼亚学习法律；1615 年 2 月获民法及教会法博士 | S6；S4 仅称教会法且给 25 日，暂取月精度 |
+| 1621-02-15 | 获授枢机，领 Santa Maria in Traspontina | S5 P39、S6；排除 S4 信息框 03-17 |
+| 1621-03-27 | 任博洛尼亚总主教 | S4、S6 |
+| 1621-05-02 | 主教祝圣；S5 将其放入职位起点，不能覆盖 03-27 任命 | S4、S5 |
+| 1621–1623 年 | 任 Camerlengo；起任日 S4 与 S6 不同，未核定精确日期 | S4、S6 |
+| 1622–1632 年 | 参与传信部并任长官 | S4、S6 |
+| 1623 年起 | 教廷副大法官（Vice-Chancellor），领 San Lorenzo in Damaso | S4、S6 |
+| 1628 年 | 罗马 Irish College 创办相关赞助 | S6 |
+| 1632-03-27 | 离罗马赴博洛尼亚；不从 S4 的概括误读为 1623 年即永久离开 | S6 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Ludovico_Ludovisi) 的 wikibase_item 与 [Wikidata Q707750](https://www.wikidata.org/wiki/Q707750) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 收藏、委托与项目
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 对象／事项 | 本人的角色 | 依据与限定 |
+|---|---|---|
+| Villa Ludovisi | 购地、改建及配置古物收藏；与艺术家分工区分 | S4、S6 |
+| 古雕塑修复 | Bernini、Algardi 等参与修复；收藏者不是古物原作者 | S4 |
+| Casino 的《Aurora》 | [圭尔奇诺（Guercino）](guercino.md)绘画，Tassi 参与虚拟建筑框架；不是笼统由一人完成全部装饰 | S4、S6 |
+| Sant’Ignazio 教堂 | 1626 年重要出资；设计执行者另记，不把赞助者写成建筑师 | S6 |
+| Palazzo Montecitorio | **排除误归。** 官方材料将建造起点放在 1653 年，是本人死后的家族项目；S4 归给本人的句子不采用 | S7；S4 冲突 |
+| 现存收藏 | 散存多处，不把 Villa 的历史地址当全部作品现存地 | S6；未逐件核馆藏 |
+
+### 评价与文献
+
+| 责任者／文献 | 内容或状态 |
+|---|---|
+| Broggio／Brevaglieri，DBI（2006） | 分别讨论政治活动与艺术赞助；艺术选择不能简化为同乡决定一切（S6） |
+| *Catholic Encyclopedia* | S4 所转引的正面评价是历史评价，非本项目独立裁定；原文未另读 |
+| Klára Garas, “The Ludovisi Collection of Pictures in 1633” (1967) | S6 书目，原论文未读 |
+| Carolyn H. Wood, “The Ludovisi Collection of Paintings in 1623” (1992) | S6 书目，原论文未读 |
+| 1623／1633 年收藏清单 | S6 记载；原件未读。1633 年清单在其死后，不能据此改卒年为 1633 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 4；OCR L79–83。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与入口
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+[Wikidata Q707750](https://www.wikidata.org/wiki/Q707750) ↔ [英文 Wikipedia：Ludovico Ludovisi](https://en.wikipedia.org/wiki/Ludovico_Ludovisi)，双向配对已完成。本轮阅读全文 S4；VIAF **66485493** 为 S5 的标识，尚未直接核验。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 正式关系
+
+| 关联知识元 | 类型／方向 | 证据 |
+|---|---|---|
+| [多梅尼基诺（Domenichino）](domenichino.md) | 本人 → Domenichino；associated_person，1621 年提供梵蒂冈建筑师职位 | 第一章 p.4；L79–83（S1） |
+
+原有 1 条正式边保留。亲缘及其他赞助字段为有来源内容，待集中关系阶段判断适用谓词与端点，不据页面共现自动导边。
+
+### 补足范围与未决
+
+首轮详细内容已保存，整卡仍为 source_backed。保留生日日差、Camerlengo 起日及有关年份异文；未将传记中的法律、教廷行政头衔直接等同现代职位。作品实物、原始付款与完整收藏清单尚未核验。S4 原文的 Montecitorio 项目归属已排除；原始文本保留在过程证据中。
+
+[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)

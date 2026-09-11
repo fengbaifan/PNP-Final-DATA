@@ -43,40 +43,91 @@ sources:
 - citation: "Giovanni Battista Passeri, English Wikipedia. https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri. Accessed 2026-09-10."
   location: "Life"
   sentence_summary: "除画家身份，Life 节明确艺术家传记著者角色；出版年代并不等于其生卒年。"
+- citation: "Wikipedia (en), Giovanni Battista Passeri, revision 1365392380. https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri. Accessed 2026-09-10."
+  location: "全文：导言、Life、传记对象清单、References、Further reading；REV-052"
+  sentence_summary: "画家与传记作者、亲属及著述线索；正文1773与参考书目1772异文保留。"
+- citation: "Wikidata, Q962495, revision 2534792134. https://www.wikidata.org/wiki/Q962495. Accessed 2026-09-10."
+  location: "P21/P569/P570/P19/P20/P106/P214/P245；另审查P27，未采用现代国籍；REV-052"
+  sentence_summary: "生年仅年精度；卒日、职业与外部标识按字段采用，规范库条目未据此视为已访问。"
+- citation: "Serenella Rolfi Ožvald, PASSERI, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 81 (2014). https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/. Accessed 2026-09-10."
+  location: "出生、1634年绘画训练、学院任职、Vite编辑史、死亡及文献段；REV-052"
+  sentence_summary: "补充具体训练与任职，区分学院rector和president，支持1772年身后刊本并提供稿本与研究线索。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 艺术编年/传记作者。黄金时代回忆、对保护人重要性的论述和职业礼仪批评均为其被引发言；Haskell 提醒其对贝尔尼尼有偏见。
+**中文：** 乔万尼·巴蒂斯塔·帕塞里是活跃于罗马的画家和艺术家传记作者。本章引用他对赞助、职业礼仪及艺术教育的评论；其发言保留作者归属，尤其不把对贝尔尼尼的偏见当作客观结论。
 
-**English:** The artistic chronicler and biographer is cited on a golden age, protectors and professional manners. Haskell warns of his bias against Bernini, so his judgements retain attribution.
+**English:** Giovanni Battista Passeri was a painter and artists’ biographer active in Rome. Chapter 1 cites his comments on patronage, professional manners and artistic education; these remain attributed judgements, particularly where Haskell identifies bias against Bernini.
 
-### 已有信息
+### 姓名
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Giambattista Passeri | S1、S2、S3、S4；标题中的语境说明为登记用语 |
-| 文献角色 | 编年与传记作者；对 Bernini 有偏见 | S1、S2、S3、S4，支持范围见各条句意摘要 |
+| 全名 | Giovanni Battista Passeri | S8、S10 |
+| 常用名／本章名形 | Giambattista Passeri | S1–S4、S10 |
+| 中文名 | 乔万尼·巴蒂斯塔·帕塞里；本项目音译 | 名称翻译 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 基本信息与身份
 
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 性别 | 男（male） | S9，P21 |
+| 生年 | 约1610年；不将WD的年精度日期写成1月1日 | S8–S10 |
+| 卒日 | 1679年4月22日 | S8–S10；WD公历日精度 |
+| 出生地 | [罗马（Rome）](../places/rome.md) | S8–S10 |
+| 去世地 | [罗马（Rome）](../places/rome.md) | S9、S10 |
+| 历史国籍 | 未核定；不把WD的现代Italy标签当作17世纪公民身份 | S9，P27不采用 |
+| 身份标签：画家 | 绘画活动；WP记风俗画、静物画 | S8、S9 |
+| 身份标签：传记作者 | 撰写艺术家生平 | S1–S4、S8 |
+| 身份标签：诗人 | 诗作及公共朗诵活动 | S10 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 亲缘与职业履历
 
-**身份配对通过。** Giovanni Battista Passeri，约 1610–1679 年画家；英文 Life 节确认其艺术家传记作者身份。
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 侄子 | Giuseppe Passeri；不混同两位画家 | S8、S10 |
 
-名称记录：规范显示为 乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）；原登记名／来源名形 Giambattista Passeri 保留为检索异名，不因显示更新改动稳定路径。
+| 时间 | 活动 | 依据 |
+|---|---|---|
+| 早年，确切年份未明 | 在Collegio Romano学习文学 | S10 |
+| 1634 | 在Frascati参与别墅礼拜堂绘画，任Giovan Angelo Canini助手；项目与[多梅尼基诺](domenichino.md)相关 | S10；比WP概括为“多梅尼基诺学生”更具体 |
+| 1638年6月12日 | 加入[圣路加学院](../institutions/accademia-di-san-luca.md) | S10引学院登记；原登记未亲阅 |
+| 1664年1月1日 | 任学院primo rettore；不译作学院院长／principe | S10 |
+| 1670 | 发表绘画演说《沉默》（Il silenzio） | S8、S10 |
+| 1673 | 发表学院演说《想象》（La fantasia） | S8、S10 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri) 的 wikibase_item 与 [Wikidata Q962495](https://www.wikidata.org/wiki/Q962495) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 著述与研究线索
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 类型 | 名称与信息 | 阅读状态 |
+|---|---|---|
+| 艺术家传记集 | Vite de’ pittori, scultori ed architetti…：涉及1641–1673年间去世的罗马艺术家；身后刊本采用1772年 | S8书目、S10；WP正文另写1773，保留异文；未读刊本 |
+| 演说 | Il silenzio, discorso sopra la pittura，罗马，1670 | S8书目；未读原刊 |
+| 演说 | La fantasia, discorso accademico，罗马，1673 | S8书目；未读原刊 |
+| 研究 | Dieter Graf，“Passeri”，Grove Art Online | S8转引书目；未读论文正文 |
+| 研究 | Nicholas Turner，“Four Academy discourses by G.B. Passeri”，Storia dell’arte 19 (1973): 231–247 | S10转引书目；未读论文正文 |
+
+### 本章相关内容
+
+- 第3页，L15–18：巴贝里尼时期的“黄金时代”回忆，是帕塞里的评价。
+- 第7页，L210–213：强大保护人对艺术家职业的重要性。
+- 第16页，L660–662：Haskell提醒读者注意其对[贝尔尼尼](gian-lorenzo-bernini.md)的偏见。
+- 第19页，L784–795、805–806：职业礼仪和教育批评；脚注的切尔科齐指向须保留。
 
 ## 关系与证据
 
-S1：第一章；印刷页 3；OCR L15–18；S2：第一章；印刷页 7；OCR L210–213；S3：第一章；印刷页 16；OCR L660–662；S4：第一章；印刷页 19；OCR L784–795,805–806。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[Wikidata Q962495](https://www.wikidata.org/wiki/Q962495) ↔ [Wikipedia：Giovanni Battista Passeri（英文）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri)。沿用REV-034语义身份配对；REV-052已读该WP版本全文，具体字段仍各依S8–S10。Getty ULAN标识500015309、VIAF 34553612来自WD，原站尚未核读。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 关系记录
+
+本卡暂无正式出边。上文链接供阅读；学院任职和绘画训练可交关系阶段，不能直接从“学生”概称推定完整师承边。
+
+### 采用边界与未决项
+
+S1–S4为本书章页／行号证据，S5–S7为历史身份核查，S8为本轮全文阅读，S9为实际WD字段，S10为有范围的独立传记补证。WP与WD属于同一来源组。父母姓名、详细亲属谱系、全部作品及馆藏未核；不补空猜测。WP“president”与DBI“primo rettore”的职名不混同。1772年刊本与WP正文1773异文、具体稿本和画作归属仍需原件支持。
+
+过程和原始记录见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按本卡稳定键及REV-052定位。整体保持source_backed，未宣称全部字段验证完成。

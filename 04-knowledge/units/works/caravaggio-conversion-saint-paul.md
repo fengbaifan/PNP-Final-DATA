@@ -3,7 +3,7 @@ title: "卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of S
 name_en: "Caravaggio’s Conversion of Saint Paul commission"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -19,38 +19,54 @@ sources:
 - citation: "Wikidata, Q1448203, revision 2502313477. https://www.wikidata.org/wiki/Q1448203. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Q1448203 为柏木板第一版，英文页明确另有 Cerasi 礼拜堂版本；本章 1600 年合同／交稿对象不能直接锁定某一现存版本。"
+- citation: "Wikipedia (en), The Conversion of Saint Paul (Caravaggio), revision 1361423541. https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio). Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
+  sentence_summary: "第一版为柏木板油画、1600/01、237×189厘米，Odescalchi Balbi藏；与现存礼拜堂布面版分开；拒收及转售解释有争议。"
+- citation: "Wikipedia (en), Crucifixion of Saint Peter (Caravaggio), revision 1361249053. https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio). Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
+  sentence_summary: "现存1601布面版、1600柏木板原约与后续版本史分开；合同设计要求、报酬和期限是条目依据刊本的转述，不是本次查阅原合同。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1600 年合同要求执行前提交人物及其他设计；本章未区分该题材的不同版本，本卡只承担所述合同对象。
+**中文：** 本知识元记录1600年卡拉瓦乔切拉西礼拜堂《圣保罗归化》委托，而非单独指认某一现存实物。补足将原约柏木板第一版与后来礼拜堂布面版分开；尺寸、收藏及拒收故事均须注明对应版本。（S1、S4–S5）
 
-**English:** The 1600 contract cited by Haskell required Caravaggio to submit designs for the Conversion of Saint Paul and its companion commission. The contractual requirement does not prove that a particular surviving sketch or version has been identified.
+**English:** This unit records Caravaggio’s 1600 commission for the Conversion of Saint Paul at the Cerasi Chapel, rather than identifying one surviving painting alone. The first cypress-panel version and the later chapel canvas are distinguished, and dimensions, collection history and accounts of rejection remain version-specific. (S1, S4–S5)
 
-### 已有信息
+### 委托字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Caravaggio’s Conversion of Saint Paul commission | S1；标题中的语境说明为登记用语 |
-| 合同内容 | 1600 年；要求提交设计；版本未分辨 | S1，支持范围见各条句意摘要 |
+| 创作者 | 卡拉瓦乔／Caravaggio | S1、S4–S5 |
+| 委托题材 | 圣保罗归化／Conversion of Saint Paul | S1 |
+| 委托时间 | 1600；外部作品史记9月24日签约 | S1、S4–S5 |
+| 赞助人 | Tiberio Cerasi，教廷财务官 | S4–S5；不采S4误写的枢机身份 |
+| 预定地点 | 罗马人民圣母堂切拉西礼拜堂 | S4–S5 |
+| 设计要求 | 先提交人物及其他设计 | S1 |
+| 媒介／尺寸 | 原约两柏木板10×8 palmi，属于约定，不是所有后来版本的实测值 | S5 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 版本与沿革
 
+| 对象 | 已读资料所述 | 边界 |
+|---|---|---|
+| 第一版／first version | 柏木板油画；约1600–1601；237×189厘米；罗马Odescalchi Balbi收藏 | S4全文；这些字段仅属于候选Q1448203所指实物 |
+| 礼拜堂后来版本／later chapel version | 布面，留存切拉西礼拜堂；构图与第一版不同 | S4–S5；本轮未读其独立Wikipedia全文，不把它标为本卡已配对对象 |
+| 原约与替换过程 | 委托人去世后出现作品转移／替换记述；Baglione称拒收，后世研究提出不同解释 | S4–S5；转售、窃取等推测不作已证事实 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**版本待证。** Q1448203 为柏木板第一版，英文页明确另有 Cerasi 礼拜堂版本；本章 1600 年合同／交稿对象不能直接锁定某一现存版本。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+第一版描绘保罗归化事件，不把另一版著名马匹构图说明直接移到该版。委托合同条款与实际成画的执行链仍有区分。（S4–S5）
 
 ## 关系与证据
 
-S1：第一章；印刷页 11；OCR L397–401。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份范围
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+候选[Wikipedia：The Conversion of Saint Paul (Caravaggio)](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)) ↔ [Wikidata Q1448203](https://www.wikidata.org/wiki/Q1448203)双向对应的是**第一版实物**。本卡仍为委托对象，未将该QID升为本卡确认标识，也未导入其全部WD属性。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S4英文全文3516字符、S5圣彼得页全文12577字符已读，包括图注与引用列表；未读全部被引文献或原画。S2–S3保留此前候选判断。
+
+### 导航与未决
+
+[1600年合同](../archives/caravaggio-altarpieces-contract-1600.md)、[圣彼得另一题](caravaggio-martyrdom-saint-peter.md)、[卡拉瓦乔](../persons/caravaggio.md)可供追溯；本卡文件头目前未登记正式关系，本轮不把导航当成新边。
+
+尚需原约刊本与两版详细流传记录才能确定更细的对象对应；不因版本未决清空本章委托事实，不把Giustiniani所购[圣马太退画](caravaggio-giustiniani-rejected-altarpiece.md)混入此组。来源S编号按元数据顺序；保留章页／行号及句意摘要。

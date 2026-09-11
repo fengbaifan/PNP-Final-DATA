@@ -3,7 +3,7 @@ title: "马里奥·努齐（Mario Nuzzi）"
 name_en: "Mario Nuzzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -26,40 +26,67 @@ sources:
 - citation: "Wikidata, Q1227379, revision 2518576551. https://www.wikidata.org/wiki/Q1227379. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Mario Nuzzi，别名 Mario de’ Fiori，1603–1673 年花卉画家。"
+- citation: "Wikipedia (en), Mario Nuzzi, revision 1365392284. https://en.wikipedia.org/wiki/Mario_Nuzzi. Accessed 2026-09-11."
+  location: "全文阅读信息框、正文、图注、表格及注释书目；4618字符；未把被引外链视为已读"
+  sentence_summary: "补足姓名、生平、亲缘、职业、作品与研究线索；日期及身份错项按正文逐项处置。"
+- citation: "Wikidata, Q1227379, revision 2518576551. https://www.wikidata.org/wiki/Q1227379. Accessed 2026-09-11."
+  location: "相关属性值、限定词、时间精度、rank、引用及 enwiki sitelink；采用的关联实体标签已核"
+  sentence_summary: "支持适用结构化字段；多值、无引用项及与正文冲突项保留限制，双站不计独立互证。"
+- citation: "Arianna Petraccia, NUZZI, Mario, Dizionario Biografico degli Italiani 79 (2013). https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "正文前8000字符及末2400字符、书目前1300字符选读"
+  sentence_summary: "罗马出生、Penna in Teverina迁居、婚姻亲缘、工作室与学院活动。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 获 Flavio Chigi 月津贴的画家。传记还说他安排一子进入教会、另一子继承其职业；儿子未具名，不虚构身份。
+**中文：** 马里奥·努齐又称Mario de’ Fiori，是罗马花卉画家，兼作肖像、图书插图及合作装饰。第一章记Flavio Chigi每月30 scudi津贴及两子的职业安排；外部传记进一步提供家人姓名和工作室信息。（S1–2、S5、S7）
 
-**English:** The painter received a monthly allowance from Flavio Chigi. His biography says one son entered the church and another followed his profession; neither son is named here.
+**English:** Mario Nuzzi, known as Mario de’ Fiori, was a Roman flower painter who also produced portraits, book illustrations and collaborative decorations. Chapter 1 records Flavio Chigi’s monthly allowance of 30 scudi and career arrangements for two sons; external biography adds family and workshop information. (S1–2, S5, S7)
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Mario de’ Fiori | S1、S2；标题中的语境说明为登记用语 |
-| 收入与亲属 | Flavio Chigi 月津贴；两子分别入教会与继承绘画职业 | S1、S2，支持范围见各条句意摘要 |
+| 全名 | Mario Nuzzi／马里奥·努齐 | S7 |
+| 惯用名 | Mario de’ Fiori；来源名形Mario de’ Fiori保留 | S1、S7 |
+| 性别／身份 | 男；画家、花卉画家、肖像及插图工作者、工作室经营者 | S6、S7 |
+| 生日 | 1603年1月19日 | S6 P569、S7 |
+| 生地 | 罗马；WP Penna San Giovanni与DBI不同，采用DBI | S5、S6、S7 |
+| 卒日／卒地 | 1673年11月14日，罗马Via Belsiana家中 | S6 P570、S7 |
+| 历史归属 | 罗马出身与职业活动；家族迁居Penna in Teverina与出生地分开 | S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘
 
+- 父亲：Sisto，来自Todi、从事书写职业，后种植花卉。（S7）
+- 母亲：Faustina Salini。（S7）
+- 舅父及老师：Tommaso Salini；亲缘与工作室训练皆有DBI支持，不仅由同住推定。（S7）
+- 第一配偶：Ortensia de Curtis，1628年记录已婚；DBI说1647丧偶、WP为1648，保留一年异文。（S5、S7）
+- 第二配偶：Susanna Passeri，1650年结婚；不据姓氏认作传记家Passeri亲属。（S7）
+- 儿子：Giulio Antonio Domenico为画家，见DBI讨论后续收藏清单；第一章另有一子入教会，尚不能把未具名者补成任何已知同姓神职。（S2、S7）
+- WP第二婚六子女与第一婚一子是百科记述，具体姓名及其与第一章两子对应未全核。（S5）
 
-### 初步对齐（REV-034，2026-09-10）
+### 履历与作品
 
-**身份配对通过。** Mario Nuzzi，别名 Mario de’ Fiori，1603–1673 年花卉画家。
+- 1618年：家迁Penna in Teverina，父亲种花；1620年已在Salini罗马工作室同住。（S7）
+- 1625年：Salini去世，Nuzzi接续部分客户、清单和未完成作品。（S7）
+- 1633年：为Ferrari《De florum cultura》插图提供作品，Francesco Barberini赞助；插图原作与书本为不同对象。（S7）
+- 1634年：列入学院应纳税画家名单；1642参加会议；1646年1月7日加入Virtuosi；1657年8月正式成为学院成员。纳税登记不等于正式入会。（S7）
+- 1644年起：与Giovan Carlo de’ Medici的植物收藏兴趣及委托发生联系，后影响托斯卡纳收藏。（S7）
+- Chigi《四季》合作：Nuzzi画花卉，Lauri、Maratta、Brandi、Bernardino Mei分别画相应人物；每幅不能只归一人。（S5）
+- 1673年：在罗马去世，作品及图稿传播导致后世归属与复制品辨识问题。（S7）
 
-名称记录：规范显示为 马里奥·努齐（Mario Nuzzi）；原登记名／来源名形 Mario de’ Fiori 保留为检索异名，不因显示更新改动稳定路径。
+### 评价与研究
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Mario_Nuzzi) 的 wikibase_item 与 [Wikidata Q1227379](https://www.wikidata.org/wiki/Q1227379) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+Abraham Bruegel在1671年致Ruffo信中批评其画作变暗，此为有作者的材料评价，不直接判定所有现存画作技术失败。Arianna Petraccia，DBI79（2013）本次选读；Francesco Solinas的《Flora Romana》（2010）、Emilio Lucci2004研究为书目线索。（S7）
 
 ## 关系与证据
 
-S1：第一章；印刷页 8；OCR L282；S2：第一章；印刷页 20；OCR L845–846。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与来源定位
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Mario_Nuzzi) ↔ [Wikidata Q1227379](https://www.wikidata.org/wiki/Q1227379)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+暂无本卡正式出边；[Flavio Chigi](../persons/flavio-chigi.md)、[劳里](../persons/filippo-lauri.md)为导航。月津贴与特定作品所有权须分别证明。
+
+WP把客户连到Agostino Chigi的说法未采纳，可能混入较早同名人物；WP Penna San Giovanni出生与DBI罗马／Penna in Teverina迁居不能混合。第一章两子与外部具体人名的对应仍有缺口；不自动增加亲缘KU。

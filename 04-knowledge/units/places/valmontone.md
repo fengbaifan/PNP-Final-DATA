@@ -3,7 +3,7 @@ title: "瓦尔蒙托内（Valmontone）"
 name_en: "Valmontone"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -33,38 +33,59 @@ sources:
 - citation: "Wikidata, Q243514, revision 2527348834. https://www.wikidata.org/wiki/Q243514. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "罗马附近 Valmontone 城镇；不是同名宫殿或特定壁画工程。"
+- citation: "Wikipedia (en), Valmontone, revision 1346917382. https://en.wikipedia.org/wiki/Valmontone. Accessed 2026-09-11."
+  location: "完整对象页9035字符，地理、历史、建筑、交通、图注及参考均读。"
+  sentence_summary: "城镇位于罗马附近；古代起源是推测。Barberini1632、Camillo1634购入与市政府专项宫殿记录不合，不采用这两个年份。"
+- citation: "Wikidata, Q243514, revision 2527348834. https://www.wikidata.org/wiki/Q243514. Reviewed 2026-09-11."
+  location: "复用实体抓取，读取P625及P131限定词，另查Q18288160标签。"
+  sentence_summary: "现代坐标与2015起Metropolitan City of Rome的行政归属仅作现代定位；不得回投17世纪或作为宫殿坐标。"
+- citation: "Comune di Valmontone, «Palazzo Doria Pamphilj», published 2024-01-26, updated 2025-03-26. https://comune.valmontone.rm.it/luogo/palazzo-doria-pamphilj/. Accessed 2026-09-11."
+  location: "3988字符宫殿专项页面全文；宫殿史支持城镇营建语境，不代全城历史。"
+  sentence_summary: "Camillo1651从Francesco Barberini购封地，1652拆旧堡，1654起新建，Molli与1666起Del Grande分阶段设计；城市规划意图不等于全部实施。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Pamfili 乡间工程所在地，关联 Mola 的神话方案、材料安排与离境许可；不因多个描述另造多个同名地点。
+**中文：** 瓦尔蒙托内是罗马附近的历史城镇，也是潘菲利宫殿及其装饰工程所在地。本章在这里讨论莫拉等画家的图像方案、服务条件与材料费用；城镇、宫殿、封地领有者和具体画作不能视为同一对象。
 
-**English:** The site of Pamfili's country project links Mola's mythological scheme, materials arrangements and permission to leave. Multiple descriptions do not create multiple places of the same name.
+**English:** Valmontone is a historic town near Rome and the location of the Pamphilj palace and its decoration. The chapter discusses Mola and other artists' pictorial schemes, conditions of service and material costs there. The town, the palace, its feudal holders and the individual works remain distinct objects.
 
-### 已有信息
+### 名称与地理
+
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 名称 | Valmontone／瓦尔蒙托内 | S1–S8 |
+| 对象 | 城镇与现代同名市镇；不是宫殿建筑或壁画项目 | S6–S8 |
+| 历史名称线索 | Castrum Lateranense（1052文献记述）、Vallis Montonis（1139）；本轮据百科，原文书未读 | S6 |
+| 地貌 | 凝灰岩丘地；旧城与后来市镇行政范围分开 | S6 |
+| 现代定位 | 拉齐奥，罗马首都广域市；WD坐标约41.783333、12.916667 | S6、S7 |
+| 行政时点 | WD将旧省级归属终点记2014-12-31、广域市起点记2015-01-01；只用于现代定位 | S7 |
+| 历史政治语境 | 本章潘菲利封地与教皇国营建语境；不将现代行政单位回投17世纪 | S1–S3、S8 |
+
+### 与本章有关的沿革
+
+- **古代起源：** 与Labicum的联系为推测，神话人物Glaucus的建城故事是传说，不列成确定建立者。[S6]
+- **1651年：** Camillo Pamphilj从Francesco Barberini购入封地。采用市政府宫殿专项页面，不采用百科“1634年Camillo购入”的说法。[S6、S8]
+- **1652年：** 几乎拆除旧Sforza城堡，为新建工程准备；不能写成整座旧城全部拆毁。[S8]
+- **1654年至约1670年：** 新宫殿分期建设，早期设计者Benedetto Molli，1666年起由Antonio Del Grande续办。[S8]
+- **城市改造设想：** Città panfilia方案涉及宫殿和配套公共／服务空间。方案包含的建筑不等于每项都已竣工。[S8]
+- **20世纪战争及其后：** 宫殿受损，曾容纳失所居民直到20世纪70年代中期；此为建筑史，不作为全城每一建筑的共同经历。[S8]
+
+### 本章项目与对象区分
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Valmontone | S1、S2、S3；标题中的语境说明为登记用语 |
-| 地点与工程 | Pamfili／Mola 乡间工程；与具体建筑分开 | S1、S2、S3，支持范围见各条句意摘要 |
-
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 罗马附近 Valmontone 城镇；不是同名宫殿或特定壁画工程。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Valmontone) 的 wikibase_item 与 [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 服务条件 | Mola、Cortese在潘菲利工程期间，短暂离开也须许可 | S1 |
+| 图像方案 | 四元素及空气等装饰方案；未采用方案与实际完成作品分别 | S2 |
+| 生产条件 | 食宿、付款、材料及相应条款；不能由共同地点推定同一合同或统一金额 | S3 |
+| 宫殿设计 | Molli与Del Grande分阶段，来源只支持宫殿工程，不是全城规划每一建筑的作者 | S8 |
+| 补证入口 | 市政府Palazzo Doria Pamphilj专项介绍；百科列建筑与历史研究线索，未全部查原件 | S6、S8 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 7；OCR L231–233；S2：第一章；印刷页 9；OCR L312–319；S3：第一章；印刷页 13；OCR L495–497,505–506,516–519。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 本章参与者：[莫拉](../persons/pier-francesco-mola.md)、[科尔泰塞](../persons/guglielmo-cortese.md)、[卡米洛·潘菲利](../persons/camillo-pamfili.md)。本卡未新增正式边，具体工程关系待集中处理。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Valmontone) ↔ [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514)身份配对复用；市镇QID不代宫殿或宫廷机构。
+- S1：第一章第7页L231–233；S2：第9页L312–319；S3：第13页L495–497、505–506、516–519；S4–S5初步身份；S6百科全文；S7WD；S8宫殿官网全文。
+- **未采用及未查：** 百科Barberini1632／Camillo1634的产权年份存在冲突；1651以前完整封地转手链仍待原档。SIUSA记录本轮只取得搜索片段、原页失败，不作为完整档案阅读。现代人口、面积、景点和交通不填充历史工程卡。

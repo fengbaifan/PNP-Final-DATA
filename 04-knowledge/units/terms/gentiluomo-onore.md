@@ -3,7 +3,7 @@ title: "荣誉侍从（Gentiluomo d’onore）"
 name_en: "Gentiluomo d’onore"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -19,38 +19,47 @@ sources:
 - citation: "Wikidata, Q749212, revision 2531064076. https://www.wikidata.org/wiki/Q749212. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 itwiki sitelink；判断范围见正文"
   sentence_summary: "Gentiluomo Q749212 是社会身份／礼貌观念，不足以代表某宫廷的 gentiluomo d’onore 荣衔。"
+- citation: "Wikipedia (it), Gentiluomo, revision 149034786. https://it.wikipedia.org/wiki/Gentiluomo. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "Wikidata, Q749212, revision 2531064076. https://www.wikidata.org/wiki/Q749212. Accessed 2026-09-11."
+  location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
+  sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
+- citation: "Treccani, Vocabolario, “gentiluomo”. https://www.treccani.it/vocabolario/gentiluomo/ Accessed 2026-09-11."
+  location: "词条全文；采用义项1，其他义项不用于本章"
+  sentence_summary: "贵族身份、宫廷职能称谓及礼貌意义应区分；未定义帕尔马荣誉侍从具体职责。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章明确记帕尔马公爵授 Giuseppe Ghezzi 的称号，适用对象限定在具体记载。
+**中文：** 荣誉侍从是本章所记帕尔马公爵授予朱塞佩·盖齐的 gentiluomo d’onore 称号。Gentiluomo 还可表示贵族身份、宫廷职能或一般礼貌评价，须结合 d’onore 及具体宫廷语境理解；现有材料没有说明这次授衔的完整职责。
 
-**English:** The chapter records the Duke of Parma's grant of the title gentiluomo d'onore to Giuseppe Ghezzi. This particular example does not establish the full duties or general history of the title.
+**English:** Gentiluomo d’onore is the title that Haskell records the Duke of Parma granting to Giuseppe Ghezzi. Gentiluomo can also refer to noble status, a court function, or courteous conduct. The modifier d’onore and the particular court context matter; the evidence consulted does not establish the full duties attached to this grant.
 
-### 已有信息
+### 名称与义项
 
-| 项目 | 内容 | 依据 |
+- 原语：gentiluomo d’onore；“荣誉侍从”为本项目说明性译名，不声称官方职官译名。[S1]
+- Gentiluomo的贵族意义：与出身、地位及相应特权相关。[S6义项1a]
+- 宫廷称谓：词典列 gentiluomo di corte、di palazzo、di camera、di servizio 等特定职能称谓，但未给出本章d’onore的准确职责。[S6]
+- 礼貌意义：也可泛指举止端正者，并不要求贵族出身；不能以这一义项替换具体授衔事实。[S6义项1b]
+
+### 本章授予事例
+
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Gentiluomo d’onore | S1；标题中的语境说明为登记用语 |
-| 章内受衔者 | Giuseppe Ghezzi；授予者为帕尔马公爵 | S1，支持范围见各条句意摘要 |
+| 受衔者 | Giuseppe Ghezzi／朱塞佩·盖齐 | S1 |
+| 授予者 | 帕尔马公爵；具体姓名与授予日期未在本段核定 | S1 |
+| 职责、薪酬、任期 | 未知，不由称谓推断实际常驻或有薪服务 | 现有材料不足 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 对齐
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**范围待对齐。** Gentiluomo Q749212 是社会身份／礼貌观念，不足以代表某宫廷的 gentiluomo d’onore 荣衔。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+**范围待对齐。** [意大利语Gentiluomo页](https://it.wikipedia.org/wiki/Gentiluomo)及[Q749212](https://www.wikidata.org/wiki/Q749212)对应广义社会／礼貌观念，不能代表帕尔马特定宫廷荣衔。英文查询未解决精确称谓，沿用意大利语候选并全文阅读；未导入广义候选的属性。[S2–S5]
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L770–773。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页19，OCR L770–773。
+- S2–S3：原初步对齐；S4–S5：候选全文与WD复核；S6：Treccani词典全文，义项1支持语义区分。
+- 当前没有正式关系；未读授予文书，也未独立证实授予者的具体姓名。不能把相关教皇授予其他职务的记载一并归给帕尔马公爵。
+- 未决：该荣衔的制度定义、授予时间及实际权利；Giuseppe与其子Pier Leone的获衔事例不得混用。状态维持 source_backed。

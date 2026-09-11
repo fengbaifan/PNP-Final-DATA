@@ -3,7 +3,7 @@ title: "查理五世授提香荣衔（1533）（Charles V's Grant of Honours to 
 name_en: "Charles V's Grant of Honours to Titian (1533)"
 type: event
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/titian.md","note":"荣衔接受者为 Titian。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,39 +16,46 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 799–804; print pp. 19
+- citation: "Wikipedia (en), Titian, revision 1374153957. https://en.wikipedia.org/wiki/Titian. Accessed 2026-09-11."
+  location: "全文阅读信息框、正文、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡采用姓名、履历与关系语境；具体异文及暂缓字段见第三部分。"
+- citation: "National Gallery, https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/diana-and-actaeon-is-secured-for-the-nation. Accessed 2026-09-11."
+  location: "2009年新闻稿中The Artist小节；非全稿"
+  sentence_summary: "Charles V于1533年授予提香骑士荣誉；并未刊载完整授勋文书。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章脚注记 Charles V 1533 年授 Titian 多项伯爵尊号，用于说明后期授衔常规化之前的特例。
+**中文：** 查理五世于1533年授予提香荣誉称号。第一章注释记载拉特兰宫、宫廷及帝国御前会议的复合伯爵称号；馆方资料另支持同年骑士荣誉。事件与皇帝礼遇画家的逸事、1548年骑马肖像分别保存。
 
-**English:** The chapter's note records several comital titles granted by Charles V to Titian in 1533 as an exceptional case preceding the later routine granting of honours.
+**English:** Charles V granted Titian honours in 1533. Haskell’s note preserves a composite comital title referring to the Lateran Palace, the court, and the Imperial Consistory, while museum material also supports a knighthood in that year. The grant is distinguished from anecdotes of imperial deference and from the equestrian portrait of 1548.
 
-### 已有信息
+### 时间、参与者与内容
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Charles V's Grant of Honours to Titian (1533) | S1；标题中的语境说明为登记用语 |
-| 授予双方 | Charles V → Titian；1533 | S1，支持范围见各条句意摘要 |
-| 1533 年荣衔原文 | Count of the Lateran Palace, of his Court and of the Imperial Consistory（拉特兰宫、其宫廷及帝国御前会议的伯爵称号，中文暂译） | 第一章第 19 页 L799–804；不同于 Gentile Bellini 的 Count Palatine |
+| 年份 | 1533；本卡不补未核日月 | S1–S3 |
+| 授予者 | [Charles V／查理五世](../persons/charles-v.md) | S1、S3 |
+| 受衔者 | [Titian／提香](../persons/titian.md) | S1–S3 |
+| 本章称号 | Count of the Lateran Palace, of his Court and of the Imperial Consistory | S1，中文暂译“拉特兰宫、其宫廷及帝国御前会议的伯爵称号” |
+| 外部称谓 | Count Palatine、Knight of the Golden Spur | S2；S3仅独立支持骑士荣誉年份 |
+| 事件地点 | 具体授勋地点未证；画像在Bologna不自动证明授勋仪式同地 | S2的叙事不足以固定地点 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 经过与结果
 
+- 百科将1533年Charles V肖像与其后授衔相接叙述，不能误认该作就是1548《骑马像》。[S2]
+- 馆方2009年介绍明确Charles V在1533年授予骑士荣誉，作为对章内艺术家社会承认语境的外部补证。[S3]
+- 子女贵族身份、具体权利与完整文书措辞在百科经Crowe与Cavalcaselle转引；原文书未读，不据此批量给所有后裔增加贵族身份。[S2]
 
-### 初步对齐（REV-034，2026-09-10）
+### 对齐
 
-**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+尚无具体事件独立Wiki配对。[提香人物页](https://en.wikipedia.org/wiki/Titian)及Q47551是参与者身份，不是本次授衔事件的QID。完整称号和制度作用仍需授予文书及可靠刊本核查。
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L799–804。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续补足确切时段、地点、参与者、事件经过、结果与后续变化；计划、规定、实施和撤回分别核实，不因标题带年份推定全过程发生于同年。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页19，OCR L799–804。
+- S2：Titian英文页全文已读，采用授衔叙述与图像年代区分。
+- S3：NG2009新闻稿The Artist小节，仅支持Charles V—Titian—1533骑士授予。
+- 文件头2条参与人物关系完整保留。未补发生地或授予日；未建立帝国全套贵族特权与后裔继承边。状态维持 source_backed。

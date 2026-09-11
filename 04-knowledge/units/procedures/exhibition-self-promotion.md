@@ -3,7 +3,7 @@ title: "展览售画与自我宣传（Exhibiting paintings and self-promotion）
 name_en: "Exhibiting paintings and self-promotion"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -27,38 +27,49 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 917–926; print pp. 22
+- citation: "Kimbell Art Museum, “Pythagoras Emerging from the Underworld”, official collection entry on Google Arts & Culture. https://artsandculture.google.com/asset/pythagoras-emerging-from-the-underworld-salvator-rosa/KAE0KAf_Hw3gzA?hl=en. Accessed2026-09-11."
+  location: "完整作品介绍、字段与流传记录；Kimbell馆方提供的内容，非Wikipedia"
+  sentence_summary: "罗萨将1662年的作品与配对画展出，随后由Antonio Ruffo购入；流传表明确购入年1664。创作、展出和成交分别记录；不据馆方介绍证明哈斯克尔关于喝彩者的记述。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 展览可为寻找买家，也可被 Rosa 用来组织喝彩者、扩大声誉；不同目的不能合并为单一经济行为。
+**中文：** 本章的展览既可寻找买家，也可用于塑造艺术家声誉；罗萨组织喝彩者的记述属于后一种用途。金贝尔美术馆记载罗萨一对作品展出后由安东尼奥·鲁福购入，提供了展出与后续交易相连的实例，但不证明每次展览都会成交。（S1–S4）
 
-**English:** Exhibitions could help painters find buyers. Rosa also used exhibitions and applauding supporters to enhance his reputation. Selling pictures and cultivating publicity are related but distinct purposes in these accounts.
+**English:** Exhibitions in this chapter can seek buyers or cultivate an artist’s reputation; the account of Rosa organizing applauding supporters concerns the latter purpose. The Kimbell Art Museum records a pair of Rosa’s paintings being exhibited and subsequently bought by Antonio Ruffo, illustrating a link between display and later purchase without implying that every exhibition produces a sale. (S1–S4)
 
-### 已有信息
+### 程序字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Exhibiting paintings and self-promotion | S1、S2、S3；标题中的语境说明为登记用语 |
-| 活动与目的 | 展出寻找买家；罗萨组织喝彩以扩大声誉 | S1、S2、S3，支持范围见各条句意摘要 |
+| 参与者／Participants | 艺术家、组织者或场地提供者、观众、可能的买家和中介；某场展览的实际人员需分别查证 | S1–S3概括 |
+| 输入／Inputs | 可展出的作品、展示机会及观众接触；宣传性活动还可能组织支持者 | S1、S3 |
+| 展示／Display | 把作品呈现给潜在观众；不自动证明公开售卖 | S1 |
+| 评价／Reception | 记录有出处的评论、喝彩、争议及艺术家自述；不能把宣传者反应当客观质量指标 | S3 |
+| 交易／Transaction | 联系买家、议价、购入和付款分别取证；成交不从“曾展出”推定 | S1、S2；S4提供实际购入案例 |
+| 输出／Outcomes | 可能形成曝光、评论、购买或后续委托；分别保存发生与否，不用一项代替其他项 | S1–S4 |
+| 来源中的一般评价／Author’s view | Haskell将展览通常描述为未获工作者的最后手段，同时明确有例外；不是现代展览活动定义 | S1 |
+| 目的差别／Purpose | 找买家与经营声誉可以并存，不能全部归成同一种经济行为 | S1、S3 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 外部案例：创作、展出与购入
 
+- **作品：** 罗萨《毕达哥拉斯走出冥界》（Pythagoras Emerging from the Underworld），1662，及其配对画Pythagoras and the Fishermen。（S4）
+- **展出：** 馆方记两作曾一起展出，随后被鲁福购入；不把1662年创作或1664年购入直接当展览的确定日期。（S4）
+- **购入：** 流传记录列Antonio Ruffo于1664年购得这对作品。馆方文字没有在此给出完整议价、付款或运输原件。（S4）
+- **解释范围：** 该外部记录支持展出与购入的顺序；不独立证明本章关于罗萨安排喝彩者的具体事件，也不把本画认定为该轶事所指画作。（S3、S4）
 
-### 初步对齐（REV-034，2026-09-10）
+### 对齐及未决项
 
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+章内登记的是历史做法组合，尚无精确Wikipedia—Wikidata配对。艺术展览、营销或罗萨人物条目的QID不替代这个程序。具体展览日期、场地、参展清单、交易原件及不同来源对事件的对应仍须有对象级证据；本卡已保存有范围的补足结果。
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L154–164；S2：第一章；印刷页 15；OCR L607–609；S3：第一章；印刷页 22；OCR L917–926。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+| 入口 | 知识元 | 状态 |
+|---|---|---|
+| 活动相关者 | [萨尔瓦托·罗萨](../persons/salvator-rosa.md) | S3、S4；个别事件和作品关系另判 |
+| 交易语境 | [画商](../terms/art-dealer.md) | S2；并非每场展览必经中介 |
+| 配对作品概念 | [成对绘画](../terms/pendant-pictures.md) | S4案例；不新增作品对象 |
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S1为第一章p.6、L154–164；S2为p.15、L607–609；S3为p.22、L917–926；S4为馆方外部记录。当前无正式关系，保留source_backed。[补足过程及来源](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键定位。

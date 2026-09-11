@@ -3,7 +3,7 @@ title: "亚历山德罗·瓦萨利（Alessandro Vasalli）"
 name_en: "Alessandro Vasalli"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/pier-francesco-mola.md","note":"在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,38 +15,42 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+- citation: "Accademia Nazionale Virgiliana, Quaderni, PDF 6.pdf. https://www.accademianazionalevirgiliana.org/biblioteca/quaderni/6.pdf. Accessed 2026-09-11."
+  location: "PDF及印刷页304、339；仅这两页已读"
+  sentence_summary: "同名Alessandro Vassalli为十八世纪建筑／泥瓦工程从业者，1771年获建筑奖、1782年执行Paolo Pozzo设计；年代与本章Mola证人不合，排除合并，不将其生平补给本卡。"
 ---
+
 
 ## 内容
 
 ### 描述
 
-**中文：** 在 Mola 与 Prince Pamfili 争议中为莫拉作证的画家；证词解释家庭服务优先权仍以正常作品酬劳为前提。
+**中文：** 亚历山德罗·瓦萨利（Alessandro Vasalli）是本章记载为皮耶尔·弗朗切斯科·莫拉作证的画家。他在与潘菲利亲王的服务争议中说明，优先为保护人工作仍须获得作品报酬。人物的独立生平尚未核定。
 
-**English:** The painter testified for Mola against Prince Pamfili, explaining that priority of household service still presupposed normal payment for works.
+**English:** Alessandro Vasalli is the painter cited in this chapter as a witness for Pier Francesco Mola in a service dispute with Prince Pamfili. His testimony states that priority service to a patron still requires payment for the work. His independent biography remains unconfirmed.
 
-### 已有信息
+### 姓名、身份与已知活动
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Alessandro Vasalli | S1；标题中的语境说明为登记用语 |
-| 章内角色 | 画家；Mola 争议的证人 | S1，支持范围见各条句意摘要 |
+| 章内姓名 | Alessandro Vasalli；亚历山德罗·瓦萨利 | S1；中文暂译 |
+| 检索名形 | Alessandro Vassalli | 仅作拼写检索，不已确认别名 |
+| 身份标签 | 画家；证人 | S1；不据作证推成律师或法院雇员 |
+| 活动 | 在Mola与Prince Pamfili争议中为Mola作证 | S1 |
+| 生卒／籍贯／国籍 | 尚未核定 | 不借同名人资料 |
+| 亲缘／师承／作品 | 尚未核定 | 当前证据未载；不等于没有 |
+| 作证日期与地点 | 本处未明载 | Mola活动于罗马不能代替笔录地点 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 证词内容
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+- 登入保护人的famiglia并获得供给，带来本业服务的优先义务。（S1）
+- 这种优先义务不意味着无偿作画，作品仍应按价值付酬。（S1）
+- 证人以常理及画家间的说法解释其认识来源；这是具语境的证言，不等于普遍成文法或法院最终裁决。（S1）
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L179–185。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+**S1：第一章p.6、L179–185，经Montalto p.295转引。** [证词记录](../archives/vasalli-testimony-mola-pamfili.md)保存载体和传递链；[莫拉](pier-francesco-mola.md)是现有正式关系端点，[潘菲利](camillo-pamfili.md)身份另在对应卡核定。证词发言者与执笔记录者不同。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+**补查结果：问题未解决。** 英文Wikipedia双名形检索无命中；意大利文命中现代家庭研究书目，不能对应十七世纪证人。S2的Alessandro Vassalli活动于1771、1782年，属于建筑工程语境，已排除。没有采用QID，未导入这些同名人的亲缘、职历或作品。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+本卡完成本次消歧处置及字段整理，**不计详细外部生平补足完成**；保留原来源及1条正式关系。下一证据入口为Montalto1955 p.295及其所据笔录，尚未取得原页／原档。[补查记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

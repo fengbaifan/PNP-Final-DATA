@@ -3,7 +3,7 @@ title: "保护与职业引介程序（Patronage and professional introduction）
 name_en: "Patronage and professional introduction"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -20,38 +20,48 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 199–223; print pp. 7
+- citation: "Pier Ludovico Puddu, “Ritratto di Giulio Sacchetti”, Galleria Borghese online catalogue, July2022, inv.608. https://www.collezionegalleriaborghese.it/opere/ritratto-di-giulio-sacchetti. Accessed2026-09-11."
+  location: "完整作品记录：说明、技术字段、研究正文、流传及书目"
+  sentence_summary: "Marcello Sacchetti是Cortona早期保护人，萨凯蒂圈子及持续委托与画家在罗马的立足有关；约1626年的兄弟肖像是具体成果。包含教皇肖像的三联安排仍是假说，不证明某次具体引见。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 同乡/保护人提供住处、引入客户圈、获得宫殿及教堂委托、积累公开声誉后独立接单，是 Haskell 从生涯案例概括的路径，不是每位艺术家固定步骤。
+**中文：** 本章将同乡或保护人提供住处、引入客户圈、获得委托和积累声誉概括为艺术家的一种职业发展路径。博尔盖塞美术馆关于科尔托纳与萨凯蒂兄弟的研究提供具体保护和委托案例，但不证明所有画家都经过相同步骤，或某次引见必然导致某件作品。（S1–S3）
 
-**English:** Haskell describes artists finding compatriot patrons, lodging and social introductions, then palace or church work and a reputation that could attract further commissions. This is an explanatory career pattern, not a fixed sequence followed by every artist.
+**English:** The chapter describes a career pattern in which compatriots or patrons provide lodging and introductions, followed by commissions and growing reputation. The Galleria Borghese’s study of Cortona and the Sacchetti brothers supplies a specific case of patronage and commissions, not proof of a universal sequence or of a particular introduction causing a particular work. (S1–S3)
 
-### 已有信息
+### 程序字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Patronage and professional introduction | S1、S2；标题中的语境说明为登记用语 |
-| 来源概括的环节 | 同乡保护与住宿—社交引介—工程机会—声誉与后续委托 | S1、S2，支持范围见各条句意摘要 |
+| 类型／Nature | 历史做法的分析性概括，不是正式组织或固定制度 | S1、S2 |
+| 参与者／Participants | 艺术家；同乡或既有保护人；引介者；潜在委托者；不同角色可能由同一人承担 | S1、S2 |
+| 输入／Inputs | 已有技能、作品与人际接触；保护人提供的住处、资源或接近客户的机会 | S1、S2 |
+| 前提／Conditions | 有具体接触与支持证据；不能只凭同乡关系推断实际引介 | S1、S2的证据边界 |
+| 可能环节／Possible actions | 接触和寄宿；进入客户网络；承接宫殿或教堂工程；作品公开展示；形成后续委托机会 | S1、S2；不是必经顺序 |
+| 输出／Outputs | 可分别记录住宿安排、引介事实、具体委托、作品与有出处的声誉评价 | S1、S2 |
+| 条件变体／Variation | 保护并不自动带来自由接单或独占义务；有依附成本，也可同时接触其他客户 | S2 |
+| 结果限制／Limits | 赞助存在不证明全部职业成就由该赞助造成；机会、承诺和实际交付分开 | 来源适用范围 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 外部案例
 
+S3记Marcello Sacchetti是科尔托纳的早期保护人，艺术家约1612年抵罗马后进入萨凯蒂圈子；约1626年的Giulio与Marcello肖像体现了后续委托。馆方把Giulio肖像的可能制作窗口缩小至其1626年末至1627年初在罗马期间，仍保留约年纪年，不能从枢机获任日期自动推定作画日期。
 
-### 初步对齐（REV-034，2026-09-10）
+馆方把包括乌尔班八世肖像的三联安排列为Montanari提出的未验证假说。本卡不把它变成“萨凯蒂某日引见教皇”的证据，也不新建三幅作品的组合关系。（S3）
 
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
+### 对齐及未决项
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+此程序为章内分析性命名，既有英文检索未取得独立Wiki配对；不借艺术赞助、求职或商业营销条目的QID。外部案例补足了具体活动与证据边界，仍未形成可一一对应的Wikipedia／Wikidata对象。引介的具体日期、话语和成功率未证，不造值。
 
 ## 关系与证据
 
-S1：第一章；印刷页 4, 5；OCR L84–88,101–110；S2：第一章；印刷页 7；OCR L199–223。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+| 角色入口 | 知识元 | 依据／状态 |
+|---|---|---|
+| 案例艺术家 | [皮耶特罗·达·科尔托纳](../persons/pietro-da-cortona.md) | S2、S3 |
+| 案例保护人 | [马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md) | S2、S3；不据程序概括自动补每条赞助边 |
+| 家户概念 | [famiglia](../terms/famiglia.md) | S2语境，非人人必须加入的阶段 |
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S1为第一章pp.4–5、L84–88、101–110；S2为p.7、L199–223；S3只支持所列外部案例。未新增正式关系；内容稿已保存，evidence_status仍为source_backed。[阅读和采用记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)可复核。

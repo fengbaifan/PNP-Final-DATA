@@ -3,7 +3,7 @@ title: "莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elem
 name_en: "Mola’s Four Elements fresco programme at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/pamfili-country-house-valmontone.md","note":"四元素装饰所处的建筑，与作品已有城市层级定位并存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -25,38 +25,48 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 505–506,516–519; print pp. 13
+- citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "复用人物卡已有全文阅读，本次定向回读Valmontone合同方案、付款与诉讼段；重新保存原页正文。"
+  sentence_summary: "1300scudi合同方案未获签署；1658年底已绘若干部分；未完成Aurora由Cozza奉命毁去；诉讼至1664。"
+- citation: "Museo di Palazzo Doria Pamphilj, Il Museo di Palazzo Doria Pamphilj. https://www.palazzodoriapamphiljvalmontone.it/il-museo-di-palazzo-doria-pamphilj/. Accessed 2026-09-11."
+  location: "7614字符正文全文已读，含考古、建筑、各房间装饰与图注；不等于实地或影像鉴定。"
+  sentence_summary: "1651购入、1654建新宫、约1670完成；Molli及1666起Del Grande；現存空气厅Preti1661，Mola现存America和Africa两室1658–59。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Pamfili 乡间住宅的具体装饰项目。莫拉借神谱、带注释的 Virgil 并与学者交谈选择题材；本轮仅依第一章，不借第六章判断毁损。
+**中文：** 莫拉为卡米洛·潘菲利在瓦尔蒙托内提出的《四元素》装饰方案，借神谱、维吉尔注释与学者咨询构思。工程曾局部实施并发生报酬争议；现存宫殿装饰由多位画家完成，不能整体归给莫拉。[S1–S4]
 
-**English:** For the Pamfili country house, Mola consulted borrowed books and learned advice in selecting the myths of the Four Elements. This source-based programme record does not include chapter 6's account of later damage.
+**English:** Mola developed a Four Elements scheme for Camillo Pamfili at Valmontone using mythographic books, an annotated Virgil and learned consultation. Work was partly executed and became the subject of a payment dispute. The palace's surviving decoration is by several painters and cannot be attributed as a whole to Mola. [S1–S4]
 
-### 已有信息
+### 项目字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Mola’s Four Elements fresco programme at Valmontone | S1、S2；标题中的语境说明为登记用语 |
-| 项目与参考 | Pamfili 的 Valmontone 乡间宅邸；神谱、带注释的 Virgil 及学者建议 | S1、S2，支持范围见各条句意摘要 |
+| 对象 | 壁画装饰方案及其工程语境；不是现存所有房间合成的一件Mola作品 | S1–S4 |
+| 构思／原负责人 | Pier Francesco Mola | S1、S3 |
+| 赞助人 | Camillo Pamfili | S1–S3 |
+| 地点 | Valmontone的Pamfili宫殿，与罗马同名宫分开 | S1–S4 |
+| 题材 | 本章四元素，含[空气方案](mola-air-valmontone.md)；S3另载四洲方案 | S1、S3 |
+| 输入资料 | 借阅神谱、带注释Virgil及学者意见；具体版本未核 | S1 |
+| 酬金方案 | 1300scudi；方案未获签署 | S3 |
+| 材料和付款条款 | 1657年材料分担；300定金＋1000分期，详[条款卡](../archives/mola-pamfili-contract-1657.md) | S2 |
+| 尺寸／整体技法细目 | 未从原工程或实物记录核定 | 不拼接各后续房间尺寸 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 分期执行与现存状态
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+| 阶段 | 内容 | 依据 |
+|---|---|---|
+| 提案 | Mola提出负责四元素和四洲装饰，Camillo未签方案但令开工 | S3 |
+| 1658年底 | Mola已绘America、Africa小室、Aurora及空气厅四幅 | S3 |
+| 争议与毁改 | Mola离去并诉酬金；Camillo令Cozza毁未完成Aurora；诉讼至1664 | S3 |
+| 现存装饰 | 馆方以America、Africa两室为Mola1658–59现存作品；空气Preti1661，水Courtois，火Cozza，土Tassi归属 | S4 |
+| 当前识别限制 | 不能将Mola方案与现存四元素整套画面合并 | S1–S4语义比较 |
 
 ## 关系与证据
 
-S1：第一章；印刷页 9；OCR L312–319；S2：第一章；印刷页 13；OCR L505–506,516–519。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+尚无此项目的Wikipedia—Wikidata确认配对。S1第一章第9页L312–319；S2第13页L505–506、516–519；S3–S4为外证。保留原有创作者、委托人与地点关系，但created_by的对象限此方案，绝不表示现存全宫壁画均为Mola所作，集中关系复核须维护这一限定。
 
-文件头保留 4 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+方案文献、原稿和诉讼档案未全读。史料称已绘与现存保存分别表达；未在本轮使用第六章，也未据装饰题材开启知识涌现。

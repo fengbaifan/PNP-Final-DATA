@@ -3,7 +3,7 @@ title: "利奥内·帕斯科利（Lione Pascoli）"
 name_en: "Lione Pascoli"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -54,40 +54,91 @@ sources:
 - citation: "Wikidata, Q1101774, revision 2527349948. https://www.wikidata.org/wiki/Q1101774. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Lione Pascoli，1674–1744 年艺术家传记作者；排除同姓诗人和姓氏页。"
+- citation: "Wikipedia (en), Lione Pascoli, revision 1283030023. https://en.wikipedia.org/wiki/Lione_Pascoli. Read 2026-09-11."
+  location: "全文5781字符；生平、经济思想、收藏、著述、两组传主名单、注释"
+  sentence_summary: "生卒、职业与三项出版记录；传主名单不是亲缘／师生／交往证据；单来源提示保留。"
+- citation: "Wikidata, Q1101774, revision 2527349948. https://www.wikidata.org/wiki/Q1101774. Read 2026-09-11."
+  location: "enwiki；性别、生卒、地点、职业、国属及引用／时间精度"
+  sentence_summary: "日期与传记一致；国属无引不能变成现代国籍；职业多标签保留。"
+- citation: "Serenella Rolfi Ožvald, PASCOLI, Lione, Dizionario Biografico degli Italiani 81 (2014). https://www.treccani.it/enciclopedia/lione-pascoli_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文17057字符，含正文、作品和书目；所引原著未读"
+  sentence_summary: "父母、兄弟、教育和职业；1730/1736两卷、1732地方传记、1981未刊稿出版；区分作者评价和后人评论。"
+- citation: "Comune di Deruta, Pinacoteca Comunale, updated 2025-03-18. https://comune.deruta.pg.it/luoghi/2032434/pinacoteca-comunale. Accessed 2026-09-11."
+  location: "完整场馆说明，尤其Pascoli收藏段"
+  sentence_summary: "1931年市政府经捐赠接收约40幅Pascoli藏画；数量是该馆部分，不能当生前全部收藏。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章多次引用的画家传记作者，记服务关系、生活礼仪及 Luti 行为，并有未刊 Trevisani 传。各段言论属于其传记材料，非本轮直接读过原书。
+**中文：** 利奥内·帕斯科利（Lione Pascoli，1674–1744）是意大利艺术传记作者、收藏家及经济问题研究者。本章多次引用他的艺术家传记，讨论服务、旅行、礼仪与赞助；引用内容须与帕塞里的记载及后人评价分别处理。
 
-**English:** The painter-biographer is repeatedly cited on service, manners and Luti, including an unpublished Trevisani life. These are references to biographical material, not a claim that his originals were directly read in this task.
+**English:** Lione Pascoli (1674–1744) was an Italian art biographer, collector and writer on economic affairs. This chapter repeatedly draws on his artists' biographies when discussing service, travel, manners and patronage. His accounts must be distinguished from Passeri's writings and subsequent assessments.
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Pascoli | S1、S2、S3、S4、S5、S6；标题中的语境说明为登记用语 |
-| 文献角色 | 画家传记作者；含未刊 Trevisani 传线索 | S1、S2、S3、S4、S5、S6，支持范围见各条句意摘要 |
+| 全名／通用名 | Lione Pascoli；利奥内·帕斯科利 | S7–S11 |
+| 异名 | Leone Pascoli | S10–S11 |
+| 称谓 | abate／教士称谓；未据此指定修道院院长职务 | S9、S11 |
+| 性别 | 男 | S10 |
+| 生年／出生地 | 1674-05-03，佩鲁贾（Perugia） | S9–S11 |
+| 卒年／去世地 | 1744-07-30，罗马（Rome） | S9–S11 |
+| 文化与政治范围 | 意大利作者；活动于教皇国等地，不填现代意大利共和国国籍 | S9–S11 |
+| 身份标签 | 艺术传记作者、收藏家、经济论著作者 | S9–S11 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘与教育
 
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 父亲 | Giandomenico Pascoli | S11 |
+| 母亲 | Maria Ippolita Mariottini | S11 |
+| 兄弟 | Celso、Giovan Battista、Alessandro；仅列有姓名者 | S11 |
+| 配偶／子女 | 已读资料未确认，不写“无” | 阅读缺口 |
+| 早年学习 | 佩鲁贾就学，接触Pietro Montanini画室 | S11 |
+| 1690年起 | 罗马学院学习六年，取得教会法及民法学位 | S11 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 职业履历
 
-**身份配对通过。** Lione Pascoli，1674–1744 年艺术家传记作者；排除同姓诗人和姓氏页。
+- **18世纪初：** 任罗马圣轮法院秘书；**1706年**在拉文纳获宗座质子司铎称号。具体权限不能由称号推导。（S11）
+- **1709年后：** 离开罗马，游历欧洲，经济治理成为其写作议题。（S11）
+- **1730、1736年：** 分两卷出版近代艺术家传记；**1732年**另出佩鲁贾艺术家传记。（S9、S11）
+- **1740年：** 出版台伯河航运论著。（S9、S11）
 
-名称记录：规范显示为 利奥内·帕斯科利（Lione Pascoli）；原登记名／来源名形 Pascoli 保留为检索异名，不因显示更新改动稳定路径。
+### 著述与收藏
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Lione_Pascoli) 的 wikibase_item 与 [Wikidata Q1101774](https://www.wikidata.org/wiki/Q1101774) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+| 题名 | 时间／版本 | 范围 |
+|---|---|---|
+| 《近代画家、雕塑家与建筑师传》（Lives of Modern Painters, Sculptors and Architects；Vite de’ pittori, scultori ed architetti moderni） | 第一卷1730、第二卷1736，罗马 | S9、S11；百科单列1736不能代指两卷首刊 |
+| 《佩鲁贾画家、雕塑家与建筑师传》（Lives of Perugian Painters, Sculptors and Architects；Vite … perugini） | 1732，罗马 | S9、S11；与前书分开 |
+| 《台伯河航运及其通航可能》（The Tiber Navigated and Navigable；Il Tevere navigato e navigabile） | 1740 | S9、S11；中英文说明性译名 |
+| 《一位佛罗伦萨学者的政治遗嘱》（Political Testament of a Florentine Academician；Testamento politico d’un accademico fiorentino） | 1733印本，1722已见手稿流通 | S11；匿名和虚拟出版地不能视为作者真实居所 |
+| 未刊在世艺术家传稿 | 佩鲁贾Augusta图书馆mss.1383、1743；1981出版 | S11；“未刊”须注明所处时期，不沿用为今日状态 |
+| 德鲁塔馆藏部分 | 市政府1931年经捐赠接收约40幅，含Amorosi、Trevisani、Conca、Van Bloemen等 | S12；这是后续保存部分，不是生前藏品总数 |
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+WP两组传主名单均已阅读；写入传记不证明作者与每位传主见过面，也不证明收藏其作品。逐传核查仍须回到具体印本、页码和稿本。
+
+### 评价与研究入口
+
+S11综述指出：Bottari、Comolli批评其材料核实与琐细叙述；Battisti等讨论其与Passeri、Baldinucci文本的关系，同时重视其个案叙述和对不同绘画类型的开放态度。这里只记录有署名的研究观点，不将本章全部引述判为错误。
+
+研究入口：Battisti《L. P. scrittore d’arte》（1953）、1992年Vite批评版、Ciuffetti关于家族与收藏的研究（2005）。这些原著尚未阅读。（S11书目）
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L178–187；S2：第一章；印刷页 7；OCR L229–237；S3：第一章；印刷页 18；OCR L741–752；S4：第一章；印刷页 19；OCR L770–795,805–806；S5：第一章；印刷页 20；OCR L850–853；S6：第一章；印刷页 23；OCR L978–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 章内出处
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+| 来源 | 章页／行号 | 句意摘要 |
+|---|---|---|
+| S1 | 第一章p6，L178–187 | 服务及旅行例子的传记来源 |
+| S2 | p7，L229–237 | 离境限制与Trevisani未刊传线索 |
+| S3 | p18，L741–752 | 画家的礼仪和生活描述 |
+| S4 | p19，L770–795、805–806 | 教养、谈吐和礼遇；须区分Passeri与Pascoli |
+| S5 | p20，L850–853 | Procaccini父母态度的反例 |
+| S6 | p23，L978–980 | Luti少求权贵保护的记载 |
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+[Wikipedia](https://en.wikipedia.org/wiki/Lione_Pascoli)与[Wikidata Q1101774](https://www.wikidata.org/wiki/Q1101774)沿用已完成的双向配对。S7–S8为身份来源，S9–S12为本轮补足；编号按元数据顺序。
+
+本卡暂无正式关系；[帕塞里](giambattista-passeri.md)链接仅作作者区分。经济主张的后续影响、收藏逐件归属及亲缘完整性仍待原著或对象级资料；不从百科概括生成影响边。内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/pascoli定位。

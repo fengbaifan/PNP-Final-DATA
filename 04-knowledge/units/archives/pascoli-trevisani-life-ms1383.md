@@ -1,9 +1,9 @@
 ---
-title: "帕斯科利未刊《特雷维萨尼传》（MS.1383）（Pascoli's Unpublished Life of Trevisani (MS.1383)）"
-name_en: "Pascoli's Unpublished Life of Trevisani (MS.1383)"
+title: "帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）"
+name_en: "Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/pascoli.md","note":"未刊传记署名；本次未读手稿。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 236–237; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,38 +17,48 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 236–237; print pp. 7
+- citation: "Giulia Daniele, «TREVISANI, Francesco», Dizionario Biografico degli Italiani 96 (2019). https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "传记全文及文末 Fonti e Bibl. 已读；其中Pascoli条目的书目事实，未读手稿或1981刊本。"
+  sentence_summary: "Pascoli的Vita di F. T.写于1744年前；Luigi Salerno整理的文字发表于Vite...viventi，Treviso1981，pp.25–57，刊本取材于Augusta手稿1383与1743；不能由汇编使用两馆号推定本篇占两卷。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章指向 Perugia Biblioteca Augusta 的 Pascoli 未刊传记；仅登记证据线索，不复制或虚构原书正文。
+**中文：** 帕斯科利所撰特雷维萨尼传记的手稿文本，Haskell以佩鲁贾奥古斯塔图书馆MS.1383引用。后来的专业书目列出1981年整理刊本；手稿、该篇文本和刊印汇编须分别识别。
 
-**English:** The chapter points to Pascoli's unpublished biography in the Biblioteca Augusta in Perugia. The entry registers the evidence lead without copying or inventing the manuscript's contents.
+**English:** Pascoli's manuscript biography of Francesco Trevisani is cited by Haskell as MS.1383 in the Biblioteca Augusta, Perugia. A later scholarly bibliography identifies an edited publication in 1981; the manuscript, the biographical text and the printed collection must be distinguished.
 
-### 已有信息
+### 名称与责任
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Pascoli's Unpublished Life of Trevisani (MS.1383) | S1；标题中的语境说明为登记用语 |
-| 保管线索 | Biblioteca Augusta，Perugia；MS.1383；限 Haskell 的引用信息 | S1，支持范围见各条句意摘要 |
+| 登记名称 | 帕斯科利《特雷维萨尼传》手稿／Pascoli's manuscript Life of Francesco Trevisani；说明性题名，不冒充卷首原题 | S1、S2 |
+| 刊本篇名线索 | Vita di F. T.；缩写来自Daniele书目，展开为Francesco Trevisani | S2 |
+| 作者 | 利奥内·帕斯科利／Lione Pascoli | S1、S2 |
+| 传主 | 弗朗切斯科·特雷维萨尼／Francesco Trevisani | S1、S2 |
+| 整理者 | Luigi Salerno；是1981刊印责任者，不是手稿作者 | S2 |
+| 文本语言 | 意大利文；当前据书目题名及专业传记，未直接核原稿语言形态 | S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 文献形态与版本
 
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 写作年代 | 1744年以前；不是精确写作日 | S2 |
+| 引用馆号 | MS.1383，Biblioteca comunale Augusta，Perugia；Haskell所引馆藏信息 | S1 |
+| 手稿载体／叶码 | 未直接核定材质、装订、叶码或本篇在整卷的位置；印本pp.25–57不是手稿叶码 | 未查原件 |
+| 后来刊印 | 收于Vite de' pittori, scultori, ed architetti viventi: dai manoscritti 1383 e 1743 della Biblioteca comunale Augusta di Perugia，Treviso，1981，pp.25–57 | S2 |
+| 手稿与汇编关系 | 汇编标题涉及1383与1743两手稿，不足以断定本篇在两卷都有副本或分藏两卷 | S2 |
+| “未刊”称谓 | 保留为Haskell引用时的表述；不能在已知1981刊本后继续作为不加时点的当前出版状态 | S1、S2 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 本章语境与内容边界
 
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+本章第7页脚注以此传记支持特雷维萨尼相关论述。当前仅核到了文献与后续刊印链，没有读手稿或1981刊本，不能将Daniele传记全部内容归为Pascoli原文，也不能把汇编另造为本次已摄入来源。
 
 ## 关系与证据
 
-S1：第一章；印刷页 7；OCR L236–237。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 3 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 作者：[帕斯科利](../persons/pascoli.md)；传主：[特雷维萨尼](../persons/francesco-trevisani.md)；引用保管机构：[奥古斯塔图书馆](../institutions/biblioteca-augusta.md)。文件头3条既有正式关系及原章定位保留，补足后的措辞和时点交集中关系阶段复核。
+- S1：第一章，第7页，L236–237。S2：Daniele2019文末Pascoli书目条；编号对应文件头sources。
+- **身份：尚未确认Wikipedia—Wikidata配对。** 不借作者或图书馆QID代替手稿。尚需馆方项目目录确认原题、叶码、当前馆号及1981刊本的具体编辑责任。
+- 本轮补入书目与版本事实；不是手稿内容已读、外部身份已确认或全文事实验证完成。

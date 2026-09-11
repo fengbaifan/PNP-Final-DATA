@@ -3,7 +3,7 @@ title: "帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）"
 name_en: "S. Sebastiano on the Palatine"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -19,38 +19,54 @@ sources:
 - citation: "Wikidata, Q787605, revision 2387862877. https://www.wikidata.org/wiki/Q787605. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "帕拉蒂尼山 San Sebastiano al Palatino 教堂，排除罗马其他圣塞巴斯蒂安堂。"
+- citation: "Wikipedia (en), San Sebastiano al Palatino, revision 1368485604. https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino. Accessed 2026-09-11."
+  location: "对象页全文5848字符已读，包含信息框、正文、图注、注释和书目。"
+  sentence_summary: "只采与本章对象有关且经语义判断的内容，异文与不采用字段见卡。"
+- citation: "Wikidata Q787605, revision 2387862877. https://www.wikidata.org/wiki/Q787605. Accessed 2026-09-11."
+  location: "读取P625多值、P571精度7、P131和带语言限定的官网；不据无引坐标单选。"
+  sentence_summary: "P571只到世纪，不能写901-01-17为创建日；两坐标及WP坐标不同，未用作精确实测。"
+- citation: "Carmen C. Bambach (2014), Saint Sebastian Clubbed to Death, Andrea Camassei, The Metropolitan Museum of Art, 65.137. https://www.metmuseum.org/art/collection/search/338324. Accessed 2026-09-11."
+  location: "已读说明、公开对象字段、图注；页面折叠的完整流传／展览／参考文献内容未展开，不称全部档案已读。"
+  sentence_summary: "红粉笔素描46.0×30.5厘米、馆号65.137是祭坛画准备稿；画与稿均有斗兽场，箭的处理不同。素描不等于祭坛画。"
+- citation: "Fraternità Monastiche di Gerusalemme, San Sebastiano al Palatino. https://sansebastiano.fraternita-gerusalemme.it/home. Accessed 2026-09-11."
+  location: "当前入口页公开正文已读，限教堂名称及团体使用；不作17世纪建造／产权史料。"
+  sentence_summary: "名称San Sebastiano al Palatino和罗马修院团体活动入口，不能以团体使用推定建筑所有权。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Urban VIII 委托 Camassei 绘含八个人物的圣塞巴斯蒂安殉难祭坛画的教堂。
+**中文：** 帕拉蒂尼山圣塞巴斯蒂安堂是罗马帕拉蒂尼山东北侧的教堂，旧称Santa Maria in Pallara。本章指定它为卡马塞伊祭坛画的安置地；教堂建筑、宗教团体、领衔身份与内部作品分别记录。[S1–S7]
 
-**English:** This is the church for which Urban VIII commissions Camassei's Martyrdom of Saint Sebastian altarpiece with eight figures.
+**English:** San Sebastiano al Palatino is a church on the northeastern Palatine in Rome, formerly known as Santa Maria in Pallara. Chapter 1 identifies it as the intended setting of Camassei's altarpiece. Its building, religious community, titular status and artworks are distinct. [S1–S7]
 
-### 已有信息
+### 名称与位置
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | S. Sebastiano on the Palatine | S1；标题中的语境说明为登记用语 |
-| 建筑与委托 | Urban VIII／Camassei；八人物祭坛画 | S1，支持范围见各条句意摘要 |
+| 现名／拉丁名 | San Sebastiano al Palatino；Sancti Sebastiani in Monte Palatino | S4 |
+| 历史名 | Santa Maria in Pallara | S4 |
+| 文献异称 | S. Sebastiano in Campo Vaccino；San Sebastiano alla Polveriera | 刊本及S6艺术品说明；同帕拉蒂尼位置 |
+| 位置 | Rome，Via di San Bonaventura，帕拉蒂尼山东北侧 | S4 |
+| WD坐标 | 41.889612014348785,12.488587002021863（无引用）；41.888826,12.488218（有一引用） | S5；不静默择一作精确实测 |
+| 当前使用入口 | Fraternità Monastiche di Gerusalemme的San Sebastiano al Palatino页面 | S7；使用不等于产权 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 建造、名称及使用沿革
 
+- 下有古代建筑台基；究竟与哪一古庙对应，百科列多个假说，不作确定创始身份。[S4]
+- 十世纪教堂和修院出现，奉献于圣母、圣塞巴斯蒂安及圣佐蒂库斯；旧名Santa Maria in Pallara。[S4]
+- 1061年转交Montecassino修院长；这是使用／管理沿革信息，未读产权文书。[S4]
+- 1624年巴贝里尼时期重建，形成今日建筑主体；本次来源未确认设计师姓名。[S4]
+- 1973年成为领衔教堂；不把这一现代状态倒推为本章17世纪委托制度。[S4]
+- 后殿保留中世纪壁画，内部[Camassei祭坛画](../works/camassei-martyrdom-saint-sebastian.md)是另一时期作品。[S4、S6]
 
-### 初步对齐（REV-034，2026-09-10）
+### 身份对齐
 
-**身份配对通过。** 帕拉蒂尼山 San Sebastiano al Palatino 教堂，排除罗马其他圣塞巴斯蒂安堂。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino) 的 wikibase_item 与 [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[Wikipedia](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino) ↔ [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605)复用双向结果，英文5848字符全文已读。WD建立时间精度为7（世纪），不将序列化的0901-01-17写成创建日。
 
 ## 关系与证据
 
-S1：第一章；印刷页 10；OCR L336–338。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+无既有正式关系。S1第一章第10页L336–338保留；S2–S7为对齐及补足。教堂官网本轮只支持当代名称和活动主体；历史叙述采用S4并保留范围。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+圣徒受难地点属于传统叙事，不能以传说证明建筑年代。与San Sebastiano fuori le mura分开；未核具体产权连续链、设计师和全部修复记录，不把当前领衔者或团体写成建筑所有人。

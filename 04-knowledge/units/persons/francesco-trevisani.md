@@ -3,7 +3,7 @@ title: "弗朗切斯科·特雷维萨尼（Francesco Trevisani）"
 name_en: "Francesco Trevisani"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -19,40 +19,79 @@ sources:
 - citation: "Wikidata, Q963875, revision 2527223910. https://www.wikidata.org/wiki/Q963875. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "1656–1746 年意大利画家，罗马活动时代与 Ottoboni 赞助语境相容。"
+- citation: "Wikipedia (en), Francesco Trevisani, revision 1365386923. https://en.wikipedia.org/wiki/Francesco_Trevisani. Accessed 2026-09-11."
+  location: "全文15672字符，含正文、信息框／表格、图注及注释书目；原输出截断处补读"
+  sentence_summary: "与原配对QID互链一致；叙述按专业传记与本章核对，不自动接收所有作品和亲缘。"
+- citation: "Wikidata Q963875, revision 2527223910. https://www.wikidata.org/wiki/Q963875. Accessed 2026-09-10; reviewed 2026-09-11."
+  location: "复用完整抓取，读取适用日期、身份、亲缘／师承、职业及限定／引用；被采用关联标签另已查询"
+  sentence_summary: "日期多值与年精度分别处理；QID及sitelink复核不等于所有字段事实无误。"
+- citation: "Giulia Daniele, TREVISANI, Francesco, DBI 96 (2019). https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文19203字符，含亲缘、迁居、家户、作品与书目"
+  sentence_summary: "生日4月9日与洗礼17日分开；1690证词所述1679抵罗马、1698入住及1705入家户分列。"
+- citation: "Flavia Matitti, OTTOBONI, Pietro, DBI 79 (2013). https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "全文23998字符，含宫廷／赞助、任职、死亡与书目"
+  sentence_summary: "Trevisani1705正式进入家户不覆盖已知1698居住，早期为Ottoboni作画不等于正式家户资格。"
 ---
 
 ## 内容
 
 ### 描述
+**中文：** 弗朗切斯科·特雷维萨尼是生于威尼斯共和国Capodistria、长期在罗马工作的画家和肖像画家，亦参与诗歌、音乐与表演。第一章所说与奥托博尼的“同乡”联系指威尼斯政治文化语境，不是两人出生在同一城市。[S1、S4、S6]
+**English:** Francesco Trevisani was a painter and portraitist born in Capodistria in the Venetian Republic and active for much of his life in Rome, with interests in poetry, music and performance. The shared Venetian origins invoked in Chapter 1 refer to a political and cultural setting rather than birth in the same city as Ottoboni. [S1, S4, S6]
 
-**中文：** Cardinal Ottoboni 的威尼斯同乡，由其提供罗马住处。本章明确支持同乡保护与住宿，未给完整生平或所有委托。
-
-本轮不把第六章对其风格与长期职业的分析并入第一章测试。
-
-**English:** His Venetian compatriot Cardinal Ottoboni provided lodging in Rome. This supports protection and accommodation, not a complete biography or commission list. Chapter 6's style and career analysis remains separate.
-
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+### 姓名与基本信息
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Francesco Trevisani | S1；标题中的语境说明为登记用语 |
-| 保护语境 | Venice 同乡 Ottoboni 提供 Rome 住处 | S1，支持范围见各条句意摘要 |
+| 全名／通用名 | 弗朗切斯科·特雷维萨尼／Francesco Trevisani | S4、S6 |
+| 学院名 | Sanzio Echeiano | S4、S6 |
+| 性别／角色 | 男；画家、肖像画家；诗歌、音乐和表演为相关活动 | S4–S6 |
+| 生日 | 1656-04-09 | S4–S6 |
+| 洗礼日 | 1656-04-17 | S6；与生日分开 |
+| 出生地 | Capodistria，今Koper，当时威尼斯共和国 | S4、S6；不能写出生于Treviso或威尼斯城市 |
+| 卒日／去世地 | 1746-07-30，罗马 | S4–S6 |
+| 安葬 | S. Giovanni della Malva | S6 |
+| 年龄与头衔 | 按日期周岁90；DBI转记novantunenne为来源年龄说法。死亡记载eques不能单凭字样填具体骑士团及授予年 | S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘
+| 字段 | 人物／事项 | 依据 |
+|---|---|---|
+| 父亲 | Antonio Trevisani，建筑师 | S4、S6 |
+| 母亲 | Domenica | S6 |
+| 配偶 | Girolama Riva，来自Trieste | S6据罗马登记；私奔传闻另属后期传记叙事 |
+| 儿子 | Antonio，早逝 | S6 |
+| 女儿 | Laura，早逝；Domenica，1682-12-30生、1683-01-19洗礼，嫁Pietro Rossi | S6 |
+| 兄弟 | 同迁罗马者Pietro见DBI；WP另述画家Angelo为兄弟，本轮未解决谱系对应 | S4、S6 |
 
+### 教育与职业履历
+| 时间 | 事项 | 依据 |
+|---|---|---|
+| 早年 | 父亲可能启蒙；威尼斯先从Antonio Zanchi、后从Joseph／Giuseppe Heintz the Younger学习 | S4、S6；WD Zanchi标签核过但无引，不能替代传记 |
+| 1679年9月 | 1690年问讯中自述抵罗马时间 | S6引Wolfe2010；WP约1678保留异文 |
+| 1682起 | 至少此时起规律为Flavio Chigi服务，延续至1693枢机去世 | S6 |
+| 1683 | 首次见所引罗马人口登记；登记出现时间不是首次抵达 | S6 |
+| 1687／1688 | 《四圣殉难》交付／安装于锡耶纳主教座堂，交付前在Chigi宫展出 | S6 |
+| 1696冬 | S. Silvestro in Capite礼拜堂壁画和五幅油画呈现 | S6；两种媒材不混写 |
+| 1697 | 加入圣路加学院 | S6 |
+| 1698／1705 | 携家人入住Cancelleria／正式进入Ottoboni家户 | S6、S7；居住和组织身份分开 |
+| 1712 | 加入Arcadia；先前接触与称赞不等于正式入会 | S4、S6 |
+| 1732–1737／1738–1743 | 圣彼得洗礼堂新月形区域／穹顶部位镶嵌画用预备大画阶段 | S6 |
+| 1745-04-22 | 上述工程最后付款记录 | S6；设计、镶嵌施工及结算不合并 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 1656–1746 年意大利画家，罗马活动时代与 Ottoboni 赞助语境相容。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Trevisani) 的 wikibase_item 与 [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 作品、保护条件与研究
+| 类别 | 内容 | 依据／限制 |
+|---|---|---|
+| 家户条件 | DBI称Ottoboni保留对作品优先选择的权利；不解释为画家此后不能为别人作画 | S6；另有外部委托实例 |
+| 《三位一体与圣伯尔纳和圣加大利纳》／Trinity with Saints Bernard and Catherine of Siena | 1684，Cetinale，Flavio Chigi委托 | S4、S6 |
+| 《奥托博尼枢机肖像》／Portrait of Cardinal Ottoboni | Bowes Museum B.M.70；DBI Trevisani约1692，DBI Ottoboni或约1698，WP1700–09，年代保留冲突 | S4、S6、S7；非人物卡即可解决版本问题 |
+| 《死去的基督与天使》／Dead Christ with Angels | 1698的Stanford对象与Vienna等版本分开 | S6 |
+| 圣彼得洗礼堂工程 | 大幅绘制设计稿；实际镶嵌由工匠实施，不把全部镶嵌手工制作归本人 | S4、S6 |
+| 晚期自作 | 去世前未完成的《圣米迦勒》由Moücke叙述，不能登记为已完成委托 | S6 |
+| 学生／助手 | Pascoli列Beaumont、Casali、Guglielmi、Pesce等；不能据此确定谁执行洗礼堂具体部位 | S6 |
+| 评价者 | Pascoli、Pio、Moücke；艺术风格判断与本人可核履历分开 | S6 |
+| 相关研究 | Di Federico1977作品总录；Wolfe2010研究；Pascoli传记1981刊本pp.25–57 | S4、S6；所引原著未全文读 |
 
 ## 关系与证据
-
-S1：第一章；印刷页 7；OCR L220–221,235–237。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 相关知识元：[彼得罗·奥托博尼](pietro-ottoboni.md)、[帕斯科利](pascoli.md)、[未刊传记MS1383](../archives/pascoli-trevisani-life-ms1383.md)、[威尼斯](../places/venice.md)。正文入口不自动生成新边；本卡尚无正式出边。
+- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Francesco_Trevisani) ↔ [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875)。Getty500005125仅为WD所列且无引，本轮未核原站。
+- S1的第一章第7页L220–221、235–237及摘要保留；S2–S3旧对齐，S4–S7本轮补足。仅使用第一章对象及外部传记，第六章文本未纳入测试。
+- 未决：迁居证词原件、兄弟谱系、肖像年代、Pascoli原稿与具体服务条款。DBI与WP对Bolsena／Cleopatra画作日期不同，未统一成确定年；学院和作品事实仍须各据其来源。整卡仍为source_backed。

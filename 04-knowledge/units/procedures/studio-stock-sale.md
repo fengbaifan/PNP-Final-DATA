@@ -3,7 +3,7 @@ title: "工作室存画议价与完成（Negotiating and completing studio stock
 name_en: "Negotiating and completing studio stock"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
@@ -13,38 +13,43 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 591–606; print pp. 15
+- citation: "National Gallery of Art, Italian Paintings of the Seventeenth and Eighteenth Centuries, Guercino entries, pp.163,167–169. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/italian-paintings-17th-and-18th-centuries.pdf. Accessed 2026-09-11."
+  location: "PDF页索引181、185–187；正文及注5–13完整读取，账簿原件未读"
+  sentence_summary: "1649预付款、两半身人物、付款金额涂改及同题移转；1653中介担保免预付款的书信转述。"
+- citation: "Meg Butler, Nicolas Poussin and the Struggles of Gig Work, Getty, 15 February 2022. https://www.getty.edu/news/nicolas-poussin-and-the-struggles-of-gig-work/. Accessed 2026-09-11."
+  location: "文章正文、图注全文已读；采用The Gentleman Jewel Thief段"
+  sentence_summary: "转述Valguarnera购普桑作品及普桑证词称现金支付；未证明每幅在交易前的完成程度，原庭审记录未读。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 买方查看既有未完稿，认可后议价并请画家完成；与同时另行新委托区分。Lanfranco 和 Poussin 是具名事例。
+**中文：** 买家可以选取工作室中已有的画稿或作品，再协商完成、购买或转手；这与从开始提出新题材的委托不同。作品何时开始、当时完成到何种程度及何时更换买家须分别有据。（S1–S3）
 
-**English:** A visitor could select an existing unfinished canvas and arrange its completion. Valguarnera's dealings with Lanfranco and Poussin distinguish this practice from commissioning a new subject from the outset.
+**English:** Buyers could select works already present in an artist’s studio and negotiate their completion, acquisition or transfer. This differs from commissioning a new subject from the outset. The start of work, its degree of completion and any change of purchaser require separate evidence. (S1–S3)
 
-### 已有信息
+### 程序字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Negotiating and completing studio stock | S1；标题中的语境说明为登记用语 |
-| 交易顺序 | 观看已有未完成画稿—协商完成；另订新作另行区分 | S1，支持范围见各条句意摘要 |
+| 参与角色 | 画家、来访买家，必要时原委托人或代理 | S1–S2 |
+| 前提 | 有先于本次议价存在的作品或画稿 | S1 |
+| 输入 | 可见作品状态、完成要求、报价及既有权利承诺 | S1–S2 |
+| 可能结果 | 继续完成后售出、现状出售、转给另一买家或交易未成 | S1–S2；具体结果须有证 |
+| 关键区分 | 存画、未完成稿、已承接而未交付的委托、临时新订作 | S1–S2 |
+| 金额与媒介 | 只据该笔交易记录，不由作品后来的价值倒算 | S1–S3 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 本章实例及外部参照
 
+Valguarnera观看Lanfranco已有两稿后约其完成；在Poussin处购买已开始的《阿什杜德的瘟疫》，又另行委托《春》。两种交易在同一来访中并存，不能把后来所有购买都写成最初委托。（S1）
 
-### 初步对齐（REV-034，2026-09-10）
+NGA目录另提供作品更换买家的参照：Guercino为一位委托人开始的作品转给另一买家，原委托、转售与可能重新制作同题版本须分开。该例并不证明作品起初就是无主库存，目录的价差解释也仍属学者假说。（S2）
 
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+Getty对Valguarnera庭审的介绍支持他购买Poussin作品，并转述画家称收取现金；它不独立说明每件画在购买前完成到什么程度。庭审原件和Haskell引用的Costello相关页仍未读，不以介绍文章替代。（S3）
 
 ## 关系与证据
 
-S1：第一章；印刷页 15；OCR L591–606。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+本章程序暂无独立同范围Wikipedia—Wikidata配对。S2指定目录页与S3文章全文已读；未新增库存实物KU或正式交易边。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+[《瘟疫》](../works/plague-at-ashdod-1631.md)、[《春》](../works/poussin-spring-valguarnera.md)为具体作品导航，其身份及版本按各卡。S1第一章第15页L591–606及摘要保留；原始委托与购买关系集中在关系阶段按证据裁定，不能只因买家出现就定为commissioned_by。

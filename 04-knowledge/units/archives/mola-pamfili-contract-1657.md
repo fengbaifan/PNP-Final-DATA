@@ -4,7 +4,7 @@ name_en: "Contract Terms for Mola and Pamfili's Valmontone Project (1657)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/mola-four-elements-valmontone.md","note":"Valmontone 工程的材料分担条款；不宣称取得整份合同原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–319,505–506,514–519; print pp. 9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,44 +16,41 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 505–506,514–519; print pp. 13
+- citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "复用人物卡已有全文阅读，本次定向回读Valmontone合同方案、付款与诉讼段；重新保存原页正文。"
+  sentence_summary: "1300scudi合同方案未获签署；1658年底已绘若干部分；未完成Aurora由Cozza奉命毁去；诉讼至1664。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1657 年材料分担约定：Pamfili 供应所列颜料等，画家负担剩余颜色与纸张。相邻脚注载 300 scudi 定金和其余 1000 分期的工程付款；同工程信息可并读，但不声称已经比对为同一纸面合同。
+**中文：** 本章保存了莫拉与潘菲利瓦尔蒙托内工程的1657年材料分担及付款条款。外部研究明确指出莫拉提出的1300scudi合同方案未获潘菲利签署，因此这些约定和计划不能统一标为已签合同或已结清款项。[S1、S2]
 
-**English:** The 1657 materials arrangement assigns listed pigments to Pamfili and remaining colours and paper to the painter. A neighbouring note records a 300-scudi deposit and a further 1,000 in instalments for the project; this does not establish that both passages describe one physical contract.
+**English:** Chapter 1 records material-sharing and payment terms for Mola's Valmontone project with Pamfili in 1657. External scholarship states that Pamfili did not sign Mola's proposed 1,300-scudi contract, so the terms and proposal cannot all be presented as an executed contract or a settled payment. [S1–S2]
 
-### 已有信息
+### 文献与条款字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Contract Terms for Mola and Pamfili's Valmontone Project (1657) | S1；标题中的语境说明为登记用语 |
-| 付款与材料 | 300 scudi 定金＋1000 分期；材料分担条款与付款记载共同讨论，不断言同一纸本 | S1，支持范围见各条句意摘要 |
+| 当事人／工程 | Pier Francesco Mola；Camillo Pamfili；Valmontone装饰 | S1、S2 |
+| 来源所记年份 | 1657，材料安排 | S1 |
+| 文献形态 | 章内条款刊引；专业研究另述contratto-progetto／合同方案 | S1、S2 |
+| 方案总酬金 | 1300scudi；不是已全部支付或已签约总款 | S2 |
+| 付款安排 | 300scudi定金，余1000分期 | S1；不凭相邻引文断定同一纸本文书 |
+| 签署状态 | Pamfili未签Mola提出的方案但允许开工 | S2 |
+| 原件、日期、签名及馆号 | 本轮未取得 | 不以传记代替原档 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+### 材料分担
 
-### 材料条款的原文线索
+本章保留Pamfili供应项：`bianco macinato`、`pennelli`、`coccioli smaltirli`、`terra verde`、`verdetti`、`lacche fine`、`pavonazzo di sole`、`azzurro oltramare`；画家承担其余颜色、纸等。这里保留待校的OCR词形，尤其`coccioli smaltirli`不直接规范成某种现代颜料，也不把所有项目都归“颜料”。[S1]
 
-第一章第 13 页 L516–519 刊引 Pamfili 承担的一组材料，原 OCR 词形包括 `bianco macinato`、`pennelli`、`coccioli smaltirli`、`terra verde`、`verdetti`、`lacche fine`、`pavonazzo di sole`、`azzurro oltramare`；余下颜料、纸等由画家承担。这里保留检索词形，尤其 `coccioli smaltirli` 等须回核原合同或清晰扫描，未强制对应现代标准颜料名。这些材料项目不是八幅作品，也不自动成为八个有实物身份的知识元。
+### 执行与争议
 
-The quoted clause assigns the listed materials to Pamfili and the remaining colours, paper and other items to the painter. The terms above preserve OCR forms for checking; uncertain readings are not normalized into modern pigment identities or registered as individual physical objects.
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+截至1658年底，研究记Mola已完成若干房间／画面；他因报酬及未签方案争议离开，并提起“per mercede”诉讼，至1664结束且对其不利。作品已部分实施不等于全部条款被履行，诉讼结果也不能倒推原协商毫无效力。[S2]
 
 ## 关系与证据
 
-S1：第一章；印刷页 13；OCR L505–506,514–519。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+仍无独立Wikipedia—Wikidata配对。S1第一章第13页L505–506、514–519；S2本次定向回读Mola专业传记的方案、工作及诉讼段。原有工程主题关系保留；[四元素方案](../works/mola-four-elements-valmontone.md)与建筑、具体实物分开。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续核实原题与版本、责任者全名、写作／刊印日期、文本语言、载体、保存机构／号、转引链和适用研究。当前描述性标题或中文暂译不冒充档案原题；来源书所引文献不等于本次直接读过原件。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+原合同、诉讼文书及付款账簿未读；不能把方案总额当实付，也不能从分期数推断每期日期。来源中不确定材料词形保留待核，未开展第六章。

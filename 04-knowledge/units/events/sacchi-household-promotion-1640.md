@@ -3,7 +3,7 @@ title: "萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in t
 name_en: "Sacchi's Promotion in the Barberini Household (1640)"
 type: event
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/andrea-sacchi.md","note":"1640 年晋级事件的画家主体。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 195–198; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,38 +16,37 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 195–198; print pp. 7
+- citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed., ch. 1, p.7 note 1; bibliography, Incisa della Rocchetta (1924)."
+  location: "第一章02-sources/02-Markdown/01_CHP-1.md，OCR L229；书目02-sources/02-Markdown/21_CHP-21Bibliography.md，OCR L629"
+  sentence_summary: "家户等级叙述指向Giovanni Incisa della Rocchetta, Notizie inedite su Andrea Sacchi, L’Arte (1924), pp.60–76，所引p.70。本轮未读p.70原页。"
+- citation: "Alessandra Cosmi, SACCHI, Andrea, Dizionario Biografico degli Italiani 89 (2017). https://www.treccani.it/enciclopedia/andrea-sacchi_(Dizionario-Biografico)/. Accessed 2026-09-11."
+  location: "已全文阅读；本事件仅采用1629起的Barberini赞助人身份段"
+  sentence_summary: "主要赞助人为Antonio junior；该传记不独立证明1640具体晋级或薪金额。"
 ---
 
 ## 内容
 
 ### 描述
+**中文：** 哈斯克尔记载：萨基在1637–1640年间处于小安东尼奥·巴贝里尼家户的较低等级，1640年进入有作家、诗人和秘书的最高受俸者行列。本轮追到书中所引的1924年研究，但未读到其第70页及原家户档案，晋级细节仍以本章为据。[S1–S3]
+**English:** Haskell reports that Sacchi occupied a lower rank in Antonio Barberini the Younger's household in 1637–1640 and entered its highest pensioned category in 1640, alongside writers, poets and secretaries. The cited 1924 study has been identified bibliographically, but its page 70 and the original household records have not been read. The promotion details therefore remain supported by the chapter. [S1–S3]
 
-**中文：** 萨基由 1637–1640 年所处较低等级进入 Antonio Barberini 最高受俸者行列。事件不能错配给 Francesco。
-
-**English:** Sacchi moves from the lower rank he occupied in 1637–1640 to Antonio Barberini's highest pensioners. The event must not be assigned to Francesco Barberini.
-
-### 已有信息
-
-| 项目 | 内容 | 依据 |
+### 事件字段
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Sacchi's Promotion in the Barberini Household (1640) | S1；标题中的语境说明为登记用语 |
-| 人物与家户 | Andrea Sacchi；Antonio Barberini；1640 晋级 | S1，支持范围见各条句意摘要 |
+| 名称性质 | 本项目对史事的描述性命名，不是史料所载正式事件名 | S1 |
+| 时间 | 较低等级：1637–1640；晋级：1640，月日不明 | S1 |
+| 主体 | Andrea Sacchi | S1 |
+| 所属家户 | Antonio Barberini the Younger；不替换为Francesco或年长Antonio | S1、S3 |
+| 地点 | 家户制度语境；本段未给具体房屋／举行地点，不补填宫殿名 | S1 |
+| 变化前 | 与三名奴隶、园丁、侏儒及老保姆同列；不等于萨基本人是奴隶 | S1原段 |
+| 变化后 | 最高受俸者类别，与作家、诗人、秘书同列 | S1 |
+| 薪酬金额 | 本段未列，不推算加薪数或百分比 | S1 |
+| 晋级原因／决策者 | 未核；不能从后来艺术评价倒推当时决定 | S1–S3 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 引文链与待核内容
+第一章第7页注1（L229）指向Incisa della Rocchetta1924 p.70；书目L629给出〈Notizie inedite su Andrea Sacchi〉、L’Arte、1924年、pp.60–76。[S2] 海德堡数字本对应页面请求返回验证页面，未获得可读原页；查到文献不等于已读证明。Cosmi传记只补助确认Antonio junior身份，不独立证实这次晋级的具体细节。[S3]
 
 ## 关系与证据
-
-S1：第一章；印刷页 7；OCR L195–198。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续补足确切时段、地点、参与者、事件经过、结果与后续变化；计划、规定、实施和撤回分别核实，不因标题带年份推定全过程发生于同年。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- 既有正式端点：[萨基](../persons/andrea-sacchi.md)、[小安东尼奥·巴贝里尼](../persons/antonio-barberini.md)，2条边原样保留；[家户语境](../institutions/barberini-household.md)是阅读入口。
+- S1为章页、行号与句子摘要；S2为本书注释／书目定位；S3为身份背景。没有用一般家户理论代替个案证据。
+- 本次补足处置完成至可达证据范围，**未增加独立外部事件事实，不计入详细外部补足覆盖数**。保留无Wiki配对；参与者QID不能替代事件QID。

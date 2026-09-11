@@ -1,9 +1,9 @@
 ---
-title: "朱斯蒂尼亚尼购藏的卡拉瓦乔退画（Caravaggio’s rejected altarpiece acquired by Giustiniani）"
-name_en: "Caravaggio’s rejected altarpiece acquired by Giustiniani"
+title: "《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）"
+name_en: "Saint Matthew and the Angel (first version)"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/caravaggio.md","note":"退画被明确归于 Caravaggio；具体实物版本尚未识别。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 349–353; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -22,38 +22,65 @@ sources:
 - citation: "Wikidata, Q577248, revision 2388333497. https://www.wikidata.org/wiki/Q577248. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "《圣马太与天使》Q577248 为具体退画候选；章中未具画题，本次读到的页段未完成 Giustiniani 收购链核对，不把候选改成既定题名。"
+- citation: "Wikipedia (en), Saint Matthew and the Angel, revision 1368793918. https://en.wikipedia.org/wiki/Saint_Matthew_and_the_Angel. Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
+  sentence_summary: "全文5174字符；1602退画与第二版分开，尺寸及风格段有版本混入风险；不采整页为单一无冲突对象说明。"
+- citation: "Wikidata Q577248, revision 2388333497. https://www.wikidata.org/wiki/Q577248. Accessed 2026-09-11."
+  location: "双向 sitelink／pageprops 与适用字段；含 rank、限定词、时间精度、单位及引用状态"
+  sentence_summary: "作者Q42207、年份1602、柏林馆号365；WD尺寸232×183厘米与馆记录不同，馆藏与原设礼拜堂亦须分清。"
+- citation: "Staatliche Museen zu Berlin, Gemäldegalerie, Der Evangelist Matthäus, Ident. 365, ObjID 870411. https://id.smb.museum/object/870411. Record updated 2025-12-15; accessed 2026-09-11."
+  location: "对象字段及对象说明全文；页面其余推荐藏品不属于此对象"
+  sentence_summary: "1602 年前后 Contarelli 礼拜堂退画，由 Vincenzo Giustiniani 收购，1815 年随藏品入柏林；馆记223×183厘米，战后失踪且推测1945年毁于弗里德里希斯海因防空塔。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 一幅因不适于原定地点而被拒的祭坛画，Giustiniani 为画廊购入。该段未命名，不擅定为卡拉瓦乔某一著名退画；须保持对象待精确消歧。
+**中文：** 本章朱斯蒂尼亚尼购入的卡拉瓦乔退画，现可由柏林绘画馆对象记录对应为《圣马太与天使》第一版。该画约1602年为罗马Contarelli礼拜堂制作，后入朱斯蒂尼亚尼收藏，1815年随藏品入柏林；馆方记战后失踪，推测1945年毁于防空塔。（S1、S4–S6）
 
-**English:** Haskell describes Giustiniani acquiring an altarpiece rejected for its intended setting and placing it in his gallery. Chapter 1 does not name the picture, so it is not merged with a familiar Caravaggio work on that basis alone.
+**English:** Berlin’s collection record identifies the rejected Caravaggio altarpiece bought by Giustiniani in this chapter as the first Saint Matthew and the Angel. Made around 1602 for Rome’s Contarelli Chapel, it entered the Giustiniani collection and was acquired for Berlin in 1815. The museum records it as missing since the war and probably destroyed in a flak tower in 1945. (S1, S4–S6)
 
-### 已有信息
+### 作品字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Caravaggio’s rejected altarpiece acquired by Giustiniani | S1；标题中的语境说明为登记用语 |
-| 对象状态 | 原安置处拒收后被 Giustiniani 购藏；题名未明 | S1，支持范围见各条句意摘要 |
+| 规范题名 | 圣马太与天使（第一版）／Saint Matthew and the Angel (first version) | S4；第一版为区分标记 |
+| 馆藏题名 | Der Evangelist Matthäus／The Evangelist Matthew | S6 |
+| 创作者 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S5 P170、S6 |
+| 时间 | 约1602；S6结构字段vor1602，说明正文写1602，两者差异保留 | S4–S6；WD P571年精度，不造1月1日 |
+| 创作／原设地点 | 罗马法国圣路易堂Contarelli礼拜堂祭坛 | S4、S6 |
+| 媒介 | 布面油画／oil on canvas | S4–S6；WD油彩、画布及support限定分开 |
+| 尺寸 | **223×183厘米，以柏林本对象记录为当前采用值** | S6；WD232×183，WP295×195均保留为异文 |
+| 馆藏标识 | 柏林绘画馆365；ObjID870411 | S5–S6 |
+| 当前状态 | 馆方记战后失踪；推测1945年5月毁于柏林Friedrichshain防空塔 | S6；不写成可在展厅观看 |
+| 图像描述 | 天使靠近圣马太、引导其书写，圣人赤足；现存照片可见构图，现代上色图不证明原作准确颜色 | S4、S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 委托、收藏及流传
 
+- **原委托语境：** Contarelli礼拜堂祭坛；馆方结构字段列Matteo Contarelli，但其1585已卒，不能写作他本人1602亲自下单。（S6）
+- **退画与购入：** 馆方记教会团体拒收，Vincenzo Giustiniani买入，并以给予画家另绘版本机会为条件。购买者不是该画原始委托人。（S6）
+- **1815：** 随朱斯蒂尼亚尼收藏购入柏林；年份来自本对象收购字段。（S6）
+- **1945及其后：** 馆方推测毁于防空塔，保留“推测”与“失踪”措辞；现存礼拜堂第二版不能填作本画如今存放地。（S6）
 
-### 初步对齐（REV-034，2026-09-10）
+### 评价与研究线索
 
-**候选待证。** 《圣马太与天使》Q577248 为具体退画候选；章中未具画题，本次读到的页段未完成 Giustiniani 收购链核对，不把候选改成既定题名。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+馆方以当时对使徒尊严和表现方式的要求解释拒收，同时指出Baglione传记叙述带有立场；这不等于已经找到完整拒收决定原件。百科风格段出现第一、第二版混写，未据其为本画扩写风格结论。（S4、S6）
 
 ## 关系与证据
 
-S1：第一章；印刷页 10；OCR L349–353。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份配对
 
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+[Wikipedia：Saint Matthew and the Angel](https://en.wikipedia.org/wiki/Saint_Matthew_and_the_Angel) ↔ [Wikidata Q577248](https://www.wikidata.org/wiki/Q577248)双向一致；年代、作者、退画、Giustiniani购入以及柏林馆号365共同支持对应。S6补齐此前缺少的收购链，故本轮由候选转为身份配对通过；source_backed不提升为全卡事实全部已验证。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S4全文5174字符已读，包括图注及书目；S5适用值、量纲和所引QID标签已核；S6对象字段与对象说明已读。
+
+### 已有关系及导航
+
+- [卡拉瓦乔](../persons/caravaggio.md)：文件头created_by。
+- [文琴佐·朱斯蒂尼亚尼](../persons/marchese-giustiniani-ch1.md)：既有associated_person说明购藏，不是commissioned_by。
+- 文件头旧note仍保存此前“版本尚未识别”的阶段表述，本轮新判定在此及过程记录说明；正式边与旧note在统一关系阶段更新。
+
+### 未决
+
+尺寸三源不一，采用该物馆藏记录并保留异文；原作损毁状态仅有馆方推测。拒收决定、原始支付、购买日期及完整流传原件未读。S1仍保留原章未具名的原始摘要，不以新题名篡改原来源文字。S编号按文件头顺序。

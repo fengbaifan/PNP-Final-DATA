@@ -3,7 +3,7 @@ title: "基督骑士荣衔（Cavaliere dell’abito di Cristo）"
 name_en: "Cavaliere dell’abito di Cristo"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,38 +13,45 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 774–777; print pp. 19
+- citation: "Wikipedia (en), Supreme Order of Christ, revision 1368726900. https://en.wikipedia.org/wiki/Supreme_Order_of_Christ. Accessed 2026-09-11."
+  location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
+  sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
+- citation: "Wikidata, Q735298, revision 2529459168. https://www.wikidata.org/wiki/Q735298. Accessed 2026-09-11."
+  location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
+  sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
+- citation: "Erich Schleier, “LANFRANCO, Giovanni”, Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "选读1625—1628年圣彼得工程及授勋段，未读整篇传记"
+  sentence_summary: "1628年10月11日Scaglia向兰弗兰科授章；荣誉授予者为乌尔班八世。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本章用于说明十七世纪中叶艺术家常见的荣誉承认；没有列名者不自动标为获得此衔。
+**中文：** Cavaliere dell’abito di Cristo 是本章用于艺术家荣誉承认的基督骑士称谓。教皇体系内存在具体授予案例，但这一历史称谓不能未经辨析直接等同于现代最高基督勋章的全部制度。
 
-**English:** Haskell describes this knighthood as a familiar artistic honour by the middle of the seventeenth century. The general discussion does not establish an award to any unnamed individual.
+**English:** Cavaliere dell’abito di Cristo is the knighthood named in the chapter as a form of artistic recognition. Individual papal grants are documented, but the historical title cannot be equated without qualification with the entire modern institution of the Supreme Order of Christ.
 
-### 已有信息
+### 名称与性质
 
-| 项目 | 内容 | 依据 |
-|---|---|---|
-| 名称／对应英文 | Cavaliere dell’abito di Cristo | S1；标题中的语境说明为登记用语 |
-| 称谓性质 | 骑士荣衔；个别受衔者须另有证据 | S1，支持范围见各条句意摘要 |
+- 原语：Cavaliere dell’abito di Cristo；本项目中文译名“基督骑士荣衔”为说明性译名。[S1]
+- 类型：授予个人的骑士荣衔，不是人物职业，也不是机构实体本身。[S1]
+- 本章时期：十七世纪中叶已较常见；此概括不证明每位艺术家均获授。[S1]
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 具体事例与制度边界
 
+- 兰弗兰科：乌尔班八世授予荣誉；1628年10月11日由Scaglia交付荣章。将授予者与授章者分开。[S4]
+- Wikipedia的 Supreme Order of Christ 页介绍教皇体系与葡萄牙体系的分化，并列出现代改革；1905年的等级规定、1966年的适用限制不倒置为十七世纪规则。[S2]
+- 页面成员清单可作检索线索，但不能仅凭未充分引证的列表给本章人物批量添加获衔属性。[S2]
 
-### 初步对齐（REV-034，2026-09-10）
+### 对齐
 
-**尚无配对。** 术语已有本章语义依据；登记名未命中可确认的 Wiki 配对，待按原词、历史含义及概念粒度继续查询，不能以现代相近概念强配。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+**候选有范围差异，尚无本术语的确认配对。** [Wikipedia候选页](https://en.wikipedia.org/wiki/Supreme_Order_of_Christ)与[Q735298](https://www.wikidata.org/wiki/Q735298)指向勋章机构；本卡保存历史个人称谓。候选双向链接相符不消除对象粒度差异，不导入该机构的成立、等级或现任管理属性。[S2–S3]
 
 ## 关系与证据
 
-S1：第一章；印刷页 19；OCR L774–777。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续核实术语原语、适用时期、定义及异义、用法与研究来源。章内语境的概括不自动成为跨时期定义，不预先挂载 Topic、Theme 或更高层级。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+- S1：第一章，印刷页19，OCR L774–777，支持章内用法。
+- S2–S3：候选页全文及WD记录，支持制度边界判断；不是本术语已配对。
+- S4：Erich Schleier的兰弗兰科传记选读段，支持授章个案；原授予文书未读。
+- 当前无正式关系。可交关系阶段核对兰弗兰科获衔事实，不能把无名概括连接到全部人物。
+- 未决：历史称谓与各时期勋章制度的精确法律对应、授予文书、具体权利。状态维持 source_backed。

@@ -1,10 +1,10 @@
 ---
-title: "潘菲利在瓦尔蒙托内的乡间宅邸（Pamfili's Country House at Valmontone）"
-name_en: "Pamfili's Country House at Valmontone"
+title: "瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）"
+name_en: "Palazzo Doria-Pamphilj, Valmontone"
 type: place
 sub_type: building
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/valmontone.md","note":"建筑位于 Valmontone，建筑与城市分别建模。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,38 +16,67 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
+- citation: "Wikipedia (it), Palazzo Doria-Pamphilj (Valmontone), revision 145152833. https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone). Accessed 2026-09-11."
+  location: "对象页全文3979字符已读，包含信息框、正文、图注、注释和书目。"
+  sentence_summary: "只采与本章对象有关且经语义判断的内容，异文与不采用字段见卡。"
+- citation: "Wikidata Q16586138, revision 2539212564. https://www.wikidata.org/wiki/Q16586138. Accessed 2026-09-11."
+  location: "itwiki双向一致；P31/P131/P625/P84及官网归档限定，建筑师标签已核。"
+  sentence_summary: "Valmontone具体宫殿，不是Rome同名宫；坐标41.77633/12.91863，Molli与Del Grande无时间限定须补官网分期。"
+- citation: "Museo di Palazzo Doria Pamphilj, Il Museo di Palazzo Doria Pamphilj. https://www.palazzodoriapamphiljvalmontone.it/il-museo-di-palazzo-doria-pamphilj/. Accessed 2026-09-11."
+  location: "7614字符正文全文已读，含考古、建筑、各房间装饰与图注；不等于实地或影像鉴定。"
+  sentence_summary: "1651购入、1654建新宫、约1670完成；Molli及1666起Del Grande；現存空气厅Preti1661，Mola现存America和Africa两室1658–59。"
+- citation: "Pro Loco Valmontone, Palazzo Doria Pamphilj. https://www.prolocovalmontone.it/it/attivita/palazzo-doria-pamphilj/. Accessed 2026-09-11."
+  location: "全文历史说明已读，包括建筑、1948赠与信、1987使用协议和修复；未读原产权契约。"
+  sentence_summary: "1948-05-09Alfonso致市政府附条件赠宫；1987协议是大学使用权，不作为大学取得所有权。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 此处指 Mola 四元素装饰所在的建筑，区别于 Valmontone 城市和画作本身。第一章未给建筑完整历史、设计者或今日名称，不从第六章引入信息。
+**中文：** 瓦尔蒙托内多利亚·潘菲利宫是卡米洛·潘菲利在1651年购入领地后重建的宫殿，内有多位画家参与的装饰。本章所称乡间宅邸可据地点、委托人与莫拉工程识别为这座建筑，区别于罗马的同名宫殿和现存博物馆机构。[S1–S5]
 
-**English:** This building houses Mola's Four Elements decoration and is distinct from the town and paintings. Chapter 1 supplies neither a complete building history nor a designer or modern name; chapter 6 is not used to fill those gaps.
+**English:** Palazzo Doria-Pamphilj at Valmontone was rebuilt after Camillo Pamphilj acquired the fief in 1651 and contains decoration by several artists. Its location, patron and Mola project identify it as the country residence discussed in Chapter 1, distinct from similarly named palaces in Rome and from the museum institution now housed within it. [S1–S5]
 
-### 已有信息
+### 名称、位置与建筑字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Pamfili's Country House at Valmontone | S1；标题中的语境说明为登记用语 |
-| 建筑与作品 | Valmontone；Mola 四元素装饰所在建筑 | S1，支持范围见各条句意摘要 |
+| 通用名 | Palazzo Doria-Pamphilj (Valmontone)／瓦尔蒙托内多利亚·潘菲利宫 | S2–S5 |
+| 原章名称 | Pamfili's country house at Valmontone，描述性称谓 | S1 |
+| 地点／坐标 | Valmontone；北纬41.77633、东经12.91863 | S3 |
+| 建筑类型 | 贵族宫殿，块状形体保留堡垒式外观 | S2、S4 |
+| 设计师 | Benedetto Molli（Q23658637）；1666年起由Antonio Del Grande（Q3619519）接续 | S3无时间限定；分期依S4、S5 |
+| 建造时间 | 1654启动新宫，约1670完成；前身拆除从1652年进行 | S4；不把一次阶段完成等同全部完工 |
+| 现用途 | 博物馆、公共文化及市政服务空间；2003起开设现有博物馆 | S4、S5 |
+| 所有权现况 | 意大利WP列Città di Valmontone；当地资料提供1948附条件赠与线索，未读原产权契约 | S2、S5 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 分期沿革与权利变化
 
+| 时间 | 变化 | 依据／限定 |
+|---|---|---|
+| 前身 | Conti、Sforza及Barberini时期城堡／领地背景 | S4、S5；不补未核的每次精确过户日 |
+| 1651年 | Camillo从Barberini获得Valmontone领地 | S4；S5具名Francesco |
+| 1652–约1670年 | 拆旧、建新、接续营建；“Città Panfilia”是更广都市计划 | S4 |
+| 1658–1661年 | 宫内现存主要装饰周期，多人参与 | S4 |
+| 19世纪后半叶 | Andrea Busiri Vici指导重要改动 | S5 |
+| 1944年 | 战争中严重受损 | S2、S5 |
+| 1948年5月9日 | Alfonso Pamphilj致市政府附条件赠宫信；保留为当地记述的法律文书线索 | S5；非原信已读 |
+| 1987年 | 与La Sapienza大学签订25年使用协议 | S5；不当大学取得所有权 |
+| 2003年及以后 | 博物馆及文化服务使用，继续修复 | S4、S5；不填当前工程完工日 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 装饰与对象边界
 
-**尚无配对。** 英文描述名和意大利语限定 Valmontone 的宫殿名均未命中；不采用 Rome 的 Doria-Pamphilj 宫 Q385387 或城市 Q243514 替代乡间宅邸。
+馆方区分：火厅Cozza、空气厅Preti1661、水厅Courtois、土厅Tassi；美洲和非洲小室为Mola1658–59现存作品。土厅在当地另一资料中为归属，保留措辞差别。四元素、四洲、建筑和博物馆不是同一个知识元。[S4、S5]
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+第一章[Mola四元素方案](../works/mola-four-elements-valmontone.md)及[空气方案](../works/mola-air-valmontone.md)不等于现存整套装饰；不能以其方案署名覆盖其他作者。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 身份对齐
+
+本轮新增确认：[意大利语Wikipedia](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone))的wikibase_item为[Q16586138](https://www.wikidata.org/wiki/Q16586138)，其itwiki反向链接一致，建筑名、城市及工程语境吻合。英文检索未有适用页，转意大利语；全文3979字符已读。不是Rome的Q385387或城市Q243514。
 
 ## 关系与证据
 
-S1：第一章；印刷页 9；OCR L312–319。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+S1第一章第9页L312–319；S2–S5新资料。保留既有位于Valmontone的关系，其他正文链接为导航。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+WP记主要建设1653–58、信息框1652–70，馆方记1654–约1670；采用馆方分期，保留差异。WP把博物馆全限底层及部分出土物年代／修复状态的旧表述未采用。365房间、总面积等未作为必要字段导入；历史产权和工程原档仍待核。

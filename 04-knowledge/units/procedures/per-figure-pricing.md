@@ -3,7 +3,7 @@ title: "按主要人物数量计价（Pricing by principal figures）"
 name_en: "Pricing by principal figures"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9, 10.'
@@ -27,38 +27,41 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 548–552; print pp. 14
+- citation: "National Gallery of Art, Italian Paintings of the Seventeenth and Eighteenth Centuries, Guercino entries, pp.163,167–169. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/italian-paintings-17th-and-18th-centuries.pdf. Accessed 2026-09-11."
+  location: "PDF页索引181、185–187；正文及注5–13完整读取，账簿原件未读"
+  sentence_summary: "1649预付款、两半身人物、付款金额涂改及同题移转；1653中介担保免预付款的书信转述。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 以主要全身人物而非背景人物计价，Domenichino/Lanfranco 和 Guercino 的具体报价不同；可能受声望与客户身份影响。
+**中文：** 某些艺术委托按主要人物的数量和表现范围协商报酬，不能把画面所有人物机械乘以一个通用单价。本章突出主要全身人物，外部账簿刊引也见半身人物约定。（S1–S4）
 
-**English:** Some painters priced pictures by principal full-length figures rather than every background figure. Rates could vary with reputation and client. The chapter's examples do not supply a single price schedule applicable to all painters.
+**English:** Some commissions related the agreed price to the number and extent of principal figures. This does not justify multiplying every figure by a universal rate. Haskell emphasises principal full-length figures, while published account-book evidence also records half-figure arrangements. (S1–S4)
 
-### 已有信息
+### 程序字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Pricing by principal figures | S1、S2、S3；标题中的语境说明为登记用语 |
-| 计价对象与条件 | 主要完整人物；背景人物不等同计价；随声誉及客户调整 | S1、S2、S3，支持范围见各条句意摘要 |
+| 参与方 | 画家、委托人；代理参与须有具体证据 | S1–S4 |
+| 前提 | 双方约定哪些人物计入价格及表现范围 | S1–S4 |
+| 输入 | 主要人物数、全身／半身、媒介及工程条件、币种、报价 | S1–S4 |
+| 输出 | 个案议定价或未被接受的报价；不自动等于实收 | S2–S3 |
+| 条件变体 | 背景与主要人物区别；声誉、客户关系和完成要求可能影响议价 | S1–S4 |
+| 证据层次 | 报价、同意、账簿入账、付款证明分别保存 | 对材料行为的组织 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 章内实例与外部边界
 
+- Camassei约定有八个主要人物，不把配角或背景人数同等计费。（S1）
+- Domenichino的130与Lanfranco的100ducats是各自情境的报价；不组成统一价目表。（S2）
+- Guercino提出125而不愿接受80是议价材料，不能记作80或125已经实收。（S3）
+- NGA刊引Guercino账簿出现两半身人物约定，说明全身并非所有此类安排的必需条件；目录同时保留题名与款项变化，故不能从现存画面反算每一人物的实际收入。（S4）
 
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 这是根据章中语义登记的操作惯例；登记名未命中独立 Wiki 配对，不以宽泛技术／商业概念替代本章步骤。交补足核定义和适用范围。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+程序上先识别报价对象与计量范围，再读约定及支付材料；这只是证据的阅读顺序，不补造历史中每项必经的步骤。未取得足够材料时保留未议定、未执行或未知。（S1–S4）
 
 ## 关系与证据
 
-S1：第一章；印刷页 9, 10；OCR L320–321,335–338；S2：第一章；印刷页 13；OCR L498–502；S3：第一章；印刷页 14；OCR L548–552。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+本程序尚无范围一致的独立Wikipedia—Wikidata配对；不借用广义pricing概念。NGA相关正文、注释已读，原账簿未读；数据转述与学者解释分开。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
-
-**待对齐与补足：** 后续按实际材料补足参与角色、前提、步骤、输入输出、条件变体和例外，并区分合同规定与实际执行。这里的程序是来源描述的历史做法，不是本项目自动执行流程。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+S1–S3章页、跨页行号及摘要保留；暂无正式关系。[定金](../terms/caparra.md)、[委托付款](commission-payment.md)为相邻行为导航。币种和折算只在材料明确说明时记录，不建立跨委托统一汇率。

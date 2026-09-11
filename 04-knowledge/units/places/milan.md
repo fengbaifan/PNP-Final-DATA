@@ -3,7 +3,7 @@ title: "米兰（Milan）"
 name_en: "Milan"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -19,38 +19,53 @@ sources:
 - citation: "Wikidata, Q490, revision 2529555790. https://www.wikidata.org/wiki/Q490. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Milan／Milano 城市，符合艺术家学习旅行语境。"
+- citation: "Wikipedia (en), Milan, revision 1373568393. https://en.wikipedia.org/wiki/Milan. Accessed 2026-09-11."
+  location: "正文、信息框、表格、图注、注释及书目全文147366字符；不含导航模板"
+  sentence_summary: "补城市名称、地理与历史文化背景。城市、都会区及政权分别；排名、现代统计、无引传说不导入。早期现代段首轮输出截断已单独补读。"
+- citation: "Wikidata Q490, revision 2529555790. https://www.wikidata.org/wiki/Q490. Accessed 2026-09-11."
+  location: "enwiki；P17/P131限定时期、P625、P571精度及限定词、P1448/P1705、P2044、P1667"
+  sentence_summary: "身份互链一致；采用名称及位置。海拔138与WP120/122不同，建城约前600与WP前590不同；无引精确历史界线不机械采用。"
+- citation: "Treccani, Italia. https://www.treccani.it/enciclopedia/italia/. Accessed 2026-09-11."
+  location: "复用本轮已读Storia moderna中3 aprile 1559整段，不是全文"
+  sentence_summary: "1559年政治格局中米兰公国列为西班牙直接领有地；属于历史政权背景，不把公国视为城市同义名。"
 ---
+
 
 ## 内容
 
 ### 描述
 
-**中文：** Bonati 获资助学习行程中列出的城市；不追加未经章内支持的停留日期。
+**中文：** 米兰（Milan；意大利语Milano）位于意大利北部波河平原。本章将它列为皮奥资助博纳蒂学习旅行的城市之一；历史公国与城市地点分开登记，具体访问日期、作品和地点尚未由该段确定。
 
-**English:** Milan is listed among the destinations of Bonati's funded study journey. No dates of residence unsupported by the chapter are added.
+**English:** Milan (Italian: Milano) is a city in the Po Valley of northern Italy. This chapter names it as a destination of Bonatti's study journey funded by Pio. The city is distinguished from the historical duchy; this passage establishes no dates, works studied or particular sites visited.
 
-### 已有信息
+### 名称与位置
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Milan | S1；标题中的语境说明为登记用语 |
-| 本章活动 | Bonati 获资助行程，日期未载 | S1，支持范围见各条句意摘要 |
+| 中文／英文／意大利文 | 米兰／Milan／Milano | S1–S5 |
+| 历史名形 | Mediolanum；Medhelanon为古代名称线索 | S4；词源有不同解释，不定为单一结论 |
+| 对象类型 | 城市地点；不是米兰公国、行政都会区或某个宫廷 | S1、S4–S6 |
+| 地理位置 | 北部意大利、波河平原西北部，Alps南侧 | S4 |
+| 现代定位坐标 | 约45.46694°N，9.19000°E | S5 P625；示意定位，不是十七世纪城市边界 |
+| 现代行政参照 | Lombardy；Metropolitan City of Milan | S4；不回投本章时代 |
+| 海拔 | 暂不采用单一值 | WD138m，WP信息框120m、地理段最高点122m，基准未核 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 历史及文化背景
 
+- **1395年：** Visconti获公爵头衔；城市不是由此年才开始存在。（S4）
+- **十六至十七世纪：** 处于西班牙统治的米兰公国背景。Treccani在1559年格局中明确把米兰公国列为西班牙直接领有地；WP另记1556年哈布斯堡分支继承，不把两个年份当作同一种建立事件。（S4、S6）
+- **十七世纪：** Borromeo家族教会及文化赞助、Ambrosiana图书馆与绘画收藏为理解艺术环境的线索；不据其存在便认定Bonatti曾参观。（S4）
+- **1706年及1713–1714年：** 军事控制变化与条约确认分开，不能写作单一无差别政权转移日。（S4）
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** Milan／Milano 城市，符合艺术家学习旅行语境。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Milan) 的 wikibase_item 与 [Wikidata Q490](https://www.wikidata.org/wiki/Q490) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+WP现代博物馆的藏品所在地不能倒推为Bonatti旅行时的可见作品。现代人口、都会区面积、产业、旅游排名及交通不纳入本章知识内容。
 
 ## 关系与证据
 
-S1：第一章；印刷页 6；OCR L186–187。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+**S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)与[学习旅行](../procedures/patron-funded-study-travel.md)为章内关联；未新增正式关系。城市列举不是行程顺序。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[Wikipedia](https://en.wikipedia.org/wiki/Milan)与[Wikidata Q490](https://www.wikidata.org/wiki/Q490)互链仍一致。S4全文已读；S5提取适用字段并核对限定词、时间精度、rank及引用。P17的多种历史政体不是城市同义名；P571约前600的限定不支持确切建城年，WP约前590亦未独立核定。Getty TGN 7005903仅为WD提供的待核入口，原站未读。
 
-**待对齐与补足：** 后续补足规范中英文及原语名、历史名称、位置和历史政治归属；建筑另核设计师、建造／改造时间、各时期名称及所有权。已有章内联系不能代替地理、设计和沿革证据。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+WP内部大教堂规模排名及海拔不一致，未采用；将Hayez放入十七／十八世纪巴洛克语境的表述亦不采用。相关研究入口为Evelyn S. Welch《Art and Authority in Renaissance Milan》（1995），仅已读WP书目，未读书本。
+
+详细内容稿已保存；具体学习日期、观看对象、历史城区范围与精确政权转移证据尚待补，source_backed不变。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

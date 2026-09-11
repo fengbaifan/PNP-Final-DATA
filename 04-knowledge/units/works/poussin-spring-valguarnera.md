@@ -3,7 +3,7 @@ title: "普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commi
 name_en: "Poussin’s Spring commissioned by Valguarnera"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"与安排完成《瘟疫》不同，这是全新委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,38 +15,62 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 599–601; print pp. 15
+- citation: "Wikipedia (en), The Empire of Flora, revision 1353624606. https://en.wikipedia.org/wiki/The_Empire_of_Flora. Accessed 2026-09-11."
+  location: "全文语义阅读：正文、信息框、图注及注释／书目；不含全部外链"
+  sentence_summary: "全文2667字符；1630/31德累斯顿作品，Smith旧Omodei说与后世Valguarnera说分开；不等同Triumph of Flora或Tiepolo同名作。"
+- citation: "SKD Gemäldegalerie Alte Meister, Nicolas Poussins Das Reich der Flora im Puschkin-Museum in Moskau. https://gemaeldegalerie.skd.museum/ausstellungen/poussin-puschkin/. Accessed 2026-09-11."
+  location: "2015展览公告与作品图注全文，非当前外借状态"
+  sentence_summary: "1630/31布面131×181；花神与奥维德变形人物；2015借展、战后运莫斯科和1955返还须分时期。"
+- citation: "ICCD, L’Empire de Flore, print 0800437630, inv.1233. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0800437630. Record 2008; accessed 2026-09-11."
+  location: "网页对象及历史说明全文3991字符；附件未读"
+  sentence_summary: "Audran反向复制版画另物；历史说明明确原画1630–31为Fabrizio Valguarnera制作，1722Le Plat为Augustus II购入；版画媒材、馆号不得移到原画。"
+- citation: "Meg Butler, Nicolas Poussin and the Struggles of Gig Work, Getty, 2022-02-15. https://www.getty.edu/news/nicolas-poussin-and-the-struggles-of-gig-work/. Accessed 2026-09-11."
+  location: "图注及The Gentleman Jewel Thief段落；其余已读部分不扩入本卡"
+  sentence_summary: "将Realm of Flora与Valguarnera购买及普桑庭审证词相联系；所读为馆方介绍，非庭审原件。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Valguarnera 在安排完成《瘟疫》之外，另外委托的全新画作；不同于先有画稿的交易方式。
+**中文：** 本章《春》是瓦尔瓜尔内拉另向普桑订的新画，与要求完成已有《阿什杜德的瘟疫》不同。外部资料支持德累斯顿《花神的王国》于1630–1631年为同一赞助人制作；本轮将其列为有委托链支持的主要候选，尚未核对Costello原刊中的题名对应。（S1–S5）
 
-**English:** Valguarnera commissioned a new Spring while arranging completion of the already begun Plague at Ashdod. These are separate transactions; the chapter does not resolve the Spring's present identity.
+**English:** Haskell’s Spring was a new commission from Valguarnera, distinct from his arrangement to complete the already begun Plague at Ashdod. External sources identify Dresden’s Realm of Flora as a painting made for the same patron in 1630–1631. It is retained as a strong candidate pending the title correspondence in Costello’s original publication. (S1–S5)
 
-### 已有信息
+### 本章委托字段
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Poussin’s Spring commissioned by Valguarnera | S1；标题中的语境说明为登记用语 |
-| 交易性质 | 另订新作；与已有《阿什杜德的瘟疫》完成交易分开 | S1，支持范围见各条句意摘要 |
+| 章中题名 | 春／Spring | S1 |
+| 创作者 | 尼古拉·普桑／Nicolas Poussin | S1 |
+| 委托人 | Fabrizio Valguarnera | S1 |
+| 交易方式 | 完全新订作品，区别于完成已有画稿 | S1 |
+| 原刊定位 | Haskell p.15注1指Costello pp.274–275 | 本轮回读OCR L613；原刊尚未读 |
+| 合同／实际费用 | 未核 | 不从同一赞助人的其他交易推入 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 主要候选：《花神的王国》（The Realm / Empire of Flora）
 
+| 字段 | 候选对象所获资料 | 依据 |
+|---|---|---|
+| 其他题名 | L’Empire de Flore；Das Reich der Flora | S2–S4 |
+| 时间／媒介 | 1630–1631，布面油画 | S2–S4 |
+| 尺寸 | 131×181厘米 | S2–S3；仅候选原画字段 |
+| 委托人链 | ICCD历史说明明确为Fabrizio Valguarnera绘制；Getty把Realm of Flora列入其购买及庭审语境 | S4–S5 |
+| 馆藏 | 德累斯顿历代大师绘画馆／Gemäldegalerie Alte Meister | S2–S5；2015莫斯科借展不改成今天永久藏于莫斯科 |
+| 图像 | 花神在园中舞蹈、散花，周围为奥维德《变形记》中死后化花人物 | S2–S3 |
+| 历史流传线索 | 1722 Le Plat在巴黎为Augustus II购入；二战后运莫斯科、1955返还德累斯顿 | 前者S4刊引，后者S3馆方；原交易文书未读 |
+| 复制与研究 | Gérard Audran反向复制版画；有Windsor预备素描线索 | S4；版画不是普桑原画，RCIN911983页面本次未返回可读对象正文 |
 
-### 初步对齐（REV-034，2026-09-10）
+### 版本与来源辨析
 
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+ICCD 0800437630是版画记录，馆号1233、纸上蚀刻／雕版及1677–1693范围全部属于版画，不归入普桑原画。仅采用其明确讨论原画的历史说明。（S4）
 
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+WP沿用John Smith（1837）认为为Omodei枢机制作的旧说，并列现代Valguarnera说；本轮采用后者作为候选的赞助依据，仍不因作品页题名没有Spring就删去章内原称。该候选也不等于普桑《花神的凯旋》或提埃波罗同名作。（S2、S4–S5）
 
 ## 关系与证据
 
-S1：第一章；印刷页 15；OCR L599–601。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+候选[Wikipedia：The Empire of Flora](https://en.wikipedia.org/wiki/The_Empire_of_Flora) ↔ [Wikidata Q11750116](https://www.wikidata.org/wiki/Q11750116)双向一致，但“本章Spring→候选实物”的完整题名链尚未核定，所以本卡仍未采用确认QID，不批量导入其属性。
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+S2全文2667字符、S3展览公告与图注、S4对象及历史说明已读；S5实际采用图注与The Gentleman Jewel Thief段，非庭审原件。Costello原刊和所引庭审仍待核，不能将另一未能访问论文记为已读。
 
-**待对齐与补足：** 后续区分委托、预案与实际完成，并补足适用的创作者身份、规范题名、时间、创作地点、材质技法、尺寸、图像／形制描述、赞助人、历次归属及存放地；争议归属、未明版本与来源时期馆藏不写成已确定或当今状态。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+文件头commissioned_by链接[瓦尔瓜尔内拉](../persons/fabrizio-valguarnera.md)保持；[普桑](../persons/nicolas-poussin.md)及[《阿什杜德的瘟疫》](plague-at-ashdod-1631.md)为导航。S1章页／行号、句意摘要保留，待证仅约束具体版本对应，不取消章内委托事实。
