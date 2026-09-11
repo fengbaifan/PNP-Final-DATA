@@ -436,3 +436,43 @@ Titian NG传记各节已读，新闻稿仅The Artist节，支持1533获Charles V
 普罗卡奇尼WD去世地指玻璃厂而非城镇，排除该字段；卢蒂学院Prince与授骑士衔不合并；劳里与Claude Lorrain合作存在学术争议。布兰迪Poli／Rome／Gaeta生地及较新2015研究待核，莫兰迪入Arcadia采用DBI1699，装饰画布不改成壁画。奥达齐WP信息框混入Gaulli姓名，排除；努齐采用DBI罗马出生及Penna in Teverina迁居，配偶丧年1647／1648保留。切尔阔齐3月29日为遗嘱、4月3日补遗，非3月29日死亡；范拉尔受洗不当生日，画对采用馆方橡木板与配对号；瓦朗坦风俗画未唯一定位，不借同题作品QID。
 
 逐卡核对旧sources前缀、关系与状态保留、YAML和本地链接通过；人物亲缘、师承与评价分别归责。全文捕获、字段标签及写入指纹在同包evidence，临时检查文件已删除。仍有141卡未保存详细外部内容，继续推进后集中处理关系；未提交推送。
+
+### REV-052：五位画家与 Savini 姓名误记的连续补足
+
+原位更新乔万尼·安德烈亚·卡尔洛内、保罗·杰罗拉莫·皮奥拉、奇罗·费里、卡米洛·加瓦塞蒂、马里奥·明尼蒂及原路径 saverio-savini 六张人物卡，追加17条来源记录。前五张英文Wikipedia对象页全文已读，并复用双向身份配对与适用Wikidata字段；五篇Treccani／DBI传记分别按卡内范围全文或定向阅读。详细补足覆盖现为163/298（REV-052新增151），Wikipedia全文累计117页（110英文、7意大利文），来源记录1370条；配对168、未确认130、正式关系173条均不变。
+
+卡尔洛内采用DBI的1639年5月22日，保留Wikipedia的1626年、WD的1639年5月16日及Pascoli的1627年；S2旧登记修订号与本次实际全文版本不一致，只留历史。皮奥拉出生日6月30／9月30未裁定，死亡采用DBI的1724年12月4日并区分WD月精度。费里采用档案型传记的1633年9月3日及Antonio Auriga alias Ferri父名，保留1634与旧父名口径；圣阿涅塞原合同、续期及他人续成分开。加瓦塞蒂只确定1630年3月19日后失载，不采用Wikipedia／无引WD的确定1630卒年，也不以WD的Parma去世地压过DBI。明尼蒂的Augusta合同保留第一章1617与DBI据合同1618年6月13日之争，卡拉瓦乔朋友／模特叙述标为文献不足。
+
+第一章“Saverio Savini”经古比奥Sant'Ubaldo圣所指南的1608年3月25日委托、1610年交付和作品题材，与意大利文化遗产部门所载1581年Salvio Savini活动相互定位，当前在固定路径内规范为Salvio Savini，并保留Saverio作为原书误记。该人物仍无确认Wikipedia—Wikidata配对，不借用同名QID；身份修正来自年份、地点、合同和作品的语义同一，不把“notizie 1580–1610”误作生卒年。
+
+六卡未新增KU、复杂断言或正式边；原有三条正式关系及文件头机器记录保留。来源阅读、名称裁决和写入前后SHA256已追加到同包enrichment-evidence.jsonl，失败采集历史不覆盖。下一步继续处理尚无详细稿的135卡；全章补足收口后再集中进入关系阶段。
+
+### REV-052：普雷蒂、圭多蒂与里奇的连续补足
+
+原位补足 Mattia Preti、Paolo Guidotti、Sebastiano Ricci 三张人物卡，各追加英文Wikipedia全文、Wikidata适用字段和Treccani DBI传记三条来源。详细补足现为166/298（REV-052新增154），Wikipedia全文累计120页（113英文、7意大利文），全章来源定位1379条；配对168、未确认130、正式关系173条不变。
+
+三卡均先维持已通过的Wikipedia—Wikidata双向身份配对，再以DBI的档案与研究脉络裁决字段。普雷蒂采用DBI的1613年2月25日，保留Wikipedia／Wikidata的2月24日；早年多数游历未获文献确认，Lanfranco训练只记可能。圭多蒂采用约1560年和1629年3月10日，保留Wikipedia的1559年、旧Treccani的1569年及Wikidata的3月7／10日双值；1589年已有Cavalier称呼与1608年正式受封并获准加用Borghese姓分开。里奇保留Rizzi历史姓氏，师承采用现代研究较支持Mazzoni但保留Cervelli旧说；中毒、逃亡和重婚故事不当确定事实，1681年订婚／子女线索与1696年婚姻分项记录。
+
+Sebastiano Ricci卡的既有作品关系未新增端点或改变类型，只在note中补入DBI确认的1682年9月28日合同及作品失佚限制。三卡关系内容其余均作为有来源的候选与导航，交补足收口后的集中关系审查。写入前后SHA256和全文阅读长度已记enrichment-evidence.jsonl；三卡YAML、链接和正式关系一致性纳入本轮必要检查。下一步继续处理尚无详细稿的132卡。
+
+### REV-052：Antonio Ruffo与Carlo Maratta的连续补足
+
+原位补足Antonio Ruffo与Carlo Maratta两张人物卡，各追加英文Wikipedia全文、Wikidata适用字段和Treccani DBI传记三条来源。详细补足现为168/298（REV-052新增156），Wikipedia全文累计122页（115英文、7意大利文），全章来源定位1385条；身份配对168、未确认130、正式关系173条不变。
+
+Ruffo卡以DBI家系、婚姻、商业和收藏档案脉络纠正英文Wikipedia信息框：Bagnara公爵由长兄Francesco继承，Antonio取得的是Scaletta封地及亲王头衔。出生仅写约1610年、可能Messina；死亡采用1678年Messina，Wikipedia的6月16日保留为尚未回查RKD原记录的精确日。收藏、182封刊布通信及亲属代理网络已分字段，未将画家、代理、收信、委托、购藏和所有关系混为一类。
+
+Maratta卡采用Wikipedia与DBI一致的1625年5月18日，保留Wikidata并存的preferred 5月15日与普通值5月13日；Maratta／Maratti、Sacchi训练、家庭、两任配偶、女儿、学院职务、法国王室画家与1704基督骑士荣衔分开。绘画、绘图、工作室主持、修复、雕塑／建筑设计和收藏作为多标签能力保存；晚期助手参与、设计—制作分工及第一章150scudi报价均加限定，未借一般传记新建正式关系。
+
+两卡全文阅读长度与写入前后SHA256已追加enrichment-evidence.jsonl。下一步继续处理尚无详细稿的130卡；补足完成前不提前刷新发现或页面。
+
+### REV-052：Artemisia Gentileschi补足及Ruffo通信边界
+
+原位补足Artemisia Gentileschi人物卡，追加英文Wikipedia全文、Wikidata适用字段、Treccani DBI全文与National Gallery艺术家传记四条来源。详细补足现为169/298（REV-052新增157），Wikipedia全文累计123页（116英文、7意大利文），全章来源定位1389条；身份配对168、未确认130、正式关系173条不变。
+
+姓名按Artemisia Lomi Gentileschi保存，并区分惯用Gentileschi与父系Lomi。出生采用DBI、WD和Wikipedia主表一致的1593年7月8日，Wikipedia正文孤立的“档案出生证1590”因无可核档号且与同页冲突未接收。卒年采用National Gallery据新见文书支持的“1654年8月以后”，保留DBI的1652年旧推定和WD的1653年冲突，不用单一结构化值覆盖较晚证据。
+
+家庭字段分别记录父母、配偶、伴侣线索与子女。DBI具名四名子女，National Gallery／Wikipedia称五名，Wikipedia另列Agnola；Palmira是Prudenzia别名而非第六名子女，人数交原始洗礼与死亡记录。履历按Rome、Florence、Venice、Naples、London分期；Queen's House父女合作、早期归属及晚期工作室分工均保留证据差异。
+
+DBI支持1649—1650年与Antonio Ruffo密集通信、两项付款和拟议委托，卡内已加入Ruffo及活动地点KU的可点击导航。第一章本身只引信件为价格研究线索，没有具体金额；补足阶段未新增正式边，也未把通信、委托、付款、作品和赞助合成单一关系。原信、作品端点与金额待后续作品级补证及集中关系审查。
+
+英文Wikipedia抽取正文47316字符并完整阅读；DBI正文与书目、National Gallery艺术家传记均读完，所引原档与研究著作未冒称已读。写入前后SHA256及采用范围已记enrichment-evidence.jsonl；校验时另将Vasalli文献采集记录中误落为物理换行的书目文本转义回单行JSON，原文字段与语义未改，并追加record_repair说明。卡片YAML、旧来源前缀、链接和关系一致性纳入本轮必要检查。下一步继续处理尚无详细稿的129卡。

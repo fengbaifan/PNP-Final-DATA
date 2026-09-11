@@ -3,7 +3,7 @@ title: "乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）"
 name_en: "Giovanni Andrea Carlone"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
@@ -19,40 +19,80 @@ sources:
 - citation: "Wikidata, Q3106993, revision 2513805031. https://www.wikidata.org/wiki/Q3106993. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Giovanni Andrea／Andrea Carlone；英文页明确与 Costaguti 总管妹妹结婚，匹配独特关系语境；两站出生年有差异。"
+- citation: "Wikipedia (en), Andrea Carlone, revision 1333272172. https://en.wikipedia.org/w/index.php?title=Andrea_Carlone&oldid=1333272172. Accessed 2026-09-11."
+  location: "全文阅读导言、生平、作品、注释及参考书目；短条目；未把被引外链视为已读"
+  sentence_summary: "补足惯用名、家庭、训练、活动地及作品线索；页内出生年与专业传记冲突，未直接采用。"
+- citation: "Wikidata, Q3106993, revision 2513805031. https://www.wikidata.org/wiki/Q3106993. Accessed 2026-09-11."
+  location: "P569／P570／P19／P20／P106／P22／P3373／P463／P245 及 enwiki sitelink；读取适用值与引用状态"
+  sentence_summary: "支持身份、死亡日期、父亲和兄弟等结构化字段；出生日及政治归属与其他来源有差异，按字段限定。"
+- citation: "Paola Costa Calcagno, 'CARLONE, Giovanni Andrea,' Dizionario Biografico degli Italiani 20 (1977). https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "传记正文与 Fonti e Bibl. 全文；网页无印刷页"
+  sentence_summary: "支持父母、出生与死亡、生涯、圣路加学院及热那亚工程；保留 Pascoli 的不同出生年。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 被 Marchese Costaguti 的家庭总管视作适合其妹妹的配偶；婚姻关系仅涉及这位未具名总管的妹妹，不是侯爵之妹。
+**中文：** 乔万尼·安德烈亚·卡尔洛内是热那亚画家，先在父亲的工作环境中学习，后在佩鲁贾、罗马和热那亚从事宗教及宫殿装饰。第一章只以其与 Costaguti 家庭总管妹妹的婚姻说明艺术家的社会联系；这位配偶不是侯爵之妹。（S1、S4、S6）
 
-**English:** Costaguti's household steward considered Carlone a suitable husband for the steward's sister. She was not the marchese's sister.
+**English:** Giovanni Andrea Carlone was a Genoese painter who trained first in his father's milieu and later worked in Perugia, Rome and Genoa on religious and palatial decoration. Chapter 1 uses his marriage to the sister of the Costaguti household steward as evidence of an artist's social ties; she was not the marchese's sister. (S1, S4, S6)
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Gianandrea Carlone | S1；标题中的语境说明为登记用语 |
-| 亲缘边界 | 配偶语境涉及 Costaguti 家庭总管的妹妹 | S1，支持范围见各条句意摘要 |
+| 全名／惯用名 | Giovanni Andrea Carlone；Andrea Carlone | S4、S6 |
+| 来源名形 | Gianandrea Carlone；Carloni 为传记所见姓氏异形 | S1、S6 |
+| 身份 | 男性画家；不因家族出身自动赋予其兄弟或父亲的作品 | S5 P21/P106、S6 |
+| 出生日期／地点 | 1639年5月22日，热那亚；其他值见第三部分 | S6 |
+| 去世日期／地点 | 1697年4月4日，热那亚 | S5 P570/P20、S6 |
+| 历史归属 | 热那亚出身并主要在意大利诸地活动；WD 的 Switzerland／Rovio 项不作为出生国籍 | S5、S6 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘
 
+- 父亲：Giovanni Battista Carlone，画家，也是其早期训练来源。（S5、S6）
+- 母亲：Nicoletta Scorza。（S6）
+- 兄弟：Niccolò Carlone，画家；同父亲及本人与若干工程有关。（S5、S6）
+- 配偶：Costaguti 家庭总管 Perruchi／Perucchi 的未具名妹妹；本次来源没有核出她的姓名。（S1、S4）
 
-### 初步对齐（REV-034，2026-09-10）
+### 学习与职业履历
 
-**身份配对通过。** Giovanni Andrea／Andrea Carlone；英文页明确与 Costaguti 总管妹妹结婚，匹配独特关系语境；两站出生年有差异。
+| 时间 | 事项 | 地点／对象 | 依据 |
+|---|---|---|---|
+| 早期 | 随父亲学习，后经威尼斯并进入卡洛·马拉塔的罗马环境 | 热那亚、威尼斯、罗马；[卡洛·马拉塔](carlo-maratta.md) | S4、S6 |
+| 1656–1669 | 在佩鲁贾一带持续接受和完成宗教委托 | 佩鲁贾；Count Orazio Ferretti 等 | S6 |
+| 1673–1678 | 参与耶稣堂圣方济各·沙勿略礼拜堂装饰 | 罗马 Gesù | S6 |
+| 1674–1677 | 参与 Palazzo Altieri 装饰 | 罗马 | S6 |
+| 1675-09-11 | 获圣路加学院接纳 | 罗马 | S6 |
+| 1691–1692 | 参与 Palazzo Rosso 装饰 | 热那亚 | S6 |
+| 1694–1696 | 参与热那亚王宫装饰 | 热那亚 | S6 |
 
-名称记录：规范显示为 乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）；原登记名／来源名形 Gianandrea Carlone 保留为检索异名，不因显示更新改动稳定路径。
+### 作品与研究线索
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Carlone) 的 wikibase_item 与 [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+本次只登记上述工程及其已读传记范围，不将其称为作品全集。Paola Costa Calcagno 的 DBI 词条（1977）已全文阅读；Pascoli 等早期传记只经 DBI 或 Wikipedia 转述，未另读原文。（S4、S6）
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+### 本章相关内容
+
+第一章的婚姻叙述用于说明艺术家与显贵家户之间的社会距离。文本明确指家庭总管的妹妹，不能转写为 Costaguti 家族女性、侯爵妹妹或赞助关系。（S1）
 
 ## 关系与证据
 
-S1：第一章；印刷页 21；OCR L858–861。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+[Wikipedia（en）Andrea Carlone](https://en.wikipedia.org/wiki/Andrea_Carlone) 与 [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993) 的 sitelink 双向一致，姓名、职业、家庭与活动地能对应本章对象。S4 为本次全文阅读版本；S2 的旧登记修订号与实际取得的全文版本不一致，保留为初步对齐历史而不拿它支持新增字段。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 关系记录
+
+本卡目前没有正式关系。内容中的父亲、兄弟、老师和配偶为有据关联，但未因此新建端点或自动生成关系边。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 采用 DBI 的1639年5月22日；WD 为1639年5月16日，Wikipedia 为1626年5月16日，Pascoli 另作1627年，均保留异文，不合并为同一日期 |
+| 婚姻 | 第一章与 Wikipedia 支持配偶身份语境；DBI 本次全文未见该段，配偶姓名及婚姻日期待一手材料 |
+| 活动与作品 | 仅列本次已读传记能定位的节点；完整作品、分工、现藏状态和具体委托档案未核 |
+| 规范号 | WD 列 Getty ULAN 500029439，本次未读 Getty 原记录 |
+
+来源序号 S1–S6 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。

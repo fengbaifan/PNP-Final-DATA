@@ -1,9 +1,9 @@
 ---
-title: "保罗·吉罗拉莫·皮奥拉（Paolo Girolamo Piola）"
-name_en: "Paolo Girolamo Piola"
+title: "保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）"
+name_en: "Paolo Gerolamo Piola"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-11
 evidence_status: source_backed
 relations:
   - {"relation_type":"associated_person","target":"persons/marchese-pallavicini-piola.md","note":"1690 年要求住在这位保护人宫外；仅保留该居住协商语境。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 278–281; print pp. 8"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -28,38 +28,82 @@ sources:
 - citation: "Wikidata, Q3894101, revision 2513852338. https://www.wikidata.org/wiki/Q3894101. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
   sentence_summary: "Paolo Girolamo／Gerolamo Piola，1666–1724 年热那亚画家，曾赴罗马，契合 1690 年通信。"
+- citation: "Wikipedia (en), Paolo Gerolamo Piola, revision 1369968308. https://en.wikipedia.org/wiki/Paolo_Gerolamo_Piola. Accessed 2026-09-11."
+  location: "全文阅读导言、简传、作品例举及参考资料；短条目；未把被引外链视为已读"
+  sentence_summary: "补足热那亚身份、父亲、罗马学习与作品线索；精确日期交由字段来源分辨。"
+- citation: "Wikidata, Q3894101, revision 2513852338. https://www.wikidata.org/wiki/Q3894101. Accessed 2026-09-11."
+  location: "P569／P570／P19／P20／P106／P1066／P937／P245 及 enwiki sitelink；读取值、时间精度、rank 与引用"
+  sentence_summary: "支持身份、地点和活动区间；两个出生日期并存，死亡时间只有月精度，均未压成单值。"
+- citation: "Daniele Sanguineti, 'PIOLA,' Dizionario Biografico degli Italiani 84 (2015). https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/ Accessed 2026-09-11."
+  location: "家族词条中 Paolo Gerolamo 段及相关家族脉络全文阅读；网页无印刷页"
+  sentence_summary: "支持父亲与兄弟、罗马行程、马拉塔学习、热那亚职业节点和1724年死亡。"
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 热那亚画家，1690 年来罗马时争取不住同乡 Pallavicini 的宫殿；Giovanni Adamo 委托时只定尺寸，允许自行选择宗教或世俗题材。
+**中文：** 保罗·杰罗拉莫·皮奥拉是热那亚画家，多梅尼科·皮奥拉之子，曾在罗马研习卡拉奇作品并随卡洛·马拉塔学习。第一章记录他在1690年争取住在保护人 Pallavicini 宫外，以及在 Giovanni Adamo 的委托中获得题材选择空间。（S1–2、S5、S7）
 
-**English:** The Genoese painter sought residence outside Pallavicini's palace in 1690. Giovanni Adamo's commission set dimensions but allowed a religious or secular subject of Piola's choosing.
+**English:** Paolo Gerolamo Piola was a Genoese painter, the son of Domenico Piola, who studied works by the Carracci and trained with Carlo Maratta in Rome. Chapter 1 records his attempt in 1690 to live outside his protector Pallavicini's palace and the latitude Giovanni Adamo allowed him in choosing a subject. (S1–2, S5, S7)
 
-### 已有信息
+### 姓名与基本信息
 
-| 项目 | 内容 | 依据 |
+| 字段 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Paolo Girolamo Piola | S1、S2；标题中的语境说明为登记用语 |
-| 两项选择 | 1690 宫外居住请求；自行选择委托题材 | S1、S2，支持范围见各条句意摘要 |
+| 全名／名形 | Paolo Gerolamo Piola；Paolo Girolamo Piola 为本章登记和部分英语资料所见异形 | S1–3、S5、S7 |
+| 身份 | 男性画家 | S5、S6 P21/P106、S7 |
+| 出生 | 1666年，热那亚；日月存在异文 | S5–7 |
+| 去世 | 1724年12月4日，热那亚；死因为痛风系 DBI 叙述 | S6 P570/P20、S7 |
+| 历史归属 | 热那亚职业环境；不据现代地名直接填写国籍 | S7 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+### 亲缘与学习
 
+- 父亲：Domenico Piola，画家，也是早期职业环境的核心人物。（S5、S7）
+- 兄弟：Anton Maria Piola、Giovanni Battista Piola，均见家族词条的绘画活动。（S7）
+- 母亲：本次已读 Paolo 段未直接确认；家族词条中 Domenico 与 Maddalena Varzi 的婚姻须在成员关系层面再核，不直接回填。（S7）
+- 罗马学习：研习卡拉奇作品，并随 [卡洛·马拉塔](carlo-maratta.md) 学习。（S5、S7）
 
-### 初步对齐（REV-034，2026-09-10）
+### 职业履历
 
-**身份配对通过。** Paolo Girolamo／Gerolamo Piola，1666–1724 年热那亚画家，曾赴罗马，契合 1690 年通信。
+| 时间 | 事项 | 地点／对象 | 依据 |
+|---|---|---|---|
+| 1681 | 现存早期签名作品线索为临摹 Grechetto 的《耶稣诞生》 | 热那亚语境 | S7 |
+| 1684 | 随父亲出行并参与皮亚琴察工作 | 皮亚琴察 | S7 |
+| 1690-02-03 | 获准在约定尺寸内自选宗教或世俗题材 | Giovanni Adamo 的通信委托 | S2 |
+| 1690年春 | 赴罗马，受 Niccolò Maria Pallavicini 保护；同时争取住在宫外 | [Pallavicini](marchese-pallavicini-piola.md)、罗马 | S1、S7 |
+| 1693 | 随 Pallavicini 前往 Forlì、Loreto | 教廷行程语境 | S7 |
+| 1694 | 返回热那亚，继续家族作坊和本地委托 | 热那亚 | S7 |
+| 1710–1712 | 承接 Santa Marta 壁画合同与后续工作 | 热那亚 | S7 |
+| 1719 | 赴博洛尼亚、佛罗伦萨，为 Giacomo Filippo Durazzo 提供艺术咨询 | 博洛尼亚、佛罗伦萨 | S7 |
+| 1722–1724 | 承担后期壁画工程，部分由 Lorenzo De Ferrari 续成 | 热那亚 | S7 |
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Paolo_Gerolamo_Piola) 的 wikibase_item 与 [Wikidata Q3894101](https://www.wikidata.org/wiki/Q3894101) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+### 作品与研究线索
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+本卡只列已读家族传记中可定位的职业节点。1699年一项工程虽向 Paolo Gerolamo 支付预款，传记称主要由兄弟 Anton Maria 完成，因此不把付款人姓名机械转成唯一创作者。Sanguineti 的 DBI 家族词条已读相关人物段；其中引用的合同、税务申请及其他原档未逐件阅读。（S7）
+
+### 本章相关内容
+
+1690年宫外居住请求说明保护关系可以伴随协商，而题材选择也发生在尺寸等条件已给定的委托中。两项材料不证明画家完全独立于赞助安排。（S1–2）
 
 ## 关系与证据
 
-S1：第一章；印刷页 8；OCR L278–281；S2：第一章；印刷页 10；OCR L354–356,376。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+[Wikipedia（en）Paolo Gerolamo Piola](https://en.wikipedia.org/wiki/Paolo_Gerolamo_Piola) 与 [Wikidata Q3894101](https://www.wikidata.org/wiki/Q3894101) 的 sitelink 双向一致；姓名、热那亚身份、父亲与罗马经历共同支持本章对象配对。S5 为全文阅读，S6 按属性读取。
 
-**待对齐与补足：** 后续按身份逐项补足：全名及原名变体、称号／昵称／别名、荣誉与贵族头衔、生卒、国籍与历史政治归属、亲缘、教育及学术／职业履历、作品清单、评价者及相关研究著作论文。上文已知内容保留，未列项目表示本次章内证据尚不足，不表示没有该属性。 目前仍为 source_backed；本轮登记整理未开展外部补足，也未提升验证状态。
+### 关系记录
+
+正式关系保存在文件头：本卡人物 → [Marchese Pallavicini](marchese-pallavicini-piola.md)（`associated_person`），仅表示1690年保护及居住协商语境，由S1支持。父亲、兄弟、教师和其他职业接触尚未因此自动生成新边。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 仅采用1666年。WD并列6月30日与9月30日且各有不同来源；本次未取得能裁定日月的一手记录 |
+| 死亡日期 | DBI 给1724年12月4日；WD仅到1724年12月的月精度，不把两者说成完全相同精度 |
+| 亲缘 | 母亲、配偶、子女及完整兄弟姐妹仍待成员级证据；家族条目中的婚姻不可不经核对自动下传 |
+| 作品 | 仅列职业节点，不是作品全集；家族协作、续成及付款需逐作核查 |
+| 规范号 | WD 列 Getty ULAN 500014560，本次未读 Getty 原记录 |
+
+来源序号 S1–S7 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
