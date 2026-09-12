@@ -3,8 +3,10 @@ title: "保罗·圭多蒂（Paolo Guidotti）"
 name_en: "Paolo Guidotti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1605至1606年任书记、1619年任Prince，支持成员归属。","evidence_ref":{"doc_id":"dbi-guidotti","source_file":"https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/","source_span":"本卡 S6；学院职务段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
   location: 第一章；印刷页 14；OCR L535–537
@@ -85,13 +87,14 @@ Olga Melasecchi的DBI词条及其书目已全文阅读；条目所引学院档�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605至1606年任书记、1619年任Prince，支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/)；dbi-guidotti；本卡 S6；学院职务段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Paolo Guidotti](https://en.wikipedia.org/wiki/Paolo_Guidotti) 与 [Wikidata Q3894144](https://www.wikidata.org/wiki/Q3894144) 的 sitelink 双向一致；姓名、Cavalier Borghese称谓、Lucca—Rome轨迹和艺术身份均与第一章对象吻合。S4为全文阅读，S5为属性级读取。
-
-### 关系记录
-
-本卡暂未登记正式关系。第一章只记录圭多蒂关于“赠礼”和回礼的说法，没有点明某一回礼者；不能从一般性轶事推出具体赞助关系。与Scipione Borghese、Vincenzo Giustiniani、学院及家属的联系先保留在内容和证据中，待关系阶段逐条成边。
 
 ### 争议与待补
 

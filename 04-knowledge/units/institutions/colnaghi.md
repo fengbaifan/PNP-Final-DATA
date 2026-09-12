@@ -3,7 +3,7 @@ title: "科尔纳吉画廊（Colnaghi's）"
 name_en: "Colnaghi's"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/london.md","note":"书中所记 1961 年画商目录所在地。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -68,9 +68,15 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) 的 wikibase_item 与 [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 书中所记 1961 年画商目录所在地；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| ← 经手者（`handler_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 
 S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次Wikipedia全文；S5为WD字段核对；S6为机构自述历史。机构自述和Wikipedia对细节依赖各自来源，本轮未把其列举的每项交易当作独立验证。
 

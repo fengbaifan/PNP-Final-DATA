@@ -3,7 +3,7 @@ title: "谷地圣安德烈堂（S. Andrea della Valle）"
 name_en: "S. Andrea della Valle"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5, 6.'
@@ -113,6 +113,9 @@ sources:
 S4 书目列 Howard Hibbard，*The Early History of Sant’Andrea della Valle*（1961；《谷地圣安德烈堂早期史》，暂译）；*Carlo Maderno and Roman Architecture, 1580–1630*（1971）；Alba Costamagna、Daniele Ferrara、Cecilia Grilli，*Sant’Andrea della Valle*（2003）。仅已读书目条目，未读所列研究全文。WP引用的Haskell其他章节不算本章新增阅读。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 S1：**第一章，印刷页5、6，OCR L139–141、L147–152**；句意为蒙塔尔托接续已启动的工程。S2–S3为初步对齐，S4–S13为本次补足，编号按文件头sources顺序。
 

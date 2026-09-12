@@ -3,7 +3,7 @@ title: "多梅尼科·赞皮耶里（Domenico Zampieri）"
 name_en: "Domenico Zampieri"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"主要人物每位 130 ducats，排除背景人物。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 498–502; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -115,9 +115,17 @@ WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作�
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Domenichino) 的 wikibase_item 与 [Wikidata Q320118](https://www.wikidata.org/wiki/Q320118) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 教师（`teacher_of`，反向投影） | [安德烈亚·卡马塞伊（Andrea Camassei）](andrea-camassei.md) | Pascoli记其早期进入多梅尼基诺工作室；对其他大师作品的研习不作为亲授；角色：进入其工作室的学生／助手；范围：Pascoli早期训练叙述；不延伸到其他大师作品研习；原断言与证据见发出端卡片“安德烈亚·卡马塞伊（Andrea Camassei）”：[来源](https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/)；dbi-camassei；本卡 S8；早期训练段 |
+| ← 争执（`disputed_with`，反向投影） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](cardinal-borghese-ch1.md) | 与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese；角色：争执一方；范围：第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
+| → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 主要人物每位 130 ducats，排除背景人物；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
+| ← 由其任命（`appointed_by`，反向投影） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；原断言与证据见发出端卡片“卢多维科·卢多维西（Ludovico Ludovisi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
 
 ### 初步对齐与支持范围
 

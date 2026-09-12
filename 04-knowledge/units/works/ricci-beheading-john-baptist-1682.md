@@ -3,10 +3,11 @@ title: "里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading o
 name_en: "Ricci’s Beheading of Saint John the Baptist commission (1682)"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"institutions/confraternita-san-giovanni-battista-decollato-bologna.md","note":"善会为原文要求作画的委托人。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 326–328; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"created_by","target":"persons/sebastiano-ricci.md","note":"1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存。","evidence_ref":{"doc_id":"dbi-ricci","source_file":"https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/","source_span":"人物卡 S6；1682-09-28合同段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L326–328
@@ -59,9 +60,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [里奇《施洗者约翰斩首》的委托条款（1682）（Terms for Ricci's Beheading of Saint John the Baptist (1682)）](../archives/ricci-bologna-terms-1682.md) | 条款规定该委托对象的题材，不证明实际完成；原断言与证据见发出端卡片“里奇《施洗者约翰斩首》的委托条款（1682）（Terms for Ricci's Beheading of Saint John the Baptist (1682)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
+| → 由其委托（`commissioned_by`） | [博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John of the Florentines, Bologna）](../institutions/confraternita-san-giovanni-battista-decollato-bologna.md) | 善会为原文要求作画的委托人；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
+| → 创作者（`created_by`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](../persons/sebastiano-ricci.md) | 1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存；证据：[来源](https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/)；dbi-ricci；人物卡 S6；1682-09-28合同段 |
 
 S1：第一章；印刷页 9；OCR L326–328。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

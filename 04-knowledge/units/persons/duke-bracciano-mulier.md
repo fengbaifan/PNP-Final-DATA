@@ -3,7 +3,7 @@ title: "布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulie
 name_en: "Duke of Bracciano (Mulier’s patron)"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -49,6 +49,11 @@ sources:
 
 ## 关系与证据
 
-- 所保护的画家：[皮耶特罗·穆利耶尔](pietro-mulier.md)。人物卡已有指向本卡的关联，当前本卡未新增正式边；集中关系阶段可依据S3细化行为和出处。
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [皮耶特罗·穆利耶尔（Pietro Mulier）](pietro-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；原断言与证据见发出端卡片“皮耶特罗·穆利耶尔（Pietro Mulier）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
+
+- 所保护的画家：[皮耶特罗·穆利耶尔](pietro-mulier.md)。正式事实仍由画家卡发出，本卡通过反向导航显示；现有词表没有单独“保护人”谓词，不复制第二条泛化边。
 - S1：第一章第7页L231–233；S2：Rijksmuseum现代传记赞助人段；S3：Pascoli1730卷1pp.177–184，实际读OCR，原扫描图像未逐页复核。
 - **Wikipedia／Wikidata：未确认配对。** 现有证据增加了本章事件背景，但未解除具体身份阻断。继续查对应授衔、委托或离开罗马的原档；不能据爵号或时代重叠强选QID。

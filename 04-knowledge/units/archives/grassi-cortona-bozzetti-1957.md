@@ -4,7 +4,7 @@ name_en: "Grassi's Article on Cortona and the Bozzetti for the Doria Pamphili Ga
 type: archive
 sub_type: scholarly_article
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/cortona-doria-pamfili-modelli-disputed.md","note":"Grassi 论文主张的归属对象；论文存在不证明归属成立。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 461–463; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -59,9 +59,14 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | Grassi 论文主张的归属对象；论文存在不证明归属成立；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 461–463; print pp. 12 |
 
 S1：第一章；印刷页12；OCR L461–463。S2：同书书目；印刷页424；OCR L546–547。S3：意大利文化部《Bollettino d’Arte》全文PDF，pp.28–43，本轮逐页读完。归属、年代和风格判断均标为Grassi的论证，不提升为档案事实。
 

@@ -3,7 +3,7 @@ title: "同巢之鸟（Bentveughels）"
 name_en: "Bentveughels"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -50,6 +50,9 @@ sources:
 **本术语未绑定独立QID。** [Bentvueghels页](https://en.wikipedia.org/wiki/Bentvueghels) ↔ [Q514377](https://www.wikidata.org/wiki/Q514377)确认为组织，已由机构卡承接；不能重复把组织QID当作独立成员称谓实体。组织页的全部WD字段不导入本卡。[S2–S3]
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 - S1：第一章，印刷页20，OCR L819–833。
 - S2：组织对象页全文；S3：其WD记录，用于对象边界；S4：Phoebus Foundation展览介绍全文，补证罗马及北方艺术家语境。

@@ -3,7 +3,7 @@ title: "委托合同订立惯例（Commission contracting）"
 name_en: "Commission contracting"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8, 9.'
@@ -77,6 +77,9 @@ sources:
 仍无该历史惯例的独立Wikipedia—Wikidata确认配对；不以宽泛商业合同QID替代。已补入直接刊本文书支持的字段及文种边界。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 尚无正式关系。具体出处见S1–S5；[贝尔托洛蒂文献卡](../archives/bertolotti-artisti-bolognesi.md)保存版本、页码及原档引记。
 

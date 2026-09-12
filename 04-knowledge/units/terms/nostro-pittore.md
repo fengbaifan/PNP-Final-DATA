@@ -3,7 +3,7 @@ title: "本府画家（Nostro pittore）"
 name_en: "Nostro pittore"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -56,6 +56,9 @@ sources:
 当前补足明确词义及制度边界；未取得专属于本章称谓的Wiki双向配对。辞典只证明词义，不独立证明任命事实或其法律效力；后者依任命文献处理。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 | 语义入口 | 知识元 | 依据／状态 |
 |---|---|---|

@@ -3,10 +3,10 @@ title: "马尔切洛·萨凯蒂（Marcello Sacchetti）"
 name_en: "Marcello Sacchetti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/pietro-da-cortona.md","note":"问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 217–220; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patron_of","target":"persons/pietro-da-cortona.md","note":"问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 217–220; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"提供宫中住处与保护的赞助人","scope":"确认同乡后的接纳与安置"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L217–220
@@ -87,6 +87,11 @@ sources:
 | 评价／研究 | Mancini、Giano Nicio Eritreo的记述由DBI引见；Fosi1997、Zirpolo2005及Benocci2012为相关研究书目，未全读原著 | S5、S7 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 赞助者／保护人（`patron_of`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中；角色：提供宫中住处与保护的赞助人；范围：确认同乡后的接纳与安置；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 217–220; print pp. 7 |
 - 既有正式关系：[皮耶特罗·达·科尔托纳](pietro-da-cortona.md)；相关地点：[罗马](../places/rome.md)、[佛罗伦萨](../places/florence.md)。后一组为导航，不新增关系。
 - 身份：英文精确页名未找到，沿用并全文读取[意大利语Wikipedia](https://it.wikipedia.org/wiki/Marcello_Sacchetti) ↔ [Wikidata Q6087600](https://www.wikidata.org/wiki/Q6087600)。
 - S1保留第一章第7页L217–220及句子摘要；S2–S4为原对齐，S5–S7为补足。出生月份以具名专业传记为当前采用依据，原家庭记事未读。

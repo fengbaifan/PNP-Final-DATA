@@ -3,7 +3,7 @@ title: "博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John
 name_en: "Confraternity of Saint John of the Florentines, Bologna"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -60,16 +60,21 @@ sources:
 
 未采用确认QID。意大利语Wikipedia条目与Wikidata Q28229297双向互链，但P31明确为former church building／church building，故只作会址导航和排除候选。没有把建筑QID写入机构身份。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 善会为原文要求作画的委托人；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
+
 S1是第一章章页／行号；S2为意大利语Wikipedia会址页全文；S3为建筑QID字段核对；S4为博洛尼亚市文化页面全文；S5为开放获取专著的相关页和注释。S5未全书阅读，所引合同原件仍未直接读到。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 ### 关系入口与未决项
 
-相关卡：[塞巴斯蒂亚诺·里奇](../persons/sebastiano-ricci.md)、[1682年委托作品](../works/ricci-beheading-john-baptist-1682.md)、[1682年委托条款](../archives/ricci-bologna-terms-1682.md)、[博洛尼亚](../places/bologna.md)。本轮只增加导航，不新增正式关系；合同应在关系阶段支持“善会委托作品”和“作品为礼拜堂制作”等边。
+相关卡：[塞巴斯蒂亚诺·里奇](../persons/sebastiano-ricci.md)、[1682年委托作品](../works/ricci-beheading-john-baptist-1682.md)、[1682年委托条款](../archives/ricci-bologna-terms-1682.md)、[博洛尼亚](../places/bologna.md)。本次正式关系由作品卡记录“善会委托”和“里奇创作”，条款卡记录作品主题；本卡通过反向投影显示，不重复反写。
 
 善会的成立时间、成员与管理者、章程、1798年前后法律处置及后续法人连续性尚无直接资料。现有研究把团体写作Confraternita di San Giovanni dei Fiorentini，第一章写Battista Decollato；两者语义对应已由同一日期、同一画家和同一失佚祭坛画支持，但仍保留原文异名。

@@ -3,7 +3,7 @@ title: "祭坛画（Altarpiece）"
 name_en: "Altarpiece"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -97,6 +97,9 @@ sources:
 - Getty AAT与National Gallery词条／结构说明：本轮直接读取范围见S8–S10；不等于读过其所引全部资料。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 ### 身份和概念链接
 

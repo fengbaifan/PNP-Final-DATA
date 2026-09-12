@@ -3,8 +3,10 @@ title: "贝内代托·卢蒂（Benedetto Luti）"
 name_en: "Benedetto Luti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1694年4月12日当选圣路加学院成员。","evidence_ref":{"doc_id":"dbi-luti","source_file":"https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/","source_span":"本卡 S7；1694年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
   location: 第一章；印刷页 8；OCR L278
@@ -86,6 +88,11 @@ sources:
 Pascoli关于重视作品与少求保护的判断是第一章引文；Richardson关于鉴赏能力的评价由DBI转述。研究入口：Alessandro Serafini，DBI66（2006）；S7. P. Bowron有关绘画及粉彩研究（1980），后者仅书目线索。（S2、S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1694年4月12日当选圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/)；dbi-luti；本卡 S7；1694年入会段 |
 
 ### 身份与来源定位
 

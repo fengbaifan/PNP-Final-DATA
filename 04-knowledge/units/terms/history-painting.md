@@ -3,7 +3,7 @@ title: "历史画（History painting）"
 name_en: "History painting"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
@@ -67,6 +67,9 @@ sources:
 书目线索：Anthony Blunt, *Artistic Theory in Italy, 1450–1660*（1940）；David Green与Peter Seddon, *History Painting Reassessed*（2000）。仅读S5书目记录，未读原书。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：History painting](https://en.wikipedia.org/wiki/History_painting) ↔ [Q742333](https://www.wikidata.org/wiki/Q742333)配对复核一致。英文页全文25559字符、NG词条三段已读；未移入百科的全部作品图注、十九世纪风格评价或无证影响链。
 

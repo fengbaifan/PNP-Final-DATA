@@ -1,5 +1,5 @@
 generated: '2026-09-12'
-total: 260
+total: 263
 index:
 - slug: persons/abate-lancellotti
   type: persons
@@ -215,6 +215,12 @@ index:
   type: persons
   name_en: '"Claude Lorrain"'
   title: '"克劳德·洛兰（Claude Lorrain）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/clement-viii
+  type: persons
+  name_en: '"Clement VIII"'
+  title: '"克勉八世（Clement VIII）"'
   name_original: ''
   language_original: ''
 - slug: persons/clement-xi
@@ -649,6 +655,12 @@ index:
   title: '"尼古拉·普桑（Nicolas Poussin）"'
   name_original: ''
   language_original: ''
+- slug: persons/olimpia-aldobrandini
+  type: persons
+  name_en: '"Olimpia Aldobrandini"'
+  title: '"奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）"'
+  name_original: ''
+  language_original: ''
 - slug: persons/olimpia-maidalchini
   type: persons
   name_en: ''
@@ -659,6 +671,12 @@ index:
   type: persons
   name_en: '"Onorato Gini"'
   title: '"奥诺拉托·吉尼（Onorato Gini）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/paolo-borghese
+  type: persons
+  name_en: '"Paolo Borghese"'
+  title: '"保罗·博尔盖塞（Paolo Borghese）"'
   name_original: ''
   language_original: ''
 - slug: persons/paolo-girolamo-piola

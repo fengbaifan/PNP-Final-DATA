@@ -3,7 +3,7 @@ title: 乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri
 name_en: Giovanni Francesco Barbieri
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 548–552,569–570; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -146,8 +146,11 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-
-正式关系唯一记录在本卡元数据的 `relations`：人物 → [按主要人物数量计价](../procedures/per-figure-pricing.md)（`uses_procedure`），由 S1 的 1649 年报价支持。内容表中的人物、作品和书信链接只供导航；亲缘字段有证据，但不因此自动新增边。词表及端点核对见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）](../archives/guercino-ruffo-letter-1649.md) | 书信作者；1649-09-25；每位主要人物报价交涉。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
+| ← 参与事件（`participated_in`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | Guercino 主动询问具体图像细节；时间：1665；角色：图像细节询问者；范围：只确认提出询问；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
 
 ### 身份与证据范围
 

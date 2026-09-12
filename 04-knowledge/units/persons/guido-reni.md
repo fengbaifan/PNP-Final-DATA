@@ -3,10 +3,10 @@ title: "圭多·雷尼（Guido Reni）"
 name_en: "Guido Reni"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_work","target":"works/reni-justice-embracing-peace.md","note":"该信向 Reni 委托，尚未由本章识别版本与完成时间。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"creator_of","target":"works/reni-justice-embracing-peace.md","note":"该信向 Reni 委托，尚未由本章识别版本与完成时间。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"信中受委托画家","scope":"连接委托对象；版本、完成时间与存世状态未确认"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L373–374
@@ -102,9 +102,15 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所创作对象（`creator_of`） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
+| ← 所创作对象（`creator_of`，反向投影） | [雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）](../works/reni-massacre-innocents.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；原断言与证据见发出端卡片“雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
+
 [Wikipedia：Guido Reni](https://en.wikipedia.org/wiki/Guido_Reni) ↔ [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061) 双向一致，复用已通过身份。S6全文20587字符已读；S7含限定、精度、单位、引用状态和实际标签；S8短传及书目、S9三节正文已读。
 
-- 文件头associated_work链接[《正义拥抱和平》](../works/reni-justice-embracing-peace.md)，依据S2。
+- 文件头以 `creator_of` 链接[《正义拥抱和平》](../works/reni-justice-embracing-peace.md)，范围限定为信中委托对象；版本、完成时间与存世状态未确认，依据S2。
 - [1617年委托人Ferdinando Gonzaga](duke-mantua-reni-1617.md)、[《屠杀婴孩》](../works/reni-massacre-innocents.md)为关联导航，不把所有职业标签和学生名字自动建边。
 - **待核：** 赴那不勒斯年份、具体原支付、后期复作责任与亲缘原档。WP《圣塞巴斯蒂安》版本数量及《亚特兰大与希波墨涅斯》年代前后不一，未整段采入；“Beatrice Cenci”旧归属不作为确定亲笔。
 

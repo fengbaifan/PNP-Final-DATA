@@ -1,4 +1,4 @@
-# 当前有效成果；REV-033 登记收口：298 个 KU，暂缓项见第一章结果；不表示全量事实验证或提取穷尽。
+# 当前有效成果：301 个 KU；REV-065新增3个已采纳家族事实所需人物端点。暂缓项见第一章结果；不表示全量事实验证或提取穷尽。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/ameyden-relazione-1642.md
@@ -98,6 +98,7 @@ units:
 - 04-knowledge/units/persons/ciro-ferri.md
 - 04-knowledge/units/persons/claude-lorrain.md
 - 04-knowledge/units/persons/clement-xi.md
+- 04-knowledge/units/persons/clement-viii.md
 - 04-knowledge/units/persons/correggio.md
 - 04-knowledge/units/persons/denis-mahon.md
 - 04-knowledge/units/persons/domenichino.md
@@ -165,9 +166,11 @@ units:
 - 04-knowledge/units/persons/mr-coke-rome-correspondent.md
 - 04-knowledge/units/persons/nicolas-poussin.md
 - 04-knowledge/units/persons/onorato-gini.md
+- 04-knowledge/units/persons/olimpia-aldobrandini.md
 - 04-knowledge/units/persons/paolo-girolamo-piola.md
 - 04-knowledge/units/persons/paolo-guidotti.md
 - 04-knowledge/units/persons/paolo-negri.md
+- 04-knowledge/units/persons/paolo-borghese.md
 - 04-knowledge/units/persons/pascoli.md
 - 04-knowledge/units/persons/paul-v.md
 - 04-knowledge/units/persons/peter-paul-rubens.md

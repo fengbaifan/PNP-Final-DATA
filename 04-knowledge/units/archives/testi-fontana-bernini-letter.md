@@ -4,12 +4,13 @@ name_en: "Letter from Fulvio Testi to Francesco Fontana"
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/fulvio-testi.md","note":"本章明确书信作者。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/francesco-fontana.md","note":"本章明确收信人为 Conte Francesco Fontana。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/francesco-fontana.md","note":"本章明确收信人为 Conte Francesco Fontana。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633-01-29","role":"收信人","scope":"Testi致Conte Francesco Fontana、涉及Bernini的书信"}
   - {"relation_type":"has_subject","target":"persons/gian-lorenzo-bernini.md","note":"信中记 Bernini 报酬；不据金额猜测信的具体日期。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"works/bernini-cardinal-borghese-head.md","note":"该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决。","evidence_ref":{"doc_id":"fraschetti-bernini-1900","source_file":"https://archive.org/details/ilbernini00fras","source_span":"本卡 S2；第十二章印刷页108，扫描页130"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
   - citation: "Haskell, Patrons and Painters, revised and enlarged ed., 1980, ch. 1, pp. 17."
     location: "第一章印刷页 17；原 OCR 行 699–703"
@@ -83,8 +84,12 @@ Haskell 以信中几个不同性质的金额说明贝尔尼尼的报酬。补读
 ## 关系与证据
 
 ### 关系记录
-
-正式关系保留在元数据：书信 → 泰斯蒂（authored_by）、书信 → 丰塔纳（associated_person，note 明确收信人）、书信 → 贝尔尼尼（has_subject）。S1 p. 17、L699–703 支持三条边；新补日期和地点不自动生成图谱边。收信人的字段语义已明确，正式边以后可按受控词表细化，当前不改变方向或强加作者关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 本章明确书信作者；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](../persons/francesco-fontana.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；证据：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
 
 ### 身份与证据范围
 

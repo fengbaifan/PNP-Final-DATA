@@ -3,7 +3,7 @@ title: "耶稣会（Jesuits）"
 name_en: "Jesuits"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -112,6 +112,11 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [安德烈亚·波佐（Andrea Pozzo）](../persons/andrea-pozzo.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；原断言与证据见发出端卡片“安德烈亚·波佐（Andrea Pozzo）”：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；dbi-pozzo；本卡 S6；入会与誓愿段 |
+
 ### 对齐与字段取舍
 
 - [Wikipedia 英文页面](https://en.wikipedia.org/wiki/Jesuits) 的 wikibase_item 与 [Wikidata Q36380](https://www.wikidata.org/wiki/Q36380) 的 enwiki sitelink 双向一致；以修会身份核对，不与同名音乐团体、教堂、学院合并。
@@ -124,7 +129,7 @@ sources:
 
 S1：**第一章，印刷页5，OCR L125–130**；句意为新修会及教堂建设需求。S2–S3 保留初步对齐历史，S4–S9 是本次补足来源，编号依文件头 sources 顺序。
 
-本卡无已登记正式关系。可导航到[罗马（Rome）](../places/rome.md)和波佐；母堂、院校、会士、创始者与赞助者等候选事实须在关系阶段分别确定端点、类型、方向、时间及证据。共现与本文链接不自动产生正式边。
+本次接收[安德烈亚·波佐](../persons/andrea-pozzo.md)的会士身份，并在本卡显示反向投影。母堂、院校、其他会士、创始者与赞助者没有按名单批量成边；共现与正文链接仍不自动产生正式关系。
 
 **补足结果：** 已完成英维页面全文阅读及上述官方来源核对，写入名称、组织角色、工作领域、文本、历史沿革与关键边界；保留会宪批准年份、部分早期人员授铎、各地资产与项目赞助主体等具体缺口。整卡仍为 source_backed，未声明每个外部事实均独立验证。
 

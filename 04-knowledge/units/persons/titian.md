@@ -3,7 +3,7 @@ title: "提香（Titian）"
 name_en: "Titian"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -115,6 +115,12 @@ sources:
 - ULAN 500031075为WD给出的标识，原站未读。本轮所引NG原页已读，其他WD引用库不冒称逐站验证。[S5–S6]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| ← 获其授予荣衔（`honoured_by`，反向投影） | [查理五世（Charles V）](charles-v.md) | 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世（Charles V）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
 
 S1：第一章，印刷页19，OCR L764–767、800–804；S2–S3为初步对齐；S4为WP全文含图注注释书目；S5为WD字段；S6为NG传记各节；S7仅读NG新闻稿The Artist节。
 

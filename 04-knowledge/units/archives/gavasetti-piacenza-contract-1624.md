@@ -4,7 +4,7 @@ name_en: "Terms for Gavasetti's Piacenza Frescoes (1624)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/gavasetti-sant-antonino-frescoes.md","note":"条款描述该壁画工程的题材自由与颜料要求。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 323–326,520–521; print pp. 9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -63,9 +63,14 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 条款描述该壁画工程的题材自由与颜料要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
 
 S1：第一章；印刷页9；OCR L323–326。S2：第一章；印刷页13；OCR L520–521。S3：意大利国家文化遗产目录0800158480。S4：Treccani《意大利人传记辞典》Camillo Gavasetti全文。S3–S4未提供合同逐字全文，因此精确措辞仍只按S1转引。
 

@@ -3,7 +3,7 @@ title: "瓦朗坦·德·布洛涅（Valentin de Boulogne）"
 name_en: "Valentin de Boulogne"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -71,6 +71,11 @@ sources:
 Annick Lemoine与Keith Christiansen的《Valentin de Boulogne: Beyond Caravaggio》（2016）为展览研究入口；WP书目及National Gallery简传已读，但没有因此声称读完全书或列出全部存世作品。（S4、S6）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）](../works/valentin-genre-commission.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；原断言与证据见发出端卡片“瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）”：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
 
 ### 身份与来源定位
 

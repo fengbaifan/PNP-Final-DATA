@@ -3,10 +3,10 @@ title: "温琴佐·阿尔曼尼（Vincenzo Armanni）"
 name_en: "Vincenzo Armanni"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/camillo-pamfili.md","note":"未注明日期的信就 Valmontone 别墅装饰提供建议。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"advised","target":"persons/camillo-pamfili.md","note":"未注明日期的信就 Valmontone 别墅装饰提供建议。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"装饰建议提供者","scope":"未注明日期的Valmontone别墅装饰书信"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L329–330
@@ -79,6 +79,13 @@ sources:
 - Giuseppe Mazzatinti于1883–1887刊政治书信；Ferraro的旅行日记刊本存在作者责任争议。未读全体原刊，不自行解决归属。[S2]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](../archives/armanni-delle-lettere.md) | 本章所引 Armanni 信集，书目条目补全题名；原断言与证据见发出端卡片“阿尔曼尼《书信集》（Armanni's Collected Letters）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| ← 所著文献（`author_of`，反向投影） | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](../archives/armanni-pamfili-letter-undated.md) | 书信署名者据原页确认为 Armanni；原断言与证据见发出端卡片“温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| → 向其建议（`advised`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 未注明日期的信就 Valmontone 别墅装饰提供建议；角色：装饰建议提供者；范围：未注明日期的Valmontone别墅装饰书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 
 S1原章第9页L329–330；S2专业传记全文，S3原刊选读及所引信全文，S4候选WD。
 候选[Q87700122](https://www.wikidata.org/wiki/Q87700122)姓名和学术身份相符，但无Wikipedia sitelink，仍**未完成双重身份配对**。英文优先及意大利语回退未找到对应人物页；不采用Armanno画家页。此次依据直接文献补足身份，规范显示名去掉早期消歧括注，稳定路径保留。

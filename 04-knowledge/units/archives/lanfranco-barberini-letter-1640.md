@@ -3,7 +3,7 @@ title: "乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Let
 name_en: "Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/giovanni-lanfranco.md","note":"1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini。","evidence_ref":{"doc_id":"treccani-dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"1640 petition paragraph"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -53,9 +53,14 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；treccani-dbi-lanfranco；1640 petition paragraph |
 
 S1：第一章；印刷页11；OCR L408–425。S2：Schleier，DBI“Lanfranco, Giovanni”全文中1640段。S3：Pollak 1913 p.26的版本链仅据Haskell，未直接读取。DBI是后出的研究叙述，不替代手稿原件。
 

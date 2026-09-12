@@ -3,7 +3,7 @@ title: "群青（Ultramarine / oltremare）"
 name_en: "Ultramarine / oltremare"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -62,6 +62,9 @@ National Gallery对1505年《安西代圣母》的研究说明，圣母衣饰最
 研究线索：Joy Plesters，“Ultramarine Blue, Natural and Artificial”，*Artists’ Pigments*第二卷（Ashok Roy编，1993）,37–66；Lara Broecke的Cennini新译注（2015）。仅读百科所列书目，未读原书。最早提炼年代及“只能干壁画使用”等绝对说法本轮未核，不采用。（S4）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：Ultramarine](https://en.wikipedia.org/wiki/Ultramarine) ↔ [Q219660](https://www.wikidata.org/wiki/Q219660)保持配对，范围含天然及合成，本章只使用历史天然语境。全文29760字符及NG研究介绍全文已读。
 

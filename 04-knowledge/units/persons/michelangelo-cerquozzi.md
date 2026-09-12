@@ -3,7 +3,7 @@ title: "米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）"
 name_en: "Michelangelo Cerquozzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"脚注明确 Cerquozzi 是学院会员。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 753–754; print pp. 18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -80,6 +80,11 @@ sources:
 Passeri的教育批评与Baldinucci描述的社交及收藏成功并置。Giuseppe Scavizzi，DBI23（1979）选读出身、师承、遗嘱和评价段；Loredana Lorizzo2011新财产清单研究为WP所引线索，本次原论文未读。（S2、S5、S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 脚注明确 Cerquozzi 是学院会员；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
 
 ### 身份与来源定位
 

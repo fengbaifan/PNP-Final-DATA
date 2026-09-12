@@ -3,10 +3,8 @@ title: "塞巴斯蒂亚诺·里奇（Sebastiano Ricci）"
 name_en: "Sebastiano Ricci"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
-relations:
-  - {"relation_type":"associated_work","target":"works/ricci-beheading-john-baptist-1682.md","note":"1682年委托要求Ricci表现斩首题材；DBI确认合同日期为9月28日并说明作品已佚，不把委托等同现存作品。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 326–328; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L326–328
@@ -87,13 +85,14 @@ Raffaella Poltronieri的DBI词条及书目已全文阅读；所引合同、审�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/)；dbi-ricci；人物卡 S6；1682-09-28合同段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Sebastiano Ricci](https://en.wikipedia.org/wiki/Sebastiano_Ricci) 与 [Wikidata Q506483](https://www.wikidata.org/wiki/Q506483) 的 sitelink 双向一致；生卒、Belluno—Venice轨迹及1682年博洛尼亚委托均与第一章对象吻合，且可排除侄子Marco Ricci。S4为全文阅读，S5为属性级读取。
-
-### 关系记录
-
-文件头保留人物 → [《施洗者约翰斩首》](../works/ricci-beheading-john-baptist-1682.md)的一条`associated_work`正式关系，并以S1限定其含义；S6只加强合同日期和作品失佚状态，不扩大为现藏或完成声明。家属、师承、宫廷服务及Marco Ricci协作先作为补足内容，关系阶段再逐条核定端点与方向。
 
 ### 争议与待补
 

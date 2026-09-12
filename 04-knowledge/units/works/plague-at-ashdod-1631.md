@@ -3,11 +3,11 @@ title: 《阿什杜德的瘟疫》（The Plague at Ashdod）
 name_en: The Plague at Ashdod
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/nicolas-poussin.md","note":"普桑工作室中的既有初稿；未据此补写创作年份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/fabrizio-valguarnera.md","note":"看见初稿后商议完成；不是从零委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"看见初稿后商议完成；不是从零委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"看见初稿后商议完成的委托人","scope":"完成已有初稿；不是从零委托"}
 sources:
   - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), ch. 1, pp. 15."
     location: "第一章，印刷页 15；OCR 行 599–601"
@@ -106,8 +106,10 @@ S1 第一章 p. 15、L599–601 记瓦尔瓜尔内拉见到既有初稿后商议
 ## 关系与证据
 
 ### 关系记录
-
-元数据保留作品 → 普桑（created_by）、作品 → 瓦尔瓜尔内拉（associated_person）两条正式边，证据均定位 S1 p. 15、L599–601。后者以既有初稿交易的语境解释，不据单个标签转成“赞助创作”边。流传表和正文链接未自动转成新关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 普桑工作室中的既有初稿；未据此补写创作年份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 看见初稿后商议完成；不是从零委托；角色：看见初稿后商议完成的委托人；范围：完成已有初稿；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
 
 ### 身份与证据范围
 

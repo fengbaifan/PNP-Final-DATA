@@ -1,13 +1,13 @@
 # Relation Index v2.1
 # generated: 2026-09-12
-# total: 173
-# sources: {'explicit': 173}
+# total: 226
+# sources: {'explicit': 226}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
   target: persons/sixtus-v.md
   target_type: person
-  relation_type: associated_person
+  relation_type: kin_of
   inverse_relation_type: null
   note: 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位。
   evidence: ''
@@ -20,11 +20,30 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 侄辈
+  scope: 第一章明确的亲缘称谓；不据此补造父母链
+- source: persons/alessandro-peretti-montalto.md
+  source_type: person
+  target: families/peretti-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-peretti-damasceni
+    source_file: https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/
+    source_span: 佩雷蒂家族卡 S6；开篇亲缘与改姓段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/alessandro-vasalli.md
   source_type: person
   target: persons/pier-francesco-mola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: testified_about
   inverse_relation_type: null
   note: 在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。
   evidence: ''
@@ -37,28 +56,86 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 争议证人
+  scope: 解释Mola对Pamfili的有偿优先服务
 - source: persons/andrea-camassei.md
   source_type: person
-  target: works/camassei-martyrdom-saint-sebastian.md
-  target_type: work
-  relation_type: associated_work
+  target: persons/domenichino.md
+  target_type: person
+  relation_type: trained_by
   inverse_relation_type: null
-  note: 脚注收据识别画家；不据合同条款猜测全部画面。
+  note: Pascoli记其早期进入多梅尼基诺工作室；对其他大师作品的研习不作为亲授。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 335–338,372,514–516; print pp. 10,13
+    doc_id: dbi-camassei
+    source_file: https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/
+    source_span: 本卡 S8；早期训练段
   claim_id: null
   confidence: medium
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 进入其工作室的学生／助手
+  scope: Pascoli早期训练叙述；不延伸到其他大师作品研习
+- source: persons/andrea-pozzo.md
+  source_type: person
+  target: institutions/jesuits.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1665年12月在米兰加入耶稣会；23日／25日异文保留。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-pozzo
+    source_file: https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/
+    source_span: 本卡 S6；入会与誓愿段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/andrea-procaccini.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职。
+  evidence: ''
+  evidence_ref:
+    doc_id: wp-procaccini
+    source_file: https://en.wikipedia.org/w/index.php?oldid=1366087864
+    source_span: 本卡 S5；生平段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/andrea-procaccini.md
+  source_type: person
+  target: persons/carlo-maratta.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 约1690年在马拉塔工作室接受素描与临摹训练。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-procaccini
+    source_file: https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/
+    source_span: 本卡 S7；早期训练段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1690
+  role: 工作室学生
+  scope: 素描与临摹训练
 - source: persons/andrea-sacchi.md
   source_type: person
   target: persons/antonio-barberini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: employed_by
   inverse_relation_type: null
   note: 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级。
   evidence: ''
@@ -71,6 +148,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1637–1640
+  role: 家户受俸画家
+  scope: 1640年升入最高受俸者等级
 - source: persons/andrea-sacchi.md
   source_type: person
   target: institutions/barberini-household.md
@@ -88,11 +168,48 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/artemisia-gentileschi.md
+  source_type: person
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: corresponded_with
+  inverse_relation_type: null
+  note: 1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-artemisia
+    source_file: https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1649–1650 Ruffo通信段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1649–1650
+  role: 通信双方
+  scope: 密集通信涉及付款及拟议委托；不把全部往来合成单一成交
+- source: persons/benedetto-luti.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1694年4月12日当选圣路加学院成员。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-luti
+    source_file: https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/
+    source_span: 本卡 S7；1694年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/camillo-pamfili.md
   source_type: person
   target: persons/pier-francesco-mola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patron_of
   inverse_relation_type: null
   note: Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。
   evidence: ''
@@ -105,11 +222,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 雇主、装饰委托人与费用承担方
+  scope: Valmontone装饰及行动许可语境
 - source: persons/camillo-pamfili.md
   source_type: person
   target: persons/guglielmo-cortese.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patron_of
   inverse_relation_type: null
   note: 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可。
   evidence: ''
@@ -122,13 +241,15 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: Valmontone雇主／保护人
+  scope: 离开数日须获特别许可的服务关系
 - source: persons/caravaggio.md
   source_type: person
   target: works/caravaggio-conversion-saint-paul.md
   target_type: work
-  relation_type: associated_work
+  relation_type: creator_of
   inverse_relation_type: null
-  note: 1600 年合同中的画家与题材对象；不同实物版本不在此合并。
+  note: 1600年合同指定卡拉瓦乔完成该题材；本边连接委托对象，不把第一版与礼拜堂版合并。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -139,13 +260,16 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1600起
+  role: 合同指定画家
+  scope: 连接委托对象；不同实物版本仍分开
 - source: persons/caravaggio.md
   source_type: person
   target: works/caravaggio-martyrdom-saint-peter.md
   target_type: work
-  relation_type: associated_work
+  relation_type: creator_of
   inverse_relation_type: null
-  note: 1600 年合同中的画家与题材对象；提交设计为约定。
+  note: 1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -156,11 +280,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1600起
+  role: 合同指定画家
+  scope: 连接委托对象；现存版本与原约底材仍分开
 - source: persons/cardinal-borghese-ch1.md
   source_type: person
   target: persons/domenichino.md
   target_type: person
-  relation_type: associated_person
+  relation_type: disputed_with
   inverse_relation_type: null
   note: 与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese。
   evidence: ''
@@ -173,11 +300,86 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 争执一方
+  scope: 第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese
+- source: persons/cardinal-borghese-ch1.md
+  source_type: person
+  target: families/borghese-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-la-villa
+    source_file: https://galleriaborghese.cultura.gov.it/il-museo/la-villa/
+    source_span: 博尔盖塞家族卡 S7；Scipione 段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/carlo-maratta.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1662年8月27日加入学院，后多次任负责人；成员与职务分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-maratta
+    source_file: https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/
+    source_span: 本卡 S7；1662年入会及后续任职段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/carlo-maratta.md
+  source_type: person
+  target: persons/andrea-sacchi.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 约1636／1637进入萨基工作室接受训练；与后来合作分作两条关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-maratta
+    source_file: https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/
+    source_span: 本卡 S7；早期训练与合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1636／1637起
+  role: 工作室学生
+  scope: 进入Sacchi工作室的训练阶段
+- source: persons/carlo-maratta.md
+  source_type: person
+  target: persons/andrea-sacchi.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 马拉塔后来成为萨基的主要合作者；本边不替代早期师承关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-maratta
+    source_file: https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/
+    source_span: 本卡 S7；早期训练与合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 主要合作者
+  scope: 训练期之后的工作合作；具体项目仍逐作判断
 - source: persons/charles-v.md
   source_type: person
   target: persons/titian.md
   target_type: person
-  relation_type: associated_person
+  relation_type: honourer_of
   inverse_relation_type: null
   note: 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实。
   evidence: ''
@@ -190,18 +392,21 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1533'
+  role: 荣衔授予者
+  scope: Count Palatine等荣衔；不采捡画笔逸事
 - source: persons/ciro-ferri.md
   source_type: person
-  target: works/ferri-sant-agnese-modello.md
-  target_type: work
-  relation_type: associated_work
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
   inverse_relation_type: null
-  note: 1670 年要求 Ferri 提供彩稿，并在批准后不得擅改；保留约定语境。
+  note: 1657年6月3日成为圣路加学院成员。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 437–440; print pp. 12
+    doc_id: dbi-ferri
+    source_file: https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/
+    source_span: 本卡 S9；学院成员段
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -209,26 +414,67 @@
   review_status: evidence_backed_relation
 - source: persons/ciro-ferri.md
   source_type: person
-  target: works/ferri-laparelli-altarpiece.md
-  target_type: work
-  relation_type: associated_work
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: trained_by
   inverse_relation_type: null
-  note: Ferri 为画家，章中未给准确题名和具体教堂。
+  note: 费里师从科尔托纳；与长期协作分作两条关系。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 507–508; print pp. 13
+    doc_id: dbi-ferri
+    source_file: https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/
+    source_span: 本卡 S9；师承与合作段
   claim_id: null
   confidence: medium
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 学生
+  scope: Ferri从Cortona学习；具体起止年未在本卡定稿
+- source: persons/ciro-ferri.md
+  source_type: person
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ferri
+    source_file: https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/
+    source_span: 本卡 S9；师承与合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 长期助手／合作者
+  scope: 具体项目责任仍逐作区分
+- source: persons/clement-viii.md
+  source_type: person
+  target: families/aldobrandini-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员。
+  evidence: ''
+  evidence_ref:
+    doc_id: aldobrandini-family-wikipedia-wikidata
+    source_file: https://www.wikidata.org/wiki/Q961820
+    source_span: P527；与英文Wikipedia Aldobrandini family成员说明合读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1536–1605
+  role: 出生于阿尔多布兰迪尼家族的成员
+  scope: 只表示家族归属，不把教皇任期或个人行为归给整个家族
 - source: persons/clement-xi.md
   source_type: person
   target: persons/giuseppe-ghezzi.md
   target_type: person
-  relation_type: associated_person
+  relation_type: granted_privilege_to
   inverse_relation_type: null
   note: 授予 Ghezzi 在圣彼得的一项 benefice，保留来源职位用语。
   evidence: ''
@@ -241,6 +487,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: benefice授予者
+  scope: 圣彼得的一项benefice；不改写为一般任职
 - source: persons/domenichino.md
   source_type: person
   target: procedures/per-figure-pricing.md
@@ -262,7 +510,7 @@
   source_type: person
   target: persons/giuseppe-ghezzi.md
   target_type: person
-  relation_type: associated_person
+  relation_type: honourer_of
   inverse_relation_type: null
   note: 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。
   evidence: ''
@@ -275,6 +523,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: gentiluomo d’onore荣衔授予者
+  scope: 授予者全名及日期未明
 - source: persons/fabrizio-valguarnera.md
   source_type: person
   target: procedures/studio-stock-sale.md
@@ -296,7 +546,7 @@
   source_type: person
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: member_of
   inverse_relation_type: null
   note: 1593–1594 年尝试振兴学院，不作为首次创立的证明。
   evidence: ''
@@ -309,11 +559,31 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1593–1594
+  role: 首任Prince及组织领导者
+  scope: 学院振兴／实际组织阶段；不等同1577年设院授权
+- source: persons/filippo-lauri.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1654年加入圣路加学院。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-lauri
+    source_file: https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1654年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/flavio-chigi.md
   source_type: person
   target: persons/mario-de-fiori.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patron_of
   inverse_relation_type: null
   note: 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断。
   evidence: ''
@@ -326,28 +596,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
-- source: persons/francesco-albani.md
-  source_type: person
-  target: works/albani-servi-altarpiece-1639.md
-  target_type: work
-  relation_type: associated_work
-  inverse_relation_type: null
-  note: Albani 的 1639 祭坛画委托语境；与另条高比例定金不强行合并。
-  evidence: ''
-  evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 514–516; print pp. 13
-  claim_id: null
-  confidence: medium
-  relation_source: explicit
-  bidirectional_required: false
-  review_status: evidence_backed_relation
+  role: 每月津贴提供者
+  scope: 每月30 scudi；不表示作品全部买断
 - source: persons/francesco-barberini.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: member_of
   inverse_relation_type: null
   note: Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同。
   evidence: ''
@@ -360,11 +615,47 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: Cardinal Protector
+  scope: 学院保护职位；不与Antonio Barberini家户混同
+- source: persons/francesco-trevisani.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1697年加入圣路加学院。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-trevisani
+    source_file: https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1697年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/francesco-trevisani.md
+  source_type: person
+  target: institutions/arcadia.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1712年加入Arcadia；此前接触与称赞不等于正式入会。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-trevisani
+    source_file: https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1712年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/frederick-iii.md
   source_type: person
   target: persons/gentile-bellini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: honourer_of
   inverse_relation_type: null
   note: 本章脚注记授予 Count Palatine，未给日期。
   evidence: ''
@@ -377,11 +668,98 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: Count Palatine荣衔授予者
+  scope: 第一章未给日期
+- source: persons/giacinto-brandi.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-brandi
+    source_file: https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/
+    source_span: 本卡 S7；学院活动与任职段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giambattista-passeri.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-passeri
+    source_file: https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/
+    source_span: 本卡 S10；1638年学院登记段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giammaria-morandi.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1657年7月1日入学院，后任Prince。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-morandi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1657年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giammaria-morandi.md
+  source_type: person
+  target: institutions/arcadia.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-morandi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1699年入会段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/gianandrea-carlone.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1675年9月11日获圣路加学院接纳。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-carlone
+    source_file: https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1675年接纳段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/giovanni-bonati.md
   source_type: person
   target: persons/cardinal-pio-bonati.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patronized_by
   inverse_relation_type: null
   note: Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例。
   evidence: ''
@@ -394,6 +772,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 学习旅行受资助者
+  scope: 前往六座城市学习；枢机身份仅限此事例
 - source: persons/giovanni-bonati.md
   source_type: person
   target: procedures/patron-funded-study-travel.md
@@ -411,6 +791,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giovanni-bonati.md
+  source_type: person
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 1662年前后在罗马学习于莫拉；旅行赞助与师承分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-bonatti
+    source_file: https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/
+    source_span: 本卡 S6；罗马训练段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1662
+  role: 学生
+  scope: 罗马训练；与旅行赞助分开
 - source: persons/giovanni-lanfranco.md
   source_type: person
   target: procedures/per-figure-pricing.md
@@ -423,6 +823,40 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 498–502; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giovanni-lanfranco.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1631至1632年任学院Prince，足以支持成员归属；学院原档未读。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-lanfranco
+    source_file: https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/
+    source_span: 本卡 S8；1631–1632任职段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/giovanni-odazzi.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1706年加入圣路加学院。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1706年入会段
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -445,11 +879,28 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giuseppe-ghezzi.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1674年经特别程序加入学院并任秘书；与其Arcadia成员身份分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ghezzi
+    source_file: https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1674年学院段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/gregory-xv.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: granted_privilege_to
   inverse_relation_type: null
   note: 1621 年确认学院章程。
   evidence: ''
@@ -462,6 +913,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1621'
+  role: 章程确认者
+  scope: 确认学院章程；具体文本版本未知
 - source: persons/guercino.md
   source_type: person
   target: procedures/per-figure-pricing.md
@@ -479,11 +933,28 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/guglielmo-cortese.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1657年7月加入学院，1660年任primo rettore。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-courtois
+    source_file: https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/
+    source_span: 本卡 S6；学院段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/guido-reni.md
   source_type: person
   target: works/reni-justice-embracing-peace.md
   target_type: work
-  relation_type: associated_work
+  relation_type: creator_of
   inverse_relation_type: null
   note: 该信向 Reni 委托，尚未由本章识别版本与完成时间。
   evidence: ''
@@ -496,11 +967,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 信中受委托画家
+  scope: 连接委托对象；版本、完成时间与存世状态未确认
 - source: persons/innocent-xiii.md
   source_type: person
   target: persons/giuseppe-ghezzi.md
   target_type: person
-  relation_type: associated_person
+  relation_type: appointer_of
   inverse_relation_type: null
   note: 任命 Ghezzi 为 master of ceremonies。
   evidence: ''
@@ -513,11 +986,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: master of ceremonies任命者
+  scope: 任命范围限该职位
 - source: persons/lodovico-gimignani.md
   source_type: person
   target: persons/cardinal-rospigliosi-gimignani.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patronized_by
   inverse_relation_type: null
   note: Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名。
   evidence: ''
@@ -530,6 +1005,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 获资助赴威尼斯学习的画家
+  scope: 枢机全名仍未展开
 - source: persons/lodovico-gimignani.md
   source_type: person
   target: procedures/patron-funded-study-travel.md
@@ -551,7 +1028,7 @@
   source_type: person
   target: persons/domenichino.md
   target_type: person
-  relation_type: associated_person
+  relation_type: appointer_of
   inverse_relation_type: null
   note: 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico。
   evidence: ''
@@ -564,11 +1041,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1621'
+  role: Vatican architect任命者
+  scope: 教皇侄辈Ludovico作出的任命
 - source: persons/marcello-sacchetti.md
   source_type: person
   target: persons/pietro-da-cortona.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patron_of
   inverse_relation_type: null
   note: 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中。
   evidence: ''
@@ -581,11 +1061,33 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 提供宫中住处与保护的赞助人
+  scope: 确认同乡后的接纳与安置
+- source: persons/mattia-preti.md
+  source_type: person
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-preti
+    source_file: https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/
+    source_span: 本卡 S6；Messina与Ruffo段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1646–1649起
+  role: 作品进入其收藏并保持往来的画家
+  scope: 限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托
 - source: persons/maurizio-di-savoia.md
   source_type: person
   target: persons/gio-gasparo-baldoini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: appointer_of
   inverse_relation_type: null
   note: 任命 Baldoini 为 per nostro pittore，本章脚注引述任命。
   evidence: ''
@@ -598,6 +1100,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: per nostro pittore任命者
+  scope: 本章脚注所引任命；日期未知
 - source: persons/michelangelo-cerquozzi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -619,7 +1123,7 @@
   source_type: person
   target: works/poussin-spring-valguarnera.md
   target_type: work
-  relation_type: associated_work
+  relation_type: creator_of
   inverse_relation_type: null
   note: 接受另订《春》的画家；不由此证明成品现存。
   evidence: ''
@@ -632,11 +1136,93 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 另订《春》的受托画家
+  scope: 连接委托对象；不证明成品现存
+- source: persons/olimpia-aldobrandini.md
+  source_type: person
+  target: families/aldobrandini-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人。
+  evidence: ''
+  evidence_ref:
+    doc_id: olimpia-aldobrandini-wikipedia
+    source_file: https://en.wikipedia.org/wiki/Olimpia_Aldobrandini
+    source_span: 导言与Early life and ancestry
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1623–1681
+  role: 出生家族成员与主要继承人
+  scope: 只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有
+- source: persons/olimpia-aldobrandini.md
+  source_type: person
+  target: persons/paolo-borghese.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: 奥林皮娅于1638年与Paolo Borghese结婚；Paolo于1646年去世。
+  evidence: ''
+  evidence_ref:
+    doc_id: olimpia-aldobrandini-wikipedia
+    source_file: https://en.wikipedia.org/wiki/Olimpia_Aldobrandini
+    source_span: Marriages段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1638–1646
+  role: 第一任配偶
+  scope: 1638年结婚，关系因Paolo于1646年去世结束
+- source: persons/olimpia-aldobrandini.md
+  source_type: person
+  target: persons/camillo-pamfili.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: Paolo Borghese去世后，奥林皮娅于1647年2月10日与Camillo Pamphili结婚。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-camillo-pamphili
+    source_file: https://www.treccani.it/enciclopedia/camillo-pamphili_(Dizionario-Biografico)/
+    source_span: 辞任与婚姻段；1647-02-10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1647-02-10起
+  role: 第二任配偶
+  scope: 采用Treccani DBI的精确婚日；Doria Pamphilj英文页1646为异文
+- source: persons/paolo-borghese.md
+  source_type: person
+  target: families/borghese-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族。
+  evidence: ''
+  evidence_ref:
+    doc_id: paolo-borghese-wikipedia
+    source_file: https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646)
+    source_span: 导言与家庭段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1622／1624–1646
+  role: 博尔盖塞家族成员
+  scope: 只表示家族归属，不与1904–1985年同名人物混同
 - source: persons/paolo-girolamo-piola.md
   source_type: person
   target: persons/marchese-pallavicini-piola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patronized_by
   inverse_relation_type: null
   note: 1690 年要求住在这位保护人宫外；仅保留该居住协商语境。
   evidence: ''
@@ -649,11 +1235,31 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1690'
+  role: 受邀服务并协商住宿的画家
+  scope: 只涵盖保护人宫内外居住协商
+- source: persons/paolo-guidotti.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1605至1606年任书记、1619年任Prince，支持成员归属。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-guidotti
+    source_file: https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/
+    source_span: 本卡 S6；学院职务段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/paul-v.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: granted_privilege_to
   inverse_relation_type: null
   note: 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述。
   evidence: ''
@@ -666,18 +1272,21 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
-- source: persons/peter-paul-rubens.md
+  time: '1605'
+  role: 年度赦免权授予者
+  scope: 圣路加节释放一名死刑犯的权利；据第一章转述
+- source: persons/paul-v.md
   source_type: person
-  target: works/rubens-chiesa-nuova-altarpiece-1606.md
-  target_type: work
-  relation_type: associated_work
+  target: families/borghese-family.md
+  target_type: family
+  relation_type: member_of
   inverse_relation_type: null
-  note: 1606 年在承担祭坛画前被要求示画，尚未在本章精确识别实物版本。
+  note: 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 402–404; print pp. 11
+    doc_id: galleria-borghese-la-villa
+    source_file: https://galleriaborghese.cultura.gov.it/il-museo/la-villa/
+    source_span: 家族卡 S7；馆方家族上升与保禄五世段
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -734,13 +1343,30 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/pietro-da-cortona.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1634年起任学院负责人；不同来源对任期终点有异文。
+  evidence: ''
+  evidence_ref:
+    doc_id: icg-cortona
+    source_file: https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html
+    source_span: 本卡 S9；1634–1636学院负责人段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: persons/pietro-mulier.md
   source_type: person
   target: persons/duke-bracciano-mulier.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patronized_by
   inverse_relation_type: null
-  note: 雇主公爵不愿 Mulier 离开罗马；不由称号补全公爵身份。
+  note: 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -751,11 +1377,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 受保护并接受委托的画家
+  scope: 未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决
 - source: persons/pietro-ottoboni.md
   source_type: person
   target: persons/francesco-trevisani.md
   target_type: person
-  relation_type: associated_person
+  relation_type: patron_of
   inverse_relation_type: null
   note: 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处。
   evidence: ''
@@ -763,6 +1391,42 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 220–223; print pp. 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 提供住处的同乡枢机与保护人
+  scope: 第一章未展开Ottoboni全名
+- source: persons/pietro-ottoboni.md
+  source_type: person
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ottoboni
+    source_file: https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/
+    source_span: 本卡 S7；1702年段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: persons/pietro-ottoboni.md
+  source_type: person
+  target: institutions/arcadia.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ottoboni
+    source_file: https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/
+    source_span: 本卡 S7；1695年入会段
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -785,28 +1449,47 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
-- source: persons/sebastiano-ricci.md
+- source: persons/sixtus-v.md
   source_type: person
-  target: works/ricci-beheading-john-baptist-1682.md
-  target_type: work
-  relation_type: associated_work
+  target: families/peretti-family.md
+  target_type: family
+  relation_type: member_of
   inverse_relation_type: null
-  note: 1682年委托要求Ricci表现斩首题材；DBI确认合同日期为9月28日并说明作品已佚，不把委托等同现存作品。
+  note: 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 326–328; print pp. 9
+    doc_id: peretti-family-wikipedia-it
+    source_file: https://it.wikipedia.org/w/index.php?oldid=152330894
+    source_span: 佩雷蒂家族卡 S4；Storia 与谱系表
   claim_id: null
   confidence: medium
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/urbano-viii.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: patron_of
+  inverse_relation_type: null
+  note: 乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-urban-viii
+    source_file: https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/
+    source_span: 本卡 S7；艺术赞助与圣彼得工程段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 长期赞助人和圣彼得工程委托方
+  scope: 具体作品责任仍须逐项建模
 - source: persons/vincenzo-armanni-ch1.md
   source_type: person
   target: persons/camillo-pamfili.md
   target_type: person
-  relation_type: associated_person
+  relation_type: advised
   inverse_relation_type: null
   note: 未注明日期的信就 Valmontone 别墅装饰提供建议。
   evidence: ''
@@ -819,6 +1502,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 装饰建议提供者
+  scope: 未注明日期的Valmontone别墅装饰书信
 - source: institutions/biblioteca-augusta.md
   source_type: institution
   target: places/perugia.md
@@ -908,7 +1593,7 @@
   source_type: place
   target: works/barberini-salone-bozzetto-disputed.md
   target_type: work
-  relation_type: associated_work
+  relation_type: location_of
   inverse_relation_type: null
   note: 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议。
   evidence: ''
@@ -921,11 +1606,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 本书写作时所报保存地点
+  scope: 归属仍有争议；不延伸为今日馆藏
 - source: places/palazzo-doria-pamfili.md
   source_type: place
   target: works/cortona-doria-pamfili-modelli-disputed.md
   target_type: work
-  relation_type: associated_work
+  relation_type: intended_site_of
   inverse_relation_type: null
   note: 争议稿本被说是为该宫画廊天顶设计，不表示稿本位于宫内。
   evidence: ''
@@ -938,6 +1625,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 所设计天顶的宫殿／画廊
+  scope: 只表示设计对象，不表示稿本位于宫内
 - source: places/pamfili-country-house-valmontone.md
   source_type: place
   target: places/valmontone.md
@@ -993,7 +1682,7 @@
   source_type: work
   target: persons/bonifazio-gozadini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: supplied_by
   inverse_relation_type: null
   note: Gozadini 承诺供应画布及群青，关系限材料供应承诺。
   evidence: ''
@@ -1006,6 +1695,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1639'
+  role: 画布及群青承诺供应者
+  scope: 材料供应承诺；不扩写为作品赞助
 - source: works/albani-servi-altarpiece-1639.md
   source_type: work
   target: places/chiesa-de-servi-bologna.md
@@ -1023,6 +1715,23 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/albani-servi-altarpiece-1639.md
+  source_type: work
+  target: persons/francesco-albani.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 1639年委托中的画家为弗朗切斯科·阿尔巴尼。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 514–516; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: works/bernini-cardinal-borghese-head.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -1035,6 +1744,23 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 700–703; print pp. 17
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/bernini-cardinal-borghese-head.md
+  source_type: work
+  target: persons/cardinal-borghese-ch1.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定。
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-bust
+    source_file: https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2
+    source_span: 本卡 S6–S7；对象与版本对照
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1080,7 +1806,7 @@
   target_type: person
   relation_type: commissioned_by
   inverse_relation_type: null
-  note: 委托者付 6000 scudi，此价明确为例外。
+  note: 第一章记托马斯·贝克为本人胸像支付6000 scudi；据此支持委托／付款角色，未读委托文书。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1097,7 +1823,7 @@
   target_type: institution
   relation_type: located_at
   inverse_relation_type: null
-  note: 仅记录 Haskell 书中时点的馆藏，未核今日现状。
+  note: 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1137,6 +1863,23 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 335–338; print pp. 10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/camassei-martyrdom-saint-sebastian.md
+  source_type: work
+  target: persons/andrea-camassei.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 335–338,372–374; print pp. 10
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1182,12 +1925,12 @@
   target_type: person
   relation_type: created_by
   inverse_relation_type: null
-  note: 退画被明确归于 Caravaggio；具体实物版本尚未识别。
+  note: 柏林绘画馆对象记录确认第一版作者为卡拉瓦乔；本章退画经购藏链与该对象对应，不与后替代版本合并。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 349–353; print pp. 10
+    doc_id: smb-der-evangelist-matthaus-870411
+    source_file: https://id.smb.museum/object/870411
+    source_span: 本卡 S6；对象字段及对象说明全文
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1197,19 +1940,22 @@
   source_type: work
   target: persons/marchese-giustiniani-ch1.md
   target_type: person
-  relation_type: associated_person
+  relation_type: acquired_by
   inverse_relation_type: null
-  note: Giustiniani 买入被拒祭坛画；非该画初始委托人。
+  note: 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 349–353; print pp. 10
+    doc_id: smb-der-evangelist-matthaus-870411
+    source_file: https://id.smb.museum/object/870411
+    source_span: 本卡 S6；对象字段及对象说明全文
   claim_id: null
   confidence: medium
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 约1602后
+  role: 退画购入者
+  scope: 购入第一版；不是初始委托人
 - source: works/ferri-laparelli-altarpiece.md
   source_type: work
   target: persons/annibale-laparelli.md
@@ -1234,6 +1980,23 @@
   relation_type: located_at
   inverse_relation_type: null
   note: 来源明确工程在 Cortona，具体教堂不明。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 507–508; print pp. 13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-laparelli-altarpiece.md
+  source_type: work
+  target: persons/ciro-ferri.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 本章明确祭坛画由费里为拉帕雷利制作。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1273,6 +2036,23 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 437–450; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/ferri-sant-agnese-modello.md
+  source_type: work
+  target: persons/ciro-ferri.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 1670年合同要求费里提交彩色稿并按批准方案施工。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–440; print pp. 12
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1367,7 +2147,7 @@
   source_type: work
   target: persons/fabrizio-valguarnera.md
   target_type: person
-  relation_type: associated_person
+  relation_type: commissioned_by
   inverse_relation_type: null
   note: Valguarnera 请求完成现有画稿。
   evidence: ''
@@ -1380,6 +2160,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 要求完成现有画稿的委托人
+  scope: 完成已有库存画；不是从零委托
 - source: works/lanfranco-magdalene-stock.md
   source_type: work
   target: persons/giovanni-lanfranco.md
@@ -1401,7 +2183,7 @@
   source_type: work
   target: persons/fabrizio-valguarnera.md
   target_type: person
-  relation_type: associated_person
+  relation_type: commissioned_by
   inverse_relation_type: null
   note: Valguarnera 请求完成现有画稿。
   evidence: ''
@@ -1414,6 +2196,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 要求完成现有画稿的委托人
+  scope: 完成已有库存画；不是从零委托
 - source: works/mola-air-valmontone.md
   source_type: work
   target: works/mola-four-elements-valmontone.md
@@ -1520,7 +2304,7 @@
   source_type: work
   target: persons/fabrizio-valguarnera.md
   target_type: person
-  relation_type: associated_person
+  relation_type: commissioned_by
   inverse_relation_type: null
   note: 看见初稿后商议完成；不是从零委托。
   evidence: ''
@@ -1533,6 +2317,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 看见初稿后商议完成的委托人
+  scope: 完成已有初稿；不是从零委托
 - source: works/poussin-massacre-innocents.md
   source_type: work
   target: persons/nicolas-poussin.md
@@ -1618,6 +2404,23 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/ricci-beheading-john-baptist-1682.md
+  source_type: work
+  target: persons/sebastiano-ricci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ricci
+    source_file: https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/
+    source_span: 人物卡 S6；1682-09-28合同段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: works/rubens-chiesa-nuova-altarpiece-1606.md
   source_type: work
   target: places/chiesa-nuova.md
@@ -1625,6 +2428,23 @@
   relation_type: located_at
   inverse_relation_type: null
   note: 委托指定的教堂场所。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 402–404; print pp. 11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: works/rubens-chiesa-nuova-altarpiece-1606.md
+  source_type: work
+  target: persons/peter-paul-rubens.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1656,7 +2476,7 @@
   source_type: work
   target: persons/denis-mahon.md
   target_type: person
-  relation_type: associated_person
+  relation_type: owned_by
   inverse_relation_type: null
   note: 本书记录时属于 Mahon 收藏，不延伸到今天。
   evidence: ''
@@ -1669,11 +2489,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 本书记录时的收藏者
+  scope: 历史收藏状态；不延伸到今天
 - source: works/sacchi-capuchin-altarpiece-modello.md
   source_type: work
   target: institutions/colnaghi.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: handled_by
   inverse_relation_type: null
   note: 1961 年 5–6 月目录号 2 所涉画商经手记录。
   evidence: ''
@@ -1686,18 +2508,21 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1961-05–1961-06
+  role: 画商／目录经手机构
+  scope: Colnaghi目录第2号所涉经手记录
 - source: works/valentin-genre-commission.md
   source_type: work
   target: persons/valentin.md
   target_type: person
-  relation_type: associated_person
+  relation_type: created_by
   inverse_relation_type: null
-  note: 被要求按这些人物角色作画的画家；作品实际完成未知。
+  note: 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 389–392; print pp. 11
+    doc_id: louvre-valentin-inv1418
+    source_file: https://collections.louvre.fr/en/ark:/53355/cl010062321
+    source_span: 瓦朗坦人物卡 S7；完整对象记录
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1707,7 +2532,7 @@
   source_type: archive
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: has_subject
   inverse_relation_type: null
   note: 所述章程属于该学院，具体文本版本未知。
   evidence: ''
@@ -1720,6 +2545,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 受章程规范的机构
+  scope: 第一章所述1621年获确认的章程；具体文本版本未知
 - source: archives/ameyden-relazione-1642.md
   source_type: archive
   target: persons/ameyden.md
@@ -1792,7 +2619,7 @@
   source_type: archive
   target: persons/camillo-pamfili.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人为 Camillo Pamfili。
   evidence: ''
@@ -1805,6 +2632,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 收信人
+  scope: 就Valmontone别墅装饰提供建议的未注明日期书信
 - source: archives/armanni-pamfili-letter-undated.md
   source_type: archive
   target: archives/armanni-delle-lettere.md
@@ -1843,7 +2672,7 @@
   source_type: archive
   target: persons/gio-gasparo-baldoini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_subject
   inverse_relation_type: null
   note: 任命文书中的受任人；日期未知。
   evidence: ''
@@ -1856,6 +2685,27 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 受任画家
+  scope: 任为per nostro pittore；文书日期未知
+- source: archives/baldoini-painter-appointment.md
+  source_type: archive
+  target: persons/maurizio-di-savoia.md
+  target_type: person
+  relation_type: issued_by
+  inverse_relation_type: null
+  note: 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 173–175,188–189; print pp. 6
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 任命者
+  scope: 任命Baldoini为per nostro pittore；文书日期未知
 - source: archives/bianconi-letter-1762.md
   source_type: archive
   target: persons/gl-bianconi.md
@@ -1873,13 +2723,30 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/bianconi-letter-1762.md
+  source_type: archive
+  target: terms/artistic-temperament.md
+  target_type: term
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念。
+  evidence: ''
+  evidence_ref:
+    doc_id: bottari-raccolta-lettere-vii
+    source_file: https://archive.org/details/raccoltadiletter07bott
+    source_span: 本卡 S2；vol. VII, letter X, pp. 357–362
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: archives/camassei-sebastian-receipt.md
   source_type: archive
   target: works/camassei-martyrdom-saint-sebastian.md
   target_type: work
   relation_type: has_subject
   inverse_relation_type: null
-  note: 收据用于确认该祭坛画的画家身份；与合同文本分开。
+  note: 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1894,14 +2761,14 @@
   source_type: archive
   target: archives/bertolotti-artisti-bolognesi.md
   target_type: archive
-  relation_type: part_of
+  relation_type: derived_from
   inverse_relation_type: null
-  note: 收据刊录在该书 pp.161–162；所指是文献刊收关系。
+  note: 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分。
   evidence: ''
   evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 372–374; print pp. 10
+    doc_id: bertolotti-artisti-bolognesi-1885
+    source_file: https://archive.org/details/artistibolognesi00bert
+    source_span: 本卡 S2；印刷页161–162，扫描页174–175
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -1911,9 +2778,9 @@
   source_type: archive
   target: persons/andrea-camassei.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_subject
   inverse_relation_type: null
-  note: 承担列明材料费用的合同画家。
+  note: 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1924,13 +2791,16 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1633'
+  role: 承担画布、颜料等费用的画家
+  scope: 材料与另一付款令卡是否同一文书仍未确认
 - source: archives/camassei-urban-contract-1633.md
   source_type: archive
   target: persons/urbano-viii.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_subject
   inverse_relation_type: null
-  note: 本章明言与 Urban VIII 的合同。
+  note: 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -1941,6 +2811,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1633'
+  role: 付款安排所借名义的教皇与赞助权威
+  scope: 文种及与另一付款令卡的同一性仍未确认
 - source: archives/caravaggio-altarpieces-contract-1600.md
   source_type: archive
   target: works/caravaggio-conversion-saint-paul.md
@@ -2013,7 +2886,7 @@
   source_type: archive
   target: persons/lord-arundell-coke-correspondent.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1620-10-08；经 Hervey 转引。
   evidence: ''
@@ -2026,6 +2899,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1620-10-08'
+  role: 收信人
+  scope: 经Hervey转引的书信
 - source: archives/colnaghi-catalogue-1961.md
   source_type: archive
   target: works/sacchi-capuchin-altarpiece-modello.md
@@ -2064,7 +2940,7 @@
   source_type: archive
   target: persons/antonio-ruffo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1663-09-22；代理人对罗萨的评价。
   evidence: ''
@@ -2072,6 +2948,26 @@
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 971–972; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1663-09-22'
+  role: 收信人
+  scope: 代理人对Salvator Rosa的评价
+- source: archives/de-rosis-ruffo-letter-1663.md
+  source_type: archive
+  target: persons/salvator-rosa.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 代理人在信中评价罗萨宁愿挨饿也不降低作品声誉。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 957–972; print pp. 23
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -2098,9 +2994,29 @@
   source_type: archive
   target: persons/antonio-ruffo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 974–978; print pp. 23
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1672-09-19'
+  role: 收信人
+  scope: 关于拒绝预付及事务繁多的书信
+- source: archives/ferri-ruffo-letter-1672.md
+  source_type: archive
+  target: terms/artistic-independence.md
+  target_type: term
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2149,7 +3065,7 @@
   source_type: archive
   target: persons/cesare-leopardi-dosimo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi。
   evidence: ''
@@ -2162,6 +3078,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1647-07-10'
+  role: 收信人
+  scope: Berlingero Gessi书信
 - source: archives/gini-cortona-letter-1666.md
   source_type: archive
   target: persons/onorato-gini.md
@@ -2217,7 +3136,7 @@
   source_type: archive
   target: persons/paolo-girolamo-piola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 委托信所向画家为 Paolo Girolamo Piola。
   evidence: ''
@@ -2230,6 +3149,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1690'
+  role: 受邀画家／收信对象
+  scope: 住宿与服务条件协商
 - source: archives/grassi-cortona-bozzetti-1957.md
   source_type: archive
   target: works/cortona-doria-pamfili-modelli-disputed.md
@@ -2268,7 +3190,7 @@
   source_type: archive
   target: persons/antonio-ruffo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1649-09-25；每位主要人物报价交涉。
   evidence: ''
@@ -2281,6 +3203,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1649-09-25'
+  role: 收信人
+  scope: 按每位主要人物报价的交涉
 - source: archives/lanfranco-barberini-letter-1640.md
   source_type: archive
   target: persons/giovanni-lanfranco.md
@@ -2304,7 +3229,7 @@
   target_type: person
   relation_type: authored_by
   inverse_relation_type: null
-  note: 脚注署作者；该注称 1627 年初刊，与外部书目存在差异，见正文。
+  note: 第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2319,7 +3244,7 @@
   source_type: archive
   target: persons/mario-minnitti.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_subject
   inverse_relation_type: null
   note: 条款所涉画家为 Minnitti。
   evidence: ''
@@ -2332,11 +3257,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1617'
+  role: 受条款约束的画家
+  scope: Augusta委托条款
 - source: archives/mola-borrowed-genealogy-gods.md
   source_type: archive
   target: persons/pier-francesco-mola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: borrowed_by
   inverse_relation_type: null
   note: Mola 为选择图像内容借阅这部未具题名的神谱。
   evidence: ''
@@ -2349,11 +3277,13 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 借阅者
+  scope: 为选择图像内容借阅的未具题名神谱
 - source: archives/mola-borrowed-virgil-commentary.md
   source_type: archive
   target: persons/pier-francesco-mola.md
   target_type: person
-  relation_type: associated_person
+  relation_type: borrowed_by
   inverse_relation_type: null
   note: Mola 借阅的带注释 Virgil 文本，不指定某部作品或版本。
   evidence: ''
@@ -2366,6 +3296,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 借阅者
+  scope: 带注释的Virgil文本；作品及版本未定
 - source: archives/mola-pamfili-contract-1657.md
   source_type: archive
   target: works/mola-four-elements-valmontone.md
@@ -2404,9 +3336,29 @@
   source_type: archive
   target: persons/marchese-san-tommaso-negri.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1676-12-24；引述画家气质的观念。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 889–900; print pp. 21
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1676-12-24'
+  role: 收信人
+  scope: 引述画家气质观念的书信
+- source: archives/negri-san-tommaso-letter-1676.md
+  source_type: archive
+  target: persons/giovanni-perugini.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2438,9 +3390,29 @@
   source_type: archive
   target: persons/antonio-ruffo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1670-03-22；关于 Maratta 委托困难的抱怨。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 750–758; print pp. 18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670-03-22'
+  role: 收信人
+  scope: 关于Maratta委托困难的书信
+- source: archives/novetti-ruffo-letter-1670.md
+  source_type: archive
+  target: persons/carlo-maratta.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中讨论向马拉塔订画及其不易接受付款的抱怨；不据此断言委托已完成。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2523,7 +3495,7 @@
   source_type: archive
   target: persons/ventura-carrara.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini。
   evidence: ''
@@ -2536,6 +3508,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1696-07-11'
+  role: 收信人
+  scope: Quarismini书信
 - source: archives/ricci-bologna-terms-1682.md
   source_type: archive
   target: works/ricci-beheading-john-baptist-1682.md
@@ -2574,9 +3549,46 @@
   source_type: archive
   target: persons/antonio-ruffo.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1666-04-01；罗萨自述创作动机。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 937–947; print pp. 22
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1666-04-01'
+  role: 收信人
+  scope: Rosa自述创作动机的书信
+- source: archives/rosa-ruffo-letter-1666.md
+  source_type: archive
+  target: terms/artistic-independence.md
+  target_type: term
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 罗萨以拒绝预付和保留创作选择表达不受既定委托束缚的立场。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 927–947; print pp. 22
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+- source: archives/rosa-ruffo-letter-1666.md
+  source_type: archive
+  target: terms/inspiration.md
+  target_type: term
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信中把动笔条件归于热情与灵感；这是罗萨自述，不推广为一般规则。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2608,9 +3620,29 @@
   source_type: archive
   target: persons/leopoldo-de-medici.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 537–540,565–566; print pp. 14
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1662-07-22'
+  role: 收信人
+  scope: Claude作品购画与定价报告
+- source: archives/salviati-medici-letter-1662.md
+  source_type: archive
+  target: persons/claude-lorrain.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 信件讨论购求及估价的对象是克洛德的作品；没有足够端点识别具体画作。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2625,7 +3657,7 @@
   source_type: archive
   target: persons/saverio-savini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_subject
   inverse_relation_type: null
   note: 条款所约束画家为 Savini，不借其他实例补全文本。
   evidence: ''
@@ -2638,6 +3670,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1608'
+  role: 受条款约束的画家
+  scope: Gubbio委托条款
 - source: archives/testi-fontana-bernini-letter.md
   source_type: archive
   target: persons/fulvio-testi.md
@@ -2659,7 +3694,7 @@
   source_type: archive
   target: persons/francesco-fontana.md
   target_type: person
-  relation_type: associated_person
+  relation_type: addressed_to
   inverse_relation_type: null
   note: 本章明确收信人为 Conte Francesco Fontana。
   evidence: ''
@@ -2672,6 +3707,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1633-01-29'
+  role: 收信人
+  scope: Testi致Conte Francesco Fontana、涉及Bernini的书信
 - source: archives/testi-fontana-bernini-letter.md
   source_type: archive
   target: persons/gian-lorenzo-bernini.md
@@ -2689,11 +3727,28 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/testi-fontana-bernini-letter.md
+  source_type: archive
+  target: works/bernini-cardinal-borghese-head.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决。
+  evidence: ''
+  evidence_ref:
+    doc_id: fraschetti-bernini-1900
+    source_file: https://archive.org/details/ilbernini00fras
+    source_span: 本卡 S2；第十二章印刷页108，扫描页130
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
 - source: archives/vasalli-testimony-mola-pamfili.md
   source_type: archive
   target: persons/alessandro-vasalli.md
   target_type: person
-  relation_type: associated_person
+  relation_type: contributed_by
   inverse_relation_type: null
   note: 证词发言者为 Vasalli；不等同断言其亲笔写成原记录。
   evidence: ''
@@ -2706,6 +3761,8 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  role: 证词发言者
+  scope: Mola与Pamfili争议中的记录；不等于亲笔文书
 - source: archives/vasalli-testimony-mola-pamfili.md
   source_type: archive
   target: terms/servitu-particolare.md
@@ -2727,7 +3784,7 @@
   source_type: event
   target: institutions/accademia-di-san-luca.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: has_participant
   inverse_relation_type: null
   note: 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回。
   evidence: ''
@@ -2740,11 +3797,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1633'
+  role: 拟议征税及公共委托排他措施的受益机构
+  scope: 措施未全面施行并撤回
 - source: events/accademia-tax-privilege-1633.md
   source_type: event
   target: persons/urbano-viii.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: Urban VIII 时采取措施；不把法律授予与全面实现混同。
   evidence: ''
@@ -2757,11 +3817,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1633'
+  role: 措施发生时的教皇与授权权威
+  scope: 不把法律授予等同全面实现
 - source: events/guercino-iconography-query-1665.md
   source_type: event
   target: persons/guercino.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: Guercino 主动询问具体图像细节。
   evidence: ''
@@ -2774,11 +3837,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1665'
+  role: 图像细节询问者
+  scope: 只确认提出询问
 - source: events/guercino-iconography-query-1665.md
   source_type: event
   target: works/guercino-sicilian-altarpiece-1665.md
   target_type: work
-  relation_type: associated_work
+  relation_type: has_subject
   inverse_relation_type: null
   note: 询问对象为西西里修道院祭坛画方案；非完成证明。
   evidence: ''
@@ -2791,6 +3857,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1665'
+  role: 所询问的祭坛画方案
+  scope: 图像细节方案；不证明作品完成
 - source: events/guercino-iconography-query-1665.md
   source_type: event
   target: procedures/iconographic-consultation.md
@@ -2812,7 +3881,7 @@
   source_type: event
   target: persons/giovanni-lanfranco.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: 申请人为 Lanfranco；只证明提出申请。
   evidence: ''
@@ -2825,6 +3894,9 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1640-07-14'
+  role: 申请人
+  scope: 提出圣彼得祭坛画申请；未获委托
 - source: events/lanfranco-leo-attila-request-1640.md
   source_type: event
   target: places/naples.md
@@ -2842,11 +3914,51 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: events/lanfranco-leo-attila-request-1640.md
+  source_type: event
+  target: persons/francesco-barberini.md
+  target_type: person
+  relation_type: has_participant
+  inverse_relation_type: null
+  note: DBI确认1640年申请的受文与请求对象为主持圣彼得工程会议的弗朗切斯科·巴贝里尼；申请未获委托。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-lanfranco
+    source_file: https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/
+    source_span: 本卡 S2；1640-07-14 请求段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1640-07-14'
+  role: 受文与请求对象
+  scope: 主持圣彼得工程会议；申请未获委托
+- source: events/lanfranco-leo-attila-request-1640.md
+  source_type: event
+  target: institutions/fabbrica-di-san-pietro.md
+  target_type: institution
+  relation_type: has_participant
+  inverse_relation_type: null
+  note: 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-lanfranco
+    source_file: https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/
+    source_span: 本卡 S2；1640-07-14 请求段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1640-07-14'
+  role: 处理申请所涉工程的机构
+  scope: 申请关系；不表示机构授予委托
 - source: events/sacchi-household-promotion-1640.md
   source_type: event
   target: persons/andrea-sacchi.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: 1640 年晋级事件的画家主体。
   evidence: ''
@@ -2859,11 +3971,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1640'
+  role: 晋级的画家
+  scope: Antonio Barberini家户薪俸等级晋升
 - source: events/sacchi-household-promotion-1640.md
   source_type: event
   target: persons/antonio-barberini.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: 晋级发生于 Antonio 的家户。
   evidence: ''
@@ -2876,11 +3991,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1640'
+  role: 家户主持者
+  scope: Sacchi家户薪俸等级晋升
 - source: events/schildersbent-formation-1623.md
   source_type: event
   target: institutions/schildersbent.md
   target_type: institution
-  relation_type: associated_institution
+  relation_type: has_participant
   inverse_relation_type: null
   note: 此事件记录该组织形成，不把组织与事件合并。
   evidence: ''
@@ -2893,13 +4011,16 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 约1623
+  role: 形成中的艺术家组织
+  scope: 事件与组织对象保持区分
 - source: events/schildersbent-formation-1623.md
   source_type: event
   target: places/rome.md
   target_type: place
   relation_type: occurred_at
   inverse_relation_type: null
-  note: 1623 年在罗马形成。
+  note: 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系。
   evidence: ''
   evidence_ref:
     doc_id: patrons-and-painters
@@ -2914,7 +4035,7 @@
   source_type: event
   target: persons/titian.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: 荣衔接受者为 Titian。
   evidence: ''
@@ -2927,11 +4048,14 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1533'
+  role: 荣衔接受者
+  scope: Count Palatine等荣衔；不采捡画笔逸事
 - source: events/titian-honours-1533.md
   source_type: event
   target: persons/charles-v.md
   target_type: person
-  relation_type: associated_person
+  relation_type: has_participant
   inverse_relation_type: null
   note: 荣衔授予者为 Charles V。
   evidence: ''
@@ -2944,3 +4068,6 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: '1533'
+  role: 荣衔授予者
+  scope: Count Palatine等荣衔；不采捡画笔逸事

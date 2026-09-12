@@ -3,10 +3,10 @@ title: "弗拉维奥·基吉（Flavio Chigi）"
 name_en: "Flavio Chigi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/mario-de-fiori.md","note":"每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 282–283; print pp. 8"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patron_of","target":"persons/mario-de-fiori.md","note":"每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 282–283; print pp. 8"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"每月津贴提供者","scope":"每月30 scudi；不表示作品全部买断"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
   location: 第一章；印刷页 8；OCR L282
@@ -70,9 +70,14 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Flavio_Chigi_(1631%E2%80%931693)) 的 wikibase_item 与 [Wikidata Q1397340](https://www.wikidata.org/wiki/Q1397340) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 赞助者／保护人（`patron_of`） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 282–283; print pp. 8 |
 
 S1：第一章；印刷页 8；OCR L282。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

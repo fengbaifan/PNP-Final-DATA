@@ -3,7 +3,7 @@ title: "法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）"
 name_en: "Fabrizio Valguarnera"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/studio-stock-sale.md","note":"请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 591–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -60,9 +60,18 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 采用程序（`uses_procedure`） | [工作室存画议价与完成（Negotiating and completing studio stock）](../procedures/studio-stock-sale.md) | 请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 591–601; print pp. 15 |
+| ← 委托者（`commissioner_of`，反向投影） | [兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）](../works/lanfranco-crucifixion-stock.md) | Valguarnera 请求完成现有画稿；角色：要求完成现有画稿的委托人；范围：完成已有库存画；不是从零委托；原断言与证据见发出端卡片“兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 596–599; print pp. 15 |
+| ← 委托者（`commissioner_of`，反向投影） | [兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）](../works/lanfranco-magdalene-stock.md) | Valguarnera 请求完成现有画稿；角色：要求完成现有画稿的委托人；范围：完成已有库存画；不是从零委托；原断言与证据见发出端卡片“兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 596–599; print pp. 15 |
+| ← 委托者（`commissioner_of`，反向投影） | [《阿什杜德的瘟疫》（The Plague at Ashdod）](../works/plague-at-ashdod-1631.md) | 看见初稿后商议完成；不是从零委托；角色：看见初稿后商议完成的委托人；范围：完成已有初稿；不是从零委托；原断言与证据见发出端卡片“《阿什杜德的瘟疫》（The Plague at Ashdod）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| ← 委托者（`commissioner_of`，反向投影） | [普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）](../works/poussin-spring-valguarnera.md) | 与安排完成《瘟疫》不同，这是全新委托；原断言与证据见发出端卡片“普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
 
 S1：第一章；印刷页 15；OCR L591–603。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

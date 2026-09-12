@@ -2,15 +2,15 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 317,
-    "digest": "sha256:b832c3541f3adb2aaada9cc4204f135e1331e1354999fbf4bad835e45b3d3544"
+    "units": 320,
+    "digest": "sha256:4d58c64d0866fa75b1df402b37166d9b599b0884c0bb594ca3a174bdd6c336da"
   },
   "projections": [
     {
       "name": "relation_index",
       "status": "rebuildable",
       "generator": "scripts/build_relation_index.py",
-      "generator_hash": "sha256:9a262ef4971a93250afb6220ad42b207bc91a2c485f979a1ec545c7115797232",
+      "generator_hash": "sha256:18d5dcb2c181cddce038e482d603793c5c23660f8fba1cba553525c4117134a6",
       "parameters": [],
       "effective_inputs": {
         "patterns": [
@@ -19,11 +19,11 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/ingest/references/relation-types.yml"
         ],
-        "files": 326,
-        "digest": "sha256:c8d11b8138e8c4f690d8acca65643c37ef87a9fd6511e8b637800faf57e912a1"
+        "files": 329,
+        "digest": "sha256:1b8f27e0547b38c4da81162e13bfa7532ee130f698dcc2735005a707097c73c8"
       },
       "outputs": {
-        "04-knowledge/quality/relation-index.yml": "sha256:5e98b1ceab394b8359d2d14b2fa9346b4358d620ed373186ef92d65932b1d9c9"
+        "04-knowledge/quality/relation-index.yml": "sha256:64dc452f38988ac9412061ca6f193edbd6ee56e820a67a2d1af05a5e0a33430c"
       },
       "missing_outputs": []
     },
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 326,
-        "digest": "sha256:dc2377fd2fed3f0c0b403cbcee859313b241bb0c22dddb69930560aaea4bedc6"
+        "files": 329,
+        "digest": "sha256:c307a5e168d4bbf0f8aae7b4e9d4aa2b0f9d85a5a9a52422d8888323ad9f42ce"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,11 +59,11 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 318,
-        "digest": "sha256:832f1ff155be4691367adc02583f9b0b529807328b8e0c8d76fd61526c3802d3"
+        "files": 321,
+        "digest": "sha256:9842d96f297768615452134f06c4e7a696283236d153faf78ad3b97a088617d3"
       },
       "outputs": {
-        "04-knowledge/quality/translation-index.yml": "sha256:19452c73bf11816ef43468a8ba548d5bf3bb5fdb2cbc7c4610524d37a13fab78"
+        "04-knowledge/quality/translation-index.yml": "sha256:592fabe79e1d45c5dfd441dbba335245025ed808bef2f4fab1ecfc53cf6cfc78"
       },
       "missing_outputs": []
     },
@@ -80,8 +80,8 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 326,
-        "digest": "sha256:3708393b79d56dd1ff0d5f4f54593eea58ca51da08b81f8c54a882a1cc1db9b4"
+        "files": 329,
+        "digest": "sha256:5c41375eb5f4c9994fd5c7d57bc0255aaa0a27853eb57f85f80c56f112d69a49"
       },
       "outputs": {
         "05-outputs/knowledge-graph-data.json": "sha256:52339deb0ef770bf0a77fd158d8d615bdc57ecbbfe7779ef7c811335e5259c50",
@@ -121,7 +121,7 @@
           "05-outputs/**/*"
         ],
         "files": 31,
-        "digest": "sha256:8659b00ebc2eaf20daa1d8b953b091c431401dd3e3b08010d95ad4e7995c7b35"
+        "digest": "sha256:6618cd514c2d671ef8b0cb43d6b1fd5a20c29d7012e153cc14487f19377e40b9"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:767f4f0787b5cc9bc7d1893099a0b715eb7f9aaddaf1301031b62cf9f8666121"
@@ -140,12 +140,12 @@
           "04-knowledge/units/**/*.md",
           "06-runtime/state/current-health.json"
         ],
-        "files": 319,
-        "digest": "sha256:33aced8c0346f4e0acef70bfde0529fefa47313160f4afefec6f24dbcce06b2f"
+        "files": 322,
+        "digest": "sha256:a980651554aedb700ffa16ecb0597f6234eb717f417c69156646a269fb0310c4"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:43d3a619f3fe575084c3a2cb34492e8512cfc92bb40f55d2ae6c8b6103324834",
-        "05-outputs/index/persons.md": "sha256:6657a85b1ec36793c582121a43982f45fe0363af79dfcf9450fe67003364cd14",
+        "05-outputs/index/index.md": "sha256:5851b9b976b6cd512315dca6365cdada74da29a60047d13dd90cdc85347f0c34",
+        "05-outputs/index/persons.md": "sha256:3126413d4183e7af3d01a9268a0a458f7861d09ae7cf440abbcebe65c6e69009",
         "05-outputs/index/institutions.md": "sha256:0b0593bc71c70722371b3831baa9585d21a0149fe9e96bbfdbc79938cbe75ba6",
         "05-outputs/index/places.md": "sha256:144731cd5d33c6e81a409ee2da8df106caeefa6e9ba699cfb87c9c041cd60f68",
         "05-outputs/index/works.md": "sha256:f8d39dc9b8fa8273943472aa0e341972558783de8bb3ea85649f4dd20b928fdf",
@@ -186,7 +186,7 @@
           ".agents/skills/**/references/*.md"
         ],
         "files": 33,
-        "digest": "sha256:d2235d9c7889d43f3e84b75f6c56673f35c3e81c9b5d3b649bb00151bb7d9428"
+        "digest": "sha256:6ce887a7e22c83c130d063446475ad3fa38bfc784c7085d9c7ed2db79162b645"
       },
       "outputs": {
         "06-runtime/state/skill-registry.json": "sha256:192b160cedac22a85ffe6986a0ddd4ca1400feef6ca1d8b0caf0446093671ac7"
@@ -206,12 +206,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 334,
-        "digest": "sha256:a0dd71846408ab6ac6ca259dd01469e0e4cbba55f6b627908b311a7cd091bb7f"
+        "files": 338,
+        "digest": "sha256:bde29c18f06c33f4635373f1ea67bf8c4489ec6b38422ae9df0514c4d082815d"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:d713a65e801fd56d9c5bfdea7aed391b7f6fbb1edf961e9eddc34be68c0bb033",
-        "06-runtime/governance/governance-backlog.md": "sha256:6b4c0de81d4540d60910431194df2ea3ffb0c4daeeef87614e28c426039ebc81"
+        "06-runtime/state/current-health.json": "sha256:dabb500e98aa6af0d3d00603007b265b54e2aa4bb51a33a28b28993d09e71736",
+        "06-runtime/governance/governance-backlog.md": "sha256:1ecc04ba4f0ca4134fbe22d78ebf80130eaf5d7c9956902671dd1dd95afea99f"
       },
       "missing_outputs": []
     }

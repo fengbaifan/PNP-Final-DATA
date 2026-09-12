@@ -3,10 +3,11 @@ title: "希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）"
 name_en: "Cardinal Scipione Borghese"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/domenichino.md","note":"与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"disputed_with","target":"persons/domenichino.md","note":"与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"争执一方","scope":"第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese"}
+  - {"relation_type":"member_of","target":"families/borghese-family.md","note":"希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份。","evidence_ref":{"doc_id":"galleria-borghese-la-villa","source_file":"https://galleriaborghese.cultura.gov.it/il-museo/la-villa/","source_span":"博尔盖塞家族卡 S7；Scipione 段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
   location: 第一章；印刷页 4；OCR L79–83
@@ -114,17 +115,16 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 争执（`disputed_with`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese；角色：争执一方；范围：第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
+| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份；证据：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；博尔盖塞家族卡 S7；Scipione 段 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；原断言与证据见发出端卡片“贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）”：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；galleria-borghese-bust；本卡 S6–S7；对象与版本对照 |
+
 ### 身份与链接
 
 [Wikidata Q452570](https://www.wikidata.org/wiki/Q452570) ↔ [Wikipedia：Scipione Borghese](https://en.wikipedia.org/wiki/Scipione_Borghese)，沿用已完成双向身份配对；本轮全文阅读 S5。Getty ULAN **500245006**、VIAF **54156396** 来自 S6，不表示本轮直接访问核验过这些规范库。
-
-### 正式关系
-
-| 关联知识元 | 类型／方向 | 依据 |
-|---|---|---|
-| [多梅尼基诺（Domenichino）](domenichino.md) | 本人 → Domenichino；associated_person，争执语境 | S1 p.4 L79–83；S2 同书索引 p.453 L1190–1194 具名 |
-
-元数据保留上述 1 条正式边。亲缘、赞助和正文导航仍待集中关系阶段，不由名单自动生成新边。同书索引为内部定位，不当独立外部证据。
 
 ### 未决与采用范围
 

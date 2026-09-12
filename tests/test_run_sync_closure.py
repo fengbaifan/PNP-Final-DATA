@@ -32,7 +32,7 @@ class SyncClosureTests(unittest.TestCase):
         self.assertNotIn("build relation candidates", names)
         self.assertFalse(any("plan_relation_candidates.py" in " ".join(step.command) for step in steps))
         self.assertLess(names.index("build translation index"), names.index("write health and backlog"))
-        self.assertIn("build knowledge graph data", names)
+        self.assertNotIn("build knowledge graph data", names)
         self.assertIn("build output gallery and navigation", names)
         self.assertLess(names.index("index existing candidates"), names.index("build output gallery and navigation"))
         self.assertGreater(names.index("build output gallery and navigation"), names.index("write health and backlog"))
@@ -40,6 +40,18 @@ class SyncClosureTests(unittest.TestCase):
             names.index("build generated projection manifest"),
             names.index("write health and backlog"),
         )
+
+    def test_page_projection_requires_explicit_refresh(self):
+        steps = run_sync_closure.build_steps(
+            full=False,
+            refresh_generated=True,
+            refresh_page=True,
+            changed_paths=[],
+        )
+        names = [step.name for step in steps]
+
+        self.assertIn("build knowledge graph data", names)
+        self.assertLess(names.index("build knowledge graph data"), names.index("audit repository"))
 
     def test_generated_check_covers_all_declared_snapshots(self):
         steps = run_sync_closure.build_steps(
@@ -52,6 +64,26 @@ class SyncClosureTests(unittest.TestCase):
         self.assertIn(
             ["git", "diff", "--exit-code", "HEAD", "--", *run_sync_closure.GENERATED_PATHS],
             [step.command for step in steps],
+        )
+
+        page_steps = run_sync_closure.build_steps(
+            full=False,
+            check_generated=True,
+            refresh_generated=True,
+            refresh_page=True,
+            changed_paths=[],
+        )
+        self.assertIn(
+            [
+                "git",
+                "diff",
+                "--exit-code",
+                "HEAD",
+                "--",
+                *run_sync_closure.GENERATED_PATHS,
+                *run_sync_closure.PAGE_GENERATED_PATHS,
+            ],
+            [step.command for step in page_steps],
         )
 
     def test_relation_index_and_candidates_have_distinct_generators(self):

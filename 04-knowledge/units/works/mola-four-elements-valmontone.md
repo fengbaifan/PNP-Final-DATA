@@ -3,7 +3,7 @@ title: "莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elem
 name_en: "Mola’s Four Elements fresco programme at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/pamfili-country-house-valmontone.md","note":"四元素装饰所处的建筑，与作品已有城市层级定位并存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -67,6 +67,16 @@ sources:
 
 ## 关系与证据
 
-尚无此项目的Wikipedia—Wikidata确认配对。S1第一章第9页L312–319；S2第13页L505–506、516–519；S3–S4为外证。保留原有创作者、委托人与地点关系，但created_by的对象限此方案，绝不表示现存全宫壁画均为Mola所作，集中关系复核须维护这一限定。
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）（Contract Terms for Mola and Pamfili's Valmontone Project (1657)）](../archives/mola-pamfili-contract-1657.md) | Valmontone 工程的材料分担条款；不宣称取得整份合同原件；原断言与证据见发出端卡片“莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）（Contract Terms for Mola and Pamfili's Valmontone Project (1657)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–319,505–506,514–519; print pp. 9,13 |
+| ← 包含成员（`contains`，反向投影） | [莫拉瓦尔蒙托内《空气》构图方案（Mola’s design for Air at Valmontone）](mola-air-valmontone.md) | 空气是四元素装饰题材之一，本卡保留方案内容；原断言与证据见发出端卡片“莫拉瓦尔蒙托内《空气》构图方案（Mola’s design for Air at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
+| → 位于（`located_at`） | [瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）](../places/pamfili-country-house-valmontone.md) | 四元素装饰所处的建筑，与作品已有城市层级定位并存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
+| → 创作者（`created_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 本章明确将四元素装饰项目归于 Mola；不引入第六章毁损叙述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
+| → 由其委托（`commissioned_by`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | Pamfili 别墅工程，相关付款与材料分担脚注支持委托关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319,505–519; print pp. 9,13 |
+| → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](../places/valmontone.md) | 地点为 Valmontone 的乡间宅邸；限书中工程语境；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
+
+尚无此项目的Wikipedia—Wikidata确认配对。S1第一章第9页L312–319；S2第13页L505–506、516–519；S3–S4为外证。本次维持创作者、委托人与地点关系；`created_by`只指此方案，绝不表示现存全宫壁画均为Mola所作。
 
 方案文献、原稿和诉讼档案未全读。史料称已绘与现存保存分别表达；未在本轮使用第六章，也未据装饰题材开启知识涌现。

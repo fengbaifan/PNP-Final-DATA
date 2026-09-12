@@ -3,7 +3,7 @@ title: "保护与职业引介程序（Patronage and professional introduction）
 name_en: "Patronage and professional introduction"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -57,6 +57,9 @@ S3记Marcello Sacchetti是科尔托纳的早期保护人，艺术家约1612年�
 此程序为章内分析性命名，既有英文检索未取得独立Wiki配对；不借艺术赞助、求职或商业营销条目的QID。外部案例补足了具体活动与证据边界，仍未形成可一一对应的Wikipedia／Wikidata对象。引介的具体日期、话语和成功率未证，不造值。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 | 角色入口 | 知识元 | 依据／状态 |
 |---|---|---|

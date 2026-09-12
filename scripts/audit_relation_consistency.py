@@ -10,8 +10,10 @@ from collections import defaultdict
 
 try:
     from scripts._relation_schema import INVERSE_MAP, LEGACY_GENERIC_RELATION_TYPES, VALID_RELATION_TYPES
+    from scripts._accepted_knowledge import select_paths
 except ModuleNotFoundError:
     from _relation_schema import INVERSE_MAP, LEGACY_GENERIC_RELATION_TYPES, VALID_RELATION_TYPES
+    from _accepted_knowledge import select_paths
 
 BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
@@ -89,12 +91,15 @@ def load_jsonl(path):
         if line.strip()
     ]
 
-all_units = set()
+unit_files = []
 for dname in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
     d = UNITS / dname
     if d.exists():
-        for f in d.rglob("*.md"):
-            all_units.add(str(f.relative_to(UNITS)).replace("\\", "/"))
+        unit_files.extend(d.rglob("*.md"))
+all_units = {
+    str(f.relative_to(UNITS)).replace("\\", "/")
+    for f in select_paths(BASE, "units", sorted(unit_files))
+}
 
 def normalize_unit_ref(ref, source=""):
     """Resolve KU-relative targets such as ../works/foo.md to units-root paths."""

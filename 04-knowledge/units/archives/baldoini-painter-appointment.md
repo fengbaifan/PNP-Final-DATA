@@ -4,10 +4,11 @@ name_en: "Maurice of Savoy’s appointment of Baldoino as his painter"
 type: archive
 sub_type: appointment_record
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/gio-gasparo-baldoini.md","note":"任命文书中的受任人；日期未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"persons/gio-gasparo-baldoini.md","note":"任命文书中的受任人；日期未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受任画家","scope":"任为per nostro pittore；文书日期未知"}
+  - {"relation_type":"issued_by","target":"persons/maurizio-di-savoia.md","note":"任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 173–175,188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"任命者","scope":"任命Baldoini为per nostro pittore；文书日期未知"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L173–175,188–189
@@ -56,10 +57,13 @@ sources:
 
 ## 关系与证据
 
-| 关系／角色 | 知识元入口 | 状态 |
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| associated_person：受任人 | [巴尔多伊诺](../persons/gio-gasparo-baldoini.md) | 文件头既有正式关系，保留S1依据 |
-| 任用者 | [毛里齐奥](../persons/maurizio-di-savoia.md) | S1；留待集中关系阶段判断 |
+| → 所涉对象（`has_subject`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
+| → 由其发布（`issued_by`） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](../persons/maurizio-di-savoia.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
+
+正式关系把[巴尔多伊诺](../persons/gio-gasparo-baldoini.md)登记为文书 `has_subject` 的受任画家，把[毛里齐奥](../persons/maurizio-di-savoia.md)登记为文书的 `issued_by` 任命者；两条均保留签署日期未知的限制。
 | 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1；语义导航 |
 
 无确认Wikipedia／Wikidata对象；不借出版物作者或受任人的QID。S1章内位置为p.6、OCR L173–175、188–189；S2为馆藏书目范围，S3为人物对应研究。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留阅读范围。已保存书目与身份补足，原件待证，evidence_status仍为source_backed。

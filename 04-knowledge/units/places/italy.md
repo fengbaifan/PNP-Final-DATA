@@ -3,7 +3,7 @@ title: "意大利（Italy）"
 name_en: "Italy"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -70,6 +70,9 @@ sources:
 已全文阅读新Wikipedia候选页，并定向阅读Treccani所列段落；不是全文阅读Treccani综合条目。资料支持地域／政体区分，未将本章未定义的边界补成精确面积。原语名称的古代词源与19—20世纪边界政治不展开为本章结论。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 | 地点入口 | 对应卡 | 状态 |
 |---|---|---|

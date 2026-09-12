@@ -3,7 +3,7 @@ title: "艺术家荣衔与职位授予（Conferral of titles and offices on arti
 name_en: "Conferral of titles and offices on artists"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -48,7 +48,10 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 - S1：第一章，印刷页19，OCR L770–777、799–804；支持章内荣衔与职位的概括。
 - S2：Treccani兰弗兰科传记指定段；支持1628年授章个案，未读授勋文书。
-- 目前没有正式关系。集中关系阶段区分“授予荣衔”与“交付荣章”，不把Scaglia误作荣衔授予权威。
+- 本次没有接收正式关系。“授予荣衔”与“交付荣章”仍须区分，Scaglia不能误作荣衔授予权威。
 - 未决：各荣衔法定权利、实际任职与俸禄、原授予文书及其日期；概括不代替逐人核对。来源支持状态维持 source_backed。

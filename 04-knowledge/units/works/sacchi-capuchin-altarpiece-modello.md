@@ -3,12 +3,12 @@ title: "萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman
 name_en: "Sacchi’s modello for a Roman Capuchin church altarpiece"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/andrea-sacchi.md","note":"脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/denis-mahon.md","note":"本书记录时属于 Mahon 收藏，不延伸到今天。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_institution","target":"institutions/colnaghi.md","note":"1961 年 5–6 月目录号 2 所涉画商经手记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"owned_by","target":"persons/denis-mahon.md","note":"本书记录时属于 Mahon 收藏，不延伸到今天。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"本书记录时的收藏者","scope":"历史收藏状态；不延伸到今天"}
+  - {"relation_type":"handled_by","target":"institutions/colnaghi.md","note":"1961 年 5–6 月目录号 2 所涉画商经手记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1961-05–1961-06","role":"画商／目录经手机构","scope":"Colnaghi目录第2号所涉经手记录"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L466–468
@@ -65,6 +65,14 @@ sources:
 找到候选[Wikidata Q27974949](https://www.wikidata.org/wiki/Q27974949)：作者Q495008、馆号NG2854和110.7×76.2厘米与馆方相符；其sitelinks为空。英文标签写Anthony Abbot，与馆方的Anthony of Padua不符，英文别名才一致。[S4] 英文和意大利文定向查询未找到可对应的独立Wikipedia对象页，故仍未完成规定的WP—WD双向配对，**不能把候选登记成已通过**。不采用作者、圣徒或教堂QID替代。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）](../archives/colnaghi-catalogue-1961.md) | 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品；原断言与证据见发出端卡片“科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 创作者（`created_by`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 由其收藏／拥有（`owned_by`） | [丹尼斯·马洪（Denis Mahon）](../persons/denis-mahon.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 - 既有正式关系：[创作者萨基](../persons/andrea-sacchi.md)、[收藏者Denis Mahon](../persons/denis-mahon.md)、[Colnaghi](../institutions/colnaghi.md)，3条元数据边本轮保留。created_by的旧note仍反映本章“modello”措辞，关系集中处理时补充当前版本限定。
 - 外部对象入口：[苏格兰国家美术馆NG2854](https://www.nationalgalleries.org/art-and-artists/44597)、[1997图录](https://www.sirdenismahonfoundation.com/wp-content/uploads/2021/10/DISCOVERING_THE_ITALIAN_BAROQUE_LOW.pdf)、[WD候选](https://www.wikidata.org/wiki/Q27974949)。
 - S1保留第一章第12页L466–468及摘要；S2是后期图录已读的对象条目文字，非PDF全书阅读；S3为官方对象页，S4为候选字段。PDF自动提取为空不计阅读，未目视分析原画。

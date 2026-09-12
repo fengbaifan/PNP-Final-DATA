@@ -3,10 +3,10 @@ title: "皮耶特罗·穆利耶尔（Pietro Mulier）"
 name_en: "Pietro Mulier"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/duke-bracciano-mulier.md","note":"雇主公爵不愿 Mulier 离开罗马；不由称号补全公爵身份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patronized_by","target":"persons/duke-bracciano-mulier.md","note":"未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受保护并接受委托的画家","scope":"未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
@@ -92,8 +92,13 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 受其赞助／保护（`patronized_by`） | [布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulier’s patron)）](duke-bracciano-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
+
 - [布拉恰诺公爵](duke-bracciano-mulier.md)：既有关联保留，待核具体公爵。Pascoli pp.180–181写的是拖延、劝留后最终许可，并非永久禁止离开；授衔叙述也未具公爵全名。[S1、S7]
 - [罗马](../places/rome.md)、[米兰](../places/milan.md)为活动地点导航；字段或链接不自动形成新正式边。
 - [Wikipedia英文页](https://en.wikipedia.org/wiki/Pieter_Mulier_II) ↔ [Wikidata Q666337](https://www.wikidata.org/wiki/Q666337)身份配对复用。WD的ULAN500002412、RKD58287本轮未读规范库原站，不冒充再次独立验证。[S5]
 - **不采用：** 馆方把1684年援助者写为生于1597、卒于1647的Don Giovanni de Cabrera，年代不可能相合；保留援助叙事线索，不采这个具体身份。Pascoli称父母商人、近30岁才南下等也不覆盖现代档案研究。[S6、S7]
-- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6馆方全文；S7原刊OCR。本轮补足不等于无争议传记或关系阶段已完成。
+- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6馆方全文；S7原刊OCR。补足与关系均已处理到当前证据上限，但不等于传记争议已经消失。

@@ -3,11 +3,12 @@ title: "奇罗·费里（Ciro Ferri）"
 name_en: "Ciro Ferri"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_work","target":"works/ferri-sant-agnese-modello.md","note":"1670 年要求 Ferri 提供彩稿，并在批准后不得擅改；保留约定语境。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 437–440; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_work","target":"works/ferri-laparelli-altarpiece.md","note":"Ferri 为画家，章中未给准确题名和具体教堂。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 507–508; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年6月3日成为圣路加学院成员。","evidence_ref":{"doc_id":"dbi-ferri","source_file":"https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/","source_span":"本卡 S9；学院成员段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/pietro-da-cortona.md","note":"费里师从科尔托纳；与长期协作分作两条关系。","evidence_ref":{"doc_id":"dbi-ferri","source_file":"https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/","source_span":"本卡 S9；师承与合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"学生","scope":"Ferri从Cortona学习；具体起止年未在本卡定稿"}
+  - {"relation_type":"collaborated_with","target":"persons/pietro-da-cortona.md","note":"费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任。","evidence_ref":{"doc_id":"dbi-ferri","source_file":"https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/","source_span":"本卡 S9；师承与合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"长期助手／合作者","scope":"具体项目责任仍逐作区分"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L437–453
@@ -103,13 +104,20 @@ Laura Falaschi 的 DBI 词条已定向阅读；所引合同、家户文书和全
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）](../archives/ferri-ruffo-letter-1672.md) | 书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年6月3日成为圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；学院成员段 |
+| → 师从／受训于（`trained_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 费里师从科尔托纳；与长期协作分作两条关系；角色：学生；范围：Ferri从Cortona学习；具体起止年未在本卡定稿；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| → 合作（`collaborated_with`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任；角色：长期助手／合作者；范围：具体项目责任仍逐作区分；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| ← 所创作对象（`creator_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 本章明确祭坛画由费里为拉帕雷利制作；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
+| ← 所创作对象（`creator_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | Ferri 的穹顶装饰工程；四年是约定工期；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
+| ← 所创作对象（`creator_of`，反向投影） | [费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）](../works/ferri-sant-agnese-modello.md) | 1670年合同要求费里提交彩色稿并按批准方案施工；原断言与证据见发出端卡片“费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–440; print pp. 12 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Ciro Ferri](https://en.wikipedia.org/wiki/Ciro_Ferri) 与 [Wikidata Q975452](https://www.wikidata.org/wiki/Q975452) 的 sitelink 双向一致；科尔托纳师承、罗马身份和圣阿涅塞工程与本章对象吻合。S7 为全文阅读，S8 为属性级读取。
-
-### 关系记录
-
-文件头保留两条正式关系：人物 → [圣阿涅塞彩色稿](../works/ferri-sant-agnese-modello.md)，以及人物 → [拉帕雷利祭坛画](../works/ferri-laparelli-altarpiece.md)，均为 `associated_work` 并按S1、S2限定。穹顶实体、科尔托纳师承、家庭和教学内容目前只提供导航，不在补足阶段新建正式边。
 
 ### 争议与待补
 

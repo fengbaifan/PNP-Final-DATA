@@ -3,7 +3,7 @@ title: "朱利奥·罗斯皮廖西（Giulio Rospigliosi）"
 name_en: "Giulio Rospigliosi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -104,6 +104,11 @@ sources:
 署名DBI传记负责其生平重建，Palazzo Chigi馆方文章负责所述Gimignani旅行和作品归属论证；两者不是本人自述。相关研究包括Laura Russo《Notizie su Guglielmo Cortese e la famiglia Pamphilj》（1990），在Petrucci文中引至p.194；原论文尚未读，不将转引包装成独立档案核验。WP书目中的音乐史研究仅为研究入口。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](lodovico-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
 **书内来源：** S1第一章p.6、L186–187记保护与旅行；S4索引p.467、L2804–2805将此页注指向Giulio Rospigliosi。S2–S3保留初步候选判断的历史；S5–S8是本轮身份和内容补证。
 

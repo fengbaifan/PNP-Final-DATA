@@ -3,11 +3,12 @@ title: "朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）�
 name_en: "Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/giuseppe-de-rosis.md","note":"书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 971–972; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/antonio-ruffo.md","note":"书信收信人；1663-09-22；代理人对罗萨的评价。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 971–972; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/antonio-ruffo.md","note":"书信收信人；1663-09-22；代理人对罗萨的评价。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 971–972; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1663-09-22","role":"收信人","scope":"代理人对Salvator Rosa的评价"}
+  - {"relation_type":"has_subject","target":"persons/salvator-rosa.md","note":"代理人在信中评价罗萨宁愿挨饿也不降低作品声誉。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 957–972; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L957–958, 971–972
@@ -59,9 +60,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [朱塞佩·德·罗西斯（Giuseppe de Rosis）](../persons/giuseppe-de-rosis.md) | 书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1663-09-22；代理人对罗萨的评价；时间：1663-09-22；角色：收信人；范围：代理人对Salvator Rosa的评价；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
+| → 所涉对象（`has_subject`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 代理人在信中评价罗萨宁愿挨饿也不降低作品声誉；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 957–972; print pp. 23 |
 
 S1：第一章；印刷页 23；OCR L957–958, 971–972。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

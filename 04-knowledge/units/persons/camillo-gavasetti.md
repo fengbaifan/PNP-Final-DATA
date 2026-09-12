@@ -3,7 +3,7 @@ title: "卡米洛·加瓦塞蒂（Camillo Gavasetti）"
 name_en: "Camillo Gavasetti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -84,13 +84,14 @@ Rossella Faraglia 的 DBI 词条已全文阅读；其引用的合同、司法记
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 章中明确指 Gavasetti 在该教堂的壁画与 1624 合同；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Camillo Gavasetti](https://en.wikipedia.org/wiki/Camillo_Gavasetti) 与 [Wikidata Q16853519](https://www.wikidata.org/wiki/Q16853519) 的 sitelink 双向一致；摩德纳出生和圣安托尼诺工程与本章对象吻合。S5 为全文阅读，S6 为全部可见结构化陈述及引用读取。
-
-### 关系记录
-
-本卡目前没有正式关系。[圣安托尼诺堂](../places/sant-antonino-piacenza.md)与[圣安托尼诺壁画](../works/gavasetti-sant-antonino-frescoes.md)是内容导航；委托、地点及创作者关系留待第6阶段统一审查。
 
 ### 争议与待补
 

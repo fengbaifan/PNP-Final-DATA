@@ -3,7 +3,7 @@ title: "特定保护人服务（Servitù particolare）"
 name_en: "Servitù particolare"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6, 7.'
@@ -72,6 +72,11 @@ sources:
 | Piola与Mario de’ Fiori | 宫外居住、津贴等各自变体 | S4；不合并二人生涯 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）](../archives/vasalli-testimony-mola-pamfili.md) | 证词说明有偿优先服务；语义概念与文献载体分开；原断言与证据见发出端卡片“瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
 
 [家户](famiglia.md) · [本府画家](nostro-pittore.md) · [学习旅行](../procedures/patron-funded-study-travel.md) · [Vasalli证词](../archives/vasalli-testimony-mola-pamfili.md)为语境与证据入口；没有据术语概括新建正式边。
 

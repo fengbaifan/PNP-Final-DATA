@@ -3,7 +3,7 @@ title: "帕尔马（Parma）"
 name_en: "Parma"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -97,6 +97,9 @@ S8时间表将1628新郎写为Ottavio，与该页正文及S9的Odoardo不符，�
 - WP全文已读，包括人口、气候、分区、经济、体育、图注和书目；这些部分不自动成为17世纪艺术史事实。书目中的G. Drei、Schumann及Gatto等著作仅作为检索入口，未读著作本体。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 ### 身份与来源
 

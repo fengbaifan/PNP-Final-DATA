@@ -3,8 +3,10 @@ title: "乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）"
 name_en: "Giovanni Battista Passeri"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅。","evidence_ref":{"doc_id":"dbi-passeri","source_file":"https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/","source_span":"本卡 S10；1638年学院登记段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L15–18
@@ -118,13 +120,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/)；dbi-passeri；本卡 S10；1638年学院登记段 |
+
 ### 身份与外部链接
 
 [Wikidata Q962495](https://www.wikidata.org/wiki/Q962495) ↔ [Wikipedia：Giovanni Battista Passeri（英文）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri)。沿用REV-034语义身份配对；REV-052已读该WP版本全文，具体字段仍各依S8–S10。Getty ULAN标识500015309、VIAF 34553612来自WD，原站尚未核读。
-
-### 关系记录
-
-本卡暂无正式出边。上文链接供阅读；学院任职和绘画训练可交关系阶段，不能直接从“学生”概称推定完整师承边。
 
 ### 采用边界与未决项
 

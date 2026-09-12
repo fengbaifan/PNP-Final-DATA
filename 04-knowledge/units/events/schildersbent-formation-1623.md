@@ -3,11 +3,11 @@ title: "画家帮成立（1623）（Formation of the Schildersbent (1623)）"
 name_en: "Formation of the Schildersbent (1623)"
 type: event
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/schildersbent.md","note":"此事件记录该组织形成，不把组织与事件合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"occurred_at","target":"places/rome.md","note":"1623 年在罗马形成。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"institutions/schildersbent.md","note":"此事件记录该组织形成，不把组织与事件合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1623","role":"形成中的艺术家组织","scope":"事件与组织对象保持区分"}
+  - {"relation_type":"occurred_at","target":"places/rome.md","note":"第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L819–833
@@ -54,6 +54,12 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
+| → 发生于（`occurred_at`） | [罗马（Rome）](../places/rome.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
+
 S1：第一章，印刷页20，OCR L819–833及既有PDF回读。S2：Bentvueghels英文页全文。S3：Phoebus Foundation2023展览介绍全文；不是历史成立文书。
 
-文件头2条既有关系保留。occurred_at注释中的1623是本章日期，集中关系阶段应显式加上来源限定，不宣称异文已消除。未决为确切年份、创始成员、地点细节及原引研究核对。状态维持 source_backed。
+本次维持机构与罗马两条正式关系，并把1623明确限定为第一章日期；约1620等外部异文未消除。创始成员、具体地点及原引研究仍待核。状态维持 source_backed。

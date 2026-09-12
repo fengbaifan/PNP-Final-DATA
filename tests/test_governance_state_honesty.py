@@ -37,12 +37,12 @@ def test_translation_health_ignores_triple_dash_inside_url():
     assert health["works"]["coverage"]["title_original"] == "1/1"
 
 
-def test_partial_translation_coverage_affects_health_and_backlog():
+def test_legacy_translation_coverage_remains_diagnostic_without_creating_backlog():
     translation = {"works": {"coverage": {"title_original": "1/2"}}}
     assert translation_coverage_gap_count(translation) == 1
 
     items = gen_p1({"translation_health": translation})
-    assert any(item["id"] == "P1-TRANSLATION-WORKS-TITLE_ORIGINAL" for item in items)
+    assert not any(item["id"] == "P1-TRANSLATION-WORKS-TITLE_ORIGINAL" for item in items)
 
 
 def test_isolated_total_is_not_limited_to_preview_size():

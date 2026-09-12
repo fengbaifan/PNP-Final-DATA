@@ -3,7 +3,7 @@ title: "盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project a
 name_en: "Gaulli’s vault fresco project at the Gesù"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/giovan-battista-gaulli.md","note":"Gaulli 的中殿及横翼拱顶工程；八年为给予的工期。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 447–452; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -67,9 +67,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | Gaulli 的中殿及横翼拱顶工程；八年为给予的工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
+| → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 工程在罗马 Gesù 教堂；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
 
 S1：第一章；印刷页 12；OCR L452–454。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

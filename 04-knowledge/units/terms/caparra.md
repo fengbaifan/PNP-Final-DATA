@@ -3,7 +3,7 @@ title: "定金（Caparra）"
 name_en: "Caparra"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -78,6 +78,9 @@ NGA目录刊引Guercino账簿1649年预付款及随后结算，涉及两半身�
 意大利百科全文主要讲现代担保和退约制度，本文仅用来说明候选外延；其中双倍返还、增值税和消费者退约条文没有回填本章，也不作为当前法律建议。（S6）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia（it）：Caparra](https://it.wikipedia.org/wiki/Caparra) ↔ [Q699604](https://www.wikidata.org/wiki/Q699604)为候选双向配对，历史范围仍待证。全文7490字符、Treccani词条及NGA指定段落已读；没有读账簿MS.B.331原件和1653信原件。
 

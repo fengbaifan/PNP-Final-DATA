@@ -3,7 +3,7 @@ title: "圣彼得营造管理机构（Fabbrica di S. Pietro）"
 name_en: "Fabbrica di S. Pietro"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -66,13 +66,18 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) 的 wikibase_item 与 [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
+
 S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段核对；S6–7为机构官网全文。官网没有在本页给出17世纪逐项薪资账目，故不把机构通史当作贝尔尼尼支付的第二证据。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 ### 身份与未决项
 

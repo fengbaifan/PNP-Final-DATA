@@ -3,8 +3,10 @@ title: "马蒂亚·普雷蒂（Mattia Preti）"
 name_en: "Mattia Preti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"patronized_by","target":"persons/antonio-ruffo.md","note":"1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境。","evidence_ref":{"doc_id":"dbi-preti","source_file":"https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/","source_span":"本卡 S6；Messina与Ruffo段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1646–1649起","role":"作品进入其收藏并保持往来的画家","scope":"限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L523
@@ -84,13 +86,14 @@ Rosanna De Gennaro 的DBI词条已全文阅读；其书目所列文献、合同�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 受其赞助／保护（`patronized_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境；时间：1646–1649起；角色：作品进入其收藏并保持往来的画家；范围：限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托；证据：[来源](https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/)；dbi-preti；本卡 S6；Messina与Ruffo段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Mattia Preti](https://en.wikipedia.org/wiki/Mattia_Preti) 与 [Wikidata Q468632](https://www.wikidata.org/wiki/Q468632) 的 sitelink 双向一致；姓名、生卒范围、Taverna出生、Valletta死亡及意大利—马耳他活动轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取。
-
-### 关系记录
-
-本卡暂未登记正式关系。与 Antonio Ruffo、Gregorio Preti、马耳他骑士团及具体工程的联系已在内容中保留证据和导航；关系阶段再按端点、方向、语境与证据逐条决定是否成边。第一章S1只证明“普雷蒂书信被作者作为定价参考”，不能据此推定收信人或具体价格。
 
 ### 争议与待补
 

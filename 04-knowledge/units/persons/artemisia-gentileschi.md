@@ -3,8 +3,10 @@ title: "阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）"
 name_en: "Artemisia Gentileschi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"corresponded_with","target":"persons/antonio-ruffo.md","note":"1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留。","evidence_ref":{"doc_id":"dbi-artemisia","source_file":"https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/","source_span":"本卡 S6；1649–1650 Ruffo通信段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1649–1650","role":"通信双方","scope":"密集通信涉及付款及拟议委托；不把全部往来合成单一成交"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L523
@@ -96,6 +98,11 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 通信（`corresponded_with`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留；时间：1649–1650；角色：通信双方；范围：密集通信涉及付款及拟议委托；不把全部往来合成单一成交；证据：[来源](https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/)；dbi-artemisia；本卡 S6；1649–1650 Ruffo通信段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi) 与 [Wikidata Q212657](https://www.wikidata.org/wiki/Q212657) 的sitelink双向一致；Lomi／Gentileschi姓名、1593年Rome出生、Orazio之女、画家身份及Rome—Florence—Venice—Naples—London轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取；身份配对不表示S5全部断言均已采用。
@@ -109,7 +116,7 @@ sources:
 | 活动地点 | [Rome](../places/rome.md)、[Florence](../places/florence.md)、[Venice](../places/venice.md)、[Naples](../places/naples.md) | S4、S6–S7支持分期活动；需按时间段审查活动地关系，不能压成一个无时间限定的“位于”关系 |
 | 机构资格 | Accademia delle Arti del Disegno, Florence | S6给出1616-07-19至1620；不是现有[圣路加学院](../institutions/accademia-di-san-luca.md)，不得误连 |
 
-本卡暂未新增正式关系。补足阶段保存了可追踪端点、关系语义与证据范围；全章补足收口后在集中关系阶段分别审查亲缘、师承、会员、活动地、通信、委托、付款和作品关系。
+本次将与Antonio Ruffo在1649–1650年的通信登记为 `corresponded_with`，范围中保留付款与拟议委托语境，不把通信直接等同成交；父女师承因父亲尚无已接收KU，活动地也不以无时间限定的 `located_at` 压缩，故未形成其他正式边。
 
 ### 争议与待补
 

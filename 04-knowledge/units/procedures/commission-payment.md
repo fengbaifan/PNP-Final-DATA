@@ -3,7 +3,7 @@ title: "定金、进度款与结算（Advances, instalments and final payment）
 name_en: "Advances, instalments and final payment"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -53,6 +53,9 @@ NGA目录转述Guercino1649–1650账簿时保留题名、金额修改及两作�
 已补足的[Camassei付款文字](../archives/camassei-sebastian-receipt.md)属于付款令，其日期／执行人矛盾须按该卡处置；[Mola1657条款](../archives/mola-pamfili-contract-1657.md)的签署与实付另有边界。导航不把两卡全部事实转写为本程序的普遍规定。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 尚无独立、同范围的Wikipedia—Wikidata配对。S3为实际读取的NGA目录段落及注释，原始账簿与信件未读。暂无正式关系，[caparra](../terms/caparra.md)是款项用语，不是整个付款程序的替代ID。
 

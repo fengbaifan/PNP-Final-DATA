@@ -3,10 +3,11 @@ title: "乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵
 name_en: "Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/gl-bianconi.md","note":"刊本文字署作者 Gian Lodovico Bianconi；1762-11-22。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v7","source_file":"https://archive.org/details/diletteresulla07bott","source_span":"vol. VII, letter X, pp. 357–362"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"terms/artistic-temperament.md","note":"信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念。","evidence_ref":{"doc_id":"bottari-raccolta-lettere-vii","source_file":"https://archive.org/details/raccoltadiletter07bott","source_span":"本卡 S2；vol. VII, letter X, pp. 357–362"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L896–898
@@ -48,9 +49,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）](../persons/gl-bianconi.md) | 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22；证据：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
+| → 所涉对象（`has_subject`） | [艺术家气质（Artistic temperament）](../terms/artistic-temperament.md) | 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念；证据：[来源](https://archive.org/details/raccoltadiletter07bott)；bottari-raccolta-lettere-vii；本卡 S2；vol. VII, letter X, pp. 357–362 |
 
 S1：第一章；印刷页 21；OCR L896–898。S2：Bottari–Ticozzi 卷 VII，第 X 信，pp. 357–362。S2 为本次阅读全文的刊本文本，支持发受人、日期、地点与全文语境；尚未追到手稿原件、档号或 Haskell 实际使用的具体版本。
 

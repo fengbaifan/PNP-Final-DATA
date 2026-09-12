@@ -3,8 +3,11 @@ title: "弗朗切斯科·特雷维萨尼（Francesco Trevisani）"
 name_en: "Francesco Trevisani"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1697年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-trevisani","source_file":"https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/","source_span":"本卡 S6；1697年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/arcadia.md","note":"1712年加入Arcadia；此前接触与称赞不等于正式入会。","evidence_ref":{"doc_id":"dbi-trevisani","source_file":"https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/","source_span":"本卡 S6；1712年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L220–221,235–237
@@ -91,6 +94,14 @@ sources:
 | 相关研究 | Di Federico1977作品总录；Wolfe2010研究；Pascoli传记1981刊本pp.25–57 | S4、S6；所引原著未全文读 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 这篇未刊传记的传主为 Trevisani；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1697年入会段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1712年入会段 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](pietro-ottoboni.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 220–223; print pp. 7 |
 - 相关知识元：[彼得罗·奥托博尼](pietro-ottoboni.md)、[帕斯科利](pascoli.md)、[未刊传记MS1383](../archives/pascoli-trevisani-life-ms1383.md)、[威尼斯](../places/venice.md)。正文入口不自动生成新边；本卡尚无正式出边。
 - 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Francesco_Trevisani) ↔ [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875)。Getty500005125仅为WD所列且无引，本轮未核原站。
 - S1的第一章第7页L220–221、235–237及摘要保留；S2–S3旧对齐，S4–S7本轮补足。仅使用第一章对象及外部传记，第六章文本未纳入测试。

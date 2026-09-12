@@ -3,7 +3,7 @@ title: "雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）"
 name_en: "Reni’s Massacre of the Innocents"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/guido-reni.md","note":"本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 373–375; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -68,6 +68,11 @@ sources:
 - 待读：Gérard-Julien Salvy, *Guido Reni*（2001）；Vincenzo Costantini, *Guido Reni*（1929）p.48；由S4书目获知，原著未读。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
 
 [Wikipedia：Massacre of the Innocents (Reni)](https://en.wikipedia.org/wiki/Massacre_of_the_Innocents_(Reni)) ↔ [Wikidata Q2448678](https://www.wikidata.org/wiki/Q2448678) 双向一致。作者、同题代表作、对称而克制的构图及馆方原设／馆号共同支持对应本章所评作品；此前仅因章中未列尺寸而保留候选，本轮补读对象与馆方说明后接收身份。未发现本章指向某摹本的正面证据，不把无尺寸本身设为永久阻断条件。
 

@@ -3,7 +3,7 @@ title: "帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Ma
 name_en: "Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/pascoli.md","note":"未刊传记署名；本次未读手稿。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 236–237; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -58,7 +58,14 @@ sources:
 
 ## 关系与证据
 
-- 作者：[帕斯科利](../persons/pascoli.md)；传主：[特雷维萨尼](../persons/francesco-trevisani.md)；引用保管机构：[奥古斯塔图书馆](../institutions/biblioteca-augusta.md)。文件头3条既有正式关系及原章定位保留，补足后的措辞和时点交集中关系阶段复核。
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [利奥内·帕斯科利（Lione Pascoli）](../persons/pascoli.md) | 未刊传记署名；本次未读手稿；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 位于（`located_at`） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 这篇未刊传记的传主为 Trevisani；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+
+- 作者：[帕斯科利](../persons/pascoli.md)；传主：[特雷维萨尼](../persons/francesco-trevisani.md)；引用保管机构：[奥古斯塔图书馆](../institutions/biblioteca-augusta.md)。本次复核维持三条正式关系及原章定位；今日馆藏状态仍按卡内证据范围解释。
 - S1：第一章，第7页，L236–237。S2：Daniele2019文末Pascoli书目条；编号对应文件头sources。
 - **身份：尚未确认Wikipedia—Wikidata配对。** 不借作者或图书馆QID代替手稿。尚需馆方项目目录确认原题、叶码、当前馆号及1981刊本的具体编辑责任。
 - 本轮补入书目与版本事实；不是手稿内容已读、外部身份已确认或全文事实验证完成。

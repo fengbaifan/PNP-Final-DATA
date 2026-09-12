@@ -3,7 +3,7 @@ title: "富尔维奥·泰斯蒂（Fulvio Testi）"
 name_en: "Fulvio Testi"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 17."
@@ -87,9 +87,14 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Fulvio_Testi) 的 wikibase_item 与 [Wikidata Q594614](https://www.wikidata.org/wiki/Q594614) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确书信作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 
 ### 身份与事实状态
 

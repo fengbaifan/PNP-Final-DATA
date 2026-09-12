@@ -3,8 +3,10 @@ title: "西斯笃五世（Sixtus V）"
 name_en: "Sixtus V"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"families/peretti-family.md","note":"世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列。","evidence_ref":{"doc_id":"peretti-family-wikipedia-it","source_file":"https://it.wikipedia.org/w/index.php?oldid=152330894","source_span":"佩雷蒂家族卡 S4；Storia 与谱系表"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
   location: 第一章；印刷页 4；OCR L68–69
@@ -99,13 +101,15 @@ S1：p.4，L68–69，蒙塔尔托与教皇的亲属背景。S2：p.16，L647–
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 亲缘（`kin_of`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](alessandro-peretti-montalto.md) | 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位；角色：侄辈；范围：第一章明确的亲缘称谓；不据此补造父母链；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 68–70; print pp. 4 |
+| → 隶属／任职于（`member_of`） | [佩雷蒂家族（Peretti Family）](../families/peretti-family.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；证据：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；peretti-family-wikipedia-it；佩雷蒂家族卡 S4；Storia 与谱系表 |
+
 ### 身份与外部链接
 
 [Wikidata Q133350](https://www.wikidata.org/wiki/Q133350) ↔ [Wikipedia：Pope Sixtus V（英文）](https://en.wikipedia.org/wiki/Pope_Sixtus_V)。配对沿用REV-034，本轮全文已读。ULAN 500231367、VIAF 7525513据WD取得，原站未核。
-
-### 关系记录
-
-本卡暂无正式出边；[蒙塔尔托人物卡](alessandro-peretti-montalto.md)已有指向本人的associated_person关系，正文提供相互查阅入口，不生成重复事实。
 
 ### 证据与未决项
 

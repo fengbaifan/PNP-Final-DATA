@@ -3,7 +3,7 @@ title: "乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）"
 name_en: "Giovanni Gaspare Baldoino"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -70,6 +70,12 @@ sources:
 英文全名查询未命中专页，意大利语与法语查询取得提及他的尼斯礼拜堂页面等结果；建筑页面不是人物身份。Wikidata全名搜索未取得匹配项，尚无确认QID，不据这些查询断言不存在条目。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
+| ← 由其任命（`appointed_by`，反向投影） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](maurizio-di-savoia.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；原断言与证据见发出端卡片“毛里齐奥·迪·萨伏依（Maurizio di Savoia）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
 
 | 关联角色 | 知识元入口 | 依据／状态 |
 |---|---|---|

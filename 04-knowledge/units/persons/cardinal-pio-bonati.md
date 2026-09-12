@@ -3,7 +3,7 @@ title: "卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）"
 name_en: "Carlo Pio di Savoia"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -92,6 +92,11 @@ sources:
 - 具体藏品目录、委托金额和遗产处置仍须清册／馆藏证据，不以收藏家标签填满作品清单。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](giovanni-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
 **S1：第一章，印刷页6，OCR L186–187。** 句意为皮奥枢机出资支持博纳蒂六城学习旅行；本章本身没有完整姓名。S2–S4初步配对，S9专业传记的junior与人物训练情节提供补充消歧依据。
 

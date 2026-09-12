@@ -3,10 +3,10 @@ title: "安德烈亚·卡马塞伊（Andrea Camassei）"
 name_en: "Andrea Camassei"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_work","target":"works/camassei-martyrdom-saint-sebastian.md","note":"脚注收据识别画家；不据合同条款猜测全部画面。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372,514–516; print pp. 10,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/domenichino.md","note":"Pascoli记其早期进入多梅尼基诺工作室；对其他大师作品的研习不作为亲授。","evidence_ref":{"doc_id":"dbi-camassei","source_file":"https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/","source_span":"本卡 S8；早期训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"进入其工作室的学生／助手","scope":"Pascoli早期训练叙述；不延伸到其他大师作品研习"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L336–338,372–374
@@ -119,6 +119,14 @@ sources:
 研究入口：Attilio Presenzini（1880）；A. Sutherland Harris《A Contribution to Andrea Camassei Studies》（Art Bulletin52，1970，49–70）；M. Aronberg Lavin关于画家材料付款的论文（同刊52，1970，192–194）；Silvestro Nessi（2005）。这里核书目线索，不称原篇全读。Bambach对准备素描的说明已读，风格判断保留评价者责任。[S6、S8、S9]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡马塞伊与乌尔班八世的合同（1633）（Contract between Camassei and Urban VIII (1633)）](../archives/camassei-urban-contract-1633.md) | 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实；时间：1633；角色：承担画布、颜料等费用的画家；范围：材料与另一付款令卡是否同一文书仍未确认；原断言与证据见发出端卡片“卡马塞伊与乌尔班八世的合同（1633）（Contract between Camassei and Urban VIII (1633)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
+| → 师从／受训于（`trained_by`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | Pascoli记其早期进入多梅尼基诺工作室；对其他大师作品的研习不作为亲授；角色：进入其工作室的学生／助手；范围：Pascoli早期训练叙述；不延伸到其他大师作品研习；证据：[来源](https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/)；dbi-camassei；本卡 S8；早期训练段 |
+| ← 所创作对象（`creator_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
+| ← 所创作对象（`creator_of`，反向投影） | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../works/camassei-peter-paul-mamertine-modello.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；原断言与证据见发出端卡片“卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
 
 [Wikipedia](https://en.wikipedia.org/wiki/Andrea_Camassei) ↔ [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565)复用并核对；英文页4152字符全文已读。S1–S10按sources排序，保留本章第10、12、13页来源。原有作品关联边保留，正文导航与亲缘字段未自动成边。
 

@@ -3,10 +3,10 @@ title: "《当今》（1627）（L'Hoggidi (1627)）"
 name_en: "L'Hoggidi (1627)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"authored_by","target":"persons/abate-lancellotti.md","note":"脚注署作者；该注称 1627 年初刊，与外部书目存在差异，见正文。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 45–47; print pp. 3"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"authored_by","target":"persons/abate-lancellotti.md","note":"第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 45–47; print pp. 3"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L45–47
@@ -63,15 +63,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [塞孔多·兰切洛蒂（Secondo Lancellotti）](../persons/abate-lancellotti.md) | 第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 45–47; print pp. 3 |
+
 ### 身份与外部链接
 
 本著作／具体刊本尚无确认QID或配对Wikipedia页。[作者传记](https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/)支持版本信息；作者的QID不充当本书QID。REV-034版本待证状态保留，未借字段补足自动提升身份状态。
-
-### 关系记录
-
-| 正式关系 | 目标 | 依据 |
-|---|---|---|
-| authored_by | [兰切洛蒂](../persons/abate-lancellotti.md) | S1，p.3，L45–47；S3明确作者全名 |
 
 ### 证据与未决项
 

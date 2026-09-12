@@ -3,7 +3,7 @@ title: "圣路加学院（Accademia di S. Luca）"
 name_en: "Accademia di S. Luca"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17, 18.'
@@ -99,6 +99,35 @@ sources:
 - 具体章程条文及执行个案待原件；章程目录和简史不能替代逐条法律文本。（S11）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [圣路加学院章程（1621 年确认）（Statutes of the Accademia di S. Luca (confirmed in 1621)）](../archives/accademia-statutes-confirmed-1621.md) | 所述章程属于该学院，具体文本版本未知；角色：受章程规范的机构；范围：第一章所述1621年获确认的章程；具体文本版本未知；原断言与证据见发出端卡片“圣路加学院章程（1621 年确认）（Statutes of the Accademia di S. Luca (confirmed in 1621)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
+| ← 参与事件（`participated_in`，反向投影） | [圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）](../events/accademia-tax-privilege-1633.md) | 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回；时间：1633；角色：拟议征税及公共委托排他措施的受益机构；范围：措施未全面施行并撤回；原断言与证据见发出端卡片“圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 678–722; print pp. 17–18 |
+| ← 包含成员（`contains`，反向投影） | [安德烈亚·普罗卡奇尼（Andrea Procaccini）](../persons/andrea-procaccini.md) | 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职；原断言与证据见发出端卡片“安德烈亚·普罗卡奇尼（Andrea Procaccini）”：[来源](https://en.wikipedia.org/w/index.php?oldid=1366087864)；wp-procaccini；本卡 S5；生平段 |
+| ← 包含成员（`contains`，反向投影） | [贝内代托·卢蒂（Benedetto Luti）](../persons/benedetto-luti.md) | 1694年4月12日当选圣路加学院成员；原断言与证据见发出端卡片“贝内代托·卢蒂（Benedetto Luti）”：[来源](https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/)；dbi-luti；本卡 S7；1694年入会段 |
+| ← 包含成员（`contains`，反向投影） | [卡洛·马拉塔（Carlo Maratta）](../persons/carlo-maratta.md) | 1662年8月27日加入学院，后多次任负责人；成员与职务分开；原断言与证据见发出端卡片“卡洛·马拉塔（Carlo Maratta）”：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；1662年入会及后续任职段 |
+| ← 包含成员（`contains`，反向投影） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 1657年6月3日成为圣路加学院成员；原断言与证据见发出端卡片“奇罗·费里（Ciro Ferri）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；学院成员段 |
+| ← 包含成员（`contains`，反向投影） | [费德里科·祖卡里（Federico Zuccari）](../persons/federigo-zuccari.md) | 1593–1594 年尝试振兴学院，不作为首次创立的证明；时间：1593–1594；角色：首任Prince及组织领导者；范围：学院振兴／实际组织阶段；不等同1577年设院授权；原断言与证据见发出端卡片“费德里科·祖卡里（Federico Zuccari）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 681–683; print pp. 17 |
+| ← 包含成员（`contains`，反向投影） | [菲利波·劳里（Filippo Lauri）](../persons/filippo-lauri.md) | 1654年加入圣路加学院；原断言与证据见发出端卡片“菲利波·劳里（Filippo Lauri）”：[来源](https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/)；dbi-lauri；本卡 S6；1654年入会段 |
+| ← 包含成员（`contains`，反向投影） | [弗朗切斯科·巴贝里尼（Francesco Barberini）](../persons/francesco-barberini.md) | Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同；角色：Cardinal Protector；范围：学院保护职位；不与Antonio Barberini家户混同；原断言与证据见发出端卡片“弗朗切斯科·巴贝里尼（Francesco Barberini）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 694–696; print pp. 17 |
+| ← 包含成员（`contains`，反向投影） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 1697年加入圣路加学院；原断言与证据见发出端卡片“弗朗切斯科·特雷维萨尼（Francesco Trevisani）”：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1697年入会段 |
+| ← 包含成员（`contains`，反向投影） | [贾钦托·布兰迪（Giacinto Brandi）](../persons/giacinto-brandi.md) | 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属；原断言与证据见发出端卡片“贾钦托·布兰迪（Giacinto Brandi）”：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；学院活动与任职段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）](../persons/giambattista-passeri.md) | 1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅；原断言与证据见发出端卡片“乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）”：[来源](https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/)；dbi-passeri；本卡 S10；1638年学院登记段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）](../persons/giammaria-morandi.md) | 1657年7月1日入学院，后任Prince；原断言与证据见发出端卡片“乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1657年入会段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）](../persons/gianandrea-carlone.md) | 1675年9月11日获圣路加学院接纳；原断言与证据见发出端卡片“乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）”：[来源](https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/)；dbi-carlone；本卡 S6；1675年接纳段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 1631至1632年任学院Prince，足以支持成员归属；学院原档未读；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S8；1631–1632任职段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·奥达齐（Giovanni Odazzi）](../persons/giovanni-odazzi.md) | 1706年加入圣路加学院；原断言与证据见发出端卡片“乔万尼·奥达齐（Giovanni Odazzi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1706年入会段 |
+| ← 包含成员（`contains`，反向投影） | [朱塞佩·盖齐（Giuseppe Ghezzi）](../persons/giuseppe-ghezzi.md) | 1674年经特别程序加入学院并任秘书；与其Arcadia成员身份分开；原断言与证据见发出端卡片“朱塞佩·盖齐（Giuseppe Ghezzi）”：[来源](https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/)；dbi-ghezzi；本卡 S6；1674年学院段 |
+| ← 由其授予权利（`privilege_granted_by`，反向投影） | [格列高利十五世（Gregory XV）](../persons/gregory-xv.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；原断言与证据见发出端卡片“格列高利十五世（Gregory XV）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
+| ← 包含成员（`contains`，反向投影） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](../persons/guglielmo-cortese.md) | 1657年7月加入学院，1660年任primo rettore；原断言与证据见发出端卡片“古列尔莫·科尔泰塞（Guglielmo Cortese）”：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；学院段 |
+| ← 包含成员（`contains`，反向投影） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 脚注明确 Cerquozzi 是学院会员；原断言与证据见发出端卡片“米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
+| ← 包含成员（`contains`，反向投影） | [保罗·圭多蒂（Paolo Guidotti）](../persons/paolo-guidotti.md) | 1605至1606年任书记、1619年任Prince，支持成员归属；原断言与证据见发出端卡片“保罗·圭多蒂（Paolo Guidotti）”：[来源](https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/)；dbi-guidotti；本卡 S6；学院职务段 |
+| ← 由其授予权利（`privilege_granted_by`，反向投影） | [保禄五世（Paul V）](../persons/paul-v.md) | 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述；时间：1605；角色：年度赦免权授予者；范围：圣路加节释放一名死刑犯的权利；据第一章转述；原断言与证据见发出端卡片“保禄五世（Paul V）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 687–689; print pp. 17 |
+| ← 包含成员（`contains`，反向投影） | [彼得·范拉尔（Pieter van Laer）](../persons/pieter-van-laer.md) | 脚注明确 Van Laer 是学院会员；与画家帮身份可以并存；原断言与证据见发出端卡片“彼得·范拉尔（Pieter van Laer）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
+| ← 包含成员（`contains`，反向投影） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 1634年起任学院负责人；不同来源对任期终点有异文；原断言与证据见发出端卡片“皮耶特罗·达·科尔托纳（Pietro da Cortona）”：[来源](https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html)；icg-cortona；本卡 S9；1634–1636学院负责人段 |
+| ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1702年段 |
 
 ### 关系入口
 

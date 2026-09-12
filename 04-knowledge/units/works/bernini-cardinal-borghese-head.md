@@ -3,10 +3,11 @@ title: "贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait hea
 name_en: "Bernini’s portrait head of Cardinal Borghese"
 type: work
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/gian-lorenzo-bernini.md","note":"书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 700–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"persons/cardinal-borghese-ch1.md","note":"外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定。","evidence_ref":{"doc_id":"galleria-borghese-bust","source_file":"https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2","source_span":"本卡 S6–S7；对象与版本对照"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L700–703
@@ -95,15 +96,18 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 700–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；证据：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；galleria-borghese-bust；本卡 S6–S7；对象与版本对照 |
+
 ### 对齐结论
 
 **仍为版本待证，未采用确认 QID。** [英文 Wikipedia 两件胸像页](https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese) 与 [Wikidata Q16534303](https://www.wikidata.org/wiki/Q16534303) 链接互返，但后者英文标签只指第一版。本人身份、两件共同题材和单件作品身份是不同判断。
 
 本轮将“被表现者也完全不明”缩小为“Scipione 已有外部对应依据，具体版次与结算范围仍未明”；初步对齐统计继续归版本待证，不计新增配对通过。
-
-### 正式关系与导航
-
-保留作品 → [贝尔尼尼](../persons/gian-lorenzo-bernini.md) 的 **created_by** 正式边，证据为第一章 p.17 L700–703。被表现者与[泰斯蒂书信](../archives/testi-fontana-bernini-letter.md)在内容字段提供导航；集中关系阶段再按具体证据接收相应边，不以新增链接冒充已完成关系处理。
 
 ### 当前结果
 

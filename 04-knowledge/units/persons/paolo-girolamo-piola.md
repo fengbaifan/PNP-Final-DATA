@@ -3,10 +3,10 @@ title: "保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）"
 name_en: "Paolo Gerolamo Piola"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/marchese-pallavicini-piola.md","note":"1690 年要求住在这位保护人宫外；仅保留该居住协商语境。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 278–281; print pp. 8"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patronized_by","target":"persons/marchese-pallavicini-piola.md","note":"1690 年要求住在这位保护人宫外；仅保留该居住协商语境。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 278–281; print pp. 8"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1690","role":"受邀服务并协商住宿的画家","scope":"只涵盖保护人宫内外居住协商"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
   location: 第一章；印刷页 8；OCR L278–281
@@ -88,13 +88,15 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../archives/giovanni-adamo-piola-letter-1690.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；原断言与证据见发出端卡片“列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 354–356,376; print pp. 10 |
+| → 受其赞助／保护（`patronized_by`） | [尼科洛·马里亚·帕拉维奇尼侯爵（Niccolò Maria Pallavicini）](marchese-pallavicini-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 278–281; print pp. 8 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Paolo Gerolamo Piola](https://en.wikipedia.org/wiki/Paolo_Gerolamo_Piola) 与 [Wikidata Q3894101](https://www.wikidata.org/wiki/Q3894101) 的 sitelink 双向一致；姓名、热那亚身份、父亲与罗马经历共同支持本章对象配对。S5 为全文阅读，S6 按属性读取。
-
-### 关系记录
-
-正式关系保存在文件头：本卡人物 → [Marchese Pallavicini](marchese-pallavicini-piola.md)（`associated_person`），仅表示1690年保护及居住协商语境，由S1支持。父亲、兄弟、教师和其他职业接触尚未因此自动生成新边。
 
 ### 争议与待补
 

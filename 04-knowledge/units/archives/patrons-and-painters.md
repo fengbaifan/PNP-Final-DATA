@@ -3,7 +3,7 @@ title: "《赞助人与画家》（Patrons and Painters）"
 name_en: "Patrons and Painters"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), title and copyright pages.'
@@ -58,13 +58,12 @@ S1为书名／版权页OCR L3–17（无印刷页号），记录本件版本及�
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 ### 身份与外部链接
 
 [Open Library 1980版记录](https://openlibrary.org/books/OL4093986M/Patrons_and_painters)。本书尚无确认的Wikipedia—Wikidata配对；作者身份标识不能代替著作或版次标识。
-
-### 关系记录
-
-本卡暂无正式出边；本章KU的sources引用本书，不必为每次引文重复增建图谱关系。
 
 ### 证据与未决项
 

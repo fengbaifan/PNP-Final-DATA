@@ -4,7 +4,7 @@ name_en: "Contract for Caravaggio's Two Altarpieces (1600)"
 type: archive
 sub_type: contract
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/caravaggio-conversion-saint-paul.md","note":"合同涉及《圣保罗归化》委托与预先示稿要求。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 397–401,421; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -56,6 +56,12 @@ sources:
 - **结算：** S2–S3指1601-11-10及总额减少100 scudi；合同原约、实际结算及1605安装记录是不同事件，不把400写成最终实付总额。（S2–S3）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../works/caravaggio-conversion-saint-paul.md) | 合同涉及《圣保罗归化》委托与预先示稿要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
+| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../works/caravaggio-martyrdom-saint-peter.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
 
 本合同没有可确认的独立Wikipedia—Wikidata配对，不能借用画家或其中某幅作品的QID。来源S2的英文对象页全文已读，S3网页记录全文已读；两者支持本轮条款线索，不等于看过合同手稿或刊本原页。
 

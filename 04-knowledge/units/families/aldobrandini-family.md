@@ -3,7 +3,7 @@ title: 阿尔多布兰迪尼家族（Aldobrandini Family）
 name_en: Aldobrandini Family
 type: family
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -68,10 +68,10 @@ sources:
 
 | 类别 | 人物 | 信息与限定 | 证据 |
 |---|---|---|---|
-| 成员 | 伊波利托·阿尔多布兰迪尼（Ippolito Aldobrandini） | 即克勉八世（Clement VIII） | S4；S5 |
-| 成员 | 奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini） | 两次婚姻分项记录如下 | S8 |
-| 婚姻 | Olimpia Aldobrandini — Paolo Borghese | S8 所述前夫；后为其遗孀，婚期尚未核定 | S8 |
-| 婚姻 | Olimpia Aldobrandini — [卡米洛·潘菲利（Camillo Pamphili）](../persons/camillo-pamfili.md) | 1647-02-10；婚期异文见第三部分 | S8；S6 |
+| 成员 | [伊波利托·阿尔多布兰迪尼／克勉八世（Clement VIII）](../persons/clement-viii.md) | 本名与教宗名分开；家族成员关系已正式登记 | S4；S5 |
+| 成员 | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 两次婚姻分项记录如下；家族成员关系已正式登记 | S6–S8及人物卡 |
+| 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [Paolo Borghese](../persons/paolo-borghese.md) | 1638年结婚，1646年丧偶；正式配偶边由Olimpia卡发出 | 人物卡S1–S3 |
+| 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [卡米洛·潘菲利（Camillo Pamphili）](../persons/camillo-pamfili.md) | 采用1647-02-10；婚期异文见第三部分 | S8；S6及人物卡 |
 
 ### 沿革、财产与收藏
 
@@ -97,8 +97,11 @@ S1 将家族城乡宅邸作为博洛尼亚画家早期作品的容纳空间。�
 ## 关系与证据
 
 ### 关系记录
-
-本卡目前没有正式关系；成员、联姻、收藏及链接均为带证据的内容记录。联姻不能替代成员关系，个人收藏也不能直接归为整个家族所有。具体端点和证据交关系阶段处理。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [克勉八世（Clement VIII）](../persons/clement-viii.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；原断言与证据见发出端卡片“克勉八世（Clement VIII）”：[来源](https://www.wikidata.org/wiki/Q961820)；aldobrandini-family-wikipedia-wikidata；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
+| ← 包含成员（`contains`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人；时间：1623–1681；角色：出生家族成员与主要继承人；范围：只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；导言与Early life and ancestry |
+家族成员关系由具名人物卡以 `member_of` 发出，本卡显示反向入口；婚姻由Olimpia人物卡发出，不将配偶自动改写为整个家族的成员。
 
 ### 身份与证据范围
 

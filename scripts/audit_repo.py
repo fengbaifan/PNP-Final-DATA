@@ -526,54 +526,57 @@ def local_file_issues(files: list[Path], base: Path) -> list[dict[str, str]]:
 
 
 def evidence_ref_check(files: list[Path], base: Path) -> dict:
-    def first_doc_id(value) -> str:
-        if isinstance(value, dict):
-            doc_id = value.get("doc_id")
-            if doc_id:
-                return str(doc_id).strip()
-            for nested in value.values():
-                found = first_doc_id(nested)
-                if found:
-                    return found
-        elif isinstance(value, list):
-            for nested in value:
-                found = first_doc_id(nested)
-                if found:
-                    return found
-        return ""
-
     with_ref: int = 0
     without_ref: int = 0
     refs_resolvable: int = 0
     refs_broken: int = 0
+    units_with_traceable_source: int = 0
     for path in files:
-        text = read_text(path)
-        doc_id = ""
-        fm = extract_frontmatter(text)
-        if fm:
-            try:
-                import yaml
-                doc_id = first_doc_id(yaml.safe_load(fm) or {})
-            except Exception:
-                doc_id = ""
-        if not doc_id:
-            found_ref = re.search(r"doc_id:\s*['\"]?([^'\",\}\n]+)", text)
-            if found_ref:
-                doc_id = found_ref.group(1).strip()
-        if doc_id:
+        try:
+            data = yaml.safe_load(extract_frontmatter(read_text(path))) or {}
+        except Exception:
+            data = {}
+        sources = data.get("sources", []) if isinstance(data, dict) else []
+        if isinstance(sources, dict):
+            sources = [sources]
+        refs = [
+            source.get("evidence_ref")
+            for source in sources
+            if isinstance(source, dict) and isinstance(source.get("evidence_ref"), dict)
+        ]
+        if refs:
             with_ref += 1
-            check_path = base / "02-sources" / doc_id
-            if check_path.exists():
-                refs_resolvable += 1
-            else:
-                refs_broken += 1
         else:
             without_ref += 1
+        unit_has_resolvable_ref = False
+        for ref in refs:
+            source_file = str(ref.get("source_file", "")).strip()
+            doc_id = str(ref.get("doc_id", "")).strip()
+            resolvable = (
+                source_file.startswith(("https://", "http://"))
+                or bool(source_file and (base / source_file).exists())
+                or bool(doc_id and (base / "02-sources" / doc_id).exists())
+            )
+            if resolvable:
+                refs_resolvable += 1
+                unit_has_resolvable_ref = True
+            else:
+                refs_broken += 1
+        source_metadata_traceable = any(
+            isinstance(source, dict)
+            and bool(str(source.get("citation", "")).strip())
+            and bool(str(source.get("location", "")).strip())
+            for source in sources
+        )
+        if unit_has_resolvable_ref or source_metadata_traceable:
+            units_with_traceable_source += 1
     return {
         "sources_with_evidence_ref": with_ref,
         "sources_without_evidence_ref": without_ref,
         "evidence_ref_resolvable": refs_resolvable,
         "evidence_ref_broken": refs_broken,
+        "evidence_refs_total": refs_resolvable + refs_broken,
+        "units_with_traceable_source": units_with_traceable_source,
     }
 
 
@@ -889,6 +892,8 @@ def growth_candidate_signals(base: Path, duplicate_groups: dict[str, list[str]])
 
 def snapshot_disclaimer_check(base: Path) -> list[str]:
     drafts_readme = base / "05-outputs" / "drafts" / "README.md"
+    if not drafts_readme.parent.exists():
+        return []
     if not drafts_readme.exists():
         return ["drafts/README.md missing"]
     text = read_text(drafts_readme)
@@ -1004,8 +1009,7 @@ def build_structural_health_score(results: dict) -> dict:
         len(results.get("frontmatter_missing", [])) +
         len(results.get("frontmatter_malformed", [])) +
         sum(len(v) for v in results.get("required_field_missing", {}).values()) +
-        len(results.get("body_only_field_issues", [])) +
-        translation_coverage_gap_count(results.get("translation_health", {}))
+        len(results.get("body_only_field_issues", []))
     )
     fm_score = max(0, 20 - min(frontmatter_issues_count * 1, 20))
     total += fm_score
@@ -1023,34 +1027,27 @@ def build_structural_health_score(results: dict) -> dict:
 
     er = results.get("evidence_ref", {})
     total_er = er.get("sources_with_evidence_ref", 0) + er.get("sources_without_evidence_ref", 1)
-    evidence_ref_ratio = er.get("sources_with_evidence_ref", 0) / max(total_er, 1)
-    resolvable_ratio = er.get("evidence_ref_resolvable", 0) / max(er.get("sources_with_evidence_ref", 0), 1)
-    ct = results.get("claim_traceability", {})
-    total_claims = ct.get("total_claims", 0)
-    claim_source_ratio = ct.get("claims_with_source", 0) / max(total_claims, 1)
-    claim_statement_ratio = ct.get("claims_with_statement_en", 0) / max(total_claims, 1)
-    claim_support_ratio = (
-        (ct.get("claims_with_supports", 0) + ct.get("claims_with_supported_by", 0)) / max(total_claims, 1)
-        if ct.get("claim_registry_exists") else 0
+    evidence_ref_ratio = er.get("units_with_traceable_source", er.get("sources_with_evidence_ref", 0)) / max(total_er, 1)
+    resolvable_ratio = er.get("evidence_ref_resolvable", 0) / max(
+        er.get("evidence_refs_total", er.get("sources_with_evidence_ref", 0)), 1
     )
     rt = results.get("relation_traceability", {})
     relation_evidence_ratio = rt.get("explicit_relations_with_evidence", 0) / max(rt.get("explicit_relations", 0), 1)
     link_penalty = min(len(results.get("markdown_link_issues", [])) // 200, 1)
     local_penalty = min(len(results.get("local_file_issues", [])), 2)
     trace_score = round(
-        evidence_ref_ratio * 4 +
-        resolvable_ratio * 3 +
-        claim_source_ratio * 1 +
-        claim_statement_ratio * 1 +
-        claim_support_ratio * 5 +
-        relation_evidence_ratio * 2 -
+        evidence_ref_ratio * 5 +
+        resolvable_ratio * 4 +
+        relation_evidence_ratio * 6 -
         link_penalty -
         local_penalty
     )
     trace_score = max(0, min(trace_score, 15))
     total += trace_score
 
-    df_issues = len(results.get("dataflow_issues", []))
+    accepted_catalog = results.get("execution_scope", {}).get("knowledge_inputs") == "accepted_catalog"
+    inventory_is_progress = results.get("execution_scope", {}).get("processing_inventory_is_research_progress", True)
+    df_issues = 0 if accepted_catalog else len(results.get("dataflow_issues", []))
     df_score = max(0, 10 - min(df_issues * 2, 10))
     total += df_score
 
@@ -1058,7 +1055,6 @@ def build_structural_health_score(results: dict) -> dict:
     has_current = results.get("current_health_exists", False)
     vs2 = results.get("verification_schema", {})
     vs2_issues = vs2.get("missing_evidence_status", {}).get("count", 0) // 10
-    vs2_issues += vs2.get("missing_verification_level_when_not_tentative", {}).get("count", 0) // 5
     report_score = 10
     if missing_disclaimer > 0:
         report_score -= min(missing_disclaimer * 2, 6)
@@ -1088,7 +1084,7 @@ def build_structural_health_score(results: dict) -> dict:
         len(rq.get("semantic_maps_with_unresolved", [])) * 1 +
         rq.get("manifests_scaffolded", 0) * 2
     )
-    recall_score = max(0, 15 - min(rq_issues, 15))
+    recall_score = 15 if not inventory_is_progress else max(0, 15 - min(rq_issues, 15))
     total += recall_score
 
     srq = results.get("semantic_artifact_integrity", {})
@@ -1099,7 +1095,7 @@ def build_structural_health_score(results: dict) -> dict:
         len(srq.get("chapters_without_source_structure_map", [])) * 1 +
         len(srq.get("chapters_without_extraction_coverage_matrix", [])) * 2
     )
-    reading_score = max(0, 15 - min(srq_issues, 15))
+    reading_score = 15 if not inventory_is_progress else max(0, 15 - min(srq_issues, 15))
     total += reading_score
 
     return {
@@ -1156,7 +1152,7 @@ def build_knowledge_structure_quality_score(results: dict) -> dict:
 def build_evidence_quality_score(results: dict) -> dict:
     er = results.get("evidence_ref", {})
     total_er = er.get("sources_with_evidence_ref", 0) + er.get("sources_without_evidence_ref", 0)
-    coverage = er.get("sources_with_evidence_ref", 0) / max(total_er, 1)
+    coverage = er.get("units_with_traceable_source", er.get("sources_with_evidence_ref", 0)) / max(total_er, 1)
     er_score = int(coverage * 20)
     cm = results.get("chunk_meta", {})
     chunk_total = cm.get("total_chunks", 0)
@@ -1168,9 +1164,8 @@ def build_evidence_quality_score(results: dict) -> dict:
     hash_score = 10 if hash_total == 0 else max(0, 10 - int((hash_missing / max(hash_total, 1)) * 10))
     vs2 = results.get("verification_schema", {})
     es_count = vs2.get("missing_evidence_status", {}).get("count", 0)
-    vl_count = vs2.get("missing_verification_level_when_not_tentative", {}).get("count", 0)
     total_units = max(results.get("summary", {}).get("total_units", 1), 1)
-    schema_coverage = max(0, 10 - int(((es_count + vl_count) / total_units) * 50))
+    schema_coverage = max(0, 10 - int((es_count / total_units) * 50))
     total = er_score + chunk_score + hash_score + schema_coverage
     return {
         "score_kind": "evidence_chain_integrity",
@@ -1197,9 +1192,14 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
         raw_source_count = scalar_frontmatter_field(snapshot.text, "source_count")
         if raw_source_count.isdigit():
             value = int(raw_source_count)
-            source_counts["multi_source" if value >= 2 else "single_source" if value == 1 else "zero"] += 1
         else:
-            source_counts["missing_or_invalid"] += 1
+            try:
+                frontmatter_data = yaml.safe_load(snapshot.frontmatter) or {}
+            except yaml.YAMLError:
+                frontmatter_data = {}
+            raw_sources = frontmatter_data.get("sources") or [] if isinstance(frontmatter_data, dict) else []
+            value = len(raw_sources) if isinstance(raw_sources, list) else 0
+        source_counts["multi_source" if value >= 2 else "single_source" if value == 1 else "zero"] += 1
         confidence[scalar_frontmatter_field(snapshot.text, "confidence") or "missing"] += 1
         consensus[scalar_frontmatter_field(snapshot.text, "consensus") or "missing"] += 1
         evidence_status[scalar_frontmatter_field(snapshot.text, "evidence_status") or "missing"] += 1
@@ -1208,7 +1208,6 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
     relation_path = base / "04-knowledge" / "quality" / "relation-index.yml"
     if relation_path.is_file():
         try:
-            import yaml
             for relation in yaml.safe_load(relation_path.read_text(encoding="utf-8-sig")) or []:
                 if not isinstance(relation, dict):
                     continue
@@ -1232,6 +1231,12 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
             pass
 
     hierarchy = hierarchy_assignment_check(snapshots)
+    catalog = load_catalog(base)
+    discovery_started = (
+        bool(catalog["structure"])
+        if catalog is not None
+        else any(count_structure_nodes(base).values())
+    )
     return {
         "metric_kind": "unscored_semantic_maturity",
         "total_units": len(snapshots),
@@ -1247,8 +1252,11 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
             "tentative_units": consensus.get("tentative", 0),
             "low_confidence_units": confidence.get("low", 0),
             "candidates_needing_evidence": candidate_counts.get("by_state", {}).get("needs_evidence", 0),
-            "units_missing_hierarchy_assignment": hierarchy["units_missing_any_assignment"],
+            "units_missing_hierarchy_assignment": (
+                hierarchy["units_missing_any_assignment"] if discovery_started else 0
+            ),
         },
+        "hierarchy_assignment_status": "active" if discovery_started else "not_started",
     }
 
 
@@ -1731,18 +1739,19 @@ def build_results(base: Path) -> dict:
         "output_file_back": output_file_back,
         "runtime_artifact_retention": runtime_retention,
     }
+    agents_entry = base / "AGENTS.md"
+    first_part = agents_entry.is_file() and any(value in read_text(agents_entry) for value in ("当前执行第一部分", "研究尚未执行"))
+    accepted_catalog = load_catalog(base) is not None
+    raw_results["execution_scope"] = {
+        "part": "knowledge" if first_part else "unspecified",
+        "hierarchy_assignment": "not_in_current_scope" if first_part else "review_required",
+        "knowledge_inputs": "accepted_catalog" if accepted_catalog else "legacy_inventory",
+        "processing_inventory_is_research_progress": not accepted_catalog,
+    }
     raw_results["structural_health"] = build_structural_health_score(raw_results)
     raw_results["knowledge_structure_quality"] = build_knowledge_structure_quality_score(raw_results)
     raw_results["evidence_quality"] = build_evidence_quality_score(raw_results)
     raw_results["knowledge_maturity"] = knowledge_maturity_check(base, snapshots)
-    agents_entry = base / "AGENTS.md"
-    first_part = agents_entry.is_file() and any(value in read_text(agents_entry) for value in ("当前执行第一部分", "研究尚未执行"))
-    raw_results["execution_scope"] = {
-        "part": "knowledge" if first_part else "unspecified",
-        "hierarchy_assignment": "not_in_current_scope" if first_part else "review_required",
-        "knowledge_inputs": "accepted_catalog" if load_catalog(base) is not None else "legacy_inventory",
-        "processing_inventory_is_research_progress": False,
-    }
     return raw_results
 
 

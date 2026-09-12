@@ -3,7 +3,7 @@ title: "皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）"
 name_en: "S. Antonino, Piacenza"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/piacenza.md","note":"教堂名称与城市在委托事例中明确并列定位。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 323–326; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -71,9 +71,15 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Sant'Antonino%2C_Piacenza) 的 wikibase_item 与 [Wikidata Q1670729](https://www.wikidata.org/wiki/Q1670729) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [皮亚琴察（Piacenza）](piacenza.md) | 教堂名称与城市在委托事例中明确并列定位；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 作品定位为 Piacenza 的 S. Antonino 教堂；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
 
 S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；OCR L520–521。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

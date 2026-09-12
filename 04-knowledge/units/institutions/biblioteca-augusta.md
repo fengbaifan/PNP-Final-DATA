@@ -3,7 +3,7 @@ title: "奥古斯塔图书馆（Biblioteca Augusta）"
 name_en: "Biblioteca Augusta"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/perugia.md","note":"书中明确图书馆位于 Perugia。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 236–237; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -66,6 +66,12 @@ sources:
 [Wikipedia英文页](https://en.wikipedia.org/wiki/Biblioteca_Augusta)与[Wikidata Q3639560](https://www.wikidata.org/wiki/Q3639560)双向身份配对复用。P625坐标43.11361111、12.39055556仅作现代定位；P856优先官网为[佩鲁贾市政府馆页](https://www.comune.perugia.it/biblioteca-augusta-perugia/)。P571、P112在抓取中为空，成立节点与捐赠人采用馆史，不造WD已有对应值的印象。[S5、S6]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 位于（`located_at`） | [佩鲁贾（Perugia）](../places/perugia.md) | 书中明确图书馆位于 Perugia；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
 
 - 位于：[佩鲁贾](../places/perugia.md)，文件头保留该正式关系。馆藏线索：[Pascoli《特雷维萨尼传》手稿](../archives/pascoli-trevisani-life-ms1383.md)；此链接不另造关系。
 - S1：第一章，第7页，L236–237；S2–S3为初步身份核对；S4为完整百科页；S5为WD字段复核；S6为官网全文阅读。各条按文件头顺序。

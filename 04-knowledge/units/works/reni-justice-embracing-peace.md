@@ -3,7 +3,7 @@ title: "雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embrac
 name_en: "Reni’s Justice embracing Peace commission (1617)"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/duke-mantua-reni-1617.md","note":"1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -51,6 +51,12 @@ sources:
 Reni的贡扎加《赫拉克勒斯功业》及其他题为“正义”的绘画不能只凭作者、赞助人或部分题名相同并入本卡。保留本章所指新委托这一范围；公爵身份已有进展，作品身份没有同步被解决。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 创作者（`created_by`，反向投影） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；原断言与证据见发出端卡片“圭多·雷尼（Guido Reni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
+| → 由其委托（`commissioned_by`） | [费迪南多·贡扎加（Ferdinando Gonzaga）](../persons/duke-mantua-reni-1617.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
 
 没有已确认的本对象Wikipedia—Wikidata配对；英文题名、意大利文Giustizia／Pace及Gonzaga／Reni检索本轮未形成可核对象。查询未命中只表示本轮未找到，不宣称不存在条目或作品。
 

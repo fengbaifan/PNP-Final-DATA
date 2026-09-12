@@ -3,8 +3,11 @@ title: "乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）"
 name_en: "Giovanni Maria Morandi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年7月1日入学院，后任Prince。","evidence_ref":{"doc_id":"dbi-morandi","source_file":"https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/","source_span":"本卡 S6；1657年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/arcadia.md","note":"1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文。","evidence_ref":{"doc_id":"dbi-morandi","source_file":"https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/","source_span":"本卡 S6；1699年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L744–745
@@ -74,6 +77,12 @@ sources:
 学生有Pietro Nelli、Odoardo Vicinelli等，由DBI列出；未逐个接收为新KU。研究：Laura Mocci，DBI76（2012）；Waterhouse1967论文、Petrucci1998肖像研究为书目线索，原论文未读。（S6）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月1日入学院，后任Prince；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1657年入会段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1699年入会段 |
 
 ### 身份与来源定位
 

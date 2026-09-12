@@ -3,7 +3,7 @@ title: "奥拉托利会（Oratorians）"
 name_en: "Oratorians"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -98,6 +98,9 @@ WD P571=1564（normal、年精度、无引用）不接收为正式设立年；P1
 WP世界会院名录和现代人数有不同统计时点，不用于证明本章时代的规模；全读不等于全部采纳，也不凭文化名称将音乐体裁与机构混为一个知识元。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 | 来源 | 章页／行数 | 句子摘要 |
 |---|---|---|

@@ -3,7 +3,7 @@ title: "巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto 
 name_en: "Supposed bozzetto for the Barberini Salone (disputed attribution)"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -54,12 +54,17 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 位于（`located_at`，反向投影） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议；角色：本书写作时所报保存地点；范围：归属仍有争议；不延伸为今日馆藏；原断言与证据见发出端卡片“巴贝里尼宫（Palazzo Barberini）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 463–464; print pp. 12 |
+
 S1：第一章；印刷页 12；OCR L463–464。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

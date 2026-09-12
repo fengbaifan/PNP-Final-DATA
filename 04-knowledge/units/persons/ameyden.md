@@ -3,7 +3,7 @@ title: "迪尔克·范·阿梅登（Dirk van Ameyden）"
 name_en: "Dirk van Ameyden"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -120,6 +120,11 @@ sources:
 - A. Bastiaanse，DBI第2卷（1960）人物条目：已读，明确提醒其贵族家族材料并非项项可靠，日记有政治立场。（S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《罗马城记述》（1642）（Account of the City of Rome (1642)）](../archives/ameyden-relazione-1642.md) | MS.5001 手稿署名；原断言与证据见发出端卡片“《罗马城记述》（1642）（Account of the City of Rome (1642)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 
 ### 身份与外部链接
 

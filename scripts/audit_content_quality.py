@@ -27,6 +27,11 @@ from pathlib import Path
 from collections import defaultdict
 import yaml
 
+try:
+    from scripts._accepted_knowledge import select_paths
+except ModuleNotFoundError:
+    from _accepted_knowledge import select_paths
+
 BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
 INTAKE = BASE / "02-sources"
@@ -41,26 +46,16 @@ CONTENT_QUALITY_METRIC_BOUNDARY = (
 TYPE_DIR_MAP = {
     "persons": "person",
     "families": "family",
-    "concepts": "concept",
+    "institutions": "institution",
+    "places": "place",
     "works": "work",
     "archives": "archive",
-    "cases": "case",
-    "places": "place",
-    "techniques": "technique",
-    "ideas": "idea",
+    "terms": "term",
+    "procedures": "procedure",
+    "events": "event",
 }
 TITLE_BILINGUAL_RE = re.compile(r'[\u4e00-\u9fff].*[（(][^（）)]*[A-Za-zÀ-ÿ][^（）)]*[）)]')
 TITLE_REVERSE_BILINGUAL_RE = re.compile(r'^[^（(]*[A-Za-zÀ-ÿ][^（(]*[（(][^）)]*[\u4e00-\u9fff][^）)]*[）)]$')
-
-CHECKLIST_BLOCKS = [
-    "## 验证状态",
-    "- **证据状态**:",
-    "- **验证层级**:",
-    "- **验证平台**:",
-    "- **匹配质量**:",
-    "- **验证日期**:",
-    "- **证据范围**:",
-]
 
 CORRUPTION_PATTERNS = [
     (re.compile(r"�"), "replacement character U+FFFD（疑似编码损坏）"),
@@ -107,7 +102,7 @@ def iter_units() -> list[Path]:
         if not type_dir.is_dir():
             continue
         files.extend(sorted(type_dir.glob("*.md")))
-    return files
+    return select_paths(BASE, "units", files)
 
 
 def check_empty_body(files: list[Path]) -> list[dict]:
@@ -129,17 +124,23 @@ def check_missing_sections(files: list[Path]) -> list[dict]:
     for path in files:
         text = read_text(path)
         body = extract_body(text)
-        has_description = "## 描述" in body or "## Description" in body
-        has_verify = any(block in body for block in CHECKLIST_BLOCKS)
+        has_content = bool(re.search(r"^## (?:内容|一、元数据|二、内容)\s*$", body, re.MULTILINE))
+        has_description = bool(re.search(r"^### 描述\s*$", body, re.MULTILINE))
+        has_evidence = bool(re.search(r"^## (?:关系与证据|三、关系与证据)\s*$", body, re.MULTILINE))
+        if not has_content and len(body.strip()) > 50:
+            findings.append({
+                "file": path.relative_to(BASE).as_posix(),
+                "issue": "缺少现行内容区块",
+            })
         if not has_description and len(body.strip()) > 50:
             findings.append({
                 "file": path.relative_to(BASE).as_posix(),
-                "issue": "缺少 '## 描述' 区块",
+                "issue": "缺少 '### 描述' 区块",
             })
-        if not has_verify and len(body.strip()) > 80:
+        if not has_evidence and len(body.strip()) > 80:
             findings.append({
                 "file": path.relative_to(BASE).as_posix(),
-                "issue": "缺少 '## 验证状态' 区块",
+                "issue": "缺少 '## 关系与证据' 区块",
             })
     return findings
 
@@ -261,18 +262,20 @@ def check_body_verify_vs_fm(files: list[Path]) -> list[dict]:
         body_has_verified = "externally_verified" in body or "partially_verified" in body
         fm_has_verified = fm_es in {"externally_verified", "partially_verified"}
 
+        has_evidence_section = bool(
+            re.search(r"^## (?:关系与证据|三、关系与证据)\s*$", body, re.MULTILINE)
+        )
         if fm_es in {"externally_verified", "partially_verified"} and not body_has_verified:
-            has_verify_section = "## 验证状态" in body
-            if not has_verify_section:
+            if not has_evidence_section:
                 findings.append({
                     "file": path.relative_to(BASE).as_posix(),
-                    "issue": f"frontmatter evidence_status={fm_es} 但正文缺少'## 验证状态'区块",
+                    "issue": f"frontmatter evidence_status={fm_es} 但正文缺少'## 关系与证据'区块",
                 })
 
-        if fm_vl and "## 验证状态" not in body:
+        if fm_vl and not has_evidence_section:
             findings.append({
                 "file": path.relative_to(BASE).as_posix(),
-                "issue": f"frontmatter verification_level={fm_vl} 但正文缺少'## 验证状态'区块",
+                "issue": f"frontmatter verification_level={fm_vl} 但正文缺少'## 关系与证据'区块",
             })
 
     return findings
@@ -307,7 +310,9 @@ def check_empty_frontmatter_values(files: list[Path]) -> list[dict]:
             fm_data = yaml.safe_load(fm) or {}
         except Exception:
             fm_data = {}
-        for field in ["title", "name_en", "sub_type", "tags"]:
+        if not isinstance(fm_data, dict):
+            fm_data = {}
+        for field in ["title", "name_en", "type", "created", "updated", "evidence_status", "sources"]:
             value = fm_data.get(field)
             if value in (None, "", [], {}):
                 findings.append({
@@ -376,8 +381,9 @@ def check_placeholder_content(files: list[Path]) -> list[dict]:
     for path in files:
         text = read_text(path)
         body = extract_body(text)
+        prose = "\n".join(line for line in body.splitlines() if not line.lstrip().startswith("#"))
         for p in PLACEHOLDER_PATTERNS:
-            if p in body:
+            if p in prose:
                 # find containing section
                 sec_name = "?"
                 for m in re.finditer(r"^## (.+)$", body, re.MULTILINE):

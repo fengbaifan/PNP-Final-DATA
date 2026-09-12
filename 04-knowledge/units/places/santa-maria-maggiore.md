@@ -3,7 +3,7 @@ title: "圣母大殿（Santa Maria Maggiore）"
 name_en: "Santa Maria Maggiore"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -104,6 +104,9 @@ Wikipedia书目列Rhoda Eitel-Porter关于建筑装饰协作的研究、Richard 
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 ### 章内定位
 
 | 来源 | 定位 | 句子摘要 |
@@ -116,7 +119,7 @@ Wikipedia书目列Rhoda Eitel-Porter关于建筑装饰协作的研究、Richard 
 - [西克斯图斯五世（Sixtus V）](../persons/sixtus-v.md)：礼拜堂委托与墓碑依据S7。
 - [保罗五世（Paul V）](../persons/paul-v.md)：保琳礼拜堂计划依据S8。
 
-本卡原无正式关系，本轮未新增边；上述链接和明确依据交关系阶段集中处理，避免把建筑归属、赞助、设计及安葬混为同一关系。
+本次集中审查未接收本卡的新关系；建筑归属、赞助、设计及安葬各有不同主体和时期，现有证据不足以用一个泛化谓词合并。
 
 **补足结果与未决项：** 已完成名称、地点、分期建筑、主要章内相关礼拜堂与作品的详细补足。早期奠基、十八世纪各施工节点、全部产权变化及各作品完整目录仍需针对性史料；没有把这些缺口写成已完成。证据状态保持source_backed。
 

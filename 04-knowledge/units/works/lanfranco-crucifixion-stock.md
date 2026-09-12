@@ -3,11 +3,11 @@ title: "兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Cruci
 name_en: "Lanfranco’s unfinished Crucifixion in his studio"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/giovanni-lanfranco.md","note":"工作室中已经勾画的画布，作者为 Lanfranco。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 597–599; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/fabrizio-valguarnera.md","note":"Valguarnera 请求完成现有画稿。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 596–599; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"Valguarnera 请求完成现有画稿。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 596–599; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"要求完成现有画稿的委托人","scope":"完成已有库存画；不是从零委托"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L596–601
@@ -60,9 +60,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 工作室中已经勾画的画布，作者为 Lanfranco；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | Valguarnera 请求完成现有画稿；角色：要求完成现有画稿的委托人；范围：完成已有库存画；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 596–599; print pp. 15 |
 
 S1：第一章；印刷页 15；OCR L596–601。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

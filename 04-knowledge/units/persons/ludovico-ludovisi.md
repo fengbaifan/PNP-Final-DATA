@@ -3,10 +3,10 @@ title: "卢多维科·卢多维西（Ludovico Ludovisi）"
 name_en: "Ludovico Ludovisi"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/domenichino.md","note":"1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"appointer_of","target":"persons/domenichino.md","note":"1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1621","role":"Vatican architect任命者","scope":"教皇侄辈Ludovico作出的任命"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
   location: 第一章；印刷页 4；OCR L79–83
@@ -107,17 +107,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 任命者（`appointer_of`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
+
 ### 身份与入口
 
 [Wikidata Q707750](https://www.wikidata.org/wiki/Q707750) ↔ [英文 Wikipedia：Ludovico Ludovisi](https://en.wikipedia.org/wiki/Ludovico_Ludovisi)，双向配对已完成。本轮阅读全文 S4；VIAF **66485493** 为 S5 的标识，尚未直接核验。
-
-### 正式关系
-
-| 关联知识元 | 类型／方向 | 证据 |
-|---|---|---|
-| [多梅尼基诺（Domenichino）](domenichino.md) | 本人 → Domenichino；associated_person，1621 年提供梵蒂冈建筑师职位 | 第一章 p.4；L79–83（S1） |
-
-原有 1 条正式边保留。亲缘及其他赞助字段为有来源内容，待集中关系阶段判断适用谓词与端点，不据页面共现自动导边。
 
 ### 补足范围与未决
 

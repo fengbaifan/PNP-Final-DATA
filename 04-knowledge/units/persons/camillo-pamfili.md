@@ -3,11 +3,11 @@ title: "卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Mar
 name_en: "Camillo Francesco Maria Pamphili"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/pier-francesco-mola.md","note":"Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233,308–319,505–519; print pp. 7,9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/guglielmo-cortese.md","note":"在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patron_of","target":"persons/pier-francesco-mola.md","note":"Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233,308–319,505–519; print pp. 7,9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"雇主、装饰委托人与费用承担方","scope":"Valmontone装饰及行动许可语境"}
+  - {"relation_type":"patron_of","target":"persons/guglielmo-cortese.md","note":"在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"Valmontone雇主／保护人","scope":"离开数日须获特别许可的服务关系"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L179–185
@@ -118,6 +118,16 @@ Camillo Astalli-Pamphili是另一位后来担任枢机侄的亲属，不与本�
 Borello的DBI传记已读；其列举的家族档案、1651财产安排、图书清册及研究论文尚未逐件阅读。WP关于懒惰、私情及家庭冲突的评价不能脱离叙述者与史料责任当作个人属性。（S7、S9）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](../archives/armanni-pamfili-letter-undated.md) | 书信收信人为 Camillo Pamfili；角色：收信人；范围：就Valmontone别墅装饰提供建议的未注明日期书信；原断言与证据见发出端卡片“温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| → 赞助者／保护人（`patron_of`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可；角色：雇主、装饰委托人与费用承担方；范围：Valmontone装饰及行动许可语境；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233,308–319,505–519; print pp. 7,9,13 |
+| → 赞助者／保护人（`patron_of`） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](guglielmo-cortese.md) | 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可；角色：Valmontone雇主／保护人；范围：离开数日须获特别许可的服务关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
+| ← 配偶（`spouse_of`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](olimpia-aldobrandini.md) | Paolo Borghese去世后，奥林皮娅于1647年2月10日与Camillo Pamphili结婚；时间：1647-02-10起；角色：第二任配偶；范围：采用Treccani DBI的精确婚日；Doria Pamphilj英文页1646为异文；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://www.treccani.it/enciclopedia/camillo-pamphili_(Dizionario-Biografico)/)；dbi-camillo-pamphili；辞任与婚姻段；1647-02-10 |
+| ← 获其建议（`advised_by`，反向投影） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](vincenzo-armanni-ch1.md) | 未注明日期的信就 Valmontone 别墅装饰提供建议；角色：装饰建议提供者；范围：未注明日期的Valmontone别墅装饰书信；原断言与证据见发出端卡片“温琴佐·阿尔曼尼（Vincenzo Armanni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| ← 委托者（`commissioner_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | Pamfili 别墅工程，相关付款与材料分担脚注支持委托关系；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319,505–519; print pp. 9,13 |
 
 ### 章内来源
 

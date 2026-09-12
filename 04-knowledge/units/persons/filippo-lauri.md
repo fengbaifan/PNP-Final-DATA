@@ -3,8 +3,10 @@ title: "菲利波·劳里（Filippo Lauri）"
 name_en: "Filippo Lauri"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1654年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-lauri","source_file":"https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/","source_span":"本卡 S6；1654年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L778–781
@@ -75,6 +77,11 @@ Filippo Baldinucci为友人；主要传记作者Francesco Saverio Baldinucci是�
 研究：Stefano Pierguidi，DBI64（2005）；上述Baldinucci文本及Annamaria Matteoli编辑资料为追查入口。（S6）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1654年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/)；dbi-lauri；本卡 S6；1654年入会段 |
 
 ### 身份与来源定位
 

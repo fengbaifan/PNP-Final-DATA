@@ -3,7 +3,7 @@ title: "巴贝里尼家族及家户（Barberini Family and Households）"
 name_en: "Barberini Family and Households"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -87,6 +87,11 @@ sources:
 已识别的个人责任可在个人卡及相应事件中继续；无法明确所属家户的集体指称保留原来源。未来若确需独立家族或家户对象，应带来源返回登记并处理现有引用，不用本轮补足自动增生多个对象。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 此处家户成员为 Antonio 的服务组织，非血缘成员；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
 
 | 角色入口 | 知识元 | 状态 |
 |---|---|---|

@@ -4,10 +4,10 @@ name_en: "Vasalli's Testimony on the Mola–Pamfili Service Dispute"
 type: archive
 sub_type: testimony
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/alessandro-vasalli.md","note":"证词发言者为 Vasalli；不等同断言其亲笔写成原记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"contributed_by","target":"persons/alessandro-vasalli.md","note":"证词发言者为 Vasalli；不等同断言其亲笔写成原记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"证词发言者","scope":"Mola与Pamfili争议中的记录；不等于亲笔文书"}
   - {"relation_type":"has_subject","target":"terms/servitu-particolare.md","note":"证词说明有偿优先服务；语义概念与文献载体分开。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -65,6 +65,12 @@ Montalto同年另有《Un mecenate in Roma barocca》，馆方书目分别列出
 | 原件校勘 | 尚未完成；不据OCR改造意大利文全文或虚构删节内容。 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其贡献（`contributed_by`） | [亚历山德罗·瓦萨利（Alessandro Vasalli）](../persons/alessandro-vasalli.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
+| → 所涉对象（`has_subject`） | [特定保护人服务（Servitù particolare）](../terms/servitu-particolare.md) | 证词说明有偿优先服务；语义概念与文献载体分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
 
 **S1：第一章p.6、L179–185；S2：同书书目L836–837；S3：馆方书目PDF第1页。** S2–S3支持刊物识别，不独立证实原证詞史实。
 

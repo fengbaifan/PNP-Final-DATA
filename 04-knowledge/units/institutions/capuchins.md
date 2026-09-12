@@ -3,7 +3,7 @@ title: "嘉布遣会（Capuchins）"
 name_en: "Capuchins"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -105,6 +105,9 @@ Religionis zelus、早期会宪、Michele da Bergamo的建筑Memoria及会史是
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 | 来源 | 章页／行数 | 句子摘要 |
 |---|---|---|
 | S1 | 第一章，印刷页5，OCR L125–130 | 嘉布遣会与其他新修会出现在罗马建堂需求的语境。 |
@@ -112,6 +115,6 @@ Religionis zelus、早期会宪、Michele da Bergamo的建筑Memoria及会史是
 
 相关知识元：[罗马嘉布遣教堂](../places/capuchin-church-rome.md)、[萨基的祭坛画稿](../works/sacchi-capuchin-altarpiece-modello.md)、[安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md)、[乌尔班八世（Urban VIII）](../persons/urbano-viii.md)。年长Antonio的资料不写入同名侄子的卡片。
 
-本卡原无正式关系，本轮未新增边，以上具体依据交集中关系阶段。已完成详细补足；独立公文、历史会规、各项目产权／付款与人物阶段成员身份仍按具体缺口留待核证。source_backed不变。
+本次集中审查未接收新的正式关系：现有内容缺少同粒度端点或直接制度依据。独立公文、历史会规、各项目产权／付款与人物阶段成员身份仍按具体缺口留待核证；source_backed不变。
 
 [过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/capuchins`。

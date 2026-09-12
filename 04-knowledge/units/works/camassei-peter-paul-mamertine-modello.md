@@ -3,7 +3,7 @@ title: "卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（
 name_en: "Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/andrea-camassei.md","note":"Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 464–466; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -46,6 +46,12 @@ sources:
 专业传记记圣彼得大殿门上壁画于1630年11月7日有付款、1635年12月结算，18世纪后半叶毁去。它列三件相关bozzetti：巴黎J. Petit Horry旧藏、梵蒂冈绘画馆、Ditchley Foundation，以及Düsseldorf准备素描。只有馆名相合仍不足以证明旧820号等于每个研究所说的实物；不同版本的图像、尺寸与归属各待核。[S2]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
+| → 位于（`located_at`） | [梵蒂冈绘画馆（Pinacoteca Vaticana）](../institutions/pinacoteca-vaticana.md) | 本书写作时所记馆藏，非今日核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
 
 无独立Wikipedia—Wikidata确认配对。S1第一章第12页L464–466；S2专业传记及其引文链。保留既有作者及本书时点馆藏关系，地点不升级为今日实地确认。
 

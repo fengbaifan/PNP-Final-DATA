@@ -3,7 +3,7 @@ title: "萨尔瓦多·罗萨（Salvator Rosa）"
 name_en: "Salvator Rosa"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/exhibition-self-promotion.md","note":"展览期间组织喝彩者等宣传行为，依据章内传记转述。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 917–926; print pp. 22"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -101,9 +101,16 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Salvator_Rosa) 的 wikibase_item 与 [Wikidata Q359421](https://www.wikidata.org/wiki/Q359421) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）](../archives/de-rosis-ruffo-letter-1663.md) | 代理人在信中评价罗萨宁愿挨饿也不降低作品声誉；原断言与证据见发出端卡片“朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 957–972; print pp. 23 |
+| ← 所著文献（`author_of`，反向投影） | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../archives/rosa-ruffo-letter-1666.md) | 书信作者；1666-04-01；罗萨自述创作动机。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
+| → 采用程序（`uses_procedure`） | [展览售画与自我宣传（Exhibiting paintings and self-promotion）](../procedures/exhibition-self-promotion.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 917–926; print pp. 22 |
 
 S1：第一章；印刷页 11；OCR L382–389；S2：第一章；印刷页 15；OCR L603–609；S3：第一章；印刷页 22；OCR L905–926；S4：第一章；印刷页 22, 23；OCR L927–947,952–970；S5：第一章；印刷页 23；OCR L971–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

@@ -3,10 +3,11 @@ title: "乔万尼·兰弗兰科（Giovanni Lanfranco）"
 name_en: "Giovanni Lanfranco"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"同段记每位主要人物 100 ducats，不能误作 130。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 498–502; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1631至1632年任学院Prince，足以支持成员归属；学院原档未读。","evidence_ref":{"doc_id":"dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"本卡 S8；1631–1632任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 7, 11, 13, 15."
     location: "第一章印刷页 7, 11, 13, 15；OCR 行 210–213, 408–425, 500–502, 596–601"
@@ -113,9 +114,19 @@ S7 为 Q447730 修订 2537267979；复用此前身份配对，所用 QID 标签�
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Lanfranco) 的 wikibase_item 与 [Wikidata Q447730](https://www.wikidata.org/wiki/Q447730) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）](../archives/lanfranco-barberini-letter-1640.md) | 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini；原断言与证据见发出端卡片“乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；treccani-dbi-lanfranco；1640 petition paragraph |
+| ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请人为 Lanfranco；只证明提出申请；时间：1640-07-14；角色：申请人；范围：提出圣彼得祭坛画申请；未获委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 408–425; print pp. 11 |
+| → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 同段记每位主要人物 100 ducats，不能误作 130；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1631至1632年任学院Prince，足以支持成员归属；学院原档未读；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S8；1631–1632任职段 |
+| ← 所创作对象（`creator_of`，反向投影） | [兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）](../works/lanfranco-crucifixion-stock.md) | 工作室中已经勾画的画布，作者为 Lanfranco；原断言与证据见发出端卡片“兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
+| ← 所创作对象（`creator_of`，反向投影） | [兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）](../works/lanfranco-magdalene-stock.md) | 工作室中已经勾画的画布，作者为 Lanfranco；原断言与证据见发出端卡片“兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
 
 ### 初步对齐与支持范围
 

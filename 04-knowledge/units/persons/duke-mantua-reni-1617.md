@@ -3,7 +3,7 @@ title: "费迪南多·贡扎加（Ferdinando Gonzaga）"
 name_en: "Ferdinando Gonzaga"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -74,6 +74,11 @@ sources:
 Gino Benzoni，DBI第46卷（1996）本条；Paul F. Grendler, *The University of Mantua, the Gonzaga, and the Jesuits, 1584–1630*（2009）；David Parrott, “The Mantuan Succession, 1627–31”, *The English Historical Review* 112（1997）, 20–65。后两项由S2书目得知，未读全文。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；原断言与证据见发出端卡片“雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
 
 [Wikipedia：Ferdinando Gonzaga, Duke of Mantua](https://en.wikipedia.org/wiki/Ferdinando_Gonzaga,_Duke_of_Mantua) ↔ [Wikidata Q969739](https://www.wikidata.org/wiki/Q969739) 双向对应。1617在任时间、爵号、Reni赞助共同支持本章人物身份，本轮配对通过；这是身份判断，不表示读过1617信原件。
 

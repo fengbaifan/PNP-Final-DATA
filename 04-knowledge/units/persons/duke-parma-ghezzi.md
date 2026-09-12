@@ -3,10 +3,10 @@ title: "帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s hono
 name_en: "Duke of Parma (Ghezzi’s honorary appointment)"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/giuseppe-ghezzi.md","note":"授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 771–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"honourer_of","target":"persons/giuseppe-ghezzi.md","note":"授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 771–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"gentiluomo d’onore荣衔授予者","scope":"授予者全名及日期未明"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L770–773
@@ -49,6 +49,11 @@ sources:
 - 不采用确认QID或某位公爵的Wikipedia链接；后续需本章所引Pascoli相应段及授予文书，不能用爵位列表代替。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明；角色：gentiluomo d’onore荣衔授予者；范围：授予者全名及日期未明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
 
 S1：第一章，印刷页19，OCR L770–773。S2为Giuseppe DBI全文；S3为Pier Leone DBI受衔段选读。二者支持消歧，不支持本公爵新增生平事实。
 

@@ -3,7 +3,7 @@ title: "家户（Famiglia）"
 name_en: "Famiglia"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6, 7.'
@@ -46,6 +46,9 @@ sources:
 | 居住与成员 | 住在府邸不能单独证明正式成员；具体登记须查清册或支付证据 | 本章服务语境约束 |
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [特定保护人服务](servitu-particolare.md)说明服务条件；[巴贝里尼混合记录](../institutions/barberini-household.md)仍需把Antonio、Francesco个人家户与家族集体分开。本卡是术语，不能代替任何一户充当关系端点。
 

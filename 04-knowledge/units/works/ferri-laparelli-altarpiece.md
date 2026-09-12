@@ -3,11 +3,12 @@ title: "费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro F
 name_en: "Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/annibale-laparelli.md","note":"为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 507–508; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
   - {"relation_type":"located_at","target":"places/cortona.md","note":"来源明确工程在 Cortona，具体教堂不明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 507–508; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"created_by","target":"persons/ciro-ferri.md","note":"本章明确祭坛画由费里为拉帕雷利制作。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 507–508; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L507–508
@@ -60,9 +61,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其委托（`commissioned_by`） | [安尼巴莱·拉帕雷利（Annibale Laparelli）](../persons/annibale-laparelli.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
+| → 位于（`located_at`） | [科尔托纳（Cortona）](../places/cortona.md) | 来源明确工程在 Cortona，具体教堂不明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
+| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 本章明确祭坛画由费里为拉帕雷利制作；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 
 S1：第一章；印刷页 13；OCR L507–508。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

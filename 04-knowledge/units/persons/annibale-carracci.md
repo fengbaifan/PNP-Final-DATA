@@ -3,7 +3,7 @@ title: "安尼巴莱·卡拉奇（Annibale Carracci）"
 name_en: "Annibale Carracci"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -115,6 +115,9 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 ### 身份与证据范围
 
 [Wikipedia：Annibale Carracci](https://en.wikipedia.org/wiki/Annibale_Carracci) ↔ [Wikidata：Q7824](https://www.wikidata.org/wiki/Q7824) 已双向配对，沿用 REV-034；REV-052 完整阅读英文页修订 1370409628 并核对 WD 字段。ULAN 500115350、VIAF 12405951 来自 WD（normal rank）；本轮未直接读取 Getty／VIAF，不能称其独立核验已完成。
@@ -123,11 +126,11 @@ S1：第一章 pp. 4–5，L84–88、101–110；Carracci 为博洛尼亚画家
 
 ### 关系导航
 
-本卡尚无正式关系。出生／活动地已链接[博洛尼亚](../places/bologna.md)与[罗马](../places/rome.md)；亲缘、师承、合作、赞助分别保存事实，待集中关系阶段判断端点和证据。WD 的 Antonio Carracci 学生条目有 1602–1609 年限定，但本轮未读所引传记，不直接写新师徒边。
+本次集中审查未接收本卡的新关系。出生／活动地链接只作导航；亲缘、师承、合作、赞助虽分字段保存，但现有可接收端点与直接证据不足。WD 的 Antonio Carracci 学生条目所引传记未读，不写师徒边。
 
 ### 未决与限制
 
 - 法尔内塞画廊日期：S6 英文介绍以 1597–1601 记天顶工作，S7 记 1600 年展示；S4 作品总表为 1597–1605。保留工程阶段差异，不强选一个全项目结束日。
 - S4 前段《基督受洗》为 1585，作品表为 1584；未决前不采用单一日期。S4 末段 1575 年威尼斯《圣凯瑟琳的神秘婚姻》与本人作品／年龄语境可疑，未采入其作品清单。
 - S4 有“three Carracci brothers”和“younger brother”等亲缘错误，已用 S6–S7 区分兄长与堂兄；Guercino 等后继艺术家不一律登记为直接学生。
-- 父母、配偶、子女、完整作品目录和委托账目仍有缺口；保持 `source_backed`，关系阶段尚未收口。过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `persons/annibale-carracci`。
+- 父母、配偶、子女、完整作品目录和委托账目仍有缺口；保持 `source_backed`。本次未接收无直接证据的关系，过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `persons/annibale-carracci`。

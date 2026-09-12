@@ -1,11 +1,21 @@
-version: 1
+version: 2
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
   - associated_person
   - associated_work
+  - acquired_by
+  - acquirer_of
+  - advised
+  - advised_by
+  - addressed_to
+  - addressee_of
+  - appointed_by
+  - appointer_of
   - author_of
   - authored_by
+  - borrowed_by
+  - borrower_of
   - challenged_by
   - challenges_claim
   - cited_by
@@ -16,33 +26,59 @@ types:
   - commissioner_of
   - compiled_by
   - compiler_of
+  - collaborated_with
+  - corresponded_with
   - contains
   - contributed_by
   - contributor_to
   - created_by
   - creator_of
+  - child_of
   - derived_from
   - disambiguates
+  - disputed_with
   - exemplified_by
   - has_subject
+  - has_participant
+  - handled_by
+  - handler_of
+  - held_by
+  - holder_of
   - host_of
   - hosted_by
+  - honoured_by
+  - honourer_of
   - illustrated_by
   - illustrator_of
   - includes_unit
   - influenced
   - influenced_by
+  - installed_at
+  - installation_site_of
   - instantiates
   - introduced_by
   - introducer_of
+  - issued_by
+  - issuer_of
+  - kin_of
   - located_at
   - location_of
   - member_of
+  - modeled_by
+  - model_for
   - merged_into
   - name_authority_for
   - occurred_at
   - operated_by
   - operates
+  - owned_by
+  - owner_of
+  - parent_of
+  - participated_in
+  - patron_of
+  - patronized_by
+  - privilege_granted_by
+  - granted_privilege_to
   - operationalized_by
   - operationalizes
   - part_of
@@ -52,6 +88,8 @@ types:
   - procedure_used_by
   - published_by
   - publisher_of
+  - employed_by
+  - employer_of
   - renamed_from
   - replaces
   - same_as
@@ -59,10 +97,21 @@ types:
   - source_of
   - subject_of
   - successor_of
+  - sibling_of
+  - spouse_of
+  - supplied_by
+  - supplier_of
   - supported_by
   - supports_claim
+  - testified_about
+  - testimony_subject_of
   - text_author_of
   - text_authored_by
+  - teacher_of
+  - trained_by
+  - friend_of
+  - intended_for
+  - intended_site_of
   - translation_of
   - uses_procedure
   - variant_of
@@ -76,8 +125,18 @@ legacy_generic_types:
   - relates_to_work
   - related_to
 inverse:
+  advised: advised_by
+  advised_by: advised
+  acquired_by: acquirer_of
+  acquirer_of: acquired_by
+  addressed_to: addressee_of
+  addressee_of: addressed_to
+  appointed_by: appointer_of
+  appointer_of: appointed_by
   author_of: authored_by
   authored_by: author_of
+  borrowed_by: borrower_of
+  borrower_of: borrowed_by
   challenged_by: challenges_claim
   challenges_claim: challenged_by
   cited_by: cites
@@ -88,30 +147,58 @@ inverse:
   commissioner_of: commissioned_by
   compiled_by: compiler_of
   compiler_of: compiled_by
+  collaborated_with: collaborated_with
+  corresponded_with: corresponded_with
   contains: member_of
   contributed_by: contributor_to
   contributor_to: contributed_by
   created_by: creator_of
   creator_of: created_by
+  child_of: parent_of
   derived_from: source_of
+  disputed_with: disputed_with
   exemplified_by: instantiates
   has_subject: subject_of
+  has_participant: participated_in
+  handled_by: handler_of
+  handler_of: handled_by
+  held_by: holder_of
+  holder_of: held_by
   host_of: hosted_by
   hosted_by: host_of
+  honoured_by: honourer_of
+  honourer_of: honoured_by
   illustrated_by: illustrator_of
   illustrator_of: illustrated_by
   includes_unit: member_of
   influenced: influenced_by
   influenced_by: influenced
+  installed_at: installation_site_of
+  installation_site_of: installed_at
+  intended_for: intended_site_of
+  intended_site_of: intended_for
   instantiates: exemplified_by
   introduced_by: introducer_of
   introducer_of: introduced_by
+  issued_by: issuer_of
+  issuer_of: issued_by
+  kin_of: kin_of
   located_at: location_of
   location_of: located_at
   member_of: contains
+  modeled_by: model_for
+  model_for: modeled_by
   occurred_at: scene_of
   operated_by: operates
   operates: operated_by
+  owned_by: owner_of
+  owner_of: owned_by
+  parent_of: child_of
+  participated_in: has_participant
+  patron_of: patronized_by
+  patronized_by: patron_of
+  privilege_granted_by: granted_privilege_to
+  granted_privilege_to: privilege_granted_by
   operationalized_by: operationalizes
   operationalizes: operationalized_by
   part_of: contains
@@ -121,14 +208,25 @@ inverse:
   procedure_used_by: uses_procedure
   published_by: publisher_of
   publisher_of: published_by
+  employed_by: employer_of
+  employer_of: employed_by
   scene_of: occurred_at
   source_of: derived_from
   subject_of: has_subject
   successor_of: predecessor_of
+  sibling_of: sibling_of
+  spouse_of: spouse_of
+  supplied_by: supplier_of
+  supplier_of: supplied_by
   supported_by: supports_claim
   supports_claim: supported_by
+  testified_about: testimony_subject_of
+  testimony_subject_of: testified_about
   text_author_of: text_authored_by
   text_authored_by: text_author_of
+  teacher_of: trained_by
+  trained_by: teacher_of
+  friend_of: friend_of
   uses_procedure: procedure_used_by
   visualized_in: visualizes
   visualizes: visualized_in

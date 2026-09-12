@@ -3,7 +3,7 @@ title: "安东尼奥·鲁福（Don Antonio Ruffo）"
 name_en: "Don Antonio Ruffo"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -97,20 +97,27 @@ sources:
 - 收藏范围包括绘画、素描与版画之外的银器、珠宝、家具、织物、地毯、硬币和挂毯；“画廊”不能代替全部收藏。（S7、S9）
 - 主要艺术家包括Rembrandt、Van Dyck、Guercino、Rosa、Preti、Artemisia Gentileschi、Poussin、Reni、Pietro da Cortona等；名单来自通信和清单的传记综合，未逐件验证现藏。（S7、S9）
 - Rembrandt三件委托为《Aristotle with a Bust of Homer》《Alexander the Great》《Homer Dictating his Verses》；Ruffo还要求Guercino绘制与《Aristotle》配对的作品。配对意图与作品实际成组状态需在作品层核定。（S7、S9）
-- Agostino Scilla既参与Messina文化圈，也受托修补运输受损画作；DBI认为二人关系超出一般委托，但具体关系类型仍待关系阶段裁决。（S9）
+- Agostino Scilla既参与Messina文化圈，也受托修补运输受损画作；DBI认为二人关系超出一般委托。因本次没有已接收的Scilla端点和可区分的受控谓词，保留为待证内容，不形成正式边。（S9）
 - Vincenzo Ruffo的刊印通信是后世来源，不是本章收信人Antonio Ruffo的另一个名字。（S4、S9）
 
 Maria Concetta Calabrese的DBI词条及书目已全文阅读；所列档案清册、182封信、合同和现代专著未在本轮逐件读取。（S9）
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）](../archives/de-rosis-ruffo-letter-1663.md) | 书信收信人；1663-09-22；代理人对罗萨的评价；时间：1663-09-22；角色：收信人；范围：代理人对Salvator Rosa的评价；原断言与证据见发出端卡片“朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
+| ← 为收信人（`addressee_of`，反向投影） | [奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）](../archives/ferri-ruffo-letter-1672.md) | 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读；时间：1672-09-19；角色：收信人；范围：关于拒绝预付及事务繁多的书信；原断言与证据见发出端卡片“奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| ← 为收信人（`addressee_of`，反向投影） | [圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）](../archives/guercino-ruffo-letter-1649.md) | 书信收信人；1649-09-25；每位主要人物报价交涉；时间：1649-09-25；角色：收信人；范围：按每位主要人物报价的交涉；原断言与证据见发出端卡片“圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
+| ← 为收信人（`addressee_of`，反向投影） | [弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）](../archives/novetti-ruffo-letter-1670.md) | 书信收信人；1670-03-22；关于 Maratta 委托困难的抱怨；时间：1670-03-22；角色：收信人；范围：关于Maratta委托困难的书信；原断言与证据见发出端卡片“弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 750–758; print pp. 18 |
+| ← 为收信人（`addressee_of`，反向投影） | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../archives/rosa-ruffo-letter-1666.md) | 书信收信人；1666-04-01；罗萨自述创作动机；时间：1666-04-01；角色：收信人；范围：Rosa自述创作动机的书信；原断言与证据见发出端卡片“萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
+| ← 通信（`corresponded_with`，反向投影） | [阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）](artemisia-gentileschi.md) | 1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留；时间：1649–1650；角色：通信双方；范围：密集通信涉及付款及拟议委托；不把全部往来合成单一成交；原断言与证据见发出端卡片“阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）”：[来源](https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/)；dbi-artemisia；本卡 S6；1649–1650 Ruffo通信段 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [马蒂亚·普雷蒂（Mattia Preti）](mattia-preti.md) | 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境；时间：1646–1649起；角色：作品进入其收藏并保持往来的画家；范围：限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托；原断言与证据见发出端卡片“马蒂亚·普雷蒂（Mattia Preti）”：[来源](https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/)；dbi-preti；本卡 S6；Messina与Ruffo段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Antonio Ruffo](https://en.wikipedia.org/wiki/Antonio_Ruffo) 与 [Wikidata Q88949215](https://www.wikidata.org/wiki/Q88949215) 的sitelink双向一致；1610年前后、1678年、Messina、收藏家与赞助人身份及艺术家通信网络与第一章对象吻合。S7为全文阅读，S8为属性级读取。
-
-### 关系记录
-
-本卡暂未登记正式关系。第一章S1–S4分别支持Ruffo为特定信件收件人，DBI又支持其代理、亲属、艺术家与藏品网络；这些是关系阶段的高优先候选，但收信、委托、购藏、所有、代理和评论不能合为一个泛化“相关”关系。各信件与作品应使用其独立KU端点。
 
 ### 争议与待补
 

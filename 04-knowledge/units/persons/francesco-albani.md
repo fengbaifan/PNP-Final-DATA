@@ -3,10 +3,8 @@ title: "弗朗切斯科·阿尔巴尼（Francesco Albani）"
 name_en: "Francesco Albani"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
-relations:
-  - {"relation_type":"associated_work","target":"works/albani-servi-altarpiece-1639.md","note":"Albani 的 1639 祭坛画委托语境；与另条高比例定金不强行合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L503–505, 515–516
@@ -71,9 +69,14 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Albani) 的 wikibase_item 与 [Wikidata Q358147](https://www.wikidata.org/wiki/Q358147) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | 1639年委托中的画家为弗朗切斯科·阿尔巴尼；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
 
 S1：第一章；印刷页 13；OCR L503–505, 515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

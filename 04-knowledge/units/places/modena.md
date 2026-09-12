@@ -3,7 +3,7 @@ title: "摩德纳（Modena）"
 name_en: "Modena"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -71,6 +71,9 @@ sources:
 本章仅确定旅行涉及该城市，不确定访问日期、停留时长、参观建筑、当地教师及实际学习效果。（S1）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 **S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)及[资助学习旅行](../procedures/patron-funded-study-travel.md)是相关入口；当前未新增正式关系。
 

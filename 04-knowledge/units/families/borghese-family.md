@@ -3,7 +3,7 @@ title: 博尔盖塞家族（Borghese Family）
 name_en: Borghese Family
 type: family
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -81,9 +81,16 @@ S8 可继续定位 1607 年相关清册、1633 年前的藏画清册及 1833 年
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/House_of_Borghese) 的 wikibase_item 与 [Wikidata Q241133](https://www.wikidata.org/wiki/Q241133) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/borghese-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文；正式关系复核仍后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/borghese-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文，关系定稿见本卡上表。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；博尔盖塞家族卡 S7；Scipione 段 |
+| ← 包含成员（`contains`，反向投影） | [保罗·博尔盖塞（Paolo Borghese）](../persons/paolo-borghese.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；原断言与证据见发出端卡片“保罗·博尔盖塞（Paolo Borghese）”：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；paolo-borghese-wikipedia；导言与家庭段 |
+| ← 包含成员（`contains`，反向投影） | [保禄五世（Paul V）](../persons/paul-v.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；原断言与证据见发出端卡片“保禄五世（Paul V）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；家族卡 S7；馆方家族上升与保禄五世段 |
 
 本卡未新增正式关系。S 编号依文件头 sources 顺序；每条新事实在表格或段落标明依据，原书来源保持章／页／行号。Wikipedia 与 Wikidata 同属 wikimedia 来源组；官方说明、研究辞典及未读的书目线索分别记状态。
 

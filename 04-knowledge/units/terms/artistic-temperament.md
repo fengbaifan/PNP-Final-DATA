@@ -3,7 +3,7 @@ title: "艺术家气质（Artistic temperament）"
 name_en: "Artistic temperament"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21, 22.'
@@ -59,12 +59,17 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/raccoltadiletter07bott)；bottari-raccolta-lettere-vii；本卡 S2；vol. VII, letter X, pp. 357–362 |
+
 S1：第一章；印刷页 21, 22；OCR L882–893,905–926；S2：第一章；印刷页 22, 23；OCR L927–947,952–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成术语的章内定义、证据分层和排除边界；未采用粒度不相符的Wikipedia／Wikidata上位概念。

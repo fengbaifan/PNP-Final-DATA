@@ -3,11 +3,11 @@ title: "《圣马太与天使》（第一版）（Saint Matthew and the Angel (f
 name_en: "Saint Matthew and the Angel (first version)"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"created_by","target":"persons/caravaggio.md","note":"退画被明确归于 Caravaggio；具体实物版本尚未识别。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 349–353; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/marchese-giustiniani-ch1.md","note":"Giustiniani 买入被拒祭坛画；非该画初始委托人。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 349–353; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"created_by","target":"persons/caravaggio.md","note":"柏林绘画馆对象记录确认第一版作者为卡拉瓦乔；本章退画经购藏链与该对象对应，不与后替代版本合并。","evidence_ref":{"doc_id":"smb-der-evangelist-matthaus-870411","source_file":"https://id.smb.museum/object/870411","source_span":"本卡 S6；对象字段及对象说明全文"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"acquired_by","target":"persons/marchese-giustiniani-ch1.md","note":"柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人。","evidence_ref":{"doc_id":"smb-der-evangelist-matthaus-870411","source_file":"https://id.smb.museum/object/870411","source_span":"本卡 S6；对象字段及对象说明全文"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1602后","role":"退画购入者","scope":"购入第一版；不是初始委托人"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L349–353
@@ -69,6 +69,12 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 柏林绘画馆对象记录确认第一版作者为卡拉瓦乔；本章退画经购藏链与该对象对应，不与后替代版本合并；证据：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+| → 由其购入（`acquired_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人；时间：约1602后；角色：退画购入者；范围：购入第一版；不是初始委托人；证据：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+
 ### 身份配对
 
 [Wikipedia：Saint Matthew and the Angel](https://en.wikipedia.org/wiki/Saint_Matthew_and_the_Angel) ↔ [Wikidata Q577248](https://www.wikidata.org/wiki/Q577248)双向一致；年代、作者、退画、Giustiniani购入以及柏林馆号365共同支持对应。S6补齐此前缺少的收购链，故本轮由候选转为身份配对通过；source_backed不提升为全卡事实全部已验证。
@@ -78,8 +84,8 @@ S4全文5174字符已读，包括图注及书目；S5适用值、量纲和所引
 ### 已有关系及导航
 
 - [卡拉瓦乔](../persons/caravaggio.md)：文件头created_by。
-- [文琴佐·朱斯蒂尼亚尼](../persons/marchese-giustiniani-ch1.md)：既有associated_person说明购藏，不是commissioned_by。
-- 文件头旧note仍保存此前“版本尚未识别”的阶段表述，本轮新判定在此及过程记录说明；正式边与旧note在统一关系阶段更新。
+- [文琴佐·朱斯蒂尼亚尼](../persons/marchese-giustiniani-ch1.md)：正式 `acquired_by` 关系只说明他购入退画，不表示他是初始委托人。
+- 本次已把两条正式关系note更新为第一版《圣马太与天使》及文琴佐·朱斯蒂尼亚尼购入，并继续区分初始委托人。
 
 ### 未决
 

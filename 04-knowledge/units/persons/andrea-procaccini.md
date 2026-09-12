@@ -3,8 +3,11 @@ title: "安德烈亚·普罗卡奇尼（Andrea Procaccini）"
 name_en: "Andrea Procaccini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职。","evidence_ref":{"doc_id":"wp-procaccini","source_file":"https://en.wikipedia.org/w/index.php?oldid=1366087864","source_span":"本卡 S5；生平段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/carlo-maratta.md","note":"约1690年在马拉塔工作室接受素描与临摹训练。","evidence_ref":{"doc_id":"dbi-procaccini","source_file":"https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/","source_span":"本卡 S7；早期训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1690","role":"工作室学生","scope":"素描与临摹训练"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L745–747
@@ -81,6 +84,12 @@ sources:
 Pascoli的职业志向／生活描写保留作者责任；Gonzalo Zolle Betegón的DBI85（2016）依据家庭债务档案提出不同经济背景解释。DBI选读了出身、初期作品及西班牙职业末段、相关书目；被引档案、Pio及Pascoli原文未在本卡重新通读。（S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职；证据：[来源](https://en.wikipedia.org/w/index.php?oldid=1366087864)；wp-procaccini；本卡 S5；生平段 |
+| → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 约1690年在马拉塔工作室接受素描与临摹训练；时间：约1690；角色：工作室学生；范围：素描与临摹训练；证据：[来源](https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/)；dbi-procaccini；本卡 S7；早期训练段 |
 
 ### 身份与来源定位
 

@@ -3,7 +3,7 @@ title: "基督骑士荣衔（Cavaliere dell’abito di Cristo）"
 name_en: "Cavaliere dell’abito di Cristo"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -50,8 +50,11 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 - S1：第一章，印刷页19，OCR L774–777，支持章内用法。
 - S2–S3：候选页全文及WD记录，支持制度边界判断；不是本术语已配对。
 - S4：Erich Schleier的兰弗兰科传记选读段，支持授章个案；原授予文书未读。
-- 当前无正式关系。可交关系阶段核对兰弗兰科获衔事实，不能把无名概括连接到全部人物。
+- 本次没有接收正式关系。兰弗兰科获衔仍缺直接授予记录，不能把无名概括连接到全部人物。
 - 未决：历史称谓与各时期勋章制度的精确法律对应、授予文书、具体权利。状态维持 source_backed。

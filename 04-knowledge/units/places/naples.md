@@ -3,7 +3,7 @@ title: "那不勒斯（Naples）"
 name_en: "Naples"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 11, 13."
@@ -121,8 +121,10 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-
-本卡目前没有正式关系。通信地点、建筑所在地及历史角色已按内容字段保存，后续须按明确端点和具体来源形成关系；WD 的国家／行政／首府字段不直接生成正式边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 事件地点（`scene_of`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 1640-07-14 申请信自 Naples 发出；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 420–425; print pp. 11 |
+| ← 所在地（`location_of`，反向投影） | [那不勒斯主教座堂（Naples Cathedral）](naples-cathedral.md) | 教堂地点为 Naples；原断言与证据见发出端卡片“那不勒斯主教座堂（Naples Cathedral）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
 
 ### 身份与阅读范围
 

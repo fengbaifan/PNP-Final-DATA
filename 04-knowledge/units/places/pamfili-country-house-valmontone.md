@@ -4,7 +4,7 @@ name_en: "Palazzo Doria-Pamphilj, Valmontone"
 type: place
 sub_type: building
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/valmontone.md","note":"建筑位于 Valmontone，建筑与城市分别建模。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -76,6 +76,12 @@ sources:
 本轮新增确认：[意大利语Wikipedia](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone))的wikibase_item为[Q16586138](https://www.wikidata.org/wiki/Q16586138)，其itwiki反向链接一致，建筑名、城市及工程语境吻合。英文检索未有适用页，转意大利语；全文3979字符已读。不是Rome的Q385387或城市Q243514。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 四元素装饰所处的建筑，与作品已有城市层级定位并存；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
 
 S1第一章第9页L312–319；S2–S5新资料。保留既有位于Valmontone的关系，其他正文链接为导航。
 

@@ -3,10 +3,10 @@ title: "费德里科·祖卡里（Federico Zuccari）"
 name_en: "Federico Zuccari"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"1593–1594 年尝试振兴学院，不作为首次创立的证明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 681–683; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1593–1594 年尝试振兴学院，不作为首次创立的证明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 681–683; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1593–1594","role":"首任Prince及组织领导者","scope":"学院振兴／实际组织阶段；不等同1577年设院授权"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L681–683
@@ -109,9 +109,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1593–1594 年尝试振兴学院，不作为首次创立的证明；时间：1593–1594；角色：首任Prince及组织领导者；范围：学院振兴／实际组织阶段；不等同1577年设院授权；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 681–683; print pp. 17 |
+
 ### 关系与身份入口
 
-已有associated_institution → [圣路加学院](../institutions/accademia-di-san-luca.md)，保留第一章1593–1594的来源语境。亲缘、师承、保护人等字段尚未自动写成正式边。
+已有 `member_of` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为1593–1594年的首任Prince及组织领导者，并与1577年设院授权区分。亲缘、师承、保护人等字段尚未自动写成正式边。
 
 [Wikipedia（英文）](https://en.wikipedia.org/wiki/Federico_Zuccari) ↔ [Wikidata Q345605](https://www.wikidata.org/wiki/Q345605)配对复用，排除同名天文学家。S1是第一章p.17、OCR L681–683；S2–4是此前对齐；S5–8是本次阅读与字段核对。WD引用未逐个外链全读。
 

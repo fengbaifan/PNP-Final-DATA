@@ -3,7 +3,7 @@ title: "圣彼得大殿（St Peter's Basilica）"
 name_en: "St Peter's Basilica"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 5.'
@@ -110,6 +110,9 @@ sources:
 | 建筑评价 | 百科引 Lees-Milne 等对立面与整体设计的评价，属于特定作者判断 | S6；不作为建筑客观属性 |
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikidata Q12512](https://www.wikidata.org/wiki/Q12512) · [Wikipedia（en）](https://en.wikipedia.org/wiki/St._Peter's_Basilica) · [大殿官网](https://www.basilicasanpietro.va/en/san-pietro/the-basilica)。复用 REV-034 双向配对；本轮 WP 全文已读，外部史实按 S6–10 分列；整卡仍为 source_backed。
 

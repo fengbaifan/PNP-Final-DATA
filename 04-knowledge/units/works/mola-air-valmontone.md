@@ -3,7 +3,7 @@ title: "莫拉瓦尔蒙托内《空气》构图方案（Mola’s design for Air 
 name_en: "Mola’s design for Air at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"part_of","target":"works/mola-four-elements-valmontone.md","note":"空气是四元素装饰题材之一，本卡保留方案内容。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 308–319; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -50,6 +50,11 @@ sources:
 - 馆方记录现存空气厅为Mattia Preti于1661年绘制，内容含时间、名声、爱情、命运以及昼夜行进。它是后来的独立装饰，不能拿来描述莫拉原构图。[S3]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 组成部分（`part_of`） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](mola-four-elements-valmontone.md) | 空气是四元素装饰题材之一，本卡保留方案内容；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 
 无这项具体方案的Wikipedia—Wikidata确认配对；不借作者或宫殿QID。S1第一章第9页L316–319；S2Mola专业研究；S3馆方现存装饰说明。保留原有part_of关系。
 

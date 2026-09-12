@@ -3,7 +3,7 @@ title: "题材与图像志协商（Consultation over subjects and iconography）
 name_en: "Consultation over subjects and iconography"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8, 9.'
@@ -55,6 +55,12 @@ sources:
 仍无这项历史惯例独立的Wikipedia—Wikidata确认配对；不以宽泛iconography概念替代操作过程。刊本外证已补充角色责任与方案／实施边界。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容；原断言与证据见发出端卡片“皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 
 暂无正式关系。S1第一章第8–9页L274–277、288–330；S2第11页L382–392；S3为实际读过的阿尔曼尼信pp.215–216。内容链接是导航。
 

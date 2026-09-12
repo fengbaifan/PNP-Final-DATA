@@ -3,7 +3,7 @@ title: "彼得·范拉尔（Pieter van Laer）"
 name_en: "Pieter van Laer"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"脚注明确 Van Laer 是学院会员；与画家帮身份可以并存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 753–754; print pp. 18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -83,6 +83,12 @@ sources:
 “真实记录民间生活”与寓意解释是不同学术观点，不一概当作画面事实。A. Welcker1942家族研究、David A. Levine1988论文为WP所引线索；Louvre2009荷兰／佛兰德斯绘画目录为馆方书目，均未声称全文已读。（S5、S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 脚注明确 Van Laer 是学院会员；与画家帮身份可以并存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
+| → 隶属／任职于（`member_of`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 本章所述画家帮成员 Van Laer，同时有学院会员身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–833; print pp. 20 |
 
 ### 身份与来源定位
 

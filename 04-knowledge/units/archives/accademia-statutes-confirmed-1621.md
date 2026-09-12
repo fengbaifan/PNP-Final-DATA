@@ -4,10 +4,10 @@ name_en: "Statutes of the Accademia di S. Luca (confirmed in 1621)"
 type: archive
 sub_type: statutes
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"所述章程属于该学院，具体文本版本未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"institutions/accademia-di-san-luca.md","note":"所述章程属于该学院，具体文本版本未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受章程规范的机构","scope":"第一章所述1621年获确认的章程；具体文本版本未知"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L690–691
@@ -57,9 +57,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 所述章程属于该学院，具体文本版本未知；角色：受章程规范的机构；范围：第一章所述1621年获确认的章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
+
 ### 关系入口
 
-已有正式关系：associated_institution → [圣路加学院](../institutions/accademia-di-san-luca.md)，保留原文依据及“具体版本未知”限制。文书确认者的叙述不是本轮新增的正式边。
+已有正式关系：`has_subject` → [圣路加学院](../institutions/accademia-di-san-luca.md)，保留“受章程规范的机构”角色及“具体文本版本未知”限制。文书确认者的叙述不由此自动新增正式边。
 
 ### 身份与出处
 

@@ -3,7 +3,7 @@ title: "卡萨纳滕塞图书馆（Biblioteca Casanatense）"
 name_en: "Biblioteca Casanatense"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/rome.md","note":"书中明确图书馆位于 Rome。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 89–92; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -94,6 +94,12 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [《罗马城记述》（1642）（Account of the City of Rome (1642)）](../archives/ameyden-relazione-1642.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；原断言与证据见发出端卡片“《罗马城记述》（1642）（Account of the City of Rome (1642)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 书中明确图书馆位于 Rome；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+
 ### 身份与关系导航
 
 [Wikipedia：Biblioteca Casanatense](https://en.wikipedia.org/wiki/Biblioteca_Casanatense) ↔ [Wikidata：Q2901274](https://www.wikidata.org/wiki/Q2901274) 沿用 REV-034 双向核对；本轮已读英文全文修订 1366883842。VIAF 152447230 仅由 WD 取得，未直接核验。（S2–S5）
@@ -102,7 +108,7 @@ sources:
 |---|---|---|
 | located_at | [罗马](../places/rome.md) | S1；第一章 p.4，L89–92；保留文件头既有关系 |
 
-手稿链接是馆藏导航，未新增反向边。旧关系来源仍是本章；S8 的新增证据留供集中关系阶段使用。
+手稿与馆藏关系仍由手稿卡保存，馆方卡以反向投影显示；S8只补充机构信息，不另复制反向事实。
 
 ### 未决与采用边界
 

@@ -3,7 +3,7 @@ title: "维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）"
 name_en: "Victoria and Albert Museum"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -68,13 +68,18 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum) 的 wikibase_item 与 [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）](../works/bernini-thomas-baker-bust.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；原断言与证据见发出端卡片“贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
+
 S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段；S6为V&A官方机构页全文；S7只读取“100 Facts”早期历史部分。Wikipedia页面包含大量现行馆群、数量与展览信息，本卡只采与机构身份、沿革、职责和第一章藏品语境有关部分。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 ### 身份与未决项
 

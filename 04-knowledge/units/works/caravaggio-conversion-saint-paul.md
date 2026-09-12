@@ -3,7 +3,7 @@ title: "卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of S
 name_en: "Caravaggio’s Conversion of Saint Paul commission"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -58,6 +58,12 @@ sources:
 第一版描绘保罗归化事件，不把另一版著名马匹构图说明直接移到该版。委托合同条款与实际成画的执行链仍有区分。（S4–S5）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）](../archives/caravaggio-altarpieces-contract-1600.md) | 合同涉及《圣保罗归化》委托与预先示稿要求；原断言与证据见发出端卡片“卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
+| ← 创作者（`created_by`，反向投影） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 1600年合同指定卡拉瓦乔完成该题材；本边连接委托对象，不把第一版与礼拜堂版合并；时间：1600起；角色：合同指定画家；范围：连接委托对象；不同实物版本仍分开；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401; print pp. 11 |
 
 ### 身份范围
 

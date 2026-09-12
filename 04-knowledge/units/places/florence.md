@@ -3,7 +3,7 @@ title: "佛罗伦萨（Florence）"
 name_en: "Florence"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -109,6 +109,9 @@ sources:
 | Niccolò Machiavelli, *Florentine Histories* | S6 所列历史文献；版本与具体论述均未读取 |
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 ### 身份与外部入口
 

@@ -3,7 +3,7 @@ title: "阿尔卡迪亚学会（Society of Arcadia）"
 name_en: "Society of Arcadia"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -84,6 +84,14 @@ sources:
 | 研究线索 | Susan M. Dixon，Between the Real and the Ideal: The Accademia degli Arcadi and Its Garden in Eighteenth-Century Rome，2006 | S4 所列书目，未读 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；原断言与证据见发出端卡片“弗朗切斯科·特雷维萨尼（Francesco Trevisani）”：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1712年入会段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）](../persons/giammaria-morandi.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；原断言与证据见发出端卡片“乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1699年入会段 |
+| ← 包含成员（`contains`，反向投影） | [朱塞佩·盖齐（Giuseppe Ghezzi）](../persons/giuseppe-ghezzi.md) | 本章明确 Ghezzi 当选 Arcadia 学会成员；原断言与证据见发出端卡片“朱塞佩·盖齐（Giuseppe Ghezzi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 770–773; print pp. 19 |
+| ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1695年入会段 |
 
 [Wikidata Q338478](https://www.wikidata.org/wiki/Q338478) · [Wikipedia（en）](https://en.wikipedia.org/wiki/Pontifical_Academy_of_Arcadia) · [学院官网](https://www.accademiadellarcadia.it/)。REV-034 配对结果复用；本轮英文页完整阅读，官方来源范围分列 S6–8。
 

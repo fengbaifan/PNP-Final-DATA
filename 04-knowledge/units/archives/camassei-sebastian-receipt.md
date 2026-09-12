@@ -4,11 +4,11 @@ name_en: "Published Payment Order for Camassei’s Saint Sebastian Altarpiece"
 type: archive
 sub_type: payment_order
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"has_subject","target":"works/camassei-martyrdom-saint-sebastian.md","note":"收据用于确认该祭坛画的画家身份；与合同文本分开。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372–374; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"part_of","target":"archives/bertolotti-artisti-bolognesi.md","note":"收据刊录在该书 pp.161–162；所指是文献刊收关系。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 372–374; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"works/camassei-martyrdom-saint-sebastian.md","note":"付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372–374; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"derived_from","target":"archives/bertolotti-artisti-bolognesi.md","note":"本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分。","evidence_ref":{"doc_id":"bertolotti-artisti-bolognesi-1885","source_file":"https://archive.org/details/artistibolognesi00bert","source_span":"本卡 S2；印刷页161–162，扫描页174–175"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L335–338,372–374
@@ -54,7 +54,13 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
+| → 源自（`derived_from`） | [贝尔托洛蒂《罗马的博洛尼亚、费拉拉及原教皇国其他艺术家》（Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome）](bertolotti-artisti-bolognesi.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；证据：[来源](https://archive.org/details/artistibolognesi00bert)；bertolotti-artisti-bolognesi-1885；本卡 S2；印刷页161–162，扫描页174–175 |
+
 没有该文书的Wikipedia—Wikidata配对。原章第10页L335–338、372–374及旧来源摘要保留，以便追溯早期“收据”判断。
-既有作品主题及刊收关系保留；其中旧note所称“收据”按本卡裁决已过时，交集中关系复核更新措辞，不能当独立文种证据。
+本次把旧“收据”措辞改为付款令，并将刊本关系由 `part_of` 改为 `derived_from`；文种与原档同一性限制保留。
 
 1633署日与Marcello Sacchetti1629卒年冲突；不得据本刊令生成其1633付款事实。另页Guercino1638收据不属本文。现已读刊本，不称原件或签署本已读。

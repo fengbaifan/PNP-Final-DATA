@@ -3,7 +3,7 @@ title: "塞孔多·兰切洛蒂（Secondo Lancellotti）"
 name_en: "Secondo Lancellotti"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -99,13 +99,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《当今》（1627）（L'Hoggidi (1627)）](../archives/lhoggidi-1627.md) | 第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据；原断言与证据见发出端卡片“《当今》（1627）（L'Hoggidi (1627)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 45–47; print pp. 3 |
+
 ### 身份与外部链接
 
 [Wikidata Q15733678](https://www.wikidata.org/wiki/Q15733678) ↔ [Wikipedia：Secondo Lancellotti（英文）](https://en.wikipedia.org/wiki/Secondo_Lancellotti)。沿用REV-034双向身份配对，本轮已读WP全文。VIAF 15657129仅据WD取得，未核原站。
-
-### 关系记录
-
-本卡暂无正式出边；[《当今》文献卡](../archives/lhoggidi-1627.md)已有指向本人的authored_by关系。文献的献辞、修会职务等按内容字段保留，交关系阶段处理。
 
 ### 证据与未决项
 

@@ -4,7 +4,7 @@ name_en: "Armanni's Collected Letters"
 type: archive
 sub_type: letter_collection
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/vincenzo-armanni-ch1.md","note":"本章所引 Armanni 信集，书目条目补全题名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -71,6 +71,12 @@ sources:
 仍无本信集独立的Wikipedia—Wikidata确认配对；不得借用作者QID。已有原题、分卷刊记和扫描标识改善了版本定位，但不是Wiki配对。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 本章所引 Armanni 信集，书目条目补全题名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| ← 包含成员（`contains`，反向投影） | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](armanni-pamfili-letter-undated.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；原断言与证据见发出端卡片“温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 
 文件头保留既有作者关系；正文链接是导航。S1–S5按文件头sources顺序对应，保留第一章第9页L329–330及书目定位。
 

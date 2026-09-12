@@ -17,8 +17,10 @@ from collections import defaultdict
 
 try:
     from scripts._relation_schema import INVERSE_MAP, RELATION_TYPES
+    from scripts._accepted_knowledge import select_paths
 except ModuleNotFoundError:
     from _relation_schema import INVERSE_MAP, RELATION_TYPES
+    from _accepted_knowledge import select_paths
 
 BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
@@ -93,11 +95,14 @@ def _normalize_target_path(target, source=None):
     return normalized
 
 def iter_all_units():
+    files = []
     for dname in ["persons","families","institutions","places","works","archives","terms","procedures","events"]:
         d = UNITS / dname
         if d.exists():
             for f in sorted(d.glob("*.md")):
-                yield f, dname
+                files.append(f)
+    for f in select_paths(BASE, "units", files):
+        yield f, f.parent.name
 
 relations = []
 path_to_type = {}
@@ -160,13 +165,20 @@ def _materialized_theme_target(theme_code):
             return f"themes/{path.name}"
     return ""
 
+def _with_qualifiers(record, rel):
+    for field in ("time", "role", "scope"):
+        if field in rel and rel[field] not in (None, "", [], {}):
+            record[field] = rel[field]
+    return record
+
+
 def _finalize(source, stype, rel, src):
     target = _normalize_target_path(rel.get("target", ""), source)
     has_evidence = bool(rel.get("evidence") or rel.get("evidence_ref") or rel.get("claim_id"))
     bidirectional_required = rel.get("bidirectional_required")
     if bidirectional_required is None:
         bidirectional_required = rel.get("relation_type") in INVERSE_MAP
-    return {
+    return _with_qualifiers({
         "source": source, "source_type": stype,
         "target": target,
         "target_type": _target_type_from_path(target),
@@ -180,7 +192,7 @@ def _finalize(source, stype, rel, src):
         "relation_source": rel.get("relation_source", src),
         "bidirectional_required": bidirectional_required,
         "review_status": rel.get("review_status") or ("auto_validated" if has_evidence else "needs_evidence"),
-    }
+    }, rel)
 
 def _inverse_review_status(rel):
     status = rel.get("review_status")
@@ -194,7 +206,7 @@ def _inverse_review_status(rel):
     return "weak_inference"
 
 def _build_inverse_relation(rel):
-    return {
+    return _with_qualifiers({
         "source": rel["target"], "source_type": rel.get("target_type", "unknown"),
         "target": rel["source"], "target_type": rel["source_type"],
         "relation_type": INVERSE_MAP[rel["relation_type"]],
@@ -207,7 +219,7 @@ def _build_inverse_relation(rel):
         "relation_source": "inferred_by_rule",
         "bidirectional_required": True,
         "review_status": _inverse_review_status(rel),
-    }
+    }, rel)
 
 def _should_build_inverse(rel):
     if rel.get("review_status") in {"weak_association", "defer_source_review"}:

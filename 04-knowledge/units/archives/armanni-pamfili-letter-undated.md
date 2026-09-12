@@ -4,11 +4,11 @@ name_en: "Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/vincenzo-armanni-ch1.md","note":"书信署名者据原页确认为 Armanni。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/camillo-pamfili.md","note":"书信收信人为 Camillo Pamfili。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/camillo-pamfili.md","note":"书信收信人为 Camillo Pamfili。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"收信人","scope":"就Valmontone别墅装饰提供建议的未注明日期书信"}
   - {"relation_type":"part_of","target":"archives/armanni-delle-lettere.md","note":"本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -62,6 +62,13 @@ sources:
 仍无独立Wikipedia—Wikidata配对。刊本文本已逐页读至信尾；原信手稿、寄出地与精确日期未核。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 书信署名者据原页确认为 Armanni；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| → 致函（`addressed_to`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | 书信收信人为 Camillo Pamfili；角色：收信人；范围：就Valmontone别墅装饰提供建议的未注明日期书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| → 组成部分（`part_of`） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](armanni-delle-lettere.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 
 文件头保留3条既有关系：作者、收信人关联及刊收于信集。S1–S3按sources顺序。原章定位为第一章第9页L329–330。
 

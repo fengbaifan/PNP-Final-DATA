@@ -3,7 +3,7 @@ title: "《罗马城记述》（1642）（Account of the City of Rome (1642)）"
 name_en: "Account of the City of Rome (1642)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/ameyden.md","note":"MS.5001 手稿署名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 89–92; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -74,18 +74,17 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [迪尔克·范·阿梅登（Dirk van Ameyden）](../persons/ameyden.md) | MS.5001 手稿署名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+| → 位于（`located_at`） | [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+
 ### 身份与检索结果
 
 目前没有确认的[Wikidata检索入口](https://www.wikidata.org/)实体QID或对应Wikipedia对象页。REV-052按原语题名、1642年与MS.5001检索，未找到可确认双向配对的结果；检索未命中不证明不存在。不得借用作者Q3983865或图书馆Q2901274作为手稿QID。
 
 官方修复记录已直接读取，但不满足Wikipedia—Wikidata配对要求；卡片继续为 `source_backed`。
-
-### 正式关系与导航
-
-| 正式关系 | 对象 | 证据／范围 |
-|---|---|---|
-| authored_by | [阿梅登](../persons/ameyden.md) | S1；第一章p.4，L89–92；既有边保留 |
-| located_at | [卡萨纳滕塞图书馆](../institutions/biblioteca-casanatense.md) | S1；既有边描述Haskell引用时点。S2新增外部支持留待关系集中处理，不悄改旧证据 |
 
 ### 证据链及未决
 

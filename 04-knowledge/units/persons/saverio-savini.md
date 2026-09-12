@@ -3,7 +3,7 @@ title: "萨尔维奥·萨维尼（Salvio Savini）"
 name_en: "Salvio Savini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -55,13 +55,14 @@ Pala del Voto 为布面油画，画面上部是圣母子与施洗者约翰、圣
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../archives/savini-gubbio-terms-1608.md) | 条款所约束画家为 Savini，不借其他实例补全文本；时间：1608；角色：受条款约束的画家；范围：Gubbio委托条款；原断言与证据见发出端卡片“萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
+
 ### 身份与外部链接
 
 当前未找到可确认的独立 Wikipedia 条目及 Wikidata QID，因此不借用同名人物或作品标识。身份修正依据第一章的年份、地点、合同性质与S2的同一委托完全对应，并由S3的同名画家活动记录增强，但这不是 Wikipedia—Wikidata 双站配对完成。
-
-### 关系记录
-
-本卡目前没有正式关系。[1608年古比奥委托条款](../archives/savini-gubbio-terms-1608.md)可供内容导航；画家、文献与作品的正式关系留待第6阶段统一审查。
 
 ### 争议与待补
 

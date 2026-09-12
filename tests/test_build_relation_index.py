@@ -53,6 +53,26 @@ class BuildRelationIndexTests(unittest.TestCase):
             "02-sources/example/original.md",
         )
 
+    def test_inverse_preserves_structured_relation_qualifiers(self):
+        inverse = self.module._build_inverse_relation(
+            {
+                "source": "works/example.md",
+                "source_type": "work",
+                "target": "places/example.md",
+                "target_type": "place",
+                "relation_type": "installed_at",
+                "evidence_ref": {"source_file": "02-sources/example.md"},
+                "review_status": "evidence_backed_relation",
+                "time": {"from": "1601", "to": "1605"},
+                "role": "original installation",
+                "scope": "first version",
+            }
+        )
+
+        self.assertEqual(inverse["time"], {"from": "1601", "to": "1605"})
+        self.assertEqual(inverse["role"], "original installation")
+        self.assertEqual(inverse["scope"], "first version")
+
     def test_inverse_of_weak_inference_stays_weak(self):
         inverse = self.module._build_inverse_relation(
             {

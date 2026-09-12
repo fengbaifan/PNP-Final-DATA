@@ -3,7 +3,7 @@ title: "新闻纸（News sheets）"
 name_en: "News sheets"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, p. 19."
@@ -50,6 +50,9 @@ sources:
 研究线索：Paola Molino，“Connected News: German Zeitungen and Italian avvisi in the Fugger collection (1568–1604)”（2016）,267–295；Sheila Barker，“‘Secret and Uncertain’: A History of Avvisi at the Court of the Medici Grand Dukes”（2016）,716–738。仅读百科脚注，论文全文未读。（S2）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：Journalism of early modern Europe](https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe) ↔ [Q4829575](https://www.wikidata.org/wiki/Q4829575)双向一致，但页名与范围比本卡类别宽，仍不采用确认QID。实际阅读全文14747字符，未把Avviso重定向短页当作全文对象页。
 

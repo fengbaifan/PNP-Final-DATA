@@ -3,7 +3,7 @@ title: "可移动画廊画（Gallery picture）"
 name_en: "Gallery picture"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -67,5 +67,8 @@ sources:
 仍无gallery picture在本章含义上的独立Wikipedia—Wikidata确认配对。两项Getty规范记录已实际阅读全文，作为概念比较依据；不借easel器具、easel paintings或cabinet pictures的标识强配。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 无正式关系。S1第一章第8页L265–273、S2第10页L339–356、S3第15页L591–606保留；S4–S6为本轮权威术语来源。Getty列出的书目只作为定义出处线索，未读其全部原书。不建立与相邻概念的正式等同边。

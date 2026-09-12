@@ -3,7 +3,7 @@ title: "宗座财务院（Apostolic Chamber）"
 name_en: "Apostolic Chamber"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -61,13 +61,16 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Apostolic_Camera) 的 wikibase_item 与 [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次完整阅读的英文Wikipedia；S5为本次Wikidata字段核对。Wikipedia的中世纪与近现代沿革主要来自其所列研究和旧百科条目，本轮未逐项打开这些参考文献。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 ### 身份与未决项
 

@@ -3,11 +3,11 @@ title: "查理五世授提香荣衔（1533）（Charles V's Grant of Honours to 
 name_en: "Charles V's Grant of Honours to Titian (1533)"
 type: event
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/titian.md","note":"荣衔接受者为 Titian。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/charles-v.md","note":"荣衔授予者为 Charles V。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"persons/titian.md","note":"荣衔接受者为 Titian。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1533","role":"荣衔接受者","scope":"Count Palatine等荣衔；不采捡画笔逸事"}
+  - {"relation_type":"has_participant","target":"persons/charles-v.md","note":"荣衔授予者为 Charles V。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1533","role":"荣衔授予者","scope":"Count Palatine等荣衔；不采捡画笔逸事"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L799–804
@@ -54,6 +54,12 @@ sources:
 尚无具体事件独立Wiki配对。[提香人物页](https://en.wikipedia.org/wiki/Titian)及Q47551是参与者身份，不是本次授衔事件的QID。完整称号和制度作用仍需授予文书及可靠刊本核查。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [提香（Titian）](../persons/titian.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| → 参与者（`has_participant`） | [查理五世（Charles V）](../persons/charles-v.md) | 荣衔授予者为 Charles V；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
 
 - S1：第一章，印刷页19，OCR L799–804。
 - S2：Titian英文页全文已读，采用授衔叙述与图像年代区分。

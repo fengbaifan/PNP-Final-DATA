@@ -3,7 +3,7 @@ title: "荣誉侍从（Gentiluomo d’onore）"
 name_en: "Gentiluomo d’onore"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -58,6 +58,9 @@ sources:
 **范围待对齐。** [意大利语Gentiluomo页](https://it.wikipedia.org/wiki/Gentiluomo)及[Q749212](https://www.wikidata.org/wiki/Q749212)对应广义社会／礼貌观念，不能代表帕尔马特定宫廷荣衔。英文查询未解决精确称谓，沿用意大利语候选并全文阅读；未导入广义候选的属性。[S2–S5]
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 - S1：第一章，印刷页19，OCR L770–773。
 - S2–S3：原初步对齐；S4–S5：候选全文与WD复核；S6：Treccani词典全文，义项1支持语义区分。

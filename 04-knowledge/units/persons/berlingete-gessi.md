@@ -3,7 +3,7 @@ title: "贝尔林杰罗·杰西（Berlingero Gessi）"
 name_en: "Berlingero Gessi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -59,12 +59,17 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）](../archives/gessi-leopardi-letter-1647.md) | 书信作者；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 509–510; print pp. 13 |
+
 S1：第一章；印刷页 13；OCR L509–510。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。

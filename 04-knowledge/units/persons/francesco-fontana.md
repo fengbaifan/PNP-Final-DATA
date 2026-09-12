@@ -3,7 +3,7 @@ title: "弗朗切斯科·丰塔纳（Francesco Fontana）"
 name_en: "Francesco Fontana"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 17."
@@ -31,13 +31,9 @@ sources:
     sentence_summary: "英文 Q646955 为那不勒斯天文学家；意大利语 Q1441035 为消歧义页。均不匹配埃斯特宫廷通信收信伯爵，复用既有家族研究的初步对应。"
 ---
 
-## 一、元数据
+## 内容
 
-来源、章页与句子摘要见文件头。类型为 person；中文名为便于双语检索的暂用音译，不宣称通行译名。当前为来源支持及外部研究初步对应，Wikipedia—Wikidata 双向核对未完成，无已采纳 QID。
-
-## 二、内容
-
-### 双语描述
+### 描述
 
 **中文**：弗朗切斯科·丰塔纳是《赞助人与画家》第一章所引泰斯蒂书信的收信伯爵。家族研究将同名的泰斯蒂经常通信者记为托马索·丰塔纳之子、埃斯特家族的军官及摩德纳市政任职者；这些相合信息支持本条的初步身份对应，尚未完成 Wiki 双向身份核对。
 
@@ -75,10 +71,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
-## 三、关系与证据
+## 关系与证据
 
 - 与[富尔维奥·泰斯蒂](fulvio-testi.md)的通信：Haskell 第一章第 17 页和 Fraschetti 第十二章第 108 页对应本信；Tavernari 第 66 页明确记述经常通信。现有[信件知识元](../archives/testi-fontana-bernini-letter.md)保留收信人关系，本次未新增人物卡正式关系。
 - 身份边界：英文 Wikipedia 的 [Francesco Fontana](https://en.wikipedia.org/wiki/Francesco_Fontana)实际指那不勒斯天文学家、光学仪器制作者；已读其身份与生平段以排除直接同名合并，未将该页认作本对象全文阅读。按意大利语追加检索尚未找到匹配的独立人物页，故不采用该同名页或其他同名建筑师的 QID。
 - 本书收信伯爵与家族研究人物的对应依据是姓名、爵位、泰斯蒂通信及摩德纳／埃斯特语境共同吻合；仍保留初步对齐状态。来源中的家族事实不自动扩张为新知识元或正式关系。
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |

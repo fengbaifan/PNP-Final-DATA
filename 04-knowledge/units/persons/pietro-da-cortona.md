@@ -3,8 +3,10 @@ title: "皮耶特罗·达·科尔托纳（Pietro da Cortona）"
 name_en: "Pietro da Cortona"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1634年起任学院负责人；不同来源对任期终点有异文。","evidence_ref":{"doc_id":"icg-cortona","source_file":"https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html","source_span":"本卡 S9；1634–1636学院负责人段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L217–220
@@ -106,6 +108,15 @@ sources:
 构图人物数量的论争反映不同艺术主张，不变成固定人数规则。[S6] Briganti1967的赞助阶层与风格解释是作者论断，不能当作本项目已经发现的普遍规律。[S8选读] 相关书目：Merz2008关于罗马建筑、Campbell1977关于Pitti宫、Lo Bianco主编1997展览研究；仅核见书目信息。ICG1997展览由Simonetta Prosperi Valenti Rodinò编目录，介绍素描的设计、学习及多人协作性质；本轮未全读展出作品清单。[S6、S9]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）](../archives/gini-cortona-letter-1666.md) | 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信；原断言与证据见发出端卡片“奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 383–385,415–418; print pp. 11 |
+| ← 教师（`teacher_of`，反向投影） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 费里师从科尔托纳；与长期协作分作两条关系；角色：学生；范围：Ferri从Cortona学习；具体起止年未在本卡定稿；原断言与证据见发出端卡片“奇罗·费里（Ciro Ferri）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| ← 合作（`collaborated_with`，反向投影） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任；角色：长期助手／合作者；范围：具体项目责任仍逐作区分；原断言与证据见发出端卡片“奇罗·费里（Ciro Ferri）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [马尔切洛·萨凯蒂（Marcello Sacchetti）](marcello-sacchetti.md) | 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中；角色：提供宫中住处与保护的赞助人；范围：确认同乡后的接纳与安置；原断言与证据见发出端卡片“马尔切洛·萨凯蒂（Marcello Sacchetti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 217–220; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1634年起任学院负责人；不同来源对任期终点有异文；证据：[来源](https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html)；icg-cortona；本卡 S9；1634–1636学院负责人段 |
 - 相关知识元：[萨凯蒂](marcello-sacchetti.md)、[萨基](andrea-sacchi.md)、[科尔托纳城市](../places/cortona.md)、[有争议的Doria–Pamphilj稿组](../works/cortona-doria-pamfili-modelli-disputed.md)、[Barberini大厅所谓草稿](../works/barberini-salone-bozzetto-disputed.md)。当前未新增正式出边。
 - 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Pietro_da_Cortona) ↔ [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)。ULAN500115154仅从WD核得编号，本轮未读Getty记录；WD的general contractor标签未机械作为现代职业导入。
 - S1–S3保存章页／行数与句意，S4–S5为旧对齐，S6–S9为补足。DBI仅选读早年部分，ICG仅选读介绍；不得标为这两来源全文已读。

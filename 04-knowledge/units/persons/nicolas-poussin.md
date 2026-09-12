@@ -3,10 +3,10 @@ title: "尼古拉·普桑（Nicolas Poussin）"
 name_en: "Nicolas Poussin"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_work","target":"works/poussin-spring-valguarnera.md","note":"接受另订《春》的画家；不由此证明成品现存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"creator_of","target":"works/poussin-spring-valguarnera.md","note":"接受另订《春》的画家；不由此证明成品现存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"另订《春》的受托画家","scope":"连接委托对象；不证明成品现存"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L373–374
@@ -81,9 +81,16 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Nicolas_Poussin) 的 wikibase_item 与 [Wikidata Q41554](https://www.wikidata.org/wiki/Q41554) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所创作对象（`creator_of`） | [普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）](../works/poussin-spring-valguarnera.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| ← 所创作对象（`creator_of`，反向投影） | [《阿什杜德的瘟疫》（The Plague at Ashdod）](../works/plague-at-ashdod-1631.md) | 普桑工作室中的既有初稿；未据此补写创作年份；原断言与证据见发出端卡片“《阿什杜德的瘟疫》（The Plague at Ashdod）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| ← 所创作对象（`creator_of`，反向投影） | [普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）](../works/poussin-massacre-innocents.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；原断言与证据见发出端卡片“普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
 
 S1：第一章；印刷页 10；OCR L373–374；S2：第一章；印刷页 15；OCR L591–603。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

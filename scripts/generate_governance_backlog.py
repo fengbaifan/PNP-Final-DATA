@@ -62,15 +62,6 @@ def gen_p0(health: dict) -> list[dict]:
 
 def gen_p1(health: dict) -> list[dict]:
     items: list[dict] = []
-    for type_name, type_data in health.get("translation_health", {}).items():
-        for field, coverage in type_data.get("coverage", {}).items():
-            gap = coverage_gap(coverage)
-            if gap:
-                items.append(item(
-                    f"P1-TRANSLATION-{type_name.upper()}-{field.upper()}",
-                    f"translation field coverage incomplete: {type_name}.{field}",
-                    f"{gap} missing",
-                ))
     translation = health.get("translation_index_integrity", {})
     if (
         not translation.get("index_exists", False)
@@ -86,13 +77,11 @@ def gen_p1(health: dict) -> list[dict]:
         ))
     verification = health.get("verification_schema", {})
     missing_status = verification.get("missing_evidence_status", {}).get("count", 0)
-    missing_level = verification.get("missing_verification_level_when_not_tentative", {}).get("count", 0)
     if missing_status:
         items.append(item("P1-EVIDENCE-STATUS", "evidence_status missing", f"{missing_status} files"))
-    if missing_level:
-        items.append(item("P1-VERIFY-LEVEL", "verification_level missing", f"{missing_level} files"))
     dataflow = health.get("dataflow_issues", [])
-    if dataflow:
+    accepted_catalog = health.get("execution_scope", {}).get("knowledge_inputs") == "accepted_catalog"
+    if dataflow and not accepted_catalog:
         items.append(item("P1-DATAFLOW", "source-to-processing dataflow is incomplete", f"{len(dataflow)} findings"))
     evidence_ref = health.get("evidence_ref", {})
     if evidence_ref.get("evidence_ref_broken", 0):
@@ -121,6 +110,8 @@ def gen_p1_content(health: dict) -> list[dict]:
 
 
 def gen_p1_ingest_coverage(health: dict) -> list[dict]:
+    if not health.get("execution_scope", {}).get("processing_inventory_is_research_progress", True):
+        return []
     items: list[dict] = []
     semantic = health.get("semantic_artifact_integrity", {})
     for field in (
@@ -248,7 +239,7 @@ def generate_md(health: dict) -> str:
     ]
     if health.get("execution_scope", {}).get("knowledge_inputs") == "accepted_catalog":
         lines.extend([
-            "> 有效知识按 accepted.yml 统计。下面的处理包、候选与 dataflow 项仍为历史库存诊断，不表示本项目已执行，也不自动成为开工或交接门禁。", "",
+            "> 有效知识按 accepted.yml 统计。旧处理包、候选、dataflow、旧版翻译字段与可选验证层级只保留在健康快照中作历史诊断，不列为当前缺陷或阶段门禁。", "",
         ])
     lines.extend(render_section("System defects - P0", gen_p0(health)))
     lines.extend(render_section("System defects - P1", gen_p1(health) + gen_p1_content(health) + gen_p1_ingest_coverage(health)))

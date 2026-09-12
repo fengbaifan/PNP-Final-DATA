@@ -3,7 +3,7 @@ title: "文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）"
 name_en: "Vincenzo Giustiniani"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -82,6 +82,11 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 购入者（`acquirer_of`，反向投影） | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人；时间：约1602后；角色：退画购入者；范围：购入第一版；不是初始委托人；原断言与证据见发出端卡片“《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）”：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+
 ### 身份与阅读
 
 [Wikipedia：Vincenzo Giustiniani](https://en.wikipedia.org/wiki/Vincenzo_Giustiniani) ↔ [Wikidata Q1396468](https://www.wikidata.org/wiki/Q1396468) 双向一致。银行家、侯爵、年代、艺术收藏及S5明确收购链共同支持本章人物，本轮由未配对转为身份配对通过；不改整卡source_backed。
@@ -90,7 +95,7 @@ S2英文全文4402字符已读；S3适用字段及标签已核；S4按所列范�
 
 ### 关系与导航
 
-[购藏的《圣马太与天使》](../works/caravaggio-giustiniani-rejected-altarpiece.md)及[卡拉瓦乔](caravaggio.md)为本章关联对象。文件头尚无正式边；新购藏方向及与兄长收藏的区别统一交关系阶段，不自动把亲缘名字登记为新KU。
+[购藏的《圣马太与天使》](../works/caravaggio-giustiniani-rejected-altarpiece.md)及[卡拉瓦乔](caravaggio.md)为本章关联对象。购藏事实由作品卡发出并在本卡反向显示；不复制一条人物出边，也不把兄长或其他亲缘名字自动登记为新KU。
 
 ### 未决
 

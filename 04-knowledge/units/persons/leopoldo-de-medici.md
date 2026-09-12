@@ -3,7 +3,7 @@ title: "莱奥波尔多·德·美第奇（Leopoldo de’ Medici）"
 name_en: "Leopoldo de’ Medici"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -69,12 +69,17 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Leopoldo_de'_Medici) 的 wikibase_item 与 [Wikidata Q968920](https://www.wikidata.org/wiki/Q968920) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../archives/salviati-medici-letter-1662.md) | 书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告；时间：1662-07-22；角色：收信人；范围：Claude作品购画与定价报告；原断言与证据见发出端卡片“雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
+
 S1：第一章；印刷页 14；OCR L538–540, 565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

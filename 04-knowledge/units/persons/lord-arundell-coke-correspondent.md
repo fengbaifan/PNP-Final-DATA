@@ -3,7 +3,7 @@ title: "托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arund
 name_en: "Thomas Howard, Earl of Arundel"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
@@ -100,6 +100,11 @@ sources:
 | 未读研究入口 | White 1995《Anthony van Dyck: Thomas Howard, The Earl of Arundel》（94页）；Howarth 1985《Lord Arundel and his Circle》；Gilman 2002《Recollecting the Arundel Circle》 | S8出版资料／S4书目；不是已读文献清单 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../archives/coke-arundell-letter-1620.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；原断言与证据见发出端卡片“托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
 
 - **身份双重核对通过（REV-052）：** [English Wikipedia](https://en.wikipedia.org/wiki/Thomas_Howard,_14th_Earl_of_Arundel) page item＝[Wikidata Q166517](https://www.wikidata.org/wiki/Q166517)，WD enwiki反链回同页；[Getty ULAN 500057345](https://www.getty.edu/vow/ULANFullDisplay?subjectid=500057345)亦给此QID。
 - 配对依据：S2–S3将本章发受者、1620年10月8日和No.249连到Thomas Howard；S3生卒及S4–S6家族、收藏与身份相符。用通信特征消歧，不仅凭Lord称谓。

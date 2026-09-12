@@ -3,7 +3,7 @@ title: "罗马（Rome）"
 name_en: "Rome"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
@@ -96,6 +96,12 @@ sources:
 | 研究书目线索 | Rabun Taylor、Katherine W. Rinne、Spiro Kostof，Rome: An Urban History from Antiquity to the Present（2016） | S7 书目；未读全书 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 事件地点（`scene_of`，反向投影） | [画家帮成立（1623）（Formation of the Schildersbent (1623)）](../events/schildersbent-formation-1623.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；原断言与证据见发出端卡片“画家帮成立（1623）（Formation of the Schildersbent (1623)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
+| ← 所在地（`location_of`，反向投影） | [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md) | 书中明确图书馆位于 Rome；原断言与证据见发出端卡片“卡萨纳滕塞图书馆（Biblioteca Casanatense）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 
 ### 身份与链接
 

@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.generate_governance_backlog import gen_completed, gen_p0, gen_p1, gen_p2_content, gen_p2_runtime, generate_md
+from scripts.generate_governance_backlog import gen_completed, gen_p0, gen_p1, gen_p1_ingest_coverage, gen_p2_content, gen_p2_runtime, generate_md
 
 
 class GovernanceBacklogTranslationIndexTests(unittest.TestCase):
@@ -38,6 +38,35 @@ class GovernanceBacklogTranslationIndexTests(unittest.TestCase):
         )
 
         self.assertIn("P1-TRANSLATION-INDEX-DRIFT", [item["id"] for item in items])
+
+    def test_retired_fields_and_historical_inventory_do_not_create_p1(self):
+        health = {
+            "execution_scope": {
+                "knowledge_inputs": "accepted_catalog",
+                "processing_inventory_is_research_progress": False,
+            },
+            "translation_health": {
+                "persons": {"total": 2, "coverage": {"name_original": "0/2"}},
+            },
+            "verification_schema": {
+                "missing_verification_level_when_not_tentative": {"count": 2},
+            },
+            "dataflow_issues": ["legacy inventory"],
+            "translation_index_integrity": {
+                "index_exists": True,
+                "expected": 2,
+                "indexed": 2,
+                "missing": [],
+                "stale": [],
+                "duplicate": [],
+                "declared_total_mismatch": False,
+            },
+            "semantic_artifact_integrity": {"chapters_without_reading_ledger": ["legacy package"]},
+            "recall_quality": {"chapters_without_candidate": ["legacy package"]},
+        }
+
+        self.assertEqual(gen_p1(health), [])
+        self.assertEqual(gen_p1_ingest_coverage(health), [])
 
     def test_failed_rule_audit_is_not_reported_as_negative_drift(self):
         items = gen_p0({"rule_drift": {"findings": -1, "error": "import failed"}})

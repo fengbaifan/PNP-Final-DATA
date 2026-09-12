@@ -3,10 +3,8 @@ title: "鲁本斯（Rubens）"
 name_en: "Rubens"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
-relations:
-  - {"relation_type":"associated_work","target":"works/rubens-chiesa-nuova-altarpiece-1606.md","note":"1606 年在承担祭坛画前被要求示画，尚未在本章精确识别实物版本。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 402–404; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L402–404
@@ -85,9 +83,14 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Peter_Paul_Rubens) 的 wikibase_item 与 [Wikidata Q5599](https://www.wikidata.org/wiki/Q5599) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../works/rubens-chiesa-nuova-altarpiece-1606.md) | 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品；原断言与证据见发出端卡片“鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
 
 S1：第一章；印刷页 11；OCR L402–404；S2：第一章；印刷页 12；OCR L436–437。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

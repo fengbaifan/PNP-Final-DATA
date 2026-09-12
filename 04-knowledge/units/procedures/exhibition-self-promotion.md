@@ -3,7 +3,7 @@ title: "展览售画与自我宣传（Exhibiting paintings and self-promotion）
 name_en: "Exhibiting paintings and self-promotion"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -65,6 +65,11 @@ sources:
 章内登记的是历史做法组合，尚无精确Wikipedia—Wikidata配对。艺术展览、营销或罗萨人物条目的QID不替代这个程序。具体展览日期、场地、参展清单、交易原件及不同来源对事件的对应仍须有对象级证据；本卡已保存有范围的补足结果。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；原断言与证据见发出端卡片“萨尔瓦多·罗萨（Salvator Rosa）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 917–926; print pp. 22 |
 
 | 入口 | 知识元 | 状态 |
 |---|---|---|

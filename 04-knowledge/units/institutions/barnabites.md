@@ -3,7 +3,7 @@ title: "巴尔纳伯会（Barnabites）"
 name_en: "Barnabites"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -95,6 +95,9 @@ WP将十七世纪获枢机称号的Giacomo Antonio Morigia称为创始者，与S
 Vota per quae（1533年批准简函）及后续会宪是制度核证对象；本轮读到的是会方解释，未核原文全部条款。WP所列早期会史、Barnabite作者目录及圣保禄研究线索未逐部阅读，不列为已核研究成果。（S4、S6）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 | 来源 | 章页／行数 | 句子摘要 |
 |---|---|---|

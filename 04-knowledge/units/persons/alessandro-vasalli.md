@@ -3,10 +3,10 @@ title: "亚历山德罗·瓦萨利（Alessandro Vasalli）"
 name_en: "Alessandro Vasalli"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/pier-francesco-mola.md","note":"在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"testified_about","target":"persons/pier-francesco-mola.md","note":"在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"争议证人","scope":"解释Mola对Pamfili的有偿优先服务"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L179–185
@@ -48,6 +48,12 @@ sources:
 - 证人以常理及画家间的说法解释其认识来源；这是具语境的证言，不等于普遍成文法或法院最终裁决。（S1）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）](../archives/vasalli-testimony-mola-pamfili.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；原断言与证据见发出端卡片“瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
+| → 为其相关争议作证（`testified_about`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 在 Mola 与 Pamfili 争议中作证，解释有偿优先服务；角色：争议证人；范围：解释Mola对Pamfili的有偿优先服务；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
 
 **S1：第一章p.6、L179–185，经Montalto p.295转引。** [证词记录](../archives/vasalli-testimony-mola-pamfili.md)保存载体和传递链；[莫拉](pier-francesco-mola.md)是现有正式关系端点，[潘菲利](camillo-pamfili.md)身份另在对应卡核定。证词发言者与执笔记录者不同。
 

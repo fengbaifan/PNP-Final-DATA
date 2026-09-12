@@ -3,7 +3,7 @@ title: "科尔托纳（Cortona）"
 name_en: "Cortona"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -75,6 +75,11 @@ sources:
 复用双向身份核对：[Wikipedia英文页](https://en.wikipedia.org/wiki/Cortona) ↔ [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080)。本轮全文阅读英文页revision1370060359及相关WD字段。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 来源明确工程在 Cortona，具体教堂不明；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 
 尚无正式关系；正文人物链接仅导航。sources依次S1–S7；第一章第7页L217–220、第13页L507–508定位保留。
 

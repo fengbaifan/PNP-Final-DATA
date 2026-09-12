@@ -3,10 +3,10 @@ title: "弗朗切斯科·巴贝里尼（Francesco Barberini）"
 name_en: "Francesco Barberini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 694–696; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 694–696; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"Cardinal Protector","scope":"学院保护职位；不与Antonio Barberini家户混同"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L691–696
@@ -72,9 +72,15 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Barberini_(1597%E2%80%931679)) 的 wikibase_item 与 [Wikidata Q534683](https://www.wikidata.org/wiki/Q534683) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | DBI确认1640年申请的受文与请求对象为主持圣彼得工程会议的弗朗切斯科·巴贝里尼；申请未获委托；时间：1640-07-14；角色：受文与请求对象；范围：主持圣彼得工程会议；申请未获委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | Francesco 任学院 Cardinal Protector；不与 Antonio 的家户混同；角色：Cardinal Protector；范围：学院保护职位；不与Antonio Barberini家户混同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 694–696; print pp. 17 |
 
 S1：第一章；印刷页 17；OCR L691–696。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

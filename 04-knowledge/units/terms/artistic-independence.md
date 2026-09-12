@@ -3,7 +3,7 @@ title: "创作独立（Artistic independence）"
 name_en: "Artistic independence"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 22, 23.'
@@ -59,12 +59,18 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）](../archives/ferri-ruffo-letter-1672.md) | 费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场；原断言与证据见发出端卡片“奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../archives/rosa-ruffo-letter-1666.md) | 罗萨以拒绝预付和保留创作选择表达不受既定委托束缚的立场；原断言与证据见发出端卡片“萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 927–947; print pp. 22 |
+
 S1：第一章；印刷页 22, 23；OCR L927–943,952–970；S2：第一章；印刷页 23；OCR L971–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成术语的章内定义、证据分层和排除边界；未采用粒度不相符的Wikipedia／Wikidata上位概念。

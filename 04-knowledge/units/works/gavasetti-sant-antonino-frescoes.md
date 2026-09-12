@@ -3,7 +3,7 @@ title: "加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s d
 name_en: "Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/camillo-gavasetti.md","note":"章中明确指 Gavasetti 在该教堂的壁画与 1624 合同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 323–326,520–521; print pp. 9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -67,9 +67,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [加瓦塞蒂皮亚琴察壁画委托条款（1624）（Terms for Gavasetti's Piacenza Frescoes (1624)）](../archives/gavasetti-piacenza-contract-1624.md) | 条款描述该壁画工程的题材自由与颜料要求；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察壁画委托条款（1624）（Terms for Gavasetti's Piacenza Frescoes (1624)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
+| → 创作者（`created_by`） | [卡米洛·加瓦塞蒂（Camillo Gavasetti）](../persons/camillo-gavasetti.md) | 章中明确指 Gavasetti 在该教堂的壁画与 1624 合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
+| → 位于（`located_at`） | [皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）](../places/sant-antonino-piacenza.md) | 作品定位为 Piacenza 的 S. Antonino 教堂；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
 
 S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；OCR L520–521。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

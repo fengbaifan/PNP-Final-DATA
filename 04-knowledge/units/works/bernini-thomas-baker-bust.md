@@ -4,12 +4,12 @@ name_en: "Bernini’s bust of Thomas Baker"
 type: work
 sub_type: sculpture
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/gian-lorenzo-bernini.md","note":"本章所记 Bernini 胸像及其异常价格。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 668–673,699–700; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"commissioned_by","target":"persons/thomas-baker.md","note":"委托者付 6000 scudi，此价明确为例外。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–700; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"located_at","target":"institutions/victoria-and-albert-museum.md","note":"仅记录 Haskell 书中时点的馆藏，未核今日现状。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–700; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"commissioned_by","target":"persons/thomas-baker.md","note":"第一章记托马斯·贝克为本人胸像支付6000 scudi；据此支持委托／付款角色，未读委托文书。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–700; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"located_at","target":"institutions/victoria-and-albert-museum.md","note":"第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–700; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L668–670, 699–700
@@ -70,9 +70,16 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Bust_of_Thomas_Baker) 的 wikibase_item 与 [Wikidata Q5002075](https://www.wikidata.org/wiki/Q5002075) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 本章所记 Bernini 胸像及其异常价格；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 668–673,699–700; print pp. 17 |
+| → 由其委托（`commissioned_by`） | [托马斯·贝克（Thomas Baker）](../persons/thomas-baker.md) | 第一章记托马斯·贝克为本人胸像支付6000 scudi；据此支持委托／付款角色，未读委托文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
+| → 位于（`located_at`） | [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../institutions/victoria-and-albert-museum.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
 
 S1：第一章；印刷页 17；OCR L668–670, 699–700。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

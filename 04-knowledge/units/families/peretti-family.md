@@ -3,7 +3,7 @@ title: 佩雷蒂家族（Peretti Family）
 name_en: Peretti Family
 type: family
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -81,9 +81,15 @@ Testa 记 Alessandro 的 famiglia 在 1612 年达 170 人，随后列举受雇�
 
 [Wikipedia（it）](https://it.wikipedia.org/wiki/Peretti_(famiglia)) 的 wikibase_item 与 [Wikidata Q63522275](https://www.wikidata.org/wiki/Q63522275) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/peretti-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文；正式关系复核仍后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/peretti-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文，关系定稿见本卡上表。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](../persons/alessandro-peretti-montalto.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；dbi-peretti-damasceni；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
+| ← 包含成员（`contains`，反向投影） | [西斯笃五世（Sixtus V）](../persons/sixtus-v.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；原断言与证据见发出端卡片“西斯笃五世（Sixtus V）”：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；peretti-family-wikipedia-it；佩雷蒂家族卡 S4；Storia 与谱系表 |
 
 本卡未新增正式关系。S 编号依文件头 sources 顺序；每条新事实在表格或段落标明依据，原书来源保持章／页／行号。Wikipedia 与 Wikidata 同属 wikimedia 来源组；官方说明、研究辞典及未读的书目线索分别记状态。
 

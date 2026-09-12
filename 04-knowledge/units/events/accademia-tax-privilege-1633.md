@@ -3,11 +3,11 @@ title: "圣路加学院征税及公共委托措施（1633）（Taxation and Publ
 name_en: "Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)"
 type: event
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 678–722; print pp. 17–18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/urbano-viii.md","note":"Urban VIII 时采取措施；不把法律授予与全面实现混同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–722; print pp. 17–18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"institutions/accademia-di-san-luca.md","note":"学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 678–722; print pp. 17–18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"拟议征税及公共委托排他措施的受益机构","scope":"措施未全面施行并撤回"}
+  - {"relation_type":"has_participant","target":"persons/urbano-viii.md","note":"Urban VIII 时采取措施；不把法律授予与全面实现混同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–722; print pp. 17–18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"措施发生时的教皇与授权权威","scope":"不把法律授予等同全面实现"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17, 18.'
   location: 第一章；印刷页 17, 18；OCR L696–698,717–722
@@ -55,12 +55,18 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回；时间：1633；角色：拟议征税及公共委托排他措施的受益机构；范围：措施未全面施行并撤回；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 678–722; print pp. 17–18 |
+| → 参与者（`has_participant`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–722; print pp. 17–18 |
+
 ### 正式关系入口
 
-- associated_institution → [圣路加学院](../institutions/accademia-di-san-luca.md)。
-- associated_person → [乌尔班八世](../persons/urbano-viii.md)。
+- `has_participant` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为拟议措施的受益机构。
+- `has_participant` → [乌尔班八世](../persons/urbano-viii.md)，角色限定为措施发生时的教皇与授权权威。
 
-两条既有边保留原有note及章页证据；受益主体的学院／教堂细分及撤回范围交集中关系复核，不自动扩写正式边。
+本次复核维持学院与乌尔班八世两条正式关系；教堂细分及撤回范围没有足够端点，不扩写正式边。
 
 ### 身份与来源
 

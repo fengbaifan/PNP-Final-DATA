@@ -3,7 +3,7 @@ title: "按主要人物数量计价（Pricing by principal figures）"
 name_en: "Pricing by principal figures"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9, 10.'
@@ -62,6 +62,13 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 主要人物每位 130 ducats，排除背景人物；原断言与证据见发出端卡片“多梅尼科·赞皮耶里（Domenico Zampieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 同段记每位主要人物 100 ducats，不能误作 130；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80；原断言与证据见发出端卡片“乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
+
 本程序尚无范围一致的独立Wikipedia—Wikidata配对；不借用广义pricing概念。NGA相关正文、注释已读，原账簿未读；数据转述与学者解释分开。
 
-S1–S3章页、跨页行号及摘要保留；暂无正式关系。[定金](../terms/caparra.md)、[委托付款](commission-payment.md)为相邻行为导航。币种和折算只在材料明确说明时记录，不建立跨委托统一汇率。
+S1–S3章页、跨页行号及摘要保留；本卡没有出向正式关系，上表三条为其他知识元正式关系派生的反向导航。[定金](../terms/caparra.md)、[委托付款](commission-payment.md)为相邻行为导航。币种和折算只在材料明确说明时记录，不建立跨委托统一汇率。

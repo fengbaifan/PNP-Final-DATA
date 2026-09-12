@@ -3,7 +3,7 @@ title: "托马斯·科克（Thomas Coke，阿伦德尔家户通信者）"
 name_en: "Thomas Coke (Arundel household correspondent)"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
@@ -55,6 +55,11 @@ sources:
 研究入口：Hervey 1921所刊信件与Steer目录。其他早期同名信件尚未逐封验证连续身份，不据目录相邻关系扩展完整生平。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../archives/coke-arundell-letter-1620.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
 
 - 通信文献：[1620年10月8日信](../archives/coke-arundell-letter-1620.md)；收信人：[托马斯·霍华德，阿伦德尔伯爵](lord-arundell-coke-correspondent.md)。此处为角色导航，既有作者边存于书信卡。
 - 身份状态：全名及家户语境已补证；**Wikipedia—Wikidata双重配对仍未完成**。已读[英文消歧页](https://en.wikipedia.org/wiki/Thomas_Coke)，不作为人物身份锚点；未采用确认QID。

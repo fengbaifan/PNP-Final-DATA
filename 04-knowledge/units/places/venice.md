@@ -3,7 +3,7 @@ title: "威尼斯（Venice）"
 name_en: "Venice"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -123,13 +123,16 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 ### 身份与链接
 
 [Wikidata Q641](https://www.wikidata.org/wiki/Q641) 与[英文 Wikipedia：Venice](https://en.wikipedia.org/wiki/Venice) 沿用 REV-034 已完成的双向身份配对；本轮读取 S8 全文及 S9 实体记录。配对对象为城市，不借用于共和国。Getty TGN **7018159** 来自 S9 P1667（normal、无引用）；本轮未直接核验 Getty 条目，不能标成三方身份验证。
 
 ### 正式关系与内容导航
 
-本卡尚无正式关系。上文的《L’Hoggidi》及罗马链接提供内容导航，不作为出版、旅行或比较关系的自动证据。关系阶段须回到 S1–S5 的具体句子确定端点、方向与限定；共和国内部机构及政治行为不挂到城市端点。
+本次集中审查未接收本卡的新关系。《L’Hoggidi》及罗马链接仅作内容导航，不作为出版、旅行或比较关系；共和国内部机构及政治行为也不挂到城市端点。
 
 ### 证据范围与未决项
 

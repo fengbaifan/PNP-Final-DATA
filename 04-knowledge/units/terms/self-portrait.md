@@ -3,7 +3,7 @@ title: "自画像（Self-portrait）"
 name_en: "Self-portrait"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -68,6 +68,9 @@ sources:
 研究线索：Ernst van de Wetering等，*Rembrandt by Himself*（1999）；W. W. Roworth，“Salvator Rosa’s Self-Portraits: Some Problems of Identity and Meaning”（1989）,117–148。仅分别读S5、S7所列书目信息，原文未读。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：Self-portrait](https://en.wikipedia.org/wiki/Self-portrait) ↔ [Q192110](https://www.wikidata.org/wiki/Q192110)为概念配对。全文52158字符包括图注、分类和书目已读；馆方NG4680说明、字段、来源沿革及书目已读。
 

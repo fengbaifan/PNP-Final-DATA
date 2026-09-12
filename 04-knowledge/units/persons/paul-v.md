@@ -3,10 +3,11 @@ title: "保禄五世（Paul V）"
 name_en: "Paul V"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 687–689; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"granted_privilege_to","target":"institutions/accademia-di-san-luca.md","note":"1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 687–689; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1605","role":"年度赦免权授予者","scope":"圣路加节释放一名死刑犯的权利；据第一章转述"}
+  - {"relation_type":"member_of","target":"families/borghese-family.md","note":"世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开。","evidence_ref":{"doc_id":"galleria-borghese-la-villa","source_file":"https://galleriaborghese.cultura.gov.it/il-museo/la-villa/","source_span":"家族卡 S7；馆方家族上升与保禄五世段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L26–27
@@ -107,15 +108,15 @@ S1：p.3，L26–27，1605–1621在位及先前赞助。S2：p.17，L687–689�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述；时间：1605；角色：年度赦免权授予者；范围：圣路加节释放一名死刑犯的权利；据第一章转述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 687–689; print pp. 17 |
+| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；证据：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；家族卡 S7；馆方家族上升与保禄五世段 |
+
 ### 身份与外部链接
 
 [Wikidata Q132711](https://www.wikidata.org/wiki/Q132711) ↔ [Wikipedia：Pope Paul V（英文）](https://en.wikipedia.org/wiki/Pope_Paul_V)。REV-034配对沿用，REV-052已全文阅读。ULAN 500257409、VIAF 5065712据WD提取，原站未核。
-
-### 关系记录
-
-| 正式关系 | 目标 | 依据 |
-|---|---|---|
-| associated_institution | [圣路加学院](../institutions/accademia-di-san-luca.md) | S2，1605特权，p.17，L687–689；原边保留 |
 
 ### 证据与未决项
 

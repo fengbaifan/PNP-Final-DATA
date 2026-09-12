@@ -3,7 +3,7 @@ title: "米涅瓦圣母堂（Santa Maria sopra Minerva）"
 name_en: "Santa Maria sopra Minerva"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -106,6 +106,9 @@ Wikipedia所列Giancarlo Palmerio与Gabriella Villetti的《米涅瓦圣母堂�
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 | 来源 | 章页／行数 | 句子摘要 |
 |---|---|---|
 | S1 | 第一章，印刷页5，OCR L120–124 | 古老教堂中的家族安葬与持续艺术委托，说明新画可出现在旧教堂中；不独立证明每件作品的作者或付款人。 |
@@ -114,6 +117,6 @@ Wikipedia所列Giancarlo Palmerio与Gabriella Villetti的《米涅瓦圣母堂�
 
 [罗马（Rome）](rome.md)为所在地（S4–S7）；[领衔教堂（Titular church）](../terms/titular-church.md)为制度概念（S6）。与[卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md)的建筑群语境不构成机构同一性。
 
-正式关系仍未登记；上述链接及各作品、人物条目作为关系阶段的有来源输入。已完成详细补足，保留十三世纪进驻、十九世纪返回／征收日期、个别作品版本及产权边界的具体未决项；不提升整卡source_backed。
+本次集中审查未接收本卡的新关系；上述链接仍是有来源的导航，未把进驻、返回、征收、作品版本及产权混成单一边。具体未决项保留，整卡source_backed不提升。
 
 [过程与裁决](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[外部证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `places/santa-maria-sopra-minerva`。

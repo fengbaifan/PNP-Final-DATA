@@ -3,7 +3,7 @@ title: "领衔教堂（Titular church）"
 name_en: "Titular church"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -75,6 +75,9 @@ sources:
 - Stephan Kuttner，“Cardinalis: The History of a Canonical Concept”，*Traditio* 3（1945），129–214：S4书目线索，未读。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 ### 外部身份与范围
 

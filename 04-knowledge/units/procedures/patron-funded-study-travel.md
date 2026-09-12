@@ -3,7 +3,7 @@ title: "赞助人资助学习旅行（Patron-funded study travel）"
 name_en: "Patron-funded study travel"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -52,6 +52,12 @@ sources:
 | Lodovico／Ludovico Gimignani／Giulio Rospigliosi | 章注明确资助赴Venice；Petrucci据Russo将旅行重定1665，并指明Giulio Rospigliosi推动、Bernini建议，目的地Parma与Venice | S1、S3–S4；S4同行列Guglielmo Cortese及Bonati，S3另列Gaulli；不合并所有路线和付款，也不混同Bonati的Pio资助 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](../persons/giovanni-bonati.md) | Pio 资助其六城学习旅行为实际事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](../persons/lodovico-gimignani.md) | 赴 Venice 学习的赞助旅行事例；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
 [博纳蒂](../persons/giovanni-bonati.md) · [卡洛·皮奥](../persons/cardinal-pio-bonati.md) · [吉米尼亚尼](../persons/lodovico-gimignani.md) · [帕尔马](../places/parma.md) · [威尼斯](../places/venice.md)为对象入口；已有个人赞助边仍在各卡，本程序不替代人—人或人—地点事实。
 

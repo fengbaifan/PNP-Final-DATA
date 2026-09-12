@@ -3,7 +3,7 @@ title: "成对绘画（Pendant pictures）"
 name_en: "Pendant pictures"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -61,6 +61,9 @@ sources:
 [Wikipedia Pendant (art)](https://en.wikipedia.org/wiki/Pendant_(art)) ↔ [Wikidata Q591644](https://www.wikidata.org/wiki/Q591644)双向核对已完成；本轮英文revision1357897077全文已读。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 无正式关系。S1保留第一章第8页L265–273；S2–S6按sources顺序。正文概念定义不直接生成“互为配对”关系。
 

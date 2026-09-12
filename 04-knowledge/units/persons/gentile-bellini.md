@@ -3,7 +3,7 @@ title: "真蒂莱·贝利尼（Gentile Bellini）"
 name_en: "Gentile Bellini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -92,6 +92,11 @@ sources:
 [Wikipedia](https://en.wikipedia.org/wiki/Gentile_Bellini) ↔ [Q290407](https://www.wikidata.org/wiki/Q290407)配对保留。P19／P20 Q641=Venice，P27 Q4948=Republic of Venice；P22 Q313310=Jacopo，P3373 Q17169=Giovanni。有关声明均normal rank，父亲和Nicolosia字段无引用，地点多为Wiki导入。P106雕塑家与币章雕刻家尚缺本次作品证据，未据机器分类扩张角色。ULAN 500026083只作未读原站的标识线索。[S5]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 获其授予荣衔（`honoured_by`，反向投影） | [皇帝腓特烈三世（Frederick III）](frederick-iii.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；原断言与证据见发出端卡片“皇帝腓特烈三世（Frederick III）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–800; print pp. 19 |
 
 - S1：第一章，印刷页19，OCR L799–800；S2–S3初步对齐；S4–S5本次WP／WD；S6馆方传记；S7 NG3911的说明、字段、沿革及书目。
 - 当前无正式关系。Count palatine页将受衔者写作Giovanni的说法不采用；本卡仍为Gentile。骑士署名可证身份使用，不能证明每项贵族特权。

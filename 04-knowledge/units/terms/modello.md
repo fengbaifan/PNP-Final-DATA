@@ -3,7 +3,7 @@ title: "预备稿／模型（Modello）"
 name_en: "Modello"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11, 12.'
@@ -71,6 +71,9 @@ sources:
 研究书目：Michael Hirst与Carmen Bambach Cappel，“A Note on the Word Modello”, *The Art Bulletin* 74.1（1992）,172–173；Bernadine Barnes，“A Lost Modello for Michelangelo’s Last Judgment”, *Master Drawings* 26.3（1988）,239–248。来自S5脚注，未读论文全文。英文页的1401竞赛者名单和个例定年并非此术语核心，未无条件移入。（S5）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：Modello](https://en.wikipedia.org/wiki/Modello) ↔ [Wikidata Q3859830](https://www.wikidata.org/wiki/Q3859830)保持有效配对；[Getty AAT300100045](https://www.getty.edu/vow/AATFullDisplay?subjectid=300100045)为已读规范记录。S5全文10177字符、S7两段词条、S8全文已读；WD model父类为广义关联，不反向声称所有model都用于艺术审定。
 

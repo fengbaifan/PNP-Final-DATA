@@ -3,7 +3,7 @@ title: "工作室存画议价与完成（Negotiating and completing studio stock
 name_en: "Negotiating and completing studio stock"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
@@ -50,6 +50,11 @@ Getty对Valguarnera庭审的介绍支持他购买Poussin作品，并转述画家
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开；原断言与证据见发出端卡片“法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 591–601; print pp. 15 |
+
 本章程序暂无独立同范围Wikipedia—Wikidata配对。S2指定目录页与S3文章全文已读；未新增库存实物KU或正式交易边。
 
-[《瘟疫》](../works/plague-at-ashdod-1631.md)、[《春》](../works/poussin-spring-valguarnera.md)为具体作品导航，其身份及版本按各卡。S1第一章第15页L591–606及摘要保留；原始委托与购买关系集中在关系阶段按证据裁定，不能只因买家出现就定为commissioned_by。
+[《瘟疫》](../works/plague-at-ashdod-1631.md)、[《春》](../works/poussin-spring-valguarnera.md)为具体作品导航，其身份及版本按各卡。两张作品卡都可用 `commissioned_by`，但范围限定分别保留“看见初稿后商议完成”与“另订新作”，不能因谓词相同而抹平交易阶段。

@@ -3,7 +3,7 @@ title: "米兰（Milan）"
 name_en: "Milan"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -61,6 +61,9 @@ sources:
 WP现代博物馆的藏品所在地不能倒推为Bonatti旅行时的可见作品。现代人口、都会区面积、产业、旅游排名及交通不纳入本章知识内容。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 **S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)与[学习旅行](../procedures/patron-funded-study-travel.md)为章内关联；未新增正式关系。城市列举不是行程顺序。
 

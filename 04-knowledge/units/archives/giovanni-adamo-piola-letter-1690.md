@@ -4,11 +4,11 @@ name_en: "Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo G
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/giovanni-adamo-piola.md","note":"刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v6","source_file":"https://archive.org/details/diletteresulla06bott","source_span":"vol. VI, letter XXVII, pp. 147–148"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/paolo-girolamo-piola.md","note":"委托信所向画家为 Paolo Girolamo Piola。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 354–356,376; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/paolo-girolamo-piola.md","note":"委托信所向画家为 Paolo Girolamo Piola。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 354–356,376; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1690","role":"受邀画家／收信对象","scope":"住宿与服务条件协商"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L354–356,376
@@ -52,9 +52,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）](../persons/giovanni-adamo-piola.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；证据：[来源](https://archive.org/details/diletteresulla06bott)；bottari-ticozzi-letter-collection-v6；vol. VI, letter XXVII, pp. 147–148 |
+| → 致函（`addressed_to`） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../persons/paolo-girolamo-piola.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 354–356,376; print pp. 10 |
 
 S1：第一章；印刷页 10；OCR L354–356,376。S2：Bottari–Ticozzi 卷 VI，第 XXVII 信，pp. 147–148。S2 为本次阅读全文的刊本文本，支持发受人、称号、内容、署地和日期；人物身份还将在对应人物卡中以 Wikipedia–Wikidata 双向核对。
 

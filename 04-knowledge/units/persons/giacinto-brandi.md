@@ -3,8 +3,10 @@ title: "贾钦托·布兰迪（Giacinto Brandi）"
 name_en: "Giacinto Brandi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"曾任圣路加学院Prince；会议参与和负责人职务支持成员归属。","evidence_ref":{"doc_id":"dbi-brandi","source_file":"https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/","source_span":"本卡 S7；学院活动与任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L456–457
@@ -82,6 +84,11 @@ sources:
 Mattia Preti在1665年致Ruffo信中的赞誉由DBI转引，不自动证明对被比较画家的师承或合作。Antonella Pampalone，DBI14（1972）本次选读；Guendalina Serafinelli专著《Giacinto Brandi (1621–1691)》（2015）为WP所引较新研究，尚未通读，其生地证据待核。（S5、S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；学院活动与任职段 |
 
 ### 身份与来源定位
 

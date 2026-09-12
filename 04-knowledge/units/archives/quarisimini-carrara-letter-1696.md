@@ -3,11 +3,11 @@ title: "卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11�
 name_en: "Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/carlo-quarisimini-ch1.md","note":"Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v5","source_file":"https://archive.org/details/diletteresulla05bott","source_span":"vol. V, letter XLVI, pp. 185–187"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/ventura-carrara.md","note":"书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 511–513; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/ventura-carrara.md","note":"书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 511–513; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1696-07-11","role":"收信人","scope":"Quarismini书信"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L511–513
@@ -52,9 +52,15 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [卡洛·夸里斯米尼（1696年通信者）（Carlo Quarismini, correspondent in 1696）](../persons/carlo-quarisimini-ch1.md) | Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11；证据：[来源](https://archive.org/details/diletteresulla05bott)；bottari-ticozzi-letter-collection-v5；vol. V, letter XLVI, pp. 185–187 |
+| → 致函（`addressed_to`） | [文图拉·卡拉拉伯爵（Count Ventura Carrara）](../persons/ventura-carrara.md) | 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini；时间：1696-07-11；角色：收信人；范围：Quarismini书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 511–513; print pp. 13 |
 
 S1：第一章；印刷页13；OCR L511–513。S2：Bottari–Ticozzi卷V，第XLVI信，pp.185–187；本轮阅读全文。S2支持书信语境与完整条款，但不等于手稿原件。
 

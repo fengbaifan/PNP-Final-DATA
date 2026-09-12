@@ -3,7 +3,7 @@ title: "戴蒂尼会（Theatines）"
 name_en: "Theatines"
 type: institution
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -91,13 +91,16 @@ WP有关“不持有财产”的概括，不能直接转为所有时期无基础
 
 ## 关系与证据
 
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
 | 来源 | 章页／行数 | 句子摘要 |
 |---|---|---|
 | S1 | 第一章，印刷页5，OCR L125–130 | 新修会带来教堂建设需求，不能仅依此断言该会出资于某一幅画。 |
 
 相关知识元：[圣安德烈亚德拉瓦莱教堂（Sant’Andrea della Valle）](../places/sant-andrea-della-valle.md)（S7明确关联）；[罗马（Rome）](../places/rome.md)（创建及总会院所在地）；[圣彼得大殿（St Peter’s Basilica）](../places/st-peters-basilica.md)（S4首次发愿地点）；[威尼斯（Venice）](../places/venice.md)（S4避难地）。
 
-本卡未有正式关系，本轮仅保存上述有来源联系，交关系阶段统一记录。已完成详细补足；各教堂具体产权、付款项目、完整人员履历及初期负责人／后期总会长制度细节仍需专门史料。source_backed不变。
+本次集中审查未接收新的正式关系：相关建筑产权、付款主体及人员阶段尚缺同粒度证据。完整人员履历及初期负责人／后期总会长制度细节仍需专门史料；source_backed不变。
 
 [过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/theatines`。
 

@@ -3,11 +3,13 @@ title: "兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfr
 name_en: "Lanfranco's Request for the Pope Leo and Attila Commission (1640)"
 type: event
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/giovanni-lanfranco.md","note":"申请人为 Lanfranco；只证明提出申请。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 408–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"persons/giovanni-lanfranco.md","note":"申请人为 Lanfranco；只证明提出申请。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 408–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1640-07-14","role":"申请人","scope":"提出圣彼得祭坛画申请；未获委托"}
   - {"relation_type":"occurred_at","target":"places/naples.md","note":"1640-07-14 申请信自 Naples 发出。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 420–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"persons/francesco-barberini.md","note":"DBI确认1640年申请的受文与请求对象为主持圣彼得工程会议的弗朗切斯科·巴贝里尼；申请未获委托。","evidence_ref":{"doc_id":"dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"本卡 S2；1640-07-14 请求段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1640-07-14","role":"受文与请求对象","scope":"主持圣彼得工程会议；申请未获委托"}
+  - {"relation_type":"has_participant","target":"institutions/fabbrica-di-san-pietro.md","note":"申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系。","evidence_ref":{"doc_id":"dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"本卡 S2；1640-07-14 请求段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1640-07-14","role":"处理申请所涉工程的机构","scope":"申请关系；不表示机构授予委托"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L408–425
@@ -58,11 +60,19 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
-S1为第一章章页／行号；S2为DBI传记相关段；S3仅为第一章注释所指未读原页。文件头2条正式关系保留；Francesco Barberini、Fabbrica和St Peter's是有据候选端点，待关系阶段与现有卡核对后决定。
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 申请人为 Lanfranco；只证明提出申请；时间：1640-07-14；角色：申请人；范围：提出圣彼得祭坛画申请；未获委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 408–425; print pp. 11 |
+| → 发生于（`occurred_at`） | [那不勒斯（Naples）](../places/naples.md) | 1640-07-14 申请信自 Naples 发出；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 420–425; print pp. 11 |
+| → 参与者（`has_participant`） | [弗朗切斯科·巴贝里尼（Francesco Barberini）](../persons/francesco-barberini.md) | DBI确认1640年申请的受文与请求对象为主持圣彼得工程会议的弗朗切斯科·巴贝里尼；申请未获委托；时间：1640-07-14；角色：受文与请求对象；范围：主持圣彼得工程会议；申请未获委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
+| → 参与者（`has_participant`） | [圣彼得营造管理机构（Fabbrica di S. Pietro）](../institutions/fabbrica-di-san-pietro.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
+
+S1为第一章章页／行号；S2为DBI传记相关段；S3仅为第一章注释所指未读原页。本次接收弗朗切斯科·巴贝里尼与圣彼得工程管理机构两个端点；圣彼得大殿是申请对象所在建筑，并非本事件的发生地，故不另写 `occurred_at`。
 
 文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 

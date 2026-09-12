@@ -3,8 +3,12 @@ title: "卡洛·马拉塔（Carlo Maratta）"
 name_en: "Carlo Maratta"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1662年8月27日加入学院，后多次任负责人；成员与职务分开。","evidence_ref":{"doc_id":"dbi-maratta","source_file":"https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/","source_span":"本卡 S7；1662年入会及后续任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/andrea-sacchi.md","note":"约1636／1637进入萨基工作室接受训练；与后来合作分作两条关系。","evidence_ref":{"doc_id":"dbi-maratta","source_file":"https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/","source_span":"本卡 S7；早期训练与合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1636／1637起","role":"工作室学生","scope":"进入Sacchi工作室的训练阶段"}
+  - {"relation_type":"collaborated_with","target":"persons/andrea-sacchi.md","note":"马拉塔后来成为萨基的主要合作者；本边不替代早期师承关系。","evidence_ref":{"doc_id":"dbi-maratta","source_file":"https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/","source_span":"本卡 S7；早期训练与合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"主要合作者","scope":"训练期之后的工作合作；具体项目仍逐作判断"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L670–677,704–710
@@ -96,13 +100,18 @@ Luca Bortolotti的DBI词条及书目已全文阅读；Bellori原传、两份1711
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）](../archives/novetti-ruffo-letter-1670.md) | 信中讨论向马拉塔订画及其不易接受付款的抱怨；不据此断言委托已完成；原断言与证据见发出端卡片“弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 750–758; print pp. 18 |
+| ← 教师（`teacher_of`，反向投影） | [安德烈亚·普罗卡奇尼（Andrea Procaccini）](andrea-procaccini.md) | 约1690年在马拉塔工作室接受素描与临摹训练；时间：约1690；角色：工作室学生；范围：素描与临摹训练；原断言与证据见发出端卡片“安德烈亚·普罗卡奇尼（Andrea Procaccini）”：[来源](https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/)；dbi-procaccini；本卡 S7；早期训练段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1662年8月27日加入学院，后多次任负责人；成员与职务分开；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；1662年入会及后续任职段 |
+| → 师从／受训于（`trained_by`） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 约1636／1637进入萨基工作室接受训练；与后来合作分作两条关系；时间：约1636／1637起；角色：工作室学生；范围：进入Sacchi工作室的训练阶段；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
+| → 合作（`collaborated_with`） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 马拉塔后来成为萨基的主要合作者；本边不替代早期师承关系；角色：主要合作者；范围：训练期之后的工作合作；具体项目仍逐作判断；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Carlo Maratta](https://en.wikipedia.org/wiki/Carlo_Maratta) 与 [Wikidata Q538998](https://www.wikidata.org/wiki/Q538998) 的sitelink双向一致；Maratta／Maratti变体、1625–1713年、Camerano—Rome轨迹、Sacchi训练及画家身份与第一章对象吻合。S5为全文阅读，S6为属性级读取。
-
-### 关系记录
-
-本卡暂未登记正式关系。第一章S1支持“全身肖像约150scudi”及Bellori评价，S2支持Novetti致Ruffo信中的接单抱怨；师承、家属、学院职位、委托、合作、设计—制作和修复对象属于不同关系类型，补足阶段先保存证据与导航，待集中关系阶段逐条成边。
 
 ### 争议与待补
 

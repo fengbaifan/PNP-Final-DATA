@@ -3,7 +3,7 @@ title: "博洛尼亚（Bologna）"
 name_en: "Bologna"
 type: place
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -111,6 +111,11 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](chiesa-de-servi-bologna.md) | 教堂在 Bologna；原断言与证据见发出端卡片“博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
+
 ### 身份与外部标识
 
 [Wikipedia：Bologna](https://en.wikipedia.org/wiki/Bologna) 与 [Wikidata：Q1891](https://www.wikidata.org/wiki/Q1891) 的双向身份核对沿用 REV-034；REV-052 读取英文全文（修订 1373681308）及 WD 结构化字段。两站一致只确认对象配对，不是每项事实的两份独立证明。（S5–S8）
@@ -119,7 +124,7 @@ WD 提供 TGN 7004847、GeoNames 6541998，均为 normal rank、该标识断言�
 
 ### 关系导航与证据范围
 
-本卡没有已登记正式关系。上述四组章内语境保留为关系阶段的证据入口；共地不推出师承、合作或影响。可导航至[卢多维科·卢多维西](../persons/ludovico-ludovisi.md)查阅其博洛尼亚求学和任职的单独证据；该导航不新增图谱边。
+本次集中审查未接收本卡的新关系：上述四组章内语境是内容证据，共地不推出师承、合作或影响。可导航至[卢多维科·卢多维西](../persons/ludovico-ludovisi.md)查阅其求学和任职证据；该导航不新增图谱边。
 
 S1–S4 为本章出处，章、页、行及句子摘要保存在统一元数据；S5–S6 为原初步对齐，S7–S11 为本轮采用来源。过程及字段采用理由见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按 `places/bologna` 定位。
 

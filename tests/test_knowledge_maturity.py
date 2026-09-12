@@ -29,6 +29,41 @@ def snapshot(root: Path, relative: str, source_count: int, confidence: str, cons
 
 
 class KnowledgeMaturityTests(unittest.TestCase):
+    def test_source_count_fallback_tolerates_non_mapping_frontmatter(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            path = root / "04-knowledge" / "units" / "terms" / "legacy.md"
+            legacy = audit_repo.UnitSnapshot(
+                path=path,
+                relative_path="04-knowledge/units/terms/legacy.md",
+                type_name="terms",
+                text="---\nlegacy\n---\nbody\n",
+                frontmatter="legacy",
+                body="body\n",
+            )
+
+            maturity = audit_repo.knowledge_maturity_check(root, [legacy])
+
+        self.assertEqual(maturity["source_count_distribution"], {"zero": 1})
+
+    def test_source_count_falls_back_to_sources_list(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            path = root / "04-knowledge" / "units" / "terms" / "sourced.md"
+            text = "---\nsources:\n- citation: one\n- citation: two\n---\nbody\n"
+            sourced = audit_repo.UnitSnapshot(
+                path=path,
+                relative_path="04-knowledge/units/terms/sourced.md",
+                type_name="terms",
+                text=text,
+                frontmatter=audit_repo.extract_frontmatter(text),
+                body="body\n",
+            )
+
+            maturity = audit_repo.knowledge_maturity_check(root, [sourced])
+
+        self.assertEqual(maturity["source_count_distribution"], {"multi_source": 1})
+
     def test_runtime_retention_gaps_reduce_engineering_safety(self):
         baseline = audit_repo.build_structural_health_score({})
         degraded = audit_repo.build_structural_health_score({
@@ -40,6 +75,74 @@ class KnowledgeMaturityTests(unittest.TestCase):
 
         self.assertEqual(baseline["engineering_safety"], 5)
         self.assertEqual(degraded["engineering_safety"], 2)
+
+    def test_body_translation_fields_do_not_reduce_frontmatter_score(self):
+        score = audit_repo.build_structural_health_score({
+            "translation_health": {
+                "persons": {"total": 1, "coverage": {"name_original": "0/1"}},
+            },
+        })
+
+        self.assertEqual(score["frontmatter"], 20)
+
+    def test_historical_processing_diagnostics_do_not_reduce_accepted_scope(self):
+        score = audit_repo.build_structural_health_score({
+            "execution_scope": {
+                "knowledge_inputs": "accepted_catalog",
+                "processing_inventory_is_research_progress": False,
+            },
+            "dataflow_issues": ["legacy source directory"],
+            "recall_quality": {"chapters_without_candidate": ["legacy package"]},
+            "semantic_artifact_integrity": {"chapters_without_reading_ledger": ["legacy package"]},
+        })
+
+        self.assertEqual(score["dataflow"], 10)
+        self.assertEqual(score["recall_quality"], 15)
+        self.assertEqual(score["semantic_artifact_integrity"], 15)
+
+    def test_optional_verification_level_does_not_reduce_scores(self):
+        data = {
+            "summary": {"total_units": 10},
+            "snapshot_disclaimer_missing": [],
+            "current_health_exists": True,
+            "verification_schema": {
+                "missing_evidence_status": {"count": 0},
+                "missing_verification_level_when_not_tentative": {"count": 10},
+            },
+        }
+
+        self.assertEqual(audit_repo.build_structural_health_score(data)["report_freshness"], 10)
+        self.assertEqual(audit_repo.build_evidence_quality_score(data)["verification_schema_coverage"], 10)
+
+    def test_evidence_ref_check_ignores_relation_doc_ids_and_checks_source_refs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            unit = root / "04-knowledge" / "units" / "persons" / "a.md"
+            unit.parent.mkdir(parents=True)
+            source = root / "02-sources" / "book" / "chapter.md"
+            source.parent.mkdir(parents=True)
+            source.write_text("source", encoding="utf-8")
+            unit.write_text(
+                "---\n"
+                "relations:\n"
+                "- relation_type: member_of\n"
+                "  evidence_ref:\n"
+                "    doc_id: external-relation-identifier\n"
+                "sources:\n"
+                "- citation: book\n"
+                "  evidence_ref:\n"
+                "    source_file: 02-sources/book/chapter.md\n"
+                "---\n",
+                encoding="utf-8",
+            )
+
+            result = audit_repo.evidence_ref_check([unit], root)
+
+        self.assertEqual(result["sources_with_evidence_ref"], 1)
+        self.assertEqual(result["evidence_refs_total"], 1)
+        self.assertEqual(result["evidence_ref_resolvable"], 1)
+        self.assertEqual(result["evidence_ref_broken"], 0)
+        self.assertEqual(result["units_with_traceable_source"], 1)
 
     def test_maturity_is_unscored_and_separates_research_debt(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -88,7 +191,7 @@ class KnowledgeMaturityTests(unittest.TestCase):
         self.assertEqual(score["max_score"], 65)
         self.assertNotIn("source_diversity", score)
 
-    def test_hierarchy_assignment_is_reported_as_research_debt(self):
+    def test_hierarchy_assignment_is_not_debt_before_discovery_starts(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             snapshots = [snapshot(root, "04-knowledge/units/terms/a.md", 1, "medium", "tentative")]
@@ -98,7 +201,8 @@ class KnowledgeMaturityTests(unittest.TestCase):
 
         self.assertEqual(assignment["complete_assignments"], 0)
         self.assertEqual(assignment["units_missing_any_assignment"], 1)
-        self.assertEqual(maturity["research_debt"]["units_missing_hierarchy_assignment"], 1)
+        self.assertEqual(maturity["research_debt"]["units_missing_hierarchy_assignment"], 0)
+        self.assertEqual(maturity["hierarchy_assignment_status"], "not_started")
 
     def test_hierarchy_assignment_requires_a_structured_topic_membership(self):
         with tempfile.TemporaryDirectory() as tmp:

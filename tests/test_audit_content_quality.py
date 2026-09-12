@@ -13,18 +13,25 @@ type: term
 sub_type: test
 tags:
 - 测试
+created: 2026-09-12
+updated: 2026-09-12
 evidence_status: source_backed
 verification_level: L7
+sources:
+- citation: Test source
+  location: test section
+  sentence_summary: test summary
 ---
 
-## 描述
+## 内容
+
+### 描述
 
 {description}
 
-## 验证状态
+## 关系与证据
 
-- **证据状态**: source_backed
-- **验证层级**: L7
+当前没有正式关系。
 """
 
 
@@ -62,6 +69,29 @@ class DeterministicContentIntegrityTests(unittest.TestCase):
                 results = audit_content_quality.run_all_checks([unit])
 
         self.assertEqual(len(results["placeholder_content"]), 1)
+
+    def test_current_three_part_body_is_the_required_structure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            unit = self.write_unit(root, "中英文描述均已保存。 English description is saved.")
+            with patch.object(audit_content_quality, "BASE", root):
+                findings = audit_content_quality.check_missing_sections([unit])
+
+        self.assertEqual(findings, [])
+
+    def test_optional_empty_fields_and_descriptive_heading_are_not_defects(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            unit = self.write_unit(root, "中英文描述。 English description.")
+            text = unit.read_text(encoding="utf-8")
+            text = text.replace("sub_type: test", "sub_type:").replace("tags:\n- 测试", "tags: []")
+            text = text.replace("## 关系与证据", "### 本章相关内容\n\n正文。\n\n## 关系与证据")
+            unit.write_text(text, encoding="utf-8")
+            with patch.object(audit_content_quality, "BASE", root):
+                results = audit_content_quality.run_all_checks([unit])
+
+        self.assertEqual(results["empty_frontmatter_values"], [])
+        self.assertEqual(results["placeholder_content"], [])
 
 
 if __name__ == "__main__":

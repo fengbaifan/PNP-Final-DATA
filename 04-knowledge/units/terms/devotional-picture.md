@@ -3,7 +3,7 @@ title: "祈祷用图像（Devotional picture）"
 name_en: "Devotional picture"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -57,6 +57,9 @@ Bouts《戴荆冠的基督》NG1083是馆方解释的近距离私人祈祷实例
 研究线索：Sixten Ringbom, *Icon to Narrative*（1965）, p.53见Getty；Jeffrey F. Hamburger, *Nuns as Artists*（1997）, p.3见Wikipedia。原书未读。（S2、S4）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia：Andachtsbilder](https://en.wikipedia.org/wiki/Andachtsbilder) ↔ [Q489632](https://www.wikidata.org/wiki/Q489632)是已核候选，不确认它与本章宽泛类别完全同一。全文7710字符已读；Getty规范记录全文已读；Bouts网页只采用已读的说明和对象字段。
 

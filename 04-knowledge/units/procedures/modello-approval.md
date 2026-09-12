@@ -3,7 +3,7 @@ title: "预备稿提交与批准（Submission and approval of preliminary design
 name_en: "Submission and approval of preliminary designs"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11, 12.'
@@ -56,6 +56,9 @@ National Gallery及Getty相关定义支持展示预期效果这一用途，但�
 本章Caravaggio合同明确预先示稿；Ferri条款涉及批准及擅改限制，而上半世纪的普遍使用程度仍有边界。Haskell对Gaulli的解释保留可能性，不据其作法建立所有人的必经规则。（S1）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 该历史操作组合暂无独立、范围相同的Wikipedia—Wikidata配对；[Modello](../terms/modello.md)的Q3859830是相关稿件概念，不能借作程序QID。相关英文页S3全文已读，S2词条全文已读，未因此复核全部历史合同。
 

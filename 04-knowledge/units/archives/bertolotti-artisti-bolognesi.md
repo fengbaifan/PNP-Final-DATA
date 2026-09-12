@@ -4,7 +4,7 @@ name_en: "Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papa
 type: archive
 sub_type: scholarly_book
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -67,6 +67,11 @@ sources:
 尚无该书的独立Wikipedia—Wikidata配对。不借作者QID；1885本题名刊记与1886编目记录分别保存。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 来源（`source_of`，反向投影） | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](camassei-sebastian-receipt.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；原断言与证据见发出端卡片“卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）”：[来源](https://archive.org/details/artistibolognesi00bert)；bertolotti-artisti-bolognesi-1885；本卡 S2；印刷页161–162，扫描页174–175 |
 
 尚无正式关系。S1第一章第10页L372–374、S2书目原称n.d.及“收据”的摘要作为来源叙述保留；本次直接读刊本的文种、年与冲突以S3另列。
 

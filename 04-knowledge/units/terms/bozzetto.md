@@ -3,7 +3,7 @@ title: "构思草稿（Bozzetto）"
 name_en: "Bozzetto"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -61,6 +61,9 @@ National Gallery以较粗略bozzetto与较精细modello作相对区分；Getty�
 书目线索：Julius S. Held, *The Oil Sketches of Peter Paul Rubens*（1980）p.5见Getty来源表；*Le Muse*第II卷（1964）p.393见意大利百科。只读引文记录，未读原书。（S4、S7）
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia（it）：Bozzetto](https://it.wikipedia.org/wiki/Bozzetto) ↔ [Wikidata Q5416402](https://www.wikidata.org/wiki/Q5416402) 双向一致。意大利术语与绘画／素描适用范围、[Getty AAT300047838](https://www.getty.edu/vow/AATFullDisplay?subjectid=300047838)共同支持本章用法，本轮确认此术语身份。WD的sculpture父类过窄，未导入；身份通过不代表每个WD字段正确。
 

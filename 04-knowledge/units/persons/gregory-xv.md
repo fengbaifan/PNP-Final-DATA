@@ -3,10 +3,10 @@ title: "格列高利十五世（Gregory XV）"
 name_en: "Gregory XV"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_institution","target":"institutions/accademia-di-san-luca.md","note":"1621 年确认学院章程。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"granted_privilege_to","target":"institutions/accademia-di-san-luca.md","note":"1621 年确认学院章程。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1621","role":"章程确认者","scope":"确认学院章程；具体文本版本未知"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L26–27
@@ -151,8 +151,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-
-正式关系保留于元数据：格列高利十五世 → 圣路加学院（associated_institution），证据为 S3 的章程确认。新增亲缘、职务、艺术活动及正文链接不自动生成边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
 
 ### 身份与阅读范围
 

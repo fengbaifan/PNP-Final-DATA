@@ -3,7 +3,7 @@ title: "湿壁画技法（Fresco）"
 name_en: "Fresco"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -77,6 +77,9 @@ sources:
 [Wikipedia Fresco](https://en.wikipedia.org/wiki/Fresco) ↔ [Wikidata Q134194](https://www.wikidata.org/wiki/Q134194)已双向核对。本轮英文revision1372789331全文已读；现行中文标题收窄到所对齐的技法，稳定路径不变。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 无正式关系。S1–S8按sources顺序，保留第一章第8、12、13页原句定位。National Gallery词条直接支持术语边界。
 

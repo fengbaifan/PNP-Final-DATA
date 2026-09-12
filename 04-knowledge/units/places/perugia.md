@@ -3,7 +3,7 @@ title: "佩鲁贾（Perugia）"
 name_en: "Perugia"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -62,6 +62,11 @@ sources:
 复用[Wikipedia英文页](https://en.wikipedia.org/wiki/Perugia)与[Wikidata Q3437](https://www.wikidata.org/wiki/Q3437)双向一致结果；英文页revision1373033931全文已读，采用相关字段而非全页城市百科。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 书中明确图书馆位于 Perugia；原断言与证据见发出端卡片“奥古斯塔图书馆（Biblioteca Augusta）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
 
 本卡未登记正式关系；图书馆与手稿链接是导航。S1第一章第7页L236–237，S2–S6为初步身份与本轮外证。
 

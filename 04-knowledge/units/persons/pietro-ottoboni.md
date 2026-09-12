@@ -3,10 +3,12 @@ title: "彼得罗·奥托博尼（Pietro Ottoboni）"
 name_en: "Pietro Ottoboni"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/francesco-trevisani.md","note":"本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 220–223; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"patron_of","target":"persons/francesco-trevisani.md","note":"本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 220–223; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"提供住处的同乡枢机与保护人","scope":"第一章未展开Ottoboni全名"}
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开。","evidence_ref":{"doc_id":"dbi-ottoboni","source_file":"https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/","source_span":"本卡 S7；1702年段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"member_of","target":"institutions/arcadia.md","note":"1695年加入Arcadia；后续宫邸接待活动不与成员事实合并。","evidence_ref":{"doc_id":"dbi-ottoboni","source_file":"https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/","source_span":"本卡 S7；1695年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L220–221,235–237
@@ -95,6 +97,13 @@ sources:
 | 评价与研究 | Matitti1995赞助文献研究、Olszewski2004绘画清单研究及Harris2001音乐研究等书目已核见；本人支出与文化作用的评价须注明作者 | S5、S7；原研究未全文读 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 赞助者／保护人（`patron_of`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](francesco-trevisani.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 220–223; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1702年段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1695年入会段 |
 - 正式端点：[弗朗切斯科·特雷维萨尼](francesco-trevisani.md)；相关[阿尔卡迪亚学会](../institutions/arcadia.md)为访问入口，不自动加边。
 - 身份：[Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_Ottoboni_%28cardinal%29) ↔ [Wikidata Q725737](https://www.wikidata.org/wiki/Q725737)。旧正文“Pietro仍待消歧”已经落后于对齐结果，本次改正。Getty500323549仅核WD标识，原站未读。
 - S1保留第7页及脚注定位；S2–S4旧对齐，S5–S8为补足。1条正式关系保留，note中的章内未展开名字是原材料范围说明。

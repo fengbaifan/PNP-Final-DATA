@@ -16,8 +16,6 @@ GENERATED_PATHS = [
     "04-knowledge/quality/relation-index.yml",
     "04-knowledge/quality/relation-candidates.yml",
     "04-knowledge/quality/translation-index.yml",
-    "05-outputs/knowledge-graph-data.json",
-    "05-outputs/knowledge-graph-data.js",
     "05-outputs/index/output-gallery.md",
     "05-outputs/index/index.md",
     "06-runtime/automation/index.md",
@@ -27,6 +25,10 @@ GENERATED_PATHS = [
     "06-runtime/state/candidate-index.jsonl",
     "06-runtime/state/discovery-manifest.json",
     "06-runtime/governance/governance-backlog.md",
+]
+PAGE_GENERATED_PATHS = [
+    "05-outputs/knowledge-graph-data.json",
+    "05-outputs/knowledge-graph-data.js",
 ]
 
 
@@ -79,6 +81,7 @@ def build_steps(
     full: bool,
     check_generated: bool = False,
     refresh_generated: bool = False,
+    refresh_page: bool = False,
     changed_paths: Iterable[str] | None = None,
 ) -> list[Step]:
     steps: list[Step] = []
@@ -88,7 +91,6 @@ def build_steps(
                 Step("build relation index", script("build_relation_index.py")),
                 Step("build runtime index", script("build_runtime_index.py")),
                 Step("build translation index", script("build_translation_index.py")),
-                Step("build knowledge graph data", script("build_knowledge_graph_data.py")),
                 Step("index existing candidates", script("build_discovery_index.py")),
                 Step("export skill registry", script("skill_registry.py", "--export")),
                 Step("write health and backlog", script("write_current_health.py")),
@@ -96,6 +98,8 @@ def build_steps(
                 Step("build generated projection manifest", script("build_generated_projection_manifest.py")),
             ]
         )
+        if refresh_page:
+            steps.insert(3, Step("build knowledge graph data", script("build_knowledge_graph_data.py")))
     if changed_paths is None:
         changed_paths = changed_paths_from_git()
     audit_names = {"content", "relation", "repository"} if full or refresh_generated else routed_audit_names(changed_paths)
@@ -111,10 +115,11 @@ def build_steps(
         Step("check whitespace", ["git", "diff", "--check"]),
     ])
     if check_generated:
+        generated_paths = [*GENERATED_PATHS, *PAGE_GENERATED_PATHS] if refresh_page else GENERATED_PATHS
         steps.append(
             Step(
                 "check generated snapshots",
-                ["git", "diff", "--exit-code", "HEAD", "--", *GENERATED_PATHS],
+                ["git", "diff", "--exit-code", "HEAD", "--", *generated_paths],
             )
         )
     if full:
@@ -151,14 +156,22 @@ def main() -> int:
         action="store_true",
         help="fail when deterministic generated snapshots differ from HEAD",
     )
+    parser.add_argument(
+        "--refresh-page",
+        action="store_true",
+        help="also refresh the paused website data projection",
+    )
     args = parser.parse_args()
     if args.check_generated and not args.refresh_generated:
         parser.error("--check-generated requires --refresh-generated")
+    if args.refresh_page and not args.refresh_generated:
+        parser.error("--refresh-page requires --refresh-generated")
     return execute_steps(
         build_steps(
             full=args.full,
             check_generated=args.check_generated,
             refresh_generated=args.refresh_generated,
+            refresh_page=args.refresh_page,
         )
     )
 

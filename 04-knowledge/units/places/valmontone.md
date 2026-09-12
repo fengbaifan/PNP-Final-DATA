@@ -3,7 +3,7 @@ title: "瓦尔蒙托内（Valmontone）"
 name_en: "Valmontone"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -84,6 +84,12 @@ sources:
 | 补证入口 | 市政府Palazzo Doria Pamphilj专项介绍；百科列建筑与历史研究线索，未全部查原件 | S6、S8 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）](pamfili-country-house-valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；原断言与证据见发出端卡片“瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 地点为 Valmontone 的乡间宅邸；限书中工程语境；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 
 - 本章参与者：[莫拉](../persons/pier-francesco-mola.md)、[科尔泰塞](../persons/guglielmo-cortese.md)、[卡米洛·潘菲利](../persons/camillo-pamfili.md)。本卡未新增正式边，具体工程关系待集中处理。
 - [Wikipedia英文页](https://en.wikipedia.org/wiki/Valmontone) ↔ [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514)身份配对复用；市镇QID不代宫殿或宫廷机构。

@@ -3,7 +3,7 @@ title: "梵蒂冈绘画馆（Pinacoteca Vaticana）"
 name_en: "Pinacoteca Vaticana"
 type: institution
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -63,13 +63,18 @@ sources:
 
 [Wikipedia（it）](https://it.wikipedia.org/wiki/Pinacoteca_vaticana) 的 wikibase_item 与 [Wikidata Q774940](https://www.wikidata.org/wiki/Q774940) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../works/camassei-peter-paul-mamertine-modello.md) | 本书写作时所记馆藏，非今日核验；原断言与证据见发出端卡片“卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
+
 S1是第一章章页／行号；S2–3为初步身份对齐；S4为意大利语Wikipedia全文；S5为WD字段；S6为梵蒂冈博物馆官方概述全文。官方概述未列卡马塞伊作品，不能用机构史替代作品目录。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 ### 身份与未决项
 

@@ -3,7 +3,7 @@ title: "马里奥·努齐（Mario Nuzzi）"
 name_en: "Mario Nuzzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -82,6 +82,11 @@ sources:
 Abraham Bruegel在1671年致Ruffo信中批评其画作变暗，此为有作者的材料评价，不直接判定所有现存画作技术失败。Arianna Petraccia，DBI79（2013）本次选读；Francesco Solinas的《Flora Romana》（2010）、Emilio Lucci2004研究为书目线索。（S7）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [弗拉维奥·基吉（Flavio Chigi）](flavio-chigi.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；原断言与证据见发出端卡片“弗拉维奥·基吉（Flavio Chigi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 282–283; print pp. 8 |
 
 ### 身份与来源定位
 

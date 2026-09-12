@@ -3,8 +3,10 @@ title: "乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）"
 name_en: "Giovanni Andrea Carlone"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1675年9月11日获圣路加学院接纳。","evidence_ref":{"doc_id":"dbi-carlone","source_file":"https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/","source_span":"本卡 S6；1675年接纳段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L858–861
@@ -78,13 +80,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1675年9月11日获圣路加学院接纳；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/)；dbi-carlone；本卡 S6；1675年接纳段 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Andrea Carlone](https://en.wikipedia.org/wiki/Andrea_Carlone) 与 [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993) 的 sitelink 双向一致，姓名、职业、家庭与活动地能对应本章对象。S4 为本次全文阅读版本；S2 的旧登记修订号与实际取得的全文版本不一致，保留为初步对齐历史而不拿它支持新增字段。
-
-### 关系记录
-
-本卡目前没有正式关系。内容中的父亲、兄弟、老师和配偶为有据关联，但未因此新建端点或自动生成关系边。
 
 ### 争议与待补
 

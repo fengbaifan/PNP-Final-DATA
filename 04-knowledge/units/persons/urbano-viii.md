@@ -3,8 +3,10 @@ title: "乌尔班八世（Urban VIII）"
 name_en: "Urban VIII"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"patron_of","target":"persons/gian-lorenzo-bernini.md","note":"乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模。","evidence_ref":{"doc_id":"dbi-urban-viii","source_file":"https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/","source_span":"本卡 S7；艺术赞助与圣彼得工程段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"长期赞助人和圣彼得工程委托方","scope":"具体作品责任仍须逐项建模"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L15–34
@@ -130,13 +132,17 @@ S1：p.3，L15–34，1623年后的赞助规模与控制。S2：p.4，L71–83�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡马塞伊与乌尔班八世的合同（1633）（Contract between Camassei and Urban VIII (1633)）](../archives/camassei-urban-contract-1633.md) | 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实；时间：1633；角色：付款安排所借名义的教皇与赞助权威；范围：文种及与另一付款令卡的同一性仍未确认；原断言与证据见发出端卡片“卡马塞伊与乌尔班八世的合同（1633）（Contract between Camassei and Urban VIII (1633)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
+| ← 参与事件（`participated_in`，反向投影） | [圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）](../events/accademia-tax-privilege-1633.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；原断言与证据见发出端卡片“圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–722; print pp. 17–18 |
+| → 赞助者／保护人（`patron_of`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模；角色：长期赞助人和圣彼得工程委托方；范围：具体作品责任仍须逐项建模；证据：[来源](https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/)；dbi-urban-viii；本卡 S7；艺术赞助与圣彼得工程段 |
+| ← 委托者（`commissioner_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372,514–516; print pp. 10,13 |
+
 ### 身份与外部链接
 
 [Wikidata Q131579](https://www.wikidata.org/wiki/Q131579) ↔ [Wikipedia：Pope Urban VIII（英文）](https://en.wikipedia.org/wiki/Pope_Urban_VIII)。REV-034配对沿用，REV-052全文已读；ULAN 500057346、VIAF 96062867为WD标识，原站未核。
-
-### 关系记录
-
-本卡暂无正式出边；[圣路加学院](../institutions/accademia-di-san-luca.md)、[贝尔尼尼](gian-lorenzo-bernini.md)等内容链接供阅读，正式关系须按具体行为和证据统一处理。
 
 ### 证据、排除与未决项
 

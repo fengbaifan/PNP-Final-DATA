@@ -3,11 +3,12 @@ title: "雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（166
 name_en: "Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/jacopo-salviati.md","note":"书信作者；1662-07-22；代理人就 Claude 作品购画和定价报告。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 537–540,565–566; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/leopoldo-de-medici.md","note":"书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 537–540,565–566; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/leopoldo-de-medici.md","note":"书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 537–540,565–566; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1662-07-22","role":"收信人","scope":"Claude作品购画与定价报告"}
+  - {"relation_type":"has_subject","target":"persons/claude-lorrain.md","note":"信件讨论购求及估价的对象是克洛德的作品；没有足够端点识别具体画作。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 537–540,565–566; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
   location: 第一章；印刷页 14；OCR L537–540, 565–566
@@ -56,9 +57,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [雅各布·萨尔维亚蒂（Jacopo Salviati）](../persons/jacopo-salviati.md) | 书信作者；1662-07-22；代理人就 Claude 作品购画和定价报告。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
+| → 致函（`addressed_to`） | [莱奥波尔多·德·美第奇（Leopoldo de’ Medici）](../persons/leopoldo-de-medici.md) | 书信收信人；1662-07-22；代理人就 Claude 作品购画和定价报告；时间：1662-07-22；角色：收信人；范围：Claude作品购画与定价报告；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
+| → 所涉对象（`has_subject`） | [克劳德·洛兰（Claude Lorrain）](../persons/claude-lorrain.md) | 信件讨论购求及估价的对象是克洛德的作品；没有足够端点识别具体画作；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
 
 S1：第一章；印刷页 14；OCR L537–540, 565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

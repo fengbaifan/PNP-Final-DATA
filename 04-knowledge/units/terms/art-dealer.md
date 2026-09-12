@@ -3,7 +3,7 @@ title: "画商（Art dealer）"
 name_en: "Art dealer"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -96,6 +96,9 @@ sources:
 S6书目列 Titia Hulst 编 *A History of the Western Art Market: A Sourcebook of Writings on Artists, Dealers, and Markets*（2017；《西方艺术市场史：艺术家、画商与市场文献选编》，暂译）。本轮仅读页面所列书目信息，未读该书全文。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia英文Art dealer](https://en.wikipedia.org/wiki/Art_dealer)与[Wikidata Q173950](https://www.wikidata.org/wiki/Q173950)双向一致；[Getty AAT 300386253](https://vocab.getty.edu/page/aat/300386253)正文已读，支持角色范围。S4–S5保留初步对齐，S6–S8为本次详细补足。
 

@@ -3,7 +3,7 @@ title: "鉴赏爱好者（Dilettante）"
 name_en: "Dilettante"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -71,6 +71,9 @@ sources:
 - p.18 L733–736：艺术家的交游与组织语境；不能仅因聚会共现就建立赞助边。
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [画商](art-dealer.md) · [展览与自我宣传](../procedures/exhibition-self-promotion.md)为概念导航，不是已登记的正式关系。
 

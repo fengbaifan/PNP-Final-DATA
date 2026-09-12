@@ -4,10 +4,10 @@ name_en: "A Musical Company with a Fortune-Teller"
 type: work
 sub_type: painting_commission
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/valentin.md","note":"被要求按这些人物角色作画的画家；作品实际完成未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 389–392; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"created_by","target":"persons/valentin.md","note":"卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录。","evidence_ref":{"doc_id":"louvre-valentin-inv1418","source_file":"https://collections.louvre.fr/en/ark:/53355/cl010062321","source_span":"瓦朗坦人物卡 S7；完整对象记录"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L389–392
@@ -60,9 +60,14 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../persons/valentin.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；证据：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
 
 S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

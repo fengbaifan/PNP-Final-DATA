@@ -3,11 +3,12 @@ title: "奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter fro
 name_en: "Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/ciro-ferri.md","note":"书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 974–978; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/antonio-ruffo.md","note":"书信收信人；1672-09-19；拒预付须与事务繁多的理由并读。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 974–978; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/antonio-ruffo.md","note":"书信收信人；1672-09-19；拒预付须与事务繁多的理由并读。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 974–978; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1672-09-19","role":"收信人","scope":"关于拒绝预付及事务繁多的书信"}
+  - {"relation_type":"has_subject","target":"terms/artistic-independence.md","note":"费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 974–978; print pp. 23"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L974–978
@@ -58,9 +59,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读；时间：1672-09-19；角色：收信人；范围：关于拒绝预付及事务繁多的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| → 所涉对象（`has_subject`） | [创作独立（Artistic independence）](../terms/artistic-independence.md) | 费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
 
 S1：第一章；印刷页 23；OCR L974–978。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

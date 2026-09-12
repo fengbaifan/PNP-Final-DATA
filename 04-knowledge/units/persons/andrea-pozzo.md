@@ -3,8 +3,10 @@ title: "安德烈亚·波佐（Andrea Pozzo）"
 name_en: "Andrea Pozzo"
 type: person
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/jesuits.md","note":"1665年12月在米兰加入耶稣会；23日／25日异文保留。","evidence_ref":{"doc_id":"dbi-pozzo","source_file":"https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/","source_span":"本卡 S6；入会与誓愿段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L840–843
@@ -100,6 +102,11 @@ sources:
 | 规范标识 | Getty ULAN 500028698；VIAF 59230796 | S5 P245／P214；原站未核 |
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [耶稣会（Jesuits）](../institutions/jesuits.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；证据：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；dbi-pozzo；本卡 S6；入会与誓愿段 |
 
 [Wikidata Q380103](https://www.wikidata.org/wiki/Q380103) · [Wikipedia（en）Andrea Pozzo](https://en.wikipedia.org/wiki/Andrea_Pozzo)。复用 REV-034 双向身份配对；完整阅读 WP 后补入适用事实，不将 Wiki 两站作为两份独立事实证明。整卡仍为 source_backed。
 

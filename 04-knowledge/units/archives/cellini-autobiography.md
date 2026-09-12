@@ -3,7 +3,7 @@ title: "本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellin
 name_en: "The Life of Benvenuto Cellini"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/benvenuto-cellini.md","note":"本章明确引用 Cellini 的自传。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 634–635; print pp. 16"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -54,9 +54,14 @@ sources:
 
 [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) 的 wikibase_item 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [本韦努托·切利尼（Benvenuto Cellini）](../persons/benvenuto-cellini.md) | 本章明确引用 Cellini 的自传；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 634–635; print pp. 16 |
 
 S1：第一章；印刷页16；OCR L634–635。S2：Wikipedia（it）全文，revision 151158550，7175字符。S3：Wikidata Q4014886 revision 2379066146；所采P50、P577、P407、P136均带GND来源组。Wikimedia两者用于身份与通用书目信息，作为同一来源组，不计为两份独立事实证据。
 

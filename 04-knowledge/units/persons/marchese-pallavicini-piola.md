@@ -3,7 +3,7 @@ title: "尼科洛·马里亚·帕拉维奇尼侯爵（Niccolò Maria Pallavicini
 name_en: "Niccolò Maria Pallavicini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -65,12 +65,17 @@ sources:
 
 **身份配对通过并解除爵号指称。** Paolo Gerolamo Piola 的意大利语页面明确记1690年在 Niccolò Maria Pallavicini 保护下赴罗马学习；姓名、年代、热那亚来源、罗马赞助角色和本章相符。意大利语 Wikipedia 的 wikibase_item 与 Wikidata Q105105120 的 itwiki sitelink双向一致。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](paolo-girolamo-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；原断言与证据见发出端卡片“保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 278–281; print pp. 8 |
+
 S1：第一章；印刷页 8；OCR L278–281。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

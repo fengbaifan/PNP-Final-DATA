@@ -3,7 +3,7 @@ title: "普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the
 name_en: "Poussin’s Massacre of the Innocents (chapter 1 reference)"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/nicolas-poussin.md","note":"与 Reni 同题作分开；具体版本仍保留范围限制。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 373–375; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -70,6 +70,11 @@ sources:
 - 研究线索：Alain Mérot, *Poussin*（Hazan, 1990）, no.64, p.263, 图p.55；仅由S6取得书目，未读本书。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
 
 候选[Wikipedia：The Massacre of the Innocents (Poussin)](https://en.wikipedia.org/wiki/The_Massacre_of_the_Innocents_(Poussin)) ↔ [Wikidata Q3224378](https://www.wikidata.org/wiki/Q3224378)指向PE305；本卡保留候选，未批量导入其全部属性。S4全文1052字符、S5可读取对象记录、S6研究记录已读；搜索结果中出现的118×179厘米未取代已核147×171。
 

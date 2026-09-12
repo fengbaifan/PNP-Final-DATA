@@ -4,11 +4,11 @@ name_en: "Contract between Camassei and Urban VIII (1633)"
 type: archive
 sub_type: contract
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/andrea-camassei.md","note":"承担列明材料费用的合同画家。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/urbano-viii.md","note":"本章明言与 Urban VIII 的合同。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_subject","target":"persons/andrea-camassei.md","note":"所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"承担画布、颜料等费用的画家","scope":"材料与另一付款令卡是否同一文书仍未确认"}
+  - {"relation_type":"has_subject","target":"persons/urbano-viii.md","note":"所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"付款安排所借名义的教皇与赞助权威","scope":"文种及与另一付款令卡的同一性仍未确认"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L514–516
@@ -50,6 +50,12 @@ sources:
 无独立Wikipedia—Wikidata配对。与[付款文书卡](camassei-sebastian-receipt.md)存在可能同源关系；既不能继续确定地说二者不同，也不能直接合并删卡。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实；时间：1633；角色：承担画布、颜料等费用的画家；范围：材料与另一付款令卡是否同一文书仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实；时间：1633；角色：付款安排所借名义的教皇与赞助权威；范围：文种及与另一付款令卡的同一性仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
 
 S1第一章第13页L514–516保留；S2实际读到的付款令；S3专业传记支持1633圣塞巴斯蒂安付款及作者关联。既有Camassei与Urban VIII两条来源支持关系保留，正式note中的“合同”限于Haskell用语，交关系复核处理。
 

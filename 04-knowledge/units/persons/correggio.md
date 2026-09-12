@@ -3,7 +3,7 @@ title: "科雷乔（Correggio）"
 name_en: "Correggio"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -145,6 +145,9 @@ sources:
 | Antonio Iommelli | 馆方《Danae》研究条目（2023） | S9所列阅读范围；引用旧研究不冒充原档已读 |
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikipedia英文](https://en.wikipedia.org/wiki/Antonio_da_Correggio)与[Wikidata Q8457](https://www.wikidata.org/wiki/Q8457)双向一致，按画家、故乡和帕尔马工作核对。Getty ULAN 500006208仅见WD引用，本轮未核ULAN原站，不称Getty身份另验完成。
 

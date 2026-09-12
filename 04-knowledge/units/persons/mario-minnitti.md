@@ -3,7 +3,7 @@ title: "马里奥·明尼蒂（Mario Minniti）"
 name_en: "Mario Minniti"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -74,13 +74,14 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../archives/minnitti-augusta-terms-1617.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；原断言与证据见发出端卡片“明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
+
 ### 身份与外部链接
 
 [Wikipedia（en）Mario Minniti](https://en.wikipedia.org/wiki/Mario_Minniti) 与 [Wikidata Q153619](https://www.wikidata.org/wiki/Q153619) 的 sitelink 双向一致；叙拉古身份、年代和画家职业对应本章对象。S4 为全文阅读，S5 为属性级读取。
-
-### 关系记录
-
-本卡目前没有正式关系。[卡拉瓦乔](caravaggio.md)链接用于展示一项有争议的传记关联，不等于已确认合作、师承或模特关系；Augusta合同对象尚无独立作品KU，未新建端点。
 
 ### 争议与待补
 

@@ -3,11 +3,12 @@ title: "卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Marty
 name_en: "Camassei’s Martyrdom of Saint Sebastian altarpiece"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/urbano-viii.md","note":"Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372,514–516; print pp. 10,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
   - {"relation_type":"located_at","target":"places/san-sebastiano-palatine.md","note":"委托的指定安装场所，非今日现场核验。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"created_by","target":"persons/andrea-camassei.md","note":"付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372–374; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L336–338,372–374
@@ -65,5 +66,13 @@ Met **65.137**《圣塞巴斯蒂安被棍棒击杀》（Saint Sebastian Clubbed 
 尚无这件祭坛画独立的Wikipedia—Wikidata确认配对。作者和教堂均有配对不等于作品已配对；Met对象ID属于准备素描。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](../archives/camassei-sebastian-receipt.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；原断言与证据见发出端卡片“卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
+| → 由其委托（`commissioned_by`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372,514–516; print pp. 10,13 |
+| → 位于（`located_at`） | [帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）](../places/san-sebastiano-palatine.md) | 委托的指定安装场所，非今日现场核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338; print pp. 10 |
+| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
 
 保留既有委托人与指定地点关系；来源定位S1第一章第10页、S2第13页，S3–S5外证。[付款文书](../archives/camassei-sebastian-receipt.md)记载姓名／日期冲突：[原刊]写Antonio Camassei及1633的Marcello Sacchetti。作品归属支持较强，但原档冲突未解决，当前安置、实物尺寸及保护状况仍待对象级记录。

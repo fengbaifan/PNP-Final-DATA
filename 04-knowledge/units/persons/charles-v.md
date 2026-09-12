@@ -3,10 +3,10 @@ title: "查理五世（Charles V）"
 name_en: "Charles V"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/titian.md","note":"1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"honourer_of","target":"persons/titian.md","note":"1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1533","role":"荣衔授予者","scope":"Count Palatine等荣衔；不采捡画笔逸事"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L764–767, 799–804
@@ -74,9 +74,15 @@ sources:
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Charles_V%2C_Holy_Roman_Emperor) 的 wikibase_item 与 [Wikidata Q32500](https://www.wikidata.org/wiki/Q32500) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 荣衔授予者为 Charles V；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| → 荣衔授予者（`honourer_of`） | [提香（Titian）](titian.md) | 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
 
 S1：第一章；印刷页 19；OCR L764–767, 799–804。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

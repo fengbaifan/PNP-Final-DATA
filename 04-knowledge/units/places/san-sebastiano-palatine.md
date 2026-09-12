@@ -3,7 +3,7 @@ title: "帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）"
 name_en: "S. Sebastiano on the Palatine"
 type: place
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -66,6 +66,11 @@ sources:
 [Wikipedia](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino) ↔ [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605)复用双向结果，英文5848字符全文已读。WD建立时间精度为7（世纪），不将序列化的0901-01-17写成创建日。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 委托的指定安装场所，非今日现场核验；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338; print pp. 10 |
 
 无既有正式关系。S1第一章第10页L336–338保留；S2–S7为对齐及补足。教堂官网本轮只支持当代名称和活动主体；历史叙述采用S4并保留范围。
 

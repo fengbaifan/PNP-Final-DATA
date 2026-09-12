@@ -3,7 +3,7 @@ title: "教皇亲族任用（Nepotism）"
 name_en: "Nepotism"
 type: term
 created: 2026-09-09
-updated: 2026-09-10
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -77,6 +77,9 @@ sources:
 | 定义比较 | Nadler、Schulman 的大学伦理中心文章 | S7 实际正文已读；现代规范评价不回填为历史定性 |
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 [Wikidata Q161165](https://www.wikidata.org/wiki/Q161165) · [Wikipedia（en）Nepotism](https://en.wikipedia.org/wiki/Nepotism)。REV-034 身份配对复用；本轮 WP 全文已读。QID 配对只锚定概念，不保证其所有属性正确。
 

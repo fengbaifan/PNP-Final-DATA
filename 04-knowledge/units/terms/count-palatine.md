@@ -3,7 +3,7 @@ title: "行宫伯爵（Count Palatine）"
 name_en: "Count Palatine"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -55,6 +55,9 @@ sources:
 [Wikipedia：Count palatine](https://en.wikipedia.org/wiki/Count_palatine) ↔ [Wikidata Q22932](https://www.wikidata.org/wiki/Q22932)身份配对沿用；本次读完对象页，仍按事实分别取舍。[S2–S5]
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 - S1：第一章，印刷页19，OCR L799–804，章内Bellini及Titian称谓。
 - S2–S3：初步身份对齐；S4–S5：全文补足与本次WD字段读取。

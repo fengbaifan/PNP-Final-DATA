@@ -3,7 +3,7 @@ title: "吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）"
 name_en: "Gian Lorenzo Bernini"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16, 17.'
@@ -95,12 +95,21 @@ Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件�
 
 [Wikipedia（en）](https://en.wikipedia.org/wiki/Gian_Lorenzo_Bernini) 的 wikibase_item 与 [Wikidata Q160538](https://www.wikidata.org/wiki/Q160538) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [乌尔班八世（Urban VIII）](urbano-viii.md) | 乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模；角色：长期赞助人和圣彼得工程委托方；范围：具体作品责任仍须逐项建模；原断言与证据见发出端卡片“乌尔班八世（Urban VIII）”：[来源](https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/)；dbi-urban-viii；本卡 S7；艺术赞助与圣彼得工程段 |
+| ← 所创作对象（`creator_of`，反向投影） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并；原断言与证据见发出端卡片“贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 700–703; print pp. 17 |
+| ← 所创作对象（`creator_of`，反向投影） | [贝尔尼尼《大卫》（Bernini’s David）](../works/bernini-david.md) | 作品作者与举镜逸事分离；本边不声称举镜实际发生；原断言与证据见发出端卡片“贝尔尼尼《大卫》（Bernini’s David）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 764–767,796; print pp. 19 |
+| ← 所创作对象（`creator_of`，反向投影） | [贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）](../works/bernini-thomas-baker-bust.md) | 本章所记 Bernini 胸像及其异常价格；原断言与证据见发出端卡片“贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 668–673,699–700; print pp. 17 |
+
 S1：第一章；印刷页 16, 17；OCR L641–646,656,668–672；S2：第一章；印刷页 17；OCR L699–703；S3：第一章；印刷页 19；OCR L764–767；S4：第一章；印刷页 21；OCR L862–874。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 
-本卡目前未登记正式关系；正文提及仅说明来源语境，关联须在关系阶段按具体证据判断。
+
 
 **本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。

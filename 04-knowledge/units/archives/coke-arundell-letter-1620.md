@@ -3,11 +3,11 @@ title: "托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620�
 name_en: "Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/mr-coke-rome-correspondent.md","note":"书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 40–55; print pp. 3–4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/lord-arundell-coke-correspondent.md","note":"书信收信人；1620-10-08；经 Hervey 转引。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 40–55; print pp. 3–4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/lord-arundell-coke-correspondent.md","note":"书信收信人；1620-10-08；经 Hervey 转引。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 40–55; print pp. 3–4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1620-10-08","role":"收信人","scope":"经Hervey转引的书信"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
   location: 第一章；印刷页 3, 4；OCR L40–44,48,53–55
@@ -60,14 +60,20 @@ sources:
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [托马斯·科克（Thomas Coke，阿伦德尔家户通信者）](../persons/mr-coke-rome-correspondent.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
+| → 致函（`addressed_to`） | [托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arundel）](../persons/lord-arundell-coke-correspondent.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
+
 | 关系 | 对象 | 证据／状态 |
 |---|---|---|
 | 作者 authored_by | [托马斯·科克](../persons/mr-coke-rome-correspondent.md) | 文件头既有正式边；S1依据保留，S2–S3补强姓名 |
-| 收信人 associated_person | [托马斯·霍华德，阿伦德尔伯爵](../persons/lord-arundell-coke-correspondent.md) | 文件头既有正式边；具体角色为收信人，非共现 |
+| 收信人 `addressed_to` | [托马斯·霍华德，阿伦德尔伯爵](../persons/lord-arundell-coke-correspondent.md) | 文件头已有正式收信关系；不是共现 |
 | 评论地 | [罗马](../places/rome.md) | 仅为内容导航，不建立“写于罗马”关系 |
 
 **证据链：** 原件（未读）→ Hervey刊本（定向读pp.181–184的OCR）→ Haskell本章（已逐行读）；Steer为补充馆藏目录。刊本和Haskell不是两份独立的事件见证。
 
-**本轮改正与未决：** 补入发受者全名和No.249，撤回人物旧稿中的“罗马来信”推断；保留原件历法、完整文本校勘、签名、纸本规格、地址及现行馆藏编号缺口。全文书信是否完整刊出未确认，刊本末有省略号，不声称读过完整原信；未找到确认Wiki对象，不记双重验证通过。2条既有正式关系保持原证据和状态，集中关系阶段再处理新增证据的交接。
+**当前改正与未决：** 已补入发受者全名和No.249，撤回人物旧稿中的“罗马来信”推断；保留原件历法、完整文本校勘、签名、纸本规格、地址及现行馆藏编号缺口。全文书信是否完整刊出未确认，刊本末有省略号，不声称读过完整原信；未找到确认Wiki对象，不记双重验证通过。本次关系复核维持作者与收信人两条正式关系。
 
 [初步对齐](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [本轮补足证据与裁决](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)

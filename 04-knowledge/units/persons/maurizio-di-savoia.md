@@ -3,10 +3,10 @@ title: "毛里齐奥·迪·萨伏依（Maurizio di Savoia）"
 name_en: "Maurizio di Savoia"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/gio-gasparo-baldoini.md","note":"任命 Baldoini 为 per nostro pittore，本章脚注引述任命。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"appointer_of","target":"persons/gio-gasparo-baldoini.md","note":"任命 Baldoini 为 per nostro pittore，本章脚注引述任命。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"per nostro pittore任命者","scope":"本章脚注所引任命；日期未知"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L188–189
@@ -113,11 +113,17 @@ S6列都灵国家档案馆王家书信、王族人物卷、O. Moreno《Istoria�
 
 ## 关系与证据
 
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 发布者（`issuer_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
+| → 任命者（`appointer_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
+
 **身份入口：** [Wikipedia（en）](https://en.wikipedia.org/wiki/Prince_Maurice_of_Savoy) ↔ [Wikidata Q610738](https://www.wikidata.org/wiki/Q610738)双向一致，版本见S4、S5。身份通过不代表所有日期断言一致。
 
 | 关系／角色 | 知识元入口 | 依据／状态 |
 |---|---|---|
-| associated_person：任用的画家 | [巴尔多伊诺](gio-gasparo-baldoini.md) | 文件头既有正式边；S1；新姓名和补充保护关系见S7 |
+| `appointer_of`：任用的画家 | [巴尔多伊诺](gio-gasparo-baldoini.md) | 文件头已有正式任命关系；S1；新姓名和补充保护关系见S7 |
 | 任用文字 | [本府画家任命](../archives/baldoini-painter-appointment.md) | S1；未新增正式边 |
 | 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1 |
 | 教皇活动语境 | [保禄五世](paul-v.md)／[乌尔班八世](urbano-viii.md) | S6；导航不是新关系 |

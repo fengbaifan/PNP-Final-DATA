@@ -3,11 +3,12 @@ title: "保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter fr
 name_en: "Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/paolo-negri.md","note":"书信作者；1676-12-24；引述画家气质的观念。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 889–900; print pp. 21"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_person","target":"persons/marchese-san-tommaso-negri.md","note":"书信收信人；1676-12-24；引述画家气质的观念。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 889–900; print pp. 21"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/marchese-san-tommaso-negri.md","note":"书信收信人；1676-12-24；引述画家气质的观念。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 889–900; print pp. 21"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1676-12-24","role":"收信人","scope":"引述画家气质观念的书信"}
+  - {"relation_type":"has_subject","target":"persons/giovanni-perugini.md","note":"信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 889–900; print pp. 21"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L889–900
@@ -56,9 +57,16 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [保罗·内格里（Paolo Negri）](../persons/paolo-negri.md) | 书信作者；1676-12-24；引述画家气质的观念。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
+| → 致函（`addressed_to`） | [圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (Negri’s correspondent)）](../persons/marchese-san-tommaso-negri.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
+| → 所涉对象（`has_subject`） | [乔万尼·佩鲁吉尼（Giovanni Perugini）](../persons/giovanni-perugini.md) | 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
 
 S1：第一章；印刷页 21；OCR L889–900。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
 

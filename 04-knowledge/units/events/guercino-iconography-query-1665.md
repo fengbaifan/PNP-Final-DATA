@@ -3,11 +3,11 @@ title: "圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questi
 name_en: "Guercino's Questions about a Sicilian Altarpiece (1665)"
 type: event
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
-  - {"relation_type":"associated_person","target":"persons/guercino.md","note":"Guercino 主动询问具体图像细节。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"associated_work","target":"works/guercino-sicilian-altarpiece-1665.md","note":"询问对象为西西里修道院祭坛画方案；非完成证明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"has_participant","target":"persons/guercino.md","note":"Guercino 主动询问具体图像细节。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1665","role":"图像细节询问者","scope":"只确认提出询问"}
+  - {"relation_type":"has_subject","target":"works/guercino-sicilian-altarpiece-1665.md","note":"询问对象为西西里修道院祭坛画方案；非完成证明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1665","role":"所询问的祭坛画方案","scope":"图像细节方案；不证明作品完成"}
   - {"relation_type":"uses_procedure","target":"procedures/iconographic-consultation.md","note":"询问衣色、会规载体、人物方位和照明是具体协商行为。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -57,11 +57,18 @@ sources:
 
 未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
 
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；外部内容补足与正式关系复核依阶段后置。
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
-S1为第一章章页／行号；S2为Zeri对象目录全文；S3只作未读书目入口。文件头3条正式关系保留，新增地点和毁失信息暂不新增边，待作品卡与关系阶段统一审查。
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Guercino 主动询问具体图像细节；时间：1665；角色：图像细节询问者；范围：只确认提出询问；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| → 所涉对象（`has_subject`） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../works/guercino-sicilian-altarpiece-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| → 采用程序（`uses_procedure`） | [题材与图像志协商（Consultation over subjects and iconography）](../procedures/iconographic-consultation.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+
+S1为第一章章页／行号；S2为Zeri对象目录全文；S3只作未读书目入口。本次维持人物、作品和程序三条正式关系；新增地点和毁失信息未形成同粒度正式边。
 
 文件头保留 3 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
 

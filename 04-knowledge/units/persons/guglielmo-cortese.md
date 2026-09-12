@@ -3,8 +3,10 @@ title: "古列尔莫·科尔泰塞（Guglielmo Cortese）"
 name_en: "Guglielmo Cortese"
 type: person
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
+relations:
+  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年7月加入学院，1660年任primo rettore。","evidence_ref":{"doc_id":"dbi-courtois","source_file":"https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/","source_span":"本卡 S6；学院段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
@@ -87,6 +89,12 @@ sources:
 研究入口包括Prosperi Valentini Rodinò1984专业传记和其文末Pascoli、Salvagnini、Montalto等著述。本轮专业传记全文已读，所引原作、档案及文献没有全部读过。Abdon与Sennen蚀刻在该传记中归属较明确；其他署GC版画、学会藏肖像的作者及若干祭坛画日期仍有争议，不列成确定自画像或无争议作品。[S6]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可；角色：Valmontone雇主／保护人；范围：离开数日须获特别许可的服务关系；原断言与证据见发出端卡片“卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月加入学院，1660年任primo rettore；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；学院段 |
 
 - 本章语境：[莫拉](pier-francesco-mola.md)、[卡米洛·潘菲利](camillo-pamfili.md)、[瓦尔蒙托内](../places/valmontone.md)；师友：[科尔托纳](pietro-da-cortona.md)。本卡既无正式关系，链接是核对入口，后续按具体证据生成关系。
 - [Wikipedia英文页](https://en.wikipedia.org/wiki/Guillaume_Courtois) ↔ [Wikidata Q1749032](https://www.wikidata.org/wiki/Q1749032)身份配对复用。ULAN500115391、RKD18775为WD列出的线索，原库未直接核。[S5]

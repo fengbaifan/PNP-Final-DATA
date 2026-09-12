@@ -3,7 +3,7 @@ title: "普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commi
 name_en: "Poussin’s Spring commissioned by Valguarnera"
 type: work
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"与安排完成《瘟疫》不同，这是全新委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -68,6 +68,12 @@ ICCD 0800437630是版画记录，馆号1233、纸上蚀刻／雕版及1677–169
 WP沿用John Smith（1837）认为为Omodei枢机制作的旧说，并列现代Valguarnera说；本轮采用后者作为候选的赞助依据，仍不因作品页题名没有Spring就删去章内原称。该候选也不等于普桑《花神的凯旋》或提埃波罗同名作。（S2、S4–S5）
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 创作者（`created_by`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 与安排完成《瘟疫》不同，这是全新委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
 
 候选[Wikipedia：The Empire of Flora](https://en.wikipedia.org/wiki/The_Empire_of_Flora) ↔ [Wikidata Q11750116](https://www.wikidata.org/wiki/Q11750116)双向一致，但“本章Spring→候选实物”的完整题名链尚未核定，所以本卡仍未采用确认QID，不批量导入其属性。
 

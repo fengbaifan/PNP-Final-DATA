@@ -1,6 +1,6 @@
 # 当前有效要求索引
 
-更新依据：REV-056（2026-09-11）。用户原话及演变保留在 [user-revisions.md](user-revisions.md)；本文件只定位有效要求与规则，不复制研究报告或完整实施历史。
+更新依据：REV-065（2026-09-12）。用户原话及演变保留在 [user-revisions.md](user-revisions.md)；本文件只定位有效要求与规则，不复制研究报告或完整实施历史。
 
 | 编号 | 当前要求 | 原话依据 | 权威入口 |
 |---|---|---|---|
@@ -36,6 +36,7 @@
 | R-30 | 增加 family 家族类，区分成员、支系与家户／随从组织；同姓不推定同族 | REV-035、036 | [类型规则](../../01-domain/taxonomy-registry.md)、ingest 内容与关系契约 |
 | R-31 | 九类实体统一按分组独立字段、多值条目及时间履历／沿革表达；事实、证据与处理过程分开 | REV-041、042 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；实际整理时原位采用，不以规则更新标记旧卡完成 |
 | R-32 | 卡内直接展示实际适用的权威记录与稳定标识；QID、Wikipedia、人物辞典、档号／书目号、馆藏号及数字化全文均按对象选用，并与可点击关联知识元分开说明 | REV-046–049、056 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；元数据保留唯一机器关系记录，正文提供一致的阅读入口 |
+| R-33 | 对已采纳内容中的具名独立对象建立或复用知识元，并全盘审查作品—创作者—委托／赞助—安置／存放，以及人物师承、合作、朋友、亲缘、家庭／家族成员和机构隶属等关系；时间、版本、角色与证据随关系保留，缺端点时不得宣称关系完整 | REV-062、063 | AGENTS、pipeline、[ingest正文模板](../../.agents/skills/ingest/references/body-template.md)、[enrich](../../.agents/skills/enrich/SKILL.md)、[relate](../../.agents/skills/relate/SKILL.md) |
 
 ## 执行状态的唯一落点
 

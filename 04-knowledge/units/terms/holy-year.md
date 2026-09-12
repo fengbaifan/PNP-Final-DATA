@@ -3,7 +3,7 @@ title: "圣年（Holy Year）"
 name_en: "Holy Year"
 type: term
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -61,6 +61,9 @@ sources:
 [Wikipedia对象页](https://en.wikipedia.org/wiki/Jubilee_in_the_Catholic_Church) ↔ [Q838794](https://www.wikidata.org/wiki/Q838794)配对沿用。P31 planned event（Q1656682）、P279 year（Q577）为所读normal rank分类声明，未附引用；只作概念分类导航，不把本卡改为某个已发生的单届事件。[S5]
 
 ## 关系与证据
+
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
 
 - S1：第一章，印刷页12，OCR L453–455；S2–S3：初步对齐；S4–S5：本次全文及WD读取；S6：圣年官方说明。
 - Wikipedia各届表部分起止日期、天数及1700年教皇归属不能仅按表格复制；本卡仅采用上述有直接依据的制度沿革。未开展各届日历考订，未采用未来届次推测。

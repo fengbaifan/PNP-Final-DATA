@@ -4,7 +4,7 @@ name_en: "Contract Terms for Mola and Pamfili's Valmontone Project (1657)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-11
+updated: 2026-09-12
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/mola-four-elements-valmontone.md","note":"Valmontone 工程的材料分担条款；不宣称取得整份合同原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–319,505–506,514–519; print pp. 9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -50,6 +50,11 @@ sources:
 截至1658年底，研究记Mola已完成若干房间／画面；他因报酬及未签方案争议离开，并提起“per mercede”诉讼，至1664结束且对其不利。作品已部分实施不等于全部条款被履行，诉讼结果也不能倒推原协商毫无效力。[S2]
 
 ## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | Valmontone 工程的材料分担条款；不宣称取得整份合同原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–319,505–506,514–519; print pp. 9,13 |
 
 仍无独立Wikipedia—Wikidata配对。S1第一章第13页L505–506、514–519；S2本次定向回读Mola专业传记的方案、工作及诉讼段。原有工程主题关系保留；[四元素方案](../works/mola-four-elements-valmontone.md)与建筑、具体实物分开。
 
