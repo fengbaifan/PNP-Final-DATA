@@ -4,7 +4,7 @@ name_en: "Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/vincenzo-armanni-ch1.md","note":"书信署名者据原页确认为 Armanni。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -18,6 +18,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 329–330; print pp. 9
+  original_quotes:
+  - source_span: "lines 329–330"
+    text: |2-
+      4 Montalto, p. 290. There is also an undated letter from a certain Vincenzo Armarmi (I, p. 215) to
+      Camillo Pamfili with suggestions for the decoration of his villa at Valmontone.
 - citation: Haskell，同书书后书目；仅核对当前引文条目。
   location: 同书书目（非第一章）；印刷页 412；OCR L69–70
   evidence_ref:
@@ -25,9 +30,15 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 69–70; print p. 412
   sentence_summary: 书目明确该信所引 Armanni 信集题名、3 卷及 1663／1674 出版年；这些出版年不等于未注明日期之信的写作年。
+  original_quotes:
+  - source_span: "lines 69–70"
+    text: |2-
+      Armanni, Vincenzo: Delle lettere del Signor V. A. nobile d’ugubbio, 3 vols., Roma 1663,
+      1674. '
 - citation: "Vincenzo Armanni, Delle lettere..., vol. I (Roma: Iacomo Dragondelli, 1663). Biblioteca Nazionale Centrale di Roma / Google scan via Internet Archive. https://archive.org/details/bub_gb_7QeLKwkXauIC. Accessed 2026-09-11."
   location: "题名页及相邻相关信的OCR选读；所引致Camillo信pp.215–216全文逐页对影像，非整卷或原信手稿。"
   sentence_summary: "卷一献给Camillo Pamphili；pp.215–216报告送去十一项家族史题材，首项族谱树，其余十项许画家改进表现但须保留核心；未载发信日期与地点。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-armanni-pamfili-letter-undated
 ---
 
 ## 内容
@@ -57,10 +68,6 @@ sources:
 3. 画家可以提出更巧妙的表现，但不得改变题材核心。作者、委托人与执行画家的责任须分别记录。[S3]
 4. 本信不具名画家，也不证明方案全部实施；不从邻近章内莫拉案例直接认定这封信指向莫拉。[S1、S3]
 
-### 身份对齐
-
-仍无独立Wikipedia—Wikidata配对。刊本文本已逐页读至信尾；原信手稿、寄出地与精确日期未核。
-
 ## 关系与证据
 
 ### 关系记录
@@ -69,7 +76,3 @@ sources:
 | → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 书信署名者据原页确认为 Armanni；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | → 致函（`addressed_to`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | 书信收信人为 Camillo Pamfili；角色：收信人；范围：就Valmontone别墅装饰提供建议的未注明日期书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | → 组成部分（`part_of`） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](armanni-delle-lettere.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
-
-文件头保留3条既有关系：作者、收信人关联及刊收于信集。S1–S3按sources顺序。原章定位为第一章第9页L329–330。
-
-原刊影像的 `page/n256.jpg` 与 `page/n257.jpg` 分别核为印刷215、216页。邻近p.212另一封致Camillo信提及公证谱系副本，不将其附件、内容或日期并入本信。末尾下一封致Alfonso Scacucci的文字也不属本信。十一项题材只保留本信实际给出的信息，不生成十一个未经识别的作品知识元。

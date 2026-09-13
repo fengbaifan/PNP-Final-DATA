@@ -3,7 +3,7 @@ title: "那不勒斯（Naples）"
 name_en: "Naples"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 11, 13."
@@ -13,6 +13,17 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 423–425, 500–502; print pp. 11, 13"
+    original_quotes:
+    - source_span: "lines 423–425"
+      text: |2-
+        8 Pollak, 1913, p. 26. Letter from Lanfranco in Naples dated 14 July 1640. ‘In tela il disegno’ must
+        certainly mean that the general composition would be sketched in on the canvas. We know that this was
+        a regular practice of Lanfranco’s—Costello, p. 274.
+    - source_span: "lines 500–502"
+      text: |2-
+        background. Thus Domenichino was paid 130 ducats for each figure in his frescoes in
+        Naples Cathedral and Lanfranco too. This system was very widespread and allowed
+        painters to make regular increases in price as their reputations grew.6 However, the
   - citation: 'UNESCO World Heritage Centre, "Historic Centre of Naples," no. 726. https://whc.unesco.org/en/list/726/. Accessed 2026-09-09.'
     location: "Description、Outstanding Universal Value、历史段落、Date of Inscription（UNESCO）；只支持明确适用的城市背景，遗产区不等于整座城市"
     sentence_summary: "转述：那不勒斯历史中心保存古代格网及不同时期建筑，1995 年入选遗产名录；这些陈述不把整座城市变成一个建筑或遗产区。"
@@ -40,6 +51,7 @@ sources:
   - citation: 'Brill, Preliminary Material, in A Companion to Early Modern Naples. https://brill.com/display/book/9789004251830/B9789004251830_001.xml. Accessed 2026-09-10 via indexed publisher record.'
     location: '出版商检索索引中的 Editor、series、publisher、ISBN、publication year；直达页面读取失败，非原书全文'
     sentence_summary: '检索记录列 Tommaso Astarita 为编者，Brill，2013，Brill’s Companions to European History 2，电子 ISBN 9789004251830；直达与原书正文仍未读。'
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-naples
 ---
 
 ## 内容
@@ -126,20 +138,7 @@ sources:
 | ← 事件地点（`scene_of`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 1640-07-14 申请信自 Naples 发出；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 420–425; print pp. 11 |
 | ← 所在地（`location_of`，反向投影） | [那不勒斯主教座堂（Naples Cathedral）](naples-cathedral.md) | 教堂地点为 Naples；原断言与证据见发出端卡片“那不勒斯主教座堂（Naples Cathedral）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
 
-### 身份与阅读范围
+### 身份与外部链接
 
-[Wikipedia / Naples](https://en.wikipedia.org/wiki/Naples) ↔ [Wikidata Q2634](https://www.wikidata.org/wiki/Q2634) 的城市身份配对已完成。复用 S3 的英文全文阅读（revision 1373700383）；S4 的较新 revision 1374047338 只读过身份段，不冒称全文已读。S6 本轮取得实际实体响应并核对适用属性及所用标签，配对 sitelink 仍一致。S8–S10 只支持所述书目事实。整卡保持 source_backed。
-
-### 待补与争议
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 行政日期 | S6 对当前广域市给 2015-01-01 起始限定、对旧省给 2014-12-31 终止；这些日期尚未直接核原行政依据，未编入确定沿革 |
-| 历史政体 | S6 有多个国家／都城值和不同时间精度，若干缺声明引用；暂不拼成连续统治史。城市与那不勒斯王国分别建模 |
-| 现代国家时间 | S6 的 Italy 带 1861-03-17 起始值；不据此把现代共和国制度追溯到该日 |
-| 遗产面积 | 本轮已按 UNESCO 将遗产区与缓冲区分开；旧 WP 的不同口径不混加，完整边界地图尚未核读 |
-| Getty 标识 | S6 分列 TGN 7004474（Naples，inhabited place）、7051538（Napoli，municipality）；本卡城市语境以前者为待核入口。原站本轮读取失败，两号均不能标为 Getty 已核 |
-| 书目日期 | S8 首发 2010-02-12，S9 发布字段 2010-08-18；当前书目保留年精度，不冒称同一载体唯一精确出版日。S10 仅索引可读，待直达记录 |
-| 其他内容 | 历史政权细分、建筑和内部作品的具体身份仍按各对象补证；现代人口、交通、经济、体育及缺引文学评价不为本章扩写 |
-
-S1–S10 按元数据 sources 顺序对应。字段 rank、引用、精度、访问失败与采用／暂缓依据见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-045 及其补足证据文件。
+- [Wikipedia / Naples](https://en.wikipedia.org/wiki/Naples)
+- [Wikidata Q2634](https://www.wikidata.org/wiki/Q2634)

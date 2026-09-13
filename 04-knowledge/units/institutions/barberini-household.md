@@ -3,7 +3,7 @@ title: "巴贝里尼家族及家户（Barberini Family and Households）"
 name_en: "Barberini Family and Households"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -13,6 +13,42 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 15–47; print pp. 3
+  original_quotes:
+  - source_span: "lines 15–47"
+    text: |2-
+      WHEN Urban. VIII became Pope,’ wrote the art-chronicler Giambattista Passeri,
+      looking back nostalgically from the dog days of the 1670s, ‘it really seemed as if
+      the golden age of painting had returned; for he was a Pope of kindly spirit, breadth of
+      mind and noble inclinations, and his nephews all protected the fine arts. . . f1 In fact,
+      the long pontificate of Urban VIII which began in 1623 marked the climax of a most
+      intensive phase of art patronage rather than the opening of a new era—the sunlit after­
+      noon rather than the dawn. For at least thirty years the austerity and strains of the
+      Counter Reformation had been relaxing under the impact of luxury and enterprise.
+      Intellectual heresy was still stamped out wherever possible: artistic experiments were
+      encouraged as never before or since. The rule of Urban VIII not only led to a vast
+      increase in the amount of patronage, but also to a notable tightening of the reins.
+      Urban’s immediate predecessors, Paul V (1605-1621) and to a lesser extent Gregory
+      XV (1621-1623), had set a pattern which he was content to follow. The completing of
+      St Peter’s, the building and decoration of a vast palace and villa, the establishment of a
+      luxurious family chapel in one of the important Roman churches, the support and
+      enrichment of various religious foundations, the collection by a savoured nephew of a
+      private gallery of pictures and sculpture—this was now the general practice. In it we can
+      see reflected the contrasts,- and sometimes the tensions, between the Pope as a spiritual
+      and temporal ruler and the man as an art lover and head of a proud and ambitious
+      family.
+      The Popes and their nephews were by no means the only patrons, but as the century
+      advanced their increasing monopoly of wealth and power made them at first the leaders
+      and then the dictators of fashion. This process reached its climax in the reign of Urban
+      VIII and was in itself partly responsible for the relative decline in variety and experiment.
+      For until the election of this Pope change and revolution were of the very essence of
+      the Roman scene. ‘. . . It [is] a strange and unnaturall thing’, wrote a correspondent to
+      Lord Arundell in 1620 towards the end of Paul V’s sixteen-year rule,2 ‘that in that place,
+      contrary to all others, the long fife of the Prince is sayd to be the ruyne of the people;
+      whose wealth consists in speedy revolutions, and oft new preparations of new hopes in
+      those that aspire to rise by new fam.es [families] who, w.th the ould, remayne choaked
+      1 Passed, p. 293. For an enthusiastic contemporary account of art patronage—as of everything else
+      under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
+      reprinted.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L195–198
   sentence_summary: Sacchi 在 Antonio 家户等级中晋升；不能自动归于 Francesco。
@@ -20,6 +56,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 195–198; print pp. 7
+  original_quotes:
+  - source_span: "lines 195–198"
+    text: |2-
+      the artist might move on promotion. Thus from 1637 to 1640 Andrea Sacchi was placed
+      in Cardinal Antonio Barberini’s household among three slaves, a gardener, a dwarf
+      and an old nurse; in the latter year he was moved up to the highest category of pen­
+      sioners with writers, poets and secretaries.1
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L585–590
   sentence_summary: Barberini 与 Borghese 家族的大额赞助是艺术市场讨论的实例。
@@ -27,6 +70,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 585–590; print pp. 15
+  original_quotes:
+  - source_span: "lines 585–590"
+    text: |2-
+      supplanted its favoured artists. And underlying this was one constant threat. Only the
+      family that actually had its hand in the treasury was able to provide patronage on the
+      enormous scale that was associated with ruling clans such as the Borghese and the
+      Barberini. Should there be, for some reason or another, any financial restriction, it was
+      obvious that a very large number of artists, previously engaged in regular employment,
+      would be thrown on to the market.
 - citation: "Wikipedia (en), Barberini family, revision 1373803652. https://en.wikipedia.org/wiki/Barberini_family. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "候选 Q807815 指整个 Barberini 家族，本卡同时记多个家户。暂不将家族 QID 当各家户统一标识；在补足中先明确本卡对象范围。"
@@ -42,6 +94,7 @@ sources:
 - citation: "Frederick Hammond, Girolamo Frescobaldi: An Extended Biography, chapter10, “Rome, 1634–1643”. https://girolamofrescobaldi.com/10-rome-1634-1643/. Accessed 2026-09-11."
   location: "§§10.7–10.11、10.26–10.29及相关部分注释；不是整章全文"
   sentence_summary: "分别说明Francesco、Antonio和Taddeo的赞助、住所与不同艺术家关系；Frescobaldi受薪于Francesco、献作Antonio、教授Taddeo子女，不能合成同一个家户雇用关系。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-barberini-household
 ---
 
 ## 内容
@@ -84,20 +137,9 @@ sources:
 
 [Wikipedia家族页](https://en.wikipedia.org/wiki/Barberini_family)和[Wikidata Q807815](https://www.wikidata.org/wiki/Q807815)互链正确，但它们只对应家族。**当前混合卡的身份配对仍未确认**，不能把家族QID作为各家户身份锚点。（S4–S7）
 
-已识别的个人责任可在个人卡及相应事件中继续；无法明确所属家户的集体指称保留原来源。未来若确需独立家族或家户对象，应带来源返回登记并处理现有引用，不用本轮补足自动增生多个对象。
-
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 此处家户成员为 Antonio 的服务组织，非血缘成员；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
-
-| 角色入口 | 知识元 | 状态 |
-|---|---|---|
-| 教皇／家族成员 | [乌尔班八世](../persons/urbano-viii.md) | S1；不是全体家户统一负责人 |
-| 个别家户主体 | [安东尼奥](../persons/antonio-barberini.md)／[弗朗切斯科](../persons/francesco-barberini.md) | 各自语境分开 |
-| 画家及具体事件 | [安德烈亚·萨基](../persons/andrea-sacchi.md)／[1640年晋级](../events/sacchi-household-promotion-1640.md) | S2 |
-| 概念说明 | [家户（famiglia）](../terms/famiglia.md) | 说明服务组织范围，非家族同义词 |
-
-S1为第一章p.3、L15–47；S2为p.7、L195–198；S3为p.15、L585–590。其余来源实际阅读范围列于头部；研究提及的原账簿并未全部直接读过。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留决定。无新增正式关系，尚未把混合卡拆分或迁移；evidence_status仍为source_backed。

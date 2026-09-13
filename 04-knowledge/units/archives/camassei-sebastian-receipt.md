@@ -4,7 +4,7 @@ name_en: "Published Payment Order for Camassei’s Saint Sebastian Altarpiece"
 type: archive
 sub_type: payment_order
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/camassei-martyrdom-saint-sebastian.md","note":"付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 335–338,372–374; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,12 +17,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 335–338,372–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 335–338"
+    text: |2-
+      length figures it contained, he was sometimes told just how many of these he was to
+      include. Urban VIII, for instance, commissioned an altarpiece for the church of S.
+      Sebastiano on the Palatine to represent ‘the martyrdom of St Sebastian, with eight
+      figures’ which were evidently left to the discretion of the painter.1
+  - source_span: "lines 372–374"
+    text: |2-
+      1 The artist was Andrea Camassei—see the receipt published by A. Bertolotti (Artisti bolognesi . . .,
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
   location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
   sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
 - citation: "Sandra Vasco, CAMASSEI, Andrea, Dizionario Biografico degli Italiani 17 (1974). https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文及书目已读；传记引述的原档与研究原篇未因此视为已读。"
   sentence_summary: "1602-12-01为洗礼，Bevagna出生；亲缘、训练、委托、1633圣塞巴斯蒂安付款及1630–35圣彼得施洗工程分别记录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-camassei-sebastian-receipt
 ---
 
 ## 内容
@@ -59,8 +72,3 @@ sources:
 |---|---|---|
 | → 所涉对象（`has_subject`） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
 | → 源自（`derived_from`） | [贝尔托洛蒂《罗马的博洛尼亚、费拉拉及原教皇国其他艺术家》（Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome）](bertolotti-artisti-bolognesi.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；证据：[来源](https://archive.org/details/artistibolognesi00bert)；bertolotti-artisti-bolognesi-1885；本卡 S2；印刷页161–162，扫描页174–175 |
-
-没有该文书的Wikipedia—Wikidata配对。原章第10页L335–338、372–374及旧来源摘要保留，以便追溯早期“收据”判断。
-本次把旧“收据”措辞改为付款令，并将刊本关系由 `part_of` 改为 `derived_from`；文种与原档同一性限制保留。
-
-1633署日与Marcello Sacchetti1629卒年冲突；不得据本刊令生成其1633付款事实。另页Guercino1638收据不属本文。现已读刊本，不称原件或签署本已读。

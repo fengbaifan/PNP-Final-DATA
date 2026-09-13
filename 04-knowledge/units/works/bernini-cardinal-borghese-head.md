@@ -3,7 +3,7 @@ title: "贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait hea
 name_en: "Bernini’s portrait head of Cardinal Borghese"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/gian-lorenzo-bernini.md","note":"书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 700–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 700–703; print pp. 17
+  original_quotes:
+  - source_span: "lines 700–703"
+    text: |2-
+      nucci, 1948, p. 89. A letter from Fulvio Testi to Conte Francesco Fontana published by Fraschetti (p. 108)
+      shows the_prices that Bernini could command in 1633—a statue would be worth 4000 or 5000 scudi;
+      he was paid 1000 scudi for the head of Cardinal Borghese; he received a regular salary of 300 scudi a month
+      from the Fabbrica di S. Pietro.
 - citation: "Wikipedia (en), Two Busts of Cardinal Scipione Borghese, revision 1361325465. https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Wikipedia 页合述两件 Scipione 胸像，但 Q16534303 标签限定第一版；章中只说 head，不能把双向链接相同误当版本一致。端点及版次继续待证。"
@@ -34,6 +41,7 @@ sources:
 - citation: "Sonja Felici, Bust of Scipione Borghese, Galleria Borghese, January 2024, inv. CCLXVI. https://www.collezionegalleriaborghese.it/en/opere/bust-of-scipione-borghese. Accessed 2026-09-10."
   location: "技术卡、目录正文及书目全文；所引原著未读"
   sentence_summary: "第二版 1632、大理石、78 cm，与第一版区分；制作轶事有不同传述，不能当精确工期。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-bernini-cardinal-borghese-head
 ---
 
 ## 内容
@@ -102,15 +110,3 @@ sources:
 | ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
 | → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 700–703; print pp. 17 |
 | → 所涉对象（`has_subject`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；证据：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；galleria-borghese-bust；本卡 S6–S7；对象与版本对照 |
-
-### 对齐结论
-
-**仍为版本待证，未采用确认 QID。** [英文 Wikipedia 两件胸像页](https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese) 与 [Wikidata Q16534303](https://www.wikidata.org/wiki/Q16534303) 链接互返，但后者英文标签只指第一版。本人身份、两件共同题材和单件作品身份是不同判断。
-
-本轮将“被表现者也完全不明”缩小为“Scipione 已有外部对应依据，具体版次与结算范围仍未明”；初步对齐统计继续归版本待证，不计新增配对通过。
-
-### 当前结果
-
-候选版本、馆号、材质、尺寸、陈列与报偿记录已分项保存；未选定单件 QID、未新建两件卡、未改原章文本或既有关系。原信、支付档案及完整实物鉴定仍待核。整卡维持 source_backed。
-
-[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足与裁决记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)

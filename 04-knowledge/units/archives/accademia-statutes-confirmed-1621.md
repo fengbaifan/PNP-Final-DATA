@@ -4,7 +4,7 @@ name_en: "Statutes of the Accademia di S. Luca (confirmed in 1621)"
 type: archive
 sub_type: statutes
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"institutions/accademia-di-san-luca.md","note":"所述章程属于该学院，具体文本版本未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受章程规范的机构","scope":"第一章所述1621年获确认的章程；具体文本版本未知"}
@@ -16,12 +16,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 690–691; print pp. 17
+  original_quotes:
+  - source_span: "lines 690–691"
+    text: |2-
+      ones. Gregory XV was encouraging, and in 1621 he confirmed the statutes of the
+      Accademia, but he died before he could do anything else. It was left to Urban VIII to
 - citation: "Beatrice Ortu and Alessandro Stoppoloni (eds.), Inventario dell’Archivio Accademico (1478–1980), September 2025. https://accademiasanluca.it/api/uploads/10_10_2025_Inventario_archivio_storico_b09e71331b.pdf. Accessed 2026-09-11."
   location: "PDF封面与印刷p.28，1.2.7–1.2.9；目录选页，非档案原件"
   sentence_summary: "1.2.7列1621章程含1619文件抄本，旧号200及现存柜位；1623和1627文书分列。"
 - citation: "Accademia Nazionale di San Luca, Archivio storico. https://accademiasanluca.it/archivio/archivio-storico. Accessed 2026-09-11."
   location: "档案说明全文"
   sentence_summary: "官方保管机构、档案范围与数字化访问方式；未访问章程原件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-accademia-statutes-confirmed-1621
 ---
 
 ## 内容
@@ -53,7 +59,6 @@ sources:
 - 目录描述该件为包含学院规则和章程的brief，并记录1619文书抄本；条文内容、页数和签署形态仍待原件。（S2）
 - 1.2.8另列1623年Gregory XV brief及新章程批准抄本，并含会议记录；不能用其日期覆盖1621件。（S2）
 - 1.2.9涉及1627年Urban VIII文件及1656年1月2日认证抄本；批准年与后抄年须分别保留。（S2）
-- 本次直接读的是2025年目录封面与相关选页，以及档案官网说明；未读章程原件，也未核实Haskell的具体档案底本。（S2、S3）
 
 ## 关系与证据
 
@@ -61,15 +66,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 所涉对象（`has_subject`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 所述章程属于该学院，具体文本版本未知；角色：受章程规范的机构；范围：第一章所述1621年获确认的章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
-
-### 关系入口
-
-已有正式关系：`has_subject` → [圣路加学院](../institutions/accademia-di-san-luca.md)，保留“受章程规范的机构”角色及“具体文本版本未知”限制。文书确认者的叙述不由此自动新增正式边。
-
-### 身份与出处
-
-未确认本件独立Wikipedia—Wikidata配对，不借学院或教皇QID代替文献身份。S1为第一章印刷p.17、OCR L690–691；S2为官方目录印刷p.28；S3为保管机构说明。编号对应元数据，目录匹配支持文书定位，不证明全文真实性已经逐句核验。
-
-### 未决项
-
-还需原件图像／全文、物理抄本与Haskell引用链、条文和签署信息。档案号及存放柜位已补足，文本内容与Wiki配对仍未解决。

@@ -3,7 +3,7 @@ title: "画商（Art dealer）"
 name_en: "Art dealer"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 160–164; print pp. 6
+  original_quotes:
+  - source_span: "lines 160–164"
+    text: |2-
+      In between these two extremes there were a number of gradations involving middle­
+      men, dealers and dilettantes as well as the activities of foreign travellers and their agents.
+      These intermediate stages became more and more important as the century progressed,
+      but artists usually disliked the freedom of working for unknown admirers, and with a
+      few notable exceptions exhibitions were assumed to be the last resort of the unemployed.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L607–609
   sentence_summary: 市场交易与展览的作用。
@@ -20,6 +28,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 607–609; print pp. 15
+  original_quotes:
+  - source_span: "lines 607–609"
+    text: |2-
+      It was also as a direct result of the shifting social and political pattern of Roman life
+      in the seventeenth century that art dealing and art exhibitions began to acquire the
+      great importance that will be analysed in a later chapter.3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L811–818
   sentence_summary: 贫困画家与经销商的依附为作者重构，非全体画商的行为。
@@ -27,6 +41,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 811–818; print pp. 20
+  original_quotes:
+  - source_span: "lines 811–818"
+    text: |2-
+      So much anxiety to appear respectable and prosperous was all the more natural in
+      view of the squalor that always threatened the lower ranks of painters. We know of
+      large numbers living in destitution,1 and it is easy enough to imagine their lives, working
+      for unscrupulous dealers at endless, mass-produced devotional pictures and occasionally
+      showing their work at some religious festival. Roman patrons were extraordinarily
+      quick to encourage new artists, and just because of this, the situation of those outside
+      the ranks of accepted painters must have been desperately bleak. There was as yet no
+      legend of the ‘undiscovered genius’ to sustain them in their misery.
 - citation: "Wikipedia (en), Art dealer, revision 1370147549. https://en.wikipedia.org/wiki/Art_dealer. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "购买、销售或中介艺术品的职业／经营角色；不把现代经营制度反投到本章。"
@@ -42,6 +67,7 @@ sources:
 - citation: "Getty Research Institute, Art & Architecture Thesaurus, art dealers, ID 300386253. https://www.getty.edu/vow/AATFullDisplay?find=art+dealers&logic=AND&note=&subjectid=300386253. Accessed 2026-09-10."
   location: "完整词条：scope note、英语及德荷语词形、层级、related concepts和来源"
   sentence_summary: "代表艺术家并从事艺术品买卖的个人或法人团体；与art dealerships相关、与gallerists用法重叠，非完全同义。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-art-dealer
 ---
 
 ## 内容
@@ -98,14 +124,10 @@ S6书目列 Titia Hulst 编 *A History of the Western Art Market: A Sourcebook o
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia英文Art dealer](https://en.wikipedia.org/wiki/Art_dealer)与[Wikidata Q173950](https://www.wikidata.org/wiki/Q173950)双向一致；[Getty AAT 300386253](https://vocab.getty.edu/page/aat/300386253)正文已读，支持角色范围。S4–S5保留初步对齐，S6–S8为本次详细补足。
+### 身份与外部链接
 
-**不采纳项：** WP称独立职业“或许”产生于意大利文艺复兴且缺引注，不确定为起源事实；25%–50%现代佣金、市场投资建议、各协会会员制度不当作十七世纪规则；现代名录不自动摄入本章。没有英文原词或行为证据，不把每个“代理”合并为画商。
-
-本卡无正式关系。职业概念可供人物属性引用；具体买卖、委托和代理须使用实际参与者、作品及时间作为关系端点与语境，不能以术语卡代替匿名交易者。未预设Topic或上层发现。
-
-**补足结果：** 已完成全文阅读、词表核对、角色范围与本章用法整理；起源和具体交易者身份仍按个案待证。source_backed不变。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：terms/art-dealer；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+- [Wikipedia英文Art dealer](https://en.wikipedia.org/wiki/Art_dealer)
+- [Wikidata Q173950](https://www.wikidata.org/wiki/Q173950)
+- [Getty AAT 300386253](https://vocab.getty.edu/page/aat/300386253)

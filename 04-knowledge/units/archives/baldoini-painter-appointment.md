@@ -4,7 +4,7 @@ name_en: "Maurice of Savoy’s appointment of Baldoino as his painter"
 type: archive
 sub_type: appointment_record
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"persons/gio-gasparo-baldoini.md","note":"任命文书中的受任人；日期未知。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受任画家","scope":"任为per nostro pittore；文书日期未知"}
@@ -17,12 +17,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 173–175,188–189; print pp. 6
+  original_quotes:
+  - source_span: "lines 173–175"
+    text: |2-
+      an official post varied with the patron; though some princes might create an artist
+      nostro pittore ‘with all the honours, authority, prerogatives, immunities, advantages,
+      rights, rewards, emoluments, exemptions and other benefits accruing to the post’,4
+  - source_span: "lines 188–189"
+    text: |2-
+      4 The appointment of Gio. Gasparo Baldoini ‘per nostro pittore’ by Cardinal Maurizio di Savoia—
+      Baudi di Vesme, 1932, p. 23.
 - citation: "Harvard University, I Tatti, “Library acquisitions, June 2018”, Fine Arts list, Baudi di Vesme entry. https://itatti.harvard.edu/news/library-acquisitions-june-2018. Accessed 2026-09-11."
   location: "Fine Arts（LC Class N）中的完整书目条目；网页检索返回的条目文本；未读1932年著作正文"
   sentence_summary: "登记Alessandro Baudi di Vesme的L’arte negli Stati Sabaudi，1932年都灵出版，Società piemontese di archeologia e belle arti，Fratelli Bocca经销；只支持引文载体书目信息。"
 - citation: "Luc Thevenon, “Décor et mobilier des cathédrales de Provence orientale aux XVIIe et XVIIIe siècles”, Provence historique, fasc. 259 (2016). https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf. Accessed 2026-09-11."
   location: "印刷页31–32及注30–33；PDF页7–8（索引从0起）；另读题页与摘要，非全文论文阅读"
   sentence_summary: "Giovanni-Gaspare Baldoino／Baudoin，尼斯约1590–1669，父Gio-Ludovico，子Bernardin；1622起可追踪活动，1640起受Maurice de Savoie保护，兼从事绘画和工程。该年不等于任命文书签署年。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-baldoini-painter-appointment
 ---
 
 ## 内容
@@ -62,8 +73,3 @@ sources:
 |---|---|---|
 | → 所涉对象（`has_subject`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
 | → 由其发布（`issued_by`） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](../persons/maurizio-di-savoia.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
-
-正式关系把[巴尔多伊诺](../persons/gio-gasparo-baldoini.md)登记为文书 `has_subject` 的受任画家，把[毛里齐奥](../persons/maurizio-di-savoia.md)登记为文书的 `issued_by` 任命者；两条均保留签署日期未知的限制。
-| 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1；语义导航 |
-
-无确认Wikipedia／Wikidata对象；不借出版物作者或受任人的QID。S1章内位置为p.6、OCR L173–175、188–189；S2为馆藏书目范围，S3为人物对应研究。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留阅读范围。已保存书目与身份补足，原件待证，evidence_status仍为source_backed。

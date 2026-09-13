@@ -3,7 +3,7 @@ title: "定金（Caparra）"
 name_en: "Caparra"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -13,6 +13,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 478–485,503–508; print pp. 13
+  original_quotes:
+  - source_span: "lines 478–485"
+    text: |2-
+      The final clause in any contract naturally referred to the price and financial arrange­
+      ments. Certain formulas were always adhered to. Some proportion of the sum agreed
+      was paid at once as a deposit. This ranged widely from a minimum of about one-seventh
+      to a maximum of nearly a half. If the work was a picture, the artist was very often
+      given a further payment when it was half finished and the remainder on completion,
+      together with a final bonus. And, of course, there were many variations possible in this
+      treatment. In the case of large-scale frescoes, the artist was usually paid at a regular
+      monthly rate.1
+  - source_span: "lines 503–508"
+    text: |2-
+      1 Many examples of different kinds of payment could be given bere. In 1639 Francesco Albani was
+      given an exceptionally high proportion of the total sum as caparra—450 out of a 1000 lire (Gualandi, I,
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+      who was given 50 scudi as caparra and promised 180 more on completion of an altarpiece in Cortona for
+      Annibale Laparclli (Gualandi, IV, p. 117).
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
   location: 第一章；印刷页 14；OCR L541–552
   sentence_summary: 画家报价与议价影响委托，不把比例视为法律。
@@ -20,6 +39,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 541–552; print pp. 14
+  original_quotes:
+  - source_span: "lines 541–552"
+    text: |2-
+      cratic largesse was the relic of an earlier age and already in decline. Painting was far
+      more commercialised than these rare instances suggest. ‘If His Highness wants to be
+      served well and quickly,’ wrote the Mantuan agent in Rome to a ducal chancellor, ‘he
+      must, indeed it is indispensable that he should, send some money here to give as a
+      deposit to these painters. They have let it be clearly understood that they will only work
+      for those who give them money [in advance]; otherwise it will be quite impossible to
+      get anything good from them.’5 And against the example of a Claude we must record
+      the uncompromising rigidity with which Guercino enforced his own practice of
+      charging a certain sum for every figure painted: ‘As my ordinary price for each figure
+      is 125 ducats,’ he wrote to one of his most enthusiastic patrons, ‘and as Your Excellency
+      has restricted Yourself to 80 ducats, you will have just a bit more than half of one
+      figure.’6
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 22, 23.'
   location: 第一章；印刷页 22, 23；OCR L927–947,952–958
   sentence_summary: Rosa 明言拒预付以免承诺束缚，属惯例例外。
@@ -27,6 +61,39 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 927–947,952–958; print pp. 22, 23
+  original_quotes:
+  - source_span: "lines 927–947"
+    text: |2-
+      But Salvator Rosa was engaged in a yet more serious battle. He, alone among his
+      contemporaries, was asserting the right of the painter to artistic independence as the
+      term might be understood today. That he was launching a revolution purely to demon­
+      strate his conformity with the critical canons of his age is a paradox that will have to
+      be considered in a later chapter, but that does not affect the motivation and efficacy
+      of his tactics. We learn for instance that he would refuse to accept the deposit which, as
+      we have seen, was universally given to painters as a guarantee of the commission. And
+      we are specifically told that he refused it not so as to get a better offer later on but
+      because he did not want to ‘enslave his will’ by committing himself to complete one
+      work when he might have another more interesting one in mind which would have
+      to be postponed because of his previous obligations. ‘I do not paint to enrich myself,’
+      he boastfully wrote to a would-be patron, ‘but purely for my own satisfaction. I must
+      allow myself to be carried away by the transports of enthusiasm and use my brushes
+      only when I feel myself rapt’1—an astonishingly early claim of the painter’s complete
+      dependence on inspiration. In any case, he used to assert, it was no use settling the price
+      of a picture before he had even begun it. The price should depend on the quality of the
+      finished work. This blow for the vagaries of talent struck at the very roots of the
+      1 See the letter from Salvator Rosa to Don Antonio Ruffo, dated I April 1666, published by V.
+      Russo, p. 180: '. . . perch’io non dipingo per arrichire mà solamente per propria sodisfazione, è forza il
+      lasciarmi trasportare da gl’impeti dell’entusiasmo ed esercitare i pennelli solamente in quel tempo che me
+      ne sento violentato. . . .'
+  - source_span: "lines 952–958"
+    text: |2-
+      generally held conception, the implications of which have already been examined, that
+      an artist’s capabilities could be assessed in advance. By implying that a painter might
+      well paint a bad picture rather than a good one Salvator Rosa was paradoxically
+      making far greater claims for the superior status of art than any of his rivals who so
+      assiduously cultivated respectable table manners. He insisted on giving only of his best.
+      ‘From the little I have had to do with him’, wrote an agent, ‘I can see that he would
+      rather starve to death than let the quality of his produce fall in reputation.’1
 - citation: "Wikipedia (it), Caparra, revision 137490065. https://it.wikipedia.org/wiki/Caparra. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "英文是地名消歧义页；意大利语 Q699604 解释现代民法担保金，本章可能兼指预付款，历史合同功能未核前不照搬现代法律定义。"
@@ -45,6 +112,7 @@ sources:
 - citation: "National Gallery of Art, Italian Paintings of the Seventeenth and Eighteenth Centuries, Guercino entries, pp.163,167–169. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/italian-paintings-17th-and-18th-centuries.pdf. Accessed 2026-09-11."
   location: "PDF页索引181、185–187；正文及注5–13完整读取，账簿原件未读"
   sentence_summary: "1649预付款、两半身人物、付款金额涂改及同题移转；1653中介担保免预付款的书信转述。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-caparra
 ---
 
 ## 内容
@@ -80,8 +148,4 @@ NGA目录刊引Guercino账簿1649年预付款及随后结算，涉及两半身�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-[Wikipedia（it）：Caparra](https://it.wikipedia.org/wiki/Caparra) ↔ [Q699604](https://www.wikidata.org/wiki/Q699604)为候选双向配对，历史范围仍待证。全文7490字符、Treccani词条及NGA指定段落已读；没有读账簿MS.B.331原件和1653信原件。
-
-[付款程序](../procedures/commission-payment.md)与[按人物计价](../procedures/per-figure-pricing.md)为导航，无新增正式关系。S1–S3的章页、行号和摘要完整保留；约定、付款令、实收与余额分别记证据，source_backed不变。
+暂无正式关系。

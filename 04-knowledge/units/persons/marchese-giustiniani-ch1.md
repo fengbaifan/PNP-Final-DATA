@@ -3,7 +3,7 @@ title: "文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）"
 name_en: "Vincenzo Giustiniani"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 349–353; print pp. 10
+  original_quotes:
+  - source_span: "lines 349–353"
+    text: |2-
+      very beginning of the century the Marchese Giustiniani, whose taste is discussed in a
+      later chapter, was such a wholehearted admirer of Caravaggio that, when an altarpiece
+      by that artist had been rejected as unsuitable for its intended location, he acquired it for
+      his gallery and hung it among a series of pictures which had been assembled far more
+      for their affinities of style than for any consistency of subject-matter.2 And some ninety
 - citation: "Wikipedia (en), Vincenzo Giustiniani, revision 1351118322. https://en.wikipedia.org/wiki/Vincenzo_Giustiniani. Accessed 2026-09-11."
   location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
   sentence_summary: "希俄斯1564生、罗马1637卒的银行家收藏家，哥哥Benedetto；收藏和雕塑版画图录；与本章退画购买者语境对应。"
@@ -25,6 +33,7 @@ sources:
 - citation: "Staatliche Museen zu Berlin, Gemäldegalerie, Der Evangelist Matthäus, Ident. 365, ObjID 870411. https://id.smb.museum/object/870411. Record updated 2025-12-15; accessed 2026-09-11."
   location: "对象字段及对象说明全文；页面其余推荐藏品不属于此对象"
   sentence_summary: "1602 年前后 Contarelli 礼拜堂退画，由 Vincenzo Giustiniani 收购，1815 年随藏品入柏林；馆记223×183厘米，战后失踪且推测1945年毁于弗里德里希斯海因防空塔。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-marchese-giustiniani-ch1
 ---
 
 ## 内容
@@ -85,20 +94,14 @@ sources:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [《爱神战胜一切》（Amor Vincit Omnia）](../works/caravaggio-amor-vincit-omnia.md) | 来源明确该端点承担Amor Vincit Omnia的委托角色；不由委托推定当前所有权；时间：1601–1602；角色：委托人／委托机构；范围：为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。；原断言与证据见发出端卡片“《爱神战胜一切》（Amor Vincit Omnia）”：[来源](https://id.smb.museum/object/862322)；commissioned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参委托／历史段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [《爱神战胜一切》（Amor Vincit Omnia）](../works/caravaggio-amor-vincit-omnia.md) | 来源支持该端点在所列时期收藏或拥有Amor Vincit Omnia；不等于当前保管；时间：1602后至1812；角色：朱斯蒂尼亚尼收藏；范围：为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。；原断言与证据见发出端卡片“《爱神战胜一切》（Amor Vincit Omnia）”：[来源](https://id.smb.museum/object/862322)；owned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参流传段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [《橄榄山上的基督》（Christ on the Mount of Olives）](../works/caravaggio-christ-mount-olives.md) | 来源支持该端点在所列时期收藏或拥有Christ on the Mount of Olives；不等于当前保管；时间：17世纪至1812；角色：朱斯蒂尼亚尼收藏；范围：朱斯蒂尼亚尼收藏记录支持对象同一性，但作者真实性有争议；不建立确定创作者边。；原断言与证据见发出端卡片“《橄榄山上的基督》（Christ on the Mount of Olives）”：[来源](https://en.wikipedia.org/wiki/Christ_on_the_Mount_of_Olives_(Caravaggio))；owned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参流传段 |
 | ← 购入者（`acquirer_of`，反向投影） | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人；时间：约1602后；角色：退画购入者；范围：购入第一版；不是初始委托人；原断言与证据见发出端卡片“《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）”：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+| ← 委托者（`commissioner_of`，反向投影） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](../works/caravaggio-incredulity-thomas-sanssouci.md) | 来源明确该端点承担The Incredulity of Saint Thomas (Sanssouci version)的委托角色；不由委托推定当前所有权；时间：约1601–1602；角色：委托人／委托机构；范围：与页面所称私人收藏“教会版本”分开。；原断言与证据见发出端卡片“《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）”：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；commissioned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参委托／历史段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [《菲利德·梅兰德罗尼肖像》（Portrait of Fillide Melandroni）](../works/caravaggio-portrait-fillide.md) | 来源支持该端点在所列时期收藏或拥有Portrait of Fillide Melandroni；不等于当前保管；时间：1638年前至1812；角色：朱斯蒂尼亚尼收藏；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；原断言与证据见发出端卡片“《菲利德·梅兰德罗尼肖像》（Portrait of Fillide Melandroni）”：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；owned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参流传段 |
 
-### 身份与阅读
+### 身份与外部链接
 
-[Wikipedia：Vincenzo Giustiniani](https://en.wikipedia.org/wiki/Vincenzo_Giustiniani) ↔ [Wikidata Q1396468](https://www.wikidata.org/wiki/Q1396468) 双向一致。银行家、侯爵、年代、艺术收藏及S5明确收购链共同支持本章人物，本轮由未配对转为身份配对通过；不改整卡source_backed。
-
-S2英文全文4402字符已读；S3适用字段及标签已核；S4按所列范围阅读，未读完后半部分音乐论与全部参考书目；S5对象记录已读。
-
-### 关系与导航
-
-[购藏的《圣马太与天使》](../works/caravaggio-giustiniani-rejected-altarpiece.md)及[卡拉瓦乔](caravaggio.md)为本章关联对象。购藏事实由作品卡发出并在本卡反向显示；不复制一条人物出边，也不把兄长或其他亲缘名字自动登记为新KU。
-
-### 未决
-
-爵号起始已获DBI支持，养子全名、各藏品由兄弟哪一方购入及文书原件仍待核。家族财务、艺术论述与本人的著述责任按来源分别记录；S1原简称证据保留，规范显示现采用全名。
-
-S编号按文件头顺序；原章页／行号及句意摘要保留。判断过程见[knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-052。
+- [Wikipedia：Vincenzo Giustiniani](https://en.wikipedia.org/wiki/Vincenzo_Giustiniani)
+- [Wikidata Q1396468](https://www.wikidata.org/wiki/Q1396468)

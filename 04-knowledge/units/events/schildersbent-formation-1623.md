@@ -3,7 +3,7 @@ title: "画家帮成立（1623）（Formation of the Schildersbent (1623)）"
 name_en: "Formation of the Schildersbent (1623)"
 type: event
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"institutions/schildersbent.md","note":"此事件记录该组织形成，不把组织与事件合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 819–823; print pp. 20"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1623","role":"形成中的艺术家组织","scope":"事件与组织对象保持区分"}
@@ -16,12 +16,31 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 819–833; print pp. 20
+  original_quotes:
+  - source_span: "lines 819–833"
+    text: |2-
+      On a higher level, but not very edifying, were the antics of the bentveughels, the
+      colony of Dutch and Flemish artists living in Rome. The Schildersbent, a sort of mutual
+      aid society to protect the interests of Northern artists in the city, was formed in 1623?
+      It thus ran parallel to similar efforts made by the Italian artists to organise the Accademia
+      di S. Luca at just the same time. But the very name of the society—‘birds of a feather’—
+      and the absence of statutes or fixed leadership point to the differences in standing between
+      the two organisations. This did not stop the bentveughels (largely through influential
+      support) from successfully resisting the Accademia’s attempt to impose a tax on all
+      artists, including foreigners, living in Rome. Most of these Northerners lived in the
+      district around the Via Margutta near the Piazza di Spagna, and their activities inaugur­
+      ated a ‘Bohemian’ tradition which survives in the area to this day. They indulged in
+      lavish banquets, mock ceremonials and pagan ‘baptisms’ and often attracted the atten­
+      tions of the police. All this must have been fairly repugnant to the respectable artists of
+      official Rome, but it did not stop the most characteristic of the bentveughels, Pieter Van
+      Laer, from being a member of the Accademia di S. Luca.3
 - citation: "Wikipedia (en), Bentvueghels, revision 1372100851. https://en.wikipedia.org/wiki/Bentvueghels. Accessed 2026-09-11."
   location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
   sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
 - citation: "The Phoebus Foundation, “The Bentvueghels”. https://phoebusfoundation.org/en/agenda/the-bentvueghels/ Accessed 2026-09-11."
   location: "2023年Centraal Museum展览介绍及Jan Miel图注全文"
   sentence_summary: "17世纪早期罗马北方艺术家团体；借展说明不代替历史成员名录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-schildersbent-formation-1623
 ---
 
 ## 内容
@@ -59,7 +78,3 @@ sources:
 |---|---|---|
 | → 参与者（`has_participant`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
 | → 发生于（`occurred_at`） | [罗马（Rome）](../places/rome.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
-
-S1：第一章，印刷页20，OCR L819–833及既有PDF回读。S2：Bentvueghels英文页全文。S3：Phoebus Foundation2023展览介绍全文；不是历史成立文书。
-
-本次维持机构与罗马两条正式关系，并把1623明确限定为第一章日期；约1620等外部异文未消除。创始成员、具体地点及原引研究仍待核。状态维持 source_backed。

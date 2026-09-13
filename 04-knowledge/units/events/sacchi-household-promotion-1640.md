@@ -3,7 +3,7 @@ title: "萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in t
 name_en: "Sacchi's Promotion in the Barberini Household (1640)"
 type: event
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"persons/andrea-sacchi.md","note":"1640 年晋级事件的画家主体。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 195–198; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1640","role":"晋级的画家","scope":"Antonio Barberini家户薪俸等级晋升"}
@@ -16,6 +16,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 195–198; print pp. 7
+  original_quotes:
+  - source_span: "lines 195–198"
+    text: |2-
+      the artist might move on promotion. Thus from 1637 to 1640 Andrea Sacchi was placed
+      in Cardinal Antonio Barberini’s household among three slaves, a gardener, a dwarf
+      and an old nurse; in the latter year he was moved up to the highest category of pen­
+      sioners with writers, poets and secretaries.1
 - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed., ch. 1, p.7 note 1; bibliography, Incisa della Rocchetta (1924)."
   location: "第一章02-sources/02-Markdown/01_CHP-1.md，OCR L229；书目02-sources/02-Markdown/21_CHP-21Bibliography.md，OCR L629"
   sentence_summary: "家户等级叙述指向Giovanni Incisa della Rocchetta, Notizie inedite su Andrea Sacchi, L’Arte (1924), pp.60–76，所引p.70。本轮未读p.70原页。"
@@ -28,6 +35,7 @@ sources:
 - citation: "Sapienza Università di Roma doctoral chronology indexed as CORE record 195777274."
   location: "检索索引所返1637年条目；原PDF链接404，未读全文"
   sentence_summary: "索引转录BAV Arch. Barberini III, 9, n. XIV及1637年1月家户名单，支持低等级阶段的档案入口；不支持1640晋级细节。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-sacchi-household-promotion-1640
 ---
 
 ## 内容
@@ -61,6 +69,3 @@ sources:
 |---|---|---|
 | → 参与者（`has_participant`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 1640 年晋级事件的画家主体；时间：1640；角色：晋级的画家；范围：Antonio Barberini家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
 | → 参与者（`has_participant`） | [安东尼奥·巴贝里尼（Antonio Barberini）](../persons/antonio-barberini.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
-- 既有正式端点：[萨基](../persons/andrea-sacchi.md)、[小安东尼奥·巴贝里尼](../persons/antonio-barberini.md)，2条边原样保留；[家户语境](../institutions/barberini-household.md)是阅读入口。
-- S1为章页、行号与句子摘要；S2为本书注释／书目定位；S3为身份背景；S4为文章元数据；S5为可检索但原文失效的档案转录入口。没有用一般家户理论代替个案证据。
-- 本次已完成可达来源的检索、低等级档案入口补足和失败记录，**作为有明确未决结论的补足处置收口**；这不等于1640晋级获得独立外证。事件仍无Wiki配对，参与者QID不能替代事件QID。

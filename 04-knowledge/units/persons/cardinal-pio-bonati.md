@@ -3,7 +3,7 @@ title: "卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）"
 name_en: "Carlo Pio di Savoia"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Carlo Pio di Savoia, revision 1362030305. https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Carlo Pio di Savoia（1622–1689）；Bonati 英文页的具名保护人与旅行线索支持该配对，区别叔辈 Carlo Emanuele。"
@@ -37,6 +42,7 @@ sources:
 - citation: "BONATTI, Giovanni, detto Giovannino del Pio o il Ferraresino, Dizionario Biografico degli Italiani 11 (1969),署名**. https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "传记全文7972字符中保护人、训练、六城旅行及收藏段"
   sentence_summary: "明确Carlo Pio junior保护Bonatti；旅行次序与时长有传记分歧，不能借保护身份消除。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-cardinal-pio-bonati
 ---
 
 ## 内容
@@ -98,8 +104,7 @@ sources:
 |---|---|---|
 | ← 赞助者／保护人（`patron_of`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](giovanni-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
-**S1：第一章，印刷页6，OCR L186–187。** 句意为皮奥枢机出资支持博纳蒂六城学习旅行；本章本身没有完整姓名。S2–S4初步配对，S9专业传记的junior与人物训练情节提供补充消歧依据。
+### 身份与外部链接
 
-[Wikipedia](https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia)与[Wikidata Q2939240](https://www.wikidata.org/wiki/Q2939240)维持已核双向配对，完整姓名称谓不再仅靠本章推出。本卡暂无发出的正式关系；博纳蒂卡已有指向本卡的关系，本轮不另造反向事实。
-
-各来源按元数据S1–S9编号。未决项包括早期军旅、学业和收藏逐件归属；详细内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/cardinal-pio-bonati定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia)
+- [Wikidata Q2939240](https://www.wikidata.org/wiki/Q2939240)

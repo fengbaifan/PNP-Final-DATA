@@ -3,7 +3,7 @@ title: "兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfr
 name_en: "Lanfranco's Request for the Pope Leo and Attila Commission (1640)"
 type: event
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"persons/giovanni-lanfranco.md","note":"申请人为 Lanfranco；只证明提出申请。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 408–425; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1640-07-14","role":"申请人","scope":"提出圣彼得祭坛画申请；未获委托"}
@@ -18,12 +18,34 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 408–425; print pp. 11
+  original_quotes:
+  - source_span: "lines 408–425"
+    text: |2-
+      presumably drawings would have been necessary); when Lanfranco wrote in 1640 to
+      Cardinal Barberini asking to be given the chance to paint the altar picture of Pope Leo
+      and Attila, he specially mentioned that he would arrange for the Cardinal to see ‘in tela
+      il disegno’, but he explained that he was doing this to illustrate the difficulties of the
+      composition, and in any case the suggestion came from him and not from his patron.6
+      None of the Bolognese artists working in Rome is known to have produced a
+      modello, and no certain examples survive even from such a great decorator as Pietro da
+      1 Letter from the Savoy Resident in Rome, Onorato Gini, in 1666, summarised bv Claretta, 1885,
+      p. 516: ‘ma prima patco apposto dal Cortona era ch’egli non voleva indursi a far ver una proposta [as
+      regards subject], allegando chc non avevane fatta alcuna in tutta la vita e che “questo sarebbe un non mai
+      volere il quadro” ’.
+      2 Pascoli, I, p. 84.
+      3 Costello, p. 278.
+      4 The contract has been published by Friedlaender, p. 302.
+      5 See later, Chapter 3, p. 70, note 2.
+      8 Pollak, 1913, p. 26. Letter from Lanfranco in Naples dated 14 July 1640. ‘In tela il disegno’ must
+      certainly mean that the general composition would be sketched in on the canvas. We know that this was
+      a regular practice of Lanfranco’s—Costello, p. 274.
 - citation: "Erich Schleier, LANFRANCO, Giovanni, Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "1640-07-14请求段全文及相关书目；传记其他相关生平段此前已读"
   sentence_summary: "传记确认收件人为主持Fabbrica会众的Francesco Barberini、目标为圣彼得大殿圣良祭坛画、Lanfranco作过若干钢笔稿且未获委托。"
 - citation: "Oskar Pollak, Die Kunsttätigkeit unter Urban VIII, vol. II, Die Peterskirche in Rom (Vienna, 1931), p. 26."
   location: "由第一章注释核得书目与页码；原页未读"
   sentence_summary: "1640-07-14那不勒斯来信的引文入口，不作为第二份已读证据。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-lanfranco-leo-attila-request-1640
 ---
 
 ## 内容
@@ -53,15 +75,6 @@ sources:
 
 1646年后Fabbrica把同题任务交给Alessandro Algardi并形成1646—1653年的大理石浮雕，这属于后续不同委托、媒介和作者。本卡不把该浮雕建立为Lanfranco作品，也不以其完成反推1640申请已批准。
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -71,11 +84,3 @@ sources:
 | → 发生于（`occurred_at`） | [那不勒斯（Naples）](../places/naples.md) | 1640-07-14 申请信自 Naples 发出；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 420–425; print pp. 11 |
 | → 参与者（`has_participant`） | [弗朗切斯科·巴贝里尼（Francesco Barberini）](../persons/francesco-barberini.md) | DBI确认1640年申请的受文与请求对象为主持圣彼得工程会议的弗朗切斯科·巴贝里尼；申请未获委托；时间：1640-07-14；角色：受文与请求对象；范围：主持圣彼得工程会议；申请未获委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
 | → 参与者（`has_participant`） | [圣彼得营造管理机构（Fabbrica di S. Pietro）](../institutions/fabbrica-di-san-pietro.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
-
-S1为第一章章页／行号；S2为DBI传记相关段；S3仅为第一章注释所指未读原页。本次接收弗朗切斯科·巴贝里尼与圣彼得工程管理机构两个端点；圣彼得大殿是申请对象所在建筑，并非本事件的发生地，故不另写 `occurred_at`。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-### 对齐与未决项
-
-该申请事件无独立Wikipedia—Wikidata对象，人物和后来的Algardi作品QID都不能代替事件身份。原信全文、钢笔稿现藏与数量、画布方案是否实际制作、评审过程及不授予理由仍待Pollak原页、Fabbrica档案与素描目录。

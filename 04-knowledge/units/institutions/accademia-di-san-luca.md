@@ -3,7 +3,7 @@ title: "圣路加学院（Accademia di S. Luca）"
 name_en: "Accademia di S. Luca"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17, 18.'
@@ -13,6 +13,38 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 678–698,717–722; print pp. 17, 18
+  original_quotes:
+  - source_span: "lines 678–698"
+    text: |2-
+      Certainly the winning of a place in society was an overriding preoccupation with
+      artists in the seventeenth century if we are to believe their biographers. It was this
+      motive that inspired their renewed efforts to put their professional association, the
+      Accademia di S. Luca, on a sound footing. This body had suffered several generations
+      of almost continuous decline after Federigo Zuccari’s well-meant, but not very
+      successful, attempts to bring it to life in 1593 and 1594.4 Every time a new pope came
+      to the throne attempts were made to improve the status of the institution and encourage
+      discrimination between serious artists and mechanical craftsmen. The popes were lavish
+      ' with magniloquent gestures: ‘Painting is a most noble profession, quite different from
+      the mechanical crafts’, recognised the clerk of the Apostolic Chamber in 1601, and in
+      1605 Paul V granted the Accademia the annual right on the feast of St Luke to free one
+      man condemned to death. These were steps in the right direction, but hardly decisive
+      ones. Gregory XV was encouraging, and in 1621 he confirmed the statutes of the
+      Accademia, but he died before he could do anything else. It was left to Urban VIII to
+      establish its absolute authority in the art world of Rome and finally crush any oppo­
+      sition from the gilds.5 Fully as important as any legal decision in the matter was the
+      moral support given to the Accademia by the appointment of the Pope’s nephew,
+      Cardinal Francesco Barberini, as its protector, despite the fact that the Cardinal some­
+      times declined to take its side in subsequent disputes.6 In 1633 the Accademia was given
+      the right to raise taxes on all the artists in Rome, whether or not they belonged to it,
+      as well as on picture dealers and others living on the fringes of the art world. All public
+  - source_span: "lines 717–722"
+    text: |2-
+      commissions were to be the monopoly of the Accademia. The measures aroused furious
+      opposition and were never fully enforced. Eventually they had to be withdrawn. But
+      they served their purpose of giving new dignity to established artists. Indeed, quite
+      apart from the financial benefits that accrued from Urban VIII’s brief, this was certainly
+      one of their aims, for in all their complaints the Academicians showed an unresting
+      concern for their own social status.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L723–736
   sentence_summary: 早期会员不限历史画家；1645 后镀金工转为次等会员，晚期教条不能倒推早期。
@@ -20,6 +52,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 723–736; print pp. 18
+  original_quotes:
+  - source_span: "lines 723–736"
+    text: |2-
+      Yet it is interesting that within the Accademia itself there was not nearly as much
+      rigidity as might be expected, or as became the practice in later academies founded on
+      roughly the same lines. Thus membership was by no means confined to ‘history pain­
+      ters’, and artists whose subject-matter was considered thoroughly objectionable had
+      no difficulty in being admitted.1 Moreover, even near craftsmen, such as gilders, seem
+      to have belonged at first and did not become second-class members until 1645.2 Indeed,
+      it was only_later, in the second half of the seventeenth century, largely under the
+      influence of the French, that the Academy became an inflexible body closely associated
+      with a specific doctrine. The aim of its founders and early supporters had been very
+      different. In an age which revelled in such organisations the Accademia gave respect­
+      ability to the artists who belonged to it and hence to art itself. It emphasised the intel­
+      lectual aspects of creation somewhat at the expense of the mechanical. It enjoyed a
+      prominent position in the life of Rome and played some part in bringing together
+      artists, dilettantes and critics.3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L753–754
   sentence_summary: Van Laer 与 Cerquozzi 为学院会员。
@@ -27,6 +76,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 753–754; print pp. 18
+  original_quotes:
+  - source_span: "lines 753–754"
+    text: |2-
+      1 Both Pieter van Laer and Cerquozzi (for whom see Chapter 5) were members—see the list pub­
+      lished by Hoogewerff, 1913, pp. 49-50.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L819–833
   sentence_summary: 画家帮反对学院征税，但群体成员与学院会员可重叠。
@@ -34,6 +88,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 819–833; print pp. 20
+  original_quotes:
+  - source_span: "lines 819–833"
+    text: |2-
+      On a higher level, but not very edifying, were the antics of the bentveughels, the
+      colony of Dutch and Flemish artists living in Rome. The Schildersbent, a sort of mutual
+      aid society to protect the interests of Northern artists in the city, was formed in 1623?
+      It thus ran parallel to similar efforts made by the Italian artists to organise the Accademia
+      di S. Luca at just the same time. But the very name of the society—‘birds of a feather’—
+      and the absence of statutes or fixed leadership point to the differences in standing between
+      the two organisations. This did not stop the bentveughels (largely through influential
+      support) from successfully resisting the Accademia’s attempt to impose a tax on all
+      artists, including foreigners, living in Rome. Most of these Northerners lived in the
+      district around the Via Margutta near the Piazza di Spagna, and their activities inaugur­
+      ated a ‘Bohemian’ tradition which survives in the area to this day. They indulged in
+      lavish banquets, mock ceremonials and pagan ‘baptisms’ and often attracted the atten­
+      tions of the police. All this must have been fairly repugnant to the respectable artists of
+      official Rome, but it did not stop the most characteristic of the bentveughels, Pieter Van
+      Laer, from being a member of the Accademia di S. Luca.3
 - citation: "Wikipedia (en), Accademia di San Luca, revision 1364875798. https://en.wikipedia.org/wiki/Accademia_di_San_Luca. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马艺术家学院，英文页明确 Federico Zuccari 在 1593 年任负责人；不把该年认作唯一创立时间。"
@@ -55,6 +127,7 @@ sources:
 - citation: "Beatrice Ortu and Alessandro Stoppoloni (eds.), Inventario dell’Archivio Accademico (1478–1980), September 2025. https://accademiasanluca.it/api/uploads/10_10_2025_Inventario_archivio_storico_b09e71331b.pdf. Accessed 2026-09-11."
   location: "PDF封面及印刷pp.22–28所列条目；选页阅读"
   sentence_summary: "1606-04-19赦免brief、1633-07-11征税brief、1621与1623章程文书分别登记。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-accademia-di-san-luca
 ---
 
 ## 内容
@@ -129,14 +202,7 @@ sources:
 | ← 包含成员（`contains`，反向投影） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 1634年起任学院负责人；不同来源对任期终点有异文；原断言与证据见发出端卡片“皮耶特罗·达·科尔托纳（Pietro da Cortona）”：[来源](https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html)；icg-cortona；本卡 S9；1634–1636学院负责人段 |
 | ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1702年段 |
 
-### 关系入口
+### 身份与外部链接
 
-本卡尚无自身发出的正式边；以下是已有知识元的导航，具体边以各卡元数据为准：[祖卡里](../persons/federigo-zuccari.md)、[1621章程](../archives/accademia-statutes-confirmed-1621.md)、[1633措施](../events/accademia-tax-privilege-1633.md)。成员共现不自动新增关系。
-
-### 身份与来源
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/Accademia_di_San_Luca) ↔ [Wikidata Q338523](https://www.wikidata.org/wiki/Q338523)双向配对复用。S1–4是第一章章页／行号证据；S5–6为初步对齐，S7–11为本次实际阅读与字段核对，顺序对应元数据。未提升整卡evidence_status。
-
-### 异文与未决项
-
-1605／1606赦免、1763／1768竞赛采用官方资料并保留异文。官网的1593三艺术宗旨与WP所述1634后建筑师准入可能涉及不同制度层面，不据此强行设定所有时期的会员资格。WP负责人表、当代统计和具体会员名册未逐项独立确认，不整表导入；1633及1670征税沿革不能概括成一切征税永久撤销。
+- [Wikipedia（英文）](https://en.wikipedia.org/wiki/Accademia_di_San_Luca)
+- [Wikidata Q338523](https://www.wikidata.org/wiki/Q338523)

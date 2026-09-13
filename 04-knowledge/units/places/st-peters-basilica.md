@@ -3,7 +3,7 @@ title: "圣彼得大殿（St Peter's Basilica）"
 name_en: "St Peter's Basilica"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 5.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 28,115–116; print pp. 3, 5
+  original_quotes:
+  - source_span: "lines 28–28"
+    text: |2-
+      St Peter’s, the building and decoration of a vast palace and villa, the establishment of a
+  - source_span: "lines 115–116"
+    text: |2-
+      there were the churches. The most important was naturally St Peter’s, whose decoration
+      was under the direct supervision of the Pope, but there were many others which were
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L407–412
   sentence_summary: Lanfranco 申请祭坛画的地点。
@@ -20,6 +28,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 407–412; print pp. 11
+  original_quotes:
+  - source_span: "lines 407–412"
+    text: |2-
+      St Peter’s, it appears not to have been obligatory for artists to produce modelli (though
+      presumably drawings would have been necessary); when Lanfranco wrote in 1640 to
+      Cardinal Barberini asking to be given the chance to paint the altar picture of Pope Leo
+      and Attila, he specially mentioned that he would arrange for the Cardinal to see ‘in tela
+      il disegno’, but he explained that he was doing this to illustrate the difficulties of the
+      composition, and in any case the suggestion came from him and not from his patron.6
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L771–773
   sentence_summary: Ghezzi 获 St Peter’s 圣俸；教堂与 Fabbrica 管理机构分开。
@@ -27,6 +44,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 771–773; print pp. 19
+  original_quotes:
+  - source_span: "lines 771–773"
+    text: |2-
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
 - citation: "Wikipedia (en), St. Peter's Basilica, revision 1371508958. https://en.wikipedia.org/wiki/St._Peter's_Basilica. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "现圣彼得大殿建筑；不采用旧圣彼得大殿或 Fabbrica 机构身份。"
@@ -48,6 +71,7 @@ sources:
 - citation: "Musei Capitolini, Burial of Saint Petronilla, Inv. PC 140. https://www.museicapitolini.org/en/opera/seppellimento-di-santa-petronilla. Accessed 2026-09-10."
   location: "对象字段与 Origin 流传记录；未读所有相关作品"
   sentence_summary: "Guercino 1621–1623 年原油画的当前收藏与流传，排除将原画仍列为圣彼得大殿现藏的表述。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-st-peters-basilica
 ---
 
 ## 内容
@@ -112,14 +136,12 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 预定地点（`intended_site_of`，反向投影） | [《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）](../works/caravaggio-madonna-palafrenieri.md) | Madonna and Child with Saint Anne (Madonna dei Palafrenieri)原定用于该建筑或礼拜堂；时间：1605–1606；角色：原定安置地点；范围：原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。；原断言与证据见发出端卡片“《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)；intended-for-places-st-peters-basilica-md；本卡S2；有S4时并参原定安置段 |
 
-[Wikidata Q12512](https://www.wikidata.org/wiki/Q12512) · [Wikipedia（en）](https://en.wikipedia.org/wiki/St._Peter's_Basilica) · [大殿官网](https://www.basilicasanpietro.va/en/san-pietro/the-basilica)。复用 REV-034 双向配对；本轮 WP 全文已读，外部史实按 S6–10 分列；整卡仍为 source_backed。
+### 身份与外部链接
 
-本卡无正式出边。关联导航：[Fabbrica 管理机构](../institutions/fabbrica-di-san-pietro.md)、[兰弗兰科](../persons/giovanni-lanfranco.md)、[朱塞佩·盖齐](../persons/giuseppe-ghezzi.md)、[罗马](rome.md)。相关已存在的反向关系以原卡为准，正文链接不另造事实边。
-
-S1：第一章 pp.3、5，OCR L28、115–116，大殿完成与教皇直接监督装饰；此处没有将后文其他教堂的安葬用途归给大殿。S2：p.11，L407–412，申请和自愿展示设计稿。S3：p.19，L771–773，Ghezzi 获圣俸，区别建筑与管理机构。S4–5 为初步对齐，S6–10 为本轮补足。
-
-**未决与排除：** 历史产权、完整工程职务、圣俸原授予及各件作品迁移仍待档案。WP 中 1615／1626 应按使用与祝圣区分；Maderno 1602 年任命不可无核验归给 1605 年才即位的保禄五世。圣体小堂 1664／1676、若干尺寸和钟的年代有内文差异，未导入确定字段。百科与官网也可能有建筑师生卒误植，不用于补人物。Thorvaldsens Museum D473 页访问 403、数字大殿页面超时；不采用其未读正文或假称完成原件核对。
-
-[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+- [Wikidata Q12512](https://www.wikidata.org/wiki/Q12512)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/St._Peter's_Basilica)
+- [大殿官网](https://www.basilicasanpietro.va/en/san-pietro/the-basilica)

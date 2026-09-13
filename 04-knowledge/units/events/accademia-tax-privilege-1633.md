@@ -3,7 +3,7 @@ title: "圣路加学院征税及公共委托措施（1633）（Taxation and Publ
 name_en: "Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)"
 type: event
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"institutions/accademia-di-san-luca.md","note":"学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 678–722; print pp. 17–18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"拟议征税及公共委托排他措施的受益机构","scope":"措施未全面施行并撤回"}
@@ -16,12 +16,27 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 696–698,717–722; print pp. 17, 18
+  original_quotes:
+  - source_span: "lines 696–698"
+    text: |2-
+      times declined to take its side in subsequent disputes.6 In 1633 the Accademia was given
+      the right to raise taxes on all the artists in Rome, whether or not they belonged to it,
+      as well as on picture dealers and others living on the fringes of the art world. All public
+  - source_span: "lines 717–722"
+    text: |2-
+      commissions were to be the monopoly of the Accademia. The measures aroused furious
+      opposition and were never fully enforced. Eventually they had to be withdrawn. But
+      they served their purpose of giving new dignity to established artists. Indeed, quite
+      apart from the financial benefits that accrued from Urban VIII’s brief, this was certainly
+      one of their aims, for in all their complaints the Academicians showed an unresting
+      concern for their own social status.
 - citation: "Beatrice Ortu and Alessandro Stoppoloni (eds.), Inventario dell’Archivio Accademico (1478–1980), September 2025. https://accademiasanluca.it/api/uploads/10_10_2025_Inventario_archivio_storico_b09e71331b.pdf. Accessed 2026-09-11."
   location: "印刷pp.23–24：1.1.6、1.1.8；目录选页，未读brief正文"
   sentence_summary: "1633-07-11 Urban VIII羊皮纸brief规定相关艺术从业者为圣路加教堂纳税；1670另文重新规定税额，不能说所有税务永久撤销。"
 - citation: "Wikipedia (en), Accademia di San Luca, revision 1364875798. https://en.wikipedia.org/wiki/Accademia_di_San_Luca. Accessed 2026-09-11."
   location: "学院对象页全文；事件仅相关段，不是独立事件页"
   sentence_summary: "征税与公共委托段引用Haskell，保留引文链，不能视作独立支持。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-accademia-tax-privilege-1633
 ---
 
 ## 内容
@@ -60,14 +75,3 @@ sources:
 |---|---|---|
 | → 参与者（`has_participant`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回；时间：1633；角色：拟议征税及公共委托排他措施的受益机构；范围：措施未全面施行并撤回；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 678–722; print pp. 17–18 |
 | → 参与者（`has_participant`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–722; print pp. 17–18 |
-
-### 正式关系入口
-
-- `has_participant` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为拟议措施的受益机构。
-- `has_participant` → [乌尔班八世](../persons/urbano-viii.md)，角色限定为措施发生时的教皇与授权权威。
-
-本次复核维持学院与乌尔班八世两条正式关系；教堂细分及撤回范围没有足够端点，不扩写正式边。
-
-### 身份与来源
-
-尚无本事件独立Wiki配对；学院Q338523不是事件QID。S1为第一章印刷pp.17–18、OCR L696–698及717–722；S2为官方目录pp.23–24；S3为已读学院Wikipedia全文。未读1633或1670原brief，法律条文和执行个案仍待核。

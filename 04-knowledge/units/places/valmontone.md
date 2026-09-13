@@ -3,7 +3,7 @@ title: "瓦尔蒙托内（Valmontone）"
 name_en: "Valmontone"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L312–319
   sentence_summary: 四元素与空气方案的所在地。
@@ -20,6 +26,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–319"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
+      Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+      the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
+      apparition of Iris to Turnus.’4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L495–497,505–506,516–519
   sentence_summary: 同一乡间工程的食宿、付款和材料条款。
@@ -27,6 +44,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 495–497,505–506,516–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 495–497"
+    text: |2-
+      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+      treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
+  - source_span: "lines 505–506"
+    text: |2-
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+  - source_span: "lines 516–519"
+    text: |2-
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Wikipedia (en), Valmontone, revision 1346917382. https://en.wikipedia.org/wiki/Valmontone. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马附近 Valmontone 城镇；不是同名宫殿或特定壁画工程。"
@@ -42,6 +75,7 @@ sources:
 - citation: "Comune di Valmontone, «Palazzo Doria Pamphilj», published 2024-01-26, updated 2025-03-26. https://comune.valmontone.rm.it/luogo/palazzo-doria-pamphilj/. Accessed 2026-09-11."
   location: "3988字符宫殿专项页面全文；宫殿史支持城镇营建语境，不代全城历史。"
   sentence_summary: "Camillo1651从Francesco Barberini购封地，1652拆旧堡，1654起新建，Molli与1666起Del Grande分阶段设计；城市规划意图不等于全部实施。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-valmontone
 ---
 
 ## 内容
@@ -91,7 +125,7 @@ sources:
 | ← 所在地（`location_of`，反向投影） | [瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）](pamfili-country-house-valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；原断言与证据见发出端卡片“瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
 | ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 地点为 Valmontone 的乡间宅邸；限书中工程语境；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 
-- 本章参与者：[莫拉](../persons/pier-francesco-mola.md)、[科尔泰塞](../persons/guglielmo-cortese.md)、[卡米洛·潘菲利](../persons/camillo-pamfili.md)。本卡未新增正式边，具体工程关系待集中处理。
-- [Wikipedia英文页](https://en.wikipedia.org/wiki/Valmontone) ↔ [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514)身份配对复用；市镇QID不代宫殿或宫廷机构。
-- S1：第一章第7页L231–233；S2：第9页L312–319；S3：第13页L495–497、505–506、516–519；S4–S5初步身份；S6百科全文；S7WD；S8宫殿官网全文。
-- **未采用及未查：** 百科Barberini1632／Camillo1634的产权年份存在冲突；1651以前完整封地转手链仍待原档。SIUSA记录本轮只取得搜索片段、原页失败，不作为完整档案阅读。现代人口、面积、景点和交通不填充历史工程卡。
+### 身份与外部链接
+
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Valmontone)
+- [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514)

@@ -3,7 +3,7 @@ title: "乌尔班八世（Urban VIII）"
 name_en: "Urban VIII"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patron_of","target":"persons/gian-lorenzo-bernini.md","note":"乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模。","evidence_ref":{"doc_id":"dbi-urban-viii","source_file":"https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/","source_span":"本卡 S7；艺术赞助与圣彼得工程段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"长期赞助人和圣彼得工程委托方","scope":"具体作品责任仍须逐项建模"}
@@ -15,6 +15,29 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 15–34; print pp. 3
+  original_quotes:
+  - source_span: "lines 15–34"
+    text: |2-
+      WHEN Urban. VIII became Pope,’ wrote the art-chronicler Giambattista Passeri,
+      looking back nostalgically from the dog days of the 1670s, ‘it really seemed as if
+      the golden age of painting had returned; for he was a Pope of kindly spirit, breadth of
+      mind and noble inclinations, and his nephews all protected the fine arts. . . f1 In fact,
+      the long pontificate of Urban VIII which began in 1623 marked the climax of a most
+      intensive phase of art patronage rather than the opening of a new era—the sunlit after­
+      noon rather than the dawn. For at least thirty years the austerity and strains of the
+      Counter Reformation had been relaxing under the impact of luxury and enterprise.
+      Intellectual heresy was still stamped out wherever possible: artistic experiments were
+      encouraged as never before or since. The rule of Urban VIII not only led to a vast
+      increase in the amount of patronage, but also to a notable tightening of the reins.
+      Urban’s immediate predecessors, Paul V (1605-1621) and to a lesser extent Gregory
+      XV (1621-1623), had set a pattern which he was content to follow. The completing of
+      St Peter’s, the building and decoration of a vast palace and villa, the establishment of a
+      luxurious family chapel in one of the important Roman churches, the support and
+      enrichment of various religious foundations, the collection by a savoured nephew of a
+      private gallery of pictures and sculpture—this was now the general practice. In it we can
+      see reflected the contrasts,- and sometimes the tensions, between the Pope as a spiritual
+      and temporal ruler and the man as an art lover and head of a proud and ambitious
+      family.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
   location: 第一章；印刷页 4；OCR L71–83
   sentence_summary: Maffeo Barberini 与 Urban VIII 同指，同乡网络须按人物区分。
@@ -22,6 +45,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 71–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 71–83"
+    text: |2-
+      Rome was a symbol rather than a nation. The nobles who formed the papal
+      entourage still thought of themselves far more as Florentines, Bolognese or Venetians
+      than as Romans or Italians; and as the prestige of painting was at its height, it was a
+      matter of some importance for a cardinal to be able to produce several painters of dis­
+      tinction from his native city. We are told that Cardinal Maffeo Barberini (the future
+      Urban VIII) ‘was most anxious to make use of artists from his native Florence’, and
+      that Pope Gregory XV ‘was a Bolognese so there was little chance for anyone from
+      anywhere else. . . .' Ilie artists naturally made the most of their opportunities. In 1621
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L336–338,372–374
   sentence_summary: S. Sebastiano 八人物祭坛画，由收据说明 Camassei。
@@ -29,6 +68,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 336–338,372–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 336–338"
+    text: |2-
+      include. Urban VIII, for instance, commissioned an altarpiece for the church of S.
+      Sebastiano on the Palatine to represent ‘the martyrdom of St Sebastian, with eight
+      figures’ which were evidently left to the discretion of the painter.1
+  - source_span: "lines 372–374"
+    text: |2-
+      1 The artist was Andrea Camassei—see the receipt published by A. Bertolotti (Artisti bolognesi . . .,
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17, 18.'
   location: 第一章；印刷页 17, 18；OCR L691–698,717–722
   sentence_summary: 学院地位、保护人及 1633 措施；后文限定为未充分实行且撤回。
@@ -36,6 +86,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 691–698,717–722; print pp. 17, 18
+  original_quotes:
+  - source_span: "lines 691–698"
+    text: |2-
+      Accademia, but he died before he could do anything else. It was left to Urban VIII to
+      establish its absolute authority in the art world of Rome and finally crush any oppo­
+      sition from the gilds.5 Fully as important as any legal decision in the matter was the
+      moral support given to the Accademia by the appointment of the Pope’s nephew,
+      Cardinal Francesco Barberini, as its protector, despite the fact that the Cardinal some­
+      times declined to take its side in subsequent disputes.6 In 1633 the Accademia was given
+      the right to raise taxes on all the artists in Rome, whether or not they belonged to it,
+      as well as on picture dealers and others living on the fringes of the art world. All public
+  - source_span: "lines 717–722"
+    text: |2-
+      commissions were to be the monopoly of the Accademia. The measures aroused furious
+      opposition and were never fully enforced. Eventually they had to be withdrawn. But
+      they served their purpose of giving new dignity to established artists. Indeed, quite
+      apart from the financial benefits that accrued from Urban VIII’s brief, this was certainly
+      one of their aims, for in all their complaints the Academicians showed an unresting
+      concern for their own social status.
 - citation: "Wikipedia (en), Pope Urban VIII, revision 1362440731. https://en.wikipedia.org/wiki/Pope_Urban_VIII. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Maffeo Barberini／Urban VIII，1623–1644 年在位教皇；保留本章赞助史解释范围。"
@@ -57,6 +126,7 @@ sources:
 - citation: "Pietro Zander, The Cathedra of Saint Peter, Fabbrica di San Pietro. https://www.basilicasanpietro.va/en/san-pietro/the-cathedra-of-saint-peter. Accessed 2026-09-10."
   location: "全文中铜质宝座纪念物委托与1666年完成段；REV-052"
   sentence_summary: "委托者为Alexander VII，1666完成；不把现存铜质Cathedra采作Urban VIII委托。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-urbano-viii
 ---
 
 ## 内容
@@ -139,18 +209,9 @@ S1：p.3，L15–34，1623年后的赞助规模与控制。S2：p.4，L71–83�
 | ← 参与事件（`participated_in`，反向投影） | [圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）](../events/accademia-tax-privilege-1633.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；原断言与证据见发出端卡片“圣路加学院征税及公共委托措施（1633）（Taxation and Public-Commission Measures of the Accademia di S. Luca (1633)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–722; print pp. 17–18 |
 | → 赞助者／保护人（`patron_of`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 乌尔班八世长期支持贝尔尼尼并委托圣彼得工程；具体作品责任仍须逐项建模；角色：长期赞助人和圣彼得工程委托方；范围：具体作品责任仍须逐项建模；证据：[来源](https://www.treccani.it/enciclopedia/urbano-viii_(Dizionario-Biografico)/)；dbi-urban-viii；本卡 S7；艺术赞助与圣彼得工程段 |
 | ← 委托者（`commissioner_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372,514–516; print pp. 10,13 |
+| ← 委托者（`commissioner_of`，反向投影） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](../works/caravaggio-sacrifice-isaac-uffizi.md) | 来源明确该端点承担Sacrifice of Isaac (Uffizi version)的委托角色；不由委托推定当前所有权；时间：约1603；角色：委托人／委托机构；范围：乌菲齐以付款证据支持卡拉瓦乔作者身份；与普林斯顿旧藏争议对象分开。；原断言与证据见发出端卡片“《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）”：[来源](https://www.uffizi.it/en/artworks/sacrifice-of-isaac)；commissioned-by-persons-urbano-viii-md；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 
-[Wikidata Q131579](https://www.wikidata.org/wiki/Q131579) ↔ [Wikipedia：Pope Urban VIII（英文）](https://en.wikipedia.org/wiki/Pope_Urban_VIII)。REV-034配对沿用，REV-052全文已读；ULAN 500057346、VIAF 96062867为WD标识，原站未核。
-
-### 证据、排除与未决项
-
-S1–S4为章内证据，S5–S6是历史对齐，S7–S8为本轮WP全文及WD字段，S9–S11为各自标明范围的补证。WP与WD不算独立双源。
-
-- 姓名、出生地、出生／受洗日、授职年和驻法任期有差异，保留分字段来源。WD生日还有4月15日normal项，两项均标儒略历，不能仅见相差十日就自行归并。
-- WP列“cathedra”为其委托；S11将现存铜质宝座纪念物归于亚历山大七世并记1666完成。本卡不采用前者，也不把不同时期的设计或构想自动等同现存作品。
-- 家族整体赞助不一概算作本人委托；债务统计、传闻、轶事和虚构文学形象不转为未经限定的本人生平事实。
-- 圣彼得数字体验页本次返回502；实际改读可访问的机构作品说明，不将访问失败计为已读。
-
-[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体source_backed，补足仍有上述未决项。
+- [Wikidata Q131579](https://www.wikidata.org/wiki/Q131579)
+- [Wikipedia：Pope Urban VIII（英文）](https://en.wikipedia.org/wiki/Pope_Urban_VIII)

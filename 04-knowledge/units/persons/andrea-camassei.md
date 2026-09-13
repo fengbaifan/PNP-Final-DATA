@@ -3,7 +3,7 @@ title: "安德烈亚·卡马塞伊（Andrea Camassei）"
 name_en: "Andrea Camassei"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"trained_by","target":"persons/domenichino.md","note":"Pascoli记其早期进入多梅尼基诺工作室；对其他大师作品的研习不作为亲授。","evidence_ref":{"doc_id":"dbi-camassei","source_file":"https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/","source_span":"本卡 S8；早期训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"进入其工作室的学生／助手","scope":"Pascoli早期训练叙述；不延伸到其他大师作品研习"}
@@ -15,6 +15,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 336–338,372–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 336–338"
+    text: |2-
+      include. Urban VIII, for instance, commissioned an altarpiece for the church of S.
+      Sebastiano on the Palatine to represent ‘the martyrdom of St Sebastian, with eight
+      figures’ which were evidently left to the discretion of the painter.1
+  - source_span: "lines 372–374"
+    text: |2-
+      1 The artist was Andrea Camassei—see the receipt published by A. Bertolotti (Artisti bolognesi . . .,
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L514–515
   sentence_summary: 1633 年具体合同将材料费用交画家承担。
@@ -22,6 +33,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 514–515; print pp. 13
+  original_quotes:
+  - source_span: "lines 514–515"
+    text: |2-
+      3 In 1633 Camassei agreed in his contract with Urban Vili (see p. io, note 1) to pay himself sor ‘tela
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L465–466
   sentence_summary: 另有《圣彼得与圣保罗在马默蒂诺监狱施洗》稿，来自 Waterhouse 提供的信息。
@@ -29,6 +45,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 465–466; print pp. 12
+  original_quotes:
+  - source_span: "lines 465–466"
+    text: |2-
+      by Camassei, Saints Peter and Paul baptising in the Mammcrtine prison, once belonging to the Barberini
+      and now in the Pinacoteca Vaticana—No. 820, formerly 539 m. A number of modelli by Andrea Sacelli
 - citation: "Wikipedia (en), Andrea Camassei, revision 1365391539. https://en.wikipedia.org/wiki/Andrea_Camassei. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "十七世纪巴贝里尼圈画家 Andrea Camassei，与章中画家及工程时代相容。"
@@ -50,6 +71,7 @@ sources:
 - citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
   location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
   sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-camassei
 ---
 
 ## 内容
@@ -128,6 +150,7 @@ sources:
 | ← 所创作对象（`creator_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
 | ← 所创作对象（`creator_of`，反向投影） | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../works/camassei-peter-paul-mamertine-modello.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；原断言与证据见发出端卡片“卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
 
-[Wikipedia](https://en.wikipedia.org/wiki/Andrea_Camassei) ↔ [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565)复用并核对；英文页4152字符全文已读。S1–S10按sources排序，保留本章第10、12、13页来源。原有作品关联边保留，正文导航与亲缘字段未自动成边。
+### 身份与外部链接
 
-**未决：** 贝尔托洛蒂原刊写Antonio Camassei及1633年向Marcello Sacchetti下令，后者1629卒年造成冲突；Haskell、DBI、Met支持Andrea及该祭坛画，但不能消除原刊问题。旧传记被杀传闻不作为确定死因。精确出生日期、全部作品与婚姻原档未核。
+- [Wikipedia](https://en.wikipedia.org/wiki/Andrea_Camassei)
+- [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565)

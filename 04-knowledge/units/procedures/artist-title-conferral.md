@@ -3,8 +3,10 @@ title: "艺术家荣衔与职位授予（Conferral of titles and offices on arti
 name_en: "Conferral of titles and offices on artists"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
+relations:
+  - {"relation_type":"exemplified_by","target":"events/titian-honours-1533.md","note":"查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1533","role":"程序实例","scope":"只涵盖该次授衔，不代表所有荣衔遵循同一法定程序"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L770–777, 799–804
@@ -13,9 +15,29 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–777, 799–804; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–777"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
+      artists seems to date back to the later years of the sixteenth century and is directly
+      related to the new awareness of their social value. By the middle of the seventeenth
+      century most artists of any distinction were made ‘Cavaliere dell’abito di Cristo’, and
+      this too was influential in establishing art on recognised and firm foundations.4
+  - source_span: "lines 799–804"
+    text: |2-
+      4 There had, of course, been cases long before the seventeenth century: the Emperor Frederick III
+      had bestowed on Gentile Bellini the dignity of Count Palatine, and in 1533 Charles V created Titian a
+      Count of the Lateran Palace, of his Court and of the Imperial Consistory. But such honours, deeply
+      significant though they were, had always been marks of the most exceptional favour. Towards the end
+      of the sixteenth century in Rome the granting of titles to artists became a more routine affair with some
+      of the attributes of our modern civil service grading and honours lists.
 - citation: "Erich Schleier, “LANFRANCO, Giovanni”, Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "选读1625—1628年圣彼得工程及授勋段，未读整篇传记"
   sentence_summary: "1628年10月11日Scaglia向兰弗兰科授章；荣誉授予者为乌尔班八世。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-procedures-artist-title-conferral
 ---
 
 ## 内容
@@ -49,9 +71,6 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-- S1：第一章，印刷页19，OCR L770–777、799–804；支持章内荣衔与职位的概括。
-- S2：Treccani兰弗兰科传记指定段；支持1628年授章个案，未读授勋文书。
-- 本次没有接收正式关系。“授予荣衔”与“交付荣章”仍须区分，Scaglia不能误作荣衔授予权威。
-- 未决：各荣衔法定权利、实际任职与俸禄、原授予文书及其日期；概括不代替逐人核对。来源支持状态维持 source_backed。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 以此为实例（`exemplified_by`） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |

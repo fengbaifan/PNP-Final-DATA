@@ -3,7 +3,7 @@ title: "卡米洛·加瓦塞蒂（Camillo Gavasetti）"
 name_en: "Camillo Gavasetti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 323–326; print pp. 9
+  original_quotes:
+  - source_span: "lines 323–326"
+    text: |2-
+      2 Thus in his frescoes for the church of S. Antonino in Piacenza in 1624 Camillo Gavasetti was given
+      the subject by the SS. i Deputati ‘con libertà al medes.o Pittore d’inventare ed ampliare con prospettive,
+      chori d’Angioli, Sibille, Profeti e come meglio li parerà secondo l’arte e pratica di perito Maestro’—
+      Gualandi, I, p. 91. In 1682 Sebastiano Ricci was required by the Confraternità di S. Giovanni Battista
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L520–521
   sentence_summary: 合同要求上等颜料；属于材料条件，不能由此推定全部实际施工情况。
@@ -20,6 +27,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 520–521; print pp. 13
+  original_quotes:
+  - source_span: "lines 520–521"
+    text: |2-
+      4 For instance Camillo Gavasetti agreed in 1624 to use ‘colori de’ più fini’ for Iris frescoes in Piacenza
+      —Gualandi, I, p. 91.
 - citation: "Wikipedia (en), Camillo Gavasetti, revision 1365392043. https://en.wikipedia.org/wiki/Camillo_Gavasetti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1596–1630 年画家，英文页说明 Piacenza 圣安托尼诺工程，契合 1624 年合同语境。"
@@ -35,6 +47,7 @@ sources:
 - citation: "Rossella Faraglia, 'GAVASSETTI, Camillo,' Dizionario Biografico degli Italiani 52 (1999). https://www.treccani.it/enciclopedia/camillo-gavassetti_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与 Fonti e Bibl. 全文；网页无印刷页"
   sentence_summary: "支持名称异形、父兄、斯凯多尼师承、流放后活动、圣安托尼诺合同及1630年后失载。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-camillo-gavasetti
 ---
 
 ## 内容
@@ -91,16 +104,5 @@ Rossella Faraglia 的 DBI 词条已全文阅读；其引用的合同、司法记
 
 ### 身份与外部链接
 
-[Wikipedia（en）Camillo Gavasetti](https://en.wikipedia.org/wiki/Camillo_Gavasetti) 与 [Wikidata Q16853519](https://www.wikidata.org/wiki/Q16853519) 的 sitelink 双向一致；摩德纳出生和圣安托尼诺工程与本章对象吻合。S5 为全文阅读，S6 为全部可见结构化陈述及引用读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 死亡 | Wikipedia正文称1630年早逝，WD P570也是无引1630；DBI仅能确定1630年3月19日后失载，故不填写确切死亡年 |
-| 去世地 | WD P20=Parma 有RKD引用，但在死亡时间本身不明且DBI未确认的情况下暂不采用为定值 |
-| 父亲职业 | DBI的雕塑家／镀金工与Wikipedia的微型画家／镀金工分列；不合并成多职业事实 |
-| 活动期 | WD的1611–1628为权威库活动范围，不覆盖DBI所见1630付款 |
-| 作品 | 完整作品目录、合同原件和Guercino评价原始出处仍待核；Getty ULAN 500011074原站未读 |
-
-来源序号 S1–S7 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+- [Wikipedia（en）Camillo Gavasetti](https://en.wikipedia.org/wiki/Camillo_Gavasetti)
+- [Wikidata Q16853519](https://www.wikidata.org/wiki/Q16853519)

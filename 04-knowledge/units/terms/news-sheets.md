@@ -3,7 +3,7 @@ title: "新闻纸（News sheets）"
 name_en: "News sheets"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, p. 19."
@@ -13,12 +13,22 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 778–783; print p. 19"
+    original_quotes:
+    - source_span: "lines 778–783"
+      text: |2-
+        Painters themselves, and especially their biographers, were keen to respond and
+        liked to stress their intellectual attainments. Thus we hear of Filippo Lauri carefully
+        studying the news-sheets so as to be able to make suitable conversation at the various
+        academies he would attend.5 This points to an essential and obvious requisite for social
+        success: a good general education. But the need for this was carried far beyond the
+        occasion for shining at academic gatherings. It was inextricably involved with the
   - citation: "Wikipedia (en), Journalism of early modern Europe, revision 1360695845. https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe. Accessed 2026-09-11."
     location: "全文14747字符，含图注、注释及书目；对象页，不含外链原著"
     sentence_summary: "早期新闻可手写或印刷，按网络流通；本章Lauri的具体读物未由该页证实。"
   - citation: "Wikidata Q4829575, revision 2276662307. https://www.wikidata.org/wiki/Q4829575. Accessed 2026-09-11."
     location: "双向sitelink及适用字段／rank／限定词／引用；采纳边界见正文"
     sentence_summary: "Avviso重定向至新闻史页面，现代页面范围比本章新闻纸类别宽；保留背景候选，不确认为本卡ID。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-news-sheets
 ---
 
 ## 内容
@@ -52,8 +62,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-[Wikipedia：Journalism of early modern Europe](https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe) ↔ [Q4829575](https://www.wikidata.org/wiki/Q4829575)双向一致，但页名与范围比本卡类别宽，仍不采用确认QID。实际阅读全文14747字符，未把Avviso重定向短页当作全文对象页。
-
-暂无正式关系。S1第一章第19页L778–783、传记转述与Haskell解释分开保留。没有独立新闻纸原件，仍登记为term，不凭类别制造archive；Lauri的实际阅读事件待其传记原文补证。
+暂无正式关系。

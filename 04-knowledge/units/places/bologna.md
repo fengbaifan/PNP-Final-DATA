@@ -3,7 +3,7 @@ title: "博洛尼亚（Bologna）"
 name_en: "Bologna"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -13,6 +13,31 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 79–88,101–110; print pp. 4, 5
+  original_quotes:
+  - source_span: "lines 79–88"
+    text: |2-
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
+      Indeed, if we study the careers of the most important artists who followed Annibale
+      Carracci from Bologna at the beginning of the century and introduced a new style of
+      painting to Rome, a very consistent pattern emerges. The young painter would at first
+      be found living quarters, in a monastery perhaps, by a cardinal who had once been papal
+      legate in his native city. Through this benefactor he would meet some influential
+  - source_span: "lines 101–110"
+    text: |2-
+      Bolognese prelate who would commission an altar painting for his titular church and
+      decorations for Iris family palace—in which the artist would now be installed. The first
+      would bring some measure of public recognition, and the second would introduce him
+      to other potential patrons within the circle of the cardinal’s friends. This was by far
+      the more important step. For many years the newly arrived painter would work
+      almost entirely for a limited group of clients, until at last a growing number of altar­
+      pieces had firmly established his reputation with a wider public and he had sufficient
+      income and prestige to set up on his own and accept commissions from a variety of
+      sources. Once this had been achieved, he could view the death of his patron or a change
+      in régime with some degree of equanimity.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L186–187
   sentence_summary: Bonati 学习旅行目的地之一。
@@ -20,6 +45,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L326–328
   sentence_summary: Ricci 1682 年兄弟会委托发生在 Bologna。
@@ -27,6 +57,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 326–328; print pp. 9
+  original_quotes:
+  - source_span: "lines 326–328"
+    text: |2-
+      Gualandi, I, p. 91. In 1682 Sebastiano Ricci was required by the Confraternità di S. Giovanni Battista
+      Decollato in Bologna to paint ‘La Decolatione di S. Gio. Battista con figure et altre conforme richiede il
+      rappresentare detta decolatione’—von Derschau, 1916, pp. 168-9. 3 Ruffo, p. 109.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L515–516
   sentence_summary: Albani／Gozadini 的 Servi 祭坛画材料约定。
@@ -34,6 +70,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 515–516; print pp. 13
+  original_quotes:
+  - source_span: "lines 515–516"
+    text: |2-
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
 - citation: "Wikipedia (en), Bologna, revision 1373681308. https://en.wikipedia.org/wiki/Bologna. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "意大利博洛尼亚城市；不是现代省或历史政体。"
@@ -55,6 +96,7 @@ sources:
 - citation: "UNESCO World Heritage Centre, The Porticoes of Bologna, property 1650. https://whc.unesco.org/en/list/1650/. Accessed 2026-09-10."
   location: "Description、Brief synthesis、Criterion (iv)；选读"
   sentence_summary: "2021 年列入遗产名录的是 12 组成部分；全市廊道约 62 公里与遗产入选范围不是同一范围。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-bologna
 ---
 
 ## 内容
@@ -116,20 +158,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](chiesa-de-servi-bologna.md) | 教堂在 Bologna；原断言与证据见发出端卡片“博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
 
-### 身份与外部标识
+### 身份与外部链接
 
-[Wikipedia：Bologna](https://en.wikipedia.org/wiki/Bologna) 与 [Wikidata：Q1891](https://www.wikidata.org/wiki/Q1891) 的双向身份核对沿用 REV-034；REV-052 读取英文全文（修订 1373681308）及 WD 结构化字段。两站一致只确认对象配对，不是每项事实的两份独立证明。（S5–S8）
-
-WD 提供 TGN 7004847、GeoNames 6541998，均为 normal rank、该标识断言无引用；本轮未直接读取 Getty 或 GeoNames，不记为独立核验完成。（S8）
-
-### 关系导航与证据范围
-
-本次集中审查未接收本卡的新关系：上述四组章内语境是内容证据，共地不推出师承、合作或影响。可导航至[卢多维科·卢多维西](../persons/ludovico-ludovisi.md)查阅其求学和任职证据；该导航不新增图谱边。
-
-S1–S4 为本章出处，章、页、行及句子摘要保存在统一元数据；S5–S6 为原初步对齐，S7–S11 为本轮采用来源。过程及字段采用理由见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按 `places/bologna` 定位。
-
-### 未决与限制
-
-- WD 政权及行政归属多值含不同起止时间、精度和无引用断言，未逐条作为确定历史区间导入；历史政治管辖与私人产权分开。
-- S7 的 San Petronio 建造年代、城市廊道旧总长及现代统计口径尚未逐一解决；本卡未采用争议数值。相关建筑的设计、改造和产权属于具体建筑卡。
-- 已补入城市识别、历史名称、空间及本章语境所需背景；全章关系尚待集中处理。本卡保持 `source_backed`，不宣称全部资料或所列书目已经验证。
+- [Wikipedia：Bologna](https://en.wikipedia.org/wiki/Bologna)
+- [Wikidata：Q1891](https://www.wikidata.org/wiki/Q1891)

@@ -3,7 +3,7 @@ title: "乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）"
 name_en: "Giovanni Battista Passeri"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅。","evidence_ref":{"doc_id":"dbi-passeri","source_file":"https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/","source_span":"本卡 S10；1638年学院登记段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 15–18; print pp. 3
+  original_quotes:
+  - source_span: "lines 15–18"
+    text: |2-
+      WHEN Urban. VIII became Pope,’ wrote the art-chronicler Giambattista Passeri,
+      looking back nostalgically from the dog days of the 1670s, ‘it really seemed as if
+      the golden age of painting had returned; for he was a Pope of kindly spirit, breadth of
+      mind and noble inclinations, and his nephews all protected the fine arts. . . f1 In fact,
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L210–213
   sentence_summary: 被引用来强调强大保护人的重要性。
@@ -22,6 +29,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 210–213; print pp. 7
+  original_quotes:
+  - source_span: "lines 210–213"
+    text: |2-
+      vital to start with the protection of some patron’, wrote Passeri when commenting on
+      the early life of Giovanni Lanfranco,4 for it was only the great families who were in a
+      position to get commissions for their protégés to paint in the most fashionable churches,
+      and this was an indispensable stage in any artist’s career.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
   location: 第一章；印刷页 16；OCR L660–662
   sentence_summary: Haskell 提醒其对 Bernini 的偏见。
@@ -29,6 +43,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 660–662; print pp. 16
+  original_quotes:
+  - source_span: "lines 660–662"
+    text: |2-
+      3 Passer!, p. 236, and Pascoli, I, p. 134. Both were so prejudiced against Bernini that their evidence is
+      not altogether reliable, but Professor Wittkower (1958, p. 96) agrees that ‘for more than fifty years,
+      willingly or unwillingly, Roman artists had to bow to his eminence’.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L784–795,805–806
   sentence_summary: 职业礼仪与教育批评，脚注定位到 Cerquozzi。
@@ -36,6 +56,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 784–795,805–806; print pp. 19
+  original_quotes:
+  - source_span: "lines 784–795"
+    text: |2-
+      business of keeping art respectable. ‘From such a lack of education’, writes Passeri,
+      ‘arise the absurdities which we find in some painters, who have some ability in their
+      art but who outside the practice of painting are dull, raw and uncivilised. They are
+      derided as tavole rase della plebe piu vile, incompetent at telling a story, with a bad
+      pronunciation, no good in serious conversation. They bring shame not only on them­
+      selves but on the whole profession—shame enough to make even the most half-witted
+      blush.’6 Ability to talk well and intelligently not only served to raise the status of art;
+      it also helped to attract powerful patrons, for this was certainly no age for the untutored
+      genius. We can see the artists of the day as they saw themselves by looking at their self
+      portraits. Serene, elegant, as the years go by increasingly bewigged, self-satisfied and
+      complacent, they gaze down at us, only rarely showing us the tools of their trade; more
+      keen to resemble their clients than to point to any singularity in themselves.
+  - source_span: "lines 805–806"
+    text: |2-
+      5 Pascoli, II, p. 202.
+      6 Of Michelangelo Cerquozzi—Passeri, p. 285.
 - citation: "Wikipedia (en), Giovanni Battista Passeri, revision 1365392380. https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Giovanni Battista Passeri，约 1610–1679 年画家；英文 Life 节确认其艺术家传记作者身份。"
@@ -54,6 +93,7 @@ sources:
 - citation: "Serenella Rolfi Ožvald, PASSERI, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 81 (2014). https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "出生、1634年绘画训练、学院任职、Vite编辑史、死亡及文献段；REV-052"
   sentence_summary: "补充具体训练与任职，区分学院rector和president，支持1772年身后刊本并提供稿本与研究线索。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giambattista-passeri
 ---
 
 ## 内容
@@ -127,10 +167,5 @@ sources:
 
 ### 身份与外部链接
 
-[Wikidata Q962495](https://www.wikidata.org/wiki/Q962495) ↔ [Wikipedia：Giovanni Battista Passeri（英文）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri)。沿用REV-034语义身份配对；REV-052已读该WP版本全文，具体字段仍各依S8–S10。Getty ULAN标识500015309、VIAF 34553612来自WD，原站尚未核读。
-
-### 采用边界与未决项
-
-S1–S4为本书章页／行号证据，S5–S7为历史身份核查，S8为本轮全文阅读，S9为实际WD字段，S10为有范围的独立传记补证。WP与WD属于同一来源组。父母姓名、详细亲属谱系、全部作品及馆藏未核；不补空猜测。WP“president”与DBI“primo rettore”的职名不混同。1772年刊本与WP正文1773异文、具体稿本和画作归属仍需原件支持。
-
-过程和原始记录见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按本卡稳定键及REV-052定位。整体保持source_backed，未宣称全部字段验证完成。
+- [Wikidata Q962495](https://www.wikidata.org/wiki/Q962495)
+- [Wikipedia：Giovanni Battista Passeri（英文）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri)

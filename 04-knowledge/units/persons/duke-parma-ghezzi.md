@@ -3,7 +3,7 @@ title: "帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s hono
 name_en: "Duke of Parma (Ghezzi’s honorary appointment)"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"honourer_of","target":"persons/giuseppe-ghezzi.md","note":"授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 771–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"gentiluomo d’onore荣衔授予者","scope":"授予者全名及日期未明"}
@@ -15,12 +15,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–773; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–773"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
 - citation: "Rossella Faraglia, “GHEZZI, Giuseppe”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "传记正文和书目全文，21160字符；未读其引用的原始档案"
   sentence_summary: "生卒、父母配偶及子女、法律职业、学院职责、展览与绘画、Arcadia别名和晚年。"
 - citation: "Treccani, “GHEZZI, Pier Leone”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/pier-leone-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "选读1705入会至1710受衔及1712委托段；未读整篇"
   sentence_summary: "1710年2月11日帕尔马公爵授骑士十字给Pier Leone；与Giuseppe的gentiluomo d’onore不是同一事例。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-duke-parma-ghezzi
 ---
 
 ## 内容
@@ -54,7 +62,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明；角色：gentiluomo d’onore荣衔授予者；范围：授予者全名及日期未明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
-
-S1：第一章，印刷页19，OCR L770–773。S2为Giuseppe DBI全文；S3为Pier Leone DBI受衔段选读。二者支持消歧，不支持本公爵新增生平事实。
-
-文件头1条指向[Giuseppe Ghezzi](../persons/giuseppe-ghezzi.md)的既有关系保留；其对象仍是本章未具名公爵，不合并到猜测人名。本轮已完成可达范围内的对齐与补足处置，当前结论为**已处理但身份未解决**；status仍为source_backed，并阻断依赖具体公爵身份的新字段和关系。

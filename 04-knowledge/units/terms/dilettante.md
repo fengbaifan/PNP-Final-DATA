@@ -3,7 +3,7 @@ title: "鉴赏爱好者（Dilettante）"
 name_en: "Dilettante"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 160–164; print pp. 6
+  original_quotes:
+  - source_span: "lines 160–164"
+    text: |2-
+      In between these two extremes there were a number of gradations involving middle­
+      men, dealers and dilettantes as well as the activities of foreign travellers and their agents.
+      These intermediate stages became more and more important as the century progressed,
+      but artists usually disliked the freedom of working for unknown admirers, and with a
+      few notable exceptions exhibitions were assumed to be the last resort of the unemployed.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L581–590
   sentence_summary: Rome 绘画市场与收藏背景。
@@ -20,6 +28,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 581–590; print pp. 15
+  original_quotes:
+  - source_span: "lines 581–590"
+    text: |2-
+      importance. Rome herself was notoriously deficient in giving birth to artists, and so the
+      city became the focus of a constantly shifting population of painters and dilettantes in
+      search of each other. Moreover, new blood—new Venetian or Bolognese or Neapolitan
+      blood—frequently brought about drastic changes as one régime succeeded another and
+      supplanted its favoured artists. And underlying this was one constant threat. Only the
+      family that actually had its hand in the treasury was able to provide patronage on the
+      enormous scale that was associated with ruling clans such as the Borghese and the
+      Barberini. Should there be, for some reason or another, any financial restriction, it was
+      obvious that a very large number of artists, previously engaged in regular employment,
+      would be thrown on to the market.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L733–736
   sentence_summary: 艺术家和鉴赏爱好者的交游、组织语境。
@@ -27,6 +48,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 733–736; print pp. 18
+  original_quotes:
+  - source_span: "lines 733–736"
+    text: |2-
+      ability to the artists who belonged to it and hence to art itself. It emphasised the intel­
+      lectual aspects of creation somewhat at the expense of the mechanical. It enjoyed a
+      prominent position in the life of Rome and played some part in bringing together
+      artists, dilettantes and critics.3
 - citation: "Wikipedia (en), Dilettante, revision 1137118373. https://en.wikipedia.org/wiki/Dilettante. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "英文为消歧义页，不能把鉴赏爱好者直接等同当代业余者概念；待按历史艺术语境补证。"
@@ -42,6 +70,7 @@ sources:
 - citation: "Wikidata, Q455595, revision 2528372342. https://www.wikidata.org/wiki/Q455595. Read 2026-09-11."
   location: "labels、类型及itwiki／enwiki；候选范围比较，未导入实体字段"
   sentence_summary: "itwiki Dilettante↔Q455595，enwiki为Amateur；两侧链接成立但概念比本章艺术鉴赏角色宽，不认同一身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-dilettante
 ---
 
 ## 内容
@@ -73,10 +102,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-[画商](art-dealer.md) · [展览与自我宣传](../procedures/exhibition-self-promotion.md)为概念导航，不是已登记的正式关系。
-
-**候选仍未通过：** [英文Dilettante消歧页](https://en.wikipedia.org/wiki/Dilettante)及旧Q3027976不作角色标识；[意大利文Dilettante](https://it.wikipedia.org/wiki/Dilettante)双向链接[Q455595](https://www.wikidata.org/wiki/Q455595)，英文反链为Amateur，但它是跨领域一般业余者，不能等同本章特定艺术角色。未接收该QID，未导入其被弃用的P31。
-
-S1–S3保留原章页行号；S6为词义区分，S7–S8为范围比较，Wiki页引用Treccani不增加独立词义证据。意大利页现代书目未逐本阅读，不列作本章历史用法已验证研究。历史称谓的最早用例、不同作者褒贬及具体人的自我称呼仍待原文；本轮已补词形、用法与异义，未消除身份配对缺口。[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+暂无正式关系。

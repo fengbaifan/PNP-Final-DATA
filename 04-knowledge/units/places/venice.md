@@ -3,7 +3,7 @@ title: "威尼斯（Venice）"
 name_en: "Venice"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 46–47; print pp. 3
+  original_quotes:
+  - source_span: "lines 46–47"
+    text: |2-
+      under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
+      reprinted.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L169–170,186–187
   sentence_summary: 学习色彩及 Bonati、Gimignani 旅行目的地。
@@ -20,6 +25,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 169–170,186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 169–170"
+    text: |2-
+      duced.2 If it was thought that his painting would benefit from a visit to Parma to see
+      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L220–221
   sentence_summary: Trevisani 与 Ottoboni 的同乡身份。
@@ -27,6 +41,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 220–221; print pp. 7
+  original_quotes:
+  - source_span: "lines 220–221"
+    text: |2-
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L341–342
   sentence_summary: 绘画题材与收藏的历史比较语境。
@@ -34,6 +53,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 341–342; print pp. 10
+  original_quotes:
+  - source_span: "lines 341–342"
+    text: |2-
+      and more the movable gallery picture was coming into its own—a largely Venetian
+      innovation of over a century earlier which had made a decisive impact on Roman
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L872–874
   sentence_summary: 家庭绘画职业与 Rome 的比较；这些出处均不单独陈述共和国政治行为。
@@ -41,6 +65,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 872–874; print pp. 21
+  original_quotes:
+  - source_span: "lines 872–874"
+    text: |2-
+      especially marked is the contrast between Rome and Venice where the social position
+      of the artist was always considered low and where families of painters went on working,
+      often as teams, until the end of the eighteenth century.
 - citation: "Wikipedia (en), Venice, revision 1373940918. https://en.wikipedia.org/wiki/Venice. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Venice／Venezia 城市；明确不以此 QID 指代威尼斯共和国。"
@@ -56,6 +86,7 @@ sources:
 - citation: "UNESCO World Heritage Centre, Venice and its Lagoon, dossier 394. https://whc.unesco.org/en/list/394/. Accessed 2026-09-10."
   location: "Brief synthesis、Integrity、Authenticity 与遗产登记元数据；未读申报档案"
   sentence_summary: "泻湖城市的渐进形成、历史城市空间及 1987 年遗产登记；遗产范围不等于市区面积。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-venice
 ---
 
 ## 内容
@@ -124,20 +155,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-### 身份与链接
+### 身份与外部链接
 
-[Wikidata Q641](https://www.wikidata.org/wiki/Q641) 与[英文 Wikipedia：Venice](https://en.wikipedia.org/wiki/Venice) 沿用 REV-034 已完成的双向身份配对；本轮读取 S8 全文及 S9 实体记录。配对对象为城市，不借用于共和国。Getty TGN **7018159** 来自 S9 P1667（normal、无引用）；本轮未直接核验 Getty 条目，不能标成三方身份验证。
-
-### 正式关系与内容导航
-
-本次集中审查未接收本卡的新关系。《L’Hoggidi》及罗马链接仅作内容导航，不作为出版、旅行或比较关系；共和国内部机构及政治行为也不挂到城市端点。
-
-### 证据范围与未决项
-
-S1–S5 保留第一章章页、OCR 行号与句意摘要；S6–S7 为初步身份对齐，S8–S10 为本轮补证。S1 的“1627 首刊”保留为来源表述，由正文解释外部版本冲突，不掩去原判断。
-
-已阅读全文不等于采用所有表述：S8 中岛屿／桥梁统计、部分政治机构名称与条约具体日期未作确定字段；现代人口、选举、旅游费用不是本章补足所需内容。精确行政边界、各建筑产权与出版版本实物尚未逐一核验。城市卡首轮详细补足已保存，整卡维持 source_backed，不宣称全面验证。
-
-[初步对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+- [Wikidata Q641](https://www.wikidata.org/wiki/Q641)
+- [英文 Wikipedia：Venice](https://en.wikipedia.org/wiki/Venice)

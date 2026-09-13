@@ -3,7 +3,7 @@ title: "安德烈亚·波佐（Andrea Pozzo）"
 name_en: "Andrea Pozzo"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/jesuits.md","note":"1665年12月在米兰加入耶稣会；23日／25日异文保留。","evidence_ref":{"doc_id":"dbi-pozzo","source_file":"https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/","source_span":"本卡 S6；入会与誓愿段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 840–843; print pp. 20
+  original_quotes:
+  - source_span: "lines 840–843"
+    text: |2-
+      were drawn were generally low, though we are told that Andrea Pozzo’s parents were
+      ‘extremely well off and of good social standing’. They were anxious that their son
+      should make a career in letters, but reconciled themselves easily enough to his desire
+      to become a painter. In general, apart from ecclesiastical triumphs, a successful artistic
 - citation: "Wikipedia (en), Andrea Pozzo, revision 1372387537. https://en.wikipedia.org/wiki/Andrea_Pozzo. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1642–1709 年的耶稣会画家／建筑师，与章中职业语境相容。"
@@ -30,6 +37,7 @@ sources:
 - citation: "Richard Bösel and Lydia Salviucci Insolera, POZZO, Andrea, Dizionario Biografico degli Italiani 85 (2016). https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "出生亲缘、早期训练、入会／誓愿、罗马廊道与 Sant’Ignazio 段；部分阅读，未读全文"
   sentence_summary: "提供父母、修会亲缘、匿名训练、1665-12-23 入会与 1676 誓愿；具体档案均为传记所引，未读原件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-pozzo
 ---
 
 ## 内容
@@ -108,12 +116,7 @@ sources:
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [耶稣会（Jesuits）](../institutions/jesuits.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；证据：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；dbi-pozzo；本卡 S6；入会与誓愿段 |
 
-[Wikidata Q380103](https://www.wikidata.org/wiki/Q380103) · [Wikipedia（en）Andrea Pozzo](https://en.wikipedia.org/wiki/Andrea_Pozzo)。复用 REV-034 双向身份配对；完整阅读 WP 后补入适用事实，不将 Wiki 两站作为两份独立事实证明。整卡仍为 source_backed。
+### 身份与外部链接
 
-本卡目前无正式出边；[罗马](../places/rome.md)等正文链接为导航。亲缘和师承若缺明确身份或适用谓词，保留字段，不自动生成图谱边。
-
-S1：第一章 p.20，OCR L840–843，父母期望与职业选择。S2–3 为初步对齐；S4–6 为本轮补足。生卒 WD 为 normal、日精度、公历；其引用的 RKD、BnF 等原站未因此视作已读。
-
-**冲突与缺口：** 不采用 Wikipedia 信息框中“直接师从 Palma Giovane／Andrea Sacchi”的断言：匿名训练与疑似师承不能混同，Palma 的相关年代尤其需核。入会日 23／25 日、第二卷 1698／1700、维也纳迁居 1702／1703 均保留异文。官方藏品编号、完整作品清单、父母财产与原传记责任尚未解决；S6 所引洗礼、誓愿和委托档案未读原件。没有将本书在百科的被引情况计作独立补证。
-
-[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+- [Wikidata Q380103](https://www.wikidata.org/wiki/Q380103)
+- [Wikipedia（en）Andrea Pozzo](https://en.wikipedia.org/wiki/Andrea_Pozzo)

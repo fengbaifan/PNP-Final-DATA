@@ -3,7 +3,7 @@ title: "乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）"
 name_en: "Giovanni Andrea Carlone"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1675年9月11日获圣路加学院接纳。","evidence_ref":{"doc_id":"dbi-carlone","source_file":"https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/","source_span":"本卡 S6；1675年接纳段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 858–861; print pp. 21
+  original_quotes:
+  - source_span: "lines 858–861"
+    text: |2-
+      Gianandrea Carlone was accepted by the master of the Marchese Costaguti’s household
+      as a suitable husband for his sister—a situation which echoed the theme of a burlesque
+      comedy, performed in 1635, concerning a prince who wished to marry his daughter
+      to a painter.1
 - citation: "Wikipedia (en), Andrea Carlone, revision 1365391586. https://en.wikipedia.org/wiki/Andrea_Carlone. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Giovanni Andrea／Andrea Carlone；英文页明确与 Costaguti 总管妹妹结婚，匹配独特关系语境；两站出生年有差异。"
@@ -30,6 +37,7 @@ sources:
 - citation: "Paola Costa Calcagno, 'CARLONE, Giovanni Andrea,' Dizionario Biografico degli Italiani 20 (1977). https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与 Fonti e Bibl. 全文；网页无印刷页"
   sentence_summary: "支持父母、出生与死亡、生涯、圣路加学院及热那亚工程；保留 Pascoli 的不同出生年。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gianandrea-carlone
 ---
 
 ## 内容
@@ -47,7 +55,7 @@ sources:
 | 全名／惯用名 | Giovanni Andrea Carlone；Andrea Carlone | S4、S6 |
 | 来源名形 | Gianandrea Carlone；Carloni 为传记所见姓氏异形 | S1、S6 |
 | 身份 | 男性画家；不因家族出身自动赋予其兄弟或父亲的作品 | S5 P21/P106、S6 |
-| 出生日期／地点 | 1639年5月22日，热那亚；其他值见第三部分 | S6 |
+| 出生日期／地点 | 1639年5月22日，热那亚；其他值[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gianandrea-carlone) | S6 |
 | 去世日期／地点 | 1697年4月4日，热那亚 | S5 P570/P20、S6 |
 | 历史归属 | 热那亚出身并主要在意大利诸地活动；WD 的 Switzerland／Rovio 项不作为出生国籍 | S5、S6 |
 
@@ -87,15 +95,5 @@ sources:
 
 ### 身份与外部链接
 
-[Wikipedia（en）Andrea Carlone](https://en.wikipedia.org/wiki/Andrea_Carlone) 与 [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993) 的 sitelink 双向一致，姓名、职业、家庭与活动地能对应本章对象。S4 为本次全文阅读版本；S2 的旧登记修订号与实际取得的全文版本不一致，保留为初步对齐历史而不拿它支持新增字段。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 出生日期 | 采用 DBI 的1639年5月22日；WD 为1639年5月16日，Wikipedia 为1626年5月16日，Pascoli 另作1627年，均保留异文，不合并为同一日期 |
-| 婚姻 | 第一章与 Wikipedia 支持配偶身份语境；DBI 本次全文未见该段，配偶姓名及婚姻日期待一手材料 |
-| 活动与作品 | 仅列本次已读传记能定位的节点；完整作品、分工、现藏状态和具体委托档案未核 |
-| 规范号 | WD 列 Getty ULAN 500029439，本次未读 Getty 原记录 |
-
-来源序号 S1–S6 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+- [Wikipedia（en）Andrea Carlone](https://en.wikipedia.org/wiki/Andrea_Carlone)
+- [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993)

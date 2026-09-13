@@ -3,7 +3,7 @@ title: "卡洛·马拉塔（Carlo Maratta）"
 name_en: "Carlo Maratta"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1662年8月27日加入学院，后多次任负责人；成员与职务分开。","evidence_ref":{"doc_id":"dbi-maratta","source_file":"https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/","source_span":"本卡 S7；1662年入会及后续任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,6 +17,26 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 670–677,704–710; print pp. 17
+  original_quotes:
+  - source_span: "lines 670–677"
+    text: |2-
+      any paid to his rivals was wholly exceptional even in his career.1 The very fashionable
+      Carlo Maratta, who was considered an exceedingly expensive painter, would get 150 scudi
+      for a full-length portrait, and Gaulli, his closest rival, charged 100.2 These high prices,
+      besides making life more comfortable for the artist, had an important symbolic function.
+      They raised the whole status of art in the eyes of the world. The historian Baldinucci
+      was keen to report that at auctions Rembrandt would make very high bids for paintings
+      and drawings ‘in order to emphasise the prestige of his profession’, and a similar attitude
+      existed in Italy.3
+  - source_span: "lines 704–710"
+    text: |2-
+      2 Bellori, 1942, p. 98, and Pascoli, I, p. 205.
+      ® Baldinucci, VI, 1728, p. 477. Bellori, 1942, p. 123, writes of Maratta in similar terms: ‘Circa i prezzi
+      delle sue Opere, che da alcuni sono stati riputati eccessivi, si può dire che Carlo doppo Guido abbia
+      rinumerato la Pittura indotto da quelli, che raddoppiavano più volte il premio delle sue fatiche. Laonde si
+      propose di convertirlo in suo utile con aprire agl'altri la via della rinuinerazione particolarmente in Roma,
+      ove i Pittori gli deono restare molto obbligati, essendosi nel suo esempio avanzati a quella ricompensa,
+      che prima non era stata pratticata.’
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L755–758
   sentence_summary: 1670年Novetti信讽刺难以请动Maratta。
@@ -24,6 +44,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 755–758; print pp. 18
+  original_quotes:
+  - source_span: "lines 755–758"
+    text: |2-
+      2 Missirini, p. 115. 3 See later, Chapter 6.
+      4 Pascoli, I, pp. 131 and 176; II, pp. 128, 307, 401 and 405.
+      5 See letter from Francesco Novetti to Don Antonio Ruffo, dated 22 March 1670, published by V.
+      Russo, p. 290.
 - citation: "Wikipedia (en), Carlo Maratta, revision 1365406547. https://en.wikipedia.org/wiki/Carlo_Maratta. Accessed 2026-09-10."
   location: "导言身份段；REV-034初步对齐，非全文补足"
   sentence_summary: "Carlo Maratta／Maratti，1625–1713年罗马画家，别名相容。"
@@ -39,6 +66,7 @@ sources:
 - citation: "Luca Bortolotti, 'MARATTI, Carlo,' Dizionario Biografico degli Italiani 69 (2007). https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所引原档、Bellori原传、清册和全部研究"
   sentence_summary: "支持1625年5月18日、父母与家庭、Sacchi工作室、学院职务、委托、修复、骑士荣衔、收藏和1713年死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-carlo-maratta
 ---
 
 ## 内容
@@ -108,20 +136,10 @@ Luca Bortolotti的DBI词条及书目已全文阅读；Bellori原传、两份1711
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1662年8月27日加入学院，后多次任负责人；成员与职务分开；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；1662年入会及后续任职段 |
 | → 师从／受训于（`trained_by`） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 约1636／1637进入萨基工作室接受训练；与后来合作分作两条关系；时间：约1636／1637起；角色：工作室学生；范围：进入Sacchi工作室的训练阶段；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
 | → 合作（`collaborated_with`） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 马拉塔后来成为萨基的主要合作者；本边不替代早期师承关系；角色：主要合作者；范围：训练期之后的工作合作；具体项目仍逐作判断；证据：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
+| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《夏》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| ← 教师（`teacher_of`，反向投影） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](paolo-girolamo-piola.md) | 罗马学习阶段随卡洛·马拉塔学习；研习卡拉奇作品不等同于直接师承卡拉奇；角色：学生；范围：罗马学习阶段；与作品研习区分；原断言与证据见发出端卡片“保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）”：[来源](https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/)；dbi-piola；本卡 S7；罗马学习段 |
 
 ### 身份与外部链接
 
-[Wikipedia（en）Carlo Maratta](https://en.wikipedia.org/wiki/Carlo_Maratta) 与 [Wikidata Q538998](https://www.wikidata.org/wiki/Q538998) 的sitelink双向一致；Maratta／Maratti变体、1625–1713年、Camerano—Rome轨迹、Sacchi训练及画家身份与第一章对象吻合。S5为全文阅读，S6为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 出生日 | 采用Wikipedia与DBI一致的5月18日；Wikidata有5月18、preferred 5月15及5月13三值，未用rank取代来源语义裁决 |
-| 第一任配偶 | Wikipedia给Francesca Trulli，DBI本轮未列姓名，只确认1659年分居与1700年前死亡；姓名保留来源限制 |
-| 工作室分工 | DBI指出晚期助手占比增大；未经作品级材料不能把工作室出品全部视为完全亲笔 |
-| 150scudi报价 | 第一章只说全身肖像的一般金额，未列特定客户、作品和日期；不能形成通用价目表 |
-| Bellori评价 | 是传记作者和朋友的判断，不是艺术家群体共同立场；其原传尚未直接阅读 |
-| 收藏与修复 | 清册、具体交易、逐件修复范围及方法仍需原档或作品级来源 |
-
-来源序号S1–S7依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Carlo Maratta](https://en.wikipedia.org/wiki/Carlo_Maratta)
+- [Wikidata Q538998](https://www.wikidata.org/wiki/Q538998)

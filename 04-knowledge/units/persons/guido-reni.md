@@ -3,7 +3,7 @@ title: "圭多·雷尼（Guido Reni）"
 name_en: "Guido Reni"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"creator_of","target":"works/reni-justice-embracing-peace.md","note":"该信向 Reni 委托，尚未由本章识别版本与完成时间。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"信中受委托画家","scope":"连接委托对象；版本、完成时间与存世状态未确认"}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 373–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 373–374"
+    text: |2-
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
   location: 第一章；印刷页 14；OCR L531–534
   sentence_summary: 1617 年 Mantua 公爵订《正义拥抱和平》，许诺厚酬未定金额。
@@ -22,6 +27,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 531–534; print pp. 14
+  original_quotes:
+  - source_span: "lines 531–534"
+    text: |2-
+      as he saw fit.1 It is true enough that we do find some examples of this. In 1617, for
+      instance, the Duke of Mantua wrote to Guido Reni asking him for a painting of Justice
+      embracing Peace. He gave the measurements, but made no mention of the price beyond
+      saying that Guido would be ‘generously rewarded’.2 And artists were clearly glad to
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L884–889
   sentence_summary: 艺术家特殊气质论述中的 Malvasia 传闻须保留限定。
@@ -29,6 +41,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 884–889; print pp. 21
+  original_quotes:
+  - source_span: "lines 884–889"
+    text: |2-
+      until the eighteenth that it hardened into an article of belief.2 Paul V’s alleged comments
+      about Guido Reni, quoted on an earlier page, may suggest that that Pope was among
+      the first to recognise that some degree of eccentricity was inherent in the make-up of
+      an artist; it is, unfortunately, our knowledge that this recognition was so much more
+      current in Malvasia’s own time, many years later than the reported conversation, that
+      encourages us to be sceptical about its probability. In 1676, for instance, the Resident
 - citation: "Wikipedia (en), Guido Reni, revision 1370409975. https://en.wikipedia.org/wiki/Guido_Reni. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1575–1642 年博洛尼亚画家 Guido Reni，符合 1617 年委托语境。"
@@ -47,6 +68,7 @@ sources:
 - citation: "Caterina Volpi, Reni, Guido, Enciclopedia dei ragazzi (2006). https://www.treccani.it/enciclopedia/guido-reni_(Enciclopedia-dei-ragazzi)/. Accessed 2026-09-11."
   location: "传记三节全文"
   sentence_summary: "Calvaert及卡拉奇训练、1601赴罗马、1608–1614博尔盖塞、1614返博洛尼亚、1627Spada及艺术赞助；传记解释不等同原支付档案。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guido-reni
 ---
 
 ## 内容
@@ -108,10 +130,7 @@ sources:
 | → 所创作对象（`creator_of`） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
 | ← 所创作对象（`creator_of`，反向投影） | [雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）](../works/reni-massacre-innocents.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；原断言与证据见发出端卡片“雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
 
-[Wikipedia：Guido Reni](https://en.wikipedia.org/wiki/Guido_Reni) ↔ [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061) 双向一致，复用已通过身份。S6全文20587字符已读；S7含限定、精度、单位、引用状态和实际标签；S8短传及书目、S9三节正文已读。
+### 身份与外部链接
 
-- 文件头以 `creator_of` 链接[《正义拥抱和平》](../works/reni-justice-embracing-peace.md)，范围限定为信中委托对象；版本、完成时间与存世状态未确认，依据S2。
-- [1617年委托人Ferdinando Gonzaga](duke-mantua-reni-1617.md)、[《屠杀婴孩》](../works/reni-massacre-innocents.md)为关联导航，不把所有职业标签和学生名字自动建边。
-- **待核：** 赴那不勒斯年份、具体原支付、后期复作责任与亲缘原档。WP《圣塞巴斯蒂安》版本数量及《亚特兰大与希波墨涅斯》年代前后不一，未整段采入；“Beatrice Cenci”旧归属不作为确定亲笔。
-
-S编号按文件头顺序；章页、行号、句意摘要及既有关系保留，source_backed不作全卡验证提升。
+- [Wikipedia：Guido Reni](https://en.wikipedia.org/wiki/Guido_Reni)
+- [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061)

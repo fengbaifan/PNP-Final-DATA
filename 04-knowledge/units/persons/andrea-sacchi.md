@@ -3,7 +3,7 @@ title: "安德烈亚·萨基（Andrea Sacchi）"
 name_en: "Andrea Sacchi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"employed_by","target":"persons/antonio-barberini.md","note":"1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 195–198; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1637–1640","role":"家户受俸画家","scope":"1640年升入最高受俸者等级"}
@@ -16,6 +16,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 195–198; print pp. 7
+  original_quotes:
+  - source_span: "lines 195–198"
+    text: |2-
+      the artist might move on promotion. Thus from 1637 to 1640 Andrea Sacchi was placed
+      in Cardinal Antonio Barberini’s household among three slaves, a gardener, a dwarf
+      and an old nurse; in the latter year he was moved up to the highest category of pen­
+      sioners with writers, poets and secretaries.1
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L467–468
   sentence_summary: Colnaghi 图录及 Mahon 收藏中的祭坛稿是正文泛论的反例。
@@ -23,6 +30,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 467–468; print pp. 12
+  original_quotes:
+  - source_span: "lines 467–468"
+    text: |2-
+      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
 - citation: "Wikipedia (en), Andrea Sacchi, revision 1365392306. https://en.wikipedia.org/wiki/Andrea_Sacchi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1599–1661 年罗马画家 Andrea Sacchi；保留 Antonio 家户与 Francesco 的区分。"
@@ -38,6 +50,7 @@ sources:
 - citation: "Alessandra Cosmi, SACCHI, Andrea, Dizionario Biografico degli Italiani 89 (2017). https://www.treccani.it/enciclopedia/andrea-sacchi_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文21719字符，含职业过程、死亡及Fonti e bibliografia"
   sentence_summary: "遗嘱研究区分生父Nicola Pellegrini与Benedetto Sacchi；约1599年可能生于Nettuno，1661年6月21日卒于罗马。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-sacchi
 ---
 
 ## 内容
@@ -113,8 +126,8 @@ sources:
 | ← 教师（`teacher_of`，反向投影） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 约1636／1637进入萨基工作室接受训练；与后来合作分作两条关系；时间：约1636／1637起；角色：工作室学生；范围：进入Sacchi工作室的训练阶段；原断言与证据见发出端卡片“卡洛·马拉塔（Carlo Maratta）”：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
 | ← 合作（`collaborated_with`，反向投影） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 马拉塔后来成为萨基的主要合作者；本边不替代早期师承关系；角色：主要合作者；范围：训练期之后的工作合作；具体项目仍逐作判断；原断言与证据见发出端卡片“卡洛·马拉塔（Carlo Maratta）”：[来源](https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/)；dbi-maratta；本卡 S7；早期训练与合作段 |
 | ← 所创作对象（`creator_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-- 正式关系入口：[小安东尼奥·巴贝里尼](antonio-barberini.md)、[巴贝里尼家户记录](../institutions/barberini-household.md)。本次维持两条边；后者继续限定为安东尼奥的服务组织，不能解释成血缘家族成员。
-- 相关事件与作品：[1640年家户晋级](../events/sacchi-household-promotion-1640.md)、[本章祭坛画小幅版本](../works/sacchi-capuchin-altarpiece-modello.md)。这些链接不自动新增边。
-- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Andrea_Sacchi) ↔ [Wikidata Q495008](https://www.wikidata.org/wiki/Q495008)，双向一致。Getty ULAN 500022759仅为WD提供的标识，本轮未核Getty原站。
-- S1–S2为本章来源，S3–S4为原初步对齐，S5–S7为本轮补足；元数据保留章页、行数及句子摘要，事实按上表对应。
-- 未决：出生日期与地点、母亲／配偶、完整家族谱系、原遗嘱与家户清单。Wiki互链不证明所有字段正确，整卡仍为source_backed。
+
+### 身份与外部链接
+
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Sacchi)
+- [Wikidata Q495008](https://www.wikidata.org/wiki/Q495008)

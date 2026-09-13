@@ -3,7 +3,7 @@ title: "卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Mar
 name_en: "Camillo Francesco Maria Pamphili"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patron_of","target":"persons/pier-francesco-mola.md","note":"Valmontone 雇用、装饰委托和费用分担；离开项目所在地几天亦需许可。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233,308–319,505–519; print pp. 7,9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"雇主、装饰委托人与费用承担方","scope":"Valmontone装饰及行动许可语境"}
@@ -16,6 +16,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+  original_quotes:
+  - source_span: "lines 179–185"
+    text: |2-
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
   sentence_summary: Mola 和 Cortese 在 Valmontone 短暂离开亦须许可。
@@ -23,6 +33,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L312–319,329–330
   sentence_summary: Valmontone 题材由书籍咨询形成；Armanni 致 Camillo Pamfili 信提供装饰建议。
@@ -30,6 +46,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319,329–330; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–319"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
+      Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+      the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
+      apparition of Iris to Turnus.’4
+  - source_span: "lines 329–330"
+    text: |2-
+      4 Montalto, p. 290. There is also an undated letter from a certain Vincenzo Armarmi (I, p. 215) to
+      Camillo Pamfili with suggestions for the decoration of his villa at Valmontone.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L495–497,505–506,516–519
   sentence_summary: 章中记工程食宿、预付和 1657 年材料条件。
@@ -37,6 +68,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 495–497,505–506,516–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 495–497"
+    text: |2-
+      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+      treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
+  - source_span: "lines 505–506"
+    text: |2-
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+  - source_span: "lines 516–519"
+    text: |2-
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Wikipedia (en), Camillo Francesco Maria Pamphili, revision 1373867264. https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Camillo Francesco Maria Pamphili／Pamphilj，1622–1666 年瓦尔蒙托内亲王；亲王领地与章中工程匹配。"
@@ -55,6 +102,7 @@ sources:
 - citation: "Doria Pamphilj, Biografie Roma. https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/. Accessed 2026-09-11."
   location: "定向阅读Camillo、Olimpia Aldobrandini、Giovanni Battista、Anna段及邻近Maidalchini段，不称全站全页传记已读"
   sentence_summary: "五子女逐名；长子1709卒、Teresa生年与百科异文；1648住Corso，1760继承归Doria后裔而非早已去世的Anna夫妇。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-camillo-pamfili
 ---
 
 ## 内容
@@ -129,13 +177,7 @@ Borello的DBI传记已读；其列举的家族档案、1651财产安排、图书
 | ← 获其建议（`advised_by`，反向投影） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](vincenzo-armanni-ch1.md) | 未注明日期的信就 Valmontone 别墅装饰提供建议；角色：装饰建议提供者；范围：未注明日期的Valmontone别墅装饰书信；原断言与证据见发出端卡片“温琴佐·阿尔曼尼（Vincenzo Armanni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | ← 委托者（`commissioner_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | Pamfili 别墅工程，相关付款与材料分担脚注支持委托关系；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319,505–519; print pp. 9,13 |
 
-### 章内来源
+### 身份与外部链接
 
-- **S1：第一章p6，L179–185。** Vasalli证词说明优先服务仍须正常支付作品报酬。
-- **S2：p7，L231–233。** Mola、Cortese短暂离开Valmontone需许可。
-- **S3：p9，L312–319、329–330。** 题材咨询及Armanni来信。
-- **S4：p13，L495–497、505–506、516–519。** 食宿、预付款及材料条件。
-
-保留元数据中对[莫拉](pier-francesco-mola.md)与[科尔泰塞](guglielmo-cortese.md)的两条既有正式关系。本次新增亲缘、官职和收藏字段尚未转为新边；各字段已列证据。
-
-[Wikipedia](https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili)与[Wikidata Q2935138](https://www.wikidata.org/wiki/Q2935138)双向配对沿用REV-034。S5–S6为初对齐，S7–S10本轮补足。头衔授予文件、子女生年异文和各工程账簿待核；source_backed不变。[过程](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/camillo-pamfili定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili)
+- [Wikidata Q2935138](https://www.wikidata.org/wiki/Q2935138)

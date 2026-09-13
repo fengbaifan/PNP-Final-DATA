@@ -3,7 +3,7 @@ title: "教皇亲族任用（Nepotism）"
 name_en: "Nepotism"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -13,6 +13,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 56–70; print pp. 4
+  original_quotes:
+  - source_span: "lines 56–70"
+    text: |2-
+      These ‘speedy revolutions’ and the consequent rise of new families moulded the
+      patterns of art patronage. As successive popes came to the throne they surrounded
+      themselves with a crowd of relatives, friends and clients who poured into Rome from
+      all over Italy to seize the many lucrative posts that changed with each change of govern­
+      ment. These men at once began to build palaces, chapels and picture galleries. As patrons
+      they were highly competitive, anxious to give expression to their riches and power as
+      quickly as they could and also to discomfort their rivals. After the Pope died they were
+      often disgraced, and in any case their vast incomes came to a sudden end, for nepotism
+      no longer took the form of private empires carved out of the Church’s territory. ‘There
+      is no situation more difficult or more dangerous’, said Pope Gregory XV, who certainly
+      knew what he was talking about,2 ‘than that of a Pope’s nephew after the death of his
+      uncle.’ With the end of their incomes went the end of their positions as leading patrons.
+      It was especially noted of Cardinal Alessandro Peretti-Montalto, nephew of Pope Sixtus
+      V, that he was still respected and loved even after the death of that Pope, and that
+      artists continued to work for him.3 This was evidently not the usual state of affairs.
 - citation: "Wikipedia (en), Nepotism, revision 1369375299. https://en.wikipedia.org/wiki/Nepotism. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "亲族优待概念，英文页说明教皇侄辈任用的词源；本章限定为教皇家族语境。"
@@ -31,6 +49,7 @@ sources:
 - citation: "Judy Nadler and Miriam Schulman, Favoritism, Cronyism, and Nepotism, Markkula Center for Applied Ethics, Santa Clara University. https://www.scu.edu/government-ethics/resources/a-primer-on-government-ethics/favoritism-cronyism-and-nepotism/. Accessed 2026-09-10."
   location: "正文全文；采用定义比较部分，不采用其法制现况为本章依据"
   sentence_summary: "现代英文用法将家庭优待与朋友／同伴优待分开；这里的政治 patronage 也不能直接代替本书的艺术赞助。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-nepotism
 ---
 
 ## 内容
@@ -79,16 +98,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikidata Q161165](https://www.wikidata.org/wiki/Q161165) · [Wikipedia（en）Nepotism](https://en.wikipedia.org/wiki/Nepotism)。REV-034 身份配对复用；本轮 WP 全文已读。QID 配对只锚定概念，不保证其所有属性正确。
+### 身份与外部链接
 
-本卡尚无正式出边；蒙塔尔托、[格列高利十五世](../persons/gregory-xv.md)等本章事例可导航，但不按概念同现直接生成任用或赞助关系。
-
-S1：第一章 p.4，OCR L56–70，教皇更替与赞助收入；S2–3 为初步对齐；S4–7 为本轮外部资料。各条句意摘要为转述。
-
-**WD 属性裁决：** P279 指 Q10964327（cronyism），normal、无引用，不直接建立本项目概念上下位关系。P138 指 Q103860（Julius Nepos，罗马皇帝），normal、无引用，与已读词典的词源不符，不采用，也不把皇帝写成术语创始人。这不改变本概念与 Q161165 的既有身份配对。
-
-**未决：** 1692 年诏书条款、具体教皇时期的职位／收入制度和逐案亲族优待仍需史料；本章宽泛网络与现代术语窄义不能强行等值。已读百科中的现代人物、司法和就业案例不属本章研究范围，未导入。未预置任何 Topic、Theme 或发现结论。
-
-[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+- [Wikidata Q161165](https://www.wikidata.org/wiki/Q161165)
+- [Wikipedia（en）Nepotism](https://en.wikipedia.org/wiki/Nepotism)

@@ -3,7 +3,7 @@ title: "群青（Ultramarine / oltremare）"
 name_en: "Ultramarine / oltremare"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -13,6 +13,43 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 486–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 486–519"
+    text: |2-
+      More interesting and significant than obvious arrangements of this kind is the
+      question of expenses incurred by the artist in his work. ‘The usual thing is to pay painters
+      for the stretcher, the priming and for ultramarine’, wrote an agent to a prospective
+      patron in 1647, and this is confirmed in many other documents.2 Once again variations
+      were possible3—sometimes the painter was responsible for all expenses; on other occa­
+      sions he was given the canvas and had to pay for the ultramarine himself; very rarely
+      he was told, as in mediaeval days, that the colours he bought must be of the very finest
+      quality.4 The patron invariably paid for the scaffolding needed for ceiling frescoes,
+      and if the work took place away from the painter’s residence he would also provide
+      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+      treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
+      Prices for the work itself were regulated in widely different ways: many artists
+      had fixed charges for the principal figures in the composition, excluding those in the
+      background. Thus Domenichino was paid 130 ducats for each figure in his frescoes in
+      Naples Cathedral and Lanfranco too. This system was very widespread and allowed
+      painters to make regular increases in price as their reputations grew.6 However, the
+      1 Many examples of different kinds of payment could be given bere. In 1639 Francesco Albani was
+      given an exceptionally high proportion of the total sum as caparra—450 out of a 1000 lire (Gualandi, I,
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+      who was given 50 scudi as caparra and promised 180 more on completion of an altarpiece in Cortona for
+      Annibale Laparclli (Gualandi, IV, p. 117).
+      2 ‘è solito che si paghi a tutti i pittori il telato, imprimitura, et oltremare ...’—letter from Berlingete
+      Gessi to Don Cesare Leopardi d’Osimo, dated io July 1647, published by Gualandi, I, p. 40. And again:
+      ‘. . . Sappia che questo è lo stile che si pratica con ogni minimo pittore, cioè consegnarli la tela impresa, e
+      qualche denaro anticipato . . .'—letter from Carlo Quarisinini to Conte Ventura Carrara, dated 11 July
+      1696, in Bottari, V, p. 186.
+      3 In 1633 Camassei agreed in his contract with Urban Vili (see p. io, note 1) to pay himself sor ‘tela
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Wikipedia (en), Ultramarine, revision 1373556039. https://en.wikipedia.org/wiki/Ultramarine. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "历史天然群青颜料概念；不从现代合成群青或化学标准批次填充原合同。"
@@ -28,6 +65,7 @@ sources:
 - citation: "National Gallery, Studying Raphael: Pigments and medium. https://www.nationalgallery.org.uk/research/publications/studying-raphael/studying-raphael-pigments-and-medium. Accessed 2026-09-11."
   location: "研究介绍全文3107字符及图注"
   sentence_summary: "拉斐尔Ansidei Madonna的天然群青由青金石制成，用作圣母蓝衣最外罩染层；颜料、媒介及具体技术检测区分。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-ultramarine
 ---
 
 ## 内容
@@ -64,8 +102,9 @@ National Gallery对1505年《安西代圣母》的研究说明，圣母衣饰最
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia：Ultramarine](https://en.wikipedia.org/wiki/Ultramarine) ↔ [Q219660](https://www.wikidata.org/wiki/Q219660)保持配对，范围含天然及合成，本章只使用历史天然语境。全文29760字符及NG研究介绍全文已读。
+### 身份与外部链接
 
-[付款安排](../procedures/commission-payment.md)为导航；合同条款与实际供应分别有证据才能建边。S1第一章第13页L486–519及摘要保留，暂无正式关系，未制造实物批次KU。
+- [Wikipedia：Ultramarine](https://en.wikipedia.org/wiki/Ultramarine)
+- [Q219660](https://www.wikidata.org/wiki/Q219660)

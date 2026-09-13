@@ -3,7 +3,7 @@ title: 乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri
 name_en: Giovanni Francesco Barbieri
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 548–552,569–570; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,33 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 295–307, 548–552, 569–570; print pp. 9, 14"
+    original_quotes:
+    - source_span: "lines 295–307"
+      text: |2-
+        painter. Thus, in 1665, when Guercino was required to paint an altarpiece fora monas­
+        tery in Sicily, he was given the measurements and told that the figures were to include
+        the ‘Madonna de Carmine with the Child in Her arms, St Teresa receiving the habit
+        from the Virgin and the rules of the Order from the Child, St Joseph and St John the
+        Baptist; these figures must be shown entire and life-size and the top part of the picture
+        must be beautified with frolicking angels.’ Not satisfied with such instructions (which
+        in fact were more specific than usual), he wrote to ask whether the Madonna del
+        Carmine ‘is to be clothed in red with a blue cloak following church custom or whether
+        she should be in a black habit with a white cloak. Should the rules of the Order which
+        the Child is handing to the Saint be in the form of a book or a scroll? In that case what
+        words should be written on it to explain the mystery? Further, should St Teresa go on
+        the left or on the right?’ He also wanted to know how the picture was to be hung and
+        what the lighting would be like.3
+    - source_span: "lines 548–552"
+      text: |2-
+        the uncompromising rigidity with which Guercino enforced his own practice of
+        charging a certain sum for every figure painted: ‘As my ordinary price for each figure
+        is 125 ducats,’ he wrote to one of his most enthusiastic patrons, ‘and as Your Excellency
+        has restricted Yourself to 80 ducats, you will have just a bit more than half of one
+        figure.’6
+    - source_span: "lines 569–570"
+      text: |2-
+        9 Letter from Guercino to Don Antonio Ruffe, dated 25 September 1649, published by V. Rufifo,
+        P- 97-
   - citation: 'National Gallery, London, "Guercino (1591–1666)." https://www.nationalgallery.org.uk/artists/guercino. Accessed 2026-09-09.'
     location: "人物简介三段（NG）；姓名、生年区间、学习及罗马经历、迁居年份的限定表述"
     sentence_summary: "转述：简介说明全名、画家生平及罗马活动，并将迁居博洛尼亚表述为可能在 1644 年。"
@@ -48,6 +75,7 @@ sources:
   - citation: "Comune di Cento, \"Gian Francesco Barbieri detto Il Guercino (1591-1666).\" https://www.comune.cento.fe.it/it/page/gian-francesco-barbieri-detto-il-guercino-1591-1666 Accessed 2026-09-10."
     location: "迁居与购屋相邻段；附带 Reni 年份未采纳"
     sentence_summary: "转述：分列 1642-09-06 迁居与 1644 购屋，作为不同事件；迁居精确日仍待原档，不能据此解释 NG 异文的成因。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guercino
 ---
 
 ## 内容
@@ -76,7 +104,7 @@ sources:
 | 出生地 | 琴托（Cento） | S3 Biography；S9 |
 | 去世地 | [博洛尼亚（Bologna）](../places/bologna.md) | S3；S9 |
 | 文化归属 | 意大利（Italian）；馆方文化分类，不等同于现代国籍 | S3 Nationality |
-| 国籍／政治归属 | 待证 | 见第三部分 |
+| 国籍／政治归属 | 待证 | [异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guercino) |
 | 婚姻状态 | 终身未婚 | S10；并非由配偶字段缺失推定 |
 
 ### 身份标签
@@ -104,7 +132,7 @@ sources:
 | 1621–1623 | 在罗马作画 | [罗马](../places/rome.md)；[格列高利十五世](gregory-xv.md)及其赞助圈 | 本行记录活动时段 | S2–S3 |
 | 1623 | 返回琴托 | 琴托 | 教皇去世后返回 | S2–S3 |
 | 1629 起 | 开始账簿记录 | Paolo Antonio Barbieri | 由 Paolo 管理账簿和家务；原账簿未读 | S10 |
-| 1642 | 迁居 | 琴托 → [博洛尼亚](../places/bologna.md) | 工作年表采用年精度；异文见第三部分 | S10、S3 |
+| 1642 | 迁居 | 琴托 → [博洛尼亚](../places/bologna.md) | 工作年表采用年精度；异文[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guercino) | S10、S3 |
 | 1644 | 购屋 | 博洛尼亚 | 与迁居分为两个事件 | S12 |
 | 1649 年 Paolo 去世后 | 续记账簿 | Guercino | Ercole 后来亦管理账簿，具体交接顺序待原件 | S10–S11 |
 | 1649-09-25 | 报价及拒绝降价 | [安东尼奥·鲁福（Antonio Ruffo）](antonio-ruffo.md) | 主要人物每位 125 杜卡特，拒绝 80；仅限该通信语境及其自述惯例 | S1，p. 14，L548–552、569–570 |
@@ -150,24 +178,10 @@ sources:
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）](../archives/guercino-ruffo-letter-1649.md) | 书信作者；1649-09-25；每位主要人物报价交涉。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
 | ← 参与事件（`participated_in`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | Guercino 主动询问具体图像细节；时间：1665；角色：图像细节询问者；范围：只确认提出询问；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| ← 教师（`teacher_of`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](giovanni-bonati.md) | 传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异；时间：1655年后／约1658；角色：学生；范围：早期训练；不把来源中的精确年份差异强行统一；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；dbi-bonatti；本卡 S6；1655年后训练段 |
 | → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
 
-### 身份与证据范围
+### 身份与外部链接
 
-已完成 [Wikipedia Guercino](https://en.wikipedia.org/wiki/Guercino) ↔ [Wikidata Q334262](https://www.wikidata.org/wiki/Q334262) 身份配对；S5 为已全文阅读的英文对象页，S7–S9 支持身份及注明属性，Wiki 两站同属一个来源组。S1 支持本章活动，S2–S4 支持馆方生平与称名，S10–S12 仅按已读段落采用；外链、原档和全部书目不自动视为已读。整卡仍为 source_backed。
-
-### 待补与争议
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 迁居 | 采用 S10 与 S3 的 1642；保留 S2“可能 1644”的异文。S12 的 1642-09-06 尚待原档；1644 购屋不能反推 S2 异文成因 |
-| 附带日期 | S12 记 Reni 死于 1641，与 S10 的 1642 不同，未采用 S12 该说法 |
-| 账簿 | Paolo 死后 Guercino 续记与 Ercole 管理的具体交接顺序待核 |
-| 亲缘及称名 | 生洗原档、完整亲缘、历史拼写、荣誉与贵族头衔尚未系统核查；未查字段不填造 |
-| 政治归属 | WD 的教皇国值缺时间与引用，暂不作为确定国籍；宽泛的意大利地理区域值不扩成城市活动 |
-| 职业 | WD 的 designer 涉后世版画目录，未赋予现代设计师职业 |
-| 规范号 | Getty ULAN 500021925 为 WD 所列；原 ULAN 记录未读 |
-| 作品与叙述 | 西西里委托实物、完成及收藏待核；作品、弟子与展览只作线索。WP 的产量、“首次”格言及视力影响艺术等说法未另核 |
-| 完成状态 | 已有字段补足，但作品全集、研究书目及上述缺口未完成；格式整理不提升验证状态 |
-
-来源序号 S1–S12 按元数据 sources 顺序对应。字段采集、旧页码纠正、版本与判断变化保存在上述过程记录及其补足证据文件，本卡只保留当前结果。
+- [Wikipedia Guercino](https://en.wikipedia.org/wiki/Guercino)
+- [Wikidata Q334262](https://www.wikidata.org/wiki/Q334262)

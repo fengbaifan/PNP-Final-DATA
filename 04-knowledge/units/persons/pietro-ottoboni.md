@@ -3,7 +3,7 @@ title: "彼得罗·奥托博尼（Pietro Ottoboni）"
 name_en: "Pietro Ottoboni"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patron_of","target":"persons/francesco-trevisani.md","note":"本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 220–223; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"提供住处的同乡枢机与保护人","scope":"第一章未展开Ottoboni全名"}
@@ -17,6 +17,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 220–221,235–237; print pp. 7
+  original_quotes:
+  - source_span: "lines 220–221"
+    text: |2-
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a
+  - source_span: "lines 235–237"
+    text: |2-
+      5 ibid., p. 374.
+      6 See unpublished life of Trevisani by Pascoli in Biblioteca Augusta, Perugia, MS. 1383 and Battisti,
+      1953-
 - citation: "Wikipedia (en), Pietro Ottoboni (cardinal), revision 1371799937. https://en.wikipedia.org/wiki/Pietro_Ottoboni_(cardinal). Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1667–1740 年枢机；英文 Patron of the arts 节明确 Trevisani 在其宫廷居住，排除同名教皇 Alexander VIII。"
@@ -38,6 +48,7 @@ sources:
 - citation: "Giulia Daniele, TREVISANI, Francesco, DBI 96 (2019). https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文19203字符，含亲缘、迁居、家户、作品与书目"
   sentence_summary: "1698年Trevisani带家人入住Cancelleria，与Matitti的1705正式入家户分别表达；肖像约1692／1698／1700–09仍有文献异文。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-ottoboni
 ---
 
 ## 内容
@@ -104,7 +115,8 @@ sources:
 | → 赞助者／保护人（`patron_of`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](francesco-trevisani.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 220–223; print pp. 7 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1702年段 |
 | → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1695年入会段 |
-- 正式端点：[弗朗切斯科·特雷维萨尼](francesco-trevisani.md)；相关[阿尔卡迪亚学会](../institutions/arcadia.md)为访问入口，不自动加边。
-- 身份：[Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_Ottoboni_%28cardinal%29) ↔ [Wikidata Q725737](https://www.wikidata.org/wiki/Q725737)。旧正文“Pietro仍待消歧”已经落后于对齐结果，本次改正。Getty500323549仅核WD标识，原站未读。
-- S1保留第7页及脚注定位；S2–S4旧对齐，S5–S8为补足。1条正式关系保留，note中的章内未展开名字是原材料范围说明。
-- 未决：卒日原档、具体账簿／馆藏及早期肖像年代；待与Trevisani卡一起作关系收口。仍为source_backed。
+
+### 身份与外部链接
+
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_Ottoboni_%28cardinal%29)
+- [Wikidata Q725737](https://www.wikidata.org/wiki/Q725737)

@@ -3,7 +3,7 @@ title: "佩鲁贾（Perugia）"
 name_en: "Perugia"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 236–237; print pp. 7
+  original_quotes:
+  - source_span: "lines 236–237"
+    text: |2-
+      6 See unpublished life of Trevisani by Pascoli in Biblioteca Augusta, Perugia, MS. 1383 and Battisti,
+      1953-
 - citation: "Wikipedia (en), Perugia, revision 1373033931. https://en.wikipedia.org/wiki/Perugia. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Perugia 城市，符合图书馆和相关学术来源语境。"
@@ -28,6 +33,7 @@ sources:
 - citation: "Comune di Perugia, «Biblioteca Augusta». https://www.comune.perugia.it/biblioteca-augusta-perugia/. Accessed 2026-09-11."
   location: "复用本轮已读181行web全文，限馆史和Perugia/Porta Sole馆址；不当全城史料。"
   sentence_summary: "1582捐赠、1623公共开放；现址Palazzo Conestabile della Staffa，连接本章所引MS1383的机构与城市层级。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-perugia
 ---
 
 ## 内容
@@ -57,10 +63,6 @@ sources:
 - [奥古斯塔图书馆](../institutions/biblioteca-augusta.md)：1582年捐赠、1623年公共开放；现址为Porta Sole的Palazzo Conestabile della Staffa。[S6]
 - [MS.1383《特雷维萨尼传》手稿](../archives/pascoli-trevisani-life-ms1383.md)由原章指向此馆；馆史不能独立证明手稿正文。[S1]
 
-### 身份对齐
-
-复用[Wikipedia英文页](https://en.wikipedia.org/wiki/Perugia)与[Wikidata Q3437](https://www.wikidata.org/wiki/Q3437)双向一致结果；英文页revision1373033931全文已读，采用相关字段而非全页城市百科。
-
 ## 关系与证据
 
 ### 关系记录
@@ -68,6 +70,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 书中明确图书馆位于 Perugia；原断言与证据见发出端卡片“奥古斯塔图书馆（Biblioteca Augusta）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
 
-本卡未登记正式关系；图书馆与手稿链接是导航。S1第一章第7页L236–237，S2–S6为初步身份与本轮外证。
+### 身份与外部链接
 
-**不采用与限制：** WP中1375年教皇亲属称谓及部分统治者死亡日、1860年政体表述存在疑点，本卡不依其建立精确年表或关系。具体手稿与图书馆馆舍的原始登记仍以对象级资料为准；不从全城史补造手稿的迁藏史。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Perugia)
+- [Wikidata Q3437](https://www.wikidata.org/wiki/Q3437)

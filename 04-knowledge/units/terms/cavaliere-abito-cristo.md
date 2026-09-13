@@ -3,7 +3,7 @@ title: "基督骑士荣衔（Cavaliere dell’abito di Cristo）"
 name_en: "Cavaliere dell’abito di Cristo"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 774–777; print pp. 19
+  original_quotes:
+  - source_span: "lines 774–777"
+    text: |2-
+      artists seems to date back to the later years of the sixteenth century and is directly
+      related to the new awareness of their social value. By the middle of the seventeenth
+      century most artists of any distinction were made ‘Cavaliere dell’abito di Cristo’, and
+      this too was influential in establishing art on recognised and firm foundations.4
 - citation: "Wikipedia (en), Supreme Order of Christ, revision 1368726900. https://en.wikipedia.org/wiki/Supreme_Order_of_Christ. Accessed 2026-09-11."
   location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
   sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
@@ -22,6 +29,7 @@ sources:
 - citation: "Erich Schleier, “LANFRANCO, Giovanni”, Dizionario Biografico degli Italiani 63 (2004). https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "选读1625—1628年圣彼得工程及授勋段，未读整篇传记"
   sentence_summary: "1628年10月11日Scaglia向兰弗兰科授章；荣誉授予者为乌尔班八世。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-cavaliere-abito-cristo
 ---
 
 ## 内容
@@ -51,10 +59,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-- S1：第一章，印刷页19，OCR L774–777，支持章内用法。
-- S2–S3：候选页全文及WD记录，支持制度边界判断；不是本术语已配对。
-- S4：Erich Schleier的兰弗兰科传记选读段，支持授章个案；原授予文书未读。
-- 本次没有接收正式关系。兰弗兰科获衔仍缺直接授予记录，不能把无名概括连接到全部人物。
-- 未决：历史称谓与各时期勋章制度的精确法律对应、授予文书、具体权利。状态维持 source_backed。
+暂无正式关系。

@@ -685,3 +685,18120 @@ REV-060“已有219条关系均有据”的结论仍有效，但“第一章第�
 审计收口时进一步核实，旧检查错误地从整个frontmatter抓取第一项`doc_id`，会把关系证据的外部标识误作本地来源目录；现改为只审查`sources[].evidence_ref`。301卡均有可追溯来源元数据，437条显式来源定位全部可解析，错误引用为0。正文已承担的双语字段、可选`verification_level`、旧来源目录到处理目录的同名映射、旧处理包工件，以及尚未启动的发现阶段，不再进入当前系统缺陷和阶段门禁；历史诊断仍保留在健康快照中。
 
 本地闭包按与GitHub Quality gate相同的完整范围执行通过：内容机械缺陷0；226条关系的断端点、非法类型、缺反向映射、弱证据均为0；规则漂移0；8个Skill入口有效；274项测试通过。当前系统缺陷P0／P1／P2均为0。76个孤立KU是当前连接状态，不被当作必须补边的机械缺陷。页面数据未刷新，保留暂停前快照。
+
+## REV-067–068：具名作品闭合与全类型内容—关系复核（2026-09-13）
+
+### 范围与方法
+
+本轮连续执行REV-067的六项工作，并按REV-068扩展到九类有效知识实体。第一章原PDF、OCR、80个语义跨度及摄入／处理定稿未发生内容变化，故直接复用，不制造第二份“最终版”。语义工作从卡拉瓦乔人物卡的57项具名对象开始，逐项区分独立实物、同题版本、委托对象、复制品、失佚作品和归属争议；脚本只用于按已作判断写入卡片、投影关系、统计和机械检查。
+
+外部资料按对象选取Wikipedia、Wikidata及馆方、教堂、文化遗产机构或人物辞典。Wikipedia页面只在已保存全文或定向读取的字段范围内采用；Wikidata用于同粒度身份和适用结构字段，不把QID当成全部事实证明。对齐记录没有强制所有对象取得QID，也没有借用同名地点、作品系列或上级机构标识。
+
+### 分阶段结果
+
+| 阶段 | 执行内容 | 保存结果与判断 |
+|---|---|---|
+| 摄入 | 核对第一章来源、行页定位和卡拉瓦乔人物页既有全文证据 | 原章输入未变，沿用既有来源登记和摄入结果；未重新生成来源文本 |
+| 处理 | 复用L1–980逐行语义处理及80个跨度，回到已采纳内容定位57项具名作品和关系语句 | 处理定稿保持原位；外部页面读取和字段采用逐条追加到`enrichment-evidence.jsonl` |
+| 知识元 | 将57项页面记录辨析为61个独立作品对象，新建60个、复用1个；另建人物15、机构28、地点12、家族2，共新增117卡 | accepted由301增至418；新卡均含统一元数据、类型化内容、关系与证据三部分；委托对象、版本、建筑和机构不合并 |
+| 初步对齐 | 核对新增对象的同粒度页面和标识，并修正Santa Maria della Scala页面路径、Pinacoteca Ambrosiana页面粒度等问题 | 103卡具有Wikipedia—Wikidata双入口；3卡仅Wikipedia、5卡仅Wikidata、6卡无二者同粒度对象，均按适用来源记录，不判为失败 |
+| 补足 | 作品补题名、版本、年代、媒材、状态、委托、安置、现藏与争议；人物补姓名／头衔、基本信息、身份标签、履历和当前作品链；机构、地点、家族补自身性质、所在地／空间或谱系范围 | 54张端点卡的通用英文占位描述已改为与中文语义对应的描述；14张新增人物端点完成字段化重写；28家机构、11个地点及2个家族增加类型专属字段 |
+| 关系 | 从作品和各类型正文双向反查创作、委托、赞助、所有权、保管、预定／实际安置、师承、合作、朋友、成员、书信收件和程序实例 | 显式有据关系由226增至406；索引另有1条规则派生关系，卡内投影809行。关系类型、时间、角色、范围、原断言卡和证据入口均保留 |
+
+### 关键语义裁决
+
+- 仁慈山会作为慈善机构／文化资产管理主体，承担《七件善事》的委托与保管；同名建筑群中的教堂作为地点端点承担实际安置。机构、建筑和作品不混为一个对象。
+- 孔塔雷利礼拜堂和切拉西礼拜堂分别以`part_of`连接所在教堂；作品的`intended_for`与`installed_at`分开，第一版、替代版、合同委托对象与现存版本不互相顶替。
+- 馆藏机构用`held_by`，具体建筑／礼拜堂用`installed_at`，历史私人或家族收藏用`owned_by`；保管不自动等于产权。
+- 有明确依据的人物师承、合作、朋友和机构成员分别建边。来源只以“apparently”或人物自称支持的师承保留为候选，不提升为确定边；共处、同案、同一机构或风格相似不生成合作／影响关系。
+- 归属有争议、复制品或作者未定的对象保留作品KU和争议字段，但不为填满网络写确定`created_by`。不具名或无法消歧对象不建伪端点。
+- 文献、事件、程序和术语按自身语义处理：书信补`addressed_to`，程序可由有据事件`exemplified_by`；抽象术语没有当前可证正式关系时保持无边，不使用共现替代关系。
+
+### 未决与完成边界
+
+第一章第一部分按当前来源和已经采纳的事实完成本轮样例定稿。此结论不等于卡拉瓦乔作品全集、每位外部人物的完整作品目录、所有建筑通史或家族全谱。新增端点人物页面中与当前章节关系无关的作品、亲属和机构链接没有递归接收；后续若这些对象进入研究论证，再从相应事实回送知识元、对齐、补足与关系。
+
+仍有72个有效知识元没有正式关系，主要来自抽象术语、背景地点和证据不足对象；孤立状态只描述当前图谱，不构成补边指令。知识发现、知识涌现、页面刷新和第六章继续暂停。
+
+机械检查在写入和临时工件清理后得到：完整仓库闭包16步通过，274项测试通过；内容质量418卡、0项发现；关系断端点0、非法类型0、缺反向0、弱证据0；规则漂移0；系统结构契约130/130。机械结果只证明结构和契约一致，语义验收依据是上述逐对象辨析、来源范围和关系裁决。页面数据未刷新。
+
+## REV-072：来源原文与实体说明整理（2026-09-14）
+
+原书摘录依据sources既有精确定位提取，保留OCR原字与断行，不以摘要替代原文，不声称已逐页校勘；不连续位置分条保存。以下原说明按KU留存用于追溯，包含历史完成声明和旧判断，不自动作为当前结论；事实及必要限定仍以实体字段和实际来源为准。仅迁移说明，不新增实体或关系。
+
+### REV-072 archives-accademia-statutes-confirmed-1621
+
+对象：`04-knowledge/units/archives/accademia-statutes-confirmed-1621.md`。原卡SHA-256：`996a96839d4e97bfa4276f2ffd5b3eb29a2887ef458362434b0b1187846ee9ed`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 关系入口
+
+已有正式关系：`has_subject` → [圣路加学院](../institutions/accademia-di-san-luca.md)，保留“受章程规范的机构”角色及“具体文本版本未知”限制。文书确认者的叙述不由此自动新增正式边。
+
+### 身份与出处
+
+未确认本件独立Wikipedia—Wikidata配对，不借学院或教皇QID代替文献身份。S1为第一章印刷p.17、OCR L690–691；S2为官方目录印刷p.28；S3为保管机构说明。编号对应元数据，目录匹配支持文书定位，不证明全文真实性已经逐句核验。
+
+### 未决项
+
+还需原件图像／全文、物理抄本与Haskell引用链、条文和签署信息。档案号及存放柜位已补足，文本内容与Wiki配对仍未解决。
+````
+
+原内容中的过程说明：
+
+````markdown
+- 本次直接读的是2025年目录封面与相关选页，以及档案官网说明；未读章程原件，也未核实Haskell的具体档案底本。（S2、S3）
+````
+
+
+### REV-072 archives-ameyden-relazione-1642
+
+对象：`04-knowledge/units/archives/ameyden-relazione-1642.md`。原卡SHA-256：`4d720e481a1e8c71baacb7044595bf98ea73f66b401fa6cfd191287d7b42dc48`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与检索结果
+
+目前没有确认的[Wikidata检索入口](https://www.wikidata.org/)实体QID或对应Wikipedia对象页。REV-052按原语题名、1642年与MS.5001检索，未找到可确认双向配对的结果；检索未命中不证明不存在。不得借用作者Q3983865或图书馆Q2901274作为手稿QID。
+
+官方修复记录已直接读取，但不满足Wikipedia—Wikidata配对要求；卡片继续为 `source_backed`。
+
+### 证据链及未决
+
+本章转引 → 馆名及MS.5001 → 官方项目同号同题名记录；第三步补强实物识别，没有获得手稿正文。S3仅用于区分作者著述，不能证明具体写本内容。全部来源按元数据顺序S1–S3引用；查询及采用记录见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `archives/ameyden-relazione-1642`。
+
+尚待：可用的馆藏详细目录／数字原件、具体叶码与本章引句核对、作者署名及刊本对勘。保留实际缺口，不因无法Wiki配对而撤销有来源支持的原关系。
+````
+
+
+### REV-072 archives-armanni-delle-lettere
+
+对象：`04-knowledge/units/archives/armanni-delle-lettere.md`。原卡SHA-256：`384e608c7adc40fff1bdf0a230fc5c787d2cf0062ff8de360450f24ca9275da4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+文件头保留既有作者关系；正文链接是导航。S1–S5按文件头sources顺序对应，保留第一章第9页L329–330及书目定位。
+
+**裁决与限制：** Haskell把三卷出版地概列Roma；本次依原刊及专业传记区分卷I的Roma与卷II–III的Macerata。各卷献辞对象不同，不把全三卷都写成献给Camillo。1663、1674是刊印年，不是所收各信写作年。DBI中将1698书列于作者生前刊行的文字与1684卒年不合，未采用。原件、全卷内容和完整编辑史仍未核。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+仍无本信集独立的Wikipedia—Wikidata确认配对；不得借用作者QID。已有原题、分卷刊记和扫描标识改善了版本定位，但不是Wiki配对。
+````
+
+
+### REV-072 archives-armanni-pamfili-letter-undated
+
+对象：`04-knowledge/units/archives/armanni-pamfili-letter-undated.md`。原卡SHA-256：`1898a77e2c0c947b53ce372fd1f9008c90c4486ea638f88c7054cafcec837684`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+文件头保留3条既有关系：作者、收信人关联及刊收于信集。S1–S3按sources顺序。原章定位为第一章第9页L329–330。
+
+原刊影像的 `page/n256.jpg` 与 `page/n257.jpg` 分别核为印刷215、216页。邻近p.212另一封致Camillo信提及公证谱系副本，不将其附件、内容或日期并入本信。末尾下一封致Alfonso Scacucci的文字也不属本信。十一项题材只保留本信实际给出的信息，不生成十一个未经识别的作品知识元。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+仍无独立Wikipedia—Wikidata配对。刊本文本已逐页读至信尾；原信手稿、寄出地与精确日期未核。
+````
+
+
+### REV-072 archives-arragona-mantua-letter-1621
+
+对象：`04-knowledge/units/archives/arragona-mantua-letter-1621.md`。原卡SHA-256：`4ef8ba9505ec9ac2c4e8e14986acf86a37e487a69a31ef5270ca01c2da12ca35`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L542–547, 567–568。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按发信人、受文角色、日期、地点语境、经济条款和刊布链完成结构化。对象没有独立Wikimedia条目，不强配QID；收信人姓名、手稿与档号仍未解决，已作为真实载体缺口保留。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Fabrizio Arragona to a Mantuan Ducal Minister (1621-10-09) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信定位 | Fabrizio Arragona；1621-10-09；收信大臣未具名 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-baldoini-painter-appointment
+
+对象：`04-knowledge/units/archives/baldoini-painter-appointment.md`。原卡SHA-256：`f19cfd48c481c822121cb5cc16ef194c783a1d29212367cd1ada9a68ba9d7b81`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+正式关系把[巴尔多伊诺](../persons/gio-gasparo-baldoini.md)登记为文书 `has_subject` 的受任画家，把[毛里齐奥](../persons/maurizio-di-savoia.md)登记为文书的 `issued_by` 任命者；两条均保留签署日期未知的限制。
+| 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1；语义导航 |
+
+无确认Wikipedia／Wikidata对象；不借出版物作者或受任人的QID。S1章内位置为p.6、OCR L173–175、188–189；S2为馆藏书目范围，S3为人物对应研究。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留阅读范围。已保存书目与身份补足，原件待证，evidence_status仍为source_backed。
+````
+
+
+### REV-072 archives-bertolotti-artisti-bolognesi
+
+对象：`04-knowledge/units/archives/bertolotti-artisti-bolognesi.md`。原卡SHA-256：`250b5fa9ef36d0ed4795b514808a81b48e0ebd5ab8dd4fd72bf1762c62c327d4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+尚无正式关系。S1第一章第10页L372–374、S2书目原称n.d.及“收据”的摘要作为来源叙述保留；本次直接读刊本的文种、年与冲突以S3另列。
+
+**关键未决：** 1633署日与已核[马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md)1629卒年不合；原刊又写Antonio Camassei。不能把这项付款直接写入萨凯蒂1633生平或自动更正人名／日期。印刷161–162页对应本次查看 `page/n174.jpg`、`page/n175.jpg`；OCR及扫描叶序不能代替印刷页码。第162页随后Guercino的1638年收据是另一文书，不并入此令。未读全书、1886记录所指实物及原档。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+尚无该书的独立Wikipedia—Wikidata配对。不借作者QID；1885本题名刊记与1886编目记录分别保存。
+````
+
+
+### REV-072 archives-bianconi-letter-1762
+
+对象：`04-knowledge/units/archives/bianconi-letter-1762.md`。原卡SHA-256：`d13ed9843f25be357506198280f6f81f8a3384236c802bbdf3a6352089f70946`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L896–898。S2：Bottari–Ticozzi 卷 VII，第 X 信，pp. 357–362。S2 为本次阅读全文的刊本文本，支持发受人、日期、地点与全文语境；尚未追到手稿原件、档号或 Haskell 实际使用的具体版本。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已读可访问的完整刊本文字，补齐作者全名、收信人、信件编号、页码、署地、日期、语言与论述语境。信件没有独立 Wikimedia 身份，保留 `source_backed`；手稿原件、原始档号和 Haskell 所用版次未从现有证据解决，不妨碍当前文献对象的明确定位。
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份已由刊本定位。** 该信没有独立 Wikipedia／Wikidata 条目，故不借用作者或收信人的 QID。S2 的标题、正文结尾署地与日期和 Haskell 的引文共同确定本卡所指文献；先前因收信人不明而保留的状态已经解除。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-camassei-sebastian-receipt
+
+对象：`04-knowledge/units/archives/camassei-sebastian-receipt.md`。原卡SHA-256：`2c6c9f53e6991466f58fa1836b3afb08a60007ef258c720ea5d271829827aaad`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+没有该文书的Wikipedia—Wikidata配对。原章第10页L335–338、372–374及旧来源摘要保留，以便追溯早期“收据”判断。
+本次把旧“收据”措辞改为付款令，并将刊本关系由 `part_of` 改为 `derived_from`；文种与原档同一性限制保留。
+
+1633署日与Marcello Sacchetti1629卒年冲突；不得据本刊令生成其1633付款事实。另页Guercino1638收据不属本文。现已读刊本，不称原件或签署本已读。
+````
+
+
+### REV-072 archives-camassei-urban-contract-1633
+
+对象：`04-knowledge/units/archives/camassei-urban-contract-1633.md`。原卡SHA-256：`4dc575960e0c6a203b2402b4f9ffa786490ec34dcd6ca4a6a9a7b19b8e21de54`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1第一章第13页L514–516保留；S2实际读到的付款令；S3专业传记支持1633圣塞巴斯蒂安付款及作者关联。既有Camassei与Urban VIII两条来源支持关系保留，正式note中的“合同”限于Haskell用语，交关系复核处理。
+
+**未决：** 刊本写Antonio Camassei而非Andrea，并在1633命已于1629去世的Marcello Sacchetti付款。专业传记及相关准备稿能改善作品识别，不能替原档消除这些异文。原协议、签名及实际结算凭证未核。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+无独立Wikipedia—Wikidata配对。与[付款文书卡](camassei-sebastian-receipt.md)存在可能同源关系；既不能继续确定地说二者不同，也不能直接合并删卡。
+````
+
+
+### REV-072 archives-caravaggio-altarpieces-contract-1600
+
+对象：`04-knowledge/units/archives/caravaggio-altarpieces-contract-1600.md`。原卡SHA-256：`e1a537121ff8280e10e86397cd10f12c6fa8c31a718c875c87326cf061a3999f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本合同没有可确认的独立Wikipedia—Wikidata配对，不能借用画家或其中某幅作品的QID。来源S2的英文对象页全文已读，S3网页记录全文已读；两者支持本轮条款线索，不等于看过合同手稿或刊本原页。
+
+文件头两条has_subject分别连到[圣保罗委托](../works/caravaggio-conversion-saint-paul.md)与[圣彼得委托](../works/caravaggio-martyrdom-saint-peter.md)；同一合同不复制成两份档案。[画家](../persons/caravaggio.md)为关联导航，本轮未新增边。
+
+**未决：** 核对Friedlaender p.302及完整上下页、签署人、公证人与原件藏所。官方目录将两作品概称tele，英文作品史指原约柏木板；本轮不将目录概述当原合同逐字转录。原章内证据及已有关系不因缺Wiki配对失效。来源编号、章页／行号及句意摘要保留于元数据。
+````
+
+
+### REV-072 archives-cellini-autobiography
+
+对象：`04-knowledge/units/archives/cellini-autobiography.md`。原卡SHA-256：`44d405bca0c0b2e414b5c6146f53e38644bfa87888aefd380f9fda94fa0bdde1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页16；OCR L634–635。S2：Wikipedia（it）全文，revision 151158550，7175字符。S3：Wikidata Q4014886 revision 2379066146；所采P50、P577、P407、P136均带GND来源组。Wikimedia两者用于身份与通用书目信息，作为同一来源组，不计为两份独立事实证据。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** Wikipedia–Wikidata 双向身份核对、页面全文阅读和适用结构字段提取均已完成；补齐原题、作者、语言、体裁、写作期、首刊、手稿流转、早期翻译、内容立场与版本边界。未识别 Haskell 所用具体版本，因此只保留该项明确缺口。
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过并完成全文补足。** [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) revision 151158550 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致。全文已读；Wikidata 仅接收带参考的作者、首次出版年份、语言与体裁，页面的编辑史和内容分析不冒充对 Haskell 所用版次的证明。
+
+[Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) 的 wikibase_item 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-coke-arundell-letter-1620
+
+对象：`04-knowledge/units/archives/coke-arundell-letter-1620.md`。原卡SHA-256：`355a4efe4c681dd98cb090969efbdca4b68ecbc9c47d7b3d8cc9fb18b065c18c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+| 关系 | 对象 | 证据／状态 |
+|---|---|---|
+| 作者 authored_by | [托马斯·科克](../persons/mr-coke-rome-correspondent.md) | 文件头既有正式边；S1依据保留，S2–S3补强姓名 |
+| 收信人 `addressed_to` | [托马斯·霍华德，阿伦德尔伯爵](../persons/lord-arundell-coke-correspondent.md) | 文件头已有正式收信关系；不是共现 |
+| 评论地 | [罗马](../places/rome.md) | 仅为内容导航，不建立“写于罗马”关系 |
+
+**证据链：** 原件（未读）→ Hervey刊本（定向读pp.181–184的OCR）→ Haskell本章（已逐行读）；Steer为补充馆藏目录。刊本和Haskell不是两份独立的事件见证。
+
+**当前改正与未决：** 已补入发受者全名和No.249，撤回人物旧稿中的“罗马来信”推断；保留原件历法、完整文本校勘、签名、纸本规格、地址及现行馆藏编号缺口。全文书信是否完整刊出未确认，刊本末有省略号，不声称读过完整原信；未找到确认Wiki对象，不记双重验证通过。本次关系复核维持作者与收信人两条正式关系。
+
+[初步对齐](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [本轮补足证据与裁决](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 archives-colnaghi-catalogue-1961
+
+对象：`04-knowledge/units/archives/colnaghi-catalogue-1961.md`。原卡SHA-256：`a259cf51d9a7d2aa04ba9e95a30f9865ccdb1ddde6159f44d3c66b2d75828264`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L467–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已明确目录类型、责任机构、日期、条目号、所涉稿本和可支持事实的上限。公开检索未取得完整目录或no.2图版，因此不虚构正式题名、成交性质或馆藏号；该缺口已具体化，不再保留泛化待办。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Colnaghi Catalogue (May–June 1961, no. 2) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 目录定位 | 1961 年 5–6 月；第 2 号；Sacchi 祭坛画稿 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-de-rosis-ruffo-letter-1663
+
+对象：`04-knowledge/units/archives/de-rosis-ruffo-letter-1663.md`。原卡SHA-256：`31f6fb0e39536f32cf54ce8514512d96a17f89065303ef3cc5e0b511c99a71aa`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 23；OCR L957–958, 971–972。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按通信双方、日期、所论人物、评价内容、证据性质和刊布链闭合。该信没有独立Wikimedia条目；“宁愿挨饿”保留为de Rosis评价，不升级为Rosa生平事实。原件与档号仍未取得。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Giuseppe de Rosis → Antonio Ruffo；1663-09-22 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-ferri-ruffo-letter-1672
+
+对象：`04-knowledge/units/archives/ferri-ruffo-letter-1672.md`。原卡SHA-256：`bcf089c414f63a3b2400a6ebf15e67cf69f742871989e37cd66aa2e159d0586b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 23；OCR L974–978。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成通信身份、日期、核心陈述、限定语和刊布链的结构化。拒收预付款不能脱离“事务繁多”的后句解释；原件、档号与具体委托对象尚未取得，明确保留。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Ciro Ferri to Antonio Ruffo (1672-09-19) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Ciro Ferri → Antonio Ruffo；1672-09-19 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-gavasetti-piacenza-contract-1624
+
+对象：`04-knowledge/units/archives/gavasetti-piacenza-contract-1624.md`。原卡SHA-256：`8593045f1e42bfd0e321bb31c4b9a4befbc33afc1b3baff1ac8c35db435fd356`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页9；OCR L323–326。S2：第一章；印刷页13；OCR L520–521。S3：意大利国家文化遗产目录0800158480。S4：Treccani《意大利人传记辞典》Camillo Gavasetti全文。S3–S4未提供合同逐字全文，因此精确措辞仍只按S1转引。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已补齐精确日期、委托对象、期限、创作权限、材料条件、履行结果、原件保存地和全文刊布史。原档与Bertuzzi 1939刊本文字尚未直接读取，作为载体层限制保留；现有多源证据已使文献对象与主要条款闭合。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Terms for Gavasetti's Piacenza Frescoes (1624) | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 内容定位 | 第 9 页图像条款；第 13 页上等颜料要求；1624 年 S. Antonino 工程 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份通过来源链定位。** 本合同没有独立 Wikipedia／Wikidata 条目，故不借画家或作品QID。意大利国家文化遗产目录提供精确日期、保存机构和1939全文刊布线索，Treccani提供合同对象、期限及实际延误，二者与Haskell引文相容。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-gessi-leopardi-letter-1647
+
+对象：`04-knowledge/units/archives/gessi-leopardi-letter-1647.md`。原卡SHA-256：`89bc197a0b1c6dcc9e0b47e959146d2c9c14a45879f53a27c8253dfaa01ed6cd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L486–489, 509–510。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按通信双方、日期、成本字段、适用范围和刊布链闭合。“惯例”仅作为该信的同时代陈述，不提升为跨地域普遍规则；原件、档号和具体委托背景未解决。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Berlingero Gessi → Don Cesare Leopardi d’Osimo；1647-07-10 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-gini-cortona-letter-1666
+
+对象：`04-knowledge/units/archives/gini-cortona-letter-1666.md`。原卡SHA-256：`12df21a96de79e37ef3ac4eedf40136c218a4c03eedf73abe51606ec0d0c5dfc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L383–385,415–418。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已补齐作者身份、委托对象、语义主张、后续通信区别与刊布链。本卡没有独立Wikimedia身份；月日、收信人和原档仍未取得，保留为精确载体缺口。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 作者与转引 | Onorato Gini；1666；Claretta 1885 p.516 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-giovanni-adamo-piola-letter-1690
+
+对象：`04-knowledge/units/archives/giovanni-adamo-piola-letter-1690.md`。原卡SHA-256：`531774a68240fc4b8e65c6bbcca7574d92d98c411132df44ee3e584fb9ee2fc4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 10；OCR L354–356,376。S2：Bottari–Ticozzi 卷 VI，第 XXVII 信，pp. 147–148。S2 为本次阅读全文的刊本文本，支持发受人、称号、内容、署地和日期；人物身份还将在对应人物卡中以 Wikipedia–Wikidata 双向核对。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已读完整刊本文字，补齐信件序号、作者身份、收信人、署地、日期、语言、画幅／人物要求、选题权限、完成时间与价格条款。手稿原件、原始档号及附带尺寸图未在刊本 OCR 中解决，明确保留为载体层缺口。
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份已由刊本定位。** 该信没有独立 Wikipedia／Wikidata 条目，故不借用作者 QID。S2 的序号、发受人、委托条件、署地和日期与本章脚注一致，足以确定本卡所指文献。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-grassi-cortona-bozzetti-1957
+
+对象：`04-knowledge/units/archives/grassi-cortona-bozzetti-1957.md`。原卡SHA-256：`1ec905fe2166a1269d8bb76e1de9d090ea3487c90331d61fdab1708229bff0cd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页12；OCR L461–463。S2：同书书目；印刷页424；OCR L546–547。S3：意大利文化部《Bollettino d’Arte》全文PDF，pp.28–43，本轮逐页读完。归属、年代和风格判断均标为Grassi的论证，不提升为档案事实。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已从官方期刊站阅读全文，补齐正式题名、作者全名、卷期页码、对象、方法、归属与年代意见、论证边界及图版范围。本卡作为研究文献已经闭合；其归属结论保持“作者判断”证据层级。
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份已由期刊原文定位。** 该论文没有适用的独立 Wikipedia／Wikidata 条目，不借作者、期刊或作品QID。文化部《Bollettino d’Arte》官网提供的题名、作者、卷期、页码和完整PDF与Haskell书目一致。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-guercino-ruffo-letter-1649
+
+对象：`04-knowledge/units/archives/guercino-ruffo-letter-1649.md`。原卡SHA-256：`f35143c483b4c215317a0d1ae279fb6738d1a7ddf1dd7902986fab85ce69c752`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L548–552, 569–570。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按通信身份、报价单位、双方金额、谈判修辞和刊布链闭合。125 ducats是Guercino自述的通常价格，不登记为行业统一定价；具体作品及原档尚未确定。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Guercino to Antonio Ruffo (1649-09-25) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 金额与日期 | 125／80 ducats；1649-09-25；报价而非统一行业价格 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-lanfranco-barberini-letter-1640
+
+对象：`04-knowledge/units/archives/lanfranco-barberini-letter-1640.md`。原卡SHA-256：`f706afda9e51048dfd9817d24ac1b2a7164c76152bb34f5d2dcd9afe0a088a9d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页11；OCR L408–425。S2：Schleier，DBI“Lanfranco, Giovanni”全文中1640段。S3：Pollak 1913 p.26的版本链仅据Haskell，未直接读取。DBI是后出的研究叙述，不替代手稿原件。
+
+文件头现保留作者与收信人两条正式关系，各自带有 note、evidence_ref 和必要角色限定；内容中的其他提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已补齐受文人、目标祭台、前序委托、提案方式、准备性素描和未获委托结果，并保留Pollak—Haskell刊布链。手稿原件与档号仍未取得；现有来源足以区分“请求委托”与“实际获委托”。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14) | S1；标题中的语境说明为登记用语 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份通过来源链定位。** 该信没有独立Wikipedia／Wikidata条目，不借人物或建筑QID。Haskell提供日期、出发地、题材和Pollak页码，Schleier的DBI全文明确了Francesco Barberini、前序委托和未获委托结果；两者语境一致。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-lhoggidi-1627
+
+对象：`04-knowledge/units/archives/lhoggidi-1627.md`。原卡SHA-256：`e226a5db5e6debce5213387e235021dce2f89fbc890be30d65a17e78fe754b15`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+本著作／具体刊本尚无确认QID或配对Wikipedia页。[作者传记](https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/)支持版本信息；作者的QID不充当本书QID。REV-034版本待证状态保留，未借字段补足自动提升身份状态。
+
+### 证据与未决项
+
+S1是转引入口；S2是先前版本核查；S3是本轮有范围的复核，三者不代表读过原件。未核1627题名页、完整出版说明、页码或馆藏标识，不强填ISBN或QID。当前完成版本字段补足及冲突区分，尚非刊本鉴定完成。
+
+[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。
+````
+
+
+### REV-072 archives-minnitti-augusta-terms-1617
+
+对象：`04-knowledge/units/archives/minnitti-augusta-terms-1617.md`。原卡SHA-256：`1293405cab3fa2dcaefba6037771befc8ee10b983b57822d67c008215520765f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L321–322。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已把对象限定为“1617年Augusta委托条款的刊录”，并补齐研究刊布信息和不可推断字段。公开检索未取得Agnello全文或原档，因此题材、金额等保持未知；这是明确的来源不可达结论。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Published Terms for Minnitti's Augusta Commission (1617) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 对象定位 | Mario Minnitti；Augusta，Sicily；1617；Agnello 刊录线索 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-mola-borrowed-genealogy-gods
+
+对象：`04-knowledge/units/archives/mola-borrowed-genealogy-gods.md`。原卡SHA-256：`eb37f3c3ff57011d71e0d6bd256d0742b62489ed25fc1df94a70b6bce254eeef`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L312–316。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已把借阅人、出借人角色、用途、后续图像选择和刊布链分字段记录。任何Boccaccio或其他神谱候选都缺少版本证据，故正式结论是“语境对象可确认、书目身份不可恢复”，不再泛化待配QID。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Genealogy of the Gods Borrowed by Mola (title unidentified) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 书目边界 | 原文 a genealogy of the gods；作者、原题和版本待核 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 原文只说神谱书；作者、正式题名和版本不明，不能凭主题认定 Boccaccio 或其他著作。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-mola-borrowed-virgil-commentary
+
+对象：`04-knowledge/units/archives/mola-borrowed-virgil-commentary.md`。原卡SHA-256：`91947617db9b4da21ed83cafe3aa259049c47cfc56135443fbb5df9b2afc328d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L312–316。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按借阅人、出借角色、用途、文本边界、后续图像选择和刊布链闭合。正式结论是“带注释的维吉尔文本存在于该语境，但版本不可识别”；不强配《埃涅阿斯纪》或任意Wikidata书目项。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Annotated Virgil Borrowed by Mola (edition unidentified) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 书目边界 | 原文 a Virgil with a commentary；不指定《埃涅阿斯纪》或注释者 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 原文只说带注释的 Virgil；诗人身份明确不等于所借书的题名、注释者和版次明确。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-mola-pamfili-contract-1657
+
+对象：`04-knowledge/units/archives/mola-pamfili-contract-1657.md`。原卡SHA-256：`f52ed21ea7e4d71bc3052810bcb8beb98d49e2cdb5ed82131220b96353c43db3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+仍无独立Wikipedia—Wikidata配对。S1第一章第13页L505–506、514–519；S2本次定向回读Mola专业传记的方案、工作及诉讼段。原有工程主题关系保留；[四元素方案](../works/mola-four-elements-valmontone.md)与建筑、具体实物分开。
+
+原合同、诉讼文书及付款账簿未读；不能把方案总额当实付，也不能从分期数推断每期日期。来源中不确定材料词形保留待核，未开展第六章。
+````
+
+
+### REV-072 archives-negri-san-tommaso-letter-1676
+
+对象：`04-knowledge/units/archives/negri-san-tommaso-letter-1676.md`。原卡SHA-256：`98e47155088cf6cfdfa4d1b8b505807d7c823a39745c7e6c374402aa471b3b4b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L889–900。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已结构化通信身份、日期、评价对象、陈述内容、证据性质与刊布链。该句只登记为Negri的评价，不转成Perugini的医学或人格事实；受文人全名和原档仍未知。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Paolo Negri → Marchese di S. Tommaso；1676-12-24 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-novetti-ruffo-letter-1670
+
+对象：`04-knowledge/units/archives/novetti-ruffo-letter-1670.md`。原卡SHA-256：`05fdb623b187d61055f9f8cdb8a446c1b7073fcd093e9eec7613a232b5808ddd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 18；OCR L750–758。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成发受人、日期、所论画家、修辞含义、刊布链和Haskell作者名误排的裁决。原信全文与具体委托未取得；抱怨不被泛化为Maratta的固定行为规则。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Francesco Novetti to Antonio Ruffo (1670-03-22) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Francesco Novetti → Antonio Ruffo；1670-03-22 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-pascoli-trevisani-life-ms1383
+
+对象：`04-knowledge/units/archives/pascoli-trevisani-life-ms1383.md`。原卡SHA-256：`039faef5e2f4877fc734dfc674451ca478f1f24849893253e756de76e43f22eb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 作者：[帕斯科利](../persons/pascoli.md)；传主：[特雷维萨尼](../persons/francesco-trevisani.md)；引用保管机构：[奥古斯塔图书馆](../institutions/biblioteca-augusta.md)。本次复核维持三条正式关系及原章定位；今日馆藏状态仍按卡内证据范围解释。
+- S1：第一章，第7页，L236–237。S2：Daniele2019文末Pascoli书目条；编号对应文件头sources。
+- **身份：尚未确认Wikipedia—Wikidata配对。** 不借作者或图书馆QID代替手稿。尚需馆方项目目录确认原题、叶码、当前馆号及1981刊本的具体编辑责任。
+- 本轮补入书目与版本事实；不是手稿内容已读、外部身份已确认或全文事实验证完成。
+````
+
+
+### REV-072 archives-patrons-and-painters
+
+对象：`04-knowledge/units/archives/patrons-and-painters.md`。原卡SHA-256：`816b1eed1f246459303872e9c2d1c99ff381de257722026f071eb772ae33bfcd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份与外部链接
+
+[Open Library 1980版记录](https://openlibrary.org/books/OL4093986M/Patrons_and_painters)。本书尚无确认的Wikipedia—Wikidata配对；作者身份标识不能代替著作或版次标识。
+
+### 证据与未决项
+
+S1直接支持使用版本与2006印次；S2支持1980版编目信息。Open Library为可编辑书目汇聚记录，ISBN与具体馆藏仍需相应图书馆记录或本件版权页核对。没有据该记录声称通读全书、核定所有版本或完成Wiki配对。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+````
+
+
+### REV-072 archives-quarisimini-carrara-letter-1696
+
+对象：`04-knowledge/units/archives/quarisimini-carrara-letter-1696.md`。原卡SHA-256：`612699904799abfafe4ff611604f60004375306cfe1f6d4b691ebc5a4a212c05`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页13；OCR L511–513。S2：Bottari–Ticozzi卷V，第XLVI信，pp.185–187；本轮阅读全文。S2支持书信语境与完整条款，但不等于手稿原件。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已读完整刊本文字，补齐刊本序号、署地、工程、艺术家、材料供给、预付款和结算方式。手稿原件及原始档号仍未知，明确保留为载体层缺口。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Carlo Quarismini → Conte Ventura Carrara；1696-07-11 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份已由刊本定位。** 该信没有独立 Wikipedia／Wikidata 条目，不借发信人、收信人或画家QID。S2的信件序号、通信双方、署地日期和材料／付款条款与Haskell引文一致。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-ricci-bologna-terms-1682
+
+对象：`04-knowledge/units/archives/ricci-bologna-terms-1682.md`。原卡SHA-256：`953d2f4fe51eb51c0b2299ff141708375940021b660c299434b5ac7d88af5e15`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页9；OCR L326–328。S2：Stefani 2015，第2章p.27及注3。条款的逐字内容来自Haskell引von Derschau，日期与研究定位由S2补强；两者均非原档直接阅览。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已补齐精确日期、善会规范名、执行者、题材条款、作品失佚状态和刊布链。原档号及原始载体尚未取得，明确保留；当前卡已足以支持委托条款的语义边界。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Terms for Ricci's Beheading of Saint John the Baptist (1682) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托与刊引 | Bologna 善会 → Sebastiano Ricci；1682；von Derschau 1916 pp.168–169 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**文献身份通过研究文献定位。** 该委托条款没有独立 Wikipedia／Wikidata 条目，不借画家、作品、善会或礼拜堂QID。S1的条款摘引与S2的日期、委托方和失佚状态共同确定对象；善会机构与其使用的礼拜堂建筑保持分离。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-rosa-ruffo-letter-1666
+
+对象：`04-knowledge/units/archives/rosa-ruffo-letter-1666.md`。原卡SHA-256：`4f1489f3c711cb0770f91afc682287f934cd8e43decab79df3f9a684450ce455`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 22；OCR L937–947。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按通信身份、日期、艺术家自述、证据性质和刊布链闭合。该段是Rosa的自我表述与委托谈判姿态，不转写为客观经济独立事实；原件和具体委托仍未知。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Salvator Rosa to Antonio Ruffo (1666-04-01) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Salvator Rosa → Antonio Ruffo；1666-04-01 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-salviati-medici-letter-1662
+
+对象：`04-knowledge/units/archives/salviati-medici-letter-1662.md`。原卡SHA-256：`afc2dbc489ea6f1108177ee07ff6007dff937b1b511b815161382244a2b68630`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L537–540, 565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已按代理通信的发受人、日期、购买对象、定价报告、证据性质与刊布链闭合。具体作品、金额、原档与全文仍未知；该报告不泛化为Claude的全部交易制度。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信双方 | Jacopo Salviati → Leopoldo de’ Medici；1662-07-22 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-savini-gubbio-terms-1608
+
+对象：`04-knowledge/units/archives/savini-gubbio-terms-1608.md`。原卡SHA-256：`564d133dafbcb54b99a123d5c1d9f8bdf36dfb5c19cd8b432e069d531599857b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L321–322。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已将对象限定为1608年Gubbio委托条款的刊录，补齐刊布链、可支持范围与不可补写字段。公开检索未取得Gualandi原页或原档，因此保留明确的来源不可达结论，不强配QID。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Published Terms for Savini's Gubbio Commission (1608) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 刊引定位 | Saverio Savini；Gubbio，1608；Gualandi IV p.60 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
+````
+
+原表达：
+
+````markdown
+### 补足字段（REV-055，2026-09-11）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 archives-testi-fontana-bernini-letter
+
+对象：`04-knowledge/units/archives/testi-fontana-bernini-letter.md`。原卡SHA-256：`1ea005774a7b5bdd467c482cce50d2855fafc3a18557851f82312411a32d200f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+尚无该封具体书信的 Wikipedia—Wikidata 配对。英文及意大利语查询未定位对象页，不证明条目不存在，也不以作者或胸像 QID 代替。S2 支持刊本文字及信末信息，不能替代手稿核验；整卡仍为 source_backed。语言字段描述所读刊引，不冒称完成原手稿语言鉴定。
+
+### 待补
+
+| 字段／问题 | 状态 |
+|---|---|
+| 手稿原件 | 未核 |
+| 今日保管机构 | 未核 |
+| 索书号 | 未核 |
+| Campori 初刊题名、日期及版次 | 未核 |
+| 收信人进一步身份 | 见人物卡带依据的判断；同名消歧仍有缺口 |
+| 具体作品及付款原据 | 不能仅凭信中转述补定版本与支付事实 |
+
+S1–S2 对应元数据 sources 顺序。REV-016 补漏、REV-028–030 补证及本轮整理的过程见[knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)；固定路径原位更迭。
+````
+
+
+### REV-072 archives-vasalli-testimony-mola-pamfili
+
+对象：`04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md`。原卡SHA-256：`19dcf263ae4496e7bc8c9fe3ff8f8803a1172fdec9f30307141ee25a9b225c4a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**S1：第一章p.6、L179–185；S2：同书书目L836–837；S3：馆方书目PDF第1页。** S2–S3支持刊物识别，不独立证实原证詞史实。
+
+已有2条正式关系保留：[作证者瓦萨利](../persons/alessandro-vasalli.md)、[特定保护人服务](../terms/servitu-particolare.md)。相关[莫拉](../persons/pier-francesco-mola.md)与潘菲利争议不能由仅有书目资料扩成新的诉讼事实。
+
+尚无此证词对象的Wikipedia—Wikidata配对；不借论文作者、画家或宫殿QID。已保存刊引及内容范围补足；原件、原刊p.295、准确档号和判决结果仍待证，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 events-accademia-tax-privilege-1633
+
+对象：`04-knowledge/units/events/accademia-tax-privilege-1633.md`。原卡SHA-256：`7b1bd278ece817e78bda1481ba2110828612a1b5b8a918ee85755a29c459754a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 正式关系入口
+
+- `has_participant` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为拟议措施的受益机构。
+- `has_participant` → [乌尔班八世](../persons/urbano-viii.md)，角色限定为措施发生时的教皇与授权权威。
+
+本次复核维持学院与乌尔班八世两条正式关系；教堂细分及撤回范围没有足够端点，不扩写正式边。
+
+### 身份与来源
+
+尚无本事件独立Wiki配对；学院Q338523不是事件QID。S1为第一章印刷pp.17–18、OCR L696–698及717–722；S2为官方目录pp.23–24；S3为已读学院Wikipedia全文。未读1633或1670原brief，法律条文和执行个案仍待核。
+````
+
+
+### REV-072 events-guercino-iconography-query-1665
+
+对象：`04-knowledge/units/events/guercino-iconography-query-1665.md`。原卡SHA-256：`80be1f4bdad3b6d82bcf5c55e8f74f374be2c9c4953af807bbb1d056cce368ab`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1为第一章章页／行号；S2为Zeri对象目录全文；S3只作未读书目入口。本次维持人物、作品和程序三条正式关系；新增地点和毁失信息未形成同粒度正式边。
+
+文件头保留 3 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+### 对齐与未决项
+
+该具体协商事件无独立Wikipedia—Wikidata对象，继续保持尚无配对；人物Q334262和作品目录记录不能代替事件QID。未决包括原信或账簿、委托修院规范名、答复内容、确切完成／交付日期、毁失原因及圣若翰／圣亚尔伯图像差异。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 events-lanfranco-leo-attila-request-1640
+
+对象：`04-knowledge/units/events/lanfranco-leo-attila-request-1640.md`。原卡SHA-256：`9d72054b03e27f6ef31f90101d6b67080f10ea3b330019fb7547ef7c04cbf2b9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1为第一章章页／行号；S2为DBI传记相关段；S3仅为第一章注释所指未读原页。本次接收弗朗切斯科·巴贝里尼与圣彼得工程管理机构两个端点；圣彼得大殿是申请对象所在建筑，并非本事件的发生地，故不另写 `occurred_at`。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+### 对齐与未决项
+
+该申请事件无独立Wikipedia—Wikidata对象，人物和后来的Algardi作品QID都不能代替事件身份。原信全文、钢笔稿现藏与数量、画布方案是否实际制作、评审过程及不授予理由仍待Pollak原页、Fabbrica档案与素描目录。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体事件保留；登记名未命中 Wiki 对象配对，不能用参与人物、机构或一般事件类别的 QID 代替。时间、端点及具体证据交补足。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 events-sacchi-household-promotion-1640
+
+对象：`04-knowledge/units/events/sacchi-household-promotion-1640.md`。原卡SHA-256：`f8bee29a45845378f985d0d1e02185d8ee965bbc763efd0a51207a2ace43501a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 既有正式端点：[萨基](../persons/andrea-sacchi.md)、[小安东尼奥·巴贝里尼](../persons/antonio-barberini.md)，2条边原样保留；[家户语境](../institutions/barberini-household.md)是阅读入口。
+- S1为章页、行号与句子摘要；S2为本书注释／书目定位；S3为身份背景；S4为文章元数据；S5为可检索但原文失效的档案转录入口。没有用一般家户理论代替个案证据。
+- 本次已完成可达来源的检索、低等级档案入口补足和失败记录，**作为有明确未决结论的补足处置收口**；这不等于1640晋级获得独立外证。事件仍无Wiki配对，参与者QID不能替代事件QID。
+````
+
+
+### REV-072 events-schildersbent-formation-1623
+
+对象：`04-knowledge/units/events/schildersbent-formation-1623.md`。原卡SHA-256：`a7b9c622984273d64ca205c9d17785d5ce48502fbdeea1a7ac365abcbdccc84a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章，印刷页20，OCR L819–833及既有PDF回读。S2：Bentvueghels英文页全文。S3：Phoebus Foundation2023展览介绍全文；不是历史成立文书。
+
+本次维持机构与罗马两条正式关系，并把1623明确限定为第一章日期；约1620等外部异文未消除。创始成员、具体地点及原引研究仍待核。状态维持 source_backed。
+````
+
+
+### REV-072 events-titian-honours-1533
+
+对象：`04-knowledge/units/events/titian-honours-1533.md`。原卡SHA-256：`94d87cc305bf5bfee62ed55f883bdfd4913d0951a45bb5089ff3816dfcd71197`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- S1：第一章，印刷页19，OCR L799–804。
+- S2：Titian英文页全文已读，采用授衔叙述与图像年代区分。
+- S3：NG2009新闻稿The Artist小节，仅支持Charles V—Titian—1533骑士授予。
+- 文件头2条参与人物关系完整保留。未补发生地或授予日；未建立帝国全套贵族特权与后裔继承边。状态维持 source_backed。
+````
+
+
+### REV-072 families-aldobrandini-family
+
+对象：`04-knowledge/units/families/aldobrandini-family.md`。原卡SHA-256：`253a5d5888900e9b152a2292a3a254f32ab01dff314639b221fed80c169321f5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+家族成员关系由具名人物卡以 `member_of` 发出，本卡显示反向入口；婚姻由Olimpia人物卡发出，不将配偶自动改写为整个家族的成员。
+
+### 身份与证据范围
+
+[Wikipedia / Aldobrandini family](https://en.wikipedia.org/wiki/Aldobrandini_family) ↔ [Wikidata Q961820](https://www.wikidata.org/wiki/Q961820) 配对通过，所指佛罗伦萨起源、罗马活动的家族。S4 对象页全文已读；S5 字段提取的采用与暂缓依据在过程文件。S6–S7 为同机构的不同语言页，不是两份独立证据。整卡保留 source_backed。
+
+### 待补与争议
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 婚期 | 采用 S8 的 1647-02-10，S6 年份相符；S7 的 1646 保留为异文，不记作另一场婚姻 |
+| 年代责任 | 不能因 S4 相邻叙述推断死于 1605 年的克勉八世安排了 1647 年婚姻 |
+| 家谱与权属 | 早期支系、完整成员／继承链、头衔授予、宅邸及作品逐项权属未核；创立世纪与当代家长未纳入已核字段 |
+| 政治归属 | S5 罗列历史／现代政体而无时期限定，不能据此生成连续政治归属 |
+| 成员数量 | S5 仅列一个成员，不表示家族仅有一人 |
+| 消歧 | S5 另列同名 Q28753277，具体对象待查，不自动与 Q961820 合并 |
+| 外部规范号 | GND 119146444；VIAF 88637110、67269458，均为 S5 所列，原站未核，不擅自择一 |
+
+S1–S8 对应元数据 sources 顺序。[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)保留历史键 `institutions/aldobrandini-family`；REV-036 分类迁移不改写旧证据。完整采集与判断见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-037 及本轮整理记录。
+````
+
+原表达：
+
+````markdown
+| 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [卡米洛·潘菲利（Camillo Pamphili）](../persons/camillo-pamfili.md) | 采用1647-02-10；婚期异文见第三部分 | S8；S6及人物卡 |
+````
+
+
+### REV-072 families-borghese-family
+
+对象：`04-knowledge/units/families/borghese-family.md`。原卡SHA-256：`e34aa25b2429b1d749277f57772cf219df699736a7e158ebf6fa5d72e0513e39`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本卡未新增正式关系。S 编号依文件头 sources 顺序；每条新事实在表格或段落标明依据，原书来源保持章／页／行号。Wikipedia 与 Wikidata 同属 wikimedia 来源组；官方说明、研究辞典及未读的书目线索分别记状态。
+
+### 待补与争议
+
+- **来源冲突／不同范围：** S6 P112 的标签为 Jacomo Borghese（Q110459595），S5 起源段却写 Tiezzo da Monticiano；缺乏角色与时代区分依据，创始人字段暂不确定。S5 信息框“1238”、页面分类“1266”也不转换为正式创立年。
+- **未采用字段：** S6 另一 P31 是 Venetian patrician family（Q58804331），带 P580=1605、年精度 9，normal、无引用；不与一般贵族身份混并，也不据此改写为威尼斯起源。其具体身份授予仍待证。P17 的现代 Italy 不替代本章时代归属。
+- **待补：** 成员及支系的逐项亲缘、联姻与继承权，具体藏品权属和离藏过程，规范库原站记录。S5 的 Paolo 生年 1624／1622 两说暂缓。馆方 1902 年购藏有直接说明，百科“1903 年设馆”的概括不覆盖这一事实；是否另指开放或组织变化仍待查。
+
+本轮已形成三部分的家族内容补足稿，但上述缺口尚未全部解决，整卡维持 source_backed。完整实体响应、页面版本、字段采用／暂缓与阅读范围见 [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl) 的 `families/borghese-family`；过程解释见 [knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-037。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马教皇赞助背景中的博尔盖塞家族；不与城市、宫殿或枢机个人混同。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/House_of_Borghese) 的 wikibase_item 与 [Wikidata Q241133](https://www.wikidata.org/wiki/Q241133) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/borghese-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文，关系定稿见本卡上表。
+````
+
+
+### REV-072 families-colonna-family
+
+对象：`04-knowledge/units/families/colonna-family.md`。原卡SHA-256：`d92d7e7aa0b7ed927b00f8a7d3481cd9cd0250978af696c98f07735836346edb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Colonna family](https://en.wikipedia.org/wiki/Colonna_family)
+- [Wikidata Q327202](https://www.wikidata.org/wiki/Q327202)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原表达：
+
+````markdown
+**中文：** 科隆纳家族是意大利贵族家族。本轮只采用其与卡拉瓦乔逃亡期保护网络有关的关系。
+````
+
+原表达：
+
+````markdown
+| 本轮采用范围 | 本轮只采用其与卡拉瓦乔逃亡期保护网络有关的关系。 | S1 |
+````
+
+原内容中的过程说明：
+
+````markdown
+本卡不补完整谱系；只接收当前作品链直接支持的保护或收藏关系，个人行为不自动上升为家族集体行为。
+````
+
+
+### REV-072 families-odescalchi-family
+
+对象：`04-knowledge/units/families/odescalchi-family.md`。原卡SHA-256：`33d1c52d4a94113e9067c3c6d3b5270da70fdf5add7eb48e6c1197d5d245250e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Odescalchi family](https://en.wikipedia.org/wiki/Odescalchi_family)
+- [Wikidata Q938697](https://www.wikidata.org/wiki/Q938697)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原内容中的过程说明：
+
+````markdown
+本卡不补完整谱系；只接收当前作品链直接支持的保护或收藏关系，个人行为不自动上升为家族集体行为。
+````
+
+
+### REV-072 families-peretti-family
+
+对象：`04-knowledge/units/families/peretti-family.md`。原卡SHA-256：`461f1e8caf100e33aaae10908592b04b721c2b755a3f10dc68e547a7fc10debb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本卡未新增正式关系。S 编号依文件头 sources 顺序；每条新事实在表格或段落标明依据，原书来源保持章／页／行号。Wikipedia 与 Wikidata 同属 wikimedia 来源组；官方说明、研究辞典及未读的书目线索分别记状态。
+
+### 待补与争议
+
+- **来源内部差异：** S4 正文说 Prospero 很早去世，谱系表却并列婚配；又称 Giulio 是 Paolo 的兄长，而表列出生年反向。对应亲缘／长幼不采入确定字段。谱系表只读到单元内容，不以排版连线补造关系。
+- **年代暂缓：** S4 列 Sixtus V 生于 1521，S7 写 1520；本卡不据其中一项改写人物生年。S4 的 14 世纪创立、1712 年支系终结和爵位继承尚待谱系或档案核实，不把支系绝嗣当作所有同姓后裔消失。
+- **仍待补：** 成员完整清单、母系传名与收养的文书依据、Venafro 爵位与财产各自的继承链、作品逐项权属，以及 VIAF／GND／CERL 原站记录。WD 的七个属性未载这些内容，不等于历史上没有。
+
+本轮已形成三部分的家族内容补足稿，但上述缺口尚未全部解决，整卡维持 source_backed。完整实体响应、页面版本、字段采用／暂缓与阅读范围见 [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl) 的 `families/peretti-family`；过程解释见 [knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-037。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 意大利语 Peretti／Damasceni Peretti 贵族家族页；不是 Peretti 姓氏或个人。
+
+[Wikipedia（it）](https://it.wikipedia.org/wiki/Peretti_(famiglia)) 的 wikibase_item 与 [Wikidata Q63522275](https://www.wikidata.org/wiki/Q63522275) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/peretti-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文，关系定稿见本卡上表。
+````
+
+
+### REV-072 institutions-accademia-di-san-luca
+
+对象：`04-knowledge/units/institutions/accademia-di-san-luca.md`。原卡SHA-256：`45cfa74053e94948c932185b2be38b8ae06dabc090e4c00c2d368d5d1961d091`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 关系入口
+
+本卡尚无自身发出的正式边；以下是已有知识元的导航，具体边以各卡元数据为准：[祖卡里](../persons/federigo-zuccari.md)、[1621章程](../archives/accademia-statutes-confirmed-1621.md)、[1633措施](../events/accademia-tax-privilege-1633.md)。成员共现不自动新增关系。
+
+### 身份与来源
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Accademia_di_San_Luca) ↔ [Wikidata Q338523](https://www.wikidata.org/wiki/Q338523)双向配对复用。S1–4是第一章章页／行号证据；S5–6为初步对齐，S7–11为本次实际阅读与字段核对，顺序对应元数据。未提升整卡evidence_status。
+
+### 异文与未决项
+
+1605／1606赦免、1763／1768竞赛采用官方资料并保留异文。官网的1593三艺术宗旨与WP所述1634后建筑师准入可能涉及不同制度层面，不据此强行设定所有时期的会员资格。WP负责人表、当代统计和具体会员名册未逐项独立确认，不整表导入；1633及1670征税沿革不能概括成一切征税永久撤销。
+````
+
+
+### REV-072 institutions-apostolic-chamber
+
+对象：`04-knowledge/units/institutions/apostolic-chamber.md`。原卡SHA-256：`8f88020c75e28119ac501ab5a6052efd7eb44620c0f4db59991f601d7ef3bd3e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次完整阅读的英文Wikipedia；S5为本次Wikidata字段核对。Wikipedia的中世纪与近现代沿革主要来自其所列研究和旧百科条目，本轮未逐项打开这些参考文献。
+
+
+
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Apostolic_Camera) ↔ [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030)双向身份核对继续通过。WD的P571约1100年只有年精度且无引用，不采用为确定成立年；P31类型也无逐项来源。1601年书记姓名、承认行为的原始文书、当时具体职权和任职名册仍待原档或专门研究核定。整卡仍为source_backed，不因两站配对而提升全部事实状态。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 教皇财政机关；英文 Apostolic Camera 与章中 Apostolic Chamber 同指。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Apostolic_Camera) 的 wikibase_item 与 [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-arcadia
+
+对象：`04-knowledge/units/institutions/arcadia.md`。原卡SHA-256：`7209873bd2f1f0d84c4642176d8c493a3d7148306f5e3cad27939594445f4fea`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikidata Q338478](https://www.wikidata.org/wiki/Q338478) · [Wikipedia（en）](https://en.wikipedia.org/wiki/Pontifical_Academy_of_Arcadia) · [学院官网](https://www.accademiadellarcadia.it/)。REV-034 配对结果复用；本轮英文页完整阅读，官方来源范围分列 S6–8。
+
+本卡无正式出边；[朱塞佩·盖齐](../persons/giuseppe-ghezzi.md)和[罗马](../places/rome.md)为关联导航，是否形成正式关系以对应卡的关系记录为准。
+
+S1：第一章 p.19，OCR L770–773，盖齐获选入会。S2–3 为初步身份对齐；S4–8 为本轮外部补足。句意摘要不冒充引文。
+
+**未决：** Ghezzi 的入会日、牧名与具体会员原件尚待查。Wikipedia 的 1689／1690 创立表述按官方成立日区分；1723 驻地说不替代官方 1726 启用事件。女性“首位会员”及参加活动者是否正式会员的表述未有足够证据，不采用。希腊地名 Arcadia、田园文学意象与本机构不合并；第二部分仍暂停。
+
+[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+````
+
+
+### REV-072 institutions-barberini-household
+
+对象：`04-knowledge/units/institutions/barberini-household.md`。原卡SHA-256：`891c40a061aa95fb1330222ff366b9c0ee1ff9c3e6bcf393bf25a79dcc729ba6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+| 角色入口 | 知识元 | 状态 |
+|---|---|---|
+| 教皇／家族成员 | [乌尔班八世](../persons/urbano-viii.md) | S1；不是全体家户统一负责人 |
+| 个别家户主体 | [安东尼奥](../persons/antonio-barberini.md)／[弗朗切斯科](../persons/francesco-barberini.md) | 各自语境分开 |
+| 画家及具体事件 | [安德烈亚·萨基](../persons/andrea-sacchi.md)／[1640年晋级](../events/sacchi-household-promotion-1640.md) | S2 |
+| 概念说明 | [家户（famiglia）](../terms/famiglia.md) | 说明服务组织范围，非家族同义词 |
+
+S1为第一章p.3、L15–47；S2为p.7、L195–198；S3为p.15、L585–590。其余来源实际阅读范围列于头部；研究提及的原账簿并未全部直接读过。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留决定。无新增正式关系，尚未把混合卡拆分或迁移；evidence_status仍为source_backed。
+````
+
+原内容中的过程说明：
+
+````markdown
+已识别的个人责任可在个人卡及相应事件中继续；无法明确所属家户的集体指称保留原来源。未来若确需独立家族或家户对象，应带来源返回登记并处理现有引用，不用本轮补足自动增生多个对象。
+````
+
+
+### REV-072 institutions-barnabites
+
+对象：`04-knowledge/units/institutions/barnabites.md`。原卡SHA-256：`f6e7a53e12582d40b30de7342a9367636716af0759c12ee5148c3413fbf5048d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 来源 | 章页／行数 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L125–130 | 巴尔纳伯会等新修会产生建堂需求；此概括不支持任一具体画作的付款或委托关系。 |
+
+章内同列的[戴蒂尼会（Theatines）](theatines.md)、[耶稣会（Jesuits）](jesuits.md)、[嘉布遣会（Capuchins）](capuchins.md)和[奥拉托利会（Oratorians）](oratorians.md)均为不同组织。这里是语境导航，不是它们彼此隶属或合作的证据。
+
+本卡原无正式关系，本轮未新增。已完成详细补足；1535年具体批准日、母院取得与入住、完整会宪和章内具体艺术委托仍保留待核。source_backed不变。
+
+[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/barnabites`。
+````
+
+
+### REV-072 institutions-biblioteca-augusta
+
+对象：`04-knowledge/units/institutions/biblioteca-augusta.md`。原卡SHA-256：`246e7a5160c31f8d01263856410787fc995a869cbc4a1b22d8ad5750cbdb4f1c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 位于：[佩鲁贾](../places/perugia.md)，文件头保留该正式关系。馆藏线索：[Pascoli《特雷维萨尼传》手稿](../archives/pascoli-trevisani-life-ms1383.md)；此链接不另造关系。
+- S1：第一章，第7页，L236–237；S2–S3为初步身份核对；S4为完整百科页；S5为WD字段复核；S6为官网全文阅读。各条按文件头顺序。
+- 市政府列出的其他修复项目、受损文献或Binni展厅不是MS.1383的专属记录，也不是整座图书馆更名。当前机构身份已配对，具体手稿状态仍未核。
+````
+
+
+### REV-072 institutions-biblioteca-casanatense
+
+对象：`04-knowledge/units/institutions/biblioteca-casanatense.md`。原卡SHA-256：`0153568cce22f01a37bacff8d6815c17a7c983b50f4ccc74f69275c8922af607`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与关系导航
+
+[Wikipedia：Biblioteca Casanatense](https://en.wikipedia.org/wiki/Biblioteca_Casanatense) ↔ [Wikidata：Q2901274](https://www.wikidata.org/wiki/Q2901274) 沿用 REV-034 双向核对；本轮已读英文全文修订 1366883842。VIAF 152447230 仅由 WD 取得，未直接核验。（S2–S5）
+
+| 正式关系 | 对象 | 证据 |
+|---|---|---|
+| located_at | [罗马](../places/rome.md) | S1；第一章 p.4，L89–92；保留文件头既有关系 |
+
+手稿与馆藏关系仍由手稿卡保存，馆方卡以反向投影显示；S8只补充机构信息，不另复制反向事实。
+
+### 未决与采用边界
+
+- MS.5001 已有官方项目记录支持号、题名与载体；作者归属仍以 Haskell 引文及作者识别为依据，项目条目未署作者。
+- S4 馆藏数量内部有不同统计值，本卡未用它们建立统一最新总量；S8 的保存状况是项目陈述时点，不称现在仍损坏或修复完成。
+- 建筑、藏品及制度沿革只补与机构理解有关的内容；不追求填满全部馆史。整卡保持 `source_backed`，关系未集中收口。
+- 来源 S1 的章、页、行与句子摘要保留在元数据。详见[补足过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `institutions/biblioteca-casanatense`。
+````
+
+
+### REV-072 institutions-capitoline-museums
+
+对象：`04-knowledge/units/institutions/capitoline-museums.md`。原卡SHA-256：`75ca0a252f4c80180541192dfdd8609ed0b9cab0365538783d5ec15a9057dd36`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Capitoline Museums](https://en.wikipedia.org/wiki/Capitoline_Museums)
+- [Wikidata Q333906](https://www.wikidata.org/wiki/Q333906)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-capuchins
+
+对象：`04-knowledge/units/institutions/capuchins.md`。原卡SHA-256：`8ebbeec1d6856b9bdb28d5aaa4d85e017ca0dcb5a0ab8db08da89b09aa7c0f2d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 来源 | 章页／行数 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L125–130 | 嘉布遣会与其他新修会出现在罗马建堂需求的语境。 |
+| S2 | 第一章，印刷页12，OCR L467–468 | Sacchi为罗马嘉布遣教堂的祭坛画稿及图录／收藏线索。 |
+
+相关知识元：[罗马嘉布遣教堂](../places/capuchin-church-rome.md)、[萨基的祭坛画稿](../works/sacchi-capuchin-altarpiece-modello.md)、[安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md)、[乌尔班八世（Urban VIII）](../persons/urbano-viii.md)。年长Antonio的资料不写入同名侄子的卡片。
+
+本次集中审查未接收新的正式关系：现有内容缺少同粒度端点或直接制度依据。独立公文、历史会规、各项目产权／付款与人物阶段成员身份仍按具体缺口留待核证；source_backed不变。
+
+[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/capuchins`。
+````
+
+
+### REV-072 institutions-colnaghi
+
+对象：`04-knowledge/units/institutions/colnaghi.md`。原卡SHA-256：`d472854467e27836e337b297f4eec9293c4387c60f35ed277a62fc02c7b317b9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次Wikipedia全文；S5为WD字段核对；S6为机构自述历史。机构自述和Wikipedia对细节依赖各自来源，本轮未把其列举的每项交易当作独立验证。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) ↔ [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759)双向身份核对继续通过。WD的1760成立与伦敦总部字段有来源，当前所有权、现址及法人连续性没有通过WD完整建立。1961年第2号图录的完整书目信息、萨基作品条目全文、成交与否以及现藏地仍待实物目录或馆藏档案，不能由机构通史补齐。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 伦敦艺术经销机构，英文规范名 P. & D. Colnaghi & Co.；不是某次图录。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) 的 wikibase_item 与 [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-confraternita-san-giovanni-battista-decollato-bologna
+
+对象：`04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md`。原卡SHA-256：`9129730d292f0e12c121d4335eac5c5098846eb490b870ef47c5bab8c3421fca`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1是第一章章页／行号；S2为意大利语Wikipedia会址页全文；S3为建筑QID字段核对；S4为博洛尼亚市文化页面全文；S5为开放获取专著的相关页和注释。S5未全书阅读，所引合同原件仍未直接读到。
+
+
+
+### 关系入口与未决项
+
+相关卡：[塞巴斯蒂亚诺·里奇](../persons/sebastiano-ricci.md)、[1682年委托作品](../works/ricci-beheading-john-baptist-1682.md)、[1682年委托条款](../archives/ricci-bologna-terms-1682.md)、[博洛尼亚](../places/bologna.md)。本次正式关系由作品卡记录“善会委托”和“里奇创作”，条款卡记录作品主题；本卡通过反向投影显示，不重复反写。
+
+善会的成立时间、成员与管理者、章程、1798年前后法律处置及后续法人连续性尚无直接资料。现有研究把团体写作Confraternita di San Giovanni dei Fiorentini，第一章写Battista Decollato；两者语义对应已由同一日期、同一画家和同一失佚祭坛画支持，但仍保留原文异名。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无机构配对。** 已将本章对象定位到博洛尼亚佛罗伦萨人善会，但现有Wikipedia—Wikidata条目对应其礼拜堂建筑，不对应善会机构。
+
+未采用确认QID。意大利语Wikipedia条目与Wikidata Q28229297双向互链，但P31明确为former church building／church building，故只作会址导航和排除候选。没有把建筑QID写入机构身份。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-confraternity-santanna-palafrenieri
+
+对象：`04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md`。原卡SHA-256：`571561d3fd533f9a1e2c379fdd34c288ae1bded26588da9f2b31ffe4e38f0fdd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- 当前没有同粒度Wikipedia—Wikidata配对；这不构成知识元缺陷。
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-detroit-institute-of-arts
+
+对象：`04-knowledge/units/institutions/detroit-institute-of-arts.md`。原卡SHA-256：`cff5b0d5dd57bd27177534fbada240d10a6da3d90a5b4f688bc3191f4d1b457e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Detroit Institute of Arts](https://en.wikipedia.org/wiki/Detroit_Institute_of_Arts)
+- [Wikidata Q1201549](https://www.wikidata.org/wiki/Q1201549)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-fabbrica-di-san-pietro
+
+对象：`04-knowledge/units/institutions/fabbrica-di-san-pietro.md`。原卡SHA-256：`f5c8a369d064a79c700eea47855500ce000fa482dc4da7852c78dc7018b79372`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段核对；S6–7为机构官网全文。官网没有在本页给出17世纪逐项薪资账目，故不把机构通史当作贝尔尼尼支付的第二证据。
+
+
+
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) ↔ [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511)双向身份核对继续通过。WD把P571记为1908且有一条引用，与官方1506连续性和Wikipedia的1523委员会节点不一致，排除为唯一成立年；WD的现代Vatican City国家字段也不回填17世纪政治归属。贝尔尼尼薪资的支付期、职位、账簿条目和币制口径仍待Fabbrica档案。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 负责圣彼得大殿事务的机构；与大殿建筑分别对应，现代行政归属不在此裁定。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) 的 wikibase_item 与 [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-galleria-borghese
+
+对象：`04-knowledge/units/institutions/galleria-borghese.md`。原卡SHA-256：`7feef00032238d169dd7442261856a4dcdbf28c161b901aa569ad35395cba26b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Galleria Borghese](https://en.wikipedia.org/wiki/Galleria_Borghese)
+- [Wikidata Q841506](https://www.wikidata.org/wiki/Q841506)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-galleria-doria-pamphilj
+
+对象：`04-knowledge/units/institutions/galleria-doria-pamphilj.md`。原卡SHA-256：`7611573e50a6e86fd4571b664bbf6322bd8c802ce917ce0219d97525415b3818`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Galleria Doria Pamphilj](https://en.wikipedia.org/wiki/Galleria_Doria_Pamphilj)
+- [Wikidata Q1203458](https://www.wikidata.org/wiki/Q1203458)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-galleria-nazionale-arte-antica
+
+对象：`04-knowledge/units/institutions/galleria-nazionale-arte-antica.md`。原卡SHA-256：`be981e830788d3ec24c8abbebcc4920e12279abd0287320aa44e6f023e6880ca`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Galleria Nazionale d'Arte Antica](https://en.wikipedia.org/wiki/Galleria_Nazionale_d'Arte_Antica)
+- [Wikidata Q2266081](https://www.wikidata.org/wiki/Q2266081)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-gallerie-ditalia
+
+对象：`04-knowledge/units/institutions/gallerie-ditalia.md`。原卡SHA-256：`8b53bae39304d36179e512542272840c5d35c7d1b4dee92fb6d4b8ebc3baac87`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikidata Q3757772](https://www.wikidata.org/wiki/Q3757772)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原表达：
+
+````markdown
+**中文：** 意大利画廊是意大利联合艺术博物馆体系。本轮具体指那不勒斯馆藏《圣乌尔苏拉殉难》。
+````
+
+原表达：
+
+````markdown
+| 本轮职能 | 本轮具体指那不勒斯馆藏《圣乌尔苏拉殉难》。 | S1 |
+````
+
+
+### REV-072 institutions-gemaeldegalerie-berlin
+
+对象：`04-knowledge/units/institutions/gemaeldegalerie-berlin.md`。原卡SHA-256：`180b155abbf8aff5826b7bce3227fb037c2954feaaba5617728d5b1b5ff20392`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Gemäldegalerie, Berlin](https://en.wikipedia.org/wiki/Gem%C3%A4ldegalerie,_Berlin)
+- [Wikidata Q165631](https://www.wikidata.org/wiki/Q165631)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-heritage-malta
+
+对象：`04-knowledge/units/institutions/heritage-malta.md`。原卡SHA-256：`9d657155fa4a0444386212ff60e4c046de4c589192ea8ca2bff2f0d560050e69`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Heritage Malta](https://en.wikipedia.org/wiki/Heritage_Malta)
+- [Wikidata Q3785211](https://www.wikidata.org/wiki/Q3785211)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-hermitage-museum
+
+对象：`04-knowledge/units/institutions/hermitage-museum.md`。原卡SHA-256：`a3353d1d88ec352fc0355e19b7f6d8e88fb838ab4371237d39ffccd1d24db7b8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Hermitage Museum](https://en.wikipedia.org/wiki/Hermitage_Museum)
+- [Wikidata Q132783](https://www.wikidata.org/wiki/Q132783)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-jesuits
+
+对象：`04-knowledge/units/institutions/jesuits.md`。原卡SHA-256：`9fd8476ac2bff0d9c6ebbac8397f245aad14cff511cc6052186f339372f28ca0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 对齐与字段取舍
+
+- [Wikipedia 英文页面](https://en.wikipedia.org/wiki/Jesuits) 的 wikibase_item 与 [Wikidata Q36380](https://www.wikidata.org/wiki/Q36380) 的 enwiki sitelink 双向一致；以修会身份核对，不与同名音乐团体、教堂、学院合并。
+- S5 的 P571 只有年份精度，不能把内部补零记成1月1日。P112 的 Q86039436 是 **Holy Companions** 集合，与依纳爵、沙勿略、法伯尔并列，不能当第四位个人或完整创始人清单。
+- P159 含 Q719794（Gesù 教堂）和 Q1515704（总会长职位）及地址；后者不是一栋总部建筑，不导入“总部＝总会长”。
+- S4 的传教史含无引注、价值判断和概括过强段落。不得据其导言将1759年以后政权驱逐一概写成“教会驱逐”；也不采用“1721年后中国所有耶稣会士均被驱逐”等未获可靠细化的全称断言。
+- 已读书目和现代统计不代表本章研究范围扩展。现任管理者及无明确时点的组织人数暂不录为本章历史属性。
+
+### 来源定位与关系交接
+
+S1：**第一章，印刷页5，OCR L125–130**；句意为新修会及教堂建设需求。S2–S3 保留初步对齐历史，S4–S9 是本次补足来源，编号依文件头 sources 顺序。
+
+本次接收[安德烈亚·波佐](../persons/andrea-pozzo.md)的会士身份，并在本卡显示反向投影。母堂、院校、其他会士、创始者与赞助者没有按名单批量成边；共现与正文链接仍不自动产生正式关系。
+
+**补足结果：** 已完成英维页面全文阅读及上述官方来源核对，写入名称、组织角色、工作领域、文本、历史沿革与关键边界；保留会宪批准年份、部分早期人员授铎、各地资产与项目赞助主体等具体缺口。整卡仍为 source_backed，未声明每个外部事实均独立验证。
+
+[补足证据与写回记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按 institutions/jesuits 定位；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)保留初步决定。
+````
+
+
+### REV-072 institutions-kimbell-art-museum
+
+对象：`04-knowledge/units/institutions/kimbell-art-museum.md`。原卡SHA-256：`950acb24d7b55da7275fa254af6c560582c018e2026519d74b951af9dbc006d5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Kimbell Art Museum](https://en.wikipedia.org/wiki/Kimbell_Art_Museum)
+- [Wikidata Q1741629](https://www.wikidata.org/wiki/Q1741629)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-knights-hospitaller
+
+对象：`04-knowledge/units/institutions/knights-hospitaller.md`。原卡SHA-256：`d39d8c2d157cb9d550d41ea0b84a864cd706e03fbe3daf0547c7d9839c60b979`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Knights Hospitaller](https://en.wikipedia.org/wiki/Knights_Hospitaller)
+- [Wikidata Q187549](https://www.wikidata.org/wiki/Q187549)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-kunsthistorisches-museum
+
+对象：`04-knowledge/units/institutions/kunsthistorisches-museum.md`。原卡SHA-256：`2d50c801a625d7d9d7a05c6fcfd80e5812b131c330753660cea2c64515b65e54`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Kunsthistorisches Museum](https://en.wikipedia.org/wiki/Kunsthistorisches_Museum)
+- [Wikidata Q95569](https://www.wikidata.org/wiki/Q95569)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-louvre-museum
+
+对象：`04-knowledge/units/institutions/louvre-museum.md`。原卡SHA-256：`01b00f66167773ac05a1c4ded0c1d36c14bb8ea67c3a15f150e1726e4b5e0ccd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Louvre](https://en.wikipedia.org/wiki/Louvre)
+- [Wikidata Q19675](https://www.wikidata.org/wiki/Q19675)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-metropolitan-museum-of-art
+
+对象：`04-knowledge/units/institutions/metropolitan-museum-of-art.md`。原卡SHA-256：`c51fa5376d00781ca27283cb389ee254fc643663e16145c8856e8ba9373d7d51`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Metropolitan Museum of Art](https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art)
+- [Wikidata Q160236](https://www.wikidata.org/wiki/Q160236)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原表达：
+
+````markdown
+**中文：** 大都会艺术博物馆是艺术博物馆。本轮只连接其直接保管的卡拉瓦乔作品。
+````
+
+原表达：
+
+````markdown
+| 本轮职能 | 本轮只连接其直接保管的卡拉瓦乔作品。 | S1 |
+````
+
+
+### REV-072 institutions-museo-del-prado
+
+对象：`04-knowledge/units/institutions/museo-del-prado.md`。原卡SHA-256：`2feaac2bbbc74cc635085046edfb96dde0d07096a3315b371eb19d77c1cbeb16`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Museo del Prado](https://en.wikipedia.org/wiki/Museo_del_Prado)
+- [Wikidata Q160112](https://www.wikidata.org/wiki/Q160112)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-national-gallery-london
+
+对象：`04-knowledge/units/institutions/national-gallery-london.md`。原卡SHA-256：`b5cbd734c17c2eb6789086f3a739a9990adc285dbff37adb597b2902866f1696`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：National Gallery](https://en.wikipedia.org/wiki/National_Gallery)
+- [Wikidata Q180788](https://www.wikidata.org/wiki/Q180788)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原表达：
+
+````markdown
+**中文：** 英国国家美术馆是伦敦艺术博物馆。本轮连接伦敦馆藏具体作品。
+````
+
+原表达：
+
+````markdown
+| 本轮职能 | 本轮连接伦敦馆藏具体作品。 | S1 |
+````
+
+
+### REV-072 institutions-national-gallery-of-ireland
+
+对象：`04-knowledge/units/institutions/national-gallery-of-ireland.md`。原卡SHA-256：`aab5ed6d5817227ff20007f550e5c4d066699ae2ebf521ddd6848a93ab01d10d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：National Gallery of Ireland](https://en.wikipedia.org/wiki/National_Gallery_of_Ireland)
+- [Wikidata Q2018379](https://www.wikidata.org/wiki/Q2018379)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-odesa-museum-western-eastern-art
+
+对象：`04-knowledge/units/institutions/odesa-museum-western-eastern-art.md`。原卡SHA-256：`62eb159bf986d7afb192b4cad16c9132af05e30f67a3be0f0c8a743414ccbe03`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Odesa Museum of Western and Eastern Art](https://en.wikipedia.org/wiki/Odesa_Museum_of_Western_and_Eastern_Art)
+- [Wikidata Q12130550](https://www.wikidata.org/wiki/Q12130550)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-oratorians
+
+对象：`04-knowledge/units/institutions/oratorians.md`。原卡SHA-256：`39ccf0a6cfedb83401f4cf9d7d0735a9c183fbf2a3802f3c0cc1d34dd7c45bec`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 来源 | 章页／行数 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L125–130 | 作者将Oratorians与其他宗教团体并列，讨论宗教改革后罗马的新教堂需求；未逐一证明具体画作委托。 |
+
+相关知识元：[罗马（Rome）](../places/rome.md)、[新教堂（Chiesa Nuova）](../places/chiesa-nuova.md)、[保罗五世（Paul V）](../persons/paul-v.md)。[鲁本斯新教堂祭坛画](../works/rubens-chiesa-nuova-altarpiece-1606.md)提供章内作品导航，具体委托主体必须回到作品证据，不能从同处教堂推定。
+
+原无正式关系，本轮未新增。已完成详细补足，标明外部对齐的历史／现代范围；地方团体的个別产权、人员任职和艺术委托仍需逐项依据。source_backed不变。
+
+[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/oratorians`。
+````
+
+
+### REV-072 institutions-pinacoteca-ambrosiana
+
+对象：`04-knowledge/units/institutions/pinacoteca-ambrosiana.md`。原卡SHA-256：`dbd288cbe7ef44f8e356d0969f8b8ff26572cfa7df59d095d0eeedaa834ad4f0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Biblioteca Ambrosiana](https://en.wikipedia.org/wiki/Biblioteca_Ambrosiana)（上位机构语境页，不是本画廊的同粒度英文条目）
+- [Wikidata Q1085811](https://www.wikidata.org/wiki/Q1085811)
+- [Ambrosiana官方画廊页](https://www.ambrosiana.it/ambrosiana-info/pinacoteca/)
+
+### 证据与未决
+
+S编号对应文件头sources。Q1085811与画廊粒度一致，但没有enwiki sitelink；Biblioteca Ambrosiana英文页只用于机构语境，不能记成Wikipedia—Wikidata双向同一性通过。本卡不以链接数量或反向入口宣称馆史已经穷尽。
+````
+
+
+### REV-072 institutions-pinacoteca-vaticana
+
+对象：`04-knowledge/units/institutions/pinacoteca-vaticana.md`。原卡SHA-256：`d08c53f37e7561ecfee07b6c74c698d0e2a61e4b97db9d5bc0d7dbd20495f955`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1是第一章章页／行号；S2–3为初步身份对齐；S4为意大利语Wikipedia全文；S5为WD字段；S6为梵蒂冈博物馆官方概述全文。官方概述未列卡马塞伊作品，不能用机构史替代作品目录。
+
+
+
+### 身份与未决项
+
+[Wikipedia（意大利文）](https://it.wikipedia.org/wiki/Pinacoteca_vaticana) ↔ [Wikidata Q774940](https://www.wikidata.org/wiki/Q774940)双向身份核对继续通过；英文Wikipedia重定向到更大的Vatican Museums，仍不作配对页。WD的1932-10-27、Pius XI和馆址字段均有来源，但只支持机构层。卡马塞伊作品当前题名、馆号、材质、尺寸、归属和展厅须继续查官方单件目录。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 意大利语绘画馆专页与 WD 对应；英文重定向的 Vatican Museums 范围过大，已排除。
+
+[Wikipedia（it）](https://it.wikipedia.org/wiki/Pinacoteca_vaticana) 的 wikibase_item 与 [Wikidata Q774940](https://www.wikidata.org/wiki/Q774940) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-pio-monte-della-misericordia
+
+对象：`04-knowledge/units/institutions/pio-monte-della-misericordia.md`。原卡SHA-256：`9ec290fdafa9f9c0b11b22057557874972c3861f58ca1a7762fb3744abd11469`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Pio Monte della Misericordia](https://en.wikipedia.org/wiki/Pio_Monte_della_Misericordia)
+- [Wikidata Q3737242](https://www.wikidata.org/wiki/Q3737242)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-regional-museum-messina
+
+对象：`04-knowledge/units/institutions/regional-museum-messina.md`。原卡SHA-256：`9b06c4fe7193c1877d917191b4505d97bcf18a78c2091839a4584c6797810640`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Regional Museum of Messina](https://en.wikipedia.org/wiki/Regional_Museum_of_Messina)
+- [Wikidata Q1526140](https://www.wikidata.org/wiki/Q1526140)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-royal-collection
+
+对象：`04-knowledge/units/institutions/royal-collection.md`。原卡SHA-256：`348dbc8a5e9e20754f1fab9d3a7b91b70561c702657b4c6a96f9d0402145a924`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Royal Collection](https://en.wikipedia.org/wiki/Royal_Collection)
+- [Wikidata Q1459037](https://www.wikidata.org/wiki/Q1459037)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-royal-collections-gallery
+
+对象：`04-knowledge/units/institutions/royal-collections-gallery.md`。原卡SHA-256：`252603416152ea91fdfd4820040e3937e3039122709729ef54762811bb7e72e8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Royal Collections Gallery](https://en.wikipedia.org/wiki/Royal_Collections_Gallery)
+- [Wikidata Q6033986](https://www.wikidata.org/wiki/Q6033986)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-sanssouci-picture-gallery
+
+对象：`04-knowledge/units/institutions/sanssouci-picture-gallery.md`。原卡SHA-256：`f1ceaa416d789b44cf973c5976882cc71b45fb942e3e52725a136b54f6efefa0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Sanssouci Picture Gallery](https://en.wikipedia.org/wiki/Sanssouci_Picture_Gallery)
+- [Wikidata Q451555](https://www.wikidata.org/wiki/Q451555)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-schildersbent
+
+对象：`04-knowledge/units/institutions/schildersbent.md`。原卡SHA-256：`15dc5a93106af2982c8ec6eff609c2e37215209145e28f2d8fe7fd8092ebe280`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- S1：第一章，印刷页20，OCR L819–833；S2–S3初步对齐；S4–S5本次全文与WD字段；S6为2023年展览介绍全文。
+- Wikipedia中范拉尔与学院的说法引用Haskell，不能把它算作独立于本章的第二证据。展览借出Jan Miel作品的清单也不代替完整历史成员名册。
+- 当前没有正式关系；成立事件与持续组织分开。罗萨成员身份、本章每人的入会和别名仍须个案证据。
+- 未决：成立日期异文、1720禁令原文、完整成员与活动地点证据。来源支持状态维持 source_backed，未宣称所有史实验证完成。
+````
+
+
+### REV-072 institutions-theatines
+
+对象：`04-knowledge/units/institutions/theatines.md`。原卡SHA-256：`311b3f37a5935b36aa552e90b9f21db28f735f73343b2bcbba422023ccbc532a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 来源 | 章页／行数 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L125–130 | 新修会带来教堂建设需求，不能仅依此断言该会出资于某一幅画。 |
+
+相关知识元：[圣安德烈亚德拉瓦莱教堂（Sant’Andrea della Valle）](../places/sant-andrea-della-valle.md)（S7明确关联）；[罗马（Rome）](../places/rome.md)（创建及总会院所在地）；[圣彼得大殿（St Peter’s Basilica）](../places/st-peters-basilica.md)（S4首次发愿地点）；[威尼斯（Venice）](../places/venice.md)（S4避难地）。
+
+本次集中审查未接收新的正式关系：相关建筑产权、付款主体及人员阶段尚缺同粒度证据。完整人员履历及初期负责人／后期总会长制度细节仍需专门史料；source_backed不变。
+
+[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/theatines`。
+
+**补证修正（REV-052）：** 本次接续核读建筑官方专门文书后，将小圣殿称号日期从S7概述的1966修正为1965-12-20（S8）。S7原出处及初次取舍保留在过程记录；本卡仍计一个已详细补足对象。
+````
+
+
+### REV-072 institutions-thyssen-bornemisza-museum
+
+对象：`04-knowledge/units/institutions/thyssen-bornemisza-museum.md`。原卡SHA-256：`add0a153c906cc24968103296714c48f33a8bf511b006b7264f8382682167057`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Thyssen-Bornemisza Museum](https://en.wikipedia.org/wiki/Thyssen-Bornemisza_Museum)
+- [Wikidata Q176251](https://www.wikidata.org/wiki/Q176251)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 institutions-uffizi-gallery
+
+对象：`04-knowledge/units/institutions/uffizi-gallery.md`。原卡SHA-256：`92fafcbaf386e869e22ed07f6284883955343569028f4cbdf7179a5fcbebdb4a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Uffizi](https://en.wikipedia.org/wiki/Uffizi)
+- [Wikidata Q51252](https://www.wikidata.org/wiki/Q51252)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原表达：
+
+````markdown
+**中文：** 乌菲齐美术馆是艺术博物馆。本轮以具体作品官方记录限定保管和馆藏字段。
+````
+
+原表达：
+
+````markdown
+| 本轮职能 | 本轮以具体作品官方记录限定保管和馆藏字段。 | S1 |
+````
+
+
+### REV-072 institutions-victoria-and-albert-museum
+
+对象：`04-knowledge/units/institutions/victoria-and-albert-museum.md`。原卡SHA-256：`0b01db5759d36c6d476f2a8c730dc04a958aec356204f9a4f10c211260362f98`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段；S6为V&A官方机构页全文；S7只读取“100 Facts”早期历史部分。Wikipedia页面包含大量现行馆群、数量与展览信息，本卡只采与机构身份、沿革、职责和第一章藏品语境有关部分。
+
+
+
+### 身份与未决项
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum) ↔ [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322)双向身份核对继续通过。WD的1852成立、英国和Cromwell Road馆址字段有引用；多馆址体系与现任管理信息是当代状态，不回填1980／2006版Haskell。V&A收藏站受robots限制未能读取，故贝克胸像的现行馆号、材质、尺寸、来源和展示状态仍以作品卡继续补证。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 伦敦 V&A 博物馆机构，符合 Baker 胸像收藏语境。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum) 的 wikibase_item 与 [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 institutions-wadsworth-atheneum
+
+对象：`04-knowledge/units/institutions/wadsworth-atheneum.md`。原卡SHA-256：`bb906e0117cf1635c67c084afc92ddec4233f08d864136937000a84d928f3928`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Wadsworth Atheneum](https://en.wikipedia.org/wiki/Wadsworth_Atheneum)
+- [Wikidata Q403080](https://www.wikidata.org/wiki/Q403080)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-abate-lancellotti
+
+对象：`04-knowledge/units/persons/abate-lancellotti.md`。原卡SHA-256：`ed65728ec37464984fcb878f10b5d7f36d699276e8a1864340e244d841c07fe1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q15733678](https://www.wikidata.org/wiki/Q15733678) ↔ [Wikipedia：Secondo Lancellotti（英文）](https://en.wikipedia.org/wiki/Secondo_Lancellotti)。沿用REV-034双向身份配对，本轮已读WP全文。VIAF 15657129仅据WD取得，未核原站。
+
+### 证据与未决项
+
+S1为章内依据，S2–S4保留初步核查范围；S5全文阅读与S6字段核查不当作独立双源，S7为独立传记补证但该传记也是WP部分内容的来源。没有读过其著作原件或所列研究全文。宗教誓愿不等于神职授任，解职不等于离会；WP两项简述未采用。头衔的恢复、具体馆藏和全套著作版本仍需定向核查，不按模板填满。
+
+[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+````
+
+
+### REV-072 persons-alessandro-peretti-montalto
+
+对象：`04-knowledge/units/persons/alessandro-peretti-montalto.md`。原卡SHA-256：`749159194d35ec0c578c2d2dc5e27a69d2b9cd81aefddb0027b8bb21aaa4561a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q82659](https://www.wikidata.org/wiki/Q82659) ↔ [Wikipedia：Alessandro Peretti di Montalto（英文）](https://en.wikipedia.org/wiki/Alessandro_Peretti_di_Montalto)。沿用REV-034配对；REV-052已全文阅读并逐字段审查。ULAN 500354026、VIAF 62291064为WD给出的标识，未核规范库原页。
+
+### 证据与未决项
+
+S1–S2为原章，S3–S4为历史身份核对，S5–S6为本轮全文及实际字段。WP页面提示缺少行内注释，所列馆藏、具体赞助日期和亲属细节仍需原档或机构目录支持。WD P27的目标Q172107实际标签为Polish–Lithuanian Commonwealth，且无引用；本轮不采作国籍，不将保护枢机职务转成公民身份。WD无引用的其他兄弟姐妹项暂不写入。以上未决不影响已有章内亲属边，但限制由其派生的新关系。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+````
+
+原表达：
+
+````markdown
+| 国籍 | 未核定；WD的波兰立陶宛联邦国籍项未采用 | S6；详见未决项 |
+````
+
+
+### REV-072 persons-alessandro-vasalli
+
+对象：`04-knowledge/units/persons/alessandro-vasalli.md`。原卡SHA-256：`6e3239f0dfdbafaef75d00dc0dfb78c10dfc2c79fffa5b862ded79a09a0a6d54`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**S1：第一章p.6、L179–185，经Montalto p.295转引。** [证词记录](../archives/vasalli-testimony-mola-pamfili.md)保存载体和传递链；[莫拉](pier-francesco-mola.md)是现有正式关系端点，[潘菲利](camillo-pamfili.md)身份另在对应卡核定。证词发言者与执笔记录者不同。
+
+**补查结果：问题未解决。** 英文Wikipedia双名形检索无命中；意大利文命中现代家庭研究书目，不能对应十七世纪证人。S2的Alessandro Vassalli活动于1771、1782年，属于建筑工程语境，已排除。没有采用QID，未导入这些同名人的亲缘、职历或作品。
+
+本卡已完成本轮可达范围内的对齐与补足处置：排除十八世纪同名建筑从业者，保留章内身份、证词内容和1条正式关系；人物独立生平仍未解决。下一证据入口为Montalto 1955 p.295及其所据笔录，尚未取得原页／原档。[补查记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 persons-alof-de-wignacourt
+
+对象：`04-knowledge/units/persons/alof-de-wignacourt.md`。原卡SHA-256：`754a4c35db795ba10e2d76c3ecfba9efb948246822ad126e176e8a0b35d15e62`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Alof de Wignacourt](https://en.wikipedia.org/wiki/Alof_de_Wignacourt)
+- [Wikidata Q658756](https://www.wikidata.org/wiki/Q658756)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+原内容中的过程说明：
+
+````markdown
+本卡不把骑士团职务、赞助关系和肖像被表现关系合并；每项关系按角色和时间分别记录。
+````
+
+
+### REV-072 persons-ameyden
+
+对象：`04-knowledge/units/persons/ameyden.md`。原卡SHA-256：`5339a63ab2ec863de08dde20067e48772d1b7ab536d8e6a9820ae55c077c2bd3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia：Dirk Ameyden（en）](https://en.wikipedia.org/wiki/Dirk_Ameyden) ↔ [Wikidata：Q3983865](https://www.wikidata.org/wiki/Q3983865)：本轮英文页 `wikibase_item` 与 WD `enwiki` 相合，名字、年代、活动地及著述相容。保留原[意大利语入口：Teodoro Ameyden](https://it.wikipedia.org/wiki/Teodoro_Ameyden)的REV-034记录；本轮新增英文全文阅读，不将意大利语导言旧读升级为全文。（S2、S3、S5、S6）
+
+ULAN 500726524、VIAF 89210652来自WD，未直接读Getty／VIAF。WD缺少父母、配偶、子女字段不代表这些关系不存在；本卡由叙述证据补入。（S6、S7）
+
+### 关系导航与原书证据
+
+本卡无既有正式关系；可经[1642年手稿](../archives/ameyden-relazione-1642.md)及[卡萨纳滕塞图书馆](../institutions/biblioteca-casanatense.md)查看文献与保存语境，导航不新增边。
+
+S1为第一章p.4，L89–92，署名Ameyden及MS.5001；S4为同书索引p.444，L145–146，将名字展开为Dirk。原句摘要和定位完整保留在元数据。
+
+### 未决与限制
+
+- 早期长期定居年份、个人房产的完整沿革和17名子女身份未解决；不凭概述填入精确日期或人名。
+- 1642年记述、1640–1650日记、1672年刊本须按各自馆号／版本核对；本轮只读作者传记与相关馆藏项目，不宣称原件全文已读。
+- 补入事实与正式边分别处理；保持 `source_backed`，详见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `persons/ameyden`。
+````
+
+
+### REV-072 persons-andrea-camassei
+
+对象：`04-knowledge/units/persons/andrea-camassei.md`。原卡SHA-256：`d10424746db638aa51f14af8e39ae95e8873692d4e0c44368428f77636112690`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikipedia](https://en.wikipedia.org/wiki/Andrea_Camassei) ↔ [Wikidata Q3615565](https://www.wikidata.org/wiki/Q3615565)复用并核对；英文页4152字符全文已读。S1–S10按sources排序，保留本章第10、12、13页来源。原有作品关联边保留，正文导航与亲缘字段未自动成边。
+
+**未决：** 贝尔托洛蒂原刊写Antonio Camassei及1633年向Marcello Sacchetti下令，后者1629卒年造成冲突；Haskell、DBI、Met支持Andrea及该祭坛画，但不能消除原刊问题。旧传记被杀传闻不作为确定死因。精确出生日期、全部作品与婚姻原档未核。
+````
+
+
+### REV-072 persons-andrea-pozzo
+
+对象：`04-knowledge/units/persons/andrea-pozzo.md`。原卡SHA-256：`94218f2e4a0679de87a5f85be1fba192a7dcd84671abca6ad9e3c72824086df5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikidata Q380103](https://www.wikidata.org/wiki/Q380103) · [Wikipedia（en）Andrea Pozzo](https://en.wikipedia.org/wiki/Andrea_Pozzo)。复用 REV-034 双向身份配对；完整阅读 WP 后补入适用事实，不将 Wiki 两站作为两份独立事实证明。整卡仍为 source_backed。
+
+本卡目前无正式出边；[罗马](../places/rome.md)等正文链接为导航。亲缘和师承若缺明确身份或适用谓词，保留字段，不自动生成图谱边。
+
+S1：第一章 p.20，OCR L840–843，父母期望与职业选择。S2–3 为初步对齐；S4–6 为本轮补足。生卒 WD 为 normal、日精度、公历；其引用的 RKD、BnF 等原站未因此视作已读。
+
+**冲突与缺口：** 不采用 Wikipedia 信息框中“直接师从 Palma Giovane／Andrea Sacchi”的断言：匿名训练与疑似师承不能混同，Palma 的相关年代尤其需核。入会日 23／25 日、第二卷 1698／1700、维也纳迁居 1702／1703 均保留异文。官方藏品编号、完整作品清单、父母财产与原传记责任尚未解决；S6 所引洗礼、誓愿和委托档案未读原件。没有将本书在百科的被引情况计作独立补证。
+
+[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+````
+
+
+### REV-072 persons-andrea-procaccini
+
+对象：`04-knowledge/units/persons/andrea-procaccini.md`。原卡SHA-256：`7af1f8e18b6cc3e8c32e14ea1546a9e419cdc6daa761df7185c6569b7210ff2a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Procaccini) ↔ [Wikidata Q2846401](https://www.wikidata.org/wiki/Q2846401)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+卡内尚无自身发出的正式边；[Maratta](../persons/carlo-maratta.md)、[西班牙](../places/spain.md)为相关知识元导航。父母及配偶姓名不自动生成新KU。
+
+Wikidata去世地P20=Q5482623的实际标签为La Granja皇家玻璃厂，并非城镇，**不采用该地点QID**。WP6月24日不伪称来自月精度WD。两件La Granja祭坛画完成者仍须对象级补证。S1–2章页、行号及句意摘要完整保留。
+````
+
+
+### REV-072 persons-andrea-sacchi
+
+对象：`04-knowledge/units/persons/andrea-sacchi.md`。原卡SHA-256：`20ab34d7275a204752807ef61fde73d96cc235b6b2b0f3b0b8ddf6b5ef72b147`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 正式关系入口：[小安东尼奥·巴贝里尼](antonio-barberini.md)、[巴贝里尼家户记录](../institutions/barberini-household.md)。本次维持两条边；后者继续限定为安东尼奥的服务组织，不能解释成血缘家族成员。
+- 相关事件与作品：[1640年家户晋级](../events/sacchi-household-promotion-1640.md)、[本章祭坛画小幅版本](../works/sacchi-capuchin-altarpiece-modello.md)。这些链接不自动新增边。
+- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Andrea_Sacchi) ↔ [Wikidata Q495008](https://www.wikidata.org/wiki/Q495008)，双向一致。Getty ULAN 500022759仅为WD提供的标识，本轮未核Getty原站。
+- S1–S2为本章来源，S3–S4为原初步对齐，S5–S7为本轮补足；元数据保留章页、行数及句子摘要，事实按上表对应。
+- 未决：出生日期与地点、母亲／配偶、完整家族谱系、原遗嘱与家户清单。Wiki互链不证明所有字段正确，整卡仍为source_backed。
+````
+
+
+### REV-072 persons-annibale-carracci
+
+对象：`04-knowledge/units/persons/annibale-carracci.md`。原卡SHA-256：`3bdb3585f6b77c03de5094c48ed76bee3445c246dec57d6bcbb348ed9cc77afe`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份与证据范围
+
+[Wikipedia：Annibale Carracci](https://en.wikipedia.org/wiki/Annibale_Carracci) ↔ [Wikidata：Q7824](https://www.wikidata.org/wiki/Q7824) 已双向配对，沿用 REV-034；REV-052 完整阅读英文页修订 1370409628 并核对 WD 字段。ULAN 500115350、VIAF 12405951 来自 WD（normal rank）；本轮未直接读取 Getty／VIAF，不能称其独立核验已完成。
+
+S1：第一章 pp. 4–5，L84–88、101–110；Carracci 为博洛尼亚画家进入罗马、引入新画风的先行人物。下文同乡引介属于作者概括，不逐项套成他的生平。S2–S3 是初步身份对齐，S4–S7 为本轮补足；具体事实依表中来源，不将来源清单当整卡通证。
+
+### 关系导航
+
+本次集中审查未接收本卡的新关系。出生／活动地链接只作导航；亲缘、师承、合作、赞助虽分字段保存，但现有可接收端点与直接证据不足。WD 的 Antonio Carracci 学生条目所引传记未读，不写师徒边。
+
+### 未决与限制
+
+- 法尔内塞画廊日期：S6 英文介绍以 1597–1601 记天顶工作，S7 记 1600 年展示；S4 作品总表为 1597–1605。保留工程阶段差异，不强选一个全项目结束日。
+- S4 前段《基督受洗》为 1585，作品表为 1584；未决前不采用单一日期。S4 末段 1575 年威尼斯《圣凯瑟琳的神秘婚姻》与本人作品／年龄语境可疑，未采入其作品清单。
+- S4 有“three Carracci brothers”和“younger brother”等亲缘错误，已用 S6–S7 区分兄长与堂兄；Guercino 等后继艺术家不一律登记为直接学生。
+- 父母、配偶、子女、完整作品目录和委托账目仍有缺口；保持 `source_backed`。本次未接收无直接证据的关系，过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `persons/annibale-carracci`。
+````
+
+原表达：
+
+````markdown
+| 法尔内塞画廊《众神之爱》（The Loves of the Gods） | 1597 年起 | 壁画；Palazzo Farnese，Rome；项目阶段日期见未决项 | S4、S6、S7 |
+````
+
+原内容中的过程说明：
+
+````markdown
+这些是人物生平中的作品条目，不自动新增 KU；尚未逐件读取藏品原始记录，不声称清单穷尽或每项日期均经馆方独立核对。
+````
+
+
+补充整理：卡拉奇样例进一步精简字段中的采集说明、WD rank与重复提示；保留儒略历／格里高利历、可能师承、亲缘状态，并把法尔内塞分阶段日期直接放回作品字段。以下差异保留被精简的原表达。
+
+````diff
+--- 整理初稿
++++ 样例字段
+@@ -12,66 +12,67 @@
+ | 字段 | 内容 | 依据 |
+ |---|---|---|
+ | 全名／通用名 | Annibale Carracci；安尼巴莱·卡拉奇 | S1、S4–S7 |
+-| 别名、昵称 | 当前采用来源未确认其他独立通用名；不把 Carracci 家族其他成员的名字并入 | S4–S7 |
+-| 荣誉／贵族头衔 | 当前采用来源未载；不造头衔 | S4–S7 |
+-| 身份标签 | 画家（painter）；素描家（draftsman）；版画家（printmaker）；艺术教学者（art instructor） | S4–S7；前三项对应 S5 P106 的各独立值 |
++| 别名、昵称 | 未确认 | S4–S7 |
++| 荣誉／贵族头衔 | 未载 | S4–S7 |
++| 身份标签 | 画家（painter）；素描家（draftsman）；版画家（printmaker）；艺术教学者（art instructor） | S4–S7 |
+
+ ### 基本信息
+
+ | 字段 | 内容 | 依据 |
+ |---|---|---|
+-| 性别 | 男性 | S5 P21，normal rank，有引用 |
+-| 生年／生日 | 1560 年；1560-11-03 为 WD preferred 值，日精度、儒略历，优先理由为“更精确的值”；另有 1560 年精度 normal 值，不把精度差异当两个生日 | S4、S5 |
+-| 卒年／卒日 | 1609-07-15；WD normal、日精度、格里高利历，带多条引用 | S4、S5 |
+-| 出生地 | [博洛尼亚](../places/bologna.md) | S4–S6；S5 P19 normal，有引用 |
+-| 去世地 | [罗马](../places/rome.md) | S4–S6；S5 P20 normal，有引用 |
++| 性别 | 男性 | S5 P21 |
++| 出生日期 | 1560-11-03（儒略历） | S4；S5 P569 |
++| 去世日期 | 1609-07-15（格里高利历） | S4；S5 P570 |
++| 出生地 | [博洛尼亚](../places/bologna.md) | S4–S6；S5 P19 |
++| 去世地 | [罗马](../places/rome.md) | S4–S6；S5 P20 |
+ | 安葬地 | 罗马万神殿；按传记记述葬于拉斐尔附近 | S4 |
+-| 文化／地域归属 | 意大利艺术史语境中的博洛尼亚画家；生前主要活动于教皇国。WD P27“教皇国”无引用，仅作历史政治语境线索，不等同现代国籍证明 | S4–S7 |
++| 文化／地域归属 | 意大利艺术史语境中的博洛尼亚画家；主要活动于教皇国 | S4、S6–S7 |
+
+ ### 亲缘关系
+
+ | 字段 | 内容 | 依据 |
+ |---|---|---|
+-| 父亲 | 本轮采用来源未确认姓名 | S4–S6；S5 P22 空缺不证明无父系资料 |
+-| 母亲 | 本轮采用来源未确认姓名 | S4–S6 |
+-| 兄长 | Agostino Carracci（1557–1602）；是兄长，不是 S4 导言所写的 younger brother | S5 P3373、S6、S7 |
+-| 堂兄 | Ludovico Carracci（1555–1619）；不是三兄弟之一 | S6、S7 |
+-| 侄辈 | Antonio Carracci；Francesco Carracci；S4 信息框列举，具体亲子链未补齐 | S4 |
+-| 配偶 | 当前采用来源未载；不推断未婚 | S4–S6 |
+-| 女儿／儿子 | 当前采用来源未载；不推断无子女 | S4–S6 |
++| 父亲 | 姓名未确认 | S4–S6 |
++| 母亲 | 姓名未确认 | S4–S6 |
++| 兄长 | Agostino Carracci（1557–1602） | S5 P3373、S6、S7 |
++| 堂兄 | Ludovico Carracci（1555–1619） | S6、S7 |
++| 侄辈 | Antonio Carracci；Francesco Carracci；具体亲子链未定 | S4 |
++| 配偶 | 未载 | S4–S6 |
++| 女儿／儿子 | 未载 | S4–S6 |
+
+ ### 教育与职业履历
+
+ | 时间 | 条目 | 依据 |
+ |---|---|---|
+-| 早年 | 可能向堂兄 Ludovico 及 Bartolomeo Passarotti 学习；师承保留“可能”，不据后来的风格接近升级确定师徒关系 | S6 |
++| 早年 | 可能向堂兄 Ludovico 及 Bartolomeo Passarotti 学习 | S6 |
+ | 1582 年 | 与 Ludovico、Agostino 共同建立艺术教学组织，后来称 Accademia degli Incamminati | S4、S6 |
+-| 1580 年代 | 创作风俗画、祭坛画，参与博洛尼亚宫殿壁画；家族合署项目不能把全部部分归为个人独作 | S4、S6 |
+-| 1587–1588 年 | S4 记至帕尔马、威尼斯旅行；同页另提更早旅行，未将各次日期合成一次，也未据此构造完整逐日行程 | S4 |
+-| 1594–1595 年 | S6 区分 1594 年获 Odoardo Farnese 召请与 1595 年完成博洛尼亚遗留工作后定居罗马；S7 以 1595 年概述罗马邀请 | S6、S7 |
+-| 约 1596–1597 年 | 装饰 Palazzo Farnese 的 Camerino，中心为画布上的《赫拉克勒斯的抉择》；不把中心油画写成壁画 | S6 |
+-| 1597 年起 | 主持法尔内塞画廊神话壁画项目，有助手与家族成员参与；天顶主体与画廊全部装饰的结束日期应分别判断 | S4、S6、S7 |
+-| 1605 年后 | 患病后创作减少。1606 年书信中的“忧郁”是历史表述，不追认现代医学诊断 | S4、S6 |
++| 1580 年代 | 创作风俗画、祭坛画，与家族成员合作博洛尼亚宫殿壁画 | S4、S6 |
++| 1587–1588 年 | 至帕尔马、威尼斯旅行 | S4 |
++| 1594 年 | 获 Odoardo Farnese 召请 | S6 |
++| 1595 年 | 完成博洛尼亚遗留工作后定居罗马 | S6、S7 |
++| 约 1596–1597 年 | 装饰 Palazzo Farnese 的 Camerino，中心为布面油画《赫拉克勒斯的抉择》 | S6 |
++| 1597 年起 | 主持法尔内塞画廊神话壁画项目，助手与家族成员参与 | S4、S6、S7 |
++| 1605 年后 | 患病后创作减少；1606 年书信称“忧郁” | S4、S6 |
+ | 1609 年 | 在罗马去世 | S4–S6 |
+
+ ### 作品清单（已整理代表作）
+
+ | 作品 | 时间 | 形式／所在地 | 依据 |
+ |---|---|---|---|
+-| 《肉铺》（The Butcher's Shop） | 1580 年代 | 油画；Christ Church Picture Gallery，Oxford；存在不同版本，不合并所有同名作品 | S4、S6 |
++| 《肉铺》（The Butcher's Shop） | 1580 年代 | 油画；Christ Church Picture Gallery，Oxford；同题作品有不同版本 | S4、S6 |
+ | 《吃豆人》（The Beaneater） | 1580–1590 年间，S4 所列范围 | 油画；Galleria Colonna，Rome | S4、S6 |
+ | 《基督受难与诸圣》（Crucifixion with Saints） | 1583 年 | 油画；Santa Maria della Carità，Bologna | S4、S6 |
+ | 法瓦宫《伊阿宋故事》壁画（Stories of Jason, Palazzo Fava） | 约 1583–1584 年 | 家族合作壁画，Bologna；个人贡献待具体作品研究 | S4 |
+ | 《赫拉克勒斯的抉择》（The Choice of Hercules） | 约 1596 年 | 油画；Museo Nazionale di Capodimonte，Naples；原为法尔内塞小室装饰中心 | S4、S6 |
+-| 法尔内塞画廊《众神之爱》（The Loves of the Gods） | 1597 年起 | 壁画；Palazzo Farnese，Rome；项目阶段日期[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-annibale-carracci) | S4、S6、S7 |
++| 法尔内塞画廊《众神之爱》（The Loves of the Gods） | 天顶工作1597–1601（S6）；1600年展示（S7）；作品总表1597–1605（S4） | 壁画；Palazzo Farnese，Rome | S4、S6、S7 |
+ | 《哀悼基督》（Pietà） | 1599–1600 年 | 油画；Museo Nazionale di Capodimonte，Naples | S4、S6 |
+-| 《圣母升天》（Assumption of the Virgin） | 1600–1601 年，S4 所列 | Cerasi Chapel，Santa Maria del Popolo，Rome；不与普拉多或博洛尼亚同题作品合并 | S4 |
++| 《圣母升天》（Assumption of the Virgin） | 1600–1601 年 | Cerasi Chapel，Santa Maria del Popolo，Rome | S4 |
+ | 《逃往埃及》（The Flight into Egypt） | 1603 年，S4 所列 | 油画；Galleria Doria Pamphilj，Rome | S4 |
+
+ ### 评价者与研究文献
+
+-- **Giovanni Pietro Bellori：** S4 转述他以卡拉奇为理想化艺术传统的典范；这是批评立场，不是对所有画家的无争议排序。未读其原著全文。
+-- **Keith Christiansen：** 强调卡拉奇对自然的观察、北意大利绘画学习及罗马时期的综合；其对后世影响的概括作为署名艺术史判断保留，不直接转成逐人的确定影响边。（S7）
++- **Giovanni Pietro Bellori：** 以卡拉奇为理想化艺术传统的典范。（S4转述）
++- **Keith Christiansen：** 强调卡拉奇对自然的观察、北意大利绘画学习及罗马时期的综合。（S7）
+ - **Donald Posner，*Annibale Carracci: A Study in the Reform of Italian Painting Around 1590*（1971，2 卷）：** S4、S7 书目线索，未读原著。
+ - **Charles Dempsey，*Annibale Carracci and the Beginnings of Baroque Style*（1977；2000 年第二版）：** S4 书目线索，未读。
+ - **Silvia Ginzburg，*Annibale Carracci a Roma: gli affreschi di Palazzo Farnese*（2000）：** S4 书目线索，未读。
+@@ -80,7 +81,6 @@
+ ## 关系与证据
+
+ ### 关系记录
+-
+ | 方向与关系 | 关联知识元 | 语境与证据 |
+ |---|---|---|
+ | ← 教师（`teacher_of`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；wikipedia-lanfranco；本卡 S3；Biography中early training与Roman workshop段 |
+````
+
+### REV-072 persons-annibale-laparelli
+
+对象：`04-knowledge/units/persons/annibale-laparelli.md`。原卡SHA-256：`3322e299f6bcd2032f0cea4ca5149d2031030aff31ced5140fe49a3f55ca7ea8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L507–508。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Annibale Laparelli | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托支付 | Ferri 祭坛画；预付 50、完成后 180 scudi | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 英文与意大利语人物页及同名QID未获可确认配对；不与建筑师Francesco Laparelli合并。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-antonio-barberini
+
+对象：`04-knowledge/units/persons/antonio-barberini.md`。原卡SHA-256：`2903d9cb2dcbac8f8b0bcf9c0da05563d2a291976a19a6b364ba71134885bca9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 身份：[Wikipedia（en）](https://en.wikipedia.org/wiki/Antonio_Barberini) ↔ [Wikidata Q599744](https://www.wikidata.org/wiki/Q599744)，已完成同名世代区分及双向配对。修正旧正文“同名消歧未开展”的滞后表述。
+- 相关知识元：[萨基](andrea-sacchi.md)、[家户晋级事件](../events/sacchi-household-promotion-1640.md)、[巴贝里尼家户记录](../institutions/barberini-household.md)、[乌尔班八世](urbano-viii.md)。相关链接提供访问入口，本卡尚无新增正式出边。
+- 本章S1保留第7页L195–198及摘要；S2–S4是既有对齐证据，S5–S7为全文／字段补足。Getty ULAN500354177仅从WD取得，本轮未核原站。
+- 未决：生卒精确日、部分职位起期、原家户清单、完整亲缘／藏品与学术文献目录。当前补足不等于全字段完成，仍为source_backed。
+````
+
+
+### REV-072 persons-antonio-ruffo
+
+对象：`04-knowledge/units/persons/antonio-ruffo.md`。原卡SHA-256：`baa02f20885695a712c3f330997a5f273e9b5c44f497e348527d19ef2a0a54d1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Antonio Ruffo](https://en.wikipedia.org/wiki/Antonio_Ruffo) 与 [Wikidata Q88949215](https://www.wikidata.org/wiki/Q88949215) 的sitelink双向一致；1610年前后、1678年、Messina、收藏家与赞助人身份及艺术家通信网络与第一章对象吻合。S7为全文阅读，S8为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| Bagnara公爵头衔 | 英文Wikipedia信息框所列不采用；DBI明确是长兄Francesco继承Bagnara公爵，Antonio取得Scaletta亲王头衔 |
+| 出生 | DBI为“可能1610年、可能Messina”，Wikipedia为1610或1611且另说Bagnara城堡／Messina；保持约数与地点不确定 |
+| 死亡日 | DBI确认1678年Messina，Wikipedia给6月16日；未读其所引RKD原记录，精确日仍为次级来源值 |
+| 书信与藏品 | 尚未逐封转录182封通信，也未按清册建立完整藏品KU、现藏与流传关系 |
+| 后代 | 只确认长子Placido和家系继续；完整子女、继承、1783年地震后转移链仍待家族与清册来源 |
+
+来源序号S1–S9依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-artemisia-gentileschi
+
+对象：`04-knowledge/units/persons/artemisia-gentileschi.md`。原卡SHA-256：`11d2dbebd663e90581dd7d6374f274b237f3137156736a7c9b532d96b993bfb0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi) 与 [Wikidata Q212657](https://www.wikidata.org/wiki/Q212657) 的sitelink双向一致；Lomi／Gentileschi姓名、1593年Rome出生、Orazio之女、画家身份及Rome—Florence—Venice—Naples—London轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取；身份配对不表示S5全部断言均已采用。
+
+### 可导航的关系候选（尚未成正式边）
+
+| 关系性质 | 相关知识元／对象 | 证据与处理 |
+|---|---|---|
+| 通信、委托与付款 | [Antonio Ruffo](antonio-ruffo.md) | S1只把双方信件列为价格来源；S6确认1649—1650年通信、《Galatea》与《Diana at Her Bath》付款及另两项拟议委托。信件、委托、付款和作品端点须分开成边 |
+| 训练与亲缘 | Orazio Lomi Gentileschi | S4、S6–S7支持父女及工作室训练；当前无已接收父亲KU，不创建悬空链接或正式边 |
+| 活动地点 | [Rome](../places/rome.md)、[Florence](../places/florence.md)、[Venice](../places/venice.md)、[Naples](../places/naples.md) | S4、S6–S7支持分期活动；需按时间段审查活动地关系，不能压成一个无时间限定的“位于”关系 |
+| 机构资格 | Accademia delle Arti del Disegno, Florence | S6给出1616-07-19至1620；不是现有[圣路加学院](../institutions/accademia-di-san-luca.md)，不得误连 |
+
+本次将与Antonio Ruffo在1649–1650年的通信登记为 `corresponded_with`，范围中保留付款与拟议委托语境，不把通信直接等同成交；父女师承因父亲尚无已接收KU，活动地也不以无时间限定的 `located_at` 压缩，故未形成其他正式边。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 卒年 | 采用“1654年8月以后”；S7的新见文书晚于DBI的1652年推定和WD的1653年，确切死亡日及地点仍待原文书和死亡记录 |
+| 出生年孤立异文 | S4正文含“档案出生证1590”，但同页、DBI和WD均为1593；未取得其所谓档案的可核定位，不改写为双生年 |
+| 子女人数 | DBI具名四人，S4／S7称五人，S4另列Agnola；须核原始洗礼与死亡记录 |
+| London合作 | 是否协助Orazio完成Queen's House天顶画仍有分歧；不生成父女合作作品关系 |
+| Ruffo交易 | DBI支持画题、付款顺序和拟议委托，但本轮未读1649—1650年原信，也未定位各作品现存实物、价格总额和作品KU |
+| 作品归属 | 早期父女协作、晚期工作室分工及多个同题版本均需作品级研究，不从人物传记批量生成作者关系 |
+| 评价史 | 女性主义、社会史和形式分析对其作品的解释不同；评价者、原文与被评作品需要另行结构化，不能归并成统一结论 |
+
+来源序号S1–S7依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-benedetto-luti
+
+对象：`04-knowledge/units/persons/benedetto-luti.md`。原卡SHA-256：`c84b55efcae54219a6f28693e80b94fa92d926398cdd6da8d6fae0e546cae108`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Benedetto_Luti) ↔ [Wikidata Q816847](https://www.wikidata.org/wiki/Q816847)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+尚无本卡发出的正式边；[Pascoli](../persons/pascoli.md)为相关知识元导航，关系须依证据另审。原文与[罗萨](../persons/salvator-rosa.md)的局部相似不是师生关系。
+
+WD生卒日均normal、日精度，与DBI相合；地点及师承中的维基来源不算独立互证。WP“1720在学院获骑士衔”与Prince任职应区分。DBI所称1691 Clementino比赛与官方学院竞赛沿革及别处1692记录有差异，本卡暂不新增该比赛事实。作品总数、完整藏品及全部学生不作穷尽承诺。
+````
+
+
+### REV-072 persons-benvenuto-cellini
+
+对象：`04-knowledge/units/persons/benvenuto-cellini.md`。原卡SHA-256：`0089323bb067b4567290eec71136953e1101934f08aefba24ac11421561db8fc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 16；OCR L634–635。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Benvenuto Cellini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 文献线索 | 自传被用于讨论对天才行为的宽容 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Benvenuto Cellini（en）；revision 1372874984；23922字符 | 全文覆盖：Biography、Youth、Work in Rome、Ferrara and France、Final return to Florence and death、Artwork、Statues、Decorative art and portraiture、Lost works、Drawings and sketches、In literature, music and film、Autobiography |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q190116](https://www.wikidata.org/wiki/Q190116)；与enwiki标题双向一致 | revision 2539677897；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 十六世纪佛罗伦萨金匠、雕塑家和自传作者；人物与自传分开。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Benvenuto_Cellini) 的 wikibase_item 与 [Wikidata Q190116](https://www.wikidata.org/wiki/Q190116) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-berlingete-gessi
+
+对象：`04-knowledge/units/persons/berlingete-gessi.md`。原卡SHA-256：`170cb09263334816e0020999dfcabdf7590c5539146d8dae9b707d8d13f81b64`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L509–510。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Berlingero Gessi | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信 | 1647-07-10 致 Don Cesare Leopardi d’Osimo | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | Q2897287的Berlinghiero Gessi卒于1639年，不可能写1647年信；未找到可替代的Wikipedia—Wikidata配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**已排除误配。** Q2897287 为 1639 年去世的 Berlinghiero Gessi 枢机，不能认作 1647 年写信的 Berlingero Gessi；原文人物保留。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-bonifazio-gozadini
+
+对象：`04-knowledge/units/persons/bonifazio-gozadini.md`。原卡SHA-256：`5802b41a16f9afd9443465abd892745e107347dfd1064f4e2e612eb4944248f2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Bonifazio Gozadini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 材料承诺 | 1639；Albani 祭坛画的画布与群青 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到该人物可确认的独立Wikipedia—Wikidata配对；Gozzadini家族或作品页面不能代替个人身份。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-camillo-gavasetti
+
+对象：`04-knowledge/units/persons/camillo-gavasetti.md`。原卡SHA-256：`503475f9b8abcb8a99f8b796ffe3d872ad7849e7c2fad6e3cdc2e06c82f806e3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Camillo Gavasetti](https://en.wikipedia.org/wiki/Camillo_Gavasetti) 与 [Wikidata Q16853519](https://www.wikidata.org/wiki/Q16853519) 的 sitelink 双向一致；摩德纳出生和圣安托尼诺工程与本章对象吻合。S5 为全文阅读，S6 为全部可见结构化陈述及引用读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 死亡 | Wikipedia正文称1630年早逝，WD P570也是无引1630；DBI仅能确定1630年3月19日后失载，故不填写确切死亡年 |
+| 去世地 | WD P20=Parma 有RKD引用，但在死亡时间本身不明且DBI未确认的情况下暂不采用为定值 |
+| 父亲职业 | DBI的雕塑家／镀金工与Wikipedia的微型画家／镀金工分列；不合并成多职业事实 |
+| 活动期 | WD的1611–1628为权威库活动范围，不覆盖DBI所见1630付款 |
+| 作品 | 完整作品目录、合同原件和Guercino评价原始出处仍待核；Getty ULAN 500011074原站未读 |
+
+来源序号 S1–S7 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+
+### REV-072 persons-camillo-pamfili
+
+对象：`04-knowledge/units/persons/camillo-pamfili.md`。原卡SHA-256：`30f4442ae7a4bdb9da31526cfe77595f6f1a745938a35f2a3db817dd03e36bf3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 章内来源
+
+- **S1：第一章p6，L179–185。** Vasalli证词说明优先服务仍须正常支付作品报酬。
+- **S2：p7，L231–233。** Mola、Cortese短暂离开Valmontone需许可。
+- **S3：p9，L312–319、329–330。** 题材咨询及Armanni来信。
+- **S4：p13，L495–497、505–506、516–519。** 食宿、预付款及材料条件。
+
+保留元数据中对[莫拉](pier-francesco-mola.md)与[科尔泰塞](guglielmo-cortese.md)的两条既有正式关系。本次新增亲缘、官职和收藏字段尚未转为新边；各字段已列证据。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Camillo_Francesco_Maria_Pamphili)与[Wikidata Q2935138](https://www.wikidata.org/wiki/Q2935138)双向配对沿用REV-034。S5–S6为初对齐，S7–S10本轮补足。头衔授予文件、子女生年异文和各工程账簿待核；source_backed不变。[过程](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/camillo-pamfili定位。
+````
+
+
+### REV-072 persons-caravaggio
+
+对象：`04-knowledge/units/persons/caravaggio.md`。原卡SHA-256：`9fa04c64e9758ea71ad69382de1319f175a1eb55b38da916f4e0ba62ed7daf33`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源
+
+[Wikipedia：Caravaggio](https://en.wikipedia.org/wiki/Caravaggio) ↔ [Wikidata Q42207](https://www.wikidata.org/wiki/Q42207) 双向对应，复用有效身份判断；S5全文83995字符已读。S6字段及所引实体标签已经核对；S7只读指定区段，S8传记全文已读。身份配对不等于所有属性无争议，evidence_status仍为source_backed。
+
+### 已登记关系与关联导航
+
+- [《圣保罗归化》委托](../works/caravaggio-conversion-saint-paul.md)、[《圣彼得殉难》委托](../works/caravaggio-martyrdom-saint-peter.md)：文件头以 `creator_of` 记录合同指定画家，并用范围字段区分委托对象与具体实物版本，依据S2。
+- [1600年合同](../archives/caravaggio-altarpieces-contract-1600.md)：来源导航。
+- [《圣马太与天使》退画](../works/caravaggio-giustiniani-rejected-altarpiece.md)、[文琴佐·朱斯蒂尼亚尼](marchese-giustiniani-ch1.md)：退画购藏语境；本轮未新增正式边。
+
+### 未决及采用边界
+
+出生地、到罗马年份和母亲卒年存在异文；不采用Getty旧出生地直接覆盖米兰，不采用WD父亲异常标签，也不据无引用亲缘项宣布完整家谱。Getty正文称无学生而关系区列teacher_of，自相矛盾，未导入。死因、杀人动机与后世医学猜测保留未决。英文页部分作品版本及画家名字错接，不作为事实。
+
+作品端点已按REV-067闭合：57个原清单行裁决为61个独立对象，60个新建、1个复用；另保留2张委托对象卡。第57项Burton所谓《圣罗萨里奥》仍无足够同一性证据，故不建卡。争议作者、复制品和未知私人藏品没有被强制写成卡拉瓦乔创作或当前馆藏关系。人物的师承、雇用、朋友、赞助及骑士团成员关系已经补入正式关系；作品的创作、委托、原定安置、实际安置、保管、版本及选定所有权关系见各作品卡。
+
+S编号严格对应文件头sources；原章页、行号和句意摘要完整保留。过程见[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-052。
+````
+
+原表达：
+
+````markdown
+| 出生地 | 米兰／Milan，历史上属米兰公国 | S5–S6优选；Getty仍记Caravaggio，见未决 |
+````
+
+
+### REV-072 persons-cardinal-borghese-ch1
+
+对象：`04-knowledge/units/persons/cardinal-borghese-ch1.md`。原卡SHA-256：`8db61357e0cef17940029c0c988095fa4c59aeb76be460cb978f867826192ce2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与链接
+
+[Wikidata Q452570](https://www.wikidata.org/wiki/Q452570) ↔ [Wikipedia：Scipione Borghese](https://en.wikipedia.org/wiki/Scipione_Borghese)，沿用已完成双向身份配对；本轮全文阅读 S5。Getty ULAN **500245006**、VIAF **54156396** 来自 S6，不表示本轮直接访问核验过这些规范库。
+
+### 未决与采用范围
+
+生年、生地分歧保留，尚未核出生原始记录；完整职衔任期、亲缘及收藏清单尚不完备。S5 无引的财产合法性、私人生活传闻及部分收藏取得叙事未转换为确定字段；S8 通史式总览也不覆盖单件记录。S9 有进一步解决第 17 页胸像问题的资料，但两件版本、500 scudi 与 500 zecchini 加钻石的记录不能混为一笔。此卡首轮详细内容已保存，维持 source_backed。
+
+[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 persons-cardinal-pio-bonati
+
+对象：`04-knowledge/units/persons/cardinal-pio-bonati.md`。原卡SHA-256：`fd7ece9a6a53700421e6a2cce3734fe278c83e92d104786ce20c6bc1b0bc93ff`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**S1：第一章，印刷页6，OCR L186–187。** 句意为皮奥枢机出资支持博纳蒂六城学习旅行；本章本身没有完整姓名。S2–S4初步配对，S9专业传记的junior与人物训练情节提供补充消歧依据。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Carlo_Pio_di_Savoia)与[Wikidata Q2939240](https://www.wikidata.org/wiki/Q2939240)维持已核双向配对，完整姓名称谓不再仅靠本章推出。本卡暂无发出的正式关系；博纳蒂卡已有指向本卡的关系，本轮不另造反向事实。
+
+各来源按元数据S1–S9编号。未决项包括早期军旅、学业和收藏逐件归属；详细内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/cardinal-pio-bonati定位。
+````
+
+
+### REV-072 persons-cardinal-rospigliosi-gimignani
+
+对象：`04-knowledge/units/persons/cardinal-rospigliosi-gimignani.md`。原卡SHA-256：`06e3eab86aec8a70a3972c90c87537a51adbb74c3a6f6b2087cb4d369ee92c23`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**书内来源：** S1第一章p.6、L186–187记保护与旅行；S4索引p.467、L2804–2805将此页注指向Giulio Rospigliosi。S2–S3保留初步候选判断的历史；S5–S8是本轮身份和内容补证。
+
+**对齐修订（REV-052）：** S4书内指向与S7明确旅行赞助人姓名相合；英文[Wikipedia](https://en.wikipedia.org/wiki/Pope_Clement_IX)的wikibase_item和[Wikidata Q155961](https://www.wikidata.org/wiki/Q155961)的enwiki指向相互一致，现由候选改为身份配对通过。生日及家属名的差异是属性冲突，不再阻断该身份对应；整卡仍为source_backed。
+
+相关对象：[洛多维科·吉米尼亚尼](lodovico-gimignani.md)、[乔瓦尼·博纳蒂](giovanni-bonati.md)、[资助学习旅行](../procedures/patron-funded-study-travel.md)、[威尼斯](../places/venice.md)、[帕尔马](../places/parma.md)。这些是内容导航；本卡未新增正式关系边。
+
+**旅行证据差异：** S7列Guglielmo Cortese和Giovanni Bonati同行；Gimignani的DBI传记另列G.B. Gaulli，不能合并成已确认的四人同行团。章内资助叙述、现代重定年及完整旅程／支付条件仍分开；不能让一个已确认姓名替代所有行程事实。
+
+详细稿已保存；家庭异名、学位原档、作品版本、资助支付与同行者仍有缺口。[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)及[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定路径定位。
+````
+
+
+### REV-072 persons-carlo-cesare-malvasia
+
+对象：`04-knowledge/units/persons/carlo-cesare-malvasia.md`。原卡SHA-256：`a7475405d89248085ca9ae55dc835d6cc606d7199513a21df576356249b82cdb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L630–638,657–658；S2：第一章；印刷页 21；OCR L884–889。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Malvasia | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 来源限定 | 博洛尼亚作者；corre voce 标示传闻 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Carlo Cesare Malvasia（en）；revision 1371408601；10160字符 | 全文覆盖：Early life、Career、Works、Felsina pittrice, vite de’ pittori bolognesi、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1160847](https://www.wikidata.org/wiki/Q1160847)；与enwiki标题双向一致 | revision 2527442273；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Carlo Cesare Malvasia，博洛尼亚艺术史作者；排除同名葡萄品种页。
+
+名称记录：规范显示为 卡洛·切萨雷·马尔瓦西亚（Carlo Cesare Malvasia）；原登记名／来源名形 Malvasia 保留为检索异名，不因显示更新改动稳定路径。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Carlo_Cesare_Malvasia) 的 wikibase_item 与 [Wikidata Q1160847](https://www.wikidata.org/wiki/Q1160847) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-carlo-maratta
+
+对象：`04-knowledge/units/persons/carlo-maratta.md`。原卡SHA-256：`a2638e6b9cf1c1b494faf5fa987b4e514ab20992d3bbbf88f77829a691190ed1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Carlo Maratta](https://en.wikipedia.org/wiki/Carlo_Maratta) 与 [Wikidata Q538998](https://www.wikidata.org/wiki/Q538998) 的sitelink双向一致；Maratta／Maratti变体、1625–1713年、Camerano—Rome轨迹、Sacchi训练及画家身份与第一章对象吻合。S5为全文阅读，S6为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日 | 采用Wikipedia与DBI一致的5月18日；Wikidata有5月18、preferred 5月15及5月13三值，未用rank取代来源语义裁决 |
+| 第一任配偶 | Wikipedia给Francesca Trulli，DBI本轮未列姓名，只确认1659年分居与1700年前死亡；姓名保留来源限制 |
+| 工作室分工 | DBI指出晚期助手占比增大；未经作品级材料不能把工作室出品全部视为完全亲笔 |
+| 150scudi报价 | 第一章只说全身肖像的一般金额，未列特定客户、作品和日期；不能形成通用价目表 |
+| Bellori评价 | 是传记作者和朋友的判断，不是艺术家群体共同立场；其原传尚未直接阅读 |
+| 收藏与修复 | 清册、具体交易、逐件修复范围及方法仍需原档或作品级来源 |
+
+来源序号S1–S7依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-carlo-quarisimini-ch1
+
+对象：`04-knowledge/units/persons/carlo-quarisimini-ch1.md`。原卡SHA-256：`1fb176a43cdca6367344ed70f3bca84e13b68dcf9f40040a3a4369f1f2c7fca2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L511–513。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Carlo Quarismini (correspondent in 1696) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信 | 1696-07-11 致 Ventura Carrara 伯爵 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 书信全文确认姓名与角色；人物无可确认的独立Wikipedia—Wikidata配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-carlo-ridolfi
+
+对象：`04-knowledge/units/persons/carlo-ridolfi.md`。原卡SHA-256：`e898efa3945d4c9fdce6154dd2cfde10b42fd5be19a2ffa6739bf11409125a6f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 19；OCR L763–767。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Ridolfi | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 叙事线索 | Charles V 与 Titian 捡画笔故事 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Carlo Ridolfi（en）；revision 1372947747；3415字符 | 全文覆盖：Biography、Works、References、Sources、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q776990](https://www.wikidata.org/wiki/Q776990)；与enwiki标题双向一致 | revision 2521457463；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Carlo Ridolfi，1594–1658 年艺术家传记作者；排除仅指姓氏的页面。
+
+名称记录：规范显示为 卡洛·里多尔菲（Carlo Ridolfi）；原登记名／来源名形 Ridolfi 保留为检索异名，不因显示更新改动稳定路径。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Carlo_Ridolfi) 的 wikibase_item 与 [Wikidata Q776990](https://www.wikidata.org/wiki/Q776990) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-cesare-leopardi-dosimo
+
+对象：`04-knowledge/units/persons/cesare-leopardi-dosimo.md`。原卡SHA-256：`1ff204526599ba5cd63cd920694fe229d6b3ebf0486b8a60e8e0ed10d8ce2a08`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L509–510。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Don Cesare Leopardi d’Osimo | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信角色 | 1647-07-10 Gessi 信的收信人；Don 称谓 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 英文与意大利语检索未获可确认人物页或QID；d’Osimo不能自行推成职务、籍贯或亲缘。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-charles-v
+
+对象：`04-knowledge/units/persons/charles-v.md`。原卡SHA-256：`cb090a27fcc5049bb251401f55feb0f1ecc1a356b7ff6f03fea8732ab35dd46f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 19；OCR L764–767, 799–804。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Charles V | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 两类记载 | 提香捡画笔逸事；1533 年授衔 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+**语义摘要：** 已读取人物页全文；本卡只接收与身份、生平、职业和本章语境有关的字段。
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Charles V, Holy Roman Emperor（en）；revision 1373523657；98566字符 | 全文覆盖：Ancestry、Birth and childhood、Inheritances、Reign、Burgundy and the Low Countries、Spanish kingdoms、Italian states、Holy Roman Empire、Wars with France、Conflicts with the Ottoman Empire、Protestant Reformation、Abdications and death |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q32500](https://www.wikidata.org/wiki/Q32500)；与enwiki标题双向一致 | revision 2539745372；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1500–1558 年神圣罗马皇帝，符合 1533 年 Titian 授衔时代；排除王号消歧义页。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Charles_V%2C_Holy_Roman_Emperor) 的 wikibase_item 与 [Wikidata Q32500](https://www.wikidata.org/wiki/Q32500) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-christina-of-sweden
+
+对象：`04-knowledge/units/persons/christina-of-sweden.md`。原卡SHA-256：`5a32dfc1d5332666d721b39606df6ffcd28fe8d10279736c03d04f7f135a59b4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 19；OCR L767–770。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Christina of Sweden | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内叙事 | 邀请 Mola 同乘马车；作者认为较可能真实 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+**语义摘要：** 已读取人物页全文；本卡只接收与身份、生平、职业和本章语境有关的字段。
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Christina, Queen of Sweden（en）；revision 1374118193；66667字符 | 全文覆盖：Early life、Regency、Reign、Patronage of the arts、Descartes、Marriage issue、Coronation、Religion and health、Abdication、Departure and exile、Setting off to Rome、Palazzo Farnese |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q52937](https://www.wikidata.org/wiki/Q52937)；与enwiki标题双向一致 | revision 2522239786；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1626–1689 年瑞典女王，退位后在罗马活动，符合与 Mola 交往语境。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Christina%2C_Queen_of_Sweden) 的 wikibase_item 与 [Wikidata Q52937](https://www.wikidata.org/wiki/Q52937) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-ciriaco-mattei
+
+对象：`04-knowledge/units/persons/ciriaco-mattei.md`。原卡SHA-256：`afb52b0e9c15e9dde8cdac51cea8ecce146e265453a7c9c7a765e12c895dbf6b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Ciriaco Mattei](https://en.wikipedia.org/wiki/Ciriaco_Mattei)
+- [Wikidata Q3678126](https://www.wikidata.org/wiki/Q3678126)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-ciro-ferri
+
+对象：`04-knowledge/units/persons/ciro-ferri.md`。原卡SHA-256：`1ecbc4d50f0b6cb6d6176ca17d47426534b21a0d40bdd28e24856a8cbf5a83f4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Ciro Ferri](https://en.wikipedia.org/wiki/Ciro_Ferri) 与 [Wikidata Q975452](https://www.wikidata.org/wiki/Q975452) 的 sitelink 双向一致；科尔托纳师承、罗马身份和圣阿涅塞工程与本章对象吻合。S7 为全文阅读，S8 为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 采用 DBI 和 WD preferred 的1633年9月3日；Wikipedia 及 WD 普通值的1634年保留为旧传记口径 |
+| 工期 | 1670合同原定四年，1676又续四年；作品最终由他人续成，不能把合同期限当完成日期 |
+| 父名 | DBI以档案更正旧传记的Giovanni Stefano为Antonio Auriga alias Ferri；旧值保留在裁决说明，不并列为两位父亲 |
+| 家庭与作品 | 子女记录、完整作品、建筑设计范围和弟子关系仍需原档或对象级来源核验 |
+
+来源序号 S1–S9 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+
+### REV-072 persons-claude-lorrain
+
+对象：`04-knowledge/units/persons/claude-lorrain.md`。原卡SHA-256：`b7fb0e0db42d165f9103c79119a47e632a108c255e89275e0f800941c5571d2a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 8；OCR L265–273,283；S2：第一章；印刷页 14；OCR L538–540,565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Claude Lorrain | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 报价线索 | Salviati 1662 信；据客户身份区别预议价格 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Claude Lorrain（en）；revision 1373831548；27928字符 | 全文覆盖：Biography、Style and subjects、Influences、Early works、Figures and other non-landscape elements、Figures、Architecture、Shipping、Critical assessment and legacy、Claude glass、Selected works、See also |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q214074](https://www.wikidata.org/wiki/Q214074)；与enwiki标题双向一致 | revision 2539087728；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Claude_Lorrain) 的 wikibase_item 与 [Wikidata Q214074](https://www.wikidata.org/wiki/Q214074) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-clement-viii
+
+对象：`04-knowledge/units/persons/clement-viii.md`。原卡SHA-256：`8d96c811009ee8f205967c08d82a8020b3621018e56d6e6b5a95eef1bdc4d33a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+[Wikipedia（en）Pope Clement VIII](https://en.wikipedia.org/wiki/Pope_Clement_VIII) 与 [Wikidata Q170395](https://www.wikidata.org/wiki/Q170395) 的 sitelink 双向对应；另由已读家族页和家族项Q961820核对家族端点。S3仅读取本卡采用的身份、早年与任职段，不把未细读的教宗事务当作已补足字段。
+
+关系证据由S1–S4共同限定：人物页证明本名和出身，家族页／家族项证明成员归属。QID正确不表示Wikidata无引用的全部属性均已验证。
+````
+
+
+### REV-072 persons-clement-xi
+
+对象：`04-knowledge/units/persons/clement-xi.md`。原卡SHA-256：`ec8a662eeb6931934b621e5d6c111f8ef5006670352679d835d717e150e524db`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 19；OCR L771–773。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Clement XI | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 授予 | Giuseppe Ghezzi 在 St Peter’s 的 benefice | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Pope Clement XI（en）；revision 1372220365；12753字符 | 全文覆盖：Biography、Early life、Cardinalate、Pontificate、Election to the papacy、Actions、Beatifications and canonizations、Consistories、Chinese Rites controversies、Death and burial、Contemporary influence、Construction activity and patronage |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q129967](https://www.wikidata.org/wiki/Q129967)；与enwiki标题双向一致 | revision 2543439115；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1700–1721 年在位的教皇 Clement XI，与章中授予 Ghezzi 职位的时代相容。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Clement_XI) 的 wikibase_item 与 [Wikidata Q129967](https://www.wikidata.org/wiki/Q129967) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-correggio
+
+对象：`04-knowledge/units/persons/correggio.md`。原卡SHA-256：`284c4eb6e64626968db668897c1b6ef7bb56f1937174c2d332be3feee3c0d0dd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia英文](https://en.wikipedia.org/wiki/Antonio_da_Correggio)与[Wikidata Q8457](https://www.wikidata.org/wiki/Q8457)双向一致，按画家、故乡和帕尔马工作核对。Getty ULAN 500006208仅见WD引用，本轮未核ULAN原站，不称Getty身份另验完成。
+
+**字段取舍：** WD preferred生日1489-08-30只有其他Wikipedia导入来源，不能压倒专业传记的不确定性；另一同日底层值仅年精度。P1066的Bianchi与Antonio Begarelli无引用，前者仅保留可能训练，后者未接收师承。Thyssen简介将《圣方济各圣母》写Berlin，与其他来源Dresden不符，未采用；NG页头“active1494”不转写为出生年或确定童年活动。作品馆方的原作、Probably by、After与碎片分类保留。
+
+S1：**第一章，印刷页6，OCR L169–171**，句意为资助赴帕尔马看壁画的学习旅行；不能生成“某艺术家参观某一穹顶”的具体边。相关知识元：[帕尔马（Parma）](../places/parma.md)、[罗马（Rome）](../places/rome.md)；后者只是可能旅行线索，不为已证行程。
+
+**补足结果：** 姓名、基本信息、亲缘、职业履历、主要作品、评价及书目已分字段保存。生年月日、婚期、确定师承、罗马行、作品逐件归属与完整流传仍按证据待核。没有新增正式关系或子女KU；source_backed保持。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：persons/correggio；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+````
+
+
+### REV-072 persons-denis-mahon
+
+对象：`04-knowledge/units/persons/denis-mahon.md`。原卡SHA-256：`500619e179ee912910ca78c65acb2e87cb3e61d31f1e9c125cda0f811e847901`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L467–468；S2：第一章；印刷页 17；OCR L711。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Denis Mahon | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 收藏与研究线索 | Sacchi 祭坛稿；Mahon 1947 学院研究 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Denis Mahon（en）；revision 1364120001；7289字符 | 全文覆盖：Biography、Awards、Legacy、References、Further reading、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q3705445](https://www.wikidata.org/wiki/Q3705445)；与enwiki标题双向一致 | revision 2536263887；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** John Denis Mahon，英国意大利艺术史研究者及收藏家；不把历史持有延伸为今天收藏。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Denis_Mahon) 的 wikibase_item 与 [Wikidata Q3705445](https://www.wikidata.org/wiki/Q3705445) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-domenichino
+
+对象：`04-knowledge/units/persons/domenichino.md`。原卡SHA-256：`703032d3255661c1274ff0649c3b2915433619b9b208a1c615a349b7861fc8b3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 初步对齐与支持范围
+
+本章 Domenichino 与外部对象的昵称、博洛尼亚—罗马—那不勒斯活动及画家身份相符，采用全名并保留稳定路径。已读 [Wikipedia](https://en.wikipedia.org/wiki/Domenichino)；[Wikidata Q320118](https://www.wikidata.org/wiki/Q320118) 在 REV-034 已完成实体阅读及反向 sitelink 核对，配对通过；先前超时为历史过程，不再是当前缺口。
+
+正式关系仍仅以 frontmatter relations 为准。本章任职与计酬由 Haskell 支持；馆方资料只支持表中对应补充，身份判断不证明原书每项叙述。整卡保留 source_backed，未做整体验证晋级。
+
+### 待补与争议
+
+- 已补部分亲缘、婚姻与任命资料；兄弟名字异文、完整亲缘、其他称号、任职职责、完整作品与研究清单仍有缺口。
+- 生卒日月已有 S8 支持；死亡日 6／15／16 日冲突和圣则济利亚壁画完成日期差异保留。所采用工作年表及理由见表，不等于所有原始文献已核。
+- Met 对死亡原因的推测未采为确定史实；更直接传记、档案及说法之间的关系尚待核查。
+- REV-038 已提取适用 WD 字段，复用 REV-034 双向身份核对及既有 WP 全文阅读。入会年等仍待原页，整卡保持 source_backed。
+````
+
+原表达：
+
+````markdown
+### Wikidata 字段与采用范围（REV-038）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Domenico Zampieri／Domenichino，1581–1641 年画家；补齐此前缺失的 WD→英文页反向链。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Domenichino) 的 wikibase_item 与 [Wikidata Q320118](https://www.wikidata.org/wiki/Q320118) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-duke-bracciano-mulier
+
+对象：`04-knowledge/units/persons/duke-bracciano-mulier.md`。原卡SHA-256：`da0032ca38458a32fff17ac65c9737cf9335319698a87e2d31894bcb0faf622e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 所保护的画家：[皮耶特罗·穆利耶尔](pietro-mulier.md)。正式事实仍由画家卡发出，本卡通过反向导航显示；现有词表没有单独“保护人”谓词，不复制第二条泛化边。
+- S1：第一章第7页L231–233；S2：Rijksmuseum现代传记赞助人段；S3：Pascoli1730卷1pp.177–184，实际读OCR，原扫描图像未逐页复核。
+- **Wikipedia／Wikidata：未确认配对。** 现有证据增加了本章事件背景，但未解除具体身份阻断。继续查对应授衔、委托或离开罗马的原档；不能据爵号或时代重叠强选QID。
+````
+
+
+### REV-072 persons-duke-mantua-reni-1617
+
+对象：`04-knowledge/units/persons/duke-mantua-reni-1617.md`。原卡SHA-256：`837da59623b04e91f19058e4606a9350974f05a7a75716378f795b027fb39728`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikipedia：Ferdinando Gonzaga, Duke of Mantua](https://en.wikipedia.org/wiki/Ferdinando_Gonzaga,_Duke_of_Mantua) ↔ [Wikidata Q969739](https://www.wikidata.org/wiki/Q969739) 双向对应。1617在任时间、爵号、Reni赞助共同支持本章人物身份，本轮配对通过；这是身份判断，不表示读过1617信原件。
+
+S2全文3581字符含家谱、脚注已读；S3引用实体标签与时段限定已核；S4只读所列段落，未声称DBI全文。婚期12／16日及枢机终年冲突保留。
+
+本卡尚无正式边；[雷尼](guido-reni.md)和[1617年委托](../works/reni-justice-embracing-peace.md)为导航。父母、配偶等结构化事实不自动扩增有效KU。来源章页／行号与句意摘要保持；source_backed不变。
+````
+
+
+### REV-072 persons-duke-parma-ghezzi
+
+对象：`04-knowledge/units/persons/duke-parma-ghezzi.md`。原卡SHA-256：`c2863bf48aabc0100f35a9e3e9ca722dbee093d2de8d2b2cbfae9fe5e00fd058`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章，印刷页19，OCR L770–773。S2为Giuseppe DBI全文；S3为Pier Leone DBI受衔段选读。二者支持消歧，不支持本公爵新增生平事实。
+
+文件头1条指向[Giuseppe Ghezzi](../persons/giuseppe-ghezzi.md)的既有关系保留；其对象仍是本章未具名公爵，不合并到猜测人名。本轮已完成可达范围内的对齐与补足处置，当前结论为**已处理但身份未解决**；status仍为source_backed，并阻断依赖具体公爵身份的新字段和关系。
+````
+
+
+### REV-072 persons-ermete-cavalletti
+
+对象：`04-knowledge/units/persons/ermete-cavalletti.md`。原卡SHA-256：`ed3df9eafc71d6ecceb4c8bc2608f7de9b0c475a8409401767ff74b27d056c4a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- 当前没有同粒度Wikipedia—Wikidata配对；这不构成知识元缺陷。
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-fabrizio-arragona
+
+对象：`04-knowledge/units/persons/fabrizio-arragona.md`。原卡SHA-256：`d4a3d3974bad765f8c2fa099a4b7d002863717c889a432f7ab45bde1cd296f85`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L567–568。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Fabrizio Arragona | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 职能及通信 | 曼图亚驻罗马代理人；1621-10-09 信 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到可确认的Wikipedia—Wikidata人物配对；同姓贵族和地名结果已排除。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-fabrizio-valguarnera
+
+对象：`04-knowledge/units/persons/fabrizio-valguarnera.md`。原卡SHA-256：`99d848f8ea442dafd180dc0eb5546d57dfc7d3732010b1b54f412f8a4ca1b4a0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 15；OCR L591–603。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Fabrizio Valguarnera | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 交易区分 | 完成已有画稿；另向 Poussin 新订《春》 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 没有可靠的独立人物Wikipedia—Wikidata配对；Valentin或《阿什杜德瘟疫》作品页不能代替其个人身份。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-federigo-zuccari
+
+对象：`04-knowledge/units/persons/federigo-zuccari.md`。原卡SHA-256：`3767563bb5ca15358c3bc8ea42215959ea423e4772ace24437d66dd6229df865`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 关系与身份入口
+
+已有 `member_of` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为1593–1594年的首任Prince及组织领导者，并与1577年设院授权区分。亲缘、师承、保护人等字段尚未自动写成正式边。
+
+[Wikipedia（英文）](https://en.wikipedia.org/wiki/Federico_Zuccari) ↔ [Wikidata Q345605](https://www.wikidata.org/wiki/Q345605)配对复用，排除同名天文学家。S1是第一章p.17、OCR L681–683；S2–4是此前对齐；S5–8是本次阅读与字段核对。WD引用未逐个外链全读。
+
+### 冲突与未决项
+
+- WD生年1539与1541均normal、年精度，编码中的1月1日不是生日；WP约1540/1541与DBI1539/40并存。以DBI的论证及范围表达，不造唯一生年。
+- WP卒日还有8月6日异文，本卡采用DBI与WD preferred的7月20日；rank本身不替代史料判断。
+- WP所谓Sixtus V在1595年批准学院与该教皇1590年去世冲突，不采纳；官网1593首任Prince及1577授权分别记录。
+- 本次未从Getty受限页面接收事实；搜索摘要中的1583放逐、1598学院任职与DBI不同，不能标作已读Getty正文互证。
+- 作品逐件馆号、完整任职名单和遗嘱原文尚待后续直接证据；不扩张为完整百科或新对象登记。
+````
+
+
+### REV-072 persons-filippo-baldinucci
+
+对象：`04-knowledge/units/persons/filippo-baldinucci.md`。原卡SHA-256：`bb2b71c0da066e2f1d797addc7ee29f4083aac7db70d35cb340d330b8e53db65`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 15；OCR L614；S2：第一章；印刷页 17；OCR L674–677；S3：第一章；印刷页 19；OCR L796；S4：第一章；印刷页 23；OCR L963–973。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Baldinucci | S1、S2、S3、S4；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内角色 | 传记与艺术史作者；收入、逸事及 Rosa 评价来源 | S1、S2、S3、S4，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Filippo Baldinucci（en）；revision 1363682752；5101字符 | 全文覆盖：Life、Works、'Filippo Baldinucci on the Privilege of Burial'、Notes、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q979574](https://www.wikidata.org/wiki/Q979574)；与enwiki标题双向一致 | revision 2522046216；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Filippo Baldinucci，十七世纪艺术史和传记作者；排除姓氏页，卒年差异不由身份对齐裁定。
+
+名称记录：规范显示为 菲利波·巴尔迪努奇（Filippo Baldinucci）；原登记名／来源名形 Baldinucci 保留为检索异名，不因显示更新改动稳定路径。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Filippo_Baldinucci) 的 wikibase_item 与 [Wikidata Q979574](https://www.wikidata.org/wiki/Q979574) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-filippo-lauri
+
+对象：`04-knowledge/units/persons/filippo-lauri.md`。原卡SHA-256：`63abcfd64d2268c79b7e9aa7616b7863a6a440b36d7aa92505f8300be043851f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Filippo_Lauri) ↔ [Wikidata Q3071902](https://www.wikidata.org/wiki/Q3071902)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+本卡尚无正式出边；[萨基](../persons/andrea-sacchi.md)、[迪盖](../persons/gaspard-dughet.md)、[克劳德](../persons/claude-lorrain.md)仅相关KU导航。
+
+与Dughet合作有DBI明确支持；与Claude Lorrain长期合作，WP作确定表述而DBI说明年代与批评争议，暂不据此建立确定合作边。两人年龄、临摹或画风相似不能替代合作证据。WD生卒日normal、公历日精度；其引用原站未全部读取，亲缘与训练按DBI具体段落支持。
+````
+
+
+### REV-072 persons-flavio-chigi
+
+对象：`04-knowledge/units/persons/flavio-chigi.md`。原卡SHA-256：`d82e970c0d764938c9ab5108ba97e915bda5187a574eac31a0fd5aeee4c4259b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 8；OCR L282。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Flavio Chigi | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 津贴 | Mario de’ Fiori；每月 30 scudi | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Flavio Chigi (1631–1693)（en）；revision 1362809257；3065字符 | 全文覆盖：Early life、Cardinalate、Papal conclave of 1667、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1397340](https://www.wikidata.org/wiki/Q1397340)；与enwiki标题双向一致 | revision 2543441977；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1631–1693 年枢机，与 Mario de’ Fiori 的活动年代相容；消歧义页另两人为十八、十九世纪人物。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Flavio_Chigi_(1631%E2%80%931693)) 的 wikibase_item 与 [Wikidata Q1397340](https://www.wikidata.org/wiki/Q1397340) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-francesco-albani
+
+对象：`04-knowledge/units/persons/francesco-albani.md`。原卡SHA-256：`cd639ba7fdb2aefab3ee66e90cb5d5cebcae0e13598d59132ddd8438469b555f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L503–505, 515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Francesco Albani | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 合同区分 | 450/1,000 lire 预付；另有 Servi 祭坛画材料承诺 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Francesco Albani（en）；revision 1371610441；18336字符 | 全文覆盖：Biography、Early years in Bologna、Mature work in Rome、Bologna, after 1617、Legacy、Major works、Works owned by the Musée du Louvre、References、Sources、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q358147](https://www.wikidata.org/wiki/Q358147)；与enwiki标题双向一致 | revision 2522260813；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1578–1660 年博洛尼亚画家；符合 1639 年祭坛画条款，未合并两份合同。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Albani) 的 wikibase_item 与 [Wikidata Q358147](https://www.wikidata.org/wiki/Q358147) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-francesco-barberini
+
+对象：`04-knowledge/units/persons/francesco-barberini.md`。原卡SHA-256：`922fdab3bf58263b20cabeb3bd2114214b0019d29c88bafbc86ffd4453c596db`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 17；OCR L691–696。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Francesco Barberini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 身份 | Urban VIII 侄辈枢机；圣路加学院保护人 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Francesco Barberini (1597–1679)（en）；revision 1361831714；9004字符 | 全文覆盖：Life、Career、Patronage、Palazzo Barberini、Churches、Episcopal succession、Notes、References、Further reading、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q534683](https://www.wikidata.org/wiki/Q534683)；与enwiki标题双向一致 | revision 2543537538；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1597–1679 年 Urban VIII 侄辈枢机，Antonio 的兄长；排除同姓其他世代。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Barberini_(1597%E2%80%931679)) 的 wikibase_item 与 [Wikidata Q534683](https://www.wikidata.org/wiki/Q534683) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-francesco-fontana
+
+对象：`04-knowledge/units/persons/francesco-fontana.md`。原卡SHA-256：`438f79d8f0e5beab6229a8d79dfacb136aaf80f9e2d239bb26f5e644d3325f03`。
+
+原关系、证据及过程说明：
+
+````markdown
+- 与[富尔维奥·泰斯蒂](fulvio-testi.md)的通信：Haskell 第一章第 17 页和 Fraschetti 第十二章第 108 页对应本信；Tavernari 第 66 页明确记述经常通信。现有[信件知识元](../archives/testi-fontana-bernini-letter.md)保留收信人关系，本次未新增人物卡正式关系。
+- 身份边界：英文 Wikipedia 的 [Francesco Fontana](https://en.wikipedia.org/wiki/Francesco_Fontana)实际指那不勒斯天文学家、光学仪器制作者；已读其身份与生平段以排除直接同名合并，未将该页认作本对象全文阅读。按意大利语追加检索尚未找到匹配的独立人物页，故不采用该同名页或其他同名建筑师的 QID。
+- 本书收信伯爵与家族研究人物的对应依据是姓名、爵位、泰斯蒂通信及摩德纳／埃斯特语境共同吻合；仍保留初步对齐状态。来源中的家族事实不自动扩张为新知识元或正式关系。
+
+### 关系记录
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**已排除误配。** 英文 Q646955 为那不勒斯天文学家；意大利语 Q1441035 为消歧义页。均不匹配埃斯特宫廷通信收信伯爵，复用既有家族研究的初步对应。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-francesco-maria-del-monte
+
+对象：`04-knowledge/units/persons/francesco-maria-del-monte.md`。原卡SHA-256：`5fc80f06ab2bc74e61b2776201c95aafaa2dc31ca6573c003d36637cea199f5d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Francesco Maria del Monte](https://en.wikipedia.org/wiki/Francesco_Maria_del_Monte)
+- [Wikidata Q140106](https://www.wikidata.org/wiki/Q140106)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-francesco-novetti
+
+对象：`04-knowledge/units/persons/francesco-novetti.md`。原卡SHA-256：`ece67ed89aa4c496372e71e53f539c62458cac5a78265a08a972a2511e5c570a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 18；OCR L757–758。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Francesco Novetti | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信 | 1670-03-22 致 Antonio Ruffo | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到可确认独立人物页或QID；仅保留书信支持的姓名与中介角色。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-francesco-trevisani
+
+对象：`04-knowledge/units/persons/francesco-trevisani.md`。原卡SHA-256：`a423e6250ec6aef44329669109a7079e5bdb6cc5eb8771b19172ee386ac97905`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 相关知识元：[彼得罗·奥托博尼](pietro-ottoboni.md)、[帕斯科利](pascoli.md)、[未刊传记MS1383](../archives/pascoli-trevisani-life-ms1383.md)、[威尼斯](../places/venice.md)。正文入口不自动生成新边；本卡尚无正式出边。
+- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Francesco_Trevisani) ↔ [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875)。Getty500005125仅为WD所列且无引，本轮未核原站。
+- S1的第一章第7页L220–221、235–237及摘要保留；S2–S3旧对齐，S4–S7本轮补足。仅使用第一章对象及外部传记，第六章文本未纳入测试。
+- 未决：迁居证词原件、兄弟谱系、肖像年代、Pascoli原稿与具体服务条款。DBI与WP对Bolsena／Cleopatra画作日期不同，未统一成确定年；学院和作品事实仍须各据其来源。整卡仍为source_backed。
+````
+
+
+### REV-072 persons-frederick-iii
+
+对象：`04-knowledge/units/persons/frederick-iii.md`。原卡SHA-256：`eac2e6d26fba4ac8fde1a59f9ed4f6fd8788d47304536054c1fbc1da3e78a0fa`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 19；OCR L799–800。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Frederick III | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 授衔 | Gentile Bellini：Count Palatine | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+**语义摘要：** 已读取人物页全文；本卡只接收与身份、生平、职业和本章语境有关的字段。
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Frederick III, Holy Roman Emperor（en）；revision 1371534850；22252字符 | 全文覆盖：Early life、Personality、Emperor、Patronage of the arts、Legacy、Marriage and children、Death、Heraldry、Male-line family tree、References、Bibliography、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q150966](https://www.wikidata.org/wiki/Q150966)；与enwiki标题双向一致 | revision 2528994406；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 十五世纪神圣罗马皇帝，与 Gentile Bellini 的时代和皇帝称谓相符。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Frederick_III%2C_Holy_Roman_Emperor) 的 wikibase_item 与 [Wikidata Q150966](https://www.wikidata.org/wiki/Q150966) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-fulvio-testi
+
+对象：`04-knowledge/units/persons/fulvio-testi.md`。原卡SHA-256：`3e473a50feaa4f2990eb8fa3278aa1d1f678d9ff505c6ea231e81b0899a54199`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与事实状态
+
+2026-09-09，英文对象页 Wikidata item 实际跳转至 Q594614，该项 enwiki sitelink 实际返回 Fulvio Testi。姓名、1593–1646 年代、诗歌／埃斯特外交活动对应本章书信作者；双向核对通过。已完整阅读该英文版本与 Treccani 署名传记，适用 WD 字段在此后提取。
+
+配对通过不消除事实差异：WD 的出生“日”与受洗日混淆；WP 赦免年 1619 与 Treccani 1618 不同；WD Treccani 作者字符串 Marco Leoni 与实际署名 Marco Leone 不同。本卡采用实际署名，不擅改外部数据库。书信刊本与手稿分开，WP／WD 及其转引来源不按站点数重复算作独立证据。
+
+本卡尚无新增正式关系。角色、亲缘、任职和作品先作为有据属性留存，其他卡既有来信关系不复制到此处。整卡 source_backed 不提升为所有字段已独立核验。
+
+### 待补与争议
+
+受洗原记录、贵族授予文书、扩展全名的直接权威记录、完整亲缘与作品清单尚待补；赦免年份与作品归属待进一步裁决。书信的手稿原件及今日保管地尚未核验。现有出版书目为检索线索，不称已全文阅读全部研究。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 复用并复核既有诗人／埃斯特宫廷官员身份；1593–1646。受洗日与生日仍区分。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Fulvio_Testi) 的 wikibase_item 与 [Wikidata Q594614](https://www.wikidata.org/wiki/Q594614) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-gaspard-dughet
+
+对象：`04-knowledge/units/persons/gaspard-dughet.md`。原卡SHA-256：`f9f8a972e8b6c8d52cb3b50638e86c4531074ae80b444110d676bd89e5d2d5ff`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 12；OCR L457–459。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gaspard Dughet | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 报酬记载 | 快速完成获额外酬劳；作品及金额未给 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Gaspard Dughet（en）；revision 1321051055；2088字符 | 全文覆盖：Life、Influence、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q741375](https://www.wikidata.org/wiki/Q741375)；与enwiki标题双向一致 | revision 2541010497；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马出生的 Gaspard Dughet，别名 Gaspard Poussin；不是 Nicolas Poussin，出生年差异待补足。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Gaspard_Dughet) 的 wikibase_item 与 [Wikidata Q741375](https://www.wikidata.org/wiki/Q741375) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-gentile-bellini
+
+对象：`04-knowledge/units/persons/gentile-bellini.md`。原卡SHA-256：`ac15d1c2b760b01a38a0285b437dd38e2b55a16d782d5de5dd96e9bc194af762`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- S1：第一章，印刷页19，OCR L799–800；S2–S3初步对齐；S4–S5本次WP／WD；S6馆方传记；S7 NG3911的说明、字段、沿革及书目。
+- 当前无正式关系。Count palatine页将受衔者写作Giovanni的说法不采用；本卡仍为Gentile。骑士署名可证身份使用，不能证明每项贵族特权。
+- WP最早署名作品1445、总督肖像职务1454／1474及归国1480，与NG1464、归国1481分别留异文。NG3911与Mercers’ Guild祭坛的联系为假说，无具体证据，未据此写确定赞助人。
+- Ridolfi叙述苏丹斩首示范的故事，百科本身质疑其真实性，不转写为确定暴力事件。状态维持 source_backed。
+````
+
+原表达：
+
+````markdown
+| 1464 | NG所述现存最早署名作品年；WP另列1445，暂缓其识别 | S6；见未决 |
+````
+
+
+### REV-072 persons-giacinto-brandi
+
+对象：`04-knowledge/units/persons/giacinto-brandi.md`。原卡SHA-256：`66c136a65aea725cf423a36092baaacb5ce236528b178a16d8eb0ffb1a904fe9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giacinto_Brandi) ↔ [Wikidata Q1748199](https://www.wikidata.org/wiki/Q1748199)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+本卡已正式记录对[兰弗兰科](../persons/giovanni-lanfranco.md)的师承和对[圣路加学院](../institutions/accademia-di-san-luca.md)的成员关系；[马蒂亚·普雷蒂](../persons/mattia-preti.md)仍只作相关知识元导航，评价不自动成为合作边。
+
+出生地多值及卒日范围保留；WD preferred不压过较新学术异文。WD P1066的Semenza标签与文献Sementi名形对应仍须具体身份检查后建边。作画速度评价不作数量化生产率。原始婚姻、付款与授衔文书未直接读。
+````
+
+
+### REV-072 persons-giambattista-passeri
+
+对象：`04-knowledge/units/persons/giambattista-passeri.md`。原卡SHA-256：`9fc6ca99f79ea5e2c4dd42b65d6cd95d41751a525281a96e423b2cf348af9ab6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q962495](https://www.wikidata.org/wiki/Q962495) ↔ [Wikipedia：Giovanni Battista Passeri（英文）](https://en.wikipedia.org/wiki/Giovanni_Battista_Passeri)。沿用REV-034语义身份配对；REV-052已读该WP版本全文，具体字段仍各依S8–S10。Getty ULAN标识500015309、VIAF 34553612来自WD，原站尚未核读。
+
+### 采用边界与未决项
+
+S1–S4为本书章页／行号证据，S5–S7为历史身份核查，S8为本轮全文阅读，S9为实际WD字段，S10为有范围的独立传记补证。WP与WD属于同一来源组。父母姓名、详细亲属谱系、全部作品及馆藏未核；不补空猜测。WP“president”与DBI“primo rettore”的职名不混同。1772年刊本与WP正文1773异文、具体稿本和画作归属仍需原件支持。
+
+过程和原始记录见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按本卡稳定键及REV-052定位。整体保持source_backed，未宣称全部字段验证完成。
+````
+
+
+### REV-072 persons-giammaria-morandi
+
+对象：`04-knowledge/units/persons/giammaria-morandi.md`。原卡SHA-256：`912758820d4b1f82cc8eee5f510b4f9ac00957805dda70c9c409a949ac426c13`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Maria_Morandi) ↔ [Wikidata Q1773095](https://www.wikidata.org/wiki/Q1773095)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+本卡暂无正式出边；[祖卡里](../persons/federigo-zuccari.md)、[盖齐](../persons/giuseppe-ghezzi.md)、[Arcadia](../institutions/arcadia.md)为相关卡导航，双联画像与组织关系另依证据建立。
+
+生年、师承、Arcadia入会年及作品载体均有明确异文。WD生卒日为normal日精度，生年准确度不能因编码精确而高于DBI的文献讨论；原始讣告、遗嘱及旅行证据尚未直接读取。
+````
+
+
+### REV-072 persons-gian-lorenzo-bernini
+
+对象：`04-knowledge/units/persons/gian-lorenzo-bernini.md`。原卡SHA-256：`9c71d2c39c8c7e74df51bc77ee210c62a411e2dc196e00e1ef998eddf505fa73`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 16, 17；OCR L641–646,656,668–672；S2：第一章；印刷页 17；OCR L699–703；S3：第一章；印刷页 19；OCR L764–767；S4：第一章；印刷页 21；OCR L862–874。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gian Lorenzo Bernini | S1、S2、S3、S4；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内议题 | 职业权威、肖像酬劳及 Fabbrica 薪俸；逸事单列 | S1、S2、S3、S4，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Gian Lorenzo Bernini（en）；revision 1374038020；76635字符 | 全文覆盖：Biography、Youth、Partnership with Scipione Borghese、Papal artist: the pontificate of Urban VIII、Temporary eclipse and resurgence under Innocent X、Embellishment of Rome under Alexander VII、Visit to France and service to King Louis XIV、Later years and death、Personal life、Personal residences、Works of art, architecture, and mixed genre、Sculpture |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q160538](https://www.wikidata.org/wiki/Q160538)；与enwiki标题双向一致 | revision 2543155212；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Gian／Giovanni Lorenzo Bernini，1598–1680 年雕塑家及建筑师。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Gian_Lorenzo_Bernini) 的 wikibase_item 与 [Wikidata Q160538](https://www.wikidata.org/wiki/Q160538) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-gianandrea-carlone
+
+对象：`04-knowledge/units/persons/gianandrea-carlone.md`。原卡SHA-256：`014859355cae45e5db7a43309fffc6fcfef3fa30b4c454d8dcc6fd3086864687`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Andrea Carlone](https://en.wikipedia.org/wiki/Andrea_Carlone) 与 [Wikidata Q3106993](https://www.wikidata.org/wiki/Q3106993) 的 sitelink 双向一致，姓名、职业、家庭与活动地能对应本章对象。S4 为本次全文阅读版本；S2 的旧登记修订号与实际取得的全文版本不一致，保留为初步对齐历史而不拿它支持新增字段。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 采用 DBI 的1639年5月22日；WD 为1639年5月16日，Wikipedia 为1626年5月16日，Pascoli 另作1627年，均保留异文，不合并为同一日期 |
+| 婚姻 | 第一章与 Wikipedia 支持配偶身份语境；DBI 本次全文未见该段，配偶姓名及婚姻日期待一手材料 |
+| 活动与作品 | 仅列本次已读传记能定位的节点；完整作品、分工、现藏状态和具体委托档案未核 |
+| 规范号 | WD 列 Getty ULAN 500029439，本次未读 Getty 原记录 |
+
+来源序号 S1–S6 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+原表达：
+
+````markdown
+| 出生日期／地点 | 1639年5月22日，热那亚；其他值见第三部分 | S6 |
+````
+
+
+### REV-072 persons-gio-gasparo-baldoini
+
+对象：`04-knowledge/units/persons/gio-gasparo-baldoini.md`。原卡SHA-256：`465ea88ab28a47ba2a672ad69b1ecb4302633d6d962d813595e51b5e4dfdec82`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+| 关联角色 | 知识元入口 | 依据／状态 |
+|---|---|---|
+| 保护人与任用者 | [毛里齐奥·迪·萨伏依](maurizio-di-savoia.md) | S1、S2；本卡尚无新增正式边 |
+| 任用记录 | [家户画家任命文字](../archives/baldoini-painter-appointment.md) | S1；记录卡已有指向本人的关联 |
+| 称谓 | [本府画家](../terms/nostro-pittore.md) | S1；术语链接不自动等于任职边 |
+
+S1保留第一章p.6、OCR L188–189；S2、S3编号对应文件头来源，外部定位与句意摘要分别保存。[补足采集与采用记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按本卡稳定键定位。
+
+未决：任命原件的日期、签署人措辞、档号及正式职务范围；人物Wiki配对。已有内容稿已保存，整卡仍为source_backed。
+````
+
+
+### REV-072 persons-giorgio-vasari
+
+对象：`04-knowledge/units/persons/giorgio-vasari.md`。原卡SHA-256：`debf1af243a30b21d8efb16f94aaedd51a4b282ec777952bb62feb97c2ea20ae`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 21；OCR L882–884。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Vasari | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内引用 | 艺术家特殊气质的论述 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giorgio Vasari（en）；revision 1373385809；11786字符 | 全文覆盖：Life、Painting、Architecture、The Lives of the Most Excellent Painters, Sculptors, and Architects、Gallery、Notes、References and sources、Further reading、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q128027](https://www.wikidata.org/wiki/Q128027)；与enwiki标题双向一致 | revision 2533462885；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1511–1574 年画家与艺术家传记作者；Vasari 在章中的作者身份相容。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Giorgio_Vasari) 的 wikibase_item 与 [Wikidata Q128027](https://www.wikidata.org/wiki/Q128027) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giovan-battista-gaulli
+
+对象：`04-knowledge/units/persons/giovan-battista-gaulli.md`。原卡SHA-256：`8f65bdf4cea87e16bc8bc27a5113c34b42f30179ff04a453102afcb70ad578fd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L430–460；S2：第一章；印刷页 17；OCR L671–672。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giovan Battista Gaulli | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程及酬劳 | Gesù 约定八年；另记全身肖像 100 scudi | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giovanni Battista Gaulli（en）；revision 1374149221；8548字符 | 全文覆盖：Biography、Church of the Gesù frescoes、Later work and legacy、Works、Gallery、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q520573](https://www.wikidata.org/wiki/Q520573)；与enwiki标题双向一致 | revision 2528478039；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Giovanni Battista Gaulli，别名 Baciccio／Baciccia，Gesù 壁画画家；Giovan 为名字变体。
+
+名称记录：规范显示为 乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）；原登记名／来源名形 Giovan Battista Gaulli 保留为检索异名，不因显示更新改动稳定路径。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Battista_Gaulli) 的 wikibase_item 与 [Wikidata Q520573](https://www.wikidata.org/wiki/Q520573) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giovanni-adamo-piola
+
+对象：`04-knowledge/units/persons/giovanni-adamo-piola.md`。原卡SHA-256：`a7a0d6090ab20c60a318f8dd3428aa1c0648958715c214d8504c10b1e3c99428`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 10；OCR L354–356, 376。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Johann Adam Andreas I, Prince of Liechtenstein | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托条件 | 1690-02-03 信；Piola 可自选题材 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Johann Adam I. Andreas (Liechtenstein)（de）；revision 270219102；14245字符 | 全文覆盖：Biografie、Frühe Jahre、Regentschaft、Letzte Jahre、Testament、Nachkommen、Ehrungen、Siehe auch、Literatur、Weblinks、Einzelnachweise |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q581481](https://www.wikidata.org/wiki/Q581481)；与dewiki标题双向一致 | revision 2540024082；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过并解除简称。** 1690年刊本书信的发信署名、列支敦士登家族爵号、年代和 Paolo Gerolamo Piola 收信人共同指向 Johann Adam Andreas I；德语 Wikipedia 的 wikibase_item 与 Wikidata Q581481 的 dewiki sitelink 双向一致。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giovanni-battista-de-lazzari
+
+对象：`04-knowledge/units/persons/giovanni-battista-de-lazzari.md`。原卡SHA-256：`e27ce7bf4bf8acbe0263ea66acbbd4ffcf92e5695bd04db402eff23dd28e9bfe`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- 当前没有同粒度Wikipedia—Wikidata配对；这不构成知识元缺陷。
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-giovanni-bonati
+
+对象：`04-knowledge/units/persons/giovanni-bonati.md`。原卡SHA-256：`10bc1ec4e8da4ce7f44f476e07a4bee009ea960cfdad94cd4eb1f413086ea0a2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**S1：第一章，印刷页6，OCR L186–187。** 皮奥枢机资助六城旅行。S2–S3是初步身份核对，S4–S7为本轮全文和规范名补足，S8补旅行线索；所有原始姓名形式保留。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Giuseppe_Bonati)与[Wikidata Q5565359](https://www.wikidata.org/wiki/Q5565359)双向配对不变，Getty还将Q5565359列为该人来源。保存两条既有正式关系：[皮奥枢机](cardinal-pio-bonati.md)、[赞助学习旅行](../procedures/patron-funded-study-travel.md)。亲缘和师承字段已有出处，本次未新增关系边。
+
+出生异文、旅行次序、训练年数、作品现藏及完整谱系仍未解决；source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/giovanni-bonati定位。
+````
+
+
+### REV-072 persons-giovanni-lanfranco
+
+对象：`04-knowledge/units/persons/giovanni-lanfranco.md`。原卡SHA-256：`dd68ade3363eb84b3fe08492c0ee8cd12bb50e22489cbdfea70f1f32fe07e91d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 初步对齐与支持范围
+
+以 17 世纪画家、帕尔马出身、罗马/那不勒斯活动区分同名现代运动员。本次点击 WP 的 Wikidata item，实际到达 Q447730，WD 描述为 Italian painter (1582–1647)，类型 human，包含上述姓名变体；当时 WD→WP 的 sitelink 读取超时；REV-034 已补读实体与反向链接，Q447730 身份配对通过。先前来源摘要仍记录当日阅读范围。
+
+正式边仍为 frontmatter 中按人物计价的有据关系；表中的师承、亲缘、任职和作品链接不是新图谱边。NGA 支持称名、年代及其目录；WP 的细项仍需更直接的来源。Getty 人物页 103JYJ 本次只返回空壳标题，未把它列为支持生平正文的证据。整卡 source_backed 不提升为全面外部已验证。
+
+### 待补与争议
+
+- 亲缘与 Principe 任职已有署名传记支持；姓名扩展形式、出生具体地点及卒日 29／30 日异文仍待原档。不要把 Principe 或 Cavalier 拼进本名。
+- 荣誉授予的准确时间和文书、完整履历、作品清单与评价史尚未系统查询。
+- 本章两件稿本和 1640 年申请方案的实物身份未由本轮生平补充解决。
+- REV-038 已提取适用 WD 字段，复用 REV-034 配对及既有 WP 全文阅读。威尼斯活动、原 ULAN／RKD 记录和作品技术研究仍待核；NGA 清册转录不等同于直接读取原清册。
+````
+
+原表达：
+
+````markdown
+### Wikidata 字段与采用范围（REV-038）
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1582–1647 年博洛尼亚体系画家；补齐反向链，不与同名运动员混同。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Lanfranco) 的 wikibase_item 与 [Wikidata Q447730](https://www.wikidata.org/wiki/Q447730) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giovanni-odazzi
+
+对象：`04-knowledge/units/persons/giovanni-odazzi.md`。原卡SHA-256：`7342ca255551b34ac85c8aa135be08c2574529c1a9c2a8727c0081915a4451f2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Odazzi) ↔ [Wikidata Q464446](https://www.wikidata.org/wiki/Q464446)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+本卡已正式记录先后受训于[费里](../persons/ciro-ferri.md)和[盖乌利](../persons/giovan-battista-gaulli.md)，并保留阶段限定；[焦尔达诺](../persons/luca-giordano.md)只作速度评价的比较对象，不自动成为影响边。
+
+WP信息框“Born Giovanni Battista Gaulli”及5月25日不采用；Gaulli为老师、生日取DBI与WD的3月25日。部分作品年代、合作人及WP授衔说仍待对象级核查。未将继承人自动写成配偶或子女。
+````
+
+
+### REV-072 persons-giovanni-perugini
+
+对象：`04-knowledge/units/persons/giovanni-perugini.md`。原卡SHA-256：`3b3a56955bfcf788393f29930d8d9c6e2adac2418a6831d0a316c73fa21f8aad`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L889–893。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giovanni Perugini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 保护及评价 | Turin 宫廷；1676 年萨伏依代表的评语 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giovanni Perugini（it）；revision 151632575；843字符 | 全文覆盖：Biografia、Note、Collegamenti esterni |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5563946](https://www.wikidata.org/wiki/Q5563946)；与itwiki标题双向一致 | revision 2516437984；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**已排除误配。** 英文和意大利语 Q5563946 均为 1945 年出生的现代五项运动员，排除；不是 1676 年被萨伏依代表评论的画家。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giovanni-pietro-bellori
+
+对象：`04-knowledge/units/persons/giovanni-pietro-bellori.md`。原卡SHA-256：`d27b1ae7fd1ff7f0362e278c9c6ec10c65ae4edb654f184a0cd6abb1f0c03e95`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 10；OCR L369–371；S2：第一章；印刷页 17；OCR L704–710。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giovanni Pietro Bellori | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 评论与引用 | Maratta 酬劳评价；Del Carpio 委托参考 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giovanni Pietro Bellori（en）；revision 1365391346；14308字符 | 全文覆盖：Biography、Works、Views、Archaeological work、List of works、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q714400](https://www.wikidata.org/wiki/Q714400)；与enwiki标题双向一致 | revision 2522319307；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Giovanni／Giovan Pietro Bellori，十七世纪艺术理论与传记作者。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Pietro_Bellori) 的 wikibase_item 与 [Wikidata Q714400](https://www.wikidata.org/wiki/Q714400) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giulio-mancini
+
+对象：`04-knowledge/units/persons/giulio-mancini.md`。原卡SHA-256：`4e2eaf1a91a8954a78d4d3cb19c5e6868594485177856eb4632fd27dc7a41990`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 14；OCR L529–531。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giulio Mancini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 身份与观点 | 锡耶纳医生、艺术爱好者；1620 年代酬谢论述 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giulio Mancini（en）；revision 1359968780；2651字符 | 全文覆盖：Biography、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q3769699](https://www.wikidata.org/wiki/Q3769699)；与enwiki标题双向一致 | revision 2527444957；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 锡耶纳医生、艺术收藏者及著述者，符合章中定价论述的责任者。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Giulio_Mancini) 的 wikibase_item 与 [Wikidata Q3769699](https://www.wikidata.org/wiki/Q3769699) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giuseppe-cesari
+
+对象：`04-knowledge/units/persons/giuseppe-cesari.md`。原卡SHA-256：`40b0a80843cce7c9c5dff3b7cde9184f0b82fcc0d16d09740b767fdfc9b612ab`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Giuseppe Cesari](https://en.wikipedia.org/wiki/Giuseppe_Cesari)
+- [Wikidata Q933026](https://www.wikidata.org/wiki/Q933026)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-giuseppe-de-rosis
+
+对象：`04-knowledge/units/persons/giuseppe-de-rosis.md`。原卡SHA-256：`2f06eebe61e8b221378886a5a2c07b480e15a3e1280f4d36b927d2391fc24f4d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 23；OCR L971–972。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giuseppe de Rosis | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信与评价 | 1663-09-22 致 Antonio Ruffo；Rosa 坚持作品质量 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到可确认独立人物页或QID；不以同姓现代人物补入生平。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-giuseppe-ghezzi
+
+对象：`04-knowledge/units/persons/giuseppe-ghezzi.md`。原卡SHA-256：`0927577965bba5a518780efa7d0fb37e5d05d732433d3b1d284f950cee1bf706`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- S1：第一章，印刷页19，OCR L770–773。S2–S3为初步对齐，S4–S5为全文及字段复核；S6为DBI传记全文，S7仅选读其子受衔段。
+- 本次维持Arcadia成员关系，并接收圣路加学院成员关系。亲缘、修复、交易等内容因端点或谓词不足未批量成边。
+- WP写1676首次展览；DBI区分1679等年的节庆组织及1687起明确主持展览，未据此把二者强合为同一任命日。WP给Pietro da Pietri的括号生卒与Ghezzi相同，未采用该日期。
+- 未决：不同授职原件、帕尔马公爵身份、部分展览初年与作品现藏；未把Wikipedia的1726书目日期当作作者仍在世。状态维持 source_backed。
+````
+
+
+### REV-072 persons-gl-bianconi
+
+对象：`04-knowledge/units/persons/gl-bianconi.md`。原卡SHA-256：`a8302cf53cdf478f3e943f2e8bbe317102e72e05e1eb3353d1c42b6691fe4ca9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L896–898。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Giovanni Ludovico Bianconi | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信线索 | 1762-11-22；收信人未列 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Giovanni Ludovico Bianconi（en）；revision 1342641608；3954字符 | 全文覆盖：Biography、Works、Writings、Notes、Bibliography、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5563896](https://www.wikidata.org/wiki/Q5563896)；与enwiki标题双向一致 | revision 2515925055；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过并解除缩写。** 刊本文本署名 Gian Lodovico Bianconi，收信人为 Marchese Filippo Hercolani，署地 Dresden，日期为1762-11-22；这些特征与 Giovanni Ludovico Bianconi、Wikipedia 和 Wikidata Q5563896 相互吻合。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-gregory-xv
+
+对象：`04-knowledge/units/persons/gregory-xv.md`。原卡SHA-256：`36c2e47145c15dfde04014433e440192442bd5c20af570eb39ee41c360709581`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与阅读范围
+
+REV-034 已完成 [Wikipedia Pope Gregory XV](https://en.wikipedia.org/wiki/Pope_Gregory_XV) ↔ [Wikidata Q132692](https://www.wikidata.org/wiki/Q132692) 身份配对。本轮读完同一英文 revision 1362442411 的信息框、全部正文小节、图注、注释、书目及职务表；S7 实体修订 2522319902 的反向 sitelink 未变，适用字段及所用实体标签已读取。S8 是署名传记，S9 为官方简表。Wikipedia 的缺引提示、旧百科来源以及未读外链均保留限制，整卡仍为 source_backed。
+
+### 待补与争议
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 历法 | WD 生日使用儒略历、卒日使用格里高利历；正文按传记所载日期，不把两者机械归一或转换 |
+| 总主教日期 | S6 任命为 1612-03-12，S8 为 1612-04-02；S7 起始为 1612-05-01，与 S6 祝圣日相同。当前只采用 1612 年，三种事件／日期待原任命记录 |
+| vicegerent 任期 | S6 至 1598，S8 至 1599 年 8 月，未择一作为已核终止日 |
+| 拉特兰就任礼 | S6 为 1621-05-14，S8 为 1621-05-08；暂不写入确定履历 |
+| 亲属晋升 | S6“在位第三日”与 S8 的侄子授枢机日期及其首次晋升概述并不一致，具体日期未采用 |
+| 机构名称 | S7 教育值含现代宗座额我略大学；保留 S8 的历史 Collegio romano，不在未核沿革时视作当年正式校名 |
+| 国籍 | S7 教皇国值来自百科导入且无时间限定，仅保留政治活动背景，不声称法律国籍已核 |
+| 死因／安葬 | S6 病情叙述与 S8 痛风叙述未按医疗证据裁定；S8 记分期迁葬，不把 S6 的圣依纳爵堂概述作一次直接入葬 |
+| 扩展活动 | 传信部、列圣、选举改革及政治行动已读但本轮未逐项补证；不采用“百万杜卡特”等缺引金额或对心理、政治成效的整体评价 |
+| 作品与文献 | 艺术品版本、原教令、本人文献清单及研究书目仍待核；不得把身后 1634 年侄子爵位写作本人授予 |
+
+S1–S9 按元数据 sources 顺序对应；采集版本、采用与暂缓细目见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-045 及其补足证据文件。本次首次详细外部补足，尚非全部字段完成。
+````
+
+原表达：
+
+````markdown
+| 总主教（Archbishop） | 博洛尼亚职务 | S6–S8；日期异文见第三部分 |
+````
+
+原表达：
+
+````markdown
+| 1597 起 | 任罗马 vicegerent | 罗马教区 | S6、S8；终止年异文见第三部分 |
+````
+
+
+### REV-072 persons-guercino
+
+对象：`04-knowledge/units/persons/guercino.md`。原卡SHA-256：`5e5b0d7f03c5499204cd0b28d87e4cd60126202afe1942c9ae91b7f619cbf44c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+已完成 [Wikipedia Guercino](https://en.wikipedia.org/wiki/Guercino) ↔ [Wikidata Q334262](https://www.wikidata.org/wiki/Q334262) 身份配对；S5 为已全文阅读的英文对象页，S7–S9 支持身份及注明属性，Wiki 两站同属一个来源组。S1 支持本章活动，S2–S4 支持馆方生平与称名，S10–S12 仅按已读段落采用；外链、原档和全部书目不自动视为已读。整卡仍为 source_backed。
+
+### 待补与争议
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 迁居 | 采用 S10 与 S3 的 1642；保留 S2“可能 1644”的异文。S12 的 1642-09-06 尚待原档；1644 购屋不能反推 S2 异文成因 |
+| 附带日期 | S12 记 Reni 死于 1641，与 S10 的 1642 不同，未采用 S12 该说法 |
+| 账簿 | Paolo 死后 Guercino 续记与 Ercole 管理的具体交接顺序待核 |
+| 亲缘及称名 | 生洗原档、完整亲缘、历史拼写、荣誉与贵族头衔尚未系统核查；未查字段不填造 |
+| 政治归属 | WD 的教皇国值缺时间与引用，暂不作为确定国籍；宽泛的意大利地理区域值不扩成城市活动 |
+| 职业 | WD 的 designer 涉后世版画目录，未赋予现代设计师职业 |
+| 规范号 | Getty ULAN 500021925 为 WD 所列；原 ULAN 记录未读 |
+| 作品与叙述 | 西西里委托实物、完成及收藏待核；作品、弟子与展览只作线索。WP 的产量、“首次”格言及视力影响艺术等说法未另核 |
+| 完成状态 | 已有字段补足，但作品全集、研究书目及上述缺口未完成；格式整理不提升验证状态 |
+
+来源序号 S1–S12 按元数据 sources 顺序对应。字段采集、旧页码纠正、版本与判断变化保存在上述过程记录及其补足证据文件，本卡只保留当前结果。
+````
+
+原表达：
+
+````markdown
+| 国籍／政治归属 | 待证 | 见第三部分 |
+````
+
+原表达：
+
+````markdown
+| 1642 | 迁居 | 琴托 → [博洛尼亚](../places/bologna.md) | 工作年表采用年精度；异文见第三部分 | S10、S3 |
+````
+
+
+### REV-072 persons-guglielmo-cortese
+
+对象：`04-knowledge/units/persons/guglielmo-cortese.md`。原卡SHA-256：`158b722a3fa4629affb8ba6de6ff7ad80fda2629ccab9863b219045b7234c131`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 本章语境：[莫拉](pier-francesco-mola.md)、[卡米洛·潘菲利](camillo-pamfili.md)、[瓦尔蒙托内](../places/valmontone.md)；师友：[科尔托纳](pietro-da-cortona.md)。本卡既无正式关系，链接是核对入口，后续按具体证据生成关系。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Guillaume_Courtois) ↔ [Wikidata Q1749032](https://www.wikidata.org/wiki/Q1749032)身份配对复用。ULAN500115391、RKD18775为WD列出的线索，原库未直接核。[S5]
+- **保留冲突：** 生日日月与抵罗马年份；Galloro祭坛画1663付款／1666旧年款说法；百科的Monte Porzio Catone“St George”与DBI的San Gregorio不合；DBI书目Montalto1955卷号有错误，不能照抄为已核书目。[S4、S6]
+- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6专业传记全文。单页读完不等于全部细节或关系已获独立验证。
+````
+
+
+### REV-072 persons-guido-reni
+
+对象：`04-knowledge/units/persons/guido-reni.md`。原卡SHA-256：`52dff154288563d6a9f115ab618a50f83acfd62c57f370a8628685cae32f1d04`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikipedia：Guido Reni](https://en.wikipedia.org/wiki/Guido_Reni) ↔ [Wikidata Q109061](https://www.wikidata.org/wiki/Q109061) 双向一致，复用已通过身份。S6全文20587字符已读；S7含限定、精度、单位、引用状态和实际标签；S8短传及书目、S9三节正文已读。
+
+- 文件头以 `creator_of` 链接[《正义拥抱和平》](../works/reni-justice-embracing-peace.md)，范围限定为信中委托对象；版本、完成时间与存世状态未确认，依据S2。
+- [1617年委托人Ferdinando Gonzaga](duke-mantua-reni-1617.md)、[《屠杀婴孩》](../works/reni-massacre-innocents.md)为关联导航，不把所有职业标签和学生名字自动建边。
+- **待核：** 赴那不勒斯年份、具体原支付、后期复作责任与亲缘原档。WP《圣塞巴斯蒂安》版本数量及《亚特兰大与希波墨涅斯》年代前后不一，未整段采入；“Beatrice Cenci”旧归属不作为确定亲笔。
+
+S编号按文件头顺序；章页、行号、句意摘要及既有关系保留，source_backed不作全卡验证提升。
+````
+
+
+### REV-072 persons-innocent-x
+
+对象：`04-knowledge/units/persons/innocent-x.md`。原卡SHA-256：`23bf88258c24b010f38ab6ddd31c70ea3151bcbf6d34697be638162edb1ac1aa`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 19；OCR L764–767。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Innocent X | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 叙事性质 | 递画布逸事；非已证事件 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Pope Innocent X（en）；revision 1369530621；13173字符 | 全文覆盖：Biography、Early life、Papacy、Election、Relations with France、Relations with Parma、Wars of the Three Kingdoms、Other activities、Relationship with Olimpia Maidalchini、Death and legacy、See also、Notes |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q101266](https://www.wikidata.org/wiki/Q101266)；与enwiki标题双向一致 | revision 2543363278；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Giovanni Battista Pamphili，1644–1655 年在位教皇；不因配对将递画布逸事提升为史实。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Innocent_X) 的 wikibase_item 与 [Wikidata Q101266](https://www.wikidata.org/wiki/Q101266) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-innocent-xiii
+
+对象：`04-knowledge/units/persons/innocent-xiii.md`。原卡SHA-256：`90f675a2751ecb36ebf093d92d997eff2212923bf7373e78ff555ccd781375be`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 19；OCR L771–773。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Innocent XIII | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 任命 | Giuseppe Ghezzi 为礼仪官 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Pope Innocent XIII（en）；revision 1372256611；7923字符 | 全文覆盖：Biography、Early life、Cardinalate、Pontificate、Papal election、Actions、Consistories、Beatifications、Doctor of the Church、Death and legacy、See also、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q133100](https://www.wikidata.org/wiki/Q133100)；与enwiki标题双向一致 | revision 2543405166；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Michelangelo dei Conti，1721–1724 年在位教皇，区别 Innocent X／XI。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Innocent_XIII) 的 wikibase_item 与 [Wikidata Q133100](https://www.wikidata.org/wiki/Q133100) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-j-tomilson-hill
+
+对象：`04-knowledge/units/persons/j-tomilson-hill.md`。原卡SHA-256：`b51ca40b1b81609925e3dc36a9a239da403e2c9db5516feb2af88260cefeb190`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：J. Tomilson Hill](https://en.wikipedia.org/wiki/J._Tomilson_Hill)
+- [Wikidata Q6107281](https://www.wikidata.org/wiki/Q6107281)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-jacopo-salviati
+
+对象：`04-knowledge/units/persons/jacopo-salviati.md`。原卡SHA-256：`e3bcad5309e22f98659c0d540552dcd68c97c8809f6dbe3297737e84322aa39b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Jacopo Salviati | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 职能与通信 | Leopoldo 的代理人；1662-07-22 信 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | Q913241指1461–1533年的同名佛罗伦萨政治家，年代冲突，已排除；未找到1662年通信者的替代配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**已排除误配。** Q913241 为 1461–1533 年的佛罗伦萨政治家，不能是 1662 年通信者；不将同名网页的家谱复制过来。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-laerzio-cherubini
+
+对象：`04-knowledge/units/persons/laerzio-cherubini.md`。原卡SHA-256：`fb2c0b5e202987148475bae06e49087ad65896d0ee7d1f120769a027a05dc02f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Laerzio Cherubini](https://en.wikipedia.org/wiki/Laerzio_Cherubini)
+- [Wikidata Q18122922](https://www.wikidata.org/wiki/Q18122922)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-leo-x
+
+对象：`04-knowledge/units/persons/leo-x.md`。原卡SHA-256：`c0bb7385b72423c823037be0fdc19f7c888d06c42961c4f5d3c74c0137d8ecef`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L650–654。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Leo X | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内论述 | 艺术自足性及创造者光环的历史比较 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Pope Leo X（en）；revision 1368372595；31792字符 | 全文覆盖：Early life、Cardinal、Pope、Papal election、War of Urbino、Plans for a crusade、Protestant Reformation、Other activities、Consistories、Canonizations、Final years、Character, interests and talents |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q49237](https://www.wikidata.org/wiki/Q49237)；与enwiki标题双向一致 | revision 2543571370；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Giovanni de’ Medici，1513–1521 年在位教皇，与文艺复兴比较语境相容。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Leo_X) 的 wikibase_item 与 [Wikidata Q49237](https://www.wikidata.org/wiki/Q49237) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-leopoldo-de-medici
+
+对象：`04-knowledge/units/persons/leopoldo-de-medici.md`。原卡SHA-256：`d338d7e14de5deb618fa555727b8eb5c2661738d0c2c22feb03fb52e741044b1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 14；OCR L538–540, 565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Leopoldo de’ Medici | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信角色 | Salviati 1662-07-22 信的收信人 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Leopoldo de' Medici（en）；revision 1358922464；2324字符 | 全文覆盖：Biography、Ancestors、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q968920](https://www.wikidata.org/wiki/Q968920)；与enwiki标题双向一致 | revision 2543647845；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1617–1675 年美第奇学者与赞助人 Leopoldo；后来任枢机，不能把 1662 年通信日期当作已经获枢机任命的证据。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Leopoldo_de'_Medici) 的 wikibase_item 与 [Wikidata Q968920](https://www.wikidata.org/wiki/Q968920) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-lodovico-gimignani
+
+对象：`04-knowledge/units/persons/lodovico-gimignani.md`。原卡SHA-256：`3360bc5c4c948488e7ed5d733fd3b0a868f23ca553fb4a697adb31c872b1573b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**S1：第一章p6，L186–187，Rospigliosi资助赴Venice。S2：p18，L743–744，衣着、礼仪及贵族交往的传记描述。** 不能据两处引述推断每位交往者都是赞助人。
+
+保留两条既有关系：[本章Rospigliosi枢机](cardinal-rospigliosi-gimignani.md)及[资助学习旅行](../procedures/patron-funded-study-travel.md)。S9馆方研究已明确该次旅行的推动者为Giulio Rospigliosi，与书内索引一致；现确认对应后来教皇Clement IX。Iacopo和Felice仍是不同人物。旧关系记录尚待补足结束后的集中复核，本轮只更新身份及事实字段。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Ludovico_Gimignani)与[Wikidata Q3839112](https://www.wikidata.org/wiki/Q3839112)维持双向配对。S3–S4初步身份，S5–S9本轮补足。WP所称Alexander VII任命Quirinal画廊管理职，尚未取得任命资料与可靠时点，暂不列已确认履历。
+
+详细内容稿已保存；父子作品、学院年、旅行日期／同行者与家庭资料仍待核，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/lodovico-gimignani定位。
+````
+
+
+### REV-072 persons-lord-arundell-coke-correspondent
+
+对象：`04-knowledge/units/persons/lord-arundell-coke-correspondent.md`。原卡SHA-256：`f1789d1b3afd1c65b35ac06f65d2a3b31cdc0a07f6031232289ece498401865b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- **身份双重核对通过（REV-052）：** [English Wikipedia](https://en.wikipedia.org/wiki/Thomas_Howard,_14th_Earl_of_Arundel) page item＝[Wikidata Q166517](https://www.wikidata.org/wiki/Q166517)，WD enwiki反链回同页；[Getty ULAN 500057345](https://www.getty.edu/vow/ULANFullDisplay?subjectid=500057345)亦给此QID。
+- 配对依据：S2–S3将本章发受者、1620年10月8日和No.249连到Thomas Howard；S3生卒及S4–S6家族、收藏与身份相符。用通信特征消歧，不仅凭Lord称谓。
+- 本章关联：[科克](mr-coke-rome-correspondent.md) → [书信](../archives/coke-arundell-letter-1620.md) → 本人。既有收信人正式边保存在书信卡，正文不另造反向边。
+
+S1为第一章pp.3–4、OCR L40–44,48,53–55；S2–S3是刊本及目录；S4–S5为相互关联的Wiki资料；S6权威名录；S7馆藏记录；S8出版介绍。全文阅读范围与采用字段见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+
+**保留缺口：** 生年1585／1586；婚年1605／1606；任职时间异文；六子说需回到遗嘱；NG2968赠藏字段1913而流传段1914。Wiki中的1634赴苏格兰加冕、军费数额等未经补证不写作确定事实。书目把1921初版与Kraus重印及ISBN混记，1921出版责任按实际刊本，不复制混合引文。来源内的“罗马来信”旧表述已纠正；整卡仍为source_backed，身份确认不等于全部事实验证。
+````
+
+
+### REV-072 persons-luca-giordano
+
+对象：`04-knowledge/units/persons/luca-giordano.md`。原卡SHA-256：`c0e1a1ebbf68736804b3643f05a41abf8b4b6a247b3e0febe5140b0fb8d55cd3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 12；OCR L455–457。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Luca Giordano | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内角色 | 快速作画的声誉；Odazzi 的比较对象 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Luca Giordano（en）；revision 1365931234；23794字符 | 全文覆盖：Early life and training、The mature years、Florence, 1682–1686、Back in Naples, 1686–1692、Court painter in Spain, 1692–1702、Late work in Naples, 1702–1705、Working methods and technique、Influence、Critical reputation、Gallery、References、Additional sources |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q332494](https://www.wikidata.org/wiki/Q332494)；与enwiki标题双向一致 | revision 2531611425；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1634–1705 年那不勒斯画家，职业与时期相容；速度声誉仍只归责原文。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Luca_Giordano) 的 wikibase_item 与 [Wikidata Q332494](https://www.wikidata.org/wiki/Q332494) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-ludovico-ludovisi
+
+对象：`04-knowledge/units/persons/ludovico-ludovisi.md`。原卡SHA-256：`d4e28bafe10bf8d6d61a275a43849fb977fd9021f2238618c983543d9e6f9392`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与入口
+
+[Wikidata Q707750](https://www.wikidata.org/wiki/Q707750) ↔ [英文 Wikipedia：Ludovico Ludovisi](https://en.wikipedia.org/wiki/Ludovico_Ludovisi)，双向配对已完成。本轮阅读全文 S4；VIAF **66485493** 为 S5 的标识，尚未直接核验。
+
+### 补足范围与未决
+
+首轮详细内容已保存，整卡仍为 source_backed。保留生日日差、Camerlengo 起日及有关年份异文；未将传记中的法律、教廷行政头衔直接等同现代职位。作品实物、原始付款与完整收藏清单尚未核验。S4 原文的 Montecitorio 项目归属已排除；原始文本保留在过程证据中。
+
+[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 persons-marcantonio-i-doria
+
+对象：`04-knowledge/units/persons/marcantonio-i-doria.md`。原卡SHA-256：`9591b7f71de82741f496f32de498d9444c395922c0584032886fce6017d98fca`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikidata Q124884202](https://www.wikidata.org/wiki/Q124884202)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-marcello-sacchetti
+
+对象：`04-knowledge/units/persons/marcello-sacchetti.md`。原卡SHA-256：`b6812c6546ca76ae3dfd7e3251c64cd424b435e8f8251837f974842cdb2321eb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 既有正式关系：[皮耶特罗·达·科尔托纳](pietro-da-cortona.md)；相关地点：[罗马](../places/rome.md)、[佛罗伦萨](../places/florence.md)。后一组为导航，不新增关系。
+- 身份：英文精确页名未找到，沿用并全文读取[意大利语Wikipedia](https://it.wikipedia.org/wiki/Marcello_Sacchetti) ↔ [Wikidata Q6087600](https://www.wikidata.org/wiki/Q6087600)。
+- S1保留第一章第7页L217–220及句子摘要；S2–S4为原对齐，S5–S7为补足。出生月份以具名专业传记为当前采用依据，原家庭记事未读。
+- 未决：日值原档、教育、完整婚姻／后裔、具体交易记录；死亡病因DBI仅称可能肠癌，不把WP的确诊叙述写成已核医学结论。整卡仍为source_backed，正式关系1条保留。
+````
+
+
+### REV-072 persons-marchese-costaguti-household
+
+对象：`04-knowledge/units/persons/marchese-costaguti-household.md`。原卡SHA-256：`a27bb85ee0006cba923848d82545a6c7615bd821673dfc7ee5cc1819395ab438`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 21；OCR L858–861。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Marchese Costaguti (Carlone marriage context) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 亲缘边界 | 妹妹属于家庭总管，非侯爵之妹 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | Andrea Carlone页面仅确认其姻亲是Costaguti侯爵的管家，仍不能唯一识别侯爵本人；不合并Prospero等同姓候选。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-marchese-del-carpio
+
+对象：`04-knowledge/units/persons/marchese-del-carpio.md`。原卡SHA-256：`3febd1ff049f7f69d930c8c394239a64f23ca4b3b9466a0d17b17cbf8b984011`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 10；OCR L369–371。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gaspar Méndez de Haro, 7th Marquess of Carpio | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内角色 | 西班牙驻罗马大使、委托人 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Gaspar Méndez de Haro, 7th Marquess of Carpio（en）；revision 1366799291；2973字符 | 全文覆盖：Family、Political career、Art collection、Marriages and Issues、Titles and honors、References、Sources |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q380763](https://www.wikidata.org/wiki/Q380763)；与enwiki标题双向一致 | revision 2522270940；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过并解除爵号指称。** 第七代 Carpio 侯爵的1677–1682年罗马大使任期、收藏家身份和本章多画家委托语境一致；英文 Wikipedia 的 wikibase_item 与 Wikidata Q380763 的 enwiki sitelink 双向一致。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-marchese-giustiniani-ch1
+
+对象：`04-knowledge/units/persons/marchese-giustiniani-ch1.md`。原卡SHA-256：`6361e649c3941474cc6e5484b8ed61d54aa148ab5c0446bb6fa8001d997e7509`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与阅读
+
+[Wikipedia：Vincenzo Giustiniani](https://en.wikipedia.org/wiki/Vincenzo_Giustiniani) ↔ [Wikidata Q1396468](https://www.wikidata.org/wiki/Q1396468) 双向一致。银行家、侯爵、年代、艺术收藏及S5明确收购链共同支持本章人物，本轮由未配对转为身份配对通过；不改整卡source_backed。
+
+S2英文全文4402字符已读；S3适用字段及标签已核；S4按所列范围阅读，未读完后半部分音乐论与全部参考书目；S5对象记录已读。
+
+### 关系与导航
+
+[购藏的《圣马太与天使》](../works/caravaggio-giustiniani-rejected-altarpiece.md)及[卡拉瓦乔](caravaggio.md)为本章关联对象。购藏事实由作品卡发出并在本卡反向显示；不复制一条人物出边，也不把兄长或其他亲缘名字自动登记为新KU。
+
+### 未决
+
+爵号起始已获DBI支持，养子全名、各藏品由兄弟哪一方购入及文书原件仍待核。家族财务、艺术论述与本人的著述责任按来源分别记录；S1原简称证据保留，规范显示现采用全名。
+
+S编号按文件头顺序；原章页／行号及句意摘要保留。判断过程见[knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-052。
+````
+
+
+### REV-072 persons-marchese-pallavicini-piola
+
+对象：`04-knowledge/units/persons/marchese-pallavicini-piola.md`。原卡SHA-256：`9c4d372269df5f5adc64967c10407031bc208d9a78ec4bd2d3f037ee4f55c5a6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 8；OCR L278–281。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Niccolò Maria Pallavicini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 保护语境 | 1690；Piola 宫外居住请求 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Niccolò Maria Pallavicini（it）；revision 150554023；1461字符 | 全文覆盖：Biografia、Note、Bibliografia、Voci correlate |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q105105120](https://www.wikidata.org/wiki/Q105105120)；与itwiki标题双向一致 | revision 2489767535；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过并解除爵号指称。** Paolo Gerolamo Piola 的意大利语页面明确记1690年在 Niccolò Maria Pallavicini 保护下赴罗马学习；姓名、年代、热那亚来源、罗马赞助角色和本章相符。意大利语 Wikipedia 的 wikibase_item 与 Wikidata Q105105120 的 itwiki sitelink双向一致。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-marchese-san-tommaso-negri
+
+对象：`04-knowledge/units/persons/marchese-san-tommaso-negri.md`。原卡SHA-256：`b967f496ef4009cefd0f34a13fc9ee1e928709d4e2077845b9919981e91a6985`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L899–900。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Marchese di S. Tommaso (Negri’s correspondent) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信角色 | 1676-12-24 Paolo Negri 信的收信人 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 英文与意大利语按爵号、Negri、日期组合检索未获唯一人名或双站配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-mario-de-fiori
+
+对象：`04-knowledge/units/persons/mario-de-fiori.md`。原卡SHA-256：`66b3981f65259088bd19668e5877d9cd1c32a65dbda790c62278e07372a8ab3c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Mario_Nuzzi) ↔ [Wikidata Q1227379](https://www.wikidata.org/wiki/Q1227379)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+本卡已正式记录与[劳里](../persons/filippo-lauri.md)、[马拉塔](../persons/carlo-maratta.md)及[布兰迪](../persons/giacinto-brandi.md)在Chigi《四季》系列中的分工作合；[Flavio Chigi](../persons/flavio-chigi.md)的赞助关系由赞助人卡发出。月津贴、具体作品共同创作和作品所有权继续分别证明。
+
+WP把客户连到Agostino Chigi的说法未采纳，可能混入较早同名人物；WP Penna San Giovanni出生与DBI罗马／Penna in Teverina迁居不能混合。第一章两子与外部具体人名的对应仍有缺口；不自动增加亲缘KU。
+````
+
+
+### REV-072 persons-mario-minnitti
+
+对象：`04-knowledge/units/persons/mario-minnitti.md`。原卡SHA-256：`2d468cc6631ce5e4998802cc669329d473a0967df5979f8cd29644a391742e61`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Mario Minniti](https://en.wikipedia.org/wiki/Mario_Minniti) 与 [Wikidata Q153619](https://www.wikidata.org/wiki/Q153619) 的 sitelink 双向一致；叙拉古身份、年代和画家职业对应本章对象。S4 为全文阅读，S5 为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| Augusta合同年份 | 第一章脚注作1617年；DBI据合同作1618年6月13日。当前并列，待核Haskell所引Gualandi版本及合同原件 |
+| 卡拉瓦乔关系 | Wikipedia叙述朋友、合作者、模特；DBI认为缺少可靠直接文献，只把相关识别保留为可能性 |
+| 死亡日期 | DBI只到1640年11月；Wikipedia与WD给11月22日，确日尚待墓葬或死亡记录 |
+| 工作室作品 | 西西里作坊作品的本人亲笔、助理参与及后世归属需要逐作核，不列成已确认全集 |
+
+来源序号 S1–S6 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+原表达：
+
+````markdown
+| 去世时间／地点 | 1640年11月，叙拉古；确切日期见第三部分 | S5、S6 |
+````
+
+
+### REV-072 persons-mattia-preti
+
+对象：`04-knowledge/units/persons/mattia-preti.md`。原卡SHA-256：`78cec814341ebd31c72df79d48baa9277c9c1b52ef96c0c3756d81054505f782`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Mattia Preti](https://en.wikipedia.org/wiki/Mattia_Preti) 与 [Wikidata Q468632](https://www.wikidata.org/wiki/Q468632) 的 sitelink 双向一致；姓名、生卒范围、Taverna出生、Valletta死亡及意大利—马耳他活动轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 采用2016年DBI的1613年2月25日；Wikipedia与Wikidata均给2月24日，保留冲突，不人为合并 |
+| 早年训练与游历 | 只有威尼斯得到墓志支持；博洛尼亚、巴黎、安特卫普、西班牙等旧传游历未获文献确认，Lanfranco师承也仅为可能 |
+| 定价书信 | 第一章未引原文；须回查 Ruffo 文献后才能登记收发双方、日期、报价和正式关系 |
+| 作品与弟子 | 目前仅列与生涯阶段有关的代表性工程，完整作品、工作室成员和归属争议仍需对象级来源 |
+
+来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-maurizio-di-savoia
+
+对象：`04-knowledge/units/persons/maurizio-di-savoia.md`。原卡SHA-256：`f50058a17545cdb598d469397d8e85aa384113a5dc4e8323305807bcadfc1c1d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+**身份入口：** [Wikipedia（en）](https://en.wikipedia.org/wiki/Prince_Maurice_of_Savoy) ↔ [Wikidata Q610738](https://www.wikidata.org/wiki/Q610738)双向一致，版本见S4、S5。身份通过不代表所有日期断言一致。
+
+| 关系／角色 | 知识元入口 | 依据／状态 |
+|---|---|---|
+| `appointer_of`：任用的画家 | [巴尔多伊诺](gio-gasparo-baldoini.md) | 文件头已有正式任命关系；S1；新姓名和补充保护关系见S7 |
+| 任用文字 | [本府画家任命](../archives/baldoini-painter-appointment.md) | S1；未新增正式边 |
+| 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1 |
+| 教皇活动语境 | [保禄五世](paul-v.md)／[乌尔班八世](urbano-viii.md) | S6；导航不是新关系 |
+
+S1章内定位为第一章p.6、OCR L188–189；S2–S3保留初步对齐，S4–S8支持本轮事实与裁决。[补足证据记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键定位。已保存内容稿，婚期／卒日异文、具体作品委托及任用原件仍有缺口；正式关系本轮不改，evidence_status保持source_backed。
+````
+
+
+### REV-072 persons-michelangelo-cerquozzi
+
+对象：`04-knowledge/units/persons/michelangelo-cerquozzi.md`。原卡SHA-256：`c4c1c8175bdd10cae098404644081e85dc44ae10925de35b437d9d17fe3db46d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Michelangelo_Cerquozzi) ↔ [Wikidata Q979862](https://www.wikidata.org/wiki/Q979862)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+正式member_of → [圣路加学院](../institutions/accademia-di-san-luca.md)保留。与[范拉尔](../persons/pieter-van-laer.md)的风格联系不自动成为老师或画家帮成员关系。
+
+WP卒日内部3月29日／4月6日与DBI遗嘱／补遗记录须分开；出生两项preferred也不任取一项。WP部分社会史段引用Haskell，非独立互证。关于鲁莽或无教育的传记评价不转成无归责人格字段。
+````
+
+
+### REV-072 persons-michelangelo
+
+对象：`04-knowledge/units/persons/michelangelo.md`。原卡SHA-256：`c30f29ab1471a89746ccf85e44291d14d3ccc138660073a60fb880189d6f8359`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L623, 641–646。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Michelangelo | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内比较 | 英雄崇拜与 Bernini 社会尊重 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Michelangelo（en）；revision 1373115839；45331字符 | 全文覆盖：Biography、Early life, 1475–1488、Apprenticeships, 1488–1492、Bologna, Florence, and Rome, 1492–1499、Florence, 1499–1505、Tomb of Julius II, 1505–1545、Sistine Chapel ceiling, 1508 –1512、Florence under Medici popes, 1513 – early 1534、Rome, 1534–1546、St Peter's Basilica, 1546–1564、Personal life、Faith |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5592](https://www.wikidata.org/wiki/Q5592)；与enwiki标题双向一致 | revision 2541754009；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Michelangelo Buonarroti，1475–1564 年艺术家；与章中英雄崇拜的历史语境相容。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Michelangelo) 的 wikibase_item 与 [Wikidata Q5592](https://www.wikidata.org/wiki/Q5592) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-mr-coke-rome-correspondent
+
+对象：`04-knowledge/units/persons/mr-coke-rome-correspondent.md`。原卡SHA-256：`1fe3e9be0a7ee2f6b5e7bd2586a7e3ebbf05f6ed8d3612cc525190a010012e7f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 通信文献：[1620年10月8日信](../archives/coke-arundell-letter-1620.md)；收信人：[托马斯·霍华德，阿伦德尔伯爵](lord-arundell-coke-correspondent.md)。此处为角色导航，既有作者边存于书信卡。
+- 身份状态：全名及家户语境已补证；**Wikipedia—Wikidata双重配对仍未完成**。已读[英文消歧页](https://en.wikipedia.org/wiki/Thomas_Coke)，不作为人物身份锚点；未采用确认QID。
+- 同名边界：1674年生的枢密官、1697年生的莱斯特伯爵及1747年生的主教均不可能是1620年通信者；1656年卒的议员仍缺家户／帕多瓦证据，未合并。
+
+S1为本章pp.3–4、OCR L40–44,48,53–55；S2为转引所据刊本；S3为官方目录；S4为消歧检索。这些来源不相互独立证明所有事实。**纠正旧稿“罗马来信”及标题中的Rome correspondent**：旧判断把信件话题当作发信地；现仅记刊本编排支持的帕多瓦语境，10月8日原件地址和日历制仍待核。
+
+[补足证据与判断](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)以本卡稳定键定位。保留原路径以维持链接，不将路径中的旧定位作为事实。未确认的亲缘、任职、生卒与百科身份保留缺口；不因无QID删除已有来源支持的作者关系。
+````
+
+
+### REV-072 persons-nicolas-poussin
+
+对象：`04-knowledge/units/persons/nicolas-poussin.md`。原卡SHA-256：`4f3887b3e12a38d7772080e277a3707084d68aebbc3cefa041daced81fa26f1c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 10；OCR L373–374；S2：第一章；印刷页 15；OCR L591–603。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Nicolas Poussin | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 作品及交易 | 《瘟疫》完成、《春》新订、《屠杀婴孩》合同待寻 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Nicolas Poussin（en）；revision 1370684443；38035字符 | 全文覆盖：Biography、Early years – Les Andelys and Paris、First residence in Rome (1624–1640)、Return to France (1641–42)、Final years in Rome (1642–1665)、Subjects、Religion、Mythology and classical literature、Poetry and allegory、Landscapes and townscapes、Style and method、Legacy |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q41554](https://www.wikidata.org/wiki/Q41554)；与enwiki标题双向一致 | revision 2533435644；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1594–1665 年在罗马活动的法国画家 Nicolas Poussin；与 Dughet 区分。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Nicolas_Poussin) 的 wikibase_item 与 [Wikidata Q41554](https://www.wikidata.org/wiki/Q41554) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-olimpia-aldobrandini
+
+对象：`04-knowledge/units/persons/olimpia-aldobrandini.md`。原卡SHA-256：`a4f5b7c3c9bb5c22c53e0ecf2dc9f71c82fc53d3957764412e1b879539325c1f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+[Wikipedia（en）Olimpia Aldobrandini](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini) 与 [Wikidata Q7086876](https://www.wikidata.org/wiki/Q7086876) 双向对应，并明确区别1567–1637年的同名长辈。S1全文已读；S2逐字段核对并保留引用状态。婚期以S3的1647-02-10为当前值，S4及同站英文异文不合并成另一场婚姻。
+
+子女名单、继承清册和具体作品流传没有在此递归扩展；具名内容若以后承担正式关系端点，再沿该事实回知识元阶段。
+````
+
+
+### REV-072 persons-onorato-gini
+
+对象：`04-knowledge/units/persons/onorato-gini.md`。原卡SHA-256：`115fe0dcb28ee96e05e1201846685bad49aeb5352015b39999145e5a669de1c9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L415–418。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Onorato Gini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 职能与文献 | 萨伏依驻罗马代表；1666 年信经 Claretta 转述 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到可确认的独立Wikipedia—Wikidata配对；不以通信职能外推出正式外交职级。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-onorio-longhi
+
+对象：`04-knowledge/units/persons/onorio-longhi.md`。原卡SHA-256：`b5b398b917c355b333698af13667f8b65401dfdaa140c44fe5c85d142c07856f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Onorio Longhi](https://en.wikipedia.org/wiki/Onorio_Longhi)
+- [Wikidata Q2024585](https://www.wikidata.org/wiki/Q2024585)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-ottavio-costa
+
+对象：`04-knowledge/units/persons/ottavio-costa.md`。原卡SHA-256：`b60c91ddf5aa6b60c22323426f25a3cd485a3bbb3d79e21e166cd549f9b4c85b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikidata Q30729167](https://www.wikidata.org/wiki/Q30729167)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-paolo-borghese
+
+对象：`04-knowledge/units/persons/paolo-borghese.md`。原卡SHA-256：`527ce24f3981b3705b7c3ead9fcf3cfa57fca4cc2090e190848b9f0a08c0dc3a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+[Wikipedia（en）Paolo Borghese (1622–1646)](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646)) 与 [Wikidata Q7132152](https://www.wikidata.org/wiki/Q7132152) 双向对应。英文页为短条目但已全文读取；Wikidata出生值只到“1620年代”，不能用标题中的1622代替结构化精度，也不把无引用字段自动升格为已证事实。
+````
+
+
+### REV-072 persons-paolo-girolamo-piola
+
+对象：`04-knowledge/units/persons/paolo-girolamo-piola.md`。原卡SHA-256：`86621781fb6349acd70bc918cfa154695d4b490ad074e2872c95e29696b97408`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Paolo Gerolamo Piola](https://en.wikipedia.org/wiki/Paolo_Gerolamo_Piola) 与 [Wikidata Q3894101](https://www.wikidata.org/wiki/Q3894101) 的 sitelink 双向一致；姓名、热那亚身份、父亲与罗马经历共同支持本章对象配对。S5 为全文阅读，S6 按属性读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生日期 | 仅采用1666年。WD并列6月30日与9月30日且各有不同来源；本次未取得能裁定日月的一手记录 |
+| 死亡日期 | DBI 给1724年12月4日；WD仅到1724年12月的月精度，不把两者说成完全相同精度 |
+| 亲缘 | 母亲、配偶、子女及完整兄弟姐妹仍待成员级证据；家族条目中的婚姻不可不经核对自动下传 |
+| 作品 | 仅列职业节点，不是作品全集；家族协作、续成及付款需逐作核查 |
+| 规范号 | WD 列 Getty ULAN 500014560，本次未读 Getty 原记录 |
+
+来源序号 S1–S7 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+
+### REV-072 persons-paolo-guidotti
+
+对象：`04-knowledge/units/persons/paolo-guidotti.md`。原卡SHA-256：`ef99f1abe2494b34bc63860c7f3f16e6f5ee4b5654c78fc68054ea95c54a22cf`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Paolo Guidotti](https://en.wikipedia.org/wiki/Paolo_Guidotti) 与 [Wikidata Q3894144](https://www.wikidata.org/wiki/Q3894144) 的 sitelink 双向一致；姓名、Cavalier Borghese称谓、Lucca—Rome轨迹和艺术身份均与第一章对象吻合。S4为全文阅读，S5为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 出生年 | 采用DBI“约1560”；Wikipedia给1559，1933年Treccani旧条目给1569，均缺少足以覆盖现代档案传记的本轮证据 |
+| 死亡日 | 采用DBI所据遗嘱与葬礼脉络的1629年3月10日；Wikidata同时保留3月7日和10日，Wikipedia给3月10日 |
+| “Cavalier”称号 | 1589年已见称呼，DBI认为过早，或源自贵族出身；1608年Milizia di Cristo荣衔与加用Borghese姓另有明确文献，二者不得混同 |
+| 飞行与解剖逸事 | 主要来自后期传记叙述，只作为接受史线索；不据此登记已证实事件 |
+| 作品与学术身份 | 完整作品、法律学位、诗作手稿和科学活动仍需对应原档或作品级来源 |
+
+来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-paolo-negri
+
+对象：`04-knowledge/units/persons/paolo-negri.md`。原卡SHA-256：`d67ccc9fe695248e899c911069c5372867a254d1b525c37cd7dd584f1182e2b9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21；OCR L899–900。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Paolo Negri | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信 | 1676-12-24 致 Marchese di S. Tommaso | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Paolo Negri（it）；revision 145016932；6185字符 | 全文覆盖：Biografia、Discografia、Album studio、Da solista、Link Quartet、Wicked Minds、Modulo 5、Low Fidelity Jet-Set Orchestra、Fred Leslie's Missing Link、Electric Swan、Album live、Compilation |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q3894305](https://www.wikidata.org/wiki/Q3894305)；与itwiki标题双向一致 | revision 2518191823；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**已排除误配。** 意大利语候选 Q3894305 为 1979 年出生的音乐家，排除；不能对应 1676 年萨伏依通信者。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-pascoli
+
+对象：`04-knowledge/units/persons/pascoli.md`。原卡SHA-256：`48e2f0243c84328991b8d91a3f09941d423f0e4dc2a9a9d4fcd1260ca38adeaf`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 章内出处
+
+| 来源 | 章页／行号 | 句意摘要 |
+|---|---|---|
+| S1 | 第一章p6，L178–187 | 服务及旅行例子的传记来源 |
+| S2 | p7，L229–237 | 离境限制与Trevisani未刊传线索 |
+| S3 | p18，L741–752 | 画家的礼仪和生活描述 |
+| S4 | p19，L770–795、805–806 | 教养、谈吐和礼遇；须区分Passeri与Pascoli |
+| S5 | p20，L850–853 | Procaccini父母态度的反例 |
+| S6 | p23，L978–980 | Luti少求权贵保护的记载 |
+
+[Wikipedia](https://en.wikipedia.org/wiki/Lione_Pascoli)与[Wikidata Q1101774](https://www.wikidata.org/wiki/Q1101774)沿用已完成的双向配对。S7–S8为身份来源，S9–S12为本轮补足；编号按元数据顺序。
+
+本卡暂无正式关系；[帕塞里](giambattista-passeri.md)链接仅作作者区分。经济主张的后续影响、收藏逐件归属及亲缘完整性仍待原著或对象级资料；不从百科概括生成影响边。内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/pascoli定位。
+````
+
+
+### REV-072 persons-paul-v
+
+对象：`04-knowledge/units/persons/paul-v.md`。原卡SHA-256：`9adb2f09338498e5404a5f8ff02e7029e02fb02192db94207610b0b45a071748`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q132711](https://www.wikidata.org/wiki/Q132711) ↔ [Wikipedia：Pope Paul V（英文）](https://en.wikipedia.org/wiki/Pope_Paul_V)。REV-034配对沿用，REV-052已全文阅读。ULAN 500257409、VIAF 5065712据WD提取，原站未核。
+
+### 证据与未决项
+
+S1–S2是章内来源，S3–S4为身份核对，S5为本轮WP全文，S6为WD实际字段，S7为教廷人物表，S8为有范围的传记补证。
+
+生年1550／1552未伪作一致，当前采用S8所记1552。WD列多个大学但引用范围不一，不把所有P69标签直接拼成就学履历。Jesi任命年及离任日有差异，待核任命文书。WP册封段列1621年8月的活动，晚于其去世，未采用；伽利略、猞猁学院及萨尔皮事件不凭单页混合叙述新建关系。原始档案和完整委托清单尚未读。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+````
+
+
+### REV-072 persons-peter-paul-rubens
+
+对象：`04-knowledge/units/persons/peter-paul-rubens.md`。原卡SHA-256：`6222f4478ddc7530167c6e3138031dacb462e55912febd13ea33ea101f76c04f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L402–404；S2：第一章；印刷页 12；OCR L436–437。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Rubens | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托条件 | 1606 新教堂先展示绘画样例；大型工程与 modello | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Peter Paul Rubens（en）；revision 1370757114；36440字符 | 全文覆盖：Life、Early life、Apprenticeship、Italy (1600–1608)、Antwerp (1609–1621)、Marie de' Medici Cycle and diplomatic missions (1621–1630)、Last decade (1630–1640)、Death、Work、Workshop、Selected exhibitions、Lost works |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5599](https://www.wikidata.org/wiki/Q5599)；与enwiki标题双向一致 | revision 2540659746；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Peter Paul Rubens，1577–1640 年佛兰德画家，符合 1606 年罗马委托时代。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Peter_Paul_Rubens) 的 wikibase_item 与 [Wikidata Q5599](https://www.wikidata.org/wiki/Q5599) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-pier-francesco-mola
+
+对象：`04-knowledge/units/persons/pier-francesco-mola.md`。原卡SHA-256：`dd33eea7cc293ada6837caf5bbedd0e987c2889bd8fcac8e08af4d69eceb7368`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1–S5对应第一章：p6 L179–185报酬证词；p7 L231–233外出许可；p9 L312–319借书与题材咨询；p13 L495–497、505–506、516–519食宿、预付和材料；p19 L764–770宫廷礼遇叙事。后者的母题类比与“较可能真实”不能改成全部确证事件。
+
+保留元数据中通向[图像咨询](../procedures/iconographic-consultation.md)的正式关系。与[卡米洛·潘菲利](camillo-pamfili.md)、[帕塞里](giambattista-passeri.md)、[帕斯科利](pascoli.md)及[博纳蒂](giovanni-bonati.md)的正文链接为导航，不新增边。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Pier_Francesco_Mola)与[Wikidata Q1192715](https://www.wikidata.org/wiki/Q1192715)沿用双向配对。S6–S7初对齐，S8–S12本轮补足。生日、训练和定居异文、作品版本、未完成工程及亲缘仍有缺口；source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/pier-francesco-mola定位。
+````
+
+
+### REV-072 persons-pieter-van-laer
+
+对象：`04-knowledge/units/persons/pieter-van-laer.md`。原卡SHA-256：`554d1fa9bc372ad050445711afed18cb367d8172d377ce0b25c8fe0072a13505`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Pieter_van_Laer) ↔ [Wikidata Q576907](https://www.wikidata.org/wiki/Q576907)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+正式member_of → [圣路加学院](../institutions/accademia-di-san-luca.md)及[画家帮](../institutions/schildersbent.md)均保留，证据是第一章。个人抗税、师承及每位风格追随者须另证。
+
+WD P569含1599年deprecated、1599年12月normal与1613年normal；据受洗记述保留1599语境，不机械按rank写1613。P570 preferred1642为年精度，另一无引用1642-06-30不采用。WD卒地Haarlem亦不当确定地点，Louvre标“？”；未知死因不填溺亡。馆方成对画媒材明确为木板，旧清单铜板误记不回填。
+````
+
+
+### REV-072 persons-pietro-da-cortona
+
+对象：`04-knowledge/units/persons/pietro-da-cortona.md`。原卡SHA-256：`f2192711868825cd9853315bcce7c542b46a57efc00ac274b51e1e4bd29a7007`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 相关知识元：[萨凯蒂](marcello-sacchetti.md)、[萨基](andrea-sacchi.md)、[科尔托纳城市](../places/cortona.md)、[有争议的Doria–Pamphilj稿组](../works/cortona-doria-pamfili-modelli-disputed.md)、[Barberini大厅所谓草稿](../works/barberini-salone-bozzetto-disputed.md)。当前未新增正式出边。
+- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Pietro_da_Cortona) ↔ [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)。ULAN500115154仅从WD核得编号，本轮未读Getty记录；WD的general contractor标签未机械作为现代职业导入。
+- S1–S3保存章页／行数与句意，S4–S5为旧对齐，S6–S9为补足。DBI仅选读早年部分，ICG仅选读介绍；不得标为这两来源全文已读。
+- 未决：精确生日、亲缘、学院终期、书信与稿本原证据。仍为source_backed；第六章和发现未开展。
+````
+
+
+### REV-072 persons-pietro-mulier
+
+对象：`04-knowledge/units/persons/pietro-mulier.md`。原卡SHA-256：`b289b93ba37a69474e9474e6dd12b48f8b6e789621f8b1038a01e37229ae718d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- [布拉恰诺公爵](duke-bracciano-mulier.md)：既有关联保留，待核具体公爵。Pascoli pp.180–181写的是拖延、劝留后最终许可，并非永久禁止离开；授衔叙述也未具公爵全名。[S1、S7]
+- [罗马](../places/rome.md)、[米兰](../places/milan.md)为活动地点导航；字段或链接不自动形成新正式边。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Pieter_Mulier_II) ↔ [Wikidata Q666337](https://www.wikidata.org/wiki/Q666337)身份配对复用。WD的ULAN500002412、RKD58287本轮未读规范库原站，不冒充再次独立验证。[S5]
+- **不采用：** 馆方把1684年援助者写为生于1597、卒于1647的Don Giovanni de Cabrera，年代不可能相合；保留援助叙事线索，不采这个具体身份。Pascoli称父母商人、近30岁才南下等也不覆盖现代档案研究。[S6、S7]
+- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6馆方全文；S7原刊OCR。补足与关系均已处理到当前证据上限，但不等于传记争议已经消失。
+````
+
+
+### REV-072 persons-pietro-ottoboni
+
+对象：`04-knowledge/units/persons/pietro-ottoboni.md`。原卡SHA-256：`d12878b7c557afd9ea4cd3307f2eff18b675a4550511264686a369f0d05af889`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 正式端点：[弗朗切斯科·特雷维萨尼](francesco-trevisani.md)；相关[阿尔卡迪亚学会](../institutions/arcadia.md)为访问入口，不自动加边。
+- 身份：[Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_Ottoboni_%28cardinal%29) ↔ [Wikidata Q725737](https://www.wikidata.org/wiki/Q725737)。旧正文“Pietro仍待消歧”已经落后于对齐结果，本次改正。Getty500323549仅核WD标识，原站未读。
+- S1保留第7页及脚注定位；S2–S4旧对齐，S5–S8为补足。1条正式关系保留，note中的章内未展开名字是原材料范围说明。
+- 未决：卒日原档、具体账簿／馆藏及早期肖像年代；待与Trevisani卡一起作关系收口。仍为source_backed。
+````
+
+
+### REV-072 persons-prospero-orsi
+
+对象：`04-knowledge/units/persons/prospero-orsi.md`。原卡SHA-256：`13b7e7c0a90e7f60f041a010bdd0874901ea69d92a14537efae43c6e99766d24`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Prospero Orsi](https://en.wikipedia.org/wiki/Prospero_Orsi)
+- [Wikidata Q15286493](https://www.wikidata.org/wiki/Q15286493)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-raphael
+
+对象：`04-knowledge/units/persons/raphael.md`。原卡SHA-256：`95b291a9674d9cfc3ccf431a6e8cd184346470e0c509ee4c8f5150542c354aaa`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L623。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Raphael | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 章内定位 | 文艺复兴艺术家英雄崇拜的例子 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Raphael（en）；revision 1370412674；41921字符 | 全文覆盖：Background、Early life and work、Influence of Florence、Roman period、Vatican 'Raphael Rooms'、Architecture、Antiquity、Other painting projects、Painting materials、Workshop、Portraits、Drawings |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5597](https://www.wikidata.org/wiki/Q5597)；与enwiki标题双向一致 | revision 2541039095；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Raffaello Sanzio da Urbino／Raphael，1483–1520 年艺术家。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Raphael) 的 wikibase_item 与 [Wikidata Q5597](https://www.wikidata.org/wiki/Q5597) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-rembrandt
+
+对象：`04-knowledge/units/persons/rembrandt.md`。原卡SHA-256：`6b7fdc3349d06c75fef9b6094492cc05bfe601d585c82fde5328faabfe62a5cc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 17；OCR L674–677。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Rembrandt | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 逸事来源 | Baldinucci 转述拍卖竞价与职业声望 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Rembrandt（en）；revision 1373883388；44059字符 | 全文覆盖：Early life and education、Career、Insolvency、Works、Overview、Periods, subjects and styles、Graphic works、Asian inspiration、The Night Watch、Expert assessments、Painting materials、Name and signature |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5598](https://www.wikidata.org/wiki/Q5598)；与enwiki标题双向一致 | revision 2542894074；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Rembrandt Harmenszoon van Rijn，1606–1669 年荷兰画家；配对不验证拍卖逸事。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Rembrandt) 的 wikibase_item 与 [Wikidata Q5598](https://www.wikidata.org/wiki/Q5598) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-salvator-rosa
+
+对象：`04-knowledge/units/persons/salvator-rosa.md`。原卡SHA-256：`82f62f08c8bf448ff04781463931a2505b4f7ef0885ceaa837c1ba5930fc9d0d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L382–389；S2：第一章；印刷页 15；OCR L603–609；S3：第一章；印刷页 22；OCR L905–926；S4：第一章；印刷页 22, 23；OCR L927–947,952–970；S5：第一章；印刷页 23；OCR L971–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Salvator Rosa | S1、S2、S3、S4、S5；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 创作交易策略 | 展览、喝彩、存画销售、拒收预付、质量定价 | S1、S2、S3、S4、S5，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Salvator Rosa（en）；revision 1370459061；20177字符 | 全文覆盖：Biography、Early life、Wife and family、Career、Legacy、Salvator Rosa and romanticism、Satires、Galleries、Paintings、Landscapes、Drawings、Prints |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q359421](https://www.wikidata.org/wiki/Q359421)；与enwiki标题双向一致 | revision 2540080398；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 1615–1673 年那不勒斯、罗马及佛罗伦萨画家、诗人等多角色人物。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Salvator_Rosa) 的 wikibase_item 与 [Wikidata Q359421](https://www.wikidata.org/wiki/Q359421) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-saverio-savini
+
+对象：`04-knowledge/units/persons/saverio-savini.md`。原卡SHA-256：`9b200b330e1602915c9e42b4db9633c6bf8c4bab0cf1339b7863736d9e91feaa`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+当前未找到可确认的独立 Wikipedia 条目及 Wikidata QID，因此不借用同名人物或作品标识。身份修正依据第一章的年份、地点、合同性质与S2的同一委托完全对应，并由S3的同名画家活动记录增强，但这不是 Wikipedia—Wikidata 双站配对完成。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 姓名 | 采用Salvio Savini；“Saverio”保留为原书／OCR所见误记，不删除稳定路径，不新建重复人物 |
+| 身份对齐 | 尚无双向Wiki配对；需要继续检索意大利语人物资料、规范库和可能QID，未配对不妨碍采用S2–3支持的内容 |
+| 生平 | 生卒、父母、配偶、教育和完整职业年表本次未核，不以“notizie 1580–1610”改写为生卒年 |
+| 作品 | Pala del Voto的原合同、精确尺寸、馆藏编号及修复记录待核；1581壁画的分工作者与完整范围亦待专门来源 |
+
+来源序号 S1–S3 依文件头顺序；名称裁决、外部阅读和当前内容指纹保存在 03-processing 的同一任务包。
+````
+
+
+### REV-072 persons-sebastiano-ricci
+
+对象：`04-knowledge/units/persons/sebastiano-ricci.md`。原卡SHA-256：`47b1d0f1bc4a9939b0c7958cf85b7283d96424c46c3d91be2fdadefacb9f073a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikipedia（en）Sebastiano Ricci](https://en.wikipedia.org/wiki/Sebastiano_Ricci) 与 [Wikidata Q506483](https://www.wikidata.org/wiki/Q506483) 的 sitelink 双向一致；生卒、Belluno—Venice轨迹及1682年博洛尼亚委托均与第一章对象吻合，且可排除侄子Marco Ricci。S4为全文阅读，S5为属性级读取。
+
+### 争议与待补
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 姓氏 | 同一人物的历史文献姓氏为Rizzi，Ricci为现代固定写法；作为姓名变体记录，不拆分实体 |
+| 师承 | 旧说为Federico Cervelli，现代研究较支持Sebastiano Mazzoni；保留证据层级，不并列为两个已证实教师 |
+| 早年婚姻传闻 | 中毒、逃亡和重婚叙事含传奇成分；只采用DBI明确列出的订婚、子女及1696年婚姻记录 |
+| 1682年作品 | DBI称已佚；第一章只引合同条款。作品卡仍需对象级复核其标题变体、委托团体正式名称和失佚依据 |
+| 合作与作品 | 与Marco Ricci及各地工坊的具体分工、完整作品目录和归属史尚未逐件验证 |
+
+来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+````
+
+
+### REV-072 persons-simone-peterzano
+
+对象：`04-knowledge/units/persons/simone-peterzano.md`。原卡SHA-256：`2bc2a2b82963f79c79a844e63917f0293b543343ec6e82a65ba89337bd2f60e7`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Simone Peterzano](https://en.wikipedia.org/wiki/Simone_Peterzano)
+- [Wikidata Q983632](https://www.wikidata.org/wiki/Q983632)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-sixtus-v
+
+对象：`04-knowledge/units/persons/sixtus-v.md`。原卡SHA-256：`fb644ac00785f56a4c8d0003ff6c82bf08eb089201f88114ef1c572f2698a24b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q133350](https://www.wikidata.org/wiki/Q133350) ↔ [Wikipedia：Pope Sixtus V（英文）](https://en.wikipedia.org/wiki/Pope_Sixtus_V)。配对沿用REV-034，本轮全文已读。ULAN 500231367、VIAF 7525513据WD取得，原站未核。
+
+### 证据与未决项
+
+S1–S2保留本章证据；S3–S4为历史对齐；S5–S7为本轮不同范围来源。WP/WD非独立双源。出生年份与日、父母全名、入会年及神职授任的约数均保留差异；未把rank最高当作已解决冲突。斗兽场丝织工场属于计划，不写成已建成。古迹破坏、财政数额、轶事和政治评价需保留各自出处，不据传记概述批量建立关系。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+````
+
+
+### REV-072 persons-thomas-baker
+
+对象：`04-knowledge/units/persons/thomas-baker.md`。原卡SHA-256：`b21af0c898865e8ae6db000b06f3cea2bd1b3ff187a10a48c941032e5ff6033e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 17；OCR L699–700。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Thomas Baker | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托金额 | Bernini 肖像胸像；6,000 scudi | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | Q7787320是消歧义页，不能作为人物QID；V&A作品资料支持约1606–1658的生卒范围，但未提供可双向配对的独立人物页。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**候选待证。** 英文命中消歧义页 Q7787320，art patron 标题未命中。Baker 胸像已配对，但作品页和作品 QID 不能代替被表现者个人。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-tiberio-cerasi
+
+对象：`04-knowledge/units/persons/tiberio-cerasi.md`。原卡SHA-256：`6a48a8d3f80c7261516f1561658d2f16a5cc7600a637f7cc900a5da3c522fdd7`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Tiberio Cerasi](https://en.wikipedia.org/wiki/Tiberio_Cerasi)
+- [Wikidata Q26255277](https://www.wikidata.org/wiki/Q26255277)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 persons-titian
+
+对象：`04-knowledge/units/persons/titian.md`。原卡SHA-256：`f242875720e913ab7227dfe3122df603ce29eb3f09c6dfad61df13781030e08e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章，印刷页19，OCR L764–767、800–804；S2–S3为初步对齐；S4为WP全文含图注注释书目；S5为WD字段；S6为NG传记各节；S7仅读NG新闻稿The Artist节。
+
+当前没有正式关系。应保留授衔与皇帝拾笔逸事的不同证据等级；生年、妻子及Lavinia母系、Tizianello父子误连、早期师承与威尼斯sansaria任职起年的异文仍未解决。WP对sansaria先写1523又引1516已领款文书，现阶段不生成唯一任职起年。状态维持 source_backed。
+````
+
+原表达：
+
+````markdown
+| 卒日 | 1576年8月27日；WD有历法及日期异文，见第三部分 | S4–S6 |
+````
+
+
+### REV-072 persons-urbano-viii
+
+对象：`04-knowledge/units/persons/urbano-viii.md`。原卡SHA-256：`f5698505ca26b4a9e5ae19c3da0a5f2a3be8e65780e6ac6a6d366ba7a3a9b0fb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部链接
+
+[Wikidata Q131579](https://www.wikidata.org/wiki/Q131579) ↔ [Wikipedia：Pope Urban VIII（英文）](https://en.wikipedia.org/wiki/Pope_Urban_VIII)。REV-034配对沿用，REV-052全文已读；ULAN 500057346、VIAF 96062867为WD标识，原站未核。
+
+### 证据、排除与未决项
+
+S1–S4为章内证据，S5–S6是历史对齐，S7–S8为本轮WP全文及WD字段，S9–S11为各自标明范围的补证。WP与WD不算独立双源。
+
+- 姓名、出生地、出生／受洗日、授职年和驻法任期有差异，保留分字段来源。WD生日还有4月15日normal项，两项均标儒略历，不能仅见相差十日就自行归并。
+- WP列“cathedra”为其委托；S11将现存铜质宝座纪念物归于亚历山大七世并记1666完成。本卡不采用前者，也不把不同时期的设计或构想自动等同现存作品。
+- 家族整体赞助不一概算作本人委托；债务统计、传闻、轶事和虚构文学形象不转为未经限定的本人生平事实。
+- 圣彼得数字体验页本次返回502；实际改读可访问的机构作品说明，不将访问失败计为已读。
+
+[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体source_backed，补足仍有上述未决项。
+````
+
+
+### REV-072 persons-valentin
+
+对象：`04-knowledge/units/persons/valentin.md`。原卡SHA-256：`4f1b7d45ceeafd8ccef4f8cf7e383b3bcc7c73dc23a475431aef00b3f9a7385c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与来源定位
+
+已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Valentin_de_Boulogne) ↔ [Wikidata Q1337275](https://www.wikidata.org/wiki/Q1337275)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
+
+尚无本卡正式出边；[本章风俗画委托](../works/valentin-genre-commission.md)与[卡拉瓦乔](../persons/caravaggio.md)提供相关导航。原本正文“全名待核”已由初步身份配对解决，具体画作身份继续未决。
+
+WD与WP的1月3日为受洗／出生混用，已经分开；母名及未读2016图录材料不由搜索摘要直接填入。本章委托中占卜妇女、士兵和音乐人物的组合不足以唯一指向任何一幅同类画。
+````
+
+
+### REV-072 persons-ventura-carrara
+
+对象：`04-knowledge/units/persons/ventura-carrara.md`。原卡SHA-256：`f9345b06d4881476eb08aad5cfed397820bfd26f0725d10de6650d44c4735687`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L511–513。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Count Ventura Carrara | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 通信角色 | 1696-07-11 Quarismini 信的收信人 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮定向补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 刊本全文确认称号和角色；未找到可确认的独立Wikipedia—Wikidata人物配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 persons-viviano-codazzi
+
+对象：`04-knowledge/units/persons/viviano-codazzi.md`。原卡SHA-256：`a45711bd05bf2fa51c60e5e867fa13b121a1c77783ef2d6b650037444be7ee2d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+合作关系由[米开朗基罗·切尔阔齐](michelangelo-cerquozzi.md)卡发出，本卡显示生成的反向入口。关系时间保留“1647年前有争议”的限定。
+
+### 身份与外部链接
+
+- [Wikipedia：Viviano Codazzi](https://en.wikipedia.org/wiki/Viviano_Codazzi)
+- [Wikidata Q2553051](https://www.wikidata.org/wiki/Q2553051)
+- [Treccani DBI：CODAZZI, Viviano](https://www.treccani.it/enciclopedia/viviano-codazzi_(Dizionario-Biografico)/)
+
+### 证据与未决
+
+Wikipedia页面与Wikidata Q2553051的enwiki sitelink、姓名、年代和职业相互对应，身份配对通过。双站同源关系不当作两份独立史实证据；出生年精度、早期罗马阶段和逐件合作作品继续按DBI的争议范围保留。
+````
+
+
+### REV-072 persons-vincenzo-armanni-ch1
+
+对象：`04-knowledge/units/persons/vincenzo-armanni-ch1.md`。原卡SHA-256：`1517a7a975ab0a32f970609d89435fd6e1a76e5dbac862efffe19475cd966112`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1原章第9页L329–330；S2专业传记全文，S3原刊选读及所引信全文，S4候选WD。
+候选[Q87700122](https://www.wikidata.org/wiki/Q87700122)姓名和学术身份相符，但无Wikipedia sitelink，仍**未完成双重身份配对**。英文优先及意大利语回退未找到对应人物页；不采用Armanno画家页。此次依据直接文献补足身份，规范显示名去掉早期消歧括注，稳定路径保留。
+
+既有与[Camillo Pamfili](camillo-pamfili.md)的书信关联保留。谱系严谨性曾受质疑，作者辩护不等于其谱系全部已证。DBI将1698刊物列入生前出版与1684卒年冲突，未采用该判断。原档、全部谱系及具体家属仍有缺口。
+````
+
+
+### REV-072 persons-virgil
+
+对象：`04-knowledge/units/persons/virgil.md`。原卡SHA-256：`908a3b972d9e68560eb4119943c370934366b1b4ef9185bf12ea3712cccda319`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 9；OCR L314–319。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Virgil | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 著作线索 | Mola 借阅带注释的著作；题名与版本未给 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Virgil（en）；revision 1371712636；33289字符 | 全文覆盖：Traditional biography、Biographical sources、Family and birth、Site of Andes、Spelling of name、Childhood and education、Poetic career、Burial and tomb、Works、Early works、Eclogues、Georgics |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1398](https://www.wikidata.org/wiki/Q1398)；与enwiki标题双向一致 | revision 2540879309；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Publius Vergilius Maro，古罗马诗人；身份通过不确定 Mola 借阅的具体版本。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Virgil) 的 wikibase_item 与 [Wikidata Q1398](https://www.wikidata.org/wiki/Q1398) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-augusta-sicily
+
+对象：`04-knowledge/units/places/augusta-sicily.md`。原卡SHA-256：`7c53b714b153029f8a46a6e6872defefc2feafda35b935f215d0f499e8361602`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 9；OCR L322。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Augusta, Sicily | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点性质 | 西西里城镇；1617 委托条款语境 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Augusta, Sicily（en）；revision 1371652037；4299字符 | 全文覆盖：Geography、History、Main sights、Notable people、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q194005](https://www.wikidata.org/wiki/Q194005)；与enwiki标题双向一致 | revision 2528794296；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 西西里东海岸的 Augusta 城镇，符合 Minnitti 1617 年委托语境。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Augusta%2C_Sicily) 的 wikibase_item 与 [Wikidata Q194005](https://www.wikidata.org/wiki/Q194005) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-bologna
+
+对象：`04-knowledge/units/places/bologna.md`。原卡SHA-256：`a23d615e84fe4180870858c5dcf0e6f68e853302b46508c1cf184c61aa26d50f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与外部标识
+
+[Wikipedia：Bologna](https://en.wikipedia.org/wiki/Bologna) 与 [Wikidata：Q1891](https://www.wikidata.org/wiki/Q1891) 的双向身份核对沿用 REV-034；REV-052 读取英文全文（修订 1373681308）及 WD 结构化字段。两站一致只确认对象配对，不是每项事实的两份独立证明。（S5–S8）
+
+WD 提供 TGN 7004847、GeoNames 6541998，均为 normal rank、该标识断言无引用；本轮未直接读取 Getty 或 GeoNames，不记为独立核验完成。（S8）
+
+### 关系导航与证据范围
+
+本次集中审查未接收本卡的新关系：上述四组章内语境是内容证据，共地不推出师承、合作或影响。可导航至[卢多维科·卢多维西](../persons/ludovico-ludovisi.md)查阅其求学和任职证据；该导航不新增图谱边。
+
+S1–S4 为本章出处，章、页、行及句子摘要保存在统一元数据；S5–S6 为原初步对齐，S7–S11 为本轮采用来源。过程及字段采用理由见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按 `places/bologna` 定位。
+
+### 未决与限制
+
+- WD 政权及行政归属多值含不同起止时间、精度和无引用断言，未逐条作为确定历史区间导入；历史政治管辖与私人产权分开。
+- S7 的 San Petronio 建造年代、城市廊道旧总长及现代统计口径尚未逐一解决；本卡未采用争议数值。相关建筑的设计、改造和产权属于具体建筑卡。
+- 已补入城市识别、历史名称、空间及本章语境所需背景；全章关系尚待集中处理。本卡保持 `source_backed`，不宣称全部资料或所列书目已经验证。
+````
+
+
+### REV-072 places-capuchin-church-rome
+
+对象：`04-knowledge/units/places/capuchin-church-rome.md`。原卡SHA-256：`3c85a9ceb264908b07ef840881ab2bdc9b63a0db50a5736affc5863d04430242`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 12；OCR L467–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Capuchin Church in Rome | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 建筑边界 | Sacchi 稿本预定教堂；正式堂名待核 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Santa Maria della Concezione dei Cappuccini（en）；revision 1366883114；4405字符 | 全文覆盖：History、Architecture、Chapels、Burials、Crypt、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q546141](https://www.wikidata.org/wiki/Q546141)；与enwiki标题双向一致 | revision 2537551395；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马 Santa Maria della Concezione dei Cappuccini；Treccani Sacchi 条列该堂委托，对应章中罗马嘉布遣会教堂。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_della_Concezione_dei_Cappuccini) 的 wikibase_item 与 [Wikidata Q546141](https://www.wikidata.org/wiki/Q546141) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-cerasi-chapel
+
+对象：`04-knowledge/units/places/cerasi-chapel.md`。原卡SHA-256：`3c7398d04bf9a505f46d84620334c9bcc3bc41c10bc32651b98f754a5fc6beac`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Cerasi Chapel](https://en.wikipedia.org/wiki/Cerasi_Chapel)
+- [Wikidata Q5063707](https://www.wikidata.org/wiki/Q5063707)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-chiesa-de-servi-bologna
+
+对象：`04-knowledge/units/places/chiesa-de-servi-bologna.md`。原卡SHA-256：`f9f534f465548505d99fdece2a0cd80080898fd16e18366491d2fd46bd0b07ae`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Chiesa de' Servi, Bologna | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 建筑与活动 | Bologna；Albani／Gozadini，1639 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Santa Maria dei Servi, Bologna（en）；revision 1286834023；3256字符 | 全文覆盖：Architecture、Interior、Exterior、Artworks、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1021897](https://www.wikidata.org/wiki/Q1021897)；与enwiki标题双向一致 | revision 2536162206；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 博洛尼亚 Santa Maria dei Servi 教堂，与章内 Chiesa de’ Servi 地点相容。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_dei_Servi%2C_Bologna) 的 wikibase_item 与 [Wikidata Q1021897](https://www.wikidata.org/wiki/Q1021897) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-chiesa-nuova
+
+对象：`04-knowledge/units/places/chiesa-nuova.md`。原卡SHA-256：`8b1a3d8c4466df0af47427affbdf75d0b10402d527408724ca859be917178737`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L402–404。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Chiesa Nuova, Rome | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 建筑与活动 | Rome；Rubens 1606 委托条件 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Santa Maria in Vallicella（en）；revision 1362822909；8813字符 | 全文覆盖：History、Interior、Chapels、Cardinal-Priests、See also、References、Bibliography、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q2031901](https://www.wikidata.org/wiki/Q2031901)；与enwiki标题双向一致 | revision 2507301391；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马 Santa Maria in Vallicella 又称 Chiesa Nuova；建筑与 Oratorians 分开。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_in_Vallicella) 的 wikibase_item 与 [Wikidata Q2031901](https://www.wikidata.org/wiki/Q2031901) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-contarelli-chapel
+
+对象：`04-knowledge/units/places/contarelli-chapel.md`。原卡SHA-256：`8c2291888578d54d589c72d7cd383937d5b0170b693f6c2f4da9fcfd73b9f324`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Contarelli Chapel](https://en.wikipedia.org/wiki/Contarelli_Chapel)
+- [Wikidata Q3657340](https://www.wikidata.org/wiki/Q3657340)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-cortona
+
+对象：`04-knowledge/units/places/cortona.md`。原卡SHA-256：`e85014e6f44b013976c5a383aa219e7ec07883374a94b504990ac1b62001e6f8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+尚无正式关系；正文人物链接仅导航。sources依次S1–S7；第一章第7页L217–220、第13页L507–508定位保留。
+
+**冲突与未决：** WP把1411受让人写作Medici，依据S7专业历史研究采用佛罗伦萨共和国。WP山城约600米与WD494米不作同一测量点竞争值。诺亚建城传说、可疑建筑先后说法及百科画家出生年未采入此城市卡。新外部历史、地理来源不证明本章祭坛画的具体归属。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+复用双向身份核对：[Wikipedia英文页](https://en.wikipedia.org/wiki/Cortona) ↔ [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080)。本轮全文阅读英文页revision1370060359及相关WD字段。
+````
+
+
+### REV-072 places-florence
+
+对象：`04-knowledge/units/places/florence.md`。原卡SHA-256：`48bf9fdb7b91c2d3a473ae2dcd626739e7eea494530292354c29cf2dd6723009`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份与外部入口
+
+[英文 Wikipedia：Florence](https://en.wikipedia.org/wiki/Florence) 与 [Wikidata Q2044](https://www.wikidata.org/wiki/Q2044) 已在 REV-034 双向配对。本轮阅读全文 S6，检查 S7 的相关属性。P571 没有值，不能将其解释为“没有建城史料”。Getty TGN **7000457** 来自 P1667（normal、无引用）；尚未直接访问核验。
+
+### 正式关系与知识元导航
+
+本卡未登记正式关系。正文的[乌尔班八世](../persons/urbano-viii.md)、[罗马](rome.md)链接用于阅读导航；若建立出生、旅行、地域背景或政治迁移等关系，须逐项回核证据，不能由城市百科中的名单自动导边。
+
+### 补足状态与未决
+
+S1–S3 的第一章章页、行号和句意摘要保留。S4–S5 为身份初核，S6–S8 为详细补证。首轮名称、地理、历史及本章语境已保存，维持 source_backed。
+
+城市政体转换的确切法律日期、各建筑产权及 Bonati 行程细目尚未核到原始文献。S6 的艺术史评价、现代统计及若干年代存在概括或内部错误，不全量采用；全文阅读也不代表已读全部脚注原著。人口、交通、旅游和当代政治不作为本章所需补足字段。
+
+[初步对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 places-genoa
+
+对象：`04-knowledge/units/places/genoa.md`。原卡SHA-256：`8e6ec55431381591735edff9ca91d0feee7ca430d653421253655d85a928a71d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 8；OCR L278–281；S2：第一章；印刷页 12；OCR L430–433。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Genoa | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 论述边界 | Piola／Pallavicini 地缘；Gaulli 传入做法为可能解释 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Genoa（en）；revision 1374273230；76973字符 | 全文覆盖：Etymology、History、Prehistory and Roman times、Middle Ages to early modern period、5th to 10th centuries、Rise of the Genoese Republic、13th and 14th centuries、15th and 16th centuries、17th century、18th century、The fall of the Republic、19th century |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1449](https://www.wikidata.org/wiki/Q1449)；与enwiki标题双向一致 | revision 2540418635；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Genoa／Genova 城市；不与热那亚共和国混用。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Genoa) 的 wikibase_item 与 [Wikidata Q1449](https://www.wikidata.org/wiki/Q1449) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-gesu-rome
+
+对象：`04-knowledge/units/places/gesu-rome.md`。原卡SHA-256：`cff7c8963745f2a3c4135c0341ff7a49876410f3cd3046577603acf2c603c592`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L452–454。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gesù, Rome | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程时间 | Gaulli 绘画获八年工期，非建筑建造年 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Church of the Gesù（en）；revision 1356398733；17779字符 | 全文覆盖：History、Façade、Interior decoration、Influence、Cardinal-deacons、Gallery、See also、References、Bibliography、Further reading、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q719794](https://www.wikidata.org/wiki/Q719794)；与enwiki标题双向一致 | revision 2529570842；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马 Gesù 教堂建筑；不是耶稣会或内部单幅壁画。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Church_of_the_Ges%C3%B9) 的 wikibase_item 与 [Wikidata Q719794](https://www.wikidata.org/wiki/Q719794) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-gubbio
+
+对象：`04-knowledge/units/places/gubbio.md`。原卡SHA-256：`a678d8a47bf04106f7cba9590c5cfdb2e369596ef051889a9c2779d8a983bde6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 9；OCR L321–322。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gubbio | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 本章活动 | Saverio Savini；1608 委托条款 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Gubbio（en）；revision 1372832933；45476字符 | 全文覆盖：Name、History、Prehistory、Bronze Age、Iron Age、Pre-Roman antiquity、Roman period、Early Middle Ages、High Middle Ages、Late Middle Ages、Early Modern era、Contemporary period |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q20458](https://www.wikidata.org/wiki/Q20458)；与enwiki标题双向一致 | revision 2527328243；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 翁布里亚 Gubbio 城镇，符合 1608 年委托所在地。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Gubbio) 的 wikibase_item 与 [Wikidata Q20458](https://www.wikidata.org/wiki/Q20458) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-italy
+
+对象：`04-knowledge/units/places/italy.md`。原卡SHA-256：`b5b674796e2fcd522c2278d811378f821d3eec93f9a1c32cd01145b963964368`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 地点入口 | 对应卡 | 状态 |
+|---|---|---|
+| 罗马 | [Rome](rome.md) | S1、S2；中心城市语境 |
+| 威尼斯 | [Venice](venice.md) | 按城市卡理解，政治共和国另取证 |
+| 佛罗伦萨／博洛尼亚 | [Florence](florence.md)／[Bologna](bologna.md) | 地点导航，不新增正式隶属边 |
+
+S1为第一章p.4，OCR L58–59、71–83；S2为pp.14–15，L559–561、575–590；外部来源S5–S7的范围见头部。当前本卡无正式关系，范围配对未确认，evidence_status仍为source_backed。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留候选与边界裁决。
+````
+
+
+### REV-072 places-london
+
+对象：`04-knowledge/units/places/london.md`。原卡SHA-256：`5e7fa57555b1b9346dde2e92572fdbaf5e9ed07ea584f1d33687f7a20c8edf4a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L467–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | London | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 本章活动 | Colnaghi，1961 稿本目录语境 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | London（en）；revision 1372851516；59931字符 | 全文覆盖：Etymology、History、Prehistory、Roman London、Anglo-Saxon and Viking-period London、Middle Ages、Early modern、Late modern and contemporary、Administration、Local government and services、National government、Geography |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q84](https://www.wikidata.org/wiki/Q84)；与enwiki标题双向一致 | revision 2539604940；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** London 城市；不取 City of London 单独行政区的身份。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/London) 的 wikibase_item 与 [Wikidata Q84](https://www.wikidata.org/wiki/Q84) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-milan
+
+对象：`04-knowledge/units/places/milan.md`。原卡SHA-256：`30b72e90ec77d209f4c8beb4b0e1f5883b5b70253e77119d8607a9ba461dab74`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+**S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)与[学习旅行](../procedures/patron-funded-study-travel.md)为章内关联；未新增正式关系。城市列举不是行程顺序。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Milan)与[Wikidata Q490](https://www.wikidata.org/wiki/Q490)互链仍一致。S4全文已读；S5提取适用字段并核对限定词、时间精度、rank及引用。P17的多种历史政体不是城市同义名；P571约前600的限定不支持确切建城年，WP约前590亦未独立核定。Getty TGN 7005903仅为WD提供的待核入口，原站未读。
+
+WP内部大教堂规模排名及海拔不一致，未采用；将Hayez放入十七／十八世纪巴洛克语境的表述亦不采用。相关研究入口为Evelyn S. Welch《Art and Authority in Renaissance Milan》（1995），仅已读WP书目，未读书本。
+
+详细内容稿已保存；具体学习日期、观看对象、历史城区范围与精确政权转移证据尚待补，source_backed不变。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 places-modena
+
+对象：`04-knowledge/units/places/modena.md`。原卡SHA-256：`96ac9caa187e7d5f3da073a1ae7a68fbc59e09ad3adf081b3e634e1321ff0611`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+**S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)及[资助学习旅行](../procedures/patron-funded-study-travel.md)是相关入口；当前未新增正式关系。
+
+[Wikipedia](https://en.wikipedia.org/wiki/Modena)与[Wikidata Q279](https://www.wikidata.org/wiki/Q279)双向一致。S4全文已读，条目引注不足警示保留；S5适用属性已读。WD P17将1860年接到Kingdom of Italy，WP把1859政治变化直接说成并入该王国，均不据此生成精确政治沿革；1650年代的城市也不连向现代共和国身份。P571未列数值不是“无建城历史”。
+
+S6–S7已实际读取官网正文，不仅是搜索摘要。保存名称、位置、宫廷迁入与新宫工程的内容稿；原设计图、产权变动原件、具体作品版本及本章旅行细节仍缺，source_backed不变。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 places-naples-cathedral
+
+对象：`04-knowledge/units/places/naples-cathedral.md`。原卡SHA-256：`6a2c2bd9aa4e1ca166ece99353e9d99ab3c70d41b3cbe4f90f407995db1b0c1b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L500–502。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Naples Cathedral | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程计价 | Domenichino 130／Lanfranco 100 ducats；OCR too 已校正 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Naples Cathedral（en）；revision 1367241929；3577字符 | 全文覆盖：History、Interior and artwork、Miracle of the Blood、Burials、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q256486](https://www.wikidata.org/wiki/Q256486)；与enwiki标题双向一致 | revision 2539061103；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Naples Cathedral／Duomo di Napoli，城市主教座堂；非整个 Naples 城市。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Naples_Cathedral) 的 wikibase_item 与 [Wikidata Q256486](https://www.wikidata.org/wiki/Q256486) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-naples
+
+对象：`04-knowledge/units/places/naples.md`。原卡SHA-256：`5299245f897353584f6b6a375afe8b9051bb8d21f2f13db989d30ae2c451c4fd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与阅读范围
+
+[Wikipedia / Naples](https://en.wikipedia.org/wiki/Naples) ↔ [Wikidata Q2634](https://www.wikidata.org/wiki/Q2634) 的城市身份配对已完成。复用 S3 的英文全文阅读（revision 1373700383）；S4 的较新 revision 1374047338 只读过身份段，不冒称全文已读。S6 本轮取得实际实体响应并核对适用属性及所用标签，配对 sitelink 仍一致。S8–S10 只支持所述书目事实。整卡保持 source_backed。
+
+### 待补与争议
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 行政日期 | S6 对当前广域市给 2015-01-01 起始限定、对旧省给 2014-12-31 终止；这些日期尚未直接核原行政依据，未编入确定沿革 |
+| 历史政体 | S6 有多个国家／都城值和不同时间精度，若干缺声明引用；暂不拼成连续统治史。城市与那不勒斯王国分别建模 |
+| 现代国家时间 | S6 的 Italy 带 1861-03-17 起始值；不据此把现代共和国制度追溯到该日 |
+| 遗产面积 | 本轮已按 UNESCO 将遗产区与缓冲区分开；旧 WP 的不同口径不混加，完整边界地图尚未核读 |
+| Getty 标识 | S6 分列 TGN 7004474（Naples，inhabited place）、7051538（Napoli，municipality）；本卡城市语境以前者为待核入口。原站本轮读取失败，两号均不能标为 Getty 已核 |
+| 书目日期 | S8 首发 2010-02-12，S9 发布字段 2010-08-18；当前书目保留年精度，不冒称同一载体唯一精确出版日。S10 仅索引可读，待直达记录 |
+| 其他内容 | 历史政权细分、建筑和内部作品的具体身份仍按各对象补证；现代人口、交通、经济、体育及缺引文学评价不为本章扩写 |
+
+S1–S10 按元数据 sources 顺序对应。字段 rank、引用、精度、访问失败与采用／暂缓依据见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-045 及其补足证据文件。
+````
+
+
+### REV-072 places-oratory-san-lorenzo-palermo
+
+对象：`04-knowledge/units/places/oratory-san-lorenzo-palermo.md`。原卡SHA-256：`e639ae3a566eb533bd42806860a67aaa636adf4b07c1cf1b30b1c1820e559f26`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Oratory of San Lorenzo](https://en.wikipedia.org/wiki/Oratory_of_San_Lorenzo)
+- [Wikidata Q2028366](https://www.wikidata.org/wiki/Q2028366)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-palazzo-barberini
+
+对象：`04-knowledge/units/places/palazzo-barberini.md`。原卡SHA-256：`63fbf5db39fab13f73dfc474d818bdbc95484dfb3cb2c0d390cfc9bb1cdc2fd3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L461–468。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Palazzo Barberini | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 建筑边界 | 宫殿；大厅、家族与争议稿本分别处理 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Palazzo Barberini（en）；revision 1372601957；9376字符 | 全文覆盖：History、Architecture、The garden、Frescoes、Modern history and attractions、See also、References、Sources、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1136614](https://www.wikidata.org/wiki/Q1136614)；与enwiki标题双向一致 | revision 2539202298；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马十七世纪 Barberini 宫建筑；不是家族或内部艺术收藏机构。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Palazzo_Barberini) 的 wikibase_item 与 [Wikidata Q1136614](https://www.wikidata.org/wiki/Q1136614) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-palazzo-chigi-odescalchi
+
+对象：`04-knowledge/units/places/palazzo-chigi-odescalchi.md`。原卡SHA-256：`029cb206cd218498be472c7bef6aa3ad40339e97317c43e0f5ca7cb4d13ad48c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikidata Q3889852](https://www.wikidata.org/wiki/Q3889852)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-palazzo-doria-pamfili
+
+对象：`04-knowledge/units/places/palazzo-doria-pamfili.md`。原卡SHA-256：`881cf9ddb1b0656dd9c6cc7e66634402a44221b5b4f4124176eca1ace33bf23d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L461–463。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Palazzo Doria-Pamfili | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 建筑边界 | 画廊所属宫殿；不是稿本或家族 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Palazzo Doria-Pamphili（it）；revision 150011271；9969字符 | 全文覆盖：Storia、La Galleria degli Specchi、Altri Palazzi Doria-Pamphili、Note、Bibliografia、Voci correlate、Altri progetti、Collegamenti esterni |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q385387](https://www.wikidata.org/wiki/Q385387)；与itwiki标题双向一致 | revision 2539223932；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 意大利语宫殿专页对应罗马建筑；排除英文重定向的 Galleria 收藏机构。
+
+[Wikipedia（it）](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphili) 的 wikibase_item 与 [Wikidata Q385387](https://www.wikidata.org/wiki/Q385387) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-pamfili-country-house-valmontone
+
+对象：`04-knowledge/units/places/pamfili-country-house-valmontone.md`。原卡SHA-256：`70364a5aad750cfa1e3290ca5e99d5949a0aa80ff3c884911cedbb1a2a746786`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1第一章第9页L312–319；S2–S5新资料。保留既有位于Valmontone的关系，其他正文链接为导航。
+
+WP记主要建设1653–58、信息框1652–70，馆方记1654–约1670；采用馆方分期，保留差异。WP把博物馆全限底层及部分出土物年代／修复状态的旧表述未采用。365房间、总面积等未作为必要字段导入；历史产权和工程原档仍待核。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+本轮新增确认：[意大利语Wikipedia](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone))的wikibase_item为[Q16586138](https://www.wikidata.org/wiki/Q16586138)，其itwiki反向链接一致，建筑名、城市及工程语境吻合。英文检索未有适用页，转意大利语；全文3979字符已读。不是Rome的Q385387或城市Q243514。
+````
+
+
+### REV-072 places-parma
+
+对象：`04-knowledge/units/places/parma.md`。原卡SHA-256：`695db9b927cac5882aa0f0913147d6ecd635791e3264ecf8211a12f29f91dac3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份与来源
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Parma)与[Wikidata Q2683](https://www.wikidata.org/wiki/Q2683)双向身份核对沿用REV-034；本轮全文补足限定城市语境。S1是章内来源，S2–S3是初步对齐，S4–S10为本轮阅读和字段依据；按元数据sources顺序编号。
+
+本卡尚无正式关系。上列人物和地点链接作导航；资助、到访、创作等关系须分别确定实际端点、时期和证据后登记，不能从地名共现直接生成。
+
+### 保留问题
+
+- S4导言与正文的2025人口不一致；WD的196764是2023年记录。未把任何一个数写成无日期现状。面积260.60平方公里为市镇统计范围，不能用作历史城区面积。
+- 分区列表与宫殿名录存在范围混合可能；未核实的行政分区、Palazzo Ducale与Palazzo del Giardino不机械合并。
+- 本章未具名旅行者、各次实际观摩作品、具体建筑权属和完整政权沿革仍待对象级证据。
+
+已保存详细内容稿，evidence_status仍为source_backed，不表示所有字段已验证。过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按places/parma定位。
+````
+
+原内容中的过程说明：
+
+````markdown
+不把城市视为由一位设计师设计或由一个赞助人拥有的建筑。具体教堂、宫殿和作品的设计、权属、收藏及迁移须落在各自对象上。
+````
+
+
+### REV-072 places-perugia
+
+对象：`04-knowledge/units/places/perugia.md`。原卡SHA-256：`268605521a6803a27d5b8c923e16ebb3c58837613c89f04372f5c163501d56d4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本卡未登记正式关系；图书馆与手稿链接是导航。S1第一章第7页L236–237，S2–S6为初步身份与本轮外证。
+
+**不采用与限制：** WP中1375年教皇亲属称谓及部分统治者死亡日、1860年政体表述存在疑点，本卡不依其建立精确年表或关系。具体手稿与图书馆馆舍的原始登记仍以对象级资料为准；不从全城史补造手稿的迁藏史。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+复用[Wikipedia英文页](https://en.wikipedia.org/wiki/Perugia)与[Wikidata Q3437](https://www.wikidata.org/wiki/Q3437)双向一致结果；英文页revision1373033931全文已读，采用相关字段而非全页城市百科。
+````
+
+
+### REV-072 places-piacenza
+
+对象：`04-knowledge/units/places/piacenza.md`。原卡SHA-256：`d43f8d7d534d37b5502e689aea1f18988e3f2dcec8f56b8ad6b5862fd8fb34f6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；OCR L520–521。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Piacenza | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点与建筑 | S. Antonino；Gavasetti 1624 工程 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Piacenza（en）；revision 1371627606；26353字符 | 全文覆盖：Etymology、History、Ancient history、Pre-Roman era、Roman age、Middle Ages、Modern era、Union with Italy、World War II、Geography、Climate、Demographics |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q13329](https://www.wikidata.org/wiki/Q13329)；与enwiki标题双向一致 | revision 2527337367；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Piacenza 城市；不是其教堂或省级行政单位。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Piacenza) 的 wikibase_item 与 [Wikidata Q13329](https://www.wikidata.org/wiki/Q13329) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-pio-monte-della-misericordia-church
+
+对象：`04-knowledge/units/places/pio-monte-della-misericordia-church.md`。原卡SHA-256：`b88c75d844d05e2d2dd97e64f881e0ba15a284ed149e3758519d3848ebf1e379`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本卡的作品安置关系由作品卡以 `installed_at` 发出，生成反向入口；机构、建筑与作品不合并为一个知识元。
+
+### 身份与外部链接
+
+- [Pio Monte官方Caravaggio页](https://piomontedellamisericordia.it/caravaggio/)
+- [Pio Monte官方建筑史页](https://piomontedellamisericordia.it/larte-e-la-storia/)
+
+### 证据与未决
+
+未取得只对应教堂建筑的独立Wikipedia—Wikidata双向配对，因此不借用仁慈山会机构QID。当前来源足以支持建筑类型、两期营建和作品主祭坛安置；详细产权、修缮及室内各作品清单未在本轮展开。
+````
+
+
+### REV-072 places-piazza-di-spagna
+
+对象：`04-knowledge/units/places/piazza-di-spagna.md`。原卡SHA-256：`f481fe5beb69dc774f020a7a7fce4baefcf02bd80f4f7d40deed47f0f456f31f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 20；OCR L827–829。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Piazza di Spagna | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点性质 | Rome 广场；邻近 Via Margutta | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Piazza di Spagna（en）；revision 1368540984；2224字符 | 全文覆盖：The square、Monuments and places of interest、Palazzi、Monuments and museums、Schools、Other、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q15124814](https://www.wikidata.org/wiki/Q15124814)；与enwiki标题双向一致 | revision 2513543955；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马西班牙广场；不以西班牙国家或 Spanish Steps 替代。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Piazza_di_Spagna) 的 wikibase_item 与 [Wikidata Q15124814](https://www.wikidata.org/wiki/Q15124814) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-piazza-navona
+
+对象：`04-knowledge/units/places/piazza-navona.md`。原卡SHA-256：`4538aebbf423901f1e297507ea4bbe8a2398652fa4b0c9465b65d4abdcb61dbf`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L438–453。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Piazza Navona | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点与建筑 | S. Agnese 所在广场 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Piazza Navona（en）；revision 1368540824；4058字符 | 全文覆盖：History、Other monuments、See also、Gallery、Notes、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q463400](https://www.wikidata.org/wiki/Q463400)；与enwiki标题双向一致 | revision 2517846076；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马纳沃纳广场；与 Sant’Agnese 教堂分开。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Piazza_Navona) 的 wikibase_item 与 [Wikidata Q463400](https://www.wikidata.org/wiki/Q463400) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-rome
+
+对象：`04-knowledge/units/places/rome.md`。原卡SHA-256：`025020004ca4280a5bb0af8627c608c6d51cc77c363192f47cd33d20ff97b68a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与链接
+
+[Wikidata Q220](https://www.wikidata.org/wiki/Q220) · [Wikipedia（en）Rome](https://en.wikipedia.org/wiki/Rome)。复用 REV-034 双向配对；本轮完整阅读英文页后保存内容，整卡仍为 source_backed。
+
+本卡尚无正式出边。城市语境中的[乌尔班八世](../persons/urbano-viii.md)、[保禄五世](../persons/paul-v.md)、[西斯笃五世](../persons/sixtus-v.md)是导航，不能据城市共现自动建立赞助边。
+
+### 本章证据
+
+S1：第一章 pp.3–4，OCR L15–34、56–83，教皇更替／同乡与家族。S2：pp.7–8，L195–228、242–264，家户与委托。S3：pp.14–15，L553–561、575–606，市场及工作室。S4：pp.17–18、20，L678–698、717–736、811–833，社会身份差异。S5–6 为先前身份对齐，S7–9 为本轮外部资料；编号依元数据顺序。
+
+### 未决与采用边界
+
+- WD P17／P131 的历史长时段不能覆盖统治中断；现代行政起始日与政体转换日存在疑点，本轮不采用整串日期。
+- Wikipedia 遗产面积 1,431 公顷与 UNESCO 当前登记不同，按 S9 保留现行范围，同时不改写历史边界。
+- Vatican City、圣座、教皇国、罗马市、都会区和遗产地须分别核对；本章未要求扩展新对象。
+- 各宫殿、教堂与藏品的设计、产权、迁移尚须对象级证据；页面上的大学创立年、桥梁雕像年代等无关或疑似冲突信息未导入。研究书目与规范库链接不等于已阅读原件。
+
+[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+````
+
+
+### REV-072 places-san-luigi-dei-francesi
+
+对象：`04-knowledge/units/places/san-luigi-dei-francesi.md`。原卡SHA-256：`ba633068e3566b35ac377eedf5cb652845ef1f8662893026ccae70bff7195572`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：San Luigi dei Francesi](https://en.wikipedia.org/wiki/San_Luigi_dei_Francesi)
+- [Wikidata Q638283](https://www.wikidata.org/wiki/Q638283)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-san-sebastiano-palatine
+
+对象：`04-knowledge/units/places/san-sebastiano-palatine.md`。原卡SHA-256：`2d16efee09649a0f5931bbc597b889165a881b1150799d0157ed16771e4ae9fc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+无既有正式关系。S1第一章第10页L336–338保留；S2–S7为对齐及补足。教堂官网本轮只支持当代名称和活动主体；历史叙述采用S4并保留范围。
+
+圣徒受难地点属于传统叙事，不能以传说证明建筑年代。与San Sebastiano fuori le mura分开；未核具体产权连续链、设计师和全部修复记录，不把当前领衔者或团体写成建筑所有人。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+[Wikipedia](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino) ↔ [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605)复用双向结果，英文5848字符全文已读。WD建立时间精度为7（世纪），不将序列化的0901-01-17写成创建日。
+````
+
+
+### REV-072 places-sant-agnese-piazza-navona
+
+对象：`04-knowledge/units/places/sant-agnese-piazza-navona.md`。原卡SHA-256：`c0782c658c1a5b4458dc4325c7908eed3f21d2ed8416cc8c4026f51f1a32d10c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L438–453。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | S. Agnese in Piazza Navona | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程定位 | Ciro Ferri；1670 彩稿与四年工期 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Sant'Agnese in Agone（en）；revision 1362791584；8851字符 | 全文覆盖：History、Interior、Origin of name and legends、Cardinal-Deacons、Gallery、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1192577](https://www.wikidata.org/wiki/Q1192577)；与enwiki标题双向一致 | revision 2519963951；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Sant’Agnese in Agone 与 Sant’Agnese in Piazza Navona 同指，地名和建筑类型相符。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Sant'Agnese_in_Agone) 的 wikibase_item 与 [Wikidata Q1192577](https://www.wikidata.org/wiki/Q1192577) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-sant-agostino-rome
+
+对象：`04-knowledge/units/places/sant-agostino-rome.md`。原卡SHA-256：`577ef6b58166b5effeda07b52c2b0be039a38bd154d777ec03a6a40f1b3b3b4e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Sant'Agostino, Rome](https://en.wikipedia.org/wiki/Sant'Agostino,_Rome)
+- [Wikidata Q1424095](https://www.wikidata.org/wiki/Q1424095)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-sant-andrea-della-valle
+
+对象：`04-knowledge/units/places/sant-andrea-della-valle.md`。原卡SHA-256：`3489711636a721ee1b3c24fbb596b7e61b69d4d0f57e85d4a39aacea22bf653c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：**第一章，印刷页5、6，OCR L139–141、L147–152**；句意为蒙塔尔托接续已启动的工程。S2–S3为初步对齐，S4–S13为本次补足，编号按文件头sources顺序。
+
+[Wikipedia英文](https://en.wikipedia.org/wiki/Sant%27Andrea_della_Valle)与[Wikidata Q1631593](https://www.wikidata.org/wiki/Q1631593)双向一致，指向同一罗马建筑。P84不提供完整分期团队；P1619不等于完工；1965小圣殿称号已有S13支撑。本轮无新增正式关系。
+
+相关知识元：[戴蒂尼会（Theatines）](../institutions/theatines.md)、[罗马（Rome）](rome.md)、[亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti di Montalto）](../persons/alessandro-peretti-montalto.md)、[乌尔班八世（Urban VIII）](../persons/urbano-viii.md)。这些导航分别对应机构、地点及有具体时期的资助语境，不把关系套用到所有装饰。
+
+**未决与取舍：** 完整产权史和付款金额未获原件；WP对后殿装饰笼统归Algardi，与S12的Domenichino说明需再分设计与执行；S10中Barberini亲属称谓不全照收，避免同名不同辈混并。已完成本文详细补足，source_backed不变；正式关系交后续集中处理。
+
+[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：places/sant-andrea-della-valle；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+````
+
+
+### REV-072 places-sant-antonino-piacenza
+
+对象：`04-knowledge/units/places/sant-antonino-piacenza.md`。原卡SHA-256：`ccf972106c4fa7d6bdf54f5dea9a4af01d01fe475a258172b88c87117ece63b6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；OCR L520–521。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | S. Antonino, Piacenza | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程定位 | Camillo Gavasetti；1624 壁画 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Sant'Antonino, Piacenza（en）；revision 1341776021；1454字符 | 全文覆盖：Description、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1670729](https://www.wikidata.org/wiki/Q1670729)；与enwiki标题双向一致 | revision 2488491810；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 皮亚琴察圣安托尼诺堂，符合 Gavasetti 壁画所在地。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Sant'Antonino%2C_Piacenza) 的 wikibase_item 与 [Wikidata Q1670729](https://www.wikidata.org/wiki/Q1670729) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-santa-lucia-al-sepolcro
+
+对象：`04-knowledge/units/places/santa-lucia-al-sepolcro.md`。原卡SHA-256：`52c80498cc2185fb016afc5d0f441531f88e6abae5e5b2d29dc83c9a0bca37c8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikidata Q667321](https://www.wikidata.org/wiki/Q667321)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-santa-maria-degli-angeli-messina
+
+对象：`04-knowledge/units/places/santa-maria-degli-angeli-messina.md`。原卡SHA-256：`f98df1888a10c367a5cd63bd31faf7d66a139d50074eeb48e954cbc3013489ef`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- 当前没有同粒度Wikipedia—Wikidata配对；这不构成知识元缺陷。
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-santa-maria-del-popolo
+
+对象：`04-knowledge/units/places/santa-maria-del-popolo.md`。原卡SHA-256：`f92136d6edd13db6e39930a8c441ceb6db12d8ff3a2a15b617d7e3dabdf80f8e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Santa Maria del Popolo](https://en.wikipedia.org/wiki/Santa_Maria_del_Popolo)
+- [Wikidata Q869513](https://www.wikidata.org/wiki/Q869513)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-santa-maria-della-scala-rome
+
+对象：`04-knowledge/units/places/santa-maria-della-scala-rome.md`。原卡SHA-256：`25a587412d3faedba50d4d4d85ec639d9727ceb2ea7a593615fa27fd7a76afb1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：Santa Maria della Scala](https://en.wikipedia.org/wiki/Santa_Maria_della_Scala)
+
+### 证据与未决
+
+S编号对应文件头sources。先前请求的带“`, Rome`”英文页路径返回404；本轮改用实际存在且对象粒度相符的英文页面。未登记QID，不借用作品或城市标识代替建筑身份。
+````
+
+
+### REV-072 places-santa-maria-maggiore
+
+对象：`04-knowledge/units/places/santa-maria-maggiore.md`。原卡SHA-256：`a8b65e8ba44e22fc825c8313c9d085b45099a1356effd641c45722a48413ea4d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 章内定位
+
+| 来源 | 定位 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L120–124 | 哈斯克尔讨论教皇与亲族的安葬、旧大殿和新教堂之间的选择，并提到圣母大殿。此处不独立证明所有内部工程及其付款人。 |
+
+### 相关知识元
+
+- [罗马（Rome）](rome.md)：所在地依据S4、S5、S10。
+- [西克斯图斯五世（Sixtus V）](../persons/sixtus-v.md)：礼拜堂委托与墓碑依据S7。
+- [保罗五世（Paul V）](../persons/paul-v.md)：保琳礼拜堂计划依据S8。
+
+本次集中审查未接收本卡的新关系；建筑归属、赞助、设计及安葬各有不同主体和时期，现有证据不足以用一个泛化谓词合并。
+
+**补足结果与未决项：** 已完成名称、地点、分期建筑、主要章内相关礼拜堂与作品的详细补足。早期奠基、十八世纪各施工节点、全部产权变化及各作品完整目录仍需针对性史料；没有把这些缺口写成已完成。证据状态保持source_backed。
+
+[过程与裁决](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[外部证据记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `places/santa-maria-maggiore`。
+````
+
+
+### REV-072 places-santa-maria-sopra-minerva
+
+对象：`04-knowledge/units/places/santa-maria-sopra-minerva.md`。原卡SHA-256：`af277c79b73b85e19f329b3d64c528d83f11d9bf80b5a449ab80ef5ea0da42e4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 来源 | 章页／行数 | 句子摘要 |
+|---|---|---|
+| S1 | 第一章，印刷页5，OCR L120–124 | 古老教堂中的家族安葬与持续艺术委托，说明新画可出现在旧教堂中；不独立证明每件作品的作者或付款人。 |
+
+### 相关知识元
+
+[罗马（Rome）](rome.md)为所在地（S4–S7）；[领衔教堂（Titular church）](../terms/titular-church.md)为制度概念（S6）。与[卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md)的建筑群语境不构成机构同一性。
+
+本次集中审查未接收本卡的新关系；上述链接仍是有来源的导航，未把进驻、返回、征收、作品版本及产权混成单一边。具体未决项保留，整卡source_backed不提升。
+
+[过程与裁决](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[外部证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `places/santa-maria-sopra-minerva`。
+````
+
+
+### REV-072 places-sicily
+
+对象：`04-knowledge/units/places/sicily.md`。原卡SHA-256：`305b7d164b8947aac415d422907676dbcb38b99fde2f8e8e635da6830f8e148c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 9；OCR L295–307,322；S2：第一章；印刷页 15；OCR L596。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Sicily | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 本章活动 | Guercino 委托目的地、Augusta 所属地域、Valguarnera 来源 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Sicily（en）；revision 1372963625；77674字符 | 全文覆盖：Etymology、History、Prehistory、Antiquity、Roman and Germanic viceregal rule (469–535)、Byzantine period (535–827)、Arab period (827–1091)、Norman Sicily (1038–1198)、Kingdom of Sicily (1198–1860)、Italian unification、20th and 21st centuries、Geography |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1460](https://www.wikidata.org/wiki/Q1460)；与enwiki标题双向一致 | revision 2535583020；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**范围待对齐。** 英文页面兼述岛与现代自治区，Q1460 以地区行政类型为主；本章地理岛屿范围须与自治区区分后再选 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-spain
+
+对象：`04-knowledge/units/places/spain.md`。原卡SHA-256：`9d519d304bf7092d93bcac053853781a2287df2643f03ee8aeaf08c93aa66bd4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 18；OCR L745–747。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Spain | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点性质 | 行程目的地；不据地名新建政体 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Spain（en）；revision 1374250988；98692字符 | 全文覆盖：Etymology、History、Prehistory and Iberian peoples、Roman Hispania and the Visigothic Kingdom、Muslim era and Reconquista、Spanish Empire、18th century、Liberalism and nation state、Civil War and Francoist dictatorship、Restoration of democracy、Economic prosperity and crash、Constitutional issues |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q29](https://www.wikidata.org/wiki/Q29)；与enwiki标题双向一致 | revision 2542143031；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**范围待对齐。** 英文 Q29 为现代西班牙国家记录；本章活动范围与特定历史政权尚未分清，不能直接采用现代国家属性。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-st-johns-co-cathedral
+
+对象：`04-knowledge/units/places/st-johns-co-cathedral.md`。原卡SHA-256：`605c5051c9ec6c185a0404bd372452326ebaf44493b081412d5dfef951b15943`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+暂无本卡主动发出的正式关系；作品及人物的有据关系会在此生成反向入口。
+
+### 身份与外部链接
+
+- [Wikipedia：St John's Co-Cathedral](https://en.wikipedia.org/wiki/St_John's_Co-Cathedral)
+- [Wikidata Q613619](https://www.wikidata.org/wiki/Q613619)
+
+### 证据与未决
+
+S编号对应文件头sources。本卡为已采纳事实的必要端点，不以QID、链接数量或反向入口宣称其完整生平、馆史、建筑史或家族史已经穷尽。
+````
+
+
+### REV-072 places-st-peters-basilica
+
+对象：`04-knowledge/units/places/st-peters-basilica.md`。原卡SHA-256：`780b44bdd119d2c3d90cfc10253ae5d6c4e7c555ea9f86e4adb221a35895ccec`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikidata Q12512](https://www.wikidata.org/wiki/Q12512) · [Wikipedia（en）](https://en.wikipedia.org/wiki/St._Peter's_Basilica) · [大殿官网](https://www.basilicasanpietro.va/en/san-pietro/the-basilica)。复用 REV-034 双向配对；本轮 WP 全文已读，外部史实按 S6–10 分列；整卡仍为 source_backed。
+
+本卡无正式出边。关联导航：[Fabbrica 管理机构](../institutions/fabbrica-di-san-pietro.md)、[兰弗兰科](../persons/giovanni-lanfranco.md)、[朱塞佩·盖齐](../persons/giuseppe-ghezzi.md)、[罗马](rome.md)。相关已存在的反向关系以原卡为准，正文链接不另造事实边。
+
+S1：第一章 pp.3、5，OCR L28、115–116，大殿完成与教皇直接监督装饰；此处没有将后文其他教堂的安葬用途归给大殿。S2：p.11，L407–412，申请和自愿展示设计稿。S3：p.19，L771–773，Ghezzi 获圣俸，区别建筑与管理机构。S4–5 为初步对齐，S6–10 为本轮补足。
+
+**未决与排除：** 历史产权、完整工程职务、圣俸原授予及各件作品迁移仍待档案。WP 中 1615／1626 应按使用与祝圣区分；Maderno 1602 年任命不可无核验归给 1605 年才即位的保禄五世。圣体小堂 1664／1676、若干尺寸和钟的年代有内文差异，未导入确定字段。百科与官网也可能有建筑师生卒误植，不用于补人物。Thorvaldsens Museum D473 页访问 403、数字大殿页面超时；不采用其未读正文或假称完成原件核对。
+
+[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+````
+
+
+### REV-072 places-turin
+
+对象：`04-knowledge/units/places/turin.md`。原卡SHA-256：`7179bcf8fbefd1388dd72fab705f05f7eef9070b4d21f894a0652ea4252841e1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 21；OCR L890–893。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Turin | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 本章活动 | Perugini 宫廷保护与通信语境 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Turin（en）；revision 1373350145；73558字符 | 全文覆盖：History、Ancient origins、Roman era、Middle Ages、Early modern、Late, modern, and contemporary、Geography、Climate、Demographics、Immigration、Administration、Cityscape |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q495](https://www.wikidata.org/wiki/Q495)；与enwiki标题双向一致 | revision 2538542297；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Turin／Torino 城市，符合萨伏依宫廷所在地语境。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Turin) 的 wikibase_item 与 [Wikidata Q495](https://www.wikidata.org/wiki/Q495) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 places-valmontone
+
+对象：`04-knowledge/units/places/valmontone.md`。原卡SHA-256：`e6fa34c6a73fb33d6670ef01c5560f54ba1cbce848ee106a264517ca7e12efca`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+- 本章参与者：[莫拉](../persons/pier-francesco-mola.md)、[科尔泰塞](../persons/guglielmo-cortese.md)、[卡米洛·潘菲利](../persons/camillo-pamfili.md)。本卡未新增正式边，具体工程关系待集中处理。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Valmontone) ↔ [Wikidata Q243514](https://www.wikidata.org/wiki/Q243514)身份配对复用；市镇QID不代宫殿或宫廷机构。
+- S1：第一章第7页L231–233；S2：第9页L312–319；S3：第13页L495–497、505–506、516–519；S4–S5初步身份；S6百科全文；S7WD；S8宫殿官网全文。
+- **未采用及未查：** 百科Barberini1632／Camillo1634的产权年份存在冲突；1651以前完整封地转手链仍待原档。SIUSA记录本轮只取得搜索片段、原页失败，不作为完整档案阅读。现代人口、面积、景点和交通不填充历史工程卡。
+````
+
+
+### REV-072 places-venice
+
+对象：`04-knowledge/units/places/venice.md`。原卡SHA-256：`26c6bb549b7e39afa3877ec9ccdc21ef795fe9efca6c7e96ffd7cdc5b027ce09`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份与链接
+
+[Wikidata Q641](https://www.wikidata.org/wiki/Q641) 与[英文 Wikipedia：Venice](https://en.wikipedia.org/wiki/Venice) 沿用 REV-034 已完成的双向身份配对；本轮读取 S8 全文及 S9 实体记录。配对对象为城市，不借用于共和国。Getty TGN **7018159** 来自 S9 P1667（normal、无引用）；本轮未直接核验 Getty 条目，不能标成三方身份验证。
+
+### 正式关系与内容导航
+
+本次集中审查未接收本卡的新关系。《L’Hoggidi》及罗马链接仅作内容导航，不作为出版、旅行或比较关系；共和国内部机构及政治行为也不挂到城市端点。
+
+### 证据范围与未决项
+
+S1–S5 保留第一章章页、OCR 行号与句意摘要；S6–S7 为初步身份对齐，S8–S10 为本轮补证。S1 的“1627 首刊”保留为来源表述，由正文解释外部版本冲突，不掩去原判断。
+
+已阅读全文不等于采用所有表述：S8 中岛屿／桥梁统计、部分政治机构名称与条约具体日期未作确定字段；现代人口、选举、旅游费用不是本章补足所需内容。精确行政边界、各建筑产权与出版版本实物尚未逐一核验。城市卡首轮详细补足已保存，整卡维持 source_backed，不宣称全面验证。
+
+[初步对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 places-via-margutta
+
+对象：`04-knowledge/units/places/via-margutta.md`。原卡SHA-256：`515a014cb5b8facef7e787a0af5c5622b84ab190283592ecbbbe68645e126d1d`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 20；OCR L827–829。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Via Margutta | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点性质 | Rome 街道；延续至今的表述限来源时点 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Via Margutta（en）；revision 1327819867；4873字符 | 全文覆盖：Etymology and history、Yearly exposition of "Associazione Cento Pittori via Margutta"、Famous residents、Fountain of the Arts、Popular culture、Bibliography、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q1060690](https://www.wikidata.org/wiki/Q1060690)；与enwiki标题双向一致 | revision 2086192038；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 罗马玛古塔街，与艺术家居住街区语境对应。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Via_Margutta) 的 wikibase_item 与 [Wikidata Q1060690](https://www.wikidata.org/wiki/Q1060690) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 procedures-artist-title-conferral
+
+对象：`04-knowledge/units/procedures/artist-title-conferral.md`。原卡SHA-256：`883dc1172d762ef0a526eca6c83d46b26e09fefc0741de8b1c160fa9f21d0ed6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本轮接收一条程序—事件实例关系；正文中的其他共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页19，OCR L770–777、799–804；支持章内荣衔与职位的概括。
+- S2：Treccani兰弗兰科传记指定段；支持1628年授章个案，未读授勋文书。
+- 已接收[1533年查理五世授提香荣衔](../events/titian-honours-1533.md)为具名实例。“授予荣衔”与“交付荣章”仍须区分，Scaglia不能误作荣衔授予权威。
+- 未决：各荣衔法定权利、实际任职与俸禄、原授予文书及其日期；概括不代替逐人核对。来源支持状态维持 source_backed。
+````
+
+
+### REV-072 procedures-commission-contracting
+
+对象：`04-knowledge/units/procedures/commission-contracting.md`。原卡SHA-256：`dcc355f86c7bffe88eac8111e7128ddf8f3fb50436e7144ddfadd117372e10fe`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+尚无正式关系。具体出处见S1–S5；[贝尔托洛蒂文献卡](../archives/bertolotti-artisti-bolognesi.md)保存版本、页码及原档引记。
+
+**未决：** 该付款令署1633年5月16日、列Marcello Sacchetti，而该人物1629年已卒；画家原载Antonio Camassei亦须查原档。不据这一冲突材料新增确定交易边。原章案例、文书规定和实际支付分别核证。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+仍无该历史惯例的独立Wikipedia—Wikidata确认配对；不以宽泛商业合同QID替代。已补入直接刊本文书支持的字段及文种边界。
+````
+
+
+### REV-072 procedures-commission-payment
+
+对象：`04-knowledge/units/procedures/commission-payment.md`。原卡SHA-256：`9d7d3fc75e42049c6b1981d226a260df5317d954da23dc1402a97e0036cb66eb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+尚无独立、同范围的Wikipedia—Wikidata配对。S3为实际读取的NGA目录段落及注释，原始账簿与信件未读。暂无正式关系，[caparra](../terms/caparra.md)是款项用语，不是整个付款程序的替代ID。
+
+S1–S2第一章第13–14页各行号与摘要保留；本卡整理历史做法，不设本项目审批或付款流程。source_backed不变。
+````
+
+
+### REV-072 procedures-exhibition-self-promotion
+
+对象：`04-knowledge/units/procedures/exhibition-self-promotion.md`。原卡SHA-256：`04652d6c55bd96d1bf11cdad5db5aa4e940db4df95cb8438d1193bbd313b8983`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+| 入口 | 知识元 | 状态 |
+|---|---|---|
+| 活动相关者 | [萨尔瓦托·罗萨](../persons/salvator-rosa.md) | S3、S4；个别事件和作品关系另判 |
+| 交易语境 | [画商](../terms/art-dealer.md) | S2；并非每场展览必经中介 |
+| 配对作品概念 | [成对绘画](../terms/pendant-pictures.md) | S4案例；不新增作品对象 |
+
+S1为第一章p.6、L154–164；S2为p.15、L607–609；S3为p.22、L917–926；S4为馆方外部记录。当前无正式关系，保留source_backed。[补足过程及来源](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键定位。
+````
+
+
+### REV-072 procedures-iconographic-consultation
+
+对象：`04-knowledge/units/procedures/iconographic-consultation.md`。原卡SHA-256：`45ad0c4d61bd66e0c2a0544d36b0783a186c2515935200c76a98b04341d9991c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+暂无正式关系。S1第一章第8–9页L274–277、288–330；S2第11页L382–392；S3为实际读过的阿尔曼尼信pp.215–216。内容链接是导航。
+
+未读完整十一题方案或对应执行记录，不生成十一件作品，不从同章Mola案例推定信中画家。程序是历史做法，不转为本项目必经审核步骤。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+仍无这项历史惯例独立的Wikipedia—Wikidata确认配对；不以宽泛iconography概念替代操作过程。刊本外证已补充角色责任与方案／实施边界。
+````
+
+
+### REV-072 procedures-modello-approval
+
+对象：`04-knowledge/units/procedures/modello-approval.md`。原卡SHA-256：`40193d427fcd5893f4267d0acc2aed0b009fa6bbb7a4f153de8e52db22c625e6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+该历史操作组合暂无独立、范围相同的Wikipedia—Wikidata配对；[Modello](../terms/modello.md)的Q3859830是相关稿件概念，不能借作程序QID。相关英文页S3全文已读，S2词条全文已读，未因此复核全部历史合同。
+
+文件头无正式关系；导航至[1600年合同](../archives/caravaggio-altarpieces-contract-1600.md)、[bozzetto](../terms/bozzetto.md)与[modello](../terms/modello.md)。正式关系须逐个案匹配实际动作和证据。合同规定与实际实施仍分别保留，原S1章页／行号及句意摘要不变；这项历史程序也不是本项目的审批门禁。
+````
+
+
+### REV-072 procedures-patron-funded-study-travel
+
+对象：`04-knowledge/units/procedures/patron-funded-study-travel.md`。原卡SHA-256：`be816482d7f7fab02f3f30c40f793de8e78106d2ab9108c251e7d3f2388a9a56`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[博纳蒂](../persons/giovanni-bonati.md) · [卡洛·皮奥](../persons/cardinal-pio-bonati.md) · [吉米尼亚尼](../persons/lodovico-gimignani.md) · [帕尔马](../places/parma.md) · [威尼斯](../places/venice.md)为对象入口；已有个人赞助边仍在各卡，本程序不替代人—人或人—地点事实。
+
+S1：第一章p.6 L165–189（包括脚注）；S4馆方研究全文补证Giulio Rospigliosi及1665旅行，Russo原论文未读。S2–S3复用本轮已读专业传记，有相同转引线索，不另称独立原档。**Wiki双重验证未完成**：这是来源概括的特定操作做法，英文描述题及原语相关检索未得同粒度页；不把Grand Tour、艺术赞助或某个人的QID填入程序。Wikipedia人物页不能作为程序的身份配对。
+
+本轮补入条件、输入、活动和目的／结果区别；资助原信／账目、完整路线、实际学习成果与同行者／日期异文仍有缺口；Gimignani该次旅行资助人已对应Giulio Rospigliosi。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 procedures-patronage-introduction
+
+对象：`04-knowledge/units/procedures/patronage-introduction.md`。原卡SHA-256：`303484086db13cf0f6e887c82d656ea775f72ac6e503132174cc79cad6b863ef`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 角色入口 | 知识元 | 依据／状态 |
+|---|---|---|
+| 案例艺术家 | [皮耶特罗·达·科尔托纳](../persons/pietro-da-cortona.md) | S2、S3 |
+| 案例保护人 | [马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md) | S2、S3；不据程序概括自动补每条赞助边 |
+| 家户概念 | [famiglia](../terms/famiglia.md) | S2语境，非人人必须加入的阶段 |
+
+S1为第一章pp.4–5、L84–88、101–110；S2为p.7、L199–223；S3只支持所列外部案例。未新增正式关系；内容稿已保存，evidence_status仍为source_backed。[阅读和采用记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)可复核。
+````
+
+
+### REV-072 procedures-per-figure-pricing
+
+对象：`04-knowledge/units/procedures/per-figure-pricing.md`。原卡SHA-256：`d36849393dd2a849cf511db4eb5ce942dca6ece66b5ea668b3575e8c483373cd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本程序尚无范围一致的独立Wikipedia—Wikidata配对；不借用广义pricing概念。NGA相关正文、注释已读，原账簿未读；数据转述与学者解释分开。
+
+S1–S3章页、跨页行号及摘要保留；本卡没有出向正式关系，上表三条为其他知识元正式关系派生的反向导航。[定金](../terms/caparra.md)、[委托付款](commission-payment.md)为相邻行为导航。币种和折算只在材料明确说明时记录，不建立跨委托统一汇率。
+````
+
+
+### REV-072 procedures-studio-stock-sale
+
+对象：`04-knowledge/units/procedures/studio-stock-sale.md`。原卡SHA-256：`929cec289660c5fd6813c010a27179fa72d68026b585d2673a11d7a3f8805db1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+本章程序暂无独立同范围Wikipedia—Wikidata配对。S2指定目录页与S3文章全文已读；未新增库存实物KU或正式交易边。
+
+[《瘟疫》](../works/plague-at-ashdod-1631.md)、[《春》](../works/poussin-spring-valguarnera.md)为具体作品导航，其身份及版本按各卡。两张作品卡都可用 `commissioned_by`，但范围限定分别保留“看见初稿后商议完成”与“另订新作”，不能因谓词相同而抹平交易阶段。
+````
+
+
+### REV-072 terms-altarpiece
+
+对象：`04-knowledge/units/terms/altarpiece.md`。原卡SHA-256：`e9b68afef8f8f9fd0ef6ca05d21bbbaa45321a26af23f8485c13098d4a755857`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 身份和概念链接
+
+[Wikipedia：Altarpiece](https://en.wikipedia.org/wiki/Altarpiece) ↔ [Wikidata：Q15711026](https://www.wikidata.org/wiki/Q15711026)沿用REV-034双向核对；本轮完整阅读英文页修订1356016219。[Getty AAT 300075940](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&page=1&subjectid=300075940)已直接核对定义与范围，非仅抄WD标识。（S4–S8）
+
+WD把本概念接至visual artwork、artificial physical object、screen，并写part of altar，相关断言均normal且无引用。本卡不机械复制其层级；“安装在祭坛处”不等于所有作品在所有时点都构成祭坛一部分。
+
+### 关系导航及未决
+
+本卡无已登记正式关系；可参看[圭尔奇诺](../persons/guercino.md)的具体委托材料。此导航不自动建立“使用／创作／赞助”边。既有章页／行数／摘要保留在S1–S3。
+
+Getty的意大利语附注还涉及小型便携祭坛，与英文通类范围并不完全同宽；未将该较窄解释覆写本章用法。S6的宗教改革个别例证和年代尚未逐一外核，未据此推导一般因果结论。保持 `source_backed`；过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `terms/altarpiece`。
+````
+
+
+### REV-072 terms-art-dealer
+
+对象：`04-knowledge/units/terms/art-dealer.md`。原卡SHA-256：`1f19c75b81db35b4ffc45af8ce7538d3a1216c6615e0304c8390d01021cc6ac9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia英文Art dealer](https://en.wikipedia.org/wiki/Art_dealer)与[Wikidata Q173950](https://www.wikidata.org/wiki/Q173950)双向一致；[Getty AAT 300386253](https://vocab.getty.edu/page/aat/300386253)正文已读，支持角色范围。S4–S5保留初步对齐，S6–S8为本次详细补足。
+
+**不采纳项：** WP称独立职业“或许”产生于意大利文艺复兴且缺引注，不确定为起源事实；25%–50%现代佣金、市场投资建议、各协会会员制度不当作十七世纪规则；现代名录不自动摄入本章。没有英文原词或行为证据，不把每个“代理”合并为画商。
+
+本卡无正式关系。职业概念可供人物属性引用；具体买卖、委托和代理须使用实际参与者、作品及时间作为关系端点与语境，不能以术语卡代替匿名交易者。未预设Topic或上层发现。
+
+**补足结果：** 已完成全文阅读、词表核对、角色范围与本章用法整理；起源和具体交易者身份仍按个案待证。source_backed不变。
+
+[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：terms/art-dealer；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+````
+
+
+### REV-072 terms-artistic-independence
+
+对象：`04-knowledge/units/terms/artistic-independence.md`。原卡SHA-256：`163d37841be0dc02c526dc255ccf9a544187c03468dee484f3d762a45a401594`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 22, 23；OCR L927–943,952–970；S2：第一章；印刷页 23；OCR L971–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成术语的章内定义、证据分层和排除边界；未采用粒度不相符的Wikipedia／Wikidata上位概念。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Artistic independence | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 讨论焦点 | 题材、预付款及成品定价的选择空间 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮语义补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未采用独立实体配对 | 英文优先及相关概念页检索后，未见与本章历史语义粒度完全相同的对象；不借现代上位概念QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成章内语义定义、正反边界和证据角色补足。该术语的任务完成状态不依赖QID；后续知识发现如启动，须从知识元和关系重新涌现，不能把本术语预置为Topic、Theme或更高层级。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 术语已有本章语义依据；登记名未命中可确认的 Wiki 配对，待按原词、历史含义及概念粒度继续查询，不能以现代相近概念强配。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-artistic-temperament
+
+对象：`04-knowledge/units/terms/artistic-temperament.md`。原卡SHA-256：`544069c173adfc020636a1d9a3228e5f1b2459fc46cab28ae15e5954ccc5fffe`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 21, 22；OCR L882–893,905–926；S2：第一章；印刷页 22, 23；OCR L927–947,952–980。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成术语的章内定义、证据分层和排除边界；未采用粒度不相符的Wikipedia／Wikidata上位概念。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Artistic temperament | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 性质 | 历史观念与人物评价；非医学诊断 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮语义补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未采用独立实体配对 | 英文优先及相关概念页检索后，未见与本章历史语义粒度完全相同的对象；不借现代上位概念QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成章内语义定义、正反边界和证据角色补足。该术语的任务完成状态不依赖QID；后续知识发现如启动，须从知识元和关系重新涌现，不能把本术语预置为Topic、Theme或更高层级。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 术语已有本章语义依据；登记名未命中可确认的 Wiki 配对，待按原词、历史含义及概念粒度继续查询，不能以现代相近概念强配。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-bentveughels
+
+对象：`04-knowledge/units/terms/bentveughels.md`。原卡SHA-256：`c6a7e7e88c266f4a21c93550e5396c58bc888744456aa327a3720601293de905`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页20，OCR L819–833。
+- S2：组织对象页全文；S3：其WD记录，用于对象边界；S4：Phoebus Foundation展览介绍全文，补证罗马及北方艺术家语境。
+- 当前没有正式关系。页面成员表是后续核查线索，不批量接收新人物；范拉尔兼具学院成员身份不构成逻辑矛盾，罗萨成员身份未获本章支持。
+- 未决：具体成员、入会日期、每人的bentnaam及其原始文献，不由活动共现补造。状态维持 source_backed。
+````
+
+
+### REV-072 terms-bohemian-artists
+
+对象：`04-knowledge/units/terms/bohemian-artists.md`。原卡SHA-256：`9d228a57ae14490457809a1d2eecf0a89ae566cd1a17fe1b63214a08037449be`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L624–627；S2：第一章；印刷页 20；OCR L827–833。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Bohemian artists | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 性质 | 作者描述的非正式交游与生活群体 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Bohemianism（en）；revision 1370991471；14788字符 | 全文覆盖：Origins、European bohemianism、American bohemianism、Contemporary bohemianism、People、See also、References、Bibliography、Further reading、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q207175](https://www.wikidata.org/wiki/Q207175)；与enwiki标题双向一致 | revision 2526911203；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**范围待对齐。** Bohemianism Q207175 主要指十九世纪生活方式／历史文化语境；本章为对十七世纪画家群体的比喻，不直接等同。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-bozzetto
+
+对象：`04-knowledge/units/terms/bozzetto.md`。原卡SHA-256：`96fdddefa4a3b08bc814e5e633aaed74226562651e4cfc67a6b21b06494510c5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia（it）：Bozzetto](https://it.wikipedia.org/wiki/Bozzetto) ↔ [Wikidata Q5416402](https://www.wikidata.org/wiki/Q5416402) 双向一致。意大利术语与绘画／素描适用范围、[Getty AAT300047838](https://www.getty.edu/vow/AATFullDisplay?subjectid=300047838)共同支持本章用法，本轮确认此术语身份。WD的sculpture父类过窄，未导入；身份通过不代表每个WD字段正确。
+
+S4全文、S6词条及S7规范记录全文已读。保留旧候选Q3859830及Maquette的历史排除过程，不覆盖成“早已正确配对”。
+
+[Modello](modello.md)、[预备稿提交程序](../procedures/modello-approval.md)、[争议巴贝里尼草稿](../works/barberini-salone-bozzetto-disputed.md)为导航，尚无正式关系。草稿真实作者、是否预备而非后摹仍由作品卡处理，不因术语解决而连带确认。S1章页／行号和句意摘要保留。
+````
+
+
+### REV-072 terms-caparra
+
+对象：`04-knowledge/units/terms/caparra.md`。原卡SHA-256：`7d0b7ce1faf6fab7743ea383394f544b6f54ca47ea4f71e75385fe590ee6ca2b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia（it）：Caparra](https://it.wikipedia.org/wiki/Caparra) ↔ [Q699604](https://www.wikidata.org/wiki/Q699604)为候选双向配对，历史范围仍待证。全文7490字符、Treccani词条及NGA指定段落已读；没有读账簿MS.B.331原件和1653信原件。
+
+[付款程序](../procedures/commission-payment.md)与[按人物计价](../procedures/per-figure-pricing.md)为导航，无新增正式关系。S1–S3的章页、行号和摘要完整保留；约定、付款令、实收与余额分别记证据，source_backed不变。
+````
+
+
+### REV-072 terms-cavaliere-abito-cristo
+
+对象：`04-knowledge/units/terms/cavaliere-abito-cristo.md`。原卡SHA-256：`a39b0a0ed2fe8cea0ff66f610445179c2f9acfdcaa490ca5ee1bd9d06642a586`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页19，OCR L774–777，支持章内用法。
+- S2–S3：候选页全文及WD记录，支持制度边界判断；不是本术语已配对。
+- S4：Erich Schleier的兰弗兰科传记选读段，支持授章个案；原授予文书未读。
+- 本次没有接收正式关系。兰弗兰科获衔仍缺直接授予记录，不能把无名概括连接到全部人物。
+- 未决：历史称谓与各时期勋章制度的精确法律对应、授予文书、具体权利。状态维持 source_backed。
+````
+
+
+### REV-072 terms-count-palatine
+
+对象：`04-knowledge/units/terms/count-palatine.md`。原卡SHA-256：`4d4f9ddb046dcc0397dc8ad95052fcbb4ac618292b7259079154ba71083de6ea`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页19，OCR L799–804，章内Bellini及Titian称谓。
+- S2–S3：初步身份对齐；S4–S5：全文补足与本次WD字段读取。
+- Wikipedia艺术家清单把Bellini写作Giovanni，与本章Gentile不符，本卡不采用该名单断言；Titian获衔与某幅骑马像的因果联结亦未采用。授予原件尚未读，异文未据百科消除。
+- 当前无正式关系。未决为准确授予文书、完整称号、日期与权利，不以所有同名职衔共用同一权限。状态维持 source_backed。
+````
+
+
+### REV-072 terms-devotional-picture
+
+对象：`04-knowledge/units/terms/devotional-picture.md`。原卡SHA-256：`c3191b6821c2f4611c891122e4fa3107b5bfb75f5f0f9eb84ddfc9bfa271f2c9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：Andachtsbilder](https://en.wikipedia.org/wiki/Andachtsbilder) ↔ [Q489632](https://www.wikidata.org/wiki/Q489632)是已核候选，不确认它与本章宽泛类别完全同一。全文7710字符已读；Getty规范记录全文已读；Bouts网页只采用已读的说明和对象字段。
+
+未导入候选WD事实，无新增正式关系。[祭坛画](altarpiece.md)为相邻概念导航，实际用途须逐物判断。S1第一章第20页L811–818及句意摘要保留；具体作品身份、生产数量和出售价格尚未证实。
+````
+
+
+### REV-072 terms-dilettante
+
+对象：`04-knowledge/units/terms/dilettante.md`。原卡SHA-256：`75ae2c08e3778797d82597834dd89a6187c076a3b832d8d41f7d2d22435d4f85`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[画商](art-dealer.md) · [展览与自我宣传](../procedures/exhibition-self-promotion.md)为概念导航，不是已登记的正式关系。
+
+**候选仍未通过：** [英文Dilettante消歧页](https://en.wikipedia.org/wiki/Dilettante)及旧Q3027976不作角色标识；[意大利文Dilettante](https://it.wikipedia.org/wiki/Dilettante)双向链接[Q455595](https://www.wikidata.org/wiki/Q455595)，英文反链为Amateur，但它是跨领域一般业余者，不能等同本章特定艺术角色。未接收该QID，未导入其被弃用的P31。
+
+S1–S3保留原章页行号；S6为词义区分，S7–S8为范围比较，Wiki页引用Treccani不增加独立词义证据。意大利页现代书目未逐本阅读，不列作本章历史用法已验证研究。历史称谓的最早用例、不同作者褒贬及具体人的自我称呼仍待原文；本轮已补词形、用法与异义，未消除身份配对缺口。[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 terms-famiglia
+
+对象：`04-knowledge/units/terms/famiglia.md`。原卡SHA-256：`17d75adc0dfb51d95c058a4cd439aef8c330da34a3cf4097a93e7e89d91889ab`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[特定保护人服务](servitu-particolare.md)说明服务条件；[巴贝里尼混合记录](../institutions/barberini-household.md)仍需把Antonio、Francesco个人家户与家族集体分开。本卡是术语，不能代替任何一户充当关系端点。
+
+**范围配对仍未通过：** 既有[意大利语Famiglia](https://it.wikipedia.org/wiki/Famiglia)／[Q8436](https://www.wikidata.org/wiki/Q8436)为一般家庭概念；词中包含历史说明不代表整个对象与本章家户相同。补查英文household／cardinal famiglia命中具体教廷职务或别家家户，也不能据此采用其QID。本轮未读此一般家庭页全文，不增加WP全文覆盖。
+
+S1：第一章pp.6–7，L171–177,195–198；S2–S3为旧范围比较；S4为词典全文中适用义项。词典支持用词区分，不能提供Antonio家户完整名册、机构成立年或一套通用等级。相关清册与报酬安排仍待具体来源。未新增正式关系或改作family类；[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 terms-fresco
+
+对象：`04-knowledge/units/terms/fresco.md`。原卡SHA-256：`dec5ab02d826ba3331c98512e681b0493abbb1236d8aa1c2b73103bc627b6415`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+无正式关系。S1–S8按sources顺序，保留第一章第8、12、13页原句定位。National Gallery词条直接支持术语边界。
+
+WP各地起源“最早”说法口径不同，未写统一发明年代；每日固定小时数不当普遍规则。所列修复研究书目未全文阅读。具体壁画材料与工程参与人仍须各卡核证。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+[Wikipedia Fresco](https://en.wikipedia.org/wiki/Fresco) ↔ [Wikidata Q134194](https://www.wikidata.org/wiki/Q134194)已双向核对。本轮英文revision1372789331全文已读；现行中文标题收窄到所对齐的技法，稳定路径不变。
+````
+
+
+### REV-072 terms-gallery-picture
+
+对象：`04-knowledge/units/terms/gallery-picture.md`。原卡SHA-256：`9526a0969178e1e74530ef649918630c776adcf4eb2e5a5b65bc2b6c3943dab2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+无正式关系。S1第一章第8页L265–273、S2第10页L339–356、S3第15页L591–606保留；S4–S6为本轮权威术语来源。Getty列出的书目只作为定义出处线索，未读其全部原书。不建立与相邻概念的正式等同边。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+仍无gallery picture在本章含义上的独立Wikipedia—Wikidata确认配对。两项Getty规范记录已实际阅读全文，作为概念比较依据；不借easel器具、easel paintings或cabinet pictures的标识强配。
+````
+
+
+### REV-072 terms-genius
+
+对象：`04-knowledge/units/terms/genius.md`。原卡SHA-256：`00529f9d4094f0eb26feec52c721b2d38c734e1b52fcbe673ef7f91cb7d592cc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L650–654；S2：第一章；印刷页 19, 20；OCR L791–795,811–818；S3：第一章；印刷页 21；OCR L862–893。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Genius | S1、S2、S3；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 讨论对象 | 创造者的特殊地位、神秘光环与未获理解的天才观念 | S1、S2、S3，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Genius（en）；revision 1369817606；20322字符 | 全文覆盖：Etymology、Historical development、Galton、Psychology、IQ and genius、Philosophy、The idea of the male genius、Literature and pop culture、See also、References、Bibliography、Further reading |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q185030](https://www.wikidata.org/wiki/Q185030)；与enwiki标题双向一致 | revision 2539088863；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**范围待对齐。** Wikipedia 讨论天才特质，WD Q185030 的描述偏具有能力的个人；本章为历史天才观，不因文字相同直接确认对象一致。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-gentiluomo-onore
+
+对象：`04-knowledge/units/terms/gentiluomo-onore.md`。原卡SHA-256：`aba7635f7ca3f0c0a39f7a5f495089d1953c9c59fc2373237b337f92021b1a66`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页19，OCR L770–773。
+- S2–S3：原初步对齐；S4–S5：候选全文与WD复核；S6：Treccani词典全文，义项1支持语义区分。
+- 当前没有正式关系；未读授予文书，也未独立证实授予者的具体姓名。不能把相关教皇授予其他职务的记载一并归给帕尔马公爵。
+- 未决：该荣衔的制度定义、授予时间及实际权利；Giuseppe与其子Pier Leone的获衔事例不得混用。状态维持 source_backed。
+````
+
+
+### REV-072 terms-history-painting
+
+对象：`04-knowledge/units/terms/history-painting.md`。原卡SHA-256：`8e1a0ed216e9b0fcb4f3cde29ccbb96c094e1f27ef332ab72d1fc82c0f84005c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：History painting](https://en.wikipedia.org/wiki/History_painting) ↔ [Q742333](https://www.wikidata.org/wiki/Q742333)配对复核一致。英文页全文25559字符、NG词条三段已读；未移入百科的全部作品图注、十九世纪风格评价或无证影响链。
+
+原S1–S2章页、行号及摘要保留。文件头暂无正式关系；[自画像](self-portrait.md)等门类允许在具体作品中交叠，不构成互斥的人物职业标签。source_backed不变。
+````
+
+
+### REV-072 terms-holy-year
+
+对象：`04-knowledge/units/terms/holy-year.md`。原卡SHA-256：`01752ae95d6e0d8ad773ab93f9fd4cbfbe80ec449491214c5ee36e0e0f7356bb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+- S1：第一章，印刷页12，OCR L453–455；S2–S3：初步对齐；S4–S5：本次全文及WD读取；S6：圣年官方说明。
+- Wikipedia各届表部分起止日期、天数及1700年教皇归属不能仅按表格复制；本卡仅采用上述有直接依据的制度沿革。未开展各届日历考订，未采用未来届次推测。
+- 当前无正式关系。未决为本章具体工程是否与某届圣年存在有证据的联系，后续须逐案依据合同、工程记录或作者明确论述。状态维持 source_backed。
+````
+
+
+### REV-072 terms-inspiration
+
+对象：`04-knowledge/units/terms/inspiration.md`。原卡SHA-256：`7fec4afd11ea7472e789796fb317200449fcf06a1082b44d73fd1defd5ac4c47`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 22；OCR L937–947；S2：第一章；印刷页 23；OCR L959–966。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成术语的章内定义、证据分层和排除边界；未采用粒度不相符的Wikipedia／Wikidata上位概念。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Inspiration / entusiasmo | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 表述责任 | 罗萨自述与 Haskell 的解释分别保留 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮语义补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未采用独立实体配对 | 英文优先及相关概念页检索后，未见与本章历史语义粒度完全相同的对象；不借现代上位概念QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成章内语义定义、正反边界和证据角色补足。该术语的任务完成状态不依赖QID；后续知识发现如启动，须从知识元和关系重新涌现，不能把本术语预置为Topic、Theme或更高层级。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 术语已有本章语义依据；登记名未命中可确认的 Wiki 配对，待按原词、历史含义及概念粒度继续查询，不能以现代相近概念强配。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-modello
+
+对象：`04-knowledge/units/terms/modello.md`。原卡SHA-256：`77aee8f18c12de21eb884fb2f550434a8a858c8981f2782614b10d086b4706ef`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：Modello](https://en.wikipedia.org/wiki/Modello) ↔ [Wikidata Q3859830](https://www.wikidata.org/wiki/Q3859830)保持有效配对；[Getty AAT300100045](https://www.getty.edu/vow/AATFullDisplay?subjectid=300100045)为已读规范记录。S5全文10177字符、S7两段词条、S8全文已读；WD model父类为广义关联，不反向声称所有model都用于艺术审定。
+
+标题原“预备油画稿”过窄，本轮原位改成“预备稿／模型”，本章特定油画语境仍保留。文件头无正式关系；[提交与批准](../procedures/modello-approval.md)是历史行为程序，[争议Cortona稿本](../works/cortona-doria-pamfili-modelli-disputed.md)是具体作品，彼此不合并。
+
+来源章页／行号、句意摘要和原有判断保留；source_backed不变。术语外延补足不能证明所有具体稿本已经辨伪或完成配对。
+````
+
+
+### REV-072 terms-nepotism
+
+对象：`04-knowledge/units/terms/nepotism.md`。原卡SHA-256：`c0451ad01c01b5c99590df0303c7dabf34e0f9e8f63d427a36f9f40b6124d40e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikidata Q161165](https://www.wikidata.org/wiki/Q161165) · [Wikipedia（en）Nepotism](https://en.wikipedia.org/wiki/Nepotism)。REV-034 身份配对复用；本轮 WP 全文已读。QID 配对只锚定概念，不保证其所有属性正确。
+
+本卡尚无正式出边；蒙塔尔托、[格列高利十五世](../persons/gregory-xv.md)等本章事例可导航，但不按概念同现直接生成任用或赞助关系。
+
+S1：第一章 p.4，OCR L56–70，教皇更替与赞助收入；S2–3 为初步对齐；S4–7 为本轮外部资料。各条句意摘要为转述。
+
+**WD 属性裁决：** P279 指 Q10964327（cronyism），normal、无引用，不直接建立本项目概念上下位关系。P138 指 Q103860（Julius Nepos，罗马皇帝），normal、无引用，与已读词典的词源不符，不采用，也不把皇帝写成术语创始人。这不改变本概念与 Q161165 的既有身份配对。
+
+**未决：** 1692 年诏书条款、具体教皇时期的职位／收入制度和逐案亲族优待仍需史料；本章宽泛网络与现代术语窄义不能强行等值。已读百科中的现代人物、司法和就业案例不属本章研究范围，未导入。未预置任何 Topic、Theme 或发现结论。
+
+[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+````
+
+
+### REV-072 terms-news-sheets
+
+对象：`04-knowledge/units/terms/news-sheets.md`。原卡SHA-256：`5449848017b007a03c1b89e71dbca8b0a3242056a4f40410152c66e55c3b5f33`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：Journalism of early modern Europe](https://en.wikipedia.org/wiki/Journalism_of_early_modern_Europe) ↔ [Q4829575](https://www.wikidata.org/wiki/Q4829575)双向一致，但页名与范围比本卡类别宽，仍不采用确认QID。实际阅读全文14747字符，未把Avviso重定向短页当作全文对象页。
+
+暂无正式关系。S1第一章第19页L778–783、传记转述与Haskell解释分开保留。没有独立新闻纸原件，仍登记为term，不凭类别制造archive；Lauri的实际阅读事件待其传记原文补证。
+````
+
+
+### REV-072 terms-nostro-pittore
+
+对象：`04-knowledge/units/terms/nostro-pittore.md`。原卡SHA-256：`e8076240261ff0cdf275fe4d102cc75e9a7d745e23b6060523222c2effcb9267`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+| 语义入口 | 知识元 | 依据／状态 |
+|---|---|---|
+| 任用实例 | [巴尔多伊诺任命文字](../archives/baldoini-painter-appointment.md) | S1 |
+| 任用人／受任人 | [毛里齐奥](../persons/maurizio-di-savoia.md)／[巴尔多伊诺](../persons/gio-gasparo-baldoini.md) | S1；未新增正式边 |
+| 相关但不同的语境 | [家户](famiglia.md)／[特定保护人服务](servitu-particolare.md) | S1章内邻接论述；不是同义词 |
+
+S1保留第一章p.6、OCR L173–189；S2–S3保留已排除的范围候选，S4–S5分别支持语法和词义。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)可复核。当前无正式关系，evidence_status保持source_backed。
+````
+
+
+### REV-072 terms-pendant-pictures
+
+对象：`04-knowledge/units/terms/pendant-pictures.md`。原卡SHA-256：`6db8b47fdbd30945c6b65f3b43879c96965692c50d3723cd1d519a7d159933a6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+无正式关系。S1保留第一章第8页L265–273；S2–S6按sources顺序。正文概念定义不直接生成“互为配对”关系。
+
+WP关于Turner遗赠造成作品配对的叙述不能证明原本构思，未采用为成立标准。任何具体pair须分别识别两端，并区分原配、后来有意配组及偶然并置；尺寸一致或同作者不足以单独确认。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+[Wikipedia Pendant (art)](https://en.wikipedia.org/wiki/Pendant_(art)) ↔ [Wikidata Q591644](https://www.wikidata.org/wiki/Q591644)双向核对已完成；本轮英文revision1357897077全文已读。
+````
+
+
+### REV-072 terms-platonism
+
+对象：`04-knowledge/units/terms/platonism.md`。原卡SHA-256：`91e3d69d429e7f734d23526baa251dab5d1052a2a8bc32eeab4e7a5de98adde5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 16；OCR L650–654。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Platonism | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 表述性质 | Haskell 对创造者地位变化的思想史解释 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Platonism（en）；revision 1373980270；16793字符 | 全文覆盖：Philosophy、History、Ancient philosophy、The Academy、The Skeptical Academy、Middle Platonism、Neoplatonism、Medieval philosophy、Christianity and Platonism、Modern philosophy、Renaissance、Contemporary philosophy |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q193589](https://www.wikidata.org/wiki/Q193589)；与enwiki标题双向一致 | revision 2542231345；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** 柏拉图主义概念；不由这一链接推断艺术家个人师承或学派成员。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Platonism) 的 wikibase_item 与 [Wikidata Q193589](https://www.wikidata.org/wiki/Q193589) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 terms-self-portrait
+
+对象：`04-knowledge/units/terms/self-portrait.md`。原卡SHA-256：`e47a47a0472347a3e6670699f10d98a6c1d5e88878b1da75836d1ddf9eb8acfb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：Self-portrait](https://en.wikipedia.org/wiki/Self-portrait) ↔ [Q192110](https://www.wikidata.org/wiki/Q192110)为概念配对。全文52158字符包括图注、分类和书目已读；馆方NG4680说明、字段、来源沿革及书目已读。
+
+S1–S2的章页／行号与句意摘要保留。暂无正式关系；[历史画](history-painting.md)与自画像可在同一作品中交叠，本文导航不自动生成题材边。source_backed不变。
+````
+
+
+### REV-072 terms-servitu-particolare
+
+对象：`04-knowledge/units/terms/servitu-particolare.md`。原卡SHA-256：`96405149dc66eca64c425ac422b3c048be1f0d724bd4d88dfd02aa31fb2327f8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[家户](famiglia.md) · [本府画家](nostro-pittore.md) · [学习旅行](../procedures/patron-funded-study-travel.md) · [Vasalli证词](../archives/vasalli-testimony-mola-pamfili.md)为语境与证据入口；没有据术语概括新建正式边。
+
+S1–S4为章内分段依据；S5只补词义边界，不证明每个十七世纪人都签有统一条款。德文Kunstpatronage已定位到相关段，但为艺术赞助通论，引用同类研究，未读全文、不计独立对象全文补足。
+
+**Wiki配对未完成：** 英文原词查询及意大利原词／servitù检索尚未取得同粒度对象；[意大利语Servitù](https://it.wikipedia.org/wiki/Servit%C3%B9)为多义入口，不借用奴役、家政劳动或赞助通类QID。实例合同、津贴数额及生效时段分别待证。保留source_backed；[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+````
+
+
+### REV-072 terms-titular-church
+
+对象：`04-knowledge/units/terms/titular-church.md`。原卡SHA-256：`aba4d103d627d45104ce955d659bb6274238be70b41480cc0fa585edf1e127f0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+### 外部身份与范围
+
+[Wikipedia：Titular church](https://en.wikipedia.org/wiki/Titular_church) ↔ [Wikidata：Q1092939](https://www.wikidata.org/wiki/Q1092939)沿用REV-034双向核对；本轮完整读取英文修订1359726975。该对应支持制度／称号概念识别，不把它作为某座建筑的QID。（S2–S5）
+
+WD的P31为religion-related award，P279为title及Catholic parish，P138指向titular church in Rome；均无引用。这些字段混合表达层次，不作为本项目确定分类或名称起源事实导入。
+
+### 关系与未决
+
+本卡无既有正式关系。S1的章、页、行与句子摘要保存在统一元数据；现代法条S6的支持范围不越过其时代。具体领衔年表、委托合同及经费来源须在相关人物与教堂卡核验，不因本术语已补足就视为个案证据齐备。
+
+已补术语、制度边界和本章用途；未开展历史法源的完整考证。保持 `source_backed`，不形成Topic／Theme。过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `terms/titular-church`。
+````
+
+
+### REV-072 terms-ultramarine
+
+对象：`04-knowledge/units/terms/ultramarine.md`。原卡SHA-256：`08b0aa422698e139537497fe208e9494e0c3f54c9ec67fcc8c74b74ba67a587e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+[Wikipedia：Ultramarine](https://en.wikipedia.org/wiki/Ultramarine) ↔ [Q219660](https://www.wikidata.org/wiki/Q219660)保持配对，范围含天然及合成，本章只使用历史天然语境。全文29760字符及NG研究介绍全文已读。
+
+[付款安排](../procedures/commission-payment.md)为导航；合同条款与实际供应分别有证据才能建边。S1第一章第13页L486–519及摘要保留，暂无正式关系，未制造实物批次KU。
+````
+
+
+### REV-072 works-albani-servi-altarpiece-1639
+
+对象：`04-knowledge/units/works/albani-servi-altarpiece-1639.md`。原卡SHA-256：`49d93e7f23ef8cfa20277a6f9b73d48d5a33b4189ce54f8477b1785814b1509c`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Saint Andrew Adoring the Cross of Martyrdom | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 创作者与材料责任 | Albani；Gozadini 承诺提供画布和群青 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未见该具体作品独立Wikipedia页及双向QID；画家页只用于作品识别。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-barberini-salone-bozzetto-disputed
+
+对象：`04-knowledge/units/works/barberini-salone-bozzetto-disputed.md`。原卡SHA-256：`832a8e3275eae881782ea30495cbdf66d98d44f7f9d438d0923900f0154418a1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L463–464。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Supposed bozzetto for the Barberini Salone (disputed attribution) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 归属状态 | Haskell 不认可既有认定；不确定写为 Cortona 创作 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 描述性争议对象无可确认Wikipedia—Wikidata配对；不借宫殿或作者QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-bernini-cardinal-borghese-head
+
+对象：`04-knowledge/units/works/bernini-cardinal-borghese-head.md`。原卡SHA-256：`dc6f1ebec2d9eeea522f6024a990e34008aa977f734a859302932e6d7321b6dc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 对齐结论
+
+**仍为版本待证，未采用确认 QID。** [英文 Wikipedia 两件胸像页](https://en.wikipedia.org/wiki/Two_Busts_of_Cardinal_Scipione_Borghese) 与 [Wikidata Q16534303](https://www.wikidata.org/wiki/Q16534303) 链接互返，但后者英文标签只指第一版。本人身份、两件共同题材和单件作品身份是不同判断。
+
+本轮将“被表现者也完全不明”缩小为“Scipione 已有外部对应依据，具体版次与结算范围仍未明”；初步对齐统计继续归版本待证，不计新增配对通过。
+
+### 当前结果
+
+候选版本、馆号、材质、尺寸、陈列与报偿记录已分项保存；未选定单件 QID、未新建两件卡、未改原章文本或既有关系。原信、支付档案及完整实物鉴定仍待核。整卡维持 source_backed。
+
+[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足与裁决记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+````
+
+
+### REV-072 works-bernini-david
+
+对象：`04-knowledge/units/works/bernini-david.md`。原卡SHA-256：`16880914c3d46d2396185fca111447acc708ce0d68db30ccd88c9d0a7163c355`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 19；OCR L763–767。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Bernini’s David | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 证据性质 | 举镜及自我形象的逸事；真实性须保留限定 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | David (Bernini)（en）；revision 1361249528；7181字符 | 全文覆盖：Background、Subject matter、Influences、Style and composition、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q766487](https://www.wikidata.org/wiki/Q766487)；与enwiki标题双向一致 | revision 2445400234；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Bernini 创作的大理石 David，作者、题材和时代吻合；不与 Michelangelo 的同题作合并。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/David_(Bernini)) 的 wikibase_item 与 [Wikidata Q766487](https://www.wikidata.org/wiki/Q766487) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-bernini-thomas-baker-bust
+
+对象：`04-knowledge/units/works/bernini-thomas-baker-bust.md`。原卡SHA-256：`75438e8cbc410348470d37c2a9134e18d710a30479db9a448ae530fbe76ecf9a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 17；OCR L668–670, 699–700。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 3 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Bernini’s bust of Thomas Baker | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 创作者、对象及金额 | Bernini；Thomas Baker；6,000 scudi，属异常高价 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Bust of Thomas Baker（en）；revision 1369240471；816字符 | 全文覆盖：Subject、See also、References、External links |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q5002075](https://www.wikidata.org/wiki/Q5002075)；与enwiki标题双向一致 | revision 2381380589；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**身份配对通过。** Thomas Baker 胸像，作者、被表现者及 V&A 收藏对应；工作室参与程度仍待作品补足，不据署名独占制作。
+
+[Wikipedia（en）](https://en.wikipedia.org/wiki/Bust_of_Thomas_Baker) 的 wikibase_item 与 [Wikidata Q5002075](https://www.wikidata.org/wiki/Q5002075) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-camassei-martyrdom-saint-sebastian
+
+对象：`04-knowledge/units/works/camassei-martyrdom-saint-sebastian.md`。原卡SHA-256：`a92fd783b331f1e787e9ff4544e9908ed59e8e72c5dcf81fb6e3aad961b44ce1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+保留既有委托人与指定地点关系；来源定位S1第一章第10页、S2第13页，S3–S5外证。[付款文书](../archives/camassei-sebastian-receipt.md)记载姓名／日期冲突：[原刊]写Antonio Camassei及1633的Marcello Sacchetti。作品归属支持较强，但原档冲突未解决，当前安置、实物尺寸及保护状况仍待对象级记录。
+````
+
+原对齐说明：
+
+````markdown
+### 身份对齐
+
+尚无这件祭坛画独立的Wikipedia—Wikidata确认配对。作者和教堂均有配对不等于作品已配对；Met对象ID属于准备素描。
+````
+
+
+### REV-072 works-camassei-peter-paul-mamertine-modello
+
+对象：`04-knowledge/units/works/camassei-peter-paul-mamertine-modello.md`。原卡SHA-256：`27e341792f9a527d8adb4e42bc8148314feba025c9e21a8d8858373de9083eff`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+无独立Wikipedia—Wikidata确认配对。S1第一章第12页L464–466；S2专业传记及其引文链。保留既有作者及本书时点馆藏关系，地点不升级为今日实地确认。
+
+本次补足工程时间和多稿并存的证据，保留题名／人物识别未决，未新建另两件稿的知识元。相关原档、梵蒂冈清册及画面未读，不以同题和同馆自动归并。
+````
+
+
+### REV-072 works-caravaggio-adoration-shepherds
+
+对象：`04-knowledge/units/works/caravaggio-adoration-shepherds.md`。原卡SHA-256：`f0426db6a973f1e41d8674f77882b1689e057e1049bac9491b95897831eb7a02`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Adoration of the Shepherds (Caravaggio)](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))
+- [Wikidata Q2327715](https://www.wikidata.org/wiki/Q2327715)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Adoration of the Shepherds | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1609 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《牧羊人朝拜》是卡拉瓦乔人物页第44项所涉的独立作品对象，年代记为1609。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Adoration of the Shepherds is the independent work object represented by item 44 in the named-work inventory on the Caravaggio page. It is dated 1609; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-amor-vincit-omnia
+
+对象：`04-knowledge/units/works/caravaggio-amor-vincit-omnia.md`。原卡SHA-256：`557465a3beff583ee81babec4d299e42fbcd5e30933a013ae88306bcba79ed48`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Amor Vincit Omnia (Caravaggio)](https://en.wikipedia.org/wiki/Amor_Vincit_Omnia_(Caravaggio))
+- [Wikidata Q474024](https://www.wikidata.org/wiki/Q474024)
+- [对象／保管机构记录](https://id.smb.museum/object/862322)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Amor Vincit Omnia | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1601–1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 369 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《爱神战胜一切》是卡拉瓦乔人物页第35项所涉的独立作品对象，年代记为1601–1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Amor Vincit Omnia is the independent work object represented by item 35 in the named-work inventory on the Caravaggio page. It is dated 1601–1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-bacchus-uffizi
+
+对象：`04-knowledge/units/works/caravaggio-bacchus-uffizi.md`。原卡SHA-256：`bc59430de57d452902c573679ab55214d0207920cada6a1b82456eeb4736f503`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Bacchus (Caravaggio)](https://en.wikipedia.org/wiki/Bacchus_(Caravaggio))
+- [Wikidata Q2011510](https://www.wikidata.org/wiki/Q2011510)
+- [对象／保管机构记录](https://www.uffizi.it/en/artworks/bacchus)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Bacchus | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1596 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 5312 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《巴克斯》是卡拉瓦乔人物页第10项所涉的独立作品对象，年代记为约1596。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Bacchus is the independent work object represented by item 10 in the named-work inventory on the Caravaggio page. It is dated 约1596; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-basket-of-fruit
+
+对象：`04-knowledge/units/works/caravaggio-basket-of-fruit.md`。原卡SHA-256：`dad1cd282402faf9bd5236913adbbd8d7b519c7dc73ab47aa767ec37dc448af0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Basket of Fruit (Caravaggio)](https://en.wikipedia.org/wiki/Basket_of_Fruit_(Caravaggio))
+- [Wikidata Q2270291](https://www.wikidata.org/wiki/Q2270291)
+- [对象／保管机构记录](https://www.ambrosiana.it/en/opere/basket-of-fruit/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Basket of Fruit | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1599 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 46 cm × 64.5 cm (18 in × 25.4 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 151 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《果篮》是卡拉瓦乔人物页第1项所涉的独立作品对象，年代记为约1599。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Basket of Fruit is the independent work object represented by item 1 in the named-work inventory on the Caravaggio page. It is dated 约1599; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-beheading-john-baptist
+
+对象：`04-knowledge/units/works/caravaggio-beheading-john-baptist.md`。原卡SHA-256：`408f0033fb7084469758ccc6b9860c13c9035940d492be789352b531d4166416`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Beheading of Saint John the Baptist (Caravaggio)](https://en.wikipedia.org/wiki/The_Beheading_of_Saint_John_the_Baptist_(Caravaggio))
+- [Wikidata Q2727560](https://www.wikidata.org/wiki/Q2727560)
+- [对象／保管机构记录](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Beheading of Saint John the Baptist | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1608 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 370 cm × 520 cm (150 in × 200 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《施洗者圣约翰斩首》是卡拉瓦乔人物页第39项所涉的独立作品对象，年代记为1608。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Beheading of Saint John the Baptist is the independent work object represented by item 39 in the named-work inventory on the Caravaggio page. It is dated 1608; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-boy-bitten-lizard-london
+
+对象：`04-knowledge/units/works/caravaggio-boy-bitten-lizard-london.md`。原卡SHA-256：`cf1f6bf5c38fd0ae69b4e838480b7d7f75af95a12c7cce5336f3c4dc9b8761ee`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Boy Bitten by a Lizard](https://en.wikipedia.org/wiki/Boy_Bitten_by_a_Lizard)
+- [Wikidata Q585437](https://www.wikidata.org/wiki/Q585437)
+- [对象／保管机构记录](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Boy Bitten by a Lizard (London version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1594–1596 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | NG6504 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《被蜥蜴咬伤的男孩》（伦敦版本）是卡拉瓦乔人物页第11项所涉的独立作品对象，年代记为约1594–1596。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Boy Bitten by a Lizard (London version) is the independent work object represented by item 11 in the named-work inventory on the Caravaggio page. It is dated 约1594–1596; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-boy-peeling-fruit-royal
+
+对象：`04-knowledge/units/works/caravaggio-boy-peeling-fruit-royal.md`。原卡SHA-256：`199ed76dd52e21c10cd8d84bd367c977edc3317957f66fd63aa5d501410849c0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Boy Peeling Fruit](https://en.wikipedia.org/wiki/Boy_Peeling_Fruit)
+- [Wikidata Q2574120](https://www.wikidata.org/wiki/Q2574120)
+- [对象／保管机构记录](https://www.rct.uk/collection/402612/boy-peeling-fruit)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Boy Peeling Fruit (Royal Collection version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1592–1593 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 75.5 cm × 64.4 cm (29.7 in × 25.4 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | RCIN 402612 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《削水果的男孩》（皇家收藏版本）是卡拉瓦乔人物页第4项所涉的独立作品对象，年代记为约1592–1593。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Boy Peeling Fruit (Royal Collection version) is the independent work object represented by item 4 in the named-work inventory on the Caravaggio page. It is dated 约1592–1593; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-boy-with-basket-fruit
+
+对象：`04-knowledge/units/works/caravaggio-boy-with-basket-fruit.md`。原卡SHA-256：`f828c0f62971d674cdb14dc17c6988e5022e77bbadd4209f4293f202e5034a8b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Boy with a Basket of Fruit](https://en.wikipedia.org/wiki/Boy_with_a_Basket_of_Fruit)
+- [Wikidata Q2610936](https://www.wikidata.org/wiki/Q2610936)
+- [对象／保管机构记录](https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Boy with a Basket of Fruit | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1593–1594 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 70 cm × 67 cm (28 in × 26 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 136 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 早期所有权涉及切萨里藏品被教廷没收及博尔盖塞收藏形成；当前只建立有据端点。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《提果篮的男孩》是卡拉瓦乔人物页第5项所涉的独立作品对象，年代记为约1593–1594。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Boy with a Basket of Fruit is the independent work object represented by item 5 in the named-work inventory on the Caravaggio page. It is dated 约1593–1594; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-burial-saint-lucy
+
+对象：`04-knowledge/units/works/caravaggio-burial-saint-lucy.md`。原卡SHA-256：`e150b504a7899d6a88cbadf2ded89cff3c3d976caf20f8f948c9ef567e1327cc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Burial of Saint Lucy](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)
+- [Wikidata Q1132479](https://www.wikidata.org/wiki/Q1132479)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Burial of Saint Lucy | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1608 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 408 cm × 300 cm (161 in × 120 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣露西下葬》是卡拉瓦乔人物页第42项所涉的独立作品对象，年代记为1608。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Burial of Saint Lucy is the independent work object represented by item 42 in the named-work inventory on the Caravaggio page. It is dated 1608; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-calling-peter-andrew
+
+对象：`04-knowledge/units/works/caravaggio-calling-peter-andrew.md`。原卡SHA-256：`3c5937988418a1d29989f4afac7641b4a79c6f9dd3f348e128a3126fdcf33782`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Calling of Saints Peter and Andrew](https://en.wikipedia.org/wiki/The_Calling_of_Saints_Peter_and_Andrew)
+- [Wikidata Q1460179](https://www.wikidata.org/wiki/Q1460179)
+- [对象／保管机构记录](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Calling of Saints Peter and Andrew | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1603–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 140 cm × 170 cm (55 in × 67 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | RCIN 402824 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣彼得与圣安德烈蒙召》是卡拉瓦乔人物页第50项所涉的独立作品对象，年代记为约1603–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Calling of Saints Peter and Andrew is the independent work object represented by item 50 in the named-work inventory on the Caravaggio page. It is dated 约1603–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-calling-saint-matthew
+
+对象：`04-knowledge/units/works/caravaggio-calling-saint-matthew.md`。原卡SHA-256：`d9cf8b2cc0fefe256ac3e8ced2435f5133b04c9e46ff2f5d2cc93ad723c805a6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Calling of Saint Matthew](https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew)
+- [Wikidata Q969377](https://www.wikidata.org/wiki/Q969377)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Calling of Saint Matthew | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1599–1600 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 322 cm × 340 cm (127 in × 130 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣马太蒙召》是卡拉瓦乔人物页第22项所涉的独立作品对象，年代记为约1599–1600。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Calling of Saint Matthew is the independent work object represented by item 22 in the named-work inventory on the Caravaggio page. It is dated 约1599–1600; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-cardsharps-kimbell
+
+对象：`04-knowledge/units/works/caravaggio-cardsharps-kimbell.md`。原卡SHA-256：`027ddadd6311c7dfb13a9a80bd42a195210913e20448703baf6e1f3a200512b5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Cardsharps](https://en.wikipedia.org/wiki/The_Cardsharps)
+- [Wikidata Q663133](https://www.wikidata.org/wiki/Q663133)
+- [对象／保管机构记录](https://www.kimbellart.org/collection/ap-198706)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Cardsharps (Kimbell version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1596–1597 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 94.2 cm × 130.9 cm (37.1 in × 51.5 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | AP 1987.06 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 金贝尔对象与后来发现、归属曾诉讼的另一版本分开；本轮不为后者建立确定作者边。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《纸牌作弊者》（金贝尔版本）是卡拉瓦乔人物页第2项所涉的独立作品对象，年代记为约1596–1597。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Cardsharps (Kimbell version) is the independent work object represented by item 2 in the named-work inventory on the Caravaggio page. It is dated 约1596–1597; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-christ-mount-olives
+
+对象：`04-knowledge/units/works/caravaggio-christ-mount-olives.md`。原卡SHA-256：`8f9092c310c0e98057b6a5c6cab6cbe1871dc5b8183bfdbfe480b4876f40afbc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Christ on the Mount of Olives (Caravaggio)](https://en.wikipedia.org/wiki/Christ_on_the_Mount_of_Olives_(Caravaggio))
+- [Wikidata Q976354](https://www.wikidata.org/wiki/Q976354)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Christ on the Mount of Olives | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1604–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 359 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 1945年毁失；作者归属有争议。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《橄榄山上的基督》是卡拉瓦乔人物页第56项所涉的独立作品对象，年代记为约1604–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“1945年毁失；作者归属有争议”。
+
+**English:** Christ on the Mount of Olives is the independent work object represented by item 56 in the named-work inventory on the Caravaggio page. It is dated 约1604–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is destroyed in 1945; attribution is disputed.
+
+````
+
+
+### REV-072 works-caravaggio-conversion-damascus-cerasi
+
+对象：`04-knowledge/units/works/caravaggio-conversion-damascus-cerasi.md`。原卡SHA-256：`017c7a051c4cc57c3c93acd7cccec6c4b8abb2481e5693dc918b0c2ebc9df863`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Conversion on the Way to Damascus](https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus)
+- [Wikidata Q2273517](https://www.wikidata.org/wiki/Q2273517)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Conversion on the Way to Damascus | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1601 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《大马士革路上的归化》是卡拉瓦乔人物页第28项所涉的独立作品对象，年代记为1601。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Conversion on the Way to Damascus is the independent work object represented by item 28 in the named-work inventory on the Caravaggio page. It is dated 1601; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-conversion-saint-paul-first
+
+对象：`04-knowledge/units/works/caravaggio-conversion-saint-paul-first.md`。原卡SHA-256：`21d59fa307b95f065676b696032f860d35254b4ffc830ade290091c1c24540b9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Conversion of Saint Paul (Caravaggio)](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))
+- [Wikidata Q1448203](https://www.wikidata.org/wiki/Q1448203)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Conversion of Saint Paul (first version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1600–1601 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 237 cm × 189 cm (93 in × 74 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存；奥德斯卡尔基家族收藏。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣保罗归化》（第一版）是卡拉瓦乔人物页第27项所涉的独立作品对象，年代记为1600–1601。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存；奥德斯卡尔基家族收藏”。
+
+**English:** The Conversion of Saint Paul (first version) is the independent work object represented by item 27 in the named-work inventory on the Caravaggio page. It is dated 1600–1601; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving in the Odescalchi family collection.
+
+````
+
+
+### REV-072 works-caravaggio-conversion-saint-paul
+
+对象：`04-knowledge/units/works/caravaggio-conversion-saint-paul.md`。原卡SHA-256：`516ed27dc091f46eae6939388c2b32a0611dbde7e3fe9e727740dee46d863cd8`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份范围
+
+候选[Wikipedia：The Conversion of Saint Paul (Caravaggio)](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)) ↔ [Wikidata Q1448203](https://www.wikidata.org/wiki/Q1448203)双向对应的是**第一版实物**。本卡仍为委托对象，未将该QID升为本卡确认标识，也未导入其全部WD属性。
+
+S4英文全文3516字符、S5圣彼得页全文12577字符已读，包括图注与引用列表；未读全部被引文献或原画。S2–S3保留此前候选判断。
+
+### 导航与未决
+
+[1600年合同](../archives/caravaggio-altarpieces-contract-1600.md)、[圣彼得另一题](caravaggio-martyrdom-saint-peter.md)、[卡拉瓦乔](../persons/caravaggio.md)可供追溯；本卡文件头目前未登记正式关系，本轮不把导航当成新边。
+
+尚需原约刊本与两版详细流传记录才能确定更细的对象对应；不因版本未决清空本章委托事实，不把Giustiniani所购[圣马太退画](caravaggio-giustiniani-rejected-altarpiece.md)混入此组。来源S编号按元数据顺序；保留章页／行号及句意摘要。
+````
+
+
+### REV-072 works-caravaggio-crucifixion-saint-peter
+
+对象：`04-knowledge/units/works/caravaggio-crucifixion-saint-peter.md`。原卡SHA-256：`fdd4453cafb7382228330fedb2271f4fa18982c2293d47031fcd0c0351ca0a03`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Crucifixion of Saint Peter (Caravaggio)](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))
+- [Wikidata Q685916](https://www.wikidata.org/wiki/Q685916)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Crucifixion of Saint Peter | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1601 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 230 cm × 175 cm (91 in × 69 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣彼得钉十字架》是卡拉瓦乔人物页第29项所涉的独立作品对象，年代记为1601。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Crucifixion of Saint Peter is the independent work object represented by item 29 in the named-work inventory on the Caravaggio page. It is dated 1601; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-david-goliath-borghese
+
+对象：`04-knowledge/units/works/caravaggio-david-goliath-borghese.md`。原卡SHA-256：`6ab2b8ed924b55bde824aa528c8f20f8c0f1fb249ea0d41a2390367fdd391928`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：David with the Head of Goliath (Caravaggio, Rome)](https://en.wikipedia.org/wiki/David_with_the_Head_of_Goliath_(Caravaggio,_Rome))
+- [Wikidata Q2627056](https://www.wikidata.org/wiki/Q2627056)
+- [对象／保管机构记录](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | David with the Head of Goliath (Borghese version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1609–1610 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 125 cm × 101 cm (49 in × 40 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 455 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《大卫与歌利亚之首》（博尔盖塞版本）是卡拉瓦乔人物页第49项所涉的独立作品对象，年代记为约1609–1610。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** David with the Head of Goliath (Borghese version) is the independent work object represented by item 49 in the named-work inventory on the Caravaggio page. It is dated 约1609–1610; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-death-virgin
+
+对象：`04-knowledge/units/works/caravaggio-death-virgin.md`。原卡SHA-256：`82b5c58668e022f04d11920cd5b7c5699b4cfdec34503e09c9c2f6ba16542ca3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Death of the Virgin (Caravaggio)](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))
+- [Wikidata Q597114](https://www.wikidata.org/wiki/Q597114)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Death of the Virgin | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1601–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 369 cm × 245 cm (145 in × 96 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | INV 54 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣母之死》是卡拉瓦乔人物页第34项所涉的独立作品对象，年代记为约1601–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Death of the Virgin is the independent work object represented by item 34 in the named-work inventory on the Caravaggio page. It is dated 约1601–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-denial-saint-peter
+
+对象：`04-knowledge/units/works/caravaggio-denial-saint-peter.md`。原卡SHA-256：`588e5915b9ec73aa1e1b17fae1066b4670a8d31f3473a1c55e3ef3702d6245ca`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Denial of Saint Peter (Caravaggio)](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))
+- [Wikidata Q2270778](https://www.wikidata.org/wiki/Q2270778)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Denial of Saint Peter | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1610 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 94 cm × 125.4 cm (37 in × 49.4 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 1997.167 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣彼得不认主》是卡拉瓦乔人物页第46项所涉的独立作品对象，年代记为约1610。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Denial of Saint Peter is the independent work object represented by item 46 in the named-work inventory on the Caravaggio page. It is dated 约1610; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-ecce-homo-madrid
+
+对象：`04-knowledge/units/works/caravaggio-ecce-homo-madrid.md`。原卡SHA-256：`cce0937d97c984a8754d3533d710f6d06309d2997cba9ec0fdd9874b987eea68`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Ecce Homo (Caravaggio, Madrid)](https://en.wikipedia.org/wiki/Ecce_Homo_(Caravaggio,_Madrid))
+- [Wikidata Q125869859](https://www.wikidata.org/wiki/Q125869859)
+- [对象／保管机构记录](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Ecce Homo (Madrid object) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1605–1609 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 86 cm × 111 cm (34 in × 44 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 私人所有；由普拉多研究并展示。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《看这个人》（马德里对象）是卡拉瓦乔人物页第53项所涉的独立作品对象，年代记为约1605–1609。本卡将具体实物、版本、复制与归属争议分开，当前状态为“私人所有；由普拉多研究并展示”。
+
+**English:** Ecce Homo (Madrid object) is the independent work object represented by item 53 in the named-work inventory on the Caravaggio page. It is dated 约1605–1609; physical versions, copies and attribution disputes are kept separate. Its current recorded state is privately owned and researched and displayed by the Museo del Prado.
+
+````
+
+
+### REV-072 works-caravaggio-entombment-christ
+
+对象：`04-knowledge/units/works/caravaggio-entombment-christ.md`。原卡SHA-256：`bc2c5351440c66021f593cbce76c17c33f0f22d6795e08de6d4091adb5b3e508`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Entombment of Christ (Caravaggio)](https://en.wikipedia.org/wiki/The_Entombment_of_Christ_(Caravaggio))
+- [Wikidata Q1213151](https://www.wikidata.org/wiki/Q1213151)
+- [对象／保管机构记录](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-xii---secolo-xvii/caravaggio--deposizione-dalla-croce.html)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Entombment of Christ | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1602–1604 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 300 cm × 203 cm (120 in × 80 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | MV.40386.0.0 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 原为新教堂小礼拜堂祭坛画；本轮当前保管使用梵蒂冈画廊对象。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《基督下葬》是卡拉瓦乔人物页第31项所涉的独立作品对象，年代记为约1602–1604。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Entombment of Christ is the independent work object represented by item 31 in the named-work inventory on the Caravaggio page. It is dated 约1602–1604; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-fortune-teller-capitoline
+
+对象：`04-knowledge/units/works/caravaggio-fortune-teller-capitoline.md`。原卡SHA-256：`2fb65a237e115aebdacecc93ab1430b650e3b20b7cc73758a4a2292400751392`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Fortune Teller (Caravaggio)](https://en.wikipedia.org/wiki/The_Fortune_Teller_(Caravaggio))
+- [Wikidata Q16534183](https://www.wikidata.org/wiki/Q16534183)
+- [对象／保管机构记录](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Fortune Teller (Capitoline first version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1594 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 115 cm × 150 cm (45 in × 59 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | Inv. PC 131 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《算命者》（卡比托利欧第一版）是卡拉瓦乔人物页第8项所涉的独立作品对象，年代记为约1594。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Fortune Teller (Capitoline first version) is the independent work object represented by item 8 in the named-work inventory on the Caravaggio page. It is dated 约1594; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-fortune-teller-louvre
+
+对象：`04-knowledge/units/works/caravaggio-fortune-teller-louvre.md`。原卡SHA-256：`13784c97b015aa2c82619205b94aeabcb64af9c4f1523157401dd27df9f2187f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Fortune Teller (Caravaggio)](https://en.wikipedia.org/wiki/The_Fortune_Teller_(Caravaggio))
+- [Wikidata Q2610675](https://www.wikidata.org/wiki/Q2610675)
+- [对象／保管机构记录](https://collections.louvre.fr/ark:/53355/cl010062329)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Fortune Teller (Louvre second version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1595 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 93 cm × 131 cm (37 in × 52 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | INV 55；MR 105 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《算命者》（卢浮宫第二版）是卡拉瓦乔人物页第8项所涉的独立作品对象，年代记为约1595。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Fortune Teller (Louvre second version) is the independent work object represented by item 8 in the named-work inventory on the Caravaggio page. It is dated 约1595; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-giustiniani-rejected-altarpiece
+
+对象：`04-knowledge/units/works/caravaggio-giustiniani-rejected-altarpiece.md`。原卡SHA-256：`52b8bf42d20b16278045b989e5b835fbf6075d6987d4a36f1aaa73cca26ae61a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份配对
+
+[Wikipedia：Saint Matthew and the Angel](https://en.wikipedia.org/wiki/Saint_Matthew_and_the_Angel) ↔ [Wikidata Q577248](https://www.wikidata.org/wiki/Q577248)双向一致；年代、作者、退画、Giustiniani购入以及柏林馆号365共同支持对应。S6补齐此前缺少的收购链，故本轮由候选转为身份配对通过；source_backed不提升为全卡事实全部已验证。
+
+S4全文5174字符已读，包括图注及书目；S5适用值、量纲和所引QID标签已核；S6对象字段与对象说明已读。
+
+### 已有关系及导航
+
+- [卡拉瓦乔](../persons/caravaggio.md)：文件头created_by。
+- [文琴佐·朱斯蒂尼亚尼](../persons/marchese-giustiniani-ch1.md)：正式 `acquired_by` 关系只说明他购入退画，不表示他是初始委托人。
+- 本次已把两条正式关系note更新为第一版《圣马太与天使》及文琴佐·朱斯蒂尼亚尼购入，并继续区分初始委托人。
+
+### 未决
+
+尺寸三源不一，采用该物馆藏记录并保留异文；原作损毁状态仅有馆方推测。拒收决定、原始支付、购买日期及完整流传原件未读。S1仍保留原章未具名的原始摘要，不以新题名篡改原来源文字。S编号按文件头顺序。
+````
+
+
+### REV-072 works-caravaggio-incredulity-thomas-ecclesiastical
+
+对象：`04-knowledge/units/works/caravaggio-incredulity-thomas-ecclesiastical.md`。原卡SHA-256：`729262536f52c9ccf31ef61567249e5ca253425cf8e225680ee290ab33b84606`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Incredulity of Saint Thomas (Caravaggio)](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))
+- 无同粒度已确认QID；不以系列、作者或馆藏机构QID代替。
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Incredulity of Saint Thomas (so-called Ecclesiastical version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1601（页面说法） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 107 cm × 146 cm (42 in × 57 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 私人收藏；版本与作者范围待证。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《多疑的圣多马》（所谓“教会版本”）是卡拉瓦乔人物页第23项所涉的独立作品对象，年代记为约1601（页面说法）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“私人收藏；版本与作者范围待证”。
+
+**English:** The Incredulity of Saint Thomas (so-called Ecclesiastical version) is the independent work object represented by item 23 in the named-work inventory on the Caravaggio page. It is dated 约1601（页面说法）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is reported in a private collection; version and authorship remain unresolved.
+
+````
+
+
+### REV-072 works-caravaggio-incredulity-thomas-sanssouci
+
+对象：`04-knowledge/units/works/caravaggio-incredulity-thomas-sanssouci.md`。原卡SHA-256：`bec1828a971f48c68b49252bcb0f9a1e6d5f97a31cc2ca471aeb43be06110628`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Incredulity of Saint Thomas (Caravaggio)](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))
+- [Wikidata Q2419166](https://www.wikidata.org/wiki/Q2419166)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Incredulity of Saint Thomas (Sanssouci version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1601–1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 107 cm × 146 cm (42 in × 57 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | GK I 5438 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《多疑的圣多马》（无忧宫版本）是卡拉瓦乔人物页第23项所涉的独立作品对象，年代记为约1601–1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Incredulity of Saint Thomas (Sanssouci version) is the independent work object represented by item 23 in the named-work inventory on the Caravaggio page. It is dated 约1601–1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-inspiration-saint-matthew
+
+对象：`04-knowledge/units/works/caravaggio-inspiration-saint-matthew.md`。原卡SHA-256：`199e8b95029daa4e37c21daa138f920cee8a2d0a701ff3a2054124b2f8455d77`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Inspiration of Saint Matthew](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)
+- [Wikidata Q2337873](https://www.wikidata.org/wiki/Q2337873)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Inspiration of Saint Matthew | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 292 cm × 186 cm (115 in × 73 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣马太的启示》是卡拉瓦乔人物页第26项所涉的独立作品对象，年代记为1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Inspiration of Saint Matthew is the independent work object represented by item 26 in the named-work inventory on the Caravaggio page. It is dated 1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-john-baptist-borghese
+
+对象：`04-knowledge/units/works/caravaggio-john-baptist-borghese.md`。原卡SHA-256：`f1e0324359b70943d184df578617c933444134e7557c1bd3a49e0a785f99703e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：John the Baptist (Caravaggio)](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))
+- [Wikidata Q9015206](https://www.wikidata.org/wiki/Q9015206)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint John the Baptist (Borghese version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1610 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 169 cm × 112 cm (67 in × 44 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 267 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《施洗者约翰》（博尔盖塞版本）是卡拉瓦乔人物页第47项所涉的独立作品对象，年代记为约1610。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Saint John the Baptist (Borghese version) is the independent work object represented by item 47 in the named-work inventory on the Caravaggio page. It is dated 约1610; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-john-baptist-ram-capitoline
+
+对象：`04-knowledge/units/works/caravaggio-john-baptist-ram-capitoline.md`。原卡SHA-256：`e128a845841201d2572e34e6b846747cbf761617dbfe9b70635a377124eef107`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：John the Baptist (Caravaggio)](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))
+- [Wikidata Q3223625](https://www.wikidata.org/wiki/Q3223625)
+- [对象／保管机构记录](https://www.museicapitolini.org/it/node/47105)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Young Saint John the Baptist with a Ram | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 169 cm × 112 cm (67 in × 44 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | PC 239 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《施洗者约翰与公羊》是卡拉瓦乔人物页第30项所涉的独立作品对象，年代记为1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Young Saint John the Baptist with a Ram is the independent work object represented by item 30 in the named-work inventory on the Caravaggio page. It is dated 1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-judith-barberini
+
+对象：`04-knowledge/units/works/caravaggio-judith-barberini.md`。原卡SHA-256：`6df012f8786a11340173c9a29a69cf17befb0e010b32b2a033667a81fd41ecc3`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Judith Beheading Holofernes (Caravaggio)](https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio))
+- [Wikidata Q2470123](https://www.wikidata.org/wiki/Q2470123)
+- [对象／保管机构记录](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Judith Beheading Holofernes (Palazzo Barberini version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1599–1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 145 cm × 195 cm (57 in × 77 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 2533 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）是卡拉瓦乔人物页第15项所涉的独立作品对象，年代记为约1599–1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Judith Beheading Holofernes (Palazzo Barberini version) is the independent work object represented by item 15 in the named-work inventory on the Caravaggio page. It is dated 约1599–1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-judith-toulouse
+
+对象：`04-knowledge/units/works/caravaggio-judith-toulouse.md`。原卡SHA-256：`0dcd3e350e06af78511375934e8ea9647ab068df791b89cbef80cf32b53c1576`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（fr）：Judith décapitant Holopherne (Le Caravage ou Finson)](https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage_ou_Finson))
+- [Wikidata Q64869205](https://www.wikidata.org/wiki/Q64869205)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Judith Beheading Holofernes (Toulouse object) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1606–1607（卡拉瓦乔归属方说法） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 私人收藏；作者归属有争议。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《朱迪斯斩杀赫罗弗尼斯》（图卢兹对象）是卡拉瓦乔人物页第52项所涉的独立作品对象，年代记为约1606–1607（卡拉瓦乔归属方说法）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“私人收藏；作者归属有争议”。
+
+**English:** Judith Beheading Holofernes (Toulouse object) is the independent work object represented by item 52 in the named-work inventory on the Caravaggio page. It is dated 约1606–1607（卡拉瓦乔归属方说法）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is privately owned; attribution remains disputed.
+
+````
+
+
+### REV-072 works-caravaggio-lute-player-hermitage
+
+对象：`04-knowledge/units/works/caravaggio-lute-player-hermitage.md`。原卡SHA-256：`87471e592c21bbfc8473aefd9df052371df0d9e7a7c5d7639d941e4487c97825`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Lute Player (Caravaggio)](https://en.wikipedia.org/wiki/The_Lute_Player_(Caravaggio))
+- [Wikidata Q55647084](https://www.wikidata.org/wiki/Q55647084)
+- [对象／保管机构记录](https://support.hermitagemuseum.org/en/projects/caravaggio)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Lute Player (Hermitage version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1595–1596 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 100 cm × 126.5 cm (39 in × 49.8 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 45 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《鲁特琴演奏者》（艾尔米塔什版本）是卡拉瓦乔人物页第9项所涉的独立作品对象，年代记为约1595–1596。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Lute Player (Hermitage version) is the independent work object represented by item 9 in the named-work inventory on the Caravaggio page. It is dated 约1595–1596; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-madonna-loreto
+
+对象：`04-knowledge/units/works/caravaggio-madonna-loreto.md`。原卡SHA-256：`8bc0df76f274c39dd2cc53d85ac57ef60884faacf9dec30892bd799f8e8f5de6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Madonna di Loreto (Caravaggio)](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))
+- [Wikidata Q2713203](https://www.wikidata.org/wiki/Q2713203)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Madonna di Loreto | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1604–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 260 cm × 150 cm (100 in × 59 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《洛雷托圣母》是卡拉瓦乔人物页第32项所涉的独立作品对象，年代记为约1604–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Madonna di Loreto is the independent work object represented by item 32 in the named-work inventory on the Caravaggio page. It is dated 约1604–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-madonna-palafrenieri
+
+对象：`04-knowledge/units/works/caravaggio-madonna-palafrenieri.md`。原卡SHA-256：`ced64a4bd21aa486b7e2468d76d5cae2dca6440fc93e045dc54e39e39e33db28`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Madonna and Child with Saint Anne (Dei Palafrenieri)](https://en.wikipedia.org/wiki/Madonna_and_Child_with_Saint_Anne_(Dei_Palafrenieri))
+- [Wikidata Q2715302](https://www.wikidata.org/wiki/Q2715302)
+- [对象／保管机构记录](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Madonna and Child with Saint Anne (Madonna dei Palafrenieri) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1605–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 292 cm × 211 cm (115 in × 83 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 110 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《马夫圣母》是卡拉瓦乔人物页第33项所涉的独立作品对象，年代记为1605–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Madonna and Child with Saint Anne (Madonna dei Palafrenieri) is the independent work object represented by item 33 in the named-work inventory on the Caravaggio page. It is dated 1605–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-madonna-rosary
+
+对象：`04-knowledge/units/works/caravaggio-madonna-rosary.md`。原卡SHA-256：`b7a41aa4afe5879e63a3641585cbe0cf16db1b49d4e49e340a04ad2b6b94ea30`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Madonna of the Rosary (Caravaggio)](https://en.wikipedia.org/wiki/Madonna_of_the_Rosary_(Caravaggio))
+- [Wikidata Q698228](https://www.wikidata.org/wiki/Q698228)
+- [对象／保管机构记录](https://www.khm.at/objektdb/detail/425/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Madonna of the Rosary | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1606–1607 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 364.5 cm × 249.5 cm (143.5 in × 98.2 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | GG 147 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《玫瑰经圣母》是卡拉瓦乔人物页第37项所涉的独立作品对象，年代记为约1606–1607。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Madonna of the Rosary is the independent work object represented by item 37 in the named-work inventory on the Caravaggio page. It is dated 约1606–1607; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-martha-mary-magdalene
+
+对象：`04-knowledge/units/works/caravaggio-martha-mary-magdalene.md`。原卡SHA-256：`bb14e700f5cc66b68041780337f02427c2ba797ca46e6379c1baa859f2340a24`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Martha and Mary Magdalene (Caravaggio)](https://en.wikipedia.org/wiki/Martha_and_Mary_Magdalene_(Caravaggio))
+- [Wikidata Q2734679](https://www.wikidata.org/wiki/Q2734679)
+- [对象／保管机构记录](https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Martha and Mary Magdalene | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1598 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 100 cm × 134.5 cm (39 in × 53.0 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 73.268 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《马大与抹大拉的马利亚》是卡拉瓦乔人物页第14项所涉的独立作品对象，年代记为约1598。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Martha and Mary Magdalene is the independent work object represented by item 14 in the named-work inventory on the Caravaggio page. It is dated 约1598; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-martyrdom-saint-matthew
+
+对象：`04-knowledge/units/works/caravaggio-martyrdom-saint-matthew.md`。原卡SHA-256：`1b3a0660969f928db76d160a7f72ea9d2a4ef0389f760b8ec86ac77cfb0d08fb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Martyrdom of Saint Matthew (Caravaggio)](https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Matthew_(Caravaggio))
+- [Wikidata Q2338417](https://www.wikidata.org/wiki/Q2338417)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Martyrdom of Saint Matthew | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1599–1600 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 323 cm × 343 cm (127 in × 135 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣马太殉难》是卡拉瓦乔人物页第21项所涉的独立作品对象，年代记为约1599–1600。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Martyrdom of Saint Matthew is the independent work object represented by item 21 in the named-work inventory on the Caravaggio page. It is dated 约1599–1600; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-martyrdom-saint-peter
+
+对象：`04-knowledge/units/works/caravaggio-martyrdom-saint-peter.md`。原卡SHA-256：`7d7f90091d80f10c2ee352335fca189059058e8e1fc07ded4baef4685446b62e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+候选[Wikipedia：Crucifixion of Saint Peter (Caravaggio)](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)) ↔ [Wikidata Q685916](https://www.wikidata.org/wiki/Q685916)对应现存布面版，不能因此给整个委托对象确认相同QID。S4全文12577字符已读；S5官方网页全文已读，未读附件或原始合同。
+
+[同一合同](../archives/caravaggio-altarpieces-contract-1600.md)、[圣保罗委托](caravaggio-conversion-saint-paul.md)与[画家](../persons/caravaggio.md)为关联导航，文件头尚无正式边。本章证据足以保留委托与提交设计的事实。
+
+**未决：** 原约刊本、第一版身份／流传及当时拒收或替换原因；现版馆藏编目支持现版，不替代整个执行过程的证据。S编号、原章页／行号及句意摘要保持元数据顺序。
+````
+
+
+### REV-072 works-caravaggio-martyrdom-saint-ursula
+
+对象：`04-knowledge/units/works/caravaggio-martyrdom-saint-ursula.md`。原卡SHA-256：`41111ae628d1283fde0713e984503c72bd050252b8a31b5a14e00488ef912c3b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Martyrdom of Saint Ursula (Caravaggio)](https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Ursula_(Caravaggio))
+- [Wikidata Q1132486](https://www.wikidata.org/wiki/Q1132486)
+- [对象／保管机构记录](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Martyrdom of Saint Ursula | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1610 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 140.5 cm × 170.5 cm (55.3 in × 67.1 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣乌尔苏拉殉难》是卡拉瓦乔人物页第48项所涉的独立作品对象，年代记为1610。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Martyrdom of Saint Ursula is the independent work object represented by item 48 in the named-work inventory on the Caravaggio page. It is dated 1610; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-medusa-murtola
+
+对象：`04-knowledge/units/works/caravaggio-medusa-murtola.md`。原卡SHA-256：`0241ed891b122a645787eaf6754717f9d35d6475b7e0c7bf468e09fc6d5f44cd`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Medusa (Caravaggio)](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))
+- [Wikidata Q2007260](https://www.wikidata.org/wiki/Q2007260)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Medusa Murtola | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1596–1597 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 60 cm × 55 cm (24 in × 22 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现私人收藏。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《美杜莎》（穆尔托拉版本）是卡拉瓦乔人物页第18项所涉的独立作品对象，年代记为约1596–1597。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现私人收藏”。
+
+**English:** Medusa Murtola is the independent work object represented by item 18 in the named-work inventory on the Caravaggio page. It is dated 约1596–1597; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving in a private collection.
+
+````
+
+
+### REV-072 works-caravaggio-medusa-uffizi
+
+对象：`04-knowledge/units/works/caravaggio-medusa-uffizi.md`。原卡SHA-256：`9f19572368ae37fe195567413a9530988499ef1171c4ada124ed772b838ff864`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Medusa (Caravaggio)](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))
+- [Wikidata Q2293905](https://www.wikidata.org/wiki/Q2293905)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Medusa (Uffizi version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1597–1598 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 60 cm × 55 cm (24 in × 22 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 1890 no. 1351 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《美杜莎》（乌菲齐版本）是卡拉瓦乔人物页第18项所涉的独立作品对象，年代记为约1597–1598。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Medusa (Uffizi version) is the independent work object represented by item 18 in the named-work inventory on the Caravaggio page. It is dated 约1597–1598; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-musicians
+
+对象：`04-knowledge/units/works/caravaggio-musicians.md`。原卡SHA-256：`bc6cd47acc864559b0a053939e69425ea39a730fa9011f0c3107cb63a2825728`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Musicians (Caravaggio)](https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio))
+- [Wikidata Q655705](https://www.wikidata.org/wiki/Q655705)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Musicians | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1595 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 92 cm × 118.5 cm (36 in × 46.7 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 52.81 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《音乐家们》是卡拉瓦乔人物页第3项所涉的独立作品对象，年代记为约1595。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Musicians is the independent work object represented by item 3 in the named-work inventory on the Caravaggio page. It is dated 约1595; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-narcissus
+
+对象：`04-knowledge/units/works/caravaggio-narcissus.md`。原卡SHA-256：`d07a82cca19bd8756c2460dec25328e146030678ec674405ddc6d90bea57f2fc`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Narcissus (Caravaggio)](https://en.wikipedia.org/wiki/Narcissus_(Caravaggio))
+- [Wikidata Q746716](https://www.wikidata.org/wiki/Q746716)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Narcissus | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1597–1599 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 110 cm × 92 cm (43 in × 36 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存；卡拉瓦乔归属有争议。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《水仙》是卡拉瓦乔人物页第19项所涉的独立作品对象，年代记为约1597–1599。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存；卡拉瓦乔归属有争议”。
+
+**English:** Narcissus is the independent work object represented by item 19 in the named-work inventory on the Caravaggio page. It is dated 约1597–1599; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving with a disputed attribution to Caravaggio.
+
+````
+
+
+### REV-072 works-caravaggio-nativity-palermo
+
+对象：`04-knowledge/units/works/caravaggio-nativity-palermo.md`。原卡SHA-256：`2b98d42b9ee662dfb919587019253cc6dc992a9f82a41dc8c9c22f76a319a602`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Nativity with Saint Francis and Saint Lawrence](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)
+- [Wikidata Q1433194](https://www.wikidata.org/wiki/Q1433194)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Nativity with Saint Francis and Saint Lawrence | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1609（亦有1600说） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 268 cm × 197 cm (106 in × 78 in) The Nativity with Saint Francis and Saint Lawrence is a painting of the nativity of Jesus from 1609 by Italian painter | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 1969年失窃，去向不明。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣方济各与圣劳伦斯在场的耶稣诞生》是卡拉瓦乔人物页第54项所涉的独立作品对象，年代记为1609（亦有1600说）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“1969年失窃，去向不明”。
+
+**English:** Nativity with Saint Francis and Saint Lawrence is the independent work object represented by item 54 in the named-work inventory on the Caravaggio page. It is dated 1609（亦有1600说）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is stolen in 1969; present whereabouts unknown.
+
+````
+
+
+### REV-072 works-caravaggio-penitent-magdalene
+
+对象：`04-knowledge/units/works/caravaggio-penitent-magdalene.md`。原卡SHA-256：`0c4a68bc84d3b3bd2e649a13f5abe08f59a4a6bfc979e5bd84cef64cb330deaf`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Penitent Magdalene (Caravaggio)](https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio))
+- [Wikidata Q2732274](https://www.wikidata.org/wiki/Q2732274)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Penitent Magdalene | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1594–1595 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 122.5 cm × 98.5 cm (48.2 in × 38.8 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | FC 357 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《悔罪的抹大拉》是卡拉瓦乔人物页第12项所涉的独立作品对象，年代记为约1594–1595。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Penitent Magdalene is the independent work object represented by item 12 in the named-work inventory on the Caravaggio page. It is dated 约1594–1595; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-portrait-fillide
+
+对象：`04-knowledge/units/works/caravaggio-portrait-fillide.md`。原卡SHA-256：`072dadd10daebe46d070f9aad62198af4a3236214bbbe8596de38b5ffb54a992`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Portrait of a Courtesan (Caravaggio)](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))
+- [Wikidata Q2395137](https://www.wikidata.org/wiki/Q2395137)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Portrait of Fillide Melandroni | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1598 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 66 cm × 53 cm (26 in × 21 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 356 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 1945年在柏林毁失或失踪。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《菲利德·梅兰德罗尼肖像》是卡拉瓦乔人物页第55项所涉的独立作品对象，年代记为约1598。本卡将具体实物、版本、复制与归属争议分开，当前状态为“1945年在柏林毁失或失踪”。
+
+**English:** Portrait of Fillide Melandroni is the independent work object represented by item 55 in the named-work inventory on the Caravaggio page. It is dated 约1598; physical versions, copies and attribution disputes are kept separate. Its current recorded state is lost or destroyed in Berlin in 1945.
+
+````
+
+
+### REV-072 works-caravaggio-portrait-wignacourt
+
+对象：`04-knowledge/units/works/caravaggio-portrait-wignacourt.md`。原卡SHA-256：`ceec2db5d194154caeeb19c8f4f76d1ade22dceb7643da2804c9d20a0bda37b2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Portrait of Alof de Wignacourt and his Page](https://en.wikipedia.org/wiki/Portrait_of_Alof_de_Wignacourt_and_his_Page)
+- [Wikidata Q945164](https://www.wikidata.org/wiki/Q945164)
+- [对象／保管机构记录](https://collections.louvre.fr/ark:/53355/cl010062328)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Portrait of Alof de Wignacourt and his Page | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1607–1608 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 195 cm × 134 cm (77 in × 53 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | INV 57 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 维尼亚库尔为被表现者；侍从身份未在本轮解决。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《阿洛夫·德·维尼亚库尔与侍从肖像》是卡拉瓦乔人物页第41项所涉的独立作品对象，年代记为约1607–1608。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Portrait of Alof de Wignacourt and his Page is the independent work object represented by item 41 in the named-work inventory on the Caravaggio page. It is dated 约1607–1608; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-raising-lazarus
+
+对象：`04-knowledge/units/works/caravaggio-raising-lazarus.md`。原卡SHA-256：`8c0f71653ceb556eb797c61d7d2a89c8a99441005009a79ecd969dbdfe6d6ebe`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Raising of Lazarus (Caravaggio)](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))
+- [Wikidata Q2277635](https://www.wikidata.org/wiki/Q2277635)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Raising of Lazarus | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1609 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 380 cm × 275 cm (150 in × 108 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《拉撒路复活》是卡拉瓦乔人物页第43项所涉的独立作品对象，年代记为1609。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Raising of Lazarus is the independent work object represented by item 43 in the named-work inventory on the Caravaggio page. It is dated 1609; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-rest-flight-egypt
+
+对象：`04-knowledge/units/works/caravaggio-rest-flight-egypt.md`。原卡SHA-256：`a621682fc8bbd0c23631748f8f30bd2c003ee55d89a8c24f8315075a45f46c3f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Rest on the Flight into Egypt (Caravaggio)](https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio))
+- [Wikidata Q745098](https://www.wikidata.org/wiki/Q745098)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Rest on the Flight into Egypt | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1597 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 135.5 cm × 166.5 cm (53.3 in × 65.6 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | FC 241 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《逃往埃及途中的休息》是卡拉瓦乔人物页第17项所涉的独立作品对象，年代记为约1597。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Rest on the Flight into Egypt is the independent work object represented by item 17 in the named-work inventory on the Caravaggio page. It is dated 约1597; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-sacrifice-isaac-princeton
+
+对象：`04-knowledge/units/works/caravaggio-sacrifice-isaac-princeton.md`。原卡SHA-256：`adf7cbb6a4128158bc6ffcf3ef9d1fbf7ada86ca5355dba340f35d6f8486dc08`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Sacrifice of Isaac (Caravaggio)](https://en.wikipedia.org/wiki/Sacrifice_of_Isaac_(Caravaggio))
+- [Wikidata Q3226847](https://www.wikidata.org/wiki/Q3226847)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Sacrifice of Isaac (former Princeton version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1598（争议） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 116 cm × 173 cm (46 in × 68 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现私人收藏；作者有争议。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《以撒献祭》（原普林斯顿旧藏版本）是卡拉瓦乔人物页第16项所涉的独立作品对象，年代记为约1598（争议）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现私人收藏；作者有争议”。
+
+**English:** Sacrifice of Isaac (former Princeton version) is the independent work object represented by item 16 in the named-work inventory on the Caravaggio page. It is dated 约1598（争议）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving in a private collection with disputed authorship.
+
+````
+
+
+### REV-072 works-caravaggio-sacrifice-isaac-uffizi
+
+对象：`04-knowledge/units/works/caravaggio-sacrifice-isaac-uffizi.md`。原卡SHA-256：`3eb6c0663e75c6063a03aa2fb53277b94a381bd4ead2221fd08b29e78b667e6a`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Sacrifice of Isaac (Caravaggio)](https://en.wikipedia.org/wiki/Sacrifice_of_Isaac_(Caravaggio))
+- [Wikidata Q2284829](https://www.wikidata.org/wiki/Q2284829)
+- [对象／保管机构记录](https://www.uffizi.it/en/artworks/sacrifice-of-isaac)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Sacrifice of Isaac (Uffizi version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1603 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 104 cm × 135 cm (41 in × 53 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 1890 no. 4659 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《以撒献祭》（乌菲齐版本）是卡拉瓦乔人物页第16项所涉的独立作品对象，年代记为约1603。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Sacrifice of Isaac (Uffizi version) is the independent work object represented by item 16 in the named-work inventory on the Caravaggio page. It is dated 约1603; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-saint-augustine-disputed
+
+对象：`04-knowledge/units/works/caravaggio-saint-augustine-disputed.md`。原卡SHA-256：`a6089b00dda50be55713cc01932057705f68916eb9b008dd75bca2691b4a9108`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Caravaggio](https://en.wikipedia.org/wiki/Caravaggio)
+- 无同粒度已确认QID；不以系列、作者或馆藏机构QID代替。
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint Augustine (object announced in 2011) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1600（公布者说法） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 本轮来源未给出可安全采用的统一尺寸 | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 私人收藏；归属未形成稳定共识。`disputed`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣奥古斯丁》（2011年公布对象）是卡拉瓦乔人物页第51项所涉的独立作品对象，年代记为约1600（公布者说法）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“私人收藏；归属未形成稳定共识”。
+
+**English:** Saint Augustine (object announced in 2011) is the independent work object represented by item 51 in the named-work inventory on the Caravaggio page. It is dated 约1600（公布者说法）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is in a private collection; attribution has not reached a stable consensus.
+
+````
+
+
+### REV-072 works-caravaggio-saint-catherine-alexandria
+
+对象：`04-knowledge/units/works/caravaggio-saint-catherine-alexandria.md`。原卡SHA-256：`73c73c16c12d57b7dc4d83c730acf10f89d501e7ca5373d895ff361e9b978ea6`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Saint Catherine of Alexandria (Caravaggio)](https://en.wikipedia.org/wiki/Saint_Catherine_of_Alexandria_(Caravaggio))
+- [Wikidata Q2627034](https://www.wikidata.org/wiki/Q2627034)
+- [对象／保管机构记录](https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint Catherine of Alexandria | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1598–1599 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 173 cm × 133 cm (68 in × 52 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 81 (1934.37) | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 本卡采用提森馆藏对象，不把可能的模特身份改写成作品创作者关系。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《亚历山大的圣凯瑟琳》是卡拉瓦乔人物页第13项所涉的独立作品对象，年代记为约1598–1599。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Saint Catherine of Alexandria is the independent work object represented by item 13 in the named-work inventory on the Caravaggio page. It is dated 约1598–1599; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-saint-francis-ecstasy
+
+对象：`04-knowledge/units/works/caravaggio-saint-francis-ecstasy.md`。原卡SHA-256：`5b7538e2268ce2f739928cacb545363d571b66f34ecac4fa74558c24ded86bc1`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Saint Francis of Assisi in Ecstasy (Caravaggio)](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))
+- [Wikidata Q2609235](https://www.wikidata.org/wiki/Q2609235)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint Francis of Assisi in Ecstasy | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1595 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 92.5 cm × 127.8 cm (36.4 in × 50.3 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 1943.222 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《圣方济各入神》是卡拉瓦乔人物页第7项所涉的独立作品对象，年代记为约1595。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Saint Francis of Assisi in Ecstasy is the independent work object represented by item 7 in the named-work inventory on the Caravaggio page. It is dated 约1595; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-saint-jerome-borghese
+
+对象：`04-knowledge/units/works/caravaggio-saint-jerome-borghese.md`。原卡SHA-256：`505a6e23f82a6884922e350e79c6876e5060d75e310126bf645b88e145aed227`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Saint Jerome Writing](https://en.wikipedia.org/wiki/Saint_Jerome_Writing)
+- [Wikidata Q2715177](https://www.wikidata.org/wiki/Q2715177)
+- [对象／保管机构记录](https://www.collezionegalleriaborghese.it/en/opere/saint-jerome)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint Jerome Writing (Borghese version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1605–1606 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 112 cm × 157 cm (44 in × 62 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 056 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《书写中的圣哲罗姆》（博尔盖塞版本）是卡拉瓦乔人物页第36项所涉的独立作品对象，年代记为约1605–1606。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Saint Jerome Writing (Borghese version) is the independent work object represented by item 36 in the named-work inventory on the Caravaggio page. It is dated 约1605–1606; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-saint-jerome-valletta
+
+对象：`04-knowledge/units/works/caravaggio-saint-jerome-valletta.md`。原卡SHA-256：`ba76c3371115ccdf7a9f5476e34b9e0f8749cdec05b4127cb18a89c8df33e341`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Saint Jerome Writing (Caravaggio, Valletta)](https://en.wikipedia.org/wiki/Saint_Jerome_Writing_(Caravaggio,_Valletta))
+- [Wikidata Q510799](https://www.wikidata.org/wiki/Q510799)
+- [对象／保管机构记录](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Saint Jerome Writing (Valletta version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1607–1608 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 117 cm × 157 cm (46 in × 62 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 7895–7896 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《书写中的圣哲罗姆》（瓦莱塔版本）是卡拉瓦乔人物页第40项所涉的独立作品对象，年代记为约1607–1608。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Saint Jerome Writing (Valletta version) is the independent work object represented by item 40 in the named-work inventory on the Caravaggio page. It is dated 约1607–1608; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-salome-madrid
+
+对象：`04-knowledge/units/works/caravaggio-salome-madrid.md`。原卡SHA-256：`a4566ed65bcc4c9f06fe4eebb3e0ddf505ae97dfbc05526147d1c811723ceaa5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Salome with the Head of John the Baptist (Caravaggio, Madrid)](https://en.wikipedia.org/wiki/Salome_with_the_Head_of_John_the_Baptist_(Caravaggio,_Madrid))
+- [Wikidata Q2318957](https://www.wikidata.org/wiki/Q2318957)
+- [对象／保管机构记录](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Salome with the Head of John the Baptist (Madrid version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1609 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 116 cm × 140 cm (46 in × 55 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 10010026 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《莎乐美与施洗者圣约翰之首》（马德里版本）是卡拉瓦乔人物页第45项所涉的独立作品对象，年代记为约1609。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Salome with the Head of John the Baptist (Madrid version) is the independent work object represented by item 45 in the named-work inventory on the Caravaggio page. It is dated 约1609; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-seven-works-mercy
+
+对象：`04-knowledge/units/works/caravaggio-seven-works-mercy.md`。原卡SHA-256：`d9ccc177c93b36b29824fdd3a60464ab572e2a537b9843c306f270dd7c9e26eb`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Seven Works of Mercy (Caravaggio)](https://en.wikipedia.org/wiki/The_Seven_Works_of_Mercy_(Caravaggio))
+- [Wikidata Q2626595](https://www.wikidata.org/wiki/Q2626595)
+- [对象／保管机构记录](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Seven Works of Mercy | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1606–1607 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 390 cm × 260 cm (150 in × 100 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《七件善事》是卡拉瓦乔人物页第38项所涉的独立作品对象，年代记为1606–1607。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Seven Works of Mercy is the independent work object represented by item 38 in the named-work inventory on the Caravaggio page. It is dated 1606–1607; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-supper-emmaus-london
+
+对象：`04-knowledge/units/works/caravaggio-supper-emmaus-london.md`。原卡SHA-256：`e418631af7c102a8412b7b9fa5e3adc1cec3d2304e3c853f79ce4816be288a26`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Supper at Emmaus (Caravaggio, London)](https://en.wikipedia.org/wiki/Supper_at_Emmaus_(Caravaggio,_London))
+- [Wikidata Q318947](https://www.wikidata.org/wiki/Q318947)
+- [对象／保管机构记录](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Supper at Emmaus (London version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1601 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 141 cm × 196.2 cm (56 in × 77.2 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | NG172 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **对象边界：** 与1606年米兰版本分开；本轮清单指伦敦NG172。
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《以马忤斯的晚餐》（伦敦版本）是卡拉瓦乔人物页第20项所涉的独立作品对象，年代记为1601。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Supper at Emmaus (London version) is the independent work object represented by item 20 in the named-work inventory on the Caravaggio page. It is dated 1601; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-taking-christ-dublin
+
+对象：`04-knowledge/units/works/caravaggio-taking-christ-dublin.md`。原卡SHA-256：`34aeb648f2800cef05ffd387c38adf218289f4538d287002a26ed85bbc248127`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Taking of Christ (Caravaggio)](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))
+- [Wikidata Q541376](https://www.wikidata.org/wiki/Q541376)
+- [对象／保管机构记录](https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Taking of Christ (Dublin version) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 1602 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 133.5 cm × 169.5 cm (52.6 in × 66.7 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | NGI.2008 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《逮捕基督》（都柏林版本）是卡拉瓦乔人物页第24项所涉的独立作品对象，年代记为1602。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** The Taking of Christ (Dublin version) is the independent work object represented by item 24 in the named-work inventory on the Caravaggio page. It is dated 1602; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-caravaggio-taking-christ-odesa
+
+对象：`04-knowledge/units/works/caravaggio-taking-christ-odesa.md`。原卡SHA-256：`b43b8a2c8aaae930a230beb04d32068b55ab43a9071b0ba89e549d4090807f2f`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：The Taking of Christ (Caravaggio)](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))
+- [Wikidata Q25796776](https://www.wikidata.org/wiki/Q25796776)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | The Taking of Christ (Odesa copy) | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 归属见“版本、存世与争议”；不写成无条件作者 | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 17世纪早期（页面范围） | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 133.5 cm × 169.5 cm (52.6 in × 66.7 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 7 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存复制品；作者未定。`copy`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《逮捕基督》（敖德萨复制品）是卡拉瓦乔人物页第24项所涉的独立作品对象，年代记为17世纪早期（页面范围）。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存复制品；作者未定”。
+
+**English:** The Taking of Christ (Odesa copy) is the independent work object represented by item 24 in the named-work inventory on the Caravaggio page. It is dated 17世纪早期（页面范围）; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving copy of uncertain authorship.
+
+````
+
+
+### REV-072 works-caravaggio-young-sick-bacchus
+
+对象：`04-knowledge/units/works/caravaggio-young-sick-bacchus.md`。原卡SHA-256：`d23912a673738cbf872557a5be226fc29c10abdca866a71cff5fd7a6cd8ca031`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+关系展示由文件头正式关系生成；争议作者、未决版本及只有名称共现的对象不生成确定边。
+
+### 身份与外部链接
+
+- [Wikipedia（en）：Young Sick Bacchus](https://en.wikipedia.org/wiki/Young_Sick_Bacchus)
+- [Wikidata Q2293936](https://www.wikidata.org/wiki/Q2293936)
+- [对象／保管机构记录](https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus/)
+
+
+### 证据、争议与待补
+
+Wikipedia—Wikidata双向配对只在上述QID确为本版本时成立；系列QID、同题他版和复制品不借用。S编号对应文件头sources。尚无可用同粒度QID或权威对象页的项目保留未决，不影响对已知对象边界的登记。
+````
+
+原表达：
+
+````markdown
+| 英文规范题名 | Young Sick Bacchus | S2；版本限定为本项目消歧标记 |
+````
+
+原表达：
+
+````markdown
+| 创作者／归属 | 米开朗基罗·梅里西·达·卡拉瓦乔／Michelangelo Merisi da Caravaggio | S2–S4；争议对象不建确定作者边 |
+````
+
+原表达：
+
+````markdown
+| 创作年代 | 约1593–1594 | S1–S4；不同精度和异文不补成精确日期 |
+````
+
+原表达：
+
+````markdown
+| 尺寸 | 67 cm × 53 cm (26 in × 21 in) | S2；馆方值存在时以S4优先，未把系列聚合值赋给单件实物 |
+````
+
+原表达：
+
+````markdown
+| 馆藏标识 | 534 | S3–S4；无单一值时不补造 |
+````
+
+原表达：
+
+````markdown
+- **版本／归属状态：** 现存。`accepted`是本轮关系裁决标记；它不替代来源措辞。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **委托与赞助：** 只有文件头正式关系所列角色已由本轮来源支持；付款人、收藏人、模特和被表现者不由题名互相推定。
+````
+
+原内容中的过程说明：
+
+````markdown
+- **保管与安置：** 保管机构、实际安置地点、原定地点和所有者分别记录；历史馆藏不会覆盖当前状态。
+````
+
+原内容中的过程说明：
+
+````markdown
+本轮完整读取S2页面，并只把与对象识别、创作、委托、版本、存世、流传和安置有关的内容写入结构字段。图像解释、模特识别及评价保留作者归属；未将百科中的无引文判断变成新的事实或关系。
+````
+
+原描述中的登记与处理说明：
+
+````markdown
+### 描述
+
+**中文：** 《生病的巴克斯》是卡拉瓦乔人物页第6项所涉的独立作品对象，年代记为约1593–1594。本卡将具体实物、版本、复制与归属争议分开，当前状态为“现存”。
+
+**English:** Young Sick Bacchus is the independent work object represented by item 6 in the named-work inventory on the Caravaggio page. It is dated 约1593–1594; physical versions, copies and attribution disputes are kept separate. Its current recorded state is surviving.
+
+````
+
+
+### REV-072 works-comedy-performed-1635
+
+对象：`04-knowledge/units/works/comedy-performed-1635.md`。原卡SHA-256：`be4af1a66af90b8fd33919280bee3524e7db28935349858db14a9e6840dbbd48`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+
+S1：第一章；印刷页 21；OCR L858–863,894–895。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Unidentified comedy performed in 1635 | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 情节与证据缺口 | 王侯希望女儿嫁给画家；剧本未寻得 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 以情节、年份、Pascoli和Delogu组合检索仍未定位作品本体；无适用QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-cortona-doria-pamfili-modelli-disputed
+
+对象：`04-knowledge/units/works/cortona-doria-pamfili-modelli-disputed.md`。原卡SHA-256：`cdfed89a1bc8ce7f27a13f92ba4a5fd19efa2ad81cc71ea65a1db855e4e315c5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L461–463。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Doria-Pamfili modelli attributed to Cortona (disputed) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 归属与研究 | Grassi 1957 发表；归属未获普遍接受 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 七件集合和具体单件边界未形成同粒度Wikipedia—Wikidata对象；不借画廊或Cortona QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-ferri-laparelli-altarpiece
+
+对象：`04-knowledge/units/works/ferri-laparelli-altarpiece.md`。原卡SHA-256：`62c4d61e245dfcea72d3434785c056d8a7dee0a77ddf04c823594dbb43f839b9`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 13；OCR L507–508。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 支付条件 | 预付 50 scudi；完成后付 180 scudi | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未见作品独立Wikipedia—Wikidata双站对象；教堂页和论文用于识别及位置沿革。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-ferri-sant-agnese-cupola
+
+对象：`04-knowledge/units/works/ferri-sant-agnese-cupola.md`。原卡SHA-256：`e9d9f72ac6878d213d5d2b44e23262b1f614cb63723efb1aadeb86b7e85e0dc4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L437–453。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Ferri’s Saint Agnes Introduced to the Glory of Paradise | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程条件 | S. Agnese，Piazza Navona；彩稿批准；约定四年 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 具体壁画无独立双站配对；教堂页和作者页不能代替作品QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-ferri-sant-agnese-modello
+
+对象：`04-knowledge/units/works/ferri-sant-agnese-modello.md`。原卡SHA-256：`769a263849f7a25016b9871c689c48f8395051f2d9884517ff2c14204f46790b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L437–441。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Ferri’s coloured modello for the S. Agnese cupola | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 用途与限制 | 1670 年合同预案；批准后改动须许可 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未找到可确认的具体稿本Wikipedia—Wikidata对象；不借最终壁画或教堂QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-gaulli-gesu-vaults
+
+对象：`04-knowledge/units/works/gaulli-gesu-vaults.md`。原卡SHA-256：`e5d799b5f58bc5b8d9c5a7f0370785640df8f47222f6f8782743c1221f67d536`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 12；OCR L452–454。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gaulli’s vault fresco project at the Gesù | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 工程范围与工期 | Gesù 中殿及横殿拱顶；约定八年 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮结构化补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia全文 | Triumph of the Name of Jesus（en）；revision 1361437201；7467字符 | 全文覆盖：Jesuit history、Influence and execution、Bernini's involvement、Sketch、Triumph of the Name of Jesus、References |
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikidata身份 | [Q54647365](https://www.wikidata.org/wiki/Q54647365)；与enwiki标题双向一致 | revision 2266688384；只采用下列适用字段 |
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**范围待对齐。** Q54647365 为 Gesù 中殿《耶稣圣名的胜利》单幅壁画；本卡指 vaults 工程及工期，范围未证相同。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-gavasetti-sant-antonino-frescoes
+
+对象：`04-knowledge/units/works/gavasetti-sant-antonino-frescoes.md`。原卡SHA-256：`bc0e9ea80bbb33a9593dbec7e382adefaaf3eee1c36d4c88ee9b14bec4c86e08`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L323–326；S2：第一章；印刷页 13；OCR L520–521。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza | S1、S2；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 地点、日期与条款 | Piacenza，S. Antonino；1624；允许艺术性增补并约定上等颜料 | S1、S2，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 具体工程无可确认独立Wikipedia—Wikidata配对；官方目录提供对象身份。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-guercino-sicilian-altarpiece-1665
+
+对象：`04-knowledge/units/works/guercino-sicilian-altarpiece-1665.md`。原卡SHA-256：`9149857c57f540a9ce471dc8fd9c2ba76301259efde7e120534f76f4a3d66aa4`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L295–307。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 图像方案 | 圣母子、德肋撒、约瑟、施洗者约翰及天使；须核定服饰、安置与光线 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 无独立Wikipedia—Wikidata作品配对；Fondazione Zeri目录entry 57026／work 58737作为身份锚点。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-lanfranco-crucifixion-stock
+
+对象：`04-knowledge/units/works/lanfranco-crucifixion-stock.md`。原卡SHA-256：`a9ba6fd14a3f711376f840e9c5ef9e135d2393de7cea75e1272f5ceb9cedab3b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 15；OCR L596–601。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Lanfranco’s unfinished Crucifixion in his studio | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 交易性质 | 已有画稿的完成协商；不同于从题材开始新订 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未能与同题作品唯一对应，无适用Wikipedia—Wikidata配对。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-lanfranco-magdalene-stock
+
+对象：`04-knowledge/units/works/lanfranco-magdalene-stock.md`。原卡SHA-256：`fe94a6a9ad4d1f486b3bf118250223842009a7ef1755d1ddd74b4d9fc9bf4bc2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 15；OCR L596–601。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Lanfranco’s unfinished Magdalene in his studio | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 交易性质 | 先见已有画稿，再要求完成 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 未能与同题作品唯一对应，无适用Wikipedia—Wikidata配对。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-mola-air-valmontone
+
+对象：`04-knowledge/units/works/mola-air-valmontone.md`。原卡SHA-256：`167b3f47b6808d016be9001172cddf7b0c65d843faed82ad2971ef75febea5c2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+无这项具体方案的Wikipedia—Wikidata确认配对；不借作者或宫殿QID。S1第一章第9页L316–319；S2Mola专业研究；S3馆方现存装饰说明。保留原有part_of关系。
+
+已补入原方案／局部执行／毁改／现存后作的界限，但本章神话条目与每个原画面的对应、原稿实物、准确毁损日期仍未核。第一章与外部资料各标来源，没有引用第六章。
+````
+
+
+### REV-072 works-mola-four-elements-valmontone
+
+对象：`04-knowledge/units/works/mola-four-elements-valmontone.md`。原卡SHA-256：`083bfd725f097804f470248bfd02d68d743318466d4b0a86b7ba4c7b203a57f0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+尚无此项目的Wikipedia—Wikidata确认配对。S1第一章第9页L312–319；S2第13页L505–506、516–519；S3–S4为外证。本次维持创作者、委托人与地点关系；`created_by`只指此方案，绝不表示现存全宫壁画均为Mola所作。
+
+方案文献、原稿和诉讼档案未全读。史料称已绘与现存保存分别表达；未在本轮使用第六章，也未据装饰题材开启知识涌现。
+````
+
+
+### REV-072 works-plague-at-ashdod-1631
+
+对象：`04-knowledge/units/works/plague-at-ashdod-1631.md`。原卡SHA-256：`07acb10dac1f81bf6f63d683a2bf21c446db5e161936344ebc86aeaa807455ae`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+### 身份与证据范围
+
+[Wikipedia / Plague of Ashdod (Poussin)](https://en.wikipedia.org/wiki/Plague_of_Ashdod_(Poussin)) ↔ [Wikidata Q3900760](https://www.wikidata.org/wiki/Q3900760) 配对通过，馆号与尺寸另据 S4 确认具体卢浮宫绘画；与 Caroselli 复制品及准备素描区分。S3 对象页全文已读，S2 已提取适用字段；Wiki 两站及其共同引用不算多份独立证据。整卡保持 source_backed。
+
+### 待补与争议
+
+| 项目 | 当前处理／缺口 |
+|---|---|
+| 创作年代 | 采用 S4 的 1630–1631；保留 S3 的 1628–1630 及 S2 的 1630 单值／限定区间，不从文件名推日期 |
+| 尺寸精度 | S2 高宽各带 ±1 cm；内容采用 S4 的登记值，不伪造测量精度 |
+| 持有终止日 | S2 的 Valguarnera 1631 终止年缺引用，未导入流传表 |
+| 版画年代 | Jean Baron 版画在 S3 为 1631，S4 为约 1650；未据此新建版画知识元 |
+| 原始材料 | 创作地点、支付记录、庭审原件及完整修复档案未直接核验；图像尚未独立目视分析 |
+| 规范号 | Joconde 000PE002228、BnF 155611385 仅据 S2 所列，原站未读 |
+| 清单完整性 | 复制史与研究书目尚未穷尽；书目年份冲突仍待核 |
+
+S1–S6 对应元数据 sources 顺序。字段版本、访问失败及历史裁决见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)，不在内容部分重复保存采集过程。
+````
+
+原表达：
+
+````markdown
+| 创作时间 | 1630–1631 | S4；年代异文见第三部分 |
+````
+
+
+### REV-072 works-poussin-massacre-innocents
+
+对象：`04-knowledge/units/works/poussin-massacre-innocents.md`。原卡SHA-256：`d996101b1be4354d1e94356a93ebd9fe054c52f26db7e6adc8b2d5340d417b2b`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+候选[Wikipedia：The Massacre of the Innocents (Poussin)](https://en.wikipedia.org/wiki/The_Massacre_of_the_Innocents_(Poussin)) ↔ [Wikidata Q3224378](https://www.wikidata.org/wiki/Q3224378)指向PE305；本卡保留候选，未批量导入其全部属性。S4全文1052字符、S5可读取对象记录、S6研究记录已读；搜索结果中出现的118×179厘米未取代已核147×171。
+
+文件头created_by链接[普桑](../persons/nicolas-poussin.md)，依据本章；[雷尼同题作](reni-massacre-innocents.md)是比较导航，不合并。
+
+**未决：** 本章与PE305及其他版本的关系、赞助动机、原合同与完整流传。原章页／行号及句意摘要保留；对象候选不使Haskell已明确的作者和题材失效。
+````
+
+
+### REV-072 works-poussin-spring-valguarnera
+
+对象：`04-knowledge/units/works/poussin-spring-valguarnera.md`。原卡SHA-256：`a88ced14b4943d1083948187434357ab10890ce828bfc1b88a0418367f408e61`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+候选[Wikipedia：The Empire of Flora](https://en.wikipedia.org/wiki/The_Empire_of_Flora) ↔ [Wikidata Q11750116](https://www.wikidata.org/wiki/Q11750116)双向一致，但“本章Spring→候选实物”的完整题名链尚未核定，所以本卡仍未采用确认QID，不批量导入其属性。
+
+S2全文2667字符、S3展览公告与图注、S4对象及历史说明已读；S5实际采用图注与The Gentleman Jewel Thief段，非庭审原件。Costello原刊和所引庭审仍待核，不能将另一未能访问论文记为已读。
+
+文件头commissioned_by链接[瓦尔瓜尔内拉](../persons/fabrizio-valguarnera.md)保持；[普桑](../persons/nicolas-poussin.md)及[《阿什杜德的瘟疫》](plague-at-ashdod-1631.md)为导航。S1章页／行号、句意摘要保留，待证仅约束具体版本对应，不取消章内委托事实。
+````
+
+
+### REV-072 works-reni-justice-embracing-peace
+
+对象：`04-knowledge/units/works/reni-justice-embracing-peace.md`。原卡SHA-256：`4aa9757676cb6bc52a87ec8ff893834fc696470d28043547e1151e8df7a6a69e`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+没有已确认的本对象Wikipedia—Wikidata配对；英文题名、意大利文Giustizia／Pace及Gonzaga／Reni检索本轮未形成可核对象。查询未命中只表示本轮未找到，不宣称不存在条目或作品。
+
+文件头commissioned_by通往[费迪南多·贡扎加](../persons/duke-mantua-reni-1617.md)，原S1证据保留；[雷尼](../persons/guido-reni.md)为导航，尚不补未实施的创作关系。
+
+**待补：** Luzio p.48全文及所引信件、具体日期／尺寸、完成记录和画目。S2只支持委托人背景，不支持作品物理属性；S3为章内回读，不计独立外部来源。原章定位和句意摘要不变。
+````
+
+
+### REV-072 works-reni-massacre-innocents
+
+对象：`04-knowledge/units/works/reni-massacre-innocents.md`。原卡SHA-256：`c9349975b9e6a9c9d5c48805691927c742486c703adc5e33d4c81ee316620be0`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+[Wikipedia：Massacre of the Innocents (Reni)](https://en.wikipedia.org/wiki/Massacre_of_the_Innocents_(Reni)) ↔ [Wikidata Q2448678](https://www.wikidata.org/wiki/Q2448678) 双向一致。作者、同题代表作、对称而克制的构图及馆方原设／馆号共同支持对应本章所评作品；此前仅因章中未列尺寸而保留候选，本轮补读对象与馆方说明后接收身份。未发现本章指向某摹本的正面证据，不把无尺寸本身设为永久阻断条件。
+
+S4全文2932字符已读；S5字段与标签已核；S6实际阅读范围见元数据，旧站直接TLS失败没有写成成功。文件头created_by链接[雷尼](../persons/guido-reni.md)不变。
+
+合同、实际费用、原件完整流传及初刊诗文仍待核；身份通过不表示这些缺口消失。原S1章页／行号与句意摘要保留，source_backed不变。
+````
+
+
+### REV-072 works-ricci-beheading-john-baptist-1682
+
+对象：`04-knowledge/units/works/ricci-beheading-john-baptist-1682.md`。原卡SHA-256：`c7741205bcf78e030a57484b5b4eb22fe744cdf54883cfe4bb9233cfcc38e394`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 9；OCR L326–328。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Ricci’s Beheading of Saint John the Baptist commission (1682) | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托要求 | Bologna 兄弟会；1682；表现斩首及必要人物 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 失佚具体作品无可确认Wikipedia—Wikidata配对；不借同题作品、善会或Ricci QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-rubens-chiesa-nuova-altarpiece-1606
+
+对象：`04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md`。原卡SHA-256：`27d5d4e0fbe1702669975fe2c9ecf4ad268216ab1da13fac22068ef4c6dfb999`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L402–404。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托前条件 | 1606；先展示绘画样例 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 官方Louvre与Grenoble记录已唯一定位；未见同粒度Wikipedia—Wikidata双向对象，故不用相关教堂或画家QID替代。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+
+### REV-072 works-sacchi-capuchin-altarpiece-modello
+
+对象：`04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md`。原卡SHA-256：`2fdc73ca048d739a3fe45fa96fa20cea08ef1793066fbd1b2e991d99404563f2`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+- 既有正式关系：[创作者萨基](../persons/andrea-sacchi.md)、[收藏者Denis Mahon](../persons/denis-mahon.md)、[Colnaghi](../institutions/colnaghi.md)，3条元数据边本轮保留。created_by的旧note仍反映本章“modello”措辞，关系集中处理时补充当前版本限定。
+- 外部对象入口：[苏格兰国家美术馆NG2854](https://www.nationalgalleries.org/art-and-artists/44597)、[1997图录](https://www.sirdenismahonfoundation.com/wp-content/uploads/2021/10/DISCOVERING_THE_ITALIAN_BAROQUE_LOW.pdf)、[WD候选](https://www.wikidata.org/wiki/Q27974949)。
+- S1保留第一章第12页L466–468及摘要；S2是后期图录已读的对象条目文字，非PDF全书阅读；S3为官方对象页，S4为候选字段。PDF自动提取为空不计阅读，未目视分析原画。
+- 未决：Wikipedia配对、1961原图录页面、原委托人与更早产权、小幅版本形成过程。对象对应和版本解释分开保存，整卡仍为source_backed。
+````
+
+
+### REV-072 works-valentin-genre-commission
+
+对象：`04-knowledge/units/works/valentin-genre-commission.md`。原卡SHA-256：`78dd2715248eb44888ed3e816e48a8f33ccb571aed67a8463ef636e711dbeeb5`。
+
+原关系、证据及过程说明：
+
+````markdown
+### 关系记录
+
+S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+
+文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
+
+**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+````
+
+原表达：
+
+````markdown
+| 名称／对应英文 | A Musical Company with a Fortune-Teller | S1；标题中的语境说明为登记用语 |
+````
+
+原表达：
+
+````markdown
+| 委托内容 | 大画；吉卜赛妇女、士兵及奏乐女性 | S1，支持范围见各条句意摘要 |
+````
+
+原内容中的过程说明：
+
+````markdown
+规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
+````
+
+原表达：
+
+````markdown
+### 本轮作品补足（REV-055，2026-09-11）
+````
+
+原内容中的过程说明：
+
+````markdown
+| Wikipedia—Wikidata结果 | 官方收藏与Met图录完成对象识别；没有采用不确定的Wikipedia—Wikidata作品配对。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
+````
+
+原内容中的过程说明：
+
+````markdown
+**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
+````
+
+原对齐说明：
+
+````markdown
+### 初步对齐（REV-034，2026-09-10）
+
+**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
+
+未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
+
+[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
+````
+
+### REV-072整理核对结果
+
+九类418卡均已整理；298卡437条原书来源共534段摘录，逐段与来源行的文字核对一致（仅行末空格规范化）。原有source字段及顺序、正式关系集合未改变。现有407条frontmatter关系、809行可读关系；旧结果的406+1分类说法与当前所有边均标explicit不一致，留待关系语义审查核定。卡内不再有独立S1来源导读、初步对齐过程节及批次完成声明。确认身份入口逐项比对，恢复16卡33条原有确认链接；被排除或尚未确认的候选链接仅随原说明保留，不转为本卡确认身份。内容结构和关系机械检查通过；并未因此重新采集外网、独立语义验收或开展κ实验。

@@ -3,7 +3,7 @@ title: "多梅尼科·赞皮耶里（Domenico Zampieri）"
 name_en: "Domenico Zampieri"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"主要人物每位 130 ducats，排除背景人物。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 498–502; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,21 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 79–83, 498–502; print pp. 4, 13"
+    original_quotes:
+    - source_span: "lines 79–83"
+      text: |2-
+        Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+        native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+        excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+        and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+        nephew Ludovico.4
+    - source_span: "lines 498–502"
+      text: |2-
+        Prices for the work itself were regulated in widely different ways: many artists
+        had fixed charges for the principal figures in the composition, excluding those in the
+        background. Thus Domenichino was paid 130 ducats for each figure in his frescoes in
+        Naples Cathedral and Lanfranco too. This system was very widespread and allowed
+        painters to make regular increases in price as their reputations grew.6 However, the
   - citation: 'National Gallery, London, "Domenichino (1581–1641)." https://www.nationalgallery.org.uk/artists/domenichino. Accessed 2026-09-09.'
     location: "人物简介三段（NG）：姓名、生平、学习与活动"
     sentence_summary: "转述：简介说明全名 Domenico Zampieri、1581–1641 年生卒及博洛尼亚、罗马、那不勒斯的学习与活动。"
@@ -36,6 +51,7 @@ sources:
   - citation: "Maria Gabriella Matarazzo, \"ZAMPIERI, Domenico, detto Domenichino,\" Dizionario Biografico degli Italiani 100 (2020). https://www.treccani.it/enciclopedia/zampieri-domenico-detto-domenichino_(Dizionario-Biografico)/ Accessed 2026-09-10."
     location: "开篇亲缘与训练；Polet 礼拜堂签约/完成；婚姻、1621 任命；晚年卒日段。定向阅读，未读所引原档"
     sentence_summary: "转述：补部分家庭、学习顺序及任命；记礼拜堂 1615 年 9 月完成、人物 1641-04-06 去世，与其他来源异文分别保留。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-domenichino
 ---
 
 ## 内容
@@ -74,7 +90,7 @@ sources:
 | Gentile；Gabriele／Sebastiano | 姐妹 Gentile；兄弟名字在传记与公证文书转述间有异文 | S8；未拆成两位兄弟或自行决定正确名 |
 | Marsibilia Barbetti；Maria Camilla | 1620-04-27 与 Marsibilia 结婚；Maria Camilla 为女儿 | S8 婚姻段；原婚姻记录未读 |
 
-### Wikidata 字段与采用范围（REV-038）
+### Wikidata 字段与采用范围
 
 S7 为 Q320118 修订 2540996976。姓名、身份与原有配对相符；事实冲突不因此消失。
 
@@ -108,15 +124,6 @@ WD 未列亲缘字段不否定 S8 的亲缘材料；P800 不是经过本项目�
 
 WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作为独立问题：Lanfranco 的指责、支持者的辩护和 Ruskin 的批评各有主体，不能合写为客观定论。本轮只保留这一解释线索，未据此新增“抄袭”或“影响”正式关系。书目区 Serra 1909 的 ISBN 被页面标为年款不兼容，故未复制该 ISBN；作品目录也未整表冒充已逐件核实的全集。
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** Domenico Zampieri／Domenichino，1581–1641 年画家；补齐此前缺失的 WD→英文页反向链。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Domenichino) 的 wikibase_item 与 [Wikidata Q320118](https://www.wikidata.org/wiki/Q320118) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -127,15 +134,7 @@ WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作�
 | → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 主要人物每位 130 ducats，排除背景人物；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
 | ← 由其任命（`appointed_by`，反向投影） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；原断言与证据见发出端卡片“卢多维科·卢多维西（Ludovico Ludovisi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
 
-### 初步对齐与支持范围
+### 身份与外部链接
 
-本章 Domenichino 与外部对象的昵称、博洛尼亚—罗马—那不勒斯活动及画家身份相符，采用全名并保留稳定路径。已读 [Wikipedia](https://en.wikipedia.org/wiki/Domenichino)；[Wikidata Q320118](https://www.wikidata.org/wiki/Q320118) 在 REV-034 已完成实体阅读及反向 sitelink 核对，配对通过；先前超时为历史过程，不再是当前缺口。
-
-正式关系仍仅以 frontmatter relations 为准。本章任职与计酬由 Haskell 支持；馆方资料只支持表中对应补充，身份判断不证明原书每项叙述。整卡保留 source_backed，未做整体验证晋级。
-
-### 待补与争议
-
-- 已补部分亲缘、婚姻与任命资料；兄弟名字异文、完整亲缘、其他称号、任职职责、完整作品与研究清单仍有缺口。
-- 生卒日月已有 S8 支持；死亡日 6／15／16 日冲突和圣则济利亚壁画完成日期差异保留。所采用工作年表及理由见表，不等于所有原始文献已核。
-- Met 对死亡原因的推测未采为确定史实；更直接传记、档案及说法之间的关系尚待核查。
-- REV-038 已提取适用 WD 字段，复用 REV-034 双向身份核对及既有 WP 全文阅读。入会年等仍待原页，整卡保持 source_backed。
+- [Wikipedia](https://en.wikipedia.org/wiki/Domenichino)
+- [Wikidata Q320118](https://www.wikidata.org/wiki/Q320118)

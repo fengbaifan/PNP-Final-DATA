@@ -3,7 +3,7 @@ title: "提香（Titian）"
 name_en: "Titian"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 764–767, 800–804; print pp. 19
+  original_quotes:
+  - source_span: "lines 764–767"
+    text: |2-
+      we hear are merely refurbished versions of Ridolfi’s account of Charles V’s picking up
+      Titian’s brushes for the artist—Cardinal Barberini holding a mirror for Bernini while
+      he worked at his self-portrait in the guise of David,1 Innocent X handing Pier Francesco
+      Mola a canvas, and so on.2 Such stories have at least symbolic value. More likely to be
+  - source_span: "lines 800–804"
+    text: |2-
+      had bestowed on Gentile Bellini the dignity of Count Palatine, and in 1533 Charles V created Titian a
+      Count of the Lateran Palace, of his Court and of the Imperial Consistory. But such honours, deeply
+      significant though they were, had always been marks of the most exceptional favour. Towards the end
+      of the sixteenth century in Rome the granting of titles to artists became a more routine affair with some
+      of the attributes of our modern civil service grading and honours lists.
 - citation: "Wikipedia (en), Titian, revision 1370485353. https://en.wikipedia.org/wiki/Titian. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Tiziano Vecellio／Titian，威尼斯文艺复兴画家；不是现代同名对象。"
@@ -31,6 +45,7 @@ sources:
 - citation: "National Gallery, https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/diana-and-actaeon-is-secured-for-the-nation. Accessed 2026-09-11."
   location: "2009年新闻稿中The Artist小节；非全稿"
   sentence_summary: "Charles V于1533年授予提香骑士荣誉；并未刊载完整授勋文书。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-titian
 ---
 
 ## 内容
@@ -56,7 +71,7 @@ sources:
 | 性别 | 男 | S5 P21 |
 | 生年 | 约1488—1490；NG采用约1490，无确切出生文书 | S4、S6 |
 | 出生地 | Pieve di Cadore／卡多雷地区皮耶韦 | S4–S6 |
-| 卒日 | 1576年8月27日；WD有历法及日期异文，见第三部分 | S4–S6 |
+| 卒日 | 1576年8月27日；WD有历法及日期异文，[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-titian) | S4–S6 |
 | 去世地 | Venice／威尼斯 | S4–S6 |
 | 安葬地 | Santa Maria Gloriosa dei Frari | S4、S6 |
 | 历史政治归属 | 威尼斯共和国（Republic of Venice） | S5；不填现代意大利共和国国籍 |
@@ -121,7 +136,3 @@ sources:
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
 | ← 获其授予荣衔（`honoured_by`，反向投影） | [查理五世（Charles V）](charles-v.md) | 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世（Charles V）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
-
-S1：第一章，印刷页19，OCR L764–767、800–804；S2–S3为初步对齐；S4为WP全文含图注注释书目；S5为WD字段；S6为NG传记各节；S7仅读NG新闻稿The Artist节。
-
-当前没有正式关系。应保留授衔与皇帝拾笔逸事的不同证据等级；生年、妻子及Lavinia母系、Tizianello父子误连、早期师承与威尼斯sansaria任职起年的异文仍未解决。WP对sansaria先写1523又引1516已领款文书，现阶段不生成唯一任职起年。状态维持 source_backed。

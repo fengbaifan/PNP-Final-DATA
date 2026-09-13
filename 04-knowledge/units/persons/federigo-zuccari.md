@@ -3,7 +3,7 @@ title: "费德里科·祖卡里（Federico Zuccari）"
 name_en: "Federico Zuccari"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1593–1594 年尝试振兴学院，不作为首次创立的证明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 681–683; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1593–1594","role":"首任Prince及组织领导者","scope":"学院振兴／实际组织阶段；不等同1577年设院授权"}
@@ -15,6 +15,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 681–683; print pp. 17
+  original_quotes:
+  - source_span: "lines 681–683"
+    text: |2-
+      Accademia di S. Luca, on a sound footing. This body had suffered several generations
+      of almost continuous decline after Federigo Zuccari’s well-meant, but not very
+      successful, attempts to bring it to life in 1593 and 1594.4 Every time a new pope came
 - citation: "Wikipedia (en), Federico Zuccari, revision 1366652556. https://en.wikipedia.org/wiki/Federico_Zuccari. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "画家 Federico Zuccari／Zuccaro，圣路加学院页明确其 1593 年任负责人；排除 1783 年出生的同名天文学家。"
@@ -36,6 +42,7 @@ sources:
 - citation: "Accademia Nazionale di San Luca, Storia dell’Accademia. https://accademiasanluca.it/accademia/storia-dell-accademia. Accessed 2026-09-11."
   location: "机构史全文"
   sentence_summary: "祖卡里1593年为首任Prince；1577机构授权与1593实际组织并非同一事件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-federigo-zuccari
 ---
 
 ## 内容
@@ -114,16 +121,7 @@ sources:
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1593–1594 年尝试振兴学院，不作为首次创立的证明；时间：1593–1594；角色：首任Prince及组织领导者；范围：学院振兴／实际组织阶段；不等同1577年设院授权；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 681–683; print pp. 17 |
 
-### 关系与身份入口
+### 身份与外部链接
 
-已有 `member_of` → [圣路加学院](../institutions/accademia-di-san-luca.md)，角色限定为1593–1594年的首任Prince及组织领导者，并与1577年设院授权区分。亲缘、师承、保护人等字段尚未自动写成正式边。
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/Federico_Zuccari) ↔ [Wikidata Q345605](https://www.wikidata.org/wiki/Q345605)配对复用，排除同名天文学家。S1是第一章p.17、OCR L681–683；S2–4是此前对齐；S5–8是本次阅读与字段核对。WD引用未逐个外链全读。
-
-### 冲突与未决项
-
-- WD生年1539与1541均normal、年精度，编码中的1月1日不是生日；WP约1540/1541与DBI1539/40并存。以DBI的论证及范围表达，不造唯一生年。
-- WP卒日还有8月6日异文，本卡采用DBI与WD preferred的7月20日；rank本身不替代史料判断。
-- WP所谓Sixtus V在1595年批准学院与该教皇1590年去世冲突，不采纳；官网1593首任Prince及1577授权分别记录。
-- 本次未从Getty受限页面接收事实；搜索摘要中的1583放逐、1598学院任职与DBI不同，不能标作已读Getty正文互证。
-- 作品逐件馆号、完整任职名单和遗嘱原文尚待后续直接证据；不扩张为完整百科或新对象登记。
+- [Wikipedia（英文）](https://en.wikipedia.org/wiki/Federico_Zuccari)
+- [Wikidata Q345605](https://www.wikidata.org/wiki/Q345605)

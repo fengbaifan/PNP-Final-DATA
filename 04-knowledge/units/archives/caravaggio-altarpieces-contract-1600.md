@@ -4,7 +4,7 @@ name_en: "Contract for Caravaggio's Two Altarpieces (1600)"
 type: archive
 sub_type: contract
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/caravaggio-conversion-saint-paul.md","note":"合同涉及《圣保罗归化》委托与预先示稿要求。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 397–401,421; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,12 +17,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 397–401,421; print pp. 11
+  original_quotes:
+  - source_span: "lines 397–401"
+    text: |2-
+      It is true that in 1600 Caravaggio agreed with his patron, before executing his
+      altarpieces of The Conversion of St Paul and The Martyrdom of St Peter, that he would
+      ‘submit specimens and designs of the figures and other objects with which according to
+      ’ his invention and genius he intends to beautify the said mystery and martyrdom’,4 but
+      tliis was exceptional, and Caravaggio was already notorious as a difficult character.
+  - source_span: "lines 421–421"
+    text: |2-
+      4 The contract has been published by Friedlaender, p. 302.
 - citation: "Wikipedia (en), Crucifixion of Saint Peter (Caravaggio), revision 1361249053. https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio). Accessed 2026-09-11."
   location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
   sentence_summary: "现存1601布面版、1600柏木板原约与后续版本史分开；合同设计要求、报酬和期限是条目依据刊本的转述，不是本次查阅原合同。"
 - citation: "Catalogo generale dei Beni Culturali, Crocifissione di San Pietro, 1200182974. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200182974. Accessed 2026-09-11."
   location: "网页对象记录全文2591字符；编目1984、更新2006；未读附件完整档案"
   sentence_summary: "卡拉瓦乔、罗马人民圣母堂、布面油画；说明1600-09-24两画委托、八月期限及1601-11-10支付结算，不能把简写tele当作原合同底材逐字转录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-caravaggio-altarpieces-contract-1600
 ---
 
 ## 内容
@@ -62,9 +74,3 @@ sources:
 |---|---|---|
 | → 所涉对象（`has_subject`） | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../works/caravaggio-conversion-saint-paul.md) | 合同涉及《圣保罗归化》委托与预先示稿要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
 | → 所涉对象（`has_subject`） | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../works/caravaggio-martyrdom-saint-peter.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
-
-本合同没有可确认的独立Wikipedia—Wikidata配对，不能借用画家或其中某幅作品的QID。来源S2的英文对象页全文已读，S3网页记录全文已读；两者支持本轮条款线索，不等于看过合同手稿或刊本原页。
-
-文件头两条has_subject分别连到[圣保罗委托](../works/caravaggio-conversion-saint-paul.md)与[圣彼得委托](../works/caravaggio-martyrdom-saint-peter.md)；同一合同不复制成两份档案。[画家](../persons/caravaggio.md)为关联导航，本轮未新增边。
-
-**未决：** 核对Friedlaender p.302及完整上下页、签署人、公证人与原件藏所。官方目录将两作品概称tele，英文作品史指原约柏木板；本轮不将目录概述当原合同逐字转录。原章内证据及已有关系不因缺Wiki配对失效。来源编号、章页／行号及句意摘要保留于元数据。

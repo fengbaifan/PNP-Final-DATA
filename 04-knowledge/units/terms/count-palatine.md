@@ -3,7 +3,7 @@ title: "行宫伯爵（Count Palatine）"
 name_en: "Count Palatine"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 799–804; print pp. 19
+  original_quotes:
+  - source_span: "lines 799–804"
+    text: |2-
+      4 There had, of course, been cases long before the seventeenth century: the Emperor Frederick III
+      had bestowed on Gentile Bellini the dignity of Count Palatine, and in 1533 Charles V created Titian a
+      Count of the Lateran Palace, of his Court and of the Imperial Consistory. But such honours, deeply
+      significant though they were, had always been marks of the most exceptional favour. Towards the end
+      of the sixteenth century in Rome the granting of titles to artists became a more routine affair with some
+      of the attributes of our modern civil service grading and honours lists.
 - citation: "Wikipedia (en), Count palatine, revision 1371113571. https://en.wikipedia.org/wiki/Count_palatine. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "行宫伯爵职衔与后来的荣衔概念；不指某块领地或特定个人。"
@@ -25,6 +34,7 @@ sources:
 - citation: "Wikidata, Q22932, revision 2485413121. https://www.wikidata.org/wiki/Q22932. Accessed 2026-09-11."
   location: "实体身份、sitelinks及正文列明的声明；检查rank、限定词、精度与引用"
   sentence_summary: "身份及适用类型字段；有争议日期或未配对候选字段不直接导入。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-count-palatine
 ---
 
 ## 内容
@@ -57,9 +67,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-- S1：第一章，印刷页19，OCR L799–804，章内Bellini及Titian称谓。
-- S2–S3：初步身份对齐；S4–S5：全文补足与本次WD字段读取。
-- Wikipedia艺术家清单把Bellini写作Giovanni，与本章Gentile不符，本卡不采用该名单断言；Titian获衔与某幅骑马像的因果联结亦未采用。授予原件尚未读，异文未据百科消除。
-- 当前无正式关系。未决为准确授予文书、完整称号、日期与权利，不以所有同名职衔共用同一权限。状态维持 source_backed。
+暂无正式关系。

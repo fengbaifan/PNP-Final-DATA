@@ -3,7 +3,7 @@ title: "构思草稿（Bozzetto）"
 name_en: "Bozzetto"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -13,6 +13,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 461–468; print pp. 12
+  original_quotes:
+  - source_span: "lines 461–468"
+    text: |2-
+      1 L. Grassi published in 1957 what he claimed to be a series of modelli by Pietro da Cortona for the
+      ceiling of the galleria in the Palazzo Doria-Pamfili, but these have not won general acceptance—see
+      Brigand, 1962, p. 251. Nor is the so-called bozzetto for the Barberini Salone, kept in the palace, at all
+      convincing. On the other hand, Professor Waterhouse has pointed out to me the existence of a modello
+      by Camassei, Saints Peter and Paul baptising in the Mammcrtine prison, once belonging to the Barberini
+      and now in the Pinacoteca Vaticana—No. 820, formerly 539 m. A number of modelli by Andrea Sacelli
+      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
 - citation: "Wikipedia (en), Modello, revision 1281189214. https://en.wikipedia.org/wiki/Modello. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "英文重定向 Maquette Q17126762 偏雕塑／建筑缩模，另查 Modello Q3859830 与现有预备稿术语重叠；不强行把本章油画草稿合并到任一对象。"
@@ -31,6 +42,7 @@ sources:
 - citation: "Getty AAT 300047838, bozzetti. https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300047838. Accessed 2026-09-11."
   location: "规范记录全文5583字符；含定义、异名、关系及来源列表"
   sentence_summary: "较充分展开的预备草案，多为雕塑，也可绘画／素描；与maquette区分；其详略标准与National Gallery相对区分不同。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-bozzetto
 ---
 
 ## 内容
@@ -63,10 +75,10 @@ National Gallery以较粗略bozzetto与较精细modello作相对区分；Getty�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia（it）：Bozzetto](https://it.wikipedia.org/wiki/Bozzetto) ↔ [Wikidata Q5416402](https://www.wikidata.org/wiki/Q5416402) 双向一致。意大利术语与绘画／素描适用范围、[Getty AAT300047838](https://www.getty.edu/vow/AATFullDisplay?subjectid=300047838)共同支持本章用法，本轮确认此术语身份。WD的sculpture父类过窄，未导入；身份通过不代表每个WD字段正确。
+### 身份与外部链接
 
-S4全文、S6词条及S7规范记录全文已读。保留旧候选Q3859830及Maquette的历史排除过程，不覆盖成“早已正确配对”。
-
-[Modello](modello.md)、[预备稿提交程序](../procedures/modello-approval.md)、[争议巴贝里尼草稿](../works/barberini-salone-bozzetto-disputed.md)为导航，尚无正式关系。草稿真实作者、是否预备而非后摹仍由作品卡处理，不因术语解决而连带确认。S1章页／行号和句意摘要保留。
+- [Wikipedia（it）：Bozzetto](https://it.wikipedia.org/wiki/Bozzetto)
+- [Wikidata Q5416402](https://www.wikidata.org/wiki/Q5416402)
+- [Getty AAT300047838](https://www.getty.edu/vow/AATFullDisplay?subjectid=300047838)

@@ -3,7 +3,7 @@ title: "格列高利十五世（Gregory XV）"
 name_en: "Gregory XV"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"granted_privilege_to","target":"institutions/accademia-di-san-luca.md","note":"1621 年确认学院章程。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1621","role":"章程确认者","scope":"确认学院章程；具体文本版本未知"}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 26–27; print pp. 3
+  original_quotes:
+  - source_span: "lines 26–27"
+    text: |2-
+      Urban’s immediate predecessors, Paul V (1605-1621) and to a lesser extent Gregory
+      XV (1621-1623), had set a pattern which he was content to follow. The completing of
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
   location: 第一章；印刷页 4；OCR L65–83
   sentence_summary: Cardinal Ludovisi 当选即 Gregory XV；侄辈 Ludovico 是另一人，同乡 Domenichino 因其当选返 Rome。
@@ -22,6 +27,28 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 65–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 65–83"
+    text: |2-
+      is no situation more difficult or more dangerous’, said Pope Gregory XV, who certainly
+      knew what he was talking about,2 ‘than that of a Pope’s nephew after the death of his
+      uncle.’ With the end of their incomes went the end of their positions as leading patrons.
+      It was especially noted of Cardinal Alessandro Peretti-Montalto, nephew of Pope Sixtus
+      V, that he was still respected and loved even after the death of that Pope, and that
+      artists continued to work for him.3 This was evidently not the usual state of affairs.
+      Rome was a symbol rather than a nation. The nobles who formed the papal
+      entourage still thought of themselves far more as Florentines, Bolognese or Venetians
+      than as Romans or Italians; and as the prestige of painting was at its height, it was a
+      matter of some importance for a cardinal to be able to produce several painters of dis­
+      tinction from his native city. We are told that Cardinal Maffeo Barberini (the future
+      Urban VIII) ‘was most anxious to make use of artists from his native Florence’, and
+      that Pope Gregory XV ‘was a Bolognese so there was little chance for anyone from
+      anywhere else. . . .' Ilie artists naturally made the most of their opportunities. In 1621
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L690–691
   sentence_summary: 1621 年确认学院章程。
@@ -29,6 +56,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 690–691; print pp. 17
+  original_quotes:
+  - source_span: "lines 690–691"
+    text: |2-
+      ones. Gregory XV was encouraging, and in 1621 he confirmed the statutes of the
+      Accademia, but he died before he could do anything else. It was left to Urban VIII to
 - citation: "Wikipedia (en), Pope Gregory XV, revision 1362442411. https://en.wikipedia.org/wiki/Pope_Gregory_XV. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Alessandro Ludovisi／Gregory XV，1621–1623 年教皇；不是侄辈 Ludovico。"
@@ -47,6 +79,7 @@ sources:
 - citation: 'The Holy See, Gregory XV. https://www.vatican.va/content/vatican/en/holy-father/gregorio-xv.html Accessed 2026-09-10.'
   location: '官方教皇条目 Secular Name、Birth、Beginning／End Pontificate'
   sentence_summary: '官方列世俗名 Alessandro Ludovisi、出生地 Bologna，在位开始栏并列 1621 年 2 月 9／14 日、结束 1623-07-08；结合传记区分当选与加冕。'
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gregory-xv
 ---
 
 ## 内容
@@ -85,7 +118,7 @@ sources:
 | 身份 | 适用范围 | 证据 |
 |---|---|---|
 | 法律工作者（Jurist） | 早期教廷司法工作 | S6 Early life；S8 |
-| 总主教（Archbishop） | 博洛尼亚职务 | S6–S8；日期异文见第三部分 |
+| 总主教（Archbishop） | 博洛尼亚职务 | S6–S8；日期异文[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gregory-xv) |
 | 枢机（Cardinal） | 1616 年起的任职 | S6–S8 |
 | 教皇（Pope） | 1621–1623 | S1、S9 |
 | 艺术赞助人（Art patron） | 本章及传记所述艺术活动 | S1–S3；S8 艺术家段；不把所有作品均归其个人委托 |
@@ -116,7 +149,7 @@ sources:
 |---|---|---|---|
 | 1575 | 返回罗马 | 罗马 | S6；S8 |
 | 1593 起 | 任申诉司法职务 | Apostolic Signatura | S6、S8；细分职责待原任命文书 |
-| 1597 起 | 任罗马 vicegerent | 罗马教区 | S6、S8；终止年异文见第三部分 |
+| 1597 起 | 任罗马 vicegerent | 罗马教区 | S6、S8；终止年异文[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gregory-xv) |
 | 1599 起 | 任审计法官（Auditor） | Sacred Roman Rota | S6、S8 |
 | 1612 | 成为博洛尼亚总主教 | 博洛尼亚 | S6–S8；任命与祝圣分辨中，当前取年精度 |
 | 1616–1618 | 调解蒙费拉托争端 | 萨伏依等相关各方 | S8；不扩展为后续战争全部因果解释 |
@@ -155,23 +188,7 @@ sources:
 |---|---|---|
 | → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
 
-### 身份与阅读范围
+### 身份与外部链接
 
-REV-034 已完成 [Wikipedia Pope Gregory XV](https://en.wikipedia.org/wiki/Pope_Gregory_XV) ↔ [Wikidata Q132692](https://www.wikidata.org/wiki/Q132692) 身份配对。本轮读完同一英文 revision 1362442411 的信息框、全部正文小节、图注、注释、书目及职务表；S7 实体修订 2522319902 的反向 sitelink 未变，适用字段及所用实体标签已读取。S8 是署名传记，S9 为官方简表。Wikipedia 的缺引提示、旧百科来源以及未读外链均保留限制，整卡仍为 source_backed。
-
-### 待补与争议
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 历法 | WD 生日使用儒略历、卒日使用格里高利历；正文按传记所载日期，不把两者机械归一或转换 |
-| 总主教日期 | S6 任命为 1612-03-12，S8 为 1612-04-02；S7 起始为 1612-05-01，与 S6 祝圣日相同。当前只采用 1612 年，三种事件／日期待原任命记录 |
-| vicegerent 任期 | S6 至 1598，S8 至 1599 年 8 月，未择一作为已核终止日 |
-| 拉特兰就任礼 | S6 为 1621-05-14，S8 为 1621-05-08；暂不写入确定履历 |
-| 亲属晋升 | S6“在位第三日”与 S8 的侄子授枢机日期及其首次晋升概述并不一致，具体日期未采用 |
-| 机构名称 | S7 教育值含现代宗座额我略大学；保留 S8 的历史 Collegio romano，不在未核沿革时视作当年正式校名 |
-| 国籍 | S7 教皇国值来自百科导入且无时间限定，仅保留政治活动背景，不声称法律国籍已核 |
-| 死因／安葬 | S6 病情叙述与 S8 痛风叙述未按医疗证据裁定；S8 记分期迁葬，不把 S6 的圣依纳爵堂概述作一次直接入葬 |
-| 扩展活动 | 传信部、列圣、选举改革及政治行动已读但本轮未逐项补证；不采用“百万杜卡特”等缺引金额或对心理、政治成效的整体评价 |
-| 作品与文献 | 艺术品版本、原教令、本人文献清单及研究书目仍待核；不得把身后 1634 年侄子爵位写作本人授予 |
-
-S1–S9 按元数据 sources 顺序对应；采集版本、采用与暂缓细目见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-045 及其补足证据文件。本次首次详细外部补足，尚非全部字段完成。
+- [Wikipedia Pope Gregory XV](https://en.wikipedia.org/wiki/Pope_Gregory_XV)
+- [Wikidata Q132692](https://www.wikidata.org/wiki/Q132692)

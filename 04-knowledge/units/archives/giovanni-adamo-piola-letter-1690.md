@@ -4,7 +4,7 @@ name_en: "Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo G
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/giovanni-adamo-piola.md","note":"刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v6","source_file":"https://archive.org/details/diletteresulla06bott","source_span":"vol. VI, letter XXVII, pp. 147–148"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,9 +17,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 354–356,376; print pp. 10
+  original_quotes:
+  - source_span: "lines 354–356"
+    text: |2-
+      years later another patron, Giovanni Adamo, when commissioning a work from the
+      Genoese painter Paolo Girolamo Piola, gave the size and added only: ‘As to the subject,
+      I leave it to you whether to make it sacred or profane, with men or with women.’3
+  - source_span: "lines 376–376"
+    text: |2-
+      3 Letter of 3 February 1690—Bottari, VI, p. 147.
 - citation: 'Giovanni Gaetano Bottari, ed. Stefano Ticozzi, Raccolta di lettere sulla pittura, scultura ed architettura, vol. VI (Milan: Giovanni Silvestri, 1822), letter XXVII, pp. 147–148. Internet Archive. https://archive.org/details/diletteresulla06bott. Accessed 2026-09-11.'
   location: 卷 VI，第 XXVII 信，pp. 147–148；阅读全文影像转写
   sentence_summary: 标题和脚注将收信人定为 Paolo Girolamo Piola、作者定为 Giovanni Adamo，列支敦士登家族摄政亲王及 Troppau、Jägerndorf 公爵；正文要求三至四个真人大小人物，宗教或世俗题材、男女角色由画家选择，末署 Feltspeg，1690-02-03。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-giovanni-adamo-piola-letter-1690
 ---
 
 ## 内容
@@ -43,17 +53,6 @@ sources:
 | 题材权限 | 宗教或世俗题材、男性或女性人物由 Piola 选择 | S1；S2 pp. 147–148 |
 | 交易条件 | 要求说明可完成时间；价款可随后议定 | S2 p. 148 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**文献身份已由刊本定位。** 该信没有独立 Wikipedia／Wikidata 条目，故不借用作者 QID。S2 的序号、发受人、委托条件、署地和日期与本章脚注一致，足以确定本卡所指文献。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -61,9 +60,3 @@ sources:
 |---|---|---|
 | → 作者（`authored_by`） | [列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）](../persons/giovanni-adamo-piola.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；证据：[来源](https://archive.org/details/diletteresulla06bott)；bottari-ticozzi-letter-collection-v6；vol. VI, letter XXVII, pp. 147–148 |
 | → 致函（`addressed_to`） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../persons/paolo-girolamo-piola.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 354–356,376; print pp. 10 |
-
-S1：第一章；印刷页 10；OCR L354–356,376。S2：Bottari–Ticozzi 卷 VI，第 XXVII 信，pp. 147–148。S2 为本次阅读全文的刊本文本，支持发受人、称号、内容、署地和日期；人物身份还将在对应人物卡中以 Wikipedia–Wikidata 双向核对。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已读完整刊本文字，补齐信件序号、作者身份、收信人、署地、日期、语言、画幅／人物要求、选题权限、完成时间与价格条款。手稿原件、原始档号及附带尺寸图未在刊本 OCR 中解决，明确保留为载体层缺口。

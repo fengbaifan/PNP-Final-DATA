@@ -3,7 +3,7 @@ title: "朱塞佩·盖齐（Giuseppe Ghezzi）"
 name_en: "Giuseppe Ghezzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/arcadia.md","note":"本章明确 Ghezzi 当选 Arcadia 学会成员。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 770–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–773; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–773"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
 - citation: "Wikipedia (en), Giuseppe Ghezzi, revision 1365386663. https://en.wikipedia.org/wiki/Giuseppe_Ghezzi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1634–1721 年罗马画家；不与 Pier Leone Ghezzi 混同，具体授职时间仍待补足。"
@@ -34,6 +41,7 @@ sources:
 - citation: "Treccani, “GHEZZI, Pier Leone”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/pier-leone-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "选读1705入会至1710受衔及1712委托段；未读整篇"
   sentence_summary: "1710年2月11日帕尔马公爵授骑士十字给Pier Leone；与Giuseppe的gentiluomo d’onore不是同一事例。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giuseppe-ghezzi
 ---
 
 ## 内容
@@ -123,8 +131,3 @@ sources:
 | → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 本章明确 Ghezzi 当选 Arcadia 学会成员；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 770–773; print pp. 19 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1674年经特别程序加入学院并任秘书；与其Arcadia成员身份分开；证据：[来源](https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/)；dbi-ghezzi；本卡 S6；1674年学院段 |
 | ← 由其任命（`appointed_by`，反向投影） | [英诺森十三世（Innocent XIII）](innocent-xiii.md) | 任命 Ghezzi 为 master of ceremonies；角色：master of ceremonies任命者；范围：任命范围限该职位；原断言与证据见发出端卡片“英诺森十三世（Innocent XIII）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
-
-- S1：第一章，印刷页19，OCR L770–773。S2–S3为初步对齐，S4–S5为全文及字段复核；S6为DBI传记全文，S7仅选读其子受衔段。
-- 本次维持Arcadia成员关系，并接收圣路加学院成员关系。亲缘、修复、交易等内容因端点或谓词不足未批量成边。
-- WP写1676首次展览；DBI区分1679等年的节庆组织及1687起明确主持展览，未据此把二者强合为同一任命日。WP给Pietro da Pietri的括号生卒与Ghezzi相同，未采用该日期。
-- 未决：不同授职原件、帕尔马公爵身份、部分展览初年与作品现藏；未把Wikipedia的1726书目日期当作作者仍在世。状态维持 source_backed。

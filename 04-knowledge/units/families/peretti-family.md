@@ -3,7 +3,7 @@ title: 佩雷蒂家族（Peretti Family）
 name_en: Peretti Family
 type: family
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 111–116; print pp. 5
+  original_quotes:
+  - source_span: "lines 111–116"
+    text: |2-
+      This essentia] pattern, which will have to be expanded and modified in later pages,
+      determined the sites of the more significant works of modern art in Rome. There were,
+      first, the great town and country houses, all of which—Aldôbrandini, Peretti, Borghese
+      and so on—contained early pictures and frescoes by the Bolognese painters. Secondly,
+      there were the churches. The most important was naturally St Peter’s, whose decoration
+      was under the direct supervision of the Pope, but there were many others which were
 - citation: Wikipedia (it), Peretti (famiglia), revision 152330894. https://it.wikipedia.org/wiki/Peretti_(famiglia). Accessed 2026-09-10.
   location: 导言身份段；REV-034 初步对齐，非全文补足
   sentence_summary: 意大利语 Peretti／Damasceni Peretti 贵族家族页；不是 Peretti 姓氏或个人。
@@ -33,6 +42,7 @@ sources:
     Accessed 2026-09-10.
   location: 印刷／PDF 页 1–3；重点页 2 的 1590／1605／1655／1696 年产权段、雕塑流散段，页 3 的清册与 Album Montalto 段
   sentence_summary: 别墅由 Camilla 继承后传 Michele，与 Alessandro 共享使用；后来经 Savelli、拍卖等发生转移。藏品亦分批流散，不能把收藏的名称当作永久所有权。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-families-peretti-family
 ---
 
 ## 内容
@@ -75,14 +85,6 @@ Testa 记 Alessandro 的 famiglia 在 1612 年达 170 人，随后列举受雇�
 - S6 是已读的研究辞典条目；其中所列 E. Schleier 对 Montalto 亚历山大组画的 1968 年论文（*The Art Bulletin* 50，页 188–193）尚未读。
 - S7 三页馆方说明已读；其讨论的原始清册和图册未读，不能称已完成藏品清单复原。
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 意大利语 Peretti／Damasceni Peretti 贵族家族页；不是 Peretti 姓氏或个人。
-
-[Wikipedia（it）](https://it.wikipedia.org/wiki/Peretti_(famiglia)) 的 wikibase_item 与 [Wikidata Q63522275](https://www.wikidata.org/wiki/Q63522275) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按采集时的历史键 `institutions/peretti-family` 定位（REV-036 仅迁移分类目录，原证据不改写）。整卡 evidence_status 仍为 source_backed；本轮具体补足见上文，关系定稿见本卡上表。
-
 ## 关系与证据
 
 ### 关系记录
@@ -91,12 +93,7 @@ Testa 记 Alessandro 的 famiglia 在 1612 年达 170 人，随后列举受雇�
 | ← 包含成员（`contains`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](../persons/alessandro-peretti-montalto.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；dbi-peretti-damasceni；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
 | ← 包含成员（`contains`，反向投影） | [西斯笃五世（Sixtus V）](../persons/sixtus-v.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；原断言与证据见发出端卡片“西斯笃五世（Sixtus V）”：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；peretti-family-wikipedia-it；佩雷蒂家族卡 S4；Storia 与谱系表 |
 
-本卡未新增正式关系。S 编号依文件头 sources 顺序；每条新事实在表格或段落标明依据，原书来源保持章／页／行号。Wikipedia 与 Wikidata 同属 wikimedia 来源组；官方说明、研究辞典及未读的书目线索分别记状态。
+### 身份与外部链接
 
-### 待补与争议
-
-- **来源内部差异：** S4 正文说 Prospero 很早去世，谱系表却并列婚配；又称 Giulio 是 Paolo 的兄长，而表列出生年反向。对应亲缘／长幼不采入确定字段。谱系表只读到单元内容，不以排版连线补造关系。
-- **年代暂缓：** S4 列 Sixtus V 生于 1521，S7 写 1520；本卡不据其中一项改写人物生年。S4 的 14 世纪创立、1712 年支系终结和爵位继承尚待谱系或档案核实，不把支系绝嗣当作所有同姓后裔消失。
-- **仍待补：** 成员完整清单、母系传名与收养的文书依据、Venafro 爵位与财产各自的继承链、作品逐项权属，以及 VIAF／GND／CERL 原站记录。WD 的七个属性未载这些内容，不等于历史上没有。
-
-本轮已形成三部分的家族内容补足稿，但上述缺口尚未全部解决，整卡维持 source_backed。完整实体响应、页面版本、字段采用／暂缓与阅读范围见 [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl) 的 `families/peretti-family`；过程解释见 [knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-037。
+- [Wikipedia（it）](https://it.wikipedia.org/wiki/Peretti_(famiglia))
+- [Wikidata Q63522275](https://www.wikidata.org/wiki/Q63522275)

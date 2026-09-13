@@ -3,7 +3,7 @@ title: "《罗马城记述》（1642）（Account of the City of Rome (1642)）"
 name_en: "Account of the City of Rome (1642)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/ameyden.md","note":"MS.5001 手稿署名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 89–92; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,12 +16,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 89–92; print pp. 4
+  original_quotes:
+  - source_span: "lines 89–92"
+    text: |2-
+      1 Ameyden, Relatione della città di Roma 1642-—MS. 5001 in Biblioteca Casanatense, Rome. Piety,
+      says the author, diminished under Urban VIII because of the excessive length of the papacy ‘non per colpa
+      alcuna del Prencipe, ma che la nascita del Pontificato elettivo, et ecclesiastico ricerca mutazione più spesso,
+      acciò molti possono godere de gli onori, e dignità ecclesiastiche, ricerche, c cariche della corte’.
 - citation: "Art Bonus, Biblioteca Casanatense – Restauro materiale librario. Lotto 4. https://artbonus.gov.it/biblioteca-casanatense-restauro-materiale-librario.-lotto-4.html. Accessed 2026-09-10."
   location: "Descrizione dell'intervento → Ms.5001；完整读取项目页面，未读手稿正文"
   sentence_summary: "馆方修复项目列同号17世纪纸本《Relazione della città di Roma fatta nell'anno 1642》，内容涉及罗马贵族家族；保存状况为项目陈述时点。"
 - citation: "A. Bastiaanse, AMEYDEN, Teodoro, Dizionario Biografico degli Italiani, vol. 2 (1960). https://www.treccani.it/enciclopedia/teodoro-ameyden_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "作者著述中Relazione与Diario的相关段落；未读所引手稿或1672年刊本"
   sentence_summary: "日记馆号1831–1833及罗马记述1672年刊本是对照线索，不能与5001自动合并。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-ameyden-relazione-1642
 ---
 
 ## 内容
@@ -80,14 +88,6 @@ sources:
 | → 作者（`authored_by`） | [迪尔克·范·阿梅登（Dirk van Ameyden）](../persons/ameyden.md) | MS.5001 手稿署名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 | → 位于（`located_at`） | [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 
-### 身份与检索结果
+### 身份与外部链接
 
-目前没有确认的[Wikidata检索入口](https://www.wikidata.org/)实体QID或对应Wikipedia对象页。REV-052按原语题名、1642年与MS.5001检索，未找到可确认双向配对的结果；检索未命中不证明不存在。不得借用作者Q3983865或图书馆Q2901274作为手稿QID。
-
-官方修复记录已直接读取，但不满足Wikipedia—Wikidata配对要求；卡片继续为 `source_backed`。
-
-### 证据链及未决
-
-本章转引 → 馆名及MS.5001 → 官方项目同号同题名记录；第三步补强实物识别，没有获得手稿正文。S3仅用于区分作者著述，不能证明具体写本内容。全部来源按元数据顺序S1–S3引用；查询及采用记录见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `archives/ameyden-relazione-1642`。
-
-尚待：可用的馆藏详细目录／数字原件、具体叶码与本章引句核对、作者署名及刊本对勘。保留实际缺口，不因无法Wiki配对而撤销有来源支持的原关系。
+- [Wikidata检索入口](https://www.wikidata.org/)

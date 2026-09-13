@@ -3,7 +3,7 @@ title: "赞助人资助学习旅行（Patron-funded study travel）"
 name_en: "Patron-funded study travel"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,34 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 165–189; print pp. 6
+  original_quotes:
+  - source_span: "lines 165–189"
+    text: |2-
+      The closest relationship possible between patron and artist was the one frequently
+      described by seventeenth-century writers as servitù particolare. The artist was regularly
+      employed by a particular patron and often maintained in his palace.1 He was given a
+      monthly allowance as well as being paid a normal market price for the work he pro­
+      duced.2 If it was thought that his painting would benefit from a visit to Parma to see
+      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the
+      expenses of the journey.3 The artist was in fact treated as a member of the prince’s
+      ‘famiglia’, along with courtiers and officials of all kinds. The degree to which he held
+      an official post varied with the patron; though some princes might create an artist
+      nostro pittore ‘with all the honours, authority, prerogatives, immunities, advantages,
+      rights, rewards, emoluments, exemptions and other benefits accruing to the post’,4
+      such a position was more frequent with architects than with painters. In most cases
+      within the prince’s retinue there was a sliding scale of rewards and positions up which
+      1 See many references in Pascoli—I, p. 93, and II, pp. 119, 332, 417, 435, etc.
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
+      4 The appointment of Gio. Gasparo Baldoini ‘per nostro pittore’ by Cardinal Maurizio di Savoia—
+      Baudi di Vesme, 1932, p. 23.
 - citation: "BONATTI, Giovanni, detto Giovannino del Pio o il Ferraresino, Dizionario Biografico degli Italiani 11 (1969). https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/. Read 2026-09-11."
   location: "本轮已全文读7972字符；复用训练、Carlo Pio及六城旅行段"
   sentence_summary: "支持Bonatti有保护人与跨城学习；旅行顺序、日期、Venice时长及师承年份有异文，不将六城列表当确定行程。"
@@ -22,6 +50,7 @@ sources:
 - citation: "Francesco Petrucci, Il “Martirio di San Lorenzo”. Presso il Museo Francescano di Roma. Un capolavoro sconosciuto di Ludovico Gimignani. Palazzo Chigi, Ariccia, 11 June 2021 (signed 6 June 2021). https://www.palazzochigiariccia.it/__trashed/. Accessed 2026-09-11."
   location: "文章全文；旅行背景段及注3"
   sentence_summary: "明确Giulio Rospigliosi推动Gimignani赴Parma、Venice学习，并据Russo1990将旅行改为1665而非1668；同行列Guglielmo Cortese和Giovanni Bonati。Russo原论文未读，不能当独立原档证明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-procedures-patron-funded-study-travel
 ---
 
 ## 内容
@@ -58,9 +87,3 @@ sources:
 |---|---|---|
 | ← 程序使用者（`procedure_used_by`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](../persons/giovanni-bonati.md) | Pio 资助其六城学习旅行为实际事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 | ← 程序使用者（`procedure_used_by`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](../persons/lodovico-gimignani.md) | 赴 Venice 学习的赞助旅行事例；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
-
-[博纳蒂](../persons/giovanni-bonati.md) · [卡洛·皮奥](../persons/cardinal-pio-bonati.md) · [吉米尼亚尼](../persons/lodovico-gimignani.md) · [帕尔马](../places/parma.md) · [威尼斯](../places/venice.md)为对象入口；已有个人赞助边仍在各卡，本程序不替代人—人或人—地点事实。
-
-S1：第一章p.6 L165–189（包括脚注）；S4馆方研究全文补证Giulio Rospigliosi及1665旅行，Russo原论文未读。S2–S3复用本轮已读专业传记，有相同转引线索，不另称独立原档。**Wiki双重验证未完成**：这是来源概括的特定操作做法，英文描述题及原语相关检索未得同粒度页；不把Grand Tour、艺术赞助或某个人的QID填入程序。Wikipedia人物页不能作为程序的身份配对。
-
-本轮补入条件、输入、活动和目的／结果区别；资助原信／账目、完整路线、实际学习成果与同行者／日期异文仍有缺口；Gimignani该次旅行资助人已对应Giulio Rospigliosi。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

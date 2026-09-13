@@ -3,7 +3,7 @@ title: "科尔纳吉画廊（Colnaghi's）"
 name_en: "Colnaghi's"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/london.md","note":"书中所记 1961 年画商目录所在地。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 467–468; print pp. 12
+  original_quotes:
+  - source_span: "lines 467–468"
+    text: |2-
+      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
 - citation: "Wikipedia (en), P. & D. Colnaghi & Co., revision 1362648719. https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "伦敦艺术经销机构，英文规范名 P. & D. Colnaghi & Co.；不是某次图录。"
@@ -30,6 +35,7 @@ sources:
 - citation: "Colnaghi, About. https://www.colnaghi.com/index.php/about. Accessed 2026-09-11."
   location: "机构历史全文"
   sentence_summary: "机构自述1760年巴黎创办、1767年伦敦分店、1785年Paul Colnaghi加入及后续画商业务沿革。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-colnaghi
 ---
 
 ## 内容
@@ -61,15 +67,6 @@ sources:
 - 19世纪末至20世纪，Colnaghi与Berenson、Knoedler等合作，为欧美收藏家和博物馆经手古代大师作品；具体作品交易仍须逐件查provenance。（S4）
 - 1911年与Obach & Co.合并后短暂改名，1914年恢复P. & D. Colnaghi and Company；1937年改为有限公司，随后经历多次所有权和地址变化。（S4）
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 伦敦艺术经销机构，英文规范名 P. & D. Colnaghi & Co.；不是某次图录。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) 的 wikibase_item 与 [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -78,10 +75,7 @@ sources:
 | → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 书中所记 1961 年画商目录所在地；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 | ← 经手者（`handler_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 
-S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次Wikipedia全文；S5为WD字段核对；S6为机构自述历史。机构自述和Wikipedia对细节依赖各自来源，本轮未把其列举的每项交易当作独立验证。
+### 身份与外部链接
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-### 身份与未决项
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.) ↔ [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759)双向身份核对继续通过。WD的1760成立与伦敦总部字段有来源，当前所有权、现址及法人连续性没有通过WD完整建立。1961年第2号图录的完整书目信息、萨基作品条目全文、成交与否以及现藏地仍待实物目录或馆藏档案，不能由机构通史补齐。
+- [Wikipedia（英文）](https://en.wikipedia.org/wiki/P._%26_D._Colnaghi_%26_Co.)
+- [Wikidata Q5147759](https://www.wikidata.org/wiki/Q5147759)

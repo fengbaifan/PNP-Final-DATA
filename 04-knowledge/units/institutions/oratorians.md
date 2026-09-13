@@ -3,7 +3,7 @@ title: "奥拉托利会（Oratorians）"
 name_en: "Oratorians"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 125–130; print pp. 5
+  original_quotes:
+  - source_span: "lines 125–130"
+    text: |2-
+      There was, besides, one other way in which a noble could add to the splendour of
+      Rome and hope to find a suitable burying place for his family: he could build a complete
+      new church. The demand was enormous. New Orders had sprung up to meet the
+      threat of the Reformation—the Oratorians and the Jesuits, the Theatines, the Barnabites
+      and the Capuchins; and the various foreign communities in Rome, the Florentines, the
+      Lombards and many others, vied with each other in the erection of magnificent new
 - citation: "Wikipedia (en), Oratory of Saint Philip Neri, revision 1366882900. https://en.wikipedia.org/wiki/Oratory_of_Saint_Philip_Neri. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马斐理伯·内利祈祷会；原 Oratorian 消歧义页不能采用。"
@@ -37,6 +46,7 @@ sources:
 - citation: "Arcidiocesi di Torino, Confederazione dell’Oratorio di S. Filippo Neri (Oratoriani), 2014-04-08. https://www.diocesi.torino.it/vicariato/2014/04/08/confederazione-delloratorio-di-s-filippo-neri-oratoriani/ . Accessed 2026-09-10."
   location: "搜索返回历史段落；直接读取未稳定成功，按摘录使用"
   sentence_summary: "1551年San Girolamo、1564年San Giovanni dei Fiorentini及1575年正式设立／获Vallicella与1612年会宪。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-oratorians
 ---
 
 ## 内容
@@ -100,14 +110,4 @@ WP世界会院名录和现代人数有不同统计时点，不用于证明本章
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 来源 | 章页／行数 | 句子摘要 |
-|---|---|---|
-| S1 | 第一章，印刷页5，OCR L125–130 | 作者将Oratorians与其他宗教团体并列，讨论宗教改革后罗马的新教堂需求；未逐一证明具体画作委托。 |
-
-相关知识元：[罗马（Rome）](../places/rome.md)、[新教堂（Chiesa Nuova）](../places/chiesa-nuova.md)、[保罗五世（Paul V）](../persons/paul-v.md)。[鲁本斯新教堂祭坛画](../works/rubens-chiesa-nuova-altarpiece-1606.md)提供章内作品导航，具体委托主体必须回到作品证据，不能从同处教堂推定。
-
-原无正式关系，本轮未新增。已完成详细补足，标明外部对齐的历史／现代范围；地方团体的个別产权、人员任职和艺术委托仍需逐项依据。source_backed不变。
-
-[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/oratorians`。
+暂无正式关系。

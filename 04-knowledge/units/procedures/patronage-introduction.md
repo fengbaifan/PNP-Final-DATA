@@ -3,7 +3,7 @@ title: "保护与职业引介程序（Patronage and professional introduction）
 name_en: "Patronage and professional introduction"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4, 5.'
@@ -13,6 +13,26 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 84–88,101–110; print pp. 4, 5
+  original_quotes:
+  - source_span: "lines 84–88"
+    text: |2-
+      Indeed, if we study the careers of the most important artists who followed Annibale
+      Carracci from Bologna at the beginning of the century and introduced a new style of
+      painting to Rome, a very consistent pattern emerges. The young painter would at first
+      be found living quarters, in a monastery perhaps, by a cardinal who had once been papal
+      legate in his native city. Through this benefactor he would meet some influential
+  - source_span: "lines 101–110"
+    text: |2-
+      Bolognese prelate who would commission an altar painting for his titular church and
+      decorations for Iris family palace—in which the artist would now be installed. The first
+      would bring some measure of public recognition, and the second would introduce him
+      to other potential patrons within the circle of the cardinal’s friends. This was by far
+      the more important step. For many years the newly arrived painter would work
+      almost entirely for a limited group of clients, until at last a growing number of altar­
+      pieces had firmly established his reputation with a wider public and he had sufficient
+      income and prestige to set up on his own and accept commissions from a variety of
+      sources. Once this had been achieved, he could view the death of his patron or a change
+      in régime with some degree of equanimity.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L199–223
   sentence_summary: 家户保护提供网络与同乡住处，也存在不自由；不视为人人必经步骤。
@@ -20,9 +40,38 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 199–223; print pp. 7
+  original_quotes:
+  - source_span: "lines 199–223"
+    text: |2-
+      A position of this kind was eminently desirable for the artist, and all writers agree
+      on its enormous and sometimes indispensable advantages.2 There were occasional
+      drawbacks: some artists had difficulty in leaving the service of their employer, and
+      there were obvious restrictions on personal freedom which might be irksome.3 On the
+      other hand, paradoxical though it may seem, artists placed in these circumstances had
+      unrivalled opportunities for making themselves known, at least within certain circles.
+      For it has already been pointed out that the patron was not wholly disinterested in his
+      service to the arts. A painter of talent in lus household was of real value to him, and he
+      was usually quick to sound the praises of his protégé and even to encourage him to work
+      for others. In the absence of professional critics such support and encouragement was
+      by far the easiest way for a painter to become known. ‘To establish one’s name it is
+      vital to start with the protection of some patron’, wrote Passeri when commenting on
+      the early life of Giovanni Lanfranco,4 for it was only the great families who were in a
+      position to get commissions for their protégés to paint in the most fashionable churches,
+      and this was an indispensable stage in any artist’s career.
+      In view of the powerful national rivalries that prevailed in Rome it is not at all
+      surprising that the artist’s birthplace played an even more important part in determining
+      his chances of enjoying servi tit particolare than in obtaining ordinary commissions.
+      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+      Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+      heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a
+      paramount issue for painters in the seventeenth century—could be almost as important
+      as nationality in securing an artist a position of this kind.
 - citation: "Pier Ludovico Puddu, “Ritratto di Giulio Sacchetti”, Galleria Borghese online catalogue, July2022, inv.608. https://www.collezionegalleriaborghese.it/opere/ritratto-di-giulio-sacchetti. Accessed2026-09-11."
   location: "完整作品记录：说明、技术字段、研究正文、流传及书目"
   sentence_summary: "Marcello Sacchetti是Cortona早期保护人，萨凯蒂圈子及持续委托与画家在罗马的立足有关；约1626年的兄弟肖像是具体成果。包含教皇肖像的三联安排仍是假说，不证明某次具体引见。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-procedures-patronage-introduction
 ---
 
 ## 内容
@@ -59,12 +108,4 @@ S3记Marcello Sacchetti是科尔托纳的早期保护人，艺术家约1612年�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 角色入口 | 知识元 | 依据／状态 |
-|---|---|---|
-| 案例艺术家 | [皮耶特罗·达·科尔托纳](../persons/pietro-da-cortona.md) | S2、S3 |
-| 案例保护人 | [马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md) | S2、S3；不据程序概括自动补每条赞助边 |
-| 家户概念 | [famiglia](../terms/famiglia.md) | S2语境，非人人必须加入的阶段 |
-
-S1为第一章pp.4–5、L84–88、101–110；S2为p.7、L199–223；S3只支持所列外部案例。未新增正式关系；内容稿已保存，evidence_status仍为source_backed。[阅读和采用记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)可复核。
+暂无正式关系。

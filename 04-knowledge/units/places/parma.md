@@ -3,7 +3,7 @@ title: "帕尔马（Parma）"
 name_en: "Parma"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 169–171, 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 169–171"
+    text: |2-
+      duced.2 If it was thought that his painting would benefit from a visit to Parma to see
+      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the
+      expenses of the journey.3 The artist was in fact treated as a member of the prince’s
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Parma, revision 1373651151. https://en.wikipedia.org/wiki/Parma. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Parma 城市；与帕尔马公爵和公国分别建模。"
@@ -40,6 +50,7 @@ sources:
 - citation: "UNESCO Creative Cities Network, Parma. https://www.unesco.org/en/creative-cities/parma. Accessed 2026-09-11."
   location: "城市说明全文及分类／Member since字段"
   sentence_summary: "美食类创意城市自2015年加入；不等于世界遗产登录，未采用无日期人口作现状。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-parma
 ---
 
 ## 内容
@@ -61,8 +72,6 @@ sources:
 | 近似坐标 | 北纬44.8015°、东经10.3280°；点位不代表行政边界 | S5，P625 |
 | 地理环境 | 波河平原，帕尔马溪穿城 | S4 |
 | 相关但不同对象 | 帕尔马省、帕尔马和皮亚琴察公国、帕尔马溪、公爵及其家族 | S1、S4–S6 |
-
-不把城市视为由一位设计师设计或由一个赞助人拥有的建筑。具体教堂、宫殿和作品的设计、权属、收藏及迁移须落在各自对象上。
 
 ### 城市沿革
 
@@ -99,18 +108,9 @@ S8时间表将1628新郎写为Ottavio，与该页正文及S9的Odoardo不符，�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-### 身份与来源
+### 身份与外部链接
 
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Parma)与[Wikidata Q2683](https://www.wikidata.org/wiki/Q2683)双向身份核对沿用REV-034；本轮全文补足限定城市语境。S1是章内来源，S2–S3是初步对齐，S4–S10为本轮阅读和字段依据；按元数据sources顺序编号。
-
-本卡尚无正式关系。上列人物和地点链接作导航；资助、到访、创作等关系须分别确定实际端点、时期和证据后登记，不能从地名共现直接生成。
-
-### 保留问题
-
-- S4导言与正文的2025人口不一致；WD的196764是2023年记录。未把任何一个数写成无日期现状。面积260.60平方公里为市镇统计范围，不能用作历史城区面积。
-- 分区列表与宫殿名录存在范围混合可能；未核实的行政分区、Palazzo Ducale与Palazzo del Giardino不机械合并。
-- 本章未具名旅行者、各次实际观摩作品、具体建筑权属和完整政权沿革仍待对象级证据。
-
-已保存详细内容稿，evidence_status仍为source_backed，不表示所有字段已验证。过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，按places/parma定位。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Parma)
+- [Wikidata Q2683](https://www.wikidata.org/wiki/Q2683)

@@ -3,7 +3,7 @@ title: "克勉八世（Clement VIII）"
 name_en: "Clement VIII"
 type: person
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"families/aldobrandini-family.md","time":"1536–1605","role":"出生于阿尔多布兰迪尼家族的成员","scope":"只表示家族归属，不把教皇任期或个人行为归给整个家族","note":"克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员。","evidence_ref":{"doc_id":"aldobrandini-family-wikipedia-wikidata","source_file":"https://www.wikidata.org/wiki/Q961820","source_span":"P527；与英文Wikipedia Aldobrandini family成员说明合读"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -20,6 +20,7 @@ sources:
 - citation: "Wikidata, Clement VIII, Q170395, revision 2532450060. https://www.wikidata.org/wiki/Q170395. Accessed 2026-09-12."
   location: "labels、aliases、P31、P569、P570、P19、P20、P27及enwiki sitelink；检查所用值的引用状态"
   sentence_summary: "Q170395与英文Wikipedia Pope Clement VIII双向对应；支持人物身份及基本日期地点，未引用字段不升格为独立证据。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-clement-viii
 ---
 
 ## 内容
@@ -54,8 +55,7 @@ sources:
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [阿尔多布兰迪尼家族（Aldobrandini Family）](../families/aldobrandini-family.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；证据：[来源](https://www.wikidata.org/wiki/Q961820)；aldobrandini-family-wikipedia-wikidata；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
 
-### 身份与证据范围
+### 身份与外部链接
 
-[Wikipedia（en）Pope Clement VIII](https://en.wikipedia.org/wiki/Pope_Clement_VIII) 与 [Wikidata Q170395](https://www.wikidata.org/wiki/Q170395) 的 sitelink 双向对应；另由已读家族页和家族项Q961820核对家族端点。S3仅读取本卡采用的身份、早年与任职段，不把未细读的教宗事务当作已补足字段。
-
-关系证据由S1–S4共同限定：人物页证明本名和出身，家族页／家族项证明成员归属。QID正确不表示Wikidata无引用的全部属性均已验证。
+- [Wikipedia（en）Pope Clement VIII](https://en.wikipedia.org/wiki/Pope_Clement_VIII)
+- [Wikidata Q170395](https://www.wikidata.org/wiki/Q170395)

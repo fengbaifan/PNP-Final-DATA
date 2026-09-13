@@ -3,7 +3,7 @@ title: "塞孔多·兰切洛蒂（Secondo Lancellotti）"
 name_en: "Secondo Lancellotti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 45–47; print pp. 3
+  original_quotes:
+  - source_span: "lines 45–47"
+    text: |2-
+      1 Passed, p. 293. For an enthusiastic contemporary account of art patronage—as of everything else
+      under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
+      reprinted.
 - citation: "Wikipedia (en), Secondo Lancellotti, revision 1359358326. https://en.wikipedia.org/wiki/Secondo_Lancellotti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Secondo Lancellotti，奥利韦坦会修士／作者；Treccani 明确《Hoggidì》作者及献予 Urban VIII。1627 首刊说与该源存在版本冲突。"
@@ -31,6 +37,7 @@ sources:
 - citation: "Emilio Russo, LANCELLOTTI, Secondo, Dizionario Biografico degli Italiani, vol. 63 (2004). https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "出生、入会与任职、Hoggidì刊印、1639迁法与死亡、稿本及书目段；REV-052"
   sentence_summary: "区分1599宗教誓愿、1611任职和1612解职；1623首刊、1627重印、1636第二部，作者与版本分别处理。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-abate-lancellotti
 ---
 
 ## 内容
@@ -106,10 +113,5 @@ sources:
 
 ### 身份与外部链接
 
-[Wikidata Q15733678](https://www.wikidata.org/wiki/Q15733678) ↔ [Wikipedia：Secondo Lancellotti（英文）](https://en.wikipedia.org/wiki/Secondo_Lancellotti)。沿用REV-034双向身份配对，本轮已读WP全文。VIAF 15657129仅据WD取得，未核原站。
-
-### 证据与未决项
-
-S1为章内依据，S2–S4保留初步核查范围；S5全文阅读与S6字段核查不当作独立双源，S7为独立传记补证但该传记也是WP部分内容的来源。没有读过其著作原件或所列研究全文。宗教誓愿不等于神职授任，解职不等于离会；WP两项简述未采用。头衔的恢复、具体馆藏和全套著作版本仍需定向核查，不按模板填满。
-
-[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+- [Wikidata Q15733678](https://www.wikidata.org/wiki/Q15733678)
+- [Wikipedia：Secondo Lancellotti（英文）](https://en.wikipedia.org/wiki/Secondo_Lancellotti)

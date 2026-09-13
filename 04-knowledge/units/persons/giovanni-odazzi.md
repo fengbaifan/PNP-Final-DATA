@@ -3,10 +3,12 @@ title: "乔万尼·奥达齐（Giovanni Odazzi）"
 name_en: "Giovanni Odazzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1706年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；1706年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/ciro-ferri.md","note":"在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；训练与1689年工作室转移段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1689年前","role":"工作室学生／团队成员","scope":"费里工作室阶段"}
+  - {"relation_type":"trained_by","target":"persons/giovan-battista-gaulli.md","note":"1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；1689年后Gaulli工作室段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1689年后","role":"工作室学生","scope":"盖乌利工作室阶段；不推定共同创作"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L455–457
@@ -15,6 +17,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 455–457; print pp. 12
+  original_quotes:
+  - source_span: "lines 455–457"
+    text: |2-
+      church,4 and certain painters had a reputation for exceptional speed. It was claimed that
+      Giovanni Odazzi worked faster than the notoriously rapid Luca Giordano, and Giacinto
+      Brandi too was famous in this respect. Quick work might entitle the artist to greater
 - citation: "Wikipedia (en), Giovanni Odazzi, revision 1365386596. https://en.wikipedia.org/wiki/Giovanni_Odazzi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1663–1731 年罗马画家与版画家，符合与 Giordano 比较的语境。"
@@ -30,6 +38,7 @@ sources:
 - citation: "Rossella Canuti, ODAZZI, Giovanni, Dizionario Biografico degli Italiani 79 (2013). https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "正文前8000字符及末2400字符、书目前1300字符选读"
   sentence_summary: "父母手足、正确生日、工作室与作品、协作人及遗嘱。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giovanni-odazzi
 ---
 
 ## 内容
@@ -82,11 +91,10 @@ Pascoli为同时代推重其艺术的传记作者；速度比较仍按第一章�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1706年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1706年入会段 |
+| → 师从／受训于（`trained_by`） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室；时间：1689年前；角色：工作室学生／团队成员；范围：费里工作室阶段；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；训练与1689年工作室转移段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](giovan-battista-gaulli.md) | 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作；时间：1689年后；角色：工作室学生；范围：盖乌利工作室阶段；不推定共同创作；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1689年后Gaulli工作室段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Odazzi) ↔ [Wikidata Q464446](https://www.wikidata.org/wiki/Q464446)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-尚无本卡正式出边；[费里](../persons/ciro-ferri.md)、[盖乌利](../persons/giovan-battista-gaulli.md)、[焦尔达诺](../persons/luca-giordano.md)为导航，评价比較不自动成为影响边。
-
-WP信息框“Born Giovanni Battista Gaulli”及5月25日不采用；Gaulli为老师、生日取DBI与WD的3月25日。部分作品年代、合作人及WP授衔说仍待对象级核查。未将继承人自动写成配偶或子女。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Odazzi)
+- [Wikidata Q464446](https://www.wikidata.org/wiki/Q464446)

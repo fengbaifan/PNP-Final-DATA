@@ -3,7 +3,7 @@ title: "本韦努托·切利尼（Benvenuto Cellini）"
 name_en: "Benvenuto Cellini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 634–635; print pp. 16
+  original_quotes:
+  - source_span: "lines 634–635"
+    text: |2-
+      them to tills strange behaviour.’1 We might be living in the pages of Benvenuto
+      Cellini’s autobiography; but the difficulties faced by a number of artists who failed to
 - citation: "Wikipedia (en), Benvenuto Cellini, revision 1372874984. https://en.wikipedia.org/wiki/Benvenuto_Cellini. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "十六世纪佛罗伦萨金匠、雕塑家和自传作者；人物与自传分开。"
@@ -25,6 +30,7 @@ sources:
 - citation: "Wikidata, Q190116, revision 2539677897. https://www.wikidata.org/wiki/Q190116. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-benvenuto-cellini
 ---
 
 ## 内容
@@ -39,20 +45,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Benvenuto Cellini | S1；标题中的语境说明为登记用语 |
-| 文献线索 | 自传被用于讨论对天才行为的宽容 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Benvenuto Cellini | S1 |
+| 文献线索 | 自传被用于讨论对天才行为的宽容 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** 佛罗伦萨金匠、雕塑家、铸币／奖章制作者和作者；页面依次记早年金工训练、罗马与法国宫廷经历、返佛罗伦萨后的《珀耳修斯》等作品、自传与后世影响。人物卡与自传文献卡保持分离。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Benvenuto Cellini（en）；revision 1372874984；23922字符 | 全文覆盖：Biography、Youth、Work in Rome、Ferrara and France、Final return to Florence and death、Artwork、Statues、Decorative art and portraiture、Lost works、Drawings and sketches、In literature, music and film、Autobiography |
-| Wikidata身份 | [Q190116](https://www.wikidata.org/wiki/Q190116)；与enwiki标题双向一致 | revision 2539677897；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1500-11-01；1500-11-03 | Wikidata P569；有参考；未列参考 |
 | 去世日期 | 1571-02-13 | Wikidata P570；有参考 |
@@ -65,14 +66,6 @@ sources:
 | 代表作 | Fontainebleau Nymph；珀耳修斯和美杜莎的首级；鹽罐；Ganymede；Ganymede with Eagle and Eaglet；Head of Medusa；Jupiter；Minerva with Shield | Wikidata P800；有参考；未列参考 |
 | 艺术或思想运动 | 風格主義 | Wikidata P135；有参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 十六世纪佛罗伦萨金匠、雕塑家和自传作者；人物与自传分开。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Benvenuto_Cellini) 的 wikibase_item 与 [Wikidata Q190116](https://www.wikidata.org/wiki/Q190116) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -80,8 +73,7 @@ sources:
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellini）](../archives/cellini-autobiography.md) | 本章明确引用 Cellini 的自传；原断言与证据见发出端卡片“本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellini）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 634–635; print pp. 16 |
 
-S1：第一章；印刷页 16；OCR L634–635。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q190116](https://www.wikidata.org/wiki/Q190116)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Benvenuto_Cellini)

@@ -3,7 +3,7 @@ title: "乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）"
 name_en: "Giovanni Maria Morandi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年7月1日入学院，后任Prince。","evidence_ref":{"doc_id":"dbi-morandi","source_file":"https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/","source_span":"本卡 S6；1657年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 744–745; print pp. 18
+  original_quotes:
+  - source_span: "lines 744–745"
+    text: |2-
+      wig; well spoken with enviable manners and got on best with the nobility’. Giammaria
+      Morandi ‘danced extremely well, was an excellent horseman and fencer’; Andrea
 - citation: "Wikipedia (en), Giovanni Maria Morandi, revision 1365386530. https://en.wikipedia.org/wiki/Giovanni_Maria_Morandi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Giovanni Maria Morandi，1622–1717 年意大利画家；Giammaria 为缩合名。"
@@ -31,6 +36,7 @@ sources:
 - citation: "Laura Mocci, MORANDI, Giovanni Maria, Dizionario Biografico degli Italiani 76 (2012). https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "正文前8500字符及末2300字符、书目前1500字符选读"
   sentence_summary: "生年争议、宫廷职业、祭坛画完成时间、画布装饰及1699年Arcadia入会。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giammaria-morandi
 ---
 
 ## 内容
@@ -84,10 +90,7 @@ sources:
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月1日入学院，后任Prince；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1657年入会段 |
 | → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1699年入会段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Maria_Morandi) ↔ [Wikidata Q1773095](https://www.wikidata.org/wiki/Q1773095)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-本卡暂无正式出边；[祖卡里](../persons/federigo-zuccari.md)、[盖齐](../persons/giuseppe-ghezzi.md)、[Arcadia](../institutions/arcadia.md)为相关卡导航，双联画像与组织关系另依证据建立。
-
-生年、师承、Arcadia入会年及作品载体均有明确异文。WD生卒日为normal日精度，生年准确度不能因编码精确而高于DBI的文献讨论；原始讣告、遗嘱及旅行证据尚未直接读取。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Maria_Morandi)
+- [Wikidata Q1773095](https://www.wikidata.org/wiki/Q1773095)

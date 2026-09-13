@@ -3,12 +3,13 @@ title: "乔瓦尼·博纳蒂（Giovanni Bonatti）"
 name_en: "Giovanni Bonatti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patronized_by","target":"persons/cardinal-pio-bonati.md","note":"Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 186–187; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"学习旅行受资助者","scope":"前往六座城市学习；枢机身份仅限此事例"}
   - {"relation_type":"uses_procedure","target":"procedures/patron-funded-study-travel.md","note":"Pio 资助其六城学习旅行为实际事例。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 186–187; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
   - {"relation_type":"trained_by","target":"persons/pier-francesco-mola.md","note":"1662年前后在罗马学习于莫拉；旅行赞助与师承分开。","evidence_ref":{"doc_id":"dbi-bonatti","source_file":"https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/","source_span":"本卡 S6；罗马训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1662","role":"学生","scope":"罗马训练；与旅行赞助分开"}
+  - {"relation_type":"trained_by","target":"persons/guercino.md","note":"传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异。","evidence_ref":{"doc_id":"dbi-bonatti","source_file":"https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/","source_span":"本卡 S6；1655年后训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1655年后／约1658","role":"学生","scope":"早期训练；不把来源中的精确年份差异强行统一"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L186–187
@@ -17,6 +18,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Giuseppe Bonati, revision 1365391430. https://en.wikipedia.org/wiki/Giuseppe_Bonati. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Giuseppe Bonati 又称 Giovanni Bonatti／Giovannino del Pio；英文页明确 Carlo Pio 保护与意大利学习旅行，符合章中对象。"
@@ -38,6 +44,7 @@ sources:
 - citation: "Francesco Petrucci, Il “Martirio di San Lorenzo”. Presso il Museo Francescano di Roma. Un capolavoro sconosciuto di Ludovico Gimignani. Palazzo Chigi, Ariccia, 11 June 2021 (signed 6 June 2021). https://www.palazzochigiariccia.it/__trashed/. Accessed 2026-09-11."
   location: "文章全文；旅行背景段及注3"
   sentence_summary: "明确Giulio Rospigliosi推动Gimignani赴Parma、Venice学习，并据Russo1990将旅行改为1665而非1668；同行列Guglielmo Cortese和Giovanni Bonati。Russo原论文未读，不能当独立原档证明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giovanni-bonati
 ---
 
 ## 内容
@@ -113,9 +120,9 @@ DBI对其“学院化”风格的价值评价保留为1969年编纂者观点。P
 | → 受其赞助／保护（`patronized_by`） | [卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）](cardinal-pio-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 | → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | Pio 资助其六城学习旅行为实际事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 | → 师从／受训于（`trained_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 1662年前后在罗马学习于莫拉；旅行赞助与师承分开；时间：约1662；角色：学生；范围：罗马训练；与旅行赞助分开；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；dbi-bonatti；本卡 S6；罗马训练段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](guercino.md) | 传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异；时间：1655年后／约1658；角色：学生；范围：早期训练；不把来源中的精确年份差异强行统一；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；dbi-bonatti；本卡 S6；1655年后训练段 |
 
-**S1：第一章，印刷页6，OCR L186–187。** 皮奥枢机资助六城旅行。S2–S3是初步身份核对，S4–S7为本轮全文和规范名补足，S8补旅行线索；所有原始姓名形式保留。
+### 身份与外部链接
 
-[Wikipedia](https://en.wikipedia.org/wiki/Giuseppe_Bonati)与[Wikidata Q5565359](https://www.wikidata.org/wiki/Q5565359)双向配对不变，Getty还将Q5565359列为该人来源。保存两条既有正式关系：[皮奥枢机](cardinal-pio-bonati.md)、[赞助学习旅行](../procedures/patron-funded-study-travel.md)。亲缘和师承字段已有出处，本次未新增关系边。
-
-出生异文、旅行次序、训练年数、作品现藏及完整谱系仍未解决；source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/giovanni-bonati定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Giuseppe_Bonati)
+- [Wikidata Q5565359](https://www.wikidata.org/wiki/Q5565359)

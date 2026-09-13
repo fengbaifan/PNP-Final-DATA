@@ -3,7 +3,7 @@ title: "皮耶特罗·达·科尔托纳（Pietro da Cortona）"
 name_en: "Pietro da Cortona"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1634年起任学院负责人；不同来源对任期终点有异文。","evidence_ref":{"doc_id":"icg-cortona","source_file":"https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html","source_span":"本卡 S9；1634–1636学院负责人段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 217–220; print pp. 7
+  original_quotes:
+  - source_span: "lines 217–220"
+    text: |2-
+      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+      Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+      heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11, 12.'
   location: 第一章；印刷页 11, 12；OCR L382–388,413–418,430–435
   sentence_summary: Cortona 不愿自拟题材；相关书信为转引，预备稿通行性需限定。
@@ -22,6 +29,32 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 382–388,413–418,430–435; print pp. 11, 12
+  original_quotes:
+  - source_span: "lines 382–388"
+    text: |2-
+      Instructions to the artist would also depend on his reputation and temperament.
+      How great, for instance, was the contrast between Pietro da Cortona and Salvator Rosa!
+      Pietro, recognised for years as the most distinguished painter in Rome, indeed in
+      Italy, refused to choose his own subjects and claimed that he had never done so in his
+      whole life1; whereas Rosa told one imprudent client who had had his own ideas for a
+      picture to ‘go to a brickmaker as they work to order’—though this attitude did not
+      stop him asking his friends for suggestions.2 And, of course, certain artists had acquired
+  - source_span: "lines 413–418"
+    text: |2-
+      None of the Bolognese artists working in Rome is known to have produced a
+      modello, and no certain examples survive even from such a great decorator as Pietro da
+      1 Letter from the Savoy Resident in Rome, Onorato Gini, in 1666, summarised bv Claretta, 1885,
+      p. 516: ‘ma prima patco apposto dal Cortona era ch’egli non voleva indursi a far ver una proposta [as
+      regards subject], allegando chc non avevane fatta alcuna in tutta la vita e che “questo sarebbe un non mai
+      volere il quadro” ’.
+  - source_span: "lines 430–435"
+    text: |2-
+      Cortona.1 On the other hand, the practice became widespread during the second half
+      of the century, and is particularly associated with the painter Giovan Battista Gaulli,
+      who may have been responsible for introducing it from his native Genoa where it was
+      already well established. One factor is clearly important: Professor Wittkower has
+      pointed out that ‘most of the large frescoes in Roman churches belong to the last 30
+      years of the seventeenth and the beginning of the eighteenth century’2 and it is obvious,
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L461–464
   sentence_summary: Grassi 与 Barberini Salone 稿本的归属仍有争议。
@@ -29,6 +62,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 461–464; print pp. 12
+  original_quotes:
+  - source_span: "lines 461–464"
+    text: |2-
+      1 L. Grassi published in 1957 what he claimed to be a series of modelli by Pietro da Cortona for the
+      ceiling of the galleria in the Palazzo Doria-Pamfili, but these have not won general acceptance—see
+      Brigand, 1962, p. 251. Nor is the so-called bozzetto for the Barberini Salone, kept in the palace, at all
+      convincing. On the other hand, Professor Waterhouse has pointed out to me the existence of a modello
 - citation: "Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。"
@@ -47,6 +87,7 @@ sources:
 - citation: "Istituto Centrale per la Grafica, Pietro da Cortona e il disegno, exhibition 1997–1998. https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html. Accessed 2026-09-11."
   location: "选读展览介绍至LA MOSTRA前的概述；长作品清单未完整阅读，原输出截断不记全文"
   sentence_summary: "采用1597生年、1634–1636学院负责人任期及设计／出资教堂；99页与百余素描、Cortona与Ferri多手及可能旧藏均须分开。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-da-cortona
 ---
 
 ## 内容
@@ -115,9 +156,11 @@ sources:
 | ← 为其所涉对象（`subject_of`，反向投影） | [奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）](../archives/gini-cortona-letter-1666.md) | 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信；原断言与证据见发出端卡片“奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 383–385,415–418; print pp. 11 |
 | ← 教师（`teacher_of`，反向投影） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 费里师从科尔托纳；与长期协作分作两条关系；角色：学生；范围：Ferri从Cortona学习；具体起止年未在本卡定稿；原断言与证据见发出端卡片“奇罗·费里（Ciro Ferri）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
 | ← 合作（`collaborated_with`，反向投影） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任；角色：长期助手／合作者；范围：具体项目责任仍逐作区分；原断言与证据见发出端卡片“奇罗·费里（Ciro Ferri）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| ← 教师（`teacher_of`，反向投影） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](guglielmo-cortese.md) | DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分；角色：受指导画家；范围：罗马训练／工作指导；具体合作项目另行判断；原断言与证据见发出端卡片“古列尔莫·科尔泰塞（Guglielmo Cortese）”：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；罗马训练与Cortona指导段 |
 | ← 受其赞助／保护（`patronized_by`，反向投影） | [马尔切洛·萨凯蒂（Marcello Sacchetti）](marcello-sacchetti.md) | 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中；角色：提供宫中住处与保护的赞助人；范围：确认同乡后的接纳与安置；原断言与证据见发出端卡片“马尔切洛·萨凯蒂（Marcello Sacchetti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 217–220; print pp. 7 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1634年起任学院负责人；不同来源对任期终点有异文；证据：[来源](https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html)；icg-cortona；本卡 S9；1634–1636学院负责人段 |
-- 相关知识元：[萨凯蒂](marcello-sacchetti.md)、[萨基](andrea-sacchi.md)、[科尔托纳城市](../places/cortona.md)、[有争议的Doria–Pamphilj稿组](../works/cortona-doria-pamfili-modelli-disputed.md)、[Barberini大厅所谓草稿](../works/barberini-salone-bozzetto-disputed.md)。当前未新增正式出边。
-- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Pietro_da_Cortona) ↔ [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)。ULAN500115154仅从WD核得编号，本轮未读Getty记录；WD的general contractor标签未机械作为现代职业导入。
-- S1–S3保存章页／行数与句意，S4–S5为旧对齐，S6–S9为补足。DBI仅选读早年部分，ICG仅选读介绍；不得标为这两来源全文已读。
-- 未决：精确生日、亲缘、学院终期、书信与稿本原证据。仍为source_backed；第六章和发现未开展。
+
+### 身份与外部链接
+
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_da_Cortona)
+- [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)

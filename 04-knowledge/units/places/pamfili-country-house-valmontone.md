@@ -4,7 +4,7 @@ name_en: "Palazzo Doria-Pamphilj, Valmontone"
 type: place
 sub_type: building
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/valmontone.md","note":"建筑位于 Valmontone，建筑与城市分别建模。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–319"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
+      Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+      the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
+      apparition of Iris to Turnus.’4
 - citation: "Wikipedia (it), Palazzo Doria-Pamphilj (Valmontone), revision 145152833. https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone). Accessed 2026-09-11."
   location: "对象页全文3979字符已读，包含信息框、正文、图注、注释和书目。"
   sentence_summary: "只采与本章对象有关且经语义判断的内容，异文与不采用字段见卡。"
@@ -28,6 +39,7 @@ sources:
 - citation: "Pro Loco Valmontone, Palazzo Doria Pamphilj. https://www.prolocovalmontone.it/it/attivita/palazzo-doria-pamphilj/. Accessed 2026-09-11."
   location: "全文历史说明已读，包括建筑、1948赠与信、1987使用协议和修复；未读原产权契约。"
   sentence_summary: "1948-05-09Alfonso致市政府附条件赠宫；1987协议是大学使用权，不作为大学取得所有权。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-pamfili-country-house-valmontone
 ---
 
 ## 内容
@@ -71,10 +83,6 @@ sources:
 
 第一章[Mola四元素方案](../works/mola-four-elements-valmontone.md)及[空气方案](../works/mola-air-valmontone.md)不等于现存整套装饰；不能以其方案署名覆盖其他作者。
 
-### 身份对齐
-
-本轮新增确认：[意大利语Wikipedia](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone))的wikibase_item为[Q16586138](https://www.wikidata.org/wiki/Q16586138)，其itwiki反向链接一致，建筑名、城市及工程语境吻合。英文检索未有适用页，转意大利语；全文3979字符已读。不是Rome的Q385387或城市Q243514。
-
 ## 关系与证据
 
 ### 关系记录
@@ -83,6 +91,7 @@ sources:
 | → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
 | ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 四元素装饰所处的建筑，与作品已有城市层级定位并存；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
 
-S1第一章第9页L312–319；S2–S5新资料。保留既有位于Valmontone的关系，其他正文链接为导航。
+### 身份与外部链接
 
-WP记主要建设1653–58、信息框1652–70，馆方记1654–约1670；采用馆方分期，保留差异。WP把博物馆全限底层及部分出土物年代／修复状态的旧表述未采用。365房间、总面积等未作为必要字段导入；历史产权和工程原档仍待核。
+- [意大利语Wikipedia](https://it.wikipedia.org/wiki/Palazzo_Doria-Pamphilj_(Valmontone))
+- [Q16586138](https://www.wikidata.org/wiki/Q16586138)

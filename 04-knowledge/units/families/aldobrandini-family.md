@@ -3,7 +3,7 @@ title: 阿尔多布兰迪尼家族（Aldobrandini Family）
 name_en: Aldobrandini Family
 type: family
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 111–116; print pp. 5
+  original_quotes:
+  - source_span: "lines 111–116"
+    text: |2-
+      This essentia] pattern, which will have to be expanded and modified in later pages,
+      determined the sites of the more significant works of modern art in Rome. There were,
+      first, the great town and country houses, all of which—Aldôbrandini, Peretti, Borghese
+      and so on—contained early pictures and frescoes by the Bolognese painters. Secondly,
+      there were the churches. The most important was naturally St Peter’s, whose decoration
+      was under the direct supervision of the Pope, but there were many others which were
 - citation: Wikipedia (en), Aldobrandini family, revision 1351777745. https://en.wikipedia.org/wiki/Aldobrandini_family. Accessed 2026-09-10.
   location: 导言身份段；REV-034 初步对齐，非全文补足
   sentence_summary: 来自佛罗伦萨、在罗马活动的贵族家族；不是单个家族成员。
@@ -35,6 +44,7 @@ sources:
     Accessed 2026-09-10.
   location: 辞任与婚姻、Corso 住所及 quadreria／1651 年 fidecommesso 段；Fonti e Bibl.
   sentence_summary: 记载 Camillo 于 1647 年 2 月 10 日与 Paolo Borghese 遗孀 Olimpia 成婚；部分绘画来自 Aldobrandini 遗产，艺术品在 1651 年继承安排中受约束。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-families-aldobrandini-family
 ---
 
 ## 内容
@@ -71,7 +81,7 @@ sources:
 | 成员 | [伊波利托·阿尔多布兰迪尼／克勉八世（Clement VIII）](../persons/clement-viii.md) | 本名与教宗名分开；家族成员关系已正式登记 | S4；S5 |
 | 成员 | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 两次婚姻分项记录如下；家族成员关系已正式登记 | S6–S8及人物卡 |
 | 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [Paolo Borghese](../persons/paolo-borghese.md) | 1638年结婚，1646年丧偶；正式配偶边由Olimpia卡发出 | 人物卡S1–S3 |
-| 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [卡米洛·潘菲利（Camillo Pamphili）](../persons/camillo-pamfili.md) | 采用1647-02-10；婚期异文见第三部分 | S8；S6及人物卡 |
+| 婚姻 | [Olimpia Aldobrandini](../persons/olimpia-aldobrandini.md) — [卡米洛·潘菲利（Camillo Pamphili）](../persons/camillo-pamfili.md) | 采用1647-02-10；婚期异文[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-families-aldobrandini-family) | S8；S6及人物卡 |
 
 ### 沿革、财产与收藏
 
@@ -101,22 +111,8 @@ S1 将家族城乡宅邸作为博洛尼亚画家早期作品的容纳空间。�
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [克勉八世（Clement VIII）](../persons/clement-viii.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；原断言与证据见发出端卡片“克勉八世（Clement VIII）”：[来源](https://www.wikidata.org/wiki/Q961820)；aldobrandini-family-wikipedia-wikidata；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
 | ← 包含成员（`contains`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人；时间：1623–1681；角色：出生家族成员与主要继承人；范围：只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；导言与Early life and ancestry |
-家族成员关系由具名人物卡以 `member_of` 发出，本卡显示反向入口；婚姻由Olimpia人物卡发出，不将配偶自动改写为整个家族的成员。
 
-### 身份与证据范围
+### 身份与外部链接
 
-[Wikipedia / Aldobrandini family](https://en.wikipedia.org/wiki/Aldobrandini_family) ↔ [Wikidata Q961820](https://www.wikidata.org/wiki/Q961820) 配对通过，所指佛罗伦萨起源、罗马活动的家族。S4 对象页全文已读；S5 字段提取的采用与暂缓依据在过程文件。S6–S7 为同机构的不同语言页，不是两份独立证据。整卡保留 source_backed。
-
-### 待补与争议
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 婚期 | 采用 S8 的 1647-02-10，S6 年份相符；S7 的 1646 保留为异文，不记作另一场婚姻 |
-| 年代责任 | 不能因 S4 相邻叙述推断死于 1605 年的克勉八世安排了 1647 年婚姻 |
-| 家谱与权属 | 早期支系、完整成员／继承链、头衔授予、宅邸及作品逐项权属未核；创立世纪与当代家长未纳入已核字段 |
-| 政治归属 | S5 罗列历史／现代政体而无时期限定，不能据此生成连续政治归属 |
-| 成员数量 | S5 仅列一个成员，不表示家族仅有一人 |
-| 消歧 | S5 另列同名 Q28753277，具体对象待查，不自动与 Q961820 合并 |
-| 外部规范号 | GND 119146444；VIAF 88637110、67269458，均为 S5 所列，原站未核，不擅自择一 |
-
-S1–S8 对应元数据 sources 顺序。[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)保留历史键 `institutions/aldobrandini-family`；REV-036 分类迁移不改写旧证据。完整采集与判断见[过程记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-037 及本轮整理记录。
+- [Wikipedia / Aldobrandini family](https://en.wikipedia.org/wiki/Aldobrandini_family)
+- [Wikidata Q961820](https://www.wikidata.org/wiki/Q961820)

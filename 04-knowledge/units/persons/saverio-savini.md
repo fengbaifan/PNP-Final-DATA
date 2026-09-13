@@ -3,7 +3,7 @@ title: "萨尔维奥·萨维尼（Salvio Savini）"
 name_en: "Salvio Savini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -13,12 +13,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 321–322; print pp. 9
+  original_quotes:
+  - source_span: "lines 321–322"
+    text: |2-
+      Because the price of a picture or fresco was often determined by the number of full1 See, for instance, the terms laid down for Saverio Savini in Gubbio in 1608 published by Gualandi,
+      IV, p. 60; or for Mario Minnitti in Augusta (Sicily) in 1617, published by Giuseppe Agnello.
 - citation: "Paolo Salciarini, with Anna Radicchi, Guida alla Basilica: Santuario di Sant'Ubaldo, 4th reprint (February 2015), pp. 20–21. https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf Accessed 2026-09-11."
   location: "PDF第20–21页，II Quadro，文本行511–542；题名与责任者见PDF第1页"
   sentence_summary: "将Pala del Voto归于Salvio Savini，记1608年3月25日委托、画家居Città della Pieve及1610年交付。"
 - citation: "Ministero per i beni e le attività culturali, Soprintendenza archivistica per l'Umbria, 'Decorazione,' I della Corgna: da Guido a Fulvio II, last modified 13 July 2017. https://www.movio.beniculturali.it/asperugia/dellacorgna/it/47/decorazione Accessed 2026-09-11."
   location: "Decorazione正文；签名、作品、年份和服务关系段"
   sentence_summary: "记Salvio Savini于1581年签署Villa del Colle del Cardinale的修辞学壁画，并常为della Corgna家族服务。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-saverio-savini
 ---
 
 ## 内容
@@ -59,18 +65,3 @@ Pala del Voto 为布面油画，画面上部是圣母子与施洗者约翰、圣
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../archives/savini-gubbio-terms-1608.md) | 条款所约束画家为 Savini，不借其他实例补全文本；时间：1608；角色：受条款约束的画家；范围：Gubbio委托条款；原断言与证据见发出端卡片“萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
-
-### 身份与外部链接
-
-当前未找到可确认的独立 Wikipedia 条目及 Wikidata QID，因此不借用同名人物或作品标识。身份修正依据第一章的年份、地点、合同性质与S2的同一委托完全对应，并由S3的同名画家活动记录增强，但这不是 Wikipedia—Wikidata 双站配对完成。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 姓名 | 采用Salvio Savini；“Saverio”保留为原书／OCR所见误记，不删除稳定路径，不新建重复人物 |
-| 身份对齐 | 尚无双向Wiki配对；需要继续检索意大利语人物资料、规范库和可能QID，未配对不妨碍采用S2–3支持的内容 |
-| 生平 | 生卒、父母、配偶、教育和完整职业年表本次未核，不以“notizie 1580–1610”改写为生卒年 |
-| 作品 | Pala del Voto的原合同、精确尺寸、馆藏编号及修复记录待核；1581壁画的分工作者与完整范围亦待专门来源 |
-
-来源序号 S1–S3 依文件头顺序；名称裁决、外部阅读和当前内容指纹保存在 03-processing 的同一任务包。

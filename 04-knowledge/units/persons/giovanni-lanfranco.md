@@ -3,11 +3,12 @@ title: "乔万尼·兰弗兰科（Giovanni Lanfranco）"
 name_en: "Giovanni Lanfranco"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/per-figure-pricing.md","note":"同段记每位主要人物 100 ducats，不能误作 130。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 498–502; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1631至1632年任学院Prince，足以支持成员归属；学院原档未读。","evidence_ref":{"doc_id":"dbi-lanfranco","source_file":"https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/","source_span":"本卡 S8；1631–1632任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/annibale-carracci.md","note":"在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段。","evidence_ref":{"doc_id":"wikipedia-lanfranco","source_file":"https://en.wikipedia.org/wiki/Giovanni_Lanfranco","source_span":"本卡 S3；Biography中early training与Roman workshop段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"约1602起","role":"工作室学生／助手","scope":"Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练"}
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 7, 11, 13, 15."
     location: "第一章印刷页 7, 11, 13, 15；OCR 行 210–213, 408–425, 500–502, 596–601"
@@ -16,6 +17,46 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 210–213, 408–425, 500–502, 596–601; print pp. 7, 11, 13, 15"
+    original_quotes:
+    - source_span: "lines 210–213"
+      text: |2-
+        vital to start with the protection of some patron’, wrote Passeri when commenting on
+        the early life of Giovanni Lanfranco,4 for it was only the great families who were in a
+        position to get commissions for their protégés to paint in the most fashionable churches,
+        and this was an indispensable stage in any artist’s career.
+    - source_span: "lines 408–425"
+      text: |2-
+        presumably drawings would have been necessary); when Lanfranco wrote in 1640 to
+        Cardinal Barberini asking to be given the chance to paint the altar picture of Pope Leo
+        and Attila, he specially mentioned that he would arrange for the Cardinal to see ‘in tela
+        il disegno’, but he explained that he was doing this to illustrate the difficulties of the
+        composition, and in any case the suggestion came from him and not from his patron.6
+        None of the Bolognese artists working in Rome is known to have produced a
+        modello, and no certain examples survive even from such a great decorator as Pietro da
+        1 Letter from the Savoy Resident in Rome, Onorato Gini, in 1666, summarised bv Claretta, 1885,
+        p. 516: ‘ma prima patco apposto dal Cortona era ch’egli non voleva indursi a far ver una proposta [as
+        regards subject], allegando chc non avevane fatta alcuna in tutta la vita e che “questo sarebbe un non mai
+        volere il quadro” ’.
+        2 Pascoli, I, p. 84.
+        3 Costello, p. 278.
+        4 The contract has been published by Friedlaender, p. 302.
+        5 See later, Chapter 3, p. 70, note 2.
+        8 Pollak, 1913, p. 26. Letter from Lanfranco in Naples dated 14 July 1640. ‘In tela il disegno’ must
+        certainly mean that the general composition would be sketched in on the canvas. We know that this was
+        a regular practice of Lanfranco’s—Costello, p. 274.
+    - source_span: "lines 500–502"
+      text: |2-
+        background. Thus Domenichino was paid 130 ducats for each figure in his frescoes in
+        Naples Cathedral and Lanfranco too. This system was very widespread and allowed
+        painters to make regular increases in price as their reputations grew.6 However, the
+    - source_span: "lines 596–601"
+      text: |2-
+        of Fabrizio Valguarnera, a Sicilian adventurer and diamond smuggler, give us a vivid
+        insight into the situation. He paid two visits to Lanfranco and found, among other
+        pictures, sketched-in canvases of the Magdalene and of the Crucifixion, both of which
+        he asked the artist to complete. In Poussin’s studio he came across the Plague at Ashdod
+        in a preliminary stage, and-was so pleased with it that he not only arranged to have it
+        finished but also commissioned a totally new picture of Spring from the same artist.1
   - citation: 'National Gallery of Art, "Giovanni Lanfranco." https://www.nga.gov/artists/2608-giovanni-lanfranco. Accessed 2026-09-09.'
     location: "人物名、年代、选列作品及 Bibliography（NGA）"
     sentence_summary: "转述：馆方提供 Giovanni di Stefano Lanfranco 名称形式、1582–1647 年生卒与研究书目；所列圣则济利亚作品涉及两位作者，不能认作独作。"
@@ -43,6 +84,7 @@ sources:
   - citation: "Treccani, \"Lanfranco, Giovanni,\" Enciclopedia on line. https://www.treccani.it/enciclopedia/giovanni-lanfranco/ Accessed 2026-09-10."
     location: "导言出生地点；与署名 DBI 对照"
     sentence_summary: "转述：出生地点列 Terenzo, Parma；署名 DBI 列 Parma，具体地点保留来源区别，不自动合并。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giovanni-lanfranco
 ---
 
 ## 内容
@@ -76,7 +118,7 @@ sources:
 | 那不勒斯主教座堂计酬 | 主要人物每位 100 杜卡特，与 Domenichino 的 130 区分 | 本书 p. 13，L500–502 |
 | Valguarnera 交易 | 要求完成工作室既有《受难》《抹大拉》画稿；不因本次补生平改成从零委托 | 本书 p. 15，L596–601 |
 
-### Wikidata 字段与采用范围（REV-038）
+### Wikidata 字段与采用范围
 
 S7 为 Q447730 修订 2537267979；复用此前身份配对，所用 QID 标签已实际读取。以下是人物属性，未创建正式关系。
 
@@ -107,15 +149,6 @@ S7 为 Q447730 修订 2537267979；复用此前身份配对，所用 QID 标签�
 
 全文另记罗马穹顶工程及那不勒斯装饰阶段，这可支持后续按时间整理职业经历；本次尚未逐项完成场所与作品对齐。其关于风格影响、Domenichino 争论及作品价值的评语保留作者/来源性质，不当作自动关系。WP 正文引用存在若干找不到对应书目的标记，相关细项应回原文核查，不能因全文读完而一并视为可靠。
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 1582–1647 年博洛尼亚体系画家；补齐反向链，不与同名运动员混同。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Lanfranco) 的 wikibase_item 与 [Wikidata Q447730](https://www.wikidata.org/wiki/Q447730) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -123,20 +156,14 @@ S7 为 Q447730 修订 2537267979；复用此前身份配对，所用 QID 标签�
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）](../archives/lanfranco-barberini-letter-1640.md) | 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini；原断言与证据见发出端卡片“乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；treccani-dbi-lanfranco；1640 petition paragraph |
 | ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请人为 Lanfranco；只证明提出申请；时间：1640-07-14；角色：申请人；范围：提出圣彼得祭坛画申请；未获委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 408–425; print pp. 11 |
+| ← 教师（`teacher_of`，反向投影） | [贾钦托·布兰迪（Giacinto Brandi）](giacinto-brandi.md) | DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点；时间：1646–1647；角色：学生；范围：兰弗兰科训练阶段；原断言与证据见发出端卡片“贾钦托·布兰迪（Giacinto Brandi）”：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；1646–1647训练段 |
 | → 采用程序（`uses_procedure`） | [按主要人物数量计价（Pricing by principal figures）](../procedures/per-figure-pricing.md) | 同段记每位主要人物 100 ducats，不能误作 130；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1631至1632年任学院Prince，足以支持成员归属；学院原档未读；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S8；1631–1632任职段 |
+| → 师从／受训于（`trained_by`） | [安尼巴莱·卡拉奇（Annibale Carracci）](annibale-carracci.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；证据：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；wikipedia-lanfranco；本卡 S3；Biography中early training与Roman workshop段 |
 | ← 所创作对象（`creator_of`，反向投影） | [兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）](../works/lanfranco-crucifixion-stock.md) | 工作室中已经勾画的画布，作者为 Lanfranco；原断言与证据见发出端卡片“兰弗兰科《受难》工作室画稿（Lanfranco’s unfinished Crucifixion in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
 | ← 所创作对象（`creator_of`，反向投影） | [兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）](../works/lanfranco-magdalene-stock.md) | 工作室中已经勾画的画布，作者为 Lanfranco；原断言与证据见发出端卡片“兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
 
-### 初步对齐与支持范围
+### 身份与外部链接
 
-以 17 世纪画家、帕尔马出身、罗马/那不勒斯活动区分同名现代运动员。本次点击 WP 的 Wikidata item，实际到达 Q447730，WD 描述为 Italian painter (1582–1647)，类型 human，包含上述姓名变体；当时 WD→WP 的 sitelink 读取超时；REV-034 已补读实体与反向链接，Q447730 身份配对通过。先前来源摘要仍记录当日阅读范围。
-
-正式边仍为 frontmatter 中按人物计价的有据关系；表中的师承、亲缘、任职和作品链接不是新图谱边。NGA 支持称名、年代及其目录；WP 的细项仍需更直接的来源。Getty 人物页 103JYJ 本次只返回空壳标题，未把它列为支持生平正文的证据。整卡 source_backed 不提升为全面外部已验证。
-
-### 待补与争议
-
-- 亲缘与 Principe 任职已有署名传记支持；姓名扩展形式、出生具体地点及卒日 29／30 日异文仍待原档。不要把 Principe 或 Cavalier 拼进本名。
-- 荣誉授予的准确时间和文书、完整履历、作品清单与评价史尚未系统查询。
-- 本章两件稿本和 1640 年申请方案的实物身份未由本轮生平补充解决。
-- REV-038 已提取适用 WD 字段，复用 REV-034 配对及既有 WP 全文阅读。威尼斯活动、原 ULAN／RKD 记录和作品技术研究仍待核；NGA 清册转录不等同于直接读取原清册。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)
+- [Wikidata Q447730](https://www.wikidata.org/wiki/Q447730)

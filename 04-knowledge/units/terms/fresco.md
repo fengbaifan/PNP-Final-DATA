@@ -3,7 +3,7 @@ title: "湿壁画技法（Fresco）"
 name_en: "Fresco"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -13,6 +13,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 258–264; print pp. 8
+  original_quotes:
+  - source_span: "lines 258–264"
+    text: |2-
+      It was natural enough that the measurements and site of the proposed work should
+      be laid down in some detail when a fresco or ecclesiastical painting was required, and
+      only one point sometimes caused difficulties: when an altarpiece was commissioned
+      from an artist living in some distant city, the problem of the lighting in the chapel
+      might become acute. For though the painter was naturally told the destination of his
+      picture, it was by no means certain that he always had the chance to inspect the site
+      himself and long exchanges would then be needed to clear up the problem.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L447–460
   sentence_summary: 长工期、进度与快慢评价。
@@ -20,6 +30,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 447–460; print pp. 12
+  original_quotes:
+  - source_span: "lines 447–460"
+    text: |2-
+      After the size of the picture and the subject-matter had been decided, there came
+      the question of the time limit, a problem of particular urgency during the whole of the
+      Baroque period. Nearly all patrons insisted that work should be finished as quickly as
+      possible, and as often as not they were disappointed by the artists whom they employed.
+      Some frescoes were, of course, such large undertakings that many years were required
+      for their completion. Ciro Ferri was given four years for the cupola of S. Agnese in
+      Piazza Navona, and Gaulli eight for the vault and transept vaults of the Gesù. Holy
+      Years often provided a special incentive for artists to complete their work in some
+      church,4 and certain painters had a reputation for exceptional speed. It was claimed that
+      Giovanni Odazzi worked faster than the notoriously rapid Luca Giordano, and Giacinto
+      Brandi too was famous in this respect. Quick work might entitle the artist to greater
+      rewards—we are told that Gaspard Dughet benefited in this way—but by no means
+      always met with critical approval.5 It was the Venetians who were especially famous for
+      their speed and the fact earned them a certain amount of contempt elsewhere.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L478–497,516–519
   sentence_summary: 月付、材料、脚手架和食宿依具体协议，不能推断每幅实际技法。
@@ -27,6 +54,35 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 478–497,516–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 478–497"
+    text: |2-
+      The final clause in any contract naturally referred to the price and financial arrange­
+      ments. Certain formulas were always adhered to. Some proportion of the sum agreed
+      was paid at once as a deposit. This ranged widely from a minimum of about one-seventh
+      to a maximum of nearly a half. If the work was a picture, the artist was very often
+      given a further payment when it was half finished and the remainder on completion,
+      together with a final bonus. And, of course, there were many variations possible in this
+      treatment. In the case of large-scale frescoes, the artist was usually paid at a regular
+      monthly rate.1
+      More interesting and significant than obvious arrangements of this kind is the
+      question of expenses incurred by the artist in his work. ‘The usual thing is to pay painters
+      for the stretcher, the priming and for ultramarine’, wrote an agent to a prospective
+      patron in 1647, and this is confirmed in many other documents.2 Once again variations
+      were possible3—sometimes the painter was responsible for all expenses; on other occa­
+      sions he was given the canvas and had to pay for the ultramarine himself; very rarely
+      he was told, as in mediaeval days, that the colours he bought must be of the very finest
+      quality.4 The patron invariably paid for the scaffolding needed for ceiling frescoes,
+      and if the work took place away from the painter’s residence he would also provide
+      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+      treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
+  - source_span: "lines 516–519"
+    text: |2-
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Wikipedia (en), Fresco, revision 1372789331. https://en.wikipedia.org/wiki/Fresco. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "湿灰泥上绘画的技术概念；与具体壁画作品实例区分。"
@@ -42,6 +98,7 @@ sources:
 - citation: "National Gallery, London, «Fresco», Glossary. https://www.nationalgallery.org.uk/paintings/glossary/fresco. Accessed 2026-09-11."
   location: "正文及相关作品卡1227字符全文已读。"
   sentence_summary: "buon fresco在湿intonaco上绘，secco在干底或已干湿壁画上绘，giornata为每日施作区；壁画可被揭取转移，当前可移动不反证原技法。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-fresco
 ---
 
 ## 内容
@@ -72,15 +129,12 @@ sources:
 - 壁画可能被揭取和转移；当前可移动不反证其原来采用湿壁画技法。[S8]
 - 不能将所有mural、墙上绘画、干壁画及具体作品实例合并成同一个对象。颜料、施作时长与修复情况须有作品级依据。[S6、S8]
 
-### 身份对齐
-
-[Wikipedia Fresco](https://en.wikipedia.org/wiki/Fresco) ↔ [Wikidata Q134194](https://www.wikidata.org/wiki/Q134194)已双向核对。本轮英文revision1372789331全文已读；现行中文标题收窄到所对齐的技法，稳定路径不变。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-无正式关系。S1–S8按sources顺序，保留第一章第8、12、13页原句定位。National Gallery词条直接支持术语边界。
+### 身份与外部链接
 
-WP各地起源“最早”说法口径不同，未写统一发明年代；每日固定小时数不当普遍规则。所列修复研究书目未全文阅读。具体壁画材料与工程参与人仍须各卡核证。
+- [Wikipedia Fresco](https://en.wikipedia.org/wiki/Fresco)
+- [Wikidata Q134194](https://www.wikidata.org/wiki/Q134194)

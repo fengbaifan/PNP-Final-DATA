@@ -3,7 +3,7 @@ title: "皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）"
 name_en: "Pier Francesco Mola"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"uses_procedure","target":"procedures/iconographic-consultation.md","note":"借神谱、注释本 Virgil 并请教学者，选择四元素图像内容。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 308–319; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+  original_quotes:
+  - source_span: "lines 179–185"
+    text: |2-
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
   sentence_summary: Valmontone 工作期间短暂离开亦须许可。
@@ -22,6 +32,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L312–319
   sentence_summary: 借书咨询神话题材，形成四元素及空气方案。
@@ -29,6 +45,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–319"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
+      Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+      the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
+      apparition of Iris to Turnus.’4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L495–497,505–506,516–519
   sentence_summary: 工程预付、食宿及材料条件。
@@ -36,6 +63,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 495–497,505–506,516–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 495–497"
+    text: |2-
+      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+      treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
+  - source_span: "lines 505–506"
+    text: |2-
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+  - source_span: "lines 516–519"
+    text: |2-
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L764–770
   sentence_summary: Innocent X 递画布属母题类比；Christina 邀同乘被认为较可能真实。
@@ -43,6 +86,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 764–770; print pp. 19
+  original_quotes:
+  - source_span: "lines 764–770"
+    text: |2-
+      we hear are merely refurbished versions of Ridolfi’s account of Charles V’s picking up
+      Titian’s brushes for the artist—Cardinal Barberini holding a mirror for Bernini while
+      he worked at his self-portrait in the guise of David,1 Innocent X handing Pier Francesco
+      Mola a canvas, and so on.2 Such stories have at least symbolic value. More likely to be
+      true in a strict sense are the accounts of Queen Christina taking the same artist (a
+      particularly successful courtier) into her carriage, and the Spanish Ambassador taking
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
 - citation: "Wikipedia (en), Pier Francesco Mola, revision 1370493551. https://en.wikipedia.org/wiki/Pier_Francesco_Mola. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Pier Francesco Mola／Il Ticinese，1612–1666 年在罗马活动的画家；文化／现代国籍标签不自动采用。"
@@ -64,6 +117,7 @@ sources:
 - citation: "J. Paul Getty Museum, The J. Paul Getty Museum Journal 19 (1991). https://www.getty.edu/publications/virtuallibrary/0892362081.html. Accessed 2026-09-11."
   location: "出版物介绍和目录全文；Carr论文PDF仅搜索结果呈现p109片段，未全篇阅读"
   sentence_summary: "Carr的Ecstasy in the Wilderness为研究入口；不能将所有同题素描认定为89.PA.4直接准备稿。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pier-francesco-mola
 ---
 
 ## 内容
@@ -154,8 +208,7 @@ WP关于“小画优于壁画”、风格综合和健康受诉讼影响的说法
 | → 采用程序（`uses_procedure`） | [题材与图像志协商（Consultation over subjects and iconography）](../procedures/iconographic-consultation.md) | 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 | ← 所创作对象（`creator_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 本章明确将四元素装饰项目归于 Mola；不引入第六章毁损叙述；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 
-S1–S5对应第一章：p6 L179–185报酬证词；p7 L231–233外出许可；p9 L312–319借书与题材咨询；p13 L495–497、505–506、516–519食宿、预付和材料；p19 L764–770宫廷礼遇叙事。后者的母题类比与“较可能真实”不能改成全部确证事件。
+### 身份与外部链接
 
-保留元数据中通向[图像咨询](../procedures/iconographic-consultation.md)的正式关系。与[卡米洛·潘菲利](camillo-pamfili.md)、[帕塞里](giambattista-passeri.md)、[帕斯科利](pascoli.md)及[博纳蒂](giovanni-bonati.md)的正文链接为导航，不新增边。
-
-[Wikipedia](https://en.wikipedia.org/wiki/Pier_Francesco_Mola)与[Wikidata Q1192715](https://www.wikidata.org/wiki/Q1192715)沿用双向配对。S6–S7初对齐，S8–S12本轮补足。生日、训练和定居异文、作品版本、未完成工程及亲缘仍有缺口；source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/pier-francesco-mola定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Pier_Francesco_Mola)
+- [Wikidata Q1192715](https://www.wikidata.org/wiki/Q1192715)

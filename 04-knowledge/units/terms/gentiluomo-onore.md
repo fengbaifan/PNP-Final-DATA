@@ -3,7 +3,7 @@ title: "荣誉侍从（Gentiluomo d’onore）"
 name_en: "Gentiluomo d’onore"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–773; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–773"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
 - citation: "Wikipedia (it), Gentiluomo, revision 149034786. https://it.wikipedia.org/wiki/Gentiluomo. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Gentiluomo Q749212 是社会身份／礼貌观念，不足以代表某宫廷的 gentiluomo d’onore 荣衔。"
@@ -28,6 +35,7 @@ sources:
 - citation: "Treccani, Vocabolario, “gentiluomo”. https://www.treccani.it/vocabolario/gentiluomo/ Accessed 2026-09-11."
   location: "词条全文；采用义项1，其他义项不用于本章"
   sentence_summary: "贵族身份、宫廷职能称谓及礼貌意义应区分；未定义帕尔马荣誉侍从具体职责。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-gentiluomo-onore
 ---
 
 ## 内容
@@ -60,9 +68,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-- S1：第一章，印刷页19，OCR L770–773。
-- S2–S3：原初步对齐；S4–S5：候选全文与WD复核；S6：Treccani词典全文，义项1支持语义区分。
-- 当前没有正式关系；未读授予文书，也未独立证实授予者的具体姓名。不能把相关教皇授予其他职务的记载一并归给帕尔马公爵。
-- 未决：该荣衔的制度定义、授予时间及实际权利；Giuseppe与其子Pier Leone的获衔事例不得混用。状态维持 source_backed。
+暂无正式关系。

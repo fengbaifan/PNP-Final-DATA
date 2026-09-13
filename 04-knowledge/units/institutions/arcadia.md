@@ -3,7 +3,7 @@ title: "阿尔卡迪亚学会（Society of Arcadia）"
 name_en: "Society of Arcadia"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–773; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–773"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
 - citation: "Wikipedia (en), Pontifical Academy of Arcadia, revision 1353721591. https://en.wikipedia.org/wiki/Pontifical_Academy_of_Arcadia. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1690 年罗马文学学院 Arcadia；不是地理上的阿卡迪亚。"
@@ -34,6 +41,7 @@ sources:
 - citation: "Accademia dell’Arcadia, Archivio. https://www.accademiadellarcadia.it/patrimonio/archivio/. Accessed 2026-09-10."
   location: "档案介绍全文、Atti Arcadici／Cataloghi degli Arcadi 段及书目入口"
   sentence_summary: "记录会员与会议文献的覆盖及缺卷，为 Ghezzi 入会进一步查证提供路径；未读档案原件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-arcadia
 ---
 
 ## 内容
@@ -93,12 +101,8 @@ sources:
 | ← 包含成员（`contains`，反向投影） | [朱塞佩·盖齐（Giuseppe Ghezzi）](../persons/giuseppe-ghezzi.md) | 本章明确 Ghezzi 当选 Arcadia 学会成员；原断言与证据见发出端卡片“朱塞佩·盖齐（Giuseppe Ghezzi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 770–773; print pp. 19 |
 | ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1695年入会段 |
 
-[Wikidata Q338478](https://www.wikidata.org/wiki/Q338478) · [Wikipedia（en）](https://en.wikipedia.org/wiki/Pontifical_Academy_of_Arcadia) · [学院官网](https://www.accademiadellarcadia.it/)。REV-034 配对结果复用；本轮英文页完整阅读，官方来源范围分列 S6–8。
+### 身份与外部链接
 
-本卡无正式出边；[朱塞佩·盖齐](../persons/giuseppe-ghezzi.md)和[罗马](../places/rome.md)为关联导航，是否形成正式关系以对应卡的关系记录为准。
-
-S1：第一章 p.19，OCR L770–773，盖齐获选入会。S2–3 为初步身份对齐；S4–8 为本轮外部补足。句意摘要不冒充引文。
-
-**未决：** Ghezzi 的入会日、牧名与具体会员原件尚待查。Wikipedia 的 1689／1690 创立表述按官方成立日区分；1723 驻地说不替代官方 1726 启用事件。女性“首位会员”及参加活动者是否正式会员的表述未有足够证据，不采用。希腊地名 Arcadia、田园文学意象与本机构不合并；第二部分仍暂停。
-
-[过程与采用依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)
+- [Wikidata Q338478](https://www.wikidata.org/wiki/Q338478)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Pontifical_Academy_of_Arcadia)
+- [学院官网](https://www.accademiadellarcadia.it/)

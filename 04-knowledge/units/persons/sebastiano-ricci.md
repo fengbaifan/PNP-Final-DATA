@@ -3,7 +3,7 @@ title: "塞巴斯蒂亚诺·里奇（Sebastiano Ricci）"
 name_en: "Sebastiano Ricci"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 326–328; print pp. 9
+  original_quotes:
+  - source_span: "lines 326–328"
+    text: |2-
+      Gualandi, I, p. 91. In 1682 Sebastiano Ricci was required by the Confraternità di S. Giovanni Battista
+      Decollato in Bologna to paint ‘La Decolatione di S. Gio. Battista con figure et altre conforme richiede il
+      rappresentare detta decolatione’—von Derschau, 1916, pp. 168-9. 3 Ruffo, p. 109.
 - citation: "Wikipedia (en), Sebastiano Ricci, revision 1365387009. https://en.wikipedia.org/wiki/Sebastiano_Ricci. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1659–1734 年威尼斯画家，符合1682年委托；不是侄辈Marco Ricci。"
@@ -28,6 +34,7 @@ sources:
 - citation: "Raffaella Poltronieri, 'RICCI, Sebastiano,' Dizionario Biografico degli Italiani 87 (2016). https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所引原档、作品档案和全部研究"
   sentence_summary: "支持原姓Rizzi、家世、Mazzoni师承判断、1682年合同、Farnese阶段、婚姻记录、欧洲活动及1734年死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-sebastiano-ricci
 ---
 
 ## 内容
@@ -92,16 +99,5 @@ Raffaella Poltronieri的DBI词条及书目已全文阅读；所引合同、审�
 
 ### 身份与外部链接
 
-[Wikipedia（en）Sebastiano Ricci](https://en.wikipedia.org/wiki/Sebastiano_Ricci) 与 [Wikidata Q506483](https://www.wikidata.org/wiki/Q506483) 的 sitelink 双向一致；生卒、Belluno—Venice轨迹及1682年博洛尼亚委托均与第一章对象吻合，且可排除侄子Marco Ricci。S4为全文阅读，S5为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 姓氏 | 同一人物的历史文献姓氏为Rizzi，Ricci为现代固定写法；作为姓名变体记录，不拆分实体 |
-| 师承 | 旧说为Federico Cervelli，现代研究较支持Sebastiano Mazzoni；保留证据层级，不并列为两个已证实教师 |
-| 早年婚姻传闻 | 中毒、逃亡和重婚叙事含传奇成分；只采用DBI明确列出的订婚、子女及1696年婚姻记录 |
-| 1682年作品 | DBI称已佚；第一章只引合同条款。作品卡仍需对象级复核其标题变体、委托团体正式名称和失佚依据 |
-| 合作与作品 | 与Marco Ricci及各地工坊的具体分工、完整作品目录和归属史尚未逐件验证 |
-
-来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Sebastiano Ricci](https://en.wikipedia.org/wiki/Sebastiano_Ricci)
+- [Wikidata Q506483](https://www.wikidata.org/wiki/Q506483)

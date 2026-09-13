@@ -3,7 +3,7 @@ title: "托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arund
 name_en: "Thomas Howard, Earl of Arundel"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
@@ -13,6 +13,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 40–44,48,53–55; print pp. 3, 4
+  original_quotes:
+  - source_span: "lines 40–44"
+    text: |2-
+      the Roman scene. ‘. . . It [is] a strange and unnaturall thing’, wrote a correspondent to
+      Lord Arundell in 1620 towards the end of Paul V’s sixteen-year rule,2 ‘that in that place,
+      contrary to all others, the long fife of the Prince is sayd to be the ruyne of the people;
+      whose wealth consists in speedy revolutions, and oft new preparations of new hopes in
+      those that aspire to rise by new fam.es [families] who, w.th the ould, remayne choaked
+  - source_span: "lines 48–48"
+    text: |2-
+      2 Letter from Mr Coke of 8 October 1620—Hervey, p. 183.
+  - source_span: "lines 53–55"
+    text: |2-
+      w.th a stand, and loath to blast their future adresses by spending to court those that
+      are dispaired of’ Exactly the same point was made with much greater force after the
+      twenty-one years of Urban VIII’s reign.1
 - citation: "Mary F. S. Hervey, The Life, Correspondence & Collections of Thomas Howard, Earl of Arundel (Cambridge University Press, 1921), pp. 181–184. https://archive.org/download/lifecorresponden00herviala/lifecorresponden00herviala_djvu.txt. Read 2026-09-11."
   location: "第十四章pp.181–184，Thomas Coke三封信及脚注；仅定向读OCR刊本，未读手稿原件"
   sentence_summary: "发信人Thomas Coke；8 October 1620信为Autograph Letters No.249；前后编排为帕多瓦语境，信中报告一位来访罗马人的消息，不是从罗马发信的依据。"
@@ -34,6 +50,7 @@ sources:
 - citation: "Christopher White, Anthony van Dyck: Thomas Howard, The Earl of Arundel, Getty Publications (1995). https://www.getty.edu/publications/virtuallibrary/0892363428.html. Read 2026-09-11."
   location: "完整出版介绍及目录；94页书本未读"
   sentence_summary: "作者、1995年、94页与研究主题可核；不以出版简介冒称读过书内论证。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-lord-arundell-coke-correspondent
 ---
 
 ## 内容
@@ -106,10 +123,8 @@ sources:
 |---|---|---|
 | ← 为收信人（`addressee_of`，反向投影） | [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../archives/coke-arundell-letter-1620.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；原断言与证据见发出端卡片“托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
 
-- **身份双重核对通过（REV-052）：** [English Wikipedia](https://en.wikipedia.org/wiki/Thomas_Howard,_14th_Earl_of_Arundel) page item＝[Wikidata Q166517](https://www.wikidata.org/wiki/Q166517)，WD enwiki反链回同页；[Getty ULAN 500057345](https://www.getty.edu/vow/ULANFullDisplay?subjectid=500057345)亦给此QID。
-- 配对依据：S2–S3将本章发受者、1620年10月8日和No.249连到Thomas Howard；S3生卒及S4–S6家族、收藏与身份相符。用通信特征消歧，不仅凭Lord称谓。
-- 本章关联：[科克](mr-coke-rome-correspondent.md) → [书信](../archives/coke-arundell-letter-1620.md) → 本人。既有收信人正式边保存在书信卡，正文不另造反向边。
+### 身份与外部链接
 
-S1为第一章pp.3–4、OCR L40–44,48,53–55；S2–S3是刊本及目录；S4–S5为相互关联的Wiki资料；S6权威名录；S7馆藏记录；S8出版介绍。全文阅读范围与采用字段见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
-
-**保留缺口：** 生年1585／1586；婚年1605／1606；任职时间异文；六子说需回到遗嘱；NG2968赠藏字段1913而流传段1914。Wiki中的1634赴苏格兰加冕、军费数额等未经补证不写作确定事实。书目把1921初版与Kraus重印及ISBN混记，1921出版责任按实际刊本，不复制混合引文。来源内的“罗马来信”旧表述已纠正；整卡仍为source_backed，身份确认不等于全部事实验证。
+- [English Wikipedia](https://en.wikipedia.org/wiki/Thomas_Howard,_14th_Earl_of_Arundel)
+- [Wikidata Q166517](https://www.wikidata.org/wiki/Q166517)
+- [Getty ULAN 500057345](https://www.getty.edu/vow/ULANFullDisplay?subjectid=500057345)

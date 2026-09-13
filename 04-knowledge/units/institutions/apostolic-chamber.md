@@ -3,7 +3,7 @@ title: "宗座财务院（Apostolic Chamber）"
 name_en: "Apostolic Chamber"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 685–689; print pp. 17
+  original_quotes:
+  - source_span: "lines 685–689"
+    text: |2-
+      discrimination between serious artists and mechanical craftsmen. The popes were lavish
+      ' with magniloquent gestures: ‘Painting is a most noble profession, quite different from
+      the mechanical crafts’, recognised the clerk of the Apostolic Chamber in 1601, and in
+      1605 Paul V granted the Accademia the annual right on the feast of St Luke to free one
+      man condemned to death. These were steps in the right direction, but hardly decisive
 - citation: "Wikipedia (en), Apostolic Camera, revision 1364122235. https://en.wikipedia.org/wiki/Apostolic_Camera. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "教皇财政机关；英文 Apostolic Camera 与章中 Apostolic Chamber 同指。"
@@ -25,6 +33,7 @@ sources:
 - citation: "Wikidata Q620030, revision 2542632360. https://www.wikidata.org/wiki/Q620030. Accessed 2026-09-11."
   location: "P31／P571／官网及rank、引用、enwiki与itwiki sitelink"
   sentence_summary: "两站互链继续支持机构身份；约1100年成立项和机构类型均无逐项引用，不据此写成确定创设日期。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-apostolic-chamber
 ---
 
 ## 内容
@@ -54,24 +63,12 @@ sources:
 - 16世纪以后，教会治理和财政制度变化不断调整其职责；19世纪教宗国行政改革及1870年教宗国终结使其实际财政影响大幅下降。（S4）
 - 该机关须与枢机团自身的财务机关区分；名称相近不构成同一机构。（S4）
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 教皇财政机关；英文 Apostolic Camera 与章中 Apostolic Chamber 同指。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Apostolic_Camera) 的 wikibase_item 与 [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1是第一章章页／行号证据；S2–3为初步身份对齐；S4为本次完整阅读的英文Wikipedia；S5为本次Wikidata字段核对。Wikipedia的中世纪与近现代沿革主要来自其所列研究和旧百科条目，本轮未逐项打开这些参考文献。
+### 身份与外部链接
 
-
-
-### 身份与未决项
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/Apostolic_Camera) ↔ [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030)双向身份核对继续通过。WD的P571约1100年只有年精度且无引用，不采用为确定成立年；P31类型也无逐项来源。1601年书记姓名、承认行为的原始文书、当时具体职权和任职名册仍待原档或专门研究核定。整卡仍为source_backed，不因两站配对而提升全部事实状态。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Apostolic_Camera)
+- [Wikidata Q620030](https://www.wikidata.org/wiki/Q620030)

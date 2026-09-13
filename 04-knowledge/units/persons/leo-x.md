@@ -3,7 +3,7 @@ title: "利奥十世（Leo X）"
 name_en: "Leo X"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 650–654; print pp. 16
+  original_quotes:
+  - source_span: "lines 650–654"
+    text: |2-
+      decfine in status. Art was no longer self-sufficient, as it had been in the days of Leo X.
+      Platonism, which had played such a part in exalting the rôle of the creator, no longer
+      dominated philosophical speculation. In a more utilitarian society the artist won a
+      securer place, but lost some of his mystique. Not until the eighteenth century was the
+      cult of the ‘genius’ to be revived. Meanwhile he had many reasons to be satisfied with
 - citation: "Wikipedia (en), Pope Leo X, revision 1368372595. https://en.wikipedia.org/wiki/Pope_Leo_X. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Giovanni de’ Medici，1513–1521 年在位教皇，与文艺复兴比较语境相容。"
@@ -25,6 +33,7 @@ sources:
 - citation: "Wikidata, Q49237, revision 2543571370. https://www.wikidata.org/wiki/Q49237. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-leo-x
 ---
 
 ## 内容
@@ -39,20 +48,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Leo X | S1；标题中的语境说明为登记用语 |
-| 章内论述 | 艺术自足性及创造者光环的历史比较 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Leo X | S1 |
+| 章内论述 | 艺术自足性及创造者光环的历史比较 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** Giovanni de’ Medici，1513–1521年任教皇；全文涵盖Medici家族、教皇选举、政治宗教与文艺赞助。第一章只在历史比较中提及。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Pope Leo X（en）；revision 1368372595；31792字符 | 全文覆盖：Early life、Cardinal、Pope、Papal election、War of Urbino、Plans for a crusade、Protestant Reformation、Other activities、Consistories、Canonizations、Final years、Character, interests and talents |
-| Wikidata身份 | [Q49237](https://www.wikidata.org/wiki/Q49237)；与enwiki标题双向一致 | revision 2543571370；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1475-12-11 | Wikidata P569；有参考 |
 | 去世日期 | 1521-12-01 | Wikidata P570；有参考 |
@@ -65,21 +69,12 @@ sources:
 | 配偶 | novalue | Wikidata P26；未列参考 |
 | 教育／训练机构 | 比萨大学 | Wikidata P69；有参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** Giovanni de’ Medici，1513–1521 年在位教皇，与文艺复兴比较语境相容。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Leo_X) 的 wikibase_item 与 [Wikidata Q49237](https://www.wikidata.org/wiki/Q49237) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1：第一章；印刷页 16；OCR L650–654。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q49237](https://www.wikidata.org/wiki/Q49237)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Pope_Leo_X)

@@ -3,7 +3,7 @@ title: "《赞助人与画家》（Patrons and Painters）"
 name_en: "Patrons and Painters"
 type: archive
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), title and copyright pages.'
@@ -13,9 +13,28 @@ sources:
     source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
     source_span: lines 3–17; unnumbered title and copyright pages
   sentence_summary: Francis Haskell 著，Yale University Press 出版，1980 修订扩充版，本件标 This Printing 2006；印刷年与版本年不同。
+  original_quotes:
+  - source_span: "lines 3–17"
+    text: |2-
+      PATRONS AND
+      PAINTERS
+      -SEGALS SSL—
+      A Study in the Relations
+      Between Italian Art and Society in the Age of the Baroque
+      REVISED AND ENLARGED EDITION
+      FRANCIS HASKELL
+      YALE UNIVERSITY PRESS
+      NEW HAVEN AND LONDON
+      1980
+
+      [Page 2]
+      For Larissa and my friends in Italy
+      Copyright © 1980 by Yale University.
+      This Printing 2006
 - citation: "Open Library, OL4093986M, Patrons and painters, revised and enlarged edition (1980). https://openlibrary.org/books/OL4093986M/Patrons_and_painters. Accessed 2026-09-10."
   location: "书目详情、Edition Notes、Physical Object及Edition Identifiers；REV-052"
   sentence_summary: "1980修订扩充版、英文、xviii+474页及34页图版、ISBN与OCLC；记录为1980版，不直接证明本件2006印刷本的装订与ISBN。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-patrons-and-painters
 ---
 
 ## 内容
@@ -59,14 +78,8 @@ S1为书名／版权页OCR L3–17（无印刷页号），记录本件版本及�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
 ### 身份与外部链接
 
-[Open Library 1980版记录](https://openlibrary.org/books/OL4093986M/Patrons_and_painters)。本书尚无确认的Wikipedia—Wikidata配对；作者身份标识不能代替著作或版次标识。
-
-### 证据与未决项
-
-S1直接支持使用版本与2006印次；S2支持1980版编目信息。Open Library为可编辑书目汇聚记录，ISBN与具体馆藏仍需相应图书馆记录或本件版权页核对。没有据该记录声称通读全书、核定所有版本或完成Wiki配对。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+- [Open Library 1980版记录](https://openlibrary.org/books/OL4093986M/Patrons_and_painters)

@@ -4,7 +4,7 @@ name_en: "Armanni's Collected Letters"
 type: archive
 sub_type: letter_collection
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/vincenzo-armanni-ch1.md","note":"本章所引 Armanni 信集，书目条目补全题名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 329–330; print pp. 9
+  original_quotes:
+  - source_span: "lines 329–330"
+    text: |2-
+      4 Montalto, p. 290. There is also an undated letter from a certain Vincenzo Armarmi (I, p. 215) to
+      Camillo Pamfili with suggestions for the decoration of his villa at Valmontone.
 - citation: Haskell，同书书后书目；仅核对当前引文条目。
   location: 同书书目（非第一章）；印刷页 412；OCR L69–70
   evidence_ref:
@@ -23,6 +28,11 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 69–70; print p. 412
   sentence_summary: 同书书目列 Vincenzo Armanni《Delle lettere del Signor V. A. nobile d’ugubbio》，3 卷，Roma，1663、1674。
+  original_quotes:
+  - source_span: "lines 69–70"
+    text: |2-
+      Armanni, Vincenzo: Delle lettere del Signor V. A. nobile d’ugubbio, 3 vols., Roma 1663,
+      1674. '
 - citation: "Vincenzo Armanni, Delle lettere..., vol. I (Roma: Iacomo Dragondelli, 1663). Biblioteca Nazionale Centrale di Roma / Google scan via Internet Archive. https://archive.org/details/bub_gb_7QeLKwkXauIC. Accessed 2026-09-11."
   location: "题名页及相邻相关信的OCR选读；所引致Camillo信pp.215–216全文逐页对影像，非整卷或原信手稿。"
   sentence_summary: "卷一献给Camillo Pamphili；pp.215–216报告送去十一项家族史题材，首项族谱树，其余十项许画家改进表现但须保留核心；未载发信日期与地点。"
@@ -32,6 +42,7 @@ sources:
 - citation: "Armanni, Delle lettere, vols. II–III, scans bub_gb_949r2maZ_jMC and bub_gb_tq28JVV2qXoC. https://archive.org/details/bub_gb_949r2maZ_jMC ; https://archive.org/details/bub_gb_tq28JVV2qXoC. Accessed 2026-09-11."
   location: "只选读卷首约3600字符；卷II题名献辞、卷III题名刊记和献辞开头。"
   sentence_summary: "卷II献Carlo Rossetti，卷III献Vittoria della Rovere；卷III刊记Macerata、Giuseppe Piccini、1674。卷II抓取题名页未完整显示刊记，出版地年另据专业书目。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-armanni-delle-lettere
 ---
 
 ## 内容
@@ -66,10 +77,6 @@ sources:
 - 卷I的数字扫描来自罗马国家中央图书馆藏本；Internet Archive标识为 `bub_gb_7QeLKwkXauIC`。这是扫描本识别，未核原信手稿馆藏号。[S3]
 - 另外两卷扫描标识见S5；本次只读卷首相关部分，未读全三卷。
 
-### 身份对齐
-
-仍无本信集独立的Wikipedia—Wikidata确认配对；不得借用作者QID。已有原题、分卷刊记和扫描标识改善了版本定位，但不是Wiki配对。
-
 ## 关系与证据
 
 ### 关系记录
@@ -77,7 +84,3 @@ sources:
 |---|---|---|
 | → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 本章所引 Armanni 信集，书目条目补全题名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | ← 包含成员（`contains`，反向投影） | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](armanni-pamfili-letter-undated.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；原断言与证据见发出端卡片“温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
-
-文件头保留既有作者关系；正文链接是导航。S1–S5按文件头sources顺序对应，保留第一章第9页L329–330及书目定位。
-
-**裁决与限制：** Haskell把三卷出版地概列Roma；本次依原刊及专业传记区分卷I的Roma与卷II–III的Macerata。各卷献辞对象不同，不把全三卷都写成献给Camillo。1663、1674是刊印年，不是所收各信写作年。DBI中将1698书列于作者生前刊行的文字与1684卒年不合，未采用。原件、全卷内容和完整编辑史仍未核。

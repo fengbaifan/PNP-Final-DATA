@@ -3,7 +3,7 @@ title: "西斯笃五世（Sixtus V）"
 name_en: "Sixtus V"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"families/peretti-family.md","note":"世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列。","evidence_ref":{"doc_id":"peretti-family-wikipedia-it","source_file":"https://it.wikipedia.org/w/index.php?oldid=152330894","source_span":"佩雷蒂家族卡 S4；Storia 与谱系表"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 68–69; print pp. 4
+  original_quotes:
+  - source_span: "lines 68–69"
+    text: |2-
+      It was especially noted of Cardinal Alessandro Peretti-Montalto, nephew of Pope Sixtus
+      V, that he was still respected and loved even after the death of that Pope, and that
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
   location: 第一章；印刷页 16；OCR L647–650
   sentence_summary: Haskell 解释 1580 年代艺术社会作用的观念变化。
@@ -22,6 +27,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 647–650; print pp. 16
+  original_quotes:
+  - source_span: "lines 647–650"
+    text: |2-
+      played by the artist—an understanding due to Pope Sixtus V in the 1580s as much as to
+      anyone—and the fact that great works of art were no longer produced essentially for
+      the private admiration of a court of hedonists were to some extent responsible for this
+      decfine in status. Art was no longer self-sufficient, as it had been in the days of Leo X.
 - citation: "Wikipedia (en), Pope Sixtus V, revision 1369320650. https://en.wikipedia.org/wiki/Pope_Sixtus_V. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Felice／Sixtus V，1585–1590 年在位教皇，与 Peretti 家族语境相容。"
@@ -37,6 +49,7 @@ sources:
 - citation: "The Holy See, Sisto V. https://www.vatican.va/content/vatican/it/holy-father/sisto-v.html. Accessed 2026-09-10."
   location: "人物表；REV-052"
   sentence_summary: "世俗名Felice Peretti，出生Grottammare，1585年4月24日及5月1日、1590年8月27日。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-sixtus-v
 ---
 
 ## 内容
@@ -109,10 +122,5 @@ S1：p.4，L68–69，蒙塔尔托与教皇的亲属背景。S2：p.16，L647–
 
 ### 身份与外部链接
 
-[Wikidata Q133350](https://www.wikidata.org/wiki/Q133350) ↔ [Wikipedia：Pope Sixtus V（英文）](https://en.wikipedia.org/wiki/Pope_Sixtus_V)。配对沿用REV-034，本轮全文已读。ULAN 500231367、VIAF 7525513据WD取得，原站未核。
-
-### 证据与未决项
-
-S1–S2保留本章证据；S3–S4为历史对齐；S5–S7为本轮不同范围来源。WP/WD非独立双源。出生年份与日、父母全名、入会年及神职授任的约数均保留差异；未把rank最高当作已解决冲突。斗兽场丝织工场属于计划，不写成已建成。古迹破坏、财政数额、轶事和政治评价需保留各自出处，不据传记概述批量建立关系。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+- [Wikidata Q133350](https://www.wikidata.org/wiki/Q133350)
+- [Wikipedia：Pope Sixtus V（英文）](https://en.wikipedia.org/wiki/Pope_Sixtus_V)

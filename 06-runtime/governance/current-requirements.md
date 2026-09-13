@@ -37,6 +37,7 @@
 | R-31 | 九类实体统一按分组独立字段、多值条目及时间履历／沿革表达；事实、证据与处理过程分开 | REV-041、042 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；实际整理时原位采用，不以规则更新标记旧卡完成 |
 | R-32 | 卡内直接展示实际适用的权威记录与稳定标识；QID、Wikipedia、人物辞典、档号／书目号、馆藏号及数字化全文均按对象选用，并与可点击关联知识元分开说明 | REV-046–049、056 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；元数据保留唯一机器关系记录，正文提供一致的阅读入口 |
 | R-33 | 对已采纳内容中的具名独立对象建立或复用知识元，并全盘审查作品—创作者—委托／赞助—安置／存放，以及人物师承、合作、朋友、亲缘、家庭／家族成员和机构隶属等关系；时间、版本、角色与证据随关系保留，缺端点时不得宣称关系完整 | REV-062、063 | AGENTS、pipeline、[ingest正文模板](../../.agents/skills/ingest/references/body-template.md)、[enrich](../../.agents/skills/enrich/SKILL.md)、[relate](../../.agents/skills/relate/SKILL.md) |
+| R-34 | 原书原语言摘录及精确定位随sources保存；实体保留事实、字段、关系和最小证据引用，重复来源导读、采集核验过程及待补说明另存03；事实不确定性保留在对应字段 | REV-072 | ingest的[元数据契约](../../.agents/skills/ingest/references/knowledge-unit-field-contract.md)与[正文模板](../../.agents/skills/ingest/references/body-template.md) |
 
 ## 执行状态的唯一落点
 

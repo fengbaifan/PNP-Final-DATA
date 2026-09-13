@@ -3,7 +3,7 @@ title: "查理五世授提香荣衔（1533）（Charles V's Grant of Honours to 
 name_en: "Charles V's Grant of Honours to Titian (1533)"
 type: event
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"persons/titian.md","note":"荣衔接受者为 Titian。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 799–804; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1533","role":"荣衔接受者","scope":"Count Palatine等荣衔；不采捡画笔逸事"}
@@ -16,12 +16,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 799–804; print pp. 19
+  original_quotes:
+  - source_span: "lines 799–804"
+    text: |2-
+      4 There had, of course, been cases long before the seventeenth century: the Emperor Frederick III
+      had bestowed on Gentile Bellini the dignity of Count Palatine, and in 1533 Charles V created Titian a
+      Count of the Lateran Palace, of his Court and of the Imperial Consistory. But such honours, deeply
+      significant though they were, had always been marks of the most exceptional favour. Towards the end
+      of the sixteenth century in Rome the granting of titles to artists became a more routine affair with some
+      of the attributes of our modern civil service grading and honours lists.
 - citation: "Wikipedia (en), Titian, revision 1374153957. https://en.wikipedia.org/wiki/Titian. Accessed 2026-09-11."
   location: "全文阅读信息框、正文、图注、注释及书目；不含外链全文"
   sentence_summary: "按本卡采用姓名、履历与关系语境；具体异文及暂缓字段见第三部分。"
 - citation: "National Gallery, https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/diana-and-actaeon-is-secured-for-the-nation. Accessed 2026-09-11."
   location: "2009年新闻稿中The Artist小节；非全稿"
   sentence_summary: "Charles V于1533年授予提香骑士荣誉；并未刊载完整授勋文书。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-titian-honours-1533
 ---
 
 ## 内容
@@ -60,8 +70,4 @@ sources:
 |---|---|---|
 | → 参与者（`has_participant`） | [提香（Titian）](../persons/titian.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
 | → 参与者（`has_participant`） | [查理五世（Charles V）](../persons/charles-v.md) | 荣衔授予者为 Charles V；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
-
-- S1：第一章，印刷页19，OCR L799–804。
-- S2：Titian英文页全文已读，采用授衔叙述与图像年代区分。
-- S3：NG2009新闻稿The Artist小节，仅支持Charles V—Titian—1533骑士授予。
-- 文件头2条参与人物关系完整保留。未补发生地或授予日；未建立帝国全套贵族特权与后裔继承边。状态维持 source_backed。
+| ← 为其具体实例（`instantiates`，反向投影） | [艺术家荣衔与职位授予（Conferral of titles and offices on artists）](../procedures/artist-title-conferral.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；原断言与证据见发出端卡片“艺术家荣衔与职位授予（Conferral of titles and offices on artists）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |

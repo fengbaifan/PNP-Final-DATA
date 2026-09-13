@@ -3,10 +3,11 @@ title: "贾钦托·布兰迪（Giacinto Brandi）"
 name_en: "Giacinto Brandi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"曾任圣路加学院Prince；会议参与和负责人职务支持成员归属。","evidence_ref":{"doc_id":"dbi-brandi","source_file":"https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/","source_span":"本卡 S7；学院活动与任职段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/giovanni-lanfranco.md","note":"DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点。","evidence_ref":{"doc_id":"dbi-brandi","source_file":"https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/","source_span":"本卡 S7；1646–1647训练段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1646–1647","role":"学生","scope":"兰弗兰科训练阶段"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L456–457
@@ -15,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 456–457; print pp. 12
+  original_quotes:
+  - source_span: "lines 456–457"
+    text: |2-
+      Giovanni Odazzi worked faster than the notoriously rapid Luca Giordano, and Giacinto
+      Brandi too was famous in this respect. Quick work might entitle the artist to greater
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L741–742
   sentence_summary: 传记另描述仆人、马车等生活安排。
@@ -22,6 +28,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 741–742; print pp. 18
+  original_quotes:
+  - source_span: "lines 741–742"
+    text: |2-
+      this aspect of their lives should have been stressed again and again. Giacinto Brandi
+      ‘lived splendidly with servants and a carriage’; Ciro Ferri too had a carriage, a fully
 - citation: "Wikipedia (en), Giacinto Brandi, revision 1365391474. https://en.wikipedia.org/wiki/Giacinto_Brandi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1621–1691 年罗马、那不勒斯画家，与章中传记时代相容。"
@@ -37,6 +48,7 @@ sources:
 - citation: "Antonella Pampalone, BRANDI, Giacinto, Dizionario Biografico degli Italiani 14 (1972). https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "正文前8500字符及末2300字符、书目前1500字符选读"
   sentence_summary: "婚姻、师承、委托及学院任职；生地须与较新研究异文并列。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giacinto-brandi
 ---
 
 ## 内容
@@ -89,11 +101,10 @@ Mattia Preti在1665年致Ruffo信中的赞誉由DBI转引，不自动证明对�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；学院活动与任职段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点；时间：1646–1647；角色：学生；范围：兰弗兰科训练阶段；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；1646–1647训练段 |
+| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Giacinto_Brandi) ↔ [Wikidata Q1748199](https://www.wikidata.org/wiki/Q1748199)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-尚无本卡正式出边；[兰弗兰科](../persons/giovanni-lanfranco.md)、[马蒂亚·普雷蒂](../persons/mattia-preti.md)、[学院](../institutions/accademia-di-san-luca.md)为相关知识元导航。
-
-出生地多值及卒日范围保留；WD preferred不压过较新学术异文。WD P1066的Semenza标签与文献Sementi名形对应仍须具体身份检查后建边。作画速度评价不作数量化生产率。原始婚姻、付款与授衔文书未直接读。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Giacinto_Brandi)
+- [Wikidata Q1748199](https://www.wikidata.org/wiki/Q1748199)

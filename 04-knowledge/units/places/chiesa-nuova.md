@@ -3,7 +3,7 @@ title: "罗马新教堂（Chiesa Nuova, Rome）"
 name_en: "Chiesa Nuova, Rome"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 402–404; print pp. 11
+  original_quotes:
+  - source_span: "lines 402–404"
+    text: |2-
+      For quite different but equally understandable reasons, Rubens, who was still only an
+      unknown foreigner, was asked in 1606 to show examples of his painting before under­
+      taking an altarpiece in the Chiesa Nuova.5 In general, more confidence was shown in
 - citation: "Wikipedia (en), Santa Maria in Vallicella, revision 1362822909. https://en.wikipedia.org/wiki/Santa_Maria_in_Vallicella. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马 Santa Maria in Vallicella 又称 Chiesa Nuova；建筑与 Oratorians 分开。"
@@ -25,6 +31,7 @@ sources:
 - citation: "Wikidata, Q2031901, revision 2507301391. https://www.wikidata.org/wiki/Q2031901. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-chiesa-nuova
 ---
 
 ## 内容
@@ -39,30 +46,17 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Chiesa Nuova, Rome | S1；标题中的语境说明为登记用语 |
-| 建筑与活动 | Rome；Rubens 1606 委托条件 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Chiesa Nuova, Rome | S1 |
+| 建筑与活动 | Rome；Rubens 1606 委托条件 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Santa Maria in Vallicella（en）；revision 1362822909；8813字符 | 全文覆盖：History、Interior、Chapels、Cardinal-Priests、See also、References、Bibliography、External links |
-| Wikidata身份 | [Q2031901](https://www.wikidata.org/wiki/Q2031901)；与enwiki标题双向一致 | revision 2507301391；只采用下列适用字段 |
 | 对象类型 | 教堂 | Wikidata P31；有参考 |
 | 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
 | 行政位置 | 罗马 | Wikidata P131；有参考 |
 | 成立／建造时间 | 1575 | Wikidata P571；有参考 |
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 罗马 Santa Maria in Vallicella 又称 Chiesa Nuova；建筑与 Oratorians 分开。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_in_Vallicella) 的 wikibase_item 与 [Wikidata Q2031901](https://www.wikidata.org/wiki/Q2031901) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -71,8 +65,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../works/rubens-chiesa-nuova-altarpiece-1606.md) | 委托指定的教堂场所；原断言与证据见发出端卡片“鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
 
-S1：第一章；印刷页 11；OCR L402–404。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q2031901](https://www.wikidata.org/wiki/Q2031901)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_in_Vallicella)

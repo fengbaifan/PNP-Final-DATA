@@ -3,7 +3,7 @@ title: "保罗·圭多蒂（Paolo Guidotti）"
 name_en: "Paolo Guidotti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1605至1606年任书记、1619年任Prince，支持成员归属。","evidence_ref":{"doc_id":"dbi-guidotti","source_file":"https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/","source_span":"本卡 S6；学院职务段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 535–537; print pp. 14
+  original_quotes:
+  - source_span: "lines 535–537"
+    text: |2-
+      respond to such offers. The somewhat eccentric Paolo Guidotti used to say that he gave
+      away his paintings as ‘free gifts’, but he had no hesitation in accepting the most expen­
+      sive presents in return.3 Claude Lorrain was equally shrewd: ‘Or ce qui est pire’, wrote
 - citation: "Wikipedia (en), Paolo Guidotti, revision 1365392705. https://en.wikipedia.org/wiki/Paolo_Guidotti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Paolo Guidotti／Cavalier Borghese，十六至十七世纪艺术家，别名不是博尔盖塞枢机。"
@@ -30,6 +36,7 @@ sources:
 - citation: "Olga Melasecchi, 'GUIDOTTI, Paolo, detto il Cavalier Borghese,' Dizionario Biografico degli Italiani 61 (2004). https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所引原档和全部研究"
   sentence_summary: "以档案和近代研究支持约1560年出生、1608年受封及冠Borghese姓、学院职务、家属、遗嘱和1629年3月10日死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-paolo-guidotti
 ---
 
 ## 内容
@@ -94,16 +101,5 @@ Olga Melasecchi的DBI词条及其书目已全文阅读；条目所引学院档�
 
 ### 身份与外部链接
 
-[Wikipedia（en）Paolo Guidotti](https://en.wikipedia.org/wiki/Paolo_Guidotti) 与 [Wikidata Q3894144](https://www.wikidata.org/wiki/Q3894144) 的 sitelink 双向一致；姓名、Cavalier Borghese称谓、Lucca—Rome轨迹和艺术身份均与第一章对象吻合。S4为全文阅读，S5为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 出生年 | 采用DBI“约1560”；Wikipedia给1559，1933年Treccani旧条目给1569，均缺少足以覆盖现代档案传记的本轮证据 |
-| 死亡日 | 采用DBI所据遗嘱与葬礼脉络的1629年3月10日；Wikidata同时保留3月7日和10日，Wikipedia给3月10日 |
-| “Cavalier”称号 | 1589年已见称呼，DBI认为过早，或源自贵族出身；1608年Milizia di Cristo荣衔与加用Borghese姓另有明确文献，二者不得混同 |
-| 飞行与解剖逸事 | 主要来自后期传记叙述，只作为接受史线索；不据此登记已证实事件 |
-| 作品与学术身份 | 完整作品、法律学位、诗作手稿和科学活动仍需对应原档或作品级来源 |
-
-来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Paolo Guidotti](https://en.wikipedia.org/wiki/Paolo_Guidotti)
+- [Wikidata Q3894144](https://www.wikidata.org/wiki/Q3894144)

@@ -3,7 +3,7 @@ title: "亚历山德罗·瓦萨利（Alessandro Vasalli）"
 name_en: "Alessandro Vasalli"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"testified_about","target":"persons/pier-francesco-mola.md","note":"在 Mola 与 Pamfili 争议中作证，解释有偿优先服务。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"争议证人","scope":"解释Mola对Pamfili的有偿优先服务"}
@@ -15,11 +15,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+  original_quotes:
+  - source_span: "lines 179–185"
+    text: |2-
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
 - citation: "Accademia Nazionale Virgiliana, Quaderni, PDF 6.pdf. https://www.accademianazionalevirgiliana.org/biblioteca/quaderni/6.pdf. Accessed 2026-09-11."
   location: "PDF及印刷页304、339；仅这两页已读"
   sentence_summary: "同名Alessandro Vassalli为十八世纪建筑／泥瓦工程从业者，1771年获建筑奖、1782年执行Paolo Pozzo设计；年代与本章Mola证人不合，排除合并，不将其生平补给本卡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-alessandro-vasalli
 ---
-
 
 ## 内容
 
@@ -54,9 +64,3 @@ sources:
 |---|---|---|
 | ← 贡献者（`contributor_to`，反向投影） | [瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）](../archives/vasalli-testimony-mola-pamfili.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；原断言与证据见发出端卡片“瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
 | → 为其相关争议作证（`testified_about`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 在 Mola 与 Pamfili 争议中作证，解释有偿优先服务；角色：争议证人；范围：解释Mola对Pamfili的有偿优先服务；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
-
-**S1：第一章p.6、L179–185，经Montalto p.295转引。** [证词记录](../archives/vasalli-testimony-mola-pamfili.md)保存载体和传递链；[莫拉](pier-francesco-mola.md)是现有正式关系端点，[潘菲利](camillo-pamfili.md)身份另在对应卡核定。证词发言者与执笔记录者不同。
-
-**补查结果：问题未解决。** 英文Wikipedia双名形检索无命中；意大利文命中现代家庭研究书目，不能对应十七世纪证人。S2的Alessandro Vassalli活动于1771、1782年，属于建筑工程语境，已排除。没有采用QID，未导入这些同名人的亲缘、职历或作品。
-
-本卡已完成本轮可达范围内的对齐与补足处置：排除十八世纪同名建筑从业者，保留章内身份、证词内容和1条正式关系；人物独立生平仍未解决。下一证据入口为Montalto 1955 p.295及其所据笔录，尚未取得原页／原档。[补查记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

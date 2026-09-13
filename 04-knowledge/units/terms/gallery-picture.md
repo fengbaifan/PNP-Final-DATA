@@ -3,7 +3,7 @@ title: "可移动画廊画（Gallery picture）"
 name_en: "Gallery picture"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -13,6 +13,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 265–273; print pp. 8
+  original_quotes:
+  - source_span: "lines 265–273"
+    text: |2-
+      The size of pictures for private galleries was also a matter for discussion. Those
+      complete decorative schemes that have survived show that in many cases pictures were
+      used to cover the walls of a room or gallery in symmetrical patterns, and that often
+      enough they were even let into the surface. Where this was the case it was obviously
+      important to regulate the exact measurements of any new picture commissioned, and
+      much surviving correspondence testifies to the patron’s interest in the question. Again
+      and again artists were commissioned to paint pictures in pairs, and in many instances
+      it is possible to see how this preoccupation with the decorative and architectural function
+      of paintings influenced their composition as well as their size.3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L339–356
   sentence_summary: 收藏购买、退画流通与自选题材案例。
@@ -20,6 +32,27 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 339–356; print pp. 10
+  original_quotes:
+  - source_span: "lines 339–356"
+    text: |2-
+      The commissioning of pictures for a gallery would naturally leave a freer choice,
+      for complete thematic uniformity of decoration was now only rarely insisted on. More
+      and more the movable gallery picture was coming into its own—a largely Venetian
+      innovation of over a century earlier which had made a decisive impact on Roman
+      collecting. Pictures were bought, sold, inherited, speculated in and exchanged with
+      bewildering speed so that biographers often no longer found it worth recording where
+      a painter’s works were at the time of writing. In these circumstances neither subject nor
+      size held the vital importance of earlier days, and, with the added stimulus of con­
+      noisseurship, collectors were frequently more interested in choosing the work of specific
+      artists than in going into great detail about what had actually been painted. Thus at the
+      very beginning of the century the Marchese Giustiniani, whose taste is discussed in a
+      later chapter, was such a wholehearted admirer of Caravaggio that, when an altarpiece
+      by that artist had been rejected as unsuitable for its intended location, he acquired it for
+      his gallery and hung it among a series of pictures which had been assembled far more
+      for their affinities of style than for any consistency of subject-matter.2 And some ninety
+      years later another patron, Giovanni Adamo, when commissioning a work from the
+      Genoese painter Paolo Girolamo Piola, gave the size and added only: ‘As to the subject,
+      I leave it to you whether to make it sacred or profane, with men or with women.’3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L591–606
   sentence_summary: 工作室存画买卖和完成安排。
@@ -27,6 +60,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 591–606; print pp. 15
+  original_quotes:
+  - source_span: "lines 591–606"
+    text: |2-
+      One result of all these circumstances was that painters did not always work directly
+      to commission in any of the ways described above. It soon became a regular practice
+      for them to keep in their studios a small number of pictures, often uncompleted ones,
+      which they showed to visiting clients as samples of their work. If found attractive, the
+      picture would then be finished once a suitable price had been agreed upon. The activities
+      of Fabrizio Valguarnera, a Sicilian adventurer and diamond smuggler, give us a vivid
+      insight into the situation. He paid two visits to Lanfranco and found, among other
+      pictures, sketched-in canvases of the Magdalene and of the Crucifixion, both of which
+      he asked the artist to complete. In Poussin’s studio he came across the Plague at Ashdod
+      in a preliminary stage, and-was so pleased with it that he not only arranged to have it
+      finished but also commissioned a totally new picture of Spring from the same artist.1
+      And we read of similar encounters with other painters. Salvator Rosa, who hated to
+      work to commission, had his studio full of pictures ready for sale, both large and small,
+      and admirers of his landscapes would come and visit him, routing around to see what
+      they wanted, and infuriating the artist when they insisted on choosing his small paintings
+      instead of the large historical scenes which he valued much more highly.2
 - citation: "Getty Art & Architecture Thesaurus, easel paintings (paintings by form), AAT300177435. https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300177435. Accessed 2026-09-11."
   location: "完整web规范记录的定义、词形、层级及出处已读，未读所引Grove等文献。"
   sentence_summary: "架上／可移动装置上制作的布本或板本画，含16世纪以后独立收藏价值语境；不证明本章gallery picture与该概念完全等值。"
@@ -36,6 +88,7 @@ sources:
 - citation: "National Gallery, London, «Pendant», Glossary. https://www.nationalgallery.org.uk/paintings/glossary/pendant. Accessed 2026-09-11."
   location: "675字符全文与所列Claude1648两画卡已读。"
   sentence_summary: "可移动收藏画仍可能为壁炉／窗两侧专门成对设计，尺寸、构图和题材受布置影响。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-gallery-picture
 ---
 
 ## 内容
@@ -62,13 +115,7 @@ sources:
 - **Cabinet pictures，AAT300033639：** 供小收藏室近观的小幅画，通常任一边小于两英尺，可用布、板、象牙、金属等载体。并非所有gallery pictures都具有这一尺寸、观看距离和载体范围。[S5]
 - **[Pendant pictures](pendant-pictures.md)：** 原本有意成对的绘画；可分别置于壁炉或窗两侧。可移动不等于没有成对关系，但并置本身也不够证明原本成对。[S6]
 
-### 身份对齐
-
-仍无gallery picture在本章含义上的独立Wikipedia—Wikidata确认配对。两项Getty规范记录已实际阅读全文，作为概念比较依据；不借easel器具、easel paintings或cabinet pictures的标识强配。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-无正式关系。S1第一章第8页L265–273、S2第10页L339–356、S3第15页L591–606保留；S4–S6为本轮权威术语来源。Getty列出的书目只作为定义出处线索，未读其全部原书。不建立与相邻概念的正式等同边。
+暂无正式关系。

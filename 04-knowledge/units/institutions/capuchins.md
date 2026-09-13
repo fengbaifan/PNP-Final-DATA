@@ -3,7 +3,7 @@ title: "嘉布遣会（Capuchins）"
 name_en: "Capuchins"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 125–130; print pp. 5
+  original_quotes:
+  - source_span: "lines 125–130"
+    text: |2-
+      There was, besides, one other way in which a noble could add to the splendour of
+      Rome and hope to find a suitable burying place for his family: he could build a complete
+      new church. The demand was enormous. New Orders had sprung up to meet the
+      threat of the Reformation—the Oratorians and the Jesuits, the Theatines, the Barnabites
+      and the Capuchins; and the various foreign communities in Rome, the Florentines, the
+      Lombards and many others, vied with each other in the erection of magnificent new
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L467–468
   sentence_summary: Sacchi 的罗马 Capuchin 教堂祭坛稿见图录及 Mahon 收藏线索。
@@ -20,6 +29,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 467–468; print pp. 12
+  original_quotes:
+  - source_span: "lines 467–468"
+    text: |2-
+      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
 - citation: "Wikipedia (en), Order of Friars Minor Capuchin, revision 1371309706. https://en.wikipedia.org/wiki/Order_of_Friars_Minor_Capuchin. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "改以嘉布遣小兄弟会对象页配对；原 Capuchin 消歧义页不能采用。"
@@ -41,6 +55,7 @@ sources:
 - citation: "Convento dei Frati Cappuccini di Via Veneto, La Chiesa. https://www.cappucciniviaveneto.it/la_chiesa_2.html . Accessed 2026-09-10."
   location: "网页文字全文；采用建造、管理和Antonio Barberini墓葬段落"
   sentence_summary: "年长Antonio Barberini主持教堂建设、Urban VIII于1626年奠基祝福及1630年首弥撒、Michele da Bergamo设计；不采纳无关作品日期。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-capuchins
 ---
 
 ## 内容
@@ -106,15 +121,6 @@ Religionis zelus、早期会宪、Michele da Bergamo的建筑Memoria及会史是
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 来源 | 章页／行数 | 句子摘要 |
+| 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| S1 | 第一章，印刷页5，OCR L125–130 | 嘉布遣会与其他新修会出现在罗马建堂需求的语境。 |
-| S2 | 第一章，印刷页12，OCR L467–468 | Sacchi为罗马嘉布遣教堂的祭坛画稿及图录／收藏线索。 |
-
-相关知识元：[罗马嘉布遣教堂](../places/capuchin-church-rome.md)、[萨基的祭坛画稿](../works/sacchi-capuchin-altarpiece-modello.md)、[安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md)、[乌尔班八世（Urban VIII）](../persons/urbano-viii.md)。年长Antonio的资料不写入同名侄子的卡片。
-
-本次集中审查未接收新的正式关系：现有内容缺少同粒度端点或直接制度依据。独立公文、历史会规、各项目产权／付款与人物阶段成员身份仍按具体缺口留待核证；source_backed不变。
-
-[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/capuchins`。
+| ← 委托者（`commissioner_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；commissioned-by-institutions-capuchins-md；本卡S2；有S4时并参委托／历史段 |

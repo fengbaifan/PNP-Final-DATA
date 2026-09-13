@@ -3,7 +3,7 @@ title: "希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）"
 name_en: "Cardinal Scipione Borghese"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"disputed_with","target":"persons/domenichino.md","note":"与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"争执一方","scope":"第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese"}
@@ -16,6 +16,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 79–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 79–83"
+    text: |2-
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: Haskell，同书索引 Domenichino 条目，明确将第 4 页关系指向 Cardinal Scipione Borghese。
   location: 同书索引（非第一章）；印刷页 453；OCR L1190–1194
   evidence_ref:
@@ -23,6 +31,14 @@ sources:
     source_file: 02-sources/02-Markdown/22_CHP-22Index.md
     source_span: lines 1190–1194; print p. 453
   sentence_summary: 同书索引在 Domenichino 下列 and Cardinal Scipione Borghese 并指第 4、27 页；本次只用于第一章第 4 页身份。
+  original_quotes:
+  - source_span: "lines 1190–1194"
+    text: |2-
+                  Domenichino (Domenico Zampieri), 4,13,27-8, op
+                     39. 43. 53. 72-4, 78, 131n 158-9. 171-2, Epicu
+                     234. 348                 Erlac
+                   and Cardinal Scipione Borghese, 4, 27 Errar
+                   and Cardinal Ludovisi, 4, 28, 72-4 Essex
 - citation: "Wikipedia (en), Scipione Borghese, revision 1357800136. https://en.wikipedia.org/wiki/Scipione_Borghese. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "同书索引把第 4 页人物明确为 Scipione；WP／WD 对应该枢机。第 17 页胸像版本仍未归定。"
@@ -44,6 +60,7 @@ sources:
 - citation: "Sonja Felici, Busto di Scipione Borghese, Galleria Borghese, January 2024, inv. CCLXV. https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2. Accessed 2026-09-10."
   location: "技术卡、条目正文和书目已读；所引档案、Testi 信与付款原件未读"
   sentence_summary: "1632 年胸像及复制版本、教皇下令与枢机报偿分开；不能单凭人物同名确定第一章第 17 页作品版本。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-cardinal-borghese-ch1
 ---
 
 ## 内容
@@ -121,13 +138,9 @@ sources:
 | → 争执（`disputed_with`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 与 Domenichino 争执的人物；同书索引 L1190–1194 将此处明确为 Scipione Borghese；角色：争执一方；范围：第一章所述执行／付款争执；人物据同书索引确认为Scipione Borghese；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
 | → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份；证据：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；博尔盖塞家族卡 S7；Scipione 段 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；原断言与证据见发出端卡片“贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）”：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；galleria-borghese-bust；本卡 S6–S7；对象与版本对照 |
+| ← 委托者（`commissioner_of`，反向投影） | [《书写中的圣哲罗姆》（博尔盖塞版本）（Saint Jerome Writing (Borghese version)）](../works/caravaggio-saint-jerome-borghese.md) | 来源明确该端点承担Saint Jerome Writing (Borghese version)的委托角色；不由委托推定当前所有权；时间：约1605–1606；角色：委托人／委托机构；范围：与瓦莱塔版本分开；Q2715177只用于博尔盖塞对象。；原断言与证据见发出端卡片“《书写中的圣哲罗姆》（博尔盖塞版本）（Saint Jerome Writing (Borghese version)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/saint-jerome)；commissioned-by-persons-cardinal-borghese-ch1-md；本卡S2；有S4时并参委托／历史段 |
 
-### 身份与链接
+### 身份与外部链接
 
-[Wikidata Q452570](https://www.wikidata.org/wiki/Q452570) ↔ [Wikipedia：Scipione Borghese](https://en.wikipedia.org/wiki/Scipione_Borghese)，沿用已完成双向身份配对；本轮全文阅读 S5。Getty ULAN **500245006**、VIAF **54156396** 来自 S6，不表示本轮直接访问核验过这些规范库。
-
-### 未决与采用范围
-
-生年、生地分歧保留，尚未核出生原始记录；完整职衔任期、亲缘及收藏清单尚不完备。S5 无引的财产合法性、私人生活传闻及部分收藏取得叙事未转换为确定字段；S8 通史式总览也不覆盖单件记录。S9 有进一步解决第 17 页胸像问题的资料，但两件版本、500 scudi 与 500 zecchini 加钻石的记录不能混为一笔。此卡首轮详细内容已保存，维持 source_backed。
-
-[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+- [Wikidata Q452570](https://www.wikidata.org/wiki/Q452570)
+- [Wikipedia：Scipione Borghese](https://en.wikipedia.org/wiki/Scipione_Borghese)

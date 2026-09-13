@@ -62,8 +62,13 @@ LABELS = {
     "employer_of": "雇主",
     "granted_privilege_to": "向其授予权利",
     "privilege_granted_by": "由其授予权利",
+    "exemplified_by": "以此为实例",
+    "instantiates": "为其具体实例",
+    "friend_of": "朋友",
     "handled_by": "由其经手",
     "handler_of": "经手者",
+    "held_by": "由其保管",
+    "holder_of": "保管对象",
     "has_participant": "参与者",
     "participated_in": "参与事件",
     "has_subject": "所涉对象",
@@ -72,6 +77,8 @@ LABELS = {
     "honoured_by": "获其授予荣衔",
     "intended_site_of": "预定地点",
     "intended_for": "拟用于",
+    "installed_at": "安置于",
+    "installation_site_of": "安置地点",
     "issued_by": "由其发布",
     "issuer_of": "发布者",
     "kin_of": "亲缘",
@@ -95,6 +102,8 @@ LABELS = {
     "teacher_of": "教师",
     "uses_procedure": "采用程序",
     "procedure_used_by": "程序使用者",
+    "variant_of": "为其版本／复制",
+    "has_variant": "有版本／复制",
 }
 
 

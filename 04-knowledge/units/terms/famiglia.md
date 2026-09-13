@@ -3,7 +3,7 @@ title: "家户（Famiglia）"
 name_en: "Famiglia"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6, 7.'
@@ -13,6 +13,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 171–177,195–198; print pp. 6, 7
+  original_quotes:
+  - source_span: "lines 171–177"
+    text: |2-
+      expenses of the journey.3 The artist was in fact treated as a member of the prince’s
+      ‘famiglia’, along with courtiers and officials of all kinds. The degree to which he held
+      an official post varied with the patron; though some princes might create an artist
+      nostro pittore ‘with all the honours, authority, prerogatives, immunities, advantages,
+      rights, rewards, emoluments, exemptions and other benefits accruing to the post’,4
+      such a position was more frequent with architects than with painters. In most cases
+      within the prince’s retinue there was a sliding scale of rewards and positions up which
+  - source_span: "lines 195–198"
+    text: |2-
+      the artist might move on promotion. Thus from 1637 to 1640 Andrea Sacchi was placed
+      in Cardinal Antonio Barberini’s household among three slaves, a gardener, a dwarf
+      and an old nurse; in the latter year he was moved up to the highest category of pen­
+      sioners with writers, poets and secretaries.1
 - citation: "Wikipedia (it), Famiglia, revision 152185769. https://it.wikipedia.org/wiki/Famiglia. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "意大利语 Q8436 是亲属／共同生活家庭的一般概念，本章为包含侍从的赞助家户，范围不一致。"
@@ -22,6 +38,7 @@ sources:
 - citation: "Treccani, Vocabolario on line, famiglia. https://www.treccani.it/vocabolario/famiglia/. Read 2026-09-11."
   location: "完整词条15808字符；采用词源与第3义，比较第2义"
   sentence_summary: "第3义为服务／随从组织，明确举枢机家户；第2义为共同祖先后裔，历史字义不能用现代亲属家庭整体替代。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-famiglia
 ---
 
 ## 内容
@@ -48,10 +65,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-[特定保护人服务](servitu-particolare.md)说明服务条件；[巴贝里尼混合记录](../institutions/barberini-household.md)仍需把Antonio、Francesco个人家户与家族集体分开。本卡是术语，不能代替任何一户充当关系端点。
-
-**范围配对仍未通过：** 既有[意大利语Famiglia](https://it.wikipedia.org/wiki/Famiglia)／[Q8436](https://www.wikidata.org/wiki/Q8436)为一般家庭概念；词中包含历史说明不代表整个对象与本章家户相同。补查英文household／cardinal famiglia命中具体教廷职务或别家家户，也不能据此采用其QID。本轮未读此一般家庭页全文，不增加WP全文覆盖。
-
-S1：第一章pp.6–7，L171–177,195–198；S2–S3为旧范围比较；S4为词典全文中适用义项。词典支持用词区分，不能提供Antonio家户完整名册、机构成立年或一套通用等级。相关清册与报酬安排仍待具体来源。未新增正式关系或改作family类；[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+暂无正式关系。

@@ -3,8 +3,12 @@ title: "马里奥·努齐（Mario Nuzzi）"
 name_en: "Mario Nuzzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
+relations:
+  - {"relation_type":"collaborated_with","target":"persons/filippo-lauri.md","note":"1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物。","evidence_ref":{"doc_id":"dbi-nuzzi","source_file":"https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/","source_span":"本卡 S7；Quattro stagioni合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1658–1659","role":"花卉画家／人物画家","scope":"Chigi《四季》之《春》；不推广为全部作品的长期合作"}
+  - {"relation_type":"collaborated_with","target":"persons/carlo-maratta.md","note":"1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物。","evidence_ref":{"doc_id":"dbi-nuzzi","source_file":"https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/","source_span":"本卡 S7；Quattro stagioni合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1658–1659","role":"花卉画家／人物画家","scope":"Chigi《四季》之《夏》；不推广为全部作品的长期合作"}
+  - {"relation_type":"collaborated_with","target":"persons/giacinto-brandi.md","note":"1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物。","evidence_ref":{"doc_id":"dbi-nuzzi","source_file":"https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/","source_span":"本卡 S7；Quattro stagioni合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1658–1659","role":"花卉画家／人物画家","scope":"Chigi《四季》之《秋》；不推广为全部作品的长期合作"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
   location: 第一章；印刷页 8；OCR L282
@@ -13,6 +17,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 282; print pp. 8
+  original_quotes:
+  - source_span: "lines 282–282"
+    text: |2-
+      2 Cardinal Flavio Chigi gave Mario de’ Fiori a monthly allowance of 30 scudi—Golzio, 1939, p. 267.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L845–846
   sentence_summary: 传记记两子分别入教会及继承绘画职业，均未具名。
@@ -20,6 +28,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 845–846; print pp. 20
+  original_quotes:
+  - source_span: "lines 845–846"
+    text: |2-
+      Mario de’ Fiori, an enormously successful painter himself, should have destined one of
+      his sons for the Church while the other was to follow in his own footsteps.5 And
 - citation: "Wikipedia (en), Mario Nuzzi, revision 1365392284. https://en.wikipedia.org/wiki/Mario_Nuzzi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Mario Nuzzi，别名 Mario de’ Fiori，1603–1673 年花卉画家。"
@@ -35,6 +48,7 @@ sources:
 - citation: "Arianna Petraccia, NUZZI, Mario, Dizionario Biografico degli Italiani 79 (2013). https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "正文前8000字符及末2400字符、书目前1300字符选读"
   sentence_summary: "罗马出生、Penna in Teverina迁居、婚姻亲缘、工作室与学院活动。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-mario-de-fiori
 ---
 
 ## 内容
@@ -87,11 +101,11 @@ Abraham Bruegel在1671年致Ruffo信中批评其画作变暗，此为有作者�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 受其赞助／保护（`patronized_by`，反向投影） | [弗拉维奥·基吉（Flavio Chigi）](flavio-chigi.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；原断言与证据见发出端卡片“弗拉维奥·基吉（Flavio Chigi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 282–283; print pp. 8 |
+| → 合作（`collaborated_with`） | [菲利波·劳里（Filippo Lauri）](filippo-lauri.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| → 合作（`collaborated_with`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《夏》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| → 合作（`collaborated_with`） | [贾钦托·布兰迪（Giacinto Brandi）](giacinto-brandi.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Mario_Nuzzi) ↔ [Wikidata Q1227379](https://www.wikidata.org/wiki/Q1227379)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-暂无本卡正式出边；[Flavio Chigi](../persons/flavio-chigi.md)、[劳里](../persons/filippo-lauri.md)为导航。月津贴与特定作品所有权须分别证明。
-
-WP把客户连到Agostino Chigi的说法未采纳，可能混入较早同名人物；WP Penna San Giovanni出生与DBI罗马／Penna in Teverina迁居不能混合。第一章两子与外部具体人名的对应仍有缺口；不自动增加亲缘KU。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Mario_Nuzzi)
+- [Wikidata Q1227379](https://www.wikidata.org/wiki/Q1227379)

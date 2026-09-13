@@ -3,7 +3,7 @@ title: "祭坛画（Altarpiece）"
 name_en: "Altarpiece"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 101–110; print pp. 5
+  original_quotes:
+  - source_span: "lines 101–110"
+    text: |2-
+      Bolognese prelate who would commission an altar painting for his titular church and
+      decorations for Iris family palace—in which the artist would now be installed. The first
+      would bring some measure of public recognition, and the second would introduce him
+      to other potential patrons within the circle of the cardinal’s friends. This was by far
+      the more important step. For many years the newly arrived painter would work
+      almost entirely for a limited group of clients, until at last a growing number of altar­
+      pieces had firmly established his reputation with a wider public and he had sufficient
+      income and prestige to set up on his own and accept commissions from a variety of
+      sources. Once this had been achieved, he could view the death of his patron or a change
+      in régime with some degree of equanimity.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8, 9.'
   location: 第一章；印刷页 8, 9；OCR L258–277,288–307
   sentence_summary: 尺寸、安置、采光与图像细节影响委托；Guercino 询问为具体例。
@@ -20,6 +33,51 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 258–277,288–307; print pp. 8, 9
+  original_quotes:
+  - source_span: "lines 258–277"
+    text: |2-
+      It was natural enough that the measurements and site of the proposed work should
+      be laid down in some detail when a fresco or ecclesiastical painting was required, and
+      only one point sometimes caused difficulties: when an altarpiece was commissioned
+      from an artist living in some distant city, the problem of the lighting in the chapel
+      might become acute. For though the painter was naturally told the destination of his
+      picture, it was by no means certain that he always had the chance to inspect the site
+      himself and long exchanges would then be needed to clear up the problem.
+      The size of pictures for private galleries was also a matter for discussion. Those
+      complete decorative schemes that have survived show that in many cases pictures were
+      used to cover the walls of a room or gallery in symmetrical patterns, and that often
+      enough they were even let into the surface. Where this was the case it was obviously
+      important to regulate the exact measurements of any new picture commissioned, and
+      much surviving correspondence testifies to the patron’s interest in the question. Again
+      and again artists were commissioned to paint pictures in pairs, and in many instances
+      it is possible to see how this preoccupation with the decorative and architectural function
+      of paintings influenced their composition as well as their size.3
+      The artist was also usually given the subject of the picture he was required to paint,
+      but it is difficult to determine how far his treatment of it was actually supervised by the
+      patron. Clearly a great deal depended on the destination of the work. Stringent control
+      may have been exerted over the subject of a religious fresco or an altar painting, but the
+  - source_span: "lines 288–307"
+    text: |2-
+      contracts themselves only rarely go into much detail. Indeed, a surprising degree of
+      freedom often seems to have been left to painters, even in important commissions, and
+      this depended a good deal on the cultural sophistication of Rome. Contracts from
+      smaller provincial centres show far more detailed instructions than those given to
+      painters in the bigger towns.1 Usually the outlines of the subject would be indicated, and
+      it was then left to the artist to add to it those elements which he found necessary for its
+      representation.2 Often the request for further iconographical details came from the
+      painter. Thus, in 1665, when Guercino was required to paint an altarpiece fora monas­
+      tery in Sicily, he was given the measurements and told that the figures were to include
+      the ‘Madonna de Carmine with the Child in Her arms, St Teresa receiving the habit
+      from the Virgin and the rules of the Order from the Child, St Joseph and St John the
+      Baptist; these figures must be shown entire and life-size and the top part of the picture
+      must be beautified with frolicking angels.’ Not satisfied with such instructions (which
+      in fact were more specific than usual), he wrote to ask whether the Madonna del
+      Carmine ‘is to be clothed in red with a blue cloak following church custom or whether
+      she should be in a black habit with a white cloak. Should the rules of the Order which
+      the Child is handing to the Saint be in the form of a book or a scroll? In that case what
+      words should be written on it to explain the mystery? Further, should St Teresa go on
+      the left or on the right?’ He also wanted to know how the picture was to be hung and
+      what the lighting would be like.3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L397–412
   sentence_summary: Caravaggio、Rubens、Lanfranco 各有不同合同／申请条件。
@@ -27,6 +85,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 397–412; print pp. 11
+  original_quotes:
+  - source_span: "lines 397–412"
+    text: |2-
+      It is true that in 1600 Caravaggio agreed with his patron, before executing his
+      altarpieces of The Conversion of St Paul and The Martyrdom of St Peter, that he would
+      ‘submit specimens and designs of the figures and other objects with which according to
+      ’ his invention and genius he intends to beautify the said mystery and martyrdom’,4 but
+      tliis was exceptional, and Caravaggio was already notorious as a difficult character.
+      For quite different but equally understandable reasons, Rubens, who was still only an
+      unknown foreigner, was asked in 1606 to show examples of his painting before under­
+      taking an altarpiece in the Chiesa Nuova.5 In general, more confidence was shown in
+      the painter’s ability, though private and unofficial discussions with the patron must
+      have been frequent. Even for such an important commission as the altar paintings in
+      St Peter’s, it appears not to have been obligatory for artists to produce modelli (though
+      presumably drawings would have been necessary); when Lanfranco wrote in 1640 to
+      Cardinal Barberini asking to be given the chance to paint the altar picture of Pope Leo
+      and Attila, he specially mentioned that he would arrange for the Cardinal to see ‘in tela
+      il disegno’, but he explained that he was doing this to illustrate the difficulties of the
+      composition, and in any case the suggestion came from him and not from his patron.6
 - citation: "Wikipedia (en), Altarpiece, revision 1356016219. https://en.wikipedia.org/wiki/Altarpiece. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "祭坛后宗教图像／艺术品的通类概念；在本项目为术语，不是独立作品实例。"
@@ -48,6 +125,7 @@ sources:
 - citation: "National Gallery, London, Anatomy of an altarpiece. https://www.nationalgallery.org.uk/paintings/anatomy-of-an-altarpiece. Accessed 2026-09-10."
   location: "全文文字与组件说明已读；未观看嵌入视频"
   sentence_summary: "主板、侧板、尖顶、壁柱和predella各有结构功能；多联画拆散后的部分不等于原完整组合。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-altarpiece
 ---
 
 ## 内容
@@ -99,16 +177,10 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-### 身份和概念链接
+### 身份与外部链接
 
-[Wikipedia：Altarpiece](https://en.wikipedia.org/wiki/Altarpiece) ↔ [Wikidata：Q15711026](https://www.wikidata.org/wiki/Q15711026)沿用REV-034双向核对；本轮完整阅读英文页修订1356016219。[Getty AAT 300075940](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&page=1&subjectid=300075940)已直接核对定义与范围，非仅抄WD标识。（S4–S8）
-
-WD把本概念接至visual artwork、artificial physical object、screen，并写part of altar，相关断言均normal且无引用。本卡不机械复制其层级；“安装在祭坛处”不等于所有作品在所有时点都构成祭坛一部分。
-
-### 关系导航及未决
-
-本卡无已登记正式关系；可参看[圭尔奇诺](../persons/guercino.md)的具体委托材料。此导航不自动建立“使用／创作／赞助”边。既有章页／行数／摘要保留在S1–S3。
-
-Getty的意大利语附注还涉及小型便携祭坛，与英文通类范围并不完全同宽；未将该较窄解释覆写本章用法。S6的宗教改革个别例证和年代尚未逐一外核，未据此推导一般因果结论。保持 `source_backed`；过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `terms/altarpiece`。
+- [Wikipedia：Altarpiece](https://en.wikipedia.org/wiki/Altarpiece)
+- [Wikidata：Q15711026](https://www.wikidata.org/wiki/Q15711026)
+- [Getty AAT 300075940](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&page=1&subjectid=300075940)

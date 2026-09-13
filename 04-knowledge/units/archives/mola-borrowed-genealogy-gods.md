@@ -4,7 +4,7 @@ name_en: "Genealogy of the Gods Borrowed by Mola (title unidentified)"
 type: archive
 sub_type: unidentified_book
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"borrowed_by","target":"persons/pier-francesco-mola.md","note":"Mola 为选择图像内容借阅这部未具题名的神谱。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–316; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"借阅者","scope":"为选择图像内容借阅的未具题名神谱"}
@@ -16,9 +16,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–316; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–316"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
 - citation: 'L. Montalto, “Gli affreschi del Palazzo Pamphilj in Valmontone,” Commentari (1955): 267–302, especially p. 290, as cited by Haskell.'
   location: Haskell书目与具体页码；本轮未取得论文原页
   sentence_summary: 作为借阅行为的研究刊布链；未提供足以认定具体神谱版本的证据。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-mola-borrowed-genealogy-gods
 ---
 
 ## 内容
@@ -33,13 +42,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Genealogy of the Gods Borrowed by Mola (title unidentified) | S1；标题中的语境说明为登记用语 |
-| 书目边界 | 原文 a genealogy of the gods；作者、原题和版本待核 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Genealogy of the Gods Borrowed by Mola (title unidentified) | S1 |
+| 书目边界 | 原文 a genealogy of the gods；作者、原题和版本待核 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
-
-
-### 补足字段（REV-055，2026-09-11）
+### 补足字段
 
 | 文献类型 | 借阅书籍的语境指代；未识别版本 | S1 |
 | 借阅人 | Pier Francesco Mola | S1 |
@@ -50,23 +56,9 @@ sources:
 | 排除 | 不凭“genealogy of the gods”认定Boccaccio《异教诸神谱系》或任何具体版本 | 语义裁决 |
 | 未决载体 | 原题、作者、语言、版次、出版信息及现存地均未知 | 本轮检索结论 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 原文只说神谱书；作者、正式题名和版本不明，不能凭主题认定 Boccaccio 或其他著作。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 由其借阅（`borrowed_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | Mola 为选择图像内容借阅这部未具题名的神谱；角色：借阅者；范围：为选择图像内容借阅的未具题名神谱；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–316; print pp. 9 |
-
-S1：第一章；印刷页 9；OCR L312–316。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已把借阅人、出借人角色、用途、后续图像选择和刊布链分字段记录。任何Boccaccio或其他神谱候选都缺少版本证据，故正式结论是“语境对象可确认、书目身份不可恢复”，不再泛化待配QID。

@@ -3,7 +3,7 @@ title: "领衔教堂（Titular church）"
 name_en: "Titular church"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 117–124; print pp. 5
+  original_quotes:
+  - source_span: "lines 117–124"
+    text: |2-
+      maintained by rich cardinals and noble families. They fall into two classes—those of
+      which a cardinal was titular head or for which he had a special veneration; and those
+      where he wished to be buried. Both, however, had one feature in common: their
+      antiquity. A titular church was, by definition, one that had been handed down from
+      cardinal to cardinal through the centuries; and in general the Popes and their families,
+      perhaps to refute the charge of being nouveaux-riches, chose to be buried in the most
+      ancient and venerable of basilicas such as S. Maria Maggiore and S. Maria sopra
+      Minerva.
 - citation: "Wikipedia (en), Titular church, revision 1359726975. https://en.wikipedia.org/wiki/Titular_church. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马分配给枢机的领衔教堂称号／制度；不指某座单独建筑。"
@@ -28,6 +39,7 @@ sources:
 - citation: "Holy See, Code of Canon Law (1983), Book II, canons 350 and 357. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann330-367_en.html. Accessed 2026-09-10."
   location: "所涉法条350 §§1–6与357 §1全文；仅用于现代制度对照"
   sentence_summary: "司铎级与执事级枢机的领衔称号、变更机制及以建议／赞助支持教堂的规定；不作为17世纪特定任职者权利证据。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-titular-church
 ---
 
 ## 内容
@@ -77,16 +89,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-### 外部身份与范围
+### 身份与外部链接
 
-[Wikipedia：Titular church](https://en.wikipedia.org/wiki/Titular_church) ↔ [Wikidata：Q1092939](https://www.wikidata.org/wiki/Q1092939)沿用REV-034双向核对；本轮完整读取英文修订1359726975。该对应支持制度／称号概念识别，不把它作为某座建筑的QID。（S2–S5）
-
-WD的P31为religion-related award，P279为title及Catholic parish，P138指向titular church in Rome；均无引用。这些字段混合表达层次，不作为本项目确定分类或名称起源事实导入。
-
-### 关系与未决
-
-本卡无既有正式关系。S1的章、页、行与句子摘要保存在统一元数据；现代法条S6的支持范围不越过其时代。具体领衔年表、委托合同及经费来源须在相关人物与教堂卡核验，不因本术语已补足就视为个案证据齐备。
-
-已补术语、制度边界和本章用途；未开展历史法源的完整考证。保持 `source_backed`，不形成Topic／Theme。过程见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `terms/titular-church`。
+- [Wikipedia：Titular church](https://en.wikipedia.org/wiki/Titular_church)
+- [Wikidata：Q1092939](https://www.wikidata.org/wiki/Q1092939)

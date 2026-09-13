@@ -3,7 +3,7 @@ title: "奇罗·费里（Ciro Ferri）"
 name_en: "Ciro Ferri"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年6月3日成为圣路加学院成员。","evidence_ref":{"doc_id":"dbi-ferri","source_file":"https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/","source_span":"本卡 S9；学院成员段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,6 +17,26 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 437–453; print pp. 12
+  original_quotes:
+  - source_span: "lines 437–453"
+    text: |2-
+      both to patrons and assistants in large-scale work of this kind. Moreover, the iconographical significance of these frescoes was often more complex. Ciro'Ferri was required
+      in 1670 to produce a coloured modello for the cupola of S. Agnese in Piazza Navona,
+      and after it had been approved he was not to make any changes without special permis­
+      sion.3 Such stringent control is exceptional, but—as will become apparent in a later
+      chapter—the Pamfili family, who were responsible for this commission, were never
+      altogether happy in their relations with artists. It is also possible that the insistence on
+      sketches at this period was in some way linked to a growing appreciation of their more
+      ‘spontaneous’ character—an appreciation that naturally accompanied the rise of the
+      amateur, though the fashion for collecting them did not become general until the eight­
+      eenth century.
+      After the size of the picture and the subject-matter had been decided, there came
+      the question of the time limit, a problem of particular urgency during the whole of the
+      Baroque period. Nearly all patrons insisted that work should be finished as quickly as
+      possible, and as often as not they were disappointed by the artists whom they employed.
+      Some frescoes were, of course, such large undertakings that many years were required
+      for their completion. Ciro Ferri was given four years for the cupola of S. Agnese in
+      Piazza Navona, and Gaulli eight for the vault and transept vaults of the Gesù. Holy
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L507–508
   sentence_summary: 为 Annibale Laparelli 作 Cortona 祭坛画，预付 50、完成后 180 scudi。
@@ -24,6 +44,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 507–508; print pp. 13
+  original_quotes:
+  - source_span: "lines 507–508"
+    text: |2-
+      who was given 50 scudi as caparra and promised 180 more on completion of an altarpiece in Cortona for
+      Annibale Laparclli (Gualandi, IV, p. 117).
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L742–743
   sentence_summary: 传记描述 Ferri 的上层礼仪。
@@ -31,6 +56,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 742–743; print pp. 18
+  original_quotes:
+  - source_span: "lines 742–743"
+    text: |2-
+      ‘lived splendidly with servants and a carriage’; Ciro Ferri too had a carriage, a fully
+      stocked larder, and arranged for his family always to be well dressed. Lodovico Gimignani ‘treated himself in a gentlemanly way; he was well dressed with fine linen and a
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L974–978
   sentence_summary: 1672-09-19 致 Ruffo 信解释拒预付以保自由，也提事务繁多。
@@ -38,6 +68,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 974–978; print pp. 23
+  original_quotes:
+  - source_span: "lines 974–978"
+    text: |2-
+      3 Two other artists show some signs ofhaving rebelled against the generally prevailing circumstances
+      of art patronage. On 19 September 1672 Ciro Ferri wrote to Don Antonio Ruffo: ‘... è stato mio costume
+      non pigliare danaro anticipato e questa per stare in mia libertà . . .' but the effect of this is somewhat
+      modified by the phrase that follows, ‘tanto più sia detto a gloria di Dio, per la molteplicità degl’affari che
+      tengo . . .’ (Ruffo, p. 298). And of Benedetto Luti much later Pascoli wrote (I, p. 233): ‘Nè pur cercò
 - citation: "Wikipedia (en), Ciro Ferri, revision 1365392836. https://en.wikipedia.org/wiki/Ciro_Ferri. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Cortona 的画家弟子 Ciro Ferri，时代和职业相容；出生年两侧口径不一致，暂不采用精确日期。"
@@ -53,6 +91,7 @@ sources:
 - citation: "Laura Falaschi, 'FERRI, Ciro,' Dizionario Biografico degli Italiani 47 (1997). https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记开篇、圣阿涅塞合同段、末年与死亡段及书目开头定向阅读；未通读全部书目和被引原档"
   sentence_summary: "支持1633年出生、父母、婚姻与子女、科尔托纳师承、合同期限和1689年死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-ciro-ferri
 ---
 
 ## 内容
@@ -111,21 +150,12 @@ Laura Falaschi 的 DBI 词条已定向阅读；所引合同、家户文书和全
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年6月3日成为圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；学院成员段 |
 | → 师从／受训于（`trained_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 费里师从科尔托纳；与长期协作分作两条关系；角色：学生；范围：Ferri从Cortona学习；具体起止年未在本卡定稿；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
 | → 合作（`collaborated_with`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 费里长期协助科尔托纳；本边不替代师承关系，也不概括具体作品责任；角色：长期助手／合作者；范围：具体项目责任仍逐作区分；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；dbi-ferri；本卡 S9；师承与合作段 |
+| ← 教师（`teacher_of`，反向投影） | [乔万尼·奥达齐（Giovanni Odazzi）](giovanni-odazzi.md) | 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室；时间：1689年前；角色：工作室学生／团队成员；范围：费里工作室阶段；原断言与证据见发出端卡片“乔万尼·奥达齐（Giovanni Odazzi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；训练与1689年工作室转移段 |
 | ← 所创作对象（`creator_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 本章明确祭坛画由费里为拉帕雷利制作；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 | ← 所创作对象（`creator_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | Ferri 的穹顶装饰工程；四年是约定工期；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
 | ← 所创作对象（`creator_of`，反向投影） | [费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）](../works/ferri-sant-agnese-modello.md) | 1670年合同要求费里提交彩色稿并按批准方案施工；原断言与证据见发出端卡片“费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–440; print pp. 12 |
 
 ### 身份与外部链接
 
-[Wikipedia（en）Ciro Ferri](https://en.wikipedia.org/wiki/Ciro_Ferri) 与 [Wikidata Q975452](https://www.wikidata.org/wiki/Q975452) 的 sitelink 双向一致；科尔托纳师承、罗马身份和圣阿涅塞工程与本章对象吻合。S7 为全文阅读，S8 为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 出生日期 | 采用 DBI 和 WD preferred 的1633年9月3日；Wikipedia 及 WD 普通值的1634年保留为旧传记口径 |
-| 工期 | 1670合同原定四年，1676又续四年；作品最终由他人续成，不能把合同期限当完成日期 |
-| 父名 | DBI以档案更正旧传记的Giovanni Stefano为Antonio Auriga alias Ferri；旧值保留在裁决说明，不并列为两位父亲 |
-| 家庭与作品 | 子女记录、完整作品、建筑设计范围和弟子关系仍需原档或对象级来源核验 |
-
-来源序号 S1–S9 依文件头顺序；详细采集、字段裁决与当前内容指纹保存在 03-processing 的同一任务包。
+- [Wikipedia（en）Ciro Ferri](https://en.wikipedia.org/wiki/Ciro_Ferri)
+- [Wikidata Q975452](https://www.wikidata.org/wiki/Q975452)

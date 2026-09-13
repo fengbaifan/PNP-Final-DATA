@@ -3,7 +3,7 @@ title: "保罗·博尔盖塞（Paolo Borghese）"
 name_en: "Paolo Borghese"
 type: person
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"families/borghese-family.md","time":"约1622／1624–1646","role":"博尔盖塞家族成员","scope":"只表示家族归属，不与1904–1985年同名人物混同","note":"Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族。","evidence_ref":{"doc_id":"paolo-borghese-wikipedia","source_file":"https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646)","source_span":"导言与家庭段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,6 +17,7 @@ sources:
 - citation: "Benedetta Borello, ‘PAMPHILI, Camillo,’ Dizionario Biografico degli Italiani 80 (2014), Treccani. https://www.treccani.it/enciclopedia/camillo-pamphili_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "Camillo辞任与婚姻段；此前已完整阅读"
   sentence_summary: "把Olimpia说明为Paolo Borghese遗孀，支持第一段婚姻已经因Paolo死亡结束。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-paolo-borghese
 ---
 
 ## 内容
@@ -51,6 +52,7 @@ S1列二人有四子一女，并给出部分姓名；S2只给两项有来源的�
 | ← 配偶（`spouse_of`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](olimpia-aldobrandini.md) | 奥林皮娅于1638年与Paolo Borghese结婚；Paolo于1646年去世；时间：1638–1646；角色：第一任配偶；范围：1638年结婚，关系因Paolo于1646年去世结束；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；Marriages段 |
 | → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；证据：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；paolo-borghese-wikipedia；导言与家庭段 |
 
-### 身份与证据范围
+### 身份与外部链接
 
-[Wikipedia（en）Paolo Borghese (1622–1646)](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646)) 与 [Wikidata Q7132152](https://www.wikidata.org/wiki/Q7132152) 双向对应。英文页为短条目但已全文读取；Wikidata出生值只到“1620年代”，不能用标题中的1622代替结构化精度，也不把无引用字段自动升格为已证事实。
+- [Wikipedia（en）Paolo Borghese (1622–1646)](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))
+- [Wikidata Q7132152](https://www.wikidata.org/wiki/Q7132152)

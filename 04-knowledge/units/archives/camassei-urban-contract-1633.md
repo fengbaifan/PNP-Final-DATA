@@ -4,7 +4,7 @@ name_en: "Contract between Camassei and Urban VIII (1633)"
 type: archive
 sub_type: contract
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"persons/andrea-camassei.md","note":"所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 514–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1633","role":"承担画布、颜料等费用的画家","scope":"材料与另一付款令卡是否同一文书仍未确认"}
@@ -17,12 +17,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 514–516; print pp. 13
+  original_quotes:
+  - source_span: "lines 514–516"
+    text: |2-
+      3 In 1633 Camassei agreed in his contract with Urban Vili (see p. io, note 1) to pay himself sor ‘tela
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
 - citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
   location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
   sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
 - citation: "Sandra Vasco, CAMASSEI, Andrea, Dizionario Biografico degli Italiani 17 (1974). https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文及书目已读；传记引述的原档与研究原篇未因此视为已读。"
   sentence_summary: "1602-12-01为洗礼，Bevagna出生；亲缘、训练、委托、1633圣塞巴斯蒂安付款及1630–35圣彼得施洗工程分别记录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-camassei-urban-contract-1633
 ---
 
 ## 内容
@@ -45,10 +52,6 @@ sources:
 | 原档 | 刊本引R. Chirografi1631–33，fol.554；未读 | S2 |
 | 出版链 | 本章引述 → 刊本文书／专业传记 → 未读原档 | S1–S3 |
 
-### 身份对齐
-
-无独立Wikipedia—Wikidata配对。与[付款文书卡](camassei-sebastian-receipt.md)存在可能同源关系；既不能继续确定地说二者不同，也不能直接合并删卡。
-
 ## 关系与证据
 
 ### 关系记录
@@ -56,7 +59,3 @@ sources:
 |---|---|---|
 | → 所涉对象（`has_subject`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实；时间：1633；角色：承担画布、颜料等费用的画家；范围：材料与另一付款令卡是否同一文书仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
 | → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实；时间：1633；角色：付款安排所借名义的教皇与赞助权威；范围：文种及与另一付款令卡的同一性仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
-
-S1第一章第13页L514–516保留；S2实际读到的付款令；S3专业传记支持1633圣塞巴斯蒂安付款及作者关联。既有Camassei与Urban VIII两条来源支持关系保留，正式note中的“合同”限于Haskell用语，交关系复核处理。
-
-**未决：** 刊本写Antonio Camassei而非Andrea，并在1633命已于1629去世的Marcello Sacchetti付款。专业传记及相关准备稿能改善作品识别，不能替原档消除这些异文。原协议、签名及实际结算凭证未核。

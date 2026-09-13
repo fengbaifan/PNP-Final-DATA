@@ -3,7 +3,7 @@ title: "祈祷用图像（Devotional picture）"
 name_en: "Devotional picture"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -13,6 +13,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 811–818; print pp. 20
+  original_quotes:
+  - source_span: "lines 811–818"
+    text: |2-
+      So much anxiety to appear respectable and prosperous was all the more natural in
+      view of the squalor that always threatened the lower ranks of painters. We know of
+      large numbers living in destitution,1 and it is easy enough to imagine their lives, working
+      for unscrupulous dealers at endless, mass-produced devotional pictures and occasionally
+      showing their work at some religious festival. Roman patrons were extraordinarily
+      quick to encourage new artists, and just because of this, the situation of those outside
+      the ranks of accepted painters must have been desperately bleak. There was as yet no
+      legend of the ‘undiscovered genius’ to sustain them in their misery.
 - citation: "Wikipedia (en), Andachtsbilder, revision 1353438044. https://en.wikipedia.org/wiki/Andachtsbilder. Accessed 2026-09-11."
   location: "全文7710字符，含图注、注释及书目；对象页，不含外链原著"
   sentence_summary: "祈祷图像的形式、媒介及术语范围争议；不能把一般devotional picture全部等同北方晚期哥特类别。"
@@ -25,6 +36,7 @@ sources:
 - citation: "National Gallery, Dirk Bouts, Christ Crowned with Thorns, NG1083. https://www.nationalgallery.org.uk/paintings/dirk-bouts-christ-crowned-with-thorns. Accessed 2026-09-11."
   location: "Overview及In-depth全文、Key facts和Provenance；其余书目未读"
   sentence_summary: "15世纪小型祈祷图像用于近距离私人祈祷、工坊大量制作；只是功能例证，不证明17世纪本章作品身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-devotional-picture
 ---
 
 ## 内容
@@ -59,8 +71,4 @@ Bouts《戴荆冠的基督》NG1083是馆方解释的近距离私人祈祷实例
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-[Wikipedia：Andachtsbilder](https://en.wikipedia.org/wiki/Andachtsbilder) ↔ [Q489632](https://www.wikidata.org/wiki/Q489632)是已核候选，不确认它与本章宽泛类别完全同一。全文7710字符已读；Getty规范记录全文已读；Bouts网页只采用已读的说明和对象字段。
-
-未导入候选WD事实，无新增正式关系。[祭坛画](altarpiece.md)为相邻概念导航，实际用途须逐物判断。S1第一章第20页L811–818及句意摘要保留；具体作品身份、生产数量和出售价格尚未证实。
+暂无正式关系。

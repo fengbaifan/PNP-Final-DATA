@@ -3,7 +3,7 @@ title: "托马斯·科克（Thomas Coke，阿伦德尔家户通信者）"
 name_en: "Thomas Coke (Arundel household correspondent)"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 4.'
@@ -13,6 +13,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 40–44,48,53–55; print pp. 3, 4
+  original_quotes:
+  - source_span: "lines 40–44"
+    text: |2-
+      the Roman scene. ‘. . . It [is] a strange and unnaturall thing’, wrote a correspondent to
+      Lord Arundell in 1620 towards the end of Paul V’s sixteen-year rule,2 ‘that in that place,
+      contrary to all others, the long fife of the Prince is sayd to be the ruyne of the people;
+      whose wealth consists in speedy revolutions, and oft new preparations of new hopes in
+      those that aspire to rise by new fam.es [families] who, w.th the ould, remayne choaked
+  - source_span: "lines 48–48"
+    text: |2-
+      2 Letter from Mr Coke of 8 October 1620—Hervey, p. 183.
+  - source_span: "lines 53–55"
+    text: |2-
+      w.th a stand, and loath to blast their future adresses by spending to court those that
+      are dispaired of’ Exactly the same point was made with much greater force after the
+      twenty-one years of Urban VIII’s reign.1
 - citation: "Mary F. S. Hervey, The Life, Correspondence & Collections of Thomas Howard, Earl of Arundel (Cambridge University Press, 1921), pp. 181–184. https://archive.org/download/lifecorresponden00herviala/lifecorresponden00herviala_djvu.txt. Read 2026-09-11."
   location: "第十四章pp.181–184，Thomas Coke三封信及脚注；仅定向读OCR刊本，未读手稿原件"
   sentence_summary: "发信人Thomas Coke；8 October 1620信为Autograph Letters No.249；前后编排为帕多瓦语境，信中报告一位来访罗马人的消息，不是从罗马发信的依据。"
@@ -22,6 +38,7 @@ sources:
 - citation: "Wikipedia (en), Thomas Coke, disambiguation page, revision 1295780100. https://en.wikipedia.org/wiki/Thomas_Coke. Read 2026-09-11."
   location: "消歧名单和相邻候选检索；不计实体全文补足页"
   sentence_summary: "名单未明确给出1620年帕多瓦家户通信者；晚生人物排除，1656年卒的议员尚无可连接证据，不采用消歧页QID。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-mr-coke-rome-correspondent
 ---
 
 ## 内容
@@ -60,11 +77,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../archives/coke-arundell-letter-1620.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
-
-- 通信文献：[1620年10月8日信](../archives/coke-arundell-letter-1620.md)；收信人：[托马斯·霍华德，阿伦德尔伯爵](lord-arundell-coke-correspondent.md)。此处为角色导航，既有作者边存于书信卡。
-- 身份状态：全名及家户语境已补证；**Wikipedia—Wikidata双重配对仍未完成**。已读[英文消歧页](https://en.wikipedia.org/wiki/Thomas_Coke)，不作为人物身份锚点；未采用确认QID。
-- 同名边界：1674年生的枢密官、1697年生的莱斯特伯爵及1747年生的主教均不可能是1620年通信者；1656年卒的议员仍缺家户／帕多瓦证据，未合并。
-
-S1为本章pp.3–4、OCR L40–44,48,53–55；S2为转引所据刊本；S3为官方目录；S4为消歧检索。这些来源不相互独立证明所有事实。**纠正旧稿“罗马来信”及标题中的Rome correspondent**：旧判断把信件话题当作发信地；现仅记刊本编排支持的帕多瓦语境，10月8日原件地址和日历制仍待核。
-
-[补足证据与判断](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)以本卡稳定键定位。保留原路径以维持链接，不将路径中的旧定位作为事实。未确认的亲缘、任职、生卒与百科身份保留缺口；不因无QID删除已有来源支持的作者关系。

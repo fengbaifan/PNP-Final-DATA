@@ -3,7 +3,7 @@ title: "圣彼得营造管理机构（Fabbrica di S. Pietro）"
 name_en: "Fabbrica di S. Pietro"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 700–703; print pp. 17
+  original_quotes:
+  - source_span: "lines 700–703"
+    text: |2-
+      nucci, 1948, p. 89. A letter from Fulvio Testi to Conte Francesco Fontana published by Fraschetti (p. 108)
+      shows the_prices that Bernini could command in 1633—a statue would be worth 4000 or 5000 scudi;
+      he was paid 1000 scudi for the head of Cardinal Borghese; he received a regular salary of 300 scudi a month
+      from the Fabbrica di S. Pietro.
 - citation: "Wikipedia (en), Fabric of Saint Peter, revision 1364129357. https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "负责圣彼得大殿事务的机构；与大殿建筑分别对应，现代行政归属不在此裁定。"
@@ -31,6 +38,7 @@ sources:
 - citation: "Fabbrica di San Pietro, Gli Archivi della Basilica. https://www.basilicasanpietro.va/it/san-pietro/gli-archivi-della-basilica. Accessed 2026-09-11."
   location: "历史总档案馆说明全文"
   sentence_summary: "档案保存自16世纪初以来大殿建造、装饰和维护记录；档案馆正式设立于1579-01-13。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-fabbrica-di-san-pietro
 ---
 
 ## 内容
@@ -59,15 +67,6 @@ sources:
 - 官网指出近代现场用工包括技术传承、工资支持、家庭援助及病老保障，并有女性参与建造与装饰；这些是机构通史，不据此推断贝尔尼尼个人待遇。（S6）
 - 2022年《Praedicate evangelium》确认其为与圣座关联的机构，并说明其在大殿保存、内部纪律和访客管理方面的职责。（S4、S6）
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 负责圣彼得大殿事务的机构；与大殿建筑分别对应，现代行政归属不在此裁定。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) 的 wikibase_item 与 [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -75,10 +74,7 @@ sources:
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
 
-S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段核对；S6–7为机构官网全文。官网没有在本页给出17世纪逐项薪资账目，故不把机构通史当作贝尔尼尼支付的第二证据。
+### 身份与外部链接
 
-
-
-### 身份与未决项
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter) ↔ [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511)双向身份核对继续通过。WD把P571记为1908且有一条引用，与官方1506连续性和Wikipedia的1523委员会节点不一致，排除为唯一成立年；WD的现代Vatican City国家字段也不回填17世纪政治归属。贝尔尼尼薪资的支付期、职位、账簿条目和币制口径仍待Fabbrica档案。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter)
+- [Wikidata Q2381511](https://www.wikidata.org/wiki/Q2381511)

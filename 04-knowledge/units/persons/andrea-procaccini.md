@@ -3,7 +3,7 @@ title: "安德烈亚·普罗卡奇尼（Andrea Procaccini）"
 name_en: "Andrea Procaccini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职。","evidence_ref":{"doc_id":"wp-procaccini","source_file":"https://en.wikipedia.org/w/index.php?oldid=1366087864","source_span":"本卡 S5；生平段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 745–747; print pp. 18
+  original_quotes:
+  - source_span: "lines 745–747"
+    text: |2-
+      Morandi ‘danced extremely well, was an excellent horseman and fencer’; Andrea
+      Procaccini lived in magnificent rooms with fine pictures, tapestries and other ornaments,
+      and when he went to Spain, ‘his style was more that of a gentleman than of a painter’.4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L850–852
   sentence_summary: 父母不甚认同绘画职业，但未阻止他。
@@ -23,6 +29,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 850–852; print pp. 20
+  original_quotes:
+  - source_span: "lines 850–852"
+    text: |2-
+      4 Pascoli, for instance (II, p. 400), said that Andrea Procaccini’s parents, who were well off, found
+      painting a profession ‘non del tutto confacevole al lor genio’, but they did nothing to prevent their son
+      taking it up.
 - citation: "Wikipedia (en), Andrea Procaccini, revision 1366087864. https://en.wikipedia.org/wiki/Andrea_Procaccini. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1671–1734 年意大利画家，在西班牙活动，符合章中传记语境。"
@@ -38,6 +50,7 @@ sources:
 - citation: "Gonzalo Zolle Betegón, PROCACCINI, Andrea, Dizionario Biografico degli Italiani 85 (2016). https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "出身、早期工作、西班牙末期、婚姻及书目开头选读；未读全部被引原件"
   sentence_summary: "父母、师承、西班牙宫廷工作、婚姻及祭坛画完成者异文。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-procaccini
 ---
 
 ## 内容
@@ -91,10 +104,7 @@ Pascoli的职业志向／生活描写保留作者责任；Gonzalo Zolle Betegón
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职；证据：[来源](https://en.wikipedia.org/w/index.php?oldid=1366087864)；wp-procaccini；本卡 S5；生平段 |
 | → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 约1690年在马拉塔工作室接受素描与临摹训练；时间：约1690；角色：工作室学生；范围：素描与临摹训练；证据：[来源](https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/)；dbi-procaccini；本卡 S7；早期训练段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Procaccini) ↔ [Wikidata Q2846401](https://www.wikidata.org/wiki/Q2846401)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-卡内尚无自身发出的正式边；[Maratta](../persons/carlo-maratta.md)、[西班牙](../places/spain.md)为相关知识元导航。父母及配偶姓名不自动生成新KU。
-
-Wikidata去世地P20=Q5482623的实际标签为La Granja皇家玻璃厂，并非城镇，**不采用该地点QID**。WP6月24日不伪称来自月精度WD。两件La Granja祭坛画完成者仍须对象级补证。S1–2章页、行号及句意摘要完整保留。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Andrea_Procaccini)
+- [Wikidata Q2846401](https://www.wikidata.org/wiki/Q2846401)

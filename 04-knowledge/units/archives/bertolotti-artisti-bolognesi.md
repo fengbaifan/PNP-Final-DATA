@@ -4,7 +4,7 @@ name_en: "Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papa
 type: archive
 sub_type: scholarly_book
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -14,6 +14,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 372–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 372–374"
+    text: |2-
+      1 The artist was Andrea Camassei—see the receipt published by A. Bertolotti (Artisti bolognesi . . .,
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: Haskell，同书书后书目；仅核对当前引文条目。
   location: 同书书目（非第一章）；印刷页 414；OCR L161
   evidence_ref:
@@ -21,12 +27,17 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 161; print p. 414
   sentence_summary: 书目展开 Artisti bolognesi, ferraresi ed alcuni altri del già stato pontificio in Roma nei secoli XV, XVI, XVII，署 A. Bertolotti，未标出版日期。
+  original_quotes:
+  - source_span: "lines 161–161"
+    text: |2-
+      Bertolotti, A.: Artisti bolognesi, ferraresi ed alcuni altri del già stato pontificio in Roma nei secoli XV, XVI, XVII (n.d.).
 - citation: "Antonino Bertolotti, Artisti bolognesi, ferraresi ed alcuni altri del già Stato Pontificio in Roma nei secoli XV, XVI e XVII (Bologna: Regia tipografia, 1885). Getty Research Institute scan. https://archive.org/details/artistibolognesi00bert. Accessed 2026-09-11."
   location: "题名页、引言V–IX有关范围和方法的OCR选读；印刷pp.161–162对照影像。未读全书和原档。"
   sentence_summary: "原刊题名页列1885；刊录UrbanVIII署名付款令，列尺寸、题材、八人物和画家承担画布颜料蓝色等费用。但1633日期与Marcello Sacchetti姓名有年代冲突，不能直接入其生平。"
 - citation: "Getty Research Institute / Internet Archive, catalog metadata for gri_33125008336477. https://archive.org/details/gri_33125008336477. Accessed 2026-09-11."
   location: "只读metadata：题名、责任者、出版地／印者、编目年及扫描标识；未读该版本内容。"
   sentence_summary: "另一个馆藏扫描编目为1886且题名含tratte；不将其与本次题名页1885本不加区别地合并，不据元数据断言独立修订版。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-bertolotti-artisti-bolognesi
 ---
 
 ## 内容
@@ -62,17 +73,9 @@ sources:
 | 署日 | 1633年5月16日，影像确认 | S3 p.162 |
 | 原档引记 | R. Chirografi 1631–33，fol.554；原卷尚未读 | S3 |
 
-### 身份对齐
-
-尚无该书的独立Wikipedia—Wikidata配对。不借作者QID；1885本题名刊记与1886编目记录分别保存。
-
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 来源（`source_of`，反向投影） | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](camassei-sebastian-receipt.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；原断言与证据见发出端卡片“卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）”：[来源](https://archive.org/details/artistibolognesi00bert)；bertolotti-artisti-bolognesi-1885；本卡 S2；印刷页161–162，扫描页174–175 |
-
-尚无正式关系。S1第一章第10页L372–374、S2书目原称n.d.及“收据”的摘要作为来源叙述保留；本次直接读刊本的文种、年与冲突以S3另列。
-
-**关键未决：** 1633署日与已核[马尔切洛·萨凯蒂](../persons/marcello-sacchetti.md)1629卒年不合；原刊又写Antonio Camassei。不能把这项付款直接写入萨凯蒂1633生平或自动更正人名／日期。印刷161–162页对应本次查看 `page/n174.jpg`、`page/n175.jpg`；OCR及扫描叶序不能代替印刷页码。第162页随后Guercino的1638年收据是另一文书，不并入此令。未读全书、1886记录所指实物及原档。

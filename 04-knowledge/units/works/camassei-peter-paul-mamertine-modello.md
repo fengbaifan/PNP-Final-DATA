@@ -3,7 +3,7 @@ title: "卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（
 name_en: "Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/andrea-camassei.md","note":"Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 464–466; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,9 +16,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 464–466; print pp. 12
+  original_quotes:
+  - source_span: "lines 464–466"
+    text: |2-
+      convincing. On the other hand, Professor Waterhouse has pointed out to me the existence of a modello
+      by Camassei, Saints Peter and Paul baptising in the Mammcrtine prison, once belonging to the Barberini
+      and now in the Pinacoteca Vaticana—No. 820, formerly 539 m. A number of modelli by Andrea Sacelli
 - citation: "Sandra Vasco, CAMASSEI, Andrea, Dizionario Biografico degli Italiani 17 (1974). https://www.treccani.it/enciclopedia/andrea-camassei_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文及书目已读；传记引述的原档与研究原篇未因此视为已读。"
   sentence_summary: "1602-12-01为洗礼，Bevagna出生；亲缘、训练、委托、1633圣塞巴斯蒂安付款及1630–35圣彼得施洗工程分别记录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-camassei-peter-paul-mamertine-modello
 ---
 
 ## 内容
@@ -52,7 +59,3 @@ sources:
 |---|---|---|
 | → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
 | → 位于（`located_at`） | [梵蒂冈绘画馆（Pinacoteca Vaticana）](../institutions/pinacoteca-vaticana.md) | 本书写作时所记馆藏，非今日核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
-
-无独立Wikipedia—Wikidata确认配对。S1第一章第12页L464–466；S2专业传记及其引文链。保留既有作者及本书时点馆藏关系，地点不升级为今日实地确认。
-
-本次补足工程时间和多稿并存的证据，保留题名／人物识别未决，未新建另两件稿的知识元。相关原档、梵蒂冈清册及画面未读，不以同题和同馆自动归并。

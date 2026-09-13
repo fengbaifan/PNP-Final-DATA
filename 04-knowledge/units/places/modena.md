@@ -3,7 +3,7 @@ title: "摩德纳（Modena）"
 name_en: "Modena"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Modena, revision 1373245007. https://en.wikipedia.org/wiki/Modena. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Modena 城市；与埃斯特宫廷或公国分开。"
@@ -31,8 +36,8 @@ sources:
 - citation: "Provincia di Modena, A Modena Palazzo Ducale, Orto Botanico e S. Vincenzo. https://www.provincia.modena.it/comunicato-stampa/a-modena-palazzo-ducale-orto-botanico-e-s-vincenzo-la-riserva-naturale-di-sassoguidano-di-pavullo/. Accessed 2026-09-11."
   location: "网页正文全文4770字符；采用Palazzo Ducale段"
   sentence_summary: "1598年Cesare d’Este迁宫廷入旧堡，1634年Francesco I开始新宫；此文把Girolamo Rainaldi列设计者、Avanzini列续建主持，与简述有职责差异，保留。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-modena
 ---
-
 
 ## 内容
 
@@ -73,10 +78,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-**S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)及[资助学习旅行](../procedures/patron-funded-study-travel.md)是相关入口；当前未新增正式关系。
+### 身份与外部链接
 
-[Wikipedia](https://en.wikipedia.org/wiki/Modena)与[Wikidata Q279](https://www.wikidata.org/wiki/Q279)双向一致。S4全文已读，条目引注不足警示保留；S5适用属性已读。WD P17将1860年接到Kingdom of Italy，WP把1859政治变化直接说成并入该王国，均不据此生成精确政治沿革；1650年代的城市也不连向现代共和国身份。P571未列数值不是“无建城历史”。
-
-S6–S7已实际读取官网正文，不仅是搜索摘要。保存名称、位置、宫廷迁入与新宫工程的内容稿；原设计图、产权变动原件、具体作品版本及本章旅行细节仍缺，source_backed不变。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+- [Wikipedia](https://en.wikipedia.org/wiki/Modena)
+- [Wikidata Q279](https://www.wikidata.org/wiki/Q279)

@@ -3,7 +3,7 @@ title: "普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commi
 name_en: "Poussin’s Spring commissioned by Valguarnera"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"与安排完成《瘟疫》不同，这是全新委托。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 599–601; print pp. 15"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 599–601; print pp. 15
+  original_quotes:
+  - source_span: "lines 599–601"
+    text: |2-
+      he asked the artist to complete. In Poussin’s studio he came across the Plague at Ashdod
+      in a preliminary stage, and-was so pleased with it that he not only arranged to have it
+      finished but also commissioned a totally new picture of Spring from the same artist.1
 - citation: "Wikipedia (en), The Empire of Flora, revision 1353624606. https://en.wikipedia.org/wiki/The_Empire_of_Flora. Accessed 2026-09-11."
   location: "全文语义阅读：正文、信息框、图注及注释／书目；不含全部外链"
   sentence_summary: "全文2667字符；1630/31德累斯顿作品，Smith旧Omodei说与后世Valguarnera说分开；不等同Triumph of Flora或Tiepolo同名作。"
@@ -27,6 +33,7 @@ sources:
 - citation: "Meg Butler, Nicolas Poussin and the Struggles of Gig Work, Getty, 2022-02-15. https://www.getty.edu/news/nicolas-poussin-and-the-struggles-of-gig-work/. Accessed 2026-09-11."
   location: "图注及The Gentleman Jewel Thief段落；其余已读部分不扩入本卡"
   sentence_summary: "将Realm of Flora与Valguarnera购买及普桑庭审证词相联系；所读为馆方介绍，非庭审原件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-poussin-spring-valguarnera
 ---
 
 ## 内容
@@ -74,9 +81,3 @@ WP沿用John Smith（1837）认为为Omodei枢机制作的旧说，并列现代V
 |---|---|---|
 | ← 创作者（`created_by`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
 | → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 与安排完成《瘟疫》不同，这是全新委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
-
-候选[Wikipedia：The Empire of Flora](https://en.wikipedia.org/wiki/The_Empire_of_Flora) ↔ [Wikidata Q11750116](https://www.wikidata.org/wiki/Q11750116)双向一致，但“本章Spring→候选实物”的完整题名链尚未核定，所以本卡仍未采用确认QID，不批量导入其属性。
-
-S2全文2667字符、S3展览公告与图注、S4对象及历史说明已读；S5实际采用图注与The Gentleman Jewel Thief段，非庭审原件。Costello原刊和所引庭审仍待核，不能将另一未能访问论文记为已读。
-
-文件头commissioned_by链接[瓦尔瓜尔内拉](../persons/fabrizio-valguarnera.md)保持；[普桑](../persons/nicolas-poussin.md)及[《阿什杜德的瘟疫》](plague-at-ashdod-1631.md)为导航。S1章页／行号、句意摘要保留，待证仅约束具体版本对应，不取消章内委托事实。

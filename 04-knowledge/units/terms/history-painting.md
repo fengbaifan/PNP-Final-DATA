@@ -3,7 +3,7 @@ title: "历史画（History painting）"
 name_en: "History painting"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 603–606; print pp. 15
+  original_quotes:
+  - source_span: "lines 603–606"
+    text: |2-
+      work to commission, had his studio full of pictures ready for sale, both large and small,
+      and admirers of his landscapes would come and visit him, routing around to see what
+      they wanted, and infuriating the artist when they insisted on choosing his small paintings
+      instead of the large historical scenes which he valued much more highly.2
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L723–727
   sentence_summary: 学院早期成员不排除其他门类，不能只按历史画划界。
@@ -20,6 +27,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 723–727; print pp. 18
+  original_quotes:
+  - source_span: "lines 723–727"
+    text: |2-
+      Yet it is interesting that within the Accademia itself there was not nearly as much
+      rigidity as might be expected, or as became the practice in later academies founded on
+      roughly the same lines. Thus membership was by no means confined to ‘history pain­
+      ters’, and artists whose subject-matter was considered thoroughly objectionable had
+      no difficulty in being admitted.1 Moreover, even near craftsmen, such as gilders, seem
 - citation: "Wikipedia (en), History painting, revision 1368550732. https://en.wikipedia.org/wiki/History_painting. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "按叙事题材定义的历史画类型，含宗教和神话，不限真实历史事件。"
@@ -35,6 +50,7 @@ sources:
 - citation: "National Gallery, History paintings. https://www.nationalgallery.org.uk/paintings/glossary/history-paintings. Accessed 2026-09-11."
   location: "词条全文三段"
   sentence_summary: "严肃叙事或劝诫范例；宗教、神话、文学、历史与寓意均可；常见大尺幅不是必需条件。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-history-painting
 ---
 
 ## 内容
@@ -69,8 +85,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia：History painting](https://en.wikipedia.org/wiki/History_painting) ↔ [Q742333](https://www.wikidata.org/wiki/Q742333)配对复核一致。英文页全文25559字符、NG词条三段已读；未移入百科的全部作品图注、十九世纪风格评价或无证影响链。
+### 身份与外部链接
 
-原S1–S2章页、行号及摘要保留。文件头暂无正式关系；[自画像](self-portrait.md)等门类允许在具体作品中交叠，不构成互斥的人物职业标签。source_backed不变。
+- [Wikipedia：History painting](https://en.wikipedia.org/wiki/History_painting)
+- [Q742333](https://www.wikidata.org/wiki/Q742333)

@@ -3,7 +3,7 @@ title: "克劳德·洛兰（Claude Lorrain）"
 name_en: "Claude Lorrain"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -13,6 +13,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 265–273,283; print pp. 8
+  original_quotes:
+  - source_span: "lines 265–273"
+    text: |2-
+      The size of pictures for private galleries was also a matter for discussion. Those
+      complete decorative schemes that have survived show that in many cases pictures were
+      used to cover the walls of a room or gallery in symmetrical patterns, and that often
+      enough they were even let into the surface. Where this was the case it was obviously
+      important to regulate the exact measurements of any new picture commissioned, and
+      much surviving correspondence testifies to the patron’s interest in the question. Again
+      and again artists were commissioned to paint pictures in pairs, and in many instances
+      it is possible to see how this preoccupation with the decorative and architectural function
+      of paintings influenced their composition as well as their size.3
+  - source_span: "lines 283–283"
+    text: |2-
+      3 In relation to Claude see Rothlisberger, 1958.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
   location: 第一章；印刷页 14；OCR L538–540,565–566
   sentence_summary: Salviati 1662-07-22 信说 Claude 只对中等身份客户预定价格。
@@ -20,6 +35,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 538–540,565–566; print pp. 14
+  original_quotes:
+  - source_span: "lines 538–540"
+    text: |2-
+      Cardinal Leopold de Medici’s agent in 1662 about the possibility of buying a picture
+      by him, ‘c’est qu’il faudra le payer largement car il ne fixe un prix qu’aux gens de
+      mediocre condition.’4 But in fact even by Mancini’s date it is probable that such aristo­
+  - source_span: "lines 565–566"
+    text: |2-
+      4 Letter from Jacopo Salviati to Cardinal Leopoldo de’ Medici, dated 22 July 1662, published by
+      Ferdinand Boyer, 1931, p. 238.
 - citation: "Wikipedia (en), Claude Lorrain, revision 1373831548. https://en.wikipedia.org/wiki/Claude_Lorrain. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。"
@@ -32,6 +57,7 @@ sources:
 - citation: "Wikidata, Q214074, revision 2539087728. https://www.wikidata.org/wiki/Q214074. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-claude-lorrain
 ---
 
 ## 内容
@@ -48,20 +74,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Claude Lorrain | S1、S2；标题中的语境说明为登记用语 |
-| 报价线索 | Salviati 1662 信；据客户身份区别预议价格 | S1、S2，支持范围见各条句意摘要 |
+| 名称／对应英文 | Claude Lorrain | S1、S2 |
+| 报价线索 | Salviati 1662 信；据客户身份区别预议价格 | S1、S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** 出生于洛林、长期在罗马工作的风景画家；页面覆盖早年迁徙与训练、罗马职业、Liber Veritatis、主要风景画、收藏史及评价。第一章的1662年定价报告仍只由代理信支持。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Claude Lorrain（en）；revision 1373831548；27928字符 | 全文覆盖：Biography、Style and subjects、Influences、Early works、Figures and other non-landscape elements、Figures、Architecture、Shipping、Critical assessment and legacy、Claude glass、Selected works、See also |
-| Wikidata身份 | [Q214074](https://www.wikidata.org/wiki/Q214074)；与enwiki标题双向一致 | revision 2539087728；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1600 | Wikidata P569；有参考 |
 | 去世日期 | 1682-11-23 | Wikidata P570；有参考 |
@@ -74,14 +95,6 @@ sources:
 | 代表作 | Village Fête；聖吳甦樂登船的海港；摩西被救出水處的風景；Sea Port at Sunset；Liber Veritatis | Wikidata P800；未列参考 |
 | 艺术或思想运动 | 古典主義 | Wikidata P135；未列参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** Claude Gellée／Claude Lorrain，洛林出身、主要在意大利活动的画家。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Claude_Lorrain) 的 wikibase_item 与 [Wikidata Q214074](https://www.wikidata.org/wiki/Q214074) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -89,8 +102,7 @@ sources:
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../archives/salviati-medici-letter-1662.md) | 信件讨论购求及估价的对象是克洛德的作品；没有足够端点识别具体画作；原断言与证据见发出端卡片“雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
 
-S1：第一章；印刷页 8；OCR L265–273,283；S2：第一章；印刷页 14；OCR L538–540,565–566。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q214074](https://www.wikidata.org/wiki/Q214074)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Claude_Lorrain)

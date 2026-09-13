@@ -3,7 +3,7 @@ title: "米涅瓦圣母堂（Santa Maria sopra Minerva）"
 name_en: "Santa Maria sopra Minerva"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 120–124; print pp. 5
+  original_quotes:
+  - source_span: "lines 120–124"
+    text: |2-
+      antiquity. A titular church was, by definition, one that had been handed down from
+      cardinal to cardinal through the centuries; and in general the Popes and their families,
+      perhaps to refute the charge of being nouveaux-riches, chose to be buried in the most
+      ancient and venerable of basilicas such as S. Maria Maggiore and S. Maria sopra
+      Minerva.
 - citation: "Wikipedia (en), Santa Maria sopra Minerva, revision 1354901338. https://en.wikipedia.org/wiki/Santa_Maria_sopra_Minerva. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马米涅瓦圣母堂；名称与建筑类型对应。"
@@ -40,6 +48,7 @@ sources:
 - citation: "Camera dei deputati, Biblioteca e Archivio Storico. https://visita.camera.it/biblioteca-e-archivio-storico . Accessed 2026-09-10."
   location: "网页文字全文；采用Palazzo del Seminario、图书馆迁入和Sala Galileo部分，未观看视频"
   sentence_summary: "前修道院建筑群与教堂区分；1633年伽利略事件发生在建筑群房间，1988年众议院图书馆迁入Palazzo del Seminario。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-santa-maria-sopra-minerva
 ---
 
 ## 内容
@@ -107,16 +116,4 @@ Wikipedia所列Giancarlo Palmerio与Gabriella Villetti的《米涅瓦圣母堂�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 来源 | 章页／行数 | 句子摘要 |
-|---|---|---|
-| S1 | 第一章，印刷页5，OCR L120–124 | 古老教堂中的家族安葬与持续艺术委托，说明新画可出现在旧教堂中；不独立证明每件作品的作者或付款人。 |
-
-### 相关知识元
-
-[罗马（Rome）](rome.md)为所在地（S4–S7）；[领衔教堂（Titular church）](../terms/titular-church.md)为制度概念（S6）。与[卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md)的建筑群语境不构成机构同一性。
-
-本次集中审查未接收本卡的新关系；上述链接仍是有来源的导航，未把进驻、返回、征收、作品版本及产权混成单一边。具体未决项保留，整卡source_backed不提升。
-
-[过程与裁决](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[外部证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `places/santa-maria-sopra-minerva`。
+暂无正式关系。

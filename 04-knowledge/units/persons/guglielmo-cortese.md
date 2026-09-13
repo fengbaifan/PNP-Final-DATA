@@ -3,10 +3,13 @@ title: "古列尔莫·科尔泰塞（Guglielmo Cortese）"
 name_en: "Guglielmo Cortese"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1657年7月加入学院，1660年任primo rettore。","evidence_ref":{"doc_id":"dbi-courtois","source_file":"https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/","source_span":"本卡 S6；学院段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"trained_by","target":"persons/pietro-da-cortona.md","note":"DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分。","evidence_ref":{"doc_id":"dbi-courtois","source_file":"https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/","source_span":"本卡 S6；罗马训练与Cortona指导段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受指导画家","scope":"罗马训练／工作指导；具体合作项目另行判断"}
+  - {"relation_type":"collaborated_with","target":"persons/gaspard-dughet.md","note":"传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据。","evidence_ref":{"doc_id":"dbi-courtois","source_file":"https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/","source_span":"本卡 S6；合作项目段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"人物画家／风景画家","scope":"传记明确列出的合作项目"}
+  - {"relation_type":"collaborated_with","target":"persons/gian-lorenzo-bernini.md","note":"传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同。","evidence_ref":{"doc_id":"dbi-courtois","source_file":"https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/","source_span":"本卡 S6；Bernini合作项目段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"画家／项目合作者","scope":"传记明确列出的工程；逐作责任仍保留"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
@@ -15,6 +18,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: "Wikipedia (en), Guillaume Courtois, revision 1365392920. https://en.wikipedia.org/wiki/Guillaume_Courtois. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Guglielmo Cortese／Guillaume Courtois，1628–1679 年罗马画家；不是其兄 Jacques。"
@@ -30,6 +39,7 @@ sources:
 - citation: "Simonetta Prosperi Valentini Rodinò, «COURTOIS, Guillaume», Dizionario Biografico degli Italiani 30 (1984). https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "24440字符传记全文与文末书目；引用的原档、画作和各项研究未逐一阅读。"
   sentence_summary: "父亲、兄弟、妻子与师友分开；1657学院入会、1658–59Valmontone水厅、1660学院职務及后续作品按项目记录；1679-06-15卒，百科日月和地名异文不硬合并。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guglielmo-cortese
 ---
 
 ## 内容
@@ -95,8 +105,11 @@ sources:
 |---|---|---|
 | ← 受其赞助／保护（`patronized_by`，反向投影） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可；角色：Valmontone雇主／保护人；范围：离开数日须获特别许可的服务关系；原断言与证据见发出端卡片“卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月加入学院，1660年任primo rettore；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；学院段 |
+| → 师从／受训于（`trained_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分；角色：受指导画家；范围：罗马训练／工作指导；具体合作项目另行判断；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；罗马训练与Cortona指导段 |
+| → 合作（`collaborated_with`） | [加斯帕尔·迪盖（Gaspard Dughet）](gaspard-dughet.md) | 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据；角色：人物画家／风景画家；范围：传记明确列出的合作项目；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；合作项目段 |
+| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同；角色：画家／项目合作者；范围：传记明确列出的工程；逐作责任仍保留；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；Bernini合作项目段 |
 
-- 本章语境：[莫拉](pier-francesco-mola.md)、[卡米洛·潘菲利](camillo-pamfili.md)、[瓦尔蒙托内](../places/valmontone.md)；师友：[科尔托纳](pietro-da-cortona.md)。本卡既无正式关系，链接是核对入口，后续按具体证据生成关系。
-- [Wikipedia英文页](https://en.wikipedia.org/wiki/Guillaume_Courtois) ↔ [Wikidata Q1749032](https://www.wikidata.org/wiki/Q1749032)身份配对复用。ULAN500115391、RKD18775为WD列出的线索，原库未直接核。[S5]
-- **保留冲突：** 生日日月与抵罗马年份；Galloro祭坛画1663付款／1666旧年款说法；百科的Monte Porzio Catone“St George”与DBI的San Gregorio不合；DBI书目Montalto1955卷号有错误，不能照抄为已核书目。[S4、S6]
-- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6专业传记全文。单页读完不等于全部细节或关系已获独立验证。
+### 身份与外部链接
+
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Guillaume_Courtois)
+- [Wikidata Q1749032](https://www.wikidata.org/wiki/Q1749032)

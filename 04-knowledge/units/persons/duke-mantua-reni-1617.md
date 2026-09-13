@@ -3,7 +3,7 @@ title: "费迪南多·贡扎加（Ferdinando Gonzaga）"
 name_en: "Ferdinando Gonzaga"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 531–534; print pp. 14
+  original_quotes:
+  - source_span: "lines 531–534"
+    text: |2-
+      as he saw fit.1 It is true enough that we do find some examples of this. In 1617, for
+      instance, the Duke of Mantua wrote to Guido Reni asking him for a painting of Justice
+      embracing Peace. He gave the measurements, but made no mention of the price beyond
+      saying that Guido would be ‘generously rewarded’.2 And artists were clearly glad to
 - citation: "Wikipedia (en), Ferdinando Gonzaga, Duke of Mantua, revision 1352963309. https://en.wikipedia.org/wiki/Ferdinando_Gonzaga,_Duke_of_Mantua. Accessed 2026-09-11."
   location: "全文语义阅读：正文、信息框、图注及注释／书目；不含全部外链"
   sentence_summary: "英文全文3581字符；1587–1626曼图亚与蒙费拉托公爵，亲缘、婚姻和继承；正文继位叙述与1612表格不一致。"
@@ -22,6 +29,7 @@ sources:
 - citation: "Gino Benzoni, FERDINANDO Gonzaga, duca di Mantova e dei Monferrato, DBI 46 (1996). https://www.treccani.it/enciclopedia/ferdinando-gonzaga-duca-di-mantova-e-dei-monferrato_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "已读出生／教育、辞去枢机及加冕、Camilla与Caterina婚姻、Favorita和死亡相关段；全文其余未读"
   sentence_summary: "1587–1626，1617在任曼图亚公爵及Reni赞助语境；教育、1615辞枢机、1616加冕与婚姻异文，不把百科1615继位混写照录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-duke-mantua-reni-1617
 ---
 
 ## 内容
@@ -80,8 +88,7 @@ Gino Benzoni，DBI第46卷（1996）本条；Paul F. Grendler, *The University o
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；原断言与证据见发出端卡片“雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
 
-[Wikipedia：Ferdinando Gonzaga, Duke of Mantua](https://en.wikipedia.org/wiki/Ferdinando_Gonzaga,_Duke_of_Mantua) ↔ [Wikidata Q969739](https://www.wikidata.org/wiki/Q969739) 双向对应。1617在任时间、爵号、Reni赞助共同支持本章人物身份，本轮配对通过；这是身份判断，不表示读过1617信原件。
+### 身份与外部链接
 
-S2全文3581字符含家谱、脚注已读；S3引用实体标签与时段限定已核；S4只读所列段落，未声称DBI全文。婚期12／16日及枢机终年冲突保留。
-
-本卡尚无正式边；[雷尼](guido-reni.md)和[1617年委托](../works/reni-justice-embracing-peace.md)为导航。父母、配偶等结构化事实不自动扩增有效KU。来源章页／行号与句意摘要保持；source_backed不变。
+- [Wikipedia：Ferdinando Gonzaga, Duke of Mantua](https://en.wikipedia.org/wiki/Ferdinando_Gonzaga,_Duke_of_Mantua)
+- [Wikidata Q969739](https://www.wikidata.org/wiki/Q969739)

@@ -3,7 +3,7 @@ title: "阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）"
 name_en: "Artemisia Gentileschi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"corresponded_with","target":"persons/antonio-ruffo.md","note":"1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留。","evidence_ref":{"doc_id":"dbi-artemisia","source_file":"https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/","source_span":"本卡 S6；1649–1650 Ruffo通信段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1649–1650","role":"通信双方","scope":"密集通信涉及付款及拟议委托；不把全部往来合成单一成交"}
@@ -15,6 +15,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 523; print pp. 13
+  original_quotes:
+  - source_span: "lines 523–523"
+    text: |2-
+      6 See letters from Mattia Preti and Artemisia Gentileschi—Ruffo, pp. 239 and 48.
 - citation: "Wikipedia (en), Artemisia Gentileschi, revision 1371071670. https://en.wikipedia.org/wiki/Artemisia_Gentileschi. Accessed 2026-09-10."
   location: "导言身份段；REV-034初步对齐，非全文补足"
   sentence_summary: "十七世纪女画家Artemisia／Lomi Gentileschi；Wiki两侧卒年表述有差异，身份通过不定精确卒年。"
@@ -33,6 +37,7 @@ sources:
 - citation: "The National Gallery, London, 'Artemisia Gentileschi (1593–1654 or later).' https://www.nationalgallery.org.uk/artists/artemisia-gentileschi Accessed 2026-09-11."
   location: "艺术家传记全文"
   sentence_summary: "概述父亲训练、1610年早期作品、1612年审判、佛罗伦萨学院资格、五名子女、那不勒斯工作室与伦敦行程，并据新发现文书确认1654年8月仍在世。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-artemisia-gentileschi
 ---
 
 ## 内容
@@ -105,29 +110,5 @@ sources:
 
 ### 身份与外部链接
 
-[Wikipedia（en）Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi) 与 [Wikidata Q212657](https://www.wikidata.org/wiki/Q212657) 的sitelink双向一致；Lomi／Gentileschi姓名、1593年Rome出生、Orazio之女、画家身份及Rome—Florence—Venice—Naples—London轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取；身份配对不表示S5全部断言均已采用。
-
-### 可导航的关系候选（尚未成正式边）
-
-| 关系性质 | 相关知识元／对象 | 证据与处理 |
-|---|---|---|
-| 通信、委托与付款 | [Antonio Ruffo](antonio-ruffo.md) | S1只把双方信件列为价格来源；S6确认1649—1650年通信、《Galatea》与《Diana at Her Bath》付款及另两项拟议委托。信件、委托、付款和作品端点须分开成边 |
-| 训练与亲缘 | Orazio Lomi Gentileschi | S4、S6–S7支持父女及工作室训练；当前无已接收父亲KU，不创建悬空链接或正式边 |
-| 活动地点 | [Rome](../places/rome.md)、[Florence](../places/florence.md)、[Venice](../places/venice.md)、[Naples](../places/naples.md) | S4、S6–S7支持分期活动；需按时间段审查活动地关系，不能压成一个无时间限定的“位于”关系 |
-| 机构资格 | Accademia delle Arti del Disegno, Florence | S6给出1616-07-19至1620；不是现有[圣路加学院](../institutions/accademia-di-san-luca.md)，不得误连 |
-
-本次将与Antonio Ruffo在1649–1650年的通信登记为 `corresponded_with`，范围中保留付款与拟议委托语境，不把通信直接等同成交；父女师承因父亲尚无已接收KU，活动地也不以无时间限定的 `located_at` 压缩，故未形成其他正式边。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 卒年 | 采用“1654年8月以后”；S7的新见文书晚于DBI的1652年推定和WD的1653年，确切死亡日及地点仍待原文书和死亡记录 |
-| 出生年孤立异文 | S4正文含“档案出生证1590”，但同页、DBI和WD均为1593；未取得其所谓档案的可核定位，不改写为双生年 |
-| 子女人数 | DBI具名四人，S4／S7称五人，S4另列Agnola；须核原始洗礼与死亡记录 |
-| London合作 | 是否协助Orazio完成Queen's House天顶画仍有分歧；不生成父女合作作品关系 |
-| Ruffo交易 | DBI支持画题、付款顺序和拟议委托，但本轮未读1649—1650年原信，也未定位各作品现存实物、价格总额和作品KU |
-| 作品归属 | 早期父女协作、晚期工作室分工及多个同题版本均需作品级研究，不从人物传记批量生成作者关系 |
-| 评价史 | 女性主义、社会史和形式分析对其作品的解释不同；评价者、原文与被评作品需要另行结构化，不能归并成统一结论 |
-
-来源序号S1–S7依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi)
+- [Wikidata Q212657](https://www.wikidata.org/wiki/Q212657)

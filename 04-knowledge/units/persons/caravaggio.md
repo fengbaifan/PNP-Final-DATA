@@ -1,13 +1,153 @@
 ---
-title: "卡拉瓦乔（Caravaggio）"
-name_en: "Caravaggio"
+title: 卡拉瓦乔（Caravaggio）
+name_en: Caravaggio
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
-  - {"relation_type":"creator_of","target":"works/caravaggio-conversion-saint-paul.md","note":"1600年合同指定卡拉瓦乔完成该题材；本边连接委托对象，不把第一版与礼拜堂版合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 397–401; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1600起","role":"合同指定画家","scope":"连接委托对象；不同实物版本仍分开"}
-  - {"relation_type":"creator_of","target":"works/caravaggio-martyrdom-saint-peter.md","note":"1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 397–401; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1600起","role":"合同指定画家","scope":"连接委托对象；现存版本与原约底材仍分开"}
+- relation_type: creator_of
+  target: works/caravaggio-conversion-saint-paul.md
+  note: 1600年合同指定卡拉瓦乔完成该题材；本边连接委托对象，不把第一版与礼拜堂版合并。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401; print pp. 11
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1600起
+  role: 合同指定画家
+  scope: 连接委托对象；不同实物版本仍分开
+- relation_type: creator_of
+  target: works/caravaggio-martyrdom-saint-peter.md
+  note: 1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 397–401; print pp. 11
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1600起
+  role: 合同指定画家
+  scope: 连接委托对象；现存版本与原约底材仍分开
+- relation_type: trained_by
+  target: persons/simone-peterzano.md
+  note: 1584年起在彼得扎诺工作室完成四年学徒期；彼得扎诺自称提香学生不构成卡拉瓦乔直接师从提香。
+  evidence_ref:
+    doc_id: trained-by-persons-simone-peterzano-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Biography / Early life段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1584–约1588
+  role: 学徒
+  scope: 米兰工作室训练
+- relation_type: employed_by
+  target: persons/giuseppe-cesari.md
+  note: 罗马早期在朱塞佩·切萨里工作室绘制花果等部分。
+  evidence_ref:
+    doc_id: employed-by-persons-giuseppe-cesari-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1590年代早期
+  role: 工作室画家／助手
+  scope: 花果及次要部分；不等于长期师承
+- relation_type: friend_of
+  target: persons/prospero-orsi.md
+  note: 页面将奥尔西列为朋友，并记其帮助卡拉瓦乔进入收藏与赞助网络。
+  evidence_ref:
+    doc_id: friend-of-persons-prospero-orsi-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与相关生平段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1590年代起
+  role: 朋友与市场引介者
+  scope: 不由此推定共同创作
+- relation_type: friend_of
+  target: persons/onorio-longhi.md
+  note: 生平及1603年诽谤案语境将隆吉列入卡拉瓦乔朋友圈。
+  evidence_ref:
+    doc_id: friend-of-persons-onorio-longhi-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Rome生平与诽谤案段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 朋友
+  scope: 不由共同涉案推定艺术合作
+- relation_type: friend_of
+  target: persons/mario-minnitti.md
+  note: 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系。
+  evidence_ref:
+    doc_id: friend-of-persons-mario-minnitti-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与Models段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1590年代
+  role: 朋友
+  scope: 模特身份逐件作品另判
+- relation_type: patronized_by
+  target: persons/francesco-maria-del-monte.md
+  note: 德尔·蒙特购藏早期作品、提供住处并使卡拉瓦乔进入委托网络。
+  evidence_ref:
+    doc_id: patronized-by-persons-francesco-maria-del-monte-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与Patrons字段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 约1595起
+  role: 主要赞助人／保护人
+  scope: 具体作品委托另逐件登记
+- relation_type: patronized_by
+  target: persons/alof-de-wignacourt.md
+  note: 马耳他时期维尼亚库尔支持卡拉瓦乔并推动其获骑士身份。
+  evidence_ref:
+    doc_id: patronized-by-persons-alof-de-wignacourt-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Malta段与Patrons字段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1607–1608
+  role: 保护人
+  scope: 骑士身份与肖像作品分别建模
+- relation_type: patronized_by
+  target: families/colonna-family.md
+  note: 科隆纳家族网络在卡拉瓦乔逃离罗马后提供保护；本边不表示家族委托全部作品。
+  evidence_ref:
+    doc_id: patronized-by-families-colonna-family-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Early life及Naples exile相关段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1606后
+  role: 保护网络
+  scope: 逃亡期保护；非具体作品委托
+- relation_type: member_of
+  target: institutions/knights-hospitaller.md
+  note: 1608年获医院骑士团骑士身份，同年被拘、逃离后遭逐；成员关系有终止限定。
+  evidence_ref:
+    doc_id: member-of-institutions-knights-hospitaller-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Malta段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1608年内
+  role: 骑士，后被逐
+  scope: 非终身未撤销头衔
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L349–353
@@ -16,6 +156,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 349–353; print pp. 10
+  original_quotes:
+  - source_span: "lines 349–353"
+    text: |2-
+      very beginning of the century the Marchese Giustiniani, whose taste is discussed in a
+      later chapter, was such a wholehearted admirer of Caravaggio that, when an altarpiece
+      by that artist had been rejected as unsuitable for its intended location, he acquired it for
+      his gallery and hung it among a series of pictures which had been assembled far more
+      for their affinities of style than for any consistency of subject-matter.2 And some ninety
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L397–401
   sentence_summary: 1600 年圣保罗与圣彼得委托合同要求提交设计。
@@ -23,24 +171,33 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 397–401; print pp. 11
-- citation: "Wikipedia (en), Caravaggio, revision 1372526492. https://en.wikipedia.org/wiki/Caravaggio. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "Michelangelo Merisi da Caravaggio，十六至十七世纪罗马画家；不把所有退画与 Cerasi 委托合并。"
-- citation: "Wikidata, Q42207, revision 2541730229. https://www.wikidata.org/wiki/Q42207. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "Michelangelo Merisi da Caravaggio，十六至十七世纪罗马画家；不把所有退画与 Cerasi 委托合并。"
-- citation: "Wikipedia (en), Caravaggio, revision 1372526492. https://en.wikipedia.org/wiki/Caravaggio. Accessed 2026-09-11."
-  location: "全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链"
-  sentence_summary: "补名称、训练及迁居、赞助与作品、受评价史和书目线索；争议生平、死因及混写版本不直接采纳。"
-- citation: "Wikidata Q42207, revision 2541730229. https://www.wikidata.org/wiki/Q42207. Accessed 2026-09-11."
-  location: "双向 sitelink／pageprops 与适用字段；含 rank、限定词、时间精度、单位及引用状态"
-  sentence_summary: "米兰为出生地优选值；1573生年为弃用值；卒日优选1610-07-18，时间精度及历法不同；父亲关联项实时英文标签异常，不采该QID。"
-- citation: "Getty ULAN 500115312, Caravaggio, Michelangelo Merisi da. https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500115312. Accessed 2026-09-11."
-  location: "已读身份、名称、角色及关联区；未声称读完全部索引名称与来源清单"
-  sentence_summary: "采常用名、Peterzano学徒及Cesari工作室；Amerighi为旧误加名；出生地、到罗马年份、学生和职业标签存在内部或跨来源冲突。"
-- citation: "National Gallery, Michelangelo Merisi da Caravaggio (1571–1610). https://www.nationalgallery.org.uk/artists/michelangelo-merisi-da-caravaggio. Accessed 2026-09-11."
-  location: "传记四节全文及页面作品入口摘要；作品独立页未读"
-  sentence_summary: "馆方说明Del Monte支持、直接作画与戏剧性明暗、1606后南迁及马耳他骑士身份；1592赴罗马及死亡叙述为馆方版本，不作为全部异文的裁决。"
+  original_quotes:
+  - source_span: "lines 397–401"
+    text: |2-
+      It is true that in 1600 Caravaggio agreed with his patron, before executing his
+      altarpieces of The Conversion of St Paul and The Martyrdom of St Peter, that he would
+      ‘submit specimens and designs of the figures and other objects with which according to
+      ’ his invention and genius he intends to beautify the said mystery and martyrdom’,4 but
+      tliis was exceptional, and Caravaggio was already notorious as a difficult character.
+- citation: Wikipedia (en), Caravaggio, revision 1372526492. https://en.wikipedia.org/wiki/Caravaggio. Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: Michelangelo Merisi da Caravaggio，十六至十七世纪罗马画家；不把所有退画与 Cerasi 委托合并。
+- citation: Wikidata, Q42207, revision 2541730229. https://www.wikidata.org/wiki/Q42207. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: Michelangelo Merisi da Caravaggio，十六至十七世纪罗马画家；不把所有退画与 Cerasi 委托合并。
+- citation: Wikipedia (en), Caravaggio, revision 1372526492. https://en.wikipedia.org/wiki/Caravaggio. Accessed 2026-09-11.
+  location: 全文语义阅读：正文、信息框、图注及注释／书目；不包含全部外链
+  sentence_summary: 补名称、训练及迁居、赞助与作品、受评价史和书目线索；争议生平、死因及混写版本不直接采纳。
+- citation: Wikidata Q42207, revision 2541730229. https://www.wikidata.org/wiki/Q42207. Accessed 2026-09-11.
+  location: 双向 sitelink／pageprops 与适用字段；含 rank、限定词、时间精度、单位及引用状态
+  sentence_summary: 米兰为出生地优选值；1573生年为弃用值；卒日优选1610-07-18，时间精度及历法不同；父亲关联项实时英文标签异常，不采该QID。
+- citation: Getty ULAN 500115312, Caravaggio, Michelangelo Merisi da. https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500115312. Accessed 2026-09-11.
+  location: 已读身份、名称、角色及关联区；未声称读完全部索引名称与来源清单
+  sentence_summary: 采常用名、Peterzano学徒及Cesari工作室；Amerighi为旧误加名；出生地、到罗马年份、学生和职业标签存在内部或跨来源冲突。
+- citation: National Gallery, Michelangelo Merisi da Caravaggio (1571–1610). https://www.nationalgallery.org.uk/artists/michelangelo-merisi-da-caravaggio. Accessed 2026-09-11.
+  location: 传记四节全文及页面作品入口摘要；作品独立页未读
+  sentence_summary: 馆方说明Del Monte支持、直接作画与戏剧性明暗、1606后南迁及马耳他骑士身份；1592赴罗马及死亡叙述为馆方版本，不作为全部异文的裁决。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-caravaggio
 ---
 
 ## 内容
@@ -68,7 +225,7 @@ sources:
 | 性别 | 男／male | S6–S7 |
 | 生年／常见生日 | 1571；常见记录1571-09-29 | S5–S6；WD生日值采用儒略历模型，不自行作公历换算 |
 | 卒年／常见卒日 | 1610-07-18 | S5–S6；WD优选、日精度，年精度1610不另造1月1日 |
-| 出生地 | 米兰／Milan，历史上属米兰公国 | S5–S6优选；Getty仍记Caravaggio，见未决 |
+| 出生地 | 米兰／Milan，历史上属米兰公国 | S5–S6优选；Getty仍记Caravaggio，[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-caravaggio) |
 | 去世地 | 埃尔科莱港／Porto Ercole | S5–S8 |
 | 文化／政治归属 | 意大利画家；出生时米兰公国处西班牙统治下，不写现代意大利共和国国籍 | S5–S6 |
 | 父亲 | Fermo Merisi，传记提及家庭管事及建筑装饰工作 | S5；WD父亲链接Q86697327实时标签为Felipe duram，未采用该链接或将其视为已验证亲缘 |
@@ -89,67 +246,67 @@ sources:
 
 **覆盖说明：** REV-052原表只抽取5个代表性作品／工程组。REV-062–065重新逐段反查S5正文、信息框、图注及Oeuvre／Theft段，按两幅同名《书写中的圣哲罗姆》分开等对象边界，整理为下列57条具名作品、版本或归属争议对象。页面本身说明卡拉瓦乔作品总数有40至80件等不同意见，因此这仍只是“页面具名对象清单”，不是卡拉瓦乔全集。
 
-下列清单按S5页面实际出现顺序整理；同题异版、争议归属及不明对象暂保留限定，具体作品卡尚未建立时不附虚假链接。
+下列清单按S5页面实际出现顺序整理。REV-067把57个原清单行裁决为61个可独立识别的作品／版本对象：其中60个有独立作品卡，第一版《圣马太与天使》复用既有卡；第57项《圣罗萨里奥》仍因对象同一性不足暂缓。两张1600年合同委托卡继续作为委托对象存在，不冒充三件具体实物。
 
-| 作品或版本 | 页面所述时间／状态 | 当前知识元状态 | 依据 |
-|---|---|---|---|
-| 《果篮》／Basket of Fruit | 约1595–1596 | 待建work | S5 |
-| 《纸牌作弊者》／The Cardsharps | 约1594 | 待建work | S5 |
-| 《音乐家们》／The Musicians | 1595–1596 | 待建work | S5 |
-| 《削水果的男孩》／Boy Peeling a Fruit | 页面称现知最早作品 | 待建work | S5 |
-| 《提果篮的男孩》／Boy with a Basket of Fruit | 1593–1594 | 待建work | S5 |
-| 《生病的巴克斯》／Young Sick Bacchus | 早期作品；自画像解释属研究判断 | 待建work | S5 |
-| 《圣方济各入神》／Saint Francis of Assisi in Ecstasy | 约1595 | 待建work | S5 |
-| 《算命者》／The Fortune Teller | 罗马早期；存在多个版本／复制 | 待建并消歧 | S5 |
-| 《鲁特琴演奏者》／The Lute Player | 页面图注为Hermitage版本，约1600 | 待建并分版本 | S5 |
-| 《巴克斯》／Bacchus | del Monte时期 | 待建work | S5 |
-| 《被蜥蜴咬伤的男孩》／Boy Bitten by a Lizard | del Monte时期 | 待建work | S5 |
-| 《悔罪的抹大拉》／Penitent Magdalene | 罗马早期宗教画 | 待建work | S5 |
-| 《圣凯瑟琳》／Saint Catherine | 罗马早期宗教画 | 待建并规范题名 | S5 |
-| 《马大与抹大拉的马利亚》／Martha and Mary Magdalene | 罗马早期宗教画 | 待建work | S5 |
-| 《朱迪斯斩杀赫罗弗尼斯》／Judith Beheading Holofernes | 1599–1602；与图卢兹争议版本分开 | 待建work | S5 |
-| 《以撒献祭》／Sacrifice of Isaac | 罗马早期宗教画 | 待建并分版本 | S5 |
-| 《逃往埃及途中的休息》／Rest on the Flight into Egypt | 罗马早期宗教画 | 待建work | S5 |
-| 《美杜莎》／Medusa | 约1597 | 待建并分版本 | S5 |
-| 《水仙》／Narcissus at the Source | 1597–1599；归属需核 | 待建并核归属 | S5 |
-| 《以马忤斯的晚餐》／Supper at Emmaus | 页面主要述1601伦敦版本 | 待建并分版本 | S5 |
-| 《圣马太殉难》／The Martyrdom of Saint Matthew | 1600，Contarelli礼拜堂 | 待建work | S5 |
-| 《圣马太蒙召》／The Calling of Saint Matthew | 1599–1600，Contarelli礼拜堂 | 待建work | S5 |
-| 《多疑的圣多马》／The Incredulity of Saint Thomas | 约1601–1602；页面并列不同版本说法 | 待建并消歧 | S5 |
-| 《逮捕基督》／The Taking of Christ | 约1602；页面另述Odessa复制品 | 待建并分对象 | S5 |
-| [《圣马太与天使》第一版／Saint Matthew and the Angel (first version)](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 约1602；退画，战后失踪／推测毁损 | 已有具体work | S5；链接作品卡S6（柏林对象记录） |
-| 《圣马太的启示》／The Inspiration of Saint Matthew | Contarelli礼拜堂替代版本 | 待建work | S5 |
-| 《圣保罗归化》第一版／The Conversion of Saint Paul, first version | 1600–1601；与现存礼拜堂版分开 | [已有委托对象卡](../works/caravaggio-conversion-saint-paul.md)，实物待拆 | S2、S5 |
-| 《大马士革路上的归化》／Conversion on the Way to Damascus | 1601，Cerasi礼拜堂现存版本 | 同上，实物待拆 | S5 |
-| 《圣彼得受难》／The Crucifixion of Saint Peter | 1601，Cerasi礼拜堂现存布面版本 | [已有委托对象卡](../works/caravaggio-martyrdom-saint-peter.md)，实物待拆 | S5 |
-| 《施洗者约翰与公羊》／John the Baptist with the Ram | 1602 | 待建work | S5 |
-| 《基督下葬》／The Entombment of Christ | 1602–1603 | 待建work | S5 |
-| 《洛雷托圣母》／Madonna di Loreto | 罗马时期 | 待建work | S5 |
-| 《马夫圣母》／Grooms’ Madonna / Madonna dei palafrenieri | 原安置圣彼得大殿，两日后移出 | 待建work | S5 |
-| 《圣母之死》／Death of the Virgin | 1601–1606；退画后经曼图亚、英国王室进入法国王室收藏 | 待建work | S5 |
-| 《爱神战胜一切》／Amor Vincit Omnia | 1601–1602；为Vincenzo Giustiniani作 | 待建work | S5 |
-| 《书写中的圣哲罗姆》（博尔盖塞版本）／Saint Jerome Writing, Borghese version | 约1605–1606 | 待建并分版本 | S5 |
-| 《玫瑰经圣母》／Madonna of the Rosary | 那不勒斯阶段相关 | 待建work | S5 |
-| 《七件善事》／The Seven Works of Mercy | 1606–1607；仍在Pio Monte della Misericordia教堂 | 待建work及安置关系 | S5 |
-| 《施洗者圣约翰斩首》／The Beheading of Saint John the Baptist | 1608；马耳他圣约翰副主教座堂 | 待建work及创作／安置关系 | S5、S8 |
-| 《书写中的圣哲罗姆》（瓦莱塔版本）／Saint Jerome Writing, Valletta version | 马耳他时期；圣约翰副主教座堂 | 待建并分版本 | S5 |
-| 《阿洛夫·德·维尼亚库尔与侍从肖像》／Portrait of Alof de Wignacourt and his Page | 马耳他时期 | 待建work | S5 |
-| 《圣露西下葬》／Burial of Saint Lucy | 西西里时期 | 待建work | S5 |
-| 《拉撒路复活》／The Raising of Lazarus | 西西里时期；墨西拿 | 待建work | S5 |
-| 《牧羊人朝拜》／Adoration of the Shepherds | 西西里时期；墨西拿 | 待建work | S5 |
-| 《莎乐美与施洗者圣约翰之首》（马德里）／Salome with the Head of John the Baptist (Madrid) | 1609年前后 | 待建work | S5 |
-| 《圣彼得不认主》／The Denial of Saint Peter | 1610前后 | 待建work | S5 |
-| 《施洗者约翰》（博尔盖塞）／John the Baptist (Borghese) | 那不勒斯末期 | 待建并规范题名 | S5 |
-| 《圣乌尔苏拉殉难》／The Martyrdom of Saint Ursula | 页面称最后作品 | 待建work | S5 |
-| 《大卫与歌利亚之首》／David with the Head of Goliath | 1609–1610；拟赠Scipione Borghese的说法带推测 | 待建work | S5 |
-| 《圣彼得与圣安德烈蒙召》／The Calling of Saints Peter and Andrew | 2006年鉴定／修复 | 待建work | S5 |
-| 《圣奥古斯丁》／Saint Augustine | 2011年公布的归属对象 | 待建，归属待证 | S5 |
-| 《朱迪斯斩杀赫罗弗尼斯》（图卢兹对象）／Judith Beheading Holofernes, Toulouse object | 2014年发现；归属有争议 | 待建争议work | S5 |
-| 《看这个人》（马德里对象）／Ecce Homo, Madrid object | 2021年撤拍；归属有争议 | 待建争议work | S5 |
-| 《圣方济各与圣劳伦斯在场的耶稣诞生》／Nativity with St. Francis and St. Lawrence | 1600；1969年被盗，去向不明 | 待建work | S5 |
-| 《菲利德·梅兰德罗尼肖像》／Portrait of Fillide Melandroni | 页面注释称毁损／归于卡拉瓦乔 | 待建并核归属 | S5 |
-| 《橄榄山上的基督》／Christ on the Mount of Olives | 页面注释称毁损／归于卡拉瓦乔 | 待建并核归属 | S5 |
-| 《圣罗萨里奥》／St. Rosario | Burton叙述对象；存世和位置不明，且与《玫瑰经圣母》是否同一未决 | 暂缓消歧 | S5 |
+| 原清单序号与题名 | 对象裁决与知识元 | 对齐／关系状态 |
+|---|---|---|
+| 1. 《果篮》 | [《果篮》／Basket of Fruit](../works/caravaggio-basket-of-fruit.md) | 身份配对通过；确定作者边 |
+| 2. 《纸牌作弊者》 | [《纸牌作弊者》（金贝尔版本）／The Cardsharps (Kimbell version)](../works/caravaggio-cardsharps-kimbell.md) | 身份配对通过；确定作者边 |
+| 3. 《音乐家们》 | [《音乐家们》／The Musicians](../works/caravaggio-musicians.md) | 身份配对通过；确定作者边 |
+| 4. 《削水果的男孩》 | [《削水果的男孩》（皇家收藏版本）／Boy Peeling Fruit (Royal Collection version)](../works/caravaggio-boy-peeling-fruit-royal.md) | 身份配对通过；确定作者边 |
+| 5. 《提果篮的男孩》 | [《提果篮的男孩》／Boy with a Basket of Fruit](../works/caravaggio-boy-with-basket-fruit.md) | 身份配对通过；确定作者边 |
+| 6. 《生病的巴克斯》 | [《生病的巴克斯》／Young Sick Bacchus](../works/caravaggio-young-sick-bacchus.md) | 身份配对通过；确定作者边 |
+| 7. 《圣方济各入神》 | [《圣方济各入神》／Saint Francis of Assisi in Ecstasy](../works/caravaggio-saint-francis-ecstasy.md) | 身份配对通过；确定作者边 |
+| 8. 《算命者》 | [《算命者》（卡比托利欧第一版）／The Fortune Teller (Capitoline first version)](../works/caravaggio-fortune-teller-capitoline.md)；[《算命者》（卢浮宫第二版）／The Fortune Teller (Louvre second version)](../works/caravaggio-fortune-teller-louvre.md) | 身份配对通过；确定作者边；身份配对通过；确定作者边 |
+| 9. 《鲁特琴演奏者》 | [《鲁特琴演奏者》（艾尔米塔什版本）／The Lute Player (Hermitage version)](../works/caravaggio-lute-player-hermitage.md) | 身份配对通过；确定作者边 |
+| 10. 《巴克斯》 | [《巴克斯》／Bacchus](../works/caravaggio-bacchus-uffizi.md) | 身份配对通过；确定作者边 |
+| 11. 《被蜥蜴咬伤的男孩》 | [《被蜥蜴咬伤的男孩》（伦敦版本）／Boy Bitten by a Lizard (London version)](../works/caravaggio-boy-bitten-lizard-london.md) | 身份配对通过；确定作者边 |
+| 12. 《悔罪的抹大拉》 | [《悔罪的抹大拉》／Penitent Magdalene](../works/caravaggio-penitent-magdalene.md) | 身份配对通过；确定作者边 |
+| 13. 《圣凯瑟琳》 | [《亚历山大的圣凯瑟琳》／Saint Catherine of Alexandria](../works/caravaggio-saint-catherine-alexandria.md) | 身份配对通过；确定作者边 |
+| 14. 《马大与抹大拉的马利亚》 | [《马大与抹大拉的马利亚》／Martha and Mary Magdalene](../works/caravaggio-martha-mary-magdalene.md) | 身份配对通过；确定作者边 |
+| 15. 《朱迪斯斩杀赫罗弗尼斯》 | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）／Judith Beheading Holofernes (Palazzo Barberini version)](../works/caravaggio-judith-barberini.md) | 身份配对通过；确定作者边 |
+| 16. 《以撒献祭》 | [《以撒献祭》（乌菲齐版本）／Sacrifice of Isaac (Uffizi version)](../works/caravaggio-sacrifice-isaac-uffizi.md)；[《以撒献祭》（原普林斯顿旧藏版本）／Sacrifice of Isaac (former Princeton version)](../works/caravaggio-sacrifice-isaac-princeton.md) | 身份配对通过；确定作者边；身份配对通过；争议／复制边界保留 |
+| 17. 《逃往埃及途中的休息》 | [《逃往埃及途中的休息》／Rest on the Flight into Egypt](../works/caravaggio-rest-flight-egypt.md) | 身份配对通过；确定作者边 |
+| 18. 《美杜莎》 | [《美杜莎》（乌菲齐版本）／Medusa (Uffizi version)](../works/caravaggio-medusa-uffizi.md)；[《美杜莎》（穆尔托拉版本）／Medusa Murtola](../works/caravaggio-medusa-murtola.md) | 身份配对通过；确定作者边；身份配对通过；确定作者边 |
+| 19. 《水仙》 | [《水仙》／Narcissus](../works/caravaggio-narcissus.md) | 身份配对通过；争议／复制边界保留 |
+| 20. 《以马忤斯的晚餐》 | [《以马忤斯的晚餐》（伦敦版本）／Supper at Emmaus (London version)](../works/caravaggio-supper-emmaus-london.md) | 身份配对通过；确定作者边 |
+| 21. 《圣马太殉难》 | [《圣马太殉难》／The Martyrdom of Saint Matthew](../works/caravaggio-martyrdom-saint-matthew.md) | 身份配对通过；确定作者边 |
+| 22. 《圣马太蒙召》 | [《圣马太蒙召》／The Calling of Saint Matthew](../works/caravaggio-calling-saint-matthew.md) | 身份配对通过；确定作者边 |
+| 23. 《多疑的圣多马》 | [《多疑的圣多马》（无忧宫版本）／The Incredulity of Saint Thomas (Sanssouci version)](../works/caravaggio-incredulity-thomas-sanssouci.md)；[《多疑的圣多马》（所谓“教会版本”）／The Incredulity of Saint Thomas (so-called Ecclesiastical version)](../works/caravaggio-incredulity-thomas-ecclesiastical.md) | 身份配对通过；确定作者边；无同粒度QID；争议／复制边界保留 |
+| 24. 《逮捕基督》 | [《逮捕基督》（都柏林版本）／The Taking of Christ (Dublin version)](../works/caravaggio-taking-christ-dublin.md)；[《逮捕基督》（敖德萨复制品）／The Taking of Christ (Odesa copy)](../works/caravaggio-taking-christ-odesa.md) | 身份配对通过；确定作者边；身份配对通过；争议／复制边界保留 |
+| 25. 《圣马太与天使》第一版 | [《圣马太与天使》（第一版）／Saint Matthew and the Angel (first version)](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 既有对象已补原定地点及历史保管关系 |
+| 26. 《圣马太的启示》 | [《圣马太的启示》／The Inspiration of Saint Matthew](../works/caravaggio-inspiration-saint-matthew.md) | 身份配对通过；确定作者边 |
+| 27. 《圣保罗归化》第一版 | [《圣保罗归化》（第一版）／The Conversion of Saint Paul (first version)](../works/caravaggio-conversion-saint-paul-first.md) | 身份配对通过；确定作者边 |
+| 28. 《大马士革路上的归化》 | [《大马士革路上的归化》／Conversion on the Way to Damascus](../works/caravaggio-conversion-damascus-cerasi.md) | 身份配对通过；确定作者边 |
+| 29. 《圣彼得受难》 | [《圣彼得钉十字架》／Crucifixion of Saint Peter](../works/caravaggio-crucifixion-saint-peter.md) | 身份配对通过；确定作者边 |
+| 30. 《施洗者约翰与公羊》 | [《施洗者约翰与公羊》／Young Saint John the Baptist with a Ram](../works/caravaggio-john-baptist-ram-capitoline.md) | 身份配对通过；确定作者边 |
+| 31. 《基督下葬》 | [《基督下葬》／The Entombment of Christ](../works/caravaggio-entombment-christ.md) | 身份配对通过；确定作者边 |
+| 32. 《洛雷托圣母》 | [《洛雷托圣母》／Madonna di Loreto](../works/caravaggio-madonna-loreto.md) | 身份配对通过；确定作者边 |
+| 33. 《马夫圣母》 | [《马夫圣母》／Madonna and Child with Saint Anne (Madonna dei Palafrenieri)](../works/caravaggio-madonna-palafrenieri.md) | 身份配对通过；确定作者边 |
+| 34. 《圣母之死》 | [《圣母之死》／Death of the Virgin](../works/caravaggio-death-virgin.md) | 身份配对通过；确定作者边 |
+| 35. 《爱神战胜一切》 | [《爱神战胜一切》／Amor Vincit Omnia](../works/caravaggio-amor-vincit-omnia.md) | 身份配对通过；确定作者边 |
+| 36. 《书写中的圣哲罗姆》（博尔盖塞） | [《书写中的圣哲罗姆》（博尔盖塞版本）／Saint Jerome Writing (Borghese version)](../works/caravaggio-saint-jerome-borghese.md) | 身份配对通过；确定作者边 |
+| 37. 《玫瑰经圣母》 | [《玫瑰经圣母》／Madonna of the Rosary](../works/caravaggio-madonna-rosary.md) | 身份配对通过；确定作者边 |
+| 38. 《七件善事》 | [《七件善事》／The Seven Works of Mercy](../works/caravaggio-seven-works-mercy.md) | 身份配对通过；确定作者边 |
+| 39. 《施洗者圣约翰斩首》 | [《施洗者圣约翰斩首》／The Beheading of Saint John the Baptist](../works/caravaggio-beheading-john-baptist.md) | 身份配对通过；确定作者边 |
+| 40. 《书写中的圣哲罗姆》（瓦莱塔） | [《书写中的圣哲罗姆》（瓦莱塔版本）／Saint Jerome Writing (Valletta version)](../works/caravaggio-saint-jerome-valletta.md) | 身份配对通过；确定作者边 |
+| 41. 《阿洛夫·德·维尼亚库尔与侍从肖像》 | [《阿洛夫·德·维尼亚库尔与侍从肖像》／Portrait of Alof de Wignacourt and his Page](../works/caravaggio-portrait-wignacourt.md) | 身份配对通过；确定作者边 |
+| 42. 《圣露西下葬》 | [《圣露西下葬》／The Burial of Saint Lucy](../works/caravaggio-burial-saint-lucy.md) | 身份配对通过；确定作者边 |
+| 43. 《拉撒路复活》 | [《拉撒路复活》／The Raising of Lazarus](../works/caravaggio-raising-lazarus.md) | 身份配对通过；确定作者边 |
+| 44. 《牧羊人朝拜》 | [《牧羊人朝拜》／Adoration of the Shepherds](../works/caravaggio-adoration-shepherds.md) | 身份配对通过；确定作者边 |
+| 45. 《莎乐美与施洗者圣约翰之首》（马德里） | [《莎乐美与施洗者圣约翰之首》（马德里版本）／Salome with the Head of John the Baptist (Madrid version)](../works/caravaggio-salome-madrid.md) | 身份配对通过；确定作者边 |
+| 46. 《圣彼得不认主》 | [《圣彼得不认主》／The Denial of Saint Peter](../works/caravaggio-denial-saint-peter.md) | 身份配对通过；确定作者边 |
+| 47. 《施洗者约翰》（博尔盖塞） | [《施洗者约翰》（博尔盖塞版本）／Saint John the Baptist (Borghese version)](../works/caravaggio-john-baptist-borghese.md) | 身份配对通过；确定作者边 |
+| 48. 《圣乌尔苏拉殉难》 | [《圣乌尔苏拉殉难》／The Martyrdom of Saint Ursula](../works/caravaggio-martyrdom-saint-ursula.md) | 身份配对通过；确定作者边 |
+| 49. 《大卫与歌利亚之首》 | [《大卫与歌利亚之首》（博尔盖塞版本）／David with the Head of Goliath (Borghese version)](../works/caravaggio-david-goliath-borghese.md) | 身份配对通过；确定作者边 |
+| 50. 《圣彼得与圣安德烈蒙召》 | [《圣彼得与圣安德烈蒙召》／The Calling of Saints Peter and Andrew](../works/caravaggio-calling-peter-andrew.md) | 身份配对通过；确定作者边 |
+| 51. 《圣奥古斯丁》 | [《圣奥古斯丁》（2011年公布对象）／Saint Augustine (object announced in 2011)](../works/caravaggio-saint-augustine-disputed.md) | 无同粒度QID；争议／复制边界保留 |
+| 52. 《朱迪斯斩杀赫罗弗尼斯》（图卢兹） | [《朱迪斯斩杀赫罗弗尼斯》（图卢兹对象）／Judith Beheading Holofernes (Toulouse object)](../works/caravaggio-judith-toulouse.md) | 身份配对通过；争议／复制边界保留 |
+| 53. 《看这个人》（马德里） | [《看这个人》（马德里对象）／Ecce Homo (Madrid object)](../works/caravaggio-ecce-homo-madrid.md) | 身份配对通过；确定作者边 |
+| 54. 《圣方济各与圣劳伦斯在场的耶稣诞生》 | [《圣方济各与圣劳伦斯在场的耶稣诞生》／Nativity with Saint Francis and Saint Lawrence](../works/caravaggio-nativity-palermo.md) | 身份配对通过；确定作者边 |
+| 55. 《菲利德·梅兰德罗尼肖像》 | [《菲利德·梅兰德罗尼肖像》／Portrait of Fillide Melandroni](../works/caravaggio-portrait-fillide.md) | 身份配对通过；确定作者边 |
+| 56. 《橄榄山上的基督》 | [《橄榄山上的基督》／Christ on the Mount of Olives](../works/caravaggio-christ-mount-olives.md) | 身份配对通过；争议／复制边界保留 |
+| 57. 《圣罗萨里奥》 | 暂不建KU：Burton所述对象的存世、位置及其与《玫瑰经圣母》的同一性均未解决 | 未对齐；不造QID或关系 |
 
 - **画法：** 戏剧性明暗、贴近观者空间及直接面对模特的作画方式，是所读馆方和百科对其画法的概括；“少量准备”不能改写成从不画稿，尤其不能取消本章合同条款。（S2、S5、S8）
 - **评价者：** Mancini、Baglione、Bellori各有立场；后世Longhi等重新评价。批评中的失礼或艺术史中的影响叙述按作者归属，不自动生成师承关系。（S5）
@@ -162,22 +319,71 @@ sources:
 |---|---|---|
 | → 所创作对象（`creator_of`） | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../works/caravaggio-conversion-saint-paul.md) | 1600年合同指定卡拉瓦乔完成该题材；本边连接委托对象，不把第一版与礼拜堂版合并；时间：1600起；角色：合同指定画家；范围：连接委托对象；不同实物版本仍分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401; print pp. 11 |
 | → 所创作对象（`creator_of`） | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../works/caravaggio-martyrdom-saint-peter.md) | 1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并；时间：1600起；角色：合同指定画家；范围：连接委托对象；现存版本与原约底材仍分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401; print pp. 11 |
+| → 师从／受训于（`trained_by`） | [西莫内·彼得扎诺（Simone Peterzano）](simone-peterzano.md) | 1584年起在彼得扎诺工作室完成四年学徒期；彼得扎诺自称提香学生不构成卡拉瓦乔直接师从提香；时间：1584–约1588；角色：学徒；范围：米兰工作室训练；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；trained-by-persons-simone-peterzano-md；Biography / Early life段 |
+| → 受雇于（`employed_by`） | [朱塞佩·切萨里（Giuseppe Cesari）](giuseppe-cesari.md) | 罗马早期在朱塞佩·切萨里工作室绘制花果等部分；时间：1590年代早期；角色：工作室画家／助手；范围：花果及次要部分；不等于长期师承；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；employed-by-persons-giuseppe-cesari-md；Beginnings in Rome段 |
+| → 朋友（`friend_of`） | [普罗斯佩罗·奥尔西（Prospero Orsi）](prospero-orsi.md) | 页面将奥尔西列为朋友，并记其帮助卡拉瓦乔进入收藏与赞助网络；时间：1590年代起；角色：朋友与市场引介者；范围：不由此推定共同创作；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；friend-of-persons-prospero-orsi-md；Beginnings in Rome与相关生平段 |
+| → 朋友（`friend_of`） | [奥诺里奥·隆吉（Onorio Longhi）](onorio-longhi.md) | 生平及1603年诽谤案语境将隆吉列入卡拉瓦乔朋友圈；角色：朋友；范围：不由共同涉案推定艺术合作；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；friend-of-persons-onorio-longhi-md；Rome生平与诽谤案段 |
+| → 朋友（`friend_of`） | [马里奥·明尼蒂（Mario Minniti）](mario-minnitti.md) | 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系；时间：1590年代；角色：朋友；范围：模特身份逐件作品另判；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；friend-of-persons-mario-minnitti-md；Beginnings in Rome与Models段 |
+| → 受其赞助／保护（`patronized_by`） | [弗朗切斯科·玛丽亚·德尔·蒙特（Francesco Maria del Monte）](francesco-maria-del-monte.md) | 德尔·蒙特购藏早期作品、提供住处并使卡拉瓦乔进入委托网络；时间：约1595起；角色：主要赞助人／保护人；范围：具体作品委托另逐件登记；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；patronized-by-persons-francesco-maria-del-monte-md；Beginnings in Rome与Patrons字段 |
+| → 受其赞助／保护（`patronized_by`） | [阿洛夫·德·维尼亚库尔（Alof de Wignacourt）](alof-de-wignacourt.md) | 马耳他时期维尼亚库尔支持卡拉瓦乔并推动其获骑士身份；时间：1607–1608；角色：保护人；范围：骑士身份与肖像作品分别建模；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；patronized-by-persons-alof-de-wignacourt-md；Malta段与Patrons字段 |
+| → 受其赞助／保护（`patronized_by`） | [科隆纳家族（Colonna Family）](../families/colonna-family.md) | 科隆纳家族网络在卡拉瓦乔逃离罗马后提供保护；本边不表示家族委托全部作品；时间：1606后；角色：保护网络；范围：逃亡期保护；非具体作品委托；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；patronized-by-families-colonna-family-md；Early life及Naples exile相关段 |
+| → 隶属／任职于（`member_of`） | [医院骑士团／马耳他骑士团（Knights Hospitaller）](../institutions/knights-hospitaller.md) | 1608年获医院骑士团骑士身份，同年被拘、逃离后遭逐；成员关系有终止限定；时间：1608年内；角色：骑士，后被逐；范围：非终身未撤销头衔；证据：[来源](https://en.wikipedia.org/wiki/Caravaggio)；member-of-institutions-knights-hospitaller-md；Malta段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 具体对象页将Adoration of the Shepherds归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《爱神战胜一切》（Amor Vincit Omnia）](../works/caravaggio-amor-vincit-omnia.md) | 具体对象页将Amor Vincit Omnia归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。；原断言与证据见发出端卡片“《爱神战胜一切》（Amor Vincit Omnia）”：[来源](https://id.smb.museum/object/862322)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《巴克斯》（Bacchus）](../works/caravaggio-bacchus-uffizi.md) | 具体对象页将Bacchus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与《生病的巴克斯》及其他同题对象分开。；原断言与证据见发出端卡片“《巴克斯》（Bacchus）”：[来源](https://www.uffizi.it/en/artworks/bacchus)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《果篮》（Basket of Fruit）](../works/caravaggio-basket-of-fruit.md) | 具体对象页将Basket of Fruit归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：年代在研究中有1596至1601等不同判断，本卡不压成无争议精确年。；原断言与证据见发出端卡片“《果篮》（Basket of Fruit）”：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《施洗者圣约翰斩首》（The Beheading of Saint John the Baptist）](../works/caravaggio-beheading-john-baptist.md) | 具体对象页将The Beheading of Saint John the Baptist归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。；原断言与证据见发出端卡片“《施洗者圣约翰斩首》（The Beheading of Saint John the Baptist）”：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《被蜥蜴咬伤的男孩》（伦敦版本）（Boy Bitten by a Lizard (London version)）](../works/caravaggio-boy-bitten-lizard-london.md) | 具体对象页将Boy Bitten by a Lizard (London version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面确认至少两件被认为真迹的版本；本卡只指NG6504。；原断言与证据见发出端卡片“《被蜥蜴咬伤的男孩》（伦敦版本）（Boy Bitten by a Lizard (London version)）”：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）](../works/caravaggio-boy-peeling-fruit-royal.md) | 具体对象页将Boy Peeling Fruit (Royal Collection version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：同题存在多个复制或版本，本卡限定RCIN 402612。；原断言与证据见发出端卡片“《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）”：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《提果篮的男孩》（Boy with a Basket of Fruit）](../works/caravaggio-boy-with-basket-fruit.md) | 具体对象页将Boy with a Basket of Fruit归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：早期所有权涉及切萨里藏品被教廷没收及博尔盖塞收藏形成；当前只建立有据端点。；原断言与证据见发出端卡片“《提果篮的男孩》（Boy with a Basket of Fruit）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣露西下葬》（The Burial of Saint Lucy）](../works/caravaggio-burial-saint-lucy.md) | 具体对象页将The Burial of Saint Lucy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。；原断言与证据见发出端卡片“《圣露西下葬》（The Burial of Saint Lucy）”：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）](../works/caravaggio-calling-peter-andrew.md) | 具体对象页将The Calling of Saints Peter and Andrew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2006年经修复重新确认为卡拉瓦乔作品；与同题复制品分开。；原断言与证据见发出端卡片“《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）”：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣马太蒙召》（The Calling of Saint Matthew）](../works/caravaggio-calling-saint-matthew.md) | 具体对象页将The Calling of Saint Matthew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：Wikidata的1609年项与作品史不合，本卡采用页面与礼拜堂资料的1599–1600。；原断言与证据见发出端卡片“《圣马太蒙召》（The Calling of Saint Matthew）”：[来源](https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《纸牌作弊者》（金贝尔版本）（The Cardsharps (Kimbell version)）](../works/caravaggio-cardsharps-kimbell.md) | 具体对象页将The Cardsharps (Kimbell version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：金贝尔对象与后来发现、归属曾诉讼的另一版本分开；本轮不为后者建立确定作者边。；原断言与证据见发出端卡片“《纸牌作弊者》（金贝尔版本）（The Cardsharps (Kimbell version)）”：[来源](https://www.kimbellart.org/collection/ap-198706)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《大马士革路上的归化》（Conversion on the Way to Damascus）](../works/caravaggio-conversion-damascus-cerasi.md) | 具体对象页将Conversion on the Way to Damascus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：切拉西礼拜堂现存布面版本，与第一版及委托对象分开。；原断言与证据见发出端卡片“《大马士革路上的归化》（Conversion on the Way to Damascus）”：[来源](https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）](../works/caravaggio-conversion-saint-paul-first.md) | 具体对象页将The Conversion of Saint Paul (first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；原断言与证据见发出端卡片“《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）”：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣彼得钉十字架》（Crucifixion of Saint Peter）](../works/caravaggio-crucifixion-saint-peter.md) | 具体对象页将Crucifixion of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：现存布面版本；与1600年合同委托对象卡分开。；原断言与证据见发出端卡片“《圣彼得钉十字架》（Crucifixion of Saint Peter）”：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《大卫与歌利亚之首》（博尔盖塞版本）（David with the Head of Goliath (Borghese version)）](../works/caravaggio-david-goliath-borghese.md) | 具体对象页将David with the Head of Goliath (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拟赠希皮奥内·博尔盖塞及赦免解释带推测，不登记为确定委托。；原断言与证据见发出端卡片“《大卫与歌利亚之首》（博尔盖塞版本）（David with the Head of Goliath (Borghese version)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | 具体对象页将Death of the Virgin归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣彼得不认主》（The Denial of Saint Peter）](../works/caravaggio-denial-saint-peter.md) | 具体对象页将The Denial of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：晚期作品；当前馆号1997.167。；原断言与证据见发出端卡片“《圣彼得不认主》（The Denial of Saint Peter）”：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《看这个人》（马德里对象）（Ecce Homo (Madrid object)）](../works/caravaggio-ecce-homo-madrid.md) | 具体对象页将Ecce Homo (Madrid object)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2021年撤拍后经研究修复；普拉多展示／保管不等于博物馆所有。；原断言与证据见发出端卡片“《看这个人》（马德里对象）（Ecce Homo (Madrid object)）”：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《基督下葬》（The Entombment of Christ）](../works/caravaggio-entombment-christ.md) | 具体对象页将The Entombment of Christ归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：原为新教堂小礼拜堂祭坛画；本轮当前保管使用梵蒂冈画廊对象。；原断言与证据见发出端卡片“《基督下葬》（The Entombment of Christ）”：[来源](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-xii---secolo-xvii/caravaggio--deposizione-dalla-croce.html)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《算命者》（卡比托利欧第一版）（The Fortune Teller (Capitoline first version)）](../works/caravaggio-fortune-teller-capitoline.md) | 具体对象页将The Fortune Teller (Capitoline first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卢浮宫第二版分开；两版年代均有争议。；原断言与证据见发出端卡片“《算命者》（卡比托利欧第一版）（The Fortune Teller (Capitoline first version)）”：[来源](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《算命者》（卢浮宫第二版）（The Fortune Teller (Louvre second version)）](../works/caravaggio-fortune-teller-louvre.md) | 具体对象页将The Fortune Teller (Louvre second version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。；原断言与证据见发出端卡片“《算命者》（卢浮宫第二版）（The Fortune Teller (Louvre second version)）”：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
 | ← 所创作对象（`creator_of`，反向投影） | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 柏林绘画馆对象记录确认第一版作者为卡拉瓦乔；本章退画经购藏链与该对象对应，不与后替代版本合并；原断言与证据见发出端卡片“《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）”：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+| ← 所创作对象（`creator_of`，反向投影） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](../works/caravaggio-incredulity-thomas-sanssouci.md) | 具体对象页将The Incredulity of Saint Thomas (Sanssouci version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与页面所称私人收藏“教会版本”分开。；原断言与证据见发出端卡片“《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）”：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣马太的启示》（The Inspiration of Saint Matthew）](../works/caravaggio-inspiration-saint-matthew.md) | 具体对象页将The Inspiration of Saint Matthew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：作为祭坛替代版本，与第一版退画分开。；原断言与证据见发出端卡片“《圣马太的启示》（The Inspiration of Saint Matthew）”：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《施洗者约翰》（博尔盖塞版本）（Saint John the Baptist (Borghese version)）](../works/caravaggio-john-baptist-borghese.md) | 具体对象页将Saint John the Baptist (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与1602年卡比托利欧《施洗者约翰与公羊》及同系列其他对象分开。；原断言与证据见发出端卡片“《施洗者约翰》（博尔盖塞版本）（Saint John the Baptist (Borghese version)）”：[来源](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《施洗者约翰与公羊》（Young Saint John the Baptist with a Ram）](../works/caravaggio-john-baptist-ram-capitoline.md) | 具体对象页将Young Saint John the Baptist with a Ram归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。；原断言与证据见发出端卡片“《施洗者约翰与公羊》（Young Saint John the Baptist with a Ram）”：[来源](https://www.museicapitolini.org/it/node/47105)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 具体对象页将Judith Beheading Holofernes (Palazzo Barberini version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与2014年在图卢兹发现的争议对象分开。；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《鲁特琴演奏者》（艾尔米塔什版本）（The Lute Player (Hermitage version)）](../works/caravaggio-lute-player-hermitage.md) | 具体对象页将The Lute Player (Hermitage version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。；原断言与证据见发出端卡片“《鲁特琴演奏者》（艾尔米塔什版本）（The Lute Player (Hermitage version)）”：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | 具体对象页将Madonna di Loreto归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）](../works/caravaggio-madonna-palafrenieri.md) | 具体对象页将Madonna and Child with Saint Anne (Madonna dei Palafrenieri)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。；原断言与证据见发出端卡片“《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《玫瑰经圣母》（Madonna of the Rosary）](../works/caravaggio-madonna-rosary.md) | 具体对象页将Madonna of the Rosary归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与Burton所谓不明《St. Rosario》不合并。；原断言与证据见发出端卡片“《玫瑰经圣母》（Madonna of the Rosary）”：[来源](https://www.khm.at/objektdb/detail/425/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《马大与抹大拉的马利亚》（Martha and Mary Magdalene）](../works/caravaggio-martha-mary-magdalene.md) | 具体对象页将Martha and Mary Magdalene归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面所述人物模特及寓意解释保留来源归属。；原断言与证据见发出端卡片“《马大与抹大拉的马利亚》（Martha and Mary Magdalene）”：[来源](https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣马太殉难》（The Martyrdom of Saint Matthew）](../works/caravaggio-martyrdom-saint-matthew.md) | 具体对象页将The Martyrdom of Saint Matthew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：孔塔雷利礼拜堂侧壁画；与祭坛两版《圣马太与天使》分开。；原断言与证据见发出端卡片“《圣马太殉难》（The Martyrdom of Saint Matthew）”：[来源](https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Matthew_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）](../works/caravaggio-martyrdom-saint-ursula.md) | 具体对象页将The Martyrdom of Saint Ursula归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；原断言与证据见发出端卡片“《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）”：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《美杜莎》（穆尔托拉版本）（Medusa Murtola）](../works/caravaggio-medusa-murtola.md) | 具体对象页将Medusa Murtola归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。；原断言与证据见发出端卡片“《美杜莎》（穆尔托拉版本）（Medusa Murtola）”：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）](../works/caravaggio-medusa-uffizi.md) | 具体对象页将Medusa (Uffizi version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：绘于盾牌形载体；与较小的Murtola版本分开。；原断言与证据见发出端卡片“《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）”：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《音乐家们》（The Musicians）](../works/caravaggio-musicians.md) | 具体对象页将The Musicians归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡片仅记录大都会艺术博物馆对象；页面所述复制及底层改绘不是另一件已识别原作。；原断言与证据见发出端卡片“《音乐家们》（The Musicians）”：[来源](https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）](../works/caravaggio-nativity-palermo.md) | 具体对象页将Nativity with Saint Francis and Saint Lawrence归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：失窃前安置于巴勒莫圣洛伦佐祈祷堂；不把复制品或数字重建当原作。；原断言与证据见发出端卡片“《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）”：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《悔罪的抹大拉》（Penitent Magdalene）](../works/caravaggio-penitent-magdalene.md) | 具体对象页将Penitent Magdalene归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：人物模特判断保留为研究归属，不自动建模为确定被表现者。；原断言与证据见发出端卡片“《悔罪的抹大拉》（Penitent Magdalene）”：[来源](https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《菲利德·梅兰德罗尼肖像》（Portrait of Fillide Melandroni）](../works/caravaggio-portrait-fillide.md) | 具体对象页将Portrait of Fillide Melandroni归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；原断言与证据见发出端卡片“《菲利德·梅兰德罗尼肖像》（Portrait of Fillide Melandroni）”：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《阿洛夫·德·维尼亚库尔与侍从肖像》（Portrait of Alof de Wignacourt and his Page）](../works/caravaggio-portrait-wignacourt.md) | 具体对象页将Portrait of Alof de Wignacourt and his Page归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：维尼亚库尔为被表现者；侍从身份未在本轮解决。；原断言与证据见发出端卡片“《阿洛夫·德·维尼亚库尔与侍从肖像》（Portrait of Alof de Wignacourt and his Page）”：[来源](https://collections.louvre.fr/ark:/53355/cl010062328)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《拉撒路复活》（The Raising of Lazarus）](../works/caravaggio-raising-lazarus.md) | 具体对象页将The Raising of Lazarus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。；原断言与证据见发出端卡片“《拉撒路复活》（The Raising of Lazarus）”：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《逃往埃及途中的休息》（Rest on the Flight into Egypt）](../works/caravaggio-rest-flight-egypt.md) | 具体对象页将Rest on the Flight into Egypt归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：可能的委托人存在不同意见，不建立确定委托边。；原断言与证据见发出端卡片“《逃往埃及途中的休息》（Rest on the Flight into Egypt）”：[来源](https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](../works/caravaggio-sacrifice-isaac-uffizi.md) | 具体对象页将Sacrifice of Isaac (Uffizi version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：乌菲齐以付款证据支持卡拉瓦乔作者身份；与普林斯顿旧藏争议对象分开。；原断言与证据见发出端卡片“《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）”：[来源](https://www.uffizi.it/en/artworks/sacrifice-of-isaac)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）](../works/caravaggio-saint-catherine-alexandria.md) | 具体对象页将Saint Catherine of Alexandria归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：本卡采用提森馆藏对象，不把可能的模特身份改写成作品创作者关系。；原断言与证据见发出端卡片“《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）”：[来源](https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《圣方济各入神》（Saint Francis of Assisi in Ecstasy）](../works/caravaggio-saint-francis-ecstasy.md) | 具体对象页将Saint Francis of Assisi in Ecstasy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面称可能应德尔·蒙特要求而作，措辞不足以登记确定委托边。；原断言与证据见发出端卡片“《圣方济各入神》（Saint Francis of Assisi in Ecstasy）”：[来源](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《书写中的圣哲罗姆》（博尔盖塞版本）（Saint Jerome Writing (Borghese version)）](../works/caravaggio-saint-jerome-borghese.md) | 具体对象页将Saint Jerome Writing (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与瓦莱塔版本分开；Q2715177只用于博尔盖塞对象。；原断言与证据见发出端卡片“《书写中的圣哲罗姆》（博尔盖塞版本）（Saint Jerome Writing (Borghese version)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/saint-jerome)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）](../works/caravaggio-saint-jerome-valletta.md) | 具体对象页将Saint Jerome Writing (Valletta version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与博尔盖塞版本分开；保管机构与实际安置地点分别表达。；原断言与证据见发出端卡片“《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）”：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《莎乐美与施洗者圣约翰之首》（马德里版本）（Salome with the Head of John the Baptist (Madrid version)）](../works/caravaggio-salome-madrid.md) | 具体对象页将Salome with the Head of John the Baptist (Madrid version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与伦敦版本及《施洗者圣约翰斩首》分开。；原断言与证据见发出端卡片“《莎乐美与施洗者圣约翰之首》（马德里版本）（Salome with the Head of John the Baptist (Madrid version)）”：[来源](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 具体对象页将The Seven Works of Mercy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：仍在委托机构建筑内；委托者、保管者和安置地点角色分开。；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《以马忤斯的晚餐》（伦敦版本）（Supper at Emmaus (London version)）](../works/caravaggio-supper-emmaus-london.md) | 具体对象页将Supper at Emmaus (London version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与1606年米兰版本分开；本轮清单指伦敦NG172。；原断言与证据见发出端卡片“《以马忤斯的晚餐》（伦敦版本）（Supper at Emmaus (London version)）”：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](../works/caravaggio-taking-christ-dublin.md) | 具体对象页将The Taking of Christ (Dublin version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：爱尔兰国家美术馆长期借展；保管不等于产权。；原断言与证据见发出端卡片“《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）”：[来源](https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《生病的巴克斯》（Young Sick Bacchus）](../works/caravaggio-young-sick-bacchus.md) | 具体对象页将Young Sick Bacchus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：“自画像”是常见解释，不能由题名反推完整医学诊断。；原断言与证据见发出端卡片“《生病的巴克斯》（Young Sick Bacchus）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
 
-### 身份与来源
+### 身份与外部链接
 
-[Wikipedia：Caravaggio](https://en.wikipedia.org/wiki/Caravaggio) ↔ [Wikidata Q42207](https://www.wikidata.org/wiki/Q42207) 双向对应，复用有效身份判断；S5全文83995字符已读。S6字段及所引实体标签已经核对；S7只读指定区段，S8传记全文已读。身份配对不等于所有属性无争议，evidence_status仍为source_backed。
-
-### 已登记关系与关联导航
-
-- [《圣保罗归化》委托](../works/caravaggio-conversion-saint-paul.md)、[《圣彼得殉难》委托](../works/caravaggio-martyrdom-saint-peter.md)：文件头以 `creator_of` 记录合同指定画家，并用范围字段区分委托对象与具体实物版本，依据S2。
-- [1600年合同](../archives/caravaggio-altarpieces-contract-1600.md)：来源导航。
-- [《圣马太与天使》退画](../works/caravaggio-giustiniani-rejected-altarpiece.md)、[文琴佐·朱斯蒂尼亚尼](marchese-giustiniani-ch1.md)：退画购藏语境；本轮未新增正式边。
-
-### 未决及采用边界
-
-出生地、到罗马年份和母亲卒年存在异文；不采用Getty旧出生地直接覆盖米兰，不采用WD父亲异常标签，也不据无引用亲缘项宣布完整家谱。Getty正文称无学生而关系区列teacher_of，自相矛盾，未导入。死因、杀人动机与后世医学猜测保留未决。英文页部分作品版本及画家名字错接，不作为事实。
-
-作品与关系端点尚未闭合：当前三张卡拉瓦乔相关work卡中，两张是1600年合同的委托对象，只有[《圣马太与天使》第一版](../works/caravaggio-giustiniani-rejected-altarpiece.md)是已消歧的具体作品实体。S5中的其他具名作品，以及Simone Peterzano、Giuseppe Cesari、Prospero Orsi、Onorio Longhi、Francesco Maria del Monte、Alof de Wignacourt、马耳他骑士团和相关教堂／馆藏等端点，须按当前采用事实回知识元阶段逐项建立或复用，再补师承、雇用、朋友、赞助、成员、创作、委托、安置、所有权和保管关系。现有三条关系可用，但不代表本卡关系完整。
-
-S编号严格对应文件头sources；原章页、行号和句意摘要完整保留。过程见[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md) REV-052。
+- [Wikipedia：Caravaggio](https://en.wikipedia.org/wiki/Caravaggio)
+- [Wikidata Q42207](https://www.wikidata.org/wiki/Q42207)

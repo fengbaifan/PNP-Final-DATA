@@ -3,7 +3,7 @@ title: "朱利奥·曼奇尼（Giulio Mancini）"
 name_en: "Giulio Mancini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 529–531; print pp. 14
+  original_quotes:
+  - source_span: "lines 529–531"
+    text: |2-
+      In the 1620s the Sienese doctor and art lover, Giulio Mancini, wrote that a munificent
+      patron would not condescend to go into the question at all, but would reward the artist
+      as he saw fit.1 It is true enough that we do find some examples of this. In 1617, for
 - citation: "Wikipedia (en), Giulio Mancini, revision 1359968780. https://en.wikipedia.org/wiki/Giulio_Mancini. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "锡耶纳医生、艺术收藏者及著述者，符合章中定价论述的责任者。"
@@ -25,6 +31,7 @@ sources:
 - citation: "Wikidata, Q3769699, revision 2527444957. https://www.wikidata.org/wiki/Q3769699. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giulio-mancini
 ---
 
 ## 内容
@@ -39,20 +46,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Giulio Mancini | S1；标题中的语境说明为登记用语 |
-| 身份与观点 | 锡耶纳医生、艺术爱好者；1620 年代酬谢论述 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Giulio Mancini | S1 |
+| 身份与观点 | 锡耶纳医生、艺术爱好者；1620 年代酬谢论述 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** 锡耶纳医生、收藏家和艺术著述者，在罗马任教皇御医；页面重点记其《Considerazioni sulla pittura》、收藏与鉴赏活动。第一章定价论述来自该书。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Giulio Mancini（en）；revision 1359968780；2651字符 | 全文覆盖：Biography、References、External links |
-| Wikidata身份 | [Q3769699](https://www.wikidata.org/wiki/Q3769699)；与enwiki标题双向一致 | revision 2527444957；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1559-02-21；1558-02-21 | Wikidata P569；未列参考 |
 | 去世日期 | 1630-08-22 | Wikidata P570；有参考 |
@@ -63,21 +65,12 @@ sources:
 | 教育／训练机构 | 帕多瓦大學 | Wikidata P69；有参考 |
 | 任职机构 | 錫耶納大學 | Wikidata P108；有参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 锡耶纳医生、艺术收藏者及著述者，符合章中定价论述的责任者。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Giulio_Mancini) 的 wikibase_item 与 [Wikidata Q3769699](https://www.wikidata.org/wiki/Q3769699) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1：第一章；印刷页 14；OCR L529–531。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q3769699](https://www.wikidata.org/wiki/Q3769699)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Giulio_Mancini)

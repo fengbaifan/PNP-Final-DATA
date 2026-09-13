@@ -3,7 +3,7 @@ title: "本府画家（Nostro pittore）"
 name_en: "Nostro pittore"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,26 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 173–189; print pp. 6
+  original_quotes:
+  - source_span: "lines 173–189"
+    text: |2-
+      an official post varied with the patron; though some princes might create an artist
+      nostro pittore ‘with all the honours, authority, prerogatives, immunities, advantages,
+      rights, rewards, emoluments, exemptions and other benefits accruing to the post’,4
+      such a position was more frequent with architects than with painters. In most cases
+      within the prince’s retinue there was a sliding scale of rewards and positions up which
+      1 See many references in Pascoli—I, p. 93, and II, pp. 119, 332, 417, 435, etc.
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
+      4 The appointment of Gio. Gasparo Baldoini ‘per nostro pittore’ by Cardinal Maurizio di Savoia—
+      Baudi di Vesme, 1932, p. 23.
 - citation: "Wikipedia (it), Primo pittore di corte, revision 129615439. https://it.wikipedia.org/wiki/Primo_pittore_di_corte. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "意大利语 Pittore di corte 重定向到英国 Principal Painter in Ordinary Q529826，不适用于 Maurizio di Savoia 的 nostro pittore 授职。"
@@ -25,6 +45,7 @@ sources:
 - citation: "Treccani, Vocabolario on line, “pittóre”. https://www.treccani.it/vocabolario/pittore/. Accessed 2026-09-11."
   location: "词条全文2372字符；采用义项1a，其他义项未用于本章"
   sentence_summary: "pittore可指从事绘画艺术的人；本章取画家义，不取建筑涂饰工或比喻用法。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-nostro-pittore
 ---
 
 ## 内容
@@ -58,12 +79,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 语义入口 | 知识元 | 依据／状态 |
-|---|---|---|
-| 任用实例 | [巴尔多伊诺任命文字](../archives/baldoini-painter-appointment.md) | S1 |
-| 任用人／受任人 | [毛里齐奥](../persons/maurizio-di-savoia.md)／[巴尔多伊诺](../persons/gio-gasparo-baldoini.md) | S1；未新增正式边 |
-| 相关但不同的语境 | [家户](famiglia.md)／[特定保护人服务](servitu-particolare.md) | S1章内邻接论述；不是同义词 |
-
-S1保留第一章p.6、OCR L173–189；S2–S3保留已排除的范围候选，S4–S5分别支持语法和词义。[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)可复核。当前无正式关系，evidence_status保持source_backed。
+暂无正式关系。

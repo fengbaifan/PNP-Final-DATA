@@ -3,7 +3,7 @@ title: "雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embrac
 name_en: "Reni’s Justice embracing Peace commission (1617)"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/duke-mantua-reni-1617.md","note":"1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 531–534; print pp. 14"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,12 +15,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 531–534; print pp. 14
+  original_quotes:
+  - source_span: "lines 531–534"
+    text: |2-
+      as he saw fit.1 It is true enough that we do find some examples of this. In 1617, for
+      instance, the Duke of Mantua wrote to Guido Reni asking him for a painting of Justice
+      embracing Peace. He gave the measurements, but made no mention of the price beyond
+      saying that Guido would be ‘generously rewarded’.2 And artists were clearly glad to
 - citation: "Gino Benzoni, FERDINANDO Gonzaga, duca di Mantova e dei Monferrato, DBI 46 (1996). https://www.treccani.it/enciclopedia/ferdinando-gonzaga-duca-di-mantova-e-dei-monferrato_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "已读出生／教育、辞去枢机及加冕、Camilla与Caterina婚姻、Favorita和死亡相关段；全文其余未读"
   sentence_summary: "1587–1626，1617在任曼图亚公爵及Reni赞助语境；教育、1615辞枢机、1616加冕与婚姻异文，不把百科1615继位混写照录。"
 - citation: "Haskell, Patrons and Painters, ch.1, p.14, note 2: Luzio, p.48."
   location: "02-sources/02-Markdown/01_CHP-1.md，OCR L531–534及L563；本轮回读注释链"
   sentence_summary: "信件依据指向Luzio p.48；本轮英文／意大利文精确及变体查询未获可识别作品条目或已读原刊，原定尺寸和报酬仍只能依Haskell摘要。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-reni-justice-embracing-peace
 ---
 
 ## 内容
@@ -57,9 +65,3 @@ Reni的贡扎加《赫拉克勒斯功业》及其他题为“正义”的绘画�
 |---|---|---|
 | ← 创作者（`created_by`，反向投影） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；原断言与证据见发出端卡片“圭多·雷尼（Guido Reni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
 | → 由其委托（`commissioned_by`） | [费迪南多·贡扎加（Ferdinando Gonzaga）](../persons/duke-mantua-reni-1617.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
-
-没有已确认的本对象Wikipedia—Wikidata配对；英文题名、意大利文Giustizia／Pace及Gonzaga／Reni检索本轮未形成可核对象。查询未命中只表示本轮未找到，不宣称不存在条目或作品。
-
-文件头commissioned_by通往[费迪南多·贡扎加](../persons/duke-mantua-reni-1617.md)，原S1证据保留；[雷尼](../persons/guido-reni.md)为导航，尚不补未实施的创作关系。
-
-**待补：** Luzio p.48全文及所引信件、具体日期／尺寸、完成记录和画目。S2只支持委托人背景，不支持作品物理属性；S3为章内回读，不计独立外部来源。原章定位和句意摘要不变。

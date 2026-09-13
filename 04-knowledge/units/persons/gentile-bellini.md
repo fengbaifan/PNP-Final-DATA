@@ -3,7 +3,7 @@ title: "真蒂莱·贝利尼（Gentile Bellini）"
 name_en: "Gentile Bellini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 799–800; print pp. 19
+  original_quotes:
+  - source_span: "lines 799–800"
+    text: |2-
+      4 There had, of course, been cases long before the seventeenth century: the Emperor Frederick III
+      had bestowed on Gentile Bellini the dignity of Count Palatine, and in 1533 Charles V created Titian a
 - citation: "Wikipedia (en), Gentile Bellini, revision 1370412016. https://en.wikipedia.org/wiki/Gentile_Bellini. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "十五世纪威尼斯画家 Gentile Bellini；不是其弟 Giovanni。"
@@ -31,6 +36,7 @@ sources:
 - citation: "National Gallery, https://www.nationalgallery.org.uk/paintings/gentile-bellini-the-virgin-and-child-enthroned. Accessed 2026-09-11."
   location: "Overview、In-depth、Details、Provenance及Bibliography全部已读"
   sentence_summary: "NG3911签名中荣衔及1469首次骑士身份；约1475–85木板油画，原祭坛联系未确证。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gentile-bellini
 ---
 
 ## 内容
@@ -64,7 +70,7 @@ sources:
 | 时间 | 事项 | 依据 |
 |---|---|---|
 | 早年 | 在父亲作坊学习；具体起年未核 | S4、S6 |
-| 1464 | NG所述现存最早署名作品年；WP另列1445，暂缓其识别 | S6；见未决 |
+| 1464 | NG所述现存最早署名作品年；WP另列1445，暂缓其识别 | S6；[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gentile-bellini) |
 | 1469 | NG3911说明其首次获骑士身份；本章另明确腓特烈三世授Count Palatine，二种称谓的法权不简单等同 | S1、S7 |
 | 1470年代 | 为威尼斯总督及公共建筑工作；具体官方肖像职务起年有1454／1474异文 | S4 |
 | 1479—1481 | 由威尼斯政府派往Constantinople为Mehmed II工作；WP导言称次年返回，与NG至1481不符 | S4、S6 |
@@ -97,8 +103,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 获其授予荣衔（`honoured_by`，反向投影） | [皇帝腓特烈三世（Frederick III）](frederick-iii.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；原断言与证据见发出端卡片“皇帝腓特烈三世（Frederick III）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–800; print pp. 19 |
-
-- S1：第一章，印刷页19，OCR L799–800；S2–S3初步对齐；S4–S5本次WP／WD；S6馆方传记；S7 NG3911的说明、字段、沿革及书目。
-- 当前无正式关系。Count palatine页将受衔者写作Giovanni的说法不采用；本卡仍为Gentile。骑士署名可证身份使用，不能证明每项贵族特权。
-- WP最早署名作品1445、总督肖像职务1454／1474及归国1480，与NG1464、归国1481分别留异文。NG3911与Mercers’ Guild祭坛的联系为假说，无具体证据，未据此写确定赞助人。
-- Ridolfi叙述苏丹斩首示范的故事，百科本身质疑其真实性，不转写为确定暴力事件。状态维持 source_backed。

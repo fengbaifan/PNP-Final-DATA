@@ -3,7 +3,7 @@ title: "《当今》（1627）（L'Hoggidi (1627)）"
 name_en: "L'Hoggidi (1627)"
 type: archive
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/abate-lancellotti.md","note":"第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 45–47; print pp. 3"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,12 +15,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 45–47; print pp. 3
+  original_quotes:
+  - source_span: "lines 45–47"
+    text: |2-
+      1 Passed, p. 293. For an enthusiastic contemporary account of art patronage—as of everything else
+      under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
+      reprinted.
 - citation: "LANCELLOTTI, Secondo, Dizionario Biografico degli Italiani. https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "正文 Hoggidì 出版与献辞段"
   sentence_summary: "1623 年出版及 1627 年重印与本章 1627 首刊说不同，保留版本冲突。"
 - citation: "Emilio Russo, LANCELLOTTI, Secondo, Dizionario Biografico degli Italiani, vol.63 (2004). https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "Hoggidì第一部刊印、献辞、重印及1636第二部段；REV-052定向复读"
   sentence_summary: "第一部1623年Guerigli威尼斯刊，1627/1630/1637重印；1623年10月24日献辞；第二部1636年另刊，具体1627刊本未读。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-lhoggidi-1627
 ---
 
 ## 内容
@@ -70,10 +77,4 @@ sources:
 
 ### 身份与外部链接
 
-本著作／具体刊本尚无确认QID或配对Wikipedia页。[作者传记](https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/)支持版本信息；作者的QID不充当本书QID。REV-034版本待证状态保留，未借字段补足自动提升身份状态。
-
-### 证据与未决项
-
-S1是转引入口；S2是先前版本核查；S3是本轮有范围的复核，三者不代表读过原件。未核1627题名页、完整出版说明、页码或馆藏标识，不强填ISBN或QID。当前完成版本字段补足及冲突区分，尚非刊本鉴定完成。
-
-[过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。
+- [作者传记](https://www.treccani.it/enciclopedia/secondo-lancellotti_(Dizionario-Biografico)/)

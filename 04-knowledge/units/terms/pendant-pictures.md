@@ -3,7 +3,7 @@ title: "成对绘画（Pendant pictures）"
 name_en: "Pendant pictures"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8.'
@@ -13,6 +13,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 265–273; print pp. 8
+  original_quotes:
+  - source_span: "lines 265–273"
+    text: |2-
+      The size of pictures for private galleries was also a matter for discussion. Those
+      complete decorative schemes that have survived show that in many cases pictures were
+      used to cover the walls of a room or gallery in symmetrical patterns, and that often
+      enough they were even let into the surface. Where this was the case it was obviously
+      important to regulate the exact measurements of any new picture commissioned, and
+      much surviving correspondence testifies to the patron’s interest in the question. Again
+      and again artists were commissioned to paint pictures in pairs, and in many instances
+      it is possible to see how this preoccupation with the decorative and architectural function
+      of paintings influenced their composition as well as their size.3
 - citation: "Wikipedia (en), Pendant (art), revision 1357897077. https://en.wikipedia.org/wiki/Pendant_(art). Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "有意构成一对的作品关系概念；本章只采用其绘画语境，不作为一条正式 KU 关系。"
@@ -28,6 +40,7 @@ sources:
 - citation: "National Gallery, London, «Pendant», Glossary. https://www.nationalgallery.org.uk/paintings/glossary/pendant. Accessed 2026-09-11."
   location: "正文及相关Claude画卡675字符全文已读。"
   sentence_summary: "原本构思为一对；常为家居壁炉或窗的两侧，构图与题材相互呼应；并置本身不证明原本成对。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-pendant-pictures
 ---
 
 ## 内容
@@ -56,15 +69,12 @@ sources:
 - WD列Getty companion pieces（300179422）、companion portraits（300178794）映射；两者范围不同，且原AAT本轮未读，不统一标为已独立验证。[S5]
 - National Gallery以Claude作品等说明主题及构图呼应；示例不自动成为本章新增知识元。[S6]
 
-### 身份对齐
-
-[Wikipedia Pendant (art)](https://en.wikipedia.org/wiki/Pendant_(art)) ↔ [Wikidata Q591644](https://www.wikidata.org/wiki/Q591644)双向核对已完成；本轮英文revision1357897077全文已读。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-无正式关系。S1保留第一章第8页L265–273；S2–S6按sources顺序。正文概念定义不直接生成“互为配对”关系。
+### 身份与外部链接
 
-WP关于Turner遗赠造成作品配对的叙述不能证明原本构思，未采用为成立标准。任何具体pair须分别识别两端，并区分原配、后来有意配组及偶然并置；尺寸一致或同作者不足以单独确认。
+- [Wikipedia Pendant (art)](https://en.wikipedia.org/wiki/Pendant_(art))
+- [Wikidata Q591644](https://www.wikidata.org/wiki/Q591644)

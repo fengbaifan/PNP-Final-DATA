@@ -3,7 +3,7 @@ title: "同巢之鸟（Bentveughels）"
 name_en: "Bentveughels"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -13,6 +13,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 819–833; print pp. 20
+  original_quotes:
+  - source_span: "lines 819–833"
+    text: |2-
+      On a higher level, but not very edifying, were the antics of the bentveughels, the
+      colony of Dutch and Flemish artists living in Rome. The Schildersbent, a sort of mutual
+      aid society to protect the interests of Northern artists in the city, was formed in 1623?
+      It thus ran parallel to similar efforts made by the Italian artists to organise the Accademia
+      di S. Luca at just the same time. But the very name of the society—‘birds of a feather’—
+      and the absence of statutes or fixed leadership point to the differences in standing between
+      the two organisations. This did not stop the bentveughels (largely through influential
+      support) from successfully resisting the Accademia’s attempt to impose a tax on all
+      artists, including foreigners, living in Rome. Most of these Northerners lived in the
+      district around the Via Margutta near the Piazza di Spagna, and their activities inaugur­
+      ated a ‘Bohemian’ tradition which survives in the area to this day. They indulged in
+      lavish banquets, mock ceremonials and pagan ‘baptisms’ and often attracted the atten­
+      tions of the police. All this must have been fairly repugnant to the respectable artists of
+      official Rome, but it did not stop the most characteristic of the bentveughels, Pieter Van
+      Laer, from being a member of the Accademia di S. Luca.3
 - citation: "Wikipedia (en), Bentvueghels, revision 1372100851. https://en.wikipedia.org/wiki/Bentvueghels. Accessed 2026-09-11."
   location: "对象页全文：信息框、正文、表格、图注、注释及书目；不含外链全文"
   sentence_summary: "按本卡内容采用历史定义及适用范围；候选身份、异文与不采用项见第三部分。"
@@ -22,6 +40,7 @@ sources:
 - citation: "The Phoebus Foundation, “The Bentvueghels”. https://phoebusfoundation.org/en/agenda/the-bentvueghels/ Accessed 2026-09-11."
   location: "2023年Centraal Museum展览介绍及Jan Miel图注全文"
   sentence_summary: "17世纪早期罗马北方艺术家团体；借展说明不代替历史成员名录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-bentveughels
 ---
 
 ## 内容
@@ -52,9 +71,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-- S1：第一章，印刷页20，OCR L819–833。
-- S2：组织对象页全文；S3：其WD记录，用于对象边界；S4：Phoebus Foundation展览介绍全文，补证罗马及北方艺术家语境。
-- 当前没有正式关系。页面成员表是后续核查线索，不批量接收新人物；范拉尔兼具学院成员身份不构成逻辑矛盾，罗萨成员身份未获本章支持。
-- 未决：具体成员、入会日期、每人的bentnaam及其原始文献，不由活动共现补造。状态维持 source_backed。
+暂无正式关系。

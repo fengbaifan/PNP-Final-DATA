@@ -3,7 +3,7 @@ title: "利奥内·帕斯科利（Lione Pascoli）"
 name_en: "Lione Pascoli"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 178–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 178–187"
+    text: |2-
+      1 See many references in Pascoli—I, p. 93, and II, pp. 119, 332, 417, 435, etc.
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L229–237
   sentence_summary: 离境限制及未刊 Trevisani 传的来源线索。
@@ -20,6 +33,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 229–237; print pp. 7
+  original_quotes:
+  - source_span: "lines 229–237"
+    text: |2-
+      1 Incisa della Rocchetta, 1924, p. 70.
+      2 Pascoli, I, p. 93.
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
+      4 Passeri, p. 141.
+      5 ibid., p. 374.
+      6 See unpublished life of Trevisani by Pascoli in Biblioteca Augusta, Perugia, MS. 1383 and Battisti,
+      1953-
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L741–752
   sentence_summary: 画家礼仪与生活描述来自传记。
@@ -27,6 +52,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 741–752; print pp. 18
+  original_quotes:
+  - source_span: "lines 741–752"
+    text: |2-
+      this aspect of their lives should have been stressed again and again. Giacinto Brandi
+      ‘lived splendidly with servants and a carriage’; Ciro Ferri too had a carriage, a fully
+      stocked larder, and arranged for his family always to be well dressed. Lodovico Gimignani ‘treated himself in a gentlemanly way; he was well dressed with fine linen and a
+      wig; well spoken with enviable manners and got on best with the nobility’. Giammaria
+      Morandi ‘danced extremely well, was an excellent horseman and fencer’; Andrea
+      Procaccini lived in magnificent rooms with fine pictures, tapestries and other ornaments,
+      and when he went to Spain, ‘his style was more that of a gentleman than of a painter’.4
+      Such characteristics are much more typical of the second than of the first half of the
+      seventeenth century and they were evidently reflected in the dealings of artists with
+      their patrons. There are sarcastic references to the difficulties of persuading Carlo
+      Maratta ‘to condescend (purely as a favour) to take our money’ for a picture which was
+      to be commissioned.5 But, despite such grumbles, Roman society often seems to have
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L770–795,805–806
   sentence_summary: 教养、谈吐与社会礼遇论述，Passeri／Pascoli 引述责任不可混同。
@@ -34,6 +74,39 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 770–795,805–806; print pp. 19
+  original_quotes:
+  - source_span: "lines 770–795"
+    text: |2-
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
+      a member of the distinguished Society of Arcadia, besides being given a benefice in
+      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
+      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
+      artists seems to date back to the later years of the sixteenth century and is directly
+      related to the new awareness of their social value. By the middle of the seventeenth
+      century most artists of any distinction were made ‘Cavaliere dell’abito di Cristo’, and
+      this too was influential in establishing art on recognised and firm foundations.4
+      Painters themselves, and especially their biographers, were keen to respond and
+      liked to stress their intellectual attainments. Thus we hear of Filippo Lauri carefully
+      studying the news-sheets so as to be able to make suitable conversation at the various
+      academies he would attend.5 This points to an essential and obvious requisite for social
+      success: a good general education. But the need for this was carried far beyond the
+      occasion for shining at academic gatherings. It was inextricably involved with the
+      business of keeping art respectable. ‘From such a lack of education’, writes Passeri,
+      ‘arise the absurdities which we find in some painters, who have some ability in their
+      art but who outside the practice of painting are dull, raw and uncivilised. They are
+      derided as tavole rase della plebe piu vile, incompetent at telling a story, with a bad
+      pronunciation, no good in serious conversation. They bring shame not only on them­
+      selves but on the whole profession—shame enough to make even the most half-witted
+      blush.’6 Ability to talk well and intelligently not only served to raise the status of art;
+      it also helped to attract powerful patrons, for this was certainly no age for the untutored
+      genius. We can see the artists of the day as they saw themselves by looking at their self
+      portraits. Serene, elegant, as the years go by increasingly bewigged, self-satisfied and
+      complacent, they gaze down at us, only rarely showing us the tools of their trade; more
+      keen to resemble their clients than to point to any singularity in themselves.
+  - source_span: "lines 805–806"
+    text: |2-
+      5 Pascoli, II, p. 202.
+      6 Of Michelangelo Cerquozzi—Passeri, p. 285.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L850–853
   sentence_summary: Procaccini 父母不喜绘画但未阻止的脚注反例。
@@ -41,6 +114,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 850–853; print pp. 20
+  original_quotes:
+  - source_span: "lines 850–853"
+    text: |2-
+      4 Pascoli, for instance (II, p. 400), said that Andrea Procaccini’s parents, who were well off, found
+      painting a profession ‘non del tutto confacevole al lor genio’, but they did nothing to prevent their son
+      taking it up.
+      5 Pascoli, II, pp. 246 and 6.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L978–980
   sentence_summary: Luti 少求权贵保护的传记记载。
@@ -48,6 +128,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 978–980; print pp. 23
+  original_quotes:
+  - source_span: "lines 978–980"
+    text: |2-
+      tengo . . .’ (Ruffo, p. 298). And of Benedetto Luti much later Pascoli wrote (I, p. 233): ‘Nè pur cercò
+      mai protezioni de' Grandi, e siccome egli andava poco da loro, essi di rado givan da lui. Diceva, che la
+      protezione dell’uomo dabbene esser doveva quella sola del bene oprare. . . .'
 - citation: "Wikipedia (en), Lione Pascoli, revision 1283030023. https://en.wikipedia.org/wiki/Lione_Pascoli. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Lione Pascoli，1674–1744 年艺术家传记作者；排除同姓诗人和姓氏页。"
@@ -66,6 +152,7 @@ sources:
 - citation: "Comune di Deruta, Pinacoteca Comunale, updated 2025-03-18. https://comune.deruta.pg.it/luoghi/2032434/pinacoteca-comunale. Accessed 2026-09-11."
   location: "完整场馆说明，尤其Pascoli收藏段"
   sentence_summary: "1931年市政府经捐赠接收约40幅Pascoli藏画；数量是该馆部分，不能当生前全部收藏。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pascoli
 ---
 
 ## 内容
@@ -133,17 +220,7 @@ S11综述指出：Bottari、Comolli批评其材料核实与琐细叙述；Battis
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 未刊传记署名；本次未读手稿；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
 
-### 章内出处
+### 身份与外部链接
 
-| 来源 | 章页／行号 | 句意摘要 |
-|---|---|---|
-| S1 | 第一章p6，L178–187 | 服务及旅行例子的传记来源 |
-| S2 | p7，L229–237 | 离境限制与Trevisani未刊传线索 |
-| S3 | p18，L741–752 | 画家的礼仪和生活描述 |
-| S4 | p19，L770–795、805–806 | 教养、谈吐和礼遇；须区分Passeri与Pascoli |
-| S5 | p20，L850–853 | Procaccini父母态度的反例 |
-| S6 | p23，L978–980 | Luti少求权贵保护的记载 |
-
-[Wikipedia](https://en.wikipedia.org/wiki/Lione_Pascoli)与[Wikidata Q1101774](https://www.wikidata.org/wiki/Q1101774)沿用已完成的双向配对。S7–S8为身份来源，S9–S12为本轮补足；编号按元数据顺序。
-
-本卡暂无正式关系；[帕塞里](giambattista-passeri.md)链接仅作作者区分。经济主张的后续影响、收藏逐件归属及亲缘完整性仍待原著或对象级资料；不从百科概括生成影响边。内容稿已保存，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/pascoli定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Lione_Pascoli)
+- [Wikidata Q1101774](https://www.wikidata.org/wiki/Q1101774)

@@ -3,7 +3,7 @@ title: "富尔维奥·泰斯蒂（Fulvio Testi）"
 name_en: "Fulvio Testi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 17."
@@ -13,6 +13,13 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 700–703; print pp. 17"
+    original_quotes:
+    - source_span: "lines 700–703"
+      text: |2-
+        nucci, 1948, p. 89. A letter from Fulvio Testi to Conte Francesco Fontana published by Fraschetti (p. 108)
+        shows the_prices that Bernini could command in 1633—a statue would be worth 4000 or 5000 scudi;
+        he was paid 1000 scudi for the head of Cardinal Borghese; he received a regular salary of 300 scudi a month
+        from the Fabbrica di S. Pietro.
   - citation: '"Fulvio Testi," English Wikipedia, revision 1372649729. https://en.wikipedia.org/wiki/Fulvio_Testi. Accessed 2026-09-09.'
     location: "信息框、Life、Main works、References、Bibliography；对象页全文已读，未通读全部外链"
     sentence_summary: "转述：页面介绍泰斯蒂的外交与诗歌活动、家庭、作品和后世评价；部分日期与 Treccani 有差异，未照单接收。"
@@ -31,6 +38,7 @@ sources:
   - citation: "Wikidata, Q594614, revision 2520426248. https://www.wikidata.org/wiki/Q594614. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
     sentence_summary: "复用并复核既有诗人／埃斯特宫廷官员身份；1593–1646。受洗日与生日仍区分。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-fulvio-testi
 ---
 
 ## 内容
@@ -80,15 +88,6 @@ sources:
 
 这里是已读来源覆盖的属性及书目，不是作品全集。关于《反西班牙檄文》的作者归属，WP 清单与 Treccani 对 Tassoni 归属问题的讨论不能合并为无争议的泰斯蒂作品。
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 复用并复核既有诗人／埃斯特宫廷官员身份；1593–1646。受洗日与生日仍区分。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Fulvio_Testi) 的 wikibase_item 与 [Wikidata Q594614](https://www.wikidata.org/wiki/Q594614) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -96,14 +95,7 @@ sources:
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确书信作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 
-### 身份与事实状态
+### 身份与外部链接
 
-2026-09-09，英文对象页 Wikidata item 实际跳转至 Q594614，该项 enwiki sitelink 实际返回 Fulvio Testi。姓名、1593–1646 年代、诗歌／埃斯特外交活动对应本章书信作者；双向核对通过。已完整阅读该英文版本与 Treccani 署名传记，适用 WD 字段在此后提取。
-
-配对通过不消除事实差异：WD 的出生“日”与受洗日混淆；WP 赦免年 1619 与 Treccani 1618 不同；WD Treccani 作者字符串 Marco Leoni 与实际署名 Marco Leone 不同。本卡采用实际署名，不擅改外部数据库。书信刊本与手稿分开，WP／WD 及其转引来源不按站点数重复算作独立证据。
-
-本卡尚无新增正式关系。角色、亲缘、任职和作品先作为有据属性留存，其他卡既有来信关系不复制到此处。整卡 source_backed 不提升为所有字段已独立核验。
-
-### 待补与争议
-
-受洗原记录、贵族授予文书、扩展全名的直接权威记录、完整亲缘与作品清单尚待补；赦免年份与作品归属待进一步裁决。书信的手稿原件及今日保管地尚未核验。现有出版书目为检索线索，不称已全文阅读全部研究。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Fulvio_Testi)
+- [Wikidata Q594614](https://www.wikidata.org/wiki/Q594614)

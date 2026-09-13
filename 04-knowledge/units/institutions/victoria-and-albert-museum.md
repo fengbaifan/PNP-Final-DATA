@@ -3,7 +3,7 @@ title: "维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）"
 name_en: "Victoria and Albert Museum"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 699–700; print pp. 17
+  original_quotes:
+  - source_span: "lines 699–700"
+    text: |2-
+      1 By the Englishman Thomas Baker for his bust now in the Victoria and Albert Museum—Baldi­
+      nucci, 1948, p. 89. A letter from Fulvio Testi to Conte Francesco Fontana published by Fraschetti (p. 108)
 - citation: "Wikipedia (en), Victoria and Albert Museum, revision 1374070198. https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "伦敦 V&A 博物馆机构，符合 Baker 胸像收藏语境。"
@@ -31,6 +36,7 @@ sources:
 - citation: "Victoria and Albert Museum, 100 Facts about the V&A, updated 22 May 2024. https://www.vam.ac.uk/articles/100-facts-about-the-va. Accessed 2026-09-11."
   location: "早期历史部分及与本卡相关条目；非全文逐项采用"
   sentence_summary: "确认1852、1853、1857和1899四个名称与迁址节点，并说明South Kensington馆址及皇家命名。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-victoria-and-albert-museum
 ---
 
 ## 内容
@@ -61,15 +67,6 @@ sources:
 - 该馆收藏按材料、地区、时期和功能组织，绘画、素描、版画、雕塑、建筑、纺织、家具、金属、摄影及表演资料均有专门部门或序列。（S4）
 - Wikipedia的英国展厅清单把Bernini的Thomas Baker胸像列为17世纪作品，支持Haskell所述馆藏语境；当前馆号、尺寸、材质和陈列位置仍应回到V&A单件目录。（S1、S4）
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 伦敦 V&A 博物馆机构，符合 Baker 胸像收藏语境。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum) 的 wikibase_item 与 [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -77,10 +74,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）](../works/bernini-thomas-baker-bust.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；原断言与证据见发出端卡片“贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
 
-S1是第一章章页／行号；S2–3为初步身份对齐；S4为Wikipedia全文；S5为WD字段；S6为V&A官方机构页全文；S7只读取“100 Facts”早期历史部分。Wikipedia页面包含大量现行馆群、数量与展览信息，本卡只采与机构身份、沿革、职责和第一章藏品语境有关部分。
+### 身份与外部链接
 
-
-
-### 身份与未决项
-
-[Wikipedia（英文）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum) ↔ [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322)双向身份核对继续通过。WD的1852成立、英国和Cromwell Road馆址字段有引用；多馆址体系与现任管理信息是当代状态，不回填1980／2006版Haskell。V&A收藏站受robots限制未能读取，故贝克胸像的现行馆号、材质、尺寸、来源和展示状态仍以作品卡继续补证。
+- [Wikipedia（英文）](https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum)
+- [Wikidata Q213322](https://www.wikidata.org/wiki/Q213322)

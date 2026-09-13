@@ -3,7 +3,7 @@ title: "安东尼奥·巴贝里尼（Antonio Barberini）"
 name_en: "Antonio Barberini"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 195–198; print pp. 7
+  original_quotes:
+  - source_span: "lines 195–198"
+    text: |2-
+      the artist might move on promotion. Thus from 1637 to 1640 Andrea Sacchi was placed
+      in Cardinal Antonio Barberini’s household among three slaves, a gardener, a dwarf
+      and an old nurse; in the latter year he was moved up to the highest category of pen­
+      sioners with writers, poets and secretaries.1
 - citation: "Wikipedia (en), Antonio Barberini, revision 1362029134. https://en.wikipedia.org/wiki/Antonio_Barberini. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "小安东尼奥（1607–1671）；Treccani 的 Sacchi 条明确主要赞助人为 Antonio junior，排除叔辈 Antonio Marcello。"
@@ -31,6 +38,7 @@ sources:
 - citation: "Alberto Merola, BARBERINI, Antonio, Dizionario Biografico degli Italiani 6 (1964). https://www.treccani.it/enciclopedia/antonio-barberini_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文19964字符，含家世、1627秘密创建／1628公布、外交、流亡、教职、晚年及书目"
   sentence_summary: "1607年8月4日生、1671年8月4日卒的DBI纪日与WP/WD不同；法国教职提名和教廷批准分别记。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-antonio-barberini
 ---
 
 ## 内容
@@ -106,7 +114,8 @@ Alberto Merola的1964年专业传记与英文百科对生卒日、任职年有�
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）](../events/sacchi-household-promotion-1640.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；原断言与证据见发出端卡片“萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
 | ← 雇主（`employer_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级；时间：1637–1640；角色：家户受俸画家；范围：1640年升入最高受俸者等级；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
-- 身份：[Wikipedia（en）](https://en.wikipedia.org/wiki/Antonio_Barberini) ↔ [Wikidata Q599744](https://www.wikidata.org/wiki/Q599744)，已完成同名世代区分及双向配对。修正旧正文“同名消歧未开展”的滞后表述。
-- 相关知识元：[萨基](andrea-sacchi.md)、[家户晋级事件](../events/sacchi-household-promotion-1640.md)、[巴贝里尼家户记录](../institutions/barberini-household.md)、[乌尔班八世](urbano-viii.md)。相关链接提供访问入口，本卡尚无新增正式出边。
-- 本章S1保留第7页L195–198及摘要；S2–S4是既有对齐证据，S5–S7为全文／字段补足。Getty ULAN500354177仅从WD取得，本轮未核原站。
-- 未决：生卒精确日、部分职位起期、原家户清单、完整亲缘／藏品与学术文献目录。当前补足不等于全字段完成，仍为source_backed。
+
+### 身份与外部链接
+
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Antonio_Barberini)
+- [Wikidata Q599744](https://www.wikidata.org/wiki/Q599744)

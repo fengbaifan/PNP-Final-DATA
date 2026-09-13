@@ -3,7 +3,7 @@ title: "马尔切洛·萨凯蒂（Marcello Sacchetti）"
 name_en: "Marcello Sacchetti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patron_of","target":"persons/pietro-da-cortona.md","note":"问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 217–220; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"提供宫中住处与保护的赞助人","scope":"确认同乡后的接纳与安置"}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 217–220; print pp. 7
+  original_quotes:
+  - source_span: "lines 217–220"
+    text: |2-
+      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+      Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+      heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
 - citation: "Wikipedia (it), Marcello Sacchetti, revision 149839333. https://it.wikipedia.org/wiki/Marcello_Sacchetti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1586–1629 年赞助人；意大利语 Biografia 节明确 Cortona 的早期赞助。佛罗伦萨家族来源不等于出生于佛罗伦萨。"
@@ -33,6 +40,7 @@ sources:
 - citation: "Irene Fosi, SACCHETTI, Marcello, DBI 89 (2017). https://www.treccani.it/enciclopedia/marcello-sacchetti_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文12381字符；出生／洗礼、任职、赞助、死亡及书目"
   sentence_summary: "生日采用9月12日并分开洗礼16日，保留WP10月12日异文；托斯卡纳家族来源非出生地。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-marcello-sacchetti
 ---
 
 ## 内容
@@ -92,7 +100,8 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 赞助者／保护人（`patron_of`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中；角色：提供宫中住处与保护的赞助人；范围：确认同乡后的接纳与安置；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 217–220; print pp. 7 |
-- 既有正式关系：[皮耶特罗·达·科尔托纳](pietro-da-cortona.md)；相关地点：[罗马](../places/rome.md)、[佛罗伦萨](../places/florence.md)。后一组为导航，不新增关系。
-- 身份：英文精确页名未找到，沿用并全文读取[意大利语Wikipedia](https://it.wikipedia.org/wiki/Marcello_Sacchetti) ↔ [Wikidata Q6087600](https://www.wikidata.org/wiki/Q6087600)。
-- S1保留第一章第7页L217–220及句子摘要；S2–S4为原对齐，S5–S7为补足。出生月份以具名专业传记为当前采用依据，原家庭记事未读。
-- 未决：日值原档、教育、完整婚姻／后裔、具体交易记录；死亡病因DBI仅称可能肠癌，不把WP的确诊叙述写成已核医学结论。整卡仍为source_backed，正式关系1条保留。
+
+### 身份与外部链接
+
+- [意大利语Wikipedia](https://it.wikipedia.org/wiki/Marcello_Sacchetti)
+- [Wikidata Q6087600](https://www.wikidata.org/wiki/Q6087600)

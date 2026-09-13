@@ -3,7 +3,7 @@ title: "布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulie
 name_en: "Duke of Bracciano (Mulier’s patron)"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -13,12 +13,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: "Annemarie Stefes, Pieter Mulier II biography (2019), Rijksmuseum, Dutch Drawings of the Seventeenth Century. https://www.rijksmuseum.nl/nl/collectie/object/Italiaans%2Blandschap%2Bwaarin%2Bherders%2Been%2Brivier%2Boversteken--4aef6dcb3b9777165ead9f633d091de8. Accessed 2026-09-11."
   location: "复用已完整阅读的馆方传记与作品页；只采用赞助人段及迁居信息。"
   sentence_summary: "Ferdinando Orsini及其子Flavio均曾赞助Mulier，不能由本章爵号确认其中一人。"
 - citation: "Lione Pascoli, Vite de’ pittori, scultori, ed architetti moderni, vol.1 (Roma: Antonio de’ Rossi, 1730), pp.177–184, especially pp.179–181. Getty Research Institute scan, https://archive.org/details/vitedepittoriscu01pasc. Accessed 2026-09-11."
   location: "完整Mulier传的OCR已读，选取章内引文对应段；影像未逐页核验。"
   sentence_summary: "叙事先交代持续委托与保护，再写以新委托拖延、劝留，最后批准离开并赠礼授衔；未给公爵全名和年份，不足以确认Flavio。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-duke-bracciano-mulier
 ---
 
 ## 内容
@@ -53,7 +60,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 赞助者／保护人（`patron_of`，反向投影） | [皮耶特罗·穆利耶尔（Pietro Mulier）](pietro-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；原断言与证据见发出端卡片“皮耶特罗·穆利耶尔（Pietro Mulier）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
-
-- 所保护的画家：[皮耶特罗·穆利耶尔](pietro-mulier.md)。正式事实仍由画家卡发出，本卡通过反向导航显示；现有词表没有单独“保护人”谓词，不复制第二条泛化边。
-- S1：第一章第7页L231–233；S2：Rijksmuseum现代传记赞助人段；S3：Pascoli1730卷1pp.177–184，实际读OCR，原扫描图像未逐页复核。
-- **Wikipedia／Wikidata：未确认配对。** 现有证据增加了本章事件背景，但未解除具体身份阻断。继续查对应授衔、委托或离开罗马的原档；不能据爵号或时代重叠强选QID。

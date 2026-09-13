@@ -3,7 +3,7 @@ title: "费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro F
 name_en: "Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"commissioned_by","target":"persons/annibale-laparelli.md","note":"为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 507–508; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,9 +17,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 507–508; print pp. 13
+  original_quotes:
+  - source_span: "lines 507–508"
+    text: |2-
+      who was given 50 scudi as caparra and promised 180 more on completion of an altarpiece in Cortona for
+      Annibale Laparclli (Gualandi, IV, p. 117).
 - citation: "Alessandro Grassi, “Gli altari post-tridentini di San Francesco di Cortona,” in Un modello in discussione (Edizioni della Normale, 2025), pp. 257–259. https://ricerca.sns.it/handle/11384/159163. Accessed 2026-09-11."
   location: "开放获取论文全文相关页；Laparelli祭坛与Ciro Ferri画作段"
   sentence_summary: "确认1657年Laparelli祭坛、无染原罪奉献、Ciro Ferri画作及后来移位；长题名来自所列圣者。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-ferri-laparelli-altarpiece
 ---
 
 ## 内容
@@ -34,13 +40,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar | S1；标题中的语境说明为登记用语 |
-| 支付条件 | 预付 50 scudi；完成后付 180 scudi | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar | S1 |
+| 支付条件 | 预付 50 scudi；完成后付 180 scudi | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮作品补足（REV-055，2026-09-11）
+### 作品信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -51,17 +54,6 @@ sources:
 | 创作地／原位置／现位置 | San Francesco, Cortona；原在Laparelli祭坛，后移至邻墙 | 历史位置和现藏不互相覆盖 |
 | 类型、材质与尺寸 | 祭坛画／画布；章内载预付50 scudi、完工后180 scudi | 缺项不根据同类作品补推 |
 | 状态与语义边界 | 学术资料又概括为Immacolata Concezione e santi；长题名与奉献主题并存，不当作两个作品。 | 委托、稿本、完成作品、归属和现藏分别判断 |
-| Wikipedia—Wikidata结果 | 未见作品独立Wikipedia—Wikidata双站对象；教堂页和论文用于识别及位置沿革。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
-
-**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -71,9 +63,3 @@ sources:
 | → 由其委托（`commissioned_by`） | [安尼巴莱·拉帕雷利（Annibale Laparelli）](../persons/annibale-laparelli.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 | → 位于（`located_at`） | [科尔托纳（Cortona）](../places/cortona.md) | 来源明确工程在 Cortona，具体教堂不明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 | → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 本章明确祭坛画由费里为拉帕雷利制作；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
-
-S1：第一章；印刷页 13；OCR L507–508。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

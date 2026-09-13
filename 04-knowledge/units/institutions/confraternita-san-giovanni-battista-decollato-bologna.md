@@ -3,7 +3,7 @@ title: "博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John
 name_en: "Confraternity of Saint John of the Florentines, Bologna"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 326–328; print pp. 9
+  original_quotes:
+  - source_span: "lines 326–328"
+    text: |2-
+      Gualandi, I, p. 91. In 1682 Sebastiano Ricci was required by the Confraternità di S. Giovanni Battista
+      Decollato in Bologna to paint ‘La Decolatione di S. Gio. Battista con figure et altre conforme richiede il
+      rappresentare detta decolatione’—von Derschau, 1916, pp. 168-9. 3 Ruffo, p. 109.
 - citation: "Wikipedia (it), Oratorio di San Giovanni Battista dei Fiorentini, revision 147953272. https://it.wikipedia.org/wiki/Oratorio_di_San_Giovanni_Battista_dei_Fiorentini. Accessed 2026-09-11."
   location: "全文：身份、名称、位置、建筑沿革、装饰及书目；作为会址候选，不作机构配对"
   sentence_summary: "博洛尼亚Corte de' Galluzzi的佛罗伦萨人礼拜堂由当地佛罗伦萨商人使用；其建筑QID不能代善会机构。"
@@ -25,6 +31,7 @@ sources:
 - citation: "Gianluca Stefani, Sebastiano Ricci impresario d’opera a Venezia nel primo Settecento (Firenze University Press, 2015), ch. 2, p. 27 and note 3. https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/94/83/2020719483/2020719483.pdf. Accessed 2026-09-11."
   location: "PDF第2章相关页及注释；非全书阅读"
   sentence_summary: "据合同记1682-09-28本善会委托Ricci创作已失佚《施洗者斩首》，并引合同所记画家当时在博洛尼亚的身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-confraternita-san-giovanni-battista-decollato-bologna
 ---
 
 ## 内容
@@ -53,28 +60,9 @@ sources:
 - Ricci的1682年合同与第一章日期、对象和题材相合，因此可修正团体规范名；合同记画家当时已在博洛尼亚居住一段时间。（S1、S5）
 - 地方政府页面记《施洗者诞生》约1695年为原境作品，后在拿破仑征收中移出；这一作品与1682年已失佚的《斩首》不是同一件。（S4、S5）
 
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无机构配对。** 已将本章对象定位到博洛尼亚佛罗伦萨人善会，但现有Wikipedia—Wikidata条目对应其礼拜堂建筑，不对应善会机构。
-
-未采用确认QID。意大利语Wikipedia条目与Wikidata Q28229297双向互链，但P31明确为former church building／church building，故只作会址导航和排除候选。没有把建筑QID写入机构身份。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 善会为原文要求作画的委托人；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
-
-S1是第一章章页／行号；S2为意大利语Wikipedia会址页全文；S3为建筑QID字段核对；S4为博洛尼亚市文化页面全文；S5为开放获取专著的相关页和注释。S5未全书阅读，所引合同原件仍未直接读到。
-
-
-
-### 关系入口与未决项
-
-相关卡：[塞巴斯蒂亚诺·里奇](../persons/sebastiano-ricci.md)、[1682年委托作品](../works/ricci-beheading-john-baptist-1682.md)、[1682年委托条款](../archives/ricci-bologna-terms-1682.md)、[博洛尼亚](../places/bologna.md)。本次正式关系由作品卡记录“善会委托”和“里奇创作”，条款卡记录作品主题；本卡通过反向投影显示，不重复反写。
-
-善会的成立时间、成员与管理者、章程、1798年前后法律处置及后续法人连续性尚无直接资料。现有研究把团体写作Confraternita di San Giovanni dei Fiorentini，第一章写Battista Decollato；两者语义对应已由同一日期、同一画家和同一失佚祭坛画支持，但仍保留原文异名。

@@ -3,7 +3,7 @@ title: "迪尔克·范·阿梅登（Dirk van Ameyden）"
 name_en: "Dirk van Ameyden"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 89–92; print pp. 4
+  original_quotes:
+  - source_span: "lines 89–92"
+    text: |2-
+      1 Ameyden, Relatione della città di Roma 1642-—MS. 5001 in Biblioteca Casanatense, Rome. Piety,
+      says the author, diminished under Urban VIII because of the excessive length of the papacy ‘non per colpa
+      alcuna del Prencipe, ma che la nascita del Pontificato elettivo, et ecclesiastico ricerca mutazione più spesso,
+      acciò molti possono godere de gli onori, e dignità ecclesiastiche, ricerche, c cariche della corte’.
 - citation: "Wikipedia (it), Teodoro Ameyden, revision 138483277. https://it.wikipedia.org/wiki/Teodoro_Ameyden. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "同书索引列 Dirk Ameyden 及 1642 年文稿；意大利语页把 Dirk、Teodoro、Theodorus 列为异名，身份相容。"
@@ -26,6 +33,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/22_CHP-22Index.md
     source_span: "lines 145\u2013146; print pp. 444"
+  original_quotes:
+  - source_span: "lines 145–146"
+    text: |2-
+                        Ameyden, Dirk, 4n, 94, 137n
+                         Relatione della citta di Roma 1642, 4n, 137n
 - citation: "Wikipedia (en), Dirk Ameyden, revision 1215463112. https://en.wikipedia.org/wiki/Dirk_Ameyden. Accessed 2026-09-10."
   location: "全文：Life、Writings、注释及书目；REV-052"
   sentence_summary: "1586–1656年法律工作者、新闻札报作者；早期行程、家属、书目和公共活动；英文页现可与 Q3983865 双向核对。"
@@ -38,6 +50,7 @@ sources:
 - citation: "Treccani, Ameyden, Dirk van, Enciclopedia on line. https://www.treccani.it/enciclopedia/dirk-van-ameyden/. Accessed 2026-09-10."
   location: "短条目全文"
   sentence_summary: "支持既有 Dirk van Ameyden 名形；与艺术家和文学家往来及Giustiniani书信线索，不能把摘要称原信已读。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-ameyden
 ---
 
 ## 内容
@@ -128,18 +141,6 @@ sources:
 
 ### 身份与外部链接
 
-[Wikipedia：Dirk Ameyden（en）](https://en.wikipedia.org/wiki/Dirk_Ameyden) ↔ [Wikidata：Q3983865](https://www.wikidata.org/wiki/Q3983865)：本轮英文页 `wikibase_item` 与 WD `enwiki` 相合，名字、年代、活动地及著述相容。保留原[意大利语入口：Teodoro Ameyden](https://it.wikipedia.org/wiki/Teodoro_Ameyden)的REV-034记录；本轮新增英文全文阅读，不将意大利语导言旧读升级为全文。（S2、S3、S5、S6）
-
-ULAN 500726524、VIAF 89210652来自WD，未直接读Getty／VIAF。WD缺少父母、配偶、子女字段不代表这些关系不存在；本卡由叙述证据补入。（S6、S7）
-
-### 关系导航与原书证据
-
-本卡无既有正式关系；可经[1642年手稿](../archives/ameyden-relazione-1642.md)及[卡萨纳滕塞图书馆](../institutions/biblioteca-casanatense.md)查看文献与保存语境，导航不新增边。
-
-S1为第一章p.4，L89–92，署名Ameyden及MS.5001；S4为同书索引p.444，L145–146，将名字展开为Dirk。原句摘要和定位完整保留在元数据。
-
-### 未决与限制
-
-- 早期长期定居年份、个人房产的完整沿革和17名子女身份未解决；不凭概述填入精确日期或人名。
-- 1642年记述、1640–1650日记、1672年刊本须按各自馆号／版本核对；本轮只读作者传记与相关馆藏项目，不宣称原件全文已读。
-- 补入事实与正式边分别处理；保持 `source_backed`，详见[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `persons/ameyden`。
+- [Wikipedia：Dirk Ameyden（en）](https://en.wikipedia.org/wiki/Dirk_Ameyden)
+- [Wikidata：Q3983865](https://www.wikidata.org/wiki/Q3983865)
+- [意大利语入口：Teodoro Ameyden](https://it.wikipedia.org/wiki/Teodoro_Ameyden)

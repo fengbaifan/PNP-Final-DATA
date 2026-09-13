@@ -3,7 +3,7 @@ title: "圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (
 name_en: "Marchese di S. Tommaso (Negri’s correspondent)"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 899–900; print pp. 21
+  original_quotes:
+  - source_span: "lines 899–900"
+    text: |2-
+      3 Letter from Paolo Negri to Marchese di S. Tommaso, dated 24 December 1676, quoted by Clarctta,
+      1885, p. 542.
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-marchese-san-tommaso-negri
 ---
 
 ## 内容
@@ -27,13 +33,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Marchese di S. Tommaso (Negri’s correspondent) | S1；标题中的语境说明为登记用语 |
-| 通信角色 | 1676-12-24 Paolo Negri 信的收信人 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Marchese di S. Tommaso (Negri’s correspondent) | S1 |
+| 通信角色 | 1676-12-24 Paolo Negri 信的收信人 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮定向补足（REV-055，2026-09-11）
+### 补充信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -42,18 +45,7 @@ sources:
 | 身份标签 | Paolo Negri的通信对象 | 标签可并列；不据单一行为扩张职业身份 |
 | 已知活动时段与地点 | 1676-12-24 | 仅在现有证据范围内 |
 | 履历／本章活动 | 接收Negri关于都灵宫廷艺术评价的信；爵号本身不足以推定个人身份。 | 章内来源及本卡新增来源；具体支持范围见sources |
-| Wikipedia—Wikidata结果 | 英文与意大利语按爵号、Negri、日期组合检索未获唯一人名或双站配对。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
 | 生卒、国籍、亲缘、教育、完整职业履历 | 当前未获可归属于本人的可靠资料 | 已检索未解决；不表示该人物没有这些属性 |
-
-**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -61,9 +53,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为收信人（`addressee_of`，反向投影） | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../archives/negri-san-tommaso-letter-1676.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；原断言与证据见发出端卡片“保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
-
-S1：第一章；印刷页 21；OCR L899–900。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-
-
-**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。

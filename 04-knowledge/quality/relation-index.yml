@@ -1,7 +1,7 @@
 # Relation Index v2.1
-# generated: 2026-09-12
-# total: 226
-# sources: {'explicit': 226}
+# generated: 2026-09-13
+# total: 407
+# sources: {'explicit': 406, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -58,6 +58,26 @@
   review_status: evidence_backed_relation
   role: 争议证人
   scope: 解释Mola对Pamfili的有偿优先服务
+- source: persons/alof-de-wignacourt.md
+  source_type: person
+  target: institutions/knights-hospitaller.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 维尼亚库尔1564年加入医院骑士团，1601年至1622年任大团长。
+  evidence: ''
+  evidence_ref:
+    doc_id: member-of-institutions-knights-hospitaller-wignacourt
+    source_file: https://en.wikipedia.org/wiki/Alof_de_Wignacourt
+    source_span: infobox与Biography导言
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1564–1622
+  role: 成员；1601–1622任大团长
+  scope: 个人在医院骑士团的成员与领导职务
 - source: persons/andrea-camassei.md
   source_type: person
   target: persons/domenichino.md
@@ -283,6 +303,185 @@
   time: 1600起
   role: 合同指定画家
   scope: 连接委托对象；现存版本与原约底材仍分开
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/simone-peterzano.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 1584年起在彼得扎诺工作室完成四年学徒期；彼得扎诺自称提香学生不构成卡拉瓦乔直接师从提香。
+  evidence: ''
+  evidence_ref:
+    doc_id: trained-by-persons-simone-peterzano-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Biography / Early life段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1584–约1588
+  role: 学徒
+  scope: 米兰工作室训练
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/giuseppe-cesari.md
+  target_type: person
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: 罗马早期在朱塞佩·切萨里工作室绘制花果等部分。
+  evidence: ''
+  evidence_ref:
+    doc_id: employed-by-persons-giuseppe-cesari-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1590年代早期
+  role: 工作室画家／助手
+  scope: 花果及次要部分；不等于长期师承
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/prospero-orsi.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: 页面将奥尔西列为朋友，并记其帮助卡拉瓦乔进入收藏与赞助网络。
+  evidence: ''
+  evidence_ref:
+    doc_id: friend-of-persons-prospero-orsi-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与相关生平段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1590年代起
+  role: 朋友与市场引介者
+  scope: 不由此推定共同创作
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/onorio-longhi.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: 生平及1603年诽谤案语境将隆吉列入卡拉瓦乔朋友圈。
+  evidence: ''
+  evidence_ref:
+    doc_id: friend-of-persons-onorio-longhi-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Rome生平与诽谤案段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友
+  scope: 不由共同涉案推定艺术合作
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/mario-minnitti.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系。
+  evidence: ''
+  evidence_ref:
+    doc_id: friend-of-persons-mario-minnitti-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与Models段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1590年代
+  role: 朋友
+  scope: 模特身份逐件作品另判
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/francesco-maria-del-monte.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: 德尔·蒙特购藏早期作品、提供住处并使卡拉瓦乔进入委托网络。
+  evidence: ''
+  evidence_ref:
+    doc_id: patronized-by-persons-francesco-maria-del-monte-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Beginnings in Rome与Patrons字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1595起
+  role: 主要赞助人／保护人
+  scope: 具体作品委托另逐件登记
+- source: persons/caravaggio.md
+  source_type: person
+  target: persons/alof-de-wignacourt.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: 马耳他时期维尼亚库尔支持卡拉瓦乔并推动其获骑士身份。
+  evidence: ''
+  evidence_ref:
+    doc_id: patronized-by-persons-alof-de-wignacourt-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Malta段与Patrons字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1607–1608
+  role: 保护人
+  scope: 骑士身份与肖像作品分别建模
+- source: persons/caravaggio.md
+  source_type: person
+  target: families/colonna-family.md
+  target_type: family
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: 科隆纳家族网络在卡拉瓦乔逃离罗马后提供保护；本边不表示家族委托全部作品。
+  evidence: ''
+  evidence_ref:
+    doc_id: patronized-by-families-colonna-family-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Early life及Naples exile相关段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1606后
+  role: 保护网络
+  scope: 逃亡期保护；非具体作品委托
+- source: persons/caravaggio.md
+  source_type: person
+  target: institutions/knights-hospitaller.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 1608年获医院骑士团骑士身份，同年被拘、逃离后遭逐；成员关系有终止限定。
+  evidence: ''
+  evidence_ref:
+    doc_id: member-of-institutions-knights-hospitaller-md
+    source_file: https://en.wikipedia.org/wiki/Caravaggio
+    source_span: Malta段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1608年内
+  role: 骑士，后被逐
+  scope: 非终身未撤销头衔
 - source: persons/cardinal-borghese-ch1.md
   source_type: person
   target: persons/domenichino.md
@@ -687,6 +886,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giacinto-brandi.md
+  source_type: person
+  target: persons/giovanni-lanfranco.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-brandi
+    source_file: https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/
+    source_span: 本卡 S7；1646–1647训练段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1646–1647
+  role: 学生
+  scope: 兰弗兰科训练阶段
 - source: persons/giambattista-passeri.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -811,6 +1030,26 @@
   time: 约1662
   role: 学生
   scope: 罗马训练；与旅行赞助分开
+- source: persons/giovanni-bonati.md
+  source_type: person
+  target: persons/guercino.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-bonatti
+    source_file: https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1655年后训练段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1655年后／约1658
+  role: 学生
+  scope: 早期训练；不把来源中的精确年份差异强行统一
 - source: persons/giovanni-lanfranco.md
   source_type: person
   target: procedures/per-figure-pricing.md
@@ -845,6 +1084,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giovanni-lanfranco.md
+  source_type: person
+  target: persons/annibale-carracci.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段。
+  evidence: ''
+  evidence_ref:
+    doc_id: wikipedia-lanfranco
+    source_file: https://en.wikipedia.org/wiki/Giovanni_Lanfranco
+    source_span: 本卡 S3；Biography中early training与Roman workshop段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1602起
+  role: 工作室学生／助手
+  scope: Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练
 - source: persons/giovanni-odazzi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -862,6 +1121,46 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giovanni-odazzi.md
+  source_type: person
+  target: persons/ciro-ferri.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；训练与1689年工作室转移段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1689年前
+  role: 工作室学生／团队成员
+  scope: 费里工作室阶段
+- source: persons/giovanni-odazzi.md
+  source_type: person
+  target: persons/giovan-battista-gaulli.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1689年后Gaulli工作室段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1689年后
+  role: 工作室学生
+  scope: 盖乌利工作室阶段；不推定共同创作
 - source: persons/giuseppe-ghezzi.md
   source_type: person
   target: institutions/arcadia.md
@@ -950,6 +1249,63 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/guglielmo-cortese.md
+  source_type: person
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-courtois
+    source_file: https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/
+    source_span: 本卡 S6；罗马训练与Cortona指导段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 受指导画家
+  scope: 罗马训练／工作指导；具体合作项目另行判断
+- source: persons/guglielmo-cortese.md
+  source_type: person
+  target: persons/gaspard-dughet.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-courtois
+    source_file: https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/
+    source_span: 本卡 S6；合作项目段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 人物画家／风景画家
+  scope: 传记明确列出的合作项目
+- source: persons/guglielmo-cortese.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-courtois
+    source_file: https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/
+    source_span: 本卡 S6；Bernini合作项目段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家／项目合作者
+  scope: 传记明确列出的工程；逐作责任仍保留
 - source: persons/guido-reni.md
   source_type: person
   target: works/reni-justice-embracing-peace.md
@@ -1063,6 +1419,66 @@
   review_status: evidence_backed_relation
   role: 提供宫中住处与保护的赞助人
   scope: 确认同乡后的接纳与安置
+- source: persons/mario-de-fiori.md
+  source_type: person
+  target: persons/filippo-lauri.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-nuzzi
+    source_file: https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/
+    source_span: 本卡 S7；Quattro stagioni合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1658–1659
+  role: 花卉画家／人物画家
+  scope: Chigi《四季》之《春》；不推广为全部作品的长期合作
+- source: persons/mario-de-fiori.md
+  source_type: person
+  target: persons/carlo-maratta.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-nuzzi
+    source_file: https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/
+    source_span: 本卡 S7；Quattro stagioni合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1658–1659
+  role: 花卉画家／人物画家
+  scope: Chigi《四季》之《夏》；不推广为全部作品的长期合作
+- source: persons/mario-de-fiori.md
+  source_type: person
+  target: persons/giacinto-brandi.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-nuzzi
+    source_file: https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/
+    source_span: 本卡 S7；Quattro stagioni合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1658–1659
+  role: 花卉画家／人物画家
+  scope: Chigi《四季》之《秋》；不推广为全部作品的长期合作
 - source: persons/mattia-preti.md
   source_type: person
   target: persons/antonio-ruffo.md
@@ -1119,6 +1535,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/michelangelo-cerquozzi.md
+  source_type: person
+  target: persons/viviano-codazzi.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: 传记明确两人合作建筑场景，包含《马萨尼埃洛起义》相关对象；早期合作年代存在争议。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-cerquozzi
+    source_file: https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/
+    source_span: 本卡 S7；Codazzi合作段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 罗马合作期；1647年前起点有争议
+  role: 人物画家／建筑景观画家
+  scope: 有据合作作品；不由合作推定共同政治立场或所有作品共同署名
 - source: persons/nicolas-poussin.md
   source_type: person
   target: works/poussin-spring-valguarnera.md
@@ -1238,6 +1674,25 @@
   time: '1690'
   role: 受邀服务并协商住宿的画家
   scope: 只涵盖保护人宫内外居住协商
+- source: persons/paolo-girolamo-piola.md
+  source_type: person
+  target: persons/carlo-maratta.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: 罗马学习阶段随卡洛·马拉塔学习；研习卡拉奇作品不等同于直接师承卡拉奇。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-piola
+    source_file: https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/
+    source_span: 本卡 S7；罗马学习段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 学生
+  scope: 罗马学习阶段；与作品研习区分
 - source: persons/paolo-guidotti.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1555,6 +2010,24 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/cerasi-chapel.md
+  source_type: place
+  target: places/santa-maria-del-popolo.md
+  target_type: place
+  relation_type: part_of
+  inverse_relation_type: null
+  note: 切拉西礼拜堂位于人民圣母堂内。
+  evidence: ''
+  evidence_ref:
+    doc_id: part-of-places-santa-maria-del-popolo-md
+    source_file: https://en.wikipedia.org/wiki/Cerasi_Chapel
+    source_span: 正文导言与位置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 建筑内部礼拜堂
 - source: places/chiesa-de-servi-bologna.md
   source_type: place
   target: places/bologna.md
@@ -1572,6 +2045,24 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/contarelli-chapel.md
+  source_type: place
+  target: places/san-luigi-dei-francesi.md
+  target_type: place
+  relation_type: part_of
+  inverse_relation_type: null
+  note: 孔塔雷利礼拜堂位于法国圣路易堂内。
+  evidence: ''
+  evidence_ref:
+    doc_id: part-of-places-san-luigi-dei-francesi-md
+    source_file: https://en.wikipedia.org/wiki/Contarelli_Chapel
+    source_span: 正文导言与位置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 建筑内部礼拜堂
 - source: places/naples-cathedral.md
   source_type: place
   target: places/naples.md
@@ -1919,6 +2410,1220 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/caravaggio-adoration-shepherds.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Adoration of the Shepherds归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。
+- source: works/caravaggio-adoration-shepherds.md
+  source_type: work
+  target: institutions/regional-museum-messina.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Adoration of the Shepherds列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-regional-museum-messina-md
+    source_file: https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-adoration-shepherds.md
+  source_type: work
+  target: institutions/capuchins.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-institutions-capuchins-md
+    source_file: https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1609'
+  role: 委托人／委托机构
+  scope: 为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。
+- source: works/caravaggio-adoration-shepherds.md
+  source_type: work
+  target: places/santa-maria-degli-angeli-messina.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Adoration of the Shepherds原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-santa-maria-degli-angeli-messina-md
+    source_file: https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio)
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1609'
+  role: 原定安置地点
+  scope: 为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。
+- source: works/caravaggio-amor-vincit-omnia.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Amor Vincit Omnia归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://id.smb.museum/object/862322
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。
+- source: works/caravaggio-amor-vincit-omnia.md
+  source_type: work
+  target: institutions/gemaeldegalerie-berlin.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Amor Vincit Omnia列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-gemaeldegalerie-berlin-md
+    source_file: https://id.smb.museum/object/862322
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-amor-vincit-omnia.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Amor Vincit Omnia的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-marchese-giustiniani-ch1-md
+    source_file: https://id.smb.museum/object/862322
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1601–1602
+  role: 委托人／委托机构
+  scope: 为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。
+- source: works/caravaggio-amor-vincit-omnia.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有Amor Vincit Omnia；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-marchese-giustiniani-ch1-md
+    source_file: https://id.smb.museum/object/862322
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1602后至1812
+  role: 朱斯蒂尼亚尼收藏
+  scope: 为文琴佐·朱斯蒂尼亚尼而作，现藏柏林；与巴廖内同题回应作品分开。
+- source: works/caravaggio-bacchus-uffizi.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Bacchus归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.uffizi.it/en/artworks/bacchus
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与《生病的巴克斯》及其他同题对象分开。
+- source: works/caravaggio-bacchus-uffizi.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Bacchus列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-uffizi-gallery-md
+    source_file: https://www.uffizi.it/en/artworks/bacchus
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-bacchus-uffizi.md
+  source_type: work
+  target: persons/francesco-maria-del-monte.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Bacchus的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-francesco-maria-del-monte-md
+    source_file: https://www.uffizi.it/en/artworks/bacchus
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1596
+  role: 委托人／委托机构
+  scope: 与《生病的巴克斯》及其他同题对象分开。
+- source: works/caravaggio-basket-of-fruit.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Basket of Fruit归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.ambrosiana.it/en/opere/basket-of-fruit/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 年代在研究中有1596至1601等不同判断，本卡不压成无争议精确年。
+- source: works/caravaggio-basket-of-fruit.md
+  source_type: work
+  target: institutions/pinacoteca-ambrosiana.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Basket of Fruit列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-pinacoteca-ambrosiana-md
+    source_file: https://www.ambrosiana.it/en/opere/basket-of-fruit/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-beheading-john-baptist.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Beheading of Saint John the Baptist归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。
+- source: works/caravaggio-beheading-john-baptist.md
+  source_type: work
+  target: places/st-johns-co-cathedral.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Beheading of Saint John the Baptist与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-st-johns-co-cathedral-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-beheading-john-baptist.md
+  source_type: work
+  target: places/st-johns-co-cathedral.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: The Beheading of Saint John the Baptist原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-st-johns-co-cathedral-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1608'
+  role: 原定安置地点
+  scope: 卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。
+- source: works/caravaggio-boy-bitten-lizard-london.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Boy Bitten by a Lizard (London version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 页面确认至少两件被认为真迹的版本；本卡只指NG6504。
+- source: works/caravaggio-boy-bitten-lizard-london.md
+  source_type: work
+  target: institutions/national-gallery-london.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Boy Bitten by a Lizard (London version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-national-gallery-london-md
+    source_file: https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-boy-peeling-fruit-royal.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Boy Peeling Fruit (Royal Collection version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.rct.uk/collection/402612/boy-peeling-fruit
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 同题存在多个复制或版本，本卡限定RCIN 402612。
+- source: works/caravaggio-boy-peeling-fruit-royal.md
+  source_type: work
+  target: institutions/royal-collection.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Boy Peeling Fruit (Royal Collection version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-royal-collection-md
+    source_file: https://www.rct.uk/collection/402612/boy-peeling-fruit
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-boy-with-basket-fruit.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Boy with a Basket of Fruit归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 早期所有权涉及切萨里藏品被教廷没收及博尔盖塞收藏形成；当前只建立有据端点。
+- source: works/caravaggio-boy-with-basket-fruit.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Boy with a Basket of Fruit列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-burial-saint-lucy.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Burial of Saint Lucy归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。
+- source: works/caravaggio-burial-saint-lucy.md
+  source_type: work
+  target: places/santa-lucia-al-sepolcro.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Burial of Saint Lucy与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-santa-lucia-al-sepolcro-md
+    source_file: https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-burial-saint-lucy.md
+  source_type: work
+  target: places/santa-lucia-al-sepolcro.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: The Burial of Saint Lucy原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-santa-lucia-al-sepolcro-md
+    source_file: https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1608'
+  role: 原定安置地点
+  scope: 当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。
+- source: works/caravaggio-calling-peter-andrew.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Calling of Saints Peter and Andrew归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 2006年经修复重新确认为卡拉瓦乔作品；与同题复制品分开。
+- source: works/caravaggio-calling-peter-andrew.md
+  source_type: work
+  target: institutions/royal-collection.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Calling of Saints Peter and Andrew列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-royal-collection-md
+    source_file: https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-calling-saint-matthew.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Calling of Saint Matthew归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: Wikidata的1609年项与作品史不合，本卡采用页面与礼拜堂资料的1599–1600。
+- source: works/caravaggio-calling-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Calling of Saint Matthew与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-calling-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: The Calling of Saint Matthew原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1599–1600
+  role: 原定安置地点
+  scope: Wikidata的1609年项与作品史不合，本卡采用页面与礼拜堂资料的1599–1600。
+- source: works/caravaggio-cardsharps-kimbell.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Cardsharps (Kimbell version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.kimbellart.org/collection/ap-198706
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 金贝尔对象与后来发现、归属曾诉讼的另一版本分开；本轮不为后者建立确定作者边。
+- source: works/caravaggio-cardsharps-kimbell.md
+  source_type: work
+  target: institutions/kimbell-art-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Cardsharps (Kimbell version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-kimbell-art-museum-md
+    source_file: https://www.kimbellart.org/collection/ap-198706
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-cardsharps-kimbell.md
+  source_type: work
+  target: persons/francesco-maria-del-monte.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有The Cardsharps (Kimbell version)；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-francesco-maria-del-monte-md
+    source_file: https://www.kimbellart.org/collection/ap-198706
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1590年代后期
+  role: 早期购藏者
+  scope: 金贝尔对象与后来发现、归属曾诉讼的另一版本分开；本轮不为后者建立确定作者边。
+- source: works/caravaggio-christ-mount-olives.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有Christ on the Mount of Olives；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-marchese-giustiniani-ch1-md
+    source_file: https://en.wikipedia.org/wiki/Christ_on_the_Mount_of_Olives_(Caravaggio)
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 17世纪至1812
+  role: 朱斯蒂尼亚尼收藏
+  scope: 朱斯蒂尼亚尼收藏记录支持对象同一性，但作者真实性有争议；不建立确定创作者边。
+- source: works/caravaggio-conversion-damascus-cerasi.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Conversion on the Way to Damascus归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 切拉西礼拜堂现存布面版本，与第一版及委托对象分开。
+- source: works/caravaggio-conversion-damascus-cerasi.md
+  source_type: work
+  target: places/cerasi-chapel.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Conversion on the Way to Damascus与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-cerasi-chapel-md
+    source_file: https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-conversion-damascus-cerasi.md
+  source_type: work
+  target: persons/tiberio-cerasi.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Conversion on the Way to Damascus的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-tiberio-cerasi-md
+    source_file: https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1601'
+  role: 委托人／委托机构
+  scope: 切拉西礼拜堂现存布面版本，与第一版及委托对象分开。
+- source: works/caravaggio-conversion-damascus-cerasi.md
+  source_type: work
+  target: places/cerasi-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Conversion on the Way to Damascus原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-cerasi-chapel-md
+    source_file: https://en.wikipedia.org/wiki/Conversion_on_the_Way_to_Damascus
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1601'
+  role: 原定安置地点
+  scope: 切拉西礼拜堂现存布面版本，与第一版及委托对象分开。
+- source: works/caravaggio-conversion-saint-paul-first.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Conversion of Saint Paul (first version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。
+- source: works/caravaggio-conversion-saint-paul-first.md
+  source_type: work
+  target: places/palazzo-chigi-odescalchi.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Conversion of Saint Paul (first version)与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-palazzo-chigi-odescalchi-md
+    source_file: https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存；奥德斯卡尔基家族收藏
+- source: works/caravaggio-conversion-saint-paul-first.md
+  source_type: work
+  target: persons/tiberio-cerasi.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Conversion of Saint Paul (first version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-tiberio-cerasi-md
+    source_file: https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1600–1601
+  role: 委托人／委托机构
+  scope: 柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。
+- source: works/caravaggio-conversion-saint-paul-first.md
+  source_type: work
+  target: families/odescalchi-family.md
+  target_type: family
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有The Conversion of Saint Paul (first version)；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-families-odescalchi-family-md
+    source_file: https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio)
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 现阶段
+  role: 家族收藏
+  scope: 柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。
+- source: works/caravaggio-crucifixion-saint-peter.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Crucifixion of Saint Peter归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 现存布面版本；与1600年合同委托对象卡分开。
+- source: works/caravaggio-crucifixion-saint-peter.md
+  source_type: work
+  target: places/cerasi-chapel.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Crucifixion of Saint Peter与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-cerasi-chapel-md
+    source_file: https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-crucifixion-saint-peter.md
+  source_type: work
+  target: persons/tiberio-cerasi.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Crucifixion of Saint Peter的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-tiberio-cerasi-md
+    source_file: https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1601'
+  role: 委托人／委托机构
+  scope: 现存布面版本；与1600年合同委托对象卡分开。
+- source: works/caravaggio-crucifixion-saint-peter.md
+  source_type: work
+  target: places/cerasi-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Crucifixion of Saint Peter原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-cerasi-chapel-md
+    source_file: https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1601'
+  role: 原定安置地点
+  scope: 现存布面版本；与1600年合同委托对象卡分开。
+- source: works/caravaggio-david-goliath-borghese.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将David with the Head of Goliath (Borghese version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 拟赠希皮奥内·博尔盖塞及赦免解释带推测，不登记为确定委托。
+- source: works/caravaggio-david-goliath-borghese.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将David with the Head of Goliath (Borghese version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-death-virgin.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Death of the Virgin归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。
+- source: works/caravaggio-death-virgin.md
+  source_type: work
+  target: institutions/louvre-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Death of the Virgin列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-louvre-museum-md
+    source_file: https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-death-virgin.md
+  source_type: work
+  target: persons/laerzio-cherubini.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Death of the Virgin的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-laerzio-cherubini-md
+    source_file: https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1601–1606
+  role: 委托人／委托机构
+  scope: 拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。
+- source: works/caravaggio-death-virgin.md
+  source_type: work
+  target: places/santa-maria-della-scala-rome.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Death of the Virgin原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-santa-maria-della-scala-rome-md
+    source_file: https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio)
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1601–1606
+  role: 原定安置地点
+  scope: 拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。
+- source: works/caravaggio-denial-saint-peter.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Denial of Saint Peter归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 晚期作品；当前馆号1997.167。
+- source: works/caravaggio-denial-saint-peter.md
+  source_type: work
+  target: institutions/metropolitan-museum-of-art.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Denial of Saint Peter列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-metropolitan-museum-of-art-md
+    source_file: https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-ecce-homo-madrid.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Ecce Homo (Madrid object)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 2021年撤拍后经研究修复；普拉多展示／保管不等于博物馆所有。
+- source: works/caravaggio-ecce-homo-madrid.md
+  source_type: work
+  target: institutions/museo-del-prado.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Ecce Homo (Madrid object)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-museo-del-prado-md
+    source_file: https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 私人所有；由普拉多研究并展示
+- source: works/caravaggio-entombment-christ.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Entombment of Christ归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref: &id001
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: true
+  review_status: auto_validated
+- source: works/caravaggio-fortune-teller-capitoline.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Fortune Teller (Capitoline first version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与卢浮宫第二版分开；两版年代均有争议。
+- source: works/caravaggio-fortune-teller-capitoline.md
+  source_type: work
+  target: institutions/capitoline-museums.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Fortune Teller (Capitoline first version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-capitoline-museums-md
+    source_file: https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-fortune-teller-louvre.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Fortune Teller (Louvre second version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://collections.louvre.fr/ark:/53355/cl010062329
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。
+- source: works/caravaggio-fortune-teller-louvre.md
+  source_type: work
+  target: institutions/louvre-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Fortune Teller (Louvre second version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-louvre-museum-md
+    source_file: https://collections.louvre.fr/ark:/53355/cl010062329
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-fortune-teller-louvre.md
+  source_type: work
+  target: works/caravaggio-fortune-teller-capitoline.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: variant-of-works-caravaggio-fortune-teller-capitoline-md
+    source_file: https://en.wikipedia.org/wiki/The_Fortune_Teller_(Caravaggio)
+    source_span: 本卡S2；版本段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 同题异版／复制关系
+  scope: 与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。
 - source: works/caravaggio-giustiniani-rejected-altarpiece.md
   source_type: work
   target: persons/caravaggio.md
@@ -1956,6 +3661,1791 @@
   time: 约1602后
   role: 退画购入者
   scope: 购入第一版；不是初始委托人
+- source: works/caravaggio-giustiniani-rejected-altarpiece.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: 第一版原为孔塔雷利礼拜堂祭坛而作，后被拒并由朱斯蒂尼亚尼购入。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-contarelli-chapel-md
+    source_file: https://id.smb.museum/object/870411
+    source_span: 对象说明全文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1602
+  role: 原定安置地点
+  scope: 第一版；未实际长期安置
+- source: works/caravaggio-giustiniani-rejected-altarpiece.md
+  source_type: work
+  target: institutions/gemaeldegalerie-berlin.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 1815年入柏林收藏，战后失踪并被馆方推测1945年毁失。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-gemaeldegalerie-berlin-md
+    source_file: https://id.smb.museum/object/870411
+    source_span: 对象说明全文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1815–1945
+  role: 历史保管机构
+  scope: 第一版；现已失踪／推测毁失
+- source: works/caravaggio-incredulity-thomas-ecclesiastical.md
+  source_type: work
+  target: works/caravaggio-incredulity-thomas-sanssouci.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: variant-of-works-caravaggio-incredulity-thomas-sanssouci-md
+    source_file: https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio)
+    source_span: 本卡S2；版本段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 同题异版／复制关系
+  scope: 卡拉瓦乔主页面列出该对象，但专页未给同粒度QID或完整对象记录，不建立确定创作者、委托或馆藏边。
+- source: works/caravaggio-incredulity-thomas-sanssouci.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Incredulity of Saint Thomas (Sanssouci version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与页面所称私人收藏“教会版本”分开。
+- source: works/caravaggio-incredulity-thomas-sanssouci.md
+  source_type: work
+  target: institutions/sanssouci-picture-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Incredulity of Saint Thomas (Sanssouci version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-sanssouci-picture-gallery-md
+    source_file: https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-incredulity-thomas-sanssouci.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Incredulity of Saint Thomas (Sanssouci version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-marchese-giustiniani-ch1-md
+    source_file: https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1601–1602
+  role: 委托人／委托机构
+  scope: 与页面所称私人收藏“教会版本”分开。
+- source: works/caravaggio-inspiration-saint-matthew.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Inspiration of Saint Matthew归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 作为祭坛替代版本，与第一版退画分开。
+- source: works/caravaggio-inspiration-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Inspiration of Saint Matthew与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-inspiration-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: The Inspiration of Saint Matthew原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1602'
+  role: 原定安置地点
+  scope: 作为祭坛替代版本，与第一版退画分开。
+- source: works/caravaggio-john-baptist-borghese.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Saint John the Baptist (Borghese version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与1602年卡比托利欧《施洗者约翰与公羊》及同系列其他对象分开。
+- source: works/caravaggio-john-baptist-borghese.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Saint John the Baptist (Borghese version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-john-baptist-ram-capitoline.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Young Saint John the Baptist with a Ram归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.museicapitolini.org/it/node/47105
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。
+- source: works/caravaggio-john-baptist-ram-capitoline.md
+  source_type: work
+  target: institutions/capitoline-museums.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Young Saint John the Baptist with a Ram列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-capitoline-museums-md
+    source_file: https://www.museicapitolini.org/it/node/47105
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-john-baptist-ram-capitoline.md
+  source_type: work
+  target: persons/ciriaco-mattei.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Young Saint John the Baptist with a Ram的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-ciriaco-mattei-md
+    source_file: https://www.museicapitolini.org/it/node/47105
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1602'
+  role: 委托人／委托机构
+  scope: 卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。
+- source: works/caravaggio-judith-barberini.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Judith Beheading Holofernes (Palazzo Barberini version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与2014年在图卢兹发现的争议对象分开。
+- source: works/caravaggio-judith-barberini.md
+  source_type: work
+  target: institutions/galleria-nazionale-arte-antica.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Judith Beheading Holofernes (Palazzo Barberini version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-nazionale-arte-antica-md
+    source_file: https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-judith-barberini.md
+  source_type: work
+  target: places/palazzo-barberini.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Judith Beheading Holofernes (Palazzo Barberini version)与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-palazzo-barberini-md
+    source_file: https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-judith-barberini.md
+  source_type: work
+  target: persons/ottavio-costa.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Judith Beheading Holofernes (Palazzo Barberini version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-ottavio-costa-md
+    source_file: https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1599–1602
+  role: 委托人／委托机构
+  scope: 与2014年在图卢兹发现的争议对象分开。
+- source: works/caravaggio-judith-toulouse.md
+  source_type: work
+  target: persons/j-tomilson-hill.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有Judith Beheading Holofernes (Toulouse object)；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-j-tomilson-hill-md
+    source_file: https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage_ou_Finson)
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2019-06-25起
+  role: 购藏者
+  scope: 可能归于卡拉瓦乔、路易·芬松或那不勒斯卡拉瓦乔圈；不建立确定创作者边。
+- source: works/caravaggio-lute-player-hermitage.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Lute Player (Hermitage version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://support.hermitagemuseum.org/en/projects/caravaggio
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。
+- source: works/caravaggio-lute-player-hermitage.md
+  source_type: work
+  target: institutions/hermitage-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Lute Player (Hermitage version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-hermitage-museum-md
+    source_file: https://support.hermitagemuseum.org/en/projects/caravaggio
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-lute-player-hermitage.md
+  source_type: work
+  target: persons/francesco-maria-del-monte.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有The Lute Player (Hermitage version)；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-francesco-maria-del-monte-md
+    source_file: https://support.hermitagemuseum.org/en/projects/caravaggio
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 早期，传统说法
+  role: 可能的原订制语境；未建确定委托边
+  scope: 系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。
+- source: works/caravaggio-madonna-loreto.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Madonna di Loreto归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。
+- source: works/caravaggio-madonna-loreto.md
+  source_type: work
+  target: places/sant-agostino-rome.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Madonna di Loreto与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-sant-agostino-rome-md
+    source_file: https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-madonna-loreto.md
+  source_type: work
+  target: persons/ermete-cavalletti.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Madonna di Loreto的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-ermete-cavalletti-md
+    source_file: https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1604–1606
+  role: 委托人／委托机构
+  scope: 按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。
+- source: works/caravaggio-madonna-loreto.md
+  source_type: work
+  target: places/sant-agostino-rome.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Madonna di Loreto原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-sant-agostino-rome-md
+    source_file: https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio)
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1604–1606
+  role: 原定安置地点
+  scope: 按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。
+- source: works/caravaggio-madonna-palafrenieri.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Madonna and Child with Saint Anne (Madonna dei Palafrenieri)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。
+- source: works/caravaggio-madonna-palafrenieri.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Madonna and Child with Saint Anne (Madonna dei Palafrenieri)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-madonna-palafrenieri.md
+  source_type: work
+  target: institutions/confraternity-santanna-palafrenieri.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Madonna and Child with Saint Anne (Madonna dei Palafrenieri)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-institutions-confraternity-santanna-palafrenieri-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1605–1606
+  role: 委托人／委托机构
+  scope: 原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。
+- source: works/caravaggio-madonna-palafrenieri.md
+  source_type: work
+  target: places/st-peters-basilica.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: Madonna and Child with Saint Anne (Madonna dei Palafrenieri)原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-st-peters-basilica-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1605–1606
+  role: 原定安置地点
+  scope: 原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。
+- source: works/caravaggio-madonna-rosary.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Madonna of the Rosary归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.khm.at/objektdb/detail/425/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与Burton所谓不明《St. Rosario》不合并。
+- source: works/caravaggio-madonna-rosary.md
+  source_type: work
+  target: institutions/kunsthistorisches-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Madonna of the Rosary列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-kunsthistorisches-museum-md
+    source_file: https://www.khm.at/objektdb/detail/425/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-martha-mary-magdalene.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Martha and Mary Magdalene归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 页面所述人物模特及寓意解释保留来源归属。
+- source: works/caravaggio-martha-mary-magdalene.md
+  source_type: work
+  target: institutions/detroit-institute-of-arts.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Martha and Mary Magdalene列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-detroit-institute-of-arts-md
+    source_file: https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-martyrdom-saint-matthew.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Martyrdom of Saint Matthew归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Matthew_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 孔塔雷利礼拜堂侧壁画；与祭坛两版《圣马太与天使》分开。
+- source: works/caravaggio-martyrdom-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将The Martyrdom of Saint Matthew与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Matthew_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-martyrdom-saint-matthew.md
+  source_type: work
+  target: places/contarelli-chapel.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: The Martyrdom of Saint Matthew原定用于该建筑或礼拜堂。
+  evidence: ''
+  evidence_ref:
+    doc_id: intended-for-places-contarelli-chapel-md
+    source_file: https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Matthew_(Caravaggio)
+    source_span: 本卡S2；有S4时并参原定安置段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1599–1600
+  role: 原定安置地点
+  scope: 孔塔雷利礼拜堂侧壁画；与祭坛两版《圣马太与天使》分开。
+- source: works/caravaggio-martyrdom-saint-ursula.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Martyrdom of Saint Ursula归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。
+- source: works/caravaggio-martyrdom-saint-ursula.md
+  source_type: work
+  target: institutions/gallerie-ditalia.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Martyrdom of Saint Ursula列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-gallerie-ditalia-md
+    source_file: https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-martyrdom-saint-ursula.md
+  source_type: work
+  target: persons/marcantonio-i-doria.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Martyrdom of Saint Ursula的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-marcantonio-i-doria-md
+    source_file: https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1610'
+  role: 委托人／委托机构
+  scope: 页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。
+- source: works/caravaggio-medusa-murtola.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Medusa Murtola归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Medusa_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。
+- source: works/caravaggio-medusa-murtola.md
+  source_type: work
+  target: works/caravaggio-medusa-uffizi.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: variant-of-works-caravaggio-medusa-uffizi-md
+    source_file: https://en.wikipedia.org/wiki/Medusa_(Caravaggio)
+    source_span: 本卡S2；版本段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 同题异版／复制关系
+  scope: 较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。
+- source: works/caravaggio-medusa-uffizi.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Medusa (Uffizi version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Medusa_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 绘于盾牌形载体；与较小的Murtola版本分开。
+- source: works/caravaggio-medusa-uffizi.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Medusa (Uffizi version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-uffizi-gallery-md
+    source_file: https://en.wikipedia.org/wiki/Medusa_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-musicians.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Musicians归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 卡片仅记录大都会艺术博物馆对象；页面所述复制及底层改绘不是另一件已识别原作。
+- source: works/caravaggio-musicians.md
+  source_type: work
+  target: institutions/metropolitan-museum-of-art.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Musicians列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-metropolitan-museum-of-art-md
+    source_file: https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-musicians.md
+  source_type: work
+  target: persons/francesco-maria-del-monte.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Musicians的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-francesco-maria-del-monte-md
+    source_file: https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1595
+  role: 委托人／委托机构
+  scope: 卡片仅记录大都会艺术博物馆对象；页面所述复制及底层改绘不是另一件已识别原作。
+- source: works/caravaggio-narcissus.md
+  source_type: work
+  target: institutions/galleria-nazionale-arte-antica.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Narcissus列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-nazionale-arte-antica-md
+    source_file: https://en.wikipedia.org/wiki/Narcissus_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存；卡拉瓦乔归属有争议
+- source: works/caravaggio-nativity-palermo.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Nativity with Saint Francis and Saint Lawrence归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 失窃前安置于巴勒莫圣洛伦佐祈祷堂；不把复制品或数字重建当原作。
+- source: works/caravaggio-nativity-palermo.md
+  source_type: work
+  target: places/oratory-san-lorenzo-palermo.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Nativity with Saint Francis and Saint Lawrence与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-oratory-san-lorenzo-palermo-md
+    source_file: https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 1969年失窃，去向不明
+- source: works/caravaggio-penitent-magdalene.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Penitent Magdalene归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 人物模特判断保留为研究归属，不自动建模为确定被表现者。
+- source: works/caravaggio-penitent-magdalene.md
+  source_type: work
+  target: institutions/galleria-doria-pamphilj.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Penitent Magdalene列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-doria-pamphilj-md
+    source_file: https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-portrait-fillide.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Portrait of Fillide Melandroni归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。
+- source: works/caravaggio-portrait-fillide.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: 来源支持该端点在所列时期收藏或拥有Portrait of Fillide Melandroni；不等于当前保管。
+  evidence: ''
+  evidence_ref:
+    doc_id: owned-by-persons-marchese-giustiniani-ch1-md
+    source_file: https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio)
+    source_span: 本卡S2；有S4时并参流传段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1638年前至1812
+  role: 朱斯蒂尼亚尼收藏
+  scope: 又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。
+- source: works/caravaggio-portrait-wignacourt.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Portrait of Alof de Wignacourt and his Page归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://collections.louvre.fr/ark:/53355/cl010062328
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 维尼亚库尔为被表现者；侍从身份未在本轮解决。
+- source: works/caravaggio-portrait-wignacourt.md
+  source_type: work
+  target: institutions/louvre-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Portrait of Alof de Wignacourt and his Page列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-louvre-museum-md
+    source_file: https://collections.louvre.fr/ark:/53355/cl010062328
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-raising-lazarus.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Raising of Lazarus归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。
+- source: works/caravaggio-raising-lazarus.md
+  source_type: work
+  target: institutions/regional-museum-messina.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Raising of Lazarus列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-regional-museum-messina-md
+    source_file: https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-raising-lazarus.md
+  source_type: work
+  target: persons/giovanni-battista-de-lazzari.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Raising of Lazarus的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-giovanni-battista-de-lazzari-md
+    source_file: https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio)
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1609'
+  role: 委托人／委托机构
+  scope: 为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。
+- source: works/caravaggio-rest-flight-egypt.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Rest on the Flight into Egypt归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 可能的委托人存在不同意见，不建立确定委托边。
+- source: works/caravaggio-rest-flight-egypt.md
+  source_type: work
+  target: institutions/galleria-doria-pamphilj.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Rest on the Flight into Egypt列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-doria-pamphilj-md
+    source_file: https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-sacrifice-isaac-princeton.md
+  source_type: work
+  target: works/caravaggio-sacrifice-isaac-uffizi.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: variant-of-works-caravaggio-sacrifice-isaac-uffizi-md
+    source_file: https://en.wikipedia.org/wiki/Sacrifice_of_Isaac_(Caravaggio)
+    source_span: 本卡S2；版本段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 同题异版／复制关系
+  scope: 2014年以Bartolomeo Cavarozzi作品出售；不建立确定的卡拉瓦乔创作者边。
+- source: works/caravaggio-sacrifice-isaac-uffizi.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Sacrifice of Isaac (Uffizi version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.uffizi.it/en/artworks/sacrifice-of-isaac
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 乌菲齐以付款证据支持卡拉瓦乔作者身份；与普林斯顿旧藏争议对象分开。
+- source: works/caravaggio-sacrifice-isaac-uffizi.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Sacrifice of Isaac (Uffizi version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-uffizi-gallery-md
+    source_file: https://www.uffizi.it/en/artworks/sacrifice-of-isaac
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-sacrifice-isaac-uffizi.md
+  source_type: work
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Sacrifice of Isaac (Uffizi version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-urbano-viii-md
+    source_file: https://www.uffizi.it/en/artworks/sacrifice-of-isaac
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1603
+  role: 委托人／委托机构
+  scope: 乌菲齐以付款证据支持卡拉瓦乔作者身份；与普林斯顿旧藏争议对象分开。
+- source: works/caravaggio-saint-catherine-alexandria.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Saint Catherine of Alexandria归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 本卡采用提森馆藏对象，不把可能的模特身份改写成作品创作者关系。
+- source: works/caravaggio-saint-catherine-alexandria.md
+  source_type: work
+  target: institutions/thyssen-bornemisza-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Saint Catherine of Alexandria列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-thyssen-bornemisza-museum-md
+    source_file: https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-saint-francis-ecstasy.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Saint Francis of Assisi in Ecstasy归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 页面称可能应德尔·蒙特要求而作，措辞不足以登记确定委托边。
+- source: works/caravaggio-saint-francis-ecstasy.md
+  source_type: work
+  target: institutions/wadsworth-atheneum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Saint Francis of Assisi in Ecstasy列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-wadsworth-atheneum-md
+    source_file: https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-saint-jerome-borghese.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Saint Jerome Writing (Borghese version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/saint-jerome
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与瓦莱塔版本分开；Q2715177只用于博尔盖塞对象。
+- source: works/caravaggio-saint-jerome-borghese.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Saint Jerome Writing (Borghese version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/saint-jerome
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-saint-jerome-borghese.md
+  source_type: work
+  target: persons/cardinal-borghese-ch1.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Saint Jerome Writing (Borghese version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-cardinal-borghese-ch1-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/saint-jerome
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1605–1606
+  role: 委托人／委托机构
+  scope: 与瓦莱塔版本分开；Q2715177只用于博尔盖塞对象。
+- source: works/caravaggio-saint-jerome-valletta.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Saint Jerome Writing (Valletta version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与博尔盖塞版本分开；保管机构与实际安置地点分别表达。
+- source: works/caravaggio-saint-jerome-valletta.md
+  source_type: work
+  target: institutions/heritage-malta.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Saint Jerome Writing (Valletta version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-heritage-malta-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-saint-jerome-valletta.md
+  source_type: work
+  target: places/st-johns-co-cathedral.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 来源将Saint Jerome Writing (Valletta version)与该实际或历史安置地点对应。
+  evidence: ''
+  evidence_ref:
+    doc_id: installed-at-places-st-johns-co-cathedral-md
+    source_file: https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/
+    source_span: 本卡S2；有S4时并参对象／地点说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 见作品字段
+  role: 安置地点
+  scope: 现存
+- source: works/caravaggio-salome-madrid.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Salome with the Head of John the Baptist (Madrid version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与伦敦版本及《施洗者圣约翰斩首》分开。
+- source: works/caravaggio-salome-madrid.md
+  source_type: work
+  target: institutions/royal-collections-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Salome with the Head of John the Baptist (Madrid version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-royal-collections-gallery-md
+    source_file: https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-seven-works-mercy.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Seven Works of Mercy归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 仍在委托机构建筑内；委托者、保管者和安置地点角色分开。
+- source: works/caravaggio-seven-works-mercy.md
+  source_type: work
+  target: institutions/pio-monte-della-misericordia.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Seven Works of Mercy列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-pio-monte-della-misericordia-md
+    source_file: https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-seven-works-mercy.md
+  source_type: work
+  target: places/pio-monte-della-misericordia-church.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 官方页面明确作品安置在仁慈山会教堂／礼拜堂的主祭坛；与委托和保管机构分开。
+  evidence: ''
+  evidence_ref:
+    doc_id: pio-monte-caravaggio-church
+    source_file: https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/
+    source_span: 本卡S4；作品仍在教堂／礼拜堂及主祭坛说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1606–1607起；现状见本轮官方页面
+  role: 教堂内主祭坛安置地点
+  scope: 具体建筑位置；不等同仁慈山会机构身份
+- source: works/caravaggio-seven-works-mercy.md
+  source_type: work
+  target: institutions/pio-monte-della-misericordia.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Seven Works of Mercy的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-institutions-pio-monte-della-misericordia-md
+    source_file: https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1606–1607
+  role: 委托人／委托机构
+  scope: 仍在委托机构建筑内；委托者、保管者和安置地点角色分开。
+- source: works/caravaggio-supper-emmaus-london.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Supper at Emmaus (London version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 与1606年米兰版本分开；本轮清单指伦敦NG172。
+- source: works/caravaggio-supper-emmaus-london.md
+  source_type: work
+  target: institutions/national-gallery-london.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Supper at Emmaus (London version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-national-gallery-london-md
+    source_file: https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-supper-emmaus-london.md
+  source_type: work
+  target: persons/ciriaco-mattei.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担Supper at Emmaus (London version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-ciriaco-mattei-md
+    source_file: https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1601'
+  role: 委托人／委托机构
+  scope: 与1606年米兰版本分开；本轮清单指伦敦NG172。
+- source: works/caravaggio-taking-christ-dublin.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将The Taking of Christ (Dublin version)归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: 爱尔兰国家美术馆长期借展；保管不等于产权。
+- source: works/caravaggio-taking-christ-dublin.md
+  source_type: work
+  target: institutions/national-gallery-of-ireland.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Taking of Christ (Dublin version)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-national-gallery-of-ireland-md
+    source_file: https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
+- source: works/caravaggio-taking-christ-dublin.md
+  source_type: work
+  target: persons/ciriaco-mattei.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 来源明确该端点承担The Taking of Christ (Dublin version)的委托角色；不由委托推定当前所有权。
+  evidence: ''
+  evidence_ref:
+    doc_id: commissioned-by-persons-ciriaco-mattei-md
+    source_file: https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0
+    source_span: 本卡S2；有S4时并参委托／历史段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1602'
+  role: 委托人／委托机构
+  scope: 爱尔兰国家美术馆长期借展；保管不等于产权。
+- source: works/caravaggio-taking-christ-odesa.md
+  source_type: work
+  target: institutions/odesa-museum-western-eastern-art.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将The Taking of Christ (Odesa copy)列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-odesa-museum-western-eastern-art-md
+    source_file: https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio)
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存复制品；作者未定
+- source: works/caravaggio-taking-christ-odesa.md
+  source_type: work
+  target: works/caravaggio-taking-christ-dublin.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏。
+  evidence: ''
+  evidence_ref:
+    doc_id: variant-of-works-caravaggio-taking-christ-dublin-md
+    source_file: https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio)
+    source_span: 本卡S2；版本段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 同题异版／复制关系
+  scope: 2008年被盗、2010年寻回；部分专家认为是同时代复制品，不建立卡拉瓦乔创作者边。
+- source: works/caravaggio-young-sick-bacchus.md
+  source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: 具体对象页将Young Sick Bacchus归于卡拉瓦乔；本边保留版本边界。
+  evidence: ''
+  evidence_ref:
+    doc_id: created-by-persons-caravaggio-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创作者
+  scope: “自画像”是常见解释，不能由题名反推完整医学诊断。
+- source: works/caravaggio-young-sick-bacchus.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: 当前对象记录将Young Sick Bacchus列由该机构保管；保管不自动等于产权。
+  evidence: ''
+  evidence_ref:
+    doc_id: held-by-institutions-galleria-borghese-md
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus/
+    source_span: 本卡S2；有S4时并参对象字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本轮来源访问时
+  role: 保管机构
+  scope: 现存
 - source: works/ferri-laparelli-altarpiece.md
   source_type: work
   target: persons/annibale-laparelli.md
@@ -3223,6 +6713,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/lanfranco-barberini-letter-1640.md
+  source_type: archive
+  target: persons/francesco-barberini.md
+  target_type: person
+  relation_type: addressed_to
+  inverse_relation_type: null
+  note: DBI明确1640年7月14日请愿书致主持圣彼得营造处会议的Francesco Barberini。
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-lanfranco
+    source_file: https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/
+    source_span: 本卡 S2；1640 petition paragraph
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1640-07-14'
+  role: 收信人／申请对象
+  scope: 圣彼得Saint Leo祭坛画委托申请；不表示实际授予委托
 - source: archives/lhoggidi-1627.md
   source_type: archive
   target: persons/abate-lancellotti.md
@@ -3780,6 +7290,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: procedures/artist-title-conferral.md
+  source_type: procedure
+  target: events/titian-honours-1533.md
+  target_type: event
+  relation_type: exemplified_by
+  inverse_relation_type: null
+  note: 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 799–804; print pp. 19
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1533'
+  role: 程序实例
+  scope: 只涵盖该次授衔，不代表所有荣衔遵循同一法定程序
 - source: events/accademia-tax-privilege-1633.md
   source_type: event
   target: institutions/accademia-di-san-luca.md
@@ -4071,3 +7601,17 @@
   time: '1533'
   role: 荣衔授予者
   scope: Count Palatine等荣衔；不采捡画笔逸事
+- source: persons/caravaggio.md
+  source_type: person
+  target: works/caravaggio-entombment-christ.md
+  target_type: work
+  relation_type: creator_of
+  inverse_relation_type: created_by
+  note: auto-inverse of created_by
+  evidence: ''
+  evidence_ref: *id001
+  claim_id: null
+  confidence: medium
+  relation_source: inferred_by_rule
+  bidirectional_required: true
+  review_status: auto_validated

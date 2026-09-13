@@ -3,7 +3,7 @@ title: "卡萨纳滕塞图书馆（Biblioteca Casanatense）"
 name_en: "Biblioteca Casanatense"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/rome.md","note":"书中明确图书馆位于 Rome。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 89–92; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 89–92; print pp. 4
+  original_quotes:
+  - source_span: "lines 89–92"
+    text: |2-
+      1 Ameyden, Relatione della città di Roma 1642-—MS. 5001 in Biblioteca Casanatense, Rome. Piety,
+      says the author, diminished under Urban VIII because of the excessive length of the papacy ‘non per colpa
+      alcuna del Prencipe, ma che la nascita del Pontificato elettivo, et ecclesiastico ricerca mutazione più spesso,
+      acciò molti possono godere de gli onori, e dignità ecclesiastiche, ricerche, c cariche della corte’.
 - citation: "Wikipedia (en), Biblioteca Casanatense, revision 1366883842. https://en.wikipedia.org/wiki/Biblioteca_Casanatense. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马 Casanatense 图书馆；馆与手稿分别登记。"
@@ -36,6 +43,7 @@ sources:
 - citation: "Art Bonus, Biblioteca Casanatense – Restauro materiale librario. Lotto 4. https://artbonus.gov.it/biblioteca-casanatense-restauro-materiale-librario.-lotto-4.html. Accessed 2026-09-10."
   location: "项目介绍与修复对象记录全文；HTTP 获取成功；网页版本／发布日期未标明"
   sentence_summary: "馆方修复项目列 MS.5001 为17世纪纸本《Relazione della città di Roma fatta nell'anno 1642》；项目记录不证明手稿正文已读或修复已完成。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-biblioteca-casanatense
 ---
 
 ## 内容
@@ -100,19 +108,7 @@ sources:
 | ← 所在地（`location_of`，反向投影） | [《罗马城记述》（1642）（Account of the City of Rome (1642)）](../archives/ameyden-relazione-1642.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；原断言与证据见发出端卡片“《罗马城记述》（1642）（Account of the City of Rome (1642)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 书中明确图书馆位于 Rome；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
 
-### 身份与关系导航
+### 身份与外部链接
 
-[Wikipedia：Biblioteca Casanatense](https://en.wikipedia.org/wiki/Biblioteca_Casanatense) ↔ [Wikidata：Q2901274](https://www.wikidata.org/wiki/Q2901274) 沿用 REV-034 双向核对；本轮已读英文全文修订 1366883842。VIAF 152447230 仅由 WD 取得，未直接核验。（S2–S5）
-
-| 正式关系 | 对象 | 证据 |
-|---|---|---|
-| located_at | [罗马](../places/rome.md) | S1；第一章 p.4，L89–92；保留文件头既有关系 |
-
-手稿与馆藏关系仍由手稿卡保存，馆方卡以反向投影显示；S8只补充机构信息，不另复制反向事实。
-
-### 未决与采用边界
-
-- MS.5001 已有官方项目记录支持号、题名与载体；作者归属仍以 Haskell 引文及作者识别为依据，项目条目未署作者。
-- S4 馆藏数量内部有不同统计值，本卡未用它们建立统一最新总量；S8 的保存状况是项目陈述时点，不称现在仍损坏或修复完成。
-- 建筑、藏品及制度沿革只补与机构理解有关的内容；不追求填满全部馆史。整卡保持 `source_backed`，关系未集中收口。
-- 来源 S1 的章、页、行与句子摘要保留在元数据。详见[补足过程证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，键 `institutions/biblioteca-casanatense`。
+- [Wikipedia：Biblioteca Casanatense](https://en.wikipedia.org/wiki/Biblioteca_Casanatense)
+- [Wikidata：Q2901274](https://www.wikidata.org/wiki/Q2901274)

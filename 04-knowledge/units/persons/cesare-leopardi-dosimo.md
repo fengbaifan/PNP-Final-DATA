@@ -3,7 +3,7 @@ title: "切萨雷·莱奥帕尔迪·多西莫（Don Cesare Leopardi d’Osimo）
 name_en: "Don Cesare Leopardi d’Osimo"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 509–510; print pp. 13
+  original_quotes:
+  - source_span: "lines 509–510"
+    text: |2-
+      2 ‘è solito che si paghi a tutti i pittori il telato, imprimitura, et oltremare ...’—letter from Berlingete
+      Gessi to Don Cesare Leopardi d’Osimo, dated io July 1647, published by Gualandi, I, p. 40. And again:
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-cesare-leopardi-dosimo
 ---
 
 ## 内容
@@ -27,13 +33,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Don Cesare Leopardi d’Osimo | S1；标题中的语境说明为登记用语 |
-| 通信角色 | 1647-07-10 Gessi 信的收信人；Don 称谓 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Don Cesare Leopardi d’Osimo | S1 |
+| 通信角色 | 1647-07-10 Gessi 信的收信人；Don 称谓 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮定向补足（REV-055，2026-09-11）
+### 补充信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -42,18 +45,7 @@ sources:
 | 身份标签 | 通信收件人 | 标签可并列；不据单一行为扩张职业身份 |
 | 已知活动时段与地点 | 1647-07-10 | 仅在现有证据范围内 |
 | 履历／本章活动 | 接收Berlingero Gessi关于画布、打底和群青成本惯例的信。 | 章内来源及本卡新增来源；具体支持范围见sources |
-| Wikipedia—Wikidata结果 | 英文与意大利语检索未获可确认人物页或QID；d’Osimo不能自行推成职务、籍贯或亲缘。 | 英文优先、意大利语及适用名形回退；检索过程见alignment-evidence.jsonl |
 | 生卒、国籍、亲缘、教育、完整职业履历 | 当前未获可归属于本人的可靠资料 | 已检索未解决；不表示该人物没有这些属性 |
-
-**处理结论：** 本轮已完成可用来源的身份消歧、角色和活动补足。未取得独立人物页或可双向确认QID的对象保持未配对；这是完成后的明确边界，不借相关作品、家族、收发信人或同名人物的QID。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章人物及定位保留；未取得可确认的 Wiki 配对。按称谓、通信对象、活动时期和原名变体继续查证，不以姓氏或爵号猜配全名。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -61,9 +53,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为收信人（`addressee_of`，反向投影） | [贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）](../archives/gessi-leopardi-letter-1647.md) | 书信收信人；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi；时间：1647-07-10；角色：收信人；范围：Berlingero Gessi书信；原断言与证据见发出端卡片“贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 509–510; print pp. 13 |
-
-S1：第一章；印刷页 13；OCR L509–510。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-
-
-**本轮补足结论（REV-055）：** 已完成定向身份检索与可证字段补足；仍缺的独立生平字段和QID已明确记录，不强制配对。具体关系仍以直接证据为准。

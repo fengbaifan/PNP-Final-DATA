@@ -3,7 +3,7 @@ title: "展览售画与自我宣传（Exhibiting paintings and self-promotion）
 name_en: "Exhibiting paintings and self-promotion"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 154–164; print pp. 6
+  original_quotes:
+  - source_span: "lines 154–164"
+    text: |2-
+      Within the general framework that has been outlined there was a wide range of
+      variation possible in the relationship between an artist and the client who employed
+      him. At one end of the scale the painter was lodged in his patron’s palace and worked
+      exclusively for him and his friends; at the other, we find a situation which appears, at
+      first sight, to be strikingly similar to that of today: the artist painted a picture with no
+      particular destination in mind and exhibited it in the hope of finding a casual purchaser.
+      In between these two extremes there were a number of gradations involving middle­
+      men, dealers and dilettantes as well as the activities of foreign travellers and their agents.
+      These intermediate stages became more and more important as the century progressed,
+      but artists usually disliked the freedom of working for unknown admirers, and with a
+      few notable exceptions exhibitions were assumed to be the last resort of the unemployed.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 15.'
   location: 第一章；印刷页 15；OCR L607–609
   sentence_summary: 画商与展览在交易中发挥作用。
@@ -20,6 +34,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 607–609; print pp. 15
+  original_quotes:
+  - source_span: "lines 607–609"
+    text: |2-
+      It was also as a direct result of the shifting social and political pattern of Roman life
+      in the seventeenth century that art dealing and art exhibitions began to acquire the
+      great importance that will be analysed in a later chapter.3
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 22.'
   location: 第一章；印刷页 22；OCR L917–926
   sentence_summary: Rosa 组织喝彩者扩大声誉，不等于单纯售卖。
@@ -27,9 +47,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 917–926; print pp. 22
+  original_quotes:
+  - source_span: "lines 917–926"
+    text: |2-
+      Many artists since his day have understood the part that dramatic self-advertisement
+      can play in winning recognition: in the still fairly closed world of seventeenth-century
+      patronage the effect was bound to be far more striking than anything seen since. There
+      can be no doubt at all that Salvator Rosa’s craving for publicity, which was demon­
+      strated at the slightest opportunity, was often only the outward, superficial manifestation
+      of a shrewd determination to break beyond the bounds of orthodox patronage. Again
+      and again we find him making use of exhibitions to establish his reputation and organis­
+      ing a claque to proclaim his merits to all and sundry—thus notably widening the circle
+      of appreciation within which most artists were quite prepared to hve. The exploitation
+      and projection of his personality served exactly the same purpose.
 - citation: "Kimbell Art Museum, “Pythagoras Emerging from the Underworld”, official collection entry on Google Arts & Culture. https://artsandculture.google.com/asset/pythagoras-emerging-from-the-underworld-salvator-rosa/KAE0KAf_Hw3gzA?hl=en. Accessed2026-09-11."
   location: "完整作品介绍、字段与流传记录；Kimbell馆方提供的内容，非Wikipedia"
   sentence_summary: "罗萨将1662年的作品与配对画展出，随后由Antonio Ruffo购入；流传表明确购入年1664。创作、展出和成交分别记录；不据馆方介绍证明哈斯克尔关于喝彩者的记述。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-procedures-exhibition-self-promotion
 ---
 
 ## 内容
@@ -70,11 +104,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 程序使用者（`procedure_used_by`，反向投影） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；原断言与证据见发出端卡片“萨尔瓦多·罗萨（Salvator Rosa）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 917–926; print pp. 22 |
-
-| 入口 | 知识元 | 状态 |
-|---|---|---|
-| 活动相关者 | [萨尔瓦托·罗萨](../persons/salvator-rosa.md) | S3、S4；个别事件和作品关系另判 |
-| 交易语境 | [画商](../terms/art-dealer.md) | S2；并非每场展览必经中介 |
-| 配对作品概念 | [成对绘画](../terms/pendant-pictures.md) | S4案例；不新增作品对象 |
-
-S1为第一章p.6、L154–164；S2为p.15、L607–609；S3为p.22、L917–926；S4为馆方外部记录。当前无正式关系，保留source_backed。[补足过程及来源](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键定位。

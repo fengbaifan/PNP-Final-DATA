@@ -3,7 +3,7 @@ title: "本韦努托·切利尼自传《生平》（The Life of Benvenuto Cellin
 name_en: "The Life of Benvenuto Cellini"
 type: archive
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/benvenuto-cellini.md","note":"本章明确引用 Cellini 的自传。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 634–635; print pp. 16"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,12 +15,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 634–635; print pp. 16
+  original_quotes:
+  - source_span: "lines 634–635"
+    text: |2-
+      them to tills strange behaviour.’1 We might be living in the pages of Benvenuto
+      Cellini’s autobiography; but the difficulties faced by a number of artists who failed to
 - citation: "Wikipedia (it), Vita (Benvenuto Cellini), revision 151158550. https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini). Accessed 2026-09-10."
   location: "全文；7175 字符；revision 151158550"
   sentence_summary: "全文说明该自传1558年至1566年11月间写作、很大部分口述，1728年由Antonio Cocchi首次刊印；原稿1805年重现于佛罗伦萨Biblioteca Medicea Laurenziana，并概述编辑史、内容目的和代表性版本。"
 - citation: "Wikidata, Q4014886, revision 2379066146. https://www.wikidata.org/wiki/Q4014886. Accessed 2026-09-10."
   location: "labels／descriptions／P31／适用身份字段及 itwiki sitelink；判断范围见正文"
   sentence_summary: "Q4014886与意大利语页面双向一致；采用有GND参考的作者Cellini、1728年出版时间、意大利语和自传体裁字段，未采用无来源或不适用字段。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-cellini-autobiography
 ---
 
 ## 内容
@@ -45,17 +51,6 @@ sources:
 | 内容与立场 | 以艺术家实现抱负和天才、作品制作及困难为核心，同时具有自我辩护目的；作者的取舍与个人好恶须作为叙述立场审读 | S2“Contenuti” |
 | 本章使用边界 | Haskell仅以自传叙事作论述参照，未列具体版本；本卡不把1728首刊自动当作Haskell所用本 | S1–S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过并完成全文补足。** [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) revision 151158550 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致。全文已读；Wikidata 仅接收带参考的作者、首次出版年份、语言与体裁，页面的编辑史和内容分析不冒充对 Haskell 所用版次的证明。
-
-[Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)) 的 wikibase_item 与 [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886) 的 itwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -63,8 +58,7 @@ sources:
 |---|---|---|
 | → 作者（`authored_by`） | [本韦努托·切利尼（Benvenuto Cellini）](../persons/benvenuto-cellini.md) | 本章明确引用 Cellini 的自传；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 634–635; print pp. 16 |
 
-S1：第一章；印刷页16；OCR L634–635。S2：Wikipedia（it）全文，revision 151158550，7175字符。S3：Wikidata Q4014886 revision 2379066146；所采P50、P577、P407、P136均带GND来源组。Wikimedia两者用于身份与通用书目信息，作为同一来源组，不计为两份独立事实证据。
+### 身份与外部链接
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** Wikipedia–Wikidata 双向身份核对、页面全文阅读和适用结构字段提取均已完成；补齐原题、作者、语言、体裁、写作期、首刊、手稿流转、早期翻译、内容立场与版本边界。未识别 Haskell 所用具体版本，因此只保留该项明确缺口。
+- [Wikipedia（it）](https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini))
+- [Wikidata Q4014886](https://www.wikidata.org/wiki/Q4014886)

@@ -3,7 +3,7 @@ title: "马蒂亚·普雷蒂（Mattia Preti）"
 name_en: "Mattia Preti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patronized_by","target":"persons/antonio-ruffo.md","note":"1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境。","evidence_ref":{"doc_id":"dbi-preti","source_file":"https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/","source_span":"本卡 S6；Messina与Ruffo段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1646–1649起","role":"作品进入其收藏并保持往来的画家","scope":"限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托"}
@@ -15,6 +15,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 523; print pp. 13
+  original_quotes:
+  - source_span: "lines 523–523"
+    text: |2-
+      6 See letters from Mattia Preti and Artemisia Gentileschi—Ruffo, pp. 239 and 48.
 - citation: "Wikipedia (en), Mattia Preti, revision 1365392526. https://en.wikipedia.org/wiki/Mattia_Preti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1613–1699 年在意大利与马耳他活动的画家，与章中报价通信语境相容。"
@@ -30,6 +34,7 @@ sources:
 - citation: "Rosanna De Gennaro, 'PRETI, Mattia, detto il Cavalier Calabrese,' Dizionario Biografico degli Italiani 85 (2016). https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文全读；书目阅读至用于本卡裁决的主要条目，未逐一通读所引原档与全部研究"
   sentence_summary: "支持家世、1632年起的罗马文献、骑士身份、那不勒斯与马耳他阶段、主要工程和1699年死亡；指出早年游历与训练的不确定性。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-mattia-preti
 ---
 
 ## 内容
@@ -93,15 +98,5 @@ Rosanna De Gennaro 的DBI词条已全文阅读；其书目所列文献、合同�
 
 ### 身份与外部链接
 
-[Wikipedia（en）Mattia Preti](https://en.wikipedia.org/wiki/Mattia_Preti) 与 [Wikidata Q468632](https://www.wikidata.org/wiki/Q468632) 的 sitelink 双向一致；姓名、生卒范围、Taverna出生、Valletta死亡及意大利—马耳他活动轨迹与第一章对象相符。S4为全文阅读，S5为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| 出生日期 | 采用2016年DBI的1613年2月25日；Wikipedia与Wikidata均给2月24日，保留冲突，不人为合并 |
-| 早年训练与游历 | 只有威尼斯得到墓志支持；博洛尼亚、巴黎、安特卫普、西班牙等旧传游历未获文献确认，Lanfranco师承也仅为可能 |
-| 定价书信 | 第一章未引原文；须回查 Ruffo 文献后才能登记收发双方、日期、报价和正式关系 |
-| 作品与弟子 | 目前仅列与生涯阶段有关的代表性工程，完整作品、工作室成员和归属争议仍需对象级来源 |
-
-来源序号S1–S6依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Mattia Preti](https://en.wikipedia.org/wiki/Mattia_Preti)
+- [Wikidata Q468632](https://www.wikidata.org/wiki/Q468632)

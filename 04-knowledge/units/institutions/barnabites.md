@@ -3,7 +3,7 @@ title: "巴尔纳伯会（Barnabites）"
 name_en: "Barnabites"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 125–130; print pp. 5
+  original_quotes:
+  - source_span: "lines 125–130"
+    text: |2-
+      There was, besides, one other way in which a noble could add to the splendour of
+      Rome and hope to find a suitable burying place for his family: he could build a complete
+      new church. The demand was enormous. New Orders had sprung up to meet the
+      threat of the Reformation—the Oratorians and the Jesuits, the Theatines, the Barnabites
+      and the Capuchins; and the various foreign communities in Rome, the Florentines, the
+      Lombards and many others, vied with each other in the erection of magnificent new
 - citation: "Wikipedia (en), Barnabites, revision 1296793176. https://en.wikipedia.org/wiki/Barnabites. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "十六世纪形成的天主教修会，类型及罗马教堂背景相容。"
@@ -34,6 +43,7 @@ sources:
 - citation: "Barnabiti, Chierici Regolari di San Paolo, detti Barnabiti. https://www.barnabiti.net/home/ . Accessed 2026-09-10."
   location: "搜索返回正文摘录；直接打开500，未声称全文"
   sentence_summary: "三位创始者与1533年批准；1535年7月的具体日期与其他会方网页不同，保留待核。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-barnabites
 ---
 
 ## 内容
@@ -97,14 +107,4 @@ Vota per quae（1533年批准简函）及后续会宪是制度核证对象；本
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 来源 | 章页／行数 | 句子摘要 |
-|---|---|---|
-| S1 | 第一章，印刷页5，OCR L125–130 | 巴尔纳伯会等新修会产生建堂需求；此概括不支持任一具体画作的付款或委托关系。 |
-
-章内同列的[戴蒂尼会（Theatines）](theatines.md)、[耶稣会（Jesuits）](jesuits.md)、[嘉布遣会（Capuchins）](capuchins.md)和[奥拉托利会（Oratorians）](oratorians.md)均为不同组织。这里是语境导航，不是它们彼此隶属或合作的证据。
-
-本卡原无正式关系，本轮未新增。已完成详细补足；1535年具体批准日、母院取得与入住、完整会宪和章内具体艺术委托仍保留待核。source_backed不变。
-
-[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/barnabites`。
+暂无正式关系。

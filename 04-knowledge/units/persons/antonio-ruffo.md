@@ -3,7 +3,7 @@ title: "安东尼奥·鲁福（Don Antonio Ruffo）"
 name_en: "Don Antonio Ruffo"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 569–570; print pp. 14
+  original_quotes:
+  - source_span: "lines 569–570"
+    text: |2-
+      9 Letter from Guercino to Don Antonio Ruffe, dated 25 September 1649, published by V. Rufifo,
+      P- 97-
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L757–758
   sentence_summary: Novetti 1670-03-22致Ruffo信抱怨难请Maratta。
@@ -20,6 +25,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 757–758; print pp. 18
+  original_quotes:
+  - source_span: "lines 757–758"
+    text: |2-
+      5 See letter from Francesco Novetti to Don Antonio Ruffo, dated 22 March 1670, published by V.
+      Russo, p. 290.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 22.'
   location: 第一章；印刷页 22；OCR L944–947
   sentence_summary: Rosa 1666-04-01致Ruffo信解释拒收预付。
@@ -27,6 +37,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 944–947; print pp. 22
+  original_quotes:
+  - source_span: "lines 944–947"
+    text: |2-
+      1 See the letter from Salvator Rosa to Don Antonio Ruffo, dated I April 1666, published by V.
+      Russo, p. 180: '. . . perch’io non dipingo per arrichire mà solamente per propria sodisfazione, è forza il
+      lasciarmi trasportare da gl’impeti dell’entusiasmo ed esercitare i pennelli solamente in quel tempo che me
+      ne sento violentato. . . .'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L971–980
   sentence_summary: de Rosis和Ferri致Ruffo的信分别涉及作品质量与自由；V. Ruffo为刊印材料者。
@@ -34,6 +51,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 971–980; print pp. 23
+  original_quotes:
+  - source_span: "lines 971–980"
+    text: |2-
+      1 Letter from Giuseppe de Rosis to Don. Antonio Ruffo, dated 22 September 1663, published by
+      V. Ruffo, p. 172.
+      2 Baldinucci, VI, 1728, p. 579.
+      3 Two other artists show some signs ofhaving rebelled against the generally prevailing circumstances
+      of art patronage. On 19 September 1672 Ciro Ferri wrote to Don Antonio Ruffo: ‘... è stato mio costume
+      non pigliare danaro anticipato e questa per stare in mia libertà . . .' but the effect of this is somewhat
+      modified by the phrase that follows, ‘tanto più sia detto a gloria di Dio, per la molteplicità degl’affari che
+      tengo . . .’ (Ruffo, p. 298). And of Benedetto Luti much later Pascoli wrote (I, p. 233): ‘Nè pur cercò
+      mai protezioni de' Grandi, e siccome egli andava poco da loro, essi di rado givan da lui. Diceva, che la
+      protezione dell’uomo dabbene esser doveva quella sola del bene oprare. . . .'
 - citation: "Wikipedia (en), Antonio Ruffo, revision 1358156305. https://en.wikipedia.org/wiki/Antonio_Ruffo. Accessed 2026-09-10."
   location: "导言身份段；REV-034初步对齐，非全文补足"
   sentence_summary: "十七世纪西西里贵族收藏家、画家通信收信人；与刊印材料的V. Ruffo区分。"
@@ -49,6 +79,7 @@ sources:
 - citation: "Maria Concetta Calabrese, 'RUFFO, Antonio,' Dizionario Biografico degli Italiani 89 (2017). https://www.treccani.it/enciclopedia/antonio-ruffo_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所列档案、182通信原文及全部研究"
   sentence_summary: "支持家世、婚姻、Scaletta亲王头衔、商业与政治活动、宫殿收藏、代理网络、艺术家范围和1678年Messina死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-antonio-ruffo
 ---
 
 ## 内容
@@ -117,16 +148,5 @@ Maria Concetta Calabrese的DBI词条及书目已全文阅读；所列档案清�
 
 ### 身份与外部链接
 
-[Wikipedia（en）Antonio Ruffo](https://en.wikipedia.org/wiki/Antonio_Ruffo) 与 [Wikidata Q88949215](https://www.wikidata.org/wiki/Q88949215) 的sitelink双向一致；1610年前后、1678年、Messina、收藏家与赞助人身份及艺术家通信网络与第一章对象吻合。S7为全文阅读，S8为属性级读取。
-
-### 争议与待补
-
-| 项目 | 当前处理／缺口 |
-|---|---|
-| Bagnara公爵头衔 | 英文Wikipedia信息框所列不采用；DBI明确是长兄Francesco继承Bagnara公爵，Antonio取得Scaletta亲王头衔 |
-| 出生 | DBI为“可能1610年、可能Messina”，Wikipedia为1610或1611且另说Bagnara城堡／Messina；保持约数与地点不确定 |
-| 死亡日 | DBI确认1678年Messina，Wikipedia给6月16日；未读其所引RKD原记录，精确日仍为次级来源值 |
-| 书信与藏品 | 尚未逐封转录182封通信，也未按清册建立完整藏品KU、现藏与流传关系 |
-| 后代 | 只确认长子Placido和家系继续；完整子女、继承、1783年地震后转移链仍待家族与清册来源 |
-
-来源序号S1–S9依文件头顺序；详细采集、字段裁决与当前内容指纹保存在03-processing的同一任务包。
+- [Wikipedia（en）Antonio Ruffo](https://en.wikipedia.org/wiki/Antonio_Ruffo)
+- [Wikidata Q88949215](https://www.wikidata.org/wiki/Q88949215)

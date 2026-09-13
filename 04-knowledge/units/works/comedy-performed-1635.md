@@ -4,7 +4,7 @@ name_en: "Unidentified comedy performed in 1635"
 type: work
 sub_type: dramatic_work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
@@ -14,6 +14,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 858–863,894–895; print pp. 21
+  original_quotes:
+  - source_span: "lines 858–863"
+    text: |2-
+      Gianandrea Carlone was accepted by the master of the Marchese Costaguti’s household
+      as a suitable husband for his sister—a situation which echoed the theme of a burlesque
+      comedy, performed in 1635, concerning a prince who wished to marry his daughter
+      to a painter.1
+      Alongside these examples of social climbing another idea was making headway.
+      At the time it sometimes seemed to conflict with the artist’s painful struggles to achieve
+  - source_span: "lines 894–895"
+    text: |2-
+      1 Pascoli, II, p. 193. This comedy, which I have unfortunately not been able to trace, is referred to
+      in another connection by G. Delogu, 1928, p. 40, note 9.
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-comedy-performed-1635
 ---
 
 ## 内容
@@ -28,13 +42,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Unidentified comedy performed in 1635 | S1；标题中的语境说明为登记用语 |
-| 情节与证据缺口 | 王侯希望女儿嫁给画家；剧本未寻得 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Unidentified comedy performed in 1635 | S1 |
+| 情节与证据缺口 | 王侯希望女儿嫁给画家；剧本未寻得 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮作品补足（REV-055，2026-09-11）
+### 作品信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -45,25 +56,8 @@ sources:
 | 创作地／原位置／现位置 | 演出地点未明 | 历史位置和现藏不互相覆盖 |
 | 类型、材质与尺寸 | 戏剧／演出文本；手稿、印本和版本均未定位 | 缺项不根据同类作品补推 |
 | 状态与语义边界 | 仅能确认Haskell转述的情节功能：王公希望女儿嫁给画家，用于说明画家社会地位；不得伪造剧名和作者。 | 委托、稿本、完成作品、归属和现藏分别判断 |
-| Wikipedia—Wikidata结果 | 以情节、年份、Pascoli和Delogu组合检索仍未定位作品本体；无适用QID。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
-
-**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-S1：第一章；印刷页 21；OCR L858–863,894–895。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-
-
-**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。
+暂无正式关系。

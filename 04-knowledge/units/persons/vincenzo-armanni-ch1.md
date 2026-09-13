@@ -3,7 +3,7 @@ title: "温琴佐·阿尔曼尼（Vincenzo Armanni）"
 name_en: "Vincenzo Armanni"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"advised","target":"persons/camillo-pamfili.md","note":"未注明日期的信就 Valmontone 别墅装饰提供建议。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 329–330; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"装饰建议提供者","scope":"未注明日期的Valmontone别墅装饰书信"}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 329–330; print pp. 9
+  original_quotes:
+  - source_span: "lines 329–330"
+    text: |2-
+      4 Montalto, p. 290. There is also an undated letter from a certain Vincenzo Armarmi (I, p. 215) to
+      Camillo Pamfili with suggestions for the decoration of his villa at Valmontone.
 - citation: "Umberto Coldagelli, ARMANNI, Vincenzo, Dizionario Biografico degli Italiani 4 (1962). https://www.treccani.it/enciclopedia/vincenzo-armanni_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "56行正文与书目全文阅读；保留纪年矛盾，非所引文献全部已读。"
   sentence_summary: "Gubbio学者、法学训练、Rossetti秘书、家族史和书信著述，1608-02-13至1684-11-01；未与画家Armanno混同。"
@@ -24,6 +29,7 @@ sources:
 - citation: "Wikidata Q87700122. https://www.wikidata.org/wiki/Q87700122. Accessed 2026-09-11."
   location: "读取候选labels、descriptions与全部sitelinks；没有Wikipedia站点链接，未按已配对实体导入属性。"
   sentence_summary: "姓名与法学／史学语境相符仍无Wiki双向配对；不等于画家Vincenzo Armanno。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-vincenzo-armanni-ch1
 ---
 
 ## 内容
@@ -86,8 +92,3 @@ sources:
 | ← 所著文献（`author_of`，反向投影） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](../archives/armanni-delle-lettere.md) | 本章所引 Armanni 信集，书目条目补全题名；原断言与证据见发出端卡片“阿尔曼尼《书信集》（Armanni's Collected Letters）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | ← 所著文献（`author_of`，反向投影） | [温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）](../archives/armanni-pamfili-letter-undated.md) | 书信署名者据原页确认为 Armanni；原断言与证据见发出端卡片“温琴佐·阿尔曼尼致卡米洛·潘菲利的装饰建议信（日期未明）（Letter from Vincenzo Armanni to Camillo Pamfili on Decoration (undated)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
 | → 向其建议（`advised`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 未注明日期的信就 Valmontone 别墅装饰提供建议；角色：装饰建议提供者；范围：未注明日期的Valmontone别墅装饰书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
-
-S1原章第9页L329–330；S2专业传记全文，S3原刊选读及所引信全文，S4候选WD。
-候选[Q87700122](https://www.wikidata.org/wiki/Q87700122)姓名和学术身份相符，但无Wikipedia sitelink，仍**未完成双重身份配对**。英文优先及意大利语回退未找到对应人物页；不采用Armanno画家页。此次依据直接文献补足身份，规范显示名去掉早期消歧括注，稳定路径保留。
-
-既有与[Camillo Pamfili](camillo-pamfili.md)的书信关联保留。谱系严谨性曾受质疑，作者辩护不等于其谱系全部已证。DBI将1698刊物列入生前出版与1684卒年冲突，未采用该判断。原档、全部谱系及具体家属仍有缺口。

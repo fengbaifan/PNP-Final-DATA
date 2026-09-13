@@ -3,10 +3,11 @@ title: "米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）"
 name_en: "Michelangelo Cerquozzi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"脚注明确 Cerquozzi 是学院会员。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 753–754; print pp. 18"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"collaborated_with","target":"persons/viviano-codazzi.md","note":"传记明确两人合作建筑场景，包含《马萨尼埃洛起义》相关对象；早期合作年代存在争议。","evidence_ref":{"doc_id":"dbi-cerquozzi","source_file":"https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/","source_span":"本卡 S7；Codazzi合作段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"罗马合作期；1647年前起点有争议","role":"人物画家／建筑景观画家","scope":"有据合作作品；不由合作推定共同政治立场或所有作品共同署名"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L753–754
@@ -15,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 753–754; print pp. 18
+  original_quotes:
+  - source_span: "lines 753–754"
+    text: |2-
+      1 Both Pieter van Laer and Cerquozzi (for whom see Chapter 5) were members—see the list pub­
+      lished by Hoogewerff, 1913, pp. 49-50.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L784–795,805–806
   sentence_summary: Passeri 对教育与谈吐的批评，注释定位到 Cerquozzi。
@@ -22,6 +28,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 784–795,805–806; print pp. 19
+  original_quotes:
+  - source_span: "lines 784–795"
+    text: |2-
+      business of keeping art respectable. ‘From such a lack of education’, writes Passeri,
+      ‘arise the absurdities which we find in some painters, who have some ability in their
+      art but who outside the practice of painting are dull, raw and uncivilised. They are
+      derided as tavole rase della plebe piu vile, incompetent at telling a story, with a bad
+      pronunciation, no good in serious conversation. They bring shame not only on them­
+      selves but on the whole profession—shame enough to make even the most half-witted
+      blush.’6 Ability to talk well and intelligently not only served to raise the status of art;
+      it also helped to attract powerful patrons, for this was certainly no age for the untutored
+      genius. We can see the artists of the day as they saw themselves by looking at their self
+      portraits. Serene, elegant, as the years go by increasingly bewigged, self-satisfied and
+      complacent, they gaze down at us, only rarely showing us the tools of their trade; more
+      keen to resemble their clients than to point to any singularity in themselves.
+  - source_span: "lines 805–806"
+    text: |2-
+      5 Pascoli, II, p. 202.
+      6 Of Michelangelo Cerquozzi—Passeri, p. 285.
 - citation: "Wikipedia (en), Michelangelo Cerquozzi, revision 1365391795. https://en.wikipedia.org/wiki/Michelangelo_Cerquozzi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1602–1660 年罗马风俗／战斗画家，区别 Michelangelo Buonarroti。"
@@ -37,6 +62,7 @@ sources:
 - citation: "Giuseppe Scavizzi, CERQUOZZI, Michelangelo, detto Michelangelo delle Battaglie, Dizionario Biografico degli Italiani 23 (1979). https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "出身师承前4500字符、末1600字符与书目开头、1660年遗嘱及补遗段选读"
   sentence_summary: "父母、生期、师承次序争议；3月29日是遗嘱，4月3日另有补遗，非3月29日死亡。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-michelangelo-cerquozzi
 ---
 
 ## 内容
@@ -85,11 +111,9 @@ Passeri的教育批评与Baldinucci描述的社交及收藏成功并置。Giusep
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 脚注明确 Cerquozzi 是学院会员；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
+| → 合作（`collaborated_with`） | [维维亚诺·科达齐（Viviano Codazzi）](viviano-codazzi.md) | 传记明确两人合作建筑场景，包含《马萨尼埃洛起义》相关对象；早期合作年代存在争议；时间：罗马合作期；1647年前起点有争议；角色：人物画家／建筑景观画家；范围：有据合作作品；不由合作推定共同政治立场或所有作品共同署名；证据：[来源](https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/)；dbi-cerquozzi；本卡 S7；Codazzi合作段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Michelangelo_Cerquozzi) ↔ [Wikidata Q979862](https://www.wikidata.org/wiki/Q979862)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-正式member_of → [圣路加学院](../institutions/accademia-di-san-luca.md)保留。与[范拉尔](../persons/pieter-van-laer.md)的风格联系不自动成为老师或画家帮成员关系。
-
-WP卒日内部3月29日／4月6日与DBI遗嘱／补遗记录须分开；出生两项preferred也不任取一项。WP部分社会史段引用Haskell，非独立互证。关于鲁莽或无教育的传记评价不转成无归责人格字段。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Michelangelo_Cerquozzi)
+- [Wikidata Q979862](https://www.wikidata.org/wiki/Q979862)

@@ -3,7 +3,7 @@ title: "耶稣会（Jesuits）"
 name_en: "Jesuits"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 125–130; print pp. 5
+  original_quotes:
+  - source_span: "lines 125–130"
+    text: |2-
+      There was, besides, one other way in which a noble could add to the splendour of
+      Rome and hope to find a suitable burying place for his family: he could build a complete
+      new church. The demand was enormous. New Orders had sprung up to meet the
+      threat of the Reformation—the Oratorians and the Jesuits, the Theatines, the Barnabites
+      and the Capuchins; and the various foreign communities in Rome, the Florentines, the
+      Lombards and many others, vied with each other in the erection of magnificent new
 - citation: "Wikipedia (en), Jesuits, revision 1373187889. https://en.wikipedia.org/wiki/Jesuits. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "耶稣会／Society of Jesus；不把 Gesù 建筑归为同一对象。"
@@ -37,6 +46,7 @@ sources:
 - citation: "Boston College, John J. Burns Library, Ratio Studiorum: Jesuit Education, 1540–1773, exhibition 1999; updated 2010-10-13. https://library.bc.edu/past/libraries/about/exhibits/burns/ratio.html. Accessed 2026-09-10."
   location: "展览页全文；教育计划沿革段"
   sentence_summary: "1581、1586年拟订过程；阿夸维瓦主持形成定本；区分1598年那不勒斯出版与1599年颁行。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-jesuits
 ---
 
 ## 内容
@@ -117,20 +127,7 @@ sources:
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [安德烈亚·波佐（Andrea Pozzo）](../persons/andrea-pozzo.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；原断言与证据见发出端卡片“安德烈亚·波佐（Andrea Pozzo）”：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；dbi-pozzo；本卡 S6；入会与誓愿段 |
 
-### 对齐与字段取舍
+### 身份与外部链接
 
-- [Wikipedia 英文页面](https://en.wikipedia.org/wiki/Jesuits) 的 wikibase_item 与 [Wikidata Q36380](https://www.wikidata.org/wiki/Q36380) 的 enwiki sitelink 双向一致；以修会身份核对，不与同名音乐团体、教堂、学院合并。
-- S5 的 P571 只有年份精度，不能把内部补零记成1月1日。P112 的 Q86039436 是 **Holy Companions** 集合，与依纳爵、沙勿略、法伯尔并列，不能当第四位个人或完整创始人清单。
-- P159 含 Q719794（Gesù 教堂）和 Q1515704（总会长职位）及地址；后者不是一栋总部建筑，不导入“总部＝总会长”。
-- S4 的传教史含无引注、价值判断和概括过强段落。不得据其导言将1759年以后政权驱逐一概写成“教会驱逐”；也不采用“1721年后中国所有耶稣会士均被驱逐”等未获可靠细化的全称断言。
-- 已读书目和现代统计不代表本章研究范围扩展。现任管理者及无明确时点的组织人数暂不录为本章历史属性。
-
-### 来源定位与关系交接
-
-S1：**第一章，印刷页5，OCR L125–130**；句意为新修会及教堂建设需求。S2–S3 保留初步对齐历史，S4–S9 是本次补足来源，编号依文件头 sources 顺序。
-
-本次接收[安德烈亚·波佐](../persons/andrea-pozzo.md)的会士身份，并在本卡显示反向投影。母堂、院校、其他会士、创始者与赞助者没有按名单批量成边；共现与正文链接仍不自动产生正式关系。
-
-**补足结果：** 已完成英维页面全文阅读及上述官方来源核对，写入名称、组织角色、工作领域、文本、历史沿革与关键边界；保留会宪批准年份、部分早期人员授铎、各地资产与项目赞助主体等具体缺口。整卡仍为 source_backed，未声明每个外部事实均独立验证。
-
-[补足证据与写回记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按 institutions/jesuits 定位；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)保留初步决定。
+- [Wikipedia 英文页面](https://en.wikipedia.org/wiki/Jesuits)
+- [Wikidata Q36380](https://www.wikidata.org/wiki/Q36380)

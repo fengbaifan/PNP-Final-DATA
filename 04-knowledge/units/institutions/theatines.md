@@ -3,7 +3,7 @@ title: "戴蒂尼会（Theatines）"
 name_en: "Theatines"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 125–130; print pp. 5
+  original_quotes:
+  - source_span: "lines 125–130"
+    text: |2-
+      There was, besides, one other way in which a noble could add to the splendour of
+      Rome and hope to find a suitable burying place for his family: he could build a complete
+      new church. The demand was enormous. New Orders had sprung up to meet the
+      threat of the Reformation—the Oratorians and the Jesuits, the Theatines, the Barnabites
+      and the Capuchins; and the various foreign communities in Rome, the Florentines, the
+      Lombards and many others, vied with each other in the erection of magnificent new
 - citation: "Wikipedia (en), Theatines, revision 1363081357. https://en.wikipedia.org/wiki/Theatines. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "天主教戴蒂尼修会；与所属教堂建筑分开。"
@@ -34,6 +43,7 @@ sources:
 - citation: "Paul VI, minor-basilica grant, 1965-12-20, Spanish text hosted by Sant'Andrea della Valle. https://santandrea.teatinos.org/es/bienvenida/titulo-basilica-menor/. Accessed 2026-09-10."
   location: "宗座文书西语译文全文及末尾日期；未核拉丁原刊"
   sentence_summary: "文书日期1965-12-20，修正S7概述1966；不改变十七世纪对象身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-theatines
 ---
 
 ## 内容
@@ -92,16 +102,4 @@ WP有关“不持有财产”的概括，不能直接转为所有时期无基础
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 来源 | 章页／行数 | 句子摘要 |
-|---|---|---|
-| S1 | 第一章，印刷页5，OCR L125–130 | 新修会带来教堂建设需求，不能仅依此断言该会出资于某一幅画。 |
-
-相关知识元：[圣安德烈亚德拉瓦莱教堂（Sant’Andrea della Valle）](../places/sant-andrea-della-valle.md)（S7明确关联）；[罗马（Rome）](../places/rome.md)（创建及总会院所在地）；[圣彼得大殿（St Peter’s Basilica）](../places/st-peters-basilica.md)（S4首次发愿地点）；[威尼斯（Venice）](../places/venice.md)（S4避难地）。
-
-本次集中审查未接收新的正式关系：相关建筑产权、付款主体及人员阶段尚缺同粒度证据。完整人员履历及初期负责人／后期总会长制度细节仍需专门史料；source_backed不变。
-
-[过程](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `institutions/theatines`。
-
-**补证修正（REV-052）：** 本次接续核读建筑官方专门文书后，将小圣殿称号日期从S7概述的1966修正为1965-12-20（S8）。S7原出处及初次取舍保留在过程记录；本卡仍计一个已详细补足对象。
+暂无正式关系。

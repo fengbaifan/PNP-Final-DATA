@@ -4,7 +4,7 @@ name_en: "Contract Terms for Mola and Pamfili's Valmontone Project (1657)"
 type: archive
 sub_type: commission_terms
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/mola-four-elements-valmontone.md","note":"Valmontone 工程的材料分担条款；不宣称取得整份合同原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–319,505–506,514–519; print pp. 9,13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,9 +16,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 505–506,514–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 505–506"
+    text: |2-
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+  - source_span: "lines 514–519"
+    text: |2-
+      3 In 1633 Camassei agreed in his contract with Urban Vili (see p. io, note 1) to pay himself sor ‘tela
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "复用人物卡已有全文阅读，本次定向回读Valmontone合同方案、付款与诉讼段；重新保存原页正文。"
   sentence_summary: "1300scudi合同方案未获签署；1658年底已绘若干部分；未完成Aurora由Cozza奉命毁去；诉讼至1664。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-mola-pamfili-contract-1657
 ---
 
 ## 内容
@@ -55,7 +69,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 所涉对象（`has_subject`） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | Valmontone 工程的材料分担条款；不宣称取得整份合同原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–319,505–506,514–519; print pp. 9,13 |
-
-仍无独立Wikipedia—Wikidata配对。S1第一章第13页L505–506、514–519；S2本次定向回读Mola专业传记的方案、工作及诉讼段。原有工程主题关系保留；[四元素方案](../works/mola-four-elements-valmontone.md)与建筑、具体实物分开。
-
-原合同、诉讼文书及付款账簿未读；不能把方案总额当实付，也不能从分期数推断每期日期。来源中不确定材料词形保留待核，未开展第六章。

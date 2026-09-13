@@ -3,7 +3,7 @@ title: "贝内代托·卢蒂（Benedetto Luti）"
 name_en: "Benedetto Luti"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1694年4月12日当选圣路加学院成员。","evidence_ref":{"doc_id":"dbi-luti","source_file":"https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/","source_span":"本卡 S7；1694年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 278; print pp. 8
+  original_quotes:
+  - source_span: "lines 278–278"
+    text: |2-
+      1 See later, p. 22 ff., for Salvator Rosa and p. 23 note 3 for Benedetto Luti. Paolo Girolamo Piola
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 23.'
   location: 第一章；印刷页 23；OCR L978–980
   sentence_summary: Pascoli 说其认为良好工作是正直者的保护；局部类似 Rosa 而非追随关系。
@@ -22,6 +26,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 978–980; print pp. 23
+  original_quotes:
+  - source_span: "lines 978–980"
+    text: |2-
+      tengo . . .’ (Ruffo, p. 298). And of Benedetto Luti much later Pascoli wrote (I, p. 233): ‘Nè pur cercò
+      mai protezioni de' Grandi, e siccome egli andava poco da loro, essi di rado givan da lui. Diceva, che la
+      protezione dell’uomo dabbene esser doveva quella sola del bene oprare. . . .'
 - citation: "Wikipedia (en), Benedetto Luti, revision 1365387077. https://en.wikipedia.org/wiki/Benedetto_Luti. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1666–1724 年意大利画家，与 Pascoli 传记语境相容。"
@@ -37,6 +47,7 @@ sources:
 - citation: "Alessandro Serafini, LUTI, Benedetto, Dizionario Biografico degli Italiani 66 (2006). https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "正文前8500字符及末2300字符、书目前1500字符选读"
   sentence_summary: "亲缘、训练、赴罗马、具体委托、入会、教学和遗嘱；竞赛年代有异文。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-benedetto-luti
 ---
 
 ## 内容
@@ -94,10 +105,7 @@ Pascoli关于重视作品与少求保护的判断是第一章引文；Richardson
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1694年4月12日当选圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/)；dbi-luti；本卡 S7；1694年入会段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Benedetto_Luti) ↔ [Wikidata Q816847](https://www.wikidata.org/wiki/Q816847)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-尚无本卡发出的正式边；[Pascoli](../persons/pascoli.md)为相关知识元导航，关系须依证据另审。原文与[罗萨](../persons/salvator-rosa.md)的局部相似不是师生关系。
-
-WD生卒日均normal、日精度，与DBI相合；地点及师承中的维基来源不算独立互证。WP“1720在学院获骑士衔”与Prince任职应区分。DBI所称1691 Clementino比赛与官方学院竞赛沿革及别处1692记录有差异，本卡暂不新增该比赛事实。作品总数、完整藏品及全部学生不作穷尽承诺。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Benedetto_Luti)
+- [Wikidata Q816847](https://www.wikidata.org/wiki/Q816847)

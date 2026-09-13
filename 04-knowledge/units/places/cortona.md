@@ -3,7 +3,7 @@ title: "科尔托纳（Cortona）"
 name_en: "Cortona"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 217–220; print pp. 7
+  original_quotes:
+  - source_span: "lines 217–220"
+    text: |2-
+      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+      Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+      heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L507–508
   sentence_summary: Ferri 为 Laparelli 制作祭坛画的地点。
@@ -20,6 +27,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 507–508; print pp. 13
+  original_quotes:
+  - source_span: "lines 507–508"
+    text: |2-
+      who was given 50 scudi as caparra and promised 180 more on completion of an altarpiece in Cortona for
+      Annibale Laparclli (Gualandi, IV, p. 117).
 - citation: "Wikipedia (en), Cortona, revision 1370060359. https://en.wikipedia.org/wiki/Cortona. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "托斯卡纳 Cortona 城镇；不是画家别名。"
@@ -35,6 +47,7 @@ sources:
 - citation: "Gabriele Taddei, «7 gennaio 1411: 60.000 fiorini e Cortona è fiorentina», Portale Storia di Firenze, Università degli Studi di Firenze. https://www.storiadifirenze.org/?p=4162. Accessed 2026-09-11."
   location: "全文及文末两项研究书目已读；不等于已读转让原文书。"
   sentence_summary: "1411-01-07，Ladislao向佛罗伦萨共和国转让城市及contado，金额60000金弗罗林；不是英语百科所写直接卖给美第奇家族。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-cortona
 ---
 
 ## 内容
@@ -70,10 +83,6 @@ sources:
 - 费里为Laparelli作祭坛画的地点为Cortona；不凭城市名认定具体教堂或现藏地。[S2]
 - Palazzo Casali又称Palazzo Pretorio，为MAEC所在；学院始于1727。建筑、博物馆和收藏不能互换身份。[S5]
 
-### 身份对齐
-
-复用双向身份核对：[Wikipedia英文页](https://en.wikipedia.org/wiki/Cortona) ↔ [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080)。本轮全文阅读英文页revision1370060359及相关WD字段。
-
 ## 关系与证据
 
 ### 关系记录
@@ -81,6 +90,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 来源明确工程在 Cortona，具体教堂不明；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
 
-尚无正式关系；正文人物链接仅导航。sources依次S1–S7；第一章第7页L217–220、第13页L507–508定位保留。
+### 身份与外部链接
 
-**冲突与未决：** WP把1411受让人写作Medici，依据S7专业历史研究采用佛罗伦萨共和国。WP山城约600米与WD494米不作同一测量点竞争值。诺亚建城传说、可疑建筑先后说法及百科画家出生年未采入此城市卡。新外部历史、地理来源不证明本章祭坛画的具体归属。
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Cortona)
+- [Wikidata Q52080](https://www.wikidata.org/wiki/Q52080)

@@ -3,7 +3,7 @@ title: "弗朗切斯科·特雷维萨尼（Francesco Trevisani）"
 name_en: "Francesco Trevisani"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1697年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-trevisani","source_file":"https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/","source_span":"本卡 S6；1697年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 220–221,235–237; print pp. 7
+  original_quotes:
+  - source_span: "lines 220–221"
+    text: |2-
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a
+  - source_span: "lines 235–237"
+    text: |2-
+      5 ibid., p. 374.
+      6 See unpublished life of Trevisani by Pascoli in Biblioteca Augusta, Perugia, MS. 1383 and Battisti,
+      1953-
 - citation: "Wikipedia (en), Francesco Trevisani, revision 1365386923. https://en.wikipedia.org/wiki/Francesco_Trevisani. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1656–1746 年意大利画家，罗马活动时代与 Ottoboni 赞助语境相容。"
@@ -34,6 +44,7 @@ sources:
 - citation: "Flavia Matitti, OTTOBONI, Pietro, DBI 79 (2013). https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文23998字符，含宫廷／赞助、任职、死亡与书目"
   sentence_summary: "Trevisani1705正式进入家户不覆盖已知1698居住，早期为Ottoboni作画不等于正式家户资格。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-francesco-trevisani
 ---
 
 ## 内容
@@ -102,7 +113,8 @@ sources:
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1697年入会段 |
 | → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1712年入会段 |
 | ← 受其赞助／保护（`patronized_by`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](pietro-ottoboni.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 220–223; print pp. 7 |
-- 相关知识元：[彼得罗·奥托博尼](pietro-ottoboni.md)、[帕斯科利](pascoli.md)、[未刊传记MS1383](../archives/pascoli-trevisani-life-ms1383.md)、[威尼斯](../places/venice.md)。正文入口不自动生成新边；本卡尚无正式出边。
-- 身份：[Wikipedia英文全文](https://en.wikipedia.org/wiki/Francesco_Trevisani) ↔ [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875)。Getty500005125仅为WD所列且无引，本轮未核原站。
-- S1的第一章第7页L220–221、235–237及摘要保留；S2–S3旧对齐，S4–S7本轮补足。仅使用第一章对象及外部传记，第六章文本未纳入测试。
-- 未决：迁居证词原件、兄弟谱系、肖像年代、Pascoli原稿与具体服务条款。DBI与WP对Bolsena／Cleopatra画作日期不同，未统一成确定年；学院和作品事实仍须各据其来源。整卡仍为source_backed。
+
+### 身份与外部链接
+
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Francesco_Trevisani)
+- [Wikidata Q963875](https://www.wikidata.org/wiki/Q963875)

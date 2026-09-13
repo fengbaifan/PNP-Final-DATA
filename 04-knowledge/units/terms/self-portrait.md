@@ -3,7 +3,7 @@ title: "自画像（Self-portrait）"
 name_en: "Self-portrait"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 791–795; print pp. 19
+  original_quotes:
+  - source_span: "lines 791–795"
+    text: |2-
+      it also helped to attract powerful patrons, for this was certainly no age for the untutored
+      genius. We can see the artists of the day as they saw themselves by looking at their self
+      portraits. Serene, elegant, as the years go by increasingly bewigged, self-satisfied and
+      complacent, they gaze down at us, only rarely showing us the tools of their trade; more
+      keen to resemble their clients than to point to any singularity in themselves.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 22.'
   location: 第一章；印刷页 22；OCR L911–914
   sentence_summary: Rosa 不同自我形象参与职业身份论述，未由本次逐幅核图。
@@ -20,6 +28,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 911–914; print pp. 22
+  original_quotes:
+  - source_span: "lines 911–914"
+    text: |2-
+      lais contemporaries by the extravagance of his behaviour and thus create, almost single­
+      handed, the image of the artist as a being apart. It is an image that finds concrete
+      expression in his many self portraits so utterly at variance with the-smooth features of
+      his fellow-artists. But Salvator Rosa did far more than that. He was quite clearly a man
 - citation: "Wikipedia (en), Self-portrait, revision 1373389998. https://en.wikipedia.org/wiki/Self-portrait. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "艺术家自我表现的肖像类型；不是任何一幅具体自画像。"
@@ -35,6 +50,7 @@ sources:
 - citation: "National Gallery, Salvator Rosa, Philosophy, NG4680. https://www.nationalgallery.org.uk/paintings/salvator-rosa-philosophy. Accessed 2026-09-11."
   location: "Overview、In-depth、Key facts、Provenance及Bibliography网页文字已读"
   sentence_summary: "馆方将旧称自画像重释为哲学拟人像，旧识别据背面较晚题字；c1645、Niccolini委托，不能仅据WP图注确认为自画像。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-self-portrait
 ---
 
 ## 内容
@@ -70,8 +86,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia：Self-portrait](https://en.wikipedia.org/wiki/Self-portrait) ↔ [Q192110](https://www.wikidata.org/wiki/Q192110)为概念配对。全文52158字符包括图注、分类和书目已读；馆方NG4680说明、字段、来源沿革及书目已读。
+### 身份与外部链接
 
-S1–S2的章页／行号与句意摘要保留。暂无正式关系；[历史画](history-painting.md)与自画像可在同一作品中交叠，本文导航不自动生成题材边。source_backed不变。
+- [Wikipedia：Self-portrait](https://en.wikipedia.org/wiki/Self-portrait)
+- [Q192110](https://www.wikidata.org/wiki/Q192110)

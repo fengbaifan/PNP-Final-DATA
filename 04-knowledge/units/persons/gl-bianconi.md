@@ -3,7 +3,7 @@ title: "乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）"
 name_en: "Giovanni Ludovico Bianconi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 896–898; print pp. 21
+  original_quotes:
+  - source_span: "lines 896–898"
+    text: |2-
+      2 See, apart from many more familiar examples, a letter from G. L. Bianconi of22 November 1762
+      published in Bottari, VII, p. 362: ‘Pare che taluno s’imagini, che sia impossibile il dipingere eccellentemente
+      senza avere un fondo di pazzia, e di vizi singolari. . . .’
 - citation: "Wikipedia (en), Giovanni Ludovico Bianconi, revision 1342641608. https://en.wikipedia.org/wiki/Giovanni_Ludovico_Bianconi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Q5563896 为 Giovanni Ludovico Bianconi（1717–1781），姓名缩写、年代和学术通信背景相容；尚未追到 1762-11-22 具体信的归属链，仅保留候选。"
@@ -28,6 +34,7 @@ sources:
 - citation: 'Giovanni Gaetano Bottari, ed. Stefano Ticozzi, Raccolta di lettere sulla pittura, scultura ed architettura, vol. VII (Milan: Giovanni Silvestri, 1822), letter X, pp. 357–362. Internet Archive. https://archive.org/details/diletteresulla07bott. Accessed 2026-09-11.'
   location: '卷 VII，第 X 信，pp. 357–362；阅读全文影像转写'
   sentence_summary: '刊本文本确认发信人、收信人、德累斯顿署地、1762-11-22日期及批评艺术家恶习传闻的完整语境。'
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gl-bianconi
 ---
 
 ## 内容
@@ -42,20 +49,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Giovanni Ludovico Bianconi | S1；标题中的语境说明为登记用语 |
-| 通信线索 | 1762-11-22；收信人未列 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Giovanni Ludovico Bianconi | S1 |
+| 通信线索 | 1762-11-22；收信人未列 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** Giovanni Ludovico Bianconi（1717–1781）是博洛尼亚医生、古物学者和艺术著述者，后在Dresden及Rome活动；已由1762刊本书信标题、收信人和署地日期解除原候选状态。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Giovanni Ludovico Bianconi（en）；revision 1342641608；3954字符 | 全文覆盖：Biography、Works、Writings、Notes、Bibliography、External links |
-| Wikidata身份 | [Q5563896](https://www.wikidata.org/wiki/Q5563896)；与enwiki标题双向一致 | revision 2515925055；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1717-09-30 | Wikidata P569；有参考 |
 | 去世日期 | 1781-01-01 | Wikidata P570；有参考 |
@@ -66,12 +68,6 @@ sources:
 | 任职机构 | 博洛尼亞大學 | Wikidata P108；未列参考 |
 | 成员身份 | 柏林－布蘭登堡科學院和人文學院 | Wikidata P463；未列参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过并解除缩写。** 刊本文本署名 Gian Lodovico Bianconi，收信人为 Marchese Filippo Hercolani，署地 Dresden，日期为1762-11-22；这些特征与 Giovanni Ludovico Bianconi、Wikipedia 和 Wikidata Q5563896 相互吻合。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -79,8 +75,6 @@ sources:
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
 
-S1：第一章；印刷页 21；OCR L896–898。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q5563896](https://www.wikidata.org/wiki/Q5563896)

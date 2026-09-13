@@ -3,7 +3,7 @@ title: "萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman
 name_en: "Sacchi’s modello for a Roman Capuchin church altarpiece"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/andrea-sacchi.md","note":"脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 467–468; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,6 +17,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 466–468; print pp. 12
+  original_quotes:
+  - source_span: "lines 466–468"
+    text: |2-
+      and now in the Pinacoteca Vaticana—No. 820, formerly 539 m. A number of modelli by Andrea Sacelli
+      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
 - citation: "Gabriele Finaldi and Michael Kitson, Discovering the Italian Baroque: The Denis Mahon Collection (London, 1997), cat.70, p.148. https://www.sirdenismahonfoundation.com/wp-content/uploads/2021/10/DISCOVERING_THE_ITALIAN_BAROQUE_LOW.pdf. Accessed 2026-09-11."
   location: "所读为搜索返回的70号作品条目文字，含Colnaghi1961 no.2及版本辨析；PDF提取为空，未据此声称阅过页面图像或全书"
   sentence_summary: "题名、110.7×76.2厘米及Colnaghi1961 no.2支持对应；条目将旧称modello判断为缩小复制品，并将原祭坛画委托归年长Antonio。"
@@ -26,6 +32,7 @@ sources:
 - citation: "Wikidata, Q27974949, revision 2511605939. https://www.wikidata.org/wiki/Q27974949. Accessed 2026-09-11."
   location: "候选实体完整抓取；P170、P217、P195、P571限定、尺寸与sitelinks"
   sentence_summary: "作者Q495008、馆号NG2854、尺寸与馆方对应；sitelinks为空，英文标签误用Anthony Abbot而别名为Anthony of Padua，未升级为双重身份配对。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-sacchi-capuchin-altarpiece-modello
 ---
 
 ## 内容
@@ -73,7 +80,3 @@ sources:
 | → 创作者（`created_by`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 | → 由其收藏／拥有（`owned_by`） | [丹尼斯·马洪（Denis Mahon）](../persons/denis-mahon.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 | → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-- 既有正式关系：[创作者萨基](../persons/andrea-sacchi.md)、[收藏者Denis Mahon](../persons/denis-mahon.md)、[Colnaghi](../institutions/colnaghi.md)，3条元数据边本轮保留。created_by的旧note仍反映本章“modello”措辞，关系集中处理时补充当前版本限定。
-- 外部对象入口：[苏格兰国家美术馆NG2854](https://www.nationalgalleries.org/art-and-artists/44597)、[1997图录](https://www.sirdenismahonfoundation.com/wp-content/uploads/2021/10/DISCOVERING_THE_ITALIAN_BAROQUE_LOW.pdf)、[WD候选](https://www.wikidata.org/wiki/Q27974949)。
-- S1保留第一章第12页L466–468及摘要；S2是后期图录已读的对象条目文字，非PDF全书阅读；S3为官方对象页，S4为候选字段。PDF自动提取为空不计阅读，未目视分析原画。
-- 未决：Wikipedia配对、1961原图录页面、原委托人与更早产权、小幅版本形成过程。对象对应和版本解释分开保存，整卡仍为source_backed。

@@ -3,7 +3,7 @@ title: "乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）"
 name_en: "Giovanni Gaspare Baldoino"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,12 +13,18 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 188–189; print pp. 6
+  original_quotes:
+  - source_span: "lines 188–189"
+    text: |2-
+      4 The appointment of Gio. Gasparo Baldoini ‘per nostro pittore’ by Cardinal Maurizio di Savoia—
+      Baudi di Vesme, 1932, p. 23.
 - citation: "Luc Thevenon, “Décor et mobilier des cathédrales de Provence orientale aux XVIIe et XVIIIe siècles”, Provence historique, fasc. 259 (2016). https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf. Accessed 2026-09-11."
   location: "印刷页31–32及注30–33；PDF页7–8（索引从0起）；另读题页与摘要，非全文论文阅读"
   sentence_summary: "Giovanni-Gaspare Baldoino／Baudoin，尼斯约1590–1669，父Gio-Ludovico，子Bernardin；1622起可追踪活动，1640起受Maurice de Savoie保护，兼从事绘画和工程。该年不等于任命文书签署年。"
 - citation: "Franca Varallo, “L’abile costruzione di sé: arte e cerimonie durante la reggenza di Cristina di Francia, duchessa di Savoia e prima Madama Reale”, Librosdelacorte.es 28 (2024), DOI 10.15366/ldc2024.16.28.013. https://iris.unito.it/retrieve/b0d07de8-8e46-4064-8e96-b4e99802be0f/2024_Varallo_Abile%20costruzione%20di%20s%C3%A9_Cristina%20di%20Savoia.pdf. Accessed 2026-09-11."
   location: "印刷页368–370、379注24；PDF页1–3、12；只读所列页"
   sentence_summary: "1644年和解寓意版画由Giovenale Boetto依Giovanni Gaspare Baldoino设计制作，现藏都灵王家图书馆U.II.85/2；另记毛里齐奥婚礼为1642-09-29，Sospello。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gio-gasparo-baldoini
 ---
 
 ## 内容
@@ -76,13 +82,3 @@ sources:
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
 | ← 由其任命（`appointed_by`，反向投影） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](maurizio-di-savoia.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；原断言与证据见发出端卡片“毛里齐奥·迪·萨伏依（Maurizio di Savoia）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
-
-| 关联角色 | 知识元入口 | 依据／状态 |
-|---|---|---|
-| 保护人与任用者 | [毛里齐奥·迪·萨伏依](maurizio-di-savoia.md) | S1、S2；本卡尚无新增正式边 |
-| 任用记录 | [家户画家任命文字](../archives/baldoini-painter-appointment.md) | S1；记录卡已有指向本人的关联 |
-| 称谓 | [本府画家](../terms/nostro-pittore.md) | S1；术语链接不自动等于任职边 |
-
-S1保留第一章p.6、OCR L188–189；S2、S3编号对应文件头来源，外部定位与句意摘要分别保存。[补足采集与采用记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按本卡稳定键定位。
-
-未决：任命原件的日期、签署人措辞、档号及正式职务范围；人物Wiki配对。已有内容稿已保存，整卡仍为source_backed。

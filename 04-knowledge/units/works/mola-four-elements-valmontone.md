@@ -3,7 +3,7 @@ title: "莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elem
 name_en: "Mola’s Four Elements fresco programme at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/pamfili-country-house-valmontone.md","note":"四元素装饰所处的建筑，与作品已有城市层级定位并存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -18,6 +18,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
+  original_quotes:
+  - source_span: "lines 312–319"
+    text: |2-
+      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+      Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+      standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+      a commentary so that he could pick suitable myths for representation. Basing himself
+      on these books and on friendly conversations, he then chose to depict the Element of
+      Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+      the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
+      apparition of Iris to Turnus.’4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L505–506,516–519
   sentence_summary: 同一 Mola／Pamfili 工程的付款及 1657 年材料责任。
@@ -25,12 +36,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 505–506,516–519; print pp. 13
+  original_quotes:
+  - source_span: "lines 505–506"
+    text: |2-
+      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
+  - source_span: "lines 516–519"
+    text: |2-
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+      agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+      pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
 - citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "复用人物卡已有全文阅读，本次定向回读Valmontone合同方案、付款与诉讼段；重新保存原页正文。"
   sentence_summary: "1300scudi合同方案未获签署；1658年底已绘若干部分；未完成Aurora由Cozza奉命毁去；诉讼至1664。"
 - citation: "Museo di Palazzo Doria Pamphilj, Il Museo di Palazzo Doria Pamphilj. https://www.palazzodoriapamphiljvalmontone.it/il-museo-di-palazzo-doria-pamphilj/. Accessed 2026-09-11."
   location: "7614字符正文全文已读，含考古、建筑、各房间装饰与图注；不等于实地或影像鉴定。"
   sentence_summary: "1651购入、1654建新宫、约1670完成；Molli及1666起Del Grande；現存空气厅Preti1661，Mola现存America和Africa两室1658–59。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-mola-four-elements-valmontone
 ---
 
 ## 内容
@@ -76,7 +99,3 @@ sources:
 | → 创作者（`created_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 本章明确将四元素装饰项目归于 Mola；不引入第六章毁损叙述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
 | → 由其委托（`commissioned_by`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | Pamfili 别墅工程，相关付款与材料分担脚注支持委托关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319,505–519; print pp. 9,13 |
 | → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](../places/valmontone.md) | 地点为 Valmontone 的乡间宅邸；限书中工程语境；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
-
-尚无此项目的Wikipedia—Wikidata确认配对。S1第一章第9页L312–319；S2第13页L505–506、516–519；S3–S4为外证。本次维持创作者、委托人与地点关系；`created_by`只指此方案，绝不表示现存全宫壁画均为Mola所作。
-
-方案文献、原稿和诉讼档案未全读。史料称已绘与现存保存分别表达；未在本轮使用第六章，也未据装饰题材开启知识涌现。

@@ -3,7 +3,7 @@ title: "卢多维科·卢多维西（Ludovico Ludovisi）"
 name_en: "Ludovico Ludovisi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"appointer_of","target":"persons/domenichino.md","note":"1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 79–83; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1621","role":"Vatican architect任命者","scope":"教皇侄辈Ludovico作出的任命"}
@@ -15,6 +15,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 79–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 79–83"
+    text: |2-
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: "Wikipedia (en), Ludovico Ludovisi, revision 1357701182. https://en.wikipedia.org/wiki/Ludovico_Ludovisi. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1595–1632 年枢机及收藏者，区别后来成为 Gregory XV 的 Alessandro Ludovisi。"
@@ -33,6 +41,7 @@ sources:
 - citation: "Roma Capitale, Palazzo di Montecitorio, Turismo Roma. https://www.turismoroma.it/it/node/1403. Accessed 2026-09-10."
   location: "官方页面检索摘要：1653 年起建与委托背景；本轮未声称阅读全文"
   sentence_summary: "Montecitorio 始于 1653 年 Innocent X 为 Ludovisi 家族的委托，不能归给 1632 年已逝的本枢机。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-ludovico-ludovisi
 ---
 
 ## 内容
@@ -112,12 +121,7 @@ sources:
 |---|---|---|
 | → 任命者（`appointer_of`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
 
-### 身份与入口
+### 身份与外部链接
 
-[Wikidata Q707750](https://www.wikidata.org/wiki/Q707750) ↔ [英文 Wikipedia：Ludovico Ludovisi](https://en.wikipedia.org/wiki/Ludovico_Ludovisi)，双向配对已完成。本轮阅读全文 S4；VIAF **66485493** 为 S5 的标识，尚未直接核验。
-
-### 补足范围与未决
-
-首轮详细内容已保存，整卡仍为 source_backed。保留生日日差、Camerlengo 起日及有关年份异文；未将传记中的法律、教廷行政头衔直接等同现代职位。作品实物、原始付款与完整收藏清单尚未核验。S4 原文的 Montecitorio 项目归属已排除；原始文本保留在过程证据中。
-
-[对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+- [Wikidata Q707750](https://www.wikidata.org/wiki/Q707750)
+- [英文 Wikipedia：Ludovico Ludovisi](https://en.wikipedia.org/wiki/Ludovico_Ludovisi)

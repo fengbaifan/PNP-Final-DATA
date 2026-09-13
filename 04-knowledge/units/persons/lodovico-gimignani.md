@@ -3,7 +3,7 @@ title: "洛多维科·吉米尼亚尼（Lodovico Gimignani）"
 name_en: "Lodovico Gimignani"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patronized_by","target":"persons/cardinal-rospigliosi-gimignani.md","note":"Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 186–187; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"获资助赴威尼斯学习的画家","scope":"枢机全名仍未展开"}
@@ -16,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 18.'
   location: 第一章；印刷页 18；OCR L743–744
   sentence_summary: 传记描述衣着、礼仪与贵族交往。
@@ -23,6 +28,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 743–744; print pp. 18
+  original_quotes:
+  - source_span: "lines 743–744"
+    text: |2-
+      stocked larder, and arranged for his family always to be well dressed. Lodovico Gimignani ‘treated himself in a gentlemanly way; he was well dressed with fine linen and a
+      wig; well spoken with enviable manners and got on best with the nobility’. Giammaria
 - citation: "Wikipedia (en), Ludovico Gimignani, revision 1365392570. https://en.wikipedia.org/wiki/Ludovico_Gimignani. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Lodovico／Ludovico Gimignani，1643–1697 年画家；不是其父 Giacinto。"
@@ -44,6 +54,7 @@ sources:
 - citation: "Francesco Petrucci, Il “Martirio di San Lorenzo”. Presso il Museo Francescano di Roma. Un capolavoro sconosciuto di Ludovico Gimignani. Palazzo Chigi, Ariccia, 11 June 2021 (signed 6 June 2021). https://www.palazzochigiariccia.it/__trashed/. Accessed 2026-09-11."
   location: "文章全文；旅行背景段及注3"
   sentence_summary: "明确Giulio Rospigliosi推动Gimignani赴Parma、Venice学习，并据Russo1990将旅行改为1665而非1668；同行列Guglielmo Cortese和Giovanni Bonati。Russo原论文未读，不能当独立原档证明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-lodovico-gimignani
 ---
 
 ## 内容
@@ -119,10 +130,7 @@ Zeri关于Gaulli作为Bernini绘画观念传播中介、Fischer Pace关于父亲
 | → 受其赞助／保护（`patronized_by`） | [朱利奥·罗斯皮廖西（Giulio Rospigliosi）](cardinal-rospigliosi-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 | → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | 赴 Venice 学习的赞助旅行事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
-**S1：第一章p6，L186–187，Rospigliosi资助赴Venice。S2：p18，L743–744，衣着、礼仪及贵族交往的传记描述。** 不能据两处引述推断每位交往者都是赞助人。
+### 身份与外部链接
 
-保留两条既有关系：[本章Rospigliosi枢机](cardinal-rospigliosi-gimignani.md)及[资助学习旅行](../procedures/patron-funded-study-travel.md)。S9馆方研究已明确该次旅行的推动者为Giulio Rospigliosi，与书内索引一致；现确认对应后来教皇Clement IX。Iacopo和Felice仍是不同人物。旧关系记录尚待补足结束后的集中复核，本轮只更新身份及事实字段。
-
-[Wikipedia](https://en.wikipedia.org/wiki/Ludovico_Gimignani)与[Wikidata Q3839112](https://www.wikidata.org/wiki/Q3839112)维持双向配对。S3–S4初步身份，S5–S9本轮补足。WP所称Alexander VII任命Quirinal画廊管理职，尚未取得任命资料与可靠时点，暂不列已确认履历。
-
-详细内容稿已保存；父子作品、学院年、旅行日期／同行者与家庭资料仍待核，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按persons/lodovico-gimignani定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Ludovico_Gimignani)
+- [Wikidata Q3839112](https://www.wikidata.org/wiki/Q3839112)

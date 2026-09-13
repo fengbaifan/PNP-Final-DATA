@@ -3,7 +3,7 @@ title: "圣母大殿（Santa Maria Maggiore）"
 name_en: "Santa Maria Maggiore"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 120–124; print pp. 5
+  original_quotes:
+  - source_span: "lines 120–124"
+    text: |2-
+      antiquity. A titular church was, by definition, one that had been handed down from
+      cardinal to cardinal through the centuries; and in general the Popes and their families,
+      perhaps to refute the charge of being nouveaux-riches, chose to be buried in the most
+      ancient and venerable of basilicas such as S. Maria Maggiore and S. Maria sopra
+      Minerva.
 - citation: "Wikipedia (en), Santa Maria Maggiore, revision 1373074238. https://en.wikipedia.org/wiki/Santa_Maria_Maggiore. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马圣母大殿；不是其他城镇的同名教堂。"
@@ -40,6 +48,7 @@ sources:
 - citation: "Papal Basilica of Saint Mary Major, History, Art and Spirituality; The façade – the visiting card of the Basilica. https://www.basilicasantamariamaggiore.va/en/basilica/storia-e-arte.html ; https://www.basilicasantamariamaggiore.va/en/polo-museale/mosaico-della-facciata.html . Accessed 2026-09-10."
   location: "两页正文、图注全文；未递归读取其他子页"
   sentence_summary: "埃斯奎利诺山的位置、降雪和圣像作者的传统叙事；Rusuti镶嵌画的署名、分期争议及后世修复。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-santa-maria-maggiore
 ---
 
 ## 内容
@@ -105,22 +114,4 @@ Wikipedia书目列Rhoda Eitel-Porter关于建筑装饰协作的研究、Richard 
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-### 章内定位
-
-| 来源 | 定位 | 句子摘要 |
-|---|---|---|
-| S1 | 第一章，印刷页5，OCR L120–124 | 哈斯克尔讨论教皇与亲族的安葬、旧大殿和新教堂之间的选择，并提到圣母大殿。此处不独立证明所有内部工程及其付款人。 |
-
-### 相关知识元
-
-- [罗马（Rome）](rome.md)：所在地依据S4、S5、S10。
-- [西克斯图斯五世（Sixtus V）](../persons/sixtus-v.md)：礼拜堂委托与墓碑依据S7。
-- [保罗五世（Paul V）](../persons/paul-v.md)：保琳礼拜堂计划依据S8。
-
-本次集中审查未接收本卡的新关系；建筑归属、赞助、设计及安葬各有不同主体和时期，现有证据不足以用一个泛化谓词合并。
-
-**补足结果与未决项：** 已完成名称、地点、分期建筑、主要章内相关礼拜堂与作品的详细补足。早期奠基、十八世纪各施工节点、全部产权变化及各作品完整目录仍需针对性史料；没有把这些缺口写成已完成。证据状态保持source_backed。
-
-[过程与裁决](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-052连续补足与关系推进)；[外部证据记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)，稳定键 `places/santa-maria-maggiore`。
+暂无正式关系。

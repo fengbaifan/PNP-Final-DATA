@@ -1,0 +1,55 @@
+---
+title: 卢浮宫博物馆（Louvre Museum）
+name_en: Louvre Museum
+type: institution
+created: '2026-09-13'
+updated: 2026-09-14
+evidence_status: source_backed
+relations: []
+sources:
+- citation: Wikipedia (en), Caravaggio, revision 1372526492. https://en.wikipedia.org/wiki/Caravaggio. Accessed 2026-09-11.
+  location: 与本端点有关的作品、人物或关系段；全文已保存于REV-052
+  sentence_summary: 当前保管关系与历史法国王室所有权不混同。
+- citation: Wikipedia (en), Louvre. https://en.wikipedia.org/wiki/Louvre. Accessed 2026-09-13.
+  location: 正文全文已保存于REV-068；本轮定向读取身份、类型及当前作品链字段
+  sentence_summary: 核对Louvre Museum的身份、类型及本轮关系角色。
+- citation: Wikidata, Q19675. https://www.wikidata.org/wiki/Q19675. Accessed 2026-09-13.
+  location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
+  sentence_summary: 用于Louvre Museum的同粒度身份核对；QID不验证本卡全部事实。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-louvre-museum
+---
+
+## 内容
+
+### 描述
+
+**中文：** 卢浮宫博物馆是法国国家博物馆。当前保管关系与历史法国王室所有权不混同。
+
+**English:** The Louvre Museum is a French national museum; its present custodial role is distinguished from historical ownership by the French Crown.
+
+### 名称与机构信息
+
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 规范名 | 卢浮宫博物馆／Louvre Museum | S1–S3（如有） |
+| 机构性质 | 法国国家博物馆 | S2–S3；无独立页面时据S1限定 |
+| 所在地／服务范围 | 巴黎，法国 | S2–S3 |
+| 本轮职能 | 当前保管关系与历史法国王室所有权不混同。 | S1 |
+
+### 收藏、管理与使用边界
+
+作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
+
+## 关系与证据
+
+### 关系记录
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | 当前对象记录将Death of the Virgin列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；held-by-institutions-louvre-museum-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《算命者》（卢浮宫第二版）（The Fortune Teller (Louvre second version)）](../works/caravaggio-fortune-teller-louvre.md) | 当前对象记录将The Fortune Teller (Louvre second version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《算命者》（卢浮宫第二版）（The Fortune Teller (Louvre second version)）”：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；held-by-institutions-louvre-museum-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《阿洛夫·德·维尼亚库尔与侍从肖像》（Portrait of Alof de Wignacourt and his Page）](../works/caravaggio-portrait-wignacourt.md) | 当前对象记录将Portrait of Alof de Wignacourt and his Page列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《阿洛夫·德·维尼亚库尔与侍从肖像》（Portrait of Alof de Wignacourt and his Page）”：[来源](https://collections.louvre.fr/ark:/53355/cl010062328)；held-by-institutions-louvre-museum-md；本卡S2；有S4时并参对象字段 |
+
+### 身份与外部链接
+
+- [Wikipedia：Louvre](https://en.wikipedia.org/wiki/Louvre)
+- [Wikidata Q19675](https://www.wikidata.org/wiki/Q19675)

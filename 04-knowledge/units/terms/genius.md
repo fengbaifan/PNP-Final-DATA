@@ -3,7 +3,7 @@ title: "天才观（Genius）"
 name_en: "Genius"
 type: term
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -13,6 +13,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 650–654; print pp. 16
+  original_quotes:
+  - source_span: "lines 650–654"
+    text: |2-
+      decfine in status. Art was no longer self-sufficient, as it had been in the days of Leo X.
+      Platonism, which had played such a part in exalting the rôle of the creator, no longer
+      dominated philosophical speculation. In a more utilitarian society the artist won a
+      securer place, but lost some of his mystique. Not until the eighteenth century was the
+      cult of the ‘genius’ to be revived. Meanwhile he had many reasons to be satisfied with
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19, 20.'
   location: 第一章；印刷页 19, 20；OCR L791–795,811–818
   sentence_summary: 社会身份的自画像概括与不获承认者并存。
@@ -20,6 +28,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 791–795,811–818; print pp. 19, 20
+  original_quotes:
+  - source_span: "lines 791–795"
+    text: |2-
+      it also helped to attract powerful patrons, for this was certainly no age for the untutored
+      genius. We can see the artists of the day as they saw themselves by looking at their self
+      portraits. Serene, elegant, as the years go by increasingly bewigged, self-satisfied and
+      complacent, they gaze down at us, only rarely showing us the tools of their trade; more
+      keen to resemble their clients than to point to any singularity in themselves.
+  - source_span: "lines 811–818"
+    text: |2-
+      So much anxiety to appear respectable and prosperous was all the more natural in
+      view of the squalor that always threatened the lower ranks of painters. We know of
+      large numbers living in destitution,1 and it is easy enough to imagine their lives, working
+      for unscrupulous dealers at endless, mass-produced devotional pictures and occasionally
+      showing their work at some religious festival. Roman patrons were extraordinarily
+      quick to encourage new artists, and just because of this, the situation of those outside
+      the ranks of accepted painters must have been desperately bleak. There was as yet no
+      legend of the ‘undiscovered genius’ to sustain them in their misery.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L862–893
   sentence_summary: 特殊气质与职业尊严并行，观念不在各时期完全相同。
@@ -27,6 +53,41 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 862–893; print pp. 21
+  original_quotes:
+  - source_span: "lines 862–893"
+    text: |2-
+      Alongside these examples of social climbing another idea was making headway.
+      At the time it sometimes seemed to conflict with the artist’s painful struggles to achieve
+      recognition, but eventually it was to be infinitely more successful in attaining exactly
+      the same object. This was the acceptance of the painter as an exceptional, and sometimes
+      very strange, being. We find proof of this in the diminishing tendency in Rome—
+      though not in other towns—for it to be taken for granted that they would transmit their
+      talent to their children. Family ability became increasingly the sign of the craftsman
+      rather than of the artist. Though there were very notable exceptions to this—Bernini,
+      the son of a famous sculptor who made some use of his brother as an assistant, is the
+      most eminent example—the contrast with previous generations is striking. And
+      especially marked is the contrast between Rome and Venice where the social position
+      of the artist was always considered low and where families of painters went on working,
+      often as teams, until the end of the eighteenth century.
+      Yet the very nature of the contracts that have been examined shows that artists
+      were still generally looked upon as superior craftsmen: however lenient the control
+      actually exerted, the fact that a price was agreed in advance and that some painters
+      charged standard rates for the number of figures to be depicted is highly significant,
+      for it shows how closely the concept of artistic creation was linked to that of more
+      humble and familiar skills. Despite this, several powerful forces—largely embodied in
+      one single man—were fighting vigorously in favour of a new outlook.
+      The ‘artistic temperament’ had been frequently and explicitly hinted at by Vasari,
+      but it was not until the seventeenth century that it came to be widely accepted, and not
+      until the eighteenth that it hardened into an article of belief.2 Paul V’s alleged comments
+      about Guido Reni, quoted on an earlier page, may suggest that that Pope was among
+      the first to recognise that some degree of eccentricity was inherent in the make-up of
+      an artist; it is, unfortunately, our knowledge that this recognition was so much more
+      current in Malvasia’s own time, many years later than the reported conversation, that
+      encourages us to be sceptical about its probability. In 1676, for instance, the Resident
+      of the King of Savoy, writing of the unsatisfactory behaviour of Giovanni Perugini, a
+      characteristically feeble protege of the court of Turin, said that ‘he would be no good as
+      a painter if he did not have some element of madness in him’.3 It is against this back­
+      ground of the artist as exceptional and inspired (an idea still only rarely expressed) that
 - citation: "Wikipedia (en), Genius, revision 1369817606. https://en.wikipedia.org/wiki/Genius. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Wikipedia 讨论天才特质，WD Q185030 的描述偏具有能力的个人；本章为历史天才观，不因文字相同直接确认对象一致。"
@@ -39,6 +100,7 @@ sources:
 - citation: "Wikidata, Q185030, revision 2539088863. https://www.wikidata.org/wiki/Q185030. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-terms-genius
 ---
 
 ## 内容
@@ -53,35 +115,20 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Genius | S1、S2、S3；标题中的语境说明为登记用语 |
-| 讨论对象 | 创造者的特殊地位、神秘光环与未获理解的天才观念 | S1、S2、S3，支持范围见各条句意摘要 |
+| 名称／对应英文 | Genius | S1、S2、S3 |
+| 讨论对象 | 创造者的特殊地位、神秘光环与未获理解的天才观念 | S1、S2、S3 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Genius（en）；revision 1369817606；20322字符 | 全文覆盖：Etymology、Historical development、Galton、Psychology、IQ and genius、Philosophy、The idea of the male genius、Literature and pop culture、See also、References、Bibliography、Further reading |
-| Wikidata身份 | [Q185030](https://www.wikidata.org/wiki/Q185030)；与enwiki标题双向一致 | revision 2539088863；只采用下列适用字段 |
 | 对象类型 | approbative；性格特征 | Wikidata P31；未列参考 |
-
-### 初步对齐（REV-034，2026-09-10）
-
-**范围待对齐。** Wikipedia 讨论天才特质，WD Q185030 的描述偏具有能力的个人；本章为历史天才观，不因文字相同直接确认对象一致。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1：第一章；印刷页 16；OCR L650–654；S2：第一章；印刷页 19, 20；OCR L791–795,811–818；S3：第一章；印刷页 21；OCR L862–893。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q185030](https://www.wikidata.org/wiki/Q185030)

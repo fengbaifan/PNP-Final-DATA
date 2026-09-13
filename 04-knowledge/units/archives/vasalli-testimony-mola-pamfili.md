@@ -4,7 +4,7 @@ name_en: "Vasalli's Testimony on the Mola–Pamfili Service Dispute"
 type: archive
 sub_type: testimony
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"contributed_by","target":"persons/alessandro-vasalli.md","note":"证词发言者为 Vasalli；不等同断言其亲笔写成原记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 179–185; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"证词发言者","scope":"Mola与Pamfili争议中的记录；不等于亲笔文书"}
@@ -17,15 +17,30 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
+  original_quotes:
+  - source_span: "lines 179–185"
+    text: |2-
+      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+      behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+      tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+      qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+      e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+      ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
 - citation: "Francis Haskell, Patrons and Painters, Bibliography."
   location: "同书书目OCR L836–837"
   sentence_summary: "Montalto缩写对应1955年Commentari所刊Gli affreschi del Palazzo Pamphilj in Valmontone，pp.267–302；本章另指定p.295。"
   evidence_ref: {"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/21_CHP-21Bibliography.md","source_span":"lines 836–837"}
+  original_quotes:
+  - source_span: "lines 836–837"
+    text: |2-
+      Montalto, L.: ‘Gli affreschi del Palazzo Pamphilj in Valmontone’ in Commentari, 1955, pp.
+      267-302.
 - citation: "Doria Pamphilj, Bibliografia (bibliografia-villa.pdf). https://www.dopart.it/roma/it/wp-content/uploads/2011/09/bibliografia-villa.pdf. Accessed 2026-09-11."
   location: "PDF第1页，Montalto文献条目；该页已读"
   sentence_summary: "馆方书目确认Montalto论文刊于Commentari 6 (1955), pp.267–302；同年Un mecenate in Roma barocca是另一本著作。书目不能代替论文p.295或原证词。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-vasalli-testimony-mola-pamfili
 ---
-
 
 ## 内容
 
@@ -71,9 +86,3 @@ Montalto同年另有《Un mecenate in Roma barocca》，馆方书目分别列出
 |---|---|---|
 | → 由其贡献（`contributed_by`） | [亚历山德罗·瓦萨利（Alessandro Vasalli）](../persons/alessandro-vasalli.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
 | → 所涉对象（`has_subject`） | [特定保护人服务（Servitù particolare）](../terms/servitu-particolare.md) | 证词说明有偿优先服务；语义概念与文献载体分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
-
-**S1：第一章p.6、L179–185；S2：同书书目L836–837；S3：馆方书目PDF第1页。** S2–S3支持刊物识别，不独立证实原证詞史实。
-
-已有2条正式关系保留：[作证者瓦萨利](../persons/alessandro-vasalli.md)、[特定保护人服务](../terms/servitu-particolare.md)。相关[莫拉](../persons/pier-francesco-mola.md)与潘菲利争议不能由仅有书目资料扩成新的诉讼事实。
-
-尚无此证词对象的Wikipedia—Wikidata配对；不借论文作者、画家或宫殿QID。已保存刊引及内容范围补足；原件、原刊p.295、准确档号和判决结果仍待证，source_backed不变。[过程与证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。

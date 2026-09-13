@@ -3,7 +3,7 @@ title: "科雷乔（Correggio）"
 name_en: "Correggio"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 169–171; print pp. 6
+  original_quotes:
+  - source_span: "lines 169–171"
+    text: |2-
+      duced.2 If it was thought that his painting would benefit from a visit to Parma to see
+      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the
+      expenses of the journey.3 The artist was in fact treated as a member of the prince’s
 - citation: "Wikipedia (en), Antonio da Correggio, revision 1370412376. https://en.wikipedia.org/wiki/Antonio_da_Correggio. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Antonio Allegri da Correggio，帕尔马文艺复兴画家；不是 Correggio 城镇。"
@@ -37,6 +43,7 @@ sources:
 - citation: "Antonio Iommelli, Danae, Galleria Borghese, June 2023. https://www.collezionegalleriaborghese.it/opere/danae. Accessed 2026-09-10."
   location: "技术资料、来源表、展览／保护记录、作品研究正文及部分书目；页面前16000/21678字符，未读余下书目"
   sentence_summary: "馆号125，1530–31，布面油画158×189厘米；委托用途、赠送年份及早期流传存在研究假说，不能按百科写成全无争议的单链。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-correggio
 ---
 
 ## 内容
@@ -147,14 +154,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-[Wikipedia英文](https://en.wikipedia.org/wiki/Antonio_da_Correggio)与[Wikidata Q8457](https://www.wikidata.org/wiki/Q8457)双向一致，按画家、故乡和帕尔马工作核对。Getty ULAN 500006208仅见WD引用，本轮未核ULAN原站，不称Getty身份另验完成。
+### 身份与外部链接
 
-**字段取舍：** WD preferred生日1489-08-30只有其他Wikipedia导入来源，不能压倒专业传记的不确定性；另一同日底层值仅年精度。P1066的Bianchi与Antonio Begarelli无引用，前者仅保留可能训练，后者未接收师承。Thyssen简介将《圣方济各圣母》写Berlin，与其他来源Dresden不符，未采用；NG页头“active1494”不转写为出生年或确定童年活动。作品馆方的原作、Probably by、After与碎片分类保留。
-
-S1：**第一章，印刷页6，OCR L169–171**，句意为资助赴帕尔马看壁画的学习旅行；不能生成“某艺术家参观某一穹顶”的具体边。相关知识元：[帕尔马（Parma）](../places/parma.md)、[罗马（Rome）](../places/rome.md)；后者只是可能旅行线索，不为已证行程。
-
-**补足结果：** 姓名、基本信息、亲缘、职业履历、主要作品、评价及书目已分字段保存。生年月日、婚期、确定师承、罗马行、作品逐件归属与完整流传仍按证据待核。没有新增正式关系或子女KU；source_backed保持。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：persons/correggio；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+- [Wikipedia英文](https://en.wikipedia.org/wiki/Antonio_da_Correggio)
+- [Wikidata Q8457](https://www.wikidata.org/wiki/Q8457)

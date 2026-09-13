@@ -3,7 +3,7 @@ title: "普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the
 name_en: "Poussin’s Massacre of the Innocents (chapter 1 reference)"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/nicolas-poussin.md","note":"与 Reni 同题作分开；具体版本仍保留范围限制。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 373–375; print pp. 10"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 372–374; print pp. 10
+  original_quotes:
+  - source_span: "lines 372–374"
+    text: |2-
+      1 The artist was Andrea Camassei—see the receipt published by A. Bertolotti (Artisti bolognesi . . .,
+      pp. 161-2). In this connection it would be extraordinarily interesting to find the contracts for such master­
+      pieces of restraint as Guido Reni’s and Poussin’s treatments of the Massacre of the Innocents.
 - citation: "Wikipedia (en), The Massacre of the Innocents (Poussin), revision 1372253609. https://en.wikipedia.org/wiki/The_Massacre_of_the_Innocents_(Poussin). Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Q3224378 为 Chantilly 藏 Poussin 同题作品，题材与作者相符；章中无尺寸或版本锚点，尚未排除其他版本／复制品。"
@@ -30,6 +36,7 @@ sources:
 - citation: "Utpictura18, Le massacre des Innocents - Poussin, notice 007109. https://utpictura18.univ-amu.fr/notice/7109-massacre-innocents-poussin. Accessed 2026-09-11."
   location: "对象、分析注记及书目全读"
   sentence_summary: "147×171厘米，1628–1629；Giustiniani1638清册、Lucien Bonaparte、1854Aumale；另有Petit-Palais归属有争议的同题画，本章未给版本锚点。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-poussin-massacre-innocents
 ---
 
 ## 内容
@@ -75,9 +82,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
-
-候选[Wikipedia：The Massacre of the Innocents (Poussin)](https://en.wikipedia.org/wiki/The_Massacre_of_the_Innocents_(Poussin)) ↔ [Wikidata Q3224378](https://www.wikidata.org/wiki/Q3224378)指向PE305；本卡保留候选，未批量导入其全部属性。S4全文1052字符、S5可读取对象记录、S6研究记录已读；搜索结果中出现的118×179厘米未取代已核147×171。
-
-文件头created_by链接[普桑](../persons/nicolas-poussin.md)，依据本章；[雷尼同题作](reni-massacre-innocents.md)是比较导航，不合并。
-
-**未决：** 本章与PE305及其他版本的关系、赞助动机、原合同与完整流传。原章页／行号及句意摘要保留；对象候选不使Haskell已明确的作者和题材失效。

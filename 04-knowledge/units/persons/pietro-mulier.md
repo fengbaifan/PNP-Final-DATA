@@ -3,7 +3,7 @@ title: "皮耶特罗·穆利耶尔（Pietro Mulier）"
 name_en: "Pietro Mulier"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"patronized_by","target":"persons/duke-bracciano-mulier.md","note":"未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 231–233; print pp. 7"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"受保护并接受委托的画家","scope":"未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决"}
@@ -15,6 +15,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
+  original_quotes:
+  - source_span: "lines 231–233"
+    text: |2-
+      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+      Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
+      when they were employed there by Prince Pamfili—Montalto, p. 288.
 - citation: "Wikipedia (en), Pieter Mulier II, revision 1374122115. https://en.wikipedia.org/wiki/Pieter_Mulier_II. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Pieter Mulier II／Cavalier Pietro Tempesta，1637–1701 年在意大利活动的荷兰画家，区别父辈 Pieter Mulier。"
@@ -33,6 +39,7 @@ sources:
 - citation: "Lione Pascoli, Vite de’ pittori, scultori, ed architetti moderni, vol.1 (Roma: Antonio de’ Rossi, 1730), «Di Pietro Mulier», pp.177–184. Getty Research Institute scan, https://archive.org/details/vitedepittoriscu01pasc. Accessed 2026-09-11."
   location: "实际阅读扫描本OCR的完整Mulier传，未逐页核影像；pp.179–181为保护和请假叙述；不是全书阅读。"
   sentence_summary: "公爵以新委托拖延离开，最终许可并赠链、授骑士称号的传记叙述；始终未给公爵名与事件年。传中早年、定罪及服刑时长不与现代馆方研究强行合并。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-mulier
 ---
 
 ## 内容
@@ -97,8 +104,7 @@ sources:
 |---|---|---|
 | → 受其赞助／保护（`patronized_by`） | [布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulier’s patron)）](duke-bracciano-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
 
-- [布拉恰诺公爵](duke-bracciano-mulier.md)：既有关联保留，待核具体公爵。Pascoli pp.180–181写的是拖延、劝留后最终许可，并非永久禁止离开；授衔叙述也未具公爵全名。[S1、S7]
-- [罗马](../places/rome.md)、[米兰](../places/milan.md)为活动地点导航；字段或链接不自动形成新正式边。
-- [Wikipedia英文页](https://en.wikipedia.org/wiki/Pieter_Mulier_II) ↔ [Wikidata Q666337](https://www.wikidata.org/wiki/Q666337)身份配对复用。WD的ULAN500002412、RKD58287本轮未读规范库原站，不冒充再次独立验证。[S5]
-- **不采用：** 馆方把1684年援助者写为生于1597、卒于1647的Don Giovanni de Cabrera，年代不可能相合；保留援助叙事线索，不采这个具体身份。Pascoli称父母商人、近30岁才南下等也不覆盖现代档案研究。[S6、S7]
-- S1第一章第7页L231–233；S2–S3初步身份；S4百科全文；S5WD；S6馆方全文；S7原刊OCR。补足与关系均已处理到当前证据上限，但不等于传记争议已经消失。
+### 身份与外部链接
+
+- [Wikipedia英文页](https://en.wikipedia.org/wiki/Pieter_Mulier_II)
+- [Wikidata Q666337](https://www.wikidata.org/wiki/Q666337)

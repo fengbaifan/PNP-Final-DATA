@@ -3,7 +3,7 @@ title: "毛里齐奥·迪·萨伏依（Maurizio di Savoia）"
 name_en: "Maurizio di Savoia"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"appointer_of","target":"persons/gio-gasparo-baldoini.md","note":"任命 Baldoini 为 per nostro pittore，本章脚注引述任命。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 188–189; print pp. 6"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"per nostro pittore任命者","scope":"本章脚注所引任命；日期未知"}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 188–189; print pp. 6
+  original_quotes:
+  - source_span: "lines 188–189"
+    text: |2-
+      4 The appointment of Gio. Gasparo Baldoini ‘per nostro pittore’ by Cardinal Maurizio di Savoia—
+      Baudi di Vesme, 1932, p. 23.
 - citation: "Wikipedia (en), Prince Maurice of Savoy, revision 1358821762. https://en.wikipedia.org/wiki/Prince_Maurice_of_Savoy. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Maurizio／Maurice of Savoy，1593–1657 年萨伏依亲王及枢机。"
@@ -36,6 +41,7 @@ sources:
 - citation: "Franca Varallo, “L’abile costruzione di sé: arte e cerimonie durante la reggenza di Cristina di Francia, duchessa di Savoia e prima Madama Reale”, Librosdelacorte.es 28 (2024), DOI 10.15366/ldc2024.16.28.013. https://iris.unito.it/retrieve/b0d07de8-8e46-4064-8e96-b4e99802be0f/2024_Varallo_Abile%20costruzione%20di%20s%C3%A9_Cristina%20di%20Savoia.pdf. Accessed 2026-09-11."
   location: "印刷页368–370、379注24；PDF页1–3、12；只读所列页"
   sentence_summary: "1644年和解寓意版画由Giovenale Boetto依Giovanni Gaspare Baldoino设计制作，现藏都灵王家图书馆U.II.85/2；另记毛里齐奥婚礼为1642-09-29，Sospello。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-maurizio-di-savoia
 ---
 
 ## 内容
@@ -119,13 +125,7 @@ S6列都灵国家档案馆王家书信、王族人物卷、O. Moreno《Istoria�
 | ← 发布者（`issuer_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
 | → 任命者（`appointer_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
 
-**身份入口：** [Wikipedia（en）](https://en.wikipedia.org/wiki/Prince_Maurice_of_Savoy) ↔ [Wikidata Q610738](https://www.wikidata.org/wiki/Q610738)双向一致，版本见S4、S5。身份通过不代表所有日期断言一致。
+### 身份与外部链接
 
-| 关系／角色 | 知识元入口 | 依据／状态 |
-|---|---|---|
-| `appointer_of`：任用的画家 | [巴尔多伊诺](gio-gasparo-baldoini.md) | 文件头已有正式任命关系；S1；新姓名和补充保护关系见S7 |
-| 任用文字 | [本府画家任命](../archives/baldoini-painter-appointment.md) | S1；未新增正式边 |
-| 任用称谓 | [本府画家](../terms/nostro-pittore.md) | S1 |
-| 教皇活动语境 | [保禄五世](paul-v.md)／[乌尔班八世](urbano-viii.md) | S6；导航不是新关系 |
-
-S1章内定位为第一章p.6、OCR L188–189；S2–S3保留初步对齐，S4–S8支持本轮事实与裁决。[补足证据记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键定位。已保存内容稿，婚期／卒日异文、具体作品委托及任用原件仍有缺口；正式关系本轮不改，evidence_status保持source_backed。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Prince_Maurice_of_Savoy)
+- [Wikidata Q610738](https://www.wikidata.org/wiki/Q610738)

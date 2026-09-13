@@ -4,7 +4,7 @@ name_en: "A Musical Company with a Fortune-Teller"
 type: work
 sub_type: painting_commission
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/valentin.md","note":"卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录。","evidence_ref":{"doc_id":"louvre-valentin-inv1418","source_file":"https://collections.louvre.fr/en/ark:/53355/cl010062321","source_span":"瓦朗坦人物卡 S7；完整对象记录"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,9 +16,17 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 389–392; print pp. 11
+  original_quotes:
+  - source_span: "lines 389–392"
+    text: |2-
+      a reputation for particular subjects. Thus it was that one collector called on the French
+      painter Valentin, who specialised in Caravaggesque genre scenes, and asked him for ‘a
+      large picture with people among whom were to be a gipsy woman, soldiers and other
+      women playing musical instruments’.3
 - citation: "LIECHTENSTEIN. The Princely Collections, “Fröhliche Gesellschaft mit Wahrsagerin.” https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin. Accessed 2026-09-11."
   location: "官方馆藏页；对象、1631委托与来源沿革"
   sentence_summary: "确认该画为Valguarnera在Rome于1631年委托的作品，并记录其后续收藏沿革；与Met图录审判证词相互吻合。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-valentin-genre-commission
 ---
 
 ## 内容
@@ -33,13 +41,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | A Musical Company with a Fortune-Teller | S1；标题中的语境说明为登记用语 |
-| 委托内容 | 大画；吉卜赛妇女、士兵及奏乐女性 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | A Musical Company with a Fortune-Teller | S1 |
+| 委托内容 | 大画；吉卜赛妇女、士兵及奏乐女性 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮作品补足（REV-055，2026-09-11）
+### 作品信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -50,17 +55,6 @@ sources:
 | 创作地／原位置／现位置 | Rome创作；现属LIECHTENSTEIN. The Princely Collections | 历史位置和现藏不互相覆盖 |
 | 类型、材质与尺寸 | 大型布面油画；具体尺寸见官方收藏记录 | 缺项不根据同类作品补推 |
 | 状态与语义边界 | 审判证词的“zingara、士兵、女性和乐师”与现藏作品可对应；与Valentin约1620的《Fortune Teller with Soldiers》及其他音乐家题材作品区分。 | 委托、稿本、完成作品、归属和现藏分别判断 |
-| Wikipedia—Wikidata结果 | 官方收藏与Met图录完成对象识别；没有采用不确定的Wikipedia—Wikidata作品配对。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
-
-**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -68,9 +62,3 @@ sources:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../persons/valentin.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；证据：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
-
-S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

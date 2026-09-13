@@ -3,7 +3,7 @@ title: "鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》
 name_en: "Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella"
 type: work
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/chiesa-nuova.md","note":"委托指定的教堂场所。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 402–404; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,9 +16,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 402–404; print pp. 11
+  original_quotes:
+  - source_span: "lines 402–404"
+    text: |2-
+      For quite different but equally understandable reasons, Rubens, who was still only an
+      unknown foreigner, was asked in 1606 to show examples of his painting before under­
+      taking an altarpiece in the Chiesa Nuova.5 In general, more confidence was shown in
 - citation: "Musée de Grenoble, “Saint Grégoire pape, entouré de saints et de saintes, vénérant l’image miraculeuse de la Vierge à l’Enfant, dite de Santa Maria in Vallicella.” https://www.museedegrenoble.fr/oeuvre/137/1922-saint-gregoire-pape-entoure-de-saints-et-de-saintes-venerant-l-image-miraculeuse-de-la-vierge-a-l-enfant-dite-de-santa-maria-in-vallicella.htm. Accessed 2026-09-11."
   location: "馆藏页全文；题名、年代、材质、尺寸、委托与图像描述"
   sentence_summary: "定位1606–1607第一版祭坛画、作者、主祭坛用途、材质、尺寸与现藏；与后来的替代方案区分。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-rubens-chiesa-nuova-altarpiece-1606
 ---
 
 ## 内容
@@ -33,13 +40,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella | S1；标题中的语境说明为登记用语 |
-| 委托前条件 | 1606；先展示绘画样例 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella | S1 |
+| 委托前条件 | 1606；先展示绘画样例 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮作品补足（REV-055，2026-09-11）
+### 作品信息
 
 | 字段 | 当前结论 | 依据／边界 |
 |---|---|---|
@@ -50,17 +54,6 @@ sources:
 | 创作地／原位置／现位置 | 原为Rome Santa Maria in Vallicella主祭坛；现藏Musée de Grenoble，MG 97 | 历史位置和现藏不互相覆盖 |
 | 类型、材质与尺寸 | 布面油画；477 × 288 cm | 缺项不根据同类作品补推 |
 | 状态与语义边界 | 第一版因祭坛反光／接受问题撤下，后由Rubens带回Antwerp；须与1608年石板第二方案区分。 | 委托、稿本、完成作品、归属和现藏分别判断 |
-| Wikipedia—Wikidata结果 | 官方Louvre与Grenoble记录已唯一定位；未见同粒度Wikipedia—Wikidata双向对象，故不用相关教堂或画家QID替代。 | 英文优先并按意大利语／法语／德语题名回退；无匹配时不借相关实体QID |
-
-**处理结论：** 已完成该作品在现有证据条件下的身份边界、结构字段和状态补足。仍未知的原档、尺寸、现藏或版本已逐字段保留，不以相近题名、同题作品或作者QID填补。
-
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章的具体作品／设计／委托对象保留；登记名未命中可确认的 Wiki 配对。作者、画题、年代、版本及原作／草稿／工程的区别交补足，不借作者或建筑 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -69,9 +62,3 @@ sources:
 |---|---|---|
 | → 位于（`located_at`） | [罗马新教堂（Chiesa Nuova, Rome）](../places/chiesa-nuova.md) | 委托指定的教堂场所；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
 | → 创作者（`created_by`） | [鲁本斯（Rubens）](../persons/peter-paul-rubens.md) | 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
-
-S1：第一章；印刷页 11；OCR L402–404。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已完成作品身份、创作／委托、位置、材质及版本边界的定向补足；无独立双站对象者明确保持未配对。

@@ -3,7 +3,7 @@ title: "博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）"
 name_en: "Chiesa de' Servi, Bologna"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/bologna.md","note":"教堂在 Bologna。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 515–516; print pp. 13"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 515–516; print pp. 13
+  original_quotes:
+  - source_span: "lines 515–516"
+    text: |2-
+      colore e azzurri’; in 1639 Bonifazio Gozadini promised to supply Albani with the canvas and necessary
+      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
 - citation: "Wikipedia (en), Santa Maria dei Servi, Bologna, revision 1286834023. https://en.wikipedia.org/wiki/Santa_Maria_dei_Servi%2C_Bologna. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "博洛尼亚 Santa Maria dei Servi 教堂，与章内 Chiesa de’ Servi 地点相容。"
@@ -27,6 +32,7 @@ sources:
 - citation: "Wikidata, Q1021897, revision 2536162206. https://www.wikidata.org/wiki/Q1021897. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-chiesa-de-servi-bologna
 ---
 
 ## 内容
@@ -41,30 +47,17 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Chiesa de' Servi, Bologna | S1；标题中的语境说明为登记用语 |
-| 建筑与活动 | Bologna；Albani／Gozadini，1639 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Chiesa de' Servi, Bologna | S1 |
+| 建筑与活动 | Bologna；Albani／Gozadini，1639 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Santa Maria dei Servi, Bologna（en）；revision 1286834023；3256字符 | 全文覆盖：Architecture、Interior、Exterior、Artworks、References |
-| Wikidata身份 | [Q1021897](https://www.wikidata.org/wiki/Q1021897)；与enwiki标题双向一致 | revision 2536162206；只采用下列适用字段 |
 | 对象类型 | 乙级宗座圣殿；历史建筑；教堂 | Wikidata P31；有参考；未列参考 |
 | 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
 | 行政位置 | 博洛尼亞 | Wikidata P131；有参考 |
 | 成立／建造时间 | 1345-11-01；1350-01-01 | Wikidata P571；有参考 |
-
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** 博洛尼亚 Santa Maria dei Servi 教堂，与章内 Chiesa de’ Servi 地点相容。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_dei_Servi%2C_Bologna) 的 wikibase_item 与 [Wikidata Q1021897](https://www.wikidata.org/wiki/Q1021897) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
 
 ## 关系与证据
 
@@ -74,8 +67,7 @@ sources:
 | → 位于（`located_at`） | [博洛尼亚（Bologna）](bologna.md) | 教堂在 Bologna；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
 | ← 所在地（`location_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | 指定为 Bologna 的 Chiesa de’ Servi 祭坛画；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
 
-S1：第一章；印刷页 13；OCR L515–516。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q1021897](https://www.wikidata.org/wiki/Q1021897)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Santa_Maria_dei_Servi%2C_Bologna)

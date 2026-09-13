@@ -3,7 +3,7 @@ title: "菲利波·劳里（Filippo Lauri）"
 name_en: "Filippo Lauri"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1654年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-lauri","source_file":"https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/","source_span":"本卡 S6；1654年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -15,6 +15,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 778–781; print pp. 19
+  original_quotes:
+  - source_span: "lines 778–781"
+    text: |2-
+      Painters themselves, and especially their biographers, were keen to respond and
+      liked to stress their intellectual attainments. Thus we hear of Filippo Lauri carefully
+      studying the news-sheets so as to be able to make suitable conversation at the various
+      academies he would attend.5 This points to an essential and obvious requisite for social
 - citation: "Wikipedia (en), Filippo Lauri, revision 1365392350. https://en.wikipedia.org/wiki/Filippo_Lauri. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "1623–1694 年意大利画家 Filippo Lauri，符合学院社交语境。"
@@ -30,6 +37,7 @@ sources:
 - citation: "Stefano Pierguidi, LAURI, Filippo, Dizionario Biografico degli Italiani 64 (2005). https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "出身师承、1671–1675付款上下文、末期与评价及书目开头选读"
   sentence_summary: "父母手足、师承、装饰付款、合作争议及传记作者身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-filippo-lauri
 ---
 
 ## 内容
@@ -82,11 +90,9 @@ Filippo Baldinucci为友人；主要传记作者Francesco Saverio Baldinucci是�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1654年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/)；dbi-lauri；本卡 S6；1654年入会段 |
+| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Filippo_Lauri) ↔ [Wikidata Q3071902](https://www.wikidata.org/wiki/Q3071902)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-本卡尚无正式出边；[萨基](../persons/andrea-sacchi.md)、[迪盖](../persons/gaspard-dughet.md)、[克劳德](../persons/claude-lorrain.md)仅相关KU导航。
-
-与Dughet合作有DBI明确支持；与Claude Lorrain长期合作，WP作确定表述而DBI说明年代与批评争议，暂不据此建立确定合作边。两人年龄、临摹或画风相似不能替代合作证据。WD生卒日normal、公历日精度；其引用原站未全部读取，亲缘与训练按DBI具体段落支持。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Filippo_Lauri)
+- [Wikidata Q3071902](https://www.wikidata.org/wiki/Q3071902)

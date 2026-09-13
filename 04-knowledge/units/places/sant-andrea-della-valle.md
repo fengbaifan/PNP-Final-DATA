@@ -3,7 +3,7 @@ title: "谷地圣安德烈堂（S. Andrea della Valle）"
 name_en: "S. Andrea della Valle"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5, 6.'
@@ -13,6 +13,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 139–141,147–152; print pp. 5, 6
+  original_quotes:
+  - source_span: "lines 139–141"
+    text: |2-
+      it was objected to him’, we are told of Cardinal Alessandro Peretti-Montalto,1 ‘that it
+      was not suitable for him to follow in a building [S. Andrea della Valle] which had been
+      begun by someone else, he despised such human considerations and carried on with
+  - source_span: "lines 147–152"
+    text: |2-
+      his plans to the glory of God. . . .' Much more usually, however, the completion and
+      decoration of new churches were carried out by wealthy but politically unimportant
+      patrons, who were not in touch with the most modern artists of the day and who
+      were thus compelled to fall back on well-established favourites. It is therefore para­
+      doxically true that a well-informed traveller in about 1620 would have found that most
+      of the best modern paintings in Rome were in the oldest churches.
 - citation: "Wikipedia (en), Sant'Andrea della Valle, revision 1366883352. https://en.wikipedia.org/wiki/Sant'Andrea_della_Valle. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马谷地圣安德烈堂，英文别名及修会背景与章中工程相容。"
@@ -49,6 +63,7 @@ sources:
 - citation: "Paul VI, grant of minor-basilica title, 1965-12-20, Spanish text hosted by Sant'Andrea della Valle. https://santandrea.teatinos.org/es/bienvenida/titulo-basilica-menor/. Accessed 2026-09-10."
   location: "教堂刊载的宗座文书西语译文全文，尤其末尾签署日期"
   sentence_summary: "小圣殿称号文书日期为1965年12月20日，优先于修会概述中的1966；未核对拉丁原刊。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-sant-andrea-della-valle
 ---
 
 ## 内容
@@ -115,14 +130,9 @@ S4 书目列 Howard Hibbard，*The Early History of Sant’Andrea della Valle*�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1：**第一章，印刷页5、6，OCR L139–141、L147–152**；句意为蒙塔尔托接续已启动的工程。S2–S3为初步对齐，S4–S13为本次补足，编号按文件头sources顺序。
+### 身份与外部链接
 
-[Wikipedia英文](https://en.wikipedia.org/wiki/Sant%27Andrea_della_Valle)与[Wikidata Q1631593](https://www.wikidata.org/wiki/Q1631593)双向一致，指向同一罗马建筑。P84不提供完整分期团队；P1619不等于完工；1965小圣殿称号已有S13支撑。本轮无新增正式关系。
-
-相关知识元：[戴蒂尼会（Theatines）](../institutions/theatines.md)、[罗马（Rome）](rome.md)、[亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti di Montalto）](../persons/alessandro-peretti-montalto.md)、[乌尔班八世（Urban VIII）](../persons/urbano-viii.md)。这些导航分别对应机构、地点及有具体时期的资助语境，不把关系套用到所有装饰。
-
-**未决与取舍：** 完整产权史和付款金额未获原件；WP对后殿装饰笼统归Algardi，与S12的Domenichino说明需再分设计与执行；S10中Barberini亲属称谓不全照收，避免同名不同辈混并。已完成本文详细补足，source_backed不变；正式关系交后续集中处理。
-
-[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)：places/sant-andrea-della-valle；[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)。
+- [Wikipedia英文](https://en.wikipedia.org/wiki/Sant%27Andrea_della_Valle)
+- [Wikidata Q1631593](https://www.wikidata.org/wiki/Q1631593)

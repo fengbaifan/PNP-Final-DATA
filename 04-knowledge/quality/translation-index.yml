@@ -1,5 +1,5 @@
-generated: '2026-09-12'
-total: 263
+generated: '2026-09-13'
+total: 368
 index:
 - slug: persons/abate-lancellotti
   type: persons
@@ -29,6 +29,12 @@ index:
   type: persons
   name_en: ''
   title: 亚历山大七世（Alexander VII）
+  name_original: ''
+  language_original: ''
+- slug: persons/alof-de-wignacourt
+  type: persons
+  name_en: Alof de Wignacourt
+  title: 阿洛夫·德·维尼亚库尔（Alof de Wignacourt）
   name_original: ''
   language_original: ''
 - slug: persons/ameyden
@@ -141,8 +147,8 @@ index:
   language_original: ''
 - slug: persons/caravaggio
   type: persons
-  name_en: '"Caravaggio"'
-  title: '"卡拉瓦乔（Caravaggio）"'
+  name_en: Caravaggio
+  title: 卡拉瓦乔（Caravaggio）
   name_original: ''
   language_original: ''
 - slug: persons/cardinal-borghese-ch1
@@ -205,6 +211,12 @@ index:
   title: '"瑞典女王克里斯蒂娜（Christina of Sweden）"'
   name_original: ''
   language_original: ''
+- slug: persons/ciriaco-mattei
+  type: persons
+  name_en: Ciriaco Mattei
+  title: 奇里亚科·马泰（Ciriaco Mattei）
+  name_original: ''
+  language_original: ''
 - slug: persons/ciro-ferri
   type: persons
   name_en: '"Ciro Ferri"'
@@ -265,6 +277,12 @@ index:
   title: '"帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s honorary appointment)）"'
   name_original: ''
   language_original: ''
+- slug: persons/ermete-cavalletti
+  type: persons
+  name_en: Ermete Cavalletti
+  title: 埃尔梅特·卡瓦莱蒂（Ermete Cavalletti）
+  name_original: ''
+  language_original: ''
 - slug: persons/fabrizio-arragona
   type: persons
   name_en: '"Fabrizio Arragona"'
@@ -323,6 +341,12 @@ index:
   type: persons
   name_en: '"Francesco Fontana"'
   title: '"弗朗切斯科·丰塔纳（Francesco Fontana）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/francesco-maria-del-monte
+  type: persons
+  name_en: Francesco Maria del Monte
+  title: 弗朗切斯科·玛丽亚·德尔·蒙特（Francesco Maria del Monte）
   name_original: ''
   language_original: ''
 - slug: persons/francesco-marucelli
@@ -421,6 +445,12 @@ index:
   title: '"列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-battista-de-lazzari
+  type: persons
+  name_en: Giovanni Battista de' Lazzari
+  title: 乔瓦尼·巴蒂斯塔·德·拉扎里（Giovanni Battista de' Lazzari）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-bonati
   type: persons
   name_en: '"Giovanni Bonatti"'
@@ -455,6 +485,12 @@ index:
   type: persons
   name_en: '"Giulio Mancini"'
   title: '"朱利奥·曼奇尼（Giulio Mancini）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giuseppe-cesari
+  type: persons
+  name_en: Giuseppe Cesari
+  title: 朱塞佩·切萨里（Giuseppe Cesari）
   name_original: ''
   language_original: ''
 - slug: persons/giuseppe-de-rosis
@@ -523,10 +559,22 @@ index:
   title: '"英诺森十三世（Innocent XIII）"'
   name_original: ''
   language_original: ''
+- slug: persons/j-tomilson-hill
+  type: persons
+  name_en: J. Tomilson Hill
+  title: J. 托米尔森·希尔（J. Tomilson Hill）
+  name_original: ''
+  language_original: ''
 - slug: persons/jacopo-salviati
   type: persons
   name_en: '"Jacopo Salviati"'
   title: '"雅各布·萨尔维亚蒂（Jacopo Salviati）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/laerzio-cherubini
+  type: persons
+  name_en: Laerzio Cherubini
+  title: 莱尔齐奥·凯鲁比尼（Laerzio Cherubini）
   name_original: ''
   language_original: ''
 - slug: persons/leo-x
@@ -569,6 +617,12 @@ index:
   type: persons
   name_en: '"Ludovico Ludovisi"'
   title: '"卢多维科·卢多维西（Ludovico Ludovisi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/marcantonio-i-doria
+  type: persons
+  name_en: Marcantonio I Doria
+  title: 马尔坎托尼奥一世·多利亚（Marcantonio I Doria）
   name_original: ''
   language_original: ''
 - slug: persons/marcello-sacchetti
@@ -673,6 +727,18 @@ index:
   title: '"奥诺拉托·吉尼（Onorato Gini）"'
   name_original: ''
   language_original: ''
+- slug: persons/onorio-longhi
+  type: persons
+  name_en: Onorio Longhi
+  title: 奥诺里奥·隆吉（Onorio Longhi）
+  name_original: ''
+  language_original: ''
+- slug: persons/ottavio-costa
+  type: persons
+  name_en: Ottavio Costa
+  title: 奥塔维奥·科斯塔（Ottavio Costa）
+  name_original: ''
+  language_original: ''
 - slug: persons/paolo-borghese
   type: persons
   name_en: '"Paolo Borghese"'
@@ -745,6 +811,12 @@ index:
   title: '"彼得罗·奥托博尼（Pietro Ottoboni）"'
   name_original: ''
   language_original: ''
+- slug: persons/prospero-orsi
+  type: persons
+  name_en: Prospero Orsi
+  title: 普罗斯佩罗·奥尔西（Prospero Orsi）
+  name_original: ''
+  language_original: ''
 - slug: persons/raphael
   type: persons
   name_en: '"Raphael"'
@@ -775,6 +847,12 @@ index:
   title: '"塞巴斯蒂亚诺·里奇（Sebastiano Ricci）"'
   name_original: ''
   language_original: ''
+- slug: persons/simone-peterzano
+  type: persons
+  name_en: Simone Peterzano
+  title: 西莫内·彼得扎诺（Simone Peterzano）
+  name_original: ''
+  language_original: ''
 - slug: persons/sixtus-v
   type: persons
   name_en: '"Sixtus V"'
@@ -785,6 +863,12 @@ index:
   type: persons
   name_en: '"Thomas Baker"'
   title: '"托马斯·贝克（Thomas Baker）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/tiberio-cerasi
+  type: persons
+  name_en: Tiberio Cerasi
+  title: 蒂贝里奥·切拉西（Tiberio Cerasi）
   name_original: ''
   language_original: ''
 - slug: persons/titian
@@ -821,6 +905,12 @@ index:
   type: persons
   name_en: '"Virgil"'
   title: '"维吉尔（Virgil）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/viviano-codazzi
+  type: persons
+  name_en: Viviano Codazzi
+  title: 维维亚诺·科达齐（Viviano Codazzi）
   name_original: ''
   language_original: ''
 - slug: terms/altarpiece
@@ -1297,22 +1387,382 @@ index:
   title: '"卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Pris'
   name_original: ''
   language_original: ''
+- slug: works/caravaggio-adoration-shepherds
+  type: works
+  name_en: Adoration of the Shepherds
+  title: 《牧羊人朝拜》（Adoration of the Shepherds）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-amor-vincit-omnia
+  type: works
+  name_en: Amor Vincit Omnia
+  title: 《爱神战胜一切》（Amor Vincit Omnia）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-bacchus-uffizi
+  type: works
+  name_en: Bacchus
+  title: 《巴克斯》（Bacchus）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-basket-of-fruit
+  type: works
+  name_en: Basket of Fruit
+  title: 《果篮》（Basket of Fruit）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-beheading-john-baptist
+  type: works
+  name_en: The Beheading of Saint John the Baptist
+  title: 《施洗者圣约翰斩首》（The Beheading of Saint John the Baptist）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-boy-bitten-lizard-london
+  type: works
+  name_en: Boy Bitten by a Lizard (London version)
+  title: 《被蜥蜴咬伤的男孩》（伦敦版本）（Boy Bitten by a Lizard (London version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-boy-peeling-fruit-royal
+  type: works
+  name_en: Boy Peeling Fruit (Royal Collection version)
+  title: 《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-boy-with-basket-fruit
+  type: works
+  name_en: Boy with a Basket of Fruit
+  title: 《提果篮的男孩》（Boy with a Basket of Fruit）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-burial-saint-lucy
+  type: works
+  name_en: The Burial of Saint Lucy
+  title: 《圣露西下葬》（The Burial of Saint Lucy）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-calling-peter-andrew
+  type: works
+  name_en: The Calling of Saints Peter and Andrew
+  title: 《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-calling-saint-matthew
+  type: works
+  name_en: The Calling of Saint Matthew
+  title: 《圣马太蒙召》（The Calling of Saint Matthew）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-cardsharps-kimbell
+  type: works
+  name_en: The Cardsharps (Kimbell version)
+  title: 《纸牌作弊者》（金贝尔版本）（The Cardsharps (Kimbell version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-christ-mount-olives
+  type: works
+  name_en: Christ on the Mount of Olives
+  title: 《橄榄山上的基督》（Christ on the Mount of Olives）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-conversion-damascus-cerasi
+  type: works
+  name_en: Conversion on the Way to Damascus
+  title: 《大马士革路上的归化》（Conversion on the Way to Damascus）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-conversion-saint-paul-first
+  type: works
+  name_en: The Conversion of Saint Paul (first version)
+  title: 《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）
+  name_original: ''
+  language_original: ''
 - slug: works/caravaggio-conversion-saint-paul
   type: works
   name_en: '"Caravaggio’s Conversion of Saint Paul commission"'
   title: '"卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）"'
   name_original: ''
   language_original: ''
+- slug: works/caravaggio-crucifixion-saint-peter
+  type: works
+  name_en: Crucifixion of Saint Peter
+  title: 《圣彼得钉十字架》（Crucifixion of Saint Peter）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-david-goliath-borghese
+  type: works
+  name_en: David with the Head of Goliath (Borghese version)
+  title: 《大卫与歌利亚之首》（博尔盖塞版本）（David with the Head of Goliath (Borghese version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-death-virgin
+  type: works
+  name_en: Death of the Virgin
+  title: 《圣母之死》（Death of the Virgin）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-denial-saint-peter
+  type: works
+  name_en: The Denial of Saint Peter
+  title: 《圣彼得不认主》（The Denial of Saint Peter）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-ecce-homo-madrid
+  type: works
+  name_en: Ecce Homo (Madrid object)
+  title: 《看这个人》（马德里对象）（Ecce Homo (Madrid object)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-entombment-christ
+  type: works
+  name_en: The Entombment of Christ
+  title: 《基督下葬》（The Entombment of Christ）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-fortune-teller-capitoline
+  type: works
+  name_en: The Fortune Teller (Capitoline first version)
+  title: 《算命者》（卡比托利欧第一版）（The Fortune Teller (Capitoline first version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-fortune-teller-louvre
+  type: works
+  name_en: The Fortune Teller (Louvre second version)
+  title: 《算命者》（卢浮宫第二版）（The Fortune Teller (Louvre second version)）
+  name_original: ''
+  language_original: ''
 - slug: works/caravaggio-giustiniani-rejected-altarpiece
   type: works
-  name_en: '"Saint Matthew and the Angel (first version)"'
-  title: '"《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）"'
+  name_en: Saint Matthew and the Angel (first version)
+  title: 《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-incredulity-thomas-ecclesiastical
+  type: works
+  name_en: The Incredulity of Saint Thomas (so-called Ecclesiastical version)
+  title: 《多疑的圣多马》（所谓“教会版本”）（The Incredulity of Saint Thomas (so-called Ecclesiastical version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-incredulity-thomas-sanssouci
+  type: works
+  name_en: The Incredulity of Saint Thomas (Sanssouci version)
+  title: 《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-inspiration-saint-matthew
+  type: works
+  name_en: The Inspiration of Saint Matthew
+  title: 《圣马太的启示》（The Inspiration of Saint Matthew）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-john-baptist-borghese
+  type: works
+  name_en: Saint John the Baptist (Borghese version)
+  title: 《施洗者约翰》（博尔盖塞版本）（Saint John the Baptist (Borghese version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-john-baptist-ram-capitoline
+  type: works
+  name_en: Young Saint John the Baptist with a Ram
+  title: 《施洗者约翰与公羊》（Young Saint John the Baptist with a Ram）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-judith-barberini
+  type: works
+  name_en: Judith Beheading Holofernes (Palazzo Barberini version)
+  title: 《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-judith-toulouse
+  type: works
+  name_en: Judith Beheading Holofernes (Toulouse object)
+  title: 《朱迪斯斩杀赫罗弗尼斯》（图卢兹对象）（Judith Beheading Holofernes (Toulouse object)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-lute-player-hermitage
+  type: works
+  name_en: The Lute Player (Hermitage version)
+  title: 《鲁特琴演奏者》（艾尔米塔什版本）（The Lute Player (Hermitage version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-madonna-loreto
+  type: works
+  name_en: Madonna di Loreto
+  title: 《洛雷托圣母》（Madonna di Loreto）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-madonna-palafrenieri
+  type: works
+  name_en: Madonna and Child with Saint Anne (Madonna dei Palafrenieri)
+  title: 《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-madonna-rosary
+  type: works
+  name_en: Madonna of the Rosary
+  title: 《玫瑰经圣母》（Madonna of the Rosary）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-martha-mary-magdalene
+  type: works
+  name_en: Martha and Mary Magdalene
+  title: 《马大与抹大拉的马利亚》（Martha and Mary Magdalene）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-martyrdom-saint-matthew
+  type: works
+  name_en: The Martyrdom of Saint Matthew
+  title: 《圣马太殉难》（The Martyrdom of Saint Matthew）
   name_original: ''
   language_original: ''
 - slug: works/caravaggio-martyrdom-saint-peter
   type: works
   name_en: '"Caravaggio’s Martyrdom of Saint Peter commission"'
   title: '"卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）"'
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-martyrdom-saint-ursula
+  type: works
+  name_en: The Martyrdom of Saint Ursula
+  title: 《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-medusa-murtola
+  type: works
+  name_en: Medusa Murtola
+  title: 《美杜莎》（穆尔托拉版本）（Medusa Murtola）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-medusa-uffizi
+  type: works
+  name_en: Medusa (Uffizi version)
+  title: 《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-musicians
+  type: works
+  name_en: The Musicians
+  title: 《音乐家们》（The Musicians）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-narcissus
+  type: works
+  name_en: Narcissus
+  title: 《水仙》（Narcissus）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-nativity-palermo
+  type: works
+  name_en: Nativity with Saint Francis and Saint Lawrence
+  title: 《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-penitent-magdalene
+  type: works
+  name_en: Penitent Magdalene
+  title: 《悔罪的抹大拉》（Penitent Magdalene）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-portrait-fillide
+  type: works
+  name_en: Portrait of Fillide Melandroni
+  title: 《菲利德·梅兰德罗尼肖像》（Portrait of Fillide Melandroni）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-portrait-wignacourt
+  type: works
+  name_en: Portrait of Alof de Wignacourt and his Page
+  title: 《阿洛夫·德·维尼亚库尔与侍从肖像》（Portrait of Alof de Wignacourt and his Page）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-raising-lazarus
+  type: works
+  name_en: The Raising of Lazarus
+  title: 《拉撒路复活》（The Raising of Lazarus）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-rest-flight-egypt
+  type: works
+  name_en: Rest on the Flight into Egypt
+  title: 《逃往埃及途中的休息》（Rest on the Flight into Egypt）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-sacrifice-isaac-princeton
+  type: works
+  name_en: Sacrifice of Isaac (former Princeton version)
+  title: 《以撒献祭》（原普林斯顿旧藏版本）（Sacrifice of Isaac (former Princeton version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-sacrifice-isaac-uffizi
+  type: works
+  name_en: Sacrifice of Isaac (Uffizi version)
+  title: 《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-saint-augustine-disputed
+  type: works
+  name_en: Saint Augustine (object announced in 2011)
+  title: 《圣奥古斯丁》（2011年公布对象）（Saint Augustine (object announced in 2011)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-saint-catherine-alexandria
+  type: works
+  name_en: Saint Catherine of Alexandria
+  title: 《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-saint-francis-ecstasy
+  type: works
+  name_en: Saint Francis of Assisi in Ecstasy
+  title: 《圣方济各入神》（Saint Francis of Assisi in Ecstasy）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-saint-jerome-borghese
+  type: works
+  name_en: Saint Jerome Writing (Borghese version)
+  title: 《书写中的圣哲罗姆》（博尔盖塞版本）（Saint Jerome Writing (Borghese version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-saint-jerome-valletta
+  type: works
+  name_en: Saint Jerome Writing (Valletta version)
+  title: 《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-salome-madrid
+  type: works
+  name_en: Salome with the Head of John the Baptist (Madrid version)
+  title: 《莎乐美与施洗者圣约翰之首》（马德里版本）（Salome with the Head of John the Baptist (Madrid version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-seven-works-mercy
+  type: works
+  name_en: The Seven Works of Mercy
+  title: 《七件善事》（The Seven Works of Mercy）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-supper-emmaus-london
+  type: works
+  name_en: Supper at Emmaus (London version)
+  title: 《以马忤斯的晚餐》（伦敦版本）（Supper at Emmaus (London version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-taking-christ-dublin
+  type: works
+  name_en: The Taking of Christ (Dublin version)
+  title: 《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-taking-christ-odesa
+  type: works
+  name_en: The Taking of Christ (Odesa copy)
+  title: 《逮捕基督》（敖德萨复制品）（The Taking of Christ (Odesa copy)）
+  name_original: ''
+  language_original: ''
+- slug: works/caravaggio-young-sick-bacchus
+  type: works
+  name_en: Young Sick Bacchus
+  title: 《生病的巴克斯》（Young Sick Bacchus）
   name_original: ''
   language_original: ''
 - slug: works/comedy-performed-1635
@@ -1471,6 +1921,18 @@ index:
   title: 博尔盖塞家族（Borghese Family）
   name_original: ''
   language_original: ''
+- slug: families/colonna-family
+  type: families
+  name_en: Colonna Family
+  title: 科隆纳家族（Colonna Family）
+  name_original: ''
+  language_original: ''
+- slug: families/odescalchi-family
+  type: families
+  name_en: Odescalchi Family
+  title: 奥德斯卡尔基家族（Odescalchi Family）
+  name_original: ''
+  language_original: ''
 - slug: families/peretti-family
   type: families
   name_en: Peretti Family
@@ -1519,6 +1981,12 @@ index:
   title: '"卡萨纳滕塞图书馆（Biblioteca Casanatense）"'
   name_original: ''
   language_original: ''
+- slug: institutions/capitoline-museums
+  type: institutions
+  name_en: Capitoline Museums
+  title: 卡比托利欧博物馆（Capitoline Museums）
+  name_original: ''
+  language_original: ''
 - slug: institutions/capuchins
   type: institutions
   name_en: '"Capuchins"'
@@ -1537,10 +2005,64 @@ index:
   title: '"博洛尼亚佛罗伦萨人圣若翰善会（Confraternity of Saint John of the Florentines, Bologna）"'
   name_original: ''
   language_original: ''
+- slug: institutions/confraternity-santanna-palafrenieri
+  type: institutions
+  name_en: Confraternity of Sant'Anna dei Palafrenieri
+  title: 圣安娜教皇马夫善会（Confraternity of Sant'Anna dei Palafrenieri）
+  name_original: ''
+  language_original: ''
+- slug: institutions/detroit-institute-of-arts
+  type: institutions
+  name_en: Detroit Institute of Arts
+  title: 底特律艺术学院（Detroit Institute of Arts）
+  name_original: ''
+  language_original: ''
 - slug: institutions/fabbrica-di-san-pietro
   type: institutions
   name_en: '"Fabbrica di S. Pietro"'
   title: '"圣彼得营造管理机构（Fabbrica di S. Pietro）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/galleria-borghese
+  type: institutions
+  name_en: Galleria Borghese
+  title: 博尔盖塞美术馆（Galleria Borghese）
+  name_original: ''
+  language_original: ''
+- slug: institutions/galleria-doria-pamphilj
+  type: institutions
+  name_en: Galleria Doria Pamphilj
+  title: 多利亚·潘菲利美术馆（Galleria Doria Pamphilj）
+  name_original: ''
+  language_original: ''
+- slug: institutions/galleria-nazionale-arte-antica
+  type: institutions
+  name_en: Galleria Nazionale d'Arte Antica
+  title: 国立古代艺术美术馆（Galleria Nazionale d'Arte Antica）
+  name_original: ''
+  language_original: ''
+- slug: institutions/gallerie-ditalia
+  type: institutions
+  name_en: Gallerie d'Italia
+  title: 意大利画廊（Gallerie d'Italia）
+  name_original: ''
+  language_original: ''
+- slug: institutions/gemaeldegalerie-berlin
+  type: institutions
+  name_en: Gemäldegalerie Berlin
+  title: 柏林绘画馆（Gemäldegalerie Berlin）
+  name_original: ''
+  language_original: ''
+- slug: institutions/heritage-malta
+  type: institutions
+  name_en: Heritage Malta
+  title: 马耳他遗产局（Heritage Malta）
+  name_original: ''
+  language_original: ''
+- slug: institutions/hermitage-museum
+  type: institutions
+  name_en: Hermitage Museum
+  title: 艾尔米塔什博物馆（Hermitage Museum）
   name_original: ''
   language_original: ''
 - slug: institutions/jesuits
@@ -1549,16 +2071,106 @@ index:
   title: '"耶稣会（Jesuits）"'
   name_original: ''
   language_original: ''
+- slug: institutions/kimbell-art-museum
+  type: institutions
+  name_en: Kimbell Art Museum
+  title: 金贝尔艺术博物馆（Kimbell Art Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/knights-hospitaller
+  type: institutions
+  name_en: Knights Hospitaller
+  title: 医院骑士团／马耳他骑士团（Knights Hospitaller）
+  name_original: ''
+  language_original: ''
+- slug: institutions/kunsthistorisches-museum
+  type: institutions
+  name_en: Kunsthistorisches Museum
+  title: 维也纳艺术史博物馆（Kunsthistorisches Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/louvre-museum
+  type: institutions
+  name_en: Louvre Museum
+  title: 卢浮宫博物馆（Louvre Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/metropolitan-museum-of-art
+  type: institutions
+  name_en: Metropolitan Museum of Art
+  title: 大都会艺术博物馆（Metropolitan Museum of Art）
+  name_original: ''
+  language_original: ''
+- slug: institutions/museo-del-prado
+  type: institutions
+  name_en: Museo del Prado
+  title: 普拉多国家博物馆（Museo del Prado）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-gallery-london
+  type: institutions
+  name_en: National Gallery
+  title: 英国国家美术馆（National Gallery）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-gallery-of-ireland
+  type: institutions
+  name_en: National Gallery of Ireland
+  title: 爱尔兰国家美术馆（National Gallery of Ireland）
+  name_original: ''
+  language_original: ''
+- slug: institutions/odesa-museum-western-eastern-art
+  type: institutions
+  name_en: Odesa Museum of Western and Eastern Art
+  title: 敖德萨西方与东方艺术博物馆（Odesa Museum of Western and Eastern Art）
+  name_original: ''
+  language_original: ''
 - slug: institutions/oratorians
   type: institutions
   name_en: '"Oratorians"'
   title: '"奥拉托利会（Oratorians）"'
   name_original: ''
   language_original: ''
+- slug: institutions/pinacoteca-ambrosiana
+  type: institutions
+  name_en: Pinacoteca Ambrosiana
+  title: 安布罗西亚纳画廊（Pinacoteca Ambrosiana）
+  name_original: ''
+  language_original: ''
 - slug: institutions/pinacoteca-vaticana
   type: institutions
   name_en: '"Pinacoteca Vaticana"'
   title: '"梵蒂冈绘画馆（Pinacoteca Vaticana）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/pio-monte-della-misericordia
+  type: institutions
+  name_en: Pio Monte della Misericordia
+  title: 仁慈山会（Pio Monte della Misericordia）
+  name_original: ''
+  language_original: ''
+- slug: institutions/regional-museum-messina
+  type: institutions
+  name_en: Regional Museum of Messina
+  title: 墨西拿区域博物馆（Regional Museum of Messina）
+  name_original: ''
+  language_original: ''
+- slug: institutions/royal-collection
+  type: institutions
+  name_en: Royal Collection
+  title: 英国皇家收藏（Royal Collection）
+  name_original: ''
+  language_original: ''
+- slug: institutions/royal-collections-gallery
+  type: institutions
+  name_en: Royal Collections Gallery
+  title: 西班牙皇家收藏美术馆（Royal Collections Gallery）
+  name_original: ''
+  language_original: ''
+- slug: institutions/sanssouci-picture-gallery
+  type: institutions
+  name_en: Sanssouci Picture Gallery
+  title: 无忧宫画廊（Sanssouci Picture Gallery）
   name_original: ''
   language_original: ''
 - slug: institutions/schildersbent
@@ -1573,9 +2185,27 @@ index:
   title: '"戴蒂尼会（Theatines）"'
   name_original: ''
   language_original: ''
+- slug: institutions/thyssen-bornemisza-museum
+  type: institutions
+  name_en: Thyssen-Bornemisza Museum
+  title: 提森-博内米萨国家博物馆（Thyssen-Bornemisza Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/uffizi-gallery
+  type: institutions
+  name_en: Uffizi Gallery
+  title: 乌菲齐美术馆（Uffizi Gallery）
+  name_original: ''
+  language_original: ''
 - slug: institutions/victoria-and-albert-museum
   type: institutions
   name_en: '"Victoria and Albert Museum"'
   title: '"维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/wadsworth-atheneum
+  type: institutions
+  name_en: Wadsworth Atheneum Museum of Art
+  title: 沃兹沃思学会艺术博物馆（Wadsworth Atheneum Museum of Art）
   name_original: ''
   language_original: ''

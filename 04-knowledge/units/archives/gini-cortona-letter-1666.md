@@ -4,7 +4,7 @@ name_en: "Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)"
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/onorato-gini.md","note":"本章署 Gini，信经 Claretta 概述。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 415–418; print pp. 11"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -17,12 +17,25 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 383–385,415–418; print pp. 11
+  original_quotes:
+  - source_span: "lines 383–385"
+    text: |2-
+      How great, for instance, was the contrast between Pietro da Cortona and Salvator Rosa!
+      Pietro, recognised for years as the most distinguished painter in Rome, indeed in
+      Italy, refused to choose his own subjects and claimed that he had never done so in his
+  - source_span: "lines 415–418"
+    text: |2-
+      1 Letter from the Savoy Resident in Rome, Onorato Gini, in 1666, summarised bv Claretta, 1885,
+      p. 516: ‘ma prima patco apposto dal Cortona era ch’egli non voleva indursi a far ver una proposta [as
+      regards subject], allegando chc non avevane fatta alcuna in tutta la vita e che “questo sarebbe un non mai
+      volere il quadro” ’.
 - citation: 'Gaudenzio Claretta, “Relazioni d’insigni artisti e virtuosi in Roma col Duca Carlo Emanuele II di Savoia,” Archivio della Società Romana di Storia Patria 8 (1885): 511–554. Catalog record: https://opac.bibliotecabraidense.org/. Accessed 2026-09-11.'
   location: 书目记录；Haskell指p.516
   sentence_summary: 确认作者、正式题名、刊年和页段；本轮未取得论文全文。
 - citation: '“Pietro da Cortona” chronology, Kunstchronik, n.s. 23 (1912), p. 282. https://digi.ub.uni-heidelberg.de/diglit/kunstchronik1912/0294. Accessed 2026-09-11.'
   location: 1666年条目及1666-12-28后续条目
   sentence_summary: 年表据Claretta列Gini委托、Cortona卧病和要求对方提供题材，并把12月28日转委Bernini的抱怨列作另一封信。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-gini-cortona-letter-1666
 ---
 
 ## 内容
@@ -37,13 +50,10 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666) | S1；标题中的语境说明为登记用语 |
-| 作者与转引 | Onorato Gini；1666；Claretta 1885 p.516 | S1，支持范围见各条句意摘要 |
+| 名称／对应英文 | Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666) | S1 |
+| 作者与转引 | Onorato Gini；1666；Claretta 1885 p.516 | S1 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
-
-
-### 补足字段（REV-055，2026-09-11）
+### 补足字段
 
 | 文献类型 | 外交／委托代理通信 | S1 |
 | 作者身份 | Onorato Gini，Savoy驻Rome代表 | S1 |
@@ -54,14 +64,6 @@ sources:
 | 刊布链 | Gaudenzio Claretta 1885, pp.513／516及后续p.518 → Haskell与Kunstchronik年表 | S1–S3 |
 | 未决载体 | 本信月日、受文人、原档号、署地和完整原文未取得 | 本轮检索结论 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**尚无配对。** 本章引用对象保留。英文登记题名及同名 WD sitelink 未命中，不代表没有条目；原语题名、发受人／日期、原件与刊印载体或版次的定向检索交补足，不借相关人物或机构 QID。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
@@ -69,9 +71,3 @@ sources:
 |---|---|---|
 | → 作者（`authored_by`） | [奥诺拉托·吉尼（Onorato Gini）](../persons/onorato-gini.md) | 本章署 Gini，信经 Claretta 概述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 415–418; print pp. 11 |
 | → 所涉对象（`has_subject`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 383–385,415–418; print pp. 11 |
-
-S1：第一章；印刷页 11；OCR L383–385,415–418。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
-
-文件头保留 2 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已补齐作者身份、委托对象、语义主张、后续通信区别与刊布链。本卡没有独立Wikimedia身份；月日、收信人和原档仍未取得，保留为精确载体缺口。

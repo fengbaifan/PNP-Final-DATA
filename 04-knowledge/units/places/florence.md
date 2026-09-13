@@ -3,7 +3,7 @@ title: "佛罗伦萨（Florence）"
 name_en: "Florence"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -13,6 +13,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 71–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 71–83"
+    text: |2-
+      Rome was a symbol rather than a nation. The nobles who formed the papal
+      entourage still thought of themselves far more as Florentines, Bolognese or Venetians
+      than as Romans or Italians; and as the prestige of painting was at its height, it was a
+      matter of some importance for a cardinal to be able to produce several painters of dis­
+      tinction from his native city. We are told that Cardinal Maffeo Barberini (the future
+      Urban VIII) ‘was most anxious to make use of artists from his native Florence’, and
+      that Pope Gregory XV ‘was a Bolognese so there was little chance for anyone from
+      anywhere else. . . .' Ilie artists naturally made the most of their opportunities. In 1621
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L186–187
   sentence_summary: Bonati 学习旅行目的地之一。
@@ -20,6 +36,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L217–220
   sentence_summary: Florence 的 Sacchetti 与来自 Cortona 的 Pietro 形成同乡保护。
@@ -27,6 +48,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 217–220; print pp. 7
+  original_quotes:
+  - source_span: "lines 217–220"
+    text: |2-
+      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+      Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+      heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
 - citation: "Wikipedia (en), Florence, revision 1373486100. https://en.wikipedia.org/wiki/Florence. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Florence／Firenze 城市；不据城市 QID 断定某历史政体。"
@@ -42,6 +70,7 @@ sources:
 - citation: "UNESCO World Heritage Centre, Historic Centre of Florence, dossier 174quater. https://whc.unesco.org/en/list/174/. Accessed 2026-09-10."
   location: "Brief synthesis、Integrity、Authenticity 及登记元数据；未读申报书和历次边界图"
   sentence_summary: "罗马殖民城基础、阿尔诺河与历史城区；现登记面积 532 ha，与概述残留 505 ha 区分。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-florence
 ---
 
 ## 内容
@@ -111,20 +140,9 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-### 身份与外部入口
+### 身份与外部链接
 
-[英文 Wikipedia：Florence](https://en.wikipedia.org/wiki/Florence) 与 [Wikidata Q2044](https://www.wikidata.org/wiki/Q2044) 已在 REV-034 双向配对。本轮阅读全文 S6，检查 S7 的相关属性。P571 没有值，不能将其解释为“没有建城史料”。Getty TGN **7000457** 来自 P1667（normal、无引用）；尚未直接访问核验。
-
-### 正式关系与知识元导航
-
-本卡未登记正式关系。正文的[乌尔班八世](../persons/urbano-viii.md)、[罗马](rome.md)链接用于阅读导航；若建立出生、旅行、地域背景或政治迁移等关系，须逐项回核证据，不能由城市百科中的名单自动导边。
-
-### 补足状态与未决
-
-S1–S3 的第一章章页、行号和句意摘要保留。S4–S5 为身份初核，S6–S8 为详细补证。首轮名称、地理、历史及本章语境已保存，维持 source_backed。
-
-城市政体转换的确切法律日期、各建筑产权及 Bonati 行程细目尚未核到原始文献。S6 的艺术史评价、现代统计及若干年代存在概括或内部错误，不全量采用；全文阅读也不代表已读全部脚注原著。人口、交通、旅游和当代政治不作为本章所需补足字段。
-
-[初步对齐证据](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)
+- [英文 Wikipedia：Florence](https://en.wikipedia.org/wiki/Florence)
+- [Wikidata Q2044](https://www.wikidata.org/wiki/Q2044)

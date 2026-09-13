@@ -3,7 +3,7 @@ title: "米兰（Milan）"
 name_en: "Milan"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Milan, revision 1373568393. https://en.wikipedia.org/wiki/Milan. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Milan／Milano 城市，符合艺术家学习旅行语境。"
@@ -28,8 +33,8 @@ sources:
 - citation: "Treccani, Italia. https://www.treccani.it/enciclopedia/italia/. Accessed 2026-09-11."
   location: "复用本轮已读Storia moderna中3 aprile 1559整段，不是全文"
   sentence_summary: "1559年政治格局中米兰公国列为西班牙直接领有地；属于历史政权背景，不把公国视为城市同义名。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-milan
 ---
-
 
 ## 内容
 
@@ -63,12 +68,9 @@ WP现代博物馆的藏品所在地不能倒推为Bonatti旅行时的可见作�
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-**S1：第一章p.6、L186–187。** [博纳蒂](../persons/giovanni-bonati.md)与[学习旅行](../procedures/patron-funded-study-travel.md)为章内关联；未新增正式关系。城市列举不是行程顺序。
+### 身份与外部链接
 
-[Wikipedia](https://en.wikipedia.org/wiki/Milan)与[Wikidata Q490](https://www.wikidata.org/wiki/Q490)互链仍一致。S4全文已读；S5提取适用字段并核对限定词、时间精度、rank及引用。P17的多种历史政体不是城市同义名；P571约前600的限定不支持确切建城年，WP约前590亦未独立核定。Getty TGN 7005903仅为WD提供的待核入口，原站未读。
-
-WP内部大教堂规模排名及海拔不一致，未采用；将Hayez放入十七／十八世纪巴洛克语境的表述亦不采用。相关研究入口为Evelyn S. Welch《Art and Authority in Renaissance Milan》（1995），仅已读WP书目，未读书本。
-
-详细内容稿已保存；具体学习日期、观看对象、历史城区范围与精确政权转移证据尚待补，source_backed不变。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)。
+- [Wikipedia](https://en.wikipedia.org/wiki/Milan)
+- [Wikidata Q490](https://www.wikidata.org/wiki/Q490)

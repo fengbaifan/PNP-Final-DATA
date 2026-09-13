@@ -3,7 +3,7 @@ title: "画家帮（Schildersbent）"
 name_en: "Schildersbent"
 type: institution
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
@@ -13,6 +13,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 819–833; print pp. 20
+  original_quotes:
+  - source_span: "lines 819–833"
+    text: |2-
+      On a higher level, but not very edifying, were the antics of the bentveughels, the
+      colony of Dutch and Flemish artists living in Rome. The Schildersbent, a sort of mutual
+      aid society to protect the interests of Northern artists in the city, was formed in 1623?
+      It thus ran parallel to similar efforts made by the Italian artists to organise the Accademia
+      di S. Luca at just the same time. But the very name of the society—‘birds of a feather’—
+      and the absence of statutes or fixed leadership point to the differences in standing between
+      the two organisations. This did not stop the bentveughels (largely through influential
+      support) from successfully resisting the Accademia’s attempt to impose a tax on all
+      artists, including foreigners, living in Rome. Most of these Northerners lived in the
+      district around the Via Margutta near the Piazza di Spagna, and their activities inaugur­
+      ated a ‘Bohemian’ tradition which survives in the area to this day. They indulged in
+      lavish banquets, mock ceremonials and pagan ‘baptisms’ and often attracted the atten­
+      tions of the police. All this must have been fairly repugnant to the respectable artists of
+      official Rome, but it did not stop the most characteristic of the bentveughels, Pieter Van
+      Laer, from being a member of the Accademia di S. Luca.3
 - citation: "Wikipedia (en), Bentvueghels, revision 1372100851. https://en.wikipedia.org/wiki/Bentvueghels. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "罗马北方艺术家社群 Bentvueghels 与 Schildersbent 同指；成立年精度不在此裁定。"
@@ -28,6 +46,7 @@ sources:
 - citation: "The Phoebus Foundation, “The Bentvueghels”. https://phoebusfoundation.org/en/agenda/the-bentvueghels/ Accessed 2026-09-11."
   location: "2023年Centraal Museum展览介绍及Jan Miel图注全文"
   sentence_summary: "17世纪早期罗马北方艺术家团体；借展说明不代替历史成员名录。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-schildersbent
 ---
 
 ## 内容
@@ -71,8 +90,3 @@ sources:
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [画家帮成立（1623）（Formation of the Schildersbent (1623)）](../events/schildersbent-formation-1623.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；原断言与证据见发出端卡片“画家帮成立（1623）（Formation of the Schildersbent (1623)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
 | ← 包含成员（`contains`，反向投影） | [彼得·范拉尔（Pieter van Laer）](../persons/pieter-van-laer.md) | 本章所述画家帮成员 Van Laer，同时有学院会员身份；原断言与证据见发出端卡片“彼得·范拉尔（Pieter van Laer）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–833; print pp. 20 |
-
-- S1：第一章，印刷页20，OCR L819–833；S2–S3初步对齐；S4–S5本次全文与WD字段；S6为2023年展览介绍全文。
-- Wikipedia中范拉尔与学院的说法引用Haskell，不能把它算作独立于本章的第二证据。展览借出Jan Miel作品的清单也不代替完整历史成员名册。
-- 当前没有正式关系；成立事件与持续组织分开。罗萨成员身份、本章每人的入会和别名仍须个案证据。
-- 未决：成立日期异文、1720禁令原文、完整成员与活动地点证据。来源支持状态维持 source_backed，未宣称所有史实验证完成。

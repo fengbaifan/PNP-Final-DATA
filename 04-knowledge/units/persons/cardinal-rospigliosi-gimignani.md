@@ -3,7 +3,7 @@ title: "朱利奥·罗斯皮廖西（Giulio Rospigliosi）"
 name_en: "Giulio Rospigliosi"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
@@ -13,6 +13,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 186–187; print pp. 6
+  original_quotes:
+  - source_span: "lines 186–187"
+    text: |2-
+      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
 - citation: "Wikipedia (en), Pope Clement IX, revision 1371781522. https://en.wikipedia.org/wiki/Pope_Clement_IX. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "同书索引 L2804–2805 将第 6 页注指向 Giulio Rospigliosi／Clement IX，形成 Q155961 候选；未核清与其他 Rospigliosi 枢机及父子 Gimignani 的保护关系，暂不确认旅行赞助人同指。"
@@ -26,6 +31,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/22_CHP-22Index.md
     source_span: "lines 2804\u20132805; print pp. 467"
+  original_quotes:
+  - source_span: "lines 2804–2805"
+    text: |2-
+      Rospigliosi, Giulio (Pope Clement EX), 6n, 57-9,
+         161, 401
 - citation: "Wikipedia (en), Pope Clement IX, revision 1371781522. https://en.wikipedia.org/wiki/Pope_Clement_IX. Accessed 2026-09-11."
   location: "正文、信息框、图注、作品表及参考文献全文阅读；24168字符"
   sentence_summary: "身份与Giulio Rospigliosi相同；补角色、职业和剧作线索。生日、亲属名及教育年份存在与专业传记差异；条目引注不足提示保留。"
@@ -38,6 +48,7 @@ sources:
 - citation: "Luciano Osbat, CLEMENTE IX, papa, Dizionario Biografico degli Italiani, vol. 26 (1982). https://www.treccani.it/enciclopedia/papa-clemente-ix_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "选读出生与洗礼、家庭、学习及早期履历；1653返罗马、1657授枢机、1667当选、1669去世与著述导段；不是整篇全文阅读"
   sentence_summary: "生日1600-01-27，次日洗礼；父Girolamo、母Maria Caterina；比萨1623哲学讲师、1624学位。1644西班牙任职到1653回国，不能称整个1644–1655年退隐。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-cardinal-rospigliosi-gimignani
 ---
 
 ## 内容
@@ -110,12 +121,7 @@ sources:
 |---|---|---|
 | ← 赞助者／保护人（`patron_of`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](lodovico-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
 
-**书内来源：** S1第一章p.6、L186–187记保护与旅行；S4索引p.467、L2804–2805将此页注指向Giulio Rospigliosi。S2–S3保留初步候选判断的历史；S5–S8是本轮身份和内容补证。
+### 身份与外部链接
 
-**对齐修订（REV-052）：** S4书内指向与S7明确旅行赞助人姓名相合；英文[Wikipedia](https://en.wikipedia.org/wiki/Pope_Clement_IX)的wikibase_item和[Wikidata Q155961](https://www.wikidata.org/wiki/Q155961)的enwiki指向相互一致，现由候选改为身份配对通过。生日及家属名的差异是属性冲突，不再阻断该身份对应；整卡仍为source_backed。
-
-相关对象：[洛多维科·吉米尼亚尼](lodovico-gimignani.md)、[乔瓦尼·博纳蒂](giovanni-bonati.md)、[资助学习旅行](../procedures/patron-funded-study-travel.md)、[威尼斯](../places/venice.md)、[帕尔马](../places/parma.md)。这些是内容导航；本卡未新增正式关系边。
-
-**旅行证据差异：** S7列Guglielmo Cortese和Giovanni Bonati同行；Gimignani的DBI传记另列G.B. Gaulli，不能合并成已确认的四人同行团。章内资助叙述、现代重定年及完整旅程／支付条件仍分开；不能让一个已确认姓名替代所有行程事实。
-
-详细稿已保存；家庭异名、学位原档、作品版本、资助支付与同行者仍有缺口。[对齐记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)及[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定路径定位。
+- [Wikipedia](https://en.wikipedia.org/wiki/Pope_Clement_IX)
+- [Wikidata Q155961](https://www.wikidata.org/wiki/Q155961)

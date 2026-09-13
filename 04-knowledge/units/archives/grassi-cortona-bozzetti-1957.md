@@ -4,7 +4,7 @@ name_en: "Grassi's Article on Cortona and the Bozzetti for the Doria Pamphili Ga
 type: archive
 sub_type: scholarly_article
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_subject","target":"works/cortona-doria-pamfili-modelli-disputed.md","note":"Grassi 论文主张的归属对象；论文存在不证明归属成立。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 461–463; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,6 +16,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 461–463; print pp. 12
+  original_quotes:
+  - source_span: "lines 461–463"
+    text: |2-
+      1 L. Grassi published in 1957 what he claimed to be a series of modelli by Pietro da Cortona for the
+      ceiling of the galleria in the Palazzo Doria-Pamfili, but these have not won general acceptance—see
+      Brigand, 1962, p. 251. Nor is the so-called bozzetto for the Barberini Salone, kept in the palace, at all
 - citation: Haskell，同书书后书目；仅核对当前引文条目。
   location: 同书书目（非第一章）；印刷页 424；OCR L546–547
   evidence_ref:
@@ -23,9 +29,15 @@ sources:
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 546–547; print p. 424
   sentence_summary: 书目列 L. Grassi 的 Pietro da Cortona e i “bozzetti” per la Galleria di Palazzo Doria Pamphili，Bollettino d’Arte，1957，28–43 页。
+  original_quotes:
+  - source_span: "lines 546–547"
+    text: |2-
+      Grassi, L.: ‘Pietro da Cortona e i “bozzetti” per la Galleria di Palazzo Doria Pamphili’ in
+      Bollettino d’Arte, 1957, pp. 28-43. -
 - citation: 'Luigi Grassi, “Pietro da Cortona e i ‘bozzetti’ per la Galleria di Palazzo Doria Pamphili,” Bollettino d’Arte, ser. IV, 42, no. 1 (January–March 1957): 28–43. Ministero della Cultura. https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1482234949180_07_-_Grassi_28.pdf. Accessed 2026-09-11.'
   location: 全文 pp. 28–43；22幅图与38条注释
   sentence_summary: 全文从Cortona的绘画语言和装饰空间出发，研究Doria Pamphili宫画廊壁画及罗马Patrizi收藏的七件油画bozzetti；提出约1651末至1652初的年代、逐件比对构图与笔触，并把bozzetti视为技术上完成的表达阶段。
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-grassi-cortona-bozzetti-1957
 ---
 
 ## 内容
@@ -50,26 +62,9 @@ sources:
 | 重要区分 | bozzetti被视为技术和表达上已完成的阶段，不等同于未完成速写；画廊cartoni仍待重新识别 | S3 pp.35、42 |
 | 论证边界 | 作者承认部分壁画可见助手参与；具体归属仍应与后续研究对读 | S3 pp.38–42 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。 未具原题的文献按责任者、日期或用途描述定位，未新建来源原件。
-
-
-### 初步对齐（REV-034，2026-09-10）
-
-**文献身份已由期刊原文定位。** 该论文没有适用的独立 Wikipedia／Wikidata 条目，不借作者、期刊或作品QID。文化部《Bollettino d’Arte》官网提供的题名、作者、卷期、页码和完整PDF与Haskell书目一致。
-
-未采用确认 QID；已读候选与排除依据、英文查询和适用原语回退均见下列证据记录。精确标题未命中不等于全面搜索后证明没有条目。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 所涉对象（`has_subject`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | Grassi 论文主张的归属对象；论文存在不证明归属成立；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 461–463; print pp. 12 |
-
-S1：第一章；印刷页12；OCR L461–463。S2：同书书目；印刷页424；OCR L546–547。S3：意大利文化部《Bollettino d’Arte》全文PDF，pp.28–43，本轮逐页读完。归属、年代和风格判断均标为Grassi的论证，不提升为档案事实。
-
-文件头保留 1 条既有正式关系及各自 note、evidence_ref。本轮未新增或改写这些关系；内容中的角色或提及不自动成为新边。
-
-**本轮补足结论（REV-055）：** 已从官方期刊站阅读全文，补齐正式题名、作者全名、卷期页码、对象、方法、归属与年代意见、论证边界及图版范围。本卡作为研究文献已经闭合；其归属结论保持“作者判断”证据层级。

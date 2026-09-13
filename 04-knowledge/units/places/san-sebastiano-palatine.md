@@ -3,7 +3,7 @@ title: "帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）"
 name_en: "S. Sebastiano on the Palatine"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -13,6 +13,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 336–338; print pp. 10
+  original_quotes:
+  - source_span: "lines 336–338"
+    text: |2-
+      include. Urban VIII, for instance, commissioned an altarpiece for the church of S.
+      Sebastiano on the Palatine to represent ‘the martyrdom of St Sebastian, with eight
+      figures’ which were evidently left to the discretion of the painter.1
 - citation: "Wikipedia (en), San Sebastiano al Palatino, revision 1368485604. https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "帕拉蒂尼山 San Sebastiano al Palatino 教堂，排除罗马其他圣塞巴斯蒂安堂。"
@@ -31,6 +37,7 @@ sources:
 - citation: "Fraternità Monastiche di Gerusalemme, San Sebastiano al Palatino. https://sansebastiano.fraternita-gerusalemme.it/home. Accessed 2026-09-11."
   location: "当前入口页公开正文已读，限教堂名称及团体使用；不作17世纪建造／产权史料。"
   sentence_summary: "名称San Sebastiano al Palatino和罗马修院团体活动入口，不能以团体使用推定建筑所有权。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-san-sebastiano-palatine
 ---
 
 ## 内容
@@ -61,10 +68,6 @@ sources:
 - 1973年成为领衔教堂；不把这一现代状态倒推为本章17世纪委托制度。[S4]
 - 后殿保留中世纪壁画，内部[Camassei祭坛画](../works/camassei-martyrdom-saint-sebastian.md)是另一时期作品。[S4、S6]
 
-### 身份对齐
-
-[Wikipedia](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino) ↔ [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605)复用双向结果，英文5848字符全文已读。WD建立时间精度为7（世纪），不将序列化的0901-01-17写成创建日。
-
 ## 关系与证据
 
 ### 关系记录
@@ -72,6 +75,7 @@ sources:
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 委托的指定安装场所，非今日现场核验；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338; print pp. 10 |
 
-无既有正式关系。S1第一章第10页L336–338保留；S2–S7为对齐及补足。教堂官网本轮只支持当代名称和活动主体；历史叙述采用S4并保留范围。
+### 身份与外部链接
 
-圣徒受难地点属于传统叙事，不能以传说证明建筑年代。与San Sebastiano fuori le mura分开；未核具体产权连续链、设计师和全部修复记录，不把当前领衔者或团体写成建筑所有人。
+- [Wikipedia](https://en.wikipedia.org/wiki/San_Sebastiano_al_Palatino)
+- [Wikidata Q787605](https://www.wikidata.org/wiki/Q787605)

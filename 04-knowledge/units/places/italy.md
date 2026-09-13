@@ -3,7 +3,7 @@ title: "意大利（Italy）"
 name_en: "Italy"
 type: place
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 4.'
@@ -13,6 +13,26 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 58–59,71–83; print pp. 4
+  original_quotes:
+  - source_span: "lines 58–59"
+    text: |2-
+      themselves with a crowd of relatives, friends and clients who poured into Rome from
+      all over Italy to seize the many lucrative posts that changed with each change of govern­
+  - source_span: "lines 71–83"
+    text: |2-
+      Rome was a symbol rather than a nation. The nobles who formed the papal
+      entourage still thought of themselves far more as Florentines, Bolognese or Venetians
+      than as Romans or Italians; and as the prestige of painting was at its height, it was a
+      matter of some importance for a cardinal to be able to produce several painters of dis­
+      tinction from his native city. We are told that Cardinal Maffeo Barberini (the future
+      Urban VIII) ‘was most anxious to make use of artists from his native Florence’, and
+      that Pope Gregory XV ‘was a Bolognese so there was little chance for anyone from
+      anywhere else. . . .' Ilie artists naturally made the most of their opportunities. In 1621
+      Cardinal Ludovisi was elected Pope. Domenichino had some years earlier returned to his
+      native Bologna after a quarrel with Cardinal Borghese, but ‘this news caused him great
+      excitement, as the new Pope was a compatriot of his and the uncle of one of his friends’,
+      and so he hurried back to Rome where he was made Vatican architect by the Pope’s
+      nephew Ludovico.4
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 14, 15.'
   location: 第一章；印刷页 14, 15；OCR L559–561,575–590
   sentence_summary: Rome 吸引各地艺术家，称 richest city in Italy，不扩大为 Europe。
@@ -20,6 +40,30 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 559–561,575–590; print pp. 14, 15
+  original_quotes:
+  - source_span: "lines 559–561"
+    text: |2-
+      of the functions of a capital. She was the richest city in Italy, and by her very nature as
+      an international centre she attracted visitors and residents from all over the peninsula,
+      --and indeed Europe. To artists her appeal was twofold: on the one hand, as we have
+  - source_span: "lines 575–590"
+    text: |2-
+      seen, the aristocrats were anxious to have painters of their own nationality in their
+      entourage, and so did everything possible to invite them to Rome; on the other hand,
+      the artists themselves felt that Rome alone offered them sufficient scope and rewards
+      for their talents. The process was self-generating: supply and demand reinforced each
+      other. There was, further, the overwhelming attraction of the city’s great monuments,
+      ancient and modern, at a time when the classical tradition was still of paramount
+      importance. Rome herself was notoriously deficient in giving birth to artists, and so the
+      city became the focus of a constantly shifting population of painters and dilettantes in
+      search of each other. Moreover, new blood—new Venetian or Bolognese or Neapolitan
+      blood—frequently brought about drastic changes as one régime succeeded another and
+      supplanted its favoured artists. And underlying this was one constant threat. Only the
+      family that actually had its hand in the treasury was able to provide patronage on the
+      enormous scale that was associated with ruling clans such as the Borghese and the
+      Barberini. Should there be, for some reason or another, any financial restriction, it was
+      obvious that a very large number of artists, previously engaged in regular employment,
+      would be thrown on to the market.
 - citation: "Wikipedia (en), Italy, revision 1374016596. https://en.wikipedia.org/wiki/Italy. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "英文 Q38 主要描述现代意大利国家，本章是历史地理／文化范围；不据该配对赋予统一现代国家身份，按时期补足。"
@@ -35,6 +79,7 @@ sources:
 - citation: "Treccani, Enciclopedia on line, “Italia”. https://www.treccani.it/enciclopedia/italia/. Accessed 2026-09-11."
   location: "导言自然地区与国家区分；Storia moderna中1559年安排的完整段落及下一节开头；非整篇阅读"
   sentence_summary: "区分自然地域与意大利国家；1559年后地域包含西班牙直接领地、具有不同依赖程度的邦国和自主政体，不能把17世纪的城市和艺术家都赋予单一现代国家身份。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-italy
 ---
 
 ## 内容
@@ -72,12 +117,4 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
-
-| 地点入口 | 对应卡 | 状态 |
-|---|---|---|
-| 罗马 | [Rome](rome.md) | S1、S2；中心城市语境 |
-| 威尼斯 | [Venice](venice.md) | 按城市卡理解，政治共和国另取证 |
-| 佛罗伦萨／博洛尼亚 | [Florence](florence.md)／[Bologna](bologna.md) | 地点导航，不新增正式隶属边 |
-
-S1为第一章p.4，OCR L58–59、71–83；S2为pp.14–15，L559–561、575–590；外部来源S5–S7的范围见头部。当前本卡无正式关系，范围配对未确认，evidence_status仍为source_backed。[补足记录](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)保留候选与边界裁决。
+暂无正式关系。

@@ -3,7 +3,7 @@ title: "卡洛·切萨雷·马尔瓦西亚（Carlo Cesare Malvasia）"
 name_en: "Carlo Cesare Malvasia"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 16.'
@@ -13,6 +13,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 630–638,657–658; print pp. 16
+  original_quotes:
+  - source_span: "lines 630–638"
+    text: |2-
+      to be great. The Bolognese writer Malvasia puts into Pope Paul V’s mouth words
+      which echo the painter’s aspirations though they did not altogether correspond to the
+      realities of the situation: ‘Pictoribus, atque Poetis, omnia licent; we must put up with these
+      great men because that excess of spirit which makes them great is the same that leads
+      them to tills strange behaviour.’1 We might be living in the pages of Benvenuto
+      Cellini’s autobiography; but the difficulties faced by a number of artists who failed to
+      conform to orthodox moral standards show that this was far from being the case. None
+      the less, the leading artists of the day were given very great authority and treated with
+      very great respect. We have letters to Bernini from high prelates, princes and others
+  - source_span: "lines 657–658"
+    text: |2-
+      1 Even Malvasia is rather diffident about claiming that the Pope actually spoke these words—‘corre
+      voce’ is his formula for introducing them—Malvasia, II, p. 27.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L884–889
   sentence_summary: Malvasia 被置于艺术家特殊气质的观念史论述。
@@ -20,6 +36,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 884–889; print pp. 21
+  original_quotes:
+  - source_span: "lines 884–889"
+    text: |2-
+      until the eighteenth that it hardened into an article of belief.2 Paul V’s alleged comments
+      about Guido Reni, quoted on an earlier page, may suggest that that Pope was among
+      the first to recognise that some degree of eccentricity was inherent in the make-up of
+      an artist; it is, unfortunately, our knowledge that this recognition was so much more
+      current in Malvasia’s own time, many years later than the reported conversation, that
+      encourages us to be sceptical about its probability. In 1676, for instance, the Resident
 - citation: "Wikipedia (en), Carlo Cesare Malvasia, revision 1371408601. https://en.wikipedia.org/wiki/Carlo_Cesare_Malvasia. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Carlo Cesare Malvasia，博洛尼亚艺术史作者；排除同名葡萄品种页。"
@@ -32,6 +57,7 @@ sources:
 - citation: "Wikidata, Q1160847, revision 2527442273. https://www.wikidata.org/wiki/Q1160847. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-carlo-cesare-malvasia
 ---
 
 ## 内容
@@ -46,20 +72,15 @@ sources:
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
-| 名称／对应英文 | Malvasia | S1、S2；标题中的语境说明为登记用语 |
-| 来源限定 | 博洛尼亚作者；corre voce 标示传闻 | S1、S2，支持范围见各条句意摘要 |
+| 名称／对应英文 | Malvasia | S1、S2 |
+| 来源限定 | 博洛尼亚作者；corre voce 标示传闻 | S1、S2 |
 
-规范显示沿用已能确认的名称；尚未外核的中文音译及说明性译名为本项目暂译，不声称官方命名。
-
-
-### 本轮结构化补足（REV-055，2026-09-11）
+### 结构化信息
 
 **语义摘要：** 博洛尼亚学者、艺术史作者和传记家，主要著作是1678年《Felsina pittrice》；其艺术家逸闻须作为作者叙述审读，不能直接等同事件事实。
 
 | 字段 | 当前值 | 依据／状态 |
 |---|---|---|
-| Wikipedia全文 | Carlo Cesare Malvasia（en）；revision 1371408601；10160字符 | 全文覆盖：Early life、Career、Works、Felsina pittrice, vite de’ pittori bolognesi、References、External links |
-| Wikidata身份 | [Q1160847](https://www.wikidata.org/wiki/Q1160847)；与enwiki标题双向一致 | revision 2527442273；只采用下列适用字段 |
 | 性别 | 男 | Wikidata P21；有参考 |
 | 出生日期 | 1616-12-18 | Wikidata P569；有参考 |
 | 去世日期 | 1693-03-10 | Wikidata P570；有参考 |
@@ -71,23 +92,12 @@ sources:
 | 任职机构 | 博洛尼亞大學 | Wikidata P108；未列参考 |
 | 成员身份 | Accademia degli Umoristi；Accademia dei Gelati | Wikidata P463；未列参考 |
 
-### 初步对齐（REV-034，2026-09-10）
-
-**身份配对通过。** Carlo Cesare Malvasia，博洛尼亚艺术史作者；排除同名葡萄品种页。
-
-名称记录：规范显示为 卡洛·切萨雷·马尔瓦西亚（Carlo Cesare Malvasia）；原登记名／来源名形 Malvasia 保留为检索异名，不因显示更新改动稳定路径。
-
-[Wikipedia（en）](https://en.wikipedia.org/wiki/Carlo_Cesare_Malvasia) 的 wikibase_item 与 [Wikidata Q1160847](https://www.wikidata.org/wiki/Q1160847) 的 enwiki sitelink 双向一致；已比较上列身份特征。仅确认该对象身份，不据此接收整页史实、全部 WD 属性或新增关系。
-
-[身份对齐证据与检索记录](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl)按本卡稳定键定位。整卡 evidence_status 仍为 source_backed；关系定稿见本卡上表，外部事实继续按各条证据范围解释。
-
 ## 关系与证据
 
 ### 关系记录
-本次集中审查未接收本卡的正式关系。正文中的共现、属性值和导航链接不自动成边。
+暂无正式关系。
 
-S1：第一章；印刷页 16；OCR L630–638,657–658；S2：第一章；印刷页 21；OCR L884–889。编号按文件头 sources 顺序对应。句意摘要是转述；具体条目支持范围以该条的章页／行号为准，不能把一个出处视为整卡全部内容的证明。
+### 身份与外部链接
 
-
-
-**本轮补足结论（REV-055）：** 已完成Wikipedia全文阅读、Wikidata完整实体提取及双向身份复核；按类型写入结构字段并标注Wikidata声明的参考状态。未列字段表示本轮来源不足，不表示对象没有该属性；具体关系仍须由直接证据支持。
+- [Q1160847](https://www.wikidata.org/wiki/Q1160847)
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Carlo_Cesare_Malvasia)

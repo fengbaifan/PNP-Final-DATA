@@ -3,7 +3,7 @@ title: "亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto�
 name_en: "Alessandro Peretti-Montalto"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"kin_of","target":"persons/sixtus-v.md","note":"原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 68–70; print pp. 4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"侄辈","scope":"第一章明确的亲缘称谓；不据此补造父母链"}
@@ -16,6 +16,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 68–70; print pp. 4
+  original_quotes:
+  - source_span: "lines 68–70"
+    text: |2-
+      It was especially noted of Cardinal Alessandro Peretti-Montalto, nephew of Pope Sixtus
+      V, that he was still respected and loved even after the death of that Pope, and that
+      artists continued to work for him.3 This was evidently not the usual state of affairs.
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 5, 6.'
   location: 第一章；印刷页 5, 6；OCR L139–141,147–152
   sentence_summary: Peretti-Montalto 承接他人已开始的 S. Andrea della Valle 工程；跨页引文不等于首次创立。
@@ -23,6 +29,20 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 139–141,147–152; print pp. 5, 6
+  original_quotes:
+  - source_span: "lines 139–141"
+    text: |2-
+      it was objected to him’, we are told of Cardinal Alessandro Peretti-Montalto,1 ‘that it
+      was not suitable for him to follow in a building [S. Andrea della Valle] which had been
+      begun by someone else, he despised such human considerations and carried on with
+  - source_span: "lines 147–152"
+    text: |2-
+      his plans to the glory of God. . . .' Much more usually, however, the completion and
+      decoration of new churches were carried out by wealthy but politically unimportant
+      patrons, who were not in touch with the most modern artists of the day and who
+      were thus compelled to fall back on well-established favourites. It is therefore para­
+      doxically true that a well-informed traveller in about 1620 would have found that most
+      of the best modern paintings in Rome were in the oldest churches.
 - citation: "Wikipedia (en), Alessandro Peretti di Montalto, revision 1369317801. https://en.wikipedia.org/wiki/Alessandro_Peretti_di_Montalto. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Alessandro Damasceni Peretti di Montalto，Sixtus V 的侄孙枢机，世代关系符合章中语境。"
@@ -35,6 +55,7 @@ sources:
 - citation: "Wikidata, Q82659, revision 2522280058. https://www.wikidata.org/wiki/Q82659. Accessed 2026-09-10."
   location: "P21/P569/P570/P19/P20/P25/P39/P214/P245；审查P27未采用；REV-052"
   sentence_summary: "保留年精度出生、日精度死亡及职务起止；P27所指波兰立陶宛联邦不能由保护枢机职务证明为国籍。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-alessandro-peretti-montalto
 ---
 
 ## 内容
@@ -58,7 +79,7 @@ sources:
 | 卒日 | 1623年6月2日；WD公历日精度 | S5、S6 |
 | 出生地 | Montalto delle Marche（蒙塔尔托-德莱马尔凯） | S5、S6 |
 | 去世地 | [罗马（Rome）](../places/rome.md) | S5、S6 |
-| 国籍 | 未核定；WD的波兰立陶宛联邦国籍项未采用 | S6；详见未决项 |
+| 国籍 | 未核定；WD的波兰立陶宛联邦国籍项未采用 | S6；[异文记录](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-alessandro-peretti-montalto) |
 | 身份标签：枢机 | 后任阿尔巴诺主教级枢机 | S5、S6 |
 | 身份标签：赞助人 | 建筑、音乐及戏剧赞助 | S2、S5 |
 
@@ -106,10 +127,5 @@ S1，第4页L68–70：西斯笃五世死后，其亲属枢机仍受尊重并雇
 
 ### 身份与外部链接
 
-[Wikidata Q82659](https://www.wikidata.org/wiki/Q82659) ↔ [Wikipedia：Alessandro Peretti di Montalto（英文）](https://en.wikipedia.org/wiki/Alessandro_Peretti_di_Montalto)。沿用REV-034配对；REV-052已全文阅读并逐字段审查。ULAN 500354026、VIAF 62291064为WD给出的标识，未核规范库原页。
-
-### 证据与未决项
-
-S1–S2为原章，S3–S4为历史身份核对，S5–S6为本轮全文及实际字段。WP页面提示缺少行内注释，所列馆藏、具体赞助日期和亲属细节仍需原档或机构目录支持。WD P27的目标Q172107实际标签为Polish–Lithuanian Commonwealth，且无引用；本轮不采作国籍，不将保护枢机职务转成公民身份。WD无引用的其他兄弟姐妹项暂不写入。以上未决不影响已有章内亲属边，但限制由其派生的新关系。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+- [Wikidata Q82659](https://www.wikidata.org/wiki/Q82659)
+- [Wikipedia：Alessandro Peretti di Montalto（英文）](https://en.wikipedia.org/wiki/Alessandro_Peretti_di_Montalto)

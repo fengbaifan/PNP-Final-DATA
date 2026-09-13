@@ -4,7 +4,7 @@ name_en: "Letter from Fulvio Testi to Francesco Fontana"
 type: archive
 sub_type: letter
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/fulvio-testi.md","note":"本章明确书信作者。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 699–703; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -19,9 +19,18 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/01_CHP-1.md
       source_span: "lines 699–703; print pp. 17"
+    original_quotes:
+    - source_span: "lines 699–703"
+      text: |2-
+        1 By the Englishman Thomas Baker for his bust now in the Victoria and Albert Museum—Baldi­
+        nucci, 1948, p. 89. A letter from Fulvio Testi to Conte Francesco Fontana published by Fraschetti (p. 108)
+        shows the_prices that Bernini could command in 1633—a statue would be worth 4000 or 5000 scudi;
+        he was paid 1000 scudi for the head of Cardinal Borghese; he received a regular salary of 300 scudi a month
+        from the Fabbrica di S. Pietro.
   - citation: 'Stanislao Fraschetti, Il Bernini: la sua vita, la sua opera, il suo tempo (Milano: Ulrico Hoepli, 1900), ch. 12, p. 108, n. 1. https://resources.warburg.sas.ac.uk/pdf/cnd2275b2242323.pdf. Accessed 2026-09-09.'
     location: "第十二章，印刷页 108 正文及注 1（PDF 第 158 页）；刊引全文与扫描页已读，连读印刷页 107–110 的上下文"
     sentence_summary: "转述：注 1 刊引信件，信末署罗马 1633-01-29；正文记贝尔尼尼的报酬、交谈和戏剧活动、赠送素描及为泰斯蒂制作肖像的意向与进度。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-testi-fontana-bernini-letter
 ---
 
 ## 内容
@@ -90,20 +99,3 @@ Haskell 以信中几个不同性质的金额说明贝尔尼尼的报酬。补读
 | → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](../persons/francesco-fontana.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 | → 所涉对象（`has_subject`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 | → 所涉对象（`has_subject`） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；证据：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
-
-### 身份与证据范围
-
-尚无该封具体书信的 Wikipedia—Wikidata 配对。英文及意大利语查询未定位对象页，不证明条目不存在，也不以作者或胸像 QID 代替。S2 支持刊本文字及信末信息，不能替代手稿核验；整卡仍为 source_backed。语言字段描述所读刊引，不冒称完成原手稿语言鉴定。
-
-### 待补
-
-| 字段／问题 | 状态 |
-|---|---|
-| 手稿原件 | 未核 |
-| 今日保管机构 | 未核 |
-| 索书号 | 未核 |
-| Campori 初刊题名、日期及版次 | 未核 |
-| 收信人进一步身份 | 见人物卡带依据的判断；同名消歧仍有缺口 |
-| 具体作品及付款原据 | 不能仅凭信中转述补定版本与支付事实 |
-
-S1–S2 对应元数据 sources 顺序。REV-016 补漏、REV-028–030 补证及本轮整理的过程见[knowledge.md](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md)；固定路径原位更迭。

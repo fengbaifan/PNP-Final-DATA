@@ -3,7 +3,7 @@ title: "保禄五世（Paul V）"
 name_en: "Paul V"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"granted_privilege_to","target":"institutions/accademia-di-san-luca.md","note":"1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 687–689; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1605","role":"年度赦免权授予者","scope":"圣路加节释放一名死刑犯的权利；据第一章转述"}
@@ -16,6 +16,11 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 26–27; print pp. 3
+  original_quotes:
+  - source_span: "lines 26–27"
+    text: |2-
+      Urban’s immediate predecessors, Paul V (1605-1621) and to a lesser extent Gregory
+      XV (1621-1623), had set a pattern which he was content to follow. The completing of
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 17.'
   location: 第一章；印刷页 17；OCR L687–689
   sentence_summary: 1605 年准学院在圣路加节每年释放一名死刑犯。
@@ -23,6 +28,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 687–689; print pp. 17
+  original_quotes:
+  - source_span: "lines 687–689"
+    text: |2-
+      the mechanical crafts’, recognised the clerk of the Apostolic Chamber in 1601, and in
+      1605 Paul V granted the Accademia the annual right on the feast of St Luke to free one
+      man condemned to death. These were steps in the right direction, but hardly decisive
 - citation: "Wikipedia (en), Pope Paul V, revision 1362444318. https://en.wikipedia.org/wiki/Pope_Paul_V. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Camillo Borghese／Paul V，1605–1621 年在位教皇；与 Scipione 分开。"
@@ -41,6 +52,7 @@ sources:
 - citation: "Silvano Giordano, PAOLO V, papa, Dizionario Biografico degli Italiani, vol.81 (2014). https://www.treccani.it/enciclopedia/papa-paolo-v_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "出生、法律教育、早期任职、1605选举／加冕与Scipione段定向阅读；非传记全文；REV-052"
   sentence_summary: "1552年9月17日出生；1569罗马法律博士；1603罗马代牧与1605当选；具体亲属及早期职务。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-paul-v
 ---
 
 ## 内容
@@ -116,12 +128,5 @@ S1：p.3，L26–27，1605–1621在位及先前赞助。S2：p.17，L687–689�
 
 ### 身份与外部链接
 
-[Wikidata Q132711](https://www.wikidata.org/wiki/Q132711) ↔ [Wikipedia：Pope Paul V（英文）](https://en.wikipedia.org/wiki/Pope_Paul_V)。REV-034配对沿用，REV-052已全文阅读。ULAN 500257409、VIAF 5065712据WD提取，原站未核。
-
-### 证据与未决项
-
-S1–S2是章内来源，S3–S4为身份核对，S5为本轮WP全文，S6为WD实际字段，S7为教廷人物表，S8为有范围的传记补证。
-
-生年1550／1552未伪作一致，当前采用S8所记1552。WD列多个大学但引用范围不一，不把所有P69标签直接拼成就学履历。Jesi任命年及离任日有差异，待核任命文书。WP册封段列1621年8月的活动，晚于其去世，未采用；伽利略、猞猁学院及萨尔皮事件不凭单页混合叙述新建关系。原始档案和完整委托清单尚未读。
-
-[补足证据](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)按稳定键及REV-052定位。整体保持source_backed。
+- [Wikidata Q132711](https://www.wikidata.org/wiki/Q132711)
+- [Wikipedia：Pope Paul V（英文）](https://en.wikipedia.org/wiki/Pope_Paul_V)

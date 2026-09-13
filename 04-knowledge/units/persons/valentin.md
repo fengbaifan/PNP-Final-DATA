@@ -3,7 +3,7 @@ title: "瓦朗坦·德·布洛涅（Valentin de Boulogne）"
 name_en: "Valentin de Boulogne"
 type: person
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
@@ -13,6 +13,13 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 389–392; print pp. 11
+  original_quotes:
+  - source_span: "lines 389–392"
+    text: |2-
+      a reputation for particular subjects. Thus it was that one collector called on the French
+      painter Valentin, who specialised in Caravaggesque genre scenes, and asked him for ‘a
+      large picture with people among whom were to be a gipsy woman, soldiers and other
+      women playing musical instruments’.3
 - citation: "Wikipedia (en), Valentin de Boulogne, revision 1365070292. https://en.wikipedia.org/wiki/Valentin_de_Boulogne. Accessed 2026-09-10."
   location: "导言身份段；REV-034 初步对齐，非全文补足"
   sentence_summary: "Valentin de Boulogne，1591–1632 年法国画家，符合罗马风俗画委托语境；排除人名词条。"
@@ -28,6 +35,7 @@ sources:
 - citation: "The National Gallery, Valentin de Boulogne. https://www.nationalgallery.org.uk/artists/valentin-de-boulogne Accessed 2026-09-11."
   location: "完整艺术家简介及关联《人的四个年龄》介绍，758字符；未读关联图录"
   sentence_summary: "父亲同名的有保留识别、1620年罗马记录、1629–1630年殉教图及寓意绘画。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-valentin
 ---
 
 ## 内容
@@ -77,10 +85,7 @@ Annick Lemoine与Keith Christiansen的《Valentin de Boulogne: Beyond Caravaggio
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）](../works/valentin-genre-commission.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；原断言与证据见发出端卡片“瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）”：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
 
-### 身份与来源定位
+### 身份与外部链接
 
-已复用初步配对并核对 [Wikipedia（en）](https://en.wikipedia.org/wiki/Valentin_de_Boulogne) ↔ [Wikidata Q1337275](https://www.wikidata.org/wiki/Q1337275)。本次读页不改变整卡 source_backed 状态；章节、页码、行号和句意摘要保留在统一元数据，S编号依 sources 顺序。配对与采集证据在 03-processing 同任务包按本卡稳定路径定位。
-
-尚无本卡正式出边；[本章风俗画委托](../works/valentin-genre-commission.md)与[卡拉瓦乔](../persons/caravaggio.md)提供相关导航。原本正文“全名待核”已由初步身份配对解决，具体画作身份继续未决。
-
-WD与WP的1月3日为受洗／出生混用，已经分开；母名及未读2016图录材料不由搜索摘要直接填入。本章委托中占卜妇女、士兵和音乐人物的组合不足以唯一指向任何一幅同类画。
+- [Wikipedia（en）](https://en.wikipedia.org/wiki/Valentin_de_Boulogne)
+- [Wikidata Q1337275](https://www.wikidata.org/wiki/Q1337275)

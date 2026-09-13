@@ -3,7 +3,7 @@ title: "托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620�
 name_en: "Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620"
 type: archive
 created: 2026-09-09
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/mr-coke-rome-correspondent.md","note":"书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 40–55; print pp. 3–4"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -16,12 +16,29 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 40–44,48,53–55; print pp. 3, 4
+  original_quotes:
+  - source_span: "lines 40–44"
+    text: |2-
+      the Roman scene. ‘. . . It [is] a strange and unnaturall thing’, wrote a correspondent to
+      Lord Arundell in 1620 towards the end of Paul V’s sixteen-year rule,2 ‘that in that place,
+      contrary to all others, the long fife of the Prince is sayd to be the ruyne of the people;
+      whose wealth consists in speedy revolutions, and oft new preparations of new hopes in
+      those that aspire to rise by new fam.es [families] who, w.th the ould, remayne choaked
+  - source_span: "lines 48–48"
+    text: |2-
+      2 Letter from Mr Coke of 8 October 1620—Hervey, p. 183.
+  - source_span: "lines 53–55"
+    text: |2-
+      w.th a stand, and loath to blast their future adresses by spending to court those that
+      are dispaired of’ Exactly the same point was made with much greater force after the
+      twenty-one years of Urban VIII’s reign.1
 - citation: "Mary F. S. Hervey, The Life, Correspondence & Collections of Thomas Howard, Earl of Arundel (Cambridge University Press, 1921), pp. 181–184. https://archive.org/download/lifecorresponden00herviala/lifecorresponden00herviala_djvu.txt. Read 2026-09-11."
   location: "第十四章pp.181–184，Thomas Coke三封信及脚注；仅定向读OCR刊本，未读手稿原件"
   sentence_summary: "发信人Thomas Coke；8 October 1620信为Autograph Letters No.249；前后编排为帕多瓦语境，信中报告一位来访罗马人的消息，不是从罗马发信的依据。"
 - citation: "Francis W. Steer, Arundel Castle Archives, Interim Handlists 1–12, Vol. I (1968), Correspondence, pp.199,203–204. https://www.arundelcastle.org/wp-content/uploads/2019/11/Steer-complete.pdf. Read 2026-09-11."
   location: "PDF227、231–232页，通信组；Autograph Letters 1617 to 1632 [Vol.III]；定向目录阅读，不是原件"
   sentence_summary: "Thomas Coke致Thomas Howard, Earl of Arundel (1585–1646)，1620-09-15至10-08和1621-06-27，旧编号247–249、251；具体10-08与No.249对应由Hervey脚注支持。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-archives-coke-arundell-letter-1620
 ---
 
 ## 内容
@@ -65,15 +82,3 @@ sources:
 |---|---|---|
 | → 作者（`authored_by`） | [托马斯·科克（Thomas Coke，阿伦德尔家户通信者）](../persons/mr-coke-rome-correspondent.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
 | → 致函（`addressed_to`） | [托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arundel）](../persons/lord-arundell-coke-correspondent.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
-
-| 关系 | 对象 | 证据／状态 |
-|---|---|---|
-| 作者 authored_by | [托马斯·科克](../persons/mr-coke-rome-correspondent.md) | 文件头既有正式边；S1依据保留，S2–S3补强姓名 |
-| 收信人 `addressed_to` | [托马斯·霍华德，阿伦德尔伯爵](../persons/lord-arundell-coke-correspondent.md) | 文件头已有正式收信关系；不是共现 |
-| 评论地 | [罗马](../places/rome.md) | 仅为内容导航，不建立“写于罗马”关系 |
-
-**证据链：** 原件（未读）→ Hervey刊本（定向读pp.181–184的OCR）→ Haskell本章（已逐行读）；Steer为补充馆藏目录。刊本和Haskell不是两份独立的事件见证。
-
-**当前改正与未决：** 已补入发受者全名和No.249，撤回人物旧稿中的“罗马来信”推断；保留原件历法、完整文本校勘、签名、纸本规格、地址及现行馆藏编号缺口。全文书信是否完整刊出未确认，刊本末有省略号，不声称读过完整原信；未找到确认Wiki对象，不记双重验证通过。本次关系复核维持作者与收信人两条正式关系。
-
-[初步对齐](../../../03-processing/patrons-and-painters-chp-1/process/alignment-evidence.jsonl) · [本轮补足证据与裁决](../../../03-processing/patrons-and-painters-chp-1/process/enrichment-evidence.jsonl)

@@ -3,7 +3,7 @@ title: "奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）"
 name_en: "Olimpia Aldobrandini"
 type: person
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"member_of","target":"families/aldobrandini-family.md","time":"1623–1681","role":"出生家族成员与主要继承人","scope":"只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有","note":"奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人。","evidence_ref":{"doc_id":"olimpia-aldobrandini-wikipedia","source_file":"https://en.wikipedia.org/wiki/Olimpia_Aldobrandini","source_span":"导言与Early life and ancestry"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -22,6 +22,7 @@ sources:
 - citation: "Amministrazione Doria Pamphilj, L’Archivio. https://www.doriapamphilj.it/roma/il-luogo/archivio/. Accessed 2026-09-10."
   location: "Camillo与Olimpia联姻及档案汇合段；此前已读"
   sentence_summary: "意大利文机构页记1647年联姻及财产、艺术品、档案汇合；同站英文页的1646保留为异文。"
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-olimpia-aldobrandini
 ---
 
 ## 内容
@@ -62,8 +63,7 @@ sources:
 | → 配偶（`spouse_of`） | [保罗·博尔盖塞（Paolo Borghese）](paolo-borghese.md) | 奥林皮娅于1638年与Paolo Borghese结婚；Paolo于1646年去世；时间：1638–1646；角色：第一任配偶；范围：1638年结婚，关系因Paolo于1646年去世结束；证据：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；Marriages段 |
 | → 配偶（`spouse_of`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | Paolo Borghese去世后，奥林皮娅于1647年2月10日与Camillo Pamphili结婚；时间：1647-02-10起；角色：第二任配偶；范围：采用Treccani DBI的精确婚日；Doria Pamphilj英文页1646为异文；证据：[来源](https://www.treccani.it/enciclopedia/camillo-pamphili_(Dizionario-Biografico)/)；dbi-camillo-pamphili；辞任与婚姻段；1647-02-10 |
 
-### 身份与证据范围
+### 身份与外部链接
 
-[Wikipedia（en）Olimpia Aldobrandini](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini) 与 [Wikidata Q7086876](https://www.wikidata.org/wiki/Q7086876) 双向对应，并明确区别1567–1637年的同名长辈。S1全文已读；S2逐字段核对并保留引用状态。婚期以S3的1647-02-10为当前值，S4及同站英文异文不合并成另一场婚姻。
-
-子女名单、继承清册和具体作品流传没有在此递归扩展；具名内容若以后承担正式关系端点，再沿该事实回知识元阶段。
+- [Wikipedia（en）Olimpia Aldobrandini](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)
+- [Wikidata Q7086876](https://www.wikidata.org/wiki/Q7086876)
