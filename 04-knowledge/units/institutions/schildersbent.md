@@ -5,6 +5,20 @@ type: institution
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
+relations:
+- relation_type: disputed_with
+  target: institutions/accademia-di-san-luca.md
+  note: 第一章明确记画家帮成功抵制圣路加学院向包括外国人在内的罗马艺术家征税；该边限于征税争议，不表示两个组织在所有事务上敌对。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 819–833; print pp. 20
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 17世纪前期
+  role: 征税争议方
+  scope: 抵制学院向罗马艺术家征税的尝试
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 20.'
   location: 第一章；印刷页 20；OCR L819–833
@@ -89,4 +103,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [画家帮成立（1623）（Formation of the Schildersbent (1623)）](../events/schildersbent-formation-1623.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；原断言与证据见发出端卡片“画家帮成立（1623）（Formation of the Schildersbent (1623)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
+| → 争执（`disputed_with`） | [圣路加学院（Accademia di S. Luca）](accademia-di-san-luca.md) | 第一章明确记画家帮成功抵制圣路加学院向包括外国人在内的罗马艺术家征税；该边限于征税争议，不表示两个组织在所有事务上敌对；时间：17世纪前期；角色：征税争议方；范围：抵制学院向罗马艺术家征税的尝试；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–833; print pp. 20 |
 | ← 包含成员（`contains`，反向投影） | [彼得·范拉尔（Pieter van Laer）](../persons/pieter-van-laer.md) | 本章所述画家帮成员 Van Laer，同时有学院会员身份；原断言与证据见发出端卡片“彼得·范拉尔（Pieter van Laer）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–833; print pp. 20 |

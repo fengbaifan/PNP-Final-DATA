@@ -1,7 +1,7 @@
 # Relation Index v2.1
-# generated: 2026-09-13
-# total: 407
-# sources: {'explicit': 406, 'inferred_by_rule': 1}
+# generated: 2026-09-14
+# total: 410
+# sources: {'explicit': 409, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -2010,6 +2010,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: institutions/schildersbent.md
+  source_type: institution
+  target: institutions/accademia-di-san-luca.md
+  target_type: institution
+  relation_type: disputed_with
+  inverse_relation_type: null
+  note: 第一章明确记画家帮成功抵制圣路加学院向包括外国人在内的罗马艺术家征税；该边限于征税争议，不表示两个组织在所有事务上敌对。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 819–833; print pp. 20
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 17世纪前期
+  role: 征税争议方
+  scope: 抵制学院向罗马艺术家征税的尝试
 - source: places/cerasi-chapel.md
   source_type: place
   target: places/santa-maria-del-popolo.md
@@ -3647,12 +3667,12 @@
   target_type: person
   relation_type: acquired_by
   inverse_relation_type: null
-  note: 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人。
+  note: 第一章明确记朱斯蒂尼亚尼购入卡拉瓦乔被拒的祭坛画；柏林绘画馆记录用于确认该画是第一版《圣马太与天使》，并说明他不是初始委托人。
   evidence: ''
   evidence_ref:
-    doc_id: smb-der-evangelist-matthaus-870411
-    source_file: https://id.smb.museum/object/870411
-    source_span: 本卡 S6；对象字段及对象说明全文
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 349–353; print pp. 10
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -5616,6 +5636,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/guercino-sicilian-altarpiece-1665.md
+  source_type: work
+  target: persons/guercino.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: Zeri作品目录将该1665年墨西拿祭坛画归于圭尔奇诺；第一章证明委托方案和画家的询问，但不单独证明完成。
+  evidence: ''
+  evidence_ref:
+    doc_id: zeri-work-58737
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/58737/
+    source_span: 本卡 S2；作品目录全文；题名、作者、地点、毁失状态和书目
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1665'
+  role: 创作者
+  scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
 - source: works/lanfranco-crucifixion-stock.md
   source_type: work
   target: persons/giovanni-lanfranco.md
@@ -6018,6 +6058,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/valentin-genre-commission.md
+  source_type: work
+  target: persons/fabrizio-valguarnera.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 列支敦士登王室收藏记录确认Fabrizio Valguarnera于1631年在罗马委托此作；第一章只写‘one collector’，不以原书匿名表述反推姓名。
+  evidence: ''
+  evidence_ref:
+    doc_id: liechtenstein-frohliche-gesellschaft
+    source_file: https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin
+    source_span: 本卡 S2；对象、1631委托与来源沿革
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1631'
+  role: 委托人
+  scope: 本作品委托；姓名来自馆藏记录，非原书匿名表述
 - source: archives/accademia-statutes-confirmed-1621.md
   source_type: archive
   target: institutions/accademia-di-san-luca.md

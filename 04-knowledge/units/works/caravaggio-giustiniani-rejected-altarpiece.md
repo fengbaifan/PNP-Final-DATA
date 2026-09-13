@@ -18,11 +18,11 @@ relations:
   bidirectional_required: false
 - relation_type: acquired_by
   target: persons/marchese-giustiniani-ch1.md
-  note: 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人。
+  note: 第一章明确记朱斯蒂尼亚尼购入卡拉瓦乔被拒的祭坛画；柏林绘画馆记录用于确认该画是第一版《圣马太与天使》，并说明他不是初始委托人。
   evidence_ref:
-    doc_id: smb-der-evangelist-matthaus-870411
-    source_file: https://id.smb.museum/object/870411
-    source_span: 本卡 S6；对象字段及对象说明全文
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 349–353; print pp. 10
   review_status: evidence_backed_relation
   relation_source: explicit
   bidirectional_required: false
@@ -129,7 +129,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 柏林绘画馆对象记录确认第一版作者为卡拉瓦乔；本章退画经购藏链与该对象对应，不与后替代版本合并；证据：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
-| → 由其购入（`acquired_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 柏林绘画馆记录文琴佐·朱斯蒂尼亚尼购入被拒的第一版；他不是该画初始委托人；时间：约1602后；角色：退画购入者；范围：购入第一版；不是初始委托人；证据：[来源](https://id.smb.museum/object/870411)；smb-der-evangelist-matthaus-870411；本卡 S6；对象字段及对象说明全文 |
+| → 由其购入（`acquired_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 第一章明确记朱斯蒂尼亚尼购入卡拉瓦乔被拒的祭坛画；柏林绘画馆记录用于确认该画是第一版《圣马太与天使》，并说明他不是初始委托人；时间：约1602后；角色：退画购入者；范围：购入第一版；不是初始委托人；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 349–353; print pp. 10 |
 | → 拟用于（`intended_for`） | [孔塔雷利礼拜堂（Contarelli Chapel）](../places/contarelli-chapel.md) | 第一版原为孔塔雷利礼拜堂祭坛而作，后被拒并由朱斯蒂尼亚尼购入；时间：约1602；角色：原定安置地点；范围：第一版；未实际长期安置；证据：[来源](https://id.smb.museum/object/870411)；intended-for-places-contarelli-chapel-md；对象说明全文 |
 | → 由其保管（`held_by`） | [柏林绘画馆（Gemäldegalerie Berlin）](../institutions/gemaeldegalerie-berlin.md) | 1815年入柏林收藏，战后失踪并被馆方推测1945年毁失；时间：1815–1945；角色：历史保管机构；范围：第一版；现已失踪／推测毁失；证据：[来源](https://id.smb.museum/object/870411)；held-by-institutions-gemaeldegalerie-berlin-md；对象说明全文 |
 

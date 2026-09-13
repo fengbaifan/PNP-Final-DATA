@@ -1,7 +1,7 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-13 00:56
+> Snapshot: 2026-09-14 01:18
 > Structural health: 130/130
 > Knowledge units: 418
 > Maturity metrics: unscored_semantic_maturity
@@ -36,7 +36,7 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| C-FM | required frontmatter coverage complete | 2026-09-13 | completed |
-| C-VERIFY | verification state conflicts absent | 2026-09-13 | completed |
-| C-SCHEMA | deprecated type drift absent | 2026-09-13 | completed |
-| C-CONTENT | mechanical content findings absent | 2026-09-13 | completed |
+| C-FM | required frontmatter coverage complete | 2026-09-14 | completed |
+| C-VERIFY | verification state conflicts absent | 2026-09-14 | completed |
+| C-SCHEMA | deprecated type drift absent | 2026-09-14 | completed |
+| C-CONTENT | mechanical content findings absent | 2026-09-14 | completed |

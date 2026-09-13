@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T00:56:53",
+  "timestamp": "2026-09-14T01:18:08",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -982,8 +982,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 406,
-    "explicit_relations_with_evidence": 406
+    "explicit_relations": 409,
+    "explicit_relations_with_evidence": 409
   },
   "source_hash": {
     "total_sources": 0,
@@ -1569,12 +1569,12 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 407,
-    "explicit_relation_count": 406,
+    "relation_index_total": 410,
+    "explicit_relation_count": 409,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 407,
+    "weak_evidence_count": 410,
     "needs_evidence_count": 0,
     "relation_type_coverage": "42/116"
   },

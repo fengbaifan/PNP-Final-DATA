@@ -38,6 +38,8 @@
 | R-32 | 卡内直接展示实际适用的权威记录与稳定标识；QID、Wikipedia、人物辞典、档号／书目号、馆藏号及数字化全文均按对象选用，并与可点击关联知识元分开说明 | REV-046–049、056 | [唯一正文模板](../../.agents/skills/ingest/references/body-template.md)；元数据保留唯一机器关系记录，正文提供一致的阅读入口 |
 | R-33 | 对已采纳内容中的具名独立对象建立或复用知识元，并全盘审查作品—创作者—委托／赞助—安置／存放，以及人物师承、合作、朋友、亲缘、家庭／家族成员和机构隶属等关系；时间、版本、角色与证据随关系保留，缺端点时不得宣称关系完整 | REV-062、063 | AGENTS、pipeline、[ingest正文模板](../../.agents/skills/ingest/references/body-template.md)、[enrich](../../.agents/skills/enrich/SKILL.md)、[relate](../../.agents/skills/relate/SKILL.md) |
 | R-34 | 原书原语言摘录及精确定位随sources保存；实体保留事实、字段、关系和最小证据引用，重复来源导读、采集核验过程及待补说明另存03；事实不确定性保留在对应字段 | REV-072 | ingest的[元数据契约](../../.agents/skills/ingest/references/knowledge-unit-field-contract.md)与[正文模板](../../.agents/skills/ingest/references/body-template.md) |
+| R-35 | 根目录专设论文建议目录，保存论文类型、写作与实验建议及投稿期刊；SCI／SSCI收录和中科院分区注明来源、年份与核验范围 | REV-076 | [论文写作建议](../../07-paper/README.md)、[期刊与分区依据](../../07-paper/journal-targets.md)；不新增业务阶段或复制实体结果 |
+| R-36 | 六阶段仍按摄入→处理→知识元→对齐→补足→关系交付；处理原文时同步记录关系候选、提及／指代和证据跨度，后续映射端点并区分书内与外部事实，关系阶段统一裁决 | REV-077–079 | [pipeline](../../.agents/pipeline.md)及ingest、verify、enrich、relate；候选在03，正式边在04 |
 
 ## 执行状态的唯一落点
 

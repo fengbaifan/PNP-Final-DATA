@@ -131,7 +131,56 @@
 | 971–980 | 23 | 最后脚注是全章关键限定：de Rosis 对质量的评价，Ferri 的拒预付与忙碌，Luti 的低依附姿态。 | Giuseppe de Rosis→Antonio Ruffo（1663-09-22）；Ciro Ferri→Antonio Ruffo（1672-09-19）；Benedetto Luti；Pascoli/Baldinucci/Ruffo 引用链。 |
 | 807–810、854–857、901–904、948–951 | 19、20、21、22、23 | 余下空行、页眉及页界均已排除。 | 无研究对象。 |
 
-## 三、确定的校正与保留问题
+## 三、原书关系候选、指代与证据跨度（REV-079）
+
+本表是在完整复读 `01_CHP-1.md` L1–980 后形成的处理阶段回溯。候选按关系命题簇登记，不把一段中的每个并列姓名机械拆成独立关系；`source_file` 固定为 `02-sources/02-Markdown/01_CHP-1.md`，原句由章页行号直接回指，下表保留触发关系判断的原文短语。候选只是原书表达的召回层，后续“正式边／待决／不建边”裁决见 [知识元过程记录 REV-079](../process/knowledge.md#rev-079-关系候选回溯与正式关系集中裁决)。
+
+| 候选锚点 | 章页行号与原文关系短语 | 指代、语气和语义边界 | 处理阶段交接 |
+|---|---|---|---|
+| CH1-RC-001 | pp. 1–2，L15–34；“on the very eve of the election of Maffeo Barberini”；“the pursuit of a definite policy by the Papal families” | `he` 指 Maffeo Barberini／Urban VIII；后句是教皇家族的一般政策概括，不等于任一具名委托。 | Urban VIII 身份与本章范围进入登记；政策概括保留为作者论述。 |
+| CH1-RC-002 | p. 2，L40–55；“Mr Coke to ‘My Lord’”；“my Lord the Earl of Arundell” | 书信的撰写者、收信人和信中转述的 L'Hoggidi 要分开；引号内判断属于来信内容。 | 信件及 `authored_by`、`addressed_to` 候选进入登记。 |
+| CH1-RC-003 | p. 3，L56–70；“Alessandro Peretti-Montalto, the nephew of Sixtus V”；“artists who had begun to work for one patron continued to work for his heirs” | 亲缘关系明确；后半是跨教皇更替的群体性延续，艺术家未具名。 | 亲缘候选进入正式核对；匿名群体不造端点。 |
+| CH1-RC-004 | pp. 3–4，L75–83；“quarrelled with Cardinal Borghese”；“uncle of one of his friends”；“appointed him architect to the Vatican” | `him` 指 Domenichino；“one of his friends”未给姓名，不能自动等同 Ludovico Ludovisi；Borghese 由同书索引消歧为 Scipione。 | 争议与任命核对；朋友／叔侄链保留待决。 |
+| CH1-RC-005 | pp. 4–5，L84–110；“introduced there by his Bolognese predecessors”；“apprentice-assistant”；“patron who was already employing” | Carracci、Albani、Domenichino等作为职业路径例证；多处是作者概括，不逐项反推师承、雇佣或引介。 | 作为关系召回提示，只有具名且有直接语句者进入正式边。 |
+| CH1-RC-006 | pp. 5–6，L113–150；“the Pope was directly responsible”；“Cardinals were expected”；“continued with his plans for S. Andrea della Valle” | 前两处描述制度角色；Montalto继续教堂计划是具名行动，但具体法律角色、委托对象和阶段未完全展开。 | 制度性概括不逐座建边；Montalto—Sant'Andrea 保留待精确谓词。 |
+| CH1-RC-007 | p. 6，L165–171；“Giovanni Bonati was brought up by Cardinal Pio”；“Lodovico Gimignani by Cardinal Rospigliosi”；“Maurizio di Savoia appointed ... Baldoini” | 两处 `brought up by`含供养／培养语义，不能只译作居住；任命关系明确。 | 供养／赞助及任命进入正式核对。 |
+| CH1-RC-008 | p. 6，L172–178；“patron who had paid for a journey”；“had himself accompanied the younger man” | patron、young man均为一般角色；说明旅行资助如何形成依附。 | 保留机制证据，不创建匿名关系端点。 |
+| CH1-RC-009 | pp. 6–7，L179–189；“Orazio Vasalli ... had been working with Pier Francesco Mola”；“Pamfili family ... employed him” | `him` 在证词链中指 Mola；Vasalli 是证言者，不因此成为受雇者或委托人。 | 证言文献、合作和Pamfili—Mola雇佣语境分别核对。 |
+| CH1-RC-010 | p. 7，L195–198；“Andrea Sacchi became a member of the household of Cardinal Antonio Barberini”；“who promoted him” | `who` 指 Antonio Barberini；`member of household`与一般合作不同。 | 隶属／赞助候选进入正式核对。 |
+| CH1-RC-011 | p. 7，L201–213；“Lanfranco is an example”；“obtained such an outstanding position” | 用 Lanfranco 说明赞助与声望机制，未在此句命名具体赞助人。 | 保留一般机制，不新增关系边。 |
+| CH1-RC-012 | p. 7，L217–221；“Marcello Sacchetti ... made Pietro da Cortona live in his palace”；“Cardinal Ottoboni ... wanted Trevisani constantly near him” | 住宿、近侍和赞助语境明确，但不等于所有作品均由该人委托。 | patron_of／依附关系进入正式核对。 |
+| CH1-RC-013 | p. 7，L231–237；“Duke of Bracciano ... forbid Mulier”；“Pamfili ... refused ... Mola ... Cortese”；“Pascoli's life of Mulier” | 限制对象分别是Mulier、Mola、Cortese；Pascoli是后世文献来源。 | 赞助限制与文献对象分开登记。 |
+| CH1-RC-014 | pp. 7–8，L242–260；“unemployed artist”；“artist was given a commission” | 全段描述委托时机和画家可用性，没有可稳定识别的具体双方。 | 机制证据，不造匿名委托边。 |
+| CH1-RC-015 | p. 8，L261–283；“Piola ... began to work almost entirely for ... Pallavicini”；“Cardinal Flavio Chigi paid Mario de' Fiori a monthly salary” | 第一处是持续赞助／雇佣语境；第二处明确月俸。 | Pallavicini—Piola与Chigi—Mario正式核对。 |
+| CH1-RC-016 | p. 9，L295–307；“Guercino was required to paint an altarpiece for a monastery in Sicily”；“he wrote to ask” | `he` 指 Guercino；修院未具名；段落证明委托方案与询问，不独立证明完成、安置或现藏。 | 事件、作品方案和画家端点登记；匿名修院保持未决。 |
+| CH1-RC-017 | pp. 9–10，L308–330；“Pamfili ... commissioned Mola”；“he had borrowed”；“Vincenzo Armanni wrote to Camillo Pamfili”；“Gavasetti ... Deputati”；“Michelangelo Ricci ... Confraternity” | Mola相关代词需依句法分别回指；借书、书信、合同与创作委托是不同关系。 | 逐项建立文献、参与者、作品与委托关系，不合并成一条赞助边。 |
+| CH1-RC-018 | p. 10，L335–338；“Urban VIII commissioned ... Andrea Camassei” | 委托人、画家和祭坛画明确；作品题名／版本另需对象消歧。 | 正式委托及创作端点核对。 |
+| CH1-RC-019 | p. 10，L339–356；“Giustiniani ... admirer of Caravaggio”；“he acquired it for his gallery”；“Giovanni Adamo ... wrote to Piola” | `he`指Giustiniani，`it`指被拒祭坛画；Adamo来信中的具体作品未命名。 | 购藏边采用原书证据；来信可正式化，匿名作品不造端点。 |
+| CH1-RC-020 | p. 11，L366–377；“Duke of Mantua commissioned two unknown Roman painters”；“Marquis del Carpio ... commissioned a number of young artists” | 委托方具名而画家匿名；Samson 两幅画的完成与现藏均未在此证明。 | 事件／委托机制保留；不为匿名画家虚构KU。 |
+| CH1-RC-021 | p. 11，L382–392；“Cortona refused”；“Rosa ... told one of his clients”；“asked his friends”；“one collector called on ... Valentin” | Cortona和Rosa故事中的作品／客户未全具名；Valentin段的collector在原书匿名，不能用外部姓名改写原书。 | 匿名对象保持候选；Valentin作品的对象识别和外部委托事实分层。 |
+| CH1-RC-022 | pp. 11–12，L397–425；“Caravaggio ... contract”；“Rubens ... Chiesa Nuova”；“Lanfranco ... Cardinal Francesco Barberini” | 合同、创作、原设地点和后续版本分开；Lanfranco为请求者，不据此推定委托已成立。 | 已有合同／作品／地点边核对；未成立的请求不升级为委托。 |
+| CH1-RC-023 | p. 12，L430–446；“Gaulli may well have been the first”；“Cerri ... asked to see”；“Pamfili family ... responsible for this commission” | `may well`保留推测；`Cerri`所见是Ferri的彩色modello；Pamfili family为家族级委托方，不替换为某一成员。 | 推测不建发明关系；Pamfili家族端点缺失，候选待决。 |
+| CH1-RC-024 | pp. 12–13，L447–472；“allowed four years”；“took more than eight”；“small modello”；“remained in the Vatican”；“Mahon Gallery” | 工期、模型、所有／保管和实际壁画需分别建模；Cortona是否作模型是争议事实。 | 作品、模型、地点关系逐项核对，争议保留限定。 |
+| CH1-RC-025 | p. 13，L478–490；“Mola ... accused ... Pamfili”；“only paid for the actual days”；“a promised pension” | 诉讼主张、付款事实和承诺不能互相代替；主语随引文切换。 | 诉讼事件、付款／承诺状态分别记录。 |
+| CH1-RC-026 | pp. 13–14，L491–523；“Domenichino ... Lanfranco”；“Albani ... Gozadini”；“Ferri ... Laparelli”；“Guercino ... Gozadini” | 每组数字的币种、工作对象、报价／实收状态不同；不能建统一价格事实。 | 相关信件、收据、作品和双方关系按各自证据核对。 |
+| CH1-RC-027 | pp. 14–15，L528–570；“Duke of Mantua ... Reni”；“Salviati ... Medici ... Claude”；“Cardinal Ruffo”；“Liberati ... Pamfili” | 书信的撰写／收受关系与信中所谈委托分开；艺术家报价是作者归纳。 | 具名书信与委托边核对；价格机制不另造主体。 |
+| CH1-RC-028 | p. 15，L575–590；“a patron would commission work from an artist of his own nationality”；“Roman patrons ... Italian artists” | 全段是国籍偏好概括并带例外，不能推导任一具体人物间的赞助关系。 | 只保留作者命题及限定。 |
+| CH1-RC-029 | pp. 15–16，L591–609；“Valguarnera ... arrange for the completion”；“pictures by Lanfranco and Poussin”；“Rosa ... kept a large stock” | Valguarnera既涉及已完成库存，也涉及完成安排；不能把全部库存都写成从零委托。Rosa买家未具名。 | 作品—创作者—购藏／委托范围核对；匿名买家不建边。 |
+| CH1-RC-030 | p. 16，L628–662；“Bernini ... forced to invent”；“ordinary clients”；“the pattern of the client's behaviour” | Bernini、Michelangelo用于说明赞助人支持和艺术家自由的一般模式；具体客户未具名。 | 机制证据，不产生朋友、赞助或委托边。 |
+| CH1-RC-031 | p. 17，L668–684；“Baker ... have a bust”；“Fulvio Testi ... Francesco Fontana”；“salary ... Fabbrica di S. Pietro” | Baker肖像对象版本未完全消歧；Testi是写信人、Fontana是收信人；Fabbrica是薪俸机构。 | 文献和任职／薪俸关系核对；肖像版本保持限制。 |
+| CH1-RC-032 | pp. 17–18，L693–712；“members of the Academy”；“statutes”；“academy's protector” | 学院特权、章程和保护人是制度关系；不能把所有罗马画家自动记为成员。 | 章程／机构／保护关系按具名证据核对。 |
+| CH1-RC-033 | pp. 18–19，L723–758；“Van Laer ... member”；“Cerquozzi was himself a member”；“Novetti ... wrote” | 成员关系明确；关于贫困／行为的评价不成为身份关系；Novetti书信单列。 | 会员和书信关系核对，社会评价留在内容断言。 |
+| CH1-RC-034 | pp. 19–20，L763–806；“Barberini ... held up the mirror”；“Innocent X ... Mola”；“Queen Christina ... Mola”；“Spanish Ambassador ... Ghezzi”；“Arcadia”；“benefice”；“Frederick ... Gentile”；“Charles V ... Titian” | 前四组多为象征性逸事，动作不等同正式职位或朋友关系；Ghezzi的任命、荣誉与机构成员可分别识别；末两组是历史类比。 | 有明确职位／机构端点者正式化；社交动作和类比不硬造谓词。 |
+| CH1-RC-035 | p. 20，L819–833；“Schildersbent ... formed in 1623”；“resisting the Accademia's attempt to impose a tax”；“Van Laer ... member of the Accademia” | 组织形成、组织间征税争议和个人双重成员是三种关系；群体冲突不推出每名成员与学院敌对。 | 成立事件、组织争议、Van Laer双重成员分别正式核对。 |
+| CH1-RC-036 | pp. 20–21，L834–853；“Pozzo's parents”；“Procaccini's parents”；“Mario de' Fiori ... two sons” | parents／sons均未具名；正文只支持家庭态度或存在性，不能编造姓名和亲缘端点。 | 保留匿名亲缘候选，等待可靠身份来源。 |
+| CH1-RC-037 | p. 21，L858–874；“Gianandrea Carlone ... husband for ... sister”；“Bernini ... son of a famous sculptor”；“one of his brothers” | 婚配对象、父亲和兄弟在本段未具名；外部资料即使补名，也要与原书匿名陈述分层。 | 亲缘／婚姻候选待端点确认，不从记忆补写。 |
+| CH1-RC-038 | pp. 21–22，L882–900；“Giovanni Perugini”；“Paolo Negri ... Marchese di S. Tommaso”；“letters” | 1667喜剧本体未识别；1676来信有明确撰写人、收信人和谈论对象。 | 已识别书信正式化；未识别文献保持候选。 |
+| CH1-RC-039 | pp. 22–23，L905–947；“Rosa ... hired ... claque”；“wrote to Antonio Ruffo”；“refused to accept any money in advance” | 宣传逸事、创作自主主张和交易条件分开；信中自述不是独立验证的客观事实。 | 书信及交易条件按证据记录；匿名喝彩者不建关系。 |
+| CH1-RC-040 | p. 23，L959–980；“Baldinucci”；“Giuseppe de Rosis ... Antonio Ruffo”；“Ferri ... Ruffo”；“Luti ... Pascoli” | 后世评价、书信转引与作者结论分层；`no real followers`不否定局部相似做法。 | 已识别文献关系核对；评价保持作者与转引层级。 |
+
+处理阶段共登记 **40 个关系命题簇**。其中包含直接关系、匿名或指代待解关系、带推测／否定／争议限定的表述以及一般机制；数量仅表示回溯登记规模，不等于40条正式边。
+
+## 四、确定的校正与保留问题
 
 - 断行与跨页：恢复 full-length figures、Cortona、as we have seen、in themselves responsible 等连续表述；L382 为新段开头，不再错误描述为前页续句。学院排他权须与下一页“未完全施行、后来撤回”并读；罗萨“无真正追随者”须与最后脚注的费里、卢蒂例外并读。
 - PDF 校正：印刷页 6 的 Giovanni Bonati／脚注 2；第 9 页 Vincenzo Armanni 与圭尔奇诺来函页码；第 13 页 Berlingero Gessi、Carlo Quarismini、Annibale Laparelli、Bonifazio Gozadini；第 18、22 页 V. Ruffo；第 20 页 1623 后句点及上标脚注。原 OCR 不改写。
@@ -145,10 +194,10 @@
 | 类型边界 | 城市／政体、建筑／内部作品、图像角色／现实人物、具体材料设备／材料术语分别判断 | 下一阶段按八类语境规则处理，不能表达的对象单列，不强塞或删除 |
 | 证言可信度 | 学院措施、逸事、原典引语与 Haskell 推论均有语气及适用范围 | 记录事实支持范围；原典外部验证留给后续对齐与补足 |
 
-## 四、阶段交接与完成边界
+## 五、阶段交接与完成边界
 
 本阶段交付的是可追溯的完整来源处理结果：明确版本与范围、980 行处置、章页与句意对应、关键校正及待决线索。没有未读章内段落阻断登记；尚缺的外部身份、书信原件及作品版本须在相应后续阶段解决。定位覆盖和机械检查不宣称史实全验或候选已穷尽。
 
-**下一步：知识元登记。** 以本定稿逐项核对已有对象的来源、去重、类型、缺口与登记状态，保存该阶段结果后再清理其过程；本次不改既有 KU 正文、断言和关系，不继续外部补足。下游现有成果见 [第一章知识结果](../../../04-knowledge/results/patrons-and-painters-chp-1.md)，其中既有数量不是本阶段重新接收的数量。
+本次回溯不重做既有知识元登记、对齐和补足；新增候选进入关系阶段集中裁决。裁决结果见 [第一章知识结果](../../../04-knowledge/results/patrons-and-painters-chp-1.md)，其中正式边、待决和不建边必须分别报告，不能用关系总数代替语义完整性判断。
 
 摄入处理过程已收口为 [必要过程记录](../process/stages.md)。本文件后续仅在实际材料或判断变化时原位更迭，历史可经 Git 与 REV 记录追溯；第六章、涌现与页面保持暂停。

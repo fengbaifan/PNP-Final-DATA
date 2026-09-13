@@ -8,6 +8,7 @@ updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/valentin.md","note":"卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录。","evidence_ref":{"doc_id":"louvre-valentin-inv1418","source_file":"https://collections.louvre.fr/en/ark:/53355/cl010062321","source_span":"瓦朗坦人物卡 S7；完整对象记录"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"commissioned_by","target":"persons/fabrizio-valguarnera.md","note":"列支敦士登王室收藏记录确认Fabrizio Valguarnera于1631年在罗马委托此作；第一章只写‘one collector’，不以原书匿名表述反推姓名。","evidence_ref":{"doc_id":"liechtenstein-frohliche-gesellschaft","source_file":"https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin","source_span":"本卡 S2；对象、1631委托与来源沿革"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1631","role":"委托人","scope":"本作品委托；姓名来自馆藏记录，非原书匿名表述"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11.'
   location: 第一章；印刷页 11；OCR L389–392
@@ -62,3 +63,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../persons/valentin.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；证据：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 列支敦士登王室收藏记录确认Fabrizio Valguarnera于1631年在罗马委托此作；第一章只写‘one collector’，不以原书匿名表述反推姓名；时间：1631；角色：委托人；范围：本作品委托；姓名来自馆藏记录，非原书匿名表述；证据：[来源](https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin)；liechtenstein-frohliche-gesellschaft；本卡 S2；对象、1631委托与来源沿革 |

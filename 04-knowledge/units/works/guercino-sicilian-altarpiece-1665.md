@@ -5,6 +5,20 @@ type: work
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
+relations:
+- relation_type: created_by
+  target: persons/guercino.md
+  note: Zeri作品目录将该1665年墨西拿祭坛画归于圭尔奇诺；第一章证明委托方案和画家的询问，但不单独证明完成。
+  evidence_ref:
+    doc_id: zeri-work-58737
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/58737/
+    source_span: 本卡 S2；作品目录全文；题名、作者、地点、毁失状态和书目
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: "1665"
+  role: 创作者
+  scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L295–307
@@ -68,3 +82,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Zeri作品目录将该1665年墨西拿祭坛画归于圭尔奇诺；第一章证明委托方案和画家的询问，但不单独证明完成；时间：1665；角色：创作者；范围：Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；zeri-work-58737；本卡 S2；作品目录全文；题名、作者、地点、毁失状态和书目 |

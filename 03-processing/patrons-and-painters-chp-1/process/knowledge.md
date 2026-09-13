@@ -18802,3 +18802,69 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 ### REV-072整理核对结果
 
 九类418卡均已整理；298卡437条原书来源共534段摘录，逐段与来源行的文字核对一致（仅行末空格规范化）。原有source字段及顺序、正式关系集合未改变。现有407条frontmatter关系、809行可读关系；旧结果的406+1分类说法与当前所有边均标explicit不一致，留待关系语义审查核定。卡内不再有独立S1来源导读、初步对齐过程节及批次完成声明。确认身份入口逐项比对，恢复16卡33条原有确认链接；被排除或尚未确认的候选链接仅随原说明保留，不转为本卡确认身份。内容结构和关系机械检查通过；并未因此重新采集外网、独立语义验收或开展κ实验。
+
+## REV-075：知识库论文适用性评估（2026-09-14）
+
+本轮完成流程、方法、实验与数据的论文适用性评估，未执行实验或修改实体。根据REV-076，评估原记录连同原有证据与建议迁至[论文写作建议](../../../07-paper/README.md#评估依据与尚未执行的实验建议)，本段保留历史入口；当前业务完成状态仍由04结果说明维护。投稿选择另见[期刊建议](../../../07-paper/journal-targets.md)。
+
+## REV-079：关系候选回溯与正式关系集中裁决（2026-09-14）
+
+本轮以[处理定稿中的40个候选锚点](../results/stages.md#三原书关系候选指代与证据跨度rev-079)为召回层，反查有效KU的 `frontmatter.relations`、正文中已采纳的关系事实及其具体证据。`F` 表示相应命题已有或本轮形成正式边，`P` 表示端点、谓词、版本或事实状态仍不足，`N` 表示作者的一般机制、匿名角色或修辞性动作不应实体化。一个候选簇可以同时包含不同去向，不能按一行等同一条边。
+
+| 候选锚点 | 裁决 | 端点映射、证据与理由 |
+|---|---|---|
+| CH1-RC-001 | N | Urban VIII身份已登记；“教皇家族政策”是本章总论，未给出足以逐项建边的具体行为。 |
+| CH1-RC-002 | F | Mr Coke书信已映射撰写者与Lord Arundell收信人；L'Hoggidi仅作为信中谈论对象，不混成收信人。 |
+| CH1-RC-003 | F＋P | Alessandro Peretti-Montalto—Sixtus V亲缘已正式化；跨继承人继续工作的艺术家匿名，保持P。 |
+| CH1-RC-004 | F＋P | Domenichino—Scipione Borghese争议及Ludovico Ludovisi任命已正式化；“one of his friends”未具名且不能自动等同Ludovico，保持P。 |
+| CH1-RC-005 | N | 博洛尼亚画家的典型职业路径是综合概括；不据“predecessor／assistant／patron”机械生成师承、合作或雇佣边。 |
+| CH1-RC-006 | N＋P | 教皇、领衔枢机和教堂的制度责任为一般机制；Montalto继续Sant'Andrea计划的具体法律角色和对象阶段不足，保持P。 |
+| CH1-RC-007 | F | Pio—Bonati、Rospigliosi—Gimignani的供养／赞助语境和Maurizio—Baldoini任命均已有具体端点与原书证据。 |
+| CH1-RC-008 | N | 旅行资助段只给角色类型，未给双方姓名。 |
+| CH1-RC-009 | F | Vasalli证言、Mola合作经历及Pamfili—Mola依附语境已分开登记；证言者不改写成委托人。 |
+| CH1-RC-010 | F | Sacchi加入Antonio Barberini家 household及其提携已有正式关系；范围限定为该依附语境。 |
+| CH1-RC-011 | N | Lanfranco只是支持赞助机制的例证，该段未命名具体赞助人。 |
+| CH1-RC-012 | F | Sacchetti—Pietro da Cortona、Ottoboni—Trevisani已有赞助／依附关系；不扩张为全部作品委托。 |
+| CH1-RC-013 | F | Bracciano—Mulier及Pamfili—Mola／Cortese的限制语境已处理；Pascoli传记单列archive。 |
+| CH1-RC-014 | N | 委托时机段只有匿名artist／patron。 |
+| CH1-RC-015 | F | Pallavicini—Piola持续赞助及Flavio Chigi—Mario de' Fiori月俸关系已有端点和原书证据。 |
+| CH1-RC-016 | F＋P | 询问事件—Guercino—祭坛画方案已有正式端点；本轮依据Zeri目录补上作品 `created_by` Guercino。西西里修院法人未识别，保持P；原书本身不作为完成证明。 |
+| CH1-RC-017 | F | Pamfili—Mola委托、借阅／批注对象、Armanni书信、Savini／Minniti条款、Gavasetti及Ricci相关合同分别映射，未压缩为一条泛化赞助边。 |
+| CH1-RC-018 | F | Urban VIII—Camassei祭坛画委托与创作链已有正式端点。 |
+| CH1-RC-019 | F＋P | 本轮把Giustiniani购入卡拉瓦乔退画的 `acquired_by` 证据改回原书L349–353；柏林馆记录只负责对象识别和外部履历。Giovanni Adamo来信已有文献边，信中匿名作品保持P。 |
+| CH1-RC-020 | P | Mantua公爵的两名罗马画家及del Carpio的年轻艺术家均未具名，不创建占位人物；事件与机制可保留。 |
+| CH1-RC-021 | F＋P | Valentin作品的原书collector保持匿名；本轮另以列支敦士登王室收藏记录建立作品 `commissioned_by` Fabrizio Valguarnera，并明确这是外部事实。Cortona／Rosa故事中未具名客户和作品保持P。 |
+| CH1-RC-022 | F＋P | Caravaggio合同、Rubens—Chiesa Nuova作品地点等已正式化；Lanfranco向Francesco Barberini提出请求不等于委托已成立，相应委托保持P。 |
+| CH1-RC-023 | N＋P | “Gaulli may well”保留推测，不建发明关系；Ferri模型的委托方明确为Pamfili家族，但当前缺少可复用家族KU，不以Camillo或其他成员替代，保持P。 |
+| CH1-RC-024 | F | Ferri、Gaulli、Odazzi、Chiari的工期事实及模型—创作者／位置／收藏关系按对象记录；Cortona模型争议保留语气，不写成无争议事实。 |
+| CH1-RC-025 | F | Mola—Pamfili诉讼、实际工作日付款和承诺年金分别保留主张／事实／承诺状态。 |
+| CH1-RC-026 | F | Domenichino、Lanfranco、Albani、Ferri、Guercino等价格与付款材料按各自作品、币种和证据登记，不生成跨对象统一价格边。 |
+| CH1-RC-027 | F | Mantua—Reni、Salviati书信、Arragona书信、Guercino—Ruffo、Liberati—Pamfili等具名关系已分别映射；书信参与关系与信中委托命题分开。 |
+| CH1-RC-028 | N | 国籍偏好是带例外的一般命题，不据此为同国籍人物批量生成赞助关系。 |
+| CH1-RC-029 | F＋P | Valguarnera与Lanfranco／Poussin作品的库存、购藏或完成安排按作品范围正式化；Rosa工作室库存的买家未具名，保持P。 |
+| CH1-RC-030 | N | Bernini及Michelangelo用于说明普通客户与艺术家自由的模式，未给出具体客户。 |
+| CH1-RC-031 | F＋P | Testi—Fontana书信及Bernini—Fabbrica薪俸关系已正式化；Baker胸像的具体版本在证据不足范围保持P。 |
+| CH1-RC-032 | F | Accademia di San Luca章程、保护人和具名成员关系按具体证据登记；未把“Roman artists”全体变成成员。 |
+| CH1-RC-033 | F | Pieter van Laer、Cerquozzi会员关系和Novetti书信已区分；贫困、衣着或行为评价不作为身份边。 |
+| CH1-RC-034 | F＋N | Ghezzi的Arcadia成员、圣职俸禄／职位和任命等可识别关系已正式化；举镜、递画布、乘车、驾车等象征性动作及Frederick／Charles V历史类比不硬造关系类型。 |
+| CH1-RC-035 | F | 成立事件与Van Laer双重会员关系已存在；本轮新增Schildersbent `disputed_with` Accademia di San Luca，限定为抵制征税，不泛化为全面敌对。 |
+| CH1-RC-036 | P | Pozzo父母、Procaccini父母、Mario de' Fiori两子均未具名；不从存在性陈述编名。 |
+| CH1-RC-037 | P | Carlone的婚配对象及Bernini父亲／兄弟在本段匿名；外部补名须另有身份和关系证据，当前不回填。 |
+| CH1-RC-038 | F＋P | Negri—San Tommaso书信及信中Perugini对象已登记；1667喜剧及部分书信本体仍未识别，保持P。 |
+| CH1-RC-039 | F＋P | Rosa—Ruffo书信与拒收预付款条件按书信证据记录；匿名claque不建人物端点。 |
+| CH1-RC-040 | F | de Rosis—Ruffo、Ferri—Ruffo及Pascoli关于Luti的转引按文献层级记录；Baldinucci评价不改写成Rosa与“followers”的实体关系。 |
+
+### 本轮正式关系改动
+
+1. `works/caravaggio-giustiniani-rejected-altarpiece.md`：保留 `acquired_by` 事实，证据从柏林馆对象页改为原书第一章 L349–353；馆页继续支持作品身份、版本和履历。
+2. `works/valentin-genre-commission.md`：新增 `commissioned_by persons/fabrizio-valguarnera.md`，证据为列支敦士登王室收藏对象页；原书的匿名“one collector”不被改写成具名表述。
+3. `works/guercino-sicilian-altarpiece-1665.md`：新增 `created_by persons/guercino.md`，证据为Fondazione Federico Zeri作品目录；原书只支持委托方案和询问事件。
+4. `institutions/schildersbent.md`：新增 `disputed_with institutions/accademia-di-san-luca.md`，证据为原书 L819–833，范围仅限征税争议。
+
+### 未解决关系缺口
+
+- 端点未具名：跨赞助人延续工作的艺术家、Domenichino的一位朋友、Mantua／del Carpio所涉画家、Rosa的客户与朋友、Rosa库存买家、家庭成员及Carlone婚配对象等。
+- 端点尚未建立：Pamfili家族作为Ferri相关委托的家族级主体；不得以任一家族成员代替。
+- 事实状态不足：Lanfranco向Francesco Barberini提出的请求是否形成委托、未识别喜剧／书信本体、部分胸像与模型版本。
+
+这些缺口保持 `pending`，不属于已完成正式边。本轮没有把外部补足事实倒写成原书陈述，也没有因共现、同国籍、同机构、逸事动作或一般机制新增关系。
