@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | 范围：本书图版22a所记保管机构；不推定取得时间；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
 
 ### 关系候选入口
 

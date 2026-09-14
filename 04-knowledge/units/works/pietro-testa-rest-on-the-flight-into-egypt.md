@@ -27,9 +27,23 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 171–172; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片关系集中定稿
+relations:
+- relation_type: supplied_by
+  target: institutions/turners-of-cambridge.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
+  relation_source: explicit
+  review_status: evidence_backed_relation
+  bidirectional_required: false
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者
+  note: 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体。
 ---
+
 
 ## 内容
 
@@ -64,7 +78,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其供应（`supplied_by`） | [剑桥特纳摄影商号（Turners of Cambridge）](../institutions/turners-of-cambridge.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

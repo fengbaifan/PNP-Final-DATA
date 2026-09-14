@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 范围：目录对应作品2806的保管机构；原断言与证据见发出端卡片“田园（Idyll）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF4：Idillio、inv.2806 |
 
 ### 关系候选入口
 

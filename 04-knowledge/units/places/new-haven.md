@@ -51,7 +51,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1910起；角色：迁入城市；范围：1910年迁往纽黑文；不外推当时的具体街址；原断言与证据见发出端卡片“耶鲁大学出版社（Yale University Press）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；The First Half-Century的1910迁址段 |
 
 ### 关系候选入口
 

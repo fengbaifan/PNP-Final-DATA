@@ -62,6 +62,7 @@
 - [卡波迪蒙特博物馆（Museo di Capodimonte）](../../04-knowledge/units/institutions/museo-di-capodimonte.md)
 - [博伊曼斯—范伯宁恩博物馆（Museum Boijmans Van Beuningen）](../../04-knowledge/units/institutions/museum-boymansvan-beuningen.md)
 - [休斯敦美术馆（The Museum of Fine Arts, Houston）](../../04-knowledge/units/institutions/museum-of-fine-arts-houston.md)
+- [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../../04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md)
 - [英国国家美术馆（National Gallery）](../../04-knowledge/units/institutions/national-gallery-london.md)
 - [爱尔兰国家美术馆（National Gallery of Ireland）](../../04-knowledge/units/institutions/national-gallery-of-ireland.md)
 - [苏格兰国家美术馆（Scottish National Gallery）](../../04-knowledge/units/institutions/national-gallery-of-scotland.md)

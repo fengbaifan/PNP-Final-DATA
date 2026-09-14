@@ -20,9 +20,21 @@ sources:
   location: 完整藏品介绍、1966年机构职责与摄影部门段、书目
   sentence_summary: 1966年Soprintendenza alle Gallerie是主管机构的历史名称，其工作人员参与佛罗伦萨艺术遗产抢救；摄影部门与监管机构不是同一粒度。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/florence.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 本书图片来源所列历史监管机构所在地
 ---
+
 
 ## 内容
 
@@ -64,8 +76,13 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Uffizi机构历史语境](https://www.uffizi.it/opere/fondo-fotografico-alluvione-a-firenze)（S2）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 范围：本书图片来源所列历史监管机构所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [乐师群像（A Group of Musicians）](../works/a-d-gabbiani-a-group-of-musicians.md) | 本书图版对象的供片已明确；外部同题群像的具体版本仍待证；角色：本书复制图像供片者；范围：《赞助人与画家》图版40a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“乐师群像（A Group of Musicians）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [潘与绪任克斯（Pan and Syrinx）](../works/sebastiano-ricci-pan-and-syrinx.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“潘与绪任克斯（Pan and Syrinx）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [劫夺欧罗巴（Rape of Europa）](../works/sebastiano-ricci-rape-of-europa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“劫夺欧罗巴（Rape of Europa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [维纳斯与阿多尼斯（Venus and Adonis）](../works/sebastiano-ricci-venus-and-adonis.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“维纳斯与阿多尼斯（Venus and Adonis）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

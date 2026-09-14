@@ -23,9 +23,22 @@ sources:
   location: 开篇及1925年成立、初始项目段；未采用未读的后期沿革
   sentence_summary: 机构1925年2月18日成立于罗马，初名Istituto Giovanni Treccani per la pubblicazione della Enciclopedia Italiana e del Dizionario Biografico degli Italiani，承担百科全书及人物辞典出版项目。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: published_by
+  target: institutions/istituto-della-enciclopedia-italiana.md
+  evidence_ref:
+    doc_id: archives-dizionario-biografico-degli-italiani
+    source_file: https://www.treccani.it/istituto/la-nostra-storia.html
+    source_span: 机构成立时的出版项目及原名
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 人物辞典出版项目的责任机构；辞典与机构分开
+  role: 辞典出版机构
 ---
+
 
 ## 内容
 
@@ -74,7 +87,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → published_by（`published_by`） | [意大利百科全书研究院（Istituto della Enciclopedia Italiana）](../institutions/istituto-della-enciclopedia-italiana.md) | 角色：辞典出版机构；范围：人物辞典出版项目的责任机构；辞典与机构分开；证据：[来源](https://www.treccani.it/istituto/la-nostra-storia.html)；archives-dizionario-biografico-degli-italiani；机构成立时的出版项目及原名 |
 
 ### 关系候选入口
 

@@ -18,9 +18,22 @@ sources:
   location: 完整机构介绍、地址与联系字段
   sentence_summary: 罗马芬兰研究所1954年开始活动，开展人文研究、培训、出版及学者艺术家驻留，位于罗马Gianicolo的文艺复兴建筑Villa Lante。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/villa-lante-rome.md
+  evidence_ref:
+    doc_id: institutions-finnish-institute
+    source_file: https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma
+    source_span: 机构介绍与地址：Villa Lante，Gianicolo
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置
+  role: 机构使用建筑
 ---
+
 
 ## 内容
 
@@ -70,7 +83,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [罗马兰特别墅（Villa Lante, Rome）](../places/villa-lante-rome.md) | 角色：机构使用建筑；范围：机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置；证据：[来源](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)；institutions-finnish-institute；机构介绍与地址：Villa Lante，Gianicolo |
 
 ### 关系候选入口
 

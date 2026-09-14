@@ -45,7 +45,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [女性侧面头像（Female Head in Profile）](../works/piazzetta-female-head-in-profile-milan.md) | 范围：米兰4884/8 C 526/1；原断言与证据见发出端卡片“女性侧面头像（Female Head in Profile）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO |
 
 ### 关系候选入口
 

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T23:53:27",
+  "timestamp": "2026-09-15T00:30:40",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 881,
+    "total_units": 886,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,22 +26,22 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 881,
+    "total_units": 886,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 881,
+    "units_missing_any_assignment": 886,
     "field_coverage": {
-      "primary_domain": "0/881",
-      "primary_dimension": "0/881",
-      "primary_theme": "0/881",
-      "topic_memberships": "0/881"
+      "primary_domain": "0/886",
+      "primary_dimension": "0/886",
+      "primary_theme": "0/886",
+      "topic_memberships": "0/886"
     }
   },
   "counts_by_type": {
-    "persons": 324,
+    "persons": 325,
     "families": 8,
-    "institutions": 114,
-    "places": 128,
-    "works": 200,
+    "institutions": 115,
+    "places": 129,
+    "works": 202,
     "archives": 56,
     "terms": 34,
     "procedures": 10,
@@ -356,6 +356,7 @@
       "04-knowledge/units/persons/simonelli.md",
       "04-knowledge/units/persons/sixtus-v.md",
       "04-knowledge/units/persons/solimena.md",
+      "04-knowledge/units/persons/stefano-conti.md",
       "04-knowledge/units/persons/tarquinio-salvi.md",
       "04-knowledge/units/persons/teodoro-correr.md",
       "04-knowledge/units/persons/terisio-pignatti.md",
@@ -450,6 +451,7 @@
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
       "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
       "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
+      "04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md",
       "04-knowledge/units/institutions/national-gallery-london.md",
       "04-knowledge/units/institutions/national-gallery-of-ireland.md",
       "04-knowledge/units/institutions/national-gallery-of-scotland.md",
@@ -546,6 +548,7 @@
       "04-knowledge/units/places/leeds.md",
       "04-knowledge/units/places/liverpool.md",
       "04-knowledge/units/places/london.md",
+      "04-knowledge/units/places/lucca.md",
       "04-knowledge/units/places/macerata.md",
       "04-knowledge/units/places/melbourne.md",
       "04-knowledge/units/places/milan.md",
@@ -779,9 +782,11 @@
       "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
       "04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md",
       "04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md",
+      "04-knowledge/units/works/piazzetta-female-head-in-profile-milan.md",
       "04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md",
       "04-knowledge/units/works/piazzetta-idyll.md",
       "04-knowledge/units/works/piazzetta-marshal-schulenburg.md",
+      "04-knowledge/units/works/piazzetta-pastoral-scene-chicago.md",
       "04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md",
       "04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md",
       "04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md",
@@ -1212,6 +1217,7 @@
       "04-knowledge/units/persons/simonelli.md",
       "04-knowledge/units/persons/sixtus-v.md",
       "04-knowledge/units/persons/solimena.md",
+      "04-knowledge/units/persons/stefano-conti.md",
       "04-knowledge/units/persons/tarquinio-salvi.md",
       "04-knowledge/units/persons/teodoro-correr.md",
       "04-knowledge/units/persons/terisio-pignatti.md",
@@ -1306,6 +1312,7 @@
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
       "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
       "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
+      "04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md",
       "04-knowledge/units/institutions/national-gallery-london.md",
       "04-knowledge/units/institutions/national-gallery-of-ireland.md",
       "04-knowledge/units/institutions/national-gallery-of-scotland.md",
@@ -1402,6 +1409,7 @@
       "04-knowledge/units/places/leeds.md",
       "04-knowledge/units/places/liverpool.md",
       "04-knowledge/units/places/london.md",
+      "04-knowledge/units/places/lucca.md",
       "04-knowledge/units/places/macerata.md",
       "04-knowledge/units/places/melbourne.md",
       "04-knowledge/units/places/milan.md",
@@ -1640,9 +1648,11 @@
       "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
       "04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md",
       "04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md",
+      "04-knowledge/units/works/piazzetta-female-head-in-profile-milan.md",
       "04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md",
       "04-knowledge/units/works/piazzetta-idyll.md",
       "04-knowledge/units/works/piazzetta-marshal-schulenburg.md",
+      "04-knowledge/units/works/piazzetta-pastoral-scene-chicago.md",
       "04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md",
       "04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md",
       "04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md",
@@ -1798,8 +1808,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 324,
-      "tags": 324,
+      "sub_type": 325,
+      "tags": 325,
       "evidence_status": 0
     },
     "families": {
@@ -1808,18 +1818,18 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 114,
-      "tags": 114,
+      "sub_type": 115,
+      "tags": 115,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 125,
-      "tags": 128,
+      "sub_type": 126,
+      "tags": 129,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 197,
-      "tags": 200,
+      "sub_type": 199,
+      "tags": 202,
       "evidence_status": 0
     },
     "archives": {
@@ -1900,11 +1910,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 192,
-    "evidence_ref_resolvable": 1031,
+    "sources_without_evidence_ref": 197,
+    "evidence_ref_resolvable": 1043,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1031,
-    "units_with_traceable_source": 881
+    "evidence_refs_total": 1043,
+    "units_with_traceable_source": 886
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1917,8 +1927,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 409,
-    "explicit_relations_with_evidence": 409
+    "explicit_relations": 502,
+    "explicit_relations_with_evidence": 502
   },
   "source_hash": {
     "total_sources": 0,
@@ -1936,7 +1946,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 881,
+      "count": 886,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2238,6 +2248,7 @@
         "04-knowledge/units/persons/simonelli.md",
         "04-knowledge/units/persons/sixtus-v.md",
         "04-knowledge/units/persons/solimena.md",
+        "04-knowledge/units/persons/stefano-conti.md",
         "04-knowledge/units/persons/tarquinio-salvi.md",
         "04-knowledge/units/persons/teodoro-correr.md",
         "04-knowledge/units/persons/terisio-pignatti.md",
@@ -2332,6 +2343,7 @@
         "04-knowledge/units/institutions/museo-di-capodimonte.md",
         "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
         "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
+        "04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md",
         "04-knowledge/units/institutions/national-gallery-london.md",
         "04-knowledge/units/institutions/national-gallery-of-ireland.md",
         "04-knowledge/units/institutions/national-gallery-of-scotland.md",
@@ -2428,6 +2440,7 @@
         "04-knowledge/units/places/leeds.md",
         "04-knowledge/units/places/liverpool.md",
         "04-knowledge/units/places/london.md",
+        "04-knowledge/units/places/lucca.md",
         "04-knowledge/units/places/macerata.md",
         "04-knowledge/units/places/melbourne.md",
         "04-knowledge/units/places/milan.md",
@@ -2666,9 +2679,11 @@
         "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
         "04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md",
         "04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md",
+        "04-knowledge/units/works/piazzetta-female-head-in-profile-milan.md",
         "04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md",
         "04-knowledge/units/works/piazzetta-idyll.md",
         "04-knowledge/units/works/piazzetta-marshal-schulenburg.md",
+        "04-knowledge/units/works/piazzetta-pastoral-scene-chicago.md",
         "04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md",
         "04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md",
         "04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md",
@@ -2920,12 +2935,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 331,
+      "total": 332,
       "coverage": {
-        "name_original": "0/331",
-        "language_original": "0/331",
-        "name_zh": "0/331",
-        "translation_status": "0/331"
+        "name_original": "0/332",
+        "language_original": "0/332",
+        "name_zh": "0/332",
+        "translation_status": "0/332"
       }
     },
     "families": {
@@ -2938,20 +2953,20 @@
       }
     },
     "institutions": {
-      "total": 114,
+      "total": 115,
       "coverage": {
-        "name_original": "0/114",
-        "name_original_language": "0/114",
-        "name_zh": "0/114",
-        "translation_status": "0/114"
+        "name_original": "0/115",
+        "name_original_language": "0/115",
+        "name_zh": "0/115",
+        "translation_status": "0/115"
       }
     },
     "works": {
-      "total": 203,
+      "total": 205,
       "coverage": {
-        "title_original": "0/203",
-        "title_original_language": "0/203",
-        "title_zh": "0/203"
+        "title_original": "0/205",
+        "title_original_language": "0/205",
+        "title_zh": "0/205"
       }
     },
     "archives": {
@@ -2973,9 +2988,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 748,
-    "indexed": 748,
-    "declared_total": 748,
+    "expected": 752,
+    "indexed": 752,
+    "declared_total": 752,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2983,14 +2998,14 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 410,
-    "explicit_relation_count": 409,
+    "relation_index_total": 503,
+    "explicit_relation_count": 502,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 410,
+    "weak_evidence_count": 503,
     "needs_evidence_count": 0,
-    "relation_type_coverage": "42/116"
+    "relation_type_coverage": "45/117"
   },
   "output_file_back": {
     "total_outputs": 3,
@@ -3050,48 +3065,48 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 881,
+    "total_units": 886,
     "source_count_distribution": {
-      "multi_source": 666,
-      "single_source": 215
+      "multi_source": 677,
+      "single_source": 209
     },
     "confidence_distribution": {
-      "missing": 881
+      "missing": 886
     },
     "consensus_distribution": {
-      "missing": 881
+      "missing": 886
     },
     "evidence_status_distribution": {
-      "source_backed": 881
+      "source_backed": 886
     },
     "isolated_units": {
-      "count": 535,
+      "count": 447,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
-        "archives/apollo-periodical.md",
-        "archives/burlington-magazine.md",
-        "archives/conforti-legros-designers-1977.md",
-        "archives/dizionario-biografico-degli-italiani.md",
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
         "archives/goldoni-opere-vol-2-1761.md",
         "archives/harris-andrea-sacchi-1977.md",
-        "archives/honour-patrons-painters-review-1963.md",
         "archives/montaiglon-academy-correspondence.md",
-        "archives/museum-studies-art-institute-chicago.md",
         "archives/pastor-popes-english-vol33.md",
-        "archives/patrons-and-painters.md",
-        "archives/poerson-letter-1708.md",
         "archives/torcellan-andrea-memmo-1963.md",
         "archives/us-copyright-law.md",
-        "archives/waterhouse-rome-painting-1971.md",
         "events/san-clemente-redecoration.md",
         "families/pisani-family.md",
         "families/rezzonico-family.md",
         "families/sacchetti-family.md",
         "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
-        "institutions/alte-pinakothek.md"
+        "institutions/alte-pinakothek.md",
+        "institutions/apostolic-chamber.md",
+        "institutions/barnabites.md",
+        "institutions/bayerischen-staatsgemaldesammlungen.md",
+        "institutions/bibliotheque-nationale.md",
+        "institutions/british-museum.md",
+        "institutions/ca-foscari-university-venice.md",
+        "institutions/clark-art-institute.md",
+        "institutions/courtauld-institute-of-art.md",
+        "institutions/dusseldorf-electoral-picture-gallery.md"
       ]
     },
     "candidate_debt": {
@@ -3108,7 +3123,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 215,
+      "single_source_units": 209,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3133,7 +3148,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 881,
+    "total_files": 886,
     "total_findings": 0
   }
 }

@@ -50,7 +50,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 时间：1944起；角色：大学所属研究所；范围：1944年起成为伦敦大学组成机构；图书馆另设KU；原断言与证据见发出端卡片“瓦尔堡研究院（Warburg Institute）”：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；institutions-warburg-institute；首段及The Move to London的1944段 |
 
 ### 关系候选入口
 

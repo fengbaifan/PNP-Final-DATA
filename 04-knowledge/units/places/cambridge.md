@@ -62,7 +62,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [斯特恩父子摄影商号（Stearn & Sons）](../institutions/stearn-and-son.md) | 角色：营业城市；范围：档案规范记录中的摄影商号历史所在地；72 Bridge Street；原断言与证据见发出端卡片“斯特恩父子摄影商号（Stearn & Sons）”：[来源](https://collegecollections.jesus.cam.ac.uk/index.php/stearn-sons-photographers-bridge-street-cambridge)；institutions-stearn-and-son；Identity题名与History中的Bridge Street地址 |
+| ← 所在地（`location_of`，反向投影） | [剑桥特纳摄影商号（Turners of Cambridge）](../institutions/turners-of-cambridge.md) | 范围：原书Turners of Cambridge署名粒度；不据此确认法律实体；原断言与证据见发出端卡片“剑桥特纳摄影商号（Turners of Cambridge）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
+| ← 所在地（`location_of`，反向投影） | [剑桥大学图书馆（Cambridge University Library）](../institutions/university-library-cambridge.md) | 时间：2005年记录；角色：出版项所列馆址；范围：2005年出版项所列West Road城市；不倒填1416年的精确地址；原断言与证据见发出端卡片“剑桥大学图书馆（Cambridge University Library）”：[来源](https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content)；institutions-university-library-cambridge；PDF38／印刷36出版项 |
 
 ### 关系候选入口
 

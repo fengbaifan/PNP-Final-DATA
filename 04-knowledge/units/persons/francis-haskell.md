@@ -68,10 +68,56 @@ sources:
 - citation: Charles Hope, Francis James Herbert Haskell, 1928–2000, Proceedings of the British Academy 115 (2002), pp.227–242. https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf. Accessed 2026-09-14.
   location: 实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242
   sentence_summary: 全名Francis James Herbert Haskell，1928-04-07生于伦敦，2000-01-18去世；1948年入King’s College，1951年Pevsner同意指导研究，1962年由Bettagno介绍认识Larissa Salmina，1965年结婚；Larissa时任Hermitage威尼斯素描策展人。非整篇全文阅读。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：第一版序言；印刷页ix；PDF 7；OCR L21–22
+  sentence_summary: 作者致谢的研究图书馆，位于伦敦。
+  original_quotes:
+  - source_span: lines 21–22
+    text: 'All the libraries and archives which are referred to on a later page have received me with great kindness, and to these I would like to add especially the library of the
+
+      Warburg Institute in London where I have always received so much encouragement and advice from everyone concerned with that great organisation. I am also deeply indebted to the Provost and Fellows of my own College who have made it possible for me to undertake and continue this book over a very much longer period than they originally bargained for. Mr A. N. L. Munby, the librarian, has solved countless problems for me and Mr G. H. W. Rylands has read much of the typescript and the whole book in proof and made many suggestions and corrections. I would like, too, to thank Mrs Elizabeth Oma for the trouble she took in compiling a full and necessarily rather complicated Index; and Messrs T. and A. Constable Ltd., the printers of the book, for their great care in setting and checking my text.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：第一版序言；印刷页ix；PDF 7；OCR L23–23
+  sentence_summary: 哈斯克尔在威尼斯进行研究所使用的图书馆。
+  original_quotes:
+  - source_span: lines 23–23
+    text: I have benefited from conversations with so many people that it is impossible to thank them all and I apologise to all who have been inadvertently omitted. In Italy I would like to single out especially Dr Terisio Pignatti, who has given me such marvellous facilities for working in the Correr Library in Venice, Dr Alessandro Bettagno,
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–23; 章前：第一版序言；印刷页ix；PDF 7
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作者与序言学者身份
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: supported_by
+  target: institutions/warburg-institute-library.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问
+  role: 研究使用、鼓励与建议
+- relation_type: supported_by
+  target: persons/terisio-pignatti.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–23; 章前：第一版序言；印刷页ix；PDF 7
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 在威尼斯科雷尔图书馆研究时获得的便利；不据此推定Pignatti当时任职
+  role: 提供研究便利
 ---
+
 
 ## 内容
 
@@ -133,7 +179,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：作者；范围：本书作者；修订扩充版书名页；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
+| → supported_by（`supported_by`） | [瓦尔堡研究院图书馆（Library of the Warburg Institute）](../institutions/warburg-institute-library.md) | 角色：研究使用、鼓励与建议；范围：第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → supported_by（`supported_by`） | [泰里西奥·皮尼亚蒂（Terisio Pignatti）](terisio-pignatti.md) | 角色：提供研究便利；范围：在威尼斯科雷尔图书馆研究时获得的便利；不据此推定Pignatti当时任职；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–23; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 关系候选入口
 

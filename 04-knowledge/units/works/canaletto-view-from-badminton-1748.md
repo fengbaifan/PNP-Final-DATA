@@ -4,8 +4,7 @@ name_en: View from Badminton, 1748
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L129–129
   sentence_summary: 《赞助人与画家》图版51目录所记的《巴德明顿景观》艺术对象。
   original_quotes:
@@ -15,10 +14,35 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 129–129; 章前：图版目录；印刷页xv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L168–169
+  sentence_summary: 本书图片来源将图版51的复制图像署于皇家艺术研究院（Royal Academy of Arts）；不证明绘画创作、所有权或印本保管。
+  original_quotes:
+  - source_span: lines 168–169
+    text: 'ioa, 13, 21b; National Gallery: 34, 52b; National Portrait Gallery: 52a; Rossi, Venice: 58a; Royal
+
+      Academy: 3b, 30a, 30b, 31a, 31b, 47, 49b, 51, 54, 61b; Oscar Savio: I, 11a, 11b, 16; Service de Docu­'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片关系集中定稿
+relations:
+- relation_type: supplied_by
+  target: institutions/royal-academy.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  relation_source: explicit
+  review_status: evidence_backed_relation
+  bidirectional_required: false
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者
 ---
+
 
 ## 内容
 
@@ -45,11 +69,19 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 目录年代 | 1748 | S1 |
 | 书中收藏者 | Duke of Beaufort／博福特公爵，具体持衔人未定 | S1 |
 
+### 本书供片
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版51复制图像供片者 | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

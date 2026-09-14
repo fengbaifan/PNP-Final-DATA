@@ -66,18 +66,24 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 156–157; print p. xvi
+- citation: Renato Roli, CRESPI, Giuseppe Maria, detto lo Spagnolo, Dizionario Biografico degli Italiani, vol. 30 (1984). https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/. Accessed 2026-09-14.
+  location: Giove tra i coribanti专段；参照姓名首段及上下文
+  sentence_summary: 1728–1729年为Lucca商人Stefano Conti绘制Stuttgart的Giove tra i coribanti；该段引用Haskell 1966及Merriman 1976，并非完全独立于本书的证据链。
+- citation: Fondazione Federico Zeri, Educazione di Giove, entry number 119514, URL work/121785. https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove. Accessed 2026-09-14.
+  location: 完整对象记录：作者、年代、材料尺寸、所有地点及书目
+  sentence_summary: Crespi的1728–1729年画布作品，186×215厘米；Staatsgalerie Stuttgart藏品3294，前经Colnaghi（1976–1977）、Sotheby拍卖（1974-12-11 lot 23）、Albert收藏与Lucca的Conti收藏（1729起）。
 created: '2026-09-09'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#德国馆藏版本与创作委托关系
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本书索引把xvii页的Crespi归于Giuseppe Maria Crespi；图版另以G. M. Crespi列其作品。
+**中文：** 朱塞佩·马里亚·克雷斯皮是意大利画家，曾为卢卡商人斯特凡诺·孔蒂绘制朱庇特题材画作。
 
-**English:** The index assigns the reference on p. xvii to Giuseppe Maria Crespi; the plate list also identifies works by G. M. Crespi.
+**English:** Giuseppe Maria Crespi was an Italian painter who made a painting of Jupiter for the Lucca merchant Stefano Conti.
 
 ### 名称与来源记录
 
@@ -91,10 +97,23 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 作品 | [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md) | S5 |
 | 作品 | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | S6 |
 
+### 委托履历
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 1728–1729年委托人 | [斯特凡诺·孔蒂](stefano-conti.md) | S7 |
+| 对应作品 | [朱庇特的养育](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md)；斯图加特馆藏3294 | S7，作品和保管者；S8，馆号 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[DBI Crespi传记](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)（S7，姓名与Conti委托）。
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1728–1729；角色：画家；范围：Stuttgart inv.3294；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；AUTHOR、Dating；Stuttgart inv.3294 |
 
 [章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)

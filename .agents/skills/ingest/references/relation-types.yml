@@ -77,6 +77,7 @@ types:
   - participated_in
   - patron_of
   - patronized_by
+  - pendant_of
   - privilege_granted_by
   - granted_privilege_to
   - operationalized_by
@@ -125,6 +126,7 @@ legacy_generic_types:
   - relates_to_work
   - related_to
 inverse:
+  pendant_of: pendant_of
   advised: advised_by
   advised_by: advised
   acquired_by: acquirer_of

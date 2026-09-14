@@ -42,7 +42,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [剑桥大学图书馆（Cambridge University Library）](university-library-cambridge.md) | 角色：所属图书馆；范围：大学所属研究图书馆，不与大学合并为同一KU；原断言与证据见发出端卡片“剑桥大学图书馆（Cambridge University Library）”：[来源](https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content)；institutions-university-library-cambridge；2005馆长导言PDF3／印刷1及PDF38／印刷36年表 |
 
 ### 关系候选入口
 

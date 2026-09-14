@@ -25,9 +25,22 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 166–166; 章前：图片来源；印刷页xvi
 created: '2026-09-09'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片关系集中定稿
+relations:
+- relation_type: supplied_by
+  target: institutions/marlborough-fine-art-ltd.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 166–166
+  relation_source: explicit
+  review_status: evidence_backed_relation
+  bidirectional_required: false
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者
 ---
+
 
 ## 内容
 
@@ -56,7 +69,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其供应（`supplied_by`） | [马尔伯勒美术公司（Marlborough Fine Art Ltd）](../institutions/marlborough-fine-art-ltd.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 166–166 |
 
 [章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
 

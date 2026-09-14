@@ -55,7 +55,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← publisher_of（`publisher_of`，反向投影） | [意大利人传记辞典（Dizionario biografico degli Italiani）](../archives/dizionario-biografico-degli-italiani.md) | 角色：辞典出版机构；范围：人物辞典出版项目的责任机构；辞典与机构分开；原断言与证据见发出端卡片“意大利人传记辞典（Dizionario biografico degli Italiani）”：[来源](https://www.treccani.it/istituto/la-nostra-storia.html)；archives-dizionario-biografico-degli-italiani；机构成立时的出版项目及原名 |
 
 ### 关系候选入口
 

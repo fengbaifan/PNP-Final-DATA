@@ -20,9 +20,23 @@ sources:
   location: 完整介绍正文，设立与1975年并入ICCD段、档案构成段
   sentence_summary: 1895年设立摄影室，以记录意大利历史、艺术和景观遗产；1975年并入ICCD，摄影活动延续。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: part_of
+  target: institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md
+  evidence_ref:
+    doc_id: institutions-gabinetto-fotografico-nazionale
+    source_file: https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale
+    source_span: 机构史1895设立与1975并入段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动
+  role: 组成机构
+  time: 1975起
 ---
+
 
 ## 内容
 
@@ -64,8 +78,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [ICCD机构历史](https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale)（S2）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 组成部分（`part_of`） | [中央编目与文献研究所（Istituto Centrale per il Catalogo e la Documentazione）](istituto-centrale-per-il-catalogo-e-la-documentazione.md) | 时间：1975起；角色：组成机构；范围：1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动；证据：[来源](https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale)；institutions-gabinetto-fotografico-nazionale；机构史1895设立与1975并入段 |
+| ← 供应者（`supplier_of`，反向投影） | [圣依纳爵堂拱顶壁画模型（Modello for fresco on vault of S. Ignazio）](../works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版15的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“圣依纳爵堂拱顶壁画模型（Modello for fresco on vault of S. Ignazio）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 165–166 |
+| ← 供应者（`supplier_of`，反向投影） | [神圣智慧寓意（Allegory of Divine Wisdom）](../works/andrea-sacchi-allegory-of-divine-wisdom.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版12的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“神圣智慧寓意（Allegory of Divine Wisdom）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 165–166 |
+| ← 供应者（`supplier_of`，反向投影） | [劫夺海伦（Rape of Helen）](../works/pietro-da-cortona-rape-of-helen.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“劫夺海伦（Rape of Helen）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 165–166 |
 
 ### 关系候选入口
 

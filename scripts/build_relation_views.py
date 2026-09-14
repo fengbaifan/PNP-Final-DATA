@@ -94,6 +94,7 @@ LABELS = {
     "part_of": "组成部分",
     "patron_of": "赞助者／保护人",
     "patronized_by": "受其赞助／保护",
+    "pendant_of": "配对作品",
     "supplied_by": "由其供应",
     "supplier_of": "供应者",
     "testified_about": "为其相关争议作证",

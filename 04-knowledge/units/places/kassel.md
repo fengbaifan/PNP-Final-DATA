@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 范围：馆藏说明中的博物馆所在地；原断言与证据见发出端卡片“威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）”：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；rkd-gerson-italy；图21；GK 554 |
 
 ### 关系候选入口
 

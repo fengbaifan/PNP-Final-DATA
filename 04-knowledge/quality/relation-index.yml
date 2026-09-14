@@ -1,7 +1,7 @@
 # Relation Index v2.1
-# generated: 2026-09-14
-# total: 410
-# sources: {'explicit': 409, 'inferred_by_rule': 1}
+# generated: 2026-09-15
+# total: 503
+# sources: {'explicit': 502, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -574,6 +574,26 @@
   review_status: evidence_backed_relation
   role: 主要合作者
   scope: 训练期之后的工作合作；具体项目仍逐作判断
+- source: persons/charles-francois-poerson.md
+  source_type: person
+  target: institutions/french-academy-in-rome.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-charles-francois-poerson
+    source_file: https://villamedici.it/directeur/charles-francois-poerson/
+    source_span: Biographie任职段：1704年获任院长
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1704起；1708在任
+  role: 院长
+  scope: 1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期
 - source: persons/charles-v.md
   source_type: person
   target: persons/titian.md
@@ -850,6 +870,44 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/francis-haskell.md
+  source_type: person
+  target: institutions/warburg-institute-library.md
+  target_type: institution
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究使用、鼓励与建议
+  scope: 第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/terisio-pignatti.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–23; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 提供研究便利
+  scope: 在威尼斯科雷尔图书馆研究时获得的便利；不据此推定Pignatti当时任职
 - source: persons/frederick-iii.md
   source_type: person
   target: persons/gentile-bellini.md
@@ -1344,6 +1402,26 @@
   review_status: evidence_backed_relation
   role: master of ceremonies任命者
   scope: 任命范围限该职位
+- source: persons/john-nicoll.md
+  source_type: person
+  target: institutions/yale-university-press.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: yup-history-nicoll
+    source_file: https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/
+    source_span: II. Growth and Diversification：In 1973, John Nicoll was hired to oversee the Press’s London office
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1973起；官方历史记此后约30年
+  role: 伦敦办事处负责人
+  scope: 受聘负责出版社伦敦办事处；未补造精确离职日期
 - source: persons/lodovico-gimignani.md
   source_type: person
   target: persons/cardinal-rospigliosi-gimignani.md
@@ -2010,6 +2088,197 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: institutions/correr-library.md
+  source_type: institution
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-correr-library
+    source_file: https://correr.visitmuve.it/en/library/
+    source_span: The Library：The Correr Museum incorporates the Library
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所属图书馆
+  scope: 博物馆包含其威尼斯艺术与历史图书馆
+- source: institutions/correr-library.md
+  source_type: institution
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–23; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 第一版序言所述研究场所所在地
+- source: institutions/correr-library.md
+  source_type: institution
+  target: persons/teodoro-correr.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-correr-library
+    source_file: https://correr.visitmuve.it/en/library/
+    source_span: The Library首句：museum and library founded through bequest
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1830'
+  role: 创立遗赠者
+  scope: 遗赠促成图书馆1830年创立；与博物馆端点分别记录
+- source: institutions/finnish-institute.md
+  source_type: institution
+  target: places/villa-lante-rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-finnish-institute
+    source_file: https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma
+    source_span: 机构介绍与地址：Villa Lante，Gianicolo
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 机构使用建筑
+  scope: 机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置
+- source: institutions/gabinetto-fotografico-nazionale.md
+  source_type: institution
+  target: institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-gabinetto-fotografico-nazionale
+    source_file: https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale
+    source_span: 机构史1895设立与1975并入段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1975起
+  role: 组成机构
+  scope: 1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动
+- source: institutions/marlborough-fine-art-ltd.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-marlborough-fine-art-ltd
+    source_file: https://marlborougharchive.com/history-marlborough-gallery
+    source_span: 1946年创办两段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1946'
+  role: 初始营业城市
+  scope: 画廊初创时期所在城市，17–18 Old Bond Street
+- source: institutions/museo-correr.md
+  source_type: institution
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 图版48b–48d所列科雷尔博物馆城市
+- source: institutions/museo-correr.md
+  source_type: institution
+  target: persons/teodoro-correr.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-museo-correr
+    source_file: https://correr.visitmuve.it/en/library/
+    source_span: The Library首句：museum and library founded through bequest
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1830'
+  role: 创立遗赠者
+  scope: 遗赠促成博物馆1830年创立；不补造遗赠法律生效日期
+- source: institutions/museum-schloss-wilhelmshoehe.md
+  source_type: institution
+  target: places/kassel.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: rkd-gerson-italy
+    source_file: https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/
+    source_span: 图21；GK 554
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 馆藏说明中的博物馆所在地
+- source: institutions/royal-academy.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-royal-academy
+    source_file: https://www.nationaltrustcollections.org.uk/object/3119476
+    source_span: Makers and roles：Royal Academy of Arts, London
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1960年目录记录
+  scope: 1960展览目录责任机构所列城市；不表示本书供片来自该展览
 - source: institutions/schildersbent.md
   source_type: institution
   target: institutions/accademia-di-san-luca.md
@@ -2030,6 +2299,255 @@
   time: 17世纪前期
   role: 征税争议方
   scope: 抵制学院向罗马艺术家征税的尝试
+- source: institutions/service-de-documentation-photographique-des-musees-nationaux.md
+  source_type: institution
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 169–170; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 本书供片署名所列巴黎；不推定今日地址
+- source: institutions/soprintendenza-alle-gallerie-florence.md
+  source_type: institution
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 本书图片来源所列历史监管机构所在地
+- source: institutions/stearn-and-son.md
+  source_type: institution
+  target: places/cambridge.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-stearn-and-son
+    source_file: https://collegecollections.jesus.cam.ac.uk/index.php/stearn-sons-photographers-bridge-street-cambridge
+    source_span: Identity题名与History中的Bridge Street地址
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 营业城市
+  scope: 档案规范记录中的摄影商号历史所在地；72 Bridge Street
+- source: institutions/turners-of-cambridge.md
+  source_type: institution
+  target: places/cambridge.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 原书Turners of Cambridge署名粒度；不据此确认法律实体
+- source: institutions/university-library-cambridge.md
+  source_type: institution
+  target: institutions/university-of-cambridge.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-library-cambridge
+    source_file: https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content
+    source_span: 2005馆长导言PDF3／印刷1及PDF38／印刷36年表
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所属图书馆
+  scope: 大学所属研究图书馆，不与大学合并为同一KU
+- source: institutions/university-library-cambridge.md
+  source_type: institution
+  target: places/cambridge.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-library-cambridge
+    source_file: https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content
+    source_span: PDF38／印刷36出版项
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2005年记录
+  role: 出版项所列馆址
+  scope: 2005年出版项所列West Road城市；不倒填1416年的精确地址
+- source: institutions/warburg-institute-library.md
+  source_type: institution
+  target: institutions/warburg-institute.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所属图书馆
+  scope: 第一版序言Library of the Warburg Institute；机构图书馆的归属
+- source: institutions/warburg-institute-library.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 第一版序言所述图书馆所在地
+- source: institutions/warburg-institute.md
+  source_type: institution
+  target: institutions/university-of-london.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-warburg-institute
+    source_file: https://warburg.sas.ac.uk/about-us/history-warburg-institute
+    source_span: 首段及The Move to London的1944段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1944起
+  role: 大学所属研究所
+  scope: 1944年起成为伦敦大学组成机构；图书馆另设KU
+- source: institutions/warburg-institute.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-warburg-institute
+    source_file: https://warburg.sas.ac.uk/about-us/history-warburg-institute
+    source_span: 首段及The Move to London
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1933起
+  role: 迁入城市
+  scope: 1933年迁入伦敦；不由此确定各阶段街道地址
+- source: institutions/yale-university-press.md
+  source_type: institution
+  target: institutions/yale-university.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-yale-university-press
+    source_file: https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/
+    source_span: II. Growth and Diversification，1961段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1961起
+  role: 所属出版部门
+  scope: 出版社为大学所属部门，同时保持财务和运营自主
+- source: institutions/yale-university-press.md
+  source_type: institution
+  target: places/new-haven.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-yale-university-press
+    source_file: https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/
+    source_span: The First Half-Century的1910迁址段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1910起
+  role: 迁入城市
+  scope: 1910年迁往纽黑文；不外推当时的具体街址
+- source: institutions/yale-university-press.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-yale-university-press
+    source_file: https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/
+    source_span: II. Growth and Diversification，1961段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1961起
+  role: 伦敦分部
+  scope: 1961年设伦敦分部；不是纽黑文总部搬迁至伦敦
 - source: places/cerasi-chapel.md
   source_type: place
   target: places/santa-maria-del-popolo.md
@@ -2189,6 +2707,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/a-d-gabbiani-a-group-of-musicians.md
+  source_type: work
+  target: institutions/soprintendenza-alle-gallerie-florence.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: 本书图版对象的供片已明确；外部同题群像的具体版本仍待证。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版40a的复制图像；不表示作品创作者、所有者或保管者
 - source: works/albani-servi-altarpiece-1639.md
   source_type: work
   target: persons/bonifazio-gozadini.md
@@ -2243,6 +2780,82 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/amigoni-jupiter-and-io.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版49b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md
+  source_type: work
+  target: institutions/gabinetto-fotografico-nazionale.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 165–166
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版15的复制图像；不表示作品创作者、所有者或保管者
+- source: works/andrea-sacchi-allegory-of-divine-wisdom.md
+  source_type: work
+  target: institutions/gabinetto-fotografico-nazionale.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 165–166
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版12的复制图像；不表示作品创作者、所有者或保管者
+- source: works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md
+  source_type: work
+  target: institutions/ministry-of-works.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 166–166; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者
 - source: works/bernini-cardinal-borghese-head.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -2294,6 +2907,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/bernini-louis-xiv.md
+  source_type: work
+  target: institutions/service-de-documentation-photographique-des-musees-nationaux.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 169–170; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者
 - source: works/bernini-thomas-baker-bust.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -2345,6 +2977,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/burnacini-the-elysian-fields.md
+  source_type: work
+  target: institutions/stearn-and-son.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 171–171
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版28b的复制图像；不表示作品创作者、所有者或保管者
 - source: works/camassei-martyrdom-saint-sebastian.md
   source_type: work
   target: persons/urbano-viii.md
@@ -2430,6 +3081,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/canaletto-view-from-badminton-1748.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者
 - source: works/caravaggio-adoration-shepherds.md
   source_type: work
   target: persons/caravaggio.md
@@ -5466,6 +6136,120 @@
   time: 本轮来源访问时
   role: 保管机构
   scope: 现存
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版30b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/carlo-maratta-cardinal-antonio-barberini.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版3b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/carlo-maratta-charles-fox.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版31a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/carlo-maratta-sir-thomas-isham.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版31b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/claude-mellan-vincenzo-giustiniani.md
+  source_type: work
+  target: institutions/stearn-and-son.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 171–171
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版17b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md
+  source_type: work
+  target: institutions/stearn-and-son.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 171–171
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者
 - source: works/ferri-laparelli-altarpiece.md
   source_type: work
   target: persons/annibale-laparelli.md
@@ -5568,6 +6352,103 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/fortune-salvator-rosa.md
+  source_type: work
+  target: institutions/marlborough-fine-art-ltd.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 166–166
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者
+- source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
+  source_type: work
+  target: persons/giuseppe-maria-crespi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: zeri-119514
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove
+    source_span: AUTHOR、Dating；Stuttgart inv.3294
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1728–1729
+  role: 画家
+  scope: Stuttgart inv.3294
+- source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
+  source_type: work
+  target: persons/stefano-conti.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-crespi
+    source_file: https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/
+    source_span: Giove tra i coribanti专段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1728–1729
+  role: 委托人
+  scope: Stuttgart的Giove tra i coribanti
+- source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
+  source_type: work
+  target: institutions/staatsgalerie-stuttgart.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: zeri-119514
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove
+    source_span: LOCATIONS：Last known、inv.3294
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 目录最后已知保管机构；不推定取得年
+- source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
+  source_type: work
+  target: institutions/colnaghi.md
+  target_type: institution
+  relation_type: handled_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: zeri-119514
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove
+    source_span: Previous location：Colnaghi, Londra, 1976–1977
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1976–1977
+  role: 经手画廊
+  scope: Stuttgart inv.3294的市场经手记录
 - source: works/gaulli-gesu-vaults.md
   source_type: work
   target: persons/giovan-battista-gaulli.md
@@ -5656,6 +6537,25 @@
   time: '1665'
   role: 创作者
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
+- source: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md
+  source_type: work
+  target: institutions/university-library-cambridge.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版9的复制图像；不表示作品创作者、所有者或保管者
 - source: works/lanfranco-crucifixion-stock.md
   source_type: work
   target: persons/giovanni-lanfranco.md
@@ -5728,6 +6628,135 @@
   review_status: evidence_backed_relation
   role: 要求完成现有画稿的委托人
   scope: 完成已有库存画；不是从零委托
+- source: works/marco-ricci-an-operatic-rehearsal.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版47的复制图像；不表示作品创作者、所有者或保管者
+- source: works/marieschi-picture-exhibition-at-church-of-s-rocco.md
+  source_type: work
+  target: institutions/stearn-and-son.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 171–171
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版56的复制图像；不表示作品创作者、所有者或保管者
+- source: works/massimo-stanzione-jerome-bankes.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版30a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
+  source_type: work
+  target: persons/michelangelo-cerquozzi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; print p. xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 图版22a
+- source: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
+  source_type: work
+  target: persons/michelangelo-cerquozzi.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; print p. xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 图版22a题名所指画家自我描绘
+- source: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
+  source_type: work
+  target: institutions/kunstsammlungen-kassel.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; print p. xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 本书图版22a所记保管机构；不推定取得时间
+- source: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
+  source_type: work
+  target: institutions/museum-schloss-wilhelmshoehe.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: rkd-gerson-italy
+    source_file: https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/
+    source_span: 图21；GK 554
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: RKD图21所记保管机构；不视为与书中机构之间的转让
 - source: works/mola-air-valmontone.md
   source_type: work
   target: works/mola-four-elements-valmontone.md
@@ -5813,6 +6842,328 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/nanteuil-cardinal-mazarin-in-his-gallery.md
+  source_type: work
+  target: institutions/stearn-and-son.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 171–171
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版26a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/ottavio-leoni-cardinal-francesco-barberini.md
+  source_type: work
+  target: institutions/turners-of-cambridge.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版3a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md
+  source_type: work
+  target: institutions/turners-of-cambridge.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版17c的复制图像；不表示作品创作者、所有者或保管者
+- source: works/piazzetta-female-head-in-profile-milan.md
+  source_type: work
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: sirbec-4y010-09084
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/
+    source_span: PDF4：AUTORE
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 米兰4884/8 C 526/1
+- source: works/piazzetta-female-head-in-profile-milan.md
+  source_type: work
+  target: institutions/gabinetto-dei-disegni-castello-sforzesco.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: sirbec-4y010-09084
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/
+    source_span: PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 米兰4884/8 C 526/1
+- source: works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md
+  source_type: work
+  target: institutions/university-library-cambridge.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版57a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/piazzetta-idyll.md
+  source_type: work
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 132–132; print p. xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 图版54，科隆2806
+- source: works/piazzetta-idyll.md
+  source_type: work
+  target: institutions/wallraf-richartz-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: sirbec-4y010-09084
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/
+    source_span: PDF4：Idillio、inv.2806
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 目录对应作品2806的保管机构
+- source: works/piazzetta-idyll.md
+  source_type: work
+  target: persons/marshal-schulenburg.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: sirbec-4y010-09084
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/
+    source_span: PDF5：Notizie storico-critiche
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 不晚于1745
+  role: 委托人
+  scope: 科隆Idillio，为Schulenburg所作
+- source: works/piazzetta-idyll.md
+  source_type: work
+  target: works/piazzetta-pastoral-scene-chicago.md
+  target_type: work
+  relation_type: pendant_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: sirbec-4y010-09084
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/
+    source_span: PDF5：Idillio与Scena pastorale配对说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 配对画作
+  scope: 科隆2806与芝加哥1937.68；后者身份由馆方23333记录核对
+- source: works/piazzetta-idyll.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版54的复制图像；不表示作品创作者、所有者或保管者
+- source: works/piazzetta-pastoral-scene-chicago.md
+  source_type: work
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: aic-23333
+    source_file: https://api.artic.edu/api/v1/artworks/23333
+    source_span: artist_display、date_display
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1740'
+  role: 画家
+  scope: '1937.68'
+- source: works/piazzetta-pastoral-scene-chicago.md
+  source_type: work
+  target: persons/marshal-schulenburg.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: aic-23333
+    source_file: https://api.artic.edu/api/v1/artworks/23333
+    source_span: description、provenance_text首句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 不晚于1743
+  role: 委托人
+  scope: 1937.68；1743年清单已有记录
+- source: works/piazzetta-pastoral-scene-chicago.md
+  source_type: work
+  target: institutions/art-institute-of-chicago.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: aic-23333
+    source_file: https://api.artic.edu/api/v1/artworks/23333
+    source_span: provenance_text末句：purchased by Art Institute, 1937
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1937'
+  role: 购买方
+  scope: '1937.68'
+- source: works/piazzetta-pastoral-scene-chicago.md
+  source_type: work
+  target: institutions/art-institute-of-chicago.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: aic-23333
+    source_file: https://api.artic.edu/api/v1/artworks/23333
+    source_span: 馆方对象记录、main_reference_number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  scope: 馆藏1937.68
+- source: works/pietro-da-cortona-rape-of-helen.md
+  source_type: work
+  target: institutions/gabinetto-fotografico-nazionale.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/01-book/CHP-0Cover.pdf
+    source_span: PDF13；印刷xvi；图片来源；lines 165–166
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/pietro-testa-rest-on-the-flight-into-egypt.md
+  source_type: work
+  target: institutions/turners-of-cambridge.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者
 - source: works/plague-at-ashdod-1631.md
   source_type: work
   target: persons/nicolas-poussin.md
@@ -6041,6 +7392,82 @@
   time: 1961-05–1961-06
   role: 画商／目录经手机构
   scope: Colnaghi目录第2号所涉经手记录
+- source: works/sebastiano-ricci-pan-and-syrinx.md
+  source_type: work
+  target: institutions/soprintendenza-alle-gallerie-florence.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版38b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/sebastiano-ricci-rape-of-europa.md
+  source_type: work
+  target: institutions/soprintendenza-alle-gallerie-florence.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版38a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/sebastiano-ricci-venus-and-adonis.md
+  source_type: work
+  target: institutions/soprintendenza-alle-gallerie-florence.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 170–171; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者
+- source: works/tiepolo-banquet-victoria.md
+  source_type: work
+  target: institutions/royal-academy.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 168–169; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 本书复制图像供片者
+  scope: 《赞助人与画家》图版61b的复制图像；不表示作品创作者、所有者或保管者
 - source: works/valentin-genre-commission.md
   source_type: work
   target: persons/valentin.md
@@ -6469,6 +7896,46 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/conforti-legros-designers-1977.md
+  source_type: archive
+  target: persons/michael-conforti.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-conforti-legros-designers-1977
+    source_file: https://www.burlington.org.uk/archive/back-issues/197708
+    source_span: 本期目录及Conforti论文条；未读付费论文正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1977-08
+  role: 论文作者
+  scope: 期刊官方目录的文章署名；不是已读论文全文
+- source: archives/conforti-legros-designers-1977.md
+  source_type: archive
+  target: archives/burlington-magazine.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-conforti-legros-designers-1977
+    source_file: https://www.burlington.org.uk/archive/back-issues/197708
+    source_span: 本期目录及Conforti论文条；未读付费论文正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1977-08
+  role: 刊载期刊
+  scope: 1977年8月，119卷893期；正文页码另见本书书目
 - source: archives/de-rosis-ruffo-letter-1663.md
   source_type: archive
   target: persons/giuseppe-de-rosis.md
@@ -6523,6 +7990,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/dizionario-biografico-degli-italiani.md
+  source_type: archive
+  target: institutions/istituto-della-enciclopedia-italiana.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-dizionario-biografico-degli-italiani
+    source_file: https://www.treccani.it/istituto/la-nostra-storia.html
+    source_span: 机构成立时的出版项目及原名
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 辞典出版机构
+  scope: 人物辞典出版项目的责任机构；辞典与机构分开
 - source: archives/ferri-ruffo-letter-1672.md
   source_type: archive
   target: persons/ciro-ferri.md
@@ -6756,6 +8242,64 @@
   time: '1649-09-25'
   role: 收信人
   scope: 按每位主要人物报价的交涉
+- source: archives/honour-patrons-painters-review-1963.md
+  source_type: archive
+  target: persons/hugh-honour.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 176–177; 章前：第二版导言；印刷页xvii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 书评作者
+  scope: 本书导言所称Hugh Honour书评；非已读书评原件
+- source: archives/honour-patrons-painters-review-1963.md
+  source_type: archive
+  target: archives/patrons-and-painters.md
+  target_type: archive
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 176–177; 章前：第二版导言；印刷页xvii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所评著作
+  scope: 书评所评著作；评价经Haskell转述
+- source: archives/honour-patrons-painters-review-1963.md
+  source_type: archive
+  target: archives/apollo-periodical.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 187–187; 章前：第二版导言；印刷页xvii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1963-12
+  role: 刊载期刊
+  scope: 本书脚注定位Apollo 1963年12月，页码未补造
 - source: archives/lanfranco-barberini-letter-1640.md
   source_type: archive
   target: persons/giovanni-lanfranco.md
@@ -6885,6 +8429,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/museum-studies-art-institute-chicago.md
+  source_type: archive
+  target: institutions/art-institute-of-chicago.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-museum-studies-art-institute-chicago
+    source_file: https://www.jstor.org/journal/artinstchicmuses
+    source_span: JSTOR期刊页Published by
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 期刊出版者
+  scope: 期刊出版机构；不因此逐篇验证其全部文章
 - source: archives/negri-san-tommaso-letter-1676.md
   source_type: archive
   target: persons/paolo-negri.md
@@ -7044,6 +8607,180 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/francis-haskell.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 3–17; unnumbered title and copyright pages
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 作者
+  scope: 本书作者；修订扩充版书名页
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/yale-university-press.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 3–17; unnumbered title and copyright pages
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1980版
+  role: 出版者
+  scope: 1980年修订扩充版；本件印刷年2006另记
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/yale-university.md
+  target_type: institution
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 16–16; 未编号版权页；PDF2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1980版权标注
+  role: 1980年版权标注权利人
+  scope: 仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/library-of-congress.md
+  target_type: institution
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 20–29; 未编号版权页；PDF2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 出版编目提供者
+  scope: 版权页Library of Congress Cataloging in Publication Data；仅CIP书目编制，不表示保管本件
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/t-and-a-constable.md
+  target_type: institution
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 初版印刷、排版与文字核对
+  scope: 第一版序言致谢的初版印制工作；不套到2006年印刷
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/chatto-and-windus.md
+  target_type: institution
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 初版制作支持
+  scope: 第二版序言回顾公司负责人员给予初版制作的支持；未拆分具体负责人
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/norah-smallwood.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 初版制作支持
+  scope: 第二版序言特别致谢的初版合作支持；不补造合同角色
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/john-nicoll.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版提议与制作帮助
+  scope: 第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主
+- source: archives/poerson-letter-1708.md
+  source_type: archive
+  target: persons/charles-francois-poerson.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 191–192; 章前：第二版导言；印刷页xviii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1708'
+  role: 写信人
+  scope: 本书所引1708年法语来信；收信人仅Mgr，不补造身份
 - source: archives/quarisimini-carrara-letter-1696.md
   source_type: archive
   target: persons/carlo-quarisimini-ch1.md
@@ -7350,6 +9087,46 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/waterhouse-rome-painting-1971.md
+  source_type: archive
+  target: persons/ellis-waterhouse.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
+    source_span: lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1971'
+  role: 论文作者
+  scope: 本书书目所列E. K. Waterhouse；书目事实不代替全文阅读
+- source: archives/waterhouse-rome-painting-1971.md
+  source_type: archive
+  target: archives/museum-studies-art-institute-chicago.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
+    source_span: lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1971'
+  role: 刊载期刊
+  scope: 本书书目所列1971年Museum Studies论文pp.7–21
 - source: procedures/artist-title-conferral.md
   source_type: procedure
   target: events/titian-honours-1533.md

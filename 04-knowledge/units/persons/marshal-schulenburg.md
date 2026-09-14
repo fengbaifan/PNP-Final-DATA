@@ -20,9 +20,15 @@ sources:
 - citation: Fiorenzo Fisogni, NAZARI, Bartolomeo, Dizionario Biografico degli Italiani, vol. 78 (2017). https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/. Accessed 2026-09-14.
   location: 完整传记及书目；出生、1717年合作、1733年Schulenburg委托、1744年旅行和卒年段
   sentence_summary: Bartolomeo Nazari，1693-05-31生，1758-08-24卒，画家和版画设计者；Schulenburg于1733年委托其绘失传骑马肖像，1744年邀其随行法兰克福。文中排除以风格相似判定Fra Galgario师承。
+- citation: Regione Lombardia / Gabinetto dei Disegni, Testa femminile di profilo, SIRBeC 4y010-09084. https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/. Accessed 2026-09-14.
+  location: 完整10页PDF；PDF3–5作品对应、技术与解释；PDF6取得与保管
+  sentence_summary: 米兰素描4884/8 C 526/1，241×186毫米；目录将其与科隆Idillio 2806及Cleveland另一素描联系。评论提出科隆画中少女头部的准备稿解释，称科隆画与芝加哥Scena pastorale为Schulenburg所作配对作品，科隆画不晚于1745年。
+- citation: Art Institute of Chicago, Pastoral Scene, artwork 23333, reference 1937.68. https://api.artic.edu/api/v1/artworks/23333. Accessed 2026-09-14.
+  location: 馆方API的作品字段、完整description、provenance_text、publication_history及exhibition_history
+  sentence_summary: Giovanni Battista Piazzetta，1740年布面油画，191.8×143厘米；Schulenburg委托，1743年清单已载，1937年芝加哥艺术博物馆购入。题材寓意保留解释的不确定性。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#德国馆藏版本与创作委托关系
 ---
 
 ## 内容
@@ -69,15 +75,27 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 1733年委托 | [纳扎里骑马肖像](../works/nazari-equestrian-portrait-of-schulenburg.md)，失传 | S3 |
 | 1744年随行邀请 | 邀请[巴托洛梅奥·纳扎里](b-nazari.md)随行法兰克福；画家8–12月在当地活动 | S3 |
 
+### 皮亚泽塔配对画作委托
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 科隆画作 | [田园](../works/piazzetta-idyll.md)；不晚于1745 | S4 |
+| 芝加哥画作 | [田园场景](../works/piazzetta-pastoral-scene-chicago.md)；1743年清单已载 | S5 |
+
 ## 关系与证据
 
 ### 身份与外部链接
+
+[SIRBeC评论中的委托](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)（S4）；[芝加哥1937.68流传记录](https://api.artic.edu/api/v1/artworks/23333)（S5）。
 
 [SIRBeC肖像与人物说明](https://www.lombardiabeniculturali.it/opere-arte/schede/4y010-09081/)（S2）；[Treccani Nazari传记](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)（S3，全名及具体委托）。
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 时间：不晚于1745；角色：委托人；范围：科隆Idillio，为Schulenburg所作；原断言与证据见发出端卡片“田园（Idyll）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF5：Notizie storico-critiche |
+| ← 委托者（`commissioner_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 时间：不晚于1743；角色：委托人；范围：1937.68；1743年清单已有记录；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；description、provenance_text首句 |
 
 ### 关系候选入口
 

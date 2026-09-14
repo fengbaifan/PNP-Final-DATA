@@ -40,9 +40,15 @@ sources:
 - citation: Regione Lombardia / Gabinetto dei Disegni, SIRBeC 4y010-09081, Ritratto di Matthias von der Schulenburg. https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/. Accessed 2026-09-14.
   location: PDF2–5：对象、馆藏、尺寸、技术、评论与取得；网页同源摘要
   sentence_summary: Piazzetta素描，387×303毫米，库存号4884/5 E 82/5；馆方年代字段约1730–1735，评论另提1738。Schulenburg（1661–1747）任威尼斯共和国军职，也聘Piazzetta估价、评估购藏。
+- citation: Regione Lombardia / Gabinetto dei Disegni, Testa femminile di profilo, SIRBeC 4y010-09084. https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/. Accessed 2026-09-14.
+  location: 完整10页PDF；PDF3–5作品对应、技术与解释；PDF6取得与保管
+  sentence_summary: 米兰素描4884/8 C 526/1，241×186毫米；目录将其与科隆Idillio 2806及Cleveland另一素描联系。评论提出科隆画中少女头部的准备稿解释，称科隆画与芝加哥Scena pastorale为Schulenburg所作配对作品，科隆画不晚于1745年。
+- citation: Art Institute of Chicago, Pastoral Scene, artwork 23333, reference 1937.68. https://api.artic.edu/api/v1/artworks/23333. Accessed 2026-09-14.
+  location: 馆方API的作品字段、完整description、provenance_text、publication_history及exhibition_history
+  sentence_summary: Giovanni Battista Piazzetta，1740年布面油画，191.8×143厘米；Schulenburg委托，1743年清单已载，1937年芝加哥艺术博物馆购入。题材寓意保留解释的不确定性。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#德国馆藏版本与创作委托关系
 ---
 
 ## 内容
@@ -88,9 +94,19 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 工作内容 | 评估拟购藏作品 | S5 |
 | 工作内容 | 作品估价 | S5 |
 
+### 本轮确认的作品
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 科隆画作 | [田园](../works/piazzetta-idyll.md)，2806，不晚于1745 | S6 |
+| 芝加哥画作 | [田园场景](../works/piazzetta-pastoral-scene-chicago.md)，1937.68，1740 | S7 |
+| 米兰素描 | [女性侧面头像](../works/piazzetta-female-head-in-profile-milan.md)，4884/8 C 526/1 | S6 |
+
 ## 关系与证据
 
 ### 身份与外部链接
+
+[SIRBeC素描与对应作品](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)（S6）；[芝加哥1937.68](https://api.artic.edu/api/v1/artworks/23333)（S7）。
 
 [舒伦堡肖像完整目录](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)（S5，素描身份及收藏顾问角色）。
 
@@ -98,7 +114,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [女性侧面头像（Female Head in Profile）](../works/piazzetta-female-head-in-profile-milan.md) | 范围：米兰4884/8 C 526/1；原断言与证据见发出端卡片“女性侧面头像（Female Head in Profile）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF4：AUTORE |
+| ← 所创作对象（`creator_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 范围：图版54，科隆2806；原断言与证据见发出端卡片“田园（Idyll）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 132–132; print p. xv |
+| ← 所创作对象（`creator_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 时间：1740；角色：画家；范围：1937.68；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；artist_display、date_display |
 
 ### 关系候选入口
 

@@ -1,5 +1,5 @@
-generated: '2026-09-14'
-total: 748
+generated: '2026-09-15'
+total: 752
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -1843,6 +1843,12 @@ index:
   title: 弗朗切斯科·索利梅纳（Francesco Solimena）
   name_original: ''
   language_original: ''
+- slug: persons/stefano-conti
+  type: persons
+  name_en: Stefano Conti
+  title: 斯特凡诺·孔蒂（Stefano Conti）
+  name_original: ''
+  language_original: ''
 - slug: persons/tarquinio-salvi
   type: persons
   name_en: Tarquinio Salvi
@@ -3475,6 +3481,12 @@ index:
   title: 皮埃尔·莫特及家人（Pierre Motteux and his family）
   name_original: ''
   language_original: ''
+- slug: works/piazzetta-female-head-in-profile-milan
+  type: works
+  name_en: Female Head in Profile
+  title: 女性侧面头像（Female Head in Profile）
+  name_original: ''
+  language_original: ''
 - slug: works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata
   type: works
   name_en: Final plate of Illustrations to Gerusalemme Liberata
@@ -3491,6 +3503,12 @@ index:
   type: works
   name_en: Portrait of Marshal Schulenburg
   title: 舒伦堡元帅肖像（Portrait of Marshal Schulenburg）
+  name_original: ''
+  language_original: ''
+- slug: works/piazzetta-pastoral-scene-chicago
+  type: works
+  name_en: Pastoral Scene
+  title: 田园场景（Pastoral Scene）
   name_original: ''
   language_original: ''
 - slug: works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere
@@ -3921,8 +3939,8 @@ index:
   language_original: ''
 - slug: institutions/colnaghi
   type: institutions
-  name_en: '"Colnaghi''s"'
-  title: '"科尔纳吉画廊（Colnaghi''s）"'
+  name_en: Colnaghi's
+  title: 科尔纳吉画廊（Colnaghi's）
   name_original: ''
   language_original: ''
 - slug: institutions/confraternita-san-giovanni-battista-decollato-bologna
@@ -4175,6 +4193,12 @@ index:
   type: institutions
   name_en: The Museum of Fine Arts, Houston
   title: 休斯敦美术馆（The Museum of Fine Arts, Houston）
+  name_original: ''
+  language_original: ''
+- slug: institutions/museum-schloss-wilhelmshoehe
+  type: institutions
+  name_en: Museum Schloss Wilhelmshöhe
+  title: 威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）
   name_original: ''
   language_original: ''
 - slug: institutions/national-gallery-london

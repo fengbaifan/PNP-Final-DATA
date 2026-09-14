@@ -300,6 +300,7 @@
 - [尼科洛·西莫内利（Niccolò Simonelli）](../../04-knowledge/units/persons/simonelli.md)
 - [西斯笃五世（Sixtus V）](../../04-knowledge/units/persons/sixtus-v.md)
 - [弗朗切斯科·索利梅纳（Francesco Solimena）](../../04-knowledge/units/persons/solimena.md)
+- [斯特凡诺·孔蒂（Stefano Conti）](../../04-knowledge/units/persons/stefano-conti.md)
 - [塔尔奎尼奥·萨尔维（Tarquinio Salvi）](../../04-knowledge/units/persons/tarquinio-salvi.md)
 - [泰奥多罗·科雷尔（Teodoro Correr）](../../04-knowledge/units/persons/teodoro-correr.md)
 - [泰里西奥·皮尼亚蒂（Terisio Pignatti）](../../04-knowledge/units/persons/terisio-pignatti.md)

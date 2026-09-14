@@ -41,9 +41,33 @@ sources:
   location: The Library正文及Services；未读所链接目录、馆藏原件
   sentence_summary: 科雷尔博物馆及图书馆于1830年因威尼斯贵族Teodoro Correr遗赠而成立；馆内图书馆保存手稿、档案和印本文献，服务威尼斯艺术与历史研究。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/venice.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 图版48b–48d所列科雷尔博物馆城市
+- relation_type: supported_by
+  target: persons/teodoro-correr.md
+  evidence_ref:
+    doc_id: institutions-museo-correr
+    source_file: https://correr.visitmuve.it/en/library/
+    source_span: The Library首句：museum and library founded through bequest
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 遗赠促成博物馆1830年创立；不补造遗赠法律生效日期
+  role: 创立遗赠者
+  time: '1830'
 ---
+
 
 ## 内容
 
@@ -105,7 +129,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [科雷尔图书馆（Correr Library）](correr-library.md) | 角色：所属图书馆；范围：博物馆包含其威尼斯艺术与历史图书馆；原断言与证据见发出端卡片“科雷尔图书馆（Correr Library）”：[来源](https://correr.visitmuve.it/en/library/)；institutions-correr-library；The Library：The Correr Museum incorporates the Library |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 范围：图版48b–48d所列科雷尔博物馆城市；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → supported_by（`supported_by`） | [泰奥多罗·科雷尔（Teodoro Correr）](../persons/teodoro-correr.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成博物馆1830年创立；不补造遗赠法律生效日期；证据：[来源](https://correr.visitmuve.it/en/library/)；institutions-museo-correr；The Library首句：museum and library founded through bequest |
 
 ### 关系候选入口
 

@@ -3,7 +3,7 @@ title: 《赞助人与画家》（Patrons and Painters）
 name_en: Patrons and Painters
 type: archive
 created: 2026-09-09
-updated: '2026-09-14'
+updated: '2026-09-15'
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), title and copyright pages.'
@@ -261,8 +261,100 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
     source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: authored_by
+  target: persons/francis-haskell.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 3–17; unnumbered title and copyright pages
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 本书作者；修订扩充版书名页
+  role: 作者
+- relation_type: published_by
+  target: institutions/yale-university-press.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 3–17; unnumbered title and copyright pages
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 1980年修订扩充版；本件印刷年2006另记
+  role: 出版者
+  time: 1980版
+- relation_type: owned_by
+  target: institutions/yale-university.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 16–16; 未编号版权页；PDF2
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权
+  role: 1980年版权标注权利人
+  time: 1980版权标注
+- relation_type: contributed_by
+  target: institutions/library-of-congress.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 20–29; 未编号版权页；PDF2
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 版权页Library of Congress Cataloging in Publication Data；仅CIP书目编制，不表示保管本件
+  role: 出版编目提供者
+- relation_type: contributed_by
+  target: institutions/t-and-a-constable.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第一版序言致谢的初版印制工作；不套到2006年印刷
+  role: 初版印刷、排版与文字核对
+- relation_type: supported_by
+  target: institutions/chatto-and-windus.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第二版序言回顾公司负责人员给予初版制作的支持；未拆分具体负责人
+  role: 初版制作支持
+- relation_type: supported_by
+  target: persons/norah-smallwood.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第二版序言特别致谢的初版合作支持；不补造合同角色
+  role: 初版制作支持
+- relation_type: supported_by
+  target: persons/john-nicoll.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 11–12; 章前：第二版序言；印刷页vi；PDF 4
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主
+  role: 新版提议与制作帮助
 ---
+
 
 ## 内容
 
@@ -332,7 +424,18 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）](honour-patrons-painters-review-1963.md) | 角色：所评著作；范围：书评所评著作；评价经Haskell转述；原断言与证据见发出端卡片“休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–177; 章前：第二版导言；印刷页xvii |
+| → 作者（`authored_by`） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 角色：作者；范围：本书作者；修订扩充版书名页；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
+| → published_by（`published_by`） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1980版；角色：出版者；范围：1980年修订扩充版；本件印刷年2006另记；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
+| → 由其收藏／拥有（`owned_by`） | [耶鲁大学（Yale University）](../institutions/yale-university.md) | 时间：1980版权标注；角色：1980年版权标注权利人；范围：仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 16–16; 未编号版权页；PDF2 |
+| → 由其贡献（`contributed_by`） | [美国国会图书馆（Library of Congress）](../institutions/library-of-congress.md) | 角色：出版编目提供者；范围：版权页Library of Congress Cataloging in Publication Data；仅CIP书目编制，不表示保管本件；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 20–29; 未编号版权页；PDF2 |
+| → 由其贡献（`contributed_by`） | [T.与A.康斯特布尔印刷公司（T. and A. Constable Ltd.）](../institutions/t-and-a-constable.md) | 角色：初版印刷、排版与文字核对；范围：第一版序言致谢的初版印制工作；不套到2006年印刷；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → supported_by（`supported_by`） | [查托与温达斯出版社（Chatto and Windus）](../institutions/chatto-and-windus.md) | 角色：初版制作支持；范围：第二版序言回顾公司负责人员给予初版制作的支持；未拆分具体负责人；证据：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| → supported_by（`supported_by`） | [诺拉·斯莫尔伍德（Norah Smallwood）](../persons/norah-smallwood.md) | 角色：初版制作支持；范围：第二版序言特别致谢的初版合作支持；不补造合同角色；证据：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| → supported_by（`supported_by`） | [约翰·尼科尔（John Nicoll）](../persons/john-nicoll.md) | 角色：新版提议与制作帮助；范围：第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主；证据：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 身份与外部链接
 

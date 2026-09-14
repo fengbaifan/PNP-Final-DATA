@@ -28,9 +28,23 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 77–77; print p. xiii
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/london.md
+  evidence_ref:
+    doc_id: institutions-marlborough-fine-art-ltd
+    source_file: https://marlborougharchive.com/history-marlborough-gallery
+    source_span: 1946年创办两段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 画廊初创时期所在城市，17–18 Old Bond Street
+  role: 初始营业城市
+  time: '1946'
 ---
+
 
 ## 内容
 
@@ -76,8 +90,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Marlborough档案历史](https://marlborougharchive.com/history-marlborough-gallery)（S2，创办与早期业务）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1946；角色：初始营业城市；范围：画廊初创时期所在城市，17–18 Old Bond Street；证据：[来源](https://marlborougharchive.com/history-marlborough-gallery)；institutions-marlborough-fine-art-ltd；1946年创办两段 |
+| ← 供应者（`supplier_of`，反向投影） | [罗萨命运（Fortune by Salvator Rosa）](../works/fortune-salvator-rosa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“罗萨命运（Fortune by Salvator Rosa）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 166–166 |
 
 ### 关系候选入口
 

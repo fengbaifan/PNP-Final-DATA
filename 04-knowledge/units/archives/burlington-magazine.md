@@ -63,7 +63,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）](conforti-legros-designers-1977.md) | 时间：1977-08；角色：刊载期刊；范围：1977年8月，119卷893期；正文页码另见本书书目；原断言与证据见发出端卡片“皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）”：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；archives-conforti-legros-designers-1977；本期目录及Conforti论文条；未读付费论文正文 |
 
 ### 关系候选入口
 

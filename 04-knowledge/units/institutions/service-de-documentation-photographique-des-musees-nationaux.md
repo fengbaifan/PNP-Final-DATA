@@ -20,9 +20,21 @@ sources:
   location: 完整书目记录，Note(s)、日期、署名与保管字段
   sentence_summary: 一张照片署Service de documentation photographique des Musées Nationaux，另两张署Giraudon。1950–1969是照片集合日期，不是供片机构存续期。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/paris.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 169–170; 章前：图片来源；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 本书供片署名所列巴黎；不推定今日地址
 ---
+
 
 ## 内容
 
@@ -61,8 +73,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [BnF照片目录FRBNF45029807](https://catalogue.bnf.fr/ark:/12148/cb45029807c)（S2，摄影署名记录）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 范围：本书供片署名所列巴黎；不推定今日地址；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [路易十四肖像（Portrait of Louis XIV）](../works/bernini-louis-xiv.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“路易十四肖像（Portrait of Louis XIV）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

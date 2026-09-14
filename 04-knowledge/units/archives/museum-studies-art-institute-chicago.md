@@ -23,9 +23,22 @@ sources:
   location: 完整可见期刊介绍、Published by、Coverage及ISSN字段；未读论文全文
   sentence_summary: 出版者为The Art Institute of Chicago；收录范围1966–2011，第1卷至36卷2期；内容涉及该馆收藏、历史及特展。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: published_by
+  target: institutions/art-institute-of-chicago.md
+  evidence_ref:
+    doc_id: archives-museum-studies-art-institute-chicago
+    source_file: https://www.jstor.org/journal/artinstchicmuses
+    source_span: JSTOR期刊页Published by
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 期刊出版机构；不因此逐篇验证其全部文章
+  role: 期刊出版者
 ---
+
 
 ## 内容
 
@@ -70,7 +83,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → published_by（`published_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 角色：期刊出版者；范围：期刊出版机构；不因此逐篇验证其全部文章；证据：[来源](https://www.jstor.org/journal/artinstchicmuses)；archives-museum-studies-art-institute-chicago；JSTOR期刊页Published by |
+| ← 包含成员（`contains`，反向投影） | [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](waterhouse-rome-painting-1971.md) | 时间：1971；角色：刊载期刊；范围：本书书目所列1971年Museum Studies论文pp.7–21；原断言与证据见发出端卡片“十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；patrons-and-painters；lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核 |
 
 ### 关系候选入口
 

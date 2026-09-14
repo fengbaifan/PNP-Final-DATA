@@ -42,6 +42,7 @@ relations:
 | 委托／赞助／创作 | `commissioned_by`、`patronized_by`、`created_by` | work → 委托人／赞助人／创作者；仅有合同对象时用scope明确未锁定存世版本 |
 | 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | work → 所有人／取得者／市场经手机构；三者不得互换 |
 | 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点，须保留适用时间或来源时点 |
+| 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |
 | 亲缘／家族 | `parent_of`、`child_of`、`spouse_of`、`sibling_of`、`kin_of`、`member_of` | 具体亲属关系优先；只能确认一般亲族时才用`kin_of`并在role中保存原称 |
 | 任命／荣衔／特权 | `appointed_by`、`honoured_by`、`privilege_granted_by` | 受任人／受荣人／机构 → 授予者；事件节点同时可用`has_participant`保存具体角色 |
 | 文书／借阅／证词／建议 | `issued_by`、`borrowed_by`、`contributed_by`、`testified_about`、`advised` | 文书→发布主体、文献→借阅人、证词→发言者、证人→被证事项人物、建议者→受建议者；对象与事件仍须分别判断 |

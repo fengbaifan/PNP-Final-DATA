@@ -44,6 +44,7 @@
 - [利兹（Leeds）](../../04-knowledge/units/places/leeds.md)
 - [利物浦（Liverpool）](../../04-knowledge/units/places/liverpool.md)
 - [伦敦（London）](../../04-knowledge/units/places/london.md)
+- [卢卡（Lucca）](../../04-knowledge/units/places/lucca.md)
 - [马切拉塔（Macerata）](../../04-knowledge/units/places/macerata.md)
 - [墨尔本（Melbourne）](../../04-knowledge/units/places/melbourne.md)
 - [米兰（Milan）](../../04-knowledge/units/places/milan.md)

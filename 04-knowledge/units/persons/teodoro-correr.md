@@ -67,7 +67,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← supports_claim（`supports_claim`，反向投影） | [科雷尔图书馆（Correr Library）](../institutions/correr-library.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成图书馆1830年创立；与博物馆端点分别记录；原断言与证据见发出端卡片“科雷尔图书馆（Correr Library）”：[来源](https://correr.visitmuve.it/en/library/)；institutions-correr-library；The Library首句：museum and library founded through bequest |
+| ← supports_claim（`supports_claim`，反向投影） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成博物馆1830年创立；不补造遗赠法律生效日期；原断言与证据见发出端卡片“科雷尔博物馆（Museo Correr）”：[来源](https://correr.visitmuve.it/en/library/)；institutions-museo-correr；The Library首句：museum and library founded through bequest |
 
 ### 关系候选入口
 

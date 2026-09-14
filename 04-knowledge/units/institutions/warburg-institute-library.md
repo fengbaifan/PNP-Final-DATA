@@ -20,9 +20,32 @@ sources:
   location: 完整历史正文；首段、Warburg’s Library and Institute、The Move to London
   sentence_summary: 1921年由图书馆发展为研究所，1933年迁伦敦，1944年成为伦敦大学一部分，1958年迁入Bloomsbury永久馆舍。图书馆与研究所相关而非同粒度对象。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: part_of
+  target: institutions/warburg-institute.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第一版序言Library of the Warburg Institute；机构图书馆的归属
+  role: 所属图书馆
+- relation_type: located_at
+  target: places/london.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 21–22; 章前：第一版序言；印刷页ix；PDF 7
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第一版序言所述图书馆所在地
 ---
+
 
 ## 内容
 
@@ -69,7 +92,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 组成部分（`part_of`） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 角色：所属图书馆；范围：第一版序言Library of the Warburg Institute；机构图书馆的归属；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 范围：第一版序言所述图书馆所在地；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 角色：研究使用、鼓励与建议；范围：第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 关系候选入口
 

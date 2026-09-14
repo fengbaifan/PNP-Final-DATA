@@ -23,9 +23,23 @@ sources:
   location: 页面题名；详细作品说明未返回
   sentence_summary: 题名确认描绘对象Charles-François Poerson，生卒年1653–1725；未据此采入具体卒日或任职终年。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: member_of
+  target: institutions/french-academy-in-rome.md
+  evidence_ref:
+    doc_id: persons-charles-francois-poerson
+    source_file: https://villamedici.it/directeur/charles-francois-poerson/
+    source_span: Biographie任职段：1704年获任院长
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期
+  role: 院长
+  time: 1704起；1708在任
 ---
+
 
 ## 内容
 
@@ -82,7 +96,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [普瓦松1708年论罗马绘画报酬的信（Poerson's 1708 letter on rewards for painting in Rome）](../archives/poerson-letter-1708.md) | 时间：1708；角色：写信人；范围：本书所引1708年法语来信；收信人仅Mgr，不补造身份；原断言与证据见发出端卡片“普瓦松1708年论罗马绘画报酬的信（Poerson's 1708 letter on rewards for painting in Rome）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 191–192; 章前：第二版导言；印刷页xviii |
+| → 隶属／任职于（`member_of`） | [罗马法国学院（French Academy in Rome）](../institutions/french-academy-in-rome.md) | 时间：1704起；1708在任；角色：院长；范围：1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期；证据：[来源](https://villamedici.it/directeur/charles-francois-poerson/)；persons-charles-francois-poerson；Biographie任职段：1704年获任院长 |
 
 ### 关系候选入口
 

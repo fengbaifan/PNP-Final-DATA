@@ -1,4 +1,4 @@
-# 当前有效成果：881 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：886 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -133,6 +133,7 @@ units:
 - 04-knowledge/units/institutions/museo-di-capodimonte.md
 - 04-knowledge/units/institutions/museum-boymansvan-beuningen.md
 - 04-knowledge/units/institutions/museum-of-fine-arts-houston.md
+- 04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md
 - 04-knowledge/units/institutions/national-gallery-london.md
 - 04-knowledge/units/institutions/national-gallery-of-ireland.md
 - 04-knowledge/units/institutions/national-gallery-of-scotland.md
@@ -485,6 +486,7 @@ units:
 - 04-knowledge/units/persons/simonelli.md
 - 04-knowledge/units/persons/sixtus-v.md
 - 04-knowledge/units/persons/solimena.md
+- 04-knowledge/units/persons/stefano-conti.md
 - 04-knowledge/units/persons/tarquinio-salvi.md
 - 04-knowledge/units/persons/teodoro-correr.md
 - 04-knowledge/units/persons/terisio-pignatti.md
@@ -553,6 +555,7 @@ units:
 - 04-knowledge/units/places/leeds.md
 - 04-knowledge/units/places/liverpool.md
 - 04-knowledge/units/places/london.md
+- 04-knowledge/units/places/lucca.md
 - 04-knowledge/units/places/macerata.md
 - 04-knowledge/units/places/melbourne.md
 - 04-knowledge/units/places/milan.md
@@ -835,9 +838,11 @@ units:
 - 04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md
 - 04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md
 - 04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md
+- 04-knowledge/units/works/piazzetta-female-head-in-profile-milan.md
 - 04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md
 - 04-knowledge/units/works/piazzetta-idyll.md
 - 04-knowledge/units/works/piazzetta-marshal-schulenburg.md
+- 04-knowledge/units/works/piazzetta-pastoral-scene-chicago.md
 - 04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md
 - 04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md
 - 04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md

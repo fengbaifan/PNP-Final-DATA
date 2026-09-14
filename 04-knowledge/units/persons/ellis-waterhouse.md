@@ -90,7 +90,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](../archives/waterhouse-rome-painting-1971.md) | 时间：1971；角色：论文作者；范围：本书书目所列E. K. Waterhouse；书目事实不代替全文阅读；原断言与证据见发出端卡片“十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；patrons-and-painters；lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核 |
 
 ### 关系候选入口
 

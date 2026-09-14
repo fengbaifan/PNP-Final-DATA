@@ -293,7 +293,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）](../institutions/soprintendenza-alle-gallerie-florence.md) | 范围：本书图片来源所列历史监管机构所在地；原断言与证据见发出端卡片“佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
 
 ### 身份与外部链接
 

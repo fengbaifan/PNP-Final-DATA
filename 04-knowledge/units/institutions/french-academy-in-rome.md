@@ -63,7 +63,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [夏尔-弗朗索瓦·普瓦松（Charles-François Poerson）](../persons/charles-francois-poerson.md) | 时间：1704起；1708在任；角色：院长；范围：1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期；原断言与证据见发出端卡片“夏尔-弗朗索瓦·普瓦松（Charles-François Poerson）”：[来源](https://villamedici.it/directeur/charles-francois-poerson/)；persons-charles-francois-poerson；Biographie任职段：1704年获任院长 |
 
 ### 关系候选入口
 

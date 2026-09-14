@@ -33,9 +33,22 @@ sources:
   location: 完整可见书目对象记录：题名、日期、书目描述、Makers and roles
   sentence_summary: 1960年展览目录责任机构列Royal Academy of Arts, London；用于机构全称与城市核对，不作为本书照片出自该展览的证明。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+relations:
+- relation_type: located_at
+  target: places/london.md
+  evidence_ref:
+    doc_id: institutions-royal-academy
+    source_file: https://www.nationaltrustcollections.org.uk/object/3119476
+    source_span: Makers and roles：Royal Academy of Arts, London
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 1960展览目录责任机构所列城市；不表示本书供片来自该展览
+  time: 1960年目录记录
 ---
+
 
 ## 内容
 
@@ -84,8 +97,19 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Royal Collection机构史](https://www.rct.uk/collection/stories/george-iii-joseph-farington-and-the-royal-academy)（S3）；[National Trust书目责任机构记录](https://www.nationaltrustcollections.org.uk/object/3119476)（S4）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1960年目录记录；范围：1960展览目录责任机构所列城市；不表示本书供片来自该展览；证据：[来源](https://www.nationaltrustcollections.org.uk/object/3119476)；institutions-royal-academy；Makers and roles：Royal Academy of Arts, London |
+| ← 供应者（`supplier_of`，反向投影） | [朱庇特与伊娥（Jupiter and Io）](../works/amigoni-jupiter-and-io.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版49b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“朱庇特与伊娥（Jupiter and Io）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [巴德明顿景观（View from Badminton, 1748）](../works/canaletto-view-from-badminton-1748.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“巴德明顿景观（View from Badminton, 1748）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版30b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [安东尼奥·巴贝里尼枢机（Cardinal Antonio Barberini）](../works/carlo-maratta-cardinal-antonio-barberini.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版3b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“安东尼奥·巴贝里尼枢机（Cardinal Antonio Barberini）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [查尔斯·福克斯肖像（Portrait of Charles Fox）](../works/carlo-maratta-charles-fox.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版31a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“查尔斯·福克斯肖像（Portrait of Charles Fox）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [托马斯·伊舍姆（Sir Thomas Isham）](../works/carlo-maratta-sir-thomas-isham.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版31b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“托马斯·伊舍姆（Sir Thomas Isham）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [歌剧排练（An Operatic Rehearsal）](../works/marco-ricci-an-operatic-rehearsal.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版47的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“歌剧排练（An Operatic Rehearsal）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [杰罗姆·班克斯肖像（Portrait of Jerome Bankes）](../works/massimo-stanzione-jerome-bankes.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版30a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“杰罗姆·班克斯肖像（Portrait of Jerome Bankes）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版54的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“田园（Idyll）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版61b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

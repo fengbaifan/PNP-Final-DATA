@@ -52,7 +52,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）](../archives/honour-patrons-painters-review-1963.md) | 角色：书评作者；范围：本书导言所称Hugh Honour书评；非已读书评原件；原断言与证据见发出端卡片“休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–177; 章前：第二版导言；印刷页xvii |
 
 ### 关系候选入口
 
