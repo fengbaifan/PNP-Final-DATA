@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T20:40:44",
+  "timestamp": "2026-09-14T21:03:29",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 823,
+    "total_units": 832,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,21 +26,21 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 823,
+    "total_units": 832,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 823,
+    "units_missing_any_assignment": 832,
     "field_coverage": {
-      "primary_domain": "0/823",
-      "primary_dimension": "0/823",
-      "primary_theme": "0/823",
-      "topic_memberships": "0/823"
+      "primary_domain": "0/832",
+      "primary_dimension": "0/832",
+      "primary_theme": "0/832",
+      "topic_memberships": "0/832"
     }
   },
   "counts_by_type": {
-    "persons": 299,
+    "persons": 306,
     "families": 7,
     "institutions": 99,
-    "places": 116,
+    "places": 118,
     "works": 197,
     "archives": 54,
     "terms": 34,
@@ -61,6 +61,7 @@
       "04-knowledge/units/persons/a-m-zanetti-the-elder.md",
       "04-knowledge/units/persons/a-n-l-munby.md",
       "04-knowledge/units/persons/abate-lancellotti.md",
+      "04-knowledge/units/persons/abraham-hume.md",
       "04-knowledge/units/persons/agostino-masucci.md",
       "04-knowledge/units/persons/albrizzi.md",
       "04-knowledge/units/persons/alessandro-bettagno.md",
@@ -83,6 +84,7 @@
       "04-knowledge/units/persons/anthony-blunt.md",
       "04-knowledge/units/persons/anthony-clark.md",
       "04-knowledge/units/persons/antonio-barberini.md",
+      "04-knowledge/units/persons/antonio-draghi.md",
       "04-knowledge/units/persons/antonio-ruffo.md",
       "04-knowledge/units/persons/antonio-verrio.md",
       "04-knowledge/units/persons/archbishop-tillotson.md",
@@ -109,6 +111,7 @@
       "04-knowledge/units/persons/cardinal-borghese-ch1.md",
       "04-knowledge/units/persons/cardinal-pio-bonati.md",
       "04-knowledge/units/persons/cardinal-rospigliosi-gimignani.md",
+      "04-knowledge/units/persons/carlo-bianconi.md",
       "04-knowledge/units/persons/carlo-cesare-malvasia.md",
       "04-knowledge/units/persons/carlo-dolci.md",
       "04-knowledge/units/persons/carlo-lodoli.md",
@@ -227,6 +230,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/johann-heinrich-schmelzer.md",
       "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
       "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
@@ -263,8 +267,10 @@
       "04-knowledge/units/persons/marshal-schulenburg.md",
       "04-knowledge/units/persons/massimo-stanzione.md",
       "04-knowledge/units/persons/matteo-castelli.md",
+      "04-knowledge/units/persons/matthaeus-kusel.md",
       "04-knowledge/units/persons/mattia-preti.md",
       "04-knowledge/units/persons/maurizio-di-savoia.md",
+      "04-knowledge/units/persons/mauro-antonio-tesi.md",
       "04-knowledge/units/persons/mazarin.md",
       "04-knowledge/units/persons/michael-conforti.md",
       "04-knowledge/units/persons/michael-levey.md",
@@ -274,6 +280,7 @@
       "04-knowledge/units/persons/nanteuil.md",
       "04-knowledge/units/persons/niccolo-bambini.md",
       "04-knowledge/units/persons/nicolas-poussin.md",
+      "04-knowledge/units/persons/nicolo-minato.md",
       "04-knowledge/units/persons/nikolaus-pevsner.md",
       "04-knowledge/units/persons/norah-smallwood.md",
       "04-knowledge/units/persons/olimpia-aldobrandini.md",
@@ -471,6 +478,7 @@
       "04-knowledge/units/places/ca-pesaro.md",
       "04-knowledge/units/places/ca-rezzonico.md",
       "04-knowledge/units/places/cambridge.md",
+      "04-knowledge/units/places/camposanto-pisa.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
       "04-knowledge/units/places/cerasi-chapel.md",
@@ -562,6 +570,7 @@
       "04-knowledge/units/places/stra.md",
       "04-knowledge/units/places/stuttgart.md",
       "04-knowledge/units/places/temple-newsam.md",
+      "04-knowledge/units/places/theater-auf-der-cortina.md",
       "04-knowledge/units/places/treviso.md",
       "04-knowledge/units/places/turin.md",
       "04-knowledge/units/places/tuscany.md",
@@ -859,6 +868,7 @@
       "04-knowledge/units/persons/a-m-zanetti-the-elder.md",
       "04-knowledge/units/persons/a-n-l-munby.md",
       "04-knowledge/units/persons/abate-lancellotti.md",
+      "04-knowledge/units/persons/abraham-hume.md",
       "04-knowledge/units/persons/agostino-masucci.md",
       "04-knowledge/units/persons/albrizzi.md",
       "04-knowledge/units/persons/alessandro-bettagno.md",
@@ -881,6 +891,7 @@
       "04-knowledge/units/persons/anthony-blunt.md",
       "04-knowledge/units/persons/anthony-clark.md",
       "04-knowledge/units/persons/antonio-barberini.md",
+      "04-knowledge/units/persons/antonio-draghi.md",
       "04-knowledge/units/persons/antonio-ruffo.md",
       "04-knowledge/units/persons/antonio-verrio.md",
       "04-knowledge/units/persons/archbishop-tillotson.md",
@@ -907,6 +918,7 @@
       "04-knowledge/units/persons/cardinal-borghese-ch1.md",
       "04-knowledge/units/persons/cardinal-pio-bonati.md",
       "04-knowledge/units/persons/cardinal-rospigliosi-gimignani.md",
+      "04-knowledge/units/persons/carlo-bianconi.md",
       "04-knowledge/units/persons/carlo-cesare-malvasia.md",
       "04-knowledge/units/persons/carlo-dolci.md",
       "04-knowledge/units/persons/carlo-lodoli.md",
@@ -1025,6 +1037,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/johann-heinrich-schmelzer.md",
       "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
       "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
@@ -1061,8 +1074,10 @@
       "04-knowledge/units/persons/marshal-schulenburg.md",
       "04-knowledge/units/persons/massimo-stanzione.md",
       "04-knowledge/units/persons/matteo-castelli.md",
+      "04-knowledge/units/persons/matthaeus-kusel.md",
       "04-knowledge/units/persons/mattia-preti.md",
       "04-knowledge/units/persons/maurizio-di-savoia.md",
+      "04-knowledge/units/persons/mauro-antonio-tesi.md",
       "04-knowledge/units/persons/mazarin.md",
       "04-knowledge/units/persons/michael-conforti.md",
       "04-knowledge/units/persons/michael-levey.md",
@@ -1072,6 +1087,7 @@
       "04-knowledge/units/persons/nanteuil.md",
       "04-knowledge/units/persons/niccolo-bambini.md",
       "04-knowledge/units/persons/nicolas-poussin.md",
+      "04-knowledge/units/persons/nicolo-minato.md",
       "04-knowledge/units/persons/nikolaus-pevsner.md",
       "04-knowledge/units/persons/norah-smallwood.md",
       "04-knowledge/units/persons/olimpia-aldobrandini.md",
@@ -1269,6 +1285,7 @@
       "04-knowledge/units/places/ca-pesaro.md",
       "04-knowledge/units/places/ca-rezzonico.md",
       "04-knowledge/units/places/cambridge.md",
+      "04-knowledge/units/places/camposanto-pisa.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
       "04-knowledge/units/places/cerasi-chapel.md",
@@ -1363,6 +1380,7 @@
       "04-knowledge/units/places/stra.md",
       "04-knowledge/units/places/stuttgart.md",
       "04-knowledge/units/places/temple-newsam.md",
+      "04-knowledge/units/places/theater-auf-der-cortina.md",
       "04-knowledge/units/places/treviso.md",
       "04-knowledge/units/places/turin.md",
       "04-knowledge/units/places/tuscany.md",
@@ -1682,8 +1700,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 299,
-      "tags": 299,
+      "sub_type": 306,
+      "tags": 306,
       "evidence_status": 0
     },
     "families": {
@@ -1697,8 +1715,8 @@
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 113,
-      "tags": 116,
+      "sub_type": 115,
+      "tags": 118,
       "evidence_status": 0
     },
     "works": {
@@ -1780,11 +1798,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 134,
+    "sources_without_evidence_ref": 143,
     "evidence_ref_resolvable": 1004,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1004,
-    "units_with_traceable_source": 823
+    "units_with_traceable_source": 832
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1816,13 +1834,14 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 823,
+      "count": 832,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
         "04-knowledge/units/persons/a-m-zanetti-the-elder.md",
         "04-knowledge/units/persons/a-n-l-munby.md",
         "04-knowledge/units/persons/abate-lancellotti.md",
+        "04-knowledge/units/persons/abraham-hume.md",
         "04-knowledge/units/persons/agostino-masucci.md",
         "04-knowledge/units/persons/albrizzi.md",
         "04-knowledge/units/persons/alessandro-bettagno.md",
@@ -1845,6 +1864,7 @@
         "04-knowledge/units/persons/anthony-blunt.md",
         "04-knowledge/units/persons/anthony-clark.md",
         "04-knowledge/units/persons/antonio-barberini.md",
+        "04-knowledge/units/persons/antonio-draghi.md",
         "04-knowledge/units/persons/antonio-ruffo.md",
         "04-knowledge/units/persons/antonio-verrio.md",
         "04-knowledge/units/persons/archbishop-tillotson.md",
@@ -1871,6 +1891,7 @@
         "04-knowledge/units/persons/cardinal-borghese-ch1.md",
         "04-knowledge/units/persons/cardinal-pio-bonati.md",
         "04-knowledge/units/persons/cardinal-rospigliosi-gimignani.md",
+        "04-knowledge/units/persons/carlo-bianconi.md",
         "04-knowledge/units/persons/carlo-cesare-malvasia.md",
         "04-knowledge/units/persons/carlo-dolci.md",
         "04-knowledge/units/persons/carlo-lodoli.md",
@@ -1989,6 +2010,7 @@
         "04-knowledge/units/persons/j-tomilson-hill.md",
         "04-knowledge/units/persons/jacopo-salviati.md",
         "04-knowledge/units/persons/jerome-bankes.md",
+        "04-knowledge/units/persons/johann-heinrich-schmelzer.md",
         "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
         "04-knowledge/units/persons/john-finch.md",
         "04-knowledge/units/persons/john-gilmartin.md",
@@ -2025,8 +2047,10 @@
         "04-knowledge/units/persons/marshal-schulenburg.md",
         "04-knowledge/units/persons/massimo-stanzione.md",
         "04-knowledge/units/persons/matteo-castelli.md",
+        "04-knowledge/units/persons/matthaeus-kusel.md",
         "04-knowledge/units/persons/mattia-preti.md",
         "04-knowledge/units/persons/maurizio-di-savoia.md",
+        "04-knowledge/units/persons/mauro-antonio-tesi.md",
         "04-knowledge/units/persons/mazarin.md",
         "04-knowledge/units/persons/michael-conforti.md",
         "04-knowledge/units/persons/michael-levey.md",
@@ -2036,6 +2060,7 @@
         "04-knowledge/units/persons/nanteuil.md",
         "04-knowledge/units/persons/niccolo-bambini.md",
         "04-knowledge/units/persons/nicolas-poussin.md",
+        "04-knowledge/units/persons/nicolo-minato.md",
         "04-knowledge/units/persons/nikolaus-pevsner.md",
         "04-knowledge/units/persons/norah-smallwood.md",
         "04-knowledge/units/persons/olimpia-aldobrandini.md",
@@ -2233,6 +2258,7 @@
         "04-knowledge/units/places/ca-pesaro.md",
         "04-knowledge/units/places/ca-rezzonico.md",
         "04-knowledge/units/places/cambridge.md",
+        "04-knowledge/units/places/camposanto-pisa.md",
         "04-knowledge/units/places/capuchin-church-rome.md",
         "04-knowledge/units/places/castello-sforzesco.md",
         "04-knowledge/units/places/cerasi-chapel.md",
@@ -2327,6 +2353,7 @@
         "04-knowledge/units/places/stra.md",
         "04-knowledge/units/places/stuttgart.md",
         "04-knowledge/units/places/temple-newsam.md",
+        "04-knowledge/units/places/theater-auf-der-cortina.md",
         "04-knowledge/units/places/treviso.md",
         "04-knowledge/units/places/turin.md",
         "04-knowledge/units/places/tuscany.md",
@@ -2742,12 +2769,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 306,
+      "total": 313,
       "coverage": {
-        "name_original": "0/306",
-        "language_original": "0/306",
-        "name_zh": "0/306",
-        "translation_status": "0/306"
+        "name_original": "0/313",
+        "language_original": "0/313",
+        "name_zh": "0/313",
+        "translation_status": "0/313"
       }
     },
     "families": {
@@ -2795,9 +2822,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 702,
-    "indexed": 702,
-    "declared_total": 702,
+    "expected": 709,
+    "indexed": 709,
+    "declared_total": 709,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2872,22 +2899,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 823,
+    "total_units": 832,
     "source_count_distribution": {
-      "multi_source": 536,
-      "single_source": 287
+      "multi_source": 554,
+      "single_source": 278
     },
     "confidence_distribution": {
-      "missing": 823
+      "missing": 832
     },
     "consensus_distribution": {
-      "missing": 823
+      "missing": 832
     },
     "evidence_status_distribution": {
-      "source_backed": 823
+      "source_backed": 832
     },
     "isolated_units": {
-      "count": 477,
+      "count": 486,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2930,7 +2957,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 287,
+      "single_source_units": 278,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -2955,7 +2982,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 823,
+    "total_files": 832,
     "total_findings": 0
   }
 }

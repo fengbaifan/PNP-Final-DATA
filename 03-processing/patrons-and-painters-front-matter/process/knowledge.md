@@ -1058,3 +1058,67 @@ Nazari辞典明确区分1717年与Angelo Trevisani合作和传统所谓师承，
 模型逐项形成拟写回正文后，临时`C:/Users/001/AppData/Local/Temp/pnp-rev093-next/plan.json`保留16个目标的before／after及差异。预检发现柏林绘画馆已有不同转写路径，已在写回前取消重复新建、改为复用；全部输入指纹一致后串行写回。15卡的14条原书摘录逐字一致、81条本地链接有效、来源序号无越界，原sources及正式relations保留，823条有效登记存在且无重复；既有内容检查无确定性发现。属于语义自查及机械检查，不称人工或独立验收。
 
 当前章前任务实际涉及449个KU：401个新建、44个既有有效KU更新、4个旧卡整理接收；全库823个有效KU。初始241条仍为228映射、4属性／语境、9暂缓。以上有据内容与关系证据已保存，整体对齐、全面补足与正式关系阶段仍未完成；本轮未提交推送。
+
+
+## 版画作者与萨索身份
+
+2026-09-14，继续REV-093目标；同步基线为9310fb7。初步对齐和明确缺口补足合并检索、分别解释，不提前宣称正式关系完成。
+
+### 来源与实际阅读
+
+- Met对象335623：实际阅读作品说明、完整Artwork Details及可得字段；[51.501.2843](https://www.metmuseum.org/art/collection/search/335623)是Met印本，非书中图版已知印本。馆方记1769年、蚀刻与雕版；Volpato刻制、Bianconi提供绘图并负责墓建造、Tesi设计墓。
+- Rijksmuseum [200471954／RP-P-2004-543](https://id.rijksmuseum.nl/200471954)：读取linked-art的责任者、名称、描述、年代和尺寸字段。馆方2015-08-27说明明确Algarotti委托朋友Tesi设计墓、Bianconi执行、墓在Pisa Camposanto。该记录是另一印本，其637×457 mm字段为plaatrand（版面／版边），不是Met的裁切纸张62.5×43.4 cm；两组尺寸均不写成本书图版的物理尺寸。两个馆藏分别管理印本，但不能据两域名断言其历史解释相互独立。
+- [Giorgio Marini撰Volpato传记](https://www.treccani.it/enciclopedia/giovanni-volpato_(Dizionario-Biografico)/)：阅读完整正文和Fonti e Bibl.。原姓Trevisan、采用外祖母姓Volpato、别署Jean Renard。辞典依据洗礼登记记1735-05-20出生，Met目录记1732，分别保留。1762年受Bartolozzi劝说迁Venice、在其工作室工作；不将“在工作室工作”改写为师徒。文中Bartolozzi迁伦敦年份写1754，与段落次序不合，本轮不采纳该年。读到的其他家属、作品、瓷器厂沿革和教宗墓委托细节尚未纳入本轮内容，不以整篇可读推定全部补足；Volpato对Canova的支持先作有据一般关联，不能替代具体委托边。
+- [Correr Canova手册](https://correr.visitmuve.it/wp-content/uploads/sites/3/2026/01/DOWNLOADS-Collezione-Canoviana-del-Museo-Correr-ITA-2020.pdf)：8页文字完整阅读，含图注与末页信息。采用姓名、生年、卒日、去世城市、雕塑与绘画活动；未列Swajer肖像单件目录，所以不能凭此确定该肖像材质、尺寸、年代或库存号。商业复制品网页出现该像，但未采用为馆藏核验。不同作品的大量例举不自动扩大本次端点。
+- National Gallery [NGA8](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA8)及[NGA8/1](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA8/1)：阅读完整收藏级、系列级目录的身份史、内容、保管史及相关材料；不是原信全文。两页属同源档案说明。Sasso为Venice艺术商人，Hume为1749–1838年的收藏家、政治人物及准男爵。1787–1805是包含多位通信者的系列范围，不据此延伸为Sasso个人通信起止。目录明确区分拟售、购入、运输；未读具体信件时不产生具体作品购藏边。
+- [Laura Popoviciu博士论文（2014）仓储6353](https://sas-space.sas.ac.uk/6353/)：核书目；第二卷实际读取印刷p.280图35目录及p.311图35题注（PDF58、89），确认Alessandro Longhi—Giovanni Maria Sasso—Museo Correr—I.760。检索还返回附录题名和其他图注，仅作定位，不表示整篇论文或信件全文已读。本轮没有查看外部原图，不称完成视觉比对。
+
+### 身份与端点裁决
+
+FM-P60.creator1的G. Volpato落实为Giovanni Volpato；题材、责任者、Pisa地点和1769版画相符，具体印本待证。新建Carlo Bianconi，不能复用第一章Giovanni Ludovico Bianconi；新建Mauro Antonio Tesi，依据两馆同一墓的设计角色与姓名变体配对。墓本身沿用work，Camposanto是安置它的建筑空间，单独登记place，不生成同名管理机构。
+
+FM-P58b.subject1落实为Giovanni Maria Sasso，既有肖像路径保留，标题和人物链接更新；新增Abraham Hume满足已采纳通信、购藏服务事实的端点。FM-P59a.creator1的Canova规范为Antonio Canova；仅完成人物初步身份，不替代该件肖像核验。FM-P55b.creator2规范Francesco Bartolozzi，版画《村景》的具体版本及原设计—刻制链仍须另核。
+
+### 关系候选交接
+
+| 锚点／来源范围 | 起点 → 角色 → 终点 | 限定与下一步 |
+|---|---|---|
+| FM-P60；Met | Volpato → 刻制 → 阿尔加罗蒂墓版画 | 1769；原书署名与外部刻制角色并列，具体印本未定 |
+| Met、Rijks外部记录 | Carlo Bianconi → 提供绘图 → 阿尔加罗蒂墓版画 | 不混作刻版者；具体绘图实物版本未确定，不新建假定存世草图 |
+| Met、Rijks外部记录 | Mauro Antonio Tesi → 设计 → 阿尔加罗蒂墓 | 不从Rijks“after sculpture by”直接推定亲自雕凿 |
+| Met、Rijks外部记录 | Carlo Bianconi → 负责建造 → 阿尔加罗蒂墓 | 具体雕塑执行者与建造年代待进一步来源；不由印本1769倒填墓年代 |
+| Rijks外部说明 | Algarotti → 委托设计 → Tesi；Algarotti ↔ 朋友 ↔ Tesi | 有直接文字；不延伸为全部工程出资 |
+| Met、Rijks外部说明 | 阿尔加罗蒂墓 → 安置于 → Camposanto | Camposanto属于Pisa；不是馆藏机构 |
+| Volpato辞典 | Volpato → 工作于 → Bartolozzi工作室；Volpato → 支持 → Canova | 1762迁Venice；工作室活动与师承分开，支持关系具体类型后续按证据细化 |
+| FM-P58b与论文图35 | Alessandro Longhi → 创作 → 萨索肖像 → 描绘 → Sasso | I.760为论文所列馆藏号；原书及外部题注分别保留 |
+| NGA8、NGA8/1外部目录 | Sasso ↔ 通信 ↔ Hume；Sasso → 购藏服务 → Hume | 未把系列所有作品或所有日期套到个人；具体信、交易另核 |
+
+上述候选与有据内容已回写卡片；原文候选含义和九项暂缓不变。本轮不产生正式relations，不把一般支持、工作室活动或目录提及升级为具体师承、出资或所有权事实。
+
+### 写回检查与当前状态
+
+语义决定形成临时pnp-rev093-authors/plan.json的16个before／after及preview.diff；审看差异，预检输入一致、原sources与正式relations不变后串行写回。15张卡（11更新、4新建）、16条原书摘录逐字核对、80条本地链接及来源序号有效；827个有效登记路径存在且无重复，accepted其他内容保留，既有内容检查无确定性发现。此为语义自查及机械检查，不是人工或独立验收。
+
+任务现涉及453个KU，累计405新建、44已有有效KU更新、4旧卡整理接收；类型较前轮增加3个人物、1个地点。仍需完成其他身份及版本对齐、逐类补足、正式关系定稿。当前业务改动未提交推送；生成索引保持9310fb7基线，待同步时统一刷新。
+
+
+## 舞台图与歌剧责任者
+
+同日继续上述接续工作，原文锚点FM-P28b（图版目录印刷xiii，L81）。[Met 53.600.3581](https://www.metmuseum.org/art/collection/search/700810)的完整作品说明、作者、年代、技法、尺寸及分类已读，直接对应The Elysian Fields、Burnacini、1678和歌剧题名；新增刻制者Matthäus Küsel，与舞台设计者分开。29.7×42.1 cm是Met裁切纸张尺寸，本书具体印本未确定，不写为本书所用印本尺寸。后续必须注意场景设计、版画表达和具体印本的粒度，不能把舞台当作版画原件。
+
+[Theatermuseum GS_GSU6464](https://collection.theatermuseum.at/en/objects/alternativtitel-die-sig-prangende-roemische-monarchey-983861)的可得网页缓存含完整对象介绍、作者／刻制者、日期、场所、材料及尺寸；直接重开后返回403，未假称观看原图或获得完整额外附件。它是同剧的Piazza Reale场景，不是《极乐世界》。仅采用其明确的1678-10-10演出、Theater auf der Cortina地点和设计／刻制责任；不把该对象GS_GSU6464、29.2×42 cm或铜版字段套到《极乐世界》。两个馆藏分别记录不同场景，不按域名数量证明历史信息独立。
+
+[Christie’s sale2178 lot518](https://www.christies.com/en/lot/lot-5214348)的完整拍品书目与说明已读，属于1678年印本目录，不是原剧本全文。与Met的责任者相容：Nicolò Minato脚本、Antonio Draghi音乐、Johann Heinrich Schmelzer芭蕾部分。Met拼作Schmeizer，本轮以拍品的Schmelzer规范名登记，前者只记为来源异文，不扩为真实别名。AGORHA检索命中Schmelzer及该剧，实际打开超时，未把搜索片段当已读条目或采用其中生卒。芭蕾部分的作曲、编舞等更细责任仍须核，不笼统写成编舞家。拍品说明另称可能1667首演，暂不采用；本书及演出目录明确的1678场次不等于证明首演年。
+
+Küsel在Met记1621–1682，Theatermuseum记1629–1681（拍品同后者），并列按来源保留，不以来源数投票裁决。Burnacini采用Ludovico Ottavio全名，Lodovico异体另列。其生地及其他生平未作本轮补足，不从常识补字段。
+
+### 候选与端点
+
+- Burnacini → 舞台设计 →《拉丁君权凯旋》及《极乐世界》；Küsel → 刻制 →《极乐世界》：Met明确，1678，原书简称与外部角色分别保留。
+- Minato → 脚本；Draghi → 音乐；Schmelzer → 芭蕾部分 →《拉丁君权凯旋》：新增三个责任者端点，只承接该剧的有据职责，详细生平未完成。
+- 《拉丁君权凯旋》→ 演出于 → Theater auf der Cortina → 位于 → Vienna：1678-10-10来自同剧场景目录；新建剧院place，不创造剧团或管理机构。
+- 歌剧本体沿用既有work；1678年出版物仅作为本轮所读目录的对象，不把剧本印本和歌剧本体视为同一载体。具体剧本版本原件、庆典与皇室成员线索留待后续补足，没有将拍品所有背景名字递归新增。
+
+本段8卡更新3、新增5，连同上一段共23卡更新14、新增9（7人物、2地点）。临时差异在pnp-rev093-stage/preview.diff中预检输入一致、来源保留后串行写回；合并检查覆盖23卡、19条原书原句、110条本地链接和832个有效登记。原sources、正式relations及accepted非units部分保留；正文机械检查无确定性发现。本轮仍为语义自查，不称独立或人工验收。
+
+章前任务累计410新建、44已有有效KU更新、4旧卡整理接收，共458个KU。九项主候选暂缓及其他印本、作品版本缺口未变；整体对齐、逐类补足、正式关系审查仍未完成。当前23卡及相关记录未提交推送，生成索引保持9310fb7基线。

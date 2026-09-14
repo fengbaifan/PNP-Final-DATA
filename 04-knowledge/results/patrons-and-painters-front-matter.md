@@ -4,18 +4,18 @@
 
 ## 当前成果
 
-- 本任务累计**401个新知识元**、**44个既有有效知识元更新**、**4个未接收旧卡原位整理后接收**，共涉及449个KU；全库有效登记为823个。REV-093前次处理27张卡；REV-095同步后接续处理15张卡，新增2个机构和1件失传作品，复用柏林绘画馆等12张既有卡；新增来源和身份入口不表示整卡补足完成。
+- 本任务累计**410个新知识元**、**44个既有有效知识元更新**、**4个未接收旧卡原位整理后接收**，共涉及458个KU；全库有效登记为832个。REV-096同步后本轮共处理23张卡，更新14张、新增7个人物及2个地点端点；新增来源和身份入口不表示整卡补足完成。
 - 初始241条主候选中，228条映射到知识元，4条作属性／语境保留，9条暂缓。图版中的多名创作者、肖像对象、保管机构与地点拆成独立端点，并进行跨图版复用，所以候选行数不等于实体数量。
 - 书目缩引额外核出两种刊载期刊；仅依据所列书目和索引条目，不表示原论文全文已读。
 - 全部新增卡有中英文标题与描述及分字段内容；原书具名对象保留原句与页行，外部补入对象只保留实际外部出处，不伪造原书引文。关联对象提供可点击KU链接，候选与正式关系分开。
 
 | 类型 | 新建 | 更新已有有效KU | 旧卡整理后接收 |
 |---|---:|---:|---:|
-| 人物 | 154 | 28 | 3 |
+| 人物 | 161 | 28 | 3 |
 | 机构 | 54 | 5 | 0 |
 | 文献 | 15 | 1 | 0 |
 | 术语 | 4 | 0 | 0 |
-| 地点 | 66 | 10 | 0 |
+| 地点 | 68 | 10 | 0 |
 | 事件 | 1 | 0 | 0 |
 | 作品 | 105 | 0 | 1 |
 | 家族 | 2 | 0 | 0 |
@@ -91,3 +91,8 @@ REV-083–086的已同步基线为`7a04647`。REV-092提交范围为REV-087–09
 REV-095之后继续REV-093目标，新增[施特赖特基金会](../units/institutions/streitsche-stiftung.md)、[斯福尔扎城堡素描室](../units/institutions/gabinetto-dei-disegni-castello-sforzesco.md)及[纳扎里《舒伦堡骑马肖像》](../units/works/nazari-equestrian-portrait-of-schulenburg.md)，复用[柏林绘画馆](../units/institutions/gemaeldegalerie-berlin.md)。施特赖特肖像分别记录1739委托、1758赠校与1964起借展；舒伦堡素描的媒介及皮亚泽塔顾问身份已更正／补入，馆方1730–1735与1738年代异文并列。Marieschi规范为Michele，区分版画作品与具体印本。15卡的14条原书摘录、81条本地链接和823条有效登记检查通过；实际阅读、9项主候选及其他版本缺口见[肖像与收藏机构过程](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#章前对齐接续肖像与收藏机构)。
 
 此前实测同步基线为`1f6a67c`；其后的15卡业务更新及相应生成索引纳入REV-096提交同步范围，远端一致性在推送后单独核验。下一步继续集中完成其余初步对齐，随后按明确缺口补足并进行正式关系审查；不以本轮有据关联或机械检查代替阶段完成。
+
+REV-096已实测同步至`9310fb7`。之后的本轮更新规范Volpato、Bartolozzi、Canova、Sasso全名，落实[萨索肖像I.760](../units/works/alessandro-longhi-g-m-sasso.md)与[阿尔加罗蒂墓版画](../units/works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md)的外部身份；新增[卡洛·比安科尼](../units/persons/carlo-bianconi.md)、[毛罗·安东尼奥·泰西](../units/persons/mauro-antonio-tesi.md)、[亚伯拉罕·休谟](../units/persons/abraham-hume.md)及[比萨坎波桑托](../units/places/camposanto-pisa.md)。墓设计、建造、版画绘图与刻制各有责任者；萨索通信中的作品提议不自动成为购藏。Volpato生年1732／1735并列，本书版画具体印本与Swajer肖像单件信息仍待核。15卡、16条原书摘录、80条本地链接和827条有效登记检查通过；[实际来源、裁决与关系候选交接](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#版画作者与萨索身份)已保存。本轮未再次提交推送，未新增正式关系，整体对齐与补足仍进行中。
+
+
+同轮继续落实[《极乐世界》](../units/works/burnacini-the-elysian-fields.md)的舞台设计与刻制分工，新增[屈塞尔](../units/persons/matthaeus-kusel.md)、[米纳托](../units/persons/nicolo-minato.md)、[德拉吉](../units/persons/antonio-draghi.md)、[施梅尔策](../units/persons/johann-heinrich-schmelzer.md)和[科尔蒂纳剧院](../units/places/theater-auf-der-cortina.md)。原书Burnacini署名按舞台设计解释，不能将其当作刻版者；同剧另一场景仅用于演出时间、场所及责任者核对。新增8卡处理与前段合计23卡，832个有效登记，过程见[舞台图与歌剧责任者](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#舞台图与歌剧责任者)。Küsel生卒异文及歌剧具体印本、芭蕾细分职责待核；已保存有据候选，未写正式边。本轮业务改动未提交推送。

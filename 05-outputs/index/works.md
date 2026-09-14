@@ -4,7 +4,7 @@
 - [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md)
 - [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../../04-knowledge/units/works/albani-servi-altarpiece-1639.md)
 - [卡洛·洛多利肖像（Portrait of Carlo Lodoli）](../../04-knowledge/units/works/alessandro-longhi-carlo-lodoli.md)
-- [G. M. 萨索肖像（Portrait of G. M. Sasso）](../../04-knowledge/units/works/alessandro-longhi-g-m-sasso.md)
+- [乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）](../../04-knowledge/units/works/alessandro-longhi-g-m-sasso.md)
 - [朱庇特与伊娥（Jupiter and Io）](../../04-knowledge/units/works/amigoni-jupiter-and-io.md)
 - [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../../04-knowledge/units/works/amigoni-sigismund-streit.md)
 - [圣依纳爵堂拱顶壁画模型（Modello for fresco on vault of S. Ignazio）](../../04-knowledge/units/works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md)

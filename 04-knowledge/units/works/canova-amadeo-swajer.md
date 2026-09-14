@@ -1,21 +1,22 @@
 ---
-title: "阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）"
-name_en: "Portrait of Amadeo Swajer"
+title: 阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）
+name_en: Portrait of Amadeo Swajer
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L137–137
   sentence_summary: 《赞助人与画家》图版59a目录所记的《阿马德奥·斯瓦耶尔》艺术对象。
   original_quotes:
   - source_span: lines 137–137
-    text: '59 a Canova: Amadeo Swajer (Museo Correr, Venice) b Bernardino Castelli: Teodoro Correr (Museo Correr,
-      Venice)'
+    text: '59 a Canova: Amadeo Swajer (Museo Correr, Venice) b Bernardino Castelli: Teodoro Correr (Museo Correr, Venice)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 137–137; 章前：图版目录；印刷页xv
+- citation: Fondazione Musei Civici di Venezia, Le Sale Neoclassiche e la Collezione canoviana del Museo Correr. https://correr.visitmuve.it/wp-content/uploads/sites/3/2026/01/DOWNLOADS-Collezione-Canoviana-del-Museo-Correr-ITA-2020.pdf. Accessed 2026-09-14.
+  location: 完整8页PDF；生平见PDF3–6（印刷2–5）
+  sentence_summary: Antonio Canova（1757–1822），雕塑家亦从事绘画；1822-10-13卒于威尼斯。手册未列Swajer肖像单件目录。
 created: '2026-09-14'
 updated: '2026-09-14'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
@@ -41,12 +42,16 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 字段 | 值 | 证据 |
 |---|---|---|
 | 图版编号 | 59a | S1 |
-| 创作者 | [卡诺瓦](../persons/canova.md) | S1 |
+| 创作者 | [安东尼奥·卡诺瓦](../persons/canova.md) | S1 |
 | 描绘／纪念对象 | [阿马德奥·斯瓦耶尔](../persons/amadeo-swajer.md) | S1 |
 | 书中收藏／保管者 | [科雷尔博物馆](../institutions/museo-correr.md) | S1 |
 | 书中位置 | [威尼斯](../places/venice.md) | S1 |
 
 ## 关系与证据
+
+### 身份与外部链接
+
+[Correr Canova馆藏手册](https://correr.visitmuve.it/wp-content/uploads/sites/3/2026/01/DOWNLOADS-Collezione-Canoviana-del-Museo-Correr-ITA-2020.pdf)（S2，仅支持作者身份；未列本件肖像单件信息）。
 
 ### 关系记录
 

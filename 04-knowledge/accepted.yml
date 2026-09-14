@@ -1,4 +1,4 @@
-# 当前有效成果：823 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：832 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -172,6 +172,7 @@ units:
 - 04-knowledge/units/persons/a-m-zanetti-the-elder.md
 - 04-knowledge/units/persons/a-n-l-munby.md
 - 04-knowledge/units/persons/abate-lancellotti.md
+- 04-knowledge/units/persons/abraham-hume.md
 - 04-knowledge/units/persons/agostino-masucci.md
 - 04-knowledge/units/persons/albrizzi.md
 - 04-knowledge/units/persons/alessandro-bettagno.md
@@ -194,6 +195,7 @@ units:
 - 04-knowledge/units/persons/anthony-blunt.md
 - 04-knowledge/units/persons/anthony-clark.md
 - 04-knowledge/units/persons/antonio-barberini.md
+- 04-knowledge/units/persons/antonio-draghi.md
 - 04-knowledge/units/persons/antonio-ruffo.md
 - 04-knowledge/units/persons/antonio-verrio.md
 - 04-knowledge/units/persons/archbishop-tillotson.md
@@ -220,6 +222,7 @@ units:
 - 04-knowledge/units/persons/cardinal-borghese-ch1.md
 - 04-knowledge/units/persons/cardinal-pio-bonati.md
 - 04-knowledge/units/persons/cardinal-rospigliosi-gimignani.md
+- 04-knowledge/units/persons/carlo-bianconi.md
 - 04-knowledge/units/persons/carlo-cesare-malvasia.md
 - 04-knowledge/units/persons/carlo-dolci.md
 - 04-knowledge/units/persons/carlo-lodoli.md
@@ -338,6 +341,7 @@ units:
 - 04-knowledge/units/persons/j-tomilson-hill.md
 - 04-knowledge/units/persons/jacopo-salviati.md
 - 04-knowledge/units/persons/jerome-bankes.md
+- 04-knowledge/units/persons/johann-heinrich-schmelzer.md
 - 04-knowledge/units/persons/johann-wilhelm-elector-palatine.md
 - 04-knowledge/units/persons/john-finch.md
 - 04-knowledge/units/persons/john-gilmartin.md
@@ -374,8 +378,10 @@ units:
 - 04-knowledge/units/persons/marshal-schulenburg.md
 - 04-knowledge/units/persons/massimo-stanzione.md
 - 04-knowledge/units/persons/matteo-castelli.md
+- 04-knowledge/units/persons/matthaeus-kusel.md
 - 04-knowledge/units/persons/mattia-preti.md
 - 04-knowledge/units/persons/maurizio-di-savoia.md
+- 04-knowledge/units/persons/mauro-antonio-tesi.md
 - 04-knowledge/units/persons/mazarin.md
 - 04-knowledge/units/persons/michael-conforti.md
 - 04-knowledge/units/persons/michael-levey.md
@@ -385,6 +391,7 @@ units:
 - 04-knowledge/units/persons/nanteuil.md
 - 04-knowledge/units/persons/niccolo-bambini.md
 - 04-knowledge/units/persons/nicolas-poussin.md
+- 04-knowledge/units/persons/nicolo-minato.md
 - 04-knowledge/units/persons/nikolaus-pevsner.md
 - 04-knowledge/units/persons/norah-smallwood.md
 - 04-knowledge/units/persons/olimpia-aldobrandini.md
@@ -476,6 +483,7 @@ units:
 - 04-knowledge/units/places/ca-pesaro.md
 - 04-knowledge/units/places/ca-rezzonico.md
 - 04-knowledge/units/places/cambridge.md
+- 04-knowledge/units/places/camposanto-pisa.md
 - 04-knowledge/units/places/capuchin-church-rome.md
 - 04-knowledge/units/places/castello-sforzesco.md
 - 04-knowledge/units/places/cerasi-chapel.md
@@ -570,6 +578,7 @@ units:
 - 04-knowledge/units/places/stra.md
 - 04-knowledge/units/places/stuttgart.md
 - 04-knowledge/units/places/temple-newsam.md
+- 04-knowledge/units/places/theater-auf-der-cortina.md
 - 04-knowledge/units/places/treviso.md
 - 04-knowledge/units/places/turin.md
 - 04-knowledge/units/places/tuscany.md

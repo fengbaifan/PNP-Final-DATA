@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 702
+total: 709
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -29,6 +29,12 @@ index:
   type: persons
   name_en: '"Secondo Lancellotti"'
   title: '"塞孔多·兰切洛蒂（Secondo Lancellotti）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/abraham-hume
+  type: persons
+  name_en: Abraham Hume
+  title: 亚伯拉罕·休谟（Abraham Hume）
   name_original: ''
   language_original: ''
 - slug: persons/agostino-masucci
@@ -175,6 +181,12 @@ index:
   title: 安东尼奥·德利·埃费蒂（Antonio degli Effetti）
   name_original: ''
   language_original: ''
+- slug: persons/antonio-draghi
+  type: persons
+  name_en: Antonio Draghi
+  title: 安东尼奥·德拉吉（Antonio Draghi）
+  name_original: ''
+  language_original: ''
 - slug: persons/antonio-ruffo
   type: persons
   name_en: '"Don Antonio Ruffo"'
@@ -219,8 +231,8 @@ index:
   language_original: ''
 - slug: persons/bartolozzi
   type: persons
-  name_en: Bartolozzi
-  title: 巴尔托洛齐（Bartolozzi）
+  name_en: Francesco Bartolozzi
+  title: 弗朗切斯科·巴尔托洛齐（Francesco Bartolozzi）
   name_original: ''
   language_original: ''
 - slug: persons/benedetto-luti
@@ -267,8 +279,8 @@ index:
   language_original: ''
 - slug: persons/burnacini
   type: persons
-  name_en: Burnacini
-  title: 布尔纳奇尼（Burnacini）
+  name_en: Ludovico Ottavio Burnacini
+  title: 卢多维科·奥塔维奥·布尔纳奇尼（Ludovico Ottavio Burnacini）
   name_original: ''
   language_original: ''
 - slug: persons/camillo-astalli
@@ -303,8 +315,8 @@ index:
   language_original: ''
 - slug: persons/canova
   type: persons
-  name_en: Canova
-  title: 卡诺瓦（Canova）
+  name_en: Antonio Canova
+  title: 安东尼奥·卡诺瓦（Antonio Canova）
   name_original: ''
   language_original: ''
 - slug: persons/caravaggio
@@ -335,6 +347,12 @@ index:
   type: persons
   name_en: '"Giulio Rospigliosi"'
   title: '"朱利奥·罗斯皮廖西（Giulio Rospigliosi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/carlo-bianconi
+  type: persons
+  name_en: Carlo Bianconi
+  title: 卡洛·比安科尼（Carlo Bianconi）
   name_original: ''
   language_original: ''
 - slug: persons/carlo-cesare-malvasia
@@ -705,14 +723,14 @@ index:
   language_original: ''
 - slug: persons/g-m-sasso
   type: persons
-  name_en: G. M. Sasso
-  title: G. M. 萨索（G. M. Sasso）
+  name_en: Giovanni Maria Sasso
+  title: 乔万尼·马里亚·萨索（Giovanni Maria Sasso）
   name_original: ''
   language_original: ''
 - slug: persons/g-volpato
   type: persons
-  name_en: G. Volpato
-  title: G. 沃尔帕托（G. Volpato）
+  name_en: Giovanni Volpato
+  title: 乔万尼·沃尔帕托（Giovanni Volpato）
   name_original: ''
   language_original: ''
 - slug: persons/gaetano-cozzi
@@ -1057,6 +1075,12 @@ index:
   title: 杰罗姆·班克斯（Jerome Bankes）
   name_original: ''
   language_original: ''
+- slug: persons/johann-heinrich-schmelzer
+  type: persons
+  name_en: Johann Heinrich Schmelzer
+  title: 约翰·海因里希·施梅尔策（Johann Heinrich Schmelzer）
+  name_original: ''
+  language_original: ''
 - slug: persons/johann-wilhelm-elector-palatine
   type: persons
   name_en: Johann Wilhelm, Elector Palatine
@@ -1279,6 +1303,12 @@ index:
   title: 马泰奥·卡斯泰利（Matteo Castelli）
   name_original: ''
   language_original: ''
+- slug: persons/matthaeus-kusel
+  type: persons
+  name_en: Matthäus Küsel
+  title: 马特乌斯·屈塞尔（Matthäus Küsel）
+  name_original: ''
+  language_original: ''
 - slug: persons/mattia-preti
   type: persons
   name_en: '"Mattia Preti"'
@@ -1289,6 +1319,12 @@ index:
   type: persons
   name_en: '"Maurizio di Savoia"'
   title: '"毛里齐奥·迪·萨伏依（Maurizio di Savoia）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/mauro-antonio-tesi
+  type: persons
+  name_en: Mauro Antonio Tesi
+  title: 毛罗·安东尼奥·泰西（Mauro Antonio Tesi）
   name_original: ''
   language_original: ''
 - slug: persons/mazarin
@@ -1343,6 +1379,12 @@ index:
   type: persons
   name_en: '"Nicolas Poussin"'
   title: '"尼古拉·普桑（Nicolas Poussin）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/nicolo-minato
+  type: persons
+  name_en: Nicolò Minato
+  title: 尼科洛·米纳托（Nicolò Minato）
   name_original: ''
   language_original: ''
 - slug: persons/nikolaus-pevsner
@@ -2403,8 +2445,8 @@ index:
   language_original: ''
 - slug: works/alessandro-longhi-g-m-sasso
   type: works
-  name_en: '"Portrait of G. M. Sasso"'
-  title: '"G. M. 萨索肖像（Portrait of G. M. Sasso）"'
+  name_en: Portrait of Giovanni Maria Sasso
+  title: 乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）
   name_original: ''
   language_original: ''
 - slug: works/altieri-clemency-fresco
@@ -2547,8 +2589,8 @@ index:
   language_original: ''
 - slug: works/canova-amadeo-swajer
   type: works
-  name_en: '"Portrait of Amadeo Swajer"'
-  title: '"阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）"'
+  name_en: Portrait of Amadeo Swajer
+  title: 阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）
   name_original: ''
   language_original: ''
 - slug: works/caravaggio-adoration-shepherds
