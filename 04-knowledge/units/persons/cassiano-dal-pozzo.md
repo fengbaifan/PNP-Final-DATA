@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 角色：描绘对象；范围：馆藏题名明确的漫画肖像人物；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；works-bernini-caricature-of-cassiano-dal-pozzo；Title |
 
 ### 关系候选入口
 

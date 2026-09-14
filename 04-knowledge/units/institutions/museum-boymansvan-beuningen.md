@@ -61,8 +61,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [本馆对象58489](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)（S2，作品与借存）。
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 角色：保管机构；范围：I 135 (PK)馆藏与素描版画部门记录；现列库存，非当前展陈；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；works-bernini-caricature-of-cassiano-dal-pozzo；Specifications：Location、Department、Accession number |
+| ← 借入者／借阅者（`borrower_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 时间：1940；角色：借入机构；范围：本件由Stichting出借进入博物馆；非捐赠或购入；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；works-bernini-caricature-of-cassiano-dal-pozzo；Specifications：Credits、Acquisition date |
 
 ### 关系候选入口
 

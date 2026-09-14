@@ -20,9 +20,55 @@ sources:
   location: 完整对象字段及Description
   sentence_summary: Agostino Masucci（1691–1758）的纸本黑粉笔素描，42.2×32.9厘米，NMH 554/1863，描绘莫拉为亚历山大七世作像。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏机构与图版版本集中核对
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏作品创作收藏与借存关系定稿
+relations:
+- relation_type: created_by
+  target: persons/agostino-masucci.md
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Artist/Maker、Inventory number
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: NMH 554/1863纸本黑粉笔素描
+  role: 绘图者
+- relation_type: has_subject
+  target: persons/pier-francesco-mola.md
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Description
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 画中正在绘制教宗肖像的莫拉；不代表此素描由莫拉创作
+  role: 描绘人物
+- relation_type: has_subject
+  target: persons/alexander-vii.md
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Description
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇
+  role: 画中肖像的对象
+- relation_type: held_by
+  target: institutions/national-museum-stockholm.md
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: 对象题头、Inventory number、Collection
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: NMH 554/1863馆藏记录；不据馆藏号后缀推定取得日期
+  role: 保管机构
 ---
+
 
 ## 内容
 
@@ -68,7 +114,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [阿戈斯蒂诺·马苏奇（Agostino Masucci）](../persons/agostino-masucci.md) | 角色：绘图者；范围：NMH 554/1863纸本黑粉笔素描；证据：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；Artist/Maker、Inventory number |
+| → 所涉对象（`has_subject`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 角色：描绘人物；范围：画中正在绘制教宗肖像的莫拉；不代表此素描由莫拉创作；证据：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；Description |
+| → 所涉对象（`has_subject`） | [亚历山大七世（Alexander VII）](../persons/alexander-vii.md) | 角色：画中肖像的对象；范围：莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇；证据：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；Description |
+| → 由其保管（`held_by`） | [斯德哥尔摩国家博物馆（Nationalmuseum）](../institutions/national-museum-stockholm.md) | 角色：保管机构；范围：NMH 554/1863馆藏记录；不据馆藏号后缀推定取得日期；证据：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；对象题头、Inventory number、Collection |
 
 ### 关系候选入口
 

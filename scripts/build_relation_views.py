@@ -35,8 +35,8 @@ TABLE_RE = re.compile(
 )
 
 LABELS = {
-    "acquired_by": "由其购入",
-    "acquirer_of": "购入者",
+    "acquired_by": "由其取得",
+    "acquirer_of": "取得者",
     "addressed_to": "致函",
     "addressee_of": "为收信人",
     "advised": "向其建议",
@@ -45,8 +45,12 @@ LABELS = {
     "appointed_by": "由其任命",
     "authored_by": "作者",
     "author_of": "所著文献",
-    "borrowed_by": "由其借阅",
-    "borrower_of": "借阅者",
+    "borrowed_by": "由其借入／借阅",
+    "borrower_of": "借入者／借阅者",
+    "lent_by": "由其出借",
+    "lender_of": "出借者",
+    "model_for": "作为预备模型／样稿",
+    "modeled_by": "采用预备模型／样稿",
     "collaborated_with": "合作",
     "commissioned_by": "由其委托",
     "commissioner_of": "委托者",

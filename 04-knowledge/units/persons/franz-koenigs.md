@@ -42,7 +42,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 收藏者／所有者（`owner_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 角色：历史收藏者；范围：旧藏者身份，未载取得和转出年；不推定1940年直接赠予博物馆；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；works-bernini-caricature-of-cassiano-dal-pozzo；Specifications：Collector及Credits former Koenigs collection |
 
 ### 关系候选入口
 

@@ -1599,3 +1599,129 @@ REV-093接续；2026-09-15。上一轮已形成49条正式关系，本轮继续�
 ### 候选去向
 
 PHOTO-07、08、13、14已按上述对象范围转正。INST-01、02、03、04、05、06、07、08、09、10、11、12、13、14、15、17的明确归属／职责进入正式记录；其中版权限定著作权、机构支持限定原文集体署名、Poerson终期继续待证。INST-16保留为推荐读者使用且未逐条引用的内容事实，不生成逐条cites边，也不从词典主题反推作者的学术归属。未处理作品的保管链、版本及不确定身份仍按原待证记录接续；本次定稿不表示全任务已完成。
+
+
+## 馆藏作品创作收藏与借存关系定稿
+
+REV-093接续；2026-09-15。REV-104已提交并实测同步至d53ffb5。本轮集中处理MUS-01–13及对应作品正文中已经采纳的角色；正式边逐条由语义判断形成，不由正文链接自动推断。
+
+### 来源复核与新补足
+
+- Nationalmuseum NMH 554/1863完整对象字段及Description、苏格兰NG 2193完整About／More about／对象字段、斯帕达馆方全文和ICCD1200962613网页均重读。ICCD同源PDF第1页第四室定位沿用上一轮已读全3页的证据。马苏奇画中莫拉及教宗分别建立描绘边；不因此给莫拉或教宗新增本素描创作／委托。
+- 博伊曼斯网页经浏览工具失败后改公开HTTP读取，状态200；题名、作者及全部Specifications已读。1940借存的基金会与博物馆分别建立出借／借入边，Franz Koenigs为历史收藏者，保管不等于所有权。馆方约1680制作年代仍待比较，不当作波佐坐像日期。
+- Cambridge Museums网页正文、两件肖像标签及SENSUAL VIRTUAL段已读，未声称观看嵌入视频。PD.13-1972的创作、委托、描绘和保管落实；补1972赠入。Finch与Dolci的朋友关系有独立明确词句。Finch与Baines的终身伴侣事实保留，不能将marriage of souls直接转换为法律配偶。
+- Paris Musées浏览工具超时后公开HTTP200读取全部对象字段、图像学与历史说明、取得信息。J 104明确为墨尔本藏本的预备版本，采用model_for；补1928遗赠接收。NGV103-4对象、About、Frame及Frame Details本轮均读，补1933取得；两卡双语描述改为具体版本内容。新读的主题人物、画框参与人、遗赠人和流传细节仅作为具体待核线索列在下文，未据网页外链自动建KU。
+
+### 正式关系
+
+| 来源KU | 关系 | 端点 | 时间／角色／范围 | 证据 |
+|---|---|---|---|---|
+| [works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md](../../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | created_by | [persons/agostino-masucci.md](../../../04-knowledge/units/persons/agostino-masucci.md) | ；绘图者；NMH 554/1863纸本黑粉笔素描 | [来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；Artist/Maker、Inventory number |
+| [works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md](../../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | has_subject | [persons/pier-francesco-mola.md](../../../04-knowledge/units/persons/pier-francesco-mola.md) | ；描绘人物；画中正在绘制教宗肖像的莫拉；不代表此素描由莫拉创作 | [来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；Description |
+| [works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md](../../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | has_subject | [persons/alexander-vii.md](../../../04-knowledge/units/persons/alexander-vii.md) | ；画中肖像的对象；莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇 | [来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；Description |
+| [works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md](../../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | held_by | [institutions/national-museum-stockholm.md](../../../04-knowledge/units/institutions/national-museum-stockholm.md) | ；保管机构；NMH 554/1863馆藏记录；不据馆藏号后缀推定取得日期 | [来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；对象题头、Inventory number、Collection |
+| [works/rubens-the-feast-of-herod.md](../../../04-knowledge/units/works/rubens-the-feast-of-herod.md) | created_by | [persons/peter-paul-rubens.md](../../../04-knowledge/units/persons/peter-paul-rubens.md) | 约1635–1638；画家；NG 2193布面油画 | [来源](https://www.nationalgalleries.org/art-and-artists/5382)；Artist、Date、Accession number |
+| [works/rubens-the-feast-of-herod.md](../../../04-knowledge/units/works/rubens-the-feast-of-herod.md) | held_by | [institutions/national-gallery-of-scotland.md](../../../04-knowledge/units/institutions/national-gallery-of-scotland.md) | ；原书保管机构；原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点 | [来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；lines 100–100; 章前：图版目录；印刷页xiv |
+| [works/rubens-the-feast-of-herod.md](../../../04-knowledge/units/works/rubens-the-feast-of-herod.md) | located_at | [places/naples.md](../../../04-knowledge/units/places/naples.md) | 至1640年；历史到达城市；至1640年已运抵该城；未确定建筑或此后迁出时间 | [来源](https://www.nationalgalleries.org/art-and-artists/5382)；More about this artwork：2015年说明的运抵那不勒斯段 |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | created_by | [persons/michelangelo-cerquozzi.md](../../../04-knowledge/units/persons/michelangelo-cerquozzi.md) | 1647年底至1648年初；画家；馆藏81；创作时段采用馆方说明，目录另记1648 | [来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；作品说明：commissionata、eseguì段 |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | commissioned_by | [persons/virgilio-spada.md](../../../04-knowledge/units/persons/virgilio-spada.md) | 1648；委托人；馆藏81的具体委托；年粒度依国家目录 | [来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；Notizie storico critiche |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | owned_by | [persons/virgilio-spada.md](../../../04-knowledge/units/persons/virgilio-spada.md) | ；历史收藏者；馆方明确曾属其绘画收藏，未记具体取得和转出日期 | [来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；作品说明：collezione di pittura段 |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | held_by | [institutions/galleria-spada.md](../../../04-knowledge/units/institutions/galleria-spada.md) | ；保管机构；原书图版22b保管机构，区别斯帕达宫建筑 | [来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；lines 75–75; 章前：图版目录；印刷页xiii |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | installed_at | [places/palazzo-spada.md](../../../04-knowledge/units/places/palazzo-spada.md) | 2006年目录记录；目录所载展陈建筑；馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置 | [来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；同源PDF第1页：LDC与LDCS Sala 4；2006更新 |
+| [works/michelangelo-cerquozzi-the-revolt-of-masaniello.md](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | located_at | [places/rome.md](../../../04-knowledge/units/places/rome.md) | 1647年底至1648年初；创作城市；馆方称画家未离开罗马完成本件；创作地点而非起义发生地 | [来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；作品说明：senza mai allontanarsi da Roma |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | created_by | [persons/gian-lorenzo-bernini.md](../../../04-knowledge/units/persons/gian-lorenzo-bernini.md) | ；绘图者；I 135 (PK)作者归属；馆方约1680年代仍待细化，不将其作为双方会面日期 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Specifications：Artists、Accession number |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | has_subject | [persons/cassiano-dal-pozzo.md](../../../04-knowledge/units/persons/cassiano-dal-pozzo.md) | ；描绘对象；馆藏题名明确的漫画肖像人物 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Title |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | owned_by | [persons/franz-koenigs.md](../../../04-knowledge/units/persons/franz-koenigs.md) | ；历史收藏者；旧藏者身份，未载取得和转出年；不推定1940年直接赠予博物馆 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Specifications：Collector及Credits former Koenigs collection |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | held_by | [institutions/museum-boymansvan-beuningen.md](../../../04-knowledge/units/institutions/museum-boymansvan-beuningen.md) | ；保管机构；I 135 (PK)馆藏与素描版画部门记录；现列库存，非当前展陈 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Specifications：Location、Department、Accession number |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | borrowed_by | [institutions/museum-boymansvan-beuningen.md](../../../04-knowledge/units/institutions/museum-boymansvan-beuningen.md) | 1940；借入机构；本件由Stichting出借进入博物馆；非捐赠或购入 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Specifications：Credits、Acquisition date |
+| [works/bernini-caricature-of-cassiano-dal-pozzo.md](../../../04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md) | lent_by | [institutions/stichting-museum-boijmans-van-beuningen.md](../../../04-knowledge/units/institutions/stichting-museum-boijmans-van-beuningen.md) | 1940；出借机构；本件1940借存的出借方；记录不单独证明基金会所有权 | [来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；Specifications：Credits Loan Stichting Museum Boijmans Van Beuningen |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | created_by | [persons/carlo-dolci.md](../../../04-knowledge/units/persons/carlo-dolci.md) | 约1665–1670；画家；PD.13-1972贝恩斯肖像 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Baines |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | has_subject | [persons/thomas-baines.md](../../../04-knowledge/units/persons/thomas-baines.md) | ；描绘对象；PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Sir Thomas Baines |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | commissioned_by | [persons/john-finch.md](../../../04-knowledge/units/persons/john-finch.md) | 驻佛罗伦萨期间；作品约1665–1670；委托人；Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的commissioned段 |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | held_by | [institutions/fitzwilliam-museum.md](../../../04-knowledge/units/institutions/fitzwilliam-museum.md) | ；保管机构；PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；首段及Baines标签PD.13-1972 |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | located_at | [places/florence.md](../../../04-knowledge/units/places/florence.md) | 1665–1670；创作城市；贝恩斯肖像创作城市；不表示现藏地点 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：This portrait was painted in Florence |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | acquired_by | [institutions/fitzwilliam-museum.md](../../../04-knowledge/units/institutions/fitzwilliam-museum.md) | 1972；受赠接收馆；PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| [works/tiepolo-banquet-cognacq-jay.md](../../../04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md) | created_by | [persons/giambattista-tiepolo.md](../../../04-knowledge/units/persons/giambattista-tiepolo.md) | 1742–1743；画家；J 104巴黎预备版本，区别墨尔本藏本 | [来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Auteur(s)、Date de production、Numéro d’inventaire |
+| [works/tiepolo-banquet-cognacq-jay.md](../../../04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md) | held_by | [institutions/musee-cognacq-jay.md](../../../04-knowledge/units/institutions/musee-cognacq-jay.md) | ；保管机构；J 104保管机构 | [来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Institution、Numéro d’inventaire |
+| [works/tiepolo-banquet-cognacq-jay.md](../../../04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md) | model_for | [works/tiepolo-banquet-victoria.md](../../../04-knowledge/units/works/tiepolo-banquet-victoria.md) | 1742–1743；预备版本；馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品 | [来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Commentaire historique |
+| [works/tiepolo-banquet-cognacq-jay.md](../../../04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md) | acquired_by | [institutions/musee-cognacq-jay.md](../../../04-knowledge/units/institutions/musee-cognacq-jay.md) | 1928；遗赠接收馆；J 104馆藏取得，目录记遗赠，1928；遗赠者另待必要端点核定 | [来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Mode d’acquisition、Date d’acquisition、Institution |
+| [works/tiepolo-banquet-victoria.md](../../../04-knowledge/units/works/tiepolo-banquet-victoria.md) | created_by | [persons/giambattista-tiepolo.md](../../../04-knowledge/units/persons/giambattista-tiepolo.md) | 1743–1744；画家；103-4墨尔本藏本，区别巴黎J 104 | [来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；题头及Accession Number |
+| [works/tiepolo-banquet-victoria.md](../../../04-knowledge/units/works/tiepolo-banquet-victoria.md) | held_by | [institutions/national-gallery-of-victoria.md](../../../04-knowledge/units/institutions/national-gallery-of-victoria.md) | ；保管机构；103-4馆藏；具体馆内展室随目录时点，不作所有年代定位 | [来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；Credit Line、Gallery location、Accession Number |
+| [works/tiepolo-banquet-victoria.md](../../../04-knowledge/units/works/tiepolo-banquet-victoria.md) | acquired_by | [institutions/national-gallery-of-victoria.md](../../../04-knowledge/units/institutions/national-gallery-of-victoria.md) | 1933；取得机构；103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画 | [来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；Credit Line及Frame：acquired by the National Gallery of Victoria in 1933 |
+| [persons/viviano-codazzi.md](../../../04-knowledge/units/persons/viviano-codazzi.md) | friend_of | [persons/michelangelo-cerquozzi.md](../../../04-knowledge/units/persons/michelangelo-cerquozzi.md) | ；朋友；馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议 | [来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；作品说明：amico pittore Viviano Codazzi |
+| [persons/john-finch.md](../../../04-knowledge/units/persons/john-finch.md) | friend_of | [persons/carlo-dolci.md](../../../04-knowledge/units/persons/carlo-dolci.md) | ；朋友；Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的befriended段 |
+
+
+### 候选去向与后续依赖
+
+- MUS-01–04、07、09–13的上述有据角色已转正；MUS-06原书单馆保管转正，1958购买主体的总机构／单馆粒度仍待单独核定，中文描述同步为购入国家收藏。MUS-05的Roomer可能委托保留待证，MUS-08的Codazzi本件绘制分工确定性冲突保留，朋友关系不消除该冲突。MUS-10的作者边不证明约1680制作年代已获解决。
+- 22b图像所涉Masaniello、两件宴会的Cleopatra／Mark Antony等端点仍需具体身份核对。Paris说明另具名Lucius Plancus，主题及文本来源须独立判断；不从描绘场景推断真实亲缘、会面或恋爱事件。
+- PD.12-1972芬奇肖像及其与PD.13-1972的配对有明确页面依据，需回知识元阶段成稿；National Art-Collections Fund作为1972赠入者待建或复用规范端点。J 104的Ernest Cognacq遗赠者端点亦需补齐，1928接收边不代替赠出边。以上为已发现的具体缺口，不能因本轮已有边均通过就宣称关系完整。
+- NGV画框说明涉及1744支付、德累斯顿运送、约1800–1933俄罗斯收藏及1954–1955伦敦展览／修复／换框，具体支付者、作品与画框边界及流传端点另行核对。未把画框作者写成油画作者，未把本书供片关系当1954展览证据；Felton Bequest署名不等于Felton本人1933直接赠画。
+- 原9项主候选继续待证，其他对齐和内容缺口继续推进；本轮未开展知识发现、页面或人工校验，未再次提交推送。
+
+### 应用与检查
+
+34条逐项关系裁决经exact plan预检和差异审阅后写入，连同反向入口与取得／借入标签修正共涉及39张卡。106条原书摘录、323条本地链接、来源编号及端点有效性通过，原sources前缀及旧正式关系保持；42个计划文件的应用结果与预检版本一致。首次局部检查调用传入相对路径导致工具报错，改为检查器要求的绝对路径后通过，未更改判断标准。受影响卡内容检查无确定性发现，34条新增边的方向、证据、时间、角色及范围与索引逐项一致。
+
+索引刷新为537条（536条explicit、1条既有派生边）；886个有效KU保持。16步同步检查及274项测试通过。规则检查和系统升级链通过；网页数据未刷新。以上为语义自查与机械验证，不是独立或人工验收，也不证明全任务补足和关系阶段已完成。
+
+
+## 肖像配对与遗赠主体补齐
+
+REV-093接续；2026-09-15。本轮回送上一轮已确认的必需端点，并纠正J 104的取得主体粒度。先读来源和完成提及比较，再成稿，最后裁决关系；没有批量扩张网页外链。
+
+### 摄入处理与身份比较
+
+- 已读Fitzwilliam object922完整作品记录，包括Titles、作者、历史、赠入、制作、材料、书目及展览字段；image media-218826仅作为同一PD.12-1972的图像元数据交叉核对，未代替作品记录。Cambridge Museums的两作品标签和配对首段与之对应，Finch并非Baines，也不是两件共用一个实体。馆藏对象号922、PD.12-1972、尺寸及1665–1670制作年落入新作品卡。
+- Art Fund官方Our purpose全文和页脚已读；其运营名与National Art Collections Fund直接对应，注册号209174／SC038331照录，未将运营名称误解为另建法人。National Gallery机构词条全文交叉核对1903成立与用途。两肖像的1972赠出责任来自Fitzwilliam及Cambridge具体记录，不由基金的一般资助使命推定。
+- BnF FRBNF16168805全规范记录与Cognacq-Jay夫妻传记全文、博物馆历史全文、Paris Musées馆藏概述全文及J 104对象取得字段逐项比较。Théodore-Ernest Cognacq对应具体遗赠者Cognacq, Ernest；生卒及全名异体有规范依据。Marie-Louise Jaÿ／Jay是其妻及共同收藏者，另建人物，不把夫妻合成单一捐赠者。出生地Saint-Martin-de-Ré在BnF明确，为该采纳字段建place端点。人物父母的姓名、其他亲缘及完整生平仍未全面补足。
+- Ville de Paris／City of Paris作为遗赠受益主体归institution，区别已有place巴黎。博物馆历史明确1928年Cognacq去世后市政主体继续推进项目，1929-06-04开馆。没有把现今巴黎市政法律形式或现任官员倒填到1928年。
+
+### 新增知识元与内容
+
+| 对象 | 类型 | 采纳内容与依据 |
+|---|---|---|
+| [芬奇肖像](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | work | PD.12-1972；作者、描绘、委托、尺寸、制作、配对及1972赠入 |
+| [国家艺术收藏基金](../../../04-knowledge/units/institutions/national-art-collections-fund.md) | institution | Art Fund运营名、1903成立、慈善注册号与两件具体赠出作品 |
+| [科涅克](../../../04-knowledge/units/persons/ernest-cognacq.md) | person | 全名、惯用名、昵称、性别、生卒、出生／去世地、职业标签、配偶及具体遗赠 |
+| [玛丽—路易丝·杰](../../../04-knowledge/units/persons/marie-louise-jay.md) | person | 姓名异体、生卒年、配偶、共同收藏及商业／慈善角色；不使用配偶的BnF号冒充其本人 |
+| [巴黎市政当局](../../../04-knowledge/units/institutions/city-of-paris.md) | institution | 1928遗赠接收主体，区别地理城市及保管馆 |
+| [圣马丹德雷](../../../04-knowledge/units/places/saint-martin-de-re.md) | place | 原语地名、地区及Cognacq出生事实；人物规范号不冒充地点规范号 |
+
+旧卡按实际采纳补入配对、赠出方、遗赠双方及开馆日期，保留原有原书摘录与来源。六个新对象为外部补足端点，不伪造原书原句；无新增QID或Wiki验证声明，身份依据来自馆藏及规范记录。
+
+### 正式关系与修订
+
+| 来源KU | 关系 | 端点 | 时间／角色／范围 | 证据 |
+|---|---|---|---|---|
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | created_by | [persons/carlo-dolci.md](../../../04-knowledge/units/persons/carlo-dolci.md) | 1665–1670；画家；PD.12-1972 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Maker(s)、Dating |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | has_subject | [persons/john-finch.md](../../../04-knowledge/units/persons/john-finch.md) | ；描绘人物；PD.12-1972，不与贝恩斯肖像混合 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Titles、People depicted |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | commissioned_by | [persons/john-finch.md](../../../04-knowledge/units/persons/john-finch.md) | 驻佛罗伦萨期间；委托人；Finch委托本人和Baines肖像；本边只指本人肖像 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Finch标签：commissioned not only this portrait and that of Baines |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | held_by | [institutions/fitzwilliam-museum.md](../../../04-knowledge/units/institutions/fitzwilliam-museum.md) | ；保管机构；PD.12-1972保管馆 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Associated departments & institutions、Identification numbers |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | acquired_by | [institutions/fitzwilliam-museum.md](../../../04-knowledge/units/institutions/fitzwilliam-museum.md) | 1972；受赠接收馆；1972年赠入，区别旧藏流传及1947拍卖 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Legal notes、Acquisition and important dates |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | contributed_by | [institutions/national-art-collections-fund.md](../../../04-knowledge/units/institutions/national-art-collections-fund.md) | 1972；赠出机构；将PD.12-1972赠入菲茨威廉博物馆 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Legal notes、Acquisition and important dates |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | pendant_of | [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | ；配对肖像；馆方明确两肖像成对；单侧记录，反向导航 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；首段及两件作品标签 |
+| [works/carlo-dolci-sir-john-finch.md](../../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md) | located_at | [places/florence.md](../../../04-knowledge/units/places/florence.md) | 1665–1670；创作城市；作画城市，不表示现藏所在地 | [来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；Dating及Note：Painted in Florence |
+| [works/carlo-dolci-sir-thomas-baines.md](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md) | contributed_by | [institutions/national-art-collections-fund.md](../../../04-knowledge/units/institutions/national-art-collections-fund.md) | 1972；赠出机构；将PD.13-1972赠入菲茨威廉博物馆 | [来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| [works/tiepolo-banquet-cognacq-jay.md](../../../04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md) | contributed_by | [persons/ernest-cognacq.md](../../../04-knowledge/units/persons/ernest-cognacq.md) | 1928；遗赠者；J 104具体遗赠者，区别夫妻共同形成收藏的总体表述 | [来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Nom du donateur, testateur, vendeur、Date d’acquisition |
+| [persons/ernest-cognacq.md](../../../04-knowledge/units/persons/ernest-cognacq.md) | spouse_of | [persons/marie-louise-jay.md](../../../04-knowledge/units/persons/marie-louise-jay.md) | 1872结婚；配偶；馆方传记明确结婚；不据艺术收藏关系反推婚姻 | [来源](https://www.museecognacqjay.paris.fr/en/museum/cognacq-jay-spouses)；A remarkable example of commercial success：1871租约后的次年结婚 |
+| [persons/ernest-cognacq.md](../../../04-knowledge/units/persons/ernest-cognacq.md) | located_at | [places/saint-martin-de-re.md](../../../04-knowledge/units/places/saint-martin-de-re.md) | 1839-10-02；出生地；人物出生地点，未写成长期活动地 | [来源](https://catalogue.bnf.fr/ark:/12148/cb161688058)；Naissance |
+| [persons/ernest-cognacq.md](../../../04-knowledge/units/persons/ernest-cognacq.md) | located_at | [places/paris.md](../../../04-knowledge/units/places/paris.md) | 1928-02-21；去世地；巴黎第16区，死亡地点而非所有人生阶段居住地 | [来源](https://catalogue.bnf.fr/ark:/12148/cb161688058)；Mort |
+| [institutions/city-of-paris.md](../../../04-knowledge/units/institutions/city-of-paris.md) | located_at | [places/paris.md](../../../04-knowledge/units/places/paris.md) | ；对应市政城市；遗赠行政主体对应巴黎城市；不是两个同类地理实体 | [来源](https://parismuseescollections.paris.fr/en/the-musee-cognacq-jay)；馆藏概述：City of Paris |
+| [institutions/musee-cognacq-jay.md](../../../04-knowledge/units/institutions/musee-cognacq-jay.md) | supported_by | [persons/ernest-cognacq.md](../../../04-knowledge/units/persons/ernest-cognacq.md) | 1928遗赠；1929开馆；创馆收藏遗赠者；遗赠收藏成为博物馆基础，博物馆1929开馆；不记本人1929在世任职 | [来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；The museum located Boulevard des Capucines |
+
+
+J 104上一轮acquired_by→Musée Cognacq-Jay、time=1928、role=遗赠接收馆，依据当代目录的Institution和取得字段，将保管馆误作当年遗赠主体。本轮撤换这一条，改为acquired_by→City of Paris、time=1928、role=遗赠受益主体；held_by→Musée Cognacq-Jay保留。判断依据是具体J 104的Ernest Cognacq／Legs／1928取得记录，与馆史明确的遗赠受益主体共同支持。原边及前一判断保留在前节和Git差异；不将修正称为新增一条事实，也不重写原书图版所列保管馆。
+
+### 未采纳或待补范围
+
+Fitzwilliam所列Finch家族至1947、Hanbury拍卖、Barlow及Christie-Miller旧藏链已经读到，具体同名人物、家族及流转时间尚待核，未把这些名称自动转正。书目题名与页码仅代表馆方列书目，未读原书，不能据此建评价或独立验证。Cognacq夫妻的商业、建筑及慈善机构外链不递归接收；当前采纳的出生地、配偶及J 104遗赠端点均已建或复用，其他活动待实际问题驱动。共同形成收藏不能推出妻子也是J 104在1928年的具体遗赠者，她于1925年去世；该作品的testateur字段只署Ernest。
+
+9项主候选及Roomer可能委托、Codazzi分工等既有待证状态保持；全任务的初步对齐、全面补足及关系定稿仍未完成。页面、知识发现、人工校验继续暂停，本轮未提交推送。
+
+### 应用与检查
+
+21个计划文件应用结果与预检版本一致，涉及17张知识元卡（新建6张、更新11张）；24条原书摘录、160条本地链接及来源编号核对通过。已有来源前缀保留；既有正式关系仅按上述明确纠正案替换J 104的acquired_by，其余保持。15条新增关系和1条修正关系的端点、方向、时间、角色、范围及证据与索引逐项核对，旧的博物馆取得边及反向入口均已移除，保管边仍在。
+
+全库892条有效登记与章前522个KU计数一致，章前类型为人物215、机构79、文献18、地点90、术语4、作品112、家族3、事件1。关系索引552条（551条explicit、1条既有派生边），受影响内容检查无确定性发现，14步同步检查通过。此轮仅内容及登记变化，没有重复上一轮已经通过的274项全套代码测试；网页数据未刷新。这些检查不等于全部内容补足或全任务关系定稿。

@@ -3,9 +3,20 @@ title: 维维亚诺·科达齐（Viviano Codazzi）
 name_en: Viviano Codazzi
 type: person
 created: '2026-09-13'
-updated: 2026-09-14
+updated: '2026-09-15'
 evidence_status: source_backed
-relations: []
+relations:
+- relation_type: friend_of
+  target: persons/michelangelo-cerquozzi.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：amico pittore Viviano Codazzi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议
+  role: 朋友
 sources:
 - citation: Giuseppe Scavizzi, CODAZZI, Viviano, Dizionario Biografico degli Italiani 26 (1982). https://www.treccani.it/enciclopedia/viviano-codazzi_(Dizionario-Biografico)/. Accessed 2026-09-13.
   location: 导言、生平早期及与Cerquozzi合作争议段；本轮定向阅读
@@ -22,8 +33,9 @@ sources:
 - citation: Galleria Spada, Cerquozzi – La rivolta di Masaniello. https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/. Accessed 2026-09-14.
   location: 完整作品说明两段与题头；公开网页HTTP读取
   sentence_summary: 作品由Virgilio Spada（1596–1662）收藏并委托；1647年底至1648年初在罗马完成。馆方肯定Codazzi绘建筑背景，与ICCD推测语气不同；尺寸184×186厘米与ICCD数值不一致。
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏机构与图版版本集中核对
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏作品创作收藏与借存关系定稿
 ---
+
 
 ## 内容
 
@@ -66,7 +78,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 合作（`collaborated_with`，反向投影） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](michelangelo-cerquozzi.md) | 传记明确两人合作建筑场景，包含《马萨尼埃洛起义》相关对象；早期合作年代存在争议；时间：罗马合作期；1647年前起点有争议；角色：人物画家／建筑景观画家；范围：有据合作作品；不由合作推定共同政治立场或所有作品共同署名；原断言与证据见发出端卡片“米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）”：[来源](https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/)；dbi-cerquozzi；发出端第7条来源；Codazzi合作段 |
+| → 朋友（`friend_of`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](michelangelo-cerquozzi.md) | 角色：朋友；范围：馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：amico pittore Viviano Codazzi |
 
 ### 身份与外部链接
 

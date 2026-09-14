@@ -121,6 +121,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../works/rubens-chiesa-nuova-altarpiece-1606.md) | 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品；原断言与证据见发出端卡片“鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
+| ← 所创作对象（`creator_of`，反向投影） | [希律王宴会（The Feast of Herod）](../works/rubens-the-feast-of-herod.md) | 时间：约1635–1638；角色：画家；范围：NG 2193布面油画；原断言与证据见发出端卡片“希律王宴会（The Feast of Herod）”：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；Artist、Date、Accession number |
 
 ### 身份与外部链接
 

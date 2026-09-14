@@ -293,10 +293,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）](../institutions/soprintendenza-alle-gallerie-florence.md) | 范围：本书图片来源所列历史监管机构所在地；原断言与证据见发出端卡片“佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 所在地（`location_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1665–1670；角色：创作城市；范围：作画城市，不表示现藏所在地；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Dating及Note：Painted in Florence |
+| ← 所在地（`location_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：1665–1670；角色：创作城市；范围：贝恩斯肖像创作城市；不表示现藏地点；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；Baines标签：This portrait was painted in Florence |
 
 ### 身份与外部链接
 

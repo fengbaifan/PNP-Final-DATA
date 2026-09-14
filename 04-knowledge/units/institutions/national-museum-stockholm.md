@@ -74,7 +74,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | 角色：保管机构；范围：NMH 554/1863馆藏记录；不据馆藏号后缀推定取得日期；原断言与证据见发出端卡片“莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）”：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；对象题头、Inventory number、Collection |
 
 ### 关系候选入口
 

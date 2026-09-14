@@ -90,6 +90,7 @@
 - [圣依纳爵堂（罗马）（S. Ignazio）](../../04-knowledge/units/places/s-ignazio.md)
 - [百合圣母堂（S. Maria del Giglio）](../../04-knowledge/units/places/s-maria-del-giglio.md)
 - [圣撒比纳大殿（Santa Sabina all’Aventino）](../../04-knowledge/units/places/s-sabina.md)
+- [圣马丹德雷（Saint-Martin-de-Ré）](../../04-knowledge/units/places/saint-martin-de-re.md)
 - [罗马圣克莱孟堂（S. Clemente, Rome）](../../04-knowledge/units/places/san-clemente-rome.md)
 - [法国圣路易堂（San Luigi dei Francesi）](../../04-knowledge/units/places/san-luigi-dei-francesi.md)
 - [帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）](../../04-knowledge/units/places/san-sebastiano-palatine.md)

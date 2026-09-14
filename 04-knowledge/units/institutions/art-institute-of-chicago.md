@@ -72,7 +72,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← publisher_of（`publisher_of`，反向投影） | [《芝加哥艺术博物馆研究》（Art Institute of Chicago Museum Studies）](../archives/museum-studies-art-institute-chicago.md) | 角色：期刊出版者；范围：期刊出版机构；不因此逐篇验证其全部文章；原断言与证据见发出端卡片“《芝加哥艺术博物馆研究》（Art Institute of Chicago Museum Studies）”：[来源](https://www.jstor.org/journal/artinstchicmuses)；archives-museum-studies-art-institute-chicago；JSTOR期刊页Published by |
-| ← 购入者（`acquirer_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 时间：1937；角色：购买方；范围：1937.68；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；provenance_text末句：purchased by Art Institute, 1937 |
+| ← 取得者（`acquirer_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 时间：1937；角色：购买方；范围：1937.68；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；provenance_text末句：purchased by Art Institute, 1937 |
 | ← 保管对象（`holder_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 范围：馆藏1937.68；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；馆方对象记录、main_reference_number |
 
 ### 关系候选入口

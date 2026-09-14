@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 503
-# sources: {'explicit': 502, 'inferred_by_rule': 1}
+# total: 552
+# sources: {'explicit': 551, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -744,6 +744,66 @@
   review_status: evidence_backed_relation
   role: gentiluomo d’onore荣衔授予者
   scope: 授予者全名及日期未明
+- source: persons/ernest-cognacq.md
+  source_type: person
+  target: persons/marie-louise-jay.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ernest-cognacq
+    source_file: https://www.museecognacqjay.paris.fr/en/museum/cognacq-jay-spouses
+    source_span: A remarkable example of commercial success：1871租约后的次年结婚
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1872结婚
+  role: 配偶
+  scope: 馆方传记明确结婚；不据艺术收藏关系反推婚姻
+- source: persons/ernest-cognacq.md
+  source_type: person
+  target: places/saint-martin-de-re.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ernest-cognacq
+    source_file: https://catalogue.bnf.fr/ark:/12148/cb161688058
+    source_span: Naissance
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1839-10-02'
+  role: 出生地
+  scope: 人物出生地点，未写成长期活动地
+- source: persons/ernest-cognacq.md
+  source_type: person
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ernest-cognacq
+    source_file: https://catalogue.bnf.fr/ark:/12148/cb161688058
+    source_span: Mort
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1928-02-21'
+  role: 去世地
+  scope: 巴黎第16区，死亡地点而非所有人生阶段居住地
 - source: persons/fabrizio-valguarnera.md
   source_type: person
   target: procedures/studio-stock-sale.md
@@ -1402,6 +1462,25 @@
   review_status: evidence_backed_relation
   role: master of ceremonies任命者
   scope: 任命范围限该职位
+- source: persons/john-finch.md
+  source_type: person
+  target: persons/carlo-dolci.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: The paintings’ current labels：Finch的befriended段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友
+  scope: Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据
 - source: persons/john-nicoll.md
   source_type: person
   target: institutions/yale-university-press.md
@@ -2037,6 +2116,25 @@
   review_status: evidence_backed_relation
   role: 装饰建议提供者
   scope: 未注明日期的Valmontone别墅装饰书信
+- source: persons/viviano-codazzi.md
+  source_type: person
+  target: persons/michelangelo-cerquozzi.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：amico pittore Viviano Codazzi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友
+  scope: 馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议
 - source: institutions/biblioteca-augusta.md
   source_type: institution
   target: places/perugia.md
@@ -2071,6 +2169,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: institutions/city-of-paris.md
+  source_type: institution
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-city-of-paris
+    source_file: https://parismuseescollections.paris.fr/en/the-musee-cognacq-jay
+    source_span: 馆藏概述：City of Paris
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 对应市政城市
+  scope: 遗赠行政主体对应巴黎城市；不是两个同类地理实体
 - source: institutions/colnaghi.md
   source_type: institution
   target: places/london.md
@@ -2204,6 +2321,26 @@
   time: '1946'
   role: 初始营业城市
   scope: 画廊初创时期所在城市，17–18 Old Bond Street
+- source: institutions/musee-cognacq-jay.md
+  source_type: institution
+  target: persons/ernest-cognacq.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-musee-cognacq-jay
+    source_file: https://www.museecognacqjay.paris.fr/en/museum/history-museum
+    source_span: The museum located Boulevard des Capucines
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1928遗赠；1929开馆
+  role: 创馆收藏遗赠者
+  scope: 遗赠收藏成为博物馆基础，博物馆1929开馆；不记本人1929在世任职
 - source: institutions/museo-correr.md
   source_type: institution
   target: places/venice.md
@@ -2726,6 +2863,82 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版40a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md
+  source_type: work
+  target: persons/agostino-masucci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Artist/Maker、Inventory number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘图者
+  scope: NMH 554/1863纸本黑粉笔素描
+- source: works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md
+  source_type: work
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Description
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘人物
+  scope: 画中正在绘制教宗肖像的莫拉；不代表此素描由莫拉创作
+- source: works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md
+  source_type: work
+  target: persons/alexander-vii.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: Description
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画中肖像的对象
+  scope: 莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇
+- source: works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md
+  source_type: work
+  target: institutions/national-museum-stockholm.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+    source_file: https://collection.nationalmuseum.se/en/collection/item/82794/
+    source_span: 对象题头、Inventory number、Collection
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: NMH 554/1863馆藏记录；不据馆藏号后缀推定取得日期
 - source: works/albani-servi-altarpiece-1639.md
   source_type: work
   target: persons/bonifazio-gozadini.md
@@ -2890,6 +3103,122 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Specifications：Artists、Accession number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘图者
+  scope: I 135 (PK)作者归属；馆方约1680年代仍待细化，不将其作为双方会面日期
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: persons/cassiano-dal-pozzo.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Title
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘对象
+  scope: 馆藏题名明确的漫画肖像人物
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: persons/franz-koenigs.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Specifications：Collector及Credits former Koenigs collection
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史收藏者
+  scope: 旧藏者身份，未载取得和转出年；不推定1940年直接赠予博物馆
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: institutions/museum-boymansvan-beuningen.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Specifications：Location、Department、Accession number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: I 135 (PK)馆藏与素描版画部门记录；现列库存，非当前展陈
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: institutions/museum-boymansvan-beuningen.md
+  target_type: institution
+  relation_type: borrowed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Specifications：Credits、Acquisition date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1940'
+  role: 借入机构
+  scope: 本件由Stichting出借进入博物馆；非捐赠或购入
+- source: works/bernini-caricature-of-cassiano-dal-pozzo.md
+  source_type: work
+  target: institutions/stichting-museum-boijmans-van-beuningen.md
+  target_type: institution
+  relation_type: lent_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-bernini-caricature-of-cassiano-dal-pozzo
+    source_file: https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo
+    source_span: Specifications：Credits Loan Stichting Museum Boijmans Van Beuningen
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1940'
+  role: 出借机构
+  scope: 本件1940借存的出借方；记录不单独证明基金会所有权
 - source: works/bernini-david.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -6136,6 +6465,163 @@
   time: 本轮来源访问时
   role: 保管机构
   scope: 现存
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: persons/carlo-dolci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Maker(s)、Dating
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1670
+  role: 画家
+  scope: PD.12-1972
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: persons/john-finch.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Titles、People depicted
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘人物
+  scope: PD.12-1972，不与贝恩斯肖像混合
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: persons/john-finch.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: Finch标签：commissioned not only this portrait and that of Baines
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 驻佛罗伦萨期间
+  role: 委托人
+  scope: Finch委托本人和Baines肖像；本边只指本人肖像
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: institutions/fitzwilliam-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Associated departments & institutions、Identification numbers
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: PD.12-1972保管馆
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: institutions/fitzwilliam-museum.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Legal notes、Acquisition and important dates
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1972'
+  role: 受赠接收馆
+  scope: 1972年赠入，区别旧藏流传及1947拍卖
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: institutions/national-art-collections-fund.md
+  target_type: institution
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Legal notes、Acquisition and important dates
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1972'
+  role: 赠出机构
+  scope: 将PD.12-1972赠入菲茨威廉博物馆
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: works/carlo-dolci-sir-thomas-baines.md
+  target_type: work
+  relation_type: pendant_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: 首段及两件作品标签
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 配对肖像
+  scope: 馆方明确两肖像成对；单侧记录，反向导航
+- source: works/carlo-dolci-sir-john-finch.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-john-finch
+    source_file: https://data.fitzmuseum.cam.ac.uk/id/object/922
+    source_span: Dating及Note：Painted in Florence
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1670
+  role: 创作城市
+  scope: 作画城市，不表示现藏所在地
 - source: works/carlo-dolci-sir-thomas-baines.md
   source_type: work
   target: institutions/royal-academy.md
@@ -6155,6 +6641,144 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版30b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: persons/carlo-dolci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: The paintings’ current labels：Baines
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1665–1670
+  role: 画家
+  scope: PD.13-1972贝恩斯肖像
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: persons/thomas-baines.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: The paintings’ current labels：Sir Thomas Baines
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘对象
+  scope: PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: persons/john-finch.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: The paintings’ current labels：Finch的commissioned段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 驻佛罗伦萨期间；作品约1665–1670
+  role: 委托人
+  scope: Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: institutions/fitzwilliam-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: 首段及Baines标签PD.13-1972
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: Baines标签：This portrait was painted in Florence
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1670
+  role: 创作城市
+  scope: 贝恩斯肖像创作城市；不表示现藏地点
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: institutions/fitzwilliam-museum.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-carlo-dolci-sir-thomas-baines
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: Baines标签：Given by the National Art-Collections Fund, 1972
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1972'
+  role: 受赠接收馆
+  scope: PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构
+- source: works/carlo-dolci-sir-thomas-baines.md
+  source_type: work
+  target: institutions/national-art-collections-fund.md
+  target_type: institution
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-national-art-collections-fund
+    source_file: https://www.museums.cam.ac.uk/magic/finch-and-baines
+    source_span: Baines标签：Given by the National Art-Collections Fund, 1972
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1972'
+  role: 赠出机构
+  scope: 将PD.13-1972赠入菲茨威廉博物馆
 - source: works/carlo-maratta-cardinal-antonio-barberini.md
   source_type: work
   target: institutions/royal-academy.md
@@ -6757,6 +7381,124 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: RKD图21所记保管机构；不视为与书中机构之间的转让
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: persons/michelangelo-cerquozzi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：commissionata、eseguì段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1647年底至1648年初
+  role: 画家
+  scope: 馆藏81；创作时段采用馆方说明，目录另记1648
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: persons/virgilio-spada.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613
+    source_span: Notizie storico critiche
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1648'
+  role: 委托人
+  scope: 馆藏81的具体委托；年粒度依国家目录
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: persons/virgilio-spada.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：collezione di pittura段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史收藏者
+  scope: 馆方明确曾属其绘画收藏，未记具体取得和转出日期
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: institutions/galleria-spada.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: 原书图版22b保管机构，区别斯帕达宫建筑
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: places/palazzo-spada.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613
+    source_span: 同源PDF第1页：LDC与LDCS Sala 4；2006更新
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2006年目录记录
+  role: 目录所载展陈建筑
+  scope: 馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置
+- source: works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：senza mai allontanarsi da Roma
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1647年底至1648年初
+  role: 创作城市
+  scope: 馆方称画家未离开罗马完成本件；创作地点而非起义发生地
 - source: works/mola-air-valmontone.md
   source_type: work
   target: works/mola-four-elements-valmontone.md
@@ -7336,6 +8078,65 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/rubens-the-feast-of-herod.md
+  source_type: work
+  target: persons/peter-paul-rubens.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rubens-the-feast-of-herod
+    source_file: https://www.nationalgalleries.org/art-and-artists/5382
+    source_span: Artist、Date、Accession number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1635–1638
+  role: 画家
+  scope: NG 2193布面油画
+- source: works/rubens-the-feast-of-herod.md
+  source_type: work
+  target: institutions/national-gallery-of-scotland.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 100–100; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书保管机构
+  scope: 原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点
+- source: works/rubens-the-feast-of-herod.md
+  source_type: work
+  target: places/naples.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rubens-the-feast-of-herod
+    source_file: https://www.nationalgalleries.org/art-and-artists/5382
+    source_span: More about this artwork：2015年说明的运抵那不勒斯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 至1640年
+  role: 历史到达城市
+  scope: 至1640年已运抵该城；未确定建筑或此后迁出时间
 - source: works/sacchi-capuchin-altarpiece-modello.md
   source_type: work
   target: persons/andrea-sacchi.md
@@ -7449,6 +8250,105 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者
+- source: works/tiepolo-banquet-cognacq-jay.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-cognacq-jay
+    source_file: https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre
+    source_span: Auteur(s)、Date de production、Numéro d’inventaire
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1742–1743
+  role: 画家
+  scope: J 104巴黎预备版本，区别墨尔本藏本
+- source: works/tiepolo-banquet-cognacq-jay.md
+  source_type: work
+  target: institutions/musee-cognacq-jay.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-cognacq-jay
+    source_file: https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre
+    source_span: Institution、Numéro d’inventaire
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: J 104保管机构
+- source: works/tiepolo-banquet-cognacq-jay.md
+  source_type: work
+  target: works/tiepolo-banquet-victoria.md
+  target_type: work
+  relation_type: model_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-cognacq-jay
+    source_file: https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre
+    source_span: Commentaire historique
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1742–1743
+  role: 预备版本
+  scope: 馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品
+- source: works/tiepolo-banquet-cognacq-jay.md
+  source_type: work
+  target: institutions/city-of-paris.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: J 104遗赠者与1928取得记录：https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre
+  evidence_ref:
+    doc_id: cognacq-jay-museum-history
+    source_file: https://www.museecognacqjay.paris.fr/en/museum/history-museum
+    source_span: The museum located Boulevard des Capucines：City of Paris为遗赠受益主体；具体J 104见本卡取得记录
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1928'
+  role: 遗赠受益主体
+  scope: J 104随Cognacq收藏于1928年遗赠给巴黎市；Musée Cognacq-Jay为保管馆，1929年开馆
+- source: works/tiepolo-banquet-cognacq-jay.md
+  source_type: work
+  target: persons/ernest-cognacq.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-cognacq-jay
+    source_file: https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre
+    source_span: Nom du donateur, testateur, vendeur、Date d’acquisition
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1928'
+  role: 遗赠者
+  scope: J 104具体遗赠者，区别夫妻共同形成收藏的总体表述
 - source: works/tiepolo-banquet-victoria.md
   source_type: work
   target: institutions/royal-academy.md
@@ -7468,6 +8368,65 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版61b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/tiepolo-banquet-victoria.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-victoria
+    source_file: https://www.ngv.vic.gov.au/explore/collection/work/4409/
+    source_span: 题头及Accession Number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1743–1744
+  role: 画家
+  scope: 103-4墨尔本藏本，区别巴黎J 104
+- source: works/tiepolo-banquet-victoria.md
+  source_type: work
+  target: institutions/national-gallery-of-victoria.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-victoria
+    source_file: https://www.ngv.vic.gov.au/explore/collection/work/4409/
+    source_span: Credit Line、Gallery location、Accession Number
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 保管机构
+  scope: 103-4馆藏；具体馆内展室随目录时点，不作所有年代定位
+- source: works/tiepolo-banquet-victoria.md
+  source_type: work
+  target: institutions/national-gallery-of-victoria.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-banquet-victoria
+    source_file: https://www.ngv.vic.gov.au/explore/collection/work/4409/
+    source_span: Credit Line及Frame：acquired by the National Gallery of Victoria in 1933
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1933'
+  role: 取得机构
+  scope: 103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画
 - source: works/valentin-genre-commission.md
   source_type: work
   target: persons/valentin.md

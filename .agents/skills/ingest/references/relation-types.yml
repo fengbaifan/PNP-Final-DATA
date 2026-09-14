@@ -16,6 +16,8 @@ types:
   - authored_by
   - borrowed_by
   - borrower_of
+  - lent_by
+  - lender_of
   - challenged_by
   - challenges_claim
   - cited_by
@@ -139,6 +141,8 @@ inverse:
   authored_by: author_of
   borrowed_by: borrower_of
   borrower_of: borrowed_by
+  lent_by: lender_of
+  lender_of: lent_by
   challenged_by: challenges_claim
   challenges_claim: challenged_by
   cited_by: cites

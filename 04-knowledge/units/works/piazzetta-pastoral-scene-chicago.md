@@ -105,13 +105,12 @@ relations:
 [馆方作品23333](https://www.artic.edu/artworks/23333/pastoral-scene)；[馆方API完整元数据](https://api.artic.edu/api/v1/artworks/23333)（S1）；[SIRBeC配对依据](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)（S2）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 配对作品（`pendant_of`，反向投影） | [田园（Idyll）](piazzetta-idyll.md) | 角色：配对画作；范围：科隆2806与芝加哥1937.68；后者身份由馆方23333记录核对；原断言与证据见发出端卡片“田园（Idyll）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF5：Idillio与Scena pastorale配对说明 |
 | → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 时间：1740；角色：画家；范围：1937.68；证据：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；artist_display、date_display |
 | → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：不晚于1743；角色：委托人；范围：1937.68；1743年清单已有记录；证据：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；description、provenance_text首句 |
-| → 由其购入（`acquired_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：1937；角色：购买方；范围：1937.68；证据：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；provenance_text末句：purchased by Art Institute, 1937 |
+| → 由其取得（`acquired_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：1937；角色：购买方；范围：1937.68；证据：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；provenance_text末句：purchased by Art Institute, 1937 |
 | → 由其保管（`held_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 范围：馆藏1937.68；证据：[来源](https://api.artic.edu/api/v1/artworks/23333)；aic-23333；馆方对象记录、main_reference_number |
 
 ### 关系候选入口

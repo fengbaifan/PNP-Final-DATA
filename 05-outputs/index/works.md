@@ -92,6 +92,7 @@
 - [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](../../04-knowledge/units/works/caravaggio-taking-christ-dublin.md)
 - [《逮捕基督》（敖德萨复制品）（The Taking of Christ (Odesa copy)）](../../04-knowledge/units/works/caravaggio-taking-christ-odesa.md)
 - [《生病的巴克斯》（Young Sick Bacchus）](../../04-knowledge/units/works/caravaggio-young-sick-bacchus.md)
+- [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../../04-knowledge/units/works/carlo-dolci-sir-john-finch.md)
 - [托马斯·贝恩斯（Sir Thomas Baines）](../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md)
 - [安东尼奥·巴贝里尼枢机（Cardinal Antonio Barberini）](../../04-knowledge/units/works/carlo-maratta-cardinal-antonio-barberini.md)
 - [查尔斯·福克斯肖像（Portrait of Charles Fox）](../../04-knowledge/units/works/carlo-maratta-charles-fox.md)

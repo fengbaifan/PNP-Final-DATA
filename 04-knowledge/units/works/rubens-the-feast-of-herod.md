@@ -18,15 +18,52 @@ sources:
   location: 完整对象字段、About及More about；后者原刊2015年馆藏选集
   sentence_summary: Rubens布面油画，约1635–1638年，1958年购入，NG 2193；馆方认为可能由在那不勒斯经商的Gaspar Roomer委托，1640年前已到那不勒斯。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏机构与图版版本集中核对
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏作品创作收藏与借存关系定稿
+relations:
+- relation_type: created_by
+  target: persons/peter-paul-rubens.md
+  evidence_ref:
+    doc_id: works-rubens-the-feast-of-herod
+    source_file: https://www.nationalgalleries.org/art-and-artists/5382
+    source_span: Artist、Date、Accession number
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: NG 2193布面油画
+  role: 画家
+  time: 约1635–1638
+- relation_type: held_by
+  target: institutions/national-gallery-of-scotland.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 100–100; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点
+  role: 原书保管机构
+- relation_type: located_at
+  target: places/naples.md
+  evidence_ref:
+    doc_id: works-rubens-the-feast-of-herod
+    source_file: https://www.nationalgalleries.org/art-and-artists/5382
+    source_span: More about this artwork：2015年说明的运抵那不勒斯段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 至1640年已运抵该城；未确定建筑或此后迁出时间
+  role: 历史到达城市
+  time: 至1640年
 ---
+
 
 ## 内容
 
 ### 描述
 
-**中文：** 鲁本斯约1635–1638年创作的布面油画，以希律王宴会为题，1958年被苏格兰国家美术馆购入。
+**中文：** 鲁本斯约1635–1638年创作的布面油画，以希律王宴会为题，1958年购入苏格兰国家收藏。
 
 **English:** An oil painting on canvas by Rubens, dated about 1635–1638, depicting the feast of Herod and purchased for the Scottish national collection in 1958.
 
@@ -72,7 +109,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [彼得·保罗·鲁本斯（Peter Paul Rubens）](../persons/peter-paul-rubens.md) | 时间：约1635–1638；角色：画家；范围：NG 2193布面油画；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；Artist、Date、Accession number |
+| → 由其保管（`held_by`） | [苏格兰国家美术馆（Scottish National Gallery）](../institutions/national-gallery-of-scotland.md) | 角色：原书保管机构；范围：原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 100–100; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：至1640年；角色：历史到达城市；范围：至1640年已运抵该城；未确定建筑或此后迁出时间；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；More about this artwork：2015年说明的运抵那不勒斯段 |
 
 ### 关系候选入口
 

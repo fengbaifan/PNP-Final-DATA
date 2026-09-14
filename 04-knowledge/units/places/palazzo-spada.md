@@ -44,7 +44,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 时间：2006年目录记录；角色：目录所载展陈建筑；范围：馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；同源PDF第1页：LDC与LDCS Sala 4；2006更新 |
 
 ### 关系候选入口
 

@@ -21,9 +21,81 @@ sources:
   location: 完整作品说明两段与题头；公开网页HTTP读取
   sentence_summary: 作品由Virgilio Spada（1596–1662）收藏并委托；1647年底至1648年初在罗马完成。馆方肯定Codazzi绘建筑背景，与ICCD推测语气不同；尺寸184×186厘米与ICCD数值不一致。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏机构与图版版本集中核对
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏作品创作收藏与借存关系定稿
+relations:
+- relation_type: created_by
+  target: persons/michelangelo-cerquozzi.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：commissionata、eseguì段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆藏81；创作时段采用馆方说明，目录另记1648
+  role: 画家
+  time: 1647年底至1648年初
+- relation_type: commissioned_by
+  target: persons/virgilio-spada.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613
+    source_span: Notizie storico critiche
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆藏81的具体委托；年粒度依国家目录
+  role: 委托人
+  time: '1648'
+- relation_type: owned_by
+  target: persons/virgilio-spada.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：collezione di pittura段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆方明确曾属其绘画收藏，未记具体取得和转出日期
+  role: 历史收藏者
+- relation_type: held_by
+  target: institutions/galleria-spada.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书图版22b保管机构，区别斯帕达宫建筑
+  role: 保管机构
+- relation_type: installed_at
+  target: places/palazzo-spada.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613
+    source_span: 同源PDF第1页：LDC与LDCS Sala 4；2006更新
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置
+  role: 目录所载展陈建筑
+  time: 2006年目录记录
+- relation_type: located_at
+  target: places/rome.md
+  evidence_ref:
+    doc_id: works-michelangelo-cerquozzi-the-revolt-of-masaniello
+    source_file: https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/
+    source_span: 作品说明：senza mai allontanarsi da Roma
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 馆方称画家未离开罗马完成本件；创作地点而非起义发生地
+  role: 创作城市
+  time: 1647年底至1648年初
 ---
+
 
 ## 内容
 
@@ -80,7 +152,14 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 时间：1647年底至1648年初；角色：画家；范围：馆藏81；创作时段采用馆方说明，目录另记1648；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：commissionata、eseguì段 |
+| → 由其委托（`commissioned_by`） | [维尔吉利奥·斯帕达（Virgilio Spada）](../persons/virgilio-spada.md) | 时间：1648；角色：委托人；范围：馆藏81的具体委托；年粒度依国家目录；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；Notizie storico critiche |
+| → 由其收藏／拥有（`owned_by`） | [维尔吉利奥·斯帕达（Virgilio Spada）](../persons/virgilio-spada.md) | 角色：历史收藏者；范围：馆方明确曾属其绘画收藏，未记具体取得和转出日期；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：collezione di pittura段 |
+| → 由其保管（`held_by`） | [斯帕达美术馆（Galleria Spada）](../institutions/galleria-spada.md) | 角色：保管机构；范围：原书图版22b保管机构，区别斯帕达宫建筑；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; 章前：图版目录；印刷页xiii |
+| → 安置于（`installed_at`） | [斯帕达宫（Palazzo Spada）](../places/palazzo-spada.md) | 时间：2006年目录记录；角色：目录所载展陈建筑；范围：馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；同源PDF第1页：LDC与LDCS Sala 4；2006更新 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1647年底至1648年初；角色：创作城市；范围：馆方称画家未离开罗马完成本件；创作地点而非起义发生地；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：senza mai allontanarsi da Roma |
 
 ### 关系候选入口
 

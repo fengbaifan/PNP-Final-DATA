@@ -122,7 +122,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](../works/tiepolo-banquet-cognacq-jay.md) | 时间：1742–1743；角色：画家；范围：J 104巴黎预备版本，区别墨尔本藏本；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Auteur(s)、Date de production、Numéro d’inventaire |
+| ← 所创作对象（`creator_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 时间：1743–1744；角色：画家；范围：103-4墨尔本藏本，区别巴黎J 104；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；题头及Accession Number |
 
 ### 关系候选入口
 

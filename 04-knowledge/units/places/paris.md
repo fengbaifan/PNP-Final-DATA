@@ -47,10 +47,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [巴黎市政当局（City of Paris）](../institutions/city-of-paris.md) | 角色：对应市政城市；范围：遗赠行政主体对应巴黎城市；不是两个同类地理实体；原断言与证据见发出端卡片“巴黎市政当局（City of Paris）”：[来源](https://parismuseescollections.paris.fr/en/the-musee-cognacq-jay)；institutions-city-of-paris；馆藏概述：City of Paris |
 | ← 所在地（`location_of`，反向投影） | [法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）](../institutions/service-de-documentation-photographique-des-musees-nationaux.md) | 范围：本书供片署名所列巴黎；不推定今日地址；原断言与证据见发出端卡片“法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
+| ← 所在地（`location_of`，反向投影） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1928-02-21；角色：去世地；范围：巴黎第16区，死亡地点而非所有人生阶段居住地；原断言与证据见发出端卡片“泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）”：[来源](https://catalogue.bnf.fr/ark:/12148/cb161688058)；persons-ernest-cognacq；Mort |
 
 ### 关系候选入口
 

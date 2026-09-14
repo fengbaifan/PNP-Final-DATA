@@ -1,4 +1,4 @@
-# 当前有效成果：886 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：892 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -89,6 +89,7 @@ units:
 - 04-knowledge/units/institutions/capitoline-museums.md
 - 04-knowledge/units/institutions/capuchins.md
 - 04-knowledge/units/institutions/chatto-and-windus.md
+- 04-knowledge/units/institutions/city-of-paris.md
 - 04-knowledge/units/institutions/clark-art-institute.md
 - 04-knowledge/units/institutions/colnaghi.md
 - 04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md
@@ -134,6 +135,7 @@ units:
 - 04-knowledge/units/institutions/museum-boymansvan-beuningen.md
 - 04-knowledge/units/institutions/museum-of-fine-arts-houston.md
 - 04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md
+- 04-knowledge/units/institutions/national-art-collections-fund.md
 - 04-knowledge/units/institutions/national-gallery-london.md
 - 04-knowledge/units/institutions/national-gallery-of-ireland.md
 - 04-knowledge/units/institutions/national-gallery-of-scotland.md
@@ -281,6 +283,7 @@ units:
 - 04-knowledge/units/persons/ellis-waterhouse.md
 - 04-knowledge/units/persons/enzo-crea.md
 - 04-knowledge/units/persons/ermete-cavalletti.md
+- 04-knowledge/units/persons/ernest-cognacq.md
 - 04-knowledge/units/persons/fabrizio-arragona.md
 - 04-knowledge/units/persons/fabrizio-valguarnera.md
 - 04-knowledge/units/persons/federigo-zuccari.md
@@ -402,6 +405,7 @@ units:
 - 04-knowledge/units/persons/marco-pitteri.md
 - 04-knowledge/units/persons/marco-ricci.md
 - 04-knowledge/units/persons/marianne-roland-michel.md
+- 04-knowledge/units/persons/marie-louise-jay.md
 - 04-knowledge/units/persons/marieschi.md
 - 04-knowledge/units/persons/mario-de-fiori.md
 - 04-knowledge/units/persons/mario-minnitti.md
@@ -601,6 +605,7 @@ units:
 - 04-knowledge/units/places/s-ignazio.md
 - 04-knowledge/units/places/s-maria-del-giglio.md
 - 04-knowledge/units/places/s-sabina.md
+- 04-knowledge/units/places/saint-martin-de-re.md
 - 04-knowledge/units/places/san-clemente-rome.md
 - 04-knowledge/units/places/san-luigi-dei-francesi.md
 - 04-knowledge/units/places/san-sebastiano-palatine.md
@@ -776,6 +781,7 @@ units:
 - 04-knowledge/units/works/caravaggio-taking-christ-dublin.md
 - 04-knowledge/units/works/caravaggio-taking-christ-odesa.md
 - 04-knowledge/units/works/caravaggio-young-sick-bacchus.md
+- 04-knowledge/units/works/carlo-dolci-sir-john-finch.md
 - 04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md
 - 04-knowledge/units/works/carlo-maratta-cardinal-antonio-barberini.md
 - 04-knowledge/units/works/carlo-maratta-charles-fox.md

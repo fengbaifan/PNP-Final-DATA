@@ -1,5 +1,5 @@
 generated: '2026-09-15'
-total: 752
+total: 757
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -587,6 +587,12 @@ index:
   type: persons
   name_en: Ermete Cavalletti
   title: 埃尔梅特·卡瓦莱蒂（Ermete Cavalletti）
+  name_original: ''
+  language_original: ''
+- slug: persons/ernest-cognacq
+  type: persons
+  name_en: Théodore-Ernest Cognacq
+  title: 泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）
   name_original: ''
   language_original: ''
 - slug: persons/fabrizio-arragona
@@ -1331,6 +1337,12 @@ index:
   type: persons
   name_en: Marianne Roland-Michel
   title: 玛丽安娜·罗兰-米歇尔（Marianne Roland-Michel）
+  name_original: ''
+  language_original: ''
+- slug: persons/marie-louise-jay
+  type: persons
+  name_en: Marie-Louise Jaÿ
+  title: 玛丽—路易丝·杰（Marie-Louise Jaÿ）
   name_original: ''
   language_original: ''
 - slug: persons/marieschi
@@ -3103,6 +3115,12 @@ index:
   title: 《生病的巴克斯》（Young Sick Bacchus）
   name_original: ''
   language_original: ''
+- slug: works/carlo-dolci-sir-john-finch
+  type: works
+  name_en: Portrait of Sir John Finch
+  title: 约翰·芬奇爵士肖像（Portrait of Sir John Finch）
+  name_original: ''
+  language_original: ''
 - slug: works/carlo-dolci-sir-thomas-baines
   type: works
   name_en: Sir Thomas Baines
@@ -3931,6 +3949,12 @@ index:
   title: 查托与温达斯出版社（Chatto and Windus）
   name_original: ''
   language_original: ''
+- slug: institutions/city-of-paris
+  type: institutions
+  name_en: City of Paris
+  title: 巴黎市政当局（City of Paris）
+  name_original: ''
+  language_original: ''
 - slug: institutions/clark-art-institute
   type: institutions
   name_en: Clark Art Institute
@@ -4199,6 +4223,12 @@ index:
   type: institutions
   name_en: Museum Schloss Wilhelmshöhe
   title: 威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-art-collections-fund
+  type: institutions
+  name_en: National Art Collections Fund
+  title: 国家艺术收藏基金（National Art Collections Fund）
   name_original: ''
   language_original: ''
 - slug: institutions/national-gallery-london
