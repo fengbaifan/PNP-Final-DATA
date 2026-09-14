@@ -61,7 +61,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [弗兰科·文图里（Franco Venturi）](../persons/franco-venturi.md) | 时间：1994-12-14；角色：去世；范围：去世地；原断言与证据见发出端卡片“弗兰科·文图里（Franco Venturi）”：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
 
 ### 身份与外部链接
 

@@ -62,7 +62,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [马尔科·基亚里尼（Marco Chiarini）](../persons/marco-chiarini.md) | 时间：1969–2000；角色：馆长；范围：帕拉蒂纳馆务任期；原断言与证据见发出端卡片“马尔科·基亚里尼（Marco Chiarini）”：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
 
 ### 关系候选入口
 

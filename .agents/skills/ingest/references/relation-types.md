@@ -39,6 +39,7 @@ relations:
 |---|---|---|
 | 通信 | `addressed_to` | archive → 收信人；作者仍用`authored_by`，通信双方的长期往来才另用`corresponded_with` |
 | 师承／合作／雇佣 | `trained_by`、`collaborated_with`、`employed_by` | person → 教师／合作者／雇主；同一对人物可在不同时段有多种关系 |
+| 教育 | `educated_at`／`education_of` | person → 就读机构；role保留学习阶段或学位，time保留入学／毕业或就读期间。仅有入学年不推定毕业，不与个人师承、雇佣或院士成员身份混合；反向只作导航。 |
 | 委托／赞助／创作 | `commissioned_by`、`patronized_by`、`created_by` | work → 委托人／赞助人／创作者；仅有合同对象时用scope明确未锁定存世版本 |
 | 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | work → 所有人／取得者／市场经手机构；三者不得互换 |
 | 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点，须保留适用时间或来源时点 |

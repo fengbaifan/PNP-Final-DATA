@@ -42,7 +42,7 @@ sources:
   location: Munby Papers；ANLM
   sentence_summary: 档案主体为Alan Noel Latimer（Tim）Munby，1913–1974；姓名缩写与原书A. N. L. Munby对应。
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-09-15'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
@@ -94,7 +94,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：解决研究问题；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 朋友（`friend_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1979年序言回顾；角色：亲近朋友；范围：第二版序言明确very close friends，写序时两人已故；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| ← 向其建议（`advised`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：写作期间；角色：写作咨询；范围：第二版序言称写作时经常求教，不指定未载的具体建议；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

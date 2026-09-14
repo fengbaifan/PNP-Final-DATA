@@ -43,7 +43,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [加埃塔诺·科齐（Gaetano Cozzi）](../persons/gaetano-cozzi.md) | 时间：1960–1965；1970–1998；角色：教师；范围：两个不连续任教时段；不覆盖1966–1969帕多瓦阶段；原断言与证据见发出端卡片“加埃塔诺·科齐（Gaetano Cozzi）”：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
 
 ### 关系候选入口
 

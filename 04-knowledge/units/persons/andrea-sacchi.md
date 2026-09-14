@@ -141,6 +141,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：研究对象；范围：书目题名及内容说明中的研究人物；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
 | ← 参与事件（`participated_in`，反向投影） | [萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）](../events/sacchi-household-promotion-1640.md) | 1640 年晋级事件的画家主体；时间：1640；角色：晋级的画家；范围：Antonio Barberini家户薪俸等级晋升；原断言与证据见发出端卡片“萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
 | → 受雇于（`employed_by`） | [安东尼奥·巴贝里尼（Antonio Barberini）](antonio-barberini.md) | 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级；时间：1637–1640；角色：家户受俸画家；范围：1640年升入最高受俸者等级；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
 | → 隶属／任职于（`member_of`） | [巴贝里尼家族及家户（Barberini Family and Households）](../institutions/barberini-household.md) | 此处家户成员为 Antonio 的服务组织，非血缘成员；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |

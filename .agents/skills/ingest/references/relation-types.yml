@@ -92,6 +92,8 @@ types:
   - published_by
   - publisher_of
   - employed_by
+  - educated_at
+  - education_of
   - employer_of
   - renamed_from
   - replaces
@@ -216,6 +218,8 @@ inverse:
   publisher_of: published_by
   employed_by: employer_of
   employer_of: employed_by
+  educated_at: education_of
+  education_of: educated_at
   scene_of: occurred_at
   source_of: derived_from
   subject_of: has_subject

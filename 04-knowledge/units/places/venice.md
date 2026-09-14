@@ -312,11 +312,12 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：出版地；范围：出版地点，不表示现藏实体册位置；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
 | ← 所在地（`location_of`，反向投影） | [科雷尔图书馆（Correr Library）](../institutions/correr-library.md) | 范围：第一版序言所述研究场所所在地；原断言与证据见发出端卡片“科雷尔图书馆（Correr Library）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–23; 章前：第一版序言；印刷页ix；PDF 7 |
 | ← 所在地（`location_of`，反向投影） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 范围：图版48b–48d所列科雷尔博物馆城市；原断言与证据见发出端卡片“科雷尔博物馆（Museo Correr）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 所在地（`location_of`，反向投影） | [加埃塔诺·科齐（Gaetano Cozzi）](../persons/gaetano-cozzi.md) | 时间：2001-03-15；角色：去世；范围：去世地；原断言与证据见发出端卡片“加埃塔诺·科齐（Gaetano Cozzi）”：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
 
 ### 身份与外部链接
 

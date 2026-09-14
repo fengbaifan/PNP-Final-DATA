@@ -44,8 +44,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Pitt教育字段](https://www.haa.pitt.edu/people/ann-sutherland-harris)（S1）；[UVA任命新闻](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)（S2）。
 
 ### 关系记录
-
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 提供教育（`education_of`，反向投影） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 角色：博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“安·萨瑟兰·哈里斯（Ann Sutherland Harris）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；persons-ann-sutherland-harris；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| ← 雇主（`employer_of`，反向投影） | [安东尼·弗雷德里克·布伦特（Anthony Frederick Blunt）](../persons/anthony-blunt.md) | 时间：1947年就任；角色：院长／Director；范围：院长任命；本来源未采用离任年；原断言与证据见发出端卡片“安东尼·弗雷德里克·布伦特（Anthony Frederick Blunt）”：[来源](https://www.npg.org.uk/collections/search/person/mp12247/anthony-frederick-blunt)；persons-anthony-blunt；姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录 |
+| ← 提供教育（`education_of`，反向投影） | [布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）](../persons/bruce-boucher.md) | 角色：硕士与博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）”：[来源](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)；persons-bruce-boucher；完整大学任命新闻正文；可见页未显示明确发布日期 |
 
 ### 关系候选入口
 

@@ -81,6 +81,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [安东尼·莫里斯·克拉克（Anthony Morris Clark）](../persons/anthony-clark.md) | 时间：1973–1975；角色：欧洲绘画策展人；范围：欧洲绘画部门任职；原断言与证据见发出端卡片“安东尼·莫里斯·克拉克（Anthony Morris Clark）”：[来源](https://www.getty.edu/research/collections/static/pdf/2023.M.59.pdf)；persons-anthony-clark；PDF p.4 Biographical Note |
 | ← 保管对象（`holder_of`，反向投影） | [《圣彼得不认主》（The Denial of Saint Peter）](../works/caravaggio-denial-saint-peter.md) | 当前对象记录将The Denial of Saint Peter列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣彼得不认主》（The Denial of Saint Peter）”：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；held-by-institutions-metropolitan-museum-of-art-md；本卡S2；有S4时并参对象字段 |
 | ← 保管对象（`holder_of`，反向投影） | [《音乐家们》（The Musicians）](../works/caravaggio-musicians.md) | 当前对象记录将The Musicians列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《音乐家们》（The Musicians）”：[来源](https://en.wikipedia.org/wiki/The_Musicians_(Caravaggio))；held-by-institutions-metropolitan-museum-of-art-md；本卡S2；有S4时并参对象字段 |
 

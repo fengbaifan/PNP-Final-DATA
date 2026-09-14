@@ -41,7 +41,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [弗兰科·文图里（Franco Venturi）](../persons/franco-venturi.md) | 时间：1958年后至1984；角色：近代史教席；范围：Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期；原断言与证据见发出端卡片“弗兰科·文图里（Franco Venturi）”：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
 
 ### 关系候选入口
 

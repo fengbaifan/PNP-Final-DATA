@@ -114,12 +114,15 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：出版地；范围：出版地点，不表示现藏实体册位置；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
 | ← 所在地（`location_of`，反向投影） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 书中所记 1961 年画商目录所在地；原断言与证据见发出端卡片“科尔纳吉画廊（Colnaghi's）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 | ← 所在地（`location_of`，反向投影） | [马尔伯勒美术公司（Marlborough Fine Art Ltd）](../institutions/marlborough-fine-art-ltd.md) | 时间：1946；角色：初始营业城市；范围：画廊初创时期所在城市，17–18 Old Bond Street；原断言与证据见发出端卡片“马尔伯勒美术公司（Marlborough Fine Art Ltd）”：[来源](https://marlborougharchive.com/history-marlborough-gallery)；institutions-marlborough-fine-art-ltd；1946年创办两段 |
 | ← 所在地（`location_of`，反向投影） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 时间：1960年目录记录；范围：1960展览目录责任机构所列城市；不表示本书供片来自该展览；原断言与证据见发出端卡片“皇家艺术研究院（Royal Academy of Arts）”：[来源](https://www.nationaltrustcollections.org.uk/object/3119476)；institutions-royal-academy；Makers and roles：Royal Academy of Arts, London |
 | ← 所在地（`location_of`，反向投影） | [瓦尔堡研究院图书馆（Library of the Warburg Institute）](../institutions/warburg-institute-library.md) | 范围：第一版序言所述图书馆所在地；原断言与证据见发出端卡片“瓦尔堡研究院图书馆（Library of the Warburg Institute）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
 | ← 所在地（`location_of`，反向投影） | [瓦尔堡研究院（Warburg Institute）](../institutions/warburg-institute.md) | 时间：1933起；角色：迁入城市；范围：1933年迁入伦敦；不由此确定各阶段街道地址；原断言与证据见发出端卡片“瓦尔堡研究院（Warburg Institute）”：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；institutions-warburg-institute；首段及The Move to London |
 | ← 所在地（`location_of`，反向投影） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1961起；角色：伦敦分部；范围：1961年设伦敦分部；不是纽黑文总部搬迁至伦敦；原断言与证据见发出端卡片“耶鲁大学出版社（Yale University Press）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；II. Growth and Diversification，1961段 |
+| ← 所在地（`location_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 时间：1928-04-07；角色：出生；范围：出生地；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-francis-haskell；印刷p.227 |
+| ← 所在地（`location_of`，反向投影） | [英国国家学术院（British Academy）](../institutions/british-academy.md) | 角色：所在地；范围：机构所在地；原断言与证据见发出端卡片“英国国家学术院（British Academy）”：[来源](https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/)；institutions-british-academy；个人记录全部字段及机构页脚 |
 
 ### 身份与外部链接
 

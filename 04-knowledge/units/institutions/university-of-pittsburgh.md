@@ -40,7 +40,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 角色：艺术史教授；范围：校方教师页面任职身份；未补造任期；原断言与证据见发出端卡片“安·萨瑟兰·哈里斯（Ann Sutherland Harris）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；persons-ann-sutherland-harris；完整教师页面：研究、教育、项目与出版清单；未下载CV |
 
 ### 关系候选入口
 

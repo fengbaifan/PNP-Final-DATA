@@ -45,6 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [拉里萨·萨尔米娜（Larissa Salmina）](../persons/larissa-dedicatee.md) | 时间：1962年时点；角色：威尼斯素描策展人；范围：1962年相识时职务；不推定完整任期；原断言与证据见发出端卡片“拉里萨·萨尔米娜（Larissa Salmina）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-larissa-dedicatee；印刷p.232 |
 | ← 保管对象（`holder_of`，反向投影） | [《鲁特琴演奏者》（艾尔米塔什版本）（The Lute Player (Hermitage version)）](../works/caravaggio-lute-player-hermitage.md) | 当前对象记录将The Lute Player (Hermitage version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《鲁特琴演奏者》（艾尔米塔什版本）（The Lute Player (Hermitage version)）”：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；held-by-institutions-hermitage-museum-md；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接

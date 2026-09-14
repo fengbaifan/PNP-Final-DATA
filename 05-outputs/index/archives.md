@@ -48,6 +48,7 @@
 - [普瓦松1708年论罗马绘画报酬的信（Poerson's 1708 letter on rewards for painting in Rome）](../../04-knowledge/units/archives/poerson-letter-1708.md)
 - [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../../04-knowledge/units/archives/quarisimini-carrara-letter-1696.md)
 - [里奇《施洗者约翰斩首》的委托条款（1682）（Terms for Ricci's Beheading of Saint John the Baptist (1682)）](../../04-knowledge/units/archives/ricci-bologna-terms-1682.md)
+- [夏尔丹（罗兰-米歇尔1994年专著）（Chardin (Roland-Michel, 1994)）](../../04-knowledge/units/archives/roland-michel-chardin-1994.md)
 - [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../../04-knowledge/units/archives/rosa-ruffo-letter-1666.md)
 - [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../../04-knowledge/units/archives/salviati-medici-letter-1662.md)
 - [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../../04-knowledge/units/archives/savini-gubbio-terms-1608.md)

@@ -49,7 +49,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [费顿出版社（Phaidon）](../institutions/phaidon.md) | 角色：创办地；范围：官网称在维也纳创办，未用相对时间倒算成立年；原断言与证据见发出端卡片“费顿出版社（Phaidon）”：[来源](https://www.phaidon.com/en-int/pages/our-company)；institutions-phaidon；完整About Phaidon段及相关品牌概述；无下载全目录 |
 
 ### 关系候选入口
 

@@ -104,6 +104,8 @@ LABELS = {
     "testified_about": "为其相关争议作证",
     "testimony_subject_of": "证词所涉对象",
     "trained_by": "师从／受训于",
+    "educated_at": "就读于",
+    "education_of": "提供教育",
     "teacher_of": "教师",
     "uses_procedure": "采用程序",
     "procedure_used_by": "程序使用者",

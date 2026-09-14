@@ -1,4 +1,3 @@
-# 当前有效成果：892 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -892,6 +891,14 @@ units:
 - 04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md
 - 04-knowledge/units/works/velasquez-camillo-massimi.md
 - 04-knowledge/units/works/velasquez-juan-de-pareja.md
+- 04-knowledge/units/institutions/british-academy.md
+- 04-knowledge/units/institutions/columbia-university.md
+- 04-knowledge/units/institutions/academie-francaise.md
+- 04-knowledge/units/institutions/hazan.md
+- 04-knowledge/units/archives/roland-michel-chardin-1994.md
+- 04-knowledge/units/institutions/phaidon.md
+- 04-knowledge/units/institutions/american-academy-of-arts-and-sciences.md
+- 04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks

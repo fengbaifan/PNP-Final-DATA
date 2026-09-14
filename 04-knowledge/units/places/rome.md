@@ -655,6 +655,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 事件地点（`scene_of`，反向投影） | [画家帮成立（1623）（Formation of the Schildersbent (1623)）](../events/schildersbent-formation-1623.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；原断言与证据见发出端卡片“画家帮成立（1623）（Formation of the Schildersbent (1623)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
 | ← 所在地（`location_of`，反向投影） | [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../institutions/biblioteca-casanatense.md) | 书中明确图书馆位于 Rome；原断言与证据见发出端卡片“卡萨纳滕塞图书馆（Biblioteca Casanatense）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+| ← 所在地（`location_of`，反向投影） | [弗兰科·文图里（Franco Venturi）](../persons/franco-venturi.md) | 时间：1914-05-16；角色：出生；范围：出生地；原断言与证据见发出端卡片“弗兰科·文图里（Franco Venturi）”：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
+| ← 所在地（`location_of`，反向投影） | [马尔科·基亚里尼（Marco Chiarini）](../persons/marco-chiarini.md) | 时间：1933-09-01；角色：出生；范围：出生地；原断言与证据见发出端卡片“马尔科·基亚里尼（Marco Chiarini）”：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
 | ← 所在地（`location_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 时间：1647年底至1648年初；角色：创作城市；范围：馆方称画家未离开罗马完成本件；创作地点而非起义发生地；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：senza mai allontanarsi da Roma |
 
 ### 身份与外部链接

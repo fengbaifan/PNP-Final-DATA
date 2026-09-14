@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 552
-# sources: {'explicit': 551, 'inferred_by_rule': 1}
+# total: 633
+# sources: {'explicit': 632, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -188,6 +188,84 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/ann-sutherland-harris.md
+  source_type: person
+  target: institutions/courtauld-institute-of-art.md
+  target_type: institution
+  relation_type: educated_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ann-sutherland-harris
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 博士学位教育
+  scope: 就读机构；不混为受雇、组织院士或个人师承
+- source: persons/ann-sutherland-harris.md
+  source_type: person
+  target: institutions/university-of-pittsburgh.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ann-sutherland-harris
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 艺术史教授
+  scope: 校方教师页面任职身份；未补造任期
+- source: persons/anthony-blunt.md
+  source_type: person
+  target: institutions/courtauld-institute-of-art.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-anthony-blunt
+    source_file: https://www.npg.org.uk/collections/search/person/mp12247/anthony-frederick-blunt
+    source_span: 姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1947年就任
+  role: 院长／Director
+  scope: 院长任命；本来源未采用离任年
+- source: persons/anthony-clark.md
+  source_type: person
+  target: institutions/metropolitan-museum-of-art.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-anthony-clark
+    source_file: https://www.getty.edu/research/collections/static/pdf/2023.M.59.pdf
+    source_span: PDF p.4 Biographical Note
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1973–1975
+  role: 欧洲绘画策展人
+  scope: 欧洲绘画部门任职
 - source: persons/artemisia-gentileschi.md
   source_type: person
   target: persons/antonio-ruffo.md
@@ -225,6 +303,65 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/bruce-boucher.md
+  source_type: person
+  target: institutions/courtauld-institute-of-art.md
+  target_type: institution
+  relation_type: educated_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-bruce-boucher
+    source_file: https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum
+    source_span: 完整大学任命新闻正文；可见页未显示明确发布日期
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 硕士与博士学位教育
+  scope: 就读机构；不混为受雇、组织院士或个人师承
+- source: persons/bruce-boucher.md
+  source_type: person
+  target: institutions/art-institute-of-chicago.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-bruce-boucher
+    source_file: https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum
+    source_span: 完整大学任命新闻正文；可见页未显示明确发布日期
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2002年起
+  role: 欧洲雕塑策展人
+  scope: 大学任命新闻回顾既有职务，不推定离任年
+- source: persons/bruce-boucher.md
+  source_type: person
+  target: institutions/sir-john-soanes-museum.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-bruce-boucher
+    source_file: https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf
+    source_span: PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2016-05-16就任；2017-03-31仍在任
+  role: 馆长
+  scope: 年度报告时点，不将期末当离任
 - source: persons/camillo-pamfili.md
   source_type: person
   target: persons/pier-francesco-mola.md
@@ -744,6 +881,26 @@
   review_status: evidence_backed_relation
   role: gentiluomo d’onore荣衔授予者
   scope: 授予者全名及日期未明
+- source: persons/ellis-waterhouse.md
+  source_type: person
+  target: institutions/national-gallery-london.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-ellis-waterhouse
+    source_file: https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA16
+    source_span: 完整档案集合目录、Administrative history、Related material
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1929–1933
+  role: 助理／Assistant
+  scope: 早期馆务任职，1933离任
 - source: persons/ernest-cognacq.md
   source_type: person
   target: persons/marie-louise-jay.md
@@ -968,6 +1125,437 @@
   review_status: evidence_backed_relation
   role: 提供研究便利
   scope: 在威尼斯科雷尔图书馆研究时获得的便利；不据此推定Pignatti当时任职
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/anthony-blunt.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究讨论
+  scope: 第一版序言明确的研究讨论；不推定师承或共同著作
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/a-n-l-munby.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 解决研究问题
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/alessandro-bettagno.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究讨论与帮助
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/gianfranco-torcellan.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究讨论与帮助
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/franco-venturi.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究讨论与帮助
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/gaetano-cozzi.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 23–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究讨论与帮助
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/alessandro-marabottini-marabotti.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 陪同观看作品与多次款待
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/michael-levey.md
+  target_type: person
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 启发性的研究讨论
+  scope: 第一版序言点名致谢；不外推共同著作、任职或资助合同
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/nikolaus-pevsner.md
+  target_type: person
+  relation_type: influenced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究兴趣启发
+  scope: 只指最初引发对艺术赞助研究的兴趣，不代替具体师承
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/a-n-l-munby.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 14–15; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1979年序言回顾
+  role: 亲近朋友
+  scope: 第二版序言明确very close friends，写序时两人已故
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/a-n-l-munby.md
+  target_type: person
+  relation_type: advised_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 14–15; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 写作期间
+  role: 写作咨询
+  scope: 第二版序言称写作时经常求教，不指定未载的具体建议
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/benedict-nicolson.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 14–15; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1979年序言回顾
+  role: 亲近朋友
+  scope: 第二版序言明确very close friends，写序时两人已故
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/benedict-nicolson.md
+  target_type: person
+  relation_type: advised_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 14–15; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 写作期间
+  role: 写作咨询
+  scope: 第二版序言称写作时经常求教，不指定未载的具体建议
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/nikolaus-pevsner.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.228，Pevsner agreed to act as supervisor
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1951年同意指导
+  role: 研究指导
+  scope: 1951年为学院Fellowship论文寻求研究指导；不称为博士导师
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/larissa-dedicatee.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.232
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1965年结婚
+  role: 配偶
+  scope: 1965年获准结婚；不由1962相识倒推婚姻
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/alessandro-bettagno.md
+  target_type: person
+  relation_type: introduced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.232
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1962'
+  role: 相识介绍人
+  scope: 1962年在威尼斯介绍认识Larissa Salmina；非引介进入职务
+- source: persons/francis-haskell.md
+  source_type: person
+  target: persons/alessandro-bettagno.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.232
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1962年相识段
+  role: 朋友
+  scope: 传记明称Francis’s friend Alessandro Bettagno
+- source: persons/francis-haskell.md
+  source_type: person
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.227
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1928-04-07'
+  role: 出生
+  scope: 出生地
+- source: persons/francis-haskell.md
+  source_type: person
+  target: institutions/kings-college-cambridge.md
+  target_type: institution
+  relation_type: educated_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francis-haskell
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1948年入学
+  role: 本科：前两年历史，末年英语
+  scope: 就读机构；不混为受雇、组织院士或个人师承
+- source: persons/franco-venturi.md
+  source_type: person
+  target: institutions/university-of-turin.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-franco-venturi
+    source_file: https://www.treccani.it/enciclopedia/franco-venturi_(altro)/
+    source_span: 导言与完整La vita段；后续专题段本轮未全读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1958年后至1984
+  role: 近代史教席
+  scope: Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期
+- source: persons/franco-venturi.md
+  source_type: person
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-franco-venturi
+    source_file: https://www.treccani.it/enciclopedia/franco-venturi_(altro)/
+    source_span: 导言与完整La vita段；后续专题段本轮未全读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1914-05-16'
+  role: 出生
+  scope: 出生地
+- source: persons/franco-venturi.md
+  source_type: person
+  target: places/turin.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-franco-venturi
+    source_file: https://www.treccani.it/enciclopedia/franco-venturi_(altro)/
+    source_span: 导言与完整La vita段；后续专题段本轮未全读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1994-12-14'
+  role: 去世
+  scope: 去世地
 - source: persons/frederick-iii.md
   source_type: person
   target: persons/gentile-bellini.md
@@ -987,6 +1575,86 @@
   review_status: evidence_backed_relation
   role: Count Palatine荣衔授予者
   scope: 第一章未给日期
+- source: persons/g-h-w-rylands.md
+  source_type: person
+  target: institutions/kings-college-cambridge.md
+  target_type: institution
+  relation_type: educated_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-g-h-w-rylands
+    source_file: https://www.kings.cam.ac.uk/guide-modern-archives
+    source_span: 档案指南说明及GHWR完整条目
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1921年入学
+  role: 入学；不表示Fellow任命
+  scope: 就读机构；不混为受雇、组织院士或个人师承
+- source: persons/gaetano-cozzi.md
+  source_type: person
+  target: institutions/ca-foscari-university-venice.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gaetano-cozzi
+    source_file: https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf
+    source_span: PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1960–1965；1970–1998
+  role: 教师
+  scope: 两个不连续任教时段；不覆盖1966–1969帕多瓦阶段
+- source: persons/gaetano-cozzi.md
+  source_type: person
+  target: institutions/university-of-padua.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gaetano-cozzi
+    source_file: https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf
+    source_span: PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1966–1969
+  role: 政治科学系教师
+  scope: 仅帕多瓦任教阶段
+- source: persons/gaetano-cozzi.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gaetano-cozzi
+    source_file: https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf
+    source_span: PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '2001-03-15'
+  role: 去世
+  scope: 去世地
 - source: persons/giacinto-brandi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1443,6 +2111,46 @@
   review_status: evidence_backed_relation
   role: 信中受委托画家
   scope: 连接委托对象；版本、完成时间与存世状态未确认
+- source: persons/howard-hibbard.md
+  source_type: person
+  target: institutions/american-academy-of-arts-and-sciences.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-howard-hibbard
+    source_file: https://www.amacad.org/person/howard-hibbard
+    source_span: 完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1969'
+  role: 当选成员
+  scope: 成员目录Elected1969；不据此指定Columbia任期
+- source: persons/hugh-honour.md
+  source_type: person
+  target: institutions/british-academy.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-hugh-honour
+    source_file: https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/
+    source_span: 个人记录全部字段及机构页脚
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1986年当选
+  role: International Fellow／FBA
+  scope: 国际院士身份
 - source: persons/innocent-xiii.md
   source_type: person
   target: persons/giuseppe-ghezzi.md
@@ -1501,6 +2209,26 @@
   time: 1973起；官方历史记此后约30年
   role: 伦敦办事处负责人
   scope: 受聘负责出版社伦敦办事处；未补造精确离职日期
+- source: persons/larissa-dedicatee.md
+  source_type: person
+  target: institutions/hermitage-museum.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-larissa-dedicatee
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.232
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1962年时点
+  role: 威尼斯素描策展人
+  scope: 1962年相识时职务；不推定完整任期
 - source: persons/lodovico-gimignani.md
   source_type: person
   target: persons/cardinal-rospigliosi-gimignani.md
@@ -1576,6 +2304,66 @@
   review_status: evidence_backed_relation
   role: 提供宫中住处与保护的赞助人
   scope: 确认同乡后的接纳与安置
+- source: persons/marco-chiarini.md
+  source_type: person
+  target: institutions/galleria-palatina.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-chiarini
+    source_file: https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015
+    source_span: 完整纪念文章；采用首段生卒、迁居及馆务任期
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1969–2000
+  role: 馆长
+  scope: 帕拉蒂纳馆务任期
+- source: persons/marco-chiarini.md
+  source_type: person
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-chiarini
+    source_file: https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015
+    source_span: 完整纪念文章；采用首段生卒、迁居及馆务任期
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1933-09-01'
+  role: 出生
+  scope: 出生地
+- source: persons/marco-chiarini.md
+  source_type: person
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-chiarini
+    source_file: https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015
+    source_span: 完整纪念文章；采用首段生卒、迁居及馆务任期
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1964迁居；2015-11-06去世
+  role: 迁居；去世
+  scope: 两个具体人生事件，不指在整个区间连续居住
 - source: persons/mario-de-fiori.md
   source_type: person
   target: persons/filippo-lauri.md
@@ -1675,6 +2463,26 @@
   review_status: evidence_backed_relation
   role: per nostro pittore任命者
   scope: 本章脚注所引任命；日期未知
+- source: persons/michael-levey.md
+  source_type: person
+  target: institutions/national-gallery-london.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-michael-levey
+    source_file: https://www.nationalgallery.org.uk/about-us/history/directors/sir-michael-levey
+    source_span: 完整人物传记段；下方Selected acquisitions仅浏览本页索引
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1951–1986年底
+  role: 助理保管员→副保管员→保管员→馆长
+  scope: 1951 Assistant Keeper；1966 Deputy Keeper；1968 Keeper；1973-10至1986年底Director
 - source: persons/michelangelo-cerquozzi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1904,6 +2712,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/peter-calvocoressi.md
+  source_type: person
+  target: institutions/chatto-and-windus.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-peter-calvocoressi
+    source_file: https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true
+    source_span: 由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1955年加入
+  role: 合伙人，后任董事
+  scope: 出版履历；不倒推为本书文字协助的合同角色
 - source: persons/pier-francesco-mola.md
   source_type: person
   target: procedures/iconographic-consultation.md
@@ -1921,6 +2749,66 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/pierre-rosenberg.md
+  source_type: person
+  target: institutions/louvre-museum.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-pierre-rosenberg
+    source_file: https://www.academie-francaise.fr/les-immortels/pierre-rosenberg
+    source_span: Biographie前两段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1962–2001-04-13
+  role: 助理、策展负责人；后任院长
+  scope: 1962进入绘画部；1994-10至2001-04-13任院长，不将院长头衔倒推至1962
+- source: persons/pierre-rosenberg.md
+  source_type: person
+  target: institutions/academie-francaise.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-pierre-rosenberg
+    source_file: https://www.academie-francaise.fr/les-immortels/pierre-rosenberg
+    source_span: Biographie末段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1995-12-07当选
+  role: 院士
+  scope: 第23席；1996-11-14接纳
+- source: persons/pierre-rosenberg.md
+  source_type: person
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-pierre-rosenberg
+    source_file: https://www.academie-francaise.fr/les-immortels/pierre-rosenberg
+    source_span: Biographie首句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1936-04-13'
+  role: 出生
+  scope: 出生地
 - source: persons/pieter-van-laer.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -2044,6 +2932,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/rudolf-wittkower.md
+  source_type: person
+  target: institutions/columbia-university.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-rudolf-wittkower
+    source_file: https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf
+    source_span: PDF第1页 Biography
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1956–1969
+  role: 艺术史教授
+  scope: 艺术史教学任职
 - source: persons/salvator-rosa.md
   source_type: person
   target: procedures/exhibition-self-promotion.md
@@ -2061,6 +2969,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/simonelli.md
+  source_type: person
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
+    source_span: lines 90–91; print p.401
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友
+  scope: 本书补记p.401称Mola为Simonelli的friend
 - source: persons/sixtus-v.md
   source_type: person
   target: families/peretti-family.md
@@ -2169,6 +3096,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: institutions/british-academy.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-british-academy
+    source_file: https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/
+    source_span: 个人记录全部字段及机构页脚
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所在地
+  scope: 机构所在地
 - source: institutions/city-of-paris.md
   source_type: institution
   target: places/paris.md
@@ -2205,6 +3151,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: institutions/columbia-university.md
+  source_type: institution
+  target: places/new-york.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-columbia-university
+    source_file: https://www.columbia.edu/content/about-columbia-university
+    source_span: University Mission Statement两段及页面栏目；视频未观看
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所在地
+  scope: 机构所在地
 - source: institutions/correr-library.md
   source_type: institution
   target: institutions/museo-correr.md
@@ -2397,6 +3362,25 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 馆藏说明中的博物馆所在地
+- source: institutions/phaidon.md
+  source_type: institution
+  target: places/vienna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-phaidon
+    source_file: https://www.phaidon.com/en-int/pages/our-company
+    source_span: 完整About Phaidon段及相关品牌概述；无下载全目录
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 创办地
+  scope: 官网称在维也纳创办，未用相对时间倒算成立年
 - source: institutions/royal-academy.md
   source_type: institution
   target: places/london.md
@@ -7584,6 +8568,102 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/mola-joint-caricature-of-simonelli-and-mola.md
+  source_type: work
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
+    source_span: lines 90–91; print p.401
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 共同创作者
+  scope: 双人漫画共同创作；未指派两人各自绘制哪一人
+- source: works/mola-joint-caricature-of-simonelli-and-mola.md
+  source_type: work
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 150–151; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘人物
+  scope: 图版65a题名中的描绘对象
+- source: works/mola-joint-caricature-of-simonelli-and-mola.md
+  source_type: work
+  target: persons/simonelli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
+    source_span: lines 90–91; print p.401
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 共同创作者
+  scope: 双人漫画共同创作；未指派两人各自绘制哪一人
+- source: works/mola-joint-caricature-of-simonelli-and-mola.md
+  source_type: work
+  target: persons/simonelli.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 150–151; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘人物
+  scope: 图版65a题名中的描绘对象
+- source: works/mola-joint-caricature-of-simonelli-and-mola.md
+  source_type: work
+  target: persons/vitale-bloch.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 150–151; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 原书所记旧藏时期，具体起止未载
+  role: 旧藏者
+  scope: 原书formerly Vitale Bloch collection；不是当前所有权
 - source: works/nanteuil-cardinal-mazarin-in-his-gallery.md
   source_type: work
   target: institutions/stearn-and-son.md
@@ -9201,6 +10281,86 @@
   time: '1649-09-25'
   role: 收信人
   scope: 按每位主要人物报价的交涉
+- source: archives/harris-andrea-sacchi-1977.md
+  source_type: archive
+  target: persons/ann-sutherland-harris.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-harris-andrea-sacchi-1977
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1977'
+  role: 作者
+  scope: 所列版本书目责任，不声称读过全文
+- source: archives/harris-andrea-sacchi-1977.md
+  source_type: archive
+  target: persons/andrea-sacchi.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-harris-andrea-sacchi-1977
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1977'
+  role: 研究对象
+  scope: 书目题名及内容说明中的研究人物
+- source: archives/harris-andrea-sacchi-1977.md
+  source_type: archive
+  target: institutions/phaidon.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-harris-andrea-sacchi-1977
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1977'
+  role: 出版者
+  scope: 所列版本出版项
+- source: archives/harris-andrea-sacchi-1977.md
+  source_type: archive
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-harris-andrea-sacchi-1977
+    source_file: https://www.haa.pitt.edu/people/ann-sutherland-harris
+    source_span: 完整教师页面：研究、教育、项目与出版清单；未下载CV
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1977'
+  role: 出版地
+  scope: 出版地点，不表示现藏实体册位置
 - source: archives/honour-patrons-painters-review-1963.md
   source_type: archive
   target: persons/hugh-honour.md
@@ -9720,6 +10880,291 @@
   review_status: evidence_backed_relation
   role: 新版提议与制作帮助
   scope: 第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/anthony-blunt.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 纠错建议
+  scope: 第二版序言感谢其指出书中错误
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/robert-enggass.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 纠错建议
+  scope: 第二版序言感谢其指出书中错误
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/howard-hibbard.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–12; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 纠错建议
+  scope: 第二版序言感谢其指出书中错误
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/bruce-boucher.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–13; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版建议与帮助
+  scope: 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/marco-chiarini.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–13; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版建议与帮助
+  scope: 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/ann-sutherland-harris.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–13; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版建议与帮助
+  scope: 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/pierre-rosenberg.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–13; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版建议与帮助
+  scope: 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/marianne-roland-michel.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_02_Preface_2nd_Ed.md
+    source_span: lines 12–13; 章前：第二版序言；印刷页vi；PDF 4
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 新版建议与帮助
+  scope: 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/elizabeth-orna.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 初版索引编制
+  scope: 第一版序言所述索引编制；OCR Oma按已完成PDF7校读对应Orna
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: institutions/kings-college-cambridge.md
+  target_type: institution
+  relation_type: supported_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–29; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 研究持续开展支持
+  scope: 第一版序言my own College由同序King’s College署名落实；院长与院士未逐人具名
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/g-h-w-rylands.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 阅读大量打字稿、全书校样及提出订正
+  scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/ellis-waterhouse.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 阅读并改进打字稿
+  scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/denis-mahon.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 阅读并改进打字稿
+  scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/peter-calvocoressi.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 24–24; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 阅读并改进打字稿
+  scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: persons/benedict-nicolson.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 25–25; 章前：第一版序言；印刷页ix；PDF 7
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 各写作阶段文字帮助及严格意见
+  scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
 - source: archives/poerson-letter-1708.md
   source_type: archive
   target: persons/charles-francois-poerson.md
@@ -9794,6 +11239,66 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/roland-michel-chardin-1994.md
+  source_type: archive
+  target: persons/marianne-roland-michel.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-roland-michel-chardin-1994
+    source_file: https://parismuseescollections.paris.fr/en/node/660244
+    source_span: 完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1994'
+  role: 作者
+  scope: 1994年Chardin；目录责任者
+- source: archives/roland-michel-chardin-1994.md
+  source_type: archive
+  target: institutions/hazan.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-roland-michel-chardin-1994
+    source_file: https://parismuseescollections.paris.fr/en/node/660244
+    source_span: 完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1994'
+  role: 出版者
+  scope: 1994年法文版
+- source: archives/roland-michel-chardin-1994.md
+  source_type: archive
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-roland-michel-chardin-1994
+    source_file: https://parismuseescollections.paris.fr/en/node/660244
+    source_span: 完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1994'
+  role: 出版地
+  scope: 出版项Paris；不表示实体册现藏地
 - source: archives/rosa-ruffo-letter-1666.md
   source_type: archive
   target: persons/salvator-rosa.md
@@ -10010,6 +11515,86 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/torcellan-andrea-memmo-1963.md
+  source_type: archive
+  target: persons/gianfranco-torcellan.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-torcellan-andrea-memmo-1963
+    source_file: https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565
+    source_span: 完整书目、作者规范与馆藏字段；未读书正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1963'
+  role: 作者
+  scope: 所列版本书目责任，不声称读过全文
+- source: archives/torcellan-andrea-memmo-1963.md
+  source_type: archive
+  target: persons/andrea-memmo.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-torcellan-andrea-memmo-1963
+    source_file: https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565
+    source_span: 完整书目、作者规范与馆藏字段；未读书正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1963'
+  role: 研究对象
+  scope: 书目题名及内容说明中的研究人物
+- source: archives/torcellan-andrea-memmo-1963.md
+  source_type: archive
+  target: institutions/istituto-per-la-collaborazione-culturale.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-torcellan-andrea-memmo-1963
+    source_file: https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565
+    source_span: 完整书目、作者规范与馆藏字段；未读书正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1963'
+  role: 出版者
+  scope: 所列版本出版项
+- source: archives/torcellan-andrea-memmo-1963.md
+  source_type: archive
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-torcellan-andrea-memmo-1963
+    source_file: https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565
+    source_span: 完整书目、作者规范与馆藏字段；未读书正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1963'
+  role: 出版地
+  scope: 出版地点，不表示现藏实体册位置
 - source: archives/vasalli-testimony-mola-pamfili.md
   source_type: archive
   target: persons/alessandro-vasalli.md

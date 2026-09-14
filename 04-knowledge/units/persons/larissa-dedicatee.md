@@ -4,7 +4,8 @@ name_en: Larissa Salmina
 type: person
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：书名与版权页；未编号；PDF 1–2；OCR L15–15
   sentence_summary: 本书献辞中具名的拉里萨。
   original_quotes:
@@ -14,12 +15,27 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
     source_span: lines 15–15; 章前：书名与版权页；未编号；PDF 1–2
-- citation: Charles Hope, Francis James Herbert Haskell, 1928–2000, Proceedings of the British Academy 115 (2002), pp.227–242. https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf. Accessed 2026-09-14.
+- citation: Charles Hope, Francis James Herbert Haskell, 1928–2000, Proceedings of the British Academy 115 (2002),
+    pp.227–242. https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf. Accessed 2026-09-14.
   location: 实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242
-  sentence_summary: 全名Francis James Herbert Haskell，1928-04-07生于伦敦，2000-01-18去世；1948年入King’s College，1951年Pevsner同意指导研究，1962年由Bettagno介绍认识Larissa Salmina，1965年结婚；Larissa时任Hermitage威尼斯素描策展人。非整篇全文阅读。
+  sentence_summary: 全名Francis James Herbert Haskell，1928-04-07生于伦敦，2000-01-18去世；1948年入King’s College，1951年Pevsner同意指导研究，1962年由Bettagno介绍认识Larissa
+    Salmina，1965年结婚；Larissa时任Hermitage威尼斯素描策展人。非整篇全文阅读。
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-09-15'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作者与序言学者身份
+relations:
+- relation_type: employed_by
+  target: institutions/hermitage-museum.md
+  evidence_ref:
+    doc_id: persons-larissa-dedicatee
+    source_file: https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf
+    source_span: 印刷p.232
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 1962年相识时职务；不推定完整任期
+  role: 威尼斯素描策展人
+  time: 1962年时点
 ---
 
 ## 内容
@@ -72,7 +88,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 配偶（`spouse_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1965年结婚；角色：配偶；范围：1965年获准结婚；不由1962相识倒推婚姻；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-francis-haskell；印刷p.232 |
+| → 受雇于（`employed_by`） | [艾尔米塔什博物馆（Hermitage Museum）](../institutions/hermitage-museum.md) | 时间：1962年时点；角色：威尼斯素描策展人；范围：1962年相识时职务；不推定完整任期；证据：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-larissa-dedicatee；印刷p.232 |
 
 ### 关系候选入口
 

@@ -1725,3 +1725,150 @@ Fitzwilliam所列Finch家族至1947、Hanbury拍卖、Barlow及Christie-Miller�
 21个计划文件应用结果与预检版本一致，涉及17张知识元卡（新建6张、更新11张）；24条原书摘录、160条本地链接及来源编号核对通过。已有来源前缀保留；既有正式关系仅按上述明确纠正案替换J 104的acquired_by，其余保持。15条新增关系和1条修正关系的端点、方向、时间、角色、范围及证据与索引逐项核对，旧的博物馆取得边及反向入口均已移除，保管边仍在。
 
 全库892条有效登记与章前522个KU计数一致，章前类型为人物215、机构79、文献18、地点90、术语4、作品112、家族3、事件1。关系索引552条（551条explicit、1条既有派生边），受影响内容检查无确定性发现，14步同步检查通过。此轮仅内容及登记变化，没有重复上一轮已经通过的274项全套代码测试；网页数据未刷新。这些检查不等于全部内容补足或全任务关系定稿。
+
+
+## 研究者身份任职与序言关系集中补齐
+
+2026-09-15继续REV-093。7名已有对象补入外部身份字段，Orna采用已校读原书的索引角色；5个必要端点回送知识元登记。固定路径和原sources保留，未新增QID或声称Wiki双向验证。
+
+### 来源、范围与身份判断
+
+- `persons/hugh-honour.md`：British Academy, Mr Hugh Honour FBA. https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/. Accessed 2026-09-15. 个人记录全部字段及机构页脚。Hugh Honour，1927–2016，艺术史家，1986年当选International Fellow。
+- `persons/anthony-blunt.md`：National Portrait Gallery, Anthony Frederick Blunt, mp12247. https://www.npg.org.uk/collections/search/person/mp12247/anthony-frederick-blunt. Accessed 2026-09-15. 姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录。全名Anthony Frederick Blunt，1907–1983，艺术史家，1947年任考陶尔德学院院长，1979年爵士荣誉被撤销。
+- `persons/anthony-clark.md`：Getty Research Institute, Anthony M. Clark papers, 2023.M.59. https://www.getty.edu/research/collections/static/pdf/2023.M.59.pdf. Accessed 2026-09-15. PDF pp.3–6：传记、档案概述及接收信息；非档案原件全文。Anthony Morris Clark，1923-10-12至1976-11-22，艺术史家、画家、收藏者及博物馆工作者，研究十八世纪罗马；1973–1975年任大都会欧洲绘画策展人。
+- `persons/rudolf-wittkower.md`：Columbia University Libraries, Rudolf Wittkower papers, NYCR89-A956. https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf. Accessed 2026-09-15. 扫描PDF第1页完整档案概述及Biography；后12页未逐项研究，原档案未读。Rudolf Wittkower，1901–1971，1956–1969年哥伦比亚大学艺术史教授；研究文艺复兴及巴洛克绘画、雕塑与建筑。
+- `persons/pierre-rosenberg.md`：Académie française, Pierre Rosenberg, no.688. https://www.academie-francaise.fr/les-immortels/pierre-rosenberg. Accessed 2026-09-15. 个人荣誉字段、Biographie全文及Œuvres清单；演说与著作正文未读。Pierre Rosenberg，1936-04-13生于巴黎；1962进入卢浮宫绘画部，1994-10至2001-04-13任院长；1995-12-07当选法兰西学院第23席，1996-11-14接纳。
+- `persons/marianne-roland-michel.md`：Paris Musées, Chardin / Marianne Roland Michel, record 660244. https://parismuseescollections.paris.fr/en/node/660244. Accessed 2026-09-15. 完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读。Marianne Roland Michel，1936-02-22至2004-11-18；Chardin，Hazan，巴黎，1994，法文，292页，ISBN 2-85025-370-7。
+- `persons/vitale-bloch.md`：National Gallery of Art, Dr. Vitale Bloch, provenance 22490. https://www.nga.gov/artworks/provenance/22490-dr-vitale-bloch. Accessed 2026-09-15. Provenance人物记录、所选作品与Bibliography；未逐件核作品流传。Vitale Bloch，称谓Dr.，国别标签Russian，1900–1975；记录为人物收藏流传身份入口。
+- `institutions/columbia-university.md`：Columbia University, About Columbia University. https://www.columbia.edu/content/about-columbia-university. Accessed 2026-09-15. University Mission Statement两段及页面栏目；视频未观看。哥伦比亚大学是在纽约从事本科、研究生教育及科研的大学。
+- `institutions/hazan.md`：Éditions Hazan, Qui sommes-nous ?. https://www.editions-hazan.fr/qui-sommes-nous/. Accessed 2026-09-15. 机构正文全部四段及页脚；未逐项读目录书籍。Hazan于1946年成立，出版艺术专著、艺术史论著及展览图录。
+
+
+Clark的Anthony M.与Anthony Morris由同一Getty档案传记及接收字段衔接，并以十八世纪罗马研究与1976卒年匹配导言；1929–1976是档案日期，不作生卒。Blunt原书Sir保留历史语境，1979撤衔不改写原句。Wittkower仅采用Columbia首页身份与任职，不将档案书稿名单当已读著作。Honour书评责任复用原书脚注及既有书评卡，不重复反向事实。Rosenberg院长时期与1962入馆分开；Académie française不合并到Institut de France或美术学院。Marianne以姓名、生卒与艺术书目身份配对；Hachette作者页重定向、DDB失败不作已读来源；未将书目国别France当作者国籍。Vitale以馆方收藏流传身份配对原书旧藏者，Russian保存为馆方标签。Orna沿用PDF7的Oma校正，不凭同名信息管理文献填生平。
+
+### 正式关系裁决
+
+| 发出对象 | 关系 | 端点 | 范围与证据 |
+|---|---|---|---|
+| [persons/hugh-honour.md](../../../04-knowledge/units/persons/hugh-honour.md) | member_of | [institutions/british-academy.md](../../../04-knowledge/units/institutions/british-academy.md) | 国际院士身份；1986年当选；个人记录全部字段及机构页脚 |
+| [persons/anthony-blunt.md](../../../04-knowledge/units/persons/anthony-blunt.md) | employed_by | [institutions/courtauld-institute-of-art.md](../../../04-knowledge/units/institutions/courtauld-institute-of-art.md) | 院长任命；本来源未采用离任年；1947年就任；姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录 |
+| [persons/anthony-clark.md](../../../04-knowledge/units/persons/anthony-clark.md) | employed_by | [institutions/metropolitan-museum-of-art.md](../../../04-knowledge/units/institutions/metropolitan-museum-of-art.md) | 欧洲绘画部门任职；1973–1975；PDF p.4 Biographical Note |
+| [persons/rudolf-wittkower.md](../../../04-knowledge/units/persons/rudolf-wittkower.md) | employed_by | [institutions/columbia-university.md](../../../04-knowledge/units/institutions/columbia-university.md) | 艺术史教学任职；1956–1969；PDF第1页 Biography |
+| [persons/pierre-rosenberg.md](../../../04-knowledge/units/persons/pierre-rosenberg.md) | employed_by | [institutions/louvre-museum.md](../../../04-knowledge/units/institutions/louvre-museum.md) | 1962进入绘画部；1994-10至2001-04-13任院长，不将院长头衔倒推至1962；1962–2001-04-13；Biographie前两段 |
+| [persons/pierre-rosenberg.md](../../../04-knowledge/units/persons/pierre-rosenberg.md) | member_of | [institutions/academie-francaise.md](../../../04-knowledge/units/institutions/academie-francaise.md) | 第23席；1996-11-14接纳；1995-12-07当选；Biographie末段 |
+| [persons/pierre-rosenberg.md](../../../04-knowledge/units/persons/pierre-rosenberg.md) | located_at | [places/paris.md](../../../04-knowledge/units/places/paris.md) | 出生地；1936-04-13；Biographie首句 |
+| [institutions/british-academy.md](../../../04-knowledge/units/institutions/british-academy.md) | located_at | [places/london.md](../../../04-knowledge/units/places/london.md) | 机构所在地；；个人记录全部字段及机构页脚 |
+| [institutions/columbia-university.md](../../../04-knowledge/units/institutions/columbia-university.md) | located_at | [places/new-york.md](../../../04-knowledge/units/places/new-york.md) | 机构所在地；；University Mission Statement两段及页面栏目；视频未观看 |
+| [archives/roland-michel-chardin-1994.md](../../../04-knowledge/units/archives/roland-michel-chardin-1994.md) | authored_by | [persons/marianne-roland-michel.md](../../../04-knowledge/units/persons/marianne-roland-michel.md) | 1994年Chardin；目录责任者；1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| [archives/roland-michel-chardin-1994.md](../../../04-knowledge/units/archives/roland-michel-chardin-1994.md) | published_by | [institutions/hazan.md](../../../04-knowledge/units/institutions/hazan.md) | 1994年法文版；1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| [archives/roland-michel-chardin-1994.md](../../../04-knowledge/units/archives/roland-michel-chardin-1994.md) | located_at | [places/paris.md](../../../04-knowledge/units/places/paris.md) | 出版项Paris；不表示实体册现藏地；1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/anthony-blunt.md](../../../04-knowledge/units/persons/anthony-blunt.md) | 第二版序言感谢其指出书中错误；；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/robert-enggass.md](../../../04-knowledge/units/persons/robert-enggass.md) | 第二版序言感谢其指出书中错误；；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/howard-hibbard.md](../../../04-knowledge/units/persons/howard-hibbard.md) | 第二版序言感谢其指出书中错误；；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/bruce-boucher.md](../../../04-knowledge/units/persons/bruce-boucher.md) | 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/marco-chiarini.md](../../../04-knowledge/units/persons/marco-chiarini.md) | 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/ann-sutherland-harris.md](../../../04-knowledge/units/persons/ann-sutherland-harris.md) | 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/pierre-rosenberg.md](../../../04-knowledge/units/persons/pierre-rosenberg.md) | 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/marianne-roland-michel.md](../../../04-knowledge/units/persons/marianne-roland-michel.md) | 第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/elizabeth-orna.md](../../../04-knowledge/units/persons/elizabeth-orna.md) | 第一版序言所述索引编制；OCR Oma按已完成PDF7校读对应Orna；；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/anthony-blunt.md](../../../04-knowledge/units/persons/anthony-blunt.md) | 第一版序言明确的研究讨论；不推定师承或共同著作；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [works/mola-joint-caricature-of-simonelli-and-mola.md](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) | created_by | [persons/pier-francesco-mola.md](../../../04-knowledge/units/persons/pier-francesco-mola.md) | 双人漫画共同创作；未指派两人各自绘制哪一人；；lines 90–91; print p.401 |
+| [works/mola-joint-caricature-of-simonelli-and-mola.md](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) | has_subject | [persons/pier-francesco-mola.md](../../../04-knowledge/units/persons/pier-francesco-mola.md) | 图版65a题名中的描绘对象；；lines 150–151; 章前：图版目录；印刷页xvi |
+| [works/mola-joint-caricature-of-simonelli-and-mola.md](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) | created_by | [persons/simonelli.md](../../../04-knowledge/units/persons/simonelli.md) | 双人漫画共同创作；未指派两人各自绘制哪一人；；lines 90–91; print p.401 |
+| [works/mola-joint-caricature-of-simonelli-and-mola.md](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) | has_subject | [persons/simonelli.md](../../../04-knowledge/units/persons/simonelli.md) | 图版65a题名中的描绘对象；；lines 150–151; 章前：图版目录；印刷页xvi |
+| [works/mola-joint-caricature-of-simonelli-and-mola.md](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) | owned_by | [persons/vitale-bloch.md](../../../04-knowledge/units/persons/vitale-bloch.md) | 原书formerly Vitale Bloch collection；不是当前所有权；原书所记旧藏时期，具体起止未载；lines 150–151; 章前：图版目录；印刷页xvi |
+| [persons/simonelli.md](../../../04-knowledge/units/persons/simonelli.md) | friend_of | [persons/pier-francesco-mola.md](../../../04-knowledge/units/persons/pier-francesco-mola.md) | 本书补记p.401称Mola为Simonelli的friend；；lines 90–91; print p.401 |
+
+
+致谢按原句区分：Enggass、Hibbard、Blunt指出错误；其余五人的书目／图版／其他帮助为集体致谢，不猜个人分工。Orna初版索引不扩为所有再版索引。图版65a创作由p.401补记支持，题名支持描绘对象，旧藏由目录支持；不指定谁画谁。朋友关系取自friend明文，不由共同创作推导。
+
+### 剩余工作
+
+7名人物完成本轮初步外部身份核对与所列字段补足，不等于生平和作品全集完成。Clark其他任职、著述与收藏，Rosenberg书目及荣誉成员名单，Wittkower著作及教学履历仍须按本书研究需要核具体对象；未采纳背景外链不自动扩张。Orna外部身份仍待证。Chardin仅核书目；馆藏副本的保管关系与所研究的Chardin人物端点待核。9项主候选及其他版本疑点保持，章前全任务未完成；知识发现、网页和人工校验暂停，本轮未提交推送。
+### 本轮写回与检查
+
+模型逐条拟定33文件exact plan，预检旧sources与关系保留、原书引文、来源编号、本地链接及词表，生成差异后经稳定apply_patch写回。预检将误写的located_in纠正为现有词表located_at，未新增关系类型。33文件与计划一致；29张受影响卡含5张新卡，53条原书摘录、242条本地链接核对通过。受影响内容检查未报确定性缺陷；28条新增关系逐项核对端点、类型、方向、证据、角色、时间及范围，索引580条（579条explicit，1条既有派生边）。897个有效登记及527个章前KU计数通过；计数查询兼容不含sources的旧卡，不改变旧卡事实或接收状态。14步同步检查通过，未改代码或规则，不重复已通过的274项测试。业务目标仍进行中，本轮未提交推送。
+
+
+## 序言协助亲缘师承与学术履历关系定稿
+
+2026-09-15继续REV-093，集中反查正文已经采纳但尚缺正式边的事实。完整重读初、二版序言致谢段，复用卡内实际读取记录；外部复查Haskell传记pp.227–228、232、Pitt教师页全文、Hibbard成员记录、Levey传记、Waterhouse档案行政史。Cozzi、Venturi、Boucher及Torcellan沿用既有准确记录的时段和角色，不重复声称新增身份核验。
+
+### 本轮补证与内容
+
+- The de Laszlo Archive Trust, catalogue 2671, Peter John Ambrose Calvocoressi, KF 2016. https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true. Accessed 2026-09-15. 由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传。Peter John Ambrose Calvocoressi，1912年生，2010-02-05卒；律师、国际事务研究者、出版人；1955年加入Chatto & Windus，先为合伙人后为董事。
+- John Q. Barrett, Peter Calvocoressi (1912–2010), Nuremberg Prosecutor, 2010. https://thejacksonlist.com/wp-content/uploads/2014/02/20100208-Jackson-List-Calvocoressi.pdf. Accessed 2026-09-15. 两页正文及脚注全文；所引法庭记录未读。Peter John Ambrose Calvocoressi于2010-02-05去世，曾为律师，战后从事历史写作和出版。
+- Phaidon, Our Company. https://www.phaidon.com/en-int/pages/our-company. Accessed 2026-09-15. 完整About Phaidon段及相关品牌概述；无下载全目录。Phaidon为创意艺术图书出版者，创办于维也纳；页面未给明确成立年份，不由one hundred years ago倒算。
+
+
+Calvocoressi以档案信托作品页2671内嵌传记衔接全名、1912生年、2010卒日、律师和出版人身份；1955加入Chatto & Windus与本书出版圈相符。Barrett两页人物文支持全名、卒日及战后历史写作与出版身份。信托页面与内嵌正文不是两个独立来源；原头像作品1917及尺寸未采用，不把原页面与内嵌正文不同尺寸混合。IWM访问失败不记已读；搜索返回两个不同Wikidata候选，均未核实或写入。本轮没有Wiki双向核验。个人其他家庭、军务和出版履历尚未全面补足，不递归接收所有外链。
+
+Phaidon由现行官网品牌性质和1977年作者书目衔接；官网相对时间不倒算成立年。文化合作研究所仅按1963年书目历史出版项登记，未合并任何同名现代机构。美国艺术与科学院采用Hibbard所属学科、1969当选及学院署名，区别此前英国国家学术院。三个端点均先登记再供本轮正式关系使用。Hibbard新内容只增加有据成员字段，不把单位名Columbia University当作特定教授任期。
+
+### 正式关系与原文语境
+
+| 发出对象 | 关系 | 端点 | 限定与证据 |
+|---|---|---|---|
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | supported_by | [institutions/kings-college-cambridge.md](../../../04-knowledge/units/institutions/kings-college-cambridge.md) | 第一版序言my own College由同序King’s College署名落实；院长与院士未逐人具名；研究持续开展支持；；lines 22–29; 章前：第一版序言；印刷页ix；PDF 7 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/g-h-w-rylands.md](../../../04-knowledge/units/persons/g-h-w-rylands.md) | 第一版序言对具体文字工作的致谢；不指后续所有版本；阅读大量打字稿、全书校样及提出订正；；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/ellis-waterhouse.md](../../../04-knowledge/units/persons/ellis-waterhouse.md) | 第一版序言对具体文字工作的致谢；不指后续所有版本；阅读并改进打字稿；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/denis-mahon.md](../../../04-knowledge/units/persons/denis-mahon.md) | 第一版序言对具体文字工作的致谢；不指后续所有版本；阅读并改进打字稿；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/peter-calvocoressi.md](../../../04-knowledge/units/persons/peter-calvocoressi.md) | 第一版序言对具体文字工作的致谢；不指后续所有版本；阅读并改进打字稿；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [archives/patrons-and-painters.md](../../../04-knowledge/units/archives/patrons-and-painters.md) | contributed_by | [persons/benedict-nicolson.md](../../../04-knowledge/units/persons/benedict-nicolson.md) | 第一版序言对具体文字工作的致谢；不指后续所有版本；各写作阶段文字帮助及严格意见；；lines 25–25; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/a-n-l-munby.md](../../../04-knowledge/units/persons/a-n-l-munby.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；解决研究问题；；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/alessandro-bettagno.md](../../../04-knowledge/units/persons/alessandro-bettagno.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；研究讨论与帮助；；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/gianfranco-torcellan.md](../../../04-knowledge/units/persons/gianfranco-torcellan.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；研究讨论与帮助；；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/franco-venturi.md](../../../04-knowledge/units/persons/franco-venturi.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；研究讨论与帮助；；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/gaetano-cozzi.md](../../../04-knowledge/units/persons/gaetano-cozzi.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；研究讨论与帮助；；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/alessandro-marabottini-marabotti.md](../../../04-knowledge/units/persons/alessandro-marabottini-marabotti.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；陪同观看作品与多次款待；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | supported_by | [persons/michael-levey.md](../../../04-knowledge/units/persons/michael-levey.md) | 第一版序言点名致谢；不外推共同著作、任职或资助合同；启发性的研究讨论；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | influenced_by | [persons/nikolaus-pevsner.md](../../../04-knowledge/units/persons/nikolaus-pevsner.md) | 只指最初引发对艺术赞助研究的兴趣，不代替具体师承；研究兴趣启发；；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | friend_of | [persons/a-n-l-munby.md](../../../04-knowledge/units/persons/a-n-l-munby.md) | 第二版序言明确very close friends，写序时两人已故；亲近朋友；1979年序言回顾；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | advised_by | [persons/a-n-l-munby.md](../../../04-knowledge/units/persons/a-n-l-munby.md) | 第二版序言称写作时经常求教，不指定未载的具体建议；写作咨询；写作期间；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | friend_of | [persons/benedict-nicolson.md](../../../04-knowledge/units/persons/benedict-nicolson.md) | 第二版序言明确very close friends，写序时两人已故；亲近朋友；1979年序言回顾；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | advised_by | [persons/benedict-nicolson.md](../../../04-knowledge/units/persons/benedict-nicolson.md) | 第二版序言称写作时经常求教，不指定未载的具体建议；写作咨询；写作期间；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | trained_by | [persons/nikolaus-pevsner.md](../../../04-knowledge/units/persons/nikolaus-pevsner.md) | 1951年为学院Fellowship论文寻求研究指导；不称为博士导师；研究指导；1951年同意指导；印刷p.228，Pevsner agreed to act as supervisor |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | spouse_of | [persons/larissa-dedicatee.md](../../../04-knowledge/units/persons/larissa-dedicatee.md) | 1965年获准结婚；不由1962相识倒推婚姻；配偶；1965年结婚；印刷p.232 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | introduced_by | [persons/alessandro-bettagno.md](../../../04-knowledge/units/persons/alessandro-bettagno.md) | 1962年在威尼斯介绍认识Larissa Salmina；非引介进入职务；相识介绍人；1962；印刷p.232 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | friend_of | [persons/alessandro-bettagno.md](../../../04-knowledge/units/persons/alessandro-bettagno.md) | 传记明称Francis’s friend Alessandro Bettagno；朋友；1962年相识段；印刷p.232 |
+| [persons/larissa-dedicatee.md](../../../04-knowledge/units/persons/larissa-dedicatee.md) | employed_by | [institutions/hermitage-museum.md](../../../04-knowledge/units/institutions/hermitage-museum.md) | 1962年相识时职务；不推定完整任期；威尼斯素描策展人；1962年时点；印刷p.232 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | located_at | [places/london.md](../../../04-knowledge/units/places/london.md) | 出生地；出生；1928-04-07；印刷p.227 |
+| [persons/francis-haskell.md](../../../04-knowledge/units/persons/francis-haskell.md) | educated_at | [institutions/kings-college-cambridge.md](../../../04-knowledge/units/institutions/kings-college-cambridge.md) | 就读机构；不混为受雇、组织院士或个人师承；本科：前两年历史，末年英语；1948年入学；实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242 |
+| [persons/g-h-w-rylands.md](../../../04-knowledge/units/persons/g-h-w-rylands.md) | educated_at | [institutions/kings-college-cambridge.md](../../../04-knowledge/units/institutions/kings-college-cambridge.md) | 就读机构；不混为受雇、组织院士或个人师承；入学；不表示Fellow任命；1921年入学；档案指南说明及GHWR完整条目 |
+| [persons/bruce-boucher.md](../../../04-knowledge/units/persons/bruce-boucher.md) | educated_at | [institutions/courtauld-institute-of-art.md](../../../04-knowledge/units/institutions/courtauld-institute-of-art.md) | 就读机构；不混为受雇、组织院士或个人师承；硕士与博士学位教育；；完整大学任命新闻正文；可见页未显示明确发布日期 |
+| [persons/ann-sutherland-harris.md](../../../04-knowledge/units/persons/ann-sutherland-harris.md) | educated_at | [institutions/courtauld-institute-of-art.md](../../../04-knowledge/units/institutions/courtauld-institute-of-art.md) | 就读机构；不混为受雇、组织院士或个人师承；博士学位教育；；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [persons/bruce-boucher.md](../../../04-knowledge/units/persons/bruce-boucher.md) | employed_by | [institutions/art-institute-of-chicago.md](../../../04-knowledge/units/institutions/art-institute-of-chicago.md) | 大学任命新闻回顾既有职务，不推定离任年；欧洲雕塑策展人；2002年起；完整大学任命新闻正文；可见页未显示明确发布日期 |
+| [persons/bruce-boucher.md](../../../04-knowledge/units/persons/bruce-boucher.md) | employed_by | [institutions/sir-john-soanes-museum.md](../../../04-knowledge/units/institutions/sir-john-soanes-museum.md) | 年度报告时点，不将期末当离任；馆长；2016-05-16就任；2017-03-31仍在任；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
+| [persons/ann-sutherland-harris.md](../../../04-knowledge/units/persons/ann-sutherland-harris.md) | employed_by | [institutions/university-of-pittsburgh.md](../../../04-knowledge/units/institutions/university-of-pittsburgh.md) | 校方教师页面任职身份；未补造任期；艺术史教授；；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [persons/marco-chiarini.md](../../../04-knowledge/units/persons/marco-chiarini.md) | employed_by | [institutions/galleria-palatina.md](../../../04-knowledge/units/institutions/galleria-palatina.md) | 帕拉蒂纳馆务任期；馆长；1969–2000；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| [persons/michael-levey.md](../../../04-knowledge/units/persons/michael-levey.md) | employed_by | [institutions/national-gallery-london.md](../../../04-knowledge/units/institutions/national-gallery-london.md) | 1951 Assistant Keeper；1966 Deputy Keeper；1968 Keeper；1973-10至1986年底Director；助理保管员→副保管员→保管员→馆长；1951–1986年底；完整人物传记段；下方Selected acquisitions仅浏览本页索引 |
+| [persons/ellis-waterhouse.md](../../../04-knowledge/units/persons/ellis-waterhouse.md) | employed_by | [institutions/national-gallery-london.md](../../../04-knowledge/units/institutions/national-gallery-london.md) | 早期馆务任职，1933离任；助理／Assistant；1929–1933；完整档案集合目录、Administrative history、Related material |
+| [persons/franco-venturi.md](../../../04-knowledge/units/persons/franco-venturi.md) | employed_by | [institutions/university-of-turin.md](../../../04-knowledge/units/institutions/university-of-turin.md) | Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期；近代史教席；1958年后至1984；导言与完整La vita段；后续专题段本轮未全读 |
+| [persons/gaetano-cozzi.md](../../../04-knowledge/units/persons/gaetano-cozzi.md) | employed_by | [institutions/ca-foscari-university-venice.md](../../../04-knowledge/units/institutions/ca-foscari-university-venice.md) | 两个不连续任教时段；不覆盖1966–1969帕多瓦阶段；教师；1960–1965；1970–1998；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| [persons/gaetano-cozzi.md](../../../04-knowledge/units/persons/gaetano-cozzi.md) | employed_by | [institutions/university-of-padua.md](../../../04-knowledge/units/institutions/university-of-padua.md) | 仅帕多瓦任教阶段；政治科学系教师；1966–1969；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| [persons/peter-calvocoressi.md](../../../04-knowledge/units/persons/peter-calvocoressi.md) | employed_by | [institutions/chatto-and-windus.md](../../../04-knowledge/units/institutions/chatto-and-windus.md) | 出版履历；不倒推为本书文字协助的合同角色；合伙人，后任董事；1955年加入；由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传 |
+| [persons/howard-hibbard.md](../../../04-knowledge/units/persons/howard-hibbard.md) | member_of | [institutions/american-academy-of-arts-and-sciences.md](../../../04-knowledge/units/institutions/american-academy-of-arts-and-sciences.md) | 成员目录Elected1969；不据此指定Columbia任期；当选成员；1969；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |
+| [persons/marco-chiarini.md](../../../04-knowledge/units/persons/marco-chiarini.md) | located_at | [places/rome.md](../../../04-knowledge/units/places/rome.md) | 出生地；出生；1933-09-01；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| [persons/marco-chiarini.md](../../../04-knowledge/units/persons/marco-chiarini.md) | located_at | [places/florence.md](../../../04-knowledge/units/places/florence.md) | 两个具体人生事件，不指在整个区间连续居住；迁居；去世；1964迁居；2015-11-06去世；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| [persons/franco-venturi.md](../../../04-knowledge/units/persons/franco-venturi.md) | located_at | [places/rome.md](../../../04-knowledge/units/places/rome.md) | 出生地；出生；1914-05-16；导言与完整La vita段；后续专题段本轮未全读 |
+| [persons/franco-venturi.md](../../../04-knowledge/units/persons/franco-venturi.md) | located_at | [places/turin.md](../../../04-knowledge/units/places/turin.md) | 去世地；去世；1994-12-14；导言与完整La vita段；后续专题段本轮未全读 |
+| [persons/gaetano-cozzi.md](../../../04-knowledge/units/persons/gaetano-cozzi.md) | located_at | [places/venice.md](../../../04-knowledge/units/places/venice.md) | 去世地；去世；2001-03-15；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| [archives/harris-andrea-sacchi-1977.md](../../../04-knowledge/units/archives/harris-andrea-sacchi-1977.md) | authored_by | [persons/ann-sutherland-harris.md](../../../04-knowledge/units/persons/ann-sutherland-harris.md) | 所列版本书目责任，不声称读过全文；作者；1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [archives/harris-andrea-sacchi-1977.md](../../../04-knowledge/units/archives/harris-andrea-sacchi-1977.md) | has_subject | [persons/andrea-sacchi.md](../../../04-knowledge/units/persons/andrea-sacchi.md) | 书目题名及内容说明中的研究人物；研究对象；1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [archives/harris-andrea-sacchi-1977.md](../../../04-knowledge/units/archives/harris-andrea-sacchi-1977.md) | published_by | [institutions/phaidon.md](../../../04-knowledge/units/institutions/phaidon.md) | 所列版本出版项；出版者；1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [archives/harris-andrea-sacchi-1977.md](../../../04-knowledge/units/archives/harris-andrea-sacchi-1977.md) | located_at | [places/london.md](../../../04-knowledge/units/places/london.md) | 出版地点，不表示现藏实体册位置；出版地；1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| [archives/torcellan-andrea-memmo-1963.md](../../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md) | authored_by | [persons/gianfranco-torcellan.md](../../../04-knowledge/units/persons/gianfranco-torcellan.md) | 所列版本书目责任，不声称读过全文；作者；1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| [archives/torcellan-andrea-memmo-1963.md](../../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md) | has_subject | [persons/andrea-memmo.md](../../../04-knowledge/units/persons/andrea-memmo.md) | 书目题名及内容说明中的研究人物；研究对象；1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| [archives/torcellan-andrea-memmo-1963.md](../../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md) | published_by | [institutions/istituto-per-la-collaborazione-culturale.md](../../../04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md) | 所列版本出版项；出版者；1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| [archives/torcellan-andrea-memmo-1963.md](../../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md) | located_at | [places/venice.md](../../../04-knowledge/units/places/venice.md) | 出版地点，不表示现藏实体册位置；出版地；1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| [institutions/phaidon.md](../../../04-knowledge/units/institutions/phaidon.md) | located_at | [places/vienna.md](../../../04-knowledge/units/places/vienna.md) | 官网称在维也纳创办，未用相对时间倒算成立年；创办地；；完整About Phaidon段及相关品牌概述；无下载全目录 |
+
+
+初版署名支持my own College的端点指代；不虚构院长或院士个人名单。原文讨论、文字工作、朋友和咨询分别表达：前三名审稿人与Rylands、Nicolson各保留职责，友谊由very close friends明文支持，不由致谢或共处推导。Pevsner的兴趣启发与1951年Fellowship论文指导来自不同证据，不能称博士导师。Bettagno引介限定到1962年认识Larissa，非任职引介。婚姻按1965年，反向投影不新增亲属事实。Cozzi分段任教、Levey升职与年度报告时点完整保留，均不推定连续任期。就读机构与师承、受雇分开，教育类型调整的唯一记录在06系统日志。
+
+### 待补及范围
+
+本轮只定稿逐条所列关系，不宣称所有序言学者内容完整。Haskell献辞、其他著作和新读到的传记旁支尚需相应证据与对象；Calvocoressi已完成本轮初步外部身份配对，其他履历及作品待有据补足。Torcellan书的复印本馆藏不能推为出版原件保管；所列书目不等于已读原件。9项主候选、Orna外部身份以及作品版本和收藏链等原待证状态保持。全任务仍进行中，未启动知识发现、网页或人工校验，未再次提交推送。
+### 本轮写回与检查
+
+53条关系由模型按上述语境逐项拟定，生成49文件exact plan及差异，经预检后稳定apply_patch写回；最终内容与计划一致。45张受影响卡含3张新卡，115条原书摘录、414条本地链接、来源序号、旧sources及旧正式关系保留检查通过；受影响内容检查无确定性发现。53条新增关系逐项核对端点、类型、方向、角色、时间、范围及证据，633条关系索引一致（632条explicit、1条既有派生边）。4条就读关系的人物发出端与机构反向展示均复核。全库900个有效登记、章前530个KU；类型为人物215、机构86、文献19、地点90、作品112、术语4、家族3、事件1。16步同步检查及274项测试通过。下一步回到尚缺外部身份依据的对象及作品版本缺口，来源URL有无仅作检索路由，不据此判定身份成败。全任务未完成，本轮未提交推送。

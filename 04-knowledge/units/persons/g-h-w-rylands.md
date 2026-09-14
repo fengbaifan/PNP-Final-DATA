@@ -4,22 +4,44 @@ name_en: George Humphrey Wolferstan Rylands
 type: person
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：第一版序言；印刷页ix；PDF 7；OCR L22–22
   sentence_summary: 阅读大量打字稿及全书校样，并提供建议和订正。
   original_quotes:
   - source_span: lines 22–22
-    text: Warburg Institute in London where I have always received so much encouragement and advice from everyone concerned with that great organisation. I am also deeply indebted to the Provost and Fellows of my own College who have made it possible for me to undertake and continue this book over a very much longer period than they originally bargained for. Mr A. N. L. Munby, the librarian, has solved countless problems for me and Mr G. H. W. Rylands has read much of the typescript and the whole book in proof and made many suggestions and corrections. I would like, too, to thank Mrs Elizabeth Oma for the trouble she took in compiling a full and necessarily rather complicated Index; and Messrs T. and A. Constable Ltd., the printers of the book, for their great care in setting and checking my text.
+    text: Warburg Institute in London where I have always received so much encouragement and advice from everyone
+      concerned with that great organisation. I am also deeply indebted to the Provost and Fellows of my own College
+      who have made it possible for me to undertake and continue this book over a very much longer period than they
+      originally bargained for. Mr A. N. L. Munby, the librarian, has solved countless problems for me and Mr G.
+      H. W. Rylands has read much of the typescript and the whole book in proof and made many suggestions and corrections.
+      I would like, too, to thank Mrs Elizabeth Oma for the trouble she took in compiling a full and necessarily
+      rather complicated Index; and Messrs T. and A. Constable Ltd., the printers of the book, for their great care
+      in setting and checking my text.
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
     source_span: lines 22–22; 章前：第一版序言；印刷页ix；PDF 7
-- citation: King’s College Cambridge, Guide to Modern Archives, Rylands Papers GHWR. https://www.kings.cam.ac.uk/guide-modern-archives. Accessed 2026-09-14.
+- citation: King’s College Cambridge, Guide to Modern Archives, Rylands Papers GHWR. https://www.kings.cam.ac.uk/guide-modern-archives.
+    Accessed 2026-09-14.
   location: 档案指南说明及GHWR完整条目
   sentence_summary: George Humphrey Wolferstan（Dadie）Rylands，1902–1999；KC1921为入学年，指南括号日期不表示Fellow任职年。
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-09-15'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
+relations:
+- relation_type: educated_at
+  target: institutions/kings-college-cambridge.md
+  evidence_ref:
+    doc_id: persons-g-h-w-rylands
+    source_file: https://www.kings.cam.ac.uk/guide-modern-archives
+    source_span: 档案指南说明及GHWR完整条目
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 就读机构；不混为受雇、组织院士或个人师承
+  role: 入学；不表示Fellow任命
+  time: 1921年入学
 ---
 
 ## 内容
@@ -67,7 +89,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读大量打字稿、全书校样及提出订正；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 就读于（`educated_at`） | [剑桥国王学院（King's College, Cambridge）](../institutions/kings-college-cambridge.md) | 时间：1921年入学；角色：入学；不表示Fellow任命；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.kings.cam.ac.uk/guide-modern-archives)；persons-g-h-w-rylands；档案指南说明及GHWR完整条目 |
 
 ### 关系候选入口
 
