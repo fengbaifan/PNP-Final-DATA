@@ -62,6 +62,7 @@
 - [多利亚潘菲利宫（Palazzo Doria-Pamfili）](../../04-knowledge/units/places/palazzo-doria-pamfili.md)
 - [总督宫（威尼斯）（Palazzo Ducale）](../../04-knowledge/units/places/palazzo-ducale.md)
 - [皮蒂宫（Palazzo Pitti）](../../04-knowledge/units/places/palazzo-pitti.md)
+- [威尼斯宫（Palazzo Venezia）](../../04-knowledge/units/places/palazzo-venezia.md)
 - [瓦尔蒙托内多利亚·潘菲利宫（Palazzo Doria-Pamphilj, Valmontone）](../../04-knowledge/units/places/pamfili-country-house-valmontone.md)
 - [巴黎（Paris）](../../04-knowledge/units/places/paris.md)
 - [帕尔马（Parma）](../../04-knowledge/units/places/parma.md)

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T19:45:44",
+  "timestamp": "2026-09-14T20:19:54",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 814,
+    "total_units": 820,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,21 +26,21 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 814,
+    "total_units": 820,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 814,
+    "units_missing_any_assignment": 820,
     "field_coverage": {
-      "primary_domain": "0/814",
-      "primary_dimension": "0/814",
-      "primary_theme": "0/814",
-      "topic_memberships": "0/814"
+      "primary_domain": "0/820",
+      "primary_dimension": "0/820",
+      "primary_theme": "0/820",
+      "topic_memberships": "0/820"
     }
   },
   "counts_by_type": {
-    "persons": 297,
+    "persons": 299,
     "families": 7,
-    "institutions": 94,
-    "places": 115,
+    "institutions": 97,
+    "places": 116,
     "works": 196,
     "archives": 54,
     "terms": 34,
@@ -227,6 +227,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
       "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
       "04-knowledge/units/persons/john-nicoll.md",
@@ -252,6 +253,7 @@
       "04-knowledge/units/persons/marchese-pallavicini-piola.md",
       "04-knowledge/units/persons/marchese-san-tommaso-negri.md",
       "04-knowledge/units/persons/marco-chiarini.md",
+      "04-knowledge/units/persons/marco-foscarini.md",
       "04-knowledge/units/persons/marco-pitteri.md",
       "04-knowledge/units/persons/marco-ricci.md",
       "04-knowledge/units/persons/marianne-roland-michel.md",
@@ -363,6 +365,7 @@
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
+      "04-knowledge/units/institutions/alte-pinakothek.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -381,6 +384,7 @@
       "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
       "04-knowledge/units/institutions/correr-library.md",
       "04-knowledge/units/institutions/detroit-institute-of-arts.md",
+      "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
       "04-knowledge/units/institutions/finnish-institute.md",
       "04-knowledge/units/institutions/fitzwilliam-museum.md",
@@ -432,6 +436,7 @@
       "04-knowledge/units/institutions/royal-academy.md",
       "04-knowledge/units/institutions/royal-collection.md",
       "04-knowledge/units/institutions/royal-collections-gallery.md",
+      "04-knowledge/units/institutions/samuel-h-kress-foundation.md",
       "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
@@ -514,6 +519,7 @@
       "04-knowledge/units/places/palazzo-dei-conservatori.md",
       "04-knowledge/units/places/palazzo-ducale.md",
       "04-knowledge/units/places/palazzo-pitti.md",
+      "04-knowledge/units/places/palazzo-venezia.md",
       "04-knowledge/units/places/paris.md",
       "04-knowledge/units/places/parma.md",
       "04-knowledge/units/places/perugia.md",
@@ -1016,6 +1022,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
       "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
       "04-knowledge/units/persons/john-nicoll.md",
@@ -1041,6 +1048,7 @@
       "04-knowledge/units/persons/marchese-pallavicini-piola.md",
       "04-knowledge/units/persons/marchese-san-tommaso-negri.md",
       "04-knowledge/units/persons/marco-chiarini.md",
+      "04-knowledge/units/persons/marco-foscarini.md",
       "04-knowledge/units/persons/marco-pitteri.md",
       "04-knowledge/units/persons/marco-ricci.md",
       "04-knowledge/units/persons/marianne-roland-michel.md",
@@ -1152,6 +1160,7 @@
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
+      "04-knowledge/units/institutions/alte-pinakothek.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -1170,6 +1179,7 @@
       "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
       "04-knowledge/units/institutions/correr-library.md",
       "04-knowledge/units/institutions/detroit-institute-of-arts.md",
+      "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
       "04-knowledge/units/institutions/finnish-institute.md",
       "04-knowledge/units/institutions/fitzwilliam-museum.md",
@@ -1221,6 +1231,7 @@
       "04-knowledge/units/institutions/royal-academy.md",
       "04-knowledge/units/institutions/royal-collection.md",
       "04-knowledge/units/institutions/royal-collections-gallery.md",
+      "04-knowledge/units/institutions/samuel-h-kress-foundation.md",
       "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
@@ -1305,6 +1316,7 @@
       "04-knowledge/units/places/palazzo-doria-pamfili.md",
       "04-knowledge/units/places/palazzo-ducale.md",
       "04-knowledge/units/places/palazzo-pitti.md",
+      "04-knowledge/units/places/palazzo-venezia.md",
       "04-knowledge/units/places/pamfili-country-house-valmontone.md",
       "04-knowledge/units/places/paris.md",
       "04-knowledge/units/places/parma.md",
@@ -1664,8 +1676,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 297,
-      "tags": 297,
+      "sub_type": 299,
+      "tags": 299,
       "evidence_status": 0
     },
     "families": {
@@ -1674,13 +1686,13 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 94,
-      "tags": 94,
+      "sub_type": 97,
+      "tags": 97,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 112,
-      "tags": 115,
+      "sub_type": 113,
+      "tags": 116,
       "evidence_status": 0
     },
     "works": {
@@ -1762,11 +1774,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 125,
+    "sources_without_evidence_ref": 131,
     "evidence_ref_resolvable": 1004,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1004,
-    "units_with_traceable_source": 814
+    "units_with_traceable_source": 820
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1798,7 +1810,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 814,
+      "count": 820,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1971,6 +1983,7 @@
         "04-knowledge/units/persons/j-tomilson-hill.md",
         "04-knowledge/units/persons/jacopo-salviati.md",
         "04-knowledge/units/persons/jerome-bankes.md",
+        "04-knowledge/units/persons/johann-wilhelm-elector-palatine.md",
         "04-knowledge/units/persons/john-finch.md",
         "04-knowledge/units/persons/john-gilmartin.md",
         "04-knowledge/units/persons/john-nicoll.md",
@@ -1996,6 +2009,7 @@
         "04-knowledge/units/persons/marchese-pallavicini-piola.md",
         "04-knowledge/units/persons/marchese-san-tommaso-negri.md",
         "04-knowledge/units/persons/marco-chiarini.md",
+        "04-knowledge/units/persons/marco-foscarini.md",
         "04-knowledge/units/persons/marco-pitteri.md",
         "04-knowledge/units/persons/marco-ricci.md",
         "04-knowledge/units/persons/marianne-roland-michel.md",
@@ -2107,6 +2121,7 @@
         "04-knowledge/units/institutions/a-villani-e-figli.md",
         "04-knowledge/units/institutions/accademia-di-san-luca.md",
         "04-knowledge/units/institutions/agraci.md",
+        "04-knowledge/units/institutions/alte-pinakothek.md",
         "04-knowledge/units/institutions/apostolic-chamber.md",
         "04-knowledge/units/institutions/arcadia.md",
         "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -2125,6 +2140,7 @@
         "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
         "04-knowledge/units/institutions/correr-library.md",
         "04-knowledge/units/institutions/detroit-institute-of-arts.md",
+        "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
         "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
         "04-knowledge/units/institutions/finnish-institute.md",
         "04-knowledge/units/institutions/fitzwilliam-museum.md",
@@ -2176,6 +2192,7 @@
         "04-knowledge/units/institutions/royal-academy.md",
         "04-knowledge/units/institutions/royal-collection.md",
         "04-knowledge/units/institutions/royal-collections-gallery.md",
+        "04-knowledge/units/institutions/samuel-h-kress-foundation.md",
         "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
         "04-knowledge/units/institutions/schildersbent.md",
         "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
@@ -2260,6 +2277,7 @@
         "04-knowledge/units/places/palazzo-doria-pamfili.md",
         "04-knowledge/units/places/palazzo-ducale.md",
         "04-knowledge/units/places/palazzo-pitti.md",
+        "04-knowledge/units/places/palazzo-venezia.md",
         "04-knowledge/units/places/pamfili-country-house-valmontone.md",
         "04-knowledge/units/places/paris.md",
         "04-knowledge/units/places/parma.md",
@@ -2715,12 +2733,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 304,
+      "total": 306,
       "coverage": {
-        "name_original": "0/304",
-        "language_original": "0/304",
-        "name_zh": "0/304",
-        "translation_status": "0/304"
+        "name_original": "0/306",
+        "language_original": "0/306",
+        "name_zh": "0/306",
+        "translation_status": "0/306"
       }
     },
     "families": {
@@ -2733,12 +2751,12 @@
       }
     },
     "institutions": {
-      "total": 94,
+      "total": 97,
       "coverage": {
-        "name_original": "0/94",
-        "name_original_language": "0/94",
-        "name_zh": "0/94",
-        "translation_status": "0/94"
+        "name_original": "0/97",
+        "name_original_language": "0/97",
+        "name_zh": "0/97",
+        "translation_status": "0/97"
       }
     },
     "works": {
@@ -2768,9 +2786,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 694,
-    "indexed": 694,
-    "declared_total": 694,
+    "expected": 699,
+    "indexed": 699,
+    "declared_total": 699,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2845,22 +2863,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 814,
+    "total_units": 820,
     "source_count_distribution": {
-      "multi_source": 505,
-      "single_source": 309
+      "multi_source": 527,
+      "single_source": 293
     },
     "confidence_distribution": {
-      "missing": 814
+      "missing": 820
     },
     "consensus_distribution": {
-      "missing": 814
+      "missing": 820
     },
     "evidence_status_distribution": {
-      "source_backed": 814
+      "source_backed": 820
     },
     "isolated_units": {
-      "count": 468,
+      "count": 474,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2883,10 +2901,10 @@
         "families/rezzonico-family.md",
         "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
+        "institutions/alte-pinakothek.md",
         "institutions/apostolic-chamber.md",
         "institutions/art-institute-of-chicago.md",
-        "institutions/barnabites.md",
-        "institutions/bayerischen-staatsgemaldesammlungen.md"
+        "institutions/barnabites.md"
       ]
     },
     "candidate_debt": {
@@ -2903,7 +2921,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 309,
+      "single_source_units": 293,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -2928,7 +2946,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 814,
+    "total_files": 820,
     "total_findings": 0
   }
 }

@@ -975,3 +975,48 @@ Wikipedia／Wikidata互相链接及复用信息，不计两份独立的生卒事
 写回前后的21个数据目标（20卡及accepted）保存于本机临时`C:/Users/001/AppData/Local/Temp/pnp-rev091/plan.json`，预览后逐项核对写前内容并串行写回。20卡的23条原书摘录与行段逐字一致、88条本地链接有效、来源编号未越界；814个有效路径存在且不重复，原sources前缀、正式relations及accepted非units内容保持，既有内容检查无确定性发现。过程是模型语义自查及机械核对，不称人工或独立验收。
 
 全库814个有效KU，本任务439个：累计392个新建、43个既有有效KU更新、4个旧卡整理接收。既有本地成果保留，未提交或推送；下一步集中核对其余已登记对象的身份／版本，难解主候选按新线索处理，不让单项长期卡住全部对象。
+
+## 作品与收藏链集中对齐：REV-093
+
+2026-09-14，在REV-094同步后的`649c1a5`基线接续REV-093目标。集中处理27张KU：更新21张，新增6个必要端点。verify完成身份比较；同时取得的有据内容按enrich分字段保存，不表示整体对齐或全面补足结束。原书sources与逐字摘录保持，来源资产未改写。
+
+### 身份、来源与实际阅读范围
+
+| 原文锚点 | 实际来源与范围 | 判断及处理 |
+|---|---|---|
+| FM-P46，E:L124，xv | [BM 1874,0808.43](https://www.britishmuseum.org/collection/object/P_1874-0808-43)，搜索工具返回完整索引记录，包括技术字段、Curator’s comments、书目与入藏字段；直接页面和HTTP均403 | 作者、被描绘者、家庭群像与保管机构共同对应。Pellegrini展开为Giovanni Antonio Pellegrini；Pierre Motteux对应馆方Peter Anthony Motteux。作品为纸本素描，261×352 mm，1874入藏。评论1708–13与数据库1690–1741并列；不称已知油画。使用馆方索引内容，不称实时页面完整打开。 |
+| FM-P49a，E:L127，xv | [艺术家M0xy0EO4pl](https://www.sammlung.pinakothek.de/de/artist/M0xy0EO4pl)完整人物索引、[馆藏4666](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)完整对象字段；[GND118712411](https://www.deutsche-biographie.de/gnd118712411.html?language=en)身份摘要和异名区 | 画布、347×311 cm、1806年来源及馆藏分部按记录保存。馆方题名将原书王储落实为Johann Wilhelm，画中角色为选侯继承人；不由教育寓意图推定现实师承。GND用于身份，不称完整NDB／ADB传记已读；画作年代未给，不反推。 |
+| FM-P45，E:L123，xv | [Kress K2149](https://www.kressfoundation.org/kress-collection/artwork/84f51f076ea69e90ef971adebc587d9802d0a5f3d6888bb5d9f5554435356c3f)实际HTTP全文字段及流传；[NCMA说明](https://ncartmuseum.org/wp-content/uploads/2021/06/Curator_Intro_Batoni_Triumph_of_Venice.pdf)实际两页PDF全文；[Treccani Foscarini简传](https://www.treccani.it/enciclopedia/marco-foscarini/)与[Kress历史](https://www.kressfoundation.org/Kress-Collection/History)全文 | 题名、Batoni、Kress收藏与NCMA共同配对为K2149／GL.60.17.60。规范作者全名；分开1737年完成、Foscarini委托、罗马委托地点、威尼斯宫安置、1956-11-30基金会购入与1961年捐赠。基金会不是原始赞助人；委托地点不自动等于有证制作地点。 |
+| FM-P52a，E:L130，xv；供片E:L168，xvi | [NPG mp02907](https://www.npg.org.uk/collections/search/person/mp02907/owen-macswinny-or-swinny)简介与8件肖像索引；[mp07669](https://www.npg.org.uk/collections/search/person/mp07669/peter-van-bleeck?role=art)题头与首页20项；[D5204](https://www.npg.org.uk/collections/search/portrait/mw39557/Owen-MacSwinny-or-Swinny)对象字段 | P. Van Bleek对应Peter van Bleeck，Owen McSwiny对应Owen MacSwinny；机构确定为伦敦国家肖像馆。索引中NPG1417是after Peter van Bleeck的油画，D5204是本人制作的美柔汀；不能凭同名和馆名选一个号。仅落实人物和机构，作品版本继续待核。 |
+| FM-P40a，E:L110，xiv | [Uffizi On Being Present](https://www.uffizi.it/en/online-exhibitions/on-being-present)，直接读取第15项全文及第16项中三名乐师比较段 | A. D. Gabbiani对应Anton Domenico Gabbiani。皮蒂宫《四名宫廷侍从》3827和学院美术馆《三名宫廷乐师》2802均不能直接等同本书《乐师群像》；不采两作尺寸、年代或人物名单。学院美术馆导览PDF未成功读取，不列为采用来源。 |
+| 图版49a收藏链外部端点 | [Pinakothek馆方历史，2026-04-07](https://www.pinakothek.de/de/alles-gute-zum-geburtstag-alte-pinakothek)，收藏汇集、1836年开放与管理机构段；并用馆藏4666 | 历史杜塞尔多夫选侯画廊与今日老绘画陈列馆分别登记institution；前者按历史收藏机构而非某座建筑建模。1806是转入慕尼黑收藏的日期，不写成1836才开放的博物馆已于1806接收。 |
+| FM-P52b，E:L130，xv | [Zeri作品URL69391／条目67084](https://catalogo.fondazionezeri.unibo.it/entry/work/69391/)完整实际目录；[NPG Tillotson图像目录](https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography)题头与末段；[Landmark Trust Fox Hall History Album](https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf)PDF90及重复的118全文与图注；[Compton Verney](https://www.comptonverney.org.uk/our-story/history-of-compton-verney/)Sir Peter Moores完整纪念简介 | 三位作者展开为Giovanni Antonio Canal、Giovanni Battista Cimaroli、Giovanni Battista Pittoni；Tillotson为John，1630–1694。NPG依据1970年目录分出Moores原画和其他版本；Landmark图注明确三人分别画建筑、风景、人物。MacSwinny的系列委托约1725–29年，与当代收藏者Moores分开；Moores的2003骑士称号不倒填为本书出版时称号。 |
+
+实际访问日均为2026-09-14。BM索引不是独立于馆方记录的新研究；Kress与NCMA共用同一收藏解释链，不能仅按域名数当作独立事实证据。未新增QID或Wikipedia全文阅读／双向核对声明。
+
+Zeri直接请求出现本机证书链错误后，仅为读取此公开目录采用一次不校验证书的请求，未更改持久网络设置。Landmark PDF90和118内容重复，只算一处证据；未称整部图册全文已读。NPG的1970版本判断为2009目录转述，本轮未读取Croft-Murray原书。Zeri该条记录列218×138.5 cm及1993年Newhouse Galleries，与Moores原画尚未核同，因此仅用其作者身份字段，不把尺寸、年代、Newhouse位置写入本书作品。
+
+### 新端点与关系交接
+
+| 稳定锚点 | 新知识元 | 必需角色 |
+|---|---|---|
+| FM-P45.ext.commissioner | [Marco Foscarini](../../../04-knowledge/units/persons/marco-foscarini.md) | 委托人；驻罗马1736–40、总督1762–63分列。 |
+| FM-P45.ext.original-site | [Palazzo Venezia](../../../04-knowledge/units/places/palazzo-venezia.md) | 1737年完成后的安置建筑，与威尼斯共和国政治实体分开。 |
+| FM-P45.ext.donor | [Samuel H. Kress Foundation](../../../04-knowledge/units/institutions/samuel-h-kress-foundation.md) | 1956购入、1961捐赠；不等同原书集合性Kress Collection。 |
+| FM-P49a.ext.subject | [Johann Wilhelm](../../../04-knowledge/units/persons/johann-wilhelm-elector-palatine.md) | 教育寓意图的描绘人物；头衔不是现实授课关系。 |
+| FM-P49a.ext.repository | [Alte Pinakothek](../../../04-knowledge/units/institutions/alte-pinakothek.md) | 馆藏4666所属博物馆，机构与建筑分开。 |
+| FM-P49a.ext.former-collection | [Düsseldorf Electoral Picture Gallery](../../../04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md) | 1806年的来源收藏，不与今日Kunstpalast无据合并。 |
+
+6个对象均以实际外部来源登记，不伪造原书引文；相关作品与机构字段已链接，正式relations尚未写入。原书图版45的创作、收藏和位置候选保持；外部委托、安置、购入、捐赠另以以上锚点及卡内来源交接。原书46的创作、描绘、保管由BM该素描记录补证；馆方对Motteux与画家相识途径的两种猜测不转为朋友或委托事实。1712年重返商业保留“似已”的限定。
+
+FM-P52b的三名共同作者原书已有，外部补入分工：Canaletto→建筑、Cimaroli→风景、Pittoni→人物。各人物卡与作品卡同步分字段；这是该画具体合作，不能泛化为终生合作。FM-P52b.ext.commission记录MacSwinny组织委托，端点复用此前已对齐的[Owen MacSwinny](../../../04-knowledge/units/persons/owen-mcswiny.md)；范围为约1725–29年的纪念画系列，不作为单画的精确完工年。Tillotson为已故纪念对象，作品是绘画，不能建立Tillotson本人委托、实际墓建筑或安葬关系。NPG所记Moores原画属历史收藏证据，不证明今天仍在Moores私人收藏中。
+
+图版49a的Palatinate是人物称谓中的地理限定；已将原卡“描绘地点／对象”改为“原书人物称谓中的地区”，不转成描绘景观的正式关系。图版40a和52a的版本待核，不能对未确定实物的年代、材质、摹制关系定稿。9项原始主候选仍为FM-P05、P68a、H02、H05、H09、H12、H13、H14、H16；9不是全部版本或内容缺口数。
+
+NCMA两页说明中的Leonardo Loredan生卒／任期1436–1531／1501–1531存在疑点，未采该日期或扩写整幅寓意人物系统。Kress与NCMA索引对1916拍卖项、Butterfield生年有异文，尚未采入字段；后续如补全流传史应核实相应记录并建端点。BM早期收藏者同样留待作品流传补足。并未完成全部图版的视觉核同，馆藏身份比较不称图像验证。
+
+### 写回与状态
+
+逐项语义判断后，阅读拟写回正文并预检临时`C:/Users/001/AppData/Local/Temp/pnp-rev093/plan.json`与差异，同一文件串行写回；图版52b接续计划另保留`tomb-plan.json`的中间before／after。累计27卡、27条原书摘录、119条本地链接及来源编号检查通过；820个有效路径无重复／缺失，原sources前缀、已有正式relations及accepted非units内容保持，既有内容检查无确定性发现。这是模型语义自查与机械核对，不称人工或独立验收。
+
+当前全库820个有效KU，章前任务445个：累计398个新建、43个既有有效KU更新、4个旧卡整理接收。初始241条仍为228条映射、4条属性／语境、9条暂缓。图版45、46、49a的可用身份带具体缺口交后续补足；其余对象继续集中对齐。整体初步对齐、全面补足及关系定稿仍未完成，本轮业务成果未提交或推送。

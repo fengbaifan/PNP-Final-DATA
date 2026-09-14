@@ -1,10 +1,10 @@
 generated: '2026-09-14'
-total: 694
+total: 699
 index:
 - slug: persons/a-d-gabbiani
   type: persons
-  name_en: A. D. Gabbiani
-  title: A. D. 加比亚尼（A. D. Gabbiani）
+  name_en: Anton Domenico Gabbiani
+  title: 安东·多梅尼科·加比亚尼（Anton Domenico Gabbiani）
   name_original: ''
   language_original: ''
 - slug: persons/a-de-montaiglon
@@ -189,8 +189,8 @@ index:
   language_original: ''
 - slug: persons/archbishop-tillotson
   type: persons
-  name_en: Archbishop Tillotson
-  title: 蒂洛特森大主教（Archbishop Tillotson）
+  name_en: John Tillotson
+  title: 约翰·蒂洛特森（John Tillotson）
   name_original: ''
   language_original: ''
 - slug: persons/aristotle
@@ -297,8 +297,8 @@ index:
   language_original: ''
 - slug: persons/canaletto
   type: persons
-  name_en: Canaletto
-  title: 卡纳莱托（Canaletto）
+  name_en: Giovanni Antonio Canal
+  title: 乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）
   name_original: ''
   language_original: ''
 - slug: persons/canova
@@ -417,8 +417,8 @@ index:
   language_original: ''
 - slug: persons/cimaroli
   type: persons
-  name_en: Cimaroli
-  title: 奇马罗利（Cimaroli）
+  name_en: Giovanni Battista Cimaroli
+  title: 乔瓦尼·巴蒂斯塔·奇马罗利（Giovanni Battista Cimaroli）
   name_original: ''
   language_original: ''
 - slug: persons/ciriaco-mattei
@@ -1057,6 +1057,12 @@ index:
   title: 杰罗姆·班克斯（Jerome Bankes）
   name_original: ''
   language_original: ''
+- slug: persons/johann-wilhelm-elector-palatine
+  type: persons
+  name_en: Johann Wilhelm, Elector Palatine
+  title: 约翰·威廉（Johann Wilhelm, Elector Palatine）
+  name_original: ''
+  language_original: ''
 - slug: persons/john-finch
   type: persons
   name_en: John Finch
@@ -1211,6 +1217,12 @@ index:
   type: persons
   name_en: Marco Chiarini
   title: 马尔科·基亚里尼（Marco Chiarini）
+  name_original: ''
+  language_original: ''
+- slug: persons/marco-foscarini
+  type: persons
+  name_en: Marco Foscarini
+  title: 马尔科·福斯卡里尼（Marco Foscarini）
   name_original: ''
   language_original: ''
 - slug: persons/marco-pitteri
@@ -1395,14 +1407,14 @@ index:
   language_original: ''
 - slug: persons/owen-mcswiny
   type: persons
-  name_en: Owen McSwiny
-  title: 欧文·麦克斯温尼（Owen McSwiny）
+  name_en: Owen MacSwinny
+  title: 欧文·麦克斯温尼（Owen MacSwinny）
   name_original: ''
   language_original: ''
 - slug: persons/p-van-bleek
   type: persons
-  name_en: P. Van Bleek
-  title: P. 范·布莱克（P. Van Bleek）
+  name_en: Peter van Bleeck
+  title: 彼得·范·布莱克（Peter van Bleeck）
   name_original: ''
   language_original: ''
 - slug: persons/paolo-borghese
@@ -1467,8 +1479,8 @@ index:
   language_original: ''
 - slug: persons/pellegrini
   type: persons
-  name_en: Pellegrini
-  title: 佩莱格里尼（Pellegrini）
+  name_en: Giovanni Antonio Pellegrini
+  title: 乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）
   name_original: ''
   language_original: ''
 - slug: persons/peter-calvocoressi
@@ -1509,8 +1521,8 @@ index:
   language_original: ''
 - slug: persons/pierre-motteux
   type: persons
-  name_en: Pierre Motteux
-  title: 皮埃尔·莫特（Pierre Motteux）
+  name_en: Peter Anthony Motteux
+  title: 彼得·安东尼·莫特（Peter Anthony Motteux）
   name_original: ''
   language_original: ''
 - slug: persons/pierre-rosenberg
@@ -1563,14 +1575,14 @@ index:
   language_original: ''
 - slug: persons/pittoni
   type: persons
-  name_en: Pittoni
-  title: 皮托尼（Pittoni）
+  name_en: Giovanni Battista Pittoni
+  title: 乔瓦尼·巴蒂斯塔·皮托尼（Giovanni Battista Pittoni）
   name_original: ''
   language_original: ''
 - slug: persons/pompeo-batoni
   type: persons
-  name_en: Pompeo Batoni
-  title: 蓬佩奥·巴托尼（Pompeo Batoni）
+  name_en: Pompeo Girolamo Batoni
+  title: 蓬佩奥·吉罗拉莫·巴托尼（Pompeo Girolamo Batoni）
   name_original: ''
   language_original: ''
 - slug: persons/prospero-orsi
@@ -3261,8 +3273,8 @@ index:
   language_original: ''
 - slug: works/p-van-bleek-owen-mcswiny
   type: works
-  name_en: '"Portrait of Owen McSwiny"'
-  title: '"欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）"'
+  name_en: Portrait of Owen McSwiny
+  title: 欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）
   name_original: ''
   language_original: ''
 - slug: works/paolo-de-matteis-the-choice-of-hercules
@@ -3619,6 +3631,12 @@ index:
   title: 阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）
   name_original: ''
   language_original: ''
+- slug: institutions/alte-pinakothek
+  type: institutions
+  name_en: Alte Pinakothek
+  title: 老绘画陈列馆（Alte Pinakothek）
+  name_original: ''
+  language_original: ''
 - slug: institutions/apostolic-chamber
   type: institutions
   name_en: '"Apostolic Chamber"'
@@ -3651,8 +3669,8 @@ index:
   language_original: ''
 - slug: institutions/bayerischen-staatsgemaldesammlungen
   type: institutions
-  name_en: Bayerischen Staatsgemäldesammlungen
-  title: 巴伐利亚国家绘画收藏机构（Bayerischen Staatsgemäldesammlungen）
+  name_en: Bavarian State Painting Collections
+  title: 巴伐利亚国家绘画收藏机构（Bavarian State Painting Collections）
   name_original: ''
   language_original: ''
 - slug: institutions/biblioteca-augusta
@@ -3725,6 +3743,12 @@ index:
   type: institutions
   name_en: Detroit Institute of Arts
   title: 底特律艺术学院（Detroit Institute of Arts）
+  name_original: ''
+  language_original: ''
+- slug: institutions/dusseldorf-electoral-picture-gallery
+  type: institutions
+  name_en: Düsseldorf Electoral Picture Gallery
+  title: 杜塞尔多夫选侯画廊（Düsseldorf Electoral Picture Gallery）
   name_original: ''
   language_original: ''
 - slug: institutions/fabbrica-di-san-pietro
@@ -3945,8 +3969,8 @@ index:
   language_original: ''
 - slug: institutions/national-portrait-gallery
   type: institutions
-  name_en: National Portrait Gallery
-  title: 国家肖像馆（National Portrait Gallery）
+  name_en: National Portrait Gallery, London
+  title: 伦敦国家肖像馆（National Portrait Gallery, London）
   name_original: ''
   language_original: ''
 - slug: institutions/national-trust
@@ -4031,6 +4055,12 @@ index:
   type: institutions
   name_en: Royal Collections Gallery
   title: 西班牙皇家收藏美术馆（Royal Collections Gallery）
+  name_original: ''
+  language_original: ''
+- slug: institutions/samuel-h-kress-foundation
+  type: institutions
+  name_en: Samuel H. Kress Foundation
+  title: 塞缪尔·H. 克雷斯基金会（Samuel H. Kress Foundation）
   name_original: ''
   language_original: ''
 - slug: institutions/sanssouci-picture-gallery

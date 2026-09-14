@@ -1,4 +1,4 @@
-# 当前有效成果：814 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：820 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -71,6 +71,7 @@ units:
 - 04-knowledge/units/institutions/a-villani-e-figli.md
 - 04-knowledge/units/institutions/accademia-di-san-luca.md
 - 04-knowledge/units/institutions/agraci.md
+- 04-knowledge/units/institutions/alte-pinakothek.md
 - 04-knowledge/units/institutions/apostolic-chamber.md
 - 04-knowledge/units/institutions/arcadia.md
 - 04-knowledge/units/institutions/art-institute-of-chicago.md
@@ -89,6 +90,7 @@ units:
 - 04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md
 - 04-knowledge/units/institutions/correr-library.md
 - 04-knowledge/units/institutions/detroit-institute-of-arts.md
+- 04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md
 - 04-knowledge/units/institutions/fabbrica-di-san-pietro.md
 - 04-knowledge/units/institutions/finnish-institute.md
 - 04-knowledge/units/institutions/fitzwilliam-museum.md
@@ -140,6 +142,7 @@ units:
 - 04-knowledge/units/institutions/royal-academy.md
 - 04-knowledge/units/institutions/royal-collection.md
 - 04-knowledge/units/institutions/royal-collections-gallery.md
+- 04-knowledge/units/institutions/samuel-h-kress-foundation.md
 - 04-knowledge/units/institutions/sanssouci-picture-gallery.md
 - 04-knowledge/units/institutions/schildersbent.md
 - 04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md
@@ -333,6 +336,7 @@ units:
 - 04-knowledge/units/persons/j-tomilson-hill.md
 - 04-knowledge/units/persons/jacopo-salviati.md
 - 04-knowledge/units/persons/jerome-bankes.md
+- 04-knowledge/units/persons/johann-wilhelm-elector-palatine.md
 - 04-knowledge/units/persons/john-finch.md
 - 04-knowledge/units/persons/john-gilmartin.md
 - 04-knowledge/units/persons/john-nicoll.md
@@ -358,6 +362,7 @@ units:
 - 04-knowledge/units/persons/marchese-pallavicini-piola.md
 - 04-knowledge/units/persons/marchese-san-tommaso-negri.md
 - 04-knowledge/units/persons/marco-chiarini.md
+- 04-knowledge/units/persons/marco-foscarini.md
 - 04-knowledge/units/persons/marco-pitteri.md
 - 04-knowledge/units/persons/marco-ricci.md
 - 04-knowledge/units/persons/marianne-roland-michel.md
@@ -521,6 +526,7 @@ units:
 - 04-knowledge/units/places/palazzo-doria-pamfili.md
 - 04-knowledge/units/places/palazzo-ducale.md
 - 04-knowledge/units/places/palazzo-pitti.md
+- 04-knowledge/units/places/palazzo-venezia.md
 - 04-knowledge/units/places/pamfili-country-house-valmontone.md
 - 04-knowledge/units/places/paris.md
 - 04-knowledge/units/places/parma.md
