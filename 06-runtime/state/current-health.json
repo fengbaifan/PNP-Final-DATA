@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T02:00:49",
+  "timestamp": "2026-09-15T02:22:13",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 907,
+    "total_units": 912,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,20 +26,20 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 907,
+    "total_units": 912,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 907,
+    "units_missing_any_assignment": 912,
     "field_coverage": {
-      "primary_domain": "0/907",
-      "primary_dimension": "0/907",
-      "primary_theme": "0/907",
-      "topic_memberships": "0/907"
+      "primary_domain": "0/912",
+      "primary_dimension": "0/912",
+      "primary_theme": "0/912",
+      "topic_memberships": "0/912"
     }
   },
   "counts_by_type": {
-    "persons": 330,
+    "persons": 332,
     "families": 8,
-    "institutions": 125,
+    "institutions": 128,
     "places": 133,
     "works": 203,
     "archives": 57,
@@ -152,6 +152,7 @@
       "04-knowledge/units/persons/enzo-crea.md",
       "04-knowledge/units/persons/ermete-cavalletti.md",
       "04-knowledge/units/persons/ernest-cognacq.md",
+      "04-knowledge/units/persons/ernest-graf.md",
       "04-knowledge/units/persons/fabrizio-arragona.md",
       "04-knowledge/units/persons/fabrizio-valguarnera.md",
       "04-knowledge/units/persons/federigo-zuccari.md",
@@ -260,6 +261,7 @@
       "04-knowledge/units/persons/leopoldo-de-medici.md",
       "04-knowledge/units/persons/lodovico-gimignani.md",
       "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+      "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
       "04-knowledge/units/persons/louis-xiv.md",
       "04-knowledge/units/persons/luca-giordano.md",
       "04-knowledge/units/persons/ludovico-ludovisi.md",
@@ -415,6 +417,7 @@
       "04-knowledge/units/institutions/ca-foscari-university-venice.md",
       "04-knowledge/units/institutions/capitoline-museums.md",
       "04-knowledge/units/institutions/capuchins.md",
+      "04-knowledge/units/institutions/charavay-freres.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
       "04-knowledge/units/institutions/city-of-paris.md",
       "04-knowledge/units/institutions/clark-art-institute.md",
@@ -447,6 +450,7 @@
       "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
       "04-knowledge/units/institutions/jesuits.md",
+      "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
       "04-knowledge/units/institutions/knights-hospitaller.md",
@@ -455,6 +459,7 @@
       "04-knowledge/units/institutions/library-of-congress.md",
       "04-knowledge/units/institutions/louvre-museum.md",
       "04-knowledge/units/institutions/marlborough-fine-art-ltd.md",
+      "04-knowledge/units/institutions/mascardi-rome.md",
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
@@ -1034,6 +1039,7 @@
       "04-knowledge/units/persons/enzo-crea.md",
       "04-knowledge/units/persons/ermete-cavalletti.md",
       "04-knowledge/units/persons/ernest-cognacq.md",
+      "04-knowledge/units/persons/ernest-graf.md",
       "04-knowledge/units/persons/fabrizio-arragona.md",
       "04-knowledge/units/persons/fabrizio-valguarnera.md",
       "04-knowledge/units/persons/federigo-zuccari.md",
@@ -1142,6 +1148,7 @@
       "04-knowledge/units/persons/leopoldo-de-medici.md",
       "04-knowledge/units/persons/lodovico-gimignani.md",
       "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+      "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
       "04-knowledge/units/persons/louis-xiv.md",
       "04-knowledge/units/persons/luca-giordano.md",
       "04-knowledge/units/persons/ludovico-ludovisi.md",
@@ -1297,6 +1304,7 @@
       "04-knowledge/units/institutions/ca-foscari-university-venice.md",
       "04-knowledge/units/institutions/capitoline-museums.md",
       "04-knowledge/units/institutions/capuchins.md",
+      "04-knowledge/units/institutions/charavay-freres.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
       "04-knowledge/units/institutions/city-of-paris.md",
       "04-knowledge/units/institutions/clark-art-institute.md",
@@ -1329,6 +1337,7 @@
       "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
       "04-knowledge/units/institutions/jesuits.md",
+      "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
       "04-knowledge/units/institutions/knights-hospitaller.md",
@@ -1337,6 +1346,7 @@
       "04-knowledge/units/institutions/library-of-congress.md",
       "04-knowledge/units/institutions/louvre-museum.md",
       "04-knowledge/units/institutions/marlborough-fine-art-ltd.md",
+      "04-knowledge/units/institutions/mascardi-rome.md",
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
@@ -1850,8 +1860,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 330,
-      "tags": 330,
+      "sub_type": 332,
+      "tags": 332,
       "evidence_status": 0
     },
     "families": {
@@ -1860,8 +1870,8 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 125,
-      "tags": 125,
+      "sub_type": 128,
+      "tags": 128,
       "evidence_status": 0
     },
     "places": {
@@ -1952,11 +1962,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 218,
+    "sources_without_evidence_ref": 223,
     "evidence_ref_resolvable": 1053,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1053,
-    "units_with_traceable_source": 907
+    "units_with_traceable_source": 912
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1969,8 +1979,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 701,
-    "explicit_relations_with_evidence": 701
+    "explicit_relations": 736,
+    "explicit_relations_with_evidence": 736
   },
   "source_hash": {
     "total_sources": 0,
@@ -1988,7 +1998,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 907,
+      "count": 912,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2086,6 +2096,7 @@
         "04-knowledge/units/persons/enzo-crea.md",
         "04-knowledge/units/persons/ermete-cavalletti.md",
         "04-knowledge/units/persons/ernest-cognacq.md",
+        "04-knowledge/units/persons/ernest-graf.md",
         "04-knowledge/units/persons/fabrizio-arragona.md",
         "04-knowledge/units/persons/fabrizio-valguarnera.md",
         "04-knowledge/units/persons/federigo-zuccari.md",
@@ -2194,6 +2205,7 @@
         "04-knowledge/units/persons/leopoldo-de-medici.md",
         "04-knowledge/units/persons/lodovico-gimignani.md",
         "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+        "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
         "04-knowledge/units/persons/louis-xiv.md",
         "04-knowledge/units/persons/luca-giordano.md",
         "04-knowledge/units/persons/ludovico-ludovisi.md",
@@ -2349,6 +2361,7 @@
         "04-knowledge/units/institutions/ca-foscari-university-venice.md",
         "04-knowledge/units/institutions/capitoline-museums.md",
         "04-knowledge/units/institutions/capuchins.md",
+        "04-knowledge/units/institutions/charavay-freres.md",
         "04-knowledge/units/institutions/chatto-and-windus.md",
         "04-knowledge/units/institutions/city-of-paris.md",
         "04-knowledge/units/institutions/clark-art-institute.md",
@@ -2381,6 +2394,7 @@
         "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
         "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
         "04-knowledge/units/institutions/jesuits.md",
+        "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
         "04-knowledge/units/institutions/kimbell-art-museum.md",
         "04-knowledge/units/institutions/kings-college-cambridge.md",
         "04-knowledge/units/institutions/knights-hospitaller.md",
@@ -2389,6 +2403,7 @@
         "04-knowledge/units/institutions/library-of-congress.md",
         "04-knowledge/units/institutions/louvre-museum.md",
         "04-knowledge/units/institutions/marlborough-fine-art-ltd.md",
+        "04-knowledge/units/institutions/mascardi-rome.md",
         "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
         "04-knowledge/units/institutions/ministry-of-works.md",
         "04-knowledge/units/institutions/musee-cognacq-jay.md",
@@ -2998,12 +3013,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 337,
+      "total": 339,
       "coverage": {
-        "name_original": "0/337",
-        "language_original": "0/337",
-        "name_zh": "0/337",
-        "translation_status": "0/337"
+        "name_original": "0/339",
+        "language_original": "0/339",
+        "name_zh": "0/339",
+        "translation_status": "0/339"
       }
     },
     "families": {
@@ -3016,12 +3031,12 @@
       }
     },
     "institutions": {
-      "total": 125,
+      "total": 128,
       "coverage": {
-        "name_original": "0/125",
-        "name_original_language": "0/125",
-        "name_zh": "0/125",
-        "translation_status": "0/125"
+        "name_original": "0/128",
+        "name_original_language": "0/128",
+        "name_zh": "0/128",
+        "translation_status": "0/128"
       }
     },
     "works": {
@@ -3051,9 +3066,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 769,
-    "indexed": 769,
-    "declared_total": 769,
+    "expected": 774,
+    "indexed": 774,
+    "declared_total": 774,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3061,14 +3076,14 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 702,
-    "explicit_relation_count": 701,
+    "relation_index_total": 737,
+    "explicit_relation_count": 736,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 701,
+    "weak_evidence_count": 736,
     "needs_evidence_count": 0,
-    "relation_type_coverage": "51/121"
+    "relation_type_coverage": "52/121"
   },
   "output_file_back": {
     "total_outputs": 3,
@@ -3128,34 +3143,30 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 907,
+    "total_units": 912,
     "source_count_distribution": {
-      "multi_source": 705,
-      "single_source": 202
+      "multi_source": 713,
+      "single_source": 199
     },
     "confidence_distribution": {
-      "missing": 907
+      "missing": 912
     },
     "consensus_distribution": {
-      "missing": 907
+      "missing": 912
     },
     "evidence_status_distribution": {
-      "source_backed": 907
+      "source_backed": 912
     },
     "isolated_units": {
-      "count": 347,
+      "count": 329,
       "sample": [
-        "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
         "archives/goldoni-opere-vol-2-1761.md",
-        "archives/montaiglon-academy-correspondence.md",
-        "archives/pastor-popes-english-vol33.md",
         "archives/us-copyright-law.md",
         "events/san-clemente-redecoration.md",
         "families/pisani-family.md",
         "families/rezzonico-family.md",
-        "families/sacchetti-family.md",
         "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
         "institutions/alte-pinakothek.md",
@@ -3169,7 +3180,11 @@
         "institutions/gymnasium-zu-grauen-kloster.md",
         "institutions/musei-civici-veneziani.md",
         "institutions/museo-di-capodimonte.md",
-        "institutions/museum-of-fine-arts-houston.md"
+        "institutions/museum-of-fine-arts-houston.md",
+        "institutions/national-portrait-gallery.md",
+        "institutions/national-trust.md",
+        "institutions/north-carolina-museum-of-art.md",
+        "institutions/oratorians.md"
       ]
     },
     "candidate_debt": {
@@ -3186,7 +3201,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 202,
+      "single_source_units": 199,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3201,7 +3216,7 @@
     "empty_frontmatter_values": 0,
     "missing_sections": 0,
     "text_corruption": 0,
-    "title_format_issues": 0,
+    "title_format_issues": 1,
     "duplicate_titles": 0,
     "cross_type_same_name": 0,
     "body_verify_vs_fm": 0,
@@ -3211,7 +3226,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 907,
-    "total_findings": 0
+    "total_files": 912,
+    "total_findings": 1
   }
 }

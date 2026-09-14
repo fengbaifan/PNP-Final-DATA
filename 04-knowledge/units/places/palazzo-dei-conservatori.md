@@ -48,7 +48,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：页面访问2026-09-15；角色：陈列场所：二楼；范围：馆方页面所述绘画收藏陈列位置；原断言与证据见发出端卡片“卡比托利欧绘画馆（Pinacoteca Capitolina）”：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；institutions-pinacoteca-capitolina；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
 
 ### 关系候选入口
 

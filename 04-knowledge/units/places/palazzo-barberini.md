@@ -124,6 +124,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | → 所在地（`location_of`） | [巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto for the Barberini Salone (disputed attribution)）](../works/barberini-salone-bozzetto-disputed.md) | 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议；角色：本书写作时所报保存地点；范围：归属仍有争议；不延伸为今日馆藏；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 463–464; print pp. 12 |
 | ← 安置地点（`installation_site_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 来源将Judith Beheading Holofernes (Palazzo Barberini version)与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；installed-at-places-palazzo-barberini-md；本卡S2；有S4时并参对象／地点说明 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md) | 角色：描绘建筑；范围：题名明确with view of Palazzo Barberini；原断言与证据见发出端卡片“《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

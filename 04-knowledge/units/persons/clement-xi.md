@@ -99,6 +99,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 时间：论述1700–1721；角色：传记对象；范围：卷题明确的教皇；书中评价不转写为现代研究定论；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页CLEMENT XI；印刷p.13 |
 | → 向其授予权利（`granted_privilege_to`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 Ghezzi 在圣彼得的一项 benefice，保留来源职位用语；角色：benefice授予者；范围：圣彼得的一项benefice；不改写为一般任职；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
 
 ### 身份与外部链接

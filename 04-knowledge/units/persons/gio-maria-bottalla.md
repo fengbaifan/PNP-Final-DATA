@@ -78,7 +78,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [以扫与雅各相会（Meeting of Esau and Jacob）](../works/gio-maria-bottalla-meeting-of-esau-and-jacob.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；原断言与证据见发出端卡片“以扫与雅各相会（Meeting of Esau and Jacob）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 54–55; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

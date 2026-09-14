@@ -16,8 +16,44 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 51–51; 章前：图版目录；印刷页xii
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构身份与书目版本责任集中补足
+relations:
+- relation_type: created_by
+  target: persons/pietro-da-cortona.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 图版目录明确署名；不推断另版本
+  role: 图版作品作者
+- relation_type: held_by
+  target: institutions/pinacoteca-capitolina.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书图版目录记载的保管机构；不等于核实当前产权
+  role: 书中保管者
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/rome.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 书中明确的保管城市，不是作品创作地
+  role: 书中位置
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -48,7 +84,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
+| → 由其保管（`held_by`） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：书中明确的保管城市，不是作品创作地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

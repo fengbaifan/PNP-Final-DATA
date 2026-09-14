@@ -48,7 +48,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [斯图加特州立美术馆（Staatsgalerie, Stuttgart）](../institutions/staatsgalerie-stuttgart.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：市政府机构地址；不等于作品创作地点；原断言与证据见发出端卡片“斯图加特州立美术馆（Staatsgalerie, Stuttgart）”：[来源](https://www.stuttgart.de/tourismus/sehenswuerdigkeiten/staatsgalerie)；institutions-staatsgalerie-stuttgart；德语页面正文、图注与地址字段；页面标注2021-02-18 |
 
 ### 关系候选入口
 

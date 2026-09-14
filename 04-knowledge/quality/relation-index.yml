@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 702
-# sources: {'explicit': 701, 'inferred_by_rule': 1}
+# total: 737
+# sources: {'explicit': 736, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -909,6 +909,26 @@
   time: 1704起；1708在任
   role: 院长
   scope: 1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期
+- source: persons/charles-francois-poerson.md
+  source_type: person
+  target: persons/louis-antoine-de-pardaillan-de-gondrin.md
+  target_type: person
+  relation_type: corresponded_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-poerson-letter-1708
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 第1317号信题头、日期及署名；印刷pp.239、241
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1708-10-20'
+  role: 写信人→收信人
+  scope: 此信支持一次通信，不自动证明朋友或赞助关系
 - source: persons/charles-v.md
   source_type: person
   target: persons/titian.md
@@ -3728,6 +3748,26 @@
   review_status: evidence_backed_relation
   role: 所在地
   scope: 机构所在地
+- source: institutions/charavay-freres.md
+  source_type: institution
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-montaiglon-academy-correspondence
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 第三卷题名页；PDF第9页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1889年12月
+  role: 书商地址所在城市
+  scope: 题名页出版商地址4, rue de Furstenberg
 - source: institutions/city-of-paris.md
   source_type: institution
   target: places/paris.md
@@ -3879,6 +3919,26 @@
   time: 1975起
   role: 组成机构
   scope: 1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动
+- source: institutions/kegan-paul-trench-trubner.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页出版项；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1941'
+  role: 出版活动地
+  scope: 题名页所示该出版商的出版活动地点
 - source: institutions/marlborough-fine-art-ltd.md
   source_type: institution
   target: places/london.md
@@ -3899,6 +3959,26 @@
   time: '1946'
   role: 初始营业城市
   scope: 画廊初创时期所在城市，17–18 Old Bond Street
+- source: institutions/mascardi-rome.md
+  source_type: institution
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-aedes-barberinae-ad-quirinalem
+    source_file: https://www.metmuseum.org/art/collection/search/344493
+    source_span: Artwork Details：Publisher、Published in、Date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1642'
+  role: 出版活动地
+  scope: 1642版出版项所载出版活动地点，不推定全时段地址
 - source: institutions/musee-cognacq-jay.md
   source_type: institution
   target: persons/ernest-cognacq.md
@@ -3994,6 +4074,45 @@
   review_status: evidence_backed_relation
   role: 创办地
   scope: 官网称在维也纳创办，未用相对时间倒算成立年
+- source: institutions/pinacoteca-capitolina.md
+  source_type: institution
+  target: institutions/capitoline-museums.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-pinacoteca-capitolina
+    source_file: https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina
+    source_span: 完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘画收藏部门
+  scope: 馆方现行收藏部门；不同于建筑空间
+- source: institutions/pinacoteca-capitolina.md
+  source_type: institution
+  target: places/palazzo-dei-conservatori.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-pinacoteca-capitolina
+    source_file: https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina
+    source_span: 完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 页面访问2026-09-15
+  role: 陈列场所：二楼
+  scope: 馆方页面所述绘画收藏陈列位置
 - source: institutions/royal-academy.md
   source_type: institution
   target: places/london.md
@@ -4069,6 +4188,26 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 本书图片来源所列历史监管机构所在地
+- source: institutions/staatsgalerie-stuttgart.md
+  source_type: institution
+  target: places/stuttgart.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-staatsgalerie-stuttgart
+    source_file: https://www.stuttgart.de/tourismus/sehenswuerdigkeiten/staatsgalerie
+    source_span: 德语页面正文、图注与地址字段；页面标注2021-02-18
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 页面访问2026-09-15
+  role: 机构所在城市
+  scope: 市政府机构地址；不等于作品创作地点
 - source: institutions/stearn-and-son.md
   source_type: institution
   target: places/cambridge.md
@@ -4145,6 +4284,26 @@
   time: 2005年记录
   role: 出版项所列馆址
   scope: 2005年出版项所列West Road城市；不倒填1416年的精确地址
+- source: institutions/wallraf-richartz-museum.md
+  source_type: institution
+  target: places/cologne.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-wallraf-richartz-museum
+    source_file: https://www.wallraf.museum/en/the-museum/contact/contact/
+    source_span: 完整联系页机构名称与地址字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 页面访问2026-09-15
+  role: 机构所在城市
+  scope: 馆方联系地址；不以此说明作品产权
 - source: institutions/warburg-institute-library.md
   source_type: institution
   target: institutions/warburg-institute.md
@@ -9342,6 +9501,84 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 原书目录位置；不外推现藏或画中地点
+- source: works/gio-maria-bottalla-meeting-of-esau-and-jacob.md
+  source_type: work
+  target: persons/gio-maria-bottalla.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 54–55; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 图版作品作者
+  scope: 图版目录明确署名；不推断另版本
+- source: works/gio-maria-bottalla-meeting-of-esau-and-jacob.md
+  source_type: work
+  target: institutions/pinacoteca-capitolina.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 54–55; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录记载的保管机构；不等于核实当前产权
+- source: works/gio-maria-bottalla-meeting-of-esau-and-jacob.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 54–55; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中位置
+  scope: 书中明确的保管城市，不是作品创作地
+- source: works/gio-maria-bottalla-meeting-of-esau-and-jacob.md
+  source_type: work
+  target: families/sacchetti-family.md
+  target_type: family
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-gio-maria-bottalla-meeting-of-esau-and-jacob
+    source_file: https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/
+    source_span: Bottalla传记：Incontro di Esaù con Giacobbe、galleria Sacchetti段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 家族集体委托
+  scope: 人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分
 - source: works/guercino-sicilian-altarpiece-1665.md
   source_type: work
   target: persons/guercino.md
@@ -9381,6 +9618,64 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版9的复制图像；不表示作品创作者、所有者或保管者
+- source: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md
+  source_type: work
+  target: archives/aedes-barberinae-ad-quirinalem.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 49–50; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1642'
+  role: 卷首图
+  scope: 原书图版明确的卷首图与1642载体；未核剑桥具体印本号
+- source: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md
+  source_type: work
+  target: persons/guido-abbatini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 49–50; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 图版署名作者
+  scope: 原书图版作者署名；不细分未核的设计与刻制职责
+- source: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md
+  source_type: work
+  target: places/palazzo-barberini.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 49–50; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘建筑
+  scope: 题名明确with view of Palazzo Barberini
 - source: works/lanfranco-crucifixion-stock.md
   source_type: work
   target: persons/giovanni-lanfranco.md
@@ -10318,6 +10613,124 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/pietro-da-cortona-rape-of-the-sabines.md
+  source_type: work
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 图版作品作者
+  scope: 图版目录明确署名；不推断另版本
+- source: works/pietro-da-cortona-rape-of-the-sabines.md
+  source_type: work
+  target: institutions/pinacoteca-capitolina.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录记载的保管机构；不等于核实当前产权
+- source: works/pietro-da-cortona-rape-of-the-sabines.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中位置
+  scope: 书中明确的保管城市，不是作品创作地
+- source: works/pietro-testa-joseph-sold-by-his-brothers.md
+  source_type: work
+  target: persons/pietro-testa.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 56–56; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 图版作品作者
+  scope: 图版目录明确署名；不推断另版本
+- source: works/pietro-testa-joseph-sold-by-his-brothers.md
+  source_type: work
+  target: institutions/pinacoteca-capitolina.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 56–56; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录记载的保管机构；不等于核实当前产权
+- source: works/pietro-testa-joseph-sold-by-his-brothers.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 56–56; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中位置
+  scope: 书中明确的保管城市，不是作品创作地
 - source: works/pietro-testa-rest-on-the-flight-into-egypt.md
   source_type: work
   target: institutions/turners-of-cambridge.md
@@ -10914,6 +11327,66 @@
   review_status: evidence_backed_relation
   role: 受章程规范的机构
   scope: 第一章所述1621年获确认的章程；具体文本版本未知
+- source: archives/aedes-barberinae-ad-quirinalem.md
+  source_type: archive
+  target: persons/girolamo-teti.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-aedes-barberinae-ad-quirinalem
+    source_file: https://www.metmuseum.org/art/collection/search/344493
+    source_span: Artwork Details：Author、Date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1642出版
+  role: 文字作者
+  scope: 馆方明确的文字作者，不是全书插图刻版者
+- source: archives/aedes-barberinae-ad-quirinalem.md
+  source_type: archive
+  target: institutions/mascardi-rome.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-aedes-barberinae-ad-quirinalem
+    source_file: https://www.metmuseum.org/art/collection/search/344493
+    source_span: Artwork Details：Publisher、Published in、Date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1642'
+  role: 出版机构
+  scope: 1642年罗马版出版项；不把机构名称扩写成特定自然人
+- source: archives/aedes-barberinae-ad-quirinalem.md
+  source_type: archive
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-aedes-barberinae-ad-quirinalem
+    source_file: https://www.metmuseum.org/art/collection/search/344493
+    source_span: Artwork Details：Published in、Date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1642'
+  role: 出版地点
+  scope: 出版地，非印本保管地
 - source: archives/ameyden-relazione-1642.md
   source_type: archive
   target: persons/ameyden.md
@@ -11899,6 +12372,86 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/montaiglon-academy-correspondence.md
+  source_type: archive
+  target: persons/a-de-montaiglon.md
+  target_type: person
+  relation_type: compiled_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-montaiglon-academy-correspondence
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 第三卷题名页；PDF第9页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1889年12月
+  role: 第三卷编者
+  scope: 第三卷题名页署名；不将本卷署名扩大为各卷唯一责任
+- source: archives/montaiglon-academy-correspondence.md
+  source_type: archive
+  target: persons/jules-guiffrey.md
+  target_type: person
+  relation_type: compiled_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-montaiglon-academy-correspondence
+    source_file: https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a
+    source_span: INHA人物记录书目：Correspondance des directeurs，Montaiglon et Guiffrey
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 系列1887–1912
+  role: 系列共同编者
+  scope: INHA所列18卷系列的共同编者，不声称第三卷题名页列其名
+- source: archives/montaiglon-academy-correspondence.md
+  source_type: archive
+  target: institutions/charavay-freres.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-montaiglon-academy-correspondence
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 第三卷题名页；PDF第9页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1889年12月
+  role: 第三卷出版商
+  scope: 仅核第三卷题名页所列出版商，不覆盖全部18卷
+- source: archives/montaiglon-academy-correspondence.md
+  source_type: archive
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-montaiglon-academy-correspondence
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 第三卷题名页；PDF第9页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1889年12月
+  role: 第三卷出版地
+  scope: 第三卷版本的出版地，不是手稿所在地
 - source: archives/museum-studies-art-institute-chicago.md
   source_type: archive
   target: institutions/art-institute-of-chicago.md
@@ -12077,6 +12630,105 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/pastor-popes-english-vol33.md
+  source_type: archive
+  target: persons/pastor-historian.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原作者
+  scope: 题名页原作者；英文译者另列
+- source: archives/pastor-popes-english-vol33.md
+  source_type: archive
+  target: persons/ernest-graf.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页TRANSLATED BY；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1941出版
+  role: 译者
+  scope: 英文第三十三卷题名页明确的翻译责任
+- source: archives/pastor-popes-english-vol33.md
+  source_type: archive
+  target: institutions/kegan-paul-trench-trubner.md
+  target_type: institution
+  relation_type: published_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页出版项；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1941'
+  role: 出版商
+  scope: 本次核对的英文第三十三卷版本
+- source: archives/pastor-popes-english-vol33.md
+  source_type: archive
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页出版项；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1941'
+  role: 出版地
+  scope: 版本出版地点，不是现存印本保管地
+- source: archives/pastor-popes-english-vol33.md
+  source_type: archive
+  target: persons/clement-xi.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-pastor-popes-english-vol33
+    source_file: https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf
+    source_span: 题名页CLEMENT XI；印刷p.13
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 论述1700–1721
+  role: 传记对象
+  scope: 卷题明确的教皇；书中评价不转写为现代研究定论
 - source: archives/patrons-and-painters.md
   source_type: archive
   target: persons/francis-haskell.md
@@ -12535,7 +13187,47 @@
   review_status: evidence_backed_relation
   time: '1708'
   role: 写信人
-  scope: 本书所引1708年法语来信；收信人仅Mgr，不补造身份
+  scope: 本书所引1708年法语来信的写信人；精确日期和收信人另据通信集第1317号
+- source: archives/poerson-letter-1708.md
+  source_type: archive
+  target: persons/louis-antoine-de-pardaillan-de-gondrin.md
+  target_type: person
+  relation_type: addressed_to
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-poerson-letter-1708
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 印刷p.239第1317号信题头；PDF第249页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1708-10-20'
+  role: 收信人
+  scope: 刊本第1317号信题头M. d’Antin；身份依收信人人物卡来源
+- source: archives/poerson-letter-1708.md
+  source_type: archive
+  target: archives/montaiglon-academy-correspondence.md
+  target_type: archive
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-poerson-letter-1708
+    source_file: https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf
+    source_span: 题名页和印刷pp.239–241；第1317号
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1889年12月刊行
+  role: 刊载于第三卷pp.239–241
+  scope: 信件的编刊收录位置，非手稿物理归属
 - source: archives/quarisimini-carrara-letter-1696.md
   source_type: archive
   target: persons/carlo-quarisimini-ch1.md

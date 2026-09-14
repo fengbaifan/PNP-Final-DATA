@@ -42,7 +42,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← compiler_of（`compiler_of`，反向投影） | [罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）](../archives/montaiglon-academy-correspondence.md) | 时间：系列1887–1912；角色：系列共同编者；范围：INHA所列18卷系列的共同编者，不声称第三卷题名页列其名；原断言与证据见发出端卡片“罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）”：[来源](https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a)；archives-montaiglon-academy-correspondence；INHA人物记录书目：Correspondance des directeurs，Montaiglon et Guiffrey |
 
 ### 关系候选入口
 

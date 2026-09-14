@@ -2027,3 +2027,81 @@ Verrio按HRP实际页面中的姓名、年代及汉普顿宫楼梯绘画确认�
 ### 写入与验证
 
 31条关系及25张受影响知识元卡（含6张新卡）已写入。预检核对44条原书摘录、224条本地链接，既有来源与正式关系保持；29个计划文件的内容核对完成，唯一格式差异为apply_patch去掉03过程文档末尾的一个空行，实体内容完全一致。全库907个有效KU，章前537个；31条新增关系的端点、类型、证据、角色、时间与范围逐项匹配702条关系索引。14步同步检查通过，未改代码，不重复全套测试；未刷新页面。以上为本批直接语义核对与机械检查，不表示独立验收或章前任务整体完成。
+
+## 机构身份与书目版本责任集中补足
+
+2026-09-15继续REV-093原目标；本轮发生在REV-108已同步提交b9d2f45之后。本轮内部接续不新增用户原话。
+
+### 实际阅读与身份映射
+
+- [cap](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)：完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情。绘画馆于1748–1750年形成，绘画藏品陈列于Palazzo dei Conservatori二楼。
+- [stuttgart](https://www.stuttgart.de/tourismus/sehenswuerdigkeiten/staatsgalerie)：德语页面正文、图注与地址字段；页面标注2021-02-18。美术馆1843年开放，位于斯图加特，收藏范围由14世纪延续至今。
+- [wallraf](https://www.wallraf.museum/en/the-museum/history/)：完整沿革正文各小节；采用1861开放及2001更名节点。1861年7月1日开放；2001年采用Wallraf-Richartz-Museum & Fondation Corboud名称。
+- [wallraf-contact](https://www.wallraf.museum/en/the-museum/contact/contact/)：完整联系页机构名称与地址字段。博物馆位于科隆Obenmarspforten，邻近市政厅。
+- [pastor](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)：直接查看题名页扫描（PDF第7页）和印刷pp.13–14（PDF第53–54页）；只读所引页及邻页，未读全卷。题名页确认原作者、译者、卷次、出版地及1941年；p.13起首为本书转引克勉十一世不徇私亲的评价。
+- [montaiglon](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)：直接查看题名页（PDF第9页）、第1317号信完整扫描印刷pp.239–241（PDF第249–251页）；不将相邻第1318、1319号信纳入本信。第三卷覆盖1699–1711，出版于1889年12月；第1317号Poerson致M. d’Antin信日期为1708年10月20日，引文在p.240，p.241署Poerson并列Archives nationales, O¹ 1953。
+- [antin](https://www.chateauversailles-recherche.fr/corpus/article533.html)：完整目录引介、作者名、图注、版本说明及目录；未读取所链回忆录原文。作者完整姓名Louis-Antoine de Pardaillan de Gondrin de Montespan，1665–1736；目录列1708年获得建筑总监部门领导职务、1711年获得公爵爵位。
+- [met](https://www.metmuseum.org/art/collection/search/344493)：完整Artwork Details：责任者、出版地、年份、媒介与具体印本字段；未读全书。Girolamo Teti著，Mascardi于罗马出版，1642；48.106.2及尺寸属于大都会所藏印本。
+- [lmu](https://epub.ub.uni-muenchen.de/12211/)：完整目录记录、题名、出版项、语言、索书号、URN及印本流传说明；未读400MB全文。作者拉丁名Hieronymus Tetius，罗马Mascardus出版，1642，拉丁语；Cim.36 (=2 Art.277)为该馆印本索书号。
+
+
+### 判断变化与版本边界
+
+三家美术馆的名称、地址及沿革取得机构自身或市政府根据。卡比托利欧绘画馆属于Musei Capitolini，陈列于保守宫二楼；不把部门、总馆和建筑合并。斯图加特和科隆的作品卡已有外部保管边，本轮保持；补足机构身份不重新认领作品“现藏”验证。科隆官网旧展室链接跳转到中世纪展厅，不能据搜索摘要判断Piazzetta作品身份。三件卡比托利欧图版新增书内创作、历史保管与罗马位置边；Bottalla已采纳的Sacchetti家族委托按既有传记证据补边，不外推另一版本。
+
+帕斯托第三十三卷题名页为1941年，而IA聚合目录日期1891为系列层面的元数据，未用于单卷。题名页的Ludwig, Freiherr von Pastor与书后意大利形式Ludovico Barone von Pastor按相同著作系列、作者姓氏和贵族称号对应；姓名形式分列，不把译者Graf与意译者Cenci合并。扫描p.13起首与哈斯克尔所引评价一致；这是作者的教皇史论断，不据此替克勉十一世添加“绝无裙带任用”的无条件属性。题名页与所引邻页可核，不声称全卷阅读。译者以contributed_by加role=译者表达，不混成原作者。
+
+《通信集》第三卷题名页为1889年12月，覆盖1699–1711；此前系列1887–1912保持。实际阅读第1317号信从p.239题头到p.241署名，写信日期1708-10-20；邻接第1318号信所说9月28日是另一封信，不误套到本信。收信人M. d’Antin据题头、1708年职务背景和凡尔赛研究中心全名记录对应Louis-Antoine；1711才获公爵爵位，因此信件标题不冠以1708年尚未取得的公爵称号。旧authored_by边保留原书来源及1708时间，只替换过时的“收信人未明”scope，前后值保存在corrections计划及本段。新增收信人、通信及编刊收录边；书信收录关系不冒充手稿保管关系。p.241的Archives nationales, O¹ 1953为刊本所报档号，未访问手稿原件。Guiffrey只按INHA的系列编者记录建边，不说第三卷题名页署其名。
+
+《巴贝里尼宫》1642罗马版同时得到Met与LMU具体印本目录支持，Girolamo Teti与Hieronymus Tetius按同题同年书目责任对齐。48.106.2与Cim.36是不同馆藏印本的标识，分别标注；未把两馆的尺寸、装帧、来源或收藏地写成本书图版9所用印本事实。原书剑桥大学图书馆供片边保留；供片不自动证明保管。Mascardi/Mascardus作为该版所列出版机构建必要端点，未未经证明指认为Vitale个人。另见Soane目录1647年版线索，不覆盖1642卡；其他刻版者仅在目录中笼统署若干图版，不能推定卷首图刻制者。全书未读，不声称各图版职责已补齐。
+
+### 正式关系裁决
+
+| 起点 | 类型 | 端点 | 角色、时间和证据范围 |
+|---|---|---|---|
+| institutions/pinacoteca-capitolina.md | part_of | institutions/capitoline-museums.md | 绘画收藏部门；；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情；馆方现行收藏部门；不同于建筑空间 |
+| institutions/pinacoteca-capitolina.md | located_at | places/palazzo-dei-conservatori.md | 陈列场所：二楼；页面访问2026-09-15；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情；馆方页面所述绘画收藏陈列位置 |
+| institutions/staatsgalerie-stuttgart.md | located_at | places/stuttgart.md | 机构所在城市；页面访问2026-09-15；德语页面正文、图注与地址字段；页面标注2021-02-18；市政府机构地址；不等于作品创作地点 |
+| institutions/wallraf-richartz-museum.md | located_at | places/cologne.md | 机构所在城市；页面访问2026-09-15；完整联系页机构名称与地址字段；馆方联系地址；不以此说明作品产权 |
+| works/pietro-da-cortona-rape-of-the-sabines.md | created_by | persons/pietro-da-cortona.md | 图版作品作者；；lines 51–51; 章前：图版目录；印刷页xii；图版目录明确署名；不推断另版本 |
+| works/pietro-da-cortona-rape-of-the-sabines.md | held_by | institutions/pinacoteca-capitolina.md | 书中保管者；本书所述时点；lines 51–51; 章前：图版目录；印刷页xii；原书图版目录记载的保管机构；不等于核实当前产权 |
+| works/pietro-da-cortona-rape-of-the-sabines.md | located_at | places/rome.md | 书中位置；本书所述时点；lines 51–51; 章前：图版目录；印刷页xii；书中明确的保管城市，不是作品创作地 |
+| works/gio-maria-bottalla-meeting-of-esau-and-jacob.md | created_by | persons/gio-maria-bottalla.md | 图版作品作者；；lines 54–55; 章前：图版目录；印刷页xii；图版目录明确署名；不推断另版本 |
+| works/gio-maria-bottalla-meeting-of-esau-and-jacob.md | held_by | institutions/pinacoteca-capitolina.md | 书中保管者；本书所述时点；lines 54–55; 章前：图版目录；印刷页xii；原书图版目录记载的保管机构；不等于核实当前产权 |
+| works/gio-maria-bottalla-meeting-of-esau-and-jacob.md | located_at | places/rome.md | 书中位置；本书所述时点；lines 54–55; 章前：图版目录；印刷页xii；书中明确的保管城市，不是作品创作地 |
+| works/pietro-testa-joseph-sold-by-his-brothers.md | created_by | persons/pietro-testa.md | 图版作品作者；；lines 56–56; 章前：图版目录；印刷页xii；图版目录明确署名；不推断另版本 |
+| works/pietro-testa-joseph-sold-by-his-brothers.md | held_by | institutions/pinacoteca-capitolina.md | 书中保管者；本书所述时点；lines 56–56; 章前：图版目录；印刷页xii；原书图版目录记载的保管机构；不等于核实当前产权 |
+| works/pietro-testa-joseph-sold-by-his-brothers.md | located_at | places/rome.md | 书中位置；本书所述时点；lines 56–56; 章前：图版目录；印刷页xii；书中明确的保管城市，不是作品创作地 |
+| works/gio-maria-bottalla-meeting-of-esau-and-jacob.md | commissioned_by | families/sacchetti-family.md | 家族集体委托；；Bottalla传记：Incontro di Esaù con Giacobbe、galleria Sacchetti段；人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分 |
+| archives/pastor-popes-english-vol33.md | authored_by | persons/pastor-historian.md | 原作者；；题名页；PDF第7页；题名页原作者；英文译者另列 |
+| archives/pastor-popes-english-vol33.md | contributed_by | persons/ernest-graf.md | 译者；1941出版；题名页TRANSLATED BY；PDF第7页；英文第三十三卷题名页明确的翻译责任 |
+| archives/pastor-popes-english-vol33.md | published_by | institutions/kegan-paul-trench-trubner.md | 出版商；1941；题名页出版项；PDF第7页；本次核对的英文第三十三卷版本 |
+| archives/pastor-popes-english-vol33.md | located_at | places/london.md | 出版地；1941；题名页出版项；PDF第7页；版本出版地点，不是现存印本保管地 |
+| archives/pastor-popes-english-vol33.md | has_subject | persons/clement-xi.md | 传记对象；论述1700–1721；题名页CLEMENT XI；印刷p.13；卷题明确的教皇；书中评价不转写为现代研究定论 |
+| archives/poerson-letter-1708.md | addressed_to | persons/louis-antoine-de-pardaillan-de-gondrin.md | 收信人；1708-10-20；印刷p.239第1317号信题头；PDF第249页；刊本第1317号信题头M. d’Antin；身份依收信人人物卡来源 |
+| archives/poerson-letter-1708.md | part_of | archives/montaiglon-academy-correspondence.md | 刊载于第三卷pp.239–241；1889年12月刊行；题名页和印刷pp.239–241；第1317号；信件的编刊收录位置，非手稿物理归属 |
+| persons/charles-francois-poerson.md | corresponded_with | persons/louis-antoine-de-pardaillan-de-gondrin.md | 写信人→收信人；1708-10-20；第1317号信题头、日期及署名；印刷pp.239、241；此信支持一次通信，不自动证明朋友或赞助关系 |
+| archives/montaiglon-academy-correspondence.md | compiled_by | persons/a-de-montaiglon.md | 第三卷编者；1889年12月；第三卷题名页；PDF第9页；第三卷题名页署名；不将本卷署名扩大为各卷唯一责任 |
+| archives/montaiglon-academy-correspondence.md | compiled_by | persons/jules-guiffrey.md | 系列共同编者；系列1887–1912；INHA人物记录书目：Correspondance des directeurs，Montaiglon et Guiffrey；INHA所列18卷系列的共同编者，不声称第三卷题名页列其名 |
+| archives/montaiglon-academy-correspondence.md | published_by | institutions/charavay-freres.md | 第三卷出版商；1889年12月；第三卷题名页；PDF第9页；仅核第三卷题名页所列出版商，不覆盖全部18卷 |
+| archives/montaiglon-academy-correspondence.md | located_at | places/paris.md | 第三卷出版地；1889年12月；第三卷题名页；PDF第9页；第三卷版本的出版地，不是手稿所在地 |
+| archives/aedes-barberinae-ad-quirinalem.md | authored_by | persons/girolamo-teti.md | 文字作者；1642出版；Artwork Details：Author、Date；馆方明确的文字作者，不是全书插图刻版者 |
+| archives/aedes-barberinae-ad-quirinalem.md | published_by | institutions/mascardi-rome.md | 出版机构；1642；Artwork Details：Publisher、Published in、Date；1642年罗马版出版项；不把机构名称扩写成特定自然人 |
+| archives/aedes-barberinae-ad-quirinalem.md | located_at | places/rome.md | 出版地点；1642；Artwork Details：Published in、Date；出版地，非印本保管地 |
+| works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md | part_of | archives/aedes-barberinae-ad-quirinalem.md | 卷首图；1642；lines 49–50; 章前：图版目录；印刷页xii；原书图版明确的卷首图与1642载体；未核剑桥具体印本号 |
+| works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md | created_by | persons/guido-abbatini.md | 图版署名作者；；lines 49–50; 章前：图版目录；印刷页xii；原书图版作者署名；不细分未核的设计与刻制职责 |
+| works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md | has_subject | places/palazzo-barberini.md | 描绘建筑；；lines 49–50; 章前：图版目录；印刷页xii；题名明确with view of Palazzo Barberini |
+| institutions/kegan-paul-trench-trubner.md | located_at | places/london.md | 出版活动地；1941；题名页出版项；PDF第7页；题名页所示该出版商的出版活动地点 |
+| institutions/charavay-freres.md | located_at | places/paris.md | 书商地址所在城市；1889年12月；第三卷题名页；PDF第9页；题名页出版商地址4, rue de Furstenberg |
+| institutions/mascardi-rome.md | located_at | places/rome.md | 出版活动地；1642；Artwork Details：Publisher、Published in、Date；1642版出版项所载出版活动地点，不推定全时段地址 |
+
+
+### 剩余工作与交接
+
+9项主候选继续待证。Kunstsammlungen Kassel的历史机构边界、罗马市政美术办公室的具体建制仍需核；威尼斯共和国已有文化部沿革线索，本轮未写入。Honour评论的精确题名与页码、Waterhouse文章页码异文及可读全文、图版9剑桥具体印本与卷首图刻制职责仍待证。帕斯托其他译本和Graf个人生平未全面补足，不把题名页核验扩大为人物全传。D’Antin回忆录目录仅用于所需身份，不自动摄入其中的各个人名和作品。新建5个直接责任端点，无新增文献卡；现有文献原路径更迭。整体对齐、全面内容补足和关系定稿尚未完成；不启动发现、页面或人工校验，本轮不自动提交推送。
+
+### 写入与验证
+
+39个计划文件已按差异写入，其中35张受影响知识元卡、5张新卡；预检核对78条原书摘录、281条本地链接及来源保留。35条新增关系的端点、类型、证据、时间、角色与范围逐项匹配737条关系索引；旧信件作者边只更新已记录的scope。全库912个有效KU、章前542个，类型为人物220、机构90、文献19、地点93、作品112、术语4、家族3、事件1。14步同步检查通过；没有代码改动，不重复全套测试。末次语义复核将收信人卡中的“接收”改为“信的署期”，避免将写信日期误说为实际收信日期；该句不改变正式边。未刷新页面，未提交推送。上述为本批语义自查与机械核对，不是独立验收或整体完成。
+
+扫描证据指纹（下载文件的SHA-256，页码对应见上述来源阅读范围）：Pastor PDF为`3439aace1ab7be1a2d93cc66ac992749fea5e52be983f404266c6cc9c3679cbd`；Montaiglon灰度PDF为`89cf4fe2e42e8c1e8f72caa2765676e59c69a1fd9006539798106632e0e0fd3c`。引用使用已记录的稳定下载地址，临时阅读缓存不是新增来源版本。
