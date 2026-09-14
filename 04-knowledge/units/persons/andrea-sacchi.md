@@ -50,6 +50,19 @@ sources:
 - citation: "Alessandra Cosmi, SACCHI, Andrea, Dizionario Biografico degli Italiani 89 (2017). https://www.treccani.it/enciclopedia/andrea-sacchi_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文21719字符，含职业过程、死亡及Fonti e bibliografia"
   sentence_summary: "遗嘱研究区分生父Nicola Pellegrini与Benedetto Sacchi；约1599年可能生于Nettuno，1661年6月21日卒于罗马。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L57–58
+  sentence_summary: 图版12将其列为《神圣智慧寓意》的创作者。
+  original_quotes:
+  - source_span: lines 57–58
+    text: '12 Andrea Sacchi: Allegory of Divine Wisdom {Palazzo Barberini,
+
+      Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 57–58; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-sacchi
 ---
 
@@ -114,6 +127,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 - Bellori、Passeri为早期生平与艺术评价的重要记述者；本轮通过百科／专业传记及作品图录了解其说法，未重读原版全书。[S5、S7]
 - 构图集中、较少人物与Cortona的比较属于艺术理论评价，不推出每幅画固定六人或八人的规则。[S5、S7]
 - Ann Sutherland Harris，*Andrea Sacchi*（1977）；Giovanni Incisa della Rocchetta，〈Notizie inedite su Andrea Sacchi〉（1924）；D’Avossa的遗嘱研究（1985）。书目由S5、S7核见，未声称研究原文全读。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版12角色 | 创作 | S8 |
+| 图版12相关对象 | [神圣智慧寓意](../works/andrea-sacchi-allegory-of-divine-wisdom.md)；创作者 | S8 |
 
 ## 关系与证据
 

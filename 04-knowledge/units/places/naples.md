@@ -51,6 +51,31 @@ sources:
   - citation: 'Brill, Preliminary Material, in A Companion to Early Modern Naples. https://brill.com/display/book/9789004251830/B9789004251830_001.xml. Accessed 2026-09-10 via indexed publisher record.'
     location: '出版商检索索引中的 Editor、series、publisher、ISBN、publication year；直达页面读取失败，非原书全文'
     sentence_summary: '检索记录列 Tommaso Astarita 为编者，Brill，2013，Brill’s Companions to European History 2，电子 ISBN 9789004251830；直达与原书正文仍未读。'
+  - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+      printing 2006).
+    location: 章前：第二版导言；印刷页xvii；OCR L181–182
+    sentence_summary: 画家移居罗马论述中列出的来源地区之一。
+    original_quotes:
+    - source_span: lines 181–182
+      text: 'Italy, Conca, Giaquinto and Batoni for instance, moved to Rome from Naples or
+
+        Tuscany; and the argument used by Francis Haskell to support the thesis of a decline of Rome in the eighteenth
+        century from the fact that such minor personalities as P. G.'
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+      source_span: lines 181–182; 章前：第二版导言；印刷页xvii
+  - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+      printing 2006).
+    location: 章前：图版目录；印刷页xiv；OCR L92–92
+    sentence_summary: 图版32a目录将其记为书中位置。
+    original_quotes:
+    - source_span: lines 92–92
+      text: '32 a Ribera: The drunken Silenus (Museo di Capodimonte, Naples'')'
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+      source_span: lines 92–92; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-naples
 ---
 
@@ -129,6 +154,15 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 本章相关内容
 
 本章一处用那不勒斯定位兰弗兰科的通信，另一处讨论此地主教座堂工程的计价。城市、主教座堂建筑及其内部壁画是不同对象；设计师、建造年代、作品创作者和收藏不混入城市字段。城市中教堂、宫殿、学校等清单只作后续对象线索，不因百科列出就批量新增知识元。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 画家移居罗马论述中列出的来源地区之一。 | S11 |
+| 图版32a角色 | 书中位置 | S12 |
+| 图版32a相关对象 | [醉西勒诺斯](../works/ribera-the-drunken-silenus.md)；书中位置 | S12 |
 
 ## 关系与证据
 

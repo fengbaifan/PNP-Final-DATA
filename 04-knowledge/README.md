@@ -6,4 +6,4 @@ units 是 KU 唯一正文，quality 保存断言、证据和关系，structure �
 accepted.yml 只登记本项目有效 KU 路径、claim_id 和结构路径，不复制内容；实际成稿或结构成立后才加入，没有依据不登记。
 现存试填资料保持可追溯，未经本项目接收不计为成果。层级与验证字段仅在对应工作实际开展后记录，既有字段不证明本项目完成。
 
-当前实际任务为 [第一章样例](results/patrons-and-painters-chp-1.md)：知识元登记已按 REV-033 收口，既有关系保留，身份、作品版本及原典待证项在结果中单列；第六章草稿不在有效集合。第二部分及页面暂停。
+当前实际任务为 [第一章样例](results/patrons-and-painters-chp-1.md)与[章前材料](results/patrons-and-painters-front-matter.md)。各自进度、身份与版本待决项以任务结果为准；第六章草稿不因文件存在而成为成果。第二部分及页面暂停。

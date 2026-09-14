@@ -33,6 +33,18 @@ sources:
 - citation: "Staatliche Museen zu Berlin, Gemäldegalerie, Der Evangelist Matthäus, Ident. 365, ObjID 870411. https://id.smb.museum/object/870411. Record updated 2025-12-15; accessed 2026-09-11."
   location: "对象字段及对象说明全文；页面其余推荐藏品不属于此对象"
   sentence_summary: "1602 年前后 Contarelli 礼拜堂退画，由 Vincenzo Giustiniani 收购，1815 年随藏品入柏林；馆记223×183厘米，战后失踪且推测1945年毁于弗里德里希斯海因防空塔。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L70–70
+  sentence_summary: 图版17b目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 70–70
+    text: '17 a Bernini: Caricature of Cassiano dal Pozzo (Museum Boy mans—van 104 Beuningen, Rotterdam) b Claude
+      Mellan: Vincenzo Giustiniani c Ottavio Leoni: Paolo Giordano Orsini, Duke of Bracciano'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-marchese-giustiniani-ch1
 ---
 
@@ -88,6 +100,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 绘画／雕塑／建筑论 | 给Theodor Amayden的论述；Anna Banti编入*Discorsi sulle arti e sui mestieri*（1981） | S4；未读该刊本 |
 | 绘画分类 | 本人提出十二种作画方式，将卡拉瓦乔、安尼巴莱·卡拉奇、雷尼置于最高一类 | S4的转述；这是历史人物观点，不是本项目预设分类 |
 | 研究 | Feci／Bortolotti／Bruni，DBI第57卷（2001）本条；其他引书仅为待读线索 | S4 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版17b角色 | 描绘／纪念对象 | S6 |
+| 图版17b相关对象 | [文琴佐·朱斯蒂尼亚尼肖像](../works/claude-mellan-vincenzo-giustiniani.md)；描绘／纪念对象 | S6 |
 
 ## 关系与证据
 

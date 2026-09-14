@@ -51,6 +51,17 @@ sources:
   - citation: "Maria Gabriella Matarazzo, \"ZAMPIERI, Domenico, detto Domenichino,\" Dizionario Biografico degli Italiani 100 (2020). https://www.treccani.it/enciclopedia/zampieri-domenico-detto-domenichino_(Dizionario-Biografico)/ Accessed 2026-09-10."
     location: "开篇亲缘与训练；Polet 礼拜堂签约/完成；婚姻、1621 任命；晚年卒日段。定向阅读，未读所引原档"
     sentence_summary: "转述：补部分家庭、学习顺序及任命；记礼拜堂 1615 年 9 月完成、人物 1641-04-06 去世，与其他来源异文分别保留。"
+  - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+      printing 2006).
+    location: 章前：图版目录；印刷页xii；OCR L47–47
+    sentence_summary: 图版07将其列为《狄安娜狩猎》的创作者。
+    original_quotes:
+    - source_span: lines 47–47
+      text: '7 Domenichino: Hunt of Diana {Villa Borghese, Rome)'
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+      source_span: lines 47–47; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-domenichino
 ---
 
@@ -123,6 +134,14 @@ WD 未列亲缘字段不否定 S8 的亲缘材料；P800 不是经过本项目�
 | Maria Gabriella Matarazzo | “ZAMPIERI, Domenico, detto Domenichino”，DBI 100（2020）；本轮读取相关传记段落，不等于读过其所引档案 | S8 |
 
 WP 的 Ideas on art 和 Criticism from Ruskin 将临摹争论及后世评价作为独立问题：Lanfranco 的指责、支持者的辩护和 Ruskin 的批评各有主体，不能合写为客观定论。本轮只保留这一解释线索，未据此新增“抄袭”或“影响”正式关系。书目区 Serra 1909 的 ISBN 被页面标为年款不兼容，故未复制该 ISBN；作品目录也未整表冒充已逐件核实的全集。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版07角色 | 创作 | S9 |
+| 图版07相关对象 | [狄安娜狩猎](../works/domenichino-hunt-of-diana.md)；创作者 | S9 |
 
 ## 关系与证据
 

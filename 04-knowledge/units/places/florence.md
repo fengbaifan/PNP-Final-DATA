@@ -70,6 +70,131 @@ sources:
 - citation: "UNESCO World Heritage Centre, Historic Centre of Florence, dossier 174quater. https://whc.unesco.org/en/list/174/. Accessed 2026-09-10."
   location: "Brief synthesis、Integrity、Authenticity 及登记元数据；未读申报书和历次边界图"
   sentence_summary: "罗马殖民城基础、阿尔诺河与历史城区；现登记面积 532 ha，与概述残留 505 ha 区分。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L36–37
+  sentence_summary: 图版02a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 36–37
+    text: '2 a Attributed to Caravaggio: Maffeo Barberini (Private Collection,
+
+      Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L43–43
+  sentence_summary: 图版04a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 43–43
+    text: '4 a Van Dyck: Cardinal Bentivoglio (Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 43–43; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L102–102
+  sentence_summary: 图版36b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 102–102
+    text: 'b G. M. Crespi: Girl at her toilet (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 102–102; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L103–103
+  sentence_summary: 图版37a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 103–103
+    text: '37 a G. M. Crespi: The Painter’s Family (Uffizi, Florence) 232'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 103–103; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L104–104
+  sentence_summary: 图版37b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 104–104
+    text: 'b G. M. Crespi: Detail from Fair at Poggio a Caiano (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L105–106
+  sentence_summary: 图版37c目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 105–106
+    text: 'c Baldassare Franceschini: ‘La Burla del Piovano Arlotto’ (Uffizi,
+
+      Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 105–106; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L107–107
+  sentence_summary: 图版38a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 107–107
+    text: '38 a Sebastiano Ricci: Rape of Europa (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 107–107; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L108–108
+  sentence_summary: 图版38b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 108–108
+    text: 'b Sebastiano Ricci: Pan and Syrinx (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 108–108; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L109–109
+  sentence_summary: 图版39目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 109–109
+    text: '39 Sebastiano Ricci: Venus and Adonis (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 109–109; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L110–110
+  sentence_summary: 图版40a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 110–110
+    text: '40 a A. D. Gabbiani: A Group of Musicians (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 110–110; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L111–111
+  sentence_summary: 图版40b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 111–111
+    text: 'b GiannAntonio Fumiani: The stoning of Zechariah (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 111–111; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-florence
 ---
 
@@ -136,6 +261,34 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | John M. Najemy, *A History of Florence 1200–1575* (2006) | S6 书目；未读原书 |
 | Richard A. Goldthwaite, *The Building of Renaissance Florence: An Economic and Social History* | S6 书目列 1982 年版；版本未另核，不当作首版年或已读研究 |
 | Niccolò Machiavelli, *Florentine Histories* | S6 所列历史文献；版本与具体论述均未读取 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版02a角色 | 书中位置 | S9 |
+| 图版02a相关对象 | [马费奥·巴贝里尼肖像](../works/caravaggio-maffeo-barberini.md)；书中位置 | S9 |
+| 图版04a角色 | 书中位置 | S10 |
+| 图版04a相关对象 | [本蒂沃利奥枢机肖像](../works/van-dyck-cardinal-bentivoglio.md)；书中位置 | S10 |
+| 图版36b角色 | 书中位置 | S11 |
+| 图版36b相关对象 | [梳妆少女](../works/g-m-crespi-girl-at-her-toilet.md)；书中位置 | S11 |
+| 图版37a角色 | 书中位置 | S12 |
+| 图版37a相关对象 | [画家一家](../works/g-m-crespi-the-painter-s-family.md)；书中位置 | S12 |
+| 图版37b角色 | 书中位置 | S13 |
+| 图版37b相关对象 | [波焦阿卡亚诺集市局部](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md)；书中位置 | S13 |
+| 图版37c角色 | 书中位置 | S14 |
+| 图版37c相关对象 | [阿尔洛托教区神父的玩笑](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md)；书中位置 | S14 |
+| 图版38a角色 | 书中位置 | S15 |
+| 图版38a相关对象 | [劫夺欧罗巴](../works/sebastiano-ricci-rape-of-europa.md)；书中位置 | S15 |
+| 图版38b角色 | 书中位置 | S16 |
+| 图版38b相关对象 | [潘与绪任克斯](../works/sebastiano-ricci-pan-and-syrinx.md)；书中位置 | S16 |
+| 图版39角色 | 书中位置 | S17 |
+| 图版39相关对象 | [维纳斯与阿多尼斯](../works/sebastiano-ricci-venus-and-adonis.md)；书中位置 | S17 |
+| 图版40a角色 | 书中位置 | S18 |
+| 图版40a相关对象 | [乐师群像](../works/a-d-gabbiani-a-group-of-musicians.md)；书中位置 | S18 |
+| 图版40b角色 | 书中位置 | S19 |
+| 图版40b相关对象 | [撒迦利亚被石击](../works/giannantonio-fumiani-the-stoning-of-zechariah.md)；书中位置 | S19 |
 
 ## 关系与证据
 

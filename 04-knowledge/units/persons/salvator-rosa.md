@@ -159,6 +159,29 @@ sources:
 - citation: "Wikidata, Q359421, revision 2540080398. https://www.wikidata.org/wiki/Q359421. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L76–76
+  sentence_summary: 图版23b将其列为《雷古鲁斯之死》的创作者。
+  original_quotes:
+  - source_span: lines 76–76
+    text: '23 a Michelangelo Cerquozzi: Women’s Bath (Incisa della Rocchetta, Rome) b Salvator Rosa: The Death of
+      Regulus (Virginia Museum of Fine Arts Williams Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L77–77
+  sentence_summary: 图版24将其列为《命运》的创作者。
+  original_quotes:
+  - source_span: lines 77–77
+    text: '24 Salvator Rosa: Fortune (Duke of Beaufort)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 77–77; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-salvator-rosa
 ---
 
@@ -194,6 +217,16 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 配偶 | Lucrezia Paolini | Wikidata P26；未列参考 |
 | 代表作 | Jason Charming the Dragon；Heroic Battle；Saul and the Witch of Endor；The Dream of Aeneas | Wikidata P800；有参考；未列参考 |
 | 艺术或思想运动 | 巴洛克艺术 | Wikidata P135；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版23b角色 | 创作 | S10 |
+| 图版23b相关对象 | [雷古鲁斯之死](../works/salvator-rosa-the-death-of-regulus.md)；创作者 | S10 |
+| 图版24角色 | 创作 | S11 |
+| 图版24作品 | [罗萨命运](../works/fortune-salvator-rosa.md) | S11 |
 
 ## 关系与证据
 

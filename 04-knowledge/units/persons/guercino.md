@@ -75,6 +75,27 @@ sources:
   - citation: "Comune di Cento, \"Gian Francesco Barbieri detto Il Guercino (1591-1666).\" https://www.comune.cento.fe.it/it/page/gian-francesco-barbieri-detto-il-guercino-1591-1666 Accessed 2026-09-10."
     location: "迁居与购屋相邻段；附带 Reni 年份未采纳"
     sentence_summary: "转述：分列 1642-09-06 迁居与 1644 购屋，作为不同事件；迁居精确日仍待原档，不能据此解释 NG 异文的成因。"
+  - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+      printing 2006).
+    location: 章前：第二版导言；印刷页xvii；OCR L183–184
+    sentence_summary: 沃特豪斯引其拒留罗马为反例，哈斯克尔的回应保留该比较。
+    original_quotes:
+    - source_span: lines 183–184
+      text: 'Piola, Viani, or Lazzarini, refused to settle in Rome, though strongly pressed, is more likely to be
+        explained by the fact that they feared competition. In the seventeenth century, Guido and Guercino, for instance,
+        had refused to stay in Rome, at a time when this argument would have been absurd.’2
+
+        This criticism must certainly carry much weight, and I have thought about it carefully. In the end, however,
+        I find it unpersuasive. The list of distinguished Italian artists who (unlike Guido and Guercino much earlier)
+        either failed to paint anything of consequence for the principal churches and palaces of Rome or did not even
+        visit the city as other than tourists is a formidable one—it includes Crespi and Solimena, to name only two
+        who are surely superior to Conca who arrived in 1707 and did not receive his first public commission for seven
+        years. Giaquinto and Batoni came only a generation later by which time the situation had begun to change—but
+        by which time also Tiepolo was embarking on some of his most splendid works in the Veneto.'
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+      source_span: lines 183–184; 章前：第二版导言；印刷页xvii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-guercino
 ---
 
@@ -170,6 +191,13 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 本章相关内容
 
 委托方已有较详细的图像安排，画家仍追问画面细节及悬挂、光照条件。因此本章材料能说明具体委托的沟通过程，不能直接证明最终完成画面的样貌。报价信保留画家自述价格和对收信人出价的回应，不构成所有画家的统一费率。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 沃特豪斯引其拒留罗马为反例，哈斯克尔的回应保留该比较。 | S13 |
 
 ## 关系与证据
 

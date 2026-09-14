@@ -37,6 +37,19 @@ sources:
 - citation: "Richard Bösel and Lydia Salviucci Insolera, POZZO, Andrea, Dizionario Biografico degli Italiani 85 (2016). https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/. Accessed 2026-09-10."
   location: "出生亲缘、早期训练、入会／誓愿、罗马廊道与 Sant’Ignazio 段；部分阅读，未读全文"
   sentence_summary: "提供父母、修会亲缘、匿名训练、1665-12-23 入会与 1676 誓愿；具体档案均为传记所引，未读原件。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L63–64
+  sentence_summary: 图版15将其列为《圣依纳爵堂拱顶壁画模型》的创作者。
+  original_quotes:
+  - source_span: lines 63–64
+    text: '15 Andrea Pozzo: Modello for fresco on vault of S. Ignazio, Rome
+
+      {Galleria Nazionale, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 63–64; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-andrea-pozzo
 ---
 
@@ -108,6 +121,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 专题研究 | Vittorio de Feo、Valentino Martinelli 编，Andrea Pozzo，Electa，1996 | S4 书目线索，未读 |
 | 专题论文 | Evonne Levy，1993 年 Princeton 博士论文，研究 Gesù 圣依纳爵小堂项目（1695–1699） | S4 书目线索，未读 |
 | 规范标识 | Getty ULAN 500028698；VIAF 59230796 | S5 P245／P214；原站未核 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版15角色 | 创作 | S7 |
+| 图版15相关对象 | [圣依纳爵堂拱顶壁画模型](../works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md)；创作者 | S7 |
 
 ## 关系与证据
 

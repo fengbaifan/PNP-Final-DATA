@@ -55,6 +55,29 @@ sources:
 - citation: "Wikidata, Q41554, revision 2533435644. https://www.wikidata.org/wiki/Q41554. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L71–71
+  sentence_summary: 图版18b将其列为《婚姻》的创作者。
+  original_quotes:
+  - source_span: lines 71–71
+    text: '18 a Pietro Testa: Rest on the Flight into Egypt b Poussin: Marriage (Duke of Rutland, Belvoir Castle)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 71–71; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L72–72
+  sentence_summary: 图版19a将其列为《摩西践踏法老王冠》的创作者。
+  original_quotes:
+  - source_span: lines 72–72
+    text: '19 a Poussin: Moses trampling on Pharaoh’s crown (Louvre) b Claude: View of Delphi with a Procession
+      (Art Institute of Chicago Robert A. Waller Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-nicolas-poussin
 ---
 
@@ -91,6 +114,16 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 配偶 | Anne-Marie Dughet | Wikidata P26；未列参考 |
 | 代表作 | Et in Arcadia ego；The Inspiration of the Poet；Landscape during a Thunderstorm with Pyramus and Thisbe；The Four Seasons；Seven Sacraments；The Victory of Joshua over the Amorites；The lamentation over the dead Christ | Wikidata P800；有参考；未列参考 |
 | 艺术或思想运动 | 古典主義 | Wikidata P135；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版18b角色 | 创作 | S7 |
+| 图版18b相关对象 | [婚姻](../works/poussin-marriage.md)；创作者 | S7 |
+| 图版19a角色 | 创作 | S8 |
+| 图版19a相关对象 | [摩西践踏法老王冠](../works/poussin-moses-trampling-on-pharaoh-s-crown.md)；创作者 | S8 |
 
 ## 关系与证据
 

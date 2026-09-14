@@ -33,6 +33,18 @@ sources:
 - citation: "Treccani, Italia. https://www.treccani.it/enciclopedia/italia/. Accessed 2026-09-11."
   location: "复用本轮已读Storia moderna中3 aprile 1559整段，不是全文"
   sentence_summary: "1559年政治格局中米兰公国列为西班牙直接领有地；属于历史政权背景，不把公国视为城市同义名。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xv；OCR L131–131
+  sentence_summary: 图版53a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 131–131
+    text: '53 a Piazzetta: Marshal Schulenburg (Castello Sforzesco, Milan) 312 b Amigoni: Sigismund Streit (Gymnasium
+      zu Grauen Kloster, Berlin)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-milan
 ---
 
@@ -64,6 +76,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 - **1706年及1713–1714年：** 军事控制变化与条约确认分开，不能写作单一无差别政权转移日。（S4）
 
 WP现代博物馆的藏品所在地不能倒推为Bonatti旅行时的可见作品。现代人口、都会区面积、产业、旅游排名及交通不纳入本章知识内容。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版53a角色 | 书中位置 | S7 |
+| 图版53a相关对象 | [舒伦堡元帅肖像](../works/piazzetta-marshal-schulenburg.md)；书中位置 | S7 |
 
 ## 关系与证据
 

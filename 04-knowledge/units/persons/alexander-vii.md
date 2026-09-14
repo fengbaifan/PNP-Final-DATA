@@ -1,24 +1,45 @@
 ---
 title: 亚历山大七世（Alexander VII）
+name_en: Alexander VII
 type: person
-created: 2026-09-09
-updated: 2026-09-09
 evidence_status: source_backed
 sources:
-  - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), ch. 6, pp. 150–154, 161."
-    location: "第6章，印刷页 150–154, 161"
-    evidence_ref:
-      doc_id: patrons-and-painters
-      source_file: 02-sources/02-Markdown/06_CHP-6.md
-      source_span: "ch. 6, print pp. 150–154, 161"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前；印刷页xvi；OCR L152–153
+  sentence_summary: 马苏奇作品题名为莫拉为教皇亚历山大七世绘制肖像。
+  original_quotes:
+  - source_span: lines 152–153
+    text: 'b Agostino Masucci: Mola painting the portrait of
+
+      Pope Alexander VII [National Museum, Stockholm)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 152–153; print p. xvi
+created: '2026-09-09'
+updated: '2026-09-14'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
-## 描述
+## 内容
 
-原名 Fabio Chigi，1655 年继任教皇，第六章记其统治十二年，1667 年后由克雷芒九世继位。他召见贝尔尼尼并大力推动圣彼得及罗马其他工程。
+### 描述
 
-作品规模不能证明城市经济恢复；同一章节记录疫情、财政收缩与外交屈辱。其家族赞助和罗萨《命运》的讽刺应保留不同角色，不能把全家当作单一行动者。
+**中文：** 图版65b在马苏奇作品题名中将其列作莫拉画中肖像的对象。
 
-## 来源与未决项
+**English:** The title of Masucci's work in plate 65b identifies him as the subject of the portrait painted by Mola within the image.
 
-本轮为第一、六章限定测试中的来源支持成稿及内部对齐；不表示已由独立原典或外部权威验证。出处以 sources 所列印刷页为准；Haskell 的转述不等于本次直接读过被引原著。
+### 名称与来源记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 称号 | Pope／教皇 | S1 |
+| 图中对象 | [莫拉为亚历山大七世作像](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | S1 |
+
+## 关系与证据
+
+### 关系记录
+
+暂无正式关系。
+
+[章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)

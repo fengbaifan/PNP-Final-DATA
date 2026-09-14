@@ -96,6 +96,64 @@ sources:
 - citation: "Wikidata, Q160538, revision 2543155212. https://www.wikidata.org/wiki/Q160538. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L38–39
+  sentence_summary: 图版02b将其列为《乌尔班八世肖像》的创作者。
+  original_quotes:
+  - source_span: lines 38–39
+    text: 'b Bernini: Maffeo Barberini as Pope Urban VIII
+
+      (Palazzo dei Conservatori, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L45–45
+  sentence_summary: 图版05将其列为《希皮奥内·博尔盖塞枢机》的创作者。
+  original_quotes:
+  - source_span: lines 45–45
+    text: '5 Bernini: Cardinal Scipione Borghese {Villa Borghese, Rome) 40'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 45–45; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L65–65
+  sentence_summary: 图版16将其列为《奎里纳尔圣安德烈堂内部》的建筑设计者。
+  original_quotes:
+  - source_span: lines 65–65
+    text: '16 Bernini: Interior of S. Andrea al Quirinale, Rome'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 65–65; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L70–70
+  sentence_summary: 图版17a将其列为《卡西亚诺·达尔·波佐漫画》的创作者。
+  original_quotes:
+  - source_span: lines 70–70
+    text: '17 a Bernini: Caricature of Cassiano dal Pozzo (Museum Boy mans—van 104 Beuningen, Rotterdam) b Claude
+      Mellan: Vincenzo Giustiniani c Ottavio Leoni: Paolo Giordano Orsini, Duke of Bracciano'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L80–80
+  sentence_summary: 图版27b将其列为《路易十四》的创作者。
+  original_quotes:
+  - source_span: lines 80–80
+    text: '27 a Francesco Fanelli: Charles I (Miss Daphne Ionides, London) b Bernini: Louis XIV (Versailles)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-gian-lorenzo-bernini
 ---
 
@@ -134,6 +192,21 @@ Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件�
 | 子女 | 多梅尼科·贝尼尼 | Wikidata P40；未列参考 |
 | 代表作 | 巴贝里尼宫；聖伯多祿廣場；圣女大德兰的神魂超拔；Bust of Costanza Bonarelli；奎琳岗圣安德肋堂；四河喷泉；Portrait of Louis XIV of France；Neptune and Dolphin | Wikidata P800；有参考；未列参考 |
 | 艺术或思想运动 | 巴洛克艺术 | Wikidata P135；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版02b角色 | 创作 | S9 |
+| 图版02b相关对象 | [乌尔班八世肖像](../works/bernini-maffeo-barberini-as-pope-urban-viii.md)；创作者 | S9 |
+| 图版05角色 | 创作 | S10 |
+| 图版16角色 | 建筑设计 | S11 |
+| 图版16相关对象 | [奎里纳尔圣安德烈堂内部](../places/interior-sant-andrea-quirinale.md)；设计者 | S11 |
+| 图版17a角色 | 创作 | S12 |
+| 图版17a相关对象 | [卡西亚诺·达尔·波佐漫画](../works/bernini-caricature-of-cassiano-dal-pozzo.md)；创作者 | S12 |
+| 图版27b角色 | 创作 | S13 |
+| 图版27b相关对象 | [路易十四肖像](../works/bernini-louis-xiv.md)；创作者 | S13 |
 
 ## 关系与证据
 

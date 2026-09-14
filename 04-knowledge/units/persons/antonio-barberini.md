@@ -38,6 +38,19 @@ sources:
 - citation: "Alberto Merola, BARBERINI, Antonio, Dizionario Biografico degli Italiani 6 (1964). https://www.treccani.it/enciclopedia/antonio-barberini_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文19964字符，含家世、1627秘密创建／1628公布、外交、流亡、教职、晚年及书目"
   sentence_summary: "1607年8月4日生、1671年8月4日卒的DBI纪日与WP/WD不同；法国教职提名和教廷批准分别记。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L41–42
+  sentence_summary: 图版03b目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 41–42
+    text: 'b Carlo Maratta: Cardinal Antonio Barberini
+
+      (Duke of Northumberland, Alnwick Castle)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 41–42; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-antonio-barberini
 ---
 
@@ -106,6 +119,14 @@ Poitiers的法国提名、收益与教廷批准状态须分开；资料不足以
 
 ### 评价与来源限制
 Alberto Merola的1964年专业传记与英文百科对生卒日、任职年有差别，逐字段保留。百科所引Leti、Bargrave及论战小册子的叙事具有评价与立场，未转换为确定私生活事实。英文页有一条注释指向年长同名者的传记，不能拿该条注释证明小安东尼奥履历。[S5、S7]
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版03b角色 | 描绘／纪念对象 | S8 |
+| 图版03b相关对象 | [安东尼奥·巴贝里尼枢机](../works/carlo-maratta-cardinal-antonio-barberini.md)；描绘／纪念对象 | S8 |
 
 ## 关系与证据
 

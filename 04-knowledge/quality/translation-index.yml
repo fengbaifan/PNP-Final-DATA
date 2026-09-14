@@ -1,16 +1,70 @@
-generated: '2026-09-13'
-total: 368
+generated: '2026-09-14'
+total: 680
 index:
+- slug: persons/a-d-gabbiani
+  type: persons
+  name_en: A. D. Gabbiani
+  title: A. D. 加比亚尼（A. D. Gabbiani）
+  name_original: ''
+  language_original: ''
+- slug: persons/a-de-montaiglon
+  type: persons
+  name_en: A. de Montaiglon
+  title: A. 德·蒙泰格隆（A. de Montaiglon）
+  name_original: ''
+  language_original: ''
+- slug: persons/a-m-zanetti-the-elder
+  type: persons
+  name_en: A. M. Zanetti the Elder
+  title: 老A. M. 扎内蒂（A. M. Zanetti the Elder）
+  name_original: ''
+  language_original: ''
+- slug: persons/a-n-l-munby
+  type: persons
+  name_en: Alan Noel Latimer Munby
+  title: 艾伦·诺埃尔·拉蒂默·芒比（Alan Noel Latimer Munby）
+  name_original: ''
+  language_original: ''
 - slug: persons/abate-lancellotti
   type: persons
   name_en: '"Secondo Lancellotti"'
   title: '"塞孔多·兰切洛蒂（Secondo Lancellotti）"'
   name_original: ''
   language_original: ''
+- slug: persons/agostino-masucci
+  type: persons
+  name_en: Agostino Masucci
+  title: 阿戈斯蒂诺·马苏奇（Agostino Masucci）
+  name_original: ''
+  language_original: ''
+- slug: persons/albrizzi
+  type: persons
+  name_en: Albrizzi
+  title: 阿尔布里齐（Albrizzi）
+  name_original: ''
+  language_original: ''
 - slug: persons/alessandro-algardi
   type: persons
   name_en: ''
   title: 亚历山德罗·阿尔加尔迪（Alessandro Algardi）
+  name_original: ''
+  language_original: ''
+- slug: persons/alessandro-bettagno
+  type: persons
+  name_en: Alessandro Bettagno
+  title: 亚历山德罗·贝塔尼奥（Alessandro Bettagno）
+  name_original: ''
+  language_original: ''
+- slug: persons/alessandro-longhi
+  type: persons
+  name_en: Alessandro Longhi
+  title: 亚历山德罗·隆吉（Alessandro Longhi）
+  name_original: ''
+  language_original: ''
+- slug: persons/alessandro-marabottini-marabotti
+  type: persons
+  name_en: Alessandro Marabottini Marabotti
+  title: 亚历山德罗·马拉博蒂尼·马拉博蒂（Alessandro Marabottini Marabotti）
   name_original: ''
   language_original: ''
 - slug: persons/alessandro-peretti-montalto
@@ -27,7 +81,7 @@ index:
   language_original: ''
 - slug: persons/alexander-vii
   type: persons
-  name_en: ''
+  name_en: Alexander VII
   title: 亚历山大七世（Alexander VII）
   name_original: ''
   language_original: ''
@@ -37,10 +91,22 @@ index:
   title: 阿洛夫·德·维尼亚库尔（Alof de Wignacourt）
   name_original: ''
   language_original: ''
+- slug: persons/amadeo-swajer
+  type: persons
+  name_en: Amadeo Swajer
+  title: 阿马德奥·斯瓦耶尔（Amadeo Swajer）
+  name_original: ''
+  language_original: ''
 - slug: persons/ameyden
   type: persons
   name_en: '"Dirk van Ameyden"'
   title: '"迪尔克·范·阿梅登（Dirk van Ameyden）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/amigoni
+  type: persons
+  name_en: Amigoni
+  title: 阿米戈尼（Amigoni）
   name_original: ''
   language_original: ''
 - slug: persons/andrea-camassei
@@ -67,6 +133,12 @@ index:
   title: '"安德烈亚·萨基（Andrea Sacchi）"'
   name_original: ''
   language_original: ''
+- slug: persons/ann-sutherland-harris
+  type: persons
+  name_en: Ann Sutherland Harris
+  title: 安·萨瑟兰·哈里斯（Ann Sutherland Harris）
+  name_original: ''
+  language_original: ''
 - slug: persons/annibale-carracci
   type: persons
   name_en: '"Annibale Carracci"'
@@ -77,6 +149,18 @@ index:
   type: persons
   name_en: '"Annibale Laparelli"'
   title: '"安尼巴莱·拉帕雷利（Annibale Laparelli）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/anthony-blunt
+  type: persons
+  name_en: Anthony Blunt
+  title: 安东尼·布伦特（Anthony Blunt）
+  name_original: ''
+  language_original: ''
+- slug: persons/anthony-clark
+  type: persons
+  name_en: Anthony Clark
+  title: 安东尼·克拉克（Anthony Clark）
   name_original: ''
   language_original: ''
 - slug: persons/antonio-barberini
@@ -97,16 +181,58 @@ index:
   title: '"安东尼奥·鲁福（Don Antonio Ruffo）"'
   name_original: ''
   language_original: ''
+- slug: persons/antonio-verrio
+  type: persons
+  name_en: Antonio Verrio
+  title: 安东尼奥·韦里奥（Antonio Verrio）
+  name_original: ''
+  language_original: ''
+- slug: persons/archbishop-tillotson
+  type: persons
+  name_en: Archbishop Tillotson
+  title: 蒂洛特森大主教（Archbishop Tillotson）
+  name_original: ''
+  language_original: ''
+- slug: persons/aristotle
+  type: persons
+  name_en: Aristotle
+  title: 亚里士多德（Aristotle）
+  name_original: ''
+  language_original: ''
 - slug: persons/artemisia-gentileschi
   type: persons
   name_en: '"Artemisia Gentileschi"'
   title: '"阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）"'
   name_original: ''
   language_original: ''
+- slug: persons/b-nazari
+  type: persons
+  name_en: B. Nazari
+  title: B. 纳扎里（B. Nazari）
+  name_original: ''
+  language_original: ''
+- slug: persons/baldassare-franceschini
+  type: persons
+  name_en: Baldassare Franceschini
+  title: 巴尔达萨雷·弗兰切斯基尼（Baldassare Franceschini）
+  name_original: ''
+  language_original: ''
+- slug: persons/bartolozzi
+  type: persons
+  name_en: Bartolozzi
+  title: 巴尔托洛齐（Bartolozzi）
+  name_original: ''
+  language_original: ''
 - slug: persons/benedetto-luti
   type: persons
   name_en: '"Benedetto Luti"'
   title: '"贝内代托·卢蒂（Benedetto Luti）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/benedict-nicolson
+  type: persons
+  name_en: Lionel Benedict Nicolson
+  title: 莱昂内尔·本尼迪克特·尼科尔森（Lionel Benedict Nicolson）
   name_original: ''
   language_original: ''
 - slug: persons/benvenuto-cellini
@@ -121,10 +247,28 @@ index:
   title: '"贝尔林杰罗·杰西（Berlingero Gessi）"'
   name_original: ''
   language_original: ''
+- slug: persons/bernardino-castelli
+  type: persons
+  name_en: Bernardino Castelli
+  title: 贝尔纳迪诺·卡斯泰利（Bernardino Castelli）
+  name_original: ''
+  language_original: ''
 - slug: persons/bonifazio-gozadini
   type: persons
   name_en: '"Bonifazio Gozadini"'
   title: '"博尼法齐奥·戈扎迪尼（Bonifazio Gozadini）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/bruce-boucher
+  type: persons
+  name_en: Bruce Boucher
+  title: 布鲁斯·鲍彻（Bruce Boucher）
+  name_original: ''
+  language_original: ''
+- slug: persons/burnacini
+  type: persons
+  name_en: Burnacini
+  title: 布尔纳奇尼（Burnacini）
   name_original: ''
   language_original: ''
 - slug: persons/camillo-astalli
@@ -139,16 +283,40 @@ index:
   title: '"卡米洛·加瓦塞蒂（Camillo Gavasetti）"'
   name_original: ''
   language_original: ''
+- slug: persons/camillo-massimi
+  type: persons
+  name_en: Camillo Massimi
+  title: 卡米洛·马西米（Camillo Massimi）
+  name_original: ''
+  language_original: ''
 - slug: persons/camillo-pamfili
   type: persons
   name_en: '"Camillo Francesco Maria Pamphili"'
   title: '"卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）"'
   name_original: ''
   language_original: ''
+- slug: persons/canaletto
+  type: persons
+  name_en: Canaletto
+  title: 卡纳莱托（Canaletto）
+  name_original: ''
+  language_original: ''
+- slug: persons/canova
+  type: persons
+  name_en: Canova
+  title: 卡诺瓦（Canova）
+  name_original: ''
+  language_original: ''
 - slug: persons/caravaggio
   type: persons
   name_en: Caravaggio
   title: 卡拉瓦乔（Caravaggio）
+  name_original: ''
+  language_original: ''
+- slug: persons/cardinal-bentivoglio
+  type: persons
+  name_en: Cardinal Bentivoglio
+  title: 本蒂沃利奥枢机（Cardinal Bentivoglio）
   name_original: ''
   language_original: ''
 - slug: persons/cardinal-borghese-ch1
@@ -175,6 +343,18 @@ index:
   title: '"卡洛·切萨雷·马尔瓦西亚（Carlo Cesare Malvasia）"'
   name_original: ''
   language_original: ''
+- slug: persons/carlo-dolci
+  type: persons
+  name_en: Carlo Dolci
+  title: 卡洛·多尔奇（Carlo Dolci）
+  name_original: ''
+  language_original: ''
+- slug: persons/carlo-lodoli
+  type: persons
+  name_en: Carlo Lodoli
+  title: 卡洛·洛多利（Carlo Lodoli）
+  name_original: ''
+  language_original: ''
 - slug: persons/carlo-maratta
   type: persons
   name_en: '"Carlo Maratta"'
@@ -193,10 +373,34 @@ index:
   title: '"卡洛·里多尔菲（Carlo Ridolfi）"'
   name_original: ''
   language_original: ''
+- slug: persons/cassiano-dal-pozzo
+  type: persons
+  name_en: Cassiano dal Pozzo
+  title: 卡西亚诺·达尔·波佐（Cassiano dal Pozzo）
+  name_original: ''
+  language_original: ''
 - slug: persons/cesare-leopardi-dosimo
   type: persons
   name_en: '"Don Cesare Leopardi d’Osimo"'
   title: '"切萨雷·莱奥帕尔迪·多西莫（Don Cesare Leopardi d’Osimo）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/charles-fox
+  type: persons
+  name_en: Charles Fox
+  title: 查尔斯·福克斯（Charles Fox）
+  name_original: ''
+  language_original: ''
+- slug: persons/charles-francois-poerson
+  type: persons
+  name_en: Charles-François Poerson
+  title: 夏尔-弗朗索瓦·普瓦松（Charles-François Poerson）
+  name_original: ''
+  language_original: ''
+- slug: persons/charles-i
+  type: persons
+  name_en: Charles I
+  title: 查理一世（Charles I）
   name_original: ''
   language_original: ''
 - slug: persons/charles-v
@@ -209,6 +413,12 @@ index:
   type: persons
   name_en: '"Christina of Sweden"'
   title: '"瑞典女王克里斯蒂娜（Christina of Sweden）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/cimaroli
+  type: persons
+  name_en: Cimaroli
+  title: 奇马罗利（Cimaroli）
   name_original: ''
   language_original: ''
 - slug: persons/ciriaco-mattei
@@ -229,6 +439,18 @@ index:
   title: '"克劳德·洛兰（Claude Lorrain）"'
   name_original: ''
   language_original: ''
+- slug: persons/claude-mellan
+  type: persons
+  name_en: Claude Mellan
+  title: 克洛德·梅朗（Claude Mellan）
+  name_original: ''
+  language_original: ''
+- slug: persons/clement-i
+  type: persons
+  name_en: Clement I
+  title: 圣克莱孟一世（Clement I）
+  name_original: ''
+  language_original: ''
 - slug: persons/clement-viii
   type: persons
   name_en: '"Clement VIII"'
@@ -247,6 +469,12 @@ index:
   title: '"科雷乔（Correggio）"'
   name_original: ''
   language_original: ''
+- slug: persons/daphne-ionides
+  type: persons
+  name_en: Daphne Ionides
+  title: 达芙妮·伊奥尼德斯（Daphne Ionides）
+  name_original: ''
+  language_original: ''
 - slug: persons/denis-mahon
   type: persons
   name_en: '"Denis Mahon"'
@@ -257,6 +485,18 @@ index:
   type: persons
   name_en: '"Domenico Zampieri"'
   title: '"多梅尼科·赞皮耶里（Domenico Zampieri）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/domenico-cerato
+  type: persons
+  name_en: Domenico Cerato
+  title: 多梅尼科·切拉托（Domenico Cerato）
+  name_original: ''
+  language_original: ''
+- slug: persons/domenico-maria-viani
+  type: persons
+  name_en: Domenico Maria Viani
+  title: 多梅尼科·马里亚·维亚尼（Domenico Maria Viani）
   name_original: ''
   language_original: ''
 - slug: persons/duke-bracciano-mulier
@@ -275,6 +515,30 @@ index:
   type: persons
   name_en: '"Duke of Parma (Ghezzi’s honorary appointment)"'
   title: '"帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s honorary appointment)）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/eberhard-zwicker
+  type: persons
+  name_en: Eberhard Zwicker
+  title: 埃伯哈德·茨维克（Eberhard Zwicker）
+  name_original: ''
+  language_original: ''
+- slug: persons/elizabeth-orna
+  type: persons
+  name_en: Elizabeth Orna
+  title: 伊丽莎白·奥纳（Elizabeth Orna）
+  name_original: ''
+  language_original: ''
+- slug: persons/ellis-waterhouse
+  type: persons
+  name_en: Ellis Waterhouse
+  title: 埃利斯·沃特豪斯（Ellis Waterhouse）
+  name_original: ''
+  language_original: ''
+- slug: persons/enzo-crea
+  type: persons
+  name_en: Enzo Crea
+  title: 恩佐·克雷亚（Enzo Crea）
   name_original: ''
   language_original: ''
 - slug: persons/ermete-cavalletti
@@ -301,6 +565,12 @@ index:
   title: '"费德里科·祖卡里（Federico Zuccari）"'
   name_original: ''
   language_original: ''
+- slug: persons/ferdinand-grand-prince-tuscany
+  type: persons
+  name_en: Grand Prince Ferdinand of Tuscany
+  title: 托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）
+  name_original: ''
+  language_original: ''
 - slug: persons/filippo-baldinucci
   type: persons
   name_en: '"Filippo Baldinucci"'
@@ -311,6 +581,12 @@ index:
   type: persons
   name_en: '"Filippo Lauri"'
   title: '"菲利波·劳里（Filippo Lauri）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/flaminio-corner
+  type: persons
+  name_en: Flaminio Corner
+  title: 弗拉米尼奥·科尔内尔（Flaminio Corner）
   name_original: ''
   language_original: ''
 - slug: persons/flavio-chigi
@@ -325,6 +601,12 @@ index:
   title: '"弗朗切斯科·阿尔巴尼（Francesco Albani）"'
   name_original: ''
   language_original: ''
+- slug: persons/francesco-algarotti
+  type: persons
+  name_en: Francesco Algarotti
+  title: 弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）
+  name_original: ''
+  language_original: ''
 - slug: persons/francesco-barberini
   type: persons
   name_en: '"Francesco Barberini"'
@@ -337,10 +619,28 @@ index:
   title: 弗朗切斯科·博罗米尼（Francesco Borromini）
   name_original: ''
   language_original: ''
+- slug: persons/francesco-fanelli
+  type: persons
+  name_en: Francesco Fanelli
+  title: 弗朗切斯科·法内利（Francesco Fanelli）
+  name_original: ''
+  language_original: ''
 - slug: persons/francesco-fontana
   type: persons
   name_en: '"Francesco Fontana"'
   title: '"弗朗切斯科·丰塔纳（Francesco Fontana）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/francesco-guardi
+  type: persons
+  name_en: Francesco Guardi
+  title: 弗朗切斯科·瓜尔迪（Francesco Guardi）
+  name_original: ''
+  language_original: ''
+- slug: persons/francesco-maggiotto
+  type: persons
+  name_en: Francesco Maggiotto
+  title: 弗朗切斯科·马焦托（Francesco Maggiotto）
   name_original: ''
   language_original: ''
 - slug: persons/francesco-maria-del-monte
@@ -361,10 +661,28 @@ index:
   title: '"弗朗切斯科·诺韦蒂（Francesco Novetti）"'
   name_original: ''
   language_original: ''
+- slug: persons/francesco-petrucci
+  type: persons
+  name_en: Francesco Petrucci
+  title: 弗朗切斯科·彼得鲁奇（Francesco Petrucci）
+  name_original: ''
+  language_original: ''
 - slug: persons/francesco-trevisani
   type: persons
   name_en: '"Francesco Trevisani"'
   title: '"弗朗切斯科·特雷维萨尼（Francesco Trevisani）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/francis-haskell
+  type: persons
+  name_en: Francis Haskell
+  title: 弗朗西斯·哈斯克尔（Francis Haskell）
+  name_original: ''
+  language_original: ''
+- slug: persons/franco-venturi
+  type: persons
+  name_en: Franco Venturi
+  title: 弗兰科·文图里（Franco Venturi）
   name_original: ''
   language_original: ''
 - slug: persons/frederick-iii
@@ -377,6 +695,30 @@ index:
   type: persons
   name_en: '"Fulvio Testi"'
   title: '"富尔维奥·泰斯蒂（Fulvio Testi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/g-h-w-rylands
+  type: persons
+  name_en: G. H. W. Rylands
+  title: G. H. W. 赖兰兹（G. H. W. Rylands）
+  name_original: ''
+  language_original: ''
+- slug: persons/g-m-sasso
+  type: persons
+  name_en: G. M. Sasso
+  title: G. M. 萨索（G. M. Sasso）
+  name_original: ''
+  language_original: ''
+- slug: persons/g-volpato
+  type: persons
+  name_en: G. Volpato
+  title: G. 沃尔帕托（G. Volpato）
+  name_original: ''
+  language_original: ''
+- slug: persons/gaetano-cozzi
+  type: persons
+  name_en: Gaetano Cozzi
+  title: 加埃塔诺·科齐（Gaetano Cozzi）
   name_original: ''
   language_original: ''
 - slug: persons/gaspard-dughet
@@ -397,16 +739,34 @@ index:
   title: '"贾钦托·布兰迪（Giacinto Brandi）"'
   name_original: ''
   language_original: ''
+- slug: persons/giacomo-triga
+  type: persons
+  name_en: Giacomo Triga
+  title: 贾科莫·特里加（Giacomo Triga）
+  name_original: ''
+  language_original: ''
 - slug: persons/giambattista-passeri
   type: persons
   name_en: '"Giovanni Battista Passeri"'
   title: '"乔万尼·巴蒂斯塔·帕塞里（Giovanni Battista Passeri）"'
   name_original: ''
   language_original: ''
+- slug: persons/giambattista-tiepolo
+  type: persons
+  name_en: Giambattista Tiepolo
+  title: 乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）
+  name_original: ''
+  language_original: ''
 - slug: persons/giammaria-morandi
   type: persons
   name_en: '"Giovanni Maria Morandi"'
   title: '"乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/gian-antonio-faldoni
+  type: persons
+  name_en: Gian Antonio Faldoni
+  title: 詹安东尼奥·法尔多尼（Gian Antonio Faldoni）
   name_original: ''
   language_original: ''
 - slug: persons/gian-lorenzo-bernini
@@ -421,10 +781,34 @@ index:
   title: '"乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）"'
   name_original: ''
   language_original: ''
+- slug: persons/gianfranco-torcellan
+  type: persons
+  name_en: Gianfranco Torcellan
+  title: 詹弗兰科·托尔切兰（Gianfranco Torcellan）
+  name_original: ''
+  language_original: ''
+- slug: persons/giannantonio-fumiani
+  type: persons
+  name_en: GiannAntonio Fumiani
+  title: 詹安东尼奥·富米亚尼（GiannAntonio Fumiani）
+  name_original: ''
+  language_original: ''
+- slug: persons/giaquinto-front-matter
+  type: persons
+  name_en: Giaquinto
+  title: 贾昆托（Giaquinto）
+  name_original: ''
+  language_original: ''
 - slug: persons/gio-gasparo-baldoini
   type: persons
   name_en: '"Giovanni Gaspare Baldoino"'
   title: '"乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/gio-maria-bottalla
+  type: persons
+  name_en: Gio. Maria Bottalla
+  title: 乔·马里亚·博塔拉（Gio. Maria Bottalla）
   name_original: ''
   language_original: ''
 - slug: persons/giorgio-vasari
@@ -457,6 +841,12 @@ index:
   title: '"乔瓦尼·博纳蒂（Giovanni Bonatti）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-domenico-piastrini
+  type: persons
+  name_en: Giovanni Domenico Piastrini
+  title: 乔万尼·多梅尼科·皮亚斯特里尼（Giovanni Domenico Piastrini）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-lanfranco
   type: persons
   name_en: '"Giovanni Lanfranco"'
@@ -465,8 +855,8 @@ index:
   language_original: ''
 - slug: persons/giovanni-odazzi
   type: persons
-  name_en: '"Giovanni Odazzi"'
-  title: '"乔万尼·奥达齐（Giovanni Odazzi）"'
+  name_en: Giovanni Odazzi
+  title: 乔万尼·奥达齐（Giovanni Odazzi）
   name_original: ''
   language_original: ''
 - slug: persons/giovanni-perugini
@@ -475,16 +865,34 @@ index:
   title: '"乔万尼·佩鲁吉尼（Giovanni Perugini）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-pesaro
+  type: persons
+  name_en: Giovanni Pesaro
+  title: 乔瓦尼·佩萨罗（Giovanni Pesaro）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-pietro-bellori
   type: persons
   name_en: '"Giovanni Pietro Bellori"'
   title: '"乔万尼·彼得罗·贝洛里（Giovanni Pietro Bellori）"'
   name_original: ''
   language_original: ''
+- slug: persons/girolamo-teti
+  type: persons
+  name_en: Girolamo Teti
+  title: 吉罗拉莫·泰蒂（Girolamo Teti）
+  name_original: ''
+  language_original: ''
 - slug: persons/giulio-mancini
   type: persons
   name_en: '"Giulio Mancini"'
   title: '"朱利奥·曼奇尼（Giulio Mancini）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giuseppe-angeli
+  type: persons
+  name_en: Giuseppe Angeli
+  title: 朱塞佩·安杰利（Giuseppe Angeli）
   name_original: ''
   language_original: ''
 - slug: persons/giuseppe-cesari
@@ -507,14 +915,26 @@ index:
   language_original: ''
 - slug: persons/giuseppe-maria-crespi
   type: persons
-  name_en: ''
+  name_en: Giuseppe Maria Crespi
   title: 朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）
+  name_original: ''
+  language_original: ''
+- slug: persons/giuseppe-zocchi
+  type: persons
+  name_en: Giuseppe Zocchi
+  title: 朱塞佩·佐基（Giuseppe Zocchi）
   name_original: ''
   language_original: ''
 - slug: persons/gl-bianconi
   type: persons
   name_en: '"Giovanni Ludovico Bianconi"'
   title: '"乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/goldoni
+  type: persons
+  name_en: Goldoni
+  title: 戈尔多尼（Goldoni）
   name_original: ''
   language_original: ''
 - slug: persons/gregory-xv
@@ -529,16 +949,58 @@ index:
   title: 乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）
   name_original: ''
   language_original: ''
+- slug: persons/guglielmo-baur
+  type: persons
+  name_en: Guglielmo Baur
+  title: 古列尔莫·鲍尔（Guglielmo Baur）
+  name_original: ''
+  language_original: ''
 - slug: persons/guglielmo-cortese
   type: persons
   name_en: '"Guglielmo Cortese"'
   title: '"古列尔莫·科尔泰塞（Guglielmo Cortese）"'
   name_original: ''
   language_original: ''
+- slug: persons/guido-abbatini
+  type: persons
+  name_en: Guido Abbatini
+  title: 圭多·阿巴蒂尼（Guido Abbatini）
+  name_original: ''
+  language_original: ''
+- slug: persons/guido-cagnacci
+  type: persons
+  name_en: Guido Cagnacci
+  title: 圭多·卡尼亚奇（Guido Cagnacci）
+  name_original: ''
+  language_original: ''
 - slug: persons/guido-reni
   type: persons
-  name_en: '"Guido Reni"'
-  title: '"圭多·雷尼（Guido Reni）"'
+  name_en: Guido Reni
+  title: 圭多·雷尼（Guido Reni）
+  name_original: ''
+  language_original: ''
+- slug: persons/gyles-isham
+  type: persons
+  name_en: Gyles Isham
+  title: 盖尔斯·伊舍姆（Gyles Isham）
+  name_original: ''
+  language_original: ''
+- slug: persons/homer
+  type: persons
+  name_en: Homer
+  title: 荷马（Homer）
+  name_original: ''
+  language_original: ''
+- slug: persons/howard-hibbard
+  type: persons
+  name_en: Howard Hibbard
+  title: 霍华德·希巴德（Howard Hibbard）
+  name_original: ''
+  language_original: ''
+- slug: persons/hugh-honour
+  type: persons
+  name_en: Hugh Honour
+  title: 休·昂纳（Hugh Honour）
   name_original: ''
   language_original: ''
 - slug: persons/innocent-x
@@ -549,7 +1011,7 @@ index:
   language_original: ''
 - slug: persons/innocent-xi
   type: persons
-  name_en: ''
+  name_en: Innocent XI
   title: 英诺森十一世（Innocent XI）
   name_original: ''
   language_original: ''
@@ -571,16 +1033,64 @@ index:
   title: '"雅各布·萨尔维亚蒂（Jacopo Salviati）"'
   name_original: ''
   language_original: ''
+- slug: persons/jerome-bankes
+  type: persons
+  name_en: Jerome Bankes
+  title: 杰罗姆·班克斯（Jerome Bankes）
+  name_original: ''
+  language_original: ''
+- slug: persons/john-gilmartin
+  type: persons
+  name_en: John Gilmartin
+  title: 约翰·吉尔马丁（John Gilmartin）
+  name_original: ''
+  language_original: ''
+- slug: persons/john-nicoll
+  type: persons
+  name_en: John Nicoll
+  title: 约翰·尼科尔（John Nicoll）
+  name_original: ''
+  language_original: ''
+- slug: persons/john-r-freeman
+  type: persons
+  name_en: John R. Freeman
+  title: 约翰·R. 弗里曼（John R. Freeman）
+  name_original: ''
+  language_original: ''
+- slug: persons/john-strange
+  type: persons
+  name_en: John Strange
+  title: 约翰·斯特兰奇（John Strange）
+  name_original: ''
+  language_original: ''
+- slug: persons/juan-de-pareja
+  type: persons
+  name_en: Juan de Pareja
+  title: 胡安·德·帕雷哈（Juan de Pareja）
+  name_original: ''
+  language_original: ''
 - slug: persons/laerzio-cherubini
   type: persons
   name_en: Laerzio Cherubini
   title: 莱尔齐奥·凯鲁比尼（Laerzio Cherubini）
   name_original: ''
   language_original: ''
+- slug: persons/larissa-dedicatee
+  type: persons
+  name_en: Larissa
+  title: 拉里萨（Larissa）
+  name_original: ''
+  language_original: ''
 - slug: persons/leo-x
   type: persons
   name_en: '"Leo X"'
   title: '"利奥十世（Leo X）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/leonardis
+  type: persons
+  name_en: Leonardis
+  title: 莱奥纳迪斯（Leonardis）
   name_original: ''
   language_original: ''
 - slug: persons/leopoldo-de-medici
@@ -605,6 +1115,12 @@ index:
   type: persons
   name_en: ''
   title: 洛伦佐·奥诺弗里奥·科隆纳（Lorenzo Onofrio Colonna）
+  name_original: ''
+  language_original: ''
+- slug: persons/louis-xiv
+  type: persons
+  name_en: Louis XIV
+  title: 路易十四（Louis XIV）
   name_original: ''
   language_original: ''
 - slug: persons/luca-giordano
@@ -643,6 +1159,12 @@ index:
   title: '"加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）"'
   name_original: ''
   language_original: ''
+- slug: persons/marchese-gerini
+  type: persons
+  name_en: Marchese Gerini
+  title: 杰里尼侯爵（Marchese Gerini）
+  name_original: ''
+  language_original: ''
 - slug: persons/marchese-giustiniani-ch1
   type: persons
   name_en: '"Vincenzo Giustiniani"'
@@ -661,6 +1183,36 @@ index:
   title: '"圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (Negri’s correspondent)）"'
   name_original: ''
   language_original: ''
+- slug: persons/marco-chiarini
+  type: persons
+  name_en: Marco Chiarini
+  title: 马尔科·基亚里尼（Marco Chiarini）
+  name_original: ''
+  language_original: ''
+- slug: persons/marco-pitteri
+  type: persons
+  name_en: Marco Pitteri
+  title: 马尔科·皮泰里（Marco Pitteri）
+  name_original: ''
+  language_original: ''
+- slug: persons/marco-ricci
+  type: persons
+  name_en: Marco Ricci
+  title: 马尔科·里奇（Marco Ricci）
+  name_original: ''
+  language_original: ''
+- slug: persons/marianne-roland-michel
+  type: persons
+  name_en: Marianne Roland-Michel
+  title: 玛丽安娜·罗兰-米歇尔（Marianne Roland-Michel）
+  name_original: ''
+  language_original: ''
+- slug: persons/marieschi
+  type: persons
+  name_en: Marieschi
+  title: 马里耶斯基（Marieschi）
+  name_original: ''
+  language_original: ''
 - slug: persons/mario-de-fiori
   type: persons
   name_en: '"Mario Nuzzi"'
@@ -673,6 +1225,24 @@ index:
   title: '"马里奥·明尼蒂（Mario Minniti）"'
   name_original: ''
   language_original: ''
+- slug: persons/marshal-schulenburg
+  type: persons
+  name_en: Marshal Schulenburg
+  title: 舒伦堡元帅（Marshal Schulenburg）
+  name_original: ''
+  language_original: ''
+- slug: persons/massimo-stanzione
+  type: persons
+  name_en: Massimo Stanzione
+  title: 马西莫·斯坦齐奥内（Massimo Stanzione）
+  name_original: ''
+  language_original: ''
+- slug: persons/matteo-castelli
+  type: persons
+  name_en: Matteo Castelli
+  title: 马泰奥·卡斯泰利（Matteo Castelli）
+  name_original: ''
+  language_original: ''
 - slug: persons/mattia-preti
   type: persons
   name_en: '"Mattia Preti"'
@@ -683,6 +1253,24 @@ index:
   type: persons
   name_en: '"Maurizio di Savoia"'
   title: '"毛里齐奥·迪·萨伏依（Maurizio di Savoia）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/mazarin
+  type: persons
+  name_en: Mazarin
+  title: 马扎然（Mazarin）
+  name_original: ''
+  language_original: ''
+- slug: persons/michael-conforti
+  type: persons
+  name_en: Michael Conforti
+  title: 迈克尔·康福尔蒂（Michael Conforti）
+  name_original: ''
+  language_original: ''
+- slug: persons/michael-levey
+  type: persons
+  name_en: Michael Levey
+  title: 迈克尔·利维（Michael Levey）
   name_original: ''
   language_original: ''
 - slug: persons/michelangelo-cerquozzi
@@ -703,10 +1291,34 @@ index:
   title: '"托马斯·科克（Thomas Coke，阿伦德尔家户通信者）"'
   name_original: ''
   language_original: ''
+- slug: persons/nanteuil
+  type: persons
+  name_en: Nanteuil
+  title: 南特伊（Nanteuil）
+  name_original: ''
+  language_original: ''
+- slug: persons/niccolo-bambini
+  type: persons
+  name_en: Niccolo Bambini
+  title: 尼科洛·班比尼（Niccolo Bambini）
+  name_original: ''
+  language_original: ''
 - slug: persons/nicolas-poussin
   type: persons
   name_en: '"Nicolas Poussin"'
   title: '"尼古拉·普桑（Nicolas Poussin）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/nikolaus-pevsner
+  type: persons
+  name_en: Nikolaus Pevsner
+  title: 尼古拉斯·佩夫斯纳（Nikolaus Pevsner）
+  name_original: ''
+  language_original: ''
+- slug: persons/norah-smallwood
+  type: persons
+  name_en: Norah Smallwood
+  title: 诺拉·斯莫尔伍德（Norah Smallwood）
   name_original: ''
   language_original: ''
 - slug: persons/olimpia-aldobrandini
@@ -733,16 +1345,58 @@ index:
   title: 奥诺里奥·隆吉（Onorio Longhi）
   name_original: ''
   language_original: ''
+- slug: persons/orazio-gentileschi
+  type: persons
+  name_en: Orazio Gentileschi
+  title: 奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）
+  name_original: ''
+  language_original: ''
+- slug: persons/oscar-savio
+  type: persons
+  name_en: Oscar Savio
+  title: 奥斯卡·萨维奥（Oscar Savio）
+  name_original: ''
+  language_original: ''
 - slug: persons/ottavio-costa
   type: persons
   name_en: Ottavio Costa
   title: 奥塔维奥·科斯塔（Ottavio Costa）
   name_original: ''
   language_original: ''
+- slug: persons/ottavio-leoni
+  type: persons
+  name_en: Ottavio Leoni
+  title: 奥塔维奥·莱奥尼（Ottavio Leoni）
+  name_original: ''
+  language_original: ''
+- slug: persons/owen-mcswiny
+  type: persons
+  name_en: Owen McSwiny
+  title: 欧文·麦克斯温尼（Owen McSwiny）
+  name_original: ''
+  language_original: ''
+- slug: persons/p-van-bleek
+  type: persons
+  name_en: P. Van Bleek
+  title: P. 范·布莱克（P. Van Bleek）
+  name_original: ''
+  language_original: ''
 - slug: persons/paolo-borghese
   type: persons
   name_en: '"Paolo Borghese"'
   title: '"保罗·博尔盖塞（Paolo Borghese）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/paolo-de-matteis
+  type: persons
+  name_en: Paolo de Matteis
+  title: 保罗·德·马泰伊斯（Paolo de Matteis）
+  name_original: ''
+  language_original: ''
+- slug: persons/paolo-giordano-orsini
+  type: persons
+  name_en: Paolo Giordano Orsini
+  title: 保罗·乔尔达诺·奥尔西尼（Paolo Giordano Orsini）
   name_original: ''
   language_original: ''
 - slug: persons/paolo-girolamo-piola
@@ -769,10 +1423,40 @@ index:
   title: '"利奥内·帕斯科利（Lione Pascoli）"'
   name_original: ''
   language_original: ''
+- slug: persons/pasquali
+  type: persons
+  name_en: Pasquali
+  title: 帕斯夸利（Pasquali）
+  name_original: ''
+  language_original: ''
+- slug: persons/pastor-historian
+  type: persons
+  name_en: Ludovico von Pastor
+  title: 路德维科·冯·帕斯托（Ludovico von Pastor）
+  name_original: ''
+  language_original: ''
 - slug: persons/paul-v
   type: persons
   name_en: '"Paul V"'
   title: '"保禄五世（Paul V）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/pellegrini
+  type: persons
+  name_en: Pellegrini
+  title: 佩莱格里尼（Pellegrini）
+  name_original: ''
+  language_original: ''
+- slug: persons/peter-calvocoressi
+  type: persons
+  name_en: Peter Calvocoressi
+  title: 彼得·卡尔沃科雷西（Peter Calvocoressi）
+  name_original: ''
+  language_original: ''
+- slug: persons/peter-moores
+  type: persons
+  name_en: Peter Moores
+  title: 彼得·穆尔斯（Peter Moores）
   name_original: ''
   language_original: ''
 - slug: persons/peter-paul-rubens
@@ -781,10 +1465,34 @@ index:
   title: '"鲁本斯（Rubens）"'
   name_original: ''
   language_original: ''
+- slug: persons/piazzetta
+  type: persons
+  name_en: Piazzetta
+  title: 皮亚泽塔（Piazzetta）
+  name_original: ''
+  language_original: ''
 - slug: persons/pier-francesco-mola
   type: persons
   name_en: '"Pier Francesco Mola"'
   title: '"皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/pier-leone-ghezzi
+  type: persons
+  name_en: Pier Leone Ghezzi
+  title: 皮耶尔·莱奥内·盖齐（Pier Leone Ghezzi）
+  name_original: ''
+  language_original: ''
+- slug: persons/pierre-motteux
+  type: persons
+  name_en: Pierre Motteux
+  title: 皮埃尔·莫特（Pierre Motteux）
+  name_original: ''
+  language_original: ''
+- slug: persons/pierre-rosenberg
+  type: persons
+  name_en: Pierre Rosenberg
+  title: 皮埃尔·罗森贝格（Pierre Rosenberg）
   name_original: ''
   language_original: ''
 - slug: persons/pieter-van-laer
@@ -793,10 +1501,22 @@ index:
   title: '"彼得·范拉尔（Pieter van Laer）"'
   name_original: ''
   language_original: ''
+- slug: persons/pietro-antonio-novelli
+  type: persons
+  name_en: Pietro Antonio Novelli
+  title: 皮埃特罗·安东尼奥·诺韦利（Pietro Antonio Novelli）
+  name_original: ''
+  language_original: ''
 - slug: persons/pietro-da-cortona
   type: persons
   name_en: '"Pietro da Cortona"'
   title: '"皮耶特罗·达·科尔托纳（Pietro da Cortona）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/pietro-di-pietri
+  type: persons
+  name_en: Pietro Antonio De Petri
+  title: 皮埃特罗·安东尼奥·德·彼得里（Pietro Antonio De Petri）
   name_original: ''
   language_original: ''
 - slug: persons/pietro-mulier
@@ -811,10 +1531,40 @@ index:
   title: '"彼得罗·奥托博尼（Pietro Ottoboni）"'
   name_original: ''
   language_original: ''
+- slug: persons/pietro-testa
+  type: persons
+  name_en: Pietro Testa
+  title: 皮埃特罗·泰斯塔（Pietro Testa）
+  name_original: ''
+  language_original: ''
+- slug: persons/pittoni
+  type: persons
+  name_en: Pittoni
+  title: 皮托尼（Pittoni）
+  name_original: ''
+  language_original: ''
+- slug: persons/pompeo-batoni
+  type: persons
+  name_en: Pompeo Batoni
+  title: 蓬佩奥·巴托尼（Pompeo Batoni）
+  name_original: ''
+  language_original: ''
 - slug: persons/prospero-orsi
   type: persons
   name_en: Prospero Orsi
   title: 普罗斯佩罗·奥尔西（Prospero Orsi）
+  name_original: ''
+  language_original: ''
+- slug: persons/r-b-fleming
+  type: persons
+  name_en: R. B. Fleming
+  title: R. B. 弗莱明（R. B. Fleming）
+  name_original: ''
+  language_original: ''
+- slug: persons/ralph-bankes
+  type: persons
+  name_en: Ralph Bankes
+  title: 拉尔夫·班克斯（Ralph Bankes）
   name_original: ''
   language_original: ''
 - slug: persons/raphael
@@ -829,10 +1579,40 @@ index:
   title: '"伦勃朗（Rembrandt）"'
   name_original: ''
   language_original: ''
+- slug: persons/ribera
+  type: persons
+  name_en: Ribera
+  title: 里贝拉（Ribera）
+  name_original: ''
+  language_original: ''
+- slug: persons/robert-enggass
+  type: persons
+  name_en: Robert Enggass
+  title: 罗伯特·恩加斯（Robert Enggass）
+  name_original: ''
+  language_original: ''
+- slug: persons/romanelli
+  type: persons
+  name_en: Romanelli
+  title: 罗马内利（Romanelli）
+  name_original: ''
+  language_original: ''
+- slug: persons/rudolf-wittkower
+  type: persons
+  name_en: Rudolf Wittkower
+  title: 鲁道夫·维特科尔（Rudolf Wittkower）
+  name_original: ''
+  language_original: ''
 - slug: persons/salvator-rosa
   type: persons
   name_en: '"Salvator Rosa"'
   title: '"萨尔瓦多·罗萨（Salvator Rosa）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/sassoferrato
+  type: persons
+  name_en: Sassoferrato
+  title: 萨索费拉托（Sassoferrato）
   name_original: ''
   language_original: ''
 - slug: persons/saverio-savini
@@ -841,10 +1621,22 @@ index:
   title: '"萨尔维奥·萨维尼（Salvio Savini）"'
   name_original: ''
   language_original: ''
+- slug: persons/sebastiano-conca
+  type: persons
+  name_en: Sebastiano Conca
+  title: 塞巴斯蒂亚诺·孔卡（Sebastiano Conca）
+  name_original: ''
+  language_original: ''
 - slug: persons/sebastiano-ricci
   type: persons
   name_en: '"Sebastiano Ricci"'
   title: '"塞巴斯蒂亚诺·里奇（Sebastiano Ricci）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/sigismund-streit
+  type: persons
+  name_en: Sigismund Streit
+  title: 西吉斯蒙德·施特赖特（Sigismund Streit）
   name_original: ''
   language_original: ''
 - slug: persons/simone-peterzano
@@ -853,16 +1645,52 @@ index:
   title: 西莫内·彼得扎诺（Simone Peterzano）
   name_original: ''
   language_original: ''
+- slug: persons/simonelli
+  type: persons
+  name_en: Simonelli
+  title: 西莫内利（Simonelli）
+  name_original: ''
+  language_original: ''
 - slug: persons/sixtus-v
   type: persons
   name_en: '"Sixtus V"'
   title: '"西斯笃五世（Sixtus V）"'
   name_original: ''
   language_original: ''
+- slug: persons/solimena
+  type: persons
+  name_en: Solimena
+  title: 索利梅纳（Solimena）
+  name_original: ''
+  language_original: ''
+- slug: persons/teodoro-correr
+  type: persons
+  name_en: Teodoro Correr
+  title: 泰奥多罗·科雷尔（Teodoro Correr）
+  name_original: ''
+  language_original: ''
+- slug: persons/terisio-pignatti
+  type: persons
+  name_en: Terisio Pignatti
+  title: 泰里西奥·皮尼亚蒂（Terisio Pignatti）
+  name_original: ''
+  language_original: ''
+- slug: persons/thomas-baines
+  type: persons
+  name_en: Thomas Baines
+  title: 托马斯·贝恩斯（Thomas Baines）
+  name_original: ''
+  language_original: ''
 - slug: persons/thomas-baker
   type: persons
   name_en: '"Thomas Baker"'
   title: '"托马斯·贝克（Thomas Baker）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/thomas-isham
+  type: persons
+  name_en: Thomas Isham
+  title: 托马斯·伊舍姆（Thomas Isham）
   name_original: ''
   language_original: ''
 - slug: persons/tiberio-cerasi
@@ -877,6 +1705,12 @@ index:
   title: '"提香（Titian）"'
   name_original: ''
   language_original: ''
+- slug: persons/tommaso-chiari
+  type: persons
+  name_en: Tommaso Chiari
+  title: 托马索·基亚里（Tommaso Chiari）
+  name_original: ''
+  language_original: ''
 - slug: persons/urbano-viii
   type: persons
   name_en: '"Urban VIII"'
@@ -887,6 +1721,18 @@ index:
   type: persons
   name_en: '"Valentin de Boulogne"'
   title: '"瓦朗坦·德·布洛涅（Valentin de Boulogne）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/van-dyck
+  type: persons
+  name_en: Van Dyck
+  title: 范·戴克（Van Dyck）
+  name_original: ''
+  language_original: ''
+- slug: persons/velasquez
+  type: persons
+  name_en: Velasquez
+  title: 委拉斯开兹（Velasquez）
   name_original: ''
   language_original: ''
 - slug: persons/ventura-carrara
@@ -907,10 +1753,28 @@ index:
   title: '"维吉尔（Virgil）"'
   name_original: ''
   language_original: ''
+- slug: persons/vitale-bloch
+  type: persons
+  name_en: Vitale Bloch
+  title: 维塔莱·布洛赫（Vitale Bloch）
+  name_original: ''
+  language_original: ''
 - slug: persons/viviano-codazzi
   type: persons
   name_en: Viviano Codazzi
   title: 维维亚诺·科达齐（Viviano Codazzi）
+  name_original: ''
+  language_original: ''
+- slug: persons/watkin-williams-wynn
+  type: persons
+  name_en: Watkin Williams-Wynn
+  title: 沃特金·威廉斯-温（Watkin Williams-Wynn）
+  name_original: ''
+  language_original: ''
+- slug: persons/zaccaria-sagredo
+  type: persons
+  name_en: Zaccaria Sagredo
+  title: 扎卡里亚·萨格雷多（Zaccaria Sagredo）
   name_original: ''
   language_original: ''
 - slug: terms/altarpiece
@@ -925,6 +1789,12 @@ index:
   title: '"画商（Art dealer）"'
   name_original: ''
   language_original: ''
+- slug: terms/art-patronage
+  type: terms
+  name_en: Art patronage
+  title: 艺术赞助（Art patronage）
+  name_original: ''
+  language_original: ''
 - slug: terms/artistic-independence
   type: terms
   name_en: '"Artistic independence"'
@@ -935,6 +1805,12 @@ index:
   type: terms
   name_en: '"Artistic temperament"'
   title: '"艺术家气质（Artistic temperament）"'
+  name_original: ''
+  language_original: ''
+- slug: terms/baroque
+  type: terms
+  name_en: Baroque
+  title: 巴洛克（Baroque）
   name_original: ''
   language_original: ''
 - slug: terms/bentveughels
@@ -1039,6 +1915,18 @@ index:
   title: '"预备稿／模型（Modello）"'
   name_original: ''
   language_original: ''
+- slug: terms/neapolitan-anti-classical-painting
+  type: terms
+  name_en: Neapolitan anti-classical painting
+  title: 那不勒斯反古典绘画（Neapolitan anti-classical painting）
+  name_original: ''
+  language_original: ''
+- slug: terms/neo-classicism
+  type: terms
+  name_en: Neo-classicism
+  title: 新古典主义（Neo-classicism）
+  name_original: ''
+  language_original: ''
 - slug: terms/nepotism
   type: terms
   name_en: '"Nepotism"'
@@ -1099,10 +1987,22 @@ index:
   title: '"圣路加学院章程（1621 年确认）（Statutes of the Accademia di S. Luca (confirmed in 1621)）"'
   name_original: ''
   language_original: ''
+- slug: archives/aedes-barberinae-ad-quirinalem
+  type: archives
+  name_en: Aedes Barberinae ad Quirinalem
+  title: 奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）
+  name_original: ''
+  language_original: ''
 - slug: archives/ameyden-relazione-1642
   type: archives
   name_en: '"Account of the City of Rome (1642)"'
   title: '"《罗马城记述》（1642）（Account of the City of Rome (1642)）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/apollo-periodical
+  type: archives
+  name_en: Apollo
+  title: 阿波罗期刊（Apollo）
   name_original: ''
   language_original: ''
 - slug: archives/armanni-delle-lettere
@@ -1147,6 +2047,12 @@ index:
   title: '"乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo '
   name_original: ''
   language_original: ''
+- slug: archives/burlington-magazine
+  type: archives
+  name_en: Burlington Magazine
+  title: 伯灵顿杂志（Burlington Magazine）
+  name_original: ''
+  language_original: ''
 - slug: archives/camassei-sebastian-receipt
   type: archives
   name_en: '"Published Payment Order for Camassei’s Saint Sebastian Altarpiece"'
@@ -1183,10 +2089,22 @@ index:
   title: '"科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）"'
   name_original: ''
   language_original: ''
+- slug: archives/conforti-legros-designers-1977
+  type: archives
+  name_en: Pierre Legros and the role of Sculptors as Designers in late Baroque Rome
+  title: 皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）
+  name_original: ''
+  language_original: ''
 - slug: archives/de-rosis-ruffo-letter-1663
   type: archives
   name_en: '"Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)"'
   title: '"朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/dizionario-biografico-degli-italiani
+  type: archives
+  name_en: Dizionario biografico degli Italiani
+  title: 意大利人传记辞典（Dizionario biografico degli Italiani）
   name_original: ''
   language_original: ''
 - slug: archives/ferri-ruffo-letter-1672
@@ -1201,10 +2119,22 @@ index:
   title: '"加瓦塞蒂皮亚琴察壁画委托条款（1624）（Terms for Gavasetti''s Piacenza Frescoes (1624)）"'
   name_original: ''
   language_original: ''
+- slug: archives/gerusalemme-liberata-illustrations-1745
+  type: archives
+  name_en: Gerusalemme Liberata, illustrations, 1745
+  title: 耶路撒冷解放插图本（1745）（Gerusalemme Liberata, illustrations, 1745）
+  name_original: ''
+  language_original: ''
 - slug: archives/gessi-leopardi-letter-1647
   type: archives
   name_en: '"Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)"'
   title: '"贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1'
+  name_original: ''
+  language_original: ''
+- slug: archives/gilmartin-san-clemente-1974
+  type: archives
+  name_en: The Paintings commissioned by Pope Clement XI for the Basilica of S. Clemente in Rome
+  title: 克勉十一世为罗马圣克莱孟圣殿委托的绘画（The Paintings commissioned by Pope Clement XI for the Basilica of S. Clemente in
   name_original: ''
   language_original: ''
 - slug: archives/gini-cortona-letter-1666
@@ -1219,6 +2149,12 @@ index:
   title: '"列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liecht'
   name_original: ''
   language_original: ''
+- slug: archives/goldoni-opere-vol-2-1761
+  type: archives
+  name_en: Goldoni, Opere, vol. 2, 1761
+  title: 戈尔多尼作品集第二卷（1761）（Goldoni, Opere, vol. 2, 1761）
+  name_original: ''
+  language_original: ''
 - slug: archives/grassi-cortona-bozzetti-1957
   type: archives
   name_en: '"Grassi''s Article on Cortona and the Bozzetti for the Doria Pamphili Gallery (1957)"'
@@ -1229,6 +2165,12 @@ index:
   type: archives
   name_en: '"Letter from Guercino to Antonio Ruffo (1649-09-25)"'
   title: '"圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/honour-patrons-painters-review-1963
+  type: archives
+  name_en: Hugh Honour's 1963 review of Patrons and Painters
+  title: 休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）
   name_original: ''
   language_original: ''
 - slug: archives/lanfranco-barberini-letter-1640
@@ -1267,6 +2209,18 @@ index:
   title: '"莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）（Contract Terms for Mola and Pamfili''s Valmontone Project (1657)）"'
   name_original: ''
   language_original: ''
+- slug: archives/montaiglon-academy-correspondence
+  type: archives
+  name_en: Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings
+  title: '"罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superinte'
+  name_original: ''
+  language_original: ''
+- slug: archives/museum-studies-art-institute-chicago
+  type: archives
+  name_en: Museum Studies
+  title: 博物馆研究期刊（Museum Studies）
+  name_original: ''
+  language_original: ''
 - slug: archives/negri-san-tommaso-letter-1676
   type: archives
   name_en: '"Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)"'
@@ -1285,10 +2239,22 @@ index:
   title: '"帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）"'
   name_original: ''
   language_original: ''
+- slug: archives/pastor-popes-english-vol33
+  type: archives
+  name_en: Pastor's history of the popes, English edition, volume XXXIII
+  title: 帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）
+  name_original: ''
+  language_original: ''
 - slug: archives/patrons-and-painters
   type: archives
   name_en: '"Patrons and Painters"'
   title: '"《赞助人与画家》（Patrons and Painters）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/poerson-letter-1708
+  type: archives
+  name_en: Poerson's 1708 letter on rewards for painting in Rome
+  title: 普瓦松1708年论罗马绘画报酬的信（Poerson's 1708 letter on rewards for painting in Rome）
   name_original: ''
   language_original: ''
 - slug: archives/quarisimini-carrara-letter-1696
@@ -1333,10 +2299,34 @@ index:
   title: '"富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）"'
   name_original: ''
   language_original: ''
+- slug: archives/us-copyright-law
+  type: archives
+  name_en: U.S. Copyright Law
+  title: 美国版权法（U.S. Copyright Law）
+  name_original: ''
+  language_original: ''
 - slug: archives/vasalli-testimony-mola-pamfili
   type: archives
   name_en: '"Vasalli''s Testimony on the Mola–Pamfili Service Dispute"'
   title: '"瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli''s Testimony on the Mola–Pamfili Service Dispute）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/waterhouse-rome-painting-1971
+  type: archives
+  name_en: Painting in Rome in the Eighteenth Century
+  title: 十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）
+  name_original: ''
+  language_original: ''
+- slug: works/a-d-gabbiani-a-group-of-musicians
+  type: works
+  name_en: A Group of Musicians
+  title: 乐师群像（A Group of Musicians）
+  name_original: ''
+  language_original: ''
+- slug: works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii
+  type: works
+  name_en: Mola painting the portrait of Pope Alexander VII
+  title: 莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）
   name_original: ''
   language_original: ''
 - slug: works/albani-servi-altarpiece-1639
@@ -1345,10 +2335,64 @@ index:
   title: '"阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）"'
   name_original: ''
   language_original: ''
+- slug: works/alessandro-longhi-carlo-lodoli
+  type: works
+  name_en: '"Portrait of Carlo Lodoli"'
+  title: '"卡洛·洛多利肖像（Portrait of Carlo Lodoli）"'
+  name_original: ''
+  language_original: ''
+- slug: works/alessandro-longhi-g-m-sasso
+  type: works
+  name_en: '"Portrait of G. M. Sasso"'
+  title: '"G. M. 萨索肖像（Portrait of G. M. Sasso）"'
+  name_original: ''
+  language_original: ''
 - slug: works/altieri-clemency-fresco
   type: works
   name_en: ''
   title: 阿尔蒂耶里宫《仁慈》天顶壁画
+  name_original: ''
+  language_original: ''
+- slug: works/amigoni-jupiter-and-io
+  type: works
+  name_en: Jupiter and Io
+  title: 朱庇特与伊娥（Jupiter and Io）
+  name_original: ''
+  language_original: ''
+- slug: works/amigoni-sigismund-streit
+  type: works
+  name_en: '"Portrait of Sigismund Streit"'
+  title: '"西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）"'
+  name_original: ''
+  language_original: ''
+- slug: works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio
+  type: works
+  name_en: Modello for fresco on vault of S. Ignazio
+  title: 圣依纳爵堂拱顶壁画模型（Modello for fresco on vault of S. Ignazio）
+  name_original: ''
+  language_original: ''
+- slug: works/andrea-sacchi-allegory-of-divine-wisdom
+  type: works
+  name_en: Allegory of Divine Wisdom
+  title: 神圣智慧寓意（Allegory of Divine Wisdom）
+  name_original: ''
+  language_original: ''
+- slug: works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace
+  type: works
+  name_en: Fresco on staircase of Hampton Court Palace
+  title: 汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）
+  name_original: ''
+  language_original: ''
+- slug: works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality
+  type: works
+  name_en: Fame carrying the name of Louis XIV to the Temple of Immortality
+  title: 声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）
+  name_original: ''
+  language_original: ''
+- slug: works/baldassare-franceschini-la-burla-del-piovano-arlotto
+  type: works
+  name_en: La Burla del Piovano Arlotto
+  title: 阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）
   name_original: ''
   language_original: ''
 - slug: works/barberini-salone-bozzetto-disputed
@@ -1357,10 +2401,22 @@ index:
   title: '"巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto for the Barberini Salone (disputed attribution)）"'
   name_original: ''
   language_original: ''
+- slug: works/bernardino-castelli-teodoro-correr
+  type: works
+  name_en: '"Portrait of Teodoro Correr"'
+  title: '"泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）"'
+  name_original: ''
+  language_original: ''
 - slug: works/bernini-cardinal-borghese-head
   type: works
   name_en: '"Bernini’s portrait head of Cardinal Borghese"'
   title: '"贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）"'
+  name_original: ''
+  language_original: ''
+- slug: works/bernini-caricature-of-cassiano-dal-pozzo
+  type: works
+  name_en: Caricature of Cassiano dal Pozzo
+  title: 卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）
   name_original: ''
   language_original: ''
 - slug: works/bernini-david
@@ -1369,10 +2425,28 @@ index:
   title: '"贝尔尼尼《大卫》（Bernini’s David）"'
   name_original: ''
   language_original: ''
+- slug: works/bernini-louis-xiv
+  type: works
+  name_en: '"Portrait of Louis XIV"'
+  title: '"路易十四肖像（Portrait of Louis XIV）"'
+  name_original: ''
+  language_original: ''
+- slug: works/bernini-maffeo-barberini-as-pope-urban-viii
+  type: works
+  name_en: Maffeo Barberini as Pope Urban VIII
+  title: 乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）
+  name_original: ''
+  language_original: ''
 - slug: works/bernini-thomas-baker-bust
   type: works
   name_en: '"Bernini’s bust of Thomas Baker"'
   title: '"贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）"'
+  name_original: ''
+  language_original: ''
+- slug: works/burnacini-the-elysian-fields
+  type: works
+  name_en: The Elysian Fields
+  title: 歌剧《拉丁君权凯旋》的极乐世界（The Elysian Fields）
   name_original: ''
   language_original: ''
 - slug: works/camassei-martyrdom-saint-sebastian
@@ -1385,6 +2459,36 @@ index:
   type: works
   name_en: '"Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison"'
   title: '"卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Pris'
+  name_original: ''
+  language_original: ''
+- slug: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+  type: works
+  name_en: Allegorical Tomb to the memory of Archbishop Tillotson
+  title: 蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）
+  name_original: ''
+  language_original: ''
+- slug: works/canaletto-dedicatory-frontispiece-to-etchings
+  type: works
+  name_en: Dedicatory frontispiece to Etchings
+  title: 蚀刻集献辞卷首图（Dedicatory frontispiece to Etchings）
+  name_original: ''
+  language_original: ''
+- slug: works/canaletto-pra-della-valle-padua
+  type: works
+  name_en: Prà della Valle, Padua
+  title: 帕多瓦Prà广场（Prà della Valle, Padua）
+  name_original: ''
+  language_original: ''
+- slug: works/canaletto-view-from-badminton-1748
+  type: works
+  name_en: View from Badminton, 1748
+  title: 巴德明顿景观（View from Badminton, 1748）
+  name_original: ''
+  language_original: ''
+- slug: works/canova-amadeo-swajer
+  type: works
+  name_en: '"Portrait of Amadeo Swajer"'
+  title: '"阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）"'
   name_original: ''
   language_original: ''
 - slug: works/caravaggio-adoration-shepherds
@@ -1603,6 +2707,12 @@ index:
   title: 《玫瑰经圣母》（Madonna of the Rosary）
   name_original: ''
   language_original: ''
+- slug: works/caravaggio-maffeo-barberini
+  type: works
+  name_en: Maffeo Barberini
+  title: 马费奥·巴贝里尼肖像（Maffeo Barberini）
+  name_original: ''
+  language_original: ''
 - slug: works/caravaggio-martha-mary-magdalene
   type: works
   name_en: Martha and Mary Magdalene
@@ -1765,6 +2875,42 @@ index:
   title: 《生病的巴克斯》（Young Sick Bacchus）
   name_original: ''
   language_original: ''
+- slug: works/carlo-dolci-sir-thomas-baines
+  type: works
+  name_en: Sir Thomas Baines
+  title: 托马斯·贝恩斯（Sir Thomas Baines）
+  name_original: ''
+  language_original: ''
+- slug: works/carlo-maratta-cardinal-antonio-barberini
+  type: works
+  name_en: Cardinal Antonio Barberini
+  title: 安东尼奥·巴贝里尼枢机（Cardinal Antonio Barberini）
+  name_original: ''
+  language_original: ''
+- slug: works/carlo-maratta-charles-fox
+  type: works
+  name_en: '"Portrait of Charles Fox"'
+  title: '"查尔斯·福克斯肖像（Portrait of Charles Fox）"'
+  name_original: ''
+  language_original: ''
+- slug: works/carlo-maratta-sir-thomas-isham
+  type: works
+  name_en: Sir Thomas Isham
+  title: 托马斯·伊舍姆（Sir Thomas Isham）
+  name_original: ''
+  language_original: ''
+- slug: works/claude-mellan-vincenzo-giustiniani
+  type: works
+  name_en: '"Portrait of Vincenzo Giustiniani"'
+  title: '"文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）"'
+  name_original: ''
+  language_original: ''
+- slug: works/claude-view-of-delphi-with-a-procession
+  type: works
+  name_en: View of Delphi with a Procession
+  title: 有队列的德尔斐景观（View of Delphi with a Procession）
+  name_original: ''
+  language_original: ''
 - slug: works/comedy-performed-1635
   type: works
   name_en: '"Unidentified comedy performed in 1635"'
@@ -1777,10 +2923,28 @@ index:
   title: '"归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）"'
   name_original: ''
   language_original: ''
+- slug: works/domenichino-hunt-of-diana
+  type: works
+  name_en: Hunt of Diana
+  title: 狄安娜狩猎（Hunt of Diana）
+  name_original: ''
+  language_original: ''
+- slug: works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle
+  type: works
+  name_en: Original proposals for reclaiming Prà della Valle
+  title: Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）
+  name_original: ''
+  language_original: ''
 - slug: works/enchanted-castle-claude
   type: works
   name_en: ''
   title: 《魔法城堡》（The Enchanted Castle，Claude）
+  name_original: ''
+  language_original: ''
+- slug: works/facade-of-s-maria-del-giglio
+  type: works
+  name_en: Facade of S. Maria del Giglio
+  title: 百合圣母堂立面（Facade of S. Maria del Giglio）
   name_original: ''
   language_original: ''
 - slug: works/ferri-laparelli-altarpiece
@@ -1803,8 +2967,62 @@ index:
   language_original: ''
 - slug: works/fortune-salvator-rosa
   type: works
-  name_en: ''
-  title: 《命运》（Fortune，Salvator Rosa）
+  name_en: Fortune by Salvator Rosa
+  title: 罗萨命运（Fortune by Salvator Rosa）
+  name_original: ''
+  language_original: ''
+- slug: works/francesco-algarotti
+  type: works
+  name_en: '"Portrait of Francesco Algarotti"'
+  title: '"弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）"'
+  name_original: ''
+  language_original: ''
+- slug: works/francesco-fanelli-charles-i
+  type: works
+  name_en: '"Portrait of Charles I"'
+  title: '"查理一世肖像（Portrait of Charles I）"'
+  name_original: ''
+  language_original: ''
+- slug: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso
+  type: works
+  name_en: View of John Strange's villa at Paese near Treviso
+  title: 约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）
+  name_original: ''
+  language_original: ''
+- slug: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany
+  type: works
+  name_en: '"Portrait of Grand Prince Ferdinand of Tuscany"'
+  title: '"托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）"'
+  name_original: ''
+  language_original: ''
+- slug: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano
+  type: works
+  name_en: Detail from Fair at Poggio a Caiano
+  title: 波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）
+  name_original: ''
+  language_original: ''
+- slug: works/g-m-crespi-girl-at-her-toilet
+  type: works
+  name_en: Girl at her toilet
+  title: 梳妆少女（Girl at her toilet）
+  name_original: ''
+  language_original: ''
+- slug: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed
+  type: works
+  name_en: Jupiter handed over by Cybele to the Corybantes to be fed
+  title: 库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）
+  name_original: ''
+  language_original: ''
+- slug: works/g-m-crespi-the-painter-s-family
+  type: works
+  name_en: The Painter's Family
+  title: 画家一家（The Painter's Family）
+  name_original: ''
+  language_original: ''
+- slug: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa
+  type: works
+  name_en: Mourners at Tomb of Francesco Algarotti in Pisa
+  title: 阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）
   name_original: ''
   language_original: ''
 - slug: works/gaulli-gesu-vaults
@@ -1813,16 +3031,70 @@ index:
   title: '"盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）"'
   name_original: ''
   language_original: ''
+- slug: works/gaulli-triumph-name-jesus
+  type: works
+  name_en: Triumph of The Name of Jesus
+  title: 耶稣圣名的胜利（Triumph of The Name of Jesus）
+  name_original: ''
+  language_original: ''
 - slug: works/gavasetti-sant-antonino-frescoes
   type: works
   name_en: '"Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza"'
   title: '"加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）"'
   name_original: ''
   language_original: ''
+- slug: works/gian-antonio-faldoni-zaccaria-sagredo
+  type: works
+  name_en: '"Portrait of Zaccaria Sagredo"'
+  title: '"扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）"'
+  name_original: ''
+  language_original: ''
+- slug: works/giannantonio-fumiani-the-stoning-of-zechariah
+  type: works
+  name_en: The stoning of Zechariah
+  title: 撒迦利亚被石击（The stoning of Zechariah）
+  name_original: ''
+  language_original: ''
+- slug: works/gio-maria-bottalla-meeting-of-esau-and-jacob
+  type: works
+  name_en: Meeting of Esau and Jacob
+  title: 以扫与雅各相会（Meeting of Esau and Jacob）
+  name_original: ''
+  language_original: ''
+- slug: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini
+  type: works
+  name_en: A. M. Zanetti the Elder with Marchese Gerini
+  title: 老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）
+  name_original: ''
+  language_original: ''
 - slug: works/guercino-sicilian-altarpiece-1665
   type: works
   name_en: '"Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel"'
   title: '"圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）"'
+  name_original: ''
+  language_original: ''
+- slug: works/guglielmo-baur-view-of-villa-borghese-in-1630
+  type: works
+  name_en: View of Villa Borghese in 1630
+  title: 1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）
+  name_original: ''
+  language_original: ''
+- slug: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem
+  type: works
+  name_en: Frontispiece of Aedes Barberinae ad Quirinalem
+  title: 《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）
+  name_original: ''
+  language_original: ''
+- slug: works/guido-cagnacci-death-of-cleopatra
+  type: works
+  name_en: Death of Cleopatra
+  title: 克娄巴特拉之死（Death of Cleopatra）
+  name_original: ''
+  language_original: ''
+- slug: works/la-monarchia-latina-trionfante
+  type: works
+  name_en: La Monarchia Latina Trionfante
+  title: 拉丁君权凯旋（La Monarchia Latina Trionfante）
   name_original: ''
   language_original: ''
 - slug: works/lanfranco-crucifixion-stock
@@ -1837,6 +3109,54 @@ index:
   title: '"兰弗兰科《抹大拉》工作室画稿（Lanfranco’s unfinished Magdalene in his studio）"'
   name_original: ''
   language_original: ''
+- slug: works/marco-pitteri-flaminio-corner
+  type: works
+  name_en: '"Portrait of Flaminio Corner"'
+  title: '"弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）"'
+  name_original: ''
+  language_original: ''
+- slug: works/marco-ricci-an-operatic-rehearsal
+  type: works
+  name_en: An Operatic Rehearsal
+  title: 歌剧排练（An Operatic Rehearsal）
+  name_original: ''
+  language_original: ''
+- slug: works/marco-ricci-village-scene
+  type: works
+  name_en: Village Scene
+  title: 村景（Village Scene）
+  name_original: ''
+  language_original: ''
+- slug: works/marieschi-picture-exhibition-at-church-of-s-rocco
+  type: works
+  name_en: Picture Exhibition at Church of S. Rocco
+  title: 圣洛克堂画展（Picture Exhibition at Church of S. Rocco）
+  name_original: ''
+  language_original: ''
+- slug: works/massimo-stanzione-jerome-bankes
+  type: works
+  name_en: '"Portrait of Jerome Bankes"'
+  title: '"杰罗姆·班克斯肖像（Portrait of Jerome Bankes）"'
+  name_original: ''
+  language_original: ''
+- slug: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends
+  type: works
+  name_en: The artist with a group of friends
+  title: 画家及友人群像（The artist with a group of friends）
+  name_original: ''
+  language_original: ''
+- slug: works/michelangelo-cerquozzi-the-revolt-of-masaniello
+  type: works
+  name_en: The Revolt of Masaniello
+  title: 马萨涅洛起义（The Revolt of Masaniello）
+  name_original: ''
+  language_original: ''
+- slug: works/michelangelo-cerquozzi-women-s-bath
+  type: works
+  name_en: Women's Bath
+  title: 女浴（Women's Bath）
+  name_original: ''
+  language_original: ''
 - slug: works/mola-air-valmontone
   type: works
   name_en: '"Mola’s design for Air at Valmontone"'
@@ -1849,10 +3169,148 @@ index:
   title: '"莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）"'
   name_original: ''
   language_original: ''
+- slug: works/mola-joint-caricature-of-simonelli-and-mola
+  type: works
+  name_en: Joint caricature of Simonelli and Mola
+  title: 西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）
+  name_original: ''
+  language_original: ''
+- slug: works/monument-to-doge-giovanni-pesaro
+  type: works
+  name_en: Monument to Doge Giovanni Pesaro
+  title: 乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）
+  name_original: ''
+  language_original: ''
+- slug: works/nanteuil-cardinal-mazarin-in-his-gallery
+  type: works
+  name_en: Cardinal Mazarin in his Gallery
+  title: 画廊中的马扎然（Cardinal Mazarin in his Gallery）
+  name_original: ''
+  language_original: ''
+- slug: works/niccolo-bambini-allegory-of-venice
+  type: works
+  name_en: Allegory of Venice
+  title: 威尼斯寓意（Allegory of Venice）
+  name_original: ''
+  language_original: ''
+- slug: works/orazio-gentileschi-public-felicity-triumphant-over-dangers
+  type: works
+  name_en: Public Felicity triumphant over Dangers
+  title: 公共幸福战胜危难（Public Felicity triumphant over Dangers）
+  name_original: ''
+  language_original: ''
+- slug: works/ottavio-leoni-cardinal-francesco-barberini
+  type: works
+  name_en: Cardinal Francesco Barberini
+  title: 弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）
+  name_original: ''
+  language_original: ''
+- slug: works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano
+  type: works
+  name_en: Paolo Giordano Orsini, Duke of Bracciano
+  title: 布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）
+  name_original: ''
+  language_original: ''
+- slug: works/p-van-bleek-owen-mcswiny
+  type: works
+  name_en: '"Portrait of Owen McSwiny"'
+  title: '"欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）"'
+  name_original: ''
+  language_original: ''
+- slug: works/paolo-de-matteis-the-choice-of-hercules
+  type: works
+  name_en: The choice of Hercules
+  title: 赫拉克勒斯的选择（The choice of Hercules）
+  name_original: ''
+  language_original: ''
+- slug: works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate
+  type: works
+  name_en: Allegory of the Education of the Crown Prince of the Palatinate
+  title: 普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）
+  name_original: ''
+  language_original: ''
+- slug: works/pellegrini-pierre-motteux-and-his-family
+  type: works
+  name_en: Pierre Motteux and his family
+  title: 皮埃尔·莫特及家人（Pierre Motteux and his family）
+  name_original: ''
+  language_original: ''
+- slug: works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata
+  type: works
+  name_en: Final plate of Illustrations to Gerusalemme Liberata
+  title: 《耶路撒冷解放》插图末页（Final plate of Illustrations to Gerusalemme Liberata）
+  name_original: ''
+  language_original: ''
+- slug: works/piazzetta-idyll
+  type: works
+  name_en: Idyll
+  title: 田园（Idyll）
+  name_original: ''
+  language_original: ''
+- slug: works/piazzetta-marshal-schulenburg
+  type: works
+  name_en: '"Portrait of Marshal Schulenburg"'
+  title: '"舒伦堡元帅肖像（Portrait of Marshal Schulenburg）"'
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere
+  type: works
+  name_en: '''Frontispiece to Vol. 2 of Goldoni: Opere'''
+  title: '''戈尔多尼《作品集》第二卷卷首图（Frontispiece to Vol. 2 of Goldoni: Opere）'''
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii
+  type: works
+  name_en: Glorification of the Reign of Urban VIII
+  title: 乌尔班八世统治的荣耀（Glorification of the Reign of Urban VIII）
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-da-cortona-marcello-sacchetti
+  type: works
+  name_en: '"Portrait of Marcello Sacchetti"'
+  title: '"马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）"'
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-da-cortona-rape-of-helen
+  type: works
+  name_en: Rape of Helen
+  title: 劫夺海伦（Rape of Helen）
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-da-cortona-rape-of-the-sabines
+  type: works
+  name_en: Rape of the Sabines
+  title: 劫夺萨宾妇女（Rape of the Sabines）
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-testa-joseph-sold-by-his-brothers
+  type: works
+  name_en: Joseph Sold by his Brothers
+  title: 约瑟被兄弟出卖（Joseph Sold by his Brothers）
+  name_original: ''
+  language_original: ''
+- slug: works/pietro-testa-rest-on-the-flight-into-egypt
+  type: works
+  name_en: Rest on the Flight into Egypt
+  title: 逃往埃及途中的休息（Rest on the Flight into Egypt）
+  name_original: ''
+  language_original: ''
 - slug: works/plague-at-ashdod-1631
   type: works
   name_en: The Plague at Ashdod
   title: 《阿什杜德的瘟疫》（The Plague at Ashdod）
+  name_original: ''
+  language_original: ''
+- slug: works/pompeo-batoni-the-triumph-of-venice
+  type: works
+  name_en: The Triumph of Venice
+  title: 威尼斯的胜利（The Triumph of Venice）
+  name_original: ''
+  language_original: ''
+- slug: works/poussin-marriage
+  type: works
+  name_en: Marriage
+  title: 婚姻（Marriage）
   name_original: ''
   language_original: ''
 - slug: works/poussin-massacre-innocents
@@ -1861,10 +3319,22 @@ index:
   title: '"普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）"'
   name_original: ''
   language_original: ''
+- slug: works/poussin-moses-trampling-on-pharaoh-s-crown
+  type: works
+  name_en: Moses trampling on Pharaoh's crown
+  title: 摩西践踏法老王冠（Moses trampling on Pharaoh's crown）
+  name_original: ''
+  language_original: ''
 - slug: works/poussin-spring-valguarnera
   type: works
   name_en: '"Poussin’s Spring commissioned by Valguarnera"'
   title: '"普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）"'
+  name_original: ''
+  language_original: ''
+- slug: works/rembrandt-aristotle-contemplating-the-bust-of-homer
+  type: works
+  name_en: Aristotle contemplating the bust of Homer
+  title: 凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）
   name_original: ''
   language_original: ''
 - slug: works/reni-justice-embracing-peace
@@ -1879,10 +3349,22 @@ index:
   title: '"雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）"'
   name_original: ''
   language_original: ''
+- slug: works/ribera-the-drunken-silenus
+  type: works
+  name_en: The drunken Silenus
+  title: 醉西勒诺斯（The drunken Silenus）
+  name_original: ''
+  language_original: ''
 - slug: works/ricci-beheading-john-baptist-1682
   type: works
   name_en: '"Ricci’s Beheading of Saint John the Baptist commission (1682)"'
   title: '"里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）"'
+  name_original: ''
+  language_original: ''
+- slug: works/romanelli-romulus-and-remus
+  type: works
+  name_en: Romulus and Remus
+  title: 罗慕路斯与雷穆斯顶画局部（Romulus and Remus）
   name_original: ''
   language_original: ''
 - slug: works/rubens-chiesa-nuova-altarpiece-1606
@@ -1891,10 +3373,52 @@ index:
   title: '"鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella'
   name_original: ''
   language_original: ''
+- slug: works/rubens-the-feast-of-herod
+  type: works
+  name_en: The Feast of Herod
+  title: 希律王宴会（The Feast of Herod）
+  name_original: ''
+  language_original: ''
 - slug: works/sacchi-capuchin-altarpiece-modello
   type: works
   name_en: '"Sacchi’s modello for a Roman Capuchin church altarpiece"'
   title: '"萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）"'
+  name_original: ''
+  language_original: ''
+- slug: works/salvator-rosa-the-death-of-regulus
+  type: works
+  name_en: The Death of Regulus
+  title: 雷古鲁斯之死（The Death of Regulus）
+  name_original: ''
+  language_original: ''
+- slug: works/sassoferrato-madonna-and-child
+  type: works
+  name_en: Madonna and Child
+  title: 圣母子（Madonna and Child）
+  name_original: ''
+  language_original: ''
+- slug: works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine
+  type: works
+  name_en: Madonna of the Rosary with Saints Dominic and Catherine
+  title: 玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）
+  name_original: ''
+  language_original: ''
+- slug: works/sebastiano-ricci-pan-and-syrinx
+  type: works
+  name_en: Pan and Syrinx
+  title: 潘与绪任克斯（Pan and Syrinx）
+  name_original: ''
+  language_original: ''
+- slug: works/sebastiano-ricci-rape-of-europa
+  type: works
+  name_en: Rape of Europa
+  title: 劫夺欧罗巴（Rape of Europa）
+  name_original: ''
+  language_original: ''
+- slug: works/sebastiano-ricci-venus-and-adonis
+  type: works
+  name_en: Venus and Adonis
+  title: 维纳斯与阿多尼斯（Venus and Adonis）
   name_original: ''
   language_original: ''
 - slug: works/seven-sacraments-crespi
@@ -1903,10 +3427,88 @@ index:
   title: 克雷斯皮《七件圣事》组画
   name_original: ''
   language_original: ''
+- slug: works/solimena-dido-and-aeneas
+  type: works
+  name_en: Dido and Aeneas
+  title: 狄多与埃涅阿斯（Dido and Aeneas）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-banquet-cognacq-jay
+  type: works
+  name_en: The Banquet of Cleopatra, Musée Cognacq-Jay version
+  title: 克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-banquet-victoria
+  type: works
+  name_en: The Banquet of Cleopatra, National Gallery of Victoria version
+  title: 克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
+  type: works
+  name_en: Detail from fresco on ceiling of staircase in Residenz
+  title: 维尔茨堡宫楼梯顶画局部（Detail from fresco on ceiling of staircase in Residenz）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-glorification-of-the-pisani-family
+  type: works
+  name_en: Glorification of the Pisani family
+  title: 皮萨尼家族的荣耀（Glorification of the Pisani family）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-maecenas-presenting-the-arts-to-augustus
+  type: works
+  name_en: Maecenas presenting the Arts to Augustus
+  title: 梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-marriage-allegory-of-the-rezzonico-family
+  type: works
+  name_en: Marriage Allegory of the Rezzonico family
+  title: 雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）
+  name_original: ''
+  language_original: ''
+- slug: works/tiepolo-neptune-paying-homage-to-venice
+  type: works
+  name_en: Neptune paying homage to Venice
+  title: 海神向威尼斯致敬（Neptune paying homage to Venice）
+  name_original: ''
+  language_original: ''
+- slug: works/tomb-of-francesco-algarotti
+  type: works
+  name_en: Tomb of Francesco Algarotti
+  title: 弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）
+  name_original: ''
+  language_original: ''
+- slug: works/valentin-allegory-of-rome
+  type: works
+  name_en: Allegory of Rome
+  title: 罗马寓意（Allegory of Rome）
+  name_original: ''
+  language_original: ''
 - slug: works/valentin-genre-commission
   type: works
   name_en: '"A Musical Company with a Fortune-Teller"'
   title: '"瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）"'
+  name_original: ''
+  language_original: ''
+- slug: works/van-dyck-cardinal-bentivoglio
+  type: works
+  name_en: '"Portrait of Cardinal Bentivoglio"'
+  title: '"本蒂沃利奥枢机肖像（Portrait of Cardinal Bentivoglio）"'
+  name_original: ''
+  language_original: ''
+- slug: works/velasquez-camillo-massimi
+  type: works
+  name_en: '"Portrait of Camillo Massimi"'
+  title: '"卡米洛·马西米肖像（Portrait of Camillo Massimi）"'
+  name_original: ''
+  language_original: ''
+- slug: works/velasquez-juan-de-pareja
+  type: works
+  name_en: '"Portrait of Juan de Pareja"'
+  title: '"胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）"'
   name_original: ''
   language_original: ''
 - slug: families/aldobrandini-family
@@ -1939,6 +3541,18 @@ index:
   title: 佩雷蒂家族（Peretti Family）
   name_original: ''
   language_original: ''
+- slug: families/pisani-family
+  type: families
+  name_en: Pisani family
+  title: 皮萨尼家族（Pisani family）
+  name_original: ''
+  language_original: ''
+- slug: families/rezzonico-family
+  type: families
+  name_en: Rezzonico family
+  title: 雷佐尼科家族（Rezzonico family）
+  name_original: ''
+  language_original: ''
 - slug: institutions/accademia-di-san-luca
   type: institutions
   name_en: '"Accademia di S. Luca"'
@@ -1957,6 +3571,12 @@ index:
   title: '"阿尔卡迪亚学会（Society of Arcadia）"'
   name_original: ''
   language_original: ''
+- slug: institutions/art-institute-of-chicago
+  type: institutions
+  name_en: Art Institute of Chicago
+  title: 芝加哥艺术博物馆（Art Institute of Chicago）
+  name_original: ''
+  language_original: ''
 - slug: institutions/barberini-household
   type: institutions
   name_en: '"Barberini Family and Households"'
@@ -1967,6 +3587,12 @@ index:
   type: institutions
   name_en: '"Barnabites"'
   title: '"巴尔纳伯会（Barnabites）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/bayerischen-staatsgemaldesammlungen
+  type: institutions
+  name_en: Bayerischen Staatsgemäldesammlungen
+  title: 巴伐利亚国家绘画收藏机构（Bayerischen Staatsgemäldesammlungen）
   name_original: ''
   language_original: ''
 - slug: institutions/biblioteca-augusta
@@ -1981,6 +3607,18 @@ index:
   title: '"卡萨纳滕塞图书馆（Biblioteca Casanatense）"'
   name_original: ''
   language_original: ''
+- slug: institutions/bibliotheque-nationale
+  type: institutions
+  name_en: Bibliothèque Nationale
+  title: 法国国家图书馆（Bibliothèque Nationale）
+  name_original: ''
+  language_original: ''
+- slug: institutions/british-museum
+  type: institutions
+  name_en: British Museum
+  title: 大英博物馆（British Museum）
+  name_original: ''
+  language_original: ''
 - slug: institutions/capitoline-museums
   type: institutions
   name_en: Capitoline Museums
@@ -1991,6 +3629,12 @@ index:
   type: institutions
   name_en: '"Capuchins"'
   title: '"嘉布遣会（Capuchins）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/chatto-and-windus
+  type: institutions
+  name_en: Chatto and Windus
+  title: 查托与温达斯出版社（Chatto and Windus）
   name_original: ''
   language_original: ''
 - slug: institutions/colnaghi
@@ -2011,6 +3655,12 @@ index:
   title: 圣安娜教皇马夫善会（Confraternity of Sant'Anna dei Palafrenieri）
   name_original: ''
   language_original: ''
+- slug: institutions/correr-library
+  type: institutions
+  name_en: Correr Library
+  title: 科雷尔图书馆（Correr Library）
+  name_original: ''
+  language_original: ''
 - slug: institutions/detroit-institute-of-arts
   type: institutions
   name_en: Detroit Institute of Arts
@@ -2021,6 +3671,30 @@ index:
   type: institutions
   name_en: '"Fabbrica di S. Pietro"'
   title: '"圣彼得营造管理机构（Fabbrica di S. Pietro）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/finnish-institute
+  type: institutions
+  name_en: Finnish Institute
+  title: 芬兰研究院（罗马）（Finnish Institute）
+  name_original: ''
+  language_original: ''
+- slug: institutions/fitzwilliam-museum
+  type: institutions
+  name_en: Fitzwilliam Museum
+  title: 菲茨威廉博物馆（Fitzwilliam Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/french-academy-in-rome
+  type: institutions
+  name_en: French Academy in Rome
+  title: 罗马法国学院（French Academy in Rome）
+  name_original: ''
+  language_original: ''
+- slug: institutions/gabinetto-fotografico-nazionale
+  type: institutions
+  name_en: Gabinetto Fotografico Nazionale
+  title: 国家摄影室（Gabinetto Fotografico Nazionale）
   name_original: ''
   language_original: ''
 - slug: institutions/galleria-borghese
@@ -2041,6 +3715,12 @@ index:
   title: 国立古代艺术美术馆（Galleria Nazionale d'Arte Antica）
   name_original: ''
   language_original: ''
+- slug: institutions/galleria-spada
+  type: institutions
+  name_en: Galleria Spada
+  title: 斯帕达美术馆（Galleria Spada）
+  name_original: ''
+  language_original: ''
 - slug: institutions/gallerie-ditalia
   type: institutions
   name_en: Gallerie d'Italia
@@ -2051,6 +3731,12 @@ index:
   type: institutions
   name_en: Gemäldegalerie Berlin
   title: 柏林绘画馆（Gemäldegalerie Berlin）
+  name_original: ''
+  language_original: ''
+- slug: institutions/gymnasium-zu-grauen-kloster
+  type: institutions
+  name_en: Gymnasium zu Grauen Kloster
+  title: 灰修道院中学（Gymnasium zu Grauen Kloster）
   name_original: ''
   language_original: ''
 - slug: institutions/heritage-malta
@@ -2077,6 +3763,12 @@ index:
   title: 金贝尔艺术博物馆（Kimbell Art Museum）
   name_original: ''
   language_original: ''
+- slug: institutions/kings-college-cambridge
+  type: institutions
+  name_en: King's College, Cambridge
+  title: 剑桥国王学院（King's College, Cambridge）
+  name_original: ''
+  language_original: ''
 - slug: institutions/knights-hospitaller
   type: institutions
   name_en: Knights Hospitaller
@@ -2089,10 +3781,28 @@ index:
   title: 维也纳艺术史博物馆（Kunsthistorisches Museum）
   name_original: ''
   language_original: ''
+- slug: institutions/kunstsammlungen-kassel
+  type: institutions
+  name_en: Kunstsammlungen, Kassel
+  title: 卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）
+  name_original: ''
+  language_original: ''
+- slug: institutions/library-of-congress
+  type: institutions
+  name_en: Library of Congress
+  title: 美国国会图书馆（Library of Congress）
+  name_original: ''
+  language_original: ''
 - slug: institutions/louvre-museum
   type: institutions
   name_en: Louvre Museum
   title: 卢浮宫博物馆（Louvre Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/marlborough-fine-art-ltd
+  type: institutions
+  name_en: Marlborough Fine Art Ltd
+  title: 马尔伯勒美术公司（Marlborough Fine Art Ltd）
   name_original: ''
   language_original: ''
 - slug: institutions/metropolitan-museum-of-art
@@ -2101,10 +3811,40 @@ index:
   title: 大都会艺术博物馆（Metropolitan Museum of Art）
   name_original: ''
   language_original: ''
+- slug: institutions/ministry-of-works
+  type: institutions
+  name_en: Ministry of Works
+  title: 工程部（Ministry of Works）
+  name_original: ''
+  language_original: ''
+- slug: institutions/musee-cognacq-jay
+  type: institutions
+  name_en: Musée Cognacq-Jay
+  title: 科涅克—杰博物馆（Musée Cognacq-Jay）
+  name_original: ''
+  language_original: ''
+- slug: institutions/museo-correr
+  type: institutions
+  name_en: Museo Correr
+  title: 科雷尔博物馆（Museo Correr）
+  name_original: ''
+  language_original: ''
 - slug: institutions/museo-del-prado
   type: institutions
   name_en: Museo del Prado
   title: 普拉多国家博物馆（Museo del Prado）
+  name_original: ''
+  language_original: ''
+- slug: institutions/museo-di-capodimonte
+  type: institutions
+  name_en: Museo di Capodimonte
+  title: 卡波迪蒙特博物馆（Museo di Capodimonte）
+  name_original: ''
+  language_original: ''
+- slug: institutions/museum-boymansvan-beuningen
+  type: institutions
+  name_en: Museum Boymans–van Beuningen
+  title: 博伊曼斯—范伯宁恩博物馆（Museum Boymans–van Beuningen）
   name_original: ''
   language_original: ''
 - slug: institutions/national-gallery-london
@@ -2117,6 +3857,36 @@ index:
   type: institutions
   name_en: National Gallery of Ireland
   title: 爱尔兰国家美术馆（National Gallery of Ireland）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-gallery-of-scotland
+  type: institutions
+  name_en: National Gallery of Scotland
+  title: 苏格兰国家美术馆（National Gallery of Scotland）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-gallery-of-victoria
+  type: institutions
+  name_en: National Gallery of Victoria
+  title: 维多利亚国家美术馆（National Gallery of Victoria）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-museum-stockholm
+  type: institutions
+  name_en: National Museum, Stockholm
+  title: 斯德哥尔摩国家博物馆（National Museum, Stockholm）
+  name_original: ''
+  language_original: ''
+- slug: institutions/national-portrait-gallery
+  type: institutions
+  name_en: National Portrait Gallery
+  title: 国家肖像馆（National Portrait Gallery）
+  name_original: ''
+  language_original: ''
+- slug: institutions/north-carolina-museum-of-art
+  type: institutions
+  name_en: North Carolina Museum of Art
+  title: 北卡罗来纳艺术博物馆（North Carolina Museum of Art）
   name_original: ''
   language_original: ''
 - slug: institutions/odesa-museum-western-eastern-art
@@ -2137,6 +3907,12 @@ index:
   title: 安布罗西亚纳画廊（Pinacoteca Ambrosiana）
   name_original: ''
   language_original: ''
+- slug: institutions/pinacoteca-capitolina
+  type: institutions
+  name_en: Pinacoteca Capitolina
+  title: 卡比托利欧绘画馆（Pinacoteca Capitolina）
+  name_original: ''
+  language_original: ''
 - slug: institutions/pinacoteca-vaticana
   type: institutions
   name_en: '"Pinacoteca Vaticana"'
@@ -2153,6 +3929,18 @@ index:
   type: institutions
   name_en: Regional Museum of Messina
   title: 墨西拿区域博物馆（Regional Museum of Messina）
+  name_original: ''
+  language_original: ''
+- slug: institutions/republic-of-venice
+  type: institutions
+  name_en: Republic of Venice
+  title: 威尼斯共和国（Republic of Venice）
+  name_original: ''
+  language_original: ''
+- slug: institutions/royal-academy
+  type: institutions
+  name_en: Royal Academy
+  title: 皇家艺术学院（Royal Academy）
   name_original: ''
   language_original: ''
 - slug: institutions/royal-collection
@@ -2179,6 +3967,36 @@ index:
   title: '"画家帮（Schildersbent）"'
   name_original: ''
   language_original: ''
+- slug: institutions/service-de-documentation-photographique-des-musees-nationaux
+  type: institutions
+  name_en: Service de Documentation Photographique des Musées Nationaux
+  title: 法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）
+  name_original: ''
+  language_original: ''
+- slug: institutions/soprintendenza-alle-gallerie-florence
+  type: institutions
+  name_en: Soprintendenza alle Gallerie, Florence
+  title: 佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）
+  name_original: ''
+  language_original: ''
+- slug: institutions/staatsgalerie-stuttgart
+  type: institutions
+  name_en: Staatsgalerie, Stuttgart
+  title: 斯图加特州立美术馆（Staatsgalerie, Stuttgart）
+  name_original: ''
+  language_original: ''
+- slug: institutions/stearn-and-son
+  type: institutions
+  name_en: Stearn and Son
+  title: 斯特恩父子公司（Stearn and Son）
+  name_original: ''
+  language_original: ''
+- slug: institutions/t-and-a-constable
+  type: institutions
+  name_en: T. and A. Constable Ltd.
+  title: T.与A.康斯特布尔印刷公司（T. and A. Constable Ltd.）
+  name_original: ''
+  language_original: ''
 - slug: institutions/theatines
   type: institutions
   name_en: '"Theatines"'
@@ -2191,10 +4009,28 @@ index:
   title: 提森-博内米萨国家博物馆（Thyssen-Bornemisza Museum）
   name_original: ''
   language_original: ''
+- slug: institutions/turners-of-cambridge
+  type: institutions
+  name_en: Turners of Cambridge
+  title: 剑桥特纳摄影商号（Turners of Cambridge）
+  name_original: ''
+  language_original: ''
+- slug: institutions/ufficio-dell-assessore-comunale-alle-belle-arti
+  type: institutions
+  name_en: Ufficio dell'Assessore Comunale alle Belle Arti
+  title: 罗马市美术委员办公室（Ufficio dell'Assessore Comunale alle Belle Arti）
+  name_original: ''
+  language_original: ''
 - slug: institutions/uffizi-gallery
   type: institutions
   name_en: Uffizi Gallery
   title: 乌菲齐美术馆（Uffizi Gallery）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-library-cambridge
+  type: institutions
+  name_en: University Library, Cambridge
+  title: 剑桥大学图书馆（University Library, Cambridge）
   name_original: ''
   language_original: ''
 - slug: institutions/victoria-and-albert-museum
@@ -2203,9 +4039,45 @@ index:
   title: '"维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）"'
   name_original: ''
   language_original: ''
+- slug: institutions/virginia-museum-of-fine-arts
+  type: institutions
+  name_en: Virginia Museum of Fine Arts
+  title: 弗吉尼亚美术馆（Virginia Museum of Fine Arts）
+  name_original: ''
+  language_original: ''
 - slug: institutions/wadsworth-atheneum
   type: institutions
   name_en: Wadsworth Atheneum Museum of Art
   title: 沃兹沃思学会艺术博物馆（Wadsworth Atheneum Museum of Art）
+  name_original: ''
+  language_original: ''
+- slug: institutions/wallraf-richartz-museum
+  type: institutions
+  name_en: Wallraf-Richartz Museum
+  title: 瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/warburg-institute-library
+  type: institutions
+  name_en: Library of the Warburg Institute
+  title: 瓦尔堡研究院图书馆（Library of the Warburg Institute）
+  name_original: ''
+  language_original: ''
+- slug: institutions/warburg-institute
+  type: institutions
+  name_en: Warburg Institute
+  title: 瓦尔堡研究院（Warburg Institute）
+  name_original: ''
+  language_original: ''
+- slug: institutions/yale-university-press
+  type: institutions
+  name_en: Yale University Press
+  title: 耶鲁大学出版社（Yale University Press）
+  name_original: ''
+  language_original: ''
+- slug: institutions/yale-university
+  type: institutions
+  name_en: Yale University
+  title: 耶鲁大学（Yale University）
   name_original: ''
   language_original: ''

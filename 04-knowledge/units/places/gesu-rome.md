@@ -31,6 +31,19 @@ sources:
 - citation: "Wikidata, Q719794, revision 2529570842. https://www.wikidata.org/wiki/Q719794. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L61–62
+  sentence_summary: 图版14目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 61–62
+    text: '14 Giovanni Battista Gaulli: Triumph of The Name of Jesus
+
+      {Gesù, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-gesu-rome
 ---
 
@@ -57,6 +70,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
 | 行政位置 | 罗马 | Wikidata P131；有参考 |
 | 成立／建造时间 | 1568 | Wikidata P571；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版14角色 | 书中位置 | S6 |
+| 图版14相关对象 | [耶稣圣名的胜利](../works/gaulli-triumph-name-jesus.md)；书中位置 | S6 |
 
 ## 关系与证据
 

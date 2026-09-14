@@ -39,6 +39,45 @@ sources:
 - citation: "Wikidata, Q1136614, revision 2539202298. https://www.wikidata.org/wiki/Q1136614. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L49–50
+  sentence_summary: 图版09目录将其记为描绘地点／对象。
+  original_quotes:
+  - source_span: lines 49–50
+    text: '9 Guido Abbatini: Frontispiece of Girolamo Teti: Aedes Barberinae ad
+
+      Quirinalem, Rome 1642, with view of Palazzo Barberini 56'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 49–50; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L57–58
+  sentence_summary: 图版12目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 57–58
+    text: '12 Andrea Sacchi: Allegory of Divine Wisdom {Palazzo Barberini,
+
+      Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 57–58; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L59–60
+  sentence_summary: 图版13目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 59–60
+    text: '13 Pietro da Cortona: Glorification of the Reign of Urban VIII
+
+      {Palazzo Barberini, Rome) 72'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 59–60; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-palazzo-barberini
 ---
 
@@ -65,6 +104,18 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 国家／历史政治归属 | 意大利 | Wikidata P17；有参考 |
 | 行政位置 | 罗马 | Wikidata P131；有参考 |
 | 成立／建造时间 | 1627 | Wikidata P571；未列参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版09角色 | 描绘地点／对象 | S6 |
+| 图版09相关对象 | [《巴贝里尼宫》卷首图](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md)；描绘地点／对象 | S6 |
+| 图版12角色 | 书中位置 | S7 |
+| 图版12相关对象 | [神圣智慧寓意](../works/andrea-sacchi-allegory-of-divine-wisdom.md)；书中位置 | S7 |
+| 图版13角色 | 书中位置 | S8 |
+| 图版13相关对象 | [乌尔班八世统治的荣耀](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md)；书中位置 | S8 |
 
 ## 关系与证据
 

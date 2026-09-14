@@ -79,6 +79,19 @@ sources:
 - citation: "Treccani, Enciclopedia on line, “Italia”. https://www.treccani.it/enciclopedia/italia/. Accessed 2026-09-11."
   location: "导言自然地区与国家区分；Storia moderna中1559年安排的完整段落及下一节开头；非整篇阅读"
   sentence_summary: "区分自然地域与意大利国家；1559年后地域包含西班牙直接领地、具有不同依赖程度的邦国和自主政体，不能把17世纪的城市和艺术家都赋予单一现代国家身份。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：书名与版权页；未编号；PDF 1–2；OCR L6–7
+  sentence_summary: 本书艺术与社会研究的地域范围。
+  original_quotes:
+  - source_span: lines 6–7
+    text: 'A Study in the Relations
+
+      Between Italian Art and Society in the Age of the Baroque'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 6–7; 章前：书名与版权页；未编号；PDF 1–2
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-italy
 ---
 
@@ -113,6 +126,13 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 研究与补足边界
 
 已全文阅读新Wikipedia候选页，并定向阅读Treccani所列段落；不是全文阅读Treccani综合条目。资料支持地域／政体区分，未将本章未定义的边界补成精确面积。原语名称的古代词源与19—20世纪边界政治不展开为本章结论。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 本书艺术与社会研究的地域范围。 | S8 |
 
 ## 关系与证据
 

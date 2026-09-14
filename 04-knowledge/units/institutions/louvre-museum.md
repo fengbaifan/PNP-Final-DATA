@@ -16,6 +16,29 @@ sources:
 - citation: Wikidata, Q19675. https://www.wikidata.org/wiki/Q19675. Accessed 2026-09-13.
   location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
   sentence_summary: 用于Louvre Museum的同粒度身份核对；QID不验证本卡全部事实。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L72–72
+  sentence_summary: 图版19a目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 72–72
+    text: '19 a Poussin: Moses trampling on Pharaoh’s crown (Louvre) b Claude: View of Delphi with a Procession
+      (Art Institute of Chicago Robert A. Waller Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L78–78
+  sentence_summary: 图版25目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 78–78
+    text: '25 Orazio Gentileschi: Public Felicity triumphant over Dangers (Louvre) 184'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 78–78; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-louvre-museum
 ---
 
@@ -39,6 +62,16 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 收藏、管理与使用边界
 
 作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版19a角色 | 书中收藏／保管者 | S4 |
+| 图版19a相关对象 | [摩西践踏法老王冠](../works/poussin-moses-trampling-on-pharaoh-s-crown.md)；书中收藏／保管者 | S4 |
+| 图版25角色 | 书中收藏／保管者 | S5 |
+| 图版25相关对象 | [公共幸福战胜危难](../works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md)；书中收藏／保管者 | S5 |
 
 ## 关系与证据
 

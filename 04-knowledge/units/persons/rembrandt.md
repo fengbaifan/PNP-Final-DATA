@@ -32,6 +32,21 @@ sources:
 - citation: "Wikidata, Q5598, revision 2542894074. https://www.wikidata.org/wiki/Q5598. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L97–99
+  sentence_summary: 图版35a将其列为《凝视荷马像的亚里士多德》的创作者。
+  original_quotes:
+  - source_span: lines 97–99
+    text: '35 a Rembrandt: Aristotle contemplating the bust of Homer
+
+      (Metropolitan Museum of Art, New York. Purchase, various funds
+
+      and donors, 1961)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 97–99; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-rembrandt
 ---
 
@@ -71,6 +86,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 成员身份 | Amsterdam Guild of St. Luke | Wikidata P463；有参考 |
 | 代表作 | 夜巡；布商行会理事；犹太新娘；伯沙薩王的盛宴 (林布蘭作品)；自画像 | Wikidata P800；有参考；未列参考 |
 | 艺术或思想运动 | 荷蘭黃金時代繪畫 | Wikidata P135；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版35a角色 | 创作 | S6 |
+| 图版35a相关对象 | [凝视荷马像的亚里士多德](../works/rembrandt-aristotle-contemplating-the-bust-of-homer.md)；创作者 | S6 |
 
 ## 关系与证据
 

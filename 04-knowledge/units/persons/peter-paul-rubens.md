@@ -43,6 +43,17 @@ sources:
 - citation: "Wikidata, Q5599, revision 2540659746. https://www.wikidata.org/wiki/Q5599. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L100–100
+  sentence_summary: 图版35b将其列为《希律王宴会》的创作者。
+  original_quotes:
+  - source_span: lines 100–100
+    text: 'b Rubens: The Feast of Herod (National Gallery of Scotland)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 100–100; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-peter-paul-rubens
 ---
 
@@ -83,6 +94,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 成员身份 | Antwerp Guild of Saint Luke | Wikidata P463；未列参考 |
 | 代表作 | The Fall of the Damned；獵虎；Rubens and Isabella Brant in the honeysuckle bower；又有美惠三女神；愛之園；劫奪留西帕的女兒；Portrait of Susanna Lunden；上十字架 | Wikidata P800；未列参考 |
 | 艺术或思想运动 | 佛蘭芒巴洛克繪畫；巴洛克艺术 | Wikidata P135；有参考；未列参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版35b角色 | 创作 | S7 |
+| 图版35b相关对象 | [希律王宴会](../works/rubens-the-feast-of-herod.md)；创作者 | S7 |
 
 ## 关系与证据
 

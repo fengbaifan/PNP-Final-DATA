@@ -60,6 +60,17 @@ sources:
 - citation: "Sonja Felici, Busto di Scipione Borghese, Galleria Borghese, January 2024, inv. CCLXV. https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2. Accessed 2026-09-10."
   location: "技术卡、条目正文和书目已读；所引档案、Testi 信与付款原件未读"
   sentence_summary: "1632 年胸像及复制版本、教皇下令与枢机报偿分开；不能单凭人物同名确定第一章第 17 页作品版本。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L45–45
+  sentence_summary: 图版05目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 45–45
+    text: '5 Bernini: Cardinal Scipione Borghese {Villa Borghese, Rome) 40'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 45–45; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-cardinal-borghese-ch1
 ---
 
@@ -129,6 +140,13 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | Castronovo，DBI 12（1971） | 对其独立政治能力的评价，与所转述 Pastor、Ranke 的不同判断分开；本卡不采用“完全控制教皇”的无条件结论（S7） |
 | Torgil Magnuson, *Rome in the Age of Bernini* (1982) | S5 所引研究，原书未读 |
 | Sonja Felici，馆方胸像条目（2024） | 已读目录文章；条目所引 Testi 书信、Hibbard 付款研究与原始档案未读（S9） |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版05角色 | 描绘／纪念对象 | S10 |
 
 ## 关系与证据
 

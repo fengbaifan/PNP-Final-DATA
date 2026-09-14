@@ -197,6 +197,19 @@ sources:
 - citation: National Gallery, Michelangelo Merisi da Caravaggio (1571–1610). https://www.nationalgallery.org.uk/artists/michelangelo-merisi-da-caravaggio. Accessed 2026-09-11.
   location: 传记四节全文及页面作品入口摘要；作品独立页未读
   sentence_summary: 馆方说明Del Monte支持、直接作画与戏剧性明暗、1606后南迁及马耳他骑士身份；1592赴罗马及死亡叙述为馆方版本，不作为全部异文的裁决。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L36–37
+  sentence_summary: 图版02a将其列为《马费奥·巴贝里尼肖像》的归属候选者。
+  original_quotes:
+  - source_span: lines 36–37
+    text: '2 a Attributed to Caravaggio: Maffeo Barberini (Private Collection,
+
+      Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-caravaggio
 ---
 
@@ -311,6 +324,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 - **画法：** 戏剧性明暗、贴近观者空间及直接面对模特的作画方式，是所读馆方和百科对其画法的概括；“少量准备”不能改写成从不画稿，尤其不能取消本章合同条款。（S2、S5、S8）
 - **评价者：** Mancini、Baglione、Bellori各有立场；后世Longhi等重新评价。批评中的失礼或艺术史中的影响叙述按作者归属，不自动生成师承关系。（S5）
 - **研究书目线索：** Walter Friedlaender, *Caravaggio Studies*（1955）；Howard Hibbard, *Caravaggio*（1983）；Catherine Puglisi, *Caravaggio*（1998）；Helen Langdon, *Caravaggio: A Life*（1998）。本轮从百科注释／书目获得线索，未声称通读这些著作。（S5）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版02a角色 | 归属候选 | S9 |
+| 图版02a相关对象 | [马费奥·巴贝里尼肖像](../works/caravaggio-maffeo-barberini.md)；归属候选 | S9 |
 
 ## 关系与证据
 

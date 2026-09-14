@@ -57,6 +57,18 @@ sources:
 - citation: "Wikidata, Q214074, revision 2539087728. https://www.wikidata.org/wiki/Q214074. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L72–72
+  sentence_summary: 图版19b将其列为《有队列的德尔斐景观》的创作者。
+  original_quotes:
+  - source_span: lines 72–72
+    text: '19 a Poussin: Moses trampling on Pharaoh’s crown (Louvre) b Claude: View of Delphi with a Procession
+      (Art Institute of Chicago Robert A. Waller Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-claude-lorrain
 ---
 
@@ -94,6 +106,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 成员身份 | 聖路卡學院 | Wikidata P463；有参考 |
 | 代表作 | Village Fête；聖吳甦樂登船的海港；摩西被救出水處的風景；Sea Port at Sunset；Liber Veritatis | Wikidata P800；未列参考 |
 | 艺术或思想运动 | 古典主義 | Wikidata P135；未列参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版19b角色 | 创作 | S7 |
+| 图版19b相关对象 | [有队列的德尔斐景观](../works/claude-view-of-delphi-with-a-procession.md)；创作者 | S7 |
 
 ## 关系与证据
 

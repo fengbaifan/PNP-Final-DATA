@@ -36,6 +36,17 @@ sources:
 - citation: "Wikidata, Q534683, revision 2543537538. https://www.wikidata.org/wiki/Q534683. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L40–40
+  sentence_summary: 图版03a目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 40–40
+    text: '3 a Ottavio Leoni: Cardinal Francesco Barberini'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 40–40; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-francesco-barberini
 ---
 
@@ -70,6 +81,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 身份／职业标签 | Catholic priest；專員；法学家 | Wikidata P106；有参考；未列参考 |
 | 父亲 | 卡羅·巴貝里尼 | Wikidata P22；未列参考 |
 | 教育／训练机构 | 比萨大学 | Wikidata P69；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版03a角色 | 描绘／纪念对象 | S6 |
+| 图版03a相关对象 | [弗朗切斯科·巴贝里尼枢机](../works/ottavio-leoni-cardinal-francesco-barberini.md)；描绘／纪念对象 | S6 |
 
 ## 关系与证据
 

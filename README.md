@@ -1,6 +1,6 @@
 # 《赞助人与画家》知识系统
 
-项目初始化版本：0.1.0。当前进行第一章的知识元与知识图谱构建，已完成工作、证据边界与实际未决项见[第一章当前结果与目录](04-knowledge/results/patrons-and-painters-chp-1.md)。第六章后置，知识涌现与页面暂停；遗留、试填内容保留供追溯，未接收内容不计作本项目有效成果。
+项目初始化版本：0.1.0。第一章作为知识元与知识图谱样例，进度见[第一章当前结果](04-knowledge/results/patrons-and-painters-chp-1.md)；章前材料已完成摄入、处理并进行知识元登记，见[章前当前结果](04-knowledge/results/patrons-and-painters-front-matter.md)。第六章后置，知识涌现与页面暂停；未接收内容不计作有效成果。
 
 [AGENTS.md](AGENTS.md) 是 Codex 唯一总入口；[pipeline](.agents/pipeline.md) 定义交接，八个 Skill 在 `.agents/skills/`。当前规则和文档不再各自累计大版本号。
 
@@ -38,7 +38,7 @@ flowchart LR
 | 06-runtime | 用户记录、治理与必要运行状态 |
 | [07-paper](07-paper/README.md) | 论文定位、写作与实验建议、投稿期刊及分区依据；不新增研究阶段 |
 
-[有效成果登记](04-knowledge/accepted.yml) 已登记第一章来源支持成果；计数、来源边界及未解决问题以第一章结果为准。后续实际成稿或结构成立时登记引用，不复制正文。
+[有效成果登记](04-knowledge/accepted.yml) 汇集第一章与章前材料已接收的来源支持成果；各范围的完成状态以对应任务结果为准。知识元登记不表示全部对齐、补足或关系已完成。
 [页面](05-outputs/knowledge-graph.html) 保留视觉样式，本次按用户要求暂停刷新，因此尚未呈现第一章新成果。
 
 日常直接分析、写作并核对受影响内容；外部核验、批量预检、恢复状态和测试按需启用。只用 main，Git 提交/推送须有明确授权。

@@ -126,6 +126,78 @@ sources:
 - citation: "Pietro Zander, The Cathedra of Saint Peter, Fabbrica di San Pietro. https://www.basilicasanpietro.va/en/san-pietro/the-cathedra-of-saint-peter. Accessed 2026-09-10."
   location: "全文中铜质宝座纪念物委托与1666年完成段；REV-052"
   sentence_summary: "委托者为Alexander VII，1666完成；不把现存铜质Cathedra采作Urban VIII委托。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第一版序言；印刷页vii（推定）；PDF 5；OCR L5–7
+  sentence_summary: 其教皇任期是哈斯克尔第一部分艺术赞助研究的重点。
+  original_quotes:
+  - source_span: lines 5–7
+    text: 'For the sake of convenience I have termed ‘Baroque’ that whole phase of Italian art which came into being
+      in Rome early in the seventeenth century, reached a climax during the pontificate of Urban VIII and lingered
+      on in Venice until the downfall of the Republic. However, I soon saw that a mere list of the art patrons and
+      their collections during this period would have silled much of this book and that rigorous selection was essential.
+      Here I was faced with a vital problem of method. Should my concern with patrons be determined by the intrinsic
+      interest of their personalities and tastes or by the quality and importance of the art they commissioned—for
+      the two do not always coincide? Inevitably I was forced to compromise and in so doing I ran into some obvious
+      difficulties. The chief of these was the relative amount of space to be allotted to the various figures with
+      whom I was dealing. Every reader will see that very often
+
+      —and especially in Part 2—this bears little relation to the actual merit of the work for which they were responsible.
+      But this is not intended to be a history of painting, and it seems to me that some men and organisations were
+      of such importance in helping to prepare the ground for later developments, and have been so little studied,
+      that the method I have adopted is the correct one. And by accepting a compromise I soon found a pattern which
+      governed my general principles of selection.
+
+      The first section of the book deals entirely with Rome and, for the most part, with the pontificate of Urban
+      VIII and the various forces that helped to mould taste during his rule. After a chapter describing the relative
+      decline of Rome I then leave the city altogether, never to return. This decision to neglect eighteenth-century
+      Rome was a difficult one, and it has troubled some of those who have read this book in its early stages. Yet
+      I believe it to be justified on the grounds that no new type of patronage emerged during the earlier years
+      of the period and that thereafter, with the dawning of neo-classicism, a different artistic style began to
+      emerge which could not legitimately be studied in a book which is essentially concerned with the Baroque.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 5–7; 章前：第一版序言；印刷页vii（推定）；PDF 5
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L36–37
+  sentence_summary: 图版02a目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 36–37
+    text: '2 a Attributed to Caravaggio: Maffeo Barberini (Private Collection,
+
+      Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L38–39
+  sentence_summary: 图版02b目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 38–39
+    text: 'b Bernini: Maffeo Barberini as Pope Urban VIII
+
+      (Palazzo dei Conservatori, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L59–60
+  sentence_summary: 图版13目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 59–60
+    text: '13 Pietro da Cortona: Glorification of the Reign of Urban VIII
+
+      {Palazzo Barberini, Rome) 72'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 59–60; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-urbano-viii
 ---
 
@@ -199,6 +271,19 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 本章相关内容
 
 S1：p.3，L15–34，1623年后的赞助规模与控制。S2：p.4，L71–83，同乡网络及世俗名。S3：p.10，具体祭坛画与收据。S4：pp.17–18，L691–698、717–722，学院地位、保护人与1633措施，后文明确未充分实行且撤回。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 其教皇任期是哈斯克尔第一部分艺术赞助研究的重点。 | S12 |
+| 图版02a角色 | 描绘／纪念对象 | S13 |
+| 图版02a相关对象 | [马费奥·巴贝里尼肖像](../works/caravaggio-maffeo-barberini.md)；描绘／纪念对象 | S13 |
+| 图版02b角色 | 描绘／纪念对象 | S14 |
+| 图版02b相关对象 | [乌尔班八世肖像](../works/bernini-maffeo-barberini-as-pope-urban-viii.md)；描绘／纪念对象 | S14 |
+| 图版13角色 | 描绘／纪念对象 | S15 |
+| 图版13相关对象 | [乌尔班八世统治的荣耀](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md)；描绘／纪念对象 | S15 |
 
 ## 关系与证据
 

@@ -33,6 +33,26 @@ sources:
 - citation: "Wikidata, Q129967, revision 2543439115. https://www.wikidata.org/wiki/Q129967. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xviii；OCR L193–195
+  sentence_summary: 委托重新装饰圣克莱孟堂；作者把艺术家选择与质量评价相联系。
+  original_quotes:
+  - source_span: lines 193–195
+    text: 'In the last analysis, however, it is a qualitative judgment that has to be made. In the second decade
+      of the eighteenth century Pope Clement XI had the church of his patron S. Clemente freshly decorated.2 As
+      he bore a particular affection for the church we can assume that he went out of his way to employ the best
+      artists available. The list of those chosen is therefore indicative: Sebastiano Conca, Pietro di Pietri, Giovanni
+
+      Odazzi, Pier Leoni Ghezzi, Tommaso Chiari,. Giovanni Domenico Piastrini and
+
+      Giacomo Triga. I find it as impossible to believe to-day as I did in 1963 that such a commission can compare
+      in quality with similar ones made in the previous century or with others being given elsewhere in Italy—and
+      notably Venice.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 193–195; 章前：第二版导言；印刷页xviii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-clement-xi
 ---
 
@@ -65,6 +85,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 身份／职业标签 | Catholic priest；天主教会主教 | Wikidata P106；有参考；未列参考 |
 | 配偶 | novalue | Wikidata P26；未列参考 |
 | 教育／训练机构 | 宗座额我略大学 | Wikidata P69；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 委托重新装饰圣克莱孟堂；作者把艺术家选择与质量评价相联系。 | S6 |
+| 章前委托项目 | [圣克莱孟堂重新装饰](../events/san-clemente-redecoration.md) | S6 |
 
 ## 关系与证据
 

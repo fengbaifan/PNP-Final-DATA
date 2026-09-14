@@ -1,24 +1,45 @@
 ---
-title: 《命运》（Fortune，Salvator Rosa）
+title: 罗萨命运（Fortune by Salvator Rosa）
+name_en: Fortune by Salvator Rosa
 type: work
-created: 2026-09-09
-updated: 2026-09-09
 evidence_status: source_backed
 sources:
-  - citation: "Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980), ch. 6, pp. 153–154."
-    location: "第6章，印刷页 153–154"
-    evidence_ref:
-      doc_id: patrons-and-painters
-      source_file: 02-sources/02-Markdown/06_CHP-6.md
-      source_span: "ch. 6, print pp. 153–154"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前；印刷页xiii；OCR L77–77
+  sentence_summary: '图版24列Salvator Rosa: Fortune，括注Duke of Beaufort。'
+  original_quotes:
+  - source_span: lines 77–77
+    text: '24 Salvator Rosa: Fortune (Duke of Beaufort)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 77–77; print p. xiii
+created: '2026-09-09'
+updated: '2026-09-14'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
-## 描述
+## 内容
 
-罗萨为 Carlo de’ Rossi 所作的画。本章描述命运女神将财富洒向动物，其在 S. Giovanni Decollato 展出后引发政治讽刺争议，Don Mario Chigi 出面干预。
+### 描述
 
-作者把它置于教皇家族财富与公众不满中，同时说明罗萨本人亦有非政治的怨愤。与 Bernardino Mei 为 Flavio Chigi 所作《美德控制下的命运》不同。未查看 Plate 24，不对画面与现藏状况作独立核验。
+**中文：** 图版24所列罗萨《命运》，目录记博福特公爵收藏。
 
-## 来源与未决项
+**English:** Rosa's Fortune listed as plate 24, recorded in the catalogue as held by the Duke of Beaufort.
 
-本轮为第一、六章限定测试中的来源支持成稿及内部对齐；不表示已由独立原典或外部权威验证。出处以 sources 所列印刷页为准；Haskell 的转述不等于本次直接读过被引原著。
+### 名称与来源记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 原题 | Fortune | S1 |
+| 创作者 | [萨尔瓦多·罗萨](../persons/salvator-rosa.md) | S1 |
+| 书中收藏者 | Duke of Beaufort／博福特公爵，具体持衔人未定 | S1 |
+| 图版编号 | 24 | S1 |
+
+## 关系与证据
+
+### 关系记录
+
+暂无正式关系。
+
+[章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)

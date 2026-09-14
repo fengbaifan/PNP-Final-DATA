@@ -1,0 +1,111 @@
+{
+  "task_id": "patrons-and-painters-front-matter",
+  "revision": "REV-086",
+  "stage": "initial_alignment",
+  "state": "applied",
+  "date": "2026-09-14",
+  "changes": [
+    {
+      "path": "04-knowledge/units/persons/a-n-l-munby.md",
+      "before_normalized_sha256": "ca8e9b0aafc1d540f1e047ed6a93e9403548f9ad1d3396de3457329f11c7d130",
+      "after_sha256": "48ed280ccb21e4fb4fcf6ffe5e2076568ba8c6ea5410a98bd8440b7e7db06023"
+    },
+    {
+      "path": "04-knowledge/units/persons/benedict-nicolson.md",
+      "before_normalized_sha256": "2c8a6ee587367d2fe4655fd061809418a92be1869c8383267c3b40aa0987c716",
+      "after_sha256": "5f0454e4842ea4a9aacedbd42dc7aebd58fe38131005bc9d0bc02e94fc1ebfde"
+    },
+    {
+      "path": "04-knowledge/units/persons/alessandro-marabottini-marabotti.md",
+      "before_normalized_sha256": null,
+      "after_sha256": "91acbc359f21962fd6536e6af778276c2ff951664bddab1f98f238ddb7be7b02"
+    },
+    {
+      "path": "04-knowledge/units/persons/pier-leone-ghezzi.md",
+      "before_normalized_sha256": null,
+      "after_sha256": "c651cce1c3fc2755353a50ff82a37fa718eccea01f99c45dbefdeca4d857f96b"
+    },
+    {
+      "path": "04-knowledge/units/persons/tommaso-chiari.md",
+      "before_normalized_sha256": null,
+      "after_sha256": "6cf213f9897503fd2dc19f07a3a7abfc1d0594e9027558b5c41aff92c81e5377"
+    },
+    {
+      "path": "04-knowledge/units/persons/pietro-di-pietri.md",
+      "before_normalized_sha256": "33c375fffe9801826dd36e440f9d7bf162c5ada8ffdeedad7514a7011cccd8a2",
+      "after_sha256": "4ea132a8ed43b258ac4bf244a42f92b2c0103f719c437416f8f6d8ebfbf396df"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovanni-domenico-piastrini.md",
+      "before_normalized_sha256": "490ef8c0fe5f116f947a833271f256a0a9ca4728d5318a9ee27acb3edc681b0d",
+      "after_sha256": "bdf4edbbfc0858192424e5c0855d3f490b790a5d77b8624420ccb82fd88b4ebd"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovanni-odazzi.md",
+      "before_normalized_sha256": "d68dc0040b7a4a57127d63974e48fb3fa4408b67077c9115549323f27eb9d53c",
+      "after_sha256": "7f5f7086645a5ff6185127a89302b7fa194f687c14553878c695169ddc01d7a1"
+    },
+    {
+      "path": "04-knowledge/units/persons/giacomo-triga.md",
+      "before_normalized_sha256": "e0c4a6a30d02763880d489ef61b77dd994e449ca0710c8c97ba1f6dd3727debb",
+      "after_sha256": "18a6df489c4c6e941136843f6ed57ddae03dbf3cf63f3df91378c4b978752a2a"
+    },
+    {
+      "path": "04-knowledge/units/persons/sebastiano-conca.md",
+      "before_normalized_sha256": "19211af3ed26aaece7c7c8391b08f1390fc5862cd4625d63c6e7ace6f27438ef",
+      "after_sha256": "76357dec06ea47f729822fffabf037c2667002a8a8e3ad64e2fb3568ded489b7"
+    },
+    {
+      "path": "04-knowledge/units/persons/giambattista-tiepolo.md",
+      "before_normalized_sha256": null,
+      "after_sha256": "b16a9b926d0cfcfb6a647d23ccf64a9689650cb057864cd60f6057b3ba318784"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md",
+      "before_normalized_sha256": "1ac7116827e819d26ffd8c0736b30793a4bd88aca5733c3fd5a6c16c27aec73b",
+      "after_sha256": "97036c4dc311e8d9eff1c84783c2330735d879043d262ca494834cea510dcc09"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-banquet-victoria.md",
+      "before_normalized_sha256": "b934d22e04130850d2b2d54bfdeb954d602dd670a728a5fd0d31d556cca98381",
+      "after_sha256": "250ea2ad063975a24b60ac944f05e48ee3ea09731d659a626121ed2a5aee261f"
+    },
+    {
+      "path": "04-knowledge/units/persons/clement-i.md",
+      "before_normalized_sha256": null,
+      "after_sha256": "aeeca2cd86a14a5c1ba5f37d96fa9a957d9fb630452b5fbafefb646938b0e9be"
+    },
+    {
+      "path": "04-knowledge/units/places/san-clemente-rome.md",
+      "before_normalized_sha256": "56ead25157536d09586bf2ec75792ae513a2f86f71776d2455714dd9d233e410",
+      "after_sha256": "a394460318fdfd78e0d0c07a21e31df9312c1ed9cda86348d8c061400b2e2468"
+    },
+    {
+      "path": "04-knowledge/units/events/san-clemente-redecoration.md",
+      "before_normalized_sha256": "f189652e98fef8835f6f5667ca86bb1fe54b541221c30ee25857add5e2d65d2c",
+      "after_sha256": "94337bfa55f05ebee1472f9db534bc6f0682dc360ed3df943e4fd74e5b1563e3"
+    },
+    {
+      "path": "04-knowledge/units/persons/guido-reni.md",
+      "before_normalized_sha256": "a48735f26d44b0107cd576fe0f153c35f0529a04890d8974aab3688834ccb72a",
+      "after_sha256": "34f4d5cc0a2aab384366e66a3a21aa738d4cd40d9ab7d40643feb17eeea72d84"
+    },
+    {
+      "path": "04-knowledge/accepted.yml",
+      "before_normalized_sha256": "892fa6a1760ef28d17c64104ee56fc5040e36beeb2a4c3ef1b3f8d5fc71d77a0",
+      "after_sha256": "b5e9e254e60b2ca155af6990f6d1888beb490d6626c2eb8f7db2745394c210ea"
+    }
+  ],
+  "checks": {
+    "source_excerpts_exact": 25,
+    "existing_sources_preserved": true,
+    "formal_relations_unchanged": true,
+    "accepted_claims_structure_preserved": true,
+    "targeted_content_audit_units": 17,
+    "targeted_content_findings": 0,
+    "accepted_paths_exist": 800,
+    "immutable_source_fingerprints_unchanged": true,
+    "git_diff_check_passed": true
+  },
+  "recovery": "本轮精确before/after暂存 C:/Users/001/AppData/Local/Temp/pnp-fm-alignment-rev086/plan.json；before摘要按UTF-8及LF规范化计算。REV-085登记指纹保留为当时快照，不将其after误读为后续现值。"
+}

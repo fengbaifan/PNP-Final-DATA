@@ -86,6 +86,130 @@ sources:
 - citation: "UNESCO World Heritage Centre, Venice and its Lagoon, dossier 394. https://whc.unesco.org/en/list/394/. Accessed 2026-09-10."
   location: "Brief synthesis、Integrity、Authenticity 与遗产登记元数据；未读申报档案"
   sentence_summary: "泻湖城市的渐进形成、历史城市空间及 1987 年遗产登记；遗产范围不等于市区面积。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第一版序言；印刷页vii（推定）；PDF 5；OCR L5–5
+  sentence_summary: 作者讨论巴洛克延续的城市。
+  original_quotes:
+  - source_span: lines 5–5
+    text: For the sake of convenience I have termed ‘Baroque’ that whole phase of Italian art which came into being
+      in Rome early in the seventeenth century, reached a climax during the pontificate of Urban VIII and lingered
+      on in Venice until the downfall of the Republic. However, I soon saw that a mere list of the art patrons and
+      their collections during this period would have silled much of this book and that rigorous selection was essential.
+      Here I was faced with a vital problem of method. Should my concern with patrons be determined by the intrinsic
+      interest of their personalities and tastes or by the quality and importance of the art they commissioned—for
+      the two do not always coincide? Inevitably I was forced to compromise and in so doing I ran into some obvious
+      difficulties. The chief of these was the relative amount of space to be allotted to the various figures with
+      whom I was dealing. Every reader will see that very often
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 5–5; 章前：第一版序言；印刷页vii（推定）；PDF 5
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L112–112
+  sentence_summary: 图版41a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 112–112
+    text: ', 41 a Facade of S. Maria del Giglio, Venice 248'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 112–112; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L113–113
+  sentence_summary: 图版41b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 113–113
+    text: b Monument to Doge Giovanni Pesaro in Church of the Frari, Venice
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 113–113; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L114–114
+  sentence_summary: 图版42a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 114–114
+    text: '42 a Tiepolo: Neptune paying homage to Venice (Palazzo Ducale, Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 114–114; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L115–115
+  sentence_summary: 图版42b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 115–115
+    text: 'b Niccolo Bambini: Allegory of Venice (Ca’ Pesaro, Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 115–115; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L116–117
+  sentence_summary: 图版43目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 116–117
+    text: '43 Tiepolo: Marriage Allegory of the Rezzonico family (Ca
+
+      Rezzonico, Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 116–117; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xv；OCR L126–126
+  sentence_summary: 图版48b目录将其记为书中位置。 图版48c目录将其记为书中位置。 图版48d目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 126–126
+    text: '48 a Marco Pitteri: Flaminio Corner (from Giuseppe Angeli) b Gian Antonio Faldoni: Zaccaria Sagredo (from
+      B. Nazari) (Museo Correr, Venice) c Alessandro Longhi: Carlo Lodoli (Museo Correr, Venice) d Anonymous: Francesco
+      Algarotti (Museo Correr, Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xv；OCR L134–134
+  sentence_summary: 图版56目录将其记为描绘地点／对象。
+  original_quotes:
+  - source_span: lines 134–134
+    text: '56 Marieschi: Picture Exhibition at Church of S. Rocco, Venice'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 134–134; 章前：图版目录；印刷页xv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xv；OCR L136–136
+  sentence_summary: 图版58a目录将其记为书中位置。 图版58b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 136–136
+    text: '58 a Giuseppe Zocchi: A. M. Zanetti the Elder with Marchese Gerini (Museo Correr, Venice) b Alessandro
+      Longhi: G. M. Sasso (Museo Correr, Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xv；OCR L137–137
+  sentence_summary: 图版59a目录将其记为书中位置。 图版59b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 137–137
+    text: '59 a Canova: Amadeo Swajer (Museo Correr, Venice) b Bernardino Castelli: Teodoro Correr (Museo Correr,
+      Venice)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-venice
 ---
 
@@ -151,6 +275,39 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | Frederic C. Lane, *Venice: A Maritime Republic* (1973) | S8 参考书目所列；可用于共和国与城市史背景，本轮未读原书 |
 | John Jeffries Martin and Dennis Romano (eds.), *Venice Reconsidered: The History and Civilization of an Italian City-State, 1297–1797* (2002) | S8 参考书目；城市国家史线索，未读原书 |
 | Edward Muir, *Civic Ritual in Renaissance Venice* (1981) | S8 参考书目；城市仪式研究线索，未读原书 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 作者讨论巴洛克延续的城市。 | S11 |
+| 图版41a角色 | 书中位置 | S12 |
+| 图版41a相关对象 | [百合圣母堂立面](../works/facade-of-s-maria-del-giglio.md)；书中位置 | S12 |
+| 图版41b角色 | 书中位置 | S13 |
+| 图版41b相关对象 | [乔瓦尼·佩萨罗总督纪念碑](../works/monument-to-doge-giovanni-pesaro.md)；书中位置 | S13 |
+| 图版42a角色 | 书中位置 | S14 |
+| 图版42a相关对象 | [海神向威尼斯致敬](../works/tiepolo-neptune-paying-homage-to-venice.md)；书中位置 | S14 |
+| 图版42b角色 | 书中位置 | S15 |
+| 图版42b相关对象 | [威尼斯寓意](../works/niccolo-bambini-allegory-of-venice.md)；书中位置 | S15 |
+| 图版43角色 | 书中位置 | S16 |
+| 图版43相关对象 | [雷佐尼科家族婚姻寓意](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md)；书中位置 | S16 |
+| 图版48b角色 | 书中位置 | S17 |
+| 图版48b相关对象 | [扎卡里亚·萨格雷多肖像](../works/gian-antonio-faldoni-zaccaria-sagredo.md)；书中位置 | S17 |
+| 图版48c角色 | 书中位置 | S17 |
+| 图版48c相关对象 | [卡洛·洛多利肖像](../works/alessandro-longhi-carlo-lodoli.md)；书中位置 | S17 |
+| 图版48d角色 | 书中位置 | S17 |
+| 图版48d相关对象 | [弗朗切斯科·阿尔加罗蒂肖像](../works/francesco-algarotti.md)；书中位置 | S17 |
+| 图版56角色 | 描绘地点／对象 | S18 |
+| 图版56相关对象 | [圣洛克堂画展](../works/marieschi-picture-exhibition-at-church-of-s-rocco.md)；描绘地点／对象 | S18 |
+| 图版58a角色 | 书中位置 | S19 |
+| 图版58a相关对象 | [老扎内蒂与杰里尼侯爵](../works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md)；书中位置 | S19 |
+| 图版58b角色 | 书中位置 | S19 |
+| 图版58b相关对象 | [G. M. 萨索肖像](../works/alessandro-longhi-g-m-sasso.md)；书中位置 | S19 |
+| 图版59a角色 | 书中位置 | S20 |
+| 图版59a相关对象 | [阿马德奥·斯瓦耶尔肖像](../works/canova-amadeo-swajer.md)；书中位置 | S20 |
+| 图版59b角色 | 书中位置 | S20 |
+| 图版59b相关对象 | [泰奥多罗·科雷尔肖像](../works/bernardino-castelli-teodoro-correr.md)；书中位置 | S20 |
 
 ## 关系与证据
 

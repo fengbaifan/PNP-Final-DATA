@@ -35,6 +35,17 @@ sources:
 - citation: "The National Gallery, Valentin de Boulogne. https://www.nationalgallery.org.uk/artists/valentin-de-boulogne Accessed 2026-09-11."
   location: "完整艺术家简介及关联《人的四个年龄》介绍，758字符；未读关联图录"
   sentence_summary: "父亲同名的有保留识别、1620年罗马记录、1629–1630年殉教图及寓意绘画。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L35–35
+  sentence_summary: 图版01将其列为《罗马寓意》的创作者。
+  original_quotes:
+  - source_span: lines 35–35
+    text: 'I Valentin: Allegory of Rome (Finnish Institute, Rome) 24'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 35–35; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-valentin
 ---
 
@@ -77,6 +88,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 评价与研究
 
 Annick Lemoine与Keith Christiansen的《Valentin de Boulogne: Beyond Caravaggio》（2016）为展览研究入口；WP书目及National Gallery简传已读，但没有因此声称读完全书或列出全部存世作品。（S4、S6）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版01角色 | 创作 | S7 |
+| 图版01相关对象 | [罗马寓意](../works/valentin-allegory-of-rome.md)；创作者 | S7 |
 
 ## 关系与证据
 

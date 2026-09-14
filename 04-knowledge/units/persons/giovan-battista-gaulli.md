@@ -71,6 +71,19 @@ sources:
 - citation: "Wikidata, Q520573, revision 2528478039. https://www.wikidata.org/wiki/Q520573. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L61–62
+  sentence_summary: 图版14将其列为《耶稣圣名的胜利》的创作者。
+  original_quotes:
+  - source_span: lines 61–62
+    text: '14 Giovanni Battista Gaulli: Triumph of The Name of Jesus
+
+      {Gesù, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giovan-battista-gaulli
 ---
 
@@ -103,6 +116,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 国籍／公民身份 | 热那亚共和国 | Wikidata P27；未列参考 |
 | 身份／职业标签 | 畫家；雕塑家；壁画画家；視覺藝術家 | Wikidata P106；有参考 |
 | 代表作 | Conversion of Paul；The Sermon of St. John the Baptist；A Blessed Abbess Receiving the Host from the Hands of Christ；Paintings by Giovanni Battista Gaulli il Baciccio in the Uffizi Gallery；The Thanksgiving of Noah | Wikidata P800；有参考；未列参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版14角色 | 创作 | S7 |
+| 图版14相关对象 | [耶稣圣名的胜利](../works/gaulli-triumph-name-jesus.md)；创作者 | S7 |
 
 ## 关系与证据
 

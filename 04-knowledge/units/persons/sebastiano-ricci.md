@@ -34,6 +34,39 @@ sources:
 - citation: "Raffaella Poltronieri, 'RICCI, Sebastiano,' Dizionario Biografico degli Italiani 87 (2016). https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所引原档、作品档案和全部研究"
   sentence_summary: "支持原姓Rizzi、家世、Mazzoni师承判断、1682年合同、Farnese阶段、婚姻记录、欧洲活动及1734年死亡。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L107–107
+  sentence_summary: 图版38a将其列为《劫夺欧罗巴》的创作者。
+  original_quotes:
+  - source_span: lines 107–107
+    text: '38 a Sebastiano Ricci: Rape of Europa (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 107–107; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L108–108
+  sentence_summary: 图版38b将其列为《潘与绪任克斯》的创作者。
+  original_quotes:
+  - source_span: lines 108–108
+    text: 'b Sebastiano Ricci: Pan and Syrinx (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 108–108; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L109–109
+  sentence_summary: 图版39将其列为《维纳斯与阿多尼斯》的创作者。
+  original_quotes:
+  - source_span: lines 109–109
+    text: '39 Sebastiano Ricci: Venus and Adonis (Palazzo Pitti, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 109–109; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-sebastiano-ricci
 ---
 
@@ -89,6 +122,18 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 - 与Marco Ricci共同工作的作品须区分人物分工；现有传记概述不足以给每件作品建立单独创作者关系。（S4、S6）
 
 Raffaella Poltronieri的DBI词条及书目已全文阅读；所引合同、审判、婚姻、付款与作品档案未在本轮逐件回查，完整作品目录也未建立。（S6）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版38a角色 | 创作 | S7 |
+| 图版38a相关对象 | [劫夺欧罗巴](../works/sebastiano-ricci-rape-of-europa.md)；创作者 | S7 |
+| 图版38b角色 | 创作 | S8 |
+| 图版38b相关对象 | [潘与绪任克斯](../works/sebastiano-ricci-pan-and-syrinx.md)；创作者 | S8 |
+| 图版39角色 | 创作 | S9 |
+| 图版39相关对象 | [维纳斯与阿多尼斯](../works/sebastiano-ricci-venus-and-adonis.md)；创作者 | S9 |
 
 ## 关系与证据
 

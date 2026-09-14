@@ -30,6 +30,47 @@ sources:
 - citation: "Wikidata, Q84, revision 2539604940. https://www.wikidata.org/wiki/Q84. Accessed 2026-09-11."
   location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
   sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：书名与版权页；未编号；PDF 1–2；OCR L9–12
+  sentence_summary: 本书出版地点之一。
+  original_quotes:
+  - source_span: lines 9–12
+    text: 'FRANCIS HASKELL
+
+      YALE UNIVERSITY PRESS
+
+      NEW HAVEN AND LONDON
+
+      1980'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 9–12; 章前：书名与版权页；未编号；PDF 1–2
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L80–80
+  sentence_summary: 图版27a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 80–80
+    text: '27 a Francesco Fanelli: Charles I (Miss Daphne Ionides, London) b Bernini: Louis XIV (Versailles)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xvi；OCR L148–149
+  sentence_summary: 图版64目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 148–149
+    text: '64 Francesco Guardi: View ofjohn Strange’s villa at Paese near Treviso
+
+      [Private Collection, London)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 148–149; 章前：图版目录；印刷页xvi
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-london
 ---
 
@@ -56,6 +97,17 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 国家／历史政治归属 | 英国 | Wikidata P17；有参考 |
 | 行政位置 | 大伦敦 | Wikidata P131；未列参考 |
 | 成立／建造时间 | 0047 | Wikidata P571；有参考 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 本书出版地点之一。 | S6 |
+| 图版27a角色 | 书中位置 | S7 |
+| 图版27a相关对象 | [查理一世肖像](../works/francesco-fanelli-charles-i.md)；书中位置 | S7 |
+| 图版64角色 | 书中位置 | S8 |
+| 图版64相关对象 | [约翰·斯特兰奇别墅景观](../works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md)；书中位置 | S8 |
 
 ## 关系与证据
 

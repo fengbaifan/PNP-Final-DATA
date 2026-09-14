@@ -281,6 +281,278 @@ sources:
 - citation: "UNESCO World Heritage Centre, Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura. https://whc.unesco.org/en/list/91/. Accessed 2026-09-10."
   location: "Integrity、Protection and management requirements 及登记／边界／面积字段"
   sentence_summary: "遗产为意大利与圣座的跨国系列遗产，1980 年列入，1990 年扩展；当前登记面积与百科旧值不同。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第一版序言；印刷页vii（推定）；PDF 5；OCR L5–7
+  sentence_summary: 作者第一部分研究的城市。
+  original_quotes:
+  - source_span: lines 5–7
+    text: 'For the sake of convenience I have termed ‘Baroque’ that whole phase of Italian art which came into being
+      in Rome early in the seventeenth century, reached a climax during the pontificate of Urban VIII and lingered
+      on in Venice until the downfall of the Republic. However, I soon saw that a mere list of the art patrons and
+      their collections during this period would have silled much of this book and that rigorous selection was essential.
+      Here I was faced with a vital problem of method. Should my concern with patrons be determined by the intrinsic
+      interest of their personalities and tastes or by the quality and importance of the art they commissioned—for
+      the two do not always coincide? Inevitably I was forced to compromise and in so doing I ran into some obvious
+      difficulties. The chief of these was the relative amount of space to be allotted to the various figures with
+      whom I was dealing. Every reader will see that very often
+
+      —and especially in Part 2—this bears little relation to the actual merit of the work for which they were responsible.
+      But this is not intended to be a history of painting, and it seems to me that some men and organisations were
+      of such importance in helping to prepare the ground for later developments, and have been so little studied,
+      that the method I have adopted is the correct one. And by accepting a compromise I soon found a pattern which
+      governed my general principles of selection.
+
+      The first section of the book deals entirely with Rome and, for the most part, with the pontificate of Urban
+      VIII and the various forces that helped to mould taste during his rule. After a chapter describing the relative
+      decline of Rome I then leave the city altogether, never to return. This decision to neglect eighteenth-century
+      Rome was a difficult one, and it has troubled some of those who have read this book in its early stages. Yet
+      I believe it to be justified on the grounds that no new type of patronage emerged during the earlier years
+      of the period and that thereafter, with the dawning of neo-classicism, a different artistic style began to
+      emerge which could not legitimately be studied in a book which is essentially concerned with the Baroque.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
+    source_span: lines 5–7; 章前：第一版序言；印刷页vii（推定）；PDF 5
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L35–35
+  sentence_summary: 图版01目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 35–35
+    text: 'I Valentin: Allegory of Rome (Finnish Institute, Rome) 24'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 35–35; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L38–39
+  sentence_summary: 图版02b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 38–39
+    text: 'b Bernini: Maffeo Barberini as Pope Urban VIII
+
+      (Palazzo dei Conservatori, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L44–44
+  sentence_summary: 图版04b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 44–44
+    text: 'b Pietro da Cortona: Marcello Sacchetti (Villa Borghese, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 44–44; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L45–45
+  sentence_summary: 图版05目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 45–45
+    text: '5 Bernini: Cardinal Scipione Borghese {Villa Borghese, Rome) 40'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 45–45; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L46–46
+  sentence_summary: 图版06目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 46–46
+    text: '6 Guglielmo Baur: View ofVilla Borghese in 1630 {Villa Borghese, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 46–46; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L47–47
+  sentence_summary: 图版07目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 47–47
+    text: '7 Domenichino: Hunt of Diana {Villa Borghese, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L48–48
+  sentence_summary: 图版08目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 48–48
+    text: '8 Matteo Castelli: Barberini Chapel in S. Andrea della Valle, Rome'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 48–48; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L49–50
+  sentence_summary: 图版09目录将其记为载体出版地。
+  original_quotes:
+  - source_span: lines 49–50
+    text: '9 Guido Abbatini: Frontispiece of Girolamo Teti: Aedes Barberinae ad
+
+      Quirinalem, Rome 1642, with view of Palazzo Barberini 56'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 49–50; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L51–51
+  sentence_summary: 图版10a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 51–51
+    text: '10 a Pietro da Cortona: Rape of the Sabines (Pinacoteca Capitolina, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L52–53
+  sentence_summary: 图版10b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 52–53
+    text: 'b Pietro da Cortona: Rape of Helen {Ufficio dell’Assessore Comunale
+
+      alle Belle Arti, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 52–53; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L54–55
+  sentence_summary: 图版11a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 54–55
+    text: 'il a Gio. Maria Bottalla: Meeting of Esau and Jacob {Pinacoteca
+
+      Capitolina, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 54–55; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L56–56
+  sentence_summary: 图版11b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 56–56
+    text: 'b Pietro Testa: Joseph Sold by his Brothers {Pinacoteca Capitolina, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 56–56; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L57–58
+  sentence_summary: 图版12目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 57–58
+    text: '12 Andrea Sacchi: Allegory of Divine Wisdom {Palazzo Barberini,
+
+      Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 57–58; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L59–60
+  sentence_summary: 图版13目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 59–60
+    text: '13 Pietro da Cortona: Glorification of the Reign of Urban VIII
+
+      {Palazzo Barberini, Rome) 72'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 59–60; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L61–62
+  sentence_summary: 图版14目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 61–62
+    text: '14 Giovanni Battista Gaulli: Triumph of The Name of Jesus
+
+      {Gesù, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L63–64
+  sentence_summary: 图版15目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 63–64
+    text: '15 Andrea Pozzo: Modello for fresco on vault of S. Ignazio, Rome
+
+      {Galleria Nazionale, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 63–64; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L65–65
+  sentence_summary: 图版16目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 65–65
+    text: '16 Bernini: Interior of S. Andrea al Quirinale, Rome'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 65–65; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L74–74
+  sentence_summary: 图版21a目录将其记为书中位置。 图版21b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 74–74
+    text: '21 a Sassoferrato: Madonna of the Rosary with Saints Dominic and Catherine (S. Sabina, Rome) 126 b Sassoferrato:
+      Madonna and Child (Galleria Nazionale, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 74–74; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L75–75
+  sentence_summary: 图版22b目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 75–75
+    text: '22 a Michelangelo Cerquozzi: The artist with a group of friends (Kassel, Kunstsammlungen) b Michelangelo
+      Cerquozzi: The Revolt of Masaniello (Galleria Spada, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L76–76
+  sentence_summary: 图版23a目录将其记为书中位置。
+  original_quotes:
+  - source_span: lines 76–76
+    text: '23 a Michelangelo Cerquozzi: Women’s Bath (Incisa della Rocchetta, Rome) b Salvator Rosa: The Death of
+      Regulus (Virginia Museum of Fine Arts Williams Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-rome
 ---
 
@@ -327,6 +599,54 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 当前登记面积 | 遗产地 1,469.7 公顷；缓冲区 7,158.933 公顷；登记号 91quater。不是十七世纪城市面积 | S9，2026-09-10 页面字段 |
 | Getty TGN | 7000874；WD P1667 检索入口，Getty 原记录未读 | S8 |
 | 研究书目线索 | Rabun Taylor、Katherine W. Rinne、Spiro Kostof，Rome: An Urban History from Antiquity to the Present（2016） | S7 书目；未读全书 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 作者第一部分研究的城市。 | S10 |
+| 图版01角色 | 书中位置 | S11 |
+| 图版01相关对象 | [罗马寓意](../works/valentin-allegory-of-rome.md)；书中位置 | S11 |
+| 图版02b角色 | 书中位置 | S12 |
+| 图版02b相关对象 | [乌尔班八世肖像](../works/bernini-maffeo-barberini-as-pope-urban-viii.md)；书中位置 | S12 |
+| 图版04b角色 | 书中位置 | S13 |
+| 图版04b相关对象 | [马尔切洛·萨凯蒂肖像](../works/pietro-da-cortona-marcello-sacchetti.md)；书中位置 | S13 |
+| 图版05角色 | 书中位置 | S14 |
+| 图版06角色 | 书中位置 | S15 |
+| 图版06相关对象 | [1630年博尔盖塞别墅景观](../works/guglielmo-baur-view-of-villa-borghese-in-1630.md)；书中位置 | S15 |
+| 图版07角色 | 书中位置 | S16 |
+| 图版07相关对象 | [狄安娜狩猎](../works/domenichino-hunt-of-diana.md)；书中位置 | S16 |
+| 图版08角色 | 书中位置 | S17 |
+| 图版08相关对象 | [谷地圣安德烈堂巴贝里尼礼拜堂](../places/barberini-chapel-sant-andrea-valle.md)；书中位置 | S17 |
+| 图版09角色 | 载体出版地 | S18 |
+| 图版09相关对象 | [《巴贝里尼宫》卷首图](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md)；载体出版地 | S18 |
+| 图版10a角色 | 书中位置 | S19 |
+| 图版10a相关对象 | [劫夺萨宾妇女](../works/pietro-da-cortona-rape-of-the-sabines.md)；书中位置 | S19 |
+| 图版10b角色 | 书中位置 | S20 |
+| 图版10b相关对象 | [劫夺海伦](../works/pietro-da-cortona-rape-of-helen.md)；书中位置 | S20 |
+| 图版11a角色 | 书中位置 | S21 |
+| 图版11a相关对象 | [以扫与雅各相会](../works/gio-maria-bottalla-meeting-of-esau-and-jacob.md)；书中位置 | S21 |
+| 图版11b角色 | 书中位置 | S22 |
+| 图版11b相关对象 | [约瑟被兄弟出卖](../works/pietro-testa-joseph-sold-by-his-brothers.md)；书中位置 | S22 |
+| 图版12角色 | 书中位置 | S23 |
+| 图版12相关对象 | [神圣智慧寓意](../works/andrea-sacchi-allegory-of-divine-wisdom.md)；书中位置 | S23 |
+| 图版13角色 | 书中位置 | S24 |
+| 图版13相关对象 | [乌尔班八世统治的荣耀](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md)；书中位置 | S24 |
+| 图版14角色 | 书中位置 | S25 |
+| 图版14相关对象 | [耶稣圣名的胜利](../works/gaulli-triumph-name-jesus.md)；书中位置 | S25 |
+| 图版15角色 | 书中位置 | S26 |
+| 图版15相关对象 | [圣依纳爵堂拱顶壁画模型](../works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md)；书中位置 | S26 |
+| 图版16角色 | 书中位置 | S27 |
+| 图版16相关对象 | [奎里纳尔圣安德烈堂内部](../places/interior-sant-andrea-quirinale.md)；书中位置 | S27 |
+| 图版21a角色 | 书中位置 | S28 |
+| 图版21a相关对象 | [玫瑰圣母与道明、加大利纳](../works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md)；书中位置 | S28 |
+| 图版21b角色 | 书中位置 | S28 |
+| 图版21b相关对象 | [圣母子](../works/sassoferrato-madonna-and-child.md)；书中位置 | S28 |
+| 图版22b角色 | 书中位置 | S29 |
+| 图版22b相关对象 | [马萨涅洛起义](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md)；书中位置 | S29 |
+| 图版23a角色 | 书中位置 | S30 |
+| 图版23a相关对象 | [女浴](../works/michelangelo-cerquozzi-women-s-bath.md)；书中位置 | S30 |
 
 ## 关系与证据
 

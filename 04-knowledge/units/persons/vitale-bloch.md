@@ -1,0 +1,55 @@
+---
+title: 维塔莱·布洛赫（Vitale Bloch）
+name_en: Vitale Bloch
+type: person
+evidence_status: source_backed
+sources:
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xvi；OCR L150–151
+  sentence_summary: 图版65a目录将其记为旧藏者。
+  original_quotes:
+  - source_span: lines 150–151
+    text: '65 a Mola and Simonelli: Joint caricature of Simonelli and Mola 400
+
+      [formerly Vitale Bloch collection)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 150–151; 章前：图版目录；印刷页xvi
+created: '2026-09-14'
+updated: '2026-09-14'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+---
+
+## 内容
+
+### 描述
+
+**中文：** 图版65a目录将其记为旧藏者。
+
+**English:** The entry for plate 65a records this entity in the role of former holder.
+
+### 名称
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 惯用名 | Vitale Bloch | S1 |
+| 中文名性质 | 项目工作译名 | 项目命名 |
+
+### 作品与活动记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版65a角色 | 旧藏者 | S1 |
+| 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；旧藏者 | S1 |
+
+## 关系与证据
+
+### 关系记录
+
+暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+
+### 关系候选入口
+
+[章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)

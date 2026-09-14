@@ -1,0 +1,2145 @@
+{
+  "task_id": "patrons-and-painters-front-matter",
+  "revision": "REV-085",
+  "state": "applied",
+  "date": "2026-09-14",
+  "base_commit": "8822e732c027fb5b6b137c9ccdf318e46db70fa1",
+  "source_fingerprints": {
+    "02-sources/02-Markdown/00_01_Title_Copyright.md": "75dfb1077cb870473ecb3a5576fe6b5ef5b2d244bfe43dc55d884d66ebfe1c32",
+    "02-sources/02-Markdown/00_02_Preface_2nd_Ed.md": "8de19ec8cbf405958ad3c47f1cf4023a18a4fce8323e3e34b93ad36dfed3d7d0",
+    "02-sources/02-Markdown/00_03_Preface_1st_Ed.md": "e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a",
+    "02-sources/02-Markdown/00_05_List_of_Plates.md": "96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83",
+    "02-sources/01-book/CHP-0Cover.pdf": "502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266",
+    "02-sources/02-Markdown/21_CHP-21Bibliography.md": "f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3",
+    "02-sources/02-Markdown/22_CHP-22Index.md": "421811ae101e6445964aa155f253a566b42ca634b60d547c5057674c3c7f7081"
+  },
+  "changes": [
+    {
+      "path": "04-knowledge/units/persons/francis-haskell.md",
+      "before_sha256": null,
+      "after_sha256": "f9ec5f27aefd2f6ab15aaf44bad6922945df31578f9cacd2d6960022d3af40f8"
+    },
+    {
+      "path": "04-knowledge/units/persons/larissa-dedicatee.md",
+      "before_sha256": null,
+      "after_sha256": "b82d9e7db435a5e1d62e3e17c5e64dea5d00f09155e8d2a18b259fed19120931"
+    },
+    {
+      "path": "04-knowledge/units/institutions/yale-university-press.md",
+      "before_sha256": null,
+      "after_sha256": "58749617b52f8e067beb77694c9b23f7718fdbdb48e8d37f871561c100072e57"
+    },
+    {
+      "path": "04-knowledge/units/institutions/yale-university.md",
+      "before_sha256": null,
+      "after_sha256": "29f20982d5364746eb6cd1da16be7d82aa327232765be7da933426905050249b"
+    },
+    {
+      "path": "04-knowledge/units/institutions/library-of-congress.md",
+      "before_sha256": null,
+      "after_sha256": "b0ffdaa598dc1a379b6f66522f3276b1a53dc9f5179a5de219d1607c07e6aca1"
+    },
+    {
+      "path": "04-knowledge/units/archives/dizionario-biografico-degli-italiani.md",
+      "before_sha256": null,
+      "after_sha256": "6f6f42e3c22b242a3c55acd7b4fbba060dfc366225bcd85d77d9093d89fcd520"
+    },
+    {
+      "path": "04-knowledge/units/institutions/chatto-and-windus.md",
+      "before_sha256": null,
+      "after_sha256": "e51ba9b7a50a216b9a44c2bf43cb71763656d4ee8468ef1a2bb4b9de37b73298"
+    },
+    {
+      "path": "04-knowledge/units/persons/norah-smallwood.md",
+      "before_sha256": null,
+      "after_sha256": "c3ad0f52ebc5f48f5e5190799acf1844eaa47fd4f074e53b408b42a0ed46d52e"
+    },
+    {
+      "path": "04-knowledge/units/persons/john-nicoll.md",
+      "before_sha256": null,
+      "after_sha256": "e4783f0d0731a536a96cc34d70ebc0723c10fbc51a09d5875136417942c3ca40"
+    },
+    {
+      "path": "04-knowledge/units/persons/robert-enggass.md",
+      "before_sha256": null,
+      "after_sha256": "9b112a1b491df8dedb41e036efa0efab654e08c0c1b0664cfd7c76b0985fd073"
+    },
+    {
+      "path": "04-knowledge/units/persons/howard-hibbard.md",
+      "before_sha256": null,
+      "after_sha256": "9dac5762f001e687f2e400a078fcd73a3f01e81b7ac058f0d6c679aaa8a7eacf"
+    },
+    {
+      "path": "04-knowledge/units/persons/anthony-blunt.md",
+      "before_sha256": null,
+      "after_sha256": "9e19b5d3a916586f7ea20de716154bedb58e8fa826f305436a152b465055c5e7"
+    },
+    {
+      "path": "04-knowledge/units/persons/bruce-boucher.md",
+      "before_sha256": null,
+      "after_sha256": "8dc6899e9421f8b817f31365c6e08397d0e696f397154509ed07c4d33a0e7420"
+    },
+    {
+      "path": "04-knowledge/units/persons/marco-chiarini.md",
+      "before_sha256": null,
+      "after_sha256": "563d9851c02456c6c5871e0d1b7db2b9f265b92066ddbd0220cf9b7e02f3eda9"
+    },
+    {
+      "path": "04-knowledge/units/persons/ann-sutherland-harris.md",
+      "before_sha256": null,
+      "after_sha256": "ca7ed2aae35f8319e816f0fea58cddef234269cc918cb21478ebe8a0ab574306"
+    },
+    {
+      "path": "04-knowledge/units/persons/pierre-rosenberg.md",
+      "before_sha256": null,
+      "after_sha256": "cf9f4437d44c67c02d55d4a2d40bf78c5d77ee48d9bba248f094d6304d409993"
+    },
+    {
+      "path": "04-knowledge/units/persons/marianne-roland-michel.md",
+      "before_sha256": null,
+      "after_sha256": "9cea78215210f22508fc56bebebb5e2801192695fe6a2adc2f062faac5a6e4a1"
+    },
+    {
+      "path": "04-knowledge/units/terms/baroque.md",
+      "before_sha256": null,
+      "after_sha256": "04bf57d5cddfebdf5567dd664a8659842455dc9b4a83683d1640e2b9f2f22f4c"
+    },
+    {
+      "path": "04-knowledge/units/persons/urbano-viii.md",
+      "before_sha256": "cdc95dd6d6e02abaf90f53b94a9417d72d0c8b8f52aa2d13c7d41ed808a66531",
+      "after_sha256": "8c9c234083ed4692b9297530de8816b65fb6e48d7c12d584291bf59a495102ac"
+    },
+    {
+      "path": "04-knowledge/units/institutions/republic-of-venice.md",
+      "before_sha256": null,
+      "after_sha256": "0e5ae23f3c38d6e4b2d148daf0565fabdf43e0eb496faeabfe9a062692eb8241"
+    },
+    {
+      "path": "04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md",
+      "before_sha256": null,
+      "after_sha256": "ee7ae249e460085e2390a06bb68206f59f68ba44d679b28908507dc33a64e95b"
+    },
+    {
+      "path": "04-knowledge/units/terms/neapolitan-anti-classical-painting.md",
+      "before_sha256": null,
+      "after_sha256": "29351ebdd66e1b6470f2933717d446bb997117c4b75e94bf46cea21ecc73360f"
+    },
+    {
+      "path": "04-knowledge/units/persons/enzo-crea.md",
+      "before_sha256": null,
+      "after_sha256": "215af8ee8159ae99abf7fa7c6b4e5970fd86c2b3bf67c4cdceda906289876bc0"
+    },
+    {
+      "path": "04-knowledge/units/institutions/warburg-institute-library.md",
+      "before_sha256": null,
+      "after_sha256": "ff40826a5363cdcb1b443941d154d53857e1588806ebcb942250caab8d9b570b"
+    },
+    {
+      "path": "04-knowledge/units/institutions/kings-college-cambridge.md",
+      "before_sha256": null,
+      "after_sha256": "3f2647b8f7dcd474931b34df07e22bb5f27d951a0b55f348221354632bfbd17b"
+    },
+    {
+      "path": "04-knowledge/units/institutions/t-and-a-constable.md",
+      "before_sha256": null,
+      "after_sha256": "779508f1d03be9752de4de9ef2924c1515148af5bef48c8ff36f5b22f5865854"
+    },
+    {
+      "path": "04-knowledge/units/persons/a-n-l-munby.md",
+      "before_sha256": null,
+      "after_sha256": "ca8e9b0aafc1d540f1e047ed6a93e9403548f9ad1d3396de3457329f11c7d130"
+    },
+    {
+      "path": "04-knowledge/units/persons/g-h-w-rylands.md",
+      "before_sha256": null,
+      "after_sha256": "dc60edf5929c58a365120b530edbde849addf3b0e6fe088e570973327495f20c"
+    },
+    {
+      "path": "04-knowledge/units/persons/elizabeth-orna.md",
+      "before_sha256": null,
+      "after_sha256": "799a9f7ccc18886558c29d57c1420462d4d89ebd99494d6fbbca09a2250498d3"
+    },
+    {
+      "path": "04-knowledge/units/persons/terisio-pignatti.md",
+      "before_sha256": null,
+      "after_sha256": "8edcf650cecb9fcd0022e5eb51be96f5e3f981e7f768144c75a2f4c663b6d6d1"
+    },
+    {
+      "path": "04-knowledge/units/institutions/correr-library.md",
+      "before_sha256": null,
+      "after_sha256": "392a7e013df28b2a3c90e8dc69f16972da14b754929bc4827e68e9ae7e54d2c8"
+    },
+    {
+      "path": "04-knowledge/units/persons/alessandro-bettagno.md",
+      "before_sha256": null,
+      "after_sha256": "cd4263dd91106c1f271298053756e207f2648c39793b72fd97551b4786196ceb"
+    },
+    {
+      "path": "04-knowledge/units/persons/gianfranco-torcellan.md",
+      "before_sha256": null,
+      "after_sha256": "a01890dc603492ca848d7acda1a84f53dbeb6e87e01f7e798cd4d5f66c409899"
+    },
+    {
+      "path": "04-knowledge/units/persons/franco-venturi.md",
+      "before_sha256": null,
+      "after_sha256": "edb583d3c9b36ebd8e470cb2ab05885b8009b57e5a4576639ccfe48119912947"
+    },
+    {
+      "path": "04-knowledge/units/persons/gaetano-cozzi.md",
+      "before_sha256": null,
+      "after_sha256": "f94fcd64089ca1bd898ec7ab9be3d03308b9c9081265eedc55d2e8f07dbf7c80"
+    },
+    {
+      "path": "04-knowledge/units/persons/ellis-waterhouse.md",
+      "before_sha256": null,
+      "after_sha256": "a1cf9332cfed807929e7ff19475cc7938fa9995c2220301c4ca9264b3b3d03cb"
+    },
+    {
+      "path": "04-knowledge/units/persons/denis-mahon.md",
+      "before_sha256": "1872ec88c67e1d6656ad7575789ada7ae6a159da57e0f8c96e09945df16b543f",
+      "after_sha256": "425646b7200e3b7169d0f19d264b414631cda53b7516e35cf45fe99b239a9aef"
+    },
+    {
+      "path": "04-knowledge/units/persons/peter-calvocoressi.md",
+      "before_sha256": null,
+      "after_sha256": "1722ba781d8f6164fd1203c1fdae87cfa6bcd608d63c87b5032d0fc4101d4617"
+    },
+    {
+      "path": "04-knowledge/units/persons/nikolaus-pevsner.md",
+      "before_sha256": null,
+      "after_sha256": "05add1e56edb7c3e43da7be1df855899a97e05beb0e57356e2d33272d4075a7f"
+    },
+    {
+      "path": "04-knowledge/units/persons/michael-levey.md",
+      "before_sha256": null,
+      "after_sha256": "8cf4394b2e83f0cd7c20cc6bc52f4e472bb5513ee51ac5cc61de8b7b7ca09f77"
+    },
+    {
+      "path": "04-knowledge/units/persons/benedict-nicolson.md",
+      "before_sha256": null,
+      "after_sha256": "2c8a6ee587367d2fe4655fd061809418a92be1869c8383267c3b40aa0987c716"
+    },
+    {
+      "path": "04-knowledge/units/terms/neo-classicism.md",
+      "before_sha256": null,
+      "after_sha256": "a731fd07fba2d2d5e84e9973271a10afbb5375317e03f43003123d5977807f56"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-algarotti.md",
+      "before_sha256": null,
+      "after_sha256": "107c03848693ddadd4d551b107adcd885431b97f8281c2407773fd1591c946f5"
+    },
+    {
+      "path": "04-knowledge/units/persons/hugh-honour.md",
+      "before_sha256": null,
+      "after_sha256": "584f6092730ad5109b6badd60bcb91b6c0e24c0d2dfefa576c044ac716fb9de8"
+    },
+    {
+      "path": "04-knowledge/units/persons/rudolf-wittkower.md",
+      "before_sha256": null,
+      "after_sha256": "f1eb683a5472bb794c102df0e4b3a3645699fa074371bda8b8cbb352e4ccedc2"
+    },
+    {
+      "path": "04-knowledge/units/persons/sebastiano-conca.md",
+      "before_sha256": null,
+      "after_sha256": "19211af3ed26aaece7c7c8391b08f1390fc5862cd4625d63c6e7ace6f27438ef"
+    },
+    {
+      "path": "04-knowledge/units/persons/giaquinto-front-matter.md",
+      "before_sha256": null,
+      "after_sha256": "98e942270f94227d05f574e053b94491ee98a0fc9ecdabb92a7ed2671c6e86ba"
+    },
+    {
+      "path": "04-knowledge/units/persons/pompeo-batoni.md",
+      "before_sha256": null,
+      "after_sha256": "7b54ab680b314cada11a0f491a3e79c3400f6e90de882bc0a5692add820acb91"
+    },
+    {
+      "path": "04-knowledge/units/persons/clement-xi.md",
+      "before_sha256": "fdfd2ee4c6e7158f17fec928f1557db0351ea65a4350c00090890ddb09b07796",
+      "after_sha256": "eb36613d5c528a35e3c4dba9812900ac08eeec79c97eac4314450415872fabc2"
+    },
+    {
+      "path": "04-knowledge/units/archives/conforti-legros-designers-1977.md",
+      "before_sha256": null,
+      "after_sha256": "d5438554bafc6e7d43475dd2de9437d7a9b87221ffd333cb0ded406cc50371ed"
+    },
+    {
+      "path": "04-knowledge/units/archives/pastor-popes-english-vol33.md",
+      "before_sha256": null,
+      "after_sha256": "b3ae5acd3a07bc71fd7e4a059351b80ff7eac685fe78c9ad1a21a6709db9c838"
+    },
+    {
+      "path": "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
+      "before_sha256": null,
+      "after_sha256": "894076c72cf03673fb63df5fa38153c7d3f8f37d747e3e3c831d6f11037fe40c"
+    },
+    {
+      "path": "04-knowledge/units/persons/charles-francois-poerson.md",
+      "before_sha256": null,
+      "after_sha256": "b305e33bd7f8814ea7240d95a1906b56bd4d691c958706ebb63b513df15a52ee"
+    },
+    {
+      "path": "04-knowledge/units/institutions/french-academy-in-rome.md",
+      "before_sha256": null,
+      "after_sha256": "d15aa72f584826dcdc1e07b0d628c1bd0db7f27b7d8665dd47c2f8a6d7eca8c8"
+    },
+    {
+      "path": "04-knowledge/units/archives/poerson-letter-1708.md",
+      "before_sha256": null,
+      "after_sha256": "d91e8f0f210238997ebf2e48cc60c75fd51642e8169d2bbab252f9848addcb52"
+    },
+    {
+      "path": "04-knowledge/units/archives/montaiglon-academy-correspondence.md",
+      "before_sha256": null,
+      "after_sha256": "1c23098ef407f1707d637d62b89e17b0ed9f3871084ed6eb722f7495e1ad64ae"
+    },
+    {
+      "path": "04-knowledge/units/places/san-clemente-rome.md",
+      "before_sha256": null,
+      "after_sha256": "56ead25157536d09586bf2ec75792ae513a2f86f71776d2455714dd9d233e410"
+    },
+    {
+      "path": "04-knowledge/units/events/san-clemente-redecoration.md",
+      "before_sha256": null,
+      "after_sha256": "f189652e98fef8835f6f5667ca86bb1fe54b541221c30ee25857add5e2d65d2c"
+    },
+    {
+      "path": "04-knowledge/units/persons/pietro-di-pietri.md",
+      "before_sha256": null,
+      "after_sha256": "33c375fffe9801826dd36e440f9d7bf162c5ada8ffdeedad7514a7011cccd8a2"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovanni-domenico-piastrini.md",
+      "before_sha256": null,
+      "after_sha256": "490ef8c0fe5f116f947a833271f256a0a9ca4728d5318a9ee27acb3edc681b0d"
+    },
+    {
+      "path": "04-knowledge/units/persons/giacomo-triga.md",
+      "before_sha256": null,
+      "after_sha256": "e0c4a6a30d02763880d489ef61b77dd994e449ca0710c8c97ba1f6dd3727debb"
+    },
+    {
+      "path": "04-knowledge/units/persons/anthony-clark.md",
+      "before_sha256": null,
+      "after_sha256": "9bb6aeb5cf2ffc0f7999be9d36ad52f57a43f15576151d76d96eb5a7cef1bf3c"
+    },
+    {
+      "path": "04-knowledge/units/archives/gilmartin-san-clemente-1974.md",
+      "before_sha256": null,
+      "after_sha256": "a2ded1ddec6186c6b3e6d876ac947112250d9e1eff374532cdbf5e2e88842fd4"
+    },
+    {
+      "path": "04-knowledge/units/persons/guercino.md",
+      "before_sha256": "88eb4e26feeb3241aede14bfd96327b5da1073d0f3b5d6349e36888100a91aa0",
+      "after_sha256": "b26eeba47aa44234ac69cd3b9224291e39308ee4488f7ec94a035be2f6a3efbf"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovanni-odazzi.md",
+      "before_sha256": "cdfe33b03045c818fa0be14f1265e551c7b6ffc15b27394d8dee99dc6ac444f9",
+      "after_sha256": "d68dc0040b7a4a57127d63974e48fb3fa4408b67077c9115549323f27eb9d53c"
+    },
+    {
+      "path": "04-knowledge/units/persons/pietro-da-cortona.md",
+      "before_sha256": "2a2094755ade60d4ea2ea2a633530c3fb877a398cb63b14e5e2ed135a65e52c4",
+      "after_sha256": "22be755d50fdcbe5dc7b5c90d58ecebe8751b2d6e09115fe87ab55d9b1e07d90"
+    },
+    {
+      "path": "04-knowledge/units/archives/honour-patrons-painters-review-1963.md",
+      "before_sha256": null,
+      "after_sha256": "bfd89db691f660e9a87ba39f4f6e2c5840bb3e7180eb451b306574360ff55e96"
+    },
+    {
+      "path": "04-knowledge/units/terms/art-patronage.md",
+      "before_sha256": null,
+      "after_sha256": "4469fa42c1cac5006975a4d9e6fe6e328a86534a99d28e4688fb9d2dad7c1bcc"
+    },
+    {
+      "path": "04-knowledge/units/archives/us-copyright-law.md",
+      "before_sha256": null,
+      "after_sha256": "a35e9b2033811af4936a0197944bfac5cc4339e818bfb83aac064cdef5b4f2a0"
+    },
+    {
+      "path": "04-knowledge/units/persons/michael-conforti.md",
+      "before_sha256": null,
+      "after_sha256": "9f5e23e51e76a1594c02dbd3daca41cfcca154339ad96247356f9d1b4ff10f40"
+    },
+    {
+      "path": "04-knowledge/units/persons/pastor-historian.md",
+      "before_sha256": null,
+      "after_sha256": "3119c202f75865b8ac764788cf55477c1dec02240f1623ebca2795dfc16712c4"
+    },
+    {
+      "path": "04-knowledge/units/persons/a-de-montaiglon.md",
+      "before_sha256": null,
+      "after_sha256": "396e3e05e6cc3a8e33e4dcb118b75a3f1930fa1b76fe5235b6482f5f4ffc6f2f"
+    },
+    {
+      "path": "04-knowledge/units/persons/john-gilmartin.md",
+      "before_sha256": null,
+      "after_sha256": "fcef3ad5e73863a1b24f89fdff695508cccfb01fbe7b7962c9fca0500d5a1c2e"
+    },
+    {
+      "path": "04-knowledge/units/archives/apollo-periodical.md",
+      "before_sha256": null,
+      "after_sha256": "8bf3516e76d1989c691c5f4bb80e809cce87e7c92a26fea39919374d83e771c3"
+    },
+    {
+      "path": "04-knowledge/units/institutions/warburg-institute.md",
+      "before_sha256": null,
+      "after_sha256": "fbd4b92b3946d3f6c171be8ddef4a0844ac3c5e8c46aa90d7ee12033a813a9d6"
+    },
+    {
+      "path": "04-knowledge/units/persons/paolo-girolamo-piola.md",
+      "before_sha256": "dfaed2105092117a1eaa5aea84e4be50519cd83eab52af5fb58783731d915ffa",
+      "after_sha256": "6764cf542b5f8f62315b39bed772cb922ea64b548f2c4ff5f237c400102f2206"
+    },
+    {
+      "path": "04-knowledge/units/persons/domenico-maria-viani.md",
+      "before_sha256": null,
+      "after_sha256": "2cf89c85df1b7d27af9d6adcf24244bc961114d386d232b77ef63acaf83df6cc"
+    },
+    {
+      "path": "04-knowledge/units/places/new-haven.md",
+      "before_sha256": null,
+      "after_sha256": "631f26ecf7c2b8714bde6f23d20362268b94ad159dbc7a95f45d5c5a66d814dc"
+    },
+    {
+      "path": "04-knowledge/units/places/london.md",
+      "before_sha256": "36efcf8af97632c87af5d96e771f23eae419bbcba1b3c74c90bfeaa2daf19aae",
+      "after_sha256": "ab7d29acfc640f017b8d84742fe603dba693223795251f9e1e7812c3d8d7eed1"
+    },
+    {
+      "path": "04-knowledge/units/places/china.md",
+      "before_sha256": null,
+      "after_sha256": "b7941fcf79c03037edbce68db4b439ef2957325f0e41185b22405ac6d6f0ff5b"
+    },
+    {
+      "path": "04-knowledge/units/places/italy.md",
+      "before_sha256": "b4e316bfb153c175fc42e0ef1a8f8a49025e9d1389d3931988f9b6f74ab3e319",
+      "after_sha256": "657777292083a154fa037834670a90d197c9ce259fcfe90a3c6f983ec2b33acd"
+    },
+    {
+      "path": "04-knowledge/units/places/oxford.md",
+      "before_sha256": null,
+      "after_sha256": "7f41d1c8fb80fb70f407339f709dc48c5457be290b86ddf310337c58f4c625e1"
+    },
+    {
+      "path": "04-knowledge/units/places/cambridge.md",
+      "before_sha256": null,
+      "after_sha256": "ff43704fa7e720d72c1864ba127ec3366ed48d1ccf7d963149d130e74d589d71"
+    },
+    {
+      "path": "04-knowledge/units/places/rome.md",
+      "before_sha256": "da6d53d2e038f83a881d2f4a94ec756ca276a244197b6148f2d02ee22f43cc85",
+      "after_sha256": "7897fdae4f3931b4cbe3e69f23f06d0ef62cf385607aa0d880e831b4db350e80"
+    },
+    {
+      "path": "04-knowledge/units/places/venice.md",
+      "before_sha256": "9093ec1e03a7a7424acb37cb3e0ceaa7a908da83fe903319de83bebf55143e70",
+      "after_sha256": "d897931149f176626812605196404e2ca7f820c9563cd8f31e79322dafbb2306"
+    },
+    {
+      "path": "04-knowledge/units/places/tuscany.md",
+      "before_sha256": null,
+      "after_sha256": "75fc67233b4b441d6f3e7880ae8a03c2528b26b62a09491fee606f9ed114b971"
+    },
+    {
+      "path": "04-knowledge/units/places/naples.md",
+      "before_sha256": "18568a9a97b7292a3ee638f6bcf75ed0591e0f093248f597c4852c815870167f",
+      "after_sha256": "d4b0ba2ea6ddf7f657a20ab02c3c617a2bc2c7098c5420e1e9f18f5f49766d3f"
+    },
+    {
+      "path": "04-knowledge/units/places/europe.md",
+      "before_sha256": null,
+      "after_sha256": "c84cbaa911443d6af46188b4f6767bf9bfa6438c0bd9689f0e1c2478f253019b"
+    },
+    {
+      "path": "04-knowledge/units/places/england.md",
+      "before_sha256": null,
+      "after_sha256": "322937ae8d96131f7218fc7cf2e45ba73eb2efad45afc1fb2d75dafb613d92c9"
+    },
+    {
+      "path": "04-knowledge/units/places/veneto.md",
+      "before_sha256": null,
+      "after_sha256": "6613b14969e73d8a190d043731ea95fd3dc713879e09b7487cf53acef83c122c"
+    },
+    {
+      "path": "04-knowledge/units/archives/patrons-and-painters.md",
+      "before_sha256": "23a41492034a2807b84bffc519cbeeb78c0c7c79e6037050515b83c885f81a9a",
+      "after_sha256": "2824a7caced4e0f3e96345a3bde52a053297de42420a0ea3f7c142f19be7c091"
+    },
+    {
+      "path": "04-knowledge/units/persons/valentin.md",
+      "before_sha256": "b77fa66439a0f78dd5361829b4d039d2f167b676ccce0e99b9287c286cf37081",
+      "after_sha256": "6246c35add6332a9be302cbb87f8a012b87856d9db75be00a84f4773e600c45a"
+    },
+    {
+      "path": "04-knowledge/units/institutions/finnish-institute.md",
+      "before_sha256": null,
+      "after_sha256": "9bc635f70ddafca2c53b16f1fd7f1fb264a6fa5e70a29fa12c45c8834b7a3503"
+    },
+    {
+      "path": "04-knowledge/units/works/valentin-allegory-of-rome.md",
+      "before_sha256": null,
+      "after_sha256": "55acf4f9584a9c2542365b731e7cf5ea0b554b4331679c53a35e7ca3e39cb8d8"
+    },
+    {
+      "path": "04-knowledge/units/persons/caravaggio.md",
+      "before_sha256": "3afe7c7282569dedc24d0c2cf7c156ba71234ac98d1d5504ade8d4613b5fcd0a",
+      "after_sha256": "60983b35c34e7ed00f95b3fa4872e17c6a2f84f67f8903c122732d49f793273a"
+    },
+    {
+      "path": "04-knowledge/units/places/florence.md",
+      "before_sha256": "96936b62161471167726a6ea71086877ae8e44becb119146de00f9ba20401986",
+      "after_sha256": "2406db45041c78d24764fc6f870fd0ab8151d7e4ed5d689f6c498b51f7c23bbf"
+    },
+    {
+      "path": "04-knowledge/units/works/caravaggio-maffeo-barberini.md",
+      "before_sha256": null,
+      "after_sha256": "dbdb60d6fbcd62ed7183cedc74ff586cfc38042f286dd746c10868ddd5938607"
+    },
+    {
+      "path": "04-knowledge/units/persons/gian-lorenzo-bernini.md",
+      "before_sha256": "a9be9bf78998da4a01ece0df097802e12c93c1a9963d033feaf9d46cff7a27f1",
+      "after_sha256": "7d5a4165664f133b76466ac541de18b44da3ccea43d0098812745f4751fd5335"
+    },
+    {
+      "path": "04-knowledge/units/places/palazzo-dei-conservatori.md",
+      "before_sha256": null,
+      "after_sha256": "dfb352c9fb25265376fe0c3206b01dd54ac7bb1968f0289c0c7b623ba4d1af07"
+    },
+    {
+      "path": "04-knowledge/units/works/bernini-maffeo-barberini-as-pope-urban-viii.md",
+      "before_sha256": null,
+      "after_sha256": "cb3e143694c053b5051f30bb75121592615ce0187d7200950fae4f08170518da"
+    },
+    {
+      "path": "04-knowledge/units/persons/ottavio-leoni.md",
+      "before_sha256": null,
+      "after_sha256": "6b1be5032f0feed82553ec1a72b14b7b7329655f495783cffe703d79250d8b63"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-barberini.md",
+      "before_sha256": "55e0f413000451f0cbb8e65e9cbcac2098c10fecce3106f2657bcfe65816ecc5",
+      "after_sha256": "243952ad9f3a5a8374220db3800c04d34d8913239ac9290dc2d3280cfeb1c65b"
+    },
+    {
+      "path": "04-knowledge/units/works/ottavio-leoni-cardinal-francesco-barberini.md",
+      "before_sha256": null,
+      "after_sha256": "f5b84ce0a057732372d9de3a2d62e7d15ba52dac54888050c6a5c658a9a53c66"
+    },
+    {
+      "path": "04-knowledge/units/persons/carlo-maratta.md",
+      "before_sha256": "6a45d923c0da80418422c83abef2a3be396a62e14c8e470081b2648d70bb6c49",
+      "after_sha256": "69adf78c92324074962dcf286c21171788f4a173d64fb53813e7fb2051eb635a"
+    },
+    {
+      "path": "04-knowledge/units/persons/antonio-barberini.md",
+      "before_sha256": "425cb33cdaabee3291e89795a6cf66f34f9fbe831185bed4af2a84178dc8131a",
+      "after_sha256": "5d6a555992ca4526f506f6ae1228419b5d19e889aec4d372305fb9d9c19256db"
+    },
+    {
+      "path": "04-knowledge/units/places/alnwick-castle.md",
+      "before_sha256": null,
+      "after_sha256": "8bd5281f636f6f822a74ba356df84ad21cd608121c5566f92ff1438da089a5e2"
+    },
+    {
+      "path": "04-knowledge/units/works/carlo-maratta-cardinal-antonio-barberini.md",
+      "before_sha256": null,
+      "after_sha256": "80d28b1ce4ebc80bb2f2fd83365abfda9c13f5569a8cb0eeaa4578c07325f857"
+    },
+    {
+      "path": "04-knowledge/units/persons/van-dyck.md",
+      "before_sha256": null,
+      "after_sha256": "b0cedea73412624c7a5fb37d936f9c5b54342058fb097dd421d3a4b18da62d9c"
+    },
+    {
+      "path": "04-knowledge/units/persons/cardinal-bentivoglio.md",
+      "before_sha256": null,
+      "after_sha256": "2d3fae6e805e27803fd1d332b8d544f6dec578f5de8c9c407162901c06a9c328"
+    },
+    {
+      "path": "04-knowledge/units/places/palazzo-pitti.md",
+      "before_sha256": null,
+      "after_sha256": "6a434826025950f61b0e8523a2bb6b3b980bd765be3b0c0047158b78fa6359da"
+    },
+    {
+      "path": "04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md",
+      "before_sha256": null,
+      "after_sha256": "d61984b801aacd9db002d7e883985dfe67fb5ac22a9837d345fc1b90c28ffe6f"
+    },
+    {
+      "path": "04-knowledge/units/persons/marcello-sacchetti.md",
+      "before_sha256": "5a6b70454b0f6b3bf42609892ab2f8f2c8967ca86eec410d6ac18a268a483896",
+      "after_sha256": "4ac5797b441ac06069689b8827727c2e7ac7f2a71080983543ab16445242eeb3"
+    },
+    {
+      "path": "04-knowledge/units/places/villa-borghese.md",
+      "before_sha256": null,
+      "after_sha256": "c56248f89624df6f0e48ed6d9b7209c37c4e7e1f2222c81cc1bbc3bf2e017afb"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md",
+      "before_sha256": null,
+      "after_sha256": "f5ebe55033d47829cbbd46089b919d9f9fa76ef2758b1d9f018e9ca7058a27f6"
+    },
+    {
+      "path": "04-knowledge/units/persons/cardinal-borghese-ch1.md",
+      "before_sha256": "9e2538b7dccc9221888fa13eb404b80b74fac711c3113d0d7b877d9c3850f8a6",
+      "after_sha256": "23c5538ec757fc794de40f6cd2af542ab0bdd5fd922062fa7289626c11529f3f"
+    },
+    {
+      "path": "04-knowledge/units/persons/guglielmo-baur.md",
+      "before_sha256": null,
+      "after_sha256": "7d0bdcd2837659fd139f7046a72d8a5043eccba1c8f180f3957df7e880228f19"
+    },
+    {
+      "path": "04-knowledge/units/works/guglielmo-baur-view-of-villa-borghese-in-1630.md",
+      "before_sha256": null,
+      "after_sha256": "918ec48c00f19ff0a12923650df310c3137afdab410d5ebb8ec319c9bb2e9189"
+    },
+    {
+      "path": "04-knowledge/units/persons/domenichino.md",
+      "before_sha256": "60c3bba457757fcb1b0949353945e9422c661466dab7283d42064084d5468d0c",
+      "after_sha256": "1b9fdb8956232c62e387f4946f3fa58cd4c4732fe6c95c6fa79a9b921311eaba"
+    },
+    {
+      "path": "04-knowledge/units/works/domenichino-hunt-of-diana.md",
+      "before_sha256": null,
+      "after_sha256": "0bde6cc7b1c7f2bc304c86923227265a093f2a637bf92dda23d2a146e630f220"
+    },
+    {
+      "path": "04-knowledge/units/persons/matteo-castelli.md",
+      "before_sha256": null,
+      "after_sha256": "f969cc9bada6dd89259f697320e24ee1f819ff1ce42a7dbba3c88c9b25967bb2"
+    },
+    {
+      "path": "04-knowledge/units/places/sant-andrea-della-valle.md",
+      "before_sha256": "763539b88adc6e72db14e59c783c1c9098709c2b2fd83f4a1e37be4177e7cfdb",
+      "after_sha256": "2e867b0f4f608efc4296a5c8a1a02a3066a0b8f68ee8498fee1ed09208c6ad02"
+    },
+    {
+      "path": "04-knowledge/units/places/barberini-chapel-sant-andrea-valle.md",
+      "before_sha256": null,
+      "after_sha256": "86f7686e9ef7cf8511e957f89e2c5773264ac3141ef5793f26491d3a5f28eb43"
+    },
+    {
+      "path": "04-knowledge/units/persons/guido-abbatini.md",
+      "before_sha256": null,
+      "after_sha256": "6f6dce0b9d13ba5ca812b2447851fa2b534ac68852c144b0867099e2626caae8"
+    },
+    {
+      "path": "04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md",
+      "before_sha256": null,
+      "after_sha256": "059a6e2a4de863ad46d9a3ca663a4e74668daa4d4500e70dd4b05f496caca013"
+    },
+    {
+      "path": "04-knowledge/units/persons/girolamo-teti.md",
+      "before_sha256": null,
+      "after_sha256": "17a8af68bfabc611535f986545fc81523f354df2f9b4800db15ba09b4bbfd966"
+    },
+    {
+      "path": "04-knowledge/units/places/palazzo-barberini.md",
+      "before_sha256": "353e3689714eca9d544a1981e4be39f77a482963dd9595b6f3af68ec505b9250",
+      "after_sha256": "b918870844d283e8116ee6dfa57d54558875a25f53342a9b78380d3e9b6e6158"
+    },
+    {
+      "path": "04-knowledge/units/works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md",
+      "before_sha256": null,
+      "after_sha256": "f6a13a3127eacdfd806762c5ba7d817f45a9f3f1d0434bdcf83e20d367c78361"
+    },
+    {
+      "path": "04-knowledge/units/institutions/pinacoteca-capitolina.md",
+      "before_sha256": null,
+      "after_sha256": "0045d2a1b856ecb1458f589bb8526dc387ddf5fb54ca0a94fcfd604bd7c4e29d"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-da-cortona-rape-of-the-sabines.md",
+      "before_sha256": null,
+      "after_sha256": "1850fd7862b538a1c5e02e02a03d744ddd55ca9dacf4dd7a325eea69fbbc2bf2"
+    },
+    {
+      "path": "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
+      "before_sha256": null,
+      "after_sha256": "856b94237a67009a49ba6112478d64994d79896897c26ceee3e66c2ff5e93a3d"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-da-cortona-rape-of-helen.md",
+      "before_sha256": null,
+      "after_sha256": "427d0af3d20607ab8462c0ca6f3d6343e73ddf78f7c2a674c27673a4230c4368"
+    },
+    {
+      "path": "04-knowledge/units/persons/gio-maria-bottalla.md",
+      "before_sha256": null,
+      "after_sha256": "25a0c670ac199a6940f7c07f5d98c625f9d0df14bd3639501789110c2710e174"
+    },
+    {
+      "path": "04-knowledge/units/works/gio-maria-bottalla-meeting-of-esau-and-jacob.md",
+      "before_sha256": null,
+      "after_sha256": "22c167f18323f87b503e101c209233315d21d44374467817cd82553772519be0"
+    },
+    {
+      "path": "04-knowledge/units/persons/pietro-testa.md",
+      "before_sha256": null,
+      "after_sha256": "4869576badffd1a2baa24a2b14b54438d061df2697f38400b99025544f7c43b9"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-testa-joseph-sold-by-his-brothers.md",
+      "before_sha256": null,
+      "after_sha256": "9193e8e11cdb781aa7a6d574217f72fec319f311d4dc8aff0d72801736cbfbcd"
+    },
+    {
+      "path": "04-knowledge/units/persons/andrea-sacchi.md",
+      "before_sha256": "4c6fdd2f57898df2d92beb2bc3c5ece2172d81ae91212e49bc691bdf3ee98255",
+      "after_sha256": "003ac254a34c9a76b48c128329006bfab3ea4761b1c84a462e45ae537c200f35"
+    },
+    {
+      "path": "04-knowledge/units/works/andrea-sacchi-allegory-of-divine-wisdom.md",
+      "before_sha256": null,
+      "after_sha256": "af1242fab03af00e8503ceb8d26064f0ae0db61757b16c68a567a9867fa3a3d8"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md",
+      "before_sha256": null,
+      "after_sha256": "554bdba1fcf74809e2752d2b259d4e14b451d3e39986331c35c57c34c7ffb249"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovan-battista-gaulli.md",
+      "before_sha256": "75f8e04b266c120011bc401f0f03c541979b129929bb06d12b46129dd3cea850",
+      "after_sha256": "7534d31de497695d0fcab888ed7dc2717d36fc63b19b4b90cd3bc094f6a01e38"
+    },
+    {
+      "path": "04-knowledge/units/places/gesu-rome.md",
+      "before_sha256": "b07bdf3be86f7ee84f9748a80317886889e908e088a7fbf5a5b456ac9d4f0c3c",
+      "after_sha256": "fd0edca882e29b5f34d3fc494b666a71315c471a71e35928d2fbed3c9c25fc59"
+    },
+    {
+      "path": "04-knowledge/units/works/gaulli-triumph-name-jesus.md",
+      "before_sha256": null,
+      "after_sha256": "1dcb88f338295981d88a0e6dfb49a3d67cfc69c93ed2a3b87b8fe896c6a10eb2"
+    },
+    {
+      "path": "04-knowledge/units/persons/andrea-pozzo.md",
+      "before_sha256": "7e7707785dc6b5ea1e4f0d81464acc087a75c7b79c25318bdc4c0b7b18ed8d72",
+      "after_sha256": "5ca93b20b9ba03d15f90b74d89d76850b9467eab3df54e61d38d6210987a35e6"
+    },
+    {
+      "path": "04-knowledge/units/places/s-ignazio.md",
+      "before_sha256": null,
+      "after_sha256": "ac374bd2896e1672c7b197eac712c1a84333e0b9d06e1686876137c269538d84"
+    },
+    {
+      "path": "04-knowledge/units/works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md",
+      "before_sha256": null,
+      "after_sha256": "ef799fa7ecd5dacb558804263a1cb4140daab94d1f68929b735244d990b7df4d"
+    },
+    {
+      "path": "04-knowledge/units/places/s-andrea-al-quirinale.md",
+      "before_sha256": null,
+      "after_sha256": "46913e4cc3fd291fbd550ee6333e7be5070dd9d815b86788fd37e427608db09e"
+    },
+    {
+      "path": "04-knowledge/units/places/interior-sant-andrea-quirinale.md",
+      "before_sha256": null,
+      "after_sha256": "3a0cea4073d4bd822367fdb6ecb457fee8c2178fbf9e9f5aee63898ad930b0f2"
+    },
+    {
+      "path": "04-knowledge/units/persons/cassiano-dal-pozzo.md",
+      "before_sha256": null,
+      "after_sha256": "58cd66f74bd70b268151961e8a53a36b083a8f8e930b07dcb25273830e8cb5df"
+    },
+    {
+      "path": "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
+      "before_sha256": null,
+      "after_sha256": "9a9e96f347e8e44e2d2e02500d3f950d8407b55b43902a53bf9a2d3a25a2a329"
+    },
+    {
+      "path": "04-knowledge/units/places/rotterdam.md",
+      "before_sha256": null,
+      "after_sha256": "f35ac52452a31a247109dba5d4fa4672a1f621b71e3b6b31248af3ade1cab4d8"
+    },
+    {
+      "path": "04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md",
+      "before_sha256": null,
+      "after_sha256": "0c109796e6f9fb99eb2384f4b6740266882f34863f36d217c54b4831b3867e89"
+    },
+    {
+      "path": "04-knowledge/units/persons/claude-mellan.md",
+      "before_sha256": null,
+      "after_sha256": "71bcdb44262d179e78a270ce3c05488bfc4f04e7d1d1e5264443549c3645fac5"
+    },
+    {
+      "path": "04-knowledge/units/persons/marchese-giustiniani-ch1.md",
+      "before_sha256": "4431e7020ffe9c4f5a6dccf37424c8318687abaf90bd5f170f2ff017772a62ad",
+      "after_sha256": "c70d7d07d3bead3c3c42cc079cd93f25125911446b420af691215f560cb82f32"
+    },
+    {
+      "path": "04-knowledge/units/works/claude-mellan-vincenzo-giustiniani.md",
+      "before_sha256": null,
+      "after_sha256": "8979ac0b3238410346ea289d8a43a90e5b7e7fc1afcec9fecf49815ac02c79cd"
+    },
+    {
+      "path": "04-knowledge/units/persons/paolo-giordano-orsini.md",
+      "before_sha256": null,
+      "after_sha256": "d0654013d34242dd668b129a0fbbb72ce504a0b0fcc27d780fc3b123491899f6"
+    },
+    {
+      "path": "04-knowledge/units/works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md",
+      "before_sha256": null,
+      "after_sha256": "49a7b4cb848aa1a1df09a98e869a56533b3043e312507af19748adfaf300e813"
+    },
+    {
+      "path": "04-knowledge/units/places/egypt.md",
+      "before_sha256": null,
+      "after_sha256": "29e2a58c4d8398cf783d208536e58c4e3447e8d1618b945125da9f845d63bbad"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-testa-rest-on-the-flight-into-egypt.md",
+      "before_sha256": null,
+      "after_sha256": "fbdb5164c379334741c854cc88a9ca3f383ecf77438113dfb308bde6c54b9f99"
+    },
+    {
+      "path": "04-knowledge/units/persons/nicolas-poussin.md",
+      "before_sha256": "193929b27a7b8b0bab5f141932fac295be3d4a8fee4bcb4166241a7a7013c29b",
+      "after_sha256": "f1367666fb102ed7183f62930a0dec988823ccfb4feefff49bec13cf249ae0bb"
+    },
+    {
+      "path": "04-knowledge/units/places/belvoir-castle.md",
+      "before_sha256": null,
+      "after_sha256": "679dd387645b313a6346732f217d667493ee15416602976d97707ff9551db926"
+    },
+    {
+      "path": "04-knowledge/units/works/poussin-marriage.md",
+      "before_sha256": null,
+      "after_sha256": "d513ab8f458455a83a90d4c9688b7ca66355bc7ef0575c14d392b624ff1bcaf4"
+    },
+    {
+      "path": "04-knowledge/units/institutions/louvre-museum.md",
+      "before_sha256": "6072b375b6d5a63c6849bc9d47c16b58985dea0dc33309446f0156dfcad2c932",
+      "after_sha256": "0d3b95f64716f2f58cd90eb9d270c5374c38a0a6ad1a2b70a9292ed46d160d3c"
+    },
+    {
+      "path": "04-knowledge/units/works/poussin-moses-trampling-on-pharaoh-s-crown.md",
+      "before_sha256": null,
+      "after_sha256": "49add39eed99544a38e5d85f910f91c36e6fb8cf09fabe7292551ea90236eee4"
+    },
+    {
+      "path": "04-knowledge/units/persons/claude-lorrain.md",
+      "before_sha256": "12884de8d7caf5996faf56b8b9b12e5bec47dfa72119aa8002b4dfe86f8c1961",
+      "after_sha256": "8baee4228b2900a132c64bafadb4ff1d362474fd55726da0a98e7814f6ebd8d3"
+    },
+    {
+      "path": "04-knowledge/units/places/delphi.md",
+      "before_sha256": null,
+      "after_sha256": "5437a3a1f604b7cabd34052648b03b48dd7ca48f47e75151ceddd0891126d65a"
+    },
+    {
+      "path": "04-knowledge/units/institutions/art-institute-of-chicago.md",
+      "before_sha256": null,
+      "after_sha256": "245fada41c6cf576ac1f8bbce739f3944f698af5a25c3b953d320b5eb8f5ce83"
+    },
+    {
+      "path": "04-knowledge/units/works/claude-view-of-delphi-with-a-procession.md",
+      "before_sha256": null,
+      "after_sha256": "5789ca5d9aab2bc9b3c13d4788cafaf44a223be0f2707ebec046d9ac3f57616d"
+    },
+    {
+      "path": "04-knowledge/units/persons/velasquez.md",
+      "before_sha256": null,
+      "after_sha256": "87e42df5ad135da9513a996a48d813fcb0ccade431faf203b2e2fcc55d89e9ef"
+    },
+    {
+      "path": "04-knowledge/units/persons/camillo-massimi.md",
+      "before_sha256": null,
+      "after_sha256": "1b07142d886ad30b5e5c98f75f4db5b4477b17ae9cc3bb4cab6c753e3a34e683"
+    },
+    {
+      "path": "04-knowledge/units/persons/ralph-bankes.md",
+      "before_sha256": null,
+      "after_sha256": "3e3744fac4eeb4314cdb1122ee53bb89faaeda53f1f6be8d7bd96a73e8418916"
+    },
+    {
+      "path": "04-knowledge/units/places/kingston-lacy.md",
+      "before_sha256": null,
+      "after_sha256": "7b2db3b46a494efdf0695aaeb9be96cb75821fcad2f87d43baa16425a7f5017e"
+    },
+    {
+      "path": "04-knowledge/units/works/velasquez-camillo-massimi.md",
+      "before_sha256": null,
+      "after_sha256": "d0a8d5c56b85c54e30284f159dc163a10d125d8cc09cc78920849cb5315d08a9"
+    },
+    {
+      "path": "04-knowledge/units/persons/sassoferrato.md",
+      "before_sha256": null,
+      "after_sha256": "16ffd60093c966b8573dbfd1f0067c92d09b615dce3da874bd05cd25dae2bb7e"
+    },
+    {
+      "path": "04-knowledge/units/places/s-sabina.md",
+      "before_sha256": null,
+      "after_sha256": "5a8c9f14c499516f0cd0992e5756fd1d1c7883286d32dff1f0b6cb8b0e67192f"
+    },
+    {
+      "path": "04-knowledge/units/works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md",
+      "before_sha256": null,
+      "after_sha256": "31cde4c7de86c9bd754d04e89d30262a716654ec134db09fd74e5f977522e36e"
+    },
+    {
+      "path": "04-knowledge/units/works/sassoferrato-madonna-and-child.md",
+      "before_sha256": null,
+      "after_sha256": "88bb5af0467c37d42da23daaf8bad56e958353683167971e1ffc0a4161cb4c38"
+    },
+    {
+      "path": "04-knowledge/units/persons/michelangelo-cerquozzi.md",
+      "before_sha256": "a27ee4d1c5050fcb97ab6b9b6a32cb4387a7a8e6541965c01bb75a1ef970d924",
+      "after_sha256": "449856b1b6d1a192e6eeeef646b21e559fb05a2053a2ec6276df94e4e7476178"
+    },
+    {
+      "path": "04-knowledge/units/institutions/kunstsammlungen-kassel.md",
+      "before_sha256": null,
+      "after_sha256": "3dac3b2bc99b21cd90c1375077c8371f2ce7fd6eb55f8f5a77f81e568b233aec"
+    },
+    {
+      "path": "04-knowledge/units/places/kassel.md",
+      "before_sha256": null,
+      "after_sha256": "ee1ed2b8675a60f86602a61426f44e5e44619be60fbc669c1cc604546d528fc5"
+    },
+    {
+      "path": "04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md",
+      "before_sha256": null,
+      "after_sha256": "f4e48794b939975c71cf64747cf62b499141755c15dc55e71701375176850e5e"
+    },
+    {
+      "path": "04-knowledge/units/institutions/galleria-spada.md",
+      "before_sha256": null,
+      "after_sha256": "d24a4157109a1c51abd09d514521f753fbea0836335f6764549cdb5abd69efcf"
+    },
+    {
+      "path": "04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md",
+      "before_sha256": null,
+      "after_sha256": "f42a7531dd85f7815e4bf05ef97b29e11a891af7c946c24e3603691cd4f54ceb"
+    },
+    {
+      "path": "04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md",
+      "before_sha256": null,
+      "after_sha256": "a72d2f030178bcc6c93f947d4aa1c9d1a3b8a5a47a450ca22c1b4c4017e589cb"
+    },
+    {
+      "path": "04-knowledge/units/persons/salvator-rosa.md",
+      "before_sha256": "e09718c00a86093daec9aa662ffaf36f26a9eed41cb816255968e45c9ae28c18",
+      "after_sha256": "55907b804f24d12a670a73e4047500d66087a5f173c4f15da4a4cbd450197f10"
+    },
+    {
+      "path": "04-knowledge/units/institutions/virginia-museum-of-fine-arts.md",
+      "before_sha256": null,
+      "after_sha256": "a64754defc40d58ab6b386dc0b70c4b5a8c913ac3f33d2e0fb2daabae484b44d"
+    },
+    {
+      "path": "04-knowledge/units/works/salvator-rosa-the-death-of-regulus.md",
+      "before_sha256": null,
+      "after_sha256": "ec48e1073574cdb3122eb34b168308085d9f1800eb992164fed8926867818f6a"
+    },
+    {
+      "path": "04-knowledge/units/persons/orazio-gentileschi.md",
+      "before_sha256": null,
+      "after_sha256": "6c5a15ff9ca4bc09d3ff995ac5937766ec2ffba10e2399e6e27792cb9a5444f6"
+    },
+    {
+      "path": "04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md",
+      "before_sha256": null,
+      "after_sha256": "6efb47a500128ad82c590c07b9f755ff145c8004d3a8140ca813387286c5b3b9"
+    },
+    {
+      "path": "04-knowledge/units/persons/nanteuil.md",
+      "before_sha256": null,
+      "after_sha256": "9371b0fcf0fc33c996f70e8eebc869270defadb0d41a05b36ce5aca602b11933"
+    },
+    {
+      "path": "04-knowledge/units/persons/mazarin.md",
+      "before_sha256": null,
+      "after_sha256": "2fcebb12c8411a7bc39a66d070817500783dbf3ab40b0a42ecbbf6591b119a88"
+    },
+    {
+      "path": "04-knowledge/units/works/nanteuil-cardinal-mazarin-in-his-gallery.md",
+      "before_sha256": null,
+      "after_sha256": "c9a91ba49a2cfad28bca354efab96c7c1d780c29f11a82753a898cfbd8eca6b8"
+    },
+    {
+      "path": "04-knowledge/units/persons/romanelli.md",
+      "before_sha256": null,
+      "after_sha256": "54f6619cd38f4548d3fa657f4a50c778250358b3fd7cffc364a0bd9473eb059d"
+    },
+    {
+      "path": "04-knowledge/units/institutions/bibliotheque-nationale.md",
+      "before_sha256": null,
+      "after_sha256": "b6c960d238dbfb4641a8669d154632e3d5c05c49485aaecc3845a392383c0c04"
+    },
+    {
+      "path": "04-knowledge/units/places/palais-mazarin.md",
+      "before_sha256": null,
+      "after_sha256": "b794962a92967eee072e0ef95382d8be84e5aed01a026eb88971b5664d8673df"
+    },
+    {
+      "path": "04-knowledge/units/works/romanelli-romulus-and-remus.md",
+      "before_sha256": null,
+      "after_sha256": "ae7c64abe2f8db2d64df9a085dff32615b3de9417909b38f1cd3320dd2a5a494"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-fanelli.md",
+      "before_sha256": null,
+      "after_sha256": "264a2e6054531ccd63cc36c798b8677ac8e72901d943ad824017e2a806fccf07"
+    },
+    {
+      "path": "04-knowledge/units/persons/charles-i.md",
+      "before_sha256": null,
+      "after_sha256": "9c60feec6b6985108446c95aca51375a4d43ab4b649e5278a9a8483f804c0c07"
+    },
+    {
+      "path": "04-knowledge/units/persons/daphne-ionides.md",
+      "before_sha256": null,
+      "after_sha256": "310a1373dc913b98b69fa76b39de5a5178774492ab14f74f16507c27eca2f937"
+    },
+    {
+      "path": "04-knowledge/units/works/francesco-fanelli-charles-i.md",
+      "before_sha256": null,
+      "after_sha256": "5ef4dac1d9f861e950ad53b03538d05f68e6b030ba31cc4110b7bf5fcdbab8bf"
+    },
+    {
+      "path": "04-knowledge/units/persons/louis-xiv.md",
+      "before_sha256": null,
+      "after_sha256": "1d05b3c455e0c190213c67193ca9e9587380071088fe018bfa40f70eaf72b927"
+    },
+    {
+      "path": "04-knowledge/units/places/versailles.md",
+      "before_sha256": null,
+      "after_sha256": "ab9d8fd4dc66c2aae4fc6d650d19e8f8ab2a4fcc79349e809e362f2ebac213e5"
+    },
+    {
+      "path": "04-knowledge/units/works/bernini-louis-xiv.md",
+      "before_sha256": null,
+      "after_sha256": "a67fa1a0ef372e43579c714968c56a545a95952f09e6f2bb90cd8ec3d2affcfe"
+    },
+    {
+      "path": "04-knowledge/units/persons/guido-cagnacci.md",
+      "before_sha256": null,
+      "after_sha256": "5216ad259e1d9fda7759bce3e564cbffd5106f913f80b1ac09ef17b616f55634"
+    },
+    {
+      "path": "04-knowledge/units/institutions/kunsthistorisches-museum.md",
+      "before_sha256": "ad6ebb57579bdc0f2a996a4eed7875234bb59d463030117b2f7946920aab1835",
+      "after_sha256": "f34055dfe248f767e1e658a060b5a70981293a4750324b18740d793c60bbdaf1"
+    },
+    {
+      "path": "04-knowledge/units/places/vienna.md",
+      "before_sha256": null,
+      "after_sha256": "fdefc3e9814aefe71ac6524f22e66d4f403cbb64227859970edf802a948ee7f8"
+    },
+    {
+      "path": "04-knowledge/units/works/guido-cagnacci-death-of-cleopatra.md",
+      "before_sha256": null,
+      "after_sha256": "1bd676677d5e4a93ed6e77d6bfa26557d46d58394008950dcd3d72020e17c5fe"
+    },
+    {
+      "path": "04-knowledge/units/persons/burnacini.md",
+      "before_sha256": null,
+      "after_sha256": "c7fd162b2ac7944163743e38747e2d6b25ca4e87e44a610f70aff12b484d9d5c"
+    },
+    {
+      "path": "04-knowledge/units/works/la-monarchia-latina-trionfante.md",
+      "before_sha256": null,
+      "after_sha256": "b088907bb938ea6aa7135f490093dc2f7c6a55e4cfc54569efedf3105897795d"
+    },
+    {
+      "path": "04-knowledge/units/works/burnacini-the-elysian-fields.md",
+      "before_sha256": null,
+      "after_sha256": "1bb6ab9df454ff83cddc33b0e3aff1deb4b8432d40ea18a0e0d0d687f477f232"
+    },
+    {
+      "path": "04-knowledge/units/persons/antonio-verrio.md",
+      "before_sha256": null,
+      "after_sha256": "079b16518722dbda66e3de9055be9f6a863afb7058e6dea393aaf6046890a645"
+    },
+    {
+      "path": "04-knowledge/units/places/hampton-court-palace.md",
+      "before_sha256": null,
+      "after_sha256": "3123f7da013c59857516d3a93cc3831e9fcec8df9fcf97e74e3a3a5d75214d42"
+    },
+    {
+      "path": "04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md",
+      "before_sha256": null,
+      "after_sha256": "9dc6a1f03e3938d1738445d0e381622b871d0cd18cbb5884b576a920aaa5f942"
+    },
+    {
+      "path": "04-knowledge/units/persons/massimo-stanzione.md",
+      "before_sha256": null,
+      "after_sha256": "51be302bb7a9a3a8af75e4eab11b46b863a598e9798d42ddafb5b2cf1b9be464"
+    },
+    {
+      "path": "04-knowledge/units/persons/jerome-bankes.md",
+      "before_sha256": null,
+      "after_sha256": "ec9e4e30816e6c13b019c11672a87bbe8ade4a9c79f275b9cf6feb19e013f8be"
+    },
+    {
+      "path": "04-knowledge/units/works/massimo-stanzione-jerome-bankes.md",
+      "before_sha256": null,
+      "after_sha256": "2342093142e1781499a20c0560550df36f5746024950e33eb1497059040fa97b"
+    },
+    {
+      "path": "04-knowledge/units/persons/carlo-dolci.md",
+      "before_sha256": null,
+      "after_sha256": "9dd55cd04d3180b6d49c543a8537aed814013f16641f23e59fb5c86891a9caf6"
+    },
+    {
+      "path": "04-knowledge/units/persons/thomas-baines.md",
+      "before_sha256": null,
+      "after_sha256": "532fe6e024b8269f3dec3470f383692d7de5b19ac14f4b4fecb47cc4e0855032"
+    },
+    {
+      "path": "04-knowledge/units/institutions/fitzwilliam-museum.md",
+      "before_sha256": null,
+      "after_sha256": "430b872bd12884f5e09b1b5a583d8a6f7afd8b76f2cb7642d8731b7f39a4be25"
+    },
+    {
+      "path": "04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md",
+      "before_sha256": null,
+      "after_sha256": "16b8c64ab71ff4e24338625bbf9c1e7c2735b7a5fffa05f000c157a3f2b43726"
+    },
+    {
+      "path": "04-knowledge/units/persons/charles-fox.md",
+      "before_sha256": null,
+      "after_sha256": "3d9210f521692e0f22ca957cca07ed50a6160cafa8c3ac0223b870561ed7a227"
+    },
+    {
+      "path": "04-knowledge/units/works/carlo-maratta-charles-fox.md",
+      "before_sha256": null,
+      "after_sha256": "474a04a950be983d043d9583bef40454453443b537c2db27590ff8dd817c3c27"
+    },
+    {
+      "path": "04-knowledge/units/persons/thomas-isham.md",
+      "before_sha256": null,
+      "after_sha256": "a6f78c26da8b4f8c6a853ebe1b24889587f648733fe67cac64727edb71f09719"
+    },
+    {
+      "path": "04-knowledge/units/persons/gyles-isham.md",
+      "before_sha256": null,
+      "after_sha256": "82fa10417ae347909aba33543fd3d66bbce76d432ac1f8dbf1ca5d74e6bbea80"
+    },
+    {
+      "path": "04-knowledge/units/places/lamport-hall.md",
+      "before_sha256": null,
+      "after_sha256": "8144ef3aac1b67afaf8d280097b84d7a4e812053a2c8951421aa566ffa14fbdf"
+    },
+    {
+      "path": "04-knowledge/units/works/carlo-maratta-sir-thomas-isham.md",
+      "before_sha256": null,
+      "after_sha256": "00bea2b03a8635463125a5f44847c997370a0a94faff4b93e241170b667e470b"
+    },
+    {
+      "path": "04-knowledge/units/persons/ribera.md",
+      "before_sha256": null,
+      "after_sha256": "5d3064f16bfddc3752f04bcadae1dce54b2470d00cc82f2b7a77496b693f4e30"
+    },
+    {
+      "path": "04-knowledge/units/institutions/museo-di-capodimonte.md",
+      "before_sha256": null,
+      "after_sha256": "313003184dbd7a1f86b443e2067d5bd764b4e44bc9d04fc8eeca552668d90eae"
+    },
+    {
+      "path": "04-knowledge/units/works/ribera-the-drunken-silenus.md",
+      "before_sha256": null,
+      "after_sha256": "87a9799a423abd171d636dfa0f26ef9965dede570d066fcb0c37bee6713577b5"
+    },
+    {
+      "path": "04-knowledge/units/persons/paolo-de-matteis.md",
+      "before_sha256": null,
+      "after_sha256": "60bdbe8542ea3bdebdfd36ae5280060e350bb2828070c0ce80d22e23fe49fe6f"
+    },
+    {
+      "path": "04-knowledge/units/places/temple-newsam.md",
+      "before_sha256": null,
+      "after_sha256": "63eaff9bd9edf5df4bc47a165a36a5c2b5204a7410a5cf2a6e34724b23bd6beb"
+    },
+    {
+      "path": "04-knowledge/units/places/leeds.md",
+      "before_sha256": null,
+      "after_sha256": "d0e834c444b6615a1773cc4c2d0f5898fc0959cce6f7d6ab0d73d10881e70e3b"
+    },
+    {
+      "path": "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
+      "before_sha256": null,
+      "after_sha256": "f3ea0704c31ee23d7cc017f99fb30cff5b36d19101c9fa813aba75a12a727644"
+    },
+    {
+      "path": "04-knowledge/units/persons/solimena.md",
+      "before_sha256": null,
+      "after_sha256": "ff0270b85d939d5725ca0fb401a977da9c1c4b011ff57a5e877badde748f0fb2"
+    },
+    {
+      "path": "04-knowledge/units/places/palazzo-buonaccorsi.md",
+      "before_sha256": null,
+      "after_sha256": "9da6bf79534821697c42c1c5ea2c7ef861258a83513a702d0ccfc9d0efe59277"
+    },
+    {
+      "path": "04-knowledge/units/places/macerata.md",
+      "before_sha256": null,
+      "after_sha256": "5bbef2747bd5b68041eb6657b6e3822fcd8531718e6d83411a99111872cc8433"
+    },
+    {
+      "path": "04-knowledge/units/works/solimena-dido-and-aeneas.md",
+      "before_sha256": null,
+      "after_sha256": "d7d906264d48a0d29fadc6d61575337b833408345836e64ac2059d23bd0cb425"
+    },
+    {
+      "path": "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
+      "before_sha256": null,
+      "after_sha256": "ce7ceb848705d1eff47689a5513629f424550cfc6f64f6ab7e0fc284538e84a8"
+    },
+    {
+      "path": "04-knowledge/units/persons/juan-de-pareja.md",
+      "before_sha256": null,
+      "after_sha256": "4c76de588e1d26dd6ff7968f0827718bd2d1e11b51eb2fcaaa7b1ebe5fd2444f"
+    },
+    {
+      "path": "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
+      "before_sha256": "e998eba6f5e4dfc6e6c7f32a25b34eea381576477ab75219a69a431a4dd2438d",
+      "after_sha256": "1acf13a45c2853cf2819c9aec352017f2f55f2b3d0c3255e9feaf3b4e6b71e30"
+    },
+    {
+      "path": "04-knowledge/units/places/new-york.md",
+      "before_sha256": null,
+      "after_sha256": "397ad3710ada2934446c7d591bc53820b3beb552ea6265c455c77df6539a47af"
+    },
+    {
+      "path": "04-knowledge/units/works/velasquez-juan-de-pareja.md",
+      "before_sha256": null,
+      "after_sha256": "98cacd2152ab44994d57d72c194d1602de4bf167bf852f89837896c3cd7b6e7d"
+    },
+    {
+      "path": "04-knowledge/units/persons/rembrandt.md",
+      "before_sha256": "a74fd9989ac00bc457667ad2a860bf0763804431d1583dfea30a4d5bcdb22230",
+      "after_sha256": "6fa9421bd886731f649e31e0233f009f19e15c5e619e9e110159d2d4d1c1cf03"
+    },
+    {
+      "path": "04-knowledge/units/persons/aristotle.md",
+      "before_sha256": null,
+      "after_sha256": "506e820a3981cf9c8f2234d8a20afcecc3f78ecacb010584a5e6947637b34cec"
+    },
+    {
+      "path": "04-knowledge/units/persons/homer.md",
+      "before_sha256": null,
+      "after_sha256": "6d52840c579b8b8dd9e9d4d0e36fedc09a2d436234a66875fe971f3c0cbffcd1"
+    },
+    {
+      "path": "04-knowledge/units/works/rembrandt-aristotle-contemplating-the-bust-of-homer.md",
+      "before_sha256": null,
+      "after_sha256": "beded727f11750edc1eae5219ddfe7ad68541de0409c26292009506b106c2538"
+    },
+    {
+      "path": "04-knowledge/units/persons/peter-paul-rubens.md",
+      "before_sha256": "1a0ae32debef4ef00351e2ab389a49646bb1578837b9f60591c5cbdc35602fb3",
+      "after_sha256": "25e9c3f22a8f97f5efdd32053abc5c1c7d4d81e8d77fd36edba6e8f23db175c6"
+    },
+    {
+      "path": "04-knowledge/units/institutions/national-gallery-of-scotland.md",
+      "before_sha256": null,
+      "after_sha256": "65cc45fc312478c342aa3ecd64a2e04b872cb278d5139d68cb447adb91f3ff92"
+    },
+    {
+      "path": "04-knowledge/units/works/rubens-the-feast-of-herod.md",
+      "before_sha256": null,
+      "after_sha256": "1db5a4c4392c766bc276b76192332139daf738e390b74e564b0821db5204c330"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-petrucci.md",
+      "before_sha256": null,
+      "after_sha256": "be274402746eb5189df904d61c8e505c177137012972983938a316b3babf21a3"
+    },
+    {
+      "path": "04-knowledge/units/works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md",
+      "before_sha256": null,
+      "after_sha256": "7444e1bcd370cad4018e3d875efe983f6f705b6e7d862f5e380041d05826367a"
+    },
+    {
+      "path": "04-knowledge/units/institutions/uffizi-gallery.md",
+      "before_sha256": "01e97618d5ff2ef17a5eea1d3b0e9096357a7d5d3d926c79dc4ba16797aeb5fe",
+      "after_sha256": "485fac6c45b119bbeb03d2ed36d5b0d3df44200be224f7e788d425f3452f4588"
+    },
+    {
+      "path": "04-knowledge/units/works/g-m-crespi-girl-at-her-toilet.md",
+      "before_sha256": null,
+      "after_sha256": "615dbf08de1b2eaf06d33a094940cd204934513b89728d524f6e72e75b9d2088"
+    },
+    {
+      "path": "04-knowledge/units/works/g-m-crespi-the-painter-s-family.md",
+      "before_sha256": null,
+      "after_sha256": "6aaad760d5905e5aa277c5e431521ccfff497c1cd194affec5a1cdbea4abe2a5"
+    },
+    {
+      "path": "04-knowledge/units/places/poggio-a-caiano.md",
+      "before_sha256": null,
+      "after_sha256": "d0b97ec0e0f37099fca792e2bd359ac72c8de1092a2938c5105fb898b59b0cc1"
+    },
+    {
+      "path": "04-knowledge/units/works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md",
+      "before_sha256": null,
+      "after_sha256": "491ed11c3eed842ba728d207ff1e95fa368551325783bf180cbc75117c82dda4"
+    },
+    {
+      "path": "04-knowledge/units/persons/baldassare-franceschini.md",
+      "before_sha256": null,
+      "after_sha256": "a464b6e8472b58267262a99578894b02121e184c427c0065df57c14d6de0c289"
+    },
+    {
+      "path": "04-knowledge/units/works/baldassare-franceschini-la-burla-del-piovano-arlotto.md",
+      "before_sha256": null,
+      "after_sha256": "cc7a4f963b884b17a131cc4b44243b7ac98251c938a56a4c971ade118ad54a13"
+    },
+    {
+      "path": "04-knowledge/units/persons/sebastiano-ricci.md",
+      "before_sha256": "9e96bc1a948cdd2d1e9750917a2203baa15711e909acfa53915feea2ea2ea238",
+      "after_sha256": "1ae5dbb81befbdc05d985433afbdc870df0722fc5522c968414c48eb7801d762"
+    },
+    {
+      "path": "04-knowledge/units/works/sebastiano-ricci-rape-of-europa.md",
+      "before_sha256": null,
+      "after_sha256": "2b4a0183f9cea546b02f6cf01e7bfbfdaad03a70e48fa731559ebe50efc78ae5"
+    },
+    {
+      "path": "04-knowledge/units/works/sebastiano-ricci-pan-and-syrinx.md",
+      "before_sha256": null,
+      "after_sha256": "22a4e34bc7c3fe4fb5ffd1b8ee448e6d2285c24e9d22920b4c4185c4b6b4d945"
+    },
+    {
+      "path": "04-knowledge/units/works/sebastiano-ricci-venus-and-adonis.md",
+      "before_sha256": null,
+      "after_sha256": "f664ac86c1ad9a49079f9790df7f2c031cbdab11ff99f3986dc1cb9bd035656b"
+    },
+    {
+      "path": "04-knowledge/units/persons/a-d-gabbiani.md",
+      "before_sha256": null,
+      "after_sha256": "2a552b354be16aee655501da887a6bb11a20eaa14f6ef3559715965efa20e521"
+    },
+    {
+      "path": "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
+      "before_sha256": null,
+      "after_sha256": "aece6d5b8cf1713c7d6b8898b87f8300fe85c1dbefb2b41fa2913442fa60a139"
+    },
+    {
+      "path": "04-knowledge/units/persons/giannantonio-fumiani.md",
+      "before_sha256": null,
+      "after_sha256": "863252ac9124c1e4be83a0d9277d34241714e4afc49d7a6cb96a141337b3b8ff"
+    },
+    {
+      "path": "04-knowledge/units/works/giannantonio-fumiani-the-stoning-of-zechariah.md",
+      "before_sha256": null,
+      "after_sha256": "4bac5f56062eb3740ff7b4cac891983888ce744b09c3324bd4b1e8c741f604d7"
+    },
+    {
+      "path": "04-knowledge/units/places/s-maria-del-giglio.md",
+      "before_sha256": null,
+      "after_sha256": "2d370d529811fb8ee6be333e2aab549ef3b7d1a04cc7646f6d770eb1cc065c80"
+    },
+    {
+      "path": "04-knowledge/units/works/facade-of-s-maria-del-giglio.md",
+      "before_sha256": null,
+      "after_sha256": "a6f18ffdfbdc464b6b3aaae692889c758f3f4d9cf86959e10acd45681d9a920b"
+    },
+    {
+      "path": "04-knowledge/units/persons/giovanni-pesaro.md",
+      "before_sha256": null,
+      "after_sha256": "66c4fb5c96e3871b16033182051f938177feecbff9d4bf3e712d97d2f1e41d94"
+    },
+    {
+      "path": "04-knowledge/units/places/church-of-the-frari.md",
+      "before_sha256": null,
+      "after_sha256": "88c4cdd9e67580fb6cdbb92cae9b3d1ba73ef886003ed992d43c63c3913aa575"
+    },
+    {
+      "path": "04-knowledge/units/works/monument-to-doge-giovanni-pesaro.md",
+      "before_sha256": null,
+      "after_sha256": "b7bc0af2eb52f4bd7ca2c4480853276e23a04d64f552afa977fc7c0c673c7a3a"
+    },
+    {
+      "path": "04-knowledge/units/places/palazzo-ducale.md",
+      "before_sha256": null,
+      "after_sha256": "fae386ea87b43aeae6cdb133e3b462edf45823f5828ad7f711bc55e1d7405b20"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-neptune-paying-homage-to-venice.md",
+      "before_sha256": null,
+      "after_sha256": "1a60c8aa94bc95d36c6a346b4419fc4f3a75a40e139992f56d9a96674550bf47"
+    },
+    {
+      "path": "04-knowledge/units/persons/niccolo-bambini.md",
+      "before_sha256": null,
+      "after_sha256": "be43442550012243fa923b0025654662fc31864a24062e5ab372ae86a8ec54bb"
+    },
+    {
+      "path": "04-knowledge/units/places/ca-pesaro.md",
+      "before_sha256": null,
+      "after_sha256": "cb403dfb7252c8e08849c35008c589af74e2e67fc8d9e177b63f669bbc714862"
+    },
+    {
+      "path": "04-knowledge/units/works/niccolo-bambini-allegory-of-venice.md",
+      "before_sha256": null,
+      "after_sha256": "2084efd29040e9cd889538a536382ea0e6d24d6bb358ba0188b6478367acfacc"
+    },
+    {
+      "path": "04-knowledge/units/families/rezzonico-family.md",
+      "before_sha256": null,
+      "after_sha256": "0d5a4d2bb1c1fb43cfaf348e0f9a92a9e96c0f375c1d43e16cdff5075bb38bb3"
+    },
+    {
+      "path": "04-knowledge/units/places/ca-rezzonico.md",
+      "before_sha256": null,
+      "after_sha256": "9b58e8208af224d48e8321548f5176ed8e267f83cebc4d60492a388fd20ee744"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-marriage-allegory-of-the-rezzonico-family.md",
+      "before_sha256": null,
+      "after_sha256": "65652354010027bb82bef553d06d0ab0dbae8c5998f6ff4833a9c7b2fc14da56"
+    },
+    {
+      "path": "04-knowledge/units/families/pisani-family.md",
+      "before_sha256": null,
+      "after_sha256": "7beaabef29cb2deb483f1dfa6e73c028adb12861142b74919ce10a6963ef3c70"
+    },
+    {
+      "path": "04-knowledge/units/places/villa-pisani.md",
+      "before_sha256": null,
+      "after_sha256": "68223242d1c23426f5b2513b0307d12bf81289b5107c52515e3d85dc20aad061"
+    },
+    {
+      "path": "04-knowledge/units/places/stra.md",
+      "before_sha256": null,
+      "after_sha256": "db3b00cbd4ca6f13418aa7eaf768d629c06f87e9c25bb689aa74a4cd2f5ef957"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-glorification-of-the-pisani-family.md",
+      "before_sha256": null,
+      "after_sha256": "c9408111025c8bc53dfb292823ee68382bdfed630b0c2e31804048387bcca8ee"
+    },
+    {
+      "path": "04-knowledge/units/institutions/north-carolina-museum-of-art.md",
+      "before_sha256": null,
+      "after_sha256": "0e60ffd9088d40ecbbbd9c73953f5fcd1c38572b5332d67e37bccabdf8c06f6b"
+    },
+    {
+      "path": "04-knowledge/units/places/raleigh.md",
+      "before_sha256": null,
+      "after_sha256": "a4035c2871bf7c4578c0183df70d23269cd04f916ecf68333b39cc2f0cbf446f"
+    },
+    {
+      "path": "04-knowledge/units/works/pompeo-batoni-the-triumph-of-venice.md",
+      "before_sha256": null,
+      "after_sha256": "22aef5c29d66fd78af8c231af1ccd1d70cb8d26d8cd5e8a02a76fca28dca20ee"
+    },
+    {
+      "path": "04-knowledge/units/persons/pellegrini.md",
+      "before_sha256": null,
+      "after_sha256": "185fde6295fd619175d01fdd06b1424d15099d3536b08c1791b324336815190f"
+    },
+    {
+      "path": "04-knowledge/units/persons/pierre-motteux.md",
+      "before_sha256": null,
+      "after_sha256": "8c59a81afa169c6bf3f7f2fb764de29d608e62903bd42c34047e17a7957ac620"
+    },
+    {
+      "path": "04-knowledge/units/institutions/british-museum.md",
+      "before_sha256": null,
+      "after_sha256": "00ecf606736d7e609c797b23cc2767ac8059b26b94c118270c85cada5827679a"
+    },
+    {
+      "path": "04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md",
+      "before_sha256": null,
+      "after_sha256": "da9276eafa473c0e17cd9728f41780dd57d48bdc91e96455684cf872850151db"
+    },
+    {
+      "path": "04-knowledge/units/persons/marco-ricci.md",
+      "before_sha256": null,
+      "after_sha256": "3714ef0d57acb82fb6a74a7594b1dfd33f291729d524384413d2a9a135dcb887"
+    },
+    {
+      "path": "04-knowledge/units/persons/watkin-williams-wynn.md",
+      "before_sha256": null,
+      "after_sha256": "df04a64df49c8973ed4e10f231a64c969e70cbf616564ab06c2de8bd12c6ccff"
+    },
+    {
+      "path": "04-knowledge/units/places/st-asaph.md",
+      "before_sha256": null,
+      "after_sha256": "d80664ec00ce1b26730acf0df0fac0bbfd613529bd1836dcff54e3163978da0f"
+    },
+    {
+      "path": "04-knowledge/units/works/marco-ricci-an-operatic-rehearsal.md",
+      "before_sha256": null,
+      "after_sha256": "68044acc088a44537a3804151c2088c3aa451f2e8a66da4922da18f9dbcc7777"
+    },
+    {
+      "path": "04-knowledge/units/persons/marco-pitteri.md",
+      "before_sha256": null,
+      "after_sha256": "09807e2f23286ad51e71ca5cfd88701bcd96d3389c594f9fb3fe38a3bbe7666a"
+    },
+    {
+      "path": "04-knowledge/units/persons/giuseppe-angeli.md",
+      "before_sha256": null,
+      "after_sha256": "eeb2bde75468f07e4fadd701ac587e71d7ccc883fed2548f9bdb10608c8fc2d6"
+    },
+    {
+      "path": "04-knowledge/units/persons/flaminio-corner.md",
+      "before_sha256": null,
+      "after_sha256": "a63bc95a1526a6f8da05edba6323060d8ecdbe37f138a765a2695c2437a974f2"
+    },
+    {
+      "path": "04-knowledge/units/works/marco-pitteri-flaminio-corner.md",
+      "before_sha256": null,
+      "after_sha256": "d5188a0ad061a16fc6487d2a5baa5fe8e99b5c5235c2668d4f58e53fe04071cf"
+    },
+    {
+      "path": "04-knowledge/units/persons/gian-antonio-faldoni.md",
+      "before_sha256": null,
+      "after_sha256": "a9509ae27a8aae7af463b61841e302503b0c9580019635c7322452b8ef49bdcf"
+    },
+    {
+      "path": "04-knowledge/units/persons/b-nazari.md",
+      "before_sha256": null,
+      "after_sha256": "bff5a9a6073086e255c35b7accf2022de677bcf3d6f6fa11b9cbe998d4af9e27"
+    },
+    {
+      "path": "04-knowledge/units/persons/zaccaria-sagredo.md",
+      "before_sha256": null,
+      "after_sha256": "7fac7e7024a420d21063c35716c60855a3a55c4e66fa0a4da0b03ebbfa917358"
+    },
+    {
+      "path": "04-knowledge/units/institutions/museo-correr.md",
+      "before_sha256": null,
+      "after_sha256": "f6ba52355945b09083e92a4364081068947e761347bc918d8041070e0dd62a54"
+    },
+    {
+      "path": "04-knowledge/units/works/gian-antonio-faldoni-zaccaria-sagredo.md",
+      "before_sha256": null,
+      "after_sha256": "5afa199162f90976f110c750a7f7b551e1f7e43007e3a2e621c9c13e0ac1e05e"
+    },
+    {
+      "path": "04-knowledge/units/persons/alessandro-longhi.md",
+      "before_sha256": null,
+      "after_sha256": "6b811c08d96000dec58b5c526bc08cd4a32bcdafa89ee478019e4b47bd2eb207"
+    },
+    {
+      "path": "04-knowledge/units/persons/carlo-lodoli.md",
+      "before_sha256": null,
+      "after_sha256": "3a009ef7934272841798d75f0f46f651d58578ed7c9c6229c0191f9ea1110a52"
+    },
+    {
+      "path": "04-knowledge/units/works/alessandro-longhi-carlo-lodoli.md",
+      "before_sha256": null,
+      "after_sha256": "8111c1295539dc27f0568e7d5321c24cfbc6ee9cbc8fd5e82c09f9760b3e0643"
+    },
+    {
+      "path": "04-knowledge/units/works/francesco-algarotti.md",
+      "before_sha256": null,
+      "after_sha256": "c8feb1cf8c4af4adcb4962742458e9e8f90d0f5b361a7c42ae48a2947dde337c"
+    },
+    {
+      "path": "04-knowledge/units/places/palatinate.md",
+      "before_sha256": null,
+      "after_sha256": "7b0d2a102ef40d078c22045e436719d2c81d7a548e901cd18dcf15dda3489713"
+    },
+    {
+      "path": "04-knowledge/units/institutions/bayerischen-staatsgemaldesammlungen.md",
+      "before_sha256": null,
+      "after_sha256": "aa579cc18cad0a01897929d67e58a1acfc47309292ab4bc43367486c25e98aea"
+    },
+    {
+      "path": "04-knowledge/units/places/munich.md",
+      "before_sha256": null,
+      "after_sha256": "81534cfc65193ae9ed612b1e601193c64399c7f079bd0f4419c35493d6072d0b"
+    },
+    {
+      "path": "04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md",
+      "before_sha256": null,
+      "after_sha256": "8df1af27c3046719e028e6c53b2a96af70d350b00a66372fee0be4d526c4ddeb"
+    },
+    {
+      "path": "04-knowledge/units/persons/amigoni.md",
+      "before_sha256": null,
+      "after_sha256": "58e3e913561fc461d87c134ead2022f2444d80846d99dc2353dbb118a4319425"
+    },
+    {
+      "path": "04-knowledge/units/places/moor-park.md",
+      "before_sha256": null,
+      "after_sha256": "16f874a151e2b7f1f1465ff74037ca34e8193344862b080978697fa793a2c5dd"
+    },
+    {
+      "path": "04-knowledge/units/works/amigoni-jupiter-and-io.md",
+      "before_sha256": null,
+      "after_sha256": "6ccd6c5f5805c761a440609fb4af3940c7ba7d03ef4148b079e3ded82c06ea72"
+    },
+    {
+      "path": "04-knowledge/units/places/residenz-wurzburg.md",
+      "before_sha256": null,
+      "after_sha256": "0d49f986a9ca83fb0134b842cbb2a1cd33538872f723e1399eff268d43618e5b"
+    },
+    {
+      "path": "04-knowledge/units/places/wurzburg.md",
+      "before_sha256": null,
+      "after_sha256": "54beee967029c0ac558e8bb399fdb4f922df6a404424926c06e7ba2e8941e8e7"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md",
+      "before_sha256": null,
+      "after_sha256": "4f5356f2626eb7a8726a9cafa4d6795e4a0374b8ab8491064035faa24dd849f0"
+    },
+    {
+      "path": "04-knowledge/units/persons/canaletto.md",
+      "before_sha256": null,
+      "after_sha256": "d2e05d8c2f4bebc3c58e13dc26a1445f31f54ce7d04be58aa3a58a4f3932cc44"
+    },
+    {
+      "path": "04-knowledge/units/places/badminton.md",
+      "before_sha256": null,
+      "after_sha256": "0e41439078923e97e9ccace2ef7984af0577745b9622a8885e330e63dea9c49c"
+    },
+    {
+      "path": "04-knowledge/units/works/canaletto-view-from-badminton-1748.md",
+      "before_sha256": null,
+      "after_sha256": "b32169694c387ee5fe9213be937a54c1469f98f149174a3393c813c252596957"
+    },
+    {
+      "path": "04-knowledge/units/persons/p-van-bleek.md",
+      "before_sha256": null,
+      "after_sha256": "2208b9baa8b8b28c01afc4927af7ed13f8f83262d4ff7b11ded060956956edac"
+    },
+    {
+      "path": "04-knowledge/units/persons/owen-mcswiny.md",
+      "before_sha256": null,
+      "after_sha256": "fac4dc06b84677bdc5d84ebf986fd6fa5d372d48d7e41c47e0e39c7b7c3024fc"
+    },
+    {
+      "path": "04-knowledge/units/institutions/national-portrait-gallery.md",
+      "before_sha256": null,
+      "after_sha256": "cbd96cf3c9e735f71e4533ff172643c237455f3725d7b19d05a9f9d249975d98"
+    },
+    {
+      "path": "04-knowledge/units/works/p-van-bleek-owen-mcswiny.md",
+      "before_sha256": null,
+      "after_sha256": "d343e37c894d5c3991a0c80e515756408cdb50b02a7b7fdc6f5dfc588733dad5"
+    },
+    {
+      "path": "04-knowledge/units/persons/cimaroli.md",
+      "before_sha256": null,
+      "after_sha256": "cce29f85bd68155e884f8395057f8fa0993e03f4a565fc6781d7149f411dc500"
+    },
+    {
+      "path": "04-knowledge/units/persons/pittoni.md",
+      "before_sha256": null,
+      "after_sha256": "8b64d69bdd78e071829eba8bef701300bf75906c5488d8d3034c2fefa67c3b7a"
+    },
+    {
+      "path": "04-knowledge/units/persons/archbishop-tillotson.md",
+      "before_sha256": null,
+      "after_sha256": "06b4b4c737312ba7acc539ff779ee684797565809f25f87924279cfec2fec026"
+    },
+    {
+      "path": "04-knowledge/units/persons/peter-moores.md",
+      "before_sha256": null,
+      "after_sha256": "3c93ba66c9c84a5fda7e2ae254a93e73f51a32980b418f47a1f774b758f5dcb6"
+    },
+    {
+      "path": "04-knowledge/units/places/liverpool.md",
+      "before_sha256": null,
+      "after_sha256": "4699560ddf7d293921f36b556cd5e20a4fa84fedfea6c7faab66d1aac4b00da8"
+    },
+    {
+      "path": "04-knowledge/units/works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md",
+      "before_sha256": null,
+      "after_sha256": "1cccf48ab6d4e09222f1e3e04e243b6a790e0b89903fdd7b1a074f978a8a4394"
+    },
+    {
+      "path": "04-knowledge/units/persons/piazzetta.md",
+      "before_sha256": null,
+      "after_sha256": "55238d74407ca2a1c9a4cc9173d1b96f9ebe553e5891e18e5708ed13730e5894"
+    },
+    {
+      "path": "04-knowledge/units/persons/marshal-schulenburg.md",
+      "before_sha256": null,
+      "after_sha256": "73ceba5a53c34376dc3b552b4a94b0b83db77026646ddeab520df2e732bd3471"
+    },
+    {
+      "path": "04-knowledge/units/places/castello-sforzesco.md",
+      "before_sha256": null,
+      "after_sha256": "dd4cd7c430b2b18975501705e5d00a9d4e7e4567106d2046c8be9ed7e6edae04"
+    },
+    {
+      "path": "04-knowledge/units/places/milan.md",
+      "before_sha256": "672d7609f9646331f1d5aba31ca7852191ed98424e033ce15aa891a661dcceb2",
+      "after_sha256": "8eafed2535d3f739afcfa88670d9a0d8faaa06d28c95a4f246262bf297fc45da"
+    },
+    {
+      "path": "04-knowledge/units/works/piazzetta-marshal-schulenburg.md",
+      "before_sha256": null,
+      "after_sha256": "0afade288f05cfb5cf68ddc71027468d6c421174f1a75c445d3ec3d14ba58fec"
+    },
+    {
+      "path": "04-knowledge/units/persons/sigismund-streit.md",
+      "before_sha256": null,
+      "after_sha256": "98dbbb0442ca53f39ac8773c4b0ad26e36041127192df5fe7896749a6517550f"
+    },
+    {
+      "path": "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
+      "before_sha256": null,
+      "after_sha256": "b4a5bce8cd9ba132c802c980bd22cb5bf9513d2eda69bb74571a140f0d436350"
+    },
+    {
+      "path": "04-knowledge/units/places/berlin.md",
+      "before_sha256": null,
+      "after_sha256": "dc59d3bfffa1d9f4dd254798256f25122a986f2914f7b217be55659ca0402b6a"
+    },
+    {
+      "path": "04-knowledge/units/works/amigoni-sigismund-streit.md",
+      "before_sha256": null,
+      "after_sha256": "377d5f224b475305c281282897b04a4c5a79b2e827616e0788fbdf92fecb91c1"
+    },
+    {
+      "path": "04-knowledge/units/institutions/wallraf-richartz-museum.md",
+      "before_sha256": null,
+      "after_sha256": "879944f904d81ac9f798f1202cc1a937bd2a6b043f4ef4f03df0c879689b09d2"
+    },
+    {
+      "path": "04-knowledge/units/places/cologne.md",
+      "before_sha256": null,
+      "after_sha256": "a69590c3b8203eeff862a0794c8de29e521bcf2a969550bb789278f8ba971316"
+    },
+    {
+      "path": "04-knowledge/units/works/piazzetta-idyll.md",
+      "before_sha256": null,
+      "after_sha256": "5ff2619e9172c017c1788e4412e763ce5bcf1d80448bb46ebeb0c0c8eef05279"
+    },
+    {
+      "path": "04-knowledge/units/works/canaletto-dedicatory-frontispiece-to-etchings.md",
+      "before_sha256": null,
+      "after_sha256": "37b6250fc3442440df24d6392610336b475ed5096bc17d26007c70b6087aa22f"
+    },
+    {
+      "path": "04-knowledge/units/persons/bartolozzi.md",
+      "before_sha256": null,
+      "after_sha256": "0e2a8d2f8fe81d296d300a7fa17e7d9c8e4eb651a2ea30ff09897a9da1449fbe"
+    },
+    {
+      "path": "04-knowledge/units/works/marco-ricci-village-scene.md",
+      "before_sha256": null,
+      "after_sha256": "d7d7123fc5db12654c751916676f3639d51be9581b95b8a33e065d96f6033976"
+    },
+    {
+      "path": "04-knowledge/units/persons/marieschi.md",
+      "before_sha256": null,
+      "after_sha256": "7ed9f8491bbc2855d1b965c5c2b1bec10e4065fac3bb4ce66a25aa0b56521c23"
+    },
+    {
+      "path": "04-knowledge/units/places/church-of-s-rocco.md",
+      "before_sha256": null,
+      "after_sha256": "b5f5705f6bce2eb36d7aab279ba31829769013b7eb4cfb04018cf6a71a6ceeaf"
+    },
+    {
+      "path": "04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md",
+      "before_sha256": null,
+      "after_sha256": "afa2f94b148f67704b3a5681a9b161a82c92e450665908de8228a36b3826ffa8"
+    },
+    {
+      "path": "04-knowledge/units/persons/albrizzi.md",
+      "before_sha256": null,
+      "after_sha256": "cc91900591eeaca56655eff12361884c8467a8b3327e67594ec6dffffe42bbb8"
+    },
+    {
+      "path": "04-knowledge/units/archives/gerusalemme-liberata-illustrations-1745.md",
+      "before_sha256": null,
+      "after_sha256": "557bf0d450f6866ae87cfb0a0bea15295b1167a9c1b2f473d28649306a81614e"
+    },
+    {
+      "path": "04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md",
+      "before_sha256": null,
+      "after_sha256": "286219910b7da2e4b5a861473be92499c0e07f10c42f5680dd3cb3edadce94c0"
+    },
+    {
+      "path": "04-knowledge/units/persons/pietro-antonio-novelli.md",
+      "before_sha256": null,
+      "after_sha256": "0ecd8560f9ef16b0da15d24aeb921d5851b9aeeff3d80ef7ce5e7f2ff74aa317"
+    },
+    {
+      "path": "04-knowledge/units/persons/goldoni.md",
+      "before_sha256": null,
+      "after_sha256": "02218585e4147ca3703ad27ec312f19687c42c5dcae1f45ad5ef490d1abd907e"
+    },
+    {
+      "path": "04-knowledge/units/persons/pasquali.md",
+      "before_sha256": null,
+      "after_sha256": "607c31eadd515cdc2f13715e1bf07887992ba36e16bdfa919b7c118e4d2ec4a9"
+    },
+    {
+      "path": "04-knowledge/units/archives/goldoni-opere-vol-2-1761.md",
+      "before_sha256": null,
+      "after_sha256": "10c60ca552bf983cc30fdfcf56a0cb20e728c742f4eea32c99e409a48f423cd9"
+    },
+    {
+      "path": "04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md",
+      "before_sha256": null,
+      "after_sha256": "4504685b3f96b78b71bb2e5a2af4b316028d1b0d5d23339512ed91353c498181"
+    },
+    {
+      "path": "04-knowledge/units/persons/giuseppe-zocchi.md",
+      "before_sha256": null,
+      "after_sha256": "35eddb62bc2c1df9e267526745a69fcfcca317a2b41e521c569059568d584a26"
+    },
+    {
+      "path": "04-knowledge/units/persons/a-m-zanetti-the-elder.md",
+      "before_sha256": null,
+      "after_sha256": "b8887f3ad6e6bded76f367f8fd947ac97b7b1704e65ef2d4891a5551573f9af8"
+    },
+    {
+      "path": "04-knowledge/units/persons/marchese-gerini.md",
+      "before_sha256": null,
+      "after_sha256": "1135f4d64de7e33cdec61470853807d61e449106a34147c7ee6a96f4074587e7"
+    },
+    {
+      "path": "04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md",
+      "before_sha256": null,
+      "after_sha256": "3b686ee07befe8487e2df4b8ca864d35ab6f44eb8c601396eea3fd0e284427bf"
+    },
+    {
+      "path": "04-knowledge/units/persons/g-m-sasso.md",
+      "before_sha256": null,
+      "after_sha256": "c2e32a87685c24687c8c74d9c2f6bd38dbaf1bcf01e670d81ca985b2ba94db7b"
+    },
+    {
+      "path": "04-knowledge/units/works/alessandro-longhi-g-m-sasso.md",
+      "before_sha256": null,
+      "after_sha256": "8f7756443c0fdae14bacec3075dcb3c5fcc088a45f0e2d24d46fd6a542e17d39"
+    },
+    {
+      "path": "04-knowledge/units/persons/canova.md",
+      "before_sha256": null,
+      "after_sha256": "50aaa1fd6d23ea1c3524080fb867ae09d7ce343075d0cc9075a318d3f3393542"
+    },
+    {
+      "path": "04-knowledge/units/persons/amadeo-swajer.md",
+      "before_sha256": null,
+      "after_sha256": "3cb64e5538376088e10fb97b636403f5d688b67a13fd1decdab3db3dc1903ff6"
+    },
+    {
+      "path": "04-knowledge/units/works/canova-amadeo-swajer.md",
+      "before_sha256": null,
+      "after_sha256": "3234c891cc09b5e818e28ca4a6bfe18c6dc679c50bce4e1817e5a8f5f81ca06f"
+    },
+    {
+      "path": "04-knowledge/units/persons/bernardino-castelli.md",
+      "before_sha256": null,
+      "after_sha256": "add424e40e7a6e22bda3ee595247600e488755e78138bed9a0f5484939c33e5e"
+    },
+    {
+      "path": "04-knowledge/units/persons/teodoro-correr.md",
+      "before_sha256": null,
+      "after_sha256": "73e0a2c64831f7fd3baa159cad43b2ed58e6fc23b14a81b92c8ee2d4203c5289"
+    },
+    {
+      "path": "04-knowledge/units/works/bernardino-castelli-teodoro-correr.md",
+      "before_sha256": null,
+      "after_sha256": "e714cf241dec8a87b0f8d27266a3b201555efa95cec7122a46308f8af1bf138f"
+    },
+    {
+      "path": "04-knowledge/units/persons/g-volpato.md",
+      "before_sha256": null,
+      "after_sha256": "7251933f37b569a2c3ebef5d8e52dbff8759bc72c08e6870f7eae39b5502a2b1"
+    },
+    {
+      "path": "04-knowledge/units/works/tomb-of-francesco-algarotti.md",
+      "before_sha256": null,
+      "after_sha256": "cf8e9ddecc8a899a547e17d183da8be8486df95bda1c9d875be70271b30e9b21"
+    },
+    {
+      "path": "04-knowledge/units/places/pisa.md",
+      "before_sha256": null,
+      "after_sha256": "049ef8baaaf5aa4d66666c4d9e55a752a490dd6d86e7e629752ee0a2ecb3a2a4"
+    },
+    {
+      "path": "04-knowledge/units/works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md",
+      "before_sha256": null,
+      "after_sha256": "6ca7c5b7406c6811a571ea8ec0e4d61add24d7a482d3cb1f0f86504f5a1d51c3"
+    },
+    {
+      "path": "04-knowledge/units/institutions/musee-cognacq-jay.md",
+      "before_sha256": null,
+      "after_sha256": "afa268d16cef02ccb69a60e4b5942e88f9c62756bacfb5062f77f2e1dd987d48"
+    },
+    {
+      "path": "04-knowledge/units/places/paris.md",
+      "before_sha256": null,
+      "after_sha256": "15161c5468861666a988d4294e1867ddde0fbafae92dd03eba77923c47365cd2"
+    },
+    {
+      "path": "04-knowledge/units/institutions/national-gallery-of-victoria.md",
+      "before_sha256": null,
+      "after_sha256": "81fcb7c4d915b67b6a7a5b4f2a37e2af6838c81b317499c313deab1c879ca5f8"
+    },
+    {
+      "path": "04-knowledge/units/places/melbourne.md",
+      "before_sha256": null,
+      "after_sha256": "df5b8d209b653336934b326676e7b31bff450def64770a8005d97135b8a2765f"
+    },
+    {
+      "path": "04-knowledge/units/places/pra-della-valle.md",
+      "before_sha256": null,
+      "after_sha256": "793782536e4faf223d0b55ccec3aabe5b7617d268268b9c7f74b660e048ffbc8"
+    },
+    {
+      "path": "04-knowledge/units/places/padua.md",
+      "before_sha256": null,
+      "after_sha256": "2fe74fff20033c16a922a1d9f561fe21c0d3de3e997fca00433672486057f379"
+    },
+    {
+      "path": "04-knowledge/units/works/canaletto-pra-della-valle-padua.md",
+      "before_sha256": null,
+      "after_sha256": "9ebe2f13b0211a1a4caf60f2ed373745804efcba59e35a0a49dc2de219a1e465"
+    },
+    {
+      "path": "04-knowledge/units/persons/domenico-cerato.md",
+      "before_sha256": null,
+      "after_sha256": "eee327070f39af8eedb0a4f11a7fc11dbf3eabbff37d9ecccac82ef94d28f82a"
+    },
+    {
+      "path": "04-knowledge/units/works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md",
+      "before_sha256": null,
+      "after_sha256": "4f296a775ae736c6144955dd5fe849b07d6cc7533fa880717e272dc84babfa37"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-guardi.md",
+      "before_sha256": null,
+      "after_sha256": "ce710d21271c1728b238f7129b82a8676e3145c407ea2aa33397790603eb48d6"
+    },
+    {
+      "path": "04-knowledge/units/persons/john-strange.md",
+      "before_sha256": null,
+      "after_sha256": "0d4d74f33309a476b4a1f5e0928e444f4dc664c67e9bc0f2687461ab66d853ab"
+    },
+    {
+      "path": "04-knowledge/units/places/paese.md",
+      "before_sha256": null,
+      "after_sha256": "3e0165962247e9c0c635ee8a0db8c58addaa4869bb6980e81c053ace3987cb36"
+    },
+    {
+      "path": "04-knowledge/units/places/treviso.md",
+      "before_sha256": null,
+      "after_sha256": "f019496fbc4e103c4a5191d4fd01a5a59b518716b86ad53b11ad7f2e8395e9c7"
+    },
+    {
+      "path": "04-knowledge/units/works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md",
+      "before_sha256": null,
+      "after_sha256": "1dcebc100b7559bba88ed0830572176e82b6ae08cfbf5c00d15f67f53e2282d6"
+    },
+    {
+      "path": "04-knowledge/units/persons/pier-francesco-mola.md",
+      "before_sha256": "9dd3e16442e2d17c0fb4c1dcf2d376b5c809e2271eb93b5f1fbdd2107be7b9f6",
+      "after_sha256": "88b47741bcf8b483532f20806c99afba0a568165c03c1904f20bbda6ed7a2eeb"
+    },
+    {
+      "path": "04-knowledge/units/persons/simonelli.md",
+      "before_sha256": null,
+      "after_sha256": "bc499b0d8508cdb47ce3f82a943baa2409fd3c62b444b9a6c2dbff985225dc2a"
+    },
+    {
+      "path": "04-knowledge/units/persons/vitale-bloch.md",
+      "before_sha256": null,
+      "after_sha256": "4de5c3448ebae2af393bd12eeb97e3c14827ccae56f4e53e4774be8472b8829c"
+    },
+    {
+      "path": "04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md",
+      "before_sha256": null,
+      "after_sha256": "9ef7ee24e3121e199fbd3ea03b9fdf5ba54dc2e1d761f8ccf3bf7d14ec469255"
+    },
+    {
+      "path": "04-knowledge/units/persons/agostino-masucci.md",
+      "before_sha256": null,
+      "after_sha256": "bb77a9e173c5fb1f4ca79669710a376111d0e8ee8fffccaf77c1d33178ca38ec"
+    },
+    {
+      "path": "04-knowledge/units/institutions/national-museum-stockholm.md",
+      "before_sha256": null,
+      "after_sha256": "0458b1e2de11afdcaccbce4a259adf2df229370e566bdbd477a43d6a8c44f9ee"
+    },
+    {
+      "path": "04-knowledge/units/places/stockholm.md",
+      "before_sha256": null,
+      "after_sha256": "981bc06cf965c83f3cabe64d0511a6189436e7b0f0993250f2e309a6dcc41975"
+    },
+    {
+      "path": "04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md",
+      "before_sha256": null,
+      "after_sha256": "a1f418fd8e2f5ed78886c14ceef676cb6b89197c4a558906cbbf2c6243486853"
+    },
+    {
+      "path": "04-knowledge/units/works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md",
+      "before_sha256": null,
+      "after_sha256": "516de31789f626161d591f0a5129801a895f9b235c5b8e1486d270139da0bf10"
+    },
+    {
+      "path": "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
+      "before_sha256": null,
+      "after_sha256": "956f08c208c32b3a2ccd2497b7d786bc25a74aa6385c1c8d8a40f0a7062a0ae5"
+    },
+    {
+      "path": "04-knowledge/units/places/stuttgart.md",
+      "before_sha256": null,
+      "after_sha256": "c3928943e369971bad4a10a2d3b013dccac197b6b2fae45a95bad16a201b73c1"
+    },
+    {
+      "path": "04-knowledge/units/works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md",
+      "before_sha256": null,
+      "after_sha256": "8c9520897226bc072b54a6fdb8548c7a1f622e907a2f04a7e441adb161de0a51"
+    },
+    {
+      "path": "04-knowledge/units/persons/francesco-maggiotto.md",
+      "before_sha256": null,
+      "after_sha256": "c0c9e1b7759a470c753dd4f6187a15f7aebb4f41f251ca1f68a8adc456d3b73b"
+    },
+    {
+      "path": "04-knowledge/units/persons/leonardis.md",
+      "before_sha256": null,
+      "after_sha256": "de606971ae7c8f955c37a9c3ca85738c365c7245f2ab333b33d1ff3294b223cc"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-maecenas-presenting-the-arts-to-augustus.md",
+      "before_sha256": null,
+      "after_sha256": "bf9415685b98d131584473825965b90db77497bf96f7be5a824a1d81079897b2"
+    },
+    {
+      "path": "04-knowledge/units/persons/r-b-fleming.md",
+      "before_sha256": null,
+      "after_sha256": "fd7472249a0a2a0970202360a8374eed2ea9fbf19286421ed4cb9e78916e1ee3"
+    },
+    {
+      "path": "04-knowledge/units/persons/john-r-freeman.md",
+      "before_sha256": null,
+      "after_sha256": "4de505ea79aecd9551b64dfbb134bdba6239d2020a32c3e7f7778eea1316a524"
+    },
+    {
+      "path": "04-knowledge/units/institutions/gabinetto-fotografico-nazionale.md",
+      "before_sha256": null,
+      "after_sha256": "e5d1dc9a0e93bd6986b0a595106f38f7ae08e4289e73d34686c356f2b8f5e3bd"
+    },
+    {
+      "path": "04-knowledge/units/institutions/marlborough-fine-art-ltd.md",
+      "before_sha256": null,
+      "after_sha256": "814789e8a4f90ec948394efcb1a4c2e97264a090cc2004651c89370e1f8f7b9c"
+    },
+    {
+      "path": "04-knowledge/units/institutions/ministry-of-works.md",
+      "before_sha256": null,
+      "after_sha256": "1ffceedfc0e1500c5d2c3dd8131cd3619ea6e0a387a966131aa564e832f18fee"
+    },
+    {
+      "path": "04-knowledge/units/institutions/royal-academy.md",
+      "before_sha256": null,
+      "after_sha256": "e1057d97618b6242f1dd36e843b9ba2502933bda1b90819fbb7b8d21604ab64d"
+    },
+    {
+      "path": "04-knowledge/units/persons/oscar-savio.md",
+      "before_sha256": null,
+      "after_sha256": "2a3549adf2ad719180e2b636484c77deb2e70d54e0bcc9b5a41aa296556654ff"
+    },
+    {
+      "path": "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
+      "before_sha256": null,
+      "after_sha256": "96863e4712170467433600682719a1ed7d3e9c3d6d064e6b31209b9b28c16f57"
+    },
+    {
+      "path": "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
+      "before_sha256": null,
+      "after_sha256": "9c4c5685955952a8b59d0351523d5f76bff07cdca443411b696b1b9d80696c2c"
+    },
+    {
+      "path": "04-knowledge/units/institutions/stearn-and-son.md",
+      "before_sha256": null,
+      "after_sha256": "bcb04fdb90ddfa5aa3ad66c8e3ad26009bd5e71525fad1013849c3819442a733"
+    },
+    {
+      "path": "04-knowledge/units/institutions/turners-of-cambridge.md",
+      "before_sha256": null,
+      "after_sha256": "985a364afa53e31ec53b8ee766b92026bd4155eabff1d42e0bd6b00df420c245"
+    },
+    {
+      "path": "04-knowledge/units/institutions/university-library-cambridge.md",
+      "before_sha256": null,
+      "after_sha256": "2f1221dfc0a6a5665e5099402c34677f02a0099ce5c60bbf2784b8331992ee24"
+    },
+    {
+      "path": "04-knowledge/units/persons/eberhard-zwicker.md",
+      "before_sha256": null,
+      "after_sha256": "5e62a39edeee35a0b232343165c3df28332209147a32effa1dc75b71c37718c3"
+    },
+    {
+      "path": "04-knowledge/units/archives/burlington-magazine.md",
+      "before_sha256": null,
+      "after_sha256": "f4d61f19b427fc723d1625b5cab93f3f01c7094b0ec6e09e6a61391ba79600f8"
+    },
+    {
+      "path": "04-knowledge/units/archives/museum-studies-art-institute-chicago.md",
+      "before_sha256": null,
+      "after_sha256": "bf725e559be3c4b2cdb089e663f28331bc58a2dd761b25c06e9449c870f207fa"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md",
+      "before_sha256": null,
+      "after_sha256": "1ac7116827e819d26ffd8c0736b30793a4bd88aca5733c3fd5a6c16c27aec73b"
+    },
+    {
+      "path": "04-knowledge/units/works/tiepolo-banquet-victoria.md",
+      "before_sha256": null,
+      "after_sha256": "b934d22e04130850d2b2d54bfdeb954d602dd670a728a5fd0d31d556cca98381"
+    },
+    {
+      "path": "04-knowledge/units/persons/innocent-xi.md",
+      "before_sha256": "e847d8c38c18dda520c86e58270e8ec59b78d935d38a96cf2cec44c64f9a142c",
+      "after_sha256": "95fee762025dd45dbc313f52e88d3abd75ad77a679e3e3effb437250e04fa238"
+    },
+    {
+      "path": "04-knowledge/units/persons/giuseppe-maria-crespi.md",
+      "before_sha256": "c2d89a42374e99651f0fbb39835cb6535e33e66f63cbc8f85507daed074d7fb5",
+      "after_sha256": "e0caedd7ed3e59e5b9223a3fccca6e0120bca7538e23d026f6ec047a752f36ba"
+    },
+    {
+      "path": "04-knowledge/units/persons/alexander-vii.md",
+      "before_sha256": "2f2cc8239e3075263e843b2d2d49174b2ae93052b79652bf7d2e26fb43456f8b",
+      "after_sha256": "b2d8eefc7c546c9f4b39e8a46b66c9aff4b5c046af660f26093ede50edb3ac49"
+    },
+    {
+      "path": "04-knowledge/units/works/fortune-salvator-rosa.md",
+      "before_sha256": "34248cfd967241c9cb6094e0d750f9df6262709f9c551d2dcc5049d2107d4c00",
+      "after_sha256": "d233de996f0e3785a1a72ff07e6af0f4831197bf87245d406441fad0f02de626"
+    },
+    {
+      "path": "04-knowledge/accepted.yml",
+      "before_sha256": "e3651acbee3cdf56a80dca72f12c418ba47b3295802417f4a1ef0c7afd4e604c",
+      "after_sha256": "892fa6a1760ef28d17c64104ee56fc5040e36beeb2a4c3ef1b3f8d5fc71d77a0"
+    }
+  ],
+  "validation": {
+    "planned_quotes_checked": 547,
+    "formal_relations_changed": false,
+    "external_verification_performed": false,
+    "final_adjustments": "Added default photographic-source rule and dedication field to the book; refined preface page ranges; added candidate-navigation links. Existing sources and formal relations preserved.",
+    "disambiguation": "Twenty portrait titles distinguish images from sitters. Plate 61a and 61b use separate holder-qualified paths; the temporary shared file created in this transaction was removed.",
+    "legacy_rescope": "Four previously unaccepted paths now contain only front-matter/index-backed facts; their former chapter-6 drafts remain recoverable from base_commit. No chapter-6 asset was read or changed.",
+    "legacy_rescoped_paths": [
+      "04-knowledge/units/persons/innocent-xi.md",
+      "04-knowledge/units/persons/giuseppe-maria-crespi.md",
+      "04-knowledge/units/persons/alexander-vii.md",
+      "04-knowledge/units/works/fortune-salvator-rosa.md"
+    ],
+    "repair": "A link-label substitution crossed an OCR opening bracket in three files. Restored these files from the reviewed exact diff, limited label edits to body single lines, and rechecked YAML and literal source excerpts.",
+    "primary_candidate_dispositions": {
+      "total": 241,
+      "mapped": 215,
+      "attributes": 4,
+      "deferred": 22
+    }
+  },
+  "recovery": "Existing changed files matched base_commit before application; new files have before_sha256 null. Restore only the listed paths after checking current hashes. No source assets were changed."
+}

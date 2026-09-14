@@ -117,6 +117,32 @@ sources:
 - citation: "J. Paul Getty Museum, The J. Paul Getty Museum Journal 19 (1991). https://www.getty.edu/publications/virtuallibrary/0892362081.html. Accessed 2026-09-11."
   location: "出版物介绍和目录全文；Carr论文PDF仅搜索结果呈现p109片段，未全篇阅读"
   sentence_summary: "Carr的Ecstasy in the Wilderness为研究入口；不能将所有同题素描认定为89.PA.4直接准备稿。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xvi；OCR L150–151
+  sentence_summary: 图版65a将其列为《西莫内利与莫拉联合漫画》的创作者。 图版65a目录将其记为自我描绘者。
+  original_quotes:
+  - source_span: lines 150–151
+    text: '65 a Mola and Simonelli: Joint caricature of Simonelli and Mola 400
+
+      [formerly Vitale Bloch collection)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 150–151; 章前：图版目录；印刷页xvi
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xvi；OCR L152–153
+  sentence_summary: 图版65b目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 152–153
+    text: 'b Agostino Masucci: Mola painting the portrait of
+
+      Pope Alexander VII [National Museum, Stockholm)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 152–153; 章前：图版目录；印刷页xvi
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pier-francesco-mola
 ---
 
@@ -194,6 +220,18 @@ WP还列Hagar、Rebecca、Bacchus、Archimedes、Medusa、Cupid、Saint Andrew�
 Valmontone的方案、实际作画、付款及诉讼是不同事件。S10记1300 scudi方案未获签署，不能称为已签合同或实付总额。部分已绘装饰被毁，后来Preti的重绘与Cozza执行毁画不是同一动作；具体房间及时间须据工程材料核定。现有来源将诉讼延至1664。（S1–S4、S8、S10）
 
 WP关于“小画优于壁画”、风格综合和健康受诉讼影响的说法具有评价／归因责任，不能当作无来源个人属性。研究入口包括Passeri传记、Kahn-Rossi编1989年展览图录、Carr《Ecstasy in the Wilderness》（Getty Journal 19，1991，99–126）；原著尚未全读。Getty出版目录已核，p109片段提示同题素描未必都是馆藏油画的直接准备稿。（S8、S12）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版65a角色 | 创作 | S13 |
+| 图版65a角色 | 自我描绘者 | S13 |
+| 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；创作者 | S13 |
+| 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；自我描绘者 | S13 |
+| 图版65b角色 | 描绘／纪念对象 | S14 |
+| 图版65b相关对象 | [莫拉为亚历山大七世作像](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md)；描绘／纪念对象 | S14 |
 
 ## 关系与证据
 

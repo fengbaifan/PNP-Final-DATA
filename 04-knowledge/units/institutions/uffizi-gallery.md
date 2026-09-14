@@ -16,6 +16,63 @@ sources:
 - citation: Wikidata, Q51252. https://www.wikidata.org/wiki/Q51252. Accessed 2026-09-13.
   location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
   sentence_summary: 用于Uffizi Gallery的同粒度身份核对；QID不验证本卡全部事实。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L102–102
+  sentence_summary: 图版36b目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 102–102
+    text: 'b G. M. Crespi: Girl at her toilet (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 102–102; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L103–103
+  sentence_summary: 图版37a目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 103–103
+    text: '37 a G. M. Crespi: The Painter’s Family (Uffizi, Florence) 232'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 103–103; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L104–104
+  sentence_summary: 图版37b目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 104–104
+    text: 'b G. M. Crespi: Detail from Fair at Poggio a Caiano (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L105–106
+  sentence_summary: 图版37c目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 105–106
+    text: 'c Baldassare Franceschini: ‘La Burla del Piovano Arlotto’ (Uffizi,
+
+      Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 105–106; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L111–111
+  sentence_summary: 图版40b目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 111–111
+    text: 'b GiannAntonio Fumiani: The stoning of Zechariah (Uffizi, Florence)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 111–111; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-uffizi-gallery
 ---
 
@@ -39,6 +96,22 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 收藏、管理与使用边界
 
 作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版36b角色 | 书中收藏／保管者 | S4 |
+| 图版36b相关对象 | [梳妆少女](../works/g-m-crespi-girl-at-her-toilet.md)；书中收藏／保管者 | S4 |
+| 图版37a角色 | 书中收藏／保管者 | S5 |
+| 图版37a相关对象 | [画家一家](../works/g-m-crespi-the-painter-s-family.md)；书中收藏／保管者 | S5 |
+| 图版37b角色 | 书中收藏／保管者 | S6 |
+| 图版37b相关对象 | [波焦阿卡亚诺集市局部](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md)；书中收藏／保管者 | S6 |
+| 图版37c角色 | 书中收藏／保管者 | S7 |
+| 图版37c相关对象 | [阿尔洛托教区神父的玩笑](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md)；书中收藏／保管者 | S7 |
+| 图版40b角色 | 书中收藏／保管者 | S8 |
+| 图版40b相关对象 | [撒迦利亚被石击](../works/giannantonio-fumiani-the-stoning-of-zechariah.md)；书中收藏／保管者 | S8 |
 
 ## 关系与证据
 

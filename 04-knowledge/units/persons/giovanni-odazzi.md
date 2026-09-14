@@ -1,16 +1,50 @@
 ---
-title: "乔万尼·奥达齐（Giovanni Odazzi）"
-name_en: "Giovanni Odazzi"
+title: 乔万尼·奥达齐（Giovanni Odazzi）
+name_en: Giovanni Odazzi
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: '2026-09-14'
 evidence_status: source_backed
 relations:
-  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1706年加入圣路加学院。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；1706年入会段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
-  - {"relation_type":"trained_by","target":"persons/ciro-ferri.md","note":"在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；训练与1689年工作室转移段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1689年前","role":"工作室学生／团队成员","scope":"费里工作室阶段"}
-  - {"relation_type":"trained_by","target":"persons/giovan-battista-gaulli.md","note":"1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作。","evidence_ref":{"doc_id":"dbi-odazzi","source_file":"https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/","source_span":"本卡 S6；1689年后Gaulli工作室段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1689年后","role":"工作室学生","scope":"盖乌利工作室阶段；不推定共同创作"}
+- relation_type: member_of
+  target: institutions/accademia-di-san-luca.md
+  note: 1706年加入圣路加学院。
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1706年入会段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+- relation_type: trained_by
+  target: persons/ciro-ferri.md
+  note: 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室。
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；训练与1689年工作室转移段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1689年前
+  role: 工作室学生／团队成员
+  scope: 费里工作室阶段
+- relation_type: trained_by
+  target: persons/giovan-battista-gaulli.md
+  note: 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作。
+  evidence_ref:
+    doc_id: dbi-odazzi
+    source_file: https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    source_span: 本卡 S6；1689年后Gaulli工作室段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1689年后
+  role: 工作室学生
+  scope: 盖乌利工作室阶段；不推定共同创作
 sources:
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L455–457
   sentence_summary: 传记称其工作速度超过 Luca Giordano。本章是在讨论速度声誉，不提供实测工时。
   evidence_ref:
@@ -18,26 +52,54 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 455–457; print pp. 12
   original_quotes:
-  - source_span: "lines 455–457"
-    text: |2-
-      church,4 and certain painters had a reputation for exceptional speed. It was claimed that
+  - source_span: lines 455–457
+    text: 'church,4 and certain painters had a reputation for exceptional speed. It was claimed that
+
       Giovanni Odazzi worked faster than the notoriously rapid Luca Giordano, and Giacinto
-      Brandi too was famous in this respect. Quick work might entitle the artist to greater
-- citation: "Wikipedia (en), Giovanni Odazzi, revision 1365386596. https://en.wikipedia.org/wiki/Giovanni_Odazzi. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "1663–1731 年罗马画家与版画家，符合与 Giordano 比较的语境。"
-- citation: "Wikidata, Q464446, revision 2517852917. https://www.wikidata.org/wiki/Q464446. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "1663–1731 年罗马画家与版画家，符合与 Giordano 比较的语境。"
-- citation: "Wikipedia (en), Giovanni Odazzi, revision 1365386596. https://en.wikipedia.org/wiki/Giovanni_Odazzi. Accessed 2026-09-11."
-  location: "全文阅读信息框、正文、图注、表格及注释书目；5734字符；未把被引外链视为已读"
-  sentence_summary: "补足姓名、生平、亲缘、职业、作品与研究线索；日期及身份错项按正文逐项处置。"
-- citation: "Wikidata, Q464446, revision 2517852917. https://www.wikidata.org/wiki/Q464446. Accessed 2026-09-11."
-  location: "相关属性值、限定词、时间精度、rank、引用及 enwiki sitelink；采用的关联实体标签已核"
-  sentence_summary: "支持适用结构化字段；多值、无引用项及与正文冲突项保留限制，双站不计独立互证。"
-- citation: "Rossella Canuti, ODAZZI, Giovanni, Dizionario Biografico degli Italiani 79 (2013). https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/ Accessed 2026-09-11."
-  location: "正文前8000字符及末2400字符、书目前1300字符选读"
-  sentence_summary: "父母手足、正确生日、工作室与作品、协作人及遗嘱。"
+
+      Brandi too was famous in this respect. Quick work might entitle the artist to greater'
+- citation: Wikipedia (en), Giovanni Odazzi, revision 1365386596. https://en.wikipedia.org/wiki/Giovanni_Odazzi.
+    Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: 1663–1731 年罗马画家与版画家，符合与 Giordano 比较的语境。
+- citation: Wikidata, Q464446, revision 2517852917. https://www.wikidata.org/wiki/Q464446. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: 1663–1731 年罗马画家与版画家，符合与 Giordano 比较的语境。
+- citation: Wikipedia (en), Giovanni Odazzi, revision 1365386596. https://en.wikipedia.org/wiki/Giovanni_Odazzi.
+    Accessed 2026-09-11.
+  location: 全文阅读信息框、正文、图注、表格及注释书目；5734字符；未把被引外链视为已读
+  sentence_summary: 补足姓名、生平、亲缘、职业、作品与研究线索；日期及身份错项按正文逐项处置。
+- citation: Wikidata, Q464446, revision 2517852917. https://www.wikidata.org/wiki/Q464446. Accessed 2026-09-11.
+  location: 相关属性值、限定词、时间精度、rank、引用及 enwiki sitelink；采用的关联实体标签已核
+  sentence_summary: 支持适用结构化字段；多值、无引用项及与正文冲突项保留限制，双站不计独立互证。
+- citation: Rossella Canuti, ODAZZI, Giovanni, Dizionario Biografico degli Italiani 79 (2013). https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/
+    Accessed 2026-09-11.
+  location: 正文前8000字符及末2400字符、书目前1300字符选读
+  sentence_summary: 父母手足、正确生日、工作室与作品、协作人及遗嘱。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xviii；OCR L193–195
+  sentence_summary: 圣克莱孟堂重新装饰的入选艺术家之一。
+  original_quotes:
+  - source_span: lines 193–195
+    text: 'In the last analysis, however, it is a qualitative judgment that has to be made. In the second decade
+      of the eighteenth century Pope Clement XI had the church of his patron S. Clemente freshly decorated.2 As
+      he bore a particular affection for the church we can assume that he went out of his way to employ the best
+      artists available. The list of those chosen is therefore indicative: Sebastiano Conca, Pietro di Pietri, Giovanni
+
+      Odazzi, Pier Leoni Ghezzi, Tommaso Chiari,. Giovanni Domenico Piastrini and
+
+      Giacomo Triga. I find it as impossible to believe to-day as I did in 1963 that such a commission can compare
+      in quality with similar ones made in the previous century or with others being given elsewhere in Italy—and
+      notably Venice.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 193–195; 章前：第二版导言；印刷页xviii
+- citation: Ministero della Cultura, Catalogo generale, 1200757776A-0. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200757776A-0.
+    Accessed 2026-09-14.
+  location: ATTRIBUZIONI；NOTIZIE STORICO CRITICHE
+  sentence_summary: 圣克莱孟堂装饰参与者名单，区分Tommaso与Giuseppe Bartolomeo Chiari，采用Pier Leone Ghezzi及Pietro Antonio De Petri姓名。用于身份与项目语境核对。
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-giovanni-odazzi
 ---
 
@@ -85,9 +147,31 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 Pascoli为同时代推重其艺术的传记作者；速度比较仍按第一章来源记录。Rossella Canuti，DBI79（2013）；M. Trimarchi《Giovanni Odazzi, pittore romano》（1979）含遗嘱与清单刊录，为后续原件链入口，本次未读该书全文。（S1、S6）
 
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 圣克莱孟堂重新装饰的入选艺术家之一。 | S7 |
+| 章前参与项目 | [圣克莱孟堂重新装饰](../events/san-clemente-redecoration.md) | S7 |
+
+### 目录身份
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 目录姓名 | Giovanni Odazzi | S8 |
+
 ## 关系与证据
 
+### 身份与外部链接
+
+| 字段 | 值／链接 | 状态与范围 |
+|---|---|---|
+| 意大利文化遗产目录 1200757776A-0 | [意大利文化遗产目录 1200757776A-0](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200757776A-0) | 本项目参与者身份 |
+
+
 ### 关系记录
+
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1706年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1706年入会段 |

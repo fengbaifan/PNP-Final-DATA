@@ -16,6 +16,32 @@ sources:
 - citation: Wikidata, Q160236. https://www.wikidata.org/wiki/Q160236. Accessed 2026-09-13.
   location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
   sentence_summary: 用于Metropolitan Museum of Art的同粒度身份核对；QID不验证本卡全部事实。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L96–96
+  sentence_summary: 图版34目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 96–96
+    text: '34 Velasquez: Juan de Pareja (Metropolitan Museum, New York)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 96–96; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L97–99
+  sentence_summary: 图版35a目录将其记为书中收藏／保管者。
+  original_quotes:
+  - source_span: lines 97–99
+    text: '35 a Rembrandt: Aristotle contemplating the bust of Homer
+
+      (Metropolitan Museum of Art, New York. Purchase, various funds
+
+      and donors, 1961)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 97–99; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-metropolitan-museum-of-art
 ---
 
@@ -39,6 +65,16 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 收藏、管理与使用边界
 
 作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版34角色 | 书中收藏／保管者 | S4 |
+| 图版34相关对象 | [胡安·德·帕雷哈肖像](../works/velasquez-juan-de-pareja.md)；书中收藏／保管者 | S4 |
+| 图版35a角色 | 书中收藏／保管者 | S5 |
+| 图版35a相关对象 | [凝视荷马像的亚里士多德](../works/rembrandt-aristotle-contemplating-the-bust-of-homer.md)；书中收藏／保管者 | S5 |
 
 ## 关系与证据
 

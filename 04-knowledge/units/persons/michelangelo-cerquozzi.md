@@ -62,6 +62,30 @@ sources:
 - citation: "Giuseppe Scavizzi, CERQUOZZI, Michelangelo, detto Michelangelo delle Battaglie, Dizionario Biografico degli Italiani 23 (1979). https://www.treccani.it/enciclopedia/cerquozzi-michelangelo-detto-michelangelo-delle-battaglie_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "出身师承前4500字符、末1600字符与书目开头、1660年遗嘱及补遗段选读"
   sentence_summary: "父母、生期、师承次序争议；3月29日是遗嘱，4月3日另有补遗，非3月29日死亡。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L75–75
+  sentence_summary: 图版22a将其列为《画家及友人群像》的创作者。 图版22a目录将其记为自我描绘者。 图版22b将其列为《马萨涅洛起义》的创作者。
+  original_quotes:
+  - source_span: lines 75–75
+    text: '22 a Michelangelo Cerquozzi: The artist with a group of friends (Kassel, Kunstsammlungen) b Michelangelo
+      Cerquozzi: The Revolt of Masaniello (Galleria Spada, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 75–75; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiii；OCR L76–76
+  sentence_summary: 图版23a将其列为《女浴》的创作者。
+  original_quotes:
+  - source_span: lines 76–76
+    text: '23 a Michelangelo Cerquozzi: Women’s Bath (Incisa della Rocchetta, Rome) b Salvator Rosa: The Death of
+      Regulus (Virginia Museum of Fine Arts Williams Fund)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-michelangelo-cerquozzi
 ---
 
@@ -104,6 +128,20 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 评价与研究
 
 Passeri的教育批评与Baldinucci描述的社交及收藏成功并置。Giuseppe Scavizzi，DBI23（1979）选读出身、师承、遗嘱和评价段；Loredana Lorizzo2011新财产清单研究为WP所引线索，本次原论文未读。（S2、S5、S7）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版22a角色 | 创作 | S8 |
+| 图版22a角色 | 自我描绘者 | S8 |
+| 图版22a相关对象 | [画家及友人群像](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md)；创作者 | S8 |
+| 图版22a相关对象 | [画家及友人群像](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md)；自我描绘者 | S8 |
+| 图版22b角色 | 创作 | S8 |
+| 图版22b相关对象 | [马萨涅洛起义](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md)；创作者 | S8 |
+| 图版23a角色 | 创作 | S9 |
+| 图版23a相关对象 | [女浴](../works/michelangelo-cerquozzi-women-s-bath.md)；创作者 | S9 |
 
 ## 关系与证据
 

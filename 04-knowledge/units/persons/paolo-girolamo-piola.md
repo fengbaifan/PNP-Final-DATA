@@ -54,6 +54,17 @@ sources:
 - citation: "Daniele Sanguineti, 'PIOLA,' Dizionario Biografico degli Italiani 84 (2015). https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "家族词条中 Paolo Gerolamo 段及相关家族脉络全文阅读；网页无印刷页"
   sentence_summary: "支持父亲与兄弟、罗马行程、马拉塔学习、热那亚职业节点和1724年死亡。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 书后：索引；仅定向读取所引条目，印刷页未核；OCR L2415–2415
+  sentence_summary: 索引将xvii页的P. G. Piola归于Paolo Girolamo Piola。
+  original_quotes:
+  - source_span: lines 2415–2415
+    text: '                 Piola, Paolo Girolamo, xvii, 8n, 10, 166n, 197'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/22_CHP-22Index.md
+    source_span: lines 2415–2415; 书后：索引；仅定向读取所引条目，印刷页未核
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-paolo-girolamo-piola
 ---
 
@@ -103,6 +114,13 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 本章相关内容
 
 1690年宫外居住请求说明保护关系可以伴随协商，而题材选择也发生在尺寸等条件已给定的委托中。两项材料不证明画家完全独立于赞助安排。（S1–2）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 索引将xvii页的P. G. Piola归于Paolo Girolamo Piola。 | S8 |
 
 ## 关系与证据
 

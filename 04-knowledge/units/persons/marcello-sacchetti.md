@@ -40,6 +40,17 @@ sources:
 - citation: "Irene Fosi, SACCHETTI, Marcello, DBI 89 (2017). https://www.treccani.it/enciclopedia/marcello-sacchetti_(Dizionario-Biografico)/. Accessed 2026-09-11."
   location: "全文12381字符；出生／洗礼、任职、赞助、死亡及书目"
   sentence_summary: "生日采用9月12日并分开洗礼16日，保留WP10月12日异文；托斯卡纳家族来源非出生地。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L44–44
+  sentence_summary: 图版04b目录将其记为描绘／纪念对象。
+  original_quotes:
+  - source_span: lines 44–44
+    text: 'b Pietro da Cortona: Marcello Sacchetti (Villa Borghese, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 44–44; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-marcello-sacchetti
 ---
 
@@ -93,6 +104,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 个人文字 | 1622旅行日记（归属）；给Giovan Francesco的出行备忘；婚礼颂诗等 | S7；不是完整著述清单 |
 | 日记线索 | Biblioteca Angelica，Mss.1671；编号不是创作年份 | S7；原稿未读 |
 | 评价／研究 | Mancini、Giano Nicio Eritreo的记述由DBI引见；Fosi1997、Zirpolo2005及Benocci2012为相关研究书目，未全读原著 | S5、S7 |
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版04b角色 | 描绘／纪念对象 | S8 |
+| 图版04b相关对象 | [马尔切洛·萨凯蒂肖像](../works/pietro-da-cortona-marcello-sacchetti.md)；描绘／纪念对象 | S8 |
 
 ## 关系与证据
 

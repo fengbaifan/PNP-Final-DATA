@@ -63,6 +63,17 @@ sources:
 - citation: "Paul VI, grant of minor-basilica title, 1965-12-20, Spanish text hosted by Sant'Andrea della Valle. https://santandrea.teatinos.org/es/bienvenida/titulo-basilica-menor/. Accessed 2026-09-10."
   location: "教堂刊载的宗座文书西语译文全文，尤其末尾签署日期"
   sentence_summary: "小圣殿称号文书日期为1965年12月20日，优先于修会概述中的1966；未核对拉丁原刊。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L48–48
+  sentence_summary: 图版08目录将其记为所属建筑。
+  original_quotes:
+  - source_span: lines 48–48
+    text: '8 Matteo Castelli: Barberini Chapel in S. Andrea della Valle, Rome'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 48–48; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-sant-andrea-della-valle
 ---
 
@@ -126,6 +137,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 研究线索
 
 S4 书目列 Howard Hibbard，*The Early History of Sant’Andrea della Valle*（1961；《谷地圣安德烈堂早期史》，暂译）；*Carlo Maderno and Roman Architecture, 1580–1630*（1971）；Alba Costamagna、Daniele Ferrara、Cecilia Grilli，*Sant’Andrea della Valle*（2003）。仅已读书目条目，未读所列研究全文。WP引用的Haskell其他章节不算本章新增阅读。
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版08角色 | 所属建筑 | S14 |
+| 图版08相关对象 | [谷地圣安德烈堂巴贝里尼礼拜堂](../places/barberini-chapel-sant-andrea-valle.md)；所属建筑 | S14 |
 
 ## 关系与证据
 

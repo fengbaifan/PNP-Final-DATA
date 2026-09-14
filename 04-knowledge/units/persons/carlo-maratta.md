@@ -66,6 +66,43 @@ sources:
 - citation: "Luca Bortolotti, 'MARATTI, Carlo,' Dizionario Biografico degli Italiani 69 (2007). https://www.treccani.it/enciclopedia/carlo-maratti_(Dizionario-Biografico)/ Accessed 2026-09-11."
   location: "传记正文与书目全读；未逐一通读所引原档、Bellori原传、清册和全部研究"
   sentence_summary: "支持1625年5月18日、父母与家庭、Sacchi工作室、学院职务、委托、修复、骑士荣衔、收藏和1713年死亡。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L41–42
+  sentence_summary: 图版03b将其列为《安东尼奥·巴贝里尼枢机》的创作者。
+  original_quotes:
+  - source_span: lines 41–42
+    text: 'b Carlo Maratta: Cardinal Antonio Barberini
+
+      (Duke of Northumberland, Alnwick Castle)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 41–42; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L89–89
+  sentence_summary: 图版31a将其列为《查尔斯·福克斯》的创作者。
+  original_quotes:
+  - source_span: lines 89–89
+    text: '31a Carlo Maratta: Charles Fox (The Earl of Ilchester)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 89–89; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xiv；OCR L90–91
+  sentence_summary: 图版31b将其列为《托马斯·伊舍姆》的创作者。
+  original_quotes:
+  - source_span: lines 90–91
+    text: 'b Carlo Maratta: Sir Thomas Isham (Sir Gyles Isham, Bt, Lamport
+
+      Hall) .'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 90–91; 章前：图版目录；印刷页xiv
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-carlo-maratta
 ---
 
@@ -125,6 +162,18 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 - 晚年大型作品大量依赖助手，DBI强调仍由其预备图维持设计控制；完整学生与助手表需按作品和学院记录核定。（S7）
 
 Luca Bortolotti的DBI词条及书目已全文阅读；Bellori原传、两份1711／1712清册、作品付款和修复档案未在本轮逐件回查。（S7）
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 图版03b角色 | 创作 | S8 |
+| 图版03b相关对象 | [安东尼奥·巴贝里尼枢机](../works/carlo-maratta-cardinal-antonio-barberini.md)；创作者 | S8 |
+| 图版31a角色 | 创作 | S9 |
+| 图版31a相关对象 | [查尔斯·福克斯肖像](../works/carlo-maratta-charles-fox.md)；创作者 | S9 |
+| 图版31b角色 | 创作 | S10 |
+| 图版31b相关对象 | [托马斯·伊舍姆](../works/carlo-maratta-sir-thomas-isham.md)；创作者 | S10 |
 
 ## 关系与证据
 

@@ -87,6 +87,70 @@ sources:
 - citation: "Istituto Centrale per la Grafica, Pietro da Cortona e il disegno, exhibition 1997–1998. https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html. Accessed 2026-09-11."
   location: "选读展览介绍至LA MOSTRA前的概述；长作品清单未完整阅读，原输出截断不记全文"
   sentence_summary: "采用1597生年、1634–1636学院负责人任期及设计／出资教堂；99页与百余素描、Cortona与Ferri多手及可能旧藏均须分开。"
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xviii；OCR L196–196
+  sentence_summary: 哈斯克尔以其时代作为罗马绘画欧洲影响力的比较基准。
+  original_quotes:
+  - source_span: lines 196–196
+    text: Waterhouse himself and the late Anthony Clark have indeed shown us how many fine painters did work in
+      Rome during the eighteenth century, but neither in the general opinion of the time (nor, yet, in that of our
+      own day) was it accepted that their achievements dominated European art in a way that was even remotely comparable
+      to what was happening in the age of Pietro da Cortona with which I was mostly concerned. I therefore believe
+      that an opinion which would indeed have been absurd in a book dealing with architecture or sculpture is quite
+      justified in one devoted to painting.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 196–196; 章前：第二版导言；印刷页xviii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L44–44
+  sentence_summary: 图版04b将其列为《马尔切洛·萨凯蒂》的创作者。
+  original_quotes:
+  - source_span: lines 44–44
+    text: 'b Pietro da Cortona: Marcello Sacchetti (Villa Borghese, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 44–44; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L51–51
+  sentence_summary: 图版10a将其列为《劫夺萨宾妇女》的创作者。
+  original_quotes:
+  - source_span: lines 51–51
+    text: '10 a Pietro da Cortona: Rape of the Sabines (Pinacoteca Capitolina, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 51–51; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L52–53
+  sentence_summary: 图版10b将其列为《劫夺海伦》的创作者。
+  original_quotes:
+  - source_span: lines 52–53
+    text: 'b Pietro da Cortona: Rape of Helen {Ufficio dell’Assessore Comunale
+
+      alle Belle Arti, Rome)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 52–53; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：图版目录；印刷页xii；OCR L59–60
+  sentence_summary: 图版13将其列为《乌尔班八世统治的荣耀》的创作者。
+  original_quotes:
+  - source_span: lines 59–60
+    text: '13 Pietro da Cortona: Glorification of the Reign of Urban VIII
+
+      {Palazzo Barberini, Rome) 72'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 59–60; 章前：图版目录；印刷页xii
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-da-cortona
 ---
 
@@ -147,6 +211,21 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 评价与研究
 构图人物数量的论争反映不同艺术主张，不变成固定人数规则。[S6] Briganti1967的赞助阶层与风格解释是作者论断，不能当作本项目已经发现的普遍规律。[S8选读] 相关书目：Merz2008关于罗马建筑、Campbell1977关于Pitti宫、Lo Bianco主编1997展览研究；仅核见书目信息。ICG1997展览由Simonetta Prosperi Valenti Rodinò编目录，介绍素描的设计、学习及多人协作性质；本轮未全读展出作品清单。[S6、S9]
+
+
+### 章前材料中的记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 章前记载 | 哈斯克尔以其时代作为罗马绘画欧洲影响力的比较基准。 | S10 |
+| 图版04b角色 | 创作 | S11 |
+| 图版04b相关对象 | [马尔切洛·萨凯蒂肖像](../works/pietro-da-cortona-marcello-sacchetti.md)；创作者 | S11 |
+| 图版10a角色 | 创作 | S12 |
+| 图版10a相关对象 | [劫夺萨宾妇女](../works/pietro-da-cortona-rape-of-the-sabines.md)；创作者 | S12 |
+| 图版10b角色 | 创作 | S13 |
+| 图版10b相关对象 | [劫夺海伦](../works/pietro-da-cortona-rape-of-helen.md)；创作者 | S13 |
+| 图版13角色 | 创作 | S14 |
+| 图版13相关对象 | [乌尔班八世统治的荣耀](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md)；创作者 | S14 |
 
 ## 关系与证据
 
