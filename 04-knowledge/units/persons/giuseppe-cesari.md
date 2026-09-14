@@ -55,6 +55,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 雇主（`employer_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 罗马早期在朱塞佩·切萨里工作室绘制花果等部分；时间：1590年代早期；角色：工作室画家／助手；范围：花果及次要部分；不等于长期师承；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；employed-by-persons-giuseppe-cesari-md；Beginnings in Rome段 |
+| ← 教师（`teacher_of`，反向投影） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](guido-abbatini.md) | 时间：约1623以后；角色：短期教师；范围：约1623抵罗马后的短期学习；原断言与证据见发出端卡片“圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）”：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
 
 ### 身份与外部链接
 

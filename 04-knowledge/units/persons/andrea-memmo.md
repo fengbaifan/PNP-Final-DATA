@@ -76,6 +76,7 @@ relations:
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：研究对象；范围：书目题名及内容说明中的研究人物；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
 | → 师从／受训于（`trained_by`） | [卡洛·洛多利（Carlo Lodoli）](carlo-lodoli.md) | 角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；著述段：due allievi，Algarotti与A. Memmo |
+| ← 合作（`collaborated_with`，反向投影） | [多梅尼科·切拉托（Domenico Cerato）](domenico-cerato.md) | 角色：广场整治合作者；范围：Prato della Valle整治，不把合作改作出资或个人委托；原断言与证据见发出端卡片“多梅尼科·切拉托（Domenico Cerato）”：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
 
 ### 关系候选入口
 

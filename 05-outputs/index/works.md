@@ -12,6 +12,7 @@
 - [汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）](../../04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md)
 - [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../../04-knowledge/units/works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md)
 - [阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）](../../04-knowledge/units/works/baldassare-franceschini-la-burla-del-piovano-arlotto.md)
+- [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../../04-knowledge/units/works/bambini-aeneas-tells-dido-fall-of-troy.md)
 - [巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto for the Barberini Salone (disputed attribution)）](../../04-knowledge/units/works/barberini-salone-bozzetto-disputed.md)
 - [泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）](../../04-knowledge/units/works/bernardino-castelli-teodoro-correr.md)
 - [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../../04-knowledge/units/works/bernini-cardinal-borghese-head.md)

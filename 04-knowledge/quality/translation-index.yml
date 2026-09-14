@@ -1,5 +1,5 @@
 generated: '2026-09-15'
-total: 776
+total: 778
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -1083,8 +1083,8 @@ index:
   language_original: ''
 - slug: persons/guido-abbatini
   type: persons
-  name_en: Guido Abbatini
-  title: 圭多·阿巴蒂尼（Guido Abbatini）
+  name_en: Guido Ubaldo Abbatini
+  title: 圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）
   name_original: ''
   language_original: ''
 - slug: persons/guido-cagnacci
@@ -1485,8 +1485,8 @@ index:
   language_original: ''
 - slug: persons/niccolo-bambini
   type: persons
-  name_en: Niccolo Bambini
-  title: 尼科洛·班比尼（Niccolo Bambini）
+  name_en: Nicolò Bambini
+  title: 尼科洛·班比尼（Nicolò Bambini）
   name_original: ''
   language_original: ''
 - slug: persons/nicolas-poussin
@@ -2593,6 +2593,12 @@ index:
   title: '"瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli''s Testimony on the Mola–Pamfili Service Dispute）"'
   name_original: ''
   language_original: ''
+- slug: archives/virgil-aeneid
+  type: archives
+  name_en: Virgil’s Aeneid
+  title: 维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）
+  name_original: ''
+  language_original: ''
 - slug: archives/waterhouse-rome-painting-1971
   type: archives
   name_en: Painting in Rome in the Eighteenth Century
@@ -2675,6 +2681,12 @@ index:
   type: works
   name_en: La Burla del Piovano Arlotto
   title: 阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）
+  name_original: ''
+  language_original: ''
+- slug: works/bambini-aeneas-tells-dido-fall-of-troy
+  type: works
+  name_en: Aeneas Tells Dido of the Fall of Troy
+  title: 埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）
   name_original: ''
   language_original: ''
 - slug: works/barberini-salone-bozzetto-disputed

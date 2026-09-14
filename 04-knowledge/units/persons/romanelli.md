@@ -67,6 +67,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 合作（`collaborated_with`，反向投影） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](guido-abbatini.md) | 时间：1637–1642；角色：壁画合作者；范围：梵蒂冈玛蒂尔达伯爵夫人厅壁画；原断言与证据见发出端卡片“圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）”：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
 | ← 所创作对象（`creator_of`，反向投影） | [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../works/mazarin-gallery-vault-decoration.md) | 时间：1646–1647绘画工程；角色：主持绘画；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；原断言与证据见发出端卡片“马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）”：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
 | ← 所创作对象（`creator_of`，反向投影） | [罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）](../works/romanelli-romulus-and-remus.md) | 角色：所据顶画作者；范围：图版26b所据顶画；局部复制范围；原断言与证据见发出端卡片“罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
 

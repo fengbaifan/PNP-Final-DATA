@@ -4,7 +4,8 @@ name_en: Original proposals for reclaiming Prà della Valle
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980;
+    this printing 2006).
   location: 章前：图版目录；印刷页xvi；OCR L147–147
   sentence_summary: 《赞助人与画家》图版63目录所记的《Prà广场整治原始方案》艺术对象。
   original_quotes:
@@ -14,12 +15,14 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 147–147; 章前：图版目录；印刷页xvi
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980;
+    this printing 2006).
   location: 章前：图片来源；印刷页xvi；OCR L171–171
   sentence_summary: 本书图片来源将图版63复制图像的供片署名归于斯特恩父子摄影商号。
   original_quotes:
   - source_span: lines 171–171
-    text: '38a, 38b, 39, 40a; Steam and Son, Cambridge: 17b, 26a, 28b, 55, 56, 63; Turners of Cambridge: 3a, 17c,'
+    text: '38a, 38b, 39, 40a; Steam and Son, Cambridge: 17b, 26a, 28b, 55, 56, 63; Turners of Cambridge: 3a,
+      17c,'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
@@ -39,9 +42,29 @@ relations:
   bidirectional_required: false
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者
+- relation_type: created_by
+  target: persons/domenico-cerato.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 147–147; 章前：图版目录；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原书署名作者
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
+- relation_type: intended_for
+  target: places/pra-della-valle.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 147–147; 章前：图版目录；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 整治方案所拟用于的广场
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
 ---
-
-
 ## 内容
 
 ### 描述
@@ -74,10 +97,11 @@ relations:
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 由其供应（`supplied_by`） | [斯特恩父子摄影商号（Stearn & Sons）](../institutions/stearn-and-son.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 171–171 |
+| → 创作者（`created_by`） | [多梅尼科·切拉托（Domenico Cerato）](../persons/domenico-cerato.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
+| → 拟用于（`intended_for`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：整治方案所拟用于的广场；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

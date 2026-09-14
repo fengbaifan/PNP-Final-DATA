@@ -56,4 +56,5 @@
 - [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md)
 - [美国版权法（U.S. Copyright Law）](../../04-knowledge/units/archives/us-copyright-law.md)
 - [瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）](../../04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md)
+- [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../../04-knowledge/units/archives/virgil-aeneid.md)
 - [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](../../04-knowledge/units/archives/waterhouse-rome-painting-1971.md)

@@ -83,10 +83,9 @@ relations:
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [尼科洛·班比尼（Niccolo Bambini）](../persons/niccolo-bambini.md) | 角色：原书署名作者；范围：图版42b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [尼科洛·班比尼（Nicolò Bambini）](../persons/niccolo-bambini.md) | 角色：原书署名作者；范围：图版42b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
 | → 位于（`located_at`） | [佩萨罗宫（Ca' Pesaro）](../places/ca-pesaro.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版42b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
 | → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版42b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
 

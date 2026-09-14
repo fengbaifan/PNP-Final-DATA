@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T03:51:05",
+  "timestamp": "2026-09-15T04:14:33",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 919,
+    "total_units": 923,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,23 +26,23 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 919,
+    "total_units": 923,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 919,
+    "units_missing_any_assignment": 923,
     "field_coverage": {
-      "primary_domain": "0/919",
-      "primary_dimension": "0/919",
-      "primary_theme": "0/919",
-      "topic_memberships": "0/919"
+      "primary_domain": "0/923",
+      "primary_dimension": "0/923",
+      "primary_theme": "0/923",
+      "topic_memberships": "0/923"
     }
   },
   "counts_by_type": {
     "persons": 333,
     "families": 8,
     "institutions": 129,
-    "places": 138,
-    "works": 203,
-    "archives": 57,
+    "places": 140,
+    "works": 204,
+    "archives": 58,
     "terms": 34,
     "procedures": 10,
     "events": 7
@@ -526,6 +526,7 @@
       "04-knowledge/units/institutions/warburg-institute.md",
       "04-knowledge/units/institutions/yale-university-press.md",
       "04-knowledge/units/institutions/yale-university.md",
+      "04-knowledge/units/places/abbeville.md",
       "04-knowledge/units/places/alnwick-castle.md",
       "04-knowledge/units/places/augusta-sicily.md",
       "04-knowledge/units/places/badminton.md",
@@ -548,6 +549,7 @@
       "04-knowledge/units/places/china.md",
       "04-knowledge/units/places/church-of-s-rocco.md",
       "04-knowledge/units/places/church-of-the-frari.md",
+      "04-knowledge/units/places/citta-di-castello.md",
       "04-knowledge/units/places/cologne.md",
       "04-knowledge/units/places/contarelli-chapel.md",
       "04-knowledge/units/places/cortona.md",
@@ -673,6 +675,7 @@
       "04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md",
       "04-knowledge/units/works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md",
       "04-knowledge/units/works/baldassare-franceschini-la-burla-del-piovano-arlotto.md",
+      "04-knowledge/units/works/bambini-aeneas-tells-dido-fall-of-troy.md",
       "04-knowledge/units/works/barberini-salone-bozzetto-disputed.md",
       "04-knowledge/units/works/bernardino-castelli-teodoro-correr.md",
       "04-knowledge/units/works/bernini-cardinal-borghese-head.md",
@@ -896,6 +899,7 @@
       "04-knowledge/units/archives/salviati-medici-letter-1662.md",
       "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
       "04-knowledge/units/archives/us-copyright-law.md",
+      "04-knowledge/units/archives/virgil-aeneid.md",
       "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
       "04-knowledge/units/terms/altarpiece.md",
       "04-knowledge/units/terms/art-dealer.md",
@@ -1420,6 +1424,7 @@
       "04-knowledge/units/institutions/warburg-institute.md",
       "04-knowledge/units/institutions/yale-university-press.md",
       "04-knowledge/units/institutions/yale-university.md",
+      "04-knowledge/units/places/abbeville.md",
       "04-knowledge/units/places/alnwick-castle.md",
       "04-knowledge/units/places/augusta-sicily.md",
       "04-knowledge/units/places/badminton.md",
@@ -1442,6 +1447,7 @@
       "04-knowledge/units/places/china.md",
       "04-knowledge/units/places/church-of-s-rocco.md",
       "04-knowledge/units/places/church-of-the-frari.md",
+      "04-knowledge/units/places/citta-di-castello.md",
       "04-knowledge/units/places/cologne.md",
       "04-knowledge/units/places/contarelli-chapel.md",
       "04-knowledge/units/places/cortona.md",
@@ -1570,6 +1576,7 @@
       "04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md",
       "04-knowledge/units/works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md",
       "04-knowledge/units/works/baldassare-franceschini-la-burla-del-piovano-arlotto.md",
+      "04-knowledge/units/works/bambini-aeneas-tells-dido-fall-of-troy.md",
       "04-knowledge/units/works/barberini-salone-bozzetto-disputed.md",
       "04-knowledge/units/works/bernardino-castelli-teodoro-correr.md",
       "04-knowledge/units/works/bernini-cardinal-borghese-head.md",
@@ -1817,6 +1824,7 @@
       "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
       "04-knowledge/units/archives/us-copyright-law.md",
       "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
+      "04-knowledge/units/archives/virgil-aeneid.md",
       "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
       "04-knowledge/units/terms/altarpiece.md",
       "04-knowledge/units/terms/art-dealer.md",
@@ -1889,18 +1897,18 @@
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 135,
-      "tags": 138,
+      "sub_type": 137,
+      "tags": 140,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 200,
-      "tags": 203,
+      "sub_type": 201,
+      "tags": 204,
       "evidence_status": 0
     },
     "archives": {
-      "sub_type": 36,
-      "tags": 57,
+      "sub_type": 37,
+      "tags": 58,
       "evidence_status": 0
     },
     "terms": {
@@ -1976,11 +1984,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 230,
+    "sources_without_evidence_ref": 234,
     "evidence_ref_resolvable": 1057,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1057,
-    "units_with_traceable_source": 919
+    "units_with_traceable_source": 923
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1993,8 +2001,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 1012,
-    "explicit_relations_with_evidence": 1012
+    "explicit_relations": 1053,
+    "explicit_relations_with_evidence": 1053
   },
   "source_hash": {
     "total_sources": 0,
@@ -2012,7 +2020,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 919,
+      "count": 923,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2484,6 +2492,7 @@
         "04-knowledge/units/institutions/warburg-institute.md",
         "04-knowledge/units/institutions/yale-university-press.md",
         "04-knowledge/units/institutions/yale-university.md",
+        "04-knowledge/units/places/abbeville.md",
         "04-knowledge/units/places/alnwick-castle.md",
         "04-knowledge/units/places/augusta-sicily.md",
         "04-knowledge/units/places/badminton.md",
@@ -2506,6 +2515,7 @@
         "04-knowledge/units/places/china.md",
         "04-knowledge/units/places/church-of-s-rocco.md",
         "04-knowledge/units/places/church-of-the-frari.md",
+        "04-knowledge/units/places/citta-di-castello.md",
         "04-knowledge/units/places/cologne.md",
         "04-knowledge/units/places/contarelli-chapel.md",
         "04-knowledge/units/places/cortona.md",
@@ -2634,6 +2644,7 @@
         "04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md",
         "04-knowledge/units/works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md",
         "04-knowledge/units/works/baldassare-franceschini-la-burla-del-piovano-arlotto.md",
+        "04-knowledge/units/works/bambini-aeneas-tells-dido-fall-of-troy.md",
         "04-knowledge/units/works/barberini-salone-bozzetto-disputed.md",
         "04-knowledge/units/works/bernardino-castelli-teodoro-correr.md",
         "04-knowledge/units/works/bernini-cardinal-borghese-head.md",
@@ -2881,6 +2892,7 @@
         "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
         "04-knowledge/units/archives/us-copyright-law.md",
         "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
+        "04-knowledge/units/archives/virgil-aeneid.md",
         "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
         "04-knowledge/units/terms/altarpiece.md",
         "04-knowledge/units/terms/art-dealer.md",
@@ -3061,19 +3073,19 @@
       }
     },
     "works": {
-      "total": 206,
+      "total": 207,
       "coverage": {
-        "title_original": "0/206",
-        "title_original_language": "0/206",
-        "title_zh": "0/206"
+        "title_original": "0/207",
+        "title_original_language": "0/207",
+        "title_zh": "0/207"
       }
     },
     "archives": {
-      "total": 59,
+      "total": 60,
       "coverage": {
-        "title_original": "0/59",
-        "title_original_language": "0/59",
-        "title_zh": "0/59"
+        "title_original": "0/60",
+        "title_original_language": "0/60",
+        "title_zh": "0/60"
       }
     },
     "terms": {
@@ -3087,9 +3099,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 776,
-    "indexed": 776,
-    "declared_total": 776,
+    "expected": 778,
+    "indexed": 778,
+    "declared_total": 778,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3097,14 +3109,14 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 1013,
-    "explicit_relation_count": 1012,
+    "relation_index_total": 1054,
+    "explicit_relation_count": 1053,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 1012,
+    "weak_evidence_count": 1053,
     "needs_evidence_count": 0,
-    "relation_type_coverage": "53/121"
+    "relation_type_coverage": "56/121"
   },
   "output_file_back": {
     "total_outputs": 3,
@@ -3164,22 +3176,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 919,
+    "total_units": 923,
     "source_count_distribution": {
-      "multi_source": 729,
-      "single_source": 190
+      "multi_source": 737,
+      "single_source": 186
     },
     "confidence_distribution": {
-      "missing": 919
+      "missing": 923
     },
     "consensus_distribution": {
-      "missing": 919
+      "missing": 923
     },
     "evidence_status_distribution": {
-      "source_backed": 919
+      "source_backed": 923
     },
     "isolated_units": {
-      "count": 147,
+      "count": 142,
       "sample": [
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
@@ -3202,10 +3214,10 @@
         "persons/christina-of-sweden.md",
         "persons/clement-i.md",
         "persons/correggio.md",
-        "persons/domenico-cerato.md",
         "persons/eberhard-zwicker.md",
         "persons/enzo-crea.md",
-        "persons/filippo-baldinucci.md"
+        "persons/filippo-baldinucci.md",
+        "persons/francesco-maggiotto.md"
       ]
     },
     "candidate_debt": {
@@ -3222,7 +3234,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 190,
+      "single_source_units": 186,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3247,7 +3259,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 919,
+    "total_files": 923,
     "total_findings": 1
   }
 }

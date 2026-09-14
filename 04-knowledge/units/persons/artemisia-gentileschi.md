@@ -107,6 +107,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 通信（`corresponded_with`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1649至1650年密集通信，并涉及付款及拟议委托；作品和交易端点不足，暂以具体note保留；时间：1649–1650；角色：通信双方；范围：密集通信涉及付款及拟议委托；不把全部往来合成单一成交；证据：[来源](https://www.treccani.it/enciclopedia/artemisia-lomi_(Dizionario-Biografico)/)；dbi-artemisia；本卡 S6；1649–1650 Ruffo通信段 |
+| ← child_of（`child_of`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](orazio-gentileschi.md) | 角色：父亲；范围：Artemisia是Orazio的女儿；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| ← 师从／受训于（`trained_by`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](orazio-gentileschi.md) | 角色：绘画教师；范围：父亲训练女儿；亲缘与师承分开；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
 
 ### 身份与外部链接
 

@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 1013
-# sources: {'explicit': 1012, 'inferred_by_rule': 1}
+# total: 1054
+# sources: {'explicit': 1053, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -1004,6 +1004,46 @@
   review_status: evidence_backed_relation
   role: 长期助手／合作者
   scope: 具体项目责任仍逐作区分
+- source: persons/claude-mellan.md
+  source_type: person
+  target: places/abbeville.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-claude-mellan
+    source_file: https://www.metmuseum.org/art/collection/search/392968
+    source_span: Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1598'
+  role: 出生地点
+  scope: 个人出生事件
+- source: persons/claude-mellan.md
+  source_type: person
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-claude-mellan
+    source_file: https://www.metmuseum.org/art/collection/search/392968
+    source_span: Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1688'
+  role: 去世地点
+  scope: 个人死亡事件
 - source: persons/clement-viii.md
   source_type: person
   target: families/aldobrandini-family.md
@@ -1060,6 +1100,84 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/domenico-cerato.md
+  source_type: person
+  target: persons/andrea-memmo.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-cerato
+    source_file: https://www.treccani.it/enciclopedia/domenico-cerato/
+    source_span: 短条目：生卒括注及1765教学、Memmo合作句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 广场整治合作者
+  scope: Prato della Valle整治，不把合作改作出资或个人委托
+- source: persons/domenico-cerato.md
+  source_type: person
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-cerato
+    source_file: https://www.treccani.it/enciclopedia/domenico-cerato/
+    source_span: 短条目：生卒括注及1765教学、Memmo合作句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1765起
+  role: 教学活动城市
+  scope: 民用建筑教学
+- source: persons/domenico-cerato.md
+  source_type: person
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-cerato
+    source_file: https://www.treccani.it/enciclopedia/domenico-cerato/
+    source_span: 短条目：生卒括注及1765教学、Memmo合作句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1792'
+  role: 去世地点
+  scope: 个人死亡事件
+- source: persons/domenico-cerato.md
+  source_type: person
+  target: places/pra-della-valle.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-cerato
+    source_file: https://www.treccani.it/enciclopedia/domenico-cerato/
+    source_span: 短条目：生卒括注及1765教学、Memmo合作句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 整治活动地点
+  scope: 与Memmo合作整治广场；不等同方案的实际存放地
 - source: persons/domenico-maria-viani.md
   source_type: person
   target: persons/giovanni-maria-viani.md
@@ -1389,6 +1507,106 @@
   review_status: evidence_backed_relation
   role: Cardinal Protector
   scope: 学院保护职位；不与Antonio Barberini家户混同
+- source: persons/francesco-fanelli.md
+  source_type: person
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-fanelli
+    source_file: https://www.metmuseum.org/art/collection/search/761114
+    source_span: 策展正文首两段；Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1577'
+  role: 出生地点
+  scope: 个人出生事件
+- source: persons/francesco-fanelli.md
+  source_type: person
+  target: places/genoa.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-fanelli
+    source_file: https://www.metmuseum.org/art/collection/search/761114
+    source_span: 策展正文首两段；Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1605–1630
+  role: 作坊活动城市
+  scope: 家庭作坊
+- source: persons/francesco-fanelli.md
+  source_type: person
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-fanelli
+    source_file: https://www.metmuseum.org/art/collection/search/761114
+    source_span: 策展正文首两段；Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1632'
+  role: 迁入城市
+  scope: 赴英国宫廷工作
+- source: persons/francesco-fanelli.md
+  source_type: person
+  target: persons/charles-i.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-fanelli
+    source_file: https://www.metmuseum.org/art/collection/search/761114
+    source_span: 策展正文首两段；Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1632'
+  role: 年金赞助者
+  scope: Met策展传记的年金记载
+- source: persons/francesco-fanelli.md
+  source_type: person
+  target: persons/charles-i.md
+  target_type: person
+  relation_type: appointed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-fanelli
+    source_file: https://www.metmuseum.org/art/collection/search/761114
+    source_span: 策展正文首两段；Artwork Details：Artist
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1635'
+  role: 王室雕塑家任命者
+  scope: 个人获任官职，不从作品肖像角色推导
 - source: persons/francesco-guardi.md
   source_type: person
   target: places/venice.md
@@ -1409,6 +1627,44 @@
   time: '1712'
   role: 出生
   scope: 出生地
+- source: persons/francesco-petrucci.md
+  source_type: person
+  target: persons/baldassare-franceschini.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-petrucci
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900378126
+    source_span: Notizie storico critiche：Petrucci学生身份、宫廷复制画委托段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘画教师
+  scope: ICCD的allievo del Volterrano；Volterrano别名沿用已对齐KU
+- source: persons/francesco-petrucci.md
+  source_type: person
+  target: persons/ferdinand-grand-prince-tuscany.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-petrucci
+    source_file: https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900378126
+    source_span: Notizie storico critiche：Petrucci学生身份、宫廷复制画委托段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 复制画委托赞助者
+  scope: 宫廷复制画委托，不把整组未具名复制画并作一个作品
 - source: persons/francesco-trevisani.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -2547,6 +2803,106 @@
   review_status: evidence_backed_relation
   role: 画家／项目合作者
   scope: 传记明确列出的工程；逐作责任仍保留
+- source: persons/guido-abbatini.md
+  source_type: person
+  target: places/citta-di-castello.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-guido-abbatini
+    source_file: https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/
+    source_span: 出生与师承首段、Romanelli合作段及卒年末句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1600'
+  role: 出生地点
+  scope: 个人出生事件
+- source: persons/guido-abbatini.md
+  source_type: person
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-guido-abbatini
+    source_file: https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/
+    source_span: 出生与师承首段、Romanelli合作段及卒年末句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1656'
+  role: 去世地点
+  scope: 个人死亡事件
+- source: persons/guido-abbatini.md
+  source_type: person
+  target: persons/giuseppe-cesari.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-guido-abbatini
+    source_file: https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/
+    source_span: 出生与师承首段、Romanelli合作段及卒年末句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1623以后
+  role: 短期教师
+  scope: 约1623抵罗马后的短期学习
+- source: persons/guido-abbatini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-guido-abbatini
+    source_file: https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/
+    source_span: 出生与师承首段、Romanelli合作段及卒年末句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 乌尔班八世任期早年起
+  role: 装饰工程合作者
+  scope: 辞典所载多项装饰工程合作
+- source: persons/guido-abbatini.md
+  source_type: person
+  target: persons/romanelli.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-guido-abbatini
+    source_file: https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/
+    source_span: 出生与师承首段、Romanelli合作段及卒年末句
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1637–1642
+  role: 壁画合作者
+  scope: 梵蒂冈玛蒂尔达伯爵夫人厅壁画
 - source: persons/guido-reni.md
   source_type: person
   target: works/reni-justice-embracing-peace.md
@@ -3193,6 +3549,45 @@
   time: 罗马合作期；1647年前起点有争议
   role: 人物画家／建筑景观画家
   scope: 有据合作作品；不由合作推定共同政治立场或所有作品共同署名
+- source: persons/niccolo-bambini.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-niccolo-bambini
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 艺术家生涯段：威尼斯训练及1672罗马记录
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 训练城市
+  scope: 早期受训；不推定具体导师
+- source: persons/niccolo-bambini.md
+  source_type: person
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-niccolo-bambini
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 艺术家生涯段：威尼斯训练及1672罗马记录
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1672'
+  role: 有文献记录的活动城市
+  scope: 受训后生涯的罗马记录
 - source: persons/nicolas-poussin.md
   source_type: person
   target: works/poussin-spring-valguarnera.md
@@ -3272,6 +3667,184 @@
   time: 1647-02-10起
   role: 第二任配偶
   scope: 采用Treccani DBI的精确婚日；Doria Pamphilj英文页1646为异文
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: places/pisa.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1563'
+  role: 出生地点
+  scope: 个人出生事件
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: persons/artemisia-gentileschi.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: Artemisia是Orazio的女儿
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: persons/artemisia-gentileschi.md
+  target_type: person
+  relation_type: teacher_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘画教师
+  scope: 父亲训练女儿；亲缘与师承分开
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: influenced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1600起
+  role: 绘画风格影响来源
+  scope: 短暂吸收自然主义；不等同正式师承
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1576／1578
+  role: 迁入城市
+  scope: 1576/8依馆方日期保留
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: places/genoa.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1621'
+  role: 迁入工作城市
+  scope: 生涯转折，邀请者另待补
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: places/paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1626以前
+  role: 工作城市
+  scope: 赴伦敦之前的法国工作阶段
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1626'
+  role: 迁入工作城市
+  scope: 离开巴黎赴英国宫廷
+- source: persons/orazio-gentileschi.md
+  source_type: person
+  target: persons/charles-i.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-orazio-gentileschi
+    source_file: https://www.nationalgallery.org.uk/artists/orazio-gentileschi
+    source_span: 生于Pisa、子女训练、Caravaggio影响与分期生涯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1626起
+  role: 宫廷赞助者
+  scope: 宫廷服务概况；不将特定作品的委托归给国王
 - source: persons/paolo-borghese.md
   source_type: person
   target: families/borghese-family.md
@@ -4894,6 +5467,63 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 建筑内部礼拜堂
+- source: places/gallery-palazzo-buonaccorsi.md
+  source_type: place
+  target: persons/raimondo-buonaccorsi.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画廊装饰委托者
+  scope: 布奥纳科尔西宫埃涅阿斯画廊
+- source: places/gallery-palazzo-buonaccorsi.md
+  source_type: place
+  target: places/palazzo-buonaccorsi.md
+  target_type: place
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 95–95; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所属建筑
+  scope: 原书图版33b的宫内画廊
+- source: places/gallery-palazzo-buonaccorsi.md
+  source_type: place
+  target: places/macerata.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 95–95; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所在城市
+  scope: 原书图版33b的宫内画廊
 - source: places/naples-cathedral.md
   source_type: place
   target: places/naples.md
@@ -5737,6 +6367,85 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 原书目录位置；不外推现藏或画中地点
+- source: works/bambini-aeneas-tells-dido-fall-of-troy.md
+  source_type: work
+  target: persons/niccolo-bambini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 作者字段及归属说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1712'
+  role: 画家
+  scope: 馆藏131a
+- source: works/bambini-aeneas-tells-dido-fall-of-troy.md
+  source_type: work
+  target: places/gallery-palazzo-buonaccorsi.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: realizzato per la Galleria段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1712–1713交付
+  role: 原定装饰画廊
+  scope: 馆藏131a
+- source: works/bambini-aeneas-tells-dido-fall-of-troy.md
+  source_type: work
+  target: places/gallery-palazzo-buonaccorsi.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: Attualmente esposta与collocazione
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 网页记录，访问2026-09-15
+  role: 馆方所载陈列位置
+  scope: 馆藏131a；画廊14室
+- source: works/bambini-aeneas-tells-dido-fall-of-troy.md
+  source_type: work
+  target: archives/virgil-aeneid.md
+  target_type: archive
+  relation_type: derived_from
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 题材首段：primo libro dell’Eneide di Virgilio
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 文学题材来源
+  scope: 第一卷宴会场景
 - source: works/bernardino-castelli-teodoro-correr.md
   source_type: work
   target: persons/bernardino-castelli.md
@@ -10008,6 +10717,44 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版17b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/claude-mellan-vincenzo-giustiniani.md
+  source_type: work
+  target: persons/claude-mellan.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
+- source: works/claude-mellan-vincenzo-giustiniani.md
+  source_type: work
+  target: persons/marchese-giustiniani-ch1.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像人物
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
 - source: works/claude-view-of-delphi-with-a-procession.md
   source_type: work
   target: persons/claude-lorrain.md
@@ -10144,6 +10891,44 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者
+- source: works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md
+  source_type: work
+  target: persons/domenico-cerato.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 147–147; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
+- source: works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md
+  source_type: work
+  target: places/pra-della-valle.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 147–147; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 整治方案所拟用于的广场
+  scope: 原书图版署名及题名；不据此外推具体印本或现藏
 - source: works/facade-of-s-maria-del-giglio.md
   source_type: work
   target: places/s-maria-del-giglio.md
@@ -19105,6 +19890,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/virgil-aeneid.md
+  source_type: archive
+  target: persons/virgil.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: macerata-131a
+    source_file: https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/
+    source_span: 题材首段：Eneide di Virgilio
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 文学作者
+  scope: 《埃涅阿斯纪》作品层级
 - source: archives/waterhouse-rome-painting-1971.md
   source_type: archive
   target: persons/ellis-waterhouse.md

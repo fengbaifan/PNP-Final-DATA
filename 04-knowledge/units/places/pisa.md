@@ -47,6 +47,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 时间：1563；角色：出生地点；范围：个人出生事件；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 角色：墓所在城市；范围：图版60图像内容；不将比萨解释为版画印本所在地；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
 | ← 所在地（`location_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 时间：本书所述时点；角色：墓所在城市；范围：图版60所绘墓；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
 

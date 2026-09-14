@@ -45,9 +45,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [弗朗切斯科·法内利（Francesco Fanelli）](francesco-fanelli.md) | 时间：1632；角色：年金赞助者；范围：Met策展传记的年金记载；原断言与证据见发出端卡片“弗朗切斯科·法内利（Francesco Fanelli）”：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
+| ← 任命者（`appointer_of`，反向投影） | [弗朗切斯科·法内利（Francesco Fanelli）](francesco-fanelli.md) | 时间：1635；角色：王室雕塑家任命者；范围：个人获任官职，不从作品肖像角色推导；原断言与证据见发出端卡片“弗朗切斯科·法内利（Francesco Fanelli）”：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](orazio-gentileschi.md) | 时间：1626起；角色：宫廷赞助者；范围：宫廷服务概况；不将特定作品的委托归给国王；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [查理一世肖像（Portrait of Charles I）](../works/francesco-fanelli-charles-i.md) | 角色：肖像人物；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；原断言与证据见发出端卡片“查理一世肖像（Portrait of Charles I）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口

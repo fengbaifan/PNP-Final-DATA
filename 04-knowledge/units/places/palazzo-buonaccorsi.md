@@ -72,7 +72,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](gallery-palazzo-buonaccorsi.md) | 角色：所属建筑；范围：原书图版33b的宫内画廊；原断言与证据见发出端卡片“布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 95–95; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 
