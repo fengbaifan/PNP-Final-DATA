@@ -58,7 +58,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 角色：所引馆藏记录保管机构；范围：1874,0808.43；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Museum number与馆藏记录 |
+| ← 取得者（`acquirer_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 时间：1874；角色：入藏机构；范围：1874,0808.43；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Acquisition date |
 
 ### 关系候选入口
 

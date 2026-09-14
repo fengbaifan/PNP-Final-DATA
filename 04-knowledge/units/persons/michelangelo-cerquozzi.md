@@ -153,6 +153,7 @@ Passeri的教育批评与Baldinucci描述的社交及收藏成功并置。Giusep
 | ← 所创作对象（`creator_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | 范围：图版22a；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
 | ← 为其所涉对象（`subject_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | 范围：图版22a题名所指画家自我描绘；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
 | ← 所创作对象（`creator_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 时间：1647年底至1648年初；角色：画家；范围：馆藏81；创作时段采用馆方说明，目录另记1648；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：commissionata、eseguì段 |
+| ← 所创作对象（`creator_of`，反向投影） | [女浴（Women's Bath）](../works/michelangelo-cerquozzi-women-s-bath.md) | 角色：原书署名作者；范围：图版23a；原断言与证据见发出端卡片“女浴（Women's Bath）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 76–76; 章前：图版目录；印刷页xiii |
 
 ### 身份与外部链接
 

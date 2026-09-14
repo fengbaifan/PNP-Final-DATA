@@ -61,7 +61,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [醉西勒诺斯（The drunken Silenus）](../works/ribera-the-drunken-silenus.md) | 角色：所引馆藏记录保管机构；范围：Q298；原断言与证据见发出端卡片“醉西勒诺斯（The drunken Silenus）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；works-ribera-the-drunken-silenus；库存及定位字段 |
 
 ### 关系候选入口
 

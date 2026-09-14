@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [威尼斯寓意（Allegory of Venice）](../works/niccolo-bambini-allegory-of-venice.md) | 角色：原书署名作者；范围：图版42b；原断言与证据见发出端卡片“威尼斯寓意（Allegory of Venice）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

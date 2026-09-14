@@ -102,6 +102,7 @@ Annick Lemoine与Keith Christiansen的《Valentin de Boulogne: Beyond Caravaggio
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [罗马寓意（Allegory of Rome）](../works/valentin-allegory-of-rome.md) | 角色：原书署名作者；范围：图版01；原断言与证据见发出端卡片“罗马寓意（Allegory of Rome）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 35–35; 章前：图版目录；印刷页xii |
 | ← 所创作对象（`creator_of`，反向投影） | [瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）](../works/valentin-genre-commission.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；原断言与证据见发出端卡片“瓦朗坦《有算命人的音乐聚会》（A Musical Company with a Fortune-Teller）”：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
 
 ### 身份与外部链接

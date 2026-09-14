@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 角色：纪念对象；范围：图版41b纪念碑本体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 113–113; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

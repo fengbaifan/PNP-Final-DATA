@@ -65,7 +65,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 预定地点（`intended_site_of`，反向投影） | [玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）](../works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md) | 时间：1643付款所涉作品；角色：为之创作的教堂；范围：Madonna del Rosario；原断言与证据见发出端卡片“玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）”：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；per la chiesa domenicana di S.Sabina及付款段 |
 
 ### 关系候选入口
 

@@ -78,7 +78,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）](../persons/ferdinando-marescalchi.md) | 时间：1816；角色：去世地点；范围：个人生命事件；原断言与证据见发出端卡片“费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）”：[来源](https://www.treccani.it/enciclopedia/marescalchi-ferdinando-conte/)；persons-ferdinando-marescalchi；首句：Modena 1816 |
 
 ### 身份与外部链接
 

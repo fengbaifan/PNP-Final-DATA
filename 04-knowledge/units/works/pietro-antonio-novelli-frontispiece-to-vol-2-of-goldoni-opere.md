@@ -4,15 +4,15 @@ name_en: Frontispiece to The Comedies of Carlo Goldoni, vol. 2
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980;
-    this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L135–135
   sentence_summary: 图版57b为Pietro Antonio Novelli的戈尔多尼作品第二卷卷首图，载体由Pasquali出版，原书标年1761。
   original_quotes:
   - source_span: lines 135–135
-    text: '57 a Piazzetta: Final plate of Illustrations to Gerusalemme Liber ata, published by Albrizzi 1745,
-      with portraits of Piazzetta and Albrizzi 344 b Pietro Antonio Novelli: Frontispiece to Vol. 2 of Goldoni:
-      Opere, published by Pasquali, 1761'
+    text: '57 a Piazzetta: Final plate of Illustrations to Gerusalemme Liber ata, published by Albrizzi 1745, with
+      portraits of Piazzetta and Albrizzi 344 b Pietro Antonio Novelli: Frontispiece to Vol. 2 of Goldoni: Opere,
+      published by Pasquali, 1761'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
@@ -27,8 +27,31 @@ sources:
   sentence_summary: 书目列Carlo Goldoni、插图者Pietro Antonio Novelli、印刷者Giovanni Battista Pasquali；出版项为In Venezia、Per
     Giambatista Pasquali、1761；此记录为整套书目。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#剩余作品与收藏链集中审查
+relations:
+- relation_type: created_by
+  target: persons/pietro-antonio-novelli.md
+  evidence_ref:
+    doc_id: works-pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere
+    source_file: https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/
+    source_span: Goldoni的Pasquali版插图段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 插图设计者
+  scope: Pasquali版第二卷卷首图
+- relation_type: part_of
+  target: archives/goldoni-opere-vol-2-1761.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 135–135; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 载体文献
+  scope: 图版57b；第二卷，原书标年1761
 ---
 
 ## 内容
@@ -68,7 +91,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [皮埃特罗·安东尼奥·诺韦利（Pietro Antonio Novelli）](../persons/pietro-antonio-novelli.md) | 角色：插图设计者；范围：Pasquali版第二卷卷首图；证据：[来源](https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/)；works-pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere；Goldoni的Pasquali版插图段 |
+| → 组成部分（`part_of`） | [戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）](../archives/goldoni-opere-vol-2-1761.md) | 角色：载体文献；范围：图版57b；第二卷，原书标年1761；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

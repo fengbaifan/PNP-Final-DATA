@@ -305,6 +305,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | ← 所在地（`location_of`，反向投影） | [梳妆少女（Girl at her toilet）](../works/g-m-crespi-girl-at-her-toilet.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版36b／37a各自原书行段；两件作品分别保存；原断言与证据见发出端卡片“梳妆少女（Girl at her toilet）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 102–102; 章前：图版目录；印刷页xiv |
 | ← 所在地（`location_of`，反向投影） | [画家一家（The Painter's Family）](../works/g-m-crespi-the-painter-s-family.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版36b／37a各自原书行段；两件作品分别保存；原断言与证据见发出端卡片“画家一家（The Painter's Family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 103–103; 章前：图版目录；印刷页xiv |
 | ← 所在地（`location_of`，反向投影） | [撒迦利亚被石击（The stoning of Zechariah）](../works/giannantonio-fumiani-the-stoning-of-zechariah.md) | 时间：本书所述时点；角色：书中保管地点；范围：原书目录位置；不外推现藏或画中地点；原断言与证据见发出端卡片“撒迦利亚被石击（The stoning of Zechariah）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 111–111; 章前：图版目录；印刷页xiv |
+| ← 所在地（`location_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版04a；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 43–43; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

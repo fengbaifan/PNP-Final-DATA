@@ -102,6 +102,7 @@
 - [费德里科·祖卡里（Federico Zuccari）](../../04-knowledge/units/persons/federigo-zuccari.md)
 - [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../../04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md)
 - [费迪南多二世·德·美第奇（Ferdinando II de’ Medici）](../../04-knowledge/units/persons/ferdinando-ii-de-medici.md)
+- [费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）](../../04-knowledge/units/persons/ferdinando-marescalchi.md)
 - [菲利波·巴尔迪努奇（Filippo Baldinucci）](../../04-knowledge/units/persons/filippo-baldinucci.md)
 - [菲利波·劳里（Filippo Lauri）](../../04-knowledge/units/persons/filippo-lauri.md)
 - [弗拉米尼奥·科尔内尔（Flaminio Corner）](../../04-knowledge/units/persons/flaminio-corner.md)

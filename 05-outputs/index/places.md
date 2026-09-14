@@ -48,6 +48,7 @@
 - [伦敦（London）](../../04-knowledge/units/places/london.md)
 - [卢卡（Lucca）](../../04-knowledge/units/places/lucca.md)
 - [马切拉塔（Macerata）](../../04-knowledge/units/places/macerata.md)
+- [马德里（Madrid）](../../04-knowledge/units/places/madrid.md)
 - [墨尔本（Melbourne）](../../04-knowledge/units/places/melbourne.md)
 - [米兰（Milan）](../../04-knowledge/units/places/milan.md)
 - [摩德纳（Modena）](../../04-knowledge/units/places/modena.md)

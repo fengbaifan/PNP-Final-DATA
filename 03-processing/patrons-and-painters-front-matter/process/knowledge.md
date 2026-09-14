@@ -2282,3 +2282,61 @@ MFAH再次读取对象页面，所采用内容仍限已有作品字段、Descrip
 ### 写入与核对
 
 本批96个计划文件均已写回，93张受影响卡的191条原书摘录、871条本地链接及来源保留预检通过；94条新增关系逐字段与892条关系索引一致，14步同步检查通过。全库917个有效登记、章前547个KU、25张尚无出向关系的章前作品已复核。本批及前两批成果纳入REV-111提交同步范围；机械核对与语义自查不等同整体完成或独立验收。
+
+## 剩余作品与收藏链集中审查
+
+2026-09-15接续REV-093；REV-111已同步至4f1c7ad。本批完整读取剩余25件无出向正式边作品的元数据、正文与来源范围，并反查卷首图载体和新收藏端点。逐条语义决定关系，不由链接或共现自动生成。多数关系复用此前已保存的原书及外部阅读证据，本轮未重新通读所有外部文献。
+
+### 本轮补充阅读与身份裁决
+
+直接重读NT1257142的对象字段、Caption、Summary、Provenance、Credit line、Makers、展史与书目。原文明确Massimi持有至死，Haro及Marescalchi随后所有；查重后复用第一章已有卡尔皮奥侯爵；新建Marescalchi作为必要端点。Haro由大学历史藏书者记录的名称、生卒、头衔和外交身份交叉对应；该页正文后的无关游戏链接不采用。Marescalchi由Treccani简条全篇核对姓名、生卒及伯爵身份。BNE页面502和Lombardia目录超时不计为读取成功；仅搜索命中的其他传记不作为已读事实。Marescalchi尚需完整生平、亲缘及其他适用内容补足；卡尔皮奥侯爵旧卡出生地与其余已读身份摘要存在疑点，尚须回源核对，未据该字段新增出生地关系，本轮只补当前肖像收藏链所需深度，不递归接收全部背景对象。NT流传段的中间省略仍保留，馆方列出的其他作品只作后续收藏线索，未核具体版本。
+
+重读Salvi DBI的1643委托付款段及其上下文，同段称Olimpia为Camillo之妻，故与既有Aldobrandini端点对应；不把后来的Pamphili名形当作1643年婚姻证据。旧卡来源保留，未重新阅读付款档案原件。
+
+### 逐件语义裁决
+
+| 作品 | 当前裁决与缺口 |
+|---|---|
+| [女浴（Women's Bath）](../../../04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md) | 作者及城市2条；Incisa della Rocchetta的人物／家族身份及具体版本继续待证。 |
+| [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../../../04-knowledge/units/works/monument-to-doge-giovanni-pesaro.md) | 4条；纪念碑、供片照片分别限定；3519／180NV不指定本书底片，创作者未核。 |
+| [舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）](../../../04-knowledge/units/works/nazari-equestrian-portrait-of-schulenburg.md) | 3条外部关系；1733是委托年，失传不填现藏。 |
+| [威尼斯寓意（Allegory of Venice）](../../../04-knowledge/units/works/niccolo-bambini-allegory-of-venice.md) | 3条；拟人化威尼斯的具体指称仍需图像及语境核对，不直接归入城市题材边。 |
+| [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../../../04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md) | 3条；Zeri照片编号不当绘画库存号。 |
+| [欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）](../../../04-knowledge/units/works/p-van-bleek-owen-mcswiny.md) | 3条；不在NPG1417油画与D5204版画之间强选，不细化署名者为刻版者。 |
+| [赫拉克勒斯的选择（The choice of Hercules）](../../../04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md) | 3条；Hercules题材端点及单件身份待补。 |
+| [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../../../04-knowledge/units/works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 6条；题名中的王储身份不改成作画时任职，1806移藏不推定新机构的成立时间或法律产权。 |
+| [皮埃尔·莫特及家人（Pierre Motteux and his family）](../../../04-knowledge/units/works/pellegrini-pierre-motteux-and-his-family.md) | 4条；家人未具名不补造配偶和子女身份，两个年代粒度并列。 |
+| [戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）](../../../04-knowledge/units/works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md) | 2条；设计不等于刻版，文字作者与出版者在载体文献保存。 |
+| [乌尔班八世统治的荣耀（Glorification of the Reign of Urban VIII）](../../../04-knowledge/units/works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md) | 4条；颂扬统治不等于写实肖像，技法、年款及赞助另补。 |
+| [马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）](../../../04-knowledge/units/works/pietro-da-cortona-marcello-sacchetti.md) | 4条原书关系；外部版本、日期和媒介仍缺。 |
+| [威尼斯的胜利（The Triumph of Venice）](../../../04-knowledge/units/works/pompeo-batoni-the-triumph-of-venice.md) | 9条；委托、原始安置、基金会取得与赠出、博物馆受赠分开，未把威尼斯拟人题材自动转为现实城市。 |
+| [婚姻（Marriage）](../../../04-knowledge/units/works/poussin-marriage.md) | 2条；Duke of Rutland具体持衔人未定，收藏者关系暂缓。 |
+| [摩西践踏法老王冠（Moses trampling on Pharaoh's crown）](../../../04-knowledge/units/works/poussin-moses-trampling-on-pharaoh-s-crown.md) | 3条；Moses与Pharaoh端点未建，别作照片仅支持Agraci商号身份。 |
+| [凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）](../../../04-knowledge/units/works/rembrandt-aristotle-contemplating-the-bust-of-homer.md) | 6条；荷马是画中胸像对象，多个基金和捐赠者未具名不创建虚构实体。 |
+| [醉西勒诺斯（The drunken Silenus）](../../../04-knowledge/units/works/ribera-the-drunken-silenus.md) | 3条；借展清单展期不作为实际借出／返还时间，尺寸异文保留，Silenus端点待补。 |
+| [罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）](../../../04-knowledge/units/works/romanelli-romulus-and-remus.md) | 3条；不将局部复制作为另件原作，不以画廊整体年代和作者代替具体场景匹配；part_of仍待核。 |
+| [圣母子（Madonna and Child）](../../../04-knowledge/units/works/sassoferrato-madonna-and-child.md) | 2条；Galleria Nazionale机构粒度及作品版本未定，圣母子具体题材端点待补。 |
+| [玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）](../../../04-knowledge/units/works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md) | 5条；本轮重读DBI委托段，以Camillo之妻指代核对端点，1643为付款年而非婚期；圣徒端点仍缺，档案原件未读。 |
+| [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../../../04-knowledge/units/works/tomb-of-francesco-algarotti.md) | 6条；1769为版画年，不用作墓建成日期，版画反向题材入口保留。 |
+| [罗马寓意（Allegory of Rome）](../../../04-knowledge/units/works/valentin-allegory-of-rome.md) | 3条；Rome拟人题材与真实保管城市分开，外部作品版本未核。 |
+| [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../../../04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md) | 13条；赠与双方、安置空间、征收与返还分开；1814／1815并列，不把画家可能同住转为确定居住关系。 |
+| [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../../../04-knowledge/units/works/velasquez-camillo-massimi.md) | 13条；本轮重读NT完整对象字段、图注与流传段，最初持有人有明确原文依据；复用既有卡尔皮奥侯爵，补建Marescalchi端点，不补造流传中间省略部分。 |
+| [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../../../04-knowledge/units/works/velasquez-juan-de-pareja.md) | 5条；描绘关系不替代人物之间的奴役及获释事实，相关人物关系须另审。 |
+
+### 状态与交接
+
+25件作品关系逐项落实，另为《喜剧集》第二卷补入作者、出版者与出版地3条，为两位收藏者的生卒地点补3条。全批新增120条关系、1个新KU，并更新1个既有收藏者；作品描述改进3张，马西米肖像拆分混合字段并加入历史所有人。原书证据与外部证据分开，外部收藏者不伪造原书行号。
+
+无出向边的作品数量将降至0，但这仅消除本次可见结构缺口：单来源卡的作品身份、媒介年代、题材端点及委托仍须补足；已有边也不能证明全面关系审查完成。9项主候选、其他版本与来源异文、Cozzi机构／藏书端点、MFAH流传链保持待处理。下一步集中核题材人物、未定收藏主体和原画／印本身份，补足后再审查全部已采纳事实。知识发现、页面和人工校验继续暂停，不自动提交推送。
+
+## 卡尔皮奥侯爵出生地更正
+
+2026-09-15。全库查重将NT所述Gaspar de Haro复用到第一章既有marchese-del-carpio卡，发现旧正文出生地记为那不勒斯。CEEH《La corte en llamas》出版介绍首段明确Madrid, 1629 – Nápoles, 1687，故原位改为马德里，新增必要地点端点及1条出生地点关系；那不勒斯去世地点保留。旧sources全部保留；原“Wikidata P19；有参考”不作为本次确认依据。本轮Wikidata实体JSON403，未取得当前P19，不能宣称已核该属性或双向身份。RAH跳转无可读正文、Prado及外交部PDF403不计成功；本次事实采用实际读到的CEEH页面，不依靠搜索摘要。没有读取2023专著全文。
+
+前一批120条关系已与1012条索引逐字段核对，115个计划文件写入一致，111张受影响卡的212条原书摘录和1035条链接预检通过，14步同步检查通过。本次更正为新证据驱动的单点返修，不全库重复语义审查；第一章共享卡已更新，第一章结果补交接记录。马德里目前只补必要出生地语境，地理细节按实际后续需要补足。
+
+### 核对结果与后续定位
+
+出生地更正的7个计划文件写入一致，原书摘录与旧sources保留；新增出生关系及前批120条关系逐字段对应1013条索引，两次14步同步检查通过。累计全库919个、章前550个KU；类型为person222、institution91、archive19、place98、term4、work112、family3、event1。25张原先无出向边作品均已形成有据关系，结构缺口归零不改变全面补足与关系定稿未完成的状态。
+
+后续来源定位扫描：章前卡中150张尚未登记含外部URL的来源，分为人物34、作品52、地点57、家族2、机构1、术语4。此扫描只定位卡内来源登记，不能断言这些对象从未被查阅，也不能说明其他带URL对象已经完整核验。优先处理人物身份和作品单件版本，连同题材端点、未知私人收藏者、已有卡正文遗漏继续推进；不新建重复人物，不将9条主候选误作全部剩余缺口。

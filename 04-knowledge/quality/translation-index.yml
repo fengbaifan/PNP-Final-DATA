@@ -1,5 +1,5 @@
 generated: '2026-09-15'
-total: 775
+total: 776
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -629,6 +629,12 @@ index:
   type: persons
   name_en: Ferdinando II de’ Medici
   title: 费迪南多二世·德·美第奇（Ferdinando II de’ Medici）
+  name_original: ''
+  language_original: ''
+- slug: persons/ferdinando-marescalchi
+  type: persons
+  name_en: Ferdinando Marescalchi
+  title: 费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）
   name_original: ''
   language_original: ''
 - slug: persons/filippo-baldinucci
@@ -1311,8 +1317,8 @@ index:
   language_original: ''
 - slug: persons/marchese-del-carpio
   type: persons
-  name_en: '"Gaspar Méndez de Haro, 7th Marquess of Carpio"'
-  title: '"加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）"'
+  name_en: Gaspar Méndez de Haro, 7th Marquess of Carpio
+  title: 加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）
   name_original: ''
   language_original: ''
 - slug: persons/marchese-gerini
@@ -3579,8 +3585,8 @@ index:
   language_original: ''
 - slug: works/pietro-da-cortona-marcello-sacchetti
   type: works
-  name_en: '"Portrait of Marcello Sacchetti"'
-  title: '"马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）"'
+  name_en: Portrait of Marcello Sacchetti
+  title: 马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）
   name_original: ''
   language_original: ''
 - slug: works/pietro-da-cortona-rape-of-helen

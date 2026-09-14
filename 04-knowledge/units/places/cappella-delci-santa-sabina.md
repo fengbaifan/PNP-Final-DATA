@@ -43,7 +43,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）](../works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md) | 角色：所引地点说明中的安置空间；范围：Madonna del Rosario；原断言与证据见发出端卡片“玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）”：[来源](https://www.italia.it/it/lazio/roma/s-sabina-all-aventino)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；cappella d’Elci与Sassoferrato作品说明 |
 
 ### 关系候选入口
 

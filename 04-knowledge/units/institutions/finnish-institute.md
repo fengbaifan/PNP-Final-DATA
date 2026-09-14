@@ -82,10 +82,10 @@ relations:
 [罗马市机构介绍](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)（S2）；[研究所官网](https://irfrome.org/it/)（机构介绍所列入口）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 位于（`located_at`） | [罗马兰特别墅（Villa Lante, Rome）](../places/villa-lante-rome.md) | 角色：机构使用建筑；范围：机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置；证据：[来源](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)；institutions-finnish-institute；机构介绍与地址：Villa Lante，Gianicolo |
+| ← 保管对象（`holder_of`，反向投影） | [罗马寓意（Allegory of Rome）](../works/valentin-allegory-of-rome.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版01；原断言与证据见发出端卡片“罗马寓意（Allegory of Rome）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 35–35; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

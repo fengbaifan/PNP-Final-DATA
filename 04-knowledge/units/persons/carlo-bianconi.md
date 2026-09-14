@@ -54,10 +54,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Met对象说明](https://www.metmuseum.org/art/collection/search/335623)（S1）；[Rijksmuseum作者字段](https://id.rijksmuseum.nl/200471954)（S2）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 时间：1769版画所据绘图；角色：原绘图作者；范围：版画依据的绘图责任，区别墓本体的设计／建造；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
+| ← 所创作对象（`creator_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：墓建造负责人；范围：墓本体；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-tomb-of-francesco-algarotti；作品说明：Bianconi负责建造 |
 
 ### 关系候选入口
 

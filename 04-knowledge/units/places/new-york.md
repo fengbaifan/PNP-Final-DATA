@@ -62,10 +62,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [哥伦比亚大学（Columbia University）](../institutions/columbia-university.md) | 角色：所在地；范围：机构所在地；原断言与证据见发出端卡片“哥伦比亚大学（Columbia University）”：[来源](https://www.columbia.edu/content/about-columbia-university)；institutions-columbia-university；University Mission Statement两段及页面栏目；视频未观看 |
+| ← 所在地（`location_of`，反向投影） | [凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）](../works/rembrandt-aristotle-contemplating-the-bust-of-homer.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版35a；原断言与证据见发出端卡片“凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
+| ← 所在地（`location_of`，反向投影） | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../works/velasquez-juan-de-pareja.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版34；原断言与证据见发出端卡片“胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 96–96; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

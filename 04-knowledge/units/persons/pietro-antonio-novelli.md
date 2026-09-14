@@ -72,7 +72,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）](../works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md) | 角色：插图设计者；范围：Pasquali版第二卷卷首图；原断言与证据见发出端卡片“戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）”：[来源](https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/)；works-pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere；Goldoni的Pasquali版插图段 |
 
 ### 关系候选入口
 

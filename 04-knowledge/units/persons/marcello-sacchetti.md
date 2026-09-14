@@ -119,6 +119,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 赞助者／保护人（`patron_of`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 问明籍贯并认作同乡后，Sacchetti 将画家安置在自己宫中；角色：提供宫中住处与保护的赞助人；范围：确认同乡后的接纳与安置；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 217–220; print pp. 7 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）](../works/pietro-da-cortona-marcello-sacchetti.md) | 角色：肖像人物；范围：图版04b；原断言与证据见发出端卡片“马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 44–44; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

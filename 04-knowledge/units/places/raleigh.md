@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版45；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 123–123; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

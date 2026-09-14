@@ -4,25 +4,68 @@ name_en: Romulus and Remus (Ceiling Detail)
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xiii；OCR L79–79
   sentence_summary: 《赞助人与画家》图版26b目录所记的《罗慕路斯与雷穆斯顶画局部》艺术对象。
   original_quotes:
   - source_span: lines 79–79
-    text: '26 a Nanteuil: Cardinal Mazarin in his Gallery b Romanelli: Romulus and Remus. Detail from ceiling of gallery in Bibliothèque Nationale (formerly Palais Mazarin)'
+    text: '26 a Nanteuil: Cardinal Mazarin in his Gallery b Romanelli: Romulus and Remus. Detail from ceiling of
+      gallery in Bibliothèque Nationale (formerly Palais Mazarin)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 79–79; 章前：图版目录；印刷页xiii
-- citation: Bibliothèque nationale de France, La galerie Mazarine. https://www.bnf.fr/en/mazarin-gallery. Accessed 2026-09-14.
+- citation: Bibliothèque nationale de France, La galerie Mazarine. https://www.bnf.fr/en/mazarin-gallery. Accessed
+    2026-09-14.
   location: 完整正文、历史沿革及图注；尤其La galerie d’apparat du palais Mazarin
-  sentence_summary: 1644年Mazarin委托François Mansart扩建上下画廊；上层穹顶1646–1647年由Giovanni Francesco Romanelli及作坊绘制，列Paolo Gismondi，镀金灰泥责任者Ottaviano Ottoviani。页面中的未来修复计划不作当前状态。
-- citation: Bibliothèque nationale de France, Histoire d’une renaissance. https://www.bnf.fr/fr/histoire-dune-renaissance. Accessed 2026-09-14.
-  location: Le palais Mazarin、La galerie Mansart、La galerie Mazarin、Une bibliothèque dans un palais；Le devenir du site Richelieu机构沿革段
-  sentence_summary: 画廊位于巴黎的马扎然宫；Romanelli全名Giovanni Francesco，绘制上层穹顶于1646–1647。皇家图书馆1721年开始使用宫殿西半部；1994年1月3日Bibliothèque nationale与Bibliothèque de France合成Bibliothèque nationale de France。
+  sentence_summary: 1644年Mazarin委托François Mansart扩建上下画廊；上层穹顶1646–1647年由Giovanni Francesco Romanelli及作坊绘制，列Paolo
+    Gismondi，镀金灰泥责任者Ottaviano Ottoviani。页面中的未来修复计划不作当前状态。
+- citation: Bibliothèque nationale de France, Histoire d’une renaissance. https://www.bnf.fr/fr/histoire-dune-renaissance.
+    Accessed 2026-09-14.
+  location: Le palais Mazarin、La galerie Mansart、La galerie Mazarin、Une bibliothèque dans un palais；Le devenir du
+    site Richelieu机构沿革段
+  sentence_summary: 画廊位于巴黎的马扎然宫；Romanelli全名Giovanni Francesco，绘制上层穹顶于1646–1647。皇家图书馆1721年开始使用宫殿西半部；1994年1月3日Bibliothèque
+    nationale与Bibliothèque de France合成Bibliothèque nationale de France。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#马扎然画廊与版画责任
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#剩余作品与收藏链集中审查
+relations:
+- relation_type: created_by
+  target: persons/romanelli.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 79–79; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 所据顶画作者
+  scope: 图版26b所据顶画；局部复制范围
+- relation_type: held_by
+  target: institutions/bibliotheque-nationale.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 79–79; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中顶画所在机构
+  scope: 图版26b所据顶画；局部复制范围
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/palais-mazarin.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 79–79; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中顶画所在建筑
+  scope: 图版26b所据顶画；局部复制范围
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -59,7 +102,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](../persons/romanelli.md) | 角色：所据顶画作者；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [法国国家图书馆（National Library of France）](../institutions/bibliotheque-nationale.md) | 时间：本书所述时点；角色：书中顶画所在机构；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [马扎然宫（Palais Mazarin）](../places/palais-mazarin.md) | 时间：本书所述时点；角色：书中顶画所在建筑；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

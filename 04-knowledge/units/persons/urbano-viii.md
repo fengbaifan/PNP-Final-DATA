@@ -297,6 +297,7 @@ S1：p.3，L15–34，1623年后的赞助规模与控制。S2：p.4，L71–83�
 | ← 委托者（`commissioner_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372,514–516; print pp. 10,13 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [马费奥·巴贝里尼肖像（Maffeo Barberini）](../works/caravaggio-maffeo-barberini.md) | 角色：马费奥·巴贝里尼肖像人物；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；原断言与证据见发出端卡片“马费奥·巴贝里尼肖像（Maffeo Barberini）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 36–37; 章前：图版目录；印刷页xii |
 | ← 委托者（`commissioner_of`，反向投影） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](../works/caravaggio-sacrifice-isaac-uffizi.md) | 来源明确该端点承担Sacrifice of Isaac (Uffizi version)的委托角色；不由委托推定当前所有权；时间：约1603；角色：委托人／委托机构；范围：乌菲齐以付款证据支持卡拉瓦乔作者身份；与普林斯顿旧藏争议对象分开。；原断言与证据见发出端卡片“《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）”：[来源](https://www.uffizi.it/en/artworks/sacrifice-of-isaac)；commissioned-by-persons-urbano-viii-md；本卡S2；有S4时并参委托／历史段 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [乌尔班八世统治的荣耀（Glorification of the Reign of Urban VIII）](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md) | 角色：统治颂扬对象；范围：图版13；原断言与证据见发出端卡片“乌尔班八世统治的荣耀（Glorification of the Reign of Urban VIII）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 59–60; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

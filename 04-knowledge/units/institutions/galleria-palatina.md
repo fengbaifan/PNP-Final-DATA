@@ -61,10 +61,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [ICCD保管机构字段](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)（S2）；[OPD](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)（S1）；[Frick](https://www.frick.org/exhibitions/van_dyck/15)（S3）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 雇主（`employer_of`，反向投影） | [马尔科·基亚里尼（Marco Chiarini）](../persons/marco-chiarini.md) | 时间：1969–2000；角色：馆长；范围：帕拉蒂纳馆务任期；原断言与证据见发出端卡片“马尔科·基亚里尼（Marco Chiarini）”：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| ← 保管对象（`holder_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 角色：所引目录保管机构；范围：Palatina82；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)；works-van-dyck-cardinal-bentivoglio；定位及库存字段 |
 
 ### 关系候选入口
 

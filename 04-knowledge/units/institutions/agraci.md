@@ -73,7 +73,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 供应者（`supplier_of`，反向投影） | [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版25；原断言与证据见发出端卡片“公共幸福战胜危难（Public Felicity triumphant over Dangers）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [摩西践踏法老王冠（Moses trampling on Pharaoh's crown）](../works/poussin-moses-trampling-on-pharaoh-s-crown.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版19a；原断言与证据见发出端卡片“摩西践踏法老王冠（Moses trampling on Pharaoh's crown）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

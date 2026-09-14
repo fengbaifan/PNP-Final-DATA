@@ -68,7 +68,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../works/velasquez-juan-de-pareja.md) | 角色：肖像人物；范围：1971.86；原断言与证据见发出端卡片“胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）”：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；题名及页面导言 |
 
 ### 关系候选入口
 

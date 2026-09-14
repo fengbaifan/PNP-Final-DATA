@@ -85,12 +85,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [狄安娜狩猎（Hunt of Diana）](../works/domenichino-hunt-of-diana.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；原断言与证据见发出端卡片“狄安娜狩猎（Hunt of Diana）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
 | ← 为其所涉对象（`subject_of`，反向投影） | [1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）](../works/guglielmo-baur-view-of-villa-borghese-in-1630.md) | 角色：描绘对象；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；原断言与证据见发出端卡片“1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 46–46; 章前：图版目录；印刷页xii |
 | ← 所在地（`location_of`，反向投影） | [1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）](../works/guglielmo-baur-view-of-villa-borghese-in-1630.md) | 时间：本书所述时点；角色：书中作品所在建筑；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；原断言与证据见发出端卡片“1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 46–46; 章前：图版目录；印刷页xii |
+| ← 所在地（`location_of`，反向投影） | [马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）](../works/pietro-da-cortona-marcello-sacchetti.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版04b；原断言与证据见发出端卡片“马尔切洛·萨凯蒂肖像（Portrait of Marcello Sacchetti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 44–44; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

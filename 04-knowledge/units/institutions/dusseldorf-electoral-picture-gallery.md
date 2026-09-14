@@ -53,7 +53,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 时间：1806年移出前；角色：1806年移出前收藏；范围：馆藏4666的来源画廊；原断言与证据见发出端卡片“普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）”：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；Erwerb：1806 aus der Galerie Düsseldorf |
 
 ### 关系候选入口
 

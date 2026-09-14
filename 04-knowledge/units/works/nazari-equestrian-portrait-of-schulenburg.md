@@ -4,12 +4,51 @@ name_en: Equestrian Portrait of Schulenburg
 type: work
 evidence_status: source_backed
 sources:
-- citation: Fiorenzo Fisogni, NAZARI, Bartolomeo, Dizionario Biografico degli Italiani, vol. 78 (2017). https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/. Accessed 2026-09-14.
+- citation: Fiorenzo Fisogni, NAZARI, Bartolomeo, Dizionario Biografico degli Italiani, vol. 78 (2017). https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/.
+    Accessed 2026-09-14.
   location: 完整传记及书目；出生、1717年合作、1733年Schulenburg委托、1744年旅行和卒年段
-  sentence_summary: Bartolomeo Nazari，1693-05-31生，1758-08-24卒，画家和版画设计者；Schulenburg于1733年委托其绘失传骑马肖像，1744年邀其随行法兰克福。文中排除以风格相似判定Fra Galgario师承。
+  sentence_summary: Bartolomeo Nazari，1693-05-31生，1758-08-24卒，画家和版画设计者；Schulenburg于1733年委托其绘失传骑马肖像，1744年邀其随行法兰克福。文中排除以风格相似判定Fra
+    Galgario师承。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#剩余作品与收藏链集中审查
+relations:
+- relation_type: created_by
+  target: persons/b-nazari.md
+  evidence_ref:
+    doc_id: works-nazari-equestrian-portrait-of-schulenburg
+    source_file: https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/
+    source_span: 1733年Schulenburg委托骑马肖像段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画家
+  scope: 辞典所记失传骑马肖像
+  time: 1733委托
+- relation_type: commissioned_by
+  target: persons/marshal-schulenburg.md
+  evidence_ref:
+    doc_id: works-nazari-equestrian-portrait-of-schulenburg
+    source_file: https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/
+    source_span: 1733年Schulenburg委托骑马肖像段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 委托人
+  scope: 辞典所记失传骑马肖像
+  time: 1733委托
+- relation_type: has_subject
+  target: persons/marshal-schulenburg.md
+  evidence_ref:
+    doc_id: works-nazari-equestrian-portrait-of-schulenburg
+    source_file: https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/
+    source_span: 1733年Schulenburg委托骑马肖像段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 骑马肖像人物
+  scope: 辞典所记失传骑马肖像
+  time: 1733委托
 ---
 
 ## 内容
@@ -46,7 +85,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [巴托洛梅奥·纳扎里（Bartolomeo Nazari）](../persons/b-nazari.md) | 时间：1733委托；角色：画家；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
+| → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：委托人；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
+| → 所涉对象（`has_subject`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：骑马肖像人物；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
 
 ### 关系候选入口
 

@@ -50,7 +50,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）](../works/rembrandt-aristotle-contemplating-the-bust-of-homer.md) | 角色：画中人物；范围：图版35a；原断言与证据见发出端卡片“凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 
