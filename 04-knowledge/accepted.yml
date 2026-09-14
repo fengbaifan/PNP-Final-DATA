@@ -1,4 +1,4 @@
-# 当前有效成果：867 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：876 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -146,6 +146,7 @@ units:
 - 04-knowledge/units/institutions/pinacoteca-capitolina.md
 - 04-knowledge/units/institutions/pinacoteca-vaticana.md
 - 04-knowledge/units/institutions/pio-monte-della-misericordia.md
+- 04-knowledge/units/institutions/princeton-university-art-museum.md
 - 04-knowledge/units/institutions/regional-museum-messina.md
 - 04-knowledge/units/institutions/republic-of-venice.md
 - 04-knowledge/units/institutions/royal-academy.md
@@ -159,6 +160,7 @@ units:
 - 04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md
 - 04-knowledge/units/institutions/staatsgalerie-stuttgart.md
 - 04-knowledge/units/institutions/stearn-and-son.md
+- 04-knowledge/units/institutions/stichting-museum-boijmans-van-beuningen.md
 - 04-knowledge/units/institutions/streitsche-stiftung.md
 - 04-knowledge/units/institutions/studio-fotografico-balelli.md
 - 04-knowledge/units/institutions/t-and-a-constable.md
@@ -260,6 +262,7 @@ units:
 - 04-knowledge/units/persons/clement-viii.md
 - 04-knowledge/units/persons/clement-xi.md
 - 04-knowledge/units/persons/correggio.md
+- 04-knowledge/units/persons/dan-fellows-platt.md
 - 04-knowledge/units/persons/daphne-ionides.md
 - 04-knowledge/units/persons/denis-mahon.md
 - 04-knowledge/units/persons/domenichino.md
@@ -297,12 +300,14 @@ units:
 - 04-knowledge/units/persons/franco-venturi.md
 - 04-knowledge/units/persons/francois-chauveau.md
 - 04-knowledge/units/persons/francois-mansart.md
+- 04-knowledge/units/persons/franz-koenigs.md
 - 04-knowledge/units/persons/frederick-iii.md
 - 04-knowledge/units/persons/fulvio-testi.md
 - 04-knowledge/units/persons/g-h-w-rylands.md
 - 04-knowledge/units/persons/g-m-sasso.md
 - 04-knowledge/units/persons/g-volpato.md
 - 04-knowledge/units/persons/gaetano-cozzi.md
+- 04-knowledge/units/persons/gaspar-roomer.md
 - 04-knowledge/units/persons/gaspard-dughet.md
 - 04-knowledge/units/persons/gentile-bellini.md
 - 04-knowledge/units/persons/giacinto-brandi.md
@@ -493,6 +498,7 @@ units:
 - 04-knowledge/units/persons/ventura-carrara.md
 - 04-knowledge/units/persons/vincenzo-armanni-ch1.md
 - 04-knowledge/units/persons/virgil.md
+- 04-knowledge/units/persons/virgilio-spada.md
 - 04-knowledge/units/persons/vitale-bloch.md
 - 04-knowledge/units/persons/vittoria-di-lutio-loli.md
 - 04-knowledge/units/persons/viviano-codazzi.md
@@ -524,6 +530,7 @@ units:
 - 04-knowledge/units/places/contarelli-chapel.md
 - 04-knowledge/units/places/cortona.md
 - 04-knowledge/units/places/delphi.md
+- 04-knowledge/units/places/edinburgh.md
 - 04-knowledge/units/places/egypt.md
 - 04-knowledge/units/places/england.md
 - 04-knowledge/units/places/europe.md
@@ -566,6 +573,7 @@ units:
 - 04-knowledge/units/places/palazzo-doria-pamfili.md
 - 04-knowledge/units/places/palazzo-ducale.md
 - 04-knowledge/units/places/palazzo-pitti.md
+- 04-knowledge/units/places/palazzo-spada.md
 - 04-knowledge/units/places/palazzo-venezia.md
 - 04-knowledge/units/places/pamfili-country-house-valmontone.md
 - 04-knowledge/units/places/paris.md
@@ -844,6 +852,7 @@ units:
 - 04-knowledge/units/works/ribera-the-drunken-silenus.md
 - 04-knowledge/units/works/ricci-beheading-john-baptist-1682.md
 - 04-knowledge/units/works/romanelli-romulus-and-remus.md
+- 04-knowledge/units/works/rosa-regulus-study-princeton.md
 - 04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md
 - 04-knowledge/units/works/rubens-the-feast-of-herod.md
 - 04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md

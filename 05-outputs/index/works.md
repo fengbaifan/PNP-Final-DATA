@@ -176,6 +176,7 @@
 - [醉西勒诺斯（The drunken Silenus）](../../04-knowledge/units/works/ribera-the-drunken-silenus.md)
 - [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../../04-knowledge/units/works/ricci-beheading-john-baptist-1682.md)
 - [罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）](../../04-knowledge/units/works/romanelli-romulus-and-remus.md)
+- [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](../../04-knowledge/units/works/rosa-regulus-study-princeton.md)
 - [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../../04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md)
 - [希律王宴会（The Feast of Herod）](../../04-knowledge/units/works/rubens-the-feast-of-herod.md)
 - [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../../04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md)

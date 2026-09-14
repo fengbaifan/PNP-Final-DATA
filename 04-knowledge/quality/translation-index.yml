@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 737
+total: 744
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -505,6 +505,12 @@ index:
   title: '"科雷乔（Correggio）"'
   name_original: ''
   language_original: ''
+- slug: persons/dan-fellows-platt
+  type: persons
+  name_en: Dan Fellows Platt
+  title: 丹·费洛斯·普拉特（Dan Fellows Platt）
+  name_original: ''
+  language_original: ''
 - slug: persons/daphne-ionides
   type: persons
   name_en: Daphne Ionides
@@ -739,6 +745,12 @@ index:
   title: 弗朗索瓦·芒萨尔（François Mansart）
   name_original: ''
   language_original: ''
+- slug: persons/franz-koenigs
+  type: persons
+  name_en: Franz Koenigs
+  title: 弗朗茨·克尼希斯（Franz Koenigs）
+  name_original: ''
+  language_original: ''
 - slug: persons/frederick-iii
   type: persons
   name_en: '"Frederick III"'
@@ -773,6 +785,12 @@ index:
   type: persons
   name_en: Gaetano Cozzi
   title: 加埃塔诺·科齐（Gaetano Cozzi）
+  name_original: ''
+  language_original: ''
+- slug: persons/gaspar-roomer
+  type: persons
+  name_en: Gaspar Roomer
+  title: 加斯帕尔·罗默（Gaspar Roomer）
   name_original: ''
   language_original: ''
 - slug: persons/gaspard-dughet
@@ -1599,8 +1617,8 @@ index:
   language_original: ''
 - slug: persons/peter-paul-rubens
   type: persons
-  name_en: '"Rubens"'
-  title: '"鲁本斯（Rubens）"'
+  name_en: Peter Paul Rubens
+  title: 彼得·保罗·鲁本斯（Peter Paul Rubens）
   name_original: ''
   language_original: ''
 - slug: persons/piazzetta
@@ -1767,8 +1785,8 @@ index:
   language_original: ''
 - slug: persons/salvator-rosa
   type: persons
-  name_en: '"Salvator Rosa"'
-  title: '"萨尔瓦多·罗萨（Salvator Rosa）"'
+  name_en: Salvator Rosa
+  title: 萨尔瓦多·罗萨（Salvator Rosa）
   name_original: ''
   language_original: ''
 - slug: persons/sassoferrato
@@ -1925,6 +1943,12 @@ index:
   type: persons
   name_en: '"Virgil"'
   title: '"维吉尔（Virgil）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/virgilio-spada
+  type: persons
+  name_en: Virgilio Spada
+  title: 维尔吉利奥·斯帕达（Virgilio Spada）
   name_original: ''
   language_original: ''
 - slug: persons/vitale-bloch
@@ -3583,6 +3607,12 @@ index:
   title: 罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）
   name_original: ''
   language_original: ''
+- slug: works/rosa-regulus-study-princeton
+  type: works
+  name_en: Study for the Death of Atilius Regulus
+  title: 雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）
+  name_original: ''
+  language_original: ''
 - slug: works/rubens-chiesa-nuova-altarpiece-1606
   type: works
   name_en: '"Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella"'
@@ -4125,8 +4155,8 @@ index:
   language_original: ''
 - slug: institutions/museum-boymansvan-beuningen
   type: institutions
-  name_en: Museum Boymans–van Beuningen
-  title: 博伊曼斯—范伯宁恩博物馆（Museum Boymans–van Beuningen）
+  name_en: Museum Boijmans Van Beuningen
+  title: 博伊曼斯—范伯宁恩博物馆（Museum Boijmans Van Beuningen）
   name_original: ''
   language_original: ''
 - slug: institutions/museum-of-fine-arts-houston
@@ -4149,8 +4179,8 @@ index:
   language_original: ''
 - slug: institutions/national-gallery-of-scotland
   type: institutions
-  name_en: National Gallery of Scotland
-  title: 苏格兰国家美术馆（National Gallery of Scotland）
+  name_en: Scottish National Gallery
+  title: 苏格兰国家美术馆（Scottish National Gallery）
   name_original: ''
   language_original: ''
 - slug: institutions/national-gallery-of-victoria
@@ -4161,8 +4191,8 @@ index:
   language_original: ''
 - slug: institutions/national-museum-stockholm
   type: institutions
-  name_en: National Museum, Stockholm
-  title: 斯德哥尔摩国家博物馆（National Museum, Stockholm）
+  name_en: Nationalmuseum
+  title: 斯德哥尔摩国家博物馆（Nationalmuseum）
   name_original: ''
   language_original: ''
 - slug: institutions/national-portrait-gallery
@@ -4223,6 +4253,12 @@ index:
   type: institutions
   name_en: Pio Monte della Misericordia
   title: 仁慈山会（Pio Monte della Misericordia）
+  name_original: ''
+  language_original: ''
+- slug: institutions/princeton-university-art-museum
+  type: institutions
+  name_en: Princeton University Art Museum
+  title: 普林斯顿大学艺术博物馆（Princeton University Art Museum）
   name_original: ''
   language_original: ''
 - slug: institutions/regional-museum-messina
@@ -4301,6 +4337,12 @@ index:
   type: institutions
   name_en: Stearn and Son
   title: 斯特恩父子公司（Stearn and Son）
+  name_original: ''
+  language_original: ''
+- slug: institutions/stichting-museum-boijmans-van-beuningen
+  type: institutions
+  name_en: Stichting Museum Boijmans Van Beuningen
+  title: 博伊曼斯—范伯宁恩博物馆基金会（Stichting Museum Boijmans Van Beuningen）
   name_original: ''
   language_original: ''
 - slug: institutions/streitsche-stiftung

@@ -1239,3 +1239,69 @@ REV-099同步至`59bc2c6`后继续REV-093目标。按既有卡、原书证据及
 本轮32卡更新20、新建12；全库867个有效KU，章前495个（累计445个新建、46个既有有效KU更新、4个旧卡整理后接收）。9项原始主候选继续暂缓，其他具体版本缺口仍按前段保留。正式关系未新增，相关有据候选交后续关系审查；未再次提交推送。
 
 本轮32张卡的31条原书摘录、141条本地链接、来源编号及过程锚点核对通过；867条有效登记与495个章前KU计数一致。除两条明确纠正的65a句意摘要外，原sources前缀保持；原有正式relations保持。受影响内容机械检查无确定性发现，文档差异检查通过；这是语义自查与机械核对，不代表全面补足或正式关系定稿。
+
+## 馆藏机构与图版版本集中核对
+
+REV-100已实测同步至`485fca9`。本段继续REV-093目标，集中处理馆藏记录及其必需端点；阶段仍为初步对齐，已得到的内容字段同时补入。未重启知识发现、网页或人工校验。
+
+### 实际阅读与来源范围
+
+- Nationalmuseum对象[82794／NMH 554/1863](https://collection.nationalmuseum.se/en/collection/item/82794/)：完整对象字段、Description、题铭及图像版权文字；未做原图视觉比对。馆方[About Nationalmuseum](https://www.nationalmuseum.se/en/about-nationalmuseum)完整简介正文通过公开HTTP读取。仅据该页记录1792年成立、艺术与设计博物馆及政府机构身份，不将创立年当作现馆址落成年。
+- NGS[NG 2193](https://www.nationalgalleries.org/art-and-artists/5382)：完整对象字段、About及More about正文；后者原刊2015年馆藏选集。另读[National单馆入口](https://www.nationalgalleries.org/visit/scottish-national-gallery)馆名、简介和Getting here地址段。单馆与National Galleries of Scotland总机构不同；本次保留原书单馆端点，不另将总机构合并为同一KU，不把In Storage字段推广为持续至今的陈列状态。
+- ICCD[1200962613](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)：完整对象页面及同源[ICCD4644610 PDF](https://sigecweb.beniculturali.it/sigec/item/print/ICCD4644610)全部3页。PDF1为库存号、罗马馆址及第四室；PDF2为年代、技术、数值、委托和推测合作；PDF3为照片、参考书目及2005编目／2006更新。未阅读所引Cannatà、Vicini原著，不把目录书目命中当作全文阅读。
+- [Galleria Spada作品说明](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)：网页工具超时后公开HTTP读取题头及完整两段作品说明。ICCD及馆方是同一馆藏的不同描述，不能以域名不同自动计为独立事实证据。
+- [Boijmans I 135 (PK)／对象58489](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)：公开HTTP读取题头、全部Specifications、collector及作者字段。Fondazione1563的[2024年Cassiano文章](https://programmabarocco.fondazione1563.it/cassianodalpozzo/)中图注及末节提供馆藏链接线索；没有把该文所有知识、Museo cartaceo出版计划或引用人物扩张成已采纳内容。此次采用的技术、藏品号及借展链均直接来自馆藏页。
+- 复用此前已读Cambridge Museums、Paris Musées J 104、NGV 103-4来源，补到3个保管机构卡。Cambridge本轮另定向读两幅肖像当前标签；Paris本轮核对馆名、作者、年代及编号字段；NGV使用此前已读对象字段，不新增“本轮全文阅读”声明。复用来源不计新独立证据，不把两幅提埃坡罗宴会合并。卡内原有来源与对应作品卡一致。
+- 卡塞尔32136公开记录HTTP超时，当前未得到可用正文，未采纳搜索所见QID、库存或作品日期；不据此阻断其他馆藏对象。
+
+### 身份、版本及字段裁决
+
+1. 图版65b为马苏奇纸本黑粉笔素描，42.2×32.9厘米，NMH 554/1863；马苏奇1691–1758，题材是莫拉给教宗作像，不是马苏奇本人受教宗委托画肖像。馆方题铭记莫拉1609／1665，与既有生平1612／1666不同；本轮不以画上铭文改写人物出生死亡日期。汉堡FP566仅为目录比较线索，未读该对象记录，不并入本图版。
+2. 图版35b对应鲁本斯NG 2193，约1635–1638，1958年购入。馆方“probably commissioned”原样保留为可能委托，Gaspar Roomer新卡只承接有据商人／收藏家身份及该限定，不制造已确证交易。至1640年已到那不勒斯不等于1640年绘制。作品三维与带框三维分别保存，不猜第三项的测量定义。宗教叙事情节没有自动转成历史人物亲缘事实；原有Herod题材仍需单独身份与描绘关系处理。
+3. 图版22b对应馆藏81，国家目录1200962613。ICCD记1648，馆方详述1647年底至1648年初，分别记录不判作不同作品。ICCD PDF2记高96.8、宽134但未显式显示单位，馆方网页却记184×186 cm；本轮未填尺寸值，保留该字段待证，不凭常识选择或转换。ICCD对Codazzi建筑分工使用推测语气，馆方采用肯定表述；卡内并列限定，后续不能写成无条件共同创作边。宫殿为地点、馆为机构，Virgilio为委托人与历史收藏者。馆方所述与Bernardino的兄弟关系及Masaniello身份尚未展开端点，列后续待核，不宣称人物亲缘与描绘对象已补足。
+4. 图版17a对应I 135 (PK)，纸本笔绘棕墨，104×117 mm。馆方年代字段约1680单列；这不是作于模特生前的证明，不能由题材推导现场作画。保留Bernini的既有全名，馆方作者异体Giovanni Lorenzo不建立第二个人物。1940是借入记录；Franz Koenigs为旧藏者、Stichting Museum Boijmans Van Beuningen为出借方、Museum Boijmans Van Beuningen为保管方，三者不合并，也不把该年写成作品制作年或捐赠年。
+5. 鲁本斯显示名展开为Peter Paul Rubens，双语描述去掉旧的“完整姓名未验证”陈述，保留第一章新教堂及modello语境。其原卡教育、亲缘、代表作等旧表仍有未参考或未链接内容，需要后续针对来源清理；本轮不以改名和一件作品资料宣称其整卡补足完成。Codazzi已有合作反向展示错误把发出端S7写成“本卡S7”，此次只改成“发出端第7条来源”，不更改该正式关系断言。
+
+### 关系候选交接
+
+以下为外部证据支持的内容关联，原书候选仍保留原证据跨度，未新增正式边；同行角色各自沿对应作品卡sources核对。
+
+| 候选锚点 | 起点 → 终点 | 类型／限定 | 证据及待核 |
+|---|---|---|---|
+| MUS-01 | Masucci → 莫拉为教宗作像素描 | 创作 | NMH 554/1863；无精确制作年 |
+| MUS-02 | 莫拉作像素描 → Mola／Alexander VII | 描绘，分别确认两端 | NMH 554/1863；不推导委托 |
+| MUS-03 | Nationalmuseum → 莫拉作像素描 | 保管 | NMH 554/1863；非成立年起藏 |
+| MUS-04 | Rubens → 希律王宴会 | 创作，约1635–1638 | NG 2193 |
+| MUS-05 | Gaspar Roomer → 希律王宴会 | 可能委托 | NG 2193；不可升为确定边 |
+| MUS-06 | 苏格兰国家美术馆 → 希律王宴会 | 1958购入／收藏 | NG 2193；单馆与总机构粒度保留 |
+| MUS-07 | Virgilio Spada → 马萨涅洛起义 | 委托、历史收藏，分别记录 | ICCD与馆方；年粒度分别保存 |
+| MUS-08 | Codazzi → 马萨涅洛起义 | 建筑背景绘制，归属表述不同 | 不以一般合作关系证明本件分工确定 |
+| MUS-09 | 马萨涅洛起义 → Palazzo Spada／Galleria Spada | 安置建筑／保管机构，分别记录 | ICCD；第四室为2006年目录记录 |
+| MUS-10 | Bernini → Cassiano漫画 | 创作 | I 135 (PK)；馆方约1680待更精细比较 |
+| MUS-11 | Franz Koenigs → Cassiano漫画 | 旧藏 | I 135 (PK)；入藏退出具体年未载 |
+| MUS-12 | Stichting → 博伊曼斯博物馆／Cassiano漫画 | 1940借出／借入，需保留作品范围 | I 135 (PK)，不是捐赠或机构同一关系 |
+| MUS-13 | Fitzwilliam／Cognacq-Jay／NGV → 各自图版作品 | 保管，各对象独立 | PD.13-1972／J 104／103-4；复用已核来源 |
+
+### 本轮结果
+
+更新14卡、新建6卡，共20卡。新建3个人物（Roomer、Virgilio Spada、Franz Koenigs）、2个地点（Edinburgh、Palazzo Spada）、1个出借基金会。Codazzi为已有第一章有效人物，首次加入章前任务范围。全库873个有效KU，章前502个（累计451个新建、47个既有有效KU更新、4个旧卡整理后接收）。9项主候选仍暂缓；其他版本、日期、尺寸和端点缺口继续保留。当前未新增正式关系，未再次提交推送，生成索引保持`485fca9`同步基线。
+
+本轮20张卡的15条原书摘录、86条本地链接、来源编号及过程锚点核对通过；873条有效登记与502个章前KU计数一致，原sources前缀和正式relations保持。受影响内容机械检查无确定性发现；文档差异检查通过。这是语义自查与机械核对，不表示全面补足或正式关系定稿完成。
+
+## 雷古鲁斯油画与准备稿版本
+
+同轮继续处理6卡：VMFA油画、馆、Rosa；新增普林斯顿准备稿、保管馆及Dan Fellows Platt三个必要端点。与上一段合计26卡，章前505个，全库876个有效KU。
+
+### 阅读、裁决及交接
+
+- 完整阅读[Princeton x1948-610](https://artmuseum.princeton.edu/art/collections/objects/8060)对象说明、Information、Provenance、书目条目、展览记录及Citation。明确本件是VMFA《雷古鲁斯之死》油画的准备稿，约1652年；纸张、技法及20.3×25.7厘米仅属于准备稿。所引1965学位论文、1666书信、展览文献未读原文，不把目录引述当作阅读全文。
+- VMFA旧PDF路径在网页工具一度返回可检索PDF，但后续打开重定向失效；公开HTTP的about路径返回空体，不能据此宣称已读文件。采用的2009会议记录仅限搜索索引实际返回的“Additional Information on Previously Approved Loans”第1项，明确作者、题名、1650–1652、oil on canvas及59.15；批准和出借建议均不作为实际出借证明，故未建立2010巡展事件或正式外借关系。
+- 另实际读[Commons转存文件](https://commons.wikimedia.org/w/index.php?title=File:Rosa_-_The_Death_of_Regulus,_ca._1650-1652.jpg&oldid=1018278172)的来源与完整Metadata字段。其Author为Virginia Museum of Fine Arts，Image title记59.15、约1650–1652、布面油画及无框／带框尺寸，生成和修改日期为2008年；与馆方2009索引片段的对象信息相符。尺寸据此注明为馆方图像元数据转存，不称当前馆藏页直接核验。只读取文字元数据，未下载或重分发图片，也未做原图视觉比对；旧piction源链接未独立读取。该转存与VMFA会议记录同属馆方来源，不算两个独立权威体系。
+- 另有VMFA 2014.273蚀刻及Met 80.3.341“after Rosa”素描线索，均不是59.15油画，未导入其尺寸、年代或作者归属，也未声称这些对象的完整目录已读。Princeton对Regulus受刑的故事为图像主题说明；同名历史人物具体身份仍需单独核，不直接转为确证历史死亡事实。Williams Fund原署名仍保留，尚未完成其基金身份对齐。
+- 新候选：Rosa→准备稿（创作）；准备稿→VMFA油画（准备关系）；Platt→准备稿／Princeton（遗赠）；各馆→其对应版本（保管）。遗赠日期未明，不从x1948-610号码推断；Class of 1895未转成未经另核的学历事实。上述候选与油画原书图版23b关系分开，未新增正式边。Rosa既有第一章source、正式relation及叙述保留。
+
+### 当前结果
+
+此段6卡更新3、新建3；本轮合计26卡更新17、新建9。章前505个KU（累计454新建、47既有有效KU更新、4旧卡整理后接收），全库876个。9项主候选以及其他版本／内容缺口仍待证；未再次提交推送，全面补足与正式关系定稿尚未完成。
+
+本段6卡的10条原书摘录、29条本地链接、来源编号及过程锚点复核通过；876条有效登记、505个章前KU及类型计数一致，原sources与正式relations保持。两段合计26卡、25条原书摘录、115条本地链接完成受影响范围检查，未报确定性内容缺陷，文档差异检查通过；不表示全面补足或正式关系定稿。

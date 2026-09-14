@@ -4,8 +4,7 @@ name_en: The Feast of Herod
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L100–100
   sentence_summary: 《赞助人与画家》图版35b目录所记的《希律王宴会》艺术对象。
   original_quotes:
@@ -15,18 +14,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 100–100; 章前：图版目录；印刷页xiv
+- citation: National Galleries of Scotland, The Feast of Herod, NG 2193. https://www.nationalgalleries.org/art-and-artists/5382. Accessed 2026-09-14.
+  location: 完整对象字段、About及More about；后者原刊2015年馆藏选集
+  sentence_summary: Rubens布面油画，约1635–1638年，1958年购入，NG 2193；馆方认为可能由在那不勒斯经商的Gaspar Roomer委托，1640年前已到那不勒斯。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#馆藏机构与图版版本集中核对
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《赞助人与画家》图版35b目录所记的《希律王宴会》艺术对象。
+**中文：** 鲁本斯约1635–1638年创作的布面油画，以希律王宴会为题，1958年被苏格兰国家美术馆购入。
 
-**English:** The art object titled The Feast of Herod, listed as plate 35b in Patrons and Painters.
+**English:** An oil painting on canvas by Rubens, dated about 1635–1638, depicting the feast of Herod and purchased for the Scottish national collection in 1958.
 
 ### 名称
 
@@ -44,7 +46,29 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中收藏／保管者 | [苏格兰国家美术馆](../institutions/national-gallery-of-scotland.md) | S1 |
 | 图像题材 | Herod | S1 |
 
+### 作品信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 创作时间 | 约1635–1638 | S2 |
+| 材质 | 布面油画／Oil on canvas | S2 |
+| 尺寸（馆方三维原值） | 208.30 × 271.50 × 5.00 cm | S2 |
+| 带框尺寸（馆方三维原值） | 245.40 × 308.60 × 13.00 cm | S2 |
+| 馆藏号 | NG 2193 | S2 |
+| 可能委托人 | [加斯帕尔·罗默](../persons/gaspar-roomer.md) | S2，保留probably |
+
+### 收藏沿革
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 至1640年 | 已运抵[那不勒斯](../places/naples.md) | S2，2015年说明 |
+| 1958年 | 馆方购入 | S2，Credit line |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[馆藏NG 2193](https://www.nationalgalleries.org/art-and-artists/5382)（S2）。
 
 ### 关系记录
 

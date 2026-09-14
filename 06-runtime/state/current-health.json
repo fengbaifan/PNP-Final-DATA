@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T22:25:39",
+  "timestamp": "2026-09-14T22:54:18",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 867,
+    "total_units": 876,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,22 +26,22 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 867,
+    "total_units": 876,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 867,
+    "units_missing_any_assignment": 876,
     "field_coverage": {
-      "primary_domain": "0/867",
-      "primary_dimension": "0/867",
-      "primary_theme": "0/867",
-      "topic_memberships": "0/867"
+      "primary_domain": "0/876",
+      "primary_dimension": "0/876",
+      "primary_theme": "0/876",
+      "topic_memberships": "0/876"
     }
   },
   "counts_by_type": {
-    "persons": 320,
+    "persons": 324,
     "families": 8,
-    "institutions": 108,
-    "places": 125,
-    "works": 199,
+    "institutions": 110,
+    "places": 127,
+    "works": 200,
     "archives": 56,
     "terms": 34,
     "procedures": 10,
@@ -137,6 +137,7 @@
       "04-knowledge/units/persons/clement-viii.md",
       "04-knowledge/units/persons/clement-xi.md",
       "04-knowledge/units/persons/correggio.md",
+      "04-knowledge/units/persons/dan-fellows-platt.md",
       "04-knowledge/units/persons/daphne-ionides.md",
       "04-knowledge/units/persons/denis-mahon.md",
       "04-knowledge/units/persons/domenichino.md",
@@ -174,12 +175,14 @@
       "04-knowledge/units/persons/franco-venturi.md",
       "04-knowledge/units/persons/francois-chauveau.md",
       "04-knowledge/units/persons/francois-mansart.md",
+      "04-knowledge/units/persons/franz-koenigs.md",
       "04-knowledge/units/persons/frederick-iii.md",
       "04-knowledge/units/persons/fulvio-testi.md",
       "04-knowledge/units/persons/g-h-w-rylands.md",
       "04-knowledge/units/persons/g-m-sasso.md",
       "04-knowledge/units/persons/g-volpato.md",
       "04-knowledge/units/persons/gaetano-cozzi.md",
+      "04-knowledge/units/persons/gaspar-roomer.md",
       "04-knowledge/units/persons/gaspard-dughet.md",
       "04-knowledge/units/persons/gentile-bellini.md",
       "04-knowledge/units/persons/giacinto-brandi.md",
@@ -370,6 +373,7 @@
       "04-knowledge/units/persons/ventura-carrara.md",
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
+      "04-knowledge/units/persons/virgilio-spada.md",
       "04-knowledge/units/persons/vitale-bloch.md",
       "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
@@ -459,6 +463,7 @@
       "04-knowledge/units/institutions/pinacoteca-capitolina.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
+      "04-knowledge/units/institutions/princeton-university-art-museum.md",
       "04-knowledge/units/institutions/regional-museum-messina.md",
       "04-knowledge/units/institutions/republic-of-venice.md",
       "04-knowledge/units/institutions/royal-academy.md",
@@ -472,6 +477,7 @@
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
+      "04-knowledge/units/institutions/stichting-museum-boijmans-van-beuningen.md",
       "04-knowledge/units/institutions/streitsche-stiftung.md",
       "04-knowledge/units/institutions/studio-fotografico-balelli.md",
       "04-knowledge/units/institutions/t-and-a-constable.md",
@@ -517,6 +523,7 @@
       "04-knowledge/units/places/contarelli-chapel.md",
       "04-knowledge/units/places/cortona.md",
       "04-knowledge/units/places/delphi.md",
+      "04-knowledge/units/places/edinburgh.md",
       "04-knowledge/units/places/egypt.md",
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
@@ -557,6 +564,7 @@
       "04-knowledge/units/places/palazzo-dei-conservatori.md",
       "04-knowledge/units/places/palazzo-ducale.md",
       "04-knowledge/units/places/palazzo-pitti.md",
+      "04-knowledge/units/places/palazzo-spada.md",
       "04-knowledge/units/places/palazzo-venezia.md",
       "04-knowledge/units/places/paris.md",
       "04-knowledge/units/places/parma.md",
@@ -788,6 +796,7 @@
       "04-knowledge/units/works/ribera-the-drunken-silenus.md",
       "04-knowledge/units/works/ricci-beheading-john-baptist-1682.md",
       "04-knowledge/units/works/romanelli-romulus-and-remus.md",
+      "04-knowledge/units/works/rosa-regulus-study-princeton.md",
       "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
       "04-knowledge/units/works/rubens-the-feast-of-herod.md",
       "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
@@ -979,6 +988,7 @@
       "04-knowledge/units/persons/clement-viii.md",
       "04-knowledge/units/persons/clement-xi.md",
       "04-knowledge/units/persons/correggio.md",
+      "04-knowledge/units/persons/dan-fellows-platt.md",
       "04-knowledge/units/persons/daphne-ionides.md",
       "04-knowledge/units/persons/denis-mahon.md",
       "04-knowledge/units/persons/domenichino.md",
@@ -1016,12 +1026,14 @@
       "04-knowledge/units/persons/franco-venturi.md",
       "04-knowledge/units/persons/francois-chauveau.md",
       "04-knowledge/units/persons/francois-mansart.md",
+      "04-knowledge/units/persons/franz-koenigs.md",
       "04-knowledge/units/persons/frederick-iii.md",
       "04-knowledge/units/persons/fulvio-testi.md",
       "04-knowledge/units/persons/g-h-w-rylands.md",
       "04-knowledge/units/persons/g-m-sasso.md",
       "04-knowledge/units/persons/g-volpato.md",
       "04-knowledge/units/persons/gaetano-cozzi.md",
+      "04-knowledge/units/persons/gaspar-roomer.md",
       "04-knowledge/units/persons/gaspard-dughet.md",
       "04-knowledge/units/persons/gentile-bellini.md",
       "04-knowledge/units/persons/giacinto-brandi.md",
@@ -1212,6 +1224,7 @@
       "04-knowledge/units/persons/ventura-carrara.md",
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
+      "04-knowledge/units/persons/virgilio-spada.md",
       "04-knowledge/units/persons/vitale-bloch.md",
       "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
@@ -1301,6 +1314,7 @@
       "04-knowledge/units/institutions/pinacoteca-capitolina.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
+      "04-knowledge/units/institutions/princeton-university-art-museum.md",
       "04-knowledge/units/institutions/regional-museum-messina.md",
       "04-knowledge/units/institutions/republic-of-venice.md",
       "04-knowledge/units/institutions/royal-academy.md",
@@ -1314,6 +1328,7 @@
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
+      "04-knowledge/units/institutions/stichting-museum-boijmans-van-beuningen.md",
       "04-knowledge/units/institutions/streitsche-stiftung.md",
       "04-knowledge/units/institutions/studio-fotografico-balelli.md",
       "04-knowledge/units/institutions/t-and-a-constable.md",
@@ -1359,6 +1374,7 @@
       "04-knowledge/units/places/contarelli-chapel.md",
       "04-knowledge/units/places/cortona.md",
       "04-knowledge/units/places/delphi.md",
+      "04-knowledge/units/places/edinburgh.md",
       "04-knowledge/units/places/egypt.md",
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
@@ -1401,6 +1417,7 @@
       "04-knowledge/units/places/palazzo-doria-pamfili.md",
       "04-knowledge/units/places/palazzo-ducale.md",
       "04-knowledge/units/places/palazzo-pitti.md",
+      "04-knowledge/units/places/palazzo-spada.md",
       "04-knowledge/units/places/palazzo-venezia.md",
       "04-knowledge/units/places/pamfili-country-house-valmontone.md",
       "04-knowledge/units/places/paris.md",
@@ -1635,6 +1652,7 @@
       "04-knowledge/units/works/ribera-the-drunken-silenus.md",
       "04-knowledge/units/works/ricci-beheading-john-baptist-1682.md",
       "04-knowledge/units/works/romanelli-romulus-and-remus.md",
+      "04-knowledge/units/works/rosa-regulus-study-princeton.md",
       "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
       "04-knowledge/units/works/rubens-the-feast-of-herod.md",
       "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
@@ -1770,8 +1788,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 320,
-      "tags": 320,
+      "sub_type": 324,
+      "tags": 324,
       "evidence_status": 0
     },
     "families": {
@@ -1780,18 +1798,18 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 108,
-      "tags": 108,
+      "sub_type": 110,
+      "tags": 110,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 122,
-      "tags": 125,
+      "sub_type": 124,
+      "tags": 127,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 196,
-      "tags": 199,
+      "sub_type": 197,
+      "tags": 200,
       "evidence_status": 0
     },
     "archives": {
@@ -1872,11 +1890,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 178,
+    "sources_without_evidence_ref": 187,
     "evidence_ref_resolvable": 1007,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1007,
-    "units_with_traceable_source": 867
+    "units_with_traceable_source": 876
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1908,7 +1926,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 867,
+      "count": 876,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1991,6 +2009,7 @@
         "04-knowledge/units/persons/clement-viii.md",
         "04-knowledge/units/persons/clement-xi.md",
         "04-knowledge/units/persons/correggio.md",
+        "04-knowledge/units/persons/dan-fellows-platt.md",
         "04-knowledge/units/persons/daphne-ionides.md",
         "04-knowledge/units/persons/denis-mahon.md",
         "04-knowledge/units/persons/domenichino.md",
@@ -2028,12 +2047,14 @@
         "04-knowledge/units/persons/franco-venturi.md",
         "04-knowledge/units/persons/francois-chauveau.md",
         "04-knowledge/units/persons/francois-mansart.md",
+        "04-knowledge/units/persons/franz-koenigs.md",
         "04-knowledge/units/persons/frederick-iii.md",
         "04-knowledge/units/persons/fulvio-testi.md",
         "04-knowledge/units/persons/g-h-w-rylands.md",
         "04-knowledge/units/persons/g-m-sasso.md",
         "04-knowledge/units/persons/g-volpato.md",
         "04-knowledge/units/persons/gaetano-cozzi.md",
+        "04-knowledge/units/persons/gaspar-roomer.md",
         "04-knowledge/units/persons/gaspard-dughet.md",
         "04-knowledge/units/persons/gentile-bellini.md",
         "04-knowledge/units/persons/giacinto-brandi.md",
@@ -2224,6 +2245,7 @@
         "04-knowledge/units/persons/ventura-carrara.md",
         "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
         "04-knowledge/units/persons/virgil.md",
+        "04-knowledge/units/persons/virgilio-spada.md",
         "04-knowledge/units/persons/vitale-bloch.md",
         "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
         "04-knowledge/units/persons/viviano-codazzi.md",
@@ -2313,6 +2335,7 @@
         "04-knowledge/units/institutions/pinacoteca-capitolina.md",
         "04-knowledge/units/institutions/pinacoteca-vaticana.md",
         "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
+        "04-knowledge/units/institutions/princeton-university-art-museum.md",
         "04-knowledge/units/institutions/regional-museum-messina.md",
         "04-knowledge/units/institutions/republic-of-venice.md",
         "04-knowledge/units/institutions/royal-academy.md",
@@ -2326,6 +2349,7 @@
         "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
         "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
         "04-knowledge/units/institutions/stearn-and-son.md",
+        "04-knowledge/units/institutions/stichting-museum-boijmans-van-beuningen.md",
         "04-knowledge/units/institutions/streitsche-stiftung.md",
         "04-knowledge/units/institutions/studio-fotografico-balelli.md",
         "04-knowledge/units/institutions/t-and-a-constable.md",
@@ -2371,6 +2395,7 @@
         "04-knowledge/units/places/contarelli-chapel.md",
         "04-knowledge/units/places/cortona.md",
         "04-knowledge/units/places/delphi.md",
+        "04-knowledge/units/places/edinburgh.md",
         "04-knowledge/units/places/egypt.md",
         "04-knowledge/units/places/england.md",
         "04-knowledge/units/places/europe.md",
@@ -2413,6 +2438,7 @@
         "04-knowledge/units/places/palazzo-doria-pamfili.md",
         "04-knowledge/units/places/palazzo-ducale.md",
         "04-knowledge/units/places/palazzo-pitti.md",
+        "04-knowledge/units/places/palazzo-spada.md",
         "04-knowledge/units/places/palazzo-venezia.md",
         "04-knowledge/units/places/pamfili-country-house-valmontone.md",
         "04-knowledge/units/places/paris.md",
@@ -2647,6 +2673,7 @@
         "04-knowledge/units/works/ribera-the-drunken-silenus.md",
         "04-knowledge/units/works/ricci-beheading-john-baptist-1682.md",
         "04-knowledge/units/works/romanelli-romulus-and-remus.md",
+        "04-knowledge/units/works/rosa-regulus-study-princeton.md",
         "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
         "04-knowledge/units/works/rubens-the-feast-of-herod.md",
         "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
@@ -2878,12 +2905,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 327,
+      "total": 331,
       "coverage": {
-        "name_original": "0/327",
-        "language_original": "0/327",
-        "name_zh": "0/327",
-        "translation_status": "0/327"
+        "name_original": "0/331",
+        "language_original": "0/331",
+        "name_zh": "0/331",
+        "translation_status": "0/331"
       }
     },
     "families": {
@@ -2896,20 +2923,20 @@
       }
     },
     "institutions": {
-      "total": 108,
+      "total": 110,
       "coverage": {
-        "name_original": "0/108",
-        "name_original_language": "0/108",
-        "name_zh": "0/108",
-        "translation_status": "0/108"
+        "name_original": "0/110",
+        "name_original_language": "0/110",
+        "name_zh": "0/110",
+        "translation_status": "0/110"
       }
     },
     "works": {
-      "total": 202,
+      "total": 203,
       "coverage": {
-        "title_original": "0/202",
-        "title_original_language": "0/202",
-        "title_zh": "0/202"
+        "title_original": "0/203",
+        "title_original_language": "0/203",
+        "title_zh": "0/203"
       }
     },
     "archives": {
@@ -2931,9 +2958,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 737,
-    "indexed": 737,
-    "declared_total": 737,
+    "expected": 744,
+    "indexed": 744,
+    "declared_total": 744,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3008,22 +3035,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 867,
+    "total_units": 876,
     "source_count_distribution": {
-      "multi_source": 610,
-      "single_source": 257
+      "multi_source": 625,
+      "single_source": 251
     },
     "confidence_distribution": {
-      "missing": 867
+      "missing": 876
     },
     "consensus_distribution": {
-      "missing": 867
+      "missing": 876
     },
     "evidence_status_distribution": {
-      "source_backed": 867
+      "source_backed": 876
     },
     "isolated_units": {
-      "count": 521,
+      "count": 530,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -3066,7 +3093,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 257,
+      "single_source_units": 251,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3091,7 +3118,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 867,
+    "total_files": 876,
     "total_findings": 0
   }
 }
