@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T22:54:18",
+  "timestamp": "2026-09-14T23:23:07",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 876,
+    "total_units": 879,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,21 +26,21 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 876,
+    "total_units": 879,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 876,
+    "units_missing_any_assignment": 879,
     "field_coverage": {
-      "primary_domain": "0/876",
-      "primary_dimension": "0/876",
-      "primary_theme": "0/876",
-      "topic_memberships": "0/876"
+      "primary_domain": "0/879",
+      "primary_dimension": "0/879",
+      "primary_theme": "0/879",
+      "topic_memberships": "0/879"
     }
   },
   "counts_by_type": {
     "persons": 324,
     "families": 8,
-    "institutions": 110,
-    "places": 127,
+    "institutions": 112,
+    "places": 128,
     "works": 200,
     "archives": 56,
     "terms": 34,
@@ -430,6 +430,7 @@
       "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
       "04-knowledge/units/institutions/heritage-malta.md",
       "04-knowledge/units/institutions/hermitage-museum.md",
+      "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
@@ -487,6 +488,7 @@
       "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
       "04-knowledge/units/institutions/uffizi-gallery.md",
       "04-knowledge/units/institutions/university-library-cambridge.md",
+      "04-knowledge/units/institutions/university-of-london.md",
       "04-knowledge/units/institutions/university-of-padua.md",
       "04-knowledge/units/institutions/university-of-pittsburgh.md",
       "04-knowledge/units/institutions/university-of-turin.md",
@@ -620,6 +622,7 @@
       "04-knowledge/units/places/via-margutta.md",
       "04-knowledge/units/places/vienna.md",
       "04-knowledge/units/places/villa-borghese.md",
+      "04-knowledge/units/places/villa-lante-rome.md",
       "04-knowledge/units/places/villa-pisani.md",
       "04-knowledge/units/places/wurzburg.md",
       "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -1281,6 +1284,7 @@
       "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
       "04-knowledge/units/institutions/heritage-malta.md",
       "04-knowledge/units/institutions/hermitage-museum.md",
+      "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
@@ -1338,6 +1342,7 @@
       "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
       "04-knowledge/units/institutions/uffizi-gallery.md",
       "04-knowledge/units/institutions/university-library-cambridge.md",
+      "04-knowledge/units/institutions/university-of-london.md",
       "04-knowledge/units/institutions/university-of-padua.md",
       "04-knowledge/units/institutions/university-of-pittsburgh.md",
       "04-knowledge/units/institutions/university-of-turin.md",
@@ -1474,6 +1479,7 @@
       "04-knowledge/units/places/via-margutta.md",
       "04-knowledge/units/places/vienna.md",
       "04-knowledge/units/places/villa-borghese.md",
+      "04-knowledge/units/places/villa-lante-rome.md",
       "04-knowledge/units/places/villa-pisani.md",
       "04-knowledge/units/places/wurzburg.md",
       "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -1798,13 +1804,13 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 110,
-      "tags": 110,
+      "sub_type": 112,
+      "tags": 112,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 124,
-      "tags": 127,
+      "sub_type": 125,
+      "tags": 128,
       "evidence_status": 0
     },
     "works": {
@@ -1890,11 +1896,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 187,
-    "evidence_ref_resolvable": 1007,
+    "sources_without_evidence_ref": 190,
+    "evidence_ref_resolvable": 1009,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1007,
-    "units_with_traceable_source": 876
+    "evidence_refs_total": 1009,
+    "units_with_traceable_source": 879
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1926,7 +1932,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 876,
+      "count": 879,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2302,6 +2308,7 @@
         "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
         "04-knowledge/units/institutions/heritage-malta.md",
         "04-knowledge/units/institutions/hermitage-museum.md",
+        "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
         "04-knowledge/units/institutions/jesuits.md",
         "04-knowledge/units/institutions/kimbell-art-museum.md",
         "04-knowledge/units/institutions/kings-college-cambridge.md",
@@ -2359,6 +2366,7 @@
         "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
         "04-knowledge/units/institutions/uffizi-gallery.md",
         "04-knowledge/units/institutions/university-library-cambridge.md",
+        "04-knowledge/units/institutions/university-of-london.md",
         "04-knowledge/units/institutions/university-of-padua.md",
         "04-knowledge/units/institutions/university-of-pittsburgh.md",
         "04-knowledge/units/institutions/university-of-turin.md",
@@ -2495,6 +2503,7 @@
         "04-knowledge/units/places/via-margutta.md",
         "04-knowledge/units/places/vienna.md",
         "04-knowledge/units/places/villa-borghese.md",
+        "04-knowledge/units/places/villa-lante-rome.md",
         "04-knowledge/units/places/villa-pisani.md",
         "04-knowledge/units/places/wurzburg.md",
         "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -2923,12 +2932,12 @@
       }
     },
     "institutions": {
-      "total": 110,
+      "total": 112,
       "coverage": {
-        "name_original": "0/110",
-        "name_original_language": "0/110",
-        "name_zh": "0/110",
-        "translation_status": "0/110"
+        "name_original": "0/112",
+        "name_original_language": "0/112",
+        "name_zh": "0/112",
+        "translation_status": "0/112"
       }
     },
     "works": {
@@ -2958,9 +2967,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 744,
-    "indexed": 744,
-    "declared_total": 744,
+    "expected": 746,
+    "indexed": 746,
+    "declared_total": 746,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3035,22 +3044,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 876,
+    "total_units": 879,
     "source_count_distribution": {
-      "multi_source": 625,
-      "single_source": 251
+      "multi_source": 642,
+      "single_source": 237
     },
     "confidence_distribution": {
-      "missing": 876
+      "missing": 879
     },
     "consensus_distribution": {
-      "missing": 876
+      "missing": 879
     },
     "evidence_status_distribution": {
-      "source_backed": 876
+      "source_backed": 879
     },
     "isolated_units": {
-      "count": 530,
+      "count": 533,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -3093,7 +3102,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 251,
+      "single_source_units": 237,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3118,7 +3127,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 876,
+    "total_files": 879,
     "total_findings": 0
   }
 }

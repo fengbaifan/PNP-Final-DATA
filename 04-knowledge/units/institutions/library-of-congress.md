@@ -4,8 +4,7 @@ name_en: Library of Congress
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：书名与版权页；未编号；PDF 1–2；OCR L20–29
   sentence_summary: 本书版权页载有美国国会图书馆编目数据。
   original_quotes:
@@ -33,18 +32,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
     source_span: lines 20–29; 章前：书名与版权页；未编号；PDF 1–2
+- citation: Library of Congress, General Information. https://www.loc.gov/about/general-information. Accessed 2026-09-14.
+  location: General Information及Collections；2023统计段已读但不采作当前数据
+  sentence_summary: 图书馆1800年始于美国国会大厦，收藏涵盖图书、手稿、地图、乐谱、声音和影像。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本书版权页载有美国国会图书馆编目数据。
+**中文：** 1800年建立的美国图书馆，本书版权页载有其出版编目数据。
 
-**English:** Library of Congress cataloguing data appear on the copyright page.
+**English:** A United States library established in 1800 whose cataloguing-in-publication data appear on the book’s copyright page.
 
 ### 名称
 
@@ -59,7 +61,30 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 章前记载 | 本书版权页载有美国国会图书馆编目数据。 | S1 |
 
+### 图书馆信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 成立年 | 1800 | S2 |
+| 收藏类型 | 图书／Books | S2 |
+| 收藏类型 | 手稿／Manuscripts | S2 |
+| 收藏类型 | 地图／Maps | S2 |
+| 收藏类型 | 乐谱、声音和影像／Music scores, sound and moving images | S2 |
+
+### 本书编目角色
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 对应文献 | [《赞助人与画家》](../archives/patrons-and-painters.md) | S1 |
+| 角色 | 出版编目数据提供机构／CIP agency | S1 |
+| 本书所印分类号 | N6916.H37 1980 | S1 |
+| 本书所印控制号 | 80-5213 | S1 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[国会图书馆官方介绍](https://www.loc.gov/about/general-information)（S2）。
 
 ### 关系记录
 

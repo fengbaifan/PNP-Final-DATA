@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 744
+total: 746
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -2259,8 +2259,8 @@ index:
   language_original: ''
 - slug: archives/burlington-magazine
   type: archives
-  name_en: Burlington Magazine
-  title: 伯灵顿杂志（Burlington Magazine）
+  name_en: The Burlington Magazine
+  title: 《伯灵顿杂志》（The Burlington Magazine）
   name_original: ''
   language_original: ''
 - slug: archives/camassei-sebastian-receipt
@@ -2433,8 +2433,8 @@ index:
   language_original: ''
 - slug: archives/museum-studies-art-institute-chicago
   type: archives
-  name_en: Museum Studies
-  title: 博物馆研究期刊（Museum Studies）
+  name_en: Art Institute of Chicago Museum Studies
+  title: 《芝加哥艺术博物馆研究》（Art Institute of Chicago Museum Studies）
   name_original: ''
   language_original: ''
 - slug: archives/negri-san-tommaso-letter-1676
@@ -2463,8 +2463,8 @@ index:
   language_original: ''
 - slug: archives/patrons-and-painters
   type: archives
-  name_en: '"Patrons and Painters"'
-  title: '"《赞助人与画家》（Patrons and Painters）"'
+  name_en: Patrons and Painters
+  title: 《赞助人与画家》（Patrons and Painters）
   name_original: ''
   language_original: ''
 - slug: archives/poerson-letter-1708
@@ -3969,8 +3969,8 @@ index:
   language_original: ''
 - slug: institutions/finnish-institute
   type: institutions
-  name_en: Finnish Institute
-  title: 芬兰研究院（罗马）（Finnish Institute）
+  name_en: Finnish Institute in Rome
+  title: 罗马芬兰研究所（Finnish Institute in Rome）
   name_original: ''
   language_original: ''
 - slug: institutions/fitzwilliam-museum
@@ -4055,6 +4055,12 @@ index:
   type: institutions
   name_en: Hermitage Museum
   title: 艾尔米塔什博物馆（Hermitage Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/istituto-della-enciclopedia-italiana
+  type: institutions
+  name_en: Istituto della Enciclopedia Italiana
+  title: 意大利百科全书研究院（Istituto della Enciclopedia Italiana）
   name_original: ''
   language_original: ''
 - slug: institutions/jesuits
@@ -4397,6 +4403,12 @@ index:
   type: institutions
   name_en: University Library, Cambridge
   title: 剑桥大学图书馆（University Library, Cambridge）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-of-london
+  type: institutions
+  name_en: University of London
+  title: 伦敦大学（University of London）
   name_original: ''
   language_original: ''
 - slug: institutions/university-of-padua

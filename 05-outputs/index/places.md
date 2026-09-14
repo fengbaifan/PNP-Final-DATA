@@ -125,5 +125,6 @@
 - [玛古塔街（Via Margutta）](../../04-knowledge/units/places/via-margutta.md)
 - [维也纳（Vienna）](../../04-knowledge/units/places/vienna.md)
 - [博尔盖塞别墅（Villa Borghese）](../../04-knowledge/units/places/villa-borghese.md)
+- [罗马兰特别墅（Villa Lante, Rome）](../../04-knowledge/units/places/villa-lante-rome.md)
 - [皮萨尼别墅（斯特拉）（Villa Pisani）](../../04-knowledge/units/places/villa-pisani.md)
 - [维尔茨堡（Würzburg）](../../04-knowledge/units/places/wurzburg.md)

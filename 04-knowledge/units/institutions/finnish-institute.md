@@ -1,11 +1,10 @@
 ---
-title: 芬兰研究院（罗马）（Finnish Institute）
-name_en: Finnish Institute
+title: 罗马芬兰研究所（Finnish Institute in Rome）
+name_en: Finnish Institute in Rome
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L35–35
   sentence_summary: 图版01目录将其记为书中收藏／保管者。
   original_quotes:
@@ -15,18 +14,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 35–35; 章前：图版目录；印刷页xii
+- citation: Roma Capitale, Turismo Roma, Istituto finlandese di Roma. https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma. Accessed 2026-09-14.
+  location: 完整机构介绍、地址与联系字段
+  sentence_summary: 罗马芬兰研究所1954年开始活动，开展人文研究、培训、出版及学者艺术家驻留，位于罗马Gianicolo的文艺复兴建筑Villa Lante。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 图版01目录将其记为书中收藏／保管者。
+**中文：** 1954年开始活动的芬兰人文研究机构，设于罗马兰特别墅；本书图版01将其列为《罗马寓意》的收藏／保管者。
 
-**English:** The entry for plate 01 records this entity in the role of holder or custodian.
+**English:** A Finnish humanities research institute active since 1954 at Villa Lante in Rome, named in plate 01 as the holder or custodian of the Allegory of Rome.
 
 ### 名称
 
@@ -34,6 +36,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 原文名称 | Finnish Institute | S1 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
+| 意大利文名称 | Istituto finlandese di Roma | S2 |
 
 ### 来源所载信息
 
@@ -42,7 +45,28 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 图版01角色 | 书中收藏／保管者 | S1 |
 | 图版01相关对象 | [罗马寓意](../works/valentin-allegory-of-rome.md)；书中收藏／保管者 | S1 |
 
+### 机构信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 性质 | 人文研究机构／Humanities research institute | S2 |
+| 开始活动年 | 1954 | S2 |
+| 所在地 | [罗马](../places/rome.md) | S1、S2 |
+| 使用建筑 | [罗马兰特别墅](../places/villa-lante-rome.md) | S2 |
+
+### 研究与服务
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 工作 | 人文研究与培训 | S2 |
+| 工作 | 学者和艺术家驻留 | S2 |
+| 工作 | 图书馆与学术出版 | S2 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[罗马市机构介绍](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)（S2）；[研究所官网](https://irfrome.org/it/)（机构介绍所列入口）。
 
 ### 关系记录
 

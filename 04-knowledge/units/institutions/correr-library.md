@@ -4,32 +4,31 @@ name_en: Correr Library
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：第一版序言；印刷页ix；PDF 7；OCR L23–23
   sentence_summary: 哈斯克尔在威尼斯进行研究所使用的图书馆。
   original_quotes:
   - source_span: lines 23–23
-    text: I have benefited from conversations with so many people that it is impossible to thank them all and I
-      apologise to all who have been inadvertently omitted. In Italy I would like to single out especially Dr Terisio
-      Pignatti, who has given me such marvellous facilities for working in the Correr Library in Venice, Dr Alessandro
-      Bettagno,
+    text: I have benefited from conversations with so many people that it is impossible to thank them all and I apologise to all who have been inadvertently omitted. In Italy I would like to single out especially Dr Terisio Pignatti, who has given me such marvellous facilities for working in the Correr Library in Venice, Dr Alessandro Bettagno,
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
     source_span: lines 23–23; 章前：第一版序言；印刷页ix；PDF 7
+- citation: Museo Correr / Fondazione Musei Civici di Venezia, Library. https://correr.visitmuve.it/en/library/. Accessed 2026-09-14.
+  location: The Library正文及Services；未读所链接目录、馆藏原件
+  sentence_summary: 科雷尔博物馆及图书馆于1830年因威尼斯贵族Teodoro Correr遗赠而成立；馆内图书馆保存手稿、档案和印本文献，服务威尼斯艺术与历史研究。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 哈斯克尔在威尼斯进行研究所使用的图书馆。
+**中文：** 科雷尔博物馆所属的威尼斯艺术与历史研究图书馆，1830年因泰奥多罗·科雷尔的遗赠而成立。
 
-**English:** The library in Venice where Haskell conducted research.
+**English:** A library for research on Venetian art and history within the Museo Correr, established in 1830 through Teodoro Correr’s bequest.
 
 ### 名称
 
@@ -37,6 +36,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 原文名称 | Correr Library | S1 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
+| 机构归属名称 | Museo Correr Library | S2 |
 
 ### 来源所载信息
 
@@ -44,7 +44,30 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 章前记载 | 哈斯克尔在威尼斯进行研究所使用的图书馆。 | S1 |
 
+### 图书馆信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 所在地 | [威尼斯](../places/venice.md) | S1、S2 |
+| 所属机构 | [科雷尔博物馆](museo-correr.md) | S2 |
+| 成立年 | 1830 | S2 |
+| 创立遗赠者 | [泰奥多罗·科雷尔](../persons/teodoro-correr.md) | S2 |
+| 研究服务范围 | 威尼斯艺术与历史 | S2 |
+| 收藏类型 | 手稿与档案 | S2 |
+| 收藏类型 | 印本文献 | S2 |
+
+### 本书研究支持
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 研究使用者 | [弗朗西斯·哈斯克尔](../persons/francis-haskell.md) | S1 |
+| 提供研究便利者 | [泰里西奥·皮尼亚蒂](../persons/terisio-pignatti.md) | S1 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[科雷尔图书馆官方介绍](https://correr.visitmuve.it/en/library/)（S2）。
 
 ### 关系记录
 

@@ -4,8 +4,7 @@ name_en: Apollo
 type: archive
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：第二版导言；印刷页xvii；OCR L187–187
   sentence_summary: 1963年12月刊载昂纳书评的期刊。
   original_quotes:
@@ -15,18 +14,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 187–187; 章前：第二版导言；印刷页xvii
+- citation: Apollo, About Apollo. https://apollo-magazine.com/apollo/. Accessed 2026-09-14.
+  location: The Magazine、The Website及其余介绍正文
+  sentence_summary: Apollo创刊于1925年，按月出版，关注视觉艺术、收藏及展览评论；期刊与每日网站文章不混作同一刊期。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 1963年12月刊载昂纳书评的期刊。
+**中文：** 1925年创刊的视觉艺术月刊，本书导言列出其1963年12月刊载的昂纳书评。
 
-**English:** The periodical identified for Honour's review in December 1963.
+**English:** A monthly visual-arts magazine founded in 1925, cited in the book’s introduction for Honour’s review published in December 1963.
 
 ### 名称
 
@@ -41,7 +43,27 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 章前记载 | 1963年12月刊载昂纳书评的期刊。 | S1 |
 
+### 期刊信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 类别 | 艺术期刊／Art periodical | S2 |
+| 创刊年 | 1925 | S2 |
+| 出版频率 | 月刊／Monthly | S2 |
+| 内容范围 | 视觉艺术、收藏与展览评论 | S2 |
+
+### 本书所引文章
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 文章 | [昂纳《赞助人与画家》书评](honour-patrons-painters-review-1963.md) | S1 |
+| 刊载时间 | 1963年12月 | S1 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[Apollo官方介绍](https://apollo-magazine.com/apollo/)（S2，期刊身份）。
 
 ### 关系记录
 

@@ -1305,3 +1305,57 @@ REV-100已实测同步至`485fca9`。本段继续REV-093目标，集中处理馆
 此段6卡更新3、新建3；本轮合计26卡更新17、新建9。章前505个KU（累计454新建、47既有有效KU更新、4旧卡整理后接收），全库876个。9项主候选以及其他版本／内容缺口仍待证；未再次提交推送，全面补足与正式关系定稿尚未完成。
 
 本段6卡的10条原书摘录、29条本地链接、来源编号及过程锚点复核通过；876条有效登记、505个章前KU及类型计数一致，原sources与正式relations保持。两段合计26卡、25条原书摘录、115条本地链接完成受影响范围检查，未报确定性内容缺陷，文档差异检查通过；不表示全面补足或正式关系定稿。
+
+## 出版研究机构与图书馆角色
+
+REV-101已实测同步至`2d7db45`。继续REV-093目标，集中处理22卡（19既有、3新增），以既有原书角色为起点，核对机构层级、书目身份和明确内容缺口。新端点为伦敦大学、意大利百科全书研究院和罗马兰特别墅；未开始知识发现、页面或人工校验，未新增正式关系。
+
+### 阅读与对象裁决
+
+| 对象／来源 | 实际读取与采纳 | 边界、剩余缺口 |
+|---|---|---|
+| [Warburg官方历史](https://warburg.sas.ac.uk/about-us/history-warburg-institute) | 完整历史正文，包括图书馆发展、迁伦敦、归入大学与馆舍；采用1921、1933、1944、1958事件 | 研究所、图书馆、伦敦大学分开。1926馆舍开放不作为1921研究所建立年；未读契约原件。Aby Warburg、Saxl等人物仅为本次背景阅读，尚未补入创办／任职字段，若继续展开该字段须先落实人物端点 |
+| [Yale历史](https://www.yale.edu/about-yale/traditions-history)及[出版社历史](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/) | 大学导言、1701条；出版社首段及1961段。大学1701年特许、1718旧名，出版社1908创立、1910迁纽黑文、1961所属与伦敦分支 | 不按时间线抽取后的顺序给无年份段补日期。出版社历史改编自Basbanes著作，不另计独立来源；未读整部书。版权人与出版者区分，财务／运营自主不抹掉所属关系；未把出版社同名创立视为1908即已属大学 |
+| [Library of Congress官方介绍](https://www.loc.gov/about/general-information) | 完整General Information及Collections、年度统计段；只采1800起源与藏品类型。原书版权页提供CIP角色与80-5213 | 不采用2023规模为2026现况。CIP署名不证明某个具体印本现藏该馆，也不证明版权归该馆 |
+| [Museo Correr图书馆介绍](https://correr.visitmuve.it/en/library/) | The Library和Services正文；采用1830遗赠创立、图书馆归属和研究服务 | 博物馆与图书馆各有KU，不把同一创立渊源写成相同实体。Teodoro Correr新增遗赠者与威尼斯贵族身份；图版59b肖像具体尺寸、版本仍需后续核对。藏书目录、画像原件未读；不把1830直接当个人卒日或每件藏品取得年 |
+| [Poerson学院传记](https://villamedici.it/directeur/charles-francois-poerson/)及[RCT 421279](https://www.rct.uk/collection/421279/charles-francois-poerson-1653-1725-0) | 学院完整短传和1704–1725题头，RCT仅返回题名；任命1704与原书1708在任可配对 | 学院首句卒日1725-09-02、任职段却写1724，分字段保留；RCT题名支持1725年，不能单独证实9月2日。暂不写确定任职终日，也不把现代Villa Medici站名当1708院址。传记父亲Charles Poerson、教师Noël Coypel及墓作者Pierre de L’Estache为后续人物／师承／作品端点缺口，不据姓名猜建；墓作品亦待单独识别 |
+| [Roma Capitale：芬兰研究所](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma) | 完整介绍、地址；采用1954活动、研究培训／驻留及Villa Lante地点 | 区分研究机构与罗马Gianicolo建筑，排除Bagnaia同名别墅。建筑当前使用事实不证明图版01作品的现藏、产权或原始安置；作品保管仍引原书。芬兰国家所有建筑的背景记载尚未展开产权端点 |
+| [Reading：Chatto档案CW](https://www.reading.ac.uk/adlib/Details/archiveSpecial/110292665) | 前次接续已读完整目录Title、Creator History、Scope，后续重访超时／500；采用出版企业身份及1873商号名 | Creator History参考出版集团历史，不算另一个独立历史来源。档案覆盖1860s–1990s不是企业成立／结束。未读信件、合同或公司档案原件；本书初版支持来自原书，未将John Nicoll自动写为该公司职员 |
+| [NLS：T and A Constable信簿MS.23268](https://manuscripts.nls.uk/repositories/2/archival_objects/56601) | 检索索引返回完整目录字段及Cite Item，直接访问403；据上级全宗名核对爱丁堡印刷企业 | 只核企业与地点；未读1898信簿原件，档号及1898年不是本书印刷信息。原书第一版序言中的印刷角色不迁移到本件2006年中国印刷记录 |
+| [Apollo介绍](https://apollo-magazine.com/apollo/)与[Burlington历史](https://www.burlington.org.uk/about-us/about-the-magazine-150004/history) | 两页介绍正文完整读；分别采用1925、1903创刊及月刊身份，链接本书所引文章 | 期刊、网站、刊期和文章不合并。既有书评／论文具体内容仍限已读范围，不因期刊身份核对即标全文已读 |
+| [Treccani第100卷说明](https://www.treccani.it/enciclopedia/i-cento-volumi-del-dizionario-biografico_%28Dizionario-Biografico%29/)与[机构历史](https://www.treccani.it/istituto/la-nostra-storia.html) | 第100卷出版说明及历史／编排讨论，机构开篇1925年成立与出版计划段；采用1960首卷、2020第100卷完成预定序列、机构身份 | 1925编纂计划、1960开始出版、2020字母序列完成分开；不声称网络更新停止，不称100卷全部阅读。同机构两页不计两个独立来源。新增机构端点不递归导入创办者及整部百科 |
+| [ISSN 0069-3235](https://portal.issn.org/resource/ISSN/0069-3235)及[JSTOR期刊记录](https://www.jstor.org/journal/artinstchicmuses) | ISSN全部公开标识／名称／媒介字段、JSTOR完整可见介绍和出版者／收录字段 | Museum Studies明确为芝加哥艺术博物馆期刊，排除同名其他刊物；ISSN属印刷版。1966–2011是JSTOR收录范围，未仅凭该范围写停刊裁决。馆方第1卷PDF网页与HTTP均未成功读取，未采其正文，Waterhouse论文仍待全文补足 |
+
+所有本次来源访问／复用日期为2026-09-14，来源的URL、实际范围及句意摘要在各卡sources保存。原有sources与正式relations保持；本次未采用QID，不填Wiki双向验证状态。上述研究针对身份和具体缺口，不代表全库或整卡全面补足。
+
+### 内容与关系交接
+
+原书候选继续在既有处理结果维护；下表只记本次端点映射、外部候选及需要确认的角色，未改写原书证据。
+
+| 锚点 | 起点 → 终点 | 角色、时间、证据范围 | 交接 |
+|---|---|---|---|
+| INST-01 | Warburg Institute → University of London | 1944起所属；官方历史 | 新增大学端点，候选可进入正式关系核对 |
+| INST-02 | Warburg Library → Warburg Institute | 所属图书馆；原书与官方机构历史 | 保留两层对象，不设same-as |
+| INST-03 | Warburg Library → Haskell／本书 | 研究支持；第一版序言p.ix L21–22 | 支持者为图书馆／机构人员集体，不能虚构具体顾问姓名 |
+| INST-04 | Yale University Press → Yale University | 1961起所属；出版社历史 | 财务运营自主限定保留 |
+| INST-05 | Yale University Press／Yale University／Library of Congress → 本书 | 1980版出版／1980版权标注／CIP提供者 | 三种角色分别引用版权页原句，不合并成笼统参与 |
+| INST-06 | T and A Constable → 本书初版 | 印刷、排版及核对；第一版序言p.ix L22 | 不能套到2006年印刷地点 |
+| INST-07 | Chatto负责人／Norah Smallwood → Haskell／本书初版 | 初版制作支持；第二版序言p.vi L11–12 | 公司、负责人、被特别致谢者保留粒度；不推定具体合同角色 |
+| INST-08 | John Nicoll → 本书新版本 | 提议新版并协助；同前序言 | 不由相邻句认定其雇主为Chatto |
+| INST-09 | Teodoro Correr → Museo Correr／Correr Library | 遗赠促成1830机构创立；官方历史 | 两个受益机构端点，未定遗赠法律生效日 |
+| INST-10 | Correr Library → Museo Correr | 所属；官方介绍 | 与博物馆所藏各作品的保管边分开 |
+| INST-11 | Pignatti → Haskell；研究场所Correr Library | 提供研究便利；第一版序言p.ix L23 | 不是图书馆收藏物所有者关系 |
+| INST-12 | Poerson → French Academy in Rome | 1704获任、1708在任；学院传记＋原书 | 任职终期随卒年冲突待证，不将头衔视作姓名的一部分 |
+| INST-13 | Finnish Institute → Villa Lante, Rome | 机构使用建筑；罗马市介绍 | 与原书图版01艺术作品保管边分开；使用起年不直接套1954活动年 |
+| INST-14 | Honour书评 → Apollo；Conforti论文 → Burlington | 文章刊载；既有原书及已核书目 | 期刊身份已补，全文阅读不因此升级 |
+| INST-15 | Dizionario biografico → Istituto della Enciclopedia Italiana | 出版机构；机构和第100卷说明 | 辞典、机构及词条各自不同粒度 |
+| INST-16 | Haskell → Dizionario biografico | 推荐使用、未逐条列引；第二版序言p.v L5–6 | 保留否定限定，不建立笼统逐条引用关系 |
+| INST-17 | Museum Studies → Art Institute of Chicago | 出版机构；JSTOR期刊记录 | 已补期刊与机构互链，非全部文章逐篇验证 |
+
+### 暂缓与当前结果
+
+本轮纳入22张卡，其中更新19、新建2个机构及1个建筑地点。章前508个KU（累计457新建、47既有有效KU更新、4旧卡整理后接收），全库879个。9项主候选保持待证；本轮另遇Cambridge Library官网历史页连续不可读、Ministry of Works档案页验证墙、Royal Academy仅有展览目录线索，未以访问失败或身份相关性宣称这些对象完成；保留后续适用目录查证路径，不无依据重复抓取。
+
+下一步优先完成其余图书馆、供片机构及书目版本身份，再围绕已登记作品／正文事实集中补足。上述17组候选交关系阶段逐项确认，完整性还受其他未完成对象及端点影响。本轮未提交推送，生成索引保留`2d7db45`同步基线。
+
+本轮22卡的28条原书摘录、99条本地链接、来源编号及过程锚点复核通过；879条有效登记与508个章前KU类型计数一致，原sources前缀和正式relations保持。受影响内容机械检查无确定性发现；此为语义自查及机械核对，不表示全面补足或正式关系定稿。

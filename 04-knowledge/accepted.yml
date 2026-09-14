@@ -1,4 +1,4 @@
-# 当前有效成果：876 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：879 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -113,6 +113,7 @@ units:
 - 04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md
 - 04-knowledge/units/institutions/heritage-malta.md
 - 04-knowledge/units/institutions/hermitage-museum.md
+- 04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md
 - 04-knowledge/units/institutions/jesuits.md
 - 04-knowledge/units/institutions/kimbell-art-museum.md
 - 04-knowledge/units/institutions/kings-college-cambridge.md
@@ -170,6 +171,7 @@ units:
 - 04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md
 - 04-knowledge/units/institutions/uffizi-gallery.md
 - 04-knowledge/units/institutions/university-library-cambridge.md
+- 04-knowledge/units/institutions/university-of-london.md
 - 04-knowledge/units/institutions/university-of-padua.md
 - 04-knowledge/units/institutions/university-of-pittsburgh.md
 - 04-knowledge/units/institutions/university-of-turin.md
@@ -630,6 +632,7 @@ units:
 - 04-knowledge/units/places/via-margutta.md
 - 04-knowledge/units/places/vienna.md
 - 04-knowledge/units/places/villa-borghese.md
+- 04-knowledge/units/places/villa-lante-rome.md
 - 04-knowledge/units/places/villa-pisani.md
 - 04-knowledge/units/places/wurzburg.md
 - 04-knowledge/units/procedures/artist-title-conferral.md

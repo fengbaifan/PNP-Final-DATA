@@ -37,18 +37,21 @@ sources:
 - citation: Laura Popoviciu, Between Taste and Historiography (University of London doctoral thesis, 2014), vol. II. https://sas-space.sas.ac.uk/6353/2/Popoviciu%2C%20L%20%20thesis%20vol%20II%20%203%20Sept%202014.pdf. Accessed 2026-09-14.
   location: 印刷p.280图35目录（PDF58）；p.311图35题注（PDF89）；另核仓储6353书目
   sentence_summary: Alessandro Longhi绘Giovanni Maria Sasso肖像，Venice Museo Correr，Inv. I.760。仅用图版身份信息，不表示整篇论文已读。
+- citation: Museo Correr / Fondazione Musei Civici di Venezia, Library. https://correr.visitmuve.it/en/library/. Accessed 2026-09-14.
+  location: The Library正文及Services；未读所链接目录、馆藏原件
+  sentence_summary: 科雷尔博物馆及图书馆于1830年因威尼斯贵族Teodoro Correr遗赠而成立；馆内图书馆保存手稿、档案和印本文献，服务威尼斯艺术与历史研究。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#出版研究机构与图书馆角色
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 图版48b目录将其记为书中收藏／保管者。
+**中文：** 威尼斯博物馆，1830年因泰奥多罗·科雷尔遗赠而成立；馆内设有研究威尼斯艺术与历史的图书馆。
 
-**English:** The entry for plate 48b records this entity in the role of holder or custodian.
+**English:** A museum in Venice established through Teodoro Correr’s bequest in 1830, incorporating a library for the study of Venetian art and history.
 
 ### 名称
 
@@ -83,9 +86,20 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 作品 | [乔万尼·马里亚·萨索肖像](../works/alessandro-longhi-g-m-sasso.md) | S4 |
 | 图录所列馆藏号 | I.760 | S4 |
 
+### 机构与创立
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 所在地 | [威尼斯](../places/venice.md) | S1–S3、S5 |
+| 成立年 | 1830 | S5 |
+| 创立遗赠者 | [泰奥多罗·科雷尔](../persons/teodoro-correr.md) | S5 |
+| 所属图书馆 | [科雷尔图书馆](correr-library.md) | S5 |
+
 ## 关系与证据
 
 ### 身份与外部链接
+
+[博物馆所属图书馆与创立史](https://correr.visitmuve.it/en/library/)（S5）。
 
 [Popoviciu论文图35](https://sas-space.sas.ac.uk/6353/2/Popoviciu%2C%20L%20%20thesis%20vol%20II%20%203%20Sept%202014.pdf)（S4，馆藏对应）。
 
