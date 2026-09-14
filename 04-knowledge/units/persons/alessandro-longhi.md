@@ -63,10 +63,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Popoviciu论文第二卷图35](https://sas-space.sas.ac.uk/6353/2/Popoviciu%2C%20L%20%20thesis%20vol%20II%20%203%20Sept%202014.pdf)（S3，萨索肖像作者及馆藏号）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [卡洛·洛多利肖像（Portrait of Carlo Lodoli）](../works/alessandro-longhi-carlo-lodoli.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；原断言与证据见发出端卡片“卡洛·洛多利肖像（Portrait of Carlo Lodoli）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 所创作对象（`creator_of`，反向投影） | [乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）](../works/alessandro-longhi-g-m-sasso.md) | 角色：画家；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；原断言与证据见发出端卡片“乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 136–136; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

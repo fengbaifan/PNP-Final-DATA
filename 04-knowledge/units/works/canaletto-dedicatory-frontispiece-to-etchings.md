@@ -16,8 +16,20 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 133–133; 章前：图版目录；印刷页xv
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/canaletto.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原书署名作者
+  scope: 图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核
 ---
 
 ## 内容
@@ -47,7 +59,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：原书署名作者；范围：图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

@@ -121,6 +121,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../archives/salviati-medici-letter-1662.md) | 信件讨论购求及估价的对象是克洛德的作品；没有足够端点识别具体画作；原断言与证据见发出端卡片“雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
+| ← 所创作对象（`creator_of`，反向投影） | [有队列的德尔斐景观（View of Delphi with a Procession）](../works/claude-view-of-delphi-with-a-procession.md) | 角色：原书署名作者；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；原断言与证据见发出端卡片“有队列的德尔斐景观（View of Delphi with a Procession）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
 
 ### 身份与外部链接
 

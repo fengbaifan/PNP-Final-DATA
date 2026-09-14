@@ -55,7 +55,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 时间：1769版画所据绘图；角色：原绘图作者；范围：版画依据的绘图责任，区别墓本体的设计／建造；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
 
 ### 关系候选入口
 

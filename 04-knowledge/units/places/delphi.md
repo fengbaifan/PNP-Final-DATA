@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [有队列的德尔斐景观（View of Delphi with a Procession）](../works/claude-view-of-delphi-with-a-procession.md) | 角色：描绘地点；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；原断言与证据见发出端卡片“有队列的德尔斐景观（View of Delphi with a Procession）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

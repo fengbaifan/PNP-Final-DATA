@@ -48,9 +48,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
+| ← 所在地（`location_of`，反向投影） | [拉丁君权凯旋（La Monarchia Latina Trionfante）](../works/la-monarchia-latina-trionfante.md) | 时间：1678；角色：所述演出城市；范围：图版28b所记歌剧的演出语境，非剧本具体印本所在地；原断言与证据见发出端卡片“拉丁君权凯旋（La Monarchia Latina Trionfante）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
 | ← 所在地（`location_of`，反向投影） | [费顿出版社（Phaidon）](../institutions/phaidon.md) | 角色：创办地；范围：官网称在维也纳创办，未用相对时间倒算成立年；原断言与证据见发出端卡片“费顿出版社（Phaidon）”：[来源](https://www.phaidon.com/en-int/pages/our-company)；institutions-phaidon；完整About Phaidon段及相关品牌概述；无下载全目录 |
 
 ### 关系候选入口

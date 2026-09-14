@@ -83,7 +83,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description及Provenance：Buonaccorsi gallery |
 
 ### 关系候选入口
 

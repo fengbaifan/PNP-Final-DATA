@@ -1,6 +1,6 @@
 ---
-title: "查理一世肖像（Portrait of Charles I）"
-name_en: "Portrait of Charles I"
+title: 查理一世肖像（Portrait of Charles I）
+name_en: Portrait of Charles I
 type: work
 evidence_status: source_backed
 sources:
@@ -16,8 +16,55 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 80–80; 章前：图版目录；印刷页xiii
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/francesco-fanelli.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原书署名作者
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- relation_type: has_subject
+  target: persons/charles-i.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 肖像人物
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- relation_type: held_by
+  target: persons/daphne-ionides.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中私人收藏者
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/london.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -49,7 +96,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [弗朗切斯科·法内利（Francesco Fanelli）](../persons/francesco-fanelli.md) | 角色：原书署名作者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 所涉对象（`has_subject`） | [查理一世（Charles I）](../persons/charles-i.md) | 角色：肖像人物；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [达芙妮·伊奥尼德斯（Daphne Ionides）](../persons/daphne-ionides.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

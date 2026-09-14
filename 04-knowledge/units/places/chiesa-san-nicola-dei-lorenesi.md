@@ -43,7 +43,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 预定地点（`intended_site_of`，反向投影） | [贾昆托的洛林人圣尼古拉堂装饰（Giaquinto’s Decoration of San Nicola dei Lorenesi）](../works/giaquinto-san-nicola-dei-lorenesi-decoration.md) | 时间：1731签约；角色：合同所指装饰场所；范围：中殿拱顶、祭坛后区、穹顶的装饰工程；不以合同本身证明全部原件现存；原断言与证据见发出端卡片“贾昆托的洛林人圣尼古拉堂装饰（Giaquinto’s Decoration of San Nicola dei Lorenesi）”：[来源](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)；works-giaquinto-san-nicola-dei-lorenesi-decoration；1731年S.Nicola dei Lorenesi装饰合同段 |
 
 ### 关系候选入口
 

@@ -172,6 +172,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | ← 事件地点（`scene_of`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 1640-07-14 申请信自 Naples 发出；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 420–425; print pp. 11 |
 | ← 所在地（`location_of`，反向投影） | [那不勒斯主教座堂（Naples Cathedral）](naples-cathedral.md) | 教堂地点为 Naples；原断言与证据见发出端卡片“那不勒斯主教座堂（Naples Cathedral）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
 | ← 所在地（`location_of`，反向投影） | [希律王宴会（The Feast of Herod）](../works/rubens-the-feast-of-herod.md) | 时间：至1640年；角色：历史到达城市；范围：至1640年已运抵该城；未确定建筑或此后迁出时间；原断言与证据见发出端卡片“希律王宴会（The Feast of Herod）”：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；More about this artwork：2015年说明的运抵那不勒斯段 |
+| ← 所在地（`location_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：约1712–1714；角色：创作城市；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Place made: Naples |
 
 ### 身份与外部链接
 

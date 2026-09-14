@@ -4,28 +4,59 @@ name_en: The Death of Regulus
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xiii；OCR L76–76
   sentence_summary: 《赞助人与画家》图版23b目录所记的《雷古鲁斯之死》艺术对象。
   original_quotes:
   - source_span: lines 76–76
-    text: '23 a Michelangelo Cerquozzi: Women’s Bath (Incisa della Rocchetta, Rome) b Salvator Rosa: The Death of Regulus (Virginia Museum of Fine Arts Williams Fund)'
+    text: '23 a Michelangelo Cerquozzi: Women’s Bath (Incisa della Rocchetta, Rome) b Salvator Rosa: The Death of
+      Regulus (Virginia Museum of Fine Arts Williams Fund)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 76–76; 章前：图版目录；印刷页xiii
-- citation: Virginia Museum of Fine Arts, photographic metadata for The Death of Regulus, reproduced on Wikimedia Commons, revision 1018278172. https://commons.wikimedia.org/w/index.php?title=File:Rosa_-_The_Death_of_Regulus,_ca._1650-1652.jpg&oldid=1018278172. Accessed 2026-09-14.
+- citation: Virginia Museum of Fine Arts, photographic metadata for The Death of Regulus, reproduced on Wikimedia
+    Commons, revision 1018278172. https://commons.wikimedia.org/w/index.php?title=File:Rosa_-_The_Death_of_Regulus,_ca._1650-1652.jpg&oldid=1018278172.
+    Accessed 2026-09-14.
   location: 转存文件的Metadata：Author、Image title、Short title、馆方联系信息；另核Source/Photographer
   sentence_summary: 馆方图像元数据标识59.15，约1650–1652，布面油画，含原作与带框尺寸；图像元数据制作于2008年，转存不等于当前馆藏页面。
-- citation: Virginia Museum of Fine Arts, Art Acquisitions Committee minutes, 2009. https://vmfa.museum/wp-content/uploads/sites/13/2013/12/2009_Art-Acquisitions-Committee.pdf. Accessed 2026-09-14.
+- citation: Virginia Museum of Fine Arts, Art Acquisitions Committee minutes, 2009. https://vmfa.museum/wp-content/uploads/sites/13/2013/12/2009_Art-Acquisitions-Committee.pdf.
+    Accessed 2026-09-14.
   location: 搜索索引返回Additional Information on Previously Approved Loans第1项；未读完整PDF
   sentence_summary: 馆方会议记录片段明确Salvator Rosa, The Death of Regulus, 1650–1652, oil on canvas, 59.15。借展批准及建议不证明实际出借。
-- citation: Princeton University Art Museum, Study for the Death of Atilius Regulus, x1948-610. https://artmuseum.princeton.edu/art/collections/objects/8060. Accessed 2026-09-14.
+- citation: Princeton University Art Museum, Study for the Death of Atilius Regulus, x1948-610. https://artmuseum.princeton.edu/art/collections/objects/8060.
+    Accessed 2026-09-14.
   location: 完整对象说明、Information、Provenance、Bibliographic Entries、Exhibition History及Citation
   sentence_summary: 约1652年准备稿，为弗吉尼亚美术馆藏油画所作；米色帘纹纸上笔绘棕墨和棕色淡彩，20.3×25.7厘米，Dan Fellows Platt遗赠。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#雷古鲁斯油画与准备稿版本
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#大学博物馆与馆藏关系集中补足
+relations:
+- relation_type: created_by
+  target: persons/salvator-rosa.md
+  evidence_ref:
+    doc_id: works-salvator-rosa-the-death-of-regulus
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画家
+  scope: 本书图版23b油画；区别普林斯顿准备稿
+  time: 本书所述时点
+- relation_type: held_by
+  target: institutions/virginia-museum-of-fine-arts.md
+  evidence_ref:
+    doc_id: works-salvator-rosa-the-death-of-regulus
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中保管机构
+  scope: 本书图版23b油画；区别普林斯顿准备稿
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -72,7 +103,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](rosa-regulus-study-princeton.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；作品说明：preliminary sketch for The Death of Regulus |
+| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：本书所述时点；角色：画家；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [弗吉尼亚美术馆（Virginia Museum of Fine Arts）](../institutions/virginia-museum-of-fine-arts.md) | 时间：本书所述时点；角色：书中保管机构；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

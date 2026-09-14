@@ -4,12 +4,26 @@ name_en: Sir John Soane’s Museum
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Sir John Soane’s Museum, Annual Report and Accounts 2016–2017. https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf. Accessed 2026-09-14.
+- citation: Sir John Soane’s Museum, Annual Report and Accounts 2016–2017. https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf.
+    Accessed 2026-09-14.
   location: PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段
   sentence_summary: Bruce Boucher于2016-05-16就任馆长，2017-03-31仍列馆长。博物馆登记地址13 Lincoln’s Inn Fields, London；不将报告期末当离任日期。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#大学博物馆与馆藏关系集中补足
+relations:
+- relation_type: located_at
+  target: places/london.md
+  evidence_ref:
+    doc_id: institutions-sir-john-soanes-museum
+    source_file: https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf
+    source_span: PDF8／印刷6：Registered address
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 登记地址所在城市
+  scope: 2016–2017年报地址；不以报告期末推定迁址
+  time: 2016–2017年报
 ---
 
 ## 内容
@@ -48,9 +62,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [馆方2016–2017年报](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)（S1）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：2016–2017年报；角色：登记地址所在城市；范围：2016–2017年报地址；不以报告期末推定迁址；证据：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；institutions-sir-john-soanes-museum；PDF8／印刷6：Registered address |
 | ← 雇主（`employer_of`，反向投影） | [布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）](../persons/bruce-boucher.md) | 时间：2016-05-16就任；2017-03-31仍在任；角色：馆长；范围：年度报告时点，不将期末当离任；原断言与证据见发出端卡片“布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）”：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；persons-bruce-boucher；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
 
 ### 关系候选入口

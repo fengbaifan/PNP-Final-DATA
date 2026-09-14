@@ -71,7 +71,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 供应者（`supplier_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版28a署名Villani，商号身份依S3；不将照片档案号522770当绘画库存号；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 172–172; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

@@ -59,7 +59,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [帕多瓦Prà广场（Prà della Valle, Padua）](../works/canaletto-pra-della-valle-padua.md) | 角色：描绘广场；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；原断言与证据见发出端卡片“帕多瓦Prà广场（Prà della Valle, Padua）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

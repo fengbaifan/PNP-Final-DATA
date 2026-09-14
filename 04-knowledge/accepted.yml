@@ -911,6 +911,11 @@ units:
 - 04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md
 - 04-knowledge/units/institutions/charavay-freres.md
 - 04-knowledge/units/institutions/mascardi-rome.md
+- 04-knowledge/units/places/pittsburgh.md
+- 04-knowledge/units/places/houston.md
+- 04-knowledge/units/places/princeton-new-jersey.md
+- 04-knowledge/units/institutions/princeton-university.md
+- 04-knowledge/units/places/schloss-wilhelmshoehe.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks

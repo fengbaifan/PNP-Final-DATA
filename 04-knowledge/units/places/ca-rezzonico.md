@@ -47,8 +47,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）](../works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md) | 时间：2025年文献记载；角色：研究文献所载建筑位置；范围：2025年Sottili论文注21记Ca’ Rezzonico，编号C1.I.144；不据此推定移交日期或产权；原断言与证据见发出端卡片“老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）”：[来源](https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf)；works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini；印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144 |
+| ← 安置地点（`installation_site_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 时间：1757年冬绘成；角色：婚姻寓意厅天顶；范围：馆方Nuptial Allegory Room所述装饰；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
 
 ### 关系候选入口
 

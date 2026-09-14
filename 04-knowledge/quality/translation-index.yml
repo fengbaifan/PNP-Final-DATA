@@ -1,5 +1,5 @@
 generated: '2026-09-15'
-total: 774
+total: 775
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -3255,14 +3255,14 @@ index:
   language_original: ''
 - slug: works/francesco-algarotti
   type: works
-  name_en: '"Portrait of Francesco Algarotti"'
-  title: '"弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）"'
+  name_en: Portrait of Francesco Algarotti
+  title: 弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）
   name_original: ''
   language_original: ''
 - slug: works/francesco-fanelli-charles-i
   type: works
-  name_en: '"Portrait of Charles I"'
-  title: '"查理一世肖像（Portrait of Charles I）"'
+  name_en: Portrait of Charles I
+  title: 查理一世肖像（Portrait of Charles I）
   name_original: ''
   language_original: ''
 - slug: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso
@@ -3273,8 +3273,8 @@ index:
   language_original: ''
 - slug: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany
   type: works
-  name_en: '"Portrait of Grand Prince Ferdinand of Tuscany"'
-  title: '"托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）"'
+  name_en: Portrait of Grand Prince Ferdinand of Tuscany
+  title: 托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）
   name_original: ''
   language_original: ''
 - slug: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano
@@ -4427,6 +4427,12 @@ index:
   type: institutions
   name_en: Princeton University Art Museum
   title: 普林斯顿大学艺术博物馆（Princeton University Art Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/princeton-university
+  type: institutions
+  name_en: Princeton University
+  title: 普林斯顿大学（Princeton University）
   name_original: ''
   language_original: ''
 - slug: institutions/regional-museum-messina

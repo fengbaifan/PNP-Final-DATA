@@ -20,17 +20,54 @@ sources:
   location: Author、Date、Museum、Technique、Inventory
   sentence_summary: Giambattista Tiepolo；1757–1758；布面油画；总督宫；编号TS 2° p. n. 6 n. 328。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#提埃坡罗作品关系集中定稿
+relations:
+- relation_type: created_by
+  target: persons/giambattista-tiepolo.md
+  evidence_ref:
+    doc_id: works-tiepolo-neptune-paying-homage-to-venice
+    source_file: https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/
+    source_span: Author、Date、Museum、Technique、Inventory
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画家
+  scope: TS 2° p. n. 6 n. 328单件油画
+  time: 1757–1758
+- relation_type: located_at
+  target: places/palazzo-ducale.md
+  evidence_ref:
+    doc_id: works-tiepolo-neptune-paying-homage-to-venice
+    source_file: https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/
+    source_span: Author、Date、Museum、Technique、Inventory
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 馆藏建筑
+  scope: 馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权
+  time: 所引馆方记录时点
+- relation_type: located_at
+  target: places/venice.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 114–114; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版42a；城市位置与Venice拟人题材分开
+  time: 本书所述时点
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《赞助人与画家》图版42a目录所记的《海神向威尼斯致敬》艺术对象。
+**中文：** 提埃坡罗于1757至1758年创作、藏于威尼斯总督宫的布面油画，描绘海神向拟人化的威尼斯献礼。
 
-**English:** The art object titled Neptune paying homage to Venice, listed as plate 42a in Patrons and Painters.
+**English:** An oil painting on canvas by Tiepolo, dated 1757–1758 and held at the Doge’s Palace in Venice, depicting Neptune offering gifts to the personification of Venice.
 
 ### 名称
 
@@ -68,7 +105,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1757–1758；角色：画家；范围：TS 2° p. n. 6 n. 328单件油画；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；works-tiepolo-neptune-paying-homage-to-venice；Author、Date、Museum、Technique、Inventory |
+| → 位于（`located_at`） | [总督宫（威尼斯）（Palazzo Ducale）](../places/palazzo-ducale.md) | 时间：所引馆方记录时点；角色：馆藏建筑；范围：馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；works-tiepolo-neptune-paying-homage-to-venice；Author、Date、Museum、Technique、Inventory |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版42a；城市位置与Venice拟人题材分开；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 114–114; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

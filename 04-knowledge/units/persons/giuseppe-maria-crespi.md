@@ -111,9 +111,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [DBI Crespi传记](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)（S7，姓名与Conti委托）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md) | 角色：所据画作作者；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；原断言与证据见发出端卡片“波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| ← 所创作对象（`creator_of`，反向投影） | [梳妆少女（Girl at her toilet）](../works/g-m-crespi-girl-at-her-toilet.md) | 角色：原书署名作者；范围：图版36b／37a各自原书行段；两件作品分别保存；原断言与证据见发出端卡片“梳妆少女（Girl at her toilet）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 102–102; 章前：图版目录；印刷页xiv |
 | ← 所创作对象（`creator_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1728–1729；角色：画家；范围：Stuttgart inv.3294；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；AUTHOR、Dating；Stuttgart inv.3294 |
+| ← 所创作对象（`creator_of`，反向投影） | [画家一家（The Painter's Family）](../works/g-m-crespi-the-painter-s-family.md) | 角色：原书署名作者；范围：图版36b／37a各自原书行段；两件作品分别保存；原断言与证据见发出端卡片“画家一家（The Painter's Family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 103–103; 章前：图版目录；印刷页xiv |
 
 [章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)

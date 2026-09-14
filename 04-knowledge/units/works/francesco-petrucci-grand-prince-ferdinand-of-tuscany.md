@@ -1,6 +1,6 @@
 ---
-title: "托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）"
-name_en: "Portrait of Grand Prince Ferdinand of Tuscany"
+title: 托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）
+name_en: Portrait of Grand Prince Ferdinand of Tuscany
 type: work
 evidence_status: source_backed
 sources:
@@ -16,8 +16,31 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 101–101; 章前：图版目录；印刷页xiv
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/francesco-petrucci.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 101–101; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原书署名作者
+  scope: 图版36a；Grand Prince称号不改写为Grand Duke
+- relation_type: has_subject
+  target: persons/ferdinand-grand-prince-tuscany.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 101–101; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 大公子肖像人物
+  scope: 图版36a；Grand Prince称号不改写为Grand Duke
 ---
 
 ## 内容
@@ -47,7 +70,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](../persons/francesco-petrucci.md) | 角色：原书署名作者；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 101–101; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../persons/ferdinand-grand-prince-tuscany.md) | 角色：大公子肖像人物；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 101–101; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

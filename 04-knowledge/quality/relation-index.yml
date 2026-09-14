@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 747
-# sources: {'explicit': 746, 'inferred_by_rule': 1}
+# total: 892
+# sources: {'explicit': 891, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -1949,7 +1949,7 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   time: 1966–1969
-  role: 政治科学系教师
+  role: 政治学学院教师
   scope: 仅帕多瓦任教阶段
 - source: persons/gaetano-cozzi.md
   source_type: person
@@ -3748,6 +3748,26 @@
   review_status: evidence_backed_relation
   role: 所在地
   scope: 机构所在地
+- source: institutions/ca-foscari-university-venice.md
+  source_type: institution
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-ca-foscari-university-venice
+    source_file: https://www.unive.it/pag/17956/
+    source_span: Who we are主校区段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
 - source: institutions/charavay-freres.md
   source_type: institution
   target: places/paris.md
@@ -3899,6 +3919,46 @@
   review_status: evidence_backed_relation
   role: 机构使用建筑
   scope: 机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置
+- source: institutions/gabinetto-dei-disegni-castello-sforzesco.md
+  source_type: institution
+  target: places/castello-sforzesco.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-gabinetto-dei-disegni-castello-sforzesco
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/
+    source_span: PDF3：COLLOCAZIONE SPECIFICA
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 所引目录记录时点
+  role: 所在建筑
+  scope: SIRBeC4y010-09081记载的收藏部门位置
+- source: institutions/gabinetto-dei-disegni-castello-sforzesco.md
+  source_type: institution
+  target: places/milan.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-gabinetto-dei-disegni-castello-sforzesco
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/
+    source_span: PDF2：LOCALIZZAZIONE GEOGRAFICO-AMMINISTRATIVA ATTUALE
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 所引目录记录时点
+  role: 所在城市
+  scope: SIRBeC4y010-09081记载的收藏部门位置
 - source: institutions/gabinetto-fotografico-nazionale.md
   source_type: institution
   target: institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md
@@ -4057,6 +4117,26 @@
   time: '1830'
   role: 创立遗赠者
   scope: 遗赠促成博物馆1830年创立；不补造遗赠法律生效日期
+- source: institutions/museum-of-fine-arts-houston.md
+  source_type: institution
+  target: places/houston.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-museum-of-fine-arts-houston
+    source_file: https://www.mfah.org/about/history
+    source_span: From Aspiration to Major Art Museum及页脚Houston,TX
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 所在城市
+  scope: 机构所在地；不以1900年前期活动冒充开馆年
 - source: institutions/museum-schloss-wilhelmshoehe.md
   source_type: institution
   target: places/kassel.md
@@ -4075,6 +4155,26 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 馆藏说明中的博物馆所在地
+- source: institutions/museum-schloss-wilhelmshoehe.md
+  source_type: institution
+  target: places/schloss-wilhelmshoehe.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-museum-schloss-wilhelmshoehe
+    source_file: https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe
+    source_span: Von der Sommerresidenz zur Gemäldegalerie
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 馆舍建筑
+  scope: 博物馆使用的宫殿空间；建筑与机构分别登记
 - source: institutions/phaidon.md
   source_type: institution
   target: places/vienna.md
@@ -4133,6 +4233,66 @@
   time: 页面访问2026-09-15
   role: 陈列场所：二楼
   scope: 馆方页面所述绘画收藏陈列位置
+- source: institutions/princeton-university-art-museum.md
+  source_type: institution
+  target: institutions/princeton-university.md
+  target_type: institution
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-princeton-university-art-museum
+    source_file: https://artmuseum.princeton.edu/about/directors-welcome?page=0
+    source_span: Director’s Welcome：university museum and teaching/research missions
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 所属大学
+  scope: 大学所属艺术博物馆；不等同艺术与考古学系
+- source: institutions/princeton-university-art-museum.md
+  source_type: institution
+  target: places/princeton-new-jersey.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-princeton-university-art-museum
+    source_file: https://artmuseum.princeton.edu/about/directors-welcome?page=0
+    source_span: Director’s Welcome：Princeton, New Jersey
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 所在城镇
+  scope: 博物馆所在地
+- source: institutions/princeton-university.md
+  source_type: institution
+  target: places/princeton-new-jersey.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-princeton-university
+    source_file: https://artmuseum.princeton.edu/about/directors-welcome?page=0
+    source_span: Director’s Welcome：at the heart of Princeton University in Princeton,New Jersey
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 大学主校区所在城镇
 - source: institutions/royal-academy.md
   source_type: institution
   target: places/london.md
@@ -4190,6 +4350,26 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 本书供片署名所列巴黎；不推定今日地址
+- source: institutions/sir-john-soanes-museum.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-sir-john-soanes-museum
+    source_file: https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf
+    source_span: PDF8／印刷6：Registered address
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2016–2017年报
+  role: 登记地址所在城市
+  scope: 2016–2017年报地址；不以报告期末推定迁址
 - source: institutions/soprintendenza-alle-gallerie-florence.md
   source_type: institution
   target: places/florence.md
@@ -4324,6 +4504,106 @@
   time: 2005年记录
   role: 出版项所列馆址
   scope: 2005年出版项所列West Road城市；不倒填1416年的精确地址
+- source: institutions/university-of-cambridge.md
+  source_type: institution
+  target: places/cambridge.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-of-cambridge
+    source_file: https://www.cam.ac.uk/about-the-university
+    source_span: Civic and community engagement及机构名称
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
+- source: institutions/university-of-london.md
+  source_type: institution
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-of-london
+    source_file: https://www.london.ac.uk/about/who-we-are
+    source_span: Although proudly rooted in London
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
+- source: institutions/university-of-padua.md
+  source_type: institution
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-of-padua
+    source_file: https://www.unipd.it/en/storia
+    source_span: 'Contacts: Via 8 Febbraio 2,35122 Padova'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
+- source: institutions/university-of-pittsburgh.md
+  source_type: institution
+  target: places/pittsburgh.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-of-pittsburgh
+    source_file: https://www.english.pitt.edu/history-department/1787/1787-1819-overview
+    source_span: Department of English院系页脚Pittsburgh,PA
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
+- source: institutions/university-of-turin.md
+  source_type: institution
+  target: places/turin.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-university-of-turin
+    source_file: https://en.unito.it/university/about-us/short-history
+    source_span: Key dates：都灵校舍历史与机构名称
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 主要所在地
+  scope: 机构所在城市；不以单一城市概括全部异地教学场所
 - source: institutions/wallraf-richartz-museum.md
   source_type: institution
   target: places/cologne.md
@@ -4640,6 +4920,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/schloss-wilhelmshoehe.md
+  source_type: place
+  target: places/kassel.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: places-schloss-wilhelmshoehe
+    source_file: https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe
+    source_span: Kontakt：Schlosspark1,34131Kassel
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 所在城市
+  scope: 宫殿建筑地址
 - source: works/a-d-gabbiani-a-group-of-musicians.md
   source_type: work
   target: institutions/soprintendenza-alle-gallerie-florence.md
@@ -4867,6 +5167,84 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 书中馆藏地点，不表示作品创作地点
+- source: works/alessandro-longhi-g-m-sasso.md
+  source_type: work
+  target: persons/alessandro-longhi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读
+- source: works/alessandro-longhi-g-m-sasso.md
+  source_type: work
+  target: persons/g-m-sasso.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像人物
+  scope: 图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读
+- source: works/alessandro-longhi-g-m-sasso.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读
+- source: works/alessandro-longhi-g-m-sasso.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读
 - source: works/amigoni-jupiter-and-io.md
   source_type: work
   target: institutions/royal-academy.md
@@ -4886,6 +5264,186 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版49b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: persons/amigoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1739'
+  role: 画家
+  scope: Streit.1／obj:863940单件肖像
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: persons/sigismund-streit.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1739'
+  role: 肖像人物
+  scope: 描绘52岁的施特赖特
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: persons/sigismund-streit.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1739'
+  role: 委托人
+  scope: 该单件肖像的绘制委托
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: persons/sigismund-streit.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1758'
+  role: 赠予者
+  scope: Streit.1赠予母校，区别1739年绘画委托
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: institutions/gymnasium-zu-grauen-kloster.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1758'
+  role: 受赠机构
+  scope: Streit.1获赠；不以此推定现时法律产权
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: institutions/streitsche-stiftung.md
+  target_type: institution
+  relation_type: lent_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1964起，所引馆藏记录
+  role: 出借机构
+  scope: Streit.1自1964年借存；出借身份不自动证明所有权
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: institutions/gemaeldegalerie-berlin.md
+  target_type: institution
+  relation_type: borrowed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1964起，所引馆藏记录
+  role: 借入机构
+  scope: Streit.1自1964年借存
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: institutions/gymnasium-zu-grauen-kloster.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中收藏机构
+  scope: 图版53b目录的历史记载；与S2所载1964起借展关系分开
+- source: works/amigoni-sigismund-streit.md
+  source_type: work
+  target: places/berlin.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版53b目录的历史记载；与S2所载1964起借展关系分开
 - source: works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md
   source_type: work
   target: institutions/gabinetto-fotografico-nazionale.md
@@ -5363,6 +5921,84 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/bernini-maffeo-barberini-as-pope-urban-viii.md
+  source_type: work
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号
+- source: works/bernini-maffeo-barberini-as-pope-urban-viii.md
+  source_type: work
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 教宗肖像人物
+  scope: 图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号
+- source: works/bernini-maffeo-barberini-as-pope-urban-viii.md
+  source_type: work
+  target: places/palazzo-dei-conservatori.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中建筑位置
+  scope: 图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号
+- source: works/bernini-maffeo-barberini-as-pope-urban-viii.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 38–39; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号
 - source: works/bernini-thomas-baker-bust.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -5518,6 +6154,218 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/canaletto.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 建筑绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/cimaroli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 风景绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/pittoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 人物绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/owen-mcswiny.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography
+    source_span: All known portraits末段：纪念画系列委托与Moores原画
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1725–1729系列委托
+  role: 系列委托组织者
+  scope: NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/archbishop-tillotson.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 纪念对象
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: persons/peter-moores.md
+  target_type: person
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中收藏者
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+- source: works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md
+  source_type: work
+  target: places/liverpool.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+- source: works/canaletto-dedicatory-frontispiece-to-etchings.md
+  source_type: work
+  target: persons/canaletto.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核
+- source: works/canaletto-pra-della-valle-padua.md
+  source_type: work
+  target: persons/canaletto.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 146–146; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点
+- source: works/canaletto-pra-della-valle-padua.md
+  source_type: work
+  target: places/pra-della-valle.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 146–146; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘广场
+  scope: 图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点
+- source: works/canaletto-pra-della-valle-padua.md
+  source_type: work
+  target: places/padua.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 146–146; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘城市
+  scope: 图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点
 - source: works/canaletto-view-from-badminton-1748.md
   source_type: work
   target: institutions/royal-academy.md
@@ -7496,6 +8344,45 @@
   time: 本轮来源访问时
   role: 保管机构
   scope: 现存
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
+  target: persons/urbano-viii.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 马费奥·巴贝里尼肖像人物
+  scope: 图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中私人收藏所在城市
+  scope: 图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点
 - source: works/caravaggio-martha-mary-magdalene.md
   source_type: work
   target: persons/caravaggio.md
@@ -9041,6 +9928,123 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版17b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/claude-view-of-delphi-with-a-procession.md
+  source_type: work
+  target: persons/claude-lorrain.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索
+- source: works/claude-view-of-delphi-with-a-procession.md
+  source_type: work
+  target: places/delphi.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘地点
+  scope: 图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索
+- source: works/claude-view-of-delphi-with-a-procession.md
+  source_type: work
+  target: institutions/art-institute-of-chicago.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 72–72; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: persons/domenichino.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: places/villa-borghese.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中建筑位置
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
 - source: works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md
   source_type: work
   target: institutions/stearn-and-son.md
@@ -9060,6 +10064,45 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者
+- source: works/facade-of-s-maria-del-giglio.md
+  source_type: work
+  target: places/s-maria-del-giglio.md
+  target_type: place
+  relation_type: part_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 112–112; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所属建筑
+  scope: 图版41a；立面是教堂建筑构件，作品与整座教堂分别登记
+- source: works/facade-of-s-maria-del-giglio.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 112–112; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 所在城市
+  scope: 图版41a；立面是教堂建筑构件，作品与整座教堂分别登记
 - source: works/ferri-laparelli-altarpiece.md
   source_type: work
   target: persons/annibale-laparelli.md
@@ -9181,6 +10224,143 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者
+- source: works/francesco-algarotti.md
+  source_type: work
+  target: persons/francesco-algarotti.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像人物
+  scope: 图版48d；作者原书明确Anonymous
+- source: works/francesco-algarotti.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版48d；作者原书明确Anonymous
+- source: works/francesco-algarotti.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版48d；作者原书明确Anonymous
+- source: works/francesco-fanelli-charles-i.md
+  source_type: work
+  target: persons/francesco-fanelli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- source: works/francesco-fanelli-charles-i.md
+  source_type: work
+  target: persons/charles-i.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像人物
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- source: works/francesco-fanelli-charles-i.md
+  source_type: work
+  target: persons/daphne-ionides.md
+  target_type: person
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中私人收藏者
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- source: works/francesco-fanelli-charles-i.md
+  source_type: work
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 80–80; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
 - source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
   source_type: work
   target: persons/francesco-guardi.md
@@ -9239,6 +10419,181 @@
   review_status: evidence_backed_relation
   role: 画中地点
   scope: 画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址
+- source: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md
+  source_type: work
+  target: persons/francesco-petrucci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 101–101; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版36a；Grand Prince称号不改写为Grand Duke
+- source: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md
+  source_type: work
+  target: persons/ferdinand-grand-prince-tuscany.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 101–101; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 大公子肖像人物
+  scope: 图版36a；Grand Prince称号不改写为Grand Duke
+- source: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md
+  source_type: work
+  target: persons/giuseppe-maria-crespi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所据画作作者
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- source: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md
+  source_type: work
+  target: places/poggio-a-caiano.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画作描绘地点
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- source: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 所据原画保管机构
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- source: works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中原画所在城市
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- source: works/g-m-crespi-girl-at-her-toilet.md
+  source_type: work
+  target: persons/giuseppe-maria-crespi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 102–102; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
+- source: works/g-m-crespi-girl-at-her-toilet.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 102–102; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
+- source: works/g-m-crespi-girl-at-her-toilet.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 102–102; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
 - source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
   source_type: work
   target: persons/giuseppe-maria-crespi.md
@@ -9317,6 +10672,181 @@
   time: 1976–1977
   role: 经手画廊
   scope: Stuttgart inv.3294的市场经手记录
+- source: works/g-m-crespi-the-painter-s-family.md
+  source_type: work
+  target: persons/giuseppe-maria-crespi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 103–103; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
+- source: works/g-m-crespi-the-painter-s-family.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 103–103; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
+- source: works/g-m-crespi-the-painter-s-family.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 103–103; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版36b／37a各自原书行段；两件作品分别保存
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: persons/g-volpato.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa
+    source_file: https://www.metmuseum.org/art/collection/search/335623
+    source_span: Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1769'
+  role: 蚀刻与雕版制作者
+  scope: 1769版画图式；本书具体印本未定
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: persons/carlo-bianconi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa
+    source_file: https://www.metmuseum.org/art/collection/search/335623
+    source_span: Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1769版画所据绘图
+  role: 原绘图作者
+  scope: 版画依据的绘图责任，区别墓本体的设计／建造
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: persons/francesco-algarotti.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 138–138; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 纪念对象
+  scope: 图版60图像内容；不将比萨解释为版画印本所在地
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: works/tomb-of-francesco-algarotti.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 138–138; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所描绘墓
+  scope: 图版60图像内容；不将比萨解释为版画印本所在地
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: places/pisa.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 138–138; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 墓所在城市
+  scope: 图版60图像内容；不将比萨解释为版画印本所在地
+- source: works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md
+  source_type: work
+  target: places/camposanto-pisa.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa
+    source_file: https://www.metmuseum.org/art/collection/search/335623
+    source_span: Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所描绘墓的安置场所
+  scope: Met题名及说明所指坎波桑托；不添加Met或Rijksmuseum为本书印本现藏馆
 - source: works/gaulli-gesu-vaults.md
   source_type: work
   target: persons/giovan-battista-gaulli.md
@@ -9351,6 +10881,65 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/gaulli-triumph-name-jesus.md
+  source_type: work
+  target: persons/giovan-battista-gaulli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版14；原书目录未在此行声明技法、具体天顶范围或委托者
+- source: works/gaulli-triumph-name-jesus.md
+  source_type: work
+  target: places/gesu-rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中建筑位置
+  scope: 图版14；原书目录未在此行声明技法、具体天顶范围或委托者
+- source: works/gaulli-triumph-name-jesus.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 61–62; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版14；原书目录未在此行声明技法、具体天顶范围或委托者
 - source: works/gavasetti-sant-antonino-frescoes.md
   source_type: work
   target: persons/camillo-gavasetti.md
@@ -9541,6 +11130,46 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 原书目录位置；不外推现藏或画中地点
+- source: works/giaquinto-san-nicola-dei-lorenesi-decoration.md
+  source_type: work
+  target: persons/giaquinto-front-matter.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giaquinto-san-nicola-dei-lorenesi-decoration
+    source_file: https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/
+    source_span: 1731年S.Nicola dei Lorenesi装饰合同段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1731签约
+  role: 装饰工程承作者
+  scope: 1731合同所指绘画装饰工程，不把合同年当所有部位竣工年
+- source: works/giaquinto-san-nicola-dei-lorenesi-decoration.md
+  source_type: work
+  target: places/chiesa-san-nicola-dei-lorenesi.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giaquinto-san-nicola-dei-lorenesi-decoration
+    source_file: https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/
+    source_span: 1731年S.Nicola dei Lorenesi装饰合同段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1731签约
+  role: 合同所指装饰场所
+  scope: 中殿拱顶、祭坛后区、穹顶的装饰工程；不以合同本身证明全部原件现存
 - source: works/gio-maria-bottalla-meeting-of-esau-and-jacob.md
   source_type: work
   target: persons/gio-maria-bottalla.md
@@ -9619,6 +11248,126 @@
   review_status: evidence_backed_relation
   role: 家族集体委托
   scope: 人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: persons/giuseppe-zocchi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini
+    source_file: https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf
+    source_span: 印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1750
+  role: 画家
+  scope: 图3及注21所列C1.I.144铜板油画
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: persons/a-m-zanetti-the-elder.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini
+    source_file: https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf
+    source_span: 印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1750
+  role: 肖像人物
+  scope: 图3与正文明确双人身份
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: persons/marchese-gerini.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini
+    source_file: https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf
+    source_span: 印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1750
+  role: 肖像人物
+  scope: 图3与正文明确双人身份
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版58a原书记录；不以当前建筑位置抹去原书馆藏署名
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 136–136; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版58a原书记录；不以当前建筑位置抹去原书馆藏署名
+- source: works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md
+  source_type: work
+  target: places/ca-rezzonico.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini
+    source_file: https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf
+    source_span: 印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2025年文献记载
+  role: 研究文献所载建筑位置
+  scope: 2025年Sottili论文注21记Ca’ Rezzonico，编号C1.I.144；不据此推定移交日期或产权
 - source: works/guercino-sicilian-altarpiece-1665.md
   source_type: work
   target: persons/guercino.md
@@ -9639,6 +11388,105 @@
   time: '1665'
   role: 创作者
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
+- source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
+  source_type: work
+  target: persons/guglielmo-baur.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-guglielmo-baur-view-of-villa-borghese-in-1630
+    source_file: https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese
+    source_span: 技术字段、库存519、1636签名纪年及收藏沿革
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1636'
+  role: 画家
+  scope: 库存519签名作品；原书题名1630与签名制作年1636分别保存
+- source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
+  source_type: work
+  target: places/villa-borghese.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 46–46; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 描绘对象
+  scope: 图版06；同一别墅在题材与收藏位置中承担不同角色
+- source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
+  source_type: work
+  target: places/villa-borghese.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 46–46; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中作品所在建筑
+  scope: 图版06；同一别墅在题材与收藏位置中承担不同角色
+- source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 46–46; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版06；同一别墅在题材与收藏位置中承担不同角色
+- source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-guglielmo-baur-view-of-villa-borghese-in-1630
+    source_file: https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese
+    source_span: 技术字段、库存519、1636签名纪年及收藏沿革
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 所引2023年馆方记录
+  role: 所引馆藏记录保管机构
+  scope: 库存519，不用同题1641年版本或无日期借展公告替代
 - source: works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md
   source_type: work
   target: institutions/university-library-cambridge.md
@@ -9716,6 +11564,205 @@
   review_status: evidence_backed_relation
   role: 描绘建筑
   scope: 题名明确with view of Palazzo Barberini
+- source: works/guido-cagnacci-death-of-cleopatra.md
+  source_type: work
+  target: persons/guido-cagnacci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 81–81; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书署名作者
+  scope: 图版28a；仅原书对象层面，不决定GG260或GG6508具体版本
+- source: works/guido-cagnacci-death-of-cleopatra.md
+  source_type: work
+  target: institutions/kunsthistorisches-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 81–81; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 图版28a；仅原书对象层面，不决定GG260或GG6508具体版本
+- source: works/guido-cagnacci-death-of-cleopatra.md
+  source_type: work
+  target: places/vienna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 81–81; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版28a；仅原书对象层面，不决定GG260或GG6508具体版本
+- source: works/guido-cagnacci-death-of-cleopatra.md
+  source_type: work
+  target: institutions/a-villani-e-figli.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书图片来源所载时点
+  role: 本书复制图像供片者
+  scope: 图版28a署名Villani，商号身份依S3；不将照片档案号522770当绘画库存号
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: persons/nicolo-minato.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-la-monarchia-latina-trionfante
+    source_file: https://www.metmuseum.org/art/collection/search/700810
+    source_span: Description及Artwork Details：53.600.3581的歌剧责任者说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1678演出作品
+  role: 歌剧脚本作者
+  scope: 作品文字责任，不等同实际1678印本排印者
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: persons/antonio-draghi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-la-monarchia-latina-trionfante
+    source_file: https://www.metmuseum.org/art/collection/search/700810
+    source_span: Description及Artwork Details：53.600.3581的歌剧责任者说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1678演出作品
+  role: 歌剧音乐作者
+  scope: 音乐责任，不扩张为全部芭蕾音乐责任
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: persons/johann-heinrich-schmelzer.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-la-monarchia-latina-trionfante
+    source_file: https://www.christies.com/en/lot/lot-5214348
+    source_span: Lot518拍品书目与责任者说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1678演出作品
+  role: 芭蕾部分责任者
+  scope: 拍品书目所载责任者；具体曲目和是否涉及编舞未展开
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: persons/burnacini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-la-monarchia-latina-trionfante
+    source_file: https://www.metmuseum.org/art/collection/search/700810
+    source_span: Description及Artwork Details：53.600.3581的歌剧责任者说明
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1678'
+  role: 舞台设计者
+  scope: 歌剧场景视觉设计，不等于脚本、音乐或印本刻制
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: places/theater-auf-der-cortina.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-la-monarchia-latina-trionfante
+    source_file: https://collection.theatermuseum.at/en/objects/alternativtitel-die-sig-prangende-roemische-monarchey-983861
+    source_span: GS_GSU6464对象介绍、日期与演出地点字段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1678-10-10演出
+  role: 所述演出场所
+  scope: 同剧Piazza Reale场景馆方记录支持歌剧该次演出，不混称《极乐世界》单张印本
+- source: works/la-monarchia-latina-trionfante.md
+  source_type: work
+  target: places/vienna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 81–81; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1678'
+  role: 所述演出城市
+  scope: 图版28b所记歌剧的演出语境，非剧本具体印本所在地
 - source: works/lanfranco-crucifixion-stock.md
   source_type: work
   target: persons/giovanni-lanfranco.md
@@ -9979,6 +12026,103 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版30a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/mazarin-gallery-vault-decoration.md
+  source_type: work
+  target: persons/romanelli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-mazarin-gallery-vault-decoration
+    source_file: https://www.bnf.fr/en/mazarin-gallery
+    source_span: La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1646–1647绘画工程
+  role: 主持绘画
+  scope: 上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期
+- source: works/mazarin-gallery-vault-decoration.md
+  source_type: work
+  target: persons/paolo-gismondi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-mazarin-gallery-vault-decoration
+    source_file: https://www.bnf.fr/en/mazarin-gallery
+    source_span: La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1646–1647绘画工程
+  role: 作坊绘画参与者
+  scope: 上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期
+- source: works/mazarin-gallery-vault-decoration.md
+  source_type: work
+  target: persons/ottaviano-ottoviani.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-mazarin-gallery-vault-decoration
+    source_file: https://www.bnf.fr/en/mazarin-gallery
+    source_span: La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 镀金灰泥责任者
+  scope: 上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期
+- source: works/mazarin-gallery-vault-decoration.md
+  source_type: work
+  target: persons/mazarin.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-mazarin-gallery-vault-decoration
+    source_file: https://www.bnf.fr/en/mazarin-gallery
+    source_span: La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 宫殿装饰委托者
+  scope: 马扎然宫上层画廊装饰；不把1644年建筑扩建委托等同绘画完工日期
+- source: works/mazarin-gallery-vault-decoration.md
+  source_type: work
+  target: places/galerie-mazarin.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-mazarin-gallery-vault-decoration
+    source_file: https://www.bnf.fr/en/mazarin-gallery
+    source_span: La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 上层画廊穹顶
+  scope: 壁画与镀金灰泥整体所在空间；《罗慕路斯与雷穆斯》局部是否属于本整体另待核
 - source: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
   source_type: work
   target: persons/michelangelo-cerquozzi.md
@@ -10556,6 +12700,106 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版54的复制图像；不表示作品创作者、所有者或保管者
+- source: works/piazzetta-marshal-schulenburg.md
+  source_type: work
+  target: institutions/gabinetto-dei-disegni-castello-sforzesco.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-piazzetta-marshal-schulenburg
+    source_file: https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/
+    source_span: PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO4884/5 E82/5
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 所引目录记录时点
+  role: 保管部门
+  scope: 该单件纸本素描，不泛指全部舒伦堡肖像
+- source: works/piazzetta-marshal-schulenburg.md
+  source_type: work
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-piazzetta-marshal-schulenburg
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 素描作者
+  scope: 图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文
+- source: works/piazzetta-marshal-schulenburg.md
+  source_type: work
+  target: persons/marshal-schulenburg.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-piazzetta-marshal-schulenburg
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 肖像人物
+  scope: 图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文
+- source: works/piazzetta-marshal-schulenburg.md
+  source_type: work
+  target: places/castello-sforzesco.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-piazzetta-marshal-schulenburg
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中建筑位置
+  scope: 图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文
+- source: works/piazzetta-marshal-schulenburg.md
+  source_type: work
+  target: places/milan.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-piazzetta-marshal-schulenburg
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文
 - source: works/piazzetta-pastoral-scene-chicago.md
   source_type: work
   target: persons/piazzetta.md
@@ -11007,6 +13251,85 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/rosa-regulus-study-princeton.md
+  source_type: work
+  target: persons/salvator-rosa.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rosa-regulus-study-princeton
+    source_file: https://artmuseum.princeton.edu/art/collections/objects/8060
+    source_span: Maker、Dates
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1652
+  role: 素描作者
+  scope: x1948-610单件准备稿
+- source: works/rosa-regulus-study-princeton.md
+  source_type: work
+  target: works/salvator-rosa-the-death-of-regulus.md
+  target_type: work
+  relation_type: model_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rosa-regulus-study-princeton
+    source_file: https://artmuseum.princeton.edu/art/collections/objects/8060
+    source_span: 作品说明：preliminary sketch for The Death of Regulus
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1652
+  role: 油画准备稿
+  scope: x1948-610单件准备稿
+- source: works/rosa-regulus-study-princeton.md
+  source_type: work
+  target: institutions/princeton-university-art-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rosa-regulus-study-princeton
+    source_file: https://artmuseum.princeton.edu/art/collections/objects/8060
+    source_span: Object Number x1948-610及Citation
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 当前保管机构
+  scope: x1948-610单件准备稿
+- source: works/rosa-regulus-study-princeton.md
+  source_type: work
+  target: persons/dan-fellows-platt.md
+  target_type: person
+  relation_type: contributed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-rosa-regulus-study-princeton
+    source_file: https://artmuseum.princeton.edu/art/collections/objects/8060
+    source_span: 'Credit Line: Bequest of Dan Fellows Platt'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 遗赠者
+  scope: x1948-610准备稿的遗赠来源，未载生效日期
 - source: works/rubens-chiesa-nuova-altarpiece-1606.md
   source_type: work
   target: places/chiesa-nuova.md
@@ -11156,6 +13479,46 @@
   time: 1961-05–1961-06
   role: 画商／目录经手机构
   scope: Colnaghi目录第2号所涉经手记录
+- source: works/salvator-rosa-the-death-of-regulus.md
+  source_type: work
+  target: persons/salvator-rosa.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-salvator-rosa-the-death-of-regulus
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 画家
+  scope: 本书图版23b油画；区别普林斯顿准备稿
+- source: works/salvator-rosa-the-death-of-regulus.md
+  source_type: work
+  target: institutions/virginia-museum-of-fine-arts.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-salvator-rosa-the-death-of-regulus
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 76–76; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管机构
+  scope: 本书图版23b油画；区别普林斯顿准备稿
 - source: works/sebastiano-ricci-pan-and-syrinx.md
   source_type: work
   target: institutions/soprintendenza-alle-gallerie-florence.md
@@ -11213,6 +13576,126 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: persons/solimena.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Artist、Date
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1712–1714
+  role: 画家
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: persons/raimondo-buonaccorsi.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Description与Provenance：painted for Count Raimondo Buonaccorsi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1712–1714
+  role: 委托人
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: places/naples.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: 'Place made: Naples'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1712–1714
+  role: 创作城市
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: places/gallery-palazzo-buonaccorsi.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Description及Provenance：Buonaccorsi gallery
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 原始宫廷陈设阶段
+  role: 原安置画廊
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: institutions/museum-of-fine-arts-houston.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Provenance：purchased by MFAH,2000
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '2000'
+  role: 购藏机构
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+- source: works/solimena-dido-and-aeneas.md
+  source_type: work
+  target: institutions/museum-of-fine-arts-houston.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: 2000.92及Provenance
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问时点2026-09-15
+  role: 保管机构
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
 - source: works/tiepolo-banquet-cognacq-jay.md
   source_type: work
   target: persons/giambattista-tiepolo.md
@@ -11390,6 +13873,383 @@
   time: '1933'
   role: 取得机构
   scope: 103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画
+- source: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
+    source_file: https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm
+    source_span: Staircase正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1752–1753
+  role: 顶画作者
+  scope: 完整楼梯厅天顶壁画；图版50只复制局部
+- source: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
+  source_type: work
+  target: places/residenz-wurzburg.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
+    source_file: https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm
+    source_span: Staircase正文
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1752–1753绘成
+  role: 楼梯厅天顶
+  scope: 壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件
+- source: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
+  source_type: work
+  target: places/wurzburg.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 128–128; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版50明确的城市位置
+- source: works/tiepolo-glorification-of-the-pisani-family.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-glorification-of-the-pisani-family
+    source_file: https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto
+    source_span: 2025-04-25活动介绍；Salone da Ballo顶画段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1761–1762
+  role: 顶画作者
+  scope: 斯特拉皮萨尼别墅舞厅天顶
+- source: works/tiepolo-glorification-of-the-pisani-family.md
+  source_type: work
+  target: families/pisani-family.md
+  target_type: family
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 118–118; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 颂扬家族
+  scope: 原书题名明确家族主体；不由颂扬推定所有家族成员参与委托
+- source: works/tiepolo-glorification-of-the-pisani-family.md
+  source_type: work
+  target: places/villa-pisani.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-glorification-of-the-pisani-family
+    source_file: https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto
+    source_span: 2025-04-25活动介绍；Salone da Ballo顶画段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1761–1762绘成
+  role: 舞厅天顶
+  scope: 别墅舞厅顶画；部分寓意解释仍有争议
+- source: works/tiepolo-glorification-of-the-pisani-family.md
+  source_type: work
+  target: places/stra.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 118–118; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城镇
+  scope: 图版44原书定位
+- source: works/tiepolo-glorification-of-the-pisani-family.md
+  source_type: work
+  target: institutions/osvaldo-bohm-photographic-publisher.md
+  target_type: institution
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 164–164; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书图片来源所载时点
+  role: 本书复制图像供片者
+  scope: 图版44所用复制图像，商号身份依S4已核；不指定底片号或具体摄影师
+- source: works/tiepolo-maecenas-presenting-the-arts-to-augustus.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 159–160; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原设计者
+  scope: 图版68b为复制版画；Tiepolo角色为原设计，不改记为刻印者
+- source: works/tiepolo-maecenas-presenting-the-arts-to-augustus.md
+  source_type: work
+  target: persons/leonardis.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-maecenas-presenting-the-arts-to-augustus
+    source_file: https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf
+    source_span: 印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1766'
+  role: 蚀刻制作者
+  scope: 1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-marriage-allegory-of-the-rezzonico-family
+    source_file: https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/
+    source_span: Nuptial Allegory Room
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1757年冬
+  role: 主画作者
+  scope: 婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: persons/girolamo-mengozzi-colonna.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-marriage-allegory-of-the-rezzonico-family
+    source_file: https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/
+    source_span: Nuptial Allegory Room
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1757年冬
+  role: 建筑幻景绘制者
+  scope: 婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: persons/giandomenico-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-marriage-allegory-of-the-rezzonico-family
+    source_file: https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/
+    source_span: Nuptial Allegory Room
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1757年冬
+  role: 萨堤尔绘制者
+  scope: 婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: families/rezzonico-family.md
+  target_type: family
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 116–117; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 颂扬家族
+  scope: 原书婚姻寓意题名；不据家族题名推定具体新人身份或婚姻双方
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: places/ca-rezzonico.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-marriage-allegory-of-the-rezzonico-family
+    source_file: https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/
+    source_span: Nuptial Allegory Room
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1757年冬绘成
+  role: 婚姻寓意厅天顶
+  scope: 馆方Nuptial Allegory Room所述装饰
+- source: works/tiepolo-marriage-allegory-of-the-rezzonico-family.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 116–117; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版43原书定位
+- source: works/tiepolo-neptune-paying-homage-to-venice.md
+  source_type: work
+  target: persons/giambattista-tiepolo.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-neptune-paying-homage-to-venice
+    source_file: https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/
+    source_span: Author、Date、Museum、Technique、Inventory
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1757–1758
+  role: 画家
+  scope: TS 2° p. n. 6 n. 328单件油画
+- source: works/tiepolo-neptune-paying-homage-to-venice.md
+  source_type: work
+  target: places/palazzo-ducale.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-tiepolo-neptune-paying-homage-to-venice
+    source_file: https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/
+    source_span: Author、Date、Museum、Technique、Inventory
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 所引馆方记录时点
+  role: 馆藏建筑
+  scope: 馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权
+- source: works/tiepolo-neptune-paying-homage-to-venice.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 114–114; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中所在城市
+  scope: 图版42a；城市位置与Venice拟人题材分开
 - source: works/valentin-genre-commission.md
   source_type: work
   target: persons/valentin.md

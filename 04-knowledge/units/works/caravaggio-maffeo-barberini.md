@@ -18,17 +18,41 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 36–37; 章前：图版目录；印刷页xii
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: has_subject
+  target: persons/urbano-viii.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 马费奥·巴贝里尼肖像人物
+  scope: 图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点
+- relation_type: located_at
+  target: places/florence.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 36–37; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中私人收藏所在城市
+  scope: 图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点
+  time: 本书所述时点
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《赞助人与画家》图版02a目录所记的《马费奥·巴贝里尼肖像》艺术对象。
+**中文：** 马费奥·巴贝里尼肖像，原书图版02a记为“归于卡拉瓦乔”，并列佛罗伦萨私人收藏。
 
-**English:** The art object titled Maffeo Barberini, listed as plate 02a in Patrons and Painters.
+**English:** A portrait of Maffeo Barberini, attributed to Caravaggio in plate 02a and listed there in a private collection in Florence.
 
 ### 名称
 
@@ -52,7 +76,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：马费奥·巴贝里尼肖像人物；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 36–37; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中私人收藏所在城市；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 36–37; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

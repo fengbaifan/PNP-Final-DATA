@@ -61,7 +61,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）](../works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md) | 时间：约1750；角色：画家；范围：图3及注21所列C1.I.144铜板油画；原断言与证据见发出端卡片“老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）”：[来源](https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf)；works-giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini；印刷pp.99–100图3及p.139注21（PDF6–7、46）：C1.I.144 |
 
 ### 关系候选入口
 

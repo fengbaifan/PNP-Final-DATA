@@ -79,7 +79,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 时间：约1725–1729系列委托；角色：系列委托组织者；范围：NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；All known portraits末段：纪念画系列委托与Moores原画 |
 
 ### 关系候选入口
 

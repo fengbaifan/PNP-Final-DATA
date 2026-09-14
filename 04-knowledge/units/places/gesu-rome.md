@@ -85,6 +85,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）](../works/gaulli-gesu-vaults.md) | 工程在罗马 Gesù 教堂；原断言与证据见发出端卡片“盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
+| ← 所在地（`location_of`，反向投影） | [耶稣圣名的胜利（Triumph of The Name of Jesus）](../works/gaulli-triumph-name-jesus.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；原断言与证据见发出端卡片“耶稣圣名的胜利（Triumph of The Name of Jesus）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 61–62; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

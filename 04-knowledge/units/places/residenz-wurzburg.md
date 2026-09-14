@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）](../works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md) | 时间：1752–1753绘成；角色：楼梯厅天顶；范围：壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件；原断言与证据见发出端卡片“维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）”：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz；Staircase正文 |
 
 ### 关系候选入口
 

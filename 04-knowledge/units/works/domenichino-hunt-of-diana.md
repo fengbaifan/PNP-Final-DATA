@@ -16,8 +16,44 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 47–47; 章前：图版目录；印刷页xii
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/domenichino.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原书署名作者
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
+- relation_type: located_at
+  target: places/villa-borghese.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中建筑位置
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/rome.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 47–47; 章前：图版目录；印刷页xii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -48,7 +84,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 角色：原书署名作者；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

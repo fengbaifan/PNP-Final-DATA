@@ -44,7 +44,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [拉丁君权凯旋（La Monarchia Latina Trionfante）](../works/la-monarchia-latina-trionfante.md) | 时间：1678演出作品；角色：歌剧音乐作者；范围：音乐责任，不扩张为全部芭蕾音乐责任；原断言与证据见发出端卡片“拉丁君权凯旋（La Monarchia Latina Trionfante）”：[来源](https://www.metmuseum.org/art/collection/search/700810)；works-la-monarchia-latina-trionfante；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
 
 ### 关系候选入口
 

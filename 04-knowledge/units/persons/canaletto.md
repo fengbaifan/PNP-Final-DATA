@@ -99,7 +99,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 角色：建筑绘制者；范围：纪念画的分工；不是实际墓建筑的建造角色；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注 |
+| ← 所创作对象（`creator_of`，反向投影） | [蚀刻集献辞卷首图（Dedicatory frontispiece to Etchings）](../works/canaletto-dedicatory-frontispiece-to-etchings.md) | 角色：原书署名作者；范围：图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核；原断言与证据见发出端卡片“蚀刻集献辞卷首图（Dedicatory frontispiece to Etchings）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| ← 所创作对象（`creator_of`，反向投影） | [帕多瓦Prà广场（Prà della Valle, Padua）](../works/canaletto-pra-della-valle-padua.md) | 角色：原书署名作者；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；原断言与证据见发出端卡片“帕多瓦Prà广场（Prà della Valle, Padua）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

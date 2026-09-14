@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [查理一世肖像（Portrait of Charles I）](../works/francesco-fanelli-charles-i.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；原断言与证据见发出端卡片“查理一世肖像（Portrait of Charles I）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

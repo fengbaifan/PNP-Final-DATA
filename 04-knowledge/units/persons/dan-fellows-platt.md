@@ -43,7 +43,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](../works/rosa-regulus-study-princeton.md) | 角色：遗赠者；范围：x1948-610准备稿的遗赠来源，未载生效日期；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Credit Line: Bequest of Dan Fellows Platt |
 
 ### 关系候选入口
 

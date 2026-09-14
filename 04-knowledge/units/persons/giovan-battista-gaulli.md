@@ -132,6 +132,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 教师（`teacher_of`，反向投影） | [乔万尼·奥达齐（Giovanni Odazzi）](giovanni-odazzi.md) | 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作；时间：1689年后；角色：工作室学生；范围：盖乌利工作室阶段；不推定共同创作；原断言与证据见发出端卡片“乔万尼·奥达齐（Giovanni Odazzi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1689年后Gaulli工作室段 |
 | ← 所创作对象（`creator_of`，反向投影） | [盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）](../works/gaulli-gesu-vaults.md) | Gaulli 的中殿及横翼拱顶工程；八年为给予的工期；原断言与证据见发出端卡片“盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
+| ← 所创作对象（`creator_of`，反向投影） | [耶稣圣名的胜利（Triumph of The Name of Jesus）](../works/gaulli-triumph-name-jesus.md) | 角色：原书署名作者；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；原断言与证据见发出端卡片“耶稣圣名的胜利（Triumph of The Name of Jesus）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 61–62; 章前：图版目录；印刷页xii |
 
 ### 身份与外部链接
 

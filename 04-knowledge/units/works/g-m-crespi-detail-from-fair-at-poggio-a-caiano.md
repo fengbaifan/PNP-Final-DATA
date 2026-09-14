@@ -16,17 +16,64 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 104–104; 章前：图版目录；印刷页xiv
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/giuseppe-maria-crespi.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 所据画作作者
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- relation_type: has_subject
+  target: places/poggio-a-caiano.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画作描绘地点
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+- relation_type: held_by
+  target: institutions/uffizi-gallery.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 所据原画保管机构
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/florence.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 104–104; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中原画所在城市
+  scope: 图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品
+  time: 本书所述时点
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《赞助人与画家》图版37b目录所记的《波焦阿卡亚诺集市局部》艺术对象。
+**中文：** 原书图版37b所再现的克雷斯皮《波焦阿卡亚诺集市》局部；所据画作列藏佛罗伦萨乌菲齐美术馆。
 
-**English:** The art object titled Detail from Fair at Poggio a Caiano, listed as plate 37b in Patrons and Painters.
+**English:** The detail of Crespi’s Fair at Poggio a Caiano reproduced in plate 37b; the source painting is listed at the Uffizi in Florence.
 
 ### 名称
 
@@ -50,7 +97,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：所据画作作者；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [波焦阿卡亚诺（Poggio a Caiano）](../places/poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：所据原画保管机构；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中原画所在城市；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

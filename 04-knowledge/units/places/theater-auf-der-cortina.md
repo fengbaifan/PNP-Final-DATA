@@ -42,7 +42,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [拉丁君权凯旋（La Monarchia Latina Trionfante）](../works/la-monarchia-latina-trionfante.md) | 时间：1678-10-10演出；角色：所述演出场所；范围：同剧Piazza Reale场景馆方记录支持歌剧该次演出，不混称《极乐世界》单张印本；原断言与证据见发出端卡片“拉丁君权凯旋（La Monarchia Latina Trionfante）”：[来源](https://collection.theatermuseum.at/en/objects/alternativtitel-die-sig-prangende-roemische-monarchey-983861)；works-la-monarchia-latina-trionfante；GS_GSU6464对象介绍、日期与演出地点字段 |
 
 ### 关系候选入口
 

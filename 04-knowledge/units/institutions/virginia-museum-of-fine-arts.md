@@ -66,7 +66,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [雷古鲁斯之死（The Death of Regulus）](../works/salvator-rosa-the-death-of-regulus.md) | 时间：本书所述时点；角色：书中保管机构；范围：本书图版23b油画；区别普林斯顿准备稿；原断言与证据见发出端卡片“雷古鲁斯之死（The Death of Regulus）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

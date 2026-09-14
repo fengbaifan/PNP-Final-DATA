@@ -71,7 +71,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 供应者（`supplier_of`，反向投影） | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../works/tiepolo-glorification-of-the-pisani-family.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版44所用复制图像，商号身份依S4已核；不指定底片号或具体摄影师；原断言与证据见发出端卡片“皮萨尼家族的荣耀（Glorification of the Pisani family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

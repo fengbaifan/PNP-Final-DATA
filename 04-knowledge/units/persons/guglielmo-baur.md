@@ -65,7 +65,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）](../works/guglielmo-baur-view-of-villa-borghese-in-1630.md) | 时间：1636；角色：画家；范围：库存519签名作品；原书题名1630与签名制作年1636分别保存；原断言与证据见发出端卡片“1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）”：[来源](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)；works-guglielmo-baur-view-of-villa-borghese-in-1630；技术字段、库存519、1636签名纪年及收藏沿革 |
 
 ### 关系候选入口
 

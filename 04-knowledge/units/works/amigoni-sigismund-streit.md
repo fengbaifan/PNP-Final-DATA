@@ -4,22 +4,136 @@ name_en: Portrait of Sigismund Streit
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L131–131
   sentence_summary: 《赞助人与画家》图版53b目录所记的《西吉斯蒙德·施特赖特》艺术对象。
   original_quotes:
   - source_span: lines 131–131
-    text: '53 a Piazzetta: Marshal Schulenburg (Castello Sforzesco, Milan) 312 b Amigoni: Sigismund Streit (Gymnasium zu Grauen Kloster, Berlin)'
+    text: '53 a Piazzetta: Marshal Schulenburg (Castello Sforzesco, Milan) 312 b Amigoni: Sigismund Streit (Gymnasium
+      zu Grauen Kloster, Berlin)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 131–131; 章前：图版目录；印刷页xv
-- citation: Staatliche Museen zu Berlin, Der Kaufmann Sigismund Streit im Alter von 52 Jahren, Streit.1, obj:863940. https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie. Accessed 2026-09-14.
+- citation: Staatliche Museen zu Berlin, Der Kaufmann Sigismund Streit im Alter von 52 Jahren, Streit.1, obj:863940.
+    https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie. Accessed
+    2026-09-14.
   location: Details (expert)、Object Description、Literatur
-  sentence_summary: Jacopo Amigoni于1739年受Sigismund Streit委托绘肖像；97.9×78.6厘米布面油画。Streit于1758年赠母校，自1964年由Streitsche Stiftung借予柏林Gemäldegalerie。
+  sentence_summary: Jacopo Amigoni于1739年受Sigismund Streit委托绘肖像；97.9×78.6厘米布面油画。Streit于1758年赠母校，自1964年由Streitsche
+    Stiftung借予柏林Gemäldegalerie。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/amigoni.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画家
+  scope: Streit.1／obj:863940单件肖像
+  time: '1739'
+- relation_type: has_subject
+  target: persons/sigismund-streit.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 肖像人物
+  scope: 描绘52岁的施特赖特
+  time: '1739'
+- relation_type: commissioned_by
+  target: persons/sigismund-streit.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 委托人
+  scope: 该单件肖像的绘制委托
+  time: '1739'
+- relation_type: contributed_by
+  target: persons/sigismund-streit.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 赠予者
+  scope: Streit.1赠予母校，区别1739年绘画委托
+  time: '1758'
+- relation_type: acquired_by
+  target: institutions/gymnasium-zu-grauen-kloster.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 受赠机构
+  scope: Streit.1获赠；不以此推定现时法律产权
+  time: '1758'
+- relation_type: lent_by
+  target: institutions/streitsche-stiftung.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 出借机构
+  scope: Streit.1自1964年借存；出借身份不自动证明所有权
+  time: 1964起，所引馆藏记录
+- relation_type: borrowed_by
+  target: institutions/gemaeldegalerie-berlin.md
+  evidence_ref:
+    doc_id: works-amigoni-sigismund-streit
+    source_file: https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie
+    source_span: Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 借入机构
+  scope: Streit.1自1964年借存
+  time: 1964起，所引馆藏记录
+- relation_type: held_by
+  target: institutions/gymnasium-zu-grauen-kloster.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中收藏机构
+  scope: 图版53b目录的历史记载；与S2所载1964起借展关系分开
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/berlin.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 131–131; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版53b目录的历史记载；与S2所载1964起借展关系分开
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -76,7 +190,17 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [雅各布·阿米戈尼（Jacopo Amigoni）](../persons/amigoni.md) | 时间：1739；角色：画家；范围：Streit.1／obj:863940单件肖像；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 所涉对象（`has_subject`） | [西吉斯蒙德·施特赖特（Sigismund Streit）](../persons/sigismund-streit.md) | 时间：1739；角色：肖像人物；范围：描绘52岁的施特赖特；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其委托（`commissioned_by`） | [西吉斯蒙德·施特赖特（Sigismund Streit）](../persons/sigismund-streit.md) | 时间：1739；角色：委托人；范围：该单件肖像的绘制委托；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其贡献（`contributed_by`） | [西吉斯蒙德·施特赖特（Sigismund Streit）](../persons/sigismund-streit.md) | 时间：1758；角色：赠予者；范围：Streit.1赠予母校，区别1739年绘画委托；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其取得（`acquired_by`） | [柏林灰修道院中学（Berlinisches Gymnasium zum Grauen Kloster）](../institutions/gymnasium-zu-grauen-kloster.md) | 时间：1758；角色：受赠机构；范围：Streit.1获赠；不以此推定现时法律产权；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其出借（`lent_by`） | [施特赖特基金会（Streitsche Stiftung）](../institutions/streitsche-stiftung.md) | 时间：1964起，所引馆藏记录；角色：出借机构；范围：Streit.1自1964年借存；出借身份不自动证明所有权；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其借入／借阅（`borrowed_by`） | [柏林绘画馆（Gemäldegalerie Berlin）](../institutions/gemaeldegalerie-berlin.md) | 时间：1964起，所引馆藏记录；角色：借入机构；范围：Streit.1自1964年借存；证据：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 由其保管（`held_by`） | [柏林灰修道院中学（Berlinisches Gymnasium zum Grauen Kloster）](../institutions/gymnasium-zu-grauen-kloster.md) | 时间：本书所述时点；角色：书中收藏机构；范围：图版53b目录的历史记载；与S2所载1964起借展关系分开；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 131–131; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [柏林（Berlin）](../places/berlin.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版53b目录的历史记载；与S2所载1964起借展关系分开；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 131–131; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

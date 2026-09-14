@@ -92,6 +92,7 @@
 - [梵蒂冈绘画馆（Pinacoteca Vaticana）](../../04-knowledge/units/institutions/pinacoteca-vaticana.md)
 - [仁慈山会（Pio Monte della Misericordia）](../../04-knowledge/units/institutions/pio-monte-della-misericordia.md)
 - [普林斯顿大学艺术博物馆（Princeton University Art Museum）](../../04-knowledge/units/institutions/princeton-university-art-museum.md)
+- [普林斯顿大学（Princeton University）](../../04-knowledge/units/institutions/princeton-university.md)
 - [墨西拿区域博物馆（Regional Museum of Messina）](../../04-knowledge/units/institutions/regional-museum-messina.md)
 - [威尼斯共和国（Republic of Venice）](../../04-knowledge/units/institutions/republic-of-venice.md)
 - [皇家艺术研究院（Royal Academy of Arts）](../../04-knowledge/units/institutions/royal-academy.md)

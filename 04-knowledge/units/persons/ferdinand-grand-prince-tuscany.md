@@ -64,7 +64,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）](../works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md) | 角色：大公子肖像人物；范围：图版36a；Grand Prince称号不改写为Grand Duke；原断言与证据见发出端卡片“托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 101–101; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

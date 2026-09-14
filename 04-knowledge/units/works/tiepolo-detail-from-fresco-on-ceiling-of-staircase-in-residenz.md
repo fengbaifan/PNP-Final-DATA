@@ -20,8 +20,45 @@ sources:
   location: Staircase正文
   sentence_summary: Giovanni Battista Tiepolo于1752–1753年绘制楼梯顶画；表现四洲及中央神祇天空。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#提埃坡罗作品关系集中定稿
+relations:
+- relation_type: created_by
+  target: persons/giambattista-tiepolo.md
+  evidence_ref:
+    doc_id: works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
+    source_file: https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm
+    source_span: Staircase正文
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 顶画作者
+  scope: 完整楼梯厅天顶壁画；图版50只复制局部
+  time: 1752–1753
+- relation_type: installed_at
+  target: places/residenz-wurzburg.md
+  evidence_ref:
+    doc_id: works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
+    source_file: https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm
+    source_span: Staircase正文
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 楼梯厅天顶
+  scope: 壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件
+  time: 1752–1753绘成
+- relation_type: located_at
+  target: places/wurzburg.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 128–128; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版50明确的城市位置
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -66,7 +103,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1752–1753；角色：顶画作者；范围：完整楼梯厅天顶壁画；图版50只复制局部；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz；Staircase正文 |
+| → 安置于（`installed_at`） | [维尔茨堡宫（Residenz, Würzburg）](../places/residenz-wurzburg.md) | 时间：1752–1753绘成；角色：楼梯厅天顶；范围：壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz；Staircase正文 |
+| → 位于（`located_at`） | [维尔茨堡（Würzburg）](../places/wurzburg.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版50明确的城市位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 128–128; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

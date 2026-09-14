@@ -4,7 +4,8 @@ name_en: Dido and Aeneas
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L94–94
   sentence_summary: 《赞助人与画家》图版33a目录所记的《狄多与埃涅阿斯》艺术对象。
   original_quotes:
@@ -14,15 +15,90 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 94–94; 章前：图版目录；印刷页xiv
-- citation: Museum of Fine Arts, Houston, The Royal Hunt of Dido and Aeneas, 2000.92. https://emuseum.mfah.org/objects/48122/visit. Accessed 2026-09-14.
+- citation: Museum of Fine Arts, Houston, The Royal Hunt of Dido and Aeneas, 2000.92. https://emuseum.mfah.org/objects/48122/visit.
+    Accessed 2026-09-14.
   location: 作品字段、Description及Provenance
   sentence_summary: Francesco Solimena，约1712–1714，那不勒斯，布面油画303×321 cm；为Raimondo Buonaccorsi（1669–1743）伯爵及其宫内埃涅阿斯画廊所作；2000年入藏MFAH。
-- citation: Macerata Musei, Galleria dell’Eneide. https://musei.macerata.it/opera/galleria-delleneide/. Accessed 2026-09-14.
+- citation: Macerata Musei, Galleria dell’Eneide. https://musei.macerata.it/opera/galleria-delleneide/. Accessed
+    2026-09-14.
   location: 对象说明及技术信息
   sentence_summary: 画廊历史照片归Studio fotografico Balelli，工作室在Macerata活动1851–1972；画廊属Palazzo Buonaccorsi；原陈设中Solimena大画后入休斯敦美术馆。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#大学博物馆与馆藏关系集中补足
+relations:
+- relation_type: created_by
+  target: persons/solimena.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Artist、Date
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 画家
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: 约1712–1714
+- relation_type: commissioned_by
+  target: persons/raimondo-buonaccorsi.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Description与Provenance：painted for Count Raimondo Buonaccorsi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 委托人
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: 约1712–1714
+- relation_type: located_at
+  target: places/naples.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: 'Place made: Naples'
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 创作城市
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: 约1712–1714
+- relation_type: installed_at
+  target: places/gallery-palazzo-buonaccorsi.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Description及Provenance：Buonaccorsi gallery
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原安置画廊
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: 原始宫廷陈设阶段
+- relation_type: acquired_by
+  target: institutions/museum-of-fine-arts-houston.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: Provenance：purchased by MFAH,2000
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 购藏机构
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: '2000'
+- relation_type: held_by
+  target: institutions/museum-of-fine-arts-houston.md
+  evidence_ref:
+    doc_id: works-solimena-dido-and-aeneas
+    source_file: https://emuseum.mfah.org/objects/48122/visit
+    source_span: 2000.92及Provenance
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 保管机构
+  scope: MFAH2000.92单件油画；历史安置与现藏角色分开
+  time: 来源访问时点2026-09-15
 ---
 
 ## 内容
@@ -80,7 +156,14 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [弗朗切斯科·索利梅纳（Francesco Solimena）](../persons/solimena.md) | 时间：约1712–1714；角色：画家；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Artist、Date |
+| → 由其委托（`commissioned_by`） | [雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）](../persons/raimondo-buonaccorsi.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description与Provenance：painted for Count Raimondo Buonaccorsi |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：约1712–1714；角色：创作城市；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Place made: Naples |
+| → 安置于（`installed_at`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description及Provenance：Buonaccorsi gallery |
+| → 由其取得（`acquired_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：2000；角色：购藏机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Provenance：purchased by MFAH,2000 |
+| → 由其保管（`held_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：来源访问时点2026-09-15；角色：保管机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；2000.92及Provenance |
 
 ### 关系候选入口
 

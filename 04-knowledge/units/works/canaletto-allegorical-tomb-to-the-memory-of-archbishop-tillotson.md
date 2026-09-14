@@ -4,25 +4,111 @@ name_en: Allegorical Tomb to the memory of Archbishop Tillotson
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L130–130
   sentence_summary: 《赞助人与画家》图版52b目录所记的《蒂洛特森大主教寓意纪念墓》艺术对象。
   original_quotes:
   - source_span: lines 130–130
-    text: '52 a P. Van Bleek: Owen McSwiny (National Portrait Gallery) b Canaletto, Cimaroli and Pittoni: Allegorical Tomb to the memory of Archbishop Tillotson (Peter Moores, Liverpool)'
+    text: '52 a P. Van Bleek: Owen McSwiny (National Portrait Gallery) b Canaletto, Cimaroli and Pittoni: Allegorical
+      Tomb to the memory of Archbishop Tillotson (Peter Moores, Liverpool)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 130–130; 章前：图版目录；印刷页xv
-- citation: John Ingamells, Later Stuart Portraits 1685–1714 (National Portrait Gallery, 2009), John Tillotson, All known portraits. https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography. Accessed 2026-09-14.
+- citation: John Ingamells, Later Stuart Portraits 1685–1714 (National Portrait Gallery, 2009), John Tillotson,
+    All known portraits. https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography.
+    Accessed 2026-09-14.
   location: 人物题头与末段寓意纪念画
   sentence_summary: John Tillotson（1630–1694），坎特伯雷大主教；约1725–29年Owen MacSwinny委托的系列包括此纪念画。1970年所知三版本中，Peter Moores藏本为原画。
-- citation: The Landmark Trust, Fox Hall History Album. https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf. Accessed 2026-09-14.
+- citation: The Landmark Trust, Fox Hall History Album. https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf.
+    Accessed 2026-09-14.
   location: PDF90及重复的PDF118，Tombs of English Worthies正文及Tillotson图注
   sentence_summary: 该系列由McSwiny组织委托；Tillotson画图注将建筑、风景、人物分别归于Canaletto、Cimaroli、Pittoni。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#作品创作收藏与图像角色集中审查
+relations:
+- relation_type: created_by
+  target: persons/canaletto.md
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 建筑绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- relation_type: created_by
+  target: persons/cimaroli.md
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 风景绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- relation_type: created_by
+  target: persons/pittoni.md
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf
+    source_span: PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 人物绘制者
+  scope: 纪念画的分工；不是实际墓建筑的建造角色
+- relation_type: commissioned_by
+  target: persons/owen-mcswiny.md
+  evidence_ref:
+    doc_id: works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson
+    source_file: https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography
+    source_span: All known portraits末段：纪念画系列委托与Moores原画
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 系列委托组织者
+  scope: NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期
+  time: 约1725–1729系列委托
+- relation_type: has_subject
+  target: persons/archbishop-tillotson.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 纪念对象
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+- relation_type: held_by
+  target: persons/peter-moores.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中收藏者
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+  time: 本书所述时点
+- relation_type: located_at
+  target: places/liverpool.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 130–130; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 书中所在城市
+  scope: 图版52b；S2区别Moores原画和另有版本，不指定现时位置
+  time: 本书所述时点
 ---
 
 ## 内容
@@ -77,7 +163,15 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：建筑绘制者；范围：纪念画的分工；不是实际墓建筑的建造角色；证据：[来源](https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注 |
+| → 创作者（`created_by`） | [乔瓦尼·巴蒂斯塔·奇马罗利（Giovanni Battista Cimaroli）](../persons/cimaroli.md) | 角色：风景绘制者；范围：纪念画的分工；不是实际墓建筑的建造角色；证据：[来源](https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注 |
+| → 创作者（`created_by`） | [乔瓦尼·巴蒂斯塔·皮托尼（Giovanni Battista Pittoni）](../persons/pittoni.md) | 角色：人物绘制者；范围：纪念画的分工；不是实际墓建筑的建造角色；证据：[来源](https://www.landmarktrust.org.uk/globalassets/3.-images-and-documents-to-keep/history-albums/fox-hall-history-album.pdf)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；PDF90／重复PDF118：Tombs of English Worthies及Tillotson画图注 |
+| → 由其委托（`commissioned_by`） | [欧文·麦克斯温尼（Owen MacSwinny）](../persons/owen-mcswiny.md) | 时间：约1725–1729系列委托；角色：系列委托组织者；范围：NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期；证据：[来源](https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；All known portraits末段：纪念画系列委托与Moores原画 |
+| → 所涉对象（`has_subject`） | [约翰·蒂洛特森（John Tillotson）](../persons/archbishop-tillotson.md) | 角色：纪念对象；范围：图版52b；S2区别Moores原画和另有版本，不指定现时位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [彼得·穆尔斯（Peter Moores）](../persons/peter-moores.md) | 时间：本书所述时点；角色：书中收藏者；范围：图版52b；S2区别Moores原画和另有版本，不指定现时位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [利物浦（Liverpool）](../places/liverpool.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版52b；S2区别Moores原画和另有版本，不指定现时位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

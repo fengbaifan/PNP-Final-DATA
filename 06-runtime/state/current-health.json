@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T02:53:06",
+  "timestamp": "2026-09-15T03:27:57",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 912,
+    "total_units": 917,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,21 +26,21 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 912,
+    "total_units": 917,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 912,
+    "units_missing_any_assignment": 917,
     "field_coverage": {
-      "primary_domain": "0/912",
-      "primary_dimension": "0/912",
-      "primary_theme": "0/912",
-      "topic_memberships": "0/912"
+      "primary_domain": "0/917",
+      "primary_dimension": "0/917",
+      "primary_theme": "0/917",
+      "topic_memberships": "0/917"
     }
   },
   "counts_by_type": {
     "persons": 332,
     "families": 8,
-    "institutions": 128,
-    "places": 133,
+    "institutions": 129,
+    "places": 137,
     "works": 203,
     "archives": 57,
     "terms": 34,
@@ -488,6 +488,7 @@
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
       "04-knowledge/units/institutions/princeton-university-art-museum.md",
+      "04-knowledge/units/institutions/princeton-university.md",
       "04-knowledge/units/institutions/regional-museum-messina.md",
       "04-knowledge/units/institutions/republic-of-venice.md",
       "04-knowledge/units/institutions/royal-academy.md",
@@ -561,6 +562,7 @@
       "04-knowledge/units/places/gesu-rome.md",
       "04-knowledge/units/places/gubbio.md",
       "04-knowledge/units/places/hampton-court-palace.md",
+      "04-knowledge/units/places/houston.md",
       "04-knowledge/units/places/interior-sant-andrea-quirinale.md",
       "04-knowledge/units/places/italy.md",
       "04-knowledge/units/places/kassel.md",
@@ -603,8 +605,10 @@
       "04-knowledge/units/places/pio-monte-della-misericordia-church.md",
       "04-knowledge/units/places/pisa.md",
       "04-knowledge/units/places/pistoia.md",
+      "04-knowledge/units/places/pittsburgh.md",
       "04-knowledge/units/places/poggio-a-caiano.md",
       "04-knowledge/units/places/pra-della-valle.md",
+      "04-knowledge/units/places/princeton-new-jersey.md",
       "04-knowledge/units/places/raleigh.md",
       "04-knowledge/units/places/residenz-wurzburg.md",
       "04-knowledge/units/places/rome.md",
@@ -630,6 +634,7 @@
       "04-knowledge/units/places/santa-maria-sopra-minerva.md",
       "04-knowledge/units/places/sassoferrato.md",
       "04-knowledge/units/places/savona.md",
+      "04-knowledge/units/places/schloss-wilhelmshoehe.md",
       "04-knowledge/units/places/sicily.md",
       "04-knowledge/units/places/spain.md",
       "04-knowledge/units/places/st-asaph.md",
@@ -1375,6 +1380,7 @@
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
       "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
       "04-knowledge/units/institutions/princeton-university-art-museum.md",
+      "04-knowledge/units/institutions/princeton-university.md",
       "04-knowledge/units/institutions/regional-museum-messina.md",
       "04-knowledge/units/institutions/republic-of-venice.md",
       "04-knowledge/units/institutions/royal-academy.md",
@@ -1448,6 +1454,7 @@
       "04-knowledge/units/places/gesu-rome.md",
       "04-knowledge/units/places/gubbio.md",
       "04-knowledge/units/places/hampton-court-palace.md",
+      "04-knowledge/units/places/houston.md",
       "04-knowledge/units/places/interior-sant-andrea-quirinale.md",
       "04-knowledge/units/places/italy.md",
       "04-knowledge/units/places/kassel.md",
@@ -1493,8 +1500,10 @@
       "04-knowledge/units/places/pio-monte-della-misericordia-church.md",
       "04-knowledge/units/places/pisa.md",
       "04-knowledge/units/places/pistoia.md",
+      "04-knowledge/units/places/pittsburgh.md",
       "04-knowledge/units/places/poggio-a-caiano.md",
       "04-knowledge/units/places/pra-della-valle.md",
+      "04-knowledge/units/places/princeton-new-jersey.md",
       "04-knowledge/units/places/raleigh.md",
       "04-knowledge/units/places/residenz-wurzburg.md",
       "04-knowledge/units/places/rome.md",
@@ -1520,6 +1529,7 @@
       "04-knowledge/units/places/santa-maria-sopra-minerva.md",
       "04-knowledge/units/places/sassoferrato.md",
       "04-knowledge/units/places/savona.md",
+      "04-knowledge/units/places/schloss-wilhelmshoehe.md",
       "04-knowledge/units/places/sicily.md",
       "04-knowledge/units/places/spain.md",
       "04-knowledge/units/places/st-asaph.md",
@@ -1870,13 +1880,13 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 128,
-      "tags": 128,
+      "sub_type": 129,
+      "tags": 129,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 130,
-      "tags": 133,
+      "sub_type": 134,
+      "tags": 137,
       "evidence_status": 0
     },
     "works": {
@@ -1962,11 +1972,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 223,
+    "sources_without_evidence_ref": 228,
     "evidence_ref_resolvable": 1057,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1057,
-    "units_with_traceable_source": 912
+    "units_with_traceable_source": 917
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1979,8 +1989,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 746,
-    "explicit_relations_with_evidence": 746
+    "explicit_relations": 891,
+    "explicit_relations_with_evidence": 891
   },
   "source_hash": {
     "total_sources": 0,
@@ -1998,7 +2008,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 912,
+      "count": 917,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2432,6 +2442,7 @@
         "04-knowledge/units/institutions/pinacoteca-vaticana.md",
         "04-knowledge/units/institutions/pio-monte-della-misericordia.md",
         "04-knowledge/units/institutions/princeton-university-art-museum.md",
+        "04-knowledge/units/institutions/princeton-university.md",
         "04-knowledge/units/institutions/regional-museum-messina.md",
         "04-knowledge/units/institutions/republic-of-venice.md",
         "04-knowledge/units/institutions/royal-academy.md",
@@ -2505,6 +2516,7 @@
         "04-knowledge/units/places/gesu-rome.md",
         "04-knowledge/units/places/gubbio.md",
         "04-knowledge/units/places/hampton-court-palace.md",
+        "04-knowledge/units/places/houston.md",
         "04-knowledge/units/places/interior-sant-andrea-quirinale.md",
         "04-knowledge/units/places/italy.md",
         "04-knowledge/units/places/kassel.md",
@@ -2550,8 +2562,10 @@
         "04-knowledge/units/places/pio-monte-della-misericordia-church.md",
         "04-knowledge/units/places/pisa.md",
         "04-knowledge/units/places/pistoia.md",
+        "04-knowledge/units/places/pittsburgh.md",
         "04-knowledge/units/places/poggio-a-caiano.md",
         "04-knowledge/units/places/pra-della-valle.md",
+        "04-knowledge/units/places/princeton-new-jersey.md",
         "04-knowledge/units/places/raleigh.md",
         "04-knowledge/units/places/residenz-wurzburg.md",
         "04-knowledge/units/places/rome.md",
@@ -2577,6 +2591,7 @@
         "04-knowledge/units/places/santa-maria-sopra-minerva.md",
         "04-knowledge/units/places/sassoferrato.md",
         "04-knowledge/units/places/savona.md",
+        "04-knowledge/units/places/schloss-wilhelmshoehe.md",
         "04-knowledge/units/places/sicily.md",
         "04-knowledge/units/places/spain.md",
         "04-knowledge/units/places/st-asaph.md",
@@ -3031,12 +3046,12 @@
       }
     },
     "institutions": {
-      "total": 128,
+      "total": 129,
       "coverage": {
-        "name_original": "0/128",
-        "name_original_language": "0/128",
-        "name_zh": "0/128",
-        "translation_status": "0/128"
+        "name_original": "0/129",
+        "name_original_language": "0/129",
+        "name_zh": "0/129",
+        "translation_status": "0/129"
       }
     },
     "works": {
@@ -3066,9 +3081,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 774,
-    "indexed": 774,
-    "declared_total": 774,
+    "expected": 775,
+    "indexed": 775,
+    "declared_total": 775,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3076,12 +3091,12 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 747,
-    "explicit_relation_count": 746,
+    "relation_index_total": 892,
+    "explicit_relation_count": 891,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 746,
+    "weak_evidence_count": 891,
     "needs_evidence_count": 0,
     "relation_type_coverage": "53/121"
   },
@@ -3143,30 +3158,27 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 912,
+    "total_units": 917,
     "source_count_distribution": {
-      "multi_source": 719,
-      "single_source": 193
+      "multi_source": 728,
+      "single_source": 189
     },
     "confidence_distribution": {
-      "missing": 912
+      "missing": 917
     },
     "consensus_distribution": {
-      "missing": 912
+      "missing": 917
     },
     "evidence_status_distribution": {
-      "source_backed": 912
+      "source_backed": 917
     },
     "isolated_units": {
-      "count": 326,
+      "count": 226,
       "sample": [
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
         "archives/goldoni-opere-vol-2-1761.md",
         "events/san-clemente-redecoration.md",
-        "families/pisani-family.md",
-        "families/rezzonico-family.md",
-        "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
         "institutions/alte-pinakothek.md",
         "institutions/apostolic-chamber.md",
@@ -3176,15 +3188,18 @@
         "institutions/british-museum.md",
         "institutions/clark-art-institute.md",
         "institutions/dusseldorf-electoral-picture-gallery.md",
-        "institutions/gymnasium-zu-grauen-kloster.md",
         "institutions/musei-civici-veneziani.md",
         "institutions/museo-di-capodimonte.md",
-        "institutions/museum-of-fine-arts-houston.md",
         "institutions/national-portrait-gallery.md",
         "institutions/national-trust.md",
         "institutions/north-carolina-museum-of-art.md",
         "institutions/oratorians.md",
-        "institutions/osvaldo-bohm-photographic-publisher.md"
+        "institutions/republic-of-venice.md",
+        "institutions/samuel-h-kress-foundation.md",
+        "institutions/studio-fotografico-balelli.md",
+        "institutions/theatines.md",
+        "persons/a-d-gabbiani.md",
+        "persons/abraham-hume.md"
       ]
     },
     "candidate_debt": {
@@ -3201,7 +3216,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 193,
+      "single_source_units": 189,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3226,7 +3241,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 912,
+    "total_files": 917,
     "total_findings": 1
   }
 }

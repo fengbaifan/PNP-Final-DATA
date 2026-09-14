@@ -2184,3 +2184,101 @@ PC137：馆方直接记录Cortona、1630、布面油画280×426厘米及Sacchett
 ### 写入与验证
 
 8个计划文件精确写入，涉及5张卡，核对21条原书摘录、78条本地链接和旧来源保留。新增1条关系及2条旧边的4个修订字段逐项匹配关系索引；连同前批9条新增关系，共10条均核对端点、方向、角色、时间、范围和来源。索引747条，有效KU仍912个、章前542个；14步同步检查通过，未修改代码或刷新页面。此为语义自查及机械核对，不能替代全文阅读或宣称整体完成；未提交推送。
+
+## 大学博物馆与馆藏关系集中补足
+
+2026-09-15接续REV-093。当前输入为12个机构卡、所链接作品和既有阶段记录。顺次读取机构证据、补足适用字段，再反查正文事实与正式边；检索已有KU后新增5个必要端点，不递归导入各大学校史人物、所有学院或馆藏。
+
+### 对齐、阅读范围与内容补足
+
+| 对象 | 采用来源与实际阅读 | 裁决与本批内容 |
+|---|---|---|
+| 卡福斯卡里大学 | [Who we are](https://www.unive.it/pag/17956/)完整正文、使命和历史简介、页脚；不展开子页 | 公立性质、1868-08-06创设，以商业学校起源表述；主校区威尼斯，不把异地场所遗漏解释为不存在 |
+| 剑桥大学 | [About](https://www.cam.ac.uk/about-the-university)完整主页正文，HTTP200读取；复用2005大学图书馆出版物 | 学术历史起点1209、所在地剑桥；1416为图书馆最早提及年，不移作大学创设年 |
+| 伦敦大学 | [Who we are](https://www.london.ac.uk/about/who-we-are)完整正文与联邦、学生、校友部分；未展开章程 | 联邦制大学，1836创设，所在地伦敦；不与UCL或瓦尔堡研究所合并 |
+| 帕多瓦大学 | [History](https://www.unipd.it/en/storia)完整分期正文、年表和联系信息 | 1222按校方解释为首次正式组织记录；位于帕多瓦。英文页部分采用AI翻译，本批只采用无歧义的机构、年份和地址信息 |
+| 匹兹堡大学 | [1787–1819 Overview](https://www.english.pitt.edu/history-department/1787/1787-1819-overview)完整Early History正文和院系页脚 | 1787-02-28是前身获特许状日期；不把英文系办公室当全校法定地址。新增匹兹堡城市KU承接所在地 |
+| 都灵大学 | [Short history](https://en.unito.it/university/about-us/short-history)完整1404–2012年表正文；未展开附件 | 采用1404创设和都灵所在地；未将校史具名师生扩写为本书知识元 |
+| 普林斯顿大学艺术博物馆 | [馆长欢迎](https://artmuseum.princeton.edu/about/directors-welcome?page=0)完整正文；[校方博物馆介绍](https://artandarchaeology.princeton.edu/whats/resources/department/art-museum)完整正文含三节教学活动 | 1882为正式创设年，1750年代为收藏前史，二者不混写。新增大学与新泽西州普林斯顿城镇端点；博物馆属于大学，不由共同创设年推定它属于艺术及考古学系 |
+| 休斯敦美术馆 | [History](https://www.mfah.org/about/history)完整馆史正文及页脚 | 1900前期教育活动、1924开馆分别列字段，新增休斯敦城市KU；不采随时变动的馆藏数量与开放安排 |
+| 威廉高地宫博物馆 | [Hessen Kassel Heritage场所页](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)完整历史正文、联系与服务栏目；HTTP200 | 新增威廉高地宫建筑KU，博物馆位于宫内、宫殿位于卡塞尔；建筑战争受损与1945起重建归建筑卡，不当机构创设史；未将历史州立收藏机构与现行馆舍机构自动合并 |
+| 索恩博物馆 | 复用已读2016–2017年报印刷p.6地址 | 正式化伦敦所在地；年报报告期不作馆长离任或迁址日期 |
+| 斯福尔扎城堡素描室 | 复用已读SIRBeC4y010-09081 PDF2–5，馆藏定位在PDF2–3 | 正式化建筑及城市位置，收藏部门、城堡建筑和城市三种端点分开 |
+| ICCD | 复用完整国家摄影室官方介绍；现有GFN→ICCD的1975起隶属关系已在卡内显示 | 本次机构身份／既有隶属无变化no_delta。联系页读取失败，未采用搜索摘要中的街道地址，不记地址补足完成 |
+
+复读Ca’ Foscari档案指南印刷382／PDF54的完整Fondo Gaetano Cozzi条，原文Facoltà di Scienze politiche应译政治学学院。修正科齐及两大学来源摘要中的既有误译、相关正文和科齐→帕多瓦的任教角色；原文、日期、任教端点不变，精确差异保留。该条还明确中世纪与近代史教学、Cini史学所任职、Benetton与Lincei成员及藏书去向；这些超出本次机构地址补足的有据候选须继续处理，尤其卡福斯卡里人文图书馆已有正文提及但仍缺独立端点，不宣称科齐全部任职、成员和藏书关系完成。
+
+### 关系反查与正式处置
+
+当前树显示《雷古鲁斯之死准备稿》《舒伦堡元帅肖像》《狄多与埃涅阿斯》并无正式边；此前上下文关于它们已具馆藏关系的概括不准确，按实际文件纠正。复用已读馆藏和原书，另完整复读Princeton8060的说明、Information、Provenance、书目、展览及Citation；准备稿与油画是明确的model_for，普拉特仅按Credit line记遗赠者，不从馆藏编号推定遗赠日期。补入准备稿创作、样稿、保管、遗赠，肖像创作、人物、书内两级位置及外部保管，Solimena作品创作、委托、创作地、原画廊安置及2000购入、现保管关系；相邻雷古鲁斯油画补入原书支持的作者与保管边。全部逐条保存来源、角色和时间范围，反向仅为导航投影。
+
+MFAH再次读取对象页面，所采用内容仍限已有作品字段、Description及Provenance；不把全部馆藏网页外链变成新端点。布奥纳科尔西委托、原安置与后来入藏分别解释，不把书中历史位置改成当前安置；MFAH的Enrico Petricione与交易机构流转、Lee和Joe Jamail购藏资金角色及当前具体展厅仍需逐项补足端点和证据，未以本批部分收藏链宣称作品流传完整。Dido/Aeneas、Regulus题材身份未在本批额外消歧，继续保留实际缺口。机构工作人员与馆藏反向关系不复制为第二份断言。
+
+### 本批交接
+
+5个新KU仅承接本次有据所在地、所属大学、馆舍建筑，均有双语描述、结构化字段和实际外部来源；没有原书出处不伪造原句。9项主候选仍待证，整体初步对齐、全面补足和关系定稿尚未结束。下一步优先集中处理卡内已有事实但缺正式边的其余作品，并补齐科齐机构／藏书端点。知识发现、页面、人工校验继续暂停，本批不自动提交推送。
+
+### 本批核对结果
+
+精确写回42个文件、38张受影响知识元卡，其中5张新卡；54条原书摘录与原行段、303条本地链接、来源序号及现有来源保留核对通过。三处来源摘要与一条任教角色的误译更正单独核对，未改原书原句。917条有效登记、547个章前KU及类型统计一致，14步同步检查通过；这是机械检查与本次语义自查，不是人工或独立验收。
+
+## 提埃坡罗作品关系集中定稿
+
+2026-09-15接续REV-093。反查章前112个作品卡时，54卡没有发出端正式边；该计数仅定位审查对象，不代表54卡均有可直接成立的全部关系。本批完整阅读其中5张提埃坡罗作品卡及元数据，复用先前实际阅读的原书、馆方记录与版画目录，逐条裁决已采纳字段，不再次以重复搜索冒充新增核验。
+
+| 作品 | 关系与证据处置 | 保留边界 |
+|---|---|---|
+| 维尔茨堡楼梯厅顶画 | 宫殿管理局Staircase正文S2支持1752–1753作者和楼梯天顶安置；图版50原书S1支持城市 | KU指完整壁画，图版只复制局部；未新增局部原件或藏品 |
+| 皮萨尼家族的荣耀 | 官方活动说明中舞厅顶画段S2支持1761–1762作者和安置；原书图版44支持家族与城镇；图片来源S3支持Böhm供片，商号身份复用S4目录 | 颂扬家族不自动证明所有权或全家共同委托，寓意争议不强行消解 |
+| 梅塞纳斯向奥古斯都呈献艺术 | 图版68b区分Tiepolo原设计与Leonardis刻制；慕尼黑目录印刷78、HISTORIE支持1766版画身份 | 只确认该复制版画创作角色；具体书中印本未定，不添加慕尼黑保管关系 |
+| 雷佐尼科家族婚姻寓意 | MUVE First floor的完整Nuptial Allegory Room段S2支持1757年冬三位绘制者的不同分工与安置；图版43支持家族和城市 | 三条created_by分别注明主画、建筑幻景、萨堤尔，不等同三人独立完成全部作品；不从标题推定具体新人 |
+| 海神向威尼斯致敬 | MUVE对象记录S2支持作者、1757–1758年代与总督宫馆藏建筑，图版42a支持城市 | 总督宫是place建筑端点；拟人化Venice不径直当现实城市或共和国的政治行动者 |
+
+本批5卡新增19条关系，受影响人物、家族、机构、建筑及城市卡同步反向导航；其中3张原来仅复述图版题名的描述，已改为与现有事实对应的双语作品描述。没有新KU或新外部来源，不宣称本轮重新通读全部馆方网站，也不改变验证等级。处置的是已有有据事实到正式关系的缺口；艺术家全部作品、委托人与图像题材身份尚有未完成项。
+
+这5件作品的已采纳作者、角色、家族、供片及位置字段均已检查；原型／具体印本和未定图像人物继续待证。章前整体尚未完成，其余49张无发出端关系的作品需逐卡判断，已有边的作品也须检查正文是否漏项。第一部分继续，知识发现、网页与人工校验暂停；本批不自动提交推送。
+
+本批精确写回22个文件、19张受影响卡，36条原书摘录、156条本地链接、来源保留与19条关系的类型、端点、角色、时间和证据通过核对。14步同步检查通过。两批累计5个新KU、51条新增正式关系，共56张卡受到内容或关系导航更新；917条有效登记、547个章前KU和798条关系索引与当前文件一致。两批51条新增边逐字段与索引复核通过；既有误译修正单独保留记录。机械通过不等于全体关系已定稿，未进行人工或独立验收。
+
+## 作品创作收藏与图像角色集中审查
+
+2026-09-15接续REV-093。输入为当前49张无发出端正式边的章前作品中的24张；逐卡完整读取正文、元数据中的原句与外部阅读范围，复用既有可靠证据后逐项声明正式、待证和不采纳关系。单纯链接存在不自动转正，原书和外部证据分别归源。未重新下载或通读本批引用的全部外部文献，不新增外部验证日期。
+
+### 逐件语义裁决
+
+| 作品 | 当前裁决与缺口 |
+|---|---|
+| [乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）](../../../04-knowledge/units/works/alessandro-longhi-g-m-sasso.md) | 4条原书有据关系；S2只核图录身份与I.760，不以2014论文题注代表本轮现藏核验。 |
+| [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../../../04-knowledge/units/works/amigoni-sigismund-streit.md) | 9条：创作、人物、委托、1758赠与双方、1964起借出／借入及原书馆藏／城市；不把基金会出借解释为产权。 |
+| [乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）](../../../04-knowledge/units/works/bernini-maffeo-barberini-as-pope-urban-viii.md) | 4条原书关系成立；外部单件版本、材料和年代仍未核。 |
+| [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../../../04-knowledge/units/works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 7条：三人分工、系列委托、纪念对象及书中私人收藏／城市；画中墓不建为真实墓建筑。 |
+| [蚀刻集献辞卷首图（Dedicatory frontispiece to Etchings）](../../../04-knowledge/units/works/canaletto-dedicatory-frontispiece-to-etchings.md) | 仅作者关系成立；不补造献辞对象、出版者或整套蚀刻集KU。 |
+| [帕多瓦Prà广场（Prà della Valle, Padua）](../../../04-knowledge/units/works/canaletto-pra-della-valle-padua.md) | 3条创作与描绘地点关系；正文原文名称更正为摘录实际拼写Prato，固定路径不变，现藏地仍未核。 |
+| [马费奥·巴贝里尼肖像（Maffeo Barberini）](../../../04-knowledge/units/works/caravaggio-maffeo-barberini.md) | 2条人物／城市关系；created_by卡拉瓦乔继续待证，原书Attributed to保持归属候选，未给匿名私人收藏创建虚构所有人。 |
+| [有队列的德尔斐景观（View of Delphi with a Procession）](../../../04-knowledge/units/works/claude-view-of-delphi-with-a-procession.md) | 3条；Robert A.Waller Fund的机构性质与资助角色仍须核对，未把基金名称当个人或作品现藏地。 |
+| [狄安娜狩猎（Hunt of Diana）](../../../04-knowledge/units/works/domenichino-hunt-of-diana.md) | 3条原书作者与位置关系；狄安娜题材人物及外部作品身份待进一步补足。 |
+| [百合圣母堂立面（Facade of S. Maria del Giglio）](../../../04-knowledge/units/works/facade-of-s-maria-del-giglio.md) | 2条建筑构件归属与城市关系；作者、赞助者及立面各具名构件待来源核对，不从教堂名反推出创作者。 |
+| [弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）](../../../04-knowledge/units/works/francesco-algarotti.md) | 3条；佚名不创建人物KU，具体馆藏号与版本仍未核。 |
+| [查理一世肖像（Portrait of Charles I）](../../../04-knowledge/units/works/francesco-fanelli-charles-i.md) | 4条原书关系；材质、年代、具体版本及现藏记录未核。 |
+| [托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）](../../../04-knowledge/units/works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md) | 2条；无原书馆藏地点，不添加虚构现藏或年代。 |
+| [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../../../04-knowledge/units/works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md) | 4条均限定图版所据画作；当前卡仍保留局部复制范围，整幅作品外部单件身份未核，不另造裁切原件。 |
+| [梳妆少女（Girl at her toilet）](../../../04-knowledge/units/works/g-m-crespi-girl-at-her-toilet.md) | 3条；题名中的少女／家庭成员未具名，不由画家身份推断配偶、子女或自画像。 |
+| [画家一家（The Painter's Family）](../../../04-knowledge/units/works/g-m-crespi-the-painter-s-family.md) | 3条；题名中的少女／家庭成员未具名，不由画家身份推断配偶、子女或自画像。 |
+| [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../../../04-knowledge/units/works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 6条；雕版、原绘图、纪念人物、墓和描绘地点分开，墓设计者Tesi不直接当版画刻制者；具体印本继续待证。 |
+| [耶稣圣名的胜利（Triumph of The Name of Jesus）](../../../04-knowledge/units/works/gaulli-triumph-name-jesus.md) | 3条；未以常识补入无本批证据的创作年、赞助人或题材人物端点。 |
+| [贾昆托的洛林人圣尼古拉堂装饰（Giaquinto’s Decoration of San Nicola dei Lorenesi）](../../../04-knowledge/units/works/giaquinto-san-nicola-dei-lorenesi-decoration.md) | 2条工程创作责任与指定建筑；intended_for保存合同语义，竣工、现存各部位及委托主体继续补证。 |
+| [老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）](../../../04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md) | 6条；Museo Correr书内机构与2025年Ca’ Rezzonico建筑位置并存，不虚构两馆产权转移。 |
+| [1630年博尔盖塞别墅景观（View of Villa Borghese in 1630）](../../../04-knowledge/units/works/guglielmo-baur-view-of-villa-borghese-in-1630.md) | 5条；原书题名1630与1636签名年分开，Marcantonio II委托仍属未决推测；不采无日期巴黎借展状态。 |
+| [克娄巴特拉之死（Death of Cleopatra）](../../../04-knowledge/units/works/guido-cagnacci-death-of-cleopatra.md) | 4条；两候选版本的共有原书作者／馆名可用，不将任何候选尺寸、年代写成此图版事实，Cleopatra身份仍未正式建边。 |
+| [拉丁君权凯旋（La Monarchia Latina Trionfante）](../../../04-knowledge/units/works/la-monarchia-latina-trionfante.md) | 6条创作分工和演出地点；Met和拍卖目录不是读过剧本全文的证明，Küsel刻版属于具体场景版画，不把其当歌剧作曲者。 |
+| [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../../../04-knowledge/units/works/mazarin-gallery-vault-decoration.md) | 5条分工、委托与安置；灰泥与绘画时间不强制等同，不因同作者同建筑把待核局部场景写成part_of。 |
+
+### 状态与交接
+
+本批新增94条有据关系，24个作品各自保留真实来源、角色、时点与未决版本。4张描述调整为原有证据支持的具体内容，Prato原文拼写按已存原句纠正；不提升证据等级，不新增实体。各关系的具体源页、原句和外部来源在卡内唯一维护，表中仅存裁决，不复制来源摘录。继承关系、纪念对象、演出角色、图像中的地点与实际安置分别判断，私人收藏署名使用历史保管语境，不推定当前产权。
+
+余下25张无发出端正式边的作品继续集中审查；已经有边的作品仍须反查遗漏。仅有原书来源的卡仍缺外部单件身份、材质、年代等适用信息，本批关系可用不表示该卡全面补足完成。9项主候选保留待证，科齐藏书／机构端点、MFAH流传链及其他实际缺口继续推进。知识发现、页面及人工校验暂停；本批不自动提交推送。
+
+### 写入与核对
+
+本批96个计划文件均已写回，93张受影响卡的191条原书摘录、871条本地链接及来源保留预检通过；94条新增关系逐字段与892条关系索引一致，14步同步检查通过。全库917个有效登记、章前547个KU、25张尚无出向关系的章前作品已复核。本批及前两批成果纳入REV-111提交同步范围；机械核对与语义自查不等同整体完成或独立验收。

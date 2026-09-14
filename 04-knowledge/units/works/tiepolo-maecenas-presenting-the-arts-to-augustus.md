@@ -22,8 +22,32 @@ sources:
   location: 印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D
   sentence_summary: Jacopo Leonardis，1723–1794；1766年根据G. B. Tiepolo制作梅塞纳斯向奥古斯都荐举美术的蚀刻版画。11348 D属于慕尼黑藏印本，不证明本书采用的就是该张印本。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#提埃坡罗作品关系集中定稿
+relations:
+- relation_type: created_by
+  target: persons/giambattista-tiepolo.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 159–160; 章前：图版目录；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 原设计者
+  scope: 图版68b为复制版画；Tiepolo角色为原设计，不改记为刻印者
+- relation_type: created_by
+  target: persons/leonardis.md
+  evidence_ref:
+    doc_id: works-tiepolo-maecenas-presenting-the-arts-to-augustus
+    source_file: https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf
+    source_span: 印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 蚀刻制作者
+  scope: 1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D
+  time: '1766'
 ---
 
 ## 内容
@@ -68,7 +92,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 角色：原设计者；范围：图版68b为复制版画；Tiepolo角色为原设计，不改记为刻印者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 159–160; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [雅科波·莱奥纳迪斯（Jacopo Leonardis）](../persons/leonardis.md) | 时间：1766；角色：蚀刻制作者；范围：1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D；证据：[来源](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)；works-tiepolo-maecenas-presenting-the-arts-to-augustus；印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D |
 
 ### 关系候选入口
 

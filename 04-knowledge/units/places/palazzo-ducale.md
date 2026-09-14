@@ -46,7 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [海神向威尼斯致敬（Neptune paying homage to Venice）](../works/tiepolo-neptune-paying-homage-to-venice.md) | 时间：所引馆方记录时点；角色：馆藏建筑；范围：馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权；原断言与证据见发出端卡片“海神向威尼斯致敬（Neptune paying homage to Venice）”：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；works-tiepolo-neptune-paying-homage-to-venice；Author、Date、Museum、Technique、Inventory |
 
 ### 关系候选入口
 

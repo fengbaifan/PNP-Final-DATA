@@ -61,7 +61,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../works/mazarin-gallery-vault-decoration.md) | 角色：上层画廊穹顶；范围：壁画与镀金灰泥整体所在空间；《罗慕路斯与雷穆斯》局部是否属于本整体另待核；原断言与证据见发出端卡片“马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）”：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
 
 ### 关系候选入口
 
