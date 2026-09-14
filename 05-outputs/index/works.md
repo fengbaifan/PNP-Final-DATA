@@ -143,6 +143,7 @@
 - [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md)
 - [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../../04-knowledge/units/works/monument-to-doge-giovanni-pesaro.md)
 - [画廊中的马扎然（Cardinal Mazarin in his Gallery）](../../04-knowledge/units/works/nanteuil-cardinal-mazarin-in-his-gallery.md)
+- [舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）](../../04-knowledge/units/works/nazari-equestrian-portrait-of-schulenburg.md)
 - [威尼斯寓意（Allegory of Venice）](../../04-knowledge/units/works/niccolo-bambini-allegory-of-venice.md)
 - [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../../04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md)
 - [弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）](../../04-knowledge/units/works/ottavio-leoni-cardinal-francesco-barberini.md)

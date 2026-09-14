@@ -16,7 +16,10 @@ sources:
 - citation: Wikidata, Q165631. https://www.wikidata.org/wiki/Q165631. Accessed 2026-09-13.
   location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
   sentence_summary: 用于Gemäldegalerie Berlin的同粒度身份核对；QID不验证本卡全部事实。
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-gemaeldegalerie-berlin
+- citation: Staatliche Museen zu Berlin, Der Kaufmann Sigismund Streit im Alter von 52 Jahren, Streit.1, obj:863940. https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie. Accessed 2026-09-14.
+  location: Details (expert)、Object Description、Literatur
+  sentence_summary: Jacopo Amigoni于1739年受Sigismund Streit委托绘肖像；97.9×78.6厘米布面油画。Streit于1758年赠母校，自1964年由Streitsche Stiftung借予柏林Gemäldegalerie。
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#章前对齐接续肖像与收藏机构
 ---
 
 ## 内容
@@ -40,6 +43,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
 
+### 施特赖特收藏借展
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 借展作品 | [施特赖特肖像](../works/amigoni-sigismund-streit.md) | S4 |
+| 借展起年 | 1964 | S4 |
+| 出借方 | [施特赖特基金会](streitsche-stiftung.md) | S4 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -50,5 +61,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 身份与外部链接
 
+[本馆Streit.1记录](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)（S4，章前肖像的借展记录）。
+
 - [Wikipedia：Gemäldegalerie, Berlin](https://en.wikipedia.org/wiki/Gem%C3%A4ldegalerie,_Berlin)
 - [Wikidata Q165631](https://www.wikidata.org/wiki/Q165631)
+
+[第一章既有处理依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-gemaeldegalerie-berlin)

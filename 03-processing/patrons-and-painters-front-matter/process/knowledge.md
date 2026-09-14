@@ -1020,3 +1020,41 @@ NCMA两页说明中的Leonardo Loredan生卒／任期1436–1531／1501–1531�
 逐项语义判断后，阅读拟写回正文并预检临时`C:/Users/001/AppData/Local/Temp/pnp-rev093/plan.json`与差异，同一文件串行写回；图版52b接续计划另保留`tomb-plan.json`的中间before／after。累计27卡、27条原书摘录、119条本地链接及来源编号检查通过；820个有效路径无重复／缺失，原sources前缀、已有正式relations及accepted非units内容保持，既有内容检查无确定性发现。这是模型语义自查与机械核对，不称人工或独立验收。
 
 当前全库820个有效KU，章前任务445个：累计398个新建、43个既有有效KU更新、4个旧卡整理接收。初始241条仍为228条映射、4条属性／语境、9条暂缓。图版45、46、49a的可用身份带具体缺口交后续补足；其余对象继续集中对齐。整体初步对齐、全面补足及关系定稿仍未完成，本轮业务成果未提交或推送。
+
+
+## 章前对齐接续：肖像与收藏机构
+
+2026-09-14，REV-095提交`1f6a67c`后继续REV-093目标。上一轮完成提交及远端一致性实测，属于有效进展；本轮继续语义工作，不重复提交。共处理15张卡：12张已有卡与3个新增必要端点。柏林绘画馆复用既有`institutions/gemaeldegalerie-berlin.md`，保留其第一章关系与来源；当前process_ref指向本段，第一章处理入口仍在卡内。
+
+### 对象判断与实际来源
+
+| 原文锚点 | 实际阅读 | 结论与边界 |
+|---|---|---|
+| FM-P53b，E:L131，xv | [SMB Streit.1／obj:863940](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)实际HTTP200：完整对象字段、说明及书目；[NPG Amigoni mp06613](https://www.npg.org.uk/collections/search/person/mp06613/jacopo-amigoni)题头与14项肖像索引 | Amigoni展开为Jacopo Amigoni。Streit是1687–1775年的商人、收藏家，1697–1701就读灰修道院中学、1709迁威尼斯。1739年自画像委托应准确表述为“委托画家为自己画像”，不写成Streit自行创作。作品为97.9×78.6 cm布面油画；1758赠校与1964起基金会出借分列。 |
+| FM-P53a，E:L131，xv | [Lombardia 4y010-09081](https://www.lombardiabeniculturali.it/opere-arte/schede/4y010-09081/)完整网页；[15页SIRBeC PDF](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)定向读取PDF2–5的对象、收藏、年代、技术与评论；[ICCD聚合记录](https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/4y010-09081_R03)全文 | 舒伦堡肖像是素描；387×303 mm为高×宽，网页未标方向的303×387不倒读。库存号4884/5 E 82/5与目录号4y010-09081分开。年代字段约1730–1735、评论1738并列。Piazzetta卡原先“两幅绘画”及此肖像“绘画作品”改正，既有作品清单保留。 |
+| FM-P48b原设计者B. Nazari，E:L126，xv | [Fiorenzo Fisogni的Nazari人物辞典](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)正文及书目全部读取 | 原设计者初步对应Bartolomeo Nazari，年代、威尼斯肖像及版画设计身份吻合；另有明确Schulenburg委托。生卒采用辞典1693-05-31／1758-08-24。尚未找到48b确切印本记录，辞典身份不等于该件刻印细节已核。 |
+| FM-P56，E:L134，xv | [Met 69.551(17)](https://www.metmuseum.org/art/collection/search/676336)完整对象字段；[CMA 1978.136.17](https://www.clevelandart.org/art/1978.136.17)完整目录字段 | Marieschi对应Michele Marieschi（1710–1743），1741年Campo San Rocco蚀刻。两馆是不同印本，只采作品层面的作者、技法和年代，不把它们的尺寸、入藏、现藏或库存号写成本书印本。Met题名将教堂立面记为画家设想，不转成实景建造事实。 |
+
+原书图版53另实际查看`02-sources/01-book/CHP-11.pdf`第15页（同页亦见CHP-10.pdf第42页）：53b为白色假发、坐姿、宽袖肖像，与SMB所述52岁Streit坐姿图像特征相符；53a为舒伦堡半身素描。此为指定图版的查看，不表示已执行第十／十一章或完成整书图像审核；未声称已视觉比对全部外部原图。图版标签将作者拼作Amiconi，原书目录Amigoni仍保留。检索时定向看到CHP-11.pdf第20页的Bartolommeo Nazari与Schulenburg上下文，只作同书人物参照，未作为章前原句倒填或宣称该章已处理。
+
+实际访问均为2026-09-14。SMB目录明确有多个年龄的Streit肖像，本轮通过作品说明和原书坐姿特征核对1739年的52岁版本，不采1717年30岁版本字段。NPG与SMB支持约1682生年；检索另见NGA的1675标年，未读其完整研究依据，留作Amigoni生年异文后续核实，不把所采约年宣称为已解决争议。
+
+Lombardia与ICCD为同一地区目录的原始发布和聚合，只有一组事实证据；正文的1738与字段1730–1735是来源内部异文。评论将画像写为“autoritratti”但上下文明确是艺术家为Schulenburg绘像，不误写成Piazzetta自画像。评论对早期Belgioioso收藏为“可能”，未升级为无条件所有权。PDF5的1943年赠送、捐赠人和市有产权尚未整条采纳，后续流传补足须建立相应端点。
+
+Prado直接请求403，不能称整篇人物传记已读；Art UK的Moor Park对象403，未采二手转录的PCF1、尺寸或日期。Met直接请求429，采用web工具实际返回的完整对象字段，未作可得原图声明。Lombardia本机证书链失败后只在一次公开PDF请求中停用证书核验，未改持久设置。Wikipedia、Wikidata搜索命中没有成为本轮身份验证，未新增QID或双向核对状态。
+
+### 关系证据与新增端点
+
+- FM-P53b.ext.commission：Streit→Amigoni→Streit.1，1739年；同一人分别为委托人和描绘对象。
+- FM-P53b.ext.gift：Streit→灰修道院中学，1758年赠画；FM-P53b.ext.loan：Streitsche Stiftung→Gemäldegalerie，1964年起借展。借展与赠予是不同权利行为，基金会与学校、博物馆不合并。
+- FM-P53a.ext.adviser：Piazzetta→Schulenburg，为其评估购藏、估价；肖像创作关系与顾问关系分开。服务威尼斯共和国属于Schulenburg军职，不代表出生地或现代国籍。
+- FM-P48b.ext.commission：1733年Schulenburg委托Nazari绘骑马肖像；新建[失传骑马肖像](../../../04-knowledge/units/works/nazari-equestrian-portrait-of-schulenburg.md)，不同于Piazzetta的53a素描。1744年随行邀请另作履历记录，不从同行自动推导朋友或师承。
+- 新增[施特赖特基金会](../../../04-knowledge/units/institutions/streitsche-stiftung.md)、[斯福尔扎城堡素描室](../../../04-knowledge/units/institutions/gabinetto-dei-disegni-castello-sforzesco.md)两个机构端点；[柏林绘画馆](../../../04-knowledge/units/institutions/gemaeldegalerie-berlin.md)复用既有卡。素描室是机构，城堡是建筑空间。
+
+Nazari辞典明确区分1717年与Angelo Trevisani合作和传统所谓师承，并倾向排除Fra Galgario正式师承；未将风格相似、造访画室、受影响转成老师关系。亲属、其他失传作品、收藏者和同僚虽有记载，本轮仅采服务于上述已登记作品／人物链的事实；没有展开全篇百科外链。进一步补足时仍需审视与本书对象有关的关系，不以本轮字段已有链接宣称关系齐全。
+
+### 写回与交接
+
+模型逐项形成拟写回正文后，临时`C:/Users/001/AppData/Local/Temp/pnp-rev093-next/plan.json`保留16个目标的before／after及差异。预检发现柏林绘画馆已有不同转写路径，已在写回前取消重复新建、改为复用；全部输入指纹一致后串行写回。15卡的14条原书摘录逐字一致、81条本地链接有效、来源序号无越界，原sources及正式relations保留，823条有效登记存在且无重复；既有内容检查无确定性发现。属于语义自查及机械检查，不称人工或独立验收。
+
+当前章前任务实际涉及449个KU：401个新建、44个既有有效KU更新、4个旧卡整理接收；全库823个有效KU。初始241条仍为228映射、4属性／语境、9暂缓。以上有据内容与关系证据已保存，整体对齐、全面补足与正式关系阶段仍未完成；本轮未提交推送。

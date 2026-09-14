@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 699
+total: 702
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -105,8 +105,8 @@ index:
   language_original: ''
 - slug: persons/amigoni
   type: persons
-  name_en: Amigoni
-  title: 阿米戈尼（Amigoni）
+  name_en: Jacopo Amigoni
+  title: 雅各布·阿米戈尼（Jacopo Amigoni）
   name_original: ''
   language_original: ''
 - slug: persons/andrea-camassei
@@ -207,8 +207,8 @@ index:
   language_original: ''
 - slug: persons/b-nazari
   type: persons
-  name_en: B. Nazari
-  title: B. 纳扎里（B. Nazari）
+  name_en: Bartolomeo Nazari
+  title: 巴托洛梅奥·纳扎里（Bartolomeo Nazari）
   name_original: ''
   language_original: ''
 - slug: persons/baldassare-franceschini
@@ -1245,8 +1245,8 @@ index:
   language_original: ''
 - slug: persons/marieschi
   type: persons
-  name_en: Marieschi
-  title: 马里耶斯基（Marieschi）
+  name_en: Michele Marieschi
+  title: 米凯莱·马里耶斯基（Michele Marieschi）
   name_original: ''
   language_original: ''
 - slug: persons/mario-de-fiori
@@ -1263,8 +1263,8 @@ index:
   language_original: ''
 - slug: persons/marshal-schulenburg
   type: persons
-  name_en: Marshal Schulenburg
-  title: 舒伦堡元帅（Marshal Schulenburg）
+  name_en: Johann Matthias von der Schulenburg
+  title: 约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）
   name_original: ''
   language_original: ''
 - slug: persons/massimo-stanzione
@@ -2421,8 +2421,8 @@ index:
   language_original: ''
 - slug: works/amigoni-sigismund-streit
   type: works
-  name_en: '"Portrait of Sigismund Streit"'
-  title: '"西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）"'
+  name_en: Portrait of Sigismund Streit
+  title: 西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）
   name_original: ''
   language_original: ''
 - slug: works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio
@@ -3247,6 +3247,12 @@ index:
   title: 画廊中的马扎然（Cardinal Mazarin in his Gallery）
   name_original: ''
   language_original: ''
+- slug: works/nazari-equestrian-portrait-of-schulenburg
+  type: works
+  name_en: Equestrian Portrait of Schulenburg
+  title: 舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）
+  name_original: ''
+  language_original: ''
 - slug: works/niccolo-bambini-allegory-of-venice
   type: works
   name_en: Allegory of Venice
@@ -3309,8 +3315,8 @@ index:
   language_original: ''
 - slug: works/piazzetta-marshal-schulenburg
   type: works
-  name_en: '"Portrait of Marshal Schulenburg"'
-  title: '"舒伦堡元帅肖像（Portrait of Marshal Schulenburg）"'
+  name_en: Portrait of Marshal Schulenburg
+  title: 舒伦堡元帅肖像（Portrait of Marshal Schulenburg）
   name_original: ''
   language_original: ''
 - slug: works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere
@@ -3775,6 +3781,12 @@ index:
   title: 罗马法国学院（French Academy in Rome）
   name_original: ''
   language_original: ''
+- slug: institutions/gabinetto-dei-disegni-castello-sforzesco
+  type: institutions
+  name_en: Gabinetto dei Disegni, Castello Sforzesco
+  title: 斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）
+  name_original: ''
+  language_original: ''
 - slug: institutions/gabinetto-fotografico-nazionale
   type: institutions
   name_en: Gabinetto Fotografico Nazionale
@@ -3819,8 +3831,8 @@ index:
   language_original: ''
 - slug: institutions/gymnasium-zu-grauen-kloster
   type: institutions
-  name_en: Gymnasium zu Grauen Kloster
-  title: 灰修道院中学（Gymnasium zu Grauen Kloster）
+  name_en: Berlinisches Gymnasium zum Grauen Kloster
+  title: 柏林灰修道院中学（Berlinisches Gymnasium zum Grauen Kloster）
   name_original: ''
   language_original: ''
 - slug: institutions/heritage-malta
@@ -4097,6 +4109,12 @@ index:
   type: institutions
   name_en: Stearn and Son
   title: 斯特恩父子公司（Stearn and Son）
+  name_original: ''
+  language_original: ''
+- slug: institutions/streitsche-stiftung
+  type: institutions
+  name_en: Streitsche Stiftung
+  title: 施特赖特基金会（Streitsche Stiftung）
   name_original: ''
   language_original: ''
 - slug: institutions/studio-fotografico-balelli

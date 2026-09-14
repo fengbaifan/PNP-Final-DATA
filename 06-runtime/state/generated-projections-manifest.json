@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 835,
-    "digest": "sha256:5323b5535b0921a6928e496c773952dcbe86ab2a944b112a8a931a07b6f032c1"
+    "units": 838,
+    "digest": "sha256:b9305e62c75f0f2fbf67fb2db44a4e9a4b4ec3567df5df4d177e59b422fc6d8c"
   },
   "projections": [
     {
@@ -19,8 +19,8 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/ingest/references/relation-types.yml"
         ],
-        "files": 844,
-        "digest": "sha256:424900f5c438c3a78baddb55fbaf8fc8997b0d0b6b42bce9f8ea1d9a26301d90"
+        "files": 847,
+        "digest": "sha256:2c54bc2e723fe4c88be08b0bf50e6d5cf22c27a0364e6da6cfbe556015f6911b"
       },
       "outputs": {
         "04-knowledge/quality/relation-index.yml": "sha256:007e60995bb3e853630fbbe01dd9f1dfc15c455698b01364cdcbd23bf51379c6"
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 844,
-        "digest": "sha256:17652b38df32802250995acb5a990a1df31b472d3d09118fb70679fc2b25d68a"
+        "files": 847,
+        "digest": "sha256:eb065eb8ed814e5c6802bd04bb8cd70d34d7bcc5edcae7d6a9c5e30bf6cd5a19"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,11 +59,11 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 836,
-        "digest": "sha256:f627e082b19980163ed6ed34e61d1c6b80f5b7c5cfa733dad378a1e5768595ba"
+        "files": 839,
+        "digest": "sha256:386e4e709d1a6dab176364f497e06e0ec7140268fbc970762feeea317a01ca28"
       },
       "outputs": {
-        "04-knowledge/quality/translation-index.yml": "sha256:16a0669c42d9c7c2f34a83572cc4dc1fdfe738f2339aab74c19f7e9393de589a"
+        "04-knowledge/quality/translation-index.yml": "sha256:d68a8ff3ae4e3b015ca20dcdd6ff23c951b9d08f5539ac10fe5630036a303f7b"
       },
       "missing_outputs": []
     },
@@ -80,8 +80,8 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 844,
-        "digest": "sha256:34f800f8bbabb135cf4e1882b4d326deabe30757178ee397f79821537e52a804"
+        "files": 847,
+        "digest": "sha256:e544ffd7c67a23078c848084af7808d75304d7ad2d50f916122d8dc07445198d"
       },
       "outputs": {
         "05-outputs/knowledge-graph-data.json": "sha256:52339deb0ef770bf0a77fd158d8d615bdc57ecbbfe7779ef7c811335e5259c50",
@@ -121,7 +121,7 @@
           "05-outputs/**/*"
         ],
         "files": 31,
-        "digest": "sha256:d9c940066a8752de86b00d7b44c8b1a7f419491c071dd4ece787e4d5b49d7072"
+        "digest": "sha256:7fbc614bd7af1563083b49d0bc8eb11085f3e91176a686ef9bf23bd2d10e853b"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:767f4f0787b5cc9bc7d1893099a0b715eb7f9aaddaf1301031b62cf9f8666121"
@@ -140,15 +140,15 @@
           "04-knowledge/units/**/*.md",
           "06-runtime/state/current-health.json"
         ],
-        "files": 837,
-        "digest": "sha256:0403a21ce0e5945fa3e4307f0583d9cc19b5e2c2e03abdc773b2791f3c8ebf94"
+        "files": 840,
+        "digest": "sha256:01f6089b5f44f2c19d5e9b1e0f56e0cfaab34df484fe90f388ffef308b466940"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:00f57e5771e17c70b2ce56adacfb4592b7a773777d45d1eb29503232c3777013",
-        "05-outputs/index/persons.md": "sha256:84408bd8e31b723fc56d8f2e9e955f4686bac3062dfb97b6f6a7a162fb353672",
-        "05-outputs/index/institutions.md": "sha256:c93d7a59b300b996d35b690ee0fb19621984c9379b5d410b960f53f50f4dea79",
+        "05-outputs/index/index.md": "sha256:e217a12dd5f1e3153c9f8179acb895ef732528f3f2a2e1ada0420ef2258ed60a",
+        "05-outputs/index/persons.md": "sha256:62d0f0139729ad62eddd2278575b20d3950a5948f239dd5aab3ebde070680544",
+        "05-outputs/index/institutions.md": "sha256:225f8dc8f262053271e6c129082e56294d4973bee98f838c81070a672e058588",
         "05-outputs/index/places.md": "sha256:4e332d9fb3b39bc92bfc4040451e15ffaeb355e34bbc0ad8db4c1b3e50afeae3",
-        "05-outputs/index/works.md": "sha256:1b3494fd4308b56dcc5a291c8b3bcf219343ccd6ca81fec20f4728837bdb5cad",
+        "05-outputs/index/works.md": "sha256:ff84ba914795fddff05da403a057f1a83acc2648e3197211cf872b9feb523d5b",
         "05-outputs/index/archives.md": "sha256:577aa7b578f567de519d5bdd65bfb092ba4d7f4c183bae57e1019d6770210bb5",
         "05-outputs/index/terms.md": "sha256:25040e61f2b73c0008edaae4d7379979e85b53d74a8a5a9e2c23f312cf5ac85c",
         "05-outputs/index/procedures.md": "sha256:9edcc4f4370c7e83ba09d09489bf35b7367a9f978d5428513cedfc8190e4c8f1",
@@ -206,12 +206,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 859,
-        "digest": "sha256:7dca7afd5fd5c6284414f8ab13d173b0e7f1d63a0e78f456fd70e40282329a4d"
+        "files": 862,
+        "digest": "sha256:4d0e76c29657013aba8882b26fbea3e720ef2af569967feaa94f44c6fdf2956a"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:f364405647e7e50ffbdba18aee5b89cd56091c99b5df9e38107423add9cde995",
-        "06-runtime/governance/governance-backlog.md": "sha256:d3c002cc10e3b665a435c6fed6b3d71d18fcb5fb655af4523974e1c7f410fa81"
+        "06-runtime/state/current-health.json": "sha256:5a509b638d89105e4423d6d76aa0bd785b6067e7af1f194b6bd3460769a46450",
+        "06-runtime/governance/governance-backlog.md": "sha256:1269c9d32cc531fa2ab20a59e30c37fa8fbfe16123f392f6ced5e7a850355a20"
       },
       "missing_outputs": []
     }
