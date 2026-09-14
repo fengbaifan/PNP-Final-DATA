@@ -1122,3 +1122,64 @@ Küsel在Met记1621–1682，Theatermuseum记1629–1681（拍品同后者），
 本段8卡更新3、新增5，连同上一段共23卡更新14、新增9（7人物、2地点）。临时差异在pnp-rev093-stage/preview.diff中预检输入一致、来源保留后串行写回；合并检查覆盖23卡、19条原书原句、110条本地链接和832个有效登记。原sources、正式relations及accepted非units部分保留；正文机械检查无确定性发现。本轮仍为语义自查，不称独立或人工验收。
 
 章前任务累计410新建、44已有有效KU更新、4旧卡整理接收，共458个KU。九项主候选暂缓及其他印本、作品版本缺口未变；整体对齐、逐类补足、正式关系审查仍未完成。当前23卡及相关记录未提交推送，生成索引保持9310fb7基线。
+
+## 马扎然画廊与版画责任
+
+REV-093接续，2026-09-14；REV-097已实测同步至c2164c6，本段为同步后业务更新。范围为FM-P26a／26b及其已采纳创作、委托与安置事实，不把同题版画的其他印本直接认作本书图版印本。
+
+### 来源与实际阅读
+
+- [Met 349118／2000.416.90](https://www.metmuseum.org/art/collection/search/349118)：完整可见对象记录及Artwork Details。1659年雕刻版画，列Nanteuil、Chauveau、van Schuppen、After Mignard四项责任；作者生卒及文化归属用于初步身份展开。47.5×67.1 cm是Met印本纸张尺寸，不作为书中印本字段。
+- [Columbia 2017展览展签C00.0802.132](https://projects.mcah.columbia.edu/ma/label?field_record_id_value=2017_exhibition_C00.0802.132&height=500&iframe=true&width=500)：完整展签。Nanteuil借Mignard肖像处理面貌，Chauveau负责构图，van Schuppen刻制其中一部分，未明确具体部位。44.3×57 cm是该印本画面尺寸；第二版状态带问号，未转为确定事实。展签为学术展览研究，不把Met作者列表当作独立复证全部分工。
+- [BnF La galerie Mazarine](https://www.bnf.fr/en/mazarin-gallery)：实际内容为法文，完整正文、历史沿革与图注已读。1644年Mansart受托扩建两层画廊；1646–1647年Romanelli及作坊绘上层穹顶，列Paolo Gismondi；镀金灰泥责任者按原文记Ottaviano Ottoviani。网页含2019／2021未来计划，不作为当前开放或修复状态。
+- [BnF Histoire d’une renaissance](https://www.bnf.fr/fr/histoire-dune-renaissance)：读取宫殿、两层画廊、皇家图书馆1721年迁入及后段机构沿革；本轮采用全名Giovanni Francesco Romanelli、巴黎馆址和上层穹顶年代等。同一BnF的两页是同机构资料，不据来源条数提升可信度。旧页Fransceco为姓名排字差异，不增作人物别名；1994年机构改组的详细端点不在本轮展开。
+
+### 对齐、补足及候选去向
+
+1. 规范[Nanteuil](../../../04-knowledge/units/persons/nanteuil.md)、[Mazarin](../../../04-knowledge/units/persons/mazarin.md)、[Romanelli](../../../04-knowledge/units/persons/romanelli.md)姓名及有据身份，保留原书简称、原句和L79锚点。新增[Chauveau](../../../04-knowledge/units/persons/francois-chauveau.md)、[van Schuppen](../../../04-knowledge/units/persons/pierre-van-schuppen.md)、[Mignard](../../../04-knowledge/units/persons/pierre-mignard.md)为制作责任端点。van Schuppen生年Met1627／Columbia1629按来源并列，尚未裁定。
+2. FM-P26a保留原书Nanteuil创作及Mazarin描绘对象；外部候选`FM-P26a-EXT-composition`为Chauveau→[版画](../../../04-knowledge/units/works/nanteuil-cardinal-mazarin-in-his-gallery.md)构图，`FM-P26a-EXT-engraving`为van Schuppen→版画部分刻制，`FM-P26a-EXT-model`为Mignard→版画人物肖像原型。原型肖像具体版本未定，不虚构油画KU，也不把After翻成刻版合作。Columbia关于Mazarin可能引介Nanteuil入宫的判断暂不采为正式事实。
+3. [马扎然宫](../../../04-knowledge/units/places/palais-mazarin.md)和[BnF机构](../../../04-knowledge/units/institutions/bibliotheque-nationale.md)原位补入历史使用。新增[画廊空间](../../../04-knowledge/units/places/galerie-mazarin.md)与[穹顶装饰整体](../../../04-knowledge/units/works/mazarin-gallery-vault-decoration.md)，并新增[Mansart](../../../04-knowledge/units/persons/francois-mansart.md)、[Gismondi](../../../04-knowledge/units/persons/paolo-gismondi.md)、[Ottoviani](../../../04-knowledge/units/persons/ottaviano-ottoviani.md)。空间归place，壁画及灰泥装饰整体归work；宫殿、画廊和装饰分别登记。
+4. 外部候选`FM-P26b-EXT-gallery`涵盖Mazarin→Mansart的1644年建筑委托、Mazarin→Romanelli的顶画委托、Romanelli／Gismondi→穹顶绘画、Ottoviani→镀金灰泥、装饰→画廊安置。各人物只获得实际所载责任；不从作坊参与推定师承，不把整个穹顶作坊分工套到每个局部。
+5. [Romulus and Remus局部](../../../04-knowledge/units/works/romanelli-romulus-and-remus.md)保留原书对象和路径，仅增相关馆方入口。BnF两页没有明确列出这一场景，本轮未完成图版视觉比对；局部→装饰整体的part_of关系暂缓，不把地点和作者相同当作局部场景识别的充分依据。窗口壁画Grimaldi与穹顶有不同部位，尚未采入本轮穹顶责任表；后期修复及继承链不在本轮展开。
+
+本组处理15卡（更新7、新增8），未新增QID或Wikipedia双向确认，未新增正式边。上述外部身份和事实补足交后续关系审查，不表示所有人物传记、原型和具体印本已全面补足。
+
+## 本蒂沃利奥肖像与流传
+
+REV-093接续，2026-09-14；范围为FM-P04a，按本书Van Dyck／Cardinal Bentivoglio／Pitti／Florence四个锚点核对同一馆藏肖像。
+
+### 来源与实际阅读
+
+- [OPD修复记录](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)：完整作品字段、历史说明、技术、保存状态、修复处理、书目及图注已读。网页工具本轮超时后直接HTTP成功取得正文。1623年Guido委托；1653年佛罗伦萨教廷使节Annibale Bentivoglio赠Granduca Ferdinando II，先安置Uffizi Tribuna；1799年自Pitti送巴黎，1815年返回。GR13382（ex7505）为OPD档案标识，不是画作馆藏号。
+- [ICCD 0900129521](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)：完整公开网页目录已读，不称下载完整PDF或阅读被引档案原件。馆藏号Palatina82，编目1979、更新2006；1622–1623年，195×147 cm，布面油画。引用库存中的1652采用佛罗伦萨报喜节历，目录叙事明确作1653，不制造历法冲突。返还日期1814与OPD1815确有异文，保留两值。
+- [Frick展览记录](https://www.frick.org/exhibitions/van_dyck/15)：完整作品展签及技术字段已读。作者Anthony van Dyck，1599–1641，1623年罗马肖像；Guido为外交官、赞助人和历史学家。画家寄居说为likely，未作确定居住边。Frick是借展作品记录，不是作品当前收藏者；各机构可能采用共同作品研究，不据三域名断言三条独立历史证据。
+
+### 采纳、异文与端点
+
+1. [Van Dyck](../../../04-knowledge/units/persons/van-dyck.md)原位展开Anthony／Antoon／Antonie用名；[Guido Bentivoglio](../../../04-knowledge/units/persons/cardinal-bentivoglio.md)原位展开全名、生卒、头衔及多重身份。[肖像](../../../04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md)补充创作、委托、材料、库存号、流传及原画布已不存的事实；原书四个端点保持。
+2. OPD现测195.8×146.6 cm与ICCD／Frick195×147 cm分别列明。OPD材料总字段记tempera、olio，但技术与修复正文说明后期修补含蛋彩及油性材料，因此不把原作直接改称蛋彩画。颜料层转移确定发生；具体年代、城市和修复者在OPD历史归因与后文讨论中并非完全一致，本轮不赋确定日期或责任人。
+3. 新增[Annibale Bentivoglio](../../../04-knowledge/units/persons/annibale-bentivoglio.md)、[Ferdinando II de’ Medici](../../../04-knowledge/units/persons/ferdinando-ii-de-medici.md)、[Galleria Palatina](../../../04-knowledge/units/institutions/galleria-palatina.md)、[Tribuna degli Uffizi](../../../04-knowledge/units/places/tribuna-uffizi.md)，补齐赠送、受赠、保管及历史陈列场所。[Pitti](../../../04-knowledge/units/places/palazzo-pitti.md)保留建筑身份；画廊为机构，Tribuna为内部空间。Ferdinando II不与已登记Grand Prince Ferdinand合并；Annibale与Guido不因同姓推定亲缘。
+4. 外部候选`FM-P04a-EXT-commission`为Guido→肖像委托及Van Dyck→肖像创作（罗马，OPD1623，ICCD1622–1623）；`FM-P04a-EXT-gift`为Annibale赠画、Ferdinando II受赠（1653）；`FM-P04a-EXT-location`分别为肖像→Tribuna（1653）、Pitti（1799年征收前）、Paris（1799年转运）及Galleria Palatina现保管。返还边带1814／1815来源异文，不无条件归并时间。
+5. ICCD人物段将Guido写作Clemente VII的cameriere segreto，年代明显不相容，不采纳也不凭记忆替换为另一教宗；所引Bellori、库存档案、研究论文仍是转述与书目线索。画中信件不能据图像自动建立现存档案实体。完整人物辞典、生平亲缘、著述及其他作品版本仍待相应来源，未声称全面补足。
+
+本组处理8卡（更新4、新增4）。与马扎然组共23卡（更新11、新增12）；原有正式关系保持，外部候选已带具体来源交接。9条主候选暂缓不变；版本、日期和场景缺口另列，不以“9条暂缓”代替全部未完成项。
+
+## 作者与序言学者身份
+
+REV-093同轮接续，2026-09-14。对本书作者、献辞及序言帮助者进行初步身份展开，复用已有KU，未新增对象。
+
+- [Charles Hope, Francis James Herbert Haskell, 1928–2000, PBA 115 (2002), pp.227–242](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)：实际读取PDF2–3、7–8、10、15–17，采用印刷pp.227–228、232–233、242的全名、出生／死亡日期、1948年入学、Pevsner指导、Bettagno介绍及1965年婚姻。未称整篇全文阅读；其他书目、父母、任职机构及晚年活动没有在本轮递归新增。传记p.232明确Larissa Salmina为Hermitage威尼斯素描策展人及Haskell配偶，结合本书作者和献辞语境，与[Larissa原卡](../../../04-knowledge/units/persons/larissa-dedicatee.md)配对；这不是将原书献辞本身解释为婚姻证据。
+- [National Gallery NGA16](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA16)：完整集合目录和Administrative history已读，确认[Ellis Kirkham Waterhouse](../../../04-knowledge/units/persons/ellis-waterhouse.md)全名、1905–1985及1929–1933任馆助理。25封信的目录不等于读过信件正文；不把档案中的每名通信者自动加入本任务。
+- [National Gallery Sir Michael Levey](https://www.nationalgallery.org.uk/about-us/history/directors/sir-michael-levey)：完整人物传记段已读，采用生卒、1951年入馆至1973–1986任馆长的分条履历。下方Selected acquisitions为任期相关馆藏索引，未把馆藏收购等同个人所有或个人委托；也未全面阅读各藏品独立页面。
+- [American Academy of Arts and Sciences: Howard Hibbard](https://www.amacad.org/person/howard-hibbard)：网页工具取得完整人物字段，确认1928–1984、艺术史学家及教育者；直接HTTP受403限制不影响已读页面字段。其机构与当选年本轮未展开新端点。另找到Columbia 1986系刊，但未完整阅读Hibbard纪念文，未采为已核事实或全名补足。
+- [Getty ULAN 500121330: Enggass, Robert](https://www.getty.edu/vow/ULANFullDisplay?find=laurens&role=&nation=&subjectid=500121330)：完整规范记录已读，人物类型、Robert Enggass、1921–2003、美国、艺术史／教授／作者及巴洛克研究一致。搜索所得层级页的500299802经打开实为Non-Artists分类节点，排除；从层级页人物链接得到500121330后才写入。ULAN转引CAA News和LOC资料，未称已独立阅读这两份原件；不将ULAN标识当成QID。
+
+保留本书原句、页行与帮助者角色，新增外部候选分别归源：`FM-DEDICATION-EXT-spouse`连接[Haskell](../../../04-knowledge/units/persons/francis-haskell.md)与[Salmina](../../../04-knowledge/units/persons/larissa-dedicatee.md)，1965年结婚；`FM-PREFACE-EXT-supervision`为[Pevsner](../../../04-knowledge/units/persons/nikolaus-pevsner.md)→Haskell，1951年同意指导，不追认为博士学位指导；`FM-PREFACE-EXT-introduction`保留[Bettagno](../../../04-knowledge/units/persons/alessandro-bettagno.md)1962年在威尼斯介绍两人相识；`FM-PREFACE-EXT-employment`分别为Levey／Waterhouse→伦敦National Gallery的分期职务和Salmina→Hermitage的1962年策展身份。伦敦馆已有确定KU，但不能由这些学者任职反推原书FM-H14未指明的National Gallery就是伦敦馆，H14继续暂缓。
+
+本段9张既有卡（8人物、1学院）原位更新，连同前两组共32卡（更新20、新增12）。章前仍470个KU、全库844个；外部初步身份展开不表示这些学者的完整学术履历、著作及亲缘已全部补足，未写正式边，整体目标继续执行。
+
+### 本轮保存与检查
+
+32卡经可审阅差异及输入一致性预检后串行写回，核对25条原书原句、143条本地链接、全部新增来源编号及过程锚点；844个有效路径和470个任务KU计数一致。原sources前缀、正式relations及accepted非units字段保留，受影响卡内容机械检查无确定性发现，过程／结果文件链接与`git diff --check`通过。临时检查脚本首次对全库旧卡假定都有sources导致KeyError，已限定计数读取兼容缺省；32张本轮卡的来源仍逐项必检，重跑通过。本轮为直接语义工作与自查，不是独立或人工验收。
+
+成果未再次提交推送；生成索引仍为c2164c6同步基线，下一次授权同步时刷新。继续处理其余人物、机构、文献和作品的初步身份与版本缺口，再按现有外部和原文候选进入全面补足及正式关系审查；不启动知识发现或页面。

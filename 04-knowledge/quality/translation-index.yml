@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 709
+total: 719
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -143,6 +143,12 @@ index:
   type: persons
   name_en: Ann Sutherland Harris
   title: 安·萨瑟兰·哈里斯（Ann Sutherland Harris）
+  name_original: ''
+  language_original: ''
+- slug: persons/annibale-bentivoglio
+  type: persons
+  name_en: Annibale Bentivoglio
+  title: 安尼巴莱·本蒂沃利奥（Annibale Bentivoglio）
   name_original: ''
   language_original: ''
 - slug: persons/annibale-carracci
@@ -327,8 +333,8 @@ index:
   language_original: ''
 - slug: persons/cardinal-bentivoglio
   type: persons
-  name_en: Cardinal Bentivoglio
-  title: 本蒂沃利奥枢机（Cardinal Bentivoglio）
+  name_en: Guido Bentivoglio
+  title: 圭多·本蒂沃利奥（Guido Bentivoglio）
   name_original: ''
   language_original: ''
 - slug: persons/cardinal-borghese-ch1
@@ -549,8 +555,8 @@ index:
   language_original: ''
 - slug: persons/ellis-waterhouse
   type: persons
-  name_en: Ellis Waterhouse
-  title: 埃利斯·沃特豪斯（Ellis Waterhouse）
+  name_en: Ellis Kirkham Waterhouse
+  title: 埃利斯·柯克姆·沃特豪斯（Ellis Kirkham Waterhouse）
   name_original: ''
   language_original: ''
 - slug: persons/enzo-crea
@@ -587,6 +593,12 @@ index:
   type: persons
   name_en: Grand Prince Ferdinand of Tuscany
   title: 托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）
+  name_original: ''
+  language_original: ''
+- slug: persons/ferdinando-ii-de-medici
+  type: persons
+  name_en: Ferdinando II de’ Medici
+  title: 费迪南多二世·德·美第奇（Ferdinando II de’ Medici）
   name_original: ''
   language_original: ''
 - slug: persons/filippo-baldinucci
@@ -693,14 +705,26 @@ index:
   language_original: ''
 - slug: persons/francis-haskell
   type: persons
-  name_en: Francis Haskell
-  title: 弗朗西斯·哈斯克尔（Francis Haskell）
+  name_en: Francis James Herbert Haskell
+  title: 弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）
   name_original: ''
   language_original: ''
 - slug: persons/franco-venturi
   type: persons
   name_en: Franco Venturi
   title: 弗兰科·文图里（Franco Venturi）
+  name_original: ''
+  language_original: ''
+- slug: persons/francois-chauveau
+  type: persons
+  name_en: François Chauveau
+  title: 弗朗索瓦·肖沃（François Chauveau）
+  name_original: ''
+  language_original: ''
+- slug: persons/francois-mansart
+  type: persons
+  name_en: François Mansart
+  title: 弗朗索瓦·芒萨尔（François Mansart）
   name_original: ''
   language_original: ''
 - slug: persons/frederick-iii
@@ -1131,8 +1155,8 @@ index:
   language_original: ''
 - slug: persons/larissa-dedicatee
   type: persons
-  name_en: Larissa
-  title: 拉里萨（Larissa）
+  name_en: Larissa Salmina
+  title: 拉里萨·萨尔米娜（Larissa Salmina）
   name_original: ''
   language_original: ''
 - slug: persons/leo-x
@@ -1329,8 +1353,8 @@ index:
   language_original: ''
 - slug: persons/mazarin
   type: persons
-  name_en: Mazarin
-  title: 马扎然（Mazarin）
+  name_en: Jules Mazarin
+  title: 朱尔·马扎然（Jules Mazarin）
   name_original: ''
   language_original: ''
 - slug: persons/michael-conforti
@@ -1365,8 +1389,8 @@ index:
   language_original: ''
 - slug: persons/nanteuil
   type: persons
-  name_en: Nanteuil
-  title: 南特伊（Nanteuil）
+  name_en: Robert Nanteuil
+  title: 罗贝尔·南特伊（Robert Nanteuil）
   name_original: ''
   language_original: ''
 - slug: persons/niccolo-bambini
@@ -1435,6 +1459,12 @@ index:
   title: 奥斯卡·萨维奥（Oscar Savio）
   name_original: ''
   language_original: ''
+- slug: persons/ottaviano-ottoviani
+  type: persons
+  name_en: Ottaviano Ottoviani
+  title: 奥塔维亚诺·奥托维亚尼（Ottaviano Ottoviani）
+  name_original: ''
+  language_original: ''
 - slug: persons/ottavio-costa
   type: persons
   name_en: Ottavio Costa
@@ -1481,6 +1511,12 @@ index:
   type: persons
   name_en: '"Paolo Gerolamo Piola"'
   title: '"保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/paolo-gismondi
+  type: persons
+  name_en: Paolo Gismondi
+  title: 保罗·吉斯蒙迪（Paolo Gismondi）
   name_original: ''
   language_original: ''
 - slug: persons/paolo-guidotti
@@ -1561,6 +1597,12 @@ index:
   title: 皮耶尔·莱奥内·盖齐（Pier Leone Ghezzi）
   name_original: ''
   language_original: ''
+- slug: persons/pierre-mignard
+  type: persons
+  name_en: Pierre Mignard
+  title: 皮埃尔·米尼亚尔（Pierre Mignard）
+  name_original: ''
+  language_original: ''
 - slug: persons/pierre-motteux
   type: persons
   name_en: Peter Anthony Motteux
@@ -1571,6 +1613,12 @@ index:
   type: persons
   name_en: Pierre Rosenberg
   title: 皮埃尔·罗森贝格（Pierre Rosenberg）
+  name_original: ''
+  language_original: ''
+- slug: persons/pierre-van-schuppen
+  type: persons
+  name_en: Pierre van Schuppen
+  title: 皮埃尔·范·斯许彭（Pierre van Schuppen）
   name_original: ''
   language_original: ''
 - slug: persons/pieter-van-laer
@@ -1683,8 +1731,8 @@ index:
   language_original: ''
 - slug: persons/romanelli
   type: persons
-  name_en: Romanelli
-  title: 罗马内利（Romanelli）
+  name_en: Giovanni Francesco Romanelli
+  title: 乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）
   name_original: ''
   language_original: ''
 - slug: persons/rudolf-wittkower
@@ -1821,8 +1869,8 @@ index:
   language_original: ''
 - slug: persons/van-dyck
   type: persons
-  name_en: Van Dyck
-  title: 范·戴克（Van Dyck）
+  name_en: Anthony van Dyck
+  title: 安东尼·范·戴克（Anthony van Dyck）
   name_original: ''
   language_original: ''
 - slug: persons/velasquez
@@ -3241,6 +3289,12 @@ index:
   title: 杰罗姆·班克斯肖像（Portrait of Jerome Bankes）
   name_original: ''
   language_original: ''
+- slug: works/mazarin-gallery-vault-decoration
+  type: works
+  name_en: Vault Decoration of the Galerie Mazarine
+  title: 马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）
+  name_original: ''
+  language_original: ''
 - slug: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends
   type: works
   name_en: The artist with a group of friends
@@ -3471,8 +3525,8 @@ index:
   language_original: ''
 - slug: works/romanelli-romulus-and-remus
   type: works
-  name_en: Romulus and Remus
-  title: 罗慕路斯与雷穆斯顶画局部（Romulus and Remus）
+  name_en: Romulus and Remus (Ceiling Detail)
+  title: 罗慕路斯与雷穆斯顶画局部（Romulus and Remus, Ceiling Detail）
   name_original: ''
   language_original: ''
 - slug: works/rubens-chiesa-nuova-altarpiece-1606
@@ -3603,8 +3657,8 @@ index:
   language_original: ''
 - slug: works/van-dyck-cardinal-bentivoglio
   type: works
-  name_en: '"Portrait of Cardinal Bentivoglio"'
-  title: '"本蒂沃利奥枢机肖像（Portrait of Cardinal Bentivoglio）"'
+  name_en: Portrait of Cardinal Guido Bentivoglio
+  title: 圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）
   name_original: ''
   language_original: ''
 - slug: works/velasquez-camillo-massimi
@@ -3735,8 +3789,8 @@ index:
   language_original: ''
 - slug: institutions/bibliotheque-nationale
   type: institutions
-  name_en: Bibliothèque Nationale
-  title: 法国国家图书馆（Bibliothèque Nationale）
+  name_en: National Library of France
+  title: 法国国家图书馆（National Library of France）
   name_original: ''
   language_original: ''
 - slug: institutions/british-museum
@@ -3851,6 +3905,12 @@ index:
   type: institutions
   name_en: Galleria Nazionale d'Arte Antica
   title: 国立古代艺术美术馆（Galleria Nazionale d'Arte Antica）
+  name_original: ''
+  language_original: ''
+- slug: institutions/galleria-palatina
+  type: institutions
+  name_en: Galleria Palatina
+  title: 帕拉蒂纳画廊（Galleria Palatina）
   name_original: ''
   language_original: ''
 - slug: institutions/galleria-spada

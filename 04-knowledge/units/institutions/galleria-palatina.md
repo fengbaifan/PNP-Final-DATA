@@ -1,19 +1,9 @@
 ---
-title: 安东尼·范·戴克（Anthony van Dyck）
-name_en: Anthony van Dyck
-type: person
+title: 帕拉蒂纳画廊（Galleria Palatina）
+name_en: Galleria Palatina
+type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
-  location: 章前：图版目录；印刷页xii；OCR L43–43
-  sentence_summary: 图版04a将其列为《本蒂沃利奥枢机》的创作者。
-  original_quotes:
-  - source_span: lines 43–43
-    text: '4 a Van Dyck: Cardinal Bentivoglio (Pitti, Florence)'
-  evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
-    source_span: lines 43–43; 章前：图版目录；印刷页xii
 - citation: Opificio delle Pietre Dure, Antoon van Dyck, Il Ritratto del Cardinale Bentivoglio, 1623. https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/. Accessed 2026-09-14.
   location: 作品字段、Informazioni sull’opera、Tecnica esecutiva、Stato di conservazione、Descrizione intervento及书目
   sentence_summary: Guido Bentivoglio于1623年在罗马委托肖像；1653年Annibale Bentivoglio赠Ferdinando II，先置乌菲齐Tribuna，1799年从Pitti被运往巴黎，OPD记1815年返还。现测195.8×146.6厘米，曾发生颜料层转移。GR13382为OPD修复档案标识。
@@ -32,51 +22,36 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 描述
 
-**中文：** 画家，1623年在罗马受圭多·本蒂沃利奥枢机委托绘制肖像。
+**中文：** 位于佛罗伦萨皮蒂宫的绘画收藏机构，保管范·戴克的圭多·本蒂沃利奥枢机肖像。
 
-**English:** A painter commissioned by Cardinal Guido Bentivoglio to paint his portrait in Rome in 1623.
+**English:** A painting collection housed in Palazzo Pitti, Florence, holding Van Dyck’s portrait of Cardinal Guido Bentivoglio.
 
 ### 名称
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 惯用名 | Van Dyck | S1 |
+| 原语名 | Galleria Palatina | S1、S3 |
+| 目录保管机构名 | Galleria Palatina e Appartamenti Reali | S2 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
-| 英文全名 | Anthony van Dyck／安东尼·范·戴克 | S4 |
-| 原语名 | Antoon van Dyck | S2 |
-| 目录异体 | Antonie Van Dyck | S3 |
 
-### 作品与活动记录
+### 机构与收藏
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 图版04a角色 | 创作 | S1 |
-| 图版04a相关对象 | [本蒂沃利奥枢机肖像](../works/van-dyck-cardinal-bentivoglio.md)；创作者 | S1 |
-
-### 基本信息
-
-| 字段 | 值 | 证据 |
-|---|---|---|
-| 生年 | 1599 | S3、S4 |
-| 卒年 | 1641 | S3、S4 |
-| 身份 | 画家／Painter | S2、S4 |
-
-### 肖像委托
-
-| 字段 | 值 | 证据 |
-|---|---|---|
-| 1623年委托人 | [圭多·本蒂沃利奥](cardinal-bentivoglio.md) | S2 |
-| 创作地点 | [罗马](../places/rome.md) | S2、S4 |
+| 性质 | 博物馆绘画收藏／Museum painting collection | S1、S2 |
+| 所在建筑 | [皮蒂宫](../places/palazzo-pitti.md) | S1、S2、S3 |
+| 所在地 | [佛罗伦萨](../places/florence.md) | S1、S2、S3 |
+| 藏品Palatina 82 | [圭多·本蒂沃利奥枢机肖像](../works/van-dyck-cardinal-bentivoglio.md) | S2 |
 
 ## 关系与证据
 
 ### 身份与外部链接
 
-[OPD肖像修复记录](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)（S2）；[ICCD 0900129521](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)（S3）；[Frick展签](https://www.frick.org/exhibitions/van_dyck/15)（S4，作者与作品）。
+[ICCD保管机构字段](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)（S2）；[OPD](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)（S1）；[Frick](https://www.frick.org/exhibitions/van_dyck/15)（S3）。
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+暂无正式关系。
 
 ### 关系候选入口
 

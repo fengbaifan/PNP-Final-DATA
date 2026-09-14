@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T21:03:29",
+  "timestamp": "2026-09-14T21:34:01",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 832,
+    "total_units": 844,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,22 +26,22 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 832,
+    "total_units": 844,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 832,
+    "units_missing_any_assignment": 844,
     "field_coverage": {
-      "primary_domain": "0/832",
-      "primary_dimension": "0/832",
-      "primary_theme": "0/832",
-      "topic_memberships": "0/832"
+      "primary_domain": "0/844",
+      "primary_dimension": "0/844",
+      "primary_theme": "0/844",
+      "topic_memberships": "0/844"
     }
   },
   "counts_by_type": {
-    "persons": 306,
+    "persons": 314,
     "families": 7,
-    "institutions": 99,
-    "places": 118,
-    "works": 197,
+    "institutions": 100,
+    "places": 120,
+    "works": 198,
     "archives": 54,
     "terms": 34,
     "procedures": 10,
@@ -79,6 +79,7 @@
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
+      "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
       "04-knowledge/units/persons/annibale-laparelli.md",
       "04-knowledge/units/persons/anthony-blunt.md",
@@ -151,6 +152,7 @@
       "04-knowledge/units/persons/fabrizio-valguarnera.md",
       "04-knowledge/units/persons/federigo-zuccari.md",
       "04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md",
+      "04-knowledge/units/persons/ferdinando-ii-de-medici.md",
       "04-knowledge/units/persons/filippo-baldinucci.md",
       "04-knowledge/units/persons/filippo-lauri.md",
       "04-knowledge/units/persons/flaminio-corner.md",
@@ -168,6 +170,8 @@
       "04-knowledge/units/persons/francesco-trevisani.md",
       "04-knowledge/units/persons/francis-haskell.md",
       "04-knowledge/units/persons/franco-venturi.md",
+      "04-knowledge/units/persons/francois-chauveau.md",
+      "04-knowledge/units/persons/francois-mansart.md",
       "04-knowledge/units/persons/frederick-iii.md",
       "04-knowledge/units/persons/fulvio-testi.md",
       "04-knowledge/units/persons/g-h-w-rylands.md",
@@ -288,6 +292,7 @@
       "04-knowledge/units/persons/onorio-longhi.md",
       "04-knowledge/units/persons/orazio-gentileschi.md",
       "04-knowledge/units/persons/oscar-savio.md",
+      "04-knowledge/units/persons/ottaviano-ottoviani.md",
       "04-knowledge/units/persons/ottavio-costa.md",
       "04-knowledge/units/persons/ottavio-leoni.md",
       "04-knowledge/units/persons/owen-mcswiny.md",
@@ -296,6 +301,7 @@
       "04-knowledge/units/persons/paolo-de-matteis.md",
       "04-knowledge/units/persons/paolo-giordano-orsini.md",
       "04-knowledge/units/persons/paolo-girolamo-piola.md",
+      "04-knowledge/units/persons/paolo-gismondi.md",
       "04-knowledge/units/persons/paolo-guidotti.md",
       "04-knowledge/units/persons/paolo-negri.md",
       "04-knowledge/units/persons/pascoli.md",
@@ -309,8 +315,10 @@
       "04-knowledge/units/persons/piazzetta.md",
       "04-knowledge/units/persons/pier-francesco-mola.md",
       "04-knowledge/units/persons/pier-leone-ghezzi.md",
+      "04-knowledge/units/persons/pierre-mignard.md",
       "04-knowledge/units/persons/pierre-motteux.md",
       "04-knowledge/units/persons/pierre-rosenberg.md",
+      "04-knowledge/units/persons/pierre-van-schuppen.md",
       "04-knowledge/units/persons/pieter-van-laer.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
@@ -401,6 +409,7 @@
       "04-knowledge/units/institutions/galleria-borghese.md",
       "04-knowledge/units/institutions/galleria-doria-pamphilj.md",
       "04-knowledge/units/institutions/galleria-nazionale-arte-antica.md",
+      "04-knowledge/units/institutions/galleria-palatina.md",
       "04-knowledge/units/institutions/galleria-spada.md",
       "04-knowledge/units/institutions/gallerie-ditalia.md",
       "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
@@ -495,6 +504,7 @@
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
       "04-knowledge/units/places/florence.md",
+      "04-knowledge/units/places/galerie-mazarin.md",
       "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
       "04-knowledge/units/places/genoa.md",
       "04-knowledge/units/places/gesu-rome.md",
@@ -572,6 +582,7 @@
       "04-knowledge/units/places/temple-newsam.md",
       "04-knowledge/units/places/theater-auf-der-cortina.md",
       "04-knowledge/units/places/treviso.md",
+      "04-knowledge/units/places/tribuna-uffizi.md",
       "04-knowledge/units/places/turin.md",
       "04-knowledge/units/places/tuscany.md",
       "04-knowledge/units/places/valmontone.md",
@@ -716,6 +727,7 @@
       "04-knowledge/units/works/marco-ricci-village-scene.md",
       "04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md",
       "04-knowledge/units/works/massimo-stanzione-jerome-bankes.md",
+      "04-knowledge/units/works/mazarin-gallery-vault-decoration.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md",
@@ -886,6 +898,7 @@
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
+      "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
       "04-knowledge/units/persons/annibale-laparelli.md",
       "04-knowledge/units/persons/anthony-blunt.md",
@@ -958,6 +971,7 @@
       "04-knowledge/units/persons/fabrizio-valguarnera.md",
       "04-knowledge/units/persons/federigo-zuccari.md",
       "04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md",
+      "04-knowledge/units/persons/ferdinando-ii-de-medici.md",
       "04-knowledge/units/persons/filippo-baldinucci.md",
       "04-knowledge/units/persons/filippo-lauri.md",
       "04-knowledge/units/persons/flaminio-corner.md",
@@ -975,6 +989,8 @@
       "04-knowledge/units/persons/francesco-trevisani.md",
       "04-knowledge/units/persons/francis-haskell.md",
       "04-knowledge/units/persons/franco-venturi.md",
+      "04-knowledge/units/persons/francois-chauveau.md",
+      "04-knowledge/units/persons/francois-mansart.md",
       "04-knowledge/units/persons/frederick-iii.md",
       "04-knowledge/units/persons/fulvio-testi.md",
       "04-knowledge/units/persons/g-h-w-rylands.md",
@@ -1095,6 +1111,7 @@
       "04-knowledge/units/persons/onorio-longhi.md",
       "04-knowledge/units/persons/orazio-gentileschi.md",
       "04-knowledge/units/persons/oscar-savio.md",
+      "04-knowledge/units/persons/ottaviano-ottoviani.md",
       "04-knowledge/units/persons/ottavio-costa.md",
       "04-knowledge/units/persons/ottavio-leoni.md",
       "04-knowledge/units/persons/owen-mcswiny.md",
@@ -1103,6 +1120,7 @@
       "04-knowledge/units/persons/paolo-de-matteis.md",
       "04-knowledge/units/persons/paolo-giordano-orsini.md",
       "04-knowledge/units/persons/paolo-girolamo-piola.md",
+      "04-knowledge/units/persons/paolo-gismondi.md",
       "04-knowledge/units/persons/paolo-guidotti.md",
       "04-knowledge/units/persons/paolo-negri.md",
       "04-knowledge/units/persons/pascoli.md",
@@ -1116,8 +1134,10 @@
       "04-knowledge/units/persons/piazzetta.md",
       "04-knowledge/units/persons/pier-francesco-mola.md",
       "04-knowledge/units/persons/pier-leone-ghezzi.md",
+      "04-knowledge/units/persons/pierre-mignard.md",
       "04-knowledge/units/persons/pierre-motteux.md",
       "04-knowledge/units/persons/pierre-rosenberg.md",
+      "04-knowledge/units/persons/pierre-van-schuppen.md",
       "04-knowledge/units/persons/pieter-van-laer.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
@@ -1208,6 +1228,7 @@
       "04-knowledge/units/institutions/galleria-borghese.md",
       "04-knowledge/units/institutions/galleria-doria-pamphilj.md",
       "04-knowledge/units/institutions/galleria-nazionale-arte-antica.md",
+      "04-knowledge/units/institutions/galleria-palatina.md",
       "04-knowledge/units/institutions/galleria-spada.md",
       "04-knowledge/units/institutions/gallerie-ditalia.md",
       "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
@@ -1302,6 +1323,7 @@
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
       "04-knowledge/units/places/florence.md",
+      "04-knowledge/units/places/galerie-mazarin.md",
       "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
       "04-knowledge/units/places/genoa.md",
       "04-knowledge/units/places/gesu-rome.md",
@@ -1382,6 +1404,7 @@
       "04-knowledge/units/places/temple-newsam.md",
       "04-knowledge/units/places/theater-auf-der-cortina.md",
       "04-knowledge/units/places/treviso.md",
+      "04-knowledge/units/places/tribuna-uffizi.md",
       "04-knowledge/units/places/turin.md",
       "04-knowledge/units/places/tuscany.md",
       "04-knowledge/units/places/valmontone.md",
@@ -1528,6 +1551,7 @@
       "04-knowledge/units/works/marco-ricci-village-scene.md",
       "04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md",
       "04-knowledge/units/works/massimo-stanzione-jerome-bankes.md",
+      "04-knowledge/units/works/mazarin-gallery-vault-decoration.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md",
       "04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md",
@@ -1700,8 +1724,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 306,
-      "tags": 306,
+      "sub_type": 314,
+      "tags": 314,
       "evidence_status": 0
     },
     "families": {
@@ -1710,18 +1734,18 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 99,
-      "tags": 99,
+      "sub_type": 100,
+      "tags": 100,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 115,
-      "tags": 118,
+      "sub_type": 117,
+      "tags": 120,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 194,
-      "tags": 197,
+      "sub_type": 195,
+      "tags": 198,
       "evidence_status": 0
     },
     "archives": {
@@ -1798,11 +1822,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 143,
+    "sources_without_evidence_ref": 155,
     "evidence_ref_resolvable": 1004,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1004,
-    "units_with_traceable_source": 832
+    "units_with_traceable_source": 844
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1834,7 +1858,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 832,
+      "count": 844,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1859,6 +1883,7 @@
         "04-knowledge/units/persons/andrea-procaccini.md",
         "04-knowledge/units/persons/andrea-sacchi.md",
         "04-knowledge/units/persons/ann-sutherland-harris.md",
+        "04-knowledge/units/persons/annibale-bentivoglio.md",
         "04-knowledge/units/persons/annibale-carracci.md",
         "04-knowledge/units/persons/annibale-laparelli.md",
         "04-knowledge/units/persons/anthony-blunt.md",
@@ -1931,6 +1956,7 @@
         "04-knowledge/units/persons/fabrizio-valguarnera.md",
         "04-knowledge/units/persons/federigo-zuccari.md",
         "04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md",
+        "04-knowledge/units/persons/ferdinando-ii-de-medici.md",
         "04-knowledge/units/persons/filippo-baldinucci.md",
         "04-knowledge/units/persons/filippo-lauri.md",
         "04-knowledge/units/persons/flaminio-corner.md",
@@ -1948,6 +1974,8 @@
         "04-knowledge/units/persons/francesco-trevisani.md",
         "04-knowledge/units/persons/francis-haskell.md",
         "04-knowledge/units/persons/franco-venturi.md",
+        "04-knowledge/units/persons/francois-chauveau.md",
+        "04-knowledge/units/persons/francois-mansart.md",
         "04-knowledge/units/persons/frederick-iii.md",
         "04-knowledge/units/persons/fulvio-testi.md",
         "04-knowledge/units/persons/g-h-w-rylands.md",
@@ -2068,6 +2096,7 @@
         "04-knowledge/units/persons/onorio-longhi.md",
         "04-knowledge/units/persons/orazio-gentileschi.md",
         "04-knowledge/units/persons/oscar-savio.md",
+        "04-knowledge/units/persons/ottaviano-ottoviani.md",
         "04-knowledge/units/persons/ottavio-costa.md",
         "04-knowledge/units/persons/ottavio-leoni.md",
         "04-knowledge/units/persons/owen-mcswiny.md",
@@ -2076,6 +2105,7 @@
         "04-knowledge/units/persons/paolo-de-matteis.md",
         "04-knowledge/units/persons/paolo-giordano-orsini.md",
         "04-knowledge/units/persons/paolo-girolamo-piola.md",
+        "04-knowledge/units/persons/paolo-gismondi.md",
         "04-knowledge/units/persons/paolo-guidotti.md",
         "04-knowledge/units/persons/paolo-negri.md",
         "04-knowledge/units/persons/pascoli.md",
@@ -2089,8 +2119,10 @@
         "04-knowledge/units/persons/piazzetta.md",
         "04-knowledge/units/persons/pier-francesco-mola.md",
         "04-knowledge/units/persons/pier-leone-ghezzi.md",
+        "04-knowledge/units/persons/pierre-mignard.md",
         "04-knowledge/units/persons/pierre-motteux.md",
         "04-knowledge/units/persons/pierre-rosenberg.md",
+        "04-knowledge/units/persons/pierre-van-schuppen.md",
         "04-knowledge/units/persons/pieter-van-laer.md",
         "04-knowledge/units/persons/pietro-antonio-novelli.md",
         "04-knowledge/units/persons/pietro-da-cortona.md",
@@ -2181,6 +2213,7 @@
         "04-knowledge/units/institutions/galleria-borghese.md",
         "04-knowledge/units/institutions/galleria-doria-pamphilj.md",
         "04-knowledge/units/institutions/galleria-nazionale-arte-antica.md",
+        "04-knowledge/units/institutions/galleria-palatina.md",
         "04-knowledge/units/institutions/galleria-spada.md",
         "04-knowledge/units/institutions/gallerie-ditalia.md",
         "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
@@ -2275,6 +2308,7 @@
         "04-knowledge/units/places/england.md",
         "04-knowledge/units/places/europe.md",
         "04-knowledge/units/places/florence.md",
+        "04-knowledge/units/places/galerie-mazarin.md",
         "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
         "04-knowledge/units/places/genoa.md",
         "04-knowledge/units/places/gesu-rome.md",
@@ -2355,6 +2389,7 @@
         "04-knowledge/units/places/temple-newsam.md",
         "04-knowledge/units/places/theater-auf-der-cortina.md",
         "04-knowledge/units/places/treviso.md",
+        "04-knowledge/units/places/tribuna-uffizi.md",
         "04-knowledge/units/places/turin.md",
         "04-knowledge/units/places/tuscany.md",
         "04-knowledge/units/places/valmontone.md",
@@ -2501,6 +2536,7 @@
         "04-knowledge/units/works/marco-ricci-village-scene.md",
         "04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md",
         "04-knowledge/units/works/massimo-stanzione-jerome-bankes.md",
+        "04-knowledge/units/works/mazarin-gallery-vault-decoration.md",
         "04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md",
         "04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md",
         "04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md",
@@ -2769,12 +2805,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 313,
+      "total": 321,
       "coverage": {
-        "name_original": "0/313",
-        "language_original": "0/313",
-        "name_zh": "0/313",
-        "translation_status": "0/313"
+        "name_original": "0/321",
+        "language_original": "0/321",
+        "name_zh": "0/321",
+        "translation_status": "0/321"
       }
     },
     "families": {
@@ -2787,20 +2823,20 @@
       }
     },
     "institutions": {
-      "total": 99,
+      "total": 100,
       "coverage": {
-        "name_original": "0/99",
-        "name_original_language": "0/99",
-        "name_zh": "0/99",
-        "translation_status": "0/99"
+        "name_original": "0/100",
+        "name_original_language": "0/100",
+        "name_zh": "0/100",
+        "translation_status": "0/100"
       }
     },
     "works": {
-      "total": 200,
+      "total": 201,
       "coverage": {
-        "title_original": "0/200",
-        "title_original_language": "0/200",
-        "title_zh": "0/200"
+        "title_original": "0/201",
+        "title_original_language": "0/201",
+        "title_zh": "0/201"
       }
     },
     "archives": {
@@ -2822,9 +2858,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 709,
-    "indexed": 709,
-    "declared_total": 709,
+    "expected": 719,
+    "indexed": 719,
+    "declared_total": 719,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2899,22 +2935,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 832,
+    "total_units": 844,
     "source_count_distribution": {
-      "multi_source": 554,
-      "single_source": 278
+      "multi_source": 581,
+      "single_source": 263
     },
     "confidence_distribution": {
-      "missing": 832
+      "missing": 844
     },
     "consensus_distribution": {
-      "missing": 832
+      "missing": 844
     },
     "evidence_status_distribution": {
-      "source_backed": 832
+      "source_backed": 844
     },
     "isolated_units": {
-      "count": 486,
+      "count": 498,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2957,7 +2993,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 278,
+      "single_source_units": 263,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -2982,7 +3018,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 832,
+    "total_files": 844,
     "total_findings": 0
   }
 }

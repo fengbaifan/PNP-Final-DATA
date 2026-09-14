@@ -1,4 +1,4 @@
-# 当前有效成果：832 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：844 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -100,6 +100,7 @@ units:
 - 04-knowledge/units/institutions/galleria-borghese.md
 - 04-knowledge/units/institutions/galleria-doria-pamphilj.md
 - 04-knowledge/units/institutions/galleria-nazionale-arte-antica.md
+- 04-knowledge/units/institutions/galleria-palatina.md
 - 04-knowledge/units/institutions/galleria-spada.md
 - 04-knowledge/units/institutions/gallerie-ditalia.md
 - 04-knowledge/units/institutions/gemaeldegalerie-berlin.md
@@ -190,6 +191,7 @@ units:
 - 04-knowledge/units/persons/andrea-procaccini.md
 - 04-knowledge/units/persons/andrea-sacchi.md
 - 04-knowledge/units/persons/ann-sutherland-harris.md
+- 04-knowledge/units/persons/annibale-bentivoglio.md
 - 04-knowledge/units/persons/annibale-carracci.md
 - 04-knowledge/units/persons/annibale-laparelli.md
 - 04-knowledge/units/persons/anthony-blunt.md
@@ -262,6 +264,7 @@ units:
 - 04-knowledge/units/persons/fabrizio-valguarnera.md
 - 04-knowledge/units/persons/federigo-zuccari.md
 - 04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md
+- 04-knowledge/units/persons/ferdinando-ii-de-medici.md
 - 04-knowledge/units/persons/filippo-baldinucci.md
 - 04-knowledge/units/persons/filippo-lauri.md
 - 04-knowledge/units/persons/flaminio-corner.md
@@ -279,6 +282,8 @@ units:
 - 04-knowledge/units/persons/francesco-trevisani.md
 - 04-knowledge/units/persons/francis-haskell.md
 - 04-knowledge/units/persons/franco-venturi.md
+- 04-knowledge/units/persons/francois-chauveau.md
+- 04-knowledge/units/persons/francois-mansart.md
 - 04-knowledge/units/persons/frederick-iii.md
 - 04-knowledge/units/persons/fulvio-testi.md
 - 04-knowledge/units/persons/g-h-w-rylands.md
@@ -399,6 +404,7 @@ units:
 - 04-knowledge/units/persons/onorio-longhi.md
 - 04-knowledge/units/persons/orazio-gentileschi.md
 - 04-knowledge/units/persons/oscar-savio.md
+- 04-knowledge/units/persons/ottaviano-ottoviani.md
 - 04-knowledge/units/persons/ottavio-costa.md
 - 04-knowledge/units/persons/ottavio-leoni.md
 - 04-knowledge/units/persons/owen-mcswiny.md
@@ -407,6 +413,7 @@ units:
 - 04-knowledge/units/persons/paolo-de-matteis.md
 - 04-knowledge/units/persons/paolo-giordano-orsini.md
 - 04-knowledge/units/persons/paolo-girolamo-piola.md
+- 04-knowledge/units/persons/paolo-gismondi.md
 - 04-knowledge/units/persons/paolo-guidotti.md
 - 04-knowledge/units/persons/paolo-negri.md
 - 04-knowledge/units/persons/pascoli.md
@@ -420,8 +427,10 @@ units:
 - 04-knowledge/units/persons/piazzetta.md
 - 04-knowledge/units/persons/pier-francesco-mola.md
 - 04-knowledge/units/persons/pier-leone-ghezzi.md
+- 04-knowledge/units/persons/pierre-mignard.md
 - 04-knowledge/units/persons/pierre-motteux.md
 - 04-knowledge/units/persons/pierre-rosenberg.md
+- 04-knowledge/units/persons/pierre-van-schuppen.md
 - 04-knowledge/units/persons/pieter-van-laer.md
 - 04-knowledge/units/persons/pietro-antonio-novelli.md
 - 04-knowledge/units/persons/pietro-da-cortona.md
@@ -500,6 +509,7 @@ units:
 - 04-knowledge/units/places/england.md
 - 04-knowledge/units/places/europe.md
 - 04-knowledge/units/places/florence.md
+- 04-knowledge/units/places/galerie-mazarin.md
 - 04-knowledge/units/places/gallery-palazzo-buonaccorsi.md
 - 04-knowledge/units/places/genoa.md
 - 04-knowledge/units/places/gesu-rome.md
@@ -580,6 +590,7 @@ units:
 - 04-knowledge/units/places/temple-newsam.md
 - 04-knowledge/units/places/theater-auf-der-cortina.md
 - 04-knowledge/units/places/treviso.md
+- 04-knowledge/units/places/tribuna-uffizi.md
 - 04-knowledge/units/places/turin.md
 - 04-knowledge/units/places/tuscany.md
 - 04-knowledge/units/places/valmontone.md
@@ -770,6 +781,7 @@ units:
 - 04-knowledge/units/works/marco-ricci-village-scene.md
 - 04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md
 - 04-knowledge/units/works/massimo-stanzione-jerome-bankes.md
+- 04-knowledge/units/works/mazarin-gallery-vault-decoration.md
 - 04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md
 - 04-knowledge/units/works/michelangelo-cerquozzi-the-revolt-of-masaniello.md
 - 04-knowledge/units/works/michelangelo-cerquozzi-women-s-bath.md
