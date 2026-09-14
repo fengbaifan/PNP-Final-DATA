@@ -1,12 +1,13 @@
 ---
-title: "伦敦（London）"
-name_en: "London"
+title: 伦敦（London）
+name_en: London
 type: place
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
 sources:
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L467–468
   sentence_summary: Sacchi 祭坛稿在 1961 年经过 Colnaghi’s 画廊的所在地，属于来源中的流传信息。
   evidence_ref:
@@ -14,22 +15,23 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 467–468; print pp. 12
   original_quotes:
-  - source_span: "lines 467–468"
-    text: |2-
-      are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
-      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.
-- citation: "Wikipedia (en), London, revision 1372851516. https://en.wikipedia.org/wiki/London. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "London 城市；不取 City of London 单独行政区的身份。"
-- citation: "Wikidata, Q84, revision 2539604940. https://www.wikidata.org/wiki/Q84. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "London 城市；不取 City of London 单独行政区的身份。"
-- citation: "Wikipedia (en), London, revision 1372851516. https://en.wikipedia.org/wiki/London Accessed 2026-09-11."
-  location: "全文59931字符；章节：Etymology、History、Prehistory、Roman London、Anglo-Saxon and Viking-period London、Middle Ages、Early modern、Late modern and contemporary、Administration、Local government and services、National government、Geography"
-  sentence_summary: "完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。"
-- citation: "Wikidata, Q84, revision 2539604940. https://www.wikidata.org/wiki/Q84. Accessed 2026-09-11."
-  location: "实体完整抓取；含rank、qualifiers、references及enwiki sitelink"
-  sentence_summary: "与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。"
+  - source_span: lines 467–468
+    text: 'are also recorded. One of these, for an altarpiece in the Capuchin church in Rome, recently passed through
+
+      a London gallery (Colnaghi’s, May-June 1961, No. 2) and is now in the collection of Mr Denis Mahon.'
+- citation: Wikipedia (en), London, revision 1372851516. https://en.wikipedia.org/wiki/London. Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: London 城市；不取 City of London 单独行政区的身份。
+- citation: Wikidata, Q84, revision 2539604940. https://www.wikidata.org/wiki/Q84. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: London 城市；不取 City of London 单独行政区的身份。
+- citation: Wikipedia (en), London, revision 1372851516. https://en.wikipedia.org/wiki/London Accessed 2026-09-11.
+  location: 全文59931字符；章节：Etymology、History、Prehistory、Roman London、Anglo-Saxon and Viking-period London、Middle Ages、Early
+    modern、Late modern and contemporary、Administration、Local government and services、National government、Geography
+  sentence_summary: 完成身份复核与全文语义阅读；只把与本卡类型和第一章语境相关的内容写入结构字段。
+- citation: Wikidata, Q84, revision 2539604940. https://www.wikidata.org/wiki/Q84. Accessed 2026-09-11.
+  location: 实体完整抓取；含rank、qualifiers、references及enwiki sitelink
+  sentence_summary: 与Wikipedia双向身份一致；结构字段保留参考状态，未机械接收全部声明。
 - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
     printing 2006).
   location: 章前：书名与版权页；未编号；PDF 1–2；OCR L9–12
@@ -114,7 +116,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：出版地；范围：出版地点，不表示现藏实体册位置；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| ← 所在地（`location_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：校方书目所载出版地；范围：校方作者书目记London；与CiNii英国版记录的Oxford并列，题名页尚未核，不推定两个印次或实体册位置；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
 | ← 所在地（`location_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 时间：1941；角色：出版地；范围：版本出版地点，不是现存印本保管地；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页出版项；PDF第7页 |
 | ← 所在地（`location_of`，反向投影） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 书中所记 1961 年画商目录所在地；原断言与证据见发出端卡片“科尔纳吉画廊（Colnaghi's）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
 | ← 所在地（`location_of`，反向投影） | [马尔伯勒美术公司（Marlborough Fine Art Ltd）](../institutions/marlborough-fine-art-ltd.md) | 时间：1946；角色：初始营业城市；范围：画廊初创时期所在城市，17–18 Old Bond Street；原断言与证据见发出端卡片“马尔伯勒美术公司（Marlborough Fine Art Ltd）”：[来源](https://marlborougharchive.com/history-marlborough-gallery)；institutions-marlborough-fine-art-ltd；1946年创办两段 |

@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：联合目录所载出版地；范围：CiNii所列英国版出版地；保留校方书目的London异文，未以目录替代题名页核对；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://ci.nii.ac.jp/ncid/BA09957781)；archives-harris-andrea-sacchi-1977；BA09957781：出版地Oxford；Phaidon 1977；ISBN0714815276 |
 
 ### 关系候选入口
 

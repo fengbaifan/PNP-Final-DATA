@@ -1,12 +1,13 @@
 ---
-title: "威尼斯（Venice）"
-name_en: "Venice"
+title: 威尼斯（Venice）
+name_en: Venice
 type: place
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
 sources:
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L46–47
   sentence_summary: 《L’Hoggidi》1627 年首刊地，之后多次重印。
   evidence_ref:
@@ -14,11 +15,12 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 46–47; print pp. 3
   original_quotes:
-  - source_span: "lines 46–47"
-    text: |2-
-      under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
-      reprinted.
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
+  - source_span: lines 46–47
+    text: 'under the Barberini—see the Abate Lancellotti’s L’Hoggidi first published in Venice in 1627 and often
+
+      reprinted.'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L169–170,186–187
   sentence_summary: 学习色彩及 Bonati、Gimignani 旅行目的地。
   evidence_ref:
@@ -26,15 +28,16 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 169–170,186–187; print pp. 6
   original_quotes:
-  - source_span: "lines 169–170"
-    text: |2-
-      duced.2 If it was thought that his painting would benefit from a visit to Parma to see
-      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the
-  - source_span: "lines 186–187"
-    text: |2-
-      3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
-      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
+  - source_span: lines 169–170
+    text: 'duced.2 If it was thought that his painting would benefit from a visit to Parma to see
+
+      Correggio’s frescoes or to Venice to improve his colour, his patron would pay the'
+  - source_span: lines 186–187
+    text: '3 Pascoli, II, p. 211—Cardinal Pio sent his protégé Giovanni Bonari to Florence, Bologna, Modena,
+
+      Parma, Milan and Venice; ibid., II, p. 302—Cardinal Rospigliosi sent Lodovico Gimignani to Venice.'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L220–221
   sentence_summary: Trevisani 与 Ottoboni 的同乡身份。
   evidence_ref:
@@ -42,11 +45,12 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 220–221; print pp. 7
   original_quotes:
-  - source_span: "lines 220–221"
-    text: |2-
-      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
-      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
+  - source_span: lines 220–221
+    text: 'in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+
+      rooms for his Venetian fellow-citizen Francesco Trevisani.6 But good manners—a'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 10.'
   location: 第一章；印刷页 10；OCR L341–342
   sentence_summary: 绘画题材与收藏的历史比较语境。
   evidence_ref:
@@ -54,11 +58,12 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 341–342; print pp. 10
   original_quotes:
-  - source_span: "lines 341–342"
-    text: |2-
-      and more the movable gallery picture was coming into its own—a largely Venetian
-      innovation of over a century earlier which had made a decisive impact on Roman
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
+  - source_span: lines 341–342
+    text: 'and more the movable gallery picture was coming into its own—a largely Venetian
+
+      innovation of over a century earlier which had made a decisive impact on Roman'
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University
+    Press, 1980; this printing 2006), ch. 1, pp. 21.'
   location: 第一章；印刷页 21；OCR L872–874
   sentence_summary: 家庭绘画职业与 Rome 的比较；这些出处均不单独陈述共和国政治行为。
   evidence_ref:
@@ -66,26 +71,28 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 872–874; print pp. 21
   original_quotes:
-  - source_span: "lines 872–874"
-    text: |2-
-      especially marked is the contrast between Rome and Venice where the social position
+  - source_span: lines 872–874
+    text: 'especially marked is the contrast between Rome and Venice where the social position
+
       of the artist was always considered low and where families of painters went on working,
-      often as teams, until the end of the eighteenth century.
-- citation: "Wikipedia (en), Venice, revision 1373940918. https://en.wikipedia.org/wiki/Venice. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "Venice／Venezia 城市；明确不以此 QID 指代威尼斯共和国。"
-- citation: "Wikidata, Q641, revision 2540996855. https://www.wikidata.org/wiki/Q641. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "Venice／Venezia 城市；明确不以此 QID 指代威尼斯共和国。"
-- citation: "Wikipedia (en), Venice, revision 1374132011. https://en.wikipedia.org/wiki/Venice. Accessed 2026-09-10."
-  location: "全文语义阅读：导言、信息框、历史、地理、行政、经济、交通、文化、图注、注释与参考文献；不等于阅读全文所引文献"
-  sentence_summary: "城市名称、泻湖位置、历史城区与现代市域、六区及历史沿革；逐项限定本章所需范围。"
-- citation: "Wikidata, Q641, revision 2540996855. https://www.wikidata.org/wiki/Q641. Accessed 2026-09-10."
-  location: "身份字段、enwiki sitelink、P625、P571、P1667；检查 rank、精度、历法与引用数"
-  sentence_summary: "保留城市 QID 和坐标；P571 的传说建城日不作确定史实；Getty 标识仅记录为待访问入口。"
-- citation: "UNESCO World Heritage Centre, Venice and its Lagoon, dossier 394. https://whc.unesco.org/en/list/394/. Accessed 2026-09-10."
-  location: "Brief synthesis、Integrity、Authenticity 与遗产登记元数据；未读申报档案"
-  sentence_summary: "泻湖城市的渐进形成、历史城市空间及 1987 年遗产登记；遗产范围不等于市区面积。"
+
+      often as teams, until the end of the eighteenth century.'
+- citation: Wikipedia (en), Venice, revision 1373940918. https://en.wikipedia.org/wiki/Venice. Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: Venice／Venezia 城市；明确不以此 QID 指代威尼斯共和国。
+- citation: Wikidata, Q641, revision 2540996855. https://www.wikidata.org/wiki/Q641. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: Venice／Venezia 城市；明确不以此 QID 指代威尼斯共和国。
+- citation: Wikipedia (en), Venice, revision 1374132011. https://en.wikipedia.org/wiki/Venice. Accessed 2026-09-10.
+  location: 全文语义阅读：导言、信息框、历史、地理、行政、经济、交通、文化、图注、注释与参考文献；不等于阅读全文所引文献
+  sentence_summary: 城市名称、泻湖位置、历史城区与现代市域、六区及历史沿革；逐项限定本章所需范围。
+- citation: Wikidata, Q641, revision 2540996855. https://www.wikidata.org/wiki/Q641. Accessed 2026-09-10.
+  location: 身份字段、enwiki sitelink、P625、P571、P1667；检查 rank、精度、历法与引用数
+  sentence_summary: 保留城市 QID 和坐标；P571 的传说建城日不作确定史实；Getty 标识仅记录为待访问入口。
+- citation: UNESCO World Heritage Centre, Venice and its Lagoon, dossier 394. https://whc.unesco.org/en/list/394/.
+    Accessed 2026-09-10.
+  location: Brief synthesis、Integrity、Authenticity 与遗产登记元数据；未读申报档案
+  sentence_summary: 泻湖城市的渐进形成、历史城市空间及 1987 年遗产登记；遗产范围不等于市区面积。
 - citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
     printing 2006).
   location: 章前：第一版序言；印刷页vii（推定）；PDF 5；OCR L5–5
@@ -314,7 +321,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：出版地；范围：出版地点，不表示现藏实体册位置；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| ← 所在地（`location_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：馆藏目录所载出版地；范围：Oechslin复印馆藏的书目记Venezia；Cini出版项另含Firenze，未核题名页，不据此确定印刷地或实体册位置；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
 | ← 所在地（`location_of`，反向投影） | [科雷尔图书馆（Correr Library）](../institutions/correr-library.md) | 范围：第一版序言所述研究场所所在地；原断言与证据见发出端卡片“科雷尔图书馆（Correr Library）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–23; 章前：第一版序言；印刷页ix；PDF 7 |
 | ← 所在地（`location_of`，反向投影） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 范围：图版48b–48d所列科雷尔博物馆城市；原断言与证据见发出端卡片“科雷尔博物馆（Museo Correr）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
 | ← 所在地（`location_of`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](../persons/amadeo-swajer.md) | 时间：1727-12-12出生；1791-12-28去世；角色：出生／去世；范围：出生与去世地点均为威尼斯；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.51末段及p.57首段；PDF第1、7页 |

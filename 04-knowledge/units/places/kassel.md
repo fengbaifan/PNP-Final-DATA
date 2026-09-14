@@ -46,9 +46,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）](../institutions/kunstsammlungen-kassel.md) | 时间：1924–1992-03-31；角色：机构所在城市；范围：历史机构记录的所在地；不把它与现行联合机构作无时间的同一实体断言；原断言与证据见发出端卡片“卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）”：[来源](https://www.proveana.de/de/corporate-body/staatliche-kunstsammlungen-kassel)；institutions-kunstsammlungen-kassel；Grunddaten：Bestehen、Standort |
 | ← 所在地（`location_of`，反向投影） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 范围：馆藏说明中的博物馆所在地；原断言与证据见发出端卡片“威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）”：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；rkd-gerson-italy；图21；GK 554 |
 
 ### 关系候选入口

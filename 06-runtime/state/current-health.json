@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T02:22:13",
+  "timestamp": "2026-09-15T02:53:06",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -1963,9 +1963,9 @@
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
     "sources_without_evidence_ref": 223,
-    "evidence_ref_resolvable": 1053,
+    "evidence_ref_resolvable": 1057,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1053,
+    "evidence_refs_total": 1057,
     "units_with_traceable_source": 912
   },
   "claim_traceability": {
@@ -1979,8 +1979,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 736,
-    "explicit_relations_with_evidence": 736
+    "explicit_relations": 746,
+    "explicit_relations_with_evidence": 746
   },
   "source_hash": {
     "total_sources": 0,
@@ -3076,14 +3076,14 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 737,
-    "explicit_relation_count": 736,
+    "relation_index_total": 747,
+    "explicit_relation_count": 746,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 736,
+    "weak_evidence_count": 746,
     "needs_evidence_count": 0,
-    "relation_type_coverage": "52/121"
+    "relation_type_coverage": "53/121"
   },
   "output_file_back": {
     "total_outputs": 3,
@@ -3145,8 +3145,8 @@
     "metric_kind": "unscored_semantic_maturity",
     "total_units": 912,
     "source_count_distribution": {
-      "multi_source": 713,
-      "single_source": 199
+      "multi_source": 719,
+      "single_source": 193
     },
     "confidence_distribution": {
       "missing": 912
@@ -3158,12 +3158,11 @@
       "source_backed": 912
     },
     "isolated_units": {
-      "count": 329,
+      "count": 326,
       "sample": [
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
         "archives/goldoni-opere-vol-2-1761.md",
-        "archives/us-copyright-law.md",
         "events/san-clemente-redecoration.md",
         "families/pisani-family.md",
         "families/rezzonico-family.md",
@@ -3184,7 +3183,8 @@
         "institutions/national-portrait-gallery.md",
         "institutions/national-trust.md",
         "institutions/north-carolina-museum-of-art.md",
-        "institutions/oratorians.md"
+        "institutions/oratorians.md",
+        "institutions/osvaldo-bohm-photographic-publisher.md"
       ]
     },
     "candidate_debt": {
@@ -3201,7 +3201,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 199,
+      "single_source_units": 193,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,

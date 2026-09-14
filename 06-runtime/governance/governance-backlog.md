@@ -1,7 +1,7 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-15 02:22
+> Snapshot: 2026-09-15 02:53
 > Structural health: 130/130
 > Knowledge units: 912
 > Maturity metrics: unscored_semantic_maturity
@@ -26,13 +26,13 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 199 | research_debt |
+| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 193 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 329 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 326 | candidate_opportunity |
 
 ## Completed mechanical signals
 

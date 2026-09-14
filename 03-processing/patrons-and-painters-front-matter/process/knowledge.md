@@ -2105,3 +2105,82 @@ Verrio按HRP实际页面中的姓名、年代及汉普顿宫楼梯绘画确认�
 39个计划文件已按差异写入，其中35张受影响知识元卡、5张新卡；预检核对78条原书摘录、281条本地链接及来源保留。35条新增关系的端点、类型、证据、时间、角色与范围逐项匹配737条关系索引；旧信件作者边只更新已记录的scope。全库912个有效KU、章前542个，类型为人物220、机构90、文献19、地点93、作品112、术语4、家族3、事件1。14步同步检查通过；没有代码改动，不重复全套测试。末次语义复核将收信人卡中的“接收”改为“信的署期”，避免将写信日期误说为实际收信日期；该句不改变正式边。未刷新页面，未提交推送。上述为本批语义自查与机械核对，不是独立验收或整体完成。
 
 扫描证据指纹（下载文件的SHA-256，页码对应见上述来源阅读范围）：Pastor PDF为`3439aace1ab7be1a2d93cc66ac992749fea5e52be983f404266c6cc9c3679cbd`；Montaiglon灰度PDF为`89cf4fe2e42e8c1e8f72caa2765676e59c69a1fd9006539798106632e0e0fd3c`。引用使用已记录的稳定下载地址，临时阅读缓存不是新增来源版本。
+
+## 历史机构边界与评论书目核对
+
+2026-09-15继续REV-093，接续上一批机构与书目补足；不新增用户原话，不新建KU。
+
+### 实际来源与采用范围
+
+- [kassel](https://www.proveana.de/de/corporate-body/staatliche-kunstsammlungen-kassel)：首次读取Grunddaten、Tätigkeitsbereich及相关机构字段；未逐项读取全部交易关系，后续重开触发访问拒绝。记录名称Staatliche Kunstsammlungen Kassel，1924–31.03.1992，所在地Kassel；国家艺术收藏由共同管理和学术领导组织。
+- [venice](https://www.archiviodistatovenezia.it/images/file-pdf/Venezia_Guida_Generale.pdf)：直接阅读印刷p.1014扫描（PDF第158页），Periodo napoleonico／Democrazia开篇及Municipalità provvisoria条目；未读全卷。共和国于1797年5月12日经大议会决定将权力交给临时市政政府。
+- [honour](https://www.fondazione1563.it/pdf/La-Riscoperta-Del-Seicento.pdf)：题名／版权／目录页，以及印刷pp.142–143整页文字与扫描，重点p.143注16–17（PDF第78页）；未读本篇全部或Honour书评原件。注16将Honour对Patrons and Painters的书评定位Apollo 78 (1963), pp.521–522；与同年卷77青铜器论文区分。
+- [waterhouse](https://api.crossref.org/works/10.2307/4104347)：完整JSON message：title、author、container-title、volume、published-print、page、DOI和resource；未读论文全文。Ellis K. Waterhouse，Painting in Rome in the Eighteenth Century，Art Institute of Chicago Museum Studies卷6，1971；page字段为6。
+- [law-intro](https://www.copyright.gov/title17/)：完整版本介绍、目录及附录清单；所链各章并非全部阅读。本页为美国法典第17编法律汇编，所示版本纳入截至2025年12月18日的修订。
+- [law](https://www.copyright.gov/title17/92chap1.html)：完整阅读第107条及第108条(a)–(i)正文；未读第1章所有其他条文或全部历史修订注释。107条标题为Fair use；108条标题为Reproduction by libraries and archives，分别规定有条件的权利限制。
+- [sabines](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)：完整单件作品字段及所属展室说明；不含链接的其他作品详情。Pietro da Cortona作，1630，布面油画，280×426cm，来自Sacchetti收藏，馆藏号PC 137。
+
+
+### 身份、语境与关系判断
+
+Kassel：本书1963/1980版本所用Kunstsammlungen与Proveana历史机构记录在城市、时期及国家绘画收藏职责上吻合，落实为Staatliche Kunstsammlungen Kassel。Proveana基本资料明确1924–31.03.1992；后继Museumslandschaft Hessen Kassel与当今Hessen Kassel Heritage的更名／合并边界未在本卡擅作same_as或QID对应。首次读取到基本字段、活动及相关机构，重开permalink出现BotStopper拒绝；仅声明实际取得内容。搜索结果1047005-0属于Neue Galerie候选，未写成历史总机构GND。Q1954840聚合后继体系，未赋给本卡。官方当代机构介绍仅用于辨别范围，不把古代收藏起源年当1924机构成立年。原书机构与Museum Schloss Wilhelmshöhe的两条保管边仍分源，未制造转让。
+
+Venice：直接读取档案馆指南印刷p.1014，确认1797-05-12移交政府权力；第一版序言的downfall因此具有明确政治实体指称。共和国与城市保持两个KU；只补终止时点和政治类型，不预设建国年份、全部领土和政体沿革。临时市政政府只作为结束事件的解释背景，尚未形成需要正式端点的继承关系，故不扩增机构。
+
+Honour：2017年Michela di Macco文章p.143注16给出Apollo 78 (1963), pp.521–522，并明确区分卷77 pp.194–200的另一篇青铜器论文。本书另提供1963年12月，两项来源互补；书评的原刊标题仍未见，沿用描述性题名。只阅读本项需要的题名、版权、目录和pp.142–143，不称整篇研究或1963年评论全文已读。该研究在参考文献身份范围内采纳，不递归摄入其所引其他人物与著作。
+
+Waterhouse：Crossref精确DOI接口给出作者Ellis K.、同题、卷6、1971和DOI10.2307/4104347，完成所引论文的外部书目身份核对。page=6与原书pp.7–21的起始页不一致，分字段保留，待可读原刊消解。此前出版社公开PDF入口返回403，本轮未绕过访问限制，也未声称全文阅读；JSTOR是登记元数据的publisher值，未用它覆盖期刊的出版机构。
+
+U.S. Copyright Law：官方汇编Title17及107、108条名与版权页引用对应，记录外部汇编涵盖到2025-12-18修订，与本书2006印本的时间层分开。只核文献身份和所引条款，不以当前文本宣称已核2006年所有历史条文，不对本项目复制行为作自动合法性推断。book→cites→law仅表达版权页引用。
+
+PC137：馆方直接记录Cortona、1630、布面油画280×426厘米及Sacchetti来源，新增字段与历史收藏边。尺寸采用此单件记录，不混入聚合目录280.5等异文。此处的馆方Musei Capitolini与书中Pinacoteca层级不同，两条有明确来源的保管边不表示转移。
+
+### 图版10b版本待决
+
+针对已登记的图版10b，定向打开原书`02-sources/01-book/CHP-2.pdf`第43页图版10，不摄入第二章正文。图版实际可见黑白图及Pietro da Cortona署名，与章前图版目录一致。图中左侧有船艏、帆与举臂人物，中部横抱／扶持女性，右侧有人群和建筑；图像分辨率有限。
+
+[罗马市博物馆摄影库2500](https://foto.museiincomuneroma.it/details.php?gid=82&pid=2500)的完整对象描述列Giovanni Francesco Romanelli、1630–1632、105×149厘米、PC222、Sacchetti收藏及卡比托利欧绘画馆。它是同题、同城、同收藏背景的具体候选，不能仅因相似题名就判为原书图版。馆方watermark图片返回超时／504；Commons的Sailko现场照片记录可读，但图片请求403，未完成两图并排核对。Commons文件名、图片记录作者和搜索摘要不替代馆方归属判定。尚不能判断是同物改归属，还是不同作品；PC222字段未写入原书作品卡，也未新增Romanelli作者边。本书明确的历史保管机构和罗马位置可以定稿；原书署名字段保留其证据限定，不新增无条件Cortona创作边。办公室的现代机构接续仍待证；不由作品可能迁藏推导办公室与当前馆方的同一性。
+
+### 本批正式关系
+
+| 起点 | 类型 | 端点 | 角色、时间与依据 |
+|---|---|---|---|
+| institutions/kunstsammlungen-kassel.md | located_at | places/kassel.md | 机构所在城市；1924–1992-03-31；Grunddaten：Bestehen、Standort；历史机构记录的所在地；不把它与现行联合机构作无时间的同一实体断言 |
+| works/pietro-da-cortona-rape-of-the-sabines.md | owned_by | families/sacchetti-family.md | 历史收藏主体；；Provenienza：Collezione Sacchetti；Inv. PC 137；馆方来源字段Collezione Sacchetti所记历史收藏；不指定家族某一成员、不推定委托或转移年份 |
+| works/pietro-da-cortona-rape-of-the-sabines.md | held_by | institutions/capitoline-museums.md | 馆方目录归属；页面访问2026-09-15；Ratto delle Sabine单件记录；Inv. PC 137；馆方正式目录登记PC 137；与原书绘画馆保管边是不同机构层级，不表示一次转让 |
+| institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md | located_at | places/rome.md | 书中机构所在地；本书所述时点；lines 52–53; 章前：图版目录；印刷页xii；原书图版目录括注的办公室所在城市；现代机构接续尚未确定 |
+| works/pietro-da-cortona-rape-of-helen.md | held_by | institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md | 书中保管者；本书所述时点；lines 52–53; 章前：图版目录；印刷页xii；原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权 |
+| works/pietro-da-cortona-rape-of-helen.md | located_at | places/rome.md | 书中位置；本书所述时点；lines 52–53; 章前：图版目录；印刷页xii；原书图版目录明确位置；不表示创作地点 |
+| archives/patrons-and-painters.md | cites | archives/us-copyright-law.md | 版权声明引用；；lines 18–18; 章前：书名与版权页；未编号；PDF 1–2；版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断 |
+| archives/patrons-and-painters.md | cites | archives/honour-patrons-painters-review-1963.md | 第二版导言所引书评；；lines 176–187; 第二版导言正文与脚注1；印刷xvii；第二版导言脚注与正文相连，所引为Hugh Honour书评；不把转引当书评全文阅读 |
+| archives/patrons-and-painters.md | cites | archives/waterhouse-rome-painting-1971.md | 第二版导言所引论文；；lines 178–187; 章前：第二版导言；印刷页xvii；第二版导言所述Waterhouse意见和1971脚注相连；不等于接受其全部论点 |
+
+
+本轮初步身份补足5项（Kassel、共和国、两篇评论／论文、美国版权法），PC137补足单件字段；办公室与图版10b的现代对应仍未完成。9项主候选及其他具体缺口保留。下一步继续处理其余人物、地点与作品字段，以及已采纳事实的必要关系端点；不以这5项或索引通过宣称整体完成。不启动知识发现、页面或人工校验，不自动提交推送。
+
+### 写入与验证
+
+16个计划文件已精确写入，涉及13张卡；59条原书摘录、177条本地链接及既有来源和关系保留通过预检。9条新增边的全部字段逐项匹配746条关系索引；有效登记912个，章前542个，类型数量不变。14步同步检查通过，未运行页面刷新或重复全套代码测试。这是语义自查及机械核对，整体对齐、补足和关系定稿仍未完成。
+
+继续核图时，Araldo de Luca的3008图像记录返回403；Chrome连接返回fetch失败，未形成可读浏览器页面。另读到[Google Art Project转存的Commons记录](https://commons.wikimedia.org/wiki/File:Giovanni_Francesco_Romanelli_-_The_Elena_kidnapping_-_Google_Art_Project.jpg)，其PC222、尺寸和作者字段与市政摄影目录对应，但原图仍未成功读取；搜索工具的图像文字摘要不作为视觉核对。因此未改变图版10b待决判断，未将Commons候选Q28796133赋给本书作品。
+
+## 专著版本与出版地异文核对
+
+2026-09-15接续REV-093。读取现有两张专著卡后，核查已有作者／研究对象／出版者／出版地关系所据版本；不依据来源数量判断补足完成度。
+
+### 来源与决定
+
+- [CiNii BA09957781](https://ci.nii.ac.jp/ncid/BA09957781)：完整英国版书目、注记和馆藏字段；Phaidon 1977，ISBN0714815276，Oxford，264页另3叶图版。补齐全题名、版本检索字段和索引／书目位置。校方履历的London保留为该来源表述，不能继续在描述中当唯一无争议出版地。
+- [CiNii BA25264163](https://ci.nii.ac.jp/ncid/BA25264163)：完整美国版书目、注记和馆藏字段；Princeton University Press，ISBN0691031177。仅用于排除英美版混配，不把美版ISBN、出版者及另66页图版移入英国版卡，不新增美国版KU或出版者端点。该记录列基于1965年伦敦大学论文，未据此给英国版新建学位论文关系。
+- [Google Books aVKYMwEACAAJ](https://books.google.com/books/about/Andrea_Sacchi.html?id=aVKYMwEACAAJ)：完整书目概要，与英国版ISBN、年份、264页一致。仅作版本交叉核对；自动显示的Contents片段顺序不足以重建全书结构，不当作全文或完整目录阅读。美国国会图书馆LCCN78312925跳转读取失败，不声明核过该记录。
+- [Cini官方出版条目](https://www.cini.it/cini_publications/una-figura-della-venezia-settecentesca-andrea-memmo-it/)：完整题名、署名、出版项和七章目录。补入七章内容概要，不将目录所提人名和活动递归采为人物生平或正式关系。出版项含Venezia-Roma, Firenze，与Oechslin所列Venezia存在不同粒度；尚未核原件，保留异文而不强定印刷地。网页a cura di是责任显示方式，未仅凭模板改原目录作者身份为编者；目录年份不细化成未经原件支持的发行月份。
+
+### 关系处置与剩余责任
+
+《安德烈亚·萨基》增加一条以CiNii英国版记录为证据的出版地→牛津关系；旧出版地→伦敦边改成“校方书目所载出版地”，保留来源与冲突限定。《安德烈亚·梅莫》的旧出版地→威尼斯边同样限定为馆藏目录所载。两种来源记载可并列，不伪称消解了题名页异文，也不将两个城市推断成先后版次；反向展示随之更新。其他既有作者、研究对象与出版者边未改。
+
+两书正文均未读，本批只完成书目字段和版本边界补足；未新增文献、人物或机构。需要原件题名页解决具体出版项，现有目录已经支持的作者、题名、年份和研究对象保持可用。章前整体初步对齐、全面内容补足和关系定稿仍未完成，9项主候选继续待证。暂不进行知识发现、页面或人工校验，不自动提交推送。
+
+### 写入与验证
+
+8个计划文件精确写入，涉及5张卡，核对21条原书摘录、78条本地链接和旧来源保留。新增1条关系及2条旧边的4个修订字段逐项匹配关系索引；连同前批9条新增关系，共10条均核对端点、方向、角色、时间、范围和来源。索引747条，有效KU仍912个、章前542个；14步同步检查通过，未修改代码或刷新页面。此为语义自查及机械核对，不能替代全文阅读或宣称整体完成；未提交推送。

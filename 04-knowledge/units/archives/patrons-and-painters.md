@@ -493,7 +493,93 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_03_Preface_1st_Ed.md
     source_span: lines 25–25; 章前：第一版序言；印刷页ix；PDF 7
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#机构沿革出版责任与研究支持定稿
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xvii；OCR L176–177
+  sentence_summary: 在评论中提出哈斯克尔对新古典主义的偏好问题；脚注定位Apollo，1963年12月。
+  original_quotes:
+  - source_span: lines 176–177
+    text: 'The most serious objection made to this book concerns its treatment (or rather lack of treatment) of
+      eighteenth-century Rome. My original preface shows that I was aware of this potential weakness from the first,
+      and in a generous review Hugh Honour pointed out that I preserved ‘a charmingly old-fashioned distaste for
+      Neo-classicism’.1
+
+      Since then I have overcome this distaste and I would now certainly modify the tone of my few comments on the
+      art of the second half of the eighteenth century. More to the point, however, is the issue of whether my ‘anti-Roman’
+      prejudices falsified my historical sense. Ellis Waterhouse has suggested that they did.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 176–177; 章前：第二版导言；印刷页xvii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：书名与版权页；未编号；PDF 1–2；OCR L18–18
+  sentence_summary: 本印本复制限制声明援引第107及108条。
+  original_quotes:
+  - source_span: lines 18–18
+    text: All rights reserved. This book may not be reproduced, in whole or in part, in any form (beyond that copying
+      permitted by Sections 107 and 108 of the U.S. Copyright Law and except by reviewers for the public press),
+      without written permission from the publishers.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 18–18; 章前：书名与版权页；未编号；PDF 1–2
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xvii；OCR L187–187
+  sentence_summary: 该书评刊于Apollo，1963年12月。
+  original_quotes:
+  - source_span: lines 187–187
+    text: 1 Apollo, December 1963. 2 Waterhouse, 1971.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 187–187; 章前：第二版导言；印刷页xvii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
+  location: 章前：第二版导言；印刷页xvii；OCR L178–187
+  sentence_summary: 导言转引Waterhouse 1971关于十八世纪罗马绘画及本书的批评。
+  original_quotes:
+  - source_span: lines 178–187
+    text: 'In an article, whose central theme was to refute Rudolf Wittkower’s claim that
+
+      ‘the history of Italian eighteenth-century painting is, above all, the history of Venetian painting’. Waterhouse
+      commented that my ‘splendid book has a fundamental defect in the author’s desire to bring the great period
+      of Roman patronage to an end about
+
+      1700, in order to support the view that this was taken over by other parts of Italy, in particular Venice’.
+      Waterhouse emphasised that ‘a number of the ablest painters in
+
+      Italy, Conca, Giaquinto and Batoni for instance, moved to Rome from Naples or
+
+      Tuscany; and the argument used by Francis Haskell to support the thesis of a decline of Rome in the eighteenth
+      century from the fact that such minor personalities as P. G.
+
+      Piola, Viani, or Lazzarini, refused to settle in Rome, though strongly pressed, is more likely to be explained
+      by the fact that they feared competition. In the seventeenth century, Guido and Guercino, for instance, had
+      refused to stay in Rome, at a time when this argument would have been absurd.’2
+
+      This criticism must certainly carry much weight, and I have thought about it carefully. In the end, however,
+      I find it unpersuasive. The list of distinguished Italian artists who (unlike Guido and Guercino much earlier)
+      either failed to paint anything of consequence for the principal churches and palaces of Rome or did not even
+      visit the city as other than tourists is a formidable one—it includes Crespi and Solimena, to name only two
+      who are surely superior to Conca who arrived in 1707 and did not receive his first public commission for seven
+      years. Giaquinto and Batoni came only a generation later by which time the situation had begun to change—but
+      by which time also Tiepolo was embarking on some of his most splendid works in the Veneto.
+
+      ‘Innocent XI (1676-1689) went to great efforts to keep money from the arts and he succeeded as no post-renaissance
+      pope ever had’, it has recently been claimed,3 and though the situation improved after his death it remained
+      bleak. Clement XI (17001721) ‘kept himself free from all nepotism’, which may be a relief for a modern historian
+      of the papacy4 but cannot have been very encouraging for painters looking for employment, and it is surely
+      clear beyond doubt that the attractions of Rome as a centre of
+
+
+      1 Apollo, December 1963. 2 Waterhouse, 1971.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 178–187; 章前：第二版导言；印刷页xvii
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#历史机构边界与评论书目核对
 relations:
 - relation_type: authored_by
   target: persons/francis-haskell.md
@@ -750,6 +836,39 @@ relations:
   bidirectional_required: false
   scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
   role: 各写作阶段文字帮助及严格意见
+- relation_type: cites
+  target: archives/us-copyright-law.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 18–18; 章前：书名与版权页；未编号；PDF 1–2
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断
+  role: 版权声明引用
+- relation_type: cites
+  target: archives/honour-patrons-painters-review-1963.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 176–187; 第二版导言正文与脚注1；印刷xvii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第二版导言脚注与正文相连，所引为Hugh Honour书评；不把转引当书评全文阅读
+  role: 第二版导言所引书评
+- relation_type: cites
+  target: archives/waterhouse-rome-painting-1971.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 178–187; 章前：第二版导言；印刷页xvii
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 第二版导言所述Waterhouse意见和1971脚注相连；不等于接受其全部论点
+  role: 第二版导言所引论文
 ---
 
 
@@ -823,7 +942,6 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）](honour-patrons-painters-review-1963.md) | 角色：所评著作；范围：书评所评著作；评价经Haskell转述；原断言与证据见发出端卡片“休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–177; 章前：第二版导言；印刷页xvii |
 | → 作者（`authored_by`） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 角色：作者；范围：本书作者；修订扩充版书名页；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
 | → published_by（`published_by`） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1980版；角色：出版者；范围：1980年修订扩充版；本件印刷年2006另记；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
 | → 由其收藏／拥有（`owned_by`） | [耶鲁大学（Yale University）](../institutions/yale-university.md) | 时间：1980版权标注；角色：1980年版权标注权利人；范围：仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 16–16; 未编号版权页；PDF2 |
@@ -847,6 +965,9 @@ relations:
 | → 由其贡献（`contributed_by`） | [丹尼斯·马洪（Denis Mahon）](../persons/denis-mahon.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
 | → 由其贡献（`contributed_by`） | [彼得·约翰·安布罗斯·卡尔沃科雷西（Peter John Ambrose Calvocoressi）](../persons/peter-calvocoressi.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
 | → 由其贡献（`contributed_by`） | [莱昂内尔·本尼迪克特·尼科尔森（Lionel Benedict Nicolson）](../persons/benedict-nicolson.md) | 角色：各写作阶段文字帮助及严格意见；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 25–25; 章前：第一版序言；印刷页ix；PDF 7 |
+| → cites（`cites`） | [美国版权法（U.S. Copyright Law）](us-copyright-law.md) | 角色：版权声明引用；范围：版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断；证据：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 18–18; 章前：书名与版权页；未编号；PDF 1–2 |
+| → cites（`cites`） | [休·昂纳1963年评论赞助人与画家的书评（Hugh Honour's 1963 review of Patrons and Painters）](honour-patrons-painters-review-1963.md) | 角色：第二版导言所引书评；范围：第二版导言脚注与正文相连，所引为Hugh Honour书评；不把转引当书评全文阅读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–187; 第二版导言正文与脚注1；印刷xvii |
+| → cites（`cites`） | [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](waterhouse-rome-painting-1971.md) | 角色：第二版导言所引论文；范围：第二版导言所述Waterhouse意见和1971脚注相连；不等于接受其全部论点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 178–187; 章前：第二版导言；印刷页xvii |
 
 ### 身份与外部链接
 

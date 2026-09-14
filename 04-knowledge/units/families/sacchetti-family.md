@@ -42,10 +42,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Treccani委托说明](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)（S1，家族集体委托，不指定单一成员付款）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [以扫与雅各相会（Meeting of Esau and Jacob）](../works/gio-maria-bottalla-meeting-of-esau-and-jacob.md) | 角色：家族集体委托；范围：人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分；原断言与证据见发出端卡片“以扫与雅各相会（Meeting of Esau and Jacob）”：[来源](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)；works-gio-maria-bottalla-meeting-of-esau-and-jacob；Bottalla传记：Incontro di Esaù con Giacobbe、galleria Sacchetti段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [劫夺萨宾妇女（Rape of the Sabines）](../works/pietro-da-cortona-rape-of-the-sabines.md) | 角色：历史收藏主体；范围：馆方来源字段Collezione Sacchetti所记历史收藏；不指定家族某一成员、不推定委托或转移年份；原断言与证据见发出端卡片“劫夺萨宾妇女（Rape of the Sabines）”：[来源](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)；works-pietro-da-cortona-rape-of-the-sabines；Provenienza：Collezione Sacchetti；Inv. PC 137 |
 
 ### 关系候选入口
 

@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 737
-# sources: {'explicit': 736, 'inferred_by_rule': 1}
+# total: 747
+# sources: {'explicit': 746, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -3939,6 +3939,26 @@
   time: '1941'
   role: 出版活动地
   scope: 题名页所示该出版商的出版活动地点
+- source: institutions/kunstsammlungen-kassel.md
+  source_type: institution
+  target: places/kassel.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: institutions-kunstsammlungen-kassel
+    source_file: https://www.proveana.de/de/corporate-body/staatliche-kunstsammlungen-kassel
+    source_span: Grunddaten：Bestehen、Standort
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1924–1992-03-31
+  role: 机构所在城市
+  scope: 历史机构记录的所在地；不把它与现行联合机构作无时间的同一实体断言
 - source: institutions/marlborough-fine-art-ltd.md
   source_type: institution
   target: places/london.md
@@ -4245,6 +4265,26 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   scope: 原书Turners of Cambridge署名粒度；不据此确认法律实体
+- source: institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md
+  source_type: institution
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 52–53; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中机构所在地
+  scope: 原书图版目录括注的办公室所在城市；现代机构接续尚未确定
 - source: institutions/university-library-cambridge.md
   source_type: institution
   target: institutions/university-of-cambridge.md
@@ -10613,6 +10653,46 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者
+- source: works/pietro-da-cortona-rape-of-helen.md
+  source_type: work
+  target: institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 52–53; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权
+- source: works/pietro-da-cortona-rape-of-helen.md
+  source_type: work
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 52–53; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中位置
+  scope: 原书图版目录明确位置；不表示创作地点
 - source: works/pietro-da-cortona-rape-of-the-sabines.md
   source_type: work
   target: persons/pietro-da-cortona.md
@@ -10672,6 +10752,45 @@
   time: 本书所述时点
   role: 书中位置
   scope: 书中明确的保管城市，不是作品创作地
+- source: works/pietro-da-cortona-rape-of-the-sabines.md
+  source_type: work
+  target: families/sacchetti-family.md
+  target_type: family
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-pietro-da-cortona-rape-of-the-sabines
+    source_file: https://www.museicapitolini.org/it/opera/ratto-delle-sabine
+    source_span: Provenienza：Collezione Sacchetti；Inv. PC 137
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史收藏主体
+  scope: 馆方来源字段Collezione Sacchetti所记历史收藏；不指定家族某一成员、不推定委托或转移年份
+- source: works/pietro-da-cortona-rape-of-the-sabines.md
+  source_type: work
+  target: institutions/capitoline-museums.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: works-pietro-da-cortona-rape-of-the-sabines
+    source_file: https://www.museicapitolini.org/it/opera/ratto-delle-sabine
+    source_span: Ratto delle Sabine单件记录；Inv. PC 137
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 页面访问2026-09-15
+  role: 馆方目录归属
+  scope: 馆方正式目录登记PC 137；与原书绘画馆保管边是不同机构层级，不表示一次转让
 - source: works/pietro-testa-joseph-sold-by-his-brothers.md
   source_type: work
   target: persons/pietro-testa.md
@@ -12183,8 +12302,28 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   time: '1977'
-  role: 出版地
-  scope: 出版地点，不表示现藏实体册位置
+  role: 校方书目所载出版地
+  scope: 校方作者书目记London；与CiNii英国版记录的Oxford并列，题名页尚未核，不推定两个印次或实体册位置
+- source: archives/harris-andrea-sacchi-1977.md
+  source_type: archive
+  target: places/oxford.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-harris-andrea-sacchi-1977
+    source_file: https://ci.nii.ac.jp/ncid/BA09957781
+    source_span: BA09957781：出版地Oxford；Phaidon 1977；ISBN0714815276
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1977'
+  role: 联合目录所载出版地
+  scope: CiNii所列英国版出版地；保留校方书目的London异文，未以目录替代题名页核对
 - source: archives/honour-patrons-painters-review-1963.md
   source_type: archive
   target: persons/hugh-honour.md
@@ -13168,6 +13307,63 @@
   review_status: evidence_backed_relation
   role: 各写作阶段文字帮助及严格意见
   scope: 第一版序言对具体文字工作的致谢；不指后续所有版本
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: archives/us-copyright-law.md
+  target_type: archive
+  relation_type: cites
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_01_Title_Copyright.md
+    source_span: lines 18–18; 章前：书名与版权页；未编号；PDF 1–2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 版权声明引用
+  scope: 版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: archives/honour-patrons-painters-review-1963.md
+  target_type: archive
+  relation_type: cites
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 176–187; 第二版导言正文与脚注1；印刷xvii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 第二版导言所引书评
+  scope: 第二版导言脚注与正文相连，所引为Hugh Honour书评；不把转引当书评全文阅读
+- source: archives/patrons-and-painters.md
+  source_type: archive
+  target: archives/waterhouse-rome-painting-1971.md
+  target_type: archive
+  relation_type: cites
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 178–187; 章前：第二版导言；印刷页xvii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 第二版导言所引论文
+  scope: 第二版导言所述Waterhouse意见和1971脚注相连；不等于接受其全部论点
 - source: archives/poerson-letter-1708.md
   source_type: archive
   target: persons/charles-francois-poerson.md
@@ -13636,8 +13832,8 @@
   bidirectional_required: false
   review_status: evidence_backed_relation
   time: '1963'
-  role: 出版地
-  scope: 出版地点，不表示现藏实体册位置
+  role: 馆藏目录所载出版地
+  scope: Oechslin复印馆藏的书目记Venezia；Cini出版项另含Firenze，未核题名页，不据此确定印刷地或实体册位置
 - source: archives/vasalli-testimony-mola-pamfili.md
   source_type: archive
   target: persons/alessandro-vasalli.md
