@@ -4,8 +4,7 @@ name_en: Allegory of Divine Wisdom
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L57–58
   sentence_summary: 《赞助人与画家》图版12目录所记的《神圣智慧寓意》艺术对象。
   original_quotes:
@@ -17,9 +16,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 57–58; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L165–166
+  sentence_summary: 本书图片来源将图版12复制图像的供片署名归于国家摄影室。
+  original_quotes:
+  - source_span: lines 165–166
+    text: '48d, 55b, 60, 62;R. B. Fleming: 46; JohnR. Freeman: 36a, 48a, 57b; Gabinetto Fotografico Naziotiale:
+
+      rob, 12, 15; Gilchrist, Leeds: 32b; Malborough Fine Art Ltd: 24; Ministry of Works: 29; Mansell-'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 165–166; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
 ---
 
 ## 内容
@@ -46,6 +57,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中位置 | [巴贝里尼宫](../places/palazzo-barberini.md) | S1 |
 | 书中位置 | [罗马](../places/rome.md) | S1 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版12供片者 | [国家摄影室](../institutions/gabinetto-fotografico-nazionale.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -55,3 +72,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[供片角色候选与身份裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色)

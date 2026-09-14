@@ -4,8 +4,7 @@ name_en: Rest on the Flight into Egypt
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiii；OCR L71–71
   sentence_summary: 《赞助人与画家》图版18a目录所记的《逃往埃及途中的休息》艺术对象。
   original_quotes:
@@ -15,9 +14,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 71–71; 章前：图版目录；印刷页xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L171–172
+  sentence_summary: 本书图片来源将图版18a复制图像供片者列为剑桥特纳摄影商号。
+  original_quotes:
+  - source_span: lines 171–172
+    text: '38a, 38b, 39, 40a; Steam and Son, Cambridge: 17b, 26a, 28b, 55, 56, 63; Turners of Cambridge: 3a, 17c,
+
+      18a; University Library, Cambridge: 9, 57a; Villani, Bologna: 28a; Eberhard Zwicker, Wiirzburg: 50.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–172; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
@@ -43,6 +54,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 创作者 | [皮埃特罗·泰斯塔](../persons/pietro-testa.md) | S1 |
 | 描绘地点／对象 | [埃及](../places/egypt.md) | S1 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版18a供片者 | [剑桥特纳摄影商号](../institutions/turners-of-cambridge.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -52,3 +69,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)

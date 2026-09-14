@@ -4,8 +4,7 @@ name_en: Fresco on staircase of Hampton Court Palace
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L85–86
   sentence_summary: 《赞助人与画家》图版29目录所记的《汉普顿宫楼梯壁画》艺术对象。
   original_quotes:
@@ -17,9 +16,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 85–86; 章前：图版目录；印刷页xiv
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L166–166
+  sentence_summary: 本书图片来源将图版29复制图像供片者列为英国工程部。
+  original_quotes:
+  - source_span: lines 166–166
+    text: 'rob, 12, 15; Gilchrist, Leeds: 32b; Malborough Fine Art Ltd: 24; Ministry of Works: 29; Mansell-'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 166–166; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
@@ -46,6 +55,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中位置 | [汉普顿宫](../places/hampton-court-palace.md) | S1 |
 | 复制许可者 | Her Majesty the Queen／女王，所指身份与许可时间未明 | S1 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版29供片者 | [英国工程部](../institutions/ministry-of-works.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -55,3 +70,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)

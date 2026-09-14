@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 746
+total: 748
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -2649,8 +2649,8 @@ index:
   language_original: ''
 - slug: works/bernini-louis-xiv
   type: works
-  name_en: '"Portrait of Louis XIV"'
-  title: '"路易十四肖像（Portrait of Louis XIV）"'
+  name_en: Portrait of Louis XIV
+  title: 路易十四肖像（Portrait of Louis XIV）
   name_original: ''
   language_original: ''
 - slug: works/bernini-maffeo-barberini-as-pope-urban-viii
@@ -3123,8 +3123,8 @@ index:
   language_original: ''
 - slug: works/claude-mellan-vincenzo-giustiniani
   type: works
-  name_en: '"Portrait of Vincenzo Giustiniani"'
-  title: '"文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）"'
+  name_en: Portrait of Vincenzo Giustiniani
+  title: 文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）
   name_original: ''
   language_original: ''
 - slug: works/claude-view-of-delphi-with-a-procession
@@ -4057,6 +4057,12 @@ index:
   title: 艾尔米塔什博物馆（Hermitage Museum）
   name_original: ''
   language_original: ''
+- slug: institutions/istituto-centrale-per-il-catalogo-e-la-documentazione
+  type: institutions
+  name_en: Istituto Centrale per il Catalogo e la Documentazione
+  title: 中央编目与文献研究所（Istituto Centrale per il Catalogo e la Documentazione）
+  name_original: ''
+  language_original: ''
 - slug: institutions/istituto-della-enciclopedia-italiana
   type: institutions
   name_en: Istituto della Enciclopedia Italiana
@@ -4126,7 +4132,7 @@ index:
 - slug: institutions/ministry-of-works
   type: institutions
   name_en: Ministry of Works
-  title: 工程部（Ministry of Works）
+  title: 英国工程部（Ministry of Works）
   name_original: ''
   language_original: ''
 - slug: institutions/musee-cognacq-jay
@@ -4281,8 +4287,8 @@ index:
   language_original: ''
 - slug: institutions/royal-academy
   type: institutions
-  name_en: Royal Academy
-  title: 皇家艺术学院（Royal Academy）
+  name_en: Royal Academy of Arts
+  title: 皇家艺术研究院（Royal Academy of Arts）
   name_original: ''
   language_original: ''
 - slug: institutions/royal-collection
@@ -4341,8 +4347,8 @@ index:
   language_original: ''
 - slug: institutions/stearn-and-son
   type: institutions
-  name_en: Stearn and Son
-  title: 斯特恩父子公司（Stearn and Son）
+  name_en: Stearn & Sons
+  title: 斯特恩父子摄影商号（Stearn & Sons）
   name_original: ''
   language_original: ''
 - slug: institutions/stichting-museum-boijmans-van-beuningen
@@ -4401,8 +4407,14 @@ index:
   language_original: ''
 - slug: institutions/university-library-cambridge
   type: institutions
-  name_en: University Library, Cambridge
-  title: 剑桥大学图书馆（University Library, Cambridge）
+  name_en: Cambridge University Library
+  title: 剑桥大学图书馆（Cambridge University Library）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-of-cambridge
+  type: institutions
+  name_en: University of Cambridge
+  title: 剑桥大学（University of Cambridge）
   name_original: ''
   language_original: ''
 - slug: institutions/university-of-london

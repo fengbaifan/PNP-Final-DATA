@@ -4,31 +4,35 @@ name_en: Final plate of Illustrations to Gerusalemme Liberata
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980;
-    this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xv；OCR L135–135
   sentence_summary: 图版57a为1745年Albrizzi版Gerusalemme Liberata的末幅插图，署名Piazzetta，含两人的肖像。
   original_quotes:
   - source_span: lines 135–135
-    text: '57 a Piazzetta: Final plate of Illustrations to Gerusalemme Liber ata, published by Albrizzi 1745,
-      with portraits of Piazzetta and Albrizzi 344 b Pietro Antonio Novelli: Frontispiece to Vol. 2 of Goldoni:
-      Opere, published by Pasquali, 1761'
+    text: '57 a Piazzetta: Final plate of Illustrations to Gerusalemme Liber ata, published by Albrizzi 1745, with portraits of Piazzetta and Albrizzi 344 b Pietro Antonio Novelli: Frontispiece to Vol. 2 of Goldoni: Opere, published by Pasquali, 1761'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 135–135; 章前：图版目录；印刷页xv
-- citation: Denis Ton, PIAZZETTA, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 83 (2015).
-    https://www.treccani.it/enciclopedia/giovanni-battista-piazzetta_(Dizionario-Biografico)/. Accessed 2026-09-14.
+- citation: Denis Ton, PIAZZETTA, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 83 (2015). https://www.treccani.it/enciclopedia/giovanni-battista-piazzetta_(Dizionario-Biografico)/. Accessed 2026-09-14.
   location: 姓名、生平首段及1745年Gerusalemme liberata插图段
   sentence_summary: Giovanni Battista Piazzetta亦称Giambattista，生于1682年2月13日；为Albrizzi于1745年出版的Torquato Tasso著作设计插图，制版另有刻版者。
-- citation: Giorgio E. Ferrari, ALBRIZZI, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 2 (1960).
-    https://www.treccani.it/enciclopedia/giovanni-battista-albrizzi_(Dizionario-Biografico)/. Accessed 2026-09-14.
+- citation: Giorgio E. Ferrari, ALBRIZZI, Giovanni Battista, Dizionario Biografico degli Italiani, vol. 2 (1960). https://www.treccani.it/enciclopedia/giovanni-battista-albrizzi_(Dizionario-Biografico)/. Accessed 2026-09-14.
   location: 生平及1745年Gerusalemme Liberata出版段
-  sentence_summary: Giovanni Battista Albrizzi生于1698年12月29日，卒于1777年3月20日；威尼斯印刷者、出版者，出版1745年Piazzetta绘图的Gerusalemme
-    Liberata。
+  sentence_summary: Giovanni Battista Albrizzi生于1698年12月29日，卒于1777年3月20日；威尼斯印刷者、出版者，出版1745年Piazzetta绘图的Gerusalemme Liberata。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L172–172
+  sentence_summary: 本书图片来源将图版57a复制图像供片者列为剑桥大学图书馆。
+  original_quotes:
+  - source_span: lines 172–172
+    text: '18a; University Library, Cambridge: 9, 57a; Villani, Bologna: 28a; Eberhard Zwicker, Wiirzburg: 50.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
@@ -58,6 +62,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 载体出版者 | [乔万尼·巴蒂斯塔·阿尔布里齐](../persons/albrizzi.md) | S1、S3 |
 | 载体出版年 | 1745 | S1、S3 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版57a供片者 | [剑桥大学图书馆](../institutions/university-library-cambridge.md) | S4 |
+
 ## 关系与证据
 
 ### 身份与外部链接
@@ -73,3 +83,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)

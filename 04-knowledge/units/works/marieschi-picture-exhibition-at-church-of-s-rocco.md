@@ -20,9 +20,19 @@ sources:
 - citation: 'Cleveland Museum of Art, Views of Venice: Campo S. Rocco, 1978.136.17. https://www.clevelandart.org/art/1978.136.17. Accessed 2026-09-14.'
   location: 完整作品字段及Catalogue raisonné
   sentence_summary: Michele Marieschi（1710–1743），1741年蚀刻，Mauroner 17；1978.136.17是克利夫兰印本标识，非本书图版印本已知标识。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L171–171
+  sentence_summary: 本书图片来源将图版56复制图像的供片署名归于斯特恩父子摄影商号。
+  original_quotes:
+  - source_span: lines 171–171
+    text: '38a, 38b, 39, 40a; Steam and Son, Cambridge: 17b, 26a, 28b, 55, 56, 63; Turners of Cambridge: 3a, 17c,'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–171; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
 ---
 
 ## 内容
@@ -58,6 +68,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 版画创作年 | 1741 | S2、S3 |
 | 教堂立面 | Met题名记为画家设想的立面；不等同1741年已建成实景 | S2 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版56供片者 | [斯特恩父子摄影商号](../institutions/stearn-and-son.md) | S4 |
+
 ## 关系与证据
 
 ### 身份与外部链接
@@ -71,3 +87,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[供片角色候选与身份裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色)

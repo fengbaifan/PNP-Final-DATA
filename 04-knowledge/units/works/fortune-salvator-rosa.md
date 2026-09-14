@@ -14,9 +14,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 77–77; print p. xiii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L166–166
+  sentence_summary: 本书图片来源将图版24复制图像供片者列为马尔伯勒美术公司。
+  original_quotes:
+  - source_span: lines 166–166
+    text: 'rob, 12, 15; Gilchrist, Leeds: 32b; Malborough Fine Art Ltd: 24; Ministry of Works: 29; Mansell-'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 166–166; 章前：图片来源；印刷页xvi
 created: '2026-09-09'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
@@ -36,6 +46,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中收藏者 | Duke of Beaufort／博福特公爵，具体持衔人未定 | S1 |
 | 图版编号 | 24 | S1 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版24供片者 | [马尔伯勒美术公司](../institutions/marlborough-fine-art-ltd.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -43,3 +59,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 暂无正式关系。
 
 [章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)

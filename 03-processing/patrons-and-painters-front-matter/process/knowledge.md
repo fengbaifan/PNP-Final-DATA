@@ -1359,3 +1359,78 @@ REV-101已实测同步至`2d7db45`。继续REV-093目标，集中处理22卡（1
 下一步优先完成其余图书馆、供片机构及书目版本身份，再围绕已登记作品／正文事实集中补足。上述17组候选交关系阶段逐项确认，完整性还受其他未完成对象及端点影响。本轮未提交推送，生成索引保留`2d7db45`同步基线。
 
 本轮22卡的28条原书摘录、99条本地链接、来源编号及过程锚点复核通过；879条有效登记与508个章前KU类型计数一致，原sources前缀和正式relations保持。受影响内容机械检查无确定性发现；此为语义自查及机械核对，不表示全面补足或正式关系定稿。
+
+## 供片机构与复制图像角色
+
+REV-102已实测同步至`664bb5d`。接续REV-093目标，上一轮产生了22卡实质更新并已同步；本轮集中对齐5个机构，补入13件作品的供片字段，新增必要的ICCD端点，共19卡。继续使用原书来源与外部记录分列的方式，未新增正式关系。
+
+### 阅读、配对与采用范围
+
+| 来源／对象 | 实际阅读与采用 | 身份及证据边界 |
+|---|---|---|
+| [ICCD：国家摄影室](https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale) | 完整正文及档案构成段。采用1895设立、文化遗产摄影职责、1975并入ICCD，建立ICCD端点并互链 | 1975是并入年，不是摄影室停办年，也未据此写ICCD创立日期。未把1893前身实验室直接当同一机构成立；集合规模及其他摄影师、藏家仅作背景，不逐名扩张 |
+| [Uffizi：1966年洪水摄影档案](https://www.uffizi.it/opere/fondo-fotografico-alluvione-a-firenze) | Chiara Ulivi完整介绍、图片题注及书目；采用Soprintendenza alle Gallerie历史机构名、部属监管职责、佛罗伦萨及1966年抢救活动 | 监管机构、摄影部门、当前美术馆不同粒度，不作same-as合并。Procacci、Baldini的个人任职和洪水档案单件尚未展开；本文参考书未读。不以照片保管证明绘画产权 |
+| [BnF FRBNF45029807](https://catalogue.bnf.fr/ark:/12148/cb45029807c) | 完整可见目录及保管项；照片署Service de documentation photographique des Musées Nationaux，支持该摄影服务名称与业务 | 照片组另外两张署Giraudon，不合并机构；1950–1969属照片集合日期。BnF记录的是Pompadour题材，不能代替本书Bernini图版27b的供片证据；该边仍来自原书。现行RMN体系归属未核，不强设法人连续性 |
+| [Jesus College：Stearn规范记录](https://collegecollections.jesus.cam.ac.uk/index.php/stearn-sons-photographers-bridge-street-cambridge) | 完整机构规范记录、沿革与Sources。采用摄影商号、约1866业务创办、剑桥72 Bridge Street；保留原书Stearn and Son与档案Stearn & Sons不同写法 | Sources转引Magdalene，不能当两项独立历史来源。1943年另设有限责任公司，不能把1866直接作为其法人注册年。邻接浏览记录的标识不复制到本条；没有把家庭每位成员建为本书具体摄影师 |
+| [RCT：Royal Academy成立史](https://www.rct.uk/collection/stories/george-iii-joseph-farington-and-the-royal-academy)及[NT 3119476](https://www.nationaltrustcollections.org.uk/object/3119476) | RCT完整主文；NT完整可见书目对象字段。采用Royal Academy of Arts、伦敦及1768-12-10成立文件签署日期，与原书简名及时代语境初步配对 | NT仅是1960年展览目录书目，不表示已读目录全文，也不证明本书供片出自该展览。王室收藏、Royal Academy及其任何展览不是同一对象；未采用未展开的创办者、成员及馆址端点 |
+
+### 原书扫描与断行裁决
+
+实际查看`02-sources/01-book/CHP-0Cover.pdf`的PDF第13页／印刷xvi（Photographic Sources），与`02-sources/02-Markdown/00_05_List_of_Plates.md` L165–172对读。扫描为Gabinetto Fotografico **Nazionale**及图版**10b**，OCR作Naziotiale、rob；扫描为**Stearn**，OCR作Steam。保留来源本体及原有OCR摘录，不在sources中伪造已经校正的OCR原句。当前规范名称、图版对应据扫描和外部机构记录判断。
+
+Royal与Academy跨L168–169，原有S1只引L169不完整，本轮追加完整跨行摘录并将名称引用改指新来源。Stearn的图版55未分a／b，且Cacco另外明确署55b；仍保留55，不将其擅配55a、55b或两者。Marlborough扫描拼写也已确认，但商号外部身份与供片版本尚待核，本轮不改该卡。
+
+### 关系候选交接
+
+以下续接原始候选登记映射，具体艺术对象端点以本轮卡内供片表及作品卡为准。尚待关系阶段审查，不从正文链接自动转正。
+
+| 锚点 | 端点与候选事实 | 对应证据与限定 | 当前去向 |
+|---|---|---|---|
+| PHOTO-01 | 国家摄影室 → 图版10b、12、15所示的三件作品：提供本书复制照片 | 原书p.xvi L165–166及扫描；不是创作、收藏或作品归属 | 已补双侧内容字段，交关系审查 |
+| PHOTO-02 | 法国国家博物馆摄影文献服务机构 → 图版27b《路易十四》：供片 | 原书p.xvi L169–170；BnF只核机构署名 | 已补双侧内容字段，交关系审查 |
+| PHOTO-03 | 佛罗伦萨Soprintendenza → 图版38a、38b、39、40a作品：供片 | 原书p.xvi L170–171；不因此解决40a具体版本 | 已补双侧内容字段，交关系审查 |
+| PHOTO-04 | Stearn → 图版17b、26a、28b、56、63作品：供片 | 原书p.xvi L171及扫描；未指定底片号或拍摄时间 | 已补双侧内容字段，交关系审查 |
+| PHOTO-05 | Stearn → 图版55的复制图像 | 原书未分55a／55b，Cacco另署55b；不可由另一署名反推排他归属 | 暂缓细分端点，不创建确定边 |
+| PHOTO-06 | Royal Academy → 图版3b、30a、30b、31a、31b、47、49b、51、54、61b所示作品：供片 | 原书p.xvi L168–169；机构卡保存十个作品端点；不当成馆藏清单或1960展览名单 | 补全机构身份及证据跨度，交关系审查；未重复扩写十张作品卡 |
+| PHOTO-07 | 国家摄影室 → ICCD：1975年并入 | ICCD官方历史，属外部新增候选；不倒填成原书事实 | 双侧端点已建，交关系审查 |
+| PHOTO-08 | Soprintendenza → 佛罗伦萨；法国服务机构 → 巴黎；Stearn → 剑桥；Royal Academy → 伦敦：所在地 | 各机构卡的原书／外部事实级来源；历史供片角色不自动证明现址 | 地点端点已存在，交关系审查 |
+
+### 结果与剩余工作
+
+本轮5个既有机构完成名称、性质和历史语境的初步核对；13件作品只新增本书复制图像的供片证据，不把这一更新称为13件作品完成外部版本对齐或全面补足。新增ICCD一张，章前509个KU（458新建、47既有有效KU更新、4旧卡整理接收），全库880个。9项主候选保持待证；图版55细分、40a及其他具体印本／保管端点仍有缺口。
+
+后续优先处理尚未对齐的机构、书目与作品版本；已获得稳定身份的对象按明确缺口补足，再集中审查全部候选与正文中的有据关系。不得把供片当创作、所有权或保管。未新增正式边，未再次提交推送，生成索引保持`664bb5d`同步基线。
+
+上述19卡已写回：32条原书摘录、121条本地链接、来源编号及过程锚点检查通过，880条有效登记和509个章前KU计数一致，原sources前缀和正式relations保留；受影响内容机械检查无确定性发现，`git diff --check`通过。这不表示全面补足或关系定稿。
+
+## 英国供片机构与大学图书馆
+
+同轮继续处理12卡：Ministry of Works、Marlborough、Turners、Cambridge University Library四个供片机构及七件对应作品，新增剑桥大学作为图书馆所属端点。与前段合计31张不同卡，来源本体未改；未新增正式边。
+
+### 实际来源与身份裁决
+
+| 来源 | 实际读取与采纳 | 限制及未采纳内容 |
+|---|---|---|
+| [Historic England PSA01/04](https://historicengland.org.uk/images-books/photos/series/PSA01/04) | 完整可见系列目录，采用英国政府部门身份、Ministry of Works名称时期1943–1962和历史建筑／公共工程／政府地产职责，支持摄影业务 | 不把1943写成所有前身行政机构起源。系列由多个先后部门形成，不将全部底片归此部；未读底片原件，也未匹配本书图版29底片。旧议会档案链接转为档案首页，不充当原目录已读；前次国家档案馆验证墙已改用此适用机构目录补证 |
+| [Marlborough档案历史](https://marlborougharchive.com/history-marlborough-gallery) | 1946两段及1947–1949题注；采用伦敦、1946创办、17–18 Old Bond Street初址和画廊／交易业务。原书图版目录L77与供片表L166合读，补《命运》供片互链 | 只读早期部分，未声称完整时间线已读。页面1948加入的David Somerset及后来公爵称号不自动解决原书《命运》的Duke of Beaufort具体持衔人。未采用Getty 500434822的Person分类和异常fl. -1946作分类／年代依据 |
+| [Fading Images工作室记录研究](https://www.fadingimages.uk/RMCompleteV2.pdf) | HTTP取得134页PDF，读PDF1的材料说明、PDF3完整业务分析及PDF15日记转录／注16；Turners、Turner and Sons、剑桥、经销／冲印业务共同支持商号初步配对，分条录入研究转引的1933年地址 | 不是134页全文已读，未读1933目录原件及日记手稿。1932日记中Turner经研究者注释识别，保留二次识别层级；不将摄影师个人、法人注册名与商号强等同。Newcastle同名商号、Clare目录中“The Turners”题名不采用；本书三张照片的具体冲印时间／底片仍不明 |
+| [剑桥馆方出版物：A Journey Around the World Mind](https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content) | 大学资料库38页PDF；读题名页PDF2、馆长导言PDF3／印刷1、年表与出版项PDF38／印刷36；末页图像已查看。出版年2005、ISBN 0-902205-60-9；采用图书馆全名、研究服务、大学关联、1416最早明确记录、1424首目录、1934迁馆、2005出版地址 | 不是整册38页完整阅读。1416不强写精确创立日，1934不作大学或机构成立年；不为馆舍、设计师、每个捐赠者自动建立端点。官网About和展览History页直接访问失败，检索摘要仅定位，卡内采用实际读到的资料库PDF |
+
+### 关系候选交接
+
+| 锚点 | 端点／候选事实 | 实际证据与限定 | 去向 |
+|---|---|---|---|
+| PHOTO-09 | Ministry of Works → 图版29汉普顿宫楼梯壁画：为本书供片 | p.xvi L166；图版目录p.xiv L85–86另记女王复制许可；供片与许可分开，不推定绘画所有权 | 双侧内容已补，交关系审查 |
+| PHOTO-10 | Marlborough → 图版24罗萨《命运》：为本书供片 | 供片p.xvi L166、作品p.xiii L77及原书扫描；未将画廊与博福特公爵收藏身份合并 | 双侧内容已补，交关系审查 |
+| PHOTO-11 | Turners → 图版3a、17c、18a：为本书供片 | p.xvi L171–172，三件作品各有原图版目录摘录；原书供片事实成立，外部商号法律同一性未确认 | 内容关系保留，正式关系仅能采用原书署名粒度 |
+| PHOTO-12 | Cambridge University Library → 图版9和57a：为本书供片 | p.xvi L172；图书馆名称已核，但本书所据两件印本的索书号未明 | 双侧内容已补，交关系审查；不直接写印本保管边 |
+| PHOTO-13 | Cambridge University Library → University of Cambridge：大学所属研究图书馆 | 2005馆方导言与年表／出版项；外部候选 | 新建大学端点并互链，交关系审查 |
+| PHOTO-14 | Marlborough → London；Turners及Cambridge University Library → Cambridge：地点关联 | 各自历史来源、原书署名；地址与时期保留 | 地点端点已存在，交关系审查 |
+
+### 当前结果
+
+章前510个KU（累计459新建、47既有有效KU更新、4旧卡整理接收），全库881个；本轮合计31卡（29更新、2新增）。四个英国机构的初步核对和图像角色进一步完善；Turners法律身份仍有粒度限制。9项主候选和其他作品／印本版本疑点保持待证，全文补足、正式关系定稿尚未完成。
+
+后续先解决尚未初步对齐的机构与作品版本，重点包括Kassel藏品机构粒度、Stuttgart的Crespi作品版本、Wallraf的Piazzetta作品对应等。Wallraf旧baroque/gallery-9链接重定向到中世纪展厅，旧索引仍显示Piazzetta条目，不能用重定向正文证明该作品；本轮不采用这条冲突页面。已稳定对象按明确缺口继续补足，全部候选与正文事实交关系阶段审查。未再次提交推送，生成索引保持`664bb5d`基线。
+
+本段12卡的19条原书摘录、63条本地链接、来源编号及过程锚点复核通过，881条有效登记和510个章前KU类型计数一致，原sources前缀与正式relations保留；受影响内容机械检查无确定性发现。本轮两段合计31卡、51条原书摘录、184条本地链接完成受影响范围核对，文档差异检查通过。这是语义自查与机械核对，不表示全面补足、正式关系定稿或人工验收。

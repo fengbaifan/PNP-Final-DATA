@@ -4,8 +4,7 @@ name_en: Turners of Cambridge
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图片来源；印刷页xvi；OCR L171–172
   sentence_summary: 本书图片来源列明的供片者。
   original_quotes:
@@ -17,18 +16,21 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 171–172; 章前：图片来源；印刷页xvi
+- citation: 'Fading Images, Ramsey and Muspratt, Photographers, Cambridge: An analysis of Studio Records from the early years of the firm (1932–1935). https://www.fadingimages.uk/RMCompleteV2.pdf. Accessed 2026-09-14.'
+  location: PDF1方法说明；PDF3完整业务分析；PDF15日记转录及注16
+  sentence_summary: 研究将剑桥Turners／Turner and Sons识别为摄影经销与冲印商号，并据1933年Spalding目录列36 Trinity Street、47 Regent Street、22 Petty Cury；未读原目录及日记手稿。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本书图片来源列明的供片者。
+**中文：** 剑桥的摄影商号，本书以Turners of Cambridge署名提供图版3a、17c和18a。
 
-**English:** A photographic supplier named in the book.
+**English:** A photographic firm in Cambridge, credited as Turners of Cambridge for plates 3a, 17c and 18a in the book.
 
 ### 名称
 
@@ -36,6 +38,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 原文名称 | Turners of Cambridge | S1 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
+| 当地摄影史研究所用名 | Turners；Turner and Sons | S2 |
 
 ### 来源所载信息
 
@@ -46,7 +49,22 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 供片对应对象 | [布拉恰诺公爵](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md)；图版17c复制图像 | S1 |
 | 供片对应对象 | [逃往埃及途中的休息](../works/pietro-testa-rest-on-the-flight-into-egypt.md)；图版18a复制图像 | S1 |
 
+### 业务与历史地点
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 业务 | 摄影用品经销／Photographic dealing | S2 |
+| 业务 | 冲洗与印相／Developing and printing | S2 |
+| 所在地 | [剑桥](../places/cambridge.md) | S1、S2 |
+| 1933年目录地址（研究转录） | 36 Trinity Street, Cambridge | S2，PDF3、15 |
+| 1933年目录地址（研究转录） | 47 Regent Street, Cambridge | S2，PDF3、15 |
+| 1933年目录地址（研究转录） | 22 Petty Cury, Cambridge | S2，PDF3、15 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[剑桥摄影工作室档案研究](https://www.fadingimages.uk/RMCompleteV2.pdf)（S2，商号名称、业务与城市的初步配对）。
 
 ### 关系记录
 
@@ -55,3 +73,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)

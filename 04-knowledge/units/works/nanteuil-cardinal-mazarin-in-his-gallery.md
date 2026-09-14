@@ -20,9 +20,19 @@ sources:
 - citation: Columbia University, M.A. in Art History exhibition label, C00.0802.132 (2017). https://projects.mcah.columbia.edu/ma/label?field_record_id_value=2017_exhibition_C00.0802.132&height=500&iframe=true&width=500. Accessed 2026-09-14.
   location: 完整展签；题头、印本状态及末段作者分工
   sentence_summary: Nanteuil据Mignard肖像处理人物面貌，Chauveau负责构图，van Schuppen参与部分刻制；未指明该部分范围。Van Schuppen生年1629，与Met1627并列；南特伊入宫介绍属推测。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L171–171
+  sentence_summary: 本书图片来源将图版26a复制图像的供片署名归于斯特恩父子摄影商号。
+  original_quotes:
+  - source_span: lines 171–171
+    text: '38a, 38b, 39, 40a; Steam and Son, Cambridge: 17b, 26a, 28b, 55, 56, 63; Turners of Cambridge: 3a, 17c,'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 171–171; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#马扎然画廊与版画责任
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色
 ---
 
 ## 内容
@@ -65,6 +75,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 部分刻制 | [皮埃尔·范·斯许彭](../persons/pierre-van-schuppen.md) | S3 |
 | 人物肖像原型 | [皮埃尔·米尼亚尔](../persons/pierre-mignard.md)的肖像 | S3 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版26a供片者 | [斯特恩父子摄影商号](../institutions/stearn-and-son.md) | S4 |
+
 ## 关系与证据
 
 ### 身份与外部链接
@@ -78,3 +94,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[供片角色候选与身份裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片机构与复制图像角色)
+
+[既有对齐与补足依据](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#马扎然画廊与版画责任)

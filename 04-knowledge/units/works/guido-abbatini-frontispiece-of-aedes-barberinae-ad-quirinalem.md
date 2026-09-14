@@ -4,8 +4,7 @@ name_en: Frontispiece of Aedes Barberinae ad Quirinalem
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L49–50
   sentence_summary: 《赞助人与画家》图版09目录所记的《《巴贝里尼宫》卷首图》艺术对象。
   original_quotes:
@@ -17,9 +16,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 49–50; 章前：图版目录；印刷页xii
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 章前：图片来源；印刷页xvi；OCR L172–172
+  sentence_summary: 本书图片来源将图版9复制图像供片者列为剑桥大学图书馆。
+  original_quotes:
+  - source_span: lines 172–172
+    text: '18a; University Library, Cambridge: 9, 57a; Villani, Bologna: 28a; Eberhard Zwicker, Wiirzburg: 50.'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆
 ---
 
 ## 内容
@@ -49,6 +58,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 载体出版地 | [罗马](../places/rome.md) | S1 |
 | 载体出版年 | 1642 | S1 |
 
+### 复制图像来源
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 本书图版9供片者 | [剑桥大学图书馆](../institutions/university-library-cambridge.md) | S2 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -58,3 +73,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+[英国供片机构候选与裁决](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#英国供片机构与大学图书馆)
