@@ -1,11 +1,10 @@
 ---
-title: "罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）"
+title: 罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）
 name_en: Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings
 type: archive
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 书后：书目；仅定向读取所引条目，印刷页未核；OCR L834–835
   sentence_summary: 书目以A. de Montaiglon列责任者，18卷，巴黎1887–1912；导言引用第三卷240页。
   original_quotes:
@@ -17,8 +16,7 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/21_CHP-21Bibliography.md
     source_span: lines 834–835; 书后：书目；仅定向读取所引条目，印刷页未核
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：第二版导言；印刷页xviii；OCR L198–198
   sentence_summary: 导言引用第三卷240页的普瓦松来信。
   original_quotes:
@@ -28,9 +26,12 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 198–198; 章前：第二版导言；印刷页xviii
+- citation: INHA Agorha, Montaiglon, Anatole de (1824–1895). https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a. Accessed 2026-09-14.
+  location: 完整人物记录、传记说明与书目字段
+  sentence_summary: Anatole Courde de Montaiglon，惯用Anatole de Montaiglon，法国男性艺术史家、档案古文字学者；1824–1895。通信集18卷1887–1912，编者并列Montaiglon与Jules Guiffrey；仅书目，未读通信原件。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
 ---
 
 ## 内容
@@ -61,7 +62,19 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 导言引用页 | 240 | S2 |
 | 所刊来信 | [普瓦松1708年论罗马绘画报酬的信](../archives/poerson-letter-1708.md) | S2 |
 
+### 版本与编者
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 共同编者 | [阿纳托尔·德·蒙泰格隆](../persons/a-de-montaiglon.md) | S3 |
+| 共同编者 | [朱尔·吉弗雷](../persons/jules-guiffrey.md) | S3 |
+| 编纂底本 | 法国国家档案馆所藏手稿／Manuscripts in the Archives nationales | S3，书目题名说明 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[INHA所列18卷书目](https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a)（S3，书目核对）。
 
 ### 关系记录
 

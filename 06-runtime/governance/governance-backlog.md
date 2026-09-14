@@ -1,9 +1,9 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-14 21:59
+> Snapshot: 2026-09-14 22:25
 > Structural health: 130/130
-> Knowledge units: 855
+> Knowledge units: 867
 > Maturity metrics: unscored_semantic_maturity
 
 > 有效知识按 accepted.yml 统计。旧处理包、候选、dataflow、旧版翻译字段与可选验证层级只保留在健康快照中作历史诊断，不列为当前缺陷或阶段门禁。
@@ -24,13 +24,13 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 262 | research_debt |
+| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 257 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 509 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 521 | candidate_opportunity |
 
 ## Completed mechanical signals
 

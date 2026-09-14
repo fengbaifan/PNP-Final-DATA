@@ -13,9 +13,12 @@ sources:
 - citation: 'The Frick Collection, Van Dyck: The Anatomy of Portraiture, Cardinal Guido Bentivoglio. https://www.frick.org/exhibitions/van_dyck/15. Accessed 2026-09-14.'
   location: 完整作品展签、作者和技术字段
   sentence_summary: Anthony van Dyck（1599–1641），1623年在罗马绘制；Guido Bentivoglio是外交官、艺术赞助人和历史学家。画家可能住在枢机宅邸，不能写成确定居住事实。
+- citation: Serena Padovani and Miles L. Chappell, Marco Chiarini (1933–2015), The Burlington Magazine 158/1356 (March 2016). https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015. Accessed 2026-09-14.
+  location: 完整纪念文章；采用首段生卒、迁居及馆务任期
+  sentence_summary: 1933-09-01生于罗马，2015-11-06卒于佛罗伦萨；1964迁佛罗伦萨，1969–2000任Galleria Palatina馆长，研究佛罗伦萨收藏与16–18世纪艺术。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#本蒂沃利奥肖像与流传
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
 ---
 
 ## 内容
@@ -43,9 +46,17 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 所在地 | [佛罗伦萨](../places/florence.md) | S1、S2、S3 |
 | 藏品Palatina 82 | [圭多·本蒂沃利奥枢机肖像](../works/van-dyck-cardinal-bentivoglio.md) | S2 |
 
+### 馆务履历
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 1969–2000年馆长 | [马尔科·基亚里尼](../persons/marco-chiarini.md) | S4 |
+
 ## 关系与证据
 
 ### 身份与外部链接
+
+[Chiarini纪念文章](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)（S4，馆长任期）。
 
 [ICCD保管机构字段](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900129521)（S2）；[OPD](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)（S1）；[Frick](https://www.frick.org/exhibitions/van_dyck/15)（S3）。
 

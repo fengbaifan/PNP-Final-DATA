@@ -712,8 +712,8 @@ task-id：`patrons-and-painters-front-matter`；REV-085–087。前置输入为[
 | FM-P65a.creator2 | 新建 | [西莫内利（Simonelli）](../../../04-knowledge/units/persons/simonelli.md) |
 | FM-P65a.former_holder1 | 新建 | [维塔莱·布洛赫（Vitale Bloch）](../../../04-knowledge/units/persons/vitale-bloch.md) |
 | FM-P65a.object | 新建 | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../../../04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md) |
-| FM-P65a.self1 | 复用并更新 | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../../../04-knowledge/units/persons/pier-francesco-mola.md) |
-| FM-P65a.self2 | 新建 | [西莫内利（Simonelli）](../../../04-knowledge/units/persons/simonelli.md) |
+| FM-P65a.self1 | 复用并更新；当前角色为描绘对象 | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../../../04-knowledge/units/persons/pier-francesco-mola.md) |
+| FM-P65a.self2 | 新建；当前角色为描绘对象 | [西莫内利（Simonelli）](../../../04-knowledge/units/persons/simonelli.md) |
 | FM-P65b.creator1 | 新建 | [阿戈斯蒂诺·马苏奇（Agostino Masucci）](../../../04-knowledge/units/persons/agostino-masucci.md) |
 | FM-P65b.holder1 | 新建 | [斯德哥尔摩国家博物馆（National Museum, Stockholm）](../../../04-knowledge/units/institutions/national-museum-stockholm.md) |
 | FM-P65b.object | 新建 | [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../../../04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) |
@@ -1203,3 +1203,39 @@ REV-093接续，2026-09-14，REV-098同步后。本组更新13张、新增11张�
 交接：可继续上述5名画家及有据作品的明确缺口补足；保留21b、28a版本阻断，其他创作、委托、亲缘、师承、安置与馆藏事实作为带来源候选交正式关系阶段。当前对齐、全面补足及关系定稿均未全部完成。
 
 本组写回前核对输入未变化、原sources前缀及既有relations保留；写回后复核24卡、22条原书摘录、119条本地链接、来源编号及过程锚点。855个有效登记与482个章前KU及类型分布一致，受影响内容机械检查未报缺陷，git diff --check通过。这是语义自查与机械核对，不是全面补足、正式关系定稿或人工验收；生成索引未刷新，本轮未提交推送。
+
+
+## 序言学者与图版角色集中对齐
+
+REV-099同步至`59bc2c6`后继续REV-093目标。按既有卡、原书证据及专业来源集中处理32张KU（更新20、新增12），不把初步身份核对与全文补足混为一体。采用verify、enrich及必要的ingest端点回送；未启动知识发现或网页。
+
+### 来源、阅读范围与身份判断
+
+| 对象组 | 实际来源与阅读范围 | 判断及限度 |
+|---|---|---|
+| Montaiglon、通信集、Guiffrey | [INHA Agorha](https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a)，完整人物、传记说明及书目 | 原书简称对应Anatole Courde de Montaiglon；同一18卷、1887–1912年通信集并列Montaiglon与Jules Guiffrey。Guiffrey以共同编者为本轮身份范围，未展开其全部生平。BnF外链未另核；未读通信原件，不把编者当全部来信作者。 |
+| Rylands | [King’s现代档案指南](https://www.kings.cam.ac.uk/guide-modern-archives)，指南说明与GHWR完整条 | G. H. W.＝George Humphrey Wolferstan，昵称Dadie，1902–1999。KC1921按该页定义为admission，不称1921年成为Fellow。原书校阅工作只由序言证明。 |
+| Harris | [匹兹堡大学教师页面](https://www.haa.pitt.edu/people/ann-sutherland-harris)，完整研究、教育与出版清单；未下载CV | 安·萨瑟兰·哈里斯的专业身份、Courtauld教育与1977年萨基专著可用。原书OCR的Aim不另造人物；教材初版同页2004／2005有分歧，本轮不写该出版项。未把页面Current Projects称为2026仍在执行，未读专著全文。 |
+| Boucher | [UVA任命新闻](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)，完整正文；[Soane 2016–2017年报](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)，PDF第6、8、11、43页（印刷4、6、9、41） | 全名Bruce Ambler Boucher，2002起任芝加哥欧洲雕塑策展人，2016-05-16就任Soane馆长。Newswise正文无明确发布日期，将于3月1日赴Virginia的预告未当已发生的具体日期；年报2017-03-31不是离任日期。 |
+| Chiarini | [Padovani与Chappell纪念文章](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)，完整正文 | Marco Chiarini，1933-09-01至2015-11-06；1964迁佛罗伦萨，1969–2000任Galleria Palatina馆长。只采与身份及任职链有关内容，作品、展览与家族清单并未全面补足。 |
+| Conforti及1977年论文 | [Burlington 1977年8月目录](https://www.burlington.org.uk/archive/back-issues/197708)，原刊目录；[Clark个人档案](https://archives.clarkart.edu/repositories/2/resources/159)，完整Biographical / Historical段及馆藏摘要；[2016年报](https://www.clarkart.edu/getmedia/8419623c-ddf2-4876-8815-2b45d376ca90/2016.pdf)，PDF第3页馆长前言 | 原书论文与期刊同题、同作者，卷119期893。结合馆方晚期巴洛克意大利雕塑研究履历识别人物。档案页1952出生与1968毕业可疑，任命1994与任期1995起亦不一致，均未写成确定值；退休2015-08-31依年报。论文页557–560仍依原书，未读付费正文或个人档案原件。 |
+| Pignatti | [Istituto Veneto会员页](https://www.istitutoveneto.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1353)，检索返回完整短传和日期；直开403 | Terisio Pignatti，1920-09-19至2004-12-31；1945入Musei civici veneziani，1974离职时为馆长，不能称29年均任馆长。历史市立博物馆系统与单一Museo Correr／图书馆及2008年成立的MUVE基金会不直接等同。本轮未核后者身份，也未读纪念文章全文。 |
+| Cozzi | [Ca’ Foscari档案指南](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)，PDF第54页、印刷382页完整Fondo Gaetano Cozzi条 | Gaetano Cozzi，1922-09-15至2001-03-15；Ca’ Foscari任教1960–1965、1970–1998，Padua任教1966–1969。采用校方明确分期，不沿旧FBSR英文页面搜索片段重建履历；指南所述藏书不等于原件已读。 |
+| Venturi | [Viarengo专题传记](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)，导言与完整La vita段 | Franco Venturi，1914-05-16至1994-12-14，启蒙和俄国研究；1955–1958年Genova之后转Torino，教席至1984。来源是2013年专题文集，不能标DBI；后续专题段与全部著作未完成本轮阅读。 |
+| Torcellan、Memmo及研究书 | [Oechslin书目011679565](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)，完整书目、规范、物理馆藏字段 | Torcellan（1938–1966）与Andrea Memmo（1729–1793）按作者／主题规范区分。1963年书与馆藏散页复印件分开，未读书正文；GND仅该机构规范引用，不称另行GND回查。Unito学生清单直开未成功，未将搜索片段出生日期加入卡。 |
+| Baur与图版06 | [Galleria Borghese库存519](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)，完整技术字段和正文；[ICCD 1201008256](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201008256)，完整记录 | Guglielmo Baur＝Johann Wilhelm Baur。按作者、地点题材、同馆保管及签名配对519，1636、羊皮纸蛋彩30×45 cm；这是馆藏记录对齐，非图版图像独立比对。原书题名1630原样保留且不继续断言真实描绘年份；1641另一构图／别藏本不混入。委托者属推测、无日期巴黎借展状态均未采纳；两目录不计两项独立原始证明。 |
+| Simonelli、Mola与65a | [原书补记](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)，p.401 L90–91，定向完整两行及相邻小节边界；[BM1857,0613.365](https://www.britishmuseum.org/collection/object/P_1857-0613-365)，检索返回完整对象与策展注释，直开403 | 原书明确Niccolo Simonelli与朋友Pierfrancesco Mola共同创作65a；图版目录只明确两人被描绘，不证明各自画自己。BM只用于人物身份、职业标签及活动期，不把另一幅画的库存、尺寸、材质、收藏史写入65a；fl.1636–1671不是生卒年。补记关于第五章的小节仅为本图版消歧，不是开展第五／六章。 |
+
+### 语义修正与关系交接
+
+- 图版65a在最初实体候选中已正确记为“共同作者也为描绘对象”，登记写回却变成“自我描绘者”。本轮在Simonelli、Mola和作品卡中改为“描绘对象”，两人物sources的错误句意摘要同步修正；原书原句、行号、章节与来源顺序保留。稳定候选ID `FM-P65a.self1/self2`保留以便追溯，映射行明确当前角色，不将旧ID字面当判定依据。
+- 朋友关系依据新增的原书补记L90–91，不能回填为早先图版目录本身明说的事实。合作仅限该双人漫画；各自绘制范围仍未定。BM提供外部赞助人身份标签，不据此虚构具体付款或委托交易。
+- 编纂、研究对象、博士教育、馆长／策展人任职、校阅、研究便利及馆藏关系均有字段与端点链接。原书的致谢／校阅候选仍用原书证据；后来的大学与博物馆履历只支持各自任职事实，不证明所有人在序言写作时已担任这些职务。
+- 更新20卡并新增12卡：共同编者Guiffrey、研究对象Memmo；Harris萨基专著、Torcellan梅莫研究；Pittsburgh、Courtauld、Soane、Clark、历史威尼斯市立博物馆系统、Ca’ Foscari、Padua、Turin八个机构。博尔盖塞美术馆复用原有有效卡，新增章前库存519关联，不重复建馆。
+- 来源元数据记录实际阅读范围，书目不作全文证明。人物亲缘、全部作品／著述、其他任职与细节继续按明确缺口补足；不因这一轮有全名与外部入口就宣布整卡完成。
+
+### 本轮结果
+
+本轮32卡更新20、新建12；全库867个有效KU，章前495个（累计445个新建、46个既有有效KU更新、4个旧卡整理后接收）。9项原始主候选继续暂缓，其他具体版本缺口仍按前段保留。正式关系未新增，相关有据候选交后续关系审查；未再次提交推送。
+
+本轮32张卡的31条原书摘录、141条本地链接、来源编号及过程锚点核对通过；867条有效登记与495个章前KU计数一致。除两条明确纠正的65a句意摘要外，原sources前缀保持；原有正式relations保持。受影响内容机械检查无确定性发现，文档差异检查通过；这是语义自查与机械核对，不代表全面补足或正式关系定稿。

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T21:59:50",
+  "timestamp": "2026-09-14T22:25:39",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 855,
+    "total_units": 867,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,23 +26,23 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 855,
+    "total_units": 867,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 855,
+    "units_missing_any_assignment": 867,
     "field_coverage": {
-      "primary_domain": "0/855",
-      "primary_dimension": "0/855",
-      "primary_theme": "0/855",
-      "topic_memberships": "0/855"
+      "primary_domain": "0/867",
+      "primary_dimension": "0/867",
+      "primary_theme": "0/867",
+      "topic_memberships": "0/867"
     }
   },
   "counts_by_type": {
-    "persons": 318,
+    "persons": 320,
     "families": 8,
-    "institutions": 100,
+    "institutions": 108,
     "places": 125,
     "works": 199,
-    "archives": 54,
+    "archives": 56,
     "terms": 34,
     "procedures": 10,
     "events": 7
@@ -75,6 +75,7 @@
       "04-knowledge/units/persons/ameyden.md",
       "04-knowledge/units/persons/amigoni.md",
       "04-knowledge/units/persons/andrea-camassei.md",
+      "04-knowledge/units/persons/andrea-memmo.md",
       "04-knowledge/units/persons/andrea-pozzo.md",
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
@@ -244,6 +245,7 @@
       "04-knowledge/units/persons/john-r-freeman.md",
       "04-knowledge/units/persons/john-strange.md",
       "04-knowledge/units/persons/juan-de-pareja.md",
+      "04-knowledge/units/persons/jules-guiffrey.md",
       "04-knowledge/units/persons/laerzio-cherubini.md",
       "04-knowledge/units/persons/larissa-dedicatee.md",
       "04-knowledge/units/persons/leo-x.md",
@@ -396,13 +398,16 @@
       "04-knowledge/units/institutions/biblioteca-casanatense.md",
       "04-knowledge/units/institutions/bibliotheque-nationale.md",
       "04-knowledge/units/institutions/british-museum.md",
+      "04-knowledge/units/institutions/ca-foscari-university-venice.md",
       "04-knowledge/units/institutions/capitoline-museums.md",
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
+      "04-knowledge/units/institutions/clark-art-institute.md",
       "04-knowledge/units/institutions/colnaghi.md",
       "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
       "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
       "04-knowledge/units/institutions/correr-library.md",
+      "04-knowledge/units/institutions/courtauld-institute-of-art.md",
       "04-knowledge/units/institutions/detroit-institute-of-arts.md",
       "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
@@ -433,6 +438,7 @@
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
+      "04-knowledge/units/institutions/musei-civici-veneziani.md",
       "04-knowledge/units/institutions/museo-correr.md",
       "04-knowledge/units/institutions/museo-del-prado.md",
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
@@ -462,6 +468,7 @@
       "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
+      "04-knowledge/units/institutions/sir-john-soanes-museum.md",
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
@@ -474,6 +481,9 @@
       "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
       "04-knowledge/units/institutions/uffizi-gallery.md",
       "04-knowledge/units/institutions/university-library-cambridge.md",
+      "04-knowledge/units/institutions/university-of-padua.md",
+      "04-knowledge/units/institutions/university-of-pittsburgh.md",
+      "04-knowledge/units/institutions/university-of-turin.md",
       "04-knowledge/units/institutions/victoria-and-albert-museum.md",
       "04-knowledge/units/institutions/virginia-museum-of-fine-arts.md",
       "04-knowledge/units/institutions/wadsworth-atheneum.md",
@@ -817,6 +827,7 @@
       "04-knowledge/units/archives/gilmartin-san-clemente-1974.md",
       "04-knowledge/units/archives/goldoni-opere-vol-2-1761.md",
       "04-knowledge/units/archives/guercino-ruffo-letter-1649.md",
+      "04-knowledge/units/archives/harris-andrea-sacchi-1977.md",
       "04-knowledge/units/archives/honour-patrons-painters-review-1963.md",
       "04-knowledge/units/archives/lanfranco-barberini-letter-1640.md",
       "04-knowledge/units/archives/lhoggidi-1627.md",
@@ -831,6 +842,7 @@
       "04-knowledge/units/archives/quarisimini-carrara-letter-1696.md",
       "04-knowledge/units/archives/rosa-ruffo-letter-1666.md",
       "04-knowledge/units/archives/salviati-medici-letter-1662.md",
+      "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
       "04-knowledge/units/archives/us-copyright-law.md",
       "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
       "04-knowledge/units/terms/altarpiece.md",
@@ -905,6 +917,7 @@
       "04-knowledge/units/persons/ameyden.md",
       "04-knowledge/units/persons/amigoni.md",
       "04-knowledge/units/persons/andrea-camassei.md",
+      "04-knowledge/units/persons/andrea-memmo.md",
       "04-knowledge/units/persons/andrea-pozzo.md",
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
@@ -1074,6 +1087,7 @@
       "04-knowledge/units/persons/john-r-freeman.md",
       "04-knowledge/units/persons/john-strange.md",
       "04-knowledge/units/persons/juan-de-pareja.md",
+      "04-knowledge/units/persons/jules-guiffrey.md",
       "04-knowledge/units/persons/laerzio-cherubini.md",
       "04-knowledge/units/persons/larissa-dedicatee.md",
       "04-knowledge/units/persons/leo-x.md",
@@ -1226,13 +1240,16 @@
       "04-knowledge/units/institutions/biblioteca-casanatense.md",
       "04-knowledge/units/institutions/bibliotheque-nationale.md",
       "04-knowledge/units/institutions/british-museum.md",
+      "04-knowledge/units/institutions/ca-foscari-university-venice.md",
       "04-knowledge/units/institutions/capitoline-museums.md",
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
+      "04-knowledge/units/institutions/clark-art-institute.md",
       "04-knowledge/units/institutions/colnaghi.md",
       "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
       "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
       "04-knowledge/units/institutions/correr-library.md",
+      "04-knowledge/units/institutions/courtauld-institute-of-art.md",
       "04-knowledge/units/institutions/detroit-institute-of-arts.md",
       "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
       "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
@@ -1263,6 +1280,7 @@
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
+      "04-knowledge/units/institutions/musei-civici-veneziani.md",
       "04-knowledge/units/institutions/museo-correr.md",
       "04-knowledge/units/institutions/museo-del-prado.md",
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
@@ -1292,6 +1310,7 @@
       "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
       "04-knowledge/units/institutions/schildersbent.md",
       "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
+      "04-knowledge/units/institutions/sir-john-soanes-museum.md",
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
@@ -1304,6 +1323,9 @@
       "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
       "04-knowledge/units/institutions/uffizi-gallery.md",
       "04-knowledge/units/institutions/university-library-cambridge.md",
+      "04-knowledge/units/institutions/university-of-padua.md",
+      "04-knowledge/units/institutions/university-of-pittsburgh.md",
+      "04-knowledge/units/institutions/university-of-turin.md",
       "04-knowledge/units/institutions/victoria-and-albert-museum.md",
       "04-knowledge/units/institutions/virginia-museum-of-fine-arts.md",
       "04-knowledge/units/institutions/wadsworth-atheneum.md",
@@ -1666,6 +1688,7 @@
       "04-knowledge/units/archives/goldoni-opere-vol-2-1761.md",
       "04-knowledge/units/archives/grassi-cortona-bozzetti-1957.md",
       "04-knowledge/units/archives/guercino-ruffo-letter-1649.md",
+      "04-knowledge/units/archives/harris-andrea-sacchi-1977.md",
       "04-knowledge/units/archives/honour-patrons-painters-review-1963.md",
       "04-knowledge/units/archives/lanfranco-barberini-letter-1640.md",
       "04-knowledge/units/archives/lhoggidi-1627.md",
@@ -1687,6 +1710,7 @@
       "04-knowledge/units/archives/salviati-medici-letter-1662.md",
       "04-knowledge/units/archives/savini-gubbio-terms-1608.md",
       "04-knowledge/units/archives/testi-fontana-bernini-letter.md",
+      "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
       "04-knowledge/units/archives/us-copyright-law.md",
       "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
       "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
@@ -1746,8 +1770,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 318,
-      "tags": 318,
+      "sub_type": 320,
+      "tags": 320,
       "evidence_status": 0
     },
     "families": {
@@ -1756,8 +1780,8 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 100,
-      "tags": 100,
+      "sub_type": 108,
+      "tags": 108,
       "evidence_status": 0
     },
     "places": {
@@ -1771,8 +1795,8 @@
       "evidence_status": 0
     },
     "archives": {
-      "sub_type": 33,
-      "tags": 54,
+      "sub_type": 35,
+      "tags": 56,
       "evidence_status": 0
     },
     "terms": {
@@ -1848,11 +1872,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 166,
-    "evidence_ref_resolvable": 1004,
+    "sources_without_evidence_ref": 178,
+    "evidence_ref_resolvable": 1007,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1004,
-    "units_with_traceable_source": 855
+    "evidence_refs_total": 1007,
+    "units_with_traceable_source": 867
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1884,7 +1908,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 855,
+      "count": 867,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1905,6 +1929,7 @@
         "04-knowledge/units/persons/ameyden.md",
         "04-knowledge/units/persons/amigoni.md",
         "04-knowledge/units/persons/andrea-camassei.md",
+        "04-knowledge/units/persons/andrea-memmo.md",
         "04-knowledge/units/persons/andrea-pozzo.md",
         "04-knowledge/units/persons/andrea-procaccini.md",
         "04-knowledge/units/persons/andrea-sacchi.md",
@@ -2074,6 +2099,7 @@
         "04-knowledge/units/persons/john-r-freeman.md",
         "04-knowledge/units/persons/john-strange.md",
         "04-knowledge/units/persons/juan-de-pareja.md",
+        "04-knowledge/units/persons/jules-guiffrey.md",
         "04-knowledge/units/persons/laerzio-cherubini.md",
         "04-knowledge/units/persons/larissa-dedicatee.md",
         "04-knowledge/units/persons/leo-x.md",
@@ -2226,13 +2252,16 @@
         "04-knowledge/units/institutions/biblioteca-casanatense.md",
         "04-knowledge/units/institutions/bibliotheque-nationale.md",
         "04-knowledge/units/institutions/british-museum.md",
+        "04-knowledge/units/institutions/ca-foscari-university-venice.md",
         "04-knowledge/units/institutions/capitoline-museums.md",
         "04-knowledge/units/institutions/capuchins.md",
         "04-knowledge/units/institutions/chatto-and-windus.md",
+        "04-knowledge/units/institutions/clark-art-institute.md",
         "04-knowledge/units/institutions/colnaghi.md",
         "04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md",
         "04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md",
         "04-knowledge/units/institutions/correr-library.md",
+        "04-knowledge/units/institutions/courtauld-institute-of-art.md",
         "04-knowledge/units/institutions/detroit-institute-of-arts.md",
         "04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md",
         "04-knowledge/units/institutions/fabbrica-di-san-pietro.md",
@@ -2263,6 +2292,7 @@
         "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
         "04-knowledge/units/institutions/ministry-of-works.md",
         "04-knowledge/units/institutions/musee-cognacq-jay.md",
+        "04-knowledge/units/institutions/musei-civici-veneziani.md",
         "04-knowledge/units/institutions/museo-correr.md",
         "04-knowledge/units/institutions/museo-del-prado.md",
         "04-knowledge/units/institutions/museo-di-capodimonte.md",
@@ -2292,6 +2322,7 @@
         "04-knowledge/units/institutions/sanssouci-picture-gallery.md",
         "04-knowledge/units/institutions/schildersbent.md",
         "04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md",
+        "04-knowledge/units/institutions/sir-john-soanes-museum.md",
         "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
         "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
         "04-knowledge/units/institutions/stearn-and-son.md",
@@ -2304,6 +2335,9 @@
         "04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md",
         "04-knowledge/units/institutions/uffizi-gallery.md",
         "04-knowledge/units/institutions/university-library-cambridge.md",
+        "04-knowledge/units/institutions/university-of-padua.md",
+        "04-knowledge/units/institutions/university-of-pittsburgh.md",
+        "04-knowledge/units/institutions/university-of-turin.md",
         "04-knowledge/units/institutions/victoria-and-albert-museum.md",
         "04-knowledge/units/institutions/virginia-museum-of-fine-arts.md",
         "04-knowledge/units/institutions/wadsworth-atheneum.md",
@@ -2666,6 +2700,7 @@
         "04-knowledge/units/archives/goldoni-opere-vol-2-1761.md",
         "04-knowledge/units/archives/grassi-cortona-bozzetti-1957.md",
         "04-knowledge/units/archives/guercino-ruffo-letter-1649.md",
+        "04-knowledge/units/archives/harris-andrea-sacchi-1977.md",
         "04-knowledge/units/archives/honour-patrons-painters-review-1963.md",
         "04-knowledge/units/archives/lanfranco-barberini-letter-1640.md",
         "04-knowledge/units/archives/lhoggidi-1627.md",
@@ -2687,6 +2722,7 @@
         "04-knowledge/units/archives/salviati-medici-letter-1662.md",
         "04-knowledge/units/archives/savini-gubbio-terms-1608.md",
         "04-knowledge/units/archives/testi-fontana-bernini-letter.md",
+        "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
         "04-knowledge/units/archives/us-copyright-law.md",
         "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
         "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
@@ -2842,12 +2878,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 325,
+      "total": 327,
       "coverage": {
-        "name_original": "0/325",
-        "language_original": "0/325",
-        "name_zh": "0/325",
-        "translation_status": "0/325"
+        "name_original": "0/327",
+        "language_original": "0/327",
+        "name_zh": "0/327",
+        "translation_status": "0/327"
       }
     },
     "families": {
@@ -2860,12 +2896,12 @@
       }
     },
     "institutions": {
-      "total": 100,
+      "total": 108,
       "coverage": {
-        "name_original": "0/100",
-        "name_original_language": "0/100",
-        "name_zh": "0/100",
-        "translation_status": "0/100"
+        "name_original": "0/108",
+        "name_original_language": "0/108",
+        "name_zh": "0/108",
+        "translation_status": "0/108"
       }
     },
     "works": {
@@ -2877,11 +2913,11 @@
       }
     },
     "archives": {
-      "total": 56,
+      "total": 58,
       "coverage": {
-        "title_original": "0/56",
-        "title_original_language": "0/56",
-        "title_zh": "0/56"
+        "title_original": "0/58",
+        "title_original_language": "0/58",
+        "title_zh": "0/58"
       }
     },
     "terms": {
@@ -2895,9 +2931,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 725,
-    "indexed": 725,
-    "declared_total": 725,
+    "expected": 737,
+    "indexed": 737,
+    "declared_total": 737,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2972,22 +3008,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 855,
+    "total_units": 867,
     "source_count_distribution": {
-      "multi_source": 593,
-      "single_source": 262
+      "multi_source": 610,
+      "single_source": 257
     },
     "confidence_distribution": {
-      "missing": 855
+      "missing": 867
     },
     "consensus_distribution": {
-      "missing": 855
+      "missing": 867
     },
     "evidence_status_distribution": {
-      "source_backed": 855
+      "source_backed": 867
     },
     "isolated_units": {
-      "count": 509,
+      "count": 521,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2997,12 +3033,14 @@
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
         "archives/goldoni-opere-vol-2-1761.md",
+        "archives/harris-andrea-sacchi-1977.md",
         "archives/honour-patrons-painters-review-1963.md",
         "archives/montaiglon-academy-correspondence.md",
         "archives/museum-studies-art-institute-chicago.md",
         "archives/pastor-popes-english-vol33.md",
         "archives/patrons-and-painters.md",
         "archives/poerson-letter-1708.md",
+        "archives/torcellan-andrea-memmo-1963.md",
         "archives/us-copyright-law.md",
         "archives/waterhouse-rome-painting-1971.md",
         "events/san-clemente-redecoration.md",
@@ -3011,9 +3049,7 @@
         "families/sacchetti-family.md",
         "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
-        "institutions/alte-pinakothek.md",
-        "institutions/apostolic-chamber.md",
-        "institutions/art-institute-of-chicago.md"
+        "institutions/alte-pinakothek.md"
       ]
     },
     "candidate_debt": {
@@ -3030,7 +3066,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 262,
+      "single_source_units": 257,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3055,7 +3091,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 855,
+    "total_files": 867,
     "total_findings": 0
   }
 }

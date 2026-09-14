@@ -1,4 +1,4 @@
-# 当前有效成果：855 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
+# 当前有效成果：867 个 KU；登记不表示对齐、补足或关系已完成；状态见各任务results。
 units:
 - 04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -30,6 +30,7 @@ units:
 - 04-knowledge/units/archives/goldoni-opere-vol-2-1761.md
 - 04-knowledge/units/archives/grassi-cortona-bozzetti-1957.md
 - 04-knowledge/units/archives/guercino-ruffo-letter-1649.md
+- 04-knowledge/units/archives/harris-andrea-sacchi-1977.md
 - 04-knowledge/units/archives/honour-patrons-painters-review-1963.md
 - 04-knowledge/units/archives/lanfranco-barberini-letter-1640.md
 - 04-knowledge/units/archives/lhoggidi-1627.md
@@ -51,6 +52,7 @@ units:
 - 04-knowledge/units/archives/salviati-medici-letter-1662.md
 - 04-knowledge/units/archives/savini-gubbio-terms-1608.md
 - 04-knowledge/units/archives/testi-fontana-bernini-letter.md
+- 04-knowledge/units/archives/torcellan-andrea-memmo-1963.md
 - 04-knowledge/units/archives/us-copyright-law.md
 - 04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md
 - 04-knowledge/units/archives/waterhouse-rome-painting-1971.md
@@ -83,13 +85,16 @@ units:
 - 04-knowledge/units/institutions/biblioteca-casanatense.md
 - 04-knowledge/units/institutions/bibliotheque-nationale.md
 - 04-knowledge/units/institutions/british-museum.md
+- 04-knowledge/units/institutions/ca-foscari-university-venice.md
 - 04-knowledge/units/institutions/capitoline-museums.md
 - 04-knowledge/units/institutions/capuchins.md
 - 04-knowledge/units/institutions/chatto-and-windus.md
+- 04-knowledge/units/institutions/clark-art-institute.md
 - 04-knowledge/units/institutions/colnaghi.md
 - 04-knowledge/units/institutions/confraternita-san-giovanni-battista-decollato-bologna.md
 - 04-knowledge/units/institutions/confraternity-santanna-palafrenieri.md
 - 04-knowledge/units/institutions/correr-library.md
+- 04-knowledge/units/institutions/courtauld-institute-of-art.md
 - 04-knowledge/units/institutions/detroit-institute-of-arts.md
 - 04-knowledge/units/institutions/dusseldorf-electoral-picture-gallery.md
 - 04-knowledge/units/institutions/fabbrica-di-san-pietro.md
@@ -120,6 +125,7 @@ units:
 - 04-knowledge/units/institutions/metropolitan-museum-of-art.md
 - 04-knowledge/units/institutions/ministry-of-works.md
 - 04-knowledge/units/institutions/musee-cognacq-jay.md
+- 04-knowledge/units/institutions/musei-civici-veneziani.md
 - 04-knowledge/units/institutions/museo-correr.md
 - 04-knowledge/units/institutions/museo-del-prado.md
 - 04-knowledge/units/institutions/museo-di-capodimonte.md
@@ -149,6 +155,7 @@ units:
 - 04-knowledge/units/institutions/sanssouci-picture-gallery.md
 - 04-knowledge/units/institutions/schildersbent.md
 - 04-knowledge/units/institutions/service-de-documentation-photographique-des-musees-nationaux.md
+- 04-knowledge/units/institutions/sir-john-soanes-museum.md
 - 04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md
 - 04-knowledge/units/institutions/staatsgalerie-stuttgart.md
 - 04-knowledge/units/institutions/stearn-and-son.md
@@ -161,6 +168,9 @@ units:
 - 04-knowledge/units/institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md
 - 04-knowledge/units/institutions/uffizi-gallery.md
 - 04-knowledge/units/institutions/university-library-cambridge.md
+- 04-knowledge/units/institutions/university-of-padua.md
+- 04-knowledge/units/institutions/university-of-pittsburgh.md
+- 04-knowledge/units/institutions/university-of-turin.md
 - 04-knowledge/units/institutions/victoria-and-albert-museum.md
 - 04-knowledge/units/institutions/virginia-museum-of-fine-arts.md
 - 04-knowledge/units/institutions/wadsworth-atheneum.md
@@ -188,6 +198,7 @@ units:
 - 04-knowledge/units/persons/ameyden.md
 - 04-knowledge/units/persons/amigoni.md
 - 04-knowledge/units/persons/andrea-camassei.md
+- 04-knowledge/units/persons/andrea-memmo.md
 - 04-knowledge/units/persons/andrea-pozzo.md
 - 04-knowledge/units/persons/andrea-procaccini.md
 - 04-knowledge/units/persons/andrea-sacchi.md
@@ -357,6 +368,7 @@ units:
 - 04-knowledge/units/persons/john-r-freeman.md
 - 04-knowledge/units/persons/john-strange.md
 - 04-knowledge/units/persons/juan-de-pareja.md
+- 04-knowledge/units/persons/jules-guiffrey.md
 - 04-knowledge/units/persons/laerzio-cherubini.md
 - 04-knowledge/units/persons/larissa-dedicatee.md
 - 04-knowledge/units/persons/leo-x.md

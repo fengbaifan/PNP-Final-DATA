@@ -4,21 +4,22 @@ name_en: Art Institute of Chicago
 type: institution
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiii；OCR L72–72
   sentence_summary: 图版19b目录将其记为书中收藏／保管者。
   original_quotes:
   - source_span: lines 72–72
-    text: '19 a Poussin: Moses trampling on Pharaoh’s crown (Louvre) b Claude: View of Delphi with a Procession
-      (Art Institute of Chicago Robert A. Waller Fund)'
+    text: '19 a Poussin: Moses trampling on Pharaoh’s crown (Louvre) b Claude: View of Delphi with a Procession (Art Institute of Chicago Robert A. Waller Fund)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 72–72; 章前：图版目录；印刷页xiii
+- citation: University of Virginia, Architectural Historian and Museum Curator Bruce Ambler Boucher Appointed Director of the University of Virginia Art Museum, Newswise. https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum. Accessed 2026-09-14.
+  location: 完整大学任命新闻正文；可见页未显示明确发布日期
+  sentence_summary: 全名Bruce Ambler Boucher，建筑史学者、策展人；2002起任Art Institute of Chicago欧洲雕塑策展人；在Courtauld获硕士及博士。新闻说将于3月1日赴Virginia任职，未把无年份的预告写为已就任日期。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
 ---
 
 ## 内容
@@ -43,7 +44,17 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 图版19b角色 | 书中收藏／保管者 | S1 |
 | 图版19b相关对象 | [有队列的德尔斐景观](../works/claude-view-of-delphi-with-a-procession.md)；书中收藏／保管者 | S1 |
 
+### 馆务人员
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 2002年起任欧洲雕塑策展人 | [布鲁斯·安布勒·鲍彻](../persons/bruce-boucher.md) | S2 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[UVA履历中的机构任职记录](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)（S2）。
 
 ### 关系记录
 

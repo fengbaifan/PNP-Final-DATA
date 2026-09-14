@@ -1,12 +1,21 @@
 ---
-title: "皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）"
-name_en: "Pier Francesco Mola"
+title: 皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）
+name_en: Pier Francesco Mola
 type: person
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
 relations:
-  - {"relation_type":"uses_procedure","target":"procedures/iconographic-consultation.md","note":"借神谱、注释本 Virgil 并请教学者，选择四元素图像内容。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 308–319; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+- relation_type: uses_procedure
+  target: procedures/iconographic-consultation.md
+  note: 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容。
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 308–319; print pp. 9
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 6.'
   location: 第一章；印刷页 6；OCR L179–185
@@ -16,15 +25,20 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 179–185; print pp. 6
   original_quotes:
-  - source_span: "lines 179–185"
-    text: |2-
-      3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+  - source_span: lines 179–185
+    text: '3 Montako, p. 295, for the important evidence of Alessandro Vasalli, a painter who testified on Mola’s
+
       behalf in his troubles with Prince Pamfili: ‘Io so che quando una persona di qualche professione è arrollato
+
       tra la famiglia de’ Principi e tra Virtuosi de Principi con assegnamento di pane sono obbligati a preferir
+
       qualche Pnpe o Prnpessa per ogni loro operazione, ma però pagandoglieli le sue opere quello che vagliono
+
       e perciò non è obbligato a servire quel Pnpe con la sua Professione, senza una mercede, o salario, ma come
+
       ho detto deve preferire quel Pnpe ad ogni altro per il tenor dela loro professione e questo lo so perchè cosi ne
-      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’
+
+      gli insegna la ragion naturale e per haverlo anco sentito dire tra Pittori in ordine alla Professione. . . .’'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L231–233
   sentence_summary: Valmontone 工作期间短暂离开亦须许可。
@@ -33,11 +47,12 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 231–233; print pp. 7
   original_quotes:
-  - source_span: "lines 231–233"
-    text: |2-
-      3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+  - source_span: lines 231–233
+    text: '3 For the Duke of Bracciano’s reluctance to let Pietro Mulier leave Rome see Pascoli, I, p. 180. Pier
+
       Francesco Mola and Guglielmo Cortese had to get special permission to leave Valmontone for a few days
-      when they were employed there by Prince Pamfili—Montalto, p. 288.
+
+      when they were employed there by Prince Pamfili—Montalto, p. 288.'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L312–319
   sentence_summary: 借书咨询神话题材，形成四元素及空气方案。
@@ -46,16 +61,22 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 312–319; print pp. 9
   original_quotes:
-  - source_span: "lines 312–319"
-    text: |2-
-      When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+  - source_span: lines 312–319
+    text: 'When Prince Pamfili, for instance, commissioned Pier Francesco Mola to paint the
+
       Four Elements in his country house at Valmontone, the artist went to a lawyer of some
+
       standing in the district and asked to borrow a genealogy of the gods and a Virgil with
+
       a commentary so that he could pick suitable myths for representation. Basing himself
+
       on these books and on friendly conversations, he then chose to depict the Element of
+
       Air by showing ‘Juno reputed to be the goddess of Air in the act of leaving the clouds;
+
       the Milky Way; the rape of Chloris by Zephyr; the rape of Ganymede; and the
-      apparition of Iris to Turnus.’4
+
+      apparition of Iris to Turnus.’4'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 13.'
   location: 第一章；印刷页 13；OCR L495–497,505–506,516–519
   sentence_summary: 工程预付、食宿及材料条件。
@@ -64,21 +85,24 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 495–497,505–506,516–519; print pp. 13
   original_quotes:
-  - source_span: "lines 495–497"
-    text: |2-
-      board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+  - source_span: lines 495–497
+    text: 'board and lodging for him. It was claimed of Prince Pamfili, for instance, that he
+
       treated Pier Francesco Mola, who was decorating his villa at Valmontone, Eke one of
-      his own retinue, giving him ‘fowl, veal and similar delicacies’.5
-  - source_span: "lines 505–506"
-    text: |2-
-      p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
-      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri
-  - source_span: "lines 516–519"
-    text: |2-
-      ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+
+      his own retinue, giving him ‘fowl, veal and similar delicacies’.5'
+  - source_span: lines 505–506
+    text: 'p. 19). More typical is the case of Pier Francesco Mola who for his frescoes at Valmontone was to be given
+
+      3 00 scudi immediately and the remaining 1000 in stages as he worked (Montalto, p. 2 8 7); or of Ciro Ferri'
+  - source_span: lines 516–519
+    text: 'ultramarine for his altarpiece in the Chiesa de’ Servi in Bologna (Luzio, p. 48): in 1657 Prince Pamfili
+
       agreed to pay for ‘il bianco macinato, pennelli, e coccioli smaltirli, terra verde, verdetti, lacche fine, e
+
       pavonazzo di sole et azzurro oltramare’ to be used by Pier Francesco Mola in his frescoes at Valmontone,
-      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).
+
+      while the artist was to pay for the remaining colours, paper, etc. (Montalto, p. 287).'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
   location: 第一章；印刷页 19；OCR L764–770
   sentence_summary: Innocent X 递画布属母题类比；Christina 邀同乘被认为较可能真实。
@@ -87,40 +111,44 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 764–770; print pp. 19
   original_quotes:
-  - source_span: "lines 764–770"
-    text: |2-
-      we hear are merely refurbished versions of Ridolfi’s account of Charles V’s picking up
+  - source_span: lines 764–770
+    text: 'we hear are merely refurbished versions of Ridolfi’s account of Charles V’s picking up
+
       Titian’s brushes for the artist—Cardinal Barberini holding a mirror for Bernini while
+
       he worked at his self-portrait in the guise of David,1 Innocent X handing Pier Francesco
+
       Mola a canvas, and so on.2 Such stories have at least symbolic value. More likely to be
+
       true in a strict sense are the accounts of Queen Christina taking the same artist (a
+
       particularly successful courtier) into her carriage, and the Spanish Ambassador taking
-      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
-- citation: "Wikipedia (en), Pier Francesco Mola, revision 1370493551. https://en.wikipedia.org/wiki/Pier_Francesco_Mola. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "Pier Francesco Mola／Il Ticinese，1612–1666 年在罗马活动的画家；文化／现代国籍标签不自动采用。"
-- citation: "Wikidata, Q1192715, revision 2540078460. https://www.wikidata.org/wiki/Q1192715. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "Pier Francesco Mola／Il Ticinese，1612–1666 年在罗马活动的画家；文化／现代国籍标签不自动采用。"
-- citation: "Wikipedia (en), Pier Francesco Mola, revision 1370493551. https://en.wikipedia.org/wiki/Pier_Francesco_Mola. Read 2026-09-11."
-  location: "全文12269字符，含早中晚期、作品／图注、师生、参考文献"
-  sentence_summary: "旅行、绘画、素描、晚期委托与诉讼；生日／洗礼、定居与Albani训练年代、Valentino地名等需分别核。"
-- citation: "Wikidata, Q1192715, revision 2540078460. https://www.wikidata.org/wiki/Q1192715. Read 2026-09-11."
-  location: "enwiki；性别、生卒、父亲、出生／死亡地、职业、师承和国籍，含引用"
-  sentence_summary: "绘画／素描职业可用；出生精确日与洗礼混用风险，瑞士国籍及无引师承不机械采用。"
-- citation: "Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11."
-  location: "全文20600字符，含生平、作品、诉讼及书目"
-  sentence_summary: "1612-02-09为洗礼日；母亲、姐妹；Albani训练与1647/1649定居存在文献分歧；Valmontone方案非已签合同，毁画／重绘分开。"
-- citation: "J. Paul Getty Museum, The Vision of Saint Bruno, object 89.PA.4. https://artsandculture.google.com/asset/the-vision-of-saint-bruno-0102/hgHsqwG37Lmyyw. Accessed 2026-09-11."
-  location: "Getty提供的Google Arts & Culture完整说明与对象字段；Getty原站对象103RJF要求JavaScript，未读原站完整记录"
-  sentence_summary: "约1660，布面油画，194×136.8厘米，89.PA.4；区别WP1662–63及同题变体。"
-- citation: "J. Paul Getty Museum, The J. Paul Getty Museum Journal 19 (1991). https://www.getty.edu/publications/virtuallibrary/0892362081.html. Accessed 2026-09-11."
-  location: "出版物介绍和目录全文；Carr论文PDF仅搜索结果呈现p109片段，未全篇阅读"
-  sentence_summary: "Carr的Ecstasy in the Wilderness为研究入口；不能将所有同题素描认定为89.PA.4直接准备稿。"
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+
+      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected'
+- citation: Wikipedia (en), Pier Francesco Mola, revision 1370493551. https://en.wikipedia.org/wiki/Pier_Francesco_Mola. Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: Pier Francesco Mola／Il Ticinese，1612–1666 年在罗马活动的画家；文化／现代国籍标签不自动采用。
+- citation: Wikidata, Q1192715, revision 2540078460. https://www.wikidata.org/wiki/Q1192715. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: Pier Francesco Mola／Il Ticinese，1612–1666 年在罗马活动的画家；文化／现代国籍标签不自动采用。
+- citation: Wikipedia (en), Pier Francesco Mola, revision 1370493551. https://en.wikipedia.org/wiki/Pier_Francesco_Mola. Read 2026-09-11.
+  location: 全文12269字符，含早中晚期、作品／图注、师生、参考文献
+  sentence_summary: 旅行、绘画、素描、晚期委托与诉讼；生日／洗礼、定居与Albani训练年代、Valentino地名等需分别核。
+- citation: Wikidata, Q1192715, revision 2540078460. https://www.wikidata.org/wiki/Q1192715. Read 2026-09-11.
+  location: enwiki；性别、生卒、父亲、出生／死亡地、职业、师承和国籍，含引用
+  sentence_summary: 绘画／素描职业可用；出生精确日与洗礼混用风险，瑞士国籍及无引师承不机械采用。
+- citation: Laura Possanzini, MOLA, Pier Francesco, Dizionario Biografico degli Italiani 75 (2011). https://www.treccani.it/enciclopedia/pier-francesco-mola_(Dizionario-Biografico)/. Accessed 2026-09-11.
+  location: 全文20600字符，含生平、作品、诉讼及书目
+  sentence_summary: 1612-02-09为洗礼日；母亲、姐妹；Albani训练与1647/1649定居存在文献分歧；Valmontone方案非已签合同，毁画／重绘分开。
+- citation: J. Paul Getty Museum, The Vision of Saint Bruno, object 89.PA.4. https://artsandculture.google.com/asset/the-vision-of-saint-bruno-0102/hgHsqwG37Lmyyw. Accessed 2026-09-11.
+  location: Getty提供的Google Arts & Culture完整说明与对象字段；Getty原站对象103RJF要求JavaScript，未读原站完整记录
+  sentence_summary: 约1660，布面油画，194×136.8厘米，89.PA.4；区别WP1662–63及同题变体。
+- citation: J. Paul Getty Museum, The J. Paul Getty Museum Journal 19 (1991). https://www.getty.edu/publications/virtuallibrary/0892362081.html. Accessed 2026-09-11.
+  location: 出版物介绍和目录全文；Carr论文PDF仅搜索结果呈现p109片段，未全篇阅读
+  sentence_summary: Carr的Ecstasy in the Wilderness为研究入口；不能将所有同题素描认定为89.PA.4直接准备稿。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xvi；OCR L150–151
-  sentence_summary: 图版65a将其列为《西莫内利与莫拉联合漫画》的创作者。 图版65a目录将其记为自我描绘者。
+  sentence_summary: 图版65a将其列为《西莫内利与莫拉联合漫画》的创作者。 图版65a将其列为描绘对象，未说明各自画谁。
   original_quotes:
   - source_span: lines 150–151
     text: '65 a Mola and Simonelli: Joint caricature of Simonelli and Mola 400
@@ -130,8 +158,7 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 150–151; 章前：图版目录；印刷页xvi
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xvi；OCR L152–153
   sentence_summary: 图版65b目录将其记为描绘／纪念对象。
   original_quotes:
@@ -143,7 +170,19 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 152–153; 章前：图版目录；印刷页xvi
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pier-francesco-mola
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006), Postscript, p.401.
+  location: 书后补记：Chapter 5小节；印刷页401；OCR L90–91；仅定向核对图版65a
+  sentence_summary: 双人漫画由Niccolo Simonelli与其画家朋友Pierfrancesco Mola共同创作；未说明各自画谁。
+  original_quotes:
+  - source_span: lines 90–91
+    text: 'An engaging double caricature made by Niccolo Simonelli and his friend the artist
+
+      Pierfrancesco Mola has come to light (Plate 65 a).'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
+    source_span: lines 90–91; print p.401
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
 ---
 
 ## 内容
@@ -227,11 +266,18 @@ WP关于“小画优于壁画”、风格综合和健康受诉讼影响的说法
 | 字段 | 值 | 证据 |
 |---|---|---|
 | 图版65a角色 | 创作 | S13 |
-| 图版65a角色 | 自我描绘者 | S13 |
+| 图版65a角色 | 描绘对象 | S13 |
 | 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；创作者 | S13 |
-| 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；自我描绘者 | S13 |
+| 图版65a相关对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md)；描绘对象 | S13 |
 | 图版65b角色 | 描绘／纪念对象 | S14 |
 | 图版65b相关对象 | [莫拉为亚历山大七世作像](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md)；描绘／纪念对象 | S14 |
+
+### 图版65a的交往与合作
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 朋友 | [尼科洛·西莫内利](simonelli.md) | S15 |
+| 共同创作对象 | [西莫内利与莫拉联合漫画](../works/mola-joint-caricature-of-simonelli-and-mola.md) | S15 |
 
 ## 关系与证据
 
@@ -248,5 +294,9 @@ WP关于“小画优于壁画”、风格综合和健康受诉讼影响的说法
 
 ### 身份与外部链接
 
+[原书补记p.401](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（S15，具名朋友与共同创作）。
+
 - [Wikipedia](https://en.wikipedia.org/wiki/Pier_Francesco_Mola)
 - [Wikidata Q1192715](https://www.wikidata.org/wiki/Q1192715)
+
+[第一章既有处理依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pier-francesco-mola)

@@ -16,7 +16,13 @@ sources:
 - citation: Wikidata, Q841506. https://www.wikidata.org/wiki/Q841506. Accessed 2026-09-13.
   location: labels、descriptions、P31及适用标识／sitelink；不机械采纳全部声明
   sentence_summary: 用于Galleria Borghese的同粒度身份核对；QID不验证本卡全部事实。
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-galleria-borghese
+- citation: Pier Ludovico Puddu, Prospetto di Villa Borghese, Galleria Borghese (October 2023). https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese. Accessed 2026-09-14.
+  location: 完整技术字段与正文；书目为参考入口，未读所引原件
+  sentence_summary: Johann Wilhelm Baur（1607–1642），1636年羊皮纸蛋彩，30×45 cm，库存519，签名纪年1636。1693已见收藏清单；1641另有不同人物版本。Marcantonio II委托属推测；网页未标日期的巴黎借展状态不作当前事实。
+- citation: ICCD, Prospetto di Villa Borghese, catalogo 1201008256. https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201008256. Accessed 2026-09-14.
+  location: 完整对象记录、作者、材质、库存与铭文
+  sentence_summary: Baur Johann Wilhelm（1607–1642），1636年，羊皮纸绘画，Galleria Borghese库存519；铭文FECIT1636。与馆方同对象、同收藏记录，不视为两项独立原始证据。
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
 ---
 
 ## 内容
@@ -40,6 +46,12 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 作品的所有权、保管、展陈建筑和实际安置分别建模。本卡只接受作品来源明确支持的机构角色，不从机构通史递归扩张全部藏品、分馆或负责人。
 
+### 章前图版对应馆藏
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 库存519 | [鲍尔的博尔盖塞别墅景观](../works/guglielmo-baur-view-of-villa-borghese-in-1630.md) | S4、S5 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -54,5 +66,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 身份与外部链接
 
+[本馆库存519](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)（S4）；[ICCD保管字段](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201008256)（S5）。
+
 - [Wikipedia：Galleria Borghese](https://en.wikipedia.org/wiki/Galleria_Borghese)
 - [Wikidata Q841506](https://www.wikidata.org/wiki/Q841506)
+
+[第一章既有处理依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-institutions-galleria-borghese)

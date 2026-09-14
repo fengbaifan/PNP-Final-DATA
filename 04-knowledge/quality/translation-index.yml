@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 725
+total: 737
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -9,8 +9,8 @@ index:
   language_original: ''
 - slug: persons/a-de-montaiglon
   type: persons
-  name_en: A. de Montaiglon
-  title: A. 德·蒙泰格隆（A. de Montaiglon）
+  name_en: Anatole Courde de Montaiglon
+  title: 阿纳托尔·库尔德·德·蒙泰格隆（Anatole Courde de Montaiglon）
   name_original: ''
   language_original: ''
 - slug: persons/a-m-zanetti-the-elder
@@ -119,6 +119,12 @@ index:
   type: persons
   name_en: '"Andrea Camassei"'
   title: '"安德烈亚·卡马塞伊（Andrea Camassei）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/andrea-memmo
+  type: persons
+  name_en: Andrea Memmo
+  title: 安德烈亚·梅莫（Andrea Memmo）
   name_original: ''
   language_original: ''
 - slug: persons/andrea-pozzo
@@ -285,8 +291,8 @@ index:
   language_original: ''
 - slug: persons/bruce-boucher
   type: persons
-  name_en: Bruce Boucher
-  title: 布鲁斯·鲍彻（Bruce Boucher）
+  name_en: Bruce Ambler Boucher
+  title: 布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）
   name_original: ''
   language_original: ''
 - slug: persons/burnacini
@@ -747,8 +753,8 @@ index:
   language_original: ''
 - slug: persons/g-h-w-rylands
   type: persons
-  name_en: G. H. W. Rylands
-  title: G. H. W. 赖兰兹（G. H. W. Rylands）
+  name_en: George Humphrey Wolferstan Rylands
+  title: 乔治·汉弗莱·沃尔弗斯坦·赖兰兹（George Humphrey Wolferstan Rylands）
   name_original: ''
   language_original: ''
 - slug: persons/g-m-sasso
@@ -1023,8 +1029,8 @@ index:
   language_original: ''
 - slug: persons/guglielmo-baur
   type: persons
-  name_en: Guglielmo Baur
-  title: 古列尔莫·鲍尔（Guglielmo Baur）
+  name_en: Johann Wilhelm Baur
+  title: 约翰·威廉·鲍尔（Johann Wilhelm Baur）
   name_original: ''
   language_original: ''
 - slug: persons/guglielmo-cortese
@@ -1157,6 +1163,12 @@ index:
   type: persons
   name_en: Juan de Pareja
   title: 胡安·德·帕雷哈（Juan de Pareja）
+  name_original: ''
+  language_original: ''
+- slug: persons/jules-guiffrey
+  type: persons
+  name_en: Jules Guiffrey
+  title: 朱尔·吉弗雷（Jules Guiffrey）
   name_original: ''
   language_original: ''
 - slug: persons/laerzio-cherubini
@@ -1599,8 +1611,8 @@ index:
   language_original: ''
 - slug: persons/pier-francesco-mola
   type: persons
-  name_en: '"Pier Francesco Mola"'
-  title: '"皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）"'
+  name_en: Pier Francesco Mola
+  title: 皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）
   name_original: ''
   language_original: ''
 - slug: persons/pier-leone-ghezzi
@@ -1797,8 +1809,8 @@ index:
   language_original: ''
 - slug: persons/simonelli
   type: persons
-  name_en: Simonelli
-  title: 西莫内利（Simonelli）
+  name_en: Niccolò Simonelli
+  title: 尼科洛·西莫内利（Niccolò Simonelli）
   name_original: ''
   language_original: ''
 - slug: persons/sixtus-v
@@ -2341,6 +2353,12 @@ index:
   title: '"圭尔奇诺致安东尼奥·鲁福的信（1649-09-25）（Letter from Guercino to Antonio Ruffo (1649-09-25)）"'
   name_original: ''
   language_original: ''
+- slug: archives/harris-andrea-sacchi-1977
+  type: archives
+  name_en: Andrea Sacchi, Harris 1977
+  title: 安德烈亚·萨基（Andrea Sacchi, Harris 1977）
+  name_original: ''
+  language_original: ''
 - slug: archives/honour-patrons-painters-review-1963
   type: archives
   name_en: Hugh Honour's 1963 review of Patrons and Painters
@@ -2386,7 +2404,7 @@ index:
 - slug: archives/montaiglon-academy-correspondence
   type: archives
   name_en: Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings
-  title: '"罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superinte'
+  title: 罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superinten
   name_original: ''
   language_original: ''
 - slug: archives/museum-studies-art-institute-chicago
@@ -2471,6 +2489,12 @@ index:
   type: archives
   name_en: '"Letter from Fulvio Testi to Francesco Fontana"'
   title: '"富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）"'
+  name_original: ''
+  language_original: ''
+- slug: archives/torcellan-andrea-memmo-1963
+  type: archives
+  name_en: '''An Eighteenth-Century Venetian Figure: Andrea Memmo'''
+  title: '''18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）'''
   name_original: ''
   language_original: ''
 - slug: archives/us-copyright-law
@@ -3835,6 +3859,12 @@ index:
   title: 大英博物馆（British Museum）
   name_original: ''
   language_original: ''
+- slug: institutions/ca-foscari-university-venice
+  type: institutions
+  name_en: Ca’ Foscari University of Venice
+  title: 威尼斯卡福斯卡里大学（Ca’ Foscari University of Venice）
+  name_original: ''
+  language_original: ''
 - slug: institutions/capitoline-museums
   type: institutions
   name_en: Capitoline Museums
@@ -3851,6 +3881,12 @@ index:
   type: institutions
   name_en: Chatto and Windus
   title: 查托与温达斯出版社（Chatto and Windus）
+  name_original: ''
+  language_original: ''
+- slug: institutions/clark-art-institute
+  type: institutions
+  name_en: Clark Art Institute
+  title: 克拉克艺术研究所（Clark Art Institute）
   name_original: ''
   language_original: ''
 - slug: institutions/colnaghi
@@ -3875,6 +3911,12 @@ index:
   type: institutions
   name_en: Correr Library
   title: 科雷尔图书馆（Correr Library）
+  name_original: ''
+  language_original: ''
+- slug: institutions/courtauld-institute-of-art
+  type: institutions
+  name_en: Courtauld Institute of Art
+  title: 考陶尔德艺术学院（Courtauld Institute of Art）
   name_original: ''
   language_original: ''
 - slug: institutions/detroit-institute-of-arts
@@ -4057,6 +4099,12 @@ index:
   title: 科涅克—杰博物馆（Musée Cognacq-Jay）
   name_original: ''
   language_original: ''
+- slug: institutions/musei-civici-veneziani
+  type: institutions
+  name_en: Musei civici veneziani
+  title: 威尼斯市立博物馆系统（Musei civici veneziani）
+  name_original: ''
+  language_original: ''
 - slug: institutions/museo-correr
   type: institutions
   name_en: Museo Correr
@@ -4231,6 +4279,12 @@ index:
   title: 法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）
   name_original: ''
   language_original: ''
+- slug: institutions/sir-john-soanes-museum
+  type: institutions
+  name_en: Sir John Soane’s Museum
+  title: 约翰·索恩爵士博物馆（Sir John Soane’s Museum）
+  name_original: ''
+  language_original: ''
 - slug: institutions/soprintendenza-alle-gallerie-florence
   type: institutions
   name_en: Soprintendenza alle Gallerie, Florence
@@ -4301,6 +4355,24 @@ index:
   type: institutions
   name_en: University Library, Cambridge
   title: 剑桥大学图书馆（University Library, Cambridge）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-of-padua
+  type: institutions
+  name_en: University of Padua
+  title: 帕多瓦大学（University of Padua）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-of-pittsburgh
+  type: institutions
+  name_en: University of Pittsburgh
+  title: 匹兹堡大学（University of Pittsburgh）
+  name_original: ''
+  language_original: ''
+- slug: institutions/university-of-turin
+  type: institutions
+  name_en: University of Turin
+  title: 都灵大学（University of Turin）
   name_original: ''
   language_original: ''
 - slug: institutions/victoria-and-albert-museum
