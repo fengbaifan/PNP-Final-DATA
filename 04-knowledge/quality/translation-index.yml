@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 719
+total: 725
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -137,6 +137,12 @@ index:
   type: persons
   name_en: '"Andrea Sacchi"'
   title: '"安德烈亚·萨基（Andrea Sacchi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/angela-mizzina
+  type: persons
+  name_en: Angela Mizzina
+  title: 安杰拉·米齐纳（Angela Mizzina）
   name_original: ''
   language_original: ''
 - slug: persons/ann-sutherland-harris
@@ -843,8 +849,8 @@ index:
   language_original: ''
 - slug: persons/giaquinto-front-matter
   type: persons
-  name_en: Giaquinto
-  title: 贾昆托（Giaquinto）
+  name_en: Corrado Giaquinto
+  title: 科拉多·贾昆托（Corrado Giaquinto）
   name_original: ''
   language_original: ''
 - slug: persons/gio-gasparo-baldoini
@@ -855,8 +861,8 @@ index:
   language_original: ''
 - slug: persons/gio-maria-bottalla
   type: persons
-  name_en: Gio. Maria Bottalla
-  title: 乔·马里亚·博塔拉（Gio. Maria Bottalla）
+  name_en: Giovanni Maria Bottalla
+  title: 乔万尼·马里亚·博塔拉（Giovanni Maria Bottalla）
   name_original: ''
   language_original: ''
 - slug: persons/giorgio-vasari
@@ -941,6 +947,12 @@ index:
   type: persons
   name_en: '"Giulio Mancini"'
   title: '"朱利奥·曼奇尼（Giulio Mancini）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giulio-sacchetti
+  type: persons
+  name_en: Giulio Sacchetti
+  title: 朱利奥·萨凯蒂（Giulio Sacchetti）
   name_original: ''
   language_original: ''
 - slug: persons/giuseppe-angeli
@@ -1425,8 +1437,8 @@ index:
   language_original: ''
 - slug: persons/olimpia-aldobrandini
   type: persons
-  name_en: '"Olimpia Aldobrandini"'
-  title: '"奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）"'
+  name_en: Olimpia Aldobrandini
+  title: 奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）
   name_original: ''
   language_original: ''
 - slug: persons/olimpia-maidalchini
@@ -1635,8 +1647,8 @@ index:
   language_original: ''
 - slug: persons/pietro-da-cortona
   type: persons
-  name_en: '"Pietro da Cortona"'
-  title: '"皮耶特罗·达·科尔托纳（Pietro da Cortona）"'
+  name_en: Pietro da Cortona
+  title: 皮耶特罗·达·科尔托纳（Pietro da Cortona）
   name_original: ''
   language_original: ''
 - slug: persons/pietro-di-pietri
@@ -1719,8 +1731,8 @@ index:
   language_original: ''
 - slug: persons/ribera
   type: persons
-  name_en: Ribera
-  title: 里贝拉（Ribera）
+  name_en: Jusepe de Ribera
+  title: 胡塞佩·德·里贝拉（Jusepe de Ribera）
   name_original: ''
   language_original: ''
 - slug: persons/robert-enggass
@@ -1749,8 +1761,8 @@ index:
   language_original: ''
 - slug: persons/sassoferrato
   type: persons
-  name_en: Sassoferrato
-  title: 萨索费拉托（Sassoferrato）
+  name_en: Giovanni Battista Salvi
+  title: 乔万尼·巴蒂斯塔·萨尔维（Giovanni Battista Salvi）
   name_original: ''
   language_original: ''
 - slug: persons/saverio-savini
@@ -1799,6 +1811,12 @@ index:
   type: persons
   name_en: Francesco Solimena
   title: 弗朗切斯科·索利梅纳（Francesco Solimena）
+  name_original: ''
+  language_original: ''
+- slug: persons/tarquinio-salvi
+  type: persons
+  name_en: Tarquinio Salvi
+  title: 塔尔奎尼奥·萨尔维（Tarquinio Salvi）
   name_original: ''
   language_original: ''
 - slug: persons/teodoro-correr
@@ -1901,6 +1919,12 @@ index:
   type: persons
   name_en: Vitale Bloch
   title: 维塔莱·布洛赫（Vitale Bloch）
+  name_original: ''
+  language_original: ''
+- slug: persons/vittoria-di-lutio-loli
+  type: persons
+  name_en: Vittoria di Lutio Loli
+  title: 维托里娅·迪·卢蒂奥·洛利（Vittoria di Lutio Loli）
   name_original: ''
   language_original: ''
 - slug: persons/viviano-codazzi
@@ -3205,6 +3229,12 @@ index:
   title: 撒迦利亚被石击（The stoning of Zechariah）
   name_original: ''
   language_original: ''
+- slug: works/giaquinto-san-nicola-dei-lorenesi-decoration
+  type: works
+  name_en: Giaquinto’s Decoration of San Nicola dei Lorenesi
+  title: 贾昆托的洛林人圣尼古拉堂装饰（Giaquinto’s Decoration of San Nicola dei Lorenesi）
+  name_original: ''
+  language_original: ''
 - slug: works/gio-maria-bottalla-meeting-of-esau-and-jacob
   type: works
   name_en: Meeting of Esau and Jacob
@@ -3713,6 +3743,12 @@ index:
   type: families
   name_en: Rezzonico family
   title: 雷佐尼科家族（Rezzonico family）
+  name_original: ''
+  language_original: ''
+- slug: families/sacchetti-family
+  type: families
+  name_en: Sacchetti Family
+  title: 萨凯蒂家族（Sacchetti Family）
   name_original: ''
   language_original: ''
 - slug: institutions/a-villani-e-figli

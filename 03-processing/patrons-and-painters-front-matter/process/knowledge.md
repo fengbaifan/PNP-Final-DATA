@@ -1183,3 +1183,23 @@ REV-093同轮接续，2026-09-14。对本书作者、献辞及序言帮助者进
 32卡经可审阅差异及输入一致性预检后串行写回，核对25条原书原句、143条本地链接、全部新增来源编号及过程锚点；844个有效路径和470个任务KU计数一致。原sources前缀、正式relations及accepted非units字段保留，受影响卡内容机械检查无确定性发现，过程／结果文件链接与`git diff --check`通过。临时检查脚本首次对全库旧卡假定都有sources导致KeyError，已限定计数读取兼容缺省；32张本轮卡的来源仍逐项必检，重跑通过。本轮为直接语义工作与自查，不是独立或人工验收。
 
 成果未再次提交推送；生成索引仍为c2164c6同步基线，下一次授权同步时刷新。继续处理其余人物、机构、文献和作品的初步身份与版本缺口，再按现有外部和原文候选进入全面补足及正式关系审查；不启动知识发现或页面。
+## 图版画家与作品版本集中核对
+
+REV-093接续，2026-09-14，REV-098同步后。本组更新13张、新增11张，围绕图版11a、21a、28a、32a及导言Giaquinto展开；不新增正式关系，9项主候选暂缓不变。新端点只承接本次已经采用的具体事实，不递归收集传记所有作品和亲属。
+
+| 原文对象与问题 | 实际读取的来源 | 采用、排除与关系交接 |
+|---|---|---|
+| FM-P32a，L92，xiv；Ribera及《醉西勒诺斯》 | [ICCD 1500626054／Q298](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)完整对象记录；[2024借展清单](https://capodimonte.cultura.gov.it/mdc/uploads/2024/10/24.10.2024_opere-in-prestito_Capodimonte_elenco-completo-1.pdf)PDF16整页及页脚；[2018 Carta Bianca](https://capodimonte.cultura.gov.it/mdc/uploads/2018/03/Cartella-stampa_Carta-Bianca.pdf)PDF19作品清单 | Ribera展开Jusepe de Ribera；作者、同题、1626、Capodimonte及Q298对应。采用油画媒介、库存号，185×229与179×228 cm并列，不猜测画框或裁切原因。作者→作品→保管机构各有现成端点；Q298不是外部QID。 |
+| FM-P21a／21b，L74，xiii；Sassoferrato及玫瑰圣母委托 | [Blasio，DBI 90，2017](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)传记和书目完整阅读；[National Gallery](https://www.nationalgallery.org.uk/artists/sassoferrato)完整人物短文及作品索引摘要；[Italia.it Santa Sabina](https://www.italia.it/it/lazio/roma/s-sabina-all-aventino)完整地点说明与地址 | 展开Giovanni Battista Salvi，保留别称；新增父Tarquinio、母Vittoria、妻Angela和出生城镇。父亲首位教师保留“可能”；1629在Domenichino家居住不直接提升为已证师生。21a采用1643年40 scudi付款及教堂／小堂空间端点。21b同题版本仍未配定，未套入Corsini其他对象的尺寸或库存。 |
+| 21a委托者及空间粒度 | 同一DBI称Olimpia Pamphili principessa di Rossano，并明确Camillo Pamphili为其丈夫；对照[既有Olimpia Aldobrandini卡](../../../04-knowledge/units/persons/olimpia-aldobrandini.md)中婚后名、配偶和生卒依据 | 复用Olimpia Aldobrandini，不误配Olimpia Maidalchini，不因1643年付款倒推1643年已经与Camillo结婚。金额来自DBI转引Archivio Doria Pamphilj 86/54 f.26r，未查原件；该DBI书目包含Haskell，不能以不同域名视为完全独立于本书。Italia.it将画定位d’Elci小堂，故新增place；[Roma旅游的博物馆介绍](https://www.turismoroma.it/it/node/216)亦提同题作品，本轮未据此判定原画已经迁入博物馆。空间记录不声明2026年现场在位。 |
+| FM-P11a，L54–55，xii；Bottalla、师承与委托 | [Sborgi，DBI 13，1971](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)全文和书目；[Musei Capitolini供稿的Google Arts & Culture记录](https://artsandculture.google.com/asset/meeting-between-esau-and-jacob/PgEnU9pjokCdww?hl=it)完整详情 | 全名Giovanni Maria Bottalla，1613年2月生、1644年卒；保护者Giulio Sacchetti安排Cortona指导。新建Giulio、Sacchetti家族、Savona，复用Cortona。作品采用1636–1641、油画与家族委托，集体委托不改为Giulio个人付款。聚合页w3340×h2380 cm明显异常，排除尺寸而不自行除以10；DBI与该馆记录均记Milan，未误改为Genoa。 |
+| FM-P28a，L81，xiii；Cagnacci与同题版本 | [KHM GG260](https://www.khm.at/en/artworks/cleopatra-s-suicide-383)完整对象及说明，通过HTTP正文实际读取；[KHM GG6508](https://www.khm.at/en/artworks/selbstmord-der-kleopatra-384-1)检索返回完整对象字段，直开未成功 | 画家补1601–1663及晚年维也纳宫廷身份。GG260为153×169 cm群像，GG6508为124×93.5×2 cm，均记1659年后；本书题名、作者和持藏馆不足以选择其一。两个入口仅列为版本候选，未把GG260的尺寸、Leopold Wilhelm收藏或人物标识灌入28a。此前Zeri 212704仍只支持Villani摄影商号，照片档案号不能充当绘画库存。 |
+| FM-E051，导言L181–184，xvii；Giaquinto抵罗马及活动年代 | [Meyer，DBI 54，2000](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)实际选读出生至1743年罗马工程连续段及死亡段，未读完整后期生涯／书目 | 展开Corrado Giaquinto；1721年3月赴Naples，1723–1724返乡，1727年3月赴Rome；采用1731装饰合同、1740-01-03入圣路加学院。新增Molfetta、S. Nicola dei Lorenesi建筑及装饰工程，分别记录作者、合同年、安置地。正文保留Haskell的代际评论，不以外部年份证明其价值判断。DBI质疑正式Conca学生说，未新增师生边。 |
+
+补证边界：National Gallery对Salvi卒地Florence只作推测，DBI给出Rome及1685-08-01；本轮采用后者，异文理由留本过程。Salvi其余子女、作品和研究文献尚未系统补足，三名具名家属的建立不表示家族完整。Bottalla在Barberini宫试图接管天顶的故事被DBI标为传闻，未写为合作／接管事实；DBI另记Barberini继承人藏《以扫与雅各》版本，未与Capitoline本合并。[ICCD 1201008737](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201008737)检索显示Via della Lungara，故不借其资料补卡皮托利欧对象。
+
+《醉西勒诺斯》2024出借清单的展期终点为2025-03-09，而[Petit Palais展览页面](https://www.petitpalais.paris.fr/decouvrir-la-programmation/expositions/ribera)检索返回2025-02-23；两者都不是实际运输／返还记录。本轮只用该清单的Q298和尺寸，不采为已执行的借展历史。搜索另命中1628年同题版画，未混入1626油画。《圣母子》21b搜索命中[ICCD 1201007462](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201007462)的1550–1599断代，与归属作者年代矛盾，及Zeri跟随者版本；仅作待查线索，不当作确证。本组未新增QID或声称Wiki双向验证。
+
+交接：可继续上述5名画家及有据作品的明确缺口补足；保留21b、28a版本阻断，其他创作、委托、亲缘、师承、安置与馆藏事实作为带来源候选交正式关系阶段。当前对齐、全面补足及关系定稿均未全部完成。
+
+本组写回前核对输入未变化、原sources前缀及既有relations保留；写回后复核24卡、22条原书摘录、119条本地链接、来源编号及过程锚点。855个有效登记与482个章前KU及类型分布一致，受影响内容机械检查未报缺陷，git diff --check通过。这是语义自查与机械核对，不是全面补足、正式关系定稿或人工验收；生成索引未刷新，本轮未提交推送。

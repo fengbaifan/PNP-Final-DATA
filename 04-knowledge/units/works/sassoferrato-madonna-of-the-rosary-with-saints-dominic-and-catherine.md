@@ -4,30 +4,34 @@ name_en: Madonna of the Rosary with Saints Dominic and Catherine
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiii；OCR L74–74
   sentence_summary: 《赞助人与画家》图版21a目录所记的《玫瑰圣母与道明、加大利纳》艺术对象。
   original_quotes:
   - source_span: lines 74–74
-    text: '21 a Sassoferrato: Madonna of the Rosary with Saints Dominic and Catherine (S. Sabina, Rome) 126 b Sassoferrato:
-      Madonna and Child (Galleria Nazionale, Rome)'
+    text: '21 a Sassoferrato: Madonna of the Rosary with Saints Dominic and Catherine (S. Sabina, Rome) 126 b Sassoferrato: Madonna and Child (Galleria Nazionale, Rome)'
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 74–74; 章前：图版目录；印刷页xiii
+- citation: Silvia Blasio, SALVI, Giovanni Battista, detto il Sassoferrato, Dizionario Biografico degli Italiani 90 (2017). https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/. Accessed 2026-09-14.
+  location: 完整传记与书目；本轮采用出生、1629罗马居住、1643委托付款、亲缘及死亡段
+  sentence_summary: Giovanni Battista Salvi，1609-08-25生于Sassoferrato，1685-08-01卒于罗马；父Tarquinio Salvi、母Vittoria di Lutio Loli、妻Angela Mizzina；1643年S. Sabina玫瑰圣母获付40 scudi，委托者记Olimpia Pamphili principessa di Rossano。付款依据为辞典转引Archivio Doria Pamphilj 86/54 f.26r，未读档案原件。
+- citation: Italia.it, Basilica di Santa Sabina all’Aventino. https://www.italia.it/it/lazio/roma/s-sabina-all-aventino. Accessed 2026-09-14.
+  location: 完整地点说明与地址
+  sentence_summary: 罗马早期基督教巴西利卡，Piazza Pietro d’Illiria 1；将Sassoferrato的1643年玫瑰圣母置于cappella d’Elci。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#图版画家与作品版本集中核对
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 《赞助人与画家》图版21a目录所记的《玫瑰圣母与道明、加大利纳》艺术对象。
+**中文：** 萨索费拉托为罗马圣撒比纳堂创作的宗教画，1643年获付40斯库多。
 
-**English:** The art object titled Madonna of the Rosary with Saints Dominic and Catherine, listed as plate 21a in Patrons and Painters.
+**English:** A religious painting made by Sassoferrato for Santa Sabina in Rome, for which he was paid 40 scudi in 1643.
 
 ### 名称
 
@@ -35,6 +39,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 原文名称 | Madonna of the Rosary with Saints Dominic and Catherine | S1 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
+| 意大利语题名 | Madonna del Rosario con s. Domenico e s. Caterina da Siena | S2 |
 
 ### 来源所载信息
 
@@ -46,7 +51,26 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中位置 | [罗马](../places/rome.md) | S1 |
 | 图像题材 | Madonna、Dominic、Catherine | S1 |
 
+### 委托与付款
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 委托者 | [奥林皮娅·阿尔多布兰迪尼](../persons/olimpia-aldobrandini.md) | S2，来源称Olimpia Pamphili principessa di Rossano |
+| 付款年份 | 1643 | S2 |
+| 金额 | 40 scudi／40斯库多 | S2，转引86/54 f.26r |
+| 为之创作的建筑 | [圣撒比纳堂](../places/s-sabina.md) | S2 |
+
+### 安置记录
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 具体空间 | [埃尔奇小堂](../places/cappella-delci-santa-sabina.md) | S3 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[Treccani委托付款记录](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)（S2，转引档案）；[Italia.it空间说明](https://www.italia.it/it/lazio/roma/s-sabina-all-aventino)（S3）。
 
 ### 关系记录
 

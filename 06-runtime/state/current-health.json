@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T21:34:01",
+  "timestamp": "2026-09-14T21:59:50",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 844,
+    "total_units": 855,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,22 +26,22 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 844,
+    "total_units": 855,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 844,
+    "units_missing_any_assignment": 855,
     "field_coverage": {
-      "primary_domain": "0/844",
-      "primary_dimension": "0/844",
-      "primary_theme": "0/844",
-      "topic_memberships": "0/844"
+      "primary_domain": "0/855",
+      "primary_dimension": "0/855",
+      "primary_theme": "0/855",
+      "topic_memberships": "0/855"
     }
   },
   "counts_by_type": {
-    "persons": 314,
-    "families": 7,
+    "persons": 318,
+    "families": 8,
     "institutions": 100,
-    "places": 120,
-    "works": 198,
+    "places": 125,
+    "works": 199,
     "archives": 54,
     "terms": 34,
     "procedures": 10,
@@ -78,6 +78,7 @@
       "04-knowledge/units/persons/andrea-pozzo.md",
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
+      "04-knowledge/units/persons/angela-mizzina.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
       "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
@@ -208,6 +209,7 @@
       "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
       "04-knowledge/units/persons/girolamo-teti.md",
       "04-knowledge/units/persons/giulio-mancini.md",
+      "04-knowledge/units/persons/giulio-sacchetti.md",
       "04-knowledge/units/persons/giuseppe-angeli.md",
       "04-knowledge/units/persons/giuseppe-cesari.md",
       "04-knowledge/units/persons/giuseppe-de-rosis.md",
@@ -349,6 +351,7 @@
       "04-knowledge/units/persons/simonelli.md",
       "04-knowledge/units/persons/sixtus-v.md",
       "04-knowledge/units/persons/solimena.md",
+      "04-knowledge/units/persons/tarquinio-salvi.md",
       "04-knowledge/units/persons/teodoro-correr.md",
       "04-knowledge/units/persons/terisio-pignatti.md",
       "04-knowledge/units/persons/thomas-baines.md",
@@ -366,6 +369,7 @@
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
       "04-knowledge/units/persons/vitale-bloch.md",
+      "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
       "04-knowledge/units/persons/watkin-williams-wynn.md",
       "04-knowledge/units/persons/william-john-bankes.md",
@@ -377,6 +381,7 @@
       "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/families/pisani-family.md",
       "04-knowledge/units/families/rezzonico-family.md",
+      "04-knowledge/units/families/sacchetti-family.md",
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
@@ -488,11 +493,13 @@
       "04-knowledge/units/places/ca-rezzonico.md",
       "04-knowledge/units/places/cambridge.md",
       "04-knowledge/units/places/camposanto-pisa.md",
+      "04-knowledge/units/places/cappella-delci-santa-sabina.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
       "04-knowledge/units/places/cerasi-chapel.md",
       "04-knowledge/units/places/chiesa-de-servi-bologna.md",
       "04-knowledge/units/places/chiesa-nuova.md",
+      "04-knowledge/units/places/chiesa-san-nicola-dei-lorenesi.md",
       "04-knowledge/units/places/china.md",
       "04-knowledge/units/places/church-of-s-rocco.md",
       "04-knowledge/units/places/church-of-the-frari.md",
@@ -522,6 +529,7 @@
       "04-knowledge/units/places/melbourne.md",
       "04-knowledge/units/places/milan.md",
       "04-knowledge/units/places/modena.md",
+      "04-knowledge/units/places/molfetta.md",
       "04-knowledge/units/places/moor-park.md",
       "04-knowledge/units/places/munich.md",
       "04-knowledge/units/places/naples-cathedral.md",
@@ -571,6 +579,8 @@
       "04-knowledge/units/places/santa-maria-della-scala-rome.md",
       "04-knowledge/units/places/santa-maria-maggiore.md",
       "04-knowledge/units/places/santa-maria-sopra-minerva.md",
+      "04-knowledge/units/places/sassoferrato.md",
+      "04-knowledge/units/places/savona.md",
       "04-knowledge/units/places/sicily.md",
       "04-knowledge/units/places/spain.md",
       "04-knowledge/units/places/st-asaph.md",
@@ -713,6 +723,7 @@
       "04-knowledge/units/works/gavasetti-sant-antonino-frescoes.md",
       "04-knowledge/units/works/gian-antonio-faldoni-zaccaria-sagredo.md",
       "04-knowledge/units/works/giannantonio-fumiani-the-stoning-of-zechariah.md",
+      "04-knowledge/units/works/giaquinto-san-nicola-dei-lorenesi-decoration.md",
       "04-knowledge/units/works/gio-maria-bottalla-meeting-of-esau-and-jacob.md",
       "04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md",
       "04-knowledge/units/works/guercino-sicilian-altarpiece-1665.md",
@@ -897,6 +908,7 @@
       "04-knowledge/units/persons/andrea-pozzo.md",
       "04-knowledge/units/persons/andrea-procaccini.md",
       "04-knowledge/units/persons/andrea-sacchi.md",
+      "04-knowledge/units/persons/angela-mizzina.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
       "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
@@ -1027,6 +1039,7 @@
       "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
       "04-knowledge/units/persons/girolamo-teti.md",
       "04-knowledge/units/persons/giulio-mancini.md",
+      "04-knowledge/units/persons/giulio-sacchetti.md",
       "04-knowledge/units/persons/giuseppe-angeli.md",
       "04-knowledge/units/persons/giuseppe-cesari.md",
       "04-knowledge/units/persons/giuseppe-de-rosis.md",
@@ -1168,6 +1181,7 @@
       "04-knowledge/units/persons/simonelli.md",
       "04-knowledge/units/persons/sixtus-v.md",
       "04-knowledge/units/persons/solimena.md",
+      "04-knowledge/units/persons/tarquinio-salvi.md",
       "04-knowledge/units/persons/teodoro-correr.md",
       "04-knowledge/units/persons/terisio-pignatti.md",
       "04-knowledge/units/persons/thomas-baines.md",
@@ -1185,6 +1199,7 @@
       "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
       "04-knowledge/units/persons/virgil.md",
       "04-knowledge/units/persons/vitale-bloch.md",
+      "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
       "04-knowledge/units/persons/watkin-williams-wynn.md",
       "04-knowledge/units/persons/william-john-bankes.md",
@@ -1196,6 +1211,7 @@
       "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/families/pisani-family.md",
       "04-knowledge/units/families/rezzonico-family.md",
+      "04-knowledge/units/families/sacchetti-family.md",
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
@@ -1307,11 +1323,13 @@
       "04-knowledge/units/places/ca-rezzonico.md",
       "04-knowledge/units/places/cambridge.md",
       "04-knowledge/units/places/camposanto-pisa.md",
+      "04-knowledge/units/places/cappella-delci-santa-sabina.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
       "04-knowledge/units/places/cerasi-chapel.md",
       "04-knowledge/units/places/chiesa-de-servi-bologna.md",
       "04-knowledge/units/places/chiesa-nuova.md",
+      "04-knowledge/units/places/chiesa-san-nicola-dei-lorenesi.md",
       "04-knowledge/units/places/china.md",
       "04-knowledge/units/places/church-of-s-rocco.md",
       "04-knowledge/units/places/church-of-the-frari.md",
@@ -1341,6 +1359,7 @@
       "04-knowledge/units/places/melbourne.md",
       "04-knowledge/units/places/milan.md",
       "04-knowledge/units/places/modena.md",
+      "04-knowledge/units/places/molfetta.md",
       "04-knowledge/units/places/moor-park.md",
       "04-knowledge/units/places/munich.md",
       "04-knowledge/units/places/naples-cathedral.md",
@@ -1393,6 +1412,8 @@
       "04-knowledge/units/places/santa-maria-della-scala-rome.md",
       "04-knowledge/units/places/santa-maria-maggiore.md",
       "04-knowledge/units/places/santa-maria-sopra-minerva.md",
+      "04-knowledge/units/places/sassoferrato.md",
+      "04-knowledge/units/places/savona.md",
       "04-knowledge/units/places/sicily.md",
       "04-knowledge/units/places/spain.md",
       "04-knowledge/units/places/st-asaph.md",
@@ -1537,6 +1558,7 @@
       "04-knowledge/units/works/gavasetti-sant-antonino-frescoes.md",
       "04-knowledge/units/works/gian-antonio-faldoni-zaccaria-sagredo.md",
       "04-knowledge/units/works/giannantonio-fumiani-the-stoning-of-zechariah.md",
+      "04-knowledge/units/works/giaquinto-san-nicola-dei-lorenesi-decoration.md",
       "04-knowledge/units/works/gio-maria-bottalla-meeting-of-esau-and-jacob.md",
       "04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md",
       "04-knowledge/units/works/guercino-sicilian-altarpiece-1665.md",
@@ -1724,13 +1746,13 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 314,
-      "tags": 314,
+      "sub_type": 318,
+      "tags": 318,
       "evidence_status": 0
     },
     "families": {
-      "sub_type": 7,
-      "tags": 7,
+      "sub_type": 8,
+      "tags": 8,
       "evidence_status": 0
     },
     "institutions": {
@@ -1739,13 +1761,13 @@
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 117,
-      "tags": 120,
+      "sub_type": 122,
+      "tags": 125,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 195,
-      "tags": 198,
+      "sub_type": 196,
+      "tags": 199,
       "evidence_status": 0
     },
     "archives": {
@@ -1794,16 +1816,20 @@
     "francesco-algarotti": [
       "persons/francesco-algarotti.md",
       "works/francesco-algarotti.md"
+    ],
+    "sassoferrato": [
+      "persons/sassoferrato.md",
+      "places/sassoferrato.md"
     ]
   },
   "disambiguation": {
-    "duplicate_basenames": 1,
+    "duplicate_basenames": 2,
     "duplicates_with_disambiguation": 0,
-    "duplicates_without_disambiguation": 2
+    "duplicates_without_disambiguation": 4
   },
   "growth_candidate_signals": {
     "unknown_type_dirs": [],
-    "duplicate_basename_groups": 1,
+    "duplicate_basename_groups": 2,
     "type_candidate_rows": 0,
     "dimension_candidate_rows": 0
   },
@@ -1822,11 +1848,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 155,
+    "sources_without_evidence_ref": 166,
     "evidence_ref_resolvable": 1004,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1004,
-    "units_with_traceable_source": 844
+    "units_with_traceable_source": 855
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1858,7 +1884,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 844,
+      "count": 855,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1882,6 +1908,7 @@
         "04-knowledge/units/persons/andrea-pozzo.md",
         "04-knowledge/units/persons/andrea-procaccini.md",
         "04-knowledge/units/persons/andrea-sacchi.md",
+        "04-knowledge/units/persons/angela-mizzina.md",
         "04-knowledge/units/persons/ann-sutherland-harris.md",
         "04-knowledge/units/persons/annibale-bentivoglio.md",
         "04-knowledge/units/persons/annibale-carracci.md",
@@ -2012,6 +2039,7 @@
         "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
         "04-knowledge/units/persons/girolamo-teti.md",
         "04-knowledge/units/persons/giulio-mancini.md",
+        "04-knowledge/units/persons/giulio-sacchetti.md",
         "04-knowledge/units/persons/giuseppe-angeli.md",
         "04-knowledge/units/persons/giuseppe-cesari.md",
         "04-knowledge/units/persons/giuseppe-de-rosis.md",
@@ -2153,6 +2181,7 @@
         "04-knowledge/units/persons/simonelli.md",
         "04-knowledge/units/persons/sixtus-v.md",
         "04-knowledge/units/persons/solimena.md",
+        "04-knowledge/units/persons/tarquinio-salvi.md",
         "04-knowledge/units/persons/teodoro-correr.md",
         "04-knowledge/units/persons/terisio-pignatti.md",
         "04-knowledge/units/persons/thomas-baines.md",
@@ -2170,6 +2199,7 @@
         "04-knowledge/units/persons/vincenzo-armanni-ch1.md",
         "04-knowledge/units/persons/virgil.md",
         "04-knowledge/units/persons/vitale-bloch.md",
+        "04-knowledge/units/persons/vittoria-di-lutio-loli.md",
         "04-knowledge/units/persons/viviano-codazzi.md",
         "04-knowledge/units/persons/watkin-williams-wynn.md",
         "04-knowledge/units/persons/william-john-bankes.md",
@@ -2181,6 +2211,7 @@
         "04-knowledge/units/families/peretti-family.md",
         "04-knowledge/units/families/pisani-family.md",
         "04-knowledge/units/families/rezzonico-family.md",
+        "04-knowledge/units/families/sacchetti-family.md",
         "04-knowledge/units/institutions/a-villani-e-figli.md",
         "04-knowledge/units/institutions/accademia-di-san-luca.md",
         "04-knowledge/units/institutions/agraci.md",
@@ -2292,11 +2323,13 @@
         "04-knowledge/units/places/ca-rezzonico.md",
         "04-knowledge/units/places/cambridge.md",
         "04-knowledge/units/places/camposanto-pisa.md",
+        "04-knowledge/units/places/cappella-delci-santa-sabina.md",
         "04-knowledge/units/places/capuchin-church-rome.md",
         "04-knowledge/units/places/castello-sforzesco.md",
         "04-knowledge/units/places/cerasi-chapel.md",
         "04-knowledge/units/places/chiesa-de-servi-bologna.md",
         "04-knowledge/units/places/chiesa-nuova.md",
+        "04-knowledge/units/places/chiesa-san-nicola-dei-lorenesi.md",
         "04-knowledge/units/places/china.md",
         "04-knowledge/units/places/church-of-s-rocco.md",
         "04-knowledge/units/places/church-of-the-frari.md",
@@ -2326,6 +2359,7 @@
         "04-knowledge/units/places/melbourne.md",
         "04-knowledge/units/places/milan.md",
         "04-knowledge/units/places/modena.md",
+        "04-knowledge/units/places/molfetta.md",
         "04-knowledge/units/places/moor-park.md",
         "04-knowledge/units/places/munich.md",
         "04-knowledge/units/places/naples-cathedral.md",
@@ -2378,6 +2412,8 @@
         "04-knowledge/units/places/santa-maria-della-scala-rome.md",
         "04-knowledge/units/places/santa-maria-maggiore.md",
         "04-knowledge/units/places/santa-maria-sopra-minerva.md",
+        "04-knowledge/units/places/sassoferrato.md",
+        "04-knowledge/units/places/savona.md",
         "04-knowledge/units/places/sicily.md",
         "04-knowledge/units/places/spain.md",
         "04-knowledge/units/places/st-asaph.md",
@@ -2522,6 +2558,7 @@
         "04-knowledge/units/works/gavasetti-sant-antonino-frescoes.md",
         "04-knowledge/units/works/gian-antonio-faldoni-zaccaria-sagredo.md",
         "04-knowledge/units/works/giannantonio-fumiani-the-stoning-of-zechariah.md",
+        "04-knowledge/units/works/giaquinto-san-nicola-dei-lorenesi-decoration.md",
         "04-knowledge/units/works/gio-maria-bottalla-meeting-of-esau-and-jacob.md",
         "04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md",
         "04-knowledge/units/works/guercino-sicilian-altarpiece-1665.md",
@@ -2805,21 +2842,21 @@
   },
   "translation_health": {
     "persons": {
-      "total": 321,
+      "total": 325,
       "coverage": {
-        "name_original": "0/321",
-        "language_original": "0/321",
-        "name_zh": "0/321",
-        "translation_status": "0/321"
+        "name_original": "0/325",
+        "language_original": "0/325",
+        "name_zh": "0/325",
+        "translation_status": "0/325"
       }
     },
     "families": {
-      "total": 7,
+      "total": 8,
       "coverage": {
-        "name_original": "0/7",
-        "name_original_language": "0/7",
-        "name_zh": "0/7",
-        "translation_status": "0/7"
+        "name_original": "0/8",
+        "name_original_language": "0/8",
+        "name_zh": "0/8",
+        "translation_status": "0/8"
       }
     },
     "institutions": {
@@ -2832,11 +2869,11 @@
       }
     },
     "works": {
-      "total": 201,
+      "total": 202,
       "coverage": {
-        "title_original": "0/201",
-        "title_original_language": "0/201",
-        "title_zh": "0/201"
+        "title_original": "0/202",
+        "title_original_language": "0/202",
+        "title_zh": "0/202"
       }
     },
     "archives": {
@@ -2858,9 +2895,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 719,
-    "indexed": 719,
-    "declared_total": 719,
+    "expected": 725,
+    "indexed": 725,
+    "declared_total": 725,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2916,8 +2953,8 @@
   "knowledge_structure_quality": {
     "score_kind": "knowledge_schema_and_state_integrity",
     "max_score": 65,
-    "total": 41,
-    "disambiguation": 11,
+    "total": 37,
+    "disambiguation": 7,
     "type_correctness": 10,
     "enum_validity": 10,
     "verification_coverage": 10,
@@ -2935,22 +2972,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 844,
+    "total_units": 855,
     "source_count_distribution": {
-      "multi_source": 581,
-      "single_source": 263
+      "multi_source": 593,
+      "single_source": 262
     },
     "confidence_distribution": {
-      "missing": 844
+      "missing": 855
     },
     "consensus_distribution": {
-      "missing": 844
+      "missing": 855
     },
     "evidence_status_distribution": {
-      "source_backed": 844
+      "source_backed": 855
     },
     "isolated_units": {
-      "count": 498,
+      "count": 509,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2971,12 +3008,12 @@
         "events/san-clemente-redecoration.md",
         "families/pisani-family.md",
         "families/rezzonico-family.md",
+        "families/sacchetti-family.md",
         "institutions/a-villani-e-figli.md",
         "institutions/agraci.md",
         "institutions/alte-pinakothek.md",
         "institutions/apostolic-chamber.md",
-        "institutions/art-institute-of-chicago.md",
-        "institutions/barnabites.md"
+        "institutions/art-institute-of-chicago.md"
       ]
     },
     "candidate_debt": {
@@ -2993,7 +3030,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 263,
+      "single_source_units": 262,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3018,7 +3055,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 844,
+    "total_files": 855,
     "total_findings": 0
   }
 }

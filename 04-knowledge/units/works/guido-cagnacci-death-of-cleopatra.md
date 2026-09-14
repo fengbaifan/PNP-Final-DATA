@@ -27,9 +27,15 @@ sources:
 - citation: Fondazione Federico Zeri, fotografia 212704, inventario 522770. https://catalogo.fondazionezeri.unibo.it/scheda/fotografia/212704/. Accessed 2026-09-14.
   location: 作者、题材、摄影者地址、铭记与年代
   sentence_summary: 维也纳艺术史博物馆藏Cagnacci《克娄巴特拉之死》的照片，摄影者A. Villani e Figli，署名Foto A. Villani - Bologna；照片档案号522770，不是绘画藏品号。
+- citation: Kunsthistorisches Museum, Cleopatra’s Suicide, Gemäldegalerie 260. https://www.khm.at/en/artworks/cleopatra-s-suicide-383. Accessed 2026-09-14.
+  location: 完整对象记录与说明
+  sentence_summary: Guido Cagnacci（1601–1663），晚年为维也纳宫廷画家；GG260为1659年后、153×169 cm的群像构图，同馆另藏同题GG6508。本轮用于画家身份和版本候选区分，不确认图版28a对应此库存号。
+- citation: Kunsthistorisches Museum, Selbstmord der Kleopatra, Gemäldegalerie 6508. https://www.khm.at/en/artworks/selbstmord-der-kleopatra-384-1. Accessed 2026-09-14.
+  location: 检索返回的对象详情字段；直开页面未成功
+  sentence_summary: 同作者、同题、1659年后，124×93.5×2 cm，库存6508；仅证明另有候选，不将其数据写作图版28a定稿属性。
 created: '2026-09-14'
 updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#图版画家与作品版本集中核对
 ---
 
 ## 内容
@@ -64,6 +70,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 本书图版28a供片者 | [A. Villani e Figli](../institutions/a-villani-e-figli.md) | S2–S3 |
 
 ## 关系与证据
+
+### 身份与外部链接
+
+[KHM GG260](https://www.khm.at/en/artworks/cleopatra-s-suicide-383)（S4，版本候选）；[KHM GG6508](https://www.khm.at/en/artworks/selbstmord-der-kleopatra-384-1)（S5，另一版本候选）。本书图版与具体库存号的对应未定。
 
 ### 关系记录
 

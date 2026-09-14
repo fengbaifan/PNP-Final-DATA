@@ -1,12 +1,21 @@
 ---
-title: "皮耶特罗·达·科尔托纳（Pietro da Cortona）"
-name_en: "Pietro da Cortona"
+title: 皮耶特罗·达·科尔托纳（Pietro da Cortona）
+name_en: Pietro da Cortona
 type: person
 created: 2026-09-09
 updated: 2026-09-14
 evidence_status: source_backed
 relations:
-  - {"relation_type":"member_of","target":"institutions/accademia-di-san-luca.md","note":"1634年起任学院负责人；不同来源对任期终点有异文。","evidence_ref":{"doc_id":"icg-cortona","source_file":"https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html","source_span":"本卡 S9；1634–1636学院负责人段"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+- relation_type: member_of
+  target: institutions/accademia-di-san-luca.md
+  note: 1634年起任学院负责人；不同来源对任期终点有异文。
+  evidence_ref:
+    doc_id: icg-cortona
+    source_file: https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html
+    source_span: 本卡 S9；1634–1636学院负责人段
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 7.'
   location: 第一章；印刷页 7；OCR L217–220
@@ -16,12 +25,14 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 217–220; print pp. 7
   original_quotes:
-  - source_span: "lines 217–220"
-    text: |2-
-      Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+  - source_span: lines 217–220
+    text: 'Thus we hear of the Florentine Marcello Sacchetti who, on seeing some works by
+
       Pietro da Cortona, ‘asked him about himself and where he came from. And when he
+
       heard that [Pietro] was from Cortona, he called him his compatriot’, and put him up
-      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided
+
+      in his palace.5 In the same way, at the end of the century, Cardinal Ottoboni provided'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 11, 12.'
   location: 第一章；印刷页 11, 12；OCR L382–388,413–418,430–435
   sentence_summary: Cortona 不愿自拟题材；相关书信为转引，预备稿通行性需限定。
@@ -30,31 +41,44 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 382–388,413–418,430–435; print pp. 11, 12
   original_quotes:
-  - source_span: "lines 382–388"
-    text: |2-
-      Instructions to the artist would also depend on his reputation and temperament.
+  - source_span: lines 382–388
+    text: 'Instructions to the artist would also depend on his reputation and temperament.
+
       How great, for instance, was the contrast between Pietro da Cortona and Salvator Rosa!
+
       Pietro, recognised for years as the most distinguished painter in Rome, indeed in
+
       Italy, refused to choose his own subjects and claimed that he had never done so in his
+
       whole life1; whereas Rosa told one imprudent client who had had his own ideas for a
+
       picture to ‘go to a brickmaker as they work to order’—though this attitude did not
-      stop him asking his friends for suggestions.2 And, of course, certain artists had acquired
-  - source_span: "lines 413–418"
-    text: |2-
-      None of the Bolognese artists working in Rome is known to have produced a
+
+      stop him asking his friends for suggestions.2 And, of course, certain artists had acquired'
+  - source_span: lines 413–418
+    text: 'None of the Bolognese artists working in Rome is known to have produced a
+
       modello, and no certain examples survive even from such a great decorator as Pietro da
+
       1 Letter from the Savoy Resident in Rome, Onorato Gini, in 1666, summarised bv Claretta, 1885,
+
       p. 516: ‘ma prima patco apposto dal Cortona era ch’egli non voleva indursi a far ver una proposta [as
+
       regards subject], allegando chc non avevane fatta alcuna in tutta la vita e che “questo sarebbe un non mai
-      volere il quadro” ’.
-  - source_span: "lines 430–435"
-    text: |2-
-      Cortona.1 On the other hand, the practice became widespread during the second half
+
+      volere il quadro” ’.'
+  - source_span: lines 430–435
+    text: 'Cortona.1 On the other hand, the practice became widespread during the second half
+
       of the century, and is particularly associated with the painter Giovan Battista Gaulli,
+
       who may have been responsible for introducing it from his native Genoa where it was
+
       already well established. One factor is clearly important: Professor Wittkower has
+
       pointed out that ‘most of the large frescoes in Roman churches belong to the last 30
-      years of the seventeenth and the beginning of the eighteenth century’2 and it is obvious,
+
+      years of the seventeenth and the beginning of the eighteenth century’2 and it is obvious,'
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
   location: 第一章；印刷页 12；OCR L461–464
   sentence_summary: Grassi 与 Barberini Salone 稿本的归属仍有争议。
@@ -63,48 +87,43 @@ sources:
     source_file: 02-sources/02-Markdown/01_CHP-1.md
     source_span: lines 461–464; print pp. 12
   original_quotes:
-  - source_span: "lines 461–464"
-    text: |2-
-      1 L. Grassi published in 1957 what he claimed to be a series of modelli by Pietro da Cortona for the
+  - source_span: lines 461–464
+    text: '1 L. Grassi published in 1957 what he claimed to be a series of modelli by Pietro da Cortona for the
+
       ceiling of the galleria in the Palazzo Doria-Pamfili, but these have not won general acceptance—see
+
       Brigand, 1962, p. 251. Nor is the so-called bozzetto for the Barberini Salone, kept in the palace, at all
-      convincing. On the other hand, Professor Waterhouse has pointed out to me the existence of a modello
-- citation: "Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-10."
-  location: "导言身份段；REV-034 初步对齐，非全文补足"
-  sentence_summary: "Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。"
-- citation: "Wikidata, Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10."
-  location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
-  sentence_summary: "Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。"
-- citation: "Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-11."
-  location: "全文16432字符，含正文、信息框／表格、图注及注释书目；原输出截断处补读"
-  sentence_summary: "与原配对QID互链一致；叙述按专业传记与本章核对，不自动接收所有作品和亲缘。"
-- citation: "Wikidata Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10; reviewed 2026-09-11."
-  location: "复用完整抓取，读取适用日期、身份、亲缘／师承、职业及限定／引用；被采用关联标签另已查询"
-  sentence_summary: "日期多值与年精度分别处理；QID及sitelink复核不等于所有字段事实无误。"
-- citation: "Giuliano Briganti, BERRETTINI, Pietro, DBI 9 (1967). https://www.treccani.it/enciclopedia/pietro-berrettini_(Dizionario-Biografico)/. Accessed 2026-09-11."
-  location: "选读开头至早期建筑段约前10500字符；未读全篇39133字符，不使用截断末句"
-  sentence_summary: "旧传记1596生年与后期馆方1597不同；亲缘与早期训练、Sacchetti赞助、绘画和建筑责任分别记录。"
-- citation: "Istituto Centrale per la Grafica, Pietro da Cortona e il disegno, exhibition 1997–1998. https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html. Accessed 2026-09-11."
-  location: "选读展览介绍至LA MOSTRA前的概述；长作品清单未完整阅读，原输出截断不记全文"
-  sentence_summary: "采用1597生年、1634–1636学院负责人任期及设计／出资教堂；99页与百余素描、Cortona与Ferri多手及可能旧藏均须分开。"
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+
+      convincing. On the other hand, Professor Waterhouse has pointed out to me the existence of a modello'
+- citation: Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-10.
+  location: 导言身份段；REV-034 初步对齐，非全文补足
+  sentence_summary: Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。
+- citation: Wikidata, Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10.
+  location: labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文
+  sentence_summary: Pietro Berrettini／Pietro da Cortona，十七世纪罗马画家及建筑师；不是 Cortona 地点。
+- citation: Wikipedia (en), Pietro da Cortona, revision 1368378432. https://en.wikipedia.org/wiki/Pietro_da_Cortona. Accessed 2026-09-11.
+  location: 全文16432字符，含正文、信息框／表格、图注及注释书目；原输出截断处补读
+  sentence_summary: 与原配对QID互链一致；叙述按专业传记与本章核对，不自动接收所有作品和亲缘。
+- citation: Wikidata Q333323, revision 2537992869. https://www.wikidata.org/wiki/Q333323. Accessed 2026-09-10; reviewed 2026-09-11.
+  location: 复用完整抓取，读取适用日期、身份、亲缘／师承、职业及限定／引用；被采用关联标签另已查询
+  sentence_summary: 日期多值与年精度分别处理；QID及sitelink复核不等于所有字段事实无误。
+- citation: Giuliano Briganti, BERRETTINI, Pietro, DBI 9 (1967). https://www.treccani.it/enciclopedia/pietro-berrettini_(Dizionario-Biografico)/. Accessed 2026-09-11.
+  location: 选读开头至早期建筑段约前10500字符；未读全篇39133字符，不使用截断末句
+  sentence_summary: 旧传记1596生年与后期馆方1597不同；亲缘与早期训练、Sacchetti赞助、绘画和建筑责任分别记录。
+- citation: Istituto Centrale per la Grafica, Pietro da Cortona e il disegno, exhibition 1997–1998. https://istitutocentraleperlagrafica.cultura.gov.it/tutti-gli-archivi/mostre/pietro-da-cortona-e-il-disegno-205.html. Accessed 2026-09-11.
+  location: 选读展览介绍至LA MOSTRA前的概述；长作品清单未完整阅读，原输出截断不记全文
+  sentence_summary: 采用1597生年、1634–1636学院负责人任期及设计／出资教堂；99页与百余素描、Cortona与Ferri多手及可能旧藏均须分开。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：第二版导言；印刷页xviii；OCR L196–196
   sentence_summary: 哈斯克尔以其时代作为罗马绘画欧洲影响力的比较基准。
   original_quotes:
   - source_span: lines 196–196
-    text: Waterhouse himself and the late Anthony Clark have indeed shown us how many fine painters did work in
-      Rome during the eighteenth century, but neither in the general opinion of the time (nor, yet, in that of our
-      own day) was it accepted that their achievements dominated European art in a way that was even remotely comparable
-      to what was happening in the age of Pietro da Cortona with which I was mostly concerned. I therefore believe
-      that an opinion which would indeed have been absurd in a book dealing with architecture or sculpture is quite
-      justified in one devoted to painting.
+    text: Waterhouse himself and the late Anthony Clark have indeed shown us how many fine painters did work in Rome during the eighteenth century, but neither in the general opinion of the time (nor, yet, in that of our own day) was it accepted that their achievements dominated European art in a way that was even remotely comparable to what was happening in the age of Pietro da Cortona with which I was mostly concerned. I therefore believe that an opinion which would indeed have been absurd in a book dealing with architecture or sculpture is quite justified in one devoted to painting.
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 196–196; 章前：第二版导言；印刷页xviii
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L44–44
   sentence_summary: 图版04b将其列为《马尔切洛·萨凯蒂》的创作者。
   original_quotes:
@@ -114,8 +133,7 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 44–44; 章前：图版目录；印刷页xii
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L51–51
   sentence_summary: 图版10a将其列为《劫夺萨宾妇女》的创作者。
   original_quotes:
@@ -125,8 +143,7 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 51–51; 章前：图版目录；印刷页xii
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L52–53
   sentence_summary: 图版10b将其列为《劫夺海伦》的创作者。
   original_quotes:
@@ -138,8 +155,7 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 52–53; 章前：图版目录；印刷页xii
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xii；OCR L59–60
   sentence_summary: 图版13将其列为《乌尔班八世统治的荣耀》的创作者。
   original_quotes:
@@ -151,7 +167,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 59–60; 章前：图版目录；印刷页xii
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-da-cortona
+- citation: Franco Sborgi, BOTTALLA, Giovanni Maria, detto il Raffaellino, Raffaellino da Savona, Dizionario Biografico degli Italiani 13 (1971). https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/. Accessed 2026-09-14.
+  location: 完整传记和书目；重点罗马师承、Sacchetti委托与死亡段
+  sentence_summary: Giovanni Maria Bottalla，1613年2月生于Savona，1644年卒于Milan；Giulio Sacchetti保护并交Pietro da Cortona指导。卡皮托利欧《以扫与雅各相会》受Sacchetti家族委托；另有Barberini继承人版本，不能合并。Barberini天顶接管故事属转述传闻。
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#图版画家与作品版本集中核对
 ---
 
 ## 内容
@@ -227,6 +246,13 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 图版13角色 | 创作 | S14 |
 | 图版13相关对象 | [乌尔班八世统治的荣耀](../works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii.md)；创作者 | S14 |
 
+### 博塔拉的学习
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 受指导画家 | [乔万尼·马里亚·博塔拉](gio-maria-bottalla.md) | S15 |
+| 安排指导的保护者 | [朱利奥·萨凯蒂](giulio-sacchetti.md) | S15 |
+
 ## 关系与证据
 
 ### 关系记录
@@ -241,5 +267,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 身份与外部链接
 
+[Treccani Bottalla传记](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)（S15，指导关系）。
+
 - [Wikipedia（en）](https://en.wikipedia.org/wiki/Pietro_da_Cortona)
 - [Wikidata Q333323](https://www.wikidata.org/wiki/Q333323)
+
+[第一章既有处理依据](../../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-pietro-da-cortona)

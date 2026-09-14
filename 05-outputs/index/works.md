@@ -121,6 +121,7 @@
 - [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../../04-knowledge/units/works/gavasetti-sant-antonino-frescoes.md)
 - [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../../04-knowledge/units/works/gian-antonio-faldoni-zaccaria-sagredo.md)
 - [撒迦利亚被石击（The stoning of Zechariah）](../../04-knowledge/units/works/giannantonio-fumiani-the-stoning-of-zechariah.md)
+- [贾昆托的洛林人圣尼古拉堂装饰（Giaquinto’s Decoration of San Nicola dei Lorenesi）](../../04-knowledge/units/works/giaquinto-san-nicola-dei-lorenesi-decoration.md)
 - [以扫与雅各相会（Meeting of Esau and Jacob）](../../04-knowledge/units/works/gio-maria-bottalla-meeting-of-esau-and-jacob.md)
 - [老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）](../../04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md)
 - [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../../04-knowledge/units/works/guercino-sicilian-altarpiece-1665.md)
