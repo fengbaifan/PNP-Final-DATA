@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 633
-# sources: {'explicit': 632, 'inferred_by_rule': 1}
+# total: 671
+# sources: {'explicit': 670, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -1053,6 +1053,26 @@
   review_status: evidence_backed_relation
   role: Cardinal Protector
   scope: 学院保护职位；不与Antonio Barberini家户混同
+- source: persons/francesco-guardi.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-francesco-guardi
+    source_file: https://www.nationalgallery.org.uk/artists/francesco-guardi
+    source_span: 人物年代与传记第2段Francesco Guardi was born in Venice
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1712'
+  role: 出生
+  scope: 出生地
 - source: persons/francesco-trevisani.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1743,6 +1763,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/gian-antonio-faldoni.md
+  source_type: person
+  target: persons/claude-mellan.md
+  target_type: person
+  relation_type: influenced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gian-antonio-faldoni
+    source_file: https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/
+    source_span: 早年学习段：在巴黎研究Claude Mellan版画
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 版画技术研习
+  scope: 在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承
 - source: persons/gianandrea-carlone.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1760,6 +1799,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/giannantonio-fumiani.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-giannantonio-fumiani
+    source_file: https://www.treccani.it/enciclopedia/giovanni-antonio-fumiani_(Dizionario-Biografico)/
+    source_span: 起首出生考证段；末段Il F. morì a Venezia nel 1710
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 生年未定；1710卒
+  role: 出生／去世
+  scope: 出生和去世均为威尼斯
 - source: persons/giovanni-bonati.md
   source_type: person
   target: persons/cardinal-pio-bonati.md
@@ -1947,6 +2006,46 @@
   time: 1689年后
   role: 工作室学生
   scope: 盖乌利工作室阶段；不推定共同创作
+- source: persons/giuseppe-angeli.md
+  source_type: person
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-giuseppe-angeli
+    source_file: https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/
+    source_span: 生平首段：1745年画背direttore della bottega del Piazzetta
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1745年时点
+  role: 作坊负责人
+  scope: 1745年画背自述负责Piazzetta作坊，限定作坊工作
+- source: persons/giuseppe-angeli.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-giuseppe-angeli
+    source_file: https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/
+    source_span: 首段Nacque a Venezia及Morì a Venezia, secondo il Moschini, nel 1798
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 生年可能1709；1798卒
+  role: 出生／去世
+  scope: 出生与去世均为威尼斯，生年保留可能与卒年来源归属
 - source: persons/giuseppe-ghezzi.md
   source_type: person
   target: institutions/arcadia.md
@@ -2364,6 +2463,164 @@
   time: 1964迁居；2015-11-06去世
   role: 迁居；去世
   scope: 两个具体人生事件，不指在整个区间连续居住
+- source: persons/marco-pitteri.md
+  source_type: person
+  target: persons/gian-antonio-faldoni.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gian-antonio-faldoni
+    source_file: https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/
+    source_span: 传记师生纠纷段：suo allievo Marco Pitteri
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 刻版学习
+  scope: DBI明称suo allievo Marco Pitteri；不以技术相似代替师承
+- source: persons/marco-pitteri.md
+  source_type: person
+  target: persons/piazzetta.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-pitteri
+    source_file: https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/
+    source_span: 合作段：iniziatasi nel 1740及Piazzetta卒年1754
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1740年起，生前合作
+  role: 设计与刻版合作
+  scope: 自1740开始的图像设计与刻版合作；Piazzetta1754去世后的复制不算在世合作
+- source: persons/marco-pitteri.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-pitteri
+    source_file: https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/
+    source_span: 传记首句：nato a Venezia il 24 maggio 1702, ivi morto il 4 agosto 1786
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1702-05-24出生；1786-08-04去世
+  role: 出生／去世
+  scope: 生卒均在威尼斯
+- source: persons/marco-ricci.md
+  source_type: person
+  target: persons/sebastiano-ricci.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 传记第2段：Fratello di suo padre era Sebastiano
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 侄子→叔父
+  scope: 父亲的兄弟为Sebastiano，明确叔侄而非兄弟
+- source: persons/marco-ricci.md
+  source_type: person
+  target: persons/sebastiano-ricci.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 合作段：Fin dagli albori del Settecento至fondali scenografici
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 18世纪初起
+  role: 风景与建筑背景
+  scope: Marco承担风景或建筑背景；不推及叔父每一件作品
+- source: persons/marco-ricci.md
+  source_type: person
+  target: persons/pellegrini.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 英国行程段：A Castle Howard, tra il 1709 e il 1710
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1709–1710
+  role: 绘画装饰
+  scope: 共同装饰Castle Howard，非仅同时在英国
+- source: persons/marco-ricci.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 归国段：Nel 1715 i due Ricci fecero ritorno a Venezia
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1715'
+  role: 返回
+  scope: 结束英国行程后的返抵事件；非全生涯连续住址
+- source: persons/marco-ricci.md
+  source_type: person
+  target: places/castle-howard.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 英国行程段：A Castle Howard, tra il 1709 e il 1710
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1709–1710
+  role: 装饰工作地点
+  scope: 共同绘制宅邸装饰画；不推定产权或建筑设计
 - source: persons/mario-de-fiori.md
   source_type: person
   target: persons/filippo-lauri.md
@@ -2712,6 +2969,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/pellegrini.md
+  source_type: person
+  target: places/castle-howard.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-marco-ricci
+    source_file: https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/
+    source_span: 英国行程段：A Castle Howard, tra il 1709 e il 1710
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1709–1710
+  role: 装饰工作地点
+  scope: 共同绘制宅邸装饰画；不推定产权或建筑设计
 - source: persons/peter-calvocoressi.md
   source_type: person
   target: institutions/chatto-and-windus.md
@@ -4053,6 +4330,123 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者
+- source: works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md
+  source_type: work
+  target: persons/baldassare-franceschini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 154–155; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md
+  source_type: work
+  target: persons/louis-xiv.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 154–155; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像／纪念对象
+  scope: 图版题名中的肖像或寓意纪念对象；不是出资或所有权证明
+- source: works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md
+  source_type: work
+  target: places/versailles.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 154–155; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中收藏地点
+  scope: 原书目录位置；不外推现藏或画中地点
+- source: works/baldassare-franceschini-la-burla-del-piovano-arlotto.md
+  source_type: work
+  target: persons/baldassare-franceschini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 105–106; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/baldassare-franceschini-la-burla-del-piovano-arlotto.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 105–106; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录所记收藏／保管，不宣称2026年现藏状态
+- source: works/baldassare-franceschini-la-burla-del-piovano-arlotto.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 105–106; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 原书目录位置；不外推现藏或画中地点
 - source: works/bernini-cardinal-borghese-head.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -7979,6 +8373,64 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者
+- source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
+  source_type: work
+  target: persons/francesco-guardi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 148–149; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
+  source_type: work
+  target: places/london.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 148–149; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中私人收藏地点
+  scope: 原书目录位置；不外推现藏或画中地点
+- source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
+  source_type: work
+  target: places/paese.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 148–149; 章前：图版目录；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画中地点
+  scope: 画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址
 - source: works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md
   source_type: work
   target: persons/giuseppe-maria-crespi.md
@@ -8125,6 +8577,162 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/gian-antonio-faldoni-zaccaria-sagredo.md
+  source_type: work
+  target: persons/gian-antonio-faldoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 刻版者
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/gian-antonio-faldoni-zaccaria-sagredo.md
+  source_type: work
+  target: persons/b-nazari.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原设计者；from B. Nazari
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/gian-antonio-faldoni-zaccaria-sagredo.md
+  source_type: work
+  target: persons/zaccaria-sagredo.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像／纪念对象
+  scope: 图版题名中的肖像或寓意纪念对象；不是出资或所有权证明
+- source: works/gian-antonio-faldoni-zaccaria-sagredo.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录所记收藏／保管，不宣称2026年现藏状态
+- source: works/gian-antonio-faldoni-zaccaria-sagredo.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 原书目录位置；不外推现藏或画中地点
+- source: works/giannantonio-fumiani-the-stoning-of-zechariah.md
+  source_type: work
+  target: persons/giannantonio-fumiani.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 111–111; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/giannantonio-fumiani-the-stoning-of-zechariah.md
+  source_type: work
+  target: institutions/uffizi-gallery.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 111–111; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 原书图版目录所记收藏／保管，不宣称2026年现藏状态
+- source: works/giannantonio-fumiani-the-stoning-of-zechariah.md
+  source_type: work
+  target: places/florence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 111–111; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 原书目录位置；不外推现藏或画中地点
 - source: works/guercino-sicilian-altarpiece-1665.md
   source_type: work
   target: persons/guercino.md
@@ -8236,6 +8844,63 @@
   review_status: evidence_backed_relation
   role: 要求完成现有画稿的委托人
   scope: 完成已有库存画；不是从零委托
+- source: works/marco-pitteri-flaminio-corner.md
+  source_type: work
+  target: persons/marco-pitteri.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 刻版者
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/marco-pitteri-flaminio-corner.md
+  source_type: work
+  target: persons/giuseppe-angeli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原设计者；from Giuseppe Angeli
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/marco-pitteri-flaminio-corner.md
+  source_type: work
+  target: persons/flaminio-corner.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像／纪念对象
+  scope: 图版题名中的肖像或寓意纪念对象；不是出资或所有权证明
 - source: works/marco-ricci-an-operatic-rehearsal.md
   source_type: work
   target: institutions/royal-academy.md
@@ -8255,6 +8920,83 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版47的复制图像；不表示作品创作者、所有者或保管者
+- source: works/marco-ricci-an-operatic-rehearsal.md
+  source_type: work
+  target: persons/marco-ricci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 125–125; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画家
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/marco-ricci-an-operatic-rehearsal.md
+  source_type: work
+  target: places/st-asaph.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 125–125; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中收藏地点
+  scope: 原书目录位置；不外推现藏或画中地点
+- source: works/marco-ricci-village-scene.md
+  source_type: work
+  target: persons/marco-ricci.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原设计者
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+- source: works/marco-ricci-village-scene.md
+  source_type: work
+  target: persons/bartolozzi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 刻印者
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
 - source: works/marieschi-picture-exhibition-at-church-of-s-rocco.md
   source_type: work
   target: institutions/stearn-and-son.md

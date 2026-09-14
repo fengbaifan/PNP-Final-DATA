@@ -118,9 +118,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录所记收藏／保管，不宣称2026年现藏状态；原断言与证据见发出端卡片“阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 105–106; 章前：图版目录；印刷页xiv |
 | ← 保管对象（`holder_of`，反向投影） | [《巴克斯》（Bacchus）](../works/caravaggio-bacchus-uffizi.md) | 当前对象记录将Bacchus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《巴克斯》（Bacchus）”：[来源](https://www.uffizi.it/en/artworks/bacchus)；held-by-institutions-uffizi-gallery-md；本卡S2；有S4时并参对象字段 |
 | ← 保管对象（`holder_of`，反向投影） | [《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）](../works/caravaggio-medusa-uffizi.md) | 当前对象记录将Medusa (Uffizi version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）”：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；held-by-institutions-uffizi-gallery-md；本卡S2；有S4时并参对象字段 |
 | ← 保管对象（`holder_of`，反向投影） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](../works/caravaggio-sacrifice-isaac-uffizi.md) | 当前对象记录将Sacrifice of Isaac (Uffizi version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）”：[来源](https://www.uffizi.it/en/artworks/sacrifice-of-isaac)；held-by-institutions-uffizi-gallery-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [撒迦利亚被石击（The stoning of Zechariah）](../works/giannantonio-fumiani-the-stoning-of-zechariah.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录所记收藏／保管，不宣称2026年现藏状态；原断言与证据见发出端卡片“撒迦利亚被石击（The stoning of Zechariah）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 111–111; 章前：图版目录；印刷页xiv |
 
 ### 身份与外部链接
 

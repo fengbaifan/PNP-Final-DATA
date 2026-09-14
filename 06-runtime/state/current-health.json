@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T01:23:46",
+  "timestamp": "2026-09-15T01:41:52",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 900,
+    "total_units": 901,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,21 +26,21 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 900,
+    "total_units": 901,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 900,
+    "units_missing_any_assignment": 901,
     "field_coverage": {
-      "primary_domain": "0/900",
-      "primary_dimension": "0/900",
-      "primary_theme": "0/900",
-      "topic_memberships": "0/900"
+      "primary_domain": "0/901",
+      "primary_dimension": "0/901",
+      "primary_theme": "0/901",
+      "topic_memberships": "0/901"
     }
   },
   "counts_by_type": {
     "persons": 327,
     "families": 8,
     "institutions": 124,
-    "places": 130,
+    "places": 131,
     "works": 203,
     "archives": 57,
     "terms": 34,
@@ -529,6 +529,7 @@
       "04-knowledge/units/places/cappella-delci-santa-sabina.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
+      "04-knowledge/units/places/castle-howard.md",
       "04-knowledge/units/places/cerasi-chapel.md",
       "04-knowledge/units/places/chiesa-de-servi-bologna.md",
       "04-knowledge/units/places/chiesa-nuova.md",
@@ -1404,6 +1405,7 @@
       "04-knowledge/units/places/cappella-delci-santa-sabina.md",
       "04-knowledge/units/places/capuchin-church-rome.md",
       "04-knowledge/units/places/castello-sforzesco.md",
+      "04-knowledge/units/places/castle-howard.md",
       "04-knowledge/units/places/cerasi-chapel.md",
       "04-knowledge/units/places/chiesa-de-servi-bologna.md",
       "04-knowledge/units/places/chiesa-nuova.md",
@@ -1851,8 +1853,8 @@
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 127,
-      "tags": 130,
+      "sub_type": 128,
+      "tags": 131,
       "evidence_status": 0
     },
     "works": {
@@ -1938,11 +1940,11 @@
   },
   "evidence_ref": {
     "sources_with_evidence_ref": 689,
-    "sources_without_evidence_ref": 211,
+    "sources_without_evidence_ref": 212,
     "evidence_ref_resolvable": 1052,
     "evidence_ref_broken": 0,
     "evidence_refs_total": 1052,
-    "units_with_traceable_source": 900
+    "units_with_traceable_source": 901
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1955,8 +1957,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 632,
-    "explicit_relations_with_evidence": 632
+    "explicit_relations": 670,
+    "explicit_relations_with_evidence": 670
   },
   "source_hash": {
     "total_sources": 0,
@@ -1974,7 +1976,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 900,
+      "count": 901,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2449,6 +2451,7 @@
         "04-knowledge/units/places/cappella-delci-santa-sabina.md",
         "04-knowledge/units/places/capuchin-church-rome.md",
         "04-knowledge/units/places/castello-sforzesco.md",
+        "04-knowledge/units/places/castle-howard.md",
         "04-knowledge/units/places/cerasi-chapel.md",
         "04-knowledge/units/places/chiesa-de-servi-bologna.md",
         "04-knowledge/units/places/chiesa-nuova.md",
@@ -3040,12 +3043,12 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 633,
-    "explicit_relation_count": 632,
+    "relation_index_total": 671,
+    "explicit_relation_count": 670,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 632,
+    "weak_evidence_count": 670,
     "needs_evidence_count": 0,
     "relation_type_coverage": "51/121"
   },
@@ -3107,22 +3110,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 900,
+    "total_units": 901,
     "source_count_distribution": {
-      "multi_source": 693,
-      "single_source": 207
+      "multi_source": 698,
+      "single_source": 203
     },
     "confidence_distribution": {
-      "missing": 900
+      "missing": 901
     },
     "consensus_distribution": {
-      "missing": 900
+      "missing": 901
     },
     "evidence_status_distribution": {
-      "source_backed": 900
+      "source_backed": 901
     },
     "isolated_units": {
-      "count": 384,
+      "count": 360,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/gerusalemme-liberata-illustrations-1745.md",
@@ -3165,7 +3168,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 207,
+      "single_source_units": 203,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3190,7 +3193,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 900,
+    "total_files": 901,
     "total_findings": 0
   }
 }

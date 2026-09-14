@@ -48,7 +48,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）](../works/marco-pitteri-flaminio-corner.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；原断言与证据见发出端卡片“弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

@@ -14,6 +14,7 @@
 - [埃尔奇小堂（Cappella d’Elci, Santa Sabina）](../../04-knowledge/units/places/cappella-delci-santa-sabina.md)
 - [罗马嘉布遣会教堂（Capuchin Church in Rome）](../../04-knowledge/units/places/capuchin-church-rome.md)
 - [斯福尔扎城堡（Castello Sforzesco）](../../04-knowledge/units/places/castello-sforzesco.md)
+- [霍华德城堡（Castle Howard）](../../04-knowledge/units/places/castle-howard.md)
 - [切拉西礼拜堂（Cerasi Chapel）](../../04-knowledge/units/places/cerasi-chapel.md)
 - [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](../../04-knowledge/units/places/chiesa-de-servi-bologna.md)
 - [罗马新教堂（Chiesa Nuova, Rome）](../../04-knowledge/units/places/chiesa-nuova.md)

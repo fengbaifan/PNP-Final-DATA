@@ -16,8 +16,31 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 133–133; 章前：图版目录；印刷页xv
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#图版画家与版画家身份角色补足
+relations:
+- relation_type: created_by
+  target: persons/marco-ricci.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+  role: 原设计者
+- relation_type: created_by
+  target: persons/bartolozzi.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 133–133; 章前：图版目录；印刷页xv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书对应图版所列制作责任；原设计与刻版分别保留角色
+  role: 刻印者
 ---
 
 ## 内容
@@ -47,7 +70,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [弗朗切斯科·巴尔托洛齐（Francesco Bartolozzi）](../persons/bartolozzi.md) | 角色：刻印者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

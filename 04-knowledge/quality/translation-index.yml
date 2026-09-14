@@ -243,8 +243,8 @@ index:
   language_original: ''
 - slug: persons/baldassare-franceschini
   type: persons
-  name_en: Baldassare Franceschini
-  title: 巴尔达萨雷·弗兰切斯基尼（Baldassare Franceschini）
+  name_en: Baldassarre Franceschini
+  title: 巴尔达萨雷·弗兰切斯基尼（Baldassarre Franceschini）
   name_original: ''
   language_original: ''
 - slug: persons/bartolozzi
@@ -843,8 +843,8 @@ index:
   language_original: ''
 - slug: persons/gian-antonio-faldoni
   type: persons
-  name_en: Gian Antonio Faldoni
-  title: 詹安东尼奥·法尔多尼（Gian Antonio Faldoni）
+  name_en: Giovanni Antonio Faldoni
+  title: 乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）
   name_original: ''
   language_original: ''
 - slug: persons/gian-lorenzo-bernini
@@ -873,8 +873,8 @@ index:
   language_original: ''
 - slug: persons/giannantonio-fumiani
   type: persons
-  name_en: GiannAntonio Fumiani
-  title: 詹安东尼奥·富米亚尼（GiannAntonio Fumiani）
+  name_en: Giovanni Antonio Fumiani
+  title: 乔瓦尼·安东尼奥·富米亚尼（Giovanni Antonio Fumiani）
   name_original: ''
   language_original: ''
 - slug: persons/giaquinto-front-matter
@@ -1323,8 +1323,8 @@ index:
   language_original: ''
 - slug: persons/marco-pitteri
   type: persons
-  name_en: Marco Pitteri
-  title: 马尔科·皮泰里（Marco Pitteri）
+  name_en: Marco Alvise Pitteri
+  title: 马尔科·阿尔维塞·皮泰里（Marco Alvise Pitteri）
   name_original: ''
   language_original: ''
 - slug: persons/marco-ricci
@@ -3297,8 +3297,8 @@ index:
   language_original: ''
 - slug: works/gian-antonio-faldoni-zaccaria-sagredo
   type: works
-  name_en: '"Portrait of Zaccaria Sagredo"'
-  title: '"扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）"'
+  name_en: Portrait of Zaccaria Sagredo
+  title: 扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）
   name_original: ''
   language_original: ''
 - slug: works/giannantonio-fumiani-the-stoning-of-zechariah
@@ -3369,8 +3369,8 @@ index:
   language_original: ''
 - slug: works/marco-pitteri-flaminio-corner
   type: works
-  name_en: '"Portrait of Flaminio Corner"'
-  title: '"弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）"'
+  name_en: Portrait of Flaminio Corner
+  title: 弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）
   name_original: ''
   language_original: ''
 - slug: works/marco-ricci-an-operatic-rehearsal

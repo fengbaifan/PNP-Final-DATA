@@ -1872,3 +1872,84 @@ Phaidon由现行官网品牌性质和1977年作者书目衔接；官网相对时
 ### 本轮写回与检查
 
 53条关系由模型按上述语境逐项拟定，生成49文件exact plan及差异，经预检后稳定apply_patch写回；最终内容与计划一致。45张受影响卡含3张新卡，115条原书摘录、414条本地链接、来源序号、旧sources及旧正式关系保留检查通过；受影响内容检查无确定性发现。53条新增关系逐项核对端点、类型、方向、角色、时间、范围及证据，633条关系索引一致（632条explicit、1条既有派生边）。4条就读关系的人物发出端与机构反向展示均复核。全库900个有效登记、章前530个KU；类型为人物215、机构86、文献19、地点90、作品112、术语4、家族3、事件1。16步同步检查及274项测试通过。下一步回到尚缺外部身份依据的对象及作品版本缺口，来源URL有无仅作检索路由，不据此判定身份成败。全任务未完成，本轮未提交推送。
+
+
+## 图版画家与版画家身份角色补足
+
+2026-09-15继续REV-093。集中核对7名图版画家／版画家，逐项保留书中姓名形式、原句与页行，追加实际读取的外部身份依据。原书作品记录已逐张重读，关系并非由正文链接自动生成。
+
+### 阅读与初步对齐
+
+- [Camillo Semenzato, ANGELI, Giuseppe, DBI 3 (1961)](https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/)：传记正文及书目全文；原引文献未读。威尼斯画家，可能1709年生，1798年卒据Moschini；1745年画背自称Piazzetta作坊负责人。
+- [Laura Mocci, FUMIANI, Giovanni Antonio, DBI 50 (1998)](https://www.treccani.it/enciclopedia/giovanni-antonio-fumiani_(Dizionario-Biografico)/)：传记正文、注释及书目全文；原引档案未读。规范姓名Giovanni Antonio Fumiani；生年有1643、1645与1650-12-04诸说，1710年卒于威尼斯；17世纪末为费迪南多绘制《撒迦利亚被石击》。
+- [National Gallery, Francesco Guardi (1712–1793)](https://www.nationalgallery.org.uk/artists/francesco-guardi)：艺术家传记全文及页面作品摘要；未逐件打开23件作品记录。Francesco Guardi，1712–1793，生于威尼斯，约1760年转向城市景观绘画。
+- [Antonella Sacconi, FALDONI (Faldon), Giovanni Antonio, DBI 44 (1994)](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)：传记正文及书目全文；原引档案未读。Giovanni Antonio Faldoni，1689-04-24生于Asolo，约1770年卒，卒地罗马或威尼斯；研习Mellan版画技术，Pitteri为其学生。
+- [Giulio Lorenzetti, PITTERI, Marco Alvise, Enciclopedia Italiana (1935)](https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/)：词条正文与书目全文；未读所引专著。Marco Alvise Pitteri，1702-05-24至1786-08-04，生卒均在威尼斯；刻版家，与Piazzetta合作自1740年开始。
+- [Annalisa Scarpa, RICCI, Marco, DBI 87 (2016)](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)：传记正文、引文及书目全文；原引档案未读。Marco Ricci，1676-06-05生，1730-01-21卒（威尼斯历1729）；画家、舞台布景设计者、版画家和素描家，与叔父Sebastiano及Pellegrini合作。
+- [Marco Gallo, FRANCESCHINI, Baldassarre detto il Volterrano, DBI 49 (1997)](https://www.treccani.it/enciclopedia/baldassarre-detto-il-volterrano-franceschini_(Dizionario-Biografico)/)：传记正文及书目全文；原引研究未读。Baldassarre Franceschini，别称il Volterrano，1611年生于Volterra；DBI记1690-01-07卒于佛罗伦萨，与在线百科1689有异。
+
+
+另读Treccani的Volterrano在线百科与NGA艺术家2707页。弗兰切斯基尼的1689／1690-01-07并列，不擅自归为历法差异；Marco Ricci则有DBI明确的1730-01-21／1729 more Veneto说明，不能套用到其他人。Marco条目中的1796返威尼斯及卒年段“56岁”与所列生卒不相容，未采纳这两个值。Fumiani生年保留三种说法；Angeli生年保留probabilmente、卒年保留Moschini归属。Pitteri采用此次实际读取的Marco Alvise规范形式，保留原书Marco，不由搜索所得Giovanni Marco形式改写为已核别名。Faldoni不因学习Mellan版画而记为Mellan亲授学生。上述7人的章内身份与外部条目在姓氏、角色、地域、时代上相合；均未新增QID或宣称Wiki双向核验。
+
+Guardi的馆方完整人物传记已读，页面23件作品仅有摘要，不称逐件馆藏记录全读。各人物辞典正文及附录书目已读，所引档案／原件未读。BM Faldoni页没有返回可识别的人物记录，故不作为证据。对其他作品的批评、争议及亲属线索只定位为后续缺口，不把人物辞典全部外链递归接收。
+
+### 正式关系裁决
+
+| 起点 | 类型 | 端点 | 角色、时间与证据范围 |
+|---|---|---|---|
+| works/giannantonio-fumiani-the-stoning-of-zechariah.md | created_by | persons/giannantonio-fumiani.md | 画家；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 111–111; 章前：图版目录；印刷页xiv |
+| works/marco-pitteri-flaminio-corner.md | created_by | persons/marco-pitteri.md | 刻版者；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 126–126; 章前：图版目录；印刷页xv |
+| works/marco-pitteri-flaminio-corner.md | created_by | persons/giuseppe-angeli.md | 原设计者；from Giuseppe Angeli；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 126–126; 章前：图版目录；印刷页xv |
+| works/gian-antonio-faldoni-zaccaria-sagredo.md | created_by | persons/gian-antonio-faldoni.md | 刻版者；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 126–126; 章前：图版目录；印刷页xv |
+| works/gian-antonio-faldoni-zaccaria-sagredo.md | created_by | persons/b-nazari.md | 原设计者；from B. Nazari；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 126–126; 章前：图版目录；印刷页xv |
+| works/marco-ricci-an-operatic-rehearsal.md | created_by | persons/marco-ricci.md | 画家；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 125–125; 章前：图版目录；印刷页xv |
+| works/marco-ricci-village-scene.md | created_by | persons/marco-ricci.md | 原设计者；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 133–133; 章前：图版目录；印刷页xv |
+| works/marco-ricci-village-scene.md | created_by | persons/bartolozzi.md | 刻印者；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 133–133; 章前：图版目录；印刷页xv |
+| works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md | created_by | persons/francesco-guardi.md | 画家；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 148–149; 章前：图版目录；印刷页xvi |
+| works/baldassare-franceschini-la-burla-del-piovano-arlotto.md | created_by | persons/baldassare-franceschini.md | 画家；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 105–106; 章前：图版目录；印刷页xiv |
+| works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md | created_by | persons/baldassare-franceschini.md | 画家；；原书对应图版所列制作责任；原设计与刻版分别保留角色；lines 154–155; 章前：图版目录；印刷页xvi |
+| works/marco-pitteri-flaminio-corner.md | has_subject | persons/flaminio-corner.md | 肖像／纪念对象；；图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；lines 126–126; 章前：图版目录；印刷页xv |
+| works/gian-antonio-faldoni-zaccaria-sagredo.md | has_subject | persons/zaccaria-sagredo.md | 肖像／纪念对象；；图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；lines 126–126; 章前：图版目录；印刷页xv |
+| works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md | has_subject | persons/louis-xiv.md | 肖像／纪念对象；；图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；lines 154–155; 章前：图版目录；印刷页xvi |
+| works/giannantonio-fumiani-the-stoning-of-zechariah.md | held_by | institutions/uffizi-gallery.md | 书中保管者；本书所述时点；原书图版目录所记收藏／保管，不宣称2026年现藏状态；lines 111–111; 章前：图版目录；印刷页xiv |
+| works/gian-antonio-faldoni-zaccaria-sagredo.md | held_by | institutions/museo-correr.md | 书中保管者；本书所述时点；原书图版目录所记收藏／保管，不宣称2026年现藏状态；lines 126–126; 章前：图版目录；印刷页xv |
+| works/baldassare-franceschini-la-burla-del-piovano-arlotto.md | held_by | institutions/uffizi-gallery.md | 书中保管者；本书所述时点；原书图版目录所记收藏／保管，不宣称2026年现藏状态；lines 105–106; 章前：图版目录；印刷页xiv |
+| works/giannantonio-fumiani-the-stoning-of-zechariah.md | located_at | places/florence.md | 书中保管地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 111–111; 章前：图版目录；印刷页xiv |
+| works/gian-antonio-faldoni-zaccaria-sagredo.md | located_at | places/venice.md | 书中保管地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 126–126; 章前：图版目录；印刷页xv |
+| works/marco-ricci-an-operatic-rehearsal.md | located_at | places/st-asaph.md | 书中收藏地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 125–125; 章前：图版目录；印刷页xv |
+| works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md | located_at | places/london.md | 书中私人收藏地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 148–149; 章前：图版目录；印刷页xvi |
+| works/baldassare-franceschini-la-burla-del-piovano-arlotto.md | located_at | places/florence.md | 书中保管地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 105–106; 章前：图版目录；印刷页xiv |
+| works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md | located_at | places/versailles.md | 书中收藏地点；本书所述时点；原书目录位置；不外推现藏或画中地点；lines 154–155; 章前：图版目录；印刷页xvi |
+| works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md | has_subject | places/paese.md | 画中地点；；画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址；lines 148–149; 章前：图版目录；印刷页xvi |
+| persons/marco-pitteri.md | trained_by | persons/gian-antonio-faldoni.md | 刻版学习；；DBI明称suo allievo Marco Pitteri；不以技术相似代替师承；传记师生纠纷段：suo allievo Marco Pitteri |
+| persons/gian-antonio-faldoni.md | influenced_by | persons/claude-mellan.md | 版画技术研习；；在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；早年学习段：在巴黎研究Claude Mellan版画 |
+| persons/giuseppe-angeli.md | collaborated_with | persons/piazzetta.md | 作坊负责人；1745年时点；1745年画背自述负责Piazzetta作坊，限定作坊工作；生平首段：1745年画背direttore della bottega del Piazzetta |
+| persons/marco-pitteri.md | collaborated_with | persons/piazzetta.md | 设计与刻版合作；1740年起，生前合作；自1740开始的图像设计与刻版合作；Piazzetta1754去世后的复制不算在世合作；合作段：iniziatasi nel 1740及Piazzetta卒年1754 |
+| persons/marco-ricci.md | kin_of | persons/sebastiano-ricci.md | 侄子→叔父；；父亲的兄弟为Sebastiano，明确叔侄而非兄弟；传记第2段：Fratello di suo padre era Sebastiano |
+| persons/marco-ricci.md | collaborated_with | persons/sebastiano-ricci.md | 风景与建筑背景；18世纪初起；Marco承担风景或建筑背景；不推及叔父每一件作品；合作段：Fin dagli albori del Settecento至fondali scenografici |
+| persons/marco-ricci.md | collaborated_with | persons/pellegrini.md | 绘画装饰；1709–1710；共同装饰Castle Howard，非仅同时在英国；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| persons/marco-ricci.md | located_at | places/venice.md | 返回；1715；结束英国行程后的返抵事件；非全生涯连续住址；归国段：Nel 1715 i due Ricci fecero ritorno a Venezia |
+| persons/giuseppe-angeli.md | located_at | places/venice.md | 出生／去世；生年可能1709；1798卒；出生与去世均为威尼斯，生年保留可能与卒年来源归属；首段Nacque a Venezia及Morì a Venezia, secondo il Moschini, nel 1798 |
+| persons/giannantonio-fumiani.md | located_at | places/venice.md | 出生／去世；生年未定；1710卒；出生和去世均为威尼斯；起首出生考证段；末段Il F. morì a Venezia nel 1710 |
+| persons/francesco-guardi.md | located_at | places/venice.md | 出生；1712；出生地；人物年代与传记第2段Francesco Guardi was born in Venice |
+| persons/marco-pitteri.md | located_at | places/venice.md | 出生／去世；1702-05-24出生；1786-08-04去世；生卒均在威尼斯；传记首句：nato a Venezia il 24 maggio 1702, ivi morto il 4 agosto 1786 |
+| persons/marco-ricci.md | located_at | places/castle-howard.md | 装饰工作地点；1709–1710；共同绘制宅邸装饰画；不推定产权或建筑设计；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| persons/pellegrini.md | located_at | places/castle-howard.md | 装饰工作地点；1709–1710；共同绘制宅邸装饰画；不推定产权或建筑设计；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+
+
+### 待证端点与版本
+
+- Fumiani：父母Biagio／Lucrezia、妻子Caterina Bazan／Barzan及子女、教师Domenico degli Ambrogi、Scuola di S. Rocco与Cassana中介均已见辞典，但尚须建立／核对相应端点；相关事实暂未扩入正式人物字段和边。Ferdinando对《撒迦利亚被石击》的委托是有据外部候选；图版40b成稿与草稿尚需核对后再把具体委托和尺寸写入作品。检索到Zeri作品60836（目录号58108）含bozzetto及Petraia156，未据此将其尺寸、馆藏号并入本书作品，也未称已核定同一版本。原文作者、书中保管者与地点可先定稿。
+- Angeli：1756学院裸体教学与1772院长、Piazzetta的作品续绘、其他具名作品须核对应机构和作品端点；作坊负责人已与Piazzetta建立有角色限定的合作，不将二者自动记为师生。
+- Guardi：父Domenico与兄Gian Antonio、姐妹与Tiepolo亲缘线索需核对应人物；John Strange别墅尚未独立识别，不由画中房产推出画作委托或画作所有权。Treviso为近邻方位，未建立其为别墅地址的边。
+- Faldoni：父母、Antonio Luciani师承、Asolo出生地和具体书籍版次需建／复用端点；去世地争议保留，不建确定卒地边。Pitteri的Faldoni师承可用现有端点落实，Piazzetta可能师承不提升为正式边。
+- Marco Ricci：Belluno出生地、父母、其他具名作品及收藏版本仍需逐项接续；《歌剧排练》存在不同版本，不能用Yale或其他同题作品替代本书Williams-Wynn版本。书中所有者同名具体爵位仍待核，暂只定稿画家、图中明确刻印者与书中位置。
+- Franceschini：Volterra出生地、Daddi／Rosselli师承、Mannozzi合作及具名赞助人需相应端点核对。图版37c的Uffizi书中记载与外部Galleria Palatina定位分开，尚不改写现藏。图版66与DBI的1664年路易十四寓意画同一性须结合馆藏号／图像确认，Strozzi委托与Colbert中介暂不写到此版本。
+
+已采纳的Castle Howard装饰活动需要建筑端点，因此建立霍华德城堡并落实两名画家的工作地点关系；仅依据实际传记，不补造现任产权、参观信息或建筑设计者卡。
+
+本轮保留原9项主候选与其他未决项；新增正式边不表示7人全部生平、作品或关系已补足完成。已处理记录原位更迭，过程留03，当前结果留04；知识发现、网页、人工校验和再次提交推送未执行。
+
+### 写入与验证
+
+38条关系、33张受影响卡（含1张新建建筑卡）已实际写入。预检核对80条原书摘录与320条本地链接，原sources前缀、既有正式关系及有效登记中的其他字段保持。exact plan核对时唯一格式差异为治理文件末尾补齐换行，实体与研究记录均与计划一致；未用该格式差异放宽内容比对。新增38条关系的端点、类型、方向、证据、角色、时间和范围与671条关系索引逐项一致。受影响卡内容机械检查未发现确定性缺陷，14步同步检查通过；本轮未改代码，不重复上一轮已通过的274项测试。全库901个有效KU，章前531个；机械通过不代表全面语义验收或全任务完成。

@@ -47,7 +47,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← influenced（`influenced`，反向投影） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](gian-antonio-faldoni.md) | 角色：版画技术研习；范围：在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）”：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；persons-gian-antonio-faldoni；早年学习段：在巴黎研究Claude Mellan版画 |
 
 ### 关系候选入口
 
