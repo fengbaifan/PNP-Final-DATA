@@ -1,6 +1,6 @@
 # 章前材料：知识元登记与对齐过程
 
-task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[摄入与处理定稿](../results/stages.md)及[实体候选](../results/entity-candidates.md)。前半部分保留REV-085登记判断与写回历史；候选映射维护当前去向。REV-086的外部核对、改变判断的依据及剩余问题见[初步对齐](#初步对齐rev-086)。
+task-id：`patrons-and-painters-front-matter`；REV-085–087。前置输入为[摄入与处理定稿](../results/stages.md)及[实体候选](../results/entity-candidates.md)。前半部分保留REV-085登记判断与写回历史；候选映射维护当前去向。外部核对和改变判断的依据见[REV-086](#初步对齐rev-086)及[REV-087](#图版作者与版本对齐rev-087)，当前状态见04任务结果。
 
 ## 判断与范围
 
@@ -92,10 +92,10 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-E052 | 新建 | [蓬佩奥·巴托尼（Pompeo Batoni）](../../../04-knowledge/units/persons/pompeo-batoni.md) |
 | FM-E053 | 复用并更新 | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../../../04-knowledge/units/persons/paolo-girolamo-piola.md) |
 | FM-E054 | 新建 | [多梅尼科·马里亚·维亚尼（Domenico Maria Viani）](../../../04-knowledge/units/persons/domenico-maria-viani.md) |
-| FM-E055 | 暂缓 | 索引Gregorio Lazzarini条未列xvii；仅姓氏不足以完成该段同一性判断。 |
+| FM-E055 | 新建后对齐 | [格雷戈里奥·拉扎里尼（Gregorio Lazzarini）](../../../04-knowledge/units/persons/gregorio-lazzarini.md)；DBI明确记其拒绝迁居罗马，补足语境身份链，见REV-090。 |
 | FM-E056 | 新建 | [塞巴斯蒂亚诺·孔卡（Sebastiano Conca）](../../../04-knowledge/units/persons/sebastiano-conca.md) |
 | FM-E057 | 原位整理后接收 | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../../../04-knowledge/units/persons/giuseppe-maria-crespi.md) |
-| FM-E058 | 新建 | [索利梅纳（Solimena）](../../../04-knowledge/units/persons/solimena.md) |
+| FM-E058 | 新建 | [弗朗切斯科·索利梅纳（Francesco Solimena）](../../../04-knowledge/units/persons/solimena.md) |
 | FM-E059 | 原位整理后接收 | [英诺森十一世（Innocent XI）](../../../04-knowledge/units/persons/innocent-xi.md) |
 | FM-E060 | 复用并更新 | [克雷芒十一世（Clement XI）](../../../04-knowledge/units/persons/clement-xi.md) |
 | FM-E061 | 新建 | [皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）](../../../04-knowledge/units/archives/conforti-legros-designers-1977.md) |
@@ -253,10 +253,10 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P67 | 新建 | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../../../04-knowledge/units/works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) |
 | FM-P68a | 暂缓 | 目录合列三幅未具名总督肖像；未定位三件实物前不把群项伪装成一个或三个确定作品。 |
 | FM-P68b | 新建 | [梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）](../../../04-knowledge/units/works/tiepolo-maecenas-presenting-the-arts-to-augustus.md) |
-| FM-H01 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
+| FM-H01 | 新建后对齐 | [Agraci — Arts Graphiques de la Cité](../../../04-knowledge/units/institutions/agraci.md)；按摄影商号登记，19a、25供片；见REV-090。 |
 | FM-H02 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
-| FM-H03 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
-| FM-H04 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
+| FM-H03 | 新建后对齐 | [巴莱利摄影工作室（Studio fotografico Balelli）](../../../04-knowledge/units/institutions/studio-fotografico-balelli.md)；馆方明确工作室与画廊照片题材，33b供片；见REV-091。 |
+| FM-H04 | 新建后对齐 | [Ditta Osvaldo Böhm](../../../04-knowledge/units/institutions/osvaldo-bohm-photographic-publisher.md)；摄影出版商号，41b、44供片；见REV-090。 |
 | FM-H05 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
 | FM-H06 | 新建 | [R. B. 弗莱明（R. B. Fleming）](../../../04-knowledge/units/persons/r-b-fleming.md) |
 | FM-H07 | 新建 | [约翰·R. 弗里曼（John R. Freeman）](../../../04-knowledge/units/persons/john-r-freeman.md) |
@@ -276,7 +276,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-H21 | 新建 | [斯特恩父子公司（Stearn and Son）](../../../04-knowledge/units/institutions/stearn-and-son.md) |
 | FM-H22 | 新建 | [剑桥特纳摄影商号（Turners of Cambridge）](../../../04-knowledge/units/institutions/turners-of-cambridge.md) |
 | FM-H23 | 新建 | [剑桥大学图书馆（University Library, Cambridge）](../../../04-knowledge/units/institutions/university-library-cambridge.md) |
-| FM-H24 | 暂缓 | 署名的个人／商号／复合代理或机构具体身份未定，保留原供片编号，不据摄影署名猜法人或合并现有机构。 |
+| FM-H24 | 新建后对齐 | [A. Villani e Figli](../../../04-knowledge/units/institutions/a-villani-e-figli.md)；摄影公司，28a供片；见REV-090。 |
 | FM-H25 | 新建 | [埃伯哈德·茨维克（Eberhard Zwicker）](../../../04-knowledge/units/persons/eberhard-zwicker.md) |
 | FM-H26 | 属性／语境保留 | [本书](../../../04-knowledge/units/archives/patrons-and-painters.md)及处理结果，不新增KU |
 
@@ -399,8 +399,8 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P19b.depicted1 | 新建 | [德尔斐（Delphi）](../../../04-knowledge/units/places/delphi.md) |
 | FM-P19b.holder1 | 新建 | [芝加哥艺术博物馆（Art Institute of Chicago）](../../../04-knowledge/units/institutions/art-institute-of-chicago.md) |
 | FM-P19b.object | 新建 | [有队列的德尔斐景观（View of Delphi with a Procession）](../../../04-knowledge/units/works/claude-view-of-delphi-with-a-procession.md) |
-| FM-P20.creator1 | 新建 | [委拉斯开兹（Velasquez）](../../../04-knowledge/units/persons/velasquez.md) |
-| FM-P20.holder1 | 新建 | [拉尔夫·班克斯（Ralph Bankes）](../../../04-knowledge/units/persons/ralph-bankes.md) |
+| FM-P20.creator1 | 新建 | [迭戈·委拉斯开兹（Diego Velázquez）](../../../04-knowledge/units/persons/velasquez.md) |
+| FM-P20.holder1 | 新建 | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../../../04-knowledge/units/persons/ralph-bankes.md) |
 | FM-P20.object | 新建 | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../../../04-knowledge/units/works/velasquez-camillo-massimi.md) |
 | FM-P20.site1 | 新建 | [金斯顿莱西庄园（Kingston Lacy）](../../../04-knowledge/units/places/kingston-lacy.md) |
 | FM-P20.subject1 | 新建 | [卡米洛·马西米（Camillo Massimi）](../../../04-knowledge/units/persons/camillo-massimi.md) |
@@ -459,7 +459,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P29.object | 新建 | [汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）](../../../04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md) |
 | FM-P29.site1 | 新建 | [汉普顿宫（Hampton Court Palace）](../../../04-knowledge/units/places/hampton-court-palace.md) |
 | FM-P30a.creator1 | 新建 | [马西莫·斯坦齐奥内（Massimo Stanzione）](../../../04-knowledge/units/persons/massimo-stanzione.md) |
-| FM-P30a.holder1 | 新建 | [拉尔夫·班克斯（Ralph Bankes）](../../../04-knowledge/units/persons/ralph-bankes.md) |
+| FM-P30a.holder1 | 新建 | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../../../04-knowledge/units/persons/ralph-bankes.md) |
 | FM-P30a.object | 新建 | [杰罗姆·班克斯肖像（Portrait of Jerome Bankes）](../../../04-knowledge/units/works/massimo-stanzione-jerome-bankes.md) |
 | FM-P30a.site1 | 新建 | [金斯顿莱西庄园（Kingston Lacy）](../../../04-knowledge/units/places/kingston-lacy.md) |
 | FM-P30a.subject1 | 新建 | [杰罗姆·班克斯（Jerome Bankes）](../../../04-knowledge/units/persons/jerome-bankes.md) |
@@ -472,7 +472,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P31a.object | 新建 | [查尔斯·福克斯肖像（Portrait of Charles Fox）](../../../04-knowledge/units/works/carlo-maratta-charles-fox.md) |
 | FM-P31a.subject1 | 新建 | [查尔斯·福克斯（Charles Fox）](../../../04-knowledge/units/persons/charles-fox.md) |
 | FM-P31b.creator1 | 复用并更新 | [卡洛·马拉塔（Carlo Maratta）](../../../04-knowledge/units/persons/carlo-maratta.md) |
-| FM-P31b.holder1 | 新建 | [盖尔斯·伊舍姆（Gyles Isham）](../../../04-knowledge/units/persons/gyles-isham.md) |
+| FM-P31b.holder1 | 已登记后对齐 | [盖尔斯·伊舍姆（Gyles Isham）](../../../04-knowledge/units/persons/gyles-isham.md)；第十二代从男爵，历史收藏者；见REV-089。 |
 | FM-P31b.object | 新建 | [托马斯·伊舍姆（Sir Thomas Isham）](../../../04-knowledge/units/works/carlo-maratta-sir-thomas-isham.md) |
 | FM-P31b.site1 | 新建 | [兰波特庄园（Lamport Hall）](../../../04-knowledge/units/places/lamport-hall.md) |
 | FM-P31b.subject1 | 新建 | [托马斯·伊舍姆（Thomas Isham）](../../../04-knowledge/units/persons/thomas-isham.md) |
@@ -484,14 +484,14 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P32b.object | 新建 | [赫拉克勒斯的选择（The choice of Hercules）](../../../04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md) |
 | FM-P32b.site1 | 新建 | [坦普尔纽萨姆庄园（Temple Newsam）](../../../04-knowledge/units/places/temple-newsam.md) |
 | FM-P32b.site2 | 新建 | [利兹（Leeds）](../../../04-knowledge/units/places/leeds.md) |
-| FM-P33a.creator1 | 新建 | [索利梅纳（Solimena）](../../../04-knowledge/units/persons/solimena.md) |
+| FM-P33a.creator1 | 新建 | [弗朗切斯科·索利梅纳（Francesco Solimena）](../../../04-knowledge/units/persons/solimena.md) |
 | FM-P33a.former_site1 | 新建 | [布奥纳科尔西宫（Palazzo Buonaccorsi）](../../../04-knowledge/units/places/palazzo-buonaccorsi.md) |
 | FM-P33a.former_site2 | 新建 | [马切拉塔（Macerata）](../../../04-knowledge/units/places/macerata.md) |
 | FM-P33a.object | 新建 | [狄多与埃涅阿斯（Dido and Aeneas）](../../../04-knowledge/units/works/solimena-dido-and-aeneas.md) |
 | FM-P33b.object | 新建 | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../../../04-knowledge/units/places/gallery-palazzo-buonaccorsi.md) |
 | FM-P33b.part1 | 新建 | [布奥纳科尔西宫（Palazzo Buonaccorsi）](../../../04-knowledge/units/places/palazzo-buonaccorsi.md) |
 | FM-P33b.site1 | 新建 | [马切拉塔（Macerata）](../../../04-knowledge/units/places/macerata.md) |
-| FM-P34.creator1 | 新建 | [委拉斯开兹（Velasquez）](../../../04-knowledge/units/persons/velasquez.md) |
+| FM-P34.creator1 | 新建 | [迭戈·委拉斯开兹（Diego Velázquez）](../../../04-knowledge/units/persons/velasquez.md) |
 | FM-P34.holder1 | 复用并更新 | [大都会艺术博物馆（Metropolitan Museum of Art）](../../../04-knowledge/units/institutions/metropolitan-museum-of-art.md) |
 | FM-P34.object | 新建 | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../../../04-knowledge/units/works/velasquez-juan-de-pareja.md) |
 | FM-P34.site1 | 新建 | [纽约（New York）](../../../04-knowledge/units/places/new-york.md) |
@@ -552,7 +552,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P41b.site1 | 新建 | [弗拉里教堂（Church of the Frari）](../../../04-knowledge/units/places/church-of-the-frari.md) |
 | FM-P41b.site2 | 复用并更新 | [威尼斯（Venice）](../../../04-knowledge/units/places/venice.md) |
 | FM-P41b.subject1 | 新建 | [乔瓦尼·佩萨罗（Giovanni Pesaro）](../../../04-knowledge/units/persons/giovanni-pesaro.md) |
-| FM-P42a.creator1 | 暂缓 | 仅Tiepolo姓氏；按本件作品核对父子及归属后再映射。 |
+| FM-P42a.creator1 | 对齐后复用 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../../../04-knowledge/units/persons/giambattista-tiepolo.md)；具体角色及依据见REV-087。 |
 | FM-P42a.object | 新建 | [海神向威尼斯致敬（Neptune paying homage to Venice）](../../../04-knowledge/units/works/tiepolo-neptune-paying-homage-to-venice.md) |
 | FM-P42a.site1 | 新建 | [总督宫（威尼斯）（Palazzo Ducale）](../../../04-knowledge/units/places/palazzo-ducale.md) |
 | FM-P42a.site2 | 复用并更新 | [威尼斯（Venice）](../../../04-knowledge/units/places/venice.md) |
@@ -560,12 +560,12 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P42b.object | 新建 | [威尼斯寓意（Allegory of Venice）](../../../04-knowledge/units/works/niccolo-bambini-allegory-of-venice.md) |
 | FM-P42b.site1 | 新建 | [佩萨罗宫（Ca' Pesaro）](../../../04-knowledge/units/places/ca-pesaro.md) |
 | FM-P42b.site2 | 复用并更新 | [威尼斯（Venice）](../../../04-knowledge/units/places/venice.md) |
-| FM-P43.creator1 | 暂缓 | 仅Tiepolo姓氏；按本件作品核对父子及归属后再映射。 |
+| FM-P43.creator1 | 对齐后复用 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../../../04-knowledge/units/persons/giambattista-tiepolo.md)；具体角色及依据见REV-087。 |
 | FM-P43.family1 | 新建 | [雷佐尼科家族（Rezzonico family）](../../../04-knowledge/units/families/rezzonico-family.md) |
 | FM-P43.object | 新建 | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../../../04-knowledge/units/works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) |
 | FM-P43.site1 | 新建 | [雷佐尼科宫（Ca' Rezzonico）](../../../04-knowledge/units/places/ca-rezzonico.md) |
 | FM-P43.site2 | 复用并更新 | [威尼斯（Venice）](../../../04-knowledge/units/places/venice.md) |
-| FM-P44.creator1 | 暂缓 | 仅Tiepolo姓氏；按本件作品核对父子及归属后再映射。 |
+| FM-P44.creator1 | 对齐后复用 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../../../04-knowledge/units/persons/giambattista-tiepolo.md)；具体角色及依据见REV-087。 |
 | FM-P44.family1 | 新建 | [皮萨尼家族（Pisani family）](../../../04-knowledge/units/families/pisani-family.md) |
 | FM-P44.object | 新建 | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../../../04-knowledge/units/works/tiepolo-glorification-of-the-pisani-family.md) |
 | FM-P44.site1 | 新建 | [皮萨尼别墅（斯特拉）（Villa Pisani）](../../../04-knowledge/units/places/villa-pisani.md) |
@@ -609,7 +609,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P49b.creator1 | 新建 | [阿米戈尼（Amigoni）](../../../04-knowledge/units/persons/amigoni.md) |
 | FM-P49b.object | 新建 | [朱庇特与伊娥（Jupiter and Io）](../../../04-knowledge/units/works/amigoni-jupiter-and-io.md) |
 | FM-P49b.site1 | 新建 | [穆尔公园庄园（Moor Park）](../../../04-knowledge/units/places/moor-park.md) |
-| FM-P50.creator1 | 暂缓 | 仅Tiepolo姓氏；按本件作品核对父子及归属后再映射。 |
+| FM-P50.creator1 | 对齐后复用 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../../../04-knowledge/units/persons/giambattista-tiepolo.md)；具体角色及依据见REV-087。 |
 | FM-P50.object | 新建 | [维尔茨堡宫楼梯顶画局部（Detail from fresco on ceiling of staircase in Residenz）](../../../04-knowledge/units/works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md) |
 | FM-P50.site1 | 新建 | [维尔茨堡宫（Residenz, Würzburg）](../../../04-knowledge/units/places/residenz-wurzburg.md) |
 | FM-P50.site2 | 新建 | [维尔茨堡（Würzburg）](../../../04-knowledge/units/places/wurzburg.md) |
@@ -654,7 +654,7 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P57a.creator1 | 新建 | [皮亚泽塔（Piazzetta）](../../../04-knowledge/units/persons/piazzetta.md) |
 | FM-P57a.object | 新建 | [《耶路撒冷解放》插图末页（Final plate of Illustrations to Gerusalemme Liberata）](../../../04-knowledge/units/works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md) |
 | FM-P57a.publisher1 | 新建 | [阿尔布里齐（Albrizzi）](../../../04-knowledge/units/persons/albrizzi.md) |
-| FM-P57a.self1 | 新建 | [皮亚泽塔（Piazzetta）](../../../04-knowledge/units/persons/piazzetta.md) |
+| FM-P57a.self1 | 新建；REV-088将角色限定为肖像对象，保留旧锚点 | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../../../04-knowledge/units/persons/piazzetta.md) |
 | FM-P57a.subject1 | 新建 | [阿尔布里齐（Albrizzi）](../../../04-knowledge/units/persons/albrizzi.md) |
 | FM-P57b.author1 | 新建 | [戈尔多尼（Goldoni）](../../../04-knowledge/units/persons/goldoni.md) |
 | FM-P57b.carrier1 | 新建 | [戈尔多尼作品集第二卷（1761）（Goldoni, Opere, vol. 2, 1761）](../../../04-knowledge/units/archives/goldoni-opere-vol-2-1761.md) |
@@ -665,8 +665,8 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P58a.holder1 | 新建 | [科雷尔博物馆（Museo Correr）](../../../04-knowledge/units/institutions/museo-correr.md) |
 | FM-P58a.object | 新建 | [老扎内蒂与杰里尼侯爵（A. M. Zanetti the Elder with Marchese Gerini）](../../../04-knowledge/units/works/giuseppe-zocchi-a-m-zanetti-the-elder-with-marchese-gerini.md) |
 | FM-P58a.site1 | 复用并更新 | [威尼斯（Venice）](../../../04-knowledge/units/places/venice.md) |
-| FM-P58a.subject1 | 新建 | [老A. M. 扎内蒂（A. M. Zanetti the Elder）](../../../04-knowledge/units/persons/a-m-zanetti-the-elder.md) |
-| FM-P58a.subject2 | 新建 | [杰里尼侯爵（Marchese Gerini）](../../../04-knowledge/units/persons/marchese-gerini.md) |
+| FM-P58a.subject1 | 已登记后对齐 | [老安东·玛丽亚·扎内蒂（Anton Maria Zanetti the Elder）](../../../04-knowledge/units/persons/a-m-zanetti-the-elder.md)；原书简称保留，见REV-089。 |
+| FM-P58a.subject2 | 已登记后对齐 | [安德烈亚·杰里尼（Andrea Gerini）](../../../04-knowledge/units/persons/marchese-gerini.md)；原书Marchese Gerini，见REV-089。 |
 | FM-P58b.creator1 | 新建 | [亚历山德罗·隆吉（Alessandro Longhi）](../../../04-knowledge/units/persons/alessandro-longhi.md) |
 | FM-P58b.holder1 | 新建 | [科雷尔博物馆（Museo Correr）](../../../04-knowledge/units/institutions/museo-correr.md) |
 | FM-P58b.object | 新建 | [G. M. 萨索肖像（Portrait of G. M. Sasso）](../../../04-knowledge/units/works/alessandro-longhi-g-m-sasso.md) |
@@ -730,8 +730,8 @@ task-id：`patrons-and-painters-front-matter`；REV-085–086。前置输入为[
 | FM-P67.site1 | 新建 | [斯图加特（Stuttgart）](../../../04-knowledge/units/places/stuttgart.md) |
 | FM-P68a.creator1 | 新建 | [弗朗切斯科·马焦托（Francesco Maggiotto）](../../../04-knowledge/units/persons/francesco-maggiotto.md) |
 | FM-P68a.object | 暂缓 | 目录合列三幅未具名总督肖像；未定位三件实物前不把群项伪装成一个或三个确定作品。 |
-| FM-P68b.creator1 | 暂缓 | 仅Tiepolo姓氏；按本件作品核对父子及归属后再映射。 |
-| FM-P68b.creator2 | 新建 | [莱奥纳迪斯（Leonardis）](../../../04-knowledge/units/persons/leonardis.md) |
+| FM-P68b.creator1 | 对齐后复用 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../../../04-knowledge/units/persons/giambattista-tiepolo.md)；具体角色及依据见REV-087。 |
+| FM-P68b.creator2 | 对齐后复用 | [雅科波·莱奥纳迪斯（Jacopo Leonardis）](../../../04-knowledge/units/persons/leonardis.md)；版画刻印者，保留原路径。 |
 | FM-P68b.object | 新建 | [梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）](../../../04-knowledge/units/works/tiepolo-maecenas-presenting-the-arts-to-augustus.md) |
 | FM-X01 | 新建 | [伯灵顿杂志（Burlington Magazine）](../../../04-knowledge/units/archives/burlington-magazine.md) |
 | FM-X02 | 新建 | [博物馆研究期刊（Museum Studies）](../../../04-knowledge/units/archives/museum-studies-art-institute-chicago.md) |
@@ -774,7 +774,9 @@ REV-085登记交接时有22条主候选尚无KU映射；此外，卡内仍有未
 
 上述采用链是机构档案、馆藏与教堂记录。本轮没有新增或确认任何QID，也没有完成新的Wikipedia↔Wikidata双向核对；原有Wiki验证记录保留，不因此提高整卡状态。
 
-### 仍暂缓的14条主候选
+### REV-086时暂缓的14条主候选
+
+以下保留当时的证据状态；其中4条在REV-090取得新证据后解除暂缓，当前去向见本文件候选登记映射及REV-090段落。
 
 | 锚点 | 当前依据、问题与下一步 |
 |---|---|
@@ -802,3 +804,174 @@ FM-R06相关朋友／咨询端点现可复用两位人物，FM-R09的Munby图书
 ### 写回与检查
 
 本轮5个新KU、12个已有KU更新及accepted，共18个写回目标。预览后核对全部目标旧内容，再串行写回；25条受影响卡内原书摘录与实际行段一致，已有sources前缀及正式relations保持原值，accepted的claims和structure保持原值。见[本轮写回指纹](alignment-writeback.json)；REV-085的registration-writeback保留当时结果，不覆盖为本轮快照。原书PDF／Markdown、第一章任务结果和页面未变。最终检查结果见当前04结果；未提交或推送。
+
+## 图版作者与版本对齐：REV-087
+
+### 提交同步与接续范围
+
+先将REV-083–086的章前成果及生成索引提交为`7a046470ca7f286cf7636dafa83b900d85dd2858`，推送origin/main。2026-09-14核对本地HEAD与`git ls-remote origin refs/heads/main`相同，同步时工作树干净。完整测试通过；GitHub [Quality gate运行34813317233](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/34813317233)的Python 3.10和3.12两项均成功。首次提交前检查的generated snapshots步骤因新生成文件尚未提交而报告差异；已将这些变化纳入该提交，远端检查通过。网页数据未刷新。
+
+随后接续初步对齐，集中处理剩余5件Tiepolo图版与Leonardis姓名，不以姓氏批量指定父子。外部资料只用于本件作品的身份和必要角色；引入的明确协作者回ingest建卡，不扩张馆方页面上所有作品和人物。实际采用网页均于2026-09-14打开相应段落；PDF仅阅读所列条目，未声称180页全文阅读或扫描图像比对。
+
+| 原文锚点 | 来源与比较 | 当前裁决 |
+|---|---|---|
+| FM-P42a.creator1／object | [MUVE作品条目](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)的作者、题材与总督宫位置吻合，馆藏号TS 2° p. n. 6 n. 328 | 创作者为Giambattista Tiepolo。采用馆方1757–1758断代，明确字段名为“馆方创作年代”；没有将搜索所得其他断代混入本条。书中Neptune paying homage与馆方Neptune Offering Gifts分别留存。 |
+| FM-P43.creator1／object | [Ca’ Rezzonico官网First floor](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)的Nuptial Allegory Room段 | 主画家Giambattista Tiepolo；Girolamo Mengozzi Colonna负责建筑幻景，儿子Giandomenico负责萨堤尔。两位协作者分别建立KU及明确角色；这些协作／亲缘事实来自外部馆方，不伪装成原图版目录所述。 |
+| FM-P44.creator1／object | [威尼托国家博物馆管理机构2025-04-25活动说明](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)的舞厅顶画段 | 作者Giambattista Tiepolo、舞厅天顶与1761–1762年对应。Villa Pisani旧站请求多次超时，未把只见搜索摘要的旧站当作本轮完整阅读证据；改用已读主管机构正文。部分人物寓意有争议，不按常见解说强定人物身份。 |
+| FM-P50.creator1／object | [巴伐利亚宫殿管理局Staircase正文](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)明确Giovanni Battista Tiepolo、1752/53与楼梯厅顶画 | 身份配对至既有Giambattista卡。知识元是整幅固定位置顶画，原书仅复制局部；标题与描述区分作品和图版裁切范围，保留稳定路径。网页图像标题提及其他姓名，不能据此推断所有人为共同作者；本轮没有为该壁画新增Giandomenico创作事实。 |
+| FM-P68b.creator1／creator2／object | [慕尼黑国家版画收藏馆2022数字馆藏目录](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)，印刷78／PDF78的Leonardis, Jacopo条下HISTORIE段 | Jacopo Leonardis于1766年依据G. B. Tiepolo设计制作该蚀刻版画；原设计与刻印角色分开。11348 D是目录中的慕尼黑印本，不能直接填为本书图版所用实物的馆藏号。保持作品级匹配，具体印本／版次仍未核同。Leonardis原卡增加规范名，未新造第二人。 |
+
+### 外部补入端点与关系候选
+
+| 新锚点 | 对象及来源 | 必要事实与交接 |
+|---|---|---|
+| FM-EX01 | [Girolamo Mengozzi Colonna](../../../04-knowledge/units/persons/girolamo-mengozzi-colonna.md)，MUVE的Nuptial Allegory Room段 | 该作品建筑幻景的绘制者；候选方向人物→FM-P43作品，角色限建筑幻景。 |
+| FM-EX02 | [Giandomenico Tiepolo](../../../04-knowledge/units/persons/giandomenico-tiepolo.md)，同段 | 该作品萨堤尔的绘制者；候选方向人物→FM-P43作品。亲缘为Giandomenico→Giambattista（父亲）；父子两卡提供互链，仍未写正式边。 |
+
+这两个对象没有本轮已读原书中的直接具名出处，sources只登记实际外部段落，不复制其父亲的原书原句充作自身出处。二者不进入原始241条主候选计数。作品卡保存分工及链接，人物卡保存对应作品；Giambattista卡补入5件作品／原设计入口，现覆盖本任务7件Tiepolo署名图版，不是其完整作品全集。图版68b的“原设计”不表示他亲自刻印这件版画；原设计所据画作的具体版本须补足时继续辨认，不能把它与版画合成同一实物。
+
+### 当前结果与剩余问题
+
+5条Tiepolo作者子锚点已落实，Leonardis已展开姓名；主候选仍为223条映射、4条属性／语境、14条暂缓。新增2个人物KU，更新7个已有KU，全库有效登记802个；本任务涉及427个对象。14条主候选的暂缓理由延续REV-086，其他爵号、供片机构、书目版本及印本核同仍未完成，整体初步对齐继续进行。作者身份可用不等于外部补足完整，更不等于所有创作／安置／委托等关系已定稿。
+
+本轮为模型逐项判断后机械排版，精确before/after保存在本机临时目录`C:/Users/001/AppData/Local/Temp/pnp-rev087-alignment/plan.json`；写回前核对10个目标原内容，旧sources和正式relations保持原值。正式可恢复基线为已推送提交7a04647；本段接续成果尚未再次提交或推送。阶段结果原位更新04，未修改源书、第一章任务结果、规则／技能或页面。
+
+接续写回后检查9张受影响KU的内容格式无确定性发现，8条原书摘录与实际行段一致；802条有效路径、正文相对链接和来源序号有效，既有sources前缀与正式relations不变，`git diff --check`通过。这是本轮语义自查与机械检查，不是独立验收。
+
+## 出版者与书目对齐：REV-088
+
+2026-09-14接续初步对齐，集中处理图版57a／57b的两部载体文献、作者与出版者，以及导言所引Gilmartin论文。采用verify；发现文字作者端点缺失后，按ingest契约建立Torquato Tasso。模型逐项比较原文与外部记录，脚本只负责已决定内容的排版、差异预览和写回。未启动全面补足或关系定稿。
+
+### 来源、阅读范围与裁决
+
+| 对象／锚点 | 实际阅读与比较 | 本轮结果与范围 |
+|---|---|---|
+| FM-P57a.publisher1／subject1：Albrizzi | [Treccani人物条目](https://www.treccani.it/enciclopedia/giovanni-battista-albrizzi_(Dizionario-Biografico)/)正文，及[普林斯顿图书馆Z-GA-EGA-131](https://static-prod.lib.princeton.edu/scsites/portfolio/ega/r00000032.htm)目录说明；与原书E:L135的1745年版本及Piazzetta配对 | 展开为Giovanni Battista Albrizzi，1698–1777；原位保留Albrizzi及出版署名Giambatista。DBI明确区分同名孙辈，本次采用十八世纪中叶的出版者；没有把其他Albrizzi人物或家族合入。 |
+| FM-P57b.publisher1：Pasquali | [巴塞罗那大学印刷者规范记录](https://marques.crai.ub.edu/en/printer/pasquali-giovanni-battista)姓名、异名与活动项；[WorldCat 14629858](https://search.worldcat.org/title/Delle-commedie-di-Carlo-Goldoni-../oclc/14629858)责任者及出版项；[Treccani人物条目](https://www.treccani.it/enciclopedia/giambattista-pasquali_(Dizionario-Biografico)/)生平及Goldoni出版段 | 展开为Giovanni Battista Pasquali，另列Giambattista／Giambatista及Jo. Baptista；与1761年威尼斯版本的印刷／出版角色吻合。姓氏保留为原书形式，人物不改成机构。 |
+| FM-P57a.creator1／self1：Piazzetta | [Treccani人物条目](https://www.treccani.it/enciclopedia/giovanni-battista-piazzetta_(Dizionario-Biografico)/)姓名、生年及1745年插图设计段；对照E:L135的“with portraits of Piazzetta and Albrizzi” | 展开Giovanni Battista，别名Giambattista。书目与传记支持插图设计，不能据此认定该末页由他亲自刻版。原初稿“自我描绘者”过强，收窄为“描绘对象”；旧self1锚点保留，并在候选表／两张KU中一致更正。 |
+| FM-P57b.author1／creator1 | WorldCat上述记录的Carlo Goldoni、Pietro Antonio Novelli及[Novelli人物条目](https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/)姓名、生年、Pasquali与Zatta两版比较段 | Goldoni展开Carlo Goldoni，Novelli核为1729年生者，保留Pier Antonio异名；设计角色落到现有KU。两人都提供文献／插图入口。原书第二卷不与其他版次、第一卷肖像或第一章Novetti合并。 |
+| FM-P57a.carrier1 | 普林斯顿图书馆目录完整书目说明，结合Piazzetta条目与原书1745年载体 | 规范为1745年Albrizzi插图本，补文字作者Tasso、出版地及各责任者。普林斯顿Z-GA-EGA-131是图像目录编号，不能当作本书图版所用印本的馆藏号；没有查看该版本全部扫描或进行末页图像比对。 |
+| FM-P57b.carrier1 | WorldCat整套记录与[Casa di Carlo Goldoni馆藏版本说明](https://carlogoldoni.visitmuve.it/it/il-museo/servizi-agli-studiosi/biblioteca/servizi-scientifici-3-2/edizioni-goldoniane/)的Pasquali项 | 对齐为Delle commedie di Carlo Goldoni之Pasquali版第二卷，保留原书简题Opere。馆方整套时段1761–1778?与目录1761属不同粒度；卡内分字段保存“原书所标年份”“整套书目所标年份”“馆方所记整套出版时段”。第二卷实际出书年尚无单册原件证明，不把整个时段套入第二卷，也不宣称1761已经证伪。 |
+| FM-E092及gilmartin-san-clemente-1974 | [出版社1974年6月目录](https://www.burlington.org.uk/archive/back-issues/197406)的刊期及该文条目；[JSTOR同期期目](https://www.jstor.org/stable/i236686)可定位至stable/877695 | 明确John Gilmartin、正式题名、116卷855期、1974年6月；作者与论文互链。出版社目录未提供页码，JSTOR文章页未取得可读正文；保留原书305–310为“原书书目所载页码”，不当作已校定全文页段。 |
+
+以上均于2026-09-14读取所述页面或段落。Treccani条目互相关联，WorldCat和大学规范记录也可能复用规范数据，不以站点数量计算独立证据。这里只采纳本轮身份、版本及必要角色；传记中其余家庭、作品、生平与评价仍交补足阶段逐项处理，未将页面所有名称递归建卡。本轮未新增QID或Wikipedia↔Wikidata双向核对。
+
+### 外部作者端点与关系交接
+
+| 稳定锚点 | 当前对象 | 来源与候选范围 |
+|---|---|---|
+| FM-EX03 | [托尔夸托·塔索（Torquato Tasso）](../../../04-knowledge/units/persons/torquato-tasso.md) | 普林斯顿上述书目说明明确文字作者；Tasso→1745年《耶路撒冷解放》插图本的文字责任来自外部目录，原书E:L135未具名。卡内不伪造该行作为Tasso原书出处。 |
+
+57a的设计者／肖像对象、文字作者、出版者、载体与版内作品分别保留；57b的文字作者、设计者、出版者与第二卷分别保留。Treccani Pasquali条目还提到整套插图的刻版者Antonio Baratti，但本轮未核第二卷卷首图的具体署名，暂列刻版者候选，不直接写为该图的已采纳刻印者，不将整套责任机械分配给每一图。两张作品的具体印本和雕版署名仍待核。
+
+### 未决与未成功读取
+
+- Gilmartin论文页码：检索出现意大利文物目录所引305–313，与原书305–310不同；本轮打开的[1200757785-0页面](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200757785-0)未显示检索摘要中的完整历史说明，故305–313仅保留为补查线索，未采入KU。JSTOR正文不可读，Crossref对10.2307/877695返回未找到，不据此填DOI。另检出1970年硕士论文，是不同文献，未把其年代、页数混入1974年论文。
+- LOC数字化记录和Heidelberg扫描入口未取得可用页面；改用实际读到的普林斯顿目录做1745年书目核对，不称原件扫描已读。
+- Waterhouse论文的芝加哥艺术博物馆PDF请求返回403；Conforti论文仅取得检索线索，二者未在本轮写回，也未计入本轮已对齐对象。
+- 原先14条主候选的暂缓理由继续有效；本轮解决的是已有KU的署名和版本粒度，不减少这14项。书目身份可用不等于全文已读；人物基本信息增加不等于履历、作品与家庭关系已补足。
+
+### 写回
+
+11张已有KU原位更新，新建1张Tasso卡并登记accepted；共13个数据目标。差异预览和写前内容核对后串行写回，精确before／after存于本机临时目录`C:/Users/001/AppData/Local/Temp/pnp-rev088-alignment/plan.json`。保留已有原书引文及定位、正式relations和accepted的claims／structure；仅更正4条来源句意摘要中的角色表述或重叠书名号。来源本体未改，未提升全卡验证状态。
+
+当前全库803个有效KU，本任务涉及428个：累计381个新建、43个已有有效KU更新、4个旧卡整理后接收；主候选223条映射、4条属性／语境、14条暂缓。REV-087的本地成果保留，当前没有再次提交或推送。
+
+写回后核对12张KU：14条原书摘录与实际文件行段完全对应，48条本地内容／过程链接有效，来源编号不越界，803个有效登记路径存在且不重复。既有内容检查最初提示Gilmartin长标题的YAML折行问题，改为单行保存后12卡检查无确定性发现；字段语义与预览一致，原书原句及定位不变。正式relations、accepted的claims／structure保持；`git diff --check`通过。上述为本轮语义自查与机械核对，不称独立验收。
+
+## 收藏者与肖像身份对齐：REV-089
+
+2026-09-14继续初步对齐，按verify比较图版30b、31a、31b、58a中的人物、爵号、作品和历史收藏。采用实际读到的博物馆说明与作品研究；新出现的必要委托人按ingest建立KU。更新12张已有卡，新增1张人物卡；原书原句、行页和正式relations保持，未将原文与外部关系混合。
+
+### 实际来源与身份裁决
+
+| 对象／原文锚点 | 已读来源与范围 | 本轮裁决 |
+|---|---|---|
+| FM-P58a.subject1、subject2、creator1、object | [Fabio Sottili，Giuseppe Zocchi e le sue Vedute di Firenze，Uffizi Imagines 13（2025）](https://www.datocms-assets.com/103094/1767175021-imagines-n-13-ottobre-2025_sottili.pdf)，印刷95、99–100、139注21，PDF2、6–7、46；另查看印刷99的图3及图注图像 | Marchese Gerini落实为Andrea Gerini；A. M. Zanetti展开Anton Maria Zanetti，保留原书the Elder。作者、双人组合、Museo Correr及画面形制吻合。作品属性采用约1750、铜板油画及37.5×29 cm；Ca’ Rezzonico只记为2025年研究所载地点，不虚构从Museo Correr转移的时间或所有权。编号按文献印字C1. I. 144保存，非本轮馆藏数据库直接核验。 |
+| FM-P30b.subject1、creator1、object | [Cambridge Museums：Finch and Baines](https://www.museums.cam.ac.uk/magic/finch-and-baines)，读两幅作品标签及相邻人物说明；[Fitzwilliam展览标签](https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hockney-large-labels-final2.pdf)，PDF10–11 | Thomas Baines为医生，与Dolci肖像PD.13-1972相配。作者、人物、收藏机构三项吻合；作品约1665–1670年、佛罗伦萨、布面油画，委托人John Finch。Finch本人肖像是另一件PD.12-1972，不与图版30b合并；本轮未采为独立作品成果。 |
+| FM-P31b.holder1 | [Lamport Hall：The Hall](https://www.lamporthall.co.uk/see-and-do/the-hall/)，庄园历史正文及末两段；Mezzetti下述第83项 | Gyles Isham确为第十二代从男爵，卒于1976；与17世纪的肖像人物Thomas Isham分开。原书与旧目录所记收藏是历史记录，不把已故收藏者写为当前所有人。 |
+| FM-P31b.subject1、object | [Amalia Mezzetti，Contributi a Carlo Maratti，INASA数字化论文](https://www.inasaroma.org/patrimonio/wp-content/uploads/2021/04/07-A.-MEZZETTI-Contributi-a-Carlo-Maratti-02.pdf)，印刷331第83项／PDF79；[Stella Rudolph的2017年展览论文](https://www.nicholashall.art/exhibition/paintings-by-carlo-maratti/)，Apotheosis of Baroque painting及图18 | 作者、Sir Thomas Isham、Lamport及Gyles收藏相配；两篇研究均记1677，Mezzetti记罗马作。目录另提及的复制品不并入本件。人物的具体从男爵代次和生年本轮不作最终裁定。 |
+| FM-P31a.subject1、object | Mezzetti同文印刷329第71项／PDF77，阅读条目及查看整页扫描；PDF2页眉核出作者名Amalia Mezzetti | Carlo／Charles Fox肖像约1680年，布面油画；目录的1659–1713及后加题铭支持本人物配对。保留原书Charles Fox和旧目录意大利语形式，不据简称匹配到其他时代同名者。Earl of Ilchester的具体持衔人仍未定，不能用今天持衔人代填。 |
+
+访问日期均为2026-09-14。Mezzetti PDF的印刷315工作年表也作定位阅读；首次页和页眉用于题名及作者核对，未读完整102页论文。Sottili仅阅读所述页段及定位上下文，未读完54页；Fitzwilliam仅阅读本对象相关两页，未读134页标签全集。PDF下载与临时页图保存在本机`C:/Users/001/AppData/Local/Temp/pnp-rev089-sources/`；权威URL及页段保存在各卡sources和本表。没有新增QID或Wikipedia↔Wikidata双向核对。
+
+### 外部端点、关系候选与字段异文
+
+- **FM-EX04**：[约翰·芬奇（John Finch）](../../../04-knowledge/units/persons/john-finch.md)。原书已读范围未直接具名，仅据Cambridge Museums标签登记外部出处。候选为Finch→[贝恩斯肖像](../../../04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md)的委托、Finch↔[Baines](../../../04-knowledge/units/persons/thomas-baines.md)的终身伴侣、Finch↔[Dolci](../../../04-knowledge/units/persons/carlo-dolci.md)的朋友；各端点已链接。不能把馆方“marriage of souls”的修辞转成法律配偶关系。
+- 外部赞助候选：[Andrea Gerini](../../../04-knowledge/units/persons/marchese-gerini.md)→[Giuseppe Zocchi](../../../04-knowledge/units/persons/giuseppe-zocchi.md)，据Sottili印刷95的画家受支持记载，两卡互链；时间未细定，不据此认定Gerini委托了双人肖像。Sottili印刷99将双人图像解释为Gerini与Zanetti友谊的表现，此为外部研究者的解释，暂不转成已确认朋友边。
+- 图版30b、31a、31b、58a的原书创作、描绘与收藏候选保留原锚点、原词和页行；本轮身份与版本判断只更新端点映射。外部的委托、伴侣、赞助和2025年地点另列，正式关系仍未写入。
+- **Baines卒年异文**：Cambridge Museums网页标签为1680，Fitzwilliam同一PD.13-1972号作品的展览标签为1681；卡内分两行标明来源，未取多数裁决。两个入口均属同一馆藏解释链，不计为两个独立历史证据；后续须核生平或一手记录。
+- **Isham尺寸异文**：Mezzetti第83项147×121 cm，2017年Rudolph图18为148×121 cm，两值各列出处；未猜测画心／含框差异。Mezzetti给人物生年1657，但检索线索存在其他年份，人物卡暂不采单一生年；Art UK对象页未成功读取，未采其馆藏号或断代为已核事实。
+- Mezzetti第71项的Fox题铭涉及父亲Stephen Fox，第83项另述复制品；Lamport官网涉及保护信托及遗赠。上述超出本轮已采字段的亲缘、复制品与产权端点交补足阶段核建；不能把它们当作已经完成的关系。
+
+### 剩余问题与写回
+
+Annan等供片署名检索未获得能将具体照片与法律主体对应的依据，保持no_delta；原先11项供片署名继续暂缓。Ricci《歌剧排练》有多个版本和不同收藏史；本轮未取得足以对应原书Watkin Williams-Wynn爵号、St Asaph语境的记录，不将拍卖页面的别本信息写回。其余书目未取得新证据，延续REV-088缺口。
+
+本轮解决的是已有KU的身份、角色与作品配对；原始241条主候选仍为223条映射、4条属性／语境、14条暂缓。全库有效登记804个，本任务涉及429个：累计382个新建、43个既有有效KU更新、4个旧卡整理接收。初步对齐仍进行中，未启动全面补足、正式关系、知识发现或页面。
+
+模型完成上述判断后，以临时脚本排版并预览差异；14个数据目标（13张KU及accepted）的精确before／after保存在`C:/Users/001/AppData/Local/Temp/pnp-rev089-alignment/plan.json`，写前逐项核对原内容，串行写回。13卡既有内容检查无确定性发现，12条原书摘录与实际行段逐字对应、49条本地链接有效，804个有效路径存在且不重复；旧sources前缀、正式relations及accepted的claims／structure保持。这是语义自查和机械核对，未进行人工或独立验收。成果本地保存，尚未再次提交或推送。
+
+## 供片商号与Lazzarini身份对齐：REV-090
+
+2026-09-14接续初步对齐，使用verify比较原书简称、城市、图版对象与外部实际记录；身份成立后按ingest登记1个人物和3个摄影商号，更新5件作品的供片字段及Tiepolo学习经历。用户原话见REV-090。没有把供片者写成艺术作品创作者，也没有把摄影商号等同于某位实际拍摄者。
+
+### 身份依据与实际阅读范围
+
+| 原文锚点 | 实际采用来源与阅读范围 | 判断及变化 |
+|---|---|---|
+| FM-E055；E:L180–183，xvii | [Francesco Sorce，Gregorio Lazzarini，DBI 64（2005）](https://www.treccani.it/enciclopedia/gregorio-lazzarini_(Dizionario-Biografico)/)：完整生平与参考文献，重点为拒绝迁居罗马、Tiepolo学习及生卒段；[英文Wikipedia](https://en.wikipedia.org/w/index.php?title=Gregorio_Lazzarini&oldid=1365386914)：Life、注释与文献；[Wikidata Q1384461](https://www.wikidata.org/wiki/Q1384461)：身份、生卒与英文站点链接 | DBI明确记至少两次拒绝迁居罗马，补上REV-086缺少的特定行为线索；结合时代、地域和画家身份，落实为Gregorio Lazzarini。Wikipedia的Edit links实际进入Q1384461，Wikidata英文站点链接返回同页，双向身份成立。DBI生年1655与英文Wikipedia／Wikidata的1657并列，不选一侧掩盖异文。 |
+| FM-H04；E:L164，xvi；图版41b、44 | [Ditta Osvaldo Böhm，1983年摄影目录](https://wwwuser.gwdg.de/~fotokat/Fotokataloge/Naya_Boehm_1983_1_l.pdf)：PDF3标题、PDF4／印刷V导言、PDF5／印刷VII说明、PDF87／印刷161 Frari条；印刷161另查看页图 | 公司自称Ditta Osvaldo Böhm、O. Böhm Fotografo-Editore，并要求Foto Böhm署名；地域与艺术翻拍业务吻合。Frari的Pesaro纪念碑有对应照片条目。原书Böhm按摄影出版商号登记institution；约1910年活动起点依据商号自身目录。 |
+| FM-H24；E:L172，xvi；图版28a | Zeri实际照片记录[212704／照片档案号522770](https://catalogo.fondazionezeri.unibo.it/scheda/fotografia/212704/)及[212702／522768](https://catalogo.fondazionezeri.unibo.it/scheda/fotografia/212702/)：题材、作者、摄影者、地址、背章和年代字段 | Cagnacci、维也纳艺术史博物馆、《克娄巴特拉之死》与原书图版28a相合；署名Foto A. Villani - Bologna及A. Villani e Figli，另一张背章展开公司名称。登记摄影公司，未指定Achille或Vittorio个人。 |
+| FM-H01；E:L164，xvi；图版19a、25 | Zeri[204958／照片档案号500600](https://catalogo.fondazionezeri.unibo.it/entry/photo/204958/)实际摄影者、背章、地址与题材字段；[Paris Musées档案PPEX1967(1)-PH](https://www.parismuseescollections.paris.fr/fr/petit-palais/archives/photographies-de-l-exposition-toutankhamon-et-son-temps-au-petit-palais-en)作者及内容介绍 | Zeri照片题材为Orazio Gentileschi《公共幸福寓意》，与图版25的作者、题材相合；背章使用Agraci. Arts Graphiques de la Cité和巴黎地址，Paris Musées采用相同展开名。登记摄影商号，不推定具体经营者或法人形式；此前INHA的photographe角色称谓不足以单独证明是自然人。19a供片仍直接据原书编号，未据25的照片记录核同19a底片。 |
+
+来源访问日均为2026-09-14。Böhm目录共125页，只读上述页段及检索定位，不称全文阅读；Villani和Agraci采用实际照片元数据，未作本书图版与原底片视觉核同。Zeri网页工具超时、直接请求证书校验失败后，通过仅针对这些公开页面的请求取得实际HTML；未修改系统证书或持久网络设置。临时PDF、页图及部分HTML在`C:/Users/001/AppData/Local/Temp/pnp-rev090/`，权威链接、记录号和阅读范围保存在本段及各卡sources。
+
+Wikipedia／Wikidata互相链接及复用信息，不计两份独立的生卒事实证据；两条Zeri照片也不因有两个记录号就自动成为两组独立证明。DBI说明其拒居罗马的记载出自Da Canal；本轮未读该早期传记原件。
+
+### 内容、关系与版本边界
+
+- FM-R14中的Lazzarini端点现映射到新卡，原文谓词、否定和评论者归属保持。Waterhouse将“畏惧竞争”作为解释的推测，不能转成确定动机，也不能把拒居罗马变成在罗马任职。
+- Lazzarini→Tiepolo的教学事实来自外部传记，已在两卡分字段互链；这是外部关系候选，与FM-R14原书评论分开。全文实际阅读后仅采纳本次身份和必要师承，不把页面全部人物及作品递归登记；详细家庭、履历、作品清单仍交补足。
+- Böhm的3519和180 NV是同一纪念碑的不同照片记录，后者属于Naya旧档案；不能任选其一当作41b所用底片。图版44供片依据原书同一商号署名，未在这部教堂目录中核定其底片。
+- Villani的522770、522768及Agraci的500600是照片档案号，不是绘画藏品号；Villani另一照片的底片24509及其1967–1980年断代不倒填到本书。供片署名、照片作者和底片权利各按自身证据范围处理。
+- 新机构卡补入原书图版目录与图片来源两组原句，使作品题名、编号和供片署名能回查；作品卡原有创作者、收藏者及其他sources保留。尚无正式relations新增。
+
+### 当前暂缓项与交接
+
+4条主候选解除暂缓：FM-E055、FM-H01、FM-H04、FM-H24。初始241条现为227条映射KU、4条属性／语境、10条暂缓。本轮新增4张KU、更新6张已有KU；全库808个有效KU，本任务433个（累计386个新建、43个既有有效KU更新、4个旧卡整理接收）。
+
+剩余10条为FM-P05博尔盖塞双胸像的具体版本、FM-P68a三幅未具名总督肖像，以及FM-H02 Annan、H03 Balelli、H05 Cacco、H09 Gilchrist、H12 Mansell-Alinari、H13 Mansell-Anderson、H14未指城市的National Gallery、H16 Rossi。10仅指初始主候选暂缓，其他卡内爵号持有人、版本和角色仍待初步对齐。
+
+本轮另读[威尼斯国家档案馆Palazzo Besarel展览记录](https://mostre.archiviodistatovenezia.it/mostre-documentarie/la-stagione-della-liberazione/mostra-la-stagione-della-liberazione/il-ritorno-alla-normalita-dopo-la-liberazione/dimore-e-palazzi-dopo-la-liberazione-dissequestri-risarcimenti-e-problemi-abitativi/6-3-la-liberazione-di-palazzo-besarel/)，记Giorgio Cacco（1907–1977）、1946–1947年开设工作室及1948年照片背章Foto Cacco Giorgio，但所拍对象不是本书列出的图版；保留候选，不据此指定本书供片者。其他未决项未取得足以改判的新证据，不把搜索未命中当作不存在。
+
+10张卡及accepted的写前／写后内容保存于临时`plan.json`，先预览差异并核对写前内容，再串行写回。REV-087–089的既有本地工作保持；本轮未提交、推送或启动全面补足、正式关系、发现及页面。
+
+写回检查：10张受影响KU的21条原书摘录与实际行段逐字一致，51条本地链接有效，来源编号未越界；808个有效登记路径存在且无重复，原sources前缀、正式relations及accepted其他内容保持。既有内容检查未报确定性缺陷，`git diff --check`通过。模型对本轮采纳内容作语义自查；这不是独立验收或人工校验。
+
+## 关联对象集中对齐：REV-091
+
+2026-09-14按用户提高效率的要求，将有共同来源的作品、人物、供片商号及收藏空间合并处理；模型比较实际记录，辅助脚本只排版、保存写前差异和检查。不再反复搜索没有新线索的同一暂缓项。新增6个必要端点、更新14个已有KU，一次写回20张卡；仍属初步对齐及必要事实补证。
+
+| 对象组 | 实际阅读来源及结论 |
+|---|---|
+| FM-H03、FM-P33b | [Macerata Musei，Galleria dell’Eneide](https://musei.macerata.it/opera/galleria-delleneide/)完整对象说明、作者与技术字段明确Studio fotografico Balelli、Macerata、1851–1972及该宫画廊照片；与原书图版33b、L95和供片L164匹配。供片者按工作室登记，解除主候选暂缓；未指定Carlo／Alfonso个人或具体底片。画廊空间仍是place，照片题材不把它变成摄影作品。 |
+| FM-P33a及Solimena | [MFAH作品2000.92](https://emuseum.mfah.org/objects/48122/visit)完整作品字段、Description、Provenance与展览条目，加上上述原址馆方去向说明：原书笼统Dido and Aeneas对应The Royal Hunt of Dido and Aeneas。作者规范为Francesco Solimena，约1712–1714、303×321 cm，原为Raimondo Buonaccorsi伯爵的宫内埃涅阿斯画廊所作。建立委托人和休斯敦美术馆端点，作品／原址／委托人互链；原始路径和题名保留，馆方展开题名单列。伦敦NG6397是另一件迎接埃涅阿斯与丘比特的作品，不合并。 |
+| FM-P30a、Ralph及Jerome Bankes | [NT 1257045](https://www.nationaltrustcollections.org.uk/object/1257045)作品字段、Summary、Provenance、题铭与作者：[NT 1251462](https://www.nationaltrustcollections.org.uk/object/1251462)的题名／Summary展开20世纪收藏者为Henry John Ralph Bankes（1902–1981）；[NT 1257049](https://www.nationaltrustcollections.org.uk/object/1257049)人物说明和题名确认17世纪Sir Ralph（约1631–1677）。原书20、30a所记收藏者保留原路径并展开全名；另建17世纪兄长端点，避免将其可能委托弟弟肖像的行为归给20世纪收藏者。作品作者Stanzione、约1655、那不勒斯、尺寸及NT号分别保存。 |
+| FM-P20、Massimi、Velasquez及Kingston Lacy | [NT 1257142](https://www.nationaltrustcollections.org.uk/object/1257142)作品、Caption、Summary、Provenance及文献列表；[庄园历史](https://www.nationaltrust.org.uk/visit/dorset/kingston-lacy/the-history-of-kingston-lacy)相关收藏者、20世纪及National Trust ownership段。作者、对象、Kingston Lacy和原书收藏者吻合，落实1649–1650、759×610 mm及NT号；补入1819/20年购入者William John Bankes及1981年接收机构National Trust的端点。题铭、委托语境和历代收藏分开；馆藏页引用Haskell，不能当作与本书完全独立的整条传承证明。 |
+| FM-P34、Juan de Pareja及Velasquez | [Met 1971.86](https://www.metmuseum.org/art/collection/search/437869)页面导言、Artwork Details和已显示音频文字稿：作者全名Diego Rodríguez de Silva y Velázquez；1650、布面油画81.3×69.9 cm、1971购入，描绘对象约1608–1670。Pareja为画家，绘像时被作者奴役；解放文件与至1654年的生效安排分字段互链。没有用普通合作／师承关系替代这种人身关系。页中未实际展开的Catalogue Entry、详细Provenance和References不称已读。 |
+
+以上均于2026-09-14访问。NT绘画总览另遇WAF，转用已成功读取的具体馆藏记录；未采用失败页面作正文依据。MFAH与Macerata说明可互证作品身份和去向，但离藏时间不同：MFAH记1960–1962间散出，Macerata把陈设散出关联到1967年整体销售；未确证是否分批处置，不把两者拼成一条确定时间线。当前卡内未写单一离藏年份。
+
+新增端点：[Balelli工作室](../../../04-knowledge/units/institutions/studio-fotografico-balelli.md)、[Raimondo Buonaccorsi](../../../04-knowledge/units/persons/raimondo-buonaccorsi.md)、[休斯敦美术馆](../../../04-knowledge/units/institutions/museum-of-fine-arts-houston.md)、[17世纪Sir Ralph Bankes](../../../04-knowledge/units/persons/ralph-bankes-1631-1677.md)、[William John Bankes](../../../04-knowledge/units/persons/william-john-bankes.md)、[National Trust](../../../04-knowledge/units/institutions/national-trust.md)。除Balelli外，五个对象来自外部补证，未伪造章页或原书引文。只采纳本组身份及直接必要关系；完整家谱、其他收藏者链、所有作品与参考文献原文仍交补足，不递归扩张网页人名。
+
+### 保留的判断边界
+
+- Jerome的兄长身份有据，肖像委托为馆方“Probably”推定；两种确定性分别记录，不生成确定委托边。其生年1635／1636及Sir Ralph约1631保留限定。
+- Massimi绘像时的教廷侍从身份与后来枢机头衔分开；未倒填为1649–1650年已任枢机。William John取得年份采用Provenance的1819/20，不将Caption的1820当成另一笔购买。
+- 本书National Gallery的供片身份仍未定；Met确认画作身份和现收藏，不能因此把Met填成原书供片者。Annan家族公司记录、Mansell代理线索虽有检索结果，仍未落实本书复合署名的具体分工；Gilchrist、Beaufort检索无可据新结论，不改判。
+- 当前主候选为228条映射、4条属性／语境、9条暂缓。9项：FM-P05、P68a、H02、H05、H09、H12、H13、H14、H16；其他卡内版本、简称和具体角色的缺口仍在，9不是全库缺口总数。没有新增QID、Wiki双向核对或正式relations。
+
+写回前后的21个数据目标（20卡及accepted）保存于本机临时`C:/Users/001/AppData/Local/Temp/pnp-rev091/plan.json`，预览后逐项核对写前内容并串行写回。20卡的23条原书摘录与行段逐字一致、88条本地链接有效、来源编号未越界；814个有效路径存在且不重复，原sources前缀、正式relations及accepted非units内容保持，既有内容检查无确定性发现。过程是模型语义自查及机械核对，不称人工或独立验收。
+
+全库814个有效KU，本任务439个：累计392个新建、43个既有有效KU更新、4个旧卡整理接收。既有本地成果保留，未提交或推送；下一步集中核对其余已登记对象的身份／版本，难解主候选按新线索处理，不让单项长期卡住全部对象。

@@ -1,11 +1,10 @@
 ---
-title: "胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）"
-name_en: "Portrait of Juan de Pareja"
+title: 胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）
+name_en: Portrait of Juan de Pareja
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L96–96
   sentence_summary: 《赞助人与画家》图版34目录所记的《胡安·德·帕雷哈》艺术对象。
   original_quotes:
@@ -15,6 +14,9 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 96–96; 章前：图版目录；印刷页xiv
+- citation: The Metropolitan Museum of Art, Juan de Pareja, 1971.86. https://www.metmuseum.org/art/collection/search/437869. Accessed 2026-09-14.
+  location: 页面导言、Artwork Details及音频文字稿
+  sentence_summary: Diego Rodríguez de Silva y Velázquez作Juan de Pareja肖像，1650，布面油画81.3×69.9 cm，1971年购入；Pareja约1608–1670，为画家，绘像时仍被Velázquez奴役，解放文件规定至1654年获得自由。
 created: '2026-09-14'
 updated: '2026-09-14'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
@@ -45,7 +47,22 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 书中收藏／保管者 | [大都会艺术博物馆](../institutions/metropolitan-museum-of-art.md) | S1 |
 | 书中位置 | [纽约](../places/new-york.md) | S1 |
 
+### 作品信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 创作年代 | 1650 | S2 |
+| 材质 | 布面油画／Oil on canvas | S2 |
+| 尺寸 | 81.3 × 69.9 cm | S2 |
+| 藏品号 | 1971.86 | S2 |
+| 入藏年 | 1971；购入 | S2 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+[Met 1971.86](https://www.metmuseum.org/art/collection/search/437869)（S2；作品及人物）
+
 
 ### 关系记录
 

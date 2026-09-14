@@ -20,7 +20,7 @@
 | R-14 | KU/关系→Topic→Theme→Dimension→Domain 自下而上涌现，无预设节点/数量/归属 | REV-009 | [synthesize](../../.agents/skills/synthesize/SKILL.md) |
 | R-15 | 从空项目基线起步，不将继承文件或旧状态当新成果 | REV-010、015 | AGENTS、[有效登记](../../04-knowledge/accepted.yml) |
 | R-16 | Skills 的功能、内容、产出及交接基本完备 | REV-010、022 | pipeline、八个实际 Skill |
-| R-17 | 减少固定门禁、重复审查及冗余，按改动做必要检查 | REV-011、022 | AGENTS、[必要检查](../../.agents/skills/system-upgrade/references/upgrade-acceptance-gates.md) |
+| R-17 | 减少固定门禁、重复审查及冗余，按改动做必要检查；集中处理关联对象，合并独立检索和写回，不反复搜索无新线索项 | REV-011、022、091 | AGENTS、[必要检查](../../.agents/skills/system-upgrade/references/upgrade-acceptance-gates.md) |
 | R-18 | 保留页面样式，未来按新数据适配；当前暂停刷新 | REV-011、013、015 | compose；页面是否更新以实际呈现任务为准 |
 | R-19 | 曾要求先提交同步再精简；后续提交仍需明确授权 | REV-012 | 系统日志记录先行同步 d07965d；不等于后续改动已推送 |
 | R-20 | 初始化项目不沿用过高版本 | REV-008 | 项目 0.1.0，规则不单独编号；既有机器格式版本与项目版本分开 |

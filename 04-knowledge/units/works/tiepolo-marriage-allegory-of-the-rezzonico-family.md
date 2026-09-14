@@ -17,6 +17,10 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 116–117; 章前：图版目录；印刷页xiv
+- citation: MUVE, Ca’ Rezzonico, First floor. https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/.
+    Accessed 2026-09-14.
+  location: Nuptial Allegory Room
+  sentence_summary: 1757年冬婚姻寓意顶画由Giambattista Tiepolo绘制；Girolamo Mengozzi Colonna绘虚构建筑，儿子Giandomenico绘萨堤尔。
 created: '2026-09-14'
 updated: '2026-09-14'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
@@ -42,12 +46,26 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 字段 | 值 | 证据 |
 |---|---|---|
 | 图版编号 | 43 | S1 |
-| 创作者 | Tiepolo／提埃坡罗（具体身份未定） | S1 |
+| 创作者 | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | S1、S2 |
 | 描绘家族 | [雷佐尼科家族](../families/rezzonico-family.md) | S1 |
 | 书中位置 | [雷佐尼科宫](../places/ca-rezzonico.md) | S1 |
 | 书中位置 | [威尼斯](../places/venice.md) | S1 |
 
+### 身份与版本字段
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 创作时间 | 1757年冬／Winter 1757 | S2 |
+| 建筑幻景绘制者 | [吉罗拉莫·门戈齐·科隆纳（Girolamo Mengozzi Colonna）](../persons/girolamo-mengozzi-colonna.md) | S2 |
+| 萨堤尔绘制者 | [乔万多梅尼科·提埃坡罗（Giandomenico Tiepolo）](../persons/giandomenico-tiepolo.md) | S2 |
+
 ## 关系与证据
+
+### 身份与外部链接
+
+| 字段 | 链接 | 范围 |
+|---|---|---|
+| 机构记录 | [Nuptial Allegory Room](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/) | 本次身份／版本依据，S2 |
 
 ### 关系记录
 

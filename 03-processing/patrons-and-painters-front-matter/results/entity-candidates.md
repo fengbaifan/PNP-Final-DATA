@@ -2,7 +2,7 @@
 
 本表是摄入／处理阶段的**显式实体候选清单**，不是正式KU登记。来源版本、A–E文件名和页码映射见[阶段结果](stages.md#1-摄入定稿)。每个定位指向实际原句；中文候选译名便于阅读，未确认的音译不强作规范全名。本表中的新候选尚须对accepted逐项查重，`待登记查重`不能读成“库内确定没有”。同一人重复提及可有不同锚点，不能把提及数当唯一实体数。
 
-REV-085已进行登记，REV-086已接续初步对齐。下表保留处理阶段的原始判断，不将历史“新候选”改写为外部验证结论；当前去向统一见[登记映射](../process/knowledge.md#候选登记映射)。登记时依同书书目补出的期刊端点FM-X01、FM-X02也在该映射记录。
+REV-085已进行登记，REV-086–090接续初步对齐。下表保留处理阶段的原始判断，后来解决的身份另附REV指向；当前去向统一见[登记映射](../process/knowledge.md#候选登记映射)。登记时依同书书目补出的期刊端点FM-X01、FM-X02也在该映射记录。
 
 ## 正文提及
 
@@ -64,7 +64,7 @@ REV-085已进行登记，REV-086已接续初步对齐。下表保留处理阶段
 | FM-E052 | Batoni／Pompeo Batoni | person | E:L181、184及123；画家、图版45作者 | 新候选；姓氏与全名章内候选映射 |
 | FM-E053 | P. G. Piola | person | E:L182–183；被引拒绝定居Rome例证 | 待消歧，不能因首字母相近直接复用Piola卡 |
 | FM-E054 | Viani | person | E:L183；同上 | 待消歧，未具全名 |
-| FM-E055 | Lazzarini | person | E:L183；同上 | 待消歧，未具全名 |
+| FM-E055 | Lazzarini | person | E:L183；同上 | 初判待消歧；REV-090对齐Gregorio Lazzarini，原书仍仅记姓氏 |
 | FM-E056 | Conca [arrived in 1707] | person | E:L184；1707到Rome、7年后首公共委托 | 同FM-E050；保留独立证据命题而不重复建卡 |
 | FM-E057 | Crespi／G. M. Crespi | person | E:L184及102–104、156；作者回应中的画家／图版作者 | 待缩写核同；不是从析取句得出从未到Rome |
 | FM-E058 | Solimena | person | E:L184及94；作者回应中的画家／图版33a作者 | 新候选 |
@@ -223,7 +223,7 @@ REV-085已进行登记，REV-086已接续初步对齐。下表保留处理阶段
 | FM-P55a | 133／xv | 蚀刻集献辞卷首图／Dedicatory frontispiece to Etchings | Canaletto | archive候选:Etchings集（未具规范题名） | 卷首图work、集合载体待识别 |
 | FM-P55b | 133／xv | 村景／Village Scene | Marco Ricci（原设计）；Bartolozzi（engraved） | 无列藏地 | 原设计与刻印者分开 |
 | FM-P56 | 134／xv | 圣洛克堂画展／Picture Exhibition at Church of S. Rocco | Marieschi | place:Church of S. Rocco、Venice | 是图像题材，不直接确认具体展览日期 |
-| FM-P57a | 135／xv | 《耶路撒冷解放》插图末页／Final plate of Illustrations to Gerusalemme Liberata | Piazzetta | person:Piazzetta、Albrizzi；archive:Illustrations to Gerusalemme Liberata（1745）；Albrizzi出版者身份待判 | 自画像／出版与载体分开，不补未提及Tasso |
+| FM-P57a | 135／xv | 《耶路撒冷解放》插图末页／Final plate of Illustrations to Gerusalemme Liberata | Piazzetta | person:Piazzetta、Albrizzi；archive:Illustrations to Gerusalemme Liberata（1745）；Albrizzi出版者身份待判 | 原文为两人肖像；设计／刻印、出版与载体分开。此行未提及Tasso；外部作者与角色修订见[REV-088](../process/knowledge.md#出版者与书目对齐rev-088) |
 | FM-P57b | 135／xv | 戈尔多尼《作品集》第二卷卷首图／Frontispiece to Vol. 2 of Goldoni: Opere | Pietro Antonio Novelli | person:Goldoni、Pasquali（出版者）；archive:Opere vol.2（1761） | Novelli与第一章Novetti不按字近合并 |
 | FM-P58a | 136／xv | 老扎内蒂与杰里尼侯爵／A. M. Zanetti the Elder with Marchese Gerini | Giuseppe Zocchi | person:A. M. Zanetti the Elder、Marchese Gerini；institution:Museo Correr；place:Venice | Elder是身份限定，不能忽略 |
 | FM-P58b | 136／xv | G. M. 萨索／G. M. Sasso | Alessandro Longhi | person:G. M. Sasso；institution:Museo Correr；place:Venice | 缩写待核 |
@@ -248,10 +248,10 @@ REV-085已进行登记，REV-086已接续初步对齐。下表保留处理阶段
 
 | 锚点 | 原文／扫描改读名称 | type候选与地点 | E行 | 所供图版及处置 |
 |---|---|---|---:|---|
-| FM-H01 | Agraci | person／institution待判；Paris | 164 | 19a、25；新候选 |
+| FM-H01 | Agraci | 初判person／institution待判；Paris | 164 | 19a、25；REV-090按Arts Graphiques de la Cité摄影商号登记institution |
 | FM-H02 | Annan | person／institution待判；Glasgow | 164 | 35b；新候选 |
-| FM-H03 | Balelli | person／institution待判 | 164 | 33b；新候选 |
-| FM-H04 | Böhm | person／institution待判；Venice | 164 | 41b、44；新候选 |
+| FM-H03 | Balelli | 初判person／institution待判 | 164 | 33b；REV-091按Studio fotografico Balelli工作室登记institution |
+| FM-H04 | Böhm | 初判person／institution待判；Venice | 164 | 41b、44；REV-090按Ditta Osvaldo Böhm摄影出版商号登记institution |
 | FM-H05 | Cacco | person／institution待判；Venice | 164–165 | 48b、48d、55b、60、62；新候选 |
 | FM-H06 | R. B. Fleming | person候选 | 165 | 46；全名待核 |
 | FM-H07 | John R. Freeman | person候选 | 165 | 36a、48a、57b；新候选 |
@@ -271,7 +271,7 @@ REV-085已进行登记，REV-086已接续初步对齐。下表保留处理阶段
 | FM-H21 | Stearn and Son | institution；Cambridge；OCR Steam | 171 | 17b、26a、28b、55、56、63；55未分子项，保留不强拆 |
 | FM-H22 | Turners of Cambridge | institution候选；Cambridge | 171–172 | 3a、17c、18a；新候选 |
 | FM-H23 | University Library, Cambridge | institution；Cambridge | 172 | 9、57a；不同于King's College图书馆 |
-| FM-H24 | Villani | person／institution待判；Bologna | 172 | 28a；新候选 |
+| FM-H24 | Villani | 初判person／institution待判；Bologna | 172 | 28a；REV-090按A. Villani e Figli摄影公司登记institution |
 | FM-H25 | Eberhard Zwicker | person；Würzburg | 172 | 50；新候选 |
 | FM-H26 | various museums, galleries, etc. | 匿名机构群／默认提供规则 | 162–163 | 非具名实体，不套入所有未列图版；保留规则与未知 |
 

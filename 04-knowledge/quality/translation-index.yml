@@ -1,5 +1,5 @@
 generated: '2026-09-14'
-total: 680
+total: 694
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -15,8 +15,8 @@ index:
   language_original: ''
 - slug: persons/a-m-zanetti-the-elder
   type: persons
-  name_en: A. M. Zanetti the Elder
-  title: 老A. M. 扎内蒂（A. M. Zanetti the Elder）
+  name_en: Anton Maria Zanetti the Elder
+  title: 老安东·玛丽亚·扎内蒂（Anton Maria Zanetti the Elder）
   name_original: ''
   language_original: ''
 - slug: persons/a-n-l-munby
@@ -39,8 +39,8 @@ index:
   language_original: ''
 - slug: persons/albrizzi
   type: persons
-  name_en: Albrizzi
-  title: 阿尔布里齐（Albrizzi）
+  name_en: Giovanni Battista Albrizzi
+  title: 乔万尼·巴蒂斯塔·阿尔布里齐（Giovanni Battista Albrizzi）
   name_original: ''
   language_original: ''
 - slug: persons/alessandro-algardi
@@ -781,6 +781,12 @@ index:
   title: '"乔万尼·安德烈亚·卡尔洛内（Giovanni Andrea Carlone）"'
   name_original: ''
   language_original: ''
+- slug: persons/giandomenico-tiepolo
+  type: persons
+  name_en: Giandomenico Tiepolo
+  title: 乔万多梅尼科·提埃坡罗（Giandomenico Tiepolo）
+  name_original: ''
+  language_original: ''
 - slug: persons/gianfranco-torcellan
   type: persons
   name_en: Gianfranco Torcellan
@@ -877,6 +883,12 @@ index:
   title: '"乔万尼·彼得罗·贝洛里（Giovanni Pietro Bellori）"'
   name_original: ''
   language_original: ''
+- slug: persons/girolamo-mengozzi-colonna
+  type: persons
+  name_en: Girolamo Mengozzi Colonna
+  title: 吉罗拉莫·门戈齐·科隆纳（Girolamo Mengozzi Colonna）
+  name_original: ''
+  language_original: ''
 - slug: persons/girolamo-teti
   type: persons
   name_en: Girolamo Teti
@@ -933,8 +945,14 @@ index:
   language_original: ''
 - slug: persons/goldoni
   type: persons
-  name_en: Goldoni
-  title: 戈尔多尼（Goldoni）
+  name_en: Carlo Goldoni
+  title: 卡洛·戈尔多尼（Carlo Goldoni）
+  name_original: ''
+  language_original: ''
+- slug: persons/gregorio-lazzarini
+  type: persons
+  name_en: Gregorio Lazzarini
+  title: 格雷戈里奥·拉扎里尼（Gregorio Lazzarini）
   name_original: ''
   language_original: ''
 - slug: persons/gregory-xv
@@ -1039,6 +1057,12 @@ index:
   title: 杰罗姆·班克斯（Jerome Bankes）
   name_original: ''
   language_original: ''
+- slug: persons/john-finch
+  type: persons
+  name_en: John Finch
+  title: 约翰·芬奇（John Finch）
+  name_original: ''
+  language_original: ''
 - slug: persons/john-gilmartin
   type: persons
   name_en: John Gilmartin
@@ -1089,8 +1113,8 @@ index:
   language_original: ''
 - slug: persons/leonardis
   type: persons
-  name_en: Leonardis
-  title: 莱奥纳迪斯（Leonardis）
+  name_en: Jacopo Leonardis
+  title: 雅科波·莱奥纳迪斯（Jacopo Leonardis）
   name_original: ''
   language_original: ''
 - slug: persons/leopoldo-de-medici
@@ -1161,8 +1185,8 @@ index:
   language_original: ''
 - slug: persons/marchese-gerini
   type: persons
-  name_en: Marchese Gerini
-  title: 杰里尼侯爵（Marchese Gerini）
+  name_en: Andrea Gerini
+  title: 安德烈亚·杰里尼（Andrea Gerini）
   name_original: ''
   language_original: ''
 - slug: persons/marchese-giustiniani-ch1
@@ -1425,8 +1449,8 @@ index:
   language_original: ''
 - slug: persons/pasquali
   type: persons
-  name_en: Pasquali
-  title: 帕斯夸利（Pasquali）
+  name_en: Giovanni Battista Pasquali
+  title: 乔万尼·巴蒂斯塔·帕斯夸利（Giovanni Battista Pasquali）
   name_original: ''
   language_original: ''
 - slug: persons/pastor-historian
@@ -1467,8 +1491,8 @@ index:
   language_original: ''
 - slug: persons/piazzetta
   type: persons
-  name_en: Piazzetta
-  title: 皮亚泽塔（Piazzetta）
+  name_en: Giovanni Battista Piazzetta
+  title: 乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）
   name_original: ''
   language_original: ''
 - slug: persons/pier-francesco-mola
@@ -1561,10 +1585,22 @@ index:
   title: R. B. 弗莱明（R. B. Fleming）
   name_original: ''
   language_original: ''
+- slug: persons/raimondo-buonaccorsi
+  type: persons
+  name_en: Raimondo Buonaccorsi
+  title: 雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）
+  name_original: ''
+  language_original: ''
+- slug: persons/ralph-bankes-1631-1677
+  type: persons
+  name_en: Sir Ralph Bankes
+  title: 拉尔夫·班克斯爵士（Sir Ralph Bankes）
+  name_original: ''
+  language_original: ''
 - slug: persons/ralph-bankes
   type: persons
-  name_en: Ralph Bankes
-  title: 拉尔夫·班克斯（Ralph Bankes）
+  name_en: Henry John Ralph Bankes
+  title: 亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）
   name_original: ''
   language_original: ''
 - slug: persons/raphael
@@ -1659,8 +1695,8 @@ index:
   language_original: ''
 - slug: persons/solimena
   type: persons
-  name_en: Solimena
-  title: 索利梅纳（Solimena）
+  name_en: Francesco Solimena
+  title: 弗朗切斯科·索利梅纳（Francesco Solimena）
   name_original: ''
   language_original: ''
 - slug: persons/teodoro-correr
@@ -1711,6 +1747,12 @@ index:
   title: 托马索·基亚里（Tommaso Chiari）
   name_original: ''
   language_original: ''
+- slug: persons/torquato-tasso
+  type: persons
+  name_en: Torquato Tasso
+  title: 托尔夸托·塔索（Torquato Tasso）
+  name_original: ''
+  language_original: ''
 - slug: persons/urbano-viii
   type: persons
   name_en: '"Urban VIII"'
@@ -1731,8 +1773,8 @@ index:
   language_original: ''
 - slug: persons/velasquez
   type: persons
-  name_en: Velasquez
-  title: 委拉斯开兹（Velasquez）
+  name_en: Diego Velázquez
+  title: 迭戈·委拉斯开兹（Diego Velázquez）
   name_original: ''
   language_original: ''
 - slug: persons/ventura-carrara
@@ -1769,6 +1811,12 @@ index:
   type: persons
   name_en: Watkin Williams-Wynn
   title: 沃特金·威廉斯-温（Watkin Williams-Wynn）
+  name_original: ''
+  language_original: ''
+- slug: persons/william-john-bankes
+  type: persons
+  name_en: William John Bankes
+  title: 威廉·约翰·班克斯（William John Bankes）
   name_original: ''
   language_original: ''
 - slug: persons/zaccaria-sagredo
@@ -2121,8 +2169,8 @@ index:
   language_original: ''
 - slug: archives/gerusalemme-liberata-illustrations-1745
   type: archives
-  name_en: Gerusalemme Liberata, illustrations, 1745
-  title: 耶路撒冷解放插图本（1745）（Gerusalemme Liberata, illustrations, 1745）
+  name_en: Jerusalem Delivered, illustrated edition, 1745
+  title: 《耶路撒冷解放》插图本（1745）（Jerusalem Delivered, illustrated edition, 1745）
   name_original: ''
   language_original: ''
 - slug: archives/gessi-leopardi-letter-1647
@@ -2133,8 +2181,8 @@ index:
   language_original: ''
 - slug: archives/gilmartin-san-clemente-1974
   type: archives
-  name_en: The Paintings commissioned by Pope Clement XI for the Basilica of S. Clemente in Rome
-  title: 克勉十一世为罗马圣克莱孟圣殿委托的绘画（The Paintings commissioned by Pope Clement XI for the Basilica of S. Clemente in
+  name_en: The Paintings Commissioned by Pope Clement XI for the Basilica of San Clemente in Rome
+  title: 克勉十一世为罗马圣克莱孟圣殿委托的绘画（The Paintings Commissioned by Pope Clement XI for the Basilica of San Clemente i
   name_original: ''
   language_original: ''
 - slug: archives/gini-cortona-letter-1666
@@ -2151,8 +2199,8 @@ index:
   language_original: ''
 - slug: archives/goldoni-opere-vol-2-1761
   type: archives
-  name_en: Goldoni, Opere, vol. 2, 1761
-  title: 戈尔多尼作品集第二卷（1761）（Goldoni, Opere, vol. 2, 1761）
+  name_en: The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761
+  title: 戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）
   name_original: ''
   language_original: ''
 - slug: archives/grassi-cortona-bozzetti-1957
@@ -2889,8 +2937,8 @@ index:
   language_original: ''
 - slug: works/carlo-maratta-charles-fox
   type: works
-  name_en: '"Portrait of Charles Fox"'
-  title: '"查尔斯·福克斯肖像（Portrait of Charles Fox）"'
+  name_en: Portrait of Charles Fox
+  title: 查尔斯·福克斯肖像（Portrait of Charles Fox）
   name_original: ''
   language_original: ''
 - slug: works/carlo-maratta-sir-thomas-isham
@@ -3135,8 +3183,8 @@ index:
   language_original: ''
 - slug: works/massimo-stanzione-jerome-bankes
   type: works
-  name_en: '"Portrait of Jerome Bankes"'
-  title: '"杰罗姆·班克斯肖像（Portrait of Jerome Bankes）"'
+  name_en: Portrait of Jerome Bankes
+  title: 杰罗姆·班克斯肖像（Portrait of Jerome Bankes）
   name_original: ''
   language_original: ''
 - slug: works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends
@@ -3255,8 +3303,8 @@ index:
   language_original: ''
 - slug: works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere
   type: works
-  name_en: '''Frontispiece to Vol. 2 of Goldoni: Opere'''
-  title: '''戈尔多尼《作品集》第二卷卷首图（Frontispiece to Vol. 2 of Goldoni: Opere）'''
+  name_en: Frontispiece to The Comedies of Carlo Goldoni, vol. 2
+  title: 戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）
   name_original: ''
   language_original: ''
 - slug: works/pietro-da-cortona-glorification-of-the-reign-of-urban-viii
@@ -3447,8 +3495,8 @@ index:
   language_original: ''
 - slug: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz
   type: works
-  name_en: Detail from fresco on ceiling of staircase in Residenz
-  title: 维尔茨堡宫楼梯顶画局部（Detail from fresco on ceiling of staircase in Residenz）
+  name_en: Staircase ceiling fresco, Würzburg Residence
+  title: 维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）
   name_original: ''
   language_original: ''
 - slug: works/tiepolo-glorification-of-the-pisani-family
@@ -3501,14 +3549,14 @@ index:
   language_original: ''
 - slug: works/velasquez-camillo-massimi
   type: works
-  name_en: '"Portrait of Camillo Massimi"'
-  title: '"卡米洛·马西米肖像（Portrait of Camillo Massimi）"'
+  name_en: Portrait of Camillo Massimi
+  title: 卡米洛·马西米肖像（Portrait of Camillo Massimi）
   name_original: ''
   language_original: ''
 - slug: works/velasquez-juan-de-pareja
   type: works
-  name_en: '"Portrait of Juan de Pareja"'
-  title: '"胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）"'
+  name_en: Portrait of Juan de Pareja
+  title: 胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）
   name_original: ''
   language_original: ''
 - slug: families/aldobrandini-family
@@ -3553,10 +3601,22 @@ index:
   title: 雷佐尼科家族（Rezzonico family）
   name_original: ''
   language_original: ''
+- slug: institutions/a-villani-e-figli
+  type: institutions
+  name_en: A. Villani e Figli
+  title: A. 维拉尼父子摄影公司（A. Villani e Figli）
+  name_original: ''
+  language_original: ''
 - slug: institutions/accademia-di-san-luca
   type: institutions
   name_en: '"Accademia di S. Luca"'
   title: '"圣路加学院（Accademia di S. Luca）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/agraci
+  type: institutions
+  name_en: Agraci — Arts Graphiques de la Cité
+  title: 阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）
   name_original: ''
   language_original: ''
 - slug: institutions/apostolic-chamber
@@ -3847,6 +3907,12 @@ index:
   title: 博伊曼斯—范伯宁恩博物馆（Museum Boymans–van Beuningen）
   name_original: ''
   language_original: ''
+- slug: institutions/museum-of-fine-arts-houston
+  type: institutions
+  name_en: The Museum of Fine Arts, Houston
+  title: 休斯敦美术馆（The Museum of Fine Arts, Houston）
+  name_original: ''
+  language_original: ''
 - slug: institutions/national-gallery-london
   type: institutions
   name_en: National Gallery
@@ -3883,6 +3949,12 @@ index:
   title: 国家肖像馆（National Portrait Gallery）
   name_original: ''
   language_original: ''
+- slug: institutions/national-trust
+  type: institutions
+  name_en: National Trust
+  title: 英国国民信托（National Trust）
+  name_original: ''
+  language_original: ''
 - slug: institutions/north-carolina-museum-of-art
   type: institutions
   name_en: North Carolina Museum of Art
@@ -3899,6 +3971,12 @@ index:
   type: institutions
   name_en: '"Oratorians"'
   title: '"奥拉托利会（Oratorians）"'
+  name_original: ''
+  language_original: ''
+- slug: institutions/osvaldo-bohm-photographic-publisher
+  type: institutions
+  name_en: Ditta Osvaldo Böhm
+  title: 奥斯瓦尔德·伯姆摄影商号（Ditta Osvaldo Böhm）
   name_original: ''
   language_original: ''
 - slug: institutions/pinacoteca-ambrosiana
@@ -3989,6 +4067,12 @@ index:
   type: institutions
   name_en: Stearn and Son
   title: 斯特恩父子公司（Stearn and Son）
+  name_original: ''
+  language_original: ''
+- slug: institutions/studio-fotografico-balelli
+  type: institutions
+  name_en: Studio fotografico Balelli
+  title: 巴莱利摄影工作室（Studio fotografico Balelli）
   name_original: ''
   language_original: ''
 - slug: institutions/t-and-a-constable

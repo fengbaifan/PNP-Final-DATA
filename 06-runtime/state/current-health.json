@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T14:22:32",
+  "timestamp": "2026-09-14T19:45:44",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 800,
+    "total_units": 814,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,20 +26,20 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 800,
+    "total_units": 814,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 800,
+    "units_missing_any_assignment": 814,
     "field_coverage": {
-      "primary_domain": "0/800",
-      "primary_dimension": "0/800",
-      "primary_theme": "0/800",
-      "topic_memberships": "0/800"
+      "primary_domain": "0/814",
+      "primary_dimension": "0/814",
+      "primary_theme": "0/814",
+      "topic_memberships": "0/814"
     }
   },
   "counts_by_type": {
-    "persons": 289,
+    "persons": 297,
     "families": 7,
-    "institutions": 88,
+    "institutions": 94,
     "places": 115,
     "works": 196,
     "archives": 54,
@@ -181,6 +181,7 @@
       "04-knowledge/units/persons/gian-antonio-faldoni.md",
       "04-knowledge/units/persons/gian-lorenzo-bernini.md",
       "04-knowledge/units/persons/gianandrea-carlone.md",
+      "04-knowledge/units/persons/giandomenico-tiepolo.md",
       "04-knowledge/units/persons/gianfranco-torcellan.md",
       "04-knowledge/units/persons/giannantonio-fumiani.md",
       "04-knowledge/units/persons/giaquinto-front-matter.md",
@@ -197,6 +198,7 @@
       "04-knowledge/units/persons/giovanni-perugini.md",
       "04-knowledge/units/persons/giovanni-pesaro.md",
       "04-knowledge/units/persons/giovanni-pietro-bellori.md",
+      "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
       "04-knowledge/units/persons/girolamo-teti.md",
       "04-knowledge/units/persons/giulio-mancini.md",
       "04-knowledge/units/persons/giuseppe-angeli.md",
@@ -207,6 +209,7 @@
       "04-knowledge/units/persons/giuseppe-zocchi.md",
       "04-knowledge/units/persons/gl-bianconi.md",
       "04-knowledge/units/persons/goldoni.md",
+      "04-knowledge/units/persons/gregorio-lazzarini.md",
       "04-knowledge/units/persons/gregory-xv.md",
       "04-knowledge/units/persons/guercino.md",
       "04-knowledge/units/persons/guglielmo-baur.md",
@@ -224,6 +227,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
       "04-knowledge/units/persons/john-nicoll.md",
       "04-knowledge/units/persons/john-r-freeman.md",
@@ -309,6 +313,8 @@
       "04-knowledge/units/persons/pompeo-batoni.md",
       "04-knowledge/units/persons/prospero-orsi.md",
       "04-knowledge/units/persons/r-b-fleming.md",
+      "04-knowledge/units/persons/raimondo-buonaccorsi.md",
+      "04-knowledge/units/persons/ralph-bankes-1631-1677.md",
       "04-knowledge/units/persons/ralph-bankes.md",
       "04-knowledge/units/persons/raphael.md",
       "04-knowledge/units/persons/rembrandt.md",
@@ -334,6 +340,7 @@
       "04-knowledge/units/persons/tiberio-cerasi.md",
       "04-knowledge/units/persons/titian.md",
       "04-knowledge/units/persons/tommaso-chiari.md",
+      "04-knowledge/units/persons/torquato-tasso.md",
       "04-knowledge/units/persons/urbano-viii.md",
       "04-knowledge/units/persons/valentin.md",
       "04-knowledge/units/persons/van-dyck.md",
@@ -344,6 +351,7 @@
       "04-knowledge/units/persons/vitale-bloch.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
       "04-knowledge/units/persons/watkin-williams-wynn.md",
+      "04-knowledge/units/persons/william-john-bankes.md",
       "04-knowledge/units/persons/zaccaria-sagredo.md",
       "04-knowledge/units/families/aldobrandini-family.md",
       "04-knowledge/units/families/borghese-family.md",
@@ -352,7 +360,9 @@
       "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/families/pisani-family.md",
       "04-knowledge/units/families/rezzonico-family.md",
+      "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
+      "04-knowledge/units/institutions/agraci.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -401,15 +411,18 @@
       "04-knowledge/units/institutions/museo-del-prado.md",
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
       "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
+      "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
       "04-knowledge/units/institutions/national-gallery-london.md",
       "04-knowledge/units/institutions/national-gallery-of-ireland.md",
       "04-knowledge/units/institutions/national-gallery-of-scotland.md",
       "04-knowledge/units/institutions/national-gallery-of-victoria.md",
       "04-knowledge/units/institutions/national-museum-stockholm.md",
       "04-knowledge/units/institutions/national-portrait-gallery.md",
+      "04-knowledge/units/institutions/national-trust.md",
       "04-knowledge/units/institutions/north-carolina-museum-of-art.md",
       "04-knowledge/units/institutions/odesa-museum-western-eastern-art.md",
       "04-knowledge/units/institutions/oratorians.md",
+      "04-knowledge/units/institutions/osvaldo-bohm-photographic-publisher.md",
       "04-knowledge/units/institutions/pinacoteca-ambrosiana.md",
       "04-knowledge/units/institutions/pinacoteca-capitolina.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
@@ -425,6 +438,7 @@
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
+      "04-knowledge/units/institutions/studio-fotografico-balelli.md",
       "04-knowledge/units/institutions/t-and-a-constable.md",
       "04-knowledge/units/institutions/theatines.md",
       "04-knowledge/units/institutions/thyssen-bornemisza-museum.md",
@@ -956,6 +970,7 @@
       "04-knowledge/units/persons/gian-antonio-faldoni.md",
       "04-knowledge/units/persons/gian-lorenzo-bernini.md",
       "04-knowledge/units/persons/gianandrea-carlone.md",
+      "04-knowledge/units/persons/giandomenico-tiepolo.md",
       "04-knowledge/units/persons/gianfranco-torcellan.md",
       "04-knowledge/units/persons/giannantonio-fumiani.md",
       "04-knowledge/units/persons/giaquinto-front-matter.md",
@@ -972,6 +987,7 @@
       "04-knowledge/units/persons/giovanni-perugini.md",
       "04-knowledge/units/persons/giovanni-pesaro.md",
       "04-knowledge/units/persons/giovanni-pietro-bellori.md",
+      "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
       "04-knowledge/units/persons/girolamo-teti.md",
       "04-knowledge/units/persons/giulio-mancini.md",
       "04-knowledge/units/persons/giuseppe-angeli.md",
@@ -982,6 +998,7 @@
       "04-knowledge/units/persons/giuseppe-zocchi.md",
       "04-knowledge/units/persons/gl-bianconi.md",
       "04-knowledge/units/persons/goldoni.md",
+      "04-knowledge/units/persons/gregorio-lazzarini.md",
       "04-knowledge/units/persons/gregory-xv.md",
       "04-knowledge/units/persons/guercino.md",
       "04-knowledge/units/persons/guglielmo-baur.md",
@@ -999,6 +1016,7 @@
       "04-knowledge/units/persons/j-tomilson-hill.md",
       "04-knowledge/units/persons/jacopo-salviati.md",
       "04-knowledge/units/persons/jerome-bankes.md",
+      "04-knowledge/units/persons/john-finch.md",
       "04-knowledge/units/persons/john-gilmartin.md",
       "04-knowledge/units/persons/john-nicoll.md",
       "04-knowledge/units/persons/john-r-freeman.md",
@@ -1084,6 +1102,8 @@
       "04-knowledge/units/persons/pompeo-batoni.md",
       "04-knowledge/units/persons/prospero-orsi.md",
       "04-knowledge/units/persons/r-b-fleming.md",
+      "04-knowledge/units/persons/raimondo-buonaccorsi.md",
+      "04-knowledge/units/persons/ralph-bankes-1631-1677.md",
       "04-knowledge/units/persons/ralph-bankes.md",
       "04-knowledge/units/persons/raphael.md",
       "04-knowledge/units/persons/rembrandt.md",
@@ -1109,6 +1129,7 @@
       "04-knowledge/units/persons/tiberio-cerasi.md",
       "04-knowledge/units/persons/titian.md",
       "04-knowledge/units/persons/tommaso-chiari.md",
+      "04-knowledge/units/persons/torquato-tasso.md",
       "04-knowledge/units/persons/urbano-viii.md",
       "04-knowledge/units/persons/valentin.md",
       "04-knowledge/units/persons/van-dyck.md",
@@ -1119,6 +1140,7 @@
       "04-knowledge/units/persons/vitale-bloch.md",
       "04-knowledge/units/persons/viviano-codazzi.md",
       "04-knowledge/units/persons/watkin-williams-wynn.md",
+      "04-knowledge/units/persons/william-john-bankes.md",
       "04-knowledge/units/persons/zaccaria-sagredo.md",
       "04-knowledge/units/families/aldobrandini-family.md",
       "04-knowledge/units/families/borghese-family.md",
@@ -1127,7 +1149,9 @@
       "04-knowledge/units/families/peretti-family.md",
       "04-knowledge/units/families/pisani-family.md",
       "04-knowledge/units/families/rezzonico-family.md",
+      "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
+      "04-knowledge/units/institutions/agraci.md",
       "04-knowledge/units/institutions/apostolic-chamber.md",
       "04-knowledge/units/institutions/arcadia.md",
       "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -1176,15 +1200,18 @@
       "04-knowledge/units/institutions/museo-del-prado.md",
       "04-knowledge/units/institutions/museo-di-capodimonte.md",
       "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
+      "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
       "04-knowledge/units/institutions/national-gallery-london.md",
       "04-knowledge/units/institutions/national-gallery-of-ireland.md",
       "04-knowledge/units/institutions/national-gallery-of-scotland.md",
       "04-knowledge/units/institutions/national-gallery-of-victoria.md",
       "04-knowledge/units/institutions/national-museum-stockholm.md",
       "04-knowledge/units/institutions/national-portrait-gallery.md",
+      "04-knowledge/units/institutions/national-trust.md",
       "04-knowledge/units/institutions/north-carolina-museum-of-art.md",
       "04-knowledge/units/institutions/odesa-museum-western-eastern-art.md",
       "04-knowledge/units/institutions/oratorians.md",
+      "04-knowledge/units/institutions/osvaldo-bohm-photographic-publisher.md",
       "04-knowledge/units/institutions/pinacoteca-ambrosiana.md",
       "04-knowledge/units/institutions/pinacoteca-capitolina.md",
       "04-knowledge/units/institutions/pinacoteca-vaticana.md",
@@ -1200,6 +1227,7 @@
       "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
       "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
       "04-knowledge/units/institutions/stearn-and-son.md",
+      "04-knowledge/units/institutions/studio-fotografico-balelli.md",
       "04-knowledge/units/institutions/t-and-a-constable.md",
       "04-knowledge/units/institutions/theatines.md",
       "04-knowledge/units/institutions/thyssen-bornemisza-museum.md",
@@ -1636,8 +1664,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 289,
-      "tags": 289,
+      "sub_type": 297,
+      "tags": 297,
       "evidence_status": 0
     },
     "families": {
@@ -1646,8 +1674,8 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 88,
-      "tags": 88,
+      "sub_type": 94,
+      "tags": 94,
       "evidence_status": 0
     },
     "places": {
@@ -1733,12 +1761,12 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 684,
-    "sources_without_evidence_ref": 116,
-    "evidence_ref_resolvable": 993,
+    "sources_with_evidence_ref": 689,
+    "sources_without_evidence_ref": 125,
+    "evidence_ref_resolvable": 1004,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 993,
-    "units_with_traceable_source": 800
+    "evidence_refs_total": 1004,
+    "units_with_traceable_source": 814
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -1770,7 +1798,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 800,
+      "count": 814,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -1897,6 +1925,7 @@
         "04-knowledge/units/persons/gian-antonio-faldoni.md",
         "04-knowledge/units/persons/gian-lorenzo-bernini.md",
         "04-knowledge/units/persons/gianandrea-carlone.md",
+        "04-knowledge/units/persons/giandomenico-tiepolo.md",
         "04-knowledge/units/persons/gianfranco-torcellan.md",
         "04-knowledge/units/persons/giannantonio-fumiani.md",
         "04-knowledge/units/persons/giaquinto-front-matter.md",
@@ -1913,6 +1942,7 @@
         "04-knowledge/units/persons/giovanni-perugini.md",
         "04-knowledge/units/persons/giovanni-pesaro.md",
         "04-knowledge/units/persons/giovanni-pietro-bellori.md",
+        "04-knowledge/units/persons/girolamo-mengozzi-colonna.md",
         "04-knowledge/units/persons/girolamo-teti.md",
         "04-knowledge/units/persons/giulio-mancini.md",
         "04-knowledge/units/persons/giuseppe-angeli.md",
@@ -1923,6 +1953,7 @@
         "04-knowledge/units/persons/giuseppe-zocchi.md",
         "04-knowledge/units/persons/gl-bianconi.md",
         "04-knowledge/units/persons/goldoni.md",
+        "04-knowledge/units/persons/gregorio-lazzarini.md",
         "04-knowledge/units/persons/gregory-xv.md",
         "04-knowledge/units/persons/guercino.md",
         "04-knowledge/units/persons/guglielmo-baur.md",
@@ -1940,6 +1971,7 @@
         "04-knowledge/units/persons/j-tomilson-hill.md",
         "04-knowledge/units/persons/jacopo-salviati.md",
         "04-knowledge/units/persons/jerome-bankes.md",
+        "04-knowledge/units/persons/john-finch.md",
         "04-knowledge/units/persons/john-gilmartin.md",
         "04-knowledge/units/persons/john-nicoll.md",
         "04-knowledge/units/persons/john-r-freeman.md",
@@ -2025,6 +2057,8 @@
         "04-knowledge/units/persons/pompeo-batoni.md",
         "04-knowledge/units/persons/prospero-orsi.md",
         "04-knowledge/units/persons/r-b-fleming.md",
+        "04-knowledge/units/persons/raimondo-buonaccorsi.md",
+        "04-knowledge/units/persons/ralph-bankes-1631-1677.md",
         "04-knowledge/units/persons/ralph-bankes.md",
         "04-knowledge/units/persons/raphael.md",
         "04-knowledge/units/persons/rembrandt.md",
@@ -2050,6 +2084,7 @@
         "04-knowledge/units/persons/tiberio-cerasi.md",
         "04-knowledge/units/persons/titian.md",
         "04-knowledge/units/persons/tommaso-chiari.md",
+        "04-knowledge/units/persons/torquato-tasso.md",
         "04-knowledge/units/persons/urbano-viii.md",
         "04-knowledge/units/persons/valentin.md",
         "04-knowledge/units/persons/van-dyck.md",
@@ -2060,6 +2095,7 @@
         "04-knowledge/units/persons/vitale-bloch.md",
         "04-knowledge/units/persons/viviano-codazzi.md",
         "04-knowledge/units/persons/watkin-williams-wynn.md",
+        "04-knowledge/units/persons/william-john-bankes.md",
         "04-knowledge/units/persons/zaccaria-sagredo.md",
         "04-knowledge/units/families/aldobrandini-family.md",
         "04-knowledge/units/families/borghese-family.md",
@@ -2068,7 +2104,9 @@
         "04-knowledge/units/families/peretti-family.md",
         "04-knowledge/units/families/pisani-family.md",
         "04-knowledge/units/families/rezzonico-family.md",
+        "04-knowledge/units/institutions/a-villani-e-figli.md",
         "04-knowledge/units/institutions/accademia-di-san-luca.md",
+        "04-knowledge/units/institutions/agraci.md",
         "04-knowledge/units/institutions/apostolic-chamber.md",
         "04-knowledge/units/institutions/arcadia.md",
         "04-knowledge/units/institutions/art-institute-of-chicago.md",
@@ -2117,15 +2155,18 @@
         "04-knowledge/units/institutions/museo-del-prado.md",
         "04-knowledge/units/institutions/museo-di-capodimonte.md",
         "04-knowledge/units/institutions/museum-boymansvan-beuningen.md",
+        "04-knowledge/units/institutions/museum-of-fine-arts-houston.md",
         "04-knowledge/units/institutions/national-gallery-london.md",
         "04-knowledge/units/institutions/national-gallery-of-ireland.md",
         "04-knowledge/units/institutions/national-gallery-of-scotland.md",
         "04-knowledge/units/institutions/national-gallery-of-victoria.md",
         "04-knowledge/units/institutions/national-museum-stockholm.md",
         "04-knowledge/units/institutions/national-portrait-gallery.md",
+        "04-knowledge/units/institutions/national-trust.md",
         "04-knowledge/units/institutions/north-carolina-museum-of-art.md",
         "04-knowledge/units/institutions/odesa-museum-western-eastern-art.md",
         "04-knowledge/units/institutions/oratorians.md",
+        "04-knowledge/units/institutions/osvaldo-bohm-photographic-publisher.md",
         "04-knowledge/units/institutions/pinacoteca-ambrosiana.md",
         "04-knowledge/units/institutions/pinacoteca-capitolina.md",
         "04-knowledge/units/institutions/pinacoteca-vaticana.md",
@@ -2141,6 +2182,7 @@
         "04-knowledge/units/institutions/soprintendenza-alle-gallerie-florence.md",
         "04-knowledge/units/institutions/staatsgalerie-stuttgart.md",
         "04-knowledge/units/institutions/stearn-and-son.md",
+        "04-knowledge/units/institutions/studio-fotografico-balelli.md",
         "04-knowledge/units/institutions/t-and-a-constable.md",
         "04-knowledge/units/institutions/theatines.md",
         "04-knowledge/units/institutions/thyssen-bornemisza-museum.md",
@@ -2673,12 +2715,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 296,
+      "total": 304,
       "coverage": {
-        "name_original": "0/296",
-        "language_original": "0/296",
-        "name_zh": "0/296",
-        "translation_status": "0/296"
+        "name_original": "0/304",
+        "language_original": "0/304",
+        "name_zh": "0/304",
+        "translation_status": "0/304"
       }
     },
     "families": {
@@ -2691,12 +2733,12 @@
       }
     },
     "institutions": {
-      "total": 88,
+      "total": 94,
       "coverage": {
-        "name_original": "0/88",
-        "name_original_language": "0/88",
-        "name_zh": "0/88",
-        "translation_status": "0/88"
+        "name_original": "0/94",
+        "name_original_language": "0/94",
+        "name_zh": "0/94",
+        "translation_status": "0/94"
       }
     },
     "works": {
@@ -2726,9 +2768,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 680,
-    "indexed": 680,
-    "declared_total": 680,
+    "expected": 694,
+    "indexed": 694,
+    "declared_total": 694,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -2803,22 +2845,22 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 800,
+    "total_units": 814,
     "source_count_distribution": {
-      "multi_source": 457,
-      "single_source": 343
+      "multi_source": 505,
+      "single_source": 309
     },
     "confidence_distribution": {
-      "missing": 800
+      "missing": 814
     },
     "consensus_distribution": {
-      "missing": 800
+      "missing": 814
     },
     "evidence_status_distribution": {
-      "source_backed": 800
+      "source_backed": 814
     },
     "isolated_units": {
-      "count": 454,
+      "count": 468,
       "sample": [
         "archives/aedes-barberinae-ad-quirinalem.md",
         "archives/apollo-periodical.md",
@@ -2839,12 +2881,12 @@
         "events/san-clemente-redecoration.md",
         "families/pisani-family.md",
         "families/rezzonico-family.md",
+        "institutions/a-villani-e-figli.md",
+        "institutions/agraci.md",
         "institutions/apostolic-chamber.md",
         "institutions/art-institute-of-chicago.md",
         "institutions/barnabites.md",
-        "institutions/bayerischen-staatsgemaldesammlungen.md",
-        "institutions/bibliotheque-nationale.md",
-        "institutions/british-museum.md"
+        "institutions/bayerischen-staatsgemaldesammlungen.md"
       ]
     },
     "candidate_debt": {
@@ -2861,7 +2903,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 343,
+      "single_source_units": 309,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -2886,7 +2928,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 800,
+    "total_files": 814,
     "total_findings": 0
   }
 }
