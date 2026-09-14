@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-15
-# total: 671
-# sources: {'explicit': 670, 'inferred_by_rule': 1}
+# total: 702
+# sources: {'explicit': 701, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -78,6 +78,85 @@
   time: 1564–1622
   role: 成员；1601–1622任大团长
   scope: 个人在医院骑士团的成员与领导职务
+- source: persons/amadeo-swajer.md
+  source_type: person
+  target: persons/johann-conrad-hofmann.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷p.52教师段；PDF第2页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 家庭教育
+  scope: 家庭教师身份明确，不外推大学学历
+- source: persons/amadeo-swajer.md
+  source_type: person
+  target: persons/katharina-heinzelmann.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷p.57首段；PDF第7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1760年4月底结婚
+  role: 丈夫→妻子
+  scope: 婚姻开始日期明确，未推定配偶生卒或婚姻结束日期
+- source: persons/amadeo-swajer.md
+  source_type: person
+  target: institutions/accademia-degli-agiati.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷p.58第2节首段；PDF第8页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1752年加入
+  role: 学会会员
+  scope: 学会吸收为会员，学名Marsio；不推定终止年份
+- source: persons/amadeo-swajer.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷p.51末段及p.57首段；PDF第1、7页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1727-12-12出生；1791-12-28去世
+  role: 出生／去世
+  scope: 出生与去世地点均为威尼斯
 - source: persons/andrea-camassei.md
   source_type: person
   target: persons/domenichino.md
@@ -97,6 +176,25 @@
   review_status: evidence_backed_relation
   role: 进入其工作室的学生／助手
   scope: Pascoli早期训练叙述；不延伸到其他大师作品研习
+- source: persons/andrea-memmo.md
+  source_type: person
+  target: persons/carlo-lodoli.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-carlo-lodoli
+    source_file: https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/
+    source_span: 著述段：due allievi，Algarotti与A. Memmo
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 受教者→教师
+  scope: DBI明确记为学生；不等同大学学位
 - source: persons/andrea-pozzo.md
   source_type: person
   target: institutions/jesuits.md
@@ -303,6 +401,46 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/bernardino-castelli.md
+  source_type: person
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-bernardino-castelli
+    source_file: https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/
+    source_span: 1775年转往Padova段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1775'
+  role: 迁居
+  scope: 传记明确地点事件
+- source: persons/bernardino-castelli.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-bernardino-castelli
+    source_file: https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/
+    source_span: Morì a Venezia段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1810-02-24'
+  role: 去世
+  scope: 传记明确地点事件
 - source: persons/bruce-boucher.md
   source_type: person
   target: institutions/courtauld-institute-of-art.md
@@ -655,6 +793,46 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/carlo-lodoli.md
+  source_type: person
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-carlo-lodoli
+    source_file: https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/
+    source_span: 起首出生段及1720返威尼斯段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1690出生；1720返回
+  role: 出生／返回
+  scope: 明确生平地点事件，非全生涯连续住址
+- source: persons/carlo-lodoli.md
+  source_type: person
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-carlo-lodoli
+    source_file: https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/
+    source_span: 末段Morì a Padova
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1761-10-27'
+  role: 去世
+  scope: 明确生平地点事件，非全生涯连续住址
 - source: persons/carlo-maratta.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -862,6 +1040,84 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/domenico-maria-viani.md
+  source_type: person
+  target: persons/giovanni-maria-viani.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-maria-viani
+    source_file: https://www.treccani.it/enciclopedia/viani/
+    source_span: Domenico Maria人物段：Il figlio
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子→父亲
+  scope: 父子关系，非同名合并
+- source: persons/domenico-maria-viani.md
+  source_type: person
+  target: persons/giovanni-maria-viani.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-maria-viani
+    source_file: https://www.treccani.it/enciclopedia/viani/
+    source_span: Domenico Maria人物段：allievo del padre
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘画师承
+  scope: 传记明确随父学习，亲缘另列
+- source: persons/domenico-maria-viani.md
+  source_type: person
+  target: places/bologna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-maria-viani
+    source_file: https://www.treccani.it/enciclopedia/viani/
+    source_span: Domenico Maria生卒括注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1668'
+  role: 出生
+  scope: 条目明确生卒地点
+- source: persons/domenico-maria-viani.md
+  source_type: person
+  target: places/pistoia.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-maria-viani
+    source_file: https://www.treccani.it/enciclopedia/viani/
+    source_span: Domenico Maria生卒括注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1711'
+  role: 去世
+  scope: 条目明确生卒地点
 - source: persons/duke-parma-ghezzi.md
   source_type: person
   target: persons/giuseppe-ghezzi.md
@@ -1034,6 +1290,26 @@
   review_status: evidence_backed_relation
   role: 每月津贴提供者
   scope: 每月30 scudi；不表示作品全部买断
+- source: persons/francesco-algarotti.md
+  source_type: person
+  target: persons/carlo-lodoli.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-carlo-lodoli
+    source_file: https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/
+    source_span: 教学段：nel 1725, F. Algarotti
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1725'
+  role: 受教者→教师
+  scope: DBI明确记为学生；不等同大学学位
 - source: persons/francesco-barberini.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -1949,6 +2225,26 @@
   time: 约1602起
   role: 工作室学生／助手
   scope: Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练
+- source: persons/giovanni-maria-viani.md
+  source_type: person
+  target: places/bologna.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-domenico-maria-viani
+    source_file: https://www.treccani.it/enciclopedia/viani/
+    source_span: Giovanni Maria生卒括注
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1636出生；1700去世
+  role: 出生／去世
+  scope: 条目明确生卒地点
 - source: persons/giovanni-odazzi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -2269,6 +2565,26 @@
   review_status: evidence_backed_relation
   role: master of ceremonies任命者
   scope: 任命范围限该职位
+- source: persons/johann-conrad-hofmann.md
+  source_type: person
+  target: places/padua.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷pp.52–53跨页句；PDF第2–3页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1756-03-15'
+  role: 去世
+  scope: 跨页句明确在帕多瓦去世
 - source: persons/john-finch.md
   source_type: person
   target: persons/carlo-dolci.md
@@ -3339,6 +3655,26 @@
   review_status: evidence_backed_relation
   role: 朋友
   scope: 馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议
+- source: institutions/accademia-degli-agiati.md
+  source_type: institution
+  target: places/rovereto.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-amadeo-swajer
+    source_file: https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf
+    source_span: 印刷p.58第2节；PDF第8页
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 18世纪语境
+  role: 机构所在城市
+  scope: 研究中的学会所在城市；不推定具体建筑地址
 - source: institutions/biblioteca-augusta.md
   source_type: institution
   target: places/perugia.md
@@ -4254,6 +4590,84 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/alessandro-longhi-carlo-lodoli.md
+  source_type: work
+  target: persons/alessandro-longhi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像作者
+  scope: 原书该图版明确列出的作者
+- source: works/alessandro-longhi-carlo-lodoli.md
+  source_type: work
+  target: persons/carlo-lodoli.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像对象
+  scope: 原书该图版明确列出的肖像对象
+- source: works/alessandro-longhi-carlo-lodoli.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 书中图版目录记载，不以此声称已核2026年现藏
+- source: works/alessandro-longhi-carlo-lodoli.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 126–126; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 书中馆藏地点，不表示作品创作地点
 - source: works/amigoni-jupiter-and-io.md
   source_type: work
   target: institutions/royal-academy.md
@@ -4330,6 +4744,45 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者
+- source: works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md
+  source_type: work
+  target: persons/antonio-verrio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 85–86; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 壁画作者
+  scope: 图版29明确作者
+- source: works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md
+  source_type: work
+  target: places/hampton-court-palace.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 85–86; 章前：图版目录；印刷页xiv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 楼梯壁画所在建筑
+  scope: 原书题名明确建筑位置；不推定作品产权
 - source: works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md
   source_type: work
   target: persons/baldassare-franceschini.md
@@ -4447,6 +4900,84 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 原书目录位置；不外推现藏或画中地点
+- source: works/bernardino-castelli-teodoro-correr.md
+  source_type: work
+  target: persons/bernardino-castelli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像作者
+  scope: 原书该图版明确列出的作者
+- source: works/bernardino-castelli-teodoro-correr.md
+  source_type: work
+  target: persons/teodoro-correr.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像对象
+  scope: 原书该图版明确列出的肖像对象
+- source: works/bernardino-castelli-teodoro-correr.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 书中图版目录记载，不以此声称已核2026年现藏
+- source: works/bernardino-castelli-teodoro-correr.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 书中馆藏地点，不表示作品创作地点
 - source: works/bernini-cardinal-borghese-head.md
   source_type: work
   target: persons/gian-lorenzo-bernini.md
@@ -4807,6 +5338,84 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者
+- source: works/canova-amadeo-swajer.md
+  source_type: work
+  target: persons/canova.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像作者
+  scope: 原书该图版明确列出的作者
+- source: works/canova-amadeo-swajer.md
+  source_type: work
+  target: persons/amadeo-swajer.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像对象
+  scope: 原书该图版明确列出的肖像对象
+- source: works/canova-amadeo-swajer.md
+  source_type: work
+  target: institutions/museo-correr.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管者
+  scope: 书中图版目录记载，不以此声称已核2026年现藏
+- source: works/canova-amadeo-swajer.md
+  source_type: work
+  target: places/venice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 137–137; 章前：图版目录；印刷页xv
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书所述时点
+  role: 书中保管地点
+  scope: 书中馆藏地点，不表示作品创作地点
 - source: works/caravaggio-adoration-shepherds.md
   source_type: work
   target: persons/caravaggio.md

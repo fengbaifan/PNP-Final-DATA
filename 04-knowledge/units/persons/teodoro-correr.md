@@ -66,11 +66,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [科雷尔图书馆官方创立史](https://correr.visitmuve.it/en/library/)（S2，遗赠者身份）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← supports_claim（`supports_claim`，反向投影） | [科雷尔图书馆（Correr Library）](../institutions/correr-library.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成图书馆1830年创立；与博物馆端点分别记录；原断言与证据见发出端卡片“科雷尔图书馆（Correr Library）”：[来源](https://correr.visitmuve.it/en/library/)；institutions-correr-library；The Library首句：museum and library founded through bequest |
 | ← supports_claim（`supports_claim`，反向投影） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成博物馆1830年创立；不补造遗赠法律生效日期；原断言与证据见发出端卡片“科雷尔博物馆（Museo Correr）”：[来源](https://correr.visitmuve.it/en/library/)；institutions-museo-correr；The Library首句：museum and library founded through bequest |
+| ← 为其所涉对象（`subject_of`，反向投影） | [泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）](../works/bernardino-castelli-teodoro-correr.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；原断言与证据见发出端卡片“泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

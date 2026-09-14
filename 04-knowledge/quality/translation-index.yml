@@ -1,5 +1,5 @@
 generated: '2026-09-15'
-total: 765
+total: 769
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -937,6 +937,12 @@ index:
   title: '"乔万尼·兰弗兰科（Giovanni Lanfranco）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-maria-viani
+  type: persons
+  name_en: Giovanni Maria Viani
+  title: 乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-odazzi
   type: persons
   name_en: Giovanni Odazzi
@@ -1141,6 +1147,12 @@ index:
   title: 杰罗姆·班克斯（Jerome Bankes）
   name_original: ''
   language_original: ''
+- slug: persons/johann-conrad-hofmann
+  type: persons
+  name_en: Johann Conrad Hofmann
+  title: 约翰·康拉德·霍夫曼（Johann Conrad Hofmann）
+  name_original: ''
+  language_original: ''
 - slug: persons/johann-heinrich-schmelzer
   type: persons
   name_en: Johann Heinrich Schmelzer
@@ -1193,6 +1205,12 @@ index:
   type: persons
   name_en: Jules Guiffrey
   title: 朱尔·吉弗雷（Jules Guiffrey）
+  name_original: ''
+  language_original: ''
+- slug: persons/katharina-heinzelmann
+  type: persons
+  name_en: Katharina Heinzelmann
+  title: 卡塔琳娜·海因策尔曼（Katharina Heinzelmann）
   name_original: ''
   language_original: ''
 - slug: persons/laerzio-cherubini
@@ -2583,8 +2601,8 @@ index:
   language_original: ''
 - slug: works/alessandro-longhi-carlo-lodoli
   type: works
-  name_en: '"Portrait of Carlo Lodoli"'
-  title: '"卡洛·洛多利肖像（Portrait of Carlo Lodoli）"'
+  name_en: Portrait of Carlo Lodoli
+  title: 卡洛·洛多利肖像（Portrait of Carlo Lodoli）
   name_original: ''
   language_original: ''
 - slug: works/alessandro-longhi-g-m-sasso
@@ -2649,8 +2667,8 @@ index:
   language_original: ''
 - slug: works/bernardino-castelli-teodoro-correr
   type: works
-  name_en: '"Portrait of Teodoro Correr"'
-  title: '"泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）"'
+  name_en: Portrait of Teodoro Correr
+  title: 泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）
   name_original: ''
   language_original: ''
 - slug: works/bernini-cardinal-borghese-head
@@ -3857,6 +3875,12 @@ index:
   type: institutions
   name_en: Académie française
   title: 法兰西学院（Académie française）
+  name_original: ''
+  language_original: ''
+- slug: institutions/accademia-degli-agiati
+  type: institutions
+  name_en: Accademia degli Agiati
+  title: 阿贾蒂学会（Accademia degli Agiati）
   name_original: ''
   language_original: ''
 - slug: institutions/accademia-di-san-luca

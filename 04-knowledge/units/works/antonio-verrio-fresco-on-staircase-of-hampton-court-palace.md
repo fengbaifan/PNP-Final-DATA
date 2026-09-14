@@ -4,7 +4,8 @@ name_en: Fresco on staircase of Hampton Court Palace
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L85–86
   sentence_summary: 《赞助人与画家》图版29目录所记的《汉普顿宫楼梯壁画》艺术对象。
   original_quotes:
@@ -16,7 +17,8 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 85–86; 章前：图版目录；印刷页xiv
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
+    printing 2006).
   location: 章前：图片来源；印刷页xvi；OCR L166–166
   sentence_summary: 本书图片来源将图版29复制图像供片者列为英国工程部。
   original_quotes:
@@ -28,7 +30,7 @@ sources:
     source_span: lines 166–166; 章前：图片来源；印刷页xvi
 created: '2026-09-14'
 updated: '2026-09-15'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#供片关系集中定稿
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#画家与收藏家姓名师承及肖像关系
 relations:
 - relation_type: supplied_by
   target: institutions/ministry-of-works.md
@@ -41,6 +43,29 @@ relations:
   bidirectional_required: false
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者
+- relation_type: created_by
+  target: persons/antonio-verrio.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 85–86; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 图版29明确作者
+  role: 壁画作者
+- relation_type: located_at
+  target: places/hampton-court-palace.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 85–86; 章前：图版目录；印刷页xiv
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: 原书题名明确建筑位置；不推定作品产权
+  role: 楼梯壁画所在建筑
+  time: 本书所述时点
 ---
 
 
@@ -77,10 +102,11 @@ relations:
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 由其供应（`supplied_by`） | [英国工程部（Ministry of Works）](../institutions/ministry-of-works.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 166–166; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [安东尼奥·韦里奥（Antonio Verrio）](../persons/antonio-verrio.md) | 角色：壁画作者；范围：图版29明确作者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 85–86; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [汉普顿宫（Hampton Court Palace）](../places/hampton-court-palace.md) | 时间：本书所述时点；角色：楼梯壁画所在建筑；范围：原书题名明确建筑位置；不推定作品产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 85–86; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

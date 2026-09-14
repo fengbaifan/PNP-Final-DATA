@@ -156,7 +156,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 所在地（`location_of`，反向投影） | [多梅尼科·马里亚·维亚尼（Domenico Maria Viani）](../persons/domenico-maria-viani.md) | 时间：1668；角色：出生；范围：条目明确生卒地点；原断言与证据见发出端卡片“多梅尼科·马里亚·维亚尼（Domenico Maria Viani）”：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria生卒括注 |
 | ← 所在地（`location_of`，反向投影） | [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](chiesa-de-servi-bologna.md) | 教堂在 Bologna；原断言与证据见发出端卡片“博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
+| ← 所在地（`location_of`，反向投影） | [乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）](../persons/giovanni-maria-viani.md) | 时间：1636出生；1700去世；角色：出生／去世；范围：条目明确生卒地点；原断言与证据见发出端卡片“乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）”：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Giovanni Maria生卒括注 |
 
 ### 身份与外部链接
 

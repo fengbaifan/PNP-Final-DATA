@@ -46,7 +46,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [贝尔纳迪诺·卡斯泰利（Bernardino Castelli）](../persons/bernardino-castelli.md) | 时间：1775；角色：迁居；范围：传记明确地点事件；原断言与证据见发出端卡片“贝尔纳迪诺·卡斯泰利（Bernardino Castelli）”：[来源](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)；persons-bernardino-castelli；1775年转往Padova段 |
+| ← 所在地（`location_of`，反向投影） | [卡洛·洛多利（Carlo Lodoli）](../persons/carlo-lodoli.md) | 时间：1761-10-27；角色：去世；范围：明确生平地点事件，非全生涯连续住址；原断言与证据见发出端卡片“卡洛·洛多利（Carlo Lodoli）”：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；末段Morì a Padova |
+| ← 所在地（`location_of`，反向投影） | [约翰·康拉德·霍夫曼（Johann Conrad Hofmann）](../persons/johann-conrad-hofmann.md) | 时间：1756-03-15；角色：去世；范围：跨页句明确在帕多瓦去世；原断言与证据见发出端卡片“约翰·康拉德·霍夫曼（Johann Conrad Hofmann）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷pp.52–53跨页句；PDF第2–3页 |
 
 ### 关系候选入口
 

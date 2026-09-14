@@ -2,6 +2,7 @@
 
 - [A. 维拉尼父子摄影公司（A. Villani e Figli）](../../04-knowledge/units/institutions/a-villani-e-figli.md)
 - [法兰西学院（Académie française）](../../04-knowledge/units/institutions/academie-francaise.md)
+- [阿贾蒂学会（Accademia degli Agiati）](../../04-knowledge/units/institutions/accademia-degli-agiati.md)
 - [圣路加学院（Accademia di S. Luca）](../../04-knowledge/units/institutions/accademia-di-san-luca.md)
 - [阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）](../../04-knowledge/units/institutions/agraci.md)
 - [老绘画陈列馆（Alte Pinakothek）](../../04-knowledge/units/institutions/alte-pinakothek.md)

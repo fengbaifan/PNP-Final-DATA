@@ -4,12 +4,30 @@ name_en: Andrea Memmo
 type: person
 evidence_status: source_backed
 sources:
-- citation: Bibliothek Werner Oechslin, Una figura della Venezia settecentesca, record 011679565. https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565. Accessed 2026-09-14.
+- citation: Bibliothek Werner Oechslin, Una figura della Venezia settecentesca, record 011679565. https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565.
+    Accessed 2026-09-14.
   location: 完整书目、作者规范与馆藏字段；未读书正文
-  sentence_summary: Gianfranco Torcellan（1938–1966），作者规范号DE-588 1217349227；1963年Venezia出版Andrea Memmo研究，233页，馆藏为散页复印件。主题人物Andrea Memmo（1729–1793），不把复印馆藏当出版原件。
+  sentence_summary: Gianfranco Torcellan（1938–1966），作者规范号DE-588 1217349227；1963年Venezia出版Andrea Memmo研究，233页，馆藏为散页复印件。主题人物Andrea
+    Memmo（1729–1793），不把复印馆藏当出版原件。
+- citation: Piero Del Negro, LODOLI, Carlo, Dizionario Biografico degli Italiani 65 (2005). https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/.
+    Accessed 2026-09-15.
+  location: 完整传记正文及附录书目；出生及取修会名段、教学段、末段
+  sentence_summary: 本名Cristoforo Ignazio Antonio，1707年取名Carlo；Algarotti和Memmo为其学生，1761年卒于帕多瓦。
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#序言学者与图版角色集中对齐
+updated: '2026-09-15'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#画家与收藏家姓名师承及肖像关系
+relations:
+- relation_type: trained_by
+  target: persons/carlo-lodoli.md
+  evidence_ref:
+    doc_id: persons-carlo-lodoli
+    source_file: https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/
+    source_span: 著述段：due allievi，Algarotti与A. Memmo
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  scope: DBI明确记为学生；不等同大学学位
+  role: 受教者→教师
 ---
 
 ## 内容
@@ -40,6 +58,13 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 人物研究 | [托尔切兰：18世纪威尼斯人物](../archives/torcellan-andrea-memmo-1963.md) | S1 |
 
+### 师承关系
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 教师 | [卡洛·洛多利](carlo-lodoli.md) | S2 |
+
+
 ## 关系与证据
 
 ### 身份与外部链接
@@ -47,10 +72,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 [Oechslin主题人物规范字段](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)（S1）。
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：研究对象；范围：书目题名及内容说明中的研究人物；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| → 师从／受训于（`trained_by`） | [卡洛·洛多利（Carlo Lodoli）](carlo-lodoli.md) | 角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；著述段：due allievi，Algarotti与A. Memmo |
 
 ### 关系候选入口
 

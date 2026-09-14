@@ -1953,3 +1953,77 @@ Guardi的馆方完整人物传记已读，页面23件作品仅有摘要，不称
 ### 写入与验证
 
 38条关系、33张受影响卡（含1张新建建筑卡）已实际写入。预检核对80条原书摘录与320条本地链接，原sources前缀、既有正式关系及有效登记中的其他字段保持。exact plan核对时唯一格式差异为治理文件末尾补齐换行，实体与研究记录均与计划一致；未用该格式差异放宽内容比对。新增38条关系的端点、类型、方向、证据、角色、时间和范围与671条关系索引逐项一致。受影响卡内容机械检查未发现确定性缺陷，14步同步检查通过；本轮未改代码，不重复上一轮已通过的274项测试。全库901个有效KU，章前531个；机械通过不代表全面语义验收或全任务完成。
+
+## 画家与收藏家姓名师承及肖像关系
+
+2026-09-15继续REV-093原目标。5个既有主要人物逐一对齐，追加结构化内容和身份入口；6个必要关系端点新增，原路径与原书sources保留。
+
+### 阅读、映射与裁决
+
+- [viani](https://www.treccani.it/enciclopedia/viani/)：完整短条目，父子两代人物段。Giovanni Maria与Domenico Maria为父子兼师生；分别生于1636和1668年，卒于1700和1711年。
+- [lodoli](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)：完整传记正文及附录书目；出生及取修会名段、教学段、末段。本名Cristoforo Ignazio Antonio，1707年取名Carlo；Algarotti和Memmo为其学生，1761年卒于帕多瓦。
+- [castelli](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)：完整传记正文及附录书目；起首、迁居段、卒年段、Correr藏品段。1750年出生，1810年卒于威尼斯；1775年迁帕多瓦，Correr肖像与1795年复制版画分别记载。
+- [verrio](https://www.hrp.org.uk/hampton-court-palace/whats-on/william-iiis-apartments/)：实际阅读正文The Grand Staircase至William III’s Private Apartments，包括图注；人物年代见The Grand Staircase。Antonio Verrio为意大利艺术家，约1636–1707；馆方记其绘制汉普顿宫国王楼梯墙画。
+- [svajer](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)：直接阅读PDF扫描图第1–8页＝印刷pp.51–58；完整第1节及第2节开头，含页内注释。p.51出生及德语姓名；p.52教师；p.57婚姻、职务及死亡；p.58学会会员及学名Marsio。
+
+
+Viani的索引将xvii提及映射到Domenico Maria，本轮将第二版导言L179–183的原文一并登记；Waterhouse的否定迁居记载及其“畏惧竞争”解释与Haskell转述语境分开。未建立Viani位于罗马的边。Treccani父子条目可确认父亲及师承，未将父子的生卒混合。Prado完整人物摘要在搜索返回中可读，但直接条目403，本轮不计为已打开全文来源；其学院、作品与行旅线索留待后续实际页核对。
+
+Lodoli的规范展示采用修会通用名Carlo，本名与1707取名分列；Algarotti和Memmo均有“allievi”直接根据，可建立受教关系。1720年拟设的航海教席未落实，未写任职或大学隶属；其1700年代早期罗马／Forlì时段与1715年Verona衔接不够清楚，未机械补齐时间线。
+
+Castelli的1750–1810生卒与Correr肖像对应书中姓名和角色；1795系复制版画年份，不能填成原画年份。网页“782”“792”有截位疑点，未擅改为确定入会年份。Giustiniani赞助人不与第一章同姓侯爵合并；Conca是其教师的教师，不越级建立亲授关系。
+
+Svajer研究PDF文本层失码，改为直接阅读扫描图pp.51–58，跨页教师死亡句、婚姻及死亡日期均按页核对。意大利姓名Svaier与德语Amadeus／Gottlieb Schweyer在p.51并列；原书Swajer保留为显示和检索入口。以罕见姓名、德裔威尼斯收藏者身份与时代做初步对应，肖像的具体馆藏号和制作年代尚未核。威尼托目录候选44731所见1724–1792标年与研究不同，但实际页面超时／服务不可用，未作为已核外部来源写入卡；研究日期暂按具体页支持，候选标年的差异保留待复查。论文第2节从p.58开始，后续p.59–85未读，不称整篇论文或所引档案全文已读。
+
+Verrio按HRP实际页面中的姓名、年代及汉普顿宫楼梯绘画确认身份，原书作者与建筑位置可正式记录。官网楼梯《亚历山大胜过凯撒诸帝》与图版29的具体截取范围尚须图像配对，未擅改原书作品标题，未将大小寝室顶画合并为此件，也未由建筑整体委托推出本件壁画的赞助边。未新增QID，不宣称Wiki双向身份核验。
+
+### 正式关系裁决
+
+| 起点 | 类型 | 端点 | 角色、时间和依据 |
+|---|---|---|---|
+| institutions/accademia-degli-agiati.md | located_at | places/rovereto.md | 机构所在城市；18世纪语境；印刷p.58第2节；PDF第8页；研究中的学会所在城市；不推定具体建筑地址 |
+| works/alessandro-longhi-carlo-lodoli.md | created_by | persons/alessandro-longhi.md | 肖像作者；；lines 126–126; 章前：图版目录；印刷页xv；原书该图版明确列出的作者 |
+| works/alessandro-longhi-carlo-lodoli.md | has_subject | persons/carlo-lodoli.md | 肖像对象；；lines 126–126; 章前：图版目录；印刷页xv；原书该图版明确列出的肖像对象 |
+| works/alessandro-longhi-carlo-lodoli.md | held_by | institutions/museo-correr.md | 书中保管者；本书所述时点；lines 126–126; 章前：图版目录；印刷页xv；书中图版目录记载，不以此声称已核2026年现藏 |
+| works/alessandro-longhi-carlo-lodoli.md | located_at | places/venice.md | 书中保管地点；本书所述时点；lines 126–126; 章前：图版目录；印刷页xv；书中馆藏地点，不表示作品创作地点 |
+| works/canova-amadeo-swajer.md | created_by | persons/canova.md | 肖像作者；；lines 137–137; 章前：图版目录；印刷页xv；原书该图版明确列出的作者 |
+| works/canova-amadeo-swajer.md | has_subject | persons/amadeo-swajer.md | 肖像对象；；lines 137–137; 章前：图版目录；印刷页xv；原书该图版明确列出的肖像对象 |
+| works/canova-amadeo-swajer.md | held_by | institutions/museo-correr.md | 书中保管者；本书所述时点；lines 137–137; 章前：图版目录；印刷页xv；书中图版目录记载，不以此声称已核2026年现藏 |
+| works/canova-amadeo-swajer.md | located_at | places/venice.md | 书中保管地点；本书所述时点；lines 137–137; 章前：图版目录；印刷页xv；书中馆藏地点，不表示作品创作地点 |
+| works/bernardino-castelli-teodoro-correr.md | created_by | persons/bernardino-castelli.md | 肖像作者；；lines 137–137; 章前：图版目录；印刷页xv；原书该图版明确列出的作者 |
+| works/bernardino-castelli-teodoro-correr.md | has_subject | persons/teodoro-correr.md | 肖像对象；；lines 137–137; 章前：图版目录；印刷页xv；原书该图版明确列出的肖像对象 |
+| works/bernardino-castelli-teodoro-correr.md | held_by | institutions/museo-correr.md | 书中保管者；本书所述时点；lines 137–137; 章前：图版目录；印刷页xv；书中图版目录记载，不以此声称已核2026年现藏 |
+| works/bernardino-castelli-teodoro-correr.md | located_at | places/venice.md | 书中保管地点；本书所述时点；lines 137–137; 章前：图版目录；印刷页xv；书中馆藏地点，不表示作品创作地点 |
+| works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md | created_by | persons/antonio-verrio.md | 壁画作者；；lines 85–86; 章前：图版目录；印刷页xiv；图版29明确作者 |
+| works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md | located_at | places/hampton-court-palace.md | 楼梯壁画所在建筑；本书所述时点；lines 85–86; 章前：图版目录；印刷页xiv；原书题名明确建筑位置；不推定作品产权 |
+| persons/domenico-maria-viani.md | kin_of | persons/giovanni-maria-viani.md | 儿子→父亲；；Domenico Maria人物段：Il figlio；父子关系，非同名合并 |
+| persons/domenico-maria-viani.md | trained_by | persons/giovanni-maria-viani.md | 绘画师承；；Domenico Maria人物段：allievo del padre；传记明确随父学习，亲缘另列 |
+| persons/domenico-maria-viani.md | located_at | places/bologna.md | 出生；1668；Domenico Maria生卒括注；条目明确生卒地点 |
+| persons/domenico-maria-viani.md | located_at | places/pistoia.md | 去世；1711；Domenico Maria生卒括注；条目明确生卒地点 |
+| persons/giovanni-maria-viani.md | located_at | places/bologna.md | 出生／去世；1636出生；1700去世；Giovanni Maria生卒括注；条目明确生卒地点 |
+| persons/francesco-algarotti.md | trained_by | persons/carlo-lodoli.md | 受教者→教师；1725；教学段：nel 1725, F. Algarotti；DBI明确记为学生；不等同大学学位 |
+| persons/andrea-memmo.md | trained_by | persons/carlo-lodoli.md | 受教者→教师；；著述段：due allievi，Algarotti与A. Memmo；DBI明确记为学生；不等同大学学位 |
+| persons/carlo-lodoli.md | located_at | places/venice.md | 出生／返回；1690出生；1720返回；起首出生段及1720返威尼斯段；明确生平地点事件，非全生涯连续住址 |
+| persons/carlo-lodoli.md | located_at | places/padua.md | 去世；1761-10-27；末段Morì a Padova；明确生平地点事件，非全生涯连续住址 |
+| persons/bernardino-castelli.md | located_at | places/padua.md | 迁居；1775；1775年转往Padova段；传记明确地点事件 |
+| persons/bernardino-castelli.md | located_at | places/venice.md | 去世；1810-02-24；Morì a Venezia段；传记明确地点事件 |
+| persons/amadeo-swajer.md | trained_by | persons/johann-conrad-hofmann.md | 家庭教育；；印刷p.52教师段；PDF第2页；家庭教师身份明确，不外推大学学历 |
+| persons/amadeo-swajer.md | kin_of | persons/katharina-heinzelmann.md | 丈夫→妻子；1760年4月底结婚；印刷p.57首段；PDF第7页；婚姻开始日期明确，未推定配偶生卒或婚姻结束日期 |
+| persons/amadeo-swajer.md | member_of | institutions/accademia-degli-agiati.md | 学会会员；1752年加入；印刷p.58第2节首段；PDF第8页；学会吸收为会员，学名Marsio；不推定终止年份 |
+| persons/amadeo-swajer.md | located_at | places/venice.md | 出生／去世；1727-12-12出生；1791-12-28去世；印刷p.51末段及p.57首段；PDF第1、7页；出生与去世地点均为威尼斯 |
+| persons/johann-conrad-hofmann.md | located_at | places/padua.md | 去世；1756-03-15；印刷pp.52–53跨页句；PDF第2–3页；跨页句明确在帕多瓦去世 |
+
+
+### 剩余具体缺口
+
+- Viani：Cignani教师的全名端点、父亲的其他师承、具体作品及所在教堂／馆藏待核，不以一个传记链接代替作品版本审查。
+- Lodoli：父Bernardo、母Anna Maria Alberghetti、Muazzo教师、修会与出版监管机构、具名著作及其后世出版版本仍须相应端点；不得把他生前未刊的建筑论著与Algarotti／Memmo的著作混记为本人出版物。
+- Castelli：Arsié出生地、父母Francesco／Maria Elisabetta Forcellini、Giovanni d’Antonio师承、Giustiniani赞助，以及其他肖像作品须各自核端点和版本；这些线索未当成已正式采纳的关系。
+- Svajer：父母与兄弟、商业企业／领事主体、藏书流转和本人著述版本待接续；此次只补入直接需要的教师、配偶及学会。没有从同一收藏者推出所有著作的所有权；目录购买与捐赠性质需实际保管机构记录核对。
+- Verrio：出生地、早年教师与其他宫殿项目尚未全面补足；图版29与官网具体题名及图像范围的对应、实际委托人与时间仍待核。
+
+本轮保留原9项主候选及其他具体未决项；既有成果原位更迭，过程留03，当前结果留04。知识发现、页面与人工校验暂停；本轮不提交或推送。
+
+### 写入与验证
+
+31条关系及25张受影响知识元卡（含6张新卡）已写入。预检核对44条原书摘录、224条本地链接，既有来源与正式关系保持；29个计划文件的内容核对完成，唯一格式差异为apply_patch去掉03过程文档末尾的一个空行，实体内容完全一致。全库907个有效KU，章前537个；31条新增关系的端点、类型、证据、角色、时间与范围逐项匹配702条关系索引。14步同步检查通过，未改代码，不重复全套测试；未刷新页面。以上为本批直接语义核对与机械检查，不表示独立验收或章前任务整体完成。

@@ -72,7 +72,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）](../works/canova-amadeo-swajer.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 
