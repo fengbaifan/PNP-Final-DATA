@@ -72,10 +72,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 卒日 | 1632-11-18；S5 normal、日精度、格里高利历 | S4–S6 |
 | 去世地 | 博洛尼亚 | S4–S6 |
 | 历史政治背景 | 教皇国、博洛尼亚贵族家庭；不写现代共和国国籍 | S4、S6 |
-| 父亲 | Orazio Ludovisi（奥拉齐奥·卢多维西，暂译） | S4、S6；S5 父亲属性无引用，非独立证明 |
-| 母亲 | Lavinia Albergati（拉维尼娅·阿尔贝尔加蒂，暂译） | S4、S6 |
+| 父亲 | [Orazio Ludovisi（奥拉齐奥·卢多维西）](orazio-ludovisi.md) | S4、S6；Treccani明确列其为父亲 |
+| 母亲 | [Lavinia Albergati（拉维尼娅·阿尔贝尔加蒂）](lavinia-albergati.md) | S4、S6 |
 | 叔父 | Alessandro Ludovisi，即[格列高利十五世](gregory-xv.md) | S1、S4、S6 |
-| 弟弟 | Niccolò Ludovisi（尼科洛·卢多维西，暂译） | S6 |
+| 弟弟 | [Niccolò Ludovisi（尼科洛·卢多维西）](niccolo-ludovisi.md) | S6；与后世枢机Niccolò Albergati-Ludovisi区分 |
 | 配偶／子女 | 本轮未有可列的具体记录；不借弟弟婚姻归入本人 | 来源缺口 |
 
 ### 教育及职业履历
@@ -120,6 +120,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 任命者（`appointer_of`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
+| ← 叔父（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | 侄子；与教皇同名兄长区分；关系证据见Gregory XV卡 |
+| ← 父亲（`parent_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 枢机Ludovico为其子；原断言与Treccani证据见Orazio卡 |
+| ← 兄弟（`sibling_of`，反向投影） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 两人同为Orazio与Lavinia之子；Treccani支持，原断言见Niccolò卡 |
+| ← 母亲（`parent_of`，反向投影） | [Lavinia Albergati](lavinia-albergati.md) | Orazio之妻、Ludovico之母；Treccani明确记载；原断言见Lavinia卡 |
 
 ### 身份与外部链接
 

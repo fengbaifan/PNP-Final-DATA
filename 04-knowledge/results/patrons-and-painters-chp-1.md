@@ -1,6 +1,15 @@
 # 第一章样例：第一部分当前结果
 
-**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；近期批次处理Francesco Maggiotto、Ottavio Leoni、Pietro Testa、Paolo de Matteis及Ciro Ferri关系链，并为有据家庭、学院、赞助及作品版本关系建立必要端点。
+**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；当前全库998个有效KU、1,188条关系索引（1,187条显式、1条规则派生）。最近一次全量闭包16步及274项测试通过，结构健康度130/130；关系机械检查的断端点、非法关系类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示；全库有202个单一来源KU。近期补入Ludovisi亲缘链中缺失的Orazio、Niccolò、Lavinia三个端点，完成其中两人的Wikipedia—Wikidata双向身份核对，并登记9条有据关系；Orazio卒年异文保留，Lavinia无可确认的个人Wiki身份。以上机械检查不替代语义定稿。
+
+- 从巴尔多伊诺作品年表登记1661年《圣埃洛伊与圣若翰洗者、圣安德烈》，采用Thevenon研究和法国文化部Palissy PM06000568的同题名、签名、尺寸与地点信息。后续发现意大利语主教座堂条目把1646年“Bernardino Baldoïno”说法引至同一Palissy对象号，故当前按一个目录对象处理；1661／1646年代及父亲／儿子归属异文仍未裁定，不另建第二件或给Bernardin增加正式创作边。主教座堂的法语Wikipedia—Wikidata Q1084011双向身份核对已记录。
+- 据Thevenon补登记[贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../units/persons/bernardin-baldoino.md)，并建立与父亲的`parent_of`／`child_of`互指；另登记一件1670年《施洗者圣若翰斩首》和两件成对的1680年圣罗撒画作，以及尼斯黑衣忏悔者团体端点。该批新增5个KU和8条显式关系，包括三件作品的创作者、1670年服务对象及两件1680年作品的研究所载地点；未将服务用途写成合同委托，也未补造媒材、尺寸或在馆时间。详情见[Bernardin身份、作品及亲缘关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#bernardin-baldoino身份作品及亲缘关系补足2026-09-25)。
+
+- 补充Ottavio Leoni、Pietro Testa、Paolo de Matteis三张既有人物卡的英文Wikipedia与Wikidata双向身份入口，三组姓名、职业、年代等特征相符；并据已读来源补充称谓／别名字段。Pietro的1611／1612和Paolo的1727／1728差异保留为来源异文，不以对齐覆盖原有证据判断。Q51562312访问时重定向到Paolo de Matteis的Q1851224，不另作人物身份。三组双向比对现已补入`alignment-evidence.jsonl`；本批复核已有关系未见需修订处，未新增知识元或关系。详细比对见[三位画家身份核对](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#三位画家wikipediawikidata身份双向核对2026-09-25)。
+- 追核央行艺术收藏对Paolo de Matteis与Francesco di Maria的概括性师承说法，并与两篇Treccani人物传记对读。由于馆方语句未明确限定教师对象，Paolo的DBI仅明确其师从Luca Giordano，Francesco di Maria的DBI未述此关系，故保留为待证线索，不新增正式师承／影响关系或端点；详见[关系线索复核](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#paolo-de-matteis与francesco-di-maria关系线索复核2026-09-25)。
+- 为已登记的比安科尼1762年信件补入收件人人物端点，将“Marchese Filippo Hercolani”对齐至1736–1810年的菲利波·埃尔科拉尼；Wikipedia的`pageprops`与Wikidata Q47468606的`itwiki`站点链接双向一致。补入其父亲Marcantonio Hercolani（1709–1772）端点及有据`child_of`／`parent_of`关系。信件→收件人`addressed_to`和比安科尼→埃尔科拉尼`corresponded_with`保留，后者限于1762-11-22这一封信。详见[收件人身份与关系补足及身份纠正](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#filippo-hercolani身份纠正及父子关系闭合2026-09-25)。
+
+- 为格列高利十五世亲缘链中已采用但未建档的Orazio、Niccolò与Lavinia Albergati补建3个KU；Orazio、Niccolò分别完成Wikipedia—Wikidata双向对齐，Lavinia未找到可匹配的独立条目，以Treccani多篇传记支持其身份。新增9条显式关系，覆盖教皇—弟弟／侄子、夫妻、父母子女及兄弟；Orazio卒年来源冲突（DBI／Wikipedia：1624；Wikidata：1640）保留。详见[Ludovisi亲缘端点对齐与关系闭合](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-122-ludovisi亲缘端点的对齐补足与关系闭合2026-09-25)。
 
 - 随后为Ferri的Sant’Agnese穹顶关系链新增Pamphili家族和合同对象Giovanni Battista Pamphilj Aldobrandini（1648–1709）两个KU，并写入4条有据关系。纠正原卡将“G. B. Pamphili”含混指向已故教皇的风险；区分家族委托责任、个人合同及合同彩稿。家族完整谱系、合同原件、彩稿实物身份仍未确认。
 - 本批为Guercino祭坛画新增Messina城市和San Gregorio教堂两个place KU，并把教堂登记为Zeri所载末知地点；另以官方市级来源把教堂定位至Messina。全库现为967个有效KU、1128条关系索引。1665年委托修院法人及其与San Gregorio附属修院的关系仍未确认，故不建立委托边。
@@ -8,7 +17,11 @@
 - 章前图版64对应人物John Strange完成Wikipedia—Wikidata双向身份核对；Villa Loredan已作为独立地点登记，并补齐历史所有权、所在地和图版描绘关系。没有把具体Met或National Gallery馆藏画作误配成本书图版；现全库971个KU、1135条关系索引。
 - 四位画家的身份与外部专业来源相连；Vincenzo I Gonzaga与Giovanni Angelo d’Altemps均完成适用的Wikipedia—Wikidata双向核对。Francesco与Domenico Fedeli关联同一学院端点；Paolo de Matteis加入画家会众的端点使用DBI描述性称谓，未伪称正式机构专名。
 - 《赫拉克勒斯的选择》区分阿什莫林委托原作、利兹较小亲笔版本及DBI所列原作地点；不将原作地点写成委托地点。Testa受洗日期不作出生日期；Leoni对Caravaggio仅面熟，不建立朋友关系。
-- 本轮涉及的端点、时间／版本、关系方向与对应来源见[画家关系接续](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25)、[Guercino祭坛画末知地点核对](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣额我略堂末知地点与城市端点2026-09-25)及[马达莱娜·泰利作品与身份关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#马达莱娜泰利作品与身份关系补足2026-09-25)。其余对象对齐、作品和关系缺口仍待继续；证据不足的对象保留待证。知识发现、页面和人工校验仍暂停。
+- Francesco Fontana依据家族研究和1633、1634两封有日期的Testi书信完成章内人物的初步对齐；新建1634年信件KU并补入Testi—Fontana通信边。不匹配的同名Wiki页不代填QID；其生卒和完整生平仍待证。
+- 为圭尔奇诺西西里祭坛画新增“圣额我略堂加尔默罗圣母小堂”place端点及画作`installed_at`关系；小堂→教堂`located_at`。原有Zeri“末知地点”关系保留，安装日期不推定；Maria Teresa Ruffo的1688年资助记载未延伸为关系边。
+- 对Maria Teresa Ruffo进一步消歧时，发现Ruffo谱系页列有两条分别在San Gregorio修院的同名人物记录；Wikipedia／Wikidata精确查询未找到可用的唯一人物入口。小堂资助者身份因此仍待证，不合并候选、不建立赞助边；详见[消歧续核](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#maria-teresa-ruffo资助者消歧续核2026-09-25)。
+- 本轮全量闭包16步、274项测试通过；有效KU 986、关系索引1165（显式1164、规则派生1），结构健康度130/130；关系完整性机械审计的断端点、非法类型、缺反向映射和弱证据均为0。仍有1项既存档案标题格式提示及197项单一来源研究债务。
+- 本轮涉及的端点、时间／版本、关系方向与对应来源见[画家关系接续](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25)、[Guercino祭坛画末知地点核对](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣额我略堂末知地点与城市端点2026-09-25)、[Guercino祭坛画安置空间补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#圭尔奇诺祭坛画历史安置空间与关系闭合2026-09-25)、[马达莱娜·泰利作品与身份关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#马达莱娜泰利作品与身份关系补足2026-09-25)及[Francesco Fontana身份对齐与1634年通信补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#francesco-fontana身份对齐与1634年通信补足2026-09-25)。其余对象对齐、作品和关系缺口仍待继续；证据不足的对象保留待证。知识发现、页面和人工校验仍暂停。
 
 以下REV-067–068及更早段落保留历史状态；既往“定稿”不表示已完成独立全面语义验收。
 
@@ -38,7 +51,7 @@
 | 关系限定与展示 | frontmatter、卡内原向／反向关系表和关系索引均保留`time`、`role`、`scope`；反向入口指明原断言卡与原证据 |
 | 卡拉瓦乔作品清单 | 补回1601年《圣彼得受难》，当前为57项页面具名对象；明确作品全集、页面清单、委托对象和具体实物四种口径 |
 | 家族与婚姻端点 | 新建克勉八世、奥林皮娅·阿尔多布兰迪尼、保罗·博尔盖塞3个双语人物KU，并完成双站身份核对、字段补足及家族／配偶关系 |
-| 初步对齐 | Wikipedia—Wikidata身份配对由172增至175；原126个无同粒度配对对象保持原处置，不以缺QID判定失败 |
+| 初步对齐 | Wikipedia—Wikidata身份配对由172增至176；原126个无同粒度配对对象保持原处置，不以缺QID判定失败 |
 | 有效范围与审计 | accepted从298增至301；正式有向边从219经细分和新增端点关系增至226；内容与关系审计不再混入19个遗留卡、旧正文模板、暂停阶段或旧字段协议；301卡来源均可追溯，437条显式来源定位错误数为0 |
 | 暂停范围 | 知识发现、Topic—Theme—Dimension—Domain、页面数据和第六章均未启动或刷新 |
 

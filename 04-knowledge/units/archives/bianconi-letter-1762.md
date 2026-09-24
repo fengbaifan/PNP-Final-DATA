@@ -7,6 +7,7 @@ updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"authored_by","target":"persons/gl-bianconi.md","note":"刊本文字署作者 Gian Lodovico Bianconi；1762-11-22。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v7","source_file":"https://archive.org/details/diletteresulla07bott","source_span":"vol. VII, letter X, pp. 357–362"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"addressed_to","target":"persons/filippo-hercolani-1736.md","note":"刊本题头称Marchese Filippo Hercolani；身份依据名称、头衔、时间及外部人物记录核定。","evidence_ref":{"doc_id":"bottari-ticozzi-letter-collection-v7","source_file":"https://archive.org/details/diletteresulla07bott","source_span":"vol. VII, letter X, pp. 357–362; letter heading"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1762-11-22"}
   - {"relation_type":"has_subject","target":"terms/artistic-temperament.md","note":"信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念。","evidence_ref":{"doc_id":"bottari-raccolta-lettere-vii","source_file":"https://archive.org/details/raccoltadiletter07bott","source_span":"本卡 S2；vol. VII, letter X, pp. 357–362"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 21.'
@@ -53,4 +54,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 作者（`authored_by`） | [乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）](../persons/gl-bianconi.md) | 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22；证据：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
+| → 收信人（`addressed_to`） | [菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）](../persons/filippo-hercolani-1736.md) | 刊本题头称Marchese Filippo Hercolani；人物记录及年代排除已于1722年去世的同名者；时间：1762-11-22；证据：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
 | → 所涉对象（`has_subject`） | [艺术家气质（Artistic temperament）](../terms/artistic-temperament.md) | 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念；证据：[来源](https://archive.org/details/raccoltadiletter07bott)；bottari-raccolta-lettere-vii；本卡 S2；vol. VII, letter X, pp. 357–362 |

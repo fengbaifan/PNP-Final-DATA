@@ -17,6 +17,7 @@
 - [奥古斯塔图书馆（Biblioteca Augusta）](../../04-knowledge/units/institutions/biblioteca-augusta.md)
 - [卡萨纳滕塞图书馆（Biblioteca Casanatense）](../../04-knowledge/units/institutions/biblioteca-casanatense.md)
 - [法国国家图书馆（National Library of France）](../../04-knowledge/units/institutions/bibliotheque-nationale.md)
+- [尼斯黑衣忏悔者团体（Pénitents Noirs de Nice）](../../04-knowledge/units/institutions/black-penitents-of-nice.md)
 - [英国国家学术院（British Academy）](../../04-knowledge/units/institutions/british-academy.md)
 - [大英博物馆（British Museum）](../../04-knowledge/units/institutions/british-museum.md)
 - [威尼斯卡福斯卡里大学（Ca’ Foscari University of Venice）](../../04-knowledge/units/institutions/ca-foscari-university-venice.md)

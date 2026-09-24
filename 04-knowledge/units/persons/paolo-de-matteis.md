@@ -30,6 +30,16 @@ sources:
     doc_id: ashmolean-museum-the-choice-of-hercules
     source_file: https://ashmoleanprints.com/products/pod439947
     source_span: description and additional information
+- citation: “Paolo de Matteis.” English Wikipedia. https://en.wikipedia.org/wiki/Paolo_de_Matteis. Accessed 2026-09-25.
+  location: name and opening paragraph, lines 125–134
+  sentence_summary: 页面使用Paolo de' Matteis作为名称形式，并列身份和生卒日期。
+  original_quotes:
+  - source_span: lines 134–134
+    text: "Paolo de Matteis (also known as Paolo de' Matteis; 9 February 1662 – 26 January 1728) was an Italian painter."
+  evidence_ref:
+    doc_id: paolo-de-matteis-enwiki
+    source_file: https://en.wikipedia.org/wiki/Paolo_de_Matteis
+    source_span: lines 125–134
 created: '2026-09-14'
 updated: '2026-09-25'
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25
@@ -165,6 +175,13 @@ relations:
 
 **English:** Paolo de Matteis, a Neapolitan painter. Plate 32b shows the Leeds version of The Choice of Hercules, which the DBI distinguishes from Shaftesbury’s commissioned original.
 
+### 姓名与称谓
+
+| 类别 | 名称 | 证据 |
+|---|---|---|
+| 全名／常用名 | Paolo de Matteis | S2 |
+| 拼写变体 | Paolo de' Matteis | S4 |
+
 ### 基本信息
 
 | 字段 | 值 | 证据 |
@@ -213,6 +230,8 @@ relations:
 |---|---|---|
 | 专业传记 | [Treccani《意大利人传记辞典》](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/) | S2，人物身份与生平 |
 | 馆方作品页 | [Ashmolean Prints，WA1980.92](https://ashmoleanprints.com/products/pod439947) | S3，作品说明与版本关联 |
+| Wikipedia（en） | [Paolo de Matteis](https://en.wikipedia.org/wiki/Paolo_de_Matteis) | 页面记1662年生、画家，关联Piano Vetrale及那不勒斯；人物身份特征与本卡相符，页面的Wikidata入口指向Q1851224 |
+| Wikidata | [Q1851224](https://www.wikidata.org/wiki/Q1851224) | 英文名称、Italian painter（1662–1728）描述、Treccani标识paolo-de-matteis及enwiki sitelink相符。身份双向核对通过；死亡年份属性有1727／1728异文，不以该条目消除本卡保留的来源差异 |
 
 ### 关系记录
 

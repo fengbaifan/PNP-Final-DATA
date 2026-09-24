@@ -42,6 +42,16 @@ sources:
     doc_id: risd-portrait-maddalena-telli-52-195
     source_file: https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195
     source_span: Maker、Title、Year、Object Number
+- citation: “Ottavio Leoni.” English Wikipedia. https://en.wikipedia.org/wiki/Ottavio_Leoni. Accessed 2026-09-25.
+  location: opening paragraph, lines 123–125
+  sentence_summary: 页面列出名字异拼及Cavaliere、Padovano等称谓。
+  original_quotes:
+  - source_span: lines 123–124
+    text: "Ottavio Leoni (sometimes spelled 'Lioni'), draughtsman and engraver was in his day the most fashionable portraitist in Rome. He is sometimes also referred to as the Cavaliere Ottavio, il Padovano, il Padovanino or Cavaliere Padovano."
+  evidence_ref:
+    doc_id: ottavio-leoni-enwiki
+    source_file: https://en.wikipedia.org/wiki/Ottavio_Leoni
+    source_span: lines 123–125
 created: '2026-09-14'
 updated: '2026-09-25'
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25
@@ -155,6 +165,14 @@ relations:
 
 **English:** Ottavio Leoni, a Roman painter, portrait draughtsman and printmaker, credited in the book with portraits of Cardinal Barberini and the Duke of Bracciano.
 
+### 姓名与称谓
+
+| 类别 | 名称 | 证据 |
+|---|---|---|
+| 全名／常用名 | Ottavio Leoni | S3；S5 |
+| 异拼 | Ottavio Lioni | S5 |
+| 称谓／别称 | Cavaliere Ottavio；il Padovano；il Padovanino；Cavaliere Padovano | S5；按Wikipedia的称呼记录，不据此推定正式贵族爵位 |
+
 ### 基本信息
 
 | 字段 | 值 | 证据 |
@@ -202,6 +220,8 @@ relations:
 | 字段 | 值／链接 | 状态与范围 |
 |---|---|---|
 | 专业传记 | [Treccani《意大利人传记辞典》](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/) | S3，人物身份与生平 |
+| Wikipedia（en） | [Ottavio Leoni](https://en.wikipedia.org/wiki/Ottavio_Leoni) | 页面人物、父亲Lodovico Leoni、罗马活动及1578–1630年代特征与本卡相符；页面的Wikidata入口指向Q389768 |
+| Wikidata | [Q389768](https://www.wikidata.org/wiki/Q389768) | 英文名称及Roman painter（1578–1630）描述相符；enwiki sitelink回指上述页面。身份双向核对通过；不据此改写本卡对生年及卒日的证据限定 |
 
 ### 关系记录
 

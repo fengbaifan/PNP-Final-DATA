@@ -3,7 +3,7 @@ title: "富尔维奥·泰斯蒂（Fulvio Testi）"
 name_en: "Fulvio Testi"
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: '2026-09-25'
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 17."
@@ -38,7 +38,27 @@ sources:
   - citation: "Wikidata, Q594614, revision 2520426248. https://www.wikidata.org/wiki/Q594614. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 enwiki sitelink；判断范围见正文"
     sentence_summary: "复用并复核既有诗人／埃斯特宫廷官员身份；1593–1646。受洗日与生日仍区分。"
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-fulvio-testi
+  - citation: "Banca Dati 'Giulio Rospigliosi', letter by Fulvio Testi to Count Francesco Fontana, 1634-01-18, transcribed from Testi, Lettere, ed. Maria Luisa Doglio, vol. II (1967), pp. 28–29. https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm. Accessed 2026-09-25."
+    location: "书信题头、署名及署期"
+    sentence_summary: "独立于第一章所引1633年书信，支持Testi与Count Francesco Fontana于1634年继续通信；该单封信仅证明本次通信，不由此推断友谊或赞助。"
+    evidence_ref:
+      doc_id: testi-fontana-letter-1634-01-18
+      source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+      source_span: lines 2–15; edition pp. 28–29
+relations:
+- relation_type: corresponded_with
+  target: persons/francesco-fontana.md
+  evidence_ref:
+    doc_id: testi-fontana-letter-1634-01-18
+    source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+    source_span: lines 2–15; edition pp. 28–29
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 写信人↔收信人
+  time: '1634-01-18'
+  scope: 仅记录有日期的一次通信；另有1633-01-29书信见对应书信KU；不据通信推断友谊或赞助
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#francesco-fontana身份对齐与1634年通信补足2026-09-25
 ---
 
 ## 内容
@@ -75,6 +95,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 1612 起／1632–1634 | 进入宫廷文书工作；后为驻罗马使节，具体任期据传记为 1632 年 11 月至 1634 年 9 月，间有离任旅行 | Treccani 宫廷与外交段 |
 | 1640–1642 | Garfagnana 总督，传记具体记 1640 年 11 月至 1642 年 2 月 | WP Life、Treccani 后半段 |
 | 1633-01-29 | 从罗马致丰塔纳伯爵信，记艺术交往和报酬 | [信件知识元](../archives/testi-fontana-bernini-letter.md)；Fraschetti p. 108 注 1 |
+| 1634-01-18 | 从罗马致Count Francesco Fontana信，询请代订长枪用groppelle | [信件知识元](../archives/testi-fontana-letter-1634-01-18.md)；Testi, *Lettere*, vol. II, pp. 28–29 |
 
 ### 著述、评价与研究线索
 
@@ -94,6 +115,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确书信作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| → 通信往来（`corresponded_with`） | [弗朗切斯科·丰塔纳伯爵（Count Francesco Fontana）](francesco-fontana.md) | 时间：1634-01-18；该信证明此日期的一次通信；另有1633-01-29书信见对应书信KU；不据此推断友谊或赞助；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年版第二卷pp. 28–29，lines 2–15 |
 
 ### 身份与外部链接
 

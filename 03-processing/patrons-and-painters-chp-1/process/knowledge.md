@@ -18929,3 +18929,105 @@ Francesco Maggiotto的168幅总督等人肖像组与原书图版68a三幅肖像�
 | 城市身份 | RISD Museum官方访客交通信息；英文Wikipedia “Providence, Rhode Island”身份信息与Wikidata Q18383英文实体比较，并从条目点击Wikidata入口 | 来源指向美国罗得岛州Providence；Q18383描述为相同城市且enwiki sitelink为该条目，Wikipedia入口与QID双向匹配。新建地点端点供馆址关系使用。 |
 
 新增三张KU：1617年素描、RISD Museum机构、Providence地点。新增正式关系四条：作品→Ottavio `created_by`、作品→Maddalena `has_subject`、作品→RISD Museum `held_by`、RISD Museum→Providence `located_at`。Maddalena的人物卡增补馆藏规范姓名、婚姻／嫁资／丧偶履历和作品入口；更正Maddalena与Eufrasia两张卡把女儿误写为儿子的中英文描述。Ottavio人物作品关联增加这件馆藏素描，并标明非本书图版。无作品QID或Maddalena独立QID未作推断。
+
+## Francesco Fontana身份对齐与1634年通信补足（2026-09-25）
+
+针对Francesco Fontana人物卡中“初步身份对应、Wiki双向核对未完成”的状态，追核其与第一章泰斯蒂书信对象的同一性。Tavernari家族研究第66–67页将托马索之子Francesco记为Fulvio Testi的经常通信者、埃斯特军官及摩德纳任职者；第一章和Fraschetti刊出的1633-01-29书信均称收信人为Count Francesco Fontana。另核Maria Luisa Doglio编《Fulvio Testi书信集》第二卷（1967）pp.28–29第549号信的在线完整转录：1634-01-18从罗马发出的信以“Al CONTE FRANCESCO FONTANA”为题头，并在信末署日期；页面说明转录据该卷刊本。两次通信、爵号、姓名及家族研究提供的通信关系共同支持将章内收信端点对应到该家族人物。
+
+未找到适用于此人的准确Wikipedia人物页或Wikidata实体；既有英文同名页面和意大利语消歧页不匹配，不填QID，也不再将“缺Wiki配对”写成尚未完成的身份缺陷。生卒日期、教育和完整生平仍未查明，身份结果限于本章通信对象与家族研究所指人物的初步对齐，不代表全传补足。
+
+登记独立archive KU [1634-01-18泰斯蒂致丰塔纳伯爵书信](../../../04-knowledge/units/archives/testi-fontana-letter-1634-01-18.md)，分别建立文献→Testi `authored_by`、文献→Fontana `addressed_to`；在Testi卡补一条限于1634-01-18的 `corresponded_with` 正式关系，证据只支持一次书信往来，不推出友谊或赞助。题头的[Modena]仅作地址标注，不断定Fontana常住地。原书引用的1633年信保持独立，不与新信合并成同一文献或相互替代。
+
+本批新建1个archive KU，更新Testi和Fontana两张人物卡，新增两条文献端点关系及一条有日期的人物通信关系。全量闭包16步通过；全库985个有效KU、1163条关系索引（1162条显式、1条规则派生），断端点、非法类型、缺反向映射和弱证据均为0；结构健康度130/130，274项测试通过。内容质量仍有1项既存档案标题格式提示，不涉及本批。未触及章前9项主候选暂缓，也未开展知识发现、页面或人工校验。
+
+## 圭尔奇诺祭坛画历史安置空间与关系闭合2026-09-25
+
+在既有作品→圣额我略堂 `located_at`（Fondazione Zeri所载末知地点）之外，补查教堂具体内部位置，避免把作品—建筑的粗粒度位置记录当作完整的安置关系。完整阅读意大利语教堂条目（页面版本150392543，L65–197，访问2026-09-25）。其“Interno”段将加尔默罗圣母小堂定位于右侧横翼北墙，记载大理石祭坛及龛位中的圭尔奇诺1665年圣母画；该位置说明来自条目汇引的Messina地方史材料，未在本轮另行读完这些被引原著。
+
+新增历史内部空间[圣额我略堂加尔默罗圣母小堂](../../../04-knowledge/units/places/chiesa-san-gregorio-cappella-madonna-carmine.md)，登记为place；建立小堂→教堂 `located_at`，祭坛画→小堂 `installed_at`。保留原有祭坛画→教堂 `located_at`，因为Zeri记录的是末知建筑地点，新增边表达更具体的历史内部安置空间，二者粒度和证据来源不同。未将1665创作／委托年份套作安装时间；未推定连续安置期。页面同时称小堂空间由Maria Teresa Ruffo于1688年资助，但本轮没有核定人物同一性、赞助范围或原档，故只记在来源摘要，不建立她与小堂或画作的正式关系。此信息不改变第一章关于匿名西西里修院委托方的未决状态。
+
+定向核对三张卡的端点、关系方向、来源定位及反向展示。全量闭包通过16步，274项测试通过；有效知识元986个，关系索引1165条（1164条显式、1条规则派生）；断端点、非法关系类型、缺反向映射和弱证据均为0，结构健康度130/130。仍有1项既存档案标题格式提示及198个单一来源研究债务；这两项不由本批修改消除。章前9项主候选保持暂缓；没有启动知识发现、页面或人工校验。
+
+### Maria Teresa Ruffo资助者消歧续核（2026-09-25）
+
+针对教堂条目称加尔默罗圣母小堂环境由Maria Teresa Ruffo于1688年资助，进一步查询人物身份和同名冲突。已完整读取意大利语教堂条目，注释将该陈述与小堂段并列，但未给出名字以外的生平特征或传记引注。SBTI家谱网页的Ruffo di Bagnara与Castelcicala谱系在G6及H1分别列出Donna Maria Teresa Ruffo，二者均记为Messina San Gregorio修院修女；网页呈现为不同亲属层级的两条人物记录，但不提供对应小堂、1688年出资或唯一身份的档案依据。本次还对意大利语、英语Wikipedia做精确名称API检索：意大利语返回一位不同的Maria Teresa Raffaella di Borbone-Spagna，英语无命中；Wikidata两种检索语种均无结果。
+
+因此该称谓尚无唯一可对齐人物，既不能把同名候选并成一人，也不将“资助空间”转成确定的正式边。仅在小堂卡以S1记录原始网页陈述、以S2记录同名冲突；不新增person KU，不把这条外部语境误计为第一章九项主候选之一，不更动1665年祭坛画与小堂的安装关系。解除未决至少需要可区分该资助者的同代记载或明确引用的传记／档案来源。
+
+消歧更新后全量闭包16步通过，274项测试通过；有效KU 986、关系索引1165（1164条显式、1条规则派生），结构健康度130/130。断端点、非法关系类型、缺反向映射及弱证据均为0；内容质量仍提示1项既存档案标题格式。来源条目增加后，单一来源研究债务由198降至197。本次不增加节点或关系。
+
+## 三位画家Wikipedia—Wikidata身份双向核对（2026-09-25）
+
+按人物英文名检查既有Ottavio Leoni、Pietro Testa、Paolo de Matteis卡片；逐页查看英文Wikipedia身份信息和正文，并打开页面的Wikidata入口，再核对Wikidata英文描述与enwiki sitelink。
+
+| 人物 | 比对特征与回链 | 结论及边界 |
+|---|---|---|
+| Ottavio Leoni | [英文Wikipedia](https://en.wikipedia.org/wiki/Ottavio_Leoni)列其1578–1630、罗马画家／版画家、父亲Lodovico；页面入口指向[Q389768](https://www.wikidata.org/wiki/Q389768)，其enwiki sitelink回指同页 | 同名、职业、年代、城市与已知亲属一致，双向身份配对通过。Wikipedia称1578为出生年，但本卡继续保留Treccani关于生年为推定的限定。 |
+| Pietro Testa | [英文Wikipedia](https://en.wikipedia.org/wiki/Pietro_Testa)列Lucca、1612、1650年罗马去世及画家／版画家；入口指向[Q2155480](https://www.wikidata.org/wiki/Q2155480)，其enwiki sitelink回指同页 | 身份配对通过。Wikidata描述写1611–1650，与Wikipedia的1612和本卡记载的1612-06-18受洗日期精度不同；不把洗礼日期改作生日，也不据此覆盖本卡。 |
+| Paolo de Matteis | [英文Wikipedia](https://en.wikipedia.org/wiki/Paolo_de_Matteis)列1662–1728、画家及Piano Vetrale；页面入口指向[Q1851224](https://www.wikidata.org/wiki/Q1851224)，其enwiki sitelink回指同页 | 身份配对通过。Wikidata另有同名网址Q51562312，但访问时重定向至Q1851224；不将其当作第二人物或另一个标识。Wikidata死亡日期声明含1727与1728两值，保留既有Treccani异文处理，不借对齐裁定年代。 |
+
+本批在三张既有卡中补入双向身份入口，并按已读条目补充有限的名称字段：Leoni记录异拼与页面所列称谓，Testa沿用DBI题名中的“il Lucchesino”，de Matteis记录“Paolo de' Matteis”拼写。新引Wikipedia原句进入相应来源元数据；不从百科／Wikidata自动导入其他属性，不新增知识元或关系。三人的既有履历与作品关系继续依据Treccani、原书或馆方记录。后续批次继续从剩余未完成外部身份入口、卡内未闭合的具名作品和关系端点中推进；9项章前暂缓对象状态不变。
+
+复查结构化`alignment-evidence.jsonl`后发现，本批三组双向核对此前只写入KU和本过程段，尚未登记机器可检索的对齐事件。现以REV-118追加三条`semantic_alignment_update`，记录Wiki页面与Wikidata修订号、页面回链、enwiki sitelink及身份范围；没有重写原REV-034/REV-065历史条目，也不把整卡改标为externally_verified。关系核查复用三人既有Treccani／原书／馆方证据：本批未发现卡内关系端点、方向或证据引用需修订，故无关系边变更；这不替代全库关系语义终审。
+
+### Paolo de Matteis与Francesco di Maria关系线索复核（2026-09-25）
+
+对照Paolo de Matteis人物卡现有师承记录，复查意大利央行艺术收藏的Paolo简介全文及Treccani《意大利人传记辞典》中Paolo和Francesco di Maria两篇传记。央行简介称de Matteis年轻时“si accostò ai pittori Francesco di Maria e Luca Giordano”，并紧接着说他成为其中“uno dei migliori allievi”；该句没有明确指出究竟是两位画家均为其教师，还是仅指后者。Paolo的DBI则明确写其先为Luca Giordano学生，后赴罗马；Francesco di Maria的DBI未提及Paolo。
+
+据此保留Francesco di Maria为外部关系候选线索，但不新增`trained_by`或`influenced_by`正式边，也不因此新建端点KU。当前可采纳的明确师承仍为Paolo→Luca Giordano。若后续出现措辞明确的专业传记、档案或研究来源，再回到端点识别与关系裁决；本项不计入章前九项暂缓主候选。
+
+### Filippo Hercolani身份纠正及父子关系闭合（2026-09-25）
+
+复核Bianconi书信收件人补足后发现，其中“意大利语Wikipedia与Wikidata无双向链接”的结论有误。直接查验当前意大利语Wikipedia页面：`Filippo Hercolani, IV principe Hercolani`，revision 146651111，其`pageprops.wikibase_item`为Q47468606；再查Wikidata Q47468606，revision 2520281632，itwiki sitelink回指同一页面，意大利语标签与页面题名一致，英文标签为“Filippo Hercolani, 4th Prince Hercolani”，英文描述为“Bolognese writer (1736-1810)”。页面、名称、年代和身份特征一致，纠正此前误读，现登记为Wikipedia—Wikidata双向身份配对；该配对仅支持身份，不自动采纳其他外部属性。
+
+博洛尼亚大学研究库的Barbara Ghelfi专著摘要写道：“La quadreria formata da Marcantonio Hercolani (1709-1772) e accresciuta dal figlio Filippo (1736-1810).”该书说明其研究基于埃尔科拉尼家族档案和Archiginnasio图书馆旧藏资料。原句直接支持Marcantonio与Filippo的父子关系以及两人生卒年。依据项目对已采纳亲缘端点的要求，新增[Marcantonio Hercolani人物KU](../../../04-knowledge/units/persons/marcantonio-hercolani-1709.md)，将父亲字段链接至该KU，并登记Marcantonio→Filippo `parent_of`及Filippo→Marcantonio `child_of`；关系时间自Filippo出生的1736年起，不把父亲卒年误写成亲缘关系终止。仅补这一必要家属端点，不扩展其他谱系成员。
+
+本次重新核实的来源为[Treccani人物条目](https://www.treccani.it/enciclopedia/hercolani-filippo-principe/)、[博洛尼亚大学研究记录](https://cris.unibo.it/handle/11585/858533)、[意大利语Wikipedia页面](https://it.wikipedia.org/wiki/Filippo_Hercolani,_IV_principe_Hercolani)及[Wikidata Q47468606](https://www.wikidata.org/wiki/Q47468606)。机器可检索的身份事件已追加至`alignment-evidence.jsonl`（REV-120）；旧判断保留作过程历史，04结果已更新为当前结论。更新后全库988个有效KU、1169条关系索引（1168条显式、1条规则派生）；全量闭包16步及274项测试通过，结构健康度130/130。断端点、非法关系类型、缺反向映射和弱证据均为0；内容检查仍有1项既存档案标题格式提示，全库有198个单一来源KU。9项章前暂缓对象仍为待证。
+
+### Bianconi书信收件人身份与通信关系补足（2026-09-25）
+
+复核`archives/bianconi-letter-1762`时发现，现卡已记录1762-11-22刊本信收件人为“Marchese Filippo Hercolani”，但尚无可点击的人物KU或`addressed_to`正式边。根据同封信的卷VII第X号标题、正文及末署，保留Bianconi为发信人、Dresden为署地、日期为1762-11-22。Treccani在线人物条目确认Filippo Hercolani生于博洛尼亚1736年、卒于1810年，并为藏书家、参议员；博洛尼亚大学研究书目摘要将同年谱的Filippo列作Bianconi 1763年《巴伐利亚及德国诸地书简》的题献对象。意大利语Wikipedia全文列出同一人的1736–1810年、生父Marcantonio及1772年承袭亲王称号。Treccani DBI另载一位1663–1722年的同名Filippo，年代不可能对应1762收件人，故将此端点识别为1736–1810年的Filippo。旧人名录中的Q47468606候选没有itwiki sitelink，Wikipedia页`pageprops`也未返回该QID；为遵守双向核对要求，不写入QID，仅保留特雷卡尼与书目信息链接。**身份链接部分的原结论有误，已由后续复核更正：当前页面与Q47468606双向对应；本过程段作为历史判断保留。**
+
+新增[菲利波·埃尔科拉尼（1736–1810）人物KU](../../../04-knowledge/units/persons/filippo-hercolani-1736.md)，并在信件卡增加`addressed_to`（时间1762-11-22）；比安科尼卡增加范围限定为该封信的`corresponded_with`。人物卡提供两项反向关系入口。该通信关系不推出友谊、赞助或长期通信。处理限定于收件人端点与此信，不扩展Hercolani完整家谱或其作品目录。父子端点和正式亲缘边是在后续补足中加入，见本文件较前位置的[身份纠正与关系闭合记录](#filippo-hercolani身份纠正及父子关系闭合2026-09-25)。
+
+全量闭包16步通过、274项测试通过；全库987个有效KU、1167条关系索引（1166条显式、1条规则派生），结构健康度130/130。关系检查断端点、非法类型、缺反向映射、弱证据均为0；现有1项档案标题格式提示与197项单一来源研究债务未受本次修改影响。9项章前暂缓对象保持待证；知识发现、页面和人工校验仍暂停。
+
+## 巴尔多伊诺圣埃洛伊祭坛画对象登记与关系闭合（2026-09-25）
+
+从乔瓦尼·加斯帕雷·巴尔多伊诺卡的作品年表回查具名作品。Thevenon 2016印刷页31–32及注31将尼斯圣雷帕拉塔主教座堂中的《圣埃洛伊与圣若翰洗者、圣安德烈》列入Baldoino作品，记录布面油画280×200厘米、签名纪年1661，并称作品原来自海滨圣埃洛伊医院礼拜堂。法国文化部POP Palissy PM06000568以正式遗产对象记录同题画作，列F. Baudoin、1661年、相同媒材和尺寸，并定位于主教座堂Sainte-Rose-de-Lima小堂。题名、尺寸、年份、署名和地点相合，因此新建单件作品KU，回链巴尔多伊诺人物卡，并建立作品→人物`created_by`（1661）及作品→主教座堂`located_at`两条正式关系。所在地关系限于目录地点，不推定安装日期；原属医院礼拜堂的事实单列，不回填未知的转移日期。
+
+尼斯圣雷帕拉塔主教座堂法语Wikipedia页面`pageprops.wikibase_item=Q1084011`；Wikidata Q1084011的frwiki sitelink回指同一页面，法语名称、主教座堂描述与地点吻合，故新建place端点并记入机器可检索的身份配对事件。这里只用此配对核对地点身份，不从百科扩展其他属性。
+
+教堂官网的Sainte-Rose小堂段另记一件Saint Éloi画作署名“B. Baldoino”、年代1646。它与Thevenon及POP所载画作在地点和题材上相近，但官网未给馆藏号或尺寸，且署名首字母、年代不同。本次不将1646改成1661，不据此另造第二件作品，也不把官网内容纳入1661年作品的确定事实；两者是否同一实物及异文成因仍待核。工作卡来源记录两组说法，作为下一轮针对性消歧入口。
+
+本批新增2个KU（作品1、地点1），并为作品登记2条显式关系；同步更新Baldoino人物卡作品入口、过程记录和alignment-evidence。第一章原书没有直接提及这件画，故它属于外部补足发现的具名作品，不能反向说成原书已证。完成写回后运行全量同步闭包，机械检查用于验证路径、类型和端点；作品对象是否同一的1646/1661争议仍保持未决，不作为语义定稿。
+
+### 作品年代／归属异文复核及父子作品链补足（2026-09-25）
+
+复核教堂官网与意大利语主教座堂条目的Saint Eloi／Sant'Eligio段。二者把画作记作B.／Bernardino Baldoino、1646年；意大利语条目参考文献33直接指向法国文化部Palissy PM06000568。该编号与本轮使用的文化部对象号相同，且画题、地点和编目记录对应，不支持再造一个独立1646年对象。该目录本身记F. Baudoin、1661年、280×200厘米及Sainte-Rose-de-Lima小堂；Thevenon 2016 p.32注31亦记1661年，并在父亲Giovanni-Gaspare的作品段落说明该画来自Saint Eloi医院礼拜堂。因此当前按单一目录对象保留：创作者正式关系采用Thevenon与文化部目录支持的父亲Giovanni-Gaspare、1661年；教堂官网／意大利语条目的Bernardino、1646年作为异文保存。未发现可证两件不同实物的独立编号或对象描述，故不拆卡；Bernardin对该画的作者关系仍为未决，不写正式边。此前“官网未提供编号，是否同一实物不裁定”是旧阶段判断，现已被上述目录引用链修订；旧记录保留作过程历史。
+
+Thevenon p.32明确将Bernardin Baldoino/Baudoin（尼斯1625–1711）称为Giovanni-Gaspare之子，并分别列出其罗马活动、作品和地点。新建[Bernardin人物KU](../../../04-knowledge/units/persons/bernardin-baldoino.md)，在父子两卡写入互指的`parent_of`／`child_of`，关系起点限于1625年。Bernardino／Baldoïno异形及其对Saint Eloi异文的关联仅作身份线索；没有确认到可双向对应的人物Wikipedia／Wikidata条目，不填QID。
+
+据同一段落为三件具名作品各建KU：1670年《施洗者圣若翰斩首》，在罗马制作、供尼斯黑衣忏悔者团体使用；以及1680年《利马圣罗撒神魂超拔》与《圣罗撒与圣母的神秘交谈》配对画。分别建立作品→Bernardin `created_by`三条关系；1670年作品→黑衣忏悔者团体 `intended_for`一条关系（不把服务对象推成有合同的正式委托者）；两幅1680年作品→尼斯主教座堂 `located_at`各一条，时间仅表示2016年研究记载时的地点，不推定实际安装日期或持续陈列。新增[尼斯黑衣忏悔者团体KU](../../../04-knowledge/units/institutions/black-penitents-of-nice.md)，因原文有具名服务对象；现有依据未提供正式法定名称、沿革、QID或Wikipedia配对。
+
+本次净新增5个KU（人物1、机构1、作品3）和8条显式关系；更新Saint Eloi工作卡的异文裁决及父亲的作品／亲缘入口。所有作品媒材、尺寸及当前馆藏未见于本次所读来源，均不补造。该人物的正式传记来源仍为单一专业研究，三个作品和机构关系均有该文的具体段落或注释定位。该批更新后全库机械计数与语义边界以04结果页为准；9项章前暂缓对象保持待证。
+
+## REV-122：Ludovisi亲缘端点的对齐、补足与关系闭合（2026-09-25）
+
+### 知识元登记与身份对齐
+
+回读Gregory XV与Cardinal Ludovico Ludovisi两卡中的亲缘字段，发现已采纳的Orazio Ludovisi、其子Niccolò Ludovisi虽作为具名关系对象出现，却没有独立KU；Gregory—Cardinal Ludovico的侄叔关系也尚未进入正式关系。继续核对Orazio、Ludovico与Niccolò三篇Treccani人物传记后，又发现Lavinia Albergati是Orazio之妻及两个儿子的母亲，故一并新建[Lavinia Albergati](../../../04-knowledge/units/persons/lavinia-albergati.md)、[Orazio Ludovisi](../../../04-knowledge/units/persons/orazio-ludovisi.md)与[Niccolò Ludovisi](../../../04-knowledge/units/persons/niccolo-ludovisi.md)三张person卡，只承载关系所需的基本身份，不扩张到未核亲属或完整族谱。
+
+先查英文Wikipedia，再核对应Wikidata实体及回链：Orazio页面revision 1301893644的`pageprops.wikibase_item`为Q7099965；Q7099965 revision 2545462336的`enwiki` sitelink为同一页面。Niccolò页面revision 1301893625的pageprops为Q2296068；Q2296068 revision 2526953509的`enwiki` sitelink回指同页。两篇英文页面均完整读取；身份名称、时代及家族语境与Treccani署名人物辞典相合，双向配对只确认人物同一性。对Lavinia先查英文、再查意大利语Wikipedia及Wikidata精确搜索，未找到个人页面或准确独立实体；三篇Treccani人物传记对其姓名、婚姻及母子关系相互吻合，因此依其他专业来源建立无QID记录，明确不声称身份网页配对。双向配对结论已写入`alignment-evidence.jsonl` REV-122；未命中处置记于本过程。
+
+### 内容补足与异文
+
+读取Treccani DBI四篇相关传记：Alexander Koller撰Gregorio XV（2002），Giampiero Brunelli撰Orazio、Ludovico及Niccolò Ludovisi（均2006）。Orazio条目明确记其为Alessandro（Gregory XV）之兄、Lavinia之夫及Ludovico与Niccolò之父；Ludovico、Niccolò条目均记Lavinia为母亲，Niccolò条目直称Cardinal Ludovico为其兄。只补入支撑当前关系链所需的规范名、年代／地点、身份标签和必要任职，不抄录整个家族生平。
+
+Orazio卒年存在真实来源冲突：DBI详传记其1624年11月初在罗马去世，英文Wikipedia修订页记1561–1624，Wikidata Q7099965则将死亡年标为1640。卡内采用DBI的1624年，另列Wikipedia与Wikidata状态，未把WD结构化值当定论。Niccolò据DBI记1610年生于博洛尼亚、1664-12-25卒于卡利亚里；其Q2296068与页面配对相合。身份配对没有被用作整卡事实证明。
+
+### 正式关系与结果
+
+在现有词表内建立9条有直接证据的显式关系：Gregory XV `kin_of` Orazio、Cardinal Ludovico及Niccolò；Orazio `spouse_of` Lavinia，并`parent_of` Ludovico与Niccolò；Lavinia分别`parent_of`两子；Niccolò `sibling_of` Cardinal Ludovico。叔侄边由Haskell第一章p.4及DBI人物传记支持；婚姻、父子、母子、兄弟边由相应DBI条目的明确亲属叙述支持。编辑了五张相关人物卡的互链展示，但反向展示不重复生成事实；未把“one of his friends”猜作Ludovico，亦未将家族背景扩为完整谱系。
+
+保留为后续边界：Ludovico与教皇同名兄长Ludovico仍无独立KU，正文继续以普通文本区分；除已具端点者外，其他亲属不因此批量建档。结构闭包及关系列表重建后，再按输出报告实际计数；这组修改不是关系阶段整体定稿，也不改变9项暂缓对象状态。

@@ -53,7 +53,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣�
 | 所在城市 | [墨西拿（Messina）](messina.md) | S1、S2 |
 | 建筑沿革 | 现址新堂建于1588年；教堂与修院同属San Gregorio建筑组 | S1、S4 |
 | 1908年状态 | 地震后严重受损，后颁布拆除令 | S1；市级来源概称部分毁坏 |
-| 内部空间／作品 | Madonna del Carmine祭坛龛位有Guercino 1665年画作 | S1；不由此确定委托法人 |
+| 内部空间／作品 | [加尔默罗圣母小堂](chiesa-san-gregorio-cappella-madonna-carmine.md)位于右侧横翼北墙；龛位曾有Guercino 1665年画作 | S1；不由此确定委托法人 |
 | 相关作品地点记录 | Zeri另将该画列为San Gregorio堂末知地点 | S3 |
 
 ## 关系与证据
@@ -63,6 +63,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 位于（`located_at`） | [墨西拿（Messina）](messina.md) | 市级文化导览所载历史建筑地点；不指代修院法人；证据：[来源](https://visitme.comune.messina.it/en/node/433)；metropolitan-city-messina-museum-history；历史段；San Gregorio教堂与相连修院 |
+| ← 内含（`location_of`，反向投影） | [圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）](chiesa-san-gregorio-cappella-madonna-carmine.md) | 历史内部空间，右侧横翼北墙；原断言与证据见发出端卡片：[来源](https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina))；chiesa-san-gregorio-messina-wikipedia-it；页面版本150392543；L169–170 |
 
 ### 作品地点入口
 

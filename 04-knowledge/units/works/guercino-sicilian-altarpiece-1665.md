@@ -31,6 +31,18 @@ relations:
   bidirectional_required: false
   role: 目录所载末知地点
   scope: 时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段
+- relation_type: installed_at
+  target: places/chiesa-san-gregorio-cappella-madonna-carmine.md
+  note: 意大利语教堂条目将画作记在加尔默罗圣母小堂祭坛龛位；该记载支持具体历史陈列空间，但不提供安装日期或连续陈列时段。
+  evidence_ref:
+    doc_id: chiesa-san-gregorio-messina-wikipedia-it
+    source_file: https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina)
+    source_span: Interno；L169–170；页面版本150392543
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 历史安置位置
+  scope: 加尔默罗圣母祭坛的龛位；安置日期未载
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L295–307
@@ -60,7 +72,7 @@ sources:
   sentence_summary: "把1665年协商与Messina的San Gregorio祭坛画相连并记录1908年毁失；保留Saint Albert／John the Baptist描述差异。"
 - citation: "Wikipedia (it), Chiesa di San Gregorio (Messina), revision 150392543, https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina). Accessed 2026-09-25."
   location: "全文已读；Interno；transetto destro；Cappella della Madonna del Carmine"
-  sentence_summary: "页面将该堂龛位中的Madonna del Carmine画作记为Guercino作品，年代1665；不陈述委托修院法人。"
+  sentence_summary: "页面将该画置于右侧横翼北墙的加尔默罗圣母小堂祭坛龛位，记为Guercino 1665年作品；另记该空间由Maria Teresa Ruffo于1688年资助，但不陈述委托修院法人。"
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-guercino-sicilian-altarpiece-1665
 ---
 

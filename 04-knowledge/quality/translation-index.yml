@@ -1,5 +1,5 @@
 generated: '2026-09-25'
-total: 830
+total: 842
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -305,6 +305,12 @@ index:
   type: persons
   name_en: '"Berlingero Gessi"'
   title: '"贝尔林杰罗·杰西（Berlingero Gessi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/bernardin-baldoino
+  type: persons
+  name_en: '"Bernardin Baldoino"'
+  title: '"贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）"'
   name_original: ''
   language_original: ''
 - slug: persons/bernardino-castelli
@@ -731,6 +737,12 @@ index:
   type: persons
   name_en: '"Filippo Baldinucci"'
   title: '"菲利波·巴尔迪努奇（Filippo Baldinucci）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/filippo-hercolani-1736
+  type: persons
+  name_en: '"Filippo Hercolani (1736–1810)"'
+  title: '"菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）"'
   name_original: ''
   language_original: ''
 - slug: persons/filippo-lauri
@@ -1399,6 +1411,12 @@ index:
   title: 拉里萨·萨尔米娜（Larissa Salmina）
   name_original: ''
   language_original: ''
+- slug: persons/lavinia-albergati
+  type: persons
+  name_en: '"Lavinia Albergati"'
+  title: '"拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）"'
+  name_original: ''
+  language_original: ''
 - slug: persons/leo-x
   type: persons
   name_en: '"Leo X"'
@@ -1487,6 +1505,12 @@ index:
   type: persons
   name_en: Maddalena Telli
   title: 马达莱娜·泰利（Maddalena Telli）
+  name_original: ''
+  language_original: ''
+- slug: persons/marcantonio-hercolani-1709
+  type: persons
+  name_en: '"Marcantonio Hercolani (1709–1772)"'
+  title: '"马尔坎托尼奥·埃尔科拉尼（Marcantonio Hercolani，1709–1772）"'
   name_original: ''
   language_original: ''
 - slug: persons/marcantonio-i-doria
@@ -1705,6 +1729,12 @@ index:
   title: 尼科洛·班比尼（Nicolò Bambini）
   name_original: ''
   language_original: ''
+- slug: persons/niccolo-ludovisi
+  type: persons
+  name_en: '"Niccolò Ludovisi"'
+  title: '"尼科洛·卢多维西（Niccolò Ludovisi）"'
+  name_original: ''
+  language_original: ''
 - slug: persons/nicolas-poussin
   type: persons
   name_en: '"Nicolas Poussin"'
@@ -1757,6 +1787,12 @@ index:
   type: persons
   name_en: Orazio Gentileschi
   title: 奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）
+  name_original: ''
+  language_original: ''
+- slug: persons/orazio-ludovisi
+  type: persons
+  name_en: '"Orazio Ludovisi"'
+  title: '"奥拉齐奥·卢多维西（Orazio Ludovisi）"'
   name_original: ''
   language_original: ''
 - slug: persons/oscar-savio
@@ -2815,6 +2851,12 @@ index:
   title: '"富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）"'
   name_original: ''
   language_original: ''
+- slug: archives/testi-fontana-letter-1634-01-18
+  type: archives
+  name_en: Letter from Fulvio Testi to Count Francesco Fontana
+  title: 富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）
+  name_original: ''
+  language_original: ''
 - slug: archives/torcellan-andrea-memmo-1963
   type: archives
   name_en: '''An Eighteenth-Century Venetian Figure: Andrea Memmo'''
@@ -2929,6 +2971,12 @@ index:
   title: 阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）
   name_original: ''
   language_original: ''
+- slug: works/baldoino-saint-eloi-1661
+  type: works
+  name_en: '"Saint Eloi between Saint John the Baptist and Saint Andrew"'
+  title: '"圣埃洛伊与圣若翰洗者、圣安德烈（Saint Eloi between Saint John the Baptist and Saint Andrew）"'
+  name_original: ''
+  language_original: ''
 - slug: works/bambini-aeneas-tells-dido-fall-of-troy
   type: works
   name_en: Aeneas Tells Dido of the Fall of Troy
@@ -2939,6 +2987,24 @@ index:
   type: works
   name_en: '"Supposed bozzetto for the Barberini Salone (disputed attribution)"'
   title: '"巴贝里尼大厅所谓草稿（归属有争议）（Supposed bozzetto for the Barberini Salone (disputed attribution)）"'
+  name_original: ''
+  language_original: ''
+- slug: works/bernardin-baldoino-beheading-john-baptist-1670
+  type: works
+  name_en: '"The Beheading of Saint John the Baptist"'
+  title: '"施洗者圣若翰斩首（The Beheading of Saint John the Baptist）"'
+  name_original: ''
+  language_original: ''
+- slug: works/bernardin-baldoino-ecstasy-saint-rose-1680
+  type: works
+  name_en: '"The Ecstasy of Saint Rose of Lima"'
+  title: '"利马圣罗撒神魂超拔（The Ecstasy of Saint Rose of Lima）"'
+  name_original: ''
+  language_original: ''
+- slug: works/bernardin-baldoino-mystic-conversation-saint-rose-1680
+  type: works
+  name_en: '"The Mystical Conversation of Saint Rose with the Virgin"'
+  title: '"圣罗撒与圣母的神秘交谈（The Mystical Conversation of Saint Rose with the Virgin）"'
   name_original: ''
   language_original: ''
 - slug: works/bernardino-castelli-teodoro-correr
@@ -4265,6 +4331,12 @@ index:
   type: institutions
   name_en: National Library of France
   title: 法国国家图书馆（National Library of France）
+  name_original: ''
+  language_original: ''
+- slug: institutions/black-penitents-of-nice
+  type: institutions
+  name_en: '"Black Penitents of Nice"'
+  title: '"尼斯黑衣忏悔者团体（Pénitents Noirs de Nice）"'
   name_original: ''
   language_original: ''
 - slug: institutions/british-academy

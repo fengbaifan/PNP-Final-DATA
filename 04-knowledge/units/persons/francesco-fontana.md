@@ -3,7 +3,7 @@ title: "弗朗切斯科·丰塔纳（Francesco Fontana）"
 name_en: "Francesco Fontana"
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: '2026-09-25'
 evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, Patrons and Painters (New Haven and London: Yale University Press, 1980), ch. 1, pp. 17."
@@ -36,16 +36,23 @@ sources:
   - citation: "Wikidata, Q1441035, revision 2297348905. https://www.wikidata.org/wiki/Q1441035. Accessed 2026-09-10."
     location: "labels／descriptions／P31／适用身份字段及 itwiki sitelink；判断范围见正文"
     sentence_summary: "英文 Q646955 为那不勒斯天文学家；意大利语 Q1441035 为消歧义页。均不匹配埃斯特宫廷通信收信伯爵，复用既有家族研究的初步对应。"
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-francesco-fontana
+  - citation: "Banca Dati 'Giulio Rospigliosi', letter by Fulvio Testi to Count Francesco Fontana, 1634-01-18, transcribed from Testi, Lettere, ed. Maria Luisa Doglio, vol. II (1967), pp. 28–29. https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm. Accessed 2026-09-25."
+    location: "书信题头与署期；正文请求丰塔纳代订物资"
+    sentence_summary: "独立于1633年原书所引书信，另有一封署名Testi、致Count Francesco Fontana的1634年书信；题头标注Modena。与家族研究记载的Testi通信对象、人物爵号及本章通信端点吻合。"
+    evidence_ref:
+      doc_id: testi-fontana-letter-1634-01-18
+      source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+      source_span: lines 2–15; edition pp. 28–29
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#francesco-fontana身份对齐与1634年通信补足2026-09-25
 ---
 
 ## 内容
 
 ### 描述
 
-**中文**：弗朗切斯科·丰塔纳是《赞助人与画家》第一章所引泰斯蒂书信的收信伯爵。家族研究将同名的泰斯蒂经常通信者记为托马索·丰塔纳之子、埃斯特家族的军官及摩德纳市政任职者；这些相合信息支持本条的初步身份对应，尚未完成 Wiki 双向身份核对。
+**中文**：弗朗切斯科·丰塔纳是《赞助人与画家》第一章所引泰斯蒂书信的收信伯爵。家族研究记载托马索之子弗朗切斯科为泰斯蒂的经常通信者；两封分别署于1633年和1634年的书信均以“Count Francesco Fontana”为收信人。本项目据此将书中人物初步对齐至该家族人物；生卒尚未核实，未发现可准确匹配的 Wikipedia／Wikidata 页面，不填 QID。
 
-**English**: Francesco Fontana is the count addressed in the Testi letter cited in chapter 1 of Patrons and Painters. A family history identifies a regular correspondent of Testi with this name as the son of Tommaso Fontana, an Este military officer and a municipal officeholder in Modena. These matching details support a preliminary identification; Wikipedia–Wikidata cross-verification remains incomplete.
+**English**: Francesco Fontana is the count addressed in Testi’s letter cited in chapter 1 of Patrons and Painters. A family history identifies Francesco, son of Tommaso, as a regular correspondent of Testi; two letters dated 1633 and 1634 address a Count Francesco Fontana. The project provisionally aligns its chapter figure with that family member. His life dates remain unverified, and no accurately matching Wikipedia or Wikidata record has been identified; no QID is assigned.
 
 ### 身份与多值属性
 
@@ -64,13 +71,14 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 时段 | 事项 | 依据 |
 |---|---|---|
-| 1633 年 1 月 29 日 | 为泰斯蒂自罗马寄出之信的收信人 | Fraschetti 第十二章第 108 页正文及注 1；已读刊引和扫描，未核手稿 |
+| 1633 年 1 月 29 日 | 收到泰斯蒂自罗马寄出的书信 | [书信知识元](../archives/testi-fontana-bernini-letter.md)；Fraschetti 第十二章第 108 页注 1；已读刊引和扫描，未核手稿 |
+| 1634 年 1 月 18 日 | 收到泰斯蒂自罗马寄出的书信；题头标注Modena | [书信知识元](../archives/testi-fontana-letter-1634-01-18.md)；Testi, *Lettere*, vol. II, pp. 28–29的在线转录 |
 | 1635 年 | 以卫队军官身份承担接收科雷焦的任务 | Tavernari 第 66 页 |
 | 1648 年起 | 当选市政 conservatore；随后长期担任 sottopriore，期间有中断 | Tavernari 第 66 页；不将两种职名混为同一职务 |
 
 ### 研究文献与未决项
 
-本次直接阅读 Tavernari 上述两页及相关注释，不称整本专著已读。注 244 所列 Tiraboschi、Campori 1851 及 Testi《Lettere》1967 年第二卷第 28–29 页仅为后续书目线索，未核其原文。本条仍缺生卒、教育及更完整履历；不得因已有结构化表格认定补足结束。
+本次直接阅读 Tavernari 上述两页及相关注释，不称整本专著已读。Testi《Lettere》1967 年第二卷第 28–29 页已通过在线全文转录核读一封致Count Francesco Fontana的书信；未读整卷，也未核该信手稿。注244所列Tiraboschi、Campori 1851仍为后续书目线索，未核原文。本条仍缺生卒、教育及更完整履历；不得因已有结构化表格认定补足结束。
 
 ## 关系与证据
 
@@ -78,3 +86,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为收信人（`addressee_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
+| ← 为收信人（`addressee_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）](../archives/testi-fontana-letter-1634-01-18.md) | 题头与正文署期均支持1634-01-18；题头标Modena，不推定收信人常住地；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年版第二卷pp. 28–29，lines 2–15 |

@@ -127,6 +127,13 @@ relations:
 
 **English:** Pietro Testa, painter, draughtsman and printmaker from Lucca, credited in the book with Joseph Sold by his Brothers and Rest on the Flight into Egypt.
 
+### 姓名与称谓
+
+| 类别 | 名称 | 证据 |
+|---|---|---|
+| 全名／常用名 | Pietro Testa | S3 |
+| 别称 | il Lucchesino | S3；DBI题名所载别称 |
+
 ### 基本信息
 
 | 字段 | 值 | 证据 |
@@ -178,6 +185,8 @@ relations:
 | 字段 | 值／链接 | 状态与范围 |
 |---|---|---|
 | 专业传记 | [Treccani《意大利人传记辞典》](https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/) | S3，人物身份和生平 |
+| Wikipedia（en） | [Pietro Testa](https://en.wikipedia.org/wiki/Pietro_Testa) | 页面记Lucca、1612、1650年在罗马去世，并列画家与版画家；所列身份特征与本卡相符，页面的Wikidata入口指向Q2155480 |
+| Wikidata | [Q2155480](https://www.wikidata.org/wiki/Q2155480) | 英文名称、画家身份、Lucca/Rome关联及“il Lucchesino”别名相符；enwiki sitelink回指上述页面。身份双向核对通过。其“1611–1650”描述与页面及本卡1612年洗礼记录不一致，不导入为生日 |
 
 ### 关系记录
 

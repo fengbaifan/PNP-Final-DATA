@@ -52,6 +52,7 @@ units:
 - 04-knowledge/units/archives/salviati-medici-letter-1662.md
 - 04-knowledge/units/archives/savini-gubbio-terms-1608.md
 - 04-knowledge/units/archives/testi-fontana-bernini-letter.md
+- 04-knowledge/units/archives/testi-fontana-letter-1634-01-18.md
 - 04-knowledge/units/archives/torcellan-andrea-memmo-1963.md
 - 04-knowledge/units/archives/us-copyright-law.md
 - 04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md
@@ -308,6 +309,7 @@ units:
 - 04-knowledge/units/persons/ferdinando-ii-de-medici.md
 - 04-knowledge/units/persons/ferdinando-marescalchi.md
 - 04-knowledge/units/persons/filippo-baldinucci.md
+- 04-knowledge/units/persons/filippo-hercolani-1736.md
 - 04-knowledge/units/persons/filippo-lauri.md
 - 04-knowledge/units/persons/flaminio-corner.md
 - 04-knowledge/units/persons/flavio-chigi.md
@@ -408,6 +410,7 @@ units:
 - 04-knowledge/units/persons/katharina-heinzelmann.md
 - 04-knowledge/units/persons/laerzio-cherubini.md
 - 04-knowledge/units/persons/larissa-dedicatee.md
+- 04-knowledge/units/persons/lavinia-albergati.md
 - 04-knowledge/units/persons/leo-x.md
 - 04-knowledge/units/persons/leonardis.md
 - 04-knowledge/units/persons/leonardo-pesaro-commissioner.md
@@ -419,6 +422,7 @@ units:
 - 04-knowledge/units/persons/luca-giordano.md
 - 04-knowledge/units/persons/ludovico-ludovisi.md
 - 04-knowledge/units/persons/marcantonio-i-doria.md
+- 04-knowledge/units/persons/marcantonio-hercolani-1709.md
 - 04-knowledge/units/persons/marcello-sacchetti.md
 - 04-knowledge/units/persons/marchese-costaguti-household.md
 - 04-knowledge/units/persons/marchese-del-carpio.md
@@ -452,6 +456,7 @@ units:
 - 04-knowledge/units/persons/mr-coke-rome-correspondent.md
 - 04-knowledge/units/persons/nanteuil.md
 - 04-knowledge/units/persons/niccolo-bambini.md
+- 04-knowledge/units/persons/niccolo-ludovisi.md
 - 04-knowledge/units/persons/nicolas-poussin.md
 - 04-knowledge/units/persons/nicolo-minato.md
 - 04-knowledge/units/persons/nikolaus-pevsner.md
@@ -460,6 +465,7 @@ units:
 - 04-knowledge/units/persons/onorato-gini.md
 - 04-knowledge/units/persons/onorio-longhi.md
 - 04-knowledge/units/persons/orazio-gentileschi.md
+- 04-knowledge/units/persons/orazio-ludovisi.md
 - 04-knowledge/units/persons/oscar-savio.md
 - 04-knowledge/units/persons/ottaviano-ottoviani.md
 - 04-knowledge/units/persons/ottavio-costa.md
@@ -979,10 +985,18 @@ units:
 - 04-knowledge/units/places/frascati.md
 - 04-knowledge/units/places/villa-aldobrandini-frascati.md
 - 04-knowledge/units/places/room-19-helen-and-paris.md
+- 04-knowledge/units/places/chiesa-san-gregorio-cappella-madonna-carmine.md
 - 04-knowledge/units/institutions/kingdom-of-italy.md
 - 04-knowledge/units/institutions/italian-state.md
 - 04-knowledge/units/works/venturini-diana-hunting-print.md
 - 04-knowledge/units/archives/torcellan-settecento-veneto-1969.md
+- 04-knowledge/units/works/baldoino-saint-eloi-1661.md
+- 04-knowledge/units/places/cathedrale-sainte-reparate-nice.md
+- 04-knowledge/units/persons/bernardin-baldoino.md
+- 04-knowledge/units/institutions/black-penitents-of-nice.md
+- 04-knowledge/units/works/bernardin-baldoino-beheading-john-baptist-1670.md
+- 04-knowledge/units/works/bernardin-baldoino-ecstasy-saint-rose-1680.md
+- 04-knowledge/units/works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks

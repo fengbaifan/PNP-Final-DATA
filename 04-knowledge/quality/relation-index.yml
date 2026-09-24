@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1160
-# sources: {'explicit': 1159, 'inferred_by_rule': 1}
+# total: 1188
+# sources: {'explicit': 1187, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-bettagno.md
   source_type: person
@@ -461,6 +461,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/bernardin-baldoino.md
+  source_type: person
+  target: persons/gio-gasparo-baldoini.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 296–297
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1625'
+  role: 儿子
+  scope: Thevenon明确称Bernardin为Giovanni-Gaspare Baldoino之子；姓名异文不改变所指
 - source: persons/bernardino-castelli.md
   source_type: person
   target: places/padua.md
@@ -1644,6 +1664,26 @@
   time: '1816'
   role: 去世地点
   scope: 个人生命事件
+- source: persons/filippo-hercolani-1736.md
+  source_type: person
+  target: persons/marcantonio-hercolani-1709.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: unibo-hercolani-collection-study
+    source_file: https://cris.unibo.it/handle/11585/858533
+    source_span: 'repository abstract: collection formed by Marcantonio Hercolani (1709–1772) and augmented by his son Filippo (1736–1810)'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1736年起（Filippo出生年）
+  role: son
+  scope: 父子亲缘；不因父亲于1772年去世而终止
 - source: persons/filippo-lauri.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -2532,6 +2572,26 @@
   review_status: evidence_backed_relation
   role: Count Palatine荣衔授予者
   scope: 第一章未给日期
+- source: persons/fulvio-testi.md
+  source_type: person
+  target: persons/francesco-fontana.md
+  target_type: person
+  relation_type: corresponded_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: testi-fontana-letter-1634-01-18
+    source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+    source_span: lines 2–15; edition pp. 28–29
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1634-01-18'
+  role: 写信人↔收信人
+  scope: 仅记录有日期的一次通信；另有1633-01-29书信见对应书信KU；不据通信推断友谊或赞助
 - source: persons/g-h-w-rylands.md
   source_type: person
   target: institutions/kings-college-cambridge.md
@@ -2795,6 +2855,26 @@
   time: 生年未定；1710卒
   role: 出生／去世
   scope: 出生和去世均为威尼斯
+- source: persons/gio-gasparo-baldoini.md
+  source_type: person
+  target: persons/bernardin-baldoino.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 296–297
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1625'
+  role: 父亲
+  scope: Thevenon明确称Bernardin Baldoino/Baudoin（尼斯1625–1711）为其子
 - source: persons/giovanni-battista-pamphilj-aldobrandini.md
   source_type: person
   target: families/pamphili-family.md
@@ -3171,6 +3251,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/gl-bianconi.md
+  source_type: person
+  target: persons/filippo-hercolani-1736.md
+  target_type: person
+  relation_type: corresponded_with
+  inverse_relation_type: null
+  note: 一封刊本书信的发信人及收信人分别确认为Bianconi与Filippo Hercolani。
+  evidence: ''
+  evidence_ref:
+    doc_id: bottari-ticozzi-letter-collection-v7
+    source_file: https://archive.org/details/diletteresulla07bott
+    source_span: vol. VII, letter X, pp. 357–362
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1762-11-22'
+  scope: 仅指该封书信；不据此推断友谊、赞助或长期通信
 - source: persons/gregory-xv.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -3191,6 +3290,63 @@
   time: '1621'
   role: 章程确认者
   scope: 确认学院章程；具体文本版本未知
+- source: persons/gregory-xv.md
+  source_type: person
+  target: persons/orazio-ludovisi.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: Orazio 是 Alessandro Ludovisi（Gregory XV）的兄弟。
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-gregorio-xv-dbi-59
+    source_file: https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/
+    source_span: family section; paragraph beginning ‘Nel marzo del 1621’
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 兄弟
+  scope: Alessandro Ludovisi 与 Orazio Ludovisi 的亲缘关系
+- source: persons/gregory-xv.md
+  source_type: person
+  target: persons/ludovico-ludovisi.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: Ludovico 是 Gregory XV 的侄子；与同名兄长 Ludovico 区分。
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-gregorio-xv-dbi-59
+    source_file: https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/
+    source_span: family section; paragraphs beginning ‘Immediatamente dopo la sua elezione’ and ‘A Orazio’
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 叔侄；Gregory XV 为叔父
+  scope: Cardinal Ludovico Ludovisi, son of Orazio; distinct from Gregory XV’s elder brother Ludovico
+- source: persons/gregory-xv.md
+  source_type: person
+  target: persons/niccolo-ludovisi.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: Niccolò 是 Gregory XV 的侄子；与后世同名枢机 Niccolò Albergati-Ludovisi 区分。
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-gregorio-xv-dbi-59
+    source_file: https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/
+    source_span: family section; paragraphs beginning ‘Nel marzo del 1621’ and ‘A Orazio’
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 叔侄；Gregory XV 为叔父
+  scope: Niccolò Ludovisi, son of Orazio and brother of Cardinal Ludovico
 - source: persons/guercino.md
   source_type: person
   target: procedures/per-figure-pricing.md
@@ -3539,6 +3695,46 @@
   time: 1962年时点
   role: 威尼斯素描策展人
   scope: 1962年相识时职务；不推定完整任期
+- source: persons/lavinia-albergati.md
+  source_type: person
+  target: persons/ludovico-ludovisi.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-ludovico-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/ludovico-ludovisi_(Dizionario-Biografico)/
+    source_span: 'opening paragraph; line 24: firstborn son of Orazio and Lavinia Albergati'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1595年起（Ludovico出生年）
+  role: mother
+  scope: 儿子为Cardinal Ludovico Ludovisi
+- source: persons/lavinia-albergati.md
+  source_type: person
+  target: persons/niccolo-ludovisi.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-niccolo-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/
+    source_span: 'opening paragraph; line 28: Niccolò born to Orazio and Lavinia Albergati'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1610年起（Niccolò出生年）
+  role: mother
+  scope: 儿子为Piombino亲王Niccolò Ludovisi，非Niccolò Albergati-Ludovisi
 - source: persons/leonardo-pesaro-commissioner.md
   source_type: person
   target: persons/giovanni-pesaro.md
@@ -3614,6 +3810,26 @@
   time: '1621'
   role: Vatican architect任命者
   scope: 教皇侄辈Ludovico作出的任命
+- source: persons/marcantonio-hercolani-1709.md
+  source_type: person
+  target: persons/filippo-hercolani-1736.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: unibo-hercolani-collection-study
+    source_file: https://cris.unibo.it/handle/11585/858533
+    source_span: 'repository abstract: collection formed by Marcantonio Hercolani (1709–1772) and augmented by his son Filippo (1736–1810)'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1736年起（Filippo出生年）
+  role: father
+  scope: 父子亲缘；不因父亲于1772年去世而终止
 - source: persons/marcello-sacchetti.md
   source_type: person
   target: persons/pietro-da-cortona.md
@@ -4086,6 +4302,25 @@
   time: '1672'
   role: 有文献记录的活动城市
   scope: 受训后生涯的罗马记录
+- source: persons/niccolo-ludovisi.md
+  source_type: person
+  target: persons/ludovico-ludovisi.md
+  target_type: person
+  relation_type: sibling_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-niccolo-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/
+    source_span: 'line 37: Zagarolo inherited from his brother Cardinal Ludovico in 1632'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: brother
+  scope: Niccolò Ludovisi and Cardinal Ludovico Ludovisi, both sons of Orazio and Lavinia
 - source: persons/nicolas-poussin.md
   source_type: person
   target: works/poussin-spring-valguarnera.md
@@ -4343,6 +4578,66 @@
   time: 1626起
   role: 宫廷赞助者
   scope: 宫廷服务概况；不将特定作品的委托归给国王
+- source: persons/orazio-ludovisi.md
+  source_type: person
+  target: persons/lavinia-albergati.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-orazio-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/
+    source_span: 'family paragraph; lines 28 and 38: wife Lavinia Albergati, married in 1594'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1594年起；婚姻终止时间未载
+  role: husband
+  scope: Orazio Ludovisi与Lavinia Albergati的婚姻
+- source: persons/orazio-ludovisi.md
+  source_type: person
+  target: persons/ludovico-ludovisi.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-orazio-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/
+    source_span: 'concluding paragraph; lines 55–56: four children include Cardinal Ludovico'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 自1595年起（Ludovico出生年）
+  role: father
+  scope: son is the 1595–1632 Cardinal Ludovico Ludovisi, not another namesake
+- source: persons/orazio-ludovisi.md
+  source_type: person
+  target: persons/niccolo-ludovisi.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-orazio-ludovisi-dbi-66
+    source_file: https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/
+    source_span: family paragraph and concluding paragraph; lines 28, 55–56
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1610年起（Niccolò出生年）
+  role: father
+  scope: son is the later Prince of Piombino Niccolò Ludovisi, distinct from Niccolò Albergati-Ludovisi
 - source: persons/ottavio-leoni.md
   source_type: person
   target: persons/ludovico-leoni.md
@@ -6478,6 +6773,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/chiesa-san-gregorio-cappella-madonna-carmine.md
+  source_type: place
+  target: places/chiesa-san-gregorio-messina.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 意大利语教堂条目将小堂定位于圣额我略堂右侧横翼北墙；教堂于1908年震灾后被拆除。
+  evidence: ''
+  evidence_ref:
+    doc_id: chiesa-san-gregorio-messina-wikipedia-it
+    source_file: https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina)
+    source_span: Interno；L169–170；页面版本150392543
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史建筑内部空间
+  scope: 右侧横翼北墙；不是独立教堂或修院法人
 - source: places/chiesa-san-gregorio-messina.md
   source_type: place
   target: places/messina.md
@@ -7505,6 +7819,45 @@
   time: 本书所述时点
   role: 书中保管地点
   scope: 原书目录位置；不外推现藏或画中地点
+- source: works/baldoino-saint-eloi-1661.md
+  source_type: work
+  target: persons/gio-gasparo-baldoini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-saint-eloi-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed pp.31–32, note 31; PDF pp.7–8
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1661'
+  role: 创作者／作者归属
+  scope: Thevenon将Saint Eloi与圣若翰洗者、圣安德烈的画作列入Baldoino作品，并引述签名；签名展开形式据法国文化部目录
+- source: works/baldoino-saint-eloi-1661.md
+  source_type: work
+  target: places/cathedrale-sainte-reparate-nice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: pop-palissy-PM06000568
+    source_file: https://pop.culture.gouv.fr/notice/palissy/PM06000568
+    source_span: Localisation；Cathédrale Sainte-Réparate, chapelle Sainte-Rose de Lima
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 文化遗产目录所列现址
+  scope: 目录把藏品定位在尼斯圣雷帕拉塔主教座堂的Sainte-Rose-de-Lima小堂；未给安装日期，不推定连续陈列时段
 - source: works/bambini-aeneas-tells-dido-fall-of-troy.md
   source_type: work
   target: persons/niccolo-bambini.md
@@ -7584,6 +7937,126 @@
   review_status: evidence_backed_relation
   role: 文学题材来源
   scope: 第一卷宴会场景
+- source: works/bernardin-baldoino-beheading-john-baptist-1670.md
+  source_type: work
+  target: persons/bernardin-baldoino.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 296–299,316–317
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670'
+  role: 创作者
+  scope: Thevenon记该画为Bernardin作品并称其在罗马为尼斯黑衣忏悔者制作
+- source: works/bernardin-baldoino-beheading-john-baptist-1670.md
+  source_type: work
+  target: institutions/black-penitents-of-nice.md
+  target_type: institution
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 296–299,316–317
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670'
+  role: 制作服务对象
+  scope: 原文称作品为Pénitents Noirs de Nice制作；未提供合同，不据此称为合同委托方
+- source: works/bernardin-baldoino-ecstasy-saint-rose-1680.md
+  source_type: work
+  target: persons/bernardin-baldoino.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 300–302,316–317
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1680'
+  role: 创作者
+  scope: Thevenon将画作列入Bernardin作品并记背面签名
+- source: works/bernardin-baldoino-ecstasy-saint-rose-1680.md
+  source_type: work
+  target: places/cathedrale-sainte-reparate-nice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 300–302
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '2016'
+  role: 来源所载地点
+  scope: Thevenon称该配对作品在尼斯主教座堂；记录出版时所载地点，不推定安装起始或连续展陈时段
+- source: works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md
+  source_type: work
+  target: persons/bernardin-baldoino.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 300–302,316–317
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1680'
+  role: 创作者
+  scope: Thevenon将该画列入Bernardin作品，并称其为1680年有签名作品的配对画
+- source: works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md
+  source_type: work
+  target: places/cathedrale-sainte-reparate-nice.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: thevenon-baldoino-2016
+    source_file: https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf
+    source_span: printed p.32; PDF p.7; lines 300–302
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '2016'
+  role: 来源所载地点
+  scope: Thevenon称该配对作品在尼斯主教座堂；记录出版时所载地点，不推定安装起始或连续展陈时段
 - source: works/bernardino-castelli-teodoro-correr.md
   source_type: work
   target: persons/bernardino-castelli.md
@@ -13706,6 +14179,25 @@
   review_status: evidence_backed_relation
   role: 目录所载末知地点
   scope: 时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段
+- source: works/guercino-sicilian-altarpiece-1665.md
+  source_type: work
+  target: places/chiesa-san-gregorio-cappella-madonna-carmine.md
+  target_type: place
+  relation_type: installed_at
+  inverse_relation_type: null
+  note: 意大利语教堂条目将画作记在加尔默罗圣母小堂祭坛龛位；该记载支持具体历史陈列空间，但不提供安装日期或连续陈列时段。
+  evidence: ''
+  evidence_ref:
+    doc_id: chiesa-san-gregorio-messina-wikipedia-it
+    source_file: https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina)
+    source_span: Interno；L169–170；页面版本150392543
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史安置位置
+  scope: 加尔默罗圣母祭坛的龛位；安置日期未载
 - source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
   source_type: work
   target: persons/guglielmo-baur.md
@@ -19647,6 +20139,24 @@
   review_status: evidence_backed_relation
 - source: archives/bianconi-letter-1762.md
   source_type: archive
+  target: persons/filippo-hercolani-1736.md
+  target_type: person
+  relation_type: addressed_to
+  inverse_relation_type: null
+  note: 刊本题头称Marchese Filippo Hercolani；身份依据名称、头衔、时间及外部人物记录核定。
+  evidence: ''
+  evidence_ref:
+    doc_id: bottari-ticozzi-letter-collection-v7
+    source_file: https://archive.org/details/diletteresulla07bott
+    source_span: vol. VII, letter X, pp. 357–362; letter heading
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1762-11-22'
+- source: archives/bianconi-letter-1762.md
+  source_type: archive
   target: terms/artistic-temperament.md
   target_type: term
   relation_type: has_subject
@@ -21774,6 +22284,45 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: archives/testi-fontana-letter-1634-01-18.md
+  source_type: archive
+  target: persons/fulvio-testi.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: testi-fontana-letter-1634-01-18
+    source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+    source_span: lines 8–15; signed by Don Fulvio Testi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1634-01-18'
+  role: 发信人／作者
+- source: archives/testi-fontana-letter-1634-01-18.md
+  source_type: archive
+  target: persons/francesco-fontana.md
+  target_type: person
+  relation_type: addressed_to
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: testi-fontana-letter-1634-01-18
+    source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
+    source_span: lines 2–8; addressee heading names Count Francesco Fontana
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1634-01-18'
+  role: 收信人
+  scope: 书信题头另标[Modena]；不单独据此断定收信人的常住地
 - source: archives/torcellan-andrea-memmo-1963.md
   source_type: archive
   target: persons/gianfranco-torcellan.md

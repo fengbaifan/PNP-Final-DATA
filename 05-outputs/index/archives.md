@@ -53,6 +53,7 @@
 - [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../../04-knowledge/units/archives/salviati-medici-letter-1662.md)
 - [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../../04-knowledge/units/archives/savini-gubbio-terms-1608.md)
 - [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../../04-knowledge/units/archives/testi-fontana-bernini-letter.md)
+- [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）](../../04-knowledge/units/archives/testi-fontana-letter-1634-01-18.md)
 - [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md)
 - [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../../04-knowledge/units/archives/torcellan-settecento-veneto-1969.md)
 - [美国版权法（U.S. Copyright Law）](../../04-knowledge/units/archives/us-copyright-law.md)

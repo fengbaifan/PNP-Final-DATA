@@ -7,6 +7,9 @@ updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"granted_privilege_to","target":"institutions/accademia-di-san-luca.md","note":"1621 年确认学院章程。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 690–691; print pp. 17"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1621","role":"章程确认者","scope":"确认学院章程；具体文本版本未知"}
+  - {"relation_type":"kin_of","target":"persons/orazio-ludovisi.md","note":"Orazio 是 Alessandro Ludovisi（Gregory XV）的兄弟。","evidence_ref":{"doc_id":"treccani-gregorio-xv-dbi-59","source_file":"https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/","source_span":"family section; paragraph beginning ‘Nel marzo del 1621’"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"兄弟","scope":"Alessandro Ludovisi 与 Orazio Ludovisi 的亲缘关系"}
+  - {"relation_type":"kin_of","target":"persons/ludovico-ludovisi.md","note":"Ludovico 是 Gregory XV 的侄子；与同名兄长 Ludovico 区分。","evidence_ref":{"doc_id":"treccani-gregorio-xv-dbi-59","source_file":"https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/","source_span":"family section; paragraphs beginning ‘Immediatamente dopo la sua elezione’ and ‘A Orazio’"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"叔侄；Gregory XV 为叔父","scope":"Cardinal Ludovico Ludovisi, son of Orazio; distinct from Gregory XV’s elder brother Ludovico"}
+  - {"relation_type":"kin_of","target":"persons/niccolo-ludovisi.md","note":"Niccolò 是 Gregory XV 的侄子；与后世同名枢机 Niccolò Albergati-Ludovisi 区分。","evidence_ref":{"doc_id":"treccani-gregorio-xv-dbi-59","source_file":"https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/","source_span":"family section; paragraphs beginning ‘Nel marzo del 1621’ and ‘A Orazio’"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"叔侄；Gregory XV 为叔父","scope":"Niccolò Ludovisi, son of Orazio and brother of Cardinal Ludovico"}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3.'
   location: 第一章；印刷页 3；OCR L26–27
@@ -129,10 +132,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|---|
 | 父亲 | Pompeo Ludovisi | 来源称伯爵，头衔属于父亲 | S8 开篇；S7 父亲值标签 |
 | 母亲 | Camilla Bianchini | 不推定其他未载称名 | S8 开篇；S7 母亲值标签 |
-| 兄弟 | Ludovico Ludovisi | 与其一同赴罗马学习的兄长，不是同名侄子 | S8 教育段 |
-| 兄弟 | Orazio Ludovisi | 教皇弟弟；侄子 Ludovico 与 Niccolò 的父亲 | S8 家族段；S6 |
-| 侄子 | Ludovico Ludovisi | 本章枢机侄辈，与教皇本人及其同名兄长区分 | S2；S6、S8 |
-| 侄子 | Niccolò Ludovisi | Orazio 之子 | S8；后来的头衔不记作教皇在世时授予 |
+| 兄弟 | Ludovico Ludovisi（兄长） | 与其一同赴罗马学习；不同于同名侄子 [Cardinal Ludovico](ludovico-ludovisi.md) | S8 教育段 |
+| 兄弟 | [Orazio Ludovisi](orazio-ludovisi.md) | 教皇弟弟；侄子 Ludovico 与 Niccolò 的父亲 | S8 家族段；正式关系见下 |
+| 侄子 | [Ludovico Ludovisi（枢机）](ludovico-ludovisi.md) | 与教皇本人及其同名兄长区分 | S2；S6、S8 |
+| 侄子 | [Niccolò Ludovisi](niccolo-ludovisi.md) | Orazio 之子 | S8；后来的头衔不记作教皇在世时授予 |
 
 ### 教育与学习
 
@@ -187,6 +190,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
+| → 亲缘（`kin_of`） | [Orazio Ludovisi](orazio-ludovisi.md) | 兄弟；Treccani《意大利人传记辞典》称Orazio为Alessandro Ludovisi之兄弟；来源：S8，family section |
+| → 亲缘（`kin_of`） | [Ludovico Ludovisi（枢机）](ludovico-ludovisi.md) | 侄子；与同名兄长区分；来源：S8，family section；第一章亦记其为“Pope’s nephew” |
+| → 亲缘（`kin_of`） | [Niccolò Ludovisi](niccolo-ludovisi.md) | 侄子；为Orazio之子；来源：S8，family section |
 
 ### 身份与外部链接
 
