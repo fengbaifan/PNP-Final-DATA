@@ -4,7 +4,8 @@
 
 - 随后为Ferri的Sant’Agnese穹顶关系链新增Pamphili家族和合同对象Giovanni Battista Pamphilj Aldobrandini（1648–1709）两个KU，并写入4条有据关系。纠正原卡将“G. B. Pamphili”含混指向已故教皇的风险；区分家族委托责任、个人合同及合同彩稿。家族完整谱系、合同原件、彩稿实物身份仍未确认。
 - 本批为Guercino祭坛画新增Messina城市和San Gregorio教堂两个place KU，并把教堂登记为Zeri所载末知地点；另以官方市级来源把教堂定位至Messina。全库现为967个有效KU、1128条关系索引。1665年委托修院法人及其与San Gregorio附属修院的关系仍未确认，故不建立委托边。
-- 本轮依据RISD馆藏号52.195补登记Ottavio Leoni 1617年《烛光下的马达莱娜·泰利肖像》，并连接肖像人物和保管机构；2006年目录旧题名以同一馆藏号确认为同件作品。补建RISD Museum及Providence端点，为机构完成Wikipedia—Wikidata双向身份对齐；修正Maddalena、Eufrasia误写为儿子的双语描述，并为Maddalena补婚姻、嫁资和丧偶记录。现全库970个KU、1132条关系索引。
+- 本轮依据RISD馆藏号52.195补登记Ottavio Leoni 1617年《烛光下的马达莱娜·泰利肖像》，并连接肖像人物和保管机构；2006年目录旧题名以同一馆藏号确认为同件作品。补建RISD Museum及Providence端点，为机构完成Wikipedia—Wikidata双向身份对齐；修正Maddalena、Eufrasia误写为儿子的双语描述，并为Maddalena补婚姻、嫁资和丧偶记录。该后续更新后全库为971个KU、1135条关系索引。
+- 章前图版64对应人物John Strange完成Wikipedia—Wikidata双向身份核对；Villa Loredan已作为独立地点登记，并补齐历史所有权、所在地和图版描绘关系。没有把具体Met或National Gallery馆藏画作误配成本书图版；现全库971个KU、1135条关系索引。
 - 四位画家的身份与外部专业来源相连；Vincenzo I Gonzaga与Giovanni Angelo d’Altemps均完成适用的Wikipedia—Wikidata双向核对。Francesco与Domenico Fedeli关联同一学院端点；Paolo de Matteis加入画家会众的端点使用DBI描述性称谓，未伪称正式机构专名。
 - 《赫拉克勒斯的选择》区分阿什莫林委托原作、利兹较小亲笔版本及DBI所列原作地点；不将原作地点写成委托地点。Testa受洗日期不作出生日期；Leoni对Caravaggio仅面熟，不建立朋友关系。
 - 本轮涉及的端点、时间／版本、关系方向与对应来源见[画家关系接续](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25)、[Guercino祭坛画末知地点核对](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣额我略堂末知地点与城市端点2026-09-25)及[马达莱娜·泰利作品与身份关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#马达莱娜泰利作品与身份关系补足2026-09-25)。其余对象对齐、作品和关系缺口仍待继续；证据不足的对象保留待证。知识发现、页面和人工校验仍暂停。

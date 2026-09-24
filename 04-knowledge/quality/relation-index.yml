@@ -1,8 +1,68 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1132
-# sources: {'explicit': 1131, 'inferred_by_rule': 1}
+# total: 1160
+# sources: {'explicit': 1159, 'inferred_by_rule': 1}
 
+- source: persons/alessandro-bettagno.md
+  source_type: person
+  target: institutions/cini-institute-of-art-history.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-alessandro-bettagno
+    source_file: https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/
+    source_span: 人物简介段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1954年起；结束时间未载
+  role: 研究助理，任朱塞佩·菲奥科的助手
+  scope: 基金会资料称自研究所1954年成立时起任助手；没有为助手任期补设终止年份
+- source: persons/alessandro-bettagno.md
+  source_type: person
+  target: institutions/cini-institute-of-art-history.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-alessandro-bettagno
+    source_file: https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/
+    source_span: 人物简介段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1989–2002
+  role: 所长
+  scope: 艺术史研究所负责人任期
+- source: persons/alessandro-bettagno.md
+  source_type: person
+  target: institutions/ca-foscari-university-venice.md
+  target_type: institution
+  relation_type: employed_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-alessandro-bettagno
+    source_file: https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/
+    source_span: 人物简介段
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1972年起；结束时间未载
+  role: 艺术史教授
+  scope: Ca’ Foscari外国语言与文学学院艺术史讲席；来源未载任期结束时间
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
   target: persons/sixtus-v.md
@@ -2676,6 +2736,45 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/gianfranco-torcellan.md
+  source_type: person
+  target: persons/franco-venturi.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gianfranco-torcellan
+    source_file: https://www.openstarts.units.it/bitstream/10077/15487/1/Riviste-storiche-full-text.pdf
+    source_span: 传记段；具体印刷页未核定，文章范围pp.132-182
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 学术培养者
+  scope: 二手学术传记称Torcellan在都灵受Franco Venturi学派培养；不推定学位、具体课程或任教关系
+- source: persons/gianfranco-torcellan.md
+  source_type: person
+  target: archives/torcellan-settecento-veneto-1969.md
+  target_type: archive
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: persons-gianfranco-torcellan
+    source_file: https://books.google.com/books?id=jC0ZAQAAMAAJ
+    source_span: Google Books书目与版本信息
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1969'
+  role: 作者
+  scope: 身后出版的历史论文集；书目署Torcellan为作者，不据此认定其编辑或逐篇作者责任
 - source: persons/giannantonio-fumiani.md
   source_type: person
   target: places/venice.md
@@ -6509,6 +6608,25 @@
   review_status: evidence_backed_relation
   role: 本书写作时所报保存地点
   scope: 归属仍有争议；不延伸为今日馆藏
+- source: places/palazzo-della-minerva.md
+  source_type: place
+  target: places/rome.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: senato-maffeo-barberini-exhibition-2026
+    source_file: https://www.senato.it/CESUS/2026/caravaggio/
+    source_span: venue, address and “Roma” designation
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 建筑所在城市
+  scope: Piazza della Minerva 38；与邻接教堂Santa Maria sopra Minerva分别处理
 - source: places/palazzo-doria-pamfili.md
   source_type: place
   target: works/cortona-doria-pamfili-modelli-disputed.md
@@ -6599,6 +6717,77 @@
   time: 来源访问时点2026-09-15
   role: 所在城市
   scope: 宫殿建筑地址
+- source: places/villa-aldobrandini-frascati.md
+  source_type: place
+  target: places/frascati.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史别墅所在地
+  scope: Villa Aldobrandini, Frascati; distinguishes it from the similarly named Rome villa
+- source: places/villa-aldobrandini-frascati.md
+  source_type: place
+  target: persons/pietro-aldobrandini.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1598
+  role: 受赠人及所有人
+  scope: Gift by Clement VIII Aldobrandini to Cardinal Pietro; later ownership is separately recorded in content
+- source: places/villa-loredan-paese.md
+  source_type: place
+  target: persons/john-strange.md
+  target_type: person
+  relation_type: owned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: national-gallery-villa-del-timpano-arcuato
+    source_file: https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese
+    source_span: lines 104–105
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 历史所有人
+  scope: National Gallery所记Strange在Paese的乡间住宅；未给产权取得、转移或终止日期
+- source: places/villa-loredan-paese.md
+  source_type: place
+  target: places/paese.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: national-gallery-villa-del-timpano-arcuato
+    source_file: https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese
+    source_span: lines 104–105
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 建筑所在地
+  scope: Paese镇内的乡间别墅
 - source: works/a-d-gabbiani-a-group-of-musicians.md
   source_type: work
   target: institutions/soprintendenza-alle-gallerie-florence.md
@@ -10084,6 +10273,25 @@
   scope: 现存
 - source: works/caravaggio-maffeo-barberini.md
   source_type: work
+  target: persons/caravaggio.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: gnaa-maffeo-barberini-announcement-2026
+    source_file: https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/
+    source_span: announcement, attribution and scholarly consensus paragraphs
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 馆方及研究界确认的归属作者
+  scope: 原书图版02a措辞为Attributed to；本关系保存归属性质，不改写原书表述
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
   target: persons/urbano-viii.md
   target_type: person
   relation_type: has_subject
@@ -10121,6 +10329,66 @@
   time: 本书所述时点
   role: 书中私人收藏所在城市
   scope: 图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
+  target: institutions/italian-state.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: gnaa-maffeo-barberini-announcement-2026
+    source_file: https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/
+    source_span: purchase deed and acquisition paragraphs; corroborated by Senato exhibition page
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2026-03
+  role: 国家购藏者
+  scope: 2026年购藏公告记载购买契约已签署，价格为3000万欧元；参议院后续页面仍称最终移交尚待完成，不推断当前展出或实际保管地点
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
+  target: places/palazzo-barberini.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: gnaa-maffeo-barberini-exhibition-2024
+    source_file: https://barberinicorsini.org/en/evento/caravaggio-the-portrait-unveiled/
+    source_span: exhibition dates and full description; extended through Caravaggio 2025 per acquisition announcement
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2024-11–2025-07-06
+  role: 临时公开展出地点
+  scope: 借展展出；不是长期馆藏或产权关系
+- source: works/caravaggio-maffeo-barberini.md
+  source_type: work
+  target: places/palazzo-della-minerva.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: senato-maffeo-barberini-exhibition-2026
+    source_file: https://www.senato.it/CESUS/2026/caravaggio/
+    source_span: exhibition dates and venue; Sala Capitolare, Biblioteca del Senato
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2026-05-28–2026-06-21
+  role: 收购后的临时展出地点
+  scope: 展厅为Palazzo della Minerva内的Sala Capitolare；官网称后续拟移交至Palazzo Barberini，本关系不表示已完成该移交
 - source: works/caravaggio-martha-mary-magdalene.md
   source_type: work
   target: persons/caravaggio.md
@@ -11803,6 +12071,124 @@
   scope: 图版07所列作品；建筑位置不自动转为博物馆产权或创作地点
 - source: works/domenichino-hunt-of-diana.md
   source_type: work
+  target: persons/pietro-aldobrandini.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: Catalogue entry, paragraphs 1–2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 委托人
+  scope: 博尔盖塞美术馆称作品原为其委托；区分其与后来的取得者Scipione Borghese
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: places/villa-aldobrandini-frascati.md
+  target_type: place
+  relation_type: intended_for
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: Catalogue entry, paragraphs 1–2; intended destination named as the villa at Frascati
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原定安置地
+  scope: 原定用途不等于实际安置；Frascati villa与Villa Aldobrandini的地点识别另由地区官方资料支持
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: persons/cardinal-borghese-ch1.md
+  target_type: person
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: Object details, Provenance; Catalogue entry, paragraphs 1–2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1617'
+  role: 取得者；馆方叙述为强行取走后付款
+  scope: 1617年取得；150 scudi是《狄安娜狩猎》与《库迈女先知》两件作品合计，争议的其他付款记载不归并为单件确定价款
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: institutions/kingdom-of-italy.md
+  target_type: institution
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: 'Object details, Provenance: purchased by Italian State, 1902'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1902'
+  role: 取得者；馆方原称意大利国家
+  scope: 1902年“意大利国家”记录按当时存续的意大利王国定位；不表示当前产权
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: institutions/galleria-borghese.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: Object details, Inventory 053 and Location, current catalogue record
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2026-09-25访问时
+  role: 馆藏保管机构
+  scope: 依据馆方当前对象目录；不等同法律所有权
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
+  target: places/room-19-helen-and-paris.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: galleria-borghese-hunting-of-diana
+    source_file: https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana
+    source_span: Object details, Location; confirmed by Galleria Borghese Room 19 page
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2026-09-25访问时
+  role: 当前陈列展厅
+  scope: 当前馆方目录所列位置；区别于原定Frascati安置地
+- source: works/domenichino-hunt-of-diana.md
+  source_type: work
   target: places/rome.md
   target_type: place
   relation_type: located_at
@@ -12212,7 +12598,7 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
-  time: 本书所述时点
+  time: 1980年版所记的收藏状态
   role: 书中私人收藏者
   scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
 - source: works/francesco-fanelli-charles-i.md
@@ -12232,9 +12618,29 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
-  time: 本书所述时点
+  time: 1980年版所记的收藏状态
   role: 书中所在城市
   scope: 图版27a；私人收藏署名只支持书中保管语境，不核定当前产权
+- source: works/francesco-fanelli-charles-i.md
+  source_type: work
+  target: institutions/victoria-and-albert-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: vam-object-O11798
+    source_file: https://collections.vam.ac.uk/item/O11798/
+    source_span: 'Object record: accessionNumber A.3-1999, creditLine, galleryLocations; API record modified 2025-04-08'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1999年入藏至当前目录状态
+  role: 现藏／保管机构
+  scope: V&A对象目录对应的Fanelli查理一世胸像；不将收藏保管等同法律产权
 - source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
   source_type: work
   target: persons/francesco-guardi.md
@@ -12293,6 +12699,25 @@
   review_status: evidence_backed_relation
   role: 画中地点
   scope: 画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址
+- source: works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md
+  source_type: work
+  target: places/villa-loredan-paese.md
+  target_type: place
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: national-gallery-villa-del-timpano-arcuato
+    source_file: https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese
+    source_span: lines 104–105
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 画中建筑
+  scope: 书中图版64所称John Strange在Paese的乡间住宅；不配对某一具体馆藏画作
 - source: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md
   source_type: work
   target: persons/francesco-petrucci.md
@@ -17685,6 +18110,26 @@
   scope: 103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画
 - source: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
   source_type: work
+  target: persons/eberhard-zwicker.md
+  target_type: person
+  relation_type: supplied_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 本书图片来源所载版本
+  role: 本书图版复制图像供片者
+  scope: 图版50的复制图像；不表示其创作、持有或保管完整顶画
+- source: works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
+  source_type: work
   target: persons/giambattista-tiepolo.md
   target_type: person
   relation_type: created_by
@@ -18884,6 +19329,67 @@
   time: 本书所述时点
   role: 书中所在城市
   scope: 图版34
+- source: works/venturini-diana-hunting-print.md
+  source_type: work
+  target: persons/giovanni-francesco-venturini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: 'https://id.rijksmuseum.nl/200266316; Creation: printmaker'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1660–约1710（馆藏目录断代）
+  role: 蚀刻与雕版者；馆藏记录标为mentioned on object
+- source: works/venturini-diana-hunting-print.md
+  source_type: work
+  target: works/domenichino-hunt-of-diana.md
+  target_type: work
+  relation_type: derived_from
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: 'https://id.rijksmuseum.nl/200266316; Creation: after painting by Domenichino'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原画图像来源；版画与油画为不同作品对象
+- source: works/venturini-diana-hunting-print.md
+  source_type: work
+  target: persons/giacomo-rospigliosi.md
+  target_type: person
+  relation_type: dedicated_to
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: https://id.rijksmuseum.nl/200266316; dedication field and inscription
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 题献对象
+- source: works/venturini-diana-hunting-print.md
+  source_type: work
+  target: persons/lorenzo-paribeni.md
+  target_type: person
+  relation_type: dedicated_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref: https://id.rijksmuseum.nl/200266316; dedication field and inscription
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 题记所载题献者
 - source: archives/accademia-statutes-confirmed-1621.md
   source_type: archive
   target: institutions/accademia-di-san-luca.md
@@ -21348,6 +21854,26 @@
   time: '1963'
   role: 馆藏目录所载出版地
   scope: Oechslin复印馆藏的书目记Venezia；Cini出版项另含Firenze，未核题名页，不据此确定印刷地或实体册位置
+- source: archives/torcellan-settecento-veneto-1969.md
+  source_type: archive
+  target: persons/gianfranco-torcellan.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: archives-torcellan-settecento-veneto-1969
+    source_file: https://books.google.com/books?id=jC0ZAQAAMAAJ
+    source_span: 书目责任者与出版信息
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1969'
+  role: 作者
+  scope: 身后出版的论文集；目录署Torcellan为作者，不推定其编辑或逐篇作者责任
 - source: archives/vasalli-testimony-mola-pamfili.md
   source_type: archive
   target: persons/alessandro-vasalli.md

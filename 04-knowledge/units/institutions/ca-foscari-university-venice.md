@@ -80,6 +80,7 @@ relations:
 |---|---|---|
 | → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.unive.it/pag/17956/)；institutions-ca-foscari-university-venice；Who we are主校区段 |
 | ← 雇主（`employer_of`，反向投影） | [加埃塔诺·科齐（Gaetano Cozzi）](../persons/gaetano-cozzi.md) | 时间：1960–1965；1970–1998；角色：教师；范围：两个不连续任教时段；不覆盖1966–1969帕多瓦阶段；原断言与证据见发出端卡片“加埃塔诺·科齐（Gaetano Cozzi）”：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| ← employer_of（`employer_of`，反向投影） | [亚历山德罗·贝塔尼奥（Alessandro Bettagno）](../persons/alessandro-bettagno.md) | 时间：1972年起；角色：艺术史讲席教授；范围：任期结束时间未载；原断言与证据见发出端人物卡S3：[基金会简介](https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/) |
 
 ### 关系候选入口
 

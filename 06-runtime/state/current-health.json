@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T02:11:58",
+  "timestamp": "2026-09-25T04:51:07",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 970,
+    "total_units": 984,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,23 +26,23 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 970,
+    "total_units": 984,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 970,
+    "units_missing_any_assignment": 984,
     "field_coverage": {
-      "primary_domain": "0/970",
-      "primary_dimension": "0/970",
-      "primary_theme": "0/970",
-      "topic_memberships": "0/970"
+      "primary_domain": "0/984",
+      "primary_dimension": "0/984",
+      "primary_theme": "0/984",
+      "topic_memberships": "0/984"
     }
   },
   "counts_by_type": {
-    "persons": 369,
+    "persons": 373,
     "families": 9,
-    "institutions": 133,
-    "places": 144,
-    "works": 206,
-    "archives": 58,
+    "institutions": 136,
+    "places": 149,
+    "works": 207,
+    "archives": 59,
     "terms": 34,
     "procedures": 10,
     "events": 7
@@ -206,6 +206,7 @@
       "04-knowledge/units/persons/gentile-bellini.md",
       "04-knowledge/units/persons/giacinto-brandi.md",
       "04-knowledge/units/persons/giacinto-testa.md",
+      "04-knowledge/units/persons/giacomo-rospigliosi.md",
       "04-knowledge/units/persons/giacomo-triga.md",
       "04-knowledge/units/persons/giambattista-passeri.md",
       "04-knowledge/units/persons/giambattista-tiepolo.md",
@@ -229,6 +230,7 @@
       "04-knowledge/units/persons/giovanni-bonati.md",
       "04-knowledge/units/persons/giovanni-di-bartolomeo-testa.md",
       "04-knowledge/units/persons/giovanni-domenico-piastrini.md",
+      "04-knowledge/units/persons/giovanni-francesco-venturini.md",
       "04-knowledge/units/persons/giovanni-lanfranco.md",
       "04-knowledge/units/persons/giovanni-maria-viani.md",
       "04-knowledge/units/persons/giovanni-odazzi.md",
@@ -288,6 +290,7 @@
       "04-knowledge/units/persons/leopoldo-de-medici.md",
       "04-knowledge/units/persons/lodovico-gimignani.md",
       "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+      "04-knowledge/units/persons/lorenzo-paribeni.md",
       "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
       "04-knowledge/units/persons/louis-xiv.md",
       "04-knowledge/units/persons/luca-giordano.md",
@@ -368,6 +371,7 @@
       "04-knowledge/units/persons/pierre-rosenberg.md",
       "04-knowledge/units/persons/pierre-van-schuppen.md",
       "04-knowledge/units/persons/pieter-van-laer.md",
+      "04-knowledge/units/persons/pietro-aldobrandini.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
       "04-knowledge/units/persons/pietro-di-pietri.md",
@@ -458,6 +462,7 @@
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/charavay-freres.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
+      "04-knowledge/units/institutions/cini-institute-of-art-history.md",
       "04-knowledge/units/institutions/city-of-paris.md",
       "04-knowledge/units/institutions/clark-art-institute.md",
       "04-knowledge/units/institutions/colnaghi.md",
@@ -489,9 +494,11 @@
       "04-knowledge/units/institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md",
       "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
+      "04-knowledge/units/institutions/italian-state.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
+      "04-knowledge/units/institutions/kingdom-of-italy.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
       "04-knowledge/units/institutions/knights-hospitaller.md",
       "04-knowledge/units/institutions/kunsthistorisches-museum.md",
@@ -601,6 +608,7 @@
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
       "04-knowledge/units/places/florence.md",
+      "04-knowledge/units/places/frascati.md",
       "04-knowledge/units/places/galerie-mazarin.md",
       "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
       "04-knowledge/units/places/genoa.md",
@@ -661,6 +669,7 @@
       "04-knowledge/units/places/raleigh.md",
       "04-knowledge/units/places/residenz-wurzburg.md",
       "04-knowledge/units/places/rome.md",
+      "04-knowledge/units/places/room-19-helen-and-paris.md",
       "04-knowledge/units/places/rotterdam.md",
       "04-knowledge/units/places/rovereto.md",
       "04-knowledge/units/places/s-andrea-al-quirinale.md",
@@ -704,8 +713,10 @@
       "04-knowledge/units/places/versailles.md",
       "04-knowledge/units/places/via-margutta.md",
       "04-knowledge/units/places/vienna.md",
+      "04-knowledge/units/places/villa-aldobrandini-frascati.md",
       "04-knowledge/units/places/villa-borghese.md",
       "04-knowledge/units/places/villa-lante-rome.md",
+      "04-knowledge/units/places/villa-loredan-paese.md",
       "04-knowledge/units/places/villa-pisani.md",
       "04-knowledge/units/places/wurzburg.md",
       "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -911,6 +922,7 @@
       "04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md",
       "04-knowledge/units/works/velasquez-camillo-massimi.md",
       "04-knowledge/units/works/velasquez-juan-de-pareja.md",
+      "04-knowledge/units/works/venturini-diana-hunting-print.md",
       "04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md",
       "04-knowledge/units/archives/ameyden-relazione-1642.md",
       "04-knowledge/units/archives/apollo-periodical.md",
@@ -945,6 +957,7 @@
       "04-knowledge/units/archives/rosa-ruffo-letter-1666.md",
       "04-knowledge/units/archives/salviati-medici-letter-1662.md",
       "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
+      "04-knowledge/units/archives/torcellan-settecento-veneto-1969.md",
       "04-knowledge/units/archives/us-copyright-law.md",
       "04-knowledge/units/archives/virgil-aeneid.md",
       "04-knowledge/units/archives/waterhouse-rome-painting-1971.md",
@@ -1151,6 +1164,7 @@
       "04-knowledge/units/persons/gentile-bellini.md",
       "04-knowledge/units/persons/giacinto-brandi.md",
       "04-knowledge/units/persons/giacinto-testa.md",
+      "04-knowledge/units/persons/giacomo-rospigliosi.md",
       "04-knowledge/units/persons/giacomo-triga.md",
       "04-knowledge/units/persons/giambattista-passeri.md",
       "04-knowledge/units/persons/giambattista-tiepolo.md",
@@ -1174,6 +1188,7 @@
       "04-knowledge/units/persons/giovanni-bonati.md",
       "04-knowledge/units/persons/giovanni-di-bartolomeo-testa.md",
       "04-knowledge/units/persons/giovanni-domenico-piastrini.md",
+      "04-knowledge/units/persons/giovanni-francesco-venturini.md",
       "04-knowledge/units/persons/giovanni-lanfranco.md",
       "04-knowledge/units/persons/giovanni-maria-viani.md",
       "04-knowledge/units/persons/giovanni-odazzi.md",
@@ -1233,6 +1248,7 @@
       "04-knowledge/units/persons/leopoldo-de-medici.md",
       "04-knowledge/units/persons/lodovico-gimignani.md",
       "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+      "04-knowledge/units/persons/lorenzo-paribeni.md",
       "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
       "04-knowledge/units/persons/louis-xiv.md",
       "04-knowledge/units/persons/luca-giordano.md",
@@ -1313,6 +1329,7 @@
       "04-knowledge/units/persons/pierre-rosenberg.md",
       "04-knowledge/units/persons/pierre-van-schuppen.md",
       "04-knowledge/units/persons/pieter-van-laer.md",
+      "04-knowledge/units/persons/pietro-aldobrandini.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
       "04-knowledge/units/persons/pietro-di-pietri.md",
@@ -1403,6 +1420,7 @@
       "04-knowledge/units/institutions/capuchins.md",
       "04-knowledge/units/institutions/charavay-freres.md",
       "04-knowledge/units/institutions/chatto-and-windus.md",
+      "04-knowledge/units/institutions/cini-institute-of-art-history.md",
       "04-knowledge/units/institutions/city-of-paris.md",
       "04-knowledge/units/institutions/clark-art-institute.md",
       "04-knowledge/units/institutions/colnaghi.md",
@@ -1434,9 +1452,11 @@
       "04-knowledge/units/institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md",
       "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
       "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
+      "04-knowledge/units/institutions/italian-state.md",
       "04-knowledge/units/institutions/jesuits.md",
       "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
       "04-knowledge/units/institutions/kimbell-art-museum.md",
+      "04-knowledge/units/institutions/kingdom-of-italy.md",
       "04-knowledge/units/institutions/kings-college-cambridge.md",
       "04-knowledge/units/institutions/knights-hospitaller.md",
       "04-knowledge/units/institutions/kunsthistorisches-museum.md",
@@ -1546,6 +1566,7 @@
       "04-knowledge/units/places/england.md",
       "04-knowledge/units/places/europe.md",
       "04-knowledge/units/places/florence.md",
+      "04-knowledge/units/places/frascati.md",
       "04-knowledge/units/places/galerie-mazarin.md",
       "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
       "04-knowledge/units/places/genoa.md",
@@ -1586,6 +1607,7 @@
       "04-knowledge/units/places/palazzo-buonaccorsi.md",
       "04-knowledge/units/places/palazzo-chigi-odescalchi.md",
       "04-knowledge/units/places/palazzo-dei-conservatori.md",
+      "04-knowledge/units/places/palazzo-della-minerva.md",
       "04-knowledge/units/places/palazzo-doria-pamfili.md",
       "04-knowledge/units/places/palazzo-ducale.md",
       "04-knowledge/units/places/palazzo-pitti.md",
@@ -1609,6 +1631,7 @@
       "04-knowledge/units/places/raleigh.md",
       "04-knowledge/units/places/residenz-wurzburg.md",
       "04-knowledge/units/places/rome.md",
+      "04-knowledge/units/places/room-19-helen-and-paris.md",
       "04-knowledge/units/places/rotterdam.md",
       "04-knowledge/units/places/rovereto.md",
       "04-knowledge/units/places/s-andrea-al-quirinale.md",
@@ -1652,8 +1675,10 @@
       "04-knowledge/units/places/versailles.md",
       "04-knowledge/units/places/via-margutta.md",
       "04-knowledge/units/places/vienna.md",
+      "04-knowledge/units/places/villa-aldobrandini-frascati.md",
       "04-knowledge/units/places/villa-borghese.md",
       "04-knowledge/units/places/villa-lante-rome.md",
+      "04-knowledge/units/places/villa-loredan-paese.md",
       "04-knowledge/units/places/villa-pisani.md",
       "04-knowledge/units/places/wurzburg.md",
       "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -1862,6 +1887,7 @@
       "04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md",
       "04-knowledge/units/works/velasquez-camillo-massimi.md",
       "04-knowledge/units/works/velasquez-juan-de-pareja.md",
+      "04-knowledge/units/works/venturini-diana-hunting-print.md",
       "04-knowledge/units/archives/accademia-statutes-confirmed-1621.md",
       "04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md",
       "04-knowledge/units/archives/ameyden-relazione-1642.md",
@@ -1916,6 +1942,7 @@
       "04-knowledge/units/archives/savini-gubbio-terms-1608.md",
       "04-knowledge/units/archives/testi-fontana-bernini-letter.md",
       "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
+      "04-knowledge/units/archives/torcellan-settecento-veneto-1969.md",
       "04-knowledge/units/archives/us-copyright-law.md",
       "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
       "04-knowledge/units/archives/virgil-aeneid.md",
@@ -1976,8 +2003,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 369,
-      "tags": 369,
+      "sub_type": 373,
+      "tags": 373,
       "evidence_status": 0
     },
     "families": {
@@ -1986,23 +2013,23 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 133,
-      "tags": 133,
+      "sub_type": 136,
+      "tags": 136,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 141,
-      "tags": 144,
+      "sub_type": 145,
+      "tags": 149,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 203,
-      "tags": 206,
+      "sub_type": 204,
+      "tags": 207,
       "evidence_status": 0
     },
     "archives": {
-      "sub_type": 37,
-      "tags": 58,
+      "sub_type": 38,
+      "tags": 59,
       "evidence_status": 0
     },
     "terms": {
@@ -2077,12 +2104,12 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 734,
-    "sources_without_evidence_ref": 236,
-    "evidence_ref_resolvable": 1154,
+    "sources_with_evidence_ref": 736,
+    "sources_without_evidence_ref": 248,
+    "evidence_ref_resolvable": 1182,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1154,
-    "units_with_traceable_source": 970
+    "evidence_refs_total": 1182,
+    "units_with_traceable_source": 984
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -2095,8 +2122,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 1131,
-    "explicit_relations_with_evidence": 1131
+    "explicit_relations": 1159,
+    "explicit_relations_with_evidence": 1159
   },
   "source_hash": {
     "total_sources": 0,
@@ -2114,7 +2141,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 970,
+      "count": 984,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2266,6 +2293,7 @@
         "04-knowledge/units/persons/gentile-bellini.md",
         "04-knowledge/units/persons/giacinto-brandi.md",
         "04-knowledge/units/persons/giacinto-testa.md",
+        "04-knowledge/units/persons/giacomo-rospigliosi.md",
         "04-knowledge/units/persons/giacomo-triga.md",
         "04-knowledge/units/persons/giambattista-passeri.md",
         "04-knowledge/units/persons/giambattista-tiepolo.md",
@@ -2289,6 +2317,7 @@
         "04-knowledge/units/persons/giovanni-bonati.md",
         "04-knowledge/units/persons/giovanni-di-bartolomeo-testa.md",
         "04-knowledge/units/persons/giovanni-domenico-piastrini.md",
+        "04-knowledge/units/persons/giovanni-francesco-venturini.md",
         "04-knowledge/units/persons/giovanni-lanfranco.md",
         "04-knowledge/units/persons/giovanni-maria-viani.md",
         "04-knowledge/units/persons/giovanni-odazzi.md",
@@ -2348,6 +2377,7 @@
         "04-knowledge/units/persons/leopoldo-de-medici.md",
         "04-knowledge/units/persons/lodovico-gimignani.md",
         "04-knowledge/units/persons/lord-arundell-coke-correspondent.md",
+        "04-knowledge/units/persons/lorenzo-paribeni.md",
         "04-knowledge/units/persons/louis-antoine-de-pardaillan-de-gondrin.md",
         "04-knowledge/units/persons/louis-xiv.md",
         "04-knowledge/units/persons/luca-giordano.md",
@@ -2428,6 +2458,7 @@
         "04-knowledge/units/persons/pierre-rosenberg.md",
         "04-knowledge/units/persons/pierre-van-schuppen.md",
         "04-knowledge/units/persons/pieter-van-laer.md",
+        "04-knowledge/units/persons/pietro-aldobrandini.md",
         "04-knowledge/units/persons/pietro-antonio-novelli.md",
         "04-knowledge/units/persons/pietro-da-cortona.md",
         "04-knowledge/units/persons/pietro-di-pietri.md",
@@ -2518,6 +2549,7 @@
         "04-knowledge/units/institutions/capuchins.md",
         "04-knowledge/units/institutions/charavay-freres.md",
         "04-knowledge/units/institutions/chatto-and-windus.md",
+        "04-knowledge/units/institutions/cini-institute-of-art-history.md",
         "04-knowledge/units/institutions/city-of-paris.md",
         "04-knowledge/units/institutions/clark-art-institute.md",
         "04-knowledge/units/institutions/colnaghi.md",
@@ -2549,9 +2581,11 @@
         "04-knowledge/units/institutions/istituto-centrale-per-il-catalogo-e-la-documentazione.md",
         "04-knowledge/units/institutions/istituto-della-enciclopedia-italiana.md",
         "04-knowledge/units/institutions/istituto-per-la-collaborazione-culturale.md",
+        "04-knowledge/units/institutions/italian-state.md",
         "04-knowledge/units/institutions/jesuits.md",
         "04-knowledge/units/institutions/kegan-paul-trench-trubner.md",
         "04-knowledge/units/institutions/kimbell-art-museum.md",
+        "04-knowledge/units/institutions/kingdom-of-italy.md",
         "04-knowledge/units/institutions/kings-college-cambridge.md",
         "04-knowledge/units/institutions/knights-hospitaller.md",
         "04-knowledge/units/institutions/kunsthistorisches-museum.md",
@@ -2661,6 +2695,7 @@
         "04-knowledge/units/places/england.md",
         "04-knowledge/units/places/europe.md",
         "04-knowledge/units/places/florence.md",
+        "04-knowledge/units/places/frascati.md",
         "04-knowledge/units/places/galerie-mazarin.md",
         "04-knowledge/units/places/gallery-palazzo-buonaccorsi.md",
         "04-knowledge/units/places/genoa.md",
@@ -2701,6 +2736,7 @@
         "04-knowledge/units/places/palazzo-buonaccorsi.md",
         "04-knowledge/units/places/palazzo-chigi-odescalchi.md",
         "04-knowledge/units/places/palazzo-dei-conservatori.md",
+        "04-knowledge/units/places/palazzo-della-minerva.md",
         "04-knowledge/units/places/palazzo-doria-pamfili.md",
         "04-knowledge/units/places/palazzo-ducale.md",
         "04-knowledge/units/places/palazzo-pitti.md",
@@ -2724,6 +2760,7 @@
         "04-knowledge/units/places/raleigh.md",
         "04-knowledge/units/places/residenz-wurzburg.md",
         "04-knowledge/units/places/rome.md",
+        "04-knowledge/units/places/room-19-helen-and-paris.md",
         "04-knowledge/units/places/rotterdam.md",
         "04-knowledge/units/places/rovereto.md",
         "04-knowledge/units/places/s-andrea-al-quirinale.md",
@@ -2767,8 +2804,10 @@
         "04-knowledge/units/places/versailles.md",
         "04-knowledge/units/places/via-margutta.md",
         "04-knowledge/units/places/vienna.md",
+        "04-knowledge/units/places/villa-aldobrandini-frascati.md",
         "04-knowledge/units/places/villa-borghese.md",
         "04-knowledge/units/places/villa-lante-rome.md",
+        "04-knowledge/units/places/villa-loredan-paese.md",
         "04-knowledge/units/places/villa-pisani.md",
         "04-knowledge/units/places/wurzburg.md",
         "04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md",
@@ -2977,6 +3016,7 @@
         "04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md",
         "04-knowledge/units/works/velasquez-camillo-massimi.md",
         "04-knowledge/units/works/velasquez-juan-de-pareja.md",
+        "04-knowledge/units/works/venturini-diana-hunting-print.md",
         "04-knowledge/units/archives/accademia-statutes-confirmed-1621.md",
         "04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md",
         "04-knowledge/units/archives/ameyden-relazione-1642.md",
@@ -3031,6 +3071,7 @@
         "04-knowledge/units/archives/savini-gubbio-terms-1608.md",
         "04-knowledge/units/archives/testi-fontana-bernini-letter.md",
         "04-knowledge/units/archives/torcellan-andrea-memmo-1963.md",
+        "04-knowledge/units/archives/torcellan-settecento-veneto-1969.md",
         "04-knowledge/units/archives/us-copyright-law.md",
         "04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md",
         "04-knowledge/units/archives/virgil-aeneid.md",
@@ -3187,12 +3228,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 376,
+      "total": 380,
       "coverage": {
-        "name_original": "0/376",
-        "language_original": "0/376",
-        "name_zh": "0/376",
-        "translation_status": "0/376"
+        "name_original": "0/380",
+        "language_original": "0/380",
+        "name_zh": "0/380",
+        "translation_status": "0/380"
       }
     },
     "families": {
@@ -3205,28 +3246,28 @@
       }
     },
     "institutions": {
-      "total": 133,
+      "total": 136,
       "coverage": {
-        "name_original": "0/133",
-        "name_original_language": "0/133",
-        "name_zh": "0/133",
-        "translation_status": "0/133"
+        "name_original": "0/136",
+        "name_original_language": "0/136",
+        "name_zh": "0/136",
+        "translation_status": "0/136"
       }
     },
     "works": {
-      "total": 209,
+      "total": 210,
       "coverage": {
-        "title_original": "0/209",
-        "title_original_language": "0/209",
-        "title_zh": "0/209"
+        "title_original": "0/210",
+        "title_original_language": "0/210",
+        "title_zh": "0/210"
       }
     },
     "archives": {
-      "total": 60,
+      "total": 61,
       "coverage": {
-        "title_original": "0/60",
-        "title_original_language": "0/60",
-        "title_zh": "0/60"
+        "title_original": "0/61",
+        "title_original_language": "0/61",
+        "title_zh": "0/61"
       }
     },
     "terms": {
@@ -3240,9 +3281,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 821,
-    "indexed": 821,
-    "declared_total": 821,
+    "expected": 830,
+    "indexed": 830,
+    "declared_total": 830,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3250,14 +3291,14 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 1132,
-    "explicit_relation_count": 1131,
+    "relation_index_total": 1160,
+    "explicit_relation_count": 1159,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 1131,
+    "weak_evidence_count": 1159,
     "needs_evidence_count": 0,
-    "relation_type_coverage": "58/121"
+    "relation_type_coverage": "60/125"
   },
   "output_file_back": {
     "total_outputs": 3,
@@ -3317,22 +3358,23 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 970,
+    "total_units": 984,
     "source_count_distribution": {
-      "multi_source": 761,
-      "single_source": 209
+      "multi_source": 788,
+      "single_source": 196
     },
     "confidence_distribution": {
-      "missing": 970
+      "missing": 984
     },
     "consensus_distribution": {
-      "missing": 970
+      "missing": 984
     },
     "evidence_status_distribution": {
-      "source_backed": 970
+      "externally_verified": 6,
+      "source_backed": 978
     },
     "isolated_units": {
-      "count": 138,
+      "count": 136,
       "sample": [
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
@@ -3355,10 +3397,10 @@
         "persons/christina-of-sweden.md",
         "persons/clement-i.md",
         "persons/correggio.md",
-        "persons/eberhard-zwicker.md",
         "persons/enzo-crea.md",
         "persons/filippo-baldinucci.md",
-        "persons/francois-chauveau.md"
+        "persons/francois-chauveau.md",
+        "persons/francois-mansart.md"
       ]
     },
     "candidate_debt": {
@@ -3375,7 +3417,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 209,
+      "single_source_units": 196,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3400,7 +3442,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 970,
+    "total_files": 984,
     "total_findings": 1
   }
 }

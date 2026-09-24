@@ -91,6 +91,7 @@ units:
 - 04-knowledge/units/institutions/british-academy.md
 - 04-knowledge/units/institutions/british-museum.md
 - 04-knowledge/units/institutions/ca-foscari-university-venice.md
+- 04-knowledge/units/institutions/cini-institute-of-art-history.md
 - 04-knowledge/units/institutions/capitoline-museums.md
 - 04-knowledge/units/institutions/capuchins.md
 - 04-knowledge/units/institutions/charavay-freres.md
@@ -610,6 +611,7 @@ units:
 - 04-knowledge/units/places/palais-mazarin.md
 - 04-knowledge/units/places/palatinate.md
 - 04-knowledge/units/places/palazzo-barberini.md
+- 04-knowledge/units/places/palazzo-della-minerva.md
 - 04-knowledge/units/places/palazzo-buonaccorsi.md
 - 04-knowledge/units/places/palazzo-chigi-odescalchi.md
 - 04-knowledge/units/places/palazzo-dei-conservatori.md
@@ -680,6 +682,7 @@ units:
 - 04-knowledge/units/places/vienna.md
 - 04-knowledge/units/places/villa-borghese.md
 - 04-knowledge/units/places/villa-lante-rome.md
+- 04-knowledge/units/places/villa-loredan-paese.md
 - 04-knowledge/units/places/villa-pisani.md
 - 04-knowledge/units/places/wurzburg.md
 - 04-knowledge/units/procedures/artist-title-conferral.md
@@ -969,6 +972,17 @@ units:
 - 04-knowledge/units/works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md
 - 04-knowledge/units/institutions/rhode-island-school-of-design-museum.md
 - 04-knowledge/units/places/providence.md
+- 04-knowledge/units/persons/pietro-aldobrandini.md
+- 04-knowledge/units/persons/giovanni-francesco-venturini.md
+- 04-knowledge/units/persons/giacomo-rospigliosi.md
+- 04-knowledge/units/persons/lorenzo-paribeni.md
+- 04-knowledge/units/places/frascati.md
+- 04-knowledge/units/places/villa-aldobrandini-frascati.md
+- 04-knowledge/units/places/room-19-helen-and-paris.md
+- 04-knowledge/units/institutions/kingdom-of-italy.md
+- 04-knowledge/units/institutions/italian-state.md
+- 04-knowledge/units/works/venturini-diana-hunting-print.md
+- 04-knowledge/units/archives/torcellan-settecento-veneto-1969.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks

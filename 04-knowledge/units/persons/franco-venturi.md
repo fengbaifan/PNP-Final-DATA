@@ -124,6 +124,7 @@ relations:
 | → 受雇于（`employed_by`） | [都灵大学（University of Turin）](../institutions/university-of-turin.md) | 时间：1958年后至1984；角色：近代史教席；范围：Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1914-05-16；角色：出生；范围：出生地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
 | → 位于（`located_at`） | [都灵（Turin）](../places/turin.md) | 时间：1994-12-14；角色：去世；范围：去世地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
+| ← teacher_of（`teacher_of`，反向投影） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](gianfranco-torcellan.md) | 角色：学术培养者；范围：学术传记称Torcellan在都灵受Venturi学派培养；不推定学位或正式任职；原断言见发出端人物卡S5，具体印刷页待核 |
 
 ### 关系候选入口
 

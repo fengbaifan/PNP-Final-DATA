@@ -1,5 +1,5 @@
 generated: '2026-09-25'
-total: 821
+total: 830
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -477,8 +477,8 @@ index:
   language_original: ''
 - slug: persons/charles-i
   type: persons
-  name_en: Charles I
-  title: 查理一世（Charles I）
+  name_en: Charles I of England
+  title: 查理一世（Charles I of England）
   name_original: ''
   language_original: ''
 - slug: persons/charles-v
@@ -931,6 +931,12 @@ index:
   title: 贾钦托·泰斯塔（Giacinto Testa）
   name_original: ''
   language_original: ''
+- slug: persons/giacomo-rospigliosi
+  type: persons
+  name_en: Giacomo Rospigliosi
+  title: 贾科莫·罗斯皮廖西（Giacomo Rospigliosi）
+  name_original: ''
+  language_original: ''
 - slug: persons/giacomo-triga
   type: persons
   name_en: Giacomo Triga
@@ -1069,6 +1075,12 @@ index:
   title: 乔万尼·多梅尼科·皮亚斯特里尼（Giovanni Domenico Piastrini）
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-francesco-venturini
+  type: persons
+  name_en: Giovanni Francesco Venturini
+  title: 乔万尼·弗朗切斯科·文图里尼（Giovanni Francesco Venturini）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-lanfranco
   type: persons
   name_en: '"Giovanni Lanfranco"'
@@ -1096,7 +1108,7 @@ index:
 - slug: persons/giovanni-pesaro
   type: persons
   name_en: Giovanni Pesaro
-  title: 乔瓦尼·佩萨罗（Giovanni Pesaro）
+  title: 乔万尼·佩萨罗（Giovanni Pesaro）
   name_original: ''
   language_original: ''
 - slug: persons/giovanni-pietro-bellori
@@ -1427,6 +1439,12 @@ index:
   type: persons
   name_en: ''
   title: 洛伦佐·奥诺弗里奥·科隆纳（Lorenzo Onofrio Colonna）
+  name_original: ''
+  language_original: ''
+- slug: persons/lorenzo-paribeni
+  type: persons
+  name_en: Lorenzo Paribeni
+  title: 洛伦佐·帕里贝尼（Lorenzo Paribeni）
   name_original: ''
   language_original: ''
 - slug: persons/louis-antoine-de-pardaillan-de-gondrin
@@ -1913,6 +1931,12 @@ index:
   type: persons
   name_en: '"Pieter van Laer"'
   title: '"彼得·范拉尔（Pieter van Laer）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/pietro-aldobrandini
+  type: persons
+  name_en: Pietro Aldobrandini
+  title: 皮埃特罗·阿尔多布兰迪尼（Pietro Aldobrandini）
   name_original: ''
   language_original: ''
 - slug: persons/pietro-antonio-novelli
@@ -2795,6 +2819,12 @@ index:
   type: archives
   name_en: '''An Eighteenth-Century Venetian Figure: Andrea Memmo'''
   title: '''18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）'''
+  name_original: ''
+  language_original: ''
+- slug: archives/torcellan-settecento-veneto-1969
+  type: archives
+  name_en: Settecento veneto e altri scritti storici
+  title: 威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）
   name_original: ''
   language_original: ''
 - slug: archives/us-copyright-law
@@ -4075,6 +4105,12 @@ index:
   title: 胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）
   name_original: ''
   language_original: ''
+- slug: works/venturini-diana-hunting-print
+  type: works
+  name_en: Diana and Her Nymphs at an Archery Contest
+  title: 狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）
+  name_original: ''
+  language_original: ''
 - slug: families/aldobrandini-family
   type: families
   name_en: Aldobrandini Family
@@ -4273,6 +4309,12 @@ index:
   title: 查托与温达斯出版社（Chatto and Windus）
   name_original: ''
   language_original: ''
+- slug: institutions/cini-institute-of-art-history
+  type: institutions
+  name_en: Institute of Art History, Fondazione Giorgio Cini
+  title: 基奥尔乔·奇尼基金会艺术史研究所（Institute of Art History, Fondazione Giorgio Cini）
+  name_original: ''
+  language_original: ''
 - slug: institutions/city-of-paris
   type: institutions
   name_en: City of Paris
@@ -4459,6 +4501,12 @@ index:
   title: 文化合作研究所（Istituto per la collaborazione culturale）
   name_original: ''
   language_original: ''
+- slug: institutions/italian-state
+  type: institutions
+  name_en: Italian Republic
+  title: 意大利共和国（Italian Republic）
+  name_original: ''
+  language_original: ''
 - slug: institutions/jesuits
   type: institutions
   name_en: '"Jesuits"'
@@ -4475,6 +4523,12 @@ index:
   type: institutions
   name_en: Kimbell Art Museum
   title: 金贝尔艺术博物馆（Kimbell Art Museum）
+  name_original: ''
+  language_original: ''
+- slug: institutions/kingdom-of-italy
+  type: institutions
+  name_en: Kingdom of Italy
+  title: 意大利王国（Kingdom of Italy）
   name_original: ''
   language_original: ''
 - slug: institutions/kings-college-cambridge

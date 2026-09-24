@@ -28,9 +28,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 154–155; 章前：图版目录；印刷页xvi
+- citation: Wikipedia (en), “Louis XIV.” https://en.wikipedia.org/wiki/Louis_XIV. Accessed 2026-09-25.
+  location: 条目题名、早年身份与1643–1715年王位信息
+  sentence_summary: 条目所指为法国国王Louis XIV；页面pageprops指向Q7742。
+  evidence_ref:
+    doc_id: wikipedia-en-louis-xiv
+    source_file: https://en.wikipedia.org/wiki/Louis_XIV
+    source_span: title, lines 363–367; pageprops.wikibase_item=Q7742
+- citation: Wikidata, “Louis XIV of France” (Q7742). https://www.wikidata.org/wiki/Q7742. Accessed 2026-09-25.
+  location: 英文标签、描述、别名及enwiki sitelink
+  sentence_summary: 英文标签与描述指向1643–1715年法国国王Louis XIV，别名包含Louis XIV，enwiki sitelink为“Louis XIV”。
+  evidence_ref:
+    doc_id: wikidata-louis-xiv-q7742
+    source_file: https://www.wikidata.org/wiki/Q7742
+    source_span: English label and description; aliases; enwiki sitelink
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-25'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#亚历山大七世路易十四与查理一世身份对齐2026-09-25
 ---
 
 ## 内容
@@ -64,6 +78,13 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：王室庇护；范围：1703–1705，巴黎；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 43–46 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
+
+### 身份与外部链接
+
+| 字段 | 值／链接 | 状态与范围 |
+|---|---|---|
+| Wikipedia（en） | [Louis XIV](https://en.wikipedia.org/wiki/Louis_XIV) | 与Wikidata Q7742双向指向同一条目；仅作身份对齐。 |
+| Wikidata | [Q7742](https://www.wikidata.org/wiki/Q7742) | 英文标签、法国国王身份描述、别名和enwiki sitelink匹配；Wikipedia页面的wikibase item也为Q7742。 |
 
 ### 关系候选入口
 

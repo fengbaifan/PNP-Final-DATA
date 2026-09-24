@@ -20,9 +20,21 @@ sources:
   location: Staircase正文
   sentence_summary: Giovanni Battista Tiepolo于1752–1753年绘制楼梯顶画；表现四洲及中央神祇天空。
 created: '2026-09-14'
-updated: '2026-09-15'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#提埃坡罗作品关系集中定稿
+updated: '2026-09-25'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#现代人物身份对齐及图版供片关系补足2026-09-25
 relations:
+- relation_type: supplied_by
+  target: persons/eberhard-zwicker.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 172–172; 章前：图片来源；印刷页xvi
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 本书图版复制图像供片者
+  scope: 图版50的复制图像；不表示其创作、持有或保管完整顶画
+  time: 本书图片来源所载版本
 - relation_type: created_by
   target: persons/giambattista-tiepolo.md
   evidence_ref:

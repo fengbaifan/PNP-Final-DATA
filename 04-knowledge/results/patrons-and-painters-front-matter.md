@@ -1,24 +1,27 @@
 # 章前材料：知识元与关系工作结果
 
-任务：`patrons-and-painters-front-matter`；当前阶段为**初步对齐、补足和关系审查继续进行，尚未整体定稿**。截至2026-09-25，全库970个有效知识元、1132条关系索引。初始241条主候选中，228条映射到知识元、4条作属性／语境保留、9条暂缓；九项保持待证。最近核对五张人物卡的外部身份入口，并补足乔万尼·佩萨罗纪念碑制作、委托、资金和亲缘关系。其他实体的身份、版本、内容和关系仍有缺口；知识发现与页面暂停。
+任务：`patrons-and-painters-front-matter`；当前阶段为**初步对齐、补足和关系审查继续进行，尚未整体定稿**。本轮新增Torcellan论文集端点并登记师承、作者关系后，全库984个有效知识元、1160条关系索引（1159条显式、1条规则派生）。全量闭包16步通过，274项测试通过，结构健康度130/130；关系断端点、非法类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示，不影响本批关系闭包。初始241条主候选中，228条映射到知识元、4条作属性／语境保留、9条暂缓；九项保持待证。近期已将图版27a的Fanelli《查理一世》与V&A馆藏A.3-1999对齐，补《狄安娜狩猎》及后出版画证据链，并更新图版02a《马费奥·巴贝里尼肖像》的身份、购藏与有日期展出关系。Daphne Ionides的独立身份仍未确认；图版17c Paolo Giordano Orsini现已与Q519364及英／意Wikipedia双向对齐；图版48b Zaccaria Sagredo依据馆藏目录的检察官称谓与Treccani生平，已对齐到1572–1647年的威尼斯检察官，而不是1653–1729年的收藏家同名者。其他实体的身份、版本、内容和关系仍有缺口；知识发现与页面暂停。
 
 ## 当前成果
 
-- 本任务累计**508个新知识元**、**51个既有有效知识元更新**、**4个旧卡整理后接收**，共涉及563个KU；这些是章前任务计数，不表示全部对象资料齐全。最新章前批次新增7个人物端点及9条正式关系：6位纪念碑制作者、Leonardo Pesaro委托人、Giovanni遗嘱资金关系，以及Leonardo与Giovanni的亲缘边；另更新Aristotle与Homer两张既有卡的身份入口，未新增关系。全库索引当前为970个KU、1132条关系；第一章样例近期批次累计新增7个KU及10条关系。初始113件图版作品有出向正式关系，但身份核对与正文关系反查仍须继续。
+- 本任务累计**522个新知识元**、**67个既有有效知识元更新**、**4个旧卡整理后接收**，共涉及593个KU；这些是章前任务计数，不表示全部对象资料齐备。最近批次分别落实图版27a《查理一世》与V&A A.3-1999、《狄安娜狩猎》的委托和收藏链、图版02a马费奥·巴贝里尼肖像的身份、购藏与有日期展出关系，Giovanni Pesaro、Alexander VII、Louis XIV、Charles I的人物身份／履历补足，Norah Smallwood、Eberhard Zwicker、Paolo Giordano Orsini身份对齐、Eberhard的图版50供片关系，以及Elizabeth Orna、Daphne Ionides、Alessandro Bettagno和Gianfranco Torcellan的身份／内容／关系补足。图版48b的Zaccaria Sagredo现已对齐至1572–1647年人物，未填QID。全库关系索引由最近闭包更新；第一章样例和章前其他对象的身份核对与正文关系反查仍须继续。
 - 初始241条主候选中，228条映射到知识元，4条作属性／语境保留，9条暂缓。图版中的多名创作者、肖像对象、保管机构与地点拆成独立端点，并进行跨图版复用，所以候选行数不等于实体数量。
 - 书目缩引额外核出两种刊载期刊；仅依据所列书目和索引条目，不表示原论文全文已读。
 - 全部新增卡有中英文标题与描述及分字段内容；原书具名对象保留原句与页行，外部补入对象只保留实际外部出处，不伪造原书引文。关联对象提供可点击KU链接，候选与正式关系分开。
 
 | 类型 | 新建 | 更新已有有效KU | 旧卡整理后接收 |
 |---|---:|---:|---:|
-| 人物 | 195 | 33 | 3 |
-| 机构 | 84 | 7 | 0 |
-| 文献 | 19 | 1 | 0 |
+| 人物 | 195 | 41 | 3 |
+| 机构 | 86 | 7 | 0 |
+| 文献 | 20 | 1 | 0 |
 | 术语 | 4 | 0 | 0 |
-| 地点 | 90 | 10 | 0 |
+| 地点 | 91 | 10 | 0 |
 | 事件 | 1 | 0 | 0 |
-| 作品 | 112 | 0 | 1 |
+| 作品 | 113 | 4 | 1 |
 | 家族 | 3 | 0 | 0 |
+| 程序（procedure） | 1 | 0 | 0 |
+
+**计数待核：**上表“新建”分项合计514，低于任务累计522共8个；更新分项合计63，低于任务累计67共4个。差额尚未逐类型核定，不将其擅自归类。
 
 ## 唯一成果与依据
 
@@ -26,6 +29,18 @@
 - [实体候选](../../03-processing/patrons-and-painters-front-matter/results/entity-candidates.md)：原始提及与类型边界。
 - [知识元映射与登记过程](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)：全部候选与角色端点的知识元链接、属性处置及待决理由。
 - [佩萨罗纪念碑制作关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#乔万尼佩萨罗纪念碑制作关系补足2026-09-25)：本批身份入口、委托人与资金关系辨析及关系证据。
+- [Fanelli查理一世胸像版本与收藏对齐](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#章前作品版本与收藏链对齐fanelli与查理一世胸像2026-09-25)：V&A馆藏身份、Treccani对应依据、Daphne Ionides未决身份边界及新增现藏关系。
+- [狄安娜狩猎委托、版画与陈列关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#狄安娜狩猎委托版画与陈列关系补足2026-09-25)：补入Frascati别墅、委托与历次取得／现陈列关系、Venturini版画、题献者与受题献者，并记录金额及身份边界。
+- [马费奥·巴贝里尼肖像版本身份与购藏关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#马费奥巴贝里尼肖像版本身份与购藏关系补足2026-09-25)：区分Palazzo Corsini同名肖像，记录Q2734111双向匹配、国家购藏者和两段临时展出关系，并保留最终移交状态未证实的边界。
+- [乔万尼·佩萨罗身份与关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#乔万尼佩萨罗身份与关系补足2026-09-25)：补入Q645781双向身份入口、生卒与外交／总督履历，并反查现有纪念碑资助、委托和亲属关系；未重复增加关系边。
+- [亚历山大七世、路易十四与查理一世身份对齐](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#亚历山大七世路易十四与查理一世身份对齐2026-09-25)：三张人物卡均补入经Wikipedia—Wikidata双向核对的身份入口；Charles I规范名改为Charles I of England，不增加关系。
+- [现代人物身份对齐及图版供片关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#现代人物身份对齐及图版供片关系补足2026-09-25)：Norah Smallwood与Q7050230双向匹配并补入相关出版履历；Eberhard Zwicker确认为Halle摄影师，排除同名声学家Q105339，将其连接为图版50复制图像供片者。
+- [Paolo Giordano Orsini身份对齐与内容补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#paolo-giordano-orsini-身份对齐与内容补足2026-09-25)：补入英／意Wikipedia与Q519364双向身份入口、学术专著依据及公爵履历。
+- [Zaccaria Sagredo肖像对象身份对齐](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#zaccaria-sagredo-肖像对象身份对齐2026-09-25)：用科雷尔版画目录与Treccani的任职记录区分1572–1647年检察官和1653–1729年收藏家，更新肖像对象的人物端点，不虚填QID或新增关系。
+- [Elizabeth Orna身份对齐与索引贡献补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#elizabeth-orna-身份对齐与索引贡献补足2026-09-25)：按第一版序言PDF校正OCR姓名，并记录出版社简介和本人访谈支持的职业履历；不虚填QID，保留原有贡献关系。
+- [Daphne Ionides身份对齐与收藏经历补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#daphne-ionides-身份对齐与收藏经历补足2026-09-25)：以两家美术馆记录和官方遗产通知交叉核实其1896–1966年身份及收藏活动；没有把外部捐赠扩成项目关系。
+- [Alessandro Bettagno身份、职业履历与任职关系补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#alessandro-bettagno身份对齐职业履历与任职关系补足2026-09-25)：依据奇尼基金会资料补入生卒和履历，新增艺术史研究所端点及3条有据任职关系。
+- [Torcellan身份、师承与1969年著作补足](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#torcellan身份师承与1969年著作补足2026-09-25)：依据作者规范与学术传记记录师承，并新增身后论文集端点和作者关系。
 - [有效登记](../accepted.yml)：当前KU路径；每个对象正文唯一，不在本报告复制。
 
 可直接查看：[芒比的全名与昵称](../units/persons/a-n-l-munby.md)、[尼科尔森的全名与昵称](../units/persons/benedict-nicolson.md)、[托马索·基亚里](../units/persons/tommaso-chiari.md)、[提埃坡罗及本轮两件作品入口](../units/persons/giambattista-tiepolo.md)、[科涅克—杰藏宴会](../units/works/tiepolo-banquet-cognacq-jay.md)、[维多利亚国家美术馆藏宴会](../units/works/tiepolo-banquet-victoria.md)。
@@ -82,7 +97,7 @@ REV-093的27张受影响卡检查无确定性发现，27条原书摘录与行段
 
 图版52b[《蒂洛特森大主教寓意纪念墓》](../units/works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md)补入Canaletto、Cimaroli、Pittoni的全名与建筑／风景／人物分工，以及[MacSwinny](../units/persons/owen-mcswiny.md)组织委托的外部依据。John Tillotson与Peter Moores分别为纪念对象、后来的收藏者；NPG明确区分Moores原画和其他版本，没有把Zeri另一记录的尺寸与最新所知位置混入。
 
-继续**初步对齐**：将其余已登记对象按共同来源集中核对，重点为爵号／收藏者、作者简称和版本；难解供片署名有新线索再推进，避免阻滞其他对象。图版57第二卷单册信息、两幅插图具体刻版署名及Gilmartin页码保留待核。有充分身份依据的对象可带明确内容缺口交补足。现有第一章结果继续按其自己的来源范围和任务结果解释。
+继续**初步对齐与补足**：将其余已登记对象按共同来源集中核对，重点为爵号／收藏者、作者简称和版本；难解供片署名有新线索再推进，避免阻滞其他对象。图版57第二卷单册信息、两幅插图具体刻版署名及Gilmartin页码保留待核。有充分身份依据的对象可带明确内容缺口交补足，并反查作品、任职、亲缘、赞助及收藏关系。现有第一章结果继续按其自己的来源范围和任务结果解释。
 
 REV-083–086的已同步基线为`7a04647`。REV-092提交范围为REV-087–091接续对齐成果、用户记录及对应生成索引；同步以Git `main`与`origin/main`的实际提交一致性核验，不由业务进度推导。
 

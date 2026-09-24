@@ -37,6 +37,10 @@ types:
   - creator_of
   - child_of
   - derived_from
+  - dedicated_by
+  - dedicated_to
+  - dedicator_of
+  - dedication_recipient_of
   - disambiguates
   - disputed_with
   - exemplified_by
@@ -164,6 +168,10 @@ inverse:
   creator_of: created_by
   child_of: parent_of
   derived_from: source_of
+  dedicated_by: dedicator_of
+  dedicated_to: dedication_recipient_of
+  dedicator_of: dedicated_by
+  dedication_recipient_of: dedicated_to
   disputed_with: disputed_with
   exemplified_by: instantiates
   has_subject: subject_of

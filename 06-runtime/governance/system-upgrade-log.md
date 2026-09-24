@@ -567,3 +567,16 @@ AGENTS目录职责增加07，current-requirements增加R-35；六阶段pipeline�
 哈斯克尔与赖兰兹的入学、鲍彻与哈里斯的学位教育已有来源及机构端点。受控词表新增educated_at／education_of，正文标签为“就读于／提供教育”，专门表达person到教育机构；trained_by继续表达个人研究指导，employed_by表达雇佣，member_of表达组织成员。role保存阶段或学位，时间按已知入学或就读事实填写，不由入学推断毕业。只补出现有字段所需语义，不增加阶段或审批。
 
 4条实际就读关系已应用，人物发出端与机构反向入口、词表逆关系核对通过；16步同步检查、系统升级链与274项测试通过。此为实际关系类型与展示的检查，不代表全部人物关系已经完成。页面继续暂停。
+
+
+## REV-093执行接续：建筑产权与地点位置关系（2026-09-25）
+
+National Gallery来源将Villa Loredan明确称为John Strange在Paese的乡间住宅，同时本书目录描述一件John Strange别墅景观。现有正文类型模板已要求地点／建筑记录所有权史，但关系契约只把`owned_by`说明为work→所有者，也未覆盖建筑place→所在place的`located_at`。为在不增加新谓词的情况下表达已证关系，更新`.agents/skills/ingest/references/relation-types.md`与`.agents/skills/relate/references/relation-governance.md`：`owned_by`可用于有直接来源支持的建筑／地产place→历史所有人；`located_at`可用于建筑／地点place→更大地点place。继续区分所有权、管理、居住、使用及政治隶属；来源未给产权日期不推定。
+
+没有改变受控词表、inverse映射、阶段或Skill数量。关系端点写入Villa Loredan地点卡，John Strange人物卡补双向Wiki身份入口和Royal Society规范记录，图版64作品卡只连接所描绘建筑，明确不与Met／National Gallery具体馆藏画作合并。旧人物卡误显示来自乔瓦尼·佩萨罗纪念碑的无关反向关系，已移除并以真实产权反向入口替代。
+
+本次使用现有关系类型，仅做其对象范围澄清；按当前改动重跑全库闭包与必要检查。工作未提交或推送，知识发现、页面和人工校验仍暂停。
+
+## REV-093执行接续：作品题献关系类型（2026-09-25）
+
+博尔盖塞美术馆与Rijksmuseum、马德里圣费尔南多皇家美术学院的馆藏记录明确记载《狄安娜狩猎》版画题献给枢机Giacomo Rospigliosi、由Lorenzo Paribeni题献。现有词表没有区分受题献者与题献者的关系类型，故在唯一受控词表加入`dedicated_to`／`dedication_recipient_of`及`dedicated_by`／`dedicator_of`两组方向对应，并在关系契约说明其适用证据及与创作、委托、赞助的边界。此更改服务于当前有据作品实例，不预设其他对象均须有题献关系。此变更后的全库关系类型映射、索引、反向阅读入口通过闭包；16步同步检查及274项测试通过，relation consistency断端点、非法类型、缺inverse、弱证据均为0。本轮总体内容质量扫描保留1项既有标题格式问题，见Montaiglon文献卡；与本变更无关。

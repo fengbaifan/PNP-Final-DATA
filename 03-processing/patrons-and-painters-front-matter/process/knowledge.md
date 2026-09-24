@@ -2,6 +2,18 @@
 
 task-id：`patrons-and-painters-front-matter`；REV-085–087。前置输入为[摄入与处理定稿](../results/stages.md)及[实体候选](../results/entity-candidates.md)。前半部分保留REV-085登记判断与写回历史；候选映射维护当前去向。外部核对和改变判断的依据见[REV-086](#初步对齐rev-086)及[REV-087](#图版作者与版本对齐rev-087)，当前状态见04任务结果。
 
+## 狄安娜狩猎委托、版画与陈列关系补足（2026-09-25）
+
+本轮以既有《狄安娜狩猎》作品卡为起点，完整读取博尔盖塞美术馆对象目录中基本字段、委托与取得叙述、来源沿革和版画段；另读官方19号厅页面、拉齐奥大区《Tuscolane别墅》Villa Aldobrandini小节、Frascati市政府地点页、相关英文Wikipedia正文和Wikidata身份记录、Rijksmuseum RP-P-OB-38.357完整目录、马德里圣费尔南多皇家美术学院B-39-041版画目录及相关人物权威记录。网页正文与Wikidata页面身份／sitelink逐项核对：Pietro Aldobrandini—Q691894、Frascati—Q190963、Villa Aldobrandini（Frascati）—Q748743、Giovanni Francesco Venturini—Q5563849、Giacomo Rospigliosi—Q3105088；Q748743不与罗马同名别墅Q4011748合并，Venturini不与赛车手同名者合并。Venturini另核Getty ULAN 500005080。Lorenzo Paribeni只由版画目录和题记识别为题献者，不补无依据生卒、职业或外部标识。
+
+博尔盖塞目录将油画记为1616–17年、布面油画、225×320厘米、馆藏号053；原由Cardinal Pietro Aldobrandini委托，原定用于“Frascati的别墅”，1617年转入Scipione Borghese收藏，现由馆方编目并陈列在19号海伦与帕里斯厅；1902年由“意大利国家”购入。拉齐奥官方材料识别Frascati的别墅为Villa Aldobrandini，并称Clement VIII于1598年前后赠予Pietro，另列家族所有权沿革。英文Wikipedia该别墅条目正文及Q748743指向Frascati，惟信息框地点写Rome；与正文、地区官方记录冲突的字段不采纳。1902年的政治实体按Q172579及Treccani所载历史名称辨认为Kingdom of Italy；记录为历史取得关系，不推断当前法律产权。
+
+馆方称1617年支付150 scudi是针对《狄安娜狩猎》与《库迈女先知》两件作品的总额；目录同时转述Passeri记载的40 scudi并说明学者对定金、最终补偿和阿尔多布兰迪尼部分付款的解释不同。本卡只记录两件作品合计的150 scudi，不拆价，也不将方法、总额或存在争议的40 scudi写成单件确定成交价。当前保存取得者和1617时间关系，争议及限定见该作品的relation scope和沿革表。
+
+Rijksmuseum将RP-P-OB-38.357著录为Venturini蚀刻／雕版，题献给Giacomo Rospigliosi，由题记所署Lorenzo Paribeni题献；同目录给出1660–约1710断代、351×461毫米版面尺寸。马德里B-39-041记录同一构图和相同版面尺寸，刊出相同题献铭文，可作同版另一印本对照；仅Rijksmuseum印本作为本次作品KU，不把两个实物合并。原画与版画按不同作品保存`derived_from`，分别记录画家与版画责任；受题献者、题献者分建明确端点，未混作创作者或赞助人。
+
+为准确表达版画题献，唯一受控关系词表新增`dedicated_to`↔`dedication_recipient_of`及`dedicated_by`↔`dedicator_of`；对应正文语义补于relation-types参考，并记录在系统升级日志。新增9个KU（4人物、3地点、1机构政治实体、1作品），更新既有《狄安娜狩猎》卡；正式新增12条源关系。全库关系索引闭合为1148条（1147条显式、1条规则派生）；目标端点0断裂、受控类型与反向映射0错误、证据缺失0。完整16步闭包及274项测试通过。完成状态不由这批来源覆盖推及其他人物作品清单、家族所有权或全任务关系审查。
+
 ## 判断与范围
 
 - 对照有效登记的418个KU及未接收旧卡，逐项判断人物、作品、机构及空间。相同作者和上下文可支持复用；同题、同姓、爵号或同一建筑中的作品不能单独证明同一性。
@@ -2437,3 +2449,159 @@ Leonardo新建人物端点，并另与Giovanni记录 `kin_of`（侄子）。委�
 ### 当前写回与交接
 
 新增6位制作者及Leonardo共7个person知识元，纪念碑作品新增6条创作边、1条委托边和1条遗嘱资助／赞助边；Leonardo与Giovanni另有1条亲缘边。被引用关系均有实际来源及边界；未确认的Falcone部件角色、Leonardo其他身份字段不猜补。此项是一个作品关系链的实质补足，不能代表章前其余对象完成对齐、全面补足或关系定稿。接下来优先处理剩余已有KU的外部身份入口缺口及其正文已采纳而未形式化的具体关系；9项主候选继续暂缓。
+
+
+## 章前实体身份对齐与地点／作品关系补足：约翰·斯特兰奇（2026-09-25）
+
+### 对齐与补足
+
+| 对象 | 实际读取与比较 | 结论 |
+|---|---|---|
+| John Strange | 英文Wikipedia《John Strange (diplomat)》完整身份正文、作品、遗产、亲属和参考文献；Wikipedia page information（最后编辑2026-01-11）；Wikidata Q6259378英文标签、描述、别名、适用属性和sitelinks | Wikipedia页面的Wikidata入口为Q6259378；Q6259378反向enwiki sitelink标题同为“John Strange (diplomat)”。1732–1799、生于Barnet、英国外交官及威尼斯任职语境相合，身份双向通过。只采纳本章所需身份和馆方委托事实，不把百科中未核的家庭细节批量移入。 |
+| John Strange规范记录 | Royal Society目录NA4953实际读取身份字段、教育与履历 | 支持Strange; John、英国籍、生卒地点、Cambridge教育、考古研究、1766年选举及1773年威尼斯英国公使。专业规范记录与Wiki页面分开登记。 |
+| Villa Loredan | National Gallery《Villa del Timpano Arcuato at Paese》条目全文；Met《The Villa Loredan, Paese》对象说明与Object Information | National Gallery说Strange委托的四幅别墅景观中三幅描绘Villa Loredan，该处是他的Paese乡间住宅；Met另有题为《The Villa Loredan, Paese》的馆藏画作。两条记录支持建筑身份和所有者，但没有证明Met对象就是Haskell图版64，故不合并作品版本或登记馆藏号到本书作品卡。 |
+
+### 端点及关系处理
+
+新增地点KU [洛雷丹别墅（Villa Loredan, Paese）](../../../04-knowledge/units/places/villa-loredan-paese.md)，复用既有人物John Strange、地点Paese及瓜尔迪图版64作品。形成三条正式关系：Villa Loredan `owned_by` John Strange；Villa Loredan `located_at` Paese；图版64作品 `has_subject` Villa Loredan。地点卡记录历史所有权，但来源不提供产权起止／转移日期，故关系不补造时间。National Gallery记四幅系列委托，却未将图版64定位到具体馆藏画或确认其在系列中的精确版本，本轮不新增图版64→Strange的单件 `commissioned_by` 边。
+
+### 关系与规则修正
+
+复查John Strange人物卡发现，其手写关系展示误引乔瓦尼·佩萨罗纪念碑的反向投影，端点标签、事实范围和来源均与John Strange不符。该行非frontmatter正式关系；现删除错误展示，改为Villa Loredan历史所有权的真实反向入口。
+
+为表达有据的建筑产权与建筑所在城市，现行关系契约明确 `owned_by` 可用于建筑／地产place→历史所有人，并允许 `located_at` 用于建筑／地点place→更大地点place。词表名称和inverse未增项；居住、管理、使用及地点政治隶属不因此等于所有权或物理位置。本规则变化记录在 `06-runtime/governance/system-upgrade-log.md`。
+
+全库有效KU中未含外部URL的人物卡由上一轮定位的20张降至19张，作品卡由52张降至51张。此为来源URL登记缺口定位，不证明对象从未查阅，也不等于剩余身份未对齐或外部补足状态；9项主候选仍保持pending。
+
+
+## 章前作品版本与收藏链对齐：Fanelli与查理一世胸像（2026-09-25）
+
+### 实际阅读与身份裁决
+
+| 来源 | 实际读取 | 对本对象的证据范围 |
+|---|---|---|
+| V&A官方对象目录，King Charles I，馆藏号A.3-1999、系统号O11798 | 完整读取馆藏API对象记录，包括题名、物件类型、制作者、年代、制作地、材质、尺寸、描绘对象、描述、信用／购藏行、馆藏号、展厅标签、现陈列位置及记录修改日期；对应网页为[馆藏对象页](https://collections.vam.ac.uk/item/O11798/) | 记录Francesco Fanelli所作查理一世青铜胸像，约1635–1640、伦敦、失蜡铸造；高24.2厘米；馆藏号A.3-1999；现陈列于British Galleries第56室。目录称该肖像胸像为已知唯一版本。购藏号给出1999年入藏年；没有公布此前产权链或Daphne Ionides姓名。 |
+| Treccani《意大利人传记辞典》Francesco Fanelli条 | 完整阅读可见条目；对本对象采用其查理一世肖像段及参考书目中的Haskell条目（段落69–72、97） | 明确记有Ionides收藏中的Fanelli查理一世小型胸像，提及胸甲的独角兽和海神，并引Haskell 1985年意大利版第281页图版27a。 |
+| Haskell《Patrons and Painters》图版目录，本书1980年修订版、2006年印次 | 核对已登记原句与版次信息 | 图版27a记Fanelli《Charles I》，括注“Miss Daphne Ionides, London”。 |
+
+V&A记录、Treccani对Ionides收藏胸像及其辨识性装饰的描述、以及Haskell所列图版27a在作者、人物、收藏语境和图版号上相互吻合，且V&A称此类胸像为唯一已知版本。因此将既有图版27a作品卡与V&A A.3-1999对齐；未另建重复作品KU。Treccani所说“Ionides collection”没有独立点名Daphne，故Daphne仍只按Haskell图版目录所给姓名和收藏角色登记；未找到足以确认其出生、死亡、家族分支或规范标识的独立权威记录，不与其他Ionides成员合并，也不臆填QID。
+
+### 成稿与关系处理
+
+在[查理一世肖像](../../../04-knowledge/units/works/francesco-fanelli-charles-i.md)补入V&A馆藏号、馆方题名、约1635–1640年断代、伦敦制作、青铜／失蜡铸造、尺寸和现陈列。原书的创作者、肖像对象、Daphne Ionides收藏归属与London来源时点继续各按原句保留。新增作品→V&A `held_by`正式关系，时间限定为1999年入藏至当前目录状态，范围限馆方保管，不写成法律产权。
+
+正式关系现为原书支持的创作者、肖像人物、1980年版所记的Daphne Ionides收藏者和London位置，以及馆方支持的V&A保管关系。没有推导委托人、当前法律所有者、由Daphne直接转交V&A的转移过程或具体产权日期。9项主候选未触及，仍保持待证。
+
+本批只更新1个既有作品KU，不新增KU；作品外部URL登记定位数由51张降至50张，该数字仅是URL检索定位，不是身份对齐或补足完成量。全库总KU仍为971；正式关系增加1条，闭包后关系索引为1136条（1135条显式、1条规则推导）。本批后闭包16步通过，274项测试通过；内容机械检查仍有1项既存标题格式问题，关系断端点、非法类型、缺失反向映射和弱证据均为0。第一章样例摄入／处理与章前任务边界不变；知识发现、页面和人工校验继续暂停。
+
+## 马费奥·巴贝里尼肖像版本身份与购藏关系补足（2026-09-25）
+
+### 身份与版本辨析
+
+复核章前图版02a原句“Attributed to Caravaggio: Maffeo Barberini (Private Collection, Florence)”及既有知识元。英文Wikipedia《Portrait of Maffeo Barberini》全文、信息框、参考文献与页面元数据于本轮完整读取；页面记录约1598年布面油画、124×90厘米、描绘未来教宗乌尔班八世，并记2026年意大利国家购藏。由页面Wikidata链接进入Q2734111；Q2734111反向列出enwiki同名页面，标题、图像、作者（带attribution限定）、主体与尺寸相合，双向身份通过。Wikipedia所列2026年后常设收藏说法进一步对照馆方与参议院官方资料，不直接采纳其简化状态。
+
+Gallerie Nazionali Barberini Corsini 2024年展览页称《蒙西尼奥尔马费奥·巴贝里尼肖像》来自私人收藏，展于Palazzo Barberini；2026年3月购藏公告记签署购买契约、价格3000万欧元、归属Caravaggio由Longhi提出且学者一致认可，并称行政手续完成后将纳入意大利国家财产、分配给国立古代艺术美术馆。参议院2026年展览页进一步记作品已由意大利国家购藏、5月28日至6月21日展于Palazzo della Minerva的Sala Capitolare，并明确这是最终移交至Palazzo Barberini之前的临时展出。故正式记录国家取得及两段有日期的临时展出位置；最终移交仍按来源所述为后续安排，本轮不登记为已完成的Galleria持有关系，不判断2026年6月之后的实际存放地。
+
+另核意大利文化遗产总目录0900745773的同名Maffeo Barberini肖像：其为不同构图，作品描述列桌面、书本和花瓶，尺寸及Corsini家族所有沿革另成一系，现藏Palazzo Corsini。本章图版02a的私藏肖像与2024年首展、2026年购藏公告所指作品配合；本卡沿原路径补足，不与Corsini对象合并。原书“Attributed to”继续作为原文用语保存，馆方后出的归属共识另记，不倒写来源状态。
+
+意大利国家端点使用机构类`Italian Republic`知识元，身份入口Q38与英文Wikipedia Italy互链相合；官方宪法正文第一条称意大利为民主共和国。该端点与`places/italy.md`的历史地理语境、以及既有1861–1946年`Kingdom of Italy`分别处理。Palazzo della Minerva由参议院官方活动地点与葡萄牙语Wikipedia／Q58337859互链辨识；当前没有英语或意大利语Wikipedia页面，故不伪称存在相应语言页面。该建筑与邻接的Santa Maria sopra Minerva教堂分立，并链接既有Rome地点。
+
+### 关系与字段成稿
+
+在既有肖像卡补入约1598年、布面油画、124×90厘米、现行归属判断与身份入口；保留原书所列佛罗伦萨私人收藏城市关系及图版02a人物对象关系。新增：作品`created_by` Caravaggio（scope保留原书attributed及现行馆方归属状态）、`acquired_by` Italian Republic（2026年3月，区分购藏公告与后续移交）、两条按时间限定的`located_at`（Palazzo Barberini，2024年11月至Caravaggio 2025闭幕；Palazzo della Minerva，2026年5月28日至6月21日）。Palazzo della Minerva地点卡另连至Rome。没有把暂时展览等同于长期馆藏或产权，也没有将计划中的Galleria永久接收标为已完成边。
+
+新增Italian Republic与Palazzo della Minerva两个KU，更新既有作品KU，正式新增5条关系。更新后章前任务累计520个新KU、54个既有KU更新、4个旧卡整理接收；全库982个有效KU，关系索引目标为1153条（1152显式、1规则派生）。241项主候选仍为228映射、4属性／语境保留、9项待证；本批不触及九项暂缓对象。闭包结果与整体关系审查状态以本批验证后更新的04结果文件为准。
+
+
+## 乔万尼·佩萨罗身份与关系补足（2026-09-25）
+
+复核已登记人物卡：卡片原先只保存图版41b中的纪念对象角色，且没有外部身份入口；其侄子Leonardo Pesaro和《乔万尼·佩萨罗总督纪念碑》已有知识元，后者已记录委托与遗嘱资金关系。本批补足人物身份和与本项目直接相关的经历，不重复建立同一纪念碑关系。
+
+| 来源／核对 | 实际读取与裁决 |
+|---|---|
+| Federico Barbierato, Treccani《意大利人传记辞典》82卷（2015），[Giovanni Pesaro](https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/) | 读取生平条目可见全文；采用1589年9月1日生于威尼斯、1659年9月30日卒于威尼斯、1620–1626及1630–1632年外交任职、1641年职务、1658–1659年总督任期等资料。第28–29、35–36、41–42、47–52行支持新增字段；第52行说明其遗嘱为纪念碑拨款、侄子Leonardo照料工程。 |
+| 英文Wikipedia与Wikidata | 实际阅读[英文Wikipedia条目](https://en.wikipedia.org/wiki/Giovanni_Pesaro)身份、生卒、履职正文；`pageprops.wikibase_item=Q645781`。直接读取Wikidata实体Q645781的英文标签`Giovanni Pesaro`、英文描述`Doge of Venice (1589-1659)`、日期及enwiki sitelink。Wikidata反向页面标题与Wikipedia标题一致，身份双向对应。Wikipedia条目标有需补充引文提示，因此仅用作身份链接核验，不独立承担人物传记字段。 |
+| 威尼斯总督宫馆方指南 | Palazzo Ducale Venezia《I Dogi di Venezia / The Doges of Venice》PDF第3页年表将Pesaro列在1658–1659年，作为总督任期的交叉核对。 |
+
+人物卡新增Q645781与英文Wikipedia双向身份入口；按字段补入姓名／总督称谓、生卒日期地点、身份标签、使节任职履历和相关纪念碑记录。将1658年当选日保持在年份粒度，因为DBI与Wikipedia对具体日期写法不同；不将Wikipedia中未充分引证的额外评价或家庭说法转为本卡事实。未展开DBI中的父母与婚姻名字，避免在没有独立端点核实及本任务必要性的情况下把姓名清单伪装成已完成的正式亲缘关系。
+
+关系反查确认：图版41b的`subject_of`仍指向纪念碑；纪念碑卡的`patronized_by`记录1659年前后遗嘱拨款及1665–1669年建造期；Leonardo人物卡以对称`kin_of`记录侄甥关系，并分别保存`commissioned_by`。本轮仅补人物卡的反向关系导航，没有新增或改写正式关系边，因此端点、方向、时间和原证据维持原状态；不把筹款与委托合并。全库有效知识元及关系数不变。
+
+
+## 亚历山大七世、路易十四与查理一世身份对齐（2026-09-25）
+
+按“卡片有来源但缺外部身份入口”继续核对三张人物KU。本轮只做初步身份对齐；没有把百科生平批量写入内容字段，也不因Wiki数据增加正式关系。
+
+| 知识元 | 实际核对 | 身份裁决 |
+|---|---|---|
+| [Alexander VII](../../../04-knowledge/units/persons/alexander-vii.md) | 英文Wikipedia《Pope Alexander VII》身份、生卒和教宗任期段；页面`pageprops.wikibase_item=Q127254`。Wikidata Q127254英文标签`Alexander VII`、描述`pope of the Catholic Church from 1655 to 1667`、别名及enwiki sitelink“Pope Alexander VII” | 图版65b题名中的教皇Alexander VII对应同一教宗。页面与QID双向指向一致；仅加入身份入口。 |
+| [Louis XIV](../../../04-knowledge/units/persons/louis-xiv.md) | 英文Wikipedia《Louis XIV》身份和早年语境；页面`pageprops.wikibase_item=Q7742`。Wikidata Q7742英文标签“Louis XIV of France”、法国国王描述、包含Louis XIV的别名及enwiki sitelink“Louis XIV” | 图版27b、66中的Louis XIV对应法国国王Louis XIV of France；页面与QID双向一致。 |
+| [Charles I of England](../../../04-knowledge/units/persons/charles-i.md) | 英文Wikipedia《Charles I of England》身份、生卒／王位语境；页面`pageprops.wikibase_item=Q81506`。Wikidata Q81506英文标签及1600–1649年英格兰、苏格兰和爱尔兰君主描述、别名和enwiki sitelink“Charles I of England” | 图版27a肖像对象对应英格兰／苏格兰／爱尔兰国王Charles I；不再保留可能指向其他Charles I的模糊英文规范名。页面与QID双向一致。 |
+
+人物卡补入Wiki与Wikidata身份URL及双向匹配记录；Charles I卡规范英文标题明确为“Charles I of England”。原书图版端点和正式关系未变，QID仅作身份入口；这三项尚未因此完成人物内容补足。累计更新3张既有KU，不新建知识元、不新增关系。既有9项暂缓对象未触及。
+
+## 现代人物身份对齐及图版供片关系补足（2026-09-25）
+
+本批从“已有知识元但缺外部身份入口”的扫描中选择Norah Smallwood与Eberhard Zwicker。该扫描只定位来源登记／对齐入口缺口，不把无URL直接等同于身份未确认；未改动9项主候选的pending处置。
+
+| 对象 | 来源阅读与核对 | 裁决与写回 |
+|---|---|---|
+| Norah Smallwood | 完整阅读英文Wikipedia条目主要正文、履历、参考文献与外部链接；页面身份链接指向Wikidata Q7050230。核对Q7050230英文标签／描述、Norah Evelyn Smallwood别名、生卒属性和enwiki sitelink，回链与页面一致。University of Reading Special Collections出版社档案沿革独立记其1945年成为Chatto & Windus合伙人。 | 双向Wiki身份对齐通过。人物卡补全名Norah Evelyn Smallwood、出生姓Walford、OBE、生卒和地点、出版人身份及1936–1982年相关履历；均按来源分项引用。保留原书“支持初版合作出版”的含义，没有把致谢扩写成编辑、合同或出版决策责任；既有书籍支持关系不变。 |
+| Eberhard Zwicker | Julius-Maximilians-Universität Würzburg于Informationsdienst Wissenschaft发布的新闻稿，记Halle摄影师Eberhard Zwicker生于1915、卒于1999，1947年拍摄Halle主教座堂雕像，女儿保存并出借其摄影作品。另完整核对德语Wikipedia同名条目及其Wikidata链接Q105339；该人物为1924–1990年的Karl Eberhard Zwicker，声学家，出生地Öhringen，故排除。 | 将本卡对齐为Halle摄影师，不链接Q105339，也不强求错误同名条目双重验证。图版50作品卡新增`supplied_by`该摄影师，方向为作品复制图像→供片者；依据本书图片来源印刷页xvi、L172，范围限图版50复制图像，不表达完整壁画的创作、所有权或保管。人物卡增加匹配摄影师的身份与生卒信息及该项反向关系入口。 |
+
+## Paolo Giordano Orsini 身份对齐与内容补足（2026-09-25）
+
+核对图版17c人物端点“Paolo Giordano Orsini, Duke of Bracciano”。完整阅读英文和意大利语Wikipedia条目正文、家庭／后嗣、参考文献和外链，并逐项比对Q519364英文标签、别名、生卒、贵族身份与两语sitelink；两篇页面均回链该QID。另读Alei与Grossman关于布拉恰诺奥尔西尼家族城堡史的学术专著预览，p.34–35明确将1541年出生的Paolo Giordano与父母Girolamo Orsini、Francesca Sforza关联，并叙述1560年领地升为公国、其受封公爵。身份与本书“首任布拉恰诺公爵”角色相符。
+
+已在固定人物卡补入Q519364及英／意Wikipedia链接、学术专著来源、身份标签、出生／去世信息、1560–1585公爵履历和1571勒班陀海战。未把Wikipedia所有家族提及机械登记为关系；本书当前明确相关关系仍是图版17c肖像对象，既有作品端has_subject及人物端反向投影保持。亲缘／婚姻关系如后续进入正式关系图，须逐条建立或复用端点并另核证据。
+
+## Zaccaria Sagredo 肖像对象身份对齐（2026-09-25）
+
+为核验图版48b肖像对象，先将Haskell目录中的“Gian Antonio Faldoni: Zaccaria Sagredo (from B. Nazari) (Museo Correr, Venice)”与[威尼斯Museo Correr馆藏目录](https://www.archiviodellacomunicazione.it/Sicap/Stampe/4984/?WEB=MuseiVe)交叉比对。馆方记录题为“Ritratto di Sagredo Zaccaria”，对象说明为肖像，身份称谓为procuratore，作者为版画家Giovanni Antonio Faldoni，媒材为蚀刻，断代18世纪；作者、题名、描绘对象和收藏机构均吻合。
+
+身份消歧采用Treccani《意大利人传记辞典》“SAGREDO, Giovan Francesco”家族段：其明确记载Zaccaria Sagredo（1572–1647）曾任圣马可检察官，并于1629年担任威尼斯陆军总司令；单独人物条目“[Sagrédo, Zaccaria](https://www.treccani.it/enciclopedia/zaccaria-sagredo/)”也记他为威尼斯将领和圣马可检察官。University of Padua的意大利私人收藏书目另有1653–1729年、Santa Sofia支系的Zaccaria Sagredo收藏家条目，属于另一位同名者；不能因图版中的“Zaccaria Sagredo”将两人合并。馆方肖像条目的“procuratore”与1572–1647人物辞典记载相合，因此将图版48b人物端点对齐为1572–1647年这位检察官／将领。
+
+既有人物卡补入生卒年、称谓和相关军事履历及可复核来源；未找到可与该历史人物双向匹配的Wikipedia页／Wikidata实体，不填QID。既有肖像对象`has_subject`端点不变，未凭身份对齐新增人物关系；原先“收藏家可能性较强、身份待核”的判断由本次馆藏称谓与人物辞典交叉证据取代。图版版画本身的蚀刻字段及18世纪年代只依据馆藏目录，未声称已核其图像或原版实物。
+
+本批更新1张既有KU，不新建知识元或关系；原始241条候选中的9项暂缓不受影响。其余人物、作品的身份／来源登记和关系仍须继续按证据逐项推进。
+
+## Elizabeth Orna 身份对齐与索引贡献补足（2026-09-25）
+
+复核固定人物卡中的原书身份引文。原Markdown OCR将第一版序言印刷页ix的姓名识别为“Elizabeth Oma”；直接查看来源PDF第7页，原印刷文字为“Elizabeth Orna”。来源资产保持不动，仅在知识元引文中按扫描图像校正OCR，并保留OCR行号及页码定位。
+
+身份与工作履历依据Routledge作者简介及Orna本人2004年访谈：前者记1979年起从事独立信息咨询；访谈自述早期有偿工作包括校对、索引编制，后任技术书籍编辑，1979年开始独立咨询。此次将她与本书致谢中的索引编制者身份对应，未找到可作同粒度双向匹配的Wikipedia人物页／Wikidata实体，不填QID。更新既有人物卡的姓名引文、来源、身份标签与履历；既有作品卡的`contributor_to`正式关系及反向导航保持不变，不新增关系或知识元。
+
+本批更新1张既有KU。原PDF扫描页已目视核对；人物内容确定性审计通过。此项身份和索引贡献补足不代表其完整生平已覆盖。
+
+## Daphne Ionides 身份对齐与收藏经历补足（2026-09-25）
+
+复核图版27a的私人收藏者Daphne Ionides。National Galleries of Scotland馆藏记录载Miss Daphne Ionides于1946年捐赠George Frederic Watts的Theophilos Kairis肖像；Krannert Art Museum流传记录把1936年前一件作品的持有人写作Daphne (Constantine) Ionides，并给出1896–1966；《The London Gazette》遗产通知记Daphne Ionides于1966年2月19日去世，地址为25 Kingston House, Princes Gate, London。三项机构记录在人名、收藏活动与时间上吻合，支持将原书所列收藏者对齐到同一历史人物。未见同粒度Wikipedia人物页／Wikidata实体，不填QID。
+
+人物卡补入出生年、去世日、收藏者／捐赠者身份和两项馆藏收藏活动；没有把外部捐赠推演成关系到未登记作品，也没有据此改变本书图版27a作品的正式收藏关系或推定收藏起止日期。苏格兰国家美术馆记录的捐赠是1946年，与本书图版所记另一件作品分开保存。
+
+本批更新1张既有KU，不新建知识元或关系。姓名与身份依据分别见[苏格兰国家美术馆馆藏记录](https://www.nationalgalleries.org/art-and-artists/5563)、[Krannert Art Museum流传记录](https://collection.kam.illinois.edu/objects-1/info/329)和[官方遗产通知](https://www.thegazette.co.uk/London/issue/43965/page/5177/data.pdf)。
+
+## Alessandro Bettagno身份对齐、职业履历与任职关系补足（2026-09-25）
+
+检查章前已登记人物卡：原卡只记第一版序言致谢和《英国学术院院刊》传记中的友人／引介语境，缺少身份、生卒与任职字段。身份补足采用Fondazione Giorgio Cini两项官方简介；不新增百科身份链接或QID。
+
+| 来源 | 实际采用信息 | 边界 |
+|---|---|---|
+| Fondazione Giorgio Cini，[2015年文集发布会人物简介](https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/) | 生于维罗纳、战后初期起居于威尼斯；1954年起任艺术史研究所创设者Giuseppe Fiocco的助手；1989–2002年任研究所所长；自1972年起在Ca’ Foscari外国语言与文学学院任艺术史讲席教授 | 助手及教授职位结束时间未载，不自行补年；原资料还提到的Ateneo Veneto和罗马研究所职务因本批不建立无必要端点，暂不登记为正式关系 |
+| Fondazione Giorgio Cini，[纪念文集简介](https://www.cini.it/en/cini_publications/venezia-settecento-studi-memoria-alessandro-bettagno/) | 生卒年1919–2004；威尼斯艺术史家、展览策展人、大学教授；参与研究所工作近半世纪并策划威尼斯艺术展览 | 只登记与现有章前对象及其可核任职直接相关的字段，不展开未核实的展览清单 |
+| Fondazione Giorgio Cini，[艺术史研究所简介](https://www.cini.it/en/institutes-and-centres/art-history/) | 研究所1954年成立，关注威尼托艺术史，保存艺术品、图书、摄影及文献档案，出版并组织展览 | 建立必要的机构端点；未据网站导航地址单独断定研究所的历史所在地关系 |
+
+更新固定人物卡：补入生卒年、出生地、职业标签及三条履历；建立研究所知识元，并在人物卡登记研究所两段任职及Ca’ Foscari任职，共新增3条有据`employed_by`关系。两机构卡增加对称的可点击反向关系入口。保留既有与Haskell有关的致谢、朋友和1962年引介关系，不因外部资料改写原书语境。
+
+本批新增1个机构KU、更新1个既有KU，累计章前任务为521个新KU、66个既有KU更新、4个旧卡整理后接收；章前任务计数仍有逐类型差额（详见04结果），不把分项未核差额分配给本批。随后的全量闭包16步通过，274项测试通过，结构健康度130/130；关系断端点、非法类型、缺反向映射和弱证据均为0。全库当前983个KU、1157条关系索引（1156显式、1规则派生）。内容检查仍有1项既存档案标题格式提示。九项原候选暂缓维持原状态。
+
+## Torcellan身份、师承与1969年著作补足（2026-09-25）
+
+继续核对已登记的Gianfranco Torcellan。Oechslin图书馆1963年书目记录将作者规范列为Torcellan, Gianfranco（1938–1966），并给出GND 1217349227；法国国家图书馆另有姓名及相同生卒年的作者规范记录。两项规范及项目中原有的1963年书目均支持身份相合。Oechslin所称GND仅为该书目引用的规范号，本轮未直接取得GND详情；没有据此填入Wikipedia／Wikidata标识。
+
+| 对象 | 来源及采用范围 | 裁决 |
+|---|---|---|
+| 学术训练 | Michele Simonetto, “Gianfranco Torcellan (1938–1966),” *Rivista storica italiana* 120.1 (2008), pp.132–182。在线全文检索文本明确写其“formatosi alla scuola torinese di Franco Venturi”；该句具体印刷页本轮未核，未通读全文。 | 记录Torcellan在都灵受Franco Venturi学派培养的有向`trained_by`关系；不宣称具体课程、学位或任教关系。 |
+| 1969年论文集 | Google Books书目字段列Gianfranco Torcellan为作者、Giappichelli于1969年出版、765页；NLI国家图书馆以相同题名和责任者著录。仅核书目及可见部分目录，没有通读。Torcellan于1966年去世，故该论文集为身后出版。 | 新建独立archive KU [Settecento veneto e altri scritti storici](../../../04-knowledge/units/archives/torcellan-settecento-veneto-1969.md)，关系`authored_by`仅表达书目作者署名，不扩大为全书编者或逐篇作者责任。 |
+
+本批更新1个既有person KU，新增1个archive KU和2条有向关系；累计章前任务522个新KU、67个既有KU更新、4个旧卡整理后接收。关系端点、类型及证据已落到两端卡片。全量闭包16步通过，索引为1160条（1159条显式、1条规则派生），274项测试通过；断端点、非法类型、缺反向映射和弱证据均为0。九项原候选暂缓未动。

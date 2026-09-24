@@ -206,3 +206,4 @@
 - [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../../04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md)
 - [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../../04-knowledge/units/works/velasquez-camillo-massimi.md)
 - [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../../04-knowledge/units/works/velasquez-juan-de-pareja.md)
+- [狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）](../../04-knowledge/units/works/venturini-diana-hunting-print.md)

@@ -15,8 +15,15 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 172–172; 章前：图片来源；印刷页xvi
+- citation: Julius-Maximilians-Universität Würzburg, “Ungewöhnliche Fotos aus dem Dom von Halle/Saale,” Informationsdienst Wissenschaft, 2014-01-09. https://idw-online.de/de/news568534. Accessed 2026-09-25.
+  location: Universität Würzburg新闻稿；摄影者身份与展览说明
+  sentence_summary: 将Eberhard Zwicker确认为1915–1999年出生于Halle的摄影师，并记其1947年拍摄Halle主教座堂雕像、女儿保存并出借其摄影作品。
+  evidence_ref:
+    doc_id: jmu-wuerzburg-eberhard-zwicker-photographer
+    source_file: https://idw-online.de/de/news568534
+    source_span: lines 47–62, 76
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-09-25'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
@@ -24,16 +31,25 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 描述
 
-**中文：** 本书图片来源列明的供片者。
+**中文：** 1915–1999年的德国艺术摄影师，生于Halle；《赞助人与画家》图片来源将其列作图版50复制图像的供片者。
 
-**English:** A photographic supplier named in the book.
+**English:** A German art photographer (1915–1999), born in Halle; Haskell’s picture credits name him as the supplier for the reproduction used in plate 50.
 
 ### 名称
 
 | 字段 | 值 | 证据 |
 |---|---|---|
 | 惯用名 | Eberhard Zwicker | S1 |
+| 身份 | 艺术摄影师 | S2 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
+
+### 基本信息
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 生年 | 1915 | S2 |
+| 卒年 | 1999 | S2 |
+| 出生地 | Halle | S2 |
 
 ### 作品与活动记录
 
@@ -46,7 +62,16 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 供片（`supplier_of`，反向投影） | [维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）](../works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md) | 角色：本书复制图像供片者；范围：图版50，不表示作品创作者、所有者或保管者；原断言及证据见图版50作品卡。[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 172–172; 章前：图片来源；印刷页xvi |
+
+### 身份与外部链接
+
+| 数据 | 链接 | 核对结果 |
+|---|---|---|
+| 专业身份记录 | [Universität Würzburg新闻稿](https://idw-online.de/de/news568534) | 大学新闻稿所述Halle摄影师生卒（1915–1999）、城市经历及摄影作品与本卡图版供片角色相符。 |
+| 同名候选排除 | 德语Wikipedia／Wikidata Q105339 | 页面对应1924–1990年生的声学家Karl Eberhard Zwicker，职业、出生地和年代均与Halle摄影师不符；不作为本卡QID。 |
 
 ### 关系候选入口
 

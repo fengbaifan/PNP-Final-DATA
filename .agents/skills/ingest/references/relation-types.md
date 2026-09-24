@@ -41,8 +41,9 @@ relations:
 | 师承／合作／雇佣 | `trained_by`、`collaborated_with`、`employed_by` | person → 教师／合作者／雇主；同一对人物可在不同时段有多种关系 |
 | 教育 | `educated_at`／`education_of` | person → 就读机构；role保留学习阶段或学位，time保留入学／毕业或就读期间。仅有入学年不推定毕业，不与个人师承、雇佣或院士成员身份混合；反向只作导航。 |
 | 委托／赞助／创作 | `commissioned_by`、`patronized_by`、`created_by` | work → 委托人／赞助人／创作者；仅有合同对象时用scope明确未锁定存世版本 |
-| 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | work → 所有人／取得者／市场经手机构；三者不得互换 |
-| 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点，须保留适用时间或来源时点 |
+| 题献／奉献 | `dedicated_to`、`dedicated_by` | work → 题献对象／题献者；题献文字、受题献者与实际题献者须有作品题记或馆藏目录依据，不能与创作者、委托人或赞助人混同 |
+| 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | `owned_by`用于work→所有人，也可用于place中的建筑／地产→有来源支持的历史所有人；明确时期和权利范围。`acquired_by`、`handled_by`仍为work关系，分别记录取得者与市场经手机构；三者不得互换 |
+| 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点；建筑／地点place → 其所在的更大地点place。须保留适用时间或来源时点 |
 | 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |
 | 预备模型／样稿 | `model_for` | work → 为之准备的work；来源明确具体两件作品的模型／样稿关系，`modeled_by`为反向导航；同题材、年代先后或外观相近不证明预备关系 |
 | 借入／出借 | `borrowed_by`、`lent_by` | work／archive → 借入者／出借者；保存具体借存或借阅的时间、对象与角色，不能据出借身份推定所有权；`borrower_of`、`lender_of`只作对应反向导航 |

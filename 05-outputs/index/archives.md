@@ -54,6 +54,7 @@
 - [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../../04-knowledge/units/archives/savini-gubbio-terms-1608.md)
 - [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../../04-knowledge/units/archives/testi-fontana-bernini-letter.md)
 - [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../../04-knowledge/units/archives/torcellan-andrea-memmo-1963.md)
+- [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../../04-knowledge/units/archives/torcellan-settecento-veneto-1969.md)
 - [美国版权法（U.S. Copyright Law）](../../04-knowledge/units/archives/us-copyright-law.md)
 - [瓦萨利关于莫拉与潘菲利服务争议的证词记录（Vasalli's Testimony on the Mola–Pamfili Service Dispute）](../../04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md)
 - [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../../04-knowledge/units/archives/virgil-aeneid.md)
