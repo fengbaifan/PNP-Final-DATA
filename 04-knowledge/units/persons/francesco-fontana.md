@@ -44,6 +44,18 @@ sources:
       source_file: https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm
       source_span: lines 2–15; edition pp. 28–29
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#francesco-fontana身份对齐与1634年通信补足2026-09-25
+relations:
+  - relation_type: parent_of
+    target: persons/galeazzo-fontana.md
+    evidence_ref:
+      doc_id: tavernari-fontana-family-2017
+      source_file: https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf
+      source_span: "印刷页 67：Il figlio Galeazzo ..."
+    review_status: evidence_backed_relation
+    relation_source: explicit
+    bidirectional_required: false
+    role: 父亲
+    scope: Francesco Fontana与儿子Galeazzo Fontana
 ---
 
 ## 内容
@@ -85,5 +97,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#franc
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| → 父亲（`child_of`，反向投影） | [托马索·丰塔纳（Tommaso Fontana）](tommaso-fontana.md) | 家族史明确称Francesco为Tommaso之子；时间未载；原断言及证据见Tommaso卡，Tavernari印刷页66 |
+| → 儿子（`parent_of`） | [加莱亚佐·丰塔纳（Galeazzo Fontana）](galeazzo-fontana.md) | 家族史称“其子Galeazzo”；时间未载；Tavernari印刷页67 |
 | ← 为收信人（`addressee_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 | ← 为收信人（`addressee_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）](../archives/testi-fontana-letter-1634-01-18.md) | 题头与正文署期均支持1634-01-18；题头标Modena，不推定收信人常住地；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年版第二卷pp. 28–29，lines 2–15 |

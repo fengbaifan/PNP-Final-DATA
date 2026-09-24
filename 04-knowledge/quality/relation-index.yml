@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1191
-# sources: {'explicit': 1190, 'inferred_by_rule': 1}
+# total: 1194
+# sources: {'explicit': 1193, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-bettagno.md
   source_type: person
@@ -1859,6 +1859,25 @@
   time: '1635'
   role: 王室雕塑家任命者
   scope: 个人获任官职，不从作品肖像角色推导
+- source: persons/francesco-fontana.md
+  source_type: person
+  target: persons/galeazzo-fontana.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: tavernari-fontana-family-2017
+    source_file: https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf
+    source_span: 印刷页 67：Il figlio Galeazzo ...
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: Francesco Fontana与儿子Galeazzo Fontana
 - source: persons/francesco-guardi.md
   source_type: person
   target: places/venice.md
@@ -2672,6 +2691,26 @@
   time: '2001-03-15'
   role: 去世
   scope: 去世地
+- source: persons/galeazzo-fontana.md
+  source_type: person
+  target: institutions/knights-hospitaller.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: tavernari-fontana-family-2017
+    source_file: https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf
+    source_span: 印刷页 67：ammissione nell’Ordine dei cavalieri di Malta avvenuta nel 1657
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1657年获准加入；开始日期未载
+  role: 骑士团成员
+  scope: 家族史所称骑士团入会及后续军职；不据此推定退出时间
 - source: persons/giacinto-brandi.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -5577,6 +5616,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/tommaso-fontana.md
+  source_type: person
+  target: persons/francesco-fontana.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: tavernari-fontana-family-2017
+    source_file: https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf
+    source_span: 印刷页 66：suo figlio Francesco
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: Tommaso Fontana与其子Francesco Fontana
 - source: persons/urbano-viii.md
   source_type: person
   target: persons/gian-lorenzo-bernini.md

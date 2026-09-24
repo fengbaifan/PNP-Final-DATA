@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T07:17:56",
+  "timestamp": "2026-09-25T07:37:02",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 1001,
+    "total_units": 1003,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,18 +26,18 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 1001,
+    "total_units": 1003,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 1001,
+    "units_missing_any_assignment": 1003,
     "field_coverage": {
-      "primary_domain": "0/1001",
-      "primary_dimension": "0/1001",
-      "primary_theme": "0/1001",
-      "topic_memberships": "0/1001"
+      "primary_domain": "0/1003",
+      "primary_dimension": "0/1003",
+      "primary_theme": "0/1003",
+      "topic_memberships": "0/1003"
     }
   },
   "counts_by_type": {
-    "persons": 380,
+    "persons": 382,
     "families": 10,
     "institutions": 137,
     "places": 151,
@@ -203,6 +203,7 @@
       "04-knowledge/units/persons/g-m-sasso.md",
       "04-knowledge/units/persons/g-volpato.md",
       "04-knowledge/units/persons/gaetano-cozzi.md",
+      "04-knowledge/units/persons/galeazzo-fontana.md",
       "04-knowledge/units/persons/gaspar-roomer.md",
       "04-knowledge/units/persons/gaspard-dughet.md",
       "04-knowledge/units/persons/gentile-bellini.md",
@@ -420,6 +421,7 @@
       "04-knowledge/units/persons/tiberio-cerasi.md",
       "04-knowledge/units/persons/titian.md",
       "04-knowledge/units/persons/tommaso-chiari.md",
+      "04-knowledge/units/persons/tommaso-fontana.md",
       "04-knowledge/units/persons/torquato-tasso.md",
       "04-knowledge/units/persons/urbano-viii.md",
       "04-knowledge/units/persons/valentin.md",
@@ -1177,6 +1179,7 @@
       "04-knowledge/units/persons/g-m-sasso.md",
       "04-knowledge/units/persons/g-volpato.md",
       "04-knowledge/units/persons/gaetano-cozzi.md",
+      "04-knowledge/units/persons/galeazzo-fontana.md",
       "04-knowledge/units/persons/gaspar-roomer.md",
       "04-knowledge/units/persons/gaspard-dughet.md",
       "04-knowledge/units/persons/gentile-bellini.md",
@@ -1394,6 +1397,7 @@
       "04-knowledge/units/persons/tiberio-cerasi.md",
       "04-knowledge/units/persons/titian.md",
       "04-knowledge/units/persons/tommaso-chiari.md",
+      "04-knowledge/units/persons/tommaso-fontana.md",
       "04-knowledge/units/persons/torquato-tasso.md",
       "04-knowledge/units/persons/urbano-viii.md",
       "04-knowledge/units/persons/valentin.md",
@@ -2036,8 +2040,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 380,
-      "tags": 380,
+      "sub_type": 382,
+      "tags": 382,
       "evidence_status": 0
     },
     "families": {
@@ -2137,12 +2141,12 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 752,
+    "sources_with_evidence_ref": 754,
     "sources_without_evidence_ref": 249,
-    "evidence_ref_resolvable": 1226,
+    "evidence_ref_resolvable": 1228,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1226,
-    "units_with_traceable_source": 1001
+    "evidence_refs_total": 1228,
+    "units_with_traceable_source": 1003
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -2155,8 +2159,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 1190,
-    "explicit_relations_with_evidence": 1190
+    "explicit_relations": 1193,
+    "explicit_relations_with_evidence": 1193
   },
   "source_hash": {
     "total_sources": 0,
@@ -2174,7 +2178,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 1001,
+      "count": 1003,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2323,6 +2327,7 @@
         "04-knowledge/units/persons/g-m-sasso.md",
         "04-knowledge/units/persons/g-volpato.md",
         "04-knowledge/units/persons/gaetano-cozzi.md",
+        "04-knowledge/units/persons/galeazzo-fontana.md",
         "04-knowledge/units/persons/gaspar-roomer.md",
         "04-knowledge/units/persons/gaspard-dughet.md",
         "04-knowledge/units/persons/gentile-bellini.md",
@@ -2540,6 +2545,7 @@
         "04-knowledge/units/persons/tiberio-cerasi.md",
         "04-knowledge/units/persons/titian.md",
         "04-knowledge/units/persons/tommaso-chiari.md",
+        "04-knowledge/units/persons/tommaso-fontana.md",
         "04-knowledge/units/persons/torquato-tasso.md",
         "04-knowledge/units/persons/urbano-viii.md",
         "04-knowledge/units/persons/valentin.md",
@@ -3278,12 +3284,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 387,
+      "total": 389,
       "coverage": {
-        "name_original": "0/387",
-        "language_original": "0/387",
-        "name_zh": "0/387",
-        "translation_status": "0/387"
+        "name_original": "0/389",
+        "language_original": "0/389",
+        "name_zh": "0/389",
+        "translation_status": "0/389"
       }
     },
     "families": {
@@ -3331,9 +3337,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 845,
-    "indexed": 845,
-    "declared_total": 845,
+    "expected": 847,
+    "indexed": 847,
+    "declared_total": 847,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3341,12 +3347,12 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 1191,
-    "explicit_relation_count": 1190,
+    "relation_index_total": 1194,
+    "explicit_relation_count": 1193,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 1190,
+    "weak_evidence_count": 1193,
     "needs_evidence_count": 0,
     "relation_type_coverage": "60/125"
   },
@@ -3408,20 +3414,20 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 1001,
+    "total_units": 1003,
     "source_count_distribution": {
       "multi_source": 798,
-      "single_source": 203
+      "single_source": 205
     },
     "confidence_distribution": {
-      "missing": 1001
+      "missing": 1003
     },
     "consensus_distribution": {
-      "missing": 1001
+      "missing": 1003
     },
     "evidence_status_distribution": {
       "externally_verified": 6,
-      "source_backed": 995
+      "source_backed": 997
     },
     "isolated_units": {
       "count": 136,
@@ -3467,7 +3473,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 203,
+      "single_source_units": 205,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3492,7 +3498,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 1001,
+    "total_files": 1003,
     "total_findings": 1
   }
 }

@@ -1,5 +1,5 @@
 generated: '2026-09-25'
-total: 845
+total: 847
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -911,6 +911,12 @@ index:
   type: persons
   name_en: Gaetano Cozzi
   title: 加埃塔诺·科齐（Gaetano Cozzi）
+  name_original: ''
+  language_original: ''
+- slug: persons/galeazzo-fontana
+  type: persons
+  name_en: Galeazzo Fontana
+  title: '"加莱亚佐·丰塔纳（Galeazzo Fontana）"'
   name_original: ''
   language_original: ''
 - slug: persons/gaspar-roomer
@@ -2225,6 +2231,12 @@ index:
   type: persons
   name_en: Tommaso Chiari
   title: 托马索·基亚里（Tommaso Chiari）
+  name_original: ''
+  language_original: ''
+- slug: persons/tommaso-fontana
+  type: persons
+  name_en: Tommaso Fontana
+  title: '"托马索·丰塔纳（Tommaso Fontana）"'
   name_original: ''
   language_original: ''
 - slug: persons/torquato-tasso

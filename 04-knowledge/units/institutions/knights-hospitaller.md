@@ -47,6 +47,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [阿洛夫·德·维尼亚库尔（Alof de Wignacourt）](../persons/alof-de-wignacourt.md) | 维尼亚库尔1564年加入医院骑士团，1601年至1622年任大团长；时间：1564–1622；角色：成员；1601–1622任大团长；范围：个人在医院骑士团的成员与领导职务；原断言与证据见发出端卡片“阿洛夫·德·维尼亚库尔（Alof de Wignacourt）”：[来源](https://en.wikipedia.org/wiki/Alof_de_Wignacourt)；member-of-institutions-knights-hospitaller-wignacourt；infobox与Biography导言 |
 | ← 包含成员（`contains`，反向投影） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 1608年获医院骑士团骑士身份，同年被拘、逃离后遭逐；成员关系有终止限定；时间：1608年内；角色：骑士，后被逐；范围：非终身未撤销头衔；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；member-of-institutions-knights-hospitaller-md；Malta段 |
+| ← 包含成员（`contains`，反向投影） | [加莱亚佐·丰塔纳（Galeazzo Fontana）](../persons/galeazzo-fontana.md) | 1657年获准加入；具体开始与终止日期未载；原断言及证据见Galeazzo卡，Tavernari印刷页67 |
 
 ### 身份与外部链接
 

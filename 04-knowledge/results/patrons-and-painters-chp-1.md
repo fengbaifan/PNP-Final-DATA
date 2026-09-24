@@ -1,6 +1,8 @@
 # 第一章样例：第一部分当前结果
 
-**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；当前全库1,001个有效KU、1,191条关系索引（1,190条显式、1条规则派生）。最近一次全量闭包16步及274项测试通过，结构健康度130/130；关系机械检查的断端点、非法关系类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示；全库有203个单一来源KU。近期补入Ludovisi亲缘链中缺失的Orazio、Niccolò、Lavinia三个端点，完成其中两人的Wikipedia—Wikidata双向身份核对，并登记9条有据关系；Orazio卒年异文保留，Lavinia无可确认的个人Wiki身份。最新一批补入Maggiotto肖像组、Maffeo Pinelli及Pisani di Santo Stefano支系三个KU和三条有据关系。以上机械检查不替代语义定稿。
+**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；当前全库1,003个有效KU、1,194条关系索引（1,193条显式、1条规则派生）。最近一次全量闭包16步及274项测试通过，结构健康度130/130；关系机械检查的断端点、非法关系类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示；全库有205个单一来源KU。近期补入Ludovisi亲缘链中缺失的Orazio、Niccolò、Lavinia三个端点，完成其中两人的Wikipedia—Wikidata双向身份核对，并登记9条有据关系；Orazio卒年异文保留，Lavinia无可确认的个人Wiki身份。其后补入Maggiotto肖像组、Maffeo Pinelli及Pisani di Santo Stefano支系三个KU和三条有据关系；本轮再补入Tommaso与Galeazzo Fontana两个亲缘端点，并登记父子链及Galeazzo的1657年医院骑士团成员关系。以上机械检查不替代语义定稿。
+
+- 据Tavernari家族史印刷页66–67新建Tommaso Fontana与Galeazzo Fontana两个必要人物端点，补入Francesco父子链和Galeazzo获准加入医院骑士团的有据关系；英、意Wikipedia精确标题及Wikidata姓名检索未找到与本家族人物相符的身份记录，不填QID。Galeazzo的1646年入会手续与1657年获准入会分别记录，不把申请当成成员关系起点；军职任期未载，不补具体年份。详见[Fontana父子端点对齐、补足与关系闭合](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#fontana父子端点对齐补足与关系闭合2026-09-25)。本批全量闭包16步通过，274项测试通过；内容审计保留1项既存标题格式提示，关系审计断端点、非法类型、缺反向映射及弱证据均为0。结构闭包不代表本批或整章已完成人工语义验收。
 
 - 对Maggiotto与Maffeo Pinelli完成Wikipedia—Wikidata双向身份核对：前者核对英文、意大利文页面均回链Q3080993；后者查无适用的英语和意大利语页面，以法语页面双向匹配Q56006855。新增1778年168幅油画铜板肖像组、Maffeo Pinelli与Pisani di Santo Stefano家族支系三个KU，登记创作、委托和1787年购藏三条显式关系。图版68a的三幅肖像不与该系列合并；1791年加入的Manin夫妇肖像作者与实物身份仍待证。关系只在作品卡保存一次，关联人物／家族卡提供反向展示。详情见[Maggiotto肖像组与Maffeo Pinelli身份关系闭合](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#maggiotto肖像组与maffeo-pinelli身份关系闭合2026-09-25)。本轮全量闭包16步、274项测试通过；单一既存档案标题格式提示未受本批影响。
 

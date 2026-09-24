@@ -19043,3 +19043,19 @@ Orazio卒年存在真实来源冲突：DBI详传记其1624年11月初在罗马�
 正式关系限于来源直接支持的三条边：作品组→Maggiotto `created_by`（1778）；作品组→Pinelli `commissioned_by`（1778，依据“dipinse per”及Pinelli条目对其收藏者身份的记载）；作品组→Pisani di Santo Stefano支系 `acquired_by`（1787）。每条均连到具体来源段，卡内保留时间、参与角色和整体系列范围。购得记录不延伸为之后或当前所有权；没有给家族虚构个人购买者。同步补上Maggiotto与相关接收者卡的反向链接展示；反向展示不写作额外事实边。
 
 本批净新增3个KU、3条显式关系；精确双向对齐Francesco及Maffeo两个已有／新建人物，后者仅有法语Wikipedia页面。系列对象及Pisani家族支系无同粒度Wiki标识，依据专业与官方来源保留，不填QID。该批不解决其他剩余实体的对齐与关系缺口，不改变9项暂缓状态；结构闭包之后按当前结果页记录实际数量和检查结果。
+
+## Fontana父子端点对齐、补足与关系闭合（2026-09-25）
+
+回读Francesco Fontana卡中的亲缘字段，确认“父亲Tommaso Fontana、儿子Galeazzo Fontana”已被采纳，但两端缺独立KU，正式关系也未登记。为保持必要关系端点闭合，只新建Tommaso与Galeazzo两张人物卡，不从家族研究递归扩展其他亲属或完整谱系。
+
+### 身份对齐与内容补足
+
+重读Pamela Tavernari《La famiglia Fontana-della Fontana》第二章2.3节印刷页66–67（PDF同页）。第66页将Francesco明确称为Tommaso之子；第67页以“Il figlio Galeazzo”指明Galeazzo为Francesco之子。第67页另记Galeazzo于1646年开始办理加入马耳他骑士团的手续、1657年获准加入，之后曾任两位大团长的侍酒官、骑士团常备团120名火枪手队长和大海军上将副官。具体职务任期未载，故不写入虚构年份；1646年申请不当作成员关系起点。
+
+以Wikidata英文精确姓名搜索并对英、意Wikipedia同名精确标题查询：Tommaso Fontana仅命中两名当代研究者（Q89948855、Q98665498），无一与历史家族人物相符；Galeazzo Fontana没有准确Wikidata搜索结果。两人的英、意Wikipedia精确标题均缺页。故两人均登记为有来源支持但未与Wiki外部实体配对的独立KU，不填QID。实际查询结果与范围已写入`alignment-evidence.jsonl`；不把同名命中或页面缺失误称为身份确认。
+
+### 正式关系及端点方向
+
+登记三条单次维护的正式边：Tommaso `parent_of` Francesco（印刷页66）；Francesco `parent_of` Galeazzo（印刷页67）；Galeazzo `member_of` Knights Hospitaller（1657年获准加入，印刷页67）。父子边没有同时写入逆向正式断言；关联人物卡仅展示反向投影。骑士团卡新增Galeazzo成员关系的反向展示。1646年入会申请与1657年正式获准区分，开始和终止日期只按来源精度表述。
+
+本批新增2个KU、3条显式关系，无Wikipedia/Wikidata配对；所有新增身份与边均有同一专业家族史的具体页码依据。该单一来源限制已如实保留，不扩大为“多源验证”。全章其他身份、作品及关系缺口仍需继续处理；9项暂缓对象不变，知识发现、网页呈现和人工校验仍暂停。
