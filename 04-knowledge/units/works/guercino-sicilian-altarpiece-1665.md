@@ -19,6 +19,18 @@ relations:
   time: "1665"
   role: 创作者
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
+- relation_type: located_at
+  target: places/chiesa-san-gregorio-messina.md
+  note: Fondazione Zeri将末知地点记为墨西拿圣额我略堂；只记录目录所载末知地点，不等同于1665年委托地点、原定安置地点或委托法人。
+  evidence_ref:
+    doc_id: zeri-work-58737
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/58737/
+    source_span: 本卡 S2；Locations；Last known：Chiesa di S. Gregorio, Messina
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  role: 目录所载末知地点
+  scope: 时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L295–307
@@ -46,6 +58,9 @@ sources:
 - citation: "Fondazione Federico Zeri, entry 57026, work 58737. https://catalogo.fondazionezeri.unibo.it/entry/work/58737/. Accessed 2026-09-11."
   location: "作品目录全文；题名、作者、地点、毁失状态和书目"
   sentence_summary: "把1665年协商与Messina的San Gregorio祭坛画相连并记录1908年毁失；保留Saint Albert／John the Baptist描述差异。"
+- citation: "Wikipedia (it), Chiesa di San Gregorio (Messina), revision 150392543, https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina). Accessed 2026-09-25."
+  location: "全文已读；Interno；transetto destro；Cappella della Madonna del Carmine"
+  sentence_summary: "页面将该堂龛位中的Madonna del Carmine画作记为Guercino作品，年代1665；不陈述委托修院法人。"
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-guercino-sicilian-altarpiece-1665
 ---
 
@@ -53,9 +68,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 描述
 
-**中文：** 圭尔奇诺1665年为墨西拿圣额我略堂创作的祭坛画，现可由Zeri目录与章内图像询问相连；作品1908年毁失。Zeri题名中的耶路撒冷的圣亚尔伯与章内转述的施洗者约翰存在图像描述差异，暂不强行统一。
+**中文：** Zeri目录将圭尔奇诺1665年墨西拿祭坛画的末知地点记为圣额我略堂；第一章只称委托来自西西里一座修院，现有证据未确认该修院法人或其与该堂所属修院的关系。作品记录为1908年毁失。Zeri题名中的耶路撒冷的圣亚尔伯与章内转述的施洗者约翰存在图像描述差异，暂不强行统一。
 
-**English:** Guercino’s 1665 altarpiece for San Gregorio in Messina can now be linked to the chapter’s iconographic questions through the Zeri catalogue; it was destroyed in 1908. The catalogue names Saint Albert of Jerusalem where the chapter names Saint John the Baptist, so the discrepancy remains explicit.
+**English:** Zeri records the last known location of Guercino’s 1665 altarpiece as San Gregorio in Messina. The chapter identifies its commissioner only as a monastery in Sicily; current evidence does not identify that corporate body or establish that it was the monastery associated with this church. The work is recorded as destroyed in 1908. Zeri names Saint Albert of Jerusalem where the chapter names Saint John the Baptist, so the discrepancy remains explicit.
 
 ### 已有信息
 
@@ -72,7 +87,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 创作者／归属 | Giovanni Francesco Barbieri（Guercino） | 争议归属不写成确定事实 |
 | 创作／委托时间 | 1665年委托／作品记录；1908年毁失 | 区分合同、开工、完成、毁失或后续记录 |
 | 委托人／赞助方 | 西西里修院，法人规范名未由现有资料确认 | 仅写当前证据可支持的法律或历史主体 |
-| 创作地／原位置／现位置 | Messina，Chiesa di San Gregorio；后毁失 | 历史位置和现藏不互相覆盖 |
+| 末知地点 | 墨西拿圣额我略堂（Chiesa di San Gregorio）；具体在堂时间未载 | Zeri S2；不据此推定原定安置或委托法人 |
+| 毁失状态 | 1908年毁失（目录记录） | Zeri S2 |
 | 类型、材质与尺寸 | 祭坛画；材质与尺寸以未读Salerno条目为后续入口 | 缺项不根据同类作品补推 |
 | 状态与语义边界 | Zeri题名列Saint Albert of Jerusalem，Haskell转述列John the Baptist；图像角色差异保持并列，不自行统一。 | 委托、稿本、完成作品、归属和现藏分别判断 |
 
@@ -83,3 +99,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
 | → 创作者（`created_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Zeri作品目录将该1665年墨西拿祭坛画归于圭尔奇诺；第一章证明委托方案和画家的询问，但不单独证明完成；时间：1665；角色：创作者；范围：Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；zeri-work-58737；本卡 S2；作品目录全文；题名、作者、地点、毁失状态和书目 |
+| → 末知地点（`located_at`） | [墨西拿圣额我略堂（Church of San Gregorio, Messina）](../places/chiesa-san-gregorio-messina.md) | Zeri将此堂列为末知地点；不将末知地点等同1665年委托地点、原定安置地点或委托法人；时间未注明，作品记录为1908年毁失；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；zeri-work-58737；本卡S2；Locations：Last known |

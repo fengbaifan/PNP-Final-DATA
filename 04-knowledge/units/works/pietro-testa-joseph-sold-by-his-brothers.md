@@ -83,7 +83,6 @@ relations:
 ## 关系与证据
 
 ### 关系记录
-
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [皮埃特罗·泰斯塔（Pietro Testa）](../persons/pietro-testa.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 56–56; 章前：图版目录；印刷页xii |

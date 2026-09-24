@@ -19,9 +19,23 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 97–99; 章前：图版目录；印刷页xiv
+- citation: Wikipedia, “Homer.” https://en.wikipedia.org/wiki/Homer. Accessed 2026-09-25.
+  location: 条目身份及Wikidata项目链接
+  sentence_summary: 条目以Homer指称《伊利亚特》与《奥德赛》的传统作者，页面链接至Wikidata Q6691。
+  evidence_ref:
+    doc_id: wikipedia-en-homer
+    source_file: https://en.wikipedia.org/wiki/Homer
+    source_span: 条目身份；Wikidata item=Q6691
+- citation: Wikidata, “Homer” (Q6691). https://www.wikidata.org/wiki/Q6691. Accessed 2026-09-25.
+  location: 标签、描述、争议状态及Wikipedia站点链接
+  sentence_summary: Q6691标注传统上归属《伊利亚特》和《奥德赛》的作者，并将其历史存在标为存疑；列有英文Wikipedia站点链接。
+  evidence_ref:
+    doc_id: wikidata-homer-q6691
+    source_file: https://www.wikidata.org/wiki/Q6691
+    source_span: English label and description; instance-of statements; enwiki sitelink
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
+updated: '2026-09-25'
+process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#章前人物身份入口接续2026-09-25
 ---
 
 ## 内容
@@ -53,6 +67,13 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）](../works/rembrandt-aristotle-contemplating-the-bust-of-homer.md) | 角色：画中胸像代表的人物；范围：图版35a；原断言与证据见发出端卡片“凝视荷马像的亚里士多德（Aristotle contemplating the bust of Homer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
+
+### 身份与外部链接
+
+| 字段 | 值／链接 | 状态与范围 |
+|---|---|---|
+| Wikipedia（en） | [Homer](https://en.wikipedia.org/wiki/Homer) | S2；条目链接至Q6691 |
+| Wikidata | [Q6691](https://www.wikidata.org/wiki/Q6691) | S3；enwiki站点链接对应Homer条目；该项标示历史存在存疑，不据此补入生平事实 |
 
 ### 关系候选入口
 

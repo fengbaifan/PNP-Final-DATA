@@ -1,14 +1,17 @@
 # 第一章样例：第一部分当前结果
 
-**论文适用性评估（REV-075，REV-076迁入论文目录）：** 当前可定位为艺术史知识库构建方法与案例研究原型；尚未具备流程对照、独立参照或泛化实验的结果。原书事实与外部补足需分口径，卡拉奇作品端点、样例关系证据编号及关系计数口径仍有实际待处理项。详见[评估及最小实验建议](../../07-paper/README.md)、[投稿期刊建议](../../07-paper/journal-targets.md)。本轮仅评估，未执行实验；知识发现、页面和人工校验保持暂停。
+**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；近期批次处理Francesco Maggiotto、Ottavio Leoni、Pietro Testa、Paolo de Matteis及Ciro Ferri关系链，并为有据家庭、学院、赞助及作品版本关系建立必要端点。
 
-**当前执行点（REV-079，2026-09-14）：已把关系召回前移到处理阶段，并完成第一章回溯。** 在既有80个语义跨度基础上，完整复读原章L1–980，登记40个[关系命题簇、指代与证据跨度](../../03-processing/patrons-and-painters-chp-1/results/stages.md#三原书关系候选指代与证据跨度rev-079)。关系阶段逐项给出正式边、待决或不建边裁决；15个候选簇仍含匿名端点、缺失家族KU、版本或事实状态不足等待决项，未用外部资料倒写原书，也未把一般机制、共现或修辞动作实体化。
-
-**本轮关系结果：** 正式关系由407增至410条。新增Valentin作品—Fabrizio Valguarnera委托、Guercino西西里祭坛画—Guercino创作、Schildersbent—Accademia di San Luca征税争议三条边；Giustiniani购入卡拉瓦乔退画的既有边改以原书L349–353为关系证据，柏林馆页继续只承担作品识别和外部履历。完整映射、理由和未决清单见[REV-079关系裁决](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-079关系候选回溯与正式关系集中裁决2026-09-14)。
-
-**本次验证：** 可读关系视图已由正式frontmatter重新投影，418张有效卡共有410条正式有向关系和815行原向／反向视图；关系索引已重建为410条，生成器分类为409条`explicit`加1条`inferred_by_rule`。完整闭包16步通过，274项测试通过；内容机械缺陷、关系断端点、非法类型、缺反向映射、弱证据和规则漂移均为0，系统结构契约130/130。页面数据未刷新。这些检查不证明40个候选簇之外没有新的语义关系；论文标注验证、知识发现、第六章与页面继续暂停。
+- 随后为Ferri的Sant’Agnese穹顶关系链新增Pamphili家族和合同对象Giovanni Battista Pamphilj Aldobrandini（1648–1709）两个KU，并写入4条有据关系。纠正原卡将“G. B. Pamphili”含混指向已故教皇的风险；区分家族委托责任、个人合同及合同彩稿。家族完整谱系、合同原件、彩稿实物身份仍未确认。
+- 本批为Guercino祭坛画新增Messina城市和San Gregorio教堂两个place KU，并把教堂登记为Zeri所载末知地点；另以官方市级来源把教堂定位至Messina。全库现为967个有效KU、1128条关系索引。1665年委托修院法人及其与San Gregorio附属修院的关系仍未确认，故不建立委托边。
+- 本轮依据RISD馆藏号52.195补登记Ottavio Leoni 1617年《烛光下的马达莱娜·泰利肖像》，并连接肖像人物和保管机构；2006年目录旧题名以同一馆藏号确认为同件作品。补建RISD Museum及Providence端点，为机构完成Wikipedia—Wikidata双向身份对齐；修正Maddalena、Eufrasia误写为儿子的双语描述，并为Maddalena补婚姻、嫁资和丧偶记录。现全库970个KU、1132条关系索引。
+- 四位画家的身份与外部专业来源相连；Vincenzo I Gonzaga与Giovanni Angelo d’Altemps均完成适用的Wikipedia—Wikidata双向核对。Francesco与Domenico Fedeli关联同一学院端点；Paolo de Matteis加入画家会众的端点使用DBI描述性称谓，未伪称正式机构专名。
+- 《赫拉克勒斯的选择》区分阿什莫林委托原作、利兹较小亲笔版本及DBI所列原作地点；不将原作地点写成委托地点。Testa受洗日期不作出生日期；Leoni对Caravaggio仅面熟，不建立朋友关系。
+- 本轮涉及的端点、时间／版本、关系方向与对应来源见[画家关系接续](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25)、[Guercino祭坛画末知地点核对](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣额我略堂末知地点与城市端点2026-09-25)及[马达莱娜·泰利作品与身份关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#马达莱娜泰利作品与身份关系补足2026-09-25)。其余对象对齐、作品和关系缺口仍待继续；证据不足的对象保留待证。知识发现、页面和人工校验仍暂停。
 
 以下REV-067–068及更早段落保留历史状态；既往“定稿”不表示已完成独立全面语义验收。
+
+
 
 ## REV-067–068作品闭合与全类型补足结果
 

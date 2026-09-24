@@ -18828,7 +18828,7 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 | CH1-RC-013 | F | Bracciano—Mulier及Pamfili—Mola／Cortese的限制语境已处理；Pascoli传记单列archive。 |
 | CH1-RC-014 | N | 委托时机段只有匿名artist／patron。 |
 | CH1-RC-015 | F | Pallavicini—Piola持续赞助及Flavio Chigi—Mario de' Fiori月俸关系已有端点和原书证据。 |
-| CH1-RC-016 | F＋P | 询问事件—Guercino—祭坛画方案已有正式端点；本轮依据Zeri目录补上作品 `created_by` Guercino。西西里修院法人未识别，保持P；原书本身不作为完成证明。 |
+| CH1-RC-016 | F＋P | 询问事件—Guercino—祭坛画方案已有正式端点；Zeri支持作品 `created_by` Guercino 及末知地点San Gregorio教堂。委托修院法人仍未识别，保持P；原书本身不作为身份对齐证明。 |
 | CH1-RC-017 | F | Pamfili—Mola委托、借阅／批注对象、Armanni书信、Savini／Minniti条款、Gavasetti及Ricci相关合同分别映射，未压缩为一条泛化赞助边。 |
 | CH1-RC-018 | F | Urban VIII—Camassei祭坛画委托与创作链已有正式端点。 |
 | CH1-RC-019 | F＋P | 本轮把Giustiniani购入卡拉瓦乔退画的 `acquired_by` 证据改回原书L349–353；柏林馆记录只负责对象识别和外部履历。Giovanni Adamo来信已有文献边，信中匿名作品保持P。 |
@@ -18864,7 +18864,68 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 ### 未解决关系缺口
 
 - 端点未具名：跨赞助人延续工作的艺术家、Domenichino的一位朋友、Mantua／del Carpio所涉画家、Rosa的客户与朋友、Rosa库存买家、家庭成员及Carlone婚配对象等。
-- 端点尚未建立：Pamfili家族作为Ferri相关委托的家族级主体；不得以任一家族成员代替。
-- 事实状态不足：Lanfranco向Francesco Barberini提出的请求是否形成委托、未识别喜剧／书信本体、部分胸像与模型版本。
+- 事实状态或身份不足：Lanfranco向Francesco Barberini提出的请求是否形成委托、未识别喜剧／书信本体、部分胸像与模型版本；Guercino西西里祭坛画的1665年委托修院法人及其与San Gregorio教堂附属修院的关系仍待证。
 
 这些缺口保持 `pending`，不属于已完成正式边。本轮没有把外部补足事实倒写成原书陈述，也没有因共现、同国籍、同机构、逸事动作或一般机制新增关系。
+
+## 潘菲利家族与圣阿涅塞穹顶委托端点（2026-09-25）
+
+关系候选 CH1-RC-023 留有一个具名家族端点缺口：第一章称Pamfili家族负责圣阿涅塞穹顶工程委托，但尚无可复用Pamphili family知识元；既有作品卡将委托人写为“Giovanni Battista Pamphili”，未消歧至人物卡。此次只闭合这条有明确文本和外部传记依据的委托链。
+
+| 对象／问题 | 实际读取与比较 | 结论 |
+|---|---|---|
+| 具体合同对象 | Treccani《意大利人传记辞典》Ciro Ferri词条相关段落；其载1670年9月11日Ferri与“G. B. Pamphili”订约绘制穹顶。Doria Pamphilj家族官网完整读取Giovanni Battista Pamphilj Aldobrandini传记；页面记1648–1709、Camillo与Olimpia之长子、1666年继承家族产业及继续父母艺术项目 | 按合同年代排除Giovanni Battista Pamphilj／教皇英诺森十世（1574–1655）；Camillo Pamphili本人卒于1666。与时间及家族继承链相合者为Giovanni Battista Pamphilj Aldobrandini（1648–1709）。此对应是DBI缩写、家族权承继与年代联合支持的身份对齐，不声称本轮读到合同原件。 |
+| 人物Wiki身份 | 意大利语Wikipedia人物条目标题、描述与page information；Q43987857的英文标签／描述及itwiki sitelink | 页面指向Q43987857，Q43987857反向列出同一itwiki标题；条目所指为1648–1709年亲王，而不是教皇。身份入口双向通过。 |
+| 家族Wiki身份 | 英文Wikipedia “Pamphili family” page information显示Q962192；Wikidata Q962192英文标签、描述及enwiki sitelink | 双向指向同一“Pamphili family”；该家族与较晚Doria-Pamphili-Landi支系保持区分，不依旧家名把两者并为一项。 |
+| 章节事实 | 第一章p.12、L437–441；本章明确Pamfili family对委托负责，并记1670年彩色modello的合同要求 | 家族责任与特定合同个人为两个层级，分别保留；合同同时要求制作彩稿，但该描述性modello尚未对应一件已辨明存世物。 |
+
+新增[潘菲利家族](../../../04-knowledge/units/families/pamphili-family.md)和[Giovanni Battista Pamphilj Aldobrandini](../../../04-knowledge/units/persons/giovanni-battista-pamphilj-aldobrandini.md)两个KU。关系写入如下：人物→家族`member_of`；完成穹顶壁画→合同个人`commissioned_by`、→Pamphili family`commissioned_by`；合同要求的彩稿阶段→合同个人`commissioned_by`。4条边的时间、委托角色及范围分别保存；彩稿边不宣称具体存世稿本已识别。两张作品卡不再把委托人留作未链接、可能指向已故教皇的含混名称。
+
+未新增定稿范围以外的亲缘边、作品总表或家族谱系；Pamphili家族全文谱系、合同原件及彩稿的实物身份仍待证。此前RC-023所列“缺少可复用家族KU”已解决；RC-023中Gaulli可能参与的推测继续保留N/P，不转为正式关系。
+
+## 第一章人物身份和作品关系接续（2026-09-25）
+
+2026-09-25接续第一章样例对齐、补足与关系工作。基线为全库923个有效KU、1054条全库正式关系索引。本批处理四名既有画家及直接证据支持的亲属、学院、赞助者、作品版本端点。
+
+| 对象 | 来源与读取 | 本轮裁决 |
+|---|---|---|
+| Francesco Fedeli detto Maggiotto | Treccani DBI，Ettore Merkel，卷45（1995），全文68行；另读Domenico Fedeli同卷传记全文81行 | 规范本名与通称，补生卒、学院职务、公共绘画检查员履历及父母、姐妹、子女。祖父Domenico senior与Francesco之子Domenico分开登记。DBI所述168幅肖像组未与原书未具名三幅总督逐件匹配。 |
+| Ottavio Leoni | Treccani DBI，Valentina Sapienza，卷64（2005），全文71行 | 1578仅作推定；父亲授艺只记可能，不立确定师承。补婚配、朋友、继子女与学院任职。Caravaggio自称仅面熟而未交谈，不建立朋友边。Principe记为学院职务。 |
+| Pietro Testa | Treccani DBI，Silvia Bruno，卷95（2019），全文82行 | 1612-06-18是受洗日期，不改作生日；补父母和兄长。Domenichino、Cortona师承分别保留早期传记依据及不确定限定；Mola为朋友，Cassiano关系保留服务、庇护和债务背景。图版18a的埃及仅列题名所示叙事目的地。 |
+| Paolo de Matteis | Treccani DBI，Paola Santucci，卷38（1990），全文92行；阅读Ashmolean馆方作品页全文及教师资料第3页第9项 | 补父母、第一任配偶和三位画家女儿；区分Giordano师承、Carpio引见Morandi、Morandi引入学院。将阿什莫林WA1980.92与利兹较小亲笔版本分开，分别记录Shaftesbury与John Cropley委托。 |
+
+### 关系与版本
+
+新增关系逐条限定端点、方向、范围和时间，以传记段落或原书图版行段为据。前婚子女与Leoni的关系标继亲，不当作生物亲子。作品创作者和肖像对象直接从原书标题、图版署名映射。两种《赫拉克勒斯的选择》通过版本关系连接；DBI所列原作地点与阿什莫林当前馆藏分别记录；不将前者解释为委托地点。新增文琴佐一世·贡扎加和乔万尼·安杰洛·阿尔滕普斯的服务关系端点；两者身份配对与卡内服务事实分开记录。补入威尼斯学院及那不勒斯画家会众端点，后者名称明确为描述性称谓。
+
+### 仍待核
+
+Francesco Maggiotto的168幅总督等人肖像组与原书图版68a三幅肖像是否包含对应版本，尚无图像或单件记录证明，继续待核。Leoni父亲授艺为可能，未写正式师承边。Testa师承是DBI转述早期传记，且Cortona一段带推测；均在卡内保留证据限定。Mattei出生地Piana del Cilento与转引的Piano di Orria尚未统一；未强行选择或映射。DBI列举的其他作品尚未逐件转为本章作品清单。
+
+新增33个KU（人物28，机构3个、地点1个及作品1件）和59条正式关系。9项主候选继续待证。未进行知识发现、页面或人工校验。
+
+## 圣额我略堂末知地点与城市端点（2026-09-25）
+
+此次接续CH1-RC-016的作品位置端点，并区分“末知地点”与“委托修院／原定安置地点”。
+
+| 问题 | 实际来源与核对 | 结论 |
+|---|---|---|
+| 城市端点 | 英文Wikipedia “Messina”身份、类型和地点段及页面Wikidata入口；Wikidata Q13666英文标签、city类型、enwiki与itwiki sitelink。Wikipedia→Wikidata入口和Wikidata→enwiki回链指向同一城市 | 新建墨西拿（Messina）place KU，Q13666双向身份核对通过；仅采纳城市及西西里位置，不提取无关百科内容 |
+| 教堂身份／作品位置 | 意大利语Wikipedia《Chiesa di San Gregorio (Messina)》全文已读（L65–297）；页面注明只有意大利语，并将对应Wikidata入口链接至Q3670706。Wikidata实体描述为“church building in Messina, Italy”，itwiki sitelink标题完全匹配，enwiki空缺。页面记新堂1588年建成、1908年地震损毁；堂内Madonna del Carmine祭坛龛位有Guercino 1665画作。Zeri另将Chiesa di S. Gregorio列作该作品末知地点 | Q3670706双向身份核对通过。新增教堂→城市 `located_at` 及作品→教堂 `located_at`。作品—堂内龛位的信息来源已记入卡；本次未独立新增龛位KU或 `installed_at` 边 |
+| 1665年委托法人 | Haskell第一章只称“一所西西里修院”；教堂页面将San Gregorio修院与新堂联系并记该画位于堂内，但没有说该修院是本件的合同／法律委托方。墨西拿市级页面称Antonello 1473年作品由San Gregorio修院院长委托，不能移作1665年的直接证据。西西里大区资产说明将相关旧修院称Santa Maria extra moenia本笃会修院；意大利中央档案系统登记“Monastero di San Basilio (San Gregorio)”（16世纪至1866年），法人名称／修会口径尚未与本件委托语句对应 | 不建立修院 `commissioned_by` 或 `intended_for` 边；对应法人保持P，需找到直接连接1665年合同／作品与具体修院的证据 |
+
+新增两张KU（Messina城市、San Gregorio教堂）及两条正式关系：教堂→城市 `located_at`；Guercino祭坛画→教堂 `located_at`。作品卡把关系限定为Zeri所载“末知地点”，未记时间，且不推定委托地点或原定安置。9项主候选的pending处置未变；CH1-RC-016由原有事件／人物／作品链推进为F＋P，委托修院身份仍待证。没有把身份相近的修院档案合并成同一法人。
+
+## 马达莱娜·泰利作品与身份关系补足（2026-09-25）
+
+### 来源对读与身份边界
+
+| 问题 | 实际读取 | 裁决 |
+|---|---|---|
+| Maddalena身份 | Valentina Sapienza, “Leoni, Ottavio,” Treccani《意大利人传记辞典》64卷（2005），婚姻家庭段及后续继女婚姻段（lines 44、50）；RISD Museum对象52.195完整馆藏条目 | Treccani记其为Caterina Cucchiaroni与Giovanni Telli之女，后成为Ottavio Leoni继女；馆藏题名称“Maddalena Telli”，题记为“madalena”。姓名、艺术家、年代和馆藏号支持同一对象。未发现可据以添加独立QID的本轮身份记录，不虚填人物标识。 |
+| 作品题名及对象 | RISD Museum当前目录完整读取对象52.195；并读2006年《Design and Description: Renaissance and Baroque Drawings》第7页 | 当前题名为“Portrait of Maddalena Telli by Candlelight”；2006年题名“Portrait of a Young Girl (Madalena)”与当前记录共享编号52.195，因此记录为同一作品的历史馆藏题名，不拆成两件。条目给出1617年、粉笔／石墨／蓝纸、23×15.5 cm、题记及流传。 |
+| Maddalena的婚姻履历 | 同一Treccani传记第50行 | 1626年结婚；Ottavio支付现金与动产嫁资；丈夫次年去世后她返回strada Paolina居住。该条目不具名丈夫，不建立配偶端点。 |
+| 保管机构身份 | RISD Museum官网“Who We Are”及“Hours & Admission”；英文Wikipedia条目身份信息与Wikidata Q2148186英文实体比较，并从条目点击Wikidata入口 | 官网名称与职能吻合；Wikipedia标题、类型和地点与Q2148186的英文标签／描述及enwiki sitelink对应，页面入口与QID双向指向一致。记录RISD Museum为52.195保管机构；此关系不推定所有权。 |
+| 城市身份 | RISD Museum官方访客交通信息；英文Wikipedia “Providence, Rhode Island”身份信息与Wikidata Q18383英文实体比较，并从条目点击Wikidata入口 | 来源指向美国罗得岛州Providence；Q18383描述为相同城市且enwiki sitelink为该条目，Wikipedia入口与QID双向匹配。新建地点端点供馆址关系使用。 |
+
+新增三张KU：1617年素描、RISD Museum机构、Providence地点。新增正式关系四条：作品→Ottavio `created_by`、作品→Maddalena `has_subject`、作品→RISD Museum `held_by`、RISD Museum→Providence `located_at`。Maddalena的人物卡增补馆藏规范姓名、婚姻／嫁资／丧偶履历和作品入口；更正Maddalena与Eufrasia两张卡把女儿误写为儿子的中英文描述。Ottavio人物作品关联增加这件馆藏素描，并标明非本书图版。无作品QID或Maddalena独立QID未作推断。

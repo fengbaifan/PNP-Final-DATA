@@ -1,9 +1,9 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-09-15 04:14
+> Snapshot: 2026-09-25 02:11
 > Structural health: 130/130
-> Knowledge units: 923
+> Knowledge units: 970
 > Maturity metrics: unscored_semantic_maturity
 
 > 有效知识按 accepted.yml 统计。旧处理包、候选、dataflow、旧版翻译字段与可选验证层级只保留在健康快照中作历史诊断，不列为当前缺陷或阶段门禁。
@@ -26,18 +26,18 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 186 | research_debt |
+| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 209 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 142 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 138 | candidate_opportunity |
 
 ## Completed mechanical signals
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| C-FM | required frontmatter coverage complete | 2026-09-15 | completed |
-| C-VERIFY | verification state conflicts absent | 2026-09-15 | completed |
-| C-SCHEMA | deprecated type drift absent | 2026-09-15 | completed |
+| C-FM | required frontmatter coverage complete | 2026-09-25 | completed |
+| C-VERIFY | verification state conflicts absent | 2026-09-25 | completed |
+| C-SCHEMA | deprecated type drift absent | 2026-09-25 | completed |

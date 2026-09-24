@@ -1,7 +1,7 @@
 # Relation Index v2.1
-# generated: 2026-09-15
-# total: 1054
-# sources: {'explicit': 1053, 'inferred_by_rule': 1}
+# generated: 2026-09-25
+# total: 1132
+# sources: {'explicit': 1131, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-peretti-montalto.md
   source_type: person
@@ -889,6 +889,101 @@
   review_status: evidence_backed_relation
   role: 主要合作者
   scope: 训练期之后的工作合作；具体项目仍逐作判断
+- source: persons/caterina-cucchiaroni.md
+  source_type: person
+  target: persons/giovanni-telli.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 前配偶
+  scope: 此前婚姻
+- source: persons/caterina-cucchiaroni.md
+  source_type: person
+  target: persons/battista-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: Caterina与前夫所生
+- source: persons/caterina-cucchiaroni.md
+  source_type: person
+  target: persons/maddalena-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: Caterina与前夫所生
+- source: persons/caterina-cucchiaroni.md
+  source_type: person
+  target: persons/ippolito-leoni.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: Caterina与前夫所生
+- source: persons/caterina-cucchiaroni.md
+  source_type: person
+  target: persons/eufrasia-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: Caterina与前夫所生
 - source: persons/charles-francois-poerson.md
   source_type: person
   target: institutions/french-academy-in-rome.md
@@ -1178,6 +1273,63 @@
   review_status: evidence_backed_relation
   role: 整治活动地点
   scope: 与Memmo合作整治广场；不等同方案的实际存放地
+- source: persons/domenico-fedeli-venice-painter.md
+  source_type: person
+  target: persons/elena-zuliani.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-domenico-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-domenico-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 24–25
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 配偶
+  scope: 1738年结婚
+- source: persons/domenico-fedeli-venice-painter.md
+  source_type: person
+  target: persons/giuseppe-giovanni-fedeli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-domenico-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-domenico-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 25–26
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: 具名儿子
+- source: persons/domenico-fedeli-venice-painter.md
+  source_type: person
+  target: institutions/venetian-academy-of-painting-and-sculpture.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-domenico-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-domenico-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 27–28
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 成员；后任学院职务
+  scope: 1756入会
 - source: persons/domenico-maria-viani.md
   source_type: person
   target: persons/giovanni-maria-viani.md
@@ -1627,6 +1779,139 @@
   time: '1712'
   role: 出生
   scope: 出生地
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/domenico-fedeli-venice-painter.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 27–30
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 传记记其父为画家Domenico
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/elena-zuliani.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 27–30
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 出生信息
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/angela-fedeli.md
+  target_type: person
+  relation_type: sibling_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 56–57
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 兄妹
+  scope: 遗嘱记其姐妹
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/elena-fedeli-daughter.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 56–57
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 遗嘱所载子女
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/giovan-battista-fedeli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 56–57
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 遗嘱所载子女
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: persons/domenico-fedeli-son-of-francesco.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 56–57
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 遗嘱所载子女
+- source: persons/francesco-maggiotto.md
+  source_type: person
+  target: institutions/venetian-academy-of-painting-and-sculpture.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
+    source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
+    source_span: lines 30–31
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 绘画教师；后任主席
+  scope: 1771起任绘画教师；1790任主席
 - source: persons/francesco-petrucci.md
   source_type: person
   target: persons/baldassare-franceschini.md
@@ -2411,6 +2696,25 @@
   time: 生年未定；1710卒
   role: 出生／去世
   scope: 出生和去世均为威尼斯
+- source: persons/giovanni-battista-pamphilj-aldobrandini.md
+  source_type: person
+  target: families/pamphili-family.md
+  target_type: family
+  relation_type: member_of
+  inverse_relation_type: null
+  note: 家族官网传记称其为Camillo与Olimpia之长子，并继承Pamphilj家族primogeniture。
+  evidence: ''
+  evidence_ref:
+    doc_id: doria-pamphilj-giovanni-battista-1648
+    source_file: https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/
+    source_span: lines 159–170 of retrieved page
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 家族长子及继承人
+  scope: Pamphilj家族归属；不将Olimpia的Aldobrandini继承并作Pamphilj成员关系
 - source: persons/giovanni-bonati.md
   source_type: person
   target: persons/cardinal-pio-bonati.md
@@ -2618,6 +2922,82 @@
   time: 1689年后
   role: 工作室学生
   scope: 盖乌利工作室阶段；不推定共同创作
+- source: persons/giovanni-telli.md
+  source_type: person
+  target: persons/battista-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 前婚子女
+- source: persons/giovanni-telli.md
+  source_type: person
+  target: persons/maddalena-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 前婚子女
+- source: persons/giovanni-telli.md
+  source_type: person
+  target: persons/ippolito-leoni.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 前婚子女
+- source: persons/giovanni-telli.md
+  source_type: person
+  target: persons/eufrasia-telli.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 前婚子女
 - source: persons/giuseppe-angeli.md
   source_type: person
   target: persons/piazzetta.md
@@ -3060,6 +3440,25 @@
   time: 1962年时点
   role: 威尼斯素描策展人
   scope: 1962年相识时职务；不推定完整任期
+- source: persons/leonardo-pesaro-commissioner.md
+  source_type: person
+  target: persons/giovanni-pesaro.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: federico-barbierato-giovanni-pesaro-dbi-82-2015
+    source_file: https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/
+    source_span: lines 50–52
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 侄子
+  scope: 纪念碑委托与建造语境
 - source: persons/lodovico-gimignani.md
   source_type: person
   target: persons/cardinal-rospigliosi-gimignani.md
@@ -3845,6 +4244,177 @@
   time: 1626起
   role: 宫廷赞助者
   scope: 宫廷服务概况；不将特定作品的委托归给国王
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/ludovico-leoni.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 27–31
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 明载其为Ludovico之子
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/caterina-cucchiaroni.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 配偶
+  scope: 1615年3月24日结婚
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/marcello-provenzale.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43, 53
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友、婚礼证人及遗嘱执行人
+  scope: 传记明确称朋友
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/battista-telli.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 继父
+  scope: 继亲关系，不表示生物亲子
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/maddalena-telli.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 继父
+  scope: 继亲关系，不表示生物亲子
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/ippolito-leoni.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 继父
+  scope: 继亲关系，不表示生物亲子
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/eufrasia-telli.md
+  target_type: person
+  relation_type: kin_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 43–44
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 继父
+  scope: 继亲关系，不表示生物亲子
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/vincenzo-i-gonzaga.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 32–33
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 宫廷肖像服务与赞助
+  scope: '1599'
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: persons/giovanni-angelo-altemps.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 45–46
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 家族肖像与壁画服务
+  scope: 1617–1618
 - source: persons/paolo-borghese.md
   source_type: person
   target: families/borghese-family.md
@@ -3865,6 +4435,215 @@
   time: 约1622／1624–1646
   role: 博尔盖塞家族成员
   scope: 只表示家族归属，不与1904–1985年同名人物混同
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/decio-de-matteis.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 27–29
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 父母身份
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/lucrezia-orico.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 27–29
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 父母身份
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/rosolena-perrone.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 67–69
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 第一任配偶
+  scope: 第一段婚姻
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/mariangiola-de-matteis.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 69–72
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 第一任配偶所生；女儿为画家
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/felice-de-matteis.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 69–72
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 第一任配偶所生；女儿为画家
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/emmanuella-de-matteis.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 69–72
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 女儿
+  scope: 第一任配偶所生；女儿为画家
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/luca-giordano.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 29–32
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 早期学生
+  scope: 早年并于1683年后再次随学
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/marchese-del-carpio.md
+  target_type: person
+  relation_type: introduced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 29–31
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 引介至罗马画家圈
+  scope: 约1682年；引见给Morandi
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/giammaria-morandi.md
+  target_type: person
+  relation_type: introduced_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 29–30
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 引入圣卢卡学院
+  scope: 约1682年；不推定正式入会
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: persons/louis-xiv.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 43–46
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 王室庇护
+  scope: 1703–1705，巴黎
+- source: persons/paolo-de-matteis.md
+  source_type: person
+  target: institutions/congregation-of-painters-jesuit-professed-house-naples.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 33–35
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 成员
+  scope: 1686起
 - source: persons/paolo-girolamo-piola.md
   source_type: person
   target: persons/marchese-pallavicini-piola.md
@@ -4198,6 +4977,139 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/giovanni-di-bartolomeo-testa.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 23–24
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 父亲身份与职业
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/barbara-mother-of-pietro-testa.md
+  target_type: person
+  relation_type: child_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 23–24
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 儿子
+  scope: 母名Barbara
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/giacinto-testa.md
+  target_type: person
+  relation_type: sibling_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 34–35
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 兄弟
+  scope: 兄长Giacinto
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/domenichino.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: DBI明确将师承归于早期传记记载。
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 28–30
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 早期传记所述短期学徒
+  scope: Passeri与Baldinucci转述
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/pietro-da-cortona.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: DBI用虚拟语态转述，保留其可能性。
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 31–33
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 短期且有争议的工作室学习
+  scope: 1631年后；由Cassiano引入
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/cassiano-dal-pozzo.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 29–30, 35–37
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 庇护与服务关系
+  scope: 早期罗马时期；另有债务与未付作品背景
+- source: persons/pietro-testa.md
+  source_type: person
+  target: persons/pier-francesco-mola.md
+  target_type: person
+  relation_type: friend_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019
+    source_file: https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/
+    source_span: lines 54–57
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 朋友
+  scope: 卢卡时期；来源明称Mola为朋友
 - source: persons/rudolf-wittkower.md
   source_type: person
   target: institutions/columbia-university.md
@@ -4946,6 +5858,24 @@
   time: 来源访问时点2026-09-15
   role: 主要所在地
   scope: 大学主校区所在城镇
+- source: institutions/rhode-island-school-of-design-museum.md
+  source_type: institution
+  target: places/providence.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: risd-museum-hours-admission
+    source_file: https://risdmuseum.org/hours-admission
+    source_span: Getting Here：博物馆地址及Providence train station
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 博物馆所在地
 - source: institutions/royal-academy.md
   source_type: institution
   target: places/london.md
@@ -5449,6 +6379,25 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/chiesa-san-gregorio-messina.md
+  source_type: place
+  target: places/messina.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 市级文化导览将圣额我略堂与相连修院列入墨西拿城市历史。
+  evidence: ''
+  evidence_ref:
+    doc_id: metropolitan-city-messina-museum-history
+    source_file: https://visitme.comune.messina.it/en/node/433
+    source_span: 历史段；圣额我略堂与相连修院；1880年及1908年事件
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 所在城市
+  scope: 历史建筑地点；不指代修院法人
 - source: places/contarelli-chapel.md
   source_type: place
   target: places/san-luigi-dei-francesi.md
@@ -11038,6 +11987,46 @@
   review_status: evidence_backed_relation
 - source: works/ferri-sant-agnese-cupola.md
   source_type: work
+  target: persons/giovanni-battista-pamphilj-aldobrandini.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: Treccani将1670年9月11日合同的G. B. Pamphili明确为合同对象；此人依生卒与家族传承核定为1648–1709年的长子，不是教皇英诺森十世。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ciro-ferri
+    source_file: https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/
+    source_span: 1670年9月11日合同段；身份由Doria Pamphilj家族传记核对
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670-09-11'
+  role: 合同签订／委托方
+  scope: 穹顶壁画工程，不将合同误配为教皇英诺森十世个人委托
+- source: works/ferri-sant-agnese-cupola.md
+  source_type: work
+  target: families/pamphili-family.md
+  target_type: family
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 原书明确称Pamfili家族对该穹顶委托负有责任；与个人合同签订者分层记录。
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/01_CHP-1.md
+    source_span: lines 437–441; print pp. 12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670'
+  role: 负责委托的家族
+  scope: Sant’Agnese in Agone穹顶壁画工程
+- source: works/ferri-sant-agnese-cupola.md
+  source_type: work
   target: places/sant-agnese-piazza-navona.md
   target_type: place
   relation_type: located_at
@@ -11070,6 +12059,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: works/ferri-sant-agnese-modello.md
+  source_type: work
+  target: persons/giovanni-battista-pamphilj-aldobrandini.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: DBI称1670年穹顶壁画合同与G. B. Pamphili订立；原书说明该合同要求提交彩色稿。此边指合同要求的预备稿阶段，不指向一件已辨明的存世稿本。
+  evidence: ''
+  evidence_ref:
+    doc_id: dbi-ciro-ferri
+    source_file: https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/
+    source_span: 1670年9月11日合同段；与原书 lines 437–440 对读
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1670-09-11'
+  role: 合同委托方
+  scope: 穹顶工程合同要求提交彩色modello；未辨明其对应的具体存世实物
 - source: works/fortune-salvator-rosa.md
   source_type: work
   target: institutions/marlborough-fine-art-ltd.md
@@ -12253,6 +13262,25 @@
   time: '1665'
   role: 创作者
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
+- source: works/guercino-sicilian-altarpiece-1665.md
+  source_type: work
+  target: places/chiesa-san-gregorio-messina.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: Fondazione Zeri将末知地点记为墨西拿圣额我略堂；只记录目录所载末知地点，不等同于1665年委托地点、原定安置地点或委托法人。
+  evidence: ''
+  evidence_ref:
+    doc_id: zeri-work-58737
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/58737/
+    source_span: 本卡 S2；Locations；Last known：Chiesa di S. Gregorio, Messina
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 目录所载末知地点
+  scope: 时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段
 - source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
   source_type: work
   target: persons/guglielmo-baur.md
@@ -13477,6 +14505,165 @@
   time: 本书图片来源所载时点
   role: 本书复制图像供片者
   scope: 图版41b，Böhm商号身份依S3
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/baldassare-longhena.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 6–10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1669，建造期；委托日期未详
+  role: 建筑设计与纪念碑制作
+  scope: 纪念碑整体；教堂官方名单亦列Longhena
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/bernardo-falconi.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: basilica-dei-frari-monumenti
+    source_file: https://www.basilicadeifrari.it/monumenti/
+    source_span: lines 58–60
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 教堂官方页面列名的纪念碑制作者；具体分工未明
+  scope: 纪念碑整体
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/melchior-barthel.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 10–12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1669
+  role: 雕塑装饰；制作宗教与德性寓意人物组
+  scope: 纪念碑雕塑装饰
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/josse-de-corte.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 10–12
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1669
+  role: 雕塑装饰；制作小天使、Giovanni雕像及四件寓意像
+  scope: 纪念碑雕塑装饰
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/francesco-cavrioli.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 10–11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1669
+  role: 制作支撑卷轴的两具青铜骷髅
+  scope: 纪念碑局部雕塑
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/michele-fabris.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 10–11
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1665–1669
+  role: 雕刻两条龙形装饰
+  scope: 纪念碑局部雕塑
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/leonardo-pesaro-commissioner.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: wga-monument-to-doge-giovanni-pesaro
+    source_file: https://www.wga.hu/html_m/l/longhena/pesaro.html
+    source_span: lines 6–10
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 委托日期未详；1665年取得施工许可，建造至1669年
+  role: 委托Longhena制作纪念碑
+  scope: 纪念碑整体
+- source: works/monument-to-doge-giovanni-pesaro.md
+  source_type: work
+  target: persons/giovanni-pesaro.md
+  target_type: person
+  relation_type: patronized_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: federico-barbierato-giovanni-pesaro-dbi-82-2015
+    source_file: https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/
+    source_span: lines 50–52
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1659年前后遗嘱所涉资金；工程1665–1669
+  role: 立遗嘱为纪念碑建造拨定12,000达克特
+  scope: 纪念碑建造资金；不等同工程委托
 - source: works/nanteuil-cardinal-mazarin-in-his-gallery.md
   source_type: work
   target: institutions/stearn-and-son.md
@@ -13693,6 +14880,44 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版3a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/ottavio-leoni-cardinal-francesco-barberini.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 40–40; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书图版署名创作者
+  scope: 图版目录
+- source: works/ottavio-leoni-cardinal-francesco-barberini.md
+  source_type: work
+  target: persons/francesco-barberini.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 40–40; 章前：图版目录；印刷页xii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像对象
+  scope: 图版03a标题
 - source: works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md
   source_type: work
   target: institutions/turners-of-cambridge.md
@@ -13712,6 +14937,104 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版17c的复制图像；不表示作品创作者、所有者或保管者
+- source: works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书图版署名创作者
+  scope: 图版目录
+- source: works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md
+  source_type: work
+  target: persons/paolo-giordano-orsini.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 70–70; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像对象
+  scope: 图版17c标题
+- source: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: risd-portrait-maddalena-telli-52-195
+    source_file: https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195
+    source_span: Maker、Year、Object Number：52.195
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1617'
+  role: 素描创作者
+  scope: RISD Museum馆藏对象52.195
+- source: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md
+  source_type: work
+  target: persons/maddalena-telli.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: risd-portrait-maddalena-telli-52-195
+    source_file: https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195
+    source_span: Title、Inscription、Exhibition label：对象52.195
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1617'
+  role: 肖像对象
+  scope: 馆藏题名为Maddalena Telli；题记为madalena
+- source: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md
+  source_type: work
+  target: institutions/rhode-island-school-of-design-museum.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: risd-portrait-maddalena-telli-52-195
+    source_file: https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195
+    source_span: Credit、Object Number、Provenance：对象52.195，1952年赠予RISD Museum
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1952年入藏；馆藏记录访问于2026-09-25
+  role: 当前保管机构
+  scope: 馆藏记录所列对象52.195；不据此断言当前法律所有权
 - source: works/p-van-bleek-owen-mcswiny.md
   source_type: work
   target: persons/p-van-bleek.md
@@ -13770,6 +15093,101 @@
   time: 本书所述时点
   role: 书中保管机构
   scope: 图版52a；载体与具体馆藏号未定
+- source: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  source_type: work
+  target: persons/paolo-de-matteis.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 52–55
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 委托原作创作者
+  scope: '1712'
+- source: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  source_type: work
+  target: persons/anthony-ashley-cooper-3rd-earl.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ashmolean-museum-the-choice-of-hercules
+    source_file: https://ashmoleanprints.com/products/pod439947
+    source_span: description paragraphs 1–2
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原作委托者
+  scope: 约1712
+- source: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  source_type: work
+  target: institutions/ashmolean-museum.md
+  target_type: institution
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ashmolean-museum-the-choice-of-hercules
+    source_file: https://ashmoleanprints.com/products/pod439947
+    source_span: additional information
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 当前馆藏机构
+  scope: 馆方网页，2026-09-25访问
+- source: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  source_type: work
+  target: places/oxford.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ashmolean-museum-the-choice-of-hercules
+    source_file: https://ashmoleanprints.com/products/pod439947
+    source_span: additional information
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 当前馆藏城市
+  scope: 馆方网页，2026-09-25访问
+- source: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  source_type: work
+  target: places/giles-house-dorset.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: 不等同委托地点；当前阿什莫林收藏另列。
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 52–54
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: DBI列示的原作地点
+  scope: DBI原作记载；具体安置时间未载
 - source: works/paolo-de-matteis-the-choice-of-hercules.md
   source_type: work
   target: persons/paolo-de-matteis.md
@@ -13829,6 +15247,63 @@
   time: 本书所述时点
   role: 书中所在城市
   scope: 图版32b
+- source: works/paolo-de-matteis-the-choice-of-hercules.md
+  source_type: work
+  target: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990
+    source_file: https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/
+    source_span: lines 52–54
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 签名并署1712年的复制版本
+  scope: '1712'
+- source: works/paolo-de-matteis-the-choice-of-hercules.md
+  source_type: work
+  target: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ashmolean-museum-the-choice-of-hercules
+    source_file: https://ashmoleanprints.com/products/pod439947
+    source_span: description paragraphs 2–3
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 利兹较小亲笔版本
+  scope: 18世纪初
+- source: works/paolo-de-matteis-the-choice-of-hercules.md
+  source_type: work
+  target: persons/sir-john-cropley.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ashmolean-museum-the-choice-of-hercules
+    source_file: https://ashmoleanprints.com/products/pod439947
+    source_span: description paragraph 3
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 较小亲笔版本委托者
+  scope: 18世纪初
 - source: works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md
   source_type: work
   target: persons/pellegrini.md
@@ -14779,6 +16254,25 @@
   review_status: evidence_backed_relation
   role: 本书复制图像供片者
   scope: 《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者
+- source: works/pietro-testa-rest-on-the-flight-into-egypt.md
+  source_type: work
+  target: persons/pietro-testa.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
+    source_span: lines 71–71; 章前：图版目录；印刷页xiii
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 原书图版署名创作者
+  scope: 图版18a
 - source: works/plague-at-ashdod-1631.md
   source_type: work
   target: persons/nicolas-poussin.md

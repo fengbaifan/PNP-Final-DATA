@@ -1,5 +1,5 @@
-generated: '2026-09-15'
-total: 778
+generated: '2026-09-25'
+total: 821
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -145,6 +145,12 @@ index:
   title: '"安德烈亚·萨基（Andrea Sacchi）"'
   name_original: ''
   language_original: ''
+- slug: persons/angela-fedeli
+  type: persons
+  name_en: Angela (sister of Francesco Fedeli)
+  title: 安杰拉（弗朗切斯科·费代利之姐）（Angela (sister of Francesco Fedeli)）
+  name_original: ''
+  language_original: ''
 - slug: persons/angela-mizzina
   type: persons
   name_en: Angela Mizzina
@@ -173,6 +179,12 @@ index:
   type: persons
   name_en: '"Annibale Laparelli"'
   title: '"安尼巴莱·拉帕雷利（Annibale Laparelli）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/anthony-ashley-cooper-3rd-earl
+  type: persons
+  name_en: Anthony Ashley-Cooper, 3rd Earl of Shaftesbury
+  title: 安东尼·阿什利-库珀，第三代沙夫茨伯里伯爵（Anthony Ashley-Cooper, 3rd Earl of Shaftesbury）
   name_original: ''
   language_original: ''
 - slug: persons/anthony-blunt
@@ -247,10 +259,28 @@ index:
   title: 巴尔达萨雷·弗兰切斯基尼（Baldassarre Franceschini）
   name_original: ''
   language_original: ''
+- slug: persons/baldassare-longhena
+  type: persons
+  name_en: Baldassare Longhena
+  title: 巴尔达萨雷·隆盖纳（Baldassare Longhena）
+  name_original: ''
+  language_original: ''
+- slug: persons/barbara-mother-of-pietro-testa
+  type: persons
+  name_en: Barbara (mother of Pietro Testa)
+  title: 芭芭拉·泰斯塔（Barbara (mother of Pietro Testa)）
+  name_original: ''
+  language_original: ''
 - slug: persons/bartolozzi
   type: persons
   name_en: Francesco Bartolozzi
   title: 弗朗切斯科·巴尔托洛齐（Francesco Bartolozzi）
+  name_original: ''
+  language_original: ''
+- slug: persons/battista-telli
+  type: persons
+  name_en: Battista (son of Caterina and Giovanni)
+  title: 巴蒂斯塔（卡特里娜与乔瓦尼之子）（Battista (son of Caterina and Giovanni)）
   name_original: ''
   language_original: ''
 - slug: persons/benedetto-luti
@@ -281,6 +311,12 @@ index:
   type: persons
   name_en: Bernardino Castelli
   title: 贝尔纳迪诺·卡斯泰利（Bernardino Castelli）
+  name_original: ''
+  language_original: ''
+- slug: persons/bernardo-falconi
+  type: persons
+  name_en: Bernardo Falconi
+  title: 贝尔纳多·法尔科内（Bernardo Falconi，亦作 Bernardo Falcone）
   name_original: ''
   language_original: ''
 - slug: persons/bonifazio-gozadini
@@ -415,6 +451,12 @@ index:
   title: 卡西亚诺·达尔·波佐（Cassiano dal Pozzo）
   name_original: ''
   language_original: ''
+- slug: persons/caterina-cucchiaroni
+  type: persons
+  name_en: Caterina Cucchiaroni
+  title: 卡特里娜·库基亚罗尼（Caterina Cucchiaroni）
+  name_original: ''
+  language_original: ''
 - slug: persons/cesare-leopardi-dosimo
   type: persons
   name_en: '"Don Cesare Leopardi d’Osimo"'
@@ -517,6 +559,12 @@ index:
   title: 达芙妮·伊奥尼德斯（Daphne Ionides）
   name_original: ''
   language_original: ''
+- slug: persons/decio-de-matteis
+  type: persons
+  name_en: Decio (father of Paolo de Matteis)
+  title: 德乔（保罗·德·马泰伊斯之父）（Decio (father of Paolo de Matteis)）
+  name_original: ''
+  language_original: ''
 - slug: persons/denis-mahon
   type: persons
   name_en: Denis Mahon
@@ -533,6 +581,18 @@ index:
   type: persons
   name_en: Domenico Cerato
   title: 多梅尼科·切拉托（Domenico Cerato）
+  name_original: ''
+  language_original: ''
+- slug: persons/domenico-fedeli-son-of-francesco
+  type: persons
+  name_en: Domenico (son of Francesco Fedeli)
+  title: 多梅尼科（弗朗切斯科·费代利之子）（Domenico (son of Francesco Fedeli)）
+  name_original: ''
+  language_original: ''
+- slug: persons/domenico-fedeli-venice-painter
+  type: persons
+  name_en: Domenico Fedeli (detto Maggiotto)
+  title: 多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）
   name_original: ''
   language_original: ''
 - slug: persons/domenico-maria-viani
@@ -565,6 +625,18 @@ index:
   title: 埃伯哈德·茨维克（Eberhard Zwicker）
   name_original: ''
   language_original: ''
+- slug: persons/elena-fedeli-daughter
+  type: persons
+  name_en: Elena (daughter of Francesco Fedeli)
+  title: 埃莱娜（弗朗切斯科·费代利之女）（Elena (daughter of Francesco Fedeli)）
+  name_original: ''
+  language_original: ''
+- slug: persons/elena-zuliani
+  type: persons
+  name_en: Elena Zuliani
+  title: 埃莱娜·祖利亚尼（Elena Zuliani）
+  name_original: ''
+  language_original: ''
 - slug: persons/elizabeth-orna
   type: persons
   name_en: Elizabeth Orna
@@ -575,6 +647,12 @@ index:
   type: persons
   name_en: Ellis Kirkham Waterhouse
   title: 埃利斯·柯克姆·沃特豪斯（Ellis Kirkham Waterhouse）
+  name_original: ''
+  language_original: ''
+- slug: persons/emmanuella-de-matteis
+  type: persons
+  name_en: Emmanuella (daughter of Paolo de Matteis)
+  title: 埃曼努埃拉（保罗·德·马泰伊斯之女）（Emmanuella (daughter of Paolo de Matteis)）
   name_original: ''
   language_original: ''
 - slug: persons/enzo-crea
@@ -601,6 +679,12 @@ index:
   title: 欧内斯特·格拉夫（Ernest Graf）
   name_original: ''
   language_original: ''
+- slug: persons/eufrasia-telli
+  type: persons
+  name_en: Eufrasia (daughter of Caterina and Giovanni)
+  title: 欧弗拉西亚（卡特里娜与乔瓦尼之女）（Eufrasia (daughter of Caterina and Giovanni)）
+  name_original: ''
+  language_original: ''
 - slug: persons/fabrizio-arragona
   type: persons
   name_en: '"Fabrizio Arragona"'
@@ -617,6 +701,12 @@ index:
   type: persons
   name_en: '"Federico Zuccari"'
   title: '"费德里科·祖卡里（Federico Zuccari）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/felice-de-matteis
+  type: persons
+  name_en: Felice (daughter of Paolo de Matteis)
+  title: 费莉切（保罗·德·马泰伊斯之女）（Felice (daughter of Paolo de Matteis)）
   name_original: ''
   language_original: ''
 - slug: persons/ferdinand-grand-prince-tuscany
@@ -685,6 +775,12 @@ index:
   title: 弗朗切斯科·博罗米尼（Francesco Borromini）
   name_original: ''
   language_original: ''
+- slug: persons/francesco-cavrioli
+  type: persons
+  name_en: Francesco Cavrioli
+  title: 弗朗切斯科·卡夫里奥利（Francesco Cavrioli）
+  name_original: ''
+  language_original: ''
 - slug: persons/francesco-fanelli
   type: persons
   name_en: Francesco Fanelli
@@ -705,8 +801,8 @@ index:
   language_original: ''
 - slug: persons/francesco-maggiotto
   type: persons
-  name_en: Francesco Maggiotto
-  title: 弗朗切斯科·马焦托（Francesco Maggiotto）
+  name_en: Francesco Fedeli, detto il Maggiotto
+  title: 弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）
   name_original: ''
   language_original: ''
 - slug: persons/francesco-maria-del-monte
@@ -829,6 +925,12 @@ index:
   title: '"贾钦托·布兰迪（Giacinto Brandi）"'
   name_original: ''
   language_original: ''
+- slug: persons/giacinto-testa
+  type: persons
+  name_en: Giacinto Testa
+  title: 贾钦托·泰斯塔（Giacinto Testa）
+  name_original: ''
+  language_original: ''
 - slug: persons/giacomo-triga
   type: persons
   name_en: Giacomo Triga
@@ -913,6 +1015,12 @@ index:
   title: '"瓦萨里（Vasari）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovan-battista-fedeli
+  type: persons
+  name_en: Giovan Battista (son of Francesco Fedeli)
+  title: 乔万·巴蒂斯塔（弗朗切斯科·费代利之子）（Giovan Battista (son of Francesco Fedeli)）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovan-battista-gaulli
   type: persons
   name_en: '"Giovanni Battista Gaulli"'
@@ -925,16 +1033,34 @@ index:
   title: '"列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）"'
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-angelo-altemps
+  type: persons
+  name_en: Giovanni Angelo d’Altemps, 2nd Duke of Gallese
+  title: 乔万尼·安杰洛·阿尔滕普斯（第二代加莱塞公爵）（Giovanni Angelo d’Altemps, 2nd Duke of Gallese）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-battista-de-lazzari
   type: persons
   name_en: Giovanni Battista de' Lazzari
   title: 乔瓦尼·巴蒂斯塔·德·拉扎里（Giovanni Battista de' Lazzari）
   name_original: ''
   language_original: ''
+- slug: persons/giovanni-battista-pamphilj-aldobrandini
+  type: persons
+  name_en: Giovanni Battista Pamphilj Aldobrandini
+  title: 乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）
+  name_original: ''
+  language_original: ''
 - slug: persons/giovanni-bonati
   type: persons
   name_en: '"Giovanni Bonatti"'
   title: '"乔瓦尼·博纳蒂（Giovanni Bonatti）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giovanni-di-bartolomeo-testa
+  type: persons
+  name_en: Giovanni di Bartolomeo (father of Pietro Testa)
+  title: 乔瓦尼·迪·巴托洛梅奥（皮埃特罗·泰斯塔之父）（Giovanni di Bartolomeo (father of Pietro Testa)）
   name_original: ''
   language_original: ''
 - slug: persons/giovanni-domenico-piastrini
@@ -977,6 +1103,12 @@ index:
   type: persons
   name_en: '"Giovanni Pietro Bellori"'
   title: '"乔万尼·彼得罗·贝洛里（Giovanni Pietro Bellori）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giovanni-telli
+  type: persons
+  name_en: Giovanni Telli
+  title: 乔瓦尼·泰利（Giovanni Telli）
   name_original: ''
   language_original: ''
 - slug: persons/girolamo-mengozzi-colonna
@@ -1025,6 +1157,12 @@ index:
   type: persons
   name_en: '"Giuseppe Ghezzi"'
   title: '"朱塞佩·盖齐（Giuseppe Ghezzi）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/giuseppe-giovanni-fedeli
+  type: persons
+  name_en: Giuseppe Giovanni (son of Domenico Fedeli)
+  title: 朱塞佩·乔瓦尼（多梅尼科之子）（Giuseppe Giovanni (son of Domenico Fedeli)）
   name_original: ''
   language_original: ''
 - slug: persons/giuseppe-maria-crespi
@@ -1141,6 +1279,12 @@ index:
   title: '"英诺森十三世（Innocent XIII）"'
   name_original: ''
   language_original: ''
+- slug: persons/ippolito-leoni
+  type: persons
+  name_en: Ippolito Leoni
+  title: 伊波利托·莱奥尼（Ippolito Leoni）
+  name_original: ''
+  language_original: ''
 - slug: persons/j-tomilson-hill
   type: persons
   name_en: J. Tomilson Hill
@@ -1207,6 +1351,12 @@ index:
   title: 约翰·斯特兰奇（John Strange）
   name_original: ''
   language_original: ''
+- slug: persons/josse-de-corte
+  type: persons
+  name_en: Josse de Corte
+  title: 约瑟·德·科特（Josse de Corte，亦称 Justus de Corte）
+  name_original: ''
+  language_original: ''
 - slug: persons/juan-de-pareja
   type: persons
   name_en: Juan de Pareja
@@ -1247,6 +1397,12 @@ index:
   type: persons
   name_en: Jacopo Leonardis
   title: 雅科波·莱奥纳迪斯（Jacopo Leonardis）
+  name_original: ''
+  language_original: ''
+- slug: persons/leonardo-pesaro-commissioner
+  type: persons
+  name_en: Leonardo Pesaro
+  title: 莱昂纳多·佩萨罗（Leonardo Pesaro，乔万尼·佩萨罗之侄）
   name_original: ''
   language_original: ''
 - slug: persons/leopoldo-de-medici
@@ -1291,16 +1447,40 @@ index:
   title: '"卢卡·焦尔达诺（Luca Giordano）"'
   name_original: ''
   language_original: ''
+- slug: persons/lucrezia-orico
+  type: persons
+  name_en: Lucrezia Orico
+  title: 卢克雷齐娅·奥里科（Lucrezia Orico）
+  name_original: ''
+  language_original: ''
+- slug: persons/ludovico-leoni
+  type: persons
+  name_en: Ludovico Leoni
+  title: 卢多维科·莱奥尼（Ludovico Leoni）
+  name_original: ''
+  language_original: ''
 - slug: persons/ludovico-ludovisi
   type: persons
   name_en: '"Ludovico Ludovisi"'
   title: '"卢多维科·卢多维西（Ludovico Ludovisi）"'
   name_original: ''
   language_original: ''
+- slug: persons/maddalena-telli
+  type: persons
+  name_en: Maddalena Telli
+  title: 马达莱娜·泰利（Maddalena Telli）
+  name_original: ''
+  language_original: ''
 - slug: persons/marcantonio-i-doria
   type: persons
   name_en: Marcantonio I Doria
   title: 马尔坎托尼奥一世·多利亚（Marcantonio I Doria）
+  name_original: ''
+  language_original: ''
+- slug: persons/marcello-provenzale
+  type: persons
+  name_en: Marcello Provenzale
+  title: 马尔切洛·普罗文扎莱（Marcello Provenzale）
   name_original: ''
   language_original: ''
 - slug: persons/marcello-sacchetti
@@ -1367,6 +1547,12 @@ index:
   type: persons
   name_en: Marco Ricci
   title: 马尔科·里奇（Marco Ricci）
+  name_original: ''
+  language_original: ''
+- slug: persons/mariangiola-de-matteis
+  type: persons
+  name_en: Mariangiola (daughter of Paolo de Matteis)
+  title: 玛丽安乔拉（保罗·德·马泰伊斯之女）（Mariangiola (daughter of Paolo de Matteis)）
   name_original: ''
   language_original: ''
 - slug: persons/marianne-roland-michel
@@ -1447,6 +1633,12 @@ index:
   title: 朱尔·马扎然（Jules Mazarin）
   name_original: ''
   language_original: ''
+- slug: persons/melchior-barthel
+  type: persons
+  name_en: Melchior Barthel
+  title: 梅尔希奥尔·巴特尔（Melchior Barthel）
+  name_original: ''
+  language_original: ''
 - slug: persons/michael-conforti
   type: persons
   name_en: Michael Conforti
@@ -1469,6 +1661,12 @@ index:
   type: persons
   name_en: '"Michelangelo"'
   title: '"米开朗基罗（Michelangelo）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/michele-fabris
+  type: persons
+  name_en: Michele Fabris
+  title: 米凯莱·法布里斯（Michele Fabris）
   name_original: ''
   language_original: ''
 - slug: persons/mr-coke-rome-correspondent
@@ -1825,6 +2023,12 @@ index:
   title: 乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）
   name_original: ''
   language_original: ''
+- slug: persons/rosolena-perrone
+  type: persons
+  name_en: Rosolena Perrone
+  title: 罗索莱娜·佩罗内（Rosolena Perrone）
+  name_original: ''
+  language_original: ''
 - slug: persons/rudolf-wittkower
   type: persons
   name_en: Rudolf Wittkower
@@ -1877,6 +2081,12 @@ index:
   type: persons
   name_en: Niccolò Simonelli
   title: 尼科洛·西莫内利（Niccolò Simonelli）
+  name_original: ''
+  language_original: ''
+- slug: persons/sir-john-cropley
+  type: persons
+  name_en: Sir John Cropley
+  title: 约翰·克罗普利爵士（Sir John Cropley）
   name_original: ''
   language_original: ''
 - slug: persons/sixtus-v
@@ -1991,6 +2201,12 @@ index:
   type: persons
   name_en: '"Vincenzo Armanni"'
   title: '"温琴佐·阿尔曼尼（Vincenzo Armanni）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/vincenzo-i-gonzaga
+  type: persons
+  name_en: Vincenzo I Gonzaga
+  title: 文琴佐一世·贡扎加（Vincenzo I Gonzaga）
   name_original: ''
   language_original: ''
 - slug: persons/virgil
@@ -3529,10 +3745,22 @@ index:
   title: 布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）
   name_original: ''
   language_original: ''
+- slug: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight
+  type: works
+  name_en: Portrait of Maddalena Telli by Candlelight
+  title: 烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）
+  name_original: ''
+  language_original: ''
 - slug: works/p-van-bleek-owen-mcswiny
   type: works
   name_en: Portrait of Owen McSwiny
   title: 欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）
+  name_original: ''
+  language_original: ''
+- slug: works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92
+  type: works
+  name_en: The Choice of Hercules, Ashmolean version
+  title: 赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）
   name_original: ''
   language_original: ''
 - slug: works/paolo-de-matteis-the-choice-of-hercules
@@ -3871,6 +4099,12 @@ index:
   title: 奥德斯卡尔基家族（Odescalchi Family）
   name_original: ''
   language_original: ''
+- slug: families/pamphili-family
+  type: families
+  name_en: Pamphili family
+  title: 潘菲利家族（Pamphili family）
+  name_original: ''
+  language_original: ''
 - slug: families/peretti-family
   type: families
   name_en: Peretti Family
@@ -3953,6 +4187,12 @@ index:
   type: institutions
   name_en: Art Institute of Chicago
   title: 芝加哥艺术博物馆（Art Institute of Chicago）
+  name_original: ''
+  language_original: ''
+- slug: institutions/ashmolean-museum
+  type: institutions
+  name_en: Ashmolean Museum
+  title: 阿什莫林博物馆（Ashmolean Museum）
   name_original: ''
   language_original: ''
 - slug: institutions/barberini-household
@@ -4067,6 +4307,12 @@ index:
   type: institutions
   name_en: Confraternity of Sant'Anna dei Palafrenieri
   title: 圣安娜教皇马夫善会（Confraternity of Sant'Anna dei Palafrenieri）
+  name_original: ''
+  language_original: ''
+- slug: institutions/congregation-of-painters-jesuit-professed-house-naples
+  type: institutions
+  name_en: Congregation of Painters at the Jesuit Professed House, Naples
+  title: 那不勒斯耶稣会专业会院画家会众（Congregation of Painters at the Jesuit Professed House, Naples）
   name_original: ''
   language_original: ''
 - slug: institutions/correr-library
@@ -4465,6 +4711,12 @@ index:
   title: 威尼斯共和国（Republic of Venice）
   name_original: ''
   language_original: ''
+- slug: institutions/rhode-island-school-of-design-museum
+  type: institutions
+  name_en: Rhode Island School of Design Museum
+  title: 罗德岛设计学院博物馆（Rhode Island School of Design Museum）
+  name_original: ''
+  language_original: ''
 - slug: institutions/royal-academy
   type: institutions
   name_en: Royal Academy of Arts
@@ -4619,6 +4871,12 @@ index:
   type: institutions
   name_en: University of Turin
   title: 都灵大学（University of Turin）
+  name_original: ''
+  language_original: ''
+- slug: institutions/venetian-academy-of-painting-and-sculpture
+  type: institutions
+  name_en: Accademia veneziana di pittura e scultura
+  title: 威尼斯绘画与雕塑学院（Accademia veneziana di pittura e scultura）
   name_original: ''
   language_original: ''
 - slug: institutions/victoria-and-albert-museum

@@ -7,6 +7,8 @@ updated: 2026-09-14
 evidence_status: source_backed
 relations:
   - {"relation_type":"created_by","target":"persons/ciro-ferri.md","note":"Ferri 的穹顶装饰工程；四年是约定工期。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 437–450; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
+  - {"relation_type":"commissioned_by","target":"persons/giovanni-battista-pamphilj-aldobrandini.md","note":"Treccani将1670年9月11日合同的G. B. Pamphili明确为合同对象；此人依生卒与家族传承核定为1648–1709年的长子，不是教皇英诺森十世。","evidence_ref":{"doc_id":"dbi-ciro-ferri","source_file":"https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/","source_span":"1670年9月11日合同段；身份由Doria Pamphilj家族传记核对"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1670-09-11","role":"合同签订／委托方","scope":"穹顶壁画工程，不将合同误配为教皇英诺森十世个人委托"}
+  - {"relation_type":"commissioned_by","target":"families/pamphili-family.md","note":"原书明确称Pamfili家族对该穹顶委托负有责任；与个人合同签订者分层记录。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 437–441; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1670","role":"负责委托的家族","scope":"Sant’Agnese in Agone穹顶壁画工程"}
   - {"relation_type":"located_at","target":"places/sant-agnese-piazza-navona.md","note":"工程位于 Piazza Navona 的 S. Agnese。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 437–450; print pp. 12"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 12.'
@@ -64,7 +66,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 作品名／规范指称 | 《圣阿涅塞被引入天堂荣耀》（Saint Agnes Introduced to the Glory of Paradise）穹顶壁画 | 精确题名可证时采用；不可证时保留描述性名 |
 | 创作者／归属 | Ciro Ferri开始；其1689年去世后由Sebastiano Corbellini完成 | 争议归属不写成确定事实 |
 | 创作／委托时间 | 1670年签约并开工；1689年Ferri去世时未完；1693年完成 | 区分合同、开工、完成、毁失或后续记录 |
-| 委托人／赞助方 | Giovanni Battista Pamphili；章内强调彩稿审批 | 仅写当前证据可支持的法律或历史主体 |
+| 委托人／赞助方 | [Pamphili家族](../families/pamphili-family.md)负责委托；合同与[Giovanni Battista Pamphilj Aldobrandini（1648–1709）](../persons/giovanni-battista-pamphilj-aldobrandini.md)订立 | 区分家族委托责任与具体合同对象；不指向已故教皇英诺森十世 |
 | 创作地／原位置／现位置 | Sant’Agnese in Agone穹顶，Piazza Navona，Rome | 历史位置和现藏不互相覆盖 |
 | 类型、材质与尺寸 | 湿壁画穹顶装饰 | 缺项不根据同类作品补推 |
 | 状态与语义边界 | 合同原定1674年6月完成，1676年又延四年；约定工期与实际完成节点分别记录。 | 委托、稿本、完成作品、归属和现藏分别判断 |
@@ -76,3 +78,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | Ferri 的穹顶装饰工程；四年是约定工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
 | → 位于（`located_at`） | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](../places/sant-agnese-piazza-navona.md) | 工程位于 Piazza Navona 的 S. Agnese；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
+| → 委托人（`commissioned_by`） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | 1670年9月11日合同对象；生卒1648–1709，避免误作同名教皇；证据：[Treccani，Ciro Ferri](https://www.treccani.it/enciclopedia/ciro-ferri_%28Dizionario-Biografico%29/)及[Doria Pamphilj家族传记](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/) |
+| → 家族委托方（`commissioned_by`） | [潘菲利家族（Pamphili family）](../families/pamphili-family.md) | 原书明确该家族对工程委托负责；角色与个人合同对象分开；证据：[原书](../../../02-sources/02-Markdown/01_CHP-1.md)；lines 437–441; print pp. 12 |

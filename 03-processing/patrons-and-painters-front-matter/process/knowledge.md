@@ -2376,3 +2376,64 @@ Dido／Aeneas／Achates是具体图像角色，按taxonomy-registry现行边界�
 本段新增1件作品及1项文献，全库923个有效登记、章前554个KU。当前为有据内容与局部关系成稿，全面补足和全任务关系定稿仍未完成；9项主候选保留，未进行知识发现、页面或人工校验，未提交推送。
 
 两段共39张不同受影响卡，其中4张新建；第二段12个计划文件写回一致，8卡的9条原书摘录、57条本地链接及来源序号核对通过，第二次14步同步检查通过。累计41条新增边的端点、方向、角色、时间、范围及证据与1054条关系索引逐字段一致；923个有效登记、554个章前KU和类型计数复核通过。下一步优先处理其余27张未登记外部URL来源的人物卡及52张作品卡，连同本轮明确的作品／亲缘端点继续补足；此扫描只定位来源登记缺口，不直接等于未对齐数量。机械检查与语义自查不替代全任务完成。
+
+## 章前人物身份入口接续（2026-09-25）
+
+按身份入口缺口继续核对三张既有卡；此批只处理页面与规范实体是否对应，不将页面可见信息扩写成整卡全面补足。
+
+| 知识元 | 实际读取与双向核对 | 结果与限制 |
+|---|---|---|
+| [Flaminio Corner](../../../04-knowledge/units/persons/flaminio-corner.md) | 意大利语 Wikipedia 条目相关正文及 Wikidata Q3746370 的标签、别名、生卒和 sitelinks；条目无英语版本，页面链接至该QID，Wikidata列回意大利语页面 | 身份、别名Flaminio Cornaro及1693–1778与本书对象吻合；只采用已录入的传记字段，不扩展未读书目。 |
+| [Matteo Castelli](../../../04-knowledge/units/persons/matteo-castelli.md) | 英文 Wikipedia 页面及其 Q1909346 链接；Wikidata标签、标识符和sitelinks；瑞士历史词典完整传记 | 页面和QID双向对应。HLS记约1560生于Melide，Wikipedia记约1555；HLS将卒地列为华沙或Melide，保留来源差异。 |
+| [Innocent XI](../../../04-knowledge/units/persons/innocent-xi.md) | 英文 Wikipedia 页面及其 Q101286 链接；Wikidata身份、出生名、任期和sitelinks；并比较意大利语 Wikipedia 日期字段 | 两个Wikipedia页面及Wikidata相互对应，出生名Benedetto Odescalchi。英文页记1611-05-16，意大利页和Wikidata记1611-05-19；本轮不采纳该争议日期。 |
+
+三卡新增实际访问来源和身份链接；未新增正式关系，未改动九项待证主候选。双向身份匹配仅确立页面归属，不代表所有描述性事实均完成核实。全库当前索引数字以生成状态为准（956个有效KU、1113条关系）；上述历史过程段中的923和1054为当时快照。
+
+## 亚里士多德与荷马身份入口对齐（2026-09-25）
+
+沿图版35a既有肖像／纪念对象关系，补核两张人物卡的身份入口；不从百科条目导入生平或把古代作者身份争论转为本书事实。
+
+| 知识元 | 实际核对 | 结论与范围 |
+|---|---|---|
+| [亚里士多德](../../../04-knowledge/units/persons/aristotle.md) | 英文Wikipedia的pageprops给出Q868；Wikidata Q868标签为Aristotle，enwiki sitelink标题为Aristotle；对照图版35a的Aristotle名称 | 双向入口一致，确认链接指向古希腊哲学家条目；本轮只更新身份入口，不补一般生平字段。 |
+| [荷马](../../../04-knowledge/units/persons/homer.md) | 英文Wikipedia页面指向Q6691；Wikidata Q6691标签为Homer，enwiki sitelink标题为Homer；并读条目对传统作者身份的表述 | 双向入口一致。Wikidata将历史存在状态标为存疑；链接仅用于匹配图版所指的Homer，不据之断定历史人物生平或作者问题。 |
+
+没有新建知识元或关系；图版35a的正式`subject_of`仍由作品卡发出。结果只将两张既有卡列为本轮更新，不把身份入口核对扩写为整卡事实验证或关系全集审查。
+
+## 乔万尼·佩萨罗纪念碑制作关系补足（2026-09-25）
+
+本批从当前关系反查发现，原有纪念碑卡只有纪念对象、所在教堂／城市及本书供片者，没有外部来源已说明的制作、委托和资金关系。处理前有效全库为956个KU、1113条关系索引；9项主候选仍保持暂缓。本批只沿该纪念碑这条有据作品链扩展端点，不由外部网页递归扩张。
+
+### 来源与身份对齐
+
+| 对象 | 来源读取及双向身份核对 | 结论与限度 |
+|---|---|---|
+| 纪念碑本体 | Web Gallery of Art（WGA）作品条目全文；弗拉里教堂官方“Monumenti”页相关条目；Treccani《意大利人传记辞典》Giovanni Pesaro传记全文第50–52行；Stefano Colombo博士论文第2章印刷页77–79（PDF页101–103） | WGA载1665–1669、大理石与青铜、Longhena委托及各雕塑者职责；官方教堂列Longhena、Falcone、Barthel。Treccani载工程起止及遗嘱资金；论文细分1659年遗嘱附录、Leonardo委托、1665施工许可和1669完成。 |
+| Baldassare Longhena | 英文Wikipedia页面与Wikidata Q316297互链；对照WGA及官方教堂条目 | 页面/QID为同一建筑师；只登记与本纪念碑相关职责。 |
+| Bernardo Falconi／Falcone | 英文Wikipedia页面与Wikidata Q3638776；核对意大利语标签、英语页面名称和别名 | Wikidata标签Falconi、英语页面Falcone与教堂官方“Bernardo Falcone da Lugano”相合。官方教堂只列名，不推定其具体雕塑部件。 |
+| Melchior Barthel | 英文Wikipedia页面与Wikidata Q823168互链；对照WGA及官方教堂条目 | 身份相合；寓意人物组职责只据WGA。 |
+| Josse de Corte | 英文Wikipedia页面与Wikidata Q3771764；核对条目名、别名及意大利语名称Giusto Le Court | 同一雕塑家；其小天使、Giovanni雕像和四件寓意像只据WGA。 |
+| Francesco Cavrioli | 英文Wikipedia页面信息明确显示Wikidata item Q51581465；Wikidata检索标签与描述为Francesco Cavrioli、Italian sculptor | 页面到QID链接已核；职责只据WGA，不从页面扩写个人生平。 |
+| Michele Fabris | 英文Wikipedia页面与Wikidata Q55227307互链；对照WGA | 身份相合；两条龙的职责只据WGA。 |
+| Leonardo Pesaro | WGA与Treccani均把他识别为Giovanni之侄并分别支持委托及照料工程 | 本次检索未取得可确认的独立Wikipedia／Wikidata人物记录；以本纪念碑委托和亲缘语境建立限定知识元，不补未经核实的生平。 |
+
+人物条目只保存身份入口和该作品职责，不从Wikipedia拼接一般履历；Wikidata标识只作为身份入口，不将其所有statement视作已核实事实。WGA不列Bernardo Falcone，而官方教堂列其名；来源范围不同，不能据此断言互相矛盾。
+
+### 关系裁决
+
+现有纪念碑知识元增补关系：
+
+1. `created_by` Longhena（建筑设计与整体制作）；
+2. `created_by` Bernardo Falconi／Falcone（官方列名制作者，分工未明）；
+3. `created_by` Barthel（雕塑装饰与两组寓意人物）；
+4. `created_by` de Corte（小天使、纪念像、四件寓意像）；
+5. `created_by` Cavrioli（两具支撑卷轴的青铜骷髅）；
+6. `created_by` Fabris（两条龙形装饰）；
+7. `commissioned_by` Leonardo Pesaro；
+8. `patronized_by` Giovanni Pesaro，语义范围严格限定为遗嘱附录拨定12,000达克特用于建造，不将他写成工程委托人。
+
+Leonardo新建人物端点，并另与Giovanni记录 `kin_of`（侄子）。委托的确切日期未确认；论文只确认1665年取得施工许可、1669年完成，故关系卡的`time`保留此界限，不倒推出委托发生年份。作品新录建造时间、材料及Wikidata Q109612841；该项无Wikipedia sitelink。Q109612841含无来源“commissioned by Giovanni Pesaro”statement，与论文、WGA所支持的Leonardo委托不符，本轮明确不采用该statement；Giovanni遗嘱拨款和Leonardo委托分别保存。
+
+### 当前写回与交接
+
+新增6位制作者及Leonardo共7个person知识元，纪念碑作品新增6条创作边、1条委托边和1条遗嘱资助／赞助边；Leonardo与Giovanni另有1条亲缘边。被引用关系均有实际来源及边界；未确认的Falcone部件角色、Leonardo其他身份字段不猜补。此项是一个作品关系链的实质补足，不能代表章前其余对象完成对齐、全面补足或关系定稿。接下来优先处理剩余已有KU的外部身份入口缺口及其正文已采纳而未形式化的具体关系；9项主候选继续暂缓。
