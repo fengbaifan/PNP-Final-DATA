@@ -1,5 +1,5 @@
 generated: '2026-09-25'
-total: 842
+total: 845
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -1505,6 +1505,12 @@ index:
   type: persons
   name_en: Maddalena Telli
   title: 马达莱娜·泰利（Maddalena Telli）
+  name_original: ''
+  language_original: ''
+- slug: persons/maffeo-pinelli
+  type: persons
+  name_en: Maffeo Pinelli
+  title: 马费奥·皮内利（Maffeo Pinelli）
   name_original: ''
   language_original: ''
 - slug: persons/marcantonio-hercolani-1709
@@ -3601,6 +3607,12 @@ index:
   title: 约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）
   name_original: ''
   language_original: ''
+- slug: works/francesco-maggiotto-portraits-of-doges-1778
+  type: works
+  name_en: Maffeo Pinelli commission of 168 Venetian dignitary portraits
+  title: 皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）
+  name_original: ''
+  language_original: ''
 - slug: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany
   type: works
   name_en: Portrait of Grand Prince Ferdinand of Tuscany
@@ -4211,6 +4223,12 @@ index:
   type: families
   name_en: Peretti Family
   title: 佩雷蒂家族（Peretti Family）
+  name_original: ''
+  language_original: ''
+- slug: families/pisani-di-santo-stefano
+  type: families
+  name_en: Pisani di Santo Stefano family
+  title: 圣斯德望支系皮萨尼家族（Pisani di Santo Stefano family）
   name_original: ''
   language_original: ''
 - slug: families/pisani-family

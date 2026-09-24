@@ -1,6 +1,8 @@
 # 第一章样例：第一部分当前结果
 
-**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；当前全库998个有效KU、1,188条关系索引（1,187条显式、1条规则派生）。最近一次全量闭包16步及274项测试通过，结构健康度130/130；关系机械检查的断端点、非法关系类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示；全库有202个单一来源KU。近期补入Ludovisi亲缘链中缺失的Orazio、Niccolò、Lavinia三个端点，完成其中两人的Wikipedia—Wikidata双向身份核对，并登记9条有据关系；Orazio卒年异文保留，Lavinia无可确认的个人Wiki身份。以上机械检查不替代语义定稿。
+**当前进度（2026-09-25）：第一章样例的知识元补足与关系审查继续进行，尚未整体定稿。** 摄入与处理沿用既有定稿；当前全库1,001个有效KU、1,191条关系索引（1,190条显式、1条规则派生）。最近一次全量闭包16步及274项测试通过，结构健康度130/130；关系机械检查的断端点、非法关系类型、缺反向映射和弱证据均为0。内容检查仍有1项既存档案标题格式提示；全库有203个单一来源KU。近期补入Ludovisi亲缘链中缺失的Orazio、Niccolò、Lavinia三个端点，完成其中两人的Wikipedia—Wikidata双向身份核对，并登记9条有据关系；Orazio卒年异文保留，Lavinia无可确认的个人Wiki身份。最新一批补入Maggiotto肖像组、Maffeo Pinelli及Pisani di Santo Stefano支系三个KU和三条有据关系。以上机械检查不替代语义定稿。
+
+- 对Maggiotto与Maffeo Pinelli完成Wikipedia—Wikidata双向身份核对：前者核对英文、意大利文页面均回链Q3080993；后者查无适用的英语和意大利语页面，以法语页面双向匹配Q56006855。新增1778年168幅油画铜板肖像组、Maffeo Pinelli与Pisani di Santo Stefano家族支系三个KU，登记创作、委托和1787年购藏三条显式关系。图版68a的三幅肖像不与该系列合并；1791年加入的Manin夫妇肖像作者与实物身份仍待证。关系只在作品卡保存一次，关联人物／家族卡提供反向展示。详情见[Maggiotto肖像组与Maffeo Pinelli身份关系闭合](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#maggiotto肖像组与maffeo-pinelli身份关系闭合2026-09-25)。本轮全量闭包16步、274项测试通过；单一既存档案标题格式提示未受本批影响。
 
 - 从巴尔多伊诺作品年表登记1661年《圣埃洛伊与圣若翰洗者、圣安德烈》，采用Thevenon研究和法国文化部Palissy PM06000568的同题名、签名、尺寸与地点信息。后续发现意大利语主教座堂条目把1646年“Bernardino Baldoïno”说法引至同一Palissy对象号，故当前按一个目录对象处理；1661／1646年代及父亲／儿子归属异文仍未裁定，不另建第二件或给Bernardin增加正式创作边。主教座堂的法语Wikipedia—Wikidata Q1084011双向身份核对已记录。
 - 据Thevenon补登记[贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../units/persons/bernardin-baldoino.md)，并建立与父亲的`parent_of`／`child_of`互指；另登记一件1670年《施洗者圣若翰斩首》和两件成对的1680年圣罗撒画作，以及尼斯黑衣忏悔者团体端点。该批新增5个KU和8条显式关系，包括三件作品的创作者、1670年服务对象及两件1680年作品的研究所载地点；未将服务用途写成合同委托，也未补造媒材、尺寸或在馆时间。详情见[Bernardin身份、作品及亲缘关系补足](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#bernardin-baldoino身份作品及亲缘关系补足2026-09-25)。

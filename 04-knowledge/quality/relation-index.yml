@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1188
-# sources: {'explicit': 1187, 'inferred_by_rule': 1}
+# total: 1191
+# sources: {'explicit': 1190, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-bettagno.md
   source_type: person
@@ -13191,6 +13191,66 @@
   review_status: evidence_backed_relation
   role: 画中建筑
   scope: 书中图版64所称John Strange在Paese的乡间住宅；不配对某一具体馆藏画作
+- source: works/francesco-maggiotto-portraits-of-doges-1778.md
+  source_type: work
+  target: persons/francesco-maggiotto.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: alessia-giachery-pinelli-dizionario-biografico-degli-italiani-83-2015
+    source_file: https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/
+    source_span: lines 46–47
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1778'
+  role: 创作者
+  scope: 1778年绘制的168幅油画铜板肖像组；不包括后续两幅Manin肖像的独立创作者判断
+- source: works/francesco-maggiotto-portraits-of-doges-1778.md
+  source_type: work
+  target: persons/maffeo-pinelli.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: alessia-giachery-pinelli-dizionario-biografico-degli-italiani-83-2015
+    source_file: https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/
+    source_span: lines 46–47, 67–68
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1778'
+  role: 委托方／收藏者
+  scope: 168幅初始肖像组；委托事实不延伸到1791年补入的两幅肖像
+- source: works/francesco-maggiotto-portraits-of-doges-1778.md
+  source_type: work
+  target: families/pisani-di-santo-stefano.md
+  target_type: family
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: alessia-giachery-pinelli-dizionario-biografico-degli-italiani-83-2015
+    source_file: https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/
+    source_span: lines 46–47
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1787'
+  role: 购买者家族支系
+  scope: 1787年售出的整个168幅肖像组；不表示此后永久或当前所有权
 - source: works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md
   source_type: work
   target: persons/francesco-petrucci.md

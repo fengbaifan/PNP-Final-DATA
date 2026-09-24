@@ -245,6 +245,7 @@
 - [卢多维科·莱奥尼（Ludovico Leoni）](../../04-knowledge/units/persons/ludovico-leoni.md)
 - [卢多维科·卢多维西（Ludovico Ludovisi）](../../04-knowledge/units/persons/ludovico-ludovisi.md)
 - [马达莱娜·泰利（Maddalena Telli）](../../04-knowledge/units/persons/maddalena-telli.md)
+- [马费奥·皮内利（Maffeo Pinelli）](../../04-knowledge/units/persons/maffeo-pinelli.md)
 - [马尔坎托尼奥·埃尔科拉尼（Marcantonio Hercolani，1709–1772）](../../04-knowledge/units/persons/marcantonio-hercolani-1709.md)
 - [马尔坎托尼奥一世·多利亚（Marcantonio I Doria）](../../04-knowledge/units/persons/marcantonio-i-doria.md)
 - [马尔切洛·普罗文扎莱（Marcello Provenzale）](../../04-knowledge/units/persons/marcello-provenzale.md)

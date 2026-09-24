@@ -116,6 +116,7 @@
 - [弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）](../../04-knowledge/units/works/francesco-algarotti.md)
 - [查理一世肖像（Portrait of Charles I）](../../04-knowledge/units/works/francesco-fanelli-charles-i.md)
 - [约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）](../../04-knowledge/units/works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md)
+- [皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）](../../04-knowledge/units/works/francesco-maggiotto-portraits-of-doges-1778.md)
 - [托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）](../../04-knowledge/units/works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md)
 - [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../../04-knowledge/units/works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md)
 - [梳妆少女（Girl at her toilet）](../../04-knowledge/units/works/g-m-crespi-girl-at-her-toilet.md)

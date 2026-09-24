@@ -20,10 +20,30 @@ sources:
     2026-09-25.
   location: 条目首段、任职段、家庭与遗嘱段
   sentence_summary: 记出生、姓名来源、父母、学院任职、公共绘画检查员任命、子女及遗嘱。
+  original_quotes:
+  - source_span: lines 27–30
+    text: "FEDELI, Francesco, detto il Maggiotto (Magiotto, Majotto)"
   evidence_ref:
     doc_id: ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995
     source_file: https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/
     source_span: lines 27–33, 56–58
+- citation: Wikipedia, “Francesco Maggiotto.” https://en.wikipedia.org/wiki/Francesco_Maggiotto. Accessed 2026-09-25.
+  location: 页面身份信息、Life、Works、References 与 authority control
+  sentence_summary: 记身份为威尼斯画家，呈现生卒年、父子关系、作品与职务；全文用于身份和关系候选核查，不单独作为事实确认。
+  original_quotes:
+  - source_span: lines 125–134
+    text: "Francesco Fedeli, nicknamed Francesco Maggiotto or also il Maggiotto"
+  evidence_ref:
+    doc_id: wikipedia-en-francesco-maggiotto
+    source_file: https://en.wikipedia.org/wiki/Francesco_Maggiotto
+    source_span: revision 1365089501; entire page including infobox, life, scientific interests, works, references and bibliography
+- citation: Wikidata, Q3080993, revision 2545296769. https://www.wikidata.org/wiki/Q3080993. Accessed 2026-09-25.
+  location: English label and description; enwiki and itwiki sitelinks
+  sentence_summary: Q3080993 labels Francesco Maggiotto, describes him as an Italian painter (1738–1805), and links both English and Italian Wikipedia pages.
+  evidence_ref:
+    doc_id: wikidata-q3080993
+    source_file: https://www.wikidata.org/wiki/Q3080993
+    source_span: English label and description; enwiki and itwiki sitelinks; revision 2545296769
 created: '2026-09-14'
 updated: '2026-09-25'
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25
@@ -159,6 +179,7 @@ relations:
 | 作品 | 本人角色 | 范围 | 证据 |
 |---|---|---|---|
 | 图版68a中的三幅未具名总督肖像 | 原书署名创作者 | 图版68a；尚未与DBI所述168幅总督等人像系列逐件匹配 | S1–S2 |
+| [皮内利委托的168幅肖像组](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 画家 | 1778年为Maffeo Pinelli绘制；独立于图版68a的三幅未具名肖像 | S2 |
 
 ## 关系与证据
 
@@ -167,11 +188,15 @@ relations:
 | 字段 | 值／链接 | 状态与范围 |
 |---|---|---|
 | 专业传记 | [Treccani《意大利人传记辞典》](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/) | S2，人物身份与生平 |
+| Wikipedia（en） | [Francesco Maggiotto](https://en.wikipedia.org/wiki/Francesco_Maggiotto) | 页面身份入口指向Q3080993；英文条目与Treccani所载姓名、职业、年代、父亲和威尼斯语境吻合 |
+| Wikipedia（it） | [Francesco Fedeli detto il Maggiotto](https://it.wikipedia.org/wiki/Francesco_Fedeli_detto_il_Maggiotto) | Q3080993的itwiki sitelink回指同页；意大利语规范题名与本卡姓名及父子关系吻合 |
+| Wikidata | [Q3080993](https://www.wikidata.org/wiki/Q3080993) | 页面pageprops与enwiki／itwiki sitelink一致；身份配对通过。英文页面称1738–1805，姓名、父亲和威尼斯与专业传记吻合 |
 
 ### 关系记录
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| ← 作品创作者（`created_by`，反向投影） | [皮内利委托的168幅威尼斯显贵肖像组](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 创作者；时间：1778；范围：初始168幅，不延伸至1791年补入肖像；正式边与证据见作品卡S1 lines 46–47 |
 | → child_of（`child_of`） | [多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）](domenico-fedeli-venice-painter.md) | 角色：儿子；范围：传记记其父为画家Domenico；证据：[来源](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/)；ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995；lines 27–30 |
 | → child_of（`child_of`） | [埃莱娜·祖利亚尼（Elena Zuliani）](elena-zuliani.md) | 角色：儿子；范围：出生信息；证据：[来源](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/)；ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995；lines 27–30 |
 | → sibling_of（`sibling_of`） | [安杰拉（弗朗切斯科·费代利之姐）（Angela (sister of Francesco Fedeli)）](angela-fedeli.md) | 角色：兄妹；范围：遗嘱记其姐妹；证据：[来源](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/)；ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995；lines 56–57 |

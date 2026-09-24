@@ -19031,3 +19031,15 @@ Orazio卒年存在真实来源冲突：DBI详传记其1624年11月初在罗马�
 在现有词表内建立9条有直接证据的显式关系：Gregory XV `kin_of` Orazio、Cardinal Ludovico及Niccolò；Orazio `spouse_of` Lavinia，并`parent_of` Ludovico与Niccolò；Lavinia分别`parent_of`两子；Niccolò `sibling_of` Cardinal Ludovico。叔侄边由Haskell第一章p.4及DBI人物传记支持；婚姻、父子、母子、兄弟边由相应DBI条目的明确亲属叙述支持。编辑了五张相关人物卡的互链展示，但反向展示不重复生成事实；未把“one of his friends”猜作Ludovico，亦未将家族背景扩为完整谱系。
 
 保留为后续边界：Ludovico与教皇同名兄长Ludovico仍无独立KU，正文继续以普通文本区分；除已具端点者外，其他亲属不因此批量建档。结构闭包及关系列表重建后，再按输出报告实际计数；这组修改不是关系阶段整体定稿，也不改变9项暂缓对象状态。
+
+## Maggiotto肖像组与Maffeo Pinelli身份关系闭合（2026-09-25）
+
+回查Francesco Maggiotto人物卡所列图版68a“三幅总督肖像”，并阅读Treccani DBI的Francesco人物条目相关作品段（Ettore Merkel，vol.45，1995，lines 46–47）。该文另记1778年Maggiotto为Maffeo Pinelli绘制一组168幅油画铜板肖像，题材为总督、总督夫人、威尼斯宗主教、枢机与教宗；该组于1787年售予Pisani da S. Stefano，来源又称1791年加入总督Ludovico Manin及其妻的肖像。原书图版中的三幅未具名肖像与这组168幅未逐件匹配，因此分开记录，不将图版对象并入外部系列。1791年两幅肖像的作者、实物身份及目录归属均未确定；拍卖市场中后现的单件亦不凭题材近似自动认作系列成员。
+
+身份对齐仅用于端点识别。Francesco英文Wikipedia修订1365089501的pageprops指向Q3080993，意大利语页面“Francesco Fedeli detto il Maggiotto”修订136662412亦指向该QID；Q3080993修订2545296769同时回链两页。Treccani所载本名、别称、威尼斯画家身份及父子语境相符，故沿用已有人物KU并记录双语页面与QID。Maffeo Pinelli先查英语及意大利语精确页面标题，均未找到对应页面；法语Wikipedia修订225118125的pageprops与Wikidata Q56006855修订2525909643的frwiki sitelink双向相符，名称与威尼斯印刷业者／藏书家身份吻合。只记法语配对，不声称存在英语或意大利语页面；生年以DBI的1735为主，保留法语页面写1735或1736的异文。该QID仅支持身份，不据此自动接收全部属性。
+
+据这组明确端点建立[皮内利委托的168幅威尼斯显贵肖像组KU](../../../04-knowledge/units/works/francesco-maggiotto-portraits-of-doges-1778.md)，并沿用[Francesco Maggiotto人物KU](../../../04-knowledge/units/persons/francesco-maggiotto.md)。新建[Maffeo Pinelli人物KU](../../../04-knowledge/units/persons/maffeo-pinelli.md)；Alessia Giachery的Pinelli家族DBI条目（vol.83，2015，lines 67–69）记其1735–1785年、印刷业与收藏兴趣。另建[Pisani di Santo Stefano家族支系KU](../../../04-knowledge/units/families/pisani-di-santo-stefano.md)，以同一DBI的售出记载和威尼斯国家Villa Pisani博物馆对该支系的官方说明限定接收者粒度；未借用整体Pisani家族的标识。
+
+正式关系限于来源直接支持的三条边：作品组→Maggiotto `created_by`（1778）；作品组→Pinelli `commissioned_by`（1778，依据“dipinse per”及Pinelli条目对其收藏者身份的记载）；作品组→Pisani di Santo Stefano支系 `acquired_by`（1787）。每条均连到具体来源段，卡内保留时间、参与角色和整体系列范围。购得记录不延伸为之后或当前所有权；没有给家族虚构个人购买者。同步补上Maggiotto与相关接收者卡的反向链接展示；反向展示不写作额外事实边。
+
+本批净新增3个KU、3条显式关系；精确双向对齐Francesco及Maffeo两个已有／新建人物，后者仅有法语Wikipedia页面。系列对象及Pisani家族支系无同粒度Wiki标识，依据专业与官方来源保留，不填QID。该批不解决其他剩余实体的对齐与关系缺口，不改变9项暂缓状态；结构闭包之后按当前结果页记录实际数量和检查结果。
