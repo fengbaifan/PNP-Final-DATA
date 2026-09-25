@@ -29,8 +29,8 @@ sources:
     source_span: lines 70–70; 章前：图版目录；印刷页xiii
 - citation: Valentina Sapienza, “Leoni, Ottavio,” Dizionario Biografico degli Italiani 64 (2005). https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/.
     Accessed 2026-09-25.
-  location: 出生与训练段、学院任职段、婚姻与交往段、死亡段
-  sentence_summary: 记生年推定、父亲与疑似父授、学院职务、配偶、继子女、朋友及死亡。
+  location: 出生与训练段、学院任职段、婚姻与交往段、作品段、死亡段
+  sentence_summary: 记生年推定、父亲与疑似父授、学院职务、配偶、继子女、朋友及死亡；作品段记1616–1620年DIA藏《苏珊娜与长老》为其唯一署名绘画。
   evidence_ref:
     doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
     source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
@@ -52,6 +52,51 @@ sources:
     doc_id: ottavio-leoni-enwiki
     source_file: https://en.wikipedia.org/wiki/Ottavio_Leoni
     source_span: lines 123–125
+- citation: Detroit Institute of Arts, “Susanna and the Elders,” object 41.89 / record 52211. https://dia.org/collection/susanna-and-elders/52211. Accessed 2026-09-25.
+  location: Title、Artwork Date、Artist、Medium、Accession Number、Markings；与Leoni关系及署名
+  sentence_summary: 馆藏号41.89列Ottavio Leoni为创作者，标约1620年及签名；与本卡外部发现的作品KU关联。
+  evidence_ref:
+    doc_id: dia-susanna-and-the-elders-41-89
+    source_file: https://dia.org/collection/susanna-and-elders/52211
+    source_span: Artist、Artwork Date、Markings；对象41.89
+- citation: Fondazione Federico Zeri, “Leoni Ottavio, Susanna e i vecchi,” entry 119062. https://catalogo.fondazionezeri.unibo.it/entry/work/119062/Leoni%20Ottavio%2C%20Susanna%20e%20i%20vecchi. Accessed 2026-09-25.
+  location: Author、Different attributions、Dating、Locations
+  sentence_summary: 以DIA编号41.89关联同一绘画，列Leoni签名归属并保留Carlo Saraceni文献异说及约1610–1615年日期。
+  evidence_ref:
+    doc_id: fondazione-zeri-susanna-e-i-vecchi-119062
+    source_file: https://catalogo.fondazionezeri.unibo.it/entry/work/119062/Leoni%20Ottavio%2C%20Susanna%20e%20i%20vecchi
+    source_span: entry 119062
+- citation: Accademia dei Virtuosi al Pantheon, “Ritratto di Gregorio XV,” collection item 134. https://www.accademiavirtuosi.it/collezione/opera?id=134. Accessed 2026-09-25.
+  location: Opera; autore, datazione e collocazione
+  sentence_summary: 学院官方藏品页列Leoni为作者，将布面《格列高利十五世肖像》记为1628–1630年并保存在学院。
+  evidence_ref:
+    doc_id: virtuosi-academy-portrait-gregory-xv-134
+    source_file: https://www.accademiavirtuosi.it/collezione/opera?id=134
+    source_span: collection item 134
+- citation: Palais Fesch—musée des beaux-arts, “Portrait du cardinal Scipione Borghese,” inventory MFA 852.1.265. https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250. Accessed 2026-09-25.
+  location: 作品记录全文；作者、题名、馆藏编号与媒材
+  sentence_summary: Musée Fesch以MFA 852.1.265标识Leoni所作布面Scipione Borghese肖像，尺寸110 × 84 cm。
+  original_quotes:
+  - source_span: lines 190–202
+    text: 'LEONI Ottavio – Portrait du cardinal Scipione Borghese; MFA 852.1.265; Huile sur toile; 110 x 84 cm.'
+  evidence_ref:
+    doc_id: musee-fesch-cardinal-scipione-borghese
+    source_file: https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250
+    source_span: lines 190–202
+- citation: Fondazione Federico Zeri, “Leoni Ottavio, Ritratto del cardinale Scipione Borghese,” entry 47715 / photo archive card 49711. https://catalogo.fondazionezeri.unibo.it/scheda/opera/49711/Leoni%20Ottavio%2C%20Ritratto%20del%20cardinale%20Scipione%20Borghese. Accessed 2026-09-25.
+  location: Oggetto; Autore; Datazione; Localizzazioni; Specifiche inventariali
+  sentence_summary: 专业目录将Leoni肖像、Ajaccio Musée Fesch及馆藏号852-1-265关联；记录120 × 92 cm及1598–1630年宽泛时段。
+  evidence_ref:
+    doc_id: fondazione-zeri-leoni-scipione-borghese-47715
+    source_file: https://catalogo.fondazionezeri.unibo.it/scheda/opera/49711/Leoni%20Ottavio%2C%20Ritratto%20del%20cardinale%20Scipione%20Borghese
+    source_span: entry 47715; inventory 852-1-265
+- citation: Louvre, “Portrait du cardinal Scipion Borghèse,” INV 3311 recto. https://collections.louvre.fr/ark:/53355/cl020100515. Accessed 2026-09-25.
+  location: 作品题名、作者、日期、媒材与馆藏号
+  sentence_summary: 1617年纸本素描与Fesch馆藏布面油画为不同作品，避免按同一被描绘者合并。
+  evidence_ref:
+    doc_id: louvre-leoni-scipion-borghese-inv-3311-recto
+    source_file: https://collections.louvre.fr/ark:/53355/cl020100515
+    source_span: object title, date, artist, medium and inventory number INV 3311 recto
 created: '2026-09-14'
 updated: '2026-09-25'
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章人物身份和作品关系接续2026-09-25
@@ -155,6 +200,18 @@ relations:
   bidirectional_required: false
   role: 家族肖像与壁画服务
   scope: 1617–1618
+- relation_type: member_of
+  target: institutions/accademia-dei-virtuosi-al-pantheon.md
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 1621年起
+  role: sodale（团体成员）
+  scope: Treccani称Leoni自1621年起为该团体成员；不扩展为未载任期或学院职务
 ---
 
 ## 内容
@@ -203,7 +260,7 @@ relations:
 | 1626 | 任画室rector | 圣卢卡学院 | S3 |
 | 1627 | 再任Principe | 圣卢卡学院 | S3 |
 | 1617–1618 | 为乔瓦尼·安杰洛·阿尔滕普斯服务，绘家族名人肖像组并完成壁画 | 阿尔滕普斯家族 | S3 |
-| 1621 | 加入万神殿Virtuosi团体；为格列高利十五世画像后获基督十字骑士称号 | 罗马 | S3 |
+| 1621 | 加入[万神殿Virtuosi学院](../institutions/accademia-dei-virtuosi-al-pantheon.md)；为格列高利十五世画像后获基督十字骑士称号 | 罗马 | S3 |
 
 ### 作品关联
 
@@ -212,6 +269,10 @@ relations:
 | [弗朗切斯科·巴贝里尼枢机肖像](../works/ottavio-leoni-cardinal-francesco-barberini.md) | 图版03a创作者 | S1；原书署名 |
 | [布拉恰诺公爵肖像](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 图版17c创作者 | S2；原书署名 |
 | [烛光下的马达莱娜·泰利肖像](../works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md) | 外部馆藏作品创作者 | S4；RISD Museum对象52.195；非本书图版 |
+| [《苏珊娜与长老》](../works/ottavio-leoni-susanna-and-the-elders-1620.md) | DIA馆藏作品创作者；DBI称其为唯一署名绘画，Zeri记录历史归属异说 | S3、S6、S7；DIA对象41.89；外部补足作品，非本书图版 |
+| [格列高利十五世肖像（约1621年原作）](../works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md) | 创作者；DBI记原作约1621年绘制、现已佚失 | S3；非本书具名作品 |
+| [格列高利十五世肖像（学院本，1628–1630）](../works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md) | 创作者；学院委托的布面版本，仍由学院收藏 | S3、S8；非本书具名作品 |
+| [希皮奥内·博尔盖塞枢机肖像（Musée Fesch馆藏）](../works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md) | 创作者；布面油画，馆藏号MFA 852.1.265 | S3、S9–S11；馆藏版本，与梵蒂冈另一版本及Louvre纸本分立 |
 
 ## 关系与证据
 
@@ -222,6 +283,7 @@ relations:
 | 专业传记 | [Treccani《意大利人传记辞典》](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/) | S3，人物身份与生平 |
 | Wikipedia（en） | [Ottavio Leoni](https://en.wikipedia.org/wiki/Ottavio_Leoni) | 页面人物、父亲Lodovico Leoni、罗马活动及1578–1630年代特征与本卡相符；页面的Wikidata入口指向Q389768 |
 | Wikidata | [Q389768](https://www.wikidata.org/wiki/Q389768) | 英文名称及Roman painter（1578–1630）描述相符；enwiki sitelink回指上述页面。身份双向核对通过；不据此改写本卡对生年及卒日的证据限定 |
+| 万神殿Virtuosi学院 | [机构知识元](../institutions/accademia-dei-virtuosi-al-pantheon.md) | S3称Leoni自1621年起为其成员；明确关联到当前机构知识元 |
 
 ### 关系记录
 
@@ -238,4 +300,5 @@ relations:
 | → 受其赞助／保护（`patronized_by`） | [乔万尼·安杰洛·阿尔滕普斯（第二代加莱塞公爵）（Giovanni Angelo d’Altemps, 2nd Duke of Gallese）](giovanni-angelo-altemps.md) | 角色：家族肖像与壁画服务；范围：1617–1618；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 45–46 |
 | ← 所创作对象（`creator_of`，反向投影） | [弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）](../works/ottavio-leoni-cardinal-francesco-barberini.md) | 角色：原书图版署名创作者；范围：图版目录；原断言与证据见发出端卡片“弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 40–40; 章前：图版目录；印刷页xii |
 | ← 所创作对象（`creator_of`，反向投影） | [布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 角色：原书图版署名创作者；范围：图版目录；原断言与证据见发出端卡片“布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 70–70; 章前：图版目录；印刷页xiii |
+| → 隶属／任职于（`member_of`） | [万神殿Virtuosi学院（Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon）](../institutions/accademia-dei-virtuosi-al-pantheon.md) | 时间：1621年起；角色：sodale（团体成员）；范围：不推定任期或职务；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 48 |
 正式亲缘、朋友、任职与作品关系见本卡关系展示。

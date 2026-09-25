@@ -8,6 +8,18 @@ from scripts import summarize_relation_review_queue as summarizer
 
 
 class RelationReviewQueueSummaryTests(unittest.TestCase):
+    def test_relation_index_evidence_ref_and_claim_id_are_direct_evidence(self):
+        summary = summarizer.relation_index_summary(
+            [
+                {"confidence": "medium", "relation_type": "created_by", "evidence_ref": {"source_span": "p. 4"}},
+                {"confidence": "low", "relation_type": "parent_of", "claim_id": "claim-1"},
+                {"confidence": "medium", "relation_type": "held_by"},
+            ]
+        )
+
+        self.assertEqual(summary["weak_evidence_count"], 1)
+        self.assertEqual(summary["weak_evidence_by_relation_type"], {"held_by": 1})
+
     def test_latest_defer_ledger_uses_numeric_batch_suffix_across_directory_prefixes(self):
         with tempfile.TemporaryDirectory() as tmp:
             automation_dir = Path(tmp)

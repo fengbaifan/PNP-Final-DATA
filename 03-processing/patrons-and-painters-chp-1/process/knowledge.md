@@ -18533,6 +18533,12 @@ S1–S6 对应元数据 sources 顺序。字段版本、访问失败及历史裁
 
 候选[Wikipedia：The Massacre of the Innocents (Poussin)](https://en.wikipedia.org/wiki/The_Massacre_of_the_Innocents_(Poussin)) ↔ [Wikidata Q3224378](https://www.wikidata.org/wiki/Q3224378)指向PE305；本卡保留候选，未批量导入其全部属性。S4全文1052字符、S5可读取对象记录、S6研究记录已读；搜索结果中出现的118×179厘米未取代已核147×171。
 
+### 2026-09-25：孔代博物馆官方记录补读
+
+完整读取[孔代博物馆PE 305馆藏记录](https://www.musee-conde.fr/fr/notice/pe-305-le-massacre-des-innocents-74c948d1-02f4-4a1f-b88a-68f6cb7f641a)。馆方记作者为Nicolas Poussin、约1628年、布面油画、147×171厘米，并称普桑为Vincenzo Giustiniani绘制此画时意在与Reni同题名作竞争；页面亦列收藏沿革及现馆号。该语境与Haskell将Reni和Poussin的同题作品并列的段落相合，增强PE 305作为候选的解释力。
+
+本章仍未提供PE 305馆号、尺寸、现藏地点或足以排除另一件有争议同题画的版本特征，因此没有升级`candidate_unresolved`身份状态，也没有把“现藏孔代博物馆”写成确定关系。已将馆方字段与章内事实分开列入作品卡S7；候选及Q3224378仅保留在候选信息中。当前补足进展为新增一条官方馆藏来源并明确其支持范围；版本对应、赞助动机的独立证据及原合同仍未解决。
+
 文件头created_by链接[普桑](../persons/nicolas-poussin.md)，依据本章；[雷尼同题作](reni-massacre-innocents.md)是比较导航，不合并。
 
 **未决：** 本章与PE305及其他版本的关系、赞助动机、原合同与完整流传。原章页／行号及句意摘要保留；对象候选不使Haskell已明确的作者和题材失效。
@@ -18828,14 +18834,14 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 | CH1-RC-013 | F | Bracciano—Mulier及Pamfili—Mola／Cortese的限制语境已处理；Pascoli传记单列archive。 |
 | CH1-RC-014 | N | 委托时机段只有匿名artist／patron。 |
 | CH1-RC-015 | F | Pallavicini—Piola持续赞助及Flavio Chigi—Mario de' Fiori月俸关系已有端点和原书证据。 |
-| CH1-RC-016 | F＋P | 询问事件—Guercino—祭坛画方案已有正式端点；Zeri支持作品 `created_by` Guercino 及末知地点San Gregorio教堂。委托修院法人仍未识别，保持P；原书本身不作为身份对齐证明。 |
+| CH1-RC-016 | F＋P | 已增加D.a Maria Ruffo（Don Antonio之侄女、修女）为委托者端点，并以1916年刊载的Guercino书信及编辑注释支持作品 `commissioned_by` 关系；来源将她与Duchess of Sora区分。她是否即Suor Illuminata、修院法人规范名仍未完全核定，故保留P。 |
 | CH1-RC-017 | F | Pamfili—Mola委托、借阅／批注对象、Armanni书信、Savini／Minniti条款、Gavasetti及Ricci相关合同分别映射，未压缩为一条泛化赞助边。 |
 | CH1-RC-018 | F | Urban VIII—Camassei祭坛画委托与创作链已有正式端点。 |
 | CH1-RC-019 | F＋P | 本轮把Giustiniani购入卡拉瓦乔退画的 `acquired_by` 证据改回原书L349–353；柏林馆记录只负责对象识别和外部履历。Giovanni Adamo来信已有文献边，信中匿名作品保持P。 |
 | CH1-RC-020 | P | Mantua公爵的两名罗马画家及del Carpio的年轻艺术家均未具名，不创建占位人物；事件与机制可保留。 |
 | CH1-RC-021 | F＋P | Valentin作品的原书collector保持匿名；本轮另以列支敦士登王室收藏记录建立作品 `commissioned_by` Fabrizio Valguarnera，并明确这是外部事实。Cortona／Rosa故事中未具名客户和作品保持P。 |
 | CH1-RC-022 | F＋P | Caravaggio合同、Rubens—Chiesa Nuova作品地点等已正式化；Lanfranco向Francesco Barberini提出请求不等于委托已成立，相应委托保持P。 |
-| CH1-RC-023 | N＋P | “Gaulli may well”保留推测，不建发明关系；Ferri模型的委托方明确为Pamfili家族，但当前缺少可复用家族KU，不以Camillo或其他成员替代，保持P。 |
+| CH1-RC-023 | F＋P | Ferri穹顶工程与预备彩稿的家族责任、合同签订人已分别连接Pamphili family和Giovanni Battista Pamphilj Aldobrandini；`Gaulli may well`仍为推测，不建立正式边。 |
 | CH1-RC-024 | F | Ferri、Gaulli、Odazzi、Chiari的工期事实及模型—创作者／位置／收藏关系按对象记录；Cortona模型争议保留语气，不写成无争议事实。 |
 | CH1-RC-025 | F | Mola—Pamfili诉讼、实际工作日付款和承诺年金分别保留主张／事实／承诺状态。 |
 | CH1-RC-026 | F | Domenichino、Lanfranco、Albani、Ferri、Guercino等价格与付款材料按各自作品、币种和证据登记，不生成跨对象统一价格边。 |
@@ -18849,7 +18855,7 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 | CH1-RC-034 | F＋N | Ghezzi的Arcadia成员、圣职俸禄／职位和任命等可识别关系已正式化；举镜、递画布、乘车、驾车等象征性动作及Frederick／Charles V历史类比不硬造关系类型。 |
 | CH1-RC-035 | F | 成立事件与Van Laer双重会员关系已存在；本轮新增Schildersbent `disputed_with` Accademia di San Luca，限定为抵制征税，不泛化为全面敌对。 |
 | CH1-RC-036 | P | Pozzo父母、Procaccini父母、Mario de' Fiori两子均未具名；不从存在性陈述编名。 |
-| CH1-RC-037 | P | Carlone的婚配对象及Bernini父亲／兄弟在本段匿名；外部补名须另有身份和关系证据，当前不回填。 |
+| CH1-RC-037 | F＋P | Bernini匿名父亲与兄弟已由Treccani DBI分别补为Pietro及Luigi Bernini，并补齐Pietro—Angelica—Gian Lorenzo／Luigi的亲缘和相应正式关系；详见“贝尔尼尼家族端点对齐、补足与关系核查”（2026-09-25）。Carlone的婚配对象仍未具名，保持P，不从共现推断。 |
 | CH1-RC-038 | F＋P | Negri—San Tommaso书信及信中Perugini对象已登记；1667喜剧及部分书信本体仍未识别，保持P。 |
 | CH1-RC-039 | F＋P | Rosa—Ruffo书信与拒收预付款条件按书信证据记录；匿名claque不建人物端点。 |
 | CH1-RC-040 | F | de Rosis—Ruffo、Ferri—Ruffo及Pascoli关于Luti的转引按文献层级记录；Baldinucci评价不改写成Rosa与“followers”的实体关系。 |
@@ -18870,7 +18876,7 @@ S1：第一章；印刷页 11；OCR L389–392。编号按文件头 sources 顺�
 
 ## 潘菲利家族与圣阿涅塞穹顶委托端点（2026-09-25）
 
-关系候选 CH1-RC-023 留有一个具名家族端点缺口：第一章称Pamfili家族负责圣阿涅塞穹顶工程委托，但尚无可复用Pamphili family知识元；既有作品卡将委托人写为“Giovanni Battista Pamphili”，未消歧至人物卡。此次只闭合这条有明确文本和外部传记依据的委托链。
+关系候选 CH1-RC-023 曾留有具名家族端点缺口：第一章称Pamfili家族负责圣阿涅塞穹顶工程委托，原作品记录也曾把个别合同用名留作未消歧字符串。当前家族KU与人物KU均已建立；下表记录本次完成的身份区分和关系闭合。
 
 | 对象／问题 | 实际读取与比较 | 结论 |
 |---|---|---|
@@ -18976,6 +18982,20 @@ Francesco Maggiotto的168幅总督等人肖像组与原书图版68a三幅肖像�
 
 据此保留Francesco di Maria为外部关系候选线索，但不新增`trained_by`或`influenced_by`正式边，也不因此新建端点KU。当前可采纳的明确师承仍为Paolo→Luca Giordano。若后续出现措辞明确的专业传记、档案或研究来源，再回到端点识别与关系裁决；本项不计入章前九项暂缓主候选。
 
+#### 对含混线索的来源追核（2026-09-25）
+
+继续检查[英语Wikipedia Paolo de Matteis](https://en.wikipedia.org/wiki/Paolo_de_Matteis)（revision 1365386888）该句的实际引文。当前页面在“trained with Francesco di Maria ... then with Luca Giordano”处没有脚注；参考文献区所列Dalbono、Hobbes两项分别用于后文学生名单，页面未把它们指向这句师承断言。[意大利语Wikipedia Paolo De Matteis](https://it.wikipedia.org/wiki/Paolo_De_Matteis)确有句末Treccani DBI脚注，但该DBI原文只记其为Luca Giordano之学生，并无Francesco di Maria师承；因此该引用不能支持意大利语页面的Francesco断言。两种语言页面的相似说法不能算独立证据，也不能据此反推事实成立。
+
+另核Maria Farquhar, *Biographical Catalogue of the Principal Italian Painters* (1855), 印刷页100（[Wikisource扫描页131转录](https://en.wikisource.org/w/index.php?title=Page:Biographical_catalogue_of_the_principal_Italian_painters.djvu/131&oldid=9749324)标记为“尚未校对”）：Paolo条目称其为Luca Giordano最好的学生、也曾随Giovanni Maria Morandi学习，未提Francesco di Maria。Paolo DBI（[Treccani](https://www.treccani.it/enciclopedia/paolo-de-matteis_%28Dizionario-Biografico%29/)）把de Matteis明确记为Luca Giordano之学生；Francesco di Maria DBI（[Treccani](https://www.treccani.it/enciclopedia/francesco-di-maria_%28Dizionario-Biografico%29/)）列出的学生包括Francesco Solimena、Giacomo Del Po及Andrea Malinconico，并未列de Matteis。[Banca d’Italia](https://collezionedarte.bancaditalia.it/web/guest/-/paolo-de-matteis)仍是目前发现的唯一明确把de Matteis与Francesco并列描述的机构来源，但“si accostò ... e Luca Giordano, di cui divenne uno dei migliori allievi”没有分清其后“最佳学生”只指最近的Giordano，还是涵盖两人。
+
+因此结论仍为**待证**：现有较具体的专业传记和早期传记可确认Luca Giordano师承，但既不能证成也不能排除Francesco di Maria对de Matteis的早期授艺。未新建Francesco端点、未增加正式关系；解除待证需找到明确记载这段关系的专业传记、研究或可核档案。此裁决不改变Paolo人物卡已登记的Giordano关系。
+
+### Salviati—Leopoldo书信所引Boyer论文的数字化卷册定位（2026-09-25）
+
+继续追查书信卡所引Ferdinand Boyer, “Documents d’Archives Romaines et Florentines sur le Valentin, le Poussin et le Lorrain,” *Bulletin de la Société de l’Histoire de l’Art Français* (1931), pp.233–238。巴黎档案馆期刊目录将该刊1931年卷册列为PER106 16，并注明该刊可经Gallica阅读；Mir@bel亦将Gallica列为该刊1907–1951年的全文入口。1932年《Répertoire d’Art et d’Archéologie》检索索引另列出Boyer（该索引拼作“Boyen”）论文题名及1931年233–238页段，与Haskell脚注相合。这些记录确认了卷册和检索路径，不等于读到了Boyer论文或原信。本次Gallica具体年卷入口由当前检索通道返回403，命令行请求亦超时；未取得论文第238页、书信全文或原档号。
+
+裁决维持不变：书信现有作者、收信人、日期和所涉Claude作品关系继续依据Haskell转引记录；不增加具体画作端点、交易金额、档案馆藏地或原档关系，也不把目录定位写作原文已读。待能读取1931年卷册的第233–238页后，再核对刊本文字、脚注和原档线索，并仅更新书信卡与受影响的关系证据。
+
 ### Filippo Hercolani身份纠正及父子关系闭合（2026-09-25）
 
 复核Bianconi书信收件人补足后发现，其中“意大利语Wikipedia与Wikidata无双向链接”的结论有误。直接查验当前意大利语Wikipedia页面：`Filippo Hercolani, IV principe Hercolani`，revision 146651111，其`pageprops.wikibase_item`为Q47468606；再查Wikidata Q47468606，revision 2520281632，itwiki sitelink回指同一页面，意大利语标签与页面题名一致，英文标签为“Filippo Hercolani, 4th Prince Hercolani”，英文描述为“Bolognese writer (1736-1810)”。页面、名称、年代和身份特征一致，纠正此前误读，现登记为Wikipedia—Wikidata双向身份配对；该配对仅支持身份，不自动采纳其他外部属性。
@@ -19059,3 +19079,137 @@ Orazio卒年存在真实来源冲突：DBI详传记其1624年11月初在罗马�
 登记三条单次维护的正式边：Tommaso `parent_of` Francesco（印刷页66）；Francesco `parent_of` Galeazzo（印刷页67）；Galeazzo `member_of` Knights Hospitaller（1657年获准加入，印刷页67）。父子边没有同时写入逆向正式断言；关联人物卡仅展示反向投影。骑士团卡新增Galeazzo成员关系的反向展示。1646年入会申请与1657年正式获准区分，开始和终止日期只按来源精度表述。
 
 本批新增2个KU、3条显式关系，无Wikipedia/Wikidata配对；所有新增身份与边均有同一专业家族史的具体页码依据。该单一来源限制已如实保留，不扩大为“多源验证”。全章其他身份、作品及关系缺口仍需继续处理；9项暂缓对象不变，知识发现、网页呈现和人工校验仍暂停。
+
+## 卡拉瓦乔具名作品与创作关系闭合度复核（2026-09-25）
+
+按卡拉瓦乔人物卡“作品与评价”表逐项对照作品卡的正式关系。人物卡当前链接61个不同作品／版本对象；其中54个作品卡明确登记`created_by` Caravaggio，另有2条1600年合同委托对象关系留在人物卡，不与现存实物版本混合。剩余7个不建确定创作边，逐卡理由均已存在于内容或关系记录：
+
+- 《橄榄山上的基督》：作者归属有争议；对象已毁，朱斯蒂尼亚尼收藏仅支持收藏史。
+- 《多疑的圣多马》（所谓“教会版本”）：与无忧宫版本有`variant_of`关系，但该对象作者与版本身份未定。
+- 图卢兹《朱迪斯斩杀赫罗弗尼斯》：卡拉瓦乔、路易·芬松或那不勒斯卡拉瓦乔圈等归属并存。
+- 《水仙》：卡拉瓦乔归属有争议；现存保管关系独立登记。
+- 原普林斯顿旧藏《以撒献祭》：曾以Bartolomeo Cavarozzi作品出售；与乌菲齐版本分开，不立卡拉瓦乔作者边。
+- 2011年公布的《圣奥古斯丁》：只在Caravaggio主页面及引文线索出现，尚无同粒度权威对象记录或稳定归属。
+- 敖德萨《逮捕基督》：作为17世纪早期复制品记录，作者未定。
+
+因此这7项的缺边是按当前证据保留归属未决，不是遗漏的确定关系。检查范围为人物清单与作品卡之间的对象／作者边闭合度；不把该交叉检查扩大声称为本轮重读全部54条关系来源，也不据此宣布整章关系审查完成。当前关系总数不变。
+
+## 贝尔尼尼家族端点对齐、补足与关系核查（2026-09-25）
+
+回读Gian Lorenzo Bernini人物卡及《赞助人与画家》第一章印刷页21（OCR L862–874）：Haskell只称Bernini是“著名雕塑家的儿子”，并说其兄弟曾作助手，没有写出父亲或兄弟姓名。外部专业来源可用于将这两个未具名端点对应到具体人物，但不把姓名倒写成原书明言。
+
+读取Howard Hibbard署名的Treccani《意大利人传记辞典》第9卷（1967）“BERNINI, Gian Lorenzo”“BERNINI, Pietro”“BERNINI, Luigi”三篇相关段落。Gian Lorenzo条目称Pietro为父亲，并说明其早期受父亲训练；Pietro条目称与儿子在Villa Borghese装饰雕塑及圣彼得大教堂华盖工作中合作；Luigi条目直接称其为Pietro之子、Gian Lorenzo之弟和学生，并记其在圣彼得华盖、1626–1628年Sant’Agostino主祭坛天使像协助兄长，以及1665年兄长赴法期间代行建筑工作。只将可直接支持的亲缘、师承和合作关系登记；不将原书未具名信息升级为原书中的专名关系。
+
+Pietro Bernini与Luigi Bernini分别新建独立人物KU。先读英文学页，检查信息框、正文、作品段与参考文献；两人的英文Wikipedia页面pageprops及Wikidata sitelink均双向指向Q712397、Q1876100。另用MediaWiki API核对两张意大利语页面的pageprops及对应itwiki sitelink也指向同一QID，不把未读的意大利语正文用于补足。Wikidata当前修订分别为2548644670、2544016930；英文页面修订分别为1365556646、1367632838；意大利语页面修订分别为151895804、137345152。逐字段只提取适用信息；Luigi出生日在Wikidata为1612年精度，未补月日。
+
+Pietro出生日期存在不能合并的来源异文：Treccani DBI与意大利语Wikipedia给1562-05-05；英文Wikipedia和Wikidata首选rank给1562-05-06；Wikidata还保留正常rank的1562-05-16。知识元并列各来源日期，不以rank或多数来源抹去冲突。Pietro于1629-08-29卒的日期由Treccani DBI、英文Wikipedia及Wikidata支持。此处的身份配对只确定同一人物，不自动证明所有传记字段。
+
+从相关人物传记进一步回查母系关系：Howard Hibbard的Pietro条目称其妻Angelica Galante为那不勒斯人，并记二人于1594年一同返回佛罗伦萨；Gian Lorenzo条目将Angelica列为母亲，Luigi条目也明列同一母亲。故建立[Angelica Galante](../../../04-knowledge/units/persons/angelica-galante.md)最小端点；只登记其配偶与两项母子关系。精确英文、意大利语Wikipedia标题均无对应页面。Wikidata同名精确检索返回Q125807800，条目描述为加拿大当代语言教育学者且无Wikipedia sitelink，与历史人物明显不符，明确排除，不赋QID；身份结论是依Treccani DBI来源支持而未配对。
+
+正式新增9条显式关系：Pietro `parent_of` Gian Lorenzo与Luigi，Pietro `spouse_of` Angelica，Pietro `collaborated_with` Gian Lorenzo（Villa Borghese装饰雕塑及圣彼得华盖，时间精度按条目）；Angelica `parent_of` Gian Lorenzo与Luigi；Luigi `sibling_of`、`trained_by`及`collaborated_with` Gian Lorenzo（华盖、Sant’Agostino天使像、1665年代行工程）。关系端点、方向、时间／语境及Treccani具体条目段落已分别落在关系事实与人物卡展示；索引中的反向行由词表生成，不另造事实。Haskell原文边界仍保留在Bernini卡，外部补充明确标记。
+
+本批没有据简短传记声称穷尽Pietro或Luigi作品清单；条目明确提及的具体协作项目仅用于界定合作关系范围，逐件作品KU与创作责任仍需在作品审查中按同粒度证据核对。9项暂缓对象状态不变；本批不启动知识发现、网页呈现或人工校验。
+
+## De Rosis 1663年6月2日书信与罗萨作品线索追查（2026-09-25）
+
+（历史过程记录：本节记录尚未取得原刊页面时的检索边界；其证据状态已由文末“Salvator Rosa 1663-06-02书信及作品候选”更新。）
+
+核对先前未完成的书目线索后，意大利文化部《Bollettino d’Arte》官方目录确认1916年卷10第5–6期中，Vincenzo Ruffo《Galleria Ruffo nel secolo XVII in Messina》第三部分自印刷页165起；官方数字馆藏提供该部分扫描入口。De Vito–Battaglia书目索引将第169页概述为：Salvator Rosa编制的一份待售画作清单附于Giuseppe de Rosis于1663-06-02从罗马寄给Antonio Ruffo的信。该索引用于定位，不代替读取原刊第169页。
+
+Bonhams 2017年旧大师绘画图录lot 26记有一幅题为 *Satyrs carousing with maidens* 的布面油画，106.8 × 106.8 cm；图录引C. Volpi 2014, p.553，转述1663-06-02信中Rosa附便条出售一幅5×5 palmi、人物高3 palmi的“satyrs carousing with maidens”，并称现拍品即为该信提及作品。图录对1663年7月Ruffo收藏记录使用“Probably”，对其在Rosa画室的记录仅说这倾向支持较晚期归属。故目前只形成“信中待售画作与现存拍品可能同一”的关系候选；图录不是一手信件，尚不能据此把现存画布与便条中的对象合并，也未新增画作KU或正式创作、出售、收藏边。
+
+下一步需实际读取Ruffo 1916第169页原刊及Volpi 2014第553页图录／论述，分别核对信件日期、Rosa便条原文、尺寸单位、现存画布匹配论据及藏品沿革；取得原页前，保留现有1663-09-22书信卡与本条线索分立，不把两封信或内容合并。访问证据：[意大利文化部《Bollettino d’Arte》1916 V–VI卷期目录](https://bollettinodarte.cultura.gov.it/?p=1584)及[第三部分扫描入口（印刷页165起）](https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998349974_5_-_Vincenzo_Ruffo_p._165.pdf)；[De Vito–Battaglia书目索引](https://www.inasaroma.org/patrimonio/wp-content/uploads/2022/04/De-Vito-Battaglia-Correggio-00.pdf)，印刷页166；[Bonhams 2017年12月6日旧大师绘画图录lot 26](https://electronicsandbooks.com/edt/manual/Art/Auction/Bonhams/2017/20171206%20S-24057-0-1%20Old%20Master%20Paintings.pdf)（第三方镜像可检索，原刊第169页及图录全文本轮均未成功打开）。
+
+## Salvio Savini《还愿祭坛画》及圣乌巴尔多圣殿端点补足（2026-09-25）
+
+### 对象识别与来源阅读
+
+回到人物卡所载Haskell脚注：第一章只以“Saverio Savini”指称1608年古比奥委托条款，并未给出祭坛画名称、委托者专名或画面内容。为补齐这一条已采纳的作品事实，阅读Paolo Salciarini与Anna Radicchi编写的《Guida alla Basilica: Santuario di Sant'Ubaldo》第四次重印本（2015年2月），PDF第20页、印刷页21、章节“II Quadro”。该指南明确写出画家Salvio Savini于1608年3月25日受托、1610年交付，并说明作品媒材和题材；因此将作品创作时期记为1608–1610。指南所述画中事件是Federico Ubaldo della Rovere于1605年出生，故2022年小册图注中的“(1605)”按被描绘事件日期处理，不当作作品创作年份。2022年圣殿小册明确把Pala del Voto列在cappella votiva，作为作品的已知位置记录；不据此推定首次安置时间或所有权。
+
+另读InArtS／乌尔比诺大学所载Gentile Carbonana于1606-07-25致Gubbio Gonfaloniere及Consuls的档案条目与转录（Gubbio State Archive, Fondo Comunale, Carteggio, 12.1 b14 f.91r）。编目说明记当地magistrato曾让Carbonana向Federico Barocci转达制作还愿祭坛画的提议，后由Salvio Savini制作。该信是早期洽谈，不是1608年Savini合同；它与2015年指南共同支持将Gubbio市政共同体作为集体委托主体，但不据此将项目端点等同于现代Comune di Gubbio或声称已识别某一法定机构。
+
+### 身份对齐与知识元
+
+按verify身份链复核圣乌巴尔多圣殿：英语页面 *Basilica of Sant'Ubaldo, Gubbio* 修订1324716422、意大利语页面 *Basilica di Sant'Ubaldo* 修订150331520均与Wikidata Q3635744对应；两页的Wikidata入口和QID的enwiki／itwiki sitelink双向一致。两语页面标题、地点及教堂／圣所类型相合。该配对只用于建筑地点身份，不替代使用2015年指南所记建筑沿革和画作信息。针对作品以英语和意大利语精确题名查询Wikipedia页面，均缺页；Wikidata `Pala del Voto` 精确标签搜索无结果。针对历史共同体以英语、意大利语常用描述名查询Wikipedia页面均缺页，Wikidata两个对应英文称谓搜索均无结果；这表示未找到适用身份对齐，不表示不存在未被这些称谓索引的其他目录或档案记录。三项查询和结论已分别写入`alignment-evidence.jsonl`。沿用Gubbio已有地点KU，不另造地点端点。
+
+据此新建[《还愿祭坛画》（Pala del Voto）](../../../04-knowledge/units/works/salvio-savini-pala-del-voto.md)、[圣乌巴尔多圣殿](../../../04-knowledge/units/places/basilica-di-sant-ubaldo.md)及[古比奥市政共同体](../../../04-knowledge/units/institutions/gubbio-civic-magistracy.md)三个必要KU。作品级与历史共同体端点未找到同粒度、可确证的Wiki身份，故不填QID；作品描述性中文题名未伪称来源原题。更新既有Salvio卡，使其作品清单直接链接新作品KU，Haskell“Saverio”仍作为原书用形，不覆盖成Haskell已写“Salvio”。
+
+### 正式关系与交接
+
+正式登记4条显式关系：Pala del Voto `created_by` Salvio Savini（委托1608-03-25、交付1610）；Pala del Voto `commissioned_by` Gubbio civic community（集体主体；1606 Barocci洽谈只作机构语境，Savini关系以2015指南为直接依据）；Pala del Voto `located_at` Basilica di Sant'Ubaldo（按2022指南所记还愿小堂位置）；圣乌巴尔多圣殿 `located_at` Gubbio。未把“安置地点”改写成原始安置史、所有权或教会管理关系。每条边保留端点、方向、时间、角色／范围和具体来源；反向链接由关系视图投影，不另写为事实边。
+
+变化结果为新增3个KU和4条显式关系，覆盖已采纳的Savini作品及其创作、集体委托、存放地点和建筑所在地。按项目闭包组合器重建派生索引与运行快照并通过全量检查；记录的检查项和测试数取最新闭包输出。本次不清理过程证据或改变9项暂缓对象，不进入知识发现、页面制作或独立人工验收。
+<a id="salvator-rosa-1663-06-02-letter-and-work-candidate"></a>
+
+## Salvator Rosa 1663-06-02书信及作品候选
+
+Haskell第一章p.23所引De Rosis书信日期为1663-09-22，内容是代理人评价Rosa；它与1663-06-02售画信是两份不同文献。已读取Internet Archive所载Ruffo 1916年刊本文字OCR，印刷页168–169：p.169署记“Roma 2 Giugno 1663”，列出Giuseppe de Rosis签名和收信人D. Antonio Ruffo；随后的待售画单记一件5 palmi见方、萨提尔与女子嬉戏、人物约3 palmi的画作，价格100 scudi。脚注(1)称画单由Salvator Rosa制作；脚注(2)称该画由Don Antonio Ruffo购得，且列入其Rosa作品清单和100幅primogenitura清单，题作“Due Satiri e tre Ninfe che scherzano”。刊本没有给出确切成交日期。
+
+来源状态须分层记录：本轮直接读取的是1916年刊本OCR转录，不是1663年手稿；扫描图像未目视校勘。Bonhams 2017图录称信来自Messina，与1916刊本页内“Roma”不一致，保留为来源冲突，卡片按所读刊本文字记Rome并注明异说。Bonhams将这段记录与其lot 26现存画布相连，但历史清单与题材、尺寸相似不足以单独证明实物同一；Volpi 2014年第553页仍待直接核读，故不把拍品并入刊本描述的作品KU，也不建立对拍品的确定关系。刊本脚注(2)足以支持“刊本所述画作由Ruffo购得”这一历史关系，未定年。
+
+分别保留[1663-06-02书信](../../../04-knowledge/units/archives/de-rosis-ruffo-letter-1663-06-02.md)与[附笺描述的画作](../../../04-knowledge/units/works/salvator-rosa-satyrs-carousing-with-maidens.md)两个KU，已把原刊证据写入元数据来源、书内关系依据及双向关系展示。正式关系为书信`authored_by` De Rosis、`addressed_to` Ruffo、`has_subject`该画作，以及画作`created_by` Rosa、`acquired_by` Ruffo；其中创作者依据脚注对附笺作者的说明，购藏依据脚注(2)。书信卡、作品卡和两位人物的关系展示已按刊本证据更新。作品无适用Wikipedia/Wikidata配对；这不妨碍专业图录后续补证。Bonhams现存画布同一性仍待核。本批未启动知识发现或页面工作。
+
+## 第一章初步对齐现状快照（2026-09-25）
+
+截至本次更新，`alignment-evidence.jsonl`有330条记录，覆盖322个不同对象。最新合并工作状态为183个对象有Wikipedia—Wikidata身份配对记录；130个对象已有未配对、范围不符或候选排除结论；其余9个仍待证（5个候选未决、4个版本冲突），按用户确定的范围保留，不强行配对。D.a Maria Ruffo、Maria Teresa Ruffo祭坛委托者及Leoni《苏珊娜与长老》均为有外部来源支持但未形成双向Wiki身份配对的对象，不属于原有9项待证对象。
+
+此为对齐日志当前状态计数，不表示320个对象都完成外部内容补足或事实验证。新增KU应随阶段工作写入日志；本快照不覆盖具体的来源证据，也不将同一对象的历史日志重复计数。
+
+## 圭尔奇诺1664年修女委托人及关系端点补足（2026-09-25）
+
+针对CH1-RC-016继续核读Vincenzo Ruffo《Galleria Ruffo nel secolo XVII in Messina》（II），刊于《Bollettino d’Arte》10（1916），印刷页95–128。本轮直接读取印刷页110–111的Internet Archive OCR转录；官方《Bollettino d’Arte》扫描PDF可定位，扫描图像和1664年原始手稿本轮未作目视核读。Haskell第一章p.9只称一所西西里修院，未命名委托人；Ruffo刊载的1664-04-08 Guercino致Don Antonio Ruffo信称其一位修女亲属希望订制祭坛画，附注说明前述Duchess of Sora Maria Ruffo订的是另一件《圣诞》，不能把她直接作为本件委托者。刊物随后据书信及1660年遗嘱认定本件委托人为D.a Maria Ruffo、Don Antonio的侄女且为修女，并将作品联系至Messina的San Gregorio修院。此证据足以建立一个按来源界定的person端点和作品`commissioned_by`关系；实际决定日未载，限定为至迟1664-04-08已进入委托协商。
+
+遗嘱列有Duchess of Sora Maria与在Messina修院入会的Suor Illuminata；后文又称Suor Illuminata在1660年位于San Gregorio。D.a Maria委托者与Suor Illuminata可能对应，但刊载文章没有用同一语句明确等同，故人物卡保留D.a Maria Ruffo为来源称名，不写Suor Illuminata为确定别名，也不合并为Duchess of Sora。英文、意大利文Wikipedia及Wikidata定向检索未找到与这位修女委托者同粒度且可确认的身份，alignment状态记unpaired，无QID。修院名称可按刊物记San Gregorio，但现有材料未足以裁定其规范法人名称及与后来教堂空间的法定沿革，相关机构身份继续保留未决。
+
+关系写入作品卡`commissioned_by`，时间按“至迟于1664-04-08已进入委托协商；决定日未载”，并链接新人物卡。没有把委托者加作图像细节询问者，也没有把委托日写成1665年制作年。更新人物KU、作品和事件的双语描述及关系导航；9项原有候选／版本待证对象状态不变。来源索引登记刊物原文转录，过程与结果分别留在本文件和04对应KU。全量闭包16步通过，274项测试通过；更新后全库1,012个有效KU和1,213条关系索引（1,212条显式、1条规则派生），结构健康度130/130；关系机械审计断端点、非法关系类型、缺反向映射和弱证据均为0。既存1项档案标题格式提示仍在，不属于本批改动。
+
+
+<a id="guercino-altar-installation-lenzo-2005"></a>
+
+### Guercino祭坛画安置关系专业文献复核（2026-09-25）
+
+针对祭坛画→圣额我略堂加尔默罗圣母小堂的 `installed_at` 边，完整读取Fulvio Lenzo〈Il campanile di San Gregorio e Paolo Filocamo〉，《Lexicon: Storie e architetture in Sicilia》1 (2005): 31–40。第32页记载：右侧横翼北墙的加尔默罗圣母祭坛由Maria Teresa Ruffo于1688年委托建造，用以安置Guercino于1665年绘制的画作。该专业建筑史研究比既有意大利语Wikipedia页面更明确地支持作品与祭坛空间的实际联系，故作品卡的 `installed_at` 关系改以该页为直接证据；反向小堂视图由正式关系投影生成。
+
+1688年是专设祭坛的建造委托年份，不足以确定画作实际装入龛位的日期或持续陈列期间，故关系时间只记录祭坛建造背景，明示确切安置日未载。来源称赞助者为Maria Teresa Ruffo，但Ruffo谱系仍列出两位同名修女，未能唯一识别。故不为她新建人物端点，不建立她与小堂或作品的赞助／建造边，也不与1665年祭坛画委托者D.a Maria Ruffo合并。D.a Maria的 `commissioned_by` 关系仍是另一条独立事实，指向委托修院而非1688年小堂祭坛建造。
+
+本轮未新建KU或更改9项暂缓对象。有效关系索引、反向阅读和卡片链接在全量闭包后核验；知识发现、页面呈现和独立人工校验仍暂停。
+
+
+### Maria Teresa Ruffo的祭坛委托端点与身份边界更新（2026-09-25）
+
+新增核读的Fulvio Lenzo研究第32页明确说，Maria Teresa Ruffo于1688年委托建造圣额我略堂右侧横翼北墙的加尔默罗圣母祭坛，用以安置Guercino 1665年画作。既有消歧依据只有信息有限的Wikipedia页面和列出两位同名修女的谱系页；新增专业建筑史来源直接支持姓名、具体行为、时间和对象。因此，修订“同名者未辨明所以不建人物端点”的旧处置：新建一个仅由该具体建造行为界定的Maria Teresa Ruffo来源型人物KU，标记unpaired、无QID，不把她合并到两位同名修女中的任何一人。
+
+在小堂place卡登记`commissioned_by`，角色限定为1688年祭坛建造委托者，scope明确不延伸为1665年画作委托或整座小堂建造。作品→小堂的`installed_at`边改以Lenzo第32页为直接依据；关系时间说明1688是专设祭坛的建造年份，不虚构画作装入龛位的日期。小堂描述及知识元来源新增该页原文与精确页码；人物、作品、小堂与关系投影均连接到本过程段。
+
+对齐事件已追加`persons/maria-teresa-ruffo-1688-altar-commissioner`，保持unpaired。当前对齐日志329条、覆盖321个对象；工作状态为183个配对、129个已作未配对／范围／排除处置、9个待证（5个候选未决、4个版本冲突）。9项待证对象未变。本批全量闭包另记于当前04结果；不启动知识发现、网页呈现或独立人工校验。
+
+## REV-126｜Ottavio Leoni《苏珊娜与长老》作品端点与关系补足（2026-09-25）
+
+针对第一章人物与作品关系接续中“DBI列举的其他作品尚未逐件转为作品KU”的缺口，先处理有唯一馆藏号、可由馆方与专业目录交叉确认的一件。
+
+完整读取Valentina Sapienza的Treccani《意大利人传记辞典》“Leoni, Ottavio”线上条目（页面行25–66），其中第47行称底特律所藏《Susanna e i vecchioni》是铜板油画，年代1616–1620，并为Leoni唯一有署名的绘画。完整核读Detroit Institute of Arts馆藏记录52211及馆藏号41.89：馆方列Ottavio Leoni为作者、年代约1620、材质为铜板油画，未装框45.9 × 36 cm，记录左下署名，并载1941年由馆方购入。另核读Fondazione Federico Zeri作品条目119062及照片目录117077：同一记录列DIA 41.89、相同材质与尺寸、Leoni签名归属，并记约1610–1615年及基于文献的Carlo Saraceni异说；目录还载此前A. F. Mondschein藏家。故以馆藏编号认定同一实物，保存时间异文和历史归属变化；不把Saraceni旧说表述为现行馆方结论。
+
+检索具体作品的Wikipedia条目未发现针对DIA 41.89的独立页面。Wikidata API中的Q64521462英文标签、描述与题名和Leoni身份相合，但条目无陈述、无Wikipedia sitelink；Commons图像记录把该DIA来源图像关联到此项。因此将其保留为待核候选，不把它记录为双向身份配对或已核QID。作品身份以DIA馆藏编号和Zeri交叉目录为准，alignment状态记unpaired。
+
+新增[《苏珊娜与长老》](../../../04-knowledge/units/works/ottavio-leoni-susanna-and-the-elders-1620.md)，并在Ottavio Leoni人物卡补入作品关联；复用已存在的DIA机构KU。正式关系为作品`created_by` Leoni及`held_by` DIA，分别绑定馆方署名、DBI和Zeri归属记录，以及1941年购藏证据。当前保管不延伸为法律所有权。相应人物作品反向展示和关系索引由闭包生成。
+
+该作品为从专业传记补足发现的外部对象，不是Haskell第一章中明列的作品；不伪记书内页码或原书作品断言。原章图版已列的Leoni两件作品保持原样。现阶段只补这一件有明确实物锚点的作品，DBI对Leoni其他项目、Maggiotto肖像组、Testa及de Matteis作品提及仍需逐项核对后再决定是否建立KU。9项原有暂缓对象维持待证。本轮不启动知识发现、网页呈现或独立人工校验。
+## REV-127｜Ottavio Leoni格列高利十五世肖像版本与Virtuosi学院端点（2026-09-25）
+
+针对Leoni人物卡已记载“1621年加入万神殿Virtuosi团体、为Gregory XV画像后获骑士称号”，但缺少具名机构、肖像KU与正式关系的问题，完整阅读Sapienza的Treccani DBI “Leoni, Ottavio”条目相关全文（lines 25–66），定向采用第48行；并核读Pontificia Accademia dei Virtuosi al Pantheon官网“Storia”开篇及其“Ritratto di Gregorio XV”馆藏页。该传记明确区分约1621年Leoni绘制、现已佚失的原作，与同一画家于1628年受学院委托在画布上绘制、当时仍在原处的复制品。学院官方收藏页将Leoni列为作者、题名为“Ritratto di Gregorio XV”、年代著录为1628–1630年。来源对复制品时间精度不同，分别保留，不以官网区间覆盖传记的1628年，也不将两件实物合为一件。
+
+新建[万神殿Virtuosi学院KU](../../../04-knowledge/units/institutions/accademia-dei-virtuosi-al-pantheon.md)、[约1621年已佚原作KU](../../../04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md)及[学院委托的布面复制品KU](../../../04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md)。学院的基本沿革使用其官方历史页；Wikidata Q610627与英文页面revision 1374355725双向对应，意大利语页面的pageprops及itwiki sitelink也双向回链Q610627。英文页已全文阅读，身份以外的学院内容不依赖其陈旧叙述。具体作品英语、意大利语独立Wikipedia条目及Wikidata对象查询均未找到可核实的同粒度项，因此两件作品均记unpaired，不借用机构QID。
+
+正式关系依据分别登记：Leoni `member_of`该学院（自1621年起，DBI lines 48）；原作`created_by` Leoni、`has_subject` Gregory XV；复制品`created_by` Leoni、`has_subject` Gregory XV、`commissioned_by`与`held_by`学院，并`variant_of`原作。委托关系指后续复制品，不套到原作；馆藏不等于产权。DBI另提及一张英国博物馆1621年图纸作为佚失原作的记忆，但此轮未定位该图纸的确切馆藏对象号，故不建立额外作品端点或图纸关系，保留为可追查线索。
+
+本批净增3个KU、8条显式关系及3条对齐记录。对齐快照由330条记录／322个对象更新为333条／325个对象；184个对象有英／意Wikipedia—Wikidata配对记录，132个对象已有不配对或排除等结论，原9个待证对象保持不变（5个身份候选、4个版本冲突）。
+
+## REV-128｜Ottavio Leoni《希皮奥内·博尔盖塞枢机肖像》Ajaccio版本补足（2026-09-25）
+
+针对Leoni人物卡所列作品与关系继续补充一件有明确馆藏号的画布。核读Musée Fesch官方对象页，记录Ottavio Leoni、题名“Portrait du cardinal Scipione Borghese”、MFA 852.1.265、布面油画及尺寸110 × 84 cm，并载cardinal Fesch旧藏、1839年遗赠Ajaccio市及1842年交易后的流传。Fondazione Federico Zeri目录条目47715／照片卡49711以Musée Fesch、Ajaccio和库存号852-1-265交叉标识同一对象，但尺寸为120 × 92 cm、年代跨度1598–1630；本卡并列馆方与目录数据，不擅自解释尺寸差异。Treccani DBI lines 40–42将1609–1610年的Scipione Borghese肖像两版本分别定位Ajaccio Musée Fesch和Biblioteca Apostolica Vaticana，因此此馆藏画布可与传记所列Ajaccio版本对应；梵蒂冈版本尚无可定位的馆藏对象号，本轮不新建第二卡。
+
+另核读Louvre INV 3311 recto：Leoni于1617年在蓝纸上以黑粉笔、白色提亮所作Scipion Borghèse枢机肖像，是与Fesch油画不同媒材和馆藏号的另一件作品，不作版本合并。Fesch馆藏页以题名明确被描绘者，故新增作品`has_subject`端点Scipione Borghese；按馆方作者信息建立`created_by` Ottavio Leoni及`held_by` Musée Fesch关系。保管关系不扩大为产权。
+
+Musée Fesch机构身份以英文Wikipedia页面pageprops及Wikidata Q2483597的enwiki sitelink双向对应，并以法文页面pageprops及frwiki sitelink作第二语种复核；Wikipedia仅用于机构身份，不把百科信息转作机构史事实。法国文化部POP M0324与博物馆官网记录名称、所在地和对象馆藏。该机构与本章作品相关，新增机构KU并完成配对；Fesch油画本身没有发现同粒度Wikipedia或Wikidata条目，按馆藏号与Zeri目录识别并记unpaired。
+
+本批新增2个KU、3条正式有向关系、2条对齐记录；对齐覆盖由333条／325个对象更新为335条／327个对象。当前身份状态为185个配对、133个已处置未配对／排除对象及9个待证对象；9项待证保持原状。页面不引用Q2483597作为画作标识，也不把Louvre作品或梵蒂冈版本并入本卡。后续仍需继续检查Leoni传记及人物卡其他具名作品，不能据单件补足视为Leoni作品关系链已完整。

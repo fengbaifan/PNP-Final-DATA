@@ -1540,7 +1540,7 @@ def relation_health_check(base: Path) -> dict:
             1
             for r in relations
             if r.get("confidence") in ("low", "medium")
-            and not r.get("evidence")
+            and not (r.get("evidence") or r.get("evidence_ref") or r.get("claim_id"))
             and r.get("relation_type") not in broad_weak_types
         )
         return {

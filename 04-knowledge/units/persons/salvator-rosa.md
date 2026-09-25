@@ -332,6 +332,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | → 采用程序（`uses_procedure`） | [展览售画与自我宣传（Exhibiting paintings and self-promotion）](../procedures/exhibition-self-promotion.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 917–926; print pp. 22 |
 | ← 所创作对象（`creator_of`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](../works/rosa-regulus-study-princeton.md) | 时间：约1652；角色：素描作者；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Maker、Dates |
 | ← 所创作对象（`creator_of`，反向投影） | [雷古鲁斯之死（The Death of Regulus）](../works/salvator-rosa-the-death-of-regulus.md) | 时间：本书所述时点；角色：画家；范围：本书图版23b油画；区别普林斯顿准备稿；原断言与证据见发出端卡片“雷古鲁斯之死（The Death of Regulus）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
+| ← 所创作对象（`creator_of`，反向投影） | [与少女嬉戏的萨提尔（Satyrs Carousing with Maidens）](../works/salvator-rosa-satyrs-carousing-with-maidens.md) | 1916年刊本脚注称附笺由Rosa制作；候选画布同一性限制见发出端：[来源](../works/salvator-rosa-satyrs-carousing-with-maidens.md)；S2 p.169 |
 
 ### 身份与外部链接
 

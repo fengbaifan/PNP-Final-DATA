@@ -84,7 +84,7 @@ def relation_index_summary(relations: list[dict[str, Any]]) -> dict[str, Any]:
         row
         for row in relations
         if row.get("confidence") in {"low", "medium"}
-        and not row.get("evidence")
+        and not (row.get("evidence") or row.get("evidence_ref") or row.get("claim_id"))
         and row.get("relation_type") not in IGNORED_WEAK_TYPES
     ]
     weak_inference = [row for row in relations if row.get("review_status") == "weak_inference"]

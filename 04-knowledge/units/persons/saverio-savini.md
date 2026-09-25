@@ -21,6 +21,9 @@ sources:
 - citation: "Paolo Salciarini, with Anna Radicchi, Guida alla Basilica: Santuario di Sant'Ubaldo, 4th reprint (February 2015), pp. 20–21. https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf Accessed 2026-09-11."
   location: "PDF第20–21页，II Quadro，文本行511–542；题名与责任者见PDF第1页"
   sentence_summary: "将Pala del Voto归于Salvio Savini，记1608年3月25日委托、画家居Città della Pieve及1610年交付。"
+  original_quotes:
+  - source_span: "PDF p.20, printed p.21, II Quadro"
+    text: "Il quadro venne allogato al pittore fiorentino Salvio Savini"
 - citation: "Ministero per i beni e le attività culturali, Soprintendenza archivistica per l'Umbria, 'Decorazione,' I della Corgna: da Guido a Fulvio II, last modified 13 July 2017. https://www.movio.beniculturali.it/asperugia/dellacorgna/it/47/decorazione Accessed 2026-09-11."
   location: "Decorazione正文；签名、作品、年份和服务关系段"
   sentence_summary: "记Salvio Savini于1581年签署Villa del Colle del Cardinale的修辞学壁画，并常为della Corgna家族服务。"
@@ -53,11 +56,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 1608-03-25 | 在 Federico Barocci 因健康原因退出后，接受古比奥共同体的还愿祭坛画委托 | Gubbio；Sant'Ubaldo圣所 | S2 |
 | 1610 | 交付又称 Pala del Voto 的祭坛画 | Gubbio | S2 |
 
-### 作品与研究线索
+### 作品
 
-Pala del Voto 为布面油画，画面上部是圣母子与施洗者约翰、圣乌巴尔多，下部表现信使向古比奥人宣布 Federico Ubaldo Della Rovere 出生；指南还记录作品后来的保存问题。这里登记已读指南的对象信息，不等于核验实物、原合同或全部修复档案。（S2）
-
-第一章只引用1608年委托条款，没有给出作品题名。外部对象信息补足了该合同所指作品，但不把指南的所有图像解释倒推为 Haskell 正文结论。（S1–2）
+| 作品 | 角色与时间 | 依据 |
+|---|---|---|
+| [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 创作者；1608年委托，1610年交付 | S2；关系与证据见作品卡 |
 
 ## 关系与证据
 
@@ -65,3 +68,4 @@ Pala del Voto 为布面油画，画面上部是圣母子与施洗者约翰、圣
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）](../archives/savini-gubbio-terms-1608.md) | 条款所约束画家为 Savini，不借其他实例补全文本；时间：1608；角色：受条款约束的画家；范围：Gubbio委托条款；原断言与证据见发出端卡片“萨维尼在古比奥的委托条款刊录（1608）（Published Terms for Savini's Gubbio Commission (1608)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
+| ← 创作者（`creator_of`，反向投影） | [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 指南记载1608年3月25日受托、1610年交付；范围限古比奥祭坛画；原断言与证据见作品卡：[来源](https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf)；PDF p.20、印刷页21、II Quadro |

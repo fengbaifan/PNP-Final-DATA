@@ -1,5 +1,5 @@
 generated: '2026-09-25'
-total: 847
+total: 862
 index:
 - slug: persons/a-d-gabbiani
   type: persons
@@ -155,6 +155,12 @@ index:
   type: persons
   name_en: Angela Mizzina
   title: 安杰拉·米齐纳（Angela Mizzina）
+  name_original: ''
+  language_original: ''
+- slug: persons/angelica-galante
+  type: persons
+  name_en: '"Angelica Galante"'
+  title: '"安杰莉卡·加兰特（Angelica Galante）"'
   name_original: ''
   language_original: ''
 - slug: persons/ann-sutherland-harris
@@ -1507,6 +1513,12 @@ index:
   title: '"卢多维科·卢多维西（Ludovico Ludovisi）"'
   name_original: ''
   language_original: ''
+- slug: persons/luigi-bernini
+  type: persons
+  name_en: '"Luigi Bernini"'
+  title: '"路易吉·贝尔尼尼（Luigi Bernini）"'
+  name_original: ''
+  language_original: ''
 - slug: persons/maddalena-telli
   type: persons
   name_en: Maddalena Telli
@@ -1601,6 +1613,18 @@ index:
   type: persons
   name_en: Marco Ricci
   title: 马尔科·里奇（Marco Ricci）
+  name_original: ''
+  language_original: ''
+- slug: persons/maria-ruffo-guercino-commissioner
+  type: persons
+  name_en: '"D.a Maria Ruffo, commissioner of Guercino''s Saint Teresa altarpiece"'
+  title: '"玛丽亚·鲁福（圭尔奇诺祭坛画委托者）（D.a Maria Ruffo, Guercino altarpiece commissioner）"'
+  name_original: ''
+  language_original: ''
+- slug: persons/maria-teresa-ruffo-1688-altar-commissioner
+  type: persons
+  name_en: '"Maria Teresa Ruffo, commissioner of the 1688 San Gregorio altar"'
+  title: '"玛丽亚·特蕾莎·鲁福（圣额我略堂1688年祭坛委托者）（Maria Teresa Ruffo, commissioner of the 1688 San Gregorio altar）"'
   name_original: ''
   language_original: ''
 - slug: persons/mariangiola-de-matteis
@@ -1991,6 +2015,12 @@ index:
   type: persons
   name_en: Pietro Antonio Novelli
   title: 皮埃特罗·安东尼奥·诺韦利（Pietro Antonio Novelli）
+  name_original: ''
+  language_original: ''
+- slug: persons/pietro-bernini
+  type: persons
+  name_en: '"Pietro Bernini"'
+  title: '"彼得罗·贝尔尼尼（Pietro Bernini）"'
   name_original: ''
   language_original: ''
 - slug: persons/pietro-da-cortona
@@ -2651,6 +2681,12 @@ index:
   type: archives
   name_en: Pierre Legros and the role of Sculptors as Designers in late Baroque Rome
   title: 皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）
+  name_original: ''
+  language_original: ''
+- slug: archives/de-rosis-ruffo-letter-1663-06-02
+  type: archives
+  name_en: '"Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)"'
+  title: '"朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-06-02）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)）"'
   name_original: ''
   language_original: ''
 - slug: archives/de-rosis-ruffo-letter-1663
@@ -3865,10 +3901,34 @@ index:
   title: 布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）
   name_original: ''
   language_original: ''
+- slug: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy
+  type: works
+  name_en: Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630
+  title: 格列高利十五世肖像（万神殿Virtuosi学院本，1628–1630）（Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630）
+  name_original: ''
+  language_original: ''
+- slug: works/ottavio-leoni-portrait-of-gregory-xv-original-1621
+  type: works
+  name_en: Portrait of Gregory XV, lost original, c. 1621
+  title: 格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）
+  name_original: ''
+  language_original: ''
 - slug: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight
   type: works
   name_en: Portrait of Maddalena Telli by Candlelight
   title: 烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）
+  name_original: ''
+  language_original: ''
+- slug: works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio
+  type: works
+  name_en: Portrait of Cardinal Scipione Borghese (Musée Fesch version)
+  title: 希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）
+  name_original: ''
+  language_original: ''
+- slug: works/ottavio-leoni-susanna-and-the-elders-1620
+  type: works
+  name_en: Susanna and the Elders
+  title: 《苏珊娜与长老》（Susanna and the Elders）
   name_original: ''
   language_original: ''
 - slug: works/p-van-bleek-owen-mcswiny
@@ -4069,10 +4129,22 @@ index:
   title: '"萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）"'
   name_original: ''
   language_original: ''
+- slug: works/salvator-rosa-satyrs-carousing-with-maidens
+  type: works
+  name_en: '"Satyrs Carousing with Maidens"'
+  title: '"与少女嬉戏的萨提尔（Satyrs Carousing with Maidens）"'
+  name_original: ''
+  language_original: ''
 - slug: works/salvator-rosa-the-death-of-regulus
   type: works
   name_en: The Death of Regulus
   title: 雷古鲁斯之死（The Death of Regulus）
+  name_original: ''
+  language_original: ''
+- slug: works/salvio-savini-pala-del-voto
+  type: works
+  name_en: '"Pala del Voto"'
+  title: '"《还愿祭坛画》（Pala del Voto）"'
   name_original: ''
   language_original: ''
 - slug: works/sassoferrato-madonna-and-child
@@ -4277,6 +4349,12 @@ index:
   type: institutions
   name_en: Accademia degli Agiati
   title: 阿贾蒂学会（Accademia degli Agiati）
+  name_original: ''
+  language_original: ''
+- slug: institutions/accademia-dei-virtuosi-al-pantheon
+  type: institutions
+  name_en: Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon
+  title: 万神殿Virtuosi学院（Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon）
   name_original: ''
   language_original: ''
 - slug: institutions/accademia-di-san-luca
@@ -4561,6 +4639,12 @@ index:
   title: 柏林绘画馆（Gemäldegalerie Berlin）
   name_original: ''
   language_original: ''
+- slug: institutions/gubbio-civic-magistracy
+  type: institutions
+  name_en: '"Gubbio civic magistracy"'
+  title: '"古比奥市政共同体（Gubbio civic magistracy）"'
+  name_original: ''
+  language_original: ''
 - slug: institutions/gymnasium-zu-grauen-kloster
   type: institutions
   name_en: Berlinisches Gymnasium zum Grauen Kloster
@@ -4697,6 +4781,12 @@ index:
   type: institutions
   name_en: Musée Cognacq-Jay
   title: 科涅克—杰博物馆（Musée Cognacq-Jay）
+  name_original: ''
+  language_original: ''
+- slug: institutions/musee-fesch
+  type: institutions
+  name_en: Musée Fesch, Museum of Fine Arts of Ajaccio
+  title: 费施博物馆（Musée Fesch, Museum of Fine Arts of Ajaccio）
   name_original: ''
   language_original: ''
 - slug: institutions/musei-civici-veneziani

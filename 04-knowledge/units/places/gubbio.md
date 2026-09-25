@@ -59,7 +59,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 其所在城市（`location_of`，反向投影） | [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](basilica-di-sant-ubaldo.md) | 圣殿位于Gubbio城外的Ingino山；不表示行政归属或产权；来源见圣殿卡S3–S4。 |
 
 ### 身份与外部链接
 

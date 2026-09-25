@@ -18,6 +18,7 @@
 - [托马斯·科克致托马斯·霍华德，阿伦德尔伯爵信（1620年10月8日）（Letter from Thomas Coke to Thomas Howard, Earl of Arundel, 8 October 1620）](../../04-knowledge/units/archives/coke-arundell-letter-1620.md)
 - [科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）](../../04-knowledge/units/archives/colnaghi-catalogue-1961.md)
 - [皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）](../../04-knowledge/units/archives/conforti-legros-designers-1977.md)
+- [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-06-02）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)）](../../04-knowledge/units/archives/de-rosis-ruffo-letter-1663-06-02.md)
 - [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）](../../04-knowledge/units/archives/de-rosis-ruffo-letter-1663.md)
 - [意大利人传记辞典（Dizionario biografico degli Italiani）](../../04-knowledge/units/archives/dizionario-biografico-degli-italiani.md)
 - [奇罗·费里致安东尼奥·鲁福的信（1672-09-19）（Letter from Ciro Ferri to Antonio Ruffo (1672-09-19)）](../../04-knowledge/units/archives/ferri-ruffo-letter-1672.md)

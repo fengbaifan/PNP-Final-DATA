@@ -5,6 +5,7 @@
 - [奥古斯塔（西西里）（Augusta, Sicily）](../../04-knowledge/units/places/augusta-sicily.md)
 - [巴德明顿（Badminton）](../../04-knowledge/units/places/badminton.md)
 - [谷地圣安德烈堂巴贝里尼礼拜堂（Barberini Chapel）](../../04-knowledge/units/places/barberini-chapel-sant-andrea-valle.md)
+- [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](../../04-knowledge/units/places/basilica-di-sant-ubaldo.md)
 - [贝尔沃城堡（Belvoir Castle）](../../04-knowledge/units/places/belvoir-castle.md)
 - [柏林（Berlin）](../../04-knowledge/units/places/berlin.md)
 - [博洛尼亚（Bologna）](../../04-knowledge/units/places/bologna.md)

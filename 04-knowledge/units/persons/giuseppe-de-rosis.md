@@ -53,3 +53,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所著文献（`author_of`，反向投影） | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）](../archives/de-rosis-ruffo-letter-1663.md) | 书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-09-22）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-09-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
+| ← 所著文献（`author_of`，反向投影） | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-06-02）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)）](../archives/de-rosis-ruffo-letter-1663-06-02.md) | 1916年刊本署记Giuseppe de Rosis；原断言与限制见发出端：[来源](../archives/de-rosis-ruffo-letter-1663-06-02.md)；S3 pp.168–169 |

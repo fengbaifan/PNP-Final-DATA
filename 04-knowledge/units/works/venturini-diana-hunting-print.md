@@ -19,7 +19,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 relations:
   - relation_type: created_by
     target: persons/giovanni-francesco-venturini.md
-    evidence_ref: "https://id.rijksmuseum.nl/200266316; Creation: printmaker"
+    evidence_ref:
+      doc_id: rijksmuseum-RP-P-OB-38.357
+      source_file: https://id.rijksmuseum.nl/200266316
+      source_span: "Creation: printmaker"
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false
@@ -27,21 +30,30 @@ relations:
     time: 1660–约1710（馆藏目录断代）
   - relation_type: derived_from
     target: works/domenichino-hunt-of-diana.md
-    evidence_ref: "https://id.rijksmuseum.nl/200266316; Creation: after painting by Domenichino"
+    evidence_ref:
+      doc_id: rijksmuseum-RP-P-OB-38.357
+      source_file: https://id.rijksmuseum.nl/200266316
+      source_span: "Creation: after painting by Domenichino"
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false
     role: 原画图像来源；版画与油画为不同作品对象
   - relation_type: dedicated_to
     target: persons/giacomo-rospigliosi.md
-    evidence_ref: "https://id.rijksmuseum.nl/200266316; dedication field and inscription"
+    evidence_ref:
+      doc_id: rijksmuseum-RP-P-OB-38.357
+      source_file: https://id.rijksmuseum.nl/200266316
+      source_span: "dedication field and inscription"
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false
     role: 题献对象
   - relation_type: dedicated_by
     target: persons/lorenzo-paribeni.md
-    evidence_ref: "https://id.rijksmuseum.nl/200266316; dedication field and inscription"
+    evidence_ref:
+      doc_id: rijksmuseum-RP-P-OB-38.357
+      source_file: https://id.rijksmuseum.nl/200266316
+      source_span: "dedication field and inscription"
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false

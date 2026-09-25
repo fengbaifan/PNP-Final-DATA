@@ -163,7 +163,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 **中文：** 本章讨论 Bernini 的权威、社会尊重和收入，明确区分其职业地位与 Michelangelo 的神秘光环。Thomas Baker 胸像的 6000 scudi 是异常高价；另记 Borghese 肖像与 Fabbrica 薪俸。
 
-Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件。父亲和兄弟在家族传承段落未具名，不凭常识补写。
+Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件。
 
 **English:** Haskell distinguishes Bernini's authority and social respect from Michelangelo's mystique. Baker's 6,000-scudi bust was exceptional; the Borghese head and Fabbrica salary are separate records. The Barberini mirror story may recycle a motif; unnamed father and brother are not supplied from general knowledge.
 
@@ -187,7 +187,8 @@ Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件�
 | 去世地 | 罗马 | Wikidata P20；有参考 |
 | 国籍／公民身份 | 意大利 | Wikidata P27；有参考 |
 | 身份／职业标签 | 雕塑家；艺术家；畫家；建筑师；建筑绘图员；設計師 | Wikidata P106；有参考 |
-| 父亲 | 彼得·貝尼尼 | Wikidata P22；有参考 |
+| 父亲 | [彼得罗·贝尔尼尼（Pietro Bernini）](pietro-bernini.md) | Wikidata P22；Treccani DBI父子记载，见Pietro卡S2 |
+| 母亲 | [安杰莉卡·加兰特（Angelica Galante）](angelica-galante.md) | Treccani DBI称其为母亲，见Angelica卡S2 |
 | 配偶 | Caterina Tezio | Wikidata P26；未列参考 |
 | 子女 | 多梅尼科·贝尼尼 | Wikidata P40；未列参考 |
 | 代表作 | 巴贝里尼宫；聖伯多祿廣場；圣女大德兰的神魂超拔；Bust of Costanza Bonarelli；奎琳岗圣安德肋堂；四河喷泉；Portrait of Louis XIV of France；Neptune and Dolphin | Wikidata P800；有参考；未列参考 |
@@ -213,6 +214,12 @@ Cardinal Barberini 举镜的故事有母题重写风险，不列为确定事件�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
+| → 为其父（`child_of`，反向投影） | [彼得罗·贝尔尼尼（Pietro Bernini）](pietro-bernini.md) | 外部专业传记明确父子关系；原书第21页未具名；证据见Pietro卡S2，Treccani DBI lines 29–30 |
+| → 为其母（`child_of`，反向投影） | [安杰莉卡·加兰特（Angelica Galante）](angelica-galante.md) | Treccani DBI明确列为其母；证据见Angelica卡S2，line 29 |
+| ↔ 兄弟（`sibling_of`，反向投影） | [路易吉·贝尔尼尼（Luigi Bernini）](luigi-bernini.md) | Treccani DBI称Luigi为Gian Lorenzo的弟弟；证据见Luigi卡S1，line 28 |
+| ← 教师（`teacher_of`，反向投影） | [路易吉·贝尔尼尼（Luigi Bernini）](luigi-bernini.md) | Treccani DBI称Luigi为其学生；具体师承起始年份未载；证据见Luigi卡S1，line 28 |
+| ↔ 合作（`collaborated_with`，反向投影） | [路易吉·贝尔尼尼（Luigi Bernini）](luigi-bernini.md) | 圣彼得华盖、1626–1628年Sant’Agostino天使像及1665年代行建筑工程；角色与范围见Luigi卡S1，lines 28–32 |
+| ↔ 合作（`collaborated_with`，反向投影） | [彼得罗·贝尔尼尼（Pietro Bernini）](pietro-bernini.md) | Villa Borghese装饰雕塑（1616–1617年前后）及圣彼得华盖（晚年）；证据见Pietro卡S1，lines 38–40 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
 | ← 合作（`collaborated_with`，反向投影） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](guglielmo-cortese.md) | 传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同；角色：画家／项目合作者；范围：传记明确列出的工程；逐作责任仍保留；原断言与证据见发出端卡片“古列尔莫·科尔泰塞（Guglielmo Cortese）”：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；Bernini合作项目段 |
 | ← 合作（`collaborated_with`，反向投影） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](guido-abbatini.md) | 时间：乌尔班八世任期早年起；角色：装饰工程合作者；范围：辞典所载多项装饰工程合作；原断言与证据见发出端卡片“圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）”：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |

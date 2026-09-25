@@ -580,3 +580,7 @@ National Gallery来源将Villa Loredan明确称为John Strange在Paese的乡间�
 ## REV-093执行接续：作品题献关系类型（2026-09-25）
 
 博尔盖塞美术馆与Rijksmuseum、马德里圣费尔南多皇家美术学院的馆藏记录明确记载《狄安娜狩猎》版画题献给枢机Giacomo Rospigliosi、由Lorenzo Paribeni题献。现有词表没有区分受题献者与题献者的关系类型，故在唯一受控词表加入`dedicated_to`／`dedication_recipient_of`及`dedicated_by`／`dedicator_of`两组方向对应，并在关系契约说明其适用证据及与创作、委托、赞助的边界。此更改服务于当前有据作品实例，不预设其他对象均须有题献关系。此变更后的全库关系类型映射、索引、反向阅读入口通过闭包；16步同步检查及274项测试通过，relation consistency断端点、非法类型、缺inverse、弱证据均为0。本轮总体内容质量扫描保留1项既有标题格式问题，见Montaiglon文献卡；与本变更无关。
+
+## REV-094：关系证据摘要统计修正（2026-09-25）
+
+关系契约允许 `evidence`、`evidence_ref` 或 `claim_id` 作为直接证据，但关系审查摘要与仓库健康检查只检查 `evidence` 文本，导致已有 `evidence_ref` 的 1,212 条正式关系被误计为弱证据。两处统计现已统一检查三种契约字段；摘要对当前 1,213 条关系显示弱证据 0，`audit_relation_consistency.py` 也显示弱证据 0、断端点 0、非法类型 0、缺反向映射 0。为摘要函数加入回归测试，覆盖 evidence_ref、claim_id 与真正缺证三种情况。此修正只校正诊断口径，不改变任何知识事实或正式关系。

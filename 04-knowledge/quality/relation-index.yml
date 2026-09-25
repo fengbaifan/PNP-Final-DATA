@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1194
-# sources: {'explicit': 1193, 'inferred_by_rule': 1}
+# total: 1227
+# sources: {'explicit': 1226, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-bettagno.md
   source_type: person
@@ -346,6 +346,64 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/angelica-galante.md
+  source_type: person
+  target: persons/pietro-bernini.md
+  target_type: person
+  relation_type: spouse_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-pietro-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/pietro-bernini_(Dizionario-Biografico)/
+    source_span: 'line 33: Pietro于1594年与妻子Angelica返回佛罗伦萨'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1594年时已为夫妻；结婚年份未载
+  role: 妻子
+  scope: Pietro Bernini与Angelica Galante的婚姻
+- source: persons/angelica-galante.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-gian-lorenzo-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/gian-lorenzo-bernini_(Dizionario-Biografico)/
+    source_span: 'line 29: ‘di Angelica Galante’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 母亲
+  scope: Gian Lorenzo Bernini的母亲
+- source: persons/angelica-galante.md
+  source_type: person
+  target: persons/luigi-bernini.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-luigi-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/
+    source_span: 'line 28: ‘Figlio di Pietro e di Angelica Galante’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 母亲
+  scope: Luigi Bernini的母亲
 - source: persons/ann-sutherland-harris.md
   source_type: person
   target: institutions/courtauld-institute-of-art.md
@@ -3849,6 +3907,64 @@
   time: '1621'
   role: Vatican architect任命者
   scope: 教皇侄辈Ludovico作出的任命
+- source: persons/luigi-bernini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: sibling_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-luigi-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/
+    source_span: 'line 28: ‘fratello minore di Gian Lorenzo’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 弟弟
+  scope: Gian Lorenzo Bernini的弟弟
+- source: persons/luigi-bernini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: trained_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-luigi-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/
+    source_span: 'line 28: ‘Scolaro di Gian Lorenzo’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 学生；工作室助手
+  scope: 家族艺术传承与职业训练；具体入门年份未载
+- source: persons/luigi-bernini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-luigi-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/
+    source_span: 'lines 28–32: 圣彼得华盖、1626–1628年Sant’Agostino天使像，以及1665年代行建筑工程'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1620年代至1665年；单项工程日期见scope
+  role: 工作室助手、工程合作者及代行者
+  scope: 圣彼得大教堂华盖（1620年代，具体起始年份未载）；Sant’Agostino主祭坛一尊天使像（1626–1628）；Bernini赴法期间代行圣彼得大教堂与Palazzo Chigi建筑工程（1665）
 - source: persons/marcantonio-hercolani-1709.md
   source_type: person
   target: persons/filippo-hercolani-1736.md
@@ -4848,6 +4964,26 @@
   review_status: evidence_backed_relation
   role: 家族肖像与壁画服务
   scope: 1617–1618
+- source: persons/ottavio-leoni.md
+  source_type: person
+  target: institutions/accademia-dei-virtuosi-al-pantheon.md
+  target_type: institution
+  relation_type: member_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1621年起
+  role: sodale（团体成员）
+  scope: Treccani称Leoni自1621年起为该团体成员；不扩展为未载任期或学院职务
 - source: persons/paolo-borghese.md
   source_type: person
   target: families/borghese-family.md
@@ -5321,6 +5457,63 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: persons/pietro-bernini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-gian-lorenzo-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/gian-lorenzo-bernini_(Dizionario-Biografico)/
+    source_span: 'lines 29–30: ‘Figlio dello scultore fiorentino Pietro’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: Gian Lorenzo Bernini的父亲
+- source: persons/pietro-bernini.md
+  source_type: person
+  target: persons/luigi-bernini.md
+  target_type: person
+  relation_type: parent_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-luigi-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/
+    source_span: 'line 28: ‘Figlio di Pietro’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 父亲
+  scope: Luigi Bernini的父亲
+- source: persons/pietro-bernini.md
+  source_type: person
+  target: persons/gian-lorenzo-bernini.md
+  target_type: person
+  relation_type: collaborated_with
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: treccani-dbi-pietro-bernini-1967
+    source_file: https://www.treccani.it/enciclopedia/pietro-bernini_(Dizionario-Biografico)/
+    source_span: 'lines 38–40: Villa Borghese装饰雕塑及圣彼得大教堂华盖工程'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 合作雕塑家
+  scope: Villa Borghese装饰雕塑（1616–1617前后）；圣彼得大教堂华盖（晚年，确切年份未载）
 - source: persons/pietro-da-cortona.md
   source_type: person
   target: institutions/accademia-di-san-luca.md
@@ -6796,6 +6989,25 @@
   time: 1961起
   role: 伦敦分部
   scope: 1961年设伦敦分部；不是纽黑文总部搬迁至伦敦
+- source: places/basilica-di-sant-ubaldo.md
+  source_type: place
+  target: places/gubbio.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: itwiki-basilica-di-santubaldo-rev-150331520
+    source_file: https://it.wikipedia.org/wiki/Basilica_di_Sant'Ubaldo
+    source_span: 'lead: located at Gubbio, on Monte Ingino'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: basilica location
+  scope: The basilica is located at Gubbio; this does not assert historical jurisdiction or ownership.
 - source: places/cerasi-chapel.md
   source_type: place
   target: places/santa-maria-del-popolo.md
@@ -6831,6 +7043,26 @@
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+- source: places/chiesa-san-gregorio-cappella-madonna-carmine.md
+  source_type: place
+  target: persons/maria-teresa-ruffo-1688-altar-commissioner.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: 建筑史研究记Maria Teresa Ruffo于1688年委托建造小堂内的大理石祭坛，以安置Guercino1665年画作；此边只指祭坛建造，不表示她委托该画作。
+  evidence: ''
+  evidence_ref:
+    doc_id: lenzo-2005-san-gregorio
+    source_file: https://dialnet.unirioja.es/descarga/articolo/3669368.pdf
+    source_span: 印刷页32；右侧横翼北墙；加尔默罗圣母祭坛及其所安置画作
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1688
+  role: 祭坛建造委托者
+  scope: 圣额我略堂加尔默罗圣母小堂内的大理石祭坛；不指1665年画作的委托关系
 - source: places/chiesa-san-gregorio-cappella-madonna-carmine.md
   source_type: place
   target: places/chiesa-san-gregorio-messina.md
@@ -7097,7 +7329,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection
+  evidence_ref:
+    doc_id: regione-lazio-ville-tuscolane
+    source_file: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf
+    source_span: Villa Aldobrandini subsection
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -7113,7 +7348,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection
+  evidence_ref:
+    doc_id: regione-lazio-ville-tuscolane
+    source_file: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf
+    source_span: Villa Aldobrandini subsection
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -14280,6 +14518,26 @@
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
 - source: works/guercino-sicilian-altarpiece-1665.md
   source_type: work
+  target: persons/maria-ruffo-guercino-commissioner.md
+  target_type: person
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: Vincenzo Ruffo据刊载的往来书信认定订画者为Don Antonio的侄女D.a Maria Ruffo，且为修女；不将其确定等同于Duchess of Sora或Suor Illuminata。
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-guercino-saint-teresa-commission
+    source_file: https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf
+    source_span: 印刷页110；1664-04-08书信及编辑注释；Internet Archive OCR lines 7976–8023、8073–8092
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 不晚于1664-04-08已进入委托协商；决定日未载
+  role: 委托者
+  scope: 为Messina圣额我略修院订制该祭坛画；不据此确认委托修院的法人规范名
+- source: works/guercino-sicilian-altarpiece-1665.md
+  source_type: work
   target: places/chiesa-san-gregorio-messina.md
   target_type: place
   relation_type: located_at
@@ -14303,19 +14561,20 @@
   target_type: place
   relation_type: installed_at
   inverse_relation_type: null
-  note: 意大利语教堂条目将画作记在加尔默罗圣母小堂祭坛龛位；该记载支持具体历史陈列空间，但不提供安装日期或连续陈列时段。
+  note: 建筑史研究记载1688年建造的加尔默罗圣母祭坛用于安置这幅1665年画作；确切安装日及连续陈列时段未载。
   evidence: ''
   evidence_ref:
-    doc_id: chiesa-san-gregorio-messina-wikipedia-it
-    source_file: https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina)
-    source_span: Interno；L169–170；页面版本150392543
+    doc_id: lenzo-2005-san-gregorio
+    source_file: https://dialnet.unirioja.es/descarga/articulo/3669368.pdf
+    source_span: 印刷页32；右侧横翼北墙；1688年建造祭坛以安置1665年Guercino画作
   claim_id: null
   confidence: medium
   relation_source: explicit
   bidirectional_required: false
   review_status: evidence_backed_relation
+  time: 1688年建造专设祭坛；具体安置日未载
   role: 历史安置位置
-  scope: 加尔默罗圣母祭坛的龛位；安置日期未载
+  scope: 加尔默罗圣母小堂的祭坛龛位；不是委托修院法人或原委托地点
 - source: works/guglielmo-baur-view-of-villa-borghese-in-1630.md
   source_type: work
   target: persons/guglielmo-baur.md
@@ -16010,6 +16269,146 @@
   review_status: evidence_backed_relation
   role: 肖像对象
   scope: 图版17c标题
+- source: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1628年（DBI）；馆方著录1628–1630年
+  role: 创作者
+  scope: 学院委托的布面复制品；不与约1621年已佚原作合并
+- source: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md
+  source_type: work
+  target: persons/gregory-xv.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1628年（DBI）；馆方著录1628–1630年
+  role: 肖像对象
+  scope: 学院委托的布面复制品；描绘Gregory XV Ludovisi
+- source: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md
+  source_type: work
+  target: institutions/accademia-dei-virtuosi-al-pantheon.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1628年绘制；独立委托日期未载
+  role: 委托机构
+  scope: 仅指该布面复制品，不指约1621年佚失原作
+- source: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md
+  source_type: work
+  target: institutions/accademia-dei-virtuosi-al-pantheon.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: accademia-virtuosi-portrait-gregory-xv-134
+    source_file: https://www.accademiavirtuosi.it/collezione/opera?id=134
+    source_span: Collezione / Dipinti；official address；并参DBI line 48 “ancora in loco”
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 官方馆藏页访问日期2026-09-25；DBI称仍在原处
+  role: 收藏与保管机构
+  scope: 收藏／保管不自动表示产权
+- source: works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md
+  source_type: work
+  target: works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md
+  target_type: work
+  relation_type: variant_of
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1628年复制；原作约1621年
+  role: 同一肖像的后续布面复制品
+  scope: 独立实物与年代，不共享同一作品身份
+- source: works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1621年
+  role: 创作者
+  scope: 约1621年绘制的原作；与学院委托的后续布面复制品分开
+- source: works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md
+  source_type: work
+  target: persons/gregory-xv.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005
+    source_file: https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/
+    source_span: lines 48–48
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1621年
+  role: 肖像对象
+  scope: 教皇Gregory XV Ludovisi；原作已佚
 - source: works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md
   source_type: work
   target: persons/ottavio-leoni.md
@@ -16070,6 +16469,105 @@
   time: 1952年入藏；馆藏记录访问于2026-09-25
   role: 当前保管机构
   scope: 馆藏记录所列对象52.195；不据此断言当前法律所有权
+- source: works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: musee-fesch-cardinal-scipione-borghese
+    source_file: https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250
+    source_span: lines 190–199
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: Treccani记1609–1610；Zeri目录跨度1598–1630
+  role: 馆方列明的创作者；DBI按两版本叙述
+  scope: Musée Fesch馆藏油画，MFA 852.1.265；与Louvre 1617年纸本素描分立
+- source: works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md
+  source_type: work
+  target: persons/cardinal-borghese-ch1.md
+  target_type: person
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: musee-fesch-cardinal-scipione-borghese
+    source_file: https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250
+    source_span: lines 190–199
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  role: 肖像所表现的人物
+  scope: 题名与馆藏对象MFA 852.1.265
+- source: works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md
+  source_type: work
+  target: institutions/musee-fesch.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: musee-fesch-cardinal-scipione-borghese
+    source_file: https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250
+    source_span: lines 197–206
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 来源访问日2026-09-25
+  role: 当前保管机构
+  scope: Musée Fesch当前馆藏记录；保管不自动等于法律产权
+- source: works/ottavio-leoni-susanna-and-the-elders-1620.md
+  source_type: work
+  target: persons/ottavio-leoni.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: dia-susanna-and-the-elders-41-89
+    source_file: https://dia.org/collection/susanna-and-elders/52211
+    source_span: Artist、Markings；对象41.89
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 约1616–1620；DIA标约1620，Zeri目录另标约1610–1615
+  role: 馆藏记录列明的创作者；Zeri以签名为归属依据
+  scope: Detroit Institute of Arts对象41.89；保留Zeri所载文献归属史
+- source: works/ottavio-leoni-susanna-and-the-elders-1620.md
+  source_type: work
+  target: institutions/detroit-institute-of-arts.md
+  target_type: institution
+  relation_type: held_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: dia-susanna-and-the-elders-41-89
+    source_file: https://dia.org/collection/susanna-and-elders/52211
+    source_span: Accession Number、Provenance；对象41.89
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 1941年至馆藏记录访问日（2026-09-25）
+  role: 当前保管机构
+  scope: 1941年由Detroit Institute of Arts购入并列为馆藏；此边记录保管，不延伸到更早产权
 - source: works/p-van-bleek-owen-mcswiny.md
   source_type: work
   target: persons/p-van-bleek.md
@@ -18186,6 +18684,46 @@
   time: 1961-05–1961-06
   role: 画商／目录经手机构
   scope: Colnaghi目录第2号所涉经手记录
+- source: works/salvator-rosa-satyrs-carousing-with-maidens.md
+  source_type: work
+  target: persons/salvator-rosa.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-galleria-ruffo
+    source_file: https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt
+    source_span: printed p. 169, footnote (1) identifies the attached note as made by Salvator Rosa; the note describes this painting
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: known by the attached sale note of 1663-06-02; no exact execution date established
+  role: painter named in the attached note; the lot catalogue also reports a strengthened signature ‘Rosa’
+  scope: painting described in the sale note; relationship to the surviving auction canvas remains a candidate match
+- source: works/salvator-rosa-satyrs-carousing-with-maidens.md
+  source_type: work
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: acquired_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-galleria-ruffo
+    source_file: https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt
+    source_span: 'printed p. 169, footnote (2): this painting was bought by Don Antonio Ruffo and listed as ‘Due Satiri e tre Ninfe che scherzano’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: date not stated; the 1916 footnote annotates the 1663-06-02 sale list
+  role: buyer
+  scope: painting described in Rosa's attached 1663 sales note; later inventory identification does not by itself identify the surviving Bonhams lot 26 canvas
 - source: works/salvator-rosa-the-death-of-regulus.md
   source_type: work
   target: persons/salvator-rosa.md
@@ -18226,6 +18764,66 @@
   time: 本书所述时点
   role: 书中保管机构
   scope: 本书图版23b油画；区别普林斯顿准备稿
+- source: works/salvio-savini-pala-del-voto.md
+  source_type: work
+  target: persons/saverio-savini.md
+  target_type: person
+  relation_type: created_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: santubaldo-basilica-guide-2015
+    source_file: https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf
+    source_span: 'PDF p.20, printed p.21, II Quadro: ‘allogato al pittore fiorentino Salvio Savini’; delivered 1610'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: commissioned 1608-03-25; delivered 1610
+  role: painter
+  scope: Pala del Voto, the Gubbio community's votive altarpiece; not the 1605 birth event depicted
+- source: works/salvio-savini-pala-del-voto.md
+  source_type: work
+  target: institutions/gubbio-civic-magistracy.md
+  target_type: institution
+  relation_type: commissioned_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: santubaldo-basilica-guide-2015
+    source_file: https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf
+    source_span: 'PDF p.20, printed p.21, II Quadro: ‘commissioned for the altar the community had vowed to its patron’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: commissioned 1608-03-25
+  role: collective commissioner
+  scope: The community's vowed altar and the painting commissioned for it; the 1606 Barocci proposal is earlier context, not the Savini commission record.
+- source: works/salvio-savini-pala-del-voto.md
+  source_type: work
+  target: places/basilica-di-sant-ubaldo.md
+  target_type: place
+  relation_type: located_at
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: santubaldo-basilica-leaflet-2022
+    source_file: https://www.eugubininelmondo.com/public/Bollettino_S.Ubaldo_giu_2022.pdf
+    source_span: 'interior guide, panel for the five naves: ‘Pala del Voto, nella cappella votiva’'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: 2022 leaflet's stated location
+  role: displayed within the votive chapel
+  scope: The guide locates the painting in Cappella del Voto; this does not establish its original installation date or ownership.
 - source: works/sassoferrato-madonna-and-child.md
   source_type: work
   target: persons/sassoferrato.md
@@ -19947,7 +20545,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: 'https://id.rijksmuseum.nl/200266316; Creation: printmaker'
+  evidence_ref:
+    doc_id: rijksmuseum-RP-P-OB-38.357
+    source_file: https://id.rijksmuseum.nl/200266316
+    source_span: 'Creation: printmaker'
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -19963,7 +20564,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: 'https://id.rijksmuseum.nl/200266316; Creation: after painting by Domenichino'
+  evidence_ref:
+    doc_id: rijksmuseum-RP-P-OB-38.357
+    source_file: https://id.rijksmuseum.nl/200266316
+    source_span: 'Creation: after painting by Domenichino'
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -19978,7 +20582,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: https://id.rijksmuseum.nl/200266316; dedication field and inscription
+  evidence_ref:
+    doc_id: rijksmuseum-RP-P-OB-38.357
+    source_file: https://id.rijksmuseum.nl/200266316
+    source_span: dedication field and inscription
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -19993,7 +20600,10 @@
   inverse_relation_type: null
   note: ''
   evidence: ''
-  evidence_ref: https://id.rijksmuseum.nl/200266316; dedication field and inscription
+  evidence_ref:
+    doc_id: rijksmuseum-RP-P-OB-38.357
+    source_file: https://id.rijksmuseum.nl/200266316
+    source_span: dedication field and inscription
   claim_id: null
   confidence: medium
   relation_source: explicit
@@ -20509,6 +21119,66 @@
   time: 1977-08
   role: 刊载期刊
   scope: 1977年8月，119卷893期；正文页码另见本书书目
+- source: archives/de-rosis-ruffo-letter-1663-06-02.md
+  source_type: archive
+  target: persons/giuseppe-de-rosis.md
+  target_type: person
+  relation_type: authored_by
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-galleria-ruffo
+    source_file: https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt
+    source_span: printed pp. 168–169; closing, date Rome 2 June 1663 and signature Giuseppe de Rosis
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1663-06-02'
+  role: letter writer
+  scope: the letter carrying Rosa's attached sale note, as published in 1916; manuscript not located
+- source: archives/de-rosis-ruffo-letter-1663-06-02.md
+  source_type: archive
+  target: persons/antonio-ruffo.md
+  target_type: person
+  relation_type: addressed_to
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-galleria-ruffo
+    source_file: https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt
+    source_span: printed p. 169; addressee D. Antonio Ruffo following the dated and signed letter
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1663-06-02'
+  role: addressee
+  scope: the letter carrying Rosa's attached sale note; distinct from the 22 September 1663 letter cited by Haskell
+- source: archives/de-rosis-ruffo-letter-1663-06-02.md
+  source_type: archive
+  target: works/salvator-rosa-satyrs-carousing-with-maidens.md
+  target_type: work
+  relation_type: has_subject
+  inverse_relation_type: null
+  note: ''
+  evidence: ''
+  evidence_ref:
+    doc_id: ruffo-1916-galleria-ruffo
+    source_file: https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt
+    source_span: 'printed p. 169, sales note and footnotes (1)–(2): 5-by-5-palmi painting; Rosa-authored note; Ruffo purchase note'
+  claim_id: null
+  confidence: medium
+  relation_source: explicit
+  bidirectional_required: false
+  review_status: evidence_backed_relation
+  time: '1663-06-02'
+  role: painting described in the attached sale note
+  scope: does not establish that the note's painting is the same physical canvas later catalogued as Bonhams lot 26
 - source: archives/de-rosis-ruffo-letter-1663.md
   source_type: archive
   target: persons/giuseppe-de-rosis.md

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T07:37:02",
+  "timestamp": "2026-09-25T11:28:42",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_entry_exists": true,
@@ -10,7 +10,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 1003,
+    "total_units": 1019,
     "type_coverage": "9/9",
     "base_type_coverage": "9/9",
     "structure_node_coverage": "0/4",
@@ -26,23 +26,23 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 1003,
+    "total_units": 1019,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 1003,
+    "units_missing_any_assignment": 1019,
     "field_coverage": {
-      "primary_domain": "0/1003",
-      "primary_dimension": "0/1003",
-      "primary_theme": "0/1003",
-      "topic_memberships": "0/1003"
+      "primary_domain": "0/1019",
+      "primary_dimension": "0/1019",
+      "primary_theme": "0/1019",
+      "topic_memberships": "0/1019"
     }
   },
   "counts_by_type": {
-    "persons": 382,
+    "persons": 387,
     "families": 10,
-    "institutions": 137,
-    "places": 151,
-    "works": 212,
-    "archives": 60,
+    "institutions": 140,
+    "places": 152,
+    "works": 218,
+    "archives": 61,
     "terms": 34,
     "procedures": 10,
     "events": 7
@@ -81,6 +81,7 @@
       "04-knowledge/units/persons/andrea-sacchi.md",
       "04-knowledge/units/persons/angela-fedeli.md",
       "04-knowledge/units/persons/angela-mizzina.md",
+      "04-knowledge/units/persons/angelica-galante.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
       "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
@@ -301,6 +302,7 @@
       "04-knowledge/units/persons/lucrezia-orico.md",
       "04-knowledge/units/persons/ludovico-leoni.md",
       "04-knowledge/units/persons/ludovico-ludovisi.md",
+      "04-knowledge/units/persons/luigi-bernini.md",
       "04-knowledge/units/persons/maddalena-telli.md",
       "04-knowledge/units/persons/maffeo-pinelli.md",
       "04-knowledge/units/persons/marcantonio-hercolani-1709.md",
@@ -317,6 +319,8 @@
       "04-knowledge/units/persons/marco-foscarini.md",
       "04-knowledge/units/persons/marco-pitteri.md",
       "04-knowledge/units/persons/marco-ricci.md",
+      "04-knowledge/units/persons/maria-ruffo-guercino-commissioner.md",
+      "04-knowledge/units/persons/maria-teresa-ruffo-1688-altar-commissioner.md",
       "04-knowledge/units/persons/mariangiola-de-matteis.md",
       "04-knowledge/units/persons/marianne-roland-michel.md",
       "04-knowledge/units/persons/marie-louise-jay.md",
@@ -381,6 +385,7 @@
       "04-knowledge/units/persons/pieter-van-laer.md",
       "04-knowledge/units/persons/pietro-aldobrandini.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
+      "04-knowledge/units/persons/pietro-bernini.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
       "04-knowledge/units/persons/pietro-di-pietri.md",
       "04-knowledge/units/persons/pietro-mulier.md",
@@ -451,6 +456,7 @@
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/academie-francaise.md",
       "04-knowledge/units/institutions/accademia-degli-agiati.md",
+      "04-knowledge/units/institutions/accademia-dei-virtuosi-al-pantheon.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
       "04-knowledge/units/institutions/alte-pinakothek.md",
@@ -498,6 +504,7 @@
       "04-knowledge/units/institutions/galleria-spada.md",
       "04-knowledge/units/institutions/gallerie-ditalia.md",
       "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
+      "04-knowledge/units/institutions/gubbio-civic-magistracy.md",
       "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
       "04-knowledge/units/institutions/hazan.md",
       "04-knowledge/units/institutions/heritage-malta.md",
@@ -521,6 +528,7 @@
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
+      "04-knowledge/units/institutions/musee-fesch.md",
       "04-knowledge/units/institutions/musei-civici-veneziani.md",
       "04-knowledge/units/institutions/museo-correr.md",
       "04-knowledge/units/institutions/museo-del-prado.md",
@@ -590,6 +598,7 @@
       "04-knowledge/units/places/augusta-sicily.md",
       "04-knowledge/units/places/badminton.md",
       "04-knowledge/units/places/barberini-chapel-sant-andrea-valle.md",
+      "04-knowledge/units/places/basilica-di-sant-ubaldo.md",
       "04-knowledge/units/places/belvoir-castle.md",
       "04-knowledge/units/places/berlin.md",
       "04-knowledge/units/places/bologna.md",
@@ -887,7 +896,11 @@
       "04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md",
       "04-knowledge/units/works/ottavio-leoni-cardinal-francesco-barberini.md",
       "04-knowledge/units/works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md",
       "04-knowledge/units/works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md",
+      "04-knowledge/units/works/ottavio-leoni-susanna-and-the-elders-1620.md",
       "04-knowledge/units/works/p-van-bleek-owen-mcswiny.md",
       "04-knowledge/units/works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md",
       "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
@@ -921,7 +934,9 @@
       "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
       "04-knowledge/units/works/rubens-the-feast-of-herod.md",
       "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
+      "04-knowledge/units/works/salvator-rosa-satyrs-carousing-with-maidens.md",
       "04-knowledge/units/works/salvator-rosa-the-death-of-regulus.md",
+      "04-knowledge/units/works/salvio-savini-pala-del-voto.md",
       "04-knowledge/units/works/sassoferrato-madonna-and-child.md",
       "04-knowledge/units/works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md",
       "04-knowledge/units/works/sebastiano-ricci-pan-and-syrinx.md",
@@ -950,6 +965,7 @@
       "04-knowledge/units/archives/cellini-autobiography.md",
       "04-knowledge/units/archives/coke-arundell-letter-1620.md",
       "04-knowledge/units/archives/conforti-legros-designers-1977.md",
+      "04-knowledge/units/archives/de-rosis-ruffo-letter-1663-06-02.md",
       "04-knowledge/units/archives/de-rosis-ruffo-letter-1663.md",
       "04-knowledge/units/archives/dizionario-biografico-degli-italiani.md",
       "04-knowledge/units/archives/ferri-ruffo-letter-1672.md",
@@ -1057,6 +1073,7 @@
       "04-knowledge/units/persons/andrea-sacchi.md",
       "04-knowledge/units/persons/angela-fedeli.md",
       "04-knowledge/units/persons/angela-mizzina.md",
+      "04-knowledge/units/persons/angelica-galante.md",
       "04-knowledge/units/persons/ann-sutherland-harris.md",
       "04-knowledge/units/persons/annibale-bentivoglio.md",
       "04-knowledge/units/persons/annibale-carracci.md",
@@ -1277,6 +1294,7 @@
       "04-knowledge/units/persons/lucrezia-orico.md",
       "04-knowledge/units/persons/ludovico-leoni.md",
       "04-knowledge/units/persons/ludovico-ludovisi.md",
+      "04-knowledge/units/persons/luigi-bernini.md",
       "04-knowledge/units/persons/maddalena-telli.md",
       "04-knowledge/units/persons/maffeo-pinelli.md",
       "04-knowledge/units/persons/marcantonio-hercolani-1709.md",
@@ -1293,6 +1311,8 @@
       "04-knowledge/units/persons/marco-foscarini.md",
       "04-knowledge/units/persons/marco-pitteri.md",
       "04-knowledge/units/persons/marco-ricci.md",
+      "04-knowledge/units/persons/maria-ruffo-guercino-commissioner.md",
+      "04-knowledge/units/persons/maria-teresa-ruffo-1688-altar-commissioner.md",
       "04-knowledge/units/persons/mariangiola-de-matteis.md",
       "04-knowledge/units/persons/marianne-roland-michel.md",
       "04-knowledge/units/persons/marie-louise-jay.md",
@@ -1357,6 +1377,7 @@
       "04-knowledge/units/persons/pieter-van-laer.md",
       "04-knowledge/units/persons/pietro-aldobrandini.md",
       "04-knowledge/units/persons/pietro-antonio-novelli.md",
+      "04-knowledge/units/persons/pietro-bernini.md",
       "04-knowledge/units/persons/pietro-da-cortona.md",
       "04-knowledge/units/persons/pietro-di-pietri.md",
       "04-knowledge/units/persons/pietro-mulier.md",
@@ -1427,6 +1448,7 @@
       "04-knowledge/units/institutions/a-villani-e-figli.md",
       "04-knowledge/units/institutions/academie-francaise.md",
       "04-knowledge/units/institutions/accademia-degli-agiati.md",
+      "04-knowledge/units/institutions/accademia-dei-virtuosi-al-pantheon.md",
       "04-knowledge/units/institutions/accademia-di-san-luca.md",
       "04-knowledge/units/institutions/agraci.md",
       "04-knowledge/units/institutions/alte-pinakothek.md",
@@ -1474,6 +1496,7 @@
       "04-knowledge/units/institutions/galleria-spada.md",
       "04-knowledge/units/institutions/gallerie-ditalia.md",
       "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
+      "04-knowledge/units/institutions/gubbio-civic-magistracy.md",
       "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
       "04-knowledge/units/institutions/hazan.md",
       "04-knowledge/units/institutions/heritage-malta.md",
@@ -1497,6 +1520,7 @@
       "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
       "04-knowledge/units/institutions/ministry-of-works.md",
       "04-knowledge/units/institutions/musee-cognacq-jay.md",
+      "04-knowledge/units/institutions/musee-fesch.md",
       "04-knowledge/units/institutions/musei-civici-veneziani.md",
       "04-knowledge/units/institutions/museo-correr.md",
       "04-knowledge/units/institutions/museo-del-prado.md",
@@ -1566,6 +1590,7 @@
       "04-knowledge/units/places/augusta-sicily.md",
       "04-knowledge/units/places/badminton.md",
       "04-knowledge/units/places/barberini-chapel-sant-andrea-valle.md",
+      "04-knowledge/units/places/basilica-di-sant-ubaldo.md",
       "04-knowledge/units/places/belvoir-castle.md",
       "04-knowledge/units/places/berlin.md",
       "04-knowledge/units/places/bologna.md",
@@ -1869,7 +1894,11 @@
       "04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md",
       "04-knowledge/units/works/ottavio-leoni-cardinal-francesco-barberini.md",
       "04-knowledge/units/works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md",
       "04-knowledge/units/works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md",
+      "04-knowledge/units/works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md",
+      "04-knowledge/units/works/ottavio-leoni-susanna-and-the-elders-1620.md",
       "04-knowledge/units/works/p-van-bleek-owen-mcswiny.md",
       "04-knowledge/units/works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md",
       "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
@@ -1903,7 +1932,9 @@
       "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
       "04-knowledge/units/works/rubens-the-feast-of-herod.md",
       "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
+      "04-knowledge/units/works/salvator-rosa-satyrs-carousing-with-maidens.md",
       "04-knowledge/units/works/salvator-rosa-the-death-of-regulus.md",
+      "04-knowledge/units/works/salvio-savini-pala-del-voto.md",
       "04-knowledge/units/works/sassoferrato-madonna-and-child.md",
       "04-knowledge/units/works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md",
       "04-knowledge/units/works/sebastiano-ricci-pan-and-syrinx.md",
@@ -1942,6 +1973,7 @@
       "04-knowledge/units/archives/coke-arundell-letter-1620.md",
       "04-knowledge/units/archives/colnaghi-catalogue-1961.md",
       "04-knowledge/units/archives/conforti-legros-designers-1977.md",
+      "04-knowledge/units/archives/de-rosis-ruffo-letter-1663-06-02.md",
       "04-knowledge/units/archives/de-rosis-ruffo-letter-1663.md",
       "04-knowledge/units/archives/dizionario-biografico-degli-italiani.md",
       "04-knowledge/units/archives/ferri-ruffo-letter-1672.md",
@@ -2040,8 +2072,8 @@
   },
   "recommended_field_missing_by_type": {
     "persons": {
-      "sub_type": 382,
-      "tags": 382,
+      "sub_type": 387,
+      "tags": 387,
       "evidence_status": 0
     },
     "families": {
@@ -2050,23 +2082,23 @@
       "evidence_status": 0
     },
     "institutions": {
-      "sub_type": 137,
-      "tags": 137,
+      "sub_type": 140,
+      "tags": 140,
       "evidence_status": 0
     },
     "places": {
-      "sub_type": 147,
-      "tags": 151,
+      "sub_type": 148,
+      "tags": 152,
       "evidence_status": 0
     },
     "works": {
-      "sub_type": 209,
-      "tags": 212,
+      "sub_type": 215,
+      "tags": 218,
       "evidence_status": 0
     },
     "archives": {
-      "sub_type": 38,
-      "tags": 60,
+      "sub_type": 39,
+      "tags": 61,
       "evidence_status": 0
     },
     "terms": {
@@ -2141,12 +2173,12 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 754,
-    "sources_without_evidence_ref": 249,
-    "evidence_ref_resolvable": 1228,
+    "sources_with_evidence_ref": 764,
+    "sources_without_evidence_ref": 255,
+    "evidence_ref_resolvable": 1261,
     "evidence_ref_broken": 0,
-    "evidence_refs_total": 1228,
-    "units_with_traceable_source": 1003
+    "evidence_refs_total": 1261,
+    "units_with_traceable_source": 1019
   },
   "claim_traceability": {
     "claim_registry_exists": true,
@@ -2159,8 +2191,8 @@
   },
   "relation_traceability": {
     "relation_index_exists": true,
-    "explicit_relations": 1193,
-    "explicit_relations_with_evidence": 1193
+    "explicit_relations": 1226,
+    "explicit_relations_with_evidence": 1226
   },
   "source_hash": {
     "total_sources": 0,
@@ -2178,7 +2210,7 @@
       "files": []
     },
     "missing_verification_level_when_not_tentative": {
-      "count": 1003,
+      "count": 1019,
       "files": [
         "04-knowledge/units/persons/a-d-gabbiani.md",
         "04-knowledge/units/persons/a-de-montaiglon.md",
@@ -2205,6 +2237,7 @@
         "04-knowledge/units/persons/andrea-sacchi.md",
         "04-knowledge/units/persons/angela-fedeli.md",
         "04-knowledge/units/persons/angela-mizzina.md",
+        "04-knowledge/units/persons/angelica-galante.md",
         "04-knowledge/units/persons/ann-sutherland-harris.md",
         "04-knowledge/units/persons/annibale-bentivoglio.md",
         "04-knowledge/units/persons/annibale-carracci.md",
@@ -2425,6 +2458,7 @@
         "04-knowledge/units/persons/lucrezia-orico.md",
         "04-knowledge/units/persons/ludovico-leoni.md",
         "04-knowledge/units/persons/ludovico-ludovisi.md",
+        "04-knowledge/units/persons/luigi-bernini.md",
         "04-knowledge/units/persons/maddalena-telli.md",
         "04-knowledge/units/persons/maffeo-pinelli.md",
         "04-knowledge/units/persons/marcantonio-hercolani-1709.md",
@@ -2441,6 +2475,8 @@
         "04-knowledge/units/persons/marco-foscarini.md",
         "04-knowledge/units/persons/marco-pitteri.md",
         "04-knowledge/units/persons/marco-ricci.md",
+        "04-knowledge/units/persons/maria-ruffo-guercino-commissioner.md",
+        "04-knowledge/units/persons/maria-teresa-ruffo-1688-altar-commissioner.md",
         "04-knowledge/units/persons/mariangiola-de-matteis.md",
         "04-knowledge/units/persons/marianne-roland-michel.md",
         "04-knowledge/units/persons/marie-louise-jay.md",
@@ -2505,6 +2541,7 @@
         "04-knowledge/units/persons/pieter-van-laer.md",
         "04-knowledge/units/persons/pietro-aldobrandini.md",
         "04-knowledge/units/persons/pietro-antonio-novelli.md",
+        "04-knowledge/units/persons/pietro-bernini.md",
         "04-knowledge/units/persons/pietro-da-cortona.md",
         "04-knowledge/units/persons/pietro-di-pietri.md",
         "04-knowledge/units/persons/pietro-mulier.md",
@@ -2575,6 +2612,7 @@
         "04-knowledge/units/institutions/a-villani-e-figli.md",
         "04-knowledge/units/institutions/academie-francaise.md",
         "04-knowledge/units/institutions/accademia-degli-agiati.md",
+        "04-knowledge/units/institutions/accademia-dei-virtuosi-al-pantheon.md",
         "04-knowledge/units/institutions/accademia-di-san-luca.md",
         "04-knowledge/units/institutions/agraci.md",
         "04-knowledge/units/institutions/alte-pinakothek.md",
@@ -2622,6 +2660,7 @@
         "04-knowledge/units/institutions/galleria-spada.md",
         "04-knowledge/units/institutions/gallerie-ditalia.md",
         "04-knowledge/units/institutions/gemaeldegalerie-berlin.md",
+        "04-knowledge/units/institutions/gubbio-civic-magistracy.md",
         "04-knowledge/units/institutions/gymnasium-zu-grauen-kloster.md",
         "04-knowledge/units/institutions/hazan.md",
         "04-knowledge/units/institutions/heritage-malta.md",
@@ -2645,6 +2684,7 @@
         "04-knowledge/units/institutions/metropolitan-museum-of-art.md",
         "04-knowledge/units/institutions/ministry-of-works.md",
         "04-knowledge/units/institutions/musee-cognacq-jay.md",
+        "04-knowledge/units/institutions/musee-fesch.md",
         "04-knowledge/units/institutions/musei-civici-veneziani.md",
         "04-knowledge/units/institutions/museo-correr.md",
         "04-knowledge/units/institutions/museo-del-prado.md",
@@ -2714,6 +2754,7 @@
         "04-knowledge/units/places/augusta-sicily.md",
         "04-knowledge/units/places/badminton.md",
         "04-knowledge/units/places/barberini-chapel-sant-andrea-valle.md",
+        "04-knowledge/units/places/basilica-di-sant-ubaldo.md",
         "04-knowledge/units/places/belvoir-castle.md",
         "04-knowledge/units/places/berlin.md",
         "04-knowledge/units/places/bologna.md",
@@ -3017,7 +3058,11 @@
         "04-knowledge/units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md",
         "04-knowledge/units/works/ottavio-leoni-cardinal-francesco-barberini.md",
         "04-knowledge/units/works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md",
+        "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md",
+        "04-knowledge/units/works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md",
         "04-knowledge/units/works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md",
+        "04-knowledge/units/works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md",
+        "04-knowledge/units/works/ottavio-leoni-susanna-and-the-elders-1620.md",
         "04-knowledge/units/works/p-van-bleek-owen-mcswiny.md",
         "04-knowledge/units/works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md",
         "04-knowledge/units/works/paolo-de-matteis-the-choice-of-hercules.md",
@@ -3051,7 +3096,9 @@
         "04-knowledge/units/works/rubens-chiesa-nuova-altarpiece-1606.md",
         "04-knowledge/units/works/rubens-the-feast-of-herod.md",
         "04-knowledge/units/works/sacchi-capuchin-altarpiece-modello.md",
+        "04-knowledge/units/works/salvator-rosa-satyrs-carousing-with-maidens.md",
         "04-knowledge/units/works/salvator-rosa-the-death-of-regulus.md",
+        "04-knowledge/units/works/salvio-savini-pala-del-voto.md",
         "04-knowledge/units/works/sassoferrato-madonna-and-child.md",
         "04-knowledge/units/works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md",
         "04-knowledge/units/works/sebastiano-ricci-pan-and-syrinx.md",
@@ -3090,6 +3137,7 @@
         "04-knowledge/units/archives/coke-arundell-letter-1620.md",
         "04-knowledge/units/archives/colnaghi-catalogue-1961.md",
         "04-knowledge/units/archives/conforti-legros-designers-1977.md",
+        "04-knowledge/units/archives/de-rosis-ruffo-letter-1663-06-02.md",
         "04-knowledge/units/archives/de-rosis-ruffo-letter-1663.md",
         "04-knowledge/units/archives/dizionario-biografico-degli-italiani.md",
         "04-knowledge/units/archives/ferri-ruffo-letter-1672.md",
@@ -3284,12 +3332,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 389,
+      "total": 394,
       "coverage": {
-        "name_original": "0/389",
-        "language_original": "0/389",
-        "name_zh": "0/389",
-        "translation_status": "0/389"
+        "name_original": "0/394",
+        "language_original": "0/394",
+        "name_zh": "0/394",
+        "translation_status": "0/394"
       }
     },
     "families": {
@@ -3302,28 +3350,28 @@
       }
     },
     "institutions": {
-      "total": 137,
+      "total": 140,
       "coverage": {
-        "name_original": "0/137",
-        "name_original_language": "0/137",
-        "name_zh": "0/137",
-        "translation_status": "0/137"
+        "name_original": "0/140",
+        "name_original_language": "0/140",
+        "name_zh": "0/140",
+        "translation_status": "0/140"
       }
     },
     "works": {
-      "total": 215,
+      "total": 221,
       "coverage": {
-        "title_original": "0/215",
-        "title_original_language": "0/215",
-        "title_zh": "0/215"
+        "title_original": "0/221",
+        "title_original_language": "0/221",
+        "title_zh": "0/221"
       }
     },
     "archives": {
-      "total": 62,
+      "total": 63,
       "coverage": {
-        "title_original": "0/62",
-        "title_original_language": "0/62",
-        "title_zh": "0/62"
+        "title_original": "0/63",
+        "title_original_language": "0/63",
+        "title_zh": "0/63"
       }
     },
     "terms": {
@@ -3337,9 +3385,9 @@
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 847,
-    "indexed": 847,
-    "declared_total": 847,
+    "expected": 862,
+    "indexed": 862,
+    "declared_total": 862,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -3347,12 +3395,12 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 1194,
-    "explicit_relation_count": 1193,
+    "relation_index_total": 1227,
+    "explicit_relation_count": 1226,
     "inferred_relation_count": 1,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
-    "weak_evidence_count": 1193,
+    "weak_evidence_count": 0,
     "needs_evidence_count": 0,
     "relation_type_coverage": "60/125"
   },
@@ -3414,23 +3462,24 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 1003,
+    "total_units": 1019,
     "source_count_distribution": {
-      "multi_source": 798,
-      "single_source": 205
+      "multi_source": 812,
+      "single_source": 207
     },
     "confidence_distribution": {
-      "missing": 1003
+      "missing": 1019
     },
     "consensus_distribution": {
-      "missing": 1003
+      "missing": 1019
     },
     "evidence_status_distribution": {
       "externally_verified": 6,
-      "source_backed": 997
+      "partially_verified": 2,
+      "source_backed": 1011
     },
     "isolated_units": {
-      "count": 136,
+      "count": 135,
       "sample": [
         "archives/gerusalemme-liberata-illustrations-1745.md",
         "archives/gilmartin-san-clemente-1974.md",
@@ -3473,7 +3522,7 @@
       "by_lifecycle_class": {}
     },
     "research_debt": {
-      "single_source_units": 205,
+      "single_source_units": 207,
       "tentative_units": 0,
       "low_confidence_units": 0,
       "candidates_needing_evidence": 0,
@@ -3498,7 +3547,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 1003,
+    "total_files": 1019,
     "total_findings": 1
   }
 }

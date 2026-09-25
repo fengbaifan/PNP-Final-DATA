@@ -3,7 +3,7 @@ title: "圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questi
 name_en: "Guercino's Questions about a Sicilian Altarpiece (1665)"
 type: event
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-09-25
 evidence_status: source_backed
 relations:
   - {"relation_type":"has_participant","target":"persons/guercino.md","note":"Guercino 主动询问具体图像细节。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 295–307; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"time":"1665","role":"图像细节询问者","scope":"只确认提出询问"}
@@ -39,6 +39,22 @@ sources:
 - citation: "Luigi Salerno, I dipinti del Guercino (Rome: Ugo Bozzi, 1988), p. 403, no. 344."
   location: "仅由Zeri目录核得书目记录；原书未读"
   sentence_summary: "作品归属与目录编号的参考入口，不作为已读正文证据。"
+- citation: "Vincenzo Ruffo, ‘Galleria Ruffo nel secolo XVII in Messina (con lettere di pittori ed altri documenti inediti) (II),’ Bollettino d’Arte 10 (1916), pp. 95–128."
+  url: "https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf"
+  location: "印刷页110–111；1664年书信及编辑注释；Internet Archive OCR lines 7976–8023、8073–8092。"
+  accessed: 2026-09-25
+  sentence_summary: "刊载书信及编辑注释将委托者识别为Don Antonio Ruffo的侄女D.a Maria Ruffo、修女；不证明她亲自参与1665年画家的细节询问。"
+  original_quotes:
+    - source_span: "印刷页110；编辑注释；Internet Archive OCR lines 8091–8092"
+      text: "Dalle lettere del Guercino sorge indubitatamente che il quadro di S. Teresa fu commissionato da D.a Maria Ruffo nipote di don Antonio, la quale era monaca."
+- citation: "Vincenzo Ruffo, ‘Galleria Ruffo nel secolo XVII in Messina (con lettere di pittori ed altri documenti inediti) (II),’ Bollettino d’Arte 10 (1916), pp. 95–128."
+  url: "https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf"
+  location: "印刷页110–111；1664年书信及编辑注释；Internet Archive OCR lines 7976–8023、8073–8092。"
+  accessed: 2026-09-25
+  sentence_summary: "将委托者确认为Don Antonio Ruffo的侄女D.a Maria Ruffo、修女；未证明其亲自参与画家对图像细节的询问。"
+  original_quotes:
+    - source_span: "印刷页110；编辑注释；Internet Archive OCR lines 8091–8092"
+      text: "Dalle lettere del Guercino sorge indubitatamente che il quadro di S. Teresa fu commissionato da D.a Maria Ruffo nipote di don Antonio, la quale era monaca."
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-events-guercino-iconography-query-1665
 ---
 
@@ -46,9 +62,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 描述
 
-**中文：** 1665年，圭尔奇诺收到为西西里修院创作祭坛画的题材、尺寸和人物指示后，继续追问圣母衣色、会规载体及文字、圣女德肋撒的左右位置、悬挂方式与照明。现可把这一协商与墨西拿圣额我略堂的祭坛画记录相连，作品后来毁于1908年；询问、创作和作品毁失是不同事件节点。（S1、S2）
+**中文：** 1665年，圭尔奇诺收到为西西里修院创作祭坛画的题材、尺寸和人物指示后，继续追问圣母衣色、会规载体及文字、圣女德肋撒的左右位置、悬挂方式与照明。Vincenzo Ruffo刊载的书信和编辑注释另将作品委托者识别为D.a Maria Ruffo；该委托关系登记在作品卡，本事件不据此说她亲自向Guercino提出图像问题。作品可与墨西拿圣额我略堂的记录相连，后来毁于1908年；询问、创作和作品毁失仍是不同事件节点。（S1–S3）
 
-**English:** In 1665, after receiving the subject, dimensions and principal figures for a Sicilian monastic altarpiece, Guercino asked about the Virgin's colours, the physical form and wording of the rule, Teresa's placement, the hanging and the lighting. The negotiation can now be linked to the recorded altarpiece at San Gregorio in Messina, destroyed in 1908; inquiry, production and destruction remain separate events. (S1, S2)
+**English:** In 1665, after receiving the subject, dimensions and principal figures for a Sicilian monastic altarpiece, Guercino asked about the Virgin's colours, the physical form and wording of the rule, Teresa's placement, the hanging and the lighting. Vincenzo Ruffo’s publication of the correspondence and editorial notes identifies D.a Maria Ruffo as the commissioner; that formal relationship is recorded on the work card and does not make her the person who asked Guercino about the iconographic details. The negotiation can be linked to the recorded altarpiece at San Gregorio in Messina, destroyed in 1908; inquiry, production and destruction remain separate events. (S1–S3)
 
 ### 事件字段
 
@@ -57,7 +73,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 名称性质 | 本项目对协商行为的描述性名称，不是档案正式题名 | S1 |
 | 时间 | 1665；月日及问答轮次未见 | S1、S2 |
 | 提问者 | Giovanni Francesco Barbieri，通称Guercino | S1 |
-| 委托方 | 西西里一所修院；第一章未具名，现有Zeri对象记录只给末知教堂，不反推修院法人名 | S1、S2 |
+| 委托方 | D.a Maria Ruffo（修女，Don Antonio Ruffo侄女）；为圣额我略修院订画；其法人规范名未定 | S3；第一章只写西西里修院 |
 | 目的地 | Messina，Chiesa di S. Gregorio；作为作品末知地点，不等于信件发收地点 | S2 |
 | 已给要求 | 画幅尺寸；Madonna del Carmine与圣婴、Teresa、Joseph、John the Baptist等全身等大人物和上部天使 | S1 |
 | 追问内容 | 圣母红衣蓝披风或黑会衣白披风；会规是书或卷轴及其文字；Teresa左右位置；悬挂与照明 | S1 |

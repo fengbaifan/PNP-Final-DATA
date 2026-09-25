@@ -36,6 +36,9 @@ sources:
 - citation: "Utpictura18, Le massacre des Innocents - Poussin, notice 007109. https://utpictura18.univ-amu.fr/notice/7109-massacre-innocents-poussin. Accessed 2026-09-11."
   location: "对象、分析注记及书目全读"
   sentence_summary: "147×171厘米，1628–1629；Giustiniani1638清册、Lucien Bonaparte、1854Aumale；另有Petit-Palais归属有争议的同题画，本章未给版本锚点。"
+- citation: "Musée Condé, Le Massacre des Innocents, inventory PE 305. https://www.musee-conde.fr/fr/notice/pe-305-le-massacre-des-innocents-74c948d1-02f4-4a1f-b88a-68f6cb7f641a. Accessed 2026-09-25."
+  location: "馆方作品记录全文：作者、创作年代、题材、媒材、尺寸、委托／竞争语境、收藏沿革及馆号"
+  sentence_summary: "馆方将PE 305定为普桑约1628年为Vincenzo Giustiniani绘制的布面油画，尺寸147×171厘米；说明其构图意在与Guido Reni同题名作竞争，并列出收藏沿革。"
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-poussin-massacre-innocents
 ---
 
@@ -43,9 +46,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 描述
 
-**中文：** 本章提及普桑《屠杀婴孩》的克制构图。尚蒂伊孔代博物馆PE305是当前主要候选；本轮补到其馆号、年代异文和相关草图、摹本线索，但仍需区分另一件归属有争议的同题画，故保留版本待证。（S1、S4–S6）
+**中文：** 本章提及普桑《屠杀婴孩》的克制构图。尚蒂伊孔代博物馆PE305是当前主要候选；馆方记录确认其约作于1628年，并说明作品意在与雷尼同题画竞争。由于本章没有馆藏号、尺寸或其他版本锚点，且另有归属有争议的同题画，具体对应仍待证。（S1、S4–S7）
 
-**English:** Haskell mentions the restraint of Poussin’s Massacre of the Innocents. The Musée Condé painting PE305 is the leading candidate. Its inventory, alternative dates and related sketches or copies have been documented, but another disputed painting of the subject remains relevant to version identification. (S1, S4–S6)
+**English:** Haskell mentions the restraint of Poussin’s Massacre of the Innocents. The Musée Condé painting PE305 is the leading candidate; the museum dates it to around 1628 and states that Poussin conceived it in rivalry with Reni’s painting of the same subject. Haskell gives no inventory number, dimensions or other version anchor, and another disputed painting remains relevant, so the chapter reference is not conclusively identified with PE305. (S1, S4–S7)
 
 ### 章内对象
 
@@ -61,11 +64,12 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 字段 | 孔代博物馆PE305 | 依据 |
 |---|---|---|
-| 原文题名 | Le Massacre des Innocents | S4–S6 |
-| 作者／媒介 | Nicolas Poussin；布面油画 | S4、S6 |
-| 年代 | 官方目录约1625或1629；大学研究记录1628–1629，并说明Thuillier约1625异说 | S5–S6；不以WD十年精度1620写成1620-01-01 |
-| 尺寸 | 147×171厘米 | S4、S6；官方POP实际可读部分未列，不伪称来自该页 |
-| 馆藏／馆号 | 尚蒂伊孔代博物馆／Musée Condé, Chantilly；PE305 | S4–S5 |
+| 原文题名 | Le Massacre des Innocents | S4–S7 |
+| 作者／媒介 | Nicolas Poussin；布面油画 | S4、S6–S7 |
+| 年代 | 馆方约1628；研究记录1628–1629，并列较早约1625异说 | S5–S7；不以WD十年精度1620写成1620-01-01 |
+| 尺寸 | 147×171厘米 | S6–S7 |
+| 馆藏／馆号 | 尚蒂伊孔代博物馆／Musée Condé, Chantilly；PE 305 | S4–S5、S7 |
+| 与Reni同题作的关系 | 馆方称普桑构思本作时意在与博洛尼亚现藏的Reni名作竞争 | S7；与Haskell并列提及两位画家的同题作品语境相合，但不能单独证明本章所指即PE 305 |
 | 图像 | 兵士、母亲与受害婴孩组成强烈冲突的圣经场景 | S4–S6；不把WD对象识别标签当独立图像分析 |
 
 ### 相关版本和流传

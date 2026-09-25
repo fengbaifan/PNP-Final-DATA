@@ -22,7 +22,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 relations:
   - relation_type: located_at
     target: places/frascati.md
-    evidence_ref: "https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection"
+    evidence_ref:
+      doc_id: regione-lazio-ville-tuscolane
+      source_file: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf
+      source_span: Villa Aldobrandini subsection
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false
@@ -30,7 +33,10 @@ relations:
     scope: Villa Aldobrandini, Frascati; distinguishes it from the similarly named Rome villa
   - relation_type: owned_by
     target: persons/pietro-aldobrandini.md
-    evidence_ref: "https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf; Villa Aldobrandini subsection"
+    evidence_ref:
+      doc_id: regione-lazio-ville-tuscolane
+      source_file: https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf
+      source_span: Villa Aldobrandini subsection
     review_status: evidence_backed_relation
     relation_source: explicit
     bidirectional_required: false

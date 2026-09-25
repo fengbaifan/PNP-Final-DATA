@@ -3,7 +3,7 @@ title: "圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guerci
 name_en: "Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel"
 type: work
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-09-25
 evidence_status: source_backed
 relations:
 - relation_type: created_by
@@ -19,6 +19,19 @@ relations:
   time: "1665"
   role: 创作者
   scope: Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文
+- relation_type: commissioned_by
+  target: persons/maria-ruffo-guercino-commissioner.md
+  note: Vincenzo Ruffo据刊载的往来书信认定订画者为Don Antonio的侄女D.a Maria Ruffo，且为修女；不将其确定等同于Duchess of Sora或Suor Illuminata。
+  evidence_ref:
+    doc_id: ruffo-1916-guercino-saint-teresa-commission
+    source_file: https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf
+    source_span: 印刷页110；1664-04-08书信及编辑注释；Internet Archive OCR lines 7976–8023、8073–8092
+  review_status: evidence_backed_relation
+  relation_source: explicit
+  bidirectional_required: false
+  time: 不晚于1664-04-08已进入委托协商；决定日未载
+  role: 委托者
+  scope: 为Messina圣额我略修院订制该祭坛画；不据此确认委托修院的法人规范名
 - relation_type: located_at
   target: places/chiesa-san-gregorio-messina.md
   note: Fondazione Zeri将末知地点记为墨西拿圣额我略堂；只记录目录所载末知地点，不等同于1665年委托地点、原定安置地点或委托法人。
@@ -33,16 +46,17 @@ relations:
   scope: 时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段
 - relation_type: installed_at
   target: places/chiesa-san-gregorio-cappella-madonna-carmine.md
-  note: 意大利语教堂条目将画作记在加尔默罗圣母小堂祭坛龛位；该记载支持具体历史陈列空间，但不提供安装日期或连续陈列时段。
+  note: 建筑史研究记载1688年建造的加尔默罗圣母祭坛用于安置这幅1665年画作；确切安装日及连续陈列时段未载。
   evidence_ref:
-    doc_id: chiesa-san-gregorio-messina-wikipedia-it
-    source_file: https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina)
-    source_span: Interno；L169–170；页面版本150392543
+    doc_id: lenzo-2005-san-gregorio
+    source_file: https://dialnet.unirioja.es/descarga/articulo/3669368.pdf
+    source_span: 印刷页32；右侧横翼北墙；1688年建造祭坛以安置1665年Guercino画作
   review_status: evidence_backed_relation
   relation_source: explicit
   bidirectional_required: false
+  time: 1688年建造专设祭坛；具体安置日未载
   role: 历史安置位置
-  scope: 加尔默罗圣母祭坛的龛位；安置日期未载
+  scope: 加尔默罗圣母小堂的祭坛龛位；不是委托修院法人或原委托地点
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L295–307
@@ -73,16 +87,27 @@ sources:
 - citation: "Wikipedia (it), Chiesa di San Gregorio (Messina), revision 150392543, https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina). Accessed 2026-09-25."
   location: "全文已读；Interno；transetto destro；Cappella della Madonna del Carmine"
   sentence_summary: "页面将该画置于右侧横翼北墙的加尔默罗圣母小堂祭坛龛位，记为Guercino 1665年作品；另记该空间由Maria Teresa Ruffo于1688年资助，但不陈述委托修院法人。"
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-works-guercino-sicilian-altarpiece-1665
+- citation: "Fulvio Lenzo, ‘Il campanile di San Gregorio e Paolo Filocamo,’ Lexicon: Storie e architetture in Sicilia 1 (2005): 31–40. https://dialnet.unirioja.es/descarga/articulo/3669368.pdf. Accessed 2026-09-25."
+  location: "印刷页32；右侧横翼北墙；加尔默罗圣母祭坛及其所安置画作"
+  sentence_summary: "研究记1688年由Maria Teresa Ruffo委托建造加尔默罗圣母大理石祭坛，以安置Guercino于1665年绘制的画作；未给出画作具体安装日。"
+- citation: "Vincenzo Ruffo, ‘Galleria Ruffo nel secolo XVII in Messina (con lettere di pittori ed altri documenti inediti) (II),’ Bollettino d’Arte 10 (1916), pp. 95–128."
+  url: "https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf"
+  location: "印刷页110；Guercino 1664-04-08致Don Antonio Ruffo信及注释；Internet Archive OCR lines 7976–8023、8073–8092。"
+  accessed: 2026-09-25
+  sentence_summary: "刊载书信和编辑注释把一位修女亲属确认为委托者D.a Maria Ruffo、Don Antonio之侄女；修女名与委托修院法人范围仍有限定。"
+  original_quotes:
+    - source_span: "印刷页110；编辑注释；Internet Archive OCR lines 8091–8092"
+      text: "Dalle lettere del Guercino sorge indubitatamente che il quadro di S. Teresa fu commissionato da D.a Maria Ruffo nipote di don Antonio, la quale era monaca."
+process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#guercino-altar-installation-lenzo-2005
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** Zeri目录将圭尔奇诺1665年墨西拿祭坛画的末知地点记为圣额我略堂；第一章只称委托来自西西里一座修院，现有证据未确认该修院法人或其与该堂所属修院的关系。作品记录为1908年毁失。Zeri题名中的耶路撒冷的圣亚尔伯与章内转述的施洗者约翰存在图像描述差异，暂不强行统一。
+**中文：** Zeri目录将圭尔奇诺1665年墨西拿祭坛画的末知地点记为圣额我略堂。Vincenzo Ruffo刊载的往来书信及注释将订画者指认为Don Antonio Ruffo的侄女D.a Maria Ruffo，一位修女；其修会名是否为Suor Illuminata尚未无歧义确认，委托修院法人规范名也未定。作品记录为1908年毁失。Zeri题名中的耶路撒冷的圣亚尔伯与章内转述的施洗者约翰存在图像描述差异，暂不强行统一。
 
-**English:** Zeri records the last known location of Guercino’s 1665 altarpiece as San Gregorio in Messina. The chapter identifies its commissioner only as a monastery in Sicily; current evidence does not identify that corporate body or establish that it was the monastery associated with this church. The work is recorded as destroyed in 1908. Zeri names Saint Albert of Jerusalem where the chapter names Saint John the Baptist, so the discrepancy remains explicit.
+**English:** Zeri records the last known location of Guercino’s 1665 altarpiece as San Gregorio in Messina. Vincenzo Ruffo’s published correspondence and notes identify the commissioner as D.a Maria Ruffo, Don Antonio Ruffo’s niece and a nun. Her possible religious name, Suor Illuminata, remains uncertain, as does the monastery’s standardized corporate identity. The work is recorded as destroyed in 1908. Zeri names Saint Albert of Jerusalem where the chapter names Saint John the Baptist, so the discrepancy remains explicit.
 
 ### 已有信息
 
@@ -98,7 +123,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 作品名／规范指称 | 《阿维拉的圣德肋撒从加尔默罗圣母领受会衣》（Saint Teresa of Ávila Receiving the Habit from Our Lady of Mount Carmel） | 精确题名可证时采用；不可证时保留描述性名 |
 | 创作者／归属 | Giovanni Francesco Barbieri（Guercino） | 争议归属不写成确定事实 |
 | 创作／委托时间 | 1665年委托／作品记录；1908年毁失 | 区分合同、开工、完成、毁失或后续记录 |
-| 委托人／赞助方 | 西西里修院，法人规范名未由现有资料确认 | 仅写当前证据可支持的法律或历史主体 |
+| 委托人／赞助方 | D.a Maria Ruffo，Don Antonio Ruffo之侄女、修女；为Messina圣额我略修院订画 | Ruffo 1916刊载书信及编辑注释；修女名是否为Suor Illuminata仍待确证，修院法人规范名未确认 |
 | 末知地点 | 墨西拿圣额我略堂（Chiesa di San Gregorio）；具体在堂时间未载 | Zeri S2；不据此推定原定安置或委托法人 |
 | 毁失状态 | 1908年毁失（目录记录） | Zeri S2 |
 | 类型、材质与尺寸 | 祭坛画；材质与尺寸以未读Salerno条目为后续入口 | 缺项不根据同类作品补推 |
@@ -111,4 +136,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
 | → 创作者（`created_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Zeri作品目录将该1665年墨西拿祭坛画归于圭尔奇诺；第一章证明委托方案和画家的询问，但不单独证明完成；时间：1665；角色：创作者；范围：Zeri目录所识别的墨西拿祭坛画；不消除图像角色异文；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；zeri-work-58737；本卡 S2；作品目录全文；题名、作者、地点、毁失状态和书目 |
+| → 委托者（`commissioned_by`） | [玛丽亚·鲁福（D.a Maria Ruffo）](../persons/maria-ruffo-guercino-commissioner.md) | 1916年刊载的1664年书信及编辑注释将其认定为委托者；至迟于1664-04-08已进入协商，确切委托日未载；不等同Duchess of Sora，Suor Illuminata对应仍待证；证据见本卡S4 |
 | → 末知地点（`located_at`） | [墨西拿圣额我略堂（Church of San Gregorio, Messina）](../places/chiesa-san-gregorio-messina.md) | Zeri将此堂列为末知地点；不将末知地点等同1665年委托地点、原定安置地点或委托法人；时间未注明，作品记录为1908年毁失；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；zeri-work-58737；本卡S2；Locations：Last known |
