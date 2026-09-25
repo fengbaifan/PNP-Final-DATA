@@ -9,24 +9,18 @@
 ```mermaid
 flowchart LR
   subgraph P1[第一部分：知识元与知识图谱]
-    S[01 材料范围与约定] --> A[摄入] --> B[处理：完整语义阅读]
-    B --> C[知识元：对象与端点]
-    C --> D[初步对齐：身份与版本]
-    D --> E[补足：书内与外部分源]
-    E --> F[关系：正式／待决／否决]
-    B -.同步记录.-> R[关系候选：提及·指代·证据跨度]
-    R -.端点映射.-> C
-    R -.逐项裁决.-> F
-    E -.外部关系事实.-> F
+    A[S0 来源规范化] --> B[S1 全书候选] --> C[S2 语义处理：提及/断言]
+    C --> D[S3 身份对齐] --> E[S4 KU 登记] --> F[S5 补足] --> G[S6 关系] --> H[S7 发布]
+    C -.原书关系候选.-> G
   end
   subgraph P2[第二部分：知识发现与知识呈现]
-    G[Topic] --> H[Theme] --> I[Dimension] --> J[Domain]
-    J --> K[成果组织与页面]
+    I[Topic] --> J[Theme] --> K[Dimension] --> L[Domain]
+    L --> M[成果组织与页面]
   end
-  F -.用户启动第二部分.-> G
+  G -.用户启动第二部分.-> I
 ```
 
-六阶段仍按摄入、处理、知识元、对齐、补足、关系依次交付。关系候选在处理原文时同步记录，随后更新端点映射并在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
+第一部分按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。关系候选在语义处理时同步记录，随后在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。过渡期说明：S0–S6 产物的目标存放地是 `04-knowledge/tables/`，但目前 `build_tables.py` 仍从卡片 frontmatter 与 `accepted.yml` 导出这些表，尚未反转成唯一事实源。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
 
 | 目录 | 职责 |
 |---|---|
@@ -43,4 +37,4 @@ flowchart LR
 
 日常直接分析、写作并核对受影响内容；外部核验、批量预检、恢复状态和测试按需启用。只用 main，Git 提交/推送须有明确授权。
 
-用户原话见 [user-revisions.md](06-runtime/governance/user-revisions.md)，有效要求见 [current-requirements.md](06-runtime/governance/current-requirements.md)，系统过程与结果见 [system-upgrade-log.md](06-runtime/governance/system-upgrade-log.md)。
+用户原话与有效要求见 [current-requirements.md](06-runtime/governance/current-requirements.md)，规则变更见 [CHANGELOG.md](06-runtime/governance/CHANGELOG.md)（`user-revisions.md`、`system-upgrade-log.md` 已冻结为只读历史）。

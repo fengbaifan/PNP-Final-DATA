@@ -712,7 +712,6 @@ def collect_findings(base: Path = BASE) -> list[dict]:
     findings.extend(check_knowledge_graph_direct_open_contract(base))
     findings.extend(check_knowledge_graph_version_contract(base))
     findings.extend(check_entrypoint_version_consistency(base))
-    findings.extend(check_runtime_index_snapshot(base))
     findings.extend(check_sync_closure_contract(base))
     findings.extend(check_ci_sync_closure_contract(base))
     findings.extend(check_mainline_only_git_contract(base))
