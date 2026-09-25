@@ -30,4 +30,15 @@ CI 在提交/推送触发的独立环境中依 `.github/workflows/quality.yml` �
 
 workflow-copy-manifest.json 是最初导入的历史清单，其中路径和数量不代表当前系统。portable/verify_copy.py 仅校验原始导出包或未修改的副本，不用于判断已迭代项目是否正确。当前测试直接使用 pytest；旧 portable/run_tests.py 所依赖的导入路径已经退役，不保留第二套测试入口。
 
-不默认新增工作包、机器状态、全量收尾或固定审核轮数。每项实际任务的过程与结果按 pipeline 分布存储；系统调整只记既有升级日志。
+## 派生文件约定
+
+以下文件是**派生**的，不是事实源；日常批次不手动重建、不逐批提交，只在 S7 发布或按需时由对应脚本生成：
+
+- `04-knowledge/quality/relation-index.yml`、`translation-index.yml`、`relation-candidates.yml`
+- `06-runtime/state/current-health.json`、`skill-registry.json`、`generated-projections-manifest.json`、`candidate-index.jsonl`、`discovery-manifest.json`
+- `06-runtime/automation/index.md`、`06-runtime/governance/governance-backlog.md`
+- `05-outputs/index/*`（页面数据 `knowledge-graph-data.json/js` 暂停，需 `--refresh-page`）
+
+事实源是 `04-knowledge/accepted.yml`（KU 登记）、`units/*.md` 卡片（结构化事实 + 散文），以及 S7 的 `release/vX/*.csv` 发布导出。审计脚本读派生文件只为检查，不把它们当源。
+
+不默认新增工作包、机器状态、全量收尾或固定审核轮数。每项实际任务的过程与结果按 pipeline 分布存储；系统调整只记 CHANGELOG.md。
