@@ -2,9 +2,11 @@
 """
 build_field_facts.py — 字段级深解析（第 7 步）
 
-把卡片正文的「字段 | 值 | 证据」三列表抽成 enrichment.jsonl 的 field→value→source 记录。
+把卡片正文的表格抽成 enrichment.jsonl 的 field→value→source 记录：
+- 三列「字段|值|证据」：field=第一列，value=第二列。
+- 四列及以上的重复条目表（履历/亲缘/作品/所有权）：field=所属 ### 小节名，value=非证据列用「｜」连接。
 origin 由 S# 对应的来源 citation 判定：含 Haskell / Patrons and Painters → book，否则 external。
-仅解析三列「字段|值|证据」表；四列的履历/亲缘/作品等重复条目表留作后续。
+无 S# 证据的字段标 origin=inferred（项目命名、待证等）。
 """
 from __future__ import annotations
 
@@ -25,54 +27,33 @@ def frontmatter_sources(text: str) -> list[dict]:
     m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", text, re.DOTALL)
     if not m:
         return []
-    fm = m.group(1)
     try:
-        data = yaml.safe_load(fm)
-        if isinstance(data, dict):
-            srcs = data.get("sources")
-            return srcs if isinstance(srcs, list) else []
+        data = yaml.safe_load(m.group(1))
+        srcs = data.get("sources") if isinstance(data, dict) else None
+        return srcs if isinstance(srcs, list) else []
     except Exception:
-        pass
-    return []
+        return []
 
 
-def parse_3col_tables(body: str) -> list[tuple[list[str], list[list[str]]]]:
-    """解析「字段|值|证据」三列表。返回 [(header, rows), ...]。"""
-    out: list[tuple[list[str], list[list[str]]]] = []
-    lines = body.splitlines()
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.strip().startswith("|") and "|" in line.strip():
-            block = []
-            while i < len(lines) and lines[i].strip().startswith("|"):
-                block.append(lines[i].strip())
-                i += 1
-            if len(block) >= 3:
-                header = [c.strip() for c in block[0].strip("|").split("|")]
-                # 三列「字段|值|证据」
-                if len(header) == 3 and header[0] == "字段":
-                    rows = []
-                    for r in block[1:]:
-                        if re.match(r"^\|?[\s:|-]+\|?$", r):
-                            continue
-                        cells = [c.strip() for c in r.strip("|").split("|")]
-                        if len(cells) == 3 and cells[0] and cells[1]:
-                            rows.append(cells)
-                    out.append((header, rows))
-        else:
-            i += 1
-    return out
+def split_row(row: str) -> list[str]:
+    return [c.strip() for c in row.strip("|").split("|")]
 
 
 def origin_of(srefs: list[int], sources: list[dict]) -> str:
     for s in srefs:
         idx = s - 1
         if 0 <= idx < len(sources):
-            citation = str(sources[idx].get("citation", "")).lower()
-            if any(h in citation for h in BOOK_HINT):
+            if any(h in str(sources[idx].get("citation", "")).lower() for h in BOOK_HINT):
                 return "book"
     return "external"
+
+
+def citation_of(srefs: list[int], sources: list[dict]) -> str:
+    for s in srefs:
+        idx = s - 1
+        if 0 <= idx < len(sources):
+            return str(sources[idx].get("citation", ""))
+    return ""
 
 
 def main() -> None:
@@ -86,26 +67,65 @@ def main() -> None:
         sources = frontmatter_sources(text)
         body = text.split("---", 2)[2] if text.count("---") >= 2 else ""
         ku_id = ku["ku_id"]
-        for header, rows in parse_3col_tables(body):
-            for field, value, evidence in rows:
-                srefs = [int(x) for x in re.findall(r"S(\d+)", evidence)]
-                if not srefs:
-                    continue  # 无 S# 证据的字段（项目命名、待证等）跳过
-                origin = origin_of(srefs, sources)
-                citation = ""
-                for s in srefs:
-                    idx = s - 1
-                    if 0 <= idx < len(sources):
-                        citation = str(sources[idx].get("citation", ""))
-                        break
-                records.append({
-                    "ku_id": ku_id,
-                    "field": field,
-                    "value": value,
-                    "origin": origin,
-                    "source_ref": "、".join(f"S{s}" for s in srefs),
-                    "source_citation": citation[:200],
-                })
+
+        section = ""
+        lines = body.splitlines()
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            # 追踪 ### 小节
+            if line.startswith("###"):
+                section = line.lstrip("#").strip()
+                i += 1
+                continue
+            if line.strip().startswith("|") and "|" in line.strip():
+                block = []
+                while i < len(lines) and lines[i].strip().startswith("|"):
+                    block.append(lines[i].strip())
+                    i += 1
+                if len(block) >= 3:
+                    header = split_row(block[0])
+                    rows = []
+                    for r in block[1:]:
+                        if re.match(r"^\|?[\s:|-]+\|?$", r):
+                            continue
+                        cells = split_row(r)
+                        if any(cells):
+                            rows.append(cells)
+                    # 三列表：字段|值|证据
+                    if len(header) == 3 and header[0] == "字段":
+                        for cells in rows:
+                            if len(cells) < 3 or not cells[0] or not cells[1]:
+                                continue
+                            field, value, evidence = cells[0], cells[1], cells[2]
+                            srefs = [int(x) for x in re.findall(r"S(\d+)", evidence)]
+                            origin = origin_of(srefs, sources) if srefs else "inferred"
+                            records.append({
+                                "ku_id": ku_id, "field": field, "value": value,
+                                "origin": origin,
+                                "source_ref": "、".join(f"S{s}" for s in srefs),
+                                "source_citation": citation_of(srefs, sources)[:200],
+                            })
+                    # 四列及以上重复条目：字段=小节，值=非证据列
+                    elif len(header) >= 4:
+                        for cells in rows:
+                            if len(cells) < 2:
+                                continue
+                            evidence = cells[-1]
+                            content_cells = cells[:-1]
+                            if not any(content_cells):
+                                continue
+                            srefs = [int(x) for x in re.findall(r"S(\d+)", evidence)]
+                            origin = origin_of(srefs, sources) if srefs else "inferred"
+                            records.append({
+                                "ku_id": ku_id, "field": section or "｜".join(header[:-1]),
+                                "value": "｜".join(content_cells),
+                                "origin": origin,
+                                "source_ref": "、".join(f"S{s}" for s in srefs),
+                                "source_citation": citation_of(srefs, sources)[:200],
+                            })
+            else:
+                i += 1
 
     with open(TABLES / "enrichment.jsonl", "w", encoding="utf-8") as f:
         for i, r in enumerate(records, 1):
@@ -124,9 +144,9 @@ def main() -> None:
             }
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
+    from collections import Counter
     print(f"cards: {len(ku_rows)}")
     print(f"field records: {len(records)}")
-    from collections import Counter
     print(f"origin: {dict(Counter(r['origin'] for r in records))}")
 
 
