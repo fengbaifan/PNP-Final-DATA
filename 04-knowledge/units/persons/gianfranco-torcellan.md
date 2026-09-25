@@ -77,18 +77,6 @@ relations:
   bidirectional_required: false
   role: 学术培养者
   scope: 二手学术传记称Torcellan在都灵受Franco Venturi学派培养；不推定学位、具体课程或任教关系
-- relation_type: authored_by
-  target: archives/torcellan-settecento-veneto-1969.md
-  evidence_ref:
-    doc_id: persons-gianfranco-torcellan
-    source_file: https://books.google.com/books?id=jC0ZAQAAMAAJ
-    source_span: Google Books书目与版本信息
-  review_status: evidence_backed_relation
-  relation_source: explicit
-  bidirectional_required: false
-  role: 作者
-  scope: 身后出版的历史论文集；书目署Torcellan为作者，不据此认定其编辑或逐篇作者责任
-  time: '1969'
 ---
 
 ## 内容
@@ -152,7 +140,7 @@ relations:
 | ← 所著文献（`author_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：作者；范围：所列版本书目责任，不声称读过全文；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
 | ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
 | → trained_by（`trained_by`） | [弗兰科·文图里（Franco Venturi）](franco-venturi.md) | 角色：学术培养者；范围：学术传记称其在都灵受文图里学派培养；不推定学位或任职；证据：S5，具体印刷页待核 |
-| → authored_by（`authored_by`） | [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../archives/torcellan-settecento-veneto-1969.md) | 时间：1969；角色：作者；范围：书目署Torcellan为作者的身后论文集；不推定其编辑或逐篇作者责任；证据：S4 |
+| ← 所著文献（`author_of`，反向投影） | [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../archives/torcellan-settecento-veneto-1969.md) | 时间：1969；角色：作者；范围：书目署Torcellan为作者的身后论文集；不推定其编辑或逐篇作者责任；证据：S4；原断言与证据见发出端卡片“威尼托的18世纪与其他历史著作” |
 
 ### 关系候选入口
 

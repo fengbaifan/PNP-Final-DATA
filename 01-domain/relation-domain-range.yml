@@ -1,0 +1,90 @@
+version: 1
+authority: relation-domain-range-v1
+status: draft-v1
+note: |
+  本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
+  v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
+  domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
+  未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
+  same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
+  校验结论：0 弃用类型在途、0 未知谓词、0 非法类型；修正 authored_by 一条反向边。
+
+# 九类实体（domain/range 取值）：person, family, institution, place, work, archive, term, procedure, event
+
+needs_split:
+  located_at: |
+    语义过载：一条谓词同时承担 person/institution/archive/work → place/institution 多种语境
+    （原定场所 / 书中馆藏 / 今日馆藏 / 物理位置）。拆分去向待定（见 stage-artifact-schema.md 的跟踪项）。
+
+domain_range:
+  acquired_by:      {domain: [work], range: [family, institution, person]}
+  addressed_to:     {domain: [archive], range: [person]}
+  advised:          {domain: [person], range: [person]}
+  advised_by:       {domain: [person], range: [person]}
+  appointed_by:     {domain: [person], range: [person]}
+  appointer_of:     {domain: [person], range: [person]}
+  authored_by:      {domain: [archive], range: [person]}
+  borrowed_by:      {domain: [archive, work], range: [institution, person]}
+  child_of:         {domain: [person], range: [person]}
+  cites:            {domain: [archive], range: [archive]}
+  collaborated_with: {domain: [person], range: [person]}
+  commissioned_by:  {domain: [place, work], range: [family, institution, person]}
+  compiled_by:      {domain: [archive], range: [person]}
+  contributed_by:   {domain: [archive, work], range: [institution, person]}
+  corresponded_with: {domain: [person], range: [person]}
+  created_by:       {domain: [work], range: [person]}
+  creator_of:       {domain: [person], range: [work]}
+  dedicated_by:     {domain: [work], range: [person]}
+  dedicated_to:     {domain: [work], range: [person]}
+  derived_from:     {domain: [archive, work], range: [archive, work]}
+  disputed_with:    {domain: [institution, person], range: [institution, person]}
+  educated_at:      {domain: [person], range: [institution]}
+  employed_by:      {domain: [person], range: [institution, person]}
+  exemplified_by:   {domain: [procedure], range: [event]}
+  friend_of:        {domain: [person], range: [person]}
+  granted_privilege_to: {domain: [person], range: [institution, person]}
+  handled_by:       {domain: [work], range: [institution]}
+  has_participant:  {domain: [event], range: [institution, person]}
+  has_subject:      {domain: [archive, event, work], range: [archive, family, institution, person, place, term, work]}
+  held_by:          {domain: [work], range: [institution, person]}
+  honourer_of:      {domain: [person], range: [person]}
+  influenced_by:    {domain: [person], range: [person]}
+  installed_at:     {domain: [work], range: [place]}
+  intended_for:     {domain: [work], range: [institution, place]}
+  intended_site_of: {domain: [place], range: [work]}
+  introduced_by:    {domain: [person], range: [person]}
+  issued_by:        {domain: [archive], range: [person]}
+  kin_of:           {domain: [person], range: [person]}
+  lent_by:          {domain: [work], range: [institution]}
+  located_at:       {domain: [archive, institution, person, place, work], range: [institution, place]}
+  location_of:      {domain: [place], range: [work]}
+  member_of:        {domain: [person], range: [family, institution]}
+  model_for:        {domain: [work], range: [work]}
+  occurred_at:      {domain: [event], range: [place]}
+  owned_by:         {domain: [archive, place, work], range: [family, institution, person]}
+  parent_of:        {domain: [person], range: [person]}
+  part_of:          {domain: [archive, institution, place, work], range: [archive, institution, place, work]}
+  patron_of:        {domain: [person], range: [person]}
+  patronized_by:    {domain: [person, work], range: [family, person]}
+  pendant_of:       {domain: [work], range: [work]}
+  published_by:     {domain: [archive], range: [institution, person]}
+  sibling_of:       {domain: [person], range: [person]}
+  spouse_of:        {domain: [person], range: [person]}
+  supplied_by:      {domain: [work], range: [institution, person]}
+  supported_by:     {domain: [archive, institution, person], range: [institution, person]}
+  teacher_of:       {domain: [person], range: [person]}
+  testified_about:  {domain: [person], range: [person]}
+  trained_by:       {domain: [person], range: [person]}
+  uses_procedure:   {domain: [event, person], range: [procedure]}
+  variant_of:       {domain: [work], range: [work]}
+
+deprecated_for_new_edges:
+  - associated_institution
+  - associated_person
+  - associated_work
+  - involves_person
+  - relates_to_event
+  - relates_to_publication
+  - relates_to_term
+  - relates_to_work
+  - related_to
