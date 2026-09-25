@@ -24,3 +24,8 @@ research = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+[tool.setuptools]
+# 本项目不是 Python 库（脚本经 sys.path/命名空间导入），禁止 flat-layout 自动发现，
+# 避免 release/portable 被误判为顶层包导致 pip install -e 失败。
+packages = []
