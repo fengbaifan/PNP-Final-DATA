@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-09-25
-# total: 1227
-# sources: {'explicit': 1226, 'inferred_by_rule': 1}
+# total: 1226
+# sources: {'explicit': 1225, 'inferred_by_rule': 1}
 
 - source: persons/alessandro-bettagno.md
   source_type: person
@@ -2912,26 +2912,6 @@
   review_status: evidence_backed_relation
   role: 学术培养者
   scope: 二手学术传记称Torcellan在都灵受Franco Venturi学派培养；不推定学位、具体课程或任教关系
-- source: persons/gianfranco-torcellan.md
-  source_type: person
-  target: archives/torcellan-settecento-veneto-1969.md
-  target_type: archive
-  relation_type: authored_by
-  inverse_relation_type: null
-  note: ''
-  evidence: ''
-  evidence_ref:
-    doc_id: persons-gianfranco-torcellan
-    source_file: https://books.google.com/books?id=jC0ZAQAAMAAJ
-    source_span: Google Books书目与版本信息
-  claim_id: null
-  confidence: medium
-  relation_source: explicit
-  bidirectional_required: false
-  review_status: evidence_backed_relation
-  time: '1969'
-  role: 作者
-  scope: 身后出版的历史论文集；书目署Torcellan为作者，不据此认定其编辑或逐篇作者责任
 - source: persons/giannantonio-fumiani.md
   source_type: person
   target: places/venice.md
