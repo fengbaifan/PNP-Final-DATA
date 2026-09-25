@@ -3,47 +3,20 @@
 
 from __future__ import annotations
 
-import argparse
 import re
-import sys
-import time
 import unicodedata
 from pathlib import Path
 
 try:
-    import requests
-except ImportError:
-    requests = None
-
-try:
-    from scripts._verification_targets import load_result_targets, resolve, resolve_single_target, write_jsonl
+    from scripts import _collect_common as common
 except ModuleNotFoundError:
-    from _verification_targets import load_result_targets, resolve, resolve_single_target, write_jsonl
+    import _collect_common as common
 
 
-BASE = Path(__file__).resolve().parents[1]
-UNITS = BASE / "04-knowledge" / "units"
 SEARCH_API = "https://openlibrary.org/search.json"
-HEADERS = {
-    "Accept": "application/json",
-    "User-Agent": "PNP-Knowledge-Distillation/5.3 (+https://github.com/fengbaifan/PNP-Final-DATA)",
-}
-HTTP_TIMEOUT = 25
-MAX_API_RETRIES = 2
-REQUEST_DELAY = 1.05
 MAX_CANDIDATES = 10
 TYPE_ALIASES = {"works": "work", "archives": "archive"}
 QUALITY_RANK = {"none": 0, "weak": 1, "medium": 2, "strong": 3}
-
-
-def extract_frontmatter(text: str) -> str:
-    match = re.search(r"^\ufeff?---\r?\n(.*?)\r?\n---\r?\n", text, re.DOTALL)
-    return match.group(1).strip("\n") if match else ""
-
-
-def scalar_fm(fm: str, field: str) -> str:
-    match = re.search(rf"^{re.escape(field)}\s*:\s*(.+?)\s*$", fm, re.MULTILINE)
-    return match.group(1).strip().strip('"').strip("'") if match else ""
 
 
 def normalize_text(value: str) -> str:
@@ -67,7 +40,7 @@ def title_score(expected: str, actual: str) -> float:
 
 def expected_year(fm: str, *values: str) -> int | None:
     for field in ("publication_year", "year", "date"):
-        raw = scalar_fm(fm, field)
+        raw = common.scalar_fm(fm, field)
         match = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", raw)
         if match:
             return int(match.group(1))
@@ -116,44 +89,6 @@ def author_lists_overlap(left: list[str], right: list[str]) -> bool:
             if left_tokens[-1] == right_tokens[-1] and len(left_tokens[-1]) > 2:
                 return True
     return False
-
-
-def request_search(query: str) -> tuple[dict | None, dict | None]:
-    if not requests:
-        return None, {"stage": "search", "error_type": "missing_dependency", "attempts": 0, "retryable": False}
-    params = {
-        "title": query,
-        "limit": MAX_CANDIDATES,
-        "fields": "key,title,author_name,first_publish_year,publisher,isbn,edition_count,language",
-    }
-    last_error: dict | None = None
-    for attempt in range(1, MAX_API_RETRIES + 2):
-        try:
-            response = requests.get(SEARCH_API, params=params, headers=HEADERS, timeout=HTTP_TIMEOUT)
-            if response.status_code == 200:
-                return response.json(), None
-            retryable = response.status_code == 429 or response.status_code >= 500
-            last_error = {
-                "stage": "search",
-                "error_type": "http_error",
-                "http_status": response.status_code,
-                "attempts": attempt,
-                "retryable": retryable,
-            }
-            if not retryable or attempt > MAX_API_RETRIES:
-                break
-        except Exception as exc:
-            last_error = {
-                "stage": "search",
-                "error_type": type(exc).__name__,
-                "message": str(exc)[:300],
-                "attempts": attempt,
-                "retryable": True,
-            }
-            if attempt > MAX_API_RETRIES:
-                break
-        time.sleep(min(2 ** (attempt - 1), 4))
-    return None, last_error
 
 
 def evaluate_candidates(expected_title: str, year: int | None, docs: list[dict]) -> tuple[dict | None, list[dict], str | None]:
@@ -233,113 +168,82 @@ def bibliographic_fact(best: dict | None, expected: int | None) -> bool:
     return len(metadata) >= 2
 
 
-def collect_one(path: Path, verbose: bool = False) -> dict | None:
-    fm = extract_frontmatter(path.read_text(encoding="utf-8"))
-    if not fm:
-        return None
-    ku_type = scalar_fm(fm, "type").lower() or TYPE_ALIASES.get(path.parent.name, "")
-    if ku_type not in {"work", "archive"}:
-        raise ValueError(f"Open Library collector 只接受 work/archive：{path}")
-    display_title = scalar_fm(fm, "title")
-    original_title = scalar_fm(fm, "title_original")
-    title = scalar_fm(fm, "name_en") or original_title or display_title
-    year = expected_year(fm, title, display_title, original_title, path.stem)
-    query = search_title(title)
-    payload, collection_error = request_search(query)
-    docs = payload.get("docs") if isinstance(payload, dict) and isinstance(payload.get("docs"), list) else []
-    best, candidates, blocking_reason = evaluate_candidates(title, year, docs)
-    if collection_error:
-        blocking_reason = "api_error"
-    scope = "bibliographic_fact" if bibliographic_fact(best, year) and not blocking_reason else "bibliographic_hint"
-    quality = best.get("match_quality", "none") if best else "none"
-    recommended: dict = {}
-    if not blocking_reason and quality in {"strong", "medium"}:
-        recommended = {
-            "evidence_status": "externally_verified" if scope == "bibliographic_fact" else "partially_verified",
-            "verification_level": "L6",
-            "confidence": "medium",
-            "consensus": "tentative",
+class OpenLibraryAdapter(common.Adapter):
+    name = "Open Library"
+    description = "通过 Open Library 收集 work/archive 的书目证据。"
+    type_aliases = TYPE_ALIASES
+
+    def accepts(self, ku_type: str) -> bool:
+        return ku_type in {"work", "archive"}
+
+    def _year(self, fm: str, label: str, path: Path) -> int | None:
+        display_title = common.scalar_fm(fm, "title")
+        original_title = common.scalar_fm(fm, "title_original")
+        return expected_year(fm, label, display_title, original_title, path.stem)
+
+    def search(self, label: str, ku_type: str, fm: str, path: Path) -> tuple[dict | None, dict | None]:
+        query = search_title(label)
+        params = {
+            "title": query,
+            "limit": MAX_CANDIDATES,
+            "fields": "key,title,author_name,first_publish_year,publisher,isbn,edition_count,language",
         }
-    key = best.get("key", "") if best else ""
-    url = f"https://openlibrary.org{key}" if key.startswith("/") else ""
-    evidence = {
-        "ku_path": path.relative_to(BASE).as_posix(),
-        "platform": "Open Library",
-        "source_type": "library_catalog_api",
-        "source_authority": "aggregated_library_metadata",
-        "source_independence_group": "openlibrary_internet_archive",
-        "url": url,
-        "claim_scope": scope,
-        "claim_target": "bibliographic_identity_and_fields" if scope == "bibliographic_fact" else "title_or_bibliographic_identity",
-        "match_quality": quality,
-        "match_score": best.get("match_score", 0.0) if best else 0.0,
-        "verified_fields": best.get("verified_fields", []) if best else [],
-        "conflicting_fields": ["publication_year"] if best and best.get("year_conflict") else [],
-        "expected_year": year,
-        "matched_title": best.get("title", "") if best else "",
-        "matched_authors": best.get("authors", []) if best else [],
-        "matched_first_publish_year": best.get("first_publish_year") if best else None,
-        "matched_publishers": best.get("publishers", []) if best else [],
-        "matched_isbns": best.get("isbns", []) if best else [],
-        "candidate_rank": best.get("candidate_rank", 0) if best else 0,
-        "candidate_count": payload.get("numFound", len(docs)) if isinstance(payload, dict) else 0,
-        "returned_candidate_count": len(docs),
-        "candidates": candidates,
-        "collection_error": collection_error,
-        "blocking_reason": blocking_reason,
-        "recommended_changes": recommended,
-        "notes": (
-            "Open Library metadata supports only bibliographic identity and recorded fields; "
-            "it does not validate visual interpretation, authorship beyond the catalog record, or domain relevance."
-        ),
-    }
-    if verbose:
-        print(
-            f"[{ku_type}] {title}: {quality} {blocking_reason or scope} "
-            f"{evidence['matched_title']}",
-            file=sys.stderr,
-        )
-    return evidence
+        return common.request_json(SEARCH_API, params, stage="search")
+
+    def evaluate(self, label: str, ku_type: str, fm: str, path: Path, payload: dict | None) -> tuple[dict | None, list[dict], str | None]:
+        year = self._year(fm, label, path)
+        docs = payload.get("docs") if isinstance(payload, dict) and isinstance(payload.get("docs"), list) else []
+        return evaluate_candidates(label, year, docs)
+
+    def build_evidence(self, path, ku_type, label, fm, best, candidates, blocking_reason, payload, collection_error):
+        year = self._year(fm, label, path)
+        scope = "bibliographic_fact" if bibliographic_fact(best, year) and not blocking_reason else "bibliographic_hint"
+        quality = best.get("match_quality", "none") if best else "none"
+        recommended: dict = {}
+        if not blocking_reason and quality in {"strong", "medium"}:
+            recommended = {
+                "evidence_status": "externally_verified" if scope == "bibliographic_fact" else "partially_verified",
+                "verification_level": "L6",
+                "confidence": "medium",
+                "consensus": "tentative",
+            }
+        key = best.get("key", "") if best else ""
+        url = f"https://openlibrary.org{key}" if key.startswith("/") else ""
+        return {
+            "ku_path": path.relative_to(common.BASE).as_posix(),
+            "platform": self.name,
+            "source_type": "library_catalog_api",
+            "source_authority": "aggregated_library_metadata",
+            "source_independence_group": "openlibrary_internet_archive",
+            "url": url,
+            "claim_scope": scope,
+            "claim_target": "bibliographic_identity_and_fields" if scope == "bibliographic_fact" else "title_or_bibliographic_identity",
+            "match_quality": quality,
+            "match_score": best.get("match_score", 0.0) if best else 0.0,
+            "verified_fields": best.get("verified_fields", []) if best else [],
+            "conflicting_fields": ["publication_year"] if best and best.get("year_conflict") else [],
+            "expected_year": year,
+            "matched_title": best.get("title", "") if best else "",
+            "matched_authors": best.get("authors", []) if best else [],
+            "matched_first_publish_year": best.get("first_publish_year") if best else None,
+            "matched_publishers": best.get("publishers", []) if best else [],
+            "matched_isbns": best.get("isbns", []) if best else [],
+            "candidate_rank": best.get("candidate_rank", 0) if best else 0,
+            "candidate_count": payload.get("numFound", len(candidates)) if isinstance(payload, dict) else 0,
+            "returned_candidate_count": len(candidates),
+            "candidates": candidates,
+            "collection_error": collection_error,
+            "blocking_reason": blocking_reason,
+            "recommended_changes": recommended,
+            "notes": (
+                "Open Library metadata supports only bibliographic identity and recorded fields; "
+                "it does not validate visual interpretation, authorship beyond the catalog record, or domain relevance."
+            ),
+        }
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    scope = parser.add_mutually_exclusive_group(required=True)
-    scope.add_argument("--ku")
-    scope.add_argument("--input-result", type=Path)
-    parser.add_argument("--checkpoint", type=int, default=0)
-    parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--verbose", action="store_true")
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-    if args.checkpoint and not args.input_result:
-        parser.error("--checkpoint 只能与 --input-result 一起使用")
-    if args.ku:
-        target = resolve_single_target(args.ku, UNITS)
-        if not target:
-            parser.error(f"未找到 KU：{args.ku}")
-        files = [target]
-    else:
-        files = load_result_targets(resolve(args.input_result, BASE), BASE, UNITS, args.checkpoint)
-    invalid = [path for path in files if path.parent.name not in TYPE_ALIASES]
-    if invalid:
-        parser.error(f"Open Library collector 收到非 work/archive 目标：{invalid[0]}")
-    if args.dry_run:
-        print(f"targets={len(files)} checkpoint={args.checkpoint or 'all'} output={args.output}")
-        return 0
-    rows = []
-    for path in files:
-        evidence = collect_one(path, verbose=args.verbose)
-        if evidence:
-            rows.append(evidence)
-        time.sleep(REQUEST_DELAY)
-    output = resolve(args.output, BASE)
-    write_jsonl(rows, output)
-    print(f"evidence={output.relative_to(BASE) if output.is_relative_to(BASE) else output}")
-    print(f"rows={len(rows)}")
-    print(f"blocked={sum(bool(row.get('blocking_reason')) for row in rows)}")
-    print(f"bibliographic_fact={sum(row.get('claim_scope') == 'bibliographic_fact' for row in rows)}")
-    return 0
+    return common.run(OpenLibraryAdapter())
 
 
 if __name__ == "__main__":
