@@ -37,7 +37,7 @@ Codex 为本项目执行客户端。规范文件名为 `AGENTS.md`，不另建 a
 
 ## 记录与存储
 
-每次收到本项目实际可见用户消息，先在 `06-runtime/governance/user-revisions.md` 追加原话，普通问答也记录；解释和处理结果另列。不虚构其他任务消息。`06-runtime/governance/current-requirements.md` 只索引有效要求。
+治理日志已冻结归档：`06-runtime/governance/user-revisions.md` 与 `06-runtime/governance/system-upgrade-log.md` 保留为只读历史，不再追加。新规则变化只记 `06-runtime/governance/CHANGELOG.md`；普通问答不再逐条记 REV。`06-runtime/governance/current-requirements.md` 只索引仍有效的要求，结果文件只保留当前状态。
 
 业务目录从 01 开始，编号表示职责：
 - `01-domain/`：材料范围、表达约定与命名，不预设研究结构。
@@ -69,9 +69,9 @@ Codex 为本项目执行客户端。规范文件名为 `AGENTS.md`，不另建 a
 
 - 先读本入口及当前任务结果确定范围和未决项，再读 pipeline 中相关阶段、对应 Skill；遇到字段、引用或机器接口问题时，才读 Skill 直接列出的 reference。参考清单不是全量必读清单，不递归加载所有 Skills、历史日志或来源库；已要求完整语义阅读的材料仍须完整读完。
 - 路径以仓库根为准；Skill 自有 `references/` 相对该 Skill，跨 Skill 引用使用完整 `.agents/skills/...` 路径。规则只在职责所属文件维护，导航提供链接，不复制第二份规则或统计。
-- 原话仅追加到 user-revisions，current-requirements 仅留有效要求与权威入口；系统修订的详细过程只记 system-upgrade-log。纯系统修订不向 03/04 重复追加业务报告。
+- user-revisions 与 system-upgrade-log 已冻结为只读历史；current-requirements 仅留有效要求与权威入口，规则变化记 CHANGELOG。纯系统修订不向 03/04 重复追加业务报告。
 - 实际研究过程按 pipeline 分布在 03 的任务包，按阶段追加证据与改变判断的理由；04 的结果原位更新当前状态、成果链接与下一步依赖，历史证据和裁决保留。05 的呈现、06 的治理/机器状态各守职责。
-- 接续从当前 results 定位到相关过程段落和证据，不把所有历史记录全文堆进总入口；稳定 task-id、KU 路径、来源定位和 REV 编号连接记录，不增设中央总账或每轮新文档。
+- 接续从当前 results 定位到相关过程段落和证据，不把所有历史记录全文堆进总入口；稳定 task-id、KU 路径和来源定位连接记录，不增设中央总账或每轮新文档。
 
 只使用 main，不创建其他分支或 worktree。Git 提交、推送按明确授权执行，并单独核验远端。
-系统调整过程和结果只记 `06-runtime/governance/system-upgrade-log.md`；权限以实际 Codex 环境为准，不维护另一套权限表或假定 Hook 生效。
+系统调整过程和结果记 `06-runtime/governance/CHANGELOG.md`；权限以实际 Codex 环境为准，不维护另一套权限表或假定 Hook 生效。

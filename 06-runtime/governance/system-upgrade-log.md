@@ -1,5 +1,7 @@
 # 系统升级记录
 
+> ⚠️ 本文件已于 2026-09-25 冻结为只读历史，不再追加。新变化见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 工作流复刻初始化
 
 - 原工作流按字节复刻，来源及哈希见 workflow-copy-manifest.json。
