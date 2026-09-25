@@ -24,7 +24,7 @@ router 额外声明 `routes_to`。不得再用目录层级猜测 router/leaf；�
 
 ## 派生字段
 
-`06-runtime/state/skill-registry.json` 由以下磁盘事实确定性生成：
+06-runtime/state/skill-registry.json 由以下磁盘事实确定性生成：
 
 - `name`、`kind`、`phase`、`description`、`triggers`、`routes_to` 来自 frontmatter；
 - `path` 来自目录，不再派生冗余 category；适用部分由 phase 表达；

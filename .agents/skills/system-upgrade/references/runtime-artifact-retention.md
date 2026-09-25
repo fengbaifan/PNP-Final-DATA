@@ -21,4 +21,4 @@ read-only retention report
 
 Run `python scripts/build_runtime_index.py --retention-report`. The report must remain read-only and expose tier counts, R2 provenance gaps, duplicate capacity signals, and R3 residue.
 
-Repository-level generated projections use `06-runtime/state/generated-projections-manifest.json`. It is generated only after all projections have been refreshed.
+Repository-level generated projections use 06-runtime/state/generated-projections-manifest.json. It is generated only after all projections have been refreshed.

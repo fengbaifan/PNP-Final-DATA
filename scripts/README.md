@@ -35,10 +35,10 @@ workflow-copy-manifest.json 是最初导入的历史清单，其中路径和数�
 
 以下文件是**派生**的，不是事实源；日常批次不手动重建、不逐批提交，只在 S7 发布或按需时由对应脚本生成：
 
-- `04-knowledge/quality/translation-index.yml`、`relation-candidates.yml`
-- `06-runtime/state/current-health.json`、`skill-registry.json`、`generated-projections-manifest.json`、`candidate-index.jsonl`、`discovery-manifest.json`
-- `06-runtime/automation/index.md`、`06-runtime/governance/governance-backlog.md`
-- `05-outputs/index/*` 和页面数据 `knowledge-graph-data.json/js`：只在用户明确下指令时生成，S7 不生成。
+- 04-knowledge/quality/translation-index.yml、relation-candidates.yml
+- 06-runtime/state/current-health.json、skill-registry.json、generated-projections-manifest.json、candidate-index.jsonl、discovery-manifest.json
+- 06-runtime/automation/index.md、06-runtime/governance/governance-backlog.md
+- 05-outputs/index/* 和页面数据 knowledge-graph-data.json/js：只在用户明确下指令时生成，S7 不生成。
 
 事实源（过渡期）是 `04-knowledge/accepted.yml` 与 `units/*.md` 卡片；目标是把 `04-knowledge/tables/` 反转成唯一事实源（当前 `build_tables.py` 仍从卡片与 accepted.yml 导出 tables）。`release/vX/` 是 S7 冻结快照。审计脚本读取派生文件和视图，只用于检查。
 
