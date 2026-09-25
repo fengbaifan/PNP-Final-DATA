@@ -123,7 +123,8 @@ class BuildKnowledgeGraphDataTests(unittest.TestCase):
                 "---\ntitle: Theme B2\nnode_type: theme\ntheme_code: B.2\nprimary_dimension: B\n---\n",
                 encoding="utf-8",
             )
-            (quality / "relation-index.yml").write_text("[]\n", encoding="utf-8")
+            (root / "04-knowledge" / "tables").mkdir(parents=True, exist_ok=True)
+            (root / "04-knowledge" / "tables" / "relations.csv").write_text(HDR + "\n", encoding="utf-8")
 
             data = build_knowledge_graph_data.build_graph(root)
 
