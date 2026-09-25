@@ -17,10 +17,11 @@
 | 外部候选采集 | verify_collect_*.py 只产生候选证据；Wikipedia/Wikidata collector 目前未自动完成双向 QID 配对，须按 verify 直接阅读与核对。Open Library 等书目来源只覆盖 archive 的适用子集 |
 | 验证状态写回 | verify_apply_evidence.py 使用证据、语义裁决、dry-run 和显式 apply；evidence_batch_runner.py 只路由已有证据，不自行批准知识 |
 | 未决事项定位 | audit_unverified_queue.py、plan_verification_batch.py、plan_relation_candidates.py 输出候选或计划；工具中的批量默认值不是日常研究固定配额 |
-| 关系与名称投影 | build_relation_index.py 生成关系索引，build_relation_views.py 将正式边及反向导航投影到卡片可读表格，build_translation_index.py 生成名称索引；正式事实仍在 KU frontmatter，当前成果范围由 accepted.yml 指定 |
+| 关系与名称投影 | build_relation_index.py 生成关系索引，build_relation_views.py 将正式边及反向导航投影到卡片可读表格，build_translation_index.py 生成名称索引；正式事实在 04-knowledge/tables/relations.csv，卡片关系表由其渲染 |
 | 关系批量写回 | apply_relation_plan.py 只执行已审查 JSONL 的精确替换，默认 dry-run、整批预检、正式 apply 原子写回；语义类型与限定词须先写入计划 |
-| 后续结构 | build_discovery_index.py、hierarchy_stress_test.py、apply_topic_memberships.py 仅在相应任务已启动时使用，不因空层级自动执行 |
+| 后续结构 | build_discovery_index.py、hierarchy_stress_test.py 仅在相应任务已启动时使用，不因空层级自动执行 |
 | 运行与生成记录 | build_runtime_index.py、build_generated_projection_manifest.py 记录实际运行/输入输出，不证明研究完成；不为普通编辑刷新全部快照 |
+| S0–S7 产物导出 | build_tables.py 从现有数据生成 04-knowledge/tables/ 并导出 release/vX/ 冻结快照；迁移映射见 stage-artifact-schema.md 0.4 |
 
 ## 收尾与历史入口
 
