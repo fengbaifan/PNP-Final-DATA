@@ -7,6 +7,11 @@ Cluster 是跨层发现候选，不在这里计作结构节点或自动生成层
 
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import hashlib
 import json
@@ -21,7 +26,7 @@ UNITS = ROOT / "04-knowledge" / "units"
 HIERARCHY = ROOT / "04-knowledge" / "structure" / "hierarchy"
 THEMES = ROOT / "04-knowledge" / "structure" / "themes"
 TOPICS = ROOT / "04-knowledge" / "structure" / "topics"
-RELATION_INDEX = ROOT / "04-knowledge" / "quality" / "relation-index.yml"
+RELATION_INDEX = ROOT / "04-knowledge" / "tables" / "relations.csv"
 HIERARCHY_FIELDS = ("primary_domain", "primary_dimension", "primary_theme", "topic_memberships")
 FRONTMATTER_RE = re.compile(r"\A(?:\ufeff)?---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9'-]{2,}|[\u4e00-\u9fff]{2,}")
@@ -158,7 +163,7 @@ def load_relation_adjacency(path: Path = RELATION_INDEX) -> dict[str, set[str]]:
     adjacency: defaultdict[str, set[str]] = defaultdict(set)
     if not path.exists():
         return adjacency
-    data = yaml.safe_load(read_text(path)) or []
+    data = load_relations(path)
     if isinstance(data, dict):
         data = data.get("relations") or []
     prefixes = tuple(f"{name}/" for name in UNIT_DIRS)

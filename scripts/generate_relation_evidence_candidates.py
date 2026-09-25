@@ -6,6 +6,11 @@ relation types or apply relation writeback.
 """
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import json
 import re
@@ -17,11 +22,11 @@ import yaml
 
 
 BASE = Path(__file__).resolve().parents[1]
-DEFAULT_RELATION_INDEX = BASE / "04-knowledge" / "quality" / "relation-index.yml"
+DEFAULT_RELATION_INDEX = BASE / "04-knowledge" / "tables" / "relations.csv"
 
 
 def load_yaml_rows(path: Path) -> list[dict[str, Any]]:
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    data = load_relations(path)
     return [row for row in data if isinstance(row, dict)]
 
 

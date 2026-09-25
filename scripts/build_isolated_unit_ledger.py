@@ -7,6 +7,11 @@ facts.
 """
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import hashlib
 import json
@@ -21,7 +26,7 @@ import yaml
 
 BASE = Path(__file__).resolve().parents[1]
 DEFAULT_AUTOMATION_ROOT = BASE / "06-runtime" / "automation"
-DEFAULT_RELATION_INDEX = BASE / "04-knowledge" / "quality" / "relation-index.yml"
+DEFAULT_RELATION_INDEX = BASE / "04-knowledge" / "tables" / "relations.csv"
 UNITS = BASE / "04-knowledge" / "units"
 BATCH_RE = re.compile(r"batch-(\d+)")
 DATE_PREFIX = re.compile(r"^(\d{4}-\d{2}-\d{2})")
@@ -322,7 +327,7 @@ def build_signal_queues(rows: list[dict[str, Any]]) -> dict[str, list[dict[str, 
 def load_relation_index(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         return []
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    data = load_relations(path)
     if isinstance(data, dict):
         data = data.get("relations", [])
     return [row for row in data if isinstance(row, dict)]

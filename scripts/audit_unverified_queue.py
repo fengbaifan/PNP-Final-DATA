@@ -6,6 +6,11 @@ evidence_status、verification_level 或 source_count。
 
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import json
 import re
@@ -19,7 +24,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 UNITS = ROOT / "04-knowledge" / "units"
-RELATION_INDEX = ROOT / "04-knowledge" / "quality" / "relation-index.yml"
+RELATION_INDEX = ROOT / "04-knowledge" / "tables" / "relations.csv"
 
 LLM_FIRST_TYPES = {"terms", "procedures"}
 DIRECT_TYPES = {"persons", "families", "institutions", "places", "works", "archives", "events"}
@@ -122,7 +127,7 @@ def collect(paths: list[Path] | None = None) -> list[Unit]:
     candidates = paths if paths is not None else sorted(UNITS.rglob("*.md"))
     connected: set[str] = set()
     if RELATION_INDEX.is_file():
-        relation_rows = yaml.safe_load(RELATION_INDEX.read_text(encoding="utf-8")) or []
+        relation_rows = load_relations(RELATION_INDEX)
         if isinstance(relation_rows, list):
             for row in relation_rows:
                 if not isinstance(row, dict):

@@ -1,4 +1,6 @@
 import hashlib
+
+HDR = 'relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span'
 import json
 import tempfile
 from pathlib import Path
@@ -53,7 +55,7 @@ def test_source_review_queue_clusters_and_recalls_without_approving():
         root = Path(tmp)
         units = root / "04-knowledge" / "units"
         topics = root / "04-knowledge" / "structure" / "topics"
-        relation_index = root / "04-knowledge" / "quality" / "relation-index.yml"
+        relation_index = root / "04-knowledge" / "tables" / "relations.csv"
         topic = topics / "comparison-topic.md"
         topic.parent.mkdir(parents=True)
         topic.write_text(
@@ -122,10 +124,7 @@ def test_source_review_queue_clusters_and_recalls_without_approving():
         )
         relation_index.parent.mkdir(parents=True)
         relation_index.write_text(
-            "- source: terms/candidate-a.md\n"
-            "  target: terms/reviewed-neighbor.md\n"
-            "  relation_type: related_to\n"
-            "  review_status: agent_validated\n",
+            HDR + "\nrel-1,units/terms/candidate-a,units/terms/reviewed-neighbor,related_to,forward,,,,book,formal,,,\n",
             encoding="utf-8",
         )
         output = root / "06-runtime" / "automation" / "batch" / "hierarchy-review-queue.jsonl"
@@ -168,10 +167,10 @@ def test_source_review_queue_can_select_one_explicit_unit_type():
         root = Path(tmp)
         units = root / "04-knowledge" / "units"
         topics = root / "04-knowledge" / "structure" / "topics"
-        relation_index = root / "04-knowledge" / "quality" / "relation-index.yml"
+        relation_index = root / "04-knowledge" / "tables" / "relations.csv"
         topics.mkdir(parents=True)
         relation_index.parent.mkdir(parents=True)
-        relation_index.write_text("[]\n", encoding="utf-8")
+        relation_index.write_text(HDR + "\n", encoding="utf-8")
         write_unit(
             units / "terms" / "term-a.md",
             title="Term A",

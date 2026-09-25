@@ -9,6 +9,11 @@ reports Topic coverage for later Agent selection.
 
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import hashlib
 import json
@@ -55,7 +60,7 @@ def full_unit_path(value: object) -> str | None:
 
 
 def relation_degrees(path: Path) -> Counter[str]:
-    rows = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    rows = load_relations(path)
     if not isinstance(rows, list):
         raise ValueError(f"relation index 不是列表：{path}")
     degrees: Counter[str] = Counter()
@@ -309,7 +314,7 @@ def main() -> int:
         dest="unit_types",
         help="只选择指定 KU 类型；可重复传入。",
     )
-    parser.add_argument("--relation-index", type=Path, default=Path("04-knowledge/quality/relation-index.yml"))
+    parser.add_argument("--relation-index", type=Path, default=Path("04-knowledge/tables/relations.csv"))
     parser.add_argument("--candidate-index", type=Path, default=Path("06-runtime/state/candidate-index.jsonl"))
     parser.add_argument("--graph", type=Path, default=Path("05-outputs/knowledge-graph-data.json"))
     args = parser.parse_args()

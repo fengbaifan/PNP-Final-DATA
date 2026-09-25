@@ -7,6 +7,11 @@ queue artifacts.
 """
 from __future__ import annotations
 
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
+
 import argparse
 import json
 import re
@@ -19,7 +24,7 @@ import yaml
 
 BASE = Path(__file__).resolve().parents[1]
 DEFAULT_QUEUE_DIR = BASE / "06-runtime" / "automation" / "2026-05-18-relation-review-queue"
-RELATION_INDEX = BASE / "04-knowledge" / "quality" / "relation-index.yml"
+RELATION_INDEX = BASE / "04-knowledge" / "tables" / "relations.csv"
 AUTOMATION_DIR = BASE / "06-runtime" / "automation"
 DATE_PREFIX = re.compile(r"^(\d{4}-\d{2}-\d{2})")
 BATCH_NUMBER = re.compile(r"batch-(\d+)")
@@ -75,7 +80,7 @@ def load_jsonl(path: Path) -> list[dict[str, Any]]:
 def load_relation_index() -> list[dict[str, Any]]:
     if not RELATION_INDEX.exists():
         return []
-    data = yaml.safe_load(RELATION_INDEX.read_text(encoding="utf-8")) or []
+    data = load_relations(RELATION_INDEX)
     return [row for row in data if isinstance(row, dict)]
 
 

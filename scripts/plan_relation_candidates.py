@@ -17,6 +17,11 @@ plan_relation_candidates.py v2.3 — 候选关系召回
 共享年代与共享 tag 只作为弱统计信号，不进入活跃候选队列。
 """
 import copy, hashlib, re, json, sys, yaml
+
+try:
+    from scripts._relation_tables import load_relations
+except ModuleNotFoundError:
+    from _relation_tables import load_relations
 from datetime import date
 from pathlib import Path
 from collections import defaultdict
@@ -25,7 +30,7 @@ BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
 QUALITY = BASE / "04-knowledge" / "quality"
 CLAIM_YML = QUALITY / "claim-registry.yml"
-RELATION_YML = QUALITY / "relation-index.yml"
+RELATION_YML = BASE / "04-knowledge" / "tables" / "relations.csv"
 OUT = QUALITY / "relation-candidates.yml"
 TODAY = date.today().isoformat()
 if "-h" in sys.argv or "--help" in sys.argv:
@@ -190,7 +195,7 @@ seen_pairs = set()
 
 formal_pairs = set()
 if RELATION_YML.exists():
-    formal_relations = yaml.safe_load(RELATION_YML.read_text(encoding="utf-8")) or []
+    formal_relations = load_relations(RELATION_YML)
     for relation in formal_relations:
         if not isinstance(relation, dict):
             continue
