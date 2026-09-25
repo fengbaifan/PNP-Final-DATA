@@ -12,22 +12,52 @@
 
 **0.1 稳定 ID**
 - `segment_id` = `{chapter}:{section}:l{line_start}-{line_end}`（印刷页另作字段，不塞进 ID）
-- `candidate_id` = `cand-{index_file}-{row}`（可回溯原书索引条目）
-- `ku_id` = 沿用稳定路径 `units/{type}/{slug}.md`
-- `statement_id` / `relation_id` / `enrichment_id` = `stmt-{n}` / `rel-{n}` / `enr-{n}`（连续号，不承载语义）
+- `ku_id` = `units/{type}/{slug}`，不带 `.md`。slug 一经发布就不再修改；改名、改类型或合并时，在 `id-redirects.csv` 中登记。
+- `candidate_id`、`mention_id`、`statement_id`、`alignment_id`、`enrichment_id`、`relation_id` 分别写作 `cand-{N}`、`men-{N}`、`stmt-{N}`、`aln-{N}`、`enr-{N}`、`rel-{N}`。N 单调递增，一旦分配就写入产物，永不重编、不复用。新 N 取该表现有最大值加 1；同一张表同一时刻只允许一个写入者，串行写入。
+- `index_entry_id` 单独成列，记录原书索引中的定位（`{index_file}#{row}`），只作为来源定位，不作主键，也不拼进 `candidate_id`。
 
-**0.2 `origin` 枚举（逐事实标注）**
+自然键（写入前查重；命中即复用原 ID）：
+- `entity-candidates.csv`：`index_entry_id`；非索引来源的候选用「规范名 + 类型」
+- `mentions.csv`：`segment_id`、起始位置、结束位置
+- `book-statements.jsonl`：`segment_id`、断言规范文本的哈希
+- `alignment.csv`：`candidate_id`、`external_source`
+- `enrichment.jsonl`：`ku_id`、`field`、`value`、`source_id`
+- `relations.csv`：主语、谓词、宾语、qualifier（时间、版本）
 
-| 值 | 含义 | 只出现在 |
-|---|---|---|
-| `book` | 原书陈述 | book-statements、relations 的书内边 |
-| `align` | 身份映射（提及=实体+外部标识），不含内容事实 | alignment.csv |
-| `enrich` | 外部内容事实 | enrichment.jsonl、relations 的外部边 |
-| `infer` | Agent 语境解读 | statements/relations 的推断边 |
+重定向表 `id-redirects.csv`（在 `04-knowledge/tables/` 内），列为 `old_id,new_id,reason,date`。
 
-**0.3 `evidence_status`**：`confirmed`／`contested`／`uncertain`。
+**0.2 `origin` 与来源字段（逐事实标注）**
 
-**0.4 `decision` 五档对齐决定**：`same`／`new`／`conflict`／`excluded`／`undecided`（`excluded` 与 `undecided` 附理由）。
+- `origin` ∈ {`book`, `external`, `inferred`}：
+  - `book`：原书陈述；
+  - `external`：外部来源的事实；
+  - `inferred`：Agent 或整理者的解读或推断。
+- `align` 不是 `origin` 的取值。身份映射只记录在 `alignment.csv` 的 `decision` 列。
+- `source_id` 引用 `sources.csv`。`sources.csv` 同时登记原书版本和各外部来源（Treccani、Wikipedia、Wikidata、VIAF、SBN、Getty 等），写明版本和访问日期，不用自由文本。
+- `cited_source`（可为空）：原书转引的档案或文献，用来区分「原书说的」和「原书引用某份档案说的」。
+- 不发布标记：`segments.jsonl` 含原书全文，`release_excluded: true`，S7 导出时自动排除。`mentions.csv` 和 `book-statements.jsonl` 发布时只保留定位和事实，不含原文句子。
+
+**0.3 状态维度（三个维度相互独立，不跨表混用）**
+- `evidence_status`：沿用现有 5 值 `unverified` / `source_backed` / `partially_verified` / `externally_verified` / `model_supported`，与 `scripts/_evidence_policy.py` 和 `claim-evidence-governance.md` 保持一致。用于 `enrichment.jsonl`、`book-statements.jsonl` 和 `relations.csv` 的证据。
+- `dispute` ∈ {`true`, `false`}：是否存在来源冲突，与证据强度分开记录。
+- `decision` ∈ {`same`, `new`, `conflict`, `excluded`, `undecided`}：只用于 `alignment.csv`。
+- `relation_status` ∈ {`formal`, `pending`, `rejected`}：只用于 `relations.csv`。
+- 不另设 `confirmed`/`contested`/`uncertain` 这类枚举。
+
+**0.4 v0.1 迁移映射（供第 5 步使用）**
+
+| v0.1 现状 | 迁移规则 |
+|---|---|
+| enrichment.evidence_status = uncertain | 改为 unverified；有具体证据的按实际证据改为 source_backed 或 externally_verified |
+| enrichment 中 field/value 为空、只有 QID | 移入 alignment.csv 的 external_id（external_source=Wikidata），从 enrichment 中删除 |
+| enrichment 中 source、url、qid 全为空 | 丢弃，只把丢弃条数记入 validation-report.md |
+| alignment.decision = paired | 改为 same，必须有 external_id |
+| alignment.decision = unpaired | 按原记录区分：「范围不符/候选排除」改 excluded，其余改 undecided |
+| alignment.candidate_id 填的是 KU 路径 | 按 entity-candidates.csv 的自然键回填 cand-{N}；匹配不到的，新建候选 |
+| entity-candidates 中的 cand-0000 类旧 ID | 按新规则重新发号，并登记到 id-redirects.csv |
+| origin = enrich | 改为 external |
+| evidence_ref/review 中的 REV-xxx | 移入 process_ref 列，只供内部追溯，S7 导出时排除 |
+| ku_id 带或不带 .md 不一致 | 统一为不带 .md |
 
 **0.5 结构化 vs 散文分界（转换安全前提）**
 - 结构化事实 → CSV/JSONL 唯一权威：名称/别名、类型、日期、外部 ID、对齐决定、补足事实、关系、提及的（主/谓/宾/限定/定位）。

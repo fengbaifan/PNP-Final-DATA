@@ -1,10 +1,14 @@
 # 分阶段工作流
 
-本文件从属于 AGENTS.md，定义阶段、交接与产物。现行阶段框架为 **S0–S7**；字段契约见 `01-domain/stage-artifact-schema.md`，关系域值域见 `01-domain/relation-domain-range.yml`。实际状态以各任务 results 为准：当前已完成第一章与章前的摄入/处理/知识元/对齐/补足/关系，第二部分（知识发现）与页面暂停。
+本文件从属于 AGENTS.md，定义阶段、交接与产物。现行阶段框架为 **S0–S7**；字段契约见 `01-domain/stage-artifact-schema.md`，关系域值域见 `01-domain/relation-domain-range.yml`。实际状态以各任务 results 为准。当前进度：S1 已生成初版，类型未审，未与 KU 链接；S3–S6 只有 v0.1 一次性转换版，待按新规范重新导出；S0、S2 产物尚未生成，召回率和人工抽样复核尚未完成；第二部分（知识发现）和页面暂停。
 
 ## 第一阶段框架：S0–S7
 
-每阶段只产**一个命名产物**（交接物），下游只读该产物、不重跑上游。结构化事实以 CSV/JSONL 为唯一权威；卡片 `04-knowledge/units/*.md` 的结构化表由其渲染，散文段落（双语描述、本章相关内容、原书转引评论）仍人工维护原位。
+每阶段只产一个命名产物（交接物），下游只读该产物、不重跑上游。S0–S6 产物统一存放在 `04-knowledge/tables/`，是结构化事实的唯一权威。`accepted.yml` 和卡片 `units/*.md` 的结构化部分都是由 tables 生成的视图；卡片中的散文段落（双语描述、本章相关内容、原书转引评论）仍在原位人工维护。`release/vX/` 是 S7 的冻结快照。视图和快照都不是事实源。
+
+每张表都按「自然键」保持唯一（定义见 stage-artifact-schema.md 0.1 节）。写入前先按自然键查重，已存在的记录复用原 ID，不新发号。
+
+过渡规定：tables 建立之前，暂停用脚本批量写卡片（verify_apply_evidence.py、apply_relation_plan.py）。tables 建立后，这些脚本只写 tables，卡片的结构化部分由 tables 生成。
 
 | 阶段 | 唯一产物 | 工作 | 放行条件（摘要） |
 |---|---|---|---|
@@ -15,7 +19,7 @@
 | S4 KU 登记 | `ku-manifest.csv` | 登记/复用 KU；**所有计数只从此清单算** | S3 每个 `new` 有对应 `ku_id` |
 | S5 补足 | `enrichment.jsonl` | 按类型补明确缺口，字段级事实逐条带来源与访问日期 | 每类预声明字段填完或标「缺口」 |
 | S6 关系 | `relations.csv` | 逐候选裁决正式/待证/否决，绑定证据 | 主客体类型过域值域矩阵；每条 `formal` ≥1 证据 |
-| S7 发布与验证 | `release/vX/`、`validation-report.md` | 导出数据集、统计、验证报告 | 全由 S0–S6 生成；打 tag 冻结；派生索引只在此生成 |
+| S7 发布与验证 | `release/vX/`、`validation-report.md` | 从 tables 导出数据集、统计和验证报告；排除标记为不发布的表 | 全部由 S0–S6 产物生成；打 tag 冻结；派生索引只在此生成；不读写 `05-outputs/`，页面仅在用户指令下另行生成 |
 
 ## 切断回环：候选待办清单
 
@@ -33,11 +37,11 @@ S5/S6 发现的新端点**不立即回知识元**，写入 `candidate-backlog.cs
 
 ## 过程、结果与成果位置
 
-| 工作 | 过程 | 当前结果与成果 |
+| 工作 | 过程（只记阅读、判断与裁决理由） | 产物与结果 |
 |---|---|---|
-| S0–S2（来源、候选、语义处理） | `03-processing/<task-id>/process/stages.md`，收口后只留必要裁决与清理记录 | 同包 `results/stages.md` 保存来源范围、逐行语义分析、定位/覆盖、校正与交接缺口的唯一当前定稿；来源资产在 02-sources |
-| S3–S6（对齐、KU、补足、关系） | `03-processing/<task-id>/process/knowledge.md`，按阶段分节 | `04-knowledge/results/<task-id>.md` 链接 units、quality 的唯一内容 |
-| S7（发布验证） | 05-outputs/process/<output-id>.md | `release/vX/` 及唯一页面/导出文件 |
+| S0–S2（来源、候选、语义处理） | `03-processing/<task-id>/process/stages.md`；原 `results/stages.md` 改作逐行阅读记录，不再是定稿 | 产物在 `04-knowledge/tables/`：`segments.jsonl`、`entity-candidates.csv`、`mentions.csv`、`book-statements.jsonl`；来源资产在 02-sources |
+| S3–S6（对齐、KU、补足、关系） | `03-processing/<task-id>/process/knowledge.md`，按阶段分节 | 产物在 `04-knowledge/tables/`：`alignment.csv`、`ku-manifest.csv`、`enrichment.jsonl`、`relations.csv`、`candidate-backlog.csv`、`id-redirects.csv`。`04-knowledge/results/<task-id>.md` 只写范围、状态、产物链接和未决项，不复制事实 |
+| S7（发布验证） | 写在 `release/vX/validation-report.md` 内 | `release/vX/`（冻结快照，打 tag）；不读写 `05-outputs/` |
 | 系统调整 | 06-runtime/governance/CHANGELOG.md | 同一 CHANGELOG，不新增报告副本 |
 
 `source_id` 标识来源版本，`ku_id` 标识知识对象，`task-id` 标识本次工作范围。不要以单章编号限制跨来源发现，也不按阶段复制 KU。读取与接续先看当前 results 的范围、状态和未决项，再定位相关 process 段落与证据；每阶段只写实际发生的过程，更新对应结果后交接。

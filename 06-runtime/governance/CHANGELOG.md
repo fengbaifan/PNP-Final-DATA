@@ -11,4 +11,5 @@
 - 修正 `gianfranco-torcellan.md` 的 `authored_by` 反向边。
 - 框架修订：`pipeline.md` 改为 S0–S7 并切断回环（backlog 替代「回知识元」），8 个 skill 与 `AGENTS.md` 对齐新阶段与产物。
 - 派生文件约定：`relation-index.yml` 等派生文件只在 S7 发布或按需生成，不逐批重建、不当事实源（见 `scripts/README.md`）。
+- 第 1–4 步规则收尾：统一事实源为 `04-knowledge/tables/`；S7 与 `05-outputs` 解耦；SKILL 正文对齐新顺序；ID 改单调发号 + 自然键 + 重定向表；origin 拆为 book/external/inferred；状态三维度统一（evidence_status/decision/relation_status）。
 

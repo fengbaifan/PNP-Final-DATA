@@ -5,14 +5,16 @@ phase: current
 triggers:
   - enrich
   - 补足知识元
-description: 负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=enrich`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
+description: 负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=external`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
 ---
 
 # enrich
 
-负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=enrich`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
+负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=external`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
 
 ## 输入与工作
+
+输入：`ku-manifest.csv`；各类型的补足字段声明，即 `.agents/skills/ingest/references/body-template.md` 中该类型的字段；`alignment.csv` 里的 `external_id`，只用作查询入口。缺口 = 声明字段 − 已有值。只补缺口；填完或标「缺口」即收口。发现新端点时写入 `candidate-backlog.csv`。
 
 读 KU、对齐结果与本次缺口，判断缺少的是定义、身份边界、语境、事实还是出处。以来源内容为核心，按 REV-056 从原始材料、保管或责任机构、专业数据库、规范库、书目／手稿目录、数字化全文、研究文献和适用百科中选择能回答该缺口的来源，不要求每个实体遍历固定网站清单。
 来源选择按对象类型执行：人物可用国家人物辞典、SIUSA等档案生产者记录、Getty ULAN、VIAF／国家规范库和所属机构资料；意大利人物按需使用Treccani《意大利人传记辞典》。文献与档案优先保管机构、档号／索书号、OPAC SBN、EDIT16、Manus Online和可核版本的Internet Archive等数字化全文；作品、地点、机构、术语等使用相应馆藏、文化遗产目录、Getty词表和官方记录。具体来源与限制见verify的按类型参考。

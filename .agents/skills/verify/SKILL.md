@@ -16,7 +16,7 @@ description: 负责 S3 身份对齐；产物 `alignment.csv`。**只做身份，
 
 ## 输入与工作
 
-读 KU 成稿结果、相关来源与待核问题。S3 是初步对齐：比较名称、别名、身份、年代和作品/文献版本，识别明显重复与冲突；同名不等于同一对象。不以生平、作品清单等详细信息齐全作为进入补足的前提，详细内容由 S5 按证据完善（REV-026）。章内对齐可以依据原文完成，但不能代替外部身份验证。
+读 S1 `entity-candidates.csv`、S2 `mentions.csv`/`book-statements.jsonl`，以及 `ku-manifest.csv` 中已有的 KU（用于跨任务、跨章判定 same）。S3 是身份对齐：比较名称、别名、身份、年代和作品/文献版本，识别明显重复与冲突；同名不等于同一对象。不以生平、作品清单等详细信息齐全作为进入补足的前提，详细内容由 S5 按证据完善（REV-026）。章内对齐可以依据原文完成，但不能代替外部身份验证。
 存在原文关系候选时，核对原文提及到KU的端点映射并保留原词、歧义和候选锚点。外部记录可支持消歧和身份确认，但身份依据不自动支持候选谓词，也不能把外部名称或确定性倒填为原书表达。
 按 REV-056，对齐使用与实体类型相符的身份链：比较原文锚点与专业数据库、国家或机构规范记录、馆藏／档案／书目记录中的名称、类型、年代、地点、责任者、版本和稳定标识。QID、Wikipedia页面、VIAF、ULAN、SBN标识、馆藏号、档号、DOI或数字化项目标识都只在该对象实际适用时采用；没有某一种全局标识不构成失败，也不为填标识借用相关对象的记录。
 
@@ -53,3 +53,5 @@ L1–L7 仅是该接口兼容代码，不是业务阶段或事实可信度的自
 - `references/api-verification.md`：实际调用 API collector 时的证据格式。
 - `references/result-handling.md`：需要改变验证状态或使用机器写回时。
 - `.agents/skills/system-upgrade/references/work-package-contract.md`：仅批量机器写回或旧接口续接。
+
+外部标识（QID、ULAN、VIAF、SBN、馆藏号等）只写入 `alignment.csv` 的 `external_source`/`external_id`，不写入 `enrichment.jsonl`。

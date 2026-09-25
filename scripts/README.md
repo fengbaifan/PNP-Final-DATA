@@ -37,8 +37,8 @@ workflow-copy-manifest.json 是最初导入的历史清单，其中路径和数�
 - `04-knowledge/quality/relation-index.yml`、`translation-index.yml`、`relation-candidates.yml`
 - `06-runtime/state/current-health.json`、`skill-registry.json`、`generated-projections-manifest.json`、`candidate-index.jsonl`、`discovery-manifest.json`
 - `06-runtime/automation/index.md`、`06-runtime/governance/governance-backlog.md`
-- `05-outputs/index/*`（页面数据 `knowledge-graph-data.json/js` 暂停，需 `--refresh-page`）
+- `05-outputs/index/*` 和页面数据 `knowledge-graph-data.json/js`：只在用户明确下指令时生成，S7 不生成。
 
-事实源是 `04-knowledge/accepted.yml`（KU 登记）、`units/*.md` 卡片（结构化事实 + 散文），以及 S7 的 `release/vX/*.csv` 发布导出。审计脚本读派生文件只为检查，不把它们当源。
+事实源是 `04-knowledge/tables/` 下的 CSV/JSONL。`accepted.yml` 和卡片结构化部分是 tables 的生成视图（过渡期兼容），卡片散文由人工维护；`release/vX/` 是 S7 冻结快照。视图和快照都不是事实源。审计脚本读取派生文件和视图，只用于检查。
 
 不默认新增工作包、机器状态、全量收尾或固定审核轮数。每项实际任务的过程与结果按 pipeline 分布存储；系统调整只记 CHANGELOG.md。
