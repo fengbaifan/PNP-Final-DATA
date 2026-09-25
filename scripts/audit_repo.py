@@ -628,14 +628,11 @@ def claim_traceability_check(base: Path) -> dict:
 
 
 def relation_traceability_check(base: Path) -> dict:
-    relation_path = base / "04-knowledge" / "quality" / "relation-index.yml"
-    if not relation_path.exists():
-        return {"relation_index_exists": False}
     try:
-        import yaml
-        relations = yaml.safe_load(read_text(relation_path)) or []
-    except Exception as e:
-        return {"relation_index_exists": True, "parse_error": str(e)}
+        from scripts._relation_tables import load_relations
+    except ModuleNotFoundError:
+        from _relation_tables import load_relations
+    relations = load_relations(base / "04-knowledge" / "tables" / "relations.csv")
 
     explicit = [r for r in relations if isinstance(r, dict) and r.get("relation_source") == "explicit"]
     with_evidence = [
@@ -1205,18 +1202,15 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
         evidence_status[scalar_frontmatter_field(snapshot.text, "evidence_status") or "missing"] += 1
 
     connected: set[str] = set()
-    relation_path = base / "04-knowledge" / "quality" / "relation-index.yml"
-    if relation_path.is_file():
-        try:
-            for relation in yaml.safe_load(relation_path.read_text(encoding="utf-8-sig")) or []:
-                if not isinstance(relation, dict):
-                    continue
-                for field in ("source", "target"):
-                    ref = str(relation.get(field) or "").removeprefix("04-knowledge/units/")
-                    if ref in unit_refs:
-                        connected.add(ref)
-        except yaml.YAMLError:
-            connected = set()
+    try:
+        from scripts._relation_tables import load_relations
+    except ModuleNotFoundError:
+        from _relation_tables import load_relations
+    for relation in load_relations(base / "04-knowledge" / "tables" / "relations.csv"):
+        for field in ("source", "target"):
+            ref = str(relation.get(field) or "").removeprefix("04-knowledge/units/")
+            if ref in unit_refs:
+                connected.add(ref)
     isolated = sorted(unit_refs - connected)
 
     candidate_inventory = {"total": 0, "by_state": {}, "by_candidate_type": {}}
@@ -1512,50 +1506,46 @@ def architecture_drift_check(base: Path, counts: dict) -> dict:
 
 
 def relation_health_check(base: Path) -> dict:
-    idx = base / "04-knowledge" / "quality" / "relation-index.yml"
-    if not idx.exists():
-        return {"relation_index_exists": False, "relation_index_total": 0}
     try:
-        import yaml
-        data = yaml.safe_load(idx.read_text(encoding="utf-8"))
-        relations = [r for r in (data or []) if isinstance(r, dict)]
-        if load_catalog(base) is not None:
-            try:
-                from scripts.build_knowledge_graph_data import endpoint_node_id
-            except ModuleNotFoundError:
-                from build_knowledge_graph_data import endpoint_node_id
-            units_root = base / "04-knowledge" / "units"
-            admitted = {endpoint_node_id(path.relative_to(units_root).as_posix()) for path in iter_unit_files(base)}
-            relations = [r for r in relations if endpoint_node_id(str(r.get("source", ""))) in admitted
-                         and endpoint_node_id(str(r.get("target", ""))) in admitted]
-        sources = {}
-        types = {}
-        for r in relations:
-            sources[r.get("relation_source","unknown")] = sources.get(r.get("relation_source","unknown"), 0) + 1
-            types[r.get("relation_type","unknown")] = types.get(r.get("relation_type","unknown"), 0) + 1
-        weak = sum(1 for r in relations if r.get("review_status") in ("weak_inference",))
-        needs_ev = sum(1 for r in relations if r.get("review_status") == "needs_evidence")
-        broad_weak_types = {"related_to", "involves_person", "relates_to_term", "relates_to_work"}
-        weak_evidence = sum(
-            1
-            for r in relations
-            if r.get("confidence") in ("low", "medium")
-            and not (r.get("evidence") or r.get("evidence_ref") or r.get("claim_id"))
-            and r.get("relation_type") not in broad_weak_types
-        )
-        return {
-            "relation_index_exists": True,
-            "relation_index_total": len(relations),
-            "explicit_relation_count": sources.get("explicit", 0),
-            "inferred_relation_count": sources.get("inferred_by_rule", 0) + sources.get("inferred_by_model", 0),
-            "migrated_from_related_count": sources.get("migrated_from_related", 0),
-            "weak_inference_count": weak,
-            "weak_evidence_count": weak_evidence,
-            "needs_evidence_count": needs_ev,
-            "relation_type_coverage": f"{len(types)}/{RELATION_TYPE_TOTAL}",
-        }
-    except Exception as e:
-        return {"relation_index_exists": True, "parse_error": str(e)}
+        from scripts._relation_tables import load_relations
+    except ModuleNotFoundError:
+        from _relation_tables import load_relations
+    relations = load_relations(base / "04-knowledge" / "tables" / "relations.csv")
+    if load_catalog(base) is not None:
+        try:
+            from scripts.build_knowledge_graph_data import endpoint_node_id
+        except ModuleNotFoundError:
+            from build_knowledge_graph_data import endpoint_node_id
+        units_root = base / "04-knowledge" / "units"
+        admitted = {endpoint_node_id(path.relative_to(units_root).as_posix()) for path in iter_unit_files(base)}
+        relations = [r for r in relations if endpoint_node_id(str(r.get("source", ""))) in admitted
+                     and endpoint_node_id(str(r.get("target", ""))) in admitted]
+    sources = {}
+    types = {}
+    for r in relations:
+        sources[r.get("relation_source", "unknown")] = sources.get(r.get("relation_source", "unknown"), 0) + 1
+        types[r.get("relation_type", "unknown")] = types.get(r.get("relation_type", "unknown"), 0) + 1
+    weak = sum(1 for r in relations if r.get("review_status") in ("weak_inference",))
+    needs_ev = sum(1 for r in relations if r.get("review_status") == "needs_evidence")
+    broad_weak_types = {"related_to", "involves_person", "relates_to_term", "relates_to_work"}
+    weak_evidence = sum(
+        1
+        for r in relations
+        if r.get("confidence") in ("low", "medium")
+        and not (r.get("evidence") or r.get("evidence_ref") or r.get("claim_id"))
+        and r.get("relation_type") not in broad_weak_types
+    )
+    return {
+        "relation_index_exists": True,
+        "relation_index_total": len(relations),
+        "explicit_relation_count": sources.get("explicit", 0),
+        "inferred_relation_count": sources.get("inferred_by_rule", 0) + sources.get("inferred_by_model", 0),
+        "migrated_from_related_count": sources.get("migrated_from_related", 0),
+        "weak_inference_count": weak,
+        "weak_evidence_count": weak_evidence,
+        "needs_evidence_count": needs_ev,
+        "relation_type_coverage": f"{len(types)}/{RELATION_TYPE_TOTAL}",
+    }
 
 
 def semantic_acceptance_check(base: Path) -> dict:

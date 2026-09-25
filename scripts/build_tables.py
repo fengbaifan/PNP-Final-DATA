@@ -207,31 +207,14 @@ def main():
     write_csv(TABLES / "ku-manifest.csv", ku_rows,
               ["ku_id", "type", "canonical_name", "name_en", "source_task", "card_path"])
 
-    # ---- S6 relations.csv（rel-N，origin，status）----
-    idx = yaml.safe_load(open(BASE / "04-knowledge/quality/relation-index.yml", encoding="utf-8"))
-    edges = idx if isinstance(idx, list) else idx.get("relations", [])
-    rel_rows = []
-    for e in edges:
-        er = e.get("evidence_ref") or {}
-        rs = e.get("review_status")
-        status = "formal" if rs == "evidence_backed_relation" else ("rejected" if rs == "conflict" else "pending")
-        rel_rows.append({
-            "relation_id": next_id("rel"),
-            "subject_ku_id": norm_ku(e.get("source", "")),
-            "object_ku_id": norm_ku(e.get("target", "")),
-            "predicate": e.get("relation_type", ""),
-            "time": e.get("time", "") or "",
-            "role": e.get("role", "") or "",
-            "scope": e.get("scope", "") or "",
-            "origin": derive_origin(er),
-            "status": status,
-            "source_id": "haskell-1980-rev-ed" if derive_origin(er) == "book" else "",
-            "source_span": er.get("source_span", "") or "",
-            "source_file": er.get("source_file", "") or "",
-        })
-    write_csv(TABLES / "relations.csv", rel_rows,
-              ["relation_id", "subject_ku_id", "object_ku_id", "predicate", "time", "role", "scope",
-               "origin", "status", "source_id", "source_span", "source_file"])
+    # ---- S6 relations.csv（现在为源，不再从 relation-index.yml 生成）----
+    # 读取现有 relations.csv，仅用于统计与域值域检查；不再重写它。
+    rel_rows = list(csv.DictReader(open(TABLES / "relations.csv", encoding="utf-8")))
+    origin_count, status_count, pred_count = Counter(), Counter(), Counter()
+    for r in rel_rows:
+        origin_count[r.get("origin", "")] += 1
+        status_count[r.get("status", "")] += 1
+        pred_count[r.get("predicate", "")] += 1
 
     # ---- S3 alignment.csv（decision；合并 enrichment-evidence 的 QID）----
     # 名字 -> 候选（用 index 的候选，做粗匹配回填 candidate_id）

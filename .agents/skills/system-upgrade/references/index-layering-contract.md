@@ -10,7 +10,7 @@
 | 知识与证据 | 04-knowledge/units/、quality/claim-registry.yml、实际成立的 structure 节点及证据 | 对象正文、KU relations 和绑定证据是判断具体知识的依据；原始事实最终回查 02-sources 或实际外部来源 |
 | 当前任务结果 | 04-knowledge/results/<task-id>.md | 说明范围、完成度、成果位置、未决项和交接；不是另一套知识正文 |
 | 过程与历史裁决 | 03-processing/<task-id>/process/stages.md、process/knowledge.md | 分阶段保留实际阅读、语义判断及更改理由；不把历史状态当当前状态 |
-| 可重建索引 | 04-knowledge/quality/relation-index.yml、translation-index.yml | 分别由 KU 关系和名称生成，是检索投影；不能因位于 quality 就成为独立事实源 |
+| 可重建索引 | 04-knowledge/quality/translation-index.yml | 由 KU 名称生成，是检索投影；不能因位于 quality 就成为独立事实源 |
 | 导航 | 01-domain/index.md、04-knowledge/structure/hierarchy/index.md、各目录 README | 只指向规则、结果或对象；不复制全部事实、不维护另一套成员数量 |
 | 运行快照与候选 | 06-runtime/state/、实际候选/冲突记录 | 派生信号或待决内容，不代表知识成立或自动开工 |
 | 呈现 | 05-outputs/ 的导航、数据和页面 | 用户启动后读取有效成果；当前冻结页面不反向定义类型、数量或研究完成度 |

@@ -162,7 +162,6 @@ def build_structure(base: Path) -> dict[str, list[dict]]:
 
 def build_graph(base: Path = BASE) -> dict:
     units = base / "04-knowledge" / "units"
-    relation_index = base / "04-knowledge" / "quality" / "relation-index.yml"
     nodes: list[dict] = []
     node_ids: set[str] = set()
     structure = build_structure(base)
@@ -205,7 +204,11 @@ def build_graph(base: Path = BASE) -> dict:
         )
         node_ids.add(node_id)
 
-    relations = (yaml.safe_load(relation_index.read_text(encoding="utf-8")) or []) if relation_index.exists() else []
+    try:
+        from scripts._relation_tables import load_relations
+    except ModuleNotFoundError:
+        from _relation_tables import load_relations
+    relations = load_relations(base / "04-knowledge" / "tables" / "relations.csv")
     links = []
     for relation in relations:
         source = endpoint_node_id(str(relation.get("source", "")))

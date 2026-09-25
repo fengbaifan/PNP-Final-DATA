@@ -1,9 +1,26 @@
 import tempfile
 import unittest
+import csv
+import io
 from datetime import date
 from pathlib import Path
 
 import yaml
+HDR = "relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span"
+
+def rel_csv(rows):
+    import io, csv as _csv
+    out = io.StringIO()
+    w = _csv.writer(out)
+    w.writerow(HDR.split(","))
+    for i, r in enumerate(rows, 1):
+        src = r.get("source", "").replace(".md", "")
+        tgt = r.get("target", "").replace(".md", "")
+        if not src.startswith("units/"): src = "units/" + src
+        if not tgt.startswith("units/"): tgt = "units/" + tgt
+        w.writerow([f"rel-{i}", src, tgt, r.get("relation_type", ""), "forward", "", "", "", r.get("origin", "book"), "formal", "", "", ""])
+    return out.getvalue()
+
 
 from scripts import build_knowledge_graph_data
 
@@ -33,8 +50,9 @@ class BuildKnowledgeGraphDataTests(unittest.TestCase):
                 "review_status": "evidence_backed_relation",
                 "confidence": "high",
             }
-            (quality / "relation-index.yml").write_text(
-                yaml.safe_dump([relation], sort_keys=False), encoding="utf-8"
+            (root / "04-knowledge" / "tables" / "relations.csv").parent.mkdir(parents=True, exist_ok=True)
+            (root / "04-knowledge" / "tables" / "relations.csv").write_text(
+                rel_csv([relation]), encoding="utf-8"
             )
 
             data = build_knowledge_graph_data.build_graph(root)
@@ -56,8 +74,9 @@ class BuildKnowledgeGraphDataTests(unittest.TestCase):
             (units / "person.md").write_text(
                 "---\ntitle: Person\ntype: person\n---\n", encoding="utf-8"
             )
-            (quality / "relation-index.yml").write_text(
-                yaml.safe_dump([{"source": "persons/person.md", "target": "claim/example.md", "relation_type": "supports"}]),
+            (root / "04-knowledge" / "tables").mkdir(parents=True, exist_ok=True)
+            (root / "04-knowledge" / "tables" / "relations.csv").write_text(
+                rel_csv([{"source": "persons/person.md", "target": "claim/example.md", "relation_type": "supports"}]),
                 encoding="utf-8",
             )
 

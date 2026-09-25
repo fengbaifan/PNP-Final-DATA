@@ -12,24 +12,13 @@ OUTPUT = BASE / "06-runtime" / "state" / "generated-projections-manifest.json"
 
 PROJECTIONS = (
     {
-        "name": "relation_index",
-        "generator": "scripts/build_relation_index.py",
-        "inputs": (
-            "04-knowledge/units/**/*.md",
-            "04-knowledge/structure/**/*.md",
-            "04-knowledge/quality/claim-registry.yml",
-            ".agents/skills/ingest/references/relation-types.yml",
-        ),
-        "outputs": ("04-knowledge/quality/relation-index.yml",),
-    },
-    {
         "name": "relation_candidates",
         "generator": "scripts/plan_relation_candidates.py",
         "inputs": (
             "04-knowledge/units/**/*.md",
             "04-knowledge/structure/**/*.md",
             "04-knowledge/quality/claim-registry.yml",
-            "04-knowledge/quality/relation-index.yml",
+            "04-knowledge/tables/relations.csv",
         ),
         "outputs": ("04-knowledge/quality/relation-candidates.yml",),
     },
@@ -42,7 +31,7 @@ PROJECTIONS = (
     {
         "name": "knowledge_graph",
         "generator": "scripts/build_knowledge_graph_data.py",
-        "inputs": ("04-knowledge/accepted.yml", "04-knowledge/units/**/*.md", "04-knowledge/structure/**/*.md", "04-knowledge/quality/relation-index.yml"),
+        "inputs": ("04-knowledge/accepted.yml", "04-knowledge/units/**/*.md", "04-knowledge/structure/**/*.md", "04-knowledge/tables/relations.csv"),
         "outputs": ("05-outputs/knowledge-graph-data.json", "05-outputs/knowledge-graph-data.js"),
     },
     {

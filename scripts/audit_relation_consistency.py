@@ -11,22 +11,18 @@ from collections import defaultdict
 try:
     from scripts._relation_schema import INVERSE_MAP, LEGACY_GENERIC_RELATION_TYPES, VALID_RELATION_TYPES
     from scripts._accepted_knowledge import select_paths
+    from scripts._relation_tables import load_relations
 except ModuleNotFoundError:
     from _relation_schema import INVERSE_MAP, LEGACY_GENERIC_RELATION_TYPES, VALID_RELATION_TYPES
     from _accepted_knowledge import select_paths
+    from _relation_tables import load_relations
 
 BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
-IDX = BASE / "04-knowledge" / "quality" / "relation-index.yml"
 GENERIC_EXPLICIT_BASELINE = BASE / "06-runtime" / "governance" / "relation-generic-explicit-baseline.jsonl"
 DRY = "--dry-run" in sys.argv
 
-if not IDX.exists():
-    print("relation-index.yml 不存在，请先运行 build_relation_index.py")
-    sys.exit(1)
-
-data = yaml.safe_load(IDX.read_text(encoding="utf-8"))
-relations = [r for r in data if isinstance(r, dict)]
+relations = load_relations()
 
 VALID_TYPES = VALID_RELATION_TYPES
 GENERIC_RELATION_TYPES = LEGACY_GENERIC_RELATION_TYPES

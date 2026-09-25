@@ -3,6 +3,24 @@ from tempfile import TemporaryDirectory
 import unittest
 import yaml
 
+import io
+import csv as _csv
+
+HDR = "relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span"
+
+def rel_csv(rows):
+    import io, csv as _csv
+    out = io.StringIO()
+    w = _csv.writer(out)
+    w.writerow(HDR.split(","))
+    for i, r in enumerate(rows, 1):
+        src = r.get("source", "").replace(".md", "")
+        tgt = r.get("target", "").replace(".md", "")
+        if not src.startswith("units/"): src = "units/" + src
+        if not tgt.startswith("units/"): tgt = "units/" + tgt
+        w.writerow([f"rel-{i}", src, tgt, r.get("relation_type", ""), "forward", "", "", "", r.get("origin", "book"), "formal", "", "", ""])
+    return out.getvalue()
+
 from scripts import audit_repo, build_knowledge_graph_data
 from scripts._accepted_knowledge import load_catalog
 
@@ -17,10 +35,10 @@ class AcceptedKnowledgeTests(unittest.TestCase):
             second = units / "second.md"
             for path in (first, second):
                 path.write_text(f"---\ntitle: {path.stem}\ntype: term\nsources: []\ncreated: 2026-09-09\nupdated: 2026-09-09\n---\n", encoding="utf-8")
-            quality = base / "04-knowledge/quality"
-            quality.mkdir()
-            (quality / "relation-index.yml").write_text(yaml.safe_dump([
-                {"source": "terms/first.md", "target": "terms/second.md", "relation_type": "supports", "evidence_ref": {"claim_id": "test"}}
+            tables = base / "04-knowledge" / "tables"
+            tables.mkdir(parents=True)
+            (tables / "relations.csv").write_text(rel_csv([
+                {"source": "terms/first.md", "target": "terms/second.md", "relation_type": "supports"}
             ]), encoding="utf-8")
             catalog = base / "04-knowledge/accepted.yml"
             catalog.write_text("units: []\nclaims: []\nstructure: []\n", encoding="utf-8")

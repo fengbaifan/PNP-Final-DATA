@@ -28,7 +28,7 @@ class SyncClosureTests(unittest.TestCase):
         steps = run_sync_closure.build_steps(full=False, refresh_generated=True, changed_paths=[])
         names = [step.name for step in steps]
 
-        self.assertLess(names.index("build relation index"), names.index("audit content quality"))
+        self.assertLess(names.index("build translation index"), names.index("audit content quality"))
         self.assertNotIn("build relation candidates", names)
         self.assertFalse(any("plan_relation_candidates.py" in " ".join(step.command) for step in steps))
         self.assertLess(names.index("build translation index"), names.index("write health and backlog"))
@@ -86,8 +86,8 @@ class SyncClosureTests(unittest.TestCase):
     def test_relation_index_and_candidates_have_distinct_generators(self):
         specs = {spec["name"]: spec for spec in build_generated_projection_manifest.PROJECTIONS}
 
-        self.assertEqual(specs["relation_index"]["outputs"], ("04-knowledge/quality/relation-index.yml",))
-        self.assertIn("04-knowledge/structure/**/*.md", specs["relation_index"]["inputs"])
+        self.assertNotIn("relation_index", specs)
+        self.assertIn("04-knowledge/tables/relations.csv", specs["relation_candidates"]["inputs"])
         self.assertEqual(specs["relation_candidates"]["generator"], "scripts/plan_relation_candidates.py")
         self.assertIn("04-knowledge/structure/**/*.md", specs["relation_candidates"]["inputs"])
         self.assertEqual(

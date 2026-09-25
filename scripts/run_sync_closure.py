@@ -13,7 +13,6 @@ from typing import Callable, Iterable
 BASE = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable
 GENERATED_PATHS = [
-    "04-knowledge/quality/relation-index.yml",
     "04-knowledge/quality/relation-candidates.yml",
     "04-knowledge/quality/translation-index.yml",
     "06-runtime/automation/index.md",
@@ -86,7 +85,6 @@ def build_steps(
     if refresh_generated:
         steps.extend(
             [
-                Step("build relation index", script("build_relation_index.py")),
                 Step("build runtime index", script("build_runtime_index.py")),
                 Step("build translation index", script("build_translation_index.py")),
                 Step("index existing candidates", script("build_discovery_index.py")),
