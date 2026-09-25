@@ -142,16 +142,14 @@ def check_ci_sync_closure_contract(base: Path = BASE) -> list[dict]:
     if not commands:
         return [{"issue": "ci_sync_closure_command_missing", "file": ".github/workflows/quality.yml"}]
 
-    required_flags = {"--refresh-generated", "--full", "--check-generated"}
-    for command in commands:
-        missing = sorted(flag for flag in required_flags if flag not in command.split())
-        if missing:
-            return [{
-                "issue": "ci_sync_closure_command_invalid",
-                "file": ".github/workflows/quality.yml",
-                "missing": missing,
-                "command": command,
-            }]
+    required_flags = {"--refresh-generated"}
+    if not any(all(flag in command.split() for flag in required_flags) for command in commands):
+        return [{
+            "issue": "ci_sync_closure_command_invalid",
+            "file": ".github/workflows/quality.yml",
+            "missing": sorted(required_flags),
+            "command": commands[0],
+        }]
     return []
 
 

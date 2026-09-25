@@ -43,3 +43,15 @@ processed/
 # 临时文件
 migration-plan.md
 _catalog.json
+
+# 派生文件（由脚本生成，不入库；见 scripts/README.md「派生文件约定」）
+04-knowledge/quality/relation-index.yml
+04-knowledge/quality/translation-index.yml
+04-knowledge/quality/relation-candidates.yml
+06-runtime/state/current-health.json
+06-runtime/state/skill-registry.json
+06-runtime/state/generated-projections-manifest.json
+06-runtime/state/candidate-index.jsonl
+06-runtime/state/discovery-manifest.json
+06-runtime/automation/index.md
+06-runtime/governance/governance-backlog.md

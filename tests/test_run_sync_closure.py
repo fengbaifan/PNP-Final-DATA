@@ -33,9 +33,6 @@ class SyncClosureTests(unittest.TestCase):
         self.assertFalse(any("plan_relation_candidates.py" in " ".join(step.command) for step in steps))
         self.assertLess(names.index("build translation index"), names.index("write health and backlog"))
         self.assertNotIn("build knowledge graph data", names)
-        self.assertIn("build output gallery and navigation", names)
-        self.assertLess(names.index("index existing candidates"), names.index("build output gallery and navigation"))
-        self.assertGreater(names.index("build output gallery and navigation"), names.index("write health and backlog"))
         self.assertGreater(
             names.index("build generated projection manifest"),
             names.index("write health and backlog"),

@@ -3,6 +3,7 @@ name: Quality gate
 on:
   push:
     branches: [main]
+    tags: ['v*']
   pull_request:
     branches: [main]
 
@@ -28,5 +29,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install test dependencies
         run: python -m pip install -e ".[dev]"
-      - name: Run complete repository closure
-        run: python scripts/run_sync_closure.py --refresh-generated --full --check-generated
+      - name: Regenerate derived files and run scoped checks
+        run: python scripts/run_sync_closure.py --refresh-generated
+      - name: Run tests
+        run: python -m pytest tests
+      - name: Run full closure (release tags only)
+        if: startsWith(github.ref, 'refs/tags/')
+        run: python scripts/run_sync_closure.py --refresh-generated --full

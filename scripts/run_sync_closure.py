@@ -16,8 +16,6 @@ GENERATED_PATHS = [
     "04-knowledge/quality/relation-index.yml",
     "04-knowledge/quality/relation-candidates.yml",
     "04-knowledge/quality/translation-index.yml",
-    "05-outputs/index/output-gallery.md",
-    "05-outputs/index/index.md",
     "06-runtime/automation/index.md",
     "06-runtime/state/current-health.json",
     "06-runtime/state/skill-registry.json",
@@ -94,7 +92,6 @@ def build_steps(
                 Step("index existing candidates", script("build_discovery_index.py")),
                 Step("export skill registry", script("skill_registry.py", "--export")),
                 Step("write health and backlog", script("write_current_health.py")),
-                Step("build output gallery and navigation", script("build_output_gallery.py")),
                 Step("build generated projection manifest", script("build_generated_projection_manifest.py")),
             ]
         )
