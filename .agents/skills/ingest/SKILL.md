@@ -7,12 +7,12 @@ triggers:
   - 摄入来源
   - 语义处理
   - 知识元成稿
-description: 负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。
+description: 负责 S0 来源、S1 全书候选、S2 语义处理、S4 KU 登记；对应产物 `segments.jsonl`、`entity-candidates.csv`、`mentions.csv`、`book-statements.jsonl`、`ku-manifest.csv`。原书陈述标 `origin=book`。不自动启动发现。
 ---
 
 # ingest
 
-负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。
+负责 S0 来源、S1 全书候选、S2 语义处理、S4 KU 登记；对应产物 `segments.jsonl`、`entity-candidates.csv`、`mentions.csv`、`book-statements.jsonl`、`ku-manifest.csv`。原书陈述标 `origin=book`。不自动启动发现。
 
 ## 输入与工作
 

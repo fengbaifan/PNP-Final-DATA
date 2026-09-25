@@ -5,12 +5,12 @@ phase: current
 triggers:
   - enrich
   - 补足知识元
-description: 负责阶段 5，围绕可用知识元的明确缺口补足。
+description: 负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=enrich`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
 ---
 
 # enrich
 
-负责阶段 5，围绕可用知识元的明确缺口补足。
+负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=enrich`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。
 
 ## 输入与工作
 

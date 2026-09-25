@@ -5,12 +5,12 @@ phase: current
 triggers:
   - relate
   - 关系关联
-description: 负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。
+description: 负责 S6 关系；产物 `relations.csv`。逐候选裁决 formal/pending/rejected；主客体类型过 `relation-domain-range.yml`；缺端点写 backlog，不回知识元。
 ---
 
 # relate
 
-负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。
+负责 S6 关系；产物 `relations.csv`。逐候选裁决 formal/pending/rejected；主客体类型过 `relation-domain-range.yml`；缺端点写 backlog，不回知识元。
 
 ## 输入与工作
 

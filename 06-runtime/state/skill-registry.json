@@ -25,7 +25,7 @@
       "path": ".agents/skills/enrich/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责阶段 5，围绕可用知识元的明确缺口补足。",
+      "description": "负责 S5 补足；产物 `enrichment.jsonl`，逐条 `origin=enrich`。发现的新端点写 `candidate-backlog.csv`，不立即回知识元。",
       "triggers": [
         "enrich",
         "补足知识元"
@@ -40,7 +40,7 @@
       "path": ".agents/skills/ingest/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责摄入、处理、知识元成稿，三阶段分别保存结果；不自动启动发现。",
+      "description": "负责 S0 来源、S1 全书候选、S2 语义处理、S4 KU 登记；对应产物 `segments.jsonl`、`entity-candidates.csv`、`mentions.csv`、`book-statements.jsonl`、`ku-manifest.csv`。原书陈述标 `origin=book`。不自动启动发现。",
       "triggers": [
         "ingest",
         "摄入来源",
@@ -78,7 +78,7 @@
       "path": ".agents/skills/relate/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责阶段 6 的关系分析，形成可追溯的正式关系与图谱。",
+      "description": "负责 S6 关系；产物 `relations.csv`。逐候选裁决 formal/pending/rejected；主客体类型过 `relation-domain-range.yml`；缺端点写 backlog，不回知识元。",
       "triggers": [
         "relate",
         "关系关联"
@@ -138,7 +138,7 @@
       "path": ".agents/skills/verify/SKILL.md",
       "kind": "leaf",
       "phase": "current",
-      "description": "负责阶段 4 的身份与表述对齐，以及各阶段围绕明确问题的事实核验。",
+      "description": "负责 S3 身份对齐；产物 `alignment.csv`。**只做身份，不注入内容事实**；决定只有 same/new/conflict/excluded/undecided 五档，各带证据。",
       "triggers": [
         "verify",
         "知识元对齐",
