@@ -70,5 +70,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
-| → 源自（`derived_from`） | [贝尔托洛蒂《罗马的博洛尼亚、费拉拉及原教皇国其他艺术家》（Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome）](bertolotti-artisti-bolognesi.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；证据：[来源](https://archive.org/details/artistibolognesi00bert)；bertolotti-artisti-bolognesi-1885；本卡 S2；印刷页161–162，扫描页174–175 |
+| → 所涉对象（`has_subject`） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338,372–374; print pp. 10 |
+| → 源自（`derived_from`） | [贝尔托洛蒂《罗马的博洛尼亚、费拉拉及原教皇国其他艺术家》（Bertolotti's Bolognese, Ferrarese and Other Artists of the Former Papal States in Rome）](bertolotti-artisti-bolognesi.md) | 本卡内容据Bertolotti 1885年刊出的付款令取得；不把原付款令当作书籍的物理组成部分；证据：[来源](https://archive.org/details/artistibolognesi00bert)；src-5363c9c3606ea129；本卡 S2；印刷页161–162，扫描页174–175 |

@@ -55,4 +55,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
+| ← 委托者（`commissioner_of`，反向投影） | [费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）](../works/ferri-laparelli-altarpiece.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；原断言与证据见发出端卡片“费里《荣耀中的圣母与诸圣》（拉帕雷利祭坛）（Ciro Ferri’s Virgin in Glory with Saints for the Laparelli altar）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 507–508; print pp. 13 |

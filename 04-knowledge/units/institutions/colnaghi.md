@@ -90,9 +90,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 书中所记 1961 年画商目录所在地；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-| ← 经手者（`handler_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1976–1977；角色：经手画廊；范围：Stuttgart inv.3294的市场经手记录；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；Previous location：Colnaghi, Londra, 1976–1977 |
-| ← 经手者（`handler_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 书中所记 1961 年画商目录所在地；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
+| ← 经手者（`handler_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1976–1977；角色：经手画廊；范围：Stuttgart inv.3294的市场经手记录；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；src-d3e98bc7f1bc6ddb；Previous location：Colnaghi, Londra, 1976–1977 |
+| ← 经手者（`handler_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
 
 ### 身份与外部链接
 

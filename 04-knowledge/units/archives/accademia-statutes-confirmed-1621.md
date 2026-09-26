@@ -65,4 +65,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 所述章程属于该学院，具体文本版本未知；角色：受章程规范的机构；范围：第一章所述1621年获确认的章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
+| → 所涉对象（`has_subject`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 所述章程属于该学院，具体文本版本未知；角色：受章程规范的机构；范围：第一章所述1621年获确认的章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 690–691; print pp. 17 |

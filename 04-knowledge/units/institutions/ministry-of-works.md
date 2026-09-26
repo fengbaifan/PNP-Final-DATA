@@ -64,7 +64,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 供应者（`supplier_of`，反向投影） | [汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）](../works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 166–166; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）](../works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“汉普顿宫楼梯壁画（Fresco on staircase of Hampton Court Palace）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 166–166; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

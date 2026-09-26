@@ -42,4 +42,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [赫拉克勒斯的选择（The choice of Hercules）](../works/paolo-de-matteis-the-choice-of-hercules.md) | 角色：较小亲笔版本委托者；范围：18世纪初；原断言与证据见发出端卡片“赫拉克勒斯的选择（The choice of Hercules）”：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；description paragraph 3 |
+| ← 委托者（`commissioner_of`，反向投影） | [赫拉克勒斯的选择（The choice of Hercules）](../works/paolo-de-matteis-the-choice-of-hercules.md) | 角色：较小亲笔版本委托者；范围：18世纪初；原断言与证据见发出端卡片“赫拉克勒斯的选择（The choice of Hercules）”：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；description paragraph 3 |

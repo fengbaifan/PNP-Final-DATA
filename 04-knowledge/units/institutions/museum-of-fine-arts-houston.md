@@ -80,9 +80,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [休斯敦（Houston）](../places/houston.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：机构所在地；不以1900年前期活动冒充开馆年；证据：[来源](https://www.mfah.org/about/history)；institutions-museum-of-fine-arts-houston；From Aspiration to Major Art Museum及页脚Houston,TX |
-| ← 取得者（`acquirer_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：2000；角色：购藏机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Provenance：purchased by MFAH,2000 |
-| ← 保管对象（`holder_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：来源访问时点2026-09-15；角色：保管机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；2000.92及Provenance |
+| → 位于（`located_at`） | [休斯敦（Houston）](../places/houston.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：机构所在地；不以1900年前期活动冒充开馆年；证据：[来源](https://www.mfah.org/about/history)；src-6dd5731a98033a92；From Aspiration to Major Art Museum及页脚Houston,TX |
+| ← 取得者（`acquirer_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：2000；角色：购藏机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Provenance：purchased by MFAH,2000 |
+| ← 保管对象（`holder_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：来源访问时点2026-09-15；角色：保管机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；2000.92及Provenance |
 
 ### 关系候选入口
 

@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Boy Bitten by a Lizard (London version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面确认至少两件被认为真迹的版本；本卡只指NG6504。；证据：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 当前对象记录将Boy Bitten by a Lizard (London version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)；held-by-institutions-national-gallery-london-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Boy Bitten by a Lizard (London version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面确认至少两件被认为真迹的版本；本卡只指NG6504。；证据：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)；src-1d8915313f0694d9；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 当前对象记录将Boy Bitten by a Lizard (London version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard)；src-1d8915313f0694d9；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

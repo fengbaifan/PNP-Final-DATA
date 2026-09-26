@@ -99,9 +99,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [瓦尔堡研究院图书馆（Library of the Warburg Institute）](warburg-institute-library.md) | 角色：所属图书馆；范围：第一版序言Library of the Warburg Institute；机构图书馆的归属；原断言与证据见发出端卡片“瓦尔堡研究院图书馆（Library of the Warburg Institute）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 组成部分（`part_of`） | [伦敦大学（University of London）](university-of-london.md) | 时间：1944起；角色：大学所属研究所；范围：1944年起成为伦敦大学组成机构；图书馆另设KU；证据：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；institutions-warburg-institute；首段及The Move to London的1944段 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1933起；角色：迁入城市；范围：1933年迁入伦敦；不由此确定各阶段街道地址；证据：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；institutions-warburg-institute；首段及The Move to London |
+| ← 包含成员（`contains`，反向投影） | [瓦尔堡研究院图书馆（Library of the Warburg Institute）](warburg-institute-library.md) | 角色：所属图书馆；范围：第一版序言Library of the Warburg Institute；机构图书馆的归属；原断言与证据见发出端卡片“瓦尔堡研究院图书馆（Library of the Warburg Institute）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 组成部分（`part_of`） | [伦敦大学（University of London）](university-of-london.md) | 时间：1944起；角色：大学所属研究所；范围：1944年起成为伦敦大学组成机构；图书馆另设KU；证据：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；src-5488d2d1a67dd21f；首段及The Move to London的1944段 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1933起；角色：迁入城市；范围：1933年迁入伦敦；不由此确定各阶段街道地址；证据：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；src-5488d2d1a67dd21f；首段及The Move to London |
 
 ### 关系候选入口
 

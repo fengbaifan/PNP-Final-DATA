@@ -76,7 +76,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../archives/giovanni-adamo-piola-letter-1690.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；原断言与证据见发出端卡片“列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）”：[来源](https://archive.org/details/diletteresulla06bott)；bottari-ticozzi-letter-collection-v6；vol. VI, letter XXVII, pp. 147–148 |
+| ← 所著文献（`author_of`，反向投影） | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../archives/giovanni-adamo-piola-letter-1690.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；原断言与证据见发出端卡片“列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）”：[来源](https://archive.org/details/diletteresulla06bott)；src-be4131a2155339e4；vol. VI, letter XXVII, pp. 147–148 |
 
 ### 身份与外部链接
 

@@ -158,12 +158,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [弗朗切斯科·索利梅纳（Francesco Solimena）](../persons/solimena.md) | 时间：约1712–1714；角色：画家；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Artist、Date |
-| → 由其委托（`commissioned_by`） | [雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）](../persons/raimondo-buonaccorsi.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description与Provenance：painted for Count Raimondo Buonaccorsi |
-| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：约1712–1714；角色：创作城市；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Place made: Naples |
-| → 安置于（`installed_at`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description及Provenance：Buonaccorsi gallery |
-| → 由其取得（`acquired_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：2000；角色：购藏机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Provenance：purchased by MFAH,2000 |
-| → 由其保管（`held_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：来源访问时点2026-09-15；角色：保管机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；2000.92及Provenance |
+| → 创作者（`created_by`） | [弗朗切斯科·索利梅纳（Francesco Solimena）](../persons/solimena.md) | 时间：约1712–1714；角色：画家；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Artist、Date |
+| → 由其委托（`commissioned_by`） | [雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）](../persons/raimondo-buonaccorsi.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description与Provenance：painted for Count Raimondo Buonaccorsi |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：约1712–1714；角色：创作城市；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Place made: Naples |
+| → 安置于（`installed_at`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description及Provenance：Buonaccorsi gallery |
+| → 由其取得（`acquired_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：2000；角色：购藏机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Provenance：purchased by MFAH,2000 |
+| → 由其保管（`held_by`） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：来源访问时点2026-09-15；角色：保管机构；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；证据：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；2000.92及Provenance |
 
 ### 关系候选入口
 

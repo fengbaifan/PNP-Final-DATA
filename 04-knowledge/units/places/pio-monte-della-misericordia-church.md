@@ -43,7 +43,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 官方页面明确作品安置在仁慈山会教堂／礼拜堂的主祭坛；与委托和保管机构分开；时间：1606–1607起；现状见本轮官方页面；角色：教堂内主祭坛安置地点；范围：具体建筑位置；不等同仁慈山会机构身份；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；pio-monte-caravaggio-church；本卡S4；作品仍在教堂／礼拜堂及主祭坛说明 |
+| ← 安置地点（`installation_site_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 官方页面明确作品安置在仁慈山会教堂／礼拜堂的主祭坛；与委托和保管机构分开；时间：1606–1607起；现状见本轮官方页面；角色：教堂内主祭坛安置地点；范围：具体建筑位置；不等同仁慈山会机构身份；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；src-43f05420d43d66ef；本卡S4；作品仍在教堂／礼拜堂及主祭坛说明 |
 
 ### 身份与外部链接
 

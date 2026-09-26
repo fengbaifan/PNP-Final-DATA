@@ -94,9 +94,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Lute Player (Hermitage version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [艾尔米塔什博物馆（Hermitage Museum）](../institutions/hermitage-museum.md) | 当前对象记录将The Lute Player (Hermitage version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；held-by-institutions-hermitage-museum-md；本卡S2；有S4时并参对象字段 |
-| → 由其收藏／拥有（`owned_by`） | [弗朗切斯科·玛丽亚·德尔·蒙特（Francesco Maria del Monte）](../persons/francesco-maria-del-monte.md) | 来源支持该端点在所列时期收藏或拥有The Lute Player (Hermitage version)；不等于当前保管；时间：早期，传统说法；角色：可能的原订制语境；未建确定委托边；范围：系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；owned-by-persons-francesco-maria-del-monte-md；本卡S2；有S4时并参流传段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Lute Player (Hermitage version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；src-438329609128d711；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [艾尔米塔什博物馆（Hermitage Museum）](../institutions/hermitage-museum.md) | 当前对象记录将The Lute Player (Hermitage version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；src-438329609128d711；本卡S2；有S4时并参对象字段 |
+| → 由其收藏／拥有（`owned_by`） | [弗朗切斯科·玛丽亚·德尔·蒙特（Francesco Maria del Monte）](../persons/francesco-maria-del-monte.md) | 来源支持该端点在所列时期收藏或拥有The Lute Player (Hermitage version)；不等于当前保管；时间：早期，传统说法；角色：可能的原订制语境；未建确定委托边；范围：系列页Q2370247不是本实物QID；本卡采用艾尔米塔什对象Q55647084。；证据：[来源](https://support.hermitagemuseum.org/en/projects/caravaggio)；src-438329609128d711；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

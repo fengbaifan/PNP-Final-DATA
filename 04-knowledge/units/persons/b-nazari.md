@@ -71,8 +71,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../works/gian-antonio-faldoni-zaccaria-sagredo.md) | 角色：原设计者；from B. Nazari；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| ← 所创作对象（`creator_of`，反向投影） | [舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）](../works/nazari-equestrian-portrait-of-schulenburg.md) | 时间：1733委托；角色：画家；范围：辞典所记失传骑马肖像；原断言与证据见发出端卡片“舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）”：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
+| ← 所创作对象（`creator_of`，反向投影） | [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../works/gian-antonio-faldoni-zaccaria-sagredo.md) | 角色：原设计者；from B. Nazari；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 所创作对象（`creator_of`，反向投影） | [舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）](../works/nazari-equestrian-portrait-of-schulenburg.md) | 时间：1733委托；角色：画家；范围：辞典所记失传骑马肖像；原断言与证据见发出端卡片“舒伦堡骑马肖像（Equestrian Portrait of Schulenburg）”：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；src-abd19c2a6c9a7d99；1733年Schulenburg委托骑马肖像段 |
 
 ### 关系候选入口
 

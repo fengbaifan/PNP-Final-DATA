@@ -132,11 +132,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [弗朗切斯科·法内利（Francesco Fanelli）](../persons/francesco-fanelli.md) | 角色：原书署名作者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
-| → 所涉对象（`has_subject`） | [查理一世（Charles I）](../persons/charles-i.md) | 角色：肖像人物；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [达芙妮·伊奥尼德斯（Daphne Ionides）](../persons/daphne-ionides.md) | 时间：1980年版所记的收藏状态；角色：书中私人收藏者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../institutions/victoria-and-albert-museum.md) | 时间：1999年入藏至当前目录状态；角色：现藏／保管机构，不表示法律产权；范围：馆藏号A.3-1999；证据：[V&A对象目录](https://collections.vam.ac.uk/item/O11798/)；vam-object-O11798；Object record: accessionNumber、creditLine、galleryLocations；API record modified 2025-04-08 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1980年版所记的地点状态；角色：书中所在城市；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [弗朗切斯科·法内利（Francesco Fanelli）](../persons/francesco-fanelli.md) | 角色：原书署名作者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 所涉对象（`has_subject`） | [查理一世（Charles I of England）](../persons/charles-i.md) | 角色：肖像人物；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [达芙妮·伊奥尼德斯（Daphne Ionides）](../persons/daphne-ionides.md) | 时间：1980年版所记的收藏状态；角色：书中私人收藏者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1980年版所记的收藏状态；角色：书中所在城市；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../institutions/victoria-and-albert-museum.md) | 时间：1999年入藏至当前目录状态；角色：现藏／保管机构；范围：V&A对象目录对应的Fanelli查理一世胸像；不将收藏保管等同法律产权；证据：[来源](https://collections.vam.ac.uk/item/O11798/)；src-df3ba7e8af4d8c30；Object record: accessionNumber A.3-1999, creditLine, galleryLocations; API record modified 2025-04-08 |
 
 ### 关系候选入口
 

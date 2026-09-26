@@ -109,8 +109,8 @@ S1 将家族城乡宅邸作为博洛尼亚画家早期作品的容纳空间。�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [克勉八世（Clement VIII）](../persons/clement-viii.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；原断言与证据见发出端卡片“克勉八世（Clement VIII）”：[来源](https://www.wikidata.org/wiki/Q961820)；aldobrandini-family-wikipedia-wikidata；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
-| ← 包含成员（`contains`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人；时间：1623–1681；角色：出生家族成员与主要继承人；范围：只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；导言与Early life and ancestry |
+| ← 包含成员（`contains`，反向投影） | [克勉八世（Clement VIII）](../persons/clement-viii.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；原断言与证据见发出端卡片“克勉八世（Clement VIII）”：[来源](https://www.wikidata.org/wiki/Q961820)；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
+| ← 包含成员（`contains`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 奥林皮娅出生于阿尔多布兰迪尼家族，并是该支系的重要继承人；时间：1623–1681；角色：出生家族成员与主要继承人；范围：只表示个人家族归属和继承身份，不把全部家族财产自动归为个人所有；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；src-938a5e3d582d0cb8；导言与Early life and ancestry |
 
 ### 身份与外部链接
 

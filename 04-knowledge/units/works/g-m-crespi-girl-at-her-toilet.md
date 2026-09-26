@@ -86,9 +86,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：原书署名作者；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 102–102; 章前：图版目录；印刷页xiv |
-| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 102–102; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 102–102; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：原书署名作者；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 102–102; 章前：图版目录；印刷页xiv |
+| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 102–102; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版36b／37a各自原书行段；两件作品分别保存；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 102–102; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

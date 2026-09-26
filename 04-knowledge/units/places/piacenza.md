@@ -75,7 +75,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）](sant-antonino-piacenza.md) | 教堂名称与城市在委托事例中明确并列定位；原断言与证据见发出端卡片“皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）](sant-antonino-piacenza.md) | 教堂名称与城市在委托事例中明确并列定位；原断言与证据见发出端卡片“皮亚琴察圣安托尼诺堂（S. Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 323–326; print pp. 9 |
 
 ### 身份与外部链接
 

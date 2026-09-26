@@ -143,11 +143,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [路德维科·冯·帕斯托（Ludovico von Pastor）](../persons/pastor-historian.md) | 角色：原作者；范围：题名页原作者；英文译者另列；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页；PDF第7页 |
-| → 由其贡献（`contributed_by`） | [欧内斯特·格拉夫（Ernest Graf）](../persons/ernest-graf.md) | 时间：1941出版；角色：译者；范围：英文第三十三卷题名页明确的翻译责任；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页TRANSLATED BY；PDF第7页 |
-| → published_by（`published_by`） | [基根·保罗、特伦奇、特吕布纳出版公司（Kegan Paul, Trench, Trubner & Co., Ltd.）](../institutions/kegan-paul-trench-trubner.md) | 时间：1941；角色：出版商；范围：本次核对的英文第三十三卷版本；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页出版项；PDF第7页 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1941；角色：出版地；范围：版本出版地点，不是现存印本保管地；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页出版项；PDF第7页 |
-| → 所涉对象（`has_subject`） | [克雷芒十一世（Clement XI）](../persons/clement-xi.md) | 时间：论述1700–1721；角色：传记对象；范围：卷题明确的教皇；书中评价不转写为现代研究定论；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页CLEMENT XI；印刷p.13 |
+| → 作者（`authored_by`） | [路德维科·冯·帕斯托（Ludovico von Pastor）](../persons/pastor-historian.md) | 角色：原作者；范围：题名页原作者；英文译者另列；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页；PDF第7页 |
+| → 由其贡献（`contributed_by`） | [欧内斯特·格拉夫（Ernest Graf）](../persons/ernest-graf.md) | 时间：1941出版；角色：译者；范围：英文第三十三卷题名页明确的翻译责任；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页TRANSLATED BY；PDF第7页 |
+| → published_by（`published_by`） | [基根·保罗、特伦奇、特吕布纳出版公司（Kegan Paul, Trench, Trubner & Co., Ltd.）](../institutions/kegan-paul-trench-trubner.md) | 时间：1941；角色：出版商；范围：本次核对的英文第三十三卷版本；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页出版项；PDF第7页 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1941；角色：出版地；范围：版本出版地点，不是现存印本保管地；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页出版项；PDF第7页 |
+| → 所涉对象（`has_subject`） | [克雷芒十一世（Clement XI）](../persons/clement-xi.md) | 时间：论述1700–1721；角色：传记对象；范围：卷题明确的教皇；书中评价不转写为现代研究定论；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页CLEMENT XI；印刷p.13 |
 
 ### 关系候选入口
 

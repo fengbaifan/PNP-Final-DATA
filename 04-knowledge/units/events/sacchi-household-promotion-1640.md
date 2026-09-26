@@ -67,5 +67,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 参与者（`has_participant`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 1640 年晋级事件的画家主体；时间：1640；角色：晋级的画家；范围：Antonio Barberini家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
-| → 参与者（`has_participant`） | [安东尼奥·巴贝里尼（Antonio Barberini）](../persons/antonio-barberini.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
+| → 参与者（`has_participant`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 1640 年晋级事件的画家主体；时间：1640；角色：晋级的画家；范围：Antonio Barberini家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |
+| → 参与者（`has_participant`） | [安东尼奥·巴贝里尼（Antonio Barberini）](../persons/antonio-barberini.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |

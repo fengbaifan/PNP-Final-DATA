@@ -68,7 +68,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）](../works/tiepolo-maecenas-presenting-the-arts-to-augustus.md) | 时间：1766；角色：蚀刻制作者；范围：1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D；原断言与证据见发出端卡片“梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）”：[来源](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)；works-tiepolo-maecenas-presenting-the-arts-to-augustus；印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D |
+| ← 所创作对象（`creator_of`，反向投影） | [梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）](../works/tiepolo-maecenas-presenting-the-arts-to-augustus.md) | 时间：1766；角色：蚀刻制作者；范围：1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D；原断言与证据见发出端卡片“梅塞纳斯向奥古斯都呈献艺术（Maecenas presenting the Arts to Augustus）”：[来源](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)；src-93a4cb4d5987e673；印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D |
 
 ### 关系候选入口
 

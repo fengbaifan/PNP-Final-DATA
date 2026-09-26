@@ -59,4 +59,4 @@ relations: []
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 题献对象（`dedication_recipient_of`，反向投影） | [狄安娜与仙女的射箭比赛版画](../works/venturini-diana-hunting-print.md) | 角色：题献接受者；版画目录记载为题献对象，题名与题记见S4–S5 |
+| ← dedication_recipient_of（`dedication_recipient_of`，反向投影） | [狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）](../works/venturini-diana-hunting-print.md) | 角色：题献对象；原断言与证据见发出端卡片“狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）”：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；dedication field and inscription |

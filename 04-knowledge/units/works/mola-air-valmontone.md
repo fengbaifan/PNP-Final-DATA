@@ -62,4 +62,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](mola-four-elements-valmontone.md) | 空气是四元素装饰题材之一，本卡保留方案内容；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
+| → 组成部分（`part_of`） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](mola-four-elements-valmontone.md) | 空气是四元素装饰题材之一，本卡保留方案内容；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 308–319; print pp. 9 |

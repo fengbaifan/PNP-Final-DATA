@@ -50,7 +50,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | 来源明确该端点承担Death of the Virgin的委托角色；不由委托推定当前所有权；时间：约1601–1606；角色：委托人／委托机构；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；commissioned-by-persons-laerzio-cherubini-md；本卡S2；有S4时并参委托／历史段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | 来源明确该端点承担Death of the Virgin的委托角色；不由委托推定当前所有权；时间：约1601–1606；角色：委托人／委托机构；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

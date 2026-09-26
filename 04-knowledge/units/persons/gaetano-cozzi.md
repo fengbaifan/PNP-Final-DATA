@@ -119,10 +119,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 受雇于（`employed_by`） | [威尼斯卡福斯卡里大学（Ca’ Foscari University of Venice）](../institutions/ca-foscari-university-venice.md) | 时间：1960–1965；1970–1998；角色：教师；范围：两个不连续任教时段；不覆盖1966–1969帕多瓦阶段；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
-| → 受雇于（`employed_by`） | [帕多瓦大学（University of Padua）](../institutions/university-of-padua.md) | 时间：1966–1969；角色：政治学学院教师；范围：仅帕多瓦任教阶段；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：2001-03-15；角色：去世；范围：去世地；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 受雇于（`employed_by`） | [威尼斯卡福斯卡里大学（Ca’ Foscari University of Venice）](../institutions/ca-foscari-university-venice.md) | 时间：1960–1965；1970–1998；角色：教师；范围：两个不连续任教时段；不覆盖1966–1969帕多瓦阶段；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；src-1450e03989053436；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| → 受雇于（`employed_by`） | [帕多瓦大学（University of Padua）](../institutions/university-of-padua.md) | 时间：1966–1969；角色：政治学学院教师；范围：仅帕多瓦任教阶段；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；src-1450e03989053436；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：2001-03-15；角色：去世；范围：去世地；证据：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；src-1450e03989053436；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
 
 ### 关系候选入口
 

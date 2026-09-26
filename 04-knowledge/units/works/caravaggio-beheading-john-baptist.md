@@ -94,9 +94,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Beheading of Saint John the Baptist归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | 来源将The Beheading of Saint John the Baptist与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；installed-at-places-st-johns-co-cathedral-md；本卡S2；有S4时并参对象／地点说明 |
-| → 拟用于（`intended_for`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | The Beheading of Saint John the Baptist原定用于该建筑或礼拜堂；时间：1608；角色：原定安置地点；范围：卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；intended-for-places-st-johns-co-cathedral-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Beheading of Saint John the Baptist归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | 来源将The Beheading of Saint John the Baptist与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象／地点说明 |
+| → 拟用于（`intended_for`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | The Beheading of Saint John the Baptist原定用于该建筑或礼拜堂；时间：1608；角色：原定安置地点；范围：卡拉瓦乔最大尺幅且有签名的作品；与两幅莎乐美及其他施洗者题材分开。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

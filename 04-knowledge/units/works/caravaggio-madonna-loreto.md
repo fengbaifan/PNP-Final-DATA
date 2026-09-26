@@ -104,10 +104,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Madonna di Loreto归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [罗马圣奥古斯丁圣殿（Basilica of Saint Augustine in Campo Marzio）](../places/sant-agostino-rome.md) | 来源将Madonna di Loreto与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；installed-at-places-sant-agostino-rome-md；本卡S2；有S4时并参对象／地点说明 |
-| → 由其委托（`commissioned_by`） | [埃尔梅特·卡瓦莱蒂（Ermete Cavalletti）](../persons/ermete-cavalletti.md) | 来源明确该端点承担Madonna di Loreto的委托角色；不由委托推定当前所有权；时间：约1604–1606；角色：委托人／委托机构；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；commissioned-by-persons-ermete-cavalletti-md；本卡S2；有S4时并参委托／历史段 |
-| → 拟用于（`intended_for`） | [罗马圣奥古斯丁圣殿（Basilica of Saint Augustine in Campo Marzio）](../places/sant-agostino-rome.md) | Madonna di Loreto原定用于该建筑或礼拜堂；时间：约1604–1606；角色：原定安置地点；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；intended-for-places-sant-agostino-rome-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Madonna di Loreto归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [罗马圣奥古斯丁圣殿（Basilica of Saint Augustine in Campo Marzio）](../places/sant-agostino-rome.md) | 来源将Madonna di Loreto与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参对象／地点说明 |
+| → 由其委托（`commissioned_by`） | [埃尔梅特·卡瓦莱蒂（Ermete Cavalletti）](../persons/ermete-cavalletti.md) | 来源明确该端点承担Madonna di Loreto的委托角色；不由委托推定当前所有权；时间：约1604–1606；角色：委托人／委托机构；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参委托／历史段 |
+| → 拟用于（`intended_for`） | [罗马圣奥古斯丁圣殿（Basilica of Saint Augustine in Campo Marzio）](../places/sant-agostino-rome.md) | Madonna di Loreto原定用于该建筑或礼拜堂；时间：约1604–1606；角色：原定安置地点；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；证据：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

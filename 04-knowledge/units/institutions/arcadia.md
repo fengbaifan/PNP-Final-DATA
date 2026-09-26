@@ -96,10 +96,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；原断言与证据见发出端卡片“弗朗切斯科·特雷维萨尼（Francesco Trevisani）”：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1712年入会段 |
-| ← 包含成员（`contains`，反向投影） | [乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）](../persons/giammaria-morandi.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；原断言与证据见发出端卡片“乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1699年入会段 |
-| ← 包含成员（`contains`，反向投影） | [朱塞佩·盖齐（Giuseppe Ghezzi）](../persons/giuseppe-ghezzi.md) | 本章明确 Ghezzi 当选 Arcadia 学会成员；原断言与证据见发出端卡片“朱塞佩·盖齐（Giuseppe Ghezzi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 770–773; print pp. 19 |
-| ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；dbi-ottoboni；本卡 S7；1695年入会段 |
+| ← 包含成员（`contains`，反向投影） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；原断言与证据见发出端卡片“弗朗切斯科·特雷维萨尼（Francesco Trevisani）”：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；本卡 S6；1712年入会段 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）](../persons/giammaria-morandi.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；原断言与证据见发出端卡片“乔万尼·玛丽亚·莫兰迪（Giovanni Maria Morandi）”：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；src-c5198859fd73d54a；本卡 S6；1699年入会段 |
+| ← 包含成员（`contains`，反向投影） | [朱塞佩·盖齐（Giuseppe Ghezzi）](../persons/giuseppe-ghezzi.md) | 本章明确 Ghezzi 当选 Arcadia 学会成员；原断言与证据见发出端卡片“朱塞佩·盖齐（Giuseppe Ghezzi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 770–773; print pp. 19 |
+| ← 包含成员（`contains`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](../persons/pietro-ottoboni.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；src-c28e687a7f2dd974；本卡 S7；1695年入会段 |
 
 ### 身份与外部链接
 

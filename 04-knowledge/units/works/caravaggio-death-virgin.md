@@ -104,10 +104,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Death of the Virgin归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 当前对象记录将Death of the Virgin列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；held-by-institutions-louvre-museum-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [莱尔齐奥·凯鲁比尼（Laerzio Cherubini）](../persons/laerzio-cherubini.md) | 来源明确该端点承担Death of the Virgin的委托角色；不由委托推定当前所有权；时间：约1601–1606；角色：委托人／委托机构；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；commissioned-by-persons-laerzio-cherubini-md；本卡S2；有S4时并参委托／历史段 |
-| → 拟用于（`intended_for`） | [罗马阶梯圣母堂（Santa Maria della Scala, Rome）](../places/santa-maria-della-scala-rome.md) | Death of the Virgin原定用于该建筑或礼拜堂；时间：约1601–1606；角色：原定安置地点；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；intended-for-places-santa-maria-della-scala-rome-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Death of the Virgin归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 当前对象记录将Death of the Virgin列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [莱尔齐奥·凯鲁比尼（Laerzio Cherubini）](../persons/laerzio-cherubini.md) | 来源明确该端点承担Death of the Virgin的委托角色；不由委托推定当前所有权；时间：约1601–1606；角色：委托人／委托机构；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参委托／历史段 |
+| → 拟用于（`intended_for`） | [罗马阶梯圣母堂（Santa Maria della Scala, Rome）](../places/santa-maria-della-scala-rome.md) | Death of the Virgin原定用于该建筑或礼拜堂；时间：约1601–1606；角色：原定安置地点；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；证据：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

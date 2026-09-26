@@ -57,5 +57,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [休·昂纳（Hugh Honour）](../persons/hugh-honour.md) | 时间：1986年当选；角色：International Fellow／FBA；范围：国际院士身份；原断言与证据见发出端卡片“休·昂纳（Hugh Honour）”：[来源](https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/)；persons-hugh-honour；个人记录全部字段及机构页脚 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 角色：所在地；范围：机构所在地；证据：[来源](https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/)；institutions-british-academy；个人记录全部字段及机构页脚 |
+| ← 包含成员（`contains`，反向投影） | [休·昂纳（Hugh Honour）](../persons/hugh-honour.md) | 时间：1986年当选；角色：International Fellow／FBA；范围：国际院士身份；原断言与证据见发出端卡片“休·昂纳（Hugh Honour）”：[来源](https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/)；src-9fdb9b518cd8dc73；个人记录全部字段及机构页脚 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 角色：所在地；范围：机构所在地；证据：[来源](https://www.thebritishacademy.ac.uk/fellows/profiles/hugh-honour-FBA/)；src-9fdb9b518cd8dc73；个人记录全部字段及机构页脚 |

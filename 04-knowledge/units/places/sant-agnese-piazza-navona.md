@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [纳沃纳广场（Piazza Navona）](piazza-navona.md) | 教堂定位为 Piazza Navona；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–439; print pp. 12 |
-| ← 所在地（`location_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | 工程位于 Piazza Navona 的 S. Agnese；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
+| → 位于（`located_at`） | [纳沃纳广场（Piazza Navona）](piazza-navona.md) | 教堂定位为 Piazza Navona；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–439; print pp. 12 |
+| ← 所在地（`location_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | 工程位于 Piazza Navona 的 S. Agnese；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–450; print pp. 12 |
 
 ### 身份与外部链接
 

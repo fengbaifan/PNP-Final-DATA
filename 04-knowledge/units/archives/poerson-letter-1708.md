@@ -129,9 +129,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [夏尔-弗朗索瓦·普瓦松（Charles-François Poerson）](../persons/charles-francois-poerson.md) | 时间：1708；角色：写信人；范围：本书所引1708年法语来信的写信人；精确日期和收信人另据通信集第1317号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 191–192; 章前：第二版导言；印刷页xviii |
-| → 致函（`addressed_to`） | [路易-安托万·德·帕尔达扬·德·贡德兰（Louis-Antoine de Pardaillan de Gondrin）](../persons/louis-antoine-de-pardaillan-de-gondrin.md) | 时间：1708-10-20；角色：收信人；范围：刊本第1317号信题头M. d’Antin；身份依收信人人物卡来源；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-poerson-letter-1708；印刷p.239第1317号信题头；PDF第249页 |
-| → 组成部分（`part_of`） | [罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）](montaiglon-academy-correspondence.md) | 时间：1889年12月刊行；角色：刊载于第三卷pp.239–241；范围：信件的编刊收录位置，非手稿物理归属；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-poerson-letter-1708；题名页和印刷pp.239–241；第1317号 |
+| → 作者（`authored_by`） | [夏尔-弗朗索瓦·普瓦松（Charles-François Poerson）](../persons/charles-francois-poerson.md) | 时间：1708；角色：写信人；范围：本书所引1708年法语来信的写信人；精确日期和收信人另据通信集第1317号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 191–192; 章前：第二版导言；印刷页xviii |
+| → 致函（`addressed_to`） | [路易-安托万·德·帕尔达扬·德·贡德兰（Louis-Antoine de Pardaillan de Gondrin）](../persons/louis-antoine-de-pardaillan-de-gondrin.md) | 时间：1708-10-20；角色：收信人；范围：刊本第1317号信题头M. d’Antin；身份依收信人人物卡来源；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；印刷p.239第1317号信题头；PDF第249页 |
+| → 组成部分（`part_of`） | [罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）](montaiglon-academy-correspondence.md) | 时间：1889年12月刊行；角色：刊载于第三卷pp.239–241；范围：信件的编刊收录位置，非手稿物理归属；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；题名页和印刷pp.239–241；第1317号 |
 
 ### 关系候选入口
 

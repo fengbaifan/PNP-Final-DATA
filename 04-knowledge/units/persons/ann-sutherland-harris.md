@@ -105,10 +105,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：作者；范围：所列版本书目责任，不声称读过全文；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 就读于（`educated_at`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 角色：博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；persons-ann-sutherland-harris；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → 受雇于（`employed_by`） | [匹兹堡大学（University of Pittsburgh）](../institutions/university-of-pittsburgh.md) | 角色：艺术史教授；范围：校方教师页面任职身份；未补造任期；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；persons-ann-sutherland-harris；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 就读于（`educated_at`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 角色：博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 受雇于（`employed_by`） | [匹兹堡大学（University of Pittsburgh）](../institutions/university-of-pittsburgh.md) | 角色：艺术史教授；范围：校方教师页面任职身份；未补造任期；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| ← 所著文献（`author_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：作者；范围：所列版本书目责任，不声称读过全文；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

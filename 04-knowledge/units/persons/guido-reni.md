@@ -184,8 +184,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所创作对象（`creator_of`） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
-| ← 所创作对象（`creator_of`，反向投影） | [雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）](../works/reni-massacre-innocents.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；原断言与证据见发出端卡片“雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
+| → 所创作对象（`creator_of`） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 531–534; print pp. 14 |
+| ← 所创作对象（`creator_of`，反向投影） | [雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）](../works/reni-massacre-innocents.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；原断言与证据见发出端卡片“雷尼《屠杀婴孩》（Reni’s Massacre of the Innocents）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 373–375; print pp. 10 |
 
 ### 身份与外部链接
 

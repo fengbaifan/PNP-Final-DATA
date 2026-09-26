@@ -50,4 +50,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](../works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 不等同委托地点；当前阿什莫林收藏另列；角色：DBI列示的原作地点；范围：DBI原作记载；具体安置时间未载；原断言与证据见发出端卡片“赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 52–54 |
+| ← 所在地（`location_of`，反向投影） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](../works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 不等同委托地点；当前阿什莫林收藏另列；角色：DBI列示的原作地点；范围：DBI原作记载；具体安置时间未载；原断言与证据见发出端卡片“赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 52–54 |

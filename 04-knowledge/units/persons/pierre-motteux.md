@@ -71,7 +71,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 角色：群像中的具名人物；范围：1874,0808.43；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Description：Peter Anthony Motteux及家人 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 角色：群像中的具名人物；范围：1874,0808.43；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Description：Peter Anthony Motteux及家人 |
 
 ### 关系候选入口
 

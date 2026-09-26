@@ -90,8 +90,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → supported_by（`supported_by`） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1928遗赠；1929开馆；角色：创馆收藏遗赠者；范围：遗赠收藏成为博物馆基础，博物馆1929开馆；不记本人1929在世任职；证据：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；institutions-musee-cognacq-jay；The museum located Boulevard des Capucines |
-| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](../works/tiepolo-banquet-cognacq-jay.md) | 角色：保管机构；范围：J 104保管机构；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Institution、Numéro d’inventaire |
+| → supported_by（`supported_by`） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1928遗赠；1929开馆；角色：创馆收藏遗赠者；范围：遗赠收藏成为博物馆基础，博物馆1929开馆；不记本人1929在世任职；证据：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；src-5d8c8c92662ec499；The museum located Boulevard des Capucines |
+| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](../works/tiepolo-banquet-cognacq-jay.md) | 角色：保管机构；范围：J 104保管机构；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Institution、Numéro d’inventaire |
 
 ### 关系候选入口
 

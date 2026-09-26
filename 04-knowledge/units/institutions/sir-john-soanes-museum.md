@@ -64,8 +64,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：2016–2017年报；角色：登记地址所在城市；范围：2016–2017年报地址；不以报告期末推定迁址；证据：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；institutions-sir-john-soanes-museum；PDF8／印刷6：Registered address |
-| ← 雇主（`employer_of`，反向投影） | [布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）](../persons/bruce-boucher.md) | 时间：2016-05-16就任；2017-03-31仍在任；角色：馆长；范围：年度报告时点，不将期末当离任；原断言与证据见发出端卡片“布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）”：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；persons-bruce-boucher；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
+| ← 雇主（`employer_of`，反向投影） | [布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）](../persons/bruce-boucher.md) | 时间：2016-05-16就任；2017-03-31仍在任；角色：馆长；范围：年度报告时点，不将期末当离任；原断言与证据见发出端卡片“布鲁斯·安布勒·鲍彻（Bruce Ambler Boucher）”：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；src-4f84c0cad49ac94c；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：2016–2017年报；角色：登记地址所在城市；范围：2016–2017年报地址；不以报告期末推定迁址；证据：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；src-4f84c0cad49ac94c；PDF8／印刷6：Registered address |
 
 ### 关系候选入口
 

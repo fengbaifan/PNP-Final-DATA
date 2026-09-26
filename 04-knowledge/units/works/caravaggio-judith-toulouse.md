@@ -66,7 +66,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其收藏／拥有（`owned_by`） | [J. 托米尔森·希尔（J. Tomilson Hill）](../persons/j-tomilson-hill.md) | 来源支持该端点在所列时期收藏或拥有Judith Beheading Holofernes (Toulouse object)；不等于当前保管；时间：2019-06-25起；角色：购藏者；范围：可能归于卡拉瓦乔、路易·芬松或那不勒斯卡拉瓦乔圈；不建立确定创作者边。；证据：[来源](https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage_ou_Finson))；owned-by-persons-j-tomilson-hill-md；本卡S2；有S4时并参流传段 |
+| → 由其收藏／拥有（`owned_by`） | [J. 托米尔森·希尔（J. Tomilson Hill）](../persons/j-tomilson-hill.md) | 来源支持该端点在所列时期收藏或拥有Judith Beheading Holofernes (Toulouse object)；不等于当前保管；时间：2019-06-25起；角色：购藏者；范围：可能归于卡拉瓦乔、路易·芬松或那不勒斯卡拉瓦乔圈；不建立确定创作者边。；证据：[来源](https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage_ou_Finson))；src-ba5747dbb9858017；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

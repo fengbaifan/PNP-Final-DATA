@@ -69,6 +69,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [保罗·内格里（Paolo Negri）](../persons/paolo-negri.md) | 书信作者；1676-12-24；引述画家气质的观念。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
-| → 致函（`addressed_to`） | [圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (Negri’s correspondent)）](../persons/marchese-san-tommaso-negri.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
-| → 所涉对象（`has_subject`） | [乔万尼·佩鲁吉尼（Giovanni Perugini）](../persons/giovanni-perugini.md) | 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
+| → 作者（`authored_by`） | [保罗·内格里（Paolo Negri）](../persons/paolo-negri.md) | 书信作者；1676-12-24；引述画家气质的观念。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 889–900; print pp. 21 |
+| → 致函（`addressed_to`） | [圣托马索侯爵（内格里的收信人）（Marchese di S. Tommaso (Negri’s correspondent)）](../persons/marchese-san-tommaso-negri.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 889–900; print pp. 21 |
+| → 所涉对象（`has_subject`） | [乔万尼·佩鲁吉尼（Giovanni Perugini）](../persons/giovanni-perugini.md) | 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 889–900; print pp. 21 |

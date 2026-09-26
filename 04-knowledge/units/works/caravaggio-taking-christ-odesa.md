@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其保管（`held_by`） | [敖德萨西方与东方艺术博物馆（Odesa Museum of Western and Eastern Art）](../institutions/odesa-museum-western-eastern-art.md) | 当前对象记录将The Taking of Christ (Odesa copy)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存复制品；作者未定；证据：[来源](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))；held-by-institutions-odesa-museum-western-eastern-art-md；本卡S2；有S4时并参对象字段 |
-| → 为其版本／复制（`variant_of`） | [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](caravaggio-taking-christ-dublin.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：2008年被盗、2010年寻回；部分专家认为是同时代复制品，不建立卡拉瓦乔创作者边。；证据：[来源](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))；variant-of-works-caravaggio-taking-christ-dublin-md；本卡S2；版本段 |
+| → 由其保管（`held_by`） | [敖德萨西方与东方艺术博物馆（Odesa Museum of Western and Eastern Art）](../institutions/odesa-museum-western-eastern-art.md) | 当前对象记录将The Taking of Christ (Odesa copy)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存复制品；作者未定；证据：[来源](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))；src-ac741a73e2e14310；本卡S2；有S4时并参对象字段 |
+| → 为其版本／复制（`variant_of`） | [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](caravaggio-taking-christ-dublin.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：2008年被盗、2010年寻回；部分专家认为是同时代复制品，不建立卡拉瓦乔创作者边。；证据：[来源](https://en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio))；src-ac741a73e2e14310；本卡S2；版本段 |
 
 ### 身份与外部链接
 

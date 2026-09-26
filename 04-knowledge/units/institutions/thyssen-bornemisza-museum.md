@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）](../works/caravaggio-saint-catherine-alexandria.md) | 当前对象记录将Saint Catherine of Alexandria列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）”：[来源](https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria)；held-by-institutions-thyssen-bornemisza-museum-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）](../works/caravaggio-saint-catherine-alexandria.md) | 当前对象记录将Saint Catherine of Alexandria列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《亚历山大的圣凯瑟琳》（Saint Catherine of Alexandria）”：[来源](https://www.museothyssen.org/en/collection/artists/caravaggio/saint-catherine-alexandria)；src-5cfbda3b061687ce；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

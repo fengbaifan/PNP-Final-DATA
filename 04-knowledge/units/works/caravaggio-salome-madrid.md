@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Salome with the Head of John the Baptist (Madrid version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与伦敦版本及《施洗者圣约翰斩首》分开。；证据：[来源](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [西班牙皇家收藏美术馆（Royal Collections Gallery）](../institutions/royal-collections-gallery.md) | 当前对象记录将Salome with the Head of John the Baptist (Madrid version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)；held-by-institutions-royal-collections-gallery-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Salome with the Head of John the Baptist (Madrid version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与伦敦版本及《施洗者圣约翰斩首》分开。；证据：[来源](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)；src-37d5ca9cbe2f31b6；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [西班牙皇家收藏美术馆（Royal Collections Gallery）](../institutions/royal-collections-gallery.md) | 当前对象记录将Salome with the Head of John the Baptist (Madrid version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.patrimonionacional.es/colecciones-reales/pintura/salome-con-la-cabeza-del-bautista)；src-37d5ca9cbe2f31b6；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

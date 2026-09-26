@@ -49,8 +49,8 @@ S1列二人有四子一女，并给出部分姓名；S2只给两项有来源的�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配偶（`spouse_of`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](olimpia-aldobrandini.md) | 奥林皮娅于1638年与Paolo Borghese结婚；Paolo于1646年去世；时间：1638–1646；角色：第一任配偶；范围：1638年结婚，关系因Paolo于1646年去世结束；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；olimpia-aldobrandini-wikipedia；Marriages段 |
-| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；证据：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；paolo-borghese-wikipedia；导言与家庭段 |
+| ← 配偶（`spouse_of`，反向投影） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](olimpia-aldobrandini.md) | 奥林皮娅于1638年与Paolo Borghese结婚；Paolo于1646年去世；时间：1638–1646；角色：第一任配偶；范围：1638年结婚，关系因Paolo于1646年去世结束；原断言与证据见发出端卡片“奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）”：[来源](https://en.wikipedia.org/wiki/Olimpia_Aldobrandini)；src-938a5e3d582d0cb8；Marriages段 |
+| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；证据：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；src-fb8c5accc4b97f5c；导言与家庭段 |
 
 ### 身份与外部链接
 

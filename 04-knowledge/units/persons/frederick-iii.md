@@ -73,7 +73,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 荣衔授予者（`honourer_of`） | [真蒂莱·贝利尼（Gentile Bellini）](gentile-bellini.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–800; print pp. 19 |
+| → 荣衔授予者（`honourer_of`） | [真蒂莱·贝利尼（Gentile Bellini）](gentile-bellini.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–800; print pp. 19 |
 
 ### 身份与外部链接
 

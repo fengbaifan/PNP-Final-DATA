@@ -142,12 +142,12 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：原书署名作者；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 93–93; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [坦普尔纽萨姆庄园（Temple Newsam）](../places/temple-newsam.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 93–93; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [利兹（Leeds）](../places/leeds.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 93–93; 章前：图版目录；印刷页xiv |
-| → 为其版本／复制（`variant_of`） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 角色：签名并署1712年的复制版本；范围：1712；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 52–54 |
-| → 为其版本／复制（`variant_of`） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 角色：利兹较小亲笔版本；范围：18世纪初；证据：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；description paragraphs 2–3 |
-| → 由其委托（`commissioned_by`） | [约翰·克罗普利爵士（Sir John Cropley）](../persons/sir-john-cropley.md) | 角色：较小亲笔版本委托者；范围：18世纪初；证据：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；description paragraph 3 |
+| → 创作者（`created_by`） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：原书署名作者；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 93–93; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [坦普尔纽萨姆庄园（Temple Newsam）](../places/temple-newsam.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 93–93; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [利兹（Leeds）](../places/leeds.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版32b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 93–93; 章前：图版目录；印刷页xiv |
+| → 为其版本／复制（`variant_of`） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 角色：签名并署1712年的复制版本；范围：1712；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 52–54 |
+| → 为其版本／复制（`variant_of`） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 角色：利兹较小亲笔版本；范围：18世纪初；证据：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；description paragraphs 2–3 |
+| → 由其委托（`commissioned_by`） | [约翰·克罗普利爵士（Sir John Cropley）](../persons/sir-john-cropley.md) | 角色：较小亲笔版本委托者；范围：18世纪初；证据：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；description paragraph 3 |
 
 ### 关系候选入口
 

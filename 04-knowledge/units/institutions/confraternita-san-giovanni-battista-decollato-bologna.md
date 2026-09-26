@@ -65,4 +65,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 善会为原文要求作画的委托人；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
+| ← 委托者（`commissioner_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 善会为原文要求作画的委托人；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 326–328; print pp. 9 |

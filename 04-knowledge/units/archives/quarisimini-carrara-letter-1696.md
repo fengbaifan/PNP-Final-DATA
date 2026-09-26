@@ -55,5 +55,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [卡洛·夸里斯米尼（1696年通信者）（Carlo Quarismini, correspondent in 1696）](../persons/carlo-quarisimini-ch1.md) | Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11；证据：[来源](https://archive.org/details/diletteresulla05bott)；bottari-ticozzi-letter-collection-v5；vol. V, letter XLVI, pp. 185–187 |
-| → 致函（`addressed_to`） | [文图拉·卡拉拉伯爵（Count Ventura Carrara）](../persons/ventura-carrara.md) | 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini；时间：1696-07-11；角色：收信人；范围：Quarismini书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 511–513; print pp. 13 |
+| → 作者（`authored_by`） | [卡洛·夸里斯米尼（1696年通信者）（Carlo Quarismini, correspondent in 1696）](../persons/carlo-quarisimini-ch1.md) | Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11；证据：[来源](https://archive.org/details/diletteresulla05bott)；src-37b61bdf21a0e256；vol. V, letter XLVI, pp. 185–187 |
+| → 致函（`addressed_to`） | [文图拉·卡拉拉伯爵（Count Ventura Carrara）](../persons/ventura-carrara.md) | 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini；时间：1696-07-11；角色：收信人；范围：Quarismini书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 511–513; print pp. 13 |

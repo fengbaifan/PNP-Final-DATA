@@ -115,10 +115,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 范围：图版22a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
-| → 所涉对象（`has_subject`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 范围：图版22a题名所指画家自我描绘；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
-| → 由其保管（`held_by`） | [卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）](../institutions/kunstsammlungen-kassel.md) | 范围：本书图版22a所记保管机构；不推定取得时间；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 75–75; print p. xiii |
-| → 由其保管（`held_by`） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 范围：RKD图21所记保管机构；不视为与书中机构之间的转让；证据：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；rkd-gerson-italy；图21；GK 554 |
+| → 创作者（`created_by`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 范围：图版22a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; print p. xiii |
+| → 所涉对象（`has_subject`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 范围：图版22a题名所指画家自我描绘；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; print p. xiii |
+| → 由其保管（`held_by`） | [卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）](../institutions/kunstsammlungen-kassel.md) | 范围：本书图版22a所记保管机构；不推定取得时间；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; print p. xiii |
+| → 由其保管（`held_by`） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 范围：RKD图21所记保管机构；不视为与书中机构之间的转让；证据：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；src-1284a8465656ff73；图21；GK 554 |
 
 ### 关系候选入口
 

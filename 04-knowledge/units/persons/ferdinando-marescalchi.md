@@ -86,6 +86,6 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1754；角色：出生地点；范围：个人生命事件；证据：[来源](https://www.treccani.it/enciclopedia/marescalchi-ferdinando-conte/)；persons-ferdinando-marescalchi；首句：Bologna 1754 |
-| → 位于（`located_at`） | [摩德纳（Modena）](../places/modena.md) | 时间：1816；角色：去世地点；范围：个人生命事件；证据：[来源](https://www.treccani.it/enciclopedia/marescalchi-ferdinando-conte/)；persons-ferdinando-marescalchi；首句：Modena 1816 |
-| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：历史所有人；范围：NT1257142；取得日期未载；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Caption：Ferdinando Marescalchi收藏 |
+| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1754；角色：出生地点；范围：个人生命事件；证据：[来源](https://www.treccani.it/enciclopedia/marescalchi-ferdinando-conte/)；src-aab2f71212c13895；首句：Bologna 1754 |
+| → 位于（`located_at`） | [摩德纳（Modena）](../places/modena.md) | 时间：1816；角色：去世地点；范围：个人生命事件；证据：[来源](https://www.treccani.it/enciclopedia/marescalchi-ferdinando-conte/)；src-aab2f71212c13895；首句：Modena 1816 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：历史所有人；范围：NT1257142；取得日期未载；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Caption：Ferdinando Marescalchi收藏 |

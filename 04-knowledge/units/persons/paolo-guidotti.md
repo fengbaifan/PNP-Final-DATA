@@ -97,7 +97,7 @@ Olga Melasecchi的DBI词条及其书目已全文阅读；条目所引学院档�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605至1606年任书记、1619年任Prince，支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/)；dbi-guidotti；本卡 S6；学院职务段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605至1606年任书记、1619年任Prince，支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/guidotti-paolo-detto-il-cavalier-borghese_(Dizionario-Biografico)/)；src-17b418b72765ed43；本卡 S6；学院职务段 |
 
 ### 身份与外部链接
 

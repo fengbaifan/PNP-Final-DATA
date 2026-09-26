@@ -103,7 +103,7 @@ Pascoli关于重视作品与少求保护的判断是第一章引文；Richardson
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1694年4月12日当选圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/)；dbi-luti；本卡 S7；1694年入会段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1694年4月12日当选圣路加学院成员；证据：[来源](https://www.treccani.it/enciclopedia/benedetto-luti_(Dizionario-Biografico)/)；src-20955f837289b882；本卡 S7；1694年入会段 |
 
 ### 身份与外部链接
 

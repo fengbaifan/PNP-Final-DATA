@@ -45,7 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《马大与抹大拉的马利亚》（Martha and Mary Magdalene）](../works/caravaggio-martha-mary-magdalene.md) | 当前对象记录将Martha and Mary Magdalene列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《马大与抹大拉的马利亚》（Martha and Mary Magdalene）”：[来源](https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204)；held-by-institutions-detroit-institute-of-arts-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《马大与抹大拉的马利亚》（Martha and Mary Magdalene）](../works/caravaggio-martha-mary-magdalene.md) | 当前对象记录将Martha and Mary Magdalene列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《马大与抹大拉的马利亚》（Martha and Mary Magdalene）”：[来源](https://www.dia.org/art/collection/object/martha-and-mary-magdalene-36204)；src-9778c7abc0429ee7；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《苏珊娜与长老》（Susanna and the Elders）](../works/ottavio-leoni-susanna-and-the-elders-1620.md) | 时间：1941年至馆藏记录访问日（2026-09-25）；角色：当前保管机构；范围：1941年由Detroit Institute of Arts购入并列为馆藏；此边记录保管，不延伸到更早产权；原断言与证据见发出端卡片“《苏珊娜与长老》（Susanna and the Elders）”：[来源](https://dia.org/collection/susanna-and-elders/52211)；src-cf55d5621e9f7106；Accession Number、Provenance；对象41.89 |
 
 ### 身份与外部链接
 

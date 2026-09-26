@@ -140,9 +140,9 @@ Raffaella Poltronieri的DBI词条及书目已全文阅读；所引合同、审�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 亲缘（`kin_of`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 角色：侄子→叔父；范围：父亲的兄弟为Sebastiano，明确叔侄而非兄弟；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；传记第2段：Fratello di suo padre era Sebastiano |
-| ← 合作（`collaborated_with`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 时间：18世纪初起；角色：风景与建筑背景；范围：Marco承担风景或建筑背景；不推及叔父每一件作品；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；合作段：Fin dagli albori del Settecento至fondali scenografici |
-| ← 所创作对象（`creator_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/)；dbi-ricci；人物卡 S6；1682-09-28合同段 |
+| ← 亲缘（`kin_of`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 角色：侄子→叔父；范围：父亲的兄弟为Sebastiano，明确叔侄而非兄弟；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；传记第2段：Fratello di suo padre era Sebastiano |
+| ← 合作（`collaborated_with`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 时间：18世纪初起；角色：风景与建筑背景；范围：Marco承担风景或建筑背景；不推及叔父每一件作品；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；合作段：Fin dagli albori del Settecento至fondali scenografici |
+| ← 所创作对象（`creator_of`，反向投影） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 1682年合同对象由里奇创作；DBI说明作品已佚，不把委托等同现存；原断言与证据见发出端卡片“里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）”：[来源](https://www.treccani.it/enciclopedia/sebastiano-ricci_(Dizionario-Biografico)/)；src-df33b365c71d007d；人物卡 S6；1682-09-28合同段 |
 
 ### 身份与外部链接
 

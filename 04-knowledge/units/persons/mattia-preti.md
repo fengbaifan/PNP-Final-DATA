@@ -94,7 +94,7 @@ Rosanna De Gennaro 的DBI词条已全文阅读；其书目所列文献、合同�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受其赞助／保护（`patronized_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境；时间：1646–1649起；角色：作品进入其收藏并保持往来的画家；范围：限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托；证据：[来源](https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/)；dbi-preti；本卡 S6；Messina与Ruffo段 |
+| → 受其赞助／保护（`patronized_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境；时间：1646–1649起；角色：作品进入其收藏并保持往来的画家；范围：限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托；证据：[来源](https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/)；src-bad578974eae7047；本卡 S6；Messina与Ruffo段 |
 
 ### 身份与外部链接
 

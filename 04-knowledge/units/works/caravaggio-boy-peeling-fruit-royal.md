@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Boy Peeling Fruit (Royal Collection version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：同题存在多个复制或版本，本卡限定RCIN 402612。；证据：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [英国皇家收藏（Royal Collection）](../institutions/royal-collection.md) | 当前对象记录将Boy Peeling Fruit (Royal Collection version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；held-by-institutions-royal-collection-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Boy Peeling Fruit (Royal Collection version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：同题存在多个复制或版本，本卡限定RCIN 402612。；证据：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；src-633cc871027e32ea；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [英国皇家收藏（Royal Collection）](../institutions/royal-collection.md) | 当前对象记录将Boy Peeling Fruit (Royal Collection version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；src-633cc871027e32ea；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

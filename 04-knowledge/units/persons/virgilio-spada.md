@@ -56,8 +56,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 时间：1648；角色：委托人；范围：馆藏81的具体委托；年粒度依国家目录；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；Notizie storico critiche |
-| ← 收藏者／所有者（`owner_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 角色：历史收藏者；范围：馆方明确曾属其绘画收藏，未记具体取得和转出日期；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：collezione di pittura段 |
+| ← 委托者（`commissioner_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 时间：1648；角色：委托人；范围：馆藏81的具体委托；年粒度依国家目录；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；src-a9e233657ab452fb；Notizie storico critiche |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [马萨涅洛起义（The Revolt of Masaniello）](../works/michelangelo-cerquozzi-the-revolt-of-masaniello.md) | 角色：历史收藏者；范围：馆方明确曾属其绘画收藏，未记具体取得和转出日期；原断言与证据见发出端卡片“马萨涅洛起义（The Revolt of Masaniello）”：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；src-88defb079473d30b；作品说明：collezione di pittura段 |
 
 ### 关系候选入口
 

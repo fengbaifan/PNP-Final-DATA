@@ -75,7 +75,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../archives/virgil-aeneid.md) | 角色：文学作者；范围：《埃涅阿斯纪》作品层级；原断言与证据见发出端卡片“维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；题材首段：Eneide di Virgilio |
+| ← 所著文献（`author_of`，反向投影） | [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../archives/virgil-aeneid.md) | 角色：文学作者；范围：《埃涅阿斯纪》作品层级；原断言与证据见发出端卡片“维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；题材首段：Eneide di Virgilio |
 
 ### 身份与外部链接
 

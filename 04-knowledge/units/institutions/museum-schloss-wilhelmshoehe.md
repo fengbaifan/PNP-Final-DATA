@@ -82,9 +82,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [卡塞尔（Kassel）](../places/kassel.md) | 范围：馆藏说明中的博物馆所在地；证据：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；rkd-gerson-italy；图21；GK 554 |
-| → 位于（`located_at`） | [威廉高地宫（Wilhelmshöhe Palace）](../places/schloss-wilhelmshoehe.md) | 时间：来源访问时点2026-09-15；角色：馆舍建筑；范围：博物馆使用的宫殿空间；建筑与机构分别登记；证据：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；institutions-museum-schloss-wilhelmshoehe；Von der Sommerresidenz zur Gemäldegalerie |
-| ← 保管对象（`holder_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | 范围：RKD图21所记保管机构；不视为与书中机构之间的转让；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；rkd-gerson-italy；图21；GK 554 |
+| → 位于（`located_at`） | [卡塞尔（Kassel）](../places/kassel.md) | 范围：馆藏说明中的博物馆所在地；证据：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；src-1284a8465656ff73；图21；GK 554 |
+| → 位于（`located_at`） | [威廉高地宫（Wilhelmshöhe Palace）](../places/schloss-wilhelmshoehe.md) | 时间：来源访问时点2026-09-15；角色：馆舍建筑；范围：博物馆使用的宫殿空间；建筑与机构分别登记；证据：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；src-2ca7ec588038f38c；Von der Sommerresidenz zur Gemäldegalerie |
+| ← 保管对象（`holder_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | 范围：RKD图21所记保管机构；不视为与书中机构之间的转让；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；src-1284a8465656ff73；图21；GK 554 |
 
 ### 关系候选入口
 

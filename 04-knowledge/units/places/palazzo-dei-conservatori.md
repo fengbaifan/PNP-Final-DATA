@@ -49,8 +49,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：页面访问2026-09-15；角色：陈列场所：二楼；范围：馆方页面所述绘画收藏陈列位置；原断言与证据见发出端卡片“卡比托利欧绘画馆（Pinacoteca Capitolina）”：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；institutions-pinacoteca-capitolina；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
-| ← 所在地（`location_of`，反向投影） | [乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）](../works/bernini-maffeo-barberini-as-pope-urban-viii.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；原断言与证据见发出端卡片“乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 38–39; 章前：图版目录；印刷页xii |
+| ← 所在地（`location_of`，反向投影） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：页面访问2026-09-15；角色：陈列场所：二楼；范围：馆方页面所述绘画收藏陈列位置；原断言与证据见发出端卡片“卡比托利欧绘画馆（Pinacoteca Capitolina）”：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；src-cae6ff722f9a3736；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
+| ← 所在地（`location_of`，反向投影） | [乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）](../works/bernini-maffeo-barberini-as-pope-urban-viii.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；原断言与证据见发出端卡片“乌尔班八世肖像（Maffeo Barberini as Pope Urban VIII）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

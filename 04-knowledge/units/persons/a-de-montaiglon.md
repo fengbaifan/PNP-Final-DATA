@@ -75,7 +75,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← compiler_of（`compiler_of`，反向投影） | [罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）](../archives/montaiglon-academy-correspondence.md) | 时间：1889年12月；角色：第三卷编者；范围：第三卷题名页署名；不将本卷署名扩大为各卷唯一责任；原断言与证据见发出端卡片“罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）”：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-montaiglon-academy-correspondence；第三卷题名页；PDF第9页 |
+| ← compiler_of（`compiler_of`，反向投影） | [罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）](../archives/montaiglon-academy-correspondence.md) | 时间：1889年12月；角色：第三卷编者；范围：第三卷题名页署名；不将本卷署名扩大为各卷唯一责任；原断言与证据见发出端卡片“罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings）”：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；第三卷题名页；PDF第9页 |
 
 ### 关系候选入口
 

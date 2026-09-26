@@ -78,11 +78,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 范围：本书图片来源所列历史监管机构所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [乐师群像（A Group of Musicians）](../works/a-d-gabbiani-a-group-of-musicians.md) | 本书图版对象的供片已明确；外部同题群像的具体版本仍待证；角色：本书复制图像供片者；范围：《赞助人与画家》图版40a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“乐师群像（A Group of Musicians）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [潘与绪任克斯（Pan and Syrinx）](../works/sebastiano-ricci-pan-and-syrinx.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“潘与绪任克斯（Pan and Syrinx）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [劫夺欧罗巴（Rape of Europa）](../works/sebastiano-ricci-rape-of-europa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“劫夺欧罗巴（Rape of Europa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [维纳斯与阿多尼斯（Venus and Adonis）](../works/sebastiano-ricci-venus-and-adonis.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“维纳斯与阿多尼斯（Venus and Adonis）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 170–171; 章前：图片来源；印刷页xvi |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 范围：本书图片来源所列历史监管机构所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [乐师群像（A Group of Musicians）](../works/a-d-gabbiani-a-group-of-musicians.md) | 本书图版对象的供片已明确；外部同题群像的具体版本仍待证；角色：本书复制图像供片者；范围：《赞助人与画家》图版40a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“乐师群像（A Group of Musicians）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [潘与绪任克斯（Pan and Syrinx）](../works/sebastiano-ricci-pan-and-syrinx.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“潘与绪任克斯（Pan and Syrinx）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [劫夺欧罗巴（Rape of Europa）](../works/sebastiano-ricci-rape-of-europa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版38a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“劫夺欧罗巴（Rape of Europa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [维纳斯与阿多尼斯（Venus and Adonis）](../works/sebastiano-ricci-venus-and-adonis.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“维纳斯与阿多尼斯（Venus and Adonis）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

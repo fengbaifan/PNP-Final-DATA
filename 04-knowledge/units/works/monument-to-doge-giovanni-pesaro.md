@@ -261,18 +261,18 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [乔瓦尼·佩萨罗（Giovanni Pesaro）](../persons/giovanni-pesaro.md) | 角色：纪念对象；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 113–113; 章前：图版目录；印刷页xiv |
-| → 安置于（`installed_at`） | [弗拉里教堂（Church of the Frari）](../places/church-of-the-frari.md) | 时间：本书所述时点；角色：纪念碑所在教堂；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 113–113; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：所在城市；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 113–113; 章前：图版目录；印刷页xiv |
-| → 由其供应（`supplied_by`） | [奥斯瓦尔德·伯姆摄影商号（Ditta Osvaldo Böhm）](../institutions/osvaldo-bohm-photographic-publisher.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版41b，Böhm商号身份依S3；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [Baldassarre Longhena](../persons/baldassare-longhena.md) | 角色：建筑设计与整体制作；范围：纪念碑整体；时间：1665–1669建造期；证据：S4–S5 |
-| → 创作者（`created_by`） | [Bernardo Falcone da Lugano](../persons/bernardo-falconi.md) | 角色：官方名单所列制作者，具体分工未明；范围：纪念碑整体；证据：S5 |
-| → 创作者（`created_by`） | [Melchior Barthel](../persons/melchior-barthel.md) | 角色：雕塑装饰及两组寓意人物；范围：纪念碑雕塑装饰；时间：1665–1669；证据：S4–S5 |
-| → 创作者（`created_by`） | [Josse de Corte](../persons/josse-de-corte.md) | 角色：小天使、Giovanni雕像及四件寓意像；范围：纪念碑雕塑装饰；时间：1665–1669；证据：S4 |
-| → 创作者（`created_by`） | [Francesco Cavrioli](../persons/francesco-cavrioli.md) | 角色：两具支撑卷轴的青铜骷髅；范围：纪念碑局部雕塑；时间：1665–1669；证据：S4 |
-| → 创作者（`created_by`） | [Michele Fabris](../persons/michele-fabris.md) | 角色：两条龙形装饰；范围：纪念碑局部雕塑；时间：1665–1669；证据：S4 |
-| → 由其委托（`commissioned_by`） | [Leonardo Pesaro（Giovanni Pesaro之侄）](../persons/leonardo-pesaro-commissioner.md) | 角色：委托Longhena制作；范围：纪念碑整体；委托日期未详，1665年取得施工许可、1669年完工；证据：S4、S7；与Giovanni遗嘱拨款分开 |
-| → 由其赞助（`patronized_by`） | [乔万尼·佩萨罗（Giovanni Pesaro）](../persons/giovanni-pesaro.md) | 角色：1659年遗嘱附录为建造拨定12,000达克特；范围：资金支持而非工程委托；工程1665–1669；证据：S6–S7 |
+| → 所涉对象（`has_subject`） | [乔万尼·佩萨罗（Giovanni Pesaro）](../persons/giovanni-pesaro.md) | 角色：纪念对象；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 113–113; 章前：图版目录；印刷页xiv |
+| → 安置于（`installed_at`） | [弗拉里教堂（Church of the Frari）](../places/church-of-the-frari.md) | 时间：本书所述时点；角色：纪念碑所在教堂；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 113–113; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：所在城市；范围：图版41b纪念碑本体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 113–113; 章前：图版目录；印刷页xiv |
+| → 由其供应（`supplied_by`） | [奥斯瓦尔德·伯姆摄影商号（Ditta Osvaldo Böhm）](../institutions/osvaldo-bohm-photographic-publisher.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版41b，Böhm商号身份依S3；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 164–164; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [巴尔达萨雷·隆盖纳（Baldassare Longhena）](../persons/baldassare-longhena.md) | 时间：1665–1669，建造期；委托日期未详；角色：建筑设计与纪念碑制作；范围：纪念碑整体；教堂官方名单亦列Longhena；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 6–10 |
+| → 创作者（`created_by`） | [贝尔纳多·法尔科内（Bernardo Falconi，亦作 Bernardo Falcone）](../persons/bernardo-falconi.md) | 角色：教堂官方页面列名的纪念碑制作者；具体分工未明；范围：纪念碑整体；证据：[来源](https://www.basilicadeifrari.it/monumenti/)；src-fabd9031bda686f1；lines 58–60 |
+| → 创作者（`created_by`） | [梅尔希奥尔·巴特尔（Melchior Barthel）](../persons/melchior-barthel.md) | 时间：1665–1669；角色：雕塑装饰；制作宗教与德性寓意人物组；范围：纪念碑雕塑装饰；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 10–12 |
+| → 创作者（`created_by`） | [约瑟·德·科特（Josse de Corte，亦称 Justus de Corte）](../persons/josse-de-corte.md) | 时间：1665–1669；角色：雕塑装饰；制作小天使、Giovanni雕像及四件寓意像；范围：纪念碑雕塑装饰；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 10–12 |
+| → 创作者（`created_by`） | [弗朗切斯科·卡夫里奥利（Francesco Cavrioli）](../persons/francesco-cavrioli.md) | 时间：1665–1669；角色：制作支撑卷轴的两具青铜骷髅；范围：纪念碑局部雕塑；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 10–11 |
+| → 创作者（`created_by`） | [米凯莱·法布里斯（Michele Fabris）](../persons/michele-fabris.md) | 时间：1665–1669；角色：雕刻两条龙形装饰；范围：纪念碑局部雕塑；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 10–11 |
+| → 由其委托（`commissioned_by`） | [莱昂纳多·佩萨罗（Leonardo Pesaro，乔万尼·佩萨罗之侄）](../persons/leonardo-pesaro-commissioner.md) | 时间：委托日期未详；1665年取得施工许可，建造至1669年；角色：委托Longhena制作纪念碑；范围：纪念碑整体；证据：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 6–10 |
+| → 受其赞助／保护（`patronized_by`） | [乔万尼·佩萨罗（Giovanni Pesaro）](../persons/giovanni-pesaro.md) | 时间：1659年前后遗嘱所涉资金；工程1665–1669；角色：立遗嘱为纪念碑建造拨定12,000达克特；范围：纪念碑建造资金；不等同工程委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/)；src-0fc10a31baa842a5；lines 50–52 |
 
 ### 关系候选入口
 

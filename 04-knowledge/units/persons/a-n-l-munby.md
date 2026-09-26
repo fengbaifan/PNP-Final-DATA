@@ -96,9 +96,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：解决研究问题；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
-| ← 朋友（`friend_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1979年序言回顾；角色：亲近朋友；范围：第二版序言明确very close friends，写序时两人已故；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
-| ← 向其建议（`advised`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：写作期间；角色：写作咨询；范围：第二版序言称写作时经常求教，不指定未载的具体建议；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：解决研究问题；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 朋友（`friend_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1979年序言回顾；角色：亲近朋友；范围：第二版序言明确very close friends，写序时两人已故；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
+| ← 向其建议（`advised`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：写作期间；角色：写作咨询；范围：第二版序言称写作时经常求教，不指定未载的具体建议；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 14–15; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

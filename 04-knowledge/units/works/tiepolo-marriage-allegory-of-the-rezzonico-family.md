@@ -143,12 +143,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1757年冬；角色：主画作者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
-| → 创作者（`created_by`） | [吉罗拉莫·门戈齐·科隆纳（Girolamo Mengozzi Colonna）](../persons/girolamo-mengozzi-colonna.md) | 时间：1757年冬；角色：建筑幻景绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
-| → 创作者（`created_by`） | [乔万多梅尼科·提埃坡罗（Giandomenico Tiepolo）](../persons/giandomenico-tiepolo.md) | 时间：1757年冬；角色：萨堤尔绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
-| → 所涉对象（`has_subject`） | [雷佐尼科家族（Rezzonico family）](../families/rezzonico-family.md) | 角色：颂扬家族；范围：原书婚姻寓意题名；不据家族题名推定具体新人身份或婚姻双方；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 116–117; 章前：图版目录；印刷页xiv |
-| → 安置于（`installed_at`） | [雷佐尼科宫（Ca' Rezzonico）](../places/ca-rezzonico.md) | 时间：1757年冬绘成；角色：婚姻寓意厅天顶；范围：馆方Nuptial Allegory Room所述装饰；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版43原书定位；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 116–117; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1757年冬；角色：主画作者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
+| → 创作者（`created_by`） | [吉罗拉莫·门戈齐·科隆纳（Girolamo Mengozzi Colonna）](../persons/girolamo-mengozzi-colonna.md) | 时间：1757年冬；角色：建筑幻景绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
+| → 创作者（`created_by`） | [乔万多梅尼科·提埃坡罗（Giandomenico Tiepolo）](../persons/giandomenico-tiepolo.md) | 时间：1757年冬；角色：萨堤尔绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
+| → 所涉对象（`has_subject`） | [雷佐尼科家族（Rezzonico family）](../families/rezzonico-family.md) | 角色：颂扬家族；范围：原书婚姻寓意题名；不据家族题名推定具体新人身份或婚姻双方；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 116–117; 章前：图版目录；印刷页xiv |
+| → 安置于（`installed_at`） | [雷佐尼科宫（Ca' Rezzonico）](../places/ca-rezzonico.md) | 时间：1757年冬绘成；角色：婚姻寓意厅天顶；范围：馆方Nuptial Allegory Room所述装饰；证据：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版43原书定位；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 116–117; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

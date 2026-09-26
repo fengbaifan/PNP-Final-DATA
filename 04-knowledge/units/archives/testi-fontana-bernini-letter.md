@@ -95,7 +95,7 @@ Haskell 以信中几个不同性质的金额说明贝尔尼尼的报酬。补读
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 本章明确书信作者；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
-| → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](../persons/francesco-fontana.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
-| → 所涉对象（`has_subject`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
-| → 所涉对象（`has_subject`） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；证据：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
+| → 作者（`authored_by`） | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 本章明确书信作者；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–703; print pp. 17 |
+| → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](../persons/francesco-fontana.md) | 本章明确收信人为 Conte Francesco Fontana；时间：1633-01-29；角色：收信人；范围：Testi致Conte Francesco Fontana、涉及Bernini的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 信中记 Bernini 报酬；不据金额猜测信的具体日期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [贝尔尼尼的博尔盖塞枢机肖像头部（Bernini’s portrait head of Cardinal Borghese）](../works/bernini-cardinal-borghese-head.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；证据：[来源](https://archive.org/details/ilbernini00fras)；本卡 S2；第十二章印刷页108，扫描页130 |

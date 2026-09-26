@@ -243,19 +243,19 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [迭戈·委拉斯开兹（Diego Velázquez）](../persons/velasquez.md) | 时间：1649–1650；角色：画家；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；对象字段及Makers |
-| → 所涉对象（`has_subject`） | [卡米洛·马西米（Camillo Massimi）](../persons/camillo-massimi.md) | 角色：肖像人物；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；题名及Summary |
-| → 由其收藏／拥有（`owned_by`） | [卡米洛·马西米（Camillo Massimi）](../persons/camillo-massimi.md) | 时间：1649–1650绘制后至1677去世；角色：最初所有人；范围：NT1257142，Provenance明确持有至去世；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance首句及题名生卒 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1649–1650；角色：创作城市；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance首句 |
-| → 由其取得（`acquired_by`） | [威廉·约翰·班克斯（William John Bankes）](../persons/william-john-bankes.md) | 时间：1819–1820；角色：取得者；范围：从博洛尼亚Marescalchi收藏取得NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance：1819/20 |
-| → 由其贡献（`contributed_by`） | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../persons/ralph-bankes.md) | 时间：1981；角色：遗赠者；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance末句 |
-| → 由其取得（`acquired_by`） | [英国国民信托（National Trust）](../institutions/national-trust.md) | 时间：1981；角色：遗赠接收机构；范围：Kingston Lacy的Bankes收藏／NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance及Credit line |
-| → 由其保管（`held_by`） | [英国国民信托（National Trust）](../institutions/national-trust.md) | 角色：所引馆藏记录收藏机构；范围：NT1257142，Kingston Lacy的Bankes收藏；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Credit line |
-| → 由其保管（`held_by`） | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../persons/ralph-bankes.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版20；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 73–73; 章前：图版目录；印刷页xiii |
-| → 位于（`located_at`） | [金斯顿莱西庄园（Kingston Lacy）](../places/kingston-lacy.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版20；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 73–73; 章前：图版目录；印刷页xiii |
-| → 由其收藏／拥有（`owned_by`） | [加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）](../persons/marchese-del-carpio.md) | 时间：Massimi去世后至1687去世；角色：历史所有人；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Caption及Provenance：Gaspar de Haro |
-| → 由其收藏／拥有（`owned_by`） | [费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）](../persons/ferdinando-marescalchi.md) | 角色：历史所有人；范围：NT1257142；取得日期未载；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Caption：Ferdinando Marescalchi收藏 |
-| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1819–1820转让前；角色：转让前收藏所在地；范围：NT1257142，Marescalchi收藏；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Caption及Provenance：Bologna |
+| → 创作者（`created_by`） | [迭戈·委拉斯开兹（Diego Velázquez）](../persons/velasquez.md) | 时间：1649–1650；角色：画家；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；对象字段及Makers |
+| → 所涉对象（`has_subject`） | [卡米洛·马西米（Camillo Massimi）](../persons/camillo-massimi.md) | 角色：肖像人物；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；题名及Summary |
+| → 由其收藏／拥有（`owned_by`） | [卡米洛·马西米（Camillo Massimi）](../persons/camillo-massimi.md) | 时间：1649–1650绘制后至1677去世；角色：最初所有人；范围：NT1257142，Provenance明确持有至去世；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance首句及题名生卒 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1649–1650；角色：创作城市；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance首句 |
+| → 由其取得（`acquired_by`） | [威廉·约翰·班克斯（William John Bankes）](../persons/william-john-bankes.md) | 时间：1819–1820；角色：取得者；范围：从博洛尼亚Marescalchi收藏取得NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance：1819/20 |
+| → 由其贡献（`contributed_by`） | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../persons/ralph-bankes.md) | 时间：1981；角色：遗赠者；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance末句 |
+| → 由其取得（`acquired_by`） | [英国国民信托（National Trust）](../institutions/national-trust.md) | 时间：1981；角色：遗赠接收机构；范围：Kingston Lacy的Bankes收藏／NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance及Credit line |
+| → 由其保管（`held_by`） | [英国国民信托（National Trust）](../institutions/national-trust.md) | 角色：所引馆藏记录收藏机构；范围：NT1257142，Kingston Lacy的Bankes收藏；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Credit line |
+| → 由其保管（`held_by`） | [亨利·约翰·拉尔夫·班克斯（Henry John Ralph Bankes）](../persons/ralph-bankes.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版20；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 73–73; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [金斯顿莱西庄园（Kingston Lacy）](../places/kingston-lacy.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版20；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 73–73; 章前：图版目录；印刷页xiii |
+| → 由其收藏／拥有（`owned_by`） | [加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）](../persons/marchese-del-carpio.md) | 时间：Massimi去世后至1687去世；角色：历史所有人；范围：NT1257142；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Caption及Provenance：Gaspar de Haro |
+| → 由其收藏／拥有（`owned_by`） | [费迪南多·马雷斯卡尔基（Ferdinando Marescalchi）](../persons/ferdinando-marescalchi.md) | 角色：历史所有人；范围：NT1257142；取得日期未载；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Caption：Ferdinando Marescalchi收藏 |
+| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1819–1820转让前；角色：转让前收藏所在地；范围：NT1257142，Marescalchi收藏；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Caption及Provenance：Bologna |
 
 ### 关系候选入口
 

@@ -119,11 +119,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 任命者（`appointer_of`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 79–83; print pp. 4 |
-| ← 叔父（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | 侄子；与教皇同名兄长区分；关系证据见Gregory XV卡 |
-| ← 父亲（`parent_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 枢机Ludovico为其子；原断言与Treccani证据见Orazio卡 |
-| ← 兄弟（`sibling_of`，反向投影） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 两人同为Orazio与Lavinia之子；Treccani支持，原断言见Niccolò卡 |
-| ← 母亲（`parent_of`，反向投影） | [Lavinia Albergati](lavinia-albergati.md) | Orazio之妻、Ludovico之母；Treccani明确记载；原断言见Lavinia卡 |
+| ← 亲缘（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | Ludovico 是 Gregory XV 的侄子；与同名兄长 Ludovico 区分；角色：叔侄；Gregory XV 为叔父；范围：Cardinal Ludovico Ludovisi, son of Orazio; distinct from Gregory XV’s elder brother Ludovico；原断言与证据见发出端卡片“格列高利十五世（Gregory XV）”：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraphs beginning ‘Immediatamente dopo la sua elezione’ and ‘A Orazio’ |
+| ← child_of（`child_of`，反向投影） | [拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）](lavinia-albergati.md) | 时间：自1595年起（Ludovico出生年）；角色：mother；范围：儿子为Cardinal Ludovico Ludovisi；原断言与证据见发出端卡片“拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）”：[来源](https://www.treccani.it/enciclopedia/ludovico-ludovisi_(Dizionario-Biografico)/)；opening paragraph; line 24: firstborn son of Orazio and Lavinia Albergati |
+| → 任命者（`appointer_of`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](domenichino.md) | 1621 年任命 Domenichino 为 Vatican architect；任命者为教皇侄辈 Ludovico；时间：1621；角色：Vatican architect任命者；范围：教皇侄辈Ludovico作出的任命；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 79–83; print pp. 4 |
+| ← sibling_of（`sibling_of`，反向投影） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 角色：brother；范围：Niccolò Ludovisi and Cardinal Ludovico Ludovisi, both sons of Orazio and Lavinia；原断言与证据见发出端卡片“尼科洛·卢多维西（Niccolò Ludovisi）”：[来源](https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/)；src-57bfba0d91516d6a；line 37: Zagarolo inherited from his brother Cardinal Ludovico in 1632 |
+| ← child_of（`child_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 时间：自1595年起（Ludovico出生年）；角色：father；范围：son is the 1595–1632 Cardinal Ludovico Ludovisi, not another namesake；原断言与证据见发出端卡片“奥拉齐奥·卢多维西（Orazio Ludovisi）”：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；concluding paragraph; lines 55–56: four children include Cardinal Ludovico |
 
 ### 身份与外部链接
 

@@ -71,8 +71,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：初版制作支持；范围：第二版序言回顾公司负责人员给予初版制作的支持；未拆分具体负责人；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
-| ← 雇主（`employer_of`，反向投影） | [彼得·约翰·安布罗斯·卡尔沃科雷西（Peter John Ambrose Calvocoressi）](../persons/peter-calvocoressi.md) | 时间：1955年加入；角色：合伙人，后任董事；范围：出版履历；不倒推为本书文字协助的合同角色；原断言与证据见发出端卡片“彼得·约翰·安布罗斯·卡尔沃科雷西（Peter John Ambrose Calvocoressi）”：[来源](https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true)；persons-peter-calvocoressi；由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传 |
+| ← 雇主（`employer_of`，反向投影） | [彼得·约翰·安布罗斯·卡尔沃科雷西（Peter John Ambrose Calvocoressi）](../persons/peter-calvocoressi.md) | 时间：1955年加入；角色：合伙人，后任董事；范围：出版履历；不倒推为本书文字协助的合同角色；原断言与证据见发出端卡片“彼得·约翰·安布罗斯·卡尔沃科雷西（Peter John Ambrose Calvocoressi）”：[来源](https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true)；src-5d97f62005d23738；由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传 |
+| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：初版制作支持；范围：第二版序言回顾公司负责人员给予初版制作的支持；未拆分具体负责人；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

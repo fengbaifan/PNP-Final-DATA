@@ -66,4 +66,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#filip
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 为其父（`parent_of`） | [菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）](filippo-hercolani-1736.md) | 研究摘要称Filippo为Marcantonio之子；关系时间：自1736年起；原文见S1：“La quadreria formata da Marcantonio Hercolani (1709-1772) e accresciuta dal figlio Filippo (1736-1810).” |
+| → parent_of（`parent_of`） | [菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）](filippo-hercolani-1736.md) | 时间：自1736年起（Filippo出生年）；角色：father；范围：父子亲缘；不因父亲于1772年去世而终止；证据：[来源](https://cris.unibo.it/handle/11585/858533)；repository abstract: collection formed by Marcantonio Hercolani (1709–1772) and augmented by his son Filippo (1736–1810) |

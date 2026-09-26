@@ -199,16 +199,16 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [比萨（Pisa）](../places/pisa.md) | 时间：1563；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → parent_of（`parent_of`） | [阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）](artemisia-gentileschi.md) | 角色：父亲；范围：Artemisia是Orazio的女儿；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 教师（`teacher_of`） | [阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）](artemisia-gentileschi.md) | 角色：绘画教师；范围：父亲训练女儿；亲缘与师承分开；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → influenced_by（`influenced_by`） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 时间：约1600起；角色：绘画风格影响来源；范围：短暂吸收自然主义；不等同正式师承；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1576／1578；角色：迁入城市；范围：1576/8依馆方日期保留；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 位于（`located_at`） | [热那亚（Genoa）](../places/genoa.md) | 时间：1621；角色：迁入工作城市；范围：生涯转折，邀请者另待补；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1626以前；角色：工作城市；范围：赴伦敦之前的法国工作阶段；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1626；角色：迁入工作城市；范围：离开巴黎赴英国宫廷；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| → 受其赞助／保护（`patronized_by`） | [查理一世（Charles I）](charles-i.md) | 时间：1626起；角色：宫廷赞助者；范围：宫廷服务概况；不将特定作品的委托归给国王；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
-| ← 所创作对象（`creator_of`，反向投影） | [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md) | 角色：原书署名作者；范围：图版25；原断言与证据见发出端卡片“公共幸福战胜危难（Public Felicity triumphant over Dangers）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 78–78; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [比萨（Pisa）](../places/pisa.md) | 时间：1563；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → parent_of（`parent_of`） | [阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）](artemisia-gentileschi.md) | 角色：父亲；范围：Artemisia是Orazio的女儿；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 教师（`teacher_of`） | [阿尔泰米西娅·真蒂莱斯基（Artemisia Gentileschi）](artemisia-gentileschi.md) | 角色：绘画教师；范围：父亲训练女儿；亲缘与师承分开；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → influenced_by（`influenced_by`） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 时间：约1600起；角色：绘画风格影响来源；范围：短暂吸收自然主义；不等同正式师承；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1576／1578；角色：迁入城市；范围：1576/8依馆方日期保留；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 位于（`located_at`） | [热那亚（Genoa）](../places/genoa.md) | 时间：1621；角色：迁入工作城市；范围：生涯转折，邀请者另待补；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1626以前；角色：工作城市；范围：赴伦敦之前的法国工作阶段；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1626；角色：迁入工作城市；范围：离开巴黎赴英国宫廷；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| → 受其赞助／保护（`patronized_by`） | [查理一世（Charles I of England）](charles-i.md) | 时间：1626起；角色：宫廷赞助者；范围：宫廷服务概况；不将特定作品的委托归给国王；证据：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| ← 所创作对象（`creator_of`，反向投影） | [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md) | 角色：原书署名作者；范围：图版25；原断言与证据见发出端卡片“公共幸福战胜危难（Public Felicity triumphant over Dangers）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 78–78; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

@@ -53,4 +53,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../archives/quarisimini-carrara-letter-1696.md) | Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11；原断言与证据见发出端卡片“卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）”：[来源](https://archive.org/details/diletteresulla05bott)；bottari-ticozzi-letter-collection-v5；vol. V, letter XLVI, pp. 185–187 |
+| ← 所著文献（`author_of`，反向投影） | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../archives/quarisimini-carrara-letter-1696.md) | Bottari–Ticozzi刊本第XLVI信署作者Carlo Quarismini，末署Bergamo，1696-07-11；原断言与证据见发出端卡片“卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）”：[来源](https://archive.org/details/diletteresulla05bott)；src-37b61bdf21a0e256；vol. V, letter XLVI, pp. 185–187 |

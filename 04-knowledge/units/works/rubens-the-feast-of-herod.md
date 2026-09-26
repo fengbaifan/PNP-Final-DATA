@@ -111,9 +111,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [彼得·保罗·鲁本斯（Peter Paul Rubens）](../persons/peter-paul-rubens.md) | 时间：约1635–1638；角色：画家；范围：NG 2193布面油画；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；Artist、Date、Accession number |
-| → 由其保管（`held_by`） | [苏格兰国家美术馆（Scottish National Gallery）](../institutions/national-gallery-of-scotland.md) | 角色：原书保管机构；范围：原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 100–100; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：至1640年；角色：历史到达城市；范围：至1640年已运抵该城；未确定建筑或此后迁出时间；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；works-rubens-the-feast-of-herod；More about this artwork：2015年说明的运抵那不勒斯段 |
+| → 创作者（`created_by`） | [彼得·保罗·鲁本斯（Peter Paul Rubens）](../persons/peter-paul-rubens.md) | 时间：约1635–1638；角色：画家；范围：NG 2193布面油画；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；src-a8fa0b52a9fb1c9f；Artist、Date、Accession number |
+| → 由其保管（`held_by`） | [苏格兰国家美术馆（Scottish National Gallery）](../institutions/national-gallery-of-scotland.md) | 角色：原书保管机构；范围：原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 100–100; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：至1640年；角色：历史到达城市；范围：至1640年已运抵该城；未确定建筑或此后迁出时间；证据：[来源](https://www.nationalgalleries.org/art-and-artists/5382)；src-a8fa0b52a9fb1c9f；More about this artwork：2015年说明的运抵那不勒斯段 |
 
 ### 关系候选入口
 

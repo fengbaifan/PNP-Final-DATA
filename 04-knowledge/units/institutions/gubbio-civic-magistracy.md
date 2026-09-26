@@ -53,4 +53,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#salvi
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托制作（`commissioned_by`，反向投影） | [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 2015年指南称古比奥共同体为其许愿祭坛委托该作；1606年致执政官及领事的信件说明早期市政接洽背景，但不被当作Savini合同；S1–S2 |
+| ← 委托者（`commissioner_of`，反向投影） | [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 时间：commissioned 1608-03-25；角色：collective commissioner；范围：The community's vowed altar and the painting commissioned for it; the 1606 Barocci proposal is earlier context, not the Savini commission record.；原断言与证据见发出端卡片“《还愿祭坛画》（Pala del Voto）”：[来源](https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf)；PDF p.20, printed p.21, II Quadro: ‘commissioned for the altar the community had vowed to its patron’ |

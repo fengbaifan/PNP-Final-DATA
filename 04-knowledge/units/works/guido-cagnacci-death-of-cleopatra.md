@@ -133,10 +133,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [圭多·卡尼亚奇（Guido Cagnacci）](../persons/guido-cagnacci.md) | 角色：原书署名作者；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [维也纳艺术史博物馆（Kunsthistorisches Museum）](../institutions/kunsthistorisches-museum.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
-| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
-| → 由其供应（`supplied_by`） | [A. 维拉尼父子摄影公司（A. Villani e Figli）](../institutions/a-villani-e-figli.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版28a署名Villani，商号身份依S3；不将照片档案号522770当绘画库存号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 172–172; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [圭多·卡尼亚奇（Guido Cagnacci）](../persons/guido-cagnacci.md) | 角色：原书署名作者；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [维也纳艺术史博物馆（Kunsthistorisches Museum）](../institutions/kunsthistorisches-museum.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
+| → 由其供应（`supplied_by`） | [A. 维拉尼父子摄影公司（A. Villani e Figli）](../institutions/a-villani-e-figli.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版28a署名Villani，商号身份依S3；不将照片档案号522770当绘画库存号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 172–172; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

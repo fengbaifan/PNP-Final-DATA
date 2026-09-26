@@ -85,4 +85,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#maggi
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托（`commissioned_by`，反向投影） | [皮内利委托的168幅肖像组](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 委托人；时间：1778；范围：168幅油画于铜板的肖像组；正式边与依据见作品卡及S1 lines 46–47 |
+| ← 委托者（`commissioner_of`，反向投影） | [皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 时间：1778；角色：委托方／收藏者；范围：168幅初始肖像组；委托事实不延伸到1791年补入的两幅肖像；原断言与证据见发出端卡片“皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）”：[来源](https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/)；src-6629a59f168227a1；lines 46–47, 67–68 |

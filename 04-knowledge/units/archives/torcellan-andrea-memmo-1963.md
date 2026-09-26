@@ -119,10 +119,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](../persons/gianfranco-torcellan.md) | 时间：1963；角色：作者；范围：所列版本书目责任，不声称读过全文；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
-| → 所涉对象（`has_subject`） | [安德烈亚·梅莫（Andrea Memmo）](../persons/andrea-memmo.md) | 时间：1963；角色：研究对象；范围：书目题名及内容说明中的研究人物；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
-| → published_by（`published_by`） | [文化合作研究所（Istituto per la collaborazione culturale）](../institutions/istituto-per-la-collaborazione-culturale.md) | 时间：1963；角色：出版者；范围：所列版本出版项；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1963；角色：馆藏目录所载出版地；范围：Oechslin复印馆藏的书目记Venezia；Cini出版项另含Firenze，未核题名页，不据此确定印刷地或实体册位置；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| → 作者（`authored_by`） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](../persons/gianfranco-torcellan.md) | 时间：1963；角色：作者；范围：所列版本书目责任，不声称读过全文；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |
+| → 所涉对象（`has_subject`） | [安德烈亚·梅莫（Andrea Memmo）](../persons/andrea-memmo.md) | 时间：1963；角色：研究对象；范围：书目题名及内容说明中的研究人物；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |
+| → published_by（`published_by`） | [文化合作研究所（Istituto per la collaborazione culturale）](../institutions/istituto-per-la-collaborazione-culturale.md) | 时间：1963；角色：出版者；范围：所列版本出版项；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1963；角色：馆藏目录所载出版地；范围：Oechslin复印馆藏的书目记Venezia；Cini出版项另含Firenze，未核题名页，不据此确定印刷地或实体册位置；证据：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |
 
 ### 版本待核
 

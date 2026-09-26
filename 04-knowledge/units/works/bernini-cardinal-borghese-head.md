@@ -107,6 +107,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](https://archive.org/details/ilbernini00fras)；fraschetti-bernini-1900；本卡 S2；第十二章印刷页108，扫描页130 |
-| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 700–703; print pp. 17 |
-| → 所涉对象（`has_subject`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；证据：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；galleria-borghese-bust；本卡 S6–S7；对象与版本对照 |
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 书信所记 Bernini 头部肖像；Borghese 身份不通过本边合并；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 700–703; print pp. 17 |
+| → 所涉对象（`has_subject`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 外部对象页确认书信所指被表现者为希皮奥内·博尔盖塞；两件胸像中的具体版本仍未裁定；证据：[来源](https://www.collezionegalleriaborghese.it/opere/busto-di-scipione-borghese-2)；src-a5fbb48cea35c411；本卡 S6–S7；对象与版本对照 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 该信讨论贝尔尼尼为希皮奥内·博尔盖塞所作肖像头部及报酬；作品卡仍保留两版范围未决；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](https://archive.org/details/ilbernini00fras)；本卡 S2；第十二章印刷页108，扫描页130 |

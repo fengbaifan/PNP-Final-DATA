@@ -72,8 +72,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
-| → 创作者（`created_by`） | [弗朗切斯科·巴尔托洛齐（Francesco Bartolozzi）](../persons/bartolozzi.md) | 角色：刻印者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [弗朗切斯科·巴尔托洛齐（Francesco Bartolozzi）](../persons/bartolozzi.md) | 角色：刻印者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

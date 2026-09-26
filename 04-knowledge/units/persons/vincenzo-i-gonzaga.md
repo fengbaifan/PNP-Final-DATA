@@ -66,4 +66,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：宫廷肖像服务与赞助；范围：1599；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 32–33 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：宫廷肖像服务与赞助；范围：1599；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 32–33 |

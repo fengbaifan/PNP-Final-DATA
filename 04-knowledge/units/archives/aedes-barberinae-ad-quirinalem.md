@@ -118,10 +118,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [吉罗拉莫·泰蒂（Girolamo Teti）](../persons/girolamo-teti.md) | 时间：1642出版；角色：文字作者；范围：馆方明确的文字作者，不是全书插图刻版者；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Author、Date |
-| → published_by（`published_by`） | [罗马马斯卡尔迪出版机构（Mascardi (Rome)）](../institutions/mascardi-rome.md) | 时间：1642；角色：出版机构；范围：1642年罗马版出版项；不把机构名称扩写成特定自然人；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Publisher、Published in、Date |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1642；角色：出版地点；范围：出版地，非印本保管地；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Published in、Date |
-| ← 包含成员（`contains`，反向投影） | [《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：卷首图；范围：原书图版明确的卷首图与1642载体；未核剑桥具体印本号；原断言与证据见发出端卡片“《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
+| ← 包含成员（`contains`，反向投影） | [《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：卷首图；范围：原书图版明确的卷首图与1642载体；未核剑桥具体印本号；原断言与证据见发出端卡片“《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 49–50; 章前：图版目录；印刷页xii |
+| → 作者（`authored_by`） | [吉罗拉莫·泰蒂（Girolamo Teti）](../persons/girolamo-teti.md) | 时间：1642出版；角色：文字作者；范围：馆方明确的文字作者，不是全书插图刻版者；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Author、Date |
+| → published_by（`published_by`） | [罗马马斯卡尔迪出版机构（Mascardi (Rome)）](../institutions/mascardi-rome.md) | 时间：1642；角色：出版机构；范围：1642年罗马版出版项；不把机构名称扩写成特定自然人；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Publisher、Published in、Date |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1642；角色：出版地点；范围：出版地，非印本保管地；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Published in、Date |
 
 ### 关系候选入口
 

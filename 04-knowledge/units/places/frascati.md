@@ -47,4 +47,4 @@ relations: []
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）](villa-aldobrandini-frascati.md) | 别墅位于弗拉斯卡蒂；证据：关联地点S4 |
+| ← 所在地（`location_of`，反向投影） | [阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）](villa-aldobrandini-frascati.md) | 角色：历史别墅所在地；范围：Villa Aldobrandini, Frascati; distinguishes it from the similarly named Rome villa；原断言与证据见发出端卡片“阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）”：[来源](https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf)；src-e0f1a77d50df6e01；Villa Aldobrandini subsection |

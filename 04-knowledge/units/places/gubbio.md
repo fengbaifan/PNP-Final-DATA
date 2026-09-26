@@ -61,7 +61,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 其所在城市（`location_of`，反向投影） | [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](basilica-di-sant-ubaldo.md) | 圣殿位于Gubbio城外的Ingino山；不表示行政归属或产权；来源见圣殿卡S3–S4。 |
+| ← 所在地（`location_of`，反向投影） | [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](basilica-di-sant-ubaldo.md) | 角色：basilica location；范围：The basilica is located at Gubbio; this does not assert historical jurisdiction or ownership.；原断言与证据见发出端卡片“圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）”：[来源](https://it.wikipedia.org/wiki/Basilica_di_Sant'Ubaldo)；src-3944083951c1832a；lead: located at Gubbio, on Monte Ingino |
 
 ### 身份与外部链接
 

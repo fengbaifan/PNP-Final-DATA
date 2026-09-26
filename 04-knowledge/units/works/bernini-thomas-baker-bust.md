@@ -75,9 +75,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 本章所记 Bernini 胸像及其异常价格；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 668–673,699–700; print pp. 17 |
-| → 由其委托（`commissioned_by`） | [托马斯·贝克（Thomas Baker）](../persons/thomas-baker.md) | 第一章记托马斯·贝克为本人胸像支付6000 scudi；据此支持委托／付款角色，未读委托文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
-| → 位于（`located_at`） | [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../institutions/victoria-and-albert-museum.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 本章所记 Bernini 胸像及其异常价格；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 668–673,699–700; print pp. 17 |
+| → 由其委托（`commissioned_by`） | [托马斯·贝克（Thomas Baker）](../persons/thomas-baker.md) | 第一章记托马斯·贝克为本人胸像支付6000 scudi；据此支持委托／付款角色，未读委托文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–700; print pp. 17 |
+| → 位于（`located_at`） | [维多利亚与阿尔伯特博物馆（Victoria and Albert Museum）](../institutions/victoria-and-albert-museum.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–700; print pp. 17 |
 
 ### 身份与外部链接
 

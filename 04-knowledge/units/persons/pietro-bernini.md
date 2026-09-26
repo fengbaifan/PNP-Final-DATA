@@ -109,10 +109,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 父亲（`parent_of`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | Treccani DBI明确记载父子关系；原书未具名，外部确认；S2，lines 29–30 |
-| → 父亲（`parent_of`） | [Luigi Bernini](luigi-bernini.md) | Treccani DBI明确称Luigi为Pietro之子；S5，line 28 |
-| ↔ 配偶（`spouse_of`） | [Angelica Galante](angelica-galante.md) | 1594年时已为夫妻；结婚年份未载；S1，line 33 |
-| ↔ 合作（`collaborated_with`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | Villa Borghese装饰雕塑（1616–1617前后）及圣彼得大教堂华盖（晚年）；分别保留时间精度；S1，lines 38–40 |
+| ← 配偶（`spouse_of`，反向投影） | [安杰莉卡·加兰特（Angelica Galante）](angelica-galante.md) | 时间：1594年时已为夫妻；结婚年份未载；角色：妻子；范围：Pietro Bernini与Angelica Galante的婚姻；原断言与证据见发出端卡片“安杰莉卡·加兰特（Angelica Galante）”：[来源](https://www.treccani.it/enciclopedia/pietro-bernini_(Dizionario-Biografico)/)；src-35ed32c6d2f8f2ed；line 33: Pietro于1594年与妻子Angelica返回佛罗伦萨 |
+| → parent_of（`parent_of`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 角色：父亲；范围：Gian Lorenzo Bernini的父亲；证据：[来源](https://www.treccani.it/enciclopedia/gian-lorenzo-bernini_(Dizionario-Biografico)/)；src-6ab3ad2e229ce124；lines 29–30: ‘Figlio dello scultore fiorentino Pietro’ |
+| → parent_of（`parent_of`） | [路易吉·贝尔尼尼（Luigi Bernini）](luigi-bernini.md) | 角色：父亲；范围：Luigi Bernini的父亲；证据：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘Figlio di Pietro’ |
+| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 角色：合作雕塑家；范围：Villa Borghese装饰雕塑（1616–1617前后）；圣彼得大教堂华盖（晚年，确切年份未载）；证据：[来源](https://www.treccani.it/enciclopedia/pietro-bernini_(Dizionario-Biografico)/)；src-35ed32c6d2f8f2ed；lines 38–40: Villa Borghese装饰雕塑及圣彼得大教堂华盖工程 |
 
 ### 身份与外部链接
 

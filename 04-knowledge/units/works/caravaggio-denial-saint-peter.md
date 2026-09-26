@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Denial of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：晚期作品；当前馆号1997.167。；证据：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 当前对象记录将The Denial of Saint Peter列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；held-by-institutions-metropolitan-museum-of-art-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Denial of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：晚期作品；当前馆号1997.167。；证据：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；src-a07034a977b3923a；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 当前对象记录将The Denial of Saint Peter列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Denial_of_Saint_Peter_(Caravaggio))；src-a07034a977b3923a；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

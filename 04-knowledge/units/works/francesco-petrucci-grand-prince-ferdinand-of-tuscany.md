@@ -72,8 +72,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](../persons/francesco-petrucci.md) | 角色：原书署名作者；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 101–101; 章前：图版目录；印刷页xiv |
-| → 所涉对象（`has_subject`） | [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../persons/ferdinand-grand-prince-tuscany.md) | 角色：大公子肖像人物；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 101–101; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](../persons/francesco-petrucci.md) | 角色：原书署名作者；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 101–101; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../persons/ferdinand-grand-prince-tuscany.md) | 角色：大公子肖像人物；范围：图版36a；Grand Prince称号不改写为Grand Duke；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 101–101; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

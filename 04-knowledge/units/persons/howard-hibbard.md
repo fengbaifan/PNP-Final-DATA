@@ -87,8 +87,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：纠错建议；范围：第二版序言感谢其指出书中错误；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 隶属／任职于（`member_of`） | [美国艺术与科学院（American Academy of Arts and Sciences）](../institutions/american-academy-of-arts-and-sciences.md) | 时间：1969；角色：当选成员；范围：成员目录Elected1969；不据此指定Columbia任期；证据：[来源](https://www.amacad.org/person/howard-hibbard)；persons-howard-hibbard；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |
+| → 隶属／任职于（`member_of`） | [美国艺术与科学院（American Academy of Arts and Sciences）](../institutions/american-academy-of-arts-and-sciences.md) | 时间：1969；角色：当选成员；范围：成员目录Elected1969；不据此指定Columbia任期；证据：[来源](https://www.amacad.org/person/howard-hibbard)；src-0fd5028d6ce7d489；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：纠错建议；范围：第二版序言感谢其指出书中错误；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

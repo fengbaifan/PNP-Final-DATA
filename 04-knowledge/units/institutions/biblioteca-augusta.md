@@ -76,5 +76,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
-| → 位于（`located_at`） | [佩鲁贾（Perugia）](../places/perugia.md) | 书中明确图书馆位于 Perugia；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 位于（`located_at`） | [佩鲁贾（Perugia）](../places/perugia.md) | 书中明确图书馆位于 Perugia；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
+| ← 所在地（`location_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |

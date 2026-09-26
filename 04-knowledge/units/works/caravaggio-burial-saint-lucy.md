@@ -91,9 +91,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Burial of Saint Lucy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [圣露西墓地圣殿（Santa Lucia al Sepolcro Sanctuary）](../places/santa-lucia-al-sepolcro.md) | 来源将The Burial of Saint Lucy与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；installed-at-places-santa-lucia-al-sepolcro-md；本卡S2；有S4时并参对象／地点说明 |
-| → 拟用于（`intended_for`） | [圣露西墓地圣殿（Santa Lucia al Sepolcro Sanctuary）](../places/santa-lucia-al-sepolcro.md) | The Burial of Saint Lucy原定用于该建筑或礼拜堂；时间：1608；角色：原定安置地点；范围：当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；intended-for-places-santa-lucia-al-sepolcro-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Burial of Saint Lucy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；src-51b068b3dc6a3af5；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [圣露西墓地圣殿（Santa Lucia al Sepolcro Sanctuary）](../places/santa-lucia-al-sepolcro.md) | 来源将The Burial of Saint Lucy与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；src-51b068b3dc6a3af5；本卡S2；有S4时并参对象／地点说明 |
+| → 拟用于（`intended_for`） | [圣露西墓地圣殿（Santa Lucia al Sepolcro Sanctuary）](../places/santa-lucia-al-sepolcro.md) | The Burial of Saint Lucy原定用于该建筑或礼拜堂；时间：1608；角色：原定安置地点；范围：当前来源将作品与锡拉库萨圣露西墓地圣殿相联；修复与临时迁展不改写原委托地点。；证据：[来源](https://en.wikipedia.org/wiki/The_Burial_of_Saint_Lucy)；src-51b068b3dc6a3af5；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

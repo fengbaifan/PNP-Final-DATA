@@ -73,8 +73,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [百合圣母堂（S. Maria del Giglio）](../places/s-maria-del-giglio.md) | 角色：所属建筑；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 112–112; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：所在城市；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 112–112; 章前：图版目录；印刷页xiv |
+| → 组成部分（`part_of`） | [百合圣母堂（S. Maria del Giglio）](../places/s-maria-del-giglio.md) | 角色：所属建筑；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 112–112; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：所在城市；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 112–112; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

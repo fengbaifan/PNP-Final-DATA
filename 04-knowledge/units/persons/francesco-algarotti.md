@@ -124,11 +124,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 师从／受训于（`trained_by`） | [卡洛·洛多利（Carlo Lodoli）](carlo-lodoli.md) | 时间：1725；角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；教学段：nel 1725, F. Algarotti |
-| ← 为其所涉对象（`subject_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）](../works/francesco-algarotti.md) | 角色：肖像人物；范围：图版48d；作者原书明确Anonymous；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 角色：纪念对象；范围：图版60图像内容；不将比萨解释为版画印本所在地；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| ← 委托者（`commissioner_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：墓设计委托人；范围：委托Tesi设计墓；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](https://id.rijksmuseum.nl/200471954)；works-tomb-of-francesco-algarotti；2015-08-27馆方说明 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：纪念对象；范围：图版60所绘墓；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
+| → 师从／受训于（`trained_by`） | [卡洛·洛多利（Carlo Lodoli）](carlo-lodoli.md) | 时间：1725；角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；src-087e148c049822f7；教学段：nel 1725, F. Algarotti |
+| ← 为其所涉对象（`subject_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）](../works/francesco-algarotti.md) | 角色：肖像人物；范围：图版48d；作者原书明确Anonymous；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂肖像（Portrait of Francesco Algarotti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](../works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 角色：纪念对象；范围：图版60图像内容；不将比萨解释为版画印本所在地；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| ← 委托者（`commissioner_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：墓设计委托人；范围：委托Tesi设计墓；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](https://id.rijksmuseum.nl/200471954)；src-24e95680a557dc76；2015-08-27馆方说明 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：纪念对象；范围：图版60所绘墓；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

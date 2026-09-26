@@ -81,7 +81,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版51的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 168–169; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

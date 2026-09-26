@@ -99,9 +99,9 @@ S8 可继续定位 1607 年相关清册、1633 年前的藏画清册及 1833 年
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；博尔盖塞家族卡 S7；Scipione 段 |
-| ← 包含成员（`contains`，反向投影） | [保罗·博尔盖塞（Paolo Borghese）](../persons/paolo-borghese.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；原断言与证据见发出端卡片“保罗·博尔盖塞（Paolo Borghese）”：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；paolo-borghese-wikipedia；导言与家庭段 |
-| ← 包含成员（`contains`，反向投影） | [保禄五世（Paul V）](../persons/paul-v.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；原断言与证据见发出端卡片“保禄五世（Paul V）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；家族卡 S7；馆方家族上升与保禄五世段 |
+| ← 包含成员（`contains`，反向投影） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 希皮奥内·卡法雷利·博尔盖塞以亲缘与改姓进入博尔盖塞家族；本边只记成员身份；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；src-47965a47c8c3ac07；博尔盖塞家族卡 S7；Scipione 段 |
+| ← 包含成员（`contains`，反向投影） | [保罗·博尔盖塞（Paolo Borghese）](../persons/paolo-borghese.md) | Paolo Borghese是Marcantonio II Borghese与Camilla Orsini之子，属于博尔盖塞家族；时间：约1622／1624–1646；角色：博尔盖塞家族成员；范围：只表示家族归属，不与1904–1985年同名人物混同；原断言与证据见发出端卡片“保罗·博尔盖塞（Paolo Borghese）”：[来源](https://en.wikipedia.org/wiki/Paolo_Borghese_(1622%E2%80%931646))；src-fb8c5accc4b97f5c；导言与家庭段 |
+| ← 包含成员（`contains`，反向投影） | [保禄五世（Paul V）](../persons/paul-v.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；原断言与证据见发出端卡片“保禄五世（Paul V）”：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；src-47965a47c8c3ac07；家族卡 S7；馆方家族上升与保禄五世段 |
 
 ### 身份与外部链接
 

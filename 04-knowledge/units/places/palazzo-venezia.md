@@ -56,7 +56,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：1737完成后；角色：完成后安置建筑；范围：该画原始悬挂场所；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](https://ncartmuseum.org/wp-content/uploads/2021/06/Curator_Intro_Batoni_Triumph_of_Venice.pdf)；works-pompeo-batoni-the-triumph-of-venice；PDF2末段 |
+| ← 安置地点（`installation_site_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：1737完成后；角色：完成后安置建筑；范围：该画原始悬挂场所；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](https://ncartmuseum.org/wp-content/uploads/2021/06/Curator_Intro_Batoni_Triumph_of_Venice.pdf)；src-396de1e48aed9d30；PDF2末段 |
 
 ### 关系候选入口
 

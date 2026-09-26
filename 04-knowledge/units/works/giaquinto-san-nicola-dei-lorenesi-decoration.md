@@ -73,8 +73,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [科拉多·贾昆托（Corrado Giaquinto）](../persons/giaquinto-front-matter.md) | 时间：1731签约；角色：装饰工程承作者；范围：1731合同所指绘画装饰工程，不把合同年当所有部位竣工年；证据：[来源](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)；works-giaquinto-san-nicola-dei-lorenesi-decoration；1731年S.Nicola dei Lorenesi装饰合同段 |
-| → 拟用于（`intended_for`） | [洛林人圣尼古拉堂（San Nicola dei Lorenesi）](../places/chiesa-san-nicola-dei-lorenesi.md) | 时间：1731签约；角色：合同所指装饰场所；范围：中殿拱顶、祭坛后区、穹顶的装饰工程；不以合同本身证明全部原件现存；证据：[来源](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)；works-giaquinto-san-nicola-dei-lorenesi-decoration；1731年S.Nicola dei Lorenesi装饰合同段 |
+| → 创作者（`created_by`） | [科拉多·贾昆托（Corrado Giaquinto）](../persons/giaquinto-front-matter.md) | 时间：1731签约；角色：装饰工程承作者；范围：1731合同所指绘画装饰工程，不把合同年当所有部位竣工年；证据：[来源](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)；src-255557a58d2a92c7；1731年S.Nicola dei Lorenesi装饰合同段 |
+| → 拟用于（`intended_for`） | [洛林人圣尼古拉堂（San Nicola dei Lorenesi）](../places/chiesa-san-nicola-dei-lorenesi.md) | 时间：1731签约；角色：合同所指装饰场所；范围：中殿拱顶、祭坛后区、穹顶的装饰工程；不以合同本身证明全部原件现存；证据：[来源](https://www.treccani.it/enciclopedia/corrado-giaquinto_(Dizionario-Biografico)/)；src-255557a58d2a92c7；1731年S.Nicola dei Lorenesi装饰合同段 |
 
 ### 关系候选入口
 

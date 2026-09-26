@@ -103,11 +103,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 受其赞助／保护（`patronized_by`，反向投影） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可；角色：Valmontone雇主／保护人；范围：离开数日须获特别许可的服务关系；原断言与证据见发出端卡片“卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月加入学院，1660年任primo rettore；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；学院段 |
-| → 师从／受训于（`trained_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分；角色：受指导画家；范围：罗马训练／工作指导；具体合作项目另行判断；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；罗马训练与Cortona指导段 |
-| → 合作（`collaborated_with`） | [加斯帕尔·迪盖（Gaspard Dughet）](gaspard-dughet.md) | 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据；角色：人物画家／风景画家；范围：传记明确列出的合作项目；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；合作项目段 |
-| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同；角色：画家／项目合作者；范围：传记明确列出的工程；逐作责任仍保留；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；Bernini合作项目段 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](camillo-pamfili.md) | 在 Valmontone 受雇期间，Cortese 离开数日须得到特别许可；角色：Valmontone雇主／保护人；范围：离开数日须获特别许可的服务关系；原断言与证据见发出端卡片“卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 231–233; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月加入学院，1660年任primo rettore；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；src-616879e189949a68；本卡 S6；学院段 |
+| → 师从／受训于（`trained_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | DBI将科尔泰塞在科尔托纳指导下的工作列为其罗马训练与专业形成的一部分；角色：受指导画家；范围：罗马训练／工作指导；具体合作项目另行判断；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；src-616879e189949a68；本卡 S6；罗马训练与Cortona指导段 |
+| → 合作（`collaborated_with`） | [加斯帕尔·迪盖（Gaspard Dughet）](gaspard-dughet.md) | 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据；角色：人物画家／风景画家；范围：传记明确列出的合作项目；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；src-616879e189949a68；本卡 S6；合作项目段 |
+| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 传记列科尔泰塞与贝尔尼尼在具体工程中的合作；不把赞助、设计与实际绘制职责混同；角色：画家／项目合作者；范围：传记明确列出的工程；逐作责任仍保留；证据：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；src-616879e189949a68；本卡 S6；Bernini合作项目段 |
 
 ### 身份与外部链接
 

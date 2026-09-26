@@ -90,5 +90,6 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [弗拉斯卡蒂](frascati.md) | 历史别墅所在地；证据：S2、S4 |
-| → 所有者（`owned_by`） | [皮耶特罗·阿尔多布兰迪尼](../persons/pietro-aldobrandini.md) | 1598年受赠；后续家族与转让沿革列于上表；证据：S2 |
+| → 位于（`located_at`） | [弗拉斯卡蒂（Frascati）](frascati.md) | 角色：历史别墅所在地；范围：Villa Aldobrandini, Frascati; distinguishes it from the similarly named Rome villa；证据：[来源](https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf)；src-e0f1a77d50df6e01；Villa Aldobrandini subsection |
+| → 由其收藏／拥有（`owned_by`） | [皮埃特罗·阿尔多布兰迪尼（Pietro Aldobrandini）](../persons/pietro-aldobrandini.md) | 时间：1598；角色：受赠人及所有人；范围：Gift by Clement VIII Aldobrandini to Cardinal Pietro; later ownership is separately recorded in content；证据：[来源](https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf)；src-e0f1a77d50df6e01；Villa Aldobrandini subsection |
+| ← 预定地点（`intended_site_of`，反向投影） | [狄安娜狩猎（Hunt of Diana）](../works/domenichino-hunt-of-diana.md) | 角色：原定安置地；范围：原定用途不等于实际安置；Frascati villa与Villa Aldobrandini的地点识别另由地区官方资料支持；原断言与证据见发出端卡片“狄安娜狩猎（Hunt of Diana）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Catalogue entry, paragraphs 1–2; intended destination named as the villa at Frascati |

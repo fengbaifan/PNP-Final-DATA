@@ -24,7 +24,8 @@ except ModuleNotFoundError:
     from _evidence_policy import validate_evidence_schema, validate_recommended_changes
 
 
-BASE = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[1]
+BASE = REPO_ROOT
 VERIFICATION_LOG = BASE / "04-knowledge" / "quality" / "verification-log.md"
 EVIDENCE_FIELDS = ("evidence_status", "verification_level", "confidence", "consensus")
 SAFE_CONFIDENCE = {"medium", "low"}
@@ -352,6 +353,12 @@ def main() -> int:
     parser.add_argument("--batch-id", help="新建状态文件时使用的 work package ID")
     parser.add_argument("evidence_file", help="evidence JSONL 文件")
     args = parser.parse_args()
+
+    if (args.apply or args.resume) and BASE.resolve() == REPO_ROOT.resolve():
+        raise SystemExit(
+            "The legacy apply/resume path writes card frontmatter while enrichment is migrating to tables. "
+            "It is disabled until an evidence-preserving table writer replaces it."
+        )
 
     if args.resume and not args.state_file:
         parser.error("--resume requires --state-file")

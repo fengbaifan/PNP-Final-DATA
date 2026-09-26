@@ -92,7 +92,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 角色：肖像对象；范围：图版17c标题；原断言与证据见发出端卡片“布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 70–70; 章前：图版目录；印刷页xiii |
+| ← 为其所涉对象（`subject_of`，反向投影） | [布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 角色：肖像对象；范围：图版17c标题；原断言与证据见发出端卡片“布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 70–70; 章前：图版目录；印刷页xiii |
 
 ### 身份与外部链接
 

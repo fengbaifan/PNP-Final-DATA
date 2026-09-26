@@ -129,11 +129,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 时间：1977；角色：作者；范围：所列版本书目责任，不声称读过全文；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → 所涉对象（`has_subject`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 时间：1977；角色：研究对象；范围：书目题名及内容说明中的研究人物；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → published_by（`published_by`） | [费顿出版社（Phaidon）](../institutions/phaidon.md) | 时间：1977；角色：出版者；范围：所列版本出版项；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1977；角色：校方书目所载出版地；范围：校方作者书目记London；与CiNii英国版记录的Oxford并列，题名页尚未核，不推定两个印次或实体册位置；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → 位于（`located_at`） | [牛津（Oxford）](../places/oxford.md) | 时间：1977；角色：联合目录所载出版地；范围：CiNii所列英国版出版地；保留校方书目的London异文，未以目录替代题名页核对；证据：[来源](https://ci.nii.ac.jp/ncid/BA09957781)；archives-harris-andrea-sacchi-1977；BA09957781：出版地Oxford；Phaidon 1977；ISBN0714815276 |
+| → 作者（`authored_by`） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 时间：1977；角色：作者；范围：所列版本书目责任，不声称读过全文；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 所涉对象（`has_subject`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 时间：1977；角色：研究对象；范围：书目题名及内容说明中的研究人物；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → published_by（`published_by`） | [费顿出版社（Phaidon）](../institutions/phaidon.md) | 时间：1977；角色：出版者；范围：所列版本出版项；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1977；角色：校方书目所载出版地；范围：校方作者书目记London；与CiNii英国版记录的Oxford并列，题名页尚未核，不推定两个印次或实体册位置；证据：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 位于（`located_at`） | [牛津（Oxford）](../places/oxford.md) | 时间：1977；角色：联合目录所载出版地；范围：CiNii所列英国版出版地；保留校方书目的London异文，未以目录替代题名页核对；证据：[来源](https://ci.nii.ac.jp/ncid/BA09957781)；src-4e7ff45d2197fbee；BA09957781：出版地Oxford；Phaidon 1977；ISBN0714815276 |
 
 ### 版本待核
 

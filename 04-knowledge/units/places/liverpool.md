@@ -49,7 +49,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版52b；S2区别Moores原画和另有版本，不指定现时位置；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
+| ← 所在地（`location_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版52b；S2区别Moores原画和另有版本，不指定现时位置；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 130–130; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

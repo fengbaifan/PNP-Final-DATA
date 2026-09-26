@@ -94,9 +94,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Martyrdom of Saint Ursula归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [意大利画廊（Gallerie d'Italia）](../institutions/gallerie-ditalia.md) | 当前对象记录将The Martyrdom of Saint Ursula列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；held-by-institutions-gallerie-ditalia-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [马尔坎托尼奥一世·多利亚（Marcantonio I Doria）](../persons/marcantonio-i-doria.md) | 来源明确该端点承担The Martyrdom of Saint Ursula的委托角色；不由委托推定当前所有权；时间：1610；角色：委托人／委托机构；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；commissioned-by-persons-marcantonio-i-doria-md；本卡S2；有S4时并参委托／历史段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Martyrdom of Saint Ursula归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；src-1e91456fb9a932e4；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [意大利画廊（Gallerie d'Italia）](../institutions/gallerie-ditalia.md) | 当前对象记录将The Martyrdom of Saint Ursula列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；src-1e91456fb9a932e4；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [马尔坎托尼奥一世·多利亚（Marcantonio I Doria）](../persons/marcantonio-i-doria.md) | 来源明确该端点承担The Martyrdom of Saint Ursula的委托角色；不由委托推定当前所有权；时间：1610；角色：委托人／委托机构；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；证据：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；src-1e91456fb9a932e4；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

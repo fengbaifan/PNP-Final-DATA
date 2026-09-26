@@ -100,7 +100,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·文图里尼](../persons/giovanni-francesco-venturini.md) | 角色：蚀刻与雕版者；目录注明mentioned on object；证据：S2–S3 |
-| → 来源作品（`derived_from`） | [狄安娜狩猎](domenichino-hunt-of-diana.md) | 版画据油画制作；二者为不同作品；证据：S1–S3 |
-| → 题献对象（`dedicated_to`） | [贾科莫·罗斯皮廖西](../persons/giacomo-rospigliosi.md) | 题记与目录所载题献对象；证据：S2–S3 |
-| → 题献者（`dedicated_by`） | [洛伦佐·帕里贝尼](../persons/lorenzo-paribeni.md) | 馆藏目录及题记所载题献者，不推定其创作者身份；证据：S2–S3 |
+| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·文图里尼（Giovanni Francesco Venturini）](../persons/giovanni-francesco-venturini.md) | 时间：1660–约1710（馆藏目录断代）；角色：蚀刻与雕版者；馆藏记录标为mentioned on object；证据：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；Creation: printmaker |
+| → 源自（`derived_from`） | [狄安娜狩猎（Hunt of Diana）](domenichino-hunt-of-diana.md) | 角色：原画图像来源；版画与油画为不同作品对象；证据：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；Creation: after painting by Domenichino |
+| → dedicated_to（`dedicated_to`） | [贾科莫·罗斯皮廖西（Giacomo Rospigliosi）](../persons/giacomo-rospigliosi.md) | 角色：题献对象；证据：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；dedication field and inscription |
+| → dedicated_by（`dedicated_by`） | [洛伦佐·帕里贝尼（Lorenzo Paribeni）](../persons/lorenzo-paribeni.md) | 角色：题记所载题献者；证据：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；dedication field and inscription |

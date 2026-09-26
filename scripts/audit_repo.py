@@ -1206,7 +1206,8 @@ def knowledge_maturity_check(base: Path, snapshots: list[UnitSnapshot]) -> dict:
         from scripts._relation_tables import load_relations
     except ModuleNotFoundError:
         from _relation_tables import load_relations
-    for relation in load_relations(base / "04-knowledge" / "tables" / "relations.csv"):
+    relation_table = base / "04-knowledge" / "tables" / "relations.csv"
+    for relation in (load_relations(relation_table) if relation_table.is_file() else []):
         for field in ("source", "target"):
             ref = str(relation.get(field) or "").removeprefix("04-knowledge/units/")
             if ref in unit_refs:

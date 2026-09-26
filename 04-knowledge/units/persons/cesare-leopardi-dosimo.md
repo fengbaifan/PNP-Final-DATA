@@ -52,4 +52,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为收信人（`addressee_of`，反向投影） | [贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）](../archives/gessi-leopardi-letter-1647.md) | 书信收信人；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi；时间：1647-07-10；角色：收信人；范围：Berlingero Gessi书信；原断言与证据见发出端卡片“贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 509–510; print pp. 13 |
+| ← 为收信人（`addressee_of`，反向投影） | [贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）](../archives/gessi-leopardi-letter-1647.md) | 书信收信人；1647-07-10；作者显示名已据 PDF 校正为 Berlingero Gessi；时间：1647-07-10；角色：收信人；范围：Berlingero Gessi书信；原断言与证据见发出端卡片“贝尔林杰罗·杰西致切萨雷·莱奥帕尔迪·多西莫的信（1647-07-10）（Letter from Berlingero Gessi to Don Cesare Leopardi d’Osimo (1647-07-10)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 509–510; print pp. 13 |

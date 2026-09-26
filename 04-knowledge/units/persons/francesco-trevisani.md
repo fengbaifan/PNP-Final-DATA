@@ -109,10 +109,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 这篇未刊传记的传主为 Trevisani；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1697年入会段 |
-| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；dbi-trevisani；本卡 S6；1712年入会段 |
-| ← 受其赞助／保护（`patronized_by`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](pietro-ottoboni.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 220–223; print pp. 7 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；本卡 S6；1697年入会段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；本卡 S6；1712年入会段 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](pietro-ottoboni.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 220–223; print pp. 7 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 这篇未刊传记的传主为 Trevisani；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
 
 ### 身份与外部链接
 

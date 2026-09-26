@@ -82,8 +82,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../archives/minnitti-augusta-terms-1617.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；原断言与证据见发出端卡片“明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
-| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系；时间：1590年代；角色：朋友；范围：模特身份逐件作品另判；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；friend-of-persons-mario-minnitti-md；Beginnings in Rome与Models段 |
+| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系；时间：1590年代；角色：朋友；范围：模特身份逐件作品另判；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；Beginnings in Rome与Models段 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../archives/minnitti-augusta-terms-1617.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；原断言与证据见发出端卡片“明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 321–322; print pp. 9 |
 
 ### 身份与外部链接
 

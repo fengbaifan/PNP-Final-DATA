@@ -67,8 +67,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../works/camassei-peter-paul-mamertine-modello.md) | 本书写作时所记馆藏，非今日核验；原断言与证据见发出端卡片“卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
-| ← 保管对象（`holder_of`，反向投影） | [《基督下葬》（The Entombment of Christ）](../works/caravaggio-entombment-christ.md) | 当前对象记录将The Entombment of Christ列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《基督下葬》（The Entombment of Christ）”：[来源](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-xii---secolo-xvii/caravaggio--deposizione-dalla-croce.html)；held-by-institutions-pinacoteca-vaticana-md；本卡S2；有S4时并参对象字段 |
+| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）](../works/camassei-peter-paul-mamertine-modello.md) | 本书写作时所记馆藏，非今日核验；原断言与证据见发出端卡片“卡马塞伊《圣彼得与圣保罗在马默蒂诺监狱施洗》稿（Camassei’s modello of Saints Peter and Paul baptizing in the Mamertine Prison）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 464–466; print pp. 12 |
+| ← 保管对象（`holder_of`，反向投影） | [《基督下葬》（The Entombment of Christ）](../works/caravaggio-entombment-christ.md) | 当前对象记录将The Entombment of Christ列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《基督下葬》（The Entombment of Christ）”：[来源](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-xii---secolo-xvii/caravaggio--deposizione-dalla-croce.html)；src-8f89c5d1d8334d9a；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

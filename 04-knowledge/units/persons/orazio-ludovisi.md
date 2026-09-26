@@ -117,10 +117,10 @@ sources:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 亲缘（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | 兄弟；原断言及Treccani来源见格列高利十五世卡的关系记录 |
-| → 父亲（`parent_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 枢机Ludovico为Orazio之子；S1结尾子女段 |
-| → 父亲（`parent_of`） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 后来的Piombino亲王Niccolò为Orazio之子；S1家族段及结尾子女段 |
-| → 配偶（`spouse_of`） | [Lavinia Albergati](lavinia-albergati.md) | 1594年结婚；婚姻终止时间未载；S1 |
+| ← 亲缘（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | Orazio 是 Alessandro Ludovisi（Gregory XV）的兄弟；角色：兄弟；范围：Alessandro Ludovisi 与 Orazio Ludovisi 的亲缘关系；原断言与证据见发出端卡片“格列高利十五世（Gregory XV）”：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraph beginning ‘Nel marzo del 1621’ |
+| → 配偶（`spouse_of`） | [拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）](lavinia-albergati.md) | 时间：自1594年起；婚姻终止时间未载；角色：husband；范围：Orazio Ludovisi与Lavinia Albergati的婚姻；证据：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；family paragraph; lines 28 and 38: wife Lavinia Albergati, married in 1594 |
+| → parent_of（`parent_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 时间：自1595年起（Ludovico出生年）；角色：father；范围：son is the 1595–1632 Cardinal Ludovico Ludovisi, not another namesake；证据：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；concluding paragraph; lines 55–56: four children include Cardinal Ludovico |
+| → parent_of（`parent_of`） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 时间：1610年起（Niccolò出生年）；角色：father；范围：son is the later Prince of Piombino Niccolò Ludovisi, distinct from Niccolò Albergati-Ludovisi；证据：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；family paragraph and concluding paragraph; lines 28, 55–56 |
 
 ### 身份与外部链接
 

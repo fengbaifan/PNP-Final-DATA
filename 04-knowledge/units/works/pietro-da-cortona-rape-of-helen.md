@@ -107,9 +107,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [国家摄影室（Gabinetto Fotografico Nazionale）](../institutions/gabinetto-fotografico-nazionale.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 165–166 |
-| → 由其保管（`held_by`） | [罗马市美术委员办公室（Ufficio dell'Assessore Comunale alle Belle Arti）](../institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md) | 时间：本书所述时点；角色：书中保管者；范围：原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 52–53; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：原书图版目录明确位置；不表示创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 52–53; 章前：图版目录；印刷页xii |
+| → 由其供应（`supplied_by`） | [国家摄影室（Gabinetto Fotografico Nazionale）](../institutions/gabinetto-fotografico-nazionale.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版10b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；haskell-1980-rev-ed；PDF13；印刷xvi；图片来源；lines 165–166 |
+| → 由其保管（`held_by`） | [罗马市美术委员办公室（Ufficio dell'Assessore Comunale alle Belle Arti）](../institutions/ufficio-dell-assessore-comunale-alle-belle-arti.md) | 时间：本书所述时点；角色：书中保管者；范围：原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 52–53; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：原书图版目录明确位置；不表示创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 52–53; 章前：图版目录；印刷页xii |
 
 ### 身份待决
 

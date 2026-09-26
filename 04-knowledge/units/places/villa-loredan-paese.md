@@ -67,9 +67,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所有人（`owned_by`） | [约翰·斯特兰奇（John Strange）](../persons/john-strange.md) | 角色：历史所有人；范围：National Gallery所记其Paese乡间住宅；产权时间未由来源注明；证据：[国家美术馆](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)，About the work第3–4段 |
-| → 位于（`located_at`） | [帕埃塞（Paese）](paese.md) | 角色：建筑所在地；证据：[国家美术馆](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)，About the work第3–4段 |
-| ← 描绘地点（`has_subject`，反向投影） | [约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）](../works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md) | 书中图版64题名与国家美术馆对别墅身份的说明相合；不配对某一具体馆藏画作；原断言与来源见发出端作品卡（S1） |
+| → 由其收藏／拥有（`owned_by`） | [约翰·斯特兰奇（John Strange）](../persons/john-strange.md) | 角色：历史所有人；范围：National Gallery所记Strange在Paese的乡间住宅；未给产权取得、转移或终止日期；证据：[来源](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)；src-a0c3955754a07226；lines 104–105 |
+| → 位于（`located_at`） | [帕埃塞（Paese）](paese.md) | 角色：建筑所在地；范围：Paese镇内的乡间别墅；证据：[来源](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)；src-a0c3955754a07226；lines 104–105 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）](../works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md) | 角色：画中建筑；范围：书中图版64所称John Strange在Paese的乡间住宅；不配对某一具体馆藏画作；原断言与证据见发出端卡片“约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）”：[来源](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)；src-a0c3955754a07226；lines 104–105 |
 
 ### 关系候选入口
 

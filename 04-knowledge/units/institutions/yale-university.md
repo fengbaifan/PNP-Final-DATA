@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 收藏者／所有者（`owner_of`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 时间：1980版权标注；角色：1980年版权标注权利人；范围：仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 16–16; 未编号版权页；PDF2 |
-| ← 包含成员（`contains`，反向投影） | [耶鲁大学出版社（Yale University Press）](yale-university-press.md) | 时间：1961起；角色：所属出版部门；范围：出版社为大学所属部门，同时保持财务和运营自主；原断言与证据见发出端卡片“耶鲁大学出版社（Yale University Press）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；II. Growth and Diversification，1961段 |
+| ← 包含成员（`contains`，反向投影） | [耶鲁大学出版社（Yale University Press）](yale-university-press.md) | 时间：1961起；角色：所属出版部门；范围：出版社为大学所属部门，同时保持财务和运营自主；原断言与证据见发出端卡片“耶鲁大学出版社（Yale University Press）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；II. Growth and Diversification，1961段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 时间：1980版权标注；角色：1980年版权标注权利人；范围：仅指版权页Copyright © 1980 by Yale University标注的著作版权；不指本件印刷载体或任意版本的所有权；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；haskell-1980-rev-ed；lines 16–16; 未编号版权页；PDF2 |
 
 ### 关系候选入口
 

@@ -91,8 +91,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读大量打字稿、全书校样及提出订正；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 就读于（`educated_at`） | [剑桥国王学院（King's College, Cambridge）](../institutions/kings-college-cambridge.md) | 时间：1921年入学；角色：入学；不表示Fellow任命；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.kings.cam.ac.uk/guide-modern-archives)；persons-g-h-w-rylands；档案指南说明及GHWR完整条目 |
+| → 就读于（`educated_at`） | [剑桥国王学院（King's College, Cambridge）](../institutions/kings-college-cambridge.md) | 时间：1921年入学；角色：入学；不表示Fellow任命；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.kings.cam.ac.uk/guide-modern-archives)；档案指南说明及GHWR完整条目 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读大量打字稿、全书校样及提出订正；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 22–22; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 关系候选入口
 

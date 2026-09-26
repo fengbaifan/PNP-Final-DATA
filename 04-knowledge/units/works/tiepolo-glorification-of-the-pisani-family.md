@@ -150,11 +150,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1761–1762；角色：顶画作者；范围：斯特拉皮萨尼别墅舞厅天顶；证据：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；works-tiepolo-glorification-of-the-pisani-family；2025-04-25活动介绍；Salone da Ballo顶画段 |
-| → 所涉对象（`has_subject`） | [皮萨尼家族（Pisani family）](../families/pisani-family.md) | 角色：颂扬家族；范围：原书题名明确家族主体；不由颂扬推定所有家族成员参与委托；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 118–118; 章前：图版目录；印刷页xiv |
-| → 安置于（`installed_at`） | [皮萨尼别墅（斯特拉）（Villa Pisani）](../places/villa-pisani.md) | 时间：1761–1762绘成；角色：舞厅天顶；范围：别墅舞厅顶画；部分寓意解释仍有争议；证据：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；works-tiepolo-glorification-of-the-pisani-family；2025-04-25活动介绍；Salone da Ballo顶画段 |
-| → 位于（`located_at`） | [斯特拉（Stra）](../places/stra.md) | 时间：本书所述时点；角色：书中所在城镇；范围：图版44原书定位；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 118–118; 章前：图版目录；印刷页xiv |
-| → 由其供应（`supplied_by`） | [奥斯瓦尔德·伯姆摄影商号（Ditta Osvaldo Böhm）](../institutions/osvaldo-bohm-photographic-publisher.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版44所用复制图像，商号身份依S4已核；不指定底片号或具体摄影师；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1761–1762；角色：顶画作者；范围：斯特拉皮萨尼别墅舞厅天顶；证据：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；src-2be6a34b83a189c5；2025-04-25活动介绍；Salone da Ballo顶画段 |
+| → 所涉对象（`has_subject`） | [皮萨尼家族（Pisani family）](../families/pisani-family.md) | 角色：颂扬家族；范围：原书题名明确家族主体；不由颂扬推定所有家族成员参与委托；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 118–118; 章前：图版目录；印刷页xiv |
+| → 安置于（`installed_at`） | [皮萨尼别墅（斯特拉）（Villa Pisani）](../places/villa-pisani.md) | 时间：1761–1762绘成；角色：舞厅天顶；范围：别墅舞厅顶画；部分寓意解释仍有争议；证据：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；src-2be6a34b83a189c5；2025-04-25活动介绍；Salone da Ballo顶画段 |
+| → 位于（`located_at`） | [斯特拉（Stra）](../places/stra.md) | 时间：本书所述时点；角色：书中所在城镇；范围：图版44原书定位；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 118–118; 章前：图版目录；印刷页xiv |
+| → 由其供应（`supplied_by`） | [奥斯瓦尔德·伯姆摄影商号（Ditta Osvaldo Böhm）](../institutions/osvaldo-bohm-photographic-publisher.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版44所用复制图像，商号身份依S4已核；不指定底片号或具体摄影师；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 164–164; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

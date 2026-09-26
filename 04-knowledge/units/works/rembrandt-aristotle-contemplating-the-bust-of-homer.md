@@ -128,12 +128,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [伦勃朗（Rembrandt）](../persons/rembrandt.md) | 角色：原书署名作者；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
-| → 所涉对象（`has_subject`） | [亚里士多德（Aristotle）](../persons/aristotle.md) | 角色：画中人物；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
-| → 所涉对象（`has_subject`） | [荷马（Homer）](../persons/homer.md) | 角色：画中胸像代表的人物；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
-| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
-| → 由其取得（`acquired_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1961；角色：购入机构；范围：图版35a所列购入记录；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [伦勃朗（Rembrandt）](../persons/rembrandt.md) | 角色：原书署名作者；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [亚里士多德（Aristotle）](../persons/aristotle.md) | 角色：画中人物；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [荷马（Homer）](../persons/homer.md) | 角色：画中胸像代表的人物；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 由其取得（`acquired_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1961；角色：购入机构；范围：图版35a所列购入记录；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

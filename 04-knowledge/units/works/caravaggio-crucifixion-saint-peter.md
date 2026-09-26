@@ -104,10 +104,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Crucifixion of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [切拉西礼拜堂（Cerasi Chapel）](../places/cerasi-chapel.md) | 来源将Crucifixion of Saint Peter与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；installed-at-places-cerasi-chapel-md；本卡S2；有S4时并参对象／地点说明 |
-| → 由其委托（`commissioned_by`） | [蒂贝里奥·切拉西（Tiberio Cerasi）](../persons/tiberio-cerasi.md) | 来源明确该端点承担Crucifixion of Saint Peter的委托角色；不由委托推定当前所有权；时间：1601；角色：委托人／委托机构；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；commissioned-by-persons-tiberio-cerasi-md；本卡S2；有S4时并参委托／历史段 |
-| → 拟用于（`intended_for`） | [切拉西礼拜堂（Cerasi Chapel）](../places/cerasi-chapel.md) | Crucifixion of Saint Peter原定用于该建筑或礼拜堂；时间：1601；角色：原定安置地点；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；intended-for-places-cerasi-chapel-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Crucifixion of Saint Peter归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [切拉西礼拜堂（Cerasi Chapel）](../places/cerasi-chapel.md) | 来源将Crucifixion of Saint Peter与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；本卡S2；有S4时并参对象／地点说明 |
+| → 由其委托（`commissioned_by`） | [蒂贝里奥·切拉西（Tiberio Cerasi）](../persons/tiberio-cerasi.md) | 来源明确该端点承担Crucifixion of Saint Peter的委托角色；不由委托推定当前所有权；时间：1601；角色：委托人／委托机构；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；本卡S2；有S4时并参委托／历史段 |
+| → 拟用于（`intended_for`） | [切拉西礼拜堂（Cerasi Chapel）](../places/cerasi-chapel.md) | Crucifixion of Saint Peter原定用于该建筑或礼拜堂；时间：1601；角色：原定安置地点；范围：现存布面版本；与1600年合同委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/Crucifixion_of_Saint_Peter_(Caravaggio))；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

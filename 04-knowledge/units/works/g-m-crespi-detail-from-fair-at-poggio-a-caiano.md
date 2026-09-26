@@ -99,10 +99,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：所据画作作者；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
-| → 所涉对象（`has_subject`） | [波焦阿卡亚诺（Poggio a Caiano）](../places/poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
-| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：所据原画保管机构；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中原画所在城市；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：所据画作作者；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 所涉对象（`has_subject`） | [波焦阿卡亚诺（Poggio a Caiano）](../places/poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：所据原画保管机构；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中原画所在城市；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

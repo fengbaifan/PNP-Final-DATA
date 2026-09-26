@@ -45,8 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 当前对象记录将Judith Beheading Holofernes (Palazzo Barberini version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；held-by-institutions-galleria-nazionale-arte-antica-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [《水仙》（Narcissus）](../works/caravaggio-narcissus.md) | 当前对象记录将Narcissus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；卡拉瓦乔归属有争议；原断言与证据见发出端卡片“《水仙》（Narcissus）”：[来源](https://en.wikipedia.org/wiki/Narcissus_(Caravaggio))；held-by-institutions-galleria-nazionale-arte-antica-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 当前对象记录将Judith Beheading Holofernes (Palazzo Barberini version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；src-b49484843a38d61f；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《水仙》（Narcissus）](../works/caravaggio-narcissus.md) | 当前对象记录将Narcissus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；卡拉瓦乔归属有争议；原断言与证据见发出端卡片“《水仙》（Narcissus）”：[来源](https://en.wikipedia.org/wiki/Narcissus_(Caravaggio))；src-b4507ad8f7e293ca；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

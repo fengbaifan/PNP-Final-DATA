@@ -43,7 +43,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 预定地点（`intended_site_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | Death of the Virgin原定用于该建筑或礼拜堂；时间：约1601–1606；角色：原定安置地点；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；intended-for-places-santa-maria-della-scala-rome-md；本卡S2；有S4时并参原定安置段 |
+| ← 预定地点（`intended_site_of`，反向投影） | [《圣母之死》（Death of the Virgin）](../works/caravaggio-death-virgin.md) | Death of the Virgin原定用于该建筑或礼拜堂；时间：约1601–1606；角色：原定安置地点；范围：拒收后经曼图亚及英法王室收藏；当前保管与历史所有权分开。；原断言与证据见发出端卡片“《圣母之死》（Death of the Virgin）”：[来源](https://en.wikipedia.org/wiki/Death_of_the_Virgin_(Caravaggio))；src-9656281414931357；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

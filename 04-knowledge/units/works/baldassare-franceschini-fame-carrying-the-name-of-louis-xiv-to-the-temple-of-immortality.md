@@ -88,9 +88,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [巴尔达萨雷·弗兰切斯基尼（Baldassarre Franceschini）](../persons/baldassare-franceschini.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
-| → 所涉对象（`has_subject`） | [路易十四（Louis XIV）](../persons/louis-xiv.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
-| → 位于（`located_at`） | [凡尔赛（Versailles）](../places/versailles.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [巴尔达萨雷·弗兰切斯基尼（Baldassarre Franceschini）](../persons/baldassare-franceschini.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
+| → 所涉对象（`has_subject`） | [路易十四（Louis XIV）](../persons/louis-xiv.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
+| → 位于（`located_at`） | [凡尔赛（Versailles）](../places/versailles.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

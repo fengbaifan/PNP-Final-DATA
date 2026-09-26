@@ -74,7 +74,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [希律王宴会（The Feast of Herod）](../works/rubens-the-feast-of-herod.md) | 角色：原书保管机构；范围：原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点；原断言与证据见发出端卡片“希律王宴会（The Feast of Herod）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 100–100; 章前：图版目录；印刷页xiv |
+| ← 保管对象（`holder_of`，反向投影） | [希律王宴会（The Feast of Herod）](../works/rubens-the-feast-of-herod.md) | 角色：原书保管机构；范围：原书图版35b所列保管单馆；不把当前总机构或库房粒度并入此端点；原断言与证据见发出端卡片“希律王宴会（The Feast of Herod）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 100–100; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

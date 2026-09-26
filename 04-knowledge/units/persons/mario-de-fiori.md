@@ -100,10 +100,10 @@ Abraham Bruegel在1671年致Ruffo信中批评其画作变暗，此为有作者�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 受其赞助／保护（`patronized_by`，反向投影） | [弗拉维奥·基吉（Flavio Chigi）](flavio-chigi.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；原断言与证据见发出端卡片“弗拉维奥·基吉（Flavio Chigi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 282–283; print pp. 8 |
-| → 合作（`collaborated_with`） | [菲利波·劳里（Filippo Lauri）](filippo-lauri.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
-| → 合作（`collaborated_with`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《夏》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
-| → 合作（`collaborated_with`） | [贾钦托·布兰迪（Giacinto Brandi）](giacinto-brandi.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| ← 受其赞助／保护（`patronized_by`，反向投影） | [弗拉维奥·基吉（Flavio Chigi）](flavio-chigi.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；原断言与证据见发出端卡片“弗拉维奥·基吉（Flavio Chigi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 282–283; print pp. 8 |
+| → 合作（`collaborated_with`） | [菲利波·劳里（Filippo Lauri）](filippo-lauri.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；src-79314a94389e3534；本卡 S7；Quattro stagioni合作段 |
+| → 合作（`collaborated_with`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Maratta为《夏》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《夏》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；src-79314a94389e3534；本卡 S7；Quattro stagioni合作段 |
+| → 合作（`collaborated_with`） | [贾钦托·布兰迪（Giacinto Brandi）](giacinto-brandi.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；证据：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；src-79314a94389e3534；本卡 S7；Quattro stagioni合作段 |
 
 ### 身份与外部链接
 

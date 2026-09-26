@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../works/tiepolo-glorification-of-the-pisani-family.md) | 时间：1761–1762绘成；角色：舞厅天顶；范围：别墅舞厅顶画；部分寓意解释仍有争议；原断言与证据见发出端卡片“皮萨尼家族的荣耀（Glorification of the Pisani family）”：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；works-tiepolo-glorification-of-the-pisani-family；2025-04-25活动介绍；Salone da Ballo顶画段 |
+| ← 安置地点（`installation_site_of`，反向投影） | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../works/tiepolo-glorification-of-the-pisani-family.md) | 时间：1761–1762绘成；角色：舞厅天顶；范围：别墅舞厅顶画；部分寓意解释仍有争议；原断言与证据见发出端卡片“皮萨尼家族的荣耀（Glorification of the Pisani family）”：[来源](https://museiveneto.cultura.gov.it/eventi-e-mostre/museo-di-villa-pisani-25-aprile-ore-11-dialoghi-dellesedra-da-tiepolo-paschetto)；src-2be6a34b83a189c5；2025-04-25活动介绍；Salone da Ballo顶画段 |
 
 ### 关系候选入口
 

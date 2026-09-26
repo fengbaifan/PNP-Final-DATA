@@ -69,6 +69,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [弗朗切斯科·诺韦蒂（Francesco Novetti）](../persons/francesco-novetti.md) | 书信作者；1670-03-22；关于 Maratta 委托困难的抱怨。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 750–758; print pp. 18 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1670-03-22；关于 Maratta 委托困难的抱怨；时间：1670-03-22；角色：收信人；范围：关于Maratta委托困难的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 750–758; print pp. 18 |
-| → 所涉对象（`has_subject`） | [卡洛·马拉塔（Carlo Maratta）](../persons/carlo-maratta.md) | 信中讨论向马拉塔订画及其不易接受付款的抱怨；不据此断言委托已完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 750–758; print pp. 18 |
+| → 作者（`authored_by`） | [弗朗切斯科·诺韦蒂（Francesco Novetti）](../persons/francesco-novetti.md) | 书信作者；1670-03-22；关于 Maratta 委托困难的抱怨。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 750–758; print pp. 18 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1670-03-22；关于 Maratta 委托困难的抱怨；时间：1670-03-22；角色：收信人；范围：关于Maratta委托困难的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 750–758; print pp. 18 |
+| → 所涉对象（`has_subject`） | [卡洛·马拉塔（Carlo Maratta）](../persons/carlo-maratta.md) | 信中讨论向马拉塔订画及其不易接受付款的抱怨；不据此断言委托已完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 750–758; print pp. 18 |

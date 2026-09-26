@@ -110,8 +110,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [迈克尔·康福尔蒂（Michael Conforti）](../persons/michael-conforti.md) | 时间：1977-08；角色：论文作者；范围：期刊官方目录的文章署名；不是已读论文全文；证据：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；archives-conforti-legros-designers-1977；本期目录及Conforti论文条；未读付费论文正文 |
-| → 组成部分（`part_of`） | [《伯灵顿杂志》（The Burlington Magazine）](burlington-magazine.md) | 时间：1977-08；角色：刊载期刊；范围：1977年8月，119卷893期；正文页码另见本书书目；证据：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；archives-conforti-legros-designers-1977；本期目录及Conforti论文条；未读付费论文正文 |
+| → 作者（`authored_by`） | [迈克尔·康福尔蒂（Michael Conforti）](../persons/michael-conforti.md) | 时间：1977-08；角色：论文作者；范围：期刊官方目录的文章署名；不是已读论文全文；证据：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；src-b4a24d415e52b15d；本期目录及Conforti论文条；未读付费论文正文 |
+| → 组成部分（`part_of`） | [《伯灵顿杂志》（The Burlington Magazine）](burlington-magazine.md) | 时间：1977-08；角色：刊载期刊；范围：1977年8月，119卷893期；正文页码另见本书书目；证据：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；src-b4a24d415e52b15d；本期目录及Conforti论文条；未读付费论文正文 |
 
 ### 关系候选入口
 

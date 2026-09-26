@@ -55,4 +55,5 @@ relations: []
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托人（`commissioner_of`，反向投影） | [狄安娜狩猎](../works/domenichino-hunt-of-diana.md) | 角色：委托人；原定用途及委托见关联作品；证据：S3 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）](../places/villa-aldobrandini-frascati.md) | 时间：1598；角色：受赠人及所有人；范围：Gift by Clement VIII Aldobrandini to Cardinal Pietro; later ownership is separately recorded in content；原断言与证据见发出端卡片“阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）”：[来源](https://www.regione.lazio.it/sites/default/files/2021-04/descrizione-ville-tuscolane.pdf)；src-e0f1a77d50df6e01；Villa Aldobrandini subsection |
+| ← 委托者（`commissioner_of`，反向投影） | [狄安娜狩猎（Hunt of Diana）](../works/domenichino-hunt-of-diana.md) | 角色：委托人；范围：博尔盖塞美术馆称作品原为其委托；区分其与后来的取得者Scipione Borghese；原断言与证据见发出端卡片“狄安娜狩猎（Hunt of Diana）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Catalogue entry, paragraphs 1–2 |

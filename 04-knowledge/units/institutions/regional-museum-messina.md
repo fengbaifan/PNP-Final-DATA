@@ -45,8 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 当前对象记录将Adoration of the Shepherds列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；held-by-institutions-regional-museum-messina-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [《拉撒路复活》（The Raising of Lazarus）](../works/caravaggio-raising-lazarus.md) | 当前对象记录将The Raising of Lazarus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《拉撒路复活》（The Raising of Lazarus）”：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；held-by-institutions-regional-museum-messina-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 当前对象记录将Adoration of the Shepherds列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《拉撒路复活》（The Raising of Lazarus）](../works/caravaggio-raising-lazarus.md) | 当前对象记录将The Raising of Lazarus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《拉撒路复活》（The Raising of Lazarus）”：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；src-66c6f2651968e23a；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

@@ -88,6 +88,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 参与者（`has_participant`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Guercino 主动询问具体图像细节；时间：1665；角色：图像细节询问者；范围：只确认提出询问；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
-| → 所涉对象（`has_subject`） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../works/guercino-sicilian-altarpiece-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
-| → 采用程序（`uses_procedure`） | [题材与图像志协商（Consultation over subjects and iconography）](../procedures/iconographic-consultation.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
+| → 参与者（`has_participant`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | Guercino 主动询问具体图像细节；时间：1665；角色：图像细节询问者；范围：只确认提出询问；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 295–307; print pp. 9 |
+| → 所涉对象（`has_subject`） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../works/guercino-sicilian-altarpiece-1665.md) | 询问对象为西西里修道院祭坛画方案；非完成证明；时间：1665；角色：所询问的祭坛画方案；范围：图像细节方案；不证明作品完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 295–307; print pp. 9 |
+| → 采用程序（`uses_procedure`） | [题材与图像志协商（Consultation over subjects and iconography）](../procedures/iconographic-consultation.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 295–307; print pp. 9 |

@@ -125,9 +125,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| ← 所著文献（`author_of`，反向投影） | [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](../archives/waterhouse-rome-painting-1971.md) | 时间：1971；角色：论文作者；范围：本书书目所列E. K. Waterhouse；书目事实不代替全文阅读；原断言与证据见发出端卡片“十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；patrons-and-painters；lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核 |
-| → 受雇于（`employed_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 时间：1929–1933；角色：助理／Assistant；范围：早期馆务任职，1933离任；证据：[来源](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA16)；persons-ellis-waterhouse；完整档案集合目录、Administrative history、Related material |
+| → 受雇于（`employed_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 时间：1929–1933；角色：助理／Assistant；范围：早期馆务任职，1933离任；证据：[来源](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA16)；src-5922645e14d5940e；完整档案集合目录、Administrative history、Related material |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 所著文献（`author_of`，反向投影） | [十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）](../archives/waterhouse-rome-painting-1971.md) | 时间：1971；角色：论文作者；范围：本书书目所列E. K. Waterhouse；书目事实不代替全文阅读；原断言与证据见发出端卡片“十八世纪罗马绘画（Painting in Rome in the Eighteenth Century）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；lines 1233–1234; 书后：书目；仅定向读取所引条目，印刷页未核 |
 
 ### 关系候选入口
 

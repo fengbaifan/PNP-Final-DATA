@@ -105,8 +105,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [《罗马城记述》（1642）（Account of the City of Rome (1642)）](../archives/ameyden-relazione-1642.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；原断言与证据见发出端卡片“《罗马城记述》（1642）（Account of the City of Rome (1642)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 书中明确图书馆位于 Rome；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 89–92; print pp. 4 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 书中明确图书馆位于 Rome；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 89–92; print pp. 4 |
+| ← 所在地（`location_of`，反向投影） | [《罗马城记述》（1642）（Account of the City of Rome (1642)）](../archives/ameyden-relazione-1642.md) | 本书记录 MS.5001 馆藏位置，未核今日馆藏状态；原断言与证据见发出端卡片“《罗马城记述》（1642）（Account of the City of Rome (1642)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 89–92; print pp. 4 |
 
 ### 身份与外部链接
 

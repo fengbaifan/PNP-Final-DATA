@@ -105,10 +105,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [弗朗切斯科·瓜尔迪（Francesco Guardi）](../persons/francesco-guardi.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 148–149; 章前：图版目录；印刷页xvi |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：本书所述时点；角色：书中私人收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 148–149; 章前：图版目录；印刷页xvi |
-| → 所涉对象（`has_subject`） | [帕埃塞（Paese）](../places/paese.md) | 角色：画中地点；范围：画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 148–149; 章前：图版目录；印刷页xvi |
-| → 所涉建筑（`has_subject`） | [洛雷丹别墅（Villa Loredan, Paese）](../places/villa-loredan-paese.md) | 角色：画中建筑；范围：书中图版64题名所指John Strange在Paese的乡间住宅；不对应或认定某一具体馆藏画作；证据：本卡S1及国家美术馆S2 |
+| → 创作者（`created_by`） | [弗朗切斯科·瓜尔迪（Francesco Guardi）](../persons/francesco-guardi.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 148–149; 章前：图版目录；印刷页xvi |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：本书所述时点；角色：书中私人收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 148–149; 章前：图版目录；印刷页xvi |
+| → 所涉对象（`has_subject`） | [帕埃塞（Paese）](../places/paese.md) | 角色：画中地点；范围：画中别墅位于Paese近Treviso；不将近邻城市写成别墅地址；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 148–149; 章前：图版目录；印刷页xvi |
+| → 所涉对象（`has_subject`） | [洛雷丹别墅（Villa Loredan, Paese）](../places/villa-loredan-paese.md) | 角色：画中建筑；范围：书中图版64所称John Strange在Paese的乡间住宅；不配对某一具体馆藏画作；证据：[来源](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)；src-a0c3955754a07226；lines 104–105 |
 
 ### 关系候选入口
 

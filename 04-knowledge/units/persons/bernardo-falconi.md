@@ -45,4 +45,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 作品创作者（`created_by`反向投影） | [乔万尼·佩萨罗总督纪念碑](../works/monument-to-doge-giovanni-pesaro.md) | 角色：官方页面列名的制作者，具体部件未明；正式断言及来源见出向作品卡S5。 |
+| ← 所创作对象（`creator_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 角色：教堂官方页面列名的纪念碑制作者；具体分工未明；范围：纪念碑整体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](https://www.basilicadeifrari.it/monumenti/)；src-fabd9031bda686f1；lines 58–60 |

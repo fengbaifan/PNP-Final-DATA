@@ -97,8 +97,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其创作（`created_by`） | [萨尔维奥·萨维尼（Salvio Savini）](../persons/saverio-savini.md) | 指南记其1608年受托，作品1610年交付；S1，PDF p.20、印刷页21 |
-| → 安置于（`located_at`） | [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](../places/basilica-di-sant-ubaldo.md) | 圣殿2022年指南列作Pala del Voto位于还愿小堂；该位置记述不推定原始安置时间；S2 |
+| → 创作者（`created_by`） | [萨尔维奥·萨维尼（Salvio Savini）](../persons/saverio-savini.md) | 时间：commissioned 1608-03-25; delivered 1610；角色：painter；范围：Pala del Voto, the Gubbio community's votive altarpiece; not the 1605 birth event depicted；证据：[来源](https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf)；PDF p.20, printed p.21, II Quadro: ‘allogato al pittore fiorentino Salvio Savini’; delivered 1610 |
+| → 由其委托（`commissioned_by`） | [古比奥市政共同体（Gubbio civic magistracy）](../institutions/gubbio-civic-magistracy.md) | 时间：commissioned 1608-03-25；角色：collective commissioner；范围：The community's vowed altar and the painting commissioned for it; the 1606 Barocci proposal is earlier context, not the Savini commission record.；证据：[来源](https://www.eugubininelmondo.com/public/GuidaBasilica2015.pdf)；PDF p.20, printed p.21, II Quadro: ‘commissioned for the altar the community had vowed to its patron’ |
+| → 位于（`located_at`） | [圣乌巴尔多圣殿（Basilica of Sant'Ubaldo）](../places/basilica-di-sant-ubaldo.md) | 时间：2022 leaflet's stated location；角色：displayed within the votive chapel；范围：The guide locates the painting in Cappella del Voto; this does not establish its original installation date or ownership.；证据：[来源](https://www.eugubininelmondo.com/public/Bollettino_S.Ubaldo_giu_2022.pdf)；src-5a5f9367dd38b76b；interior guide, panel for the five naves: ‘Pala del Voto, nella cappella votiva’ |
 
 ### 相关身份与外部链接
 

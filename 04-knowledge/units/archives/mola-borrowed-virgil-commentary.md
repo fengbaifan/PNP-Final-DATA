@@ -61,4 +61,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其借入／借阅（`borrowed_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | Mola 借阅的带注释 Virgil 文本，不指定某部作品或版本；角色：借阅者；范围：带注释的Virgil文本；作品及版本未定；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–316; print pp. 9 |
+| → 由其借入／借阅（`borrowed_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | Mola 借阅的带注释 Virgil 文本，不指定某部作品或版本；角色：借阅者；范围：带注释的Virgil文本；作品及版本未定；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 312–316; print pp. 9 |

@@ -57,4 +57,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 所涉对象（`has_subject`） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |

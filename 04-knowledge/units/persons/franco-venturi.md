@@ -120,11 +120,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 受雇于（`employed_by`） | [都灵大学（University of Turin）](../institutions/university-of-turin.md) | 时间：1958年后至1984；角色：近代史教席；范围：Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1914-05-16；角色：出生；范围：出生地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
-| → 位于（`located_at`） | [都灵（Turin）](../places/turin.md) | 时间：1994-12-14；角色：去世；范围：去世地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
-| ← teacher_of（`teacher_of`，反向投影） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](gianfranco-torcellan.md) | 角色：学术培养者；范围：学术传记称Torcellan在都灵受Venturi学派培养；不推定学位或正式任职；原断言见发出端人物卡S5，具体印刷页待核 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 受雇于（`employed_by`） | [都灵大学（University of Turin）](../institutions/university-of-turin.md) | 时间：1958年后至1984；角色：近代史教席；范围：Genova1955–1958任教后转任Torino；后来荣休不扩大教席任期；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；src-d6efb167d1e1fcf8；导言与完整La vita段；后续专题段本轮未全读 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1914-05-16；角色：出生；范围：出生地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；src-d6efb167d1e1fcf8；导言与完整La vita段；后续专题段本轮未全读 |
+| → 位于（`located_at`） | [都灵（Turin）](../places/turin.md) | 时间：1994-12-14；角色：去世；范围：去世地；证据：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；src-d6efb167d1e1fcf8；导言与完整La vita段；后续专题段本轮未全读 |
+| ← 教师（`teacher_of`，反向投影） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](gianfranco-torcellan.md) | 角色：学术培养者；范围：二手学术传记称Torcellan在都灵受Franco Venturi学派培养；不推定学位、具体课程或任教关系；原断言与证据见发出端卡片“詹弗兰科·托尔切兰（Gianfranco Torcellan）”：[来源](https://www.openstarts.units.it/bitstream/10077/15487/1/Riviste-storiche-full-text.pdf)；src-016b2d8ee85cc50c；传记段；具体印刷页未核定，文章范围pp.132-182 |
 
 ### 关系候选入口
 

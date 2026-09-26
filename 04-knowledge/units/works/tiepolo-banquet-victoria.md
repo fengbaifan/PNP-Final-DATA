@@ -149,11 +149,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](tiepolo-banquet-cognacq-jay.md) | 时间：1742–1743；角色：预备版本；范围：馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Commentaire historique |
-| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版61b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1743–1744；角色：画家；范围：103-4墨尔本藏本，区别巴黎J 104；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；题头及Accession Number |
-| → 由其保管（`held_by`） | [维多利亚国家美术馆（National Gallery of Victoria）](../institutions/national-gallery-of-victoria.md) | 角色：保管机构；范围：103-4馆藏；具体馆内展室随目录时点，不作所有年代定位；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；Credit Line、Gallery location、Accession Number |
-| → 由其取得（`acquired_by`） | [维多利亚国家美术馆（National Gallery of Victoria）](../institutions/national-gallery-of-victoria.md) | 时间：1933；角色：取得机构；范围：103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；Credit Line及Frame：acquired by the National Gallery of Victoria in 1933 |
+| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](tiepolo-banquet-cognacq-jay.md) | 时间：1742–1743；角色：预备版本；范围：馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Commentaire historique |
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版61b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 168–169; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1743–1744；角色：画家；范围：103-4墨尔本藏本，区别巴黎J 104；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；src-3e2fa9e50de73317；题头及Accession Number |
+| → 由其保管（`held_by`） | [维多利亚国家美术馆（National Gallery of Victoria）](../institutions/national-gallery-of-victoria.md) | 角色：保管机构；范围：103-4馆藏；具体馆内展室随目录时点，不作所有年代定位；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；src-3e2fa9e50de73317；Credit Line、Gallery location、Accession Number |
+| → 由其取得（`acquired_by`） | [维多利亚国家美术馆（National Gallery of Victoria）](../institutions/national-gallery-of-victoria.md) | 时间：1933；角色：取得机构；范围：103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画；证据：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；src-3e2fa9e50de73317；Credit Line及Frame：acquired by the National Gallery of Victoria in 1933 |
 
 ### 关系候选入口
 

@@ -116,9 +116,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [胡塞佩·德·里贝拉（Jusepe de Ribera）](../persons/ribera.md) | 时间：1626；角色：画家；范围：ICCD1500626054／Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；works-ribera-the-drunken-silenus；作者与断代字段 |
-| → 由其保管（`held_by`） | [卡波迪蒙特博物馆（Museo di Capodimonte）](../institutions/museo-di-capodimonte.md) | 角色：所引馆藏记录保管机构；范围：Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；works-ribera-the-drunken-silenus；库存及定位字段 |
-| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版32a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 92–92; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [胡塞佩·德·里贝拉（Jusepe de Ribera）](../persons/ribera.md) | 时间：1626；角色：画家；范围：ICCD1500626054／Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；src-f422deec776aa514；作者与断代字段 |
+| → 由其保管（`held_by`） | [卡波迪蒙特博物馆（Museo di Capodimonte）](../institutions/museo-di-capodimonte.md) | 角色：所引馆藏记录保管机构；范围：Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；src-f422deec776aa514；库存及定位字段 |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版32a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 92–92; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

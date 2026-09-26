@@ -99,7 +99,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所涉建筑（`owner_of`，反向投影） | [洛雷丹别墅（Villa Loredan, Paese）](../places/villa-loredan-paese.md) | National Gallery称其为Strange在Paese的乡间住宅；来源未给产权起止或转移日期；原断言及依据见发出端地点卡（S5） |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [洛雷丹别墅（Villa Loredan, Paese）](../places/villa-loredan-paese.md) | 角色：历史所有人；范围：National Gallery所记Strange在Paese的乡间住宅；未给产权取得、转移或终止日期；原断言与证据见发出端卡片“洛雷丹别墅（Villa Loredan, Paese）”：[来源](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)；src-a0c3955754a07226；lines 104–105 |
 
 ### 关系候选入口
 

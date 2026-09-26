@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [弗朗切斯科·法内利（Francesco Fanelli）](../persons/francesco-fanelli.md) | 时间：1605–1630；角色：作坊活动城市；范围：家庭作坊；原断言与证据见发出端卡片“弗朗切斯科·法内利（Francesco Fanelli）”：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| ← 所在地（`location_of`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 时间：1621；角色：迁入工作城市；范围：生涯转折，邀请者另待补；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；persons-orazio-gentileschi；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
+| ← 所在地（`location_of`，反向投影） | [弗朗切斯科·法内利（Francesco Fanelli）](../persons/francesco-fanelli.md) | 时间：1605–1630；角色：作坊活动城市；范围：家庭作坊；原断言与证据见发出端卡片“弗朗切斯科·法内利（Francesco Fanelli）”：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| ← 所在地（`location_of`，反向投影） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 时间：1621；角色：迁入工作城市；范围：生涯转折，邀请者另待补；原断言与证据见发出端卡片“奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）”：[来源](https://www.nationalgallery.org.uk/artists/orazio-gentileschi)；src-5c3ed9bb3c020370；生于Pisa、子女训练、Caravaggio影响与分期生涯段 |
 
 ### 身份与外部链接
 

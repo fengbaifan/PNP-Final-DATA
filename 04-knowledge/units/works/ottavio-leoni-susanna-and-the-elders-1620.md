@@ -115,5 +115,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | DIA将Leoni列为作者；DBI称其为唯一署名绘画；Zeri依据签名归属。时间异文见基本信息；S1–S3 |
-| → 保管（`held_by`） | [底特律艺术学院（Detroit Institute of Arts）](../institutions/detroit-institute-of-arts.md) | 馆藏号41.89；馆方流传记录称1941年购入；保管关系不单独证明当前法律产权；S2 |
+| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：约1616–1620；DIA标约1620，Zeri目录另标约1610–1615；角色：馆藏记录列明的创作者；Zeri以签名为归属依据；范围：Detroit Institute of Arts对象41.89；保留Zeri所载文献归属史；证据：[来源](https://dia.org/collection/susanna-and-elders/52211)；src-cf55d5621e9f7106；Artist、Markings；对象41.89 |
+| → 由其保管（`held_by`） | [底特律艺术学院（Detroit Institute of Arts）](../institutions/detroit-institute-of-arts.md) | 时间：1941年至馆藏记录访问日（2026-09-25）；角色：当前保管机构；范围：1941年由Detroit Institute of Arts购入并列为馆藏；此边记录保管，不延伸到更早产权；证据：[来源](https://dia.org/collection/susanna-and-elders/52211)；src-cf55d5621e9f7106；Accession Number、Provenance；对象41.89 |

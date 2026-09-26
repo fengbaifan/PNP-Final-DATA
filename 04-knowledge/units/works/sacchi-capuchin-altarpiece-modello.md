@@ -76,7 +76,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）](../archives/colnaghi-catalogue-1961.md) | 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品；原断言与证据见发出端卡片“科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-| → 创作者（`created_by`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-| → 由其收藏／拥有（`owned_by`） | [丹尼斯·马洪（Denis Mahon）](../persons/denis-mahon.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
-| → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| → 创作者（`created_by`） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 脚注明确 Sacchi 的祭坛画 modello；OCR Sacelli 依语境纠正；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
+| → 由其收藏／拥有（`owned_by`） | [丹尼斯·马洪（Denis Mahon）](../persons/denis-mahon.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
+| → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 1961 年 5–6 月目录号 2 所涉画商经手记录；时间：1961-05–1961-06；角色：画商／目录经手机构；范围：Colnaghi目录第2号所涉经手记录；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）](../archives/colnaghi-catalogue-1961.md) | 本章以目录第 2 号定位 Sacchi 稿本；目录为文献，稿本为作品；原断言与证据见发出端卡片“科尔纳吉图录（1961 年 5–6 月，第 2 号）（Colnaghi Catalogue (May–June 1961, no. 2)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |

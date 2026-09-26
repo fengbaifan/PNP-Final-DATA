@@ -64,5 +64,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：出版机构；范围：1642年罗马版出版项；不把机构名称扩写成特定自然人；原断言与证据见发出端卡片“奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）”：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Publisher、Published in、Date |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1642；角色：出版活动地；范围：1642版出版项所载出版活动地点，不推定全时段地址；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Publisher、Published in、Date |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1642；角色：出版活动地；范围：1642版出版项所载出版活动地点，不推定全时段地址；证据：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Publisher、Published in、Date |
+| ← publisher_of（`publisher_of`，反向投影） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：出版机构；范围：1642年罗马版出版项；不把机构名称扩写成特定自然人；原断言与证据见发出端卡片“奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）”：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Publisher、Published in、Date |

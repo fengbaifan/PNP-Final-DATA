@@ -49,3 +49,7 @@ relations: []
 本卡只作为明确国家购藏关系的端点。其与意大利地理区域、1861–1946年意大利王国分别登记。
 
 ### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 取得者（`acquirer_of`，反向投影） | [马费奥·巴贝里尼肖像（Maffeo Barberini）](../works/caravaggio-maffeo-barberini.md) | 时间：2026-03；角色：国家购藏者；范围：2026年购藏公告记载购买契约已签署，价格为3000万欧元；参议院后续页面仍称最终移交尚待完成，不推断当前展出或实际保管地点；原断言与证据见发出端卡片“马费奥·巴贝里尼肖像（Maffeo Barberini）”：[来源](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；src-b2e3c7c7f495a7ad；purchase deed and acquisition paragraphs; corroborated by Senato exhibition page |

@@ -122,8 +122,8 @@ S1，第4页L68–70：西斯笃五世死后，其亲属枢机仍受尊重并雇
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 亲缘（`kin_of`） | [西斯笃五世（Sixtus V）](sixtus-v.md) | 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位；角色：侄辈；范围：第一章明确的亲缘称谓；不据此补造父母链；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 68–70; print pp. 4 |
-| → 隶属／任职于（`member_of`） | [佩雷蒂家族（Peretti Family）](../families/peretti-family.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；证据：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；dbi-peretti-damasceni；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
+| → 亲缘（`kin_of`） | [西斯笃五世（Sixtus V）](sixtus-v.md) | 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位；角色：侄辈；范围：第一章明确的亲缘称谓；不据此补造父母链；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 68–70; print pp. 4 |
+| → 隶属／任职于（`member_of`） | [佩雷蒂家族（Peretti Family）](../families/peretti-family.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；证据：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；src-8ebc5e1cc39b73bc；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
 
 ### 身份与外部链接
 

@@ -54,4 +54,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 条款规定该委托对象的题材，不证明实际完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 326–328; print pp. 9 |
+| → 所涉对象（`has_subject`） | [里奇 1682 年《施洗者约翰斩首》委托（Ricci’s Beheading of Saint John the Baptist commission (1682)）](../works/ricci-beheading-john-baptist-1682.md) | 条款规定该委托对象的题材，不证明实际完成；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 326–328; print pp. 9 |

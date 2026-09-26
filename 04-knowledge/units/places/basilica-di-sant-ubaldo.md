@@ -84,8 +84,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [古比奥（Gubbio）](gubbio.md) | 地点关系；意大利语页面导言及Q3635744身份配对确认对应对象；不延伸为历史管辖或所有权；S3–S4 |
-| ← 安置于此（`location_of`，反向投影） | [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 2022年圣殿指南明列其在还愿小堂；关系的原断言及位置范围见作品卡；不推定首次安置时间 |
+| → 位于（`located_at`） | [古比奥（Gubbio）](gubbio.md) | 角色：basilica location；范围：The basilica is located at Gubbio; this does not assert historical jurisdiction or ownership.；证据：[来源](https://it.wikipedia.org/wiki/Basilica_di_Sant'Ubaldo)；src-3944083951c1832a；lead: located at Gubbio, on Monte Ingino |
+| ← 所在地（`location_of`，反向投影） | [《还愿祭坛画》（Pala del Voto）](../works/salvio-savini-pala-del-voto.md) | 时间：2022 leaflet's stated location；角色：displayed within the votive chapel；范围：The guide locates the painting in Cappella del Voto; this does not establish its original installation date or ownership.；原断言与证据见发出端卡片“《还愿祭坛画》（Pala del Voto）”：[来源](https://www.eugubininelmondo.com/public/Bollettino_S.Ubaldo_giu_2022.pdf)；src-5a5f9367dd38b76b；interior guide, panel for the five naves: ‘Pala del Voto, nella cappella votiva’ |
 
 ### 身份与外部链接
 

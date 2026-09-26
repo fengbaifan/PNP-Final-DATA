@@ -66,5 +66,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#berna
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../persons/bernardin-baldoino.md) | Thevenon将其列入Bernardin作品；时间1670；S1 |
-| → 预定接受对象（`intended_for`） | [尼斯黑衣忏悔者团体（Pénitents Noirs de Nice）](../institutions/black-penitents-of-nice.md) | 作品于罗马为该团体制作；不把用途扩写为已发现合同；S1 |
+| → 创作者（`created_by`） | [贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../persons/bernardin-baldoino.md) | 时间：1670；角色：创作者；范围：Thevenon记该画为Bernardin作品并称其在罗马为尼斯黑衣忏悔者制作；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 296–299,316–317 |
+| → 拟用于（`intended_for`） | [尼斯黑衣忏悔者团体（Pénitents Noirs de Nice）](../institutions/black-penitents-of-nice.md) | 时间：1670；角色：制作服务对象；范围：原文称作品为Pénitents Noirs de Nice制作；未提供合同，不据此称为合同委托方；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 296–299,316–317 |

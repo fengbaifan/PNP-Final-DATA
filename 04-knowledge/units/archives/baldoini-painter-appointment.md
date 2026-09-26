@@ -71,5 +71,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
-| → 由其发布（`issued_by`） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](../persons/maurizio-di-savoia.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
+| → 所涉对象（`has_subject`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | 任命文书中的受任人；日期未知；角色：受任画家；范围：任为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 188–189; print pp. 6 |
+| → 由其发布（`issued_by`） | [毛里齐奥·迪·萨伏依（Maurizio di Savoia）](../persons/maurizio-di-savoia.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 173–175,188–189; print pp. 6 |

@@ -106,10 +106,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：约1652；角色：素描作者；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Maker、Dates |
-| → 作为预备模型／样稿（`model_for`） | [雷古鲁斯之死（The Death of Regulus）](salvator-rosa-the-death-of-regulus.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；作品说明：preliminary sketch for The Death of Regulus |
-| → 由其保管（`held_by`） | [普林斯顿大学艺术博物馆（Princeton University Art Museum）](../institutions/princeton-university-art-museum.md) | 时间：来源访问时点2026-09-15；角色：当前保管机构；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Object Number x1948-610及Citation |
-| → 由其贡献（`contributed_by`） | [丹·费洛斯·普拉特（Dan Fellows Platt）](../persons/dan-fellows-platt.md) | 角色：遗赠者；范围：x1948-610准备稿的遗赠来源，未载生效日期；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Credit Line: Bequest of Dan Fellows Platt |
+| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：约1652；角色：素描作者；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；Maker、Dates |
+| → 作为预备模型／样稿（`model_for`） | [雷古鲁斯之死（The Death of Regulus）](salvator-rosa-the-death-of-regulus.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；作品说明：preliminary sketch for The Death of Regulus |
+| → 由其保管（`held_by`） | [普林斯顿大学艺术博物馆（Princeton University Art Museum）](../institutions/princeton-university-art-museum.md) | 时间：来源访问时点2026-09-15；角色：当前保管机构；范围：x1948-610单件准备稿；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；Object Number x1948-610及Citation |
+| → 由其贡献（`contributed_by`） | [丹·费洛斯·普拉特（Dan Fellows Platt）](../persons/dan-fellows-platt.md) | 角色：遗赠者；范围：x1948-610准备稿的遗赠来源，未载生效日期；证据：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；Credit Line: Bequest of Dan Fellows Platt |
 
 ### 关系候选入口
 

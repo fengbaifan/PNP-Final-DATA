@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 取得者（`acquirer_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 时间：1653；角色：受赠者；范围：Palatina82；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)；works-van-dyck-cardinal-bentivoglio；Informazioni sull’opera：1653赠送 |
+| ← 取得者（`acquirer_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 时间：1653；角色：受赠者；范围：Palatina82；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)；src-36e508bc620bf581；Informazioni sull’opera：1653赠送 |
 
 ### 关系候选入口
 

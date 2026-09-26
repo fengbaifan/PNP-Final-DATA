@@ -49,7 +49,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：墓设计者；范围：墓本体；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-tomb-of-francesco-algarotti；作品说明：Tesi设计 |
+| ← 所创作对象（`creator_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](../works/tomb-of-francesco-algarotti.md) | 角色：墓设计者；范围：墓本体；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）”：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；作品说明：Tesi设计 |
 
 ### 关系候选入口
 

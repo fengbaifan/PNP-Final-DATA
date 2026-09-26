@@ -60,5 +60,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [罗马新教堂（Chiesa Nuova, Rome）](../places/chiesa-nuova.md) | 委托指定的教堂场所；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
-| → 创作者（`created_by`） | [鲁本斯（Rubens）](../persons/peter-paul-rubens.md) | 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 402–404; print pp. 11 |
+| → 位于（`located_at`） | [罗马新教堂（Chiesa Nuova, Rome）](../places/chiesa-nuova.md) | 委托指定的教堂场所；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 402–404; print pp. 11 |
+| → 创作者（`created_by`） | [彼得·保罗·鲁本斯（Peter Paul Rubens）](../persons/peter-paul-rubens.md) | 1606年鲁本斯承担新教堂祭坛画，并在正式接受前展示作品；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 402–404; print pp. 11 |

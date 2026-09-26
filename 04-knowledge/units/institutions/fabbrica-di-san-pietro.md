@@ -72,7 +72,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；dbi-lanfranco；本卡 S2；1640-07-14 请求段 |
+| ← 参与事件（`participated_in`，反向投影） | [兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）](../events/lanfranco-leo-attila-request-1640.md) | 申请针对圣彼得工程管理机构会议所处理的祭坛画项目；只证明申请关系；时间：1640-07-14；角色：处理申请所涉工程的机构；范围：申请关系；不表示机构授予委托；原断言与证据见发出端卡片“兰弗兰科申请《教皇利奥与阿提拉》委托（1640）（Lanfranco's Request for the Pope Leo and Attila Commission (1640)）”：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；本卡 S2；1640-07-14 请求段 |
 
 ### 身份与外部链接
 

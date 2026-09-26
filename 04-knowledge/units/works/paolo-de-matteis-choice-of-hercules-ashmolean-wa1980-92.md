@@ -128,9 +128,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：委托原作创作者；范围：1712；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 52–55 |
-| → 由其委托（`commissioned_by`） | [安东尼·阿什利-库珀，第三代沙夫茨伯里伯爵（Anthony Ashley-Cooper, 3rd Earl of Shaftesbury）](../persons/anthony-ashley-cooper-3rd-earl.md) | 角色：原作委托者；范围：约1712；证据：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；description paragraphs 1–2 |
-| → 位于（`located_at`） | [阿什莫林博物馆（Ashmolean Museum）](../institutions/ashmolean-museum.md) | 角色：当前馆藏机构；范围：馆方网页，2026-09-25访问；证据：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；additional information |
-| → 位于（`located_at`） | [牛津（Oxford）](../places/oxford.md) | 角色：当前馆藏城市；范围：馆方网页，2026-09-25访问；证据：[来源](https://ashmoleanprints.com/products/pod439947)；ashmolean-museum-the-choice-of-hercules；additional information |
-| → 位于（`located_at`） | [吉尔斯宅邸（多塞特）（Gile’s House (Dorset)）](../places/giles-house-dorset.md) | 不等同委托地点；当前阿什莫林收藏另列；角色：DBI列示的原作地点；范围：DBI原作记载；具体安置时间未载；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 52–54 |
+| → 创作者（`created_by`） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：委托原作创作者；范围：1712；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 52–55 |
+| → 由其委托（`commissioned_by`） | [安东尼·阿什利-库珀，第三代沙夫茨伯里伯爵（Anthony Ashley-Cooper, 3rd Earl of Shaftesbury）](../persons/anthony-ashley-cooper-3rd-earl.md) | 角色：原作委托者；范围：约1712；证据：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；description paragraphs 1–2 |
+| → 位于（`located_at`） | [阿什莫林博物馆（Ashmolean Museum）](../institutions/ashmolean-museum.md) | 角色：当前馆藏机构；范围：馆方网页，2026-09-25访问；证据：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；additional information |
+| → 位于（`located_at`） | [牛津（Oxford）](../places/oxford.md) | 角色：当前馆藏城市；范围：馆方网页，2026-09-25访问；证据：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；additional information |
+| → 位于（`located_at`） | [吉尔斯宅邸（多塞特）（Gile’s House (Dorset)）](../places/giles-house-dorset.md) | 不等同委托地点；当前阿什莫林收藏另列；角色：DBI列示的原作地点；范围：DBI原作记载；具体安置时间未载；证据：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 52–54 |
 版本间关系及明确创作、委托和馆藏关系由关系展示记录。

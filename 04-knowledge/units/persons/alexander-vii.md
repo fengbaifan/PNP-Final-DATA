@@ -56,7 +56,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | 角色：画中肖像的对象；范围：莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇；原断言与证据见发出端卡片“莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）”：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；works-agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii；Description |
+| ← 为其所涉对象（`subject_of`，反向投影） | [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | 角色：画中肖像的对象；范围：莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇；原断言与证据见发出端卡片“莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）”：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；src-7da5e332d8aac6d6；Description |
 
 ### 身份与外部链接
 

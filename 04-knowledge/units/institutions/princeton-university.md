@@ -54,5 +54,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [普林斯顿大学艺术博物馆（Princeton University Art Museum）](princeton-university-art-museum.md) | 时间：来源访问时点2026-09-15；角色：所属大学；范围：大学所属艺术博物馆；不等同艺术与考古学系；原断言与证据见发出端卡片“普林斯顿大学艺术博物馆（Princeton University Art Museum）”：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；institutions-princeton-university-art-museum；Director’s Welcome：university museum and teaching/research missions |
-| → 位于（`located_at`） | [普林斯顿（Princeton, New Jersey）](../places/princeton-new-jersey.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：大学主校区所在城镇；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；institutions-princeton-university；Director’s Welcome：at the heart of Princeton University in Princeton,New Jersey |
+| ← 包含成员（`contains`，反向投影） | [普林斯顿大学艺术博物馆（Princeton University Art Museum）](princeton-university-art-museum.md) | 时间：来源访问时点2026-09-15；角色：所属大学；范围：大学所属艺术博物馆；不等同艺术与考古学系；原断言与证据见发出端卡片“普林斯顿大学艺术博物馆（Princeton University Art Museum）”：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；src-741620917dd667ee；Director’s Welcome：university museum and teaching/research missions |
+| → 位于（`located_at`） | [普林斯顿（Princeton, New Jersey）](../places/princeton-new-jersey.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：大学主校区所在城镇；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；src-741620917dd667ee；Director’s Welcome：at the heart of Princeton University in Princeton,New Jersey |

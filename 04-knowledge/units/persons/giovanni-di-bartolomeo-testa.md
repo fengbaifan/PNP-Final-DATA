@@ -49,4 +49,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← parent_of（`parent_of`，反向投影） | [皮埃特罗·泰斯塔（Pietro Testa）](pietro-testa.md) | 角色：儿子；范围：父亲身份与职业；原断言与证据见发出端卡片“皮埃特罗·泰斯塔（Pietro Testa）”：[来源](https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/)；silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019；lines 23–24 |
+| ← parent_of（`parent_of`，反向投影） | [皮埃特罗·泰斯塔（Pietro Testa）](pietro-testa.md) | 角色：儿子；范围：父亲身份与职业；原断言与证据见发出端卡片“皮埃特罗·泰斯塔（Pietro Testa）”：[来源](https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/)；src-d65ee15682f2df92；lines 23–24 |

@@ -85,4 +85,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
+| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 373–375; print pp. 10 |

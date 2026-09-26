@@ -71,9 +71,12 @@ def requires_inverse(relation):
 
 def has_direct_relation_evidence(relation):
     """The relation contract accepts evidence text, evidence_ref, or claim_id."""
+    evidence_ref = relation.get("evidence_ref")
+    if isinstance(evidence_ref, dict):
+        evidence_ref = any(value not in (None, "", [], {}) for value in evidence_ref.values())
     return bool(
         relation.get("evidence")
-        or relation.get("evidence_ref")
+        or evidence_ref
         or relation.get("claim_id")
     )
 
@@ -83,7 +86,7 @@ def load_jsonl(path):
         return []
     return [
         json.loads(line)
-        for line in path.read_text(encoding="utf-8").splitlines()
+        for line in path.read_text(encoding="utf-8-sig").splitlines()
         if line.strip()
     ]
 

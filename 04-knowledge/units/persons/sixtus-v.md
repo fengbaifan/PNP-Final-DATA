@@ -117,8 +117,8 @@ S1：p.4，L68–69，蒙塔尔托与教皇的亲属背景。S2：p.16，L647–
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 亲缘（`kin_of`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](alessandro-peretti-montalto.md) | 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位；角色：侄辈；范围：第一章明确的亲缘称谓；不据此补造父母链；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 68–70; print pp. 4 |
-| → 隶属／任职于（`member_of`） | [佩雷蒂家族（Peretti Family）](../families/peretti-family.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；证据：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；peretti-family-wikipedia-it；佩雷蒂家族卡 S4；Storia 与谱系表 |
+| ← 亲缘（`kin_of`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](alessandro-peretti-montalto.md) | 原文明确 Peretti-Montalto 是 Sixtus V 的侄辈，教皇去世后仍有赞助地位；角色：侄辈；范围：第一章明确的亲缘称谓；不据此补造父母链；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 68–70; print pp. 4 |
+| → 隶属／任职于（`member_of`） | [佩雷蒂家族（Peretti Family）](../families/peretti-family.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；证据：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；src-cc313278d7dde884；佩雷蒂家族卡 S4；Storia 与谱系表 |
 
 ### 身份与外部链接
 

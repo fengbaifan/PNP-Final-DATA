@@ -102,7 +102,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](giovanni-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](giovanni-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
 
 ### 身份与外部链接
 

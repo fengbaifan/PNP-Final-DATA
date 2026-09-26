@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）](../institutions/wallraf-richartz-museum.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：馆方联系地址；不以此说明作品产权；原断言与证据见发出端卡片“瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）”：[来源](https://www.wallraf.museum/en/the-museum/contact/contact/)；institutions-wallraf-richartz-museum；完整联系页机构名称与地址字段 |
+| ← 所在地（`location_of`，反向投影） | [瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）](../institutions/wallraf-richartz-museum.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：馆方联系地址；不以此说明作品产权；原断言与证据见发出端卡片“瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）”：[来源](https://www.wallraf.museum/en/the-museum/contact/contact/)；src-207a2a61e7380482；完整联系页机构名称与地址字段 |
 
 ### 关系候选入口
 

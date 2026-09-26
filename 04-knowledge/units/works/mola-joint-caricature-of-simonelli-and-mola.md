@@ -128,11 +128,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；patrons-and-painters；lines 90–91; print p.401 |
-| → 所涉对象（`has_subject`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 150–151; 章前：图版目录；印刷页xvi |
-| → 创作者（`created_by`） | [尼科洛·西莫内利（Niccolò Simonelli）](../persons/simonelli.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；patrons-and-painters；lines 90–91; print p.401 |
-| → 所涉对象（`has_subject`） | [尼科洛·西莫内利（Niccolò Simonelli）](../persons/simonelli.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 150–151; 章前：图版目录；印刷页xvi |
-| → 由其收藏／拥有（`owned_by`） | [维塔莱·布洛赫（Vitale Bloch）](../persons/vitale-bloch.md) | 时间：原书所记旧藏时期，具体起止未载；角色：旧藏者；范围：原书formerly Vitale Bloch collection；不是当前所有权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 150–151; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；lines 90–91; print p.401 |
+| → 所涉对象（`has_subject`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 150–151; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [尼科洛·西莫内利（Niccolò Simonelli）](../persons/simonelli.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；lines 90–91; print p.401 |
+| → 所涉对象（`has_subject`） | [尼科洛·西莫内利（Niccolò Simonelli）](../persons/simonelli.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 150–151; 章前：图版目录；印刷页xvi |
+| → 由其收藏／拥有（`owned_by`） | [维塔莱·布洛赫（Vitale Bloch）](../persons/vitale-bloch.md) | 时间：原书所记旧藏时期，具体起止未载；角色：旧藏者；范围：原书formerly Vitale Bloch collection；不是当前所有权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 150–151; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

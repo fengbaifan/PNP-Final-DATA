@@ -44,4 +44,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [阿贾蒂学会（Accademia degli Agiati）](../institutions/accademia-degli-agiati.md) | 时间：18世纪语境；角色：机构所在城市；范围：研究中的学会所在城市；不推定具体建筑地址；原断言与证据见发出端卡片“阿贾蒂学会（Accademia degli Agiati）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.58第2节；PDF第8页 |
+| ← 所在地（`location_of`，反向投影） | [阿贾蒂学会（Accademia degli Agiati）](../institutions/accademia-degli-agiati.md) | 时间：18世纪语境；角色：机构所在城市；范围：研究中的学会所在城市；不推定具体建筑地址；原断言与证据见发出端卡片“阿贾蒂学会（Accademia degli Agiati）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.58第2节；PDF第8页 |

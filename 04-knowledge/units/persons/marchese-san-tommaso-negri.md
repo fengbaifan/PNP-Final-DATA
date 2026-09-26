@@ -52,4 +52,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为收信人（`addressee_of`，反向投影） | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../archives/negri-san-tommaso-letter-1676.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；原断言与证据见发出端卡片“保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
+| ← 为收信人（`addressee_of`，反向投影） | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../archives/negri-san-tommaso-letter-1676.md) | 书信收信人；1676-12-24；引述画家气质的观念；时间：1676-12-24；角色：收信人；范围：引述画家气质观念的书信；原断言与证据见发出端卡片“保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 889–900; print pp. 21 |

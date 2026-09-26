@@ -77,8 +77,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Medusa Murtola归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。；证据：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 为其版本／复制（`variant_of`） | [《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）](caravaggio-medusa-uffizi.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。；证据：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；variant-of-works-caravaggio-medusa-uffizi-md；本卡S2；版本段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Medusa Murtola归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。；证据：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；src-eb25f5ab0127163b；本卡S2；有S4时并参对象字段 |
+| → 为其版本／复制（`variant_of`） | [《美杜莎》（乌菲齐版本）（Medusa (Uffizi version)）](caravaggio-medusa-uffizi.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：较小的早期版本；不使用乌菲齐对象QID、尺寸或馆藏。；证据：[来源](https://en.wikipedia.org/wiki/Medusa_(Caravaggio))；src-eb25f5ab0127163b；本卡S2；版本段 |
 
 ### 身份与外部链接
 

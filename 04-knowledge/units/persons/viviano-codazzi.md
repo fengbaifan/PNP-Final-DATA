@@ -78,7 +78,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 朋友（`friend_of`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](michelangelo-cerquozzi.md) | 角色：朋友；范围：馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；works-michelangelo-cerquozzi-the-revolt-of-masaniello；作品说明：amico pittore Viviano Codazzi |
+| → 朋友（`friend_of`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](michelangelo-cerquozzi.md) | 角色：朋友；范围：馆方叙述中明确amico pittore，并称其提供起义见闻；不由此认定本件具体绘制分工已无争议；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；src-88defb079473d30b；作品说明：amico pittore Viviano Codazzi |
 
 ### 身份与外部链接
 

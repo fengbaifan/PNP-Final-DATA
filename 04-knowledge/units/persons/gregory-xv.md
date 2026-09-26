@@ -189,10 +189,12 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–691; print pp. 17 |
-| → 亲缘（`kin_of`） | [Orazio Ludovisi](orazio-ludovisi.md) | 兄弟；Treccani《意大利人传记辞典》称Orazio为Alessandro Ludovisi之兄弟；来源：S8，family section |
-| → 亲缘（`kin_of`） | [Ludovico Ludovisi（枢机）](ludovico-ludovisi.md) | 侄子；与同名兄长区分；来源：S8，family section；第一章亦记其为“Pope’s nephew” |
-| → 亲缘（`kin_of`） | [Niccolò Ludovisi](niccolo-ludovisi.md) | 侄子；为Orazio之子；来源：S8，family section |
+| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1621 年确认学院章程；时间：1621；角色：章程确认者；范围：确认学院章程；具体文本版本未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 690–691; print pp. 17 |
+| → 亲缘（`kin_of`） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | Orazio 是 Alessandro Ludovisi（Gregory XV）的兄弟；角色：兄弟；范围：Alessandro Ludovisi 与 Orazio Ludovisi 的亲缘关系；证据：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraph beginning ‘Nel marzo del 1621’ |
+| → 亲缘（`kin_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | Ludovico 是 Gregory XV 的侄子；与同名兄长 Ludovico 区分；角色：叔侄；Gregory XV 为叔父；范围：Cardinal Ludovico Ludovisi, son of Orazio; distinct from Gregory XV’s elder brother Ludovico；证据：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraphs beginning ‘Immediatamente dopo la sua elezione’ and ‘A Orazio’ |
+| → 亲缘（`kin_of`） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | Niccolò 是 Gregory XV 的侄子；与后世同名枢机 Niccolò Albergati-Ludovisi 区分；角色：叔侄；Gregory XV 为叔父；范围：Niccolò Ludovisi, son of Orazio and brother of Cardinal Ludovico；证据：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraphs beginning ‘Nel marzo del 1621’ and ‘A Orazio’ |
+| ← 为其所涉对象（`subject_of`，反向投影） | [格列高利十五世肖像（万神殿Virtuosi学院本，1628–1630）（Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630）](../works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：肖像对象；范围：学院委托的布面复制品；描绘Gregory XV Ludovisi；原断言与证据见发出端卡片“格列高利十五世肖像（万神殿Virtuosi学院本，1628–1630）（Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）](../works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md) | 时间：约1621年；角色：肖像对象；范围：教皇Gregory XV Ludovisi；原作已佚；原断言与证据见发出端卡片“格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
 
 ### 身份与外部链接
 

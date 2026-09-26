@@ -63,8 +63,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 角色：保管机构；范围：103-4馆藏；具体馆内展室随目录时点，不作所有年代定位；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；Credit Line、Gallery location、Accession Number |
-| ← 取得者（`acquirer_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 时间：1933；角色：取得机构；范围：103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；works-tiepolo-banquet-victoria；Credit Line及Frame：acquired by the National Gallery of Victoria in 1933 |
+| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 角色：保管机构；范围：103-4馆藏；具体馆内展室随目录时点，不作所有年代定位；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；src-3e2fa9e50de73317；Credit Line、Gallery location、Accession Number |
+| ← 取得者（`acquirer_of`，反向投影） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](../works/tiepolo-banquet-victoria.md) | 时间：1933；角色：取得机构；范围：103-4于1933取得；Felton Bequest为资金／收藏来源署名，不推定Felton本人当年直接赠画；原断言与证据见发出端卡片“克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）”：[来源](https://www.ngv.vic.gov.au/explore/collection/work/4409/)；src-3e2fa9e50de73317；Credit Line及Frame：acquired by the National Gallery of Victoria in 1933 |
 
 ### 关系候选入口
 

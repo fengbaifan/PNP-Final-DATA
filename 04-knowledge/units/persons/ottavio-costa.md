@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 来源明确该端点承担Judith Beheading Holofernes (Palazzo Barberini version)的委托角色；不由委托推定当前所有权；时间：约1599–1602；角色：委托人／委托机构；范围：与2014年在图卢兹发现的争议对象分开。；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；commissioned-by-persons-ottavio-costa-md；本卡S2；有S4时并参委托／历史段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 来源明确该端点承担Judith Beheading Holofernes (Palazzo Barberini version)的委托角色；不由委托推定当前所有权；时间：约1599–1602；角色：委托人／委托机构；范围：与2014年在图卢兹发现的争议对象分开。；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；src-b49484843a38d61f；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

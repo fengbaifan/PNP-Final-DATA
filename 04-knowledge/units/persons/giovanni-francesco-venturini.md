@@ -66,4 +66,4 @@ relations: []
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 创作者（`creator_of`，反向投影） | [狄安娜与仙女的射箭比赛版画](../works/venturini-diana-hunting-print.md) | 角色：版画家；证据：S4 |
+| ← 所创作对象（`creator_of`，反向投影） | [狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）](../works/venturini-diana-hunting-print.md) | 时间：1660–约1710（馆藏目录断代）；角色：蚀刻与雕版者；馆藏记录标为mentioned on object；原断言与证据见发出端卡片“狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）”：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；Creation: printmaker |

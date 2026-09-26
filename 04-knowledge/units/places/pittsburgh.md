@@ -41,4 +41,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [匹兹堡大学（University of Pittsburgh）](../institutions/university-of-pittsburgh.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；原断言与证据见发出端卡片“匹兹堡大学（University of Pittsburgh）”：[来源](https://www.english.pitt.edu/history-department/1787/1787-1819-overview)；institutions-university-of-pittsburgh；Department of English院系页脚Pittsburgh,PA |
+| ← 所在地（`location_of`，反向投影） | [匹兹堡大学（University of Pittsburgh）](../institutions/university-of-pittsburgh.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；原断言与证据见发出端卡片“匹兹堡大学（University of Pittsburgh）”：[来源](https://www.english.pitt.edu/history-department/1787/1787-1819-overview)；src-5b65fa4e919f2047；Department of English院系页脚Pittsburgh,PA |

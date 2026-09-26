@@ -77,8 +77,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.london.ac.uk/about/who-we-are)；institutions-university-of-london；Although proudly rooted in London |
-| ← 包含成员（`contains`，反向投影） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 时间：1944起；角色：大学所属研究所；范围：1944年起成为伦敦大学组成机构；图书馆另设KU；原断言与证据见发出端卡片“瓦尔堡研究院（Warburg Institute）”：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；institutions-warburg-institute；首段及The Move to London的1944段 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.london.ac.uk/about/who-we-are)；src-2c2a02f32b2575ad；Although proudly rooted in London |
+| ← 包含成员（`contains`，反向投影） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 时间：1944起；角色：大学所属研究所；范围：1944年起成为伦敦大学组成机构；图书馆另设KU；原断言与证据见发出端卡片“瓦尔堡研究院（Warburg Institute）”：[来源](https://warburg.sas.ac.uk/about-us/history-warburg-institute)；src-5488d2d1a67dd21f；首段及The Move to London的1944段 |
 
 ### 关系候选入口
 

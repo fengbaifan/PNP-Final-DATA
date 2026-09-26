@@ -62,4 +62,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配偶（`spouse_of`，反向投影） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](ernest-cognacq.md) | 时间：1872结婚；角色：配偶；范围：馆方传记明确结婚；不据艺术收藏关系反推婚姻；原断言与证据见发出端卡片“泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）”：[来源](https://www.museecognacqjay.paris.fr/en/museum/cognacq-jay-spouses)；persons-ernest-cognacq；A remarkable example of commercial success：1871租约后的次年结婚 |
+| ← 配偶（`spouse_of`，反向投影） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](ernest-cognacq.md) | 时间：1872结婚；角色：配偶；范围：馆方传记明确结婚；不据艺术收藏关系反推婚姻；原断言与证据见发出端卡片“泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）”：[来源](https://www.museecognacqjay.paris.fr/en/museum/cognacq-jay-spouses)；src-3b290b7202c7e9f0；A remarkable example of commercial success：1871租约后的次年结婚 |

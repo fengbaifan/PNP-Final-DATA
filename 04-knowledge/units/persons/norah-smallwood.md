@@ -96,7 +96,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：初版制作支持；范围：第二版序言特别致谢的初版合作支持；不补造合同角色；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：初版制作支持；范围：第二版序言特别致谢的初版合作支持；不补造合同角色；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 身份与外部链接
 

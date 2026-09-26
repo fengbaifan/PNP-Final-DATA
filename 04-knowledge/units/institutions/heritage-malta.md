@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）](../works/caravaggio-saint-jerome-valletta.md) | 当前对象记录将Saint Jerome Writing (Valletta version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）”：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；held-by-institutions-heritage-malta-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）](../works/caravaggio-saint-jerome-valletta.md) | 当前对象记录将Saint Jerome Writing (Valletta version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《书写中的圣哲罗姆》（瓦莱塔版本）（Saint Jerome Writing (Valletta version)）”：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

@@ -73,7 +73,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 委托的指定安装场所，非今日现场核验；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338; print pp. 10 |
+| ← 所在地（`location_of`，反向投影） | [卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）](../works/camassei-martyrdom-saint-sebastian.md) | 委托的指定安装场所，非今日现场核验；原断言与证据见发出端卡片“卡马塞伊《圣塞巴斯蒂安殉难》祭坛画（Camassei’s Martyrdom of Saint Sebastian altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338; print pp. 10 |
 
 ### 身份与外部链接
 

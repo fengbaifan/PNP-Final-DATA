@@ -73,5 +73,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 参与者（`has_participant`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回；时间：1633；角色：拟议征税及公共委托排他措施的受益机构；范围：措施未全面施行并撤回；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 678–722; print pp. 17–18 |
-| → 参与者（`has_participant`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 690–722; print pp. 17–18 |
+| → 参与者（`has_participant`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 学院为征税及公共委托排他措施的受益机构；措施未全面施行并撤回；时间：1633；角色：拟议征税及公共委托排他措施的受益机构；范围：措施未全面施行并撤回；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 678–722; print pp. 17–18 |
+| → 参与者（`has_participant`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 时采取措施；不把法律授予与全面实现混同；时间：1633；角色：措施发生时的教皇与授权权威；范围：不把法律授予等同全面实现；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 690–722; print pp. 17–18 |

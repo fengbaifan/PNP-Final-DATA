@@ -137,10 +137,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：作者；范围：所列版本书目责任，不声称读过全文；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| → trained_by（`trained_by`） | [弗兰科·文图里（Franco Venturi）](franco-venturi.md) | 角色：学术培养者；范围：学术传记称其在都灵受文图里学派培养；不推定学位或任职；证据：S5，具体印刷页待核 |
-| ← 所著文献（`author_of`，反向投影） | [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../archives/torcellan-settecento-veneto-1969.md) | 时间：1969；角色：作者；范围：书目署Torcellan为作者的身后论文集；不推定其编辑或逐篇作者责任；证据：S4；原断言与证据见发出端卡片“威尼托的18世纪与其他历史著作” |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论与帮助；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 23–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 师从／受训于（`trained_by`） | [弗兰科·文图里（Franco Venturi）](franco-venturi.md) | 角色：学术培养者；范围：二手学术传记称Torcellan在都灵受Franco Venturi学派培养；不推定学位、具体课程或任教关系；证据：[来源](https://www.openstarts.units.it/bitstream/10077/15487/1/Riviste-storiche-full-text.pdf)；src-016b2d8ee85cc50c；传记段；具体印刷页未核定，文章范围pp.132-182 |
+| ← 所著文献（`author_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：作者；范围：所列版本书目责任，不声称读过全文；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |
+| ← 所著文献（`author_of`，反向投影） | [威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）](../archives/torcellan-settecento-veneto-1969.md) | 时间：1969；角色：作者；范围：身后出版的论文集；目录署Torcellan为作者，不推定其编辑或逐篇作者责任；原断言与证据见发出端卡片“威尼托的18世纪与其他历史著作（Settecento veneto e altri scritti storici）”：[来源](https://books.google.com/books?id=jC0ZAQAAMAAJ)；src-3a3dd256b56f2c45；书目责任者与出版信息 |
 
 ### 关系候选入口
 

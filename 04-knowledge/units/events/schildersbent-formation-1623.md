@@ -76,5 +76,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 参与者（`has_participant`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
-| → 发生于（`occurred_at`） | [罗马（Rome）](../places/rome.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–823; print pp. 20 |
+| → 参与者（`has_participant`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 此事件记录该组织形成，不把组织与事件合并；时间：约1623；角色：形成中的艺术家组织；范围：事件与组织对象保持区分；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 819–823; print pp. 20 |
+| → 发生于（`occurred_at`） | [罗马（Rome）](../places/rome.md) | 第一章明确把该组织的形成置于罗马；成立年份的多源异文另见事件卡，不影响地点关系；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 819–823; print pp. 20 |

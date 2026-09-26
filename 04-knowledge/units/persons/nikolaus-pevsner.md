@@ -70,8 +70,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← influenced（`influenced`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究兴趣启发；范围：只指最初引发对艺术赞助研究的兴趣，不代替具体师承；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| ← 教师（`teacher_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1951年同意指导；角色：研究指导；范围：1951年为学院Fellowship论文寻求研究指导；不称为博士导师；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-francis-haskell；印刷p.228，Pevsner agreed to act as supervisor |
+| ← influenced（`influenced`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究兴趣启发；范围：只指最初引发对艺术赞助研究的兴趣，不代替具体师承；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 教师（`teacher_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1951年同意指导；角色：研究指导；范围：1951年为学院Fellowship论文寻求研究指导；不称为博士导师；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；印刷p.228，Pevsner agreed to act as supervisor |
 
 ### 关系候选入口
 

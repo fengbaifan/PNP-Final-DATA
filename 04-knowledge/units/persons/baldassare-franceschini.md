@@ -102,9 +102,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](francesco-petrucci.md) | 角色：绘画教师；范围：ICCD的allievo del Volterrano；Volterrano别名沿用已对齐KU；原断言与证据见发出端卡片“弗朗切斯科·彼得鲁奇（Francesco Petrucci）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900378126)；persons-francesco-petrucci；Notizie storico critiche：Petrucci学生身份、宫廷复制画委托段 |
-| ← 所创作对象（`creator_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
-| ← 所创作对象（`creator_of`，反向投影） | [阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 105–106; 章前：图版目录；印刷页xiv |
+| ← 教师（`teacher_of`，反向投影） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](francesco-petrucci.md) | 角色：绘画教师；范围：ICCD的allievo del Volterrano；Volterrano别名沿用已对齐KU；原断言与证据见发出端卡片“弗朗切斯科·彼得鲁奇（Francesco Petrucci）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900378126)；src-63d4f690ddf9fa16；Notizie storico critiche：Petrucci学生身份、宫廷复制画委托段 |
+| ← 所创作对象（`creator_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
+| ← 所创作对象（`creator_of`，反向投影） | [阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 105–106; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

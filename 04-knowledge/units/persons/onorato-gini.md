@@ -54,4 +54,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）](../archives/gini-cortona-letter-1666.md) | 本章署 Gini，信经 Claretta 概述；原断言与证据见发出端卡片“奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 415–418; print pp. 11 |
+| ← 所著文献（`author_of`，反向投影） | [奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）](../archives/gini-cortona-letter-1666.md) | 本章署 Gini，信经 Claretta 概述；原断言与证据见发出端卡片“奥诺拉托·吉尼关于科尔托纳选题的信（1666）（Onorato Gini’s Letter on Cortona’s Choice of Subjects (1666)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 415–418; print pp. 11 |

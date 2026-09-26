@@ -87,8 +87,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650；角色：画家；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；对象字段及Makers |
-| ← 所创作对象（`creator_of`，反向投影） | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../works/velasquez-juan-de-pareja.md) | 时间：1650；角色：画家；范围：1971.86；原断言与证据见发出端卡片“胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）”：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；Artwork Details：Artist及Date |
+| ← 所创作对象（`creator_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650；角色：画家；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；对象字段及Makers |
+| ← 所创作对象（`creator_of`，反向投影） | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../works/velasquez-juan-de-pareja.md) | 时间：1650；角色：画家；范围：1971.86；原断言与证据见发出端卡片“胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）”：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；Artwork Details：Artist及Date |
 
 ### 关系候选入口
 

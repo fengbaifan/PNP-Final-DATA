@@ -70,8 +70,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [剑桥大学图书馆（Cambridge University Library）](university-library-cambridge.md) | 角色：所属图书馆；范围：大学所属研究图书馆，不与大学合并为同一KU；原断言与证据见发出端卡片“剑桥大学图书馆（Cambridge University Library）”：[来源](https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content)；institutions-university-library-cambridge；2005馆长导言PDF3／印刷1及PDF38／印刷36年表 |
-| → 位于（`located_at`） | [剑桥（Cambridge）](../places/cambridge.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.cam.ac.uk/about-the-university)；institutions-university-of-cambridge；Civic and community engagement及机构名称 |
+| ← 包含成员（`contains`，反向投影） | [剑桥大学图书馆（Cambridge University Library）](university-library-cambridge.md) | 角色：所属图书馆；范围：大学所属研究图书馆，不与大学合并为同一KU；原断言与证据见发出端卡片“剑桥大学图书馆（Cambridge University Library）”：[来源](https://api.repository.cam.ac.uk/server/api/core/bitstreams/678848c7-a7b2-4a76-a937-ea1bbd5ba59c/content)；src-7a4785dfb96dd6b8；2005馆长导言PDF3／印刷1及PDF38／印刷36年表 |
+| → 位于（`located_at`） | [剑桥（Cambridge）](../places/cambridge.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.cam.ac.uk/about-the-university)；src-01153e0b51090d58；Civic and community engagement及机构名称 |
 
 ### 关系候选入口
 

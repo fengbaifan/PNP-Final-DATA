@@ -87,9 +87,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [克劳德·洛兰（Claude Lorrain）](../persons/claude-lorrain.md) | 角色：原书署名作者；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
-| → 所涉对象（`has_subject`） | [德尔斐（Delphi）](../places/delphi.md) | 角色：描绘地点；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [克劳德·洛兰（Claude Lorrain）](../persons/claude-lorrain.md) | 角色：原书署名作者；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 72–72; 章前：图版目录；印刷页xiii |
+| → 所涉对象（`has_subject`） | [德尔斐（Delphi）](../places/delphi.md) | 角色：描绘地点；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 72–72; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版19b；德尔斐为图像地点，Robert A.Waller Fund为收藏资助线索；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 72–72; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

@@ -218,7 +218,7 @@ S11综述指出：Bottari、Comolli批评其材料核实与琐细叙述；Battis
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 未刊传记署名；本次未读手稿；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| ← 所著文献（`author_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 未刊传记署名；本次未读手稿；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
 
 ### 身份与外部链接
 

@@ -155,11 +155,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 师从／受训于（`trained_by`） | [约翰·康拉德·霍夫曼（Johann Conrad Hofmann）](johann-conrad-hofmann.md) | 角色：家庭教育；范围：家庭教师身份明确，不外推大学学历；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.52教师段；PDF第2页 |
-| → 亲缘（`kin_of`） | [卡塔琳娜·海因策尔曼（Katharina Heinzelmann）](katharina-heinzelmann.md) | 时间：1760年4月底结婚；角色：丈夫→妻子；范围：婚姻开始日期明确，未推定配偶生卒或婚姻结束日期；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.57首段；PDF第7页 |
-| → 隶属／任职于（`member_of`） | [阿贾蒂学会（Accademia degli Agiati）](../institutions/accademia-degli-agiati.md) | 时间：1752年加入；角色：学会会员；范围：学会吸收为会员，学名Marsio；不推定终止年份；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.58第2节首段；PDF第8页 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1727-12-12出生；1791-12-28去世；角色：出生／去世；范围：出生与去世地点均为威尼斯；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.51末段及p.57首段；PDF第1、7页 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）](../works/canova-amadeo-swajer.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
+| → 师从／受训于（`trained_by`） | [约翰·康拉德·霍夫曼（Johann Conrad Hofmann）](johann-conrad-hofmann.md) | 角色：家庭教育；范围：家庭教师身份明确，不外推大学学历；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.52教师段；PDF第2页 |
+| → 亲缘（`kin_of`） | [卡塔琳娜·海因策尔曼（Katharina Heinzelmann）](katharina-heinzelmann.md) | 时间：1760年4月底结婚；角色：丈夫→妻子；范围：婚姻开始日期明确，未推定配偶生卒或婚姻结束日期；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.57首段；PDF第7页 |
+| → 隶属／任职于（`member_of`） | [阿贾蒂学会（Accademia degli Agiati）](../institutions/accademia-degli-agiati.md) | 时间：1752年加入；角色：学会会员；范围：学会吸收为会员，学名Marsio；不推定终止年份；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.58第2节首段；PDF第8页 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1727-12-12出生；1791-12-28去世；角色：出生／去世；范围：出生与去世地点均为威尼斯；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.51末段及p.57首段；PDF第1、7页 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）](../works/canova-amadeo-swajer.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

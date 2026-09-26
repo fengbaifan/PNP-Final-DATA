@@ -137,11 +137,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [约翰·威廉·鲍尔（Johann Wilhelm Baur）](../persons/guglielmo-baur.md) | 时间：1636；角色：画家；范围：库存519签名作品；原书题名1630与签名制作年1636分别保存；证据：[来源](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)；works-guglielmo-baur-view-of-villa-borghese-in-1630；技术字段、库存519、1636签名纪年及收藏沿革 |
-| → 所涉对象（`has_subject`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 角色：描绘对象；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 46–46; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 时间：本书所述时点；角色：书中作品所在建筑；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 46–46; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 46–46; 章前：图版目录；印刷页xii |
-| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 时间：所引2023年馆方记录；角色：所引馆藏记录保管机构；范围：库存519，不用同题1641年版本或无日期借展公告替代；证据：[来源](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)；works-guglielmo-baur-view-of-villa-borghese-in-1630；技术字段、库存519、1636签名纪年及收藏沿革 |
+| → 创作者（`created_by`） | [约翰·威廉·鲍尔（Johann Wilhelm Baur）](../persons/guglielmo-baur.md) | 时间：1636；角色：画家；范围：库存519签名作品；原书题名1630与签名制作年1636分别保存；证据：[来源](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)；src-ef56db80a78b0869；技术字段、库存519、1636签名纪年及收藏沿革 |
+| → 所涉对象（`has_subject`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 角色：描绘对象；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 46–46; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 时间：本书所述时点；角色：书中作品所在建筑；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 46–46; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版06；同一别墅在题材与收藏位置中承担不同角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 46–46; 章前：图版目录；印刷页xii |
+| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 时间：所引2023年馆方记录；角色：所引馆藏记录保管机构；范围：库存519，不用同题1641年版本或无日期借展公告替代；证据：[来源](https://www.collezionegalleriaborghese.it/opere/prospetto-di-villa-borghese)；src-ef56db80a78b0869；技术字段、库存519、1636签名纪年及收藏沿革 |
 
 ### 关系候选入口
 

@@ -103,4 +103,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；原断言与证据见发出端卡片“萨尔瓦多·罗萨（Salvator Rosa）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 917–926; print pp. 22 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 展览期间组织喝彩者等宣传行为，依据章内传记转述；原断言与证据见发出端卡片“萨尔瓦多·罗萨（Salvator Rosa）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 917–926; print pp. 22 |

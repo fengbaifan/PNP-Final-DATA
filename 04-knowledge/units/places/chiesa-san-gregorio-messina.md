@@ -62,8 +62,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [墨西拿（Messina）](messina.md) | 市级文化导览所载历史建筑地点；不指代修院法人；证据：[来源](https://visitme.comune.messina.it/en/node/433)；metropolitan-city-messina-museum-history；历史段；San Gregorio教堂与相连修院 |
-| ← 内含（`location_of`，反向投影） | [圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）](chiesa-san-gregorio-cappella-madonna-carmine.md) | 历史内部空间，右侧横翼北墙；原断言与证据见发出端卡片：[来源](https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina))；chiesa-san-gregorio-messina-wikipedia-it；页面版本150392543；L169–170 |
+| ← 所在地（`location_of`，反向投影） | [圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）](chiesa-san-gregorio-cappella-madonna-carmine.md) | 意大利语教堂条目将小堂定位于圣额我略堂右侧横翼北墙；教堂于1908年震灾后被拆除；角色：历史建筑内部空间；范围：右侧横翼北墙；不是独立教堂或修院法人；原断言与证据见发出端卡片“圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）”：[来源](https://it.wikipedia.org/wiki/Chiesa_di_San_Gregorio_(Messina))；src-4353ef20816047f4；Interno；L169–170；页面版本150392543 |
+| → 位于（`located_at`） | [墨西拿（Messina）](messina.md) | 市级文化导览将圣额我略堂与相连修院列入墨西拿城市历史；角色：所在城市；范围：历史建筑地点；不指代修院法人；证据：[来源](https://visitme.comune.messina.it/en/node/433)；src-dbe99f06e2f41e1e；历史段；圣额我略堂与相连修院；1880年及1908年事件 |
+| ← 所在地（`location_of`，反向投影） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../works/guercino-sicilian-altarpiece-1665.md) | Fondazione Zeri将末知地点记为墨西拿圣额我略堂；只记录目录所载末知地点，不等同于1665年委托地点、原定安置地点或委托法人；角色：目录所载末知地点；范围：时间未在Zeri条目中注明；作品记录为1908年毁失，不能据此推定委托或最初安置时段；原断言与证据见发出端卡片“圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/58737/)；本卡 S2；Locations；Last known：Chiesa di S. Gregorio, Messina |
 
 ### 作品地点入口
 

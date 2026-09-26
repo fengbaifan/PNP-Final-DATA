@@ -94,9 +94,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 角色：所属图书馆；范围：第一版序言Library of the Warburg Institute；机构图书馆的归属；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 范围：第一版序言所述图书馆所在地；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 角色：研究使用、鼓励与建议；范围：第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 角色：研究使用、鼓励与建议；范围：第一版序言对图书馆及机构相关人员的集体致谢；不虚构具体顾问；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 组成部分（`part_of`） | [瓦尔堡研究院（Warburg Institute）](warburg-institute.md) | 角色：所属图书馆；范围：第一版序言Library of the Warburg Institute；机构图书馆的归属；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 范围：第一版序言所述图书馆所在地；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 21–22; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 关系候选入口
 

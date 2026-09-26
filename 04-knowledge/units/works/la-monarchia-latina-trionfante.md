@@ -156,12 +156,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [尼科洛·米纳托（Nicolò Minato）](../persons/nicolo-minato.md) | 时间：1678演出作品；角色：歌剧脚本作者；范围：作品文字责任，不等同实际1678印本排印者；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；works-la-monarchia-latina-trionfante；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
-| → 创作者（`created_by`） | [安东尼奥·德拉吉（Antonio Draghi）](../persons/antonio-draghi.md) | 时间：1678演出作品；角色：歌剧音乐作者；范围：音乐责任，不扩张为全部芭蕾音乐责任；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；works-la-monarchia-latina-trionfante；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
-| → 创作者（`created_by`） | [约翰·海因里希·施梅尔策（Johann Heinrich Schmelzer）](../persons/johann-heinrich-schmelzer.md) | 时间：1678演出作品；角色：芭蕾部分责任者；范围：拍品书目所载责任者；具体曲目和是否涉及编舞未展开；证据：[来源](https://www.christies.com/en/lot/lot-5214348)；works-la-monarchia-latina-trionfante；Lot518拍品书目与责任者说明 |
-| → 创作者（`created_by`） | [卢多维科·奥塔维奥·布尔纳奇尼（Ludovico Ottavio Burnacini）](../persons/burnacini.md) | 时间：1678；角色：舞台设计者；范围：歌剧场景视觉设计，不等于脚本、音乐或印本刻制；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；works-la-monarchia-latina-trionfante；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
-| → 位于（`located_at`） | [科尔蒂纳剧院（Theater auf der Cortina）](../places/theater-auf-der-cortina.md) | 时间：1678-10-10演出；角色：所述演出场所；范围：同剧Piazza Reale场景馆方记录支持歌剧该次演出，不混称《极乐世界》单张印本；证据：[来源](https://collection.theatermuseum.at/en/objects/alternativtitel-die-sig-prangende-roemische-monarchey-983861)；works-la-monarchia-latina-trionfante；GS_GSU6464对象介绍、日期与演出地点字段 |
-| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 时间：1678；角色：所述演出城市；范围：图版28b所记歌剧的演出语境，非剧本具体印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [尼科洛·米纳托（Nicolò Minato）](../persons/nicolo-minato.md) | 时间：1678演出作品；角色：歌剧脚本作者；范围：作品文字责任，不等同实际1678印本排印者；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；src-ed96a5f7706c0a4a；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
+| → 创作者（`created_by`） | [安东尼奥·德拉吉（Antonio Draghi）](../persons/antonio-draghi.md) | 时间：1678演出作品；角色：歌剧音乐作者；范围：音乐责任，不扩张为全部芭蕾音乐责任；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；src-ed96a5f7706c0a4a；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
+| → 创作者（`created_by`） | [约翰·海因里希·施梅尔策（Johann Heinrich Schmelzer）](../persons/johann-heinrich-schmelzer.md) | 时间：1678演出作品；角色：芭蕾部分责任者；范围：拍品书目所载责任者；具体曲目和是否涉及编舞未展开；证据：[来源](https://www.christies.com/en/lot/lot-5214348)；src-8ffd4c24efa0aa85；Lot518拍品书目与责任者说明 |
+| → 创作者（`created_by`） | [卢多维科·奥塔维奥·布尔纳奇尼（Ludovico Ottavio Burnacini）](../persons/burnacini.md) | 时间：1678；角色：舞台设计者；范围：歌剧场景视觉设计，不等于脚本、音乐或印本刻制；证据：[来源](https://www.metmuseum.org/art/collection/search/700810)；src-ed96a5f7706c0a4a；Description及Artwork Details：53.600.3581的歌剧责任者说明 |
+| → 位于（`located_at`） | [科尔蒂纳剧院（Theater auf der Cortina）](../places/theater-auf-der-cortina.md) | 时间：1678-10-10演出；角色：所述演出场所；范围：同剧Piazza Reale场景馆方记录支持歌剧该次演出，不混称《极乐世界》单张印本；证据：[来源](https://collection.theatermuseum.at/en/objects/alternativtitel-die-sig-prangende-roemische-monarchey-983861)；src-106eb500dd540d24；GS_GSU6464对象介绍、日期与演出地点字段 |
+| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 时间：1678；角色：所述演出城市；范围：图版28b所记歌剧的演出语境，非剧本具体印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

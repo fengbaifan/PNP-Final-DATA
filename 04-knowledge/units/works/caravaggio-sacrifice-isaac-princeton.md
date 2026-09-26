@@ -65,7 +65,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 为其版本／复制（`variant_of`） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](caravaggio-sacrifice-isaac-uffizi.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：2014年以Bartolomeo Cavarozzi作品出售；不建立确定的卡拉瓦乔创作者边。；证据：[来源](https://en.wikipedia.org/wiki/Sacrifice_of_Isaac_(Caravaggio))；variant-of-works-caravaggio-sacrifice-isaac-uffizi-md；本卡S2；版本段 |
+| → 为其版本／复制（`variant_of`） | [《以撒献祭》（乌菲齐版本）（Sacrifice of Isaac (Uffizi version)）](caravaggio-sacrifice-isaac-uffizi.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：2014年以Bartolomeo Cavarozzi作品出售；不建立确定的卡拉瓦乔创作者边。；证据：[来源](https://en.wikipedia.org/wiki/Sacrifice_of_Isaac_(Caravaggio))；src-3f3d6d748764e2cb；本卡S2；版本段 |
 
 ### 身份与外部链接
 

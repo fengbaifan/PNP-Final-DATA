@@ -71,7 +71,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：早期学生；范围：早年并于1683年后再次随学；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 29–32 |
+| ← 教师（`teacher_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：早期学生；范围：早年并于1683年后再次随学；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 29–32 |
 
 ### 身份与外部链接
 

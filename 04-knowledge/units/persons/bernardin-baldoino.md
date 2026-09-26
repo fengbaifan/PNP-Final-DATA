@@ -91,10 +91,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#berna
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 父亲（`child_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | Thevenon明记其为Giovanni-Gaspare之子；起点为Bernardin出生年1625；S1 |
-| ← 创作者（`created_by`，反向投影） | [《施洗者圣若翰斩首》（The Beheading of Saint John the Baptist）](../works/bernardin-baldoino-beheading-john-baptist-1670.md) | Thevenon将1670年作品列在Bernardin作品段，记其在罗马为尼斯黑衣忏悔者制作；S1 |
-| ← 创作者（`created_by`，反向投影） | [《利马圣罗撒神魂超拔》（The Ecstasy of Saint Rose of Lima）](../works/bernardin-baldoino-ecstasy-saint-rose-1680.md) | Thevenon记作品签名、纪年1680，且将其列为Bernardin创作；S1 |
-| ← 创作者（`created_by`，反向投影） | [《圣罗撒与圣母的神秘交谈》（The Mystical Conversation of Saint Rose with the Virgin）](../works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md) | Thevenon称其与前件成对并同属Bernardin作品；年代据配对语境定为1680；S1 |
+| → child_of（`child_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | 时间：1625；角色：儿子；范围：Thevenon明确称Bernardin为Giovanni-Gaspare Baldoino之子；姓名异文不改变所指；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 296–297 |
+| ← 所创作对象（`creator_of`，反向投影） | [施洗者圣若翰斩首（The Beheading of Saint John the Baptist）](../works/bernardin-baldoino-beheading-john-baptist-1670.md) | 时间：1670；角色：创作者；范围：Thevenon记该画为Bernardin作品并称其在罗马为尼斯黑衣忏悔者制作；原断言与证据见发出端卡片“施洗者圣若翰斩首（The Beheading of Saint John the Baptist）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 296–299,316–317 |
+| ← 所创作对象（`creator_of`，反向投影） | [利马圣罗撒神魂超拔（The Ecstasy of Saint Rose of Lima）](../works/bernardin-baldoino-ecstasy-saint-rose-1680.md) | 时间：1680；角色：创作者；范围：Thevenon将画作列入Bernardin作品并记背面签名；原断言与证据见发出端卡片“利马圣罗撒神魂超拔（The Ecstasy of Saint Rose of Lima）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302,316–317 |
+| ← 所创作对象（`creator_of`，反向投影） | [圣罗撒与圣母的神秘交谈（The Mystical Conversation of Saint Rose with the Virgin）](../works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md) | 时间：1680；角色：创作者；范围：Thevenon将该画列入Bernardin作品，并称其为1680年有签名作品的配对画；原断言与证据见发出端卡片“圣罗撒与圣母的神秘交谈（The Mystical Conversation of Saint Rose with the Virgin）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302,316–317 |
 
 ### 身份对齐状态
 

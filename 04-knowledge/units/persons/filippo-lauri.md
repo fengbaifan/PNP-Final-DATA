@@ -89,8 +89,8 @@ Filippo Baldinucci为友人；主要传记作者Francesco Saverio Baldinucci是�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1654年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/)；dbi-lauri；本卡 S6；1654年入会段 |
-| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1654年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/filippo-lauri_(Dizionario-Biografico)/)；src-79d298a0fbfb3835；本卡 S6；1654年入会段 |
+| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Lauri为《春》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《春》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；src-79314a94389e3534；本卡 S7；Quattro stagioni合作段 |
 
 ### 身份与外部链接
 

@@ -85,7 +85,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：1739；角色：画家；范围：Streit.1／obj:863940单件肖像；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| ← 所创作对象（`creator_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：1739；角色：画家；范围：Streit.1／obj:863940单件肖像；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；src-92917519320c0cc2；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
 
 ### 关系候选入口
 

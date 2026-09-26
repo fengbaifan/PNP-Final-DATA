@@ -61,7 +61,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：原书署名作者；范围：图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：原书署名作者；范围：图版55a所列献辞卷首图；蚀刻集具体版本、受献者与实际印本未核；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

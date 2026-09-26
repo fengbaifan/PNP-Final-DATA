@@ -88,8 +88,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：生年未定；1710卒；角色：出生／去世；范围：出生和去世均为威尼斯；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-fumiani_(Dizionario-Biografico)/)；persons-giannantonio-fumiani；起首出生考证段；末段Il F. morì a Venezia nel 1710 |
-| ← 所创作对象（`creator_of`，反向投影） | [撒迦利亚被石击（The stoning of Zechariah）](../works/giannantonio-fumiani-the-stoning-of-zechariah.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“撒迦利亚被石击（The stoning of Zechariah）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 111–111; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：生年未定；1710卒；角色：出生／去世；范围：出生和去世均为威尼斯；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-fumiani_(Dizionario-Biografico)/)；src-07bea6fc73d7a088；起首出生考证段；末段Il F. morì a Venezia nel 1710 |
+| ← 所创作对象（`creator_of`，反向投影） | [撒迦利亚被石击（The stoning of Zechariah）](../works/giannantonio-fumiani-the-stoning-of-zechariah.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“撒迦利亚被石击（The stoning of Zechariah）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 111–111; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

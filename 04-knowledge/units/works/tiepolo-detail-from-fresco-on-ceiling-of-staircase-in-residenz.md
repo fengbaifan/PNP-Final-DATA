@@ -117,9 +117,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1752–1753；角色：顶画作者；范围：完整楼梯厅天顶壁画；图版50只复制局部；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz；Staircase正文 |
-| → 安置于（`installed_at`） | [维尔茨堡宫（Residenz, Würzburg）](../places/residenz-wurzburg.md) | 时间：1752–1753绘成；角色：楼梯厅天顶；范围：壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；works-tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz；Staircase正文 |
-| → 位于（`located_at`） | [维尔茨堡（Würzburg）](../places/wurzburg.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版50明确的城市位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 128–128; 章前：图版目录；印刷页xv |
+| → 由其供应（`supplied_by`） | [埃伯哈德·茨维克（Eberhard Zwicker）](../persons/eberhard-zwicker.md) | 时间：本书图片来源所载版本；角色：本书图版复制图像供片者；范围：图版50的复制图像；不表示其创作、持有或保管完整顶画；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 172–172; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1752–1753；角色：顶画作者；范围：完整楼梯厅天顶壁画；图版50只复制局部；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；src-7719e81540252ce3；Staircase正文 |
+| → 安置于（`installed_at`） | [维尔茨堡宫（Residenz, Würzburg）](../places/residenz-wurzburg.md) | 时间：1752–1753绘成；角色：楼梯厅天顶；范围：壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；src-7719e81540252ce3；Staircase正文 |
+| → 位于（`located_at`） | [维尔茨堡（Würzburg）](../places/wurzburg.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版50明确的城市位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 128–128; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

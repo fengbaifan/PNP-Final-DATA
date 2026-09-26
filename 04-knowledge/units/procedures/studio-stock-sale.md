@@ -73,4 +73,4 @@ Getty对Valguarnera庭审的介绍支持他购买Poussin作品，并转述画家
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开；原断言与证据见发出端卡片“法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 591–601; print pp. 15 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 请求完成 Lanfranco 和 Poussin 既有画稿；与新订《春》分开；原断言与证据见发出端卡片“法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 591–601; print pp. 15 |

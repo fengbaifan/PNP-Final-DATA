@@ -83,8 +83,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [斯图加特（Stuttgart）](../places/stuttgart.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：市政府机构地址；不等于作品创作地点；证据：[来源](https://www.stuttgart.de/tourismus/sehenswuerdigkeiten/staatsgalerie)；institutions-staatsgalerie-stuttgart；德语页面正文、图注与地址字段；页面标注2021-02-18 |
-| ← 保管对象（`holder_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 范围：目录最后已知保管机构；不推定取得年；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；LOCATIONS：Last known、inv.3294 |
+| → 位于（`located_at`） | [斯图加特（Stuttgart）](../places/stuttgart.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：市政府机构地址；不等于作品创作地点；证据：[来源](https://www.stuttgart.de/tourismus/sehenswuerdigkeiten/staatsgalerie)；src-a0895e67e9adb216；德语页面正文、图注与地址字段；页面标注2021-02-18 |
+| ← 保管对象（`holder_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 范围：目录最后已知保管机构；不推定取得年；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；src-d3e98bc7f1bc6ddb；LOCATIONS：Last known、inv.3294 |
 
 ### 关系候选入口
 

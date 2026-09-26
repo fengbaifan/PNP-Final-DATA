@@ -92,8 +92,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1946；角色：初始营业城市；范围：画廊初创时期所在城市，17–18 Old Bond Street；证据：[来源](https://marlborougharchive.com/history-marlborough-gallery)；institutions-marlborough-fine-art-ltd；1946年创办两段 |
-| ← 供应者（`supplier_of`，反向投影） | [罗萨命运（Fortune by Salvator Rosa）](../works/fortune-salvator-rosa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“罗萨命运（Fortune by Salvator Rosa）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 166–166 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1946；角色：初始营业城市；范围：画廊初创时期所在城市，17–18 Old Bond Street；证据：[来源](https://marlborougharchive.com/history-marlborough-gallery)；src-6fbb56ac2ad7ca4d；1946年创办两段 |
+| ← 供应者（`supplier_of`，反向投影） | [罗萨命运（Fortune by Salvator Rosa）](../works/fortune-salvator-rosa.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“罗萨命运（Fortune by Salvator Rosa）”：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；haskell-1980-rev-ed；PDF13；印刷xvi；图片来源；lines 166–166 |
 
 ### 关系候选入口
 

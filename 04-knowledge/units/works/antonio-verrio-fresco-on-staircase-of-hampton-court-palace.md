@@ -104,9 +104,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [英国工程部（Ministry of Works）](../institutions/ministry-of-works.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 166–166; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [安东尼奥·韦里奥（Antonio Verrio）](../persons/antonio-verrio.md) | 角色：壁画作者；范围：图版29明确作者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 85–86; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [汉普顿宫（Hampton Court Palace）](../places/hampton-court-palace.md) | 时间：本书所述时点；角色：楼梯壁画所在建筑；范围：原书题名明确建筑位置；不推定作品产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 85–86; 章前：图版目录；印刷页xiv |
+| → 由其供应（`supplied_by`） | [英国工程部（Ministry of Works）](../institutions/ministry-of-works.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版29的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 166–166; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [安东尼奥·韦里奥（Antonio Verrio）](../persons/antonio-verrio.md) | 角色：壁画作者；范围：图版29明确作者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 85–86; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [汉普顿宫（Hampton Court Palace）](../places/hampton-court-palace.md) | 时间：本书所述时点；角色：楼梯壁画所在建筑；范围：原书题名明确建筑位置；不推定作品产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 85–86; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

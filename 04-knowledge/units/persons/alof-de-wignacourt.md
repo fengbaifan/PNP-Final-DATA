@@ -69,8 +69,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [医院骑士团／马耳他骑士团（Knights Hospitaller）](../institutions/knights-hospitaller.md) | 维尼亚库尔1564年加入医院骑士团，1601年至1622年任大团长；时间：1564–1622；角色：成员；1601–1622任大团长；范围：个人在医院骑士团的成员与领导职务；证据：[来源](https://en.wikipedia.org/wiki/Alof_de_Wignacourt)；member-of-institutions-knights-hospitaller-wignacourt；infobox与Biography导言 |
-| ← 赞助者／保护人（`patron_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 马耳他时期维尼亚库尔支持卡拉瓦乔并推动其获骑士身份；时间：1607–1608；角色：保护人；范围：骑士身份与肖像作品分别建模；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；patronized-by-persons-alof-de-wignacourt-md；Malta段与Patrons字段 |
+| → 隶属／任职于（`member_of`） | [医院骑士团／马耳他骑士团（Knights Hospitaller）](../institutions/knights-hospitaller.md) | 维尼亚库尔1564年加入医院骑士团，1601年至1622年任大团长；时间：1564–1622；角色：成员；1601–1622任大团长；范围：个人在医院骑士团的成员与领导职务；证据：[来源](https://en.wikipedia.org/wiki/Alof_de_Wignacourt)；src-72febb587a721b40；infobox与Biography导言 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 马耳他时期维尼亚库尔支持卡拉瓦乔并推动其获骑士身份；时间：1607–1608；角色：保护人；范围：骑士身份与肖像作品分别建模；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；Malta段与Patrons字段 |
 
 ### 身份与外部链接
 

@@ -60,5 +60,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 亲属关系（`kin_of`） | [乔万尼·佩萨罗（Giovanni Pesaro）](giovanni-pesaro.md) | 角色：侄子；证据：S2，Treccani传记第50–52行。 |
-| ← 委托人（`commissioned_by`反向投影） | [乔万尼·佩萨罗总督纪念碑](../works/monument-to-doge-giovanni-pesaro.md) | 角色：委托Longhena制作纪念碑；确切委托日期未详，1665年获准施工、1669年完工；正式断言及来源见出向作品卡S4、S7。 |
+| → 亲缘（`kin_of`） | [乔万尼·佩萨罗（Giovanni Pesaro）](giovanni-pesaro.md) | 角色：侄子；范围：纪念碑委托与建造语境；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/)；src-0fc10a31baa842a5；lines 50–52 |
+| ← 委托者（`commissioner_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 时间：委托日期未详；1665年取得施工许可，建造至1669年；角色：委托Longhena制作纪念碑；范围：纪念碑整体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](https://www.wga.hu/html_m/l/longhena/pesaro.html)；src-916ca549fa47f28e；lines 6–10 |

@@ -119,7 +119,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](lodovico-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](lodovico-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
 
 ### 身份与外部链接
 

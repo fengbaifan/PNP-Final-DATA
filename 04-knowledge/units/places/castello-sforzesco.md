@@ -63,8 +63,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 时间：所引目录记录时点；角色：所在建筑；范围：SIRBeC4y010-09081记载的收藏部门位置；原断言与证据见发出端卡片“斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；institutions-gabinetto-dei-disegni-castello-sforzesco；PDF3：COLLOCAZIONE SPECIFICA |
-| ← 所在地（`location_of`，反向投影） | [舒伦堡元帅肖像（Portrait of Marshal Schulenburg）](../works/piazzetta-marshal-schulenburg.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；原断言与证据见发出端卡片“舒伦堡元帅肖像（Portrait of Marshal Schulenburg）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-piazzetta-marshal-schulenburg；lines 131–131; 章前：图版目录；印刷页xv |
+| ← 所在地（`location_of`，反向投影） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 时间：所引目录记录时点；角色：所在建筑；范围：SIRBeC4y010-09081记载的收藏部门位置；原断言与证据见发出端卡片“斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；src-1257ee626bc95941；PDF3：COLLOCAZIONE SPECIFICA |
+| ← 所在地（`location_of`，反向投影） | [舒伦堡元帅肖像（Portrait of Marshal Schulenburg）](../works/piazzetta-marshal-schulenburg.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；原断言与证据见发出端卡片“舒伦堡元帅肖像（Portrait of Marshal Schulenburg）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

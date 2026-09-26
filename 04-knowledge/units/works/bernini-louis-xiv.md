@@ -80,7 +80,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）](../institutions/service-de-documentation-photographique-des-musees-nationaux.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
+| → 由其供应（`supplied_by`） | [法国国家博物馆摄影文献服务处（Service de Documentation Photographique des Musées Nationaux）](../institutions/service-de-documentation-photographique-des-musees-nationaux.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 169–170; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

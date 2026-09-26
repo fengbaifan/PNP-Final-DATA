@@ -72,4 +72,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 条款描述该壁画工程的题材自由与颜料要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
+| → 所涉对象（`has_subject`） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 条款描述该壁画工程的题材自由与颜料要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 323–326,520–521; print pp. 9,13 |

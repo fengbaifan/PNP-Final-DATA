@@ -62,7 +62,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 为其版本／复制（`variant_of`） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](caravaggio-incredulity-thomas-sanssouci.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：卡拉瓦乔主页面列出该对象，但专页未给同粒度QID或完整对象记录，不建立确定创作者、委托或馆藏边。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；variant-of-works-caravaggio-incredulity-thomas-sanssouci-md；本卡S2；版本段 |
+| → 为其版本／复制（`variant_of`） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](caravaggio-incredulity-thomas-sanssouci.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：卡拉瓦乔主页面列出该对象，但专页未给同粒度QID或完整对象记录，不建立确定创作者、委托或馆藏边。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；src-00809e6dd9c338fd；本卡S2；版本段 |
 
 ### 身份与外部链接
 

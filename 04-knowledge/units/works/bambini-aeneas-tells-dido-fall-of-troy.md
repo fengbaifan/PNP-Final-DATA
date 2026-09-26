@@ -115,7 +115,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [尼科洛·班比尼（Nicolò Bambini）](../persons/niccolo-bambini.md) | 时间：1712；角色：画家；范围：馆藏131a；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；作者字段及归属说明 |
-| → 拟用于（`intended_for`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：约1712–1713交付；角色：原定装饰画廊；范围：馆藏131a；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；realizzato per la Galleria段 |
-| → 安置于（`installed_at`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：网页记录，访问2026-09-15；角色：馆方所载陈列位置；范围：馆藏131a；画廊14室；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；Attualmente esposta与collocazione |
-| → 源自（`derived_from`） | [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../archives/virgil-aeneid.md) | 角色：文学题材来源；范围：第一卷宴会场景；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；题材首段：primo libro dell’Eneide di Virgilio |
+| → 创作者（`created_by`） | [尼科洛·班比尼（Nicolò Bambini）](../persons/niccolo-bambini.md) | 时间：1712；角色：画家；范围：馆藏131a；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；作者字段及归属说明 |
+| → 拟用于（`intended_for`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：约1712–1713交付；角色：原定装饰画廊；范围：馆藏131a；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；realizzato per la Galleria段 |
+| → 安置于（`installed_at`） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 时间：网页记录，访问2026-09-15；角色：馆方所载陈列位置；范围：馆藏131a；画廊14室；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；Attualmente esposta与collocazione |
+| → 源自（`derived_from`） | [维吉尔《埃涅阿斯纪》（Virgil’s Aeneid）](../archives/virgil-aeneid.md) | 角色：文学题材来源；范围：第一卷宴会场景；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；题材首段：primo libro dell’Eneide di Virgilio |

@@ -142,12 +142,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·沃尔帕托（Giovanni Volpato）](../persons/g-volpato.md) | 时间：1769；角色：蚀刻与雕版制作者；范围：1769版画图式；本书具体印本未定；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
-| → 创作者（`created_by`） | [卡洛·比安科尼（Carlo Bianconi）](../persons/carlo-bianconi.md) | 时间：1769版画所据绘图；角色：原绘图作者；范围：版画依据的绘图责任，区别墓本体的设计／建造；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
-| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：纪念对象；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](tomb-of-francesco-algarotti.md) | 角色：所描绘墓；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [比萨（Pisa）](../places/pisa.md) | 角色：墓所在城市；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [比萨坎波桑托（Camposanto, Pisa）](../places/camposanto-pisa.md) | 角色：所描绘墓的安置场所；范围：Met题名及说明所指坎波桑托；不添加Met或Rijksmuseum为本书印本现藏馆；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
+| → 创作者（`created_by`） | [乔万尼·沃尔帕托（Giovanni Volpato）](../persons/g-volpato.md) | 时间：1769；角色：蚀刻与雕版制作者；范围：1769版画图式；本书具体印本未定；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
+| → 创作者（`created_by`） | [卡洛·比安科尼（Carlo Bianconi）](../persons/carlo-bianconi.md) | 时间：1769版画所据绘图；角色：原绘图作者；范围：版画依据的绘图责任，区别墓本体的设计／建造；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：纪念对象；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂墓（Tomb of Francesco Algarotti）](tomb-of-francesco-algarotti.md) | 角色：所描绘墓；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [比萨（Pisa）](../places/pisa.md) | 角色：墓所在城市；范围：图版60图像内容；不将比萨解释为版画印本所在地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [比萨坎波桑托（Camposanto, Pisa）](../places/camposanto-pisa.md) | 角色：所描绘墓的安置场所；范围：Met题名及说明所指坎波桑托；不添加Met或Rijksmuseum为本书印本现藏馆；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；Artwork Details与作品说明：51.501.2843，Volpato、Bianconi及Camposanto |
 
 ### 关系候选入口
 

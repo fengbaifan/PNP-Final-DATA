@@ -68,7 +68,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 书中明确图书馆位于 Perugia；原断言与证据见发出端卡片“奥古斯塔图书馆（Biblioteca Augusta）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| ← 所在地（`location_of`，反向投影） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 书中明确图书馆位于 Perugia；原断言与证据见发出端卡片“奥古斯塔图书馆（Biblioteca Augusta）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
 
 ### 身份与外部链接
 

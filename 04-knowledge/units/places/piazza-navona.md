@@ -75,7 +75,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](sant-agnese-piazza-navona.md) | 教堂定位为 Piazza Navona；原断言与证据见发出端卡片“纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–439; print pp. 12 |
+| ← 所在地（`location_of`，反向投影） | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](sant-agnese-piazza-navona.md) | 教堂定位为 Piazza Navona；原断言与证据见发出端卡片“纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–439; print pp. 12 |
 
 ### 身份与外部链接
 

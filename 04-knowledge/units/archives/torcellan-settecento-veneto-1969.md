@@ -78,4 +78,4 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → authored_by（`authored_by`） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](../persons/gianfranco-torcellan.md) | 时间：1969；角色：作者；范围：书目署名；论文集身后出版，不据此推定其为全书编者或每篇文章作者；证据：[Google Books](https://books.google.com/books?id=jC0ZAQAAMAAJ)。 |
+| → 作者（`authored_by`） | [詹弗兰科·托尔切兰（Gianfranco Torcellan）](../persons/gianfranco-torcellan.md) | 时间：1969；角色：作者；范围：身后出版的论文集；目录署Torcellan为作者，不推定其编辑或逐篇作者责任；证据：[来源](https://books.google.com/books?id=jC0ZAQAAMAAJ)；src-3a3dd256b56f2c45；书目责任者与出版信息 |

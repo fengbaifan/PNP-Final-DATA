@@ -93,9 +93,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [普林斯顿大学（Princeton University）](princeton-university.md) | 时间：来源访问时点2026-09-15；角色：所属大学；范围：大学所属艺术博物馆；不等同艺术与考古学系；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；institutions-princeton-university-art-museum；Director’s Welcome：university museum and teaching/research missions |
-| → 位于（`located_at`） | [普林斯顿（Princeton, New Jersey）](../places/princeton-new-jersey.md) | 时间：来源访问时点2026-09-15；角色：所在城镇；范围：博物馆所在地；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；institutions-princeton-university-art-museum；Director’s Welcome：Princeton, New Jersey |
-| ← 保管对象（`holder_of`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](../works/rosa-regulus-study-princeton.md) | 时间：来源访问时点2026-09-15；角色：当前保管机构；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；Object Number x1948-610及Citation |
+| → 组成部分（`part_of`） | [普林斯顿大学（Princeton University）](princeton-university.md) | 时间：来源访问时点2026-09-15；角色：所属大学；范围：大学所属艺术博物馆；不等同艺术与考古学系；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；src-741620917dd667ee；Director’s Welcome：university museum and teaching/research missions |
+| → 位于（`located_at`） | [普林斯顿（Princeton, New Jersey）](../places/princeton-new-jersey.md) | 时间：来源访问时点2026-09-15；角色：所在城镇；范围：博物馆所在地；证据：[来源](https://artmuseum.princeton.edu/about/directors-welcome?page=0)；src-741620917dd667ee；Director’s Welcome：Princeton, New Jersey |
+| ← 保管对象（`holder_of`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](../works/rosa-regulus-study-princeton.md) | 时间：来源访问时点2026-09-15；角色：当前保管机构；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；Object Number x1948-610及Citation |
 
 ### 关系候选入口
 

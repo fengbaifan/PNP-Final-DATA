@@ -54,4 +54,5 @@ relations: []
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← employer_of（`employer_of`，反向投影） | [亚历山德罗·贝塔尼奥（Alessandro Bettagno）](../persons/alessandro-bettagno.md) | 时间：1954年起任朱塞佩·菲奥科助手（终止时间未载）；1989–2002年任所长；原断言与证据见发出端人物卡S3。 |
+| ← 雇主（`employer_of`，反向投影） | [亚历山德罗·贝塔尼奥（Alessandro Bettagno）](../persons/alessandro-bettagno.md) | 时间：1954年起；结束时间未载；角色：研究助理，任朱塞佩·菲奥科的助手；范围：基金会资料称自研究所1954年成立时起任助手；没有为助手任期补设终止年份；原断言与证据见发出端卡片“亚历山德罗·贝塔尼奥（Alessandro Bettagno）”：[来源](https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/)；src-18fb505f7172f366；人物简介段 |
+| ← 雇主（`employer_of`，反向投影） | [亚历山德罗·贝塔尼奥（Alessandro Bettagno）](../persons/alessandro-bettagno.md) | 时间：1989–2002；角色：所长；范围：艺术史研究所负责人任期；原断言与证据见发出端卡片“亚历山德罗·贝塔尼奥（Alessandro Bettagno）”：[来源](https://www.cini.it/en/eventi/book-launch-venezia-settecento-studi-in-memoria-di-alessandro-bettagno/)；src-18fb505f7172f366；人物简介段 |

@@ -122,9 +122,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）](../archives/poerson-letter-1708.md) | 时间：1708；角色：写信人；范围：本书所引1708年法语来信的写信人；精确日期和收信人另据通信集第1317号；原断言与证据见发出端卡片“夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 191–192; 章前：第二版导言；印刷页xviii |
-| → 隶属／任职于（`member_of`） | [罗马法国学院（French Academy in Rome）](../institutions/french-academy-in-rome.md) | 时间：1704起；1708在任；角色：院长；范围：1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期；证据：[来源](https://villamedici.it/directeur/charles-francois-poerson/)；persons-charles-francois-poerson；Biographie任职段：1704年获任院长 |
-| → 通信（`corresponded_with`） | [路易-安托万·德·帕尔达扬·德·贡德兰（Louis-Antoine de Pardaillan de Gondrin）](louis-antoine-de-pardaillan-de-gondrin.md) | 时间：1708-10-20；角色：写信人→收信人；范围：此信支持一次通信，不自动证明朋友或赞助关系；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-poerson-letter-1708；第1317号信题头、日期及署名；印刷pp.239、241 |
+| → 隶属／任职于（`member_of`） | [罗马法国学院（French Academy in Rome）](../institutions/french-academy-in-rome.md) | 时间：1704起；1708在任；角色：院长；范围：1704获任院长，1708原书来信佐证仍在任；不确定1724／1725终期；证据：[来源](https://villamedici.it/directeur/charles-francois-poerson/)；src-95b2667f8f254d88；Biographie任职段：1704年获任院长 |
+| → 通信（`corresponded_with`） | [路易-安托万·德·帕尔达扬·德·贡德兰（Louis-Antoine de Pardaillan de Gondrin）](louis-antoine-de-pardaillan-de-gondrin.md) | 时间：1708-10-20；角色：写信人→收信人；范围：此信支持一次通信，不自动证明朋友或赞助关系；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；第1317号信题头、日期及署名；印刷pp.239、241 |
+| ← 所著文献（`author_of`，反向投影） | [夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）](../archives/poerson-letter-1708.md) | 时间：1708；角色：写信人；范围：本书所引1708年法语来信的写信人；精确日期和收信人另据通信集第1317号；原断言与证据见发出端卡片“夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 191–192; 章前：第二版导言；印刷页xviii |
 
 ### 关系候选入口
 

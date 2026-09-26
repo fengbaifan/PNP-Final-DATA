@@ -108,9 +108,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [科雷尔博物馆（Museo Correr）](museo-correr.md) | 角色：所属图书馆；范围：博物馆包含其威尼斯艺术与历史图书馆；证据：[来源](https://correr.visitmuve.it/en/library/)；institutions-correr-library；The Library：The Correr Museum incorporates the Library |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 范围：第一版序言所述研究场所所在地；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 23–23; 章前：第一版序言；印刷页ix；PDF 7 |
-| → supported_by（`supported_by`） | [泰奥多罗·科雷尔（Teodoro Correr）](../persons/teodoro-correr.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成图书馆1830年创立；与博物馆端点分别记录；证据：[来源](https://correr.visitmuve.it/en/library/)；institutions-correr-library；The Library首句：museum and library founded through bequest |
+| → 组成部分（`part_of`） | [科雷尔博物馆（Museo Correr）](museo-correr.md) | 角色：所属图书馆；范围：博物馆包含其威尼斯艺术与历史图书馆；证据：[来源](https://correr.visitmuve.it/en/library/)；src-a96f36b75b4b162a；The Library：The Correr Museum incorporates the Library |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 范围：第一版序言所述研究场所所在地；证据：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 23–23; 章前：第一版序言；印刷页ix；PDF 7 |
+| → supported_by（`supported_by`） | [泰奥多罗·科雷尔（Teodoro Correr）](../persons/teodoro-correr.md) | 时间：1830；角色：创立遗赠者；范围：遗赠促成图书馆1830年创立；与博物馆端点分别记录；证据：[来源](https://correr.visitmuve.it/en/library/)；src-a96f36b75b4b162a；The Library首句：museum and library founded through bequest |
 
 ### 关系候选入口
 

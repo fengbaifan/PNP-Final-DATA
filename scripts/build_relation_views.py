@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Project accepted formal relations into the readable relation table of each KU.
+"""Render relation rows into a KU card while preserving surrounding prose.
 
-Frontmatter remains authoritative. The script preserves prose after the first
-standard relation table and makes inverse navigation point back to its source
-card, so evidence labels cannot be mistaken for labels on the target card.
+The helper functions are used by the preview-first CSV-backed renderer in
+build_cards.py. The legacy standalone apply path remains disabled because it
+reads relation facts from card frontmatter.
 """
 from __future__ import annotations
 
@@ -26,11 +26,10 @@ except ModuleNotFoundError:
 BASE = Path(__file__).resolve().parents[1]
 UNITS = BASE / "04-knowledge" / "units"
 FRONTMATTER_RE = re.compile(r"^\ufeff?---\n(.*?)\n---\n", re.DOTALL)
-HEADING_RE = re.compile(r"^### (?:当前)?关系记录(?:（[^\n]+）)?\s*$", re.MULTILINE)
-TABLE_RE = re.compile(
-    r"^\| 方向与关系 \| 关联知识元 \| 语境与证据 \|\n"
-    r"^\|---\|---\|---\|\n"
-    r"(?:^\|.*\|\n)+",
+HEADING_RE = re.compile(r"^### (?:当前)?关系记录(?:（[^\n]+）)?[ \t]*$", re.MULTILINE)
+RELATION_TABLE_BLOCK_RE = re.compile(r"(?m)(?:^\|[^\n]*\|(?:\n|$))+")
+EMPTY_RELATION_RE = re.compile(
+    r"^(?:当前没有正式关系。正文中的导航与线索不自动形成关系边。|暂无正式关系。)[ \t]*$",
     re.MULTILINE,
 )
 
@@ -187,31 +186,95 @@ def _row(direction: str, relation_type: str, target_title: str, link: str, conte
     return f"| {_escape(relation_cell)} | [{_escape(target_title)}]({link}) | {_escape(context)} |"
 
 
-def render_table(rows: list[str]) -> str:
-    return "\n".join(
-        [
-            "| 方向与关系 | 关联知识元 | 语境与证据 |",
-            "|---|---|---|",
-            *rows,
-        ]
-    ) + "\n"
+def render_table(
+    rows: list[str],
+    header_line: str = "| 方向与关系 | 关联知识元 | 语境与证据 |",
+    separator_line: str = "|---|---|---|",
+) -> str:
+    return "\n".join([header_line, separator_line, *rows]) + "\n"
+
+
+def relation_view_layout(text: str) -> tuple[str | None, tuple[str, str] | None]:
+    """Return the existing relation heading and table header/separator, if present."""
+    text = text.replace("\r\n", "\n")
+    headings = list(HEADING_RE.finditer(text))
+    if not headings:
+        return None, None
+    if len(headings) != 1:
+        raise ValueError(f"expected one relation heading, found {len(headings)}")
+    heading = headings[0]
+    remainder = text[heading.end():]
+    next_heading = re.search(r"^#{1,3}\s+", remainder, re.MULTILINE)
+    body_end = next_heading.start() if next_heading else len(remainder)
+    tables = list(RELATION_TABLE_BLOCK_RE.finditer(remainder[:body_end]))
+    if len(tables) > 1:
+        raise ValueError(f"expected at most one relation table, found {len(tables)}")
+    if not tables:
+        return heading.group(0), None
+    lines = tables[0].group().splitlines()
+    if len(lines) < 2:
+        raise ValueError("relation table is missing its header separator")
+    header_cells = lines[0].strip().strip("|").split("|")
+    separator_cells = lines[1].strip().strip("|").split("|")
+    if len(header_cells) != 3 or len(separator_cells) != 3:
+        raise ValueError("relation table must have exactly three columns")
+    return heading.group(0), (lines[0], lines[1])
 
 
 def replace_relation_view(text: str, rows: list[str]) -> str:
     headings = list(HEADING_RE.finditer(text))
     if len(headings) != 1:
         raise ValueError(f"expected one relation heading, found {len(headings)}")
-    text = HEADING_RE.sub("### 关系记录", text, count=1)
-    table = TABLE_RE.search(text)
-    if rows:
-        if table is None:
-            heading = HEADING_RE.search(text)
-            assert heading is not None
-            return text[:heading.end()] + "\n\n" + render_table(rows) + text[heading.end():].lstrip("\n")
-        return text[:table.start()] + render_table(rows) + text[table.end():]
-    if table is not None:
-        return text[:table.start()] + "当前没有正式关系。正文中的导航与线索不自动形成关系边。\n" + text[table.end():]
-    return text
+    heading = headings[0]
+    remainder = text[heading.end():]
+    next_heading = re.search(r"^#{1,3}\s+", remainder, re.MULTILINE)
+    body_end = heading.end() + (next_heading.start() if next_heading else len(remainder))
+    body = text[heading.end():body_end]
+
+    # The relation subsection is a projection of relations.csv. Replace every
+    # table in this subsection, including legacy layouts, while leaving all
+    # surrounding prose and blank lines untouched.
+    tables = list(RELATION_TABLE_BLOCK_RE.finditer(body))
+    if len(tables) > 1:
+        raise ValueError(f"expected at most one relation table, found {len(tables)}")
+    empty_notes = list(EMPTY_RELATION_RE.finditer(body))
+    if tables:
+        table_lines = tables[0].group().splitlines()
+        if len(table_lines) < 2:
+            raise ValueError("relation table is missing its header separator")
+        header_cells = table_lines[0].strip().strip("|").split("|")
+        separator_cells = table_lines[1].strip().strip("|").split("|")
+        if len(header_cells) != 3 or len(separator_cells) != 3:
+            raise ValueError("relation table must have exactly three columns")
+        # The table header and separator describe the card's retained layout;
+        # the CSV projection replaces data rows only.
+        replacement = render_table(rows, table_lines[0], table_lines[1])
+    else:
+        replacement = render_table(rows) if rows else "当前没有正式关系。正文中的导航与线索不自动形成关系边。"
+
+    if tables:
+        edits = [(match.start(), match.end(), replacement if index == 0 else "")
+                 for index, match in enumerate(tables)]
+        edits.extend((match.start(), match.end(), "") for match in empty_notes)
+    elif empty_notes:
+        edits = [(match.start(), match.end(), replacement if index == 0 else "")
+                 for index, match in enumerate(empty_notes)]
+    else:
+        # Keep the section's existing prose in place; add the derived view
+        # immediately after the heading, before any explanatory prose.
+        tail = text[heading.end():]
+        suffix = "\n" + tail.lstrip("\n") if rows and tail.lstrip("\n") else ("" if rows else tail)
+        return (
+            text[:heading.end()]
+            + "\n\n"
+            + replacement
+            + suffix
+        )
+
+    rebuilt = body
+    for start, end, value in sorted(edits, reverse=True):
+        rebuilt = rebuilt[:start] + value + rebuilt[end:]
+    return text[:heading.end()] + rebuilt + text[body_end:]
 
 
 def _atomic_write(planned: dict[Path, str]) -> None:
@@ -241,6 +304,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="write after full validation; default is dry-run")
     args = parser.parse_args()
+    if args.apply:
+        raise SystemExit(
+            "The legacy apply path reads relation facts from card frontmatter. "
+            "It is retired; use scripts/build_cards.py --preview --ku <ku_id> for the CSV-backed renderer."
+        )
 
     paths = select_paths(BASE, "units", list(UNITS.rglob("*.md")))
     units: dict[str, tuple[Path, str, str, list[dict]]] = {}

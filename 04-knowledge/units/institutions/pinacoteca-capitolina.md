@@ -119,11 +119,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 组成部分（`part_of`） | [卡比托利欧博物馆（Capitoline Museums）](capitoline-museums.md) | 角色：绘画收藏部门；范围：馆方现行收藏部门；不同于建筑空间；证据：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；institutions-pinacoteca-capitolina；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
-| → 位于（`located_at`） | [保守宫（Palazzo dei Conservatori）](../places/palazzo-dei-conservatori.md) | 时间：页面访问2026-09-15；角色：陈列场所：二楼；范围：馆方页面所述绘画收藏陈列位置；证据：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；institutions-pinacoteca-capitolina；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
-| ← 保管对象（`holder_of`，反向投影） | [以扫与雅各相会（Meeting of Esau and Jacob）](../works/gio-maria-bottalla-meeting-of-esau-and-jacob.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“以扫与雅各相会（Meeting of Esau and Jacob）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 54–55; 章前：图版目录；印刷页xii |
-| ← 保管对象（`holder_of`，反向投影） | [劫夺萨宾妇女（Rape of the Sabines）](../works/pietro-da-cortona-rape-of-the-sabines.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“劫夺萨宾妇女（Rape of the Sabines）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
-| ← 保管对象（`holder_of`，反向投影） | [约瑟被兄弟出卖（Joseph Sold by his Brothers）](../works/pietro-testa-joseph-sold-by-his-brothers.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“约瑟被兄弟出卖（Joseph Sold by his Brothers）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 56–56; 章前：图版目录；印刷页xii |
+| → 组成部分（`part_of`） | [卡比托利欧博物馆（Capitoline Museums）](capitoline-museums.md) | 角色：绘画收藏部门；范围：馆方现行收藏部门；不同于建筑空间；证据：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；src-cae6ff722f9a3736；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
+| → 位于（`located_at`） | [保守宫（Palazzo dei Conservatori）](../places/palazzo-dei-conservatori.md) | 时间：页面访问2026-09-15；角色：陈列场所：二楼；范围：馆方页面所述绘画收藏陈列位置；证据：[来源](https://www.museicapitolini.org/it/percorsi/pinacoteca-capitolina)；src-cae6ff722f9a3736；完整馆藏部门介绍正文及所在楼层说明；不含链接的各展室详情 |
+| ← 保管对象（`holder_of`，反向投影） | [以扫与雅各相会（Meeting of Esau and Jacob）](../works/gio-maria-bottalla-meeting-of-esau-and-jacob.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“以扫与雅各相会（Meeting of Esau and Jacob）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 54–55; 章前：图版目录；印刷页xii |
+| ← 保管对象（`holder_of`，反向投影） | [劫夺萨宾妇女（Rape of the Sabines）](../works/pietro-da-cortona-rape-of-the-sabines.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“劫夺萨宾妇女（Rape of the Sabines）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 51–51; 章前：图版目录；印刷页xii |
+| ← 保管对象（`holder_of`，反向投影） | [约瑟被兄弟出卖（Joseph Sold by his Brothers）](../works/pietro-testa-joseph-sold-by-his-brothers.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；原断言与证据见发出端卡片“约瑟被兄弟出卖（Joseph Sold by his Brothers）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 56–56; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

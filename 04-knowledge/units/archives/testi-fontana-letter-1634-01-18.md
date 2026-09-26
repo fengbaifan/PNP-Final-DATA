@@ -67,5 +67,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 书信署名Don Fulvio Testi；时间：1634-01-18；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年《书信集》第二卷，第28–29页，lines 8–15 |
-| → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳伯爵（Count Francesco Fontana）](../persons/francesco-fontana.md) | 题头明确为Count Francesco Fontana；时间：1634-01-18；题头另标Modena，不据此断定收信人居住地；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年《书信集》第二卷，第28–29页，lines 2–8 |
+| → 作者（`authored_by`） | [富尔维奥·泰斯蒂（Fulvio Testi）](../persons/fulvio-testi.md) | 时间：1634-01-18；角色：发信人／作者；证据：[来源](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)；lines 8–15; signed by Don Fulvio Testi |
+| → 致函（`addressed_to`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](../persons/francesco-fontana.md) | 时间：1634-01-18；角色：收信人；范围：书信题头另标[Modena]；不单独据此断定收信人的常住地；证据：[来源](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)；lines 2–8; addressee heading names Count Francesco Fontana |

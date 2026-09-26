@@ -140,11 +140,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 范围：图版54，科隆2806；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 132–132; print p. xv |
-| → 由其保管（`held_by`） | [瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）](../institutions/wallraf-richartz-museum.md) | 范围：目录对应作品2806的保管机构；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF4：Idillio、inv.2806 |
-| → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：不晚于1745；角色：委托人；范围：科隆Idillio，为Schulenburg所作；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF5：Notizie storico-critiche |
-| → 配对作品（`pendant_of`） | [田园场景（Pastoral Scene）](piazzetta-pastoral-scene-chicago.md) | 角色：配对画作；范围：科隆2806与芝加哥1937.68；后者身份由馆方23333记录核对；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF5：Idillio与Scena pastorale配对说明 |
-| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版54的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 范围：图版54，科隆2806；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 132–132; print p. xv |
+| → 由其保管（`held_by`） | [瓦尔拉夫—里夏茨博物馆（Wallraf-Richartz Museum）](../institutions/wallraf-richartz-museum.md) | 范围：目录对应作品2806的保管机构；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF4：Idillio、inv.2806 |
+| → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：不晚于1745；角色：委托人；范围：科隆Idillio，为Schulenburg所作；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF5：Notizie storico-critiche |
+| → 配对作品（`pendant_of`） | [田园场景（Pastoral Scene）](piazzetta-pastoral-scene-chicago.md) | 角色：配对画作；范围：科隆2806与芝加哥1937.68；后者身份由馆方23333记录核对；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF5：Idillio与Scena pastorale配对说明 |
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版54的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 168–169; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

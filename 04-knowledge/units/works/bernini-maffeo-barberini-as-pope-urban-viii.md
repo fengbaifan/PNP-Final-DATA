@@ -100,10 +100,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 角色：原书署名作者；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 38–39; 章前：图版目录；印刷页xii |
-| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：教宗肖像人物；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 38–39; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [保守宫（Palazzo dei Conservatori）](../places/palazzo-dei-conservatori.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 38–39; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 38–39; 章前：图版目录；印刷页xii |
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 角色：原书署名作者；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：教宗肖像人物；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [保守宫（Palazzo dei Conservatori）](../places/palazzo-dei-conservatori.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

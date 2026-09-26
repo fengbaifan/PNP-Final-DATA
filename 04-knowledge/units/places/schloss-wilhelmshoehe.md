@@ -64,5 +64,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 时间：来源访问时点2026-09-15；角色：馆舍建筑；范围：博物馆使用的宫殿空间；建筑与机构分别登记；原断言与证据见发出端卡片“威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）”：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；institutions-museum-schloss-wilhelmshoehe；Von der Sommerresidenz zur Gemäldegalerie |
-| → 位于（`located_at`） | [卡塞尔（Kassel）](kassel.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：宫殿建筑地址；证据：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；places-schloss-wilhelmshoehe；Kontakt：Schlosspark1,34131Kassel |
+| ← 所在地（`location_of`，反向投影） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 时间：来源访问时点2026-09-15；角色：馆舍建筑；范围：博物馆使用的宫殿空间；建筑与机构分别登记；原断言与证据见发出端卡片“威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）”：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；src-2ca7ec588038f38c；Von der Sommerresidenz zur Gemäldegalerie |
+| → 位于（`located_at`） | [卡塞尔（Kassel）](kassel.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：宫殿建筑地址；证据：[来源](https://www.heritage-kassel.de/standorte/schloss-wilhelmshoehe)；src-2ca7ec588038f38c；Kontakt：Schlosspark1,34131Kassel |

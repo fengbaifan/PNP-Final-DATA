@@ -66,8 +66,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 角色：画廊装饰委托者；范围：布奥纳科尔西宫埃涅阿斯画廊；原断言与证据见发出端卡片“布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi |
-| ← 委托者（`commissioner_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description与Provenance：painted for Count Raimondo Buonaccorsi |
+| ← 委托者（`commissioner_of`，反向投影） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 角色：画廊装饰委托者；范围：布奥纳科尔西宫埃涅阿斯画廊；原断言与证据见发出端卡片“布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi |
+| ← 委托者（`commissioner_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description与Provenance：painted for Count Raimondo Buonaccorsi |
 
 ### 关系候选入口
 

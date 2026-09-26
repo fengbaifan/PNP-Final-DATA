@@ -49,7 +49,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将奥尔西列为朋友，并记其帮助卡拉瓦乔进入收藏与赞助网络；时间：1590年代起；角色：朋友与市场引介者；范围：不由此推定共同创作；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；friend-of-persons-prospero-orsi-md；Beginnings in Rome与相关生平段 |
+| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将奥尔西列为朋友，并记其帮助卡拉瓦乔进入收藏与赞助网络；时间：1590年代起；角色：朋友与市场引介者；范围：不由此推定共同创作；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；Beginnings in Rome与相关生平段 |
 
 ### 身份与外部链接
 

@@ -66,7 +66,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版49a；馆藏4666；原断言与证据见发出端卡片“普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 127–127; 章前：图版目录；印刷页xv |
+| ← 保管对象（`holder_of`，反向投影） | [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版49a；馆藏4666；原断言与证据见发出端卡片“普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 127–127; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

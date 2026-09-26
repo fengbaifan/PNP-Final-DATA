@@ -43,4 +43,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← child_of（`child_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：女儿；范围：第一任配偶所生；女儿为画家；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 69–72 |
+| ← child_of（`child_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：女儿；范围：第一任配偶所生；女儿为画家；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 69–72 |

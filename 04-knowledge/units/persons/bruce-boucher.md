@@ -123,10 +123,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 就读于（`educated_at`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 角色：硕士与博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)；persons-bruce-boucher；完整大学任命新闻正文；可见页未显示明确发布日期 |
-| → 受雇于（`employed_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：2002年起；角色：欧洲雕塑策展人；范围：大学任命新闻回顾既有职务，不推定离任年；证据：[来源](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)；persons-bruce-boucher；完整大学任命新闻正文；可见页未显示明确发布日期 |
-| → 受雇于（`employed_by`） | [约翰·索恩爵士博物馆（Sir John Soane’s Museum）](../institutions/sir-john-soanes-museum.md) | 时间：2016-05-16就任；2017-03-31仍在任；角色：馆长；范围：年度报告时点，不将期末当离任；证据：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；persons-bruce-boucher；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
+| → 就读于（`educated_at`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 角色：硕士与博士学位教育；范围：就读机构；不混为受雇、组织院士或个人师承；证据：[来源](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)；src-4ee0feea91b96fe1；完整大学任命新闻正文；可见页未显示明确发布日期 |
+| → 受雇于（`employed_by`） | [芝加哥艺术博物馆（Art Institute of Chicago）](../institutions/art-institute-of-chicago.md) | 时间：2002年起；角色：欧洲雕塑策展人；范围：大学任命新闻回顾既有职务，不推定离任年；证据：[来源](https://www.newswise.com/articles/architectural-historian-and-museum-curator-bruce-ambler-boucher-appointed-director-of-the-university-of-virginia-art-museum)；src-4ee0feea91b96fe1；完整大学任命新闻正文；可见页未显示明确发布日期 |
+| → 受雇于（`employed_by`） | [约翰·索恩爵士博物馆（Sir John Soane’s Museum）](../institutions/sir-john-soanes-museum.md) | 时间：2016-05-16就任；2017-03-31仍在任；角色：馆长；范围：年度报告时点，不将期末当离任；证据：[来源](https://www.soane.org/sites/default/files/2023-06/soane-museum-annual-report-accounts-2017.pdf)；src-4f84c0cad49ac94c；PDF第6、8、11、43页；印刷页4、6、9、41；人员、地址、机构历史与任命段 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

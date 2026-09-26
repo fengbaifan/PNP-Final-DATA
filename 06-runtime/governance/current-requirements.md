@@ -14,7 +14,7 @@
 | R-08 | 修订原话与目的专门保留 | REV-001、002 | user-revisions.md |
 | R-09 | 后续最终有页面展示 | REV-003 | [compose](../../.agents/skills/compose/SKILL.md) |
 | R-10 | 已从讨论进入实际重构 | REV-005 | [系统升级日志](system-upgrade-log.md) |
-| R-11 | 每条实际可见用户消息均记录，普通问答不自动升级为规则 | REV-005 | AGENTS、user-revisions.md |
+| R-11 | 用户修订记录与系统升级日志冻结为历史；新规则变化进 CHANGELOG，普通问答不逐条登记 | 当前治理规则 | [AGENTS](../../AGENTS.md)、[CHANGELOG](CHANGELOG.md) |
 | R-12 | Codex 的 AGENTS 为唯一总入口，唯一 Skill 根，消除冗余系统 | REV-005、022 | AGENTS、[Skill 注册契约](../../.agents/skills/system-upgrade/references/skill-registry-schema.md) |
 | R-13 | 业务目录从 01 开始，对应现行职责 | REV-006、007 | 目录规则 |
 | R-14 | KU/关系→Topic→Theme→Dimension→Domain 自下而上涌现，无预设节点/数量/归属 | REV-009 | [synthesize](../../.agents/skills/synthesize/SKILL.md) |

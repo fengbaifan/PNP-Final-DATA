@@ -113,6 +113,6 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | RISD Museum将其列为对象52.195创作者；S1 |
-| → 描绘（`has_subject`） | [马达莱娜·泰利（Maddalena Telli）](../persons/maddalena-telli.md) | 馆藏题名、题记和馆方说明共同指向该对象；S1 |
-| → 保管（`held_by`） | [罗德岛设计学院博物馆（Rhode Island School of Design Museum）](../institutions/rhode-island-school-of-design-museum.md) | 编号52.195；1952年入藏；该关系不表示法律产权；S1 |
+| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：1617；角色：素描创作者；范围：RISD Museum馆藏对象52.195；证据：[来源](https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195)；src-a1801a0540e76324；Maker、Year、Object Number：52.195 |
+| → 所涉对象（`has_subject`） | [马达莱娜·泰利（Maddalena Telli）](../persons/maddalena-telli.md) | 时间：1617；角色：肖像对象；范围：馆藏题名为Maddalena Telli；题记为madalena；证据：[来源](https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195)；src-a1801a0540e76324；Title、Inscription、Exhibition label：对象52.195 |
+| → 由其保管（`held_by`） | [罗德岛设计学院博物馆（Rhode Island School of Design Museum）](../institutions/rhode-island-school-of-design-museum.md) | 时间：1952年入藏；馆藏记录访问于2026-09-25；角色：当前保管机构；范围：馆藏记录所列对象52.195；不据此断言当前法律所有权；证据：[来源](https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195)；src-a1801a0540e76324；Credit、Object Number、Provenance：对象52.195，1952年赠予RISD Museum |

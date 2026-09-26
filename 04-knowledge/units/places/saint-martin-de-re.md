@@ -44,4 +44,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1839-10-02；角色：出生地；范围：人物出生地点，未写成长期活动地；原断言与证据见发出端卡片“泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）”：[来源](https://catalogue.bnf.fr/ark:/12148/cb161688058)；persons-ernest-cognacq；Naissance |
+| ← 所在地（`location_of`，反向投影） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1839-10-02；角色：出生地；范围：人物出生地点，未写成长期活动地；原断言与证据见发出端卡片“泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）”：[来源](https://catalogue.bnf.fr/ark:/12148/cb161688058)；src-6e954c7d7b3c457b；Naissance |

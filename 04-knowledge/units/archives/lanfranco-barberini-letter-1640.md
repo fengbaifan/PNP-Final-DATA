@@ -72,5 +72,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；treccani-dbi-lanfranco；1640 petition paragraph |
-| → 致函（`addressed_to`） | [弗朗切斯科·巴贝里尼（Francesco Barberini）](../persons/francesco-barberini.md) | DBI明确1640年7月14日请愿书致主持圣彼得营造处会议的Francesco Barberini；时间：1640-07-14；角色：收信人／申请对象；范围：圣彼得Saint Leo祭坛画委托申请；不表示实际授予委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；treccani-dbi-lanfranco；本卡 S2；1640 petition paragraph |
+| → 作者（`authored_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 1640-07-14由Naples发出；DBI将受文与请求对象明确为主持Fabbrica会议的Francesco Barberini；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；1640 petition paragraph |
+| → 致函（`addressed_to`） | [弗朗切斯科·巴贝里尼（Francesco Barberini）](../persons/francesco-barberini.md) | DBI明确1640年7月14日请愿书致主持圣彼得营造处会议的Francesco Barberini；时间：1640-07-14；角色：收信人／申请对象；范围：圣彼得Saint Leo祭坛画委托申请；不表示实际授予委托；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-lanfranco_(Dizionario-Biografico)/)；本卡 S2；1640 petition paragraph |

@@ -123,4 +123,4 @@ Religionis zelus、早期会宪、Michele da Bergamo的建筑Memoria及会史是
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；commissioned-by-institutions-capuchins-md；本卡S2；有S4时并参委托／历史段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参委托／历史段 |

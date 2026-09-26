@@ -71,7 +71,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 书信作者；1666-04-01；罗萨自述创作动机。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1666-04-01；罗萨自述创作动机；时间：1666-04-01；角色：收信人；范围：Rosa自述创作动机的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
-| → 所涉对象（`has_subject`） | [创作独立（Artistic independence）](../terms/artistic-independence.md) | 罗萨以拒绝预付和保留创作选择表达不受既定委托束缚的立场；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 927–947; print pp. 22 |
-| → 所涉对象（`has_subject`） | [灵感与热情（Inspiration / entusiasmo）](../terms/inspiration.md) | 信中把动笔条件归于热情与灵感；这是罗萨自述，不推广为一般规则；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
+| → 作者（`authored_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 书信作者；1666-04-01；罗萨自述创作动机。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 937–947; print pp. 22 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1666-04-01；罗萨自述创作动机；时间：1666-04-01；角色：收信人；范围：Rosa自述创作动机的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 937–947; print pp. 22 |
+| → 所涉对象（`has_subject`） | [创作独立（Artistic independence）](../terms/artistic-independence.md) | 罗萨以拒绝预付和保留创作选择表达不受既定委托束缚的立场；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 927–947; print pp. 22 |
+| → 所涉对象（`has_subject`） | [灵感与热情（Inspiration / entusiasmo）](../terms/inspiration.md) | 信中把动笔条件归于热情与灵感；这是罗萨自述，不推广为一般规则；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 937–947; print pp. 22 |

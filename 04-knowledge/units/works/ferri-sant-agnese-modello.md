@@ -62,5 +62,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 1670年合同要求费里提交彩色稿并按批准方案施工；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–440; print pp. 12 |
-| → 委托人（`commissioned_by`） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | 1670年9月11日穹顶合同与G. B. Pamphili订立；彩色稿是合同要求的预备稿阶段，具体稿本身份未明；证据：[Treccani，Ciro Ferri](https://www.treccani.it/enciclopedia/ciro-ferri_%28Dizionario-Biografico%29/)及[原书](../../../02-sources/02-Markdown/01_CHP-1.md)，lines 437–440; print pp. 12 |
+| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 1670年合同要求费里提交彩色稿并按批准方案施工；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–440; print pp. 12 |
+| → 由其委托（`commissioned_by`） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | DBI称1670年穹顶壁画合同与G. B. Pamphili订立；原书说明该合同要求提交彩色稿。此边指合同要求的预备稿阶段，不指向一件已辨明的存世稿本；时间：1670-09-11；角色：合同委托方；范围：穹顶工程合同要求提交彩色modello；未辨明其对应的具体存世实物；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；1670年9月11日合同段；与原书 lines 437–440 对读 |

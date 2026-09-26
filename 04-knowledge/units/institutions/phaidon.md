@@ -60,5 +60,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：出版者；范围：所列版本出版项；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；archives-harris-andrea-sacchi-1977；完整教师页面：研究、教育、项目与出版清单；未下载CV |
-| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 角色：创办地；范围：官网称在维也纳创办，未用相对时间倒算成立年；证据：[来源](https://www.phaidon.com/en-int/pages/our-company)；institutions-phaidon；完整About Phaidon段及相关品牌概述；无下载全目录 |
+| → 位于（`located_at`） | [维也纳（Vienna）](../places/vienna.md) | 角色：创办地；范围：官网称在维也纳创办，未用相对时间倒算成立年；证据：[来源](https://www.phaidon.com/en-int/pages/our-company)；src-b2953cbb624d7899；完整About Phaidon段及相关品牌概述；无下载全目录 |
+| ← publisher_of（`publisher_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：出版者；范围：所列版本出版项；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |

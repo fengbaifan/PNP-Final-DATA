@@ -100,10 +100,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 角色：原书署名作者；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 59–60; 章前：图版目录；印刷页xii |
-| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：统治颂扬对象；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 59–60; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 59–60; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 59–60; 章前：图版目录；印刷页xii |
+| → 创作者（`created_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 角色：原书署名作者；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：统治颂扬对象；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

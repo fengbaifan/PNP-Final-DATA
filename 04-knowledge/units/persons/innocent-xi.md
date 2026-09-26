@@ -61,7 +61,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-暂无正式关系。
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
 
 ### 身份与外部链接
 

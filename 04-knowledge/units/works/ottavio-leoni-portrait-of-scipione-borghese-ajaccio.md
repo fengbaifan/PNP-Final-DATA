@@ -121,6 +121,6 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奥塔维奥·莱奥尼](../persons/ottavio-leoni.md) | 馆方列Leoni为作者；DBI记Ajaccio版本；S1–S2 |
-| → 描绘对象（`depicts`） | [希皮奥内·博尔盖塞枢机](../persons/cardinal-borghese-ch1.md) | 馆藏题名明示枢机；MFA 852.1.265；S2 |
-| → 保管（`held_by`） | [费施博物馆](../institutions/musee-fesch.md) | 当前馆藏记录及编号；保管不等于产权；S2 |
+| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：Treccani记1609–1610；Zeri目录跨度1598–1630；角色：馆方列明的创作者；DBI按两版本叙述；范围：Musée Fesch馆藏油画，MFA 852.1.265；与Louvre 1617年纸本素描分立；证据：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；lines 190–199 |
+| → 所涉对象（`has_subject`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 角色：肖像所表现的人物；范围：题名与馆藏对象MFA 852.1.265；证据：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；lines 190–199 |
+| → 由其保管（`held_by`） | [费施博物馆（Musée Fesch, Museum of Fine Arts of Ajaccio）](../institutions/musee-fesch.md) | 时间：来源访问日2026-09-25；角色：当前保管机构；范围：Musée Fesch当前馆藏记录；保管不自动等于法律产权；证据：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；lines 197–206 |

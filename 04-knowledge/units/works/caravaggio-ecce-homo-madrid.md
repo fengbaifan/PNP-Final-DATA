@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Ecce Homo (Madrid object)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2021年撤拍后经研究修复；普拉多展示／保管不等于博物馆所有。；证据：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [普拉多国家博物馆（Museo del Prado）](../institutions/museo-del-prado.md) | 当前对象记录将Ecce Homo (Madrid object)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：私人所有；由普拉多研究并展示；证据：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；held-by-institutions-museo-del-prado-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Ecce Homo (Madrid object)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2021年撤拍后经研究修复；普拉多展示／保管不等于博物馆所有。；证据：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；src-775349e1af10e662；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [普拉多国家博物馆（Museo del Prado）](../institutions/museo-del-prado.md) | 当前对象记录将Ecce Homo (Madrid object)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：私人所有；由普拉多研究并展示；证据：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；src-775349e1af10e662；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

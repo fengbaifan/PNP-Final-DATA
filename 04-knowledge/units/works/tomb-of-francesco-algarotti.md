@@ -137,13 +137,13 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 角色：所描绘墓；范围：图版60图像内容；不将比萨解释为版画印本所在地；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| → 创作者（`created_by`） | [毛罗·安东尼奥·泰西（Mauro Antonio Tesi）](../persons/mauro-antonio-tesi.md) | 角色：墓设计者；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-tomb-of-francesco-algarotti；作品说明：Tesi设计 |
-| → 创作者（`created_by`） | [卡洛·比安科尼（Carlo Bianconi）](../persons/carlo-bianconi.md) | 角色：墓建造负责人；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-tomb-of-francesco-algarotti；作品说明：Bianconi负责建造 |
-| → 由其委托（`commissioned_by`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：墓设计委托人；范围：委托Tesi设计墓；证据：[来源](https://id.rijksmuseum.nl/200471954)；works-tomb-of-francesco-algarotti；2015-08-27馆方说明 |
-| → 安置于（`installed_at`） | [比萨坎波桑托（Camposanto, Pisa）](../places/camposanto-pisa.md) | 角色：墓所在场所；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；works-tomb-of-francesco-algarotti；题名及墓建造说明 |
-| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：纪念对象；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [比萨（Pisa）](../places/pisa.md) | 时间：本书所述时点；角色：墓所在城市；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 138–138; 章前：图版目录；印刷页xv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）](g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa.md) | 角色：所描绘墓；范围：图版60图像内容；不将比萨解释为版画印本所在地；原断言与证据见发出端卡片“阿尔加罗蒂墓前悼念者（Mourners at Tomb of Francesco Algarotti in Pisa）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [毛罗·安东尼奥·泰西（Mauro Antonio Tesi）](../persons/mauro-antonio-tesi.md) | 角色：墓设计者；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；作品说明：Tesi设计 |
+| → 创作者（`created_by`） | [卡洛·比安科尼（Carlo Bianconi）](../persons/carlo-bianconi.md) | 角色：墓建造负责人；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；作品说明：Bianconi负责建造 |
+| → 由其委托（`commissioned_by`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：墓设计委托人；范围：委托Tesi设计墓；证据：[来源](https://id.rijksmuseum.nl/200471954)；src-24e95680a557dc76；2015-08-27馆方说明 |
+| → 安置于（`installed_at`） | [比萨坎波桑托（Camposanto, Pisa）](../places/camposanto-pisa.md) | 角色：墓所在场所；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；题名及墓建造说明 |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：纪念对象；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [比萨（Pisa）](../places/pisa.md) | 时间：本书所述时点；角色：墓所在城市；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

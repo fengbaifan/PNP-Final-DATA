@@ -123,11 +123,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 时间：1980版；角色：出版者；范围：1980年修订扩充版；本件印刷年2006另记；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 3–17; unnumbered title and copyright pages |
-| → 组成部分（`part_of`） | [耶鲁大学（Yale University）](yale-university.md) | 时间：1961起；角色：所属出版部门；范围：出版社为大学所属部门，同时保持财务和运营自主；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；II. Growth and Diversification，1961段 |
-| → 位于（`located_at`） | [纽黑文（New Haven）](../places/new-haven.md) | 时间：1910起；角色：迁入城市；范围：1910年迁往纽黑文；不外推当时的具体街址；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；The First Half-Century的1910迁址段 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1961起；角色：伦敦分部；范围：1961年设伦敦分部；不是纽黑文总部搬迁至伦敦；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；institutions-yale-university-press；II. Growth and Diversification，1961段 |
-| ← 雇主（`employer_of`，反向投影） | [约翰·尼科尔（John Nicoll）](../persons/john-nicoll.md) | 时间：1973起；官方历史记此后约30年；角色：伦敦办事处负责人；范围：受聘负责出版社伦敦办事处；未补造精确离职日期；原断言与证据见发出端卡片“约翰·尼科尔（John Nicoll）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；yup-history-nicoll；II. Growth and Diversification：In 1973, John Nicoll was hired to oversee the Press’s London office |
+| ← 雇主（`employer_of`，反向投影） | [约翰·尼科尔（John Nicoll）](../persons/john-nicoll.md) | 时间：1973起；官方历史记此后约30年；角色：伦敦办事处负责人；范围：受聘负责出版社伦敦办事处；未补造精确离职日期；原断言与证据见发出端卡片“约翰·尼科尔（John Nicoll）”：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；II. Growth and Diversification：In 1973, John Nicoll was hired to oversee the Press’s London office |
+| → 组成部分（`part_of`） | [耶鲁大学（Yale University）](yale-university.md) | 时间：1961起；角色：所属出版部门；范围：出版社为大学所属部门，同时保持财务和运营自主；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；II. Growth and Diversification，1961段 |
+| → 位于（`located_at`） | [纽黑文（New Haven）](../places/new-haven.md) | 时间：1910起；角色：迁入城市；范围：1910年迁往纽黑文；不外推当时的具体街址；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；The First Half-Century的1910迁址段 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1961起；角色：伦敦分部；范围：1961年设伦敦分部；不是纽黑文总部搬迁至伦敦；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；II. Growth and Diversification，1961段 |
+| ← publisher_of（`publisher_of`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 时间：1980版；角色：出版者；范围：1980年修订扩充版；本件印刷年2006另记；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；haskell-1980-rev-ed；lines 3–17; unnumbered title and copyright pages |
 
 ### 关系候选入口
 

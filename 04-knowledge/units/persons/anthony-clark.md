@@ -97,7 +97,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受雇于（`employed_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1973–1975；角色：欧洲绘画策展人；范围：欧洲绘画部门任职；证据：[来源](https://www.getty.edu/research/collections/static/pdf/2023.M.59.pdf)；persons-anthony-clark；PDF p.4 Biographical Note |
+| → 受雇于（`employed_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1973–1975；角色：欧洲绘画策展人；范围：欧洲绘画部门任职；证据：[来源](https://www.getty.edu/research/collections/static/pdf/2023.M.59.pdf)；src-b4334777e13189ca；PDF p.4 Biographical Note |
 
 ### 关系候选入口
 

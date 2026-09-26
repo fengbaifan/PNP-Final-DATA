@@ -129,11 +129,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [迭戈·委拉斯开兹（Diego Velázquez）](../persons/velasquez.md) | 时间：1650；角色：画家；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；Artwork Details：Artist及Date |
-| → 所涉对象（`has_subject`） | [胡安·德·帕雷哈（Juan de Pareja）](../persons/juan-de-pareja.md) | 角色：肖像人物；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；题名及页面导言 |
-| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 角色：所引馆藏记录保管机构；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；Artwork Details及馆藏号 |
-| → 由其取得（`acquired_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1971；角色：购入机构；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；works-velasquez-juan-de-pareja；Artwork Details：Credit line |
-| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版34；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 96–96; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [迭戈·委拉斯开兹（Diego Velázquez）](../persons/velasquez.md) | 时间：1650；角色：画家；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；Artwork Details：Artist及Date |
+| → 所涉对象（`has_subject`） | [胡安·德·帕雷哈（Juan de Pareja）](../persons/juan-de-pareja.md) | 角色：肖像人物；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；题名及页面导言 |
+| → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 角色：所引馆藏记录保管机构；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；Artwork Details及馆藏号 |
+| → 由其取得（`acquired_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1971；角色：购入机构；范围：1971.86；证据：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；Artwork Details：Credit line |
+| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版34；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 96–96; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

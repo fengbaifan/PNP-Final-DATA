@@ -94,9 +94,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Young Saint John the Baptist with a Ram归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。；证据：[来源](https://www.museicapitolini.org/it/node/47105)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 当前对象记录将Young Saint John the Baptist with a Ram列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.museicapitolini.org/it/node/47105)；held-by-institutions-capitoline-museums-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [奇里亚科·马泰（Ciriaco Mattei）](../persons/ciriaco-mattei.md) | 来源明确该端点承担Young Saint John the Baptist with a Ram的委托角色；不由委托推定当前所有权；时间：1602；角色：委托人／委托机构；范围：卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。；证据：[来源](https://www.museicapitolini.org/it/node/47105)；commissioned-by-persons-ciriaco-mattei-md；本卡S2；有S4时并参委托／历史段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Young Saint John the Baptist with a Ram归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。；证据：[来源](https://www.museicapitolini.org/it/node/47105)；src-dbe6e855f2b14def；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 当前对象记录将Young Saint John the Baptist with a Ram列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.museicapitolini.org/it/node/47105)；src-dbe6e855f2b14def；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [奇里亚科·马泰（Ciriaco Mattei）](../persons/ciriaco-mattei.md) | 来源明确该端点承担Young Saint John the Baptist with a Ram的委托角色；不由委托推定当前所有权；时间：1602；角色：委托人／委托机构；范围：卡拉瓦乔至少八幅施洗者约翰题材作品之一，与博尔盖塞晚期版本分开。；证据：[来源](https://www.museicapitolini.org/it/node/47105)；src-dbe6e855f2b14def；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

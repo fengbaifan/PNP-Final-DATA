@@ -147,4 +147,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/raccoltadiletter07bott)；bottari-raccolta-lettere-vii；本卡 S2；vol. VII, letter X, pp. 357–362 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 信中直接讨论“优秀绘画是否须以疯狂或怪癖为基础”的观念；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/raccoltadiletter07bott)；本卡 S2；vol. VII, letter X, pp. 357–362 |

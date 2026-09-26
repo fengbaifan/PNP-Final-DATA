@@ -68,5 +68,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | 书信作者；1649-09-25；每位主要人物报价交涉。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1649-09-25；每位主要人物报价交涉；时间：1649-09-25；角色：收信人；范围：按每位主要人物报价的交涉；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
+| → 作者（`authored_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | 书信作者；1649-09-25；每位主要人物报价交涉。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 548–552,569–570; print pp. 14 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1649-09-25；每位主要人物报价交涉；时间：1649-09-25；角色：收信人；范围：按每位主要人物报价的交涉；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 548–552,569–570; print pp. 14 |

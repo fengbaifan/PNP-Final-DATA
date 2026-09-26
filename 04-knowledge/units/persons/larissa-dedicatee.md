@@ -90,8 +90,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配偶（`spouse_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1965年结婚；角色：配偶；范围：1965年获准结婚；不由1962相识倒推婚姻；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-francis-haskell；印刷p.232 |
-| → 受雇于（`employed_by`） | [艾尔米塔什博物馆（Hermitage Museum）](../institutions/hermitage-museum.md) | 时间：1962年时点；角色：威尼斯素描策展人；范围：1962年相识时职务；不推定完整任期；证据：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；persons-larissa-dedicatee；印刷p.232 |
+| ← 配偶（`spouse_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 时间：1965年结婚；角色：配偶；范围：1965年获准结婚；不由1962相识倒推婚姻；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；印刷p.232 |
+| → 受雇于（`employed_by`） | [艾尔米塔什博物馆（Hermitage Museum）](../institutions/hermitage-museum.md) | 时间：1962年时点；角色：威尼斯素描策展人；范围：1962年相识时职务；不推定完整任期；证据：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；印刷p.232 |
 
 ### 关系候选入口
 

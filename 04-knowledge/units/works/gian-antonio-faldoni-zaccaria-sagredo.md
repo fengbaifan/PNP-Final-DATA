@@ -112,11 +112,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](../persons/gian-antonio-faldoni.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 创作者（`created_by`） | [巴托洛梅奥·纳扎里（Bartolomeo Nazari）](../persons/b-nazari.md) | 角色：原设计者；from B. Nazari；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [扎卡里亚·萨格雷多（Zaccaria Sagredo）](../persons/zaccaria-sagredo.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录所记收藏／保管，不宣称2026年现藏状态；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中保管地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](../persons/gian-antonio-faldoni.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [巴托洛梅奥·纳扎里（Bartolomeo Nazari）](../persons/b-nazari.md) | 角色：原设计者；from B. Nazari；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [扎卡里亚·萨格雷多（Zaccaria Sagredo）](../persons/zaccaria-sagredo.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录所记收藏／保管，不宣称2026年现藏状态；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中保管地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

@@ -55,7 +55,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1728–1729；角色：委托人；范围：Stuttgart的Giove tra i coribanti；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)；dbi-crespi；Giove tra i coribanti专段 |
+| ← 委托者（`commissioner_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1728–1729；角色：委托人；范围：Stuttgart的Giove tra i coribanti；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)；src-0ebafb3ebde8cb77；Giove tra i coribanti专段 |
 
 ### 关系候选入口
 

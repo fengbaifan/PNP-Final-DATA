@@ -70,7 +70,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 角色：描绘对象；范围：PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Sir Thomas Baines |
+| ← 为其所涉对象（`subject_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 角色：描绘对象；范围：PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Sir Thomas Baines |
 
 ### 关系候选入口
 

@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；原断言与证据见发出端卡片“波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 104–104; 章前：图版目录；印刷页xiv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）](../works/g-m-crespi-detail-from-fair-at-poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；原断言与证据见发出端卡片“波焦阿卡亚诺集市局部（Detail from Fair at Poggio a Caiano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

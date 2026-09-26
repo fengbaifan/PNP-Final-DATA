@@ -127,11 +127,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 合作（`collaborated_with`） | [安德烈亚·梅莫（Andrea Memmo）](andrea-memmo.md) | 角色：广场整治合作者；范围：Prato della Valle整治，不把合作改作出资或个人委托；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1765起；角色：教学活动城市；范围：民用建筑教学；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1792；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
-| → 位于（`located_at`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：整治活动地点；范围：与Memmo合作整治广场；不等同方案的实际存放地；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
-| ← 所创作对象（`creator_of`，反向投影） | [Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）](../works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
+| → 合作（`collaborated_with`） | [安德烈亚·梅莫（Andrea Memmo）](andrea-memmo.md) | 角色：广场整治合作者；范围：Prato della Valle整治，不把合作改作出资或个人委托；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；src-029274d915796912；短条目：生卒括注及1765教学、Memmo合作句 |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1765起；角色：教学活动城市；范围：民用建筑教学；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；src-029274d915796912；短条目：生卒括注及1765教学、Memmo合作句 |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1792；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；src-029274d915796912；短条目：生卒括注及1765教学、Memmo合作句 |
+| → 位于（`located_at`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：整治活动地点；范围：与Memmo合作整治广场；不等同方案的实际存放地；证据：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；src-029274d915796912；短条目：生卒括注及1765教学、Memmo合作句 |
+| ← 所创作对象（`creator_of`，反向投影） | [Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）](../works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 147–147; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

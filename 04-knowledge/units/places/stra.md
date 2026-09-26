@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../works/tiepolo-glorification-of-the-pisani-family.md) | 时间：本书所述时点；角色：书中所在城镇；范围：图版44原书定位；原断言与证据见发出端卡片“皮萨尼家族的荣耀（Glorification of the Pisani family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 118–118; 章前：图版目录；印刷页xiv |
+| ← 所在地（`location_of`，反向投影） | [皮萨尼家族的荣耀（Glorification of the Pisani family）](../works/tiepolo-glorification-of-the-pisani-family.md) | 时间：本书所述时点；角色：书中所在城镇；范围：图版44原书定位；原断言与证据见发出端卡片“皮萨尼家族的荣耀（Glorification of the Pisani family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 118–118; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

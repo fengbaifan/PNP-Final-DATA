@@ -87,9 +87,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月1日入学院，后任Prince；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1657年入会段 |
-| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；dbi-morandi；本卡 S6；1699年入会段 |
-| ← introducer_of（`introducer_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：引入圣卢卡学院；范围：约1682年；不推定正式入会；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 29–30 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1657年7月1日入学院，后任Prince；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；src-c5198859fd73d54a；本卡 S6；1657年入会段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1699年加入Arcadia，采用DBI日期；Wikipedia的1690保留为异文；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-maria-morandi_(Dizionario-Biografico)/)；src-c5198859fd73d54a；本卡 S6；1699年入会段 |
+| ← introducer_of（`introducer_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：引入圣卢卡学院；范围：约1682年；不推定正式入会；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 29–30 |
 
 ### 身份与外部链接
 

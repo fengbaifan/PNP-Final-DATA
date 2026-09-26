@@ -98,10 +98,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [阿布维尔（Abbeville）](../places/abbeville.md) | 时间：1598；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.metmuseum.org/art/collection/search/392968)；persons-claude-mellan；Artwork Details：Artist |
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1688；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.metmuseum.org/art/collection/search/392968)；persons-claude-mellan；Artwork Details：Artist |
-| ← influenced（`influenced`，反向投影） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](gian-antonio-faldoni.md) | 角色：版画技术研习；范围：在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）”：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；persons-gian-antonio-faldoni；早年学习段：在巴黎研究Claude Mellan版画 |
-| ← 所创作对象（`creator_of`，反向投影） | [文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）](../works/claude-mellan-vincenzo-giustiniani.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 70–70; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [阿布维尔（Abbeville）](../places/abbeville.md) | 时间：1598；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.metmuseum.org/art/collection/search/392968)；src-cb62bd59419ad9c3；Artwork Details：Artist |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1688；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.metmuseum.org/art/collection/search/392968)；src-cb62bd59419ad9c3；Artwork Details：Artist |
+| ← influenced（`influenced`，反向投影） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](gian-antonio-faldoni.md) | 角色：版画技术研习；范围：在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）”：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；src-8a2aba0dcfccb875；早年学习段：在巴黎研究Claude Mellan版画 |
+| ← 所创作对象（`creator_of`，反向投影） | [文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）](../works/claude-mellan-vincenzo-giustiniani.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“文琴佐·朱斯蒂尼亚尼肖像（Portrait of Vincenzo Giustiniani）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 70–70; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

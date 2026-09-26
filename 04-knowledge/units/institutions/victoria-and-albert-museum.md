@@ -72,7 +72,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）](../works/bernini-thomas-baker-bust.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；原断言与证据见发出端卡片“贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–700; print pp. 17 |
+| ← 所在地（`location_of`，反向投影） | [贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）](../works/bernini-thomas-baker-bust.md) | 第一章写作时记该胸像藏于V&A；本边只承担该书时点的馆藏定位，不声明今日状态；原断言与证据见发出端卡片“贝尔尼尼的托马斯·贝克肖像胸像（Bernini’s bust of Thomas Baker）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–700; print pp. 17 |
+| ← 保管对象（`holder_of`，反向投影） | [查理一世肖像（Portrait of Charles I）](../works/francesco-fanelli-charles-i.md) | 时间：1999年入藏至当前目录状态；角色：现藏／保管机构；范围：V&A对象目录对应的Fanelli查理一世胸像；不将收藏保管等同法律产权；原断言与证据见发出端卡片“查理一世肖像（Portrait of Charles I）”：[来源](https://collections.vam.ac.uk/item/O11798/)；src-df3ba7e8af4d8c30；Object record: accessionNumber A.3-1999, creditLine, galleryLocations; API record modified 2025-04-08 |
 
 ### 身份与外部链接
 

@@ -1,0 +1,680 @@
+﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+m-chp1-seci-0001,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Urban VIII,5,15,人名；本段多个同名提及分别保留。
+m-chp1-seci-0002,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Pope,23,27,本次仅纳入紧随 Urban VIII 当选及 Passeri 直接引语中的称谓。
+m-chp1-seci-0003,chp-1:01_CHP-1_sec_i:l3-13,cand-3044,Giambattista Passeri,55,75,书内引述的艺术史家。
+m-chp1-seci-0004,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Pope,215,219,本次仅纳入紧随 Urban VIII 当选及 Passeri 直接引语中的称谓。
+m-chp1-seci-0005,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Urban VIII,362,372,人名；本段多个同名提及分别保留。
+m-chp1-seci-0006,chp-1:01_CHP-1_sec_i:l3-13,cand-3396,Counter Reformation,593,612,概念名；候选状态待对齐，不据提及直接建 KU。
+m-chp1-seci-0007,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Urban VIII,810,820,人名；本段多个同名提及分别保留。
+m-chp1-seci-0008,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Urban’s,928,935,Urban 的所有格形式。
+m-chp1-seci-0009,chp-1:01_CHP-1_sec_i:l3-13,cand-3092,Paul V,960,966,人名；前任教皇。
+m-chp1-seci-0010,chp-1:01_CHP-1_sec_i:l3-13,cand-3061,"Gregory
+XV",1002,1012,跨物理行断开；语义表面形式为 Gregory XV。
+m-chp1-seci-0011,chp-1:01_CHP-1_sec_i:l3-13,cand-3135,St Peter’s,1094,1104,St Peter’s Basilica 的文本简称。
+m-chp1-seci-0012,chp-1:01_CHP-1_sec_i:l3-13,cand-3126,Roman,1233,1238,地名派生形容词；指罗马语境，不指现代政治实体。
+m-chp1-seci-0013,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,"Urban
+VIII",1871,1881,跨物理行断开；语义表面形式为 Urban VIII。
+m-chp1-seci-0014,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,this Pope,1997,2006,指前文当选的 Urban VIII，不作泛指教皇。
+m-chp1-seci-0015,chp-1:01_CHP-1_sec_i:l3-13,cand-3126,Roman,2061,2066,地名派生形容词；指罗马语境，不指现代政治实体。
+m-chp1-seci-0016,chp-1:01_CHP-1_sec_i:l3-13,cand-3071,Lord Arundell,2147,2160,"称谓对应 Thomas Howard, Earl of Arundel；保留原文拼写。"
+m-chp1-seci-0018,chp-1:01_CHP-1_sec_i:l3-13,cand-3092,Paul V’s,2188,2196,Paul V 的所有格形式，指其任期。
+m-chp1-seci-0019,chp-1:01_CHP-1_sec_i:l3-13,cand-3092,the Prince,2279,2289,引文中的称谓；由前句“Paul V’s ... rule”判定为 Paul V。
+m-chp1-seci-0020,chp-1:01_CHP-1_sec_i:l3-13,cand-3104,Pope,1511,1515,指本段 Urban VIII；将教皇的精神/世俗统治角色与其艺术赞助者、家族首长角色相对照。
+m-chp1-seci-0021,chp-1:01_CHP-1_sec_i:l15-24,cand-3104,Urban VIII’s,200,212,表面形式 Urban VIII / Urban VIII’s；候选映射按本段语境裁决。
+m-chp1-seci-0022,chp-1:01_CHP-1_sec_i:l15-24,cand-3126,Rome,456,460,表面形式 Rome；候选映射按本段语境裁决。
+m-chp1-seci-0023,chp-1:01_CHP-1_sec_i:l15-24,cand-3126,Rome,1516,1520,表面形式 Rome；候选映射按本段语境裁决。
+m-chp1-seci-0024,chp-1:01_CHP-1_sec_i:l15-24,cand-3126,Rome,2479,2483,表面形式 Rome；候选映射按本段语境裁决。
+m-chp1-seci-0025,chp-1:01_CHP-1_sec_i:l15-24,cand-3126,Rome,2732,2736,表面形式 Rome；候选映射按本段语境裁决。
+m-chp1-seci-0026,chp-1:01_CHP-1_sec_i:l15-24,cand-3114,Italy,475,480,表面形式 Italy；候选映射按本段语境裁决。
+m-chp1-seci-0027,chp-1:01_CHP-1_sec_i:l15-24,cand-3061,Pope Gregory XV,1050,1065,表面形式 Gregory XV；候选映射按本段语境裁决。
+m-chp1-seci-0028,chp-1:01_CHP-1_sec_i:l15-24,cand-3061,Pope Gregory XV,2023,2038,表面形式 Gregory XV；候选映射按本段语境裁决。
+m-chp1-seci-0029,chp-1:01_CHP-1_sec_i:l15-24,cand-2992,Cardinal Alessandro Peretti-Montalto,1284,1320,表面形式 Alessandro Peretti-Montalto；候选映射按本段语境裁决。
+m-chp1-seci-0030,chp-1:01_CHP-1_sec_i:l15-24,cand-3102,"Pope Sixtus
+V",1332,1345,表面形式 Sixtus V；候选映射按本段语境裁决。
+m-chp1-seci-0031,chp-1:01_CHP-1_sec_i:l15-24,cand-3102,that Pope,1409,1418,表面形式 that Pope；候选映射按本段语境裁决。
+m-chp1-seci-0032,chp-1:01_CHP-1_sec_i:l15-24,cand-3397,Florentines,1638,1649,表面形式 Florence；候选映射按本段语境裁决。
+m-chp1-seci-0033,chp-1:01_CHP-1_sec_i:l15-24,cand-3398,Bolognese,1651,1660,表面形式 Bologna；候选映射按本段语境裁决。
+m-chp1-seci-0034,chp-1:01_CHP-1_sec_i:l15-24,cand-3398,Bolognese,2046,2055,表面形式 Bologna；候选映射按本段语境裁决。
+m-chp1-seci-0035,chp-1:01_CHP-1_sec_i:l15-24,cand-3401,Venetians,1664,1673,表面形式 Venice；候选映射按本段语境裁决。
+m-chp1-seci-0036,chp-1:01_CHP-1_sec_i:l15-24,cand-3126,Romans,1682,1688,表面形式 Rome；候选映射按本段语境裁决。
+m-chp1-seci-0037,chp-1:01_CHP-1_sec_i:l15-24,cand-3114,Italians,1692,1700,表面形式 Italy；候选映射按本段语境裁决。
+m-chp1-seci-0038,chp-1:01_CHP-1_sec_i:l15-24,cand-3104,Cardinal Maffeo Barberini,1896,1921,表面形式 Maffeo Barberini；候选映射按本段语境裁决。
+m-chp1-seci-0040,chp-1:01_CHP-1_sec_i:l15-24,cand-3104,Urban VIII,200,210,表面形式 Urban VIII；候选映射按本段语境裁决。
+m-chp1-seci-0041,chp-1:01_CHP-1_sec_i:l15-24,cand-3397,Florence,2003,2011,表面形式 Florence；候选映射按本段语境裁决。
+m-chp1-seci-0042,chp-1:01_CHP-1_sec_i:l15-24,cand-3061,Cardinal Ludovisi,2189,2206,表面形式 Gregory XV；候选映射按本段语境裁决。
+m-chp1-seci-0043,chp-1:01_CHP-1_sec_i:l15-24,cand-3024,Domenichino,2225,2236,表面形式 Domenichino；候选映射按本段语境裁决。
+m-chp1-seci-0044,chp-1:01_CHP-1_sec_i:l15-24,cand-3398,Bologna,2283,2290,表面形式 Bologna；候选映射按本段语境裁决。
+m-chp1-seci-0045,chp-1:01_CHP-1_sec_i:l15-24,cand-3398,Bologna,2650,2657,表面形式 Bologna；候选映射按本段语境裁决。
+m-chp1-seci-0046,chp-1:01_CHP-1_sec_i:l15-24,cand-3011,Cardinal Borghese,2312,2329,表面形式 Cardinal Borghese；候选映射按本段语境裁决。
+m-chp1-seci-0047,chp-1:01_CHP-1_sec_i:l15-24,cand-3061,new Pope,2382,2390,表面形式 the new Pope；候选映射按本段语境裁决。
+m-chp1-seci-0048,chp-1:01_CHP-1_sec_i:l15-24,cand-3073,the Pope’s nephew Ludovico,2523,2549,表面形式 Ludovico Ludovisi；候选映射按本段语境裁决。
+m-chp1-seci-0049,chp-1:01_CHP-1_sec_i:l15-24,cand-2999,"Annibale
+Carracci",2627,2644,表面形式 Annibale Carracci；候选映射按本段语境裁决。
+m-chp1-seci-0050,chp-1:01_CHP-1_sec_i:l15-24,cand-3399,Vatican,2502,2509,表面形式 Vatican；候选映射按本段语境裁决。
+m-chp1-seci-0051,chp-1:01_CHP-1_sec_i:l15-24,cand-3400,Church,967,973,表面形式 the Church；候选映射按本段语境裁决。
+m-chp1-seci-0052,chp-1:01_CHP-1_sec_i:l15-24,cand-3061,Pope,799,803,Cardinal Ludovisi elected Pope，指 Gregory XV 的职位转换。
+m-chp1-seci-0053,chp-1:01_CHP-1_sec_i:l15-24,cand-1734,nepotism,897,905,索引候选 Nepotism in Rome；此处指教皇亲族在教会辖区建立私人权势的历史机制。
+m-chp1-seci-0054,chp-1:01_CHP-1_sec_i:l26-33,cand-3398,Bolognese,9,18,Bologna/demonym
+m-chp1-seci-0055,chp-1:01_CHP-1_sec_i:l26-33,cand-3398,Bolognese,1127,1136,Bologna/demonym
+m-chp1-seci-0056,chp-1:01_CHP-1_sec_i:l26-33,cand-3176,titular church,74,88,titular church
+m-chp1-seci-0057,chp-1:01_CHP-1_sec_i:l26-33,cand-3176,titular church,1590,1604,titular church
+m-chp1-seci-0058,chp-1:01_CHP-1_sec_i:l26-33,cand-3176,titular church,2895,2909,titular church
+m-chp1-seci-0059,chp-1:01_CHP-1_sec_i:l26-33,cand-2976,Aldôbrandini,1040,1052,Aldobrandini family; OCR surface retained
+m-chp1-seci-0060,chp-1:01_CHP-1_sec_i:l26-33,cand-2987,Peretti,1054,1061,Peretti family
+m-chp1-seci-0061,chp-1:01_CHP-1_sec_i:l26-33,cand-2983,Borghese,1063,1071,Borghese family
+m-chp1-seci-0062,chp-1:01_CHP-1_sec_i:l26-33,cand-3126,Rome,967,971,Rome
+m-chp1-seci-0063,chp-1:01_CHP-1_sec_i:l26-33,cand-3126,Rome,2005,2009,Rome
+m-chp1-seci-0064,chp-1:01_CHP-1_sec_i:l26-33,cand-3126,Rome,2314,2318,Rome
+m-chp1-seci-0065,chp-1:01_CHP-1_sec_i:l26-33,cand-3135,St Peter’s,1215,1225,St Peter’s Basilica
+m-chp1-seci-0066,chp-1:01_CHP-1_sec_i:l26-33,cand-3131,S. Maria Maggiore,1878,1895,Santa Maria Maggiore
+m-chp1-seci-0067,chp-1:01_CHP-1_sec_i:l26-33,cand-3132,"S. Maria sopra
+Minerva",1900,1922,Santa Maria sopra Minerva
+m-chp1-seci-0068,chp-1:01_CHP-1_sec_i:l26-33,cand-3406,Reformation,2182,2193,Reformation movement
+m-chp1-seci-0069,chp-1:01_CHP-1_sec_i:l26-33,cand-3402,Oratorians,2198,2208,Oratorians
+m-chp1-seci-0070,chp-1:01_CHP-1_sec_i:l26-33,cand-3403,Jesuits,2217,2224,Jesuits
+m-chp1-seci-0071,chp-1:01_CHP-1_sec_i:l26-33,cand-3404,Theatines,2230,2239,Theatines
+m-chp1-seci-0072,chp-1:01_CHP-1_sec_i:l26-33,cand-2980,Barnabites,2245,2255,Barnabites
+m-chp1-seci-0073,chp-1:01_CHP-1_sec_i:l26-33,cand-3405,Capuchins,2264,2273,Capuchins
+m-chp1-seci-0074,chp-1:01_CHP-1_sec_i:l26-33,cand-3397,Florentines,2324,2335,Florentines as Rome-based community by origin city
+m-chp1-seci-0075,chp-1:01_CHP-1_sec_i:l26-33,cand-3407,Lombards,2341,2349,Lombards community in Rome; type pending
+m-chp1-seci-0076,chp-1:01_CHP-1_sec_i:l26-33,cand-2992,Cardinal Alessandro Peretti-Montalto,3186,3222,Alessandro Peretti-Montalto
+m-chp1-seci-0077,chp-1:01_CHP-1_sec_i:l26-33,cand-3129,S. Andrea della Valle,3284,3305,Sant’Andrea della Valle
+m-chp1-seci-0078,chp-1:01_CHP-1_sec_i:l35-36,cand-3126,Rome,460,464,罗马；约1620年现代绘画与古老教堂的比较语境
+m-chp1-seci-0079,chp-1:01_CHP-1_sec_i:l38-47,cand-0093,Ameyden,17,24,author cited in footnote 1; index subentry identifies the 1642 Relatione.
+m-chp1-seci-0080,chp-1:01_CHP-1_sec_i:l38-47,cand-3408,Relatione della città di Roma,26,55,1642 manuscript named in footnote 1.
+m-chp1-seci-0081,chp-1:01_CHP-1_sec_i:l38-47,cand-3409,Biblioteca Casanatense,74,96,Repository of MS. 5001.
+m-chp1-seci-0082,chp-1:01_CHP-1_sec_i:l38-47,cand-3126,Rome,98,102,"Repository location, outside the work title."
+m-chp1-seci-0083,chp-1:01_CHP-1_sec_i:l38-47,cand-3104,Urban VIII,145,155,Subject of Ameyden’s attributed account.
+m-chp1-seci-0084,chp-1:01_CHP-1_sec_i:l38-47,cand-3410,Felici,442,448,Short author citation; identity unresolved.
+m-chp1-seci-0085,chp-1:01_CHP-1_sec_i:l38-47,cand-1856,Passeri,460,467,"Short citation to Passeri, p. 27; ibid. continues this source."
+m-chp1-seci-0086,chp-1:01_CHP-1_sec_i:l38-47,cand-3411,Panciroli,502,511,Author in citation chain for the Peretti-Montalto quotation.
+m-chp1-seci-0087,chp-1:01_CHP-1_sec_i:l38-47,cand-3412,Ortolani,531,539,Intermediate quoting source in the citation chain.
+m-chp1-seci-0088,chp-1:01_CHP-1_sec_i:l38-47,cand-1842,Pascoli,566,573,Short bibliographic citation.
+m-chp1-seci-0089,chp-1:01_CHP-1_sec_i:l38-47,cand-1842,Pascoli,1384,1391,Short bibliographic citation.
+m-chp1-seci-0090,chp-1:01_CHP-1_sec_i:l38-47,cand-3413,Montalto,623,631,Unresolved short citation; not mapped to the similarly named cardinal.
+m-chp1-seci-0091,chp-1:01_CHP-1_sec_i:l38-47,cand-3414,Alessandro Vasalli,671,689,Witness identified in Haskell’s footnote.
+m-chp1-seci-0092,chp-1:01_CHP-1_sec_i:l38-47,cand-1676,Mola,718,722,Pier Francesco Mola; source uses surname only.
+m-chp1-seci-0093,chp-1:01_CHP-1_sec_i:l38-47,cand-1814,Prince Pamfili,753,767,Index entry for Camillo Pamfili includes this chapter footnote.
+m-chp1-seci-0094,chp-1:01_CHP-1_sec_i:l38-47,cand-3415,Cardinal Pio,1404,1416,Cardinal’s first name and identity remain unresolved.
+m-chp1-seci-0095,chp-1:01_CHP-1_sec_i:l38-47,cand-0385,Giovanni Bonari,1434,1449,"OCR spelling; the reviewed PDF reading is Bonati, Giovanni."
+m-chp1-seci-0096,chp-1:01_CHP-1_sec_i:l38-47,cand-3397,Florence,1453,1461,Destination city.
+m-chp1-seci-0097,chp-1:01_CHP-1_sec_i:l38-47,cand-3398,Bologna,1463,1470,Destination city.
+m-chp1-seci-0098,chp-1:01_CHP-1_sec_i:l38-47,cand-3416,Modena,1472,1478,Destination city; no matching city candidate was present.
+m-chp1-seci-0099,chp-1:01_CHP-1_sec_i:l38-47,cand-3417,Parma,1480,1485,Destination city; no matching city candidate was present.
+m-chp1-seci-0100,chp-1:01_CHP-1_sec_i:l38-47,cand-3418,Milan,1487,1492,Destination city; no matching city candidate was present.
+m-chp1-seci-0101,chp-1:01_CHP-1_sec_i:l38-47,cand-3401,Venice,1497,1503,One of two destination mentions in the travel notes.
+m-chp1-seci-0102,chp-1:01_CHP-1_sec_i:l38-47,cand-3401,Venice,1571,1577,One of two destination mentions in the travel notes.
+m-chp1-seci-0103,chp-1:01_CHP-1_sec_i:l38-47,cand-2263,Cardinal Rospigliosi,1523,1543,Chapter 6n index entry identifies Giulio Rospigliosi.
+m-chp1-seci-0104,chp-1:01_CHP-1_sec_i:l38-47,cand-1169,Lodovico Gimignani,1549,1567,Painter sent to Venice in the cited account.
+m-chp1-seci-0105,chp-1:01_CHP-1_sec_i:l38-47,cand-0167,Gio. Gasparo Baldoini,1600,1621,Appointment name retained as printed in OCR.
+m-chp1-seci-0106,chp-1:01_CHP-1_sec_i:l38-47,cand-2387,Cardinal Maurizio di Savoia,1646,1673,Appointing cardinal; mapped to the matching index entry for 6n.
+m-chp1-seci-0107,chp-1:01_CHP-1_sec_i:l38-47,cand-3419,Baudi di Vesme,1675,1689,Short bibliographic author citation; full identity unresolved.
+m-chp1-intro-0108,chp-1:01_CHP-1_intro:l3-5,cand-3126,ROME,16,20,Geographic place named on the Part I title page.
+m-chp1-intro-0109,chp-1:01_CHP-1_intro:l11-13,cand-1856,Passeri,17,24,"The split section file normalizes the full OCR reading “Passed”; footnote cites Passeri, p. 293."
+m-chp1-intro-0110,chp-1:01_CHP-1_intro:l11-13,cand-0198,Barberini,124,133,The family as the political context named in the footnote.
+m-chp1-intro-0111,chp-1:01_CHP-1_intro:l11-13,cand-1355,Abate Lancellotti,142,159,Author of L’Hoggidi; abbreviated bibliographic identity retained.
+m-chp1-intro-0112,chp-1:01_CHP-1_intro:l11-13,cand-3420,L’Hoggidi,162,171,Named book; distinct from its author.
+m-chp1-intro-0113,chp-1:01_CHP-1_intro:l11-13,cand-3401,Venice,191,197,Publication place.
+m-chp1-intro-0114,chp-1:01_CHP-1_intro:l11-13,cand-3421,Letter from Mr Coke of 8 October 1620,229,266,Dated documentary source named in footnote 2.
+m-chp1-intro-0115,chp-1:01_CHP-1_intro:l11-13,cand-3085,Mr Coke,241,248,Named letter writer; maps to the accepted candidate for the Rome correspondent.
+m-chp1-intro-0116,chp-1:01_CHP-1_intro:l11-13,cand-3422,Hervey,267,273,Short citation only; full identity unresolved.
+m-chp1-secii-0001,chp-1:01_CHP-1_sec_ii:l3-8,cand-3141,exhibited it,466,478,展出作品以寻找偶然买家，保留原文的市场语境。
+m-chp1-secii-0002,chp-1:01_CHP-1_sec_ii:l3-8,cand-3149,dealers,607,614,本章关于市场中介的复数提及。
+m-chp1-secii-0003,chp-1:01_CHP-1_sec_ii:l3-8,cand-3159,dilettantes,619,630,本章使用的历史角色称谓，映射到既有术语候选。
+m-chp1-secii-0004,chp-1:01_CHP-1_sec_ii:l3-8,cand-3141,exhibitions,889,900,展览被说成失业者通常的最后手段，作者明确保留例外。
+m-chp1-secii-0005,chp-1:01_CHP-1_sec_ii:l3-8,cand-3175,servitù particolare,1082,1101,意大利语专属服务制度术语。
+m-chp1-secii-0006,chp-1:01_CHP-1_sec_ii:l3-8,cand-3417,Parma,1367,1372,赞助人资助的学习旅行目的地。
+m-chp1-secii-0007,chp-1:01_CHP-1_sec_ii:l3-8,cand-0852,Correggio,1380,1389,此处指画家 Correggio；旅行目的是观看其壁画。
+m-chp1-secii-0008,chp-1:01_CHP-1_sec_ii:l3-8,cand-3401,Venice,1407,1413,赞助人资助的学习旅行目的地。
+m-chp1-secii-0009,chp-1:01_CHP-1_sec_ii:l3-8,cand-3160,famiglia,1548,1556,王侯家户语境，包含朝臣与官员，不按血缘家族理解。
+m-chp1-secii-0010,chp-1:01_CHP-1_sec_ii:l3-8,cand-3171,nostro pittore,1720,1734,授予宫廷画家职位的意大利语称谓。
+m-chp1-secii-0011,chp-1:01_CHP-1_sec_ii:l10-17,cand-2998,Andrea Sacchi,100,113,本章记述其1637–1640年在Antonio Barberini家户中的职务晋升。
+m-chp1-secii-0012,chp-1:01_CHP-1_sec_ii:l10-17,cand-3001,Cardinal Antonio Barberini,128,154,Sacchi任职宫廷的雇主／家户主持人。
+m-chp1-secii-0013,chp-1:01_CHP-1_sec_ii:l10-17,cand-3175,servitù particolare,1801,1820,此处OCR将servitù误识为“servi tit”；按既有语义阅读保留标准术语。
+m-chp1-secii-0014,chp-1:01_CHP-1_sec_ii:l10-17,cand-3126,Rome,1665,1669,国家竞争与出生地影响特定服务机会的语境。
+m-chp1-secii-0015,chp-1:01_CHP-1_sec_ii:l10-17,cand-3044,Passeri,1339,1346,Lanfranco早年受保护的引语来源；Haskell在此转述。
+m-chp1-secii-0016,chp-1:01_CHP-1_sec_ii:l10-17,cand-3053,Giovanni Lanfranco,1384,1402,Passeri引语评论的画家对象。
+m-chp1-secii-0017,chp-1:01_CHP-1_sec_ii:l10-17,cand-3074,Marcello Sacchetti,1892,1910,与Pietro da Cortona同乡故事中的罗马赞助人。
+m-chp1-secii-0018,chp-1:01_CHP-1_sec_ii:l10-17,cand-3096,Pietro da Cortona,1940,1957,被Sacchetti接待的画家；此处同时提及其出生地Cortona。
+m-chp1-secii-0019,chp-1:01_CHP-1_sec_ii:l10-17,cand-3111,Cortona,1950,1957,Pietro出身地；与同名画家分开映射。
+m-chp1-secii-0020,chp-1:01_CHP-1_sec_ii:l10-17,cand-3098,Cardinal Ottoboni,2164,2181,为Francesco Trevisani提供居所的枢机赞助人。
+m-chp1-secii-0021,chp-1:01_CHP-1_sec_ii:l10-17,cand-3038,Francesco Trevisani,2229,2248,Ottoboni的威尼斯同乡画家。
+m-chp1-secii-0022,chp-1:01_CHP-1_sec_ii:l10-17,cand-3126,Rome,2525,2529,本段中的地名提及。
+m-chp1-secii-0023,chp-1:01_CHP-1_sec_ii:l19-26,cand-3139,contract,936,944,书面委托合同；是否订立取决于委托规模。
+m-chp1-secii-0024,chp-1:01_CHP-1_sec_ii:l19-26,cand-3161,fresco,1359,1365,通用壁画类型；两处分别提及均保留。
+m-chp1-secii-0025,chp-1:01_CHP-1_sec_ii:l19-26,cand-3161,fresco,2896,2902,通用壁画类型；两处分别提及均保留。
+m-chp1-secii-0026,chp-1:01_CHP-1_sec_ii:l19-26,cand-3148,altarpiece,1465,1475,祭坛画类别；此处指一般委托类型。
+m-chp1-secii-0027,chp-1:01_CHP-1_sec_ii:l19-26,cand-3162,pictures for private galleries,1835,1865,私人画廊陈设绘画的通称，映射至画廊画术语候选。
+m-chp1-secii-0028,chp-1:01_CHP-1_sec_ii:l19-26,cand-3172,pictures in pairs,2376,2393,成对委托绘画，对应既有成对绘画术语候选。
+m-chp1-secii-0029,chp-1:01_CHP-1_sec_ii:l19-26,cand-3126,Rome,267,271,远方迁入、城市赞助与委托市场的地名提及。
+m-chp1-secii-0030,chp-1:01_CHP-1_sec_ii:l19-26,cand-3126,Rome,486,490,远方迁入、城市赞助与委托市场的地名提及。
+m-chp1-secii-0031,chp-1:01_CHP-1_sec_ii:l28-38,cand-1258,Guercino,672,680,Painter named in 1665 commission.
+m-chp1-secii-0032,chp-1:01_CHP-1_sec_ii:l28-38,cand-3423,Sicily,735,741,Unnamed monastery location.
+m-chp1-secii-0033,chp-1:01_CHP-1_sec_ii:l28-38,cand-3424,Madonna de Carmine,820,838,Iconographic figure in commission brief.
+m-chp1-secii-0034,chp-1:01_CHP-1_sec_ii:l28-38,cand-3425,Child,848,853,Christ Child in brief.
+m-chp1-secii-0035,chp-1:01_CHP-1_sec_ii:l28-38,cand-3426,St Teresa,867,876,Placement queried by Guercino.
+m-chp1-secii-0036,chp-1:01_CHP-1_sec_ii:l28-38,cand-3427,Virgin,906,912,Virgin Mary in stated scene.
+m-chp1-secii-0037,chp-1:01_CHP-1_sec_ii:l28-38,cand-3428,St Joseph,956,965,Iconographic figure listed in brief.
+m-chp1-secii-0038,chp-1:01_CHP-1_sec_ii:l28-38,cand-3429,"St John the
+Baptist",970,989,Full entity span across the source line break; preserve the line break in the original segment text.
+m-chp1-secii-0039,chp-1:01_CHP-1_sec_ii:l28-38,cand-3430,Four Seasons,1807,1819,Generic secular theme.
+m-chp1-secii-0040,chp-1:01_CHP-1_sec_ii:l28-38,cand-1814,Prince Pamfili,2055,2069,"Camillo Pamfili, existing index candidate."
+m-chp1-secii-0041,chp-1:01_CHP-1_sec_ii:l28-38,cand-1676,Pier Francesco Mola,2098,2117,Painter of the Four Elements commission.
+m-chp1-secii-0042,chp-1:01_CHP-1_sec_ii:l28-38,cand-1677,Four Elements,2131,2144,Work-specific index sub-entry; completion not established.
+m-chp1-secii-0043,chp-1:01_CHP-1_sec_ii:l28-38,cand-3431,Valmontone,2169,2179,Country house location.
+m-chp1-secii-0044,chp-1:01_CHP-1_sec_ii:l28-38,cand-2777,Virgil,2292,2298,Classical author; commentary volume unidentified.
+m-chp1-secii-0045,chp-1:01_CHP-1_sec_ii:l28-38,cand-3432,Juno,2490,2494,Mythological figure in Air imagery.
+m-chp1-secii-0046,chp-1:01_CHP-1_sec_ii:l28-38,cand-3433,Milky Way,2566,2575,Celestial motif.
+m-chp1-secii-0047,chp-1:01_CHP-1_sec_ii:l28-38,cand-3434,Chloris,2589,2596,Mythological figure.
+m-chp1-secii-0048,chp-1:01_CHP-1_sec_ii:l28-38,cand-3435,Zephyr,2600,2606,Mythological figure.
+m-chp1-secii-0049,chp-1:01_CHP-1_sec_ii:l28-38,cand-3436,Ganymede,2620,2628,Mythological figure.
+m-chp1-secii-0050,chp-1:01_CHP-1_sec_ii:l28-38,cand-3437,Turnus,2659,2665,Legendary figure.
+m-chp1-secii-0051,chp-1:01_CHP-1_sec_ii:l40-46,cand-0209,Urban VIII,103,113,Pope Maffeo Barberini.
+m-chp1-secii-0052,chp-1:01_CHP-1_sec_ii:l40-46,cand-3438,Sebastiano on the Palatine,177,203,"Church of S. Sebastiano on the Palatine; the initial “S.” is line-wrapped at the segment boundary, so the mention span uses the contiguous name and locator."
+m-chp1-secii-0053,chp-1:01_CHP-1_sec_ii:l40-46,cand-3439,St Sebastian,235,247,Subject figure in altarpiece description.
+m-chp1-secii-0054,chp-1:01_CHP-1_sec_ii:l28-38,cand-3425,Child,949,954,Repeated mention of the Christ Child receiving the Order’s rules.
+m-chp1-secii-0055,chp-1:01_CHP-1_sec_ii:l28-38,cand-3426,St Teresa,1573,1582,Repeated query about the saint’s left/right placement.
+m-chp1-secii-0056,chp-1:01_CHP-1_sec_ii:l28-38,cand-3440,his,2652,2655,The section transcription reads “his” here; the full-chapter OCR and PDF read “Iris” at OCR L319. Preserve the section-text form and record the correction to the mythological figure.
+m-chp1-secii-0057,chp-1:01_CHP-1_sec_ii:l40-46,cand-2719,Venetian,568,576,Adjectival reference to Venice; general market-history claim.
+m-chp1-secii-0058,chp-1:01_CHP-1_sec_ii:l40-46,cand-3126,Roman,650,655,Roman collecting; place-derived adjective.
+m-chp1-secii-0059,chp-1:01_CHP-1_sec_ii:l40-46,cand-0544,Caravaggio,1314,1324,Artist whose rejected altarpiece was acquired by Giustiniani.
+m-chp1-secii-0060,chp-1:01_CHP-1_sec_ii:l40-46,cand-3445,altarpiece by that artist,1339,1364,Unidentified specific work; title and intended location are not given.
+m-chp1-secii-0061,chp-1:01_CHP-1_sec_ii:l40-46,cand-3441,Marchese Giustiniani,1212,1232,Identity retained as unresolved per process review.
+m-chp1-secii-0062,chp-1:01_CHP-1_sec_ii:l40-46,cand-0016,Giovanni Adamo,1647,1661,Patron in the later commission example.
+m-chp1-secii-0063,chp-1:01_CHP-1_sec_ii:l40-46,cand-1935,Paolo Girolamo Piola,1714,1734,Genoese painter commissioned by Adamo.
+m-chp1-secii-0064,chp-1:01_CHP-1_sec_ii:l40-46,cand-3126,Rome,2926,2930,Location of the Roman collecting context and Spanish embassy.
+m-chp1-secii-0065,chp-1:01_CHP-1_sec_ii:l40-46,cand-3442,Alexander the Great,2441,2460,Subject in the general royal-commission example.
+m-chp1-secii-0066,chp-1:01_CHP-1_sec_ii:l40-46,cand-3443,Duke of Mantua,2626,2640,Identity unresolved by period in this passage.
+m-chp1-secii-0067,chp-1:01_CHP-1_sec_ii:l40-46,cand-3444,Samson,2749,2755,Subject of the episodes ordered from the two Roman painters.
+m-chp1-secii-0068,chp-1:01_CHP-1_sec_ii:l40-46,cand-0569,Marchese del Carpio,2878,2897,Spanish ambassador in Rome; full personal name unresolved.
+m-chp1-secii-0069,chp-1:01_CHP-1_sec_ii:l48-60,cand-0342,Pietro da Cortona,140,157,Artist contrasted with Rosa.
+m-chp1-secii-0070,chp-1:01_CHP-1_sec_ii:l48-60,cand-0342,Pietro,140,146,Short form in his quoted claim about never choosing subjects.
+m-chp1-secii-0071,chp-1:01_CHP-1_sec_ii:l48-60,cand-2236,Salvator Rosa,162,175,Artist who rejected one client’s instructions but sought advice from friends.
+m-chp1-secii-0072,chp-1:01_CHP-1_sec_ii:l48-60,cand-3446,Valentin,702,710,French genre painter; full identity remains unresolved in this passage.
+m-chp1-secii-0073,chp-1:01_CHP-1_sec_ii:l48-60,cand-3447,a large picture,778,793,"Unnamed commission described by requested figures, not an identified completed work."
+m-chp1-secii-0074,chp-1:01_CHP-1_sec_ii:l48-60,cand-3451,modello,1036,1043,Preliminary oil sketch as a control method.
+m-chp1-secii-0075,chp-1:01_CHP-1_sec_ii:l48-60,cand-0544,Caravaggio,1200,1210,Artist in the 1600 commission example.
+m-chp1-secii-0076,chp-1:01_CHP-1_sec_ii:l48-60,cand-0546,The Conversion of St Paul,1271,1296,Named altarpiece subject/work in the 1600 example.
+m-chp1-secii-0077,chp-1:01_CHP-1_sec_ii:l48-60,cand-0550,The Martyrdom of St Peter,1301,1326,Named altarpiece subject/work in the 1600 example.
+m-chp1-secii-0078,chp-1:01_CHP-1_sec_ii:l48-60,cand-0544,Caravaggio,1544,1554,Repeated mention in the qualification about his reputation.
+m-chp1-secii-0079,chp-1:01_CHP-1_sec_ii:l48-60,cand-3451,modelli,2099,2106,Plural form of the preparatory oil-sketch practice.
+m-chp1-secii-0080,chp-1:01_CHP-1_sec_ii:l48-60,cand-2293,Rubens,1659,1665,Painter asked to show examples in 1606.
+m-chp1-secii-0081,chp-1:01_CHP-1_sec_ii:l48-60,cand-0710,Chiesa Nuova,1799,1811,Church destination of the Rubens altarpiece.
+m-chp1-secii-0082,chp-1:01_CHP-1_sec_ii:l48-60,cand-0713,St Peter’s,2025,2035,Church destination in the general comparison.
+m-chp1-secii-0083,chp-1:01_CHP-1_sec_ii:l48-60,cand-1359,Lanfranco,2168,2177,Painter who offered to show a canvas drawing.
+m-chp1-secii-0084,chp-1:01_CHP-1_sec_ii:l48-60,cand-3448,Cardinal Barberini,2195,2213,Identity unresolved; title alone does not identify the person.
+m-chp1-secii-0085,chp-1:01_CHP-1_sec_ii:l48-60,cand-3449,Pope Leo,2274,2282,Painting subject; identity unresolved in this passage.
+m-chp1-secii-0086,chp-1:01_CHP-1_sec_ii:l48-60,cand-3450,Attila,2287,2293,Painting subject paired with Pope Leo.
+m-chp1-secii-0087,chp-1:01_CHP-1_sec_ii:l48-60,cand-3452,in tela il disegno,2365,2383,Italian phrase for the drawing Lanfranco offered to show.
+m-chp1-secii-0088,chp-1:01_CHP-1_sec_ii:l48-60,cand-3451,modello,2622,2629,Unfinished clause on the Bolognese artists; continuation follows in next segment.
+m-chp1-secii-0089,chp-1:01_CHP-1_sec_ii:l62-71,cand-0342,Cortona,10,17,Continuation of the preceding segment’s unfinished reference to Pietro da Cortona.
+m-chp1-secii-0090,chp-1:01_CHP-1_sec_ii:l62-71,cand-1117,Giovan Battista Gaulli,157,179,Painter associated with later modello practice.
+m-chp1-secii-0091,chp-1:01_CHP-1_sec_ii:l62-71,cand-1131,Genoa,246,251,Gaulli’s native city in Haskell’s tentative introduction claim.
+m-chp1-secii-0092,chp-1:01_CHP-1_sec_ii:l62-71,cand-2818,Wittkower,334,343,Scholar cited for the chronology of large Roman church frescoes.
+m-chp1-secii-0093,chp-1:01_CHP-1_sec_ii:l62-71,cand-2293,Rubens,526,532,Northern European precedent used to explain the utility of modelli.
+m-chp1-secii-0094,chp-1:01_CHP-1_sec_ii:l62-71,cand-3451,modelli,568,575,Preparatory sketches useful to patrons and assistants.
+m-chp1-secii-0095,chp-1:01_CHP-1_sec_ii:l62-71,cand-1027,Ciro Ferri,1927,1937,Painter of the 1670 S. Agnese cupola modello.
+m-chp1-secii-0096,chp-1:01_CHP-1_sec_ii:l62-71,cand-0693,S. Agnese,833,842,Church whose cupola was commissioned at Piazza Navona.
+m-chp1-secii-0097,chp-1:01_CHP-1_sec_ii:l62-71,cand-3455,Piazza Navona,846,859,Location of S. Agnese.
+m-chp1-secii-0098,chp-1:01_CHP-1_sec_ii:l62-71,cand-3456,Pamfili family,1042,1056,Collective patron family responsible for the commission.
+m-chp1-secii-0099,chp-1:01_CHP-1_sec_ii:l62-71,cand-3454,sketches,1204,1212,Objects whose spontaneous character drew greater appreciation.
+m-chp1-secii-0100,chp-1:01_CHP-1_sec_ii:l62-71,cand-3454,collecting them,1406,1421,Sketch collecting; fashion not general until the eighteenth century.
+m-chp1-secii-0101,chp-1:01_CHP-1_sec_ii:l62-71,cand-1766,Giovanni Odazzi,2248,2263,Painter said to have worked faster than Luca Giordano.
+m-chp1-secii-0102,chp-1:01_CHP-1_sec_ii:l62-71,cand-1172,Luca Giordano,2305,2318,Painter used as speed comparison.
+m-chp1-secii-0103,chp-1:01_CHP-1_sec_ii:l62-71,cand-0446,Brandi,2333,2339,Giacinto Brandi; given name is on the preceding line.
+m-chp1-secii-0104,chp-1:01_CHP-1_sec_ii:l62-71,cand-0949,Gaspard Dughet,2444,2458,Painter said to have benefited from a quick-work reward.
+m-chp1-secii-0105,chp-1:01_CHP-1_sec_ii:l62-71,cand-1117,Gaulli,173,179,Painter given eight years for work in the Gesù.
+m-chp1-secii-0106,chp-1:01_CHP-1_sec_ii:l62-71,cand-0689,Gesù,2063,2067,Church with the vault and transept vaults mentioned.
+m-chp1-secii-0107,chp-1:01_CHP-1_sec_ii:l62-71,cand-3457,Venetians,2544,2553,Collective group said to be known for speed; retain source attribution.
+m-chp1-secii-0108,chp-1:01_CHP-1_sec_ii:l73-77,cand-0839,price,69,74,Contract-price provision as an indexed topic candidate.
+m-chp1-secii-0109,chp-1:01_CHP-1_sec_ii:l73-77,cand-3458,stretcher,804,813,Painting support named in the 1647 agent’s statement.
+m-chp1-secii-0110,chp-1:01_CHP-1_sec_ii:l73-77,cand-3459,priming,819,826,Canvas preparation named in the 1647 agent’s statement.
+m-chp1-secii-0111,chp-1:01_CHP-1_sec_ii:l73-77,cand-3460,ultramarine,835,846,Pigment named in the 1647 agent’s statement and the expense variations.
+m-chp1-secii-0112,chp-1:01_CHP-1_sec_ii:l73-77,cand-1814,Prince Pamfili,1440,1454,"Camillo Pamfili, existing index candidate."
+m-chp1-secii-0113,chp-1:01_CHP-1_sec_ii:l73-77,cand-1676,Pier Francesco Mola,1486,1505,Painter of the Valmontone villa decoration.
+m-chp1-secii-0114,chp-1:01_CHP-1_sec_ii:l73-77,cand-3431,Valmontone,1539,1549,Location of the villa.
+m-chp1-secii-0115,chp-1:01_CHP-1_sec_ii:l73-77,cand-0932,Domenichino,1813,1824,Artist paid per principal figure in Naples Cathedral frescoes.
+m-chp1-secii-0116,chp-1:01_CHP-1_sec_ii:l73-77,cand-0936,Naples Cathedral,1880,1896,Site of the frescoes priced per figure.
+m-chp1-secii-0117,chp-1:01_CHP-1_sec_ii:l73-77,cand-1359,Lanfranco,1901,1910,Artist added as another instance in Haskell’s comparison.
+m-chp1-secii-0118,chp-1:01_CHP-1_sec_ii:l79-84,cand-1507,Giulio Mancini,149,163,Sienese doctor and art lover whose account is cited.
+m-chp1-secii-0119,chp-1:01_CHP-1_sec_ii:l79-84,cand-3572,Duke of Mantua,377,391,Title-based reference to the Duke who commissioned Guido Reni in 1617; keep separate from other unnamed Dukes of Mantua until identity is established.
+m-chp1-secii-0120,chp-1:01_CHP-1_sec_ii:l79-84,cand-2124,Guido Reni,401,411,Painter asked for the 1617 Justice commission.
+m-chp1-secii-0121,chp-1:01_CHP-1_sec_ii:l79-84,cand-3463,Justice embracing Peace,441,464,Commission subject; the work’s completion is not stated.
+m-chp1-secii-0122,chp-1:01_CHP-1_sec_ii:l79-84,cand-1282,Paolo Guidotti,663,677,Painter said to give pictures as free gifts while accepting presents.
+m-chp1-secii-0123,chp-1:01_CHP-1_sec_ii:l79-84,cand-0767,Claude Lorrain,817,831,Artist whose pricing is discussed through an agent’s letter.
+m-chp1-secii-0124,chp-1:01_CHP-1_sec_ii:l79-84,cand-1629,Cardinal Leopold de Medici,880,906,Patron whose agent comments on Claude’s price.
+m-chp1-secii-0125,chp-1:01_CHP-1_sec_ii:l79-84,cand-1258,Guercino,1776,1784,Painter who enforced a per-figure price.
+m-chp1-secii-0126,chp-1:01_CHP-1_sec_ii:l79-84,cand-3126,Rome,1364,1368,Location of the Mantuan agent in the deposit letter.
+m-chp1-secii-0127,chp-1:01_CHP-1_sec_ii:l79-84,cand-3126,Rome,2369,2373,City described as assuming functions of a capital.
+m-chp1-secii-0128,chp-1:01_CHP-1_sec_ii:l79-84,cand-3461,Italy,2661,2666,Reference point for Rome’s relative wealth.
+m-chp1-secii-0129,chp-1:01_CHP-1_sec_ii:l79-84,cand-3462,Europe,2797,2803,Region at the end of the unfinished international-centre sentence.
+m-chp1-secii-0130,chp-1:01_CHP-1_sec_ii:l86-94,cand-3126,Rome,189,193,Roman city that aristocrats invited painters to join.
+m-chp1-secii-0131,chp-1:01_CHP-1_sec_ii:l86-94,cand-3126,Rome,247,251,City artists believed offered sufficient scope and rewards.
+m-chp1-secii-0132,chp-1:01_CHP-1_sec_ii:l86-94,cand-3126,Rome,566,570,City described as deficient in producing native artists.
+m-chp1-secii-0133,chp-1:01_CHP-1_sec_ii:l86-94,cand-2983,Borghese,1137,1145,Ruling clan named in the discussion of large-scale patronage.
+m-chp1-secii-0134,chp-1:01_CHP-1_sec_ii:l86-94,cand-3464,Barberini,1154,1163,Ruling clan named in the discussion of large-scale patronage; kept distinct from the household institution.
+m-chp1-secii-0135,chp-1:01_CHP-1_sec_ii:l86-94,cand-3029,Fabrizio Valguarnera,1802,1822,Named buyer whose studio visits illustrate the practice.
+m-chp1-secii-0136,chp-1:01_CHP-1_sec_ii:l86-94,cand-1359,Lanfranco,1934,1943,Painter visited twice by Valguarnera.
+m-chp1-secii-0137,chp-1:01_CHP-1_sec_ii:l86-94,cand-3465,Magdalene,2005,2014,Unidentified sketched-in canvas Valguarnera asked Lanfranco to complete.
+m-chp1-secii-0138,chp-1:01_CHP-1_sec_ii:l86-94,cand-3466,Crucifixion,2026,2037,Unidentified sketched-in canvas Valguarnera asked Lanfranco to complete.
+m-chp1-secii-0139,chp-1:01_CHP-1_sec_ii:l86-94,cand-3086,Poussin,2089,2096,Painter whose studio held the Plague at Ashdod in a preliminary stage.
+m-chp1-secii-0140,chp-1:01_CHP-1_sec_ii:l86-94,cand-3200,Plague at Ashdod,2125,2141,Painting seen by Valguarnera in a preliminary stage and arranged to be finished.
+m-chp1-secii-0141,chp-1:01_CHP-1_sec_ii:l86-94,cand-3202,Spring,2286,2292,New picture commissioned from Poussin by Valguarnera.
+m-chp1-secii-0142,chp-1:01_CHP-1_sec_ii:l86-94,cand-3099,Salvator Rosa,2371,2384,Painter whose studio held works ready for sale.
+m-chp1-secii-0143,chp-1:01_CHP-1_sec_ii:l86-94,cand-3126,Roman,2817,2822,Adjectival reference to the city whose changing social and political pattern is linked to art dealing and exhibitions.
+m-chp1-secii-0144,chp-1:01_CHP-1_sec_ii:l86-94,cand-3126,Rome,3064,3068,"Location in the unfinished sentence about the artist’s position in society, continued in the next segment."
+m-chp1-secii-0145,chp-1:01_CHP-1_sec_ii:l96-104,cand-1660,Michelangelo,299,311,"Renaissance artist whose hero-worship temporarily obscured, but did not settle, status debates."
+m-chp1-secii-0146,chp-1:01_CHP-1_sec_ii:l96-104,cand-2098,Raphael,316,323,Renaissance artist named with Michelangelo.
+m-chp1-secii-0147,chp-1:01_CHP-1_sec_ii:l96-104,cand-3126,Rome,394,398,Baroque cosmopolitan city framing the discussion.
+m-chp1-secii-0148,chp-1:01_CHP-1_sec_ii:l96-104,cand-3462,Europe,443,449,Region in Haskell’s description of Rome as the first great cosmopolitan town of modern Europe.
+m-chp1-secii-0149,chp-1:01_CHP-1_sec_ii:l96-104,cand-3467,foreigners,551,561,Collective arrival factor; no individuals named.
+m-chp1-secii-0150,chp-1:01_CHP-1_sec_ii:l96-104,cand-3468,‘bohemian’,582,592,Quoted label for a newly formed social group of artists.
+m-chp1-secii-0151,chp-1:01_CHP-1_sec_ii:l96-104,cand-3014,Malvasia,849,857,Bolognese writer whose report attributes words to Paul V.
+m-chp1-secii-0152,chp-1:01_CHP-1_sec_ii:l96-104,cand-3092,Pope Paul V,868,879,"Person to whom Malvasia attributes the statement, with qualification."
+m-chp1-secii-0153,chp-1:01_CHP-1_sec_ii:l96-104,cand-3005,Benvenuto,1231,1240,Named autobiographer; surname continues on next source line.
+m-chp1-secii-0154,chp-1:01_CHP-1_sec_ii:l96-104,cand-2942,autobiography,1251,1264,"Cellini’s autobiographical work, evoked as a comparison."
+m-chp1-secii-0155,chp-1:01_CHP-1_sec_ii:l96-104,cand-3005,Cellini,1241,1248,Surname completing Benvenuto Cellini.
+m-chp1-secii-0156,chp-1:01_CHP-1_sec_ii:l96-104,cand-3046,Bernini,1544,1551,"Artist whose authority, esteem, and support are discussed."
+m-chp1-secii-0157,chp-1:01_CHP-1_sec_ii:l96-104,cand-3126,Rome,1731,1735,City of Bernini’s artistic career and potential transformation.
+m-chp1-secii-0158,chp-1:01_CHP-1_sec_ii:l96-104,cand-1660,Michelangelo’s,1842,1856,Possessive reference to the artist’s mystical admiration.
+m-chp1-secii-0159,chp-1:01_CHP-1_sec_ii:l96-104,cand-3126,Rome,1929,1933,Place Bernini had greater opportunity to transform.
+m-chp1-secii-0160,chp-1:01_CHP-1_sec_ii:l96-104,cand-3462,Europe,1942,1948,Place Bernini had greater opportunity to transform.
+m-chp1-secii-0161,chp-1:01_CHP-1_sec_ii:l96-104,cand-3102,Sixtus V,2322,2330,Pope associated by Haskell with changing the social role of the artist.
+m-chp1-secii-0162,chp-1:01_CHP-1_sec_ii:l96-104,cand-3068,Leo X,2614,2619,Pope used as the comparison point for art no longer being self-sufficient.
+m-chp1-secii-0163,chp-1:01_CHP-1_sec_ii:l96-104,cand-3173,Platonism,2621,2630,Philosophical current said no longer to dominate speculation.
+m-chp1-secii-0164,chp-1:01_CHP-1_sec_ii:l96-104,cand-3469,‘genius’,2891,2899,Concept whose cult Haskell says would be revived in the eighteenth century.
+m-chp1-secii-0165,chp-1:01_CHP-1_sec_ii:l106-116,cand-3046,Bernini,86,93,Painter whose exceptional portrait-bust fee is discussed.
+m-chp1-secii-0166,chp-1:01_CHP-1_sec_ii:l106-116,cand-3015,Carlo Maratta,273,286,Painter whose full-length portrait fee is compared with Gaulli’s.
+m-chp1-secii-0167,chp-1:01_CHP-1_sec_ii:l106-116,cand-3050,Gaulli,393,399,Painter whose portrait fee is compared with Maratta’s.
+m-chp1-secii-0168,chp-1:01_CHP-1_sec_ii:l106-116,cand-3031,Baldinucci,618,628,Historian reporting Rembrandt’s high auction bids.
+m-chp1-secii-0169,chp-1:01_CHP-1_sec_ii:l106-116,cand-3471,Rembrandt,665,674,Painter whose auction bids are interpreted as affirming the prestige of his profession.
+m-chp1-secii-0170,chp-1:01_CHP-1_sec_ii:l106-116,cand-3470,Accademia di S. Luca,1080,1100,Professional association whose status and institutional history are discussed.
+m-chp1-secii-0171,chp-1:01_CHP-1_sec_ii:l106-116,cand-3030,Federigo Zuccari,1200,1216,Artist whose 1593–1594 attempts to revive the Academy are described.
+m-chp1-secii-0172,chp-1:01_CHP-1_sec_ii:l106-116,cand-2977,Apostolic Chamber,1647,1664,Institution whose clerk recognized painting as a noble profession in 1601.
+m-chp1-secii-0173,chp-1:01_CHP-1_sec_ii:l106-116,cand-3092,Paul V,1686,1692,Pope who granted an annual release privilege to the Academy in 1605.
+m-chp1-secii-0174,chp-1:01_CHP-1_sec_ii:l106-116,cand-3470,Accademia,1080,1089,Institution granted the annual privilege.
+m-chp1-secii-0175,chp-1:01_CHP-1_sec_ii:l106-116,cand-3061,Gregory XV,1859,1869,Pope who confirmed the Academy statutes in 1621.
+m-chp1-secii-0176,chp-1:01_CHP-1_sec_ii:l106-116,cand-3470,Accademia,1705,1714,Institution whose statutes Gregory XV confirmed.
+m-chp1-secii-0177,chp-1:01_CHP-1_sec_ii:l106-116,cand-3104,Urban VIII,2004,2014,Pope associated with the Academy’s authority in Rome.
+m-chp1-secii-0178,chp-1:01_CHP-1_sec_ii:l106-116,cand-3126,Rome,2071,2075,City whose art world the Academy’s authority shaped.
+m-chp1-secii-0179,chp-1:01_CHP-1_sec_ii:l106-116,cand-3035,Cardinal Francesco Barberini,2267,2295,Academy protector appointed by the Pope; later disputes are qualified.
+m-chp1-secii-0180,chp-1:01_CHP-1_sec_ii:l106-116,cand-3470,Accademia,1932,1941,Institution whose protector was appointed.
+m-chp1-secii-0181,chp-1:01_CHP-1_sec_ii:l106-116,cand-3470,Accademia,2216,2225,Institution granted the right to tax artists in 1633.
+m-chp1-secii-0182,chp-1:01_CHP-1_sec_ii:l106-116,cand-3126,Rome,2490,2494,City in which artists were taxed regardless of Academy membership.
+m-chp1-secii-0183,chp-1:01_CHP-1_sec_ii:l106-116,cand-3056,Bellori,2654,2661,Writer whose favorable interpretation of Maratta’s influence is quoted in a footnote.
+m-chp1-secii-0184,chp-1:01_CHP-1_sec_ii:l106-116,cand-3015,Maratta,279,286,Painter whose fees Bellori says raised the remuneration of painters.
+m-chp1-secii-0185,chp-1:01_CHP-1_sec_ii:l118-127,cand-3470,Accademia,53,62,Academy whose membership and later organization Haskell compares.
+m-chp1-secii-0186,chp-1:01_CHP-1_sec_ii:l118-127,cand-3470,Accademia,512,521,Institution described as giving respectability to its members and art.
+m-chp1-secii-0187,chp-1:01_CHP-1_sec_ii:l118-127,cand-3126,Rome,1531,1535,City in whose public life the Academy played a role.
+m-chp1-secii-0188,chp-1:01_CHP-1_sec_ii:l118-127,cand-3043,Giacinto Brandi,2030,2045,"Artist whose biographer describes servants, a carriage, and lavish living."
+m-chp1-secii-0189,chp-1:01_CHP-1_sec_ii:l118-127,cand-3021,Ciro Ferri,2095,2105,Artist whose biographical account describes a carriage and household display.
+m-chp1-secii-0190,chp-1:01_CHP-1_sec_ii:l118-127,cand-3070,Lodovico Gimignani,2205,2223,Artist whose biographer describes gentlemanly dress and manners.
+m-chp1-secii-0191,chp-1:01_CHP-1_sec_ii:l118-127,cand-3045,"Giammaria
+Morandi",2380,2397,"Artist whose biographer describes dancing, horsemanship, and fencing; the name crosses an OCR line break."
+m-chp1-secii-0192,chp-1:01_CHP-1_sec_ii:l118-127,cand-2997,"Andrea
+Procaccini",2461,2478,Artist whose rooms and style in Spain are described as gentlemanly; the name crosses an OCR line break.
+m-chp1-secii-0193,chp-1:01_CHP-1_sec_ii:l118-127,cand-3134,Spain,2578,2583,Destination where Procaccini’s style was compared to a gentleman’s.
+m-chp1-secii-0194,chp-1:01_CHP-1_sec_ii:l118-127,cand-3015,"Carlo
+Maratta",2899,2912,Painter named in a sarcastic complaint about negotiating a commission; the name crosses an OCR line break.
+m-chp1-secii-0195,chp-1:01_CHP-1_sec_ii:l129-135,cand-3017,Ridolfi,142,149,"Source of an earlier anecdotal motif, according to Haskell."
+m-chp1-secii-0196,chp-1:01_CHP-1_sec_ii:l129-135,cand-3019,Charles V,163,172,Emperor in Ridolfi’s anecdote about picking up Titian’s brushes.
+m-chp1-secii-0197,chp-1:01_CHP-1_sec_ii:l129-135,cand-2630,Titian,186,192,Painter in the Charles V anecdote; candidate selected by the index entry covering p. 19.
+m-chp1-secii-0198,chp-1:01_CHP-1_sec_ii:l129-135,cand-3472,Cardinal Barberini,218,236,Identity unresolved in the anecdote about holding a mirror for Bernini.
+m-chp1-secii-0199,chp-1:01_CHP-1_sec_ii:l129-135,cand-3046,Bernini,258,265,"Painter in the mirror anecdote, working on a self-portrait as David."
+m-chp1-secii-0200,chp-1:01_CHP-1_sec_ii:l129-135,cand-3181,David,319,324,"Bernini’s self-portrait guise, referring to the accepted David statue."
+m-chp1-secii-0201,chp-1:01_CHP-1_sec_ii:l129-135,cand-3065,Innocent X,327,337,Pope in the anecdote of handing Mola a canvas.
+m-chp1-secii-0202,chp-1:01_CHP-1_sec_ii:l129-135,cand-3094,"Pier Francesco
+Mola",346,365,Artist in the Innocent X anecdote and the later Queen Christina account; OCR line break preserved.
+m-chp1-secii-0203,chp-1:01_CHP-1_sec_ii:l129-135,cand-3020,Queen Christina,492,507,Queen who reportedly took Mola into her carriage.
+m-chp1-secii-0204,chp-1:01_CHP-1_sec_ii:l129-135,cand-3059,Giuseppe Ghezzi,625,640,Artist reportedly taken on drives by the Spanish Ambassador and later described as a courtier.
+m-chp1-secii-0205,chp-1:01_CHP-1_sec_ii:l129-135,cand-2978,Society of Arcadia,734,752,Society to which Ghezzi was elected.
+m-chp1-secii-0206,chp-1:01_CHP-1_sec_ii:l129-135,cand-3135,St Peter’s,788,798,Place where Ghezzi received a benefice from Clement XI.
+m-chp1-secii-0207,chp-1:01_CHP-1_sec_ii:l129-135,cand-3022,Clement XI,802,812,Pope who gave Ghezzi a benefice at St Peter’s.
+m-chp1-secii-0208,chp-1:01_CHP-1_sec_ii:l129-135,cand-3066,Innocent XIII,854,867,Pope who appointed Ghezzi master of ceremonies.
+m-chp1-secii-0209,chp-1:01_CHP-1_sec_ii:l129-135,cand-3027,Duke of Parma,902,915,Ghezzi’s honorific context; the duke’s personal identity and appointment date remain unspecified.
+m-chp1-secii-0210,chp-1:01_CHP-1_sec_ii:l129-135,cand-3156,Cavaliere dell’abito di Cristo,1174,1204,Honorific title reportedly given to many distinguished artists by the mid-seventeenth century.
+m-chp1-secii-0211,chp-1:01_CHP-1_sec_ii:l129-135,cand-3032,Filippo Lauri,1437,1450,Painter whose study of news-sheets is cited as evidence of social and intellectual preparation.
+m-chp1-secii-0212,chp-1:01_CHP-1_sec_ii:l129-135,cand-3044,Passeri,1881,1888,Biographer whose quoted criticism of uneducated painters is reproduced by Haskell.
+m-chp1-secii-0213,chp-1:01_CHP-1_sec_ii:l129-135,cand-3163,genius,2496,2502,Concept in Haskell’s contrast between education and the idea of an untutored genius.
+m-chp1-secii-0214,chp-1:01_CHP-1_sec_ii:l137-146,cand-3126,Roman,401,406,"Adjectival reference to Rome, where patrons encouraged new artists."
+m-chp1-secii-0215,chp-1:01_CHP-1_sec_ii:l137-146,cand-3163,undiscovered genius,625,644,Concept Haskell says was not yet available to console poor painters.
+m-chp1-secii-0216,chp-1:01_CHP-1_sec_ii:l137-146,cand-3152,bentveughels,744,756,Name for the colony of Dutch and Flemish artists living in Rome.
+m-chp1-secii-0217,chp-1:01_CHP-1_sec_ii:l137-146,cand-2989,Schildersbent,818,831,"Mutual-aid society for northern artists, formed in 1623 according to Haskell’s qualified date."
+m-chp1-secii-0218,chp-1:01_CHP-1_sec_ii:l137-146,cand-3470,Accademia di S. Luca,1024,1044,Italian academy compared with the Schildersbent.
+m-chp1-secii-0219,chp-1:01_CHP-1_sec_ii:l137-146,cand-3126,Rome,808,812,City where the northern artists lived and the Academy attempted to levy a tax.
+m-chp1-secii-0220,chp-1:01_CHP-1_sec_ii:l137-146,cand-3137,Via Margutta,1493,1505,District where many northern artists lived.
+m-chp1-secii-0221,chp-1:01_CHP-1_sec_ii:l137-146,cand-3124,Piazza di Spagna,1515,1531,Place near the artists’ district.
+m-chp1-secii-0222,chp-1:01_CHP-1_sec_ii:l137-146,cand-3468,‘Bohemian’ tradition,1568,1588,Haskell’s characterization of the tradition associated with the area.
+m-chp1-secii-0223,chp-1:01_CHP-1_sec_ii:l137-146,cand-3095,"Pieter Van
+Laer",1902,1917,Full name spans a line break within this source segment; preserve the complete surface span.
+m-chp1-secii-0224,chp-1:01_CHP-1_sec_ii:l137-146,cand-3470,Accademia,1024,1033,Academy that also included Pieter Van Laer as a member.
+m-chp1-secii-0225,chp-1:01_CHP-1_sec_ii:l137-146,cand-2996,Andrea Pozzo,2543,2555,Artist whose parents’ social standing and response to his career are discussed.
+m-chp1-secii-0226,chp-1:01_CHP-1_sec_ii:l137-146,cand-3080,Mario de’ Fiori,2930,2945,Painter who planned one son for the Church and another for painting.
+m-chp1-secii-0227,chp-1:01_CHP-1_sec_ii:l148-153,cand-3047,Gianandrea Carlone,10,28,Marriage example linked to social acceptance of artists.
+m-chp1-secii-0228,chp-1:01_CHP-1_sec_ii:l148-153,cand-3075,Marchese Costaguti,63,81,Marchese whose household master approved Carlone as a husband; the sister and master remain unnamed.
+m-chp1-secii-0229,chp-1:01_CHP-1_sec_ii:l148-153,cand-3046,Bernini,954,961,Artist cited as an exception to declining family transmission of artistic work.
+m-chp1-secii-0230,chp-1:01_CHP-1_sec_ii:l148-153,cand-3126,Rome,696,700,City used in comparison of artists’ social position and family workshops.
+m-chp1-secii-0231,chp-1:01_CHP-1_sec_ii:l148-153,cand-3401,Venice,1177,1183,City contrasted with Rome in the social standing of artists.
+m-chp1-secii-0232,chp-1:01_CHP-1_sec_ii:l148-153,cand-0139,‘artistic temperament’,1934,1956,Concept Haskell traces from Vasari’s hints to broad acceptance in the seventeenth century.
+m-chp1-secii-0233,chp-1:01_CHP-1_sec_ii:l148-153,cand-3049,Vasari,2005,2011,Writer credited with early suggestions of an artistic temperament.
+m-chp1-secii-0234,chp-1:01_CHP-1_sec_ii:l148-153,cand-3092,Paul V,2168,2174,Pope whose alleged comments about Guido Reni are treated skeptically.
+m-chp1-secii-0235,chp-1:01_CHP-1_sec_ii:l148-153,cand-3064,Guido Reni,2200,2210,Painter in the alleged Paul V conversation.
+m-chp1-secii-0236,chp-1:01_CHP-1_sec_ii:l148-153,cand-3014,Malvasia,2460,2468,Writer whose later period makes Haskell skeptical of the reported Paul V conversation.
+m-chp1-secii-0237,chp-1:01_CHP-1_sec_ii:l148-153,cand-3055,Giovanni Perugini,2689,2706,Painter described in a 1676 letter from the Resident of the King of Savoy.
+m-chp1-secii-0238,chp-1:01_CHP-1_sec_ii:l148-153,cand-2662,Turin,2760,2765,City named as the court location in the 1676 account.
+m-chp1-secii-0353,chp-1:01_CHP-1_sec_ii:l155-159,cand-3099,Salvator Rosa,65,78,Subject of the passage.
+m-chp1-secii-0354,chp-1:01_CHP-1_sec_ii:l155-159,cand-3099,Salvator Rosa,807,820,Subject of Haskell’s account of the artist image.
+m-chp1-secii-0355,chp-1:01_CHP-1_sec_ii:l155-159,cand-3473,Compagnia della Morte,325,346,"Legendary company, explicitly treated as a legend."
+m-chp1-secii-0356,chp-1:01_CHP-1_sec_ii:l155-159,cand-3099,Salvator Rosa,1328,1341,Subject of the self-advertisement discussion.
+m-chp1-secii-0357,chp-1:01_CHP-1_sec_ii:l155-159,cand-3099,Salvator Rosa,1888,1901,Subject of the artistic-independence discussion.
+m-chp1-secii-0358,chp-1:01_CHP-1_sec_ii:l161-166,cand-3099,Salvator Rosa,232,245,Subject of Haskell’s interpretation.
+m-chp1-secii-0359,chp-1:01_CHP-1_sec_ii:l161-166,cand-3031,Baldinucci,996,1006,Later biographer quoted by Haskell.
+m-chp1-secii-0360,chp-1:01_CHP-1_sec_ii:l161-166,cand-3099,"Salvator
+Rosa",1295,1308,"Appraisal subject, split by source line break."
+m-chp1-secii-0361,chp-1:01_CHP-1_sec_ii:l168-239,cand-3058,Giuseppe de Rosis,9410,9427,Author of the cited 1663 letter.
+m-chp1-secii-0362,chp-1:01_CHP-1_sec_ii:l168-239,cand-3002,Don. Antonio Ruffo,9431,9449,Recipient as printed in the OCR surface form.
+m-chp1-secii-0363,chp-1:01_CHP-1_sec_ii:l168-239,cand-3474,V. Ruffo,9489,9497,Editor/publisher cited in the note; full identity unresolved and distinct from recipient Antonio Ruffo.
+m-chp1-secii-0364,chp-1:01_CHP-1_sec_ii:l168-239,cand-3031,Baldinucci,6796,6806,Source cited for the appraisal.
+m-chp1-secii-0365,chp-1:01_CHP-1_sec_ii:l168-239,cand-3021,Ciro Ferri,4299,4309,Painter whose letter is a qualified parallel.
+m-chp1-secii-0366,chp-1:01_CHP-1_sec_ii:l168-239,cand-3002,Don Antonio Ruffo,7575,7592,Recipient of Ferri’s letter.
+m-chp1-secii-0367,chp-1:01_CHP-1_sec_ii:l168-239,cand-3004,Benedetto Luti,552,566,Painter in Pascoli’s later comparison.
+m-chp1-secii-0368,chp-1:01_CHP-1_sec_ii:l168-239,cand-3474,V. Rufifo,6161,6170,OCR variant of the editor/publisher V. Ruffo
+m-chp1-secii-0369,chp-1:01_CHP-1_sec_ii:l168-239,cand-3474,V.,7628,7630,The OCR citation truncates the editor’s surname; the corresponding PDF/reference identifies V. Ruffo.
+m-chp1-secii-0370,chp-1:01_CHP-1_sec_ii:l168-239,cand-3474,V.,9393,9395,The OCR citation truncates the editor’s surname; the corresponding PDF/reference identifies V. Ruffo.
+m-chp1-secii-0371,chp-1:01_CHP-1_sec_ii:l168-239,cand-3475,Jacopo Salviati,5836,5851,Named sender of a cited 1662 letter; bibliographic citation is mediated.
+m-chp1-secii-0372,chp-1:01_CHP-1_sec_ii:l168-239,cand-1629,Cardinal Leopoldo de’ Medici,5855,5883,Recipient of Jacopo Salviati’s cited 1662 letter.
+m-chp1-secii-0373,chp-1:01_CHP-1_sec_ii:l168-239,cand-3476,Fabrizio Arragona,5963,5980,Mantuan agent and sender of the cited 1621 letter.
+m-chp1-secii-0374,chp-1:01_CHP-1_sec_ii:l168-239,cand-1258,Guercino,6092,6100,Sender of the cited 1649 letter.
+m-chp1-secii-0375,chp-1:01_CHP-1_sec_ii:l168-239,cand-2297,Don Antonio Ruffe,6104,6121,Recipient; source transcription spelling is an OCR variant of Ruffo confirmed in the processing record.
+m-chp1-secii-0376,chp-1:01_CHP-1_sec_ii:l28-38,cand-2377,Saverio Savini,2880,2894,Painter in the Gubbio 1608 contract example.
+m-chp1-secii-0377,chp-1:01_CHP-1_sec_ii:l28-38,cand-3113,Gubbio,2898,2904,Place of the 1608 commission example.
+m-chp1-secii-0378,chp-1:01_CHP-1_sec_ii:l28-38,cand-3477,Gualandi,2926,2934,Publication author cited for the contract.
+m-chp1-secii-0379,chp-1:01_CHP-1_sec_ii:l28-38,cand-1671,Mario Minnitti,2954,2968,Painter in the 1617 Augusta example; the source transcription differs from index spelling Minitti.
+m-chp1-secii-0380,chp-1:01_CHP-1_sec_ii:l28-38,cand-3107,Augusta,2972,2979,Place of the 1617 commission example; candidate identifies Augusta in Sicily.
+m-chp1-secii-0381,chp-1:01_CHP-1_sec_ii:l28-38,cand-3423,Sicily,2981,2987,Geographic qualifier in the place name Augusta (Sicily).
+m-chp1-secii-0382,chp-1:01_CHP-1_sec_ii:l28-38,cand-3478,Giuseppe Agnello,3011,3027,Publication author cited for the contract.
+m-chp1-secii-0383,chp-1:01_CHP-1_sec_ii:l168-239,cand-1713,Pietro Mulier,123,136,Painter in the Duke of Bracciano departure example.
+m-chp1-secii-0384,chp-1:01_CHP-1_sec_ii:l168-239,cand-3479,Duke of Bracciano,85,102,Title-holder in the departure example; identity not stated here.
+m-chp1-secii-0385,chp-1:01_CHP-1_sec_ii:l168-239,cand-1676,Pier Francesco Mola,172,191,Painter employed at Valmontone.
+m-chp1-secii-0386,chp-1:01_CHP-1_sec_ii:l168-239,cand-1676,Pier Francesco Mola,4131,4150,Painter employed at Valmontone.
+m-chp1-secii-0387,chp-1:01_CHP-1_sec_ii:l168-239,cand-1676,Pier Francesco Mola,5382,5401,Painter employed at Valmontone.
+m-chp1-secii-0388,chp-1:01_CHP-1_sec_ii:l168-239,cand-3480,Guglielmo Cortese,196,213,Painter employed at Valmontone.
+m-chp1-secii-0389,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,143,147,Departure destination.
+m-chp1-secii-0390,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,715,719,Departure destination.
+m-chp1-secii-0391,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,2253,2257,Departure destination.
+m-chp1-secii-0392,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,3622,3626,Departure destination.
+m-chp1-secii-0393,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,5999,6003,Departure destination.
+m-chp1-secii-0394,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,8224,8228,Departure destination.
+m-chp1-secii-0395,chp-1:01_CHP-1_sec_ii:l168-239,cand-3431,Valmontone,253,263,Place where Mola and Cortese were employed.
+m-chp1-secii-0396,chp-1:01_CHP-1_sec_ii:l168-239,cand-3431,Valmontone,1736,1746,Place where Mola and Cortese were employed.
+m-chp1-secii-0397,chp-1:01_CHP-1_sec_ii:l168-239,cand-3431,Valmontone,4175,4185,Place where Mola and Cortese were employed.
+m-chp1-secii-0398,chp-1:01_CHP-1_sec_ii:l168-239,cand-3431,Valmontone,5421,5431,Place where Mola and Cortese were employed.
+m-chp1-secii-0399,chp-1:01_CHP-1_sec_ii:l168-239,cand-1814,Prince Pamfili,312,326,Employer at Valmontone; existing chapter candidate retained.
+m-chp1-secii-0400,chp-1:01_CHP-1_sec_ii:l168-239,cand-1814,Prince Pamfili,5204,5218,Employer at Valmontone; existing chapter candidate retained.
+m-chp1-secii-0401,chp-1:01_CHP-1_sec_ii:l168-239,cand-3099,Salvator Rosa,517,530,Painter named in the chapter cross-reference.
+m-chp1-secii-0402,chp-1:01_CHP-1_sec_ii:l168-239,cand-3099,Salvator Rosa,9324,9337,Painter named in the chapter cross-reference.
+m-chp1-secii-0403,chp-1:01_CHP-1_sec_ii:l168-239,cand-3004,Benedetto Luti,9998,10012,Painter named in the chapter cross-reference.
+m-chp1-secii-0404,chp-1:01_CHP-1_sec_ii:l168-239,cand-1935,Paolo Girolamo Piola,568,588,Painter described as seeking residence apart from his patron.
+m-chp1-secii-0405,chp-1:01_CHP-1_sec_ii:l168-239,cand-1809,Marchese Pallavicini,678,698,Patron in Piola’s residence example.
+m-chp1-secii-0406,chp-1:01_CHP-1_sec_ii:l168-239,cand-0673,Cardinal Flavio Chigi,821,842,Patron who granted Mario de’ Fiori a monthly allowance.
+m-chp1-secii-0407,chp-1:01_CHP-1_sec_ii:l168-239,cand-3080,Mario de’ Fiori,848,863,Painter receiving the allowance.
+m-chp1-secii-0408,chp-1:01_CHP-1_sec_ii:l168-239,cand-3481,Claude,935,941,Painter referred to only as Claude; identity unresolved.
+m-chp1-secii-0409,chp-1:01_CHP-1_sec_ii:l168-239,cand-1124,Camillo Gavasetti,1040,1057,Painter whose 1624 Piacenza fresco commission is quoted.
+m-chp1-secii-0410,chp-1:01_CHP-1_sec_ii:l168-239,cand-1124,Camillo Gavasetti,5535,5552,Painter whose 1624 Piacenza fresco commission is quoted.
+m-chp1-secii-0411,chp-1:01_CHP-1_sec_ii:l168-239,cand-3482,S. Antonino,1008,1019,Church named as the site of Gavasetti’s frescoes.
+m-chp1-secii-0412,chp-1:01_CHP-1_sec_ii:l168-239,cand-3483,Piacenza,1023,1031,City where Gavasetti’s frescoes were commissioned.
+m-chp1-secii-0413,chp-1:01_CHP-1_sec_ii:l168-239,cand-3483,Piacenza,5617,5625,City where Gavasetti’s frescoes were commissioned.
+m-chp1-secii-0414,chp-1:01_CHP-1_sec_ii:l168-239,cand-3484,SS. i Deputati,1087,1101,Executing committee named in the commission; OCR form retained.
+m-chp1-secii-0415,chp-1:01_CHP-1_sec_ii:l168-239,cand-2186,Sebastiano Ricci,1306,1322,Painter required to produce a Bologna commission.
+m-chp1-secii-0416,chp-1:01_CHP-1_sec_ii:l168-239,cand-3485,Confraternità di S. Giovanni Battista Decollato,1343,1390,Commissioning confraternity in Bologna.
+m-chp1-secii-0417,chp-1:01_CHP-1_sec_ii:l168-239,cand-3398,Bologna,1394,1401,City of Ricci’s commission.
+m-chp1-secii-0418,chp-1:01_CHP-1_sec_ii:l168-239,cand-3398,Bologna,5172,5179,City of Ricci’s commission.
+m-chp1-secii-0419,chp-1:01_CHP-1_sec_ii:l168-239,cand-3486,La Decolatione di S. Gio. Battista,1412,1446,Work title as transcribed in the cited commission.
+m-chp1-secii-0420,chp-1:01_CHP-1_sec_ii:l168-239,cand-3487,Vincenzo Armarmi,1636,1652,Sender of the undated letter about villa decoration; identity unresolved.
+m-chp1-secii-0421,chp-1:01_CHP-1_sec_ii:l168-239,cand-1814,Camillo Pamfili,1668,1683,Recipient of Armarmi’s letter and villa patron.
+m-chp1-secii-0422,chp-1:01_CHP-1_sec_ii:l168-239,cand-0484,Andrea Camassei,1765,1780,Artist identified in the receipt example.
+m-chp1-secii-0423,chp-1:01_CHP-1_sec_ii:l168-239,cand-2124,Guido Reni,1981,1991,Painter named in the comparison about subject treatment.
+m-chp1-secii-0424,chp-1:01_CHP-1_sec_ii:l168-239,cand-2016,Poussin,1998,2005,Painter named in the comparison about subject treatment.
+m-chp1-secii-0425,chp-1:01_CHP-1_sec_ii:l168-239,cand-3488,Massacre of the Innocents,2026,2051,Named subject/title of the painters’ treatments; versions unresolved.
+m-chp1-secii-0426,chp-1:01_CHP-1_sec_ii:l168-239,cand-1170,Onorato Gini,2259,2271,Savoy Resident in Rome who summarized Cortona’s position.
+m-chp1-secii-0427,chp-1:01_CHP-1_sec_ii:l168-239,cand-0342,Pietro da Cortona,3011,3028,Painter whose response to the proposed subject is reported.
+m-chp1-secii-0428,chp-1:01_CHP-1_sec_ii:l168-239,cand-1359,Lanfranco,2716,2725,Painter whose canvas practice is discussed.
+m-chp1-secii-0429,chp-1:01_CHP-1_sec_ii:l168-239,cand-1359,Lanfranco,2906,2915,Painter whose canvas practice is discussed.
+m-chp1-secii-0430,chp-1:01_CHP-1_sec_ii:l168-239,cand-3489,L. Grassi,2938,2947,Author of the disputed modello publication; identity unresolved.
+m-chp1-secii-0431,chp-1:01_CHP-1_sec_ii:l168-239,cand-3490,Palazzo Doria-Pamfili,3068,3089,Palazzo whose gallery ceiling is the subject of the disputed modelli.
+m-chp1-secii-0432,chp-1:01_CHP-1_sec_ii:l168-239,cand-2802,Professor Waterhouse,3274,3294,Scholar who reported the Camassei modello.
+m-chp1-secii-0433,chp-1:01_CHP-1_sec_ii:l168-239,cand-0484,Camassei,1772,1780,Artist associated with the reported modello.
+m-chp1-secii-0434,chp-1:01_CHP-1_sec_ii:l168-239,cand-0484,Camassei,3347,3355,Artist associated with the reported modello.
+m-chp1-secii-0435,chp-1:01_CHP-1_sec_ii:l168-239,cand-0484,Camassei,4919,4927,Artist associated with the reported modello.
+m-chp1-secii-0436,chp-1:01_CHP-1_sec_ii:l168-239,cand-3491,Saints Peter and Paul baptising in the Mammcrtine prison,3357,3413,Modello title/description; OCR form retained and exact object unresolved.
+m-chp1-secii-0437,chp-1:01_CHP-1_sec_ii:l168-239,cand-3464,Barberini,3198,3207,Family that formerly owned the Camassei modello.
+m-chp1-secii-0438,chp-1:01_CHP-1_sec_ii:l168-239,cand-3464,Barberini,3437,3446,Family that formerly owned the Camassei modello.
+m-chp1-secii-0439,chp-1:01_CHP-1_sec_ii:l168-239,cand-3492,Pinacoteca Vaticana,3462,3481,Current repository named for the modello.
+m-chp1-secii-0440,chp-1:01_CHP-1_sec_ii:l168-239,cand-3493,Andrea Sacelli,3530,3544,Artist named in the note; source spelling retained and identity unresolved.
+m-chp1-secii-0441,chp-1:01_CHP-1_sec_ii:l168-239,cand-3494,Capuchin church in Rome,3603,3626,Church associated with an altarpiece modello; exact church unresolved.
+m-chp1-secii-0442,chp-1:01_CHP-1_sec_ii:l168-239,cand-3495,Colnaghi’s,3670,3680,London gallery named as a prior dealer of a modello.
+m-chp1-secii-0443,chp-1:01_CHP-1_sec_ii:l168-239,cand-1494,Denis Mahon,3739,3750,Collector named as current owner of a modello.
+m-chp1-secii-0444,chp-1:01_CHP-1_sec_ii:l168-239,cand-0342,Cortona,2348,2355,Surname-only reference to painter Pietro da Cortona in the Gini letter; not the city.
+m-chp1-secii-0445,chp-1:01_CHP-1_sec_ii:l168-239,cand-3111,Cortona,4400,4407,City where Ferri’s altarpiece was commissioned.
+m-chp1-secii-0446,chp-1:01_CHP-1_sec_ii:l168-239,cand-0021,Francesco Albani,3970,3986,Painter receiving a large advance in 1639.
+m-chp1-secii-0447,chp-1:01_CHP-1_sec_ii:l168-239,cand-3021,Ciro Ferri,9679,9689,Painter receiving an advance for an altarpiece in Cortona.
+m-chp1-secii-0448,chp-1:01_CHP-1_sec_ii:l168-239,cand-1364,Annibale Laparclli,4412,4430,Patron named in transcription; OCR spelling differs from index form Laparelli.
+m-chp1-secii-0449,chp-1:01_CHP-1_sec_ii:l168-239,cand-3496,Berlingete Gessi,4552,4568,Author of the cited 1647 letter about material payments.
+m-chp1-secii-0450,chp-1:01_CHP-1_sec_ii:l168-239,cand-1790,Don Cesare Leopardi d’Osimo,4572,4599,Recipient of Gessi’s 1647 letter.
+m-chp1-secii-0451,chp-1:01_CHP-1_sec_ii:l168-239,cand-3016,Carlo Quarisinini,4822,4839,Author of the 1696 letter; source spelling retained.
+m-chp1-secii-0452,chp-1:01_CHP-1_sec_ii:l168-239,cand-3497,Conte Ventura Carrara,4843,4864,Recipient of Quarisinini’s 1696 letter.
+m-chp1-secii-0453,chp-1:01_CHP-1_sec_ii:l168-239,cand-1217,Bonifazio Gozadini,5039,5057,Painter promising materials for Albani’s altarpiece.
+m-chp1-secii-0454,chp-1:01_CHP-1_sec_ii:l168-239,cand-3104,Urban VIII,4956,4966,Pope who contracted with Camassei in 1633.
+m-chp1-secii-0455,chp-1:01_CHP-1_sec_ii:l168-239,cand-2061,Mattia Preti,5695,5707,Painter whose letters are cited as examples.
+m-chp1-secii-0456,chp-1:01_CHP-1_sec_ii:l168-239,cand-1134,Artemisia Gentileschi,5712,5733,Painter whose letters are cited as examples.
+m-chp1-secii-0457,chp-1:01_CHP-1_sec_ii:l168-239,cand-3498,Incisa della Rocchetta,17,39,Bibliographic author cited in the footnote; full identity unresolved.
+m-chp1-secii-0458,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,56,63,Author cited for historical examples and later assessments.
+m-chp1-secii-0459,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,152,159,Author cited for historical examples and later assessments.
+m-chp1-secii-0460,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,420,427,Author cited for historical examples and later assessments.
+m-chp1-secii-0461,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,2544,2551,Author cited for historical examples and later assessments.
+m-chp1-secii-0462,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,3842,3849,Author cited for historical examples and later assessments.
+m-chp1-secii-0463,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,6457,6464,Author cited for historical examples and later assessments.
+m-chp1-secii-0464,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,7171,7178,Author cited for historical examples and later assessments.
+m-chp1-secii-0465,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,7476,7483,Author cited for historical examples and later assessments.
+m-chp1-secii-0466,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,7660,7667,Author cited for historical examples and later assessments.
+m-chp1-secii-0467,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,7756,7763,Author cited for historical examples and later assessments.
+m-chp1-secii-0468,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,8377,8384,Author cited for historical examples and later assessments.
+m-chp1-secii-0469,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,8515,8522,Author cited for historical examples and later assessments.
+m-chp1-secii-0470,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,8737,8744,Author cited for historical examples and later assessments.
+m-chp1-secii-0471,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,8767,8774,Author cited for historical examples and later assessments.
+m-chp1-secii-0472,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,10024,10031,Author cited for historical examples and later assessments.
+m-chp1-secii-0473,chp-1:01_CHP-1_sec_ii:l168-239,cand-1856,Passeri,347,354,Author cited for the local example.
+m-chp1-secii-0474,chp-1:01_CHP-1_sec_ii:l168-239,cand-1856,Passeri,8426,8433,Author cited for the local example.
+m-chp1-secii-0475,chp-1:01_CHP-1_sec_ii:l168-239,cand-2650,Trevisani,407,416,Artist whose unpublished life is cited.
+m-chp1-secii-0476,chp-1:01_CHP-1_sec_ii:l168-239,cand-3499,Battisti,473,481,Bibliographic author cited by short surname; identity unresolved.
+m-chp1-secii-0477,chp-1:01_CHP-1_sec_ii:l168-239,cand-3500,Soprani,798,805,Bibliographic author cited for Piola’s residence example; identity unresolved.
+m-chp1-secii-0478,chp-1:01_CHP-1_sec_ii:l168-239,cand-3501,Golzio,896,902,Bibliographic author cited for the Chigi allowance example; identity unresolved.
+m-chp1-secii-0479,chp-1:01_CHP-1_sec_ii:l168-239,cand-3501,Golzio,3781,3787,Bibliographic author cited for the Chigi allowance example; identity unresolved.
+m-chp1-secii-0480,chp-1:01_CHP-1_sec_ii:l168-239,cand-3502,Rothlisberger,946,959,Scholar cited concerning Claude; identity unresolved.
+m-chp1-secii-0481,chp-1:01_CHP-1_sec_ii:l168-239,cand-3477,Gualandi,1278,1286,Cited author/editor of the commission records.
+m-chp1-secii-0482,chp-1:01_CHP-1_sec_ii:l168-239,cand-3477,Gualandi,4082,4090,Cited author/editor of the commission records.
+m-chp1-secii-0483,chp-1:01_CHP-1_sec_ii:l168-239,cand-3477,Gualandi,4432,4440,Cited author/editor of the commission records.
+m-chp1-secii-0484,chp-1:01_CHP-1_sec_ii:l168-239,cand-3477,Gualandi,4634,4642,Cited author/editor of the commission records.
+m-chp1-secii-0485,chp-1:01_CHP-1_sec_ii:l168-239,cand-3477,Gualandi,5627,5635,Cited author/editor of the commission records.
+m-chp1-secii-0486,chp-1:01_CHP-1_sec_ii:l168-239,cand-3503,von Derschau,1521,1533,Cited author of the Ricci commission record; identity unresolved.
+m-chp1-secii-0487,chp-1:01_CHP-1_sec_ii:l168-239,cand-3413,Montalto,327,335,Cited source; authorship and work identity unresolved.
+m-chp1-secii-0488,chp-1:01_CHP-1_sec_ii:l168-239,cand-3413,Montalto,1571,1579,Cited source; authorship and work identity unresolved.
+m-chp1-secii-0489,chp-1:01_CHP-1_sec_ii:l168-239,cand-3413,Montalto,4272,4280,Cited source; authorship and work identity unresolved.
+m-chp1-secii-0490,chp-1:01_CHP-1_sec_ii:l168-239,cand-3413,Montalto,5501,5509,Cited source; authorship and work identity unresolved.
+m-chp1-secii-0491,chp-1:01_CHP-1_sec_ii:l168-239,cand-3413,Montalto,5649,5657,Cited source; authorship and work identity unresolved.
+m-chp1-secii-0492,chp-1:01_CHP-1_sec_ii:l168-239,cand-3504,Bertolotti,1813,1823,Publisher/editor of the cited Camassei receipt; full identity unresolved.
+m-chp1-secii-0493,chp-1:01_CHP-1_sec_ii:l168-239,cand-3505,Artisti bolognesi,1825,1842,Abbreviated publication title cited for the receipt; full title unresolved.
+m-chp1-secii-0494,chp-1:01_CHP-1_sec_ii:l168-239,cand-3506,Friedlaender,2104,2116,Scholar cited concerning the Reni and Poussin examples; identity unresolved.
+m-chp1-secii-0495,chp-1:01_CHP-1_sec_ii:l168-239,cand-3506,Friedlaender,2620,2632,Scholar cited concerning the Reni and Poussin examples; identity unresolved.
+m-chp1-secii-0496,chp-1:01_CHP-1_sec_ii:l168-239,cand-3507,Bottari,2154,2161,Editor/source cited for the 1690 letter; identity unresolved.
+m-chp1-secii-0497,chp-1:01_CHP-1_sec_ii:l168-239,cand-3507,Bottari,4889,4896,Editor/source cited for the 1690 letter; identity unresolved.
+m-chp1-secii-0498,chp-1:01_CHP-1_sec_ii:l168-239,cand-3507,Bottari,9032,9039,Editor/source cited for the 1690 letter; identity unresolved.
+m-chp1-secii-0499,chp-1:01_CHP-1_sec_ii:l168-239,cand-3508,Claretta,2296,2304,Author of the Gini letter summary; full identity unresolved.
+m-chp1-secii-0500,chp-1:01_CHP-1_sec_ii:l168-239,cand-3509,Costello,2565,2573,Scholar cited for Lanfranco’s canvas practice; identity unresolved.
+m-chp1-secii-0501,chp-1:01_CHP-1_sec_ii:l168-239,cand-3509,Costello,2918,2926,Scholar cited for Lanfranco’s canvas practice; identity unresolved.
+m-chp1-secii-0502,chp-1:01_CHP-1_sec_ii:l168-239,cand-3509,Costello,6179,6187,Scholar cited for Lanfranco’s canvas practice; identity unresolved.
+m-chp1-secii-0503,chp-1:01_CHP-1_sec_ii:l168-239,cand-3510,Pollak,2683,2689,Author/editor of the Lanfranco letter publication; identity unresolved.
+m-chp1-secii-0504,chp-1:01_CHP-1_sec_ii:l168-239,cand-3511,Brigand,3137,3144,Scholar cited on the disputed Cortona modelli; identity unresolved.
+m-chp1-secii-0505,chp-1:01_CHP-1_sec_ii:l168-239,cand-2818,Wittkower,3754,3763,Scholar cited in the bibliography and Bernini assessment.
+m-chp1-secii-0506,chp-1:01_CHP-1_sec_ii:l168-239,cand-2818,Wittkower,6579,6588,Scholar cited in the bibliography and Bernini assessment.
+m-chp1-secii-0507,chp-1:01_CHP-1_sec_ii:l168-239,cand-3513,Tacchi-Venturi,3810,3824,Bibliographic author cited for the Bernini context; identity unresolved.
+m-chp1-secii-0508,chp-1:01_CHP-1_sec_ii:l168-239,cand-3514,Mancini,5759,5766,Author cited for the correspondence example; identity unresolved.
+m-chp1-secii-0509,chp-1:01_CHP-1_sec_ii:l168-239,cand-3515,Luzio,2177,2182,Author cited for contract and correspondence examples; identity unresolved.
+m-chp1-secii-0510,chp-1:01_CHP-1_sec_ii:l168-239,cand-3515,Luzio,5181,5186,Author cited for contract and correspondence examples; identity unresolved.
+m-chp1-secii-0511,chp-1:01_CHP-1_sec_ii:l168-239,cand-3515,Luzio,5781,5786,Author cited for contract and correspondence examples; identity unresolved.
+m-chp1-secii-0512,chp-1:01_CHP-1_sec_ii:l168-239,cand-3515,Luzio,6063,6068,Author cited for contract and correspondence examples; identity unresolved.
+m-chp1-secii-0513,chp-1:01_CHP-1_sec_ii:l168-239,cand-3516,Faldi,5797,5802,Author cited for the correspondence example; identity unresolved.
+m-chp1-secii-0514,chp-1:01_CHP-1_sec_ii:l168-239,cand-3517,Ferdinand Boyer,5918,5933,Editor/author publishing the Salviati letter; identity unresolved.
+m-chp1-secii-0515,chp-1:01_CHP-1_sec_ii:l168-239,cand-3014,Malvasia,6257,6265,Author whose qualification about the Pope’s words is quoted.
+m-chp1-secii-0516,chp-1:01_CHP-1_sec_ii:l168-239,cand-3014,Malvasia,6391,6399,Author whose qualification about the Pope’s words is quoted.
+m-chp1-secii-0517,chp-1:01_CHP-1_sec_ii:l168-239,cand-3518,Pope,6310,6314,The reported speaker is identified only by office; identity unresolved.
+m-chp1-secii-0518,chp-1:01_CHP-1_sec_ii:l168-239,cand-3519,Fraschetti,6414,6424,Author cited for Bernini testimony and prices; identity unresolved.
+m-chp1-secii-0519,chp-1:01_CHP-1_sec_ii:l168-239,cand-3519,Fraschetti,6888,6898,Author cited for Bernini testimony and prices; identity unresolved.
+m-chp1-secii-0520,chp-1:01_CHP-1_sec_ii:l168-239,cand-3046,Bernini,6509,6516,Artist whose reputation and prices are discussed.
+m-chp1-secii-0521,chp-1:01_CHP-1_sec_ii:l168-239,cand-3046,Bernini,6929,6936,Artist whose reputation and prices are discussed.
+m-chp1-secii-0522,chp-1:01_CHP-1_sec_ii:l168-239,cand-0163,Thomas Baker,6732,6744,English sculptor named as maker of the cited bust.
+m-chp1-secii-0523,chp-1:01_CHP-1_sec_ii:l168-239,cand-3520,Victoria and Albert Museum,6769,6795,Current repository of Baker’s bust.
+m-chp1-secii-0524,chp-1:01_CHP-1_sec_ii:l168-239,cand-3031,Baldinucci,7633,7643,Source cited for Baker’s bust and Bernini’s prices.
+m-chp1-secii-0525,chp-1:01_CHP-1_sec_ii:l168-239,cand-3031,Baldinucci,9509,9519,Source cited for Baker’s bust and Bernini’s prices.
+m-chp1-secii-0526,chp-1:01_CHP-1_sec_ii:l168-239,cand-2560,Fulvio Testi,6835,6847,Letter sender whose correspondence documents Bernini’s prices.
+m-chp1-secii-0527,chp-1:01_CHP-1_sec_ii:l168-239,cand-1046,Conte Francesco Fontana,6851,6874,Recipient of Testi’s letter.
+m-chp1-secii-0528,chp-1:01_CHP-1_sec_ii:l168-239,cand-3011,Cardinal Borghese,7042,7059,Patron/client named in the Bernini price example.
+m-chp1-secii-0529,chp-1:01_CHP-1_sec_ii:l168-239,cand-3521,Fabbrica di S. Pietro,7120,7141,Institution paying Bernini a monthly salary.
+m-chp1-secii-0530,chp-1:01_CHP-1_sec_ii:l168-239,cand-1351,Pieter van Laer,7306,7321,Member named in the academy note.
+m-chp1-secii-0531,chp-1:01_CHP-1_sec_ii:l168-239,cand-0633,Cerquozzi,7326,7335,Artist named as an academy member; candidate identifies Michelangelo Cerquozzi.
+m-chp1-secii-0533,chp-1:01_CHP-1_sec_ii:l168-239,cand-3522,Hoogewerff,7268,7278,Scholar who published the academy member list; identity unresolved.
+m-chp1-secii-0534,chp-1:01_CHP-1_sec_ii:l168-239,cand-3522,Hoogewerff,7400,7410,Scholar who published the academy member list; identity unresolved.
+m-chp1-secii-0535,chp-1:01_CHP-1_sec_ii:l168-239,cand-3522,Hoogewerff,8474,8484,Scholar who published the academy member list; identity unresolved.
+m-chp1-secii-0536,chp-1:01_CHP-1_sec_ii:l168-239,cand-3523,Francesco Novetti,7554,7571,Sender of the 1670 letter to Antonio Ruffo.
+m-chp1-secii-0537,chp-1:01_CHP-1_sec_ii:l168-239,cand-3019,Charles V,7726,7735,Emperor whose honours for Titian are compared.
+m-chp1-secii-0538,chp-1:01_CHP-1_sec_ii:l168-239,cand-3019,Charles V,7970,7979,Emperor whose honours for Titian are compared.
+m-chp1-secii-0539,chp-1:01_CHP-1_sec_ii:l168-239,cand-1077,Frederick III,7881,7894,Holy Roman Emperor named in the earlier title example.
+m-chp1-secii-0540,chp-1:01_CHP-1_sec_ii:l168-239,cand-0269,Gentile Bellini,7911,7926,Painter made Count Palatine by Frederick III.
+m-chp1-secii-0541,chp-1:01_CHP-1_sec_ii:l168-239,cand-2630,Titian,7988,7994,Painter ennobled by Charles V.
+m-chp1-secii-0542,chp-1:01_CHP-1_sec_ii:l168-239,cand-3524,Imperial Consistory,8050,8069,Institutional body named in the title granted to Titian.
+m-chp1-secii-0543,chp-1:01_CHP-1_sec_ii:l168-239,cand-0633,Michelangelo Cerquozzi,8403,8425,Artist whose title is cited as an example.
+m-chp1-secii-0544,chp-1:01_CHP-1_sec_ii:l168-239,cand-3525,Narducci,8445,8453,Bibliographic author cited for Procaccini’s parents; identity unresolved.
+m-chp1-secii-0545,chp-1:01_CHP-1_sec_ii:l168-239,cand-2997,Andrea Procaccini,8561,8578,Painter whose parents’ response to his profession is described.
+m-chp1-secii-0546,chp-1:01_CHP-1_sec_ii:l168-239,cand-3526,G. Delogu,8892,8901,Author cited for the untraced comedy; initials retained and identity unresolved.
+m-chp1-secii-0547,chp-1:01_CHP-1_sec_ii:l168-239,cand-0371,G. L. Bianconi,8985,8999,Letter author cited on the stereotype of the eccentric painter.
+m-chp1-secii-0548,chp-1:01_CHP-1_sec_ii:l168-239,cand-1730,Paolo Negri,9205,9216,Sender of the 1676 letter quoted by the author.
+m-chp1-secii-0549,chp-1:01_CHP-1_sec_ii:l168-239,cand-3527,Marchese di S. Tommaso,9220,9242,Recipient of Negri’s letter; identity unresolved.
+m-chp1-secii-0550,chp-1:01_CHP-1_sec_ii:l168-239,cand-3528,Clarctta,9278,9286,Scholar cited for the Negri letter; OCR spelling and identity unresolved.
+m-chp1-secii-0551,chp-1:01_CHP-1_sec_ii:l168-239,cand-3529,This comedy,8788,8799,Comedy mentioned by Pascoli but not traced by the author; title and authorship unknown.
+m-chp1-secii-0552,chp-1:01_CHP-1_sec_ii:l168-239,cand-3531,Biblioteca Augusta,431,449,Repository of the cited unpublished Trevisani life.
+m-chp1-secii-0553,chp-1:01_CHP-1_sec_ii:l168-239,cand-3532,Perugia,451,458,City named as the repository location.
+m-chp1-secii-0554,chp-1:01_CHP-1_sec_ii:l168-239,cand-3533,unpublished life of Trevisani,387,416,Unpublished manuscript life cited in the note; exact title unavailable.
+m-chp1-secii-0555,chp-1:01_CHP-1_sec_ii:l168-239,cand-3534,Naples,2729,2735,Place where Lanfranco’s 1640 letter was dated.
+m-chp1-secii-0556,chp-1:01_CHP-1_sec_ii:l168-239,cand-3535,Bellori,2194,2201,Author cited for the contract example.
+m-chp1-secii-0557,chp-1:01_CHP-1_sec_ii:l168-239,cand-3535,Bellori,7145,7152,Author cited for the contract example.
+m-chp1-secii-0558,chp-1:01_CHP-1_sec_ii:l168-239,cand-0021,Albani,3980,3986,Surname-only reference to Francesco Albani in the material-supply example.
+m-chp1-secii-0559,chp-1:01_CHP-1_sec_ii:l168-239,cand-0021,Albani,5077,5083,Surname-only reference to Francesco Albani in the material-supply example.
+m-chp1-secii-0560,chp-1:01_CHP-1_sec_ii:l168-239,cand-3536,Chiesa de’ Servi in Bologna,5152,5179,Church named as the intended site of Gozadini’s altarpiece.
+m-chp1-secii-0561,chp-1:01_CHP-1_sec_ii:l168-239,cand-3031,Balditiucci,6202,6213,OCR variant of Baldinucci in the source transcription.
+m-chp1-secii-0562,chp-1:01_CHP-1_sec_ii:l168-239,cand-3537,Pevsner,7193,7200,Scholar cited for Bernini’s prices.
+m-chp1-secii-0563,chp-1:01_CHP-1_sec_ii:l168-239,cand-1494,Mahon,3745,3750,Surname-only citation to Denis Mahon.
+m-chp1-secii-0564,chp-1:01_CHP-1_sec_ii:l168-239,cand-1494,Mahon,7213,7218,Surname-only citation to Denis Mahon.
+m-chp1-secii-0565,chp-1:01_CHP-1_sec_ii:l168-239,cand-3538,Missirini,7240,7249,Author cited for the academy context.
+m-chp1-secii-0566,chp-1:01_CHP-1_sec_ii:l168-239,cand-3538,Missirini,7431,7440,Author cited for the academy context.
+m-chp1-secii-0567,chp-1:01_CHP-1_sec_ii:l168-239,cand-3539,Lateran Palace,8010,8024,Palace named in Titian’s title.
+m-chp1-secii-0568,chp-1:01_CHP-1_sec_ii:l168-239,cand-3540,Roman artists,6669,6682,Collective social group in the Wittkower quotation.
+m-chp1-secii-0569,chp-1:01_CHP-1_sec_ii:l168-239,cand-3541,receipt published by A. Bertolotti,1789,1823,Receipt cited as evidence for Camassei’s commission.
+m-chp1-secii-0570,chp-1:01_CHP-1_sec_ii:l168-239,cand-3542,Letter of 3 February 1690,2128,2153,Letter cited through Bottari; sender and recipient are not named here.
+m-chp1-secii-0571,chp-1:01_CHP-1_sec_ii:l168-239,cand-3543,"Letter from the Savoy Resident in Rome, Onorato Gini, in 1666",2219,2280,Letter summarized by Claretta; preserve its cited date and sender.
+m-chp1-secii-0572,chp-1:01_CHP-1_sec_ii:l168-239,cand-3544,Letter from Lanfranco in Naples dated 14 July 1640,2704,2754,Dated letter cited by Pollak; exact addressee is not stated in this note.
+m-chp1-secii-0573,chp-1:01_CHP-1_sec_ii:l168-239,cand-3545,letter from Berlingete Gessi to Don Cesare Leopardi d’Osimo,4540,4599,Dated correspondence cited for payment conventions.
+m-chp1-secii-0574,chp-1:01_CHP-1_sec_ii:l168-239,cand-3546,letter from Carlo Quarisinini to Conte Ventura Carrara,4810,4864,Dated correspondence cited for payment conventions.
+m-chp1-secii-0575,chp-1:01_CHP-1_sec_ii:l168-239,cand-3547,contract with Urban VIII,4942,4966,Contract named as the source of Camassei’s material-cost agreement.
+m-chp1-secii-0576,chp-1:01_CHP-1_sec_ii:l168-239,cand-3548,letters from Mattia Preti and Artemisia Gentileschi,5682,5733,Two letters cited as examples; exact dates and individual spans remain to be resolved.
+m-chp1-secii-0577,chp-1:01_CHP-1_sec_ii:l168-239,cand-3549,letter from Fulvio Testi to Conte Francesco Fontana,6823,6874,Dated correspondence cited for Bernini’s prices.
+m-chp1-secii-0578,chp-1:01_CHP-1_sec_ii:l168-239,cand-3550,letter from Francesco Novetti to Don Antonio Ruffo,7542,7592,Dated correspondence cited for the academy/payment context.
+m-chp1-secii-0579,chp-1:01_CHP-1_sec_ii:l168-239,cand-3551,letter from Salvator Rosa to Don Antonio Ruffo,9312,9358,Dated correspondence cited in the footnotes.
+m-chp1-secii-0580,chp-1:01_CHP-1_sec_ii:l168-239,cand-3552,Letter from Giuseppe de Rosis to Don. Antonio Ruffo,9398,9449,Dated correspondence cited and published by V. Ruffo.
+m-chp1-secii-0581,chp-1:01_CHP-1_sec_ii:l168-239,cand-3553,Letter from Paolo Negri to Marchese di S. Tommaso,9193,9242,Dated correspondence quoted through Claretta.
+m-chp1-secii-0582,chp-1:01_CHP-1_sec_ii:l168-239,cand-3554,letter from G. L. Bianconi,8973,8999,Dated letter quoted through Bottari.
+m-chp1-secii-0583,chp-1:01_CHP-1_sec_ii:l168-239,cand-3555,Ruffo,1554,1559,"Bare Ruffo page references denote a publication, not the person Antonio Ruffo."
+m-chp1-secii-0584,chp-1:01_CHP-1_sec_ii:l168-239,cand-3555,Ruffo,9492,9497,"Bare Ruffo page references denote a publication, not the person Antonio Ruffo."
+m-chp1-secii-0585,chp-1:01_CHP-1_sec_ii:l168-239,cand-3555,Ruffo,9975,9980,"Bare Ruffo page references denote a publication, not the person Antonio Ruffo."
+m-chp1-secii-0586,chp-1:01_CHP-1_sec_ii:l168-239,cand-3533,MS. 1383,460,468,Manuscript shelfmark for the cited unpublished life.
+m-chp1-secii-0587,chp-1:01_CHP-1_sec_ii:l168-239,cand-3556,Barberini Salone,3198,3214,Interior space named in the disputed modello example.
+m-chp1-secii-0588,chp-1:01_CHP-1_sec_ii:l168-239,cand-3557,"Letter from Jacopo Salviati to Cardinal Leopoldo de’ Medici, dated 22 July 1662",5824,5903,Dated correspondence cited through Boyer.
+m-chp1-secii-0589,chp-1:01_CHP-1_sec_ii:l168-239,cand-3558,"Letter from Fabrizio Arragona, Mantuan agent in Rome, to a ducal chancellor, dated 9 October 1621",5951,6048,Dated correspondence; addressee remains unnamed.
+m-chp1-secii-0590,chp-1:01_CHP-1_sec_ii:l168-239,cand-3559,"Letter from Guercino to Don Antonio Ruffe, dated 25 September 1649",6080,6146,Dated correspondence; recipient spelling is an OCR variant.
+m-chp1-secii-0591,chp-1:01_CHP-1_sec_ii:l168-239,cand-3560,On 19 September 1672 Ciro Ferri wrote to Don Antonio Ruffo,9658,9716,Dated correspondence quoted through the Ruffo publication.
+m-chp1-secii-0592,chp-1:01_CHP-1_sec_ii:l3-8,cand-3561,middlemen,596,605,Generic market-role category; no individual is identified.
+m-chp1-secii-0593,chp-1:01_CHP-1_sec_ii:l3-8,cand-3562,foreign travellers,660,678,Generic actor category; no individual is identified.
+m-chp1-secii-0594,chp-1:01_CHP-1_sec_ii:l3-8,cand-3563,agents,689,695,Agency role associated with the foreign travellers; no individual is identified.
+m-chp1-secii-0595,chp-1:01_CHP-1_sec_ii:l106-116,cand-3149,picture dealers,2546,2561,Reference to picture dealers as an art-market role; maps to the existing art-dealer term candidate.
+m-chp1-secii-0596,chp-1:01_CHP-1_sec_ii:l106-116,cand-3564,St Luke,1748,1755,Named saint in a feast-day reference; identity remains for review.
+m-chp1-secii-0597,chp-1:01_CHP-1_sec_ii:l129-135,cand-3164,gentiluomo d’onore,875,893,Honorific term granted to Giuseppe Ghezzi by the Duke of Parma; maps to the existing term candidate.
+m-chp1-secii-0598,chp-1:01_CHP-1_sec_ii:l137-146,cand-3149,dealers,283,290,Dealers in Haskell’s account of impoverished painters; the adjective “unscrupulous” is source-specific context
+m-chp1-secii-0599,chp-1:01_CHP-1_sec_ii:l137-146,cand-3158,devotional pictures,317,336,Generic devotional-picture category in the mass-production example; maps to the existing term candidate.
+m-chp1-secii-0600,chp-1:01_CHP-1_sec_ii:l19-26,cand-3565,subsidy,709,716,"Term occurrence in the described compromise; the grant is conditional on patron priority, not proof of a named artist or transaction."
+m-chp1-secii-0601,chp-1:01_CHP-1_sec_ii:l19-26,cand-3565,priority over all other customers,755,788,The condition attached to the subsidy; both spans belong to Haskell’s generalized possible arrangement.
+m-chp1-secii-0602,chp-1:01_CHP-1_sec_ii:l40-46,cand-3566,movable gallery picture,510,533,Art-object format discussed as a Venetian innovation that increasingly shaped Roman collecting.
+m-chp1-secii-0603,chp-1:01_CHP-1_sec_ii:l40-46,cand-3567,connoisseurship,995,1010,OCR divides the word across physical lines; the segment text normalizes the line break and soft hyphen.
+m-chp1-secii-0604,chp-1:01_CHP-1_sec_ii:l48-60,cand-3568,Caravaggesque genre scenes,731,757,Artistic style and subject genre attributed to Valentin’s specialization; left open as a term candidate.
+m-chp1-secii-0605,chp-1:01_CHP-1_sec_ii:l62-71,cand-3453,"Holy
+Years",2069,2079,The OCR line break splits “Holy Years”; exact newline retained so the anchor matches the source segment.
+m-chp1-secii-0606,chp-1:01_CHP-1_sec_ii:l62-71,cand-3569,Baroque period,1645,1659,Historical period in the author’s discussion of commission deadlines; alignment to the existing Baroque term remains open.
+m-chp1-secii-0607,chp-1:01_CHP-1_sec_ii:l62-71,cand-3570,amateur,1374,1381,Social category linked in this passage to appreciation and collecting of sketches; do not silently equate with dilettante.
+m-chp1-secii-0608,chp-1:01_CHP-1_sec_ii:l73-77,cand-3155,deposit,200,207,"The first installment described in this passage; maps to the accepted caparra term candidate, while preserving the English source wording."
+m-chp1-secii-0609,chp-1:01_CHP-1_sec_ii:l73-77,cand-3571,canvas,1074,1080,Painting support named among costs assigned to the artist in one of Haskell’s payment variations.
+m-chp1-secii-0610,chp-1:01_CHP-1_sec_ii:l79-84,cand-3155,deposit,1479,1486,Advance payment urged by the unnamed Mantuan agent; maps to the accepted caparra term candidate.
+m-chp1-secii-0611,chp-1:01_CHP-1_sec_ii:l86-94,cand-3573,art dealing,2860,2871,Haskell names this as a growing feature of the seventeenth-century Roman art market; retained as an open term candidate.
+m-chp1-secii-0612,chp-1:01_CHP-1_sec_ii:l86-94,cand-3574,art exhibitions,2876,2891,Haskell names this alongside art dealing as a growing feature of the seventeenth-century Roman art market; retained as a distinct open term candidate.
+m-chp1-secii-0613,chp-1:01_CHP-1_sec_ii:l86-94,cand-3159,dilettantes,718,729,Historical social category in the shifting Roman art population; mapped to the existing dilettante term candidate.
+m-chp1-secii-0614,chp-1:01_CHP-1_sec_ii:l86-94,cand-3401,Venetian,779,787,Demonym identifying the geographic origin of the artists; mapped to the existing Venice place candidate.
+m-chp1-secii-0615,chp-1:01_CHP-1_sec_ii:l86-94,cand-3398,Bolognese,791,800,Demonym identifying the geographic origin of the artists; mapped to the existing Bologna place candidate.
+m-chp1-secii-0616,chp-1:01_CHP-1_sec_ii:l86-94,cand-3534,Neapolitan,804,814,Demonym identifying the geographic origin of the artists; mapped to the existing Naples place candidate.
+m-chp1-secii-0617,chp-1:01_CHP-1_sec_ii:l86-94,cand-3575,landscapes,2509,2519,"Artistic genre in Rosa’s works, contrasted with the large historical scenes he valued less; left open as a term candidate."
+m-chp1-secii-0618,chp-1:01_CHP-1_sec_ii:l86-94,cand-3576,large historical scenes,2679,2702,Artistic subject category in Rosa’s works; left open as a source-derived term candidate.
+m-chp1-secii-0619,chp-1:01_CHP-1_sec_ii:l96-104,cand-3577,artist’s status,120,135,Central concept in Haskell’s unresolved question about the artist’s social standing; open term candidate.
+m-chp1-secii-0620,chp-1:01_CHP-1_sec_ii:l96-104,cand-3578,Renaissance,225,236,Historical/artistic period referenced in the earlier debate about artists’ status.
+m-chp1-secii-0621,chp-1:01_CHP-1_sec_ii:l96-104,cand-3569,Baroque,386,393,Period modifier in “Baroque Rome”; mapped to the existing Baroque period term candidate.
+m-chp1-secii-0622,chp-1:01_CHP-1_sec_ii:l96-104,cand-3398,Bolognese,832,841,Demonym identifying Malvasia’s origin; mapped to the existing Bologna place candidate.
+m-chp1-secii-0623,chp-1:01_CHP-1_sec_ii:l96-104,cand-3577,status of the artist,2114,2134,"Repeated formulation of the same social-status concept, linked to the candidate first anchored at L621."
+m-chp1-secii-0624,chp-1:01_CHP-1_sec_ii:l96-104,cand-3579,High Renaissance,2162,2178,Specific period following which Haskell locates a decline in artistic status; kept distinct from the broader Renaissance mention.
+m-chp1-secii-0625,chp-1:01_CHP-1_sec_ii:l118-127,cand-3470,Accademia,1301,1310,Further reference to the Accademia di S. Luca; linked to the existing institution candidate.
+m-chp1-secii-0626,chp-1:01_CHP-1_sec_ii:l118-127,cand-3470,Accademia di S. Luca,1706,1726,Full institutional name in the reorganisation example; linked to the existing Accademia di S. Luca candidate.
+m-chp1-secii-0627,chp-1:01_CHP-1_sec_ii:l118-127,cand-3104,Urban VIII,314,324,Named authorizing patron in the reference to his brief; mapped to the existing Pope Urban VIII candidate.
+m-chp1-secii-0628,chp-1:01_CHP-1_sec_ii:l118-127,cand-3577,social status,459,472,"The Academicians’ stated concern, linked to the artist social-status term candidate."
+m-chp1-secii-0629,chp-1:01_CHP-1_sec_ii:l118-127,cand-3165,history painters,714,730,Membership category linked to the accepted history-painting term candidate.
+m-chp1-secii-0630,chp-1:01_CHP-1_sec_ii:l118-127,cand-3581,gilders,883,890,Craft occupation category described among the Academy’s early members.
+m-chp1-secii-0631,chp-1:01_CHP-1_sec_ii:l118-127,cand-3580,French,1084,1090,Collective national reference for the influence associated with later Academy doctrine; mapped to an unresolved France place candidate.
+m-chp1-secii-0632,chp-1:01_CHP-1_sec_ii:l118-127,cand-3159,dilettantes,1587,1598,Social group the Academy helped bring together; linked to the existing dilettante term candidate.
+m-chp1-secii-0633,chp-1:01_CHP-1_sec_ii:l118-127,cand-3583,critics,1603,1610,Collective role in the Roman art world; no individual critic is identified.
+m-chp1-secii-0634,chp-1:01_CHP-1_sec_ii:l118-127,cand-3582,Urban VIII’s brief,314,332,Singular unidentified papal brief credited with financial benefits in the Academy context; retained as an open archive candidate.
+m-chp1-secii-0635,chp-1:01_CHP-1_sec_ii:l148-153,cand-3584,social climbing,304,319,The passage names artists' social climbing as an example of changing status.
+m-chp1-secii-0636,chp-1:01_CHP-1_sec_ii:l148-153,cand-3585,"acceptance of the painter as an exceptional, and sometimes very strange, being",563,641,A historical concept of the artist as exceptional; related to but broader than artistic temperament.
+m-chp1-secii-0637,chp-1:01_CHP-1_sec_ii:l148-153,cand-3586,King of Savoy,2631,2644,Title-only referent in the 1676 account; personal identity unresolved.
+m-chp1-secii-0638,chp-1:01_CHP-1_sec_ii:l155-159,cand-3587,the artist as a being apart,630,657,Rosa is presented as helping create the image of the artist as separate from ordinary norms.
+m-chp1-secii-0639,chp-1:01_CHP-1_sec_ii:l155-159,cand-3589,self portraits,717,731,Self-portraiture is named as a concrete expression of Rosa's public image.
+m-chp1-secii-0640,chp-1:01_CHP-1_sec_ii:l155-159,cand-3588,dramatic self-advertisement,1096,1123,A strategy artists use to win recognition and contest patronage limits.
+m-chp1-secii-0641,chp-1:01_CHP-1_sec_ii:l155-159,cand-3574,exhibitions,1592,1603,Rosa used exhibitions to establish his reputation; mapped to the existing open art-exhibitions candidate.
+m-chp1-secii-0642,chp-1:01_CHP-1_sec_ii:l155-159,cand-3590,claque,1649,1655,Organised acclaim used to publicise an artist's merits.
+m-chp1-secii-0643,chp-1:01_CHP-1_sec_ii:l155-159,cand-3591,artistic independence,2022,2043,Rosa is said to assert painters' right to independence.
+m-chp1-secii-0644,chp-1:01_CHP-1_sec_ii:l155-159,cand-0139,transports of enthusiasm,2950,2974,"Rosa's own language about inspiration, linked to the existing artistic-temperament concept."
+m-chp1-secii-0645,chp-1:01_CHP-1_sec_ii:l161-166,cand-3592,superior status of art,298,320,The passage frames Rosa's quality standard as a claim for art's superior status.
+m-chp1-secii-0646,chp-1:01_CHP-1_sec_ii:l161-166,cand-3588,appetite for publicity,639,661,"A repeated instance of Rosa's publicity strategy, mapped to the existing artist self-advertisement candidate."
+m-chp1-secii-0647,chp-1:01_CHP-1_sec_ii:l161-166,cand-3591,claims to independence,667,689,Repeated evidence for the existing artistic-independence candidate.
+m-chp1-secii-0648,chp-1:01_CHP-1_sec_ii:l161-166,cand-0139,inspiration,694,705,Repeated evidence for the existing artistic-temperament concept.
+m-chp1-secii-0649,chp-1:01_CHP-1_sec_ii:l161-166,cand-3585,apparent eccentricity,715,736,A repeated feature of the artist-as-exceptional concept.
+m-chp1-secii-0650,chp-1:01_CHP-1_sec_ii:l161-166,cand-3593,romantics,1467,1476,Nineteenth-century reception group said to appreciate Rosa's artist image fully.
+m-chp1-secii-0651,chp-1:01_CHP-1_sec_ii:l40-46,cand-3578,Renaissance,2313,2324,"Same historical/artistic period candidate used in l96-104; another source-grounded mention, not a new entity."
+m-chp1-secii-0652,chp-1:01_CHP-1_sec_ii:l28-38,cand-3424,"Madonna del
+Carmine",1228,1247,Named Marian figure in this passage; keep the existing candidate identity/type unresolved.
+m-chp1-secii-0653,chp-1:01_CHP-1_sec_ii:l62-71,cand-3594,Northern Europe,546,561,Distinct northern-European region in the Rubens comparison; keep separate from the broader Europe candidate.
+m-chp1-secii-0654,chp-1:01_CHP-1_sec_ii:l62-71,cand-3451,modello,807,814,Preliminary model reference in the Ciro Ferri commission; reuse the existing modello term candidate.
+m-chp1-secii-0655,chp-1:01_CHP-1_sec_ii:l62-71,cand-3455,Piazza Navona,1990,2003,Second mention of the location in the Gaulli commission; the earlier Piazza Navona mention remains separately indexed.
+m-chp1-secii-0656,chp-1:01_CHP-1_sec_ii:l73-77,cand-3460,ultramarine,1104,1115,Pigment/material term in the patron-expense discussion; reuse existing open candidate.
+m-chp1-secii-0657,chp-1:01_CHP-1_sec_ii:l79-84,cand-3514,Mancini,1092,1099,Surname of the author used as a chronological reference; identity remains unresolved.
+m-chp1-secii-0658,chp-1:01_CHP-1_sec_ii:l79-84,cand-3481,Claude,1715,1721,Painter cited as a contrasting example; preserve the existing unresolved identity candidate.
+m-chp1-secii-0659,chp-1:01_CHP-1_sec_ii:l129-135,cand-3571,canvas,368,374,Painting support/material in the Mola example; reuse existing open term candidate.
+m-chp1-secii-0660,chp-1:01_CHP-1_sec_ii:l168-239,cand-3452,In tela il disegno,2757,2775,Quoted Italian phrase from Lanfranco correspondence; reuse the existing source-derived term candidate.
+m-chp1-secii-0661,chp-1:01_CHP-1_sec_ii:l168-239,cand-3571,canvas,2854,2860,Painting support in the Lanfranco composition account; reuse existing open term candidate.
+m-chp1-secii-0662,chp-1:01_CHP-1_sec_ii:l168-239,cand-3451,modello,3336,3343,Preliminary oil sketch mentioned in Waterhouse’s example; reuse existing term candidate.
+m-chp1-secii-0663,chp-1:01_CHP-1_sec_ii:l168-239,cand-3571,canvas,5093,5099,Painting support supplied in the Gozadini/Albani expense example; reuse existing open term candidate.
+m-chp1-secii-0664,chp-1:01_CHP-1_sec_ii:l168-239,cand-3460,ultramarine,5114,5125,Pigment/material supplied for the Albani altarpiece; reuse existing open term candidate.
+m-chp1-secii-0665,chp-1:01_CHP-1_sec_ii:l48-60,cand-3461,Italy,259,264,Country named as the geographic scope of Pietro da Cortona’s standing in the comparison.
+m-chp1-secii-0666,chp-1:01_CHP-1_sec_ii:l106-116,cand-3461,Italy,818,823,Country named in the passage’s comparison of artists’ social standing.

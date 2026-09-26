@@ -57,8 +57,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 取得者（`acquirer_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1981；角色：遗赠接收机构；范围：Kingston Lacy的Bankes收藏／NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance及Credit line |
-| ← 保管对象（`holder_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：所引馆藏记录收藏机构；范围：NT1257142，Kingston Lacy的Bankes收藏；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Credit line |
+| ← 取得者（`acquirer_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1981；角色：遗赠接收机构；范围：Kingston Lacy的Bankes收藏／NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance及Credit line |
+| ← 保管对象（`holder_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：所引馆藏记录收藏机构；范围：NT1257142，Kingston Lacy的Bankes收藏；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Credit line |
 
 ### 关系候选入口
 

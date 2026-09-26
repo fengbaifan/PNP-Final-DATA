@@ -89,7 +89,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → published_by（`published_by`） | [意大利百科全书研究院（Istituto della Enciclopedia Italiana）](../institutions/istituto-della-enciclopedia-italiana.md) | 角色：辞典出版机构；范围：人物辞典出版项目的责任机构；辞典与机构分开；证据：[来源](https://www.treccani.it/istituto/la-nostra-storia.html)；archives-dizionario-biografico-degli-italiani；机构成立时的出版项目及原名 |
+| → published_by（`published_by`） | [意大利百科全书研究院（Istituto della Enciclopedia Italiana）](../institutions/istituto-della-enciclopedia-italiana.md) | 角色：辞典出版机构；范围：人物辞典出版项目的责任机构；辞典与机构分开；证据：[来源](https://www.treccani.it/istituto/la-nostra-storia.html)；src-d709f5fc3b8672a2；机构成立时的出版项目及原名 |
 
 ### 关系候选入口
 

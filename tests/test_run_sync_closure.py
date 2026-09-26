@@ -21,6 +21,7 @@ class SyncClosureTests(unittest.TestCase):
         self.assertIn("audit content quality", names)
         self.assertIn("audit relation consistency", names)
         self.assertIn("audit repository", names)
+        self.assertIn("audit structured tables", names)
         self.assertIn("audit system upgrade chain", names)
         self.assertIn("run tests", names)
 
@@ -134,6 +135,15 @@ class SyncClosureTests(unittest.TestCase):
         self.assertNotIn("audit content quality", names)
         self.assertNotIn("audit relation consistency", names)
         self.assertIn("audit repository", names)
+
+    def test_table_and_release_changes_route_structured_data_audit(self):
+        for path in ["04-knowledge/tables/relations.csv", "release/v0.2-draft/metadata.json"]:
+            with self.subTest(path=path):
+                steps = run_sync_closure.build_steps(full=False, changed_paths=[path])
+                names = [step.name for step in steps]
+                self.assertIn("audit structured tables", names)
+                if path.endswith("relations.csv"):
+                    self.assertIn("audit relation consistency", names)
 
 
 if __name__ == "__main__":

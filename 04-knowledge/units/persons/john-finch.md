@@ -85,10 +85,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 朋友（`friend_of`） | [卡洛·多尔奇（Carlo Dolci）](carlo-dolci.md) | 角色：朋友；范围：Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Finch的befriended段 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 角色：描绘人物；范围：PD.12-1972，不与贝恩斯肖像混合；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Titles、People depicted |
-| ← 委托者（`commissioner_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：驻佛罗伦萨期间；角色：委托人；范围：Finch委托本人和Baines肖像；本边只指本人肖像；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-john-finch；Finch标签：commissioned not only this portrait and that of Baines |
-| ← 委托者（`commissioner_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：驻佛罗伦萨期间；作品约1665–1670；角色：委托人；范围：Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Finch的commissioned段 |
+| → 朋友（`friend_of`） | [卡洛·多尔奇（Carlo Dolci）](carlo-dolci.md) | 角色：朋友；范围：Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的befriended段 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 角色：描绘人物；范围：PD.12-1972，不与贝恩斯肖像混合；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；src-9565705b2147bf86；Titles、People depicted |
+| ← 委托者（`commissioner_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：驻佛罗伦萨期间；角色：委托人；范围：Finch委托本人和Baines肖像；本边只指本人肖像；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Finch标签：commissioned not only this portrait and that of Baines |
+| ← 委托者（`commissioner_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：驻佛罗伦萨期间；作品约1665–1670；角色：委托人；范围：Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的commissioned段 |
 
 ### 关系候选入口
 

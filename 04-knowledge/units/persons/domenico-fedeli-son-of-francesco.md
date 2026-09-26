@@ -59,4 +59,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← child_of（`child_of`，反向投影） | [弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）](francesco-maggiotto.md) | 角色：儿子；范围：遗嘱所载子女；原断言与证据见发出端卡片“弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）”：[来源](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/)；ettore-merkel-fedeli-francesco-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995；lines 56–57 |
+| ← child_of（`child_of`，反向投影） | [弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）](francesco-maggiotto.md) | 角色：儿子；范围：遗嘱所载子女；原断言与证据见发出端卡片“弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）”：[来源](https://www.treccani.it/enciclopedia/fedeli-francesco-detto-il-maggiotto_(Dizionario-Biografico)/)；src-74e5267d3e0d6255；lines 56–57 |

@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint John the Baptist (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与1602年卡比托利欧《施洗者约翰与公羊》及同系列其他对象分开。；证据：[来源](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 当前对象记录将Saint John the Baptist (Borghese version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))；held-by-institutions-galleria-borghese-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint John the Baptist (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与1602年卡比托利欧《施洗者约翰与公羊》及同系列其他对象分开。；证据：[来源](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))；src-1b10f61032e02de6；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 当前对象记录将Saint John the Baptist (Borghese version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/John_the_Baptist_(Caravaggio))；src-1b10f61032e02de6；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

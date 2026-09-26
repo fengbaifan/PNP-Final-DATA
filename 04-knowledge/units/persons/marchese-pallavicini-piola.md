@@ -69,7 +69,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](paolo-girolamo-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；原断言与证据见发出端卡片“保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 278–281; print pp. 8 |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](paolo-girolamo-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；原断言与证据见发出端卡片“保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 278–281; print pp. 8 |
 
 ### 身份与外部链接
 

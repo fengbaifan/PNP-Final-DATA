@@ -112,9 +112,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：纠错建议；范围：第二版序言感谢其指出书中错误；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 受雇于（`employed_by`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 时间：1947年就任；角色：院长／Director；范围：院长任命；本来源未采用离任年；证据：[来源](https://www.npg.org.uk/collections/search/person/mp12247/anthony-frederick-blunt)；persons-anthony-blunt；姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录 |
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论；范围：第一版序言明确的研究讨论；不推定师承或共同著作；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 受雇于（`employed_by`） | [考陶尔德艺术学院（Courtauld Institute of Art）](../institutions/courtauld-institute-of-art.md) | 时间：1947年就任；角色：院长／Director；范围：院长任命；本来源未采用离任年；证据：[来源](https://www.npg.org.uk/collections/search/person/mp12247/anthony-frederick-blunt)；src-9bf177b14b7c0934；姓名、两段人物传记、相关人物与肖像列表；未逐件读肖像记录 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：研究讨论；范围：第一版序言明确的研究讨论；不推定师承或共同著作；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：纠错建议；范围：第二版序言感谢其指出书中错误；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

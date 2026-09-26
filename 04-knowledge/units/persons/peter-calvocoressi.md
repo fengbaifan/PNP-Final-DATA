@@ -97,8 +97,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 受雇于（`employed_by`） | [查托与温达斯出版社（Chatto and Windus）](../institutions/chatto-and-windus.md) | 时间：1955年加入；角色：合伙人，后任董事；范围：出版履历；不倒推为本书文字协助的合同角色；证据：[来源](https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true)；persons-peter-calvocoressi；由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传 |
+| → 受雇于（`employed_by`） | [查托与温达斯出版社（Chatto and Windus）](../institutions/chatto-and-windus.md) | 时间：1955年加入；角色：合伙人，后任董事；范围：出版履历；不倒推为本书文字协助的合同角色；证据：[来源](https://docs.google.com/document/d/1XD-r_i6baE533sA46h4Q4w6vhpGSCMgX0-E6-iL_-Do/pub?embedded=true)；src-5d97f62005d23738；由作品2671实际嵌入的目录全文：生平、流传、展览、文献及注释；未读所引自传 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 关系候选入口
 

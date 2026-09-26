@@ -43,5 +43,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
-| ← 所在地（`location_of`，反向投影） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| ← 所在地（`location_of`，反向投影） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| ← 所在地（`location_of`，反向投影） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |

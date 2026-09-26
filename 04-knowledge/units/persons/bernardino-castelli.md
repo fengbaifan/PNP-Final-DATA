@@ -109,9 +109,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1775；角色：迁居；范围：传记明确地点事件；证据：[来源](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)；persons-bernardino-castelli；1775年转往Padova段 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1810-02-24；角色：去世；范围：传记明确地点事件；证据：[来源](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)；persons-bernardino-castelli；Morì a Venezia段 |
-| ← 所创作对象（`creator_of`，反向投影） | [泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）](../works/bernardino-castelli-teodoro-correr.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；原断言与证据见发出端卡片“泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1775；角色：迁居；范围：传记明确地点事件；证据：[来源](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)；src-f0fb89a94f29bf71；1775年转往Padova段 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1810-02-24；角色：去世；范围：传记明确地点事件；证据：[来源](https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/)；src-f0fb89a94f29bf71；Morì a Venezia段 |
+| ← 所创作对象（`creator_of`，反向投影） | [泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）](../works/bernardino-castelli-teodoro-correr.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；原断言与证据见发出端卡片“泰奥多罗·科雷尔肖像（Portrait of Teodoro Correr）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

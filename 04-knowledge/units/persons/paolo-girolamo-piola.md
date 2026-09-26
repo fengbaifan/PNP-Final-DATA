@@ -127,9 +127,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为收信人（`addressee_of`，反向投影） | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../archives/giovanni-adamo-piola-letter-1690.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；原断言与证据见发出端卡片“列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 354–356,376; print pp. 10 |
-| → 受其赞助／保护（`patronized_by`） | [尼科洛·马里亚·帕拉维奇尼侯爵（Niccolò Maria Pallavicini）](marchese-pallavicini-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 278–281; print pp. 8 |
-| → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 罗马学习阶段随卡洛·马拉塔学习；研习卡拉奇作品不等同于直接师承卡拉奇；角色：学生；范围：罗马学习阶段；与作品研习区分；证据：[来源](https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/)；dbi-piola；本卡 S7；罗马学习段 |
+| → 受其赞助／保护（`patronized_by`） | [尼科洛·马里亚·帕拉维奇尼侯爵（Niccolò Maria Pallavicini）](marchese-pallavicini-piola.md) | 1690 年要求住在这位保护人宫外；仅保留该居住协商语境；时间：1690；角色：受邀服务并协商住宿的画家；范围：只涵盖保护人宫内外居住协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 278–281; print pp. 8 |
+| → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 罗马学习阶段随卡洛·马拉塔学习；研习卡拉奇作品不等同于直接师承卡拉奇；角色：学生；范围：罗马学习阶段；与作品研习区分；证据：[来源](https://www.treccani.it/enciclopedia/piola_(Dizionario-Biografico)/)；src-4f3b5e045cfad157；本卡 S7；罗马学习段 |
+| ← 为收信人（`addressee_of`，反向投影） | [列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）](../archives/giovanni-adamo-piola-letter-1690.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；原断言与证据见发出端卡片“列支敦士登亲王约翰·亚当·安德烈亚斯致保罗·吉罗拉莫·皮奥拉的委托信（1690-02-03）（Commission Letter from Johann Adam Andreas of Liechtenstein to Paolo Girolamo Piola (1690-02-03)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 354–356,376; print pp. 10 |
 
 ### 身份与外部链接
 

@@ -44,7 +44,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../works/mazarin-gallery-vault-decoration.md) | 时间：1646–1647绘画工程；角色：作坊绘画参与者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；原断言与证据见发出端卡片“马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）”：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| ← 所创作对象（`creator_of`，反向投影） | [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../works/mazarin-gallery-vault-decoration.md) | 时间：1646–1647绘画工程；角色：作坊绘画参与者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；原断言与证据见发出端卡片“马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）”：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
 
 ### 关系候选入口
 

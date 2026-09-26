@@ -75,8 +75,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 范围：本书供片署名所列巴黎；不推定今日地址；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [路易十四肖像（Portrait of Louis XIV）](../works/bernini-louis-xiv.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“路易十四肖像（Portrait of Louis XIV）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 169–170; 章前：图片来源；印刷页xvi |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 范围：本书供片署名所列巴黎；不推定今日地址；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 169–170; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [路易十四肖像（Portrait of Louis XIV）](../works/bernini-louis-xiv.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版27b的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“路易十四肖像（Portrait of Louis XIV）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 169–170; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

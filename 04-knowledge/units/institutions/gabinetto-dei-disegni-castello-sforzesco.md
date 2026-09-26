@@ -72,10 +72,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [斯福尔扎城堡（Castello Sforzesco）](../places/castello-sforzesco.md) | 时间：所引目录记录时点；角色：所在建筑；范围：SIRBeC4y010-09081记载的收藏部门位置；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；institutions-gabinetto-dei-disegni-castello-sforzesco；PDF3：COLLOCAZIONE SPECIFICA |
-| → 位于（`located_at`） | [米兰（Milan）](../places/milan.md) | 时间：所引目录记录时点；角色：所在城市；范围：SIRBeC4y010-09081记载的收藏部门位置；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；institutions-gabinetto-dei-disegni-castello-sforzesco；PDF2：LOCALIZZAZIONE GEOGRAFICO-AMMINISTRATIVA ATTUALE |
-| ← 保管对象（`holder_of`，反向投影） | [女性侧面头像（Female Head in Profile）](../works/piazzetta-female-head-in-profile-milan.md) | 范围：米兰4884/8 C 526/1；原断言与证据见发出端卡片“女性侧面头像（Female Head in Profile）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO |
-| ← 保管对象（`holder_of`，反向投影） | [舒伦堡元帅肖像（Portrait of Marshal Schulenburg）](../works/piazzetta-marshal-schulenburg.md) | 时间：所引目录记录时点；角色：保管部门；范围：该单件纸本素描，不泛指全部舒伦堡肖像；原断言与证据见发出端卡片“舒伦堡元帅肖像（Portrait of Marshal Schulenburg）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；works-piazzetta-marshal-schulenburg；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO4884/5 E82/5 |
+| → 位于（`located_at`） | [斯福尔扎城堡（Castello Sforzesco）](../places/castello-sforzesco.md) | 时间：所引目录记录时点；角色：所在建筑；范围：SIRBeC4y010-09081记载的收藏部门位置；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；src-1257ee626bc95941；PDF3：COLLOCAZIONE SPECIFICA |
+| → 位于（`located_at`） | [米兰（Milan）](../places/milan.md) | 时间：所引目录记录时点；角色：所在城市；范围：SIRBeC4y010-09081记载的收藏部门位置；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；src-1257ee626bc95941；PDF2：LOCALIZZAZIONE GEOGRAFICO-AMMINISTRATIVA ATTUALE |
+| ← 保管对象（`holder_of`，反向投影） | [女性侧面头像（Female Head in Profile）](../works/piazzetta-female-head-in-profile-milan.md) | 范围：米兰4884/8 C 526/1；原断言与证据见发出端卡片“女性侧面头像（Female Head in Profile）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO |
+| ← 保管对象（`holder_of`，反向投影） | [舒伦堡元帅肖像（Portrait of Marshal Schulenburg）](../works/piazzetta-marshal-schulenburg.md) | 时间：所引目录记录时点；角色：保管部门；范围：该单件纸本素描，不泛指全部舒伦堡肖像；原断言与证据见发出端卡片“舒伦堡元帅肖像（Portrait of Marshal Schulenburg）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；src-1257ee626bc95941；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO4884/5 E82/5 |
 
 ### 关系候选入口
 

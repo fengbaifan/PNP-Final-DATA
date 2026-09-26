@@ -67,4 +67,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | Grassi 论文主张的归属对象；论文存在不证明归属成立；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 461–463; print pp. 12 |
+| → 所涉对象（`has_subject`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | Grassi 论文主张的归属对象；论文存在不证明归属成立；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 461–463; print pp. 12 |

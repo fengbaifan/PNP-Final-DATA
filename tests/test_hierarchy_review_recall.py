@@ -1,6 +1,6 @@
 import hashlib
 
-HDR = 'relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span'
+HDR = 'relation_id,subject_ku_id,object_ku_id,predicate,time,role,scope,origin,status,source_id,source_span,source_file,note'
 import json
 import tempfile
 from pathlib import Path
@@ -124,7 +124,7 @@ def test_source_review_queue_clusters_and_recalls_without_approving():
         )
         relation_index.parent.mkdir(parents=True)
         relation_index.write_text(
-            HDR + "\nrel-1,units/terms/candidate-a,units/terms/reviewed-neighbor,related_to,forward,,,,book,formal,,,\n",
+            HDR + "\nrel-1,units/terms/candidate-a,units/terms/reviewed-neighbor,related_to,,,,book,formal,,,,\n",
             encoding="utf-8",
         )
         output = root / "06-runtime" / "automation" / "batch" / "hierarchy-review-queue.jsonl"

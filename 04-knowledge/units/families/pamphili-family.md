@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#潘�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [Giovanni Battista Pamphilj Aldobrandini（1648–1709）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | 为Pamphilj家族长子及继承人；原断言与依据见人物卡：[Doria Pamphilj传记](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/)，lines 159–170 |
-| ← 委托（`commissioner_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画](../works/ferri-sant-agnese-cupola.md) | 委托责任方；范围：纳沃纳广场圣阿涅塞穹顶工程；原断言与证据见作品卡：[原书](../../../02-sources/02-Markdown/01_CHP-1.md)，lines 437–441; print p. 12 |
+| ← 包含成员（`contains`，反向投影） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | 家族官网传记称其为Camillo与Olimpia之长子，并继承Pamphilj家族primogeniture；角色：家族长子及继承人；范围：Pamphilj家族归属；不将Olimpia的Aldobrandini继承并作Pamphilj成员关系；原断言与证据见发出端卡片“乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）”：[来源](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/)；lines 159–170 of retrieved page |
+| ← 委托者（`commissioner_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | 原书明确称Pamfili家族对该穹顶委托负有责任；与个人合同签订者分层记录；时间：1670；角色：负责委托的家族；范围：Sant’Agnese in Agone穹顶壁画工程；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–441; print pp. 12 |
 
 ### 身份与外部链接
 

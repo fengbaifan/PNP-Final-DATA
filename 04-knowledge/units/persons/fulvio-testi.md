@@ -114,8 +114,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#franc
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确书信作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 699–703; print pp. 17 |
-| → 通信往来（`corresponded_with`） | [弗朗切斯科·丰塔纳伯爵（Count Francesco Fontana）](francesco-fontana.md) | 时间：1634-01-18；该信证明此日期的一次通信；另有1633-01-29书信见对应书信KU；不据此推断友谊或赞助；证据：[在线转录](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)，据1967年版第二卷pp. 28–29，lines 2–15 |
+| → 通信（`corresponded_with`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](francesco-fontana.md) | 时间：1634-01-18；角色：写信人↔收信人；范围：仅记录有日期的一次通信；另有1633-01-29书信见对应书信KU；不据通信推断友谊或赞助；证据：[来源](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)；lines 2–15; edition pp. 28–29 |
+| ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）](../archives/testi-fontana-bernini-letter.md) | 本章明确书信作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳的信（Letter from Fulvio Testi to Francesco Fontana）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 699–703; print pp. 17 |
+| ← 所著文献（`author_of`，反向投影） | [富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）](../archives/testi-fontana-letter-1634-01-18.md) | 时间：1634-01-18；角色：发信人／作者；原断言与证据见发出端卡片“富尔维奥·泰斯蒂致弗朗切斯科·丰塔纳伯爵的信（Letter from Fulvio Testi to Count Francesco Fontana）”：[来源](https://www.nuovorinascimento.org/rosp-2000/documenti/testi-34-01-18.htm)；lines 8–15; signed by Don Fulvio Testi |
 
 ### 身份与外部链接
 

@@ -63,7 +63,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
+| ← 所在地（`location_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

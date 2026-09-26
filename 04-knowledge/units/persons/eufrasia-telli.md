@@ -43,6 +43,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 亲缘（`kin_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：继父；范围：继亲关系，不表示生物亲子；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| ← child_of（`child_of`，反向投影） | [卡特里娜·库基亚罗尼（Caterina Cucchiaroni）](caterina-cucchiaroni.md) | 角色：女儿；范围：Caterina与前夫所生；原断言与证据见发出端卡片“卡特里娜·库基亚罗尼（Caterina Cucchiaroni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| ← child_of（`child_of`，反向投影） | [乔瓦尼·泰利（Giovanni Telli）](giovanni-telli.md) | 角色：女儿；范围：前婚子女；原断言与证据见发出端卡片“乔瓦尼·泰利（Giovanni Telli）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
+| ← child_of（`child_of`，反向投影） | [卡特里娜·库基亚罗尼（Caterina Cucchiaroni）](caterina-cucchiaroni.md) | 角色：女儿；范围：Caterina与前夫所生；原断言与证据见发出端卡片“卡特里娜·库基亚罗尼（Caterina Cucchiaroni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| ← child_of（`child_of`，反向投影） | [乔瓦尼·泰利（Giovanni Telli）](giovanni-telli.md) | 角色：女儿；范围：前婚子女；原断言与证据见发出端卡片“乔瓦尼·泰利（Giovanni Telli）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| ← 亲缘（`kin_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：继父；范围：继亲关系，不表示生物亲子；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |

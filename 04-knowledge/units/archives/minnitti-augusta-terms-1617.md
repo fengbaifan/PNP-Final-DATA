@@ -57,4 +57,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [马里奥·明尼蒂（Mario Minniti）](../persons/mario-minnitti.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 321–322; print pp. 9 |
+| → 所涉对象（`has_subject`） | [马里奥·明尼蒂（Mario Minniti）](../persons/mario-minnitti.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 321–322; print pp. 9 |

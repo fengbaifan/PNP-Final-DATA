@@ -174,9 +174,9 @@ Pascoli为同时代推重其艺术的传记作者；速度比较仍按第一章�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1706年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1706年入会段 |
-| → 师从／受训于（`trained_by`） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室；时间：1689年前；角色：工作室学生／团队成员；范围：费里工作室阶段；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；训练与1689年工作室转移段 |
-| → 师从／受训于（`trained_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](giovan-battista-gaulli.md) | 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作；时间：1689年后；角色：工作室学生；范围：盖乌利工作室阶段；不推定共同创作；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；dbi-odazzi；本卡 S6；1689年后Gaulli工作室段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1706年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；src-b3ca5c2bc7c50042；本卡 S6；1706年入会段 |
+| → 师从／受训于（`trained_by`） | [奇罗·费里（Ciro Ferri）](ciro-ferri.md) | 在费里工作室受训并随其团队工作；费里去世后转入盖乌利工作室；时间：1689年前；角色：工作室学生／团队成员；范围：费里工作室阶段；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；src-b3ca5c2bc7c50042；本卡 S6；训练与1689年工作室转移段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](giovan-battista-gaulli.md) | 1689年费里去世后进入盖乌利工作室；不因风格相似扩张到具体作品共同创作；时间：1689年后；角色：工作室学生；范围：盖乌利工作室阶段；不推定共同创作；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-odazzi_(Dizionario-Biografico)/)；src-b3ca5c2bc7c50042；本卡 S6；1689年后Gaulli工作室段 |
 
 ### 身份与外部链接
 

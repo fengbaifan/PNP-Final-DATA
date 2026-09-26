@@ -102,4 +102,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 获其授予荣衔（`honoured_by`，反向投影） | [皇帝腓特烈三世（Frederick III）](frederick-iii.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；原断言与证据见发出端卡片“皇帝腓特烈三世（Frederick III）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–800; print pp. 19 |
+| ← 获其授予荣衔（`honoured_by`，反向投影） | [皇帝腓特烈三世（Frederick III）](frederick-iii.md) | 本章脚注记授予 Count Palatine，未给日期；角色：Count Palatine荣衔授予者；范围：第一章未给日期；原断言与证据见发出端卡片“皇帝腓特烈三世（Frederick III）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–800; print pp. 19 |

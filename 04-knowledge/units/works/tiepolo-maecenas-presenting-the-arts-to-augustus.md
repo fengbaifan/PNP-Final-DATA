@@ -94,8 +94,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 角色：原设计者；范围：图版68b为复制版画；Tiepolo角色为原设计，不改记为刻印者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 159–160; 章前：图版目录；印刷页xvi |
-| → 创作者（`created_by`） | [雅科波·莱奥纳迪斯（Jacopo Leonardis）](../persons/leonardis.md) | 时间：1766；角色：蚀刻制作者；范围：1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D；证据：[来源](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)；works-tiepolo-maecenas-presenting-the-arts-to-augustus；印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 角色：原设计者；范围：图版68b为复制版画；Tiepolo角色为原设计，不改记为刻印者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 159–160; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [雅科波·莱奥纳迪斯（Jacopo Leonardis）](../persons/leonardis.md) | 时间：1766；角色：蚀刻制作者；范围：1766年版画设计／版式；本书所用具体印本未定，不绑定慕尼黑11348D；证据：[来源](https://www.sgsm.eu/fileadmin/Dokumente/Venedig_SGSM_Bestandskatalog_220119.pdf)；src-93a4cb4d5987e673；印刷页78／PDF 78；Leonardis, Jacopo条；HISTORIE；Inv.-Nr. 11348 D |
 
 ### 关系候选入口
 

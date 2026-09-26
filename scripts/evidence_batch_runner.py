@@ -199,6 +199,8 @@ def main() -> int:
         return 2
     if config["apply_low_risk"] and not config["dry_run_apply"]:
         parser.error("--apply-low-risk requires --dry-run-apply")
+    if config["apply_low_risk"]:
+        parser.error("--apply-low-risk is paused while evidence status moves from card frontmatter to enrichment tables")
 
     out_dir: Path = config["out_dir"]
     out_dir.mkdir(parents=True, exist_ok=True)

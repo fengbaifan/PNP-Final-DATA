@@ -38,4 +38,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#berna
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 预定接受对象（`intended_for`，反向投影） | [《施洗者圣若翰斩首》（The Beheading of Saint John the Baptist）](../works/bernardin-baldoino-beheading-john-baptist-1670.md) | Thevenon记画作于1670年在罗马为Pénitents Noirs de Nice制作；未见合同，故不标为合同委托者；S1 |
+| ← 预定地点（`intended_site_of`，反向投影） | [施洗者圣若翰斩首（The Beheading of Saint John the Baptist）](../works/bernardin-baldoino-beheading-john-baptist-1670.md) | 时间：1670；角色：制作服务对象；范围：原文称作品为Pénitents Noirs de Nice制作；未提供合同，不据此称为合同委托方；原断言与证据见发出端卡片“施洗者圣若翰斩首（The Beheading of Saint John the Baptist）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 296–299,316–317 |

@@ -55,4 +55,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 供应者（`supplier_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | Gozadini 承诺供应画布及群青，关系限材料供应承诺；时间：1639；角色：画布及群青承诺供应者；范围：材料供应承诺；不扩写为作品赞助；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
+| ← 供应者（`supplier_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | Gozadini 承诺供应画布及群青，关系限材料供应承诺；时间：1639；角色：画布及群青承诺供应者；范围：材料供应承诺；不扩写为作品赞助；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 515–516; print pp. 13 |

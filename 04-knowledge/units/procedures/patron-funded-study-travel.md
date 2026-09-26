@@ -85,5 +85,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](../persons/giovanni-bonati.md) | Pio 资助其六城学习旅行为实际事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
-| ← 程序使用者（`procedure_used_by`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](../persons/lodovico-gimignani.md) | 赴 Venice 学习的赞助旅行事例；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔瓦尼·博纳蒂（Giovanni Bonatti）](../persons/giovanni-bonati.md) | Pio 资助其六城学习旅行为实际事例；原断言与证据见发出端卡片“乔瓦尼·博纳蒂（Giovanni Bonatti）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [洛多维科·吉米尼亚尼（Lodovico Gimignani）](../persons/lodovico-gimignani.md) | 赴 Venice 学习的赞助旅行事例；原断言与证据见发出端卡片“洛多维科·吉米尼亚尼（Lodovico Gimignani）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |

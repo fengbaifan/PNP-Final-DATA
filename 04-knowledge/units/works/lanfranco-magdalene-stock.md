@@ -63,5 +63,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 工作室中已经勾画的画布，作者为 Lanfranco；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 597–599; print pp. 15 |
-| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | Valguarnera 请求完成现有画稿；角色：要求完成现有画稿的委托人；范围：完成已有库存画；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 596–599; print pp. 15 |
+| → 创作者（`created_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 工作室中已经勾画的画布，作者为 Lanfranco；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 597–599; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | Valguarnera 请求完成现有画稿；角色：要求完成现有画稿的委托人；范围：完成已有库存画；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 596–599; print pp. 15 |

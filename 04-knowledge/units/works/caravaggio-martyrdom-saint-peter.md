@@ -69,5 +69,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）](../archives/caravaggio-altarpieces-contract-1600.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；原断言与证据见发出端卡片“卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
-| ← 创作者（`created_by`，反向投影） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并；时间：1600起；角色：合同指定画家；范围：连接委托对象；现存版本与原约底材仍分开；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401; print pp. 11 |
+| ← 创作者（`created_by`，反向投影） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 1600年合同指定卡拉瓦乔完成该题材并提交设计；本边不把原约、早期版本与现存布面版合并；时间：1600起；角色：合同指定画家；范围：连接委托对象；现存版本与原约底材仍分开；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 397–401; print pp. 11 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）](../archives/caravaggio-altarpieces-contract-1600.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；原断言与证据见发出端卡片“卡拉瓦乔两幅祭坛画的合同（1600）（Contract for Caravaggio's Two Altarpieces (1600)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 397–401,421; print pp. 11 |

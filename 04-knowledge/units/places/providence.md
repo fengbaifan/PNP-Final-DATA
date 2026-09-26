@@ -66,4 +66,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#马�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [罗德岛设计学院博物馆（Rhode Island School of Design Museum）](../institutions/rhode-island-school-of-design-museum.md) | 角色：博物馆所在地；证据见机构卡S2 |
+| ← 所在地（`location_of`，反向投影） | [罗德岛设计学院博物馆（Rhode Island School of Design Museum）](../institutions/rhode-island-school-of-design-museum.md) | 角色：博物馆所在地；原断言与证据见发出端卡片“罗德岛设计学院博物馆（Rhode Island School of Design Museum）”：[来源](https://risdmuseum.org/hours-admission)；src-9b37c931d2c21ce6；Getting Here：博物馆地址及Providence train station |

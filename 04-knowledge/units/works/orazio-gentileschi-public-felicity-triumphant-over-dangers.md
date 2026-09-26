@@ -106,9 +106,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 角色：原书署名作者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 78–78; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 78–78; 章前：图版目录；印刷页xiii |
-| → 由其供应（`supplied_by`） | [阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）](../institutions/agraci.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 164–164; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 角色：原书署名作者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 78–78; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 78–78; 章前：图版目录；印刷页xiii |
+| → 由其供应（`supplied_by`） | [阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）](../institutions/agraci.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 164–164; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

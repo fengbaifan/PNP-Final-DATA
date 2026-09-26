@@ -129,11 +129,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
-| → 由其保管（`held_by`） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：书中明确的保管城市，不是作品创作地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 51–51; 章前：图版目录；印刷页xii |
-| → 由其收藏／拥有（`owned_by`） | [萨凯蒂家族（Sacchetti Family）](../families/sacchetti-family.md) | 角色：历史收藏主体；范围：馆方来源字段Collezione Sacchetti所记历史收藏；不指定家族某一成员、不推定委托或转移年份；证据：[来源](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)；works-pietro-da-cortona-rape-of-the-sabines；Provenienza：Collezione Sacchetti；Inv. PC 137 |
-| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 时间：页面访问2026-09-15；角色：馆方目录归属；范围：馆方正式目录登记PC 137；与原书绘画馆保管边是不同机构层级，不表示一次转让；证据：[来源](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)；works-pietro-da-cortona-rape-of-the-sabines；Ratto delle Sabine单件记录；Inv. PC 137 |
+| → 创作者（`created_by`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 51–51; 章前：图版目录；印刷页xii |
+| → 由其保管（`held_by`） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 51–51; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：书中明确的保管城市，不是作品创作地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 51–51; 章前：图版目录；印刷页xii |
+| → 由其收藏／拥有（`owned_by`） | [萨凯蒂家族（Sacchetti Family）](../families/sacchetti-family.md) | 角色：历史收藏主体；范围：馆方来源字段Collezione Sacchetti所记历史收藏；不指定家族某一成员、不推定委托或转移年份；证据：[来源](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)；src-28c1a582d30fd94d；Provenienza：Collezione Sacchetti；Inv. PC 137 |
+| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 时间：页面访问2026-09-15；角色：馆方目录归属；范围：馆方正式目录登记PC 137；与原书绘画馆保管边是不同机构层级，不表示一次转让；证据：[来源](https://www.museicapitolini.org/it/opera/ratto-delle-sabine)；src-28c1a582d30fd94d；Ratto delle Sabine单件记录；Inv. PC 137 |
 
 ### 关系候选入口
 

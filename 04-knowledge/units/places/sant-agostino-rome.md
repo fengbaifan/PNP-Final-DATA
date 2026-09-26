@@ -46,8 +46,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | 来源将Madonna di Loreto与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；installed-at-places-sant-agostino-rome-md；本卡S2；有S4时并参对象／地点说明 |
-| ← 预定地点（`intended_site_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | Madonna di Loreto原定用于该建筑或礼拜堂；时间：约1604–1606；角色：原定安置地点；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；intended-for-places-sant-agostino-rome-md；本卡S2；有S4时并参原定安置段 |
+| ← 安置地点（`installation_site_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | 来源将Madonna di Loreto与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参对象／地点说明 |
+| ← 预定地点（`intended_site_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | Madonna di Loreto原定用于该建筑或礼拜堂；时间：约1604–1606；角色：原定安置地点；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

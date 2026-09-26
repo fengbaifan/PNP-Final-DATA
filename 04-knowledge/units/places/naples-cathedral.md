@@ -65,7 +65,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [那不勒斯（Naples）](naples.md) | 教堂地点为 Naples；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
+| → 位于（`located_at`） | [那不勒斯（Naples）](naples.md) | 教堂地点为 Naples；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 498–502; print pp. 13 |
 
 ### 身份与外部链接
 

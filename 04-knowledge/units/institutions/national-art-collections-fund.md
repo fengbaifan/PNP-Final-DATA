@@ -62,5 +62,5 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1972；角色：赠出机构；范围：将PD.12-1972赠入菲茨威廉博物馆；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Legal notes、Acquisition and important dates |
-| ← 贡献者（`contributor_to`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：1972；角色：赠出机构；范围：将PD.13-1972赠入菲茨威廉博物馆；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；institutions-national-art-collections-fund；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| ← 贡献者（`contributor_to`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1972；角色：赠出机构；范围：将PD.12-1972赠入菲茨威廉博物馆；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；src-9565705b2147bf86；Legal notes、Acquisition and important dates |
+| ← 贡献者（`contributor_to`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：1972；角色：赠出机构；范围：将PD.13-1972赠入菲茨威廉博物馆；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |

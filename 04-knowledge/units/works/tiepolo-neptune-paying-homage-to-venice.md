@@ -107,9 +107,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1757–1758；角色：画家；范围：TS 2° p. n. 6 n. 328单件油画；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；works-tiepolo-neptune-paying-homage-to-venice；Author、Date、Museum、Technique、Inventory |
-| → 位于（`located_at`） | [总督宫（威尼斯）（Palazzo Ducale）](../places/palazzo-ducale.md) | 时间：所引馆方记录时点；角色：馆藏建筑；范围：馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；works-tiepolo-neptune-paying-homage-to-venice；Author、Date、Museum、Technique、Inventory |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版42a；城市位置与Venice拟人题材分开；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 114–114; 章前：图版目录；印刷页xiv |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1757–1758；角色：画家；范围：TS 2° p. n. 6 n. 328单件油画；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；src-cf42ca3f7cd4869a；Author、Date、Museum、Technique、Inventory |
+| → 位于（`located_at`） | [总督宫（威尼斯）（Palazzo Ducale）](../places/palazzo-ducale.md) | 时间：所引馆方记录时点；角色：馆藏建筑；范围：馆方Museum字段所载总督宫；不由建筑名称推定管理机构产权；证据：[来源](https://www.visitmuve.it/en/masterpiece/giambattista-tiepolo-neptune-offering-gifts-to-venice/)；src-cf42ca3f7cd4869a；Author、Date、Museum、Technique、Inventory |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版42a；城市位置与Venice拟人题材分开；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 114–114; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

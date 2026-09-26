@@ -126,9 +126,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 被纪念（`subject_of`反向投影） | [乔万尼·佩萨罗总督纪念碑](../works/monument-to-doge-giovanni-pesaro.md) | 图版41b所记纪念对象；正式关系及原书依据见作品卡S1。 |
-| → 资助对象（`patron_of`反向投影） | [乔万尼·佩萨罗总督纪念碑](../works/monument-to-doge-giovanni-pesaro.md) | 遗嘱拨款用于纪念碑建造；该事实不等于委托Longhena。人物侧依据为S4–S5；作品卡正式关系及证据为S6–S7。 |
-| ↔ 亲属（`kin_of`对称关系） | [莱昂纳多·佩萨罗](leonardo-pesaro-commissioner.md) | Leonardo为其侄子；正式关系证据见Leonardo人物卡S2。 |
+| ← 亲缘（`kin_of`，反向投影） | [莱昂纳多·佩萨罗（Leonardo Pesaro，乔万尼·佩萨罗之侄）](leonardo-pesaro-commissioner.md) | 角色：侄子；范围：纪念碑委托与建造语境；原断言与证据见发出端卡片“莱昂纳多·佩萨罗（Leonardo Pesaro，乔万尼·佩萨罗之侄）”：[来源](https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/)；src-0fc10a31baa842a5；lines 50–52 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 角色：纪念对象；范围：图版41b纪念碑本体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 113–113; 章前：图版目录；印刷页xiv |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 时间：1659年前后遗嘱所涉资金；工程1665–1669；角色：立遗嘱为纪念碑建造拨定12,000达克特；范围：纪念碑建造资金；不等同工程委托；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](https://www.treccani.it/enciclopedia/giovanni-pesaro_(Dizionario-Biografico)/)；src-0fc10a31baa842a5；lines 50–52 |
 
 ### 身份与外部链接
 

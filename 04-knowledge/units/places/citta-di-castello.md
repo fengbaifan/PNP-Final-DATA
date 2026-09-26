@@ -37,4 +37,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](../persons/guido-abbatini.md) | 时间：1600；角色：出生地点；范围：个人出生事件；原断言与证据见发出端卡片“圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）”：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
+| ← 所在地（`location_of`，反向投影） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](../persons/guido-abbatini.md) | 时间：1600；角色：出生地点；范围：个人出生事件；原断言与证据见发出端卡片“圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）”：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |

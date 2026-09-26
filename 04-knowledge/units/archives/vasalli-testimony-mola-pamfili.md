@@ -84,5 +84,5 @@ Montalto同年另有《Un mecenate in Roma barocca》，馆方书目分别列出
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其贡献（`contributed_by`） | [亚历山德罗·瓦萨利（Alessandro Vasalli）](../persons/alessandro-vasalli.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
-| → 所涉对象（`has_subject`） | [特定保护人服务（Servitù particolare）](../terms/servitu-particolare.md) | 证词说明有偿优先服务；语义概念与文献载体分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 179–185; print pp. 6 |
+| → 由其贡献（`contributed_by`） | [亚历山德罗·瓦萨利（Alessandro Vasalli）](../persons/alessandro-vasalli.md) | 证词发言者为 Vasalli；不等同断言其亲笔写成原记录；角色：证词发言者；范围：Mola与Pamfili争议中的记录；不等于亲笔文书；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 179–185; print pp. 6 |
+| → 所涉对象（`has_subject`） | [特定保护人服务（Servitù particolare）](../terms/servitu-particolare.md) | 证词说明有偿优先服务；语义概念与文献载体分开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 179–185; print pp. 6 |

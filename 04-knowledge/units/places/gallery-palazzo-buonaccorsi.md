@@ -135,12 +135,12 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其委托（`commissioned_by`） | [雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）](../persons/raimondo-buonaccorsi.md) | 角色：画廊装饰委托者；范围：布奥纳科尔西宫埃涅阿斯画廊；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi |
-| → 组成部分（`part_of`） | [布奥纳科尔西宫（Palazzo Buonaccorsi）](palazzo-buonaccorsi.md) | 角色：所属建筑；范围：原书图版33b的宫内画廊；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 95–95; 章前：图版目录；印刷页xiv |
-| → 位于（`located_at`） | [马切拉塔（Macerata）](macerata.md) | 角色：所在城市；范围：原书图版33b的宫内画廊；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 95–95; 章前：图版目录；印刷页xiv |
-| ← 安置地点（`installation_site_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；works-solimena-dido-and-aeneas；Description及Provenance：Buonaccorsi gallery |
-| ← 预定地点（`intended_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：约1712–1713交付；角色：原定装饰画廊；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；realizzato per la Galleria段 |
-| ← 安置地点（`installation_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：网页记录，访问2026-09-15；角色：馆方所载陈列位置；范围：馆藏131a；画廊14室；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；Attualmente esposta与collocazione |
+| → 由其委托（`commissioned_by`） | [雷蒙多·布奥纳科尔西（Raimondo Buonaccorsi）](../persons/raimondo-buonaccorsi.md) | 角色：画廊装饰委托者；范围：布奥纳科尔西宫埃涅阿斯画廊；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi |
+| → 组成部分（`part_of`） | [布奥纳科尔西宫（Palazzo Buonaccorsi）](palazzo-buonaccorsi.md) | 角色：所属建筑；范围：原书图版33b的宫内画廊；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 95–95; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [马切拉塔（Macerata）](macerata.md) | 角色：所在城市；范围：原书图版33b的宫内画廊；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 95–95; 章前：图版目录；印刷页xiv |
+| ← 预定地点（`intended_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：约1712–1713交付；角色：原定装饰画廊；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；realizzato per la Galleria段 |
+| ← 安置地点（`installation_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：网页记录，访问2026-09-15；角色：馆方所载陈列位置；范围：馆藏131a；画廊14室；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；Attualmente esposta与collocazione |
+| ← 安置地点（`installation_site_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description及Provenance：Buonaccorsi gallery |
 
 ### 关系候选入口
 

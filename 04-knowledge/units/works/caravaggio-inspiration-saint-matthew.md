@@ -91,9 +91,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Inspiration of Saint Matthew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：作为祭坛替代版本，与第一版退画分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [孔塔雷利礼拜堂（Contarelli Chapel）](../places/contarelli-chapel.md) | 来源将The Inspiration of Saint Matthew与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；installed-at-places-contarelli-chapel-md；本卡S2；有S4时并参对象／地点说明 |
-| → 拟用于（`intended_for`） | [孔塔雷利礼拜堂（Contarelli Chapel）](../places/contarelli-chapel.md) | The Inspiration of Saint Matthew原定用于该建筑或礼拜堂；时间：1602；角色：原定安置地点；范围：作为祭坛替代版本，与第一版退画分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；intended-for-places-contarelli-chapel-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Inspiration of Saint Matthew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：作为祭坛替代版本，与第一版退画分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；src-bfae2f704e9c413e；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [孔塔雷利礼拜堂（Contarelli Chapel）](../places/contarelli-chapel.md) | 来源将The Inspiration of Saint Matthew与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；src-bfae2f704e9c413e；本卡S2；有S4时并参对象／地点说明 |
+| → 拟用于（`intended_for`） | [孔塔雷利礼拜堂（Contarelli Chapel）](../places/contarelli-chapel.md) | The Inspiration of Saint Matthew原定用于该建筑或礼拜堂；时间：1602；角色：原定安置地点；范围：作为祭坛替代版本，与第一版退画分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Inspiration_of_Saint_Matthew)；src-bfae2f704e9c413e；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

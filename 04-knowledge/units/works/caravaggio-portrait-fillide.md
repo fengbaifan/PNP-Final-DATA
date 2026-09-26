@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Portrait of Fillide Melandroni归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；证据：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其收藏／拥有（`owned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源支持该端点在所列时期收藏或拥有Portrait of Fillide Melandroni；不等于当前保管；时间：1638年前至1812；角色：朱斯蒂尼亚尼收藏；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；证据：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；owned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参流传段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Portrait of Fillide Melandroni归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；证据：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；src-4c5f28cc9888353b；本卡S2；有S4时并参对象字段 |
+| → 由其收藏／拥有（`owned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源支持该端点在所列时期收藏或拥有Portrait of Fillide Melandroni；不等于当前保管；时间：1638年前至1812；角色：朱斯蒂尼亚尼收藏；范围：又名《一位交际花的肖像》；与人物菲利德及她作为其他画作模特的推测分开。；证据：[来源](https://en.wikipedia.org/wiki/Portrait_of_a_Courtesan_(Caravaggio))；src-4c5f28cc9888353b；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

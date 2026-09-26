@@ -130,11 +130,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所创作对象（`creator_of`） | [普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）](../works/poussin-spring-valguarnera.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
-| ← 所创作对象（`creator_of`，反向投影） | [《阿什杜德的瘟疫》（The Plague at Ashdod）](../works/plague-at-ashdod-1631.md) | 普桑工作室中的既有初稿；未据此补写创作年份；原断言与证据见发出端卡片“《阿什杜德的瘟疫》（The Plague at Ashdod）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
-| ← 所创作对象（`creator_of`，反向投影） | [婚姻（Marriage）](../works/poussin-marriage.md) | 角色：原书署名作者；范围：图版18b；原断言与证据见发出端卡片“婚姻（Marriage）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 71–71; 章前：图版目录；印刷页xiii |
-| ← 所创作对象（`creator_of`，反向投影） | [普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）](../works/poussin-massacre-innocents.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；原断言与证据见发出端卡片“普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
-| ← 所创作对象（`creator_of`，反向投影） | [摩西践踏法老王冠（Moses trampling on Pharaoh's crown）](../works/poussin-moses-trampling-on-pharaoh-s-crown.md) | 角色：原书署名作者；范围：图版19a；原断言与证据见发出端卡片“摩西践踏法老王冠（Moses trampling on Pharaoh's crown）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 72–72; 章前：图版目录；印刷页xiii |
+| → 所创作对象（`creator_of`） | [普桑为瓦尔瓜尔内拉新订的《春》（Poussin’s Spring commissioned by Valguarnera）](../works/poussin-spring-valguarnera.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |
+| ← 所创作对象（`creator_of`，反向投影） | [《阿什杜德的瘟疫》（The Plague at Ashdod）](../works/plague-at-ashdod-1631.md) | 普桑工作室中的既有初稿；未据此补写创作年份；原断言与证据见发出端卡片“《阿什杜德的瘟疫》（The Plague at Ashdod）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |
+| ← 所创作对象（`creator_of`，反向投影） | [婚姻（Marriage）](../works/poussin-marriage.md) | 角色：原书署名作者；范围：图版18b；原断言与证据见发出端卡片“婚姻（Marriage）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 71–71; 章前：图版目录；印刷页xiii |
+| ← 所创作对象（`creator_of`，反向投影） | [普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）](../works/poussin-massacre-innocents.md) | 与 Reni 同题作分开；具体版本仍保留范围限制；原断言与证据见发出端卡片“普桑《屠杀婴孩》（本章提及）（Poussin’s Massacre of the Innocents (chapter 1 reference)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 373–375; print pp. 10 |
+| ← 所创作对象（`creator_of`，反向投影） | [摩西践踏法老王冠（Moses trampling on Pharaoh's crown）](../works/poussin-moses-trampling-on-pharaoh-s-crown.md) | 角色：原书署名作者；范围：图版19a；原断言与证据见发出端卡片“摩西践踏法老王冠（Moses trampling on Pharaoh's crown）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 72–72; 章前：图版目录；印刷页xiii |
 
 ### 身份与外部链接
 

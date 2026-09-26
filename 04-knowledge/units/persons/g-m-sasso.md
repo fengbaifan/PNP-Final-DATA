@@ -70,7 +70,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）](../works/alessandro-longhi-g-m-sasso.md) | 角色：肖像人物；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；原断言与证据见发出端卡片“乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 136–136; 章前：图版目录；印刷页xv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）](../works/alessandro-longhi-g-m-sasso.md) | 角色：肖像人物；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；原断言与证据见发出端卡片“乔万尼·马里亚·萨索肖像（Portrait of Giovanni Maria Sasso）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

@@ -60,7 +60,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#巴�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 目录所列地点（`located_at`，反向投影） | [圣埃洛伊与圣若翰洗者、圣安德烈（Saint Eloi between Saint John the Baptist and Saint Andrew）](../works/baldoino-saint-eloi-1661.md) | POP目录将作品定位于Sainte-Rose-de-Lima小堂；关系限于目录地点信息，不推定安装时间。 |
+| ← 所在地（`location_of`，反向投影） | [圣埃洛伊与圣若翰洗者、圣安德烈（Saint Eloi between Saint John the Baptist and Saint Andrew）](../works/baldoino-saint-eloi-1661.md) | 角色：文化遗产目录所列现址；范围：目录把藏品定位在尼斯圣雷帕拉塔主教座堂的Sainte-Rose-de-Lima小堂；未给安装日期，不推定连续陈列时段；原断言与证据见发出端卡片“圣埃洛伊与圣若翰洗者、圣安德烈（Saint Eloi between Saint John the Baptist and Saint Andrew）”：[来源](https://pop.culture.gouv.fr/notice/palissy/PM06000568)；src-25bd8d942b11c5ab；Localisation；Cathédrale Sainte-Réparate, chapelle Sainte-Rose de Lima |
+| ← 所在地（`location_of`，反向投影） | [利马圣罗撒神魂超拔（The Ecstasy of Saint Rose of Lima）](../works/bernardin-baldoino-ecstasy-saint-rose-1680.md) | 时间：2016；角色：来源所载地点；范围：Thevenon称该配对作品在尼斯主教座堂；记录出版时所载地点，不推定安装起始或连续展陈时段；原断言与证据见发出端卡片“利马圣罗撒神魂超拔（The Ecstasy of Saint Rose of Lima）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302 |
+| ← 所在地（`location_of`，反向投影） | [圣罗撒与圣母的神秘交谈（The Mystical Conversation of Saint Rose with the Virgin）](../works/bernardin-baldoino-mystic-conversation-saint-rose-1680.md) | 时间：2016；角色：来源所载地点；范围：Thevenon称该配对作品在尼斯主教座堂；记录出版时所载地点，不推定安装起始或连续展陈时段；原断言与证据见发出端卡片“圣罗撒与圣母的神秘交谈（The Mystical Conversation of Saint Rose with the Virgin）”：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302 |
 
 ### 身份与外部链接
 

@@ -122,5 +122,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 295–307; print pp. 9 |
-| ← 程序使用者（`procedure_used_by`，反向投影） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容；原断言与证据见发出端卡片“皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 308–319; print pp. 9 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容；原断言与证据见发出端卡片“皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 308–319; print pp. 9 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 295–307; print pp. 9 |

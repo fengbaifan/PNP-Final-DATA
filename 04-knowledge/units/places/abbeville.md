@@ -37,4 +37,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [克洛德·梅朗（Claude Mellan）](../persons/claude-mellan.md) | 时间：1598；角色：出生地点；范围：个人出生事件；原断言与证据见发出端卡片“克洛德·梅朗（Claude Mellan）”：[来源](https://www.metmuseum.org/art/collection/search/392968)；persons-claude-mellan；Artwork Details：Artist |
+| ← 所在地（`location_of`，反向投影） | [克洛德·梅朗（Claude Mellan）](../persons/claude-mellan.md) | 时间：1598；角色：出生地点；范围：个人出生事件；原断言与证据见发出端卡片“克洛德·梅朗（Claude Mellan）”：[来源](https://www.metmuseum.org/art/collection/search/392968)；src-cb62bd59419ad9c3；Artwork Details：Artist |

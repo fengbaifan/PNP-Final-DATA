@@ -69,8 +69,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.unipd.it/en/storia)；institutions-university-of-padua；Contacts: Via 8 Febbraio 2,35122 Padova |
-| ← 雇主（`employer_of`，反向投影） | [加埃塔诺·科齐（Gaetano Cozzi）](../persons/gaetano-cozzi.md) | 时间：1966–1969；角色：政治学学院教师；范围：仅帕多瓦任教阶段；原断言与证据见发出端卡片“加埃塔诺·科齐（Gaetano Cozzi）”：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；persons-gaetano-cozzi；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| ← 雇主（`employer_of`，反向投影） | [加埃塔诺·科齐（Gaetano Cozzi）](../persons/gaetano-cozzi.md) | 时间：1966–1969；角色：政治学学院教师；范围：仅帕多瓦任教阶段；原断言与证据见发出端卡片“加埃塔诺·科齐（Gaetano Cozzi）”：[来源](https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-706-7/978-88-6969-706-7-ch-04.pdf)；src-1450e03989053436；PDF第54页，印刷页382，完整Fondo Gaetano Cozzi条 |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.unipd.it/en/storia)；src-7b3c8676258142ff；Contacts: Via 8 Febbraio 2,35122 Padova |
 
 ### 关系候选入口
 

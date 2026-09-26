@@ -69,7 +69,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 合作（`collaborated_with`，反向投影） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](guglielmo-cortese.md) | 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据；角色：人物画家／风景画家；范围：传记明确列出的合作项目；原断言与证据见发出端卡片“古列尔莫·科尔泰塞（Guglielmo Cortese）”：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；dbi-courtois；本卡 S6；合作项目段 |
+| ← 合作（`collaborated_with`，反向投影） | [古列尔莫·科尔泰塞（Guglielmo Cortese）](guglielmo-cortese.md) | 传记列两人的项目合作；本边只表达明确合作，不以共同风景题材替代证据；角色：人物画家／风景画家；范围：传记明确列出的合作项目；原断言与证据见发出端卡片“古列尔莫·科尔泰塞（Guglielmo Cortese）”：[来源](https://www.treccani.it/enciclopedia/guillaume-courtois_(Dizionario-Biografico)/)；src-616879e189949a68；本卡 S6；合作项目段 |
 
 ### 身份与外部链接
 

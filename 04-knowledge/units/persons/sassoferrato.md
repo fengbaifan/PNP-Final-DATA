@@ -86,8 +86,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [圣母子（Madonna and Child）](../works/sassoferrato-madonna-and-child.md) | 角色：原书署名作者；范围：图版21b；原断言与证据见发出端卡片“圣母子（Madonna and Child）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 74–74; 章前：图版目录；印刷页xiii |
-| ← 所创作对象（`creator_of`，反向投影） | [玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）](../works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md) | 时间：1643付款；角色：画家；范围：为Santa Sabina绘画，40 scudi付款；原断言与证据见发出端卡片“玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）”：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；Madonna del Rosario委托及1643付款段 |
+| ← 所创作对象（`creator_of`，反向投影） | [圣母子（Madonna and Child）](../works/sassoferrato-madonna-and-child.md) | 角色：原书署名作者；范围：图版21b；原断言与证据见发出端卡片“圣母子（Madonna and Child）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 74–74; 章前：图版目录；印刷页xiii |
+| ← 所创作对象（`creator_of`，反向投影） | [玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）](../works/sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine.md) | 时间：1643付款；角色：画家；范围：为Santa Sabina绘画，40 scudi付款；原断言与证据见发出端卡片“玫瑰圣母与道明、加大利纳（Madonna of the Rosary with Saints Dominic and Catherine）”：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；src-56bce89cb622dfa1；Madonna del Rosario委托及1643付款段 |
 
 ### 关系候选入口
 

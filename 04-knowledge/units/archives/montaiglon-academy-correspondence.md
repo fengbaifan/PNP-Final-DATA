@@ -154,11 +154,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → compiled_by（`compiled_by`） | [阿纳托尔·库尔德·德·蒙泰格隆（Anatole Courde de Montaiglon）](../persons/a-de-montaiglon.md) | 时间：1889年12月；角色：第三卷编者；范围：第三卷题名页署名；不将本卷署名扩大为各卷唯一责任；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-montaiglon-academy-correspondence；第三卷题名页；PDF第9页 |
-| → compiled_by（`compiled_by`） | [朱尔·吉弗雷（Jules Guiffrey）](../persons/jules-guiffrey.md) | 时间：系列1887–1912；角色：系列共同编者；范围：INHA所列18卷系列的共同编者，不声称第三卷题名页列其名；证据：[来源](https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a)；archives-montaiglon-academy-correspondence；INHA人物记录书目：Correspondance des directeurs，Montaiglon et Guiffrey |
-| → published_by（`published_by`） | [沙拉韦兄弟书商（Charavay Frères）](../institutions/charavay-freres.md) | 时间：1889年12月；角色：第三卷出版商；范围：仅核第三卷题名页所列出版商，不覆盖全部18卷；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-montaiglon-academy-correspondence；第三卷题名页；PDF第9页 |
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1889年12月；角色：第三卷出版地；范围：第三卷版本的出版地，不是手稿所在地；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-montaiglon-academy-correspondence；第三卷题名页；PDF第9页 |
-| ← 包含成员（`contains`，反向投影） | [夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）](poerson-letter-1708.md) | 时间：1889年12月刊行；角色：刊载于第三卷pp.239–241；范围：信件的编刊收录位置，非手稿物理归属；原断言与证据见发出端卡片“夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）”：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；archives-poerson-letter-1708；题名页和印刷pp.239–241；第1317号 |
+| → compiled_by（`compiled_by`） | [阿纳托尔·库尔德·德·蒙泰格隆（Anatole Courde de Montaiglon）](../persons/a-de-montaiglon.md) | 时间：1889年12月；角色：第三卷编者；范围：第三卷题名页署名；不将本卷署名扩大为各卷唯一责任；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；第三卷题名页；PDF第9页 |
+| → compiled_by（`compiled_by`） | [朱尔·吉弗雷（Jules Guiffrey）](../persons/jules-guiffrey.md) | 时间：系列1887–1912；角色：系列共同编者；范围：INHA所列18卷系列的共同编者，不声称第三卷题名页列其名；证据：[来源](https://agorha.inha.fr/ark:/54721/b7e772e8-be9a-4fb1-a0ba-a21b2283912a)；src-7024eec2d92f7442；INHA人物记录书目：Correspondance des directeurs，Montaiglon et Guiffrey |
+| → published_by（`published_by`） | [沙拉韦兄弟书商（Charavay Frères）](../institutions/charavay-freres.md) | 时间：1889年12月；角色：第三卷出版商；范围：仅核第三卷题名页所列出版商，不覆盖全部18卷；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；第三卷题名页；PDF第9页 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1889年12月；角色：第三卷出版地；范围：第三卷版本的出版地，不是手稿所在地；证据：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；第三卷题名页；PDF第9页 |
+| ← 包含成员（`contains`，反向投影） | [夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）](poerson-letter-1708.md) | 时间：1889年12月刊行；角色：刊载于第三卷pp.239–241；范围：信件的编刊收录位置，非手稿物理归属；原断言与证据见发出端卡片“夏尔-弗朗索瓦·普瓦松致德安坦信（Charles-François Poerson to M. d’Antin, 20 October 1708）”：[来源](https://archive.org/download/correspondancede03acad/correspondancede03acad_bw.pdf)；src-db9f71fc952e8e20；题名页和印刷pp.239–241；第1317号 |
 
 ### 关系候选入口
 

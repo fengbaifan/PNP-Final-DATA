@@ -100,7 +100,7 @@ Rossella Faraglia 的 DBI 词条已全文阅读；其引用的合同、司法记
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 章中明确指 Gavasetti 在该教堂的壁画与 1624 合同；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326,520–521; print pp. 9,13 |
+| ← 所创作对象（`creator_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 章中明确指 Gavasetti 在该教堂的壁画与 1624 合同；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 323–326,520–521; print pp. 9,13 |
 
 ### 身份与外部链接
 

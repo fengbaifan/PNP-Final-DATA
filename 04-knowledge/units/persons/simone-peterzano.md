@@ -51,7 +51,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 1584年起在彼得扎诺工作室完成四年学徒期；彼得扎诺自称提香学生不构成卡拉瓦乔直接师从提香；时间：1584–约1588；角色：学徒；范围：米兰工作室训练；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；trained-by-persons-simone-peterzano-md；Biography / Early life段 |
+| ← 教师（`teacher_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 1584年起在彼得扎诺工作室完成四年学徒期；彼得扎诺自称提香学生不构成卡拉瓦乔直接师从提香；时间：1584–约1588；角色：学徒；范围：米兰工作室训练；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；Biography / Early life段 |
 
 ### 身份与外部链接
 

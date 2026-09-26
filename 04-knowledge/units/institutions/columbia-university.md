@@ -61,5 +61,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 雇主（`employer_of`，反向投影） | [鲁道夫·维特科尔（Rudolf Wittkower）](../persons/rudolf-wittkower.md) | 时间：1956–1969；角色：艺术史教授；范围：艺术史教学任职；原断言与证据见发出端卡片“鲁道夫·维特科尔（Rudolf Wittkower）”：[来源](https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf)；persons-rudolf-wittkower；PDF第1页 Biography |
-| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 角色：所在地；范围：机构所在地；证据：[来源](https://www.columbia.edu/content/about-columbia-university)；institutions-columbia-university；University Mission Statement两段及页面栏目；视频未观看 |
+| ← 雇主（`employer_of`，反向投影） | [鲁道夫·维特科尔（Rudolf Wittkower）](../persons/rudolf-wittkower.md) | 时间：1956–1969；角色：艺术史教授；范围：艺术史教学任职；原断言与证据见发出端卡片“鲁道夫·维特科尔（Rudolf Wittkower）”：[来源](https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf)；src-80eb25a8329ae229；PDF第1页 Biography |
+| → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 角色：所在地；范围：机构所在地；证据：[来源](https://www.columbia.edu/content/about-columbia-university)；src-4633a910d7e66d30；University Mission Statement两段及页面栏目；视频未观看 |

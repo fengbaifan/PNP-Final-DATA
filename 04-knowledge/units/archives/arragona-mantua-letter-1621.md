@@ -63,4 +63,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [法布里齐奥·阿拉戈纳（Fabrizio Arragona）](../persons/fabrizio-arragona.md) | 书信作者；1621-10-09；收信人为未具名曼图亚公国大臣。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 542–547,567–568; print pp. 14 |
+| → 作者（`authored_by`） | [法布里齐奥·阿拉戈纳（Fabrizio Arragona）](../persons/fabrizio-arragona.md) | 书信作者；1621-10-09；收信人为未具名曼图亚公国大臣。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 542–547,567–568; print pp. 14 |

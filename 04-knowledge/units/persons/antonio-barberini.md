@@ -133,8 +133,8 @@ Alberto Merola的1964年专业传记与英文百科对生卒日、任职年有�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 参与事件（`participated_in`，反向投影） | [萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）](../events/sacchi-household-promotion-1640.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；原断言与证据见发出端卡片“萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
-| ← 雇主（`employer_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级；时间：1637–1640；角色：家户受俸画家；范围：1640年升入最高受俸者等级；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
+| ← 雇主（`employer_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级；时间：1637–1640；角色：家户受俸画家；范围：1640年升入最高受俸者等级；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |
+| ← 参与事件（`participated_in`，反向投影） | [萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）](../events/sacchi-household-promotion-1640.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；原断言与证据见发出端卡片“萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |
 
 ### 身份与外部链接
 

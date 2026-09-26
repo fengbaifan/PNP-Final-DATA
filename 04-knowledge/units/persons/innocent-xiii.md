@@ -74,7 +74,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 任命者（`appointer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 任命 Ghezzi 为 master of ceremonies；角色：master of ceremonies任命者；范围：任命范围限该职位；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
+| → 任命者（`appointer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 任命 Ghezzi 为 master of ceremonies；角色：master of ceremonies任命者；范围：任命范围限该职位；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 771–773; print pp. 19 |
 
 ### 身份与外部链接
 

@@ -35,4 +35,8 @@ relations: []
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [狄安娜狩猎（Hunt of Diana）](../works/domenichino-hunt-of-diana.md) | 时间：2026-09-25访问时；角色：当前陈列展厅；范围：当前馆方目录所列位置；区别于原定Frascati安置地；原断言与证据见发出端卡片“狄安娜狩猎（Hunt of Diana）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Location; confirmed by Galleria Borghese Room 19 page |
+
 官方展厅页与作品目录共同支持其陈列关系；关系端点见[《狄安娜狩猎》](../works/domenichino-hunt-of-diana.md)。

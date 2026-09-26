@@ -66,5 +66,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](amadeo-swajer.md) | 角色：家庭教育；范围：家庭教师身份明确，不外推大学学历；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.52教师段；PDF第2页 |
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1756-03-15；角色：去世；范围：跨页句明确在帕多瓦去世；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷pp.52–53跨页句；PDF第2–3页 |
+| ← 教师（`teacher_of`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](amadeo-swajer.md) | 角色：家庭教育；范围：家庭教师身份明确，不外推大学学历；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.52教师段；PDF第2页 |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1756-03-15；角色：去世；范围：跨页句明确在帕多瓦去世；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷pp.52–53跨页句；PDF第2–3页 |

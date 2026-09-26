@@ -104,9 +104,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版47的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 125–125; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [圣阿萨夫（St Asaph）](../places/st-asaph.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 125–125; 章前：图版目录；印刷页xv |
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版47的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 168–169; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 125–125; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [圣阿萨夫（St Asaph）](../places/st-asaph.md) | 时间：本书所述时点；角色：书中收藏地点；范围：原书目录位置；不外推现藏或画中地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 125–125; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

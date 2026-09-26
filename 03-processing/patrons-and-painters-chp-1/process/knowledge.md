@@ -19213,3 +19213,18 @@ Haskell第一章p.23所引De Rosis书信日期为1663-09-22，内容是代理人
 Musée Fesch机构身份以英文Wikipedia页面pageprops及Wikidata Q2483597的enwiki sitelink双向对应，并以法文页面pageprops及frwiki sitelink作第二语种复核；Wikipedia仅用于机构身份，不把百科信息转作机构史事实。法国文化部POP M0324与博物馆官网记录名称、所在地和对象馆藏。该机构与本章作品相关，新增机构KU并完成配对；Fesch油画本身没有发现同粒度Wikipedia或Wikidata条目，按馆藏号与Zeri目录识别并记unpaired。
 
 本批新增2个KU、3条正式有向关系、2条对齐记录；对齐覆盖由333条／325个对象更新为335条／327个对象。当前身份状态为185个配对、133个已处置未配对／排除对象及9个待证对象；9项待证保持原状。页面不引用Q2483597作为画作标识，也不把Louvre作品或梵蒂冈版本并入本卡。后续仍需继续检查Leoni传记及人物卡其他具名作品，不能据单件补足视为Leoni作品关系链已完整。
+
+
+## S5 enrichment 来源标记一致性复核（2026-09-26）
+
+`build_field_facts.py` 在首次复核时因读取 UTF-8 BOM 的 `enrichment.jsonl` 报错；改用 `utf-8-sig` 后，S0、S1、S5 三个生成器均可预览，S0 为953段且0问题，候选为3,473条且没有新增已接收KU候选。
+
+逐条重建10,149行并按 `enrichment_id` 比对，发现仅两条记录缺失卡片单元格已有的来源标记：`enr-06678`（`units/works/caravaggio-incredulity-thomas-ecclesiastical`）和 `enr-06937`（`units/works/caravaggio-saint-augustine-disputed`），原单元格均为 `S3–S4`。在预览确认只有这两个 `source_ref` 字段变化、没有新增/删除ID且来源登记无变化后，补回规范化标记；再次运行预览为零记录差异，10,149条ID完全相同。
+
+两张卡的 `sources` 列表各有两条记录，不能将S3/S4猜配至现有来源；标记保留以维持原始定位，严格表审计将其报告为未解析来源引用。未改卡片，不改变证据状态，不新增来源或事实。
+
+## 关系表来源 ID 唯一匹配补链（2026-09-26）
+
+检查当前 `relations.csv` 与 `sources.csv` 后，1,227条关系中有740条 `source_id` 为空。按 `source_file` 与来源登记 `url` 的规范化精确匹配：622条只对应一个来源ID，105条对应多个版本／来源记录，13条无精确URL记录。对这622条，既有 `migrate_relation_context.py` 预览确认没有其他字段改动；执行后与原表快照逐格比对，只有622个 `source_id` 单元格变化，行顺序、自然键和关系ID不变，所有新增ID均存在于来源表。多匹配及无匹配行保持空值。
+
+关系卡片写回前单卡预览显示新增来源登记ID在对应关系证据后展示；全库 `build_cards.py --render` 写回537个文件并通过逐文件字节核对，随后 `--check` 显示零差异。S7草案包重导出后，Guercino查询示例正常运行；完整同步闭包待本轮过程记录更新后重跑。此映射只建立来源登记连接，不证明该来源独立支持关系事实。

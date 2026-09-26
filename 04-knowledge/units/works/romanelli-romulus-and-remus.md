@@ -104,9 +104,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](../persons/romanelli.md) | 角色：所据顶画作者；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [法国国家图书馆（National Library of France）](../institutions/bibliotheque-nationale.md) | 时间：本书所述时点；角色：书中顶画所在机构；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
-| → 位于（`located_at`） | [马扎然宫（Palais Mazarin）](../places/palais-mazarin.md) | 时间：本书所述时点；角色：书中顶画所在建筑；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 79–79; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](../persons/romanelli.md) | 角色：所据顶画作者；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 79–79; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [法国国家图书馆（National Library of France）](../institutions/bibliotheque-nationale.md) | 时间：本书所述时点；角色：书中顶画所在机构；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 79–79; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [马扎然宫（Palais Mazarin）](../places/palais-mazarin.md) | 时间：本书所述时点；角色：书中顶画所在建筑；范围：图版26b所据顶画；局部复制范围；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 79–79; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

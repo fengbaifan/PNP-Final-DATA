@@ -129,10 +129,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 时间：1728–1729；角色：画家；范围：Stuttgart inv.3294；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；AUTHOR、Dating；Stuttgart inv.3294 |
-| → 由其委托（`commissioned_by`） | [斯特凡诺·孔蒂（Stefano Conti）](../persons/stefano-conti.md) | 时间：1728–1729；角色：委托人；范围：Stuttgart的Giove tra i coribanti；证据：[来源](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)；dbi-crespi；Giove tra i coribanti专段 |
-| → 由其保管（`held_by`） | [斯图加特州立美术馆（Staatsgalerie, Stuttgart）](../institutions/staatsgalerie-stuttgart.md) | 范围：目录最后已知保管机构；不推定取得年；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；LOCATIONS：Last known、inv.3294 |
-| → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 时间：1976–1977；角色：经手画廊；范围：Stuttgart inv.3294的市场经手记录；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；zeri-119514；Previous location：Colnaghi, Londra, 1976–1977 |
+| → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 时间：1728–1729；角色：画家；范围：Stuttgart inv.3294；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；src-d3e98bc7f1bc6ddb；AUTHOR、Dating；Stuttgart inv.3294 |
+| → 由其委托（`commissioned_by`） | [斯特凡诺·孔蒂（Stefano Conti）](../persons/stefano-conti.md) | 时间：1728–1729；角色：委托人；范围：Stuttgart的Giove tra i coribanti；证据：[来源](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)；src-0ebafb3ebde8cb77；Giove tra i coribanti专段 |
+| → 由其保管（`held_by`） | [斯图加特州立美术馆（Staatsgalerie, Stuttgart）](../institutions/staatsgalerie-stuttgart.md) | 范围：目录最后已知保管机构；不推定取得年；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；src-d3e98bc7f1bc6ddb；LOCATIONS：Last known、inv.3294 |
+| → 由其经手（`handled_by`） | [科尔纳吉画廊（Colnaghi's）](../institutions/colnaghi.md) | 时间：1976–1977；角色：经手画廊；范围：Stuttgart inv.3294的市场经手记录；证据：[来源](https://catalogo.fondazionezeri.unibo.it/entry/work/121785/Crespi%20Giuseppe%20Maria%20%28Spagnoletto%29%2C%20Educazione%20di%20Giove)；src-d3e98bc7f1bc6ddb；Previous location：Colnaghi, Londra, 1976–1977 |
 
 ### 关系候选入口
 

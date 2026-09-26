@@ -60,6 +60,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [博尼法齐奥·戈扎迪尼（Bonifazio Gozadini）](../persons/bonifazio-gozadini.md) | Gozadini 承诺供应画布及群青，关系限材料供应承诺；时间：1639；角色：画布及群青承诺供应者；范围：材料供应承诺；不扩写为作品赞助；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
-| → 位于（`located_at`） | [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](../places/chiesa-de-servi-bologna.md) | 指定为 Bologna 的 Chiesa de’ Servi 祭坛画；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
-| → 创作者（`created_by`） | [弗朗切斯科·阿尔巴尼（Francesco Albani）](../persons/francesco-albani.md) | 1639年委托中的画家为弗朗切斯科·阿尔巴尼；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
+| → 由其供应（`supplied_by`） | [博尼法齐奥·戈扎迪尼（Bonifazio Gozadini）](../persons/bonifazio-gozadini.md) | Gozadini 承诺供应画布及群青，关系限材料供应承诺；时间：1639；角色：画布及群青承诺供应者；范围：材料供应承诺；不扩写为作品赞助；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 515–516; print pp. 13 |
+| → 位于（`located_at`） | [博洛尼亚塞尔维教堂（Chiesa de' Servi, Bologna）](../places/chiesa-de-servi-bologna.md) | 指定为 Bologna 的 Chiesa de’ Servi 祭坛画；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 515–516; print pp. 13 |
+| → 创作者（`created_by`） | [弗朗切斯科·阿尔巴尼（Francesco Albani）](../persons/francesco-albani.md) | 1639年委托中的画家为弗朗切斯科·阿尔巴尼；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 514–516; print pp. 13 |

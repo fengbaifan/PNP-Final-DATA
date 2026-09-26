@@ -109,10 +109,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 角色：训练城市；范围：早期受训；不推定具体导师；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；persons-niccolo-bambini；艺术家生涯段：威尼斯训练及1672罗马记录 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1672；角色：有文献记录的活动城市；范围：受训后生涯的罗马记录；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；persons-niccolo-bambini；艺术家生涯段：威尼斯训练及1672罗马记录 |
-| ← 所创作对象（`creator_of`，反向投影） | [威尼斯寓意（Allegory of Venice）](../works/niccolo-bambini-allegory-of-venice.md) | 角色：原书署名作者；范围：图版42b；原断言与证据见发出端卡片“威尼斯寓意（Allegory of Venice）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 115–115; 章前：图版目录；印刷页xiv |
-| ← 所创作对象（`creator_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：1712；角色：画家；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；作者字段及归属说明 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 角色：训练城市；范围：早期受训；不推定具体导师；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；艺术家生涯段：威尼斯训练及1672罗马记录 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1672；角色：有文献记录的活动城市；范围：受训后生涯的罗马记录；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；艺术家生涯段：威尼斯训练及1672罗马记录 |
+| ← 所创作对象（`creator_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：1712；角色：画家；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；作者字段及归属说明 |
+| ← 所创作对象（`creator_of`，反向投影） | [威尼斯寓意（Allegory of Venice）](../works/niccolo-bambini-allegory-of-venice.md) | 角色：原书署名作者；范围：图版42b；原断言与证据见发出端卡片“威尼斯寓意（Allegory of Venice）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 115–115; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

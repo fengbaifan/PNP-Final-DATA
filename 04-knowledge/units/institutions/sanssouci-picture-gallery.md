@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](../works/caravaggio-incredulity-thomas-sanssouci.md) | 当前对象记录将The Incredulity of Saint Thomas (Sanssouci version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）”：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；held-by-institutions-sanssouci-picture-gallery-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）](../works/caravaggio-incredulity-thomas-sanssouci.md) | 当前对象记录将The Incredulity of Saint Thomas (Sanssouci version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《多疑的圣多马》（无忧宫版本）（The Incredulity of Saint Thomas (Sanssouci version)）”：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；src-00809e6dd9c338fd；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

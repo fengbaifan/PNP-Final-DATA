@@ -75,7 +75,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：版权声明引用；范围：版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 18–18; 章前：书名与版权页；未编号；PDF 1–2 |
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：版权声明引用；范围：版权页明确援引第107和108条，不是对本项目具体使用方式作法律判断；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；haskell-1980-rev-ed；lines 18–18; 章前：书名与版权页；未编号；PDF 1–2 |
 
 ### 关系候选入口
 

@@ -148,12 +148,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 角色：画家；范围：馆藏4666；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；作者字段 |
-| → 所涉对象（`has_subject`） | [约翰·威廉（Johann Wilhelm, Elector Palatine）](../persons/johann-wilhelm-elector-palatine.md) | 角色：画中选侯继承人；范围：馆藏4666题名所指Johann Wilhelm；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；题名Erziehung des Kurprinzen Johann Wilhelm |
-| → 由其保管（`held_by`） | [老绘画陈列馆（Alte Pinakothek）](../institutions/alte-pinakothek.md) | 角色：所引馆藏记录所属收藏；范围：馆藏4666；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；Bestand：Alte Pinakothek |
-| → 由其保管（`held_by`） | [杜塞尔多夫选侯画廊（Düsseldorf Electoral Picture Gallery）](../institutions/dusseldorf-electoral-picture-gallery.md) | 时间：1806年移出前；角色：1806年移出前收藏；范围：馆藏4666的来源画廊；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；Erwerb：1806 aus der Galerie Düsseldorf |
-| → 由其保管（`held_by`） | [巴伐利亚国家绘画收藏机构（Bavarian State Painting Collections）](../institutions/bayerischen-staatsgemaldesammlungen.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版49a；馆藏4666；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 127–127; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [慕尼黑（Munich）](../places/munich.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版49a；馆藏4666；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 127–127; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 角色：画家；范围：馆藏4666；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；src-c86654211af2f74d；作者字段 |
+| → 所涉对象（`has_subject`） | [约翰·威廉（Johann Wilhelm, Elector Palatine）](../persons/johann-wilhelm-elector-palatine.md) | 角色：画中选侯继承人；范围：馆藏4666题名所指Johann Wilhelm；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；src-c86654211af2f74d；题名Erziehung des Kurprinzen Johann Wilhelm |
+| → 由其保管（`held_by`） | [老绘画陈列馆（Alte Pinakothek）](../institutions/alte-pinakothek.md) | 角色：所引馆藏记录所属收藏；范围：馆藏4666；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；src-c86654211af2f74d；Bestand：Alte Pinakothek |
+| → 由其保管（`held_by`） | [杜塞尔多夫选侯画廊（Düsseldorf Electoral Picture Gallery）](../institutions/dusseldorf-electoral-picture-gallery.md) | 时间：1806年移出前；角色：1806年移出前收藏；范围：馆藏4666的来源画廊；证据：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；src-c86654211af2f74d；Erwerb：1806 aus der Galerie Düsseldorf |
+| → 由其保管（`held_by`） | [巴伐利亚国家绘画收藏机构（Bavarian State Painting Collections）](../institutions/bayerischen-staatsgemaldesammlungen.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版49a；馆藏4666；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 127–127; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [慕尼黑（Munich）](../places/munich.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版49a；馆藏4666；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 127–127; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

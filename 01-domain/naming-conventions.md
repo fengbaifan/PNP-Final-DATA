@@ -32,7 +32,7 @@
 
 ## 四、脚本命名
 
-脚本沿用 Python 的 snake_case，如 `audit_repo.py`、`build_relation_index.py`、`verify_apply_evidence.py`。名称说明用途，不赋予权限；`build_*` 可能写入派生文件，不能视为只读。只在必要定位、检查、受控写回和展示实现中使用脚本，不增加语义步骤的固定调用链。
+脚本沿用 Python 的 snake_case，如 `audit_repo.py`、`audit_content_quality.py`、`build_cards.py`、`verify_apply_evidence.py`。名称说明用途，不赋予权限；`build_*` 可能写入派生文件，不能视为只读。只在必要定位、检查、受控写回和展示实现中使用脚本，不增加语义步骤的固定调用链。已退役脚本不得继续列为现行入口。
 
 ## 五、迁移
 

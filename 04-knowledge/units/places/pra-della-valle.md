@@ -60,9 +60,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [多梅尼科·切拉托（Domenico Cerato）](../persons/domenico-cerato.md) | 角色：整治活动地点；范围：与Memmo合作整治广场；不等同方案的实际存放地；原断言与证据见发出端卡片“多梅尼科·切拉托（Domenico Cerato）”：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；persons-domenico-cerato；短条目：生卒括注及1765教学、Memmo合作句 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [帕多瓦Prà广场（Prà della Valle, Padua）](../works/canaletto-pra-della-valle-padua.md) | 角色：描绘广场；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；原断言与证据见发出端卡片“帕多瓦Prà广场（Prà della Valle, Padua）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
-| ← 预定地点（`intended_site_of`，反向投影） | [Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）](../works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md) | 角色：整治方案所拟用于的广场；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
+| ← 所在地（`location_of`，反向投影） | [多梅尼科·切拉托（Domenico Cerato）](../persons/domenico-cerato.md) | 角色：整治活动地点；范围：与Memmo合作整治广场；不等同方案的实际存放地；原断言与证据见发出端卡片“多梅尼科·切拉托（Domenico Cerato）”：[来源](https://www.treccani.it/enciclopedia/domenico-cerato/)；src-029274d915796912；短条目：生卒括注及1765教学、Memmo合作句 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [帕多瓦Prà广场（Prà della Valle, Padua）](../works/canaletto-pra-della-valle-padua.md) | 角色：描绘广场；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；原断言与证据见发出端卡片“帕多瓦Prà广场（Prà della Valle, Padua）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 146–146; 章前：图版目录；印刷页xvi |
+| ← 预定地点（`intended_site_of`，反向投影） | [Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）](../works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md) | 角色：整治方案所拟用于的广场；范围：原书图版署名及题名；不据此外推具体印本或现藏；原断言与证据见发出端卡片“Prà广场整治原始方案（Original proposals for reclaiming Prà della Valle）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 147–147; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

@@ -42,3 +42,7 @@ relations: []
 本卡仅用于承接1902年“意大利国家购入”的历史取得端点，不据此描述此后法律产权或当前管理关系。作品关系见[《狄安娜狩猎》](../works/domenichino-hunt-of-diana.md)。
 
 ### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 取得者（`acquirer_of`，反向投影） | [狄安娜狩猎（Hunt of Diana）](../works/domenichino-hunt-of-diana.md) | 时间：1902；角色：取得者；馆方原称意大利国家；范围：1902年“意大利国家”记录按当时存续的意大利王国定位；不表示当前产权；原断言与证据见发出端卡片“狄安娜狩猎（Hunt of Diana）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Provenance: purchased by Italian State, 1902 |

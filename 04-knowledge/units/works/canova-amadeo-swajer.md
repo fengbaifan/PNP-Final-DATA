@@ -108,10 +108,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [安东尼奥·卡诺瓦（Antonio Canova）](../persons/canova.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](../persons/amadeo-swajer.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
-| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管者；范围：书中图版目录记载，不以此声称已核2026年现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中保管地点；范围：书中馆藏地点，不表示作品创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 137–137; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [安东尼奥·卡诺瓦（Antonio Canova）](../persons/canova.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](../persons/amadeo-swajer.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管者；范围：书中图版目录记载，不以此声称已核2026年现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中保管地点；范围：书中馆藏地点，不表示作品创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

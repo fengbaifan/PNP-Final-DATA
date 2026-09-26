@@ -75,8 +75,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
-| → 通信于（`corresponded_with`） | [菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）](filippo-hercolani-1736.md) | 一封刊本书信确认双方为作者与收信人；时间：1762-11-22；范围：仅此信，不推断友谊、赞助或长期通信；证据：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
+| → 通信（`corresponded_with`） | [菲利波·埃尔科拉尼（Filippo Hercolani，1736–1810）](filippo-hercolani-1736.md) | 一封刊本书信的发信人及收信人分别确认为Bianconi与Filippo Hercolani；时间：1762-11-22；范围：仅指该封书信；不据此推断友谊、赞助或长期通信；证据：[来源](https://archive.org/details/diletteresulla07bott)；vol. VII, letter X, pp. 357–362 |
+| ← 所著文献（`author_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 刊本文字署作者 Gian Lodovico Bianconi；1762-11-22；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/diletteresulla07bott)；vol. VII, letter X, pp. 357–362 |
 
 ### 身份与外部链接
 

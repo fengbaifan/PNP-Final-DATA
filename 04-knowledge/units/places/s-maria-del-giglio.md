@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [百合圣母堂立面（Facade of S. Maria del Giglio）](../works/facade-of-s-maria-del-giglio.md) | 角色：所属建筑；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；原断言与证据见发出端卡片“百合圣母堂立面（Facade of S. Maria del Giglio）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 112–112; 章前：图版目录；印刷页xiv |
+| ← 包含成员（`contains`，反向投影） | [百合圣母堂立面（Facade of S. Maria del Giglio）](../works/facade-of-s-maria-del-giglio.md) | 角色：所属建筑；范围：图版41a；立面是教堂建筑构件，作品与整座教堂分别登记；原断言与证据见发出端卡片“百合圣母堂立面（Facade of S. Maria del Giglio）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 112–112; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

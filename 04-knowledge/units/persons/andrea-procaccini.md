@@ -101,8 +101,8 @@ Pascoli的职业志向／生活描写保留作者责任；Gonzalo Zolle Betegón
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职；证据：[来源](https://en.wikipedia.org/w/index.php?oldid=1366087864)；wp-procaccini；本卡 S5；生平段 |
-| → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 约1690年在马拉塔工作室接受素描与临摹训练；时间：约1690；角色：工作室学生；范围：素描与临摹训练；证据：[来源](https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/)；dbi-procaccini；本卡 S7；早期训练段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1715年列为圣路加学院成员；本边不包含其西班牙宫廷任职；证据：[来源](https://en.wikipedia.org/w/index.php?oldid=1366087864)；本卡 S5；生平段 |
+| → 师从／受训于（`trained_by`） | [卡洛·马拉塔（Carlo Maratta）](carlo-maratta.md) | 约1690年在马拉塔工作室接受素描与临摹训练；时间：约1690；角色：工作室学生；范围：素描与临摹训练；证据：[来源](https://www.treccani.it/enciclopedia/andrea-procaccini_(Dizionario-Biografico)/)；src-bd0da5df03b3f1d2；本卡 S7；早期训练段 |
 
 ### 身份与外部链接
 

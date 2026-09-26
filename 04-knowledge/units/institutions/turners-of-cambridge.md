@@ -81,10 +81,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [剑桥（Cambridge）](../places/cambridge.md) | 范围：原书Turners of Cambridge署名粒度；不据此确认法律实体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）](../works/ottavio-leoni-cardinal-francesco-barberini.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版3a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版17c的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
-| ← 供应者（`supplier_of`，反向投影） | [逃往埃及途中的休息（Rest on the Flight into Egypt）](../works/pietro-testa-rest-on-the-flight-into-egypt.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“逃往埃及途中的休息（Rest on the Flight into Egypt）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
+| → 位于（`located_at`） | [剑桥（Cambridge）](../places/cambridge.md) | 范围：原书Turners of Cambridge署名粒度；不据此确认法律实体；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 171–172; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）](../works/ottavio-leoni-cardinal-francesco-barberini.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版3a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“弗朗切斯科·巴贝里尼枢机（Cardinal Francesco Barberini）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 171–172; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）](../works/ottavio-leoni-paolo-giordano-orsini-duke-of-bracciano.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版17c的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“布拉恰诺公爵（Paolo Giordano Orsini, Duke of Bracciano）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 171–172; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [逃往埃及途中的休息（Rest on the Flight into Egypt）](../works/pietro-testa-rest-on-the-flight-into-egypt.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者；原断言与证据见发出端卡片“逃往埃及途中的休息（Rest on the Flight into Egypt）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 171–172; 章前：图片来源；印刷页xvi |
 
 ### 关系候选入口
 

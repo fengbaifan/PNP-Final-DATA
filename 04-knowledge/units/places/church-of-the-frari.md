@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 时间：本书所述时点；角色：纪念碑所在教堂；范围：图版41b纪念碑本体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 113–113; 章前：图版目录；印刷页xiv |
+| ← 安置地点（`installation_site_of`，反向投影） | [乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）](../works/monument-to-doge-giovanni-pesaro.md) | 时间：本书所述时点；角色：纪念碑所在教堂；范围：图版41b纪念碑本体；原断言与证据见发出端卡片“乔瓦尼·佩萨罗总督纪念碑（Monument to Doge Giovanni Pesaro）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 113–113; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

@@ -63,8 +63,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [都灵大学（University of Turin）](../institutions/university-of-turin.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；原断言与证据见发出端卡片“都灵大学（University of Turin）”：[来源](https://en.unito.it/university/about-us/short-history)；institutions-university-of-turin；Key dates：都灵校舍历史与机构名称 |
-| ← 所在地（`location_of`，反向投影） | [弗兰科·文图里（Franco Venturi）](../persons/franco-venturi.md) | 时间：1994-12-14；角色：去世；范围：去世地；原断言与证据见发出端卡片“弗兰科·文图里（Franco Venturi）”：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；persons-franco-venturi；导言与完整La vita段；后续专题段本轮未全读 |
+| ← 所在地（`location_of`，反向投影） | [弗兰科·文图里（Franco Venturi）](../persons/franco-venturi.md) | 时间：1994-12-14；角色：去世；范围：去世地；原断言与证据见发出端卡片“弗兰科·文图里（Franco Venturi）”：[来源](https://www.treccani.it/enciclopedia/franco-venturi_(altro)/)；src-d6efb167d1e1fcf8；导言与完整La vita段；后续专题段本轮未全读 |
+| ← 所在地（`location_of`，反向投影） | [都灵大学（University of Turin）](../institutions/university-of-turin.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；原断言与证据见发出端卡片“都灵大学（University of Turin）”：[来源](https://en.unito.it/university/about-us/short-history)；src-e59864c7f12cfd4c；Key dates：都灵校舍历史与机构名称 |
 
 ### 身份与外部链接
 

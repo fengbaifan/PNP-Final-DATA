@@ -61,6 +61,12 @@ relations: []
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 保管对象（`holder_of`，反向投影） | [希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）](../works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md) | 时间：来源访问日2026-09-25；角色：当前保管机构；范围：Musée Fesch当前馆藏记录；保管不自动等于法律产权；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）”：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；lines 197–206 |
+
 ### 身份与外部链接
 
 | 来源 | 标识 | 结论 |

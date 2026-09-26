@@ -126,10 +126,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 角色：素描作者；范围：1874,0808.43；评论1708–1713，宽泛字段1690–1741并存；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Producer及Curator’s comments |
-| → 所涉对象（`has_subject`） | [彼得·安东尼·莫特（Peter Anthony Motteux）](../persons/pierre-motteux.md) | 角色：群像中的具名人物；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Description：Peter Anthony Motteux及家人 |
-| → 由其保管（`held_by`） | [大英博物馆（British Museum）](../institutions/british-museum.md) | 角色：所引馆藏记录保管机构；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Museum number与馆藏记录 |
-| → 由其取得（`acquired_by`） | [大英博物馆（British Museum）](../institutions/british-museum.md) | 时间：1874；角色：入藏机构；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Acquisition date |
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 角色：素描作者；范围：1874,0808.43；评论1708–1713，宽泛字段1690–1741并存；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Producer及Curator’s comments |
+| → 所涉对象（`has_subject`） | [彼得·安东尼·莫特（Peter Anthony Motteux）](../persons/pierre-motteux.md) | 角色：群像中的具名人物；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Description：Peter Anthony Motteux及家人 |
+| → 由其保管（`held_by`） | [大英博物馆（British Museum）](../institutions/british-museum.md) | 角色：所引馆藏记录保管机构；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Museum number与馆藏记录 |
+| → 由其取得（`acquired_by`） | [大英博物馆（British Museum）](../institutions/british-museum.md) | 时间：1874；角色：入藏机构；范围：1874,0808.43；证据：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Acquisition date |
 
 ### 关系候选入口
 

@@ -1,4 +1,4 @@
-HDR = 'relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span'
+HDR = 'relation_id,subject_ku_id,object_ku_id,predicate,time,role,scope,origin,status,source_id,source_span,source_file,note'
 import tempfile
 import unittest
 import json
@@ -150,7 +150,7 @@ class KnowledgeMaturityTests(unittest.TestCase):
             root = Path(tmp)
             relation = root / "04-knowledge" / "tables" / "relations.csv"
             relation.parent.mkdir(parents=True)
-            relation.write_text(HDR + "\nrel-1,units/persons/a,units/terms/b,member_of,forward,,,,book,formal,,,\n", encoding="utf-8")
+            relation.write_text(HDR + "\nrel-1,units/persons/a,units/terms/b,member_of,,,,book,formal,,,,\n", encoding="utf-8")
             discovery = root / "06-runtime" / "state" / "discovery-manifest.json"
             discovery.parent.mkdir(parents=True)
             discovery.write_text(json.dumps({

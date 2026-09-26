@@ -79,9 +79,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 朋友（`friend_of`，反向投影） | [约翰·芬奇（John Finch）](john-finch.md) | 角色：朋友；范围：Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据；原断言与证据见发出端卡片“约翰·芬奇（John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Finch的befriended段 |
-| ← 所创作对象（`creator_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1665–1670；角色：画家；范围：PD.12-1972；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Maker(s)、Dating |
-| ← 所创作对象（`creator_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：约1665–1670；角色：画家；范围：PD.13-1972贝恩斯肖像；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Baines |
+| ← 朋友（`friend_of`，反向投影） | [约翰·芬奇（John Finch）](john-finch.md) | 角色：朋友；范围：Finch馆藏标签明确befriended及到访画室；不把委托本身当友情依据；原断言与证据见发出端卡片“约翰·芬奇（John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的befriended段 |
+| ← 所创作对象（`creator_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1665–1670；角色：画家；范围：PD.12-1972；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；src-9565705b2147bf86；Maker(s)、Dating |
+| ← 所创作对象（`creator_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：约1665–1670；角色：画家；范围：PD.13-1972贝恩斯肖像；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Baines |
 
 ### 关系候选入口
 

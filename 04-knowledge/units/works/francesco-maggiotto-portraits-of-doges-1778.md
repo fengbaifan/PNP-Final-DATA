@@ -84,9 +84,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其创作（`created_by`） | [弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）](../persons/francesco-maggiotto.md) | 创作者；时间：1778；范围：168幅初始肖像组，不延伸至两幅1791年补作；证据：S1 lines 46–47 |
-| → 由其委托（`commissioned_by`） | [Maffeo Pinelli](../persons/maffeo-pinelli.md) | 委托方兼初始收藏者；时间：1778；范围：168幅初始肖像组；证据：S1 lines 46–47、67–68 |
-| → 由其购藏（`acquired_by`） | [圣斯德望支系皮萨尼家族（Pisani di Santo Stefano family）](../families/pisani-di-santo-stefano.md) | 购买者家族支系；时间：1787；范围：整体系列，不推定其具体分配或后续权属；证据：S1 lines 46–47 |
+| → 创作者（`created_by`） | [弗朗切斯科·费代利（又称马焦托）（Francesco Fedeli, detto il Maggiotto）](../persons/francesco-maggiotto.md) | 时间：1778；角色：创作者；范围：1778年绘制的168幅油画铜板肖像组；不包括后续两幅Manin肖像的独立创作者判断；证据：[来源](https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/)；src-6629a59f168227a1；lines 46–47 |
+| → 由其委托（`commissioned_by`） | [马费奥·皮内利（Maffeo Pinelli）](../persons/maffeo-pinelli.md) | 时间：1778；角色：委托方／收藏者；范围：168幅初始肖像组；委托事实不延伸到1791年补入的两幅肖像；证据：[来源](https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/)；src-6629a59f168227a1；lines 46–47, 67–68 |
+| → 由其取得（`acquired_by`） | [圣斯德望支系皮萨尼家族（Pisani di Santo Stefano family）](../families/pisani-di-santo-stefano.md) | 时间：1787；角色：购买者家族支系；范围：1787年售出的整个168幅肖像组；不表示此后永久或当前所有权；证据：[来源](https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/)；src-6629a59f168227a1；lines 46–47 |
 
 ### 身份与外部链接
 

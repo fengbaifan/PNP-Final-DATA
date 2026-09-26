@@ -92,6 +92,13 @@ def extract_body(text: str) -> str:
 
 
 def scalar_fm(fm: str, field: str) -> str:
+    try:
+        data = yaml.safe_load(fm) or {}
+    except yaml.YAMLError:
+        data = {}
+    if isinstance(data, dict) and data.get(field) is not None:
+        value = data[field]
+        return str(value).strip() if isinstance(value, (str, int, float, bool)) else ""
     m = re.search(rf"^{re.escape(field)}\s*:\s*(.+?)\s*$", fm, re.MULTILINE)
     return m.group(1).strip().strip('"').strip("'") if m else ""
 

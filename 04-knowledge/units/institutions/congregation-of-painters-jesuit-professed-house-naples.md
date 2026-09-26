@@ -51,4 +51,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：成员；范围：1686起；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 33–35 |
+| ← 包含成员（`contains`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](../persons/paolo-de-matteis.md) | 角色：成员；范围：1686起；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 33–35 |

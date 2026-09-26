@@ -45,4 +45,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）](../persons/marchese-del-carpio.md) | 时间：1629；角色：出生地点；范围：加斯帕尔·德阿罗个人出生事件；原断言与证据见发出端卡片“加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）”：[来源](https://www.ceeh.es/publicacion/la-corte-en-llamas-proceso-al-marques-de-heliche-1662-1663/)；ceeh-corte-en-llamas-presentation；人物介绍首段：Madrid, 1629 – Nápoles, 1687 |
+| ← 所在地（`location_of`，反向投影） | [加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）](../persons/marchese-del-carpio.md) | 时间：1629；角色：出生地点；范围：加斯帕尔·德阿罗个人出生事件；原断言与证据见发出端卡片“加斯帕尔·门德斯·德阿罗，第七代卡尔皮奥侯爵（Gaspar Méndez de Haro, 7th Marquess of Carpio）”：[来源](https://www.ceeh.es/publicacion/la-corte-en-llamas-proceso-al-marques-de-heliche-1662-1663/)；src-2563b14fedb99d67；人物介绍首段：Madrid, 1629 – Nápoles, 1687 |

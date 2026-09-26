@@ -71,7 +71,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [马尔伯勒美术公司（Marlborough Fine Art Ltd）](../institutions/marlborough-fine-art-ltd.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 166–166 |
+| → 由其供应（`supplied_by`） | [马尔伯勒美术公司（Marlborough Fine Art Ltd）](../institutions/marlborough-fine-art-ltd.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版24的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；haskell-1980-rev-ed；PDF13；印刷xvi；图片来源；lines 166–166 |
 
 [章前关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
 

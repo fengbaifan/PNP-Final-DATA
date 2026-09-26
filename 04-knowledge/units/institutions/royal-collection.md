@@ -45,8 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）](../works/caravaggio-boy-peeling-fruit-royal.md) | 当前对象记录将Boy Peeling Fruit (Royal Collection version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）”：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；held-by-institutions-royal-collection-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）](../works/caravaggio-calling-peter-andrew.md) | 当前对象记录将The Calling of Saints Peter and Andrew列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）”：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；held-by-institutions-royal-collection-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）](../works/caravaggio-boy-peeling-fruit-royal.md) | 当前对象记录将Boy Peeling Fruit (Royal Collection version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《削水果的男孩》（皇家收藏版本）（Boy Peeling Fruit (Royal Collection version)）”：[来源](https://www.rct.uk/collection/402612/boy-peeling-fruit)；src-633cc871027e32ea；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）](../works/caravaggio-calling-peter-andrew.md) | 当前对象记录将The Calling of Saints Peter and Andrew列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣彼得与圣安德烈蒙召》（The Calling of Saints Peter and Andrew）”：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；src-e0792e1250bad946；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

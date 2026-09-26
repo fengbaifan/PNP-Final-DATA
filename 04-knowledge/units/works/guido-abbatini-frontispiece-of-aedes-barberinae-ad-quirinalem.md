@@ -118,10 +118,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [剑桥大学图书馆（Cambridge University Library）](../institutions/university-library-cambridge.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版9的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 172–172; 章前：图片来源；印刷页xvi |
-| → 组成部分（`part_of`） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：卷首图；范围：原书图版明确的卷首图与1642载体；未核剑桥具体印本号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
-| → 创作者（`created_by`） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](../persons/guido-abbatini.md) | 角色：图版署名作者；范围：原书图版作者署名；不细分未核的设计与刻制职责；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
-| → 所涉对象（`has_subject`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 角色：描绘建筑；范围：题名明确with view of Palazzo Barberini；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
+| → 由其供应（`supplied_by`） | [剑桥大学图书馆（Cambridge University Library）](../institutions/university-library-cambridge.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版9的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 172–172; 章前：图片来源；印刷页xvi |
+| → 组成部分（`part_of`） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642；角色：卷首图；范围：原书图版明确的卷首图与1642载体；未核剑桥具体印本号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 49–50; 章前：图版目录；印刷页xii |
+| → 创作者（`created_by`） | [圭多·乌巴尔多·阿巴蒂尼（Guido Ubaldo Abbatini）](../persons/guido-abbatini.md) | 角色：图版署名作者；范围：原书图版作者署名；不细分未核的设计与刻制职责；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 49–50; 章前：图版目录；印刷页xii |
+| → 所涉对象（`has_subject`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 角色：描绘建筑；范围：题名明确with view of Palazzo Barberini；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 49–50; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

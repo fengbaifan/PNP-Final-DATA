@@ -104,10 +104,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Conversion of Saint Paul (first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [基吉—奥德斯卡尔基宫（Palazzo Chigi-Odescalchi）](../places/palazzo-chigi-odescalchi.md) | 来源将The Conversion of Saint Paul (first version)与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；奥德斯卡尔基家族收藏；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；installed-at-places-palazzo-chigi-odescalchi-md；本卡S2；有S4时并参对象／地点说明 |
-| → 由其委托（`commissioned_by`） | [蒂贝里奥·切拉西（Tiberio Cerasi）](../persons/tiberio-cerasi.md) | 来源明确该端点承担The Conversion of Saint Paul (first version)的委托角色；不由委托推定当前所有权；时间：1600–1601；角色：委托人／委托机构；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；commissioned-by-persons-tiberio-cerasi-md；本卡S2；有S4时并参委托／历史段 |
-| → 由其收藏／拥有（`owned_by`） | [奥德斯卡尔基家族（Odescalchi Family）](../families/odescalchi-family.md) | 来源支持该端点在所列时期收藏或拥有The Conversion of Saint Paul (first version)；不等于当前保管；时间：现阶段；角色：家族收藏；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；owned-by-families-odescalchi-family-md；本卡S2；有S4时并参流传段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Conversion of Saint Paul (first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [基吉—奥德斯卡尔基宫（Palazzo Chigi-Odescalchi）](../places/palazzo-chigi-odescalchi.md) | 来源将The Conversion of Saint Paul (first version)与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；奥德斯卡尔基家族收藏；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；本卡S2；有S4时并参对象／地点说明 |
+| → 由其委托（`commissioned_by`） | [蒂贝里奥·切拉西（Tiberio Cerasi）](../persons/tiberio-cerasi.md) | 来源明确该端点承担The Conversion of Saint Paul (first version)的委托角色；不由委托推定当前所有权；时间：1600–1601；角色：委托人／委托机构；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；本卡S2；有S4时并参委托／历史段 |
+| → 由其收藏／拥有（`owned_by`） | [奥德斯卡尔基家族（Odescalchi Family）](../families/odescalchi-family.md) | 来源支持该端点在所列时期收藏或拥有The Conversion of Saint Paul (first version)；不等于当前保管；时间：现阶段；角色：家族收藏；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

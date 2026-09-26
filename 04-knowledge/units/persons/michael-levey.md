@@ -92,8 +92,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：启发性的研究讨论；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| → 受雇于（`employed_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 时间：1951–1986年底；角色：助理保管员→副保管员→保管员→馆长；范围：1951 Assistant Keeper；1966 Deputy Keeper；1968 Keeper；1973-10至1986年底Director；证据：[来源](https://www.nationalgallery.org.uk/about-us/history/directors/sir-michael-levey)；persons-michael-levey；完整人物传记段；下方Selected acquisitions仅浏览本页索引 |
+| ← supports_claim（`supports_claim`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](francis-haskell.md) | 角色：启发性的研究讨论；范围：第一版序言点名致谢；不外推共同著作、任职或资助合同；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
+| → 受雇于（`employed_by`） | [英国国家美术馆（National Gallery）](../institutions/national-gallery-london.md) | 时间：1951–1986年底；角色：助理保管员→副保管员→保管员→馆长；范围：1951 Assistant Keeper；1966 Deputy Keeper；1968 Keeper；1973-10至1986年底Director；证据：[来源](https://www.nationalgallery.org.uk/about-us/history/directors/sir-michael-levey)；src-2cbc1a00fce68d92；完整人物传记段；下方Selected acquisitions仅浏览本页索引 |
 
 ### 关系候选入口
 

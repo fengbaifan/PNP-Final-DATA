@@ -96,9 +96,9 @@ updated: '2026-09-25'
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 通信于（`corresponded_with`，反向投影） | [乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）](gl-bianconi.md) | 单封刊本书信确认双方为作者与收信人；时间：1762-11-22；范围：仅此信，不推断友谊、赞助或长期通信；原断言与证据见比安科尼卡片：[来源](https://archive.org/details/diletteresulla07bott)；bottari-ticozzi-letter-collection-v7；vol. VII, letter X, pp. 357–362 |
-| ← 收信文献（`addressee_of`，反向投影） | [Bianconi致Hercolani信（1762-11-22）](../archives/bianconi-letter-1762.md) | 题头称收信人为Marchese Filippo Hercolani，结合年代及身份资料确认对象；时间：1762-11-22；原断言与证据见信件卡片的`addressed_to`关系 |
-| ← 父亲（`child_of`） | [马尔坎托尼奥·埃尔科拉尼（Marcantonio Hercolani，1709–1772）](marcantonio-hercolani-1709.md) | 父子关系据博洛尼亚大学研究摘要；时间：自1736年起；原断言与证据见父亲卡片：[研究记录](https://cris.unibo.it/handle/11585/858533) |
+| → child_of（`child_of`） | [马尔坎托尼奥·埃尔科拉尼（Marcantonio Hercolani，1709–1772）](marcantonio-hercolani-1709.md) | 时间：自1736年起（Filippo出生年）；角色：son；范围：父子亲缘；不因父亲于1772年去世而终止；证据：[来源](https://cris.unibo.it/handle/11585/858533)；repository abstract: collection formed by Marcantonio Hercolani (1709–1772) and augmented by his son Filippo (1736–1810) |
+| ← 通信（`corresponded_with`，反向投影） | [乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）](gl-bianconi.md) | 一封刊本书信的发信人及收信人分别确认为Bianconi与Filippo Hercolani；时间：1762-11-22；范围：仅指该封书信；不据此推断友谊、赞助或长期通信；原断言与证据见发出端卡片“乔万尼·卢多维科·比安科尼（Giovanni Ludovico Bianconi）”：[来源](https://archive.org/details/diletteresulla07bott)；vol. VII, letter X, pp. 357–362 |
+| ← 为收信人（`addressee_of`，反向投影） | [乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）](../archives/bianconi-letter-1762.md) | 刊本题头称Marchese Filippo Hercolani；身份依据名称、头衔、时间及外部人物记录核定；时间：1762-11-22；原断言与证据见发出端卡片“乔万尼·洛多维科·比安科尼致菲利波·埃尔科拉尼侯爵的信（1762-11-22）（Letter from Giovanni Ludovico Bianconi to Marchese Filippo Hercolani (1762-11-22)）”：[来源](https://archive.org/details/diletteresulla07bott)；vol. VII, letter X, pp. 357–362; letter heading |
 
 ### 身份与外部链接
 

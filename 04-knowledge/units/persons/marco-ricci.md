@@ -174,13 +174,13 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 亲缘（`kin_of`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](sebastiano-ricci.md) | 角色：侄子→叔父；范围：父亲的兄弟为Sebastiano，明确叔侄而非兄弟；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；传记第2段：Fratello di suo padre era Sebastiano |
-| → 合作（`collaborated_with`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](sebastiano-ricci.md) | 时间：18世纪初起；角色：风景与建筑背景；范围：Marco承担风景或建筑背景；不推及叔父每一件作品；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；合作段：Fin dagli albori del Settecento至fondali scenografici |
-| → 合作（`collaborated_with`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](pellegrini.md) | 时间：1709–1710；角色：绘画装饰；范围：共同装饰Castle Howard，非仅同时在英国；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1715；角色：返回；范围：结束英国行程后的返抵事件；非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；归国段：Nel 1715 i due Ricci fecero ritorno a Venezia |
-| → 位于（`located_at`） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
-| ← 所创作对象（`creator_of`，反向投影） | [歌剧排练（An Operatic Rehearsal）](../works/marco-ricci-an-operatic-rehearsal.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“歌剧排练（An Operatic Rehearsal）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 125–125; 章前：图版目录；印刷页xv |
-| ← 所创作对象（`creator_of`，反向投影） | [村景（Village Scene）](../works/marco-ricci-village-scene.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“村景（Village Scene）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| → 亲缘（`kin_of`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](sebastiano-ricci.md) | 角色：侄子→叔父；范围：父亲的兄弟为Sebastiano，明确叔侄而非兄弟；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；传记第2段：Fratello di suo padre era Sebastiano |
+| → 合作（`collaborated_with`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](sebastiano-ricci.md) | 时间：18世纪初起；角色：风景与建筑背景；范围：Marco承担风景或建筑背景；不推及叔父每一件作品；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；合作段：Fin dagli albori del Settecento至fondali scenografici |
+| → 合作（`collaborated_with`） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](pellegrini.md) | 时间：1709–1710；角色：绘画装饰；范围：共同装饰Castle Howard，非仅同时在英国；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1715；角色：返回；范围：结束英国行程后的返抵事件；非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；归国段：Nel 1715 i due Ricci fecero ritorno a Venezia |
+| → 位于（`located_at`） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| ← 所创作对象（`creator_of`，反向投影） | [歌剧排练（An Operatic Rehearsal）](../works/marco-ricci-an-operatic-rehearsal.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“歌剧排练（An Operatic Rehearsal）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 125–125; 章前：图版目录；印刷页xv |
+| ← 所创作对象（`creator_of`，反向投影） | [村景（Village Scene）](../works/marco-ricci-village-scene.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“村景（Village Scene）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

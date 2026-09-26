@@ -53,4 +53,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为收信人（`addressee_of`，反向投影） | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../archives/quarisimini-carrara-letter-1696.md) | 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini；时间：1696-07-11；角色：收信人；范围：Quarismini书信；原断言与证据见发出端卡片“卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 511–513; print pp. 13 |
+| ← 为收信人（`addressee_of`，反向投影） | [卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）](../archives/quarisimini-carrara-letter-1696.md) | 书信收信人；1696-07-11；作者显示名据 PDF 校正为 Quarismini；时间：1696-07-11；角色：收信人；范围：Quarismini书信；原断言与证据见发出端卡片“卡洛·夸里斯米尼致文图拉·卡拉拉伯爵的信（1696-07-11）（Letter from Carlo Quarismini to Count Ventura Carrara (1696-07-11)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 511–513; print pp. 13 |

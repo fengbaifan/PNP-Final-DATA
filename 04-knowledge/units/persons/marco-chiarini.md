@@ -115,10 +115,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 受雇于（`employed_by`） | [帕拉蒂纳画廊（Galleria Palatina）](../institutions/galleria-palatina.md) | 时间：1969–2000；角色：馆长；范围：帕拉蒂纳馆务任期；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1933-09-01；角色：出生；范围：出生地；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1964迁居；2015-11-06去世；角色：迁居；去世；范围：两个具体人生事件，不指在整个区间连续居住；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；persons-marco-chiarini；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| → 受雇于（`employed_by`） | [帕拉蒂纳画廊（Galleria Palatina）](../institutions/galleria-palatina.md) | 时间：1969–2000；角色：馆长；范围：帕拉蒂纳馆务任期；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；src-dd965836e8aac508；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1933-09-01；角色：出生；范围：出生地；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；src-dd965836e8aac508；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1964迁居；2015-11-06去世；角色：迁居；去世；范围：两个具体人生事件，不指在整个区间连续居住；证据：[来源](https://www.burlington.org.uk/archive/obituary/marco-chiarini-19332015)；src-dd965836e8aac508；完整纪念文章；采用首段生卒、迁居及馆务任期 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

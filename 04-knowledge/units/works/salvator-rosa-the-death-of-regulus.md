@@ -105,9 +105,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](rosa-regulus-study-princeton.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；works-rosa-regulus-study-princeton；作品说明：preliminary sketch for The Death of Regulus |
-| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：本书所述时点；角色：画家；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
-| → 由其保管（`held_by`） | [弗吉尼亚美术馆（Virginia Museum of Fine Arts）](../institutions/virginia-museum-of-fine-arts.md) | 时间：本书所述时点；角色：书中保管机构；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-salvator-rosa-the-death-of-regulus；lines 76–76; 章前：图版目录；印刷页xiii |
+| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](rosa-regulus-study-princeton.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；作品说明：preliminary sketch for The Death of Regulus |
+| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：本书所述时点；角色：画家；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 76–76; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [弗吉尼亚美术馆（Virginia Museum of Fine Arts）](../institutions/virginia-museum-of-fine-arts.md) | 时间：本书所述时点；角色：书中保管机构；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 76–76; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

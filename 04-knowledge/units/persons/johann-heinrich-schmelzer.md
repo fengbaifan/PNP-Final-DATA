@@ -43,7 +43,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [拉丁君权凯旋（La Monarchia Latina Trionfante）](../works/la-monarchia-latina-trionfante.md) | 时间：1678演出作品；角色：芭蕾部分责任者；范围：拍品书目所载责任者；具体曲目和是否涉及编舞未展开；原断言与证据见发出端卡片“拉丁君权凯旋（La Monarchia Latina Trionfante）”：[来源](https://www.christies.com/en/lot/lot-5214348)；works-la-monarchia-latina-trionfante；Lot518拍品书目与责任者说明 |
+| ← 所创作对象（`creator_of`，反向投影） | [拉丁君权凯旋（La Monarchia Latina Trionfante）](../works/la-monarchia-latina-trionfante.md) | 时间：1678演出作品；角色：芭蕾部分责任者；范围：拍品书目所载责任者；具体曲目和是否涉及编舞未展开；原断言与证据见发出端卡片“拉丁君权凯旋（La Monarchia Latina Trionfante）”：[来源](https://www.christies.com/en/lot/lot-5214348)；src-8ffd4c24efa0aa85；Lot518拍品书目与责任者说明 |
 
 ### 关系候选入口
 

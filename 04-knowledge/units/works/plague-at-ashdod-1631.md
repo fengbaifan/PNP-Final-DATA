@@ -115,8 +115,8 @@ S1 第一章 p. 15、L599–601 记瓦尔瓜尔内拉见到既有初稿后商议
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 普桑工作室中的既有初稿；未据此补写创作年份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
-| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 看见初稿后商议完成；不是从零委托；角色：看见初稿后商议完成的委托人；范围：完成已有初稿；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 普桑工作室中的既有初稿；未据此补写创作年份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 看见初稿后商议完成；不是从零委托；角色：看见初稿后商议完成的委托人；范围：完成已有初稿；不是从零委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |
 
 ### 身份与外部链接
 

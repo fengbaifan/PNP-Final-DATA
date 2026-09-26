@@ -90,8 +90,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [科隆（Cologne）](../places/cologne.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：馆方联系地址；不以此说明作品产权；证据：[来源](https://www.wallraf.museum/en/the-museum/contact/contact/)；institutions-wallraf-richartz-museum；完整联系页机构名称与地址字段 |
-| ← 保管对象（`holder_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 范围：目录对应作品2806的保管机构；原断言与证据见发出端卡片“田园（Idyll）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF4：Idillio、inv.2806 |
+| → 位于（`located_at`） | [科隆（Cologne）](../places/cologne.md) | 时间：页面访问2026-09-15；角色：机构所在城市；范围：馆方联系地址；不以此说明作品产权；证据：[来源](https://www.wallraf.museum/en/the-museum/contact/contact/)；src-207a2a61e7380482；完整联系页机构名称与地址字段 |
+| ← 保管对象（`holder_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 范围：目录对应作品2806的保管机构；原断言与证据见发出端卡片“田园（Idyll）”：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF4：Idillio、inv.2806 |
 
 ### 关系候选入口
 

@@ -90,10 +90,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 叔父（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | 侄子；Treccani称Niccolò的叔父为Alessandro Ludovisi，即Gregory XV；S1 |
-| ← 父亲（`parent_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | Orazio与Lavinia之子；原断言见Orazio卡 |
-| ← 母亲（`parent_of`，反向投影） | [Lavinia Albergati](lavinia-albergati.md) | Niccolò为其子；原断言及Treccani证据见Lavinia卡 |
-| → 兄弟（`sibling_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 两人同为Orazio与Lavinia之子；S1家族段 |
+| ← 亲缘（`kin_of`，反向投影） | [格列高利十五世（Gregory XV）](gregory-xv.md) | Niccolò 是 Gregory XV 的侄子；与后世同名枢机 Niccolò Albergati-Ludovisi 区分；角色：叔侄；Gregory XV 为叔父；范围：Niccolò Ludovisi, son of Orazio and brother of Cardinal Ludovico；原断言与证据见发出端卡片“格列高利十五世（Gregory XV）”：[来源](https://www.treccani.it/enciclopedia/papa-gregorio-xv_(Dizionario-Biografico)/)；src-8c99c108d8dfa0e8；family section; paragraphs beginning ‘Nel marzo del 1621’ and ‘A Orazio’ |
+| ← child_of（`child_of`，反向投影） | [拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）](lavinia-albergati.md) | 时间：自1610年起（Niccolò出生年）；角色：mother；范围：儿子为Piombino亲王Niccolò Ludovisi，非Niccolò Albergati-Ludovisi；原断言与证据见发出端卡片“拉维尼娅·阿尔贝尔加蒂（Lavinia Albergati）”：[来源](https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/)；src-57bfba0d91516d6a；opening paragraph; line 28: Niccolò born to Orazio and Lavinia Albergati |
+| → sibling_of（`sibling_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 角色：brother；范围：Niccolò Ludovisi and Cardinal Ludovico Ludovisi, both sons of Orazio and Lavinia；证据：[来源](https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/)；src-57bfba0d91516d6a；line 37: Zagarolo inherited from his brother Cardinal Ludovico in 1632 |
+| ← child_of（`child_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 时间：1610年起（Niccolò出生年）；角色：father；范围：son is the later Prince of Piombino Niccolò Ludovisi, distinct from Niccolò Albergati-Ludovisi；原断言与证据见发出端卡片“奥拉齐奥·卢多维西（Orazio Ludovisi）”：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；family paragraph and concluding paragraph; lines 28, 55–56 |
 
 ### 身份与外部链接
 

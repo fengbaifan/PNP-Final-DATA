@@ -41,4 +41,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | 来源明确该端点承担Madonna di Loreto的委托角色；不由委托推定当前所有权；时间：约1604–1606；角色：委托人／委托机构；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；commissioned-by-persons-ermete-cavalletti-md；本卡S2；有S4时并参委托／历史段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《洛雷托圣母》（Madonna di Loreto）](../works/caravaggio-madonna-loreto.md) | 来源明确该端点承担Madonna di Loreto的委托角色；不由委托推定当前所有权；时间：约1604–1606；角色：委托人／委托机构；范围：按卡瓦莱蒂礼拜堂对象记录；模特身份争议不转成确定关系。；原断言与证据见发出端卡片“《洛雷托圣母》（Madonna di Loreto）”：[来源](https://en.wikipedia.org/wiki/Madonna_di_Loreto_(Caravaggio))；src-6783b9c6914c6968；本卡S2；有S4时并参委托／历史段 |

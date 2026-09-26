@@ -57,5 +57,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
-| → 位于（`located_at`） | [梵蒂冈绘画馆（Pinacoteca Vaticana）](../institutions/pinacoteca-vaticana.md) | 本书写作时所记馆藏，非今日核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 464–466; print pp. 12 |
+| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | Waterhouse 指出的 Camassei 稿本，作为 Haskell 记录保留；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 464–466; print pp. 12 |
+| → 位于（`located_at`） | [梵蒂冈绘画馆（Pinacoteca Vaticana）](../institutions/pinacoteca-vaticana.md) | 本书写作时所记馆藏，非今日核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 464–466; print pp. 12 |

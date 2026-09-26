@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Fortune Teller (Capitoline first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卢浮宫第二版分开；两版年代均有争议。；证据：[来源](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 当前对象记录将The Fortune Teller (Capitoline first version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)；held-by-institutions-capitoline-museums-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Fortune Teller (Capitoline first version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卢浮宫第二版分开；两版年代均有争议。；证据：[来源](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)；src-cd4f2adcc0063a96；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [卡比托利欧博物馆（Capitoline Museums）](../institutions/capitoline-museums.md) | 当前对象记录将The Fortune Teller (Capitoline first version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.museicapitolini.org/en/percorsi/percorsi_per_sale/pinacoteca_capitolina/sala_di_santa_petronilla_la_grande_pittura_del_seicento_a_roma/la_buona_ventura)；src-cd4f2adcc0063a96；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

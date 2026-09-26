@@ -89,8 +89,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1981；角色：遗赠者；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Provenance末句 |
-| ← 保管对象（`holder_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版20；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 73–73; 章前：图版目录；印刷页xiii |
+| ← 贡献者（`contributor_to`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1981；角色：遗赠者；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance末句 |
+| ← 保管对象（`holder_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：本书所述时点；角色：书中私人收藏者；范围：图版20；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 73–73; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

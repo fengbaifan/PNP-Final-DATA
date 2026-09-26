@@ -57,5 +57,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实；时间：1633；角色：承担画布、颜料等费用的画家；范围：材料与另一付款令卡是否同一文书仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
-| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实；时间：1633；角色：付款安排所借名义的教皇与赞助权威；范围：文种及与另一付款令卡的同一性仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 514–516; print pp. 13 |
+| → 所涉对象（`has_subject`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 所指材料把卡马塞伊列为承担画布、颜料等费用的画家；与付款令卡是否同一文书仍待原档核实；时间：1633；角色：承担画布、颜料等费用的画家；范围：材料与另一付款令卡是否同一文书仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 514–516; print pp. 13 |
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 所指材料以乌尔班八世名义安排付款／材料责任；文种与另一付款令卡的同一性仍待原档核实；时间：1633；角色：付款安排所借名义的教皇与赞助权威；范围：文种及与另一付款令卡的同一性仍未确认；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 514–516; print pp. 13 |

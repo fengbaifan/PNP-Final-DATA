@@ -184,15 +184,16 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 角色：原书署名作者；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 47–47; 章前：图版目录；印刷页xii |
-| → 委托人（`commissioned_by`） | [皮耶特罗·阿尔多布兰迪尼](../persons/pietro-aldobrandini.md) | 委托关系与原定用途；证据：S2 |
-| → 原定安置地（`intended_for`） | [弗拉斯卡蒂的阿尔多布兰迪尼别墅](../places/villa-aldobrandini-frascati.md) | 原定地不同于后来的实际收藏与陈列位置；证据：S2、S4 |
-| → 取得者（`acquired_by`） | [斯奇皮奥内·博尔盖塞](../persons/cardinal-borghese-ch1.md) | 1617；馆方叙述为强行取走后付款；150斯库多系本画与《库迈女先知》合计，证据：S2 |
-| → 取得者（`acquired_by`） | [意大利王国](../institutions/kingdom-of-italy.md) | 1902年；馆方原称意大利国家；证据：S2 |
-| → 保管者（`held_by`） | [博尔盖塞美术馆](../institutions/galleria-borghese.md) | 馆方当前作品目录；馆藏保管不等于当前法律产权；证据：S2 |
-| → 当前陈列（`located_at`） | [海伦与帕里斯厅，19号厅](../places/room-19-helen-and-paris.md) | 当前馆方目录位置；区别于原定别墅；证据：S2–S3 |
+| → 创作者（`created_by`） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 角色：原书署名作者；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 47–47; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [博尔盖塞别墅（Villa Borghese）](../places/villa-borghese.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 47–47; 章前：图版目录；印刷页xii |
+| → 由其委托（`commissioned_by`） | [皮埃特罗·阿尔多布兰迪尼（Pietro Aldobrandini）](../persons/pietro-aldobrandini.md) | 角色：委托人；范围：博尔盖塞美术馆称作品原为其委托；区分其与后来的取得者Scipione Borghese；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Catalogue entry, paragraphs 1–2 |
+| → 拟用于（`intended_for`） | [阿尔多布兰迪尼别墅（Villa Aldobrandini, Frascati）](../places/villa-aldobrandini-frascati.md) | 角色：原定安置地；范围：原定用途不等于实际安置；Frascati villa与Villa Aldobrandini的地点识别另由地区官方资料支持；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Catalogue entry, paragraphs 1–2; intended destination named as the villa at Frascati |
+| → 由其取得（`acquired_by`） | [希皮奥内·博尔盖塞枢机（Cardinal Scipione Borghese）](../persons/cardinal-borghese-ch1.md) | 时间：1617；角色：取得者；馆方叙述为强行取走后付款；范围：1617年取得；150 scudi是《狄安娜狩猎》与《库迈女先知》两件作品合计，争议的其他付款记载不归并为单件确定价款；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Provenance; Catalogue entry, paragraphs 1–2 |
+| → 由其取得（`acquired_by`） | [意大利王国（Kingdom of Italy）](../institutions/kingdom-of-italy.md) | 时间：1902；角色：取得者；馆方原称意大利国家；范围：1902年“意大利国家”记录按当时存续的意大利王国定位；不表示当前产权；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Provenance: purchased by Italian State, 1902 |
+| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 时间：2026-09-25访问时；角色：馆藏保管机构；范围：依据馆方当前对象目录；不等同法律所有权；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Inventory 053 and Location, current catalogue record |
+| → 位于（`located_at`） | [海伦与帕里斯厅（Room 19, Helen and Paris Room）](../places/room-19-helen-and-paris.md) | 时间：2026-09-25访问时；角色：当前陈列展厅；范围：当前馆方目录所列位置；区别于原定Frascati安置地；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/the-hunting-of-diana)；Object details, Location; confirmed by Galleria Borghese Room 19 page |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版07所列作品；建筑位置不自动转为博物馆产权或创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 47–47; 章前：图版目录；印刷页xii |
+| ← 来源（`source_of`，反向投影） | [狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）](venturini-diana-hunting-print.md) | 角色：原画图像来源；版画与油画为不同作品对象；原断言与证据见发出端卡片“狄安娜与仙女的射箭比赛版画（Diana and Her Nymphs at an Archery Contest）”：[来源](https://id.rijksmuseum.nl/200266316)；src-9d0a3066d1a95c3a；Creation: after painting by Domenichino |
 
 ### 关系候选入口
 

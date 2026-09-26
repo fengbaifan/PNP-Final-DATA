@@ -148,12 +148,12 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [卡斯泰洛城（Città di Castello）](../places/citta-di-castello.md) | 时间：1600；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1656；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
-| → 师从／受训于（`trained_by`） | [朱塞佩·切萨里（Giuseppe Cesari）](giuseppe-cesari.md) | 时间：约1623以后；角色：短期教师；范围：约1623抵罗马后的短期学习；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
-| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 时间：乌尔班八世任期早年起；角色：装饰工程合作者；范围：辞典所载多项装饰工程合作；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
-| → 合作（`collaborated_with`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](romanelli.md) | 时间：1637–1642；角色：壁画合作者；范围：梵蒂冈玛蒂尔达伯爵夫人厅壁画；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；persons-guido-abbatini；出生与师承首段、Romanelli合作段及卒年末句 |
-| ← 所创作对象（`creator_of`，反向投影） | [《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md) | 角色：图版署名作者；范围：原书图版作者署名；不细分未核的设计与刻制职责；原断言与证据见发出端卡片“《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 49–50; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [卡斯泰洛城（Città di Castello）](../places/citta-di-castello.md) | 时间：1600；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1656；角色：去世地点；范围：个人死亡事件；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |
+| → 师从／受训于（`trained_by`） | [朱塞佩·切萨里（Giuseppe Cesari）](giuseppe-cesari.md) | 时间：约1623以后；角色：短期教师；范围：约1623抵罗马后的短期学习；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |
+| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 时间：乌尔班八世任期早年起；角色：装饰工程合作者；范围：辞典所载多项装饰工程合作；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |
+| → 合作（`collaborated_with`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](romanelli.md) | 时间：1637–1642；角色：壁画合作者；范围：梵蒂冈玛蒂尔达伯爵夫人厅壁画；证据：[来源](https://www.treccani.it/enciclopedia/guido-ubaldo-abbatini_(Dizionario-Biografico)/)；src-0aa62f5bce43a2a1；出生与师承首段、Romanelli合作段及卒年末句 |
+| ← 所创作对象（`creator_of`，反向投影） | [《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）](../works/guido-abbatini-frontispiece-of-aedes-barberinae-ad-quirinalem.md) | 角色：图版署名作者；范围：原书图版作者署名；不细分未核的设计与刻制职责；原断言与证据见发出端卡片“《巴贝里尼宫》卷首图（Frontispiece of Aedes Barberinae ad Quirinalem）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 49–50; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

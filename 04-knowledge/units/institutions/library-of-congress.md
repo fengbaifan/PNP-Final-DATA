@@ -90,7 +90,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：出版编目提供者；范围：版权页Library of Congress Cataloging in Publication Data；仅CIP书目编制，不表示保管本件；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；patrons-and-painters；lines 20–29; 未编号版权页；PDF2 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：出版编目提供者；范围：版权页Library of Congress Cataloging in Publication Data；仅CIP书目编制，不表示保管本件；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_01_Title_Copyright.md)；haskell-1980-rev-ed；lines 20–29; 未编号版权页；PDF2 |
 
 ### 关系候选入口
 

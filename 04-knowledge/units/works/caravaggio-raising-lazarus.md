@@ -91,9 +91,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Raising of Lazarus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [墨西拿区域博物馆（Regional Museum of Messina）](../institutions/regional-museum-messina.md) | 当前对象记录将The Raising of Lazarus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；held-by-institutions-regional-museum-messina-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [乔瓦尼·巴蒂斯塔·德·拉扎里（Giovanni Battista de' Lazzari）](../persons/giovanni-battista-de-lazzari.md) | 来源明确该端点承担The Raising of Lazarus的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；commissioned-by-persons-giovanni-battista-de-lazzari-md；本卡S2；有S4时并参委托／历史段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Raising of Lazarus归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；src-66c6f2651968e23a；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [墨西拿区域博物馆（Regional Museum of Messina）](../institutions/regional-museum-messina.md) | 当前对象记录将The Raising of Lazarus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；src-66c6f2651968e23a；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [乔瓦尼·巴蒂斯塔·德·拉扎里（Giovanni Battista de' Lazzari）](../persons/giovanni-battista-de-lazzari.md) | 来源明确该端点承担The Raising of Lazarus的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿拉扎里礼拜堂相关委托；当前馆藏在墨西拿区域博物馆。；证据：[来源](https://en.wikipedia.org/wiki/The_Raising_of_Lazarus_(Caravaggio))；src-66c6f2651968e23a；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

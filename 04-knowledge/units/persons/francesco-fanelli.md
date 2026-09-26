@@ -143,12 +143,12 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1577；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| → 位于（`located_at`） | [热那亚（Genoa）](../places/genoa.md) | 时间：1605–1630；角色：作坊活动城市；范围：家庭作坊；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1632；角色：迁入城市；范围：赴英国宫廷工作；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| → 受其赞助／保护（`patronized_by`） | [查理一世（Charles I）](charles-i.md) | 时间：1632；角色：年金赞助者；范围：Met策展传记的年金记载；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| → 由其任命（`appointed_by`） | [查理一世（Charles I）](charles-i.md) | 时间：1635；角色：王室雕塑家任命者；范围：个人获任官职，不从作品肖像角色推导；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；persons-francesco-fanelli；策展正文首两段；Artwork Details：Artist |
-| ← 所创作对象（`creator_of`，反向投影） | [查理一世肖像（Portrait of Charles I）](../works/francesco-fanelli-charles-i.md) | 角色：原书署名作者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；原断言与证据见发出端卡片“查理一世肖像（Portrait of Charles I）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 80–80; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1577；角色：出生地点；范围：个人出生事件；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| → 位于（`located_at`） | [热那亚（Genoa）](../places/genoa.md) | 时间：1605–1630；角色：作坊活动城市；范围：家庭作坊；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1632；角色：迁入城市；范围：赴英国宫廷工作；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| → 受其赞助／保护（`patronized_by`） | [查理一世（Charles I of England）](charles-i.md) | 时间：1632；角色：年金赞助者；范围：Met策展传记的年金记载；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| → 由其任命（`appointed_by`） | [查理一世（Charles I of England）](charles-i.md) | 时间：1635；角色：王室雕塑家任命者；范围：个人获任官职，不从作品肖像角色推导；证据：[来源](https://www.metmuseum.org/art/collection/search/761114)；src-50d9d02a6fd8726a；策展正文首两段；Artwork Details：Artist |
+| ← 所创作对象（`creator_of`，反向投影） | [查理一世肖像（Portrait of Charles I）](../works/francesco-fanelli-charles-i.md) | 角色：原书署名作者；范围：图版27a；私人收藏署名只支持书中保管语境，不核定当前产权；原断言与证据见发出端卡片“查理一世肖像（Portrait of Charles I）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 80–80; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

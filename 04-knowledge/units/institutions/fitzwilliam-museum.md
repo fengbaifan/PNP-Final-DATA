@@ -74,10 +74,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 角色：保管机构；范围：PD.12-1972保管馆；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Associated departments & institutions、Identification numbers |
-| ← 取得者（`acquirer_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1972；角色：受赠接收馆；范围：1972年赠入，区别旧藏流传及1947拍卖；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；works-carlo-dolci-sir-john-finch；Legal notes、Acquisition and important dates |
-| ← 保管对象（`holder_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 角色：保管机构；范围：PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；首段及Baines标签PD.13-1972 |
-| ← 取得者（`acquirer_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：1972；角色：受赠接收馆；范围：PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| ← 保管对象（`holder_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 角色：保管机构；范围：PD.12-1972保管馆；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；src-9565705b2147bf86；Associated departments & institutions、Identification numbers |
+| ← 取得者（`acquirer_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](../works/carlo-dolci-sir-john-finch.md) | 时间：1972；角色：受赠接收馆；范围：1972年赠入，区别旧藏流传及1947拍卖；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://data.fitzmuseum.cam.ac.uk/id/object/922)；src-9565705b2147bf86；Legal notes、Acquisition and important dates |
+| ← 保管对象（`holder_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 角色：保管机构；范围：PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；首段及Baines标签PD.13-1972 |
+| ← 取得者（`acquirer_of`，反向投影） | [托马斯·贝恩斯（Sir Thomas Baines）](../works/carlo-dolci-sir-thomas-baines.md) | 时间：1972；角色：受赠接收馆；范围：PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构；原断言与证据见发出端卡片“托马斯·贝恩斯（Sir Thomas Baines）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |
 
 ### 关系候选入口
 

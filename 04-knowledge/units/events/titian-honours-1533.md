@@ -68,6 +68,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 参与者（`has_participant`） | [提香（Titian）](../persons/titian.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
-| → 参与者（`has_participant`） | [查理五世（Charles V）](../persons/charles-v.md) | 荣衔授予者为 Charles V；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
-| ← 为其具体实例（`instantiates`，反向投影） | [艺术家荣衔与职位授予（Conferral of titles and offices on artists）](../procedures/artist-title-conferral.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；原断言与证据见发出端卡片“艺术家荣衔与职位授予（Conferral of titles and offices on artists）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| ← 为其具体实例（`instantiates`，反向投影） | [艺术家荣衔与职位授予（Conferral of titles and offices on artists）](../procedures/artist-title-conferral.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；原断言与证据见发出端卡片“艺术家荣衔与职位授予（Conferral of titles and offices on artists）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |
+| → 参与者（`has_participant`） | [提香（Titian）](../persons/titian.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |
+| → 参与者（`has_participant`） | [查理五世（Charles V）](../persons/charles-v.md) | 荣衔授予者为 Charles V；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |

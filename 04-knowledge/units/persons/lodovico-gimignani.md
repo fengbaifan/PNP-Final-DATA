@@ -127,8 +127,8 @@ Zeri关于Gaulli作为Bernini绘画观念传播中介、Fischer Pace关于父亲
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受其赞助／保护（`patronized_by`） | [朱利奥·罗斯皮廖西（Giulio Rospigliosi）](cardinal-rospigliosi-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
-| → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | 赴 Venice 学习的赞助旅行事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
+| → 受其赞助／保护（`patronized_by`） | [朱利奥·罗斯皮廖西（Giulio Rospigliosi）](cardinal-rospigliosi-gimignani.md) | Rospigliosi 送 Gimignani 去威尼斯学习；不展开枢机全名；角色：获资助赴威尼斯学习的画家；范围：枢机全名仍未展开；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
+| → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | 赴 Venice 学习的赞助旅行事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
 
 ### 身份与外部链接
 

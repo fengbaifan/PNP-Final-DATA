@@ -116,11 +116,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：创作者；范围：后续布面复制品；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
-| → 所涉对象（`has_subject`） | [格列高利十五世（Gregory XV）](../persons/gregory-xv.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：肖像对象；范围：后续布面复制品；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
-| → 由其委托（`commissioned_by`） | [万神殿Virtuosi学院](../institutions/accademia-dei-virtuosi-al-pantheon.md) | 时间：1628年绘制；委托日期未载；角色：委托机构；范围：仅此复制品；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
-| → 由其保管（`held_by`） | [万神殿Virtuosi学院](../institutions/accademia-dei-virtuosi-al-pantheon.md) | 时间：馆方页面访问于2026-09-25；DBI称作品仍在原处；角色：收藏／保管机构；不据此推定产权；证据：[学院馆藏页](https://www.accademiavirtuosi.it/collezione/opera?id=134)，Collezione / Dipinti |
-| → 为其版本／复制（`variant_of`） | [格列高利十五世肖像（约1621年原作，已佚）](ottavio-leoni-portrait-of-gregory-xv-original-1621.md) | 时间：1628年复制；原作约1621年；角色：同一肖像的后续布面复制品；范围：两件实物分立；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
+| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：创作者；范围：学院委托的布面复制品；不与约1621年已佚原作合并；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
+| → 所涉对象（`has_subject`） | [格列高利十五世（Gregory XV）](../persons/gregory-xv.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：肖像对象；范围：学院委托的布面复制品；描绘Gregory XV Ludovisi；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
+| → 由其委托（`commissioned_by`） | [万神殿Virtuosi学院（Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon）](../institutions/accademia-dei-virtuosi-al-pantheon.md) | 时间：1628年绘制；独立委托日期未载；角色：委托机构；范围：仅指该布面复制品，不指约1621年佚失原作；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
+| → 由其保管（`held_by`） | [万神殿Virtuosi学院（Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon）](../institutions/accademia-dei-virtuosi-al-pantheon.md) | 时间：官方馆藏页访问日期2026-09-25；DBI称仍在原处；角色：收藏与保管机构；范围：收藏／保管不自动表示产权；证据：[来源](https://www.accademiavirtuosi.it/collezione/opera?id=134)；src-0fd5dbbe756e6a65；Collezione / Dipinti；official address；并参DBI line 48 “ancora in loco” |
+| → 为其版本／复制（`variant_of`） | [格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）](ottavio-leoni-portrait-of-gregory-xv-original-1621.md) | 时间：1628年复制；原作约1621年；角色：同一肖像的后续布面复制品；范围：独立实物与年代，不共享同一作品身份；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
 
 ### 身份与外部链接
 

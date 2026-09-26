@@ -45,8 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《悔罪的抹大拉》（Penitent Magdalene）](../works/caravaggio-penitent-magdalene.md) | 当前对象记录将Penitent Magdalene列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《悔罪的抹大拉》（Penitent Magdalene）”：[来源](https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio))；held-by-institutions-galleria-doria-pamphilj-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [《逃往埃及途中的休息》（Rest on the Flight into Egypt）](../works/caravaggio-rest-flight-egypt.md) | 当前对象记录将Rest on the Flight into Egypt列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《逃往埃及途中的休息》（Rest on the Flight into Egypt）”：[来源](https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio))；held-by-institutions-galleria-doria-pamphilj-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《悔罪的抹大拉》（Penitent Magdalene）](../works/caravaggio-penitent-magdalene.md) | 当前对象记录将Penitent Magdalene列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《悔罪的抹大拉》（Penitent Magdalene）”：[来源](https://en.wikipedia.org/wiki/Penitent_Magdalene_(Caravaggio))；src-90497ebc9367f319；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《逃往埃及途中的休息》（Rest on the Flight into Egypt）](../works/caravaggio-rest-flight-egypt.md) | 当前对象记录将Rest on the Flight into Egypt列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《逃往埃及途中的休息》（Rest on the Flight into Egypt）”：[来源](https://en.wikipedia.org/wiki/Rest_on_the_Flight_into_Egypt_(Caravaggio))；src-8045aeb3d6fabd3c；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

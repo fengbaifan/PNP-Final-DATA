@@ -58,4 +58,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../archives/salviati-medici-letter-1662.md) | 书信作者；1662-07-22；代理人就 Claude 作品购画和定价报告。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 537–540,565–566; print pp. 14 |
+| ← 所著文献（`author_of`，反向投影） | [雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）](../archives/salviati-medici-letter-1662.md) | 书信作者；1662-07-22；代理人就 Claude 作品购画和定价报告。本次依据 Haskell 转引，未读原件；原断言与证据见发出端卡片“雅各布·萨尔维亚蒂致莱奥波尔多·德·美第奇的信（1662-07-22）（Letter from Jacopo Salviati to Leopoldo de’ Medici (1662-07-22)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 537–540,565–566; print pp. 14 |

@@ -68,8 +68,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | Gaulli 的中殿及横翼拱顶工程；八年为给予的工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
-| → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 工程在罗马 Gesù 教堂；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 447–452; print pp. 12 |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | Gaulli 的中殿及横翼拱顶工程；八年为给予的工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 447–452; print pp. 12 |
+| → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 工程在罗马 Gesù 教堂；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 447–452; print pp. 12 |
 
 ### 身份与外部链接
 

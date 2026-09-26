@@ -142,4 +142,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 此处家户成员为 Antonio 的服务组织，非血缘成员；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 195–198; print pp. 7 |
+| ← 包含成员（`contains`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](../persons/andrea-sacchi.md) | 此处家户成员为 Antonio 的服务组织，非血缘成员；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |

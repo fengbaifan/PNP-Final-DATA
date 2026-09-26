@@ -76,7 +76,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | Ferri 的穹顶装饰工程；四年是约定工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
-| → 位于（`located_at`） | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](../places/sant-agnese-piazza-navona.md) | 工程位于 Piazza Navona 的 S. Agnese；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 437–450; print pp. 12 |
-| → 委托人（`commissioned_by`） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | 1670年9月11日合同对象；生卒1648–1709，避免误作同名教皇；证据：[Treccani，Ciro Ferri](https://www.treccani.it/enciclopedia/ciro-ferri_%28Dizionario-Biografico%29/)及[Doria Pamphilj家族传记](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/) |
-| → 家族委托方（`commissioned_by`） | [潘菲利家族（Pamphili family）](../families/pamphili-family.md) | 原书明确该家族对工程委托负责；角色与个人合同对象分开；证据：[原书](../../../02-sources/02-Markdown/01_CHP-1.md)；lines 437–441; print pp. 12 |
+| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | Ferri 的穹顶装饰工程；四年是约定工期；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–450; print pp. 12 |
+| → 由其委托（`commissioned_by`） | [乔万尼·巴蒂斯塔·潘菲利·阿尔多布兰迪尼（Giovanni Battista Pamphilj Aldobrandini）](../persons/giovanni-battista-pamphilj-aldobrandini.md) | Treccani将1670年9月11日合同的G. B. Pamphili明确为合同对象；此人依生卒与家族传承核定为1648–1709年的长子，不是教皇英诺森十世；时间：1670-09-11；角色：合同签订／委托方；范围：穹顶壁画工程，不将合同误配为教皇英诺森十世个人委托；证据：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；1670年9月11日合同段；身份由Doria Pamphilj家族传记核对 |
+| → 由其委托（`commissioned_by`） | [潘菲利家族（Pamphili family）](../families/pamphili-family.md) | 原书明确称Pamfili家族对该穹顶委托负有责任；与个人合同签订者分层记录；时间：1670；角色：负责委托的家族；范围：Sant’Agnese in Agone穹顶壁画工程；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–441; print pp. 12 |
+| → 位于（`located_at`） | [纳沃纳广场圣阿涅塞堂（S. Agnese in Piazza Navona）](../places/sant-agnese-piazza-navona.md) | 工程位于 Piazza Navona 的 S. Agnese；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 437–450; print pp. 12 |

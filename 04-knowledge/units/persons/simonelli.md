@@ -99,9 +99,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 朋友（`friend_of`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 角色：朋友；范围：本书补记p.401称Mola为Simonelli的friend；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；patrons-and-painters；lines 90–91; print p.401 |
-| ← 所创作对象（`creator_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；patrons-and-painters；lines 90–91; print p.401 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 150–151; 章前：图版目录；印刷页xvi |
+| → 朋友（`friend_of`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 角色：朋友；范围：本书补记p.401称Mola为Simonelli的friend；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；lines 90–91; print p.401 |
+| ← 所创作对象（`creator_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 角色：共同创作者；范围：双人漫画共同创作；未指派两人各自绘制哪一人；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；lines 90–91; print p.401 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 角色：描绘人物；范围：图版65a题名中的描绘对象；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 150–151; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

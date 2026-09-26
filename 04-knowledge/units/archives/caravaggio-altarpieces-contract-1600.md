@@ -72,5 +72,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../works/caravaggio-conversion-saint-paul.md) | 合同涉及《圣保罗归化》委托与预先示稿要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
-| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../works/caravaggio-martyrdom-saint-peter.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 397–401,421; print pp. 11 |
+| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣保罗归化》委托（Caravaggio’s Conversion of Saint Paul commission）](../works/caravaggio-conversion-saint-paul.md) | 合同涉及《圣保罗归化》委托与预先示稿要求；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 397–401,421; print pp. 11 |
+| → 所涉对象（`has_subject`） | [卡拉瓦乔《圣彼得殉难》委托（Caravaggio’s Martyrdom of Saint Peter commission）](../works/caravaggio-martyrdom-saint-peter.md) | 同一合同另涉《圣彼得殉难》，不能按两个作品复制两份同一合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 397–401,421; print pp. 11 |

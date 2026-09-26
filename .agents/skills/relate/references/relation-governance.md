@@ -5,14 +5,14 @@
 ## 权威与投影
 
 ```text
-KU frontmatter.relations / claim bindings  正式关系断言
+04-knowledge/tables/relations.csv              S6 关系表与新渲染器输入
+KU frontmatter.relations                      迁移期间保留的卡片对照
 relation-types.yml                         唯一受控词表与 inverse 映射
 relation-index.yml                         可重建 R2 投影
 related / weak_associations                召回或排除信号，不是正式关系
 ```
 
-正式关系必须包含受控 `relation_type`、有效 target，以及能支持该具体关系的
-`evidence_ref` 或 `claim_id`。反向边可以由索引生成，但不得反向改写知识事实。
+S6 正式关系必须包含受控谓词、有效端点和支持该具体关系的证据定位。当前正式边记录在 `relations.csv`；frontmatter.relations 尚保留作迁移核对，不能单独作为新渲染器的输入。反向边可以按词表派生，但不得反向改写知识事实。
 
 关系事实还应按来源实际支持范围保留必要限定：`time` 记录有据日期、年份或区间，`role` 记录参与者在该关系中的具体职责，`scope` 记录作品版本、具体项目或地点作用。没有精确值时不补造字段。谓词本身先区分创作、委托、赞助、师承、合作、朋友、亲缘、成员／雇佣、所有权、保管、安置和一般位置；`note` 用于解释争议与边界，不代替可查询的核心角色。
 
@@ -36,12 +36,10 @@ related / weak_associations                召回或排除信号，不是正式�
 
 ```text
 relation candidate
--> Agent 审查端点、方向、relation_type 与证据范围
--> approved exact apply plan
--> dry-run diff
--> map-driven relation apply
--> relation consistency + index rebuild
--> applied / no_delta / blocked
+-> Agent 审查端点、方向、predicate 与证据范围
+-> 写入 relations.csv；批量写入先 dry-run 与备份
+-> audit_tables.py + audit_relation_consistency.py
+-> preview-first card renderer；经约定确认后再批量写回
 ```
 
 - 批量大小由语义连贯性、写回文件交集和 dry-run 可审阅性动态决定，不设固定5–10条窗口。

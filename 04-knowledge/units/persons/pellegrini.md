@@ -106,10 +106,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 合作（`collaborated_with`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 时间：1709–1710；角色：绘画装饰；范围：共同装饰Castle Howard，非仅同时在英国；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
-| → 位于（`located_at`） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；persons-marco-ricci；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
-| ← 所创作对象（`creator_of`，反向投影） | [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 角色：画家；范围：馆藏4666；原断言与证据见发出端卡片“普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）”：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；works-pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate；作者字段 |
-| ← 所创作对象（`creator_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 角色：素描作者；范围：1874,0808.43；评论1708–1713，宽泛字段1690–1741并存；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；works-pellegrini-pierre-motteux-and-his-family；Producer及Curator’s comments |
+| ← 合作（`collaborated_with`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | 时间：1709–1710；角色：绘画装饰；范围：共同装饰Castle Howard，非仅同时在英国；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| → 位于（`located_at`） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
+| ← 所创作对象（`creator_of`，反向投影） | [普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）](../works/pellegrini-allegory-of-the-education-of-the-crown-prince-of-the-palatinate.md) | 角色：画家；范围：馆藏4666；原断言与证据见发出端卡片“普法尔茨王储教育寓意（Allegory of the Education of the Crown Prince of the Palatinate）”：[来源](https://www.sammlung.pinakothek.de/de/artwork/Y0GRkdB4RX)；src-c86654211af2f74d；作者字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [皮埃尔·莫特及家人（Pierre Motteux and his family）](../works/pellegrini-pierre-motteux-and-his-family.md) | 角色：素描作者；范围：1874,0808.43；评论1708–1713，宽泛字段1690–1741并存；原断言与证据见发出端卡片“皮埃尔·莫特及家人（Pierre Motteux and his family）”：[来源](https://www.britishmuseum.org/collection/object/P_1874-0808-43)；src-f6861f38118b35c0；Producer及Curator’s comments |
 
 ### 关系候选入口
 

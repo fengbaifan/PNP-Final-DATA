@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [皮亚琴察（Piacenza）](piacenza.md) | 教堂名称与城市在委托事例中明确并列定位；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
-| ← 所在地（`location_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 作品定位为 Piacenza 的 S. Antonino 教堂；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 323–326; print pp. 9 |
+| → 位于（`located_at`） | [皮亚琴察（Piacenza）](piacenza.md) | 教堂名称与城市在委托事例中明确并列定位；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 323–326; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）](../works/gavasetti-sant-antonino-frescoes.md) | 作品定位为 Piacenza 的 S. Antonino 教堂；原断言与证据见发出端卡片“加瓦塞蒂皮亚琴察圣安东尼诺司祭席装饰（Gavasetti’s decoration of the presbytery at Sant’Antonino, Piacenza）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 323–326; print pp. 9 |
 
 ### 身份与外部链接
 

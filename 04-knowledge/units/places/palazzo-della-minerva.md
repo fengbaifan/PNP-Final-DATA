@@ -57,4 +57,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [罗马（Rome）](rome.md) | 地址：Piazza della Minerva 38；2026年参议院页面明确列作罗马展览场所；证据：S1、S4 |
+| → 位于（`located_at`） | [罗马（Rome）](rome.md) | 角色：建筑所在城市；范围：Piazza della Minerva 38；与邻接教堂Santa Maria sopra Minerva分别处理；证据：[来源](https://www.senato.it/CESUS/2026/caravaggio/)；src-708610f012c3469e；venue, address and “Roma” designation |
+| ← 所在地（`location_of`，反向投影） | [马费奥·巴贝里尼肖像（Maffeo Barberini）](../works/caravaggio-maffeo-barberini.md) | 时间：2026-05-28–2026-06-21；角色：收购后的临时展出地点；范围：展厅为Palazzo della Minerva内的Sala Capitolare；官网称后续拟移交至Palazzo Barberini，本关系不表示已完成该移交；原断言与证据见发出端卡片“马费奥·巴贝里尼肖像（Maffeo Barberini）”：[来源](https://www.senato.it/CESUS/2026/caravaggio/)；src-708610f012c3469e；exhibition dates and venue; Sala Capitolare, Biblioteca del Senato |

@@ -40,4 +40,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 预定地点（`intended_site_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | Adoration of the Shepherds原定用于该建筑或礼拜堂；时间：1609；角色：原定安置地点；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；intended-for-places-santa-maria-degli-angeli-messina-md；本卡S2；有S4时并参原定安置段 |
+| ← 预定地点（`intended_site_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | Adoration of the Shepherds原定用于该建筑或礼拜堂；时间：1609；角色：原定安置地点；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参原定安置段 |

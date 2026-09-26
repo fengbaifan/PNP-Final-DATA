@@ -66,7 +66,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其收藏／拥有（`owned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源支持该端点在所列时期收藏或拥有Christ on the Mount of Olives；不等于当前保管；时间：17世纪至1812；角色：朱斯蒂尼亚尼收藏；范围：朱斯蒂尼亚尼收藏记录支持对象同一性，但作者真实性有争议；不建立确定创作者边。；证据：[来源](https://en.wikipedia.org/wiki/Christ_on_the_Mount_of_Olives_(Caravaggio))；owned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参流传段 |
+| → 由其收藏／拥有（`owned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源支持该端点在所列时期收藏或拥有Christ on the Mount of Olives；不等于当前保管；时间：17世纪至1812；角色：朱斯蒂尼亚尼收藏；范围：朱斯蒂尼亚尼收藏记录支持对象同一性，但作者真实性有争议；不建立确定创作者边。；证据：[来源](https://en.wikipedia.org/wiki/Christ_on_the_Mount_of_Olives_(Caravaggio))；src-fc5e0284234efd86；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

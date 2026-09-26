@@ -68,7 +68,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 收藏者／所有者（`owner_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 时间：原书所记旧藏时期，具体起止未载；角色：旧藏者；范围：原书formerly Vitale Bloch collection；不是当前所有权；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 150–151; 章前：图版目录；印刷页xvi |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）](../works/mola-joint-caricature-of-simonelli-and-mola.md) | 时间：原书所记旧藏时期，具体起止未载；角色：旧藏者；范围：原书formerly Vitale Bloch collection；不是当前所有权；原断言与证据见发出端卡片“西莫内利与莫拉联合漫画（Joint caricature of Simonelli and Mola）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 150–151; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

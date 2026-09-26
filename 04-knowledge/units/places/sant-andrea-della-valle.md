@@ -149,7 +149,7 @@ S4 书目列 Howard Hibbard，*The Early History of Sant’Andrea della Valle*�
 ## 关系与证据
 
 ### 关系记录
-暂无正式关系。
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
 
 ### 身份与外部链接
 

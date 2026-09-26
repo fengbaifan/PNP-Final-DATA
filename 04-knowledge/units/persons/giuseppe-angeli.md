@@ -108,9 +108,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 合作（`collaborated_with`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](piazzetta.md) | 时间：1745年时点；角色：作坊负责人；范围：1745年画背自述负责Piazzetta作坊，限定作坊工作；证据：[来源](https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/)；persons-giuseppe-angeli；生平首段：1745年画背direttore della bottega del Piazzetta |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：生年可能1709；1798卒；角色：出生／去世；范围：出生与去世均为威尼斯，生年保留可能与卒年来源归属；证据：[来源](https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/)；persons-giuseppe-angeli；首段Nacque a Venezia及Morì a Venezia, secondo il Moschini, nel 1798 |
-| ← 所创作对象（`creator_of`，反向投影） | [弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）](../works/marco-pitteri-flaminio-corner.md) | 角色：原设计者；from Giuseppe Angeli；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → 合作（`collaborated_with`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](piazzetta.md) | 时间：1745年时点；角色：作坊负责人；范围：1745年画背自述负责Piazzetta作坊，限定作坊工作；证据：[来源](https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/)；src-dd5214f53828ed3b；生平首段：1745年画背direttore della bottega del Piazzetta |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：生年可能1709；1798卒；角色：出生／去世；范围：出生与去世均为威尼斯，生年保留可能与卒年来源归属；证据：[来源](https://www.treccani.it/enciclopedia/giuseppe-angeli_(Dizionario-Biografico)/)；src-dd5214f53828ed3b；首段Nacque a Venezia及Morì a Venezia, secondo il Moschini, nel 1798 |
+| ← 所创作对象（`creator_of`，反向投影） | [弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）](../works/marco-pitteri-flaminio-corner.md) | 角色：原设计者；from Giuseppe Angeli；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

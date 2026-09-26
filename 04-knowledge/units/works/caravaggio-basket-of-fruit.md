@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Basket of Fruit归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：年代在研究中有1596至1601等不同判断，本卡不压成无争议精确年。；证据：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [安布罗西亚纳画廊（Pinacoteca Ambrosiana）](../institutions/pinacoteca-ambrosiana.md) | 当前对象记录将Basket of Fruit列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；held-by-institutions-pinacoteca-ambrosiana-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Basket of Fruit归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：年代在研究中有1596至1601等不同判断，本卡不压成无争议精确年。；证据：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；src-686b416aa7663314；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [安布罗西亚纳画廊（Pinacoteca Ambrosiana）](../institutions/pinacoteca-ambrosiana.md) | 当前对象记录将Basket of Fruit列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；src-686b416aa7663314；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

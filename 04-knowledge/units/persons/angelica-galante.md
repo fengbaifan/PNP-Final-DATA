@@ -89,9 +89,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ↔ 配偶（`spouse_of`） | [Pietro Bernini](pietro-bernini.md) | 1594年时已经结婚；结婚年份未载；S1，line 33 |
-| → 母亲（`parent_of`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | Treccani DBI直接列为其母；S2，line 29 |
-| → 母亲（`parent_of`） | [Luigi Bernini](luigi-bernini.md) | Treccani DBI直接列为其母；S3，line 28 |
+| → 配偶（`spouse_of`） | [彼得罗·贝尔尼尼（Pietro Bernini）](pietro-bernini.md) | 时间：1594年时已为夫妻；结婚年份未载；角色：妻子；范围：Pietro Bernini与Angelica Galante的婚姻；证据：[来源](https://www.treccani.it/enciclopedia/pietro-bernini_(Dizionario-Biografico)/)；src-35ed32c6d2f8f2ed；line 33: Pietro于1594年与妻子Angelica返回佛罗伦萨 |
+| → parent_of（`parent_of`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 角色：母亲；范围：Gian Lorenzo Bernini的母亲；证据：[来源](https://www.treccani.it/enciclopedia/gian-lorenzo-bernini_(Dizionario-Biografico)/)；src-6ab3ad2e229ce124；line 29: ‘di Angelica Galante’ |
+| → parent_of（`parent_of`） | [路易吉·贝尔尼尼（Luigi Bernini）](luigi-bernini.md) | 角色：母亲；范围：Luigi Bernini的母亲；证据：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘Figlio di Pietro e di Angelica Galante’ |
 
 ### 身份与外部链接
 

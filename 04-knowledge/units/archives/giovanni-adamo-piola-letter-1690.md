@@ -58,5 +58,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）](../persons/giovanni-adamo-piola.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；证据：[来源](https://archive.org/details/diletteresulla06bott)；bottari-ticozzi-letter-collection-v6；vol. VI, letter XXVII, pp. 147–148 |
-| → 致函（`addressed_to`） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../persons/paolo-girolamo-piola.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 354–356,376; print pp. 10 |
+| → 作者（`authored_by`） | [列支敦士登亲王约翰·亚当·安德烈亚斯一世（Johann Adam Andreas I, Prince of Liechtenstein）](../persons/giovanni-adamo-piola.md) | 刊本脚注明确作者为列支敦士登家族摄政亲王 Giovanni Adamo，即 Johann Adam Andreas；信末署 Feltspeg，1690-02-03；证据：[来源](https://archive.org/details/diletteresulla06bott)；src-be4131a2155339e4；vol. VI, letter XXVII, pp. 147–148 |
+| → 致函（`addressed_to`） | [保罗·杰罗拉莫·皮奥拉（Paolo Gerolamo Piola）](../persons/paolo-girolamo-piola.md) | 委托信所向画家为 Paolo Girolamo Piola；时间：1690；角色：受邀画家／收信对象；范围：住宿与服务条件协商；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 354–356,376; print pp. 10 |

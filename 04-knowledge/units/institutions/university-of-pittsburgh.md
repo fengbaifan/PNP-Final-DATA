@@ -75,8 +75,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [匹兹堡（Pittsburgh）](../places/pittsburgh.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.english.pitt.edu/history-department/1787/1787-1819-overview)；institutions-university-of-pittsburgh；Department of English院系页脚Pittsburgh,PA |
-| ← 雇主（`employer_of`，反向投影） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 角色：艺术史教授；范围：校方教师页面任职身份；未补造任期；原断言与证据见发出端卡片“安·萨瑟兰·哈里斯（Ann Sutherland Harris）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；persons-ann-sutherland-harris；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| ← 雇主（`employer_of`，反向投影） | [安·萨瑟兰·哈里斯（Ann Sutherland Harris）](../persons/ann-sutherland-harris.md) | 角色：艺术史教授；范围：校方教师页面任职身份；未补造任期；原断言与证据见发出端卡片“安·萨瑟兰·哈里斯（Ann Sutherland Harris）”：[来源](https://www.haa.pitt.edu/people/ann-sutherland-harris)；src-c35e42093d8bd72c；完整教师页面：研究、教育、项目与出版清单；未下载CV |
+| → 位于（`located_at`） | [匹兹堡（Pittsburgh）](../places/pittsburgh.md) | 时间：来源访问时点2026-09-15；角色：主要所在地；范围：机构所在城市；不以单一城市概括全部异地教学场所；证据：[来源](https://www.english.pitt.edu/history-department/1787/1787-1819-overview)；src-5b65fa4e919f2047；Department of English院系页脚Pittsburgh,PA |
 
 ### 关系候选入口
 

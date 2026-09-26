@@ -58,5 +58,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 时间：1941；角色：出版商；范围：本次核对的英文第三十三卷版本；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页出版项；PDF第7页 |
-| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1941；角色：出版活动地；范围：题名页所示该出版商的出版活动地点；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页出版项；PDF第7页 |
+| → 位于（`located_at`） | [伦敦（London）](../places/london.md) | 时间：1941；角色：出版活动地；范围：题名页所示该出版商的出版活动地点；证据：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页出版项；PDF第7页 |
+| ← publisher_of（`publisher_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 时间：1941；角色：出版商；范围：本次核对的英文第三十三卷版本；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页出版项；PDF第7页 |

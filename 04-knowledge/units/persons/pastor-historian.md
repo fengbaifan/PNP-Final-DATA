@@ -74,7 +74,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 角色：原作者；范围：题名页原作者；英文译者另列；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；archives-pastor-popes-english-vol33；题名页；PDF第7页 |
+| ← 所著文献（`author_of`，反向投影） | [帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）](../archives/pastor-popes-english-vol33.md) | 角色：原作者；范围：题名页原作者；英文译者另列；原断言与证据见发出端卡片“帕斯托教皇史英文版第三十三卷（Pastor's history of the popes, English edition, volume XXXIII）”：[来源](https://archive.org/download/historyofpopesfr33past/historyofpopesfr33past.pdf)；src-eccb67f76f68ffe1；题名页；PDF第7页 |
 
 ### 关系候选入口
 

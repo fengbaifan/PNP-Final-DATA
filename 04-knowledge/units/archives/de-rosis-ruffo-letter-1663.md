@@ -66,6 +66,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [朱塞佩·德·罗西斯（Giuseppe de Rosis）](../persons/giuseppe-de-rosis.md) | 书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1663-09-22；代理人对罗萨的评价；时间：1663-09-22；角色：收信人；范围：代理人对Salvator Rosa的评价；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 971–972; print pp. 23 |
-| → 所涉对象（`has_subject`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 代理人在信中评价罗萨宁愿挨饿也不降低作品声誉；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 957–972; print pp. 23 |
+| → 作者（`authored_by`） | [朱塞佩·德·罗西斯（Giuseppe de Rosis）](../persons/giuseppe-de-rosis.md) | 书信作者；1663-09-22；代理人对罗萨的评价。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 971–972; print pp. 23 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1663-09-22；代理人对罗萨的评价；时间：1663-09-22；角色：收信人；范围：代理人对Salvator Rosa的评价；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 971–972; print pp. 23 |
+| → 所涉对象（`has_subject`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 代理人在信中评价罗萨宁愿挨饿也不降低作品声誉；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 957–972; print pp. 23 |

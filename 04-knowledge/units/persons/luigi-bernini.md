@@ -116,11 +116,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 父亲（`child_of`，反向投影） | [Pietro Bernini](pietro-bernini.md) | Treccani DBI明确称Luigi为Pietro之子；S1，line 28 |
-| → 母亲（`child_of`，反向投影） | [Angelica Galante](angelica-galante.md) | Treccani DBI明确称Luigi为Angelica之子；S1，line 28 |
-| ↔ 兄弟（`sibling_of`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | Treccani DBI明确称Luigi为Gian Lorenzo的弟弟；S1，line 28 |
-| → 师从（`trained_by`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | 原语称其为Gian Lorenzo的学生；具体起始年未载；S1，line 28 |
-| ↔ 合作（`collaborated_with`） | [Gian Lorenzo Bernini](gian-lorenzo-bernini.md) | 时间及范围：圣彼得华盖（1620年代）；Sant’Agostino天使像（1626–1628）；圣彼得及Palazzo Chigi建筑工程的代行工作（1665）；S1，lines 28–32 |
+| ← child_of（`child_of`，反向投影） | [安杰莉卡·加兰特（Angelica Galante）](angelica-galante.md) | 角色：母亲；范围：Luigi Bernini的母亲；原断言与证据见发出端卡片“安杰莉卡·加兰特（Angelica Galante）”：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘Figlio di Pietro e di Angelica Galante’ |
+| → sibling_of（`sibling_of`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 角色：弟弟；范围：Gian Lorenzo Bernini的弟弟；证据：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘fratello minore di Gian Lorenzo’ |
+| → 师从／受训于（`trained_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 角色：学生；工作室助手；范围：家族艺术传承与职业训练；具体入门年份未载；证据：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘Scolaro di Gian Lorenzo’ |
+| → 合作（`collaborated_with`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](gian-lorenzo-bernini.md) | 时间：1620年代至1665年；单项工程日期见scope；角色：工作室助手、工程合作者及代行者；范围：圣彼得大教堂华盖（1620年代，具体起始年份未载）；Sant’Agostino主祭坛一尊天使像（1626–1628）；Bernini赴法期间代行圣彼得大教堂与Palazzo Chigi建筑工程（1665）；证据：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；lines 28–32: 圣彼得华盖、1626–1628年Sant’Agostino天使像，以及1665年代行建筑工程 |
+| ← child_of（`child_of`，反向投影） | [彼得罗·贝尔尼尼（Pietro Bernini）](pietro-bernini.md) | 角色：父亲；范围：Luigi Bernini的父亲；原断言与证据见发出端卡片“彼得罗·贝尔尼尼（Pietro Bernini）”：[来源](https://www.treccani.it/enciclopedia/luigi-bernini_(Dizionario-Biografico)/)；src-4c3611ebf9394872；line 28: ‘Figlio di Pietro’ |
 
 ### 身份与外部链接
 

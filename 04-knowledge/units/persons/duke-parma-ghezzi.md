@@ -61,4 +61,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明；角色：gentiluomo d’onore荣衔授予者；范围：授予者全名及日期未明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 771–773; print pp. 19 |
+| → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明；角色：gentiluomo d’onore荣衔授予者；范围：授予者全名及日期未明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 771–773; print pp. 19 |

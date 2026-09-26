@@ -54,4 +54,4 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 儿子（`parent_of`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](francesco-fontana.md) | Tavernari称Francesco为Tommaso之子；时间未载；印刷页66 |
+| → parent_of（`parent_of`） | [弗朗切斯科·丰塔纳（Francesco Fontana）](francesco-fontana.md) | 角色：父亲；范围：Tommaso Fontana与其子Francesco Fontana；证据：[来源](https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf)；印刷页 66：suo figlio Francesco |

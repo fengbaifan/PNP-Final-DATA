@@ -93,6 +93,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 主要人物每位 130 ducats，排除背景人物；原断言与证据见发出端卡片“多梅尼科·赞皮耶里（Domenico Zampieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
-| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 同段记每位主要人物 100 ducats，不能误作 130；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 498–502; print pp. 13 |
-| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80；原断言与证据见发出端卡片“乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 548–552,569–570; print pp. 14 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [多梅尼科·赞皮耶里（Domenico Zampieri）](../persons/domenichino.md) | 主要人物每位 130 ducats，排除背景人物；原断言与证据见发出端卡片“多梅尼科·赞皮耶里（Domenico Zampieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 498–502; print pp. 13 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](../persons/giovanni-lanfranco.md) | 同段记每位主要人物 100 ducats，不能误作 130；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 498–502; print pp. 13 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](../persons/guercino.md) | 1649 年对 Antonio Ruffo 报主要人物每位 125 ducats，拒绝 80；原断言与证据见发出端卡片“乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 548–552,569–570; print pp. 14 |

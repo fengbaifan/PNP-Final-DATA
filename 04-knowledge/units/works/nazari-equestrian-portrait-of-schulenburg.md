@@ -87,9 +87,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [巴托洛梅奥·纳扎里（Bartolomeo Nazari）](../persons/b-nazari.md) | 时间：1733委托；角色：画家；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
-| → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：委托人；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
-| → 所涉对象（`has_subject`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：骑马肖像人物；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；works-nazari-equestrian-portrait-of-schulenburg；1733年Schulenburg委托骑马肖像段 |
+| → 创作者（`created_by`） | [巴托洛梅奥·纳扎里（Bartolomeo Nazari）](../persons/b-nazari.md) | 时间：1733委托；角色：画家；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；src-abd19c2a6c9a7d99；1733年Schulenburg委托骑马肖像段 |
+| → 由其委托（`commissioned_by`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：委托人；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；src-abd19c2a6c9a7d99；1733年Schulenburg委托骑马肖像段 |
+| → 所涉对象（`has_subject`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：1733委托；角色：骑马肖像人物；范围：辞典所记失传骑马肖像；证据：[来源](https://www.treccani.it/enciclopedia/bartolomeo-nazari_res-1dbdf466-03ed-11e7-b5f4-00271042e8d9_(Dizionario-Biografico)/)；src-abd19c2a6c9a7d99；1733年Schulenburg委托骑马肖像段 |
 
 ### 关系候选入口
 

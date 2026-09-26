@@ -48,8 +48,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [皮埃特罗·泰斯塔（Pietro Testa）](pietro-testa.md) | 角色：庇护与服务关系；范围：早期罗马时期；另有债务与未付作品背景；原断言与证据见发出端卡片“皮埃特罗·泰斯塔（Pietro Testa）”：[来源](https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/)；silvia-bruno-testa-pietro-detto-il-lucchesino-dizionario-biografico-degli-italiani-95-2019；lines 29–30, 35–37 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 角色：描绘对象；范围：馆藏题名明确的漫画肖像人物；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；works-bernini-caricature-of-cassiano-dal-pozzo；Title |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [皮埃特罗·泰斯塔（Pietro Testa）](pietro-testa.md) | 角色：庇护与服务关系；范围：早期罗马时期；另有债务与未付作品背景；原断言与证据见发出端卡片“皮埃特罗·泰斯塔（Pietro Testa）”：[来源](https://www.treccani.it/enciclopedia/testa-pietro-detto-il-lucchesino_(Dizionario-Biografico)/)；src-d65ee15682f2df92；lines 29–30, 35–37 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）](../works/bernini-caricature-of-cassiano-dal-pozzo.md) | 角色：描绘对象；范围：馆藏题名明确的漫画肖像人物；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐漫画（Caricature of Cassiano dal Pozzo）”：[来源](https://www.boijmans.nl/en/collection/artworks/58489/caricature-portarit-of-cassiano-dal-pozzo)；src-fdc16559073471d6；Title |
 
 ### 关系候选入口
 

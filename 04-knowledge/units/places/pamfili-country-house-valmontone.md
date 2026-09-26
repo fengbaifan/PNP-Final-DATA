@@ -88,8 +88,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
-| ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 四元素装饰所处的建筑，与作品已有城市层级定位并存；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 312–313; print pp. 9 |
+| → 位于（`located_at`） | [瓦尔蒙托内（Valmontone）](valmontone.md) | 建筑位于 Valmontone，建筑与城市分别建模；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 312–313; print pp. 9 |
+| ← 所在地（`location_of`，反向投影） | [莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）](../works/mola-four-elements-valmontone.md) | 四元素装饰所处的建筑，与作品已有城市层级定位并存；原断言与证据见发出端卡片“莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elements fresco programme at Valmontone）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 312–313; print pp. 9 |
 
 ### 身份与外部链接
 

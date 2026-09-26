@@ -56,9 +56,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 借入者／借阅者（`borrower_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：1964起，所引馆藏记录；角色：借入机构；范围：Streit.1自1964年借存；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；works-amigoni-sigismund-streit；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
-| ← 保管对象（`holder_of`，反向投影） | [《爱神战胜一切》（Amor Vincit Omnia）](../works/caravaggio-amor-vincit-omnia.md) | 当前对象记录将Amor Vincit Omnia列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《爱神战胜一切》（Amor Vincit Omnia）”：[来源](https://id.smb.museum/object/862322)；held-by-institutions-gemaeldegalerie-berlin-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 1815年入柏林收藏，战后失踪并被馆方推测1945年毁失；时间：1815–1945；角色：历史保管机构；范围：第一版；现已失踪／推测毁失；原断言与证据见发出端卡片“《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）”：[来源](https://id.smb.museum/object/870411)；held-by-institutions-gemaeldegalerie-berlin-md；对象说明全文 |
+| ← 借入者／借阅者（`borrower_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：1964起，所引馆藏记录；角色：借入机构；范围：Streit.1自1964年借存；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；src-92917519320c0cc2；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| ← 保管对象（`holder_of`，反向投影） | [《爱神战胜一切》（Amor Vincit Omnia）](../works/caravaggio-amor-vincit-omnia.md) | 当前对象记录将Amor Vincit Omnia列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《爱神战胜一切》（Amor Vincit Omnia）”：[来源](https://id.smb.museum/object/862322)；src-62b8f42b89265c6e；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）](../works/caravaggio-giustiniani-rejected-altarpiece.md) | 1815年入柏林收藏，战后失踪并被馆方推测1945年毁失；时间：1815–1945；角色：历史保管机构；范围：第一版；现已失踪／推测毁失；原断言与证据见发出端卡片“《圣马太与天使》（第一版）（Saint Matthew and the Angel (first version)）”：[来源](https://id.smb.museum/object/870411)；src-fef346c780e3de39；对象说明全文 |
 
 ### 身份与外部链接
 

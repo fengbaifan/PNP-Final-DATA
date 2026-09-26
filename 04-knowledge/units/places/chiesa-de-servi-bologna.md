@@ -64,8 +64,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [博洛尼亚（Bologna）](bologna.md) | 教堂在 Bologna；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
-| ← 所在地（`location_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | 指定为 Bologna 的 Chiesa de’ Servi 祭坛画；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 515–516; print pp. 13 |
+| → 位于（`located_at`） | [博洛尼亚（Bologna）](bologna.md) | 教堂在 Bologna；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 515–516; print pp. 13 |
+| ← 所在地（`location_of`，反向投影） | [阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）](../works/albani-servi-altarpiece-1639.md) | 指定为 Bologna 的 Chiesa de’ Servi 祭坛画；原断言与证据见发出端卡片“阿尔巴尼《圣安德烈朝拜殉道十字架》（Saint Andrew Adoring the Cross of Martyrdom）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 515–516; print pp. 13 |
 
 ### 身份与外部链接
 

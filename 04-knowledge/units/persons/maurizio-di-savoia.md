@@ -122,8 +122,8 @@ S6列都灵国家档案馆王家书信、王族人物卷、O. Moreno《Istoria�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 发布者（`issuer_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 173–175,188–189; print pp. 6 |
-| → 任命者（`appointer_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 188–189; print pp. 6 |
+| → 任命者（`appointer_of`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](gio-gasparo-baldoini.md) | 任命 Baldoini 为 per nostro pittore，本章脚注引述任命；角色：per nostro pittore任命者；范围：本章脚注所引任命；日期未知；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 188–189; print pp. 6 |
+| ← 发布者（`issuer_of`，反向投影） | [毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）](../archives/baldoini-painter-appointment.md) | 任用者为毛里齐奥·迪·萨伏依；文书签署日期仍未知；角色：任命者；范围：任命Baldoini为per nostro pittore；文书日期未知；原断言与证据见发出端卡片“毛里齐奥任命巴尔多伊诺为本府画家的文字（Maurice of Savoy’s appointment of Baldoino as his painter）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 173–175,188–189; print pp. 6 |
 
 ### 身份与外部链接
 

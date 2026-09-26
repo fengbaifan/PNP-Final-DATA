@@ -40,4 +40,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：机构所在地；不以1900年前期活动冒充开馆年；原断言与证据见发出端卡片“休斯敦美术馆（The Museum of Fine Arts, Houston）”：[来源](https://www.mfah.org/about/history)；institutions-museum-of-fine-arts-houston；From Aspiration to Major Art Museum及页脚Houston,TX |
+| ← 所在地（`location_of`，反向投影） | [休斯敦美术馆（The Museum of Fine Arts, Houston）](../institutions/museum-of-fine-arts-houston.md) | 时间：来源访问时点2026-09-15；角色：所在城市；范围：机构所在地；不以1900年前期活动冒充开馆年；原断言与证据见发出端卡片“休斯敦美术馆（The Museum of Fine Arts, Houston）”：[来源](https://www.mfah.org/about/history)；src-6dd5731a98033a92；From Aspiration to Major Art Museum及页脚Houston,TX |

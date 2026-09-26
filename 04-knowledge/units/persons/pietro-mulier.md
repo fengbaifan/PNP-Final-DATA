@@ -102,7 +102,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受其赞助／保护（`patronized_by`） | [布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulier’s patron)）](duke-bracciano-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 231–233; print pp. 7 |
+| → 受其赞助／保护（`patronized_by`） | [布拉恰诺公爵（穆利耶尔的雇主）（Duke of Bracciano (Mulier’s patron)）](duke-bracciano-mulier.md) | 未具名布拉恰诺公爵通过持续委托与保护挽留Mulier，最后仍准许离开；本边不补猜具体公爵；角色：受保护并接受委托的画家；范围：未具名布拉恰诺公爵以新委托劝留、最终准许离开；公爵身份未决；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 231–233; print pp. 7 |
 
 ### 身份与外部链接
 

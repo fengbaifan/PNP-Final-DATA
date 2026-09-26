@@ -99,8 +99,8 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [剑桥特纳摄影商号（Turners of Cambridge）](../institutions/turners-of-cambridge.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 171–172; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [皮埃特罗·泰斯塔（Pietro Testa）](../persons/pietro-testa.md) | 角色：原书图版署名创作者；范围：图版18a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 71–71; 章前：图版目录；印刷页xiii |
+| → 由其供应（`supplied_by`） | [剑桥特纳摄影商号（Turners of Cambridge）](../institutions/turners-of-cambridge.md) | 仅在本书Turners of Cambridge署名粒度确认；未确认具体法律实体；角色：本书复制图像供片者；范围：《赞助人与画家》图版18a的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 171–172; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [皮埃特罗·泰斯塔（Pietro Testa）](../persons/pietro-testa.md) | 角色：原书图版署名创作者；范围：图版18a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 71–71; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

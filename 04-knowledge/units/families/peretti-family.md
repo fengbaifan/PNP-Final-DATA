@@ -90,8 +90,8 @@ Testa 记 Alessandro 的 famiglia 在 1612 年达 170 人，随后列举受雇�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](../persons/alessandro-peretti-montalto.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；dbi-peretti-damasceni；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
-| ← 包含成员（`contains`，反向投影） | [西斯笃五世（Sixtus V）](../persons/sixtus-v.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；原断言与证据见发出端卡片“西斯笃五世（Sixtus V）”：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；peretti-family-wikipedia-it；佩雷蒂家族卡 S4；Storia 与谱系表 |
+| ← 包含成员（`contains`，反向投影） | [亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）](../persons/alessandro-peretti-montalto.md) | 母系传名后采用佩雷蒂姓；成员身份不把其170人家户误作亲族；原断言与证据见发出端卡片“亚历山德罗·佩雷蒂—蒙塔尔托（Alessandro Peretti-Montalto）”：[来源](https://www.treccani.it/enciclopedia/alessandro-peretti-damasceni_(Dizionario-Biografico)/)；src-8ebc5e1cc39b73bc；佩雷蒂家族卡 S6；开篇亲缘与改姓段 |
+| ← 包含成员（`contains`，反向投影） | [西斯笃五世（Sixtus V）](../persons/sixtus-v.md) | 世俗名费利切·佩雷蒂，属于佩雷蒂家族；教皇身份另列；原断言与证据见发出端卡片“西斯笃五世（Sixtus V）”：[来源](https://it.wikipedia.org/w/index.php?oldid=152330894)；src-cc313278d7dde884；佩雷蒂家族卡 S4；Storia 与谱系表 |
 
 ### 身份与外部链接
 

@@ -134,5 +134,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 参与事件（`participated_in`，反向投影） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
-| ← 获其授予荣衔（`honoured_by`，反向投影） | [查理五世（Charles V）](charles-v.md) | 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世（Charles V）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| ← 获其授予荣衔（`honoured_by`，反向投影） | [查理五世（Charles V）](charles-v.md) | 1533 年授予多项伯爵尊号；本边不承认捡画笔逸事为事实；时间：1533；角色：荣衔授予者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世（Charles V）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |
+| ← 参与事件（`participated_in`，反向投影） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 荣衔接受者为 Titian；时间：1533；角色：荣衔接受者；范围：Count Palatine等荣衔；不采捡画笔逸事；原断言与证据见发出端卡片“查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |

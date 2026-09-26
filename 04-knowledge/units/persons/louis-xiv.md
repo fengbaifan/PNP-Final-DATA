@@ -76,8 +76,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：王室庇护；范围：1703–1705，巴黎；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 43–46 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 154–155; 章前：图版目录；印刷页xvi |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：王室庇护；范围：1703–1705，巴黎；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 43–46 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）](../works/baldassare-franceschini-fame-carrying-the-name-of-louis-xiv-to-the-temple-of-immortality.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；原断言与证据见发出端卡片“声名携路易十四之名入不朽殿堂（Fame carrying the name of Louis XIV to the Temple of Immortality）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 154–155; 章前：图版目录；印刷页xvi |
 
 ### 身份与外部链接
 

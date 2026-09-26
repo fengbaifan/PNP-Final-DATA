@@ -67,6 +67,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [利奥内·帕斯科利（Lione Pascoli）](../persons/pascoli.md) | 未刊传记署名；本次未读手稿；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
-| → 位于（`located_at`） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
-| → 所涉对象（`has_subject`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 这篇未刊传记的传主为 Trevisani；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 236–237; print pp. 7 |
+| → 作者（`authored_by`） | [利奥内·帕斯科利（Lione Pascoli）](../persons/pascoli.md) | 未刊传记署名；本次未读手稿；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
+| → 位于（`located_at`） | [奥古斯塔图书馆（Biblioteca Augusta）](../institutions/biblioteca-augusta.md) | 本书记录 Perugia MS.1383，未核今日馆藏状态；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](../persons/francesco-trevisani.md) | 这篇未刊传记的传主为 Trevisani；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |

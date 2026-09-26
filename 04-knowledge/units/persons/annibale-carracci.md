@@ -138,7 +138,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；wikipedia-lanfranco；本卡 S3；Biography中early training与Roman workshop段 |
+| ← 教师（`teacher_of`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；本卡 S3；Biography中early training与Roman workshop段 |
 
 ### 身份与外部链接
 

@@ -75,8 +75,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·萨尔维（Giovanni Battista Salvi）](../persons/sassoferrato.md) | 角色：原书署名作者；范围：图版21b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 74–74; 章前：图版目录；印刷页xiii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版21b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 74–74; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·萨尔维（Giovanni Battista Salvi）](../persons/sassoferrato.md) | 角色：原书署名作者；范围：图版21b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 74–74; 章前：图版目录；印刷页xiii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版21b；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 74–74; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

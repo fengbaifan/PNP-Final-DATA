@@ -1,0 +1,31 @@
+﻿chapter,segment_id,disposition,migration_status,source_line_ranges,note
+chp-1,chp-1:01_CHP-1_intro:l1-1,excluded,complete,,分节文件自动生成的标题行，不属于原书来源文本。
+chp-1,chp-1:01_CHP-1_intro:l3-5,reviewed,complete,L1-14,章前 Part I / Rome 标题页；Rome 地名提及已迁移，无独立断言。
+chp-1,chp-1:01_CHP-1_intro:l7-9,reviewed,complete,L1-14,no_semantic_content: 章名和页码元数据；未含需登记的独立实体提及或断言。
+chp-1,chp-1:01_CHP-1_intro:l11-13,reviewed,complete,L45-48,脚注提及与引用/书目断言已按 OCR L45-48 迁移；Hervey 保留缩引待核。
+chp-1,chp-1:01_CHP-1_sec_i:l1-1,excluded,complete,,分节OCR文件标题，格式元数据；不含本书实体或断言
+chp-1,chp-1:01_CHP-1_sec_i:l3-13,reviewed,complete,L15-25;L26-34;L35-44;L53-55,提及与断言已逐项对照原始OCR行 L15-44、L53-55；Pope 职务称谓已补录，泛指复数 Popes/nephews 不作为个体实体提及。
+chp-1,chp-1:01_CHP-1_sec_i:l15-24,reviewed,complete,L35-44;L53-55;L56-70;L71-83;L84-88;L101-110,逐项复核32条提及、14条断言；覆盖名字、职务称谓、地名派生群体、nepotism 概念和匿名角色边界。引文均锚定原始OCR；L101-110职业路径续文的两条断言放在实际承接文本的 l26-33 段。
+chp-1,chp-1:01_CHP-1_sec_i:l26-33,reviewed,complete,L101-141,24 条提及及 L101-141 的 8 条断言已迁移；L147-152 的引文续句归入承载正文的 l35-36。
+chp-1,chp-1:01_CHP-1_sec_i:l35-36,reviewed,complete,L147-152,Peretti-Montalto 引文续句与新教堂赞助人画像、古教堂中的现代绘画断言已迁移；原引文通过 Panciroli 经 Ortolani 转引。
+chp-1,chp-1:01_CHP-1_sec_i:l38-47,reviewed,complete,L89-95;L142-142;L178-185;L186-189,脚注提及及书内断言已按原 OCR 行 L89-95、L142、L178-189 迁移；保留转引链、证词语气、OCR/PDF异文和 Cardinal Pio、Montalto 等未决身份。
+chp-1,chp-1:01_CHP-1_sec_ii:l1-1,excluded,complete,,分节OCR文件标题，格式元数据；不含本书实体或断言
+chp-1,chp-1:01_CHP-1_sec_ii:l3-8,reviewed,complete,L153-177,市场中介、展览出售、servitù particolare、资助旅行与宫廷职位断言已迁移；滑动晋升句续文归入 l10-17。
+chp-1,chp-1:01_CHP-1_sec_ii:l10-17,reviewed,complete,L195-228,逐段提及与断言已迁移至 OCR L195–228；L227–228 的未完句保留片段并交由 l19-26 承接，不将 L242–251 或脚注 L229–237 错挂本段。
+chp-1,chp-1:01_CHP-1_sec_ii:l19-26,reviewed,complete,L242-277,迁入 OCR L242–277 的职业阶段、独立委托与合同、场所和尺寸协商断言；L274–277 的监督句保留未完状态并续接 l28-38。L224–228 仅作前段语境，不重复归属本段；脚注不在本段。
+chp-1,chp-1:01_CHP-1_sec_ii:l28-38,reviewed,complete,L274-277;L288-319;L320-322,迁入委托控制、合同细节、Guercino 祭坛画指示与追问、世俗题材咨询、Mola《四元素》及 Air 图像选择、价格句前半。宗教画控制句承接前段；价格句由 l40-46 续完；脚注首例 L321–322 归本段；余下 L323–330 归脚注汇聚段。分节转录“his to Turnus”依合并 OCR L319 校作“Iris to Turnus”，保留异文说明。
+chp-1,chp-1:01_CHP-1_sec_ii:l40-46,reviewed,complete,L320-321;L335-371,迁入前段续来的全身人物计价与 Urban VIII 八人祭坛画，并完成 L339–371 移动画廊市场、Giustiniani 购入 Caravaggio 被拒祭坛画、Adamo 对 Piola 的题材授权，以及曼图亚 Samson 系列与 del Carpio 绘画主题委托。匿名画作、Marchese 身份和 Mantua 公爵身份均保留未决。
+chp-1,chp-1:01_CHP-1_sec_ii:l48-60,reviewed,complete,L382-414,迁入艺术家声誉与委托态度、Valentin 匿名画作委托、modello 与素描的监督用途、Caravaggio 1600 设计条款、Rubens 1606 Chiesa Nuova 委托及 Lanfranco 提议展示 in tela il disegno。L413–414 关于博洛尼亚画家 modello 的未完句登记为片段，续文归 l62-71。Valentin 全名、匿名委托者及 Cardinal Barberini 身份不据此推定。
+chp-1,chp-1:01_CHP-1_sec_ii:l62-71,reviewed,complete,L430-460,补完 l48-60 中“Pietro da Cortona”未完句，并迁入 modello 在十七世纪后半的传播及 Gaulli/Genoa、Wittkower 对罗马大壁画时段的引文、Ferri 1670 S. Agnese 彩色 modello 条款、Pamfili 家族、草图欣赏与收藏、工期与延误、Ferri/Gaulli 工期、Holy Year、快速画家与奖惩。Gaulli 的引入作用和草图欣赏因果均保留推测语气。
+chp-1,chp-1:01_CHP-1_sec_ii:l73-77,reviewed,complete,L478-502,迁入定金、分期付款、尾款与奖金、壁画月付、画布/颜料费用及其变化、脚手架与异地食宿、Pamfili 对 Mola 的 Valmontone 供给、按主要人物计价与 Domenichino/Lanfranco 例证。L498–502 在脚注前的“However”转折登记为未完，后续 L528–552 归下一段；不把 130 ducats 误配给 Lanfranco。
+chp-1,chp-1:01_CHP-1_sec_ii:l79-84,reviewed,complete,L528-561,补完主要人物计价句并区分 Domenichino/Lanfranco 报价；迁入客户等级与 Mancini 观点、Mantua/Reni 1617 委托、Guidotti、Claude 报价、Cardinal Leopoldo de’ Medici 经纪人、曼图亚代理人预付款信、Guercino 125/80 ducats 个案，以及 Rome 转为国际中心的片段。Reni 作品未认定完成，Duke of Mantua 和匿名信件双方身份未推定；L553–561 的 Rome 段续文归 l86-94。
+chp-1,chp-1:01_CHP-1_sec_ii:l86-94,reviewed,complete,L575-609; L611-612,迁移罗马艺术市场与家族财力风险、工作室存画和议价、Valguarnera 访问 Lanfranco/Poussin 并委托未具名作品、Rosa 待售作品与买家选择、艺术交易及展览兴起。Lanfranco 两幅草图作为待确认作品；Barberini 家族与既有家户机构分开。排除 L610 页间标记及 L613-615 脚注；L611-612 末句续至 l96-104。
+chp-1,chp-1:01_CHP-1_sec_ii:l96-104,reviewed,complete,L620-656,迁移 L612 跨页续句、艺术家地位与文艺复兴崇拜、罗马都会结构、Malvasia 对保禄五世的归语、Bernini 的社会权威与艺术家地位转变、Platonism 与 genius 观，以及 L656 的收入段开头。Malvasia 归语保留正文限定；L656 未完句续至 l106-116。
+chp-1,chp-1:01_CHP-1_sec_ii:l106-116,reviewed,complete,L656-656;L668-698;L704-712,迁移 Bernini、Maratta 与 Gaulli 价格比较和艺术声望论述；Accademia di S. Luca 的社会地位动因、Zuccari 复兴尝试、Paul V/Gregory XV/Urban VIII 措施、Francesco Barberini 保护人与1633征税；另录 Bellori 对 Maratta 的评价。脚注699–703转由脚注段承载，不重复；公共委托排他权的后续撤回归 l118-127。
+chp-1,chp-1:01_CHP-1_sec_ii:l118-127,reviewed,complete,L717-752,补入原OCR L717–722 的学院公共委托排他措施撤回、财务利益与成员社会地位论述；并迁移L723–752的早期成员范围、法式教条化、社会礼仪与Maratta委托抱怨。L751–752的未完句续至l129-135；脚注与后续逸事归相应段。
+chp-1,chp-1:01_CHP-1_sec_ii:l129-135,reviewed,complete,L763-797,完成 l118-127 的 L751-752 未完句；迁移 Ridolfi/Charles V/Titian 模式、Cardinal Barberini 身份待定的镜像逸事、Innocent X/Mola 与 Queen Christina/Ghezzi 故事，区分象征性与作者认为较可信的叙述。另迁入艺术家荣衔、Lauri 学习、Passeri 职业话语及艺术家自画像解释；保留 Duke of Parma 个人身份未明。
+chp-1,chp-1:01_CHP-1_sec_ii:l137-146,reviewed,complete,L811-846,迁移贫困画家与新手入市、bentveughels/Schildersbent组织及1623?日期、学院抗税、Via Margutta/Piazza di Spagna居住、Pieter Van Laer双重成员，以及Andrea Pozzo与Mario de’ Fiori的家庭社会流动例证。Pieter Van Laer被S0边界拆开，Laer续名归 l148-153。L847-853 Procaccini脚注归 l168-239；L858-861的Carlone婚姻例证归 l148-153。
+chp-1,chp-1:01_CHP-1_sec_ii:l148-153,reviewed,complete,L858-893,迁移 Carlone 婚姻例证、艺术家家庭传承与 Rome/Venice 地位比较、合同按人物计价和艺术家作为工匠的作者判断、艺术家 temperament 概念及 Paul V/Guido Reni 归语限定、1676年 Perugini 引语。末句 L893 接入下一页 L905；L894-900 脚注归 l168-239。
+chp-1,chp-1:01_CHP-1_sec_ii:l155-159,reviewed,complete,L882-893;L905-926;L927-943;L944-947;L952-958,迁移Rosa的传说与历史形象、自我宣传/展览/喝彩者组织、创作独立、拒定金与按成品质量定价；1666年致Antonio Ruffo的引语经Haskell转引。Compagnia della Morte作传说处理；跨页后半句L952-958归l161-166。
+chp-1,chp-1:01_CHP-1_sec_ii:l161-166,reviewed,complete,L927-943;L952-958;L959-970,迁移Rosa能力不可预先评估、匿名代理人的评价、Baldinucci后世评价及十九世纪浪漫接受；“无真正追随者”限于改变赞助格局，不抹去Ferri与Luti脚注的局部相似。L927-943承接l155-159。
+chp-1,chp-1:01_CHP-1_sec_ii:l168-239,reviewed,complete,L229-237;L278-283;L323-330;L372-377;L415-425;L461-468;L469-472;L503-508;L509-513;L514-523;L562-570;L657-662;L699-703;L753-758;L796-806;L847-853;L894-900;L971-980,脚注语义汇聚段；逐行核对覆盖的OCR脚注范围并补录具名人物、地点、机构、作品、档案与引用来源；L321–322首例归l28-38，L323–330归本段。身份未定保留候选；ibid与章节定位不另造实体。迁移完整不等于独立召回验收。

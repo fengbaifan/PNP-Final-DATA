@@ -86,5 +86,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所在地（`located_at`） | [普罗维登斯（Providence）](../places/providence.md) | 官方访问指南以Providence火车站定位博物馆；S2 |
-| ← 保管（`held_by`，反向投影） | [烛光下的马达莱娜·泰利肖像](../works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md) | 对象52.195，1952年入藏；不表示法律产权；原断言见作品卡S1 |
+| → 位于（`located_at`） | [普罗维登斯（Providence）](../places/providence.md) | 角色：博物馆所在地；证据：[来源](https://risdmuseum.org/hours-admission)；src-9b37c931d2c21ce6；Getting Here：博物馆地址及Providence train station |
+| ← 保管对象（`holder_of`，反向投影） | [烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）](../works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md) | 时间：1952年入藏；馆藏记录访问于2026-09-25；角色：当前保管机构；范围：馆藏记录所列对象52.195；不据此断言当前法律所有权；原断言与证据见发出端卡片“烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）”：[来源](https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195)；src-a1801a0540e76324；Credit、Object Number、Provenance：对象52.195，1952年赠予RISD Museum |

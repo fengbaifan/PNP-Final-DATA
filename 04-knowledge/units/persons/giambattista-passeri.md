@@ -163,7 +163,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/)；dbi-passeri；本卡 S10；1638年学院登记段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1638年6月12日加入学院；当前依据DBI对学院登记的引用，原登记未亲阅；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-battista-passeri_(Dizionario-Biografico)/)；src-f077147fae9cb50f；本卡 S10；1638年学院登记段 |
 
 ### 身份与外部链接
 

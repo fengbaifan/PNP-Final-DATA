@@ -95,8 +95,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1712；角色：出生；范围：出生地；证据：[来源](https://www.nationalgallery.org.uk/artists/francesco-guardi)；persons-francesco-guardi；人物年代与传记第2段Francesco Guardi was born in Venice |
-| ← 所创作对象（`creator_of`，反向投影） | [约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）](../works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 148–149; 章前：图版目录；印刷页xvi |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1712；角色：出生；范围：出生地；证据：[来源](https://www.nationalgallery.org.uk/artists/francesco-guardi)；src-8bb590e874912dcd；人物年代与传记第2段Francesco Guardi was born in Venice |
+| ← 所创作对象（`creator_of`，反向投影） | [约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）](../works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“约翰·斯特兰奇别墅景观（View of John Strange's villa at Paese near Treviso）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 148–149; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

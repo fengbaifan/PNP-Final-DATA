@@ -40,4 +40,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：出版者；范围：所列版本出版项；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；archives-torcellan-andrea-memmo-1963；完整书目、作者规范与馆藏字段；未读书正文 |
+| ← publisher_of（`publisher_of`，反向投影） | [18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）](../archives/torcellan-andrea-memmo-1963.md) | 时间：1963；角色：出版者；范围：所列版本出版项；原断言与证据见发出端卡片“18世纪威尼斯人物：安德烈亚·梅莫（An Eighteenth-Century Venetian Figure: Andrea Memmo）”：[来源](https://www.bibliothek-oechslin.ch/einfachesuche.php?Oui=Oui&Showtime=011679565)；src-505405d8b35fcc3e；完整书目、作者规范与馆藏字段；未读书正文 |

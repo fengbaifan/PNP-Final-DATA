@@ -80,5 +80,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [托马斯·科克（Thomas Coke，阿伦德尔家户通信者）](../persons/mr-coke-rome-correspondent.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
-| → 致函（`addressed_to`） | [托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arundel）](../persons/lord-arundell-coke-correspondent.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 40–55; print pp. 3–4 |
+| → 作者（`authored_by`） | [托马斯·科克（Thomas Coke，阿伦德尔家户通信者）](../persons/mr-coke-rome-correspondent.md) | 书信作者；1620-10-08；经 Hervey 转引。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 40–55; print pp. 3–4 |
+| → 致函（`addressed_to`） | [托马斯·霍华德，阿伦德尔伯爵（Thomas Howard, Earl of Arundel）](../persons/lord-arundell-coke-correspondent.md) | 书信收信人；1620-10-08；经 Hervey 转引；时间：1620-10-08；角色：收信人；范围：经Hervey转引的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 40–55; print pp. 3–4 |

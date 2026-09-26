@@ -91,6 +91,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#salva
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [朱塞佩·德·罗西斯](../persons/giuseppe-de-rosis.md) | 1916刊本署名；S3 pp.168–169 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福](../persons/antonio-ruffo.md) | 1916刊本列明收信人；S3 p.169 |
-| → 所涉作品（`has_subject`） | [与少女嬉戏的萨提尔](../works/salvator-rosa-satyrs-carousing-with-maidens.md) | 附件记5×5 palmi、萨提尔与女子；脚注(1)称画单由Rosa制作；现存Bonhams lot 26画布是否同一仍待核；S3 p.169 |
+| → 作者（`authored_by`） | [朱塞佩·德·罗西斯（Giuseppe de Rosis）](../persons/giuseppe-de-rosis.md) | 时间：1663-06-02；角色：letter writer；范围：the letter carrying Rosa's attached sale note, as published in 1916; manuscript not located；证据：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed pp. 168–169; closing, date Rome 2 June 1663 and signature Giuseppe de Rosis |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 时间：1663-06-02；角色：addressee；范围：the letter carrying Rosa's attached sale note; distinct from the 22 September 1663 letter cited by Haskell；证据：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed p. 169; addressee D. Antonio Ruffo following the dated and signed letter |
+| → 所涉对象（`has_subject`） | [与少女嬉戏的萨提尔（Satyrs Carousing with Maidens）](../works/salvator-rosa-satyrs-carousing-with-maidens.md) | 时间：1663-06-02；角色：painting described in the attached sale note；范围：does not establish that the note's painting is the same physical canvas later catalogued as Bonhams lot 26；证据：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed p. 169, sales note and footnotes (1)–(2): 5-by-5-palmi painting; Rosa-authored note; Ruffo purchase note |

@@ -62,5 +62,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../persons/valentin.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；证据：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；louvre-valentin-inv1418；瓦朗坦人物卡 S7；完整对象记录 |
-| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 列支敦士登王室收藏记录确认Fabrizio Valguarnera于1631年在罗马委托此作；第一章只写‘one collector’，不以原书匿名表述反推姓名；时间：1631；角色：委托人；范围：本作品委托；姓名来自馆藏记录，非原书匿名表述；证据：[来源](https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin)；liechtenstein-frohliche-gesellschaft；本卡 S2；对象、1631委托与来源沿革 |
+| → 创作者（`created_by`） | [瓦朗坦·德·布洛涅（Valentin de Boulogne）](../persons/valentin.md) | 卢浮宫对象记录确认瓦朗坦为现存作品作者；第一章所述委托要求与对象识别分层记录；证据：[来源](https://collections.louvre.fr/en/ark:/53355/cl010062321)；瓦朗坦人物卡 S7；完整对象记录 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 列支敦士登王室收藏记录确认Fabrizio Valguarnera于1631年在罗马委托此作；第一章只写‘one collector’，不以原书匿名表述反推姓名；时间：1631；角色：委托人；范围：本作品委托；姓名来自馆藏记录，非原书匿名表述；证据：[来源](https://www.liechtensteincollections.at/sammlungen-online/froehliche-gesellschaft-mit-wahrsagerin)；src-427b5d976c30e01d；本卡 S2；对象、1631委托与来源沿革 |

@@ -138,7 +138,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 预定地点（`intended_site_of`，反向投影） | [《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）](../works/caravaggio-madonna-palafrenieri.md) | Madonna and Child with Saint Anne (Madonna dei Palafrenieri)原定用于该建筑或礼拜堂；时间：1605–1606；角色：原定安置地点；范围：原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。；原断言与证据见发出端卡片“《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)；intended-for-places-st-peters-basilica-md；本卡S2；有S4时并参原定安置段 |
+| ← 预定地点（`intended_site_of`，反向投影） | [《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）](../works/caravaggio-madonna-palafrenieri.md) | Madonna and Child with Saint Anne (Madonna dei Palafrenieri)原定用于该建筑或礼拜堂；时间：1605–1606；角色：原定安置地点；范围：原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。；原断言与证据见发出端卡片“《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)；src-f6feb49dde36cd50；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

@@ -64,6 +64,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
-| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读；时间：1672-09-19；角色：收信人；范围：关于拒绝预付及事务繁多的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
-| → 所涉对象（`has_subject`） | [创作独立（Artistic independence）](../terms/artistic-independence.md) | 费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 974–978; print pp. 23 |
+| → 作者（`authored_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 书信作者；1672-09-19；拒预付须与事务繁多的理由并读。本次依据 Haskell 转引，未读原件；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 974–978; print pp. 23 |
+| → 致函（`addressed_to`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 书信收信人；1672-09-19；拒预付须与事务繁多的理由并读；时间：1672-09-19；角色：收信人；范围：关于拒绝预付及事务繁多的书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 974–978; print pp. 23 |
+| → 所涉对象（`has_subject`） | [创作独立（Artistic independence）](../terms/artistic-independence.md) | 费里称不收预付以保持自由，但同时说明事务繁多；作为局部平行例，不等同罗萨完整立场；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 974–978; print pp. 23 |

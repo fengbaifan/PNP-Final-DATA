@@ -65,8 +65,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《玫瑰经圣母》（Madonna of the Rosary）](../works/caravaggio-madonna-rosary.md) | 当前对象记录将Madonna of the Rosary列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《玫瑰经圣母》（Madonna of the Rosary）”：[来源](https://www.khm.at/objektdb/detail/425/)；held-by-institutions-kunsthistorisches-museum-md；本卡S2；有S4时并参对象字段 |
-| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
+| ← 保管对象（`holder_of`，反向投影） | [《玫瑰经圣母》（Madonna of the Rosary）](../works/caravaggio-madonna-rosary.md) | 当前对象记录将Madonna of the Rosary列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《玫瑰经圣母》（Madonna of the Rosary）”：[来源](https://www.khm.at/objektdb/detail/425/)；src-adf0fa5f58794070；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
 
 ### 身份与外部链接
 

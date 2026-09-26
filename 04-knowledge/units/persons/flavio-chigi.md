@@ -69,7 +69,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 赞助者／保护人（`patron_of`） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 282–283; print pp. 8 |
+| → 赞助者／保护人（`patron_of`） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 282–283; print pp. 8 |
 
 ### 身份与外部链接
 

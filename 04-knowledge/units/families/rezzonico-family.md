@@ -50,7 +50,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 角色：颂扬家族；范围：原书婚姻寓意题名；不据家族题名推定具体新人身份或婚姻双方；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 116–117; 章前：图版目录；印刷页xiv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 角色：颂扬家族；范围：原书婚姻寓意题名；不据家族题名推定具体新人身份或婚姻双方；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 116–117; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口
 

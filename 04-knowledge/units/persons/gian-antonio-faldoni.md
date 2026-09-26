@@ -96,9 +96,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → influenced_by（`influenced_by`） | [克洛德·梅朗（Claude Mellan）](claude-mellan.md) | 角色：版画技术研习；范围：在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；persons-gian-antonio-faldoni；早年学习段：在巴黎研究Claude Mellan版画 |
-| ← 教师（`teacher_of`，反向投影） | [马尔科·阿尔维塞·皮泰里（Marco Alvise Pitteri）](marco-pitteri.md) | 角色：刻版学习；范围：DBI明称suo allievo Marco Pitteri；不以技术相似代替师承；原断言与证据见发出端卡片“马尔科·阿尔维塞·皮泰里（Marco Alvise Pitteri）”：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；persons-gian-antonio-faldoni；传记师生纠纷段：suo allievo Marco Pitteri |
-| ← 所创作对象（`creator_of`，反向投影） | [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../works/gian-antonio-faldoni-zaccaria-sagredo.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → influenced_by（`influenced_by`） | [克洛德·梅朗（Claude Mellan）](claude-mellan.md) | 角色：版画技术研习；范围：在巴黎学习Mellan的版画；Mellan早于Faldoni出生去世，不成立亲授师承；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；src-8a2aba0dcfccb875；早年学习段：在巴黎研究Claude Mellan版画 |
+| ← 教师（`teacher_of`，反向投影） | [马尔科·阿尔维塞·皮泰里（Marco Alvise Pitteri）](marco-pitteri.md) | 角色：刻版学习；范围：DBI明称suo allievo Marco Pitteri；不以技术相似代替师承；原断言与证据见发出端卡片“马尔科·阿尔维塞·皮泰里（Marco Alvise Pitteri）”：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；src-8a2aba0dcfccb875；传记师生纠纷段：suo allievo Marco Pitteri |
+| ← 所创作对象（`creator_of`，反向投影） | [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../works/gian-antonio-faldoni-zaccaria-sagredo.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

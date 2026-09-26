@@ -124,9 +124,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [休·昂纳（Hugh Honour）](../persons/hugh-honour.md) | 角色：书评作者；范围：本书导言所称Hugh Honour书评；非已读书评原件；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–177; 章前：第二版导言；印刷页xvii |
-| → 所涉对象（`has_subject`） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：所评著作；范围：书评所评著作；评价经Haskell转述；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 176–177; 章前：第二版导言；印刷页xvii |
-| → 组成部分（`part_of`） | [阿波罗期刊（Apollo）](apollo-periodical.md) | 时间：1963-12；角色：刊载期刊；范围：本书脚注定位Apollo 1963年12月，页码未补造；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 187–187; 章前：第二版导言；印刷页xvii |
+| → 作者（`authored_by`） | [休·昂纳（Hugh Honour）](../persons/hugh-honour.md) | 角色：书评作者；范围：本书导言所称Hugh Honour书评；非已读书评原件；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 176–177; 章前：第二版导言；印刷页xvii |
+| → 所涉对象（`has_subject`） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：所评著作；范围：书评所评著作；评价经Haskell转述；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 176–177; 章前：第二版导言；印刷页xvii |
+| → 组成部分（`part_of`） | [阿波罗期刊（Apollo）](apollo-periodical.md) | 时间：1963-12；角色：刊载期刊；范围：本书脚注定位Apollo 1963年12月，页码未补造；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 187–187; 章前：第二版导言；印刷页xvii |
 
 ### 关系候选入口
 

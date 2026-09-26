@@ -135,7 +135,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [耶稣会（Jesuits）](../institutions/jesuits.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；证据：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；dbi-pozzo；本卡 S6；入会与誓愿段 |
+| → 隶属／任职于（`member_of`） | [耶稣会（Jesuits）](../institutions/jesuits.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；证据：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；src-2642ba9e6dd62200；本卡 S6；入会与誓愿段 |
 
 ### 身份与外部链接
 

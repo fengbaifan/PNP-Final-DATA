@@ -202,15 +202,15 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配对作品（`pendant_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](carlo-dolci-sir-john-finch.md) | 角色：配对肖像；范围：馆方明确两肖像成对；单侧记录，反向导航；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-john-finch；首段及两件作品标签 |
-| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版30b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 168–169; 章前：图片来源；印刷页xvi |
-| → 创作者（`created_by`） | [卡洛·多尔奇（Carlo Dolci）](../persons/carlo-dolci.md) | 时间：约1665–1670；角色：画家；范围：PD.13-1972贝恩斯肖像；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Baines |
-| → 所涉对象（`has_subject`） | [托马斯·贝恩斯（Thomas Baines）](../persons/thomas-baines.md) | 角色：描绘对象；范围：PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Sir Thomas Baines |
-| → 由其委托（`commissioned_by`） | [约翰·芬奇（John Finch）](../persons/john-finch.md) | 时间：驻佛罗伦萨期间；作品约1665–1670；角色：委托人；范围：Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；The paintings’ current labels：Finch的commissioned段 |
-| → 由其保管（`held_by`） | [菲茨威廉博物馆（Fitzwilliam Museum）](../institutions/fitzwilliam-museum.md) | 角色：保管机构；范围：PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；首段及Baines标签PD.13-1972 |
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1665–1670；角色：创作城市；范围：贝恩斯肖像创作城市；不表示现藏地点；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；Baines标签：This portrait was painted in Florence |
-| → 由其取得（`acquired_by`） | [菲茨威廉博物馆（Fitzwilliam Museum）](../institutions/fitzwilliam-museum.md) | 时间：1972；角色：受赠接收馆；范围：PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；works-carlo-dolci-sir-thomas-baines；Baines标签：Given by the National Art-Collections Fund, 1972 |
-| → 由其贡献（`contributed_by`） | [国家艺术收藏基金（National Art Collections Fund）](../institutions/national-art-collections-fund.md) | 时间：1972；角色：赠出机构；范围：将PD.13-1972赠入菲茨威廉博物馆；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；institutions-national-art-collections-fund；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| ← 配对作品（`pendant_of`，反向投影） | [约翰·芬奇爵士肖像（Portrait of Sir John Finch）](carlo-dolci-sir-john-finch.md) | 角色：配对肖像；范围：馆方明确两肖像成对；单侧记录，反向导航；原断言与证据见发出端卡片“约翰·芬奇爵士肖像（Portrait of Sir John Finch）”：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；首段及两件作品标签 |
+| → 由其供应（`supplied_by`） | [皇家艺术研究院（Royal Academy of Arts）](../institutions/royal-academy.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版30b的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 168–169; 章前：图片来源；印刷页xvi |
+| → 创作者（`created_by`） | [卡洛·多尔奇（Carlo Dolci）](../persons/carlo-dolci.md) | 时间：约1665–1670；角色：画家；范围：PD.13-1972贝恩斯肖像；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Baines |
+| → 所涉对象（`has_subject`） | [托马斯·贝恩斯（Thomas Baines）](../persons/thomas-baines.md) | 角色：描绘对象；范围：PD.13-1972题名所指人物，区别芬奇肖像PD.12-1972；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Sir Thomas Baines |
+| → 由其委托（`commissioned_by`） | [约翰·芬奇（John Finch）](../persons/john-finch.md) | 时间：驻佛罗伦萨期间；作品约1665–1670；角色：委托人；范围：Finch标签明确同时委托其本人及Baines肖像；本边只指PD.13-1972；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；The paintings’ current labels：Finch的commissioned段 |
+| → 由其保管（`held_by`） | [菲茨威廉博物馆（Fitzwilliam Museum）](../institutions/fitzwilliam-museum.md) | 角色：保管机构；范围：PD.13-1972，网页介绍其在馆内Gallery 3；与供片机构Royal Academy不同；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；首段及Baines标签PD.13-1972 |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：1665–1670；角色：创作城市；范围：贝恩斯肖像创作城市；不表示现藏地点；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：This portrait was painted in Florence |
+| → 由其取得（`acquired_by`） | [菲茨威廉博物馆（Fitzwilliam Museum）](../institutions/fitzwilliam-museum.md) | 时间：1972；角色：受赠接收馆；范围：PD.13-1972，馆方标签记1972年由National Art-Collections Fund赠入；本边仅表达接收机构；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |
+| → 由其贡献（`contributed_by`） | [国家艺术收藏基金（National Art Collections Fund）](../institutions/national-art-collections-fund.md) | 时间：1972；角色：赠出机构；范围：将PD.13-1972赠入菲茨威廉博物馆；证据：[来源](https://www.museums.cam.ac.uk/magic/finch-and-baines)；Baines标签：Given by the National Art-Collections Fund, 1972 |
 
 ### 关系候选入口
 

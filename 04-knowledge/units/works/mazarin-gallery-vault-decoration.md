@@ -115,11 +115,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](../persons/romanelli.md) | 时间：1646–1647绘画工程；角色：主持绘画；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
-| → 创作者（`created_by`） | [保罗·吉斯蒙迪（Paolo Gismondi）](../persons/paolo-gismondi.md) | 时间：1646–1647绘画工程；角色：作坊绘画参与者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
-| → 创作者（`created_by`） | [奥塔维亚诺·奥托维亚尼（Ottaviano Ottoviani）](../persons/ottaviano-ottoviani.md) | 角色：镀金灰泥责任者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
-| → 由其委托（`commissioned_by`） | [朱尔·马扎然（Jules Mazarin）](../persons/mazarin.md) | 角色：宫殿装饰委托者；范围：马扎然宫上层画廊装饰；不把1644年建筑扩建委托等同绘画完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
-| → 安置于（`installed_at`） | [马扎然画廊（Galerie Mazarine）](../places/galerie-mazarin.md) | 角色：上层画廊穹顶；范围：壁画与镀金灰泥整体所在空间；《罗慕路斯与雷穆斯》局部是否属于本整体另待核；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；works-mazarin-gallery-vault-decoration；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| → 创作者（`created_by`） | [乔万尼·弗朗切斯科·罗马内利（Giovanni Francesco Romanelli）](../persons/romanelli.md) | 时间：1646–1647绘画工程；角色：主持绘画；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| → 创作者（`created_by`） | [保罗·吉斯蒙迪（Paolo Gismondi）](../persons/paolo-gismondi.md) | 时间：1646–1647绘画工程；角色：作坊绘画参与者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| → 创作者（`created_by`） | [奥塔维亚诺·奥托维亚尼（Ottaviano Ottoviani）](../persons/ottaviano-ottoviani.md) | 角色：镀金灰泥责任者；范围：上层画廊装饰整体的分工；1646–1647仅明确用于壁画，未细化灰泥完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| → 由其委托（`commissioned_by`） | [朱尔·马扎然（Jules Mazarin）](../persons/mazarin.md) | 角色：宫殿装饰委托者；范围：马扎然宫上层画廊装饰；不把1644年建筑扩建委托等同绘画完工日期；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| → 安置于（`installed_at`） | [马扎然画廊（Galerie Mazarine）](../places/galerie-mazarin.md) | 角色：上层画廊穹顶；范围：壁画与镀金灰泥整体所在空间；《罗慕路斯与雷穆斯》局部是否属于本整体另待核；证据：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
 
 ### 关系候选入口
 

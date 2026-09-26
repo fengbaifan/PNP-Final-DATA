@@ -77,6 +77,6 @@ sources:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配偶（`spouse_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 1594年结婚；结束时间未载；原断言与Treccani证据见Orazio卡 |
-| → 母亲（`parent_of`） | [Ludovico Ludovisi（枢机）](ludovico-ludovisi.md) | Treccani称其为Ludovico之母；S2 |
-| → 母亲（`parent_of`） | [Niccolò Ludovisi](niccolo-ludovisi.md) | Treccani称其为Niccolò之母；S3 |
+| → parent_of（`parent_of`） | [卢多维科·卢多维西（Ludovico Ludovisi）](ludovico-ludovisi.md) | 时间：自1595年起（Ludovico出生年）；角色：mother；范围：儿子为Cardinal Ludovico Ludovisi；证据：[来源](https://www.treccani.it/enciclopedia/ludovico-ludovisi_(Dizionario-Biografico)/)；opening paragraph; line 24: firstborn son of Orazio and Lavinia Albergati |
+| → parent_of（`parent_of`） | [尼科洛·卢多维西（Niccolò Ludovisi）](niccolo-ludovisi.md) | 时间：自1610年起（Niccolò出生年）；角色：mother；范围：儿子为Piombino亲王Niccolò Ludovisi，非Niccolò Albergati-Ludovisi；证据：[来源](https://www.treccani.it/enciclopedia/niccolo-ludovisi_(Dizionario-Biografico)/)；src-57bfba0d91516d6a；opening paragraph; line 28: Niccolò born to Orazio and Lavinia Albergati |
+| ← 配偶（`spouse_of`，反向投影） | [奥拉齐奥·卢多维西（Orazio Ludovisi）](orazio-ludovisi.md) | 时间：自1594年起；婚姻终止时间未载；角色：husband；范围：Orazio Ludovisi与Lavinia Albergati的婚姻；原断言与证据见发出端卡片“奥拉齐奥·卢多维西（Orazio Ludovisi）”：[来源](https://www.treccani.it/enciclopedia/orazio-ludovisi_(Dizionario-Biografico)/)；src-f39c00a355690e17；family paragraph; lines 28 and 38: wife Lavinia Albergati, married in 1594 |

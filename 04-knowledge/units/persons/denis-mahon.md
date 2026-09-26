@@ -109,8 +109,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；patrons-and-painters；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
-| ← 收藏者／所有者（`owner_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 467–468; print pp. 12 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）](../works/sacchi-capuchin-altarpiece-modello.md) | 本书记录时属于 Mahon 收藏，不延伸到今天；角色：本书记录时的收藏者；范围：历史收藏状态；不延伸到今天；原断言与证据见发出端卡片“萨基罗马嘉布遣会教堂祭坛稿（Sacchi’s modello for a Roman Capuchin church altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 467–468; print pp. 12 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：阅读并改进打字稿；范围：第一版序言对具体文字工作的致谢；不指后续所有版本；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 24–24; 章前：第一版序言；印刷页ix；PDF 7 |
 
 ### 身份与外部链接
 

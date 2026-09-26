@@ -1,4 +1,4 @@
-# 《赞助人与画家》知识系统
+﻿# 《赞助人与画家》知识系统
 
 项目初始化版本：0.1.0。第一章作为知识元与知识图谱样例，进度见[第一章当前结果](04-knowledge/results/patrons-and-painters-chp-1.md)；章前材料已完成摄入、处理并进行知识元登记，见[章前当前结果](04-knowledge/results/patrons-and-painters-front-matter.md)。第六章后置，知识涌现与页面暂停；未接收内容不计作有效成果。
 
@@ -20,7 +20,7 @@ flowchart LR
   G -.用户启动第二部分.-> I
 ```
 
-第一部分按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。关系候选在语义处理时同步记录，随后在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。过渡期说明：S0–S6 产物的目标存放地是 `04-knowledge/tables/`，但目前 `build_tables.py` 仍从卡片 frontmatter 与 `accepted.yml` 导出这些表，尚未反转成唯一事实源。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
+第一部分按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。关系候选在语义处理时同步记录，随后在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。当前阶段进展与未决项以[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)为准；数据包范围与发布限制见[验证报告](release/v0.2-draft/validation-report.md)和[数据集草案](release/v0.2-draft/README.md)。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
 
 | 目录 | 职责 |
 |---|---|

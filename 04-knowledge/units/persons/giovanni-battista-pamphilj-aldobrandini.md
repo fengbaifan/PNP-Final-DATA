@@ -87,9 +87,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#潘�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 属于家族（`member_of`） | [潘菲利家族（Pamphili family）](../families/pamphili-family.md) | 其为Camillo、Olimpia之长子及Pamphilj家族继承人；证据：[Doria Pamphilj家族传记](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/)，lines 159–170 |
-| ← 委托（`commissioned_by`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画](../works/ferri-sant-agnese-cupola.md) | Treccani称1670年合同与G. B. Pamphili订立；本卡据同代、家族继承身份与双向itwiki/Q43987857对齐至此人；发出端：[作品卡](../works/ferri-sant-agnese-cupola.md)，[Treccani](https://www.treccani.it/enciclopedia/ciro-ferri_%28Dizionario-Biografico%29/)及Doria Pamphilj传记 |
-| ← 委托（`commissioned_by`，反向投影） | [费里圣阿涅塞穹顶彩色稿](../works/ferri-sant-agnese-modello.md) | 作为1670年穹顶合同要求的预备稿阶段；不声称该具体modello实物已辨认；发出端：[作品卡](../works/ferri-sant-agnese-modello.md) |
+| → 隶属／任职于（`member_of`） | [潘菲利家族（Pamphili family）](../families/pamphili-family.md) | 家族官网传记称其为Camillo与Olimpia之长子，并继承Pamphilj家族primogeniture；角色：家族长子及继承人；范围：Pamphilj家族归属；不将Olimpia的Aldobrandini继承并作Pamphilj成员关系；证据：[来源](https://www.doriapamphilj.it/storia-della-famiglia/biografie-roma/)；lines 159–170 of retrieved page |
+| ← 委托者（`commissioner_of`，反向投影） | [费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）](../works/ferri-sant-agnese-cupola.md) | Treccani将1670年9月11日合同的G. B. Pamphili明确为合同对象；此人依生卒与家族传承核定为1648–1709年的长子，不是教皇英诺森十世；时间：1670-09-11；角色：合同签订／委托方；范围：穹顶壁画工程，不将合同误配为教皇英诺森十世个人委托；原断言与证据见发出端卡片“费里《圣阿涅塞被引入天堂荣耀》穹顶壁画（Ferri’s Saint Agnes Introduced to the Glory of Paradise）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；1670年9月11日合同段；身份由Doria Pamphilj家族传记核对 |
+| ← 委托者（`commissioner_of`，反向投影） | [费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）](../works/ferri-sant-agnese-modello.md) | DBI称1670年穹顶壁画合同与G. B. Pamphili订立；原书说明该合同要求提交彩色稿。此边指合同要求的预备稿阶段，不指向一件已辨明的存世稿本；时间：1670-09-11；角色：合同委托方；范围：穹顶工程合同要求提交彩色modello；未辨明其对应的具体存世实物；原断言与证据见发出端卡片“费里圣阿涅塞穹顶彩色稿（Ferri’s coloured modello for the S. Agnese cupola）”：[来源](https://www.treccani.it/enciclopedia/ciro-ferri_(Dizionario-Biografico)/)；1670年9月11日合同段；与原书 lines 437–440 对读 |
 
 ### 身份与外部链接
 

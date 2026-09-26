@@ -44,7 +44,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 收藏者／所有者（`owner_of`，反向投影） | [《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）](../works/caravaggio-conversion-saint-paul-first.md) | 来源支持该端点在所列时期收藏或拥有The Conversion of Saint Paul (first version)；不等于当前保管；时间：现阶段；角色：家族收藏；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；原断言与证据见发出端卡片“《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）”：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；owned-by-families-odescalchi-family-md；本卡S2；有S4时并参流传段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）](../works/caravaggio-conversion-saint-paul-first.md) | 来源支持该端点在所列时期收藏或拥有The Conversion of Saint Paul (first version)；不等于当前保管；时间：现阶段；角色：家族收藏；范围：柏木板第一版，与礼拜堂现存布面版及委托对象卡分开。；原断言与证据见发出端卡片“《圣保罗归化》（第一版）（The Conversion of Saint Paul (first version)）”：[来源](https://en.wikipedia.org/wiki/The_Conversion_of_Saint_Paul_(Caravaggio))；本卡S2；有S4时并参流传段 |
 
 ### 身份与外部链接
 

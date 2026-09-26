@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint Francis of Assisi in Ecstasy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面称可能应德尔·蒙特要求而作，措辞不足以登记确定委托边。；证据：[来源](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [沃兹沃思学会艺术博物馆（Wadsworth Atheneum Museum of Art）](../institutions/wadsworth-atheneum.md) | 当前对象记录将Saint Francis of Assisi in Ecstasy列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))；held-by-institutions-wadsworth-atheneum-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint Francis of Assisi in Ecstasy归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：页面称可能应德尔·蒙特要求而作，措辞不足以登记确定委托边。；证据：[来源](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))；src-4903cea2494233eb；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [沃兹沃思学会艺术博物馆（Wadsworth Atheneum Museum of Art）](../institutions/wadsworth-atheneum.md) | 当前对象记录将Saint Francis of Assisi in Ecstasy列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Saint_Francis_of_Assisi_in_Ecstasy_(Caravaggio))；src-4903cea2494233eb；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

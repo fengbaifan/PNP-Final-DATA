@@ -99,7 +99,7 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受雇于（`employed_by`） | [哥伦比亚大学（Columbia University）](../institutions/columbia-university.md) | 时间：1956–1969；角色：艺术史教授；范围：艺术史教学任职；证据：[来源](https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf)；persons-rudolf-wittkower；PDF第1页 Biography |
+| → 受雇于（`employed_by`） | [哥伦比亚大学（Columbia University）](../institutions/columbia-university.md) | 时间：1956–1969；角色：艺术史教授；范围：艺术史教学任职；证据：[来源](https://www.columbia.edu/cu/libraries/inside/projects/findingaids/scans/pdfs/48_WIEN-WIT_21.pdf)；src-80eb25a8329ae229；PDF第1页 Biography |
 
 ### 关系候选入口
 

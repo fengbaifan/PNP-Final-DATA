@@ -66,5 +66,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#berna
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../persons/bernardin-baldoino.md) | Thevenon将该画列为Bernardin作品；背面签名纪年1680；S1 |
-| → 来源所载地点（`located_at`） | [尼斯圣雷帕拉塔主教座堂（Cathédrale Sainte-Réparate de Nice）](../places/cathedrale-sainte-reparate-nice.md) | 2016年研究称该配对作品在主教座堂；未载安装时间或具体小堂；S1 |
+| → 创作者（`created_by`） | [贝尔纳丁·巴尔多伊诺（Bernardin Baldoino）](../persons/bernardin-baldoino.md) | 时间：1680；角色：创作者；范围：Thevenon将画作列入Bernardin作品并记背面签名；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302,316–317 |
+| → 位于（`located_at`） | [尼斯圣雷帕拉塔主教座堂（Cathédrale Sainte-Réparate de Nice）](../places/cathedrale-sainte-reparate-nice.md) | 时间：2016；角色：来源所载地点；范围：Thevenon称该配对作品在尼斯主教座堂；记录出版时所载地点，不推定安装起始或连续展陈时段；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed p.32; PDF p.7; lines 300–302 |

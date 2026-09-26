@@ -41,4 +41,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#圭�
 
 | 方向与关系 | 关联知识元 | 语境 |
 |---|---|---|
-| → 委托作品（`commissioned`） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》](../works/guercino-sicilian-altarpiece-1665.md) | 关系、时间限定和具体来源见作品卡；这里只提供可点击的反向入口。 |
+| ← 委托者（`commissioner_of`，反向投影） | [圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）](../works/guercino-sicilian-altarpiece-1665.md) | Vincenzo Ruffo据刊载的往来书信认定订画者为Don Antonio的侄女D.a Maria Ruffo，且为修女；不将其确定等同于Duchess of Sora或Suor Illuminata；时间：不晚于1664-04-08已进入委托协商；决定日未载；角色：委托者；范围：为Messina圣额我略修院订制该祭坛画；不据此确认委托修院的法人规范名；原断言与证据见发出端卡片“圭尔奇诺《圣德肋撒从加尔默罗圣母领受会衣》（Guercino’s Saint Teresa Receiving the Habit from Our Lady of Mount Carmel）”：[来源](https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1343998074095_5_-_Vincenzo_Ruffo_p._95.pdf)；src-09fa096c4e0ed9f5；印刷页110；1664-04-08书信及编辑注释；Internet Archive OCR lines 7976–8023、8073–8092 |

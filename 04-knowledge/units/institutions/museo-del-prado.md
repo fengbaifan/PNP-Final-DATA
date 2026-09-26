@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《看这个人》（马德里对象）（Ecce Homo (Madrid object)）](../works/caravaggio-ecce-homo-madrid.md) | 当前对象记录将Ecce Homo (Madrid object)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：私人所有；由普拉多研究并展示；原断言与证据见发出端卡片“《看这个人》（马德里对象）（Ecce Homo (Madrid object)）”：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；held-by-institutions-museo-del-prado-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《看这个人》（马德里对象）（Ecce Homo (Madrid object)）](../works/caravaggio-ecce-homo-madrid.md) | 当前对象记录将Ecce Homo (Madrid object)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：私人所有；由普拉多研究并展示；原断言与证据见发出端卡片“《看这个人》（马德里对象）（Ecce Homo (Madrid object)）”：[来源](https://www.museodelprado.es/actualidad/exposicion/ecce-homo-el-caravaggio-perdido/c5334d61-a3b0-d839-75aa-c33cae1e835b)；src-775349e1af10e662；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

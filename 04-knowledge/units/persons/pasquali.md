@@ -85,7 +85,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）](../archives/goldoni-opere-vol-2-1761.md) | 角色：出版者；范围：第二卷，1761为原书标年；原断言与证据见发出端卡片“戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
+| ← publisher_of（`publisher_of`，反向投影） | [戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）](../archives/goldoni-opere-vol-2-1761.md) | 角色：出版者；范围：第二卷，1761为原书标年；原断言与证据见发出端卡片“戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 135–135; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

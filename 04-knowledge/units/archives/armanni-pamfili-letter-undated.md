@@ -73,6 +73,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 书信署名者据原页确认为 Armanni；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
-| → 致函（`addressed_to`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | 书信收信人为 Camillo Pamfili；角色：收信人；范围：就Valmontone别墅装饰提供建议的未注明日期书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
-| → 组成部分（`part_of`） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](armanni-delle-lettere.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 329–330; print pp. 9 |
+| → 作者（`authored_by`） | [温琴佐·阿尔曼尼（Vincenzo Armanni）](../persons/vincenzo-armanni-ch1.md) | 书信署名者据原页确认为 Armanni；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 329–330; print pp. 9 |
+| → 致函（`addressed_to`） | [卡米洛·弗朗切斯科·玛丽亚·潘菲利（Camillo Francesco Maria Pamphili）](../persons/camillo-pamfili.md) | 书信收信人为 Camillo Pamfili；角色：收信人；范围：就Valmontone别墅装饰提供建议的未注明日期书信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 329–330; print pp. 9 |
+| → 组成部分（`part_of`） | [阿尔曼尼《书信集》（Armanni's Collected Letters）](armanni-delle-lettere.md) | 本章指向 Armanni 信集卷 I p.215，所指为刊收文本，非原手稿物理隶属；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 329–330; print pp. 9 |

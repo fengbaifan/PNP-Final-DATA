@@ -160,11 +160,11 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1742–1743；角色：画家；范围：J 104巴黎预备版本，区别墨尔本藏本；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Auteur(s)、Date de production、Numéro d’inventaire |
-| → 由其保管（`held_by`） | [科涅克—杰博物馆（Musée Cognacq-Jay）](../institutions/musee-cognacq-jay.md) | 角色：保管机构；范围：J 104保管机构；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Institution、Numéro d’inventaire |
-| → 作为预备模型／样稿（`model_for`） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](tiepolo-banquet-victoria.md) | 时间：1742–1743；角色：预备版本；范围：馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Commentaire historique |
-| → 由其取得（`acquired_by`） | [巴黎市政当局（City of Paris）](../institutions/city-of-paris.md) | 时间：1928；角色：遗赠受益主体；范围：J 104随Cognacq收藏于1928年遗赠给巴黎市；Musée Cognacq-Jay为保管馆，1929年开馆；证据：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；cognacq-jay-museum-history；The museum located Boulevard des Capucines：City of Paris为遗赠受益主体；具体J 104见本卡取得记录 |
-| → 由其贡献（`contributed_by`） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1928；角色：遗赠者；范围：J 104具体遗赠者，区别夫妻共同形成收藏的总体表述；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；works-tiepolo-banquet-cognacq-jay；Nom du donateur, testateur, vendeur、Date d’acquisition |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1742–1743；角色：画家；范围：J 104巴黎预备版本，区别墨尔本藏本；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Auteur(s)、Date de production、Numéro d’inventaire |
+| → 由其保管（`held_by`） | [科涅克—杰博物馆（Musée Cognacq-Jay）](../institutions/musee-cognacq-jay.md) | 角色：保管机构；范围：J 104保管机构；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Institution、Numéro d’inventaire |
+| → 作为预备模型／样稿（`model_for`） | [克娄巴特拉的宴会：维多利亚国家美术馆藏本（The Banquet of Cleopatra, National Gallery of Victoria version）](tiepolo-banquet-victoria.md) | 时间：1742–1743；角色：预备版本；范围：馆方明确称巴黎J 104为墨尔本1743–1744作品的modello及version préparatoire；非泛指全部同题作品；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Commentaire historique |
+| → 由其取得（`acquired_by`） | [巴黎市政当局（City of Paris）](../institutions/city-of-paris.md) | 时间：1928；角色：遗赠受益主体；范围：J 104随Cognacq收藏于1928年遗赠给巴黎市；Musée Cognacq-Jay为保管馆，1929年开馆；证据：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；src-5d8c8c92662ec499；The museum located Boulevard des Capucines：City of Paris为遗赠受益主体；具体J 104见本卡取得记录 |
+| → 由其贡献（`contributed_by`） | [泰奥多尔—埃内斯特·科涅克（Théodore-Ernest Cognacq）](../persons/ernest-cognacq.md) | 时间：1928；角色：遗赠者；范围：J 104具体遗赠者，区别夫妻共同形成收藏的总体表述；证据：[来源](https://www.parismuseescollections.paris.fr/fr/musee-cognacq-jay/oeuvres/le-banquet-de-cleopatre)；Nom du donateur, testateur, vendeur、Date d’acquisition |
 
 ### 关系候选入口
 

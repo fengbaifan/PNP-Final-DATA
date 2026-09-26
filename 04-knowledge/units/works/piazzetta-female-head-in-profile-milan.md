@@ -72,8 +72,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 范围：米兰4884/8 C 526/1；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF4：AUTORE |
-| → 由其保管（`held_by`） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 范围：米兰4884/8 C 526/1；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；sirbec-4y010-09084；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 范围：米兰4884/8 C 526/1；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF4：AUTORE |
+| → 由其保管（`held_by`） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 范围：米兰4884/8 C 526/1；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09084/)；src-cf9bfd6d8b0a4249；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO |
 
 ### 关系候选入口
 

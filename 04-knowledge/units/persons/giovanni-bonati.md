@@ -117,10 +117,10 @@ DBI对其“学院化”风格的价值评价保留为1969年编纂者观点。P
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 受其赞助／保护（`patronized_by`） | [卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）](cardinal-pio-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
-| → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | Pio 资助其六城学习旅行为实际事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 186–187; print pp. 6 |
-| → 师从／受训于（`trained_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 1662年前后在罗马学习于莫拉；旅行赞助与师承分开；时间：约1662；角色：学生；范围：罗马训练；与旅行赞助分开；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；dbi-bonatti；本卡 S6；罗马训练段 |
-| → 师从／受训于（`trained_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](guercino.md) | 传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异；时间：1655年后／约1658；角色：学生；范围：早期训练；不把来源中的精确年份差异强行统一；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；dbi-bonatti；本卡 S6；1655年后训练段 |
+| → 受其赞助／保护（`patronized_by`） | [卡洛·皮奥·迪·萨伏依（Carlo Pio di Savoia）](cardinal-pio-bonati.md) | Pio 资助 Bonati 前往六座城市学习；枢机身份仅限此事例；角色：学习旅行受资助者；范围：前往六座城市学习；枢机身份仅限此事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
+| → 采用程序（`uses_procedure`） | [赞助人资助学习旅行（Patron-funded study travel）](../procedures/patron-funded-study-travel.md) | Pio 资助其六城学习旅行为实际事例；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 186–187; print pp. 6 |
+| → 师从／受训于（`trained_by`） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](pier-francesco-mola.md) | 1662年前后在罗马学习于莫拉；旅行赞助与师承分开；时间：约1662；角色：学生；范围：罗马训练；与旅行赞助分开；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；本卡 S6；罗马训练段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·弗朗切斯科·巴尔比耶里（Giovanni Francesco Barbieri）](guercino.md) | 传记将其1650年代后期的早期训练联系到圭尔奇诺；年份在来源间有差异；时间：1655年后／约1658；角色：学生；范围：早期训练；不把来源中的精确年份差异强行统一；证据：[来源](https://www.treccani.it/enciclopedia/bonatti-giovanni-detto-giovannino-del-pio-o-il-ferraresino_(Dizionario-Biografico)/)；本卡 S6；1655年后训练段 |
 
 ### 身份与外部链接
 

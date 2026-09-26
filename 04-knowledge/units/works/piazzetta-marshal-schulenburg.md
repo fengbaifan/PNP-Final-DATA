@@ -134,11 +134,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其保管（`held_by`） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 时间：所引目录记录时点；角色：保管部门；范围：该单件纸本素描，不泛指全部舒伦堡肖像；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；works-piazzetta-marshal-schulenburg；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO4884/5 E82/5 |
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 时间：本书所述时点；角色：素描作者；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-piazzetta-marshal-schulenburg；lines 131–131; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：本书所述时点；角色：肖像人物；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-piazzetta-marshal-schulenburg；lines 131–131; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [斯福尔扎城堡（Castello Sforzesco）](../places/castello-sforzesco.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-piazzetta-marshal-schulenburg；lines 131–131; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [米兰（Milan）](../places/milan.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；works-piazzetta-marshal-schulenburg；lines 131–131; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [斯福尔扎城堡素描室（Gabinetto dei Disegni, Castello Sforzesco）](../institutions/gabinetto-dei-disegni-castello-sforzesco.md) | 时间：所引目录记录时点；角色：保管部门；范围：该单件纸本素描，不泛指全部舒伦堡肖像；证据：[来源](https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4y010-09081/)；src-1257ee626bc95941；PDF3：COLLOCAZIONE SPECIFICA、INVENTARIO4884/5 E82/5 |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](../persons/piazzetta.md) | 时间：本书所述时点；角色：素描作者；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）](../persons/marshal-schulenburg.md) | 时间：本书所述时点；角色：肖像人物；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [斯福尔扎城堡（Castello Sforzesco）](../places/castello-sforzesco.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [米兰（Milan）](../places/milan.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

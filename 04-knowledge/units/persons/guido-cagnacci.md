@@ -64,7 +64,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 角色：原书署名作者；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 81–81; 章前：图版目录；印刷页xiii |
+| ← 所创作对象（`creator_of`，反向投影） | [克娄巴特拉之死（Death of Cleopatra）](../works/guido-cagnacci-death-of-cleopatra.md) | 角色：原书署名作者；范围：图版28a；仅原书对象层面，不决定GG260或GG6508具体版本；原断言与证据见发出端卡片“克娄巴特拉之死（Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 81–81; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

@@ -40,7 +40,7 @@ description: 负责 S3 身份对齐；产物 `alignment.csv`。**只做身份，
 
 ## 工具边界
 
-常规语义编辑在授权范围内原位更新并核对。使用现有验证状态批量接口时遵守 collect → evidence JSONL → Agent 判断 → verify_apply_evidence.py --dry-run → --apply；整批预检、原子写回，恢复核对输入指纹。此时填写 source_independence_group，防止转引被计为独立来源。
+常规语义判断在授权范围内完成并记录实际证据。现有 `verify_apply_evidence.py --dry-run` 仍可检查旧格式证据包；`--apply/--resume` 与 `evidence_batch_runner.py --apply-low-risk` 已暂停，因为旧接口写卡片 frontmatter，而字段证据已迁入 `enrichment.jsonl`。恢复批量写回前须实现以表为目标、保持来源和证据限定的写入器；不得将卡片旧状态与表状态分叉。此时填写 `source_independence_group`，防止转引被计为独立来源。
 L1–L7 仅是该接口兼容代码，不是业务阶段或事实可信度的自动排名。数量、脚本分数不自动提高 confidence/consensus；失败和 no_delta 如实记录。
 现有各类collector只收集候选，不能替代Agent对对象、版本和粒度的实际阅读与判断。Wikipedia/Wikidata collector也未自动完成双向QID核对；成功输出不能称为身份确认。
 

@@ -65,6 +65,19 @@ def routed_audit_names(changed_paths: Iterable[str] | None) -> set[str]:
         names.update({"relation", "repository"})
     if any(path.startswith(("02-sources/", "03-processing/", "04-knowledge/structure/", "05-outputs/")) for path in paths):
         names.add("repository")
+    if any(path.startswith(("04-knowledge/tables/", "release/")) for path in paths):
+        names.add("data")
+    if "04-knowledge/tables/relations.csv" in paths or any(
+        path in {"scripts/audit_relation_consistency.py", "scripts/_relation_schema.py", "scripts/_relation_tables.py",
+                 "scripts/build_relation_views.py"} for path in paths
+    ):
+        names.add("relation")
+    if any(path in {"scripts/audit_tables.py", "scripts/build_cards.py", "scripts/build_field_facts.py",
+                    "scripts/build_source_segments.py", "scripts/build_entity_candidates.py",
+                    "scripts/link_alignment_candidates.py", "scripts/migrate_relation_context.py",
+                    "scripts/export_dataset.py", "scripts/_card_tables.py", "scripts/_relation_tables.py"}
+           for path in paths):
+        names.add("data")
     if any(path in {"scripts/audit_content_quality.py"} for path in paths):
         names.update({"content", "repository"})
     if any(path in {"scripts/build_relation_index.py", "scripts/audit_relation_consistency.py", "scripts/_relation_schema.py"} for path in paths):
@@ -97,13 +110,15 @@ def build_steps(
             steps.insert(3, Step("build knowledge graph data", script("build_knowledge_graph_data.py")))
     if changed_paths is None:
         changed_paths = changed_paths_from_git()
-    audit_names = {"content", "relation", "repository"} if full or refresh_generated else routed_audit_names(changed_paths)
+    audit_names = {"content", "relation", "repository", "data"} if full or refresh_generated else routed_audit_names(changed_paths)
     if "content" in audit_names:
         steps.append(Step("audit content quality", script("audit_content_quality.py")))
     if "relation" in audit_names:
         steps.append(Step("audit relation consistency", script("audit_relation_consistency.py")))
     if "repository" in audit_names:
         steps.append(Step("audit repository", script("audit_repo.py", "--summary")))
+    if "data" in audit_names:
+        steps.append(Step("audit structured tables", script("audit_tables.py", "--summary")))
     steps.extend([
         Step("audit rule drift", script("audit_rule_drift.py")),
         Step("validate skill registry", script("skill_registry.py")),

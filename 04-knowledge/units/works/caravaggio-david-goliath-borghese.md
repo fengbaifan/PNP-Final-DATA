@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将David with the Head of Goliath (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拟赠希皮奥内·博尔盖塞及赦免解释带推测，不登记为确定委托。；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 当前对象记录将David with the Head of Goliath (Borghese version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)；held-by-institutions-galleria-borghese-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将David with the Head of Goliath (Borghese version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：拟赠希皮奥内·博尔盖塞及赦免解释带推测，不登记为确定委托。；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)；src-e1bdbe25b2f56a3e；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [博尔盖塞美术馆（Galleria Borghese）](../institutions/galleria-borghese.md) | 当前对象记录将David with the Head of Goliath (Borghese version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath)；src-e1bdbe25b2f56a3e；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

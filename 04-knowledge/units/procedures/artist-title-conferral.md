@@ -73,4 +73,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 以此为实例（`exemplified_by`） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 799–804; print pp. 19 |
+| → 以此为实例（`exemplified_by`） | [查理五世授提香荣衔（1533）（Charles V's Grant of Honours to Titian (1533)）](../events/titian-honours-1533.md) | 查理五世于1533年授提香荣衔，是本章所述艺术家荣衔授予的具名实例；时间：1533；角色：程序实例；范围：只涵盖该次授衔，不代表所有荣衔遵循同一法定程序；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 799–804; print pp. 19 |

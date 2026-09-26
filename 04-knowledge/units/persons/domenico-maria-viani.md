@@ -160,10 +160,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 亲缘（`kin_of`） | [乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）](giovanni-maria-viani.md) | 角色：儿子→父亲；范围：父子关系，非同名合并；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria人物段：Il figlio |
-| → 师从／受训于（`trained_by`） | [乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）](giovanni-maria-viani.md) | 角色：绘画师承；范围：传记明确随父学习，亲缘另列；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria人物段：allievo del padre |
-| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1668；角色：出生；范围：条目明确生卒地点；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria生卒括注 |
-| → 位于（`located_at`） | [皮斯托亚（Pistoia）](../places/pistoia.md) | 时间：1711；角色：去世；范围：条目明确生卒地点；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria生卒括注 |
+| → 亲缘（`kin_of`） | [乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）](giovanni-maria-viani.md) | 角色：儿子→父亲；范围：父子关系，非同名合并；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；src-4d2895f1756e41e0；Domenico Maria人物段：Il figlio |
+| → 师从／受训于（`trained_by`） | [乔瓦尼·马里亚·维亚尼（Giovanni Maria Viani）](giovanni-maria-viani.md) | 角色：绘画师承；范围：传记明确随父学习，亲缘另列；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；src-4d2895f1756e41e0；Domenico Maria人物段：allievo del padre |
+| → 位于（`located_at`） | [博洛尼亚（Bologna）](../places/bologna.md) | 时间：1668；角色：出生；范围：条目明确生卒地点；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；src-4d2895f1756e41e0；Domenico Maria生卒括注 |
+| → 位于（`located_at`） | [皮斯托亚（Pistoia）](../places/pistoia.md) | 时间：1711；角色：去世；范围：条目明确生卒地点；证据：[来源](https://www.treccani.it/enciclopedia/viani/)；src-4d2895f1756e41e0；Domenico Maria生卒括注 |
 
 ### 关系候选入口
 

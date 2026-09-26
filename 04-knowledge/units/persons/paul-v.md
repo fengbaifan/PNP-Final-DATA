@@ -123,8 +123,8 @@ S1：p.3，L26–27，1605–1621在位及先前赞助。S2：p.17，L687–689�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述；时间：1605；角色：年度赦免权授予者；范围：圣路加节释放一名死刑犯的权利；据第一章转述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 687–689; print pp. 17 |
-| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；证据：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；galleria-borghese-la-villa；家族卡 S7；馆方家族上升与保禄五世段 |
+| → 向其授予权利（`granted_privilege_to`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1605 年授学院每年圣路加节释放一名死刑犯的权利，依本章转述；时间：1605；角色：年度赦免权授予者；范围：圣路加节释放一名死刑犯的权利；据第一章转述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 687–689; print pp. 17 |
+| → 隶属／任职于（`member_of`） | [博尔盖塞家族（Borghese Family）](../families/borghese-family.md) | 世俗名卡米洛·博尔盖塞，属于博尔盖塞家族；教皇职务与家族身份分开；证据：[来源](https://galleriaborghese.cultura.gov.it/il-museo/la-villa/)；src-47965a47c8c3ac07；家族卡 S7；馆方家族上升与保禄五世段 |
 
 ### 身份与外部链接
 

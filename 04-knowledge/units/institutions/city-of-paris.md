@@ -67,5 +67,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 角色：对应市政城市；范围：遗赠行政主体对应巴黎城市；不是两个同类地理实体；证据：[来源](https://parismuseescollections.paris.fr/en/the-musee-cognacq-jay)；institutions-city-of-paris；馆藏概述：City of Paris |
-| ← 取得者（`acquirer_of`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](../works/tiepolo-banquet-cognacq-jay.md) | 时间：1928；角色：遗赠受益主体；范围：J 104随Cognacq收藏于1928年遗赠给巴黎市；Musée Cognacq-Jay为保管馆，1929年开馆；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；cognacq-jay-museum-history；The museum located Boulevard des Capucines：City of Paris为遗赠受益主体；具体J 104见本卡取得记录 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 角色：对应市政城市；范围：遗赠行政主体对应巴黎城市；不是两个同类地理实体；证据：[来源](https://parismuseescollections.paris.fr/en/the-musee-cognacq-jay)；src-dcd9ff6bcba1ee54；馆藏概述：City of Paris |
+| ← 取得者（`acquirer_of`，反向投影） | [克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）](../works/tiepolo-banquet-cognacq-jay.md) | 时间：1928；角色：遗赠受益主体；范围：J 104随Cognacq收藏于1928年遗赠给巴黎市；Musée Cognacq-Jay为保管馆，1929年开馆；原断言与证据见发出端卡片“克娄巴特拉的宴会：科涅克—杰藏本（The Banquet of Cleopatra, Musée Cognacq-Jay version）”：[来源](https://www.museecognacqjay.paris.fr/en/museum/history-museum)；src-5d8c8c92662ec499；The museum located Boulevard des Capucines：City of Paris为遗赠受益主体；具体J 104见本卡取得记录 |

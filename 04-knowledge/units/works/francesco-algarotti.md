@@ -89,9 +89,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：肖像人物；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：肖像人物；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版48d；作者原书明确Anonymous；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

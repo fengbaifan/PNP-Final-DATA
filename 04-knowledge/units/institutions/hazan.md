@@ -48,4 +48,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [夏尔丹（罗兰-米歇尔1994年专著）（Chardin (Roland-Michel, 1994)）](../archives/roland-michel-chardin-1994.md) | 时间：1994；角色：出版者；范围：1994年法文版；原断言与证据见发出端卡片“夏尔丹（罗兰-米歇尔1994年专著）（Chardin (Roland-Michel, 1994)）”：[来源](https://parismuseescollections.paris.fr/en/node/660244)；archives-roland-michel-chardin-1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| ← publisher_of（`publisher_of`，反向投影） | [夏尔丹（罗兰-米歇尔1994年专著）（Chardin (Roland-Michel, 1994)）](../archives/roland-michel-chardin-1994.md) | 时间：1994；角色：出版者；范围：1994年法文版；原断言与证据见发出端卡片“夏尔丹（罗兰-米歇尔1994年专著）（Chardin (Roland-Michel, 1994)）”：[来源](https://parismuseescollections.paris.fr/en/node/660244)；src-9da6090760f3489c；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |

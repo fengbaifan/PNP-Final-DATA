@@ -89,6 +89,6 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [玛丽安娜·罗兰-米歇尔（Marianne Roland-Michel）](../persons/marianne-roland-michel.md) | 时间：1994；角色：作者；范围：1994年Chardin；目录责任者；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；archives-roland-michel-chardin-1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
-| → published_by（`published_by`） | [阿赞出版社（Hazan）](../institutions/hazan.md) | 时间：1994；角色：出版者；范围：1994年法文版；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；archives-roland-michel-chardin-1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1994；角色：出版地；范围：出版项Paris；不表示实体册现藏地；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；archives-roland-michel-chardin-1994；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| → 作者（`authored_by`） | [玛丽安娜·罗兰-米歇尔（Marianne Roland-Michel）](../persons/marianne-roland-michel.md) | 时间：1994；角色：作者；范围：1994年Chardin；目录责任者；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；src-9da6090760f3489c；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| → published_by（`published_by`） | [阿赞出版社（Hazan）](../institutions/hazan.md) | 时间：1994；角色：出版者；范围：1994年法文版；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；src-9da6090760f3489c；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1994；角色：出版地；范围：出版项Paris；不表示实体册现藏地；证据：[来源](https://parismuseescollections.paris.fr/en/node/660244)；src-9da6090760f3489c；完整书目字段、责任者、版本、载体、ISBN及索书号；图书正文未读 |

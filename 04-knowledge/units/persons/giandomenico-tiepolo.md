@@ -52,7 +52,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 时间：1757年冬；角色：萨堤尔绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；works-tiepolo-marriage-allegory-of-the-rezzonico-family；Nuptial Allegory Room |
+| ← 所创作对象（`creator_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 时间：1757年冬；角色：萨堤尔绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
 
 ### 关系候选入口
 

@@ -106,10 +106,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [卡洛·戈尔多尼（Carlo Goldoni）](../persons/goldoni.md) | 角色：文字作者；范围：Pasquali版《喜剧集》第二卷；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
-| → published_by（`published_by`） | [乔万尼·巴蒂斯塔·帕斯夸利（Giovanni Battista Pasquali）](../persons/pasquali.md) | 角色：出版者；范围：第二卷，1761为原书标年；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 角色：出版地；范围：Pasquali版整套出版项；卷二具体出书年仍待核；证据：[来源](https://search.worldcat.org/title/Delle-commedie-di-Carlo-Goldoni-../oclc/14629858)；archives-goldoni-opere-vol-2-1761；Publisher：In Venezia，Per Giambatista Pasquali |
-| ← 包含成员（`contains`，反向投影） | [戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）](../works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md) | 角色：载体文献；范围：图版57b；第二卷，原书标年1761；原断言与证据见发出端卡片“戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
+| ← 包含成员（`contains`，反向投影） | [戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）](../works/pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere.md) | 角色：载体文献；范围：图版57b；第二卷，原书标年1761；原断言与证据见发出端卡片“戈尔多尼《喜剧集》第二卷卷首图（Frontispiece to The Comedies of Carlo Goldoni, vol. 2）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 135–135; 章前：图版目录；印刷页xv |
+| → 作者（`authored_by`） | [卡洛·戈尔多尼（Carlo Goldoni）](../persons/goldoni.md) | 角色：文字作者；范围：Pasquali版《喜剧集》第二卷；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 135–135; 章前：图版目录；印刷页xv |
+| → published_by（`published_by`） | [乔万尼·巴蒂斯塔·帕斯夸利（Giovanni Battista Pasquali）](../persons/pasquali.md) | 角色：出版者；范围：第二卷，1761为原书标年；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 135–135; 章前：图版目录；印刷页xv |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 角色：出版地；范围：Pasquali版整套出版项；卷二具体出书年仍待核；证据：[来源](https://search.worldcat.org/title/Delle-commedie-di-Carlo-Goldoni-../oclc/14629858)；src-af12d54e3633f362；Publisher：In Venezia，Per Giambatista Pasquali |
 
 ### 关系候选入口
 

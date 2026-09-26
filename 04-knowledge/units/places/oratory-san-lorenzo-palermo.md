@@ -46,7 +46,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 安置地点（`installation_site_of`，反向投影） | [《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）](../works/caravaggio-nativity-palermo.md) | 来源将Nativity with Saint Francis and Saint Lawrence与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：1969年失窃，去向不明；原断言与证据见发出端卡片“《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）”：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；installed-at-places-oratory-san-lorenzo-palermo-md；本卡S2；有S4时并参对象／地点说明 |
+| ← 安置地点（`installation_site_of`，反向投影） | [《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）](../works/caravaggio-nativity-palermo.md) | 来源将Nativity with Saint Francis and Saint Lawrence与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：1969年失窃，去向不明；原断言与证据见发出端卡片“《圣方济各与圣劳伦斯在场的耶稣诞生》（Nativity with Saint Francis and Saint Lawrence）”：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；src-6d2f5de2508dcb5a；本卡S2；有S4时并参对象／地点说明 |
 
 ### 身份与外部链接
 

@@ -64,7 +64,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 供片（`supplier_of`，反向投影） | [维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）](../works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md) | 角色：本书复制图像供片者；范围：图版50，不表示作品创作者、所有者或保管者；原断言及证据见图版50作品卡。[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 172–172; 章前：图片来源；印刷页xvi |
+| ← 供应者（`supplier_of`，反向投影） | [维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）](../works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md) | 时间：本书图片来源所载版本；角色：本书图版复制图像供片者；范围：图版50的复制图像；不表示其创作、持有或保管完整顶画；原断言与证据见发出端卡片“维尔茨堡宫楼梯厅顶画（Staircase ceiling fresco, Würzburg Residence）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 172–172; 章前：图片来源；印刷页xvi |
 
 ### 身份与外部链接
 

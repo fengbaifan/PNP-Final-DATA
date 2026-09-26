@@ -93,8 +93,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [皮埃特罗·安东尼奥·诺韦利（Pietro Antonio Novelli）](../persons/pietro-antonio-novelli.md) | 角色：插图设计者；范围：Pasquali版第二卷卷首图；证据：[来源](https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/)；works-pietro-antonio-novelli-frontispiece-to-vol-2-of-goldoni-opere；Goldoni的Pasquali版插图段 |
-| → 组成部分（`part_of`） | [戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）](../archives/goldoni-opere-vol-2-1761.md) | 角色：载体文献；范围：图版57b；第二卷，原书标年1761；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 135–135; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [皮埃特罗·安东尼奥·诺韦利（Pietro Antonio Novelli）](../persons/pietro-antonio-novelli.md) | 角色：插图设计者；范围：Pasquali版第二卷卷首图；证据：[来源](https://www.treccani.it/enciclopedia/pietro-antonio-novelli_(Dizionario-Biografico)/)；src-d552b497d0d03592；Goldoni的Pasquali版插图段 |
+| → 组成部分（`part_of`） | [戈尔多尼《喜剧集》第二卷（帕斯夸利版，标年1761）（The Comedies of Carlo Goldoni, vol. 2, Pasquali edition, dated 1761）](../archives/goldoni-opere-vol-2-1761.md) | 角色：载体文献；范围：图版57b；第二卷，原书标年1761；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 135–135; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

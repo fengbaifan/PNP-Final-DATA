@@ -43,4 +43,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← child_of（`child_of`，反向投影） | [多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）](domenico-fedeli-venice-painter.md) | 角色：父亲；范围：具名儿子；原断言与证据见发出端卡片“多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）”：[来源](https://www.treccani.it/enciclopedia/fedeli-domenico-detto-il-maggiotto_(Dizionario-Biografico)/)；ettore-merkel-fedeli-domenico-detto-il-maggiotto-dizionario-biografico-degli-italiani-45-1995；lines 25–26 |
+| ← child_of（`child_of`，反向投影） | [多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）](domenico-fedeli-venice-painter.md) | 角色：父亲；范围：具名儿子；原断言与证据见发出端卡片“多梅尼科·费代利（又称马焦托）（Domenico Fedeli (detto Maggiotto)）”：[来源](https://www.treccani.it/enciclopedia/fedeli-domenico-detto-il-maggiotto_(Dizionario-Biografico)/)；src-8d4bb4ff118f896a；lines 25–26 |

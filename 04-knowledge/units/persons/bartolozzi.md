@@ -62,7 +62,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [村景（Village Scene）](../works/marco-ricci-village-scene.md) | 角色：刻印者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“村景（Village Scene）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 133–133; 章前：图版目录；印刷页xv |
+| ← 所创作对象（`creator_of`，反向投影） | [村景（Village Scene）](../works/marco-ricci-village-scene.md) | 角色：刻印者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“村景（Village Scene）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

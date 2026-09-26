@@ -76,8 +76,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版提议与制作帮助；范围：第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 受雇于（`employed_by`） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1973起；官方历史记此后约30年；角色：伦敦办事处负责人；范围：受聘负责出版社伦敦办事处；未补造精确离职日期；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；yup-history-nicoll；II. Growth and Diversification：In 1973, John Nicoll was hired to oversee the Press’s London office |
+| → 受雇于（`employed_by`） | [耶鲁大学出版社（Yale University Press）](../institutions/yale-university-press.md) | 时间：1973起；官方历史记此后约30年；角色：伦敦办事处负责人；范围：受聘负责出版社伦敦办事处；未补造精确离职日期；证据：[来源](https://yalebooks.yale.edu/a-brief-history-of-yale-university-press/)；II. Growth and Diversification：In 1973, John Nicoll was hired to oversee the Press’s London office |
+| ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版提议与制作帮助；范围：第二版序言明确提议新版并协助；不将相邻Chatto署名当其雇主；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 11–12; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

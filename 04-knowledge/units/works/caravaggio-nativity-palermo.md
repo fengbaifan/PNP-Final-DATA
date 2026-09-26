@@ -78,8 +78,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Nativity with Saint Francis and Saint Lawrence归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：失窃前安置于巴勒莫圣洛伦佐祈祷堂；不把复制品或数字重建当原作。；证据：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [巴勒莫圣洛伦佐祈祷堂（Oratory of San Lorenzo）](../places/oratory-san-lorenzo-palermo.md) | 来源将Nativity with Saint Francis and Saint Lawrence与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：1969年失窃，去向不明；证据：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；installed-at-places-oratory-san-lorenzo-palermo-md；本卡S2；有S4时并参对象／地点说明 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Nativity with Saint Francis and Saint Lawrence归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：失窃前安置于巴勒莫圣洛伦佐祈祷堂；不把复制品或数字重建当原作。；证据：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；src-6d2f5de2508dcb5a；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [巴勒莫圣洛伦佐祈祷堂（Oratory of San Lorenzo）](../places/oratory-san-lorenzo-palermo.md) | 来源将Nativity with Saint Francis and Saint Lawrence与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：1969年失窃，去向不明；证据：[来源](https://en.wikipedia.org/wiki/Nativity_with_Saint_Francis_and_Saint_Lawrence)；src-6d2f5de2508dcb5a；本卡S2；有S4时并参对象／地点说明 |
 
 ### 身份与外部链接
 

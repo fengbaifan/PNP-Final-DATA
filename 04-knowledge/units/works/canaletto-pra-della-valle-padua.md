@@ -84,9 +84,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：原书署名作者；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
-| → 所涉对象（`has_subject`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：描绘广场；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
-| → 所涉对象（`has_subject`） | [帕多瓦（Padua）](../places/padua.md) | 角色：描绘城市；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 146–146; 章前：图版目录；印刷页xvi |
+| → 创作者（`created_by`） | [乔瓦尼·安东尼奥·卡纳尔（Giovanni Antonio Canal）](../persons/canaletto.md) | 角色：原书署名作者；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 146–146; 章前：图版目录；印刷页xvi |
+| → 所涉对象（`has_subject`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：描绘广场；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 146–146; 章前：图版目录；印刷页xvi |
+| → 所涉对象（`has_subject`） | [帕多瓦（Padua）](../places/padua.md) | 角色：描绘城市；范围：图版62标题中的Prato della Valle,Padua；这是描绘地点而非保管地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 146–146; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

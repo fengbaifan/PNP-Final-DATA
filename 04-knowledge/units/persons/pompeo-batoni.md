@@ -92,7 +92,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：1737；角色：画家；范围：K2149／GL.60.17.60；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](https://www.kressfoundation.org/kress-collection/artwork/84f51f076ea69e90ef971adebc587d9802d0a5f3d6888bb5d9f5554435356c3f)；works-pompeo-batoni-the-triumph-of-venice；作品作者与日期字段 |
+| ← 所创作对象（`creator_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：1737；角色：画家；范围：K2149／GL.60.17.60；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](https://www.kressfoundation.org/kress-collection/artwork/84f51f076ea69e90ef971adebc587d9802d0a5f3d6888bb5d9f5554435356c3f)；src-2e8388db8c6e300f；作品作者与日期字段 |
 
 ### 关系候选入口
 

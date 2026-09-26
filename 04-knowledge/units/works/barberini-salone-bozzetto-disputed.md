@@ -53,4 +53,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 位于（`located_at`，反向投影） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议；角色：本书写作时所报保存地点；范围：归属仍有争议；不延伸为今日馆藏；原断言与证据见发出端卡片“巴贝里尼宫（Palazzo Barberini）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 463–464; print pp. 12 |
+| ← 位于（`located_at`，反向投影） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 本章写作时所谓大厅 bozzetto 保存在该宫中；归属仍有争议；角色：本书写作时所报保存地点；范围：归属仍有争议；不延伸为今日馆藏；原断言与证据见发出端卡片“巴贝里尼宫（Palazzo Barberini）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 463–464; print pp. 12 |

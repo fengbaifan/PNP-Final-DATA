@@ -42,4 +42,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#guerc
 
 | 方向与关系 | 关联知识元 | 语境 |
 |---|---|---|
-| ← 委托者（`commissioned_by`，反向投影） | [圣额我略堂加尔默罗圣母小堂](../places/chiesa-san-gregorio-cappella-madonna-carmine.md) | 仅指1688年建造小堂内的大理石祭坛，不表示她委托1665年画作；来源与时间范围见小堂卡。 |
+| ← 委托者（`commissioner_of`，反向投影） | [圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）](../places/chiesa-san-gregorio-cappella-madonna-carmine.md) | 建筑史研究记Maria Teresa Ruffo于1688年委托建造小堂内的大理石祭坛，以安置Guercino1665年画作；此边只指祭坛建造，不表示她委托该画作；时间：1688；角色：祭坛建造委托者；范围：圣额我略堂加尔默罗圣母小堂内的大理石祭坛；不指1665年画作的委托关系；原断言与证据见发出端卡片“圣额我略堂加尔默罗圣母小堂（Chapel of the Madonna del Carmine, Church of San Gregorio, Messina）”：[来源](https://dialnet.unirioja.es/descarga/articolo/3669368.pdf)；src-16a4e7ead22df1fb；印刷页32；右侧横翼北墙；加尔默罗圣母祭坛及其所安置画作 |

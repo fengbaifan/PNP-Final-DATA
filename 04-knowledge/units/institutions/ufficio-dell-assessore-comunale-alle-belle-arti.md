@@ -71,8 +71,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中机构所在地；范围：原书图版目录括注的办公室所在城市；现代机构接续尚未确定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 52–53; 章前：图版目录；印刷页xii |
-| ← 保管对象（`holder_of`，反向投影） | [劫夺海伦（Rape of Helen）](../works/pietro-da-cortona-rape-of-helen.md) | 时间：本书所述时点；角色：书中保管者；范围：原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权；原断言与证据见发出端卡片“劫夺海伦（Rape of Helen）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 52–53; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中机构所在地；范围：原书图版目录括注的办公室所在城市；现代机构接续尚未确定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 52–53; 章前：图版目录；印刷页xii |
+| ← 保管对象（`holder_of`，反向投影） | [劫夺海伦（Rape of Helen）](../works/pietro-da-cortona-rape-of-helen.md) | 时间：本书所述时点；角色：书中保管者；范围：原书列出的历史保管者；不把它等同现行Musei Capitolini机构，也不推定产权；原断言与证据见发出端卡片“劫夺海伦（Rape of Helen）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 52–53; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

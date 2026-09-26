@@ -128,11 +128,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [安德烈亚·梅莫（Andrea Memmo）](andrea-memmo.md) | 角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；原断言与证据见发出端卡片“安德烈亚·梅莫（Andrea Memmo）”：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；著述段：due allievi，Algarotti与A. Memmo |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1690出生；1720返回；角色：出生／返回；范围：明确生平地点事件，非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；起首出生段及1720返威尼斯段 |
-| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1761-10-27；角色：去世；范围：明确生平地点事件，非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；末段Morì a Padova |
-| ← 教师（`teacher_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](francesco-algarotti.md) | 时间：1725；角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）”：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；persons-carlo-lodoli；教学段：nel 1725, F. Algarotti |
-| ← 为其所涉对象（`subject_of`，反向投影） | [卡洛·洛多利肖像（Portrait of Carlo Lodoli）](../works/alessandro-longhi-carlo-lodoli.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；原断言与证据见发出端卡片“卡洛·洛多利肖像（Portrait of Carlo Lodoli）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 教师（`teacher_of`，反向投影） | [安德烈亚·梅莫（Andrea Memmo）](andrea-memmo.md) | 角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；原断言与证据见发出端卡片“安德烈亚·梅莫（Andrea Memmo）”：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；src-087e148c049822f7；著述段：due allievi，Algarotti与A. Memmo |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1690出生；1720返回；角色：出生／返回；范围：明确生平地点事件，非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；src-087e148c049822f7；起首出生段及1720返威尼斯段 |
+| → 位于（`located_at`） | [帕多瓦（Padua）](../places/padua.md) | 时间：1761-10-27；角色：去世；范围：明确生平地点事件，非全生涯连续住址；证据：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；src-087e148c049822f7；末段Morì a Padova |
+| ← 教师（`teacher_of`，反向投影） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](francesco-algarotti.md) | 时间：1725；角色：受教者→教师；范围：DBI明确记为学生；不等同大学学位；原断言与证据见发出端卡片“弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）”：[来源](https://www.treccani.it/enciclopedia/carlo-lodoli_(Dizionario-Biografico)/)；src-087e148c049822f7；教学段：nel 1725, F. Algarotti |
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡洛·洛多利肖像（Portrait of Carlo Lodoli）](../works/alessandro-longhi-carlo-lodoli.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；原断言与证据见发出端卡片“卡洛·洛多利肖像（Portrait of Carlo Lodoli）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

@@ -122,10 +122,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·马里亚·博塔拉（Giovanni Maria Bottalla）](../persons/gio-maria-bottalla.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 54–55; 章前：图版目录；印刷页xii |
-| → 由其保管（`held_by`） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 54–55; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：书中明确的保管城市，不是作品创作地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 54–55; 章前：图版目录；印刷页xii |
-| → 由其委托（`commissioned_by`） | [萨凯蒂家族（Sacchetti Family）](../families/sacchetti-family.md) | 角色：家族集体委托；范围：人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分；证据：[来源](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)；works-gio-maria-bottalla-meeting-of-esau-and-jacob；Bottalla传记：Incontro di Esaù con Giacobbe、galleria Sacchetti段 |
+| → 创作者（`created_by`） | [乔万尼·马里亚·博塔拉（Giovanni Maria Bottalla）](../persons/gio-maria-bottalla.md) | 角色：图版作品作者；范围：图版目录明确署名；不推断另版本；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 54–55; 章前：图版目录；印刷页xii |
+| → 由其保管（`held_by`） | [卡比托利欧绘画馆（Pinacoteca Capitolina）](../institutions/pinacoteca-capitolina.md) | 时间：本书所述时点；角色：书中保管者；范围：原书图版目录记载的保管机构；不等于核实当前产权；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 54–55; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中位置；范围：书中明确的保管城市，不是作品创作地；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 54–55; 章前：图版目录；印刷页xii |
+| → 由其委托（`commissioned_by`） | [萨凯蒂家族（Sacchetti Family）](../families/sacchetti-family.md) | 角色：家族集体委托；范围：人物辞典明确为Sacchetti家族画廊制作；与Barberini继承人版本区分；证据：[来源](https://www.treccani.it/enciclopedia/bottalla-giovanni-maria-detto-il-raffaellino-raffaellino-da-savona_(Dizionario-Biografico)/)；src-ce006128ee72c285；Bottalla传记：Incontro di Esaù con Giacobbe、galleria Sacchetti段 |
 
 ### 关系候选入口
 

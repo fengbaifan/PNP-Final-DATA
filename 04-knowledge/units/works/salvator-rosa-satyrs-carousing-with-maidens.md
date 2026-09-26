@@ -81,9 +81,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | Ruffo 1916脚注(1)明确称随信附笺由Rosa制作；关系指附笺描述的作品，不替代候选画布同一性判断（S2 p.169）。 |
-| → 取得者（`acquired_by`） | [安东尼奥·鲁福（Antonio Ruffo）](../persons/antonio-ruffo.md) | Ruffo 1916脚注(2)称该画由Don Antonio Ruffo购得，并列入其画作清单；无精确购藏日期，且不确认其与现代Bonhams lot 26画布同一（S2 p.169）。 |
-| ← 见于书信所附画单（`subject_of`，反向投影） | [德·罗西斯致鲁福的信（1663-06-02）](../archives/de-rosis-ruffo-letter-1663-06-02.md) | 1916年刊本记录来信及所附待售画单；对应关系由来信卡`has_subject`声明，S2 p.169。 |
+| → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：known by the attached sale note of 1663-06-02; no exact execution date established；角色：painter named in the attached note; the lot catalogue also reports a strengthened signature ‘Rosa’；范围：painting described in the sale note; relationship to the surviving auction canvas remains a candidate match；证据：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed p. 169, footnote (1) identifies the attached note as made by Salvator Rosa; the note describes this painting |
+| → 由其取得（`acquired_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 时间：date not stated; the 1916 footnote annotates the 1663-06-02 sale list；角色：buyer；范围：painting described in Rosa's attached 1663 sales note; later inventory identification does not by itself identify the surviving Bonhams lot 26 canvas；证据：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed p. 169, footnote (2): this painting was bought by Don Antonio Ruffo and listed as ‘Due Satiri e tre Ninfe che scherzano’ |
+| ← 为其所涉对象（`subject_of`，反向投影） | [朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-06-02）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)）](../archives/de-rosis-ruffo-letter-1663-06-02.md) | 时间：1663-06-02；角色：painting described in the attached sale note；范围：does not establish that the note's painting is the same physical canvas later catalogued as Bonhams lot 26；原断言与证据见发出端卡片“朱塞佩·德·罗西斯致安东尼奥·鲁福的信（1663-06-02）（Letter from Giuseppe de Rosis to Antonio Ruffo (1663-06-02)）”：[来源](https://archive.org/stream/bollettinodarte10italuoft/bollettinodarte10italuoft_djvu.txt)；printed p. 169, sales note and footnotes (1)–(2): 5-by-5-palmi painting; Rosa-authored note; Ruffo purchase note |
 
 ### 身份与外部链接
 

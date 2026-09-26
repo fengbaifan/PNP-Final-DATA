@@ -119,7 +119,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1593–1594 年尝试振兴学院，不作为首次创立的证明；时间：1593–1594；角色：首任Prince及组织领导者；范围：学院振兴／实际组织阶段；不等同1577年设院授权；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 681–683; print pp. 17 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1593–1594 年尝试振兴学院，不作为首次创立的证明；时间：1593–1594；角色：首任Prince及组织领导者；范围：学院振兴／实际组织阶段；不等同1577年设院授权；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 681–683; print pp. 17 |
 
 ### 身份与外部链接
 

@@ -60,6 +60,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其委托（`commissioned_by`） | [安尼巴莱·拉帕雷利（Annibale Laparelli）](../persons/annibale-laparelli.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
-| → 位于（`located_at`） | [科尔托纳（Cortona）](../places/cortona.md) | 来源明确工程在 Cortona，具体教堂不明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
-| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 本章明确祭坛画由费里为拉帕雷利制作；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 507–508; print pp. 13 |
+| → 由其委托（`commissioned_by`） | [安尼巴莱·拉帕雷利（Annibale Laparelli）](../persons/annibale-laparelli.md) | 为 Laparelli 作祭坛画并议定 50 加 180 scudi 付款；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 507–508; print pp. 13 |
+| → 位于（`located_at`） | [科尔托纳（Cortona）](../places/cortona.md) | 来源明确工程在 Cortona，具体教堂不明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 507–508; print pp. 13 |
+| → 创作者（`created_by`） | [奇罗·费里（Ciro Ferri）](../persons/ciro-ferri.md) | 本章明确祭坛画由费里为拉帕雷利制作；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 507–508; print pp. 13 |

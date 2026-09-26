@@ -94,9 +94,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint Jerome Writing (Valletta version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与博尔盖塞版本分开；保管机构与实际安置地点分别表达。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [马耳他遗产局（Heritage Malta）](../institutions/heritage-malta.md) | 当前对象记录将Saint Jerome Writing (Valletta version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；held-by-institutions-heritage-malta-md；本卡S2；有S4时并参对象字段 |
-| → 安置于（`installed_at`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | 来源将Saint Jerome Writing (Valletta version)与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；installed-at-places-st-johns-co-cathedral-md；本卡S2；有S4时并参对象／地点说明 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Saint Jerome Writing (Valletta version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与博尔盖塞版本分开；保管机构与实际安置地点分别表达。；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [马耳他遗产局（Heritage Malta）](../institutions/heritage-malta.md) | 当前对象记录将Saint Jerome Writing (Valletta version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象字段 |
+| → 安置于（`installed_at`） | [圣约翰副主教座堂（St. John's Co-Cathedral）](../places/st-johns-co-cathedral.md) | 来源将Saint Jerome Writing (Valletta version)与该实际或历史安置地点对应；时间：见作品字段；角色：安置地点；范围：现存；证据：[来源](https://www.stjohnscocathedral.com/the-co-cathedral/caravaggio/)；src-8a1bb85e3ad9ab86；本卡S2；有S4时并参对象／地点说明 |
 
 ### 身份与外部链接
 

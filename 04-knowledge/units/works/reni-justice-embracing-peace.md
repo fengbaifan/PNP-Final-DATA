@@ -63,5 +63,5 @@ Reni的贡扎加《赫拉克勒斯功业》及其他题为“正义”的绘画�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 创作者（`created_by`，反向投影） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；原断言与证据见发出端卡片“圭多·雷尼（Guido Reni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
-| → 由其委托（`commissioned_by`） | [费迪南多·贡扎加（Ferdinando Gonzaga）](../persons/duke-mantua-reni-1617.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
+| ← 创作者（`created_by`，反向投影） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 该信向 Reni 委托，尚未由本章识别版本与完成时间；角色：信中受委托画家；范围：连接委托对象；版本、完成时间与存世状态未确认；原断言与证据见发出端卡片“圭多·雷尼（Guido Reni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 531–534; print pp. 14 |
+| → 由其委托（`commissioned_by`） | [费迪南多·贡扎加（Ferdinando Gonzaga）](../persons/duke-mantua-reni-1617.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 531–534; print pp. 14 |

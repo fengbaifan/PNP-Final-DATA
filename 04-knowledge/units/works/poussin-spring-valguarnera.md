@@ -79,5 +79,5 @@ WP沿用John Smith（1837）认为为Omodei枢机制作的旧说，并列现代V
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 创作者（`created_by`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
-| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 与安排完成《瘟疫》不同，这是全新委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 599–601; print pp. 15 |
+| ← 创作者（`created_by`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 接受另订《春》的画家；不由此证明成品现存；角色：另订《春》的受托画家；范围：连接委托对象；不证明成品现存；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |
+| → 由其委托（`commissioned_by`） | [法布里齐奥·瓦尔瓜尔内拉（Fabrizio Valguarnera）](../persons/fabrizio-valguarnera.md) | 与安排完成《瘟疫》不同，这是全新委托；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 599–601; print pp. 15 |

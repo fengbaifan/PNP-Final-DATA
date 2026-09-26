@@ -125,10 +125,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 师从／受训于（`trained_by`） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](gian-antonio-faldoni.md) | 角色：刻版学习；范围：DBI明称suo allievo Marco Pitteri；不以技术相似代替师承；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；persons-gian-antonio-faldoni；传记师生纠纷段：suo allievo Marco Pitteri |
-| → 合作（`collaborated_with`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](piazzetta.md) | 时间：1740年起，生前合作；角色：设计与刻版合作；范围：自1740开始的图像设计与刻版合作；Piazzetta1754去世后的复制不算在世合作；证据：[来源](https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/)；persons-marco-pitteri；合作段：iniziatasi nel 1740及Piazzetta卒年1754 |
-| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1702-05-24出生；1786-08-04去世；角色：出生／去世；范围：生卒均在威尼斯；证据：[来源](https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/)；persons-marco-pitteri；传记首句：nato a Venezia il 24 maggio 1702, ivi morto il 4 agosto 1786 |
-| ← 所创作对象（`creator_of`，反向投影） | [弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）](../works/marco-pitteri-flaminio-corner.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 126–126; 章前：图版目录；印刷页xv |
+| → 师从／受训于（`trained_by`） | [乔瓦尼·安东尼奥·法尔多尼（Giovanni Antonio Faldoni）](gian-antonio-faldoni.md) | 角色：刻版学习；范围：DBI明称suo allievo Marco Pitteri；不以技术相似代替师承；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-antonio-faldoni_(Dizionario-Biografico)/)；src-8a2aba0dcfccb875；传记师生纠纷段：suo allievo Marco Pitteri |
+| → 合作（`collaborated_with`） | [乔万尼·巴蒂斯塔·皮亚泽塔（Giovanni Battista Piazzetta）](piazzetta.md) | 时间：1740年起，生前合作；角色：设计与刻版合作；范围：自1740开始的图像设计与刻版合作；Piazzetta1754去世后的复制不算在世合作；证据：[来源](https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/)；src-90a4c36c19cd8534；合作段：iniziatasi nel 1740及Piazzetta卒年1754 |
+| → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：1702-05-24出生；1786-08-04去世；角色：出生／去世；范围：生卒均在威尼斯；证据：[来源](https://www.treccani.it/enciclopedia/marco-alvise-pitteri_(Enciclopedia-Italiana)/)；src-90a4c36c19cd8534；传记首句：nato a Venezia il 24 maggio 1702, ivi morto il 4 agosto 1786 |
+| ← 所创作对象（`creator_of`，反向投影） | [弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）](../works/marco-pitteri-flaminio-corner.md) | 角色：刻版者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“弗拉米尼奥·科尔内尔肖像（Portrait of Flaminio Corner）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

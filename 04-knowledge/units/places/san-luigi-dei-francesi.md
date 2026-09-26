@@ -46,7 +46,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [孔塔雷利礼拜堂（Contarelli Chapel）](contarelli-chapel.md) | 孔塔雷利礼拜堂位于法国圣路易堂内；范围：建筑内部礼拜堂；原断言与证据见发出端卡片“孔塔雷利礼拜堂（Contarelli Chapel）”：[来源](https://en.wikipedia.org/wiki/Contarelli_Chapel)；part-of-places-san-luigi-dei-francesi-md；正文导言与位置段 |
+| ← 包含成员（`contains`，反向投影） | [孔塔雷利礼拜堂（Contarelli Chapel）](contarelli-chapel.md) | 孔塔雷利礼拜堂位于法国圣路易堂内；范围：建筑内部礼拜堂；原断言与证据见发出端卡片“孔塔雷利礼拜堂（Contarelli Chapel）”：[来源](https://en.wikipedia.org/wiki/Contarelli_Chapel)；src-bf7256294c8171b5；正文导言与位置段 |
 
 ### 身份与外部链接
 

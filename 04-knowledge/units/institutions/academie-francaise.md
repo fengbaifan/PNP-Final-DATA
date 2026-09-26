@@ -41,4 +41,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [皮埃尔·罗森贝格（Pierre Rosenberg）](../persons/pierre-rosenberg.md) | 时间：1995-12-07当选；角色：院士；范围：第23席；1996-11-14接纳；原断言与证据见发出端卡片“皮埃尔·罗森贝格（Pierre Rosenberg）”：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；persons-pierre-rosenberg；Biographie末段 |
+| ← 包含成员（`contains`，反向投影） | [皮埃尔·罗森贝格（Pierre Rosenberg）](../persons/pierre-rosenberg.md) | 时间：1995-12-07当选；角色：院士；范围：第23席；1996-11-14接纳；原断言与证据见发出端卡片“皮埃尔·罗森贝格（Pierre Rosenberg）”：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；src-66832422578152de；Biographie末段 |

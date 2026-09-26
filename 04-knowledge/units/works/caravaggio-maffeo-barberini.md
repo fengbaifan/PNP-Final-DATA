@@ -164,12 +164,12 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：马费奥·巴贝里尼肖像人物；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 36–37; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中私人收藏所在城市；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 36–37; 章前：图版目录；印刷页xii |
-| → 创作者归属（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 原书称“Attributed to”；2026年馆方公告称主要研究者一致确认归属；范围：此件肖像；证据：[馆方购藏公告](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；S4；S5 |
-| → 由其取得（`acquired_by`） | [意大利共和国（Italian Republic）](../institutions/italian-state.md) | 时间：2026-03；角色：国家购藏者；范围：购买契约已签署，参议院页面仍称最终移交尚待完成；证据：[馆方公告](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；S4；S7 |
-| → 位于（`located_at`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 时间：2024-11–2025-07-06；角色：临时公开展出地点；不表示长期馆藏或产权；证据：[购藏公告](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；S4、S8；公告记持续展出至Caravaggio 2025闭幕，S8给出闭幕日期 |
-| → 位于（`located_at`） | [米涅瓦宫（Palazzo della Minerva）](../places/palazzo-della-minerva.md) | 时间：2026-05-28–2026-06-21；角色：购藏后的临时展出地点；所在展厅为Sala Capitolare；证据：[意大利参议院展览页](https://www.senato.it/CESUS/2026/caravaggio/)；S7；不表示已完成后续永久移交 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 角色：馆方及研究界确认的归属作者；范围：原书图版02a措辞为Attributed to；本关系保存归属性质，不改写原书表述；证据：[来源](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；src-b2e3c7c7f495a7ad；announcement, attribution and scholarly consensus paragraphs |
+| → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：马费奥·巴贝里尼肖像人物；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 36–37; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中私人收藏所在城市；范围：图版02a；巴贝里尼尚以Maffeo称名，不由后来的教宗身份推定作画时点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 36–37; 章前：图版目录；印刷页xii |
+| → 由其取得（`acquired_by`） | [意大利共和国（Italian Republic）](../institutions/italian-state.md) | 时间：2026-03；角色：国家购藏者；范围：2026年购藏公告记载购买契约已签署，价格为3000万欧元；参议院后续页面仍称最终移交尚待完成，不推断当前展出或实际保管地点；证据：[来源](https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/)；src-b2e3c7c7f495a7ad；purchase deed and acquisition paragraphs; corroborated by Senato exhibition page |
+| → 位于（`located_at`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 时间：2024-11–2025-07-06；角色：临时公开展出地点；范围：借展展出；不是长期馆藏或产权关系；证据：[来源](https://barberinicorsini.org/en/evento/caravaggio-the-portrait-unveiled/)；src-d3b34dfefb57729b；exhibition dates and full description; extended through Caravaggio 2025 per acquisition announcement |
+| → 位于（`located_at`） | [米涅瓦宫（Palazzo della Minerva）](../places/palazzo-della-minerva.md) | 时间：2026-05-28–2026-06-21；角色：收购后的临时展出地点；范围：展厅为Palazzo della Minerva内的Sala Capitolare；官网称后续拟移交至Palazzo Barberini，本关系不表示已完成该移交；证据：[来源](https://www.senato.it/CESUS/2026/caravaggio/)；src-708610f012c3469e；exhibition dates and venue; Sala Capitolare, Biblioteca del Senato |
 
 ### 身份与外部链接
 

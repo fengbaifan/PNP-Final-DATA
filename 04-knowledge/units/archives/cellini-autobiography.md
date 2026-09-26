@@ -56,7 +56,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [本韦努托·切利尼（Benvenuto Cellini）](../persons/benvenuto-cellini.md) | 本章明确引用 Cellini 的自传；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 634–635; print pp. 16 |
+| → 作者（`authored_by`） | [本韦努托·切利尼（Benvenuto Cellini）](../persons/benvenuto-cellini.md) | 本章明确引用 Cellini 的自传；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 634–635; print pp. 16 |
 
 ### 身份与外部链接
 

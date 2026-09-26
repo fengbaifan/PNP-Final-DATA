@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](../works/caravaggio-taking-christ-dublin.md) | 当前对象记录将The Taking of Christ (Dublin version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）”：[来源](https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0)；held-by-institutions-national-gallery-of-ireland-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）](../works/caravaggio-taking-christ-dublin.md) | 当前对象记录将The Taking of Christ (Dublin version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《逮捕基督》（都柏林版本）（The Taking of Christ (Dublin version)）”：[来源](https://www.nationalgallery.ie/art-and-artists/exhibitions/past-exhibitions/caravaggio-25-years-display/caravaggios-taking-0)；src-85ed34e6bf26e695；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

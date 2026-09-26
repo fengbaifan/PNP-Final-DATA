@@ -91,9 +91,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Incredulity of Saint Thomas (Sanssouci version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与页面所称私人收藏“教会版本”分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [无忧宫画廊（Sanssouci Picture Gallery）](../institutions/sanssouci-picture-gallery.md) | 当前对象记录将The Incredulity of Saint Thomas (Sanssouci version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；held-by-institutions-sanssouci-picture-gallery-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源明确该端点承担The Incredulity of Saint Thomas (Sanssouci version)的委托角色；不由委托推定当前所有权；时间：约1601–1602；角色：委托人／委托机构；范围：与页面所称私人收藏“教会版本”分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；commissioned-by-persons-marchese-giustiniani-ch1-md；本卡S2；有S4时并参委托／历史段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Incredulity of Saint Thomas (Sanssouci version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与页面所称私人收藏“教会版本”分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；src-00809e6dd9c338fd；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [无忧宫画廊（Sanssouci Picture Gallery）](../institutions/sanssouci-picture-gallery.md) | 当前对象记录将The Incredulity of Saint Thomas (Sanssouci version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；src-00809e6dd9c338fd；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [文琴佐·朱斯蒂尼亚尼（Vincenzo Giustiniani）](../persons/marchese-giustiniani-ch1.md) | 来源明确该端点承担The Incredulity of Saint Thomas (Sanssouci version)的委托角色；不由委托推定当前所有权；时间：约1601–1602；角色：委托人／委托机构；范围：与页面所称私人收藏“教会版本”分开。；证据：[来源](https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio))；src-00809e6dd9c338fd；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

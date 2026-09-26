@@ -143,11 +143,11 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·萨尔维（Giovanni Battista Salvi）](../persons/sassoferrato.md) | 时间：1643付款；角色：画家；范围：为Santa Sabina绘画，40 scudi付款；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；Madonna del Rosario委托及1643付款段 |
-| → 由其委托（`commissioned_by`） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 时间：1643付款所涉委托；角色：委托人；范围：来源称Olimpia Pamphili principessa di Rossano，并称其夫Camillo；采用该人身份，姓氏不表明1643已再婚；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；Madonna del Rosario委托、1643付款及Camillo suo marito段 |
-| → 拟用于（`intended_for`） | [圣撒比纳大殿（Santa Sabina all’Aventino）](../places/s-sabina.md) | 时间：1643付款所涉作品；角色：为之创作的教堂；范围：Madonna del Rosario；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；per la chiesa domenicana di S.Sabina及付款段 |
-| → 安置于（`installed_at`） | [埃尔奇小堂（Cappella d’Elci, Santa Sabina）](../places/cappella-delci-santa-sabina.md) | 角色：所引地点说明中的安置空间；范围：Madonna del Rosario；证据：[来源](https://www.italia.it/it/lazio/roma/s-sabina-all-aventino)；works-sassoferrato-madonna-of-the-rosary-with-saints-dominic-and-catherine；cappella d’Elci与Sassoferrato作品说明 |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版21a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 74–74; 章前：图版目录；印刷页xiii |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·萨尔维（Giovanni Battista Salvi）](../persons/sassoferrato.md) | 时间：1643付款；角色：画家；范围：为Santa Sabina绘画，40 scudi付款；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；src-56bce89cb622dfa1；Madonna del Rosario委托及1643付款段 |
+| → 由其委托（`commissioned_by`） | [奥林皮娅·阿尔多布兰迪尼（Olimpia Aldobrandini）](../persons/olimpia-aldobrandini.md) | 时间：1643付款所涉委托；角色：委托人；范围：来源称Olimpia Pamphili principessa di Rossano，并称其夫Camillo；采用该人身份，姓氏不表明1643已再婚；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；src-56bce89cb622dfa1；Madonna del Rosario委托、1643付款及Camillo suo marito段 |
+| → 拟用于（`intended_for`） | [圣撒比纳大殿（Santa Sabina all’Aventino）](../places/s-sabina.md) | 时间：1643付款所涉作品；角色：为之创作的教堂；范围：Madonna del Rosario；证据：[来源](https://www.treccani.it/enciclopedia/salvi-giovanni-battista-detto-il-sassoferrato_(Dizionario-Biografico)/)；src-56bce89cb622dfa1；per la chiesa domenicana di S.Sabina及付款段 |
+| → 安置于（`installed_at`） | [埃尔奇小堂（Cappella d’Elci, Santa Sabina）](../places/cappella-delci-santa-sabina.md) | 角色：所引地点说明中的安置空间；范围：Madonna del Rosario；证据：[来源](https://www.italia.it/it/lazio/roma/s-sabina-all-aventino)；src-ec7785b2c3c814ef；cappella d’Elci与Sassoferrato作品说明 |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版21a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 74–74; 章前：图版目录；印刷页xiii |
 
 ### 关系候选入口
 

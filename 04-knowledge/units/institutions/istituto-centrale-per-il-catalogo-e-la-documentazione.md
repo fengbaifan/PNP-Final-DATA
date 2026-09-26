@@ -46,7 +46,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [国家摄影室（Gabinetto Fotografico Nazionale）](gabinetto-fotografico-nazionale.md) | 时间：1975起；角色：组成机构；范围：1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动；原断言与证据见发出端卡片“国家摄影室（Gabinetto Fotografico Nazionale）”：[来源](https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale)；institutions-gabinetto-fotografico-nazionale；机构史1895设立与1975并入段 |
+| ← 包含成员（`contains`，反向投影） | [国家摄影室（Gabinetto Fotografico Nazionale）](gabinetto-fotografico-nazionale.md) | 时间：1975起；角色：组成机构；范围：1975年并入后作为ICCD组成部分继续运作；不记录为停止摄影活动；原断言与证据见发出端卡片“国家摄影室（Gabinetto Fotografico Nazionale）”：[来源](https://iccd.beniculturali.it/it/fotografia/gabinettofotograficonazionale)；src-780682a8b9f2588a；机构史1895设立与1975并入段 |
 
 ### 关系候选入口
 

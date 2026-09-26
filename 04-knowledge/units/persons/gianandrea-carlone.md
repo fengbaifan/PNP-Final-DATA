@@ -91,7 +91,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1675年9月11日获圣路加学院接纳；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/)；dbi-carlone；本卡 S6；1675年接纳段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1675年9月11日获圣路加学院接纳；证据：[来源](https://www.treccani.it/enciclopedia/giovanni-andrea-carlone_(Dizionario-Biografico)/)；src-86c5823bfdafd4e7；本卡 S6；1675年接纳段 |
 
 ### 身份与外部链接
 

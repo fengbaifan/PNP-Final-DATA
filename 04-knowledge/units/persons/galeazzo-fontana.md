@@ -64,5 +64,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 父亲（`child_of`，反向投影） | [弗朗切斯科·丰塔纳（Francesco Fontana）](francesco-fontana.md) | Tavernari称Galeazzo为其子；时间未载；原断言与证据见Francesco卡，印刷页67 |
-| → 成员（`member_of`） | [医院骑士团／马耳他骑士团（Knights Hospitaller）](../institutions/knights-hospitaller.md) | 1657年获准加入；开始日期按来源年份记录，终止时间未载；印刷页67 |
+| ← child_of（`child_of`，反向投影） | [弗朗切斯科·丰塔纳（Francesco Fontana）](francesco-fontana.md) | 角色：父亲；范围：Francesco Fontana与儿子Galeazzo Fontana；原断言与证据见发出端卡片“弗朗切斯科·丰塔纳（Francesco Fontana）”：[来源](https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf)；印刷页 67：Il figlio Galeazzo ... |
+| → 隶属／任职于（`member_of`） | [医院骑士团／马耳他骑士团（Knights Hospitaller）](../institutions/knights-hospitaller.md) | 时间：1657年获准加入；开始日期未载；角色：骑士团成员；范围：家族史所称骑士团入会及后续军职；不据此推定退出时间；证据：[来源](https://iris.unimore.it/retrieve/e31e124d-08e1-987f-e053-3705fe0a095a/FONTANA%20famiglia%20.pdf)；印刷页 67：ammissione nell’Ordine dei cavalieri di Malta avvenuta nel 1657 |

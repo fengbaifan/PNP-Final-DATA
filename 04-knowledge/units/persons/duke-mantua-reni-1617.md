@@ -86,7 +86,7 @@ Gino Benzoni，DBI第46卷（1996）本条；Paul F. Grendler, *The University o
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；原断言与证据见发出端卡片“雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 531–534; print pp. 14 |
+| ← 委托者（`commissioner_of`，反向投影） | [雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）](../works/reni-justice-embracing-peace.md) | 1617 年公爵给尺寸并许慷慨酬谢；只使用此时段公爵身份；原断言与证据见发出端卡片“雷尼《正义拥抱和平》委托（1617）（Reni’s Justice embracing Peace commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 531–534; print pp. 14 |
 
 ### 身份与外部链接
 

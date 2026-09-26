@@ -65,7 +65,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 预定地点（`intended_site_of`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | 争议稿本被说是为该宫画廊天顶设计，不表示稿本位于宫内；角色：所设计天顶的宫殿／画廊；范围：只表示设计对象，不表示稿本位于宫内；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 461–463; print pp. 12 |
+| → 预定地点（`intended_site_of`） | [归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）（Doria-Pamfili modelli attributed to Cortona (disputed)）](../works/cortona-doria-pamfili-modelli-disputed.md) | 争议稿本被说是为该宫画廊天顶设计，不表示稿本位于宫内；角色：所设计天顶的宫殿／画廊；范围：只表示设计对象，不表示稿本位于宫内；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 461–463; print pp. 12 |
 
 ### 身份与外部链接
 

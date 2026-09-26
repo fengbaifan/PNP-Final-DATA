@@ -93,9 +93,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Fortune Teller (Louvre second version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。；证据：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 当前对象记录将The Fortune Teller (Louvre second version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；held-by-institutions-louvre-museum-md；本卡S2；有S4时并参对象字段 |
-| → 为其版本／复制（`variant_of`） | [《算命者》（卡比托利欧第一版）（The Fortune Teller (Capitoline first version)）](caravaggio-fortune-teller-capitoline.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。；证据：[来源](https://en.wikipedia.org/wiki/The_Fortune_Teller_(Caravaggio))；variant-of-works-caravaggio-fortune-teller-capitoline-md；本卡S2；版本段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Fortune Teller (Louvre second version)归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。；证据：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；src-87aee525cbc6142c；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 当前对象记录将The Fortune Teller (Louvre second version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://collections.louvre.fr/ark:/53355/cl010062329)；src-87aee525cbc6142c；本卡S2；有S4时并参对象字段 |
+| → 为其版本／复制（`variant_of`） | [《算命者》（卡比托利欧第一版）（The Fortune Teller (Capitoline first version)）](caravaggio-fortune-teller-capitoline.md) | 本对象与所链对象为同题不同实物、版本或复制关系，不共享QID、尺寸或馆藏；角色：同题异版／复制关系；范围：与卡比托利欧第一版分开；Q2610675只用于卢浮宫对象。；证据：[来源](https://en.wikipedia.org/wiki/The_Fortune_Teller_(Caravaggio))；src-57c42d2fcd725c16；本卡S2；版本段 |
 
 ### 身份与外部链接
 

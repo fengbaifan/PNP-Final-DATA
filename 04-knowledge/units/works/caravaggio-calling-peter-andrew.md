@@ -81,8 +81,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Calling of Saints Peter and Andrew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2006年经修复重新确认为卡拉瓦乔作品；与同题复制品分开。；证据：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [英国皇家收藏（Royal Collection）](../institutions/royal-collection.md) | 当前对象记录将The Calling of Saints Peter and Andrew列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；held-by-institutions-royal-collection-md；本卡S2；有S4时并参对象字段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将The Calling of Saints Peter and Andrew归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：2006年经修复重新确认为卡拉瓦乔作品；与同题复制品分开。；证据：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；src-e0792e1250bad946；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [英国皇家收藏（Royal Collection）](../institutions/royal-collection.md) | 当前对象记录将The Calling of Saints Peter and Andrew列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew)；src-e0792e1250bad946；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

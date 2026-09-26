@@ -78,4 +78,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../archives/rosa-ruffo-letter-1666.md) | 信中把动笔条件归于热情与灵感；这是罗萨自述，不推广为一般规则；原断言与证据见发出端卡片“萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 937–947; print pp. 22 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）](../archives/rosa-ruffo-letter-1666.md) | 信中把动笔条件归于热情与灵感；这是罗萨自述，不推广为一般规则；原断言与证据见发出端卡片“萨尔瓦多·罗萨致安东尼奥·鲁福的信（1666-04-01）（Letter from Salvator Rosa to Antonio Ruffo (1666-04-01)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 937–947; print pp. 22 |

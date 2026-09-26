@@ -69,5 +69,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [奥诺拉托·吉尼（Onorato Gini）](../persons/onorato-gini.md) | 本章署 Gini，信经 Claretta 概述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 415–418; print pp. 11 |
-| → 所涉对象（`has_subject`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 383–385,415–418; print pp. 11 |
+| → 作者（`authored_by`） | [奥诺拉托·吉尼（Onorato Gini）](../persons/onorato-gini.md) | 本章署 Gini，信经 Claretta 概述；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 415–418; print pp. 11 |
+| → 所涉对象（`has_subject`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](../persons/pietro-da-cortona.md) | 信中讨论 Cortona 拒绝自行选题；不标为 Cortona 写的信；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 383–385,415–418; print pp. 11 |

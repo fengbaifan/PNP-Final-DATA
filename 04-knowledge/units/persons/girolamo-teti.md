@@ -72,7 +72,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所著文献（`author_of`，反向投影） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642出版；角色：文字作者；范围：馆方明确的文字作者，不是全书插图刻版者；原断言与证据见发出端卡片“奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）”：[来源](https://www.metmuseum.org/art/collection/search/344493)；archives-aedes-barberinae-ad-quirinalem；Artwork Details：Author、Date |
+| ← 所著文献（`author_of`，反向投影） | [奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）](../archives/aedes-barberinae-ad-quirinalem.md) | 时间：1642出版；角色：文字作者；范围：馆方明确的文字作者，不是全书插图刻版者；原断言与证据见发出端卡片“奎里纳尔山的巴贝里尼宫（Aedes Barberinae ad Quirinalem）”：[来源](https://www.metmuseum.org/art/collection/search/344493)；src-520740f991f12562；Artwork Details：Author、Date |
 
 ### 关系候选入口
 

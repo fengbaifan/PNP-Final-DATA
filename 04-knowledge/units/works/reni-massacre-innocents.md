@@ -79,7 +79,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 373–375; print pp. 10 |
+| → 创作者（`created_by`） | [圭多·雷尼（Guido Reni）](../persons/guido-reni.md) | 本章提及 Reni 的同题作品；寻找合同是作者愿望，非已核合同；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 373–375; print pp. 10 |
 
 ### 身份与外部链接
 

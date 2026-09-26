@@ -83,7 +83,7 @@ Met **65.137**《圣塞巴斯蒂安被棍棒击杀》（Saint Sebastian Clubbed 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](../archives/camassei-sebastian-receipt.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；原断言与证据见发出端卡片“卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
-| → 由其委托（`commissioned_by`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372,514–516; print pp. 10,13 |
-| → 位于（`located_at`） | [帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）](../places/san-sebastiano-palatine.md) | 委托的指定安装场所，非今日现场核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338; print pp. 10 |
-| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 335–338,372–374; print pp. 10 |
+| → 由其委托（`commissioned_by`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | Urban VIII 祭坛画委托，材料自付条款与画家收据参照并读；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338,372,514–516; print pp. 10,13 |
+| → 位于（`located_at`） | [帕拉蒂尼山圣塞巴斯蒂安堂（S. Sebastiano on the Palatine）](../places/san-sebastiano-palatine.md) | 委托的指定安装场所，非今日现场核验；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338; print pp. 10 |
+| → 创作者（`created_by`） | [安德烈亚·卡马塞伊（Andrea Camassei）](../persons/andrea-camassei.md) | 付款令与传记确认卡马塞伊为画家；文书同一性争议不影响作者身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338,372–374; print pp. 10 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）](../archives/camassei-sebastian-receipt.md) | 付款令用于确认该祭坛画的画家、尺寸、题材与付款语境；与另一“合同”卡是否同一文书仍待原档核实；原断言与证据见发出端卡片“卡马塞伊圣塞巴斯蒂安祭坛画付款令刊录（Published Payment Order for Camassei’s Saint Sebastian Altarpiece）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 335–338,372–374; print pp. 10 |

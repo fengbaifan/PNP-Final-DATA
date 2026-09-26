@@ -64,5 +64,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](../persons/amadeo-swajer.md) | 时间：1752年加入；角色：学会会员；范围：学会吸收为会员，学名Marsio；不推定终止年份；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.58第2节首段；PDF第8页 |
-| → 位于（`located_at`） | [罗韦雷托（Rovereto）](../places/rovereto.md) | 时间：18世纪语境；角色：机构所在城市；范围：研究中的学会所在城市；不推定具体建筑地址；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.58第2节；PDF第8页 |
+| ← 包含成员（`contains`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](../persons/amadeo-swajer.md) | 时间：1752年加入；角色：学会会员；范围：学会吸收为会员，学名Marsio；不推定终止年份；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.58第2节首段；PDF第8页 |
+| → 位于（`located_at`） | [罗韦雷托（Rovereto）](../places/rovereto.md) | 时间：18世纪语境；角色：机构所在城市；范围：研究中的学会所在城市；不推定具体建筑地址；证据：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.58第2节；PDF第8页 |

@@ -49,4 +49,4 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#第�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 朋友（`friend_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：朋友、婚礼证人及遗嘱执行人；范围：传记明确称朋友；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43, 53 |
+| ← 朋友（`friend_of`，反向投影） | [奥塔维奥·莱奥尼（Ottavio Leoni）](ottavio-leoni.md) | 角色：朋友、婚礼证人及遗嘱执行人；范围：传记明确称朋友；原断言与证据见发出端卡片“奥塔维奥·莱奥尼（Ottavio Leoni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43, 53 |

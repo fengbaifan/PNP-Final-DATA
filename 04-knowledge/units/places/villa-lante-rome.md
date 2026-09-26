@@ -47,7 +47,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [罗马芬兰研究所（Finnish Institute in Rome）](../institutions/finnish-institute.md) | 角色：机构使用建筑；范围：机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置；原断言与证据见发出端卡片“罗马芬兰研究所（Finnish Institute in Rome）”：[来源](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)；institutions-finnish-institute；机构介绍与地址：Villa Lante，Gianicolo |
+| ← 所在地（`location_of`，反向投影） | [罗马芬兰研究所（Finnish Institute in Rome）](../institutions/finnish-institute.md) | 角色：机构使用建筑；范围：机构使用的罗马Villa Lante建筑；不等于建筑所有权，也不确定作品原定安置；原断言与证据见发出端卡片“罗马芬兰研究所（Finnish Institute in Rome）”：[来源](https://www.turismoroma.it/it/luoghi/istituto-finlandese-di-roma)；src-7084eff1ba7b3d09；机构介绍与地址：Villa Lante，Gianicolo |
 
 ### 关系候选入口
 

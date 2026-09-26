@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《果篮》（Basket of Fruit）](../works/caravaggio-basket-of-fruit.md) | 当前对象记录将Basket of Fruit列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《果篮》（Basket of Fruit）”：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；held-by-institutions-pinacoteca-ambrosiana-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《果篮》（Basket of Fruit）](../works/caravaggio-basket-of-fruit.md) | 当前对象记录将Basket of Fruit列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《果篮》（Basket of Fruit）”：[来源](https://www.ambrosiana.it/en/opere/basket-of-fruit/)；src-686b416aa7663314；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

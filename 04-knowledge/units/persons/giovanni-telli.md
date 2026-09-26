@@ -88,8 +88,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 配偶（`spouse_of`，反向投影） | [卡特里娜·库基亚罗尼（Caterina Cucchiaroni）](caterina-cucchiaroni.md) | 角色：前配偶；范围：此前婚姻；原断言与证据见发出端卡片“卡特里娜·库基亚罗尼（Caterina Cucchiaroni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| → parent_of（`parent_of`） | [巴蒂斯塔（卡特里娜与乔瓦尼之子）（Battista (son of Caterina and Giovanni)）](battista-telli.md) | 角色：儿子；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| → parent_of（`parent_of`） | [马达莱娜·泰利（Maddalena Telli）](maddalena-telli.md) | 角色：女儿；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| → parent_of（`parent_of`） | [伊波利托·莱奥尼（Ippolito Leoni）](ippolito-leoni.md) | 角色：儿子；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
-| → parent_of（`parent_of`） | [欧弗拉西亚（卡特里娜与乔瓦尼之女）（Eufrasia (daughter of Caterina and Giovanni)）](eufrasia-telli.md) | 角色：女儿；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；valentina-sapienza-leoni-ottavio-dizionario-biografico-degli-italiani-64-2005；lines 43–44 |
+| ← 配偶（`spouse_of`，反向投影） | [卡特里娜·库基亚罗尼（Caterina Cucchiaroni）](caterina-cucchiaroni.md) | 角色：前配偶；范围：此前婚姻；原断言与证据见发出端卡片“卡特里娜·库基亚罗尼（Caterina Cucchiaroni）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| → parent_of（`parent_of`） | [巴蒂斯塔（卡特里娜与乔瓦尼之子）（Battista (son of Caterina and Giovanni)）](battista-telli.md) | 角色：儿子；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| → parent_of（`parent_of`） | [马达莱娜·泰利（Maddalena Telli）](maddalena-telli.md) | 角色：女儿；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| → parent_of（`parent_of`） | [伊波利托·莱奥尼（Ippolito Leoni）](ippolito-leoni.md) | 角色：儿子；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |
+| → parent_of（`parent_of`） | [欧弗拉西亚（卡特里娜与乔瓦尼之女）（Eufrasia (daughter of Caterina and Giovanni)）](eufrasia-telli.md) | 角色：女儿；范围：前婚子女；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 43–44 |

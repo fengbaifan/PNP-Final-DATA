@@ -80,8 +80,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 时间：约1725–1729系列委托；角色：系列委托组织者；范围：NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography)；works-canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson；All known portraits末段：纪念画系列委托与Moores原画 |
-| ← 为其所涉对象（`subject_of`，反向投影） | [欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）](../works/p-van-bleek-owen-mcswiny.md) | 角色：肖像人物；范围：图版52a；载体与具体馆藏号未定；原断言与证据见发出端卡片“欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
+| ← 委托者（`commissioner_of`，反向投影） | [蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）](../works/canaletto-allegorical-tomb-to-the-memory-of-archbishop-tillotson.md) | 时间：约1725–1729系列委托；角色：系列委托组织者；范围：NPG末段所述纪念画系列；不将整个系列委托时段细化为此画独立完工日期；原断言与证据见发出端卡片“蒂洛特森大主教寓意纪念墓（Allegorical Tomb to the memory of Archbishop Tillotson）”：[来源](https://www.npg.org.uk/collections/search/personExtended/mp04507/john-tillotson?tab=iconography)；src-ca05400e2f7122b3；All known portraits末段：纪念画系列委托与Moores原画 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）](../works/p-van-bleek-owen-mcswiny.md) | 角色：肖像人物；范围：图版52a；载体与具体馆藏号未定；原断言与证据见发出端卡片“欧文·麦克斯温尼肖像（Portrait of Owen McSwiny）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 130–130; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

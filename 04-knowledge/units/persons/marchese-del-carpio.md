@@ -120,10 +120,10 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：1687；角色：去世地点；范围：个人生命事件；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；persons-marchese-del-carpio；Provenance：1687卒于Naples |
-| → 位于（`located_at`） | [马德里（Madrid）](../places/madrid.md) | 时间：1629；角色：出生地点；范围：加斯帕尔·德阿罗个人出生事件；证据：[来源](https://www.ceeh.es/publicacion/la-corte-en-llamas-proceso-al-marques-de-heliche-1662-1663/)；ceeh-corte-en-llamas-presentation；人物介绍首段：Madrid, 1629 – Nápoles, 1687 |
-| ← introducer_of（`introducer_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：引介至罗马画家圈；范围：约1682年；引见给Morandi；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；paola-santucci-de-matteis-paolo-dizionario-biografico-degli-italiani-38-1990；lines 29–31 |
-| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：Massimi去世后至1687去世；角色：历史所有人；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；works-velasquez-camillo-massimi；Caption及Provenance：Gaspar de Haro |
+| → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：1687；角色：去世地点；范围：个人生命事件；证据：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance：1687卒于Naples |
+| → 位于（`located_at`） | [马德里（Madrid）](../places/madrid.md) | 时间：1629；角色：出生地点；范围：加斯帕尔·德阿罗个人出生事件；证据：[来源](https://www.ceeh.es/publicacion/la-corte-en-llamas-proceso-al-marques-de-heliche-1662-1663/)；src-2563b14fedb99d67；人物介绍首段：Madrid, 1629 – Nápoles, 1687 |
+| ← introducer_of（`introducer_of`，反向投影） | [保罗·德·马泰伊斯（Paolo de Matteis）](paolo-de-matteis.md) | 角色：引介至罗马画家圈；范围：约1682年；引见给Morandi；原断言与证据见发出端卡片“保罗·德·马泰伊斯（Paolo de Matteis）”：[来源](https://www.treccani.it/enciclopedia/paolo-de-matteis_(Dizionario-Biografico)/)；src-d121d56e5863bb67；lines 29–31 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：Massimi去世后至1687去世；角色：历史所有人；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Caption及Provenance：Gaspar de Haro |
 
 ### 身份与外部链接
 

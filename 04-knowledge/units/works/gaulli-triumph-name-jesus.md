@@ -89,9 +89,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | 角色：原书署名作者；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 61–62; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 61–62; 章前：图版目录；印刷页xii |
-| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 61–62; 章前：图版目录；印刷页xii |
+| → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | 角色：原书署名作者；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
 
 ### 关系候选入口
 

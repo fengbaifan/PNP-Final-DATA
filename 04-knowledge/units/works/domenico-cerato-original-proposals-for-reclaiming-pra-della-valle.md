@@ -99,9 +99,9 @@ relations:
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [斯特恩父子摄影商号（Stearn & Sons）](../institutions/stearn-and-son.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；patrons-and-painters；PDF13；印刷xvi；图片来源；lines 171–171 |
-| → 创作者（`created_by`） | [多梅尼科·切拉托（Domenico Cerato）](../persons/domenico-cerato.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
-| → 拟用于（`intended_for`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：整治方案所拟用于的广场；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 147–147; 章前：图版目录；印刷页xvi |
+| → 由其供应（`supplied_by`） | [斯特恩父子摄影商号（Stearn & Sons）](../institutions/stearn-and-son.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版63的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；haskell-1980-rev-ed；PDF13；印刷xvi；图片来源；lines 171–171 |
+| → 创作者（`created_by`） | [多梅尼科·切拉托（Domenico Cerato）](../persons/domenico-cerato.md) | 角色：原书署名作者；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 147–147; 章前：图版目录；印刷页xvi |
+| → 拟用于（`intended_for`） | [Prà广场（Prà della Valle）](../places/pra-della-valle.md) | 角色：整治方案所拟用于的广场；范围：原书图版署名及题名；不据此外推具体印本或现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 147–147; 章前：图版目录；印刷页xvi |
 
 ### 关系候选入口
 

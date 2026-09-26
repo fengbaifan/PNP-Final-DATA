@@ -100,9 +100,9 @@ Mattia Preti在1665年致Ruffo信中的赞誉由DBI转引，不自动证明对�
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；学院活动与任职段 |
-| → 师从／受训于（`trained_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点；时间：1646–1647；角色：学生；范围：兰弗兰科训练阶段；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；dbi-brandi；本卡 S7；1646–1647训练段 |
-| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；dbi-nuzzi；本卡 S7；Quattro stagioni合作段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 曾任圣路加学院Prince；会议参与和负责人职务支持成员归属；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；src-54f6d0159c4013fc；本卡 S7；学院活动与任职段 |
+| → 师从／受训于（`trained_by`） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | DBI将其在兰弗兰科处学习限定于1646至1647年；其他早期教师未在本轮建立端点；时间：1646–1647；角色：学生；范围：兰弗兰科训练阶段；证据：[来源](https://www.treccani.it/enciclopedia/giacinto-brandi_(Dizionario-Biografico)/)；src-54f6d0159c4013fc；本卡 S7；1646–1647训练段 |
+| ← 合作（`collaborated_with`，反向投影） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 1658–1659年Chigi《四季》系列中，Nuzzi绘花卉，Brandi为《秋》绘人物；时间：1658–1659；角色：花卉画家／人物画家；范围：Chigi《四季》之《秋》；不推广为全部作品的长期合作；原断言与证据见发出端卡片“马里奥·努齐（Mario Nuzzi）”：[来源](https://www.treccani.it/enciclopedia/mario-nuzzi_(Dizionario-Biografico)/)；src-79314a94389e3534；本卡 S7；Quattro stagioni合作段 |
 
 ### 身份与外部链接
 

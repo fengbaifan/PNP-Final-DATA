@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 委托者（`commissioner_of`，反向投影） | [《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）](../works/caravaggio-martyrdom-saint-ursula.md) | 来源明确该端点承担The Martyrdom of Saint Ursula的委托角色；不由委托推定当前所有权；时间：1610；角色：委托人／委托机构；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；原断言与证据见发出端卡片“《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）”：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；commissioned-by-persons-marcantonio-i-doria-md；本卡S2；有S4时并参委托／历史段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）](../works/caravaggio-martyrdom-saint-ursula.md) | 来源明确该端点承担The Martyrdom of Saint Ursula的委托角色；不由委托推定当前所有权；时间：1610；角色：委托人／委托机构；范围：页面及馆方将其列为卡拉瓦乔最后阶段作品；自画像解释保留为图像学判断。；原断言与证据见发出端卡片“《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）”：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；src-1e91456fb9a932e4；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

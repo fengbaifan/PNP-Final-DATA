@@ -45,8 +45,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 当前对象记录将The Seven Works of Mercy列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；held-by-institutions-pio-monte-della-misericordia-md；本卡S2；有S4时并参对象字段 |
-| ← 委托者（`commissioner_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 来源明确该端点承担The Seven Works of Mercy的委托角色；不由委托推定当前所有权；时间：1606–1607；角色：委托人／委托机构；范围：仍在委托机构建筑内；委托者、保管者和安置地点角色分开。；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；commissioned-by-institutions-pio-monte-della-misericordia-md；本卡S2；有S4时并参委托／历史段 |
+| ← 保管对象（`holder_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 当前对象记录将The Seven Works of Mercy列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；src-43f05420d43d66ef；本卡S2；有S4时并参对象字段 |
+| ← 委托者（`commissioner_of`，反向投影） | [《七件善事》（The Seven Works of Mercy）](../works/caravaggio-seven-works-mercy.md) | 来源明确该端点承担The Seven Works of Mercy的委托角色；不由委托推定当前所有权；时间：1606–1607；角色：委托人／委托机构；范围：仍在委托机构建筑内；委托者、保管者和安置地点角色分开。；原断言与证据见发出端卡片“《七件善事》（The Seven Works of Mercy）”：[来源](https://www.piomontedellamisericordia.it/portfolio/michelangelo-merisi-detto-caravaggio-le-opere-della-misericordia-1607/)；src-43f05420d43d66ef；本卡S2；有S4时并参委托／历史段 |
 
 ### 身份与外部链接
 

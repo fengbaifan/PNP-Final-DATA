@@ -38,6 +38,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#圣�
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [墨西拿圣额我略堂（Church of San Gregorio, Messina）](chiesa-san-gregorio-messina.md) | 市级文化导览将圣额我略堂与相连修院列入墨西拿城市历史；角色：所在城市；范围：历史建筑地点；不指代修院法人；原断言与证据见发出端卡片“墨西拿圣额我略堂（Church of San Gregorio, Messina）”：[来源](https://visitme.comune.messina.it/en/node/433)；src-dbe99f06e2f41e1e；历史段；圣额我略堂与相连修院；1880年及1908年事件 |
+
 暂无本项目已确认的正式出向关系。
 
 ### 身份与外部链接

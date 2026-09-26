@@ -42,4 +42,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所在地（`location_of`，反向投影） | [多梅尼科·马里亚·维亚尼（Domenico Maria Viani）](../persons/domenico-maria-viani.md) | 时间：1711；角色：去世；范围：条目明确生卒地点；原断言与证据见发出端卡片“多梅尼科·马里亚·维亚尼（Domenico Maria Viani）”：[来源](https://www.treccani.it/enciclopedia/viani/)；persons-domenico-maria-viani；Domenico Maria生卒括注 |
+| ← 所在地（`location_of`，反向投影） | [多梅尼科·马里亚·维亚尼（Domenico Maria Viani）](../persons/domenico-maria-viani.md) | 时间：1711；角色：去世；范围：条目明确生卒地点；原断言与证据见发出端卡片“多梅尼科·马里亚·维亚尼（Domenico Maria Viani）”：[来源](https://www.treccani.it/enciclopedia/viani/)；src-4d2895f1756e41e0；Domenico Maria生卒括注 |

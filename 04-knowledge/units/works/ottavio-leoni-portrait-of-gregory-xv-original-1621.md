@@ -72,5 +72,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：约1621年；范围：佚失原作；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
-| → 所涉对象（`has_subject`） | [格列高利十五世（Gregory XV）](../persons/gregory-xv.md) | 时间：约1621年；角色：肖像对象；范围：佚失原作；证据：[Treccani DBI](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)，lines 48 |
+| → 创作者（`created_by`） | [奥塔维奥·莱奥尼（Ottavio Leoni）](../persons/ottavio-leoni.md) | 时间：约1621年；角色：创作者；范围：约1621年绘制的原作；与学院委托的后续布面复制品分开；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
+| → 所涉对象（`has_subject`） | [格列高利十五世（Gregory XV）](../persons/gregory-xv.md) | 时间：约1621年；角色：肖像对象；范围：教皇Gregory XV Ludovisi；原作已佚；证据：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |

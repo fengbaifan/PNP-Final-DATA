@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""关系表读取：relations.csv 是关系唯一源，本模块提供 relation-index.yml 兼容读取。
+"""关系表读取：relations.csv 是关系唯一源，本模块提供兼容读取。
 
 脚本只改「读入」这一处：把 relations.csv 读成 relation-index.yml 兼容的边列表，
 其余字段用默认值补齐，避免下游脚本逐处改字段名。
@@ -25,7 +25,7 @@ TYPE_SINGULAR = {
 REVIEW_STATUS = {
     "formal": "evidence_backed_relation",
     "pending": "needs_evidence",
-    "rejected": "conflict",
+    "rejected": "rejected_relation",
 }
 
 
@@ -43,16 +43,30 @@ def _type_of(ku_id: str) -> str:
 def load_relations(path: Path | None = None) -> list[dict]:
     path = path or RELATIONS_CSV
     if not path.exists():
-        return []
-    with open(path, encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+        raise FileNotFoundError(f"authoritative relation table not found: {path}")
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        required = {"relation_id", "subject_ku_id", "object_ku_id", "predicate", "status", "origin",
+                    "source_id", "source_file", "source_span"}
+        missing = required - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"relations.csv missing required columns: {', '.join(sorted(missing))}")
+        rows = list(reader)
     edges: list[dict] = []
     for r in rows:
         subj = r.get("subject_ku_id", "")
         obj = r.get("object_ku_id", "")
         pred = r.get("predicate", "")
-        status = r.get("status", "formal")
+        status = r.get("status", "")
+        if status not in REVIEW_STATUS:
+            raise ValueError(f"{r.get('relation_id') or '<unknown>'}: unsupported relation status {status!r}")
+        evidence_ref = {
+            "doc_id": r.get("source_id", "") or "",
+            "source_file": r.get("source_file", "") or "",
+            "source_span": r.get("source_span", "") or "",
+        }
         edges.append({
+            "relation_id": r.get("relation_id", "") or "",
             "source": _idx_style(subj),
             "target": _idx_style(obj),
             "source_type": _type_of(subj),
@@ -63,13 +77,9 @@ def load_relations(path: Path | None = None) -> list[dict]:
             "role": r.get("role", "") or "",
             "scope": r.get("scope", "") or "",
             "review_status": REVIEW_STATUS.get(status, "evidence_backed_relation"),
-            "relation_source": "explicit" if r.get("origin") != "inferred" else "inferred_by_rule",
-            "evidence_ref": {
-                "doc_id": r.get("evidence_doc_id", "") or "",
-                "source_file": r.get("evidence_source_file", "") or "",
-                "source_span": r.get("evidence_span", "") or "",
-            },
-            "note": "",
+            "relation_source": "inferred_by_rule" if r.get("origin") == "inferred" else "explicit",
+            "evidence_ref": evidence_ref if any(evidence_ref.values()) else None,
+            "note": r.get("note", "") or "",
             "evidence": "",
             "claim_id": None,
             "confidence": "medium",

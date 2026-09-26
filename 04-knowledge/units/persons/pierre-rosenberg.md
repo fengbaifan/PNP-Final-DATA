@@ -117,10 +117,10 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；patrons-and-painters；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
-| → 受雇于（`employed_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 时间：1962–2001-04-13；角色：助理、策展负责人；后任院长；范围：1962进入绘画部；1994-10至2001-04-13任院长，不将院长头衔倒推至1962；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；persons-pierre-rosenberg；Biographie前两段 |
-| → 隶属／任职于（`member_of`） | [法兰西学院（Académie française）](../institutions/academie-francaise.md) | 时间：1995-12-07当选；角色：院士；范围：第23席；1996-11-14接纳；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；persons-pierre-rosenberg；Biographie末段 |
-| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1936-04-13；角色：出生；范围：出生地；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；persons-pierre-rosenberg；Biographie首句 |
+| → 受雇于（`employed_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 时间：1962–2001-04-13；角色：助理、策展负责人；后任院长；范围：1962进入绘画部；1994-10至2001-04-13任院长，不将院长头衔倒推至1962；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；src-66832422578152de；Biographie前两段 |
+| → 隶属／任职于（`member_of`） | [法兰西学院（Académie française）](../institutions/academie-francaise.md) | 时间：1995-12-07当选；角色：院士；范围：第23席；1996-11-14接纳；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；src-66832422578152de；Biographie末段 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | 时间：1936-04-13；角色：出生；范围：出生地；证据：[来源](https://www.academie-francaise.fr/les-immortels/pierre-rosenberg)；src-66832422578152de；Biographie首句 |
+| ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：新版建议与帮助；范围：第二版序言集体致谢书目、图版建议及其他帮助；未逐人指定具体分工；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–13; 章前：第二版序言；印刷页vi；PDF 4 |
 
 ### 关系候选入口
 

@@ -68,7 +68,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../archives/negri-san-tommaso-letter-1676.md) | 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人；原断言与证据见发出端卡片“保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 889–900; print pp. 21 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../archives/negri-san-tommaso-letter-1676.md) | 信中以乔万尼·佩鲁吉尼的行为说明当时关于画家与疯狂的看法；评价归于发信人；原断言与证据见发出端卡片“保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 889–900; print pp. 21 |
 
 ### 身份与外部链接
 

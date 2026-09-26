@@ -94,9 +94,9 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [彼得·范·布莱克（Peter van Bleeck）](../persons/p-van-bleek.md) | 角色：原书创作者署名；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [欧文·麦克斯温尼（Owen MacSwinny）](../persons/owen-mcswiny.md) | 角色：肖像人物；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
-| → 由其保管（`held_by`） | [伦敦国家肖像馆（National Portrait Gallery, London）](../institutions/national-portrait-gallery.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；patrons-and-painters；lines 130–130; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [彼得·范·布莱克（Peter van Bleeck）](../persons/p-van-bleek.md) | 角色：原书创作者署名；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 130–130; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [欧文·麦克斯温尼（Owen MacSwinny）](../persons/owen-mcswiny.md) | 角色：肖像人物；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 130–130; 章前：图版目录；印刷页xv |
+| → 由其保管（`held_by`） | [伦敦国家肖像馆（National Portrait Gallery, London）](../institutions/national-portrait-gallery.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版52a；载体与具体馆藏号未定；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 130–130; 章前：图版目录；印刷页xv |
 
 ### 关系候选入口
 

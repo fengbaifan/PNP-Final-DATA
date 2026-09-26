@@ -162,6 +162,11 @@ def main() -> int:
     parser.add_argument("plan")
     parser.add_argument("--apply", action="store_true", help="apply after full validation; default is dry-run")
     args = parser.parse_args()
+    if args.apply:
+        raise SystemExit(
+            "The legacy apply path writes card frontmatter and is retired during table migration. "
+            "Record adjudicated edges in relations.csv; use build_cards.py --preview --ku <ku_id> to inspect projection."
+        )
 
     plan_path = Path(args.plan)
     if not plan_path.is_absolute():

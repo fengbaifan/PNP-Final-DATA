@@ -64,7 +64,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#maggi
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 买方（`acquired_by`，反向投影） | [皮内利委托的168幅肖像组](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 购买者为Pisani家族圣斯德望支系；时间：1787；范围：整体肖像组，不推定成员个人购藏；原断言与证据见作品卡S1 lines 46–47 |
+| ← 取得者（`acquirer_of`，反向投影） | [皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）](../works/francesco-maggiotto-portraits-of-doges-1778.md) | 时间：1787；角色：购买者家族支系；范围：1787年售出的整个168幅肖像组；不表示此后永久或当前所有权；原断言与证据见发出端卡片“皮内利委托的168幅威尼斯显贵肖像组（Maffeo Pinelli commission of 168 Venetian dignitary portraits）”：[来源](https://www.treccani.it/enciclopedia/pinelli_(Dizionario-Biografico)/)；src-6629a59f168227a1；lines 46–47 |
 
 ### 对齐状态
 

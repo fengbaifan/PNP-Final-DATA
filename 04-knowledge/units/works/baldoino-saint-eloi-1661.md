@@ -96,8 +96,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#巴�
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | Thevenon将该画列入Giovanni-Gaspare作品并记签名；法国文化部目录的作者规范项为F. Baudoin、纪年1661。教堂官网和意大利语页面另将其记为B.／Bernardino Baldoino、1646；该异文作为归属冲突保留，不另建第二作品或添加Bernardin的正式创作边。 |
-| → 目录所列地点（`located_at`） | [尼斯圣雷帕拉塔主教座堂（Cathédrale Sainte-Réparate de Nice）](../places/cathedrale-sainte-reparate-nice.md) | 法国文化部目录将作品列在Sainte-Rose-de-Lima小堂；访问记录确认该目录位置，安装时间未载。 |
+| → 创作者（`created_by`） | [乔瓦尼·加斯帕雷·巴尔多伊诺（Giovanni Gaspare Baldoino）](../persons/gio-gasparo-baldoini.md) | 时间：1661；角色：创作者／作者归属；范围：Thevenon将Saint Eloi与圣若翰洗者、圣安德烈的画作列入Baldoino作品，并引述签名；签名展开形式据法国文化部目录；证据：[来源](https://cinumedpub.mmsh.fr/Provence-historique/Pdf/PH-2016-65-259_3.pdf)；printed pp.31–32, note 31; PDF pp.7–8 |
+| → 位于（`located_at`） | [尼斯圣雷帕拉塔主教座堂（Cathédrale Sainte-Réparate de Nice）](../places/cathedrale-sainte-reparate-nice.md) | 角色：文化遗产目录所列现址；范围：目录把藏品定位在尼斯圣雷帕拉塔主教座堂的Sainte-Rose-de-Lima小堂；未给安装日期，不推定连续陈列时段；证据：[来源](https://pop.culture.gouv.fr/notice/palissy/PM06000568)；src-25bd8d942b11c5ab；Localisation；Cathédrale Sainte-Réparate, chapelle Sainte-Rose de Lima |
 
 ### 身份与外部链接
 

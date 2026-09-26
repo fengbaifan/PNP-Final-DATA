@@ -40,4 +40,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 包含成员（`contains`，反向投影） | [霍华德·希巴德（Howard Hibbard）](../persons/howard-hibbard.md) | 时间：1969；角色：当选成员；范围：成员目录Elected1969；不据此指定Columbia任期；原断言与证据见发出端卡片“霍华德·希巴德（Howard Hibbard）”：[来源](https://www.amacad.org/person/howard-hibbard)；persons-howard-hibbard；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |
+| ← 包含成员（`contains`，反向投影） | [霍华德·希巴德（Howard Hibbard）](../persons/howard-hibbard.md) | 时间：1969；角色：当选成员；范围：成员目录Elected1969；不据此指定Columbia任期；原断言与证据见发出端卡片“霍华德·希巴德（Howard Hibbard）”：[来源](https://www.amacad.org/person/howard-hibbard)；src-0fd5028d6ce7d489；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |

@@ -104,10 +104,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Adoration of the Shepherds归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；created-by-persons-caravaggio-md；本卡S2；有S4时并参对象字段 |
-| → 由其保管（`held_by`） | [墨西拿区域博物馆（Regional Museum of Messina）](../institutions/regional-museum-messina.md) | 当前对象记录将Adoration of the Shepherds列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；held-by-institutions-regional-museum-messina-md；本卡S2；有S4时并参对象字段 |
-| → 由其委托（`commissioned_by`） | [嘉布遣会（Capuchins）](../institutions/capuchins.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；commissioned-by-institutions-capuchins-md；本卡S2；有S4时并参委托／历史段 |
-| → 拟用于（`intended_for`） | [墨西拿天使圣母教堂（Church of Santa Maria degli Angeli, Messina）](../places/santa-maria-degli-angeli-messina.md) | Adoration of the Shepherds原定用于该建筑或礼拜堂；时间：1609；角色：原定安置地点；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；intended-for-places-santa-maria-degli-angeli-messina-md；本卡S2；有S4时并参原定安置段 |
+| → 创作者（`created_by`） | [卡拉瓦乔（Caravaggio）](../persons/caravaggio.md) | 具体对象页将Adoration of the Shepherds归于卡拉瓦乔；本边保留版本边界；角色：创作者；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参对象字段 |
+| → 由其保管（`held_by`） | [墨西拿区域博物馆（Regional Museum of Messina）](../institutions/regional-museum-messina.md) | 当前对象记录将Adoration of the Shepherds列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参对象字段 |
+| → 由其委托（`commissioned_by`） | [嘉布遣会（Capuchins）](../institutions/capuchins.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参委托／历史段 |
+| → 拟用于（`intended_for`） | [墨西拿天使圣母教堂（Church of Santa Maria degli Angeli, Messina）](../places/santa-maria-degli-angeli-messina.md) | Adoration of the Shepherds原定用于该建筑或礼拜堂；时间：1609；角色：原定安置地点；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；证据：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参原定安置段 |
 
 ### 身份与外部链接
 

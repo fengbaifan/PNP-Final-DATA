@@ -60,5 +60,5 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 来源（`source_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 角色：文学题材来源；范围：第一卷宴会场景；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；题材首段：primo libro dell’Eneide di Virgilio |
-| → 作者（`authored_by`） | [维吉尔（Virgil）](../persons/virgil.md) | 角色：文学作者；范围：《埃涅阿斯纪》作品层级；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；macerata-131a；题材首段：Eneide di Virgilio |
+| ← 来源（`source_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 角色：文学题材来源；范围：第一卷宴会场景；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；题材首段：primo libro dell’Eneide di Virgilio |
+| → 作者（`authored_by`） | [维吉尔（Virgil）](../persons/virgil.md) | 角色：文学作者；范围：《埃涅阿斯纪》作品层级；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；题材首段：Eneide di Virgilio |

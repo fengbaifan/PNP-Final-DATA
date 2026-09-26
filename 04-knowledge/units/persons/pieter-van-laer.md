@@ -111,8 +111,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 脚注明确 Van Laer 是学院会员；与画家帮身份可以并存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 753–754; print pp. 18 |
-| → 隶属／任职于（`member_of`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 本章所述画家帮成员 Van Laer，同时有学院会员身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 819–833; print pp. 20 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 脚注明确 Van Laer 是学院会员；与画家帮身份可以并存；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 753–754; print pp. 18 |
+| → 隶属／任职于（`member_of`） | [画家帮（Schildersbent）](../institutions/schildersbent.md) | 本章所述画家帮成员 Van Laer，同时有学院会员身份；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 819–833; print pp. 20 |
 
 ### 身份与外部链接
 

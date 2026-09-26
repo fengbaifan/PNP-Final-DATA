@@ -73,7 +73,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 作者（`authored_by`） | [塞孔多·兰切洛蒂（Secondo Lancellotti）](../persons/abate-lancellotti.md) | 第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；patrons-and-painters；lines 45–47; print pp. 3 |
+| → 作者（`authored_by`） | [塞孔多·兰切洛蒂（Secondo Lancellotti）](../persons/abate-lancellotti.md) | 第一章脚注署作者；初刊年份异文见正文，不作为作者关系的依据；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 45–47; print pp. 3 |
 
 ### 身份与外部链接
 

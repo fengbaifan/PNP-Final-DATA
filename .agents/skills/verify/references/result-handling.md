@@ -8,7 +8,7 @@
 
 1. 使用验证状态接口的外部证据先进入 evidence JSONL。
 2. collect 阶段不直接写知识元。
-3. apply 阶段由 `verify_apply_evidence.py` 统一写回；整批预检不通过时不得修改任何 KU 或 verification log。
+3. `verify_apply_evidence.py --apply/--resume` 目前因写入目标仍是卡片 frontmatter 而暂停。待表写入器实现后，apply 才能统一更新字段证据；整批预检不通过时不得修改任何知识数据或过程日志。
 4. 写回前必须支持 `--dry-run`。
 5. 只有成功提交的 apply/no_delta 记录进入 `verification-log.md`；blocked/failed 留在 work package 状态与 summary。
 6. `confidence`、`consensus`、`evidence_status` 与 `verification_level` 的变化必须针对明确的 assertion scope 进行语义裁决。

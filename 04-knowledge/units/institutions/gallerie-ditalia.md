@@ -42,7 +42,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 保管对象（`holder_of`，反向投影） | [《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）](../works/caravaggio-martyrdom-saint-ursula.md) | 当前对象记录将The Martyrdom of Saint Ursula列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）”：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；held-by-institutions-gallerie-ditalia-md；本卡S2；有S4时并参对象字段 |
+| ← 保管对象（`holder_of`，反向投影） | [《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）](../works/caravaggio-martyrdom-saint-ursula.md) | 当前对象记录将The Martyrdom of Saint Ursula列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《圣乌尔苏拉殉难》（The Martyrdom of Saint Ursula）”：[来源](https://gallerieditalia.com/en/online-museums/artworks/martyrdom_of_saint_ursula-3023/)；src-1e91456fb9a932e4；本卡S2；有S4时并参对象字段 |
 
 ### 身份与外部链接
 

@@ -53,7 +53,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [阿尔多布兰迪尼家族（Aldobrandini Family）](../families/aldobrandini-family.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；证据：[来源](https://www.wikidata.org/wiki/Q961820)；aldobrandini-family-wikipedia-wikidata；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
+| → 隶属／任职于（`member_of`） | [阿尔多布兰迪尼家族（Aldobrandini Family）](../families/aldobrandini-family.md) | 克勉八世本名Ippolito Aldobrandini；家族页和Wikidata家族项均把他列为阿尔多布兰迪尼成员；时间：1536–1605；角色：出生于阿尔多布兰迪尼家族的成员；范围：只表示家族归属，不把教皇任期或个人行为归给整个家族；证据：[来源](https://www.wikidata.org/wiki/Q961820)；P527；与英文Wikipedia Aldobrandini family成员说明合读 |
 
 ### 身份与外部链接
 

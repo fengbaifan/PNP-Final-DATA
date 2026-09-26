@@ -6,7 +6,7 @@ import yaml
 import io
 import csv as _csv
 
-HDR = "relation_id,subject_ku_id,object_ku_id,predicate,direction,time,role,scope,origin,status,evidence_doc_id,evidence_source_file,evidence_span"
+HDR = "relation_id,subject_ku_id,object_ku_id,predicate,time,role,scope,origin,status,source_id,source_span,source_file,note"
 
 def rel_csv(rows):
     import io, csv as _csv
@@ -18,7 +18,7 @@ def rel_csv(rows):
         tgt = r.get("target", "").replace(".md", "")
         if not src.startswith("units/"): src = "units/" + src
         if not tgt.startswith("units/"): tgt = "units/" + tgt
-        w.writerow([f"rel-{i}", src, tgt, r.get("relation_type", ""), "forward", "", "", "", r.get("origin", "book"), "formal", "", "", ""])
+        w.writerow([f"rel-{i}", src, tgt, r.get("relation_type", ""), "", "", "", r.get("origin", "book"), "formal", "", "", "", ""])
     return out.getvalue()
 
 from scripts import audit_repo, build_knowledge_graph_data

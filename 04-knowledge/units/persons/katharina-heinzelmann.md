@@ -45,4 +45,4 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 亲缘（`kin_of`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](amadeo-swajer.md) | 时间：1760年4月底结婚；角色：丈夫→妻子；范围：婚姻开始日期明确，未推定配偶生卒或婚姻结束日期；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；persons-amadeo-swajer；印刷p.57首段；PDF第7页 |
+| ← 亲缘（`kin_of`，反向投影） | [阿马德奥·斯瓦耶尔（Amadeo Swajer）](amadeo-swajer.md) | 时间：1760年4月底结婚；角色：丈夫→妻子；范围：婚姻开始日期明确，未推定配偶生卒或婚姻结束日期；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔（Amadeo Swajer）”：[来源](https://media.agiati.org/page/attachments/memorie-mem-06-i-buoni-ingegni-della-patria-art02-ferrari.pdf)；src-b8e9b1f908fff6e1；印刷p.57首段；PDF第7页 |
