@@ -1257,3 +1257,13 @@ L1049的Rinehart “See also”明确指向已审L596–597的Haskell与Rinehart
 p.403所引Pierre Rosenberg条目由本页题名、期刊与页码补全；p.404 Rudolph条目对应一个含1971、1972两部分的书目项，但它与另一个1973短引的身份关系未裁定。Röthlisberger 1958文章、Salvino Salvini目录和Schudt专著新建为独立archive候选；Seilern no.170短引不因同一书目姓氏自动认定同条。著录只反映书目陈述，被列出版物未在此段独立阅读。
 
 受控dry-run/apply以来源、PDF、段落哈希和迁移前表计数为条件，写入前备份四表。写入后段级引句、mention偏移、外键与行覆盖通过脚本核对；全表`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`。当前11,411候选、26,687 mentions、11,960 statements；832段中611 complete、121 excluded、100 queued、0 partial。下一段书目L1102–1139；余6个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。
+
+## 书目L1102–1139（PDF物理页27，印刷p.437）
+
+本段已完成S2：25条出版物入口逐行覆盖L1103–1139，L1102页码行不作实体内容。复用21个既有archive候选，其中13个补全书目信息；更新4个人物候选的书目来源约束；新建4个archive候选cand-11433–cand-11436；登记25条精确mention和25条bibliography_lists_publication statement。扫描校读、候选映射、每条出处字段与未决比较详见process/stages.md。
+
+主要修正为Sforza卷号与页码、Shipley页码、Skippon范围、Strocchi姓名及期号、Stuffmann页码、Sweetman页码等OCR误识。Spini、Sensier、Shaftesbury 1914 edition和Stuffmann新建独立archive；不将Shaftesbury edition等同于抽象work，不由书目生成正式作者关系或作品内容断言。Selva、Sforza、Shipley、Silhouette、Sirén、Skippon、Smith、Sotheby’s、Spezzaferro、Spon、Strocchi、Strong和Tabacco的旧短引映射按证据强度更新或留S3比较；Sotheby’s机构与展览出版物分开。
+
+Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页码范围存在差异，已记录外部依据但不覆盖本书印字，也不声称已独立阅读该文。无关系表变更。
+
+写表前为entity-candidates、mentions、book-statements和s2-coverage保存恢复副本。受控迁移脚本的dry-run与apply均通过；段级引句唯一性、字符偏移、候选外键、S3关联外键及行覆盖检查通过。全表机械审计为errors=[]、s2_missing=[]；当前11,415候选、26,712 mentions、11,985 statements，612段complete、121段有理由排除、99段queued、0段partial。下一段为L1141–1177，剩余5个书目段与94个索引段。机械通过不等于全书S2语义交接完成。

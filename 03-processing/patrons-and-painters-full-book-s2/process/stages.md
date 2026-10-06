@@ -5880,3 +5880,43 @@ L1049原文为`Rinehart, S.: See also Haskell and Rinehart.`，目标与已审�
 本段复用并补全23个既有出版物archive候选；另更新Salvino人物候选cand-7506及Rudolph语境候选cand-11036的来源信息；新建cand-11430–cand-11432三个archive候选。登记26条精确mention及26条`bibliography_lists_publication` statement，`relation_candidate=false`；候选外键、S3对照候选、source quote与行覆盖由受控脚本核验。p.403 Rosenberg短引现可链接到完整书目记录；p.404的Rudolph条目列出1971/1972两个部分，但它与独立的1973引用如何对应仍待S3比较。没有从书目题名推导作品内容或正式关系。
 
 受控脚本`chp21_bibliography_l1059_1100_migration.py`锁定来源、PDF、S0段指纹、迁移前表计数与前序段状态；dry-run通过后apply，并在写入前为四表保存`.bak-s2-chp21-bibliography-l1059-1100-20261007`恢复副本。`python -X utf8 scripts/audit_tables.py --summary`通过：`s2_missing=[]`、`errors=[]`；当前11,411候选、26,687 mentions、11,960 statements；832段中611 complete、121 excluded、100 queued、0 partial。剩余书目段6个，索引段94个；下一段书目L1102–1139。结构审计不替代全书S2语义交接审查。
+
+## 书目L1102–1139（PDF物理页27，印刷p.437；2026-10-07）
+
+对照规范来源21_CHP-21Bibliography.md的L1102–1139与原书PDF物理页27。Markdown SHA-256：f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3；PDF SHA-256：1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512；S0段chp-21:21_CHP-21Bibliography:l1102-1139 SHA-256：f5cc60e16449f246c3cb146f18134a2fabb3bdeaab126afc880e595b26fef707。L1102仅为页码标记；L1103–1139逐行覆盖25条出版物，无作者交叉指引。
+
+| S0行 | 候选 | 条目与处理 |
+|---|---|---|
+| L1103 | cand-10322 | [Selva, G. A.]目录，Venezia [1776]；补全p.355 note 3候选，精确映射留S3确认 |
+| L1104–1105 | cand-11433 | A. Sensier《Le journal de Rosalba Carriera…》，Paris 1865；新建出版物记录，与Sensier及相关信件/文献定位分开比较 |
+| L1106–1107 | cand-10447 | G. Sforza《Il testamento d’un bibliofilo…》；补全期刊、系列、卷、年份、页码 |
+| L1108–1109 | cand-7847 | Bernardo Sansone Sgrilli《Descrizione della Regia Villa…》；复用既有完整记录 |
+| L1110–1111 | cand-11434 | Shaftesbury《Second Characters or The Language of Forms》，Benjamin Rand编，Cambridge 1914；新建edition/archive，区别于work cand-6220 |
+| L1112–1113 | cand-11077 | John B. Shipley论Jacopo Amigoni的文章；补全期刊、卷期、年月及页码，与作者候选cand-11076对齐留S3 |
+| L1114–1115 | cand-8773 | Étienne de Silhouette《Voyage de France…》，Paris 1770；补全候选，p.268卷I定位仍待精确确认，保留印本异常方括号 |
+| L1116–1117 | cand-9066 | O. Sirén《Dessins et tableaux italiens…》，Stockholm 1902；补全候选，p.293/p.304页码匹配供S3核对 |
+| L1118 | cand-5502 | Philip Skippon旅行记，收入《A Collection of Voyages and Travels》卷VI，London 1752，pp.359–736；补全p.650定位，p.676与p.679的独立候选保留S3比较 |
+| L1119 | cand-7600 | S. Slive《Rembrandt and his critics 1630–1730》；复用既有完整记录 |
+| L1120 | cand-9314 | H. Clifford Smith《Buckingham Palace》，London 1930；补全p.280 note 8候选，p.26未独立查阅 |
+| L1121 | cand-5592 | A. Solerti《Musica, Ballo e Drammatica alla Corte Medicea…》；复用既有记录 |
+| L1122–1123 | cand-5160 | Raffaello Soprani《Vite de’ Pittori…》第二版，Carlo Giuseppe Ratti编注，2卷，Genova 1768；复用既有edition记录 |
+| L1124–1125 | cand-11172 | Sotheby’s展览出版物《An Exhibition of Old Master Drawings…》，Plymouth 1979；补全p.401 pp.31–32候选，与Sotheby’s机构cand-9307区别 |
+| L1126 | cand-10882 | Luigi Spezzaferro《La cultura del Cardinal Del Monte…》，Storia dell’Arte, 1971, pp.57–92；补全p.397 note 11出版物记录，不据此独立验证Haskell对文章的转述 |
+| L1127 | cand-11435 | G. Spini《Ricerca dei libertini》，Roma 1950；新建记录，与人物cand-6375及另一Spini/Limentani出版物cand-6377分开 |
+| L1128–1129 | cand-6395 | Jacob Spon与George Wheler《Voyage d’Italie . . .》，2卷，La Haye 1724；补全既有卷I定位，保留书名中的间隔省略号 |
+| L1130 | cand-7867 | K. Steinbart《Die Gemalten Schwänke des Pfarrers Arlotto》，Pantheon 1936, pp.233–234；复用既有记录 |
+| L1131 | cand-7030 | C. Sterling《Gentileschi in France》，Burlington Magazine 1958, pp.112–120；复用既有记录 |
+| L1132 | cand-7048 | L. Stone《The market for Italian art》，Past and Present 1959, pp.92–94；复用既有记录 |
+| L1133–1134 | cand-11195 | Maria Letizia Strocchi《Il Gabinetto d’‘opere in piccolo’…》两部分（1975、1976）；补全候选，p.404 note 12对应仍留S3核对 |
+| L1135 | cand-5150 | E. Strong《La Chiesa Nuova (S. Maria in Vallicella)》，Roma 1923；补全p.68 note 2已提候选 |
+| L1136 | cand-11436 | Stuffmann《Les tableaux de la collection de Pierre Crozat》，Gazette des Beaux-Arts 1968；新建archive，按本书印字保留pp.11–144并记录外部著录差异 |
+| L1137–1138 | cand-7268 | J. E. Sweetman《Shaftesbury’s last commission》，Journal of the Warburg and Courtauld Institutes 1956, pp.110–116；复用既有完整记录 |
+| L1139 | cand-8330 | G. Tabacco《Andrea Tron e la crisi dell’aristocrazia senatoria a Venezia》，Trieste 1957；补全p.254 note 5 p.38候选，p.123与pp.32 ff.定位仍留S3比较 |
+
+页图校读：L1107将OCR voi. 61校为印本vol. 61；L1111年份后的孤立撇号及L1126页码后的短横不并入书目内容；L1113页码为313–331；L1114印本作者项字面呈S[ilhouette, Étienne de]，保留方括号位置；L1118页码为359–736；L1128书名含间隔省略号，不补写省略内容；L1133印本为Strocchi（非OCR Stracchi），L1134为1976期号311（非OCR zìi）；L1136页码照本书印作11–144；L1138页码校为110–116。原S0 OCR文件未改写。
+
+L1136的页码存在书目记录差异：本书页图读作11–144；National Gallery of Art的藏品书目另列5–142，另一条NGA学术出版注释列1–144，NGA对象PDF中还见11–143；BnF记录的是同题名1968年Gazette单行本、共144页。相关记录分别见[NGA藏品书目](https://www.nga.gov/artworks/provenance/9568-pierre-crozat-younger)、[NGA学术出版注释](https://www.nga.gov/research/publications/french-paintings-fifteenth-through-eighteenth-centuries/french-paintings-fifteenth-through-eighteenth-centuries-ceres-summer-c-17171718)、[NGA对象PDF](https://www.nga.gov/collection/art-object-page.82.pdf)与[BnF目录](https://catalogue.bnf.fr/ark:/12148/cb40341079b)。本次不以外部著录覆盖本书印字，也不声称已核读文章。
+
+本页25条均按bibliography_lists_publication记录，relation_candidate=false，未从书目引用生成历史关系。17个既有候选更新（13个archive、4个人物来源说明），8条复用原已充分的archive候选；另新建4个archive候选cand-11433–cand-11436。保留的跨章比较包括Sensier多个短引、Skippon三个页码定位、Strocchi p.404 note 12、Tabacco三处定位、Silhouette卷次、Sotheby’s机构与展览出版物，以及Shaftesbury work与1914 edition。被列出版物及其引述页均未在本段独立阅读。
+
+受控脚本chp21_bibliography_l1102_1139_migration.py以Markdown/PDF/S0段哈希、迁移前表计数、队列状态及前序段状态为前置条件；dry-run通过后apply，并在写入前为四表保存.bak-s2-chp21-bibliography-l1102-1139-20261007恢复副本。段级检查确认25条mention、25条statement、L1103–1139逐行覆盖、引句唯一、字符偏移有效、候选及S3关联外键有效。写入后全表audit_tables.py --summary为errors=[]、s2_missing=[]；当前11,415候选、26,712 mentions、11,985 statements；832段中612 complete、121 excluded、99 queued、0 partial。下一段书目L1141–1177；余5个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。
