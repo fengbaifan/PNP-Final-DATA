@@ -1192,3 +1192,13 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 ## 书目L658–699（PDF物理页17，印刷p.427）
 
 处理30条出版物及2条“See also”指引；复用并补全24个archive候选，新增6个出版物候选和2个贡献者候选，写入32条mention、32条statement。页图校读8处OCR差异，并确认印本`Florentinsche`拼写；S0不改。Levey 1955页码差异与Lavagnino卷次不足均保留候选链接、留待S3；两条指引分别定位到已处理的Haskell—Levey及Gradenigo书目项。审计`errors=[]`、`s2_missing=[]`；候选11,355、mentions 26,424、statements 11,699；602 complete、121 excluded、109 queued、0 partial。下一段L701–754；余15个书目段和94个索引段。
+
+## 书目L701–754：出版物条目（2026-10-07）
+
+已对照规范来源L701–754与`CHP-21Bibliography.pdf`物理页18（印刷p.428）处理完本页。L701为页码标记；L702–754共33条印刷记录，含两篇作品的L750记录，拆分后登记34个出版物候选/statement。复用22个archive候选，新增`cand-11377`–`cand-11388`共12个；写入35条精确mention与34条`bibliography_lists_publication` statement。全行覆盖，候选外键与mentions字符偏移经受控脚本核验。
+
+页图确认并记录：四条独立Longhi的`Paragone`刊名被OCR移至相邻前行；L713的`Fanfulla della Domenica`、L719的`Capitolium`、Mahon各期刊名、L739的`Le Gallerie Nazionali Italiane`均回接对应条目；L719–720 Loret/Lotti两条粘连项分开；Longo L712的尾随OCR引号删除于规范引句而保留在原OCR；Lorenzetti 1914日期首字校为数字1；Mahon年份`i960`校为1960；`cand-7057`的既有期刊字段从错误的`Burlington Magazine`改为印本`Art Bulletin`；Malamani Canova行尾短横确认在印本中但不作为日期；Male题名罗马数字OCR校为XVII；L750的Lucchesino断词与`Commentari`错序依页图拆为两篇文章、两个页码范围，第二篇标题以两个精确不重叠mention记录。
+
+短引与版本身份均未越过S2裁定：Longo卷I、Lorenzetti 1917/1956、Mahon 1962、Malvasia 1678与1841版本、Malamani 1899多处短引、Mancini卷页定位、Marabottini 1954/1963、Marcellino p.18 locator均保持各自候选并挂接S3比较入口。被引出版物未在本段独立阅读。
+
+迁移脚本默认dry-run，锁定S0、PDF和段落哈希及迁移前计数；apply前为候选、mentions、statements、coverage四表生成`.bak-s2-chp21-bibliography-l701-754-20261007`恢复副本。写入后`audit_tables.py --summary`：`s2_missing=[]`、`errors=[]`；全表11,367候选、26,459 mentions、11,733 statements；832段中603 complete、121 excluded、108 queued、0 partial。下一段书目L756–806；仍有14个书目段及94个索引段待处理。结构审计不替代语义接收。
