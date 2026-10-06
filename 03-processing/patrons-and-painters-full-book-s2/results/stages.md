@@ -1161,3 +1161,9 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 按页图审读31条出版物记录，复用24个archive候选，新增7个（`cand-11315`–`cand-11321`），添加31条mentions和31条bibliography statements。补全16个已有书目候选的题名/出版信息；De Dominici四卷集与Evelyn六卷编辑本和卷页定位候选分列，供S3对齐。Faldi书目1954与正文脚注1955的差异仍保留。
 
 在statement限定中校正S0 OCR和扫描杂点，涉及L423、426、432–433、441、455、458–459；S0不改，本页未发现整条遗漏。被引作品未独立查阅。审计`errors=[]`、`s2_missing=[]`；候选11,300、mentions 26,246、statements 11,520；596 complete、121 excluded、115 queued、0 partial。下一段书目L461–496。
+
+## 书目L461–496（PDF物理页12，印刷p.422）
+
+按页图处理29条书目/展览记录，复用20个archive候选，新增9个（`cand-11322`–`cand-11330`），写入29条mention和29条statement；补全13个既有候选，Ferrari 1882复用先前短引候选。Fantuzzi、Félibien、Fisch—Bergin和Fleming书目记录与已有卷页或短引候选分开，供S3核对；Fontanella括号作者身份待定，Les Français à Rome两处场地描述并存待核。
+
+校读L466、473、476、478、480、484–488的省略号、撇号、页码缩写、行首引号、作者拼写、两处粘连记录边界及年份；来源S0保持不变。本页未发现整条书目遗漏，被引作品未独立查阅。审计`errors=[]`、`s2_missing=[]`；候选11,309、mentions 26,275、statements 11,549；597 complete、121 excluded、114 queued、0 partial。下一段L498–536。

@@ -5646,3 +5646,13 @@ PDF页图确认四项S0校读：L170–171页码`131—136`应为`131–136`；L
 页图校读只记入statement限定，不改S0：L423移除Ricci与Heidelberg间误入句点；L426移除OCR尾随引号；L432恢复音乐书名中的省略号；L433排除印本以外的尾横扫描痕；L441补回题名闭引号；L455去除行首杂点并校为pp.333–343；L458校正`Effìmero`与`’óoo`；L459将`T busti`校为`‘I busti`。逐项对照页图，未发现整条书目漏录。
 
 受控脚本`chp21_bibliography_l420_459_migration.py`默认dry-run，锁定来源/PDF/段哈希、迁移前表计数、候选类型与自然键、精确mention偏移、statement原句及外键；apply前保存四表恢复副本`.bak-s2-chp21-bibliography-l420-459-20261007`。写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；候选11,300、mentions 26,246、statement 11,520；832段中596 reviewed/complete、121 excluded、115 queued、0 partial。下一段书目L461–496（PDF物理页12，印刷p.422）；其后还剩21个书目段和94个索引段。结构审计不替代语义质量与S2交接审查。
+
+## 书目L461–496：出版物与展览条目（2026-10-07）
+
+对照`CHP-21Bibliography.pdf`物理页12（印刷p.422）逐行处理规范源L461–496；L461为页码标记，页内识别29条书目记录。复用20个archive候选，新增9个（`cand-11322`–`cand-11330`），写入29条精确mention和29条`bibliography_lists_publication` statement；另补全13个既有候选的书目题名或出版信息。Ferrari 1882书目项复用此前的短引候选`cand-8777`，避免将同一出版物拆成第二个候选。
+
+Fantuzzi书目记录与`cand-10366`的卷页定位、Félibien六卷本与`cand-7077`的第三卷定位、Fisch—Bergin 1944出版物与Vico通用作品/页码定位候选、Fleming 1958独著文章与Vermeule—Fleming短引候选均保持分立，供S3对齐；`[Fontanella, G. B.]`按印本保留括号归属，不在本阶段认定作者身份。Les Français à Rome 的印刷p.422展览地点和p.202注释中的Archives Nationales描述同时保留，未推断二者是否为不同场地或目录信息。
+
+依据页图在statement限定中校正L466省略号、L473日期前多出的撇号、L476 `if.`→`ff.`、L478行首多出的引号、L480 `Mssrs.`→`Messrs.`、L484与L486–487两处粘连条目的分界、L485 `193 7`→`1937`、L488 `Venezia-—`→`Venezia—`；S0 OCR保持不改。L462–463页图中的行首短横在原始引句及`title_as_printed`中保留。逐项核对未发现整条书目记录遗漏；被引作品未独立查阅。
+
+迁移脚本`chp21_bibliography_l461_496_migration.py`默认dry-run，锁定来源/PDF/段落哈希、迁移前计数、候选类型/名称、自然键、mention偏移、statement引句与外键；dry-run通过后apply，四表恢复副本后缀`.bak-s2-chp21-bibliography-l461-496-20261007`。写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；候选11,309、mentions 26,275、statement 11,549；832段中597 reviewed/complete、121 excluded、114 queued、0 partial。下一段书目L498–536；其后还剩20个书目段和94个索引段。结构审计不替代语义质量与S2交接审查。
