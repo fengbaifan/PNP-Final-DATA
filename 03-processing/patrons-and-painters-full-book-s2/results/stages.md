@@ -1184,3 +1184,7 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 ## 书目L577–614（PDF物理页15，印刷p.425）
 
 处理26条记录，复用25个archive候选、新增`cand-11355`，写入26条mention和26条statement并更新24个既有候选。拆开OCR将Hibbard 1973文章页码与Hinks下一条书目记录粘连的末行；校读作者、刊名、重音、页码和条目边界，S0不改。修复既有`cand-4864`误合并Hibbard 1961文章与1971专著的问题，将对应正文引文mention/statement移至`cand-5163`，保留S3身份核对。受控迁移脚本完成来源/PDF哈希与外键校验，四表恢复副本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,334、mentions 26,359、statements 11,634；600 complete、121 excluded、111 queued、0 partial。下一段L616–656；余17个书目段和94个索引段。语义质量仍待全书S2交接审计。
+
+## 书目L616–656（PDF物理页16，印刷p.426）
+
+页图核对31条出版物／展览记录和2条作者指引，排除页码标记；复用19个已有记录候选、更新12个，新增12个本页候选，并为指向L1276的Jaffé指引先建目标候选`cand-11368`。写入33条mention和33条statement。按页图拆分S0 L631粘连的两篇Incisa文章，校读年份、题名拼写、页码和两条`See`指引；S0不改。King’s Pictures按展览event记录。短引与全书目候选保持分开，交S3对齐；L1276的完整页图复核及书目statement仍待其队列段处理。恢复副本和受控迁移脚本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,347、mentions 26,392、statements 11,667；601 complete、121 excluded、110 queued、0 partial。下一段L658–699；余16个书目段和94个索引段。语义质量仍待全书S2交接审计。
