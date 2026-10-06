@@ -1249,3 +1249,11 @@ p.405的Puppi note 5与p.434 L1019的pp.211–250相合，note 6与L1020的题�
 L1049的Rinehart “See also”明确指向已审L596–597的Haskell与Rinehart条目，并映射至既有出版物候选`cand-5658`；它记录为书目交叉指引，不扩写为新作者关系。Rinehart 1961文章的页52引文定位落在印本页35–59范围内，但文章与被引页均未独立阅读。Rivani的印本方括号不消除身份不确定；Radicchio、Rapparini、de Rinaldis、Roberti、Robertson等跨章候选只添加对齐比较入口，不在S2合并。三项新出版物为Puyvelde论文、Rinehart的Poussin论文及Robertson 1923年专著；Robertson既有p.318短引与该书不预先判作同一来源。
 
 审计确认25条出版物逐行覆盖L1023–1057，另有L1049交叉指引；26条mention的引句、偏移与候选外键有效，26条statement的来源与候选外键有效，交叉指引目标段已完成。全表当前11,408候选、26,661 mentions、11,934 statements；832段中610 complete、121 excluded、101 queued、0 partial。下一书目段L1059–1100；余7个书目段和94个索引段。机械闭合不代替最终S2语义交接审查。
+
+## 书目L1059–1100（PDF物理页26，印刷p.436）
+
+处理26条出版物记录；复用并补全23个既有出版物archive候选，另更新Salvino人物候选`cand-7506`与Rudolph语境候选`cand-11036`，新建3个archive候选`cand-11430`–`cand-11432`。登记26条精准mention和26条`bibliography_lists_publication` statement；L1059页码行排除于条目覆盖，L1060–1100全覆盖。书目记录与本段页图校读和OCR订正详见process/stages.md。
+
+p.403所引Pierre Rosenberg条目由本页题名、期刊与页码补全；p.404 Rudolph条目对应一个含1971、1972两部分的书目项，但它与另一个1973短引的身份关系未裁定。Röthlisberger 1958文章、Salvino Salvini目录和Schudt专著新建为独立archive候选；Seilern no.170短引不因同一书目姓氏自动认定同条。著录只反映书目陈述，被列出版物未在此段独立阅读。
+
+受控dry-run/apply以来源、PDF、段落哈希和迁移前表计数为条件，写入前备份四表。写入后段级引句、mention偏移、外键与行覆盖通过脚本核对；全表`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`。当前11,411候选、26,687 mentions、11,960 statements；832段中611 complete、121 excluded、100 queued、0 partial。下一段书目L1102–1139；余6个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。

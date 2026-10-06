@@ -5841,3 +5841,42 @@ Nuti条目与Pasquali候选、1652及1973年Ottonelli著作版本、Palomino另�
 L1049原文为`Rinehart, S.: See also Haskell and Rinehart.`，目标与已审书目L596–597的`The dal Pozzo collection—some new evidence`相符，映射既有候选cand-5658；目标segment `l577-614`已reviewed/complete。该关系表示书目编排中的交叉指引，不主张独立的作者身份或新增合著事实。p.435另列的Rinehart 1961论文和1960年Poussin论文保持两个独立publication候选；Robertson专著也不据同姓作者与旧短引自动合并。Rivani保留方括号，Radicchio与de Rinaldis既有跨章候选定位及Rinehart作者身份都留S3裁定。
 
 受控脚本`chp21_bibliography_l1022_1057_migration.py`默认dry-run，锁定来源文件、PDF、S0段哈希、前态计数及前序／交叉指引目标状态；dry-run通过后apply，并在写表前为四表保存`.bak-s2-chp21-bibliography-l1022-1057-20261007`恢复副本。迁移后核验26条mention、26条statement、来源行完整覆盖、引句与偏移、候选外键及目标指引；全表计数11,408候选、26,661 mentions、11,934 statements；832段中610 complete、121 excluded、101 queued、0 partial。下一书目段L1059–1100；余7个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。
+
+## 书目L1059–1100（PDF物理页26，印刷p.436；2026-10-07）
+
+对照规范源`21_CHP-21Bibliography.md`的L1059–1100与PDF页图。规范Markdown SHA-256为`f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`，PDF SHA-256为`1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，S0段`chp-21:21_CHP-21Bibliography:l1059-1100` SHA-256为`853a8a80c67691ed8811145b13a8b3d56382dfb8846e3db52fc62392a793eec6`。L1059仅为页码标记；L1060–1100逐行覆盖26条出版物记录，不含作者交叉指引。
+
+| S0行 | 候选 | 条目 | 处理 |
+|---|---|---|---|
+| L1060–1061 | cand-7579 | van der Rohe，‘The marriage at Cana by Giuseppe Maria Crespi’ | 复用并补全；保持作者原印形式 |
+| L1062–1063 | cand-9908 | Rohrlach，‘La collezione di quadri Streit nel Graues Kloster a Berlino’ | 复用并补全；作者身份留S3 |
+| L1064–1065 | cand-9877 | Romanin，*Storia documentata di Venezia* | 复用并补全第二版／重印及十卷书目信息；与Romanin人名候选留S3 |
+| L1066 | cand-4549 | Romano，*Pasquino e la satira in Roma* | 复用并补全；保留首字母形式 |
+| L1067–1068 | cand-11181 | Pierre Rosenberg，‘Un tableau de Volterrano réattribué…’ | 复用并补全；与p.403提及相合，未据此重裁画作归属 |
+| L1069–1070 | cand-4384 | Rosi，‘La congiura di Giacomo Centini contro Urbano VIII’ | 复用并补全；作者形式保留为M. Rosi |
+| L1071–1072 | cand-11103 | Elisabetta Antoniazzi Rossi，‘Ulteriori considerazioni…’ | 复用并补全；与正文另一拼法的人物候选分开供S3 |
+| L1073–1074 | cand-11430 | M. Röthlisberger，‘Les pendants dans l’œuvre de Claude Lorrain’ | 新建archive；与作者候选cand-3502对齐待S3 |
+| L1075 | cand-4577 | Röthlisberger，*Claude Lorrain—The Paintings* | 复用；保留既有第I卷引文定位并注明书目列2卷 |
+| L1076–1078 | cand-11193 | Stella Rudolph，*Mecenati a Firenze tra Sei e Settecento*两部分 | 复用并补全1971/1972出版信息；与文中合组候选及1973引文分开核对 |
+| L1079 | cand-6454 | Ruffo，‘La galleria Ruffo nel secolo XVII in Messina’ | 复用；书目印刷信息已相符 |
+| L1080 | cand-9840 | Sagredo，*Sulle consorterie delle Arti edificatorie in Venezia* | 复用；书目印刷信息已相符 |
+| L1081 | cand-4324 | Salerno，‘The Picture Gallery of Vincenzo Giustiniani’ | 复用并补全三段页码；不表示已读论文 |
+| L1082 | cand-5464 | Salvagnini，*I pittori Borgognone-Cortese* | 复用并补全 |
+| L1083 | cand-11431 | Salvino, Salvini，佛罗伦萨教会会吏目录 | 新建archive；连接既有人物候选cand-7506 |
+| L1084 | cand-7718 | Santangelo，*Museo di Palazzo Venezia-Catalogo, I—I dipinti* | 复用并校正卷次形式 |
+| L1085–1086 | cand-11137 | Santifaller，1976年Schmidt肖像论文 | 复用并补全 |
+| L1087–1088 | cand-11139 | Santifaller，1977年Algarotti/Tiepolo论文 | 复用并补全 |
+| L1089–1091 | cand-11146 | Santifaller，1978年Rode墓画论文 | 复用并补全；记录广告增刊定位及印本引号位置 |
+| L1092 | cand-10618 | Sasso拍卖目录，no.381 | 复用；不推断未印出版年月或地点 |
+| L1093 | cand-10601 | Sasso，*Osservazioni sopra i lavori di niello* | 复用并补记Cicogna编者、婚礼出版说明与地点/年份；不裁决作者角色 |
+| L1094–1095 | cand-7138 | Saxl，‘The battle scene without a hero…’ | 复用并校正年份及页码范围 |
+| L1096 | cand-6440 | Schlosser-Magnino，*La letteratura artistica* | 复用并补全版次、出版地与年份 |
+| L1097 | cand-11432 | L. Schudt，*Italienreisen im 17. und 18. Jahrhundert* | 新建archive；保留首字母形式 |
+| L1098–1099 | cand-7041 | *Seicento Europeo*展览出版物 | 复用并补记主办方和欧洲委员会支持信息 |
+| L1100 | cand-8804 | [Seilern, Count A.]，*Italian paintings and drawings at 56 Princes Gate* | 复用并补全；no.170与本条目是否相同留S3 |
+
+页图校读包括：L1065 `io vols.`→`10 vols.`；L1068 `gioire`→`gloire`并排除条目后的扫描短横；L1069 `Urbano Vili`→`VIII`；L1070 `R-omana`→`Romana`；L1073 `1’œuvre`→`l’œuvre`；L1074 `1958,1`→`1958, I`；L1081 `i960`→`1960`、`13 5-150`→`135–150`；L1084 `VeneZia`→`Venezia`、`1—I`→`I—I`；L1093恢复跨行`Michieli-Segatti`；L1095校正`1939–40`及`70–87`；L1098 `P.L`→`P.I.`。原OCR源文件未改写。保留Salvini书名重音、Sasso目录印本拼写和no.381、Schudt书名、Seilern方括号；Santifaller 1978条目页图的闭引号落在“advertising”之后，作为页图注记，不将增刊说明并入题名。被列出版物均未在本段独立阅读。
+
+本段复用并补全23个既有出版物archive候选；另更新Salvino人物候选cand-7506及Rudolph语境候选cand-11036的来源信息；新建cand-11430–cand-11432三个archive候选。登记26条精确mention及26条`bibliography_lists_publication` statement，`relation_candidate=false`；候选外键、S3对照候选、source quote与行覆盖由受控脚本核验。p.403 Rosenberg短引现可链接到完整书目记录；p.404的Rudolph条目列出1971/1972两个部分，但它与独立的1973引用如何对应仍待S3比较。没有从书目题名推导作品内容或正式关系。
+
+受控脚本`chp21_bibliography_l1059_1100_migration.py`锁定来源、PDF、S0段指纹、迁移前表计数与前序段状态；dry-run通过后apply，并在写入前为四表保存`.bak-s2-chp21-bibliography-l1059-1100-20261007`恢复副本。`python -X utf8 scripts/audit_tables.py --summary`通过：`s2_missing=[]`、`errors=[]`；当前11,411候选、26,687 mentions、11,960 statements；832段中611 complete、121 excluded、100 queued、0 partial。剩余书目段6个，索引段94个；下一段书目L1102–1139。结构审计不替代全书S2语义交接审查。
