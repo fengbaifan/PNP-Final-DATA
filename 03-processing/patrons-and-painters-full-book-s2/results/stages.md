@@ -1167,6 +1167,7 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 按页图处理29条书目/展览记录，复用20个archive候选，新增9个（`cand-11322`–`cand-11330`），写入29条mention和29条statement；补全13个既有候选，Ferrari 1882复用先前短引候选。Fantuzzi、Félibien、Fisch—Bergin和Fleming书目记录与已有卷页或短引候选分开，供S3核对；Fontanella括号作者身份待定，Les Français à Rome两处场地描述并存待核。
 
 校读L466、473、476、478、480、484–488的省略号、撇号、页码缩写、行首引号、作者拼写、两处粘连记录边界及年份；来源S0保持不变。本页未发现整条书目遗漏，被引作品未独立查阅。审计`errors=[]`、`s2_missing=[]`；候选11,309、mentions 26,275、statements 11,549；597 complete、121 excluded、114 queued、0 partial。下一段L498–536。
+
 ## 书目L498–536（PDF物理页13，印刷p.423）
 
 按页图处理L499–536的30条S0书目记录：Friedlaender；Frommel；Gabbrielli；Gabrieli, Giuseppe；Galassi Paluzzi两项；Galilei；Gallo两项；Galluzzi；Gamba；Gar；Garas三项；Garms；Ghelli；[Gherardi, P. E.]；Gibbon；Gigli；Giglioli两项；Gilmartin；Giussani；Giustiniani；Goering；Goethe；Goldoni；Golzio两项。另登记页图可见的Gabrieli, Noemi一项。L498页码标记不算书目记录。
@@ -1210,3 +1211,17 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 页图校读包括：恢复L758、L762、L770/L772、L781和L793/L795移位的期刊名；校正Mariette、Abecedario、Marrini、Mazzotti、Mellino等OCR拼写，修复日期范围、Mazza期号和Meloni 1975期号/页码；按印本保持`Marrini`并与`cand-7926`分立。L789的Mazza题名续文与期刊顺序、L804–806 Mezzetti期刊行的跨行错序均依页图还原。L801 Memmoli与Merriman在OCR中粘连，使用互不重叠的精确mention及各自引句拆开。原OCR文本未改写。
 
 Marcheix、Marrini、Marucelli、Matina、Matteoli及Mariette相关短引分别留有S3比对链接；本段不据书目题名裁决跨章同一性，也不声称读过被列出版物。受控脚本锁定来源、PDF、段落哈希与迁移前表规模；apply前保存四表恢复副本。写入后表审计`errors=[]`、`s2_missing=[]`；全表11,378候选、26,487 mentions、11,761 statements；604 complete、121 excluded、107 queued、0 partial。下一段L808–844；余13个书目段与94个索引段。
+
+## 书目L808–844（PDF物理页20，印刷p.430）
+
+规范源与页图核对本段26条出版物记录和1条作者交叉指引；L808仅为页码标记。复用21个archive候选并补全其中19个，新建5个archive候选与Molinier作者heading person候选1个；写入28条mention、26条出版物statement及1条`bibliography_author_cross_reference` statement。候选和提及外键、source quote、字符偏移和mention不重叠均通过段级检查。
+
+页图确认L813的两条Miller文章在OCR中粘连，拆为1960年Crespi书信条目和1963/1964年Macerata长廊条目；1964 p.113定位单独链接既有`cand-7758`供S3。L820的Molinier作者指引暂连候选`cand-4828`及排队中的L861目标，状态保留未复核。Mitchell页码、Montaiglon机构名、Morassi条目和Morelli题名省略号依页图校读。版本同一性、页码差异与短引均不在S2提前裁决。
+
+受控迁移锁定来源/PDF/段落指纹并在apply前备份四表。写入后`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；当前11,384候选、26,515 mentions、11,788 statements；605 complete、121 excluded、106 queued。下一段书目L846–881，另有94个索引段待处理。
+
+## 书目L846–881（PDF物理页21，印刷p.431）
+
+页图确认本段28条出版物记录；复用并补全24个archive候选，新建4个archive候选，登记28条publication statement与28条精确mention。对照页图补记OCR缺失的Moroni词典卷数/年代，校正L849的Moschini/Meschini误读，拆分L876粘连的Nicodemi/Nisser两条。Molinier条目在L861找到，先前L820作者指引现标为目标已核对；个人身份仍未裁决。Northall既有p.438候选通过独立受控补记补全为书目所列的Travels through Italy。跨章作者/版本同一性问题仍保留供S3。
+
+写表备份已保存；段级外键、source quote、mention偏移和非重叠检查通过。audit_tables.py --summary为errors=[]、s2_missing=[]；当前11,388候选、26,543 mentions、11,816 statements；606 complete、121 excluded、105 queued。下一段书目L883–926，索引仍有94段待处理。

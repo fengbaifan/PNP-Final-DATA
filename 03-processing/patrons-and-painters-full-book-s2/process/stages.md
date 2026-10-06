@@ -5724,3 +5724,21 @@ L774复用已完整的Martyn候选`cand-9859`。L775–776新建Marucelli的Indi
 L788–790新建Mazza论文`cand-11397`；页图把标题续文、期刊名和期号10重新分开，OCR`io`校为10。L791补全Mazzotti图录`cand-10452`，印本作者确为Mazzotti，OCR作Mazzetti。L792补全Melchiori著作`cand-9972`；L793–796分别补全Meloni Trkulja两篇Paragone论文`cand-11197`与`cand-11189`，恢复错置刊名并校正1975期号和页码。L797复用带方括号作者归属的Memmo 1786年著作`cand-8812`；L798–799新建同一印本归属方式的1788年著作`cand-11398`。L800至L801的Memmoli专著新建`cand-11399`，校正Meliino为Mellino；同一OCR行直接粘入下一条Merriman论文，脚本以L801的`1644`和`Merriman`为边界，建立两段精确引句及互不重叠mention。Merriman论文复用并补全`cand-11199`。L804–806补全Mezzetti论文`cand-4948`，依页图恢复跨行错置的Rivista dell’Istituto Nazionale d’Archeologia e Storia dell’Arte刊名。
 
 受控脚本`chp21_bibliography_l756_806_migration.py`默认dry-run，核对Markdown/PDF/分段指纹、迁移前表规模、候选类型与自然键、statement外键、source line引句和mention字符偏移；dry-run后apply，并在写表前为四张表保存`.bak-s2-chp21-bibliography-l756-806-20261007`恢复副本。本段复用17个archive候选、补全12个，新增11个archive候选，写入28条mention和28条`bibliography_lists_publication` statement。`audit_tables.py --summary`返回`errors=[]`、`s2_missing=[]`；当前11,378候选、26,487 mentions、11,761 statements；832段中604 complete、121 excluded、107 queued、0 partial。下一书目段为L808–844；余13个书目段与94个索引段。机械审计不替代全书S2语义交接审查。
+
+## 书目L808–844：出版物与作者交叉指引（PDF物理页20，印刷p.430；2026-10-07）
+
+对照规范源`21_CHP-21Bibliography.md`的L808–844与PDF物理页20逐条审读。L808的`[Page 430]`只是页码标记；印本本页有26条出版物记录及L820一条作者`See`指引。按材料性质写入26条`bibliography_lists_publication`及1条`bibliography_author_cross_reference` statement；不把书目记录误作正文断言或实体关系。
+
+页图确认L813把两条D. Miller文章分列：Crespi书信论文（1960，pp.530–531）与Macerata Aeneid长廊论文（1963，pp.153–158，并列1964 p.113）。OCR将其粘为一行，迁移时以印本边界拆成两个精确引句；1964定位单独mention并链接既有`cand-7758`，保留与主条目`cand-7757`的S3判断。L818–819确认Mitchell页码为340–343；页图还核对Montaiglon机构名、Morassi两条1955记录与Morelli书名省略号等OCR细节，原OCR文件不改写。
+
+本段复用21个archive候选，其中19个依印本文字补全元数据；另新建5个archive候选`cand-11400`、`cand-11402`–`cand-11405`及1个Molinier作者heading person候选`cand-11401`。L820指向L861的Müntz et Molinier条目；因目标段L846–881仍排队，当前暂链至`cand-4828`并明确标记未复核，不据此裁决身份。Moncallero与旧联合引文`cand-9932`、Monaco版本、Montaiglon分卷定位、Morassi 1952书目页码与正文脚注差异、Morazzoni页码短引均保留S3比较入口。
+
+受控脚本`chp21_bibliography_l808_844_migration.py`默认dry-run，核验Markdown/PDF/段落指纹、迁移前计数、候选类型、statement外键、逐行引句、mention精确偏移与重叠；apply前为四表生成`.bak-s2-chp21-bibliography-l808-844-20261007`恢复副本。写入28条mention及27条statement后，目标段审计确认26条出版物、1条交叉指引，所有外键、引句和偏移有效且mention不重叠；`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`。当前11,384候选、26,515 mentions、11,788 statements；832段中605 complete、121 excluded、106 queued、0 partial。下一书目段L846–881；余12个书目段及94个索引段。机械检查不等于全书S2语义交接。
+
+## 书目L846–881：出版物及前页作者指引核对（PDF物理页21，印刷p.431；2026-10-07）
+
+对照规范源与PDF页图审读本段。L846的[Page 431]为页码标记，印本本页列有28条出版物；写入28条bibliography_lists_publication statement与28条精确mention。复用24个既有archive候选并补全题名等出版项，新建4个archive候选cand-11406–cand-11409。Northall的cand-10216在主迁移后经单条受控补记补全；上一段创建的Molinier作者候选cand-11401仍保留身份未定状态。
+
+页图确认并记录：Moroni词典条目续文含109卷、威尼斯1840–79年，OCR段漏掉该出版项；L849印本为Moschini而OCR作Meschini，候选与既有相近拼写引用保持分立供S3；L861完整识别Müntz与Molinier合著文章及1885年页码范围，因而将L820作者指引状态改为目标已核对，但不据此确定Molinier个人身份。L876将OCR粘连的Nicodemi与Nisser两条拆成独立引句；另校读期刊卷次、姓名撇号、书名、日期及标点。原始OCR未改写。
+
+受控主迁移脚本默认dry-run，锁定规范Markdown、PDF和段落指纹，核对表前态、候选类型、statement外键、逐行引句与mention字符偏移；应用前为四表保存.bak-s2-chp21-bibliography-l846-881-20261007副本。Northall补记脚本另锁定同一段指纹和现有书目statement，并为候选表保存.bak-s2-chp21-bibliography-l846-881-northall-20261007副本。写入后段级检查确认28条statement、28条mention，引用、外键、字符偏移有效且mention不重叠；全表审计errors=[]、s2_missing=[]。当前11,388候选、26,543 mentions、11,816 statements；832段中606 complete、121 excluded、105 queued、0 partial。下一书目段L883–926；余11个书目段与94个索引段。机械审计不替代全书S2语义交接。
