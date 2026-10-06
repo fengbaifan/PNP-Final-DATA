@@ -6077,3 +6077,21 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 原S0 OCR不改写。页图复核确认L1273的1958、L1276的Jaffé重音符、L1298 journal标题前无引号；未据外部知识更正。Wynne-Rosenberg地点差异与跨章文献/作者对应保留S3。该段未新建正式关系；书目条目及所引出版物内容均未独立阅读。
 
 受控脚本chp21_bibliography_l1261_1299_migration.py锁定来源、PDF、S0段哈希、表前态及前段完成状态，默认dry-run；apply前为四表保存恢复副本。dry-run与apply写入24项候选更新（20个archive、4个人物）、4个新archive、24条mention和24条statement。段级检查确认L1262–1299逐行覆盖，提及字符偏移与statement原句精确、候选外键完整且无重叠。全表audit_tables.py --summary返回errors=[]、s2_missing=[]。当前11,436候选、26,822 mentions、12,095 statements；832段中616 complete、121 excluded、95 queued、0 partial。下一段为L1301–1306，另有94个索引段。机械通过不等于全书S2语义交接完成。
+
+## 书目末尾错位 OCR 块 L1301–1306
+
+规范书目文件将这段扫描/OCR 收在 `**Footnotes:**` 标签下，但它不是新的脚注材料：L1302–1306 分别是前面已处理书目页 p.413、414、423、424、431 的错位续行或完整条目转录。逐页图像及前段 statement 已提供印本依据。本段保留 S0 原文，不改写来源；L1301 是结构标签，不计作内容行；L1302–1306 全部完成逐项定位。
+
+| S0行 | 候选 | 精确处理与既有依据 |
+|---|---|---|
+| L1302 | cand-11238 | `2 vols., 1877-8.` 链接到 p.413 的 `st-chp21-bib-l87-127-entry-12`；该印本续行补全 Barozzi–Berchet 两卷本，不重复列书目。 |
+| L1303 | cand-9439 | `2 vols., London 1834.` 链接到 p.414 的 `st-chp21-bib-l129-163-entry-06`，补 Beckford 条目续行。 |
+| L1303 | cand-4805 | 同行 Bellori《Nota delli Musei…》完整转录链接到 p.414 页图增补 `st-chp21-bib-l129-163-page-image-omission-01`；不另造书目断言，版本身份仍待 S3。 |
+| L1304 | cand-11332 | `4 vols., Roma 1939-42.` 链接到 p.423 的 `st-chp21-bib-l498-536-entry-04`，补 Giuseppe Gabrieli 条目续行。 |
+| L1304 | cand-11333 | Noemi Gabrieli 的 `Aggiunte a Sebastiano Ricci` 转录链接到 p.423 页图增补 `st-chp21-bib-l498-536-page-image-noemi-01`；出版物未独立阅读。 |
+| L1305 | cand-11347 | `3 vols., Londres 1764.` 链接到 p.424 的 `st-chp21-bib-l538-575-entry-11`，补 Grosley 条目续行。 |
+| L1306 | cand-7696 | `109 vols., Venezia 1840-79.` 链接到 p.431 的 `st-chp21-bib-l846-881-entry-01`，补 Moroni 词典的卷数与刊行年。 |
+
+受控迁移脚本 `chp21_bibliography_l1301_1306_migration.py` 以来源、PDF、分段哈希和四表前态为前置条件，默认 dry-run。新增 7 条精确 mention 和 7 条 `bibliography_displaced_ocr_cross_reference` statement，并在原 statement 上反向登记来源行及交叉引用 ID；更新 7 个候选说明以去除“待本段补链”的过时措辞。未新建候选、出版物列举断言或正式关系。上述出版物内容均未独立查阅。
+
+首轮写入后的机械审计发现 `s2-coverage.csv` 的行范围分隔符与校验契约不符。使用写前恢复副本还原四表（副本与迁移前 Git 版本逐字节一致），将范围格式修为 `L1302-1306` 后重新 dry-run/apply。复核 `python -X utf8 scripts/audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`；全库 11,436 候选、26,829 mentions、12,102 statements；832 段中 617 complete、121 有理由排除、94 queued、0 partial。下一待处理段为 manifest 中首个索引段 `chp-22:22_CHP-22Index:l1-1`；剩余 queued 均为索引段。结构审计不替代全书 S2 语义交接审查。

@@ -1174,7 +1174,7 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 
 复用18个archive候选、新增13个（cand-11331–cand-11343，其中Noemi为页图项），补全14个已有候选；写入30条精确S0 mentions、30条bibliography_lists_publication statements和1条bibliography_page_image_addendum。保留Gabbrielli双年页码、Gabrieli/Galilei/Gallo/Gigli/Giustiniani/Goethe/Goldoni卷级定位与书目版记录的S3比对关系，不在S2合并。Gherardi方括号归属原样保留。
 
-页图校读记录L499多余句点、L500 Frühwerk/Kardinal断词、L508 Strà、L509页码153、L517页码285、L518作者名和editor标点、L528多余引号、L535页码缩写；S0不改。Noemi的OCR文本已确认实际存在于规范书目文件L1304；当前statement仅以L503–504为相邻锚点，cand-11333来源锚在本已审段L503，后续处理L1301–1306时为Noemi补精确mention并将Gabrieli卷数续行链接到cand-11332，不重复statement。被引作品未独立查阅。
+页图校读记录L499多余句点、L500 Frühwerk/Kardinal断词、L508 Strà、L509页码153、L517页码285、L518作者名和editor标点、L528多余引号、L535页码缩写；S0不改。Noemi的OCR文本已确认实际存在于规范书目文件L1304；当前statement仅以L503–504为相邻锚点，cand-11333来源锚在本已审段L503，后续L1301–1306处理中已为Noemi补精确mention，并将Gabrieli卷数续行链接到cand-11332；两处均交叉引用既有statement，不重复登记出版物。被引作品未独立查阅。
 
 迁移后audit_tables为s2_missing=[]、errors=[]；候选11,322、mentions 26,305、book-statements 11,580；832段中598 complete、121有理由排除、113 queued、0 partial。下一段L538–575；尚余19个书目段和94个索引段。语义范围和质量仍须在全书S2交接审计中核对。
 
@@ -1284,3 +1284,7 @@ Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页
 ## 书目L1261–1299（PDF物理页31，印刷p.441）
 
 处理23条书目记录，并以独立续接statement补完p.440 L1259的Wilhelm条目；更新20个既有archive和4个人物候选，新增4个archive候选cand-11454–cand-11457，登记24条mention和24条statement。页图确认Wittkower 1958、Jaffé拼写及Zimmermann期刊行OCR订正；Wynne-Rosenberg地点读作à Padoue，与候选旧值Venezia存在差异，保留待S3/来源核对。Wright、Zannandreis及Girolamo Zanetti的跨章引用不合并，留S3比对；所列出版物均未独立阅读。全表审计errors=[]、s2_missing=[]；当前11,436候选、26,822 mentions、12,095 statements，616 complete、121 excluded、95 queued。下一段L1301–1306，余1个书目段和94个索引段。
+
+## 书目末尾错位 OCR L1301–1306
+
+L1301为结构性`Footnotes`标签；L1302–1306内7段错位OCR已分别链接到p.413、414、423、424、431先前登记的书目statement/页图增补，不新增出版物或正式关系。完成7条精确mention、7条交叉引用statement和7项候选说明更新；未独立查阅所列文献。首次审计发现source_line_ranges格式错误后，恢复写前四表副本，修正为`L1302-1306`并重新写入；最终`s2_missing=[]`、`errors=[]`。当前11,436候选、26,829 mentions、12,102 statements；617 complete、121 excluded、94 queued、0 partial。下一段为首个queued索引段`chp-22:22_CHP-22Index:l1-1`。
