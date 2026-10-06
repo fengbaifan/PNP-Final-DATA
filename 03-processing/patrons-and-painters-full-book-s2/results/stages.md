@@ -1147,3 +1147,11 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 ## 书目L336–374（PDF物理页9，印刷p.419）
 
 处理28项出版物，复用15个archive候选、新增13个，添加28条mentions和28条bibliography statements。将两篇Coggiola-Pittoni文章分开登记，并按印本拆分S0 L371粘连的两条Constable记录；Cicogna、Cochin与Conti的集合级条目保留独立候选供S3核对。页图校正页码、重音、罗马数字、扫描杂点和跨行断词；S0保持不变。审计`errors=[]`、`s2_missing=[]`；候选11,275、mentions 26,183、statements 11,458；594 complete、121 excluded、117 queued、0 partial。下一段书目L376–418；剩余23个书目段和94个索引段。
+
+## 书目L376–418（PDF物理页10，印刷p.420）
+
+逐读L377–418并按印本处理30条出版物记录；复用12个archive候选、新增18个（`cand-11297`–`cand-11314`），登记32条精确mention和31条statement。另将L398“Croft-Murray, E. → Blunt and Croft-Murray”记为书目交叉索引，链接到L210已有联合出版物`cand-9340`；作者候选身份继续留待S3。`Crespi—Mostra celebrativa...`只记标题和书目栏目，不推断作者，也未将书目项转为正文历史事实。
+
+页图校正L378的误入引号、L384/L412的页边尾横、L404 `191z`、L407 `cinquantanni`、L415 `II Grechetto`和L416 `l6ème`；印本分别为无引号、无尾横、1913、cinquant’anni、Il Grechetto及16ème siècle。S0保持原文；本页未发现整条书目漏录。被引原作未独立查阅。
+
+受控迁移脚本先dry-run后apply，四表恢复副本为`.bak-s2-chp21-bibliography-l376-418-20261007`。审计`s2_missing=[]`、`errors=[]`；11,293候选、26,215 mentions、11,489 statements；595 complete、121 excluded、116 queued、0 partial。下段L420–459。

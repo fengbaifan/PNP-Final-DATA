@@ -2,7 +2,7 @@
 
 
 
-任务 ID：`patrons-and-painters-full-book-s2`。当前按用户指令推进本书从书前材料到索引的S2处理；完成830个规范段及交接审计前不交S3，也不启动S3–S6。
+任务 ID：`patrons-and-painters-full-book-s2`。当前按用户指令推进本书从书前材料到索引的S2处理；832个规范段及交接审计完成前不交S3，也不启动S3–S6。
 
 
 
@@ -12,7 +12,7 @@
 
 - 规范来源、PDF对应和重复OCR处理见[来源登记](../../../02-sources/source-registry.md#全书文本与-pdf-范围s0s2)。共23份PDF，包含书前、17章正文和5类书后材料。
 
-- 当前S0 `segments.jsonl` 有830个规范段，含39段派生视觉转录。分节OCR为主体；正文整章OCR及书后 `_intro` 平行件保留作校勘，不重复计数。比较OCR不一致时以印本PDF页面核对，不静默略过独有内容。
+- 当前S0 `segments.jsonl` 有832段，来自79个规范来源文件，其中42段为派生视觉转录。CHP-11/12与CHP-10同版扫描对应的44段重复OCR已在coverage标为excluded；该数与视觉转录段数不是同一口径。Markdown目录另有22个未登记校勘副本：17个整章OCR和5个书后旧版`*_intro.md`；书目旧稿已比对，其余4份须在S2交接前核对。比较OCR不一致时以印本PDF页面核对，不静默略过独有内容。
 
 - 正文和脚注均须完整阅读；跨页接续、叙述者/转述者、否定/推测/传闻、时间和语境限定照原文保留。必要图像回到PDF页检查。
 
@@ -5626,3 +5626,13 @@ PDF页图确认四项S0校读：L170–171页码`131—136`应为`131–136`；L
 页图校读并保留在statement限定中：L337页码`333*343`→333–343；L339清除装饰/下划线残留并校正38–64；L348 `Il`→II；L352去掉条目前杂点；L353补Clément重音；L355补édition重音；L357–358恢复Serenissima跨行；L360去除扫描杂点；L371分开两项Constable书目并校正p.154。S0来源文本不改写，被引内容未独立查阅。
 
 受控脚本`chp21_bibliography_l336_374_migration.py`核验来源/PDF/段落哈希、前态计数、候选类型/自然键、精确提及跨度、statement引句及外键；四表恢复副本为`.bak-s2-chp21-bibliography-l336-374-20261004`。全表审计`errors=[]`、`s2_missing=[]`；候选11,275、mentions 26,183、statements 11,458；832段中594 complete、121有理由排除、117 queued、0 partial。下一书目段L376–418；剩余23个书目段和94个索引段。结构审计不替代语义质量评估。
+
+## 书目L376–418：出版物条目与交叉索引（2026-10-07）
+
+对照`CHP-21Bibliography.pdf`物理页10（印刷p.420）逐行处理规范源L376–418；L376是页码标记，L377–418包含30条出版物记录和1条`See also`书目指针。复用12个archive候选，新增18个（`cand-11297`–`cand-11314`），写入32条精确mention和31条`origin=book` statement。逐项登记作者/题名/出版信息；`Crespi—Mostra celebrativa...`只把Crespi记为书目条目标题，不推定作者。被引作品没有在本次S2中独立查阅。
+
+`Croft-Murray, E.: See also Blunt and Croft-Murray`按书目导航记为`bibliography_cross_reference`，指向本书L210的Blunt—Croft-Murray联合出版物候选`cand-9340`；来源候选沿用`cand-11001`，明确保留跨章身份待S3，不生成作者关系或身份合并。
+
+按页图在statement限定中校正L378 `delle‘chiese`→`delle chiese`、L384与L412位于页边的孤立尾横不纳入书目记录、L404 `191z`→`1913`、L407 `cinquantanni`→`cinquant’anni`、L415 `II Grechetto`→`Il Grechetto`、L416 `l6ème`→`16ème`；S0 OCR文本保持不变，未发现本页整条书目项漏录。受控脚本`chp21_bibliography_l376_418_migration.py`默认dry-run并锁定来源/PDF/段哈希、前态计数、自然键、mention偏移、statement引句与外键；apply前为四表保留`.bak-s2-chp21-bibliography-l376-418-20261007`恢复副本。
+
+写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；候选11,293、mentions 26,215、statement 11,489；832段中595 reviewed/complete、121 excluded、116 queued、0 partial。下一段为书目L420–459（PDF物理页11，印刷p.421）；其后还剩21个书目段和94个索引段。机械审计不替代语义范围与质量交接审查。
