@@ -5963,3 +5963,42 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 跨章候选映射只作为后续比较入口：cand-5834/Tamizey与p.265遗嘱引文、cand-6590的卷I/II定位、cand-10392所指introduction的实体边界、cand-8792的展览目录、cand-9346的Toesca作者形式、cand-9303的Turberville卷页定位均未在S2裁定。没有新增正式关系，relations.csv未改。
 
 受控脚本`chp21_bibliography_l1141_1177_migration.py`锁定来源Markdown、PDF、S0段哈希和迁移前规模，默认dry-run；apply前已备份entity-candidates、mentions、book-statements、s2-coverage四表。dry-run及apply分别写入21项既有候选更新（20个archive及1个人物）、5个新archive、30条mention、30条statement。独立段级核验与全表审计通过：`s2_missing=[]`、`errors=[]`；当前11,420个候选、26,742条mention、12,015条statement；832段中613 complete、121 excluded、98 queued、0 partial。下一段为L1179–1218，尚有4个书目段和94个索引段。机械闭合不代表全书S2语义交接完成。
+
+## 书目L1179–1218（PDF物理页29，印刷p.439）
+
+核对规范书目源L1180–1218的28条出版物；L1179仅为页码行，不计入条目。复用20个既有archive候选并补全其中13个，更新2个人物候选的印本来源信息，新建8个archive候选cand-11442–cand-11449。登记28条mention和28条`bibliography_lists_publication` statement，均标记`relation_candidate=false`。条目与跨章候选映射如下：
+
+| 行 | 候选 | 书目记录与处理 |
+|---|---|---|
+| L1180 | cand-11192 | *Twilight of the Medici—Late Baroque Art in Florence 1670–1743*，Detroit and Florence 1974；补全p.404 n.9展览出版物候选。 |
+| L1181 | cand-11442 | S. Ubaldi，*I Buonaccorsi a Macerata, cenni storici*，Macerata 1950；新建书目候选，与既有Silvio Ubaldi人物/来源候选cand-7734的对应仍待确认。 |
+| L1182 | cand-8793 | G. M. Urbani de Ghelthof，*Tiepolo e la sua Famiglia*，Venezia 1879；补全旧引用。 |
+| L1183 | cand-11198 | *Urbino—Restauri nelle Marche: testimonianze, acquisti e recuperi*，1973；补全p.404 n.19可能对应的出版物标题；引页未核。 |
+| L1184–1185 | cand-4844 | M. Vaes，‘Le séjour de Van Dyck en Italie’，*Bulletin de l’Institut Belge de Rome*，1924，pp.163–234；补全p.211 n.3，并校正期刊名和起页OCR。 |
+| L1186–1187 | cand-7584 | M. Vaes，‘Corneille de Wael (1592–1667)’，同刊，1925，pp.137–247；与p.171旧定位cand-6387建立S3比较入口，不提前合并。 |
+| L1188–1189 | cand-6997 | M. Vaes，‘Appunti di Carel van Mander su vari pittori italiani suoi contemporanei’，*Roma*，1931，pp.193–208；补全p.202定位。 |
+| L1190 | cand-11443 | F. Valcanover，‘Per Luca Carlevaris’，*Arte Veneta*，1952，pp.193–194；新建。 |
+| L1191–1192 | cand-7621 | A. C. P. Valery，*Voyages historiques, littéraires et artistiques en Italie*，第2版，3卷，Paris 1838；复用。 |
+| L1193 | cand-11444 | J. Valfrey，*Hugues de Lionne—ses ambassades en Italie 1642–1656*，Paris 1877；新建。 |
+| L1194 | cand-11445 | G. della Valle，*Lettere Sanesi*，3卷，Roma 1782–86；新建，保留印本作者形式。 |
+| L1195–1196 | cand-11116 | *Vassar College Art Gallery—Selections from the Permanent Collection*，Poughkeepsie, N.Y. 1967；补全p.408 n.5目录候选，和机构cand-11115分开；目录及p.24未核。 |
+| L1197 | cand-8798 | A. Vecchi，‘La vita spirituale’ in *La Civiltà Veneziana del Settecento*，Venezia 1960；补全p.271 n.3短引，正文代词所指歧义仍保留。 |
+| L1198 | cand-11446 | G. da Venezia，‘Il Metastasio di P. A. Novelli’，*Rivista di Venezia*，1934，pp.25–34；新建。 |
+| L1199 | cand-11447 | *Venise au dix-huitième siècle*，Paris (Orangerie), 1971；新建展览出版物记录，不扩写为事件。 |
+| L1200 | cand-4354 | A. Venturi，*La R. Galleria Estense in Modena*，Modena 1883；复用，作者人物候选cand-7054仍保留印本首字母。 |
+| L1201 | cand-11448 | F. Venturi，‘Un amico di Beccaria e di Verri: Profilo di Giambattista Biffi’，*Giornale Storico della Letteratura Italiana*，1957，pp.37–76；新建，与Franco Venturi候选cand-2751留S3核对。 |
+| L1202 | cand-11209 | F. Venturi，*Settecento riformatore*，2卷，Torino 1969、1976；补全1969引文候选，1976引文cand-11210保留供S3比对。 |
+| L1203 | cand-5690 | C. Vermeule，‘The dal Pozzo-Albani drawings of classical antiquities’，*Art Bulletin*，1956，pp.32–46；补全现代研究引文。 |
+| L1204–1205 | cand-7255 | George Vertue，*Notebooks*，Walpole Society 1930–55；保留印本文义“6 vols. and an index”，目录列卷XVIII、XX、XXII、XXIV、XXVI、XXIX及索引XXX，不合并成7卷。 |
+| L1206–1207 | cand-9471 | V. Viale，‘Un dipinto del Pannini con la veduta orientale del Castello di Rivoli secondo il progetto originale di Filippo Juvarra’，*Bollettino della Società Piemontese di Archeologia e Belle Arti*，1950–1，pp.161–169；复用并校正尾随扫描标记。 |
+| L1208 | cand-11449 | Don Giovanni Vianelli，*Catalogo di quadri esistenti in casa il signor Don Giovanni Dr Vianelli canonico della cattedrale di Chioggia*，Venezia 1790；新建。 |
+| L1209–1210 | cand-7588 | Ludovico de la Ville sur-Yllon，‘Il palazzo dei duchi di Maddaloni alla Stella’，*Napoli Nobilissima*，1904，pp.145–147；复用。 |
+| L1211 | cand-8435；作者cand-8434 | Frédéric Villot，‘Lettre de Charles-Nicolas Cochin sur les artistes de son temps’，*Archives de l’Art Français*，vol.I，1851–2，pp.169–176；补全标题并按页图补出作者名。 |
+| L1212–1213 | cand-10905 | Gianni Eugenio Viola，*Il verso di Narciso—tre tesi sulla poetica di Giovan Battista Marino*，Roma 1978；补全候选，与p.398 n.5的surname-only Viola/cand-10904可能对应，但相关性未证实，留S3。 |
+| L1214–1215 | cand-4728 | W. Vitzthum，‘A comment on the iconography of Pietro da Cortona’s Barberini ceiling’，*Burlington Magazine*，1961，pp.427–433；补全p.4与p.96引文。 |
+| L1216 | cand-5692 | W. Vitzthum，‘Roman drawings at Windsor Castle’，*Burlington Magazine*，1961，pp.513–518；补全p.4 n.2引文。 |
+| L1217–1218 | cand-9552 | Frances Vivian，‘Joseph Smith and Giovanni Antonio Pellegrini’，*Burlington Magazine*，1962，pp.330–333；复用已具题名和页码的候选。 |
+
+页图校读确认L1184期刊名为`l’Institut`，L1185页码为163–234；L1189尾随的短横和撇号为扫描/OCR杂符；L1211行首下划线及行末撇号不属印本；L1207尾随短横、L1216尾随逗号为杂符；L1215 OCR将433拆开，L1218将333后的句点误为短横。原S0 OCR不改写。出版物本身和书目所引页均未在本段独立阅读。没有新建正式关系或改动relations.csv。
+
+受控脚本`chp21_bibliography_l1179_1218_migration.py`锁定Markdown/PDF/S0段哈希、迁移前计数、当前队列状态和前一段完成状态，默认dry-run；apply前为entity-candidates、mentions、book-statements、s2-coverage保存恢复副本。dry-run及apply写入15项候选更新（13个archive、2个人物）、8个新archive、28条mention、28条statement。段级引句、字符偏移、行覆盖和外键检查通过；全表审计`errors=[]`、`s2_missing=[]`。当前11,428候选、26,770 mentions、12,043 statements；832段中614 complete、121 excluded、97 queued、0 partial。下一段书目L1220–1259；剩余3个书目段和94个索引段。机械通过不等于全书S2语义交接完成。
