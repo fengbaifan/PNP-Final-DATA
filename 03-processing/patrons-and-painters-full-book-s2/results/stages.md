@@ -1155,3 +1155,9 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 页图校正L378的误入引号、L384/L412的页边尾横、L404 `191z`、L407 `cinquantanni`、L415 `II Grechetto`和L416 `l6ème`；印本分别为无引号、无尾横、1913、cinquant’anni、Il Grechetto及16ème siècle。S0保持原文；本页未发现整条书目漏录。被引原作未独立查阅。
 
 受控迁移脚本先dry-run后apply，四表恢复副本为`.bak-s2-chp21-bibliography-l376-418-20261007`。审计`s2_missing=[]`、`errors=[]`；11,293候选、26,215 mentions、11,489 statements；595 complete、121 excluded、116 queued、0 partial。下段L420–459。
+
+## 书目L420–459（PDF物理页11，印刷p.421）
+
+按页图审读31条出版物记录，复用24个archive候选，新增7个（`cand-11315`–`cand-11321`），添加31条mentions和31条bibliography statements。补全16个已有书目候选的题名/出版信息；De Dominici四卷集与Evelyn六卷编辑本和卷页定位候选分列，供S3对齐。Faldi书目1954与正文脚注1955的差异仍保留。
+
+在statement限定中校正S0 OCR和扫描杂点，涉及L423、426、432–433、441、455、458–459；S0不改，本页未发现整条遗漏。被引作品未独立查阅。审计`errors=[]`、`s2_missing=[]`；候选11,300、mentions 26,246、statements 11,520；596 complete、121 excluded、115 queued、0 partial。下一段书目L461–496。

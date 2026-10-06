@@ -5636,3 +5636,13 @@ PDF页图确认四项S0校读：L170–171页码`131—136`应为`131–136`；L
 按页图在statement限定中校正L378 `delle‘chiese`→`delle chiese`、L384与L412位于页边的孤立尾横不纳入书目记录、L404 `191z`→`1913`、L407 `cinquantanni`→`cinquant’anni`、L415 `II Grechetto`→`Il Grechetto`、L416 `l6ème`→`16ème`；S0 OCR文本保持不变，未发现本页整条书目项漏录。受控脚本`chp21_bibliography_l376_418_migration.py`默认dry-run并锁定来源/PDF/段哈希、前态计数、自然键、mention偏移、statement引句与外键；apply前为四表保留`.bak-s2-chp21-bibliography-l376-418-20261007`恢复副本。
 
 写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；候选11,293、mentions 26,215、statement 11,489；832段中595 reviewed/complete、121 excluded、116 queued、0 partial。下一段为书目L420–459（PDF物理页11，印刷p.421）；其后还剩21个书目段和94个索引段。机械审计不替代语义范围与质量交接审查。
+
+## 书目L420–459：出版物条目（2026-10-07）
+
+对照`CHP-21Bibliography.pdf`物理页11（印刷p.421）逐行核对规范源L420–459；L420是页码标记，L421–459包含31条出版物记录。复用24个archive候选，新增7个（`cand-11315`–`cand-11321`），写入31条精确mention和31条`bibliography_lists_publication` statement。按书目本身登记作者、题名、出版项，不把引文当成被引作品内容证据。
+
+16个已存在archive候选从仅有引文定位/简称补全为书目可证的题名和出版信息；Ewald的1976引用现对应页421唯一列出的论文题名。`Faldi`的书目年份1954与正文脚注所引1955继续保留差异，不裁决。De Dominici四卷全集`cand-11317`、Evelyn六卷本`cand-11321`分别与具体卷/页引文候选`cand-4835`、`cand-5685`分开，并在statement中标为S3待比对；不提前合并身份。两种来源均未独立查阅。
+
+页图校读只记入statement限定，不改S0：L423移除Ricci与Heidelberg间误入句点；L426移除OCR尾随引号；L432恢复音乐书名中的省略号；L433排除印本以外的尾横扫描痕；L441补回题名闭引号；L455去除行首杂点并校为pp.333–343；L458校正`Effìmero`与`’óoo`；L459将`T busti`校为`‘I busti`。逐项对照页图，未发现整条书目漏录。
+
+受控脚本`chp21_bibliography_l420_459_migration.py`默认dry-run，锁定来源/PDF/段哈希、迁移前表计数、候选类型与自然键、精确mention偏移、statement原句及外键；apply前保存四表恢复副本`.bak-s2-chp21-bibliography-l420-459-20261007`。写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；候选11,300、mentions 26,246、statement 11,520；832段中596 reviewed/complete、121 excluded、115 queued、0 partial。下一段书目L461–496（PDF物理页12，印刷p.422）；其后还剩21个书目段和94个索引段。结构审计不替代语义质量与S2交接审查。
