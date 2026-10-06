@@ -5920,3 +5920,46 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 本页25条均按bibliography_lists_publication记录，relation_candidate=false，未从书目引用生成历史关系。17个既有候选更新（13个archive、4个人物来源说明），8条复用原已充分的archive候选；另新建4个archive候选cand-11433–cand-11436。保留的跨章比较包括Sensier多个短引、Skippon三个页码定位、Strocchi p.404 note 12、Tabacco三处定位、Silhouette卷次、Sotheby’s机构与展览出版物，以及Shaftesbury work与1914 edition。被列出版物及其引述页均未在本段独立阅读。
 
 受控脚本chp21_bibliography_l1102_1139_migration.py以Markdown/PDF/S0段哈希、迁移前表计数、队列状态及前序段状态为前置条件；dry-run通过后apply，并在写入前为四表保存.bak-s2-chp21-bibliography-l1102-1139-20261007恢复副本。段级检查确认25条mention、25条statement、L1103–1139逐行覆盖、引句唯一、字符偏移有效、候选及S3关联外键有效。写入后全表audit_tables.py --summary为errors=[]、s2_missing=[]；当前11,415候选、26,712 mentions、11,985 statements；832段中612 complete、121 excluded、99 queued、0 partial。下一段书目L1141–1177；余5个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。
+
+## 书目L1141–1177（PDF物理页28，印刷p.438）
+
+核对规范书目源L1142–1177的30条出版物记录；L1141仅为页码行，不计入条目。复用25个既有archive候选，其中20个补全著录；更新Tamizey de Larroque人物候选cand-5833的印本作者形式与来源限定；新建5个archive候选cand-11437–cand-11441。登记30条mention和30条`bibliography_lists_publication` statement，均标记`relation_candidate=false`。被列出版物及所引页均未在本段独立阅读。
+
+| 行 | 候选 | 书目记录与处理 |
+|---|---|---|
+| L1142–1143 | cand-5467 | P. Tacchi-Venturi，‘Le convenzioni tra Giov. Battista Gaulli e il Generale dei Gesuiti’，Roma 1935，pp.147–156；补全p.80短引，相关页未核读。 |
+| L1144 | cand-5492 | Tacchi-Venturi，*La casa di S. Ignazio di Loiola in Roma*，Roma n.d.；保留印本`Loiola`。 |
+| L1145 | cand-5834；作者cand-5833 | Tamizey de Larroque，‘Deux testaments inédits’，*Bulletin Critique*，1886-05-15；可能对应p.265的Bouchard遗嘱引文，题名不足以证明，留S3比较。 |
+| L1146 | cand-7023 | V. L. Tapié，*La France de Louis XIII et de Richelieu*，Paris 1952；复用已完整候选。 |
+| L1147 | cand-6590 | F. M. Tassi，*Vite de’ Pittori, Scultori e Architetti Bergamaschi*，Bergamo 1793；保留卷I与卷II旧定位分别供S3比对。 |
+| L1148 | cand-8428 | G. Tassini，*Curiosità Veneziane*，第5版，Venezia 1915；与cand-10687的1887年第4版区分。 |
+| L1149–1150 | cand-7089 | F. H. Taylor，*The taste of angels—a history of art collecting from Rameses to Napoleon*，Boston 1948；复用。 |
+| L1151 | cand-9957 | T. Temanza，*Vite dei più celebri architetti, e scultori veneziani*，Venezia 1778；补全p.87定位。 |
+| L1152 | cand-8799 | D. Cristoforo Tentori，*Saggio sulla storia civile, politica, ecclesiastica e sulla corografia e topografia degli stati della repubblica di Venezia*，12卷，Venezia 1785–90；补全卷X/p.288定位。 |
+| L1153–1154 | cand-4569 | Alfred de Terrebasse，*Relation des principaux événements de la vie de Salvaing de Boissieu*，Lyon 1850；补全p.40短引。 |
+| L1155 | cand-11437 | G. de Tervarent，*Attributs et symboles dans l’art profane 1450–1600*，Genève 1959；新建，作者名不据首字母扩写。 |
+| L1156–1157 | cand-10392 | Mauro Tesi，*Raccolta di disegni originali…*，印本列`Lodovico Inig calcografo`及[Bologna 1787]；保留`Inig`印字，p.358 n.3所引“introduction”的对象边界留S3澄清。 |
+| L1158（前段） | cand-9779 | A. Tessier，‘Di Francesco Maggiotto—pittore veneziano’，*Archivio Veneto* 1882，pp.289–315；精确引句截至`289315`。 |
+| L1158（后段） | cand-11438 | Girolamo Teti，*Aedes Barberinae ad Quirinalem a comite Hieronymo Tetio Persino descriptae*，Romae MDCXLII；与Tessier共用源行但mention字符范围互不重叠，姓名实体对齐留S3。 |
+| L1159 | cand-4837 | J. Thuillier，‘Un peintre passionné’，*L’Œil* no.47，1958年11月，pp.26–33；按页图恢复OCR的`L’CEil`。 |
+| L1160 | cand-5805 | J. Thuillier，‘Pour un “Corpus Poussinianum”’，*Actes du Colloque Poussin*，1960，vol.II，pp.49–238；恢复年份`1960`。 |
+| L1161 | cand-8792 | *Tiepolo—catalogo della mostra a cura di Giulio Lorenzetti*，Venezia 1951；补全p.270 n.3的展览目录候选，目录及p.8未核读。 |
+| L1162–1163 | cand-5493 | H. Tietze，‘Andrea Pozzo und die Fürsten Liechtenstein’，*Jahrbuch für Landeskunde von Niederösterreich*，1914–15，pp.432–446；复用既有记录。 |
+| L1164 | cand-7350 | H. Tietze，‘Eugenio di Savoia amico dell’arte’，*Le Vie d’Italia e del Mondo*，1933，pp.891–907；补全书目信息。 |
+| L1165–1166 | cand-10451 | Emilio de Tipaldo，*Descrizione della deliziosa villa di Sala di proprietà del signor Demetrio Mircovich*，Venezia 1833；剔除OCR尾随扫描符号。 |
+| L1167 | cand-11439 | Emilio de Tipaldo，*Biografia degli Italiani illustri…*，10卷，Venezia 1834–45；新建，与1833年villa出版物分开，按页图恢复`10 vols.`。 |
+| L1168 | cand-9346 | L. Toesca，‘Alessandro Galilei in Inghilterra’，*English Miscellany*，Roma 1952，pp.189–220；旧注释作者写Ilaria Toesca，书目写L. Toesca，身份/映射留S3。 |
+| L1169 | cand-4333 | L. Toesca，‘Note sulla storia del Palazzo Giustiniani a San Luigi dei Francesi’，*Bollettino d’Arte*，1957，pp.296–308；补全。 |
+| L1170 | cand-10476 | Gianfranco Torcellan，*Una figura della Venezia settecentesca: Andrea Memmo*，Venezia–Roma 1963；恢复断行处城市间连接号，补全p.364/p.367定位。 |
+| L1171 | cand-11110 | Gianfranco Torcellan，*Settecento veneto e altri scritti storici*，Torino 1969；补全。 |
+| L1172 | cand-7002 | E. du Gué Trapier，*Ribera*，New York 1952；复用。 |
+| L1173 | cand-5801 | K. Trauman-Steinitz，‘Poussin illustiator of Leonardo da Vinci’，*Art Quarterly*，1953年春，pp.40–55；页图确认为`illustiator`，保留印本疑似拼误。 |
+| L1174 | cand-11440 | L. Treat，*Un cosmopolite italien du XVIIIème siècle—Francesco Algarotti*，Trévoux 1913；新建。 |
+| L1175 | cand-9303 | A. S. Turberville，*A history of Welbeck Abbey and its owners*，London 1939；补全p.280 n.2卷II/p.14定位，原书及引页未核读。 |
+| L1176–1177 | cand-11441 | Nicholas Turner，‘Ferrante Carlo’s Descrittione della Cupola di S. Andrea della Valle depinta dal Cavalier Gio: Lanfranchi; a source for Bellori’s descriptive method’，*Storia dell’Arte*，1971，pp.297–325；新建，保留印本`Descrittione`。 |
+
+页图确认L1158实际是两条相邻书目；OCR把Tessier的`pp. 289315`与Teti作者名粘连，故拆成两个同源行mention，分别使用原行内唯一、互不重叠的字符跨度。其他校读包括：L1159的`L’CEil`→`L’Œil`；L1160的`i960`→`1960`；L1166尾随`■ .`为扫描/OCR杂符；L1167的`io vols.`→`10 vols.`；L1170的`VeneziaRoma`依页图断行恢复为`Venezia–Roma`；L1172尾随撇号为OCR杂符。L1157的`Inig`和L1173的`illustiator`经页图确认后保留，不作猜测性规范化。
+
+跨章候选映射只作为后续比较入口：cand-5834/Tamizey与p.265遗嘱引文、cand-6590的卷I/II定位、cand-10392所指introduction的实体边界、cand-8792的展览目录、cand-9346的Toesca作者形式、cand-9303的Turberville卷页定位均未在S2裁定。没有新增正式关系，relations.csv未改。
+
+受控脚本`chp21_bibliography_l1141_1177_migration.py`锁定来源Markdown、PDF、S0段哈希和迁移前规模，默认dry-run；apply前已备份entity-candidates、mentions、book-statements、s2-coverage四表。dry-run及apply分别写入21项既有候选更新（20个archive及1个人物）、5个新archive、30条mention、30条statement。独立段级核验与全表审计通过：`s2_missing=[]`、`errors=[]`；当前11,420个候选、26,742条mention、12,015条statement；832段中613 complete、121 excluded、98 queued、0 partial。下一段为L1179–1218，尚有4个书目段和94个索引段。机械闭合不代表全书S2语义交接完成。

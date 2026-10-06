@@ -1267,3 +1267,7 @@ p.403所引Pierre Rosenberg条目由本页题名、期刊与页码补全；p.404
 Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页码范围存在差异，已记录外部依据但不覆盖本书印字，也不声称已独立阅读该文。无关系表变更。
 
 写表前为entity-candidates、mentions、book-statements和s2-coverage保存恢复副本。受控迁移脚本的dry-run与apply均通过；段级引句唯一性、字符偏移、候选外键、S3关联外键及行覆盖检查通过。全表机械审计为errors=[]、s2_missing=[]；当前11,415候选、26,712 mentions、11,985 statements，612段complete、121段有理由排除、99段queued、0段partial。下一段为L1141–1177，剩余5个书目段与94个索引段。机械通过不等于全书S2语义交接完成。
+
+## 书目L1141–1177（PDF物理页28，印刷p.438）
+
+处理30条书目记录：复用25个既有archive候选并补全其中20个，更新Tamizey人物候选的来源形式，新增cand-11437–cand-11441五个archive候选；登记30条mention和30条`bibliography_lists_publication` statement。页图确认OCR将L1158 Tessier/Teti两条粘连，已拆分为同一源行中的两个独立、非重叠提及。校正L1159的`L’Œil`、L1160的1960、L1167的10卷及L1170的Venezia–Roma；保留页图确认的`Inig`和`illustiator`印字。Tamizey遗嘱引文、Tesi introduction边界、Toesca作者差异等仍待S3比对；未新增正式关系。段级检查及全表审计通过，`errors=[]`、`s2_missing=[]`；当前11,420候选、26,742 mentions、12,015 statements，613 complete、121 excluded、98 queued。下一段L1179–1218，余4个书目段和94个索引段。
