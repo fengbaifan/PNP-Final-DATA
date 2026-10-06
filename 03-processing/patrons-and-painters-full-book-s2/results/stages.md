@@ -1225,3 +1225,11 @@ Marcheix、Marrini、Marucelli、Matina、Matteoli及Mariette相关短引分别�
 页图确认本段28条出版物记录；复用并补全24个archive候选，新建4个archive候选，登记28条publication statement与28条精确mention。对照页图补记OCR缺失的Moroni词典卷数/年代，校正L849的Moschini/Meschini误读，拆分L876粘连的Nicodemi/Nisser两条。Molinier条目在L861找到，先前L820作者指引现标为目标已核对；个人身份仍未裁决。Northall既有p.438候选通过独立受控补记补全为书目所列的Travels through Italy。跨章作者/版本同一性问题仍保留供S3。
 
 写表备份已保存；段级外键、source quote、mention偏移和非重叠检查通过。audit_tables.py --summary为errors=[]、s2_missing=[]；当前11,388候选、26,543 mentions、11,816 statements；606 complete、121 excluded、105 queued。下一段书目L883–926，索引仍有94段待处理。
+
+## 书目L883–926（PDF物理页22，印刷p.432）
+
+处理31条书目记录，复用28个archive候选并补全27个，新增3个`cand-11410`–`cand-11412`，写入31条mention和31条`bibliography_lists_publication` statement。页图校读L896页码、L898/L914卷次、L911罗马数字与标点、L917扫描标记及L924–925重音；保留L889印本短横、Panciroli无给名形式与Paoletti印本名`Ermalao`。Nuti/Pasquali、Ottonelli两版及Palomino定位保留S3比对，不裁定同一性。段级精确引句、mention字符偏移、候选外键和非重叠检查通过；全表`errors=[]`、`s2_missing=[]`。当前11,391候选、26,574 mentions、11,847 statements；607 complete、121 excluded、104 queued。下一段书目L928–983。
+
+## 书目L928–983（PDF物理页23，印刷p.433）
+
+处理32条书目记录，复用并补全23个既有archive候选，新增9个`cand-11413`–`cand-11421`，写入32条mention和32条`bibliography_lists_publication` statement。页图校读Paolo Giordano II诗集题名、Parker重音、Passeri年代、Perez Sanchez的España、Pesenti行首点、Pignatti年份及Pietro da Cortona展览短横；恢复Patrignani、两项Pinetti、Pirri和Pisano在OCR中错排的期刊名片段。Pascoli、Pastor、Peiresc、Pellegrini和Pollak的卷次／版本或引文定位均保留S3比较，不预先合并。32段引句、外键、字符偏移和完整L929–983覆盖通过核验；全表`errors=[]`、`s2_missing=[]`。当前11,400候选、26,606 mentions、11,879 statements；608 complete、121 excluded、103 queued。下一段书目L985–1020。

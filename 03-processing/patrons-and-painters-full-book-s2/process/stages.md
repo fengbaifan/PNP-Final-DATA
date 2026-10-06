@@ -5742,3 +5742,21 @@ L788–790新建Mazza论文`cand-11397`；页图把标题续文、期刊名和�
 页图确认并记录：Moroni词典条目续文含109卷、威尼斯1840–79年，OCR段漏掉该出版项；L849印本为Moschini而OCR作Meschini，候选与既有相近拼写引用保持分立供S3；L861完整识别Müntz与Molinier合著文章及1885年页码范围，因而将L820作者指引状态改为目标已核对，但不据此确定Molinier个人身份。L876将OCR粘连的Nicodemi与Nisser两条拆成独立引句；另校读期刊卷次、姓名撇号、书名、日期及标点。原始OCR未改写。
 
 受控主迁移脚本默认dry-run，锁定规范Markdown、PDF和段落指纹，核对表前态、候选类型、statement外键、逐行引句与mention字符偏移；应用前为四表保存.bak-s2-chp21-bibliography-l846-881-20261007副本。Northall补记脚本另锁定同一段指纹和现有书目statement，并为候选表保存.bak-s2-chp21-bibliography-l846-881-northall-20261007副本。写入后段级检查确认28条statement、28条mention，引用、外键、字符偏移有效且mention不重叠；全表审计errors=[]、s2_missing=[]。当前11,388候选、26,543 mentions、11,816 statements；832段中606 complete、121 excluded、105 queued、0 partial。下一书目段L883–926；余11个书目段与94个索引段。机械审计不替代全书S2语义交接。
+
+## 书目L883–926：出版物条目（PDF物理页22，印刷p.432；2026-10-07）
+
+对照规范来源及PDF页图处理L884–926；L883的`[Page 432]`仅为页码标记，本页共有31条出版物记录。复用28个archive候选，补全27个（`cand-7137`的Orlandi条目此前已完整），新增3个`cand-11410`–`cand-11412`；写入31条精确mention及31条`bibliography_lists_publication` statement。新候选依次为d’Onofrio 1967、Pallucchini 1952及仅有姓氏的Panciroli 1625。
+
+页图校读：L889标题续行的短横按印本保留在`title_as_printed`；L896页码范围校为158–162；L898、L914的OCR`voi.`校为印本`vol.`；L911将`VÌI`校为`VII`并去除OCR重复句点；L917的行首扫描符号和尾随OCR短横不并入Piazzetta题名；L924–925去除`the`中的OCR重音。L894、L897行末短横按页图记作版面短横，不并入出版项字段。L921未给Panciroli名字或首字母，原样保留姓氏；L926确认方括号作者名`Ermalao Paoletti`，不作规范化。原始OCR不改写。
+
+Nuti条目与Pasquali候选、1652及1973年Ottonelli著作版本、Palomino另一卷页定位保留S3比较入口，不在书目S2中裁决同一性；本段不把书目列表转写为历史关系，也不声称独立阅读被列出版物。受控迁移脚本锁定来源、PDF、段落指纹和表前态；首轮dry-run发现脚本内候选登记块重复，修正后dry-run通过，未发生部分写入。apply前为四表保存`.bak-s2-chp21-bibliography-l883-926-20261007`恢复副本。写入后31条statement、31条mention的外键、逐行引句、字符偏移与不重叠检查通过；`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`。当前11,391候选、26,574 mentions、11,847 statements；832段中607 complete、121 excluded、104 queued、0 partial。下一书目段L928–983；余10个书目段和94个索引段。机械审计不替代全书S2语义交接。
+
+## 书目L928–983：出版物条目（PDF物理页23，印刷p.433；2026-10-07）
+
+对照规范源L929–983及PDF物理页23逐条处理32条书目记录；L928的`[Page 433]`仅为页码标记。复用23个既有archive候选并补全其书目字段，新建9个`cand-11413`–`cand-11421`；写入32条精确mention和32条`bibliography_lists_publication` statement。候选复用包括Paolo Giordano II的1649年诗集、Paravia、Parker、Passeri、Patrignani、两项Pecchiai、Pellegrini、Perez Sanchez、Pergola、Pesenti、两项Petrocchi、Pieraccini、Pierantoni、Pietro da Cortona展览、Pignatti、两项Pinetti、Pintard、Pittura del Seicento a Venezia及Poirier。新增Pascoli 1933双卷影印本、未标卷次的Pastor 1943意大利文版、Peiresc七卷书信集、Pevsner著作、Pigage著作、Pirri和Pisano论文、von Platen编本、Pollak 1927/1931双卷本。
+
+页图校读：Paolo Giordano II题名为`Rime e Satire`（OCR作Satira）；Parker的`the`无重音；Passeri年代为1641；Perez Sanchez国名为España；Pesenti行首句点、Pignatti的`i960`及Pietro da Cortona展览标题双短横为OCR伪差。Patrignani期刊`Rivista italiana di Numismatica`、两条Pinetti期刊名、Pirri的`Archivum Historicum Societatis Jesu`及Pisano的`Roma`在S0中有片段错排，页图确认其所属条目；保留S0引句行序并在statement记页图解释。Pinetti 1916/1920分开为两篇文章；L958、L962、L967、L971的刊名片段分别回接对应作者行。页图还核对Passeri 1934版、Pascoli I/II卷及1933影印本、Patrignani页码、Pellegrini展览目录、Pignatti与Mariacher不同年代的Museo Correr目录，以及Pollak 1913补编项；被引出版物均未独立查阅。
+
+保留后续S3比较边界：Pascoli合卷影印本与既有分卷候选、Pastor无卷次书目条目与第XII/XIII/XIV卷引文、Peiresc出版书信与手稿候选、Pellegrini目录的p.15/p.56/plate 92定位、Pollak两卷本与既有分卷引文不合并；Parker、Pevsner、Pigage、Poirier及von Platen的作者候选也只作S3身份比较入口。本段不从书目项生成历史关系。
+
+受控迁移脚本默认dry-run，锁定Markdown、PDF、S0分段哈希及表前态；dry-run通过后apply，应用前为四表保存`.bak-s2-chp21-bibliography-l928-983-20261007`恢复副本。迁移后段级验证确认32条statement、32条mention逐一对应L929–983，无源行遗漏或重复；引句、候选外键、字符偏移及mention非重叠检查通过。`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；当前11,400候选、26,606 mentions、11,879 statements；832段中608 complete、121 excluded、103 queued、0 partial。下一书目段L985–1020；余9个书目段和94个索引段。机械审计不替代全书S2语义交接。
