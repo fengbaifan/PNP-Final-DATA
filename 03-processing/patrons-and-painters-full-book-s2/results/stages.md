@@ -1275,3 +1275,7 @@ Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页
 ## 书目L1179–1218（PDF物理页29，印刷p.439）
 
 处理28条出版物记录：复用20个既有archive候选并补全其中13个，更新2个人物来源说明，新增8个archive候选cand-11442–cand-11449；登记28条mention和28条`bibliography_lists_publication` statement。页图校正Vaes 1924页码、1931条目尾随杂符、Villot行首标记、Vitzthum页码及Vivian尾随标点。Vertue记录明确区分6卷和单独索引。Ubaldi/Vaes、Venturi多卷本及Viola旧短引的跨章候选关系留S3核对；未新增正式关系。段级校验和全表审计通过，`errors=[]`、`s2_missing=[]`；当前11,428候选、26,770 mentions、12,043 statements，614 complete、121 excluded、97 queued。下一段L1220–1259，余3个书目段和94个索引段。
+
+## 书目L1220–1259（PDF物理页30，印刷p.440）
+
+处理28条书目记录：补全21个既有archive候选和7个人物的作者来源形式，新增4个archive候选cand-11450–cand-11453；登记28条mention与28条`bibliography_lists_publication` statement。页图确认L1225两条Voss记录被OCR粘连，现已拆开；修正年份、作者缩写、页码和扫描标记。照录Walpole印本1726及Watson印本pp.11–177；Vivian 1963页码差异留S3比较。Wilhelm的L1259题名在L1262–1263续行，下一段补全。段级校验和全表审计通过，`errors=[]`、`s2_missing=[]`；当前11,432候选、26,798 mentions、12,071 statements，615 complete、121 excluded、96 queued。下一段L1261–1299，另余1个书目段和94个索引段。

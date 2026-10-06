@@ -6002,3 +6002,42 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 页图校读确认L1184期刊名为`l’Institut`，L1185页码为163–234；L1189尾随的短横和撇号为扫描/OCR杂符；L1211行首下划线及行末撇号不属印本；L1207尾随短横、L1216尾随逗号为杂符；L1215 OCR将433拆开，L1218将333后的句点误为短横。原S0 OCR不改写。出版物本身和书目所引页均未在本段独立阅读。没有新建正式关系或改动relations.csv。
 
 受控脚本`chp21_bibliography_l1179_1218_migration.py`锁定Markdown/PDF/S0段哈希、迁移前计数、当前队列状态和前一段完成状态，默认dry-run；apply前为entity-candidates、mentions、book-statements、s2-coverage保存恢复副本。dry-run及apply写入15项候选更新（13个archive、2个人物）、8个新archive、28条mention、28条statement。段级引句、字符偏移、行覆盖和外键检查通过；全表审计`errors=[]`、`s2_missing=[]`。当前11,428候选、26,770 mentions、12,043 statements；832段中614 complete、121 excluded、97 queued、0 partial。下一段书目L1220–1259；剩余3个书目段和94个索引段。机械通过不等于全书S2语义交接完成。
+
+## 书目L1220–1259（PDF物理页30，印刷p.440）
+
+核对规范书目源L1221–1259的28条出版物；L1220仅为页码行。复用并补全21个既有archive候选，更新7个人物候选的书目作者形式，新建4个archive候选cand-11450–cand-11453。登记28条mention与28条`bibliography_lists_publication` statement，均标记`relation_candidate=false`。
+
+| 行 | 候选 | 书目记录与处理 |
+|---|---|---|
+| L1221–1222 | cand-11450 | Frances Vivian，‘Joseph Smith, Giovanni Poleni and Antonio Visentini’，*Italian Studies*，1963，pp.54–66；新建，与p.308的1963年pp.157–162候选cand-9560因页码不同留S3比较。 |
+| L1223 | cand-11092 | Frances Vivian，*Il Console Smith mercante e collezionista*，Vicenza 1971；补全正文已提及的Consul Smith专著候选。 |
+| L1224–1225（前段） | cand-9359 | H. Voss，‘Gio Antonio Canal und Owen McSwiny’，*Repertorium für Kunstwissenschaft*，1926，pp.32–37；补全p.287 n.6短引。 |
+| L1225（后段） | cand-5875 | H. Voss，‘Die Flucht nach Aegypten’，*Saggi e Memorie di Storia dell’Arte*，Venezia 1957，pp.25–61；补全旧定位。 |
+| L1226 | cand-4570 | D. P. Walker，*Spiritual and demonic magic from Ficino to Campanella*，London 1958；补全书名，卷页引用不据此作内容验证。 |
+| L1227 | cand-7001 | J. Walker，*Bellini and Titian at Ferrara*，London 1956；补全题名，作者身份仍待对齐。 |
+| L1228 | cand-7058 | Horace Walpole，*Anecdotes of Painting in England*，5卷，Strawberry Hill 1726（照印本）；保留与既有1762年卷II/p.51短引的日期/版本差异。 |
+| L1229 | cand-8596 | Horace Walpole，*Aedes Walpoliane*，第3版，London 1767；保留印本题名拼法。 |
+| L1230–1231 | cand-6580 | E. K. Waterhouse，‘Some Old Masters other than Spanish at the Bowes Museum’，*Burlington Magazine*，1953，pp.120–123；补全p.120定位。 |
+| L1232 | cand-7259 | E. K. Waterhouse，‘A note on British collecting of Italian pictures in the later seventeenth century’，*Burlington Magazine*，1960，pp.54–58；补全期刊和页码。 |
+| L1233–1234 | cand-11452 | E. K. Waterhouse，‘Painting in Rome in the Eighteenth Century’，*Museum Studies*, Art Institute of Chicago，1971，pp.7–21；新建。 |
+| L1235 | cand-11451 | F. J. B. Watson，*Canaletto*，London 1949；新建。 |
+| L1236–1237 | cand-9354 | F. J. B. Watson，‘The Nazari—a forgotten family of Venetian portrait painters’，*Burlington Magazine*，1949，pp.75–79；补全p.287 n.3引文。 |
+| L1238–1239 | cand-9367 | F. J. B. Watson，‘An allegorical painting by Canaletto, Piazzetta and Cimaroli’，*Burlington Magazine*，1953，pp.362–365；补全p.287 n.6引文。 |
+| L1240–1241 | cand-9316 | F. J. B. Watson，‘A Venetian Settecento chapel in the English countryside’，*Arte Veneta*，1954，pp.295–301；补全旧引用。 |
+| L1242–1243 | cand-9301 | F. J. B. Watson，‘English villas and Venetian decorators’，*Journal of the Royal Institute of British Architects*，1954；页图所见页码似为pp.11–177，照录并与旧引pp.171–177留待S3比较。 |
+| L1244 | cand-10304 | F. J. B. Watson，‘Giovanni Battista Tiepolo: a masterpiece and a book’，*Connoisseur*，1955，vol.136，pp.212–215；补全p.354 n.3的p.214候选。 |
+| L1245–1246 | cand-9893 | F. J. B. Watson，‘A series of “Turqueries” by Francesco Guardi’，*Baltimore Museum of Arts Quarterly*，Fall 1960，pp.3–13；补全题名和期刊。 |
+| L1247 | cand-11453 | Mark S. Weil，*The History and Decoration of the Ponte S. Angelo*，Pennsylvania 1974；新建，与surname-only作者候选cand-11178关联待对齐。 |
+| L1248 | cand-7267 | W. Wells，‘Shaftesbury and Paolo de Matteis’，*Leeds Art Quarterly*，Spring 1950，pp.23–28；复用。 |
+| L1249–1250 | cand-11180 | Harold R. Wethey，‘The Spanish Viceroy, Luca Giordano and Andrea Vaccaro’，*Burlington Magazine*，1967，pp.678–686；补全p.402 n.6候选与作者形式。 |
+| L1251 | cand-9349 | H. B. Wheatley，*London past and present*，London 1891；补全p.286 n.3卷III/p.18短引。 |
+| L1252 | cand-7066 | M. Whinney与O. Millar，*English Art, 1625–1714*，Oxford 1957；复用。 |
+| L1253 | cand-9898 | D. Maxwell White与A. C. Sewter，‘Piazzetta’s so-called Group on the Sea shore’，*Connoisseur*，1959，vol.143，pp.96–100；补全p.314 n.2候选。 |
+| L1254–1255 | cand-10903 | Clovis Whitfield，‘A Programme for “Erminia and the Shepherds” by G. B. Agucchi’，*Storia dell’Arte*，1973，pp.217–229；补全后记n.4引文。 |
+| L1256 | cand-9356 | W. T. Whitley，*Artists and their friends in England 1700–1799*，2卷，London 1928；补全p.287 n.4。 |
+| L1257–1258 | cand-6368 | N. Wibiral，‘Contributi alle ricerche sul Cortonismo in Roma—I pittori della Galleria di Alessandro VII nel Palazzo del Quirinale’，*Bollettino d’Arte*，1960，pp.123–165；补全。 |
+| L1259 | cand-7185 | F. Wilhelm，‘Neue Quellen zur Geschichte des fürstlich Liechtensteinschen Kunstbesitzes’；本页只见题名，条目续至印刷p.441 L1262–1263，下一段补全期刊与页码。 |
+
+页图确认L1224、L1225两处OCR`EL`实际为`H.`；L1225把Voss 1926与1957两条粘连，已在同源行中拆为两个互不重叠的mention，并补录两条之间的句点。其他OCR校读：L1227将`}`校为J并移除尾随逗号；L1232、L1246、L1258的`i960`校为1960；L1234补回`pp.`标点；L1241补回页码标点；L1242将`fournal`校为`Journal`；L1248将`2328`校为23–28；L1250短横、L1252行首`~"`为扫描/OCR杂符。Walpole日期1726及Watson文章页码11–177照页图保留，不按外部推断改写。原S0 OCR不改写。被列出版物及所引页均未在本段独立阅读；未新增正式关系或改动relations.csv。
+
+受控脚本`chp21_bibliography_l1220_1259_migration.py`锁定来源/PDF/S0段哈希、迁移前计数、当前队列与前段完成状态，默认dry-run；apply前为四表保存恢复副本。dry-run及apply写入28项候选更新（21个archive、7个人物）、4个新archive、28条mention、28条statement。段级引句、字符偏移、L1221–1259覆盖和外键检查通过；全表`errors=[]`、`s2_missing=[]`。当前11,432候选、26,798 mentions、12,071 statements；832段中615 complete、121 excluded、96 queued、0 partial。下一段为L1261–1299；另有L1301–1306书目段和94个索引段。机械通过不等于全书S2语义交接完成。
