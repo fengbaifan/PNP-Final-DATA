@@ -1279,3 +1279,8 @@ Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页
 ## 书目L1220–1259（PDF物理页30，印刷p.440）
 
 处理28条书目记录：补全21个既有archive候选和7个人物的作者来源形式，新增4个archive候选cand-11450–cand-11453；登记28条mention与28条`bibliography_lists_publication` statement。页图确认L1225两条Voss记录被OCR粘连，现已拆开；修正年份、作者缩写、页码和扫描标记。照录Walpole印本1726及Watson印本pp.11–177；Vivian 1963页码差异留S3比较。Wilhelm的L1259题名在L1262–1263续行，下一段补全。段级校验和全表审计通过，`errors=[]`、`s2_missing=[]`；当前11,432候选、26,798 mentions、12,071 statements，615 complete、121 excluded、96 queued。下一段L1261–1299，另余1个书目段和94个索引段。
+
+
+## 书目L1261–1299（PDF物理页31，印刷p.441）
+
+处理23条书目记录，并以独立续接statement补完p.440 L1259的Wilhelm条目；更新20个既有archive和4个人物候选，新增4个archive候选cand-11454–cand-11457，登记24条mention和24条statement。页图确认Wittkower 1958、Jaffé拼写及Zimmermann期刊行OCR订正；Wynne-Rosenberg地点读作à Padoue，与候选旧值Venezia存在差异，保留待S3/来源核对。Wright、Zannandreis及Girolamo Zanetti的跨章引用不合并，留S3比对；所列出版物均未独立阅读。全表审计errors=[]、s2_missing=[]；当前11,436候选、26,822 mentions、12,095 statements，616 complete、121 excluded、95 queued。下一段L1301–1306，余1个书目段和94个索引段。

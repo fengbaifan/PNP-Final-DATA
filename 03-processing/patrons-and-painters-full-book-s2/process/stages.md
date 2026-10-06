@@ -6041,3 +6041,39 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 页图确认L1224、L1225两处OCR`EL`实际为`H.`；L1225把Voss 1926与1957两条粘连，已在同源行中拆为两个互不重叠的mention，并补录两条之间的句点。其他OCR校读：L1227将`}`校为J并移除尾随逗号；L1232、L1246、L1258的`i960`校为1960；L1234补回`pp.`标点；L1241补回页码标点；L1242将`fournal`校为`Journal`；L1248将`2328`校为23–28；L1250短横、L1252行首`~"`为扫描/OCR杂符。Walpole日期1726及Watson文章页码11–177照页图保留，不按外部推断改写。原S0 OCR不改写。被列出版物及所引页均未在本段独立阅读；未新增正式关系或改动relations.csv。
 
 受控脚本`chp21_bibliography_l1220_1259_migration.py`锁定来源/PDF/S0段哈希、迁移前计数、当前队列与前段完成状态，默认dry-run；apply前为四表保存恢复副本。dry-run及apply写入28项候选更新（21个archive、7个人物）、4个新archive、28条mention、28条statement。段级引句、字符偏移、L1221–1259覆盖和外键检查通过；全表`errors=[]`、`s2_missing=[]`。当前11,432候选、26,798 mentions、12,071 statements；832段中615 complete、121 excluded、96 queued、0 partial。下一段为L1261–1299；另有L1301–1306书目段和94个索引段。机械通过不等于全书S2语义交接完成。
+
+
+## 书目L1261–1299（PDF物理页31，印刷p.441）
+
+依规范书目段处理L1262–1299；L1261仅为页码行。L1262–1263续完p.440 L1259的F. Wilhelm条目，不另计出版物；随后逐项记录23条新出版物。核对段哈希及整页扫描，复用19个已有archive候选、更新1个Wilhelm候选，另更新4个人物候选的书目来源形式；新建4个archive候选cand-11454–cand-11457。登记24条mention及24条statement，其中23条bibliography_lists_publication、1条bibliography_continues_publication。
+
+| 行 | 候选 | 书目记录与处理 |
+|---|---|---|
+| L1262–1263 | cand-7185 | Wilhelm, F., ‘Neue Quellen zur Geschichte des fürstlich Liechtensteinschen Kunstbesitzes’续行；补全Jahrbuch des Kunsthistorischen Institutes der K.K. Zentralkommission, 1911, Beiblatt, pp.87–142。与p.440条目合为一项书目，不重复计数。 |
+| L1264–1265 | cand-11454 | E. Wind, ‘Shaftesbury as a patron of art’, Journal of the Warburg and Courtauld Institutes, II, 1938–39, pp.185–188；新建。 |
+| L1266–1267 | cand-7230 | E. Wind, ‘Julian the Apostate at Hampton Court’,同刊III卷，1939–40，pp.127–137；页图复核完整书目形式。 |
+| L1268–1269 | cand-7111 | R. Wittkower, ‘Domenico Guidi and French classicism’,同刊II卷，1938–39，pp.188–190；复用。 |
+| L1270–1271 | cand-9311 | R. Wittkower, The Earl of Burlington and William Kent，York Georgian Society，1948；补全p.280注6短引。 |
+| L1272 | cand-4383 | R. Wittkower, The sculptures of Gian Lorenzo Bernini，London 1955；复用。 |
+| L1273 | cand-4557 | R. Wittkower, Art and architecture in Italy 1600 to 1750，London 1958；页图确认OCR的“195 8”为1958。 |
+| L1274–1275 | cand-11170 | R. Wittkower, Gian Lorenzo Bernini—the Sculptor of the Roman Baroque，第2版，London 1966；补全p.401注3短引。 |
+| L1276–1277 | cand-11368 | R. Wittkower与Irma Jaffé编，Baroque Art: The Jesuit Contribution，New York 1972；页图确认OCR的Jaffe应为Jaffé。与p.398注7候选cand-10910的具体篇章对应关系留S3。 |
+| L1278–1279 | cand-9010 | J. Woodward, ‘Amigoni as portrait painter in England’, Burlington Magazine, 1957, pp.21–23；补全p.215注2来源。 |
+| L1280–1281 | cand-11455 | Edward Wright, Some observations made in travelling through France, Italy &c in the years 1720, 1721 and 1722，2卷，London 1730；新建。与p.261、p.312的两个页码候选cand-8582、cand-9888保持分列，留S3比对。 |
+| L1282 | cand-10534 | Giustiniana Wynne-Rosenberg, Alticchiero，页图读作à Padoue 1787；既有候选记作Venezia 1787，保留地点差异供S3/来源核对。 |
+| L1283 | cand-9548 | Prosdocimo Zabeo, Memorie intorno l’antiquario Alvise Meneghetti，Venezia 1816；仅登记书目，p.16来源适配性未核实。 |
+| L1284 | cand-10117 | A. M. Zanetti, Varie pitture a fresco de’ principali maestri veneziani，Venezia 1760；复用，作者归属留S3。 |
+| L1285 | cand-9837 | A. M. Zanetti, Della Pittura Veneziana，Venezia 1771；补全书目作者形式，作者归属留S3。 |
+| L1286–1287 | cand-9281 | Girolamo Zanetti, Elogio di Rosalba Carriera letto in una privata sessione dell’Accademia di Belle Lettere ed Arti in Padova il di 6 Dicembre 1781，Venezia 1818；区分题名中的宣读日期与出版年。 |
+| L1288–1289 | cand-11456 | [Zanetti, Girolamo], ‘Memorie per servire all’istoria dell’inclita città di Venezia’, Archivio Veneto, 1885, pp.93–148；新建，保留印本方括号作者形式。既有1743年报告及1885年页码定位cand-8781、cand-8816、cand-10415留S3核对。 |
+| L1290–1291 | cand-11457 | Diego Zannandreis, Le vite de’ Pittori, Scultori e Architetti Veronesi，注明由Giuseppe Biadego编，Verona 1891；新建，既有p.255与p.327页码候选cand-8360、cand-9819及人物cand-8359留S3比对。 |
+| L1292 | cand-7115 | G. P. Zanotti, Storia dell’Accademia Clementina，2卷，Bologna 1739；复用。 |
+| L1293–1294 | cand-8794 | Padre Maestro Valerio Antonio Zarzabini, Serie storica de’ Religiosi Carmelitani，Venezia 1779；补全p.270注6的p.19短引。 |
+| L1295 | cand-5166 | F. Zeri, La Galleria Spada in Roma，Firenze 1953；补全p.175短引。 |
+| L1296 | cand-5135 | Federico Zeri, Pittura e Controriforma，Torino 1957；补全p.146短引。 |
+| L1297–1298 | cand-9912 | H. Zimmermann, ‘Über einige Bilder der Sammlung Streit im Grauen Kloster zu Berlin’, Zeitschrift für Kunstwissenschaft, 1954, pp.197–224；L1298行首引号为OCR杂符。人物cand-9911仅补作者形式。 |
+| L1299 | cand-9364 | G. Zucchini, ‘Quadri inediti di Donato Creti’, Comune di Bologna, 1933, pp.23–30；补全p.287注6短引；人物cand-9363仅补作者形式。 |
+
+原S0 OCR不改写。页图复核确认L1273的1958、L1276的Jaffé重音符、L1298 journal标题前无引号；未据外部知识更正。Wynne-Rosenberg地点差异与跨章文献/作者对应保留S3。该段未新建正式关系；书目条目及所引出版物内容均未独立阅读。
+
+受控脚本chp21_bibliography_l1261_1299_migration.py锁定来源、PDF、S0段哈希、表前态及前段完成状态，默认dry-run；apply前为四表保存恢复副本。dry-run与apply写入24项候选更新（20个archive、4个人物）、4个新archive、24条mention和24条statement。段级检查确认L1262–1299逐行覆盖，提及字符偏移与statement原句精确、候选外键完整且无重叠。全表audit_tables.py --summary返回errors=[]、s2_missing=[]。当前11,436候选、26,822 mentions、12,095 statements；832段中616 complete、121 excluded、95 queued、0 partial。下一段为L1301–1306，另有94个索引段。机械通过不等于全书S2语义交接完成。
