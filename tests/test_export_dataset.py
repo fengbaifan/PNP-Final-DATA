@@ -16,11 +16,18 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     assert "portable-references.csv" in files
     assert "enrichment-citation-links.csv" in files
     assert "rights-review.md" in files
-    assert metadata["counts"]["s2_migrated_segments"] == 27
-    assert metadata["counts"]["s2_partial_segments"] == 0
-    assert metadata["counts"]["s2_pending_segments"] == 0
-    assert metadata["counts"]["s2_mentions_rows"] == 665
-    assert metadata["counts"]["s2_statement_rows"] == 172
+    coverage = list(csv.DictReader(io.StringIO(files["s2-coverage.csv"])))
+    expected_coverage_counts = {
+        "s2_migrated_segments": sum(row["disposition"] == "reviewed" and row["migration_status"] == "complete" for row in coverage),
+        "s2_partial_segments": sum(row["disposition"] == "reviewed" and row["migration_status"] == "partial" for row in coverage),
+        "s2_pending_segments": sum(row["disposition"] == "reviewed" and row["migration_status"] == "pending" for row in coverage),
+        "s2_queued_segments": sum(row["disposition"] == "queued" for row in coverage),
+    }
+    for key, expected in expected_coverage_counts.items():
+        assert metadata["counts"][key] == expected
+    assert metadata["counts"]["s2_coverage_rows"] == len(coverage) == metadata["counts"]["source_segments"]
+    assert metadata["counts"]["s2_mentions_rows"] == len(list(csv.DictReader(io.StringIO(files["mentions.csv"]))))
+    assert metadata["counts"]["s2_statement_rows"] == sum(bool(line) for line in files["book-statements.jsonl"].splitlines())
     assert metadata["counts"]["portable_reference_rows"] > 0
     assert metadata["counts"]["portable_entity_references"] > 0
     assert metadata["counts"]["portable_processing_references"] > 0
@@ -64,7 +71,7 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     assert all(len(row["candidate_source_ids"].split(";")) == 2 for row in ambiguous)
 
     statements = [line for line in files["book-statements.jsonl"].splitlines() if line]
-    assert len(statements) == 172
+    assert len(statements) == metadata["counts"]["s2_statement_rows"]
     assert '"source_asset":"01_CHP-1.md"' in statements[0]
     assert "source_file" not in statements[0]
     assert "04-knowledge" not in files["segments.csv"]
@@ -81,6 +88,16 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     assert "no positional mapping between the arrays is guaranteed" in files["README.md"]
     assert "Bibliographic matching is not factual verification" in files["schema.md"]
     assert "narrow work-identity rule" in files["README.md"]
+
+
+def test_export_validator_requires_one_coverage_disposition_per_segment():
+    files, _ = build_package()
+    coverage_lines = files["s2-coverage.csv"].splitlines()
+    files["s2-coverage.csv"] = "\n".join(coverage_lines[:-1]) + "\n"
+
+    errors = validate_package(files)
+
+    assert "S2 coverage does not dispose every canonical source segment" in errors
 
 
 def test_portable_reference_registry_must_cover_every_relative_enrichment_link():

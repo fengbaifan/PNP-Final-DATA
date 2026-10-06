@@ -2,7 +2,7 @@
 
 ## 目标与当前状态
 
-项目版本为初始化阶段的 0.1.0；当前执行第一部分，第一章为样例。当前成果、缺口与完成状态统一见 [第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)，不由规则版本或文件数量推导完成。第六章后置，知识涌现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
+项目版本为初始化阶段的 0.1.0；当前按用户指令推进全书语义处理（S2）：复用书前材料与第一章既有阅读，按书序补全其余正文和书后材料；第六章既有稿件在书序到达时核对并迁移。当前状态见[全书 S2 结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)及[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)，不由规则版本或文件数量推导完成。全书 S2 交接前不推进 S3–S6；知识涌现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
 
 第一部分：知识元与知识图谱，按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。
 第二部分：知识发现与知识呈现，用户明确启动后，依据 **KU 及关系 → Topic → Theme → Dimension → Domain** 逐级涌现，组织成果并形成页面。

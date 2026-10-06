@@ -24,7 +24,7 @@
 | R-18 | 保留页面样式，未来按新数据适配；当前暂停刷新 | REV-011、013、015 | compose；页面是否更新以实际呈现任务为准 |
 | R-19 | 曾要求先提交同步再精简；后续提交仍需明确授权 | REV-012 | 系统日志记录先行同步 d07965d；不等于后续改动已推送 |
 | R-20 | 初始化项目不沿用过高版本 | REV-008 | 项目 0.1.0，规则不单独编号；既有机器格式版本与项目版本分开 |
-| R-21 | 当前只测试第一章，逐行语义阅读、处理断行跨页；第六章后置 | REV-013、014、015 | [第一章结果](../../04-knowledge/results/patrons-and-painters-chp-1.md) |
+| R-21 | 当前按用户指令完成全书 S2；复用书前材料与第一章既有工作，按书序处理其余正文及书后材料，在第六章位置核对并迁移旧稿；全书交接前不推进 S3–S6 | REV-013、014、015（历史范围）；2026-09-26 用户指令（当前范围） | [全书 S2 结果](../../04-knowledge/results/patrons-and-painters-full-book-s2.md)、[pipeline](../../.agents/pipeline.md) |
 | R-22 | archive 包含所有文献；城市/政体、建筑/作品按指称区分；类型不足和遗漏须记录 | REV-016 | [类型规则](../../01-domain/taxonomy-registry.md) |
 | R-23 | 对齐与补足按实体类型选择专业数据库、规范记录、保管机构、数字化原件及研究来源；Wikipedia／Wikidata是有准确对象时采用的可选身份链，QID不作为全部实体完成条件。人物纳入国家人物辞典与档案记录，文献纳入联合目录、手稿目录和Internet Archive等可核版本全文 | REV-017、027、028、056 | [verify](../../.agents/skills/verify/SKILL.md)、[按类型来源](../../.agents/skills/verify/references/type-verification.md)、[enrich](../../.agents/skills/enrich/SKILL.md)；记录每个来源支持范围与阅读程度 |
 | R-24 | 标题与描述完整中英文对应，信件不混用外文人名与中文“致／信”；翻译不新增事实 | REV-018、028 | [元数据规则](../../.agents/skills/ingest/references/knowledge-unit-field-contract.md)、[内容规则](../../.agents/skills/ingest/references/body-template.md) |
@@ -43,7 +43,7 @@
 
 ## 执行状态的唯一落点
 
-研究数量、对象清单、双语/三部分改写范围、外部补足及未决项以第一章 results 为准；此处不复写数字。第六章、知识涌现和页面仍暂停，规则升级不构成重新执行或验收。
+第一章的历史成果仍以其结果文件为准；全书 S2 当前覆盖、迁移状态、对象和未决项以[全书结果](../../04-knowledge/results/patrons-and-painters-full-book-s2.md)为准。书前材料与第一章已完成的语义阅读按现有过程记录复用；书前账本迁移和其余章节处理仍须实际完成。第六章旧稿应在书序位置核对，不得仅凭旧报告标记完成。全书 S2 交接前 S3–S6、知识涌现和页面暂停。
 
 知识处理过程在 03-processing/<task-id>/process/knowledge.md，摄入处理过程在同包 stages.md；04-knowledge 保存成果和当前结果。系统调整的详细证据只在 system-upgrade-log.md，纯系统任务不在 03/04 重复追加报告。
 

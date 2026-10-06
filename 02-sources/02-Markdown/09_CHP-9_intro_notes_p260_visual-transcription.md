@@ -1,0 +1,1 @@
+8 Such as the Zenobio employment of Carlevarijs (Mauroner, p. 15); the Miani of Camerata and the Baglione of Polazzo (Alessandro Longhi); and the Zambelli of Pittoni at the end of his life (G. A. Moschini, 1806, III, p. 70).

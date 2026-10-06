@@ -2,8 +2,8 @@
 
 ## Mechanical checks
 
-- Current tables: 1,019 entities; 3,593 candidates; 335 alignment rows; 10,149 enrichment rows; 1,227 relations; 1,684 sources.
-- S2 coverage ledger: 30 segment dispositions; 27 reviewed segment(s) complete, 0 partial, and 0 pending; the package includes 665 mention rows and 172 statement rows.
+- Current tables: 1,019 entities; 4,131 candidates; 335 alignment rows; 10,149 enrichment rows; 1,227 relations; 1,684 sources.
+- S2 coverage ledger: 790 canonical source segments; 29 reviewed and migrated, 0 partially migrated, 24 reviewed but not yet migrated, and 732 queued for semantic review; the package includes 686 mention rows and 192 statement rows.
 - Formal relations: 1,225; pending relations: 2.
 - Unverified enrichment rows: 1,501.
 - Among unverified rows with empty `source_ref`, 83 retain source IDs/citations/URLs in other fields; 464 carry the `项目命名` evidence label; 469 have a Wikidata-related evidence marker but no structured source metadata; 377 have other evidence text but no structured source metadata; 106 contain neither evidence text nor structured source metadata. These disjoint field-presence buckets are not semantic classifications.

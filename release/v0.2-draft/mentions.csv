@@ -678,3 +678,25 @@ m-chp1-secii-0663,chp-1:01_CHP-1_sec_ii:l168-239,cand-3571,canvas,5093,5099,Pain
 m-chp1-secii-0664,chp-1:01_CHP-1_sec_ii:l168-239,cand-3460,ultramarine,5114,5125,Pigment/material supplied for the Albani altarpiece; reuse existing open term candidate.
 m-chp1-secii-0665,chp-1:01_CHP-1_sec_ii:l48-60,cand-3461,Italy,259,264,Country named as the geographic scope of Pietro da Cortona’s standing in the comparison.
 m-chp1-secii-0666,chp-1:01_CHP-1_sec_ii:l106-116,cand-3461,Italy,818,823,Country named in the passage’s comparison of artists’ social standing.
+m-fm-title-0001,front-matter:00_01_Title_Copyright:l3-12,cand-2962,"PATRONS AND
+PAINTERS",0,20,书名分两行排印。
+m-fm-title-0002,front-matter:00_01_Title_Copyright:l3-12,cand-4131,Italian Art,67,78,副标题中的艺术主题。
+m-fm-title-0003,front-matter:00_01_Title_Copyright:l3-12,cand-3993,Baroque,109,116,副标题中的历史时期术语。
+m-fm-title-0004,front-matter:00_01_Title_Copyright:l3-12,cand-3770,FRANCIS HASKELL,146,161,题名页作者署名。
+m-fm-title-0005,front-matter:00_01_Title_Copyright:l3-12,cand-3703,YALE UNIVERSITY PRESS,162,183,出版社。
+m-fm-title-0006,front-matter:00_01_Title_Copyright:l3-12,cand-3941,NEW HAVEN,184,193,出版地。
+m-fm-title-0007,front-matter:00_01_Title_Copyright:l3-12,cand-1422,LONDON,198,204,出版地；沿用索引候选，待全局身份对齐。
+m-fm-title-0008,front-matter:00_01_Title_Copyright:l14-29,cand-3821,Larissa,13,20,献辞对象；不由献辞推定亲属或配偶关系。
+m-fm-title-0009,front-matter:00_01_Title_Copyright:l14-29,cand-3114,Italy,39,44,“my friends in Italy”中的地名。
+m-fm-title-0010,front-matter:00_01_Title_Copyright:l14-29,cand-3704,Yale University,65,80,版权行所列版权主体。
+m-fm-title-0011,front-matter:00_01_Title_Copyright:l14-29,cand-3611,U.S. Copyright Law,250,268,复制限制声明所引法律；仅记录印本措辞。
+m-fm-title-0012,front-matter:00_01_Title_Copyright:l14-29,cand-3915,China,375,380,印本所列印刷地。
+m-fm-title-0013,front-matter:00_01_Title_Copyright:l14-29,cand-3655,Library of Congress,381,400,编目机构。
+m-fm-title-0014,front-matter:00_01_Title_Copyright:l14-29,cand-3770,"Haskell, Francis",432,448,编目记录作者姓名倒置形式。
+m-fm-title-0015,front-matter:00_01_Title_Copyright:l14-29,cand-2962,Patrons and painters,460,480,编目记录中的书名。
+m-fm-title-0016,front-matter:00_01_Title_Copyright:l14-29,cand-4131,"Art, Italian",518,530,编目主题词；目录原文词序保留。
+m-fm-title-0017,front-matter:00_01_Title_Copyright:l14-29,cand-4132,"Art, Baroque—Italy",535,553,复合编目主题词；不拆成两个独立主题词。
+m-fm-title-0018,front-matter:00_01_Title_Copyright:l14-29,cand-3993,Baroque,540,547,复合主题词中的时期术语。
+m-fm-title-0019,front-matter:00_01_Title_Copyright:l14-29,cand-3114,Italy,548,553,复合主题词中的地理分面。
+m-fm-title-0020,front-matter:00_01_Title_Copyright:l14-29,cand-4129,Art patrons,558,569,编目主题词。
+m-fm-title-0021,front-matter:00_01_Title_Copyright:l14-29,cand-4130,Art and society,574,589,编目主题词。

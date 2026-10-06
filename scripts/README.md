@@ -23,7 +23,7 @@
 | 关系批量写回 | `apply_relation_plan.py` 的 frontmatter `--apply` 已停用。经语义裁决的边写入 `relations.csv` 并运行表检查；卡片展示先用 `build_cards.py --preview --ku <ku_id>` 审阅 |
 | 后续结构 | build_discovery_index.py、hierarchy_stress_test.py 仅在相应任务已启动时使用，不因空层级自动执行 |
 | 运行与生成记录 | build_runtime_index.py、build_generated_projection_manifest.py 记录实际运行/输入输出，不证明研究完成；不为普通编辑刷新全部快照 |
-| 表迁移与数据包 | `build_source_segments.py`、`build_entity_candidates.py`、`build_field_facts.py` 默认预览；需写表时显式用 `--apply`。`build_entity_candidates.py` 逐项保留索引决策、为第一章已接收 KU 补来源映射，并稳定保留有定位的 `body-mention` 候选。`build_tables.py` 已退役，执行只返回错误码、不写文件。`export_dataset.py` 默认预览，可创建或刷新 `release/v0.2-draft/`；该包不表示许可或质量验收通过 |
+| 表迁移与数据包 | `build_source_segments.py`、`build_entity_candidates.py`、`build_field_facts.py` 默认预览；需写表时显式用 `--apply`。`build_entity_candidates.py` 逐项保留索引决策、为尚无显式对齐的已接收 KU 补候选来源映射，并稳定保留有定位的 `body-mention` 候选。`build_tables.py` 已退役，执行只返回错误码、不写文件。`export_dataset.py` 默认预览，可创建或刷新 `release/v0.2-draft/`；该包不表示许可或质量验收通过 |
 
 ## 收尾与历史入口
 

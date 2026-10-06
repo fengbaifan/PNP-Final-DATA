@@ -213,6 +213,7 @@ def build_package() -> tuple[dict[str, str], dict]:
     complete_reviewed_segments = sum(row.get("disposition") == "reviewed" and row.get("migration_status") == "complete" for row in coverage_rows)
     partial_reviewed_segments = sum(row.get("disposition") == "reviewed" and row.get("migration_status") == "partial" for row in coverage_rows)
     pending_reviewed_segments = sum(row.get("disposition") == "reviewed" and row.get("migration_status") == "pending" for row in coverage_rows)
+    queued_segments = sum(row.get("disposition") == "queued" for row in coverage_rows)
 
     rel_fields, rel_rows = read_csv("relations.csv")
     for row in rel_rows:
@@ -383,6 +384,7 @@ def build_package() -> tuple[dict[str, str], dict]:
             "s2_coverage_rows": len(coverage_rows),
             "s2_migrated_segments": complete_reviewed_segments,
             "s2_partial_segments": partial_reviewed_segments, "s2_pending_segments": pending_reviewed_segments,
+            "s2_queued_segments": queued_segments,
             "s2_mentions_rows": len(mention_rows), "s2_statement_rows": len(statement_rows),
             "portable_reference_rows": len(portable_refs),
             "portable_entity_references": sum(row["target_type"] == "entity" for row in portable_refs),
@@ -440,7 +442,7 @@ def build_package() -> tuple[dict[str, str], dict]:
 - `sources.csv`: source registry.
 - `enrichment-citation-links.csv`: one row per citation string in enrichment, linked by normalized exact citation text or the documented Haskell book author-title-year identity rule; ambiguous and unmatched citations stay explicit.
 - `wikidata-source-candidates.csv`: review-only candidate source records for unverified Wikidata property rows. Candidate records are derived from entity identity alignment and QID mentions in the source registry; they do not support the property's value and do not assign a `source_id` to the enrichment row.
-- `s2-coverage.csv`: chapter-level segment disposition ledger. `reviewed` links the original OCR line ranges to the existing processing record; `excluded` rows include a reason. This proves coverage disposition only, not semantic quality.
+- `s2-coverage.csv`: full-book segment ledger. `queued` means semantic review has not been completed; `reviewed` links original OCR line ranges to the processing record; `excluded` rows include a reason. `migration_status` separately tracks whether mentions and statements reached the tables. The ledger proves recorded scope, not semantic quality.
 - `segments.csv`: portable source segment manifest with source IDs, asset basenames, line intervals, and hashes. Segment text is omitted.
 - `mentions.csv`: S2 entity mentions with stable candidate and segment IDs and character offsets into the segment source text.
 - `book-statements.jsonl`: S2 claims, qualifications, original quotations, and source line locators. Quotes are included only in this restricted draft; source rights must be reviewed before distribution.
@@ -522,7 +524,7 @@ One row per unverified Wikidata property-like enrichment row with an empty `sour
 
 ## s2-coverage.csv
 
-`chapter` and `segment_id` identify each source segment in an S2 scope. `disposition=reviewed|excluded`; `migration_status=pending|partial|complete` distinguishes reviewed coverage from completed table migration. Reviewed rows retain original OCR line ranges and excluded rows carry a reason. Coverage rows do not encode mentions or claims.
+`chapter` and `segment_id` identify every canonical source segment in the full-book S2 scope. `disposition=queued|reviewed|excluded`; queued rows must have `migration_status=pending` and no reviewed source-line range. `migration_status=pending|partial|complete` separately tracks table migration. Reviewed rows retain original OCR line ranges and excluded rows carry a reason. Coverage rows do not encode mentions or claims.
 
 ## segments.csv
 
@@ -549,7 +551,7 @@ Empty strings and JSON `null` represent unrecorded or unresolved values, not fal
 ## Mechanical checks
 
 - Current tables: 1,019 entities; {entity_candidates:,} candidates; {len(align_rows)} alignment rows; {len(enrichment):,} enrichment rows; {len(rel_rows):,} relations; {len(source_rows):,} sources.
-- S2 coverage ledger: {len(coverage_rows)} segment dispositions; {complete_reviewed_segments} reviewed segment(s) complete, {partial_reviewed_segments} partial, and {pending_reviewed_segments} pending; the package includes {len(mention_rows)} mention rows and {len(statement_rows)} statement rows.
+- S2 coverage ledger: {len(coverage_rows)} canonical source segments; {complete_reviewed_segments} reviewed and migrated, {partial_reviewed_segments} partially migrated, {pending_reviewed_segments} reviewed but not yet migrated, and {queued_segments} queued for semantic review; the package includes {len(mention_rows)} mention rows and {len(statement_rows)} statement rows.
 - Formal relations: {formal_relations:,}; pending relations: {pending_relations}.
 - Unverified enrichment rows: {unverified_enrichment:,}.
 - Among unverified rows with empty `source_ref`, {unverified_with_source_metadata} retain source IDs/citations/URLs in other fields; {unverified_project_naming} carry the `项目命名` evidence label; {unverified_wikidata_evidence_marker} have a Wikidata-related evidence marker but no structured source metadata; {unverified_other_evidence_without_source_metadata} have other evidence text but no structured source metadata; {unverified_without_evidence_or_source} contain neither evidence text nor structured source metadata. These disjoint field-presence buckets are not semantic classifications.
@@ -651,9 +653,23 @@ def validate_package(files: dict[str, str]) -> list[str]:
     if len(entity_ids) != len(entities): errors.append("duplicate entity ku_id")
     if len(candidate_ids) != len(candidates): errors.append("duplicate candidate_id")
     if len(segment_ids) != len(segments): errors.append("duplicate segment_id")
+    coverage_segment_ids = [row.get("segment_id", "") for row in coverage]
+    if len(coverage_segment_ids) != len(set(coverage_segment_ids)):
+        errors.append("duplicate segment coverage disposition")
+    if set(coverage_segment_ids) != segment_ids:
+        errors.append("S2 coverage does not dispose every canonical source segment")
     for row in coverage:
         if row.get("segment_id") not in segment_ids:
             errors.append(f"{row.get('segment_id')}: coverage has no segment manifest row")
+        disposition = row.get("disposition", "")
+        if disposition not in {"queued", "reviewed", "excluded"}:
+            errors.append(f"{row.get('segment_id')}: invalid coverage disposition")
+        if row.get("migration_status") not in {"pending", "partial", "complete"}:
+            errors.append(f"{row.get('segment_id')}: invalid coverage migration_status")
+        if disposition == "queued" and row.get("migration_status") != "pending":
+            errors.append(f"{row.get('segment_id')}: queued segment is not pending")
+        if disposition == "queued" and row.get("source_line_ranges", "").strip():
+            errors.append(f"{row.get('segment_id')}: queued segment has a reviewed source-line range")
     for row in candidates:
         ref = row.get("candidate_source_ref", "")
         origin = row.get("candidate_origin", "")

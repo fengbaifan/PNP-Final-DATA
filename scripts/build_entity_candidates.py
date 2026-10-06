@@ -83,10 +83,10 @@ def main() -> int:
             row["exclude_reason"] = old.get("exclude_reason", "")
         output_rows.append({"candidate_id": candidate_id, **row, "candidate_origin": "", "candidate_source_ref": ""})
 
-    # Existing alignments provide an explicit candidate-to-KU mapping. For a
-    # chapter-1 KU without one, create an accepted-ku candidate whose source is
-    # the already admitted KU card. This makes S2's candidate FK usable without
-    # guessing which index spelling denotes the same object.
+    # Existing alignments provide explicit candidate-to-KU mappings. Any
+    # accepted KU without an explicit alignment needs a candidate row so
+    # S2 can preserve mentions as it expands beyond chapter 1. The source ref
+    # points to the admitted KU card; it does not guess an index identity.
     aligned_kus = set()
     if ALIGNMENTS.exists():
         with ALIGNMENTS.open(encoding="utf-8-sig", newline="") as handle:
@@ -97,7 +97,7 @@ def main() -> int:
     newly_added_accepted = []
     for ku in manifest_rows:
         source_ref = ku.get("card_path", "")
-        if ku.get("source_task") != "chp-1" or ku.get("ku_id") in aligned_kus:
+        if ku.get("ku_id") in aligned_kus:
             continue
         if source_ref in existing_accepted:
             continue
@@ -122,7 +122,7 @@ def main() -> int:
     if len(ids) != len(set(ids)) or len(keys) != len(set(keys)) or len(accepted_refs) != len(set(accepted_refs)) or len(body_refs) != len(set(body_refs)):
         print("duplicate candidate_id, index_entry_id, accepted KU source ref, or body candidate source+name; refusing to continue")
         return 2
-    print(f"index_rows={len(source_rows)} total_candidates={len(output_rows)} open_index_candidates={sum(row['status']=='open' and not row.get('candidate_origin') for row in output_rows)} excluded_crossrefs={sum(row['status']=='excluded' for row in output_rows)} accepted_ku_candidates={sum(row.get('candidate_origin')=='accepted-ku' for row in output_rows)} source_derived_candidates={sum(row.get('candidate_origin') not in {'', 'accepted-ku'} for row in output_rows)} new_chp1_accepted_candidates={len(newly_added_accepted)}")
+    print(f"index_rows={len(source_rows)} total_candidates={len(output_rows)} open_index_candidates={sum(row['status']=='open' and not row.get('candidate_origin') for row in output_rows)} excluded_crossrefs={sum(row['status']=='excluded' for row in output_rows)} accepted_ku_candidates={sum(row.get('candidate_origin')=='accepted-ku' for row in output_rows)} source_derived_candidates={sum(row.get('candidate_origin') not in {'', 'accepted-ku'} for row in output_rows)} new_accepted_ku_candidates={len(newly_added_accepted)}")
     for row in newly_added_accepted[:8]:
         print(f"ADD {row['candidate_id']} {row['canonical_name']} [{row['candidate_source_ref']}]")
     if args.apply:

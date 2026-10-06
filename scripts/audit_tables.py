@@ -175,12 +175,18 @@ def audit_s2_artifacts(
                     errors.append(f"s2-coverage.csv: unknown or empty segment_id {segment_id!r}")
                 if not segment_id.startswith(f"{chapter}:"):
                     errors.append(f"s2-coverage.csv: segment {segment_id!r} does not belong to chapter {chapter!r}")
-                if disposition not in {"reviewed", "excluded"}:
+                if disposition not in {"queued", "reviewed", "excluded"}:
                     errors.append(f"s2-coverage.csv: invalid disposition {disposition!r} for {segment_id}")
                 if migration_status not in {"pending", "partial", "complete"}:
                     errors.append(f"s2-coverage.csv: invalid migration_status {migration_status!r} for {segment_id}")
+                if disposition == "queued" and migration_status != "pending":
+                    errors.append(f"s2-coverage.csv: queued segment must be migration_status=pending: {segment_id}")
+                if disposition == "queued" and row.get("source_line_ranges", "").strip():
+                    errors.append(f"s2-coverage.csv: queued segment cannot claim reviewed source lines: {segment_id}")
                 if disposition == "excluded" and migration_status != "complete":
                     errors.append(f"s2-coverage.csv: excluded segment must be migration_status=complete: {segment_id}")
+                if strict_stage and disposition == "queued":
+                    errors.append(f"s2-coverage.csv: {segment_id} has not been semantically reviewed")
                 if strict_stage and disposition == "reviewed" and migration_status != "complete":
                     errors.append(f"s2-coverage.csv: {segment_id} migration is {migration_status or 'unset'}, expected complete")
                 if disposition == "reviewed" and not row.get("source_line_ranges", "").strip():
@@ -334,6 +340,9 @@ def audit_s2_artifacts(
             errors.append(f"book-statements.jsonl: {exc}")
 
     if not missing:
+        queued_segments = sum(row.get("disposition") == "queued" for row in coverage_rows)
+        if queued_segments:
+            warnings.append(f"S2 has {queued_segments} queued source segments; full-book semantic processing is not complete")
         incomplete_migrations = sum(row.get("disposition") == "reviewed" and row.get("migration_status") != "complete" for row in coverage_rows)
         if incomplete_migrations:
             warnings.append(f"S2 coverage is present, but {incomplete_migrations} reviewed segments are not fully migrated to mentions/statements")
@@ -344,6 +353,7 @@ def audit_s2_artifacts(
         "coverage_records": coverage_rows,
         "coverage_rows": len(coverage_rows),
         "coverage_complete_rows": sum(row.get("disposition") == "reviewed" and row.get("migration_status") == "complete" for row in coverage_rows),
+        "coverage_queued_rows": sum(row.get("disposition") == "queued" for row in coverage_rows),
         "coverage_excluded_rows": sum(row.get("disposition") == "excluded" for row in coverage_rows),
         "mentions": len(mentions), "book_statements": len(statements),
     }
@@ -622,6 +632,7 @@ def audit_tables(strict_stage: bool = False) -> dict:
         "independent_card_rows": independently_parsed_row_count,
         "sources": len(source_rows), "segments": len(segment_rows), "s2_missing": missing_s2,
         "s2_coverage_rows": s2["coverage_rows"], "s2_coverage_complete_rows": s2["coverage_complete_rows"],
+        "s2_coverage_queued_rows": s2["coverage_queued_rows"],
         "s2_coverage_excluded_rows": s2["coverage_excluded_rows"],
         "mentions": s2["mentions"], "book_statements": s2["book_statements"],
         "errors": errors, "warnings": warnings,

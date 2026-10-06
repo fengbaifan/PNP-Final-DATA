@@ -1,7 +1,5 @@
-﻿# 《赞助人与画家》知识系统
-
-项目初始化版本：0.1.0。第一章作为知识元与知识图谱样例，进度见[第一章当前结果](04-knowledge/results/patrons-and-painters-chp-1.md)；章前材料已完成摄入、处理并进行知识元登记，见[章前当前结果](04-knowledge/results/patrons-and-painters-front-matter.md)。第六章后置，知识涌现与页面暂停；未接收内容不计作有效成果。
-
+# 《赞助人与画家》知识系统
+项目初始化版本为0.1.0。当前主线是全书语义处理（S2）；当前覆盖状态、对象数量、处理游标和未决项统一见[全书S2当前结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)，不在入口重复维护统计。项目按全书S2及交接审计→S3身份对齐→S4 KU登记→S5定向补足→S6关系审查→S7可复用数据集验证推进；第二部分知识发现与页面须用户明确启动。
 [AGENTS.md](AGENTS.md) 是 Codex 唯一总入口；[pipeline](.agents/pipeline.md) 定义交接，八个 Skill 在 `.agents/skills/`。当前规则和文档不再各自累计大版本号。
 
 采用渐进式读取与分布记录：总入口定位任务和 Skill，按需读其直接参考；过程在 03 的任务包分阶段记录，04 保存当前成果与结果，06 保存用户原话和系统治理。结果原位更新，历史判断保留，入口不复制整套报告。详细读取与记录规则只在 AGENTS 维护。
@@ -20,7 +18,7 @@ flowchart LR
   G -.用户启动第二部分.-> I
 ```
 
-第一部分按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。关系候选在语义处理时同步记录，随后在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。当前阶段进展与未决项以[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)为准；数据包范围与发布限制见[验证报告](release/v0.2-draft/validation-report.md)和[数据集草案](release/v0.2-draft/README.md)。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
+第一部分按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。关系候选在语义处理时同步记录，随后在关系阶段裁决；候选不是正式边，外部补足也不覆盖原书表达。当前阶段进展与未决项以[全书S2当前结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)为准；第一章结果只覆盖该章。数据包范围与发布限制见[验证报告](release/v0.2-draft/validation-report.md)和[数据集草案](release/v0.2-draft/README.md)。结构从知识元及正式关系中逐级涌现，不预设 Topic、Theme、Dimension、Domain 或层级归属；可在实际形成的层次停止，未开展不是缺陷。
 
 | 目录 | 职责 |
 |---|---|

@@ -75,7 +75,7 @@
 | `sources.csv` | `source_id,kind,label,version,accessed_date,citation,url` | `source_id` 唯一；`kind` 为 `book` 或 `external`；`label`、`citation` 必填；无可靠信息的 version/date/url 留空 |
 | `segments.jsonl` | `segment_id,source_id,chapter,section,source_file,line_start,line_end,sha256,asset_sha256,release_excluded` | `segment_id` 唯一；source FK；来源路径、正向物理行区间、两个哈希必填；`release_excluded` 显式标记 |
 
-当前 1,684 个 source、953 个 segment。校验物理行覆盖、不重叠、哈希和来源 FK；source 版本/访问日期不以空值补造。
+source 与 segment 的当前数量以全书 S2 结果为准。校验物理行覆盖、不重叠、哈希和来源 FK；source 版本/访问日期不以空值补造。
 
 ## S1 全书实体候选（原书索引为种子）
 
@@ -105,9 +105,9 @@
 |---|---|---|---|---|
 | `s2-coverage.csv` | `chapter` | string | ✅ | 本次完整语义处理的章节范围 |
 | | `segment_id` | string | ✅ | FK；每章的每个 S0 段恰一行 |
-| | `disposition` | string | ✅ | `reviewed` / `excluded` |
+| | `disposition` | string | ✅ | `queued` / `reviewed` / `excluded`; queued means not yet semantically reviewed |
 | | `migration_status` | string | ✅ | `pending` / `partial` / `complete`；只表示对应提及／断言是否已写入表 |
-| | `source_line_ranges` | string | | `reviewed` 段对应的原始 OCR 行范围 |
+| | `source_line_ranges` | string | | `reviewed` 段对应的原始 OCR 行范围；queued 必须为空 |
 | | `note` | string | | `excluded` 必填理由；其他限定 |
 | `mentions.csv` | `mention_id` | string | ✅ | 主键 |
 | | `segment_id` | string | ✅ | FK |
@@ -124,7 +124,7 @@
 | | `source_file` | string | ✅ | 原始来源文件，相对项目根路径；引文须能在 `qualifiers.source_line_start/end` 指定行内复现 |
 | | `origin` | string | ✅ | 恒 `book` |
 
-**放行条件**：覆盖台账对每章 S0 段恰有一行；排除项有理由；每条提及与断言有锚点。覆盖台账证明段落处置范围，不替代逐段语义质量审查。
+**放行条件**：全书每个规范 S0 段在队列表中恰有一行；queued 段不得伪标为已读；排除项有理由；完成的 reviewed 段有原始行范围，且每条提及与断言有锚点。全书 S2 交接时不得有 queued 或未完成迁移项。覆盖台账证明登记范围，不替代逐段语义质量审查。
 **不重跑**：已有章从 `results/stages.md` 抽取；新章直接读分节文件。
 
 ## S3 身份对齐（全局、按类型）

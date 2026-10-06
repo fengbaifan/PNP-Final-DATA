@@ -38,7 +38,7 @@ One row per unverified Wikidata property-like enrichment row with an empty `sour
 
 ## s2-coverage.csv
 
-`chapter` and `segment_id` identify each source segment in an S2 scope. `disposition=reviewed|excluded`; `migration_status=pending|partial|complete` distinguishes reviewed coverage from completed table migration. Reviewed rows retain original OCR line ranges and excluded rows carry a reason. Coverage rows do not encode mentions or claims.
+`chapter` and `segment_id` identify every canonical source segment in the full-book S2 scope. `disposition=queued|reviewed|excluded`; queued rows must have `migration_status=pending` and no reviewed source-line range. `migration_status=pending|partial|complete` separately tracks table migration. Reviewed rows retain original OCR line ranges and excluded rows carry a reason. Coverage rows do not encode mentions or claims.
 
 ## segments.csv
 

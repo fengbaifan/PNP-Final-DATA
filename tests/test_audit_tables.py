@@ -147,6 +147,29 @@ def test_s2_audit_requires_every_segment_in_a_covered_chapter(tmp_path):
     assert any("chp-1 coverage incomplete (1/2 segments)" in error for error in result["errors"])
 
 
+def test_s2_audit_tracks_queued_segments_without_claiming_them_reviewed(tmp_path):
+    fields = ["chapter", "segment_id", "disposition", "migration_status", "source_line_ranges", "note"]
+    with (tmp_path / "s2-coverage.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerow({
+            "chapter": "chp-2", "segment_id": "chp-2:sec:l1-2", "disposition": "queued",
+            "migration_status": "pending", "source_line_ranges": "",
+        })
+    with (tmp_path / "mentions.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["mention_id", "segment_id", "candidate_id", "surface_form", "start_char", "end_char"])
+        writer.writeheader()
+    (tmp_path / "book-statements.jsonl").write_text("", encoding="utf-8")
+
+    result = audit_s2_artifacts(tmp_path, set(), {"chp-2:sec:l1-2"})
+    strict = audit_s2_artifacts(tmp_path, set(), {"chp-2:sec:l1-2"}, strict_stage=True)
+
+    assert result["errors"] == []
+    assert result["coverage_queued_rows"] == 1
+    assert any("full-book semantic processing is not complete" in warning for warning in result["warnings"])
+    assert any("has not been semantically reviewed" in error for error in strict["errors"])
+
+
 def test_s2_audit_checks_statement_quote_against_original_source_lines(tmp_path):
     with (tmp_path / "source.md").open("w", encoding="utf-8") as handle:
         handle.write("Haskell says Urban VIII increased patronage.\n")

@@ -13,7 +13,7 @@
 - `sources.csv`: source registry.
 - `enrichment-citation-links.csv`: one row per citation string in enrichment, linked by normalized exact citation text or the documented Haskell book author-title-year identity rule; ambiguous and unmatched citations stay explicit.
 - `wikidata-source-candidates.csv`: review-only candidate source records for unverified Wikidata property rows. Candidate records are derived from entity identity alignment and QID mentions in the source registry; they do not support the property's value and do not assign a `source_id` to the enrichment row.
-- `s2-coverage.csv`: chapter-level segment disposition ledger. `reviewed` links the original OCR line ranges to the existing processing record; `excluded` rows include a reason. This proves coverage disposition only, not semantic quality.
+- `s2-coverage.csv`: full-book segment ledger. `queued` means semantic review has not been completed; `reviewed` links original OCR line ranges to the processing record; `excluded` rows include a reason. `migration_status` separately tracks whether mentions and statements reached the tables. The ledger proves recorded scope, not semantic quality.
 - `segments.csv`: portable source segment manifest with source IDs, asset basenames, line intervals, and hashes. Segment text is omitted.
 - `mentions.csv`: S2 entity mentions with stable candidate and segment IDs and character offsets into the segment source text.
 - `book-statements.jsonl`: S2 claims, qualifications, original quotations, and source line locators. Quotes are included only in this restricted draft; source rights must be reviewed before distribution.

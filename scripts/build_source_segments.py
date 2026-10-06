@@ -22,10 +22,28 @@ def chapter_for(name: str) -> str:
     return f"chp-{int(match.group(1))}" if match else "front-matter"
 
 
+def source_files(source_dir: Path = SOURCE_DIR) -> list[Path]:
+    """Return S0 section OCR assets; chapter 11/12 excerpt OCRs remain for comparison mapping."""
+    files = sorted(source_dir.glob("*.md"))
+    whole_chapter = re.compile(r"^\d+_CHP-\d+\.md$", re.I)
+    selected: list[Path] = []
+    for path in files:
+        if whole_chapter.fullmatch(path.name):
+            continue
+        if path.stem.endswith("_intro"):
+            parallel_full_text = path.with_name(f"{path.stem[:-6]}.md")
+            # Some back-matter files use a titled whole-text name (e.g. 18_CHP-18Conclusion.md).
+            # Their *_intro counterpart is a second OCR rendering of the same scope.
+            if parallel_full_text.exists() and not whole_chapter.fullmatch(parallel_full_text.name):
+                continue
+        selected.append(path)
+    return selected
+
+
 def build_segments() -> tuple[list[dict], list[str]]:
     rows: list[dict] = []
     issues: list[str] = []
-    files = [p for p in sorted(SOURCE_DIR.glob("*.md")) if not re.match(r"^\d+_CHP-\d+\.md$", p.name)]
+    files = source_files(SOURCE_DIR)
     if not files:
         return [], [f"no section Markdown files found in {SOURCE_DIR}"]
     for path in files:
