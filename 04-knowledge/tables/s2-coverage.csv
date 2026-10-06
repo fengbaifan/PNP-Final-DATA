@@ -300,7 +300,7 @@ chp-21,chp-21:21_CHP-21Bibliography:l87-127,reviewed,complete,L87-127,"Printed p
 chp-21,chp-21:21_CHP-21Bibliography:l883-926,reviewed,complete,L884-926,"Printed p.432 contains 31 publication entries; [Page 432] at L883 is only a page marker. Reused 28 archive candidates and added three archive candidates. The page image corrects the D’Onofrio inventory page range, Pallucchini volume notation and Panofsky title accents."
 chp-21,chp-21:21_CHP-21Bibliography:l928-983,reviewed,complete,L929-983,Printed p.433 contains 32 bibliography entries; [Page 433] at L928 is only a page marker. Reused existing archive candidates where a matching citation was already recorded and added nine publication candidates. The page image restores several OCR-displaced journal-title fragments.
 chp-21,chp-21:21_CHP-21Bibliography:l985-1020,reviewed,complete,L986-1020,Printed p.434 contains 29 bibliography entries at L986–1020; L985 is only a page marker. Five archive candidates were added and existing citation candidates were supplemented. Bibliography p.434 disambiguates the two Puppi p.405 citations by their titles and page ranges.
-chp-22,chp-22:22_CHP-22Index:l1-1,queued,pending,,
+chp-22,chp-22:22_CHP-22Index:l1-1,excluded,complete,L1-1,Generated Markdown filename heading only; not printed index content and contains no index entry.
 chp-22,chp-22:22_CHP-22Index:l1024-1024,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1026-1080,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1082-1136,queued,pending,,
@@ -359,7 +359,7 @@ chp-22,chp-22:22_CHP-22Index:l2844-2897,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2899-2952,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2954-2954,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2956-3010,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l3-3,queued,pending,,
+chp-22,chp-22:22_CHP-22Index:l3-3,excluded,complete,L3-3,"Printed-page marker [Page 24] only; used to locate the following index page, not an index entry or factual claim."
 chp-22,chp-22:22_CHP-22Index:l3012-3066,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l3068-3068,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l3070-3124,queued,pending,,
@@ -391,7 +391,7 @@ chp-22,chp-22:22_CHP-22Index:l740-794,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l796-796,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l798-852,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l854-908,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l9-56,queued,pending,,
+chp-22,chp-22:22_CHP-22Index:l9-56,reviewed,complete,L9-56,"no_semantic_content: Printed index p.24 checked against CHP-22Index.pdf physical p.1 and S1 A.csv rows 0-66. Classified 65 open main-entry candidates (9 institutions, 55 people, 1 event); two see-under aliases remain excluded and now point to their target candidates. Index notes and subentries are navigational, not book-fact claims; no mentions or book statements added."
 chp-22,chp-22:22_CHP-22Index:l910-911,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l913-1022,queued,pending,,
 chp-2,chp-2:02_CHP-2_intro:l1-1,excluded,complete,,排除：Markdown文件标题是分节文件名标记，不是原书内容；无实体提及或断言。

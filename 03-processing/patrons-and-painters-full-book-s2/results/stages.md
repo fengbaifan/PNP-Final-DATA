@@ -1288,3 +1288,7 @@ Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页
 ## 书目末尾错位 OCR L1301–1306
 
 L1301为结构性`Footnotes`标签；L1302–1306内7段错位OCR已分别链接到p.413、414、423、424、431先前登记的书目statement/页图增补，不新增出版物或正式关系。完成7条精确mention、7条交叉引用statement和7项候选说明更新；未独立查阅所列文献。首次审计发现source_line_ranges格式错误后，恢复写前四表副本，修正为`L1302-1306`并重新写入；最终`s2_missing=[]`、`errors=[]`。当前11,436候选、26,829 mentions、12,102 statements；617 complete、121 excluded、94 queued、0 partial。下一段为首个queued索引段`chp-22:22_CHP-22Index:l1-1`。
+
+## 索引p.24（S0 L1–56）
+
+对照索引PDF物理页1、S0双栏OCR与S1 A.csv第0–66行，给65个开放主词头候选补类型（9 institution、55 person、1 event）；将两条教宗别名排除项明确链接到已有目标候选。L1文件名标题和L3页码标记作为结构导航排除；L9–56审读完成但无历史断言、mention或关系，不从索引子项生成事实。总表审计发现coverage说明漏记`no_semantic_content`后已修复并复核通过：`errors=[]`、`s2_missing=[]`。当前618 complete、123 excluded、91 queued；索引尚有2,781个开放未分类候选，下一段`chp-22:22_CHP-22Index:l64-109`。

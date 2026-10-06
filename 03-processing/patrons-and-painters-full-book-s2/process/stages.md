@@ -6095,3 +6095,11 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 受控迁移脚本 `chp21_bibliography_l1301_1306_migration.py` 以来源、PDF、分段哈希和四表前态为前置条件，默认 dry-run。新增 7 条精确 mention 和 7 条 `bibliography_displaced_ocr_cross_reference` statement，并在原 statement 上反向登记来源行及交叉引用 ID；更新 7 个候选说明以去除“待本段补链”的过时措辞。未新建候选、出版物列举断言或正式关系。上述出版物内容均未独立查阅。
 
 首轮写入后的机械审计发现 `s2-coverage.csv` 的行范围分隔符与校验契约不符。使用写前恢复副本还原四表（副本与迁移前 Git 版本逐字节一致），将范围格式修为 `L1302-1306` 后重新 dry-run/apply。复核 `python -X utf8 scripts/audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`；全库 11,436 候选、26,829 mentions、12,102 statements；832 段中 617 complete、121 有理由排除、94 queued、0 partial。下一待处理段为 manifest 中首个索引段 `chp-22:22_CHP-22Index:l1-1`；剩余 queued 均为索引段。结构审计不替代全书 S2 语义交接审查。
+
+## 索引首页 p.24（S0 L1–56）
+
+先核对 `22_CHP-22Index.md` 首段与索引PDF物理页1（印刷p.24），并逐项对照 S1 `A.csv`。OCR将双栏次序交错，PDF右栏的若干主词头在OCR中截断；通过页图和CSV第0–66行逐项配对：第0–32行为左栏，第33–66行为右栏。L1只是生成的Markdown文件名标题，L3只是`[Page 24]`定位标记，均排除并标记complete；L9–56覆盖该页索引正文。
+
+为65个仍开放的主词头候选写入类型：9个institution、55个person、1个event（Aix-la-Chapelle, Peace of）。候选类型按索引主词头所指对象确定，子项作为索引导航文字保留，不单独改作作品或关系。Alexander VII与Alexander VIII两条“see under”别名继续排除，分别补入目标`C.csv#189 / cand-0665`及`O.csv#29 / cand-1794`，以保留可追溯的别名去向。索引说明、定位页码与子项是书后导航，不是原书历史断言；本段不新增mentions、book statements或正式关系。S0文本、PDF及S1索引CSV均未改写。
+
+受控迁移脚本`chp22_index_p24_migration.py`锁定来源文件、PDF、索引CSV、分段哈希及迁移前表计数，默认dry-run；apply前备份候选表和coverage表。首次apply后总表审计指出已审读的索引正文段缺少`no_semantic_content`理由；在coverage说明中补齐该协议标记后复核，最终`errors=[]`、`s2_missing=[]`。全表为11,436候选、26,829 mentions、12,102 statements；832段中618 complete、123有理由排除、91 queued、0 partial。索引候选中尚有2,781个开放且未标类型；下一待处理段按manifest为`chp-22:22_CHP-22Index:l64-109`。结构审计不替代全书S2语义交接审查。
