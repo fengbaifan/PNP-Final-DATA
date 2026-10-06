@@ -1202,3 +1202,11 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 短引与版本身份均未越过S2裁定：Longo卷I、Lorenzetti 1917/1956、Mahon 1962、Malvasia 1678与1841版本、Malamani 1899多处短引、Mancini卷页定位、Marabottini 1954/1963、Marcellino p.18 locator均保持各自候选并挂接S3比较入口。被引出版物未在本段独立阅读。
 
 迁移脚本默认dry-run，锁定S0、PDF和段落哈希及迁移前计数；apply前为候选、mentions、statements、coverage四表生成`.bak-s2-chp21-bibliography-l701-754-20261007`恢复副本。写入后`audit_tables.py --summary`：`s2_missing=[]`、`errors=[]`；全表11,367候选、26,459 mentions、11,733 statements；832段中603 complete、121 excluded、108 queued、0 partial。下一段书目L756–806；仍有14个书目段及94个索引段待处理。结构审计不替代语义接收。
+
+## 书目L756–806（PDF物理页19，印刷p.429）
+
+已逐条对照规范源与页图登记本页28条书目项：复用17个archive候选并补全12个，新建`cand-11389`–`cand-11399`共11个archive候选；写入28条mention及28条`bibliography_lists_publication` statement。候选、statement外键及所有mention字符偏移均经迁移脚本复核。`cand-7044`是前文脚注已识别的1961年展览目录，直接复用；全段不新建event对象。
+
+页图校读包括：恢复L758、L762、L770/L772、L781和L793/L795移位的期刊名；校正Mariette、Abecedario、Marrini、Mazzotti、Mellino等OCR拼写，修复日期范围、Mazza期号和Meloni 1975期号/页码；按印本保持`Marrini`并与`cand-7926`分立。L789的Mazza题名续文与期刊顺序、L804–806 Mezzetti期刊行的跨行错序均依页图还原。L801 Memmoli与Merriman在OCR中粘连，使用互不重叠的精确mention及各自引句拆开。原OCR文本未改写。
+
+Marcheix、Marrini、Marucelli、Matina、Matteoli及Mariette相关短引分别留有S3比对链接；本段不据书目题名裁决跨章同一性，也不声称读过被列出版物。受控脚本锁定来源、PDF、段落哈希与迁移前表规模；apply前保存四表恢复副本。写入后表审计`errors=[]`、`s2_missing=[]`；全表11,378候选、26,487 mentions、11,761 statements；604 complete、121 excluded、107 queued、0 partial。下一段L808–844；余13个书目段与94个索引段。
