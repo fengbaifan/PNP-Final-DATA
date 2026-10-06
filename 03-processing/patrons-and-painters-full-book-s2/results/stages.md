@@ -1241,3 +1241,11 @@ Marcheix、Marrini、Marucelli、Matina、Matteoli及Mariette相关短引分别�
 p.405的Puppi note 5与p.434 L1019的pp.211–250相合，note 6与L1020的题名和pp.212–216相合；两条脚注和对应正文候选入口从共享暂定候选cand-11066分别改接cand-11425及cand-11426。note 5的年份差异（1968／1967–8）及作者身份仍留待后续判断。Previtali 1959书目候选与p.301未定短引不作强行匹配。
 
 受控dry-run/apply脚本锁定来源、PDF、分段哈希和表前态，并为四表留恢复副本。段级检查确认29条引句、外键、mention偏移和L986–1020覆盖完整；目标mention无重叠。全表audit_tables.py --summary为errors=[]、s2_missing=[]。当前11,405候选、26,635 mentions、11,908 statements；609 complete、121 excluded、102 queued。下一段书目L1022–1057，余8个书目段及94个索引段。
+
+## 书目L1022–1057（PDF物理页25，印刷p.435）
+
+处理25条出版物记录和1条作者See also指引。复用22个既有archive候选，其中18个补全书目字段；更新2个人物候选中印本可确认的作者形式／书目信息；新增3个archive候选`cand-11427`–`cand-11429`；写入26条mention、25条`bibliography_lists_publication`及1条`bibliography_author_cross_reference` statement。页图校正Puyvelde、Radcliffe页码，Radicchio题名省略号，Richa的`istoriche`与十卷本，Ricci卷数标点，Rinaldis和Roberti页码，Rinehart卷次与Robertson作者缩写；作者方括号及未明小型上标标记予以保留或记录为不确定。
+
+L1049的Rinehart “See also”明确指向已审L596–597的Haskell与Rinehart条目，并映射至既有出版物候选`cand-5658`；它记录为书目交叉指引，不扩写为新作者关系。Rinehart 1961文章的页52引文定位落在印本页35–59范围内，但文章与被引页均未独立阅读。Rivani的印本方括号不消除身份不确定；Radicchio、Rapparini、de Rinaldis、Roberti、Robertson等跨章候选只添加对齐比较入口，不在S2合并。三项新出版物为Puyvelde论文、Rinehart的Poussin论文及Robertson 1923年专著；Robertson既有p.318短引与该书不预先判作同一来源。
+
+审计确认25条出版物逐行覆盖L1023–1057，另有L1049交叉指引；26条mention的引句、偏移与候选外键有效，26条statement的来源与候选外键有效，交叉指引目标段已完成。全表当前11,408候选、26,661 mentions、11,934 statements；832段中610 complete、121 excluded、101 queued、0 partial。下一书目段L1059–1100；余7个书目段和94个索引段。机械闭合不代替最终S2语义交接审查。

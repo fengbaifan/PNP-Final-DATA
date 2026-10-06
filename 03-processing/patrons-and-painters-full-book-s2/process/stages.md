@@ -5802,3 +5802,42 @@ Nuti条目与Pasquali候选、1652及1973年Ottonelli著作版本、Palomino另�
 这页书目解决了第二版后记p.405两条Puppi引文：note 5的pp.211–250与L1019页码范围相同，故其statement及mention从共享暂定候选cand-11066改接cand-11425；note 6的题名及pp.212–216与L1020相符，改接cand-11426。相应两条正文statement的候选入口同步调整。note 5原引年为1968，书目印作1967–8；保留该差异。两条书目作者形式分别印作Lionelli和Lionello，身份不在S2合并；原共享候选保留为旧分组记录并注释其去向，供S3核对。L1009新建的1959年Previtali论文不拿来裁定p.301“See Previtali”短引；cand-9509仍待S3。Pöllnitz卷次定位、Posse letter no.8、Posner作者身份及其他跨章身份问题均保留对齐入口。上述文献内容未独立阅读。
 
 受控脚本chp21_bibliography_l985_1020_migration.py默认dry-run，锁定Markdown、PDF、S0分段哈希及四表迁移前计数；先dry-run核验后apply，并在写表前为四表保存.bak-s2-chp21-bibliography-l985-1020-20261007恢复副本。目标段核验确认29条mention、29条statement覆盖L986–1020，无漏行、重复或重叠；原文引句、偏移、候选外键和页码映射有效。p.405四条受影响statement与两条mention经前置值、引句、偏移核验后完成重映射。全表audit_tables.py --summary返回errors=[]、s2_missing=[]；当前11,405候选、26,635 mentions、11,908 statements；832段中609 complete、121 excluded、102 queued、0 partial。下一书目段L1022–1057；余8个书目段和94个索引段。机械审计不替代全书S2语义交接。
+
+## 书目L1022–1057：出版物条目与作者交叉指引（PDF物理页25，印刷p.435；2026-10-07）
+
+核对规范来源`21_CHP-21Bibliography.md`的L1022–1057与PDF印刷p.435。L1022为页码标记；L1023–1057逐行覆盖25条出版物和1条作者交叉指引。Markdown哈希为`f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`，PDF哈希为`1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，S0段哈希为`85dd9b22afaa7b6c4bb571221f8a53c1f3a7b79b238790d5df3df1e0225cfcc5`。复用22个archive候选并补全18个，新建3个archive候选`cand-11427`–`cand-11429`；另更新人物候选`cand-5793`与`cand-9930`的来源约束信息。按材料性质记录出版物和交叉指引，不将书目陈述转成历史关系或文献内容断言。
+
+| S0行 | 候选 | 本页条目 | 处理 |
+|---|---|---|---|
+| L1023–1024 | cand-11427 | Puyvelde，‘Les “Saint Ignace” et “Saint François Xavier” de Rubens’ | 新建；与cand-4976留S3作者对齐 |
+| L1025 | cand-11171 | Radcliffe，‘Two Bronzes from the Circle of Bernini’ | 复用并补全；与人物候选cand-10968对齐 |
+| L1026 | cand-10478 | Radicchio，*Descrizione della general idea concepita…* | 复用并补全；题名省略号照录，印本作者形式留S3 |
+| L1027–1028 | cand-9329 | Rapparini，*Die Rapparini-Handschrift* | 复用并补全；与另一个索引作品候选cand-2108分开 |
+| L1029 | cand-10054 | Rava，‘Contributo alla biografia di Pietro Longhi’ | 复用并补全p.340短引 |
+| L1030 | cand-10305 | Rava，‘Incisioni su stagno di Francesco Algarotti’ | 复用并补全p.354短引 |
+| L1031 | cand-6579 | Rava，‘Il teatro Ottoboni nel Palazzo della Cancelleria’ | 复用既有完整候选 |
+| L1032 | cand-4993 | Redig de Campos，‘Intorno a due quadri d’altare di Van Dyck…’ | 复用并补全 |
+| L1033 | cand-10189 | Remondini展览目录，G. Barioli编 | 复用并补全；目录未独立阅读 |
+| L1034 | cand-8267 | Renaldis，*Memorie storiche dei tre ultimi secoli del patriarcato d’Aquileia* | 复用；关联人物候选cand-8266供S3 |
+| L1035–1036 | cand-7069 | *Reni, Guido—catalogo critico della mostra* | 复用；记录编者与导言作者 |
+| L1037–1038 | cand-7755 | Amico Ricci，*Memorie storiche delle arti e degli artisti della Marca d’Ancona* | 复用并补全卷数、出版信息 |
+| L1039–1040 | cand-7602 | Giuseppe Richa，*Notizie istoriche delle chiese Fiorentine divise ne’ suoi quartieri* | 复用并补全；保留印本`istoriche`拼法，确认10卷 |
+| L1041 | cand-4807 | Abbé Richard，*Description historique et critique de l’Italie* | 复用并补全；6卷本信息对应旧卷VI引文 |
+| L1042 | cand-5024 | Louis Richeôme，*La peinture spirituelle* | 复用并补全题名 |
+| L1043 | cand-4367 | de Rinaldis，‘D’Arpino e Caravaggio’ | 复用并补全题名、卷次及页码 |
+| L1044 | cand-4368 | de Rinaldis，‘Le opere d’arte sequestrate al Cavalier d’Arpino’ | 复用并补全题名与页码 |
+| L1045 | cand-6605 | de Rinaldis，*Lettere inedite di Salvator Rosa a G. B. Ricciardi* | 复用并补充印本作者形式；旧引文定位保留比较 |
+| L1046 | cand-11428 | Rinehart，‘Poussin et la famille dal Pozzo’ | 新建；与cand-5793作者候选留S3 |
+| L1047–1048 | cand-5792 | Rinehart，‘Cassiano dal Pozzo (1588–1657), Some unpublished letters’ | 复用并补全；旧引页52落在书目pp.35–59内 |
+| L1049 | cand-5793 → cand-5658 | Rinehart “See also Haskell and Rinehart” | 已处理目标L596–597；登记书目交叉指引，不新增正式作者边 |
+| L1050–1051 | cand-7352 | Ritschl，*Katalog der Erlaucht Gräflich Harrachschen Gemälde-Galerie in Wien* | 复用并补全 |
+| L1052–1053 | cand-9372 | [Rivani]，‘Opere di Donato Creti nella Raccolta della Cassa di Risparmio di Bologna’ | 复用并补全；保留作者方括号及身份不确定 |
+| L1054–1055 | cand-10141 | Roberti，‘Lettere inedite di Gasparo Gozzi al tipografo Giambattista Remondini’ | 复用并补全；与cand-10131作者候选留S3 |
+| L1056 | cand-11429 | J. G. Robertson，*The genesis of romantic theory* | 新建；与cand-9932、cand-9933两项旧定位分开供S3比较 |
+| L1057 | cand-7895 | Robiony，‘La Madonna dal collo lungo di Parmigianino’ | 复用既有完整候选 |
+
+页图核读结果保存在对应statement的校读限定中：L1024的`23ó`校为236，尾随短横不属于条目；L1025的`41842Z`校为418–423；L1026确认`quando fu ...`的印刷省略号，不补写省略内容，并记录`straordinario`后小型上标标记无法判明；L1037核正`2 vols.,`标点；L1039将OCR`¡storiche`读为印本历史拼法`istoriche`，并将`io vols.`读作`10 vols.`；L1043校正1936及577–580；L1044校正断行页码110–118；L1046将`i960,1`读为1960, I；L1055校正326–335；L1056将OCR`}. G.`读为J. G.。原S0文本未改写，作品内容未独立核读。
+
+L1049原文为`Rinehart, S.: See also Haskell and Rinehart.`，目标与已审书目L596–597的`The dal Pozzo collection—some new evidence`相符，映射既有候选cand-5658；目标segment `l577-614`已reviewed/complete。该关系表示书目编排中的交叉指引，不主张独立的作者身份或新增合著事实。p.435另列的Rinehart 1961论文和1960年Poussin论文保持两个独立publication候选；Robertson专著也不据同姓作者与旧短引自动合并。Rivani保留方括号，Radicchio与de Rinaldis既有跨章候选定位及Rinehart作者身份都留S3裁定。
+
+受控脚本`chp21_bibliography_l1022_1057_migration.py`默认dry-run，锁定来源文件、PDF、S0段哈希、前态计数及前序／交叉指引目标状态；dry-run通过后apply，并在写表前为四表保存`.bak-s2-chp21-bibliography-l1022-1057-20261007`恢复副本。迁移后核验26条mention、26条statement、来源行完整覆盖、引句与偏移、候选外键及目标指引；全表计数11,408候选、26,661 mentions、11,934 statements；832段中610 complete、121 excluded、101 queued、0 partial。下一书目段L1059–1100；余7个书目段和94个索引段。机械闭合不替代全书S2语义交接审查。
