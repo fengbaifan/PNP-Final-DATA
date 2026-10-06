@@ -1167,3 +1167,16 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 按页图处理29条书目/展览记录，复用20个archive候选，新增9个（`cand-11322`–`cand-11330`），写入29条mention和29条statement；补全13个既有候选，Ferrari 1882复用先前短引候选。Fantuzzi、Félibien、Fisch—Bergin和Fleming书目记录与已有卷页或短引候选分开，供S3核对；Fontanella括号作者身份待定，Les Français à Rome两处场地描述并存待核。
 
 校读L466、473、476、478、480、484–488的省略号、撇号、页码缩写、行首引号、作者拼写、两处粘连记录边界及年份；来源S0保持不变。本页未发现整条书目遗漏，被引作品未独立查阅。审计`errors=[]`、`s2_missing=[]`；候选11,309、mentions 26,275、statements 11,549；597 complete、121 excluded、114 queued、0 partial。下一段L498–536。
+## 书目L498–536（PDF物理页13，印刷p.423）
+
+按页图处理L499–536的30条S0书目记录：Friedlaender；Frommel；Gabbrielli；Gabrieli, Giuseppe；Galassi Paluzzi两项；Galilei；Gallo两项；Galluzzi；Gamba；Gar；Garas三项；Garms；Ghelli；[Gherardi, P. E.]；Gibbon；Gigli；Giglioli两项；Gilmartin；Giussani；Giustiniani；Goering；Goethe；Goldoni；Golzio两项。另登记页图可见的Gabrieli, Noemi一项。L498页码标记不算书目记录。
+
+复用18个archive候选、新增13个（cand-11331–cand-11343，其中Noemi为页图项），补全14个已有候选；写入30条精确S0 mentions、30条bibliography_lists_publication statements和1条bibliography_page_image_addendum。保留Gabbrielli双年页码、Gabrieli/Galilei/Gallo/Gigli/Giustiniani/Goethe/Goldoni卷级定位与书目版记录的S3比对关系，不在S2合并。Gherardi方括号归属原样保留。
+
+页图校读记录L499多余句点、L500 Frühwerk/Kardinal断词、L508 Strà、L509页码153、L517页码285、L518作者名和editor标点、L528多余引号、L535页码缩写；S0不改。Noemi的OCR文本已确认实际存在于规范书目文件L1304；当前statement仅以L503–504为相邻锚点，cand-11333来源锚在本已审段L503，后续处理L1301–1306时为Noemi补精确mention并将Gabrieli卷数续行链接到cand-11332，不重复statement。被引作品未独立查阅。
+
+迁移后audit_tables为s2_missing=[]、errors=[]；候选11,322、mentions 26,305、book-statements 11,580；832段中598 complete、121有理由排除、113 queued、0 partial。下一段L538–575；尚余19个书目段和94个索引段。语义范围和质量仍须在全书S2交接审计中核对。
+
+## 书目L538–575（PDF物理页14，印刷p.424）
+
+处理28条书目记录，复用17个archive候选、新增11个（`cand-11344`–`cand-11354`），补全10个既有候选，写入28条mention和28条书目statement。拆分L553粘连的两篇Griseri文章；Grosley“3 vols., Londres 1764.”的OCR续行位于L1305，后续只补精确mention、不重复statement。页图校读Notatori、Griseri分界、official及若干作者重音/年代/页码，S0不改；未见整条漏录。迁移脚本默认dry-run并有来源/PDF/段哈希及外键检查，四表恢复副本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,333、mentions 26,333、statements 11,608；599 complete、121 excluded、112 queued、0 partial。下一段L577–614；余18个书目段和94个索引段。语义质量仍待全书S2交接审计。
