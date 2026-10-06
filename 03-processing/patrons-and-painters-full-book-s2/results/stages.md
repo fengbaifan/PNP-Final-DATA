@@ -1233,3 +1233,11 @@ Marcheix、Marrini、Marucelli、Matina、Matteoli及Mariette相关短引分别�
 ## 书目L928–983（PDF物理页23，印刷p.433）
 
 处理32条书目记录，复用并补全23个既有archive候选，新增9个`cand-11413`–`cand-11421`，写入32条mention和32条`bibliography_lists_publication` statement。页图校读Paolo Giordano II诗集题名、Parker重音、Passeri年代、Perez Sanchez的España、Pesenti行首点、Pignatti年份及Pietro da Cortona展览短横；恢复Patrignani、两项Pinetti、Pirri和Pisano在OCR中错排的期刊名片段。Pascoli、Pastor、Peiresc、Pellegrini和Pollak的卷次／版本或引文定位均保留S3比较，不预先合并。32段引句、外键、字符偏移和完整L929–983覆盖通过核验；全表`errors=[]`、`s2_missing=[]`。当前11,400候选、26,606 mentions、11,879 statements；608 complete、121 excluded、103 queued。下一段书目L985–1020。
+
+## 书目L985–1020（PDF物理页24，印刷p.434）
+
+处理29条书目记录，复用24个archive候选并补全其中19个，新建5个cand-11422–cand-11426，写入29条mention和29条bibliography_lists_publication statement。页图校正Pöllnitz法文题名、Ponte和Poussin年份、Pope-Hennessy题名空格、Pozzo页码、Presenzini拼写、Procacci作者名、Prunières与Puliti OCR以及Prota-Giurleo扫描标记。印本对两项Puppi文章分别拼作Lionelli和Lionello，保留两个形式供S3。
+
+p.405的Puppi note 5与p.434 L1019的pp.211–250相合，note 6与L1020的题名和pp.212–216相合；两条脚注和对应正文候选入口从共享暂定候选cand-11066分别改接cand-11425及cand-11426。note 5的年份差异（1968／1967–8）及作者身份仍留待后续判断。Previtali 1959书目候选与p.301未定短引不作强行匹配。
+
+受控dry-run/apply脚本锁定来源、PDF、分段哈希和表前态，并为四表留恢复副本。段级检查确认29条引句、外键、mention偏移和L986–1020覆盖完整；目标mention无重叠。全表audit_tables.py --summary为errors=[]、s2_missing=[]。当前11,405候选、26,635 mentions、11,908 statements；609 complete、121 excluded、102 queued。下一段书目L1022–1057，余8个书目段及94个索引段。

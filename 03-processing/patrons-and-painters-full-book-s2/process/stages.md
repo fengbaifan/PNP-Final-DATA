@@ -5760,3 +5760,45 @@ Nuti条目与Pasquali候选、1652及1973年Ottonelli著作版本、Palomino另�
 保留后续S3比较边界：Pascoli合卷影印本与既有分卷候选、Pastor无卷次书目条目与第XII/XIII/XIV卷引文、Peiresc出版书信与手稿候选、Pellegrini目录的p.15/p.56/plate 92定位、Pollak两卷本与既有分卷引文不合并；Parker、Pevsner、Pigage、Poirier及von Platen的作者候选也只作S3身份比较入口。本段不从书目项生成历史关系。
 
 受控迁移脚本默认dry-run，锁定Markdown、PDF、S0分段哈希及表前态；dry-run通过后apply，应用前为四表保存`.bak-s2-chp21-bibliography-l928-983-20261007`恢复副本。迁移后段级验证确认32条statement、32条mention逐一对应L929–983，无源行遗漏或重复；引句、候选外键、字符偏移及mention非重叠检查通过。`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；当前11,400候选、26,606 mentions、11,879 statements；832段中608 complete、121 excluded、103 queued、0 partial。下一书目段L985–1020；余9个书目段和94个索引段。机械审计不替代全书S2语义交接。
+
+## 书目L985–1020：出版物条目与跨章引文定位（PDF物理页24，印刷p.434；2026-10-07）
+
+核对规范来源21_CHP-21Bibliography.md的L985–1020及PDF印刷p.434。L985的[Page 434]仅为页码标记；L986–1020有29条出版物记录。原来源哈希为f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3，PDF哈希为1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512，S0段哈希为76480a4c281b0439c39ad8cbf2680ad60a3bb93b46f4b95a4e3a38206a213f70。复用24个archive候选，其中19个补全书目字段；新建5个候选cand-11422–cand-11426。按材料性质写入29条bibliography_lists_publication statement和29条逐行mention；不将出版物内容推作已读事实，不从书目项创建历史关系。
+
+| S0行 | 候选 | 本页书目对象（印本题名／类型） | 处理 |
+|---|---|---|---|
+| L986 | cand-11422 | Pöllnitz，《Mémoires contenant les observations qu’il a faites dans ses voyages》，三卷本 | 新建；卷II、III引文候选仍分开 |
+| L987 | cand-5151 | Ponnelle、Bordet，*St Philip Neri and the Roman society of his times* | 复用并补全 |
+| L988 | cand-10513 | Lorenzo da Ponte，*Memorie* | 复用并补全 |
+| L989 | cand-4372 | Pope-Hennessy，‘Two portraits of Domenichino’ | 复用并补全 |
+| L990–991 | cand-5158 | Pope-Hennessy，*Domenichino drawings in the Royal Library at Windsor Castle* | 复用并补全 |
+| L992 | cand-7064 | Pope-Hennessy，‘Some bronze statues by Francesco Fanelli’ | 复用，候选已含题名和页码 |
+| L993–994 | cand-8652 | Popham、Wilde，*Italian drawings of the XV and XVI centuries in the Royal Library at Windsor Castle* | 复用并补全 |
+| L995 | cand-6352 | Portoghesi，‘I monumenti borrominiani della Basilica Lateranense’ | 复用并补全 |
+| L996–997 | cand-4326 | Portoghesi，‘Il palazzo, la villa e la chiesa di S. Vincenzo a Bassano’ | 复用并确认原暂定书目匹配 |
+| L998 | cand-10884 | Donald Posner，‘Caravaggio’s homo-erotic early works’ | 复用并补全；作者身份待S3 |
+| L999 | cand-4857 | Posse，*Der römische Maler Andrea Sacchi* | 复用并补全 |
+| L1000–1001 | cand-9455 | Posse，*Die Staatliche Gemäldegalerie zu Dresden—Erste Abteilung: Die romanischen Länder* | 复用并补全 |
+| L1002 | cand-10276 | Posse，Algarotti书信与德累斯顿购画研究（1931增刊） | 复用并补全；与cand-8597信件定位保留S3比对 |
+| L1003 | cand-4634 | Poussin，Jouanny编Correspondance | 复用既有版本候选 |
+| L1004 | cand-4633 | Poussin，Blunt编展览目录 | 复用既有版本候选 |
+| L1005 | cand-9298 | Powell，*From Baroque to Rococo* | 复用并补全 |
+| L1006 | cand-11127 | Giovanni da Pozzo，‘Il Testamento dell’Algarotti’ | 复用并补全；与Algarotti 1764年遗嘱原件区分 |
+| L1007 | cand-11423 | Mercedes Precerutti Garberi，‘Di alcuni dipinti perduti del Tiepolo’ | 新建 |
+| L1008 | cand-4849 | Presenzini，*Vita ed opere del pittore Andrea Camassei* | 复用并补全 |
+| L1009 | cand-11424 | Previtali，‘Collezionisti di primitivi nel Settecento’ | 新建；与1964年书及p.301未定短引分开 |
+| L1010 | cand-11212 | Previtali，*La Fortuna dei Primitivi dal Vasari ai Neoclassici* | 复用并补全p.410引文 |
+| L1011–1012 | cand-11031 | Wolfram Prinz，*Die Sammlung der Selbstbildnisse in den Uffizien*，第I卷 | 复用并补全 |
+| L1013 | cand-11185 | Lucia、Ugo Procacci，‘Il carteggio di Marco Boschini con il Cardinale Leopoldo de’ Medici’ | 复用并补全；人名形式留待S3 |
+| L1014 | cand-6195 | Prota-Giurleo，*Pittori Napoletani del Seicento* | 复用并补全 |
+| L1015 | cand-4861 | Prunières，*L’opéra italien en France avant Lulli* | 复用既有版本候选 |
+| L1016 | cand-5598 | Prunières，*La vie et l’œuvre de Claudio Monteverdi* | 复用并校正OCR题名依据 |
+| L1017–1018 | cand-7846 | Puliti，Ferdinando dei Medici传记 | 复用既有书目候选 |
+| L1019 | cand-11425 | Puppi，‘I Tiepolo a Vicenza e le statue dei “nani” di Villa Valmarana a S. Bastiano’ | 新建；作者按印本记作Lionelli |
+| L1020 | cand-11426 | Puppi，‘Carlo Cordellina committente d’artisti’ | 新建；作者按印本记作Lionello |
+
+页图校读并在对应statement保留OCR依据：L986 Memories校为Mémoires；L988与L1004的i960校为1960；L989补回of Domenichino空格；L1006页码i8r-i92校为181–192；L1008将Presenzin!校为Presenzini；L1013将Luda校为Lucia；L1014行首双引号是左边扫描标记，不属于Prota-Giurleo条目；L1015 LuUi校为Lulli，L1016 l’ceuvre校为l’œuvre；L1017 Media, Gran Prindpe校为Medici, Gran Principe；L1019重复逗号),,pp.按页图校为), pp.。印本L1002的Gemäldgalerie及Preuszischen、L1019的Lionelli和L1020的Lionello均照录，不擅自现代化或合并。原S0文件未改写。
+
+这页书目解决了第二版后记p.405两条Puppi引文：note 5的pp.211–250与L1019页码范围相同，故其statement及mention从共享暂定候选cand-11066改接cand-11425；note 6的题名及pp.212–216与L1020相符，改接cand-11426。相应两条正文statement的候选入口同步调整。note 5原引年为1968，书目印作1967–8；保留该差异。两条书目作者形式分别印作Lionelli和Lionello，身份不在S2合并；原共享候选保留为旧分组记录并注释其去向，供S3核对。L1009新建的1959年Previtali论文不拿来裁定p.301“See Previtali”短引；cand-9509仍待S3。Pöllnitz卷次定位、Posse letter no.8、Posner作者身份及其他跨章身份问题均保留对齐入口。上述文献内容未独立阅读。
+
+受控脚本chp21_bibliography_l985_1020_migration.py默认dry-run，锁定Markdown、PDF、S0分段哈希及四表迁移前计数；先dry-run核验后apply，并在写表前为四表保存.bak-s2-chp21-bibliography-l985-1020-20261007恢复副本。目标段核验确认29条mention、29条statement覆盖L986–1020，无漏行、重复或重叠；原文引句、偏移、候选外键和页码映射有效。p.405四条受影响statement与两条mention经前置值、引句、偏移核验后完成重映射。全表audit_tables.py --summary返回errors=[]、s2_missing=[]；当前11,405候选、26,635 mentions、11,908 statements；832段中609 complete、121 excluded、102 queued、0 partial。下一书目段L1022–1057；余8个书目段和94个索引段。机械审计不替代全书S2语义交接。
