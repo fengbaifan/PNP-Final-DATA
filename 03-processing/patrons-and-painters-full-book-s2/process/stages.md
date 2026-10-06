@@ -5689,3 +5689,13 @@ L631的OCR把Incisa della Rocchetta 1925年《Il museo di curiosità del Cardina
 L638 `Jaffé, Irma: See Wittkower and Jaffé`指向S0 L1276–1277的合编本`Baroque Art: The Jesuit Contribution`。为保持指引外键完整，先建候选`cand-11368`，其候选来源锚定当前已审指引L638；全书目L1261–1299仍queued，该目标的页图复核、精确mention及书目statement待按书序处理时补入。L641的Jones指引指向本页L653的Krautheimer—Jones论文`cand-11361`。这些指引只记录书目路径，不作为历史关系或外部身份判断。其余短引与完整书目记录以`related_candidate_ids_for_s3`关联，保留独立候选交S3，不在S2合并。King’s Pictures按本页明确的展览记作event候选；出版物与展览项目不混为一类。被引作品均未在此段独立查阅。
 
 受控迁移脚本`chp21_bibliography_l616_656_migration.py`默认dry-run，锁定来源/PDF/段落哈希、迁移前计数、候选类型及自然键、mention偏移、statement引句和外键；dry-run通过后apply，四表恢复副本后缀`.bak-s2-chp21-bibliography-l616-656-20261007`。初次写入后审计发现`cand-11368`候选来源锚指向尚未复核的L1276；已改锚到当前已审L638，L1276的完整书目处理仍queued。最终`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；全表11,347候选、26,392 mentions、11,667 statements；832段中601 reviewed/complete、121 excluded、110 queued、0 partial。下一段书目L658–699；之后还余16个书目段和94个索引段。结构通过不等于全书语义交接完成。
+
+## 书目L658–699：出版物与“See also”指引（PDF物理页17，印刷p.427；2026-10-07）
+
+对照规范源与页图处理L658–699。L658的`[Page 427]`只是页码标记；L659–699包含30条出版物记录及L690、L698两条“See also”指引。页图逐项核对，未发现整条漏录或粘连项；L699 Alessandro Longhi书目记录在本段结束，L700为下一印刷页页码标记。写入30条`bibliography_lists_publication`及2条书目指引statement，共32条mention和32条statement。复用并补充24个既有archive候选；新增6个书目archive候选（`cand-11369`–`cand-11374`）及2个书目贡献者候选（`cand-11375`–`cand-11376`）。
+
+按本地作者、年份、题名及页码信息补全24个候选。两项短引保留给S3比对：p.352 n.1的Levey 1955页码为193–203，而书目页图为199–203，因此新建书目候选`cand-11373`并关联原短引`cand-10281`，不合并；Lavagnino的卷III书目记录`cand-11371`与既有`cand-7251`关联，但p.282–283未注明卷号的页码引用不指派到该卷。Lankheit的1956文章与1962专著分别记录；未定题名的Lankheit页码候选链接供S3核对。L690的Levey heading 指向已审L577–614中的Haskell—Levey 1958文章`cand-8638`；L698的Livan heading 指向已审L538–575中的Gradenigo书目记录`cand-11345`，该条注明Lina Livan为编者。指引仅记录书目检索路径，不生成历史关系；跨章作者身份仍交S3。
+
+页图校读记录L661 `II Gesù`→`Il Gesù`、L663 `Miinchner`→`Münchner`、L664页码`16701743`→`1670-1743`、L675 `fase, i`→`fasc. I`、L679 `PP256-261`→`pp. 256-261`、L680 `Valtnarana`→`Valmarana`、L685 `i960`→`1960`、L697 `193 5`→`1935`。页图确认L664印作`Florentinsche`，按印本拼写保留，不作外部规范化。Levey 1955页码差异单独记入statement。S0不改；书目列举不代表独立查阅了这些出版物。
+
+受控迁移脚本`chp21_bibliography_l658_699_migration.py`默认dry-run，锁定来源/PDF/段落哈希、迁移前计数、候选类型及自然键、mention偏移、statement引句、指引目标与外键；dry-run通过后apply，四表恢复副本后缀`.bak-s2-chp21-bibliography-l658-699-20261007`。写入后`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；全表11,355候选、26,424 mentions、11,699 statements；832段中602 reviewed/complete、121 excluded、109 queued、0 partial。下一待处理书目段为L701–754；余15个书目段和94个索引段。结构通过不等于全书语义交接完成。

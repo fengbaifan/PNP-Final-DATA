@@ -1188,3 +1188,7 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 ## 书目L616–656（PDF物理页16，印刷p.426）
 
 页图核对31条出版物／展览记录和2条作者指引，排除页码标记；复用19个已有记录候选、更新12个，新增12个本页候选，并为指向L1276的Jaffé指引先建目标候选`cand-11368`。写入33条mention和33条statement。按页图拆分S0 L631粘连的两篇Incisa文章，校读年份、题名拼写、页码和两条`See`指引；S0不改。King’s Pictures按展览event记录。短引与全书目候选保持分开，交S3对齐；L1276的完整页图复核及书目statement仍待其队列段处理。恢复副本和受控迁移脚本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,347、mentions 26,392、statements 11,667；601 complete、121 excluded、110 queued、0 partial。下一段L658–699；余16个书目段和94个索引段。语义质量仍待全书S2交接审计。
+
+## 书目L658–699（PDF物理页17，印刷p.427）
+
+处理30条出版物及2条“See also”指引；复用并补全24个archive候选，新增6个出版物候选和2个贡献者候选，写入32条mention、32条statement。页图校读8处OCR差异，并确认印本`Florentinsche`拼写；S0不改。Levey 1955页码差异与Lavagnino卷次不足均保留候选链接、留待S3；两条指引分别定位到已处理的Haskell—Levey及Gradenigo书目项。审计`errors=[]`、`s2_missing=[]`；候选11,355、mentions 26,424、statements 11,699；602 complete、121 excluded、109 queued、0 partial。下一段L701–754；余15个书目段和94个索引段。
