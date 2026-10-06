@@ -6889,7 +6889,7 @@ m-chp2-seciv-l190-245-0034,chp-2:02_CHP-2_sec_iv:l190-245,cand-0239,Taddeo,1588,
 m-chp2-seciv-l190-245-0035,chp-2:02_CHP-2_sec_iv:l190-245,cand-4871,Giuho Pisano. 1011,1598,1616,Print reads “Giuho Pisano. 1921.”; preserve unresolved spelling and identity.
 m-chp2-seciv-l190-245-0036,chp-2:02_CHP-2_sec_iv:l190-245,cand-4863,Blunt’s article,1620,1635,The footnote recommends supplementing this 1958 article.
 m-chp2-seciv-l190-245-0037,chp-2:02_CHP-2_sec_iv:l190-245,cand-4863,Journal os the Warburg and Courtauld Institutes,1643,1690,OCR reads “os”; print reads “of.”
-m-chp2-seciv-l190-245-0038,chp-2:02_CHP-2_sec_iv:l190-245,cand-4864,Hibbard’s monograph,1726,1745,Title and publication year are not supplied.
+m-chp2-seciv-l190-245-0038,chp-2:02_CHP-2_sec_iv:l190-245,cand-5163,Hibbard’s monograph,1726,1745,The p.425 bibliography identifies the Maderno monograph as the 1971 book; global alignment remains for S3.
 m-chp2-seciv-l190-245-0039,chp-2:02_CHP-2_sec_iv:l190-245,cand-4873,Carlo Maderno,1749,1762,Subject of Hibbard’s monograph.
 m-chp2-seciv-l190-245-0040,chp-2:02_CHP-2_sec_iv:l190-245,cand-4842,Litta,1766,1771,Cited for the Bentivoglio family history.
 m-chp2-seciv-l190-245-0043,chp-2:02_CHP-2_sec_iv:l190-245,cand-4651,The family,1773,1783,Bentivoglio family; the note says it originated in Bologna and had an important branch in Ferrara.
@@ -8325,7 +8325,7 @@ m-chp3-p71-73note-0001,chp-3:03_CHP-3_sec_ii:l144-179,cand-5152,"Cozzi, p. 46",2
 m-chp3-p71-73note-0002,chp-3:03_CHP-3_sec_ii:l144-179,cand-5151,Formelle and Bordet,2610,2629,S0 OCR reads “Formelle”; print p.71 reads “Ponnelle and Bordet”. Reuses the cited-work candidate.
 m-chp3-p71-73note-0003,chp-3:03_CHP-3_sec_ii:l144-179,cand-5154,Ortolani,2641,2649,Cited publication author name; full work identity unspecified.
 m-chp3-p74p76notes-0009,chp-3:03_CHP-3_sec_ii:l144-179,cand-4872,Hibbard,2667,2674,Author candidate reuse.
-m-chp3-p71-73note-0004,chp-3:03_CHP-3_sec_ii:l144-179,cand-4864,"Hibbard, 1961, pp. 289-318",2667,2693,Cited publication and page range; reuses the Hibbard monograph candidate.
+m-chp3-p71-73note-0004,chp-3:03_CHP-3_sec_ii:l144-179,cand-4864,"Hibbard, 1961, pp. 289-318",2667,2693,"The p.425 bibliography identifies this 1961, pp. 289-318 citation as the S. Andrea della Valle article."
 m-chp3-p71-73note-0005,chp-3:03_CHP-3_sec_ii:l144-179,cand-5155,Avviso of 30 April 1608,2697,2720,Contemporary notice cited through Orbaan.
 m-chp3-p71-73note-0006,chp-3:03_CHP-3_sec_ii:l144-179,cand-4373,"Orbaan, 1920, pp. 107-8",2732,2755,Secondary publication and page locator.
 m-chp3-p71-73note-0007,chp-3:03_CHP-3_sec_ii:l144-179,cand-4376,"Passeri, pp. 45 and 148",2759,2782,Cited publication and page locators; reuses the existing Passeri work candidate.
@@ -26777,3 +26777,41 @@ m-chp21-bib-l538-575-026,chp-21:21_CHP-21Bibliography:l538-575,cand-11353,"Harri
 m-chp21-bib-l538-575-027,chp-21:21_CHP-21Bibliography:l538-575,cand-7119,"Harris, Enriqueta: ‘Angelo Michele Colonna y la decoración de San Antonio de los Portugueses’ in Archivo Espatiol de Arte, pp. 101-105.",2556,2691,S0 bibliography entry; page-image OCR corrections and scan notes are recorded on its statement.
 m-chp21-bib-l538-575-028,chp-21:21_CHP-21Bibliography:l538-575,cand-11354,"Harris, Enriqueta: ‘Cassiano dal Pozzo on Diego Velázquez’ in Burlington Magazine, 1970,
 PP364-373-",2692,2791,S0 bibliography entry; page-image OCR corrections and scan notes are recorded on its statement.
+m-chp21-bib-l577-614-001,chp-21:21_CHP-21Bibliography:l577-614,cand-11165,"Harris, Enriqueta & Andres, Gregorio de: ‘Description del Escoriai por Cassiano dal Pozzo (1626)’ in Archive Espatiol-de Arte, 1972 (anejo).",11,151,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-002,chp-21:21_CHP-21Bibliography:l577-614,cand-5495,"Haskell, F.: ‘P. Legros and a statue of the Blessed Stanislas Kostka’ in Burlington Magazine,
+1955, pp. 287-291.",152,264,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-003,chp-21:21_CHP-21Bibliography:l577-614,cand-7790,"Haskell, F.: ‘Stefano Conti, patron of Canaletto and others’ in Burlington Magazine, 1956, pp. 296-300.",265,368,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-004,chp-21:21_CHP-21Bibliography:l577-614,cand-9559,"Haskell, F.: ‘Algarotti and Tiepolo’s “Banquet of Cleopatra” ’ in Burlington Magazine, 1958, pp. 212-213.",369,474,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-005,chp-21:21_CHP-21Bibliography:l577-614,cand-5136,"Haskell, F.: ‘Painting and the Counter Reformation’ in Burlington Magazine, 1958, pp. 396-399.",475,569,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-006,chp-21:21_CHP-21Bibliography:l577-614,cand-6240,"Haskell, F.: ‘The market for Italian art in the 17th century’ in Past and Present, April 1959, .
+pp. 48-59.",570,677,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-007,chp-21:21_CHP-21Bibliography:l577-614,cand-11355,"Haskell, F.: ‘Art exhibitions in Seventeenth century Rome’ in Studi Secenteschi, I, i960, pp.
+107-121.",678,780,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-008,chp-21:21_CHP-21Bibliography:l577-614,cand-10717,"Haskell, F.: ‘A note on artistic contacts between Florence and Venice in the 18th century’ in
+Bollettino dei Musei Civici Veneziani, i960, N. 3/4, pp. 32-37.",781,938,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-009,chp-21:21_CHP-21Bibliography:l577-614,cand-9011,"Haskell, F.: ‘Pictures from Cambridge at Burlington House’ in Burlington Magazine, i960, pp. 71-72.",939,1038,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-010,chp-21:21_CHP-21Bibliography:l577-614,cand-10629,"Haskell, F.: ‘Francesco Guardi as vedutista and some of his patrons’ in Journal of the Warburg and Courtauld Institutes, i960, pp. 256-276.",1039,1178,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-011,chp-21:21_CHP-21Bibliography:l577-614,cand-9424,"Haskell, F.: ‘The Apotheosis of Newton in Art’ in Texas Quarterly, Autumn 1967, pp. 218-237.",1179,1271,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-012,chp-21:21_CHP-21Bibliography:l577-614,cand-11213,"Haskell, F.: ‘Some Collectors of Venetian Art at the end of the Eighteenth Century’ in Studies in Renaissance and Baroque Art presented to Anthony Blunt on his 60th birthday,
+London 1967, pp. 173-178.",1272,1472,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-013,chp-21:21_CHP-21Bibliography:l577-614,cand-8638,"Haskell, F. and Levey, M.: ‘Art exhibitions in 18th-century Venice’ in Arte Veneta, 1958, _ pp. 179-185.",1473,1577,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-014,chp-21:21_CHP-21Bibliography:l577-614,cand-5658,"Haskell, F. and Rinehart, S.: ‘The dal Pozzo collection—some new evidence’ in Burlington
+Magazine, i960, pp. 318-326.",1578,1695,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-015,chp-21:21_CHP-21Bibliography:l577-614,cand-7097,"Hautecœur, L.: L’Histoire des Chateaux du Louvre et des Tuileries, Paris 1927.",1696,1774,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-016,chp-21:21_CHP-21Bibliography:l577-614,cand-9920,"Hazard, P.: La crise de la conscience européenne (1680-1715), Paris 1935.",1775,1848,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-017,chp-21:21_CHP-21Bibliography:l577-614,cand-10145,"Hazard, P.: La pensée européenne au XVIIIème siècle, 2 vols., Paris 1946.",1849,1922,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-018,chp-21:21_CHP-21Bibliography:l577-614,cand-10875,"Heikamp, Detlef: ‘La Medusa del Caravaggio e l’armatura dello Scià ‘Abbas di Persia’ in
+Paragone, 1966 (199), pp. 62-76.",1923,2043,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-019,chp-21:21_CHP-21Bibliography:l577-614,cand-7252,"Heilbronner, P.: ‘Arte italiana nel mondo—Architetti del Barocco a Monaco di Baviera’ in
+Le Vie d’Italia e del Mondo, 1936, pp. 887-904.",2044,2180,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-020,chp-21:21_CHP-21Bibliography:l577-614,cand-5615,"Hervey, M. F. S.: The life, correspondence and collections of Thomas Howard, Earl of
+Arundel, Cambridge 1921.",2181,2290,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-021,chp-21:21_CHP-21Bibliography:l577-614,cand-7062,"Hess, J.: ‘Die Gemälde des Orazio Gentileschi für das “Haus der Königin” in Greenwich’ in
+English Miscellany, 1952, pp. 159-187.",2291,2419,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-022,chp-21:21_CHP-21Bibliography:l577-614,cand-11161,"Hess, J.: ‘Contributi alla Storia della Chiesa Nuova (S. Maria in Vallicella)’ in Scritti di
+Storia dell’Arte in onore di Mario Salmi, 3 vols., 1963, II, pp. 215-238.",2420,2586,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-023,chp-21:21_CHP-21Bibliography:l577-614,cand-4864,"Hibbard, H.: ‘The early history of S. Andrea della Valle’ in Art Bulletin, 1961, pp. 289-318.",2587,2680,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-024,chp-21:21_CHP-21Bibliography:l577-614,cand-5163,"Hibbard, H.: Carlo Maderno and Roman Architecture 15 80-163 0, London 1971.",2681,2756,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-025,chp-21:21_CHP-21Bibliography:l577-614,cand-10885,"Hibbard, H.: ‘Recent Books on Earlier Baroque Architecture in Rome’ in Art Bulletin,
+1973. PPI27-I35",2757,2857,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."
+m-chp21-bib-l577-614-026,chp-21:21_CHP-21Bibliography:l577-614,cand-4353,"Hinks, R.: Michelangelo Merisi da Caravaggio, London 1953.",2857,2915,"S0 bibliography entry; page-image OCR corrections, scan notes, and candidate reconciliation are recorded on its statement."

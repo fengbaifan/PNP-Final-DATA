@@ -1180,3 +1180,7 @@ p.410脚注1–5（L276–280）逐条审读并回链正文；Previtali 1964与H
 ## 书目L538–575（PDF物理页14，印刷p.424）
 
 处理28条书目记录，复用17个archive候选、新增11个（`cand-11344`–`cand-11354`），补全10个既有候选，写入28条mention和28条书目statement。拆分L553粘连的两篇Griseri文章；Grosley“3 vols., Londres 1764.”的OCR续行位于L1305，后续只补精确mention、不重复statement。页图校读Notatori、Griseri分界、official及若干作者重音/年代/页码，S0不改；未见整条漏录。迁移脚本默认dry-run并有来源/PDF/段哈希及外键检查，四表恢复副本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,333、mentions 26,333、statements 11,608；599 complete、121 excluded、112 queued、0 partial。下一段L577–614；余18个书目段和94个索引段。语义质量仍待全书S2交接审计。
+
+## 书目L577–614（PDF物理页15，印刷p.425）
+
+处理26条记录，复用25个archive候选、新增`cand-11355`，写入26条mention和26条statement并更新24个既有候选。拆开OCR将Hibbard 1973文章页码与Hinks下一条书目记录粘连的末行；校读作者、刊名、重音、页码和条目边界，S0不改。修复既有`cand-4864`误合并Hibbard 1961文章与1971专著的问题，将对应正文引文mention/statement移至`cand-5163`，保留S3身份核对。受控迁移脚本完成来源/PDF哈希与外键校验，四表恢复副本已保存。审计`errors=[]`、`s2_missing=[]`；候选11,334、mentions 26,359、statements 11,634；600 complete、121 excluded、111 queued、0 partial。下一段L616–656；余17个书目段和94个索引段。语义质量仍待全书S2交接审计。

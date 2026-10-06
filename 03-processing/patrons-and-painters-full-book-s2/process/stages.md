@@ -5671,3 +5671,11 @@ L499为Friedlaender, Caravaggio Studies；L500–501为Frommel论Del Monte与Car
 按页图处理28条书目记录，复用17个archive候选，新增11个（`cand-11344`–`cand-11354`），补全10个既有候选；写入28条mentions和28条`bibliography_lists_publication` statements。L553的Griseri两篇文章在S0同一行粘连，按原文连续字符范围拆成两个互不重叠mention。Grosley条目的“3 vols., Londres 1764.”被OCR移至L1305，已在`cand-11347`详情中保留该续行定位；后续处理L1301–1306时为其补精确mention，不重复创建publication statement。Hantsch首半卷与既有卷级定位候选、Gozzi、Gradenigo、Gualandi等书目版候选保持S3比对，不在S2合并。
 
 页图校读记录L544 `Notatoti`→`Notatori`、L553粘连边界和`PP33-39`、L563 `officiai`→`official`、L565年代及标点、L568–575姓名重音/年代/页码等；排除Grassi、Gualdo记录后的脱离短横及扫描边注。S0保持不变，未发现整条书目记录漏录。受控迁移脚本`chp21_bibliography_l538_575_migration.py`默认dry-run，锁定来源/PDF/段哈希、表计数、候选自然键、mention偏移、statement引句及外键；apply前保存四表恢复副本`.bak-s2-chp21-bibliography-l538-575-20261007`。写入后`audit_tables.py --summary`为`s2_missing=[]`、`errors=[]`；全表11,333候选、26,333 mentions、11,608 statements；832段中599 complete、121有理由排除、112 queued、0 partial。下一段书目L577–614；之后还余18个书目段和94个索引段。结构审计不替代S2语义交接复核。
+
+## 书目L577–614：出版物条目（PDF物理页15，印刷p.425；2026-10-07）
+
+对照规范源及`CHP-21Bibliography.pdf`物理页15处理L577–614：页图共26条书目记录，S0 L578–614锚定26条；L577是页码标记。复用25个archive候选，新增`cand-11355`（Haskell, “Art exhibitions in Seventeenth century Rome”, 1960）；写入26条精确mention和26条`bibliography_lists_publication` statement，并补充/校正24个候选的书目信息。L614将Hibbard 1973文章与Hinks的Caravaggio专著拆成两个记录，mention跨度分离；页图确认作者、刊名、重音、页码及条目边界，S0来源不改。
+
+此段复核发现既有候选`cand-4864`把Hibbard 1961年“S. Andrea della Valle”文章与1971年`Carlo Maderno and Roman Architecture 1580-1630`专著误并为一项。已将`cand-4864`修正为1961文章、`cand-5163`修正为1971专著；把第2章L190–245处mention及对应statement从前者重新指向后者，并更新候选来源锚点。S3仍需核对Hibbard 1961书目项与第3章引文的出版物身份；不把书目登记视为独立阅读原作。
+
+受控脚本`chp21_bibliography_l577_614_migration.py`默认dry-run，锁定来源/PDF/段落哈希、迁移前计数、候选类型/自然键、mention跨度、statement引句与外键；dry-run通过后apply，四表恢复副本后缀`.bak-s2-chp21-bibliography-l577-614-20261007`。写入后审计`errors=[]`、`s2_missing=[]`；全表11,334候选、26,359 mentions、11,634 statements；832段中600 reviewed/complete、121 excluded、111 queued、0 partial。下一段书目L616–656；之后还余17个书目段和94个索引段。结构审计不替代S2语义交接复核。
