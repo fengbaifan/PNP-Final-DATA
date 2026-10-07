@@ -6721,3 +6721,16 @@ p.238注3与注5分别校正为《The Painter’s Family》/《The Fair at Poggi
 p.263–265将Carracci素描、Crespi委托画、Piazzetta《Angelo Custode》分为三笔交易；1743年Tiepolo/Piazzetta库存与Longhi 1762年库存分开，并将后者保存地点更正为Biblioteca Correr；Joseph Smith与John Udney分别记录，Udney清单不推断已完成交易；Zucchi献辞按注3解析为Raccolta Gherro第3卷第428号版画。p.266保留Sagredo与Tiepolo、Piazzetta、Canaletto、Longhi接触的“可能”语气，并把未具名继承人从Sagredo家族候选中分开。p.267将“Gonzaga effects”映射为未识别财产/遗产；绘画来源只保留Ferdinando Carlo与其未具名随从成员两项假说，并另记“部分”Sagredo素描与Castiglione曼图亚作品的关系。p.268–270三条泛论及四条复合汇总不冒充单一关系。p.273区分Piazzetta画作与Pennsylvania Museum所藏modello；Tiepolo两个方案分别记录，只有第二方案有被选用并略作修改的陈述。p.274登记未具名耶稣会讲道者、保留“似乎”的Pietà择案程序及S. Basilio未具名贵族群体/Beato Pietro Aconato崇拜，不把模糊代词强派给Corner或Angeli。
 
 受控脚本`chp9_relation_endpoint_audit.py`完成dry-run与apply，预检来源和段落哈希、旧候选/开放关系集合及数据前态；三表恢复副本曾保存在本机临时目录。本批新增9个候选、8条提及、25条statement，重映射4条既有提及，并修正Joseph Smith类型为person、Raccolta Gherro版画类型为work。19条原缺端点均已逐项处置；本章当前372条关系候选均有两端。全库现有11,452个候选、26,837条提及、12,174条statement；2,298条关系候选中2,233条两端齐全、57条仅有一端、8条两端均空，共65条未闭合，按章为第7章1、第8章3、第10章27、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既有enrichment source_ref警告仍在。第7–9章已完成本轮关系语义复核（第7、8章保留有理由的未决项）；下一步按书序审第十章27条开放关系候选。机械通过不等于全书S2交接或S3语义验收完成。
+
+
+## 全书S2交接审计续：第十章p.276–318及图版51关系候选（2026-10-08）
+
+按规范来源段、原书引文和既有候选逐项复核第十章27条初始缺端点关系候选，并检查p.315三条虽有端点但实为集合概况的statement。地域文化与未具名访客的概述、Rapparini赞语、Burlington建筑趣味、未具名雇佣艺术家、收藏概况、图版年份及有条件的审美比较均保留为来源断言，不把共现或属性强制转成实体边。p.287 Amigoni离开England的金额保留“supposed”、约十年和部分宫廷收入限定。
+
+p.282将Johann Wilhelm收藏意大利作品与委托Cignani、Franceschini、dal Sole、Trevisani拆开；后四位各有明确端点。将未成功邀请Balestra与Carriera拆为两项。注3的五件作品分别改为work→creator并新增work→Johann Wilhelm的commissioned_by候选；Cignani两作品的1702/1715年份及Augsburg/Munich位置仍作为成对报告，不分配到单件。注3全部作品与对应正文委托项回链；p.282 Balestra/Trevisani“拒绝regular employment”的残句确定为注3，并与p.283 L163–164的续文相连，修正Eves/Bibhoteca对应的印本读法lives/Biblioteca。原OCR段已含续文，没有新增来源段。
+
+p.283将1696年访问Holland与未指名作品的荷兰绘画收藏概况分开。p.284拆Crozat patronage连接Pellegrini、Carriera、Zanetti的三项；p.285把Carriera与Rigaud、Watteau及另外五位具名人士的会面分别登记，保留前两位明确表达敬意的限定。p.293注4分开登记Franz来信的Pellegrini介绍、作者和收信人，以及Pellegrini（1725–1727）和Carriera（1730）各自赴Vienna的行程；来信及所引Von Freeden页未独立查阅。
+
+p.312拆出Giulio Romano、Castiglione受雇于Gonzaga家族；九位具名画家／雕刻家／版画家各自制作Schulenburg肖像的关系候选；Simonini绘制战役组作品及“apparently”随Schulenburg出征两项。未具名多数画家、Schulenburg艺术家的“royal generosity”评价和作品组收藏概况仍作来源断言。p.315将Smith和Schulenburg没有Tiepolo作品拆为两条带negation=true的否定断言，不建立正向所有权；三位画家“not particularly favoured”拆开但仍非关系。p.318将Giannone、Pilati、Baretti和其他未具名异端思想者分别连至威尼斯共和国的驱逐陈述。图版51的1748年作为caption日期保留为属性。
+
+受控脚本chp10_relation_endpoint_audit.py核验Chapter 10来源资产及所有相关段哈希、精确27条开放ID集、候选上界与类型前态；默认dry-run，应用前为两张受影响表建立恢复副本。写回新增39条statement，未新增候选或mention；15个未指明的作品组/群体候选类型清空，Augsburg仍为place、Plate 53b所指Amigoni肖像仍为work。另将p.315三条完整端点的集合概况移出关系候选。全库现有11,452候选、26,837提及、12,213 statements；2,312条关系候选中2,274条两端齐全、32条缺一端（3缺主语、29缺宾语）、6条缺两端，共38条未闭合。仍开放项按章为第7章1、第8章3、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1；第7、8章保留项已有理由。python -X utf8 scripts/audit_tables.py --strict-stage返回s2_missing=[]、errors=[]，覆盖仍为678 complete、154有理由排除、0 queued、0 partial；既有两条enrichment source_ref警告未变。第十章本轮关系候选均有两端；S2整体尚未交接。下一步按书序复核第十三章8条缺端点候选。
