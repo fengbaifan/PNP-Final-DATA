@@ -6545,3 +6545,16 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 印本校读与派生候选订正：主词头Smith, Joseph（#129）印为299–310后接314，去掉S.csv及候选中误加的311；#139 Bibliotheca Smithiana页码应为310、394（S.csv误作212、394）；#141标题印作`Catalogo di Libri Raccolti dal fu Signor Giuseppe Smith`，将候选`Catalogus`校为`Catalogo`；#160印本303后无注号，#161页码为307、310（非307n、317）；#163补入印本遗漏的301。S0中`Dactylograjia`等OCR错读按印本读，不改S0或S.csv。第10章p.300、302、306注、307、309–310及附录p.391–394支持相关目录、婚姻、交易和不确定性；附录作者未能判明1762年是否售尽藏画，故只标交易事件，不把“售尽”写成确定事实。第13章p.337正文作`Dactylografa Smithiana`，索引和P.csv候选作`Dactylografia Smithiana`；cand-2458与cand-1848，以及cand-2450/2451/2452与cand-9274/10833/10832、cand-2476与cand-8651、cand-2462与cand-9556之间的身份对应均留S3判断。
 
 受控脚本`chp22_index_p469_right_l3012_3066_migration.py`锁定印本PDF、S0、S.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply，并保存候选表与coverage恢复副本`.bak-s2-chp22-index-p469-right-l3012-3066-20261007`。仅改候选类型、6项派生定位/题名和coverage；未改S0、索引CSV、mentions、book statements或relations。下一段按manifest为p.470页标`chp-22:22_CHP-22Index:l3068-3068`。
+
+
+## 索引p.470页标与左栏（S0 L3068、L3070–3124）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页28确认印刷p.470；L3068 @[Page 470]@为生成导航标记，排除并标complete。左栏L3070–3124逐项核S.csv#169–218共50项，从Sole, Giovan Gioseffo dal至Strudel, Peter；全部分类为21 person、19 work、3 event、2 archive、5 term。下一段L3126–3179才开始Strudel的`Tarquin and Lucretia`子项，本次按段界未纳入。
+
+人物主词头及一般生涯、交往与趣味子项保留person语境；#181 `work for Raimondo Buonaccorsi`未指明独立作品或单次委托，仍归Solimena人物语境；#206 `and G. M. Sasso`及#209对Venice的admiration不凭索引措辞建立关系。具名绘画与作品组（#170–180、#185–187、#202、#210、#212–215）归work；《The Levites》由第8章p.216明确为Storer受委托完成的教堂画作，第10章p.316将`Glory of Venice`称作已毁的寓意画。战争、Guardi任职和Streit遗赠（#191、#207、#211）归event；《The Spectator》与《De Bello Belgico》（#192、#204）作为期刊/著作归archive；Spanish patronage及其时段/对象、Status-seeking和Stoicism（#188–190、#196、#199）归term。S#216 Strozzi据附录p.393仅能确认是匿名售画记录中列出的画家姓氏，身份留待S3。
+
+印本校读：S#174在PDF及第8章p.214均作`Deborah and Barach`，S.csv误录`Deborah and Barak`，故仅订正派生候选cand-2485。S#182 Spada, Cardinal Bernardino定位由`75n, 139`校为印本`75, 139`；S#184 Spadaro, Micco定位由`139n, 204n`校为`139, 204n`。S#180印本作`Rebecca and Eliezar`，而S.csv与第8章p.214均作`Rebecca and Eliezer`，候选保留正文与索引CSV支持的Eliezer写法，并记录印本异文。
+
+作品归属待决：S#186将`Revolt of Masaniello`列在Spadaro词头下；但第5章p.139及Plate 22b把同名作品叙述为Cerquozzi所作。可能是索引误归，也可能是不同作品；不将索引子项当作作者断言，不与正文作品候选cand-4060合并。cand-2497的detail记录该冲突供后续身份对齐。第8章p.207注1已有Pool of Bethesda与Woman taken in Adultery的跨收藏陈述；第10章p.315遗赠、p.316家族肖像及第16章p.374 Guardi任职分别已有statement候选`st-chp10-p315-streit-bequests-of-acquired-pictures`、`st-chp10-p316-streit-displayed-family-portraits`和`st-chp16-p374-strange-employs-guardi`。索引不重复新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p470_marker_left_l3068_3124_migration.py`锁定印本PDF、S0、S.csv、taxonomy、相关正文/附录、manifest及候选/coverage/mentions/statements/relations前态；dry-run通过后apply，并保存候选表与coverage恢复副本`.bak-s2-chp22-index-p470-l3068-3124-20261007`。仅更新候选类型、3处派生字段和S2 coverage；未改S0或S.csv。
