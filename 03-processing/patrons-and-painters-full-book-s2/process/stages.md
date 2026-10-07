@@ -6854,3 +6854,39 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 页图读取与S0 OCR差异只记于S2：印本注3为“pp. 205 ff.”及“in Paris”，OCR仍为“pp. 205 if.”及“hi Paris”；S0来源不改。注1 Bonomelli pp.41–69、注2 Alfred de Terrebasse p.40、注3 Walker pp.205 ff./Bazzoni/Bertolotti 1878及注5 Wittkower 1955 p.184均仅记原书引文定位，未独立查阅。注4是Haskell的例示，并非独立的Galileo事件证据。
 
 受控脚本`chp2_p40_footnote_link_reconciliation.py`默认dry-run，锁定statement、mention、coverage、candidate、规范OCR和PDF哈希，逐项核验注号、既有note statement回链、候选类型及Walker人物跨度；apply前在`%TEMP%\pnp-chp2-p40-footnotes-1e0oj_x0`保存三表恢复副本。写前statement/mentions/coverage SHA-256分别为`d322e3b1be951ec0c6e8ca44cae4e9c0ae5ff5bf68a5da944895c0ec432e5448`、`68fd3fd001a75f775121c62611aac6ca0871218d30968a63881164e955b4378d`、`44487e05a6e3c4e7c594861bb3b202dd8e417de8ce8c5424de2feeaf7fe20566`；写后为`2b087680602ca31f2cc4b4d8f38a90b7093eecc48a7436a50b2ca87dcd4c007c`、`f9a9d453a6fe4b40d4e7acc75a210b0dd5aa3bea035f6874c037f53c2a666422`、`84f8497a7ce0100f4785acd8bf8ed88bb4c69fe5254cd89d172577b0400eb6c1`。改动为8条既有statement的qualifiers、1条Walker人物mention及正文coverage说明；statement数、candidate数和coverage状态未变，mentions净增1，S2关系候选净增2。全库关系候选现为2,327条，其中2,321条端点齐全、6条保持开放；正式relations仍为1,227条（1,225 formal）。`python -X utf8 scripts/audit_tables.py --strict-stage`通过：`s2_missing=[]`、`errors=[]`，832段中678 complete、154有理由排除，0 queued、0 partial；全库26,852 mentions、12,254 statements。既存警告`enr-06678`、`enr-06937`及语义质量需结合过程记录判断仍在。全书S2脚注状态/回链总审和总交接核对未完成。
+
+## 第七章印刷页188–193脚注回链复核及第九章p.270注7复查（2026-10-08）
+
+依据本轮已核读的`CHP-7.pdf`物理页26、27、31及对应S0注释段复核。p.188正文注1、2分别指向L368、369；p.189印本注1、2同在OCR L370，注3为L371、注4为L372、印本注5（OCR行首误识为6）为L373、注6为L374。注3标在Maratta整句末，故同时连接`st-chp7-p189-i12`与其后半句`i13`；注4标在Cignani复合句末，连接`i15`和`i16`。p.193注1落在Vecchia赞助与伪作的复合句末，故同时连接两条body statements；注3连接Wittelsbach句。引文页或来源均未独立查阅，家族身份、具体画作及作者评价仍按原限定保留。
+
+受控脚本`chp7_p188_193_footnote_reconciliation.py`默认dry-run，锁定当前statement表、两份S0分节和`CHP-7.pdf`，校验源行、note IDs及页码；apply前保存statement表恢复副本。写入19条既有statement的qualifiers：13条正文statement完成标准化脚注字段并清除12个旧`footnote_pending=true`标记；另将p.189正文后半句`i13`纳入注3链接。5条p.189注4 statements与p.193注1均补齐对应正文锚点。表行数、候选、提及、coverage、formal relations均未增加；`book-statements.jsonl` SHA-256由`2b087680602ca31f2cc4b4d8f38a90b7093eecc48a7436a50b2ca87dcd4c007c`变为`e9955b1ea223f74e52b9ad26e80117083a38d205f057772b4d16884587a9a433`。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`；旧的两条enrichment source_ref警告仍在。
+
+按书序复查第九章印刷p.270注7：`CHP-9.pdf`物理页36确认印本标号接在Gesuati公共资助句后，但注文实述Dominicans在1725年于Zattere修院拆建并仿Redentore建堂，另引Zanetti 1743年募捐报告。当前正文和注释的五条`footnote_body_link_status=mismatched`记录准确保留了这一页内锚点/内容错位；既有过程记录对该错位的解释仍成立，不据它支持Gesuati资助，不改statement或coverage（no_delta）。该注不作为迁移遗漏。下一书序待核的旧脚注状态转到第十章p.306。
+
+## 第十章印刷p.306注1范围复核（2026-10-08）
+
+对照`CHP-10.pdf`物理页35和`10_CHP-10_intro.md` L437、L441：印本注1标号紧随“Smith retained the original drawings most of which were by Visentini”句末；S0把注释内容“Blunt and Croft-Murray, pp.67 ff.”挤入L441的Breval段，页图确认OCR `if` 应读作 `ff.`。既有note statement `st-chp10-p306-note1-blunt-citation`明确以`body_statement_id`映射到Visentini绘稿陈述，因此将正文注1结构化链接补到该statement。前置的“广泛购入旧大师”“形成绘画收藏”“可能购入Ricci工作室内容”三条statement因整段共用同一原文引句而错误继承注1和`footnote_text_pending=true`；印本标号不在这些独立判断之后，遂移除其误挂marker与待处理字段，并在限定语中说明其作者推测层次。原有p.302–303跨段参照保留。
+
+受控脚本`chp10_p306_footnote_scope_reconciliation.py`默认dry-run，锁定statement表、来源分节及PDF，验证印本锚点与note1既有`body_statement_id`后写回；应用前保存表级恢复副本。4条既有statement的qualifiers更新，未增删表行、候选、提及、coverage或关系；`book-statements.jsonl` SHA-256由`e9955b1ea223f74e52b9ad26e80117083a38d205f057772b4d16884587a9a433`变为`c4b092798124df74374b88179f195765e49ea7ca313050e72d891b1e55029758`。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。Blunt与Croft-Murray所引页未独立查阅。下一待核旧脚注状态为第十三章p.332。
+
+## 第十三章印刷页332–338脚注标号与回链复核（2026-10-08）
+
+复核`CHP-13.pdf`物理页1–3、6–7及对应注释L180–191、L207、L209。p.332注1–5分别映射到Brown总览、Berengo引述、Goethe书店评论、版权政策及Marin反向评价、Marieschi引文；注1对应跨statement的同一句，注4的三条引文与Marin评论共同归在版权政策句。p.333注1映射Barbarigo/Gozzi引文。p.334注2–6分别映射Albrizzi生平、Vienna教育、Almoro学会、周刊及Bossuet论述；印本注5与正文标号均为5，S0 L190的OCR注6订正早已保存在note statement并予保留。p.337注5只映射《Officium》插图陈述；Caime另句无注号。p.338注1映射Goldoni提出的扉页方案，不映射其后列举传记插图的句子。
+
+受控脚本`chp13_p332_338_footnote_reconciliation.py`默认dry-run，锁定statement表、S0分节和PDF，核验页面、注释行与既有note-to-body链接；apply前保存表级恢复副本。12条有效脚注正文statement完成脚注字段和note IDs回链；清除p.332版权效果句、p.337 Caime句、p.338插图举例句共3条从复合原文引句误继承的marker及待处理状态。没有增删statement、mention、candidate、coverage或relation记录；`book-statements.jsonl` SHA-256由`c4b092798124df74374b88179f195765e49ea7ca313050e72d891b1e55029758`变为`48d1f209cd56b394f028d5ab81125e94bceb7881999952604d4cb3bdda30b9a0`。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。目前旧脚注待处理标记只剩第十六章p.376一条；第九章p.270五条mismatched仍是已解释的印本文字错位，不作强制回链。
+
+
+## 第十六章印刷p.376注3续页闭合与全库脚注链接复核（2026-10-08）
+
+对照`CHP-16.pdf`物理页4–5及S0规范转录：正文标号3位于p.376 L46；脚注注3从L84起，续文排在p.377的L60–64，p.377页底编号脚注1–5属于另一组。受控脚本`chp16_p376_note3_continuation_reconciliation.py`哈希锁定statement表、S0与PDF，dry-run后apply。将既有注3 note statement记录为跨页续注，原始注段仍定位L84，续段定位`chp-16:16_CHP-16_intro:l48-64`的L60–64；正文pending状态转为resolved并回链到note statement。续文的语义内容已由8条现有statement承载，不新增行；Haskell引用的信件、档案和1937年材料未独立查阅。恢复副本保存在`%TEMP%\pnp-chp16-p376-note3-tnrvwzr4`。
+
+随后对全库note/body statement引用作存在性扫描，发现第八章p.239注1的3条note statement仍指向已不存在的旧ID `st-chp8-p239-returned-to-florence-and-housed-at-pratolino`。该链接原指p.238 L333–334关于Crespi在佛罗伦萨停留数月的statement；按现行ID `st-chp8-p238-returned-to-florence-and-housed-at-pratolino`修复三条反向链接。受控脚本`chp8_p239_note1_stale_body_link_reconciliation.py`哈希锁定statement表、S0与PDF，dry-run后apply；未增删记录。恢复副本保存在`%TEMP%\pnp-chp8-p239-note1-link-7be8qw4p`。
+
+全库复扫：`footnote_pending=true`及`footnote_text_pending=true`均为0；statement引用不存在目标为0。保留两类有纸本依据的异常：第九章p.270注7的5条`mismatched`反映印本锚点与注文错位；第十四章p.359注4在正文L127–137无标号，且纸本注4与注3重复，`orphan_unresolved`及既有异常说明保留。p.360注4是另一条注释，正文标号链接至Leslie引文，不与p.359重复注混并。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`；KU、候选、mention、statement及覆盖计数未变。全书S2总交接审计仍未完成。
+
+
+## 第四章p.94 Salerno引文目标ID修复（2026-10-08）
+
+对`book-statements.jsonl`内所有嵌套`st-*`引用递归扫描后，发现第4章p.94注2 statement `st-chp4-intro-notes-02-salerno-citation`的`citation_body_statement_id`仍指向不存在的旧ID `st-chp4-sec-i-l3-4-collection`。对照S0注释L12、正文L3及当前statement，目标应为`st-chp4-sec-i-l3-4-collection-ranking`（Giustiniani收藏判断，正文标记2）。受控脚本`chp4_intro_salerno_citation_link_reconciliation.py`锁定statement表、两份S0转录及PDF哈希，dry-run后只更新这一处引用；恢复副本位于`%TEMP%\pnp-chp4-salerno-citation-link-aa2v_bmv`。
+
+更新后全表递归扫描未发现悬空的statement ID；脚注pending标记仍为0。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`，S2覆盖及实体表计数未变。p.270错位注7和p.359重复且无正文标号注4保留原说明；S2总交接审计仍未完成。
