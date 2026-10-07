@@ -6404,3 +6404,17 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 页图校正两处派生候选：印本M#214 `Modelli`定位为255n，原S0 OCR和M.csv候选读作222n；cand-1674页码从222n校为255n。印本在Mola项下为`payments, 13n`，S0 OCR近似作`payments, izn`，M.csv#218及cand-1678却记录`Five Elements, 12n`；候选子项与定位校为`payments`、`13n`，按p.13一般付款说明留作Mola的人物语境。只改派生候选，不改S0或S1原始M.csv。正文分别支持p.9 Mola创作`Four Elements`，p.154 Mei两件顶棚寓意画，p.220–221 Melanconici作品及教堂委托，p.330和附录6 p.394–395的Memmo手稿笔记，p.364–368的Memmo政治抱负、Prà规划和Lodoli著作，p.382 Correr收藏的Antonello作品，p.81–83 Molinos著作；通用索引导航不产生mentions、book statements或formal relations。
 
 受控脚本`chp22_index_p461_l2049_2103_migration.py`锁定S0段、印本PDF、M.csv、taxonomy、相关正文来源、manifest及候选/coverage/mentions/statements前态；dry-run核对50条映射、48个新分类、1个待决和两项页图校正后通过，再应用并为候选表与coverage保留恢复副本。审计`errors=[]`、`s2_missing=[]`；全库11,436候选、26,829 mentions、12,102 statements，832段中652 complete、141有理由排除、39 queued、0 partial；开放未分类索引候选1,203。下一段为p.461右栏`chp-22:22_CHP-22Index:l2105-2158`。
+
+
+## 索引p.461右栏（S0 L2105–2158）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页19确认本段为印刷p.461右栏；L2105 `X 461`是页码OCR噪声，右栏词条从L2106开始，至`Neapolitan painting, diffusion of`。M.csv#224–261共38条，其中#226 `Monsù Desiderio’ see under Nomé, François`沿用既有excluded别名cand-2919；其余37条新增类型：person—#224 Monari、#225 Monconys、#227 Monnot、#228 Jennifer Montagu、#229 Lady Mary Wortley Montagu、#230 Montaigne、#232 Cardinal Francesco del Monte、#233 Federigo da Montefeltre、#234 Count of Monterey、#235 Monterey（“employment of Ribera”是主词条的语境子项）、#237 Montesquieu、#238 Monteverdi、#239 Francesco Monti、#240 Montorsoli、#241 Morandi、#242 Morelli、#243 Morice、#244 Morlaiter、#245 Moroni、#246 Francesco Morosini、#248 Roger Morris、#249 Pietro Moscheni、#250 Abate G. A. Moschini、#252 Pierre Motteux、#253 Jean-Baptiste Van Mour、#254 Pietro Mulier、#257 Francesco de Mura、#258 L. A. Muratori、#260 John Murray、#261 Girolamo Muziano；place—#231 Montanari palace（Vicenza）、#251 Moscow（威尼斯绘画地点语境）、#255 Munich（17世纪赞助语境）、#256 Nymphenburg palace；event—#236 Monterey向Ludovisi家族购买Aldobrandini提香作品；family—#247 Morosini family；archive—#259 Muratori的`Della pubblica felicità, oggetto de' buoni principi`。
+
+对照页图校正派生候选：cand-1693/M#234的页码从M.csv所列126校为印本136（S0与页图均为136）；cand-1717/M#258的274校为271n（S0与页图均为271n）。不改S0和M.csv。M#249印本及M.csv均读作Moscheni，S0 OCR的Moschetti保留为转录差异；正文p.321亦写Moscheni。子项“employment of Ribera”不单独升为人物关系或事件；正文p.172已有statement `st-chp7-p172-cont-i10`记载Monterey雇用Ribera，购买行为由正文`st-chp7-p171-i17`记录；p.193、p.297和p.318对应地点及Muratori著作的正文陈述亦已在既有S2段落登记。索引映射不重复创建mentions、book statements或relations。
+
+受控脚本`chp22_index_p461_l2105_2158_migration.py`锁定S0段、印本PDF、M.csv、taxonomy、相关正文来源、manifest及候选/coverage/mentions/statements前态；dry-run核对38条映射、37个新分类、1个既有排除项和两处页码校正后通过，再应用并保留候选表与coverage恢复副本。审计`errors=[]`、`s2_missing=[]`；全库11,436候选、26,829 mentions、12,102 statements，832段中653 complete、141有理由排除、38 queued、0 partial；开放未分类索引候选1,166。下一段为p.462页标`chp-22:22_CHP-22Index:l2160-2160`。
+
+
+## 索引p.462页标（S0 L2160）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页20确认印刷页码p.462；S0 L2160 `[Page 462]`是生成页标，不是索引词条或原书陈述。将单行段标记为excluded/complete，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p462_marker_l2160_exclusion.py`锁定来源行、印本PDF、manifest及S2表前态；dry-run与apply通过，并备份coverage。当前832段中653 reviewed/complete、142有理由排除、37 queued、0 partial。下一段为p.462左栏`chp-22:22_CHP-22Index:l2162-2215`。

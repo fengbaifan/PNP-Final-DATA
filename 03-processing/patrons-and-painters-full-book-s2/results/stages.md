@@ -1440,3 +1440,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.461左栏`chp-22:22_CHP-22Index:l2049-2103`：M.csv#174–223共50条，新增48个类型（32 person、8 work、3 archive、2 event、1 place、1 family、1 term），保留cand-1682/M#222既有person；cand-1646/M#186私人绘画收藏类型待决。印本将cand-1674/M#214 Modelli页码从222n校为255n；将cand-1678/M#218由错误的Five Elements, 12n校为印本“payments, 13n”，并按一般付款语境归person。M#189是附录所载Memmo档案笔记，M#190是Prà della Valle设计，M#191是刊行Apologhi事件。索引未新增mentions、book statements或relations。当前832段中652 complete、141有理由排除、39 queued、0 partial；开放未分类索引候选1,203。下一段为p.461右栏`chp-22:22_CHP-22Index:l2105-2158`。
+
+
+完成p.461右栏`chp-22:22_CHP-22Index:l2105-2158`：M.csv#224–261共38条，37个新分类（30 person、4 place、1 event、1 family、1 archive），保留cand-2919/M#226既有excluded别名。按印本校正cand-1693/M#234页码126→136、cand-1717/M#258页码274→271n；确认cand-1708/M#249拼写Moscheni与印本及正文一致，保留S0 OCR异体Moschetti。正文的购买事件与Ribera雇用陈述已在先前段登记，本段未重复创建mentions、book statements或relations。当前832段中653 complete、141有理由排除、38 queued、0 partial；开放未分类索引候选1,166。下一段为p.462页标`chp-22:22_CHP-22Index:l2160-2160`。
+
+
+完成p.462页标`chp-22:22_CHP-22Index:l2160-2160`：对照CHP-22Index.pdf物理页20确认印刷p.462，将S0生成页标排除/complete；未改候选、mentions、book statements或relations。当前832段中653 reviewed/complete、142有理由排除、37 queued、0 partial。下一段为p.462左栏`chp-22:22_CHP-22Index:l2162-2215`。
