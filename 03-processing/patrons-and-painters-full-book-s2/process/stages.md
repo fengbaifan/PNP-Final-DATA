@@ -6812,3 +6812,11 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 第十章注释段`chp-10:10_CHP-10_intro:l491-634`已reviewed/complete，覆盖p.279注1–3及p.280注1–8。受控脚本`chp10_p279_280_note_status_reconciliation.py`据具体注释行和现有正文回链校正11条statement中过时的“pending”限定语；只改`qualifiers.qualification`。引用型脚注仍标明被引文献未独立查阅；对已有注释statement的注5、注7保留相应回链，不为纯书目指针虚构注释statement。写前表哈希为`73c90931…`，脚本默认dry-run并在apply前保存恢复副本`%TEMP%\pnp-chp10-p279-280-note-status-bfdijlln\book-statements.jsonl`。
 
 两项脚本均锁定来源、PDF、段哈希和预期行状态。最终statement表SHA-256为`6ed25bcafce8c554aa5c16ac6d1074ff3e7acb5a0de358e8962ec02d027c6a73`；逐行变更限于注4的回链字段及上述11条限定语，候选、mentions、statement数量和关系端点均未改变。全书开放关系候选仍为6条（第7章1、第8章3、第14章1、第20章1）；本次不写入S6正式关系。下一步继续全书脚注状态/回链核查，并按书序复核第十四章唯一开放端点，再完成S2总交接审计。
+
+## 全书S2脚注状态复核：第十章p.300–311（2026-10-08）
+
+对照`04-knowledge/tables/s2-coverage.csv`、已关联的注释statement、CHP-10.pdf物理页29–30及37–40复核脚注状态。p.300–301注释段L491–634、p.308–310同一注释段和p.311注释段L274–349均为reviewed/complete；对应正文页段已逐页完成，现有页覆盖记录确认各页脚注链接。p.300注3中的“Chapter 13 is not yet read”已过时：第十三章现已完成S2阅读，但此处所引Gherardi–Muratori书信未独立查阅，仍是一般性、未定日期的定位。
+
+受控脚本`chp10_p300_311_note_status_reconciliation.py`锁定陈述表、两份正文、PDF、8个段哈希和段覆盖状态，默认dry-run。写回30条`qualifiers.qualification`及1条注释回链：将p.300–301、p.308–310、p.311中已转录脚注仍称pending/review的限定语，改成注释实际所载的书目/档案定位与未独立查阅状态；移除p.308、p.309和p.311无对应脚注标记的泛化待处理用语。另将p.300注2回链到p.301 Goldoni《Il Filosofo Inglese》续句。保留p.310 note 4仅支持旅行计划引文、不链接到辞任断言的既有裁决；不将内部交叉引用或未查档案写成独立证据。写前表哈希为`6ed25bcafce8c554aa5c16ac6d1074ff3e7acb5a0de358e8962ec02d027c6a73`，恢复副本在`%TEMP%\pnp-chp10-p300-311-note-status-muue4gsj\book-statements.jsonl`。
+
+写后逐行核对确认31行变化仅为30条`qualification`与1条`related_body_statement_ids`；候选、mentions、statement数量、关系端点及脚注标记不变。上述页中仅两条明确标为S3待核的限定仍含pending（p.310藏品组归属；p.311科孚战事与既有围城候选的身份区分），不得当作脚注工作未完成。当前表SHA-256为`f220ee8801cd609920573b17ef88133c4fd35d723b3d3bf53fd590b266507578`。严格阶段审计`s2_missing=[]`、`errors=[]`；既有enrichment来源引用警告`enr-06678`、`enr-06937`不变。全书6条开放关系端点及覆盖数未改变；无S6正式关系写入。下一步继续跨章节脚注状态及回链总审，并复核第十四章唯一开放关系候选。
