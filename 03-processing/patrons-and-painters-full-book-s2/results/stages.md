@@ -1508,3 +1508,12 @@ p.446索引种子差异已核实并回补：印本有Bentveugels、Bergamo主词
 复核p.206–211、p.229–232及p.238。对Van Dyck两幅画、Roomer寻找的两类画作、Roomer两位商业伙伴、Ruffo偏爱的三位画家、三幅Rembrandt画、两位争取公共委托的画家、del Rosso三兄弟居住关系、Ferdinand的教育者/作者支持/购藏作品、Franceschini作品、两位未具名画家指令、Andrea的死亡地点/邮政职务及Nicola与两名儿子的父子关系，均拆为单一可识别端点；相应p.207、p.209、p.211、p.229、p.230及p.231脚注/续文回链同步更新。p.238注3和注5改为作品→Uffizi。
 
 一般审美、收藏状态、职衔与死亡年代、无具体出版物的资助、未具名威尼斯画作意向改作来源断言而不列关系候选。3个开放项保留理由：Ferdinand三位未具名女儿的遗赠对象、del Rosso家族联姻的对方家族、p.238注4“These pictures”的先行词范围。无新增候选或mention，无S6正式关系。全库当前11,443候选、26,829 mentions、12,149 statements；2,279条关系候选中2,195条端点齐全、84条仍有至少一端缺失，按章分布和证据见[过程记录](../process/stages.md)。严格阶段审计`errors=[]`、`s2_missing=[]`；下一步复核第九章19条开放端点。
+
+
+## 第九章全书S2交接审计：关系候选端点（2026-10-08）
+
+复核p.254–274的19条初始缺端点关系候选，拆分Marco Foscarini教育、旅行、任职和官职，Sagredo家族采购、库存、继承人处分、艺术家接触，以及两种Tiepolo天顶方案；脚注回链分别落到具体断言。修正“Gonzaga effects”的对象为未识别财产，保留Ferdinando Carlo/未具名随从成员两项暂定来源假说与“部分”素描关联；区分Piazzetta画作及Pennsylvania Museum的modello。对未具名讲道者、择案程序、贵族群体和崇拜概念分别登记；模糊代词不推定具体成员。
+
+p.254四家族apotheosis仅对Grassi沿用可识别作品候选；其他三家只映射至来源已有的聚合作品组并注明不能拆分作品或归属。注2的Fabio Canal为二手attribution，注3（OCR脚注段L365）为引用定位，已核实其存在并链接到Giustiniani断言，没有把它当作缺失脚注或独立证据。p.263–264区分1743 inventory、Longhi 1762 inventory和Udney 1762 picture list，修正Longhi库存的Correr保存地点；Joseph Smith与John Udney分列，后者不据清单断定成交。Carracci、Crespi和《Angelo Custode》分为不同采购/委托断言。宽泛语境断言和复合父项不作为单一关系端点。
+
+受控写回新增9个候选、8条提及、25条statement，重映射4条提及；纠正2个既有候选类型。全库11,452候选、26,837 mentions、12,174 statements；2,298条关系候选中2,233条双端齐全、65条仍缺端点（57条缺一端、8条缺两端）。本章372条关系候选均有双端；其余未闭合项在第7、8、10、13、14、16、17、18、19、20章。严格阶段审计`errors=[]`、`s2_missing=[]`，关系与脚注语义尚未作为全书S2完成验收；下一步按书序复核第十章27条开放项。

@@ -20107,7 +20107,7 @@ m-chp9-p263264-zaccaria-manuscript,chp-9:09_CHP-9_intro:l231-238,cand-2329,Zacca
 m-chp9-p263264-gherardo-death,chp-9:09_CHP-9_intro:l240-249,cand-2336,his death,21,30,"Context resolves the pronoun to Gherardo, who survived Zaccaria; manuscript and inventory evidence remain separate."
 m-chp9-p263264-walpole,chp-9:09_CHP-9_intro:l240-249,cand-2798,Horace Walpole,138,152,Traveler named as hearing of a proposed sale.
 m-chp9-p263264-algarotti,chp-9:09_CHP-9_intro:l240-249,cand-0041,Francesco Algarotti,233,252,Named as also hearing of the proposed sale.
-m-chp9-p263264-sagredo-heirs,chp-9:09_CHP-9_intro:l240-249,cand-8571,Sagredo’s heirs,348,363,OCR apostrophe form; heirs are described collectively.
+m-chp9-p263264-sagredo-heirs,chp-9:09_CHP-9_intro:l240-249,cand-11466,Sagredo’s heirs,348,363,"Unnamed heirs are a distinct legal successor group, not the entire Sagredo family."
 m-chp9-p263264-joseph-first,chp-9:09_CHP-9_intro:l240-249,cand-2468,Joseph,521,527,First half of line-broken Joseph Smith name; linked to index sub-entry for Sagredo purchases.
 m-chp9-p263264-joseph-smith,chp-9:09_CHP-9_intro:l240-249,cand-2468,Smith,528,533,Second half of line-broken Joseph Smith name.
 m-chp9-p263264-john-udney,chp-9:09_CHP-9_intro:l240-249,cand-2668,John Udney,555,565,Haskell describes him as Smith's successor and one of the buyers.
@@ -20287,7 +20287,7 @@ m-chp9-p267-padua,chp-9:09_CHP-9_intro:l313-321,cand-1803,Padua,946,951,Place of
 m-chp9-p267-pictures-900,chp-9:09_CHP-9_intro:l313-321,cand-8631,over 900 pictures from the ducal collections,1019,1063,Haskell reports the number and transfer; the sending agent and individual paintings are unknown.
 m-chp9-p267-lorraine,chp-9:09_CHP-9_intro:l313-321,cand-1441,"Duke of
 Lorraine",1150,1166,Title is split at the OCR line break; use the title-only index candidate and defer personal identity.
-m-chp9-p267-gonzaga,chp-9:09_CHP-9_intro:l313-321,cand-6669,Gonzaga effects,1220,1235,"The phrase refers to estate/property claimed by the Duke of Lorraine, not a claim about a family relationship."
+m-chp9-p267-gonzaga,chp-9:09_CHP-9_intro:l313-321,cand-11467,Gonzaga effects,1220,1235,"Here 'Gonzaga effects' means property or an estate, not the Gonzaga family."
 m-chp9-p267-mantua-market,chp-9:09_CHP-9_intro:l313-321,cand-6672,Mantua,1286,1292,Source says many pictures from Mantua reached the Venetian market.
 m-chp9-p267-venice-market,chp-9:09_CHP-9_intro:l313-321,cand-2719,Venetian market,1310,1325,Place reference is Venice; 'market' is not a separately named institution.
 m-chp9-p267-carriera,chp-9:09_CHP-9_intro:l313-321,cand-0581,Rosalba Carriera,1327,1343,Use the indexed artist candidate.
@@ -20566,7 +20566,7 @@ m-chp9-p263264-correr-udney,chp-9:09_CHP-9_intro:l323-445,cand-8262,Biblioteca C
 m-chp9-p263264-udney-list,chp-9:09_CHP-9_intro:l323-445,cand-8599,list of pictures dated 1762,13887,13914,Archive list as cited; a list does not itself establish purchase.
 m-chp9-p263264-udney,chp-9:09_CHP-9_intro:l323-445,cand-2668,Zuane Udni,13934,13944,OCR form; index name John Udney; spelling difference is retained for S3.
 m-chp9-p263264-brunetti-source,chp-9:09_CHP-9_intro:l323-445,cand-8600,"M. Brunetti, 1951, pp. 158-60",13971,14000,Citation locator; publication not independently consulted.
-m-chp9-p263264-longhi-inventory-source,chp-9:09_CHP-9_intro:l323-445,cand-1429,Longhi inventory,14006,14022,Inventory attributed to Pietro Longhi; source identity handled separately from the artist.
+m-chp9-p263264-longhi-inventory-source,chp-9:09_CHP-9_intro:l323-445,cand-11465,Longhi inventory,14006,14022,The note's phrase names the archive record; Pietro Longhi as maker is separately mentioned in the body.
 m-chp9-p263264-correr-longhi,chp-9:09_CHP-9_intro:l323-445,cand-8262,Biblioteca Correr,14121,14138,Repository for the surviving Longhi inventory.
 m-chp9-p263264-baldinucci-source,chp-9:09_CHP-9_intro:l323-445,cand-8601,"Baldinucci, VI, 1728, p. 421",14160,14188,Citation locator; cited page not independently consulted.
 m-chp9-p265n1-levey,chp-9:09_CHP-9_intro:l323-445,cand-8657,Levey,14455,14460,Author is given by surname only; identity remains open for bibliography review and S3.
@@ -21141,7 +21141,7 @@ m-chp9-p274-judith,chp-9:09_CHP-9_sec_ii:l70-78,cand-8758,Judith,195,201,Biblica
 m-chp9-p274-mother_maccabees,chp-9:09_CHP-9_sec_ii:l70-78,cand-8759,the Mother of the Maccabees,206,233,Unnamed biblical figure in the proposed typology.
 m-chp9-p274-tiepolo,chp-9:09_CHP-9_sec_ii:l70-78,cand-2575,Tiepolo,240,247,Comparison artist in the proposal discussion.
 m-chp9-p274-zompini,chp-9:09_CHP-9_sec_ii:l70-78,cand-2874,Zompini,249,256,Artist whose proposal is being described.
-m-chp9-p274-jesuit,chp-9:09_CHP-9_sec_ii:l70-78,cand-3403,a Jesuit,429,437,The preacher is unnamed; this mention identifies only his religious order.
+m-chp9-p274-jesuit,chp-9:09_CHP-9_sec_ii:l70-78,cand-11470,a Jesuit,429,437,"Unnamed individual preacher, identified by membership in the Jesuit order; do not map this person to the order itself."
 m-chp9-p274-panegyric,chp-9:09_CHP-9_sec_ii:l70-78,cand-8760,a fine panegyric of the Blessed Virgin,452,490,Unnamed sermon reported in the cited 1743 source.
 m-chp9-p274-blessed_virgin,chp-9:09_CHP-9_sec_ii:l70-78,cand-3427,the Blessed Virgin,472,490,Mary as the subject of the reported sermon.
 m-chp9-p274-esther_sermon,chp-9:09_CHP-9_sec_ii:l70-78,cand-8757,Esther,521,527,Second occurrence: the sermon reportedly compared the Virgin to Esther.
@@ -27482,3 +27482,11 @@ m-chp21-bib-l1301-1306-005,chp-21:21_CHP-21Bibliography:l1301-1306,cand-11333,"~
 m-chp21-bib-l1301-1306-006,chp-21:21_CHP-21Bibliography:l1301-1306,cand-11347,"3 vols., Londres 1764.",371,393,Exact displaced S0 bibliography OCR span linked to an existing bibliography statement; not an independently consulted publication.
 m-chp21-bib-l1301-1306-007,chp-21:21_CHP-21Bibliography:l1301-1306,cand-7696,"109 vols., Venezia 1840-79.",394,421,Exact displaced S0 bibliography OCR span linked to an existing bibliography statement; not an independently consulted publication.
 m-chp20-p396-039,chp-20:20_CHP-20Postscript:l3-12,cand-11464,the first edition of this book,1273,1303,Edition-level reference in Haskell's retrospective account. The current source is the revised and enlarged 1980 edition; p.396 supplies no first-edition date or imprint.
+m-chp9-p266-sagredo-heirs-group,chp-9:09_CHP-9_intro:l303-311,cand-11466,Zaccaria’s heirs,1462,1478,"Unnamed heirs of Zaccaria Sagredo, distinct from the Sagredo family and from Zaccaria himself."
+m-chp9-p263264-inventory-1743,chp-9:09_CHP-9_intro:l240-249,cand-8618,draw up inventories,749,768,The inventory record set dated 1743; keep distinct from the 1738 inventory and the 1762 Udney picture list.
+m-chp9-p265-dedication-print-reference,chp-9:09_CHP-9_intro:l291-301,cand-8639,this was dedicated,941,959,"Anaphoric dedication reference resolved by note 3 to print 428 in Raccolta Gherro, vol. 3."
+m-chp9-p267-entourage-member,chp-9:09_CHP-9_intro:l313-321,cand-11468,someone in his immediate entourage,1703,1737,One unnamed alternative possible owner in Haskell's tentative provenance hypothesis.
+m-chp9-p267-castiglione-pictures,chp-9:09_CHP-9_intro:l313-321,cand-11469,pictures that Castiglione painted at Mantua,1866,1909,Unidentified paintings to which only some of the Sagredo drawings are said to relate.
+m-chp9-p274-plan-selection-procedure,chp-9:09_CHP-9_sec_ii:l70-78,cand-11471,plans from the most highly thought of painters with suitable ideas and choose the best,918,1004,Source wording for the Pietà plan-selection procedure; retain Haskell's 'seems' qualification.
+m-chp9-p274-sbasile-noble-group,chp-9:09_CHP-9_sec_ii:l70-78,cand-11472,a group of nobles,2725,2742,Source-defined unnamed collective; the individual's pronoun antecedent remains ambiguous.
+m-chp9-p274-aconato-cult,chp-9:09_CHP-9_sec_ii:l70-78,cand-11473,the cult of Beato Pietro Aconato,2766,2798,"Cult as a concept, distinct from Beato Pietro Aconato as a person."

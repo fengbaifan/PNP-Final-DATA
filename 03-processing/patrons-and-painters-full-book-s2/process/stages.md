@@ -6713,3 +6713,11 @@ p.229 Ferdinand受Viviani、Lorenzini、Redi教育拆为三条候选；“婚姻
 p.238注3与注5分别校正为《The Painter’s Family》/《The Fair at Poggio a Caiano》→Uffizi `cand-7945`，修复作品与保管地点的端点方向。注4的地点候选Pisa Cabinet `cand-8048`已在，但“These pictures”的先行词可能涵盖两幅genre scene或连同前一幅讽刺画，且“are—or were in 1941”保留时间不确定；不把地点误作主语，也不任选作品补齐。第八章最终保留3条有理由的开放端点：p.207三位未具名女儿的分配对象、p.211未具名联姻家族、p.238注4未定范围的作品组。p.209一般审美/定价、p.210收藏分散、p.211死亡年代/职衔及p.231未具名威尼斯画作意向均保留为`relation_candidate=false`的来源断言，不以空关系冒充实体边。
 
 全库现有11,443个候选、26,829条提及和12,149条statement；2,279条关系候选中2,195条两端齐全、61条仅有主语、13条仅有宾语、10条两端均空，共84条缺至少一个端点。当前剩余缺端点按章为第7章1、第8章3、第9章19、第10章27、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`；两条既存enrichment source_ref警告仍在。下一步按书序复核第九章19条缺端点候选；机械审计不替代语义判断。
+
+## 全书S2交接审计续：第九章关系候选与脚注回链（2026-10-08）
+
+逐条对照第九章p.254–274正文、脚注、来源候选与既有statement，处理19条原缺端点关系候选。p.254四家族的apotheosis拆分为家族—作品组陈述：Grassi沿用具体Tiepolo作品候选；Widmann、Giustiniani、Soderini只指向正文已有的聚合作品组，不凭注释或共现拆出独立作品/画家；注2的Fabio Canal归属标为二手转引，注3是Brunelli/Callegari的书目定位，页边源句在注3所在OCR段L365，已保留而未将其误作遗漏或归属证据。p.258将Marco Foscarini的教育、三处旅行、两地大使任职及两个官职拆开；p.259把前任所有者、七幅Tintoretto画、其他威尼斯画作和宫殿语境分清，脚注4只作遗嘱/清单定位。
+
+p.263–265将Carracci素描、Crespi委托画、Piazzetta《Angelo Custode》分为三笔交易；1743年Tiepolo/Piazzetta库存与Longhi 1762年库存分开，并将后者保存地点更正为Biblioteca Correr；Joseph Smith与John Udney分别记录，Udney清单不推断已完成交易；Zucchi献辞按注3解析为Raccolta Gherro第3卷第428号版画。p.266保留Sagredo与Tiepolo、Piazzetta、Canaletto、Longhi接触的“可能”语气，并把未具名继承人从Sagredo家族候选中分开。p.267将“Gonzaga effects”映射为未识别财产/遗产；绘画来源只保留Ferdinando Carlo与其未具名随从成员两项假说，并另记“部分”Sagredo素描与Castiglione曼图亚作品的关系。p.268–270三条泛论及四条复合汇总不冒充单一关系。p.273区分Piazzetta画作与Pennsylvania Museum所藏modello；Tiepolo两个方案分别记录，只有第二方案有被选用并略作修改的陈述。p.274登记未具名耶稣会讲道者、保留“似乎”的Pietà择案程序及S. Basilio未具名贵族群体/Beato Pietro Aconato崇拜，不把模糊代词强派给Corner或Angeli。
+
+受控脚本`chp9_relation_endpoint_audit.py`完成dry-run与apply，预检来源和段落哈希、旧候选/开放关系集合及数据前态；三表恢复副本曾保存在本机临时目录。本批新增9个候选、8条提及、25条statement，重映射4条既有提及，并修正Joseph Smith类型为person、Raccolta Gherro版画类型为work。19条原缺端点均已逐项处置；本章当前372条关系候选均有两端。全库现有11,452个候选、26,837条提及、12,174条statement；2,298条关系候选中2,233条两端齐全、57条仅有一端、8条两端均空，共65条未闭合，按章为第7章1、第8章3、第10章27、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既有enrichment source_ref警告仍在。第7–9章已完成本轮关系语义复核（第7、8章保留有理由的未决项）；下一步按书序审第十章27条开放关系候选。机械通过不等于全书S2交接或S3语义验收完成。
