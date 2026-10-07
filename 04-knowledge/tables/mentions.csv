@@ -27666,3 +27666,5 @@ m-s2-surface-79722106be652096,chp-2:02_CHP-2_sec_i:l55-69,cand-3955,Paris,2633,2
 m-s2-surface-0a08420289039349,chp-2:02_CHP-2_sec_iv:l190-245,cand-4653,Paris,997,1002,Exact city span; the heuristic matched the longer phrase “in Paris” to an unrelated Theatines candidate.
 m-s2-surface-0d95650b5b027951,chp-2:02_CHP-2_sec_iv:l190-245,cand-4653,Paris,2386,2391,Place nested in the separately recorded Petit Palais institution mention.
 m-s2-surface-92b9112b784f65c4,chp-9:09_CHP-9_intro:l323-445,cand-8302,Procuratore di S. Marco,3277,3300,Full office name mapped to its existing institution candidate; the heuristic matched only “S. Marco” to an unrelated painter candidate.
+m-s2-surface-3b3d924db61c3655,front-matter:00_05_List_of_Plates:l3-30,cand-2719,VENICE,380,386,"Part III contents heading; place label only, with no claim. Potential identity overlap with cand-3401 is deferred to S3."
+m-s2-surface-4fff3a42b2010e54,front-matter:00_05_List_of_Plates:l174-185,cand-3578,renaissance,2598,2609,Historical/artistic period in a quoted claim about Innocent XI; footnote 3 attributes the claim to an unnamed recent author.

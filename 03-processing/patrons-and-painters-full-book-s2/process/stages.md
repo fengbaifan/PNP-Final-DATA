@@ -6898,3 +6898,13 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 这12处纠正包括：把`and Marco Ricci`、`and Gaulli`、`and Caravaggio`、`and Testa`改为实际人名（Testa在该段另有一处未被提示覆盖）；把四处`in Paris`错配复核为六条巴黎城市提及，其中两条是嵌套在Salon de Paris事件和Petit Palais馆藏地点中的城市名；把`S. Marco`候选错配复核为完整职务`Procuratore di S. Marco`。Camerino只记录为Giovanni Angelo da Camerino姓名中的嵌入地名，不从中追加关系断言。未将Prince、Collection、Private Collection等泛词映射为人物或档案，也未把Urbino的Palazzo Ducale强连到索引中身份不明的同名候选。共新增159条mentions（147条直接候选跨度、12条改正/嵌套跨度）；候选、statement、coverage和关系表未改。
 
 受控脚本`chp1_21_candidate_surface_mention_reconciliation.py`哈希锁定mentions表、候选表、segments及涉及的28个S0文件，dry-run后apply；plan SHA-256为`4695bdf747a6d70c2851e01bfe970e9919b3e3c3970b24f76faaf1277fcbfdd5`。恢复副本位于`%TEMP%\pnp-s2-surface-mentions-20261008-064142\mentions.csv`；mentions表SHA-256由`f9a9d453a6fe4b40d4e7acc75a210b0dd5aa3bea035f6874c037f53c2a666422`变为`41d8c2c4a609b9e38b7176e946aa898e1071ba06a62d5fb6dcaa84cb365bfd53`。严格阶段审计通过，`s2_missing=[]`、`errors=[]`，提及总数为27,011。另4,123个未满足本批筛选条件的扫描提示未被系统审阅；其中3处子跨度经单独核实后写入，索引段提示为3,305条。全书S2语义交接审计仍未完成。
+
+## 全书候选表面复扫：书前材料提示裁决（2026-10-08）
+
+在前批159条mention写入后重跑只读定位器`audit_s2_candidate_surfaces.py`：扫描678个reviewed段和10,487个候选词形模式，产生4,156处未被现有mention覆盖的表面提示。按S0材料位置分布为：书前16；第1–10章依次64、75、40、54、69、23、40、112、99、117；第13–17章依次33、24、16、11、8；结论2、附录17、第二版后记24、书目7、索引3,305。第11、12章内容由合订来源`10_CHP-10_sec_ii.md`承载，故扫描提示归在chp-10命名空间。该数是匹配跨度，不是未审对象数或召回率；它仍包含之前已裁决但不写入的通用词提示，并受新增mention对嵌套跨度的遮盖影响。
+
+依`source-registry.md`逐段核实书前16条。该登记将`00_05_List_of_Plates.md` L1–32定为目录、L33–160为图版清单、L161–172为图片来源、L175–198为第二版导言；因此L174–185和L190–196虽在“List of Plates”文件内，实际属于第二版导言，不能按文件名误判为图版表。三处`subject`、`character`、`gardens`分别是普通名词或索引子项与语境不符；四处`Collection`和两处`Private Collection`只描述未具名馆藏，候选子项错误指向Borghese或Albrizzi，未据此推定人物或档案；`portraits`是图像类别而非作品题名；`churches`泛指罗马教堂且同时撞中63个具体索引候选；法语`fortune`是普通名词，不是Salvator Rosa作品。以上14条均保留为no-write，不改候选表。
+
+另外两条为可成立的提及：目录`PART III VENICE`的跨度380–386映射到纯地点候选`cand-2719`，只记录地理分部标签，不生成断言；它与正文来源候选`cand-3401`的潜在同一性留待S3。第二版导言L185引文中的`renaissance`（跨度2598–2609）确指历史艺术时期，映射到term候选`cand-3578`；句子将判断归于未具名的近期作者，注3定位未补成独立证据。两条均不生成关系。
+
+逐行验证来源跨度、候选类型和现有mentions后追加`m-s2-surface-3b3d924db61c3655`与`m-s2-surface-4fff3a42b2010e54`。写前mentions SHA-256为`41d8c2c4a609b9e38b7176e946aa898e1071ba06a62d5fb6dcaa84cb365bfd53`，写后为`1b2bc6054376e91560c087be94119a3283d262bd72fa6c56be96306a9235a1cd`；恢复副本在`%TEMP%\pnp-s2-frontmatter-mentions-v32uuif7\mentions.csv`。写后定向重扫书前材料仍有14处提示，均为上述no-write类型。严格阶段审计通过：1,019 KU、11,452 candidates、27,013 mentions、12,254 statements，`s2_missing=[]`、`errors=[]`；`enr-06678`和`enr-06937`两条既存source_ref警告不变。其他章节、书目和索引提示尚未完成系统语义裁决，全书S2交接仍未完成。
