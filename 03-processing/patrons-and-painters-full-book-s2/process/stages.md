@@ -6558,3 +6558,9 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 作品归属待决：S#186将`Revolt of Masaniello`列在Spadaro词头下；但第5章p.139及Plate 22b把同名作品叙述为Cerquozzi所作。可能是索引误归，也可能是不同作品；不将索引子项当作作者断言，不与正文作品候选cand-4060合并。cand-2497的detail记录该冲突供后续身份对齐。第8章p.207注1已有Pool of Bethesda与Woman taken in Adultery的跨收藏陈述；第10章p.315遗赠、p.316家族肖像及第16章p.374 Guardi任职分别已有statement候选`st-chp10-p315-streit-bequests-of-acquired-pictures`、`st-chp10-p316-streit-displayed-family-portraits`和`st-chp16-p374-strange-employs-guardi`。索引不重复新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p470_marker_left_l3068_3124_migration.py`锁定印本PDF、S0、S.csv、taxonomy、相关正文/附录、manifest及候选/coverage/mentions/statements/relations前态；dry-run通过后apply，并保存候选表与coverage恢复副本`.bak-s2-chp22-index-p470-l3068-3124-20261007`。仅更新候选类型、3处派生字段和S2 coverage；未改S0或S.csv。
+
+## 索引p.470右栏（S0 L3126–3179）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页28审读S.csv#219–225及T.csv#0–37，共45条索引记录，从Strudel的`Tarquin and Lucretia`到Tiepolo未完成的Algarotti肖像。分类33 person、4 work、3 archive、3 institution、1 place、1 term；T.csv#1原已分类为person，因此本段新增44个候选类型。Tacca词头仍是人物；Orsini委托文件由既有archive候选cand-5606及附录p.387 statement单独表示。`Gerusalemme Liberata`作为Tasso的文学文本归archive，与1745年插图本及后文提及的绘画组区分；`Zibaldone`与`Trattato di Pittura`也属archive。Theatines修会及其巴黎、罗马语境归institution，慕尼黑教堂归place；Tarso大主教的个人身份未解决。Tiepolo与Algarotti的`mutual influence`索引语境不构成关系；未完成肖像保留work候选，其身份/归属仍受后记p.409限定。
+
+按印本校正cand-2539拼写`Talbot, Bruno`→`Talbot, Buno`，并校正cand-2569索引定位`383n, 405n`→`384, 405`。候选字段采用印本拼写，T.csv原转录不改。对11条既有正文statement仅补`qualifiers.relation_candidate=true`，供S6复核端点、方向和关系类型；没有新增book statement或正式关系。S0、索引CSV、mentions及relations表均未改。受控迁移脚本`chp22_index_p470_right_l3126_3179_migration.py`先dry-run后apply，锁定来源、索引CSV、相关正文、manifest、taxonomy与表格前态；候选、coverage和statements恢复副本保留在对应表目录。审计`errors=[]`、`s2_missing=[]`；当前832段中671 complete、150有理由排除、11 queued、0 partial，开放未分类索引候选331。下一段按manifest为p.471页标`chp-22:22_CHP-22Index:l3181-3182`。
