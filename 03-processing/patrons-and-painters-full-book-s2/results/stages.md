@@ -1407,3 +1407,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.457右栏`chp-22:22_CHP-22Index:l1651-1703`：I.csv#5–10、J，K.csv#0–26、L.csv#0–8共42条索引记录，38个开放候选中36个标注23 person、3 institution、7 term、1 work、1 archive、1 family；J，K#15 Van Dyck与Rubens paintings in Johann Wilhelm’s collection及L#5 Labia collection因无collection/group类型待决，I#6–9 Innocent see-under别名排除。按页图分开左右栏；Jesuits条目按语境区分机构和term，收藏类泛称不虚构为具名作品，Juvarra装饰方案归work、La Harpe颂诗归archive。索引导航未新增mentions、book statements或relations。当前832段中645 complete、137有理由排除、50 queued、0 partial；开放未分类索引候选1,523。下一段为p.458页标`chp-22:22_CHP-22Index:l1705-1705`。
+
+
+完成页标`chp-22:22_CHP-22Index:l1705-1705`：对照CHP-22Index.pdf物理页16页图确认印刷p.458，将生成页标排除并标记complete；L1707运行页眉由后续左栏段覆盖。未改候选、mentions、book statements或relations。当前832段中645 reviewed/complete、138有理由排除、49 queued、0 partial。下一段为p.458左栏`chp-22:22_CHP-22Index:l1707-1761`。
+
+
+完成p.458左栏`chp-22:22_CHP-22Index:l1707-1761`：L.csv#9–56共48个开放候选，标注31 person、14 work、2 archive、1 term。按页图将cand-1356 L'Hoggidi页码由候选表误录311校为3n、cand-1358末项378校为328、cand-1377 Le Nain页码122校为133、cand-1384 Lely页码122n校为135n；保留原S0 OCR与L.csv。S0 OCR的L1751 Leonardo词头杂字符及L1754 `pistura`未改；分别据页图识别正常词头与印字`pittura`。区分建筑构件穹顶、具名绘画/蚀刻版画与论著；Lanfranco payment/commission及S. Paolo d'Argan用工事实不拆成无题名作品或关系。索引导航未新增mentions、book statements或relations。当前832段中646 complete、138有理由排除、48 queued、0 partial；开放未分类索引候选1,475。下一段为p.458右栏`chp-22:22_CHP-22Index:l1763-1817`。

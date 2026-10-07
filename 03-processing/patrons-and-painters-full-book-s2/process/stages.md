@@ -6325,3 +6325,15 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页15印刷p.457右栏、S0分段及I.csv#5–10、J，K.csv#0–26、L.csv#0–8；页面图划清左右栏，避免将左栏混入S0的OCR碎片重复分类。42条索引行中38个开放候选有36个新标23 person、3 institution、7 term、1 work、1 archive、1 family；J，K#15 Van Dyck与Rubens paintings in Johann Wilhelm’s collection及L#5 Labia collection因taxonomy无collection/group类型保留待决，I#6–9 Innocent see-under别名维持排除。Jesuits按语境分别标机构或关于艺术特征/与Gesuati敌意的term，不据索引导航生成关系；Johann Wilhelm条目中的赞助、趣味和未具名单件的收藏内容保留为人物语境/term，不虚构具体作品；Juvarra的马德里宫殿装饰方案为work，La Harpe的`Il Filosofo dell’Alpi`为archive。索引导航不新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p457_l1651_1703_migration.py`锁定段、原书、I/J，K/L.csv、manifest及四表前态；dry-run核对42条候选映射、36条分类、两个待决集合和四条排除别名后通过并应用，为候选表和coverage留恢复副本。当前候选11,436、mentions 26,829、statements 12,102；832段中645 complete、137有理由排除、50 queued、0 partial；开放未分类索引候选1,523。下一段为p.458页标`chp-22:22_CHP-22Index:l1705-1705`。
+
+
+## 索引p.458页标（S0 L1705）
+
+对照`CHP-22Index.pdf`物理页16，页图显示印刷p.458。S0 L1705 `[Page 458]`为生成页标，排除并标记complete；L1707运行页眉由p.458左栏段覆盖。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p458_marker_l1705_exclusion.py`锁定页标段、来源/PDF/manifest及表前态，dry-run通过后应用并为coverage保留恢复副本。当前832段中645 reviewed/complete、138有理由排除、49 queued、0 partial；下一段为p.458左栏`chp-22:22_CHP-22Index:l1707-1761`。
+
+
+## 索引p.458左栏（S0 L1707–1761）
+
+对照`CHP-22Index.pdf`物理页16印刷p.458左栏、S0分段及L.csv#9–56，共48条索引候选，均为open；右栏从L.csv#57（Letterini）开始，不重复分类。按原文指称标注31 person、14 work、2 archive、1 term：Van Laer与Legros的具名画作、Lanfranco的S. Andrea della Valle穹顶构件、Lazzarini的具名画作及被原文明确称为其绘制的Triumphal Arch、Leonardo的绘画和Leoni的蚀刻版画归work；L'Hoggidi（第一章p.3注所述1627年出版物）与Leonardo的`Trattato della pittura`（手稿/论著）归archive。`Landscapes, varying reactions to in Rome and Venice`为term。Van Laer的prices、Lanfranco的payments与无具体题名的Monterey委托、Lazzarini为S. Paolo d'Argan所作的未具名作品，以及Giacomo della Lena“on F. Guardi”等均留在人物语境；p.221注只说S. Paolo d'Argan聘用了包括Lazzarini在内的多位画家，不据此造一件作品或关系。
+
+页图逐行核对后，候选定位有四处S1 CSV转录误差：L#13由`311`校为`3n`，L#15末项由`378`校为`328`，L#34 Le Nain由`122`校为`133`，L#41 Lely由`122n`校为`135n`。只订正`entity-candidates.csv`定位字段，S0 OCR与`L.csv`原转录均保留。页图亦确认S0 L1751 Leonardo词头前的杂字符为OCR噪声、L1754印字为`pittura`（S0 OCR作`pistura`）；不改写来源。受控脚本`chp22_index_p458_l1707_1761_migration.py`锁定段、印本页图、L.csv、taxonomy、相关正文证据与四表前态；dry-run核对48条候选及四个定位修订后通过并应用，为候选表与coverage保留恢复副本。索引导航未新增mentions、book statements或relations。最终候选11,436、mentions 26,829、statements 12,102；832段中646 complete、138有理由排除、48 queued、0 partial；开放未分类索引候选1,475。下一段为p.458右栏`chp-22:22_CHP-22Index:l1763-1817`。
