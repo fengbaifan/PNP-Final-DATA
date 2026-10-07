@@ -1579,3 +1579,7 @@ p.278注1–6此前已完成源迁移，六条正文限定语及正文coverage�
 ## 第十四章p.353开放关系端点复核（2026-10-08）
 
 纸本及注1确认Brühl的悬挂花园、Mattielli喷泉被说成插入“the picture”，但注释只列出两幅委托作品及各自的馆藏，不将母题逐件配对Maecenas或Flora。开放object候选继续保留，属于原文未定；candidate_identity_questions和现有mentions一致，无表数据变化（no_delta），未写入正式关系。详见[过程记录](../process/stages.md)。
+
+## 第二章p.40脚注回链及关系候选核对（2026-10-08）
+
+印刷p.40注1–5现已链接到六条正文statement；注1对应诗歌与别墅两条。注3两项明确关系（Campanella协助Urban VIII研究；Barberini家族下令监视Campanella）标为端点完整的S2候选，Haskell关于监视与占星活动的联系仍单独保留为推论。补入D. P. Walker人物mention，原出版物citation mention保留；书目和所引页未独立查阅。严格阶段审计通过，当前2,327条关系候选中2,321条端点完整、6条仍开放；详细证据与哈希见[过程记录](../process/stages.md)。
