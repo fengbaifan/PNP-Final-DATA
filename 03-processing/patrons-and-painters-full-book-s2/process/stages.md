@@ -6581,3 +6581,13 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 页图确认四处派生定位校正：cand-2693 Vanetti `37n`→`377n`；cand-2709 Velasquez将OCR误读的122、158、385分别校为印本133、138、384；cand-2718 La Chiesa标题`252n`→`335n`；cand-2755 Veronese将`279n`改为`279`、`355`改为`356`。印本与正文交叉核实Valeriano拼写，不将OCR点号写入作品名。索引候选与正文Scala Regia、La Chiesa档案和Velasquez机构端点保持分立，供S3身份对齐；foreign patrons仍是未具名群体，索引本身不确立赞助关系。未改S0、UVWXYZ.csv、mentions或relations.csv。
 
 关系候选沿用已有正文证据：13条既有book statement补`relation_candidate=true`；将p.126 Velasquez两个成员机构拆为端点明确的独立statement，并将p.196 Verrio服务对象拆为Louis XIV与William III两个端点，新增两条statement。具体关系方向、类型和证据适配留待S6核定；未写入正式关系边。受控脚本`chp22_index_p472_migration.py`锁定来源、页图映射、索引CSV、taxonomy、正文语境和候选/coverage/statements前态，先dry-run后apply；保留三表恢复副本。机械审计发现索引段无mentions/statements时需要明确`no_semantic_content:`理由，已补到两条coverage注释；复审`errors=[]`、`s2_missing=[]`。当前832段674 complete、152有理由排除、6 queued、0 partial；候选11,436、mentions 26,829、statements 12,104，开放未分类索引候选146。下一段为p.473页标`chp-22:22_CHP-22Index:l3407-3408`。
+
+## 索引p.473页标与两栏（S0 L3407–3515）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页31核实印刷p.473及两栏边界。L3407–3408为`[Page 473]`和`INDEX`页标/页眉，记excluded/complete；左栏L3410–3463对应UVWXYZ.csv#100–146共47行，#124 Vivant-Denon see-under沿用既有排除，余46条开放记录中45条有类型（含既有cand-2798/person），cand-2765/#101“collection”类型待决。右栏L3465–3515对应#147–190共44条，41条有类型，cand-2848–2850/#185–187的medals and gems、paintings and caricatures及print collection因taxonomy没有集合类型而保留待决。全页90条开放候选共86条已有类型、4条类型待决；新增85个类型标注，类型合计57 person、9 archive、7 work、5 place、3 event、2 family、1 institution、1 term、1 procedure。索引页脚L3463不作实体或断言。
+
+语义分类按索引实际指称处理：Aeneid、Autobiography、Anecdotes、The White Devil、Night Thoughts、Wynne对Querini别墅的文字记述及Zanetti两部出版物为archive；Virgil肖像、Visentini版画与Palladian门楣、Vouet肖像、Zanchi作品与Zanetti木刻为work；White Hill战役与Zanchi付款、购买Arundel图稿为event；晚17世纪战争影响艺术赞助为term，木刻技法复原为procedure。#176–181与#184保留Zanetti人物语境，不由索引子目推造关系。按印本将cand-2838主词条定位从341–344扩至341–346；S0和UVWXYZ.csv原文不改。
+
+回查p.218、p.283及p.341–344正文，为12条已有statement补`relation_candidate=true`：Zanchi作品执行/验收、Werff绘画进入Johann Wilhelm画廊、Arundel图稿对Zanetti品味的影响、旅外旧作对品味的影响、Zanetti携回medals/gems、收藏版画、拥有Brand/Dietrich画作、Carriera粉彩/微型画、Sebastiano历史画、复原木刻技法及制作约50张木刻，以及Smith/Schulenburg交往。将Smith与Schulenburg各自拆为端点明确的候选陈述；另新增Zanetti与Sebastiano Ricci交往、与Rosalba Carriera友谊两条端点明确陈述。新statement共3条，关系列仍留S6裁决；未新增mentions或formal relations。
+
+受控脚本`chp22_index_p473_migration.py`锁定来源Markdown、印本PDF、索引CSV、S0段哈希、taxonomy和目标表前态，默认dry-run；预演确认91行、分类计数和目标statement后apply，并保留候选、coverage、statements恢复副本。首次apply因脚本缺少JSONL写入函数中断；从预备副本恢复候选与coverage表、补齐函数并重跑dry-run，再成功apply。最终表审计`errors=[]`、`s2_missing=[]`；全书现有11,436候选、26,829 mentions、12,107 statements；coverage为676 complete、153有理由排除、3 queued、0 partial；开放未分类索引候选61。下一段为p.474页标`chp-22:22_CHP-22Index:l3517-3517`。

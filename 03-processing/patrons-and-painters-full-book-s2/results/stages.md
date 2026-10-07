@@ -1496,3 +1496,5 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.472页标`chp-22:22_CHP-22Index:l3294-3294`及左右栏`l3296-3405`：95条开放索引候选分类为35 person、22 work、29 term、4 event、3 place、1 family、1 archive；Urban VIII see-under项保留排除。按页图校正Vanetti、Velasquez、La Chiesa与Veronese四项定位，S0及索引CSV不改。索引提示的Scala Regia、La Chiesa及Velasquez成员端点与正文候选分开留待S3；13条既有正文statement标记为S6关系候选，并新增Velasquez Accademia成员及Verrio服务William III两条端点明确的statement，合计15条关系候选，不新增mentions或正式relations。审计`errors=[]`、`s2_missing=[]`；当前832段674 complete、152有理由排除、6 queued、0 partial，开放未分类索引候选146。下一段为p.473页标`chp-22:22_CHP-22Index:l3407-3408`。
+
+完成p.473页标及左右栏`chp-22:22_CHP-22Index:l3407-3408`、`l3410-3463`、`l3465-3515`：页标排除，91条索引记录中#124为既有别名排除，90条开放候选中86条有类型、4条集合/作品组类型待决；cand-2798既有person类型保留。类型合计57 person、9 archive、7 work、5 place、3 event、2 family、1 institution、1 term、1 procedure。按印本扩展cand-2838定位至345、346。12条既有正文statement标记关系候选，拆分Smith/Schulenburg并新增Carriera友谊、Sebastiano交往两条端点明确statement，合计15条关系候选statement；没有新增mentions或formal relations。审计`errors=[]`、`s2_missing=[]`；当前832段676 complete、153有理由排除、3 queued、0 partial，候选11,436、mentions 26,829、statements 12,107，开放未分类索引候选61。下一段为p.474页标`chp-22:22_CHP-22Index:l3517-3517`。
