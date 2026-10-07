@@ -6758,3 +6758,20 @@ p.353 Tiepolo将Brühl宫苑与Mattielli海神喷泉母题带入“画中”的�
 按原文、已完成的逐页语义处理、候选登记与p.375注3回链复核第十六章3条开放端点。p.374 Strange“偶尔为自己或客户委托现代作品”未指明具体作品、接受人或二者所指，保留为来源断言；同段中已分别登记的Zompini出版计划与Guardi雇佣关系不替泛述补造端点。p.375 Haskell关于英国经销商依赖Sasso、其经销活动导致大量威尼斯杰作外流的评价没有具体经销商、作品或交易，保留为带作者评价限定的来源断言。注3则明确列出A. Hume、John Skippe、Hamilton, Marquis of Douglas为与Sasso有联系者，故拆为三条人物→Sasso候选关系；Hume的三封信及Lorenzetti书目、Skippe和Douglas的年份/档案定位仍仅按Haskell脚注记录，未独立查阅，不把它们改写成逐人核实的往来信件。
 
 p.376 Haskell称Vianello“may well”属于以Sasso与della Lena关联的一个圈子；该群体边界未定义，概率措辞明确保留，不能拆成Vianello分别属于两位人物的确定关系，故该statement改为来源断言。受控脚本`chp16_relation_endpoint_audit.py`固定来源及4个段哈希、3条开放ID、候选上界、表计数、注3原文/回链和人物候选类型；默认dry-run，apply前为statement表保存恢复副本。写回新增3条statement，无新增候选或提及；三条原开放项均已处置。全库当前11,452候选、26,837提及、12,228 statements；2,310条关系候选中2,289条端点齐全、21条仍缺端点，开放项位于第7、8、14、17、18、19、20章。严格阶段审计`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十七章2条开放候选，S2整体尚未交接。
+
+## 全书S2交接审计续：第十七章p.379–380开放关系项（2026-10-08）
+
+p.379原开放statement将“1786携枪许可”与“返回Venice”混成一个无宾语关系。现将许可保留为Manfrin的人物状态断言，并从同句拆出Manfrin→Venice（1786）候选关系。“back again”的先行地点由紧邻的放逐句确定；注4只定位1770年放逐记录，未查档案，不将其视为撤销或回归的独立证明；注5定位1786年许可档案，同样未查。
+
+p.380将Manfrin收藏的画家跨度拆为收藏候选cand-1513分别代表Mantegna、Bellini、Guardi及Gian Domenico Tiepolo作品的四条候选关系；原聚合statement保留为来源上下文。没有具体作品题名或单件归属；cand-1513是索引collection子项，类型仍空待S3。原文仅写“Bellini”，当前沿用索引中的Giovanni Bellini候选并明确标为S3待核。页图显示印本注5在该跨度之后；注5的Edwards记录及重复目录信息均未独立查阅，目录内容继续由正文L16–20的三条既有statement承载。清除注5 statement中指向不存在注释statement的旧引用；当前全库`footnote_note_statement_ids`均可解析。
+
+受控脚本`chp17_relation_endpoint_audit.py`固定来源及2个段哈希、两条开放ID、候选类型、注4/5及目录正文statement前态；默认dry-run，apply前保存statement表恢复副本。新增5条statement，无新增候选或mentions；两条原开放聚合项改为非关系断言，Ch17开放端点2→0。全库当前11,452候选、26,837提及、12,233 statements；2,313条关系候选中2,294条端点齐全、19条仍缺端点，分布于第7章1、第8章3、第14章1、第18章7、第19章6、第20章1。严格阶段审计`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十八章7条开放候选，S2整体尚未交接。
+
+
+## 全书S2交接审计续：第十八章p.384–385开放关系项（2026-10-08）
+
+p.384–385七条开放statement逐条按原文及既有候选处理。政治权力群体→艺术家群体、艺术家群体→赞助人群体、巴洛克意大利贵族→艺术反叛/非正统，以及自由派赞助人→艺术家群体四项均有原文明确的群体级表达，补齐端点后保留为S2关系候选；不映射到具名官员、具体画家—赞助人配对、委托或作品，也不写入S6正式关系。第一个端点是罗马与威尼斯未具名当局的集合表达；其余分别保留Haskell的“may have”等限定。
+
+p.385关于未具名压力、学院或宗教组织没有施加特定艺术教条的概括，及艺术家无法适应其基础崩溃的“某个赞助社会”，均保留为来源断言，不将泛指对象映射到贵族候选。原复合statement拆分为两条：Parma Academy推广未具名的“现代/开明”艺术类型且少有成效，作为机构行动的来源断言；英法“bourgeois painting在意大利没有真实根源”的明确负面类别—地点主张单独记录为候选关系，不推导具体画派、作品或艺术家。
+
+受控脚本`chp18_relation_endpoint_audit.py`固定来源与2个段哈希、七条开放ID、候选类型和表计数；默认dry-run，apply前保存statement表恢复副本，并检查降为断言的记录无遗留关系候选注记。新增1条statement，无新增候选或提及；第十八章开放端点7→0。全库当前11,452候选、26,837提及、12,234 statements；2,311条关系候选中2,299条端点齐全、12条仍开放，分布为第7章1、第8章3、第14章1、第19章6、第20章1。严格阶段审计`s2_missing=[]`、`errors=[]`；脚注statement引用专项检查仍为零失效引用。两条既存enrichment source_ref警告仍在；无S6正式关系写入。下一步按书序复核第十九章6条开放候选，S2整体尚未交接。
