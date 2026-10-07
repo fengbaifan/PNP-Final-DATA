@@ -6299,3 +6299,29 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页14印刷p.456左栏、S0分段清单及G.csv#80–126。L1481为运行页眉，左栏完整收至Gozzadini；右栏从L1537开始，避免串栏。47个索引行中46个是开放候选：45个新标23 person、10 work、7 archive、2 family、2 term、1 place；G#99 Giovanelli collection保留类型待决（taxonomy无collection类），G#120 Gonzaga see-under继续排除。Giordano的具体题名/画作组归work，但“work in Spain”“work in S. Maria Maggiore, Bergamo”和payment仍是人物语境；p.219明确的《Crossing of the Red Sea》另作work。G#80“admirers in Venice”是泛称群体term；del Rosso为family。Goldoni的剧作、回忆录与不同版本、Giustiniani雕塑图册出版物及Gori《Museum Etruscum》归archive；“views on art”归term。页图显示G#97为Giori（不改S0 OCR `Gioii`）；G#125页图为Gozadini, Bonifazio，G.csv转录`Bonisezio`，仅把候选名修正为印刷拼写，保留S0和G.csv。索引导航不新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p456_l1481_1535_migration.py`锁定段、来源/PDF、G.csv、manifest及四表前态；dry-run核对47条候选映射、保留G#99待决与G#120排除后通过，应用45条类型并校正cand-1217名称，为候选表和coverage留恢复副本。当前候选11,436、mentions 26,829、statements 12,102；832段中642 complete、136有理由排除、54 queued、0 partial；开放未分类索引候选1,652。下一段为p.456右栏`chp-22:22_CHP-22Index:l1537-1591`。
+
+
+## 索引p.456右栏（S0 L1537–1591）
+
+对照`CHP-22Index.pdf`物理页14印刷p.456右栏、S0分段及G.csv#127–176；L1537为运行页眉，页面图划清左右栏，S0在L1544–1557和L1569–1574夹入的左栏OCR碎片不在本段重复分类。50条索引行含48个开放候选，47个新增类型为22 person、19 work、2 archive、3 term、1 family；G#135 Grassi collection因taxonomy无collection类保留待决，G#138–139 Gregory see-under继续排除。G#129 Gasparo Gozzi关于Pietro Longhi的文章为archive；绘画社会价值与艺术观点为term，支持Pisani仍为人物语境。G#151和G#159均指向归于两位Guardi的`Sala del Maggior Consiglio`（书p.316），保留独立候选供S3身份对齐；G#152/#160的`Gerusalemme Liberata`场景组据p.336为Guardis画作，G#156 `Parlatorio`及G#158 `Ridotto`据p.383为作品而非地点。G#162的copyist为人物活动语境，G#163–167各为所复制的Tintoretto、Veronese、Bassano绘画；G#171合同归archive，具名Guercino画作归work，付款保留人物语境、收费标准为term。页图将G#141印名读作Griè, Angelica，候选层从`Grill`校正为`Griè`，保留S0与G.csv原转录。索引导航不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p456_l1537_1591_migration.py`锁定来源段、原书页、G.csv、manifest及四表前态；dry-run核对50条候选映射、47条分类、一个待决集合和两个排除别名后通过，再应用并为候选表、coverage生成恢复副本。当前候选11,436、mentions 26,829、statements 12,102；832段中643 complete、136有理由排除、53 queued、0 partial；开放未分类索引候选1,605。下一段为p.457页标`chp-22:22_CHP-22Index:l1593-1593`。
+
+
+## 索引p.457页标（S0 L1593）
+
+对照`CHP-22Index.pdf`物理页15，页图显示印刷p.457。S0 L1593 `[Page 457]`为生成页标，排除并标记complete；L1595运行页眉随p.457左栏段处理。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p457_marker_l1593_exclusion.py`锁定页标段、来源/PDF/manifest及表前态；dry-run通过后应用，并为coverage留恢复副本。当前832段中643 reviewed/complete、137有理由排除、52 queued、0 partial；下一queued段为p.457左栏`chp-22:22_CHP-22Index:l1595-1649`。
+
+
+## 索引p.457左栏（S0 L1595–1649）
+
+对照`CHP-22Index.pdf`物理页15印刷p.457左栏及S0分段；本段含G.csv#177–195、H.csv#0–24和I.csv#0–4共49条，页图划定左栏边界，S0并列的右栏OCR片段留给`l1651-1703`，不重复分类。47个开放候选中46个标注29 person、11 work、2 archive、3 term、1 event；H#4 Hapsburg collections from Prague因taxonomy无collection类型待决，G#195 Guzman与H#6 Harley see-under维持排除。G#177拒绝查理一世邀请为p.178明确叙述的单次行为，标event；G#184为Guercino“work for Don Antonio Ruffo”而无独立作品题名，保留person语境。G#178–183为具名绘画；S0 OCR将Cato题名识为“Lise os”，CSV与页图为“Life of Cato”，只在此记校读，不改来源转录。G#186 `Histories`及I#2 `Imago primi saeculi`为文献（archive）；Guidi的图稿/雕塑组及Houdon胸像、Huber版画为work；H#5 Hapsburg patronage、I#1 Illustrated books类别与I#4 Indecency and the erotic为term。索引导航未新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p457_l1595_1649_migration.py`锁定段、原书、G/H/I.csv、manifest及四表前态，dry-run核对49条候选、46个类型、一个待决收藏和两条排除后通过并应用；随后据p.178原文和taxonomy事件定义，通过`chp22_index_p457_l1595_1649_correct_event_classification.py`将cand-1267从person更正为event，并同步coverage说明。提交前计数一致性复核发现该说明仍将事件计入person，已将分类统计改为29 person、11 work、2 archive、3 term、1 event；候选数据未再变动。两次应用均保留候选/coverage恢复副本。最终候选11,436、mentions 26,829、statements 12,102；832段中644 complete、137有理由排除、51 queued、0 partial；开放未分类索引候选1,559。下一段为p.457右栏`chp-22:22_CHP-22Index:l1651-1703`。
+
+
+## 索引p.457右栏（S0 L1651–1703）
+
+对照`CHP-22Index.pdf`物理页15印刷p.457右栏、S0分段及I.csv#5–10、J，K.csv#0–26、L.csv#0–8；页面图划清左右栏，避免将左栏混入S0的OCR碎片重复分类。42条索引行中38个开放候选有36个新标23 person、3 institution、7 term、1 work、1 archive、1 family；J，K#15 Van Dyck与Rubens paintings in Johann Wilhelm’s collection及L#5 Labia collection因taxonomy无collection/group类型保留待决，I#6–9 Innocent see-under别名维持排除。Jesuits按语境分别标机构或关于艺术特征/与Gesuati敌意的term，不据索引导航生成关系；Johann Wilhelm条目中的赞助、趣味和未具名单件的收藏内容保留为人物语境/term，不虚构具体作品；Juvarra的马德里宫殿装饰方案为work，La Harpe的`Il Filosofo dell’Alpi`为archive。索引导航不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p457_l1651_1703_migration.py`锁定段、原书、I/J，K/L.csv、manifest及四表前态；dry-run核对42条候选映射、36条分类、两个待决集合和四条排除别名后通过并应用，为候选表和coverage留恢复副本。当前候选11,436、mentions 26,829、statements 12,102；832段中645 complete、137有理由排除、50 queued、0 partial；开放未分类索引候选1,523。下一段为p.458页标`chp-22:22_CHP-22Index:l1705-1705`。

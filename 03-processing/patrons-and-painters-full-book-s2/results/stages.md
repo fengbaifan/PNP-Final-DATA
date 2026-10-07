@@ -1396,3 +1396,14 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 完成页标`chp-22:22_CHP-22Index:l1479`：物理页14印刷p.456，S0生成页标排除并标记complete；运行页眉L1481由左栏段处理。未改候选、mentions、book statements或relations。当前832段中641 complete、136有理由排除、55 queued、0 partial；开放未分类索引候选1,697。下一段为p.456左栏`chp-22:22_CHP-22Index:l1481-1535`。
 
 完成p.456左栏`chp-22:22_CHP-22Index:l1481-1535`：G.csv#80–126中45个开放候选标注23 person、10 work、7 archive、2 family、2 term、1 place；G#99 Giovanelli collection因无collection类型保留待决，G#120 Gonzaga see-under维持排除。将cand-1217由索引CSV误录的Bonisezio校正为页图所见Bonifazio，原S0/G.csv不改。索引导航未新增mentions、book statements或relations。当前832段中642 complete、136有理由排除、54 queued、0 partial；开放未分类索引候选1,652。下一段为p.456右栏`chp-22:22_CHP-22Index:l1537-1591`。
+
+
+完成p.456右栏`chp-22:22_CHP-22Index:l1537-1591`：G.csv#127–176的48个开放候选中，47个标注22 person、19 work、2 archive、3 term、1 family；G#135 Grassi collection保留类型待决，G#138–139 see-under维持排除。书内证据将两条`Sala del Maggior Consiglio`均判为作品但保持分立候选供S3对齐；`Parlatorio`、`Ridotto`与`Gerusalemme Liberata`场景组均为作品。将cand-1231按页图由Grill校为Griè，原S0/G.csv不改。索引导航未新增mentions、book statements或relations。当前832段中643 complete、136有理由排除、53 queued、0 partial；开放未分类索引候选1,605。下一段为p.457页标`chp-22:22_CHP-22Index:l1593-1593`。
+
+
+完成页标`chp-22:22_CHP-22Index:l1593-1593`：对照CHP-22Index.pdf物理页15页图确认印刷p.457，将生成页标排除并标记complete；L1595运行页眉由后续左栏段覆盖。未改候选、mentions、book statements或relations。当前832段中643 reviewed/complete、137有理由排除、52 queued、0 partial。下一段为p.457左栏`chp-22:22_CHP-22Index:l1595-1649`。
+
+
+
+
+完成p.457右栏`chp-22:22_CHP-22Index:l1651-1703`：I.csv#5–10、J，K.csv#0–26、L.csv#0–8共42条索引记录，38个开放候选中36个标注23 person、3 institution、7 term、1 work、1 archive、1 family；J，K#15 Van Dyck与Rubens paintings in Johann Wilhelm’s collection及L#5 Labia collection因无collection/group类型待决，I#6–9 Innocent see-under别名排除。按页图分开左右栏；Jesuits条目按语境区分机构和term，收藏类泛称不虚构为具名作品，Juvarra装饰方案归work、La Harpe颂诗归archive。索引导航未新增mentions、book statements或relations。当前832段中645 complete、137有理由排除、50 queued、0 partial；开放未分类索引候选1,523。下一段为p.458页标`chp-22:22_CHP-22Index:l1705-1705`。
