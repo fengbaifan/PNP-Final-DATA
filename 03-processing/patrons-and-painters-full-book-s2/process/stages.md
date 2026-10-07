@@ -6734,3 +6734,21 @@ p.283将1696年访问Holland与未指名作品的荷兰绘画收藏概况分开�
 p.312拆出Giulio Romano、Castiglione受雇于Gonzaga家族；九位具名画家／雕刻家／版画家各自制作Schulenburg肖像的关系候选；Simonini绘制战役组作品及“apparently”随Schulenburg出征两项。未具名多数画家、Schulenburg艺术家的“royal generosity”评价和作品组收藏概况仍作来源断言。p.315将Smith和Schulenburg没有Tiepolo作品拆为两条带negation=true的否定断言，不建立正向所有权；三位画家“not particularly favoured”拆开但仍非关系。p.318将Giannone、Pilati、Baretti和其他未具名异端思想者分别连至威尼斯共和国的驱逐陈述。图版51的1748年作为caption日期保留为属性。
 
 受控脚本chp10_relation_endpoint_audit.py核验Chapter 10来源资产及所有相关段哈希、精确27条开放ID集、候选上界与类型前态；默认dry-run，应用前为两张受影响表建立恢复副本。写回新增39条statement，未新增候选或mention；15个未指明的作品组/群体候选类型清空，Augsburg仍为place、Plate 53b所指Amigoni肖像仍为work。另将p.315三条完整端点的集合概况移出关系候选。全库现有11,452候选、26,837提及、12,213 statements；2,312条关系候选中2,274条两端齐全、32条缺一端（3缺主语、29缺宾语）、6条缺两端，共38条未闭合。仍开放项按章为第7章1、第8章3、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1；第7、8章保留项已有理由。python -X utf8 scripts/audit_tables.py --strict-stage返回s2_missing=[]、errors=[]，覆盖仍为678 complete、154有理由排除、0 queued、0 partial；既有两条enrichment source_ref警告未变。第十章本轮关系候选均有两端；S2整体尚未交接。下一步按书序复核第十三章8条缺端点候选。
+
+## 全书S2交接审计续：第十三章p.333–340关系候选与脚注状态（2026-10-08）
+
+按原文、既有候选、分页脚注和回链复核第十三章8条初始开放关系候选。p.333出版商的雇佣/委托做法是泛论；p.334“恢复威尼斯版画声誉”是抽象出版目标，注1已明确指向1730年3月19日《Novelle》为圣奥古斯丁作品拟议版本刊登的广告，不识别编辑者，也不证明版本出版，均保留为来源断言。修正p.334已链接注1却仍标为脚注待处理的标记和说明。
+
+p.335保留订户名单整体概述，另按明确名单拆为Schulenburg、Consul Smith、Rosalba Carriera、Pellegrini四人→1745年《Gerusalemme Liberata》版本的S2关系候选。Carriera按页图校正S0的Camera；Smith仅有Consul称谓、Pellegrini仅有姓氏，身份映射留待S3。p.336注2只报告Guardis画作分布于四城市的未具名博物馆/私人收藏，不指定单件作品、机构或城市对应，故保留报告性断言；正文的Guardi画作组/插图关系仍保留独立statement。
+
+p.337 Pasquali披露的是未具名售书客户，书名不是披露对象；注3保持档案定位回链。Lodoli影响未指明的出版商/书商群体，不将引文中的Conti–Vico书信误作关系端点；Pasquali敬慕Lodoli的正文statement仍保留。p.340 Wagner“似乎只委托少量原创作品”及Viero的承接句均是关于未具名艺术家/作品的限定概述，不建立人物对人物关系；同步清除正文对注1、注4“等待链接”的过时说明，保留未独立查阅引文页的证据限制。
+
+受控脚本`chp13_relation_endpoint_audit.py`固定来源资产及7个相关段哈希、精确8条开放ID集合、候选上界、表计数与脚注回链前态；默认dry-run，apply前为statement表保存恢复副本。写回新增4条subscriber statement，不新增候选或mention；8条旧开放项均已处置，其中4条保留为有端点候选关系，其他均明确降为来源断言。全库当前11,452候选、26,837提及、12,217 statements；2,308条关系候选中2,278条两端齐全、30条仍缺端点。开放项按章为第7章1、第8章3、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1。`python -X utf8 scripts/audit_tables.py --strict-stage`返回`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十四章7条开放候选，S2整体尚未交接。
+
+## 全书S2交接审计续：第十四章p.347–356关系候选与限定（2026-10-08）
+
+按原文、页图、候选登记和脚注回链复核第十四章7条开放端点候选。p.347将Haskell关于Algarotti声望、个人收藏和德累斯顿委托数量的比较评价保留为非关系断言；“与当时重要画家关系密切”拆为对Tiepolo和Canaletto两条有端点候选。教育陈述保留为整体来源断言，并另拆出在Rome受教育一年、1726年后在Bologna学习两条地点候选；无学校或教师端点，父亲仍未具名。通信概述拆为Algarotti→Eustachio Manfredi及Algarotti→集体Zanotti兄弟两条候选；未具名同学留在集合断言，集体候选不拆到兄弟个人。注2已链接Bosdari研究定位，但未独立核阅其书信证据。
+
+p.353 Tiepolo将Brühl宫苑与Mattielli海神喷泉母题带入“画中”的陈述继续保留空作品端点：原文未说明两件已登记委托画（Flora、Maecenas）中哪一件，不能据题材猜定。p.355关于Algarotti未具名收藏的购藏、赠予和售出习惯没有具体作品或收受人，降为来源断言。p.356将Algarotti为Bouchardon、Rode提供介绍信拆为两条候选；注3列出的两封信及日期没有逐人对应，且信件原文未独立核阅。鼓励外籍艺术家赴意大利的一般概述及多种德累斯顿购藏/向Frederick提案的混合动因仍作来源断言。第十四章两条对应关系引文保留OCR原字“Use”，并登记页图校勘`Use`→`life`，以同时保持来源匹配和印本读法。
+
+受控脚本`chp14_relation_endpoint_audit.py`固定来源文件与5个段哈希、7条初始开放ID、候选上界、表计数、脚注回链及Flora/Maecenas歧义前态；默认dry-run，apply前为statement表保存恢复副本。写回新增8条statement，无新增候选或提及；7条旧开放项中6条降为有理由的非关系断言，p.353仍待决。全库当前11,452候选、26,837提及、12,225 statements；2,310条关系候选中2,286条端点齐全、24条仍缺端点。开放项按章为第7章1、第8章3、第14章1、第16章3、第17章2、第18章7、第19章6、第20章1。严格阶段审计`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十六章3条开放候选，S2整体尚未交接。
