@@ -1364,3 +1364,15 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.453页标
 
 完成页标`chp-22:22_CHP-22Index:l1138-1138`：页图确认印刷p.453，L1138是生成定位符，已记excluded/complete。未新增候选分类、mentions、book statements或relations。当前11,436候选、26,829 mentions、12,102 statements；832段中635 complete、133有理由排除、64 queued、0 partial。下一段为p.453左栏`chp-22:22_CHP-22Index:l1140-1194`。
+
+## 索引p.453左栏
+
+完成`chp-22:22_CHP-22Index:l1140-1194`：根据p.453页图与C.csv#421–431、D.csv#0–36标注48个候选（34 person、7 work、1 term、1 procedure、1 archive、2 place、2 family）。源段OCR夹入右栏残片，已据页图将其与另段L1196–1249的右栏完整转录分开，避免重复。索引导航未产生mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中636 complete、133有理由排除、63 queued、0 partial；开放未分类索引候选1,925。下一段为p.453右栏`chp-22:22_CHP-22Index:l1196-1249`。
+
+## 索引p.453右栏
+
+完成`chp-22:22_CHP-22Index:l1196-1249`：对照p.453右栏，将D.csv#37–66、E.csv#0–15共46行对应的45个开放候选标注24 person、9 work、2 place、1 institution、9 term，保留cand-0955既有place并校正印本拼写为`Düsseldorf`。Domenichino页中各子项按已有正文语境区分作品、人物和建筑空间；Dominicans归institution，英文赞助/旅游/启蒙主题及Dutch artists泛称归term。OCR片段已与L1140–1194左栏覆盖分开，避免重复。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中637 complete、133有理由排除、62 queued、0 partial；开放未分类索引候选1,880。下一段为p.454页标`chp-22:22_CHP-22Index:l1251-1251`。
+
+## 索引p.454页标
+
+完成页标`chp-22:22_CHP-22Index:l1251-1251`：页图确认物理页12印刷p.454，生成定位符已记excluded/complete。未更改候选或新增mentions、book statements、relations。当前832段中637 complete、134有理由排除、61 queued、0 partial。下一段为p.454左栏`chp-22:22_CHP-22Index:l1253-1307`。

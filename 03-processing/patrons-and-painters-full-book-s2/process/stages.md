@@ -6239,3 +6239,19 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 对照`CHP-22Index.pdf`物理页11，印刷页码为p.453。L1138 `[Page 453]`是生成页标而非索引词条；coverage记为excluded/complete，理由以前缀`no_semantic_content:`记录。不新增候选分类、mentions、book statements或relations。下一段为`chp-22:22_CHP-22Index:l1140-1194`。
 
 受控脚本`chp22_index_p453_marker_l1138_exclusion.py`锁定来源、PDF、段哈希及表前态，dry-run通过后应用并保留恢复副本。全表结构审计为`s2_missing=[]`、`errors=[]`；当前832段中635 complete、133有理由排除、64 queued、0 partial。结构审计不替代全书S2语义交接审计。
+
+## 索引p.453左栏（S0 L1140–1194）
+
+对照`CHP-22Index.pdf`物理页11（印刷p.453）逐项读取左栏，并核对C.csv#421–431、D.csv#0–36，共48个索引候选。S0 L1140–1194的逐行OCR混入右栏截断片段；右栏完整转录单列于L1196–1249，本段不重复分类右栏碎片。候选类型为34 person、7 work、1 term、1 procedure、1 archive、2 place、2 family。C#421“Women washing their Laundry at a Fountain”和C#424“Dance of Nymphs”归work；C#422、C#425的“work for …”是Crespi/Creti人物词头下的描述性子项，不是可独立命名的作品。C#426“Critics, Roman”是通称term；C#431“Customs duty on pictures”是财政机制procedure。D#3《Daphnis and Chloe》按文献/文学文本归archive，与图像作品区分；D#5“Apotheosis of Aeneas”归work。D#9的“introduction of Neapolitan painting into Central Europe”仍属Daun人物子项，未另造事件；D#10维也纳宫殿、D#13 Bergamo的S. Maria Maggiore分别归place；D#32–33 Dolfin family及家族赞助归family。其余人物词头和具名作品依索引页图及类型边界逐项标注。索引页码仅为导航，不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p453_l1140_1194_migration.py`锁定S0段、来源/PDF、C/D索引表及表前哈希；逐项校验48个候选ID、主词头/子项与开放未分类前态，dry-run通过后应用并为候选表、coverage留恢复副本。迁移后候选11,436、mentions 26,829、statements 12,102；832段中636 complete、133有理由排除、63 queued、0 partial；开放未分类索引候选1,925。下一段为右栏`chp-22:22_CHP-22Index:l1196-1249`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.453右栏（S0 L1196–1249）
+
+对照`CHP-22Index.pdf`物理页11（印刷p.453）读取右栏；L1196为页码行，D.csv#37–66及E.csv#0–15共46个词条从L1197起。上段S0 L1140–1194包含这些词条的OCR残片，本段以页图和右栏完整转录为准，不重复分类。45个开放候选标注24 person、9 work、2 place、1 institution、9 term；D#57 cand-0955既有place分类保留。D#37的Count of Monterey为人物；D#38、D#39和D#42为作品，其中p.76注释具体识别S. Carlo ai Catinari的穹顶 pendentives 上的Cardinal Virtues寓意壁画；D#40“payments”仍为Domenichino人物语境，不另造支付事件；D#41的tribune是S. Andrea della Valle内部建筑空间，归place。D#43是威尼斯的Dominican宗教修会，归institution；D#58“Dutch artists in Rome”作为无独立组织身份的泛称归term。E#4–11的English patronage、游客与启蒙运动索引词头/子项均是一般主题term。页图印作`Düsseldorf`，据此将既有cand-0955由`Dusseldorf`校为`Düsseldorf`；S0、PDF及D.csv未改。其余人物、作品和地点依词头及子项逐项分类。索引页码不形成原书断言，本段不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p453_rcol_l1196_1249_migration.py`锁定S0段、来源/PDF、D/E索引表及表前哈希；逐项校验46个索引映射，其中45个开放未分类，另保留D#57既有place，dry-run通过后应用并留候选表与coverage恢复副本。迁移后候选11,436、mentions 26,829、statements 12,102；832段中637 complete、133有理由排除、62 queued、0 partial；开放未分类索引候选1,880。下一段为p.454页标`chp-22:22_CHP-22Index:l1251-1251`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.454页标（S0 L1251）
+
+核对`CHP-22Index.pdf`物理页12，印刷页码为p.454。L1251 `[Page 454]`是生成页标而非索引词条；coverage记为excluded/complete并以前缀`no_semantic_content:`说明。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p454_marker_l1251_exclusion.py`锁定来源/PDF/段哈希及coverage前态，dry-run通过后应用并留恢复副本。当前832段中637 complete、134有理由排除、61 queued、0 partial。下一段为左栏`chp-22:22_CHP-22Index:l1253-1307`。
