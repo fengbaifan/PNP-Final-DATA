@@ -25237,7 +25237,7 @@ m-chp20-p396-012,chp-20:20_CHP-20Postscript:l3-12,cand-10855,Further documents p
 m-chp20-p396-013,chp-20:20_CHP-20Postscript:l3-12,cand-0209,Maffeo Barberini (Pope Urban VIII),955,989,Full name and papal identification as printed.
 m-chp20-p396-014,chp-20:20_CHP-20Postscript:l3-12,cand-0272,Bellori,1085,1092,Bellori is the authority Haskell says specifically states the attribution.
 m-chp20-p396-015,chp-20:20_CHP-20Postscript:l3-12,cand-0544,Caravaggio,1118,1128,First occurrence: the reported attribution of a portrait.
-m-chp20-p396-016,chp-20:20_CHP-20Postscript:l3-12,cand-0551,a portrait of Maffeo Barberini,1137,1167,Reuse the index subentry as the general portrait claim; individual Corsini and Longhi versions remain distinct candidates.
+m-chp20-p396-016,chp-20:20_CHP-20Postscript:l3-12,cand-11463,a portrait of Maffeo Barberini,1137,1167,Work mention in Bellori's general portrait claim; specific object unidentified. Keep distinct from the Corsini and Longhi picture candidates.
 m-chp20-p396-017,chp-20:20_CHP-20Postscript:l3-12,cand-1507,Mancini,1200,1207,Giulio Mancini candidate from the index; contemporary hint is reported by Haskell.
 m-chp20-p396-018,chp-20:20_CHP-20Postscript:l3-12,cand-10857,a well-known but not at all good portrait in the Corsini collection,1339,1406,"Specific first-edition picture, kept distinct from the Longhi version."
 m-chp20-p396-019,chp-20:20_CHP-20Postscript:l3-12,cand-10862,Corsini collection,1388,1406,Collection identity and type remain unresolved.
@@ -25259,7 +25259,7 @@ m-chp20-p396-034,chp-20:20_CHP-20Postscript:l3-12,cand-10860,analysis of Bernini
 m-chp20-p396-035,chp-20:20_CHP-20Postscript:l3-12,cand-0295,Bernini,2210,2217,Bernini’s transformation is reported through Lavin’s analysis.
 m-chp20-p396-036,chp-20:20_CHP-20Postscript:l3-12,cand-10861,the crossing,2238,2250,Interior architectural space of St Peter’s; continuation on p.397 supplies the end of the sentence.
 m-chp20-p396-037,chp-20:20_CHP-20Postscript:l3-12,cand-0713,St Peter’s,2254,2264,Reuse the index candidate for the basilica; keep the crossing as its interior space.
-m-chp20-p396-038,chp-20:20_CHP-20Postscript:l3-12,cand-1479,the family palace,2131,2148,Adjacent context suggests the Barberini palace; retain as a candidate link pending S3.
+m-chp20-p396-038,chp-20:20_CHP-20Postscript:l3-12,cand-0240,the family palace,2131,2148,Maps to the Barberini palace index candidate whose page range includes the p.47–48 family-palace discussion; place identity remains a candidate-level mapping for S3.
 m-chp20-p397-001,chp-20:20_CHP-20Postscript:l14-24,cand-10861,the crossing,166,178,Lavin’s quote continuation describes this interior space; closes p.396.
 m-chp20-p397-002,chp-20:20_CHP-20Postscript:l14-24,cand-3806,Hibbard,248,255,Reuse the existing Howard Hibbard candidate.
 m-chp20-p397-003,chp-20:20_CHP-20Postscript:l14-24,cand-10860,Lavin’s book,272,284,The p.396 candidate study is referenced in Hibbard’s discussion.
@@ -27481,3 +27481,4 @@ m-chp21-bib-l1301-1306-004,chp-21:21_CHP-21Bibliography:l1301-1306,cand-11332,"4
 m-chp21-bib-l1301-1306-005,chp-21:21_CHP-21Bibliography:l1301-1306,cand-11333,"~ Gabrieli, Noemi: ‘Aggiunte a Sebastiano Ricci’ in Proporzioni, 1950, pp. 204-211.",287,370,Exact displaced S0 bibliography OCR span linked to an existing bibliography statement; not an independently consulted publication.
 m-chp21-bib-l1301-1306-006,chp-21:21_CHP-21Bibliography:l1301-1306,cand-11347,"3 vols., Londres 1764.",371,393,Exact displaced S0 bibliography OCR span linked to an existing bibliography statement; not an independently consulted publication.
 m-chp21-bib-l1301-1306-007,chp-21:21_CHP-21Bibliography:l1301-1306,cand-7696,"109 vols., Venezia 1840-79.",394,421,Exact displaced S0 bibliography OCR span linked to an existing bibliography statement; not an independently consulted publication.
+m-chp20-p396-039,chp-20:20_CHP-20Postscript:l3-12,cand-11464,the first edition of this book,1273,1303,Edition-level reference in Haskell's retrospective account. The current source is the revised and enlarged 1980 edition; p.396 supplies no first-edition date or imprint.
