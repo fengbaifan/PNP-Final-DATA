@@ -1422,3 +1422,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.459左栏`chp-22:22_CHP-22Index:l1822-1876`：L.csv#106–120、M.csv#0–32共48个开放候选，分类24 person、13 place、6 work、5 archive。将cand-1460 L#118页码候选层`231`校为印本`23n`；保留S0和原始L.csv。McSwiny未实现的Van Dyck肖像蚀刻计划按可识别设计提案归work，与正文候选cand-9006一致，不声称已执行。S0 L1876残片`X 459`不属印刷索引内容。未新增mentions、book statements或relations。当前832段中648 complete、139有理由排除、45 queued、0 partial；开放未分类索引候选1,380。下一段为p.459右栏`chp-22:22_CHP-22Index:l1878-1931`。
+
+
+完成p.459右栏`chp-22:22_CHP-22Index:l1878-1931`：核对M.csv#33–81共49条，46个新分类（26 person、4 place、9 work、4 archive、2 term、1 family、1 procedure），保留cand-1540/M#78既有person，cand-1513/M#50 collection类型待决，cand-2916/M#74 see-under别名维持excluded。页图将cand-1496/M#33页码候选从122校为153；M#35页码116本已正确，保留S0 OCR。Manfrin竞赛归procedure；Maratta的独立作品归work、相关文献归archive；通用payment及Marchesini工作语境不升级为事件或具名单件作品。无mentions、book statements或relations变更。当前832段中649 complete、139有理由排除、44 queued、0 partial；开放未分类索引候选1,334。下一段为p.459页标`chp-22:22_CHP-22Index:l1933-1933`。
+
+
+完成p.460页标`chp-22:22_CHP-22Index:l1933-1933`：对照CHP-22Index.pdf物理页18确认印刷p.460，将生成页标标excluded/complete；未改候选或事实表。当前832段中649 complete、140有理由排除、43 queued、0 partial。下一段为p.460左栏`chp-22:22_CHP-22Index:l1935-1989`。

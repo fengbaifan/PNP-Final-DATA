@@ -6358,3 +6358,17 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页17印刷p.459、S0分段及L.csv#106–120、M.csv#0–32，共48个开放候选，分类为24 person、13 place、6 work、5 archive。类型依据索引所指及正文语境：城市、宫殿、教堂为place；St Peter's façade、Bernini的Louvre方案、Maderno的Barberini palace方案、McSwiny的英国名人纪念画系列、Van Dyck肖像蚀刻提案及Maggiotto的`Good Inclinations leading a Youth to Knowledge`归work；`Il Gran Teatro delle Pitture e Prospettive di Venezia`、Machiavelli的`Prince`、`To the Ladies and Gentlemen of Taste`、`Tombeaux des Princes`及`Considerazioni elettriche`归archive。p.287称McSwiny的Van Dyck蚀刻计划未能实现；仍以可识别的艺术设计提案归work，与正文候选cand-9006一致，但不声称蚀刻或出版已经完成。p.289称纪念画系列到1722年已有15幅开工，p.290–291叙述已完成作品的购藏及1741年画册出版。L#117“patronage of Domenichino”、McSwiny的“and”及“artists employed/Venetian artists”等子项保持相应人物候选语境，不据索引新增关系。S0 L1876残片`X 459`与页图不符，不是索引条目，未建候选。
 
 页图逐项核对后，仅订正候选层L#118（cand-1460）页码`231`为印本`23n`；S0 OCR和原始L.csv均保留。受控脚本`chp22_index_p459_l1822_1876_migration.py`锁定索引段、印本PDF、L/M索引CSV、taxonomy、相关正文来源、manifest与候选/coverage表前态；dry-run通过后应用并保留恢复副本。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中648 complete、139有理由排除、45 queued、0 partial；开放未分类索引候选1,380。下一段为p.459右栏`chp-22:22_CHP-22Index:l1878-1931`。
+
+
+## 索引p.459右栏（S0 L1878–1931）
+
+对照`CHP-22Index.pdf`物理页17的印刷p.459及S0栏界，核M.csv#33–81共49行：48个candidate仍为open，M#74 `see under Richmond, Duke of`别名维持excluded。47个可分类条目中新增46个类型（26 person、4 place、9 work、4 archive、2 term、1 family、1 procedure），保留既有M#78 person类型。M#50 `collection`指Manfrin超过400幅绘画的收藏；taxonomy尚无collection类型，保持open且类型待决。M#51所指是Manfrin组织的多次画家竞赛机制，归procedure；正文列出的情色主题不据索引另造作品或事件。M#53 `Mannerist painting`和M#75 `Marchands-amateurs`为term。Manin家族归family；Manchester mansions、Manin country house、Manin palace及Altieri palace归place。Maratta项下的雕塑、肖像、画作及St Stanislas Kostka altarpiece归work；Felsina Pittrice、Considerazioni sulla Pittura、Manfrin致Pietro Edwards的信及S. Andrea al Quirinale altarpiece文件归archive。M#70 `payment`在p.17指Maratta肖像的一般收费标准，不是独立付款事件；M#78 `work for Stefano Conti`概括Marchesini的多项代理与建议活动，没有可由该索引子项单独识别的作品，保留既有person类型。`Mantua, Marquis of`作为未具名人物候选登记，身份留待S3。
+
+页图核读确认M#33/cand-1496印本末页为153，候选层从OCR索引CSV的`122`订正为`153`，原始S0和M.csv保留。M#35页图读作116；S0的`11Ó`是OCR误识，但候选页码已是116，不需改动。受控脚本`chp22_index_p459_l1878_1931_migration.py`锁定S0段、印本PDF、M.csv、taxonomy、相关正文来源、manifest及候选/coverage表前态；dry-run与apply均通过，并为两张改写表保留恢复副本。未改mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中649 complete、139有理由排除、44 queued、0 partial；开放未分类索引候选1,334。下一段为p.459页标`chp-22:22_CHP-22Index:l1933-1933`。
+
+首次`audit_tables.py --summary`指出本段无mention/statement时，coverage.note缺少`no_semantic_content:`理由前缀。受控脚本的`--fix-coverage-rationale`模式经post-apply表哈希锁定、dry-run后只修coverage注释并备份；复跑审计`errors=[]`、`s2_missing=[]`。该修正不改变覆盖计数或事实表。
+
+
+## 索引p.460页标（S0 L1933）
+
+对照`CHP-22Index.pdf`物理页18确认印刷p.460。S0 L1933 `[Page 460]`是生成页标，不是索引词条或原书断言；单独标excluded/complete并保留`no_semantic_content`理由，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p460_marker_l1933_exclusion.py`锁定S0段、印本PDF、manifest和S2表前态，dry-run与apply通过并为coverage留恢复副本。当前832段中649 reviewed/complete、140有理由排除、43 queued、0 partial；开放未分类索引候选1,334。下一段为p.460左栏`chp-22:22_CHP-22Index:l1935-1989`。
