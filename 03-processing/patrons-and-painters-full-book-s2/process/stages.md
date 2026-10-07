@@ -6591,3 +6591,23 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 回查p.218、p.283及p.341–344正文，为12条已有statement补`relation_candidate=true`：Zanchi作品执行/验收、Werff绘画进入Johann Wilhelm画廊、Arundel图稿对Zanetti品味的影响、旅外旧作对品味的影响、Zanetti携回medals/gems、收藏版画、拥有Brand/Dietrich画作、Carriera粉彩/微型画、Sebastiano历史画、复原木刻技法及制作约50张木刻，以及Smith/Schulenburg交往。将Smith与Schulenburg各自拆为端点明确的候选陈述；另新增Zanetti与Sebastiano Ricci交往、与Rosalba Carriera友谊两条端点明确陈述。新statement共3条，关系列仍留S6裁决；未新增mentions或formal relations。
 
 受控脚本`chp22_index_p473_migration.py`锁定来源Markdown、印本PDF、索引CSV、S0段哈希、taxonomy和目标表前态，默认dry-run；预演确认91行、分类计数和目标statement后apply，并保留候选、coverage、statements恢复副本。首次apply因脚本缺少JSONL写入函数中断；从预备副本恢复候选与coverage表、补齐函数并重跑dry-run，再成功apply。最终表审计`errors=[]`、`s2_missing=[]`；全书现有11,436候选、26,829 mentions、12,107 statements；coverage为676 complete、153有理由排除、3 queued、0 partial；开放未分类索引候选61。下一段为p.474页标`chp-22:22_CHP-22Index:l3517-3517`。
+
+## 索引p.474页标与两栏（S0 L3517–3588）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页32核实印刷p.474与两栏边界。L3517为生成页标，记excluded/complete；左栏L3519–3542对应UVWXYZ.csv#191–210共20条，右栏L3567–3588对应#211–225共15条。35个索引候选均保持open；#197/cand-2860的既有person类型保留，另34条新分类为21 person、4 archive、7 work、1 family、1 place。左栏类型为12 person、4 archive、2 work、1 family、1 place；右栏为10 person、5 work。
+
+按对象语境分类：Della Pittura Veneziana、Ricche Miniere、Elogio di Rosalba Carriera及六位作家的文本版本组归archive；Zanetti家族归family，Zenobio palace归place。Varie Pitture a Fresco是1760年出版的视觉版画册，按taxonomy的艺术图册规则归work；因此同题正文候选cand-10117由archive改为work，仍与索引候选cand-2859分开等待S3身份对齐。Zocchi双人肖像、Zompini版画系列、Le Arti、六幅Rebecca故事风景画、Hunt of Meleager and Atalanta及Palladian overdoors归work；其中Hunt仅是p.351所提拟议题材，不据此认定作品已完成。索引人物子项只作语境入口，不独立证明关系。
+
+印本页图纠正S0的跨栏/OCR读数：Zatta（非`Zana`）、Zompini（非`Zompmi`）、Zucchi前无`der`，`revision of Boschini’s`中有空格；页图将`6 Landscapes...`确认成独立带引号作品子项，去除S0串入的`...sso`残片。S0和UVWXYZ.csv均保持不改。
+
+修正既有正文候选外键：p.308–309中误连到作品候选cand-2883的Zuccarelli提及与statement映射回人物cand-2879，p.309“work in England”语境映射到人物候选cand-2884。p.344将Zompini姓名及代词从作品候选cand-2875/cand-2876改回人物cand-2874；另新增cand-11458表示Zanetti收藏的Castiglione原画，将其与Zompini的输出版画cand-10110分开，所有权statement指向原画，创作statement指向版画成果。cand-2875/cand-10110及cand-2876/cand-10111仍保持各自独立，留待S3对齐。
+
+将p.342 Zanetti早期欣赏Canaletto和Zuccarelli的合并陈述拆为两个端点明确的statement。为p.328 Baretti、Biffi、Smith、Zanetti的四条褒扬/雇佣陈述，p.339 Zatta支持Dante、p.342 Zanetti欣赏艺术家，以及p.345三条出版/编辑/著述记录补`relation_candidate=true`；共补9条既有标记并新增一条端点明确statement。它们仍是S2关系候选；未写入formal relations。
+
+受控脚本`chp22_index_p474_migration.py`锁定来源、taxonomy、目标表前态及三段哈希，默认dry-run；预演核对分类、提及/陈述外键和关系候选后apply，保留candidate、mentions、coverage、statement四份恢复副本。apply后机械审计`errors=[]`、`s2_missing=[]`；当前11,437候选、26,829 mentions、12,108 statements，832段中678 complete、154有理由排除、0 queued、0 partial；开放未分类索引候选27。下一步转入来源范围与S2交接审计，先核明p.446 `Bentveugels`/`Bergamo`索引种子映射，再比较4个旧版后部`*_intro.md`与规范分节来源。
+
+## p.446 索引种子缺项回补（2026-10-07）
+
+对照CHP-22Index.pdf物理页4（印刷p.446）与S0 L399–402，确认B.csv遗漏四条而非此前只标出的两个主词头：Bentveugels、Bergamo主词头，以及Bergamo下Santa Maria Maggiore、S. Paolo d’Argan两个具名地点子项。Bentveugels指向罗马的北方画家团体，taxonomy归institution；Bergamo和两座具名教堂/建筑位置均归place。章1现有Bentveughels与Schildersbent提及分别映射到cand-3152、cand-2989；Bergamo及Santa Maria Maggiore也有多个正文候选，全部保留待S3身份对齐，不复用身份或据索引添加正文关系。
+
+为保留B.csv现有0–323行索引键，将四个转录补项追加为B.csv#324–327，并新增cand-11459–11462。CSV补项字段依据印本页图；S0和PDF不改，已有mentions/statements不重写。受控脚本chp22_index_b446_seed_backfill.py锁定PDF、S0、taxonomy、B.csv和候选表哈希，默认dry-run；核对缺项、追加行号、类型及新增ID后apply，保留B.csv和候选表恢复副本。索引种子计数现与结构化CSV行数增加到2,934；此回补只解决p.446发现的四行，全书纸本索引与CSV逐项对照仍待完成。
