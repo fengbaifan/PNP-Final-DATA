@@ -6395,3 +6395,12 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 ## 索引p.461页标（S0 L2047）（2026-10-07）
 
 对照`CHP-22Index.pdf`物理页19确认印刷页码为p.461。S0 L2047 `[Page 461]`是生成页标，不是索引词条或原书断言；页图显示运行页眉`INDEX`在L2049，实体条目自L2050开始。将单行段标记为excluded/complete并写`no_semantic_content`理由，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p461_marker_l2047_exclusion.py`锁定来源段、PDF、manifest及S2表前态；dry-run与apply通过，备份coverage。审计`errors=[]`、`s2_missing=[]`；当前832段中651 complete、141有理由排除、40 queued。下一段为p.461左栏`chp-22:22_CHP-22Index:l2049-2103`。
+
+
+## 索引p.461左栏（S0 L2049–2103）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页19的印刷p.461及M.csv#174–223审读左栏50条。L2049为运行页眉`INDEX`，实体条目从L2050起；S0把若干右栏词头碎片粘到左栏行尾，按页图栏界只处理M#174–223，右栏另由下一段处理。48个open候选新增类型：32 person、8 work、3 archive、2 event、1 place、1 family、1 term；保留cand-1682/M#222既有person。cand-1646/M#186 Andrea Memmo的私人绘画收藏类型待决，因为taxonomy没有collection类型；其余候选均保持open而不据索引生成KU。具体分类为：work—M#174/#175（Mei的`Justice and Peace`、`Youth rescued from the Pleasures of Venus`）、#177/#178（Melanconici的试验画`Abraham`及`David with the Head of Goliath`）、#190（Memmo的Prà della Valle城市设计）、#197（Antonello da Messina的`Deposition`）、#201（Michelangelo的`Risen Christ`）、#217（Mola的`Four Elements`）；archive—#187（`Elementi dell'Architettura lodoliana`）、#189（p.330及附录6所载Memmo关于画家地位的档案笔记）、#221（Molinos的`Guida Spirituale`）；event—#184（Memmo获任Procuratore di San Marco）、#191（为庆祝就任而刊行Lodoli的`Apologhi`）；place—#195 Messina；family—#198 Miani family；term—#214 `Modelli`，作为全书反复讨论的预备稿／模型概念归类，不指单件草图。Person类型（含既有M#222）为M#176、#179–183、#185、#188、#192–194、#196、#199–200、#202–213、#215–216、#218–220、#222–223。M#179的教堂作品泛指、#180和#218的付款、#183的“and Carlo Lodoli”、#185任职语境、#188政治改革热忱、#223经销活动均保留人物语境，不独立升为作品、事件或关系；M#222既有person类型不重复迁移。
+
+页图校正两处派生候选：印本M#214 `Modelli`定位为255n，原S0 OCR和M.csv候选读作222n；cand-1674页码从222n校为255n。印本在Mola项下为`payments, 13n`，S0 OCR近似作`payments, izn`，M.csv#218及cand-1678却记录`Five Elements, 12n`；候选子项与定位校为`payments`、`13n`，按p.13一般付款说明留作Mola的人物语境。只改派生候选，不改S0或S1原始M.csv。正文分别支持p.9 Mola创作`Four Elements`，p.154 Mei两件顶棚寓意画，p.220–221 Melanconici作品及教堂委托，p.330和附录6 p.394–395的Memmo手稿笔记，p.364–368的Memmo政治抱负、Prà规划和Lodoli著作，p.382 Correr收藏的Antonello作品，p.81–83 Molinos著作；通用索引导航不产生mentions、book statements或formal relations。
+
+受控脚本`chp22_index_p461_l2049_2103_migration.py`锁定S0段、印本PDF、M.csv、taxonomy、相关正文来源、manifest及候选/coverage/mentions/statements前态；dry-run核对50条映射、48个新分类、1个待决和两项页图校正后通过，再应用并为候选表与coverage保留恢复副本。审计`errors=[]`、`s2_missing=[]`；全库11,436候选、26,829 mentions、12,102 statements，832段中652 complete、141有理由排除、39 queued、0 partial；开放未分类索引候选1,203。下一段为p.461右栏`chp-22:22_CHP-22Index:l2105-2158`。

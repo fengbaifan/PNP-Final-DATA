@@ -1437,3 +1437,6 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.461页标`chp-22:22_CHP-22Index:l2047-2047`：对照CHP-22Index.pdf物理页19确认印刷p.461，将S0生成页标排除/complete；实际索引从L2049的运行页眉后开始。未改候选、mentions、book statements或relations。当前832段中651 complete、141有理由排除、40 queued、0 partial。下一段为p.461左栏`chp-22:22_CHP-22Index:l2049-2103`。
+
+
+完成p.461左栏`chp-22:22_CHP-22Index:l2049-2103`：M.csv#174–223共50条，新增48个类型（32 person、8 work、3 archive、2 event、1 place、1 family、1 term），保留cand-1682/M#222既有person；cand-1646/M#186私人绘画收藏类型待决。印本将cand-1674/M#214 Modelli页码从222n校为255n；将cand-1678/M#218由错误的Five Elements, 12n校为印本“payments, 13n”，并按一般付款语境归person。M#189是附录所载Memmo档案笔记，M#190是Prà della Valle设计，M#191是刊行Apologhi事件。索引未新增mentions、book statements或relations。当前832段中652 complete、141有理由排除、39 queued、0 partial；开放未分类索引候选1,203。下一段为p.461右栏`chp-22:22_CHP-22Index:l2105-2158`。
