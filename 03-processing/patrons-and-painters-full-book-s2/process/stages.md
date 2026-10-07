@@ -6703,3 +6703,13 @@ Hibbard专著`cand-5163`→Barberini palace地点`cand-0240`。印本索引将�
 p.403 Alazard委托绘画statement保留空主语：来源没有指明委托者；Colbert与Abate Luigi Strozzi是“through”结构中的中介，Franceschini是受委托画家，均不能代填委托主体。其余端点由statement原有提及候选直接支持；以上均是S2来源陈述候选，不是S6正式边，也不表示已独立查阅引文原作。
 
 本次新增2个source-derived候选和1条提及，修正2条提及映射；9条候选中8条补齐端点，1条保留有理由的空主语。全库仍为2,262条关系候选：2,154条两端齐全、74条仅有主语、23条仅有宾语、11条两端均空，共108条缺至少一个端点。表内现有11,443个候选、26,829条提及和12,112条statement；严格阶段审计为`s2_missing=[]`、`errors=[]`。这一轮只关闭p.396–405的缺端点复核，其他章节仍待全书交接审计。
+
+## 全书S2交接审计续：第八章p.206–238关系候选与复合断言复核（2026-10-08）
+
+第八章初始27条缺端点关系候选逐条对照原文、脚注、已建候选及statement回链。p.206两幅Van Dyck画分别映射至作品候选；p.207 Roomer寻求的Castiglione动物画与Bamboccianti/战画家作品组拆开；p.208 Jan与Ferdinand van den Einden分别作为Roomer商业伙伴，Jan Vandeneynde/Jan van den Einden身份仍留S3。p.210 Ruffo与Rosa、Brandi、Cerquozzi分别配对；三幅Rembrandt画按索引子项映射至Aristotle、Alexander与Blind Homer，并将p.209两条引文的body链接扩展到拆分后的statement；为Guercino及Mattia Preti争取公共委托也分别记录，保留“努力争取”不等于委托已获批。p.210跨页房屋句以p.211姓氏闭合，分别链接Andrea、Lorenzo、Ottavio；p.211“著名收藏家”描述改为三位人物各自的属性断言，不再误作del Rosso家族→Andrea关系。p.206–211其余未具名画作组、Ruffo收藏分散、参议员职衔等保留为来源断言，不造具体端点。
+
+p.229 Ferdinand受Viviani、Lorenzini、Redi教育拆为三条候选；“婚姻换取访威尼斯许可”映射至Venice，同时与Violante婚姻statement区分；Ferdinand死前未即位与Gian Gastone为末代Medici prince分开。p.230威尼斯娱乐补地点端点，Zeno、Menzini、Maffei支持关系各自登记；Redi及其他诗人的出版资助因没有具体版本/作品而保留一般断言。p.231四幅1690年代从教堂购得的画映射各自作品候选，Fra Bartolommeo《S. Marco》沿用已有独立statement；跨页续文将Ferdinand信件中反复出现的威尼斯画家名称连至Cassana，引用回链更新。早期Franceschini宗教画与一般收藏比较分开，p.232两位未具名画家的不同绘画指令分别映射至独立人物候选。上述拆分均未新增mentions或候选，也未生成S6正式关系。
+
+p.238注3与注5分别校正为《The Painter’s Family》/《The Fair at Poggio a Caiano》→Uffizi `cand-7945`，修复作品与保管地点的端点方向。注4的地点候选Pisa Cabinet `cand-8048`已在，但“These pictures”的先行词可能涵盖两幅genre scene或连同前一幅讽刺画，且“are—or were in 1941”保留时间不确定；不把地点误作主语，也不任选作品补齐。第八章最终保留3条有理由的开放端点：p.207三位未具名女儿的分配对象、p.211未具名联姻家族、p.238注4未定范围的作品组。p.209一般审美/定价、p.210收藏分散、p.211死亡年代/职衔及p.231未具名威尼斯画作意向均保留为`relation_candidate=false`的来源断言，不以空关系冒充实体边。
+
+全库现有11,443个候选、26,829条提及和12,149条statement；2,279条关系候选中2,195条两端齐全、61条仅有主语、13条仅有宾语、10条两端均空，共84条缺至少一个端点。当前剩余缺端点按章为第7章1、第8章3、第9章19、第10章27、第13章8、第14章7、第16章3、第17章2、第18章7、第19章6、第20章1。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`；两条既存enrichment source_ref警告仍在。下一步按书序复核第九章19条缺端点候选；机械审计不替代语义判断。

@@ -1502,3 +1502,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 完成p.474页标、左栏和右栏：35个索引候选均保持open，34个新分类；cand-2860既有person类型保留。类型为22 person、4 archive、7 work、1 family、1 place。按印本确认为Zatta、Zompini、Zucchi，并修正S0跨栏残片的语义解读，原始S0及索引CSV未改。Varie Pitture a Fresco按视觉版画册归work，正文候选cand-10117由archive改为work。p.344修复Zompini人物/作品错连并新增Castiglione原画候选cand-11458；p.342合并欣赏陈述拆为两个明确端点statement，另为p.328、p.339、p.345既有陈述补关系候选标记。未新增正式relations。审计errors=[]、s2_missing=[]；当前832段678 complete、154 excluded、0 queued，候选11,437、mentions 26,829、statements 12,108，开放未分类索引候选27。下一步核明p.446索引种子映射，并做来源范围与全书S2交接审计。
 
 p.446索引种子差异已核实并回补：印本有Bentveugels、Bergamo主词头和两个Bergamo地点子项，原B.csv漏录。四行追加为B.csv#324–327并新增cand-11459–11462；已有正文候选与提及不合并，留S3对齐。原始S0与PDF未改。B.csv及候选表恢复副本已保存。当前全书candidate index rows为2,934；还需逐项核对其余印本索引与A–Z CSV的范围一致性。
+
+## 第八章全书S2交接审计：关系候选端点（2026-10-08）
+
+复核p.206–211、p.229–232及p.238。对Van Dyck两幅画、Roomer寻找的两类画作、Roomer两位商业伙伴、Ruffo偏爱的三位画家、三幅Rembrandt画、两位争取公共委托的画家、del Rosso三兄弟居住关系、Ferdinand的教育者/作者支持/购藏作品、Franceschini作品、两位未具名画家指令、Andrea的死亡地点/邮政职务及Nicola与两名儿子的父子关系，均拆为单一可识别端点；相应p.207、p.209、p.211、p.229、p.230及p.231脚注/续文回链同步更新。p.238注3和注5改为作品→Uffizi。
+
+一般审美、收藏状态、职衔与死亡年代、无具体出版物的资助、未具名威尼斯画作意向改作来源断言而不列关系候选。3个开放项保留理由：Ferdinand三位未具名女儿的遗赠对象、del Rosso家族联姻的对方家族、p.238注4“These pictures”的先行词范围。无新增候选或mention，无S6正式关系。全库当前11,443候选、26,829 mentions、12,149 statements；2,279条关系候选中2,195条端点齐全、84条仍有至少一端缺失，按章分布和证据见[过程记录](../process/stages.md)。严格阶段审计`errors=[]`、`s2_missing=[]`；下一步复核第九章19条开放端点。
