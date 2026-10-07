@@ -1605,3 +1605,7 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 ## 第四章p.94注2引文回链（2026-10-08）
 
 修复Salerno引文note statement上失效的`citation_body_statement_id`，改指向现存Giustiniani收藏正文statement。递归核查全部statement内嵌statement ID后，悬空引用为0；脚注pending标记为0。严格阶段审计通过，详细依据见[过程记录](../process/stages.md)。
+
+## 候选表面提示的人工裁决（2026-10-08）
+
+在678个已审段的4,316个启发式未覆盖跨度中，筛出193条非索引、具大写字母且实体候选ID唯一的提示；147条按提示跨度直接映射，另9条边界/类型错配提示改用准确跨度并产出12条mentions，余下37条不映射。另4,123条提示（含3,305条索引页提示）未按本批规则系统审阅；三个子跨度另行核实。共新增159条mentions，不能据此宣称全书召回完整。现有1,019 KU、11,452 candidates、12,254 statements、1,227 relation candidates不变；mention现为27,011。严格阶段审计通过，`s2_missing=[]`、`errors=[]`；细节与可重现脚本见[过程记录](../process/stages.md)。

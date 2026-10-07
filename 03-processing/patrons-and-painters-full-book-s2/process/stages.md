@@ -6890,3 +6890,11 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 对`book-statements.jsonl`内所有嵌套`st-*`引用递归扫描后，发现第4章p.94注2 statement `st-chp4-intro-notes-02-salerno-citation`的`citation_body_statement_id`仍指向不存在的旧ID `st-chp4-sec-i-l3-4-collection`。对照S0注释L12、正文L3及当前statement，目标应为`st-chp4-sec-i-l3-4-collection-ranking`（Giustiniani收藏判断，正文标记2）。受控脚本`chp4_intro_salerno_citation_link_reconciliation.py`锁定statement表、两份S0转录及PDF哈希，dry-run后只更新这一处引用；恢复副本位于`%TEMP%\pnp-chp4-salerno-citation-link-aa2v_bmv`。
 
 更新后全表递归扫描未发现悬空的statement ID；脚注pending标记仍为0。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`，S2覆盖及实体表计数未变。p.270错位注7和p.359重复且无正文标号注4保留原说明；S2总交接审计仍未完成。
+
+## 全书候选表面提示裁决与提及补录（2026-10-08）
+
+只读扫描遍历678个已审S2段，返回4,316个未覆盖候选名称跨度；这些是定位提示，不是召回率或准确率结果。本次筛出非索引段、含大写字母、且过滤到人名/地点/机构/作品/家族/事件/档案类型后仅对应一个candidate ID的193条提示，逐条对照S0原文、candidate主词/子项和现有mentions。147条直接映射成立；另9条提示因实体边界或候选类型错配改用实际名称跨度，生成12条mentions；其余37条因泛词、同名地点不明或对象身份不足而不写入。
+
+这12处纠正包括：把`and Marco Ricci`、`and Gaulli`、`and Caravaggio`、`and Testa`改为实际人名（Testa在该段另有一处未被提示覆盖）；把四处`in Paris`错配复核为六条巴黎城市提及，其中两条是嵌套在Salon de Paris事件和Petit Palais馆藏地点中的城市名；把`S. Marco`候选错配复核为完整职务`Procuratore di S. Marco`。Camerino只记录为Giovanni Angelo da Camerino姓名中的嵌入地名，不从中追加关系断言。未将Prince、Collection、Private Collection等泛词映射为人物或档案，也未把Urbino的Palazzo Ducale强连到索引中身份不明的同名候选。共新增159条mentions（147条直接候选跨度、12条改正/嵌套跨度）；候选、statement、coverage和关系表未改。
+
+受控脚本`chp1_21_candidate_surface_mention_reconciliation.py`哈希锁定mentions表、候选表、segments及涉及的28个S0文件，dry-run后apply；plan SHA-256为`4695bdf747a6d70c2851e01bfe970e9919b3e3c3970b24f76faaf1277fcbfdd5`。恢复副本位于`%TEMP%\pnp-s2-surface-mentions-20261008-064142\mentions.csv`；mentions表SHA-256由`f9a9d453a6fe4b40d4e7acc75a210b0dd5aa3bea035f6874c037f53c2a666422`变为`41d8c2c4a609b9e38b7176e946aa898e1071ba06a62d5fb6dcaa84cb365bfd53`。严格阶段审计通过，`s2_missing=[]`、`errors=[]`，提及总数为27,011。另4,123个未满足本批筛选条件的扫描提示未被系统审阅；其中3处子跨度经单独核实后写入，索引段提示为3,305条。全书S2语义交接审计仍未完成。
