@@ -6337,3 +6337,17 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页16印刷p.458左栏、S0分段及L.csv#9–56，共48条索引候选，均为open；右栏从L.csv#57（Letterini）开始，不重复分类。按原文指称标注31 person、14 work、2 archive、1 term：Van Laer与Legros的具名画作、Lanfranco的S. Andrea della Valle穹顶构件、Lazzarini的具名画作及被原文明确称为其绘制的Triumphal Arch、Leonardo的绘画和Leoni的蚀刻版画归work；L'Hoggidi（第一章p.3注所述1627年出版物）与Leonardo的`Trattato della pittura`（手稿/论著）归archive。`Landscapes, varying reactions to in Rome and Venice`为term。Van Laer的prices、Lanfranco的payments与无具体题名的Monterey委托、Lazzarini为S. Paolo d'Argan所作的未具名作品，以及Giacomo della Lena“on F. Guardi”等均留在人物语境；p.221注只说S. Paolo d'Argan聘用了包括Lazzarini在内的多位画家，不据此造一件作品或关系。
 
 页图逐行核对后，候选定位有四处S1 CSV转录误差：L#13由`311`校为`3n`，L#15末项由`378`校为`328`，L#34 Le Nain由`122`校为`133`，L#41 Lely由`122n`校为`135n`。只订正`entity-candidates.csv`定位字段，S0 OCR与`L.csv`原转录均保留。页图亦确认S0 L1751 Leonardo词头前的杂字符为OCR噪声、L1754印字为`pittura`（S0 OCR作`pistura`）；不改写来源。受控脚本`chp22_index_p458_l1707_1761_migration.py`锁定段、印本页图、L.csv、taxonomy、相关正文证据与四表前态；dry-run核对48条候选及四个定位修订后通过并应用，为候选表与coverage保留恢复副本。索引导航未新增mentions、book statements或relations。最终候选11,436、mentions 26,829、statements 12,102；832段中646 complete、138有理由排除、48 queued、0 partial；开放未分类索引候选1,475。下一段为p.458右栏`chp-22:22_CHP-22Index:l1763-1817`。
+
+
+## 索引p.458右栏（S0 L1763–1817）
+
+对照`CHP-22Index.pdf`物理页16印刷p.458右栏及S0分段、L.csv#57–105，共49条索引记录：48个开放候选中47个新标29 person、7 work、3 archive、4 term、2 place、1 family、1 institution；cand-1445（L#103 Lot and his Daughters）沿用此前已有的work分类，L#98 Claude Lorrain see-under维持排除。L#59 Flood、L#61合同、L#63 Liechtenstein family、L#64维也纳城堡、L#76学校以及L#70–71两部文献等，按原文所指分别处理；“paintings in collection of Teodoro Correr”不指明单件作品，保留为Pietro Longhi的人物语境。“and”子项及索引所见交往不据此转成正式关系。
+
+正文核对：p.217称The Flood为Liberi送达的画布，并记其S. Maria Maggiore委托合同及后续取消，故具名画作归work、合同文献归archive；“indecency of paintings”归term。p.265直接称Longhi的Fall of the Giants为壁画，归work。p.320说明Lodoli于威尼斯开办、招收学生并持续运营的私立学校，按组织化教学机构归institution；其教育思想和建筑／绘画观点归term。p.322将Nazari与Alessandro Longhi各自绘制的Lodoli肖像列为作品；该复数肖像子项与L#82的Longhi肖像可能重叠，当前只作S2类型判断，留给S3身份对齐处理。p.367确认`Apologhi`及`Elementi dell’architettura lodoliana`为出版文献（archive）。p.393的“两幅谈话场景、Murray先生及其家人”来自1776年拍卖目录，原书明确说目录与归属不足以作定论；保留work候选并保留归属不确定性。
+
+页图逐行核对后，仅修正候选层：L#59子项`Rood, The`校为`Flood, The`；L#62页码`234n`校为`341n`；L#68的`381`校为`384`；L#105的`195`校为`196`。不改S0 OCR或原始L.csv。受控脚本`chp22_index_p458_l1763_1817_migration.py`锁定原书、页图对应PDF、索引CSV、taxonomy、相关正文来源、manifest及表前态；dry-run通过后应用，并为候选表与coverage保留恢复副本。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中647 complete、138有理由排除、47 queued、0 partial；开放未分类索引候选1,428。下一段为p.459页标`chp-22:22_CHP-22Index:l1819-1820`。
+
+
+## 索引p.459页标（S0 L1819–1820）
+
+对照`CHP-22Index.pdf`物理页17确认印刷p.459。S0 L1819 `[Page 459]`为生成页标，L1820 `INDEX`为运行页眉，均属导航性内容；排除并标记complete，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p459_marker_l1819_1820_exclusion.py`锁定S0、PDF、manifest和表前态，dry-run通过后应用并为coverage留恢复副本。当前832段中647 reviewed/complete、139有理由排除、46 queued、0 partial；开放未分类索引候选1,428。下一段为p.459左栏`chp-22:22_CHP-22Index:l1822-1876`。

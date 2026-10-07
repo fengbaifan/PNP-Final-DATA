@@ -1413,3 +1413,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.458左栏`chp-22:22_CHP-22Index:l1707-1761`：L.csv#9–56共48个开放候选，标注31 person、14 work、2 archive、1 term。按页图将cand-1356 L'Hoggidi页码由候选表误录311校为3n、cand-1358末项378校为328、cand-1377 Le Nain页码122校为133、cand-1384 Lely页码122n校为135n；保留原S0 OCR与L.csv。S0 OCR的L1751 Leonardo词头杂字符及L1754 `pistura`未改；分别据页图识别正常词头与印字`pittura`。区分建筑构件穹顶、具名绘画/蚀刻版画与论著；Lanfranco payment/commission及S. Paolo d'Argan用工事实不拆成无题名作品或关系。索引导航未新增mentions、book statements或relations。当前832段中646 complete、138有理由排除、48 queued、0 partial；开放未分类索引候选1,475。下一段为p.458右栏`chp-22:22_CHP-22Index:l1763-1817`。
+
+
+完成p.458右栏`chp-22:22_CHP-22Index:l1763-1817`：L.csv#57–105共49条记录，48个开放候选中47个新分类，保留cand-1445既有work类型并排除L#98 see-under别名。分类为29 person、8 work、3 archive、4 term、2 place、1 family、1 institution。按p.217、p.265、p.320–322、p.367与p.393正文语境区分具名作品、合同、文献、学校、观点及人物语境；p.393拍卖目录的两幅Longhi作品保留归属不确定，p.322肖像索引存在候选重叠，留待S3对齐。按页图将候选层L#59 `Rood, The`校为`Flood, The`，并订正L#62、#68、#105三处页码；S0和L.csv未改。索引导航未新增mentions、book statements或relations。当前832段中647 complete、138有理由排除、47 queued、0 partial；开放未分类索引候选1,428。下一段为p.459页标`chp-22:22_CHP-22Index:l1819-1820`。
+
+
+完成p.459页标`chp-22:22_CHP-22Index:l1819-1820`：对照CHP-22Index.pdf物理页17确认印刷p.459，将生成页标与运行页眉排除并标记complete；未改候选或事实表。当前832段中647 complete、139有理由排除、46 queued、0 partial。下一段为p.459左栏`chp-22:22_CHP-22Index:l1822-1876`。
