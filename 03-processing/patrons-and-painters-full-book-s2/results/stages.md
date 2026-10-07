@@ -1320,3 +1320,11 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.447左栏、右栏与p.448页标
 
 完成`chp-22:22_CHP-22Index:l456-510`及`l512-566`：按PDF物理页5的实际双栏分别核读B.csv#181–227与#228–274，新增类型46项和46项；左栏47项均为person，右栏分类为42 person、3 place、1 term，cand-0387 Bonfiglioli collection保留待分类。B.csv的Niccolò及其他重音乱码依页图校正知识候选，不改S1来源CSV。索引导航未新增mentions、book statements或relations。再按物理页6印刷p.448排除L568页标。全表为11,436候选、26,829 mentions、12,102 statements；832段中626 complete、128有理由排除、78 queued、0 partial；开放未分类索引候选2,423。Bentveugels、Bergamo两个S1索引种子映射仍待全书S2交接审计解决。下一段`chp-22:22_CHP-22Index:l570-624`。机械审计不等同语义验收。
+
+## 索引p.448左右栏
+
+完成`chp-22:22_CHP-22Index:l570-624`与`l626-680`：左栏B.csv#275–323补标46 person，保留1项已有person、1项place及1条excluded交叉指引；右栏C.csv#0–43补标42 person，保留cand-0504/0505两个有p.277注5证据的work候选。页图校读OCR疑点，不改写来源资产；索引导航未新增mentions、book statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中628 complete、128有理由排除、76 queued、0 partial；开放未分类索引候选2,335。下一queued段为p.449页标`chp-22:22_CHP-22Index:l682-682`。
+
+## 索引p.449页标
+
+完成`chp-22:22_CHP-22Index:l682-682`：核对PDF物理页7印刷p.449，排除生成页标，不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中628 complete、129有理由排除、75 queued、0 partial；开放未分类索引候选2,335。下一段`chp-22:22_CHP-22Index:l684-738`。

@@ -6163,3 +6163,19 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 ## 索引p.448页标（S0 L568）
 
 核对`CHP-22Index.pdf`物理页6，确认印刷p.448；S0 L568 `[Page 448]`为生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p448_marker_l568_exclusion.py`校验来源、页图与coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中626 complete、128有理由排除、78 queued、0 partial；开放未分类索引候选2,423。下一段为`chp-22:22_CHP-22Index:l570-624`。机械闭合不代表S2语义交接完成。
+
+## 索引p.448左栏（S0 L570–624）
+
+核对`CHP-22Index.pdf`物理页6（印刷p.448）左栏，对照B.csv#275–323的49条候选行。46个未标类型的候选归person；cand-0434（B.csv#281）原为person，cand-0471（#319，Burlington的Chiswick宅邸）原为place，均保留；cand-2892（#311，Brydges, Grey的see-under交叉指引）维持excluded。页图校读Brienne、Brosses、Brühl及Brunelleschi等OCR疑点；未改S0/S1来源。子项和定位不作为新增断言、提及或关系。
+
+受控脚本`chp22_index_p448_l570_624_migration.py`锁定来源/PDF/B.csv/段哈希和表前态，dry-run后应用并在写前备份候选表与coverage。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中627 complete、128有理由排除、77 queued、0 partial；开放未分类索引候选2,377。下一段为`chp-22:22_CHP-22Index:l626-680`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.448右栏（S0 L626–680）
+
+核对同页右栏及C.csv#0–43，共44条候选行；42个未标类型的主词头/子项对应人物，补标person。cand-0504和cand-0505此前已凭p.277注5证据标为work，本段保留其类型与证据说明。页图复核运行页眉/扫描碎片及Camassei、Canaletto项的OCR页码，来源文本与C.csv均未改写。索引子项和页码不作为新提及、断言或关系。
+
+受控脚本`chp22_index_p448_rcol_l626_680_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，dry-run后应用并为两表留恢复副本。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中628 complete、128有理由排除、76 queued、0 partial；开放未分类索引候选2,335。下一queued段是页标`chp-22:22_CHP-22Index:l682-682`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.449页标（S0 L682）
+
+核对`CHP-22Index.pdf`物理页7，确认印刷p.449；S0 L682 `[Page 449]`为生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p449_marker_l682_exclusion.py`锁定来源、页图和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中628 complete、129有理由排除、75 queued、0 partial；开放未分类索引候选2,335。下一段为`chp-22:22_CHP-22Index:l684-738`。机械闭合不代表S2语义交接完成。
