@@ -6775,3 +6775,15 @@ p.384–385七条开放statement逐条按原文及既有候选处理。政治权
 p.385关于未具名压力、学院或宗教组织没有施加特定艺术教条的概括，及艺术家无法适应其基础崩溃的“某个赞助社会”，均保留为来源断言，不将泛指对象映射到贵族候选。原复合statement拆分为两条：Parma Academy推广未具名的“现代/开明”艺术类型且少有成效，作为机构行动的来源断言；英法“bourgeois painting在意大利没有真实根源”的明确负面类别—地点主张单独记录为候选关系，不推导具体画派、作品或艺术家。
 
 受控脚本`chp18_relation_endpoint_audit.py`固定来源与2个段哈希、七条开放ID、候选类型和表计数；默认dry-run，apply前保存statement表恢复副本，并检查降为断言的记录无遗留关系候选注记。新增1条statement，无新增候选或提及；第十八章开放端点7→0。全库当前11,452候选、26,837提及、12,234 statements；2,311条关系候选中2,299条端点齐全、12条仍开放，分布为第7章1、第8章3、第14章1、第19章6、第20章1。严格阶段审计`s2_missing=[]`、`errors=[]`；脚注statement引用专项检查仍为零失效引用。两条既存enrichment source_ref警告仍在；无S6正式关系写入。下一步按书序复核第十九章6条开放候选，S2整体尚未交接。
+
+## 全书S2交接审计续：第十九章p.393–395关系候选与提及（2026-10-08）
+
+按原文、候选记录和印本页图复核第十九章6条开放端点。p.393 Smith信件中的第二人称“Le”承接p.392所述未具名博洛尼亚收信人，补作Smith→未识别收信人的候选关系；购买对象仍是未命名的画与版画，不推断为个人收藏，未来展示也保留条件语气。移除从前页带入的信件档案候选，避免将跨页上下文误作本页直接提及。
+
+p.393将1776年4月22日、5月16日两场Christie’s拍卖分别关联Smith余下画作与素描；不声称Smith本人售卖，也不把具体作品分配到任一日期。原综合statement拆为拍卖事件、三项未定归属的作品组—艺术家记录，以及Longhi对话画中“Mr Murray”和Farinelli肖像条目的题材描述。保留Haskell对目录质量及归属不确定的警告，未核目录；Mr Murray不并入John Murray。页文“the lists”（S0 OCR作“the fists”）是复数泛指，无法与两份单独目录候选建立不重叠的精确跨度，故不为这两个档案候选新增本页mention，也不据此分配作品或日期。
+
+p.393将1789年匿名拍卖的复合statement收窄为Haskell所报的来源概述，并把自画像、风景及六位艺术家名下的图片组拆为9条S2关系候选。保留“said to have come from Smith’s collection”的转述限定、Haskell对John Strange的括注识别及未核目录状态；不生成具体题名。Fetti与索引候选Feti, Domenico的对应仍待S3。
+
+p.394–395把Memmo笔记里的税务、学院、任命与制度问题保留为待研究/建议类来源断言，不转成已发生的法律状态、机构行为或个人关系。音乐教师与铜版雕刻师免税仅作为笔记中的未核说法；“C. Veneziano”保持局部未识别，移除指向Canaletto的跨章身份候选。p.395的“Vasari lett.”不指明作品或读者；另将“Leggi la vita del Montorsoli in Vasari—Letta”登记为笔记/档案候选→Vasari《Montorsoli传》候选，限定为转录页上的已读标记，不断言读者或日期。Appendix 7行文继续沿用明确提及的信件候选，移除仅来自索引的cand-1515映射，留待S3比较。
+
+受控脚本`chp19_relation_endpoint_audit.py`锁定来源、PDF和3个段哈希、6条开放ID、候选类型及表计数，默认dry-run；写回前展示差异，写回时为statements和mentions分别保存恢复副本。首轮写后审计发现两个目录候选共用一个复数词面的mention跨度违反表约束；已用恢复副本还原两表至提交前字节，并将模糊档案映射留空后重跑。最终新增17条statement、8条精确提及，无候选新增；6条原开放项全部处置，Ch19开放端点6→0。当前全库11,452候选、26,845 mentions、12,251 statements；2,323条关系候选中2,317条端点齐全、6条仍开放，位于第7章1、第8章3、第14章1、第20章1。`python -X utf8 scripts/audit_tables.py --strict-stage`为`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告不变。未写入S6正式边。恢复副本保留于`%TEMP%\pnp-chp19-s2-relation-audit-_3etj7i4`。下一步按书序审第20章唯一开放项，之后进行全书S2交接总审。
