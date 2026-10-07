@@ -27668,3 +27668,30 @@ m-s2-surface-0d95650b5b027951,chp-2:02_CHP-2_sec_iv:l190-245,cand-4653,Paris,238
 m-s2-surface-92b9112b784f65c4,chp-9:09_CHP-9_intro:l323-445,cand-8302,Procuratore di S. Marco,3277,3300,Full office name mapped to its existing institution candidate; the heuristic matched only “S. Marco” to an unrelated painter candidate.
 m-s2-surface-3b3d924db61c3655,front-matter:00_05_List_of_Plates:l3-30,cand-2719,VENICE,380,386,"Part III contents heading; place label only, with no claim. Potential identity overlap with cand-3401 is deferred to S3."
 m-s2-surface-4fff3a42b2010e54,front-matter:00_05_List_of_Plates:l174-185,cand-3578,renaissance,2598,2609,Historical/artistic period in a quoted claim about Innocent XI; footnote 3 attributes the claim to an unnamed recent author.
+m-s2-surface-c2409f4facb89361,chp-1:01_CHP-1_sec_ii:l48-60,cand-3126,Rome,243,247,Exact city substring within the locator's longer “in Rome” match; unrelated person and institution subentries are not the referent.
+m-s2-surface-1b566331e23785a6,chp-1:01_CHP-1_sec_ii:l48-60,cand-3126,Rome,2589,2593,Exact city substring within the locator's longer “in Rome” match; unrelated person and institution subentries are not the referent.
+m-s2-surface-1d2f482135648a16,chp-1:01_CHP-1_sec_ii:l137-146,cand-3126,Rome,1428,1432,Exact city substring within the locator's longer “in Rome” match; unrelated person and institution subentries are not the referent.
+m-s2-surface-a85dd2c999cc8f83,chp-1:01_CHP-1_sec_ii:l137-146,cand-3470,Accademia di S. Luca,1946,1966,Second full-name occurrence; the sentence identifies Pieter van Laer as a member of the Roman artists’ academy.
+m-s2-surface-092cf0f08330abb6,chp-1:01_CHP-1_sec_ii:l118-127,cand-3470,Academy,1101,1108,Capitalized anaphor for the Accademia discussed immediately before; the later doctrinal characterization remains temporally qualified.
+m-s2-surface-7e00882ab548f5a6,chp-1:01_CHP-1_sec_ii:l148-153,cand-2477,social position of the artist,1194,1223,Exact indexed concept in Haskell’s Rome–Venice comparison.
+m-s2-surface-632f28c37ea19c5a,chp-1:01_CHP-1_sec_ii:l28-38,cand-0837,contracts,41,50,General term for artistic contracts; not a specific archival instrument.
+m-s2-surface-31776df89c69257d,chp-1:01_CHP-1_sec_ii:l28-38,cand-0837,Contracts,278,287,General term for artistic contracts; not a specific archival instrument.
+m-s2-surface-44a1134dbc974676,chp-1:01_CHP-1_sec_ii:l148-153,cand-0837,contracts,1382,1391,General term for artistic contracts; not a specific archival instrument.
+m-s2-surface-08c4a0c5ba4cb61a,chp-1:01_CHP-1_sec_ii:l168-239,cand-0837,contracts,1933,1942,General term for artistic contracts; not a specific archival instrument.
+m-s2-surface-41cb5e353dc969b8,chp-1:01_CHP-1_sec_ii:l19-26,cand-0840,subject,2613,2620,"Commissioned picture’s subject, discussed as a term of patronal control."
+m-s2-surface-f80630063811864d,chp-1:01_CHP-1_sec_ii:l19-26,cand-0840,subject,2873,2880,"Subject of a religious fresco or altarpiece, discussed as a term of patronal control."
+m-s2-surface-ca45602ccd197619,chp-1:01_CHP-1_sec_ii:l28-38,cand-0840,subject,435,442,"Contract instructions identify the outline of a subject, leaving elaboration to the painter."
+m-s2-surface-69f06039edb855bf,chp-1:01_CHP-1_sec_ii:l28-38,cand-0840,subject,2710,2717,A particular commissioned subject within the discussion of contract terms and price.
+m-s2-surface-c85f2fd8e9a51944,chp-1:01_CHP-1_sec_ii:l40-46,cand-0840,subject,903,910,Subject is discussed with size in the same indexed commission and collecting passage; no individual work is inferred.
+m-s2-surface-c7a3d248204fa80d,chp-1:01_CHP-1_sec_ii:l40-46,cand-0840,subject,1586,1593,Subject-matter of pictures is contrasted with stylistic affinities in a patron’s collection.
+m-s2-surface-1e8babe4c4e76e95,chp-1:01_CHP-1_sec_ii:l40-46,cand-0840,subject,1777,1784,The commission explicitly leaves sacred or profane subject choice to Paolo Girolamo Piola.
+m-s2-surface-5b6f8bdd9f9102e1,chp-1:01_CHP-1_sec_ii:l40-46,cand-0840,subject,2985,2992,The commission requests any subject representing an aspect of Painting.
+m-s2-surface-1a4519fa4bb01573,chp-1:01_CHP-1_sec_ii:l62-71,cand-0840,subject,1513,1520,Subject-matter is listed among the commission terms decided before the time limit.
+m-s2-surface-979aa9490fc91861,chp-1:01_CHP-1_sec_ii:l79-84,cand-0840,subject,2281,2288,Subject is listed among the likely terms agreed between client and artist.
+m-s2-surface-9cc0adab0a11c385,chp-1:01_CHP-1_sec_ii:l168-239,cand-0840,subject,1072,1079,The S. Antonino commission assigned the subject while allowing the painter freedom to elaborate.
+m-s2-surface-f32fe54337b10018,chp-1:01_CHP-1_sec_ii:l168-239,cand-0840,subject,2422,2429,Subject occurs in a quoted letter about Cortona’s refusal to make a proposal without one.
+m-s2-surface-bfe0dba75aba5d40,chp-1:01_CHP-1_sec_ii:l168-239,cand-3451,modelli,3000,3007,Plural of the existing preparatory modello term; the reported Cortona studies remain disputed as works.
+m-s2-surface-ddbb7b48014b2a8d,chp-1:01_CHP-1_sec_ii:l168-239,cand-3451,modelli,3519,3526,Plural of the existing preparatory modello term in the Sacchi examples; no individual study is identified.
+m-s2-surface-ab08f389742d7a19,chp-1:01_CHP-1_sec_ii:l62-71,cand-0841,time limit,1577,1587,Exact contract term describing the deadline imposed on a commission.
+m-s2-surface-5e05f788838eb9d3,chp-1:01_CHP-1_sec_ii:l96-104,cand-1660,Michelangelo,1973,1985,Person reference in the comparison of Bernini’s opportunities with Michelangelo’s.
+m-s2-surface-e848a1b328875688,chp-1:01_CHP-1_sec_ii:l168-239,cand-4957,palace,3228,3234,"The definite place reference follows “Barberini Salone”; mapped to the existing Palazzo Barberini candidate, with cross-chapter identity retained for S3."

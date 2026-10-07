@@ -6908,3 +6908,27 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 另外两条为可成立的提及：目录`PART III VENICE`的跨度380–386映射到纯地点候选`cand-2719`，只记录地理分部标签，不生成断言；它与正文来源候选`cand-3401`的潜在同一性留待S3。第二版导言L185引文中的`renaissance`（跨度2598–2609）确指历史艺术时期，映射到term候选`cand-3578`；句子将判断归于未具名的近期作者，注3定位未补成独立证据。两条均不生成关系。
 
 逐行验证来源跨度、候选类型和现有mentions后追加`m-s2-surface-3b3d924db61c3655`与`m-s2-surface-4fff3a42b2010e54`。写前mentions SHA-256为`41d8c2c4a609b9e38b7176e946aa898e1071ba06a62d5fb6dcaa84cb365bfd53`，写后为`1b2bc6054376e91560c087be94119a3283d262bd72fa6c56be96306a9235a1cd`；恢复副本在`%TEMP%\pnp-s2-frontmatter-mentions-v32uuif7\mentions.csv`。写后定向重扫书前材料仍有14处提示，均为上述no-write类型。严格阶段审计通过：1,019 KU、11,452 candidates、27,013 mentions、12,254 statements，`s2_missing=[]`、`errors=[]`；`enr-06678`和`enr-06937`两条既存source_ref警告不变。其他章节、书目和索引提示尚未完成系统语义裁决，全书S2交接仍未完成。
+
+## 第一章候选表面提示全量裁决（2026-10-08）
+
+在已审阅的27个第一章段落上运行`python -X utf8 scripts/audit_s2_candidate_surfaces.py --chapter chp-1`，定位64处未覆盖表面提示。逐项核查原句、候选主词/子项、候选类型和既有mention后，接受27处、拒绝映射37处；扫描提示仅是对现有候选名称的查漏，不代表全章召回率。
+
+新增27条mentions：将3处被错误候选词形包住的`in Rome`改记准确城市跨度（`cand-3126`）；补`Accademia di S. Luca`和紧接前文的`Academy`指代（`cand-3470`）；补“social position of the artist”（`cand-2477`）；补4处一般合同概念（`cand-0837`）、12处合同/委托语境中的subject（`cand-0840`）、2处`modelli`术语（`cand-3451`）、`time limit`（`cand-0841`）、未被既有所有格mention覆盖的Michelangelo（`cand-1660`），以及Barberini Salone语境中的“the palace”（`cand-4957`）。学院晚期组织描述的时间限定仍保留；`cand-4957`与其他章节宫殿候选的身份比较留待S3。仅新增提及，不增候选、statement、coverage或关系记录。
+
+37处拒绝映射提示按来源段和字符起点列出如下；`@ 后为该段合并文本的零起始字符位置：
+
+- 未具名的一般宫殿（6）：`sec_i:l26-33@120`、`sec_i:l3-13@1144`、`sec_ii:l10-17@2111`、`sec_ii:l168-239@643`、`sec_ii:l3-8@231,1188`。
+- 未指向独立作品的altarpieces（2）：`sec_i:l26-33@511`、`sec_ii:l48-60@1256`；后者段内具体作品另有mention。
+- 泛称churches（6）：`sec_i:l26-33@1172`、`sec_i:l3-13@1239`、`sec_i:l35-36@112,484`、`sec_ii:l10-17@1534`、`sec_ii:l62-71@402`；各处未指认单一教堂。
+- 描述性或无独立身份的collection（2）：`sec_i:l3-13@1314`、`sec_ii:l168-239@3722`；Mahon本人已有mention。
+- Prince/prince头衔或匿名角色（6）：`sec_i:l38-47@949,1088,1186`、`sec_ii:l148-153@221`、`sec_ii:l3-8@1538,1985`；并非《君主论》或可识别个人。
+- 价格泛称（3）：`sec_ii:l106-116@445`、`sec_ii:l19-26@539`、`sec_ii:l73-77@1628`。
+- drawings媒材泛称（3）：`sec_ii:l106-116@719`、`sec_ii:l48-60@1048,2126`。
+- Academy成员资格讨论中的普通subject-matter（1）：`sec_ii:l118-127@751`；不属于Contracts下的subject概念。
+- 未指认单件作品的portraits（2）：`sec_ii:l129-135@2586`、`sec_ii:l40-46@2511`。
+- 隐喻battle（1）：`sec_ii:l155-159@1936`。
+- 一般payment方式（2）：`sec_ii:l168-239@3933`、`sec_ii:l73-77@364`。
+- 艺术家的一般个人特质temperament（1）：`sec_ii:l48-60@77`；区别于p.21–23的“artistic temperament”概念史。
+- character普通品质义（2）：`sec_ii:l48-60@1592`、`sec_ii:l62-71@1305`。
+
+受控计划`chp1_candidate_surface_prompt_reconciliation.py`锁定候选、mention、segments、相关S0来源及两个已接收KU卡片的SHA-256。dry-run计划SHA-256为`3d0c94196fdd9f2ed20e67e29f6cbcfe2218e0047ab7f19a0cfd7f3a3d32e342`；写前mentions SHA-256为`1b2bc6054376e91560c087be94119a3283d262bd72fa6c56be96306a9235a1cd`，写后为`ffa49a2e539ff17ddd2fa27e3cc286ac67a89930515f0ddaafa9f66cdc380b26`。恢复副本为`%TEMP%\pnp-s2-chp1-surface-prompts-20261008-071818\mentions.csv`。写后同一定位器返回的37处提示与拒绝映射集合完全一致。严格阶段审计通过：1,019 KU、11,452 candidates、27,040 mentions、12,254 statements，`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告不变。下一步按书序审理第二章75处提示，全书S2交接审计仍未完成。

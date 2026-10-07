@@ -1,5 +1,7 @@
 ﻿# 第一章样例：第一部分当前结果
 
+**全书 S2 候选表面复核补充（2026-10-08）：** 第一章27个已迁移段的64处候选表面提示已逐项核对，新增27条mentions，37条因泛称、普通词义或候选子项错配而拒绝映射。第一章当前共701条mentions；候选、statement、coverage和关系记录未因本轮改变。严格阶段审计通过；该提示集复核不替代全章召回率或独立语义验收。精确跨度与裁决理由见[全书S2过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#第一章候选表面提示全量裁决2026-10-08)。
+
 **关系证据更新（2026-09-25）：** Fulvio Lenzo 2005年建筑史研究第32页记载，1688年建造的加尔默罗圣母祭坛用于安置圭尔奇诺1665年画作；现以该研究支持作品→小堂的`installed_at`关系，并新增按该次祭坛建造行为界定、无QID的Maria Teresa Ruffo来源型人物端点及小堂`commissioned_by`关系。此`commissioned_by`只指1688年祭坛建造，不指1665年画作；同名修女身份未定，不与D.a Maria Ruffo合并。详见[关系证据复核过程](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#guercino-altar-installation-lenzo-2005)。
 
 **初步对齐快照（2026-09-25）：** 当前日志333条，覆盖325个对象；184个有Wikipedia—Wikidata身份配对，132个已有未配对、范围不符或候选排除结论；另有9个待证对象（5个候选未决、4个版本冲突），按既定范围保留。D.a Maria Ruffo、Maria Teresa Ruffo祭坛委托者、《苏珊娜与长老》及本轮两件Leoni肖像均有来源支持但未配对Wiki身份；万神殿Virtuosi学院与Q610627双向配对，原9项待证对象不变。此状态只描述初步身份对齐，不代表内容补足或关系已完成。详见[对齐过程与统计口径](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#第一章初步对齐现状快照2026-09-25)。
