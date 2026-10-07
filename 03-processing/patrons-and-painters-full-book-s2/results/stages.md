@@ -1419,3 +1419,6 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.459页标`chp-22:22_CHP-22Index:l1819-1820`：对照CHP-22Index.pdf物理页17确认印刷p.459，将生成页标与运行页眉排除并标记complete；未改候选或事实表。当前832段中647 complete、139有理由排除、46 queued、0 partial。下一段为p.459左栏`chp-22:22_CHP-22Index:l1822-1876`。
+
+
+完成p.459左栏`chp-22:22_CHP-22Index:l1822-1876`：L.csv#106–120、M.csv#0–32共48个开放候选，分类24 person、13 place、6 work、5 archive。将cand-1460 L#118页码候选层`231`校为印本`23n`；保留S0和原始L.csv。McSwiny未实现的Van Dyck肖像蚀刻计划按可识别设计提案归work，与正文候选cand-9006一致，不声称已执行。S0 L1876残片`X 459`不属印刷索引内容。未新增mentions、book statements或relations。当前832段中648 complete、139有理由排除、45 queued、0 partial；开放未分类索引候选1,380。下一段为p.459右栏`chp-22:22_CHP-22Index:l1878-1931`。

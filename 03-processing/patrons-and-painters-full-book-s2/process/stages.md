@@ -6351,3 +6351,10 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 ## 索引p.459页标（S0 L1819–1820）
 
 对照`CHP-22Index.pdf`物理页17确认印刷p.459。S0 L1819 `[Page 459]`为生成页标，L1820 `INDEX`为运行页眉，均属导航性内容；排除并标记complete，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p459_marker_l1819_1820_exclusion.py`锁定S0、PDF、manifest和表前态，dry-run通过后应用并为coverage留恢复副本。当前832段中647 reviewed/complete、139有理由排除、46 queued、0 partial；开放未分类索引候选1,428。下一段为p.459左栏`chp-22:22_CHP-22Index:l1822-1876`。
+
+
+## 索引p.459左栏（S0 L1822–1876）
+
+对照`CHP-22Index.pdf`物理页17印刷p.459、S0分段及L.csv#106–120、M.csv#0–32，共48个开放候选，分类为24 person、13 place、6 work、5 archive。类型依据索引所指及正文语境：城市、宫殿、教堂为place；St Peter's façade、Bernini的Louvre方案、Maderno的Barberini palace方案、McSwiny的英国名人纪念画系列、Van Dyck肖像蚀刻提案及Maggiotto的`Good Inclinations leading a Youth to Knowledge`归work；`Il Gran Teatro delle Pitture e Prospettive di Venezia`、Machiavelli的`Prince`、`To the Ladies and Gentlemen of Taste`、`Tombeaux des Princes`及`Considerazioni elettriche`归archive。p.287称McSwiny的Van Dyck蚀刻计划未能实现；仍以可识别的艺术设计提案归work，与正文候选cand-9006一致，但不声称蚀刻或出版已经完成。p.289称纪念画系列到1722年已有15幅开工，p.290–291叙述已完成作品的购藏及1741年画册出版。L#117“patronage of Domenichino”、McSwiny的“and”及“artists employed/Venetian artists”等子项保持相应人物候选语境，不据索引新增关系。S0 L1876残片`X 459`与页图不符，不是索引条目，未建候选。
+
+页图逐项核对后，仅订正候选层L#118（cand-1460）页码`231`为印本`23n`；S0 OCR和原始L.csv均保留。受控脚本`chp22_index_p459_l1822_1876_migration.py`锁定索引段、印本PDF、L/M索引CSV、taxonomy、相关正文来源、manifest与候选/coverage表前态；dry-run通过后应用并保留恢复副本。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中648 complete、139有理由排除、45 queued、0 partial；开放未分类索引候选1,380。下一段为p.459右栏`chp-22:22_CHP-22Index:l1878-1931`。
