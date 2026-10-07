@@ -1352,3 +1352,7 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.451页标与页眉
 
 完成`chp-22:22_CHP-22Index:l910-911`：核对PDF物理页9，排除L910生成页标和L911运行页眉，不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中632 complete、131有理由排除、69 queued、0 partial；开放未分类索引候选2,154。下一段`chp-22:22_CHP-22Index:l913-1022`。
+
+## 索引p.451两栏、p.452页标及左栏
+
+完成`chp-22:22_CHP-22Index:l913-1022`：对照p.451页图和C.csv#227–321，89个开放候选标注25 person、42 place、22 work，保留6个see-under排除项；校读Clément及Città di Castello拼写。随后按PDF物理页10排除p.452页标L1024；完成左栏`l1026-1080`，对照C.csv#322–371标注49个开放候选（32 person、4 place、5 work、6 term、1 family、1 institution），保留cand-0834既有person类型。三个段落均未增加mentions、book statements或relations。现11,436候选、26,829 mentions、12,102 statements；832段中634 complete、132有理由排除、66 queued、0 partial；开放未分类索引候选2,016。下一段为右栏`chp-22:22_CHP-22Index:l1082-1136`。

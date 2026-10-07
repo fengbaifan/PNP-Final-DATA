@@ -6211,3 +6211,19 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 ## 索引p.451页标与页眉（S0 L910–911）
 
 核对`CHP-22Index.pdf`物理页9，确认印刷p.451；S0 L910 `[Page 451]`为生成页标，L911 `INDEX`为运行页眉。按`excluded/complete`关闭并记`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p451_marker_l910_911_exclusion.py`校验来源、页图和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中632 complete、131有理由排除、69 queued、0 partial；开放未分类索引候选2,154。下一段为`chp-22:22_CHP-22Index:l913-1022`。机械闭合不代表S2语义交接完成。
+
+## 索引p.451两栏（S0 L913–1022）
+
+核对`CHP-22Index.pdf`物理页9（印刷p.451）及C.csv#227–321，共95条索引行。L913–1022覆盖两栏；对照页图校正页码和栏界，来源Markdown、PDF与C.csv保持不变。六条既有see-under交叉指引C#314–319继续excluded；其余89个开放候选标注25 person、42 place、22 work。教堂/建筑性空间归place，St Peter's内部对象C#238–241保留为work。Cignani的Bacchanal、Forli Cathedral穹顶绘画、Jupiter giving Suck、St John the Baptist以及Cigoli的Deposition按具体作品处理，依据第8章p.220及p.231、第10章导言p.282n和既有作品映射。`Clément, Abbé`按印本重音校正候选拼写；Città di Castello也经页图核对。页码均为索引导航，不据此新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p451_l913_1022_migration.py`锁定来源、PDF、C.csv、段哈希及表前态，dry-run后应用；写前备份候选表和coverage。处理后11,436候选、26,829 mentions、12,102 statements；832段中633 complete、131有理由排除、68 queued、0 partial；开放未分类索引候选2,065。下一段为p.452页标`chp-22:22_CHP-22Index:l1024-1024`。机械审计不替代全书S2语义交接审计。
+
+## 索引p.452页标（S0 L1024）
+
+核对`CHP-22Index.pdf`物理页10，确认印刷p.452；L1024 `[Page 452]`是生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p452_marker_l1024_exclusion.py`校验来源、PDF、段哈希和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中633 complete、132有理由排除、67 queued、0 partial；开放未分类索引候选2,065。下一段为`chp-22:22_CHP-22Index:l1026-1080`。
+
+## 索引p.452左栏（S0 L1026–1080）
+
+核对同一PDF物理页10的左栏；L1026是页眉/页码行，C.csv#322–371共50行对应L1027–1080。为49个开放候选补标32 person、4 place、5 work、6 term、1 family、1 institution；既有cand-0834（C#364，Stefano Conti）保留person。Codazzi四幅有题名绘画及Coli的Lepanto壁画组归work；Contarini family与villa分作family和place；Congregazione dei Virtuosi归institution。`Competitions`和Contracts通用栏目及子项按term处理，未据索引标题臆造具体比赛或存世合同。C#361仍为Antonio Conti人物词头，失传论画文书另由archive候选cand-9728表示；C#364附录文件子项不改变其人物身份。来源Markdown、PDF、C.csv均未改写，索引导航不增加mentions、book statements或relations。
+
+受控脚本`chp22_index_p452_l1026_1080_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，dry-run后应用并写前备份候选表与coverage。处理后11,436候选、26,829 mentions、12,102 statements；832段中634 complete、132有理由排除、66 queued、0 partial；开放未分类索引候选2,016。下一段为右栏`chp-22:22_CHP-22Index:l1082-1136`。本次coverage审计曾发现空reviewed段缺`no_semantic_content`前缀，已补正两段说明；修正后重新审计。
