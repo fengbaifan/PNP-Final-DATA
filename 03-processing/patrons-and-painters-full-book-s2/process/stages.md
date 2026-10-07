@@ -6828,3 +6828,19 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 注1指向Chapter 7与Lavagnino，未给具体书名或页码；注2定位Pallucchini 1933–34 pp.1491–1511，注3定位Donzelli p.82；注5、6是《Court and Society from Elizabeth to Anne》卷II的`passim`及p.140定位，书目给出London 1864版本，但作者与人物候选的身份对应留待S3。上述引文均未独立查阅。注4已有statement记录Haskell所称Nymphenburg的Amigoni作品群始于1716；未具名单件作品、媒材或亭阁，Lavagnino p.121（卷次未明）及Powell pp.68–70、110、147未独立查阅。纸本确认正文印刷注号5、6分别被S0 OCR识为6、8；S0来源未改。
 
 受控脚本`chp10_p278_note_status_reconciliation.py`默认dry-run，锁定陈述表、覆盖表、规范Markdown与PDF哈希，核验六条statement的印刷页、脚注行、既有回链和完整限定语；apply前在`%TEMP%\pnp-chp10-p278-note-status-*`保存两表恢复副本。写回仅改六条正文`qualification`及正文/合并注释两条coverage的说明；未增删候选、mentions、statement或关系。写前陈述表/coverage哈希分别为`f220ee8801cd609920573b17ef88133c4fd35d723b3d3bf53fd590b266507578`与`7e47da9f1457af7bf4043be694770b6941d24c1013d1dd919ba4e31c5bb46f3f`；写后分别为`278fc5d4383edcea5e6c66b3121654235c014428805be2b9bb8b3b49ada83294`与`9ea7f371956b5abe277cd887f4d5f48d87f2dc205f01c4f0fc3885149e1d596a`。后续仍须继续全书脚注状态/回链核查及S2总交接审计。
+
+## 全书S2脚注、引用与关系候选补齐：第一章p.19注1–6（2026-10-08）
+
+对照CHP-1.pdf物理页18（印刷p.19）、第一章整章OCR L796–806及分节OCR注释段L222–227。页图确认注号1–6；注2印本为罗马数字I而S0 OCR写作小写l，来源OCR保持不改。正文脚注回链按标记实际承载的语义句归属：注1–3连到象征性轶事/Ghezzi statement，注4连到艺术家荣衔概述，注5–6连到Lauri与Passeri段；末段自画像statement不挂注释。注1 Baldinucci 1948 p.78、注2 Pascoli I p.122、注3 Pascoli I p.122及II pp.202/205、注5 Pascoli II p.202、注6 Passeri p.285均保留为原书引文定位，被引页未独立查阅；六处精确citation mention分别映射到既有archive候选。
+
+注4拆为两个有明确端点的S2关系候选和一个保留语境的statement：Frederick III→Gentile Bellini（Count Palatine荣衔，原文未给年份）；Charles V→Titian（1533年，按Haskell原句保留其复合荣衔表述）；另记录Haskell将早期授衔称作罕见特恩、对照罗马晚16世纪更常见授衔的限定。没有写入S6正式关系。注6新statement只记录Haskell将前一段Passeri引文与Michelangelo Cerquozzi关联并引Passeri p.285，不把所引品评写成独立人物事实；原先Cerquozzi mention错连至C.csv#157“死后情形”子项，已改用覆盖p.19的index-wide cand-0625。候选端点与新statement中的mentioned_candidate_ids均通过外键核对。
+
+脚注和覆盖边界复核还发现st-chp1-secii-l129-135-04原文摘录误把整章OCR紧随正文的注1、2全文带入；已将该statement和正文coverage行止于L795，注释段独立覆盖L796–806，消除重复计算。受控脚本chp1_p19_footnote_reconciliation.py锁定初始表、来源与PDF哈希，默认dry-run；chp1_p19_citation_coverage_reconciliation.py锁定首轮写回后的表哈希、页图来源及四个引用跨度，同样先dry-run后apply。两次迁移的恢复副本分别位于%TEMP%\pnp-chp1-p19-footnotes-yx9lmvu3和%TEMP%\pnp-chp1-p19-citation-coverage-rh15cgw7。
+
+以首轮前备份逐行比对，改动限于8条statement（其中新增2条关系候选和1条脚注归属statement）、7条mention记录（1条候选重映射、6条citation mention新增）及两条coverage（仅说明和正文范围）；statement数净增3，mentions净增6，候选总数及formal relations不变。当前表SHA-256：statements d322e3b1be951ec0c6e8ca44cae4e9c0ae5ff5bf68a5da944895c0ec432e5448、mentions 68fd3fd001a75f775121c62611aac6ca0871218d30968a63881164e955b4378d、coverage 44487e05a6e3c4e7c594861bb3b202dd8e417de8ce8c5424de2feeaf7fe20566。全库关系候选现为2,325条：2,319条端点完整，6条原有开放项未变（第7章1、第8章3、第14章1、第20章1）。python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、errors=[]；832段中678 complete、154有理由排除，0 queued、0 partial；全库26,851 mentions、12,254 statements。脚注目标statement、candidate外键、引用跨度及两条新关系候选端点专项核对通过。全书S2回链/限定语核查及总交接审计仍未完成。
+
+## 第十四章p.353 Brühl图像母题关系端点复核（2026-10-08）
+
+重新检查CHP-14.pdf物理页7、对应整章OCR L69–71及注释段L185。正文先列Algarotti向Tiepolo委托的两幅作品Maecenas与Flora，随后说Tiepolo把Brühl的悬挂花园和Lorenzo Mattielli的Neptune喷泉“insert into the picture”；句子没有指明是其中一幅还是两幅。注1明确分别定位Maecenas于Hermitage、Flora于De Young Memorial Museum，并给Levey 1957 pp.89–91及Leonardis版画的定位，但没有说明两处母题与两幅作品如何对应；注释时代的馆藏信息及Levey页码未独立验证。
+
+因此st-chp14-p353-bruhl-possessions-in-the-pictures继续保留空object_candidate_id；Maecenas候选cand-2597与Flora候选cand-2590仍是有效的可能作品端点，不能据单数picture或注1的馆藏定位猜配。两个母题也不作一对一分配到作品或Brühl的某一处宅邸。对照statement中candidate_identity_questions和既有mentions后无数据变化（no_delta）；该开放项是原文语境不足，不是候选外键缺失。未写入正式关系。当前开放关系候选仍为6条，S2交接审计继续进行。

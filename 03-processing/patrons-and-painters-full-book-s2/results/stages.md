@@ -1571,3 +1571,11 @@ p.180注4确认两件Poussin作品与Louvre、Detroit Institute of Arts两处收
 ## 第十章p.278脚注状态复核（2026-10-08）
 
 p.278注1–6此前已完成源迁移，六条正文限定语及正文coverage备注却残留“待处理”措辞。本次依据纸本印刷页重新核对并校正六条qualification及两条coverage说明：注1–3、5–6保留为书目/交叉引用定位，注4保留Nymphenburg未具名单件Amigoni作品群始于1716年的原书断言。被引页未独立查阅，作品/亭阁未作合并，Manchester作者身份留待S3。脚注候选、mentions、statements、关系端点和覆盖状态计数未改变；受控脚本、哈希及恢复副本见[过程记录](../process/stages.md)。
+
+## 第一章p.19脚注、引文与关系候选补齐（2026-10-08）
+
+印刷页图与OCR行已对齐。正文脚注1–3、4、5–6分别回链到承载其语义内容的三个statement；注4拆为Frederick III→Gentile Bellini与Charles V→Titian两条S2关系候选，并保留原文对荣衔性质的限定。注6只记录Haskell的Cerquozzi/Passeri归属及未查阅的p.285；六处引文定位新增archive候选提及，p.19 Cerquozzi人物提及改连至覆盖p.19的index-wide候选。整章OCR正文摘录与注释范围已分开，body L763–795、notes L796–806不重复覆盖。全库关系候选增至2,325条，2,319条端点齐全、6条仍开放；statement净增3、mentions净增6。严格阶段审计通过；详细范围、限定语、哈希和恢复副本见[过程记录](../process/stages.md)。
+
+## 第十四章p.353开放关系端点复核（2026-10-08）
+
+纸本及注1确认Brühl的悬挂花园、Mattielli喷泉被说成插入“the picture”，但注释只列出两幅委托作品及各自的馆藏，不将母题逐件配对Maecenas或Flora。开放object候选继续保留，属于原文未定；candidate_identity_questions和现有mentions一致，无表数据变化（no_delta），未写入正式关系。详见[过程记录](../process/stages.md)。

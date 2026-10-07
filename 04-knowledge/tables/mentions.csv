@@ -4860,7 +4860,7 @@ m-chp1-secii-0567,chp-1:01_CHP-1_sec_ii:l168-239,cand-3539,Lateran Palace,8010,8
 m-chp1-secii-0542,chp-1:01_CHP-1_sec_ii:l168-239,cand-3524,Imperial Consistory,8050,8069,Institutional body named in the title granted to Titian.
 m-chp1-secii-0394,chp-1:01_CHP-1_sec_ii:l168-239,cand-3126,Rome,8224,8228,Departure destination.
 m-chp1-secii-0468,chp-1:01_CHP-1_sec_ii:l168-239,cand-1842,Pascoli,8377,8384,Author cited for historical examples and later assessments.
-m-chp1-secii-0543,chp-1:01_CHP-1_sec_ii:l168-239,cand-0633,Michelangelo Cerquozzi,8403,8425,Artist whose title is cited as an example.
+m-chp1-secii-0543,chp-1:01_CHP-1_sec_ii:l168-239,cand-0625,Michelangelo Cerquozzi,8403,8425,"Footnote 6 identifies Cerquozzi in connection with the immediately preceding Passeri passage; the p.19 index-wide candidate is used, not the p.138-139 situation subentry."
 m-chp1-secii-0474,chp-1:01_CHP-1_sec_ii:l168-239,cand-1856,Passeri,8426,8433,Author cited for the local example.
 m-chp1-secii-0544,chp-1:01_CHP-1_sec_ii:l168-239,cand-3525,Narducci,8445,8453,Bibliographic author cited for Procaccini’s parents; identity unresolved.
 m-chp1-secii-0535,chp-1:01_CHP-1_sec_ii:l168-239,cand-3522,Hoogewerff,8474,8484,Scholar who published the academy member list; identity unresolved.
@@ -27499,3 +27499,9 @@ m-chp19-p393-060,chp-19:19_CHP-19Appendix:l140-155,cand-10822,The portrait of Fa
 m-chp19-p393-061,chp-19:19_CHP-19Appendix:l140-155,cand-10824,landscapes by Marco Ricci and Zuccarelli,2864,2904,Unspecified landscape group reported among pictures said to have come from Smith's collection in the 1789 sale; individual works are not identified.
 m-chp19-p393-062,chp-19:19_CHP-19Appendix:l140-155,cand-10825,"a number of pictures by Giulio
 Carpioni, Mastelletta, Pietro Liberi, Strozzi, Fetti and Lazzarini",2910,3007,Unspecified picture group reported among works said to have come from Smith's collection in the 1789 sale; individual works and surname identities remain unresolved.
+m-chp1-secii-p19-n5-pascoli-vol2-p202,chp-1:01_CHP-1_sec_ii:l168-239,cand-4552,"Pascoli, II, p. 202.",8377,8397,"Exact p.19 note 5 citation locator for the Lauri anecdote; bibliography identifies Pascoli's Vite, vol. II; cited p.202 was not independently consulted."
+m-chp1-secii-p19-n6-passeri-p285,chp-1:01_CHP-1_sec_ii:l168-239,cand-4376,"Passeri, p. 285.",8426,8442,Exact p.19 note 6 citation locator; bibliography identifies the Jacob Hess 1934 edition; cited p.285 was not independently consulted.
+m-chp1-secii-p19-n1-baldinucci-p78,chp-1:01_CHP-1_sec_ii:l168-239,cand-4548,"Baldinucci, 1948, p. 78.",7633,7657,Exact p.19 note 1 citation locator; the bibliography identifies Baldinucci's 1948 Bernini biography; cited p.78 was not independently consulted.
+m-chp1-secii-p19-n2-pascoli-vol1-p122,chp-1:01_CHP-1_sec_ii:l168-239,cand-4834,"Pascoli, l, p. 122",7660,7678,Exact p.19 note 2 locator mapped to the bibliography's Pascoli vol. I candidate; the scan prints Roman I while S0 OCR has lowercase l; p.122 was not consulted.
+m-chp1-secii-p19-n3-pascoli-vol1-p122,chp-1:01_CHP-1_sec_ii:l168-239,cand-4834,"Pascoli, I, p. 122",7756,7774,Exact p.19 note 3 vol. I locator mapped to the bibliography's Pascoli vol. I candidate; cited p.122 was not independently consulted.
+m-chp1-secii-p19-n3-pascoli-vol2-pp202-205,chp-1:01_CHP-1_sec_ii:l168-239,cand-4552,"II, pp. 202 and 205",7776,7795,"Exact continuation of p.19 note 3's Pascoli citation, mapped to the bibliography's vol. II candidate; cited pp.202 and 205 were not independently consulted."
