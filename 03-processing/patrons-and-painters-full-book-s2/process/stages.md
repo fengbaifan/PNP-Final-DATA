@@ -6787,3 +6787,20 @@ p.393将1789年匿名拍卖的复合statement收窄为Haskell所报的来源概�
 p.394–395把Memmo笔记里的税务、学院、任命与制度问题保留为待研究/建议类来源断言，不转成已发生的法律状态、机构行为或个人关系。音乐教师与铜版雕刻师免税仅作为笔记中的未核说法；“C. Veneziano”保持局部未识别，移除指向Canaletto的跨章身份候选。p.395的“Vasari lett.”不指明作品或读者；另将“Leggi la vita del Montorsoli in Vasari—Letta”登记为笔记/档案候选→Vasari《Montorsoli传》候选，限定为转录页上的已读标记，不断言读者或日期。Appendix 7行文继续沿用明确提及的信件候选，移除仅来自索引的cand-1515映射，留待S3比较。
 
 受控脚本`chp19_relation_endpoint_audit.py`锁定来源、PDF和3个段哈希、6条开放ID、候选类型及表计数，默认dry-run；写回前展示差异，写回时为statements和mentions分别保存恢复副本。首轮写后审计发现两个目录候选共用一个复数词面的mention跨度违反表约束；已用恢复副本还原两表至提交前字节，并将模糊档案映射留空后重跑。最终新增17条statement、8条精确提及，无候选新增；6条原开放项全部处置，Ch19开放端点6→0。当前全库11,452候选、26,845 mentions、12,251 statements；2,323条关系候选中2,317条端点齐全、6条仍开放，位于第7章1、第8章3、第14章1、第20章1。`python -X utf8 scripts/audit_tables.py --strict-stage`为`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告不变。未写入S6正式边。恢复副本保留于`%TEMP%\pnp-chp19-s2-relation-audit-_3etj7i4`。下一步按书序审第20章唯一开放项，之后进行全书S2交接总审。
+
+
+## 全书S2交接审计续：第二十章p.401–410脚注状态与p.402–403委托人候选复核（2026-10-08）
+
+对照CHP-20Postscript.pdf物理页11–12、正文规范段、Plate 66图注、第七章p.187同一作品记述及脚注登记，复核p.402 L107–108跨页续至p.403 L111–113的Alazard/Franceschini句。p.402提到年轻Louis XIV继续向意大利寻求艺术人才；p.403只说作品“through Colbert and the Abate Luigi Strozzi”委托给Franceschini，句中没有明确委托主体。Colbert和Strozzi是原文标示的中介，Franceschini为受委托画家；既有第七章p.187也只确认委托发生而未命名委托者。Plate 66确认作品题名及作者，不能补出委托人。p.403注1仅为“Rosenberg.”，已连接到书目候选cand-11181；该短引不提供委托人证据，Rosenberg文章未独立查阅。故st-chp20-p403-alazard-commissioned-franceschini-picture继续保留空主语、作品宾语cand-6888和S2关系候选状态，不推断Louis XIV、Colbert或Strozzi为委托人，也不写入S6正式关系。
+
+同一轮核对全章脚注状态用语：规范注释段chp-20:20_CHP-20Postscript:l211-280已reviewed/complete，p.401–410各页脚注均已转录并链接；但63条正文statement限定语仍写着脚注“pending/queued”。受控脚本chp20_note_status_reconciliation.py锁定statement表、正文、PDF及注释段哈希，默认dry-run；逐条复核输出后只更新63条qualifiers.qualification，未改断言、端点、提及或链接。另保留“引文未独立查阅”、Della Lena对应Haskell 1967出版物的精确书目匹配未决，以及Tessin/其他作者身份留待S3等实质限定。写入前statement表恢复副本为%TEMP%\pnp-chp20-note-status-0kor5zjl\book-statements.jsonl。写后逐行比较确认63行只有qualification字段变化；第二十章脚注待处理语句扫描为0，委托人statement的空主语与作品端点保持不变。
+
+python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、errors=[]，832段中678 complete、154有理由排除、0 queued、0 partial；全库11,452候选、26,845 mentions、12,251 statements。2,323条关系候选中2,317条端点完整、6条仍开放（第7章1、第8章3、第14章1、第20章1）。无S6正式关系写入。下一项为第七章p.180注4中两件Poussin作品与Louvre/Detroit两处馆藏之间未明确逐件配对的候选，之后复核第八章3条与第十四章1条；全书S2交接总审尚未完成。
+
+## 全书S2关系交接审计续：第七章p.180注4配对与脚注限定语（2026-10-08）
+
+对照CHP-7.pdf物理页14及其脚注，注3说明Mahon提出的1632是“两件Poussin作品”的购买日期，不足以证明此前Mazarin委托；注4称两幅作品分别藏于Louvre和Detroit Institute of Arts，但未说明逐件对应关系，所引《Nicolas Poussin》pp.46、65不属于本书来源且本轮未另行查阅。因此`st-chp7-p180-n4-pair-location`继续保留成对候选集、空主宾语和开放状态，不臆配馆藏。相关正文限定仍保留“可能/似乎”、目录页未查及配对不明等信息。
+
+同页3条正文statement仍把已处理脚注写为pending；脚注段和具体注释链接已核实完整后，受控脚本`chp7_p180_note_status_reconciliation.py`仅更新3条`qualifiers.qualification`，不改变claim、端点、mentions或脚注链接。写入前statement表恢复副本为`%TEMP%\pnp-chp7-p180-note-status-h4x6_rj8\book-statements.jsonl`；逐行差异核对通过。其余关系候选端点不变，全书仍有6条开放关系候选：第7章1、第8章3、第14章1、第20章1。
+
+`python -X utf8 scripts/audit_tables.py --strict-stage`复核为`s2_missing=[]`、`errors=[]`；832段中678 complete、154有理由排除、0 queued、0 partial；候选、mentions与statements计数未变。未写入S6正式边。下一步按书序处理第八章3条开放项，并继续核对全书正文与脚注的状态和回链；S2总交接审计尚未完成。
