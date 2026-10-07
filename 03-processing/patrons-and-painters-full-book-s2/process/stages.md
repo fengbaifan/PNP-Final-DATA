@@ -6419,7 +6419,6 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 
 对照`CHP-22Index.pdf`物理页20确认印刷页码p.462；S0 L2160 `[Page 462]`是生成页标，不是索引词条或原书陈述。将单行段标记为excluded/complete，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p462_marker_l2160_exclusion.py`锁定来源行、印本PDF、manifest及S2表前态；dry-run与apply通过，并备份coverage。当前832段中653 reviewed/complete、142有理由排除、37 queued、0 partial。下一段为p.462左栏`chp-22:22_CHP-22Index:l2162-2215`。
 
-
 ## 补核p.461右栏N词条并完成p.462左栏（2026-10-07）
 
 回看印刷p.461整页图发现，S0 L2148–2158在M.csv#224–261之后还含N.csv#0–9；原`chp22_index_p461_l2105_2158_migration.py`只映射M项，coverage虽标complete却漏了9个open N候选。现补录N#0 Nadal、N#1 Naples、N#2 feudal landowners、N#4 Nappi、N#5 Nationalism and art、N#6 Naudé、N#7 Nazari、N#8 Portrait of Carlo Lodoli及N#9 diffusion of Neapolitan painting；类型依次为person、place、term、person、term、person、person、work、term。N#3 Filippo Napoletano的see-under别名既有excluded状态保留。修正后该段覆盖M与N共48条索引记录，46条有类型、2条交叉引用排除。索引导航不新增mentions、book statements或relations。
@@ -6432,3 +6431,21 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页20印刷p.462、S0与O.csv#12–36、P.csv#0–12逐项审读38条；O#23 Paolo Giordano Orsini与P#1 Padovanino为既有see-under排除项，其余36项分类为22 person、6 place、2 institution、4 term、1 work、1 archive。O#16–17 Oratorians是Rome/Venice语境下的宗教机构；O#18 Oratorio、O#34 Ottoboni的Cancelleria theatre以及P#2 Padua、P#3 Prato della Valle、P#5 Palazzo Ducale、P#7 Palazzo Chiericati归place；O#14 Opera in Rome、O#31 patronage effect、O#32 attracting painters failure与P#4 painting social significance是概念或主题归term；O#21 Daphnis and Chloe illustrations归work，O#26 Osservatore Veneto期刊归archive。O#33 patronage of Trevisani保持人物语境，不由索引子项创建关系。印刷p.462右栏还包含P#12 Paltronieri（L2259），已纳入本段；本页右栏止于Pamfili Gianbattista，下一源段为p.463页标。
 
 同页正文候选cand-6545“theatre in the Cancelleria”据p.164–165具体场馆语境补为place；cand-6546舞台布景已为work。此处只补类型，不声称cand-6545与索引cand-1799已身份合并。索引段没有新增mentions、book statements或relations。受控脚本`chp22_index_p462_rcol_l2217_2270_migration.py`锁定S0段、印本PDF、O/P.csv、taxonomy、相关正文证据、manifest及S2表前态；dry-run通过后应用并保留候选表与coverage恢复副本。审计`errors=[]`、`s2_missing=[]`；当前832段中655 complete、142有理由排除、35 queued、0 partial，开放未分类索引候选1,073。下一段为p.463页标`chp-22:22_CHP-22Index:l2272-2272`。
+
+
+## 索引p.463页标（S0 L2272）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页21确认印刷页码p.463；S0 L2272 `[Page 463]`仅作生成页标，将单行段标记为excluded/complete，不改候选、mentions、book statements或relations。
+
+
+## 索引p.463左栏（S0 L2274–2328）（2026-10-07）
+
+对照印本p.463左栏、S0及P.csv#13–66审读54条：51项分类为26 person、5 place、2 institution、5 work、5 archive、6 term、2 event；P#36 `see also under French patronage`标为索引导航排除，P#38与P#60原有排除状态保留。P#19、#21、#31、#32、#50及#59按可讨论主题/条件归term，不把索引短语扩写成独立事件；P#20葬仪争议及P#55 Passarowitz和约归event。P#45–46只是Pasquali的人物语境，不从索引子项建关系；P#47–49、#51–52为出版物/书目文献，归archive。P#27 `Interior of the Pantheon`由p.357正文确认是Pannini画作，归work。P#66按词头所指实体空间归place，与正文已分开的cand-8963/place和cand-8964/work不作身份合并，交S3处理。
+
+印本右栏在本段OCR行中混有碎片，按左栏边界只处理P#13–66；后续右栏从`l2330-2385`另行处理。受控脚本`chp22_index_p463_marker_l2274_2328_migration.py`锁定印本PDF、S0、P.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run和apply通过，并保留候选表与coverage恢复副本。未改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中656 complete、143有理由排除、33 queued、0 partial，开放未分类索引候选1,021。
+
+## 索引p.463右栏（S0 L2330–2385）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页21印刷p.463及S0右栏，处理P.csv#67–114共48条，新增32 person、3 place、13 work类型。P#67–72为Pellegrini履历、地点或工作语境；P#78 S. Andrea della Valle归church/place，不从索引子项推断与Peretti-Montalto的正式关系。P#81 Permoser的`Apotheosis of Prince Eugene`、P#90肖像、P#94 Petrarch像、P#98 Tacca骑马像及P#105–106、#108–114具名或组合作品归work。P#103–104、#107继续作为人物语境；索引不生成关系。P#114 Piazzetta插图与1745年书籍archive候选cand-9990、图稿work候选cand-9991保持区分，不在S2宣称身份合并。
+
+页图核对将cand-1901/P#102的印本页码`313`、`322`校正到候选；原P.csv及S0不改。受控脚本`chp22_index_p463_rcol_l2330_2385_migration.py`锁定S0、印本PDF、P.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run与apply通过，并为候选表和coverage保留恢复副本。未改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中657 complete、143有理由排除、32 queued、0 partial，开放未分类索引候选973。下一段为p.464页标`chp-22:22_CHP-22Index:l2387-2387`。
