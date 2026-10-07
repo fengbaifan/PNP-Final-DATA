@@ -6503,3 +6503,19 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照印本p.467左栏、S0及Q-R.csv#125–173逐项审读49条，从Rigaud, Hyacinthe至Salvator Rosa的`Landscape with Apollo`。S0同段混入右栏OCR碎片，按物理栏界处理；右栏延续的Rosa子项留给下一段。49条分类为24 person、19 work、1 archive、4 event、1 term。Q-R#130 Ripa的《Iconologia》归archive；#136 Romanelli获任Accademia di S. Luca、#156 Roomer在Masaniello起义中的逃离、#166 Rosa对bambocciate的抨击及#170在S. Giovanni Decollato展出均作为事件候选；#160 Roomer收藏体现的南北欧文化关系作为term。具名绘画和艺术家工作语境归work；人物往来、兴趣、收藏主题及地点活动不据索引写成正式关系。
 
 印本校正两个派生候选定位：cand-2206/Q-R#133 Rockingham, Lord `211n`→`311n`；cand-2236/Q-R#163 Salvator Rosa `183`→`169`。仅改派生候选，Q-R.csv与S0不改。受控脚本`chp22_index_p467_marker_left_l2728_2785_migration.py`锁定S0与印本PDF、Q-R.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中664 complete、147有理由排除、21 queued、0 partial，开放未分类索引候选651。下一段为p.467右栏`chp-22:22_CHP-22Index:l2787-2840`。
+
+## 索引p.467右栏（S0 L2787–2840）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页25印刷p.467右栏，逐项核Q-R.csv#174–222共49条，从Salvator Rosa的`method of selling pictures`到Rubens的`altarpiece for Chiesa Nuova`。47条新增类型为38 person、6 work、2 archive、1 event；保留Q-R#187 `see under Wynne, Giustiniana`既有交叉引用排除。Q-R#220 `Royal Collection`指向收藏实体，taxonomy未定义collection类型，明确保留open/type-pending，不改投institution、archive或place。
+
+分类依据：Rosa的Prometheus、Regulus、Tityus为绘画作品；`Satire on Painting`对应p.142注引的`Della Pittura`诗文，归archive。`S. Alessio`是p.57–58所述具名歌剧，归work；概括性的operatic librettos是文献，归archive。Maratta portrait与Rubens的Chiesa Nuova祭坛画归work。Rosa拒绝赴巴黎邀请（p.187明确为1665年）是具体事件，归event；Rosa的艺术观、付款、赞助语境、Stoicism语境及一般生涯子项归person，不把`patronage by Carlo de' Rossi`、`and Salvator Rosa`、`and Luca Giordano`或`family links with Naples`写成关系。#202 Rossi并列姓名与#207祖孙说明留作后续身份对齐线索；不从索引单独确认亲缘边。
+
+印本校读显示Q-R#191为Pope Clement IX，S0 OCR作`EX`；Rousseau页码在S0中数字空格错乱，候选已与印本及Q-R.csv一致。无候选页码修正；原始S0与Q-R.csv保留。受控脚本`chp22_index_p467_rcol_l2787_2840_migration.py`锁定该段、印本PDF、Q-R.csv、taxonomy、对应正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中665 complete、147有理由排除、20 queued、0 partial，开放未分类索引候选604。下一段为p.468页标`chp-22:22_CHP-22Index:l2842-2842`。
+
+## 索引p.468页标与左栏（S0 L2842、L2844–2897）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页26确认印刷p.468；L2842 `[Page 468]`为生成页标，排除并标complete。物理左栏为L2844–2897，从Rubens续项至Sagrestani；按栏界未把右栏Saint-Non碎片并入。逐项核Q-R.csv#223–239及S.csv#0–28共46条，44条新分类为33 person、6 work、2 place、1 term、1 event、1 archive；Q-R#235 Cardinal Tommaso Ruffo的collection及S#22 Sagredo的prints-and-drawings collection因taxonomy没有collection类型，保留type-pending。
+
+分类依据：Rubens的`Feast of Herod`及`work for Marie de Medici`为work候选，不由“work for”生成关系。Don Antonio Ruffo关于Rembrandt、Guercino、委托市场及收藏规模的子项保留person语境；p.210记其持续尝试为Guercino和Mattia Preti争取Messina公共委托，不作为一次孤立事件或关系。Cardinal Ruffo的Archbishop’s Palace, Ferrara归place；collection待决；`Neapolitan paintings`是其收藏/赞助语境，未指向单件作品。Sacchetti的Castel Fusano country house及Cardinal Ruffo的Ferrara palace归place。Sacchi的`Divine Wisdom`有图版表与p.50–51正文支持，为work；`modelli`为term；`work in Barberini palace`为work语境；对Bamboccianti的敌意、对Raphael的仰慕及Barberini关系语境归person，不建立关系。Sagredo的Carracci/Castiglione drawings归work，收藏分散归event，collection inventories归archive；并列人物、赞助和性情索引子项保留person语境。正文p.263–264说明Sagredo收藏、死后分散及1743/1762库存记录，不把整个收藏冒充archive。
+
+印本确认候选页码已与Q-R.csv、S.csv一致；L2848的160n、L2867的111及L2885的343n/346在S0 OCR中分别呈`i6on`、`III`与粘连形，S1及候选表已规范化，无须修改候选定位。原始S0、Q-R.csv和S.csv不改。受控脚本`chp22_index_p468_marker_left_l2842_2897_migration.py`锁定S0、印本PDF、两份索引CSV、taxonomy、相关正文/图版表、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中666 complete、148有理由排除、18 queued、0 partial，开放未分类索引候选560。下一段为p.468右栏`chp-22:22_CHP-22Index:l2899-2952`。
