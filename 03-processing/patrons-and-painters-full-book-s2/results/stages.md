@@ -1296,3 +1296,18 @@ S0 L9–56与L64–109是同一未印页码索引页的左右栏OCR片段，后�
 ## 索引p.444左栏及页标（S0 L111、L113–168）
 
 L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从Algarotti续项至Arcadia Society。对照PDF和A.csv#67–115，为49个开放候选标注类型（45 person、2 place、1 term、1 institution）；“Anti-papal satire in reign of Alexander VII”按历史文学政治主题归term，Alticchiero与Altieri palace归place，Arcadia Society归institution。索引子项只是定位导航，无新增mention、statement或关系。当前620 complete、124 excluded、88 queued；索引剩余2,732个开放未分类候选，下一段`chp-22:22_CHP-22Index:l170-224`。审计`errors=[]`、`s2_missing=[]`。
+
+## 索引p.444右栏与p.445页标
+
+完成`chp-22:22_CHP-22Index:l170-224`：对照PDF物理页2印刷p.444右栏与A.csv#116–154、B.csv#1，标注40个候选主词头（23 person、17 term）；候选、段锚点和结构审计通过。索引子项和页码保持导航用途；B.csv#0的Baciccio see-under别名继续维持排除，不加入关系。未新增mentions、book statements或relations。接着将`chp-22:22_CHP-22Index:l226-227`的页标及运行页眉按PDF物理页3印刷p.445确认为无语义页面结构，标记`excluded/complete`。
+
+迁移后全表为11,436候选、26,829 mentions、12,102 statements；832段中621 complete、125有理由排除、86 queued、0 partial。开放未分类索引候选2,692。接续段为`chp-22:22_CHP-22Index:l229-338`。该快照仍仅为机械覆盖状态，不代表S2语义交接审计完成。
+## 索引p.445两栏及p.446页标
+
+完成`chp-22:22_CHP-22Index:l229-338`：对照印刷p.445页图和B.csv#2–91，89个开放候选标注为80 person、6 term、1 family、2 place；`cand-0159` Baglioni collection因当前类型表未定义collection且索引证据不足，类型保留待决。OCR `Bainboccianti`及B.csv Niccolò编码问题按页图校读，来源不改写。该索引段未新增mentions、book statements或relations。随后将`chp-22:22_CHP-22Index:l340-340`按PDF物理页4可见p.446确认为页标并排除。
+
+更新后全表为11,436候选、26,829 mentions、12,102 statements；832段中622 complete、126有理由排除、84 queued、0 partial。开放未分类索引候选2,603，其中包含上述类型待决项。下一段`chp-22:22_CHP-22Index:l342-396`。该状态不代表S2语义交接审计完成。
+
+## 索引p.446左栏（S0 L342–396）
+
+完成`chp-22:22_CHP-22Index:l342-396`：对照印刷p.446页图和B.csv#92–140，为49个开放候选标注47 person、1 term、1 institution。`Barnabotti`归社会阶层词term，`Benedictines`归宗教修会institution；子项和页码仍作为索引导航，未新增mentions、book statements或relations。迁移后11,436候选、26,829 mentions、12,102 statements；832段中623 complete、126有理由排除、83 queued、0 partial；开放未分类索引候选2,554。下一段`chp-22:22_CHP-22Index:l398-452`。审计`errors=[]`、`s2_missing=[]`不代表S2语义交接审计完成。

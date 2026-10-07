@@ -6109,3 +6109,32 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 `CHP-22Index.pdf`物理页2可见印刷页码444。S0 L111的`[Page 444]`单独成段，作为页码导航排除；L113–114为页眉与页码，L115–168转录左栏从“Algarotti, Francesco—continued”到“Arcadia, Society of”。对照页图和S1 A.csv#67–115，为49个仍开放的主词头候选补类型：45个person、2个place、1个term、1个institution。Alticchiero villa与Altieri palace作为建筑地点归place；Arcadia Society归institution；“Anti-papal satire in reign of Alexander VII”是历史语境中的文学政治现象，按概念主题归term，不作为单一event。索引子项（例如书目、作品题名和生平主题）仍从属于主词头，不据此独立造实体、断言或关系。原S0和S1 CSV未改写；本段未新增mentions、book statements或正式关系。
 
 `chp22_index_p444_l113_168_migration.py`默认dry-run，锁定S0/PDF/A.csv与段哈希，并备份候选和coverage表后写入49个类型、关闭L113–168。随后按manifest处理L111页码段，排除为无语义导航。最终总表审计`errors=[]`、`s2_missing=[]`；11,436候选、26,829 mentions、12,102 statements；832段中620 complete、124有理由排除、88 queued、0 partial。索引仍有2,732个开放未分类候选；下一待处理段为`chp-22:22_CHP-22Index:l170-224`。结构审计不替代全书S2语义交接审查。
+
+## 索引p.444右栏（S0 L170–224）
+
+核对`CHP-22Index.pdf`物理页2（印刷p.444）右栏与规范索引段。OCR行170含残缺页眉`S AND PAINTERS`；L176、L178–179、L181–182、L196、L200、L203、L207、L218–221有跨栏串入或识别杂符。按页图校正阅读，不改写S0。右栏从Arconato, Galeazzo延续至Baccinelli/Susanna；`Art dealers` Rome页码在页图为120–125、150，OCR的`IZO`不作为印本文字。L218按页图读作`pictures from collections of Dukes of Modena`，不是`Hom collections`。
+
+对照A.csv#116–154及B.csv#1，共40个开放S1候选依据主词头标注类型：23 person、17 term。人物主词头包括Arconato至Arrighini、Arundel至Azzolini及Baccinelli；`Art dealers`、`Art exhibitions`、`'Artistic temperament'`、`Artist's position in society`和`Artists' status`均是索引的概念主题，归term。`Art exhibitions`的城市、场馆与艺术家子项只提供导航，未指向一个可由本页确定的单一事件；不以定位页码推造事件或关系。Ariosto、Arrighi-Landini和Augustus III项下的作品、文献、场馆及行为子项仍属于S1主词头索引记录，不在索引段另造实体或断言。`Baciccio, see under Gaulli, Giovanni Battista`在S1已有排除别名记录B.csv#0；保留其明确交叉指引，不把它扩为人物端点或正式关系。
+
+受控脚本`chp22_index_p444_rcol_l170_224_migration.py`锁定规范来源、PDF、A/B索引CSV、段哈希及表前态，默认dry-run；逐条预览后应用，仅更新40个候选类型和本段coverage。写前备份候选表与coverage表。迁移未增加mentions、book-statements或relations。脚本回报覆盖621 complete、88 queued、124 excluded；本页迁移后再按manifest单独处理L226–227页标/页眉段。
+
+## 索引p.445页标与页眉（S0 L226–227）
+
+PDF物理页3可见印刷p.445；L226 `[Page 445]`是S0页定位标，L227 `INDEX`是运行页眉，均非索引词头或正文事实。coverage按`excluded/complete`关闭并记录`no_semantic_content`，未改候选或新增提及、statement、关系。受控脚本`chp22_index_p445_marker_l226_227_exclusion.py`锁定来源/PDF/段哈希与表前态，dry-run/apply均核验页标和状态，写前保存coverage恢复副本。下一正文处理段是p.445索引内容`chp-22:22_CHP-22Index:l229-338`。
+## 索引p.445两栏（S0 L229–338）
+
+对照`CHP-22Index.pdf`物理页3：印本可见p.445，L229–338覆盖Bacon至Barelli的两栏索引。按页图校读而不改S0。L229的`3 20, 3 70`按印本读作320、370；L249 OCR `Bainboccianti`校为印本`Bamboccianti`；B.csv#18–19把`Niccolò`存成UTF-8字节误读后的`NiccolÃ²`，PDF与S1候选表均为`Niccolò`，原CSV保持不改。OCR中跨栏碎字、页码445及行尾杂符不视为索引内容。
+
+对照B.csv#2–91标注89个开放候选：80 person、6 term、1 family、2 place。B.csv#20–25的Bamboccianti按艺术流派/群体索引主题归term；#45 Barberini family归family；#87–88 Barberini palace（含theatre子项）归place；其余已类型化主词头归person。Cardinal Antonio的brother与nephew分作两个索引主词头保留，不提前身份合并。作品、履历、关系和地点子项均为主词头下的索引导航，不作为本段独立事实或关系。
+
+`cand-0159`（B.csv#6，Baglioni collection，索引定位Venice，214及260n）仍无`suggested_type`：现行taxonomy没有collection类型，本页又不足以证明它是组织、地点或家族；保留类型待决，不冒充institution或place。受控脚本`chp22_index_p445_l229_338_migration.py`锁定来源/PDF/B.csv/段哈希与表前态，默认dry-run并按主词头分组展示差异；写前备份候选表和coverage。未增加mentions、book-statements或relations。页段后覆盖为622 complete、85 queued、125 excluded；2,603个开放索引候选仍无类型，含该待决项。
+
+## 索引p.446页标（S0 L340）
+
+PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，coverage记`excluded/complete`并说明`no_semantic_content`；未改候选或添加事实。受控脚本`chp22_index_p446_marker_l340_exclusion.py`校验页标、PDF与表前态，写前保存coverage恢复副本。当前下一内容段为`chp-22:22_CHP-22Index:l342-396`。
+
+## 索引p.446左栏（S0 L342–396）
+
+核对`CHP-22Index.pdf`物理页4（印刷p.446）左栏与规范索引段，按页图读校，不改写S0。对照B.csv#92–140，为49个开放候选标注类型：47 person、1 term、1 institution。`Barnabotti`按社会阶层词归term；`Benedictines`按宗教修会归institution；其余主词头为person。索引子项和页码是导航，不据此生成正文断言、提及或关系。
+
+受控脚本`chp22_index_p446_l342_396_migration.py`锁定来源、PDF、索引CSV、段哈希及表前态，默认dry-run；先预览后应用，仅更新49个候选类型和本段coverage，写前保存候选表及coverage恢复副本。未新增mentions、book-statements或relations。处理后全表为11,436候选、26,829 mentions、12,102 statements；832段中623 complete、126有理由排除、83 queued、0 partial；开放未分类索引候选2,554。下一段为`chp-22:22_CHP-22Index:l398-452`。结构审计不替代全书S2语义交接审计。
