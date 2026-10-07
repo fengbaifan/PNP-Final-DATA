@@ -6572,3 +6572,12 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 页图校读后订正三个派生候选字段：cand-2595的`Judgment of Solomon`改为印本`Justice of Solomon`；cand-2607的`Saints Agnes, Rose and Catherine`改为印本与第9章p.271正文一致的`Saints Agnes, Rosa and Catherine`；cand-2630 Titian总词头定位将374改为印本376。T.csv、UVWXYZ.csv与S0原文不改；前两项候选detail保留索引CSV原异文。p.253正文statement `st-chp9-p253-udine-fresco-sites-and-works`的限定语已同步：同一性仍交S3与正文候选cand-8283核定。另将已有陈述`st-chp6-p164-v1-22`补标`relation_candidate=true`，因为正文明确记Trevisani为Ottoboni绘制作品；该事实进入S6复核，未新增关系。
 
 识别并保留两处不改写S0的来源异文：L3241 OCR作1136，但p.471印本与第10章p.296均为1156，cand-2622的detail已是1156；印本索引L3247似作`S. Pola`，T.csv与第10章p.323正文均作`S. Polo`，候选保留后者。印本`Varj Capriccj`与CSV规范化拼写`Vari Capricci`也保留为来源字形差异。没有新增mentions或book statements，也没有写入正式relation。受控脚本`chp22_index_p471_left_l3181_3292_migration.py`完成dry-run与apply，锁定相关来源、索引PDF、manifest、taxonomy及候选/coverage/statements前态，并保存三表恢复副本。审计`errors=[]`、`s2_missing=[]`；当前832段672 complete、151有理由排除、9 queued、0 partial，开放未分类索引候选241。下一段按manifest为p.472页标`chp-22:22_CHP-22Index:l3294-3294`。
+
+
+## 索引p.472页标与两栏（S0 L3294–3405）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页30确认印刷p.472。L3294 `[Page 472]`为生成页标，coverage记excluded/complete；两栏按索引CSV逐项核对：L3296–3349对应UVWXYZ.csv#4–52，共49行，#4 Urban VIII是既有see-under排除，另48条分类为26 person、15 work、4 event、2 place、1 family；L3351–3405对应#53–99共47条，分类为9 person、7 work、29 term、1 place、1 archive。馆藏/机构成员、委托语境、为谁工作及Venice的主题子项均按对象语境分类，索引导航不独立生成正文事实、mentions或关系。
+
+页图确认四处派生定位校正：cand-2693 Vanetti `37n`→`377n`；cand-2709 Velasquez将OCR误读的122、158、385分别校为印本133、138、384；cand-2718 La Chiesa标题`252n`→`335n`；cand-2755 Veronese将`279n`改为`279`、`355`改为`356`。印本与正文交叉核实Valeriano拼写，不将OCR点号写入作品名。索引候选与正文Scala Regia、La Chiesa档案和Velasquez机构端点保持分立，供S3身份对齐；foreign patrons仍是未具名群体，索引本身不确立赞助关系。未改S0、UVWXYZ.csv、mentions或relations.csv。
+
+关系候选沿用已有正文证据：13条既有book statement补`relation_candidate=true`；将p.126 Velasquez两个成员机构拆为端点明确的独立statement，并将p.196 Verrio服务对象拆为Louis XIV与William III两个端点，新增两条statement。具体关系方向、类型和证据适配留待S6核定；未写入正式关系边。受控脚本`chp22_index_p472_migration.py`锁定来源、页图映射、索引CSV、taxonomy、正文语境和候选/coverage/statements前态，先dry-run后apply；保留三表恢复副本。机械审计发现索引段无mentions/statements时需要明确`no_semantic_content:`理由，已补到两条coverage注释；复审`errors=[]`、`s2_missing=[]`。当前832段674 complete、152有理由排除、6 queued、0 partial；候选11,436、mentions 26,829、statements 12,104，开放未分类索引候选146。下一段为p.473页标`chp-22:22_CHP-22Index:l3407-3408`。
