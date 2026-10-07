@@ -6752,3 +6752,9 @@ p.337 Pasquali披露的是未具名售书客户，书名不是披露对象；注
 p.353 Tiepolo将Brühl宫苑与Mattielli海神喷泉母题带入“画中”的陈述继续保留空作品端点：原文未说明两件已登记委托画（Flora、Maecenas）中哪一件，不能据题材猜定。p.355关于Algarotti未具名收藏的购藏、赠予和售出习惯没有具体作品或收受人，降为来源断言。p.356将Algarotti为Bouchardon、Rode提供介绍信拆为两条候选；注3列出的两封信及日期没有逐人对应，且信件原文未独立核阅。鼓励外籍艺术家赴意大利的一般概述及多种德累斯顿购藏/向Frederick提案的混合动因仍作来源断言。第十四章两条对应关系引文保留OCR原字“Use”，并登记页图校勘`Use`→`life`，以同时保持来源匹配和印本读法。
 
 受控脚本`chp14_relation_endpoint_audit.py`固定来源文件与5个段哈希、7条初始开放ID、候选上界、表计数、脚注回链及Flora/Maecenas歧义前态；默认dry-run，apply前为statement表保存恢复副本。写回新增8条statement，无新增候选或提及；7条旧开放项中6条降为有理由的非关系断言，p.353仍待决。全库当前11,452候选、26,837提及、12,225 statements；2,310条关系候选中2,286条端点齐全、24条仍缺端点。开放项按章为第7章1、第8章3、第14章1、第16章3、第17章2、第18章7、第19章6、第20章1。严格阶段审计`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十六章3条开放候选，S2整体尚未交接。
+
+## 全书S2交接审计续：第十六章p.374–376开放关系项（2026-10-08）
+
+按原文、已完成的逐页语义处理、候选登记与p.375注3回链复核第十六章3条开放端点。p.374 Strange“偶尔为自己或客户委托现代作品”未指明具体作品、接受人或二者所指，保留为来源断言；同段中已分别登记的Zompini出版计划与Guardi雇佣关系不替泛述补造端点。p.375 Haskell关于英国经销商依赖Sasso、其经销活动导致大量威尼斯杰作外流的评价没有具体经销商、作品或交易，保留为带作者评价限定的来源断言。注3则明确列出A. Hume、John Skippe、Hamilton, Marquis of Douglas为与Sasso有联系者，故拆为三条人物→Sasso候选关系；Hume的三封信及Lorenzetti书目、Skippe和Douglas的年份/档案定位仍仅按Haskell脚注记录，未独立查阅，不把它们改写成逐人核实的往来信件。
+
+p.376 Haskell称Vianello“may well”属于以Sasso与della Lena关联的一个圈子；该群体边界未定义，概率措辞明确保留，不能拆成Vianello分别属于两位人物的确定关系，故该statement改为来源断言。受控脚本`chp16_relation_endpoint_audit.py`固定来源及4个段哈希、3条开放ID、候选上界、表计数、注3原文/回链和人物候选类型；默认dry-run，apply前为statement表保存恢复副本。写回新增3条statement，无新增候选或提及；三条原开放项均已处置。全库当前11,452候选、26,837提及、12,228 statements；2,310条关系候选中2,289条端点齐全、21条仍缺端点，开放项位于第7、8、14、17、18、19、20章。严格阶段审计`s2_missing=[]`、`errors=[]`，覆盖为678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment source_ref警告仍在。无S6正式关系写入；下一步按书序复核第十七章2条开放候选，S2整体尚未交接。
