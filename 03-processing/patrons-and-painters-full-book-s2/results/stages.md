@@ -1446,3 +1446,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.462页标`chp-22:22_CHP-22Index:l2160-2160`：对照CHP-22Index.pdf物理页20确认印刷p.462，将S0生成页标排除/complete；未改候选、mentions、book statements或relations。当前832段中653 reviewed/complete、142有理由排除、37 queued、0 partial。下一段为p.462左栏`chp-22:22_CHP-22Index:l2162-2215`。
+
+补核p.461右栏`chp-22:22_CHP-22Index:l2105-2158`：印本整页图显示该S0段除M.csv#224–261还含N.csv#0–9；前一迁移漏映射N项，现补录9类（4 person、1 place、3 term、1 work），保留N#3既有see-under排除。该段合计48条索引记录，46条分类、2条别名排除；修正p.461右栏coverage注记，未改mentions、book statements或relations。
+
+完成p.462左栏`chp-22:22_CHP-22Index:l2162-2215`：N.csv#10–45与O.csv#0–11共48条，新增34 person、10 work、1 place、2 term、1 archive。页图校正cand-1734/N#14页码154n→154、cand-1754/N#34 Nordiall→Northall、cand-1755/N#35 Octavio→Ottavio；印本及p.104注均作Uccelleria，cand-1770/O#4子项由Uccelliera校为Uccelleria。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中654 complete、142有理由排除、36 queued、0 partial；开放未分类索引候选1,109。下一段为p.462右栏`chp-22:22_CHP-22Index:l2217-2270`。
+
+完成p.462右栏`chp-22:22_CHP-22Index:l2217-2270`：核O.csv#12–36、P.csv#0–12共38条，36个新分类（22 person、6 place、2 institution、4 term、1 work、1 archive），保留O#23、P#1既有see-under排除。页图确认P#12 Paltronieri在L2259，纳入右栏而非p.463。对候选cand-6545正文场馆补place类型，未合并其身份与索引cand-1799；未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中655 complete、142有理由排除、35 queued、0 partial；开放未分类索引候选1,073。下一段为p.463页标`chp-22:22_CHP-22Index:l2272-2272`。

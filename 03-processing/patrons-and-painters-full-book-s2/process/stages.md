@@ -6418,3 +6418,17 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 ## 索引p.462页标（S0 L2160）（2026-10-07）
 
 对照`CHP-22Index.pdf`物理页20确认印刷页码p.462；S0 L2160 `[Page 462]`是生成页标，不是索引词条或原书陈述。将单行段标记为excluded/complete，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p462_marker_l2160_exclusion.py`锁定来源行、印本PDF、manifest及S2表前态；dry-run与apply通过，并备份coverage。当前832段中653 reviewed/complete、142有理由排除、37 queued、0 partial。下一段为p.462左栏`chp-22:22_CHP-22Index:l2162-2215`。
+
+
+## 补核p.461右栏N词条并完成p.462左栏（2026-10-07）
+
+回看印刷p.461整页图发现，S0 L2148–2158在M.csv#224–261之后还含N.csv#0–9；原`chp22_index_p461_l2105_2158_migration.py`只映射M项，coverage虽标complete却漏了9个open N候选。现补录N#0 Nadal、N#1 Naples、N#2 feudal landowners、N#4 Nappi、N#5 Nationalism and art、N#6 Naudé、N#7 Nazari、N#8 Portrait of Carlo Lodoli及N#9 diffusion of Neapolitan painting；类型依次为person、place、term、person、term、person、person、work、term。N#3 Filippo Napoletano的see-under别名既有excluded状态保留。修正后该段覆盖M与N共48条索引记录，46条有类型、2条交叉引用排除。索引导航不新增mentions、book statements或relations。
+
+对照印刷p.462左栏及N.csv#10–45、O.csv#0–11审读48条：34 person、10 work、1 place、2 term、1 archive。Negroni的St Francis Xavier chapel归place；Nepotism in Rome及`teste di fantasia`归term；Nogari、Nomé、Denon和Novelli的具名作品归work；Olina的`Uccelleria`依p.104注作为archive；Oliva的“and”子项只保留人物索引语境，不从索引导航创建关系。页图/正文校正仅作用于派生候选：cand-1734/N#14页码154n改154，cand-1754/N#34姓名Nordiall改Northall，cand-1755/N#35 Octavio改Ottavio，cand-1770/O#4子项Uccelliera改Uccelleria；S0与N/O.csv原件不改。受控脚本`chp22_index_p461_n_p462_l2162_2215_migration.py`锁定来源、页图PDF、索引CSV、taxonomy、正文证据、manifest及候选/coverage/mentions/statements前态；dry-run通过后应用并保留候选表与coverage恢复副本。没有改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中654 complete、142有理由排除、36 queued、0 partial，开放未分类索引候选1,109。下一段为p.462右栏`chp-22:22_CHP-22Index:l2217-2270`。
+
+
+## 索引p.462右栏（S0 L2217–2270）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页20印刷p.462、S0与O.csv#12–36、P.csv#0–12逐项审读38条；O#23 Paolo Giordano Orsini与P#1 Padovanino为既有see-under排除项，其余36项分类为22 person、6 place、2 institution、4 term、1 work、1 archive。O#16–17 Oratorians是Rome/Venice语境下的宗教机构；O#18 Oratorio、O#34 Ottoboni的Cancelleria theatre以及P#2 Padua、P#3 Prato della Valle、P#5 Palazzo Ducale、P#7 Palazzo Chiericati归place；O#14 Opera in Rome、O#31 patronage effect、O#32 attracting painters failure与P#4 painting social significance是概念或主题归term；O#21 Daphnis and Chloe illustrations归work，O#26 Osservatore Veneto期刊归archive。O#33 patronage of Trevisani保持人物语境，不由索引子项创建关系。印刷p.462右栏还包含P#12 Paltronieri（L2259），已纳入本段；本页右栏止于Pamfili Gianbattista，下一源段为p.463页标。
+
+同页正文候选cand-6545“theatre in the Cancelleria”据p.164–165具体场馆语境补为place；cand-6546舞台布景已为work。此处只补类型，不声称cand-6545与索引cand-1799已身份合并。索引段没有新增mentions、book statements或relations。受控脚本`chp22_index_p462_rcol_l2217_2270_migration.py`锁定S0段、印本PDF、O/P.csv、taxonomy、相关正文证据、manifest及S2表前态；dry-run通过后应用并保留候选表与coverage恢复副本。审计`errors=[]`、`s2_missing=[]`；当前832段中655 complete、142有理由排除、35 queued、0 partial，开放未分类索引候选1,073。下一段为p.463页标`chp-22:22_CHP-22Index:l2272-2272`。
