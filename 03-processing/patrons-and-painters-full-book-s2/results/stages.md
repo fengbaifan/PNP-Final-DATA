@@ -1289,6 +1289,10 @@ Stuffmann条目按本书页图记录为pp.11–144；NGA与BnF著录对文章页
 
 L1301为结构性`Footnotes`标签；L1302–1306内7段错位OCR已分别链接到p.413、414、423、424、431先前登记的书目statement/页图增补，不新增出版物或正式关系。完成7条精确mention、7条交叉引用statement和7项候选说明更新；未独立查阅所列文献。首次审计发现source_line_ranges格式错误后，恢复写前四表副本，修正为`L1302-1306`并重新写入；最终`s2_missing=[]`、`errors=[]`。当前11,436候选、26,829 mentions、12,102 statements；617 complete、121 excluded、94 queued、0 partial。下一段为首个queued索引段`chp-22:22_CHP-22Index:l1-1`。
 
-## 索引p.24（S0 L1–56）
+## 索引开篇页（PDF物理页1；页码未印，推定p.443）
 
-对照索引PDF物理页1、S0双栏OCR与S1 A.csv第0–66行，给65个开放主词头候选补类型（9 institution、55 person、1 event）；将两条教宗别名排除项明确链接到已有目标候选。L1文件名标题和L3页码标记作为结构导航排除；L9–56审读完成但无历史断言、mention或关系，不从索引子项生成事实。总表审计发现coverage说明漏记`no_semantic_content`后已修复并复核通过：`errors=[]`、`s2_missing=[]`。当前618 complete、123 excluded、91 queued；索引尚有2,781个开放未分类候选，下一段`chp-22:22_CHP-22Index:l64-109`。
+S0 L9–56与L64–109是同一未印页码索引页的左右栏OCR片段，后接可见p.444。L3的`[Page 24]`与印本不符，作为OCR来源页标排除。对照整页PDF与S1 A.csv#0–66，完成65个开放词头候选的类型标注（9 institution、55 person、1 event），两条see-under别名链接到已有目标；子项和页码保持索引导航，不作为历史断言或关系。L64–109复核既有右栏映射，不新增候选、mention或statement。coverage说明补入`no_semantic_content`后总表通过`errors=[]`、`s2_missing=[]`。当时619 complete、123 excluded、90 queued；索引尚有2,781个开放未分类候选，下一段`chp-22:22_CHP-22Index:l113-168`。
+
+## 索引p.444左栏及页标（S0 L111、L113–168）
+
+L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从Algarotti续项至Arcadia Society。对照PDF和A.csv#67–115，为49个开放候选标注类型（45 person、2 place、1 term、1 institution）；“Anti-papal satire in reign of Alexander VII”按历史文学政治主题归term，Alticchiero与Altieri palace归place，Arcadia Society归institution。索引子项只是定位导航，无新增mention、statement或关系。当前620 complete、124 excluded、88 queued；索引剩余2,732个开放未分类候选，下一段`chp-22:22_CHP-22Index:l170-224`。审计`errors=[]`、`s2_missing=[]`。

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Controlled S2 review of the first printed index page (p. 24)."""
+"""Controlled S2 review of S0 L9-56 on the unnumbered opening index leaf."""
 
 import argparse
 import csv
@@ -19,6 +19,7 @@ SEGMENTS = {
     "header": "chp-22:22_CHP-22Index:l1-1",
     "page_marker": "chp-22:22_CHP-22Index:l3-3",
     "page_content": "chp-22:22_CHP-22Index:l9-56",
+    "page_continuation": "chp-22:22_CHP-22Index:l64-109",
 }
 INDEX_MD_SHA = "421811ae101e6445964aa155f253a566b42ca634b60d547c5057674c3c7f7081"
 INDEX_PDF_SHA = "1a9edbab073c716ee650f6159a38918e54ee3e18bf1f18c1d92b8fe0de720be5"
@@ -27,8 +28,9 @@ SEGMENT_HASHES = {
     SEGMENTS["header"]: "45492b6435dfca8b59bf2efd50dc25e63fc088c846b29d5aefeb8d94d3fc54a9",
     SEGMENTS["page_marker"]: "1140823e47965d344d7b8f12d028795097bb1e290cde7f9a0bca82bf317542aa",
     SEGMENTS["page_content"]: "93505ccd4c69f3eb008df01bdeafb5e0de00fcd3048bb1ef596b78ad3bb9018b",
+    SEGMENTS["page_continuation"]: "63c4cdd642118aa4dfbe1bd9e67b0080fbec56373118aa58de9ef56975c4c09a",
 }
-BACKUP_SUFFIX = ".bak-s2-chp22-index-p24-20261007"
+BACKUP_SUFFIX = ".bak-s2-chp22-index-p443-20261007"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--apply", action="store_true", help="write changes; default is dry-run")
@@ -199,13 +201,13 @@ coverage_by_id[SEGMENTS["page_marker"]].update(
     disposition="excluded",
     migration_status="complete",
     source_line_ranges="L3-3",
-    note="Printed-page marker [Page 24] only; used to locate the following index page, not an index entry or factual claim.",
+    note="OCR/source marker [Page 24] only; it is not printed in CHP-22Index.pdf physical p.1 and conflicts with the following visible p.444 folio. Treat as a source locator, not an index entry or factual claim.",
 )
 coverage_by_id[SEGMENTS["page_content"]].update(
     disposition="reviewed",
     migration_status="complete",
     source_line_ranges="L9-56",
-    note="no_semantic_content: Printed index p.24 checked against CHP-22Index.pdf physical p.1 and S1 A.csv rows 0-66. Classified 65 open main-entry candidates (9 institutions, 55 people, 1 event); two see-under aliases remain excluded and now point to their target candidates. Index notes and subentries are navigational, not book-fact claims; no mentions or book statements added.",
+    note="no_semantic_content: Unnumbered opening index leaf checked against CHP-22Index.pdf physical p.1; its folio is not visible and is inferred as p.443 from the following visible p.444. The full two-column page and S1 A.csv rows 0-66 were compared across S0 L9-56 and L64-109. Classified 65 open main-entry candidates (9 institutions, 55 people, 1 event); two see-under aliases remain excluded and point to their target candidates. This row covers the first OCR segment; index locators are not book-fact claims and no mentions or statements were added.",
 )
 
 after = {
@@ -237,7 +239,8 @@ if after != expected_after:
 
 result = {
     "mode": "apply" if ARGS.apply else "dry-run",
-    "index_page": 24,
+    "index_page_inferred": 443,
+    "index_page_folio_visible": False,
     "s0_segments": SEGMENTS,
     "typed_index_candidates": len(candidate_updates),
     "types": {

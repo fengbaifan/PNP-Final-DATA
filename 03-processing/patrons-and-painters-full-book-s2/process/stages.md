@@ -6096,10 +6096,16 @@ L1136的页码存在书目记录差异：本书页图读作11–144；National G
 
 首轮写入后的机械审计发现 `s2-coverage.csv` 的行范围分隔符与校验契约不符。使用写前恢复副本还原四表（副本与迁移前 Git 版本逐字节一致），将范围格式修为 `L1302-1306` 后重新 dry-run/apply。复核 `python -X utf8 scripts/audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`；全库 11,436 候选、26,829 mentions、12,102 statements；832 段中 617 complete、121 有理由排除、94 queued、0 partial。下一待处理段为 manifest 中首个索引段 `chp-22:22_CHP-22Index:l1-1`；剩余 queued 均为索引段。结构审计不替代全书 S2 语义交接审查。
 
-## 索引首页 p.24（S0 L1–56）
+## 索引首页（PDF物理页1；开篇页码未印，按后页推定p.443）
 
-先核对 `22_CHP-22Index.md` 首段与索引PDF物理页1（印刷p.24），并逐项对照 S1 `A.csv`。OCR将双栏次序交错，PDF右栏的若干主词头在OCR中截断；通过页图和CSV第0–66行逐项配对：第0–32行为左栏，第33–66行为右栏。L1只是生成的Markdown文件名标题，L3只是`[Page 24]`定位标记，均排除并标记complete；L9–56覆盖该页索引正文。
+核对`22_CHP-22Index.md`与`CHP-22Index.pdf`：物理第1页印有INDEX和两栏词头，无可见页码；物理第2页清楚印有444，因此开篇页推定为p.443。S0 L3的`[Page 24]`与PDF不符，是来源中的页标，不是印本页码，coverage现按定位标记排除。开篇页OCR被切成两段：L9–56主要对应左栏，L64–67是Notes说明的OCR残片，L68–109对应右栏；L1为Markdown文件名标题。两栏行次和词头截断均以页图与A.csv对照处理，保留S0原文和PDF。
 
-为65个仍开放的主词头候选写入类型：9个institution、55个person、1个event（Aix-la-Chapelle, Peace of）。候选类型按索引主词头所指对象确定，子项作为索引导航文字保留，不单独改作作品或关系。Alexander VII与Alexander VIII两条“see under”别名继续排除，分别补入目标`C.csv#189 / cand-0665`及`O.csv#29 / cand-1794`，以保留可追溯的别名去向。索引说明、定位页码与子项是书后导航，不是原书历史断言；本段不新增mentions、book statements或正式关系。S0文本、PDF及S1索引CSV均未改写。
+依全页印本版面与A.csv第0–66行对应：第0–32行为左栏，第33–66行为右栏。65个开放主词头候选的类型已登记（9个institution、55个person、1个event）；候选身份是索引主词头，子项和定位页码仍是导航信息。Alexander VII与Alexander VIII的“see under”别名不另作人物，分别保留到`C.csv#189 / cand-0665`及`O.csv#29 / cand-1794`的目标指向。A.csv#46原始子项`Br¨¹hl`在页图中为`Brühl`，候选已存可见拼法；不改S1原CSV。全页不新增mentions、book statements或正式关系。
 
-受控迁移脚本`chp22_index_p24_migration.py`锁定来源文件、PDF、索引CSV、分段哈希及迁移前表计数，默认dry-run；apply前备份候选表和coverage表。首次apply后总表审计指出已审读的索引正文段缺少`no_semantic_content`理由；在coverage说明中补齐该协议标记后复核，最终`errors=[]`、`s2_missing=[]`。全表为11,436候选、26,829 mentions、12,102 statements；832段中618 complete、123有理由排除、91 queued、0 partial。索引候选中尚有2,781个开放且未标类型；下一待处理段按manifest为`chp-22:22_CHP-22Index:l64-109`。结构审计不替代全书S2语义交接审查。
+首次迁移脚本先登记L1、L3及L9–56，并完成基于全页版面的候选分类；随后发现L64–109仍为独立queued段，故用`chp22_index_p443_l64_109_migration.py`单独审读并关闭该段coverage，不重复更新候选。另将原过程标签p.24更正为“未印页码、推定p.443”。迁移脚本分别锁定来源/PDF/CSV和段哈希；批量写表前留有恢复副本。首次总表审计要求空迁移段显式记录`no_semantic_content`，补齐L9-56及L64-109的协议说明后，最终`errors=[]`、`s2_missing=[]`。全表为11,436候选、26,829 mentions、12,102 statements；832段中619 complete、123有理由排除、90 queued、0 partial。索引尚有2,781个开放且未标类型；下一待处理段按manifest为`chp-22:22_CHP-22Index:l113-168`。结构审计不替代全书S2语义交接审查。
+
+## 索引p.444左栏（S0 L113–168）及页标L111
+
+`CHP-22Index.pdf`物理页2可见印刷页码444。S0 L111的`[Page 444]`单独成段，作为页码导航排除；L113–114为页眉与页码，L115–168转录左栏从“Algarotti, Francesco—continued”到“Arcadia, Society of”。对照页图和S1 A.csv#67–115，为49个仍开放的主词头候选补类型：45个person、2个place、1个term、1个institution。Alticchiero villa与Altieri palace作为建筑地点归place；Arcadia Society归institution；“Anti-papal satire in reign of Alexander VII”是历史语境中的文学政治现象，按概念主题归term，不作为单一event。索引子项（例如书目、作品题名和生平主题）仍从属于主词头，不据此独立造实体、断言或关系。原S0和S1 CSV未改写；本段未新增mentions、book statements或正式关系。
+
+`chp22_index_p444_l113_168_migration.py`默认dry-run，锁定S0/PDF/A.csv与段哈希，并备份候选和coverage表后写入49个类型、关闭L113–168。随后按manifest处理L111页码段，排除为无语义导航。最终总表审计`errors=[]`、`s2_missing=[]`；11,436候选、26,829 mentions、12,102 statements；832段中620 complete、124有理由排除、88 queued、0 partial。索引仍有2,732个开放未分类候选；下一待处理段为`chp-22:22_CHP-22Index:l170-224`。结构审计不替代全书S2语义交接审查。

@@ -304,8 +304,8 @@ chp-22,chp-22:22_CHP-22Index:l1-1,excluded,complete,L1-1,Generated Markdown file
 chp-22,chp-22:22_CHP-22Index:l1024-1024,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1026-1080,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1082-1136,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l111-111,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l113-168,queued,pending,,
+chp-22,chp-22:22_CHP-22Index:l111-111,excluded,complete,L111-111,no_semantic_content: S0 [Page 444] is a generated page locator matching the visible p.444 folio at the top of CHP-22Index.pdf physical p.2. It contains no index entry or book-fact claim.
+chp-22,chp-22:22_CHP-22Index:l113-168,reviewed,complete,L113-168,"no_semantic_content: CHP-22Index.pdf physical p.2 visibly prints p.444. S0 L113-114 are the page heading/folio; L115-168 transcribe the left column from Algarotti, Francesco—continued through Arcadia, Society of. Compared against the page image and A.csv#67-115; typed 49 open index candidates (45 person, 2 place, 1 term, 1 institution). Subentries remain navigation under their main index heading. The index locators do not assert book facts; no mentions, book statements, or relations were added."
 chp-22,chp-22:22_CHP-22Index:l1138-1138,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1140-1194,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l1196-1249,queued,pending,,
@@ -359,7 +359,7 @@ chp-22,chp-22:22_CHP-22Index:l2844-2897,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2899-2952,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2954-2954,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l2956-3010,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l3-3,excluded,complete,L3-3,"Printed-page marker [Page 24] only; used to locate the following index page, not an index entry or factual claim."
+chp-22,chp-22:22_CHP-22Index:l3-3,excluded,complete,L3-3,"OCR/source marker [Page 24] only; it is not printed in CHP-22Index.pdf physical p.1, which is the unnumbered opening index leaf preceding the visible p.444 folio. Treat the marker as a source locator, not a printed folio, index entry, or factual claim."
 chp-22,chp-22:22_CHP-22Index:l3012-3066,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l3068-3068,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l3070-3124,queued,pending,,
@@ -384,14 +384,14 @@ chp-22,chp-22:22_CHP-22Index:l512-566,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l568-568,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l570-624,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l626-680,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l64-109,queued,pending,,
+chp-22,chp-22:22_CHP-22Index:l64-109,reviewed,complete,L64-109,"no_semantic_content: S0 L64-109 is the right-column continuation of the unnumbered opening index leaf in CHP-22Index.pdf physical p.1; the following page visibly bears p.444, so the opening folio is inferred as p.443. L64-67 are OCR fragments of the index Notes; L68-109 cover Alexander VII/VIII cross-references, Algardi and Algarotti headings and subentries. Their A.csv#33-66 candidates were classified against the full page in the preceding migration; no additional candidate, mention, book statement, or relation is created here. The OCR marker [Page 24] is not a printed folio."
 chp-22,chp-22:22_CHP-22Index:l682-682,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l684-738,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l740-794,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l796-796,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l798-852,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l854-908,queued,pending,,
-chp-22,chp-22:22_CHP-22Index:l9-56,reviewed,complete,L9-56,"no_semantic_content: Printed index p.24 checked against CHP-22Index.pdf physical p.1 and S1 A.csv rows 0-66. Classified 65 open main-entry candidates (9 institutions, 55 people, 1 event); two see-under aliases remain excluded and now point to their target candidates. Index notes and subentries are navigational, not book-fact claims; no mentions or book statements added."
+chp-22,chp-22:22_CHP-22Index:l9-56,reviewed,complete,L9-56,"no_semantic_content: S0 L9-56 is the left-column OCR segment of the unnumbered opening index leaf in CHP-22Index.pdf physical p.1; the opening folio is inferred as p.443 from the following visible p.444. The full-page A.csv mapping spans this segment and the right-column continuation at L64-109, which is recorded separately. Index entries and locators are navigational, not book-fact claims; no mentions or statements were added."
 chp-22,chp-22:22_CHP-22Index:l910-911,queued,pending,,
 chp-22,chp-22:22_CHP-22Index:l913-1022,queued,pending,,
 chp-2,chp-2:02_CHP-2_intro:l1-1,excluded,complete,,排除：Markdown文件标题是分节文件名标记，不是原书内容；无实体提及或断言。
