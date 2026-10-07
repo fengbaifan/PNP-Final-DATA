@@ -6449,3 +6449,15 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页21印刷p.463及S0右栏，处理P.csv#67–114共48条，新增32 person、3 place、13 work类型。P#67–72为Pellegrini履历、地点或工作语境；P#78 S. Andrea della Valle归church/place，不从索引子项推断与Peretti-Montalto的正式关系。P#81 Permoser的`Apotheosis of Prince Eugene`、P#90肖像、P#94 Petrarch像、P#98 Tacca骑马像及P#105–106、#108–114具名或组合作品归work。P#103–104、#107继续作为人物语境；索引不生成关系。P#114 Piazzetta插图与1745年书籍archive候选cand-9990、图稿work候选cand-9991保持区分，不在S2宣称身份合并。
 
 页图核对将cand-1901/P#102的印本页码`313`、`322`校正到候选；原P.csv及S0不改。受控脚本`chp22_index_p463_rcol_l2330_2385_migration.py`锁定S0、印本PDF、P.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run与apply通过，并为候选表和coverage保留恢复副本。未改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中657 complete、143有理由排除、32 queued、0 partial，开放未分类索引候选973。下一段为p.464页标`chp-22:22_CHP-22Index:l2387-2387`。
+
+## 索引p.464页标与左栏（S0 L2387–2444）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页22确认印刷p.464。S0 L2387 `[Page 464]`是生成页标，排除并标记complete。左栏L2389–2444对应P.csv#115–163共49条，分类为23 person、19 work、2 place、3 event、2 archive。Piazzetta作品题名与Pittoni的历史画及McSwiny纪念画组归work；P#155–159的人名是画作/纪念对象子项，未另作人物候选。P#120 `prices`和P#153 `German patrons`留在艺术家person语境，与既有艺术家价格、赞助语境候选的处理一致，不建立未具名群体身份或关系。Pisani的逮捕、选任归event；支持他的诗歌/小册子与Platnerus的`Institutiones Chirurgicae`归archive；Pisani palace及Pitti Palace归place。
+
+按物理页22校正派生候选：cand-1936/P#137子项`Danita`改为印本`Vanità`；cand-1948/P#149页码`222n`改为`335n`；cand-1950/P#151页码`315n`改为`315`。cand-1938/P#139的页码358与印本一致，S0 `z;8`保留为OCR转录。P.csv和S0均未改。受控脚本`chp22_index_p464_marker_l2389_2444_migration.py`锁定来源、PDF、P.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保留候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中658 complete、144有理由排除、30 queued、0 partial，开放未分类索引候选924。下一段为p.464右栏`chp-22:22_CHP-22Index:l2446-2500`。
+
+## 索引p.464右栏（S0 L2446–2500）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页22确认印刷p.464右栏，处理P.csv#164–212共49条：47个候选分类为23 person、3 place、21 work；P#172 `Pomerancio, see under Roncalli`与P#186 `Poussin, Gaspard, see under Dughet`两个既有交叉引用排除状态保留。P#167 Poggio a Caiano、#173 Pommersfelden、#183 Bulstrode Park归place；P#180 tomb of Paul III及#184 Rigaud portrait归work；P#181–182 Portland及“and Sebastiano Ricci”保留人物语境，不据索引创建正式关系。Poussin主词条、altarpieces及#189–193与其他人物的并列项保留person语境；#194–212视觉题名及Arcadian Shepherds版本、dal Pozzo版Leonardo论著插图归work，不将被插图出版物与其插图合并。
+
+页图核对将cand-1984/P#187页码28、115n、128分别改为38、115、138；cand-1987/P#190页码112改为113；cand-1989/P#192页码112改为115。只改派生候选，P.csv与S0保留原转录。受控脚本`chp22_index_p464_rcol_l2446_2500_migration.py`锁定来源、页图PDF、P.csv、taxonomy、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中659 complete、144有理由排除、29 queued、0 partial，开放未分类索引候选877。下一段为p.465页标`chp-22:22_CHP-22Index:l2502-2503`。

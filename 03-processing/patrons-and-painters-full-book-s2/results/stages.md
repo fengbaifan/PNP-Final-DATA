@@ -1458,3 +1458,10 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 完成p.463左栏`chp-22:22_CHP-22Index:l2274-2328`：核P.csv#13–66共54条，新增51类（26 person、5 place、2 institution、5 work、5 archive、6 term、2 event），P#36交叉指引排除，保留P#38/#60既有排除。区分P#66实体画廊place与正文装饰方案work，不合并身份；没有新增mentions、book statements或relations。当前832段中656 complete、143有理由排除、33 queued、0 partial；开放未分类索引候选1,021。下一段为p.463右栏`chp-22:22_CHP-22Index:l2330-2385`。
 
 完成p.463右栏`chp-22:22_CHP-22Index:l2330-2385`：核P.csv#67–114共48条，分类为32 person、3 place、13 work。cand-1901/P#102依据印本校正页码312、324→313、322；S0与P.csv未改，P#114插图与1745书籍archive及Piazzetta图稿work候选保持区分。未新增mentions、book statements或relations。当前832段中657 complete、143有理由排除、32 queued、0 partial；开放未分类索引候选973。下一段为p.464页标`chp-22:22_CHP-22Index:l2387-2387`。
+
+完成p.464页标`chp-22:22_CHP-22Index:l2387-2387`：对照印本物理页22确认印刷p.464，将生成页标排除/complete，无候选或原书断言迁移。
+
+完成p.464左栏`chp-22:22_CHP-22Index:l2389-2444`：核P.csv#115–163共49条，分类为23 person、19 work、2 place、3 event、2 archive。P#120价格和P#153 German patrons保留人物语境；P#144–145为事件、P#146与#162为文献。按页图校正cand-1936/P#137 `Danita`→`Vanità`、cand-1948/P#149页码222n→335n、cand-1950/P#151页码315n→315；不改S0或P.csv，无新增mentions、book statements或relations。当前832段中658 complete、144有理由排除、30 queued、0 partial；开放未分类索引候选924。下一段为p.464右栏`chp-22:22_CHP-22Index:l2446-2500`。
+
+
+完成p.464右栏`chp-22:22_CHP-22Index:l2446-2500`：核P.csv#164–212共49条，47个分类为23 person、3 place、21 work，P#172与P#186既有see-under排除保留。cand-1984/P#187校正页码28→38、115n→115、128→138；cand-1987/P#190 112→113；cand-1989/P#192 112→115。P.csv与S0未改，无新增mentions、book statements或relations。当前832段中659 complete、144有理由排除、29 queued、0 partial；开放未分类索引候选877。下一段为p.465页标`chp-22:22_CHP-22Index:l2502-2503`。
