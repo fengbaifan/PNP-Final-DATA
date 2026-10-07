@@ -6138,3 +6138,28 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 核对`CHP-22Index.pdf`物理页4（印刷p.446）左栏与规范索引段，按页图读校，不改写S0。对照B.csv#92–140，为49个开放候选标注类型：47 person、1 term、1 institution。`Barnabotti`按社会阶层词归term；`Benedictines`按宗教修会归institution；其余主词头为person。索引子项和页码是导航，不据此生成正文断言、提及或关系。
 
 受控脚本`chp22_index_p446_l342_396_migration.py`锁定来源、PDF、索引CSV、段哈希及表前态，默认dry-run；先预览后应用，仅更新49个候选类型和本段coverage，写前保存候选表及coverage恢复副本。未新增mentions、book-statements或relations。处理后全表为11,436候选、26,829 mentions、12,102 statements；832段中623 complete、126有理由排除、83 queued、0 partial；开放未分类索引候选2,554。下一段为`chp-22:22_CHP-22Index:l398-452`。结构审计不替代全书S2语义交接审计。
+
+
+## 索引p.446右栏（S0 L398–452）
+
+核对`CHP-22Index.pdf`物理页4（印刷p.446）右栏与规范索引段。对照页图及B.csv#141–180，40个已有候选均为Bernini人物词头或其子项；39项新增`person`类型，cand-0319此前已有该类型。索引子项仍是导航，未增加mentions、book-statements或relations。
+
+同时发现页图/S0中的主词头`Bentveugels`、`Bergamo`未出现在A.csv或B.csv主词头表，也无对应`index_entry_id`候选。正文中虽有相近对象候选，当前不据此推断同一性或补造索引映射；将该S1种子范围差异保留到全书S2交接审计前解决。受控脚本`chp22_index_p446_rcol_l398_452_migration.py`锁定来源/PDF/B.csv/段哈希及表前态，dry-run后应用，只更新40个候选类型和coverage；写前备份两张受影响表。
+
+随后核对PDF物理页5（印刷p.447）：S0 L454 `[Page 447]`是生成页标，按`excluded/complete`关闭，无候选、mention或statement改动。脚本`chp22_index_p447_marker_l454_exclusion.py`锁定来源、PDF、段哈希和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中624 complete、127有理由排除、81 queued、0 partial；开放未分类索引候选2,515。下一段为`chp-22:22_CHP-22Index:l456-510`。
+
+## 索引p.447左栏（S0 L456–510）
+
+对照`CHP-22Index.pdf`物理页5（印刷p.447）及B.csv#181–227处理左栏。47个开放候选均为person；46项新增类型，cand-0379（Blunt）已有该类型。此S0范围包含少量右栏OCR碎片，后续L512–566另按整页右栏独立处理，避免跨栏错配。B.csv#214的`NiccolÃ²`为编码乱码；依页图校正候选使用`Niccolò`，未改写S1来源CSV。索引子项和页码仍是导航，不新增mentions、book-statements或relations。
+
+受控脚本`chp22_index_p447_l456_510_migration.py`锁定来源、PDF、B.csv、段哈希和表前态，dry-run后应用；写前备份候选表与coverage。处理后11,436候选、26,829 mentions、12,102 statements；832段中625 complete、127有理由排除、80 queued、0 partial；开放未分类索引候选2,469。下一段为`chp-22:22_CHP-22Index:l512-566`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.447右栏（S0 L512–566）
+
+对照同一页图及B.csv#228–274处理右栏47个开放候选：42 person、3 place（Bologna两项、Borghese Palace）、1 term（Book illustration）；cand-0387 Bonfiglioli collection因当前taxonomy没有collection类型且索引证据不足，保持type-pending。B.csv#262、#267–270的重音字符在CSV中乱码，按页图和候选名校读而不改写来源。L512的`X 447`是页眉/页码OCR碎片，不作为实体。索引子项及定位不是正文断言或关系；本段不新增mentions、book-statements或relations。
+
+受控脚本`chp22_index_p447_rcol_l512_566_migration.py`锁定来源、PDF、B.csv、段哈希和表前态，dry-run后应用，写前备份受影响表。处理后11,436候选、26,829 mentions、12,102 statements；832段中626 complete、127有理由排除、79 queued、0 partial；开放未分类索引候选2,423。下一段为页标`chp-22:22_CHP-22Index:l568-568`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.448页标（S0 L568）
+
+核对`CHP-22Index.pdf`物理页6，确认印刷p.448；S0 L568 `[Page 448]`为生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p448_marker_l568_exclusion.py`校验来源、页图与coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中626 complete、128有理由排除、78 queued、0 partial；开放未分类索引候选2,423。下一段为`chp-22:22_CHP-22Index:l570-624`。机械闭合不代表S2语义交接完成。

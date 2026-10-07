@@ -1311,3 +1311,12 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.446左栏（S0 L342–396）
 
 完成`chp-22:22_CHP-22Index:l342-396`：对照印刷p.446页图和B.csv#92–140，为49个开放候选标注47 person、1 term、1 institution。`Barnabotti`归社会阶层词term，`Benedictines`归宗教修会institution；子项和页码仍作为索引导航，未新增mentions、book statements或relations。迁移后11,436候选、26,829 mentions、12,102 statements；832段中623 complete、126有理由排除、83 queued、0 partial；开放未分类索引候选2,554。下一段`chp-22:22_CHP-22Index:l398-452`。审计`errors=[]`、`s2_missing=[]`不代表S2语义交接审计完成。
+
+
+## 索引p.446右栏及p.447页标
+
+完成`chp-22:22_CHP-22Index:l398-452`：对照印刷p.446页图和B.csv#141–180，40个Bernini人物词头/子项中39项补标`person`，cand-0319此前已标。页图/S0的主词头`Bentveugels`与`Bergamo`未见于A/B CSV主词头或index-entry映射，列为待解决的S1种子范围差异；不据正文候选推断同一性。随后将L454 `[Page 447]`按PDF物理页5确认为页标并排除。未新增mentions、book statements或relations。现11,436候选、26,829 mentions、12,102 statements；832段中624 complete、127 excluded、81 queued、0 partial；开放未分类索引候选2,515。下一段`chp-22:22_CHP-22Index:l456-510`。机械审计`errors=[]`、`s2_missing=[]`不代表语义交接审计完成。
+
+## 索引p.447左栏、右栏与p.448页标
+
+完成`chp-22:22_CHP-22Index:l456-510`及`l512-566`：按PDF物理页5的实际双栏分别核读B.csv#181–227与#228–274，新增类型46项和46项；左栏47项均为person，右栏分类为42 person、3 place、1 term，cand-0387 Bonfiglioli collection保留待分类。B.csv的Niccolò及其他重音乱码依页图校正知识候选，不改S1来源CSV。索引导航未新增mentions、book statements或relations。再按物理页6印刷p.448排除L568页标。全表为11,436候选、26,829 mentions、12,102 statements；832段中626 complete、128有理由排除、78 queued、0 partial；开放未分类索引候选2,423。Bentveugels、Bergamo两个S1索引种子映射仍待全书S2交接审计解决。下一段`chp-22:22_CHP-22Index:l570-624`。机械审计不等同语义验收。
