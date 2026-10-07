@@ -1,6 +1,8 @@
 # 第六章全书S2当前结果
 
-任务：patrons-and-painters-full-book-s2。状态：处理中。第六章共33个规范段：22段reviewed/complete、0段reviewed/partial、5段有理由排除、6段queued。
+任务：patrons-and-painters-full-book-s2。第六章共33个规范段。按当前覆盖账本，28段reviewed、5段excluded，queued/partial均为0；33段的migration_status均为complete。当前计数以`04-knowledge/tables/s2-coverage.csv`为准，全书状态见`04-knowledge/results/patrons-and-painters-full-book-s2.md`，后续逐段记录见同任务`results/stages.md`。
+
+下文逐段处理说明、全书累计数及“下一段”是形成时的历史进度快照；当前覆盖状态以覆盖账本和全书结果文件为准。
 
 第六章旧阅读稿与草稿只作语义核漏背景。当前有效处理逐段对应规范源；脚注、跨页句及扫描校勘按印刷页序登记。第147–156页已处理范围内的跨页句均已闭合；p157 Antonio目录句由L56闭合，p158 Marucelli引介由L13闭合，Bellori《Lives》句由p159 L29闭合。
 

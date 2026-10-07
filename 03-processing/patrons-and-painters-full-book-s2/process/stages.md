@@ -6611,3 +6611,13 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 对照CHP-22Index.pdf物理页4（印刷p.446）与S0 L399–402，确认B.csv遗漏四条而非此前只标出的两个主词头：Bentveugels、Bergamo主词头，以及Bergamo下Santa Maria Maggiore、S. Paolo d’Argan两个具名地点子项。Bentveugels指向罗马的北方画家团体，taxonomy归institution；Bergamo和两座具名教堂/建筑位置均归place。章1现有Bentveughels与Schildersbent提及分别映射到cand-3152、cand-2989；Bergamo及Santa Maria Maggiore也有多个正文候选，全部保留待S3身份对齐，不复用身份或据索引添加正文关系。
 
 为保留B.csv现有0–323行索引键，将四个转录补项追加为B.csv#324–327，并新增cand-11459–11462。CSV补项字段依据印本页图；S0和PDF不改，已有mentions/statements不重写。受控脚本chp22_index_b446_seed_backfill.py锁定PDF、S0、taxonomy、B.csv和候选表哈希，默认dry-run；核对缺项、追加行号、类型及新增ID后apply，保留B.csv和候选表恢复副本。索引种子计数现与结构化CSV行数增加到2,934；此回补只解决p.446发现的四行，全书纸本索引与CSV逐项对照仍待完成。
+
+## 书后平行OCR与索引转录范围复核（2026-10-07）
+
+逐份对照五个未纳入S0的书后平行OCR文件与规范来源：`18_CHP-18Conclusion_intro.md`、`19_CHP-19Appendix_intro.md`、`20_CHP-20Postscript_intro.md`、`21_CHP-21Bibliography_intro.md`、`22_CHP-22Index_intro.md`。比较以规范OCR、印本PDF和已登记S2锚点为准，不把平行OCR计作新来源段。结论旧稿除文件标题外无实质差异。附录旧稿将173 c. 2书信重复放在Footnotes末尾；规范OCR和印本页序已把该信放回175条目前，并去掉旧稿重复。后记旧稿把9、10号注释文献留在后段，规范OCR将其移入对应页注区；正文词间空格差异不改变语义。书目旧稿将Noemi Gabrieli条目置于p.423的G字头，规范OCR把同一条错位到L1304；已有`cand-11333`及statement `st-chp21-bib-l1301-1306-xref-05`保留错位OCR锚点并回链至规范p.423 L503的书目位置。未发现这些副本含规范S0及现有迁移之外的独有实质文本。
+
+索引旧稿是低质量平行OCR，主要差异为脚注页码后缀`n`漏识、跨栏/OCR粘连及页标；规范索引首页本身没有印刷页码，按物理第1页和次页可见p.444推定为p.443，coverage已排除误读的`[Page 24]`标记并覆盖该首页左右栏。印刷p.444–474连续对应后续31页；当前索引规范源共94段，均已reviewed或有理由排除且migration complete。
+
+对照19组A–Z索引Markdown与CSV：原有Markdown表共2,930行，CSV新增p.446四行后为2,934行；B.md也已追加相同四项，两个索引表均为2,934行。B.csv保留印本页码缩写，B.md按其既有格式展开页码；两边记录逐项对应。除A.csv外的18组既有记录在页码范围与撇号规范化后逐行一致。A.csv为旧Windows-1252编码，不能按UTF-8读取；四处OCR字符损坏为`Almor¨°`、`Br¨¹hl`、`citt¨¤`、`Pr¨¤`，对应印本物理页1–2上的Almorò、Brühl、città、Prà。候选`cand-0024`、`cand-0045`、`cand-0093`、`cand-0104`均按印本及A.md登记了正确字形。未改写原A.csv字节。所有2,934个A–Z行号均有且仅有一个candidate index ID；其余索引页的PDF/CSV对应关系和逐段分类见本过程记录各页条目。
+
+该复核完成书后五个平行OCR副本的范围比对和索引CSV/Markdown行映射；全书17个整章OCR对照副本及语义交接仍须按来源登记继续审计。当前`audit_tables.py --summary`为`segments=832`、`s2_missing=[]`、`errors=[]`、`678 complete/154 excluded/0 queued/0 partial`。两条既存enrichment `source_ref`警告（`enr-06678`、`enr-06937`）与结构审计分开保留；机械闭合不证明召回率或语义质量。

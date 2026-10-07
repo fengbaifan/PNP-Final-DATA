@@ -1,8 +1,10 @@
 # 第5章语义处理结果
 
-任务：patrons-and-painters-full-book-s2。第5章共41个规范段；当前21段语义完整、1段跨页未闭合、4段有理由排除、15段queued。下一规范段为`chp-5:05_CHP-5_sec_iii:l63-65`（Plate 23）。
+任务：patrons-and-painters-full-book-s2。第5章共41个规范段。按当前覆盖账本，35段reviewed、6段excluded，queued/partial均为0；41段的migration_status均为complete。当前计数以`04-knowledge/tables/s2-coverage.csv`为准，全书状态见`04-knowledge/results/patrons-and-painters-full-book-s2.md`，后续逐段记录见同任务`results/stages.md`。
 
-## 当前已处理段
+## 早期逐段处理记录（保留当时状态）
+
+下表和随后进度叙述记录阶段性处理过程，不是当前覆盖清单；其中旧的partial、queued和“下一段”记录均为历史快照。
 
 | 规范段 | 状态 | 结果 |
 |---|---|---|

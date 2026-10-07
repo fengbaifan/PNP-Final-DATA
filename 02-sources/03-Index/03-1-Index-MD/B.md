@@ -327,3 +327,14 @@
 | Bussi, Francesca |  |  |  | 223 |
 | Byng, Admiral |  |  |  | 200n |
 
+## S2补录：印刷页446漏录项（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页4后，确认原表漏录以下四项。原表内容保持不变；页码展开方式沿用本文件。
+
+| Main Entry | Location | Sub-entry | Detail | Page Numbers |
+| :---- | :---- | :---- | :---- | :---- |
+| Bentveugels |  |  |  | 20, 130 |
+| Bergamo |  |  |  | 215, 216, 217, 218, 219, 220, 221 |
+| Bergamo |  | Santa Maria Maggiore |  | 215, 216, 217, 218, 219, 220, 221, 222, 223 |
+| Bergamo |  | S. Paolo d’Argan |  | 221n |
+
