@@ -6804,3 +6804,11 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 同页3条正文statement仍把已处理脚注写为pending；脚注段和具体注释链接已核实完整后，受控脚本`chp7_p180_note_status_reconciliation.py`仅更新3条`qualifiers.qualification`，不改变claim、端点、mentions或脚注链接。写入前statement表恢复副本为`%TEMP%\pnp-chp7-p180-note-status-h4x6_rj8\book-statements.jsonl`；逐行差异核对通过。其余关系候选端点不变，全书仍有6条开放关系候选：第7章1、第8章3、第14章1、第20章1。
 
 `python -X utf8 scripts/audit_tables.py --strict-stage`复核为`s2_missing=[]`、`errors=[]`；832段中678 complete、154有理由排除、0 queued、0 partial；候选、mentions与statements计数未变。未写入S6正式边。下一步按书序处理第八章3条开放项，并继续核对全书正文与脚注的状态和回链；S2总交接审计尚未完成。
+
+## 全书S2脚注回链与限定语校正：第八章p.238、第十章p.279–280（2026-10-08）
+
+对照第八章原书物理页44、正文标记和脚注段，确认p.238注4的印本标记位于同一句末；该句已拆为`st-chp8-p238-silva-satirical-picture`与`st-chp8-p238-genre-scenes-and-subject-popularity`。受控脚本`chp8_p238_note4_link_reconciliation.py`仅为注4补入这两个`linked_body_statement_ids`。注中“These pictures”的指代仍可能只含两件风俗画，也可能包括前述讽刺画；没有建立单件作品与Pisa馆藏的关系。写前表哈希锁定为`b7b2f5e9…`，脚本默认dry-run并在apply前保存恢复副本`%TEMP%\pnp-chp8-p238-note4-link-kth4mnwa\book-statements.jsonl`。
+
+第十章注释段`chp-10:10_CHP-10_intro:l491-634`已reviewed/complete，覆盖p.279注1–3及p.280注1–8。受控脚本`chp10_p279_280_note_status_reconciliation.py`据具体注释行和现有正文回链校正11条statement中过时的“pending”限定语；只改`qualifiers.qualification`。引用型脚注仍标明被引文献未独立查阅；对已有注释statement的注5、注7保留相应回链，不为纯书目指针虚构注释statement。写前表哈希为`73c90931…`，脚本默认dry-run并在apply前保存恢复副本`%TEMP%\pnp-chp10-p279-280-note-status-bfdijlln\book-statements.jsonl`。
+
+两项脚本均锁定来源、PDF、段哈希和预期行状态。最终statement表SHA-256为`6ed25bcafce8c554aa5c16ac6d1074ff3e7acb5a0de358e8962ec02d027c6a73`；逐行变更限于注4的回链字段及上述11条限定语，候选、mentions、statement数量和关系端点均未改变。全书开放关系候选仍为6条（第7章1、第8章3、第14章1、第20章1）；本次不写入S6正式关系。下一步继续全书脚注状态/回链核查，并按书序复核第十四章唯一开放端点，再完成S2总交接审计。
