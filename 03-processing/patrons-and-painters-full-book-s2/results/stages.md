@@ -1356,3 +1356,11 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.451两栏、p.452页标及左栏
 
 完成`chp-22:22_CHP-22Index:l913-1022`：对照p.451页图和C.csv#227–321，89个开放候选标注25 person、42 place、22 work，保留6个see-under排除项；校读Clément及Città di Castello拼写。随后按PDF物理页10排除p.452页标L1024；完成左栏`l1026-1080`，对照C.csv#322–371标注49个开放候选（32 person、4 place、5 work、6 term、1 family、1 institution），保留cand-0834既有person类型。三个段落均未增加mentions、book statements或relations。现11,436候选、26,829 mentions、12,102 statements；832段中634 complete、132有理由排除、66 queued、0 partial；开放未分类索引候选2,016。下一段为右栏`chp-22:22_CHP-22Index:l1082-1136`。
+
+## 索引p.452右栏
+
+完成`chp-22:22_CHP-22Index:l1082-1136`：对照印刷p.452右栏与C.csv#372–420，49行中43个开放候选补标21 person、19 work、3 family；4条see-under继续excluded，保留C#407既有person。C#388 cand-0858异质收藏因taxonomy无对应类型仍待决；C#390 Longhi绘画/素描主题依据p.382已登记的作品组cand-10712/10714归work。按印本将cand-0868“Créqui, Duc de”校正重音，来源文件不改。未新增mentions、book statements或relations。当前11,436候选、26,829 mentions、12,102 statements；832段中635 complete、132有理由排除、65 queued、0 partial；开放未分类索引候选1,973。下一段为`chp-22:22_CHP-22Index:l1140-1194`。
+
+## 索引p.453页标
+
+完成页标`chp-22:22_CHP-22Index:l1138-1138`：页图确认印刷p.453，L1138是生成定位符，已记excluded/complete。未新增候选分类、mentions、book statements或relations。当前11,436候选、26,829 mentions、12,102 statements；832段中635 complete、133有理由排除、64 queued、0 partial。下一段为p.453左栏`chp-22:22_CHP-22Index:l1140-1194`。

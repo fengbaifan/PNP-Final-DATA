@@ -6227,3 +6227,15 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 核对同一PDF物理页10的左栏；L1026是页眉/页码行，C.csv#322–371共50行对应L1027–1080。为49个开放候选补标32 person、4 place、5 work、6 term、1 family、1 institution；既有cand-0834（C#364，Stefano Conti）保留person。Codazzi四幅有题名绘画及Coli的Lepanto壁画组归work；Contarini family与villa分作family和place；Congregazione dei Virtuosi归institution。`Competitions`和Contracts通用栏目及子项按term处理，未据索引标题臆造具体比赛或存世合同。C#361仍为Antonio Conti人物词头，失传论画文书另由archive候选cand-9728表示；C#364附录文件子项不改变其人物身份。来源Markdown、PDF、C.csv均未改写，索引导航不增加mentions、book statements或relations。
 
 受控脚本`chp22_index_p452_l1026_1080_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，dry-run后应用并写前备份候选表与coverage。处理后11,436候选、26,829 mentions、12,102 statements；832段中634 complete、132有理由排除、66 queued、0 partial；开放未分类索引候选2,016。下一段为右栏`chp-22:22_CHP-22Index:l1082-1136`。本次coverage审计曾发现空reviewed段缺`no_semantic_content`前缀，已补正两段说明；修正后重新审计。
+
+## 索引p.452右栏（S0 L1082–1136）
+
+核对`CHP-22Index.pdf`物理页10（印刷p.452）右栏及C.csv#372–420。L1082是运行页眉，49条索引候选行位于L1083–1136。按页图读取栏界和条目；四个see-under别名C#394、C#397、C#398、C#401维持excluded；既有C#407 cand-0873（Crespi与Grand Prince Ferdinand）保留person；另有43个开放候选补标21 person、19 work、3 family。人物行：C#372–376、379、382、386–387、389、391–392、395–396、399–400、402–406；家族行C#377–378、393；作品行C#380–381、383–385、390、408–420。Corradini的Schulenburg雕像与《Virginity》、Correggio三幅题名绘画，以及Crespi C#408–420的十三条绘画/图像对象归work。C#390“paintings and drawings by P. Longhi”按work处理，因为p.382正文已分别登记约二十幅Longhi绘画组cand-10712和未辨素描组cand-10714。C#388 cand-0858“collections”仍类型待决：p.382及p.383正文已将Correr的异质收藏作为独立对象使用，但现行taxonomy没有collection类型；不把包括书籍、手稿、版画、钱币、青铜器及绘画的整体冒充person、place、institution或term。C#389的“interest in history of Venice”仍随Correr人物词头。页图印作`Créqui, Duc de`，将C#402候选由S1拼写`Crequi, Duc de`校为印本拼写；S0 Markdown、PDF和C.csv均未改。索引子项与页码只是导航，本段不增加mentions、book statements或relations。
+
+受控脚本`chp22_index_p452_rcol_l1082_1136_migration.py`锁定S0段及来源/PDF/C.csv/表前态，dry-run通过后应用，写前备份候选表和coverage。处理后11,436候选、26,829 mentions、12,102 statements；832段中635 complete、132有理由排除、65 queued、0 partial；开放未分类索引候选1,973（含cand-0858类型待决）。下一段为`chp-22:22_CHP-22Index:l1140-1194`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.453页标（S0 L1138）
+
+对照`CHP-22Index.pdf`物理页11，印刷页码为p.453。L1138 `[Page 453]`是生成页标而非索引词条；coverage记为excluded/complete，理由以前缀`no_semantic_content:`记录。不新增候选分类、mentions、book statements或relations。下一段为`chp-22:22_CHP-22Index:l1140-1194`。
+
+受控脚本`chp22_index_p453_marker_l1138_exclusion.py`锁定来源、PDF、段哈希及表前态，dry-run通过后应用并保留恢复副本。全表结构审计为`s2_missing=[]`、`errors=[]`；当前832段中635 complete、133有理由排除、64 queued、0 partial。结构审计不替代全书S2语义交接审计。
