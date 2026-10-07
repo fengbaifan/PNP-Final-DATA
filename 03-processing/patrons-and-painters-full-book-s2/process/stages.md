@@ -6179,3 +6179,35 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 ## 索引p.449页标（S0 L682）
 
 核对`CHP-22Index.pdf`物理页7，确认印刷p.449；S0 L682 `[Page 449]`为生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p449_marker_l682_exclusion.py`锁定来源、页图和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中628 complete、129有理由排除、75 queued、0 partial；开放未分类索引候选2,335。下一段为`chp-22:22_CHP-22Index:l684-738`。机械闭合不代表S2语义交接完成。
+
+## 索引p.449左栏（S0 L684–738）
+
+核对`CHP-22Index.pdf`物理页7（印刷p.449）左栏，对照C.csv#44–91的48条候选行。为46个未标类型候选补标：44 person、2 institution（Capuchins、Carmelites）；cand-0531（C#55，Canons／Chandos宅邸）保留place，cand-0556（C#80，Entry of the Count of Colloredo）保留既有p.277注5证据支持的work。页图确认L684–738是左栏，OCR混入的右栏片段由L740–794单独处理；来源文本和C.csv均未改写。子项和定位不作为新增断言、提及或关系。
+
+受控脚本`chp22_index_p449_l684_738_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，dry-run后应用，并为候选表与coverage留恢复副本。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中629 complete、129有理由排除、74 queued、0 partial；开放未分类索引候选2,289。下一段为`chp-22:22_CHP-22Index:l740-794`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.449右栏（S0 L740–794）
+
+核对同页右栏及C.csv#92–139，共48条候选行；补标46 person、1 event（Castro战争）和1 institution（Cavalieri di Santo Stefano）。页图校读页眉、栏界与OCR截断；C.csv#117–124的Niccolò存在编码乱码，依印本保留候选中的正确拼写，不改S0或C.csv。主词头之外的索引子项和定位不作为新增断言、提及或关系。
+
+受控脚本`chp22_index_p449_r740_794_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，显式校验Niccolò的S1乱码映射；dry-run后应用并为候选表与coverage留恢复副本。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中630 complete、129有理由排除、73 queued、0 partial；开放未分类索引候选2,241。下一段为p.450页标`chp-22:22_CHP-22Index:l796-796`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.450页标（S0 L796）
+
+核对`CHP-22Index.pdf`物理页8，确认印刷p.450；S0 L796 `[Page 450]`为生成页标。按`excluded/complete`关闭并记录`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p450_marker_l796_exclusion.py`锁定来源、页图和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中630 complete、130有理由排除、72 queued、0 partial；开放未分类索引候选2,241。下一段为`chp-22:22_CHP-22Index:l798-852`。机械闭合不代表S2语义交接完成。
+
+## 索引p.450左栏（S0 L798–852）
+
+核对`CHP-22Index.pdf`物理页8左栏，对照C.csv#140–190的51条候选行；50个主词头/子项候选归person，cand-0660 `Chi soffre, speri`归work。第2章`02_CHP-2_sec_iv.md` L183–184（印刷p.58）称其为Rospigliosi创作的verse drama，作为类型判断依据。C.csv#172–173的Chantelou、Chardin重音乱码由页图校读，候选沿用印本拼写而不改S0/S1来源。索引子项和定位不作为新增断言、提及或关系。
+
+受控脚本`chp22_index_p450_l798_852_migration.py`锁定来源/PDF/C.csv/段哈希与表前态，并核验两处乱码映射；dry-run后应用，候选表与coverage均留恢复副本。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中631 complete、130有理由排除、71 queued、0 partial；开放未分类索引候选2,190。下一段为`chp-22:22_CHP-22Index:l854-908`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.450右栏（S0 L854–908）
+
+核对同页右栏及C.csv#191–226，共36条候选行：13 person、1 term、22 place。C#204“Churches of religious orders”是教堂集合的主题词；C#205–226的Location与Sub-entry列列明具体教堂或建筑性小空间，依taxonomy归place。页图校读Chigi续项与Churches栏间的OCR碎片；不把索引定位转成正文断言、提及或关系。
+
+受控脚本`chp22_index_p450_r854_908_migration.py`锁定来源/PDF/C.csv/段哈希及表前态，dry-run后应用并为候选表与coverage留恢复副本。处理后全表11,436候选、26,829 mentions、12,102 statements；832段中632 complete、130有理由排除、70 queued、0 partial；开放未分类索引候选2,154。下一段为p.451页标`chp-22:22_CHP-22Index:l910-911`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.451页标与页眉（S0 L910–911）
+
+核对`CHP-22Index.pdf`物理页9，确认印刷p.451；S0 L910 `[Page 451]`为生成页标，L911 `INDEX`为运行页眉。按`excluded/complete`关闭并记`no_semantic_content`，不改候选、mentions或statements。受控脚本`chp22_index_p451_marker_l910_911_exclusion.py`校验来源、页图和coverage前态，写前备份coverage。当前11,436候选、26,829 mentions、12,102 statements；832段中632 complete、131有理由排除、69 queued、0 partial；开放未分类索引候选2,154。下一段为`chp-22:22_CHP-22Index:l913-1022`。机械闭合不代表S2语义交接完成。

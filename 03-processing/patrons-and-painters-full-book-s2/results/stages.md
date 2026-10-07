@@ -1328,3 +1328,27 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.449页标
 
 完成`chp-22:22_CHP-22Index:l682-682`：核对PDF物理页7印刷p.449，排除生成页标，不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中628 complete、129有理由排除、75 queued、0 partial；开放未分类索引候选2,335。下一段`chp-22:22_CHP-22Index:l684-738`。
+
+## 索引p.449左栏
+
+完成`chp-22:22_CHP-22Index:l684-738`：逐项核对PDF物理页7左栏与C.csv#44–91，补标44 person、2 institution，保留cand-0531为place及cand-0556为work。OCR混入的右栏片段留给下一段L740–794；索引子项和页码不新建断言、mentions或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中629 complete、129有理由排除、74 queued、0 partial；开放未分类索引候选2,289。下一段`chp-22:22_CHP-22Index:l740-794`。
+
+## 索引p.449右栏
+
+完成`chp-22:22_CHP-22Index:l740-794`：核读PDF物理页7右栏与C.csv#92–139，补标46 person、1 event、1 institution；印本校正C.csv#117–124的Niccolò乱码，未修改来源CSV。索引导航未新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中630 complete、129有理由排除、73 queued、0 partial；开放未分类索引候选2,241。下一段为p.450页标`chp-22:22_CHP-22Index:l796-796`。
+
+## 索引p.450页标
+
+完成`chp-22:22_CHP-22Index:l796-796`：核对PDF物理页8印刷p.450，排除生成页标，不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中630 complete、130有理由排除、72 queued、0 partial；开放未分类索引候选2,241。下一段`chp-22:22_CHP-22Index:l798-852`。
+
+## 索引p.450左栏
+
+完成`chp-22:22_CHP-22Index:l798-852`：核读PDF物理页8左栏及C.csv#140–190，补标50 person、1 work；第2章p.58明确称`Chi soffre, speri`为verse drama。按印本校读C.csv#172–173重音乱码，来源文件未改。索引导航不新增mentions、book statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中631 complete、130有理由排除、71 queued、0 partial；开放未分类索引候选2,190。下一段`chp-22:22_CHP-22Index:l854-908`。
+
+## 索引p.450右栏
+
+完成`chp-22:22_CHP-22Index:l854-908`：核读PDF物理页8右栏与C.csv#191–226，补标13 person、1 term、22 place；Churches栏目中C#204为主题词，C#205–226为具体教堂/建筑性空间。索引导航不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中632 complete、130有理由排除、70 queued、0 partial；开放未分类索引候选2,154。下一段为p.451页标`chp-22:22_CHP-22Index:l910-911`。
+
+## 索引p.451页标与页眉
+
+完成`chp-22:22_CHP-22Index:l910-911`：核对PDF物理页9，排除L910生成页标和L911运行页眉，不新增候选、mentions、statements或relations。全表11,436候选、26,829 mentions、12,102 statements；832段中632 complete、131有理由排除、69 queued、0 partial；开放未分类索引候选2,154。下一段`chp-22:22_CHP-22Index:l913-1022`。
