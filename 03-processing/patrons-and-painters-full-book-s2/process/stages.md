@@ -6255,3 +6255,11 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 ## 索引p.454页标（S0 L1251）
 
 核对`CHP-22Index.pdf`物理页12，印刷页码为p.454。L1251 `[Page 454]`是生成页标而非索引词条；coverage记为excluded/complete并以前缀`no_semantic_content:`说明。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p454_marker_l1251_exclusion.py`锁定来源/PDF/段哈希及coverage前态，dry-run通过后应用并留恢复副本。当前832段中637 complete、134有理由排除、61 queued、0 partial。下一段为左栏`chp-22:22_CHP-22Index:l1253-1307`。
+
+## 索引p.454左栏（S0 L1253–1307）
+
+对照`CHP-22Index.pdf`物理页12（印刷p.454）核读左栏，E.csv#16–20及F.csv#0–44共50行；E#19是see-under别名，保留excluded；F#29 cand-1014既有person分类保留。其余48个开放候选中46个补标31 person、5 work、7 place、1 term、1 family、1 event；Farsetti的cast collection与painting collection（F#20–21）因taxonomy没有collection类型而保留未分类，不强行归入其他类型。
+
+类型判断结合全书正文：F#13所指Gesù是修会教堂建筑，归place；F#27“sale of collections”按第十五章p.364明确叙述的十九世纪初财产拆分与收藏出售归event；Bentivoglio由第二章p.48明确称为家族，归family；Ferrerio的Vigilance雕像及其为Ferrara Archbishop’s Palace楼梯墙设计的灰泥装饰分别归work。其余人物、地点、作品和通称依页图、索引CSV与已有正文语境逐项分类。索引页码只作导航，不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p454_l1253_1307_migration.py`锁定S0段、来源/PDF、E/F索引表及表前哈希，校验全部50行候选映射与各状态；dry-run通过后应用，为候选表和coverage留恢复副本。处理后11,436候选、26,829 mentions、12,102 statements；832段中638 complete、134有理由排除、60 queued、0 partial；开放未分类索引候选1,834（含本段两项collection类型待决及先前待决项）。下一段为右栏`chp-22:22_CHP-22Index:l1309-1363`。结构审计不替代全书S2语义交接审计。

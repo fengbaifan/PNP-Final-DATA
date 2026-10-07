@@ -1376,3 +1376,7 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.454页标
 
 完成页标`chp-22:22_CHP-22Index:l1251-1251`：页图确认物理页12印刷p.454，生成定位符已记excluded/complete。未更改候选或新增mentions、book statements、relations。当前832段中637 complete、134有理由排除、61 queued、0 partial。下一段为p.454左栏`chp-22:22_CHP-22Index:l1253-1307`。
+
+## 索引p.454左栏
+
+完成`chp-22:22_CHP-22Index:l1253-1307`：对照印刷p.454左栏E.csv#16–20、F.csv#0–44分类；46个开放候选标注31 person、5 work、7 place、1 term、1 family、1 event，保留cand-1014既有person，保留E#19 see-under排除项。Farsetti casts与paintings两项collection无对应taxonomy类型，维持待决。以书内证据将Bentivoglio判为family、Ferrerio的Vigilance和楼梯灰泥装饰判为work；p.364叙明的收藏出售事件归event。页图栏分与来源页段校验通过，索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中638 complete、134有理由排除、60 queued、0 partial；开放未分类索引候选1,834。下一段为p.454右栏`chp-22:22_CHP-22Index:l1309-1363`。

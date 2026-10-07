@@ -979,26 +979,26 @@ cand-0977,E.csv#12,Epicurus,370,person,open,E.csv,,,,,
 cand-0978,E.csv#13,"Erlach, Fischer von",201,person,open,E.csv,,,,,
 cand-0979,E.csv#14,"Errard, Charles",106,person,open,E.csv,,,,,
 cand-0980,E.csv#15,"Essex, Lord",31n,person,open,E.csv,,,,,
-cand-0981,E.csv#16,"Este, Azzo, Marchese d'",366,,open,E.csv,,,,,
-cand-0982,E.csv#17,"Este, Isabella d'",175,,open,E.csv,,,,,
-cand-0983,E.csv#18,"Estrées, Duc d'",200,,open,E.csv,,,,,
-cand-0984,E.csv#20,"Exeter, 5th Lord","197, 198, 211",,open,E.csv,,,,,
-cand-0985,F.csv#0,"Fabriano, Gentile da",148,,open,F.csv,,,,,
-cand-0986,F.csv#1,"Facciolati, Abate","301, 322",,open,F.csv,,,,,
-cand-0987,F.csv#2,"Falcone, Aniello",206,,open,F.csv,,,,,
-cand-0988,F.csv#3,"Faldoni, Giovanni Antonio",343,,open,F.csv,,,,,
-cand-0989,F.csv#4,"Fanelli, Francesco","178, 179",,open,F.csv,,,,,
-cand-0990,F.csv#5,"Fanelli, Francesco",178,,open,F.csv,bust of Charles I,,,,
-cand-0991,F.csv#6,"Fanelli, Francesco",178,,open,F.csv,bust of Charles II when Prince of Wales,,,,
-cand-0992,F.csv#7,Fantasy and reason,"318, 320",,open,F.csv,18th century discussion of roles in creation,,,,
-cand-0993,F.csv#8,"Fanti, Gaetano",201,,open,F.csv,,,,,
-cand-0994,F.csv#9,"Fanzago, Cosimo",172,,open,F.csv,,,,,
-cand-0995,F.csv#10,"Farnese, Cardinal Alessandro","65, 66, 69, 78, 84, 137, 398, 399, 400",,open,F.csv,,,,,
-cand-0996,F.csv#11,"Farnese, Odoardo, Duke of Parma","58, 146",,open,F.csv,,,,,
-cand-0997,F.csv#12,"Farnese, Ranuccio II, Duke of Parma","19, 84, 92",,open,F.csv,,,,,
-cand-0998,F.csv#13,"Farnese, Ranuccio II, Duke of Parma","79, 80, 81",,open,F.csv,and Gesù,,,,
-cand-0999,F.csv#14,Farnese Palace,250,,open,F.csv,,,,,
-cand-1000,F.csv#15,"Farsetti, Anton Francesco",364,,open,F.csv,,,,,
+cand-0981,E.csv#16,"Este, Azzo, Marchese d'",366,person,open,E.csv,,,,,
+cand-0982,E.csv#17,"Este, Isabella d'",175,person,open,E.csv,,,,,
+cand-0983,E.csv#18,"Estrées, Duc d'",200,person,open,E.csv,,,,,
+cand-0984,E.csv#20,"Exeter, 5th Lord","197, 198, 211",person,open,E.csv,,,,,
+cand-0985,F.csv#0,"Fabriano, Gentile da",148,person,open,F.csv,,,,,
+cand-0986,F.csv#1,"Facciolati, Abate","301, 322",person,open,F.csv,,,,,
+cand-0987,F.csv#2,"Falcone, Aniello",206,person,open,F.csv,,,,,
+cand-0988,F.csv#3,"Faldoni, Giovanni Antonio",343,person,open,F.csv,,,,,
+cand-0989,F.csv#4,"Fanelli, Francesco","178, 179",person,open,F.csv,,,,,
+cand-0990,F.csv#5,"Fanelli, Francesco",178,work,open,F.csv,bust of Charles I,,,,
+cand-0991,F.csv#6,"Fanelli, Francesco",178,work,open,F.csv,bust of Charles II when Prince of Wales,,,,
+cand-0992,F.csv#7,Fantasy and reason,"318, 320",term,open,F.csv,18th century discussion of roles in creation,,,,
+cand-0993,F.csv#8,"Fanti, Gaetano",201,person,open,F.csv,,,,,
+cand-0994,F.csv#9,"Fanzago, Cosimo",172,person,open,F.csv,,,,,
+cand-0995,F.csv#10,"Farnese, Cardinal Alessandro","65, 66, 69, 78, 84, 137, 398, 399, 400",person,open,F.csv,,,,,
+cand-0996,F.csv#11,"Farnese, Odoardo, Duke of Parma","58, 146",person,open,F.csv,,,,,
+cand-0997,F.csv#12,"Farnese, Ranuccio II, Duke of Parma","19, 84, 92",person,open,F.csv,,,,,
+cand-0998,F.csv#13,"Farnese, Ranuccio II, Duke of Parma","79, 80, 81",place,open,F.csv,and Gesù,,,,
+cand-0999,F.csv#14,Farnese Palace,250,place,open,F.csv,,,,,
+cand-1000,F.csv#15,"Farsetti, Anton Francesco",364,person,open,F.csv,,,,,
 cand-10000,,Collection of Giovanni Battista Piazzetta’s academic drawings,,work,open,,,A collection of drawings prefaced by Giambattista Albrizzi’s account of Piazzetta’s life. The collection title and format are not given in this passage.,,body-mention,chp-13:13_CHP-13_intro:l41-50#L45
 cand-10001,,Giambattista Albrizzi’s account of Giovanni Battista Piazzetta’s life,,archive,open,,,Haskell says it was published as the preface to a collection of Piazzetta’s academic drawings after the artist’s death in 1754. The exact title and publication date are not given here.,,body-mention,chp-13:13_CHP-13_intro:l41-50#L45
 cand-10002,,Robert Adam’s book on Diocletian’s palace,,archive,open,,,The book that Adam entrusted to Albrizzi for sale when he passed through Venice in 1761. The title and the palace’s exact identity are not specified in this passage.,,body-mention,chp-13:13_CHP-13_intro:l41-50#L48
@@ -1009,7 +1009,7 @@ cand-10006,,Two unidentified Giuseppe Zais pictures taken to the 16 August exhib
 cand-10007,,Giambattista Albrizzi’s private collection of drawings and paintings by Piazzetta,,,open,,,"Haskell describes a private collection of several hundred drawings and many paintings by Piazzetta, including the Sacrifice of Iphigenia. A personal collection is not one artwork under the current taxonomy; retain the candidate with type unresolved rather than work. It is distinct from the published academic-drawing collection.",,body-mention,chp-13:13_CHP-13_intro:l41-50#L49
 cand-10008,,"Letter from P. E. Gherardi to L. A. Muratori, 12 July 1749 (Biblioteca Estense, Modena)",,archive,open,,,"Printed p.336 note 8 identifies this as the source of the comparison between Albrizzi and Pasquali, quotes its characterization, and names the Biblioteca Estense, Modena. The archival letter is cited by Haskell but was not independently consulted.",,body-mention,chp-13:13_CHP-13_intro:l41-50#L50
 cand-10009,,Platnerus’ Institutiones Chirurgicae,,archive,open,,,Book for which Piazzetta designed a frontispiece in 1747. The title is split across S0 lines 42–43; the printed page confirms the wording.,,body-mention,chp-13:13_CHP-13_intro:l41-50#L42
-cand-1001,F.csv#16,"Farsetti, Daniele","363, 364",,open,F.csv,,,,,
+cand-1001,F.csv#16,"Farsetti, Daniele","363, 364",person,open,F.csv,,,,,
 cand-10010,,Unidentified English grammar among Giambattista Pasquali’s early books,,archive,open,,,"Haskell says one of Pasquali’s first books was an English grammar, but supplies no title or author. Keep it as a descriptive unidentified work.",,body-mention,chp-13:13_CHP-13_intro:l52-59#L53
 cand-10011,,Perseus and the Head of Medusa endplate in Dactylografa Smithiana,,work,open,,,An endplate engraved by Andrea Brustolon after a drawing by Pietro Antonio Novelli. The image title is transcribed as printed; no separate impression or collection location is given.,,body-mention,chp-13:13_CHP-13_intro:l52-59#L56
 cand-10012,,Dactyliotheca Ant. M. Zanetti,,archive,open,,,"P.344 identifies this as the illustrated catalogue of A. M. Zanetti's collection of gems and medals, published in 1749 by Albrizzi. This is the earlier Albrizzi publication described on p.337; keep the indexed person entries and their subentries separate for S3 identity alignment.",,body-mention,chp-13:13_CHP-13_intro:l52-59#L55
@@ -1020,7 +1020,7 @@ cand-10016,,Unidentified Jesuit polemical works proposed for publication by Anto
 cand-10017,,Unidentified Venetian authorities involved in disputes over Jesuit affairs,,institution,open,,,Haskell refers generally to authorities hostile to the Society of Jesus; the specific bodies or officials are not identified in this passage.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L68
 cand-10018,,Rich professional classes represented in the Goldoni edition illustrations,,term,open,,,A social group depicted in the illustrated scenes as the prosperous but relatively simple mid-eighteenth-century Venetian world; do not equate automatically with other bourgeoisie candidates.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L65
 cand-10019,,Enlightened bourgeoisie in Haskell’s account of Pasquali’s ideals,,term,open,,,A pan-European social-cultural ideal invoked by Haskell in describing Pasquali; keep distinct pending comparison with other bourgeoisie concepts.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L65
-cand-1002,F.csv#17,"Farsetti, Filippo","322, 361, 362, 363, 364, 368, 373",,open,F.csv,,,,,
+cand-1002,F.csv#17,"Farsetti, Filippo","322, 361, 362, 363, 364, 368, 373",person,open,F.csv,,,,,
 cand-10020,,Baroque architecture as the target of Visentini’s attack supported by Pasquali,,term,open,,,The architectural style named as the target of Visentini’s criticism; do not merge with Lodoli’s distinct account of late Baroque architecture without S3 review.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L66
 cand-10021,,Experimental science popularized for Pasquali’s readers,,term,open,,,The field Haskell says Pasquali brought within reach through illustrated translations; no specific title or scientific claim is supplied here.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L65
 cand-10022,,Unidentified first comedy written by Goldoni at age nine (as reported by Haskell),,archive,open,,,The passage mentions Goldoni writing his first comedy at nine as an autobiographical illustration; no title or evidence of a surviving work is given.,,body-mention,chp-13:13_CHP-13_intro:l61-68#L64
@@ -1031,7 +1031,7 @@ cand-10026,,Accademia dei Cacadubbj (satirical name in a Zatta preface),,term,op
 cand-10027,,Antonio Zatta edition of Petrarch (1756),,archive,open,,,"A dated Italian-classics edition listed by Haskell; full title, format and illustration status are not specified on p.339.",,body-mention,chp-13:13_CHP-13_intro:l70-77#L75
 cand-10028,,Antonio Zatta illustrated edition of Dante (1757),,archive,open,,,Haskell says Zatta sponsored an illustrated edition and calls it the first to appear for two centuries; title and exact edition identity remain unspecified.,,body-mention,chp-13:13_CHP-13_intro:l70-77#L75
 cand-10029,,Pietro Antonio Novelli illustrations for Metastasio works beginning in 1781,,work,open,,,"A set of illustrations for multiple Metastasio works, beginning to appear in 1781. Haskell’s claim that they herald the Romantic movement is evaluative.",,body-mention,chp-13:13_CHP-13_intro:l70-77#L76
-cand-1003,F.csv#18,"Farsetti, Filippo",363,,open,F.csv,and Canova,,,,
+cand-1003,F.csv#18,"Farsetti, Filippo",363,person,open,F.csv,and Canova,,,,
 cand-10030,,Maffeo Pinelli private library,,,open,,,A personal library/collection. Current taxonomy does not provide a dedicated collection type; retain the object without forcing it into institution or archive.,,body-mention,chp-13:13_CHP-13_intro:l70-77#L77
 cand-10031,,Maffeo Pinelli picture collection,,,open,,,"A personal collection of many hundred pictures, cited for sale in 1785 in note 6. Current taxonomy does not provide a dedicated collection type; retain type undecided.",,body-mention,chp-13:13_CHP-13_intro:l70-77#L77
 cand-10032,,Unspecified Venetian State/public authority mentioned in Pinelli’s publishing activity,,institution,open,,,"The passage capitalizes “State” and concerns books Pinelli produced in Venice, but does not name a constitutional body; do not equate it with the Venetian Republic without further evidence.",,body-mention,chp-13:13_CHP-13_intro:l70-77#L77
@@ -1042,7 +1042,7 @@ cand-10036,,Lower social world represented in Novelli’s later Goldoni illustra
 cand-10037,,Tiepolo (surname-only artist mention in Pinelli’s collection),,person,open,,,The passage gives only the surname and says that four pictures by a Tiepolo were in Pinelli’s collection. Keep separate from Giambattista and Gian Domenico Tiepolo until S3.,,body-mention,chp-13:13_CHP-13_intro:l79-88#L80
 cand-10038,,Historical approach to art suggested by Maffeo Pinelli’s collecting,,term,open,,,Haskell infers this interest from the collection’s scholarly completeness and eclecticism and compares Pinelli to Lodoli and others. Preserve the explicitly inferential wording.,,body-mention,chp-13:13_CHP-13_intro:l79-88#L80
 cand-10039,,Sixteenth-century art as Pinelli’s principal collecting interest,,term,open,,,The source says Pinelli’s real enthusiasm seems to have been for the sixteenth century; it gives no specific preference beyond that period.,,body-mention,chp-13:13_CHP-13_intro:l79-88#L80
-cand-1004,F.csv#19,"Farsetti, Filippo",362,,open,F.csv,and Carlo Lodoli,,,,
+cand-1004,F.csv#19,"Farsetti, Filippo",362,person,open,F.csv,and Carlo Lodoli,,,,
 cand-10040,,Unidentified pictures attributed to old masters in Pinelli’s collection,,work,open,,,"Unnamed pictures attributed to Giorgione, Bassano, Veronese, Titian, Palma Giovane, Padovanino and Pietro della Vecchia. “Attributed to” is retained; no individual title or attribution is asserted as settled.",,body-mention,chp-13:13_CHP-13_intro:l79-88#L80
 cand-10041,,Four unidentified Tiepolo pictures in Pinelli’s collection,,work,open,,,Haskell gives a count of four but no titles or first name for Tiepolo. Do not identify the painter or artworks before global alignment.,,body-mention,chp-13:13_CHP-13_intro:l79-88#L80
 cand-10042,,Francesco Maggiotto’s series of portraits of all the Doges for Pinelli,,work,open,,,The passage links the series to Plate 68a. Keep its relationship to the three-portrait Plate 68a candidate cand-4190 and the other Maggiotto portrait group cand-3352 unresolved; do not merge them in S2.,,body-mention,chp-13:13_CHP-13_intro:l79-88#L81
@@ -1075,7 +1075,7 @@ cand-10066,,Parmigianino drawings from Lord Arundel's collection bought by Zanet
 cand-10067,,Pictures acquired by Zanetti from the heirs of Prince Eugene in Vienna in 1736,,work,open,,,"A group including an unidentified Poussin, an unidentified Castiglione, and a pastoral by Crespi; preserve the later note's pending qualification.",,body-mention,chp-13:13_CHP-13_intro:l90-96#L93
 cand-10068,,Unidentified heirs of Prince Eugene who sold pictures to Zanetti,,term,open,,,The passage names no heir. This descriptive group is not a family identity or individual seller.,,body-mention,chp-13:13_CHP-13_intro:l90-96#L93
 cand-10069,,Unidentified Poussin picture bought from the heirs of Prince Eugene,,work,open,,,The body identifies it only as 'a Poussin'. Keep the index-based candidate mapping and identity decision pending S3.,,body-mention,chp-13:13_CHP-13_intro:l90-96#L94
-cand-1007,F.csv#22,"Farsetti, Filippo","362, 363",,open,F.csv,country house at S. Maria di Sala,,,,
+cand-1007,F.csv#22,"Farsetti, Filippo","362, 363",place,open,F.csv,country house at S. Maria di Sala,,,,
 cand-10070,,Unidentified Castiglione picture with animals and figures bought by Zanetti,,work,open,,,The passage supplies no title; the surname-to-person mapping follows the index candidate provisionally and remains for S3.,,body-mention,chp-13:13_CHP-13_intro:l90-96#L94
 cand-10071,,Unidentified pastoral picture by Crespi bought from the heirs of Prince Eugene,,work,open,,,No title is given. The body says only Crespi; retain the S1 index candidate as provisional for S3.,,body-mention,chp-13:13_CHP-13_intro:l90-96#L94
 cand-10072,,Rotterdam,,place,open,,,Named only as a place Zanetti passed through on his 1720 journey toward Paris.,,body-mention,chp-13:13_CHP-13_intro:l90-96#L92
@@ -1086,7 +1086,7 @@ cand-10076,,"Paris connoisseurs who welcomed Zanetti, Carriera, and Pellegrini",
 cand-10077,,Unidentified young protégé sent by Tessin to Zanetti for instruction,,person,open,,,The body does not give the young man's name. Keep his role and the report of his early death distinct from an identity claim.,,body-mention,chp-13:13_CHP-13_intro:l98-105#L99
 cand-10078,,King of Sweden who refused the sum to lure Tiepolo to Stockholm (identity unspecified),,person,open,,,Named only by royal title in this account. Do not merge with other unidentified Swedish monarch references before S3.,,body-mention,chp-13:13_CHP-13_intro:l98-105#L100
 cand-10079,,Pictures by Francesco Zuccarelli bought by Tessin from Zanetti,,work,open,,,"The passage gives no titles, count, or individual objects; preserve this as an unnamed group of pictures.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L101
-cand-1008,F.csv#23,"Farsetti, Filippo",363,,open,F.csv,gardens,,,,
+cand-1008,F.csv#23,"Farsetti, Filippo",363,place,open,F.csv,gardens,,,,
 cand-10080,,Pictures by Giuseppe Nogari bought by Tessin from Zanetti,,work,open,,,"The passage gives no titles, count, or individual objects; preserve this as an unnamed group of pictures.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L101
 cand-10081,,Prints by G. M. Crespi bought by Tessin from Zanetti,,work,open,,,"The passage gives no print titles, count, or individual objects; preserve the medium stated in the source.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L101
 cand-10082,,"Figure commissioned from Gai for Tessin, intended to represent a Venus emerging from the Baths",,work,open,,,"The text reports a commission and intended subject, not that the sculpture was completed. Zanetti facilitated it; retain the intended pairing with Tessin's Bathsheba.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L101
@@ -1097,7 +1097,7 @@ cand-10086,,Older works acquired by Zanetti in France and England,,work,open,,,T
 cand-10087,,Three history paintings by Sebastiano in Zanetti's collection,,work,open,,,The body gives a count and genre but no titles. The artist is mentioned only as Sebastiano and remains subject to S3 alignment.,,body-mention,chp-13:13_CHP-13_intro:l98-105#L103
 cand-10088,,About six landscapes commissioned by Zanetti from Marco Ricci,,work,open,,,The source says half a dozen and that Zanetti commissioned them. No individual landscape titles are supplied.,,body-mention,chp-13:13_CHP-13_intro:l98-105#L103
 cand-10089,,Pastels and miniatures by Rosalba Carriera owned by Zanetti,,work,open,,,"The body provides media and artist but no titles or count. S0 reads Camera; the print reads Carriera, recorded as an S2 correction only.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L103
-cand-1009,F.csv#24,"Farsetti, Filippo",363,,open,F.csv,interest in contemporary arts,,,,
+cand-1009,F.csv#24,"Farsetti, Filippo",363,person,open,F.csv,interest in contemporary arts,,,,
 cand-10090,,"Dish engraved with a Bacchanal by Annibale, excepted in Zanetti's 1752 statement about rare prints",,work,open,,,"The sentence continues onto p.343. Do not infer from this fragment whether the dish was absent, unavailable, or otherwise excepted.",,body-mention,chp-13:13_CHP-13_intro:l98-105#L105
 cand-10091,,Lascivious prints of Giulio Romano engraved by Marc’Antonio with Aretino’s sonnets,,work,open,,,The 1752 quotation identifies this print group but says Zanetti had never seen it. Marc’Antonio and Aretino remain separate name candidates pending S3.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L108
 cand-10092,,Marc’Antonio (engraver named with Giulio Romano prints; identity pending),,person,open,,,The source gives only the name Marc’Antonio. Do not identify him as Marcantonio Raimondi before S3.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L108
@@ -1108,30 +1108,30 @@ cand-10096,,Works by Ugo da Carpi and Parmigianino engraved by Faldoni for Zanet
 cand-10097,,Prints by Rembrandt and Callot bought by Zanetti on foreign travels,,work,open,,,The artists stand for prints in this discussion; the passage does not identify individual print titles.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L111
 cand-10098,,Twelve drawings by Castiglione engraved by Zanetti in 1759,,work,open,,,"The source gives a count, artist, agent, and year but no individual drawing titles.",,body-mention,chp-13:13_CHP-13_intro:l107-114#L111
 cand-10099,,Artists and expert connoisseur collectors who prefer lively broad-stroke prints,,term,open,,,A group described in the younger A. M. Zanetti’s quoted preface; its members are not named.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L111
-cand-1010,F.csv#25,"Farsetti, Filippo",363,,open,F.csv,Palazzo Farsetti,,,,
+cand-1010,F.csv#25,"Farsetti, Filippo",363,place,open,F.csv,Palazzo Farsetti,,,,
 cand-10100,,General public preferring carefully finished high-contrast prints,,term,open,,,A readership group in the younger A. M. Zanetti’s quoted distinction; do not treat as every individual reader.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L111
 cand-10101,,"Unnamed English, French, and Venetian friends dedicated individual woodcut sheets",,term,open,,,"The passage identifies recipient categories, not individual people or organizations.",,body-mention,chp-13:13_CHP-13_intro:l107-114#L112
 cand-10102,,Rococo and neo-classical styles in Haskell’s account of Zanetti’s taste,,term,open,,,Haskell says the two styles were not in conflict for Zanetti and similar amateurs; retain as an interpretive claim.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L113
 cand-10103,,Etchings by Tiepolo published by Zanetti,,work,open,,,The text refers to Tiepolo’s etchings as a group and says Zanetti was the first to publish them; note 4 remains pending.,,body-mention,chp-13:13_CHP-13_intro:l107-114#L113
-cand-1011,F.csv#26,"Farsetti, Filippo",363,,open,F.csv,promotion of Venetian neo-classicism,,,,
-cand-1012,F.csv#27,"Farsetti, Filippo",364,,open,F.csv,sale of collections,,,,
-cand-1013,F.csv#28,"Farsetti, Tommaso Giuseppe","235n, 362n, 364",,open,F.csv,,,,,
+cand-1011,F.csv#26,"Farsetti, Filippo",363,person,open,F.csv,promotion of Venetian neo-classicism,,,,
+cand-1012,F.csv#27,"Farsetti, Filippo",364,event,open,F.csv,sale of collections,,,,
+cand-1013,F.csv#28,"Farsetti, Tommaso Giuseppe","235n, 362n, 364",person,open,F.csv,,,,,
 cand-1014,F.csv#29,"Fedini, Domenico","388, 389",person,open,F.csv,,,,,
-cand-1015,F.csv#30,"Félibien, André","114, 115",,open,F.csv,,,,,
-cand-1016,F.csv#31,"Ferdinand Maria, Elector of Bavaria",193,,open,F.csv,,,,,
-cand-1017,F.csv#32,Ferrara,"25, 48, 49, 221, 222",,open,F.csv,,,,,
-cand-1018,F.csv#33,Ferrara,"221, 222",,open,F.csv,Archbishop's Palace,,,,
-cand-1019,F.csv#34,Ferrara,48,,open,F.csv,Bentivoglio and,,,,
-cand-1020,F.csv#35,"Ferrari, Giovanni",367,,open,F.csv,,,,,
-cand-1021,F.csv#36,"Ferrari, Gregorio de",200,,open,F.csv,,,,,
-cand-1022,F.csv#37,"Ferrata, Ercole",149,,open,F.csv,,,,,
-cand-1023,F.csv#38,"Ferrerio, Andrea",,,open,F.csv,,,,,
-cand-1024,F.csv#39,"Ferrerio, Andrea",221,,open,F.csv,Vigilance,,,,
-cand-1025,F.csv#40,"Ferrerio, Andrea","221, 222",,open,F.csv,"work in Archbishop's Palace, Ferrara",,,,
-cand-1026,F.csv#41,"Ferretti, Gian Domenico",299,,open,F.csv,,,,,
-cand-1027,F.csv#42,"Ferri, Ciro","12, 13n, 18, 23n, 60, 65, 80, 217, 218",,open,F.csv,,,,,
-cand-1028,F.csv#43,"Ferri, Ciro",12n,,open,F.csv,payments,,,,
-cand-1029,F.csv#44,"Ferri, Ciro",12,,open,F.csv,modello for cupola of S. Agnese,,,,
+cand-1015,F.csv#30,"Félibien, André","114, 115",person,open,F.csv,,,,,
+cand-1016,F.csv#31,"Ferdinand Maria, Elector of Bavaria",193,person,open,F.csv,,,,,
+cand-1017,F.csv#32,Ferrara,"25, 48, 49, 221, 222",place,open,F.csv,,,,,
+cand-1018,F.csv#33,Ferrara,"221, 222",place,open,F.csv,Archbishop's Palace,,,,
+cand-1019,F.csv#34,Ferrara,48,family,open,F.csv,Bentivoglio and,,,,
+cand-1020,F.csv#35,"Ferrari, Giovanni",367,person,open,F.csv,,,,,
+cand-1021,F.csv#36,"Ferrari, Gregorio de",200,person,open,F.csv,,,,,
+cand-1022,F.csv#37,"Ferrata, Ercole",149,person,open,F.csv,,,,,
+cand-1023,F.csv#38,"Ferrerio, Andrea",,person,open,F.csv,,,,,
+cand-1024,F.csv#39,"Ferrerio, Andrea",221,work,open,F.csv,Vigilance,,,,
+cand-1025,F.csv#40,"Ferrerio, Andrea","221, 222",work,open,F.csv,"work in Archbishop's Palace, Ferrara",,,,
+cand-1026,F.csv#41,"Ferretti, Gian Domenico",299,person,open,F.csv,,,,,
+cand-1027,F.csv#42,"Ferri, Ciro","12, 13n, 18, 23n, 60, 65, 80, 217, 218",person,open,F.csv,,,,,
+cand-1028,F.csv#43,"Ferri, Ciro",12n,person,open,F.csv,payments,,,,
+cand-1029,F.csv#44,"Ferri, Ciro",12,work,open,F.csv,modello for cupola of S. Agnese,,,,
 cand-1030,F.csv#45,"Ferri, Ciro",187,,open,F.csv,work for Louis XIV,,,,
 cand-1031,F.csv#46,"Ferri, Ciro",218,,open,F.csv,"work in S. Maria Maggiore, Bergamo",,,,
 cand-1032,F.csv#47,"Festari, Girolamo",369,,open,F.csv,,,,,
