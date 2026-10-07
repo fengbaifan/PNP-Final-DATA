@@ -6263,3 +6263,11 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 类型判断结合全书正文：F#13所指Gesù是修会教堂建筑，归place；F#27“sale of collections”按第十五章p.364明确叙述的十九世纪初财产拆分与收藏出售归event；Bentivoglio由第二章p.48明确称为家族，归family；Ferrerio的Vigilance雕像及其为Ferrara Archbishop’s Palace楼梯墙设计的灰泥装饰分别归work。其余人物、地点、作品和通称依页图、索引CSV与已有正文语境逐项分类。索引页码只作导航，不新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p454_l1253_1307_migration.py`锁定S0段、来源/PDF、E/F索引表及表前哈希，校验全部50行候选映射与各状态；dry-run通过后应用，为候选表和coverage留恢复副本。处理后11,436候选、26,829 mentions、12,102 statements；832段中638 complete、134有理由排除、60 queued、0 partial；开放未分类索引候选1,834（含本段两项collection类型待决及先前待决项）。下一段为右栏`chp-22:22_CHP-22Index:l1309-1363`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.454右栏（S0 L1309–1363）
+
+对照`CHP-22Index.pdf`物理页12（印刷p.454）核读右栏F.csv#45–92共48行；其中43个开放候选标注29 person、8 work、3 place、1 term、1 archive、1 family，另保留F#68 cand-1053 person、F#72 cand-1057 family、F#74 cand-1059 place、F#85 cand-1070 person。左栏L1253–1307混有F#45–46的OCR残片，本段按右栏完整转录核对，不重复计算。
+
+F#45–46“work for Louis XIV”与“work in S. Maria Maggiore, Bergamo”是Ferri人物词头下的活动/地点语境；书中分别讨论其为法国国王工作及在Bergamo创作多幅绘画，但索引子项未指向单件可辨作品，因此保留person。F#69 Foscarini的私人图书馆确为书籍与手稿收藏，但现行taxonomy缺少collection类型，保留待决；F#55 Flemish artists in Rome是泛称term；F#57仍指Florence这一地点，其艺术中心角色作为子项限定。Fontenelle的《Eloge in Tombeaux des Princes》归archive；页图中可辨认的画作、雕塑/喷泉作品和建筑空间分别归work或place。索引页码不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p454_rcol_l1309_1363_migration.py`锁定S0段、来源/PDF、F.csv及表前哈希，校验48行候选映射和四个既有类型；dry-run通过后应用，并为候选表及coverage留恢复副本。处理后11,436候选、26,829 mentions、12,102 statements；832段中639 complete、134有理由排除、59 queued、0 partial；开放未分类索引候选1,791（含本段私人图书馆及其他类型待决项）。下一段为p.455页标`chp-22:22_CHP-22Index:l1365-1366`。结构审计不替代全书S2语义交接审计。
