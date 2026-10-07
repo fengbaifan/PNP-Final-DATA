@@ -6461,3 +6461,19 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照`CHP-22Index.pdf`物理页22确认印刷p.464右栏，处理P.csv#164–212共49条：47个候选分类为23 person、3 place、21 work；P#172 `Pomerancio, see under Roncalli`与P#186 `Poussin, Gaspard, see under Dughet`两个既有交叉引用排除状态保留。P#167 Poggio a Caiano、#173 Pommersfelden、#183 Bulstrode Park归place；P#180 tomb of Paul III及#184 Rigaud portrait归work；P#181–182 Portland及“and Sebastiano Ricci”保留人物语境，不据索引创建正式关系。Poussin主词条、altarpieces及#189–193与其他人物的并列项保留person语境；#194–212视觉题名及Arcadian Shepherds版本、dal Pozzo版Leonardo论著插图归work，不将被插图出版物与其插图合并。
 
 页图核对将cand-1984/P#187页码28、115n、128分别改为38、115、138；cand-1987/P#190页码112改为113；cand-1989/P#192页码112改为115。只改派生候选，P.csv与S0保留原转录。受控脚本`chp22_index_p464_rcol_l2446_2500_migration.py`锁定来源、页图PDF、P.csv、taxonomy、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中659 complete、144有理由排除、29 queued、0 partial，开放未分类索引候选877。下一段为p.465页标`chp-22:22_CHP-22Index:l2502-2503`。
+
+## 索引p.465页标（S0 L2502–2503）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页23确认印刷p.465；S0 L2502 `[Page 465]`与L2503 `INDEX`为生成页标/页眉，将该段标记为excluded/complete，不改候选或原书断言。
+
+## 索引p.465左栏（S0 L2505–2559）（2026-10-07）
+
+对照印本p.465左栏、S0及P.csv#213–263逐项审读51条。页图中左栏从Poussin的`Landscape with Man fleeing from Serpent`至Preti的`Marriage Feast at Cana`；S0同一段夹带右栏OCR词头碎片，物理栏界优先，右栏`Martyrdom of St Bartholomew`留到下一段。49条分类为24 person、24 work、1 archive；P#252 `museum`与P#253 `Museum Chartaceum`对应Cassiano的收藏/纸上博物馆语境，taxonomy没有collection类型，保持待决，且不在S2与正文候选认定身份相同。P#223 `pressure on to return to France`、P#234–246、P#249–251、P#254–259及P#262是人物语境；不从`and [person]`词项或同行出访子项创建关系。P#247 Bernini caricature及P#260–261、P#263是work；P#248 Leonardo `Trattato della pittura`的版本为archive。
+
+页图校正五个派生候选定位：cand-2011/P#214 `48n`→`46n`；cand-2026/P#229 `155`→`15`；cand-2027/P#230 `112, 113, 114`→`113, 114`；cand-2055/P#258 `121n`→`13n`；cand-2056/P#259 `212n`→`213n`。P.csv和S0均保留原转录。受控脚本`chp22_index_p465_marker_left_l2502_2559_migration.py`锁定来源、印本PDF、P.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中660 complete、145有理由排除、27 queued、0 partial，开放未分类索引候选828。下一段为p.465右栏`chp-22:22_CHP-22Index:l2561-2612`。
+
+## 索引p.465右栏（S0 L2561–2612）（2026-10-07）
+
+对照印本p.465右栏、S0及P.csv#264–275、Q-R.csv#0–33审读46条，从Preti的`Martyrdom of St Bartholomew`到Raphael的`St Michael`。45条新分类，保留Q-R#23 Ranuzzi既有person类型；全段26 person、11 work、5 term、3 place、1 event。P#265 artists' prices、P#268–271职业阶层、行省艺术赞助中心、罗马绘画受忽略及威尼斯出版者作为主题/概念归term。Q-R#6 Querini的逮捕与拘留归event；#7–8 Alticchiero乡间住宅及花园、#15罗马Quirinal归place。具名绘画为work，艺术家及其“and”索引子项保留人物语境，不据索引登记正式关系。
+
+页图校正两个派生候选定位：cand-2062/P#265 `12n`→`13n`；cand-2098/Q-R#25 Raphael主词条`54n`→`54–56`、`362n`→`362–363`。P.csv、Q-R.csv及S0不变。受控脚本`chp22_index_p465_rcol_l2561_2612_migration.py`锁定来源、印本PDF、P/Q-R.csv、taxonomy、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中661 complete、145有理由排除、26 queued、0 partial，开放未分类索引候选783。下一段为p.466页标`chp-22:22_CHP-22Index:l2614-2614`。

@@ -1465,3 +1465,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.464右栏`chp-22:22_CHP-22Index:l2446-2500`：核P.csv#164–212共49条，47个分类为23 person、3 place、21 work，P#172与P#186既有see-under排除保留。cand-1984/P#187校正页码28→38、115n→115、128→138；cand-1987/P#190 112→113；cand-1989/P#192 112→115。P.csv与S0未改，无新增mentions、book statements或relations。当前832段中659 complete、144有理由排除、29 queued、0 partial；开放未分类索引候选877。下一段为p.465页标`chp-22:22_CHP-22Index:l2502-2503`。
+
+完成p.465页标`chp-22:22_CHP-22Index:l2502-2503`：核印本物理页23为p.465，将生成页标和页眉排除/complete。
+
+完成p.465左栏`chp-22:22_CHP-22Index:l2505-2559`：核P.csv#213–263共51条，49条分类为24 person、24 work、1 archive；P#252–253收藏对象类型待决。按印本校正cand-2011/P#214、cand-2026/P#229、cand-2027/P#230、cand-2055/P#258、cand-2056/P#259五处候选页码；P.csv与S0保留原转录。S0 OCR夹带右栏词头碎片，按印本物理栏界完成左栏；未新增mentions、book statements或relations。当前832段中660 complete、145有理由排除、27 queued、0 partial；开放未分类索引候选828。下一段为p.465右栏`chp-22:22_CHP-22Index:l2561-2612`。
+
+完成p.465右栏`chp-22:22_CHP-22Index:l2561-2612`：核P.csv#264–275、Q-R.csv#0–33共46条，分类45条为26 person、11 work、5 term、3 place、1 event，保留Q-R#23既有person类型。cand-2062/P#265页码12n→13n；cand-2098/Q-R#25 Raphael页码54n、362n按印本校正为54–56、362–363。P/Q-R.csv及S0未改，无新增mentions、book statements或relations。当前832段中661 complete、145有理由排除、26 queued、0 partial；开放未分类索引候选783。下一段为p.466页标`chp-22:22_CHP-22Index:l2614-2614`。
