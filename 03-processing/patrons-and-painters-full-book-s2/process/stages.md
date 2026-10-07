@@ -6820,3 +6820,11 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp10_p300_311_note_status_reconciliation.py`锁定陈述表、两份正文、PDF、8个段哈希和段覆盖状态，默认dry-run。写回30条`qualifiers.qualification`及1条注释回链：将p.300–301、p.308–310、p.311中已转录脚注仍称pending/review的限定语，改成注释实际所载的书目/档案定位与未独立查阅状态；移除p.308、p.309和p.311无对应脚注标记的泛化待处理用语。另将p.300注2回链到p.301 Goldoni《Il Filosofo Inglese》续句。保留p.310 note 4仅支持旅行计划引文、不链接到辞任断言的既有裁决；不将内部交叉引用或未查档案写成独立证据。写前表哈希为`6ed25bcafce8c554aa5c16ac6d1074ff3e7acb5a0de358e8962ec02d027c6a73`，恢复副本在`%TEMP%\pnp-chp10-p300-311-note-status-muue4gsj\book-statements.jsonl`。
 
 写后逐行核对确认31行变化仅为30条`qualification`与1条`related_body_statement_ids`；候选、mentions、statement数量、关系端点及脚注标记不变。上述页中仅两条明确标为S3待核的限定仍含pending（p.310藏品组归属；p.311科孚战事与既有围城候选的身份区分），不得当作脚注工作未完成。当前表SHA-256为`f220ee8801cd609920573b17ef88133c4fd35d723b3d3bf53fd590b266507578`。严格阶段审计`s2_missing=[]`、`errors=[]`；既有enrichment来源引用警告`enr-06678`、`enr-06937`不变。全书6条开放关系端点及覆盖数未改变；无S6正式关系写入。下一步继续跨章节脚注状态及回链总审，并复核第十四章唯一开放关系候选。
+
+## 全书S2脚注状态复核：第十章p.278注1–6（2026-10-08）
+
+复查`CHP-10.pdf`物理页3、正文段`chp-10:10_CHP-10_intro:l26-41`及合并注释段L500–505。此前受控迁移已记录10条精确提及、5个引用/作品候选及注4唯一事实statement；六条正文脚注均为`footnote_text_pending=false`、`resolved_source_migration`，但正文限定语与正文覆盖备注仍写“pending”。本次据已完成的源迁移和纸本核对纠正该状态差异。
+
+注1指向Chapter 7与Lavagnino，未给具体书名或页码；注2定位Pallucchini 1933–34 pp.1491–1511，注3定位Donzelli p.82；注5、6是《Court and Society from Elizabeth to Anne》卷II的`passim`及p.140定位，书目给出London 1864版本，但作者与人物候选的身份对应留待S3。上述引文均未独立查阅。注4已有statement记录Haskell所称Nymphenburg的Amigoni作品群始于1716；未具名单件作品、媒材或亭阁，Lavagnino p.121（卷次未明）及Powell pp.68–70、110、147未独立查阅。纸本确认正文印刷注号5、6分别被S0 OCR识为6、8；S0来源未改。
+
+受控脚本`chp10_p278_note_status_reconciliation.py`默认dry-run，锁定陈述表、覆盖表、规范Markdown与PDF哈希，核验六条statement的印刷页、脚注行、既有回链和完整限定语；apply前在`%TEMP%\pnp-chp10-p278-note-status-*`保存两表恢复副本。写回仅改六条正文`qualification`及正文/合并注释两条coverage的说明；未增删候选、mentions、statement或关系。写前陈述表/coverage哈希分别为`f220ee8801cd609920573b17ef88133c4fd35d723b3d3bf53fd590b266507578`与`7e47da9f1457af7bf4043be694770b6941d24c1013d1dd919ba4e31c5bb46f3f`；写后分别为`278fc5d4383edcea5e6c66b3121654235c014428805be2b9bb8b3b49ada83294`与`9ea7f371956b5abe277cd887f4d5f48d87f2dc205f01c4f0fc3885149e1d596a`。后续仍须继续全书脚注状态/回链核查及S2总交接审计。
