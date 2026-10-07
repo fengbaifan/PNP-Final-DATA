@@ -6477,3 +6477,29 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 对照印本p.465右栏、S0及P.csv#264–275、Q-R.csv#0–33审读46条，从Preti的`Martyrdom of St Bartholomew`到Raphael的`St Michael`。45条新分类，保留Q-R#23 Ranuzzi既有person类型；全段26 person、11 work、5 term、3 place、1 event。P#265 artists' prices、P#268–271职业阶层、行省艺术赞助中心、罗马绘画受忽略及威尼斯出版者作为主题/概念归term。Q-R#6 Querini的逮捕与拘留归event；#7–8 Alticchiero乡间住宅及花园、#15罗马Quirinal归place。具名绘画为work，艺术家及其“and”索引子项保留人物语境，不据索引登记正式关系。
 
 页图校正两个派生候选定位：cand-2062/P#265 `12n`→`13n`；cand-2098/Q-R#25 Raphael主词条`54n`→`54–56`、`362n`→`362–363`。P.csv、Q-R.csv及S0不变。受控脚本`chp22_index_p465_rcol_l2561_2612_migration.py`锁定来源、印本PDF、P/Q-R.csv、taxonomy、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中661 complete、145有理由排除、26 queued、0 partial，开放未分类索引候选783。下一段为p.466页标`chp-22:22_CHP-22Index:l2614-2614`。
+
+## 索引p.466页标（S0 L2614）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页24确认印刷p.466；S0 L2614 `[Page 466]`为生成页标，不是索引对象，标为excluded/complete。
+
+## 索引p.466左栏（S0 L2616–2670）（2026-10-07）
+
+对照印本p.466左栏、S0及Q-R.csv#34–76逐项审读43条，从Rapparini的`Portrait du Vrai Mérite`索引项至Ricci, Marco。41条新增类型：18 person、14 work、5 term、2 institution、1 place、1 event；保留Q-R#35 Rapparini出版物archive及Q-R#76 Ricci Marco person既有类型。Q-R#36《拉施塔特条约》归event；#37 reason and fantasy及#40–43宗教修会赞助主题归term；#49–50 Remondini出版者和其印制作品语境归institution；#72 Riccardi palace归place。作品子项与艺术家分开；Ribera的“altarpieces for Monterey”及Giovanni Ricci的“patronage of Crespi”留作人物语境，不据索引建关系。Reni的“attack on Bamboccianti”也保留人物语境；正文p.141指出Passeri传记作者可能将部分自身情绪归于Reni，索引不足以单独确定言论作者。
+
+物理页图将派生候选cand-2124/Q-R#51 Guido Reni页码321校为324；cand-2137/Q-R#64 Carlo Rezzonico `254, 323`校为`254, 362, 363`。仅改派生候选，Q-R.csv与S0不改。受控脚本`chp22_index_p466_marker_left_l2614_2670_migration.py`锁定S0与印本PDF、Q-R.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中662 complete、146有理由排除、24 queued、0 partial，开放未分类索引候选742。下一段为p.466右栏`chp-22:22_CHP-22Index:l2672-2726`。
+
+## 索引p.466右栏（S0 L2672–2726）（2026-10-07）
+
+对照印本p.466右栏、S0及Q-R.csv#77–124审读48条，从Ricci, Marco的McSwiny `British Worthies`纪念画系列到Ridolfi, Carlo。新增42个类型：30 work、10 person、1 event、1 term；保留#81 Ricci Sebastiano person及#90、#102、#104、#106、#113五个既有work类型。p.289正文将McSwiny项目说明为一组纪念性绘画，并明确Marco与Sebastiano Ricci合作绘制Devonshire公爵纪念画；索引中的系列和具名纪念画归work，但不据此写入新的艺术家—作品关系。Q-R#80及#106–112“work for/in”项标为work语境候选，不登记正式赞助关系；#83“and Crozat”、#121–122 Richmond公爵与McSwiny系列的语境留作人物候选；#93“fear of style being corrupted by Rome”归term；#117 Richelieu试图将意大利艺术家引入巴黎是一项历史事件/倡议，不据索引建立多条正式关系。
+
+页图校正cand-2154/Q-R#81 Sebastiano Ricci主词条页码311为310；仅改派生候选，Q-R.csv与S0保留原转录。受控脚本`chp22_index_p466_rcol_l2672_2726_migration.py`锁定S0与印本PDF、Q-R.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中663 complete、146有理由排除、23 queued、0 partial，开放未分类索引候选700。下一段为p.467页标`chp-22:22_CHP-22Index:l2728-2729`。
+
+## 索引p.467页标（S0 L2728–2729）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页25确认印刷p.467；S0 L2728 `[Page 467]`及L2729 `INDEX`是生成页标与页眉，标为excluded/complete。
+
+## 索引p.467左栏（S0 L2731–2785）（2026-10-07）
+
+对照印本p.467左栏、S0及Q-R.csv#125–173逐项审读49条，从Rigaud, Hyacinthe至Salvator Rosa的`Landscape with Apollo`。S0同段混入右栏OCR碎片，按物理栏界处理；右栏延续的Rosa子项留给下一段。49条分类为24 person、19 work、1 archive、4 event、1 term。Q-R#130 Ripa的《Iconologia》归archive；#136 Romanelli获任Accademia di S. Luca、#156 Roomer在Masaniello起义中的逃离、#166 Rosa对bambocciate的抨击及#170在S. Giovanni Decollato展出均作为事件候选；#160 Roomer收藏体现的南北欧文化关系作为term。具名绘画和艺术家工作语境归work；人物往来、兴趣、收藏主题及地点活动不据索引写成正式关系。
+
+印本校正两个派生候选定位：cand-2206/Q-R#133 Rockingham, Lord `211n`→`311n`；cand-2236/Q-R#163 Salvator Rosa `183`→`169`。仅改派生候选，Q-R.csv与S0不改。受控脚本`chp22_index_p467_marker_left_l2728_2785_migration.py`锁定S0与印本PDF、Q-R.csv、taxonomy、相关正文、manifest及候选/coverage/mentions/statements前态；dry-run通过后apply并保存候选表与coverage恢复副本。未新增mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；当前832段中664 complete、147有理由排除、21 queued、0 partial，开放未分类索引候选651。下一段为p.467右栏`chp-22:22_CHP-22Index:l2787-2840`。
