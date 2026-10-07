@@ -1384,3 +1384,7 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.454右栏
 
 完成`chp-22:22_CHP-22Index:l1309-1363`：对照印刷p.454右栏F.csv#45–92，43个开放候选标注29 person、8 work、3 place、1 term、1 archive、1 family，保留四个既有person/family/place类型。Ciro Ferri的两条“work”索引子项保留person语境，因未指向单件可辨作品；Foscarini私人图书馆保留collection类型待决。将Fontenelle书名归archive、Flemish artists泛称归term、Florence归place，并按正文和图版语境分类具名作品。左栏OCR片段与右栏完整转录分段核对，未重复计算；索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中639 complete、134有理由排除、59 queued、0 partial；开放未分类索引候选1,791。下一段为p.455页标`chp-22:22_CHP-22Index:l1365-1366`。
+
+## 索引p.455页标与左栏
+
+完成页标`chp-22:22_CHP-22Index:l1365-1366`：物理页13印刷p.455及`INDEX`运行页眉均属结构内容，标记excluded/complete。随后完成左栏`chp-22:22_CHP-22Index:l1368-1422`：据页图和F.csv#93–109、G.csv#0–29标注45个开放候选（30 person、7 work、4 term、3 archive、1 institution）；F#94–95 see-under别名维持排除。校读Furlani词头，并将左栏OCR混入的右栏片段留给完整右栏段，避免重复。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中640 complete、135有理由排除、57 queued、0 partial；开放未分类索引候选1,746。下一段为p.455右栏`chp-22:22_CHP-22Index:l1424-1477`。本状态仍是覆盖进度，不代表全书S2语义交接审计完成。

@@ -6271,3 +6271,13 @@ PDF物理页4显示印刷p.446。L340 `[Page 446]`是生成的来源页标，cov
 F#45–46“work for Louis XIV”与“work in S. Maria Maggiore, Bergamo”是Ferri人物词头下的活动/地点语境；书中分别讨论其为法国国王工作及在Bergamo创作多幅绘画，但索引子项未指向单件可辨作品，因此保留person。F#69 Foscarini的私人图书馆确为书籍与手稿收藏，但现行taxonomy缺少collection类型，保留待决；F#55 Flemish artists in Rome是泛称term；F#57仍指Florence这一地点，其艺术中心角色作为子项限定。Fontenelle的《Eloge in Tombeaux des Princes》归archive；页图中可辨认的画作、雕塑/喷泉作品和建筑空间分别归work或place。索引页码不新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p454_rcol_l1309_1363_migration.py`锁定S0段、来源/PDF、F.csv及表前哈希，校验48行候选映射和四个既有类型；dry-run通过后应用，并为候选表及coverage留恢复副本。处理后11,436候选、26,829 mentions、12,102 statements；832段中639 complete、134有理由排除、59 queued、0 partial；开放未分类索引候选1,791（含本段私人图书馆及其他类型待决项）。下一段为p.455页标`chp-22:22_CHP-22Index:l1365-1366`。结构审计不替代全书S2语义交接审计。
+
+## 索引p.455页标（S0 L1365–1366）
+
+核对`CHP-22Index.pdf`物理页13，页图显示印刷p.455与运行页眉`INDEX`。S0 L1365 `[Page 455]`是生成页标，L1366为运行页眉；均不是索引词条，coverage记为excluded/complete并以`no_semantic_content:`说明。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p455_marker_l1365_exclusion.py`锁定来源/PDF/段哈希及coverage前态，dry-run通过后应用并留恢复副本。
+
+## 索引p.455左栏（S0 L1368–1422）
+
+对照印刷p.455页图及F.csv#93–109、G.csv#0–29核读左栏。候选主词头和子项对应45个开放候选，标注30 person、7 work、4 term、3 archive、1 institution；F#94–95的see-under别名保持excluded，既有类型和ID不变。F#108依页图及CSV校读为`Furlani, Ventura`；S0该行末混入的右栏首词碎片不纳入左栏，右栏完整范围由L1424–1477单独处理。Fumiani、Gabbiani和Gaulli下的可辨作品归work；法兰西赞助/艺术倾向归term；Galiani、Galilei、Gallacini下的具名文献归archive。人物子项“and…”, “views on painting”及“payment”保留在索引人物语境，不据此新建关系、主题或事件。索引定位页码仅作导航，本段不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p455_l1368_1422_migration.py`锁定S0段、来源/PDF、F/G索引表和四表前哈希，逐项校验候选ID、词头、子项及既有排除状态；dry-run通过后应用，为候选表和coverage留恢复副本。处理后候选11,436、mentions 26,829、statements 12,102；832段中640 complete、135有理由排除、57 queued、0 partial；开放未分类索引候选1,746。结构审计通过不等于全书S2语义交接完成。下一段为p.455右栏`chp-22:22_CHP-22Index:l1424-1477`。
