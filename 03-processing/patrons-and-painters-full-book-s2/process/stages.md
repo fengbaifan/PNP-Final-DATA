@@ -12,7 +12,7 @@
 
 - 规范来源、PDF对应和重复OCR处理见[来源登记](../../../02-sources/source-registry.md#全书文本与-pdf-范围s0s2)。共23份PDF，包含书前、17章正文和5类书后材料。
 
-- 当前S0 `segments.jsonl` 有832段，来自79个规范来源文件，其中42段为派生视觉转录。CHP-11/12与CHP-10同版扫描对应的44段重复OCR已在coverage标为excluded；该数与视觉转录段数不是同一口径。Markdown目录另有22个未登记校勘副本：17个整章OCR和5个书后旧版`*_intro.md`；书目旧稿已比对，其余4份须在S2交接前核对。比较OCR不一致时以印本PDF页面核对，不静默略过独有内容。
+- 当前S0 `segments.jsonl` 有832段，来自79个规范来源文件，其中42段为派生视觉转录。CHP-11/12与CHP-10同版扫描对应的44段重复OCR已在coverage标为excluded；该数与视觉转录段数不是同一口径。Markdown目录另有22个未登记校勘副本：17个整章OCR和5个书后旧版`*_intro.md`；书后5份旧版OCR均已完成范围比对，17份整章OCR的核对进度见本过程文件后续条目及当前结果。比较OCR不一致时以印本PDF页面核对，不静默略过独有内容。
 
 - 正文和脚注均须完整阅读；跨页接续、叙述者/转述者、否定/推测/传闻、时间和语境限定照原文保留。必要图像回到PDF页检查。
 
@@ -6621,3 +6621,35 @@ Smith人物子项中的往来、趣味、英格兰访客和Schulenburg收藏比�
 对照19组A–Z索引Markdown与CSV：原有Markdown表共2,930行，CSV新增p.446四行后为2,934行；B.md也已追加相同四项，两个索引表均为2,934行。B.csv保留印本页码缩写，B.md按其既有格式展开页码；两边记录逐项对应。除A.csv外的18组既有记录在页码范围与撇号规范化后逐行一致。A.csv为旧Windows-1252编码，不能按UTF-8读取；四处OCR字符损坏为`Almor¨°`、`Br¨¹hl`、`citt¨¤`、`Pr¨¤`，对应印本物理页1–2上的Almorò、Brühl、città、Prà。候选`cand-0024`、`cand-0045`、`cand-0093`、`cand-0104`均按印本及A.md登记了正确字形。未改写原A.csv字节。所有2,934个A–Z行号均有且仅有一个candidate index ID；其余索引页的PDF/CSV对应关系和逐段分类见本过程记录各页条目。
 
 该复核完成书后五个平行OCR副本的范围比对和索引CSV/Markdown行映射；全书17个整章OCR对照副本及语义交接仍须按来源登记继续审计。当前`audit_tables.py --summary`为`segments=832`、`s2_missing=[]`、`errors=[]`、`678 complete/154 excluded/0 queued/0 partial`。两条既存enrichment `source_ref`警告（`enr-06678`、`enr-06937`）与结构审计分开保留；机械闭合不证明召回率或语义质量。
+
+## 第2章整章OCR范围核对（2026-10-07）
+
+将未纳入S0的`02_CHP-2.md`按51个页块与规范分节及派生视觉转录逐页比对。正文页与规范来源高度重合；低重合页为图版页，且图版信息已有明确归位：整章页3的Plate 2组题及两条题注对应`02_CHP-2_sec_i_visual-transcription:L1–4`；页4 Plate 3题注对应`02_CHP-2_sec_i_plate3_visual-transcription:L1–3`；页5 Plate 4组题和题注对应`02_CHP-2_sec_i_visual-transcription:L6–9`；页22 Plate 5组题在`02_CHP-2_sec_ii_plate5_visual-transcription:L1–3`，Bernini题注由规范段`02_CHP-2_sec_ii:L106–107`承载；页25 Plate 8分组题头在`02_CHP-2_sec_ii_visual-transcription:L5–6`，Castelli题注由`02_CHP-2_sec_ii:L115–116`承载；页42 Plate 9、页43 Plate 10及题头、页45 Plate 12分别由`02_CHP-2_sec_iv:L154–155`、`02_CHP-2_sec_iv_plate10_visual-transcription:L1–2`与`02_CHP-2_sec_iv:L157–159`、`02_CHP-2_sec_iv:L165–169`承载。Plate 6、7、11也分别在对应规范段或视觉转录覆盖。对照S2 coverage，章2的75条记录均为`migration_status=complete`，无queued或partial；未发现整章副本独有的实质正文、脚注或图版信息。整章副本是比较副本，不计入规范来源段数。此项是范围与重复审查，不代替全书语义交接验收。
+
+## 第3章整章OCR范围核对（2026-10-07）
+
+将未纳入S0的`03_CHP-3.md`按35个页块与规范分节来源比对。页块筛查只在p.11–14出现图版题注导致的低文本重合：Plate 13的题注由`03_CHP-3_sec_ii:L83–84`覆盖；Plate 14题注由`L86–87`覆盖，印本另有的“JESUIT PATRONAGE OF THE ARTS”组题与图版指针按既有过程记录作版面导航元数据，不另计历史断言；Plate 15由`L89–90`覆盖；竖排Plate 16由`L92–100`覆盖。上述段均已对照`CHP-3.pdf`物理页11–14校读。其余页块与规范分节高度重合。章3共47条coverage记录，42条reviewed/complete、5条有理由排除，0条queued或partial；没有发现整章副本独有的实质正文或脚注。整章OCR不计入规范来源段数；本核对是来源范围与重复审查，不替代全书语义交接验收。
+
+## 第4–5章整章OCR范围核对（2026-10-07）
+
+对照`04_CHP-4.md`的30个页块及`05_CHP-5.md`的30个页块与对应规范分节。第4章低重合页为p.12–14：Plate 17三条肖像题注由`04_CHP-4_sec_ii:L65–67`承载；Plate 18组题由派生视觉转录`04_CHP-4_sec_ii_visual-transcription:L1`承载，题注由`L69–71`承载；Plate 19–20组题与交叉指针由该视觉转录`L3`承载，Plate 19题注由`L73–75`承载。第5章低重合页为p.18和p.20：横排Plate 21a/b题注由`05_CHP-5_sec_iii:L45–57`承载，Plate 23a/b题注由`L63–65`承载；相邻Plate 22题注也由`L59–61`覆盖。各题注均已有对应S2提及、断言或明确的编辑性组题排除理由，并在对应PDF页校读。其余页块与规范分节高度重合。coverage分别为第4章40条（37 reviewed/complete、3 excluded/complete）和第5章41条（35 reviewed/complete、6 excluded/complete），均无queued或partial。未发现整章副本独有的实质正文、脚注或图版信息；两份整章OCR均不计入规范来源段数。本核对不替代全书语义交接验收。
+
+## 第6–7章整章OCR范围核对（2026-10-07）
+
+第6章`06_CHP-6.md`的21个页块与对应规范分节逐页比对，文本五词组筛查最低重合率为0.94，未出现低重合图版例外；coverage 33条，28 reviewed/complete、5 excluded/complete，无queued或partial。第7章`07_CHP-7.md`的43个页块中，低重合页均为图版：p.19 Plate 25由`07_CHP-7_sec_i:L178–179`覆盖；p.20 Plates 26a–b由`L181–182`覆盖；旋转的p.21 Plate 27及页眉由`L184–200`处理；p.22 Plate 28a由`L202–203`覆盖，Plate 28b已在图版目录`00_05_List_of_Plates:L81`覆盖。p.40的Plate 30组题及交叉指针由`07_CHP-7_sec_v_visual-transcription:L1`补录，Plate 30/31题注按既有图版目录去重；p.41 Plate 31题注同样由图版目录覆盖；p.42 Plate 32a由`07_CHP-7_sec_v:L39–40`迁入，OCR遗漏的32b由视觉转录`L3`补录。组题按版面导航处理，不推导研究主题或关系。其余页块与规范分节高度重合。第7章coverage 55条，47 reviewed/complete、8 excluded/complete，无queued或partial。未发现两份整章副本独有的实质正文、脚注或图版信息；本核对不替代全书语义交接验收。
+
+## 第8–10章整章OCR范围核对（2026-10-07）
+
+逐页比较`08_CHP-8.md`（47页块）、`09_CHP-9.md`（40页块）和`10_CHP-10.md`（64页块）。第8章低重合页为p.16–18、p.35–36、p.38：Plate 34、35a、38题名与 venue 对应`08_CHP-8_sec_ii:L41–46,L263–266`及视觉转录`08_CHP-8_sec_ii_plates_visual-transcription:L1`；Plate 35b与Plate 36组题及a/b题注由该视觉转录`L1,L3,L5,L7`覆盖。Plate 37a/b在规范段`L259–261`，c题注被页边裁断，完整题名只由图版目录锚定；Plate 39无独立印刷题注；Plate 40a由`L268–269`覆盖，40b被页边裁断，只保留图版目录的完整目录信息，不冒充本页可读文字。p.35–38页图此前已核对。第8章61条coverage全为complete（56 reviewed、5 excluded）。
+
+第9章低重合页为p.7、p.9–10、p.28、p.30：Plate 41a/b、43、46、47和48分别由`09_CHP-9_intro_plates_visual-transcription:L1–2,L4,L8–11,L13–15`覆盖；Plate 44规范OCR段`09_CHP-9_intro:L74–75`与图版目录相同，按重复题注排除；Plate 48仅转录可辨的a/b题注，c/d不清楚的题注与铭文不从图像推断，目录项保持单独来源。第9章53条coverage全为complete（46 reviewed、7 excluded）。
+
+第10章低重合页为p.6–7、p.9及p.42–45。Plate 49题注在`10_CHP-10_intro_plates_visual-transcription:L1–4`；Plate 50只补录编辑性组题`L6–7`，图像不作为独立题注；Plate 52题头及题注在`L12–15`。p.42–45的Plate 53a/b、54、55a/b、56分别在规范来源`10_CHP-10_sec_ii:L34–53,L55–56,L58–60,L62–70`中处理；图注倒置、混排或反向OCR均据`CHP-10.pdf`校读，并与图版目录候选对应。与第11章全章OCR重复的这些图版页另按重复扫描处理，见后续第11章范围核对。第10章75条coverage全为complete（73 reviewed、2 excluded）。上述三份整章副本均未发现规范来源之外的独有实质正文、脚注或题注；此核对不代替全书语义交接验收。
+
+## 第11–12章整章OCR与重复扫描核对（2026-10-07）
+
+用同一渲染参数逐页比较三份印本PDF：`CHP-11.pdf`物理页1–22与`CHP-10.pdf`物理页28–49逐页像素完全一致；`CHP-12.pdf`物理页1–15与`CHP-10.pdf`物理页50–64逐页像素完全一致。`11_CHP-11.md`的22个OCR页块与`10_CHP-10.md`对应22页在去格式文本上逐块匹配（22/22）。`12_CHP-12.md`页码标识存在OCR误识，但15个页块按顺序与`10_CHP-10_sec_ii.md`规范合并文本对应；词项多重集覆盖率均为100%，五词组覆盖最低0.978、均值0.9983。第12章页末把本章正文和注释并入同一OCR块，故按页面直接比较会产生假性低重合；其文字仍已由规范合并源段承载。第11章Plate 53–56重复页题注已在第10章的规范覆盖中处理。片段OCR覆盖表共44条（第11章27、第12章17），全部为`excluded/complete`；整章副本和重复扫描不重复计入规范段数。
+
+## 第1、13–17章整章OCR范围核对（2026-10-07）
+
+将`01_CHP-1.md`及`13_CHP-13.md`至`17_CHP-17.md`分别与本章规范分节逐页比对。页块筛查的唯一低重合例外为第13章p.59的反向Plate 59题注，已在规范段`13_CHP-13_intro_plates_visual-transcription:L9–11`完整转录；其余页块均与规范文本高度重合。第13章Plate 57–60的扫描页、目录题注与S2覆盖记录逐项对应；第14章Plate 61–64在规范来源段`14_CHP-14_intro:L148–166`中处理，并明确保留被裁断题注的边界，不补写不可见文字。第1、15、16、17章没有发现未映射的低重合页块。coverage记录均无queued或partial：第1章30条（27 reviewed、3 excluded），第13章25条（24、1），第14章19条（18、1），第15章20条（17、3），第16章8条（7、1），第17章13条（10、3）。至此17份整章OCR对照副本均完成范围核对，图版、脚注和重复段落均已映射到规范来源或保留明确排除理由；没有发现需新增S2内容的整章OCR独有实质材料。该范围核对不替代下述全书语义交接审计。
