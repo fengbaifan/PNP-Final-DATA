@@ -6293,3 +6293,9 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 ## 索引p.456页标（S0 L1479）
 
 核对`CHP-22Index.pdf`物理页14，页图显示印刷p.456。S0 L1479 `[Page 456]`是生成页标，排除并标记complete；L1481运行页眉随下一左栏段处理。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p456_marker_l1479_exclusion.py`锁定来源/PDF/段哈希及coverage前态，dry-run通过后应用并留恢复副本。当前832段中641 complete、136有理由排除、55 queued、0 partial；开放未分类索引候选1,697。下一queued段为p.456左栏`chp-22:22_CHP-22Index:l1481-1535`。
+
+## 索引p.456左栏（S0 L1481–1535）
+
+对照`CHP-22Index.pdf`物理页14印刷p.456左栏、S0分段清单及G.csv#80–126。L1481为运行页眉，左栏完整收至Gozzadini；右栏从L1537开始，避免串栏。47个索引行中46个是开放候选：45个新标23 person、10 work、7 archive、2 family、2 term、1 place；G#99 Giovanelli collection保留类型待决（taxonomy无collection类），G#120 Gonzaga see-under继续排除。Giordano的具体题名/画作组归work，但“work in Spain”“work in S. Maria Maggiore, Bergamo”和payment仍是人物语境；p.219明确的《Crossing of the Red Sea》另作work。G#80“admirers in Venice”是泛称群体term；del Rosso为family。Goldoni的剧作、回忆录与不同版本、Giustiniani雕塑图册出版物及Gori《Museum Etruscum》归archive；“views on art”归term。页图显示G#97为Giori（不改S0 OCR `Gioii`）；G#125页图为Gozadini, Bonifazio，G.csv转录`Bonisezio`，仅把候选名修正为印刷拼写，保留S0和G.csv。索引导航不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p456_l1481_1535_migration.py`锁定段、来源/PDF、G.csv、manifest及四表前态；dry-run核对47条候选映射、保留G#99待决与G#120排除后通过，应用45条类型并校正cand-1217名称，为候选表和coverage留恢复副本。当前候选11,436、mentions 26,829、statements 12,102；832段中642 complete、136有理由排除、54 queued、0 partial；开放未分类索引候选1,652。下一段为p.456右栏`chp-22:22_CHP-22Index:l1537-1591`。
