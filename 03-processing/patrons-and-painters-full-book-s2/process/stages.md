@@ -6281,3 +6281,15 @@ F#45–46“work for Louis XIV”与“work in S. Maria Maggiore, Bergamo”是F
 对照印刷p.455页图及F.csv#93–109、G.csv#0–29核读左栏。候选主词头和子项对应45个开放候选，标注30 person、7 work、4 term、3 archive、1 institution；F#94–95的see-under别名保持excluded，既有类型和ID不变。F#108依页图及CSV校读为`Furlani, Ventura`；S0该行末混入的右栏首词碎片不纳入左栏，右栏完整范围由L1424–1477单独处理。Fumiani、Gabbiani和Gaulli下的可辨作品归work；法兰西赞助/艺术倾向归term；Galiani、Galilei、Gallacini下的具名文献归archive。人物子项“and…”, “views on painting”及“payment”保留在索引人物语境，不据此新建关系、主题或事件。索引定位页码仅作导航，本段不新增mentions、book statements或relations。
 
 受控脚本`chp22_index_p455_l1368_1422_migration.py`锁定S0段、来源/PDF、F/G索引表和四表前哈希，逐项校验候选ID、词头、子项及既有排除状态；dry-run通过后应用，为候选表和coverage留恢复副本。处理后候选11,436、mentions 26,829、statements 12,102；832段中640 complete、135有理由排除、57 queued、0 partial；开放未分类索引候选1,746。结构审计通过不等于全书S2语义交接完成。下一段为p.455右栏`chp-22:22_CHP-22Index:l1424-1477`。
+
+## 索引p.455右栏（S0 L1424–1477）
+
+对照`CHP-22Index.pdf`物理页13印刷p.455右栏，逐项核读G.csv#30–79共50个候选。49条新补类型，G#48 cand-1141既有person分类保留；总计34 person、6 work、7 term、1 archive、1 institution、1 place。G#30“work in Gesù”及G#44–45“work for Charles I/Marie de Medici”只说明艺术家工作/委托范围，未识别独立题名，依人物语境保留为person；G#25–28已有Gaulli具名作品词条，不重复造一个Gesù装饰总作品。Orazio的《Public Felicity triumphant over Dangers》已有Plate 25题名与正文说明，归work；Gennari的Danaë及Elizabeth Felton as Cleopatra、Gherardi的Lepanto壁画组、Giambologna的Henri IV骑马像与《Mercury》均为可辨作品，归work。
+
+G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323所引期号处写作`Gazzetta Veneta`，候选保留索引拼写，名称规范化留待S3。G#38 Genoa归place；G#39 Genoa aristocracy及德国赞助、德国诸侯艺术趣味/情色关注、Gesuati对Jesuits的敌意等概念性子项归term。G#57 Gesuati指正文中具有组织身份、委托建堂并参与教派论争的修会团体，归institution；p.270新教堂及相邻修院是独立place候选，不与该组织合并，Gesuati与教堂候选的身份对应保留S3裁决。G#62页图可读为Gherardi, Abate Pietro Ercole；G#73页图与G.csv均为Gibbon, Edward，S0的`Gibhon`是OCR误字，未改写S0或候选名。索引页码不新增mentions、book statements或relations。
+
+受控脚本`chp22_index_p455_l1424_1477_migration.py`锁定S0段/来源/PDF、段清单、G.csv及四表前态，核验G.csv#30–79的候选映射与既有类型；dry-run发现并保留cand-1141既有person分类后通过，再应用49条类型更新并为候选表和coverage留恢复副本。处理后候选11,436、mentions 26,829、statements 12,102；832段中641 complete、135有理由排除、56 queued、0 partial；开放未分类索引候选1,697。结构审计通过不等于全书S2语义交接完成。下一queued段为`chp-22:22_CHP-22Index:l1479-1479`（S0页标行）。
+
+## 索引p.456页标（S0 L1479）
+
+核对`CHP-22Index.pdf`物理页14，页图显示印刷p.456。S0 L1479 `[Page 456]`是生成页标，排除并标记complete；L1481运行页眉随下一左栏段处理。不改候选、mentions、book statements或relations。受控脚本`chp22_index_p456_marker_l1479_exclusion.py`锁定来源/PDF/段哈希及coverage前态，dry-run通过后应用并留恢复副本。当前832段中641 complete、136有理由排除、55 queued、0 partial；开放未分类索引候选1,697。下一queued段为p.456左栏`chp-22:22_CHP-22Index:l1481-1535`。

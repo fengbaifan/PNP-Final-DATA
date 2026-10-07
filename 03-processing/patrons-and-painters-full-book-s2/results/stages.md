@@ -1388,3 +1388,9 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 ## 索引p.455页标与左栏
 
 完成页标`chp-22:22_CHP-22Index:l1365-1366`：物理页13印刷p.455及`INDEX`运行页眉均属结构内容，标记excluded/complete。随后完成左栏`chp-22:22_CHP-22Index:l1368-1422`：据页图和F.csv#93–109、G.csv#0–29标注45个开放候选（30 person、7 work、4 term、3 archive、1 institution）；F#94–95 see-under别名维持排除。校读Furlani词头，并将左栏OCR混入的右栏片段留给完整右栏段，避免重复。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中640 complete、135有理由排除、57 queued、0 partial；开放未分类索引候选1,746。下一段为p.455右栏`chp-22:22_CHP-22Index:l1424-1477`。本状态仍是覆盖进度，不代表全书S2语义交接审计完成。
+
+## 索引p.455右栏
+
+完成`chp-22:22_CHP-22Index:l1424-1477`：对照印刷p.455右栏G.csv#30–79处理50个候选，49条新标34 person、6 work、7 term、1 archive、1 institution、1 place，保留cand-1141既有person类型。区分Gaulli/Orazio的泛称工作活动与独立题名作品；Gesuati修会与新教堂/修院保持不同对象，身份映射留S3；Genoese aristocracy及赞助/艺术趣味为term，Gazzeta Veneta为期刊archive。页图校读Gibbon和Gherardi姓名，不改S0 OCR。索引导航未新增mentions、book statements或relations。当前候选11,436、mentions 26,829、statements 12,102；832段中641 complete、135有理由排除、56 queued、0 partial；开放未分类索引候选1,697。下一段为页标`chp-22:22_CHP-22Index:l1479-1479`。本状态不代表全书S2语义交接审计完成。
+
+完成页标`chp-22:22_CHP-22Index:l1479`：物理页14印刷p.456，S0生成页标排除并标记complete；运行页眉L1481由左栏段处理。未改候选、mentions、book statements或relations。当前832段中641 complete、136有理由排除、55 queued、0 partial；开放未分类索引候选1,697。下一段为p.456左栏`chp-22:22_CHP-22Index:l1481-1535`。
