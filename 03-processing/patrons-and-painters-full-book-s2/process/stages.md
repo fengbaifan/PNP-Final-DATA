@@ -6372,3 +6372,26 @@ G#33 `Gazzeta Veneta`是期刊文献，归archive；正文同一刊名在p.323�
 ## 索引p.460页标（S0 L1933）
 
 对照`CHP-22Index.pdf`物理页18确认印刷p.460。S0 L1933 `[Page 460]`是生成页标，不是索引词条或原书断言；单独标excluded/complete并保留`no_semantic_content`理由，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p460_marker_l1933_exclusion.py`锁定S0段、印本PDF、manifest和S2表前态，dry-run与apply通过并为coverage留恢复副本。当前832段中649 reviewed/complete、140有理由排除、43 queued、0 partial；开放未分类索引候选1,334。下一段为p.460左栏`chp-22:22_CHP-22Index:l1935-1989`。
+
+
+## 索引p.460左栏（S0 L1935–1989）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页18印刷p.460、S0与M.csv#82–129逐项分类，共48条：M#86 `see under Vandières`是既有排除别名；其余47个open候选中新增43个类型，保留cand-1554/M#93既有person。分类为32个新person、2 place、2 work、3 archive、4 event；计入已有类型则共33 person。M#82–85、#87、#89、#91–93、#96、#99–107、#109、#115–118、#120、#122–129归person；M#97、#119归place；M#111、#121归work；M#88、#90、#95归archive；M#98、#108、#112、#114归event。M#94与#113是Marucelli的私人藏书，M#110是Massimi的古物收藏；三项均保留open/type-pending，因为taxonomy尚无collection类型。
+
+正文语境核对：p.38称Marino写有一系列描写具名艺术家作品的诗；p.115称`Adone`为Marino著名诗作，故M#88、#90归archive文本，M#89“and Poussin”只保留Marino的人物语境。p.158称Marucelli撰写多位画家的生平，M#95归archive，藏书不误作机构或建筑。p.117称Massimi的Nunzio任职、私人藏书与古物收藏；前者留作person角色语境，后两项因收藏类型缺失待决。p.118称Massimi于1670年获任Cardinal及Maestro di Camera，归event；1677年委托Bartoli复制晚期古代Virgil手稿插图，复制品作为视觉作品归work，与原手稿（archive）区分；弟弟继承后迅速处分收藏，归event；Massimi重整Umoristi学院也归event。p.198明确Matteis绘制`Hercules at the Crossroads between Vice and Virtue`，归work；M#122“work for 3rd Earl of Shaftesbury”没有独立单件作品指称，保留人物活动语境。p.181的“neglect of his mature style”是对Mazarin欣赏偏好的描述，不另造事件或术语。索引的“and”子项、赞助/任职语境不自动建立关系；本段为索引导航与分类，不新增mentions或book statements。
+
+页图核对：印本p.460将Marino页码印为122（S0 OCR误作123，候选/M.csv已是122）；M#117印为`Matina, L.`（S0 OCR作`Marina`，候选/M.csv已正确）；cand-1577/M#116 Mastelletta印本页码为393，S0 OCR近似作393′、M.csv与候选误录为395，候选页码由395校为393。只改候选层，不改来源OCR和原始M.csv。受控脚本`chp22_index_p460_l1935_1989_migration.py`锁定S0段、印本PDF、索引CSV、taxonomy、相关正文来源、manifest及候选/coverage前态；dry-run通过后应用，备份两张改写表。未改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；全库11,436候选、26,829 mentions、12,102 statements，832段中650 complete、140有理由排除、42 queued；开放未分类索引候选1,291。下一段为p.460右栏`chp-22:22_CHP-22Index:l1991-2045`。
+
+
+## 索引p.460右栏（S0 L1991–2045）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页18印刷p.460、S0与M.csv#130–173逐项分类，共44条；L1991 `AND PAINTERS`为跨栏运行页眉。M#142 `see under Mazarin`是既有排除别名；其余43个open候选中新增40个类型，保留cand-1611/M#151及cand-1617/M#157既有person。类别为30个新person、4 event、2 archive、3 term、1 procedure；计入既有类型则共32 person。M#130–132、#140–141、#143–149、#151–157、#159、#161–164、#166–173归person；M#133、#134、#137、#138归event；M#135、#136归archive；M#139、#158、#165归term；M#150归procedure。M#160 `collection`指Grand Prince Ferdinand的个人艺术收藏，taxonomy尚无collection类型，保持open/type-pending。M#142继续排除。
+
+正文语境核对：p.176–177、p.181记Mazarin引Bernini赴法的具体尝试；p.182–183记其招揽Algardi、Fronde反对及购置Bentivoglio宫的行为，四者按具体历史行动归event。p.184称1653年为Mazarin藏品编成清单，作为archive；p.185–186 Brienne记临终告别藏品的文字为archive。M#139 taste依照对审美判断的索引语义归term。Grand Prince Ferdinand部分：p.230–241记他对艺术家、作家、Venice及藏品的支持、交往和兴趣；M#151/#157的艺术家子项沿用person类型但不据索引添加关系。p.231所述16世纪威尼斯绘画传统及p.232的绘画taste归term；p.240–241将展览作为反复组织的公共展示实践，含1706年特定展览与其后沿袭的展期，M#150据此归procedure。p.239“support in break with conventional history picture”、M#159 Venice和M#161–164的employment/patronage/collaboration/support均保留person语境，不拆成索引未能具体化的作品、关系或事件。M#160私人收藏因类型能力不足而暂缓，不冒充archive、institution或place。
+
+页图核对印刷p.460及本段索引分栏；M.csv#142交叉引用已排除，M#151/#157既有person类型保留。M.csv与候选页码一致，本段无需候选定位修正；S0内的粘连、误识字符和跨栏运行页眉均保留为来源转录，不据OCR噪声改写原件。受控脚本`chp22_index_p460_l1991_2045_migration.py`锁定S0段、印本PDF、索引CSV、taxonomy、相关正文来源、manifest及候选/coverage前态；dry-run通过后应用并备份两张改写表。未改mentions、book statements或relations。审计`errors=[]`、`s2_missing=[]`；全库11,436候选、26,829 mentions、12,102 statements，832段中651 complete、140有理由排除、41 queued；开放未分类索引候选1,251。下一段为p.461页标`chp-22:22_CHP-22Index:l2047-2047`。
+
+
+## 索引p.461页标（S0 L2047）（2026-10-07）
+
+对照`CHP-22Index.pdf`物理页19确认印刷页码为p.461。S0 L2047 `[Page 461]`是生成页标，不是索引词条或原书断言；页图显示运行页眉`INDEX`在L2049，实体条目自L2050开始。将单行段标记为excluded/complete并写`no_semantic_content`理由，不改候选、mentions、book statements或relations。受控脚本`chp22_index_p461_marker_l2047_exclusion.py`锁定来源段、PDF、manifest及S2表前态；dry-run与apply通过，备份coverage。审计`errors=[]`、`s2_missing=[]`；当前832段中651 complete、141有理由排除、40 queued。下一段为p.461左栏`chp-22:22_CHP-22Index:l2049-2103`。

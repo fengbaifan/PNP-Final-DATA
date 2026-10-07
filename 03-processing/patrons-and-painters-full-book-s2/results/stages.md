@@ -1428,3 +1428,12 @@ L111是印刷页码444的OCR定位行，排除；L113–168为p.444左栏，从A
 
 
 完成p.460页标`chp-22:22_CHP-22Index:l1933-1933`：对照CHP-22Index.pdf物理页18确认印刷p.460，将生成页标标excluded/complete；未改候选或事实表。当前832段中649 complete、140有理由排除、43 queued、0 partial。下一段为p.460左栏`chp-22:22_CHP-22Index:l1935-1989`。
+
+
+完成p.460左栏`chp-22:22_CHP-22Index:l1935-1989`：核M.csv#82–129共48条，43个新分类（32 person、2 place、2 work、3 archive、4 event），保留cand-1554/M#93既有person；M#94/#110/#113私人藏书及古物收藏类型待决，M#86 see-under别名排除。Marino的`Adone`和诗作、Marucelli的画家生平归archive；Bartoli复制的Virgil插图归work。Massimi的任命、收藏处分、Umoristi重整及Masaniello起义归event；Nunzio任职和“Shaftesbury工作”保留人物语境。cand-1577/M#116页码由395按印本校为393；M#117印本为Matina，S0 OCR误作Marina。索引导航未新增mentions、book statements或relations。当前832段中650 complete、140有理由排除、42 queued、0 partial；开放未分类索引候选1,291。下一段为p.460右栏`chp-22:22_CHP-22Index:l1991-2045`。
+
+
+完成p.460右栏`chp-22:22_CHP-22Index:l1991-2045`：核M.csv#130–173共44条，40个新分类（30 person、4 event、2 archive、3 term、1 procedure），保留cand-1611/M#151、cand-1617/M#157既有person；M#160个人艺术收藏类型待决，M#142 see-under别名排除。Mazarin的招揽艺术家、Fronde冲突与宫殿购置归event，Brienne告别记述及1653年清单归archive；Ferdinand的反复公共展览实践归procedure，艺术taste与16世纪威尼斯绘画传统归term。其余人际及赞助子项不由索引升级为正式关系。未改mentions、book statements或relations。当前832段中651 complete、140有理由排除、41 queued、0 partial；开放未分类索引候选1,251。下一段为p.461页标`chp-22:22_CHP-22Index:l2047-2047`。
+
+
+完成p.461页标`chp-22:22_CHP-22Index:l2047-2047`：对照CHP-22Index.pdf物理页19确认印刷p.461，将S0生成页标排除/complete；实际索引从L2049的运行页眉后开始。未改候选、mentions、book statements或relations。当前832段中651 complete、141有理由排除、40 queued、0 partial。下一段为p.461左栏`chp-22:22_CHP-22Index:l2049-2103`。
