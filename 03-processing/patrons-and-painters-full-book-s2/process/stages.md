@@ -7416,3 +7416,44 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 复核第十五章p.361句子在p.362 L17收束；p.366注1指向第十六章p.373注2；p.366 Radicchio 1786叙述与p.365注2已有记录相关但身份未证。三条`cross_reference_text_pending`均清为false并添加/保留目标statement及来源段链接。Radicchio作品身份仍不合并；Strange所引信件及请求绘图均未独立查阅，图稿是否完成仍未知。
 
 审计器现将真值`cross_reference_text_pending`与脚注/续注pending一并纳入普通告警及严格失败；回归测试覆盖true与false。未新增/删除候选、mentions、statements、coverage或S6正式关系；六条开放关系候选保持待证，全书S2交接审计继续。
+
+## 全书指代与关系候选交接审查（2026-10-08）
+
+### 第十章p.316注4
+
+复读`10_CHP-10_sec_ii.md` L116–117及注释L297。L117明确写Nogari为Streit绘制“四幅Education寓意画及其他提升性题材”，接着说明这些题材被转为genre；脚注4标于句末，写Hugh Honour给Haskell看“these paintings”的照片。基于现存正文回链和就近先行词，组级回指到已有作品组候选`cand-9678`，不是未明范围的“surrounding passage”。没有证据将照片逐张配到单幅作品，因此保留`cand-9918`为照片档案组，statement标记`resolved_to_group`并增加`coreference_target_candidate_id=cand-9678`；`cand-9918.detail`改为组级已明、单幅映射未明。清除正文statement qualification中的“注4待规范链接”旧说明；脚注statement与正文链接不变。未新增作品候选、正式关系或外部事实。
+
+### 第十五章p.362“This”
+
+复读`15_CHP-15_sec_i.md` L22–24：L22结束于“architecture of his country house”；L23以“This”承接并比较其奢华程度；L24说明Farsetti原拟在Padua建别墅，后转向S. Maria di Sala家族地产，并续称“The villa”。因此将句子主语锚定到现有正文地点候选`cand-10432`（其建筑形制为指代对象），标记`resolved_to_candidate`并写入`coreference_target_candidate_id`；predicate和claim显式限定为住宅建筑形制的比较，不另造“建筑”实体。
+
+同段实体候选`cand-1007`来自索引F.csv#22，显示名为“country house at S. Maria di Sala”；`cand-10432`由正文建立，均有各自来源定位，`alignment.csv`没有二者决定。新增`candidate_identity_questions`，仅供S3核对后决定same/new等身份，不在S2合并。按拼接segment的零基、右开字符约定验证“This”跨度为2426:2430；追加mention `m-chp15-p362-0087`指向`cand-10432`。未修改02来源文本。
+
+### 六条开放关系候选
+
+逐条重读statement原句、限定语、提及候选及直接来源段；均维持`relation_candidate=true`，端点缺失不补猜测，不转正式关系：
+
+| Statement | 判断与后续边界 |
+|---|---|
+| `st-chp7-p180-n4-pair-location`（07_CHP-7_sec_i L338，p.180注4） | 两幅Poussin画`cand-6773/6774`与Louvre `cand-4589`、Detroit `cand-7072`成对列出；引书pp.46、65可能分辨但正文未给逐项映射。保留`candidate_endpoint_sets`为2×2范围，不选边。 |
+| `st-chp8-p207-n1-ferdinand-left-thirds-to-daughters`（08_CHP-8_sec_i L136，p.207注1） | Ferdinand `cand-0914`将图片各三分之一留给三位未具名女儿；其中一女与Giuliano Colonna `cand-7598`结婚，但来源没有将婚姻者与特定份额对应。保留组级陈述。 |
+| `st-chp8-p211-del-rosso-marriage-alliances`（08_CHP-8_sec_i L85，p.211） | `cand-7489`家族与“best families”联姻，对方家族及婚姻对象均未具名。无可写入backlog的明确端点。 |
+| `st-chp8-p238-note4-pictures-at-pisa-cabinet`（08_CHP-8_sec_ii L446，p.238注4） | Pisa机构`cand-8048`与“these pictures”相连；近接正文含Don Carlo Silva讽刺画`cand-0885`及两幅genre画`cand-0874/0887`，注释范围不能由标记位置完全消歧。“现在/1941年曾经”及Casini pp.42–50引证保留限定。 |
+| `st-chp14-p353-bruhl-possessions-in-the-pictures`（14_CHP-14_intro L70–71，p.353） | 两母题`cand-10293/10294`被写入“the picture”；注1给出`Maecenas` `cand-2597`和`Flora` `cand-2590`两幅委托作品，但未说明是哪幅包含何种母题；town/country houses也不作逐项映射。 |
+| `st-chp20-p403-alazard-commissioned-franceschini-picture`（20_CHP-20Postscript L111–113，p.403） | 画家`cand-1066`、作品`cand-6888`及经手人Colbert `cand-0800`、Abate Luigi Strozzi `cand-2528`可识别；commissioner未命名，经手不等同委托人。 |
+
+六条候选全部存在候选证据或明确的未知集合/委托人边界。检查`candidate-backlog.csv`不存在；本轮没有发现需新建而又具名且可独立识别的缺失端点，因此不创建空backlog或虚构端点。需要身份比对的既有候选仅转交S3；关系的事实指配和证据裁决仍属S6输入问题。
+
+### 递归外键复核
+
+改动后递归扫描statement所有嵌套字段及mentions：78,282个候选ID引用（10,114个不同候选）全部解析；17,889个类型化statement引用全部存在；17,870个segment引用覆盖591个不同segment，全部存在，锚点越出segment行界0。`candidate_identity_questions`为15条statement、24个问题、18个不同候选ID，全部存在。独立运行`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过：1,019 KU、11,497 candidates、27,396 mentions、12,263 statements、832 segments，`s2_missing=[]`、`errors=[]`；仅保留既有enrichment `source_ref`警告`enr-06678`、`enr-06937`及语义验收提示。覆盖机械闭合不代替全书语义终审。
+
+## 书目交叉引用、来源行锚点与候选类型待决复核（2026-10-08）
+
+第3章p.81的statement `st-chp3-seciv-l48-56-enggass-citation`引用Enggass 1957 pp.303–305。按原书书目规范段`chp-21:21_CHP-21Bibliography:l420-459`及印刷p.421逐项匹配：条目17为Robert Enggass, “Bernini, Gaulli and the frescoes of the Gesù,” Art Bulletin, 1957, pp.303–305；该书目statement的object和本章citation statement的subject均为既有候选`cand-5243`。将`bibliographic_identity_pending`设为false并加反查链接`linked_bibliography_statement_ids=[st-chp21-bib-l420-459-entry-17]`。该变化仅闭合书内引用与书目项的身份映射；论文未独立查阅，内容断言仍按Haskell转述保存。
+
+第8章p.224注释`st-chp8-p224-replica-publication-report`保留`collection_type_pending=true`。候选`cand-7761`“Scholz-Forni collection”是独立收藏对象，但[当前taxonomy](../../../01-domain/taxonomy-registry.md)没有collection类型；其detail已明确原因。未改成institution、archive或work，暂列为需后续规则/类型决定的S3输入。
+
+对12,263条statement按各自`source_file`及`qualifiers.source_line_start/end`校验行号和原句：源文件缺失0、越界0、原句不在指定范围0；7,246条与行段逐字相同，5,013条原句在行段内，4条忽略行末/换行空白后匹配。175条第一章statement的`source_file`为旧整章路径`01_CHP-1.md`，而`segment_id`关联分节文件；其原句均能在各自标注行段内复现。第一章来源路径作为既有S2定位保留，不将该整章副本计入S0来源或覆盖。
+
+`entity-candidates.csv`当前有450个`suggested_type`空值，407条状态open、43条excluded；其中378条`candidate_origin=body-mention`，72条有`index_entry_id`。空类型分布不能由机械检查判为错误或已解决；S3须按同一性和taxonomy对open候选逐条决定，仍不适用类型者保持undecided/type-pending。S2本轮未进入S3，也未创建KU。

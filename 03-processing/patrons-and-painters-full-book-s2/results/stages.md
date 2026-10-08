@@ -1685,3 +1685,17 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 ## 全书限定语、引文边界与跨页引用收口（2026-10-08）
 
 修正第十章4条过期注释待办限定、p.318注2按来源明确对象拆分的注释链接、p.323注4正文反链；第十五章3条已处理跨页/跨注引用的`cross_reference_text_pending`清为false，并记录目标语句/来源段。Radicchio 1786身份和Strange信函/绘图本体仍未独立核验，原有未决限定保留。审计器新增跨页引用pending严格检查及回归测试。表中候选、mentions、statement总数不变；六条关系候选仍开放，S2尚未交接。
+
+## 全书指代与S3输入关系问题复核（2026-10-08）
+
+第十章p.316注4的组级先行词已解析为cand-9678；单幅照片与作品仍未映射。第十五章p.362“This”解析为S. Maria di Sala country-house architecture，正文候选cand-10432；新mention `m-chp15-p362-0087`字符范围2426:2430。索引种子cand-1007与正文cand-10432增加一个S3身份核对问题，S2不合并。全库显式`referent_status=unresolved`由2条降为0条；这不代表全书其它语义指代/限定语已完成终审。
+
+六条开放关系statement已逐项确认其未决范围与候选端点，当前结果中的交接表逐条列出：两个端点集合未映射、未具名女儿、未具名联姻家族、Pisa图片范围/时间不清、Brühl母题与两幅作品未指配、以及Alazard故事的实际commissioner未具名。均保留S2候选，不写入S6正式关系；无新具名且可独立识别的缺失端点，未创建candidate backlog。
+
+递归引用核对无悬空候选、statement或segment引用，segment行锚点越界为0。严格阶段审计通过：mentions 27,396，statement 12,263，`s2_missing=[]`、`errors=[]`；仍有两条既存enrichment source_ref告警，且全书语义终审尚未完成。
+
+## 书目与来源定位完整性复核（2026-10-08）
+
+Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内引用身份闭合，原文论文未独立查阅。12,263条statement的source_file/行段均可复现引文，无缺失、越界或范围错配；第一章175条旧整章source_file路径保留，segment仍连接规范分节来源，不增加覆盖计数。
+
+递归statement/mention候选引用与statement/segment引用均无悬空项；唯一仍为真值的pending是Scholz-Forni收藏cand-7761的collection类型待决。候选表另有450个空suggested_type（407 open、43 excluded），留给S3逐项分类和身份判定。当前S2仍未交接。

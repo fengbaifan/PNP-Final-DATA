@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,395条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,396条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -31,6 +31,38 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 全书S2交接审计与下一步
 
-交接前还需按证据边界完成最后汇总：来源范围与排除项依据、候选外键和覆盖的机械核对已通过；脚注印号、续页、正文回链及statement引用专项复核已完成，递归脚注/续注和跨页引用pending扫描为0。第十章p.292、p.317及p.323的过期“待迁移”限定已清理；p.318注2按原文分别关联Giannone与Pilati，p.323注4回链到其所注的Goldoni指控。第十五章p.361–362及p.365–366跨页/跨注目标已复核并链接；Radicchio短引身份仍未确认，p.366所引信件及图稿未独立核验。剩余工作是全书语义指代与statement限定语的最后审视、六条端点未齐关系候选的逐项交接说明，以及汇总全部S2遗留风险并形成S3输入。六条关系候选继续开放，不转为无证正式关系；目前尚不进入S3。
+全书S2交接审计仍在进行。已复核两条原标为`referent_status=unresolved`的statement：第十章p.316注4的“These paintings”回指本段cand-9678所代表的Nogari作品组；单幅照片与作品之间的对应仍未知。第十五章p.362的“This”回指前句的country-house architecture，后文将该住宅定位为S. Maria di Sala别墅；正文候选cand-10432与索引种子cand-1007留给S3做身份对齐。两条显式未决指代状态现均已改为有范围的上下文解析，但全书其余指代和限定语仍需终审。
+
+### 指代记录
+
+- `st-chp10-p316-n04-honour-showed-haskell-painting-photographs`：目标cand-9678；注释说明组级先行词已确定，未把照片逐张映射到作品。正文statement的旧“注4待规范链接”限定已清理，`cand-9918` detail同步修正。
+- `st-chp15-p362-this-surpassed-venetian-collections-referent-unresolved`：主语锚定`cand-10432`，predicate现表述country-house architecture与威尼斯收藏的比较；新增mention `m-chp15-p362-0087`，来源段字符范围`2426:2430`。`candidate_identity_questions`记录cand-1007与cand-10432的S3比较，S2不合并。
+
+### 六条端点未齐关系候选（交S3/S6）
+
+| Statement | 来源锚点 | 未决内容 | 下游处理 |
+|---|---|---|---|
+| `st-chp7-p180-n4-pair-location` | 第7章p.180注4，L338 | 两幅画`cand-6773/6774`与Louvre、Detroit Institute of Arts `cand-4589/7072`是成对提及；注释引Nicolas Poussin pp.46、65，但没有逐幅指配。 | S3对齐已有端点；S6在来源可逐幅指配前不生成单幅地点边。 |
+| `st-chp8-p207-n1-ferdinand-left-thirds-to-daughters` | 第8章p.207注1，L136 | `cand-0914`把画作的三份之一分别留给三名未具名女儿；未说明嫁给Giuliano Colonna `cand-7598`的是哪一女儿。 | 保留群体层断言；不为女儿造端点或分配份额。 |
+| `st-chp8-p211-del-rosso-marriage-alliances` | 第8章p.211，L85 | del Rosso家族`cand-7489`与“best families”的婚姻联盟未列出对方家族或具体婚姻。 | 不补造对方；S6不生成具体婚姻边。 |
+| `st-chp8-p238-note4-pictures-at-pisa-cabinet` | 第8章p.238注4，L446 | Pisa机构`cand-8048`所指图片可能是两幅风俗画`cand-0874/0887`，也可能包括前述讽刺画`cand-0885`；“are—or were in 1941”保留时间不确定，Casini pp.42–50未独立查阅。 | 保留注释statement及范围歧义；不作单幅地点边。 |
+| `st-chp14-p353-bruhl-possessions-in-the-pictures` | 第14章p.353，L70–71 | 两个图像母题`cand-10293/10294`未指配给Brühl委托的`Maecenas` `cand-2597`或`Flora` `cand-2590`，也未指配到具体住宅。 | S3对齐现有候选；S6等待作品与母题的逐项证据。 |
+| `st-chp20-p403-alazard-commissioned-franceschini-picture` | 第二版后记p.403，L111–113 | 作品`cand-6888`与画家`cand-1066`已识别；Colbert `cand-0800`、Abate Luigi Strozzi `cand-2528`是经手人，实际委托人未具名。 | 不把经手人提升为委托人；保留端点未决。 |
+
+以上开放候选均无新近具名、可独立识别而缺候选的端点，故未创建`candidate-backlog.csv`；未新增S6正式关系。六条statement及候选映射构成当前关系问题的交接清单，不表示关系阶段已完成。
+
+### 递归引用完整性
+
+对全部statement嵌套字段和mentions的候选ID进行递归核对：78,283个候选ID引用、10,114个不同候选均可解析；17,890个类型化statement引用全部存在；17,870个段落引用涉及591个不同segment，均可解析，`#L`锚点越界为0。新增的S3身份问题当前共15条statement、24个问题、18个不同候选ID，引用均存在。`candidate-backlog.csv`当前不存在；无新具名且可独立识别的缺失端点。其余全书断言限定语与语义风险仍待终审，S2尚未交接。
+
+### 引用锚点、书目匹配与候选类型待决
+
+对12,263条statement按其自身`source_file`及`source_line_start/end`复核：源文件缺失、行范围越界、引文不在指定范围内均为0。7,246条引文与行段完全相同，5,013条引文位于所指行段内，4条需忽略换行空白后匹配。另有175条第一章statement沿用`01_CHP-1.md`整章来源路径，而`segment_id`指向规范分节来源；这175条引文和行号均可在各自`source_file`中复现，保留为旧S2定位，不另计来源段或覆盖。
+
+第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
+
+第8章p.224注释仍有`collection_type_pending=true`：`cand-7761`为Scholz-Forni art collection，现行taxonomy没有collection类型，按规则保留空类型，不改成institution、archive或work。
+
+全候选表有450行`suggested_type`为空（407条open、43条excluded；来源中378条为body-mention、72条为index seed）。该集合属于S3类型/身份判定输入；严格结构审计不证明空类型均已语义解决。需在S3按证据给出same/new/conflict/excluded/undecided决定；S2不提前登记KU。
 
 S2交接前不推进S3–S6、知识发现或页面工作。
