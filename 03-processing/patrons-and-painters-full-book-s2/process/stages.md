@@ -7382,3 +7382,7 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 严格阶段审计通过：1,019 KU、11,497 candidates、27,395 mentions、12,263 statements；832段中678 complete、154有理由排除、0 queued/partial；`s2_missing=[]`、`errors=[]`。6条关系候选仍开放，enrichment `source_ref`警告仍为2条。第二版后记提示复核已完成；全书S2交接审计继续进行，尚未进入S3。详见[第二版后记结果](../results/chp-20.md)。
 
 S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.146，第7章p.201及第8章p.241。对照正文印号、S0注文行和已有note statements，为15条正文statement补齐`footnote_refs`、`footnote_statement_ids`及已链接状态；修正11条note statement的`linked_body_statement_ids`。第3章p.76注1/2分别连到site与style两条声明；第7章p.201注1只连Caprara句、注4/5只连画廊作品清单。另据`CHP-3.pdf`物理页29确认p.87注5对应S0 L114的Gaulli付款记录，不与p.88另一条注5混同。受控脚本[footnote_handoff_reconciliation_20261008.py](footnote_handoff_reconciliation_20261008.py)默认dry-run、锁定表及S0哈希；写前在`C:\Users\001\AppData\Local\Temp\pnp-s2-footnote-handoff-20261008-4x6poll3`保存恢复副本。脚本SHA-256=`543ecbb486855d6ea23fbd967d81c4bb54fe9d540d455cf13a41d0c9273d986e`；写后`book-statements.jsonl` SHA-256=`827e7e9f77ed0ff2e07e7528e5756c3b63ef44adb9151a1b0dc5d2ab00c3a16f`。没有增删候选、mentions、statements、coverage或关系。`audit_tables.py --strict-stage --summary`与`run_sync_closure.py`通过，计数与上条一致；全书S2总交接核对仍继续，未进入S3。
+
+## 索引覆盖当前状态纠正（2026-10-08）
+
+复核p.446来源回补记录后，发现`04-knowledge/tables/s2-coverage.csv`的`chp-22:22_CHP-22Index:l398-452`仍保留回补前“Bentveugels/Bergamo未入S1”的当前状态描述，与B.csv#324–327及cand-11459–11462矛盾。已将该段改为反映四条索引行及候选均已回补；历史发现仍保留在上方原始日志。四个索引种子映射不等同实体身份对齐，既有正文候选仍保持独立，待S3按证据核定。全书纸本索引与CSV逐项范围核对尚未完成。
