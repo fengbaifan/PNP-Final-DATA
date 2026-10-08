@@ -7392,3 +7392,11 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 ## 索引p.447人物词头校正（2026-10-08）
 
 检查`CHP-22Index.pdf`物理页5（印刷p.447）时，页图明确印作“Bernis, Cardinal de”；B.csv#187与B.md均转录为“Bermis”。仅将候选cand-0340的`canonical_name`校正为印本字形“Bernis, Cardinal de”，保留`index_entry_id=B.csv#187`、页码与person类型。该候选当前无正文mentions，不据拼写校正并入正文提及中的另一个Bernis候选；身份对齐留给S3。未改写02来源文件，也未增删mentions、statements或关系。
+
+## 全书纸本索引页图范围终审（2026-10-08）
+
+重新核对`02-sources/01-book/CHP-22Index.pdf`全部32页。物理第1页为p.443（版面无印刷页码），物理第2–32页连续标为p.444–474；p.460和p.462的页码在页图中清晰可见，PDF文本层漏识这两个数字，不是缺页。索引规范来源在`segments.jsonl`中有94段，94段均有coverage且`migration_status=complete`。
+
+逐页/栏映射记录覆盖19份A–Z索引CSV共2,934行；2,934个`index_entry_id`各有且仅有一个候选映射，未发现缺失或未知行。Markdown与CSV记录集合此前已逐行核对一致。已知印本漏录仅为p.446的Bentveugels、Bergamo、Santa Maria Maggiore与S. Paolo d’Argan四行，现已追加B.csv#324–327及cand-11459–11462；本次终审未发现其他印本词条漏录。页图及栏目、行范围证据见本记录各印刷页条目。
+
+本轮确认p.454印本词头为“Fetti, Domenico”，F.csv#48与对应Markdown转录为“Feti, Domenico”。按印本将cand-1033的`canonical_name`校正为“Fetti, Domenico”，保留`index_entry_id=F.csv#48`、原页码、类型、候选状态及全部既有mentions/statements；F.csv、F.md与PDF均未改写。该字形校正不改变候选ID或跨章身份裁决。文本层误读示例“Gavazza”经p.449页图核为“Cavazza”，候选与来源CSV均正确，未改表。
