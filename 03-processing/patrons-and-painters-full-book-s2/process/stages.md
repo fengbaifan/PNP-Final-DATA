@@ -7007,3 +7007,39 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp6_candidate_surface_prompt_reconciliation.py`默认dry-run，哈希锁定候选、mentions、statements、segments、coverage、定位器以及第1、4、6章相关S0分节；写入前核对23条提示完整分区、mention与原文逐字一致、无现有跨度重叠、candidate外键和三条statement前态。plan SHA-256=`db13bb71a4907ad5069cd729caa9c27d6f1069aca61dcb63a3a5475781451513`，script SHA-256=`cfbfbb7b6d4754384d2d3b683c1fa4ccaf26536e6f8f6735b575fe7d327ed5a8`。应用前后candidate行数均为11,464；mentions从27,143增至27,151；statement行数12,255不变。除上述两条`mentioned_candidate_ids`补链外，还将`st-chp6-p164-v1-14`里“footnote 3 remains pending”改为注3实际状态：它给出Rava 1942的书目定位，但该作品未独立查阅。mentions SHA-256：`c43354eddb206f135ba3b638d4a4949e74dae129c4bbeb30158daf2a219c7541`→`52a5b14c3ca39e3127ed89a491452f8043cb6a9b9092d19c6898241f80d38b58`；statements SHA-256：`5999d2851d45c5b0ab2157478d8926d0ca4fc5aa1abcbcae164aab2ebdd9c1a6`→`c1ba516072b1a54969c1de7a6763afe22ff984bca1469581ee49acdfa007cec3`。恢复副本位于`%TEMP%\pnp-s2-chp6-surface-prompts-20261008-084741\`。
 
 写后扫描仍提示15条，签名与no-write列表完全一致；严格阶段审计`errors=[]`、`s2_missing=[]`，全书覆盖678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment `source_ref`警告未改变。第七章47个已审段上现有提示40条，作为下一书序审查范围；候选表面扫描仍只提供定位线索，不构成召回率或语义验收。
+
+## 第七章候选表面提示全量裁决（2026-10-08）
+
+在第七章47个reviewed/complete段上重跑`audit_s2_candidate_surfaces.py`：10,489个既有类型词形产生40条启发式提示。逐条核对S0原文、候选主项/子项、既有mentions与statement后，17条补为精确mention，23条按具体词义、泛称或索引错配不写入。候选表面定位器不检出未登记实体，提示数不代表遗漏数或语义召回率。
+
+新候选3个：cand-11486 Cardinal Aldobrandini所藏Titian《Bacchanal》与《Worship of Venus》的collection（类型待定，正式名称、范围、地点和身份均未给；与第4、20章提及的其他Aldobrandini画作组分开，留S3对齐）；cand-11487 Charles Le Brun提供给Domenico Guidi凡尔赛雕塑组的设计图稿（work；题名、数量、确切图样及存世情况未给，与cand-7241 Shaftesbury项目中的《Prudence》《Justice》图稿组分开）；cand-11488 Cardinal Chigi 1664年访巴黎事件（event；Canini与Cardinal Chigi均无名，身份未定）。
+
+17条接受映射如下（`@`为段内零起始字符偏移，右端不包含）：
+
+| 段与偏移 | 提及跨度 → candidate | 判断 |
+|---|---|---|
+| `sec_i:l113-126@2500` | Italian art → cand-4131 | Haskell谈意大利艺术向国外传播。|
+| `sec_i:l128-138@2164` | art patrons → cand-4129 | 三个具名家族被称为杰出的艺术赞助者。|
+| `sec_i:l21-29@1768` | collection → cand-11486 | 指两件Titian作品曾所在的Aldobrandini收藏；不把收藏与收藏者或两件作品合并。|
+| `sec_i:l21-29@2675` | Naples → cand-1722 | 城市直接命名；复用同段其他statement使用的索引城市候选。|
+| `sec_i:l243-257@898` | drawings → cand-11487 | 指Le Brun为Guidi凡尔赛雕塑组提供的设计图稿。|
+| `sec_i:l268-280@2170` | Naples → cand-1722 | 城市直接命名；复用本段Del Carpio城市陈述所用候选。|
+| `sec_i:l293-389@3617` | Louvre → cand-3254 | 注4将Louvre作为馆藏地点；使用已接收KU卢浮宫博物馆候选。两画与两馆的逐件配对仍不确定。|
+| `sec_i:l293-389@4427` | palace → cand-6796 | Mazarin从Bentivoglio经Lante取得的罗马宫殿，已有本章候选及转手statement。|
+| `sec_i:l293-389@5936` | visit to Paris → cand-11488 | 1664年、目的地和陪同者明确，是单一报道事件；参与者身份保持未决。|
+| `sec_i:l293-389@6140` | Battle → cand-7106 | 指1697年从Versailles转送Paris的Rosa单件画作报道；题名、版本与存世状态仍不明。|
+| `sec_i:l293-389@7682` | collection → cand-6976 | Harris注所说的Del Carpio收藏回指其在罗马持有、包括小型四河喷泉的类型待定收藏。|
+| `sec_iv:l63-75@2375` | Italian painting → cand-11017 | Lord Exeter收藏范围中的意大利绘画。|
+| `sec_iv:l63-75@2665` | Italian painting → cand-11017 | Lord Exeter委托规模所比较的意大利绘画。|
+| `sec_iv:l77-87@753` | English patronage → cand-0969 | Shaftesbury被称为推动英国艺术赞助；对应statement对象同步改为术语候选。|
+| `sec_iv:l77-87@900` | Italian art → cand-4131 | Shaftesbury与意大利艺术的接触；复用广义既有术语。|
+| `sec_iv:l77-87@1603` | drawings → cand-7241 | 指已登记的Guidi《Prudence》《Justice》图稿，由Closterman寄给Shaftesbury。|
+| `sec_iv:l97-119@301` | Prince → cand-1405 | 注1所称Prince为Wenzel of Liechtenstein；不是候选误命中的Machiavelli《君主论》。|
+
+23条no-write提示逐项保留其偏移和理由：`sec_i:l102-111@162` character为普通赞语；`l102-111@2301` subject为铜雕题材类别；`l140-148@103` subject为未确定的Titian作品题材；`l140-148@1818` artistic tastes描述Mazarin的趣味，索引子项属于Joseph Smith；`l160-168@130` contracts泛指Algardi取消与法国人的合同，未指出可独立识别的文书；`l160-168@2398` fortune是“命运转折”的习语；`l170-176@1874` subject指Mazarin画廊画作的普通题材；`l205-213@206` subject为画作使用的学塾教师故事，不是具名作品；`l21-29@728` churches为装饰地点泛称；`l232-241@1643` subject描述适合王权幻象的题材；`l232-241@1849` character指胸像表现的一般个人特征；`l282-291@313` aristocracy为一般社会阶层，候选子项无关；`l45-59@269` prince是“伟大王公居所”的泛称，不指具体人物；`sec_iv:l23-36@2278` altarpieces为作品类别；`l23-36@2708` gardens为一般意象而非地点；`l23-36@2826` subject为泛指讨论主题；`l48-61@1255` portraits为一般画种；`l48-61@2282` bologna指食物Bologna sausage；`l48-61@2555` subject为寓意壁画的泛称题材；`l63-75@1021` patronage of Italian artists描述Isham和Exeter的行为，索引命中Johann Wilhelm及Prince Eugene的不同子项；`l77-87@463` prices为“高得惊人”的一般价格描述；`l77-87@814` subject为讨论的一般主题；`l77-87@1519` subject为Shaftesbury雕塑计划选取的一般艺术题材。
+
+更新statement提及链接共11条：`st-chp7-p171-i15`加入cand-11486；`st-chp7-p179-i23`加入cand-4131；`st-chp7-p180-i23`加入cand-4129；p.180注4的引文statement与成对地点statement均加入cand-3254，但未改两画/两馆端点集；`st-chp7-p187-n4-canini-accompanied-cardinal-chigi`加入cand-11488；`st-chp7-p189-i07`加入cand-11487；`st-chp7-p190-n5-haskell-acknowledges-harris`加入cand-6976；`st-chp7-p197-england-lacks-italian-painting`与`st-chp7-p197-exeter-unique-commission-scale`均加入cand-11017；`st-chp7-p198-shaftesbury-italy-visit`加入cand-4131。另修正`st-chp7-p198-shaftesbury-welcomed-patronage`：predicate与原文说的是English patronage，原object cand-7200为England地理地点，现改为cand-0969术语，并相应替换`mentioned_candidate_ids`。其余涉及Naples、palace、Rosa Battle、Guidi图稿和Liechtenstein Prince的既有statement已经含准确候选链接；仅新增对应精确mentions。
+
+受控脚本`chp7_candidate_surface_prompt_reconciliation.py`默认dry-run，锁定candidate/mention/statement表、segments、coverage、定位器、taxonomy及第七章两份规范S0分节。apply前核验40条提示完整分区、源跨度、候选外键、候选号顺序、mention不重叠和12条statement前态；写后定位器复扫与no-write清单签名完全相同。plan SHA-256=`8c883cadec221797424188f73cf9cfb11dd31c1b03f64a7185b308ff9e864067`；script SHA-256=`1bd79777ff3edebd7f3f181230dd183d75eae5b61d98472e7c4432eaa2266e98`。写前→写后SHA-256：candidates `465463a534129239b1ec06ad0f2614cc8e553cd7639d3a1ce56911e33e06ae23`→`2a68ced91ee0662e1e3515769eef7ac3d2981d3d00f5773613891a1e4acd22e5`；mentions `52a5b14c3ca39e3127ed89a491452f8043cb6a9b9092d19c6898241f80d38b58`→`29a2d397cd6c1b32cf90b13d56ab5a68f15ba0011f01d23374f42de4394eea55`；statements `c1ba516072b1a54969c1de7a6763afe22ff984bca1469581ee49acdfa007cec3`→`a4a942d1f71c7735f03289129503d899683fcd84f9c8011e757e70855d67ed7e`。恢复副本位于`%TEMP%\pnp-s2-chp7-surface-prompts-20261008-090555\`。
+
+`python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,467 candidates、27,168 mentions、12,255 statements；`s2_missing=[]`、`errors=[]`；覆盖678 reviewed/complete、154有理由排除、0 queued、0 partial。原有两条enrichment `source_ref`警告未变。第八章当前提示扫描覆盖56个reviewed段、112条提示，作为下一书序处理范围；候选表面提示仍不等于遗漏或语义验收。
