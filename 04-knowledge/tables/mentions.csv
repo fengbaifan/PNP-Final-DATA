@@ -27749,3 +27749,26 @@ m-s2-chp3-surface-961e7fd26943abd3,chp-3:03_CHP-3_sec_iv:l189-243,cand-1321,Jesu
 m-s2-chp3-surface-3190c700384bf7ac,chp-3:03_CHP-3_sec_iv:l118-128,cand-3571,canvas,2721,2727,"Canvas is the material of theatrical apparatus in this passage, not a claim about painting support."
 m-s2-chp3-surface-d05bd089cc32e3cf,chp-3:03_CHP-3_sec_iv:l189-243,cand-5478,drawings,1895,1903,Specific drawings of The Blood of Christ associated with Bernini/Gaulli programmes; retain the existing grouped work candidate.
 m-s2-chp3-surface-7f9c010f62c97321,chp-3:03_CHP-3_sec_iv:l8-14,cand-3126,Rome,3010,3014,The prompt collides with unrelated indexed phrases; record only the exact city span.
+m-s2-chp4-surface-102ac49d89926c51,chp-4:04_CHP-4_sec_i:l42-67,cand-5606,collection,635,645,"The documents are identified locally as Fondo Orsini; this mention denotes the archival fonds, not the repository."
+m-s2-chp4-surface-8516a6f2b4203f8e,chp-4:04_CHP-4_sec_ii:l109-119,cand-5822,collection,839,849,"The quoted collection is the writings Cassiano showed Dupuy, recorded by the existing source-derived archive candidate."
+m-s2-chp4-surface-83f1838e24b9a280,chp-4:04_CHP-4_sec_ii:l121-128,cand-5654,collection,1637,1647,Cassiano's antiquities are described as holdings of his previously identified library and museum; retain its unresolved collection type.
+m-s2-chp4-surface-793e617e68fbda6e,chp-4:04_CHP-4_sec_ii:l15-22,cand-5652,palace,1893,1899,"The definite reference is Cassiano's residence on Via Chiavari, already represented by the unidentified-palace candidate."
+m-s2-chp4-surface-1a9c09cb374bf811,chp-4:04_CHP-4_sec_ii:l161-170,cand-5921,collection,557,567,The passage concerns Cassiano's painting collection as a group; preserve its unresolved type.
+m-s2-chp4-surface-0e18254f1d62687c,chp-4:04_CHP-4_sec_ii:l218-227,cand-3567,connoisseurship,767,782,Connoisseurship is used as the same art-historical practice represented by the existing term candidate.
+m-s2-chp4-surface-cd62fb9207f3297d,chp-4:04_CHP-4_sec_ii:l218-227,cand-0090,palace,884,890,The new palace is locally identified as the Altieri palace in the same sentence.
+m-s2-chp4-surface-3975471a12395f9a,chp-4:04_CHP-4_sec_ii:l218-227,cand-0840,subject,1747,1754,The painting subject is explicitly said to have been chosen by the patron.
+m-s2-chp4-surface-fb2a98d9898d0bda,chp-4:04_CHP-4_sec_ii:l232-308,cand-5921,collection,3338,3348,The note cites accounts of Cassiano's painting collection.
+m-s2-chp4-surface-43606b262aedb3e5,chp-4:04_CHP-4_sec_ii:l232-308,cand-5921,collection,4331,4341,Skippon is said to have been shown Cassiano's painting collection; the bird-painting group remains a separate candidate.
+m-s2-chp4-surface-3c433afdd1812822,chp-4:04_CHP-4_sec_ii:l232-308,cand-3126,Rome,4548,4552,The longer indexed phrase collides with unrelated subentries; record the exact city span.
+m-s2-chp4-surface-dc60f0a8e7bc0a0d,chp-4:04_CHP-4_sec_ii:l232-308,cand-5784,drawings,5374,5382,"These are Poussin's drawings made for Leonardo's Trattato, already represented by the source-derived work candidate."
+m-s2-chp4-surface-3728cfe32939318a,chp-4:04_CHP-4_sec_ii:l232-308,cand-5876,Flight into Egypt,8389,8406,"The note refers to other representations of the biblical episode, not to one of the indexed paintings."
+m-s2-chp4-surface-250781e7176e3da2,chp-4:04_CHP-4_sec_ii:l232-308,cand-4653,Paris,9297,9302,"The index phrase is a travel event, while the precise entity mention here is the destination city."
+m-s2-chp4-surface-ad5ef8c40173ca3c,chp-4:04_CHP-4_sec_ii:l24-31,cand-5666,drawings,2422,2430,The drawings bound into volumes are the content of Cassiano's locally named paper museum; its collection type remains unresolved.
+m-s2-chp4-surface-e942c7af0658221c,chp-4:04_CHP-4_sec_ii:l24-31,cand-5744,drawings,2823,2831,The divided corpus is the approximately fifteen hundred Roman-antiquity drawings represented by the existing grouped-work candidate.
+m-s2-chp4-surface-f2ba8e5042f7958f,chp-4:04_CHP-4_sec_ii:l24-31,cand-5694,drawings,3120,3128,The Windsor subset is specifically attributed to Testa by Blunt and has its own grouped-work candidate.
+m-s2-chp4-surface-b070d5824c18368a,chp-4:04_CHP-4_sec_ii:l33-44,cand-5850,drawings,304,312,The quotation specifies Cassiano's volumes copied from ancient marbles; keep them distinct from the deity-and-sacrifice volume.
+m-s2-chp4-surface-a47b1aaff669d478,chp-4:04_CHP-4_sec_ii:l53-63,cand-5741,altarpieces,1548,1559,The phrase identifies one work appositionally as the St Romualdo altarpiece of 1638.
+m-s2-chp4-surface-0f686407e50b10c5,chp-4:04_CHP-4_sec_ii:l80-89,cand-5921,collection,1721,1731,The passage explicitly counts Poussin paintings in Cassiano's painting collection.
+m-s2-chp4-surface-f93a5e50eadd7a24,chp-4:04_CHP-4_sec_ii:l91-99,cand-0840,subject,170,177,Cassiano proposes the subject of the Marriage of Peleus to Poussin.
+m-s2-chp4-surface-2092fcd519cb3973,chp-4:04_CHP-4_sec_ii:l91-99,cand-4653,Paris,780,785,The longer indexed phrase is not an entity; record its exact destination city.
+m-s2-chp4-surface-2ff115e324f1b967,chp-4:04_CHP-4_sec_ii:l91-99,cand-5784,drawings,2755,2763,The demonstrative refers back to Poussin's drawings made for the Trattato.
