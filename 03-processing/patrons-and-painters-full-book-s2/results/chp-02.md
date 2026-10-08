@@ -225,7 +225,9 @@ PDF目视核对印刷页25–31，纠正S0识读用于限定记录：L127 `B.ell
 |---|---:|---|---|
 | `chp-2:02_CHP-2_sec_ii:l80-89` | 39／物理第20页 | 接续Titian《圣家与圣凯瑟琳》的购藏句，记录Cardinal Aldobrandini从Ferrara取得原作；随后记Marcello鼓励Pietro临摹Raphael与Titian及Haskell关于巴洛克绘画和艺术训练的解释，Pietro向赞助人询问题材、Marcello的文化性格及Haskell对Pietro、Domenichino和Annibale Carracci的风格比较。再登记为Sacchetti绘制的三幅大画、Sacchetti圈中的风格传播、Marcello委托装饰Castel Fusano乡间宅邸、Andrea Sacchi参与团队及各室装饰题材。后半记录Urban VIII即位后的Sacchetti职位变化、Giulio晋升枢机、Marcello的财务职务和Tolfa明矾矿特许权、矿区绘画委托、Marcello退居Naples并在那里去世、Sacchetti赞助影响的嵌套引语，最后回到S. Bibiana壁画。 | 新增16个候选（cand-4474–cand-4489）、63条精确跨度提及和35条原书断言。复用索引中Pietro的《Polyxena献祭》《酒神凯旋》候选，并为《萨宾妇人被劫》另建作品候选以免错合其他画家同题作。Castel Fusano乡间宅邸及其gallery可能对应L75的Sacchetti villa和gallery，标为待S3身份复核；区分建筑、装饰项目、礼拜堂、gallery和两组装饰题材。特许权、矿区及其绘画分别记录；匿名编年史作者与兄弟引语保留不同发言层级。Raphael原作与Pietro的Titian复制品经相邻源段交叉链接，原作不与复制品混淆。正式关系边未生成。 |
 
-印刷页39（`CHP-2.pdf`物理第20页）已目视核对。S0 OCR `sables`校为印本`fables`；`ability 40 adapt`校为`ability to adapt`；Plate `ioa/rob/na/nb`校为`10a/10b/11a/11b`；`and.breadth`校为`and breadth`。原始S0与原书引句保持不改，差异只记入限定。L81购藏句承接L77在“which”处的未完句，两段statement已相互链接。脚注1–4分别指向后置注释段`sec_ii:l147-193`的L172–175，迁入该段后再交叉链接；脚注2涉及Andrea Sacchi文献，尚不作外部事实核验。
+印刷页39（`CHP-2.pdf`物理第20页）已目视核对。S0 OCR `sables`校为印本`fables`；`ability 40 adapt`校为`ability to adapt`；Plate `ioa/rob/na/nb`校为`10a/10b/11a/11b`；`and.breadth`校为`and breadth`。原始S0与原书引句保持不改，差异只记入限定。L81购藏句承接L77在“which”处的未完句，两段statement已相互链接。脚注1–4现已分别链接至后置注释段`sec_ii:l147-193`的L176–179，并核对了正文与注释的双向链接；它们与p.38重复编号的L172–175区分。脚注2涉及Andrea Sacchi文献，尚不作外部事实核验。
+
+本段语义复核新增1条Pietro受Marcello欢迎的原书断言及1条精确风格提及；补标既有明确关系断言后，本段共27条关系候选，5条因对象或角色端点未指明而保持开放。未生成S6正式关系边。`copying-as-training-generalization`的主体修正为泛指艺术家，清除误连Pietro的候选外键；跨段购藏句仍链接至前段，不把摹本当作原作。当前严格审计见全书结果记录；第2章后续段落及全书S2交接仍待完成。
 
 迁移后全书为68段reviewed/complete、19段excluded、705段queued；候选4,487、提及2,381、原书断言1,289。第2章21段迁移、8段排除、39段queued。`audit_tables.py --summary`结构错误为0；两条既有enrichment来源定位警告仍在。下一段按规范S0源序为`chp-2:02_CHP-2_sec_ii:l91-104`。
 

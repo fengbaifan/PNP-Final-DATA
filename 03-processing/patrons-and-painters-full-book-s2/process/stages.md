@@ -7539,3 +7539,11 @@ cand-0209与cand-0213的规范名相同，分别出现在p.30/p.38与p.42；新�
 为Urban VIII任命Francesco、年长的Antonio、年轻的侄子Antonio及Lorenzo Magalotti为枢机的4条statement补上关系候选标记；另标记Colonna出售Roviano城堡、Orsini出售Monte Rotondo地产、Colonna家族支系出售Palestrina公国、罗马元老院提议为Barberini家族成员建纪念碑，以及Anna Colonna被选作Don Taddeo新娘共5条statement。保留家族/支系和集体买方的粒度；“提议”不表示纪念碑建成，“被选为新娘”不证明婚礼举行。共补标9条关系候选，不新增正式边。
 
 复核后严格阶段审计通过：12,274 statements、2,386条关系候选、2,378条标量两端点齐全、8条开放；`s2_missing=[]`、`errors=[]`。两条既存enrichment `source_ref`告警仍在。全书S2关系、指代及来源语境终审仍未完成，未进入S3。
+
+## 第二章p.39关系候选与脚注回链复核（2026-10-08）
+
+复核`chp-2:02_CHP-2_sec_ii:l80-89`的35条既有statement与页图、候选和mentions。将26条已有的委托、创作、职务、团队参与、影响、友谊、地点/安置及具名引语等关系性断言标记为关系候选；风格比较及泛指对象仍按陈述性质处理。另将“Pietro受Marcello欢迎”从人物概述中拆成原子statement，避免关系信息埋在履历性claim里。对5条对象或角色未明确的关系候选保留开放端点：Pietro一般性询问赞助人题材、未具名枢机任命权、Marcello财务职务、Sacchetti对品味的影响对象，以及“任何艺术家”保护引语的泛指对象。
+
+补入`cand-4479`对应的精确风格mention；不为跨段续写的Aldobrandini购藏句重复添加作品mention。将“every artist”的泛指训练断言清除误连Pietro的subject候选。复核p.39脚注1–4，分别回链注释段L176–179并确认注释statement反链正文；与p.38同号脚注L172–175区分。相应修正source speaker限定。未新增S6正式关系边。
+
+写后严格审计：12,275 statements、27,398 mentions、2,413条关系候选、2,400条标量两端点齐全、13条开放；`s2_missing=[]`、`errors=[]`。既存两条enrichment `source_ref`警告仍在。该轮仅推进第2章p.39；全书S2语义交接仍未完成，未进入S3–S6。

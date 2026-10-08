@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,397条mentions及12,274条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,386条，2,378条端点齐全，8条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,398条mentions及12,275条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,413条，2,400条端点齐全，13条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -112,3 +112,7 @@ p.326注1的首种小册子题名补入mention；第二、第三种题名跨度�
 p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本与未具名摹手、风景创作/新人搜寻、旅行/学者交往、赠歌/共同兴趣、诗作与评价、Poussin赴意影响、兄弟家族关系、群体接纳和Urban VIII语境现已按statement端点整理。Bernini付款与Ciampelli委托的同日并列保留为时间陈述；不把它提升为正式关系。未具名目标保持开放，摹手是否为Pietro留待S3。严格审计通过：12,274 statements、2,377条关系候选、2,369条标量端点齐全、8条开放；`s2_missing=[]`、`errors=[]`。以上是局部回补，全书S2关系与语义交接仍未完成。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
 
 第二章另补标4条枢机任命、3条家族资产/领地转让、1条纪念碑提案和1条婚配选择候选关系；保留提议未执行、选作新娘不等于已婚、集体买方/卖方未具体化等限定。当前严格审计为12,274 statements、2,386条关系候选、2,378条两端齐全、8条开放；`s2_missing=[]`、`errors=[]`。全书S2语义交接仍未完成。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章p.39关系候选、脚注回链与提及修订（2026-10-08）
+
+复核p.39（`02_CHP-2_sec_ii:l80-89`）后补标并拆分关系断言：本段现有27条关系候选，其中5条因目标、职务或群体端点未明确而保持开放。补录风格比较短语的精确mention，修正一条泛指所有艺术家的断言误连Pietro候选，并将p.39脚注1–4与L176–179注释statement双向链接；p.38同号脚注仍指向L172–175。保留跨段购藏句，不生成正式关系边。严格阶段审计：12,275 statements、27,398 mentions、2,413条关系候选、2,400条端点齐全、13条开放；`s2_missing=[]`、`errors=[]`。全书S2语义交接仍未完成。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
