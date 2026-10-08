@@ -1703,3 +1703,15 @@ Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内�
 ## 第八章p.224书目指称消歧（2026-10-08）
 
 “Bologna (Plate 209)”与书目p.416 entry 7（Ferdinando Bologna, Francesco Solimena, Napoli 1958）对应；本书自身Plate 33a列出Solimena的Dido画，说明209为该被引书的图版。statement已互链书目记录，内部citation pending关闭。cand-7759与cand-7348仍分开，交S3比对；被引书未独立查阅，replica具体实物仍未识别。Scholz-Forni collection的类型待定保留。
+
+## 全书书内交叉引用目标段复核（2026-10-08）
+
+关闭三条已到达目标材料的旧待处理标记：p.251注1→p.268注5 statement；书目L66 Andrés指引→L578 Harris/Andrés条目；书目L638 Jaffé指引→L1276–1277 Wittkower/Jaffé条目。交接表保留候选身份比较和“原引出版物未独立查阅”的限定。候选来源锚点按严格审计的coverage行坐标逐条复核，7,562条body-mention引用均有效。
+
+## 第三章p.74–75句子续页状态复核（2026-10-08）
+
+旧`migration_status=partial`与已完成的coverage、后段续接链接不一致，现已以显式statement ID闭合前后两段，并限定时间范围；没有新增或删除statement、mention或候选。
+
+## 第四章脚注迁移措辞一致性复核（2026-10-08）
+
+18条已建立脚注statement外键的正文记录，其qualifications已与当前linked状态一致；脚注源文及被引出版物未因措辞修订而被表述为独立核验。

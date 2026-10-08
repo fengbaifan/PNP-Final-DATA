@@ -7465,3 +7465,19 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 连接正文候选`cand-7759`到书目statement `st-chp21-bib-l207-241-entry-07`，其object为已有书目候选`cand-7348`。候选表暂将cand-7759的规范显示名更新为该书名，并分别在cand-7348/cand-7759 detail中说明：书内引文身份已可解析，但两个candidate ID在S2保持分立，S3按same/new等规则作身份裁决。更新`st-chp8-p224-replica-publication-report`的claim/qualification，添加`linked_bibliography_statement_ids`、`bibliographic_identity_pending=false`及一条cand-7759与cand-7348的S3 identity question；更新replica cand-7760的detail，保留其为Haskell报告的另一件作品且具体实物/日期未明。
 
 没有独立阅读Bologna专著，故仍将版次内容视为Haskell转述；Scholz-Forni collection的类型待定标记保持true，未臆测馆藏机构或强制类型。全书identity questions现为16条statement、25个问题、20个不同候选ID，均待S3而非S2合并。
+
+## S2内部交叉引用与候选来源锚点收口（2026-10-08）
+
+复核限定语中的仍待解析状态，并以已完成的目标段落关闭三条书内路径。第九章p.251注1的“See p.268, note 5”现链接至p.268合并注释段`chp-9:09_CHP-9_sec_ii:l85-127` L89的statement `st-chp9-p268-n05`；该statement只记录注释的引用链，档案引文另有statement，未声称独立查阅。
+
+书目L66的Andrés作者指引现链接至L578书目statement `st-chp21-bib-l577-614-entry-01`；L638 Jaffé指引现链接至L1276–1277书目statement `st-chp21-bib-l1261-1299-entry-09`。两者均已按页图完成目标条目处理。此处只关闭书内书目路径；候选人物/出版物身份对齐仍留S3，出版物内容未独立查阅。
+
+另按`audit_tables.py`实际覆盖行契约复核7,562条`candidate_origin=body-mention`来源引用：全部指向reviewed coverage中的有效source line，悬空或越出覆盖区为0。第一章的少数行号不能用分节文件的物理行界作替代校验；正式coverage坐标审计通过，未改写候选锚点。
+
+## 第三章p.74–75跨页句续接收口（2026-10-08）
+
+复核`03_CHP-3_sec_ii.md` L123与L126：p.74正文以“even then it was half unfinished and”结束，p.75续为“for another full generation the temple ... lay white and bare”。后续statement `st-chp3-secii-l125-135-jesuit-bare`已通过`continuation_of`指回L123，coverage也早已记为L125–126续接完成；前段statement仍残留的`migration_status=partial`因此属于过时状态。本次将其改为显式`continuation_statement_id`链接并去除旧partial状态，限定“another full generation”只修饰白而未装饰的状态，不误读为半完工持续一整代。
+
+## 第四章已链接脚注的旧迁移措辞清理（2026-10-08）
+
+对第4章18条statement的qualifications逐条检查其`footnote_refs`：18条均已有存在的`note_statement_id`且`status=linked`，但文本仍称注释“待迁移/待链接”。现将这些过时工作状态改为准确的“已转录并链接”或相应出处限定；保留原书报告层、未独立查阅和未决身份/对象范围，不改候选、提及、statement锚点或关系判断。另3条虽有脚注引用，但措辞本来已表达S2候选或“按引文链接、未独立核验”，故保持不变。
