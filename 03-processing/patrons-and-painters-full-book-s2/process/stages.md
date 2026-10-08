@@ -7368,3 +7368,15 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp19_candidate_surface_prompt_reconciliation.py`默认dry-run，apply前核验提示全集、来源跨度和表前态，并保留未修改JSONL原始行；写前恢复副本位于`C:\Users\001\AppData\Local\Temp\pnp-s2-chp19-surface-mg_ffs0i`。脚本SHA-256=`bc17deba8576893445111708b939e827f73d96cd6c7610120249b72ef407d448`。写后表SHA-256：候选`07dfe219540afe7dbf3b17a73b6cafb32fcc2724b41ed0576c6fa39efa5ab0a0`；mentions `414fc34bbe5819c54bb83d2f55cdd3c2f52eca0b9e69224f8db9c0112b677112`；statements `29cefb618b838db67dd8fe97cf07c3e11b5f203eb8d2146672a7632e9374a4ad`。
 
 写后严格阶段审计通过：1,019 KU、11,495 candidates、27,391 mentions、12,263 statements；832段中678 complete、154有理由排除、0 queued/partial；`s2_missing=[]`、`errors=[]`。关系候选2,331条，2,325条端点齐全、6条开放；两条既存enrichment `source_ref`警告未变。下一游标为第二版后记：20个reviewed段上有24条候选表面提示待裁决；全书S2交接审计仍未完成。
+
+## 第二版后记候选表面提示裁决（2026-10-08）
+
+在第二版后记20个reviewed/complete段上复核定位器给出的24条提示。逐项对照规范段原文、上下文、索引子项、既有mentions与statements后，4条需要写入、20条为普通词义、无界类别、索引误配或已由现有关系覆盖而不写。提示定位仅用于复核，不代表实体召回完整。
+
+写入项为：p.407复用Schulenburg图片收藏候选cand-9622，补1条“his collection”提及；p.409新增未量化的Francesco Algarotti肖像组cand-11517，补1条提及并关联既有statement；p.410新增类型未定的Girolamo Manfrin分散艺术收藏cand-11518，补2条提及。将Manfrin收藏散佚与Tempesta的statement主体由Manfrin本人改为收藏对象；另在相关statement中登记收藏候选引用，保留Manfrin人物主体用于其财富来源及Fontana文章断言。共新增2个候选、4条mentions、修订4条statements；没有新增S6正式关系。
+
+其余不写项包括泛称subject、character、drawings、picture subject、altarpieces、Jesuit churches、poetry等未形成独立边界的普通用语或集合；p.401 Bernini赞助关系已有正式关系候选和参与者，不重复建实体。写后扫描剩余20条提示，与逐项no-write清单一致。
+
+受控脚本`chp20_candidate_surface_prompt_reconciliation.py`默认只读，`--apply`前锁定输入哈希、24条提示全集和精确来源跨度，并制作恢复副本。脚本SHA-256=`ac8f331c44a86409746ec2b021a1f9dee18dd4fdb54dbe79abe99aab97dfdb87`；恢复副本位于`C:\Users\001\AppData\Local\Temp\pnp-s2-chp20-surface-656wjkeu`。本次写后表SHA-256：候选`840bf02d9d6e2cae7bdf306ad41287d03c016d45a369ee2f3946e4345dacb13e`；mentions `8f9adcba622caadc6fb5259c57c21d84290b5d24223aebfcebd2cc5ae71b4f79`；statements `5f78c091bbf4911c7f476aea7005d8dd569bbdfed8b531b227912001ce27b0c8`。另在交接审计中补齐两条既存第1章statement的claim字段，并恢复两份CSV原有UTF-8 BOM。
+
+严格阶段审计通过：1,019 KU、11,497 candidates、27,395 mentions、12,263 statements；832段中678 complete、154有理由排除、0 queued/partial；`s2_missing=[]`、`errors=[]`。6条关系候选仍开放，enrichment `source_ref`警告仍为2条。第二版后记提示复核已完成；全书S2交接审计继续进行，尚未进入S3。详见[第二版后记结果](../results/chp-20.md)。

@@ -4,4 +4,4 @@
 
 候选表面复核在2个reviewed段得到2条提示：`temperament`是普通性格词，`Academy`是一般机构类别，均与误中的索引子项不符；无候选、mention或statement写入。定位器只提供复核线索，不证明实体召回完整。
 
-全书当前数据见[全书S2结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。第十九章候选表面提示裁决已完成；当前书序游标为第二版后记，20个reviewed段有24条候选表面提示待裁决。全书S2交接审计仍进行中，尚未进入S3。
+全书当前数据见[全书S2结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。第十九章与第二版后记的候选表面提示裁决均已完成；当前工作转入全书S2交接审计，尚未进入S3。逐项记录见[第十九章结果](chp-19.md)、[第二版后记结果](chp-20.md)及[过程记录](../process/stages.md)。
