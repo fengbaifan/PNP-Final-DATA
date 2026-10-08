@@ -18,7 +18,7 @@ p.446索引种子漏项已核实并回补：印本有Bentveugels、Bergamo主词
 
 索引p.474页标与两栏已处理，当前无queued段；书目段已全部处理，L1301结构性“Footnotes”标签不作为条目内容。已按书序审读和登记书目前置选择说明L3–45及条目段L47–85、L87–127、L129–163、L165–205、L207–241、L243–293、L295–334、L336–374、L376–418、L420–459、L461–496、L498–536、L538–575、L577–614、L616–656、L658–699、L701–754、L756–806、L808–844、L846–881、L883–926、L928–983、L985–1020和L1022–1057、L1059–1100、L1102–1139、L1141–1177、L1179–1218、L1220–1259、L1261–1299。书目末尾七处错位OCR已链接到既有书目statement，不重复登记出版物；当前待补链接包括L616–656指向L1276的Jaffé目标页图复核；L658–699的Levey 1955页码差异与Lavagnino未标卷次页码、L701–754与L756–806的短引/版本身份问题及L846–881的Moschini/Meschini旧引文匹配均留待S3。L820作者指引的L861目标已核实，Molinier身份仍未确定。L883–926的Nuti/Pasquali、Ottonelli两版及Palomino定位保留S3比较入口；L928–983的Pascoli、Pastor、Peiresc、Pellegrini和Pollak卷次／版本定位仍待S3比较；L985–1020登记29条出版物记录，复用24个archive候选并补全其中19个，新建5个；p.405两条Puppi引文按页码范围映射到不同书目条目。L1022–1057登记25条出版物并复用22个archive候选，新建3个；L1049的Rinehart “See also”指向已处理的L596–597 Haskell/Rinehart条目；L1059–1100登记26条出版物，复用23个既有出版物archive候选并新增3个；p.403的Rosenberg引文补全至相符书目项，p.404 Rudolph两部分与独立1973年引文关系仍待S3。L1102–1139登记25条出版物，21条复用已有archive候选、4条新建；L1141–1177登记30条书目记录，复用25个archive候选、新增5个；L1179–1218登记28条书目记录，复用20个archive候选并新增8个；L1220–1259登记28条书目记录，补全21个archive候选、新增4个；L1261–1299登记23条书目记录，补完跨页Wilhelm条目并新增4个archive候选。完成页图校读和OCR订正，跨章短引、作者映射及Wynne-Rosenberg地点差异保留S3比较。Stuffmann页码差异已记过程，保留本书印字。页图校读及OCR补项依据见逐段过程记录；书目和索引按材料性质处理，不当作正文断言。
 
-当前S2表有11,452个候选、27,011条提及和12,254条statement。第十四章p.353将Flora标题两个断开的提及合并为一条完整跨度（净减1条mention）；第十章p.276、十五章及第八至十九章交接审计按原文端点拆分复合statement。
+当前S2表有11,464个候选、27,151条提及和12,255条statement。第十四章p.353将Flora标题两个断开的提及合并为一条完整跨度（净减1条mention）；第十章p.276、十五章及第八至十九章交接审计按原文端点拆分复合statement。
 
 
 ## 当前游标
@@ -49,7 +49,7 @@ p.446索引种子漏项已核实并回补：印本有Bentveugels、Bergamo主词
 
 ## 当前验证
 
-`python -X utf8 scripts/audit_tables.py --strict-stage`：`s2_missing=[]`、`errors=[]`；全库1,019个KU、11,457个候选、2,934个索引候选行、832段、27,117条提及和12,255条statement。当前覆盖为678 complete、154有理由排除、0 queued、0 partial。2,328条关系候选中2,322条端点齐全、6条仍开放（第7章1、第8章3、第14章1、第20章1）；全库脚注statement引用专项检查未发现失效引用。审计仍提示两条既存enrichment来源引用无法从卡片source清单解析（`enr-06678`、`enr-06937`）；结构闭合不代表实体召回率、准确率或语义质量已独立验收。
+`python -X utf8 scripts/audit_tables.py --strict-stage`：`s2_missing=[]`、`errors=[]`；全库1,019个KU、11,464个候选、2,934个索引候选行、832段、27,151条提及和12,255条statement。当前覆盖为678 complete、154有理由排除、0 queued、0 partial。2,328条关系候选中2,322条端点齐全、6条仍开放（第7章1、第8章3、第14章1、第20章1）；全库脚注statement引用专项检查未发现失效引用。审计仍提示两条既存enrichment来源引用无法从卡片source清单解析（`enr-06678`、`enr-06937`）；结构闭合不代表实体召回率、准确率或语义质量已独立验收。
 
 第十九章候选表面扫描覆盖12个已审段，仍只提示一处`modello`词面；该词位于p.389且已判为异义。第20章候选表面扫描覆盖19个已审段，未覆盖跨度为0；此类启发式扫描只提示已登记名称，不能证明召回率或语义准确性。
 
@@ -65,11 +65,13 @@ p.446索引种子漏项已核实并回补：印本有Bentveugels、Bergamo主词
 
 第四章已审37段上的54条候选表面提示完成逐项裁决：23条准确映射并新增23条mentions，31条按泛称或普通话题不写入；写后定位器剩余31条，与no-write集合完全一致。复用Fondo Orsini、Cassiano收藏、Roman antiquities图稿组、St Romualdo、Altieri palace等已有候选，未新增候选或statement；三项collection候选保持类型待定。严格阶段审计通过，当前全库27,117条mentions。第五章提示复核结果见下文。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。提示数不代表遗漏数或语义验收。
 
-第五章已审35段上的69条提示完成逐项裁决：25条有据映射、44条按泛称/普通用法/索引错配不写入；新增7个候选、26条mentions，并为10条既有statement补充候选链接。写后定位器剩余44条，逐项吻合no-write裁决。当前全库1,019 KU、11,464 candidates、27,143 mentions、12,255 statements；严格阶段审计`s2_missing=[]`、`errors=[]`，同步闭合结构健康130/130。两条既存enrichment source_ref警告不变。下一步按书序处理第六章：28个已审段上提示23条。详细依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)；提示数不是遗漏数或语义验收。
+第五章已审35段上的69条提示完成逐项裁决：25条有据映射、44条按泛称/普通用法/索引错配不写入；新增7个候选、26条mentions，并为10条既有statement补充候选链接。写后定位器剩余44条，逐项吻合no-write裁决。完成时全库1,019 KU、11,464 candidates、27,143 mentions、12,255 statements；严格阶段审计`s2_missing=[]`、`errors=[]`，同步闭合结构健康130/130。两条既存enrichment source_ref警告不变。详细依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)；提示数不是遗漏数或语义验收。
+
+第六章28个已审段上的23条提示完成逐项裁决：8条映射到已有Rome、Antonio degli Effetti collection、Queen Christina picture gallery、Foreign travellers、Renaissance及Ottoboni theatre候选，新增8条mentions；15条按普通类别、比喻或索引错配不写入，未新增候选。写后定位器剩余15条，与计划中的no-write跨度完全一致。修正p.164注3关联statement中已过时的`footnote pending`限定，并补齐p.156注2收藏候选与p.164注3 theatre候选的statement提及链接。严格阶段审计确认`s2_missing=[]`、`errors=[]`，当前全库1,019 KU、11,464 candidates、27,151 mentions、12,255 statements；两条既存enrichment来源引用警告仍在。下一步按书序处理第七章：47个已审段上提示40条。过程、逐段裁决及恢复副本见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
 
 ## 后续工作顺序
 
-1. **继续全书S2候选召回审查。** 书前16处、第一章64处、第二章75处、第三章40处、第四章54处和第五章69处提示均已逐项裁决；对应写后提示分别保留14、37、34、26、31、44处已裁定的未映射项。下一步按书序处理第六章当前23处提示，再继续其余章节、结论、附录、后记、书目和索引；提示数不是遗漏数，不按字符串批量写入。
+1. **继续全书S2候选召回审查。** 书前16处及第一至六章64、75、40、54、69、23处提示均已逐项裁决；对应写后提示保留14、37、34、26、31、44、15处已裁定的未映射项。下一步按书序处理第七章当前40处提示，再继续其余章节、结论、附录、后记、书目和索引；提示数不是遗漏数，不按字符串批量写入。
 2. **完成全书S2总交接审计。** 逐项核对规范来源与排除副本、正文/脚注/图版覆盖及续注回链、具名对象和候选外键、statement锚点、限定语和关系端点；复核六条有理由保留的开放关系端点，并作有范围说明的语义抽样。机械覆盖通过不替代语义验收。S2有充分交接依据后再启动S3；此前不推进S3–S6、知识发现或页面工作。
 3. **S3身份对齐。** 当前alignment有335条：185 same、146 undecided、4 excluded；待S2交接后再对届时全部候选裁决same/new/conflict/excluded/undecided，只处理身份并记录证据。
 4. **S4 KU登记。** 当前manifest有1,019个KU。按S3结果创建或复用KU，以`ku-manifest.csv`作为唯一计数入口，并核对遗留`accepted.yml`与卡片元数据的对应关系。

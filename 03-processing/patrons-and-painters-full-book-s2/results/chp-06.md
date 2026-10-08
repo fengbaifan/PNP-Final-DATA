@@ -4,6 +4,14 @@
 
 下文逐段处理说明、全书累计数及“下一段”是形成时的历史进度快照；当前覆盖状态以覆盖账本和全书结果文件为准。
 
+## 第六章候选表面提示复核（2026-10-08）
+
+在28个已审段上复核定位器给出的23条提示。8条补录为精确mentions：Rome三处→cand-3126；p.156注2的“collection”→Antonio degli Effetti类型待定收藏cand-6389；Christina的“collection”→既有图片收藏cand-5565；“foreign travellers”→cand-3562；“Renaissance”→cand-3578；p.164注3“theatre”→cand-6545。未新增候选。其余15条按原文语义不写入：普通subject 2、drawings类别、泛指palace、建筑“character”、temperament、financial difficulties、一般churches 2、Rosa比喻中的garden、Gaulli portraits类别、诗歌类别、crop prices及Ottoboni作曲活动。Rome三条均保留原提示“in Rome”，实际mention跨度只取城市名。
+
+受控脚本`chp6_candidate_surface_prompt_reconciliation.py`锁定候选、mentions、statements、segments、coverage、定位器及相关S0分节，默认dry-run，核验23条提示分区、精确原文跨度、候选外键、既有跨度不重叠及statement前态后再apply。写入8条mentions；未增删candidate、statement、coverage或relation行。将p.156注2 statement的`mentioned_candidate_ids`补入cand-6389、p.164注3 citation statement补入cand-6545；修正p.164 Juvarra statement中已失效的“footnote 3 remains pending”限定。plan SHA-256=`db13bb71a4907ad5069cd729caa9c27d6f1069aca61dcb63a3a5475781451513`，script SHA-256=`cfbfbb7b6d4754384d2d3b683c1fa4ccaf26536e6f8f6735b575fe7d327ed5a8`。mentions SHA-256从`c43354eddb206f135ba3b638d4a4949e74dae129c4bbeb30158daf2a219c7541`变为`52a5b14c3ca39e3127ed89a491452f8043cb6a9b9092d19c6898241f80d38b58`；statements从`5999d2851d45c5b0ab2157478d8926d0ca4fc5aa1abcbcae164aab2ebdd9c1a6`变为`c1ba516072b1a54969c1de7a6763afe22ff984bca1469581ee49acdfa007cec3`。恢复副本保存在`%TEMP%\pnp-s2-chp6-surface-prompts-20261008-084741\`。写后定位器剩余15条，与全部no-write签名相同。
+
+`python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,464 candidates、27,151 mentions、12,255 statements；`s2_missing=[]`、`errors=[]`，覆盖678 complete、154有理由排除、0 queued、0 partial。两条既存enrichment `source_ref`警告不变。第七章现有候选表面扫描为47个已审段、40条提示，均待按书序裁决；定位器提示不代表召回率或语义验收。
+
 第六章旧阅读稿与草稿只作语义核漏背景。当前有效处理逐段对应规范源；脚注、跨页句及扫描校勘按印刷页序登记。第147–156页已处理范围内的跨页句均已闭合；p157 Antonio目录句由L56闭合，p158 Marucelli引介由L13闭合，Bellori《Lives》句由p159 L29闭合。
 
 第160页正文段l40-50已迁移：新增19个候选；正文75条提及、20条原书断言。记录Bellori对竞争艺术趣味的反对及Haskell的限定解释、Maratta与古典理想/高巴洛克比较、Gaulli Gesù壁画的评价和引述层级、外地艺术家在罗马的处境、批评话语、Jacomo di Castro 1670年引文、Bellori任职、Christina经历与收藏及Haskell对其赞助的评价。校记见全书S2过程记录；S0原文未改。p159 L38句由p160 L41闭合；p160 L50末句续至p161 L53。

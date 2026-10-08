@@ -6984,3 +6984,26 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp5_candidate_surface_prompt_reconciliation.py`锁定候选、mentions、statements、segments、coverage、定位器与四个本章S0文件；默认dry-run，核对69条提示精确分区、全部新提及原文跨度、现有外键、无重叠及10个statement更新后才允许apply。plan SHA-256=`3b6fbd6c056f0e68b09e3a97c7805f5c6456fadf5474c0b804ce2c53f17158e0`；script SHA-256=`bc2ab260f674b692894aa91d403dc9151575c9e58a8ee3313d47bdc30475e90b`。写前→写后SHA-256：candidates `7261bd27b8ccf019aa417ff09fce2175d1eb834ad101bff0c62fe96475c29843`→`465463a534129239b1ec06ad0f2614cc8e553cd7639d3a1ce56911e33e06ae23`；mentions `6d3cfff1c47345f922f96673479928d0848072fc040ce5381866dc158e2ef3be`→`c43354eddb206f135ba3b638d4a4949e74dae129c4bbeb30158daf2a219c7541`；statements `66cfa79868e5401e48423a6a353c6fc4da4242e0d400f0a77433a490e3568b3d`→`5999d2851d45c5b0ab2157478d8926d0ca4fc5aa1abcbcae164aab2ebdd9c1a6`。恢复副本在`%TEMP%\pnp-s2-chp5-surface-prompts-20261008-083335\`。写后重扫44条提示，与预定no-write集合完全一致。
 
 `python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,464 candidates、27,143 mentions、12,255 statements；`s2_missing=[]`、`errors=[]`；832段中678 complete、154有理由排除、0 queued、0 partial。`python -X utf8 scripts/run_sync_closure.py`通过，structural health 130/130。2,328条关系候选中2,322条端点齐全、6条开放，未受本批修改影响；既存`enr-06678`、`enr-06937` source_ref警告仍在。第六章按序下一步：定位器在28个已审段上提示23处。全书S2语义交接仍未完成。
+
+## 第六章候选表面提示全量裁决（2026-10-08）
+
+在第六章28个已审段上重跑`audit_s2_candidate_surfaces.py`：10,489个已登记类型词形产生23条提示。逐条回查对应S0原文、候选来源和相关statement后，8条补入mention，15条以具体词义和候选错配原因不写入；本轮未新建candidate。
+
+8条接受映射如下（偏移为段内零起始字符，右端不包含）：
+
+| 段与偏移 | 原提示 | 写入跨度 → candidate | 判断 |
+|---|---|---|---|
+| `chp-6:06_CHP-6_intro:l7-11@189` | `in Rome` | `Rome` → cand-3126 | 脚注讨论战争对罗马的影响；扫描器命中的“in Rome”索引子项属于不同人物/机构，准确对象是城市。|
+| `chp-6:06_CHP-6_sec_i:l120-157@1940` | `in Rome` | `Rome` → cand-3126 | 匿名Colonna目录的出版城市；只取城市跨度。|
+| `chp-6:06_CHP-6_sec_i:l120-157@2438` | `collection` | `collection` → cand-6389 | p.156注2“his collection”指Antonio degli Effetti的藏品；复用已存在的类型待定候选。注释还引用独立archive候选cand-5975；收藏边界及其与该库存手稿的精确关系继续未决。`st-chp6-notes-l157-p156-n2`加入cand-6389提及链接。|
+| `chp-6:06_CHP-6_sec_iv:l40-50@2681` | `collection` | `collection` → cand-5565 | 与第4章候选相同，为Christina在Palazzo Riario展示、据Haskell称由其父自布拉格掠得的图片收藏；维持身份待定。原statement已以cand-5565作object，无重复改写。|
+| `chp-6:06_CHP-6_sec_iv:l55-72@261` | `foreign travellers` | `foreign travellers` → cand-3562 | 与第1章的泛称行动者类别一致；本处说的是参观Studiolo的访客，不推定个人或具体人群同一。|
+| `chp-6:06_CHP-6_sec_iv:l55-72@1287` | `Renaissance` | `Renaissance` → cand-3578 | 同一宽泛历史/艺术时期术语。|
+| `chp-6:06_CHP-6_sec_v:l47-70@1217` | `theatre` | `theatre` → cand-6545 | p.164注3“this theatre”回指已由p.164正文引入的Ottoboni theatre；链接到既有场所候选，不与Cancelleria宫殿或舞台布景合并。`st-chp6-p164-n3-cite`加入cand-6545提及链接。|
+| `chp-6:06_CHP-6_sec_v:l47-70@2065` | `in Rome` | `Rome` → cand-3126 | Pallavicini赞助比较中的城市地点；只取城市跨度。|
+
+15条不写入按提示位置记录：`sec_i:l102-110@2328` subject为画作题材；`sec_i:l102-110@2811` drawings是一般媒材/作品类别，候选实际是Annibale Carracci索引子项；`sec_i:l13-24@2135` palace是未指明的惯常家族宫殿类别；`sec_i:l26-36@11` character描述建筑效果；`sec_i:l3-11@2243` temperament为普通性格词；`sec_i:l38-46@838` financial difficulties为Baratta、Ferrata及Pamfili一方的经济状态；`sec_i:l59-67@2310` churches是一般建筑清单；`sec_i:l59-67@2856` other churches未给名称或界限；`sec_i:l69-76@3185` garden用于Rosa放弃绘画的比喻；`sec_i:l91-100@2635` portraits是Gaulli作品类别，不是具体肖像或有界作品组，区别于同段另行计数的三十六名女性天花画组；`sec_iv:l55-72@2403` poetry是广泛文学门类；`sec_v:l14-19@656` prices是农产品一般市场指标；`sec_v:l28-33@1277` operatic librettos指Ottoboni的作曲活动，未给标题或有界文本组，且扫描器错中的是Pope Clement IX索引子项；`sec_v:l28-33@1827` character是普通品格评价；`sec_v:l42-45@143` subject是绘画题材。所有对应候选表面提示均在写后复扫中保留，作为已裁决no-write项，不再视作遗漏。
+
+受控脚本`chp6_candidate_surface_prompt_reconciliation.py`默认dry-run，哈希锁定候选、mentions、statements、segments、coverage、定位器以及第1、4、6章相关S0分节；写入前核对23条提示完整分区、mention与原文逐字一致、无现有跨度重叠、candidate外键和三条statement前态。plan SHA-256=`db13bb71a4907ad5069cd729caa9c27d6f1069aca61dcb63a3a5475781451513`，script SHA-256=`cfbfbb7b6d4754384d2d3b683c1fa4ccaf26536e6f8f6735b575fe7d327ed5a8`。应用前后candidate行数均为11,464；mentions从27,143增至27,151；statement行数12,255不变。除上述两条`mentioned_candidate_ids`补链外，还将`st-chp6-p164-v1-14`里“footnote 3 remains pending”改为注3实际状态：它给出Rava 1942的书目定位，但该作品未独立查阅。mentions SHA-256：`c43354eddb206f135ba3b638d4a4949e74dae129c4bbeb30158daf2a219c7541`→`52a5b14c3ca39e3127ed89a491452f8043cb6a9b9092d19c6898241f80d38b58`；statements SHA-256：`5999d2851d45c5b0ab2157478d8926d0ca4fc5aa1abcbcae164aab2ebdd9c1a6`→`c1ba516072b1a54969c1de7a6763afe22ff984bca1469581ee49acdfa007cec3`。恢复副本位于`%TEMP%\pnp-s2-chp6-surface-prompts-20261008-084741\`。
+
+写后扫描仍提示15条，签名与no-write列表完全一致；严格阶段审计`errors=[]`、`s2_missing=[]`，全书覆盖678 complete、154有理由排除、0 queued、0 partial；两条既存enrichment `source_ref`警告未改变。第七章47个已审段上现有提示40条，作为下一书序审查范围；候选表面扫描仍只提供定位线索，不构成召回率或语义验收。
