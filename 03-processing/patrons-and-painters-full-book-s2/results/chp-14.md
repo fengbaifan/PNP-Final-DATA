@@ -121,3 +121,10 @@ p.353现35条statement、75条mention和20条关系候选（19条端点齐全、
 语义上分开Triumph of Venice作品与Batoni作者、Algarotti观看作品的宫殿语境和时间；区分Cleopatra事件与拟议作品；把Pantheon委托、拟由Pannini作画及Bonomo保管请求分别记录，不把请求写成已完成。Tiepolo壁画与modello、Algarotti对Pannini的评价、Pannini/Canaletto对建筑capricci的熟悉程度及Canaletto拟议构图分别拆分。本页注释中的书信作者/收件人/内容及两件Lazzarini作品的互相冲突归属保持各自范围；`his rooms`、作品身份及p.315 Rialto视图与本页视图是否同一均未猜定。没有新建KU或正式关系。
 
 全库严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。当前S2关系候选2,609条，2,588条端点齐全、21条开放。下一项按书序复核p.358 `chp-14:14_CHP-14_intro:l118-124`，全书S2未交接。
+
+
+## 第十四章p.358语义复审（2026-10-09）
+
+对照印本物理页12复核正文`l118-124`和注1–6（L208–213），核对p.357/p.359续接。36条statement、52条mention及17个候选均已复核；没有新增/删除数据行。校读只记S2，未改来源与原始引文：L123 `ofltalian`→`of Italian`；注4 L211 `VIH`→`VIII`；注5 L212 OCR编号`6`→印本5、`roo`→`100`；注6 L213 `in`→`111`。页图确认注2 `[I pens]ieri`及`[ac]quedotti`中的方括号为印本内容，原样保留。
+
+语义复核维持“负责这种绘画类型”的说法是书信出版后逐渐形成的看法，不写成Algarotti发明画种；审美评价、1741年未具名佛兰德画家与其选题、建筑幻想和古典建筑结构、Pesci/Tesi合作与草图指导、致Pesci书信比喻及艺术家参考分别记录。注2手稿、注3列举的书信/手稿/画册及各处被引页码均未独立查阅。p.357 Canaletto方案的描述与p.359 L127对建筑画家、Tiepolo补画人物的续文保持跨页链接。全库严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`，全书S2未交接。

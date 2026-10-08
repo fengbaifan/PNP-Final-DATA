@@ -1795,3 +1795,8 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第十四章p.357语义复审（2026-10-09）
 
 对照印本复审p.357正文及脚注，修正正文和脚注标记的OCR误识；保留原始S0。新增2个候选、4条mention和34条statement，修订18条本页statement及1条p.358跨页statement。修正人物、作品、地点映射，拆分委托、作者、观看、保管请求与计划构图；36条关系候选端点齐全，正式关系表未改。当前全库11,500 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核p.358 `chp-14:14_CHP-14_intro:l118-124`。
+
+
+## 第十四章p.358语义复审（2026-10-09）
+
+复核36条statement、52条mention和17个既有候选；没有数据行增删。对照物理页12，为4条statement记录5项S2校读：L123 `ofltalian`→`of Italian`，注4 `VIH`→`VIII`，注5编号`6`→`5`及`roo`→`100`，注6 `in`→`111`。正文关于绘画类型的归因仍按“观念逐渐形成”记录；注2印本方括号保留。p.357/p.359跨页引用及注1–6链接通过复核。当前全库11,500 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`。

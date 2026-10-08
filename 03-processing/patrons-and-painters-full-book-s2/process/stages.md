@@ -7708,3 +7708,14 @@ p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全
 全页现有58条statement、79条mentions和36条关系候选，36/36端点完整。新增2个候选（Canaletto受委托绘制的Grand Canal视图、该构图中的Rialto要素）及4条mentions；新增34条statement，修订18条本页statement，并同步修订1条p.358跨页statement。修正作品、作者、地点和人物mention映射；将Batoni作品观看、Algarotti对Pannini的评价、Tiepolo壁画与modello、Bonomo代为保管的请求、拟议的Canaletto建筑视图及脚注书信拆为各自有据断言和关系候选。未将拟议作品写成已完成，也未将请求写成已发生；`his rooms`、作品身份冲突及与既有Rialto视图的对应仍待决。没有新建KU或正式关系。
 
 全库当前为1,019 KU、11,500 candidates、27,417 mentions、12,392 statements、832 segments；S2关系候选2,609条，其中2,588条端点完整、21条保持开放。严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。p.358 `chp-14:14_CHP-14_intro:l118-124`是下一项按书序复审内容；全书S2仍未交接。
+
+
+## 第十四章p.358语义复审（2026-10-09）
+
+复审正文`chp-14:14_CHP-14_intro:l118-124`及注1–6（L208–213），对照`CHP-14.pdf`物理页12；核对p.357末句和p.359续句。原有36条statement、52条mentions及17个本页候选逐项复核；本次不新增/删除候选、mention或statement，只为4条statement补入印本校读。页图确认注5的印本编号为5而OCR误作6。
+
+逐段复核：L119承接Canaletto方案，记录书信刊行后“Algarotti负责这种绘画类型”的观念逐渐形成，不把它扩大成Haskell对Algarotti发明该画种的确认；随后分别记录Haskell对Algarotti Palladian建筑观、“frivolous”倾向、与Winckelmann改革激情的对比，以及对热那亚、罗马和威尼斯城市景观的审美比较。L120保留Algarotti以picturesque标准评画的概括，并记1741年在柏林雇用一名未具名、已在当地居住多年的Flemish artist。L121记录委托题材及其罗马装束人物、返回意大利后对建筑幻想的兴趣、古典建筑结构要求、1756年迁居Bologna后与Prospero Pesci和Mauro Tesi相遇并雇用两人、以粗略草图指导作画、古典建筑与奇想背景的构图、考古书籍提供的细部指示及picturesque效果。L122–123记录致Pesci信中的作曲家/咏者类比、色调变化指示、对Teniers、Wouwermans、Vernet和Pannini的推荐，以及意大利素描与佛兰德趣味的结合；再将该结合与Piranesi作品的相似性和Algarotti对Piranesi的赞赏分别保留。L124关于建筑画家想象力限度的句子以逗号续至p.359 L127，仍按跨页statement互链，不在本页提前闭合。
+
+注1记录Blainville不喜欢这种混合、但承认有人觉得有吸引力；注2是1741年柏林信及Treviso MSS.1256的书内引文，未据此选择手稿保管机构，也未独立查阅信件。页图确认`[I pens]ieri`与`[ac]quedotti`方括号确实见于印本，故原样保留。注3记录Haskell所指Opere书信、MSS. Hercolani 207和Mauro Tesi画册导言，不表示这些材料已独立核读。注4和注5分别定位Pesci信Opere VIII第95、100页；注6定位第104、109、111页。
+
+印本校读只记S2，不改S0或`original_quote`：L123 `ofltalian`→`of Italian`；注4 L211 `VIH`→`VIII`；注5 L212 OCR注号`6`→印本5、`roo`→`100`；注6 L213 `in`→`111`。注5与p.357同一Pesci书信的跨页定位保持链接；p.357方案信件数、体裁范围及`this type`所指边界继续保留原文的不确定性。全库候选、mention和statement数量不变；严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复审p.359 `chp-14:14_CHP-14_intro:l126-137`；全书S2尚未交接。
