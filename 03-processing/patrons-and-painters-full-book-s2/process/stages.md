@@ -7043,3 +7043,166 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp7_candidate_surface_prompt_reconciliation.py`默认dry-run，锁定candidate/mention/statement表、segments、coverage、定位器、taxonomy及第七章两份规范S0分节。apply前核验40条提示完整分区、源跨度、候选外键、候选号顺序、mention不重叠和12条statement前态；写后定位器复扫与no-write清单签名完全相同。plan SHA-256=`8c883cadec221797424188f73cf9cfb11dd31c1b03f64a7185b308ff9e864067`；script SHA-256=`1bd79777ff3edebd7f3f181230dd183d75eae5b61d98472e7c4432eaa2266e98`。写前→写后SHA-256：candidates `465463a534129239b1ec06ad0f2614cc8e553cd7639d3a1ce56911e33e06ae23`→`2a68ced91ee0662e1e3515769eef7ac3d2981d3d00f5773613891a1e4acd22e5`；mentions `52a5b14c3ca39e3127ed89a491452f8043cb6a9b9092d19c6898241f80d38b58`→`29a2d397cd6c1b32cf90b13d56ab5a68f15ba0011f01d23374f42de4394eea55`；statements `c1ba516072b1a54969c1de7a6763afe22ff984bca1469581ee49acdfa007cec3`→`a4a942d1f71c7735f03289129503d899683fcd84f9c8011e757e70855d67ed7e`。恢复副本位于`%TEMP%\pnp-s2-chp7-surface-prompts-20261008-090555\`。
 
 `python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,467 candidates、27,168 mentions、12,255 statements；`s2_missing=[]`、`errors=[]`；覆盖678 reviewed/complete、154有理由排除、0 queued、0 partial。原有两条enrichment `source_ref`警告未变。第八章当前提示扫描覆盖56个reviewed段、112条提示，作为下一书序处理范围；候选表面提示仍不等于遗漏或语义验收。
+
+## 第八章候选表面提示全量裁决（2026-10-08）
+
+在第八章56个已审段上复跑定位器：10,491个既有类型词形产生111条启发式提示。逐条回到规范S0段、候选和statement核对后，47条精确映射，64条按具体词义、普通用法、泛称或索引错配不写入。此扫描只寻找既有类型候选名称的未覆盖词面，不发现新实体，也不构成召回率或语义准确性证明。写后扫描显示10,494个类型词形、59条剩余提示；受控脚本确认其与64条no-write清单的嵌套/重叠残余完全相符（5条提示被已采纳的更大跨度遮盖）。
+
+新增4个开放候选：
+
+| candidate | 名称 | 建议类型 | 来源 | 边界与判断 |
+|---|---|---|---|---|
+| `cand-11489` | Gaspar Roomer's unidentified first palace on Via Monteoliveto | `place` | `chp-8:08_CHP-8_sec_i:l23-28#L25` | Haskell distinguishes the palace in which Roomer first entertained Neapolitan nobility from the later Palazzo della Stella and says it was on Via Monteoliveto. The building's name and independent identity are not supplied; keep it distinct from the street and later residence. |
+| `cand-11490` | Sir William Hamilton's collection including the portrait later in the Metropolitan Museum (scope unresolved) | `待定` | `chp-8:08_CHP-8_sec_ii:l126-138#L137` | Haskell says the portrait then in the Metropolitan Museum had been in Sir William Hamilton's collection in Naples by 1798. The collection has no supplied formal name or boundary; keep it type-unresolved and distinct from the portrait and Hamilton himself. |
+| `cand-11491` | Drawings submitted by Antonio Zanchi for committee approval (intended picture unspecified) | `work` | `chp-8:08_CHP-8_sec_ii:l78-84#L82` | Haskell says Zanchi received no payment for submitting drawings and describes conditional approval and execution terms. Their title, number, survival, and intended picture are not established; do not conflate them with Moses striking the Rock or another proposed painting. |
+| `cand-11492` | Unidentified palace used by the Del Rosso family (location unspecified) | `place` | `chp-8:08_CHP-8_sec_i_notes_p214_visual-transcription:l1-4#L1` | Haskell's p.214 note says the Del Rosso family summoned Giacomo Antonio Boni to decorate rooms in their palace with mythological frescoes. The building's name and location are not supplied; keep the place distinct from the fresco group and the family. |
+
+47条接受映射（偏移为段内零起始字符，S0行为对应源文件行）：
+
+| # | 精确位置 | 提示跨度 → 写入跨度 | candidate | 判断 |
+|---:|---|---|---|---|
+| 2 | `chp-8:08_CHP-8_sec_i:l108-118@2390` (S0行115) | `Florence` | `cand-1041`（Florence） | Direct city reference in the p.213 discussion; reuse the in-book Florence candidate. |
+| 13 | `chp-8:08_CHP-8_sec_i:l23-28@761` (S0行25) | `palace → his palace` | `cand-11489`（Gaspar Roomer's unidentified first palace on Via Monteoliveto） | Roomer's first, unnamed Naples residence, distinguished from Via Monteoliveto as a street and from the later Palazzo della Stella. |
+| 15 | `chp-8:08_CHP-8_sec_i:l23-28@1889` (S0行26) | `Naples` | `cand-1722`（Naples） | Naples is named as the city whose painters could satisfy Roomer's taste. |
+| 16 | `chp-8:08_CHP-8_sec_i:l3-12@383` (S0行4) | `aristocracy` | `cand-1132`（Genoa） | The Genoese mercantile aristocracy is the stated social group; use the existing term candidate. |
+| 17 | `chp-8:08_CHP-8_sec_i:l3-12@774` (S0行6) | `old masters` | `cand-4288`（Old masters） | The phrase denotes the broad category of old-master pictures in the Genoese holdings. |
+| 18 | `chp-8:08_CHP-8_sec_i:l3-12@825` (S0行6) | `feudal landowners` | `cand-1723`（Naples） | The Neapolitan feudal landowners are a social class, not a place-name; reuse the term candidate. |
+| 19 | `chp-8:08_CHP-8_sec_i:l30-41@1623` (S0行37) | `old masters` | `cand-4288`（Old masters） | Haskell uses old masters for the broad category in Roomer's collection, not for a single painting. |
+| 22 | `chp-8:08_CHP-8_sec_i:l30-41@2511` (S0行40) | `Naples` | `cand-1722`（Naples） | The sentence names the city of Naples as the setting of the painting's reception. |
+| 26 | `chp-8:08_CHP-8_sec_i:l72-82@411` (S0行73) | `Rembrandt` | `cand-2117`（Rembrandt） | The source names Rembrandt as a person; the surrounding work-title matches are separate candidates. |
+| 27 | `chp-8:08_CHP-8_sec_i:l72-82@2069` (S0行75) | `old masters` | `cand-4288`（Old masters） | The phrase is the broad old-master category in Russo's collection discussion. |
+| 30 | `chp-8:08_CHP-8_sec_i_notes_p214_visual-transcription:l1-4@186` (S0行1) | `palace → their palace` | `cand-11492`（Unidentified palace used by the Del Rosso family (location unspecified)） | The note refers to a distinct palace used by the Del Rosso family; its name and location are not supplied. |
+| 31 | `chp-8:08_CHP-8_sec_i_notes_p214_visual-transcription:l1-4@987` (S0行4) | `in Rome → Rome` | `cand-3126`（罗马） | Rome is the city named in the footnote's direction to Mattia Loret. |
+| 34 | `chp-8:08_CHP-8_sec_ii:l11-19@1097` (S0行13) | `Renaissance` | `cand-3578`（Renaissance） | Renaissance is the historical/artistic period invoked in the church's architectural history. |
+| 35 | `chp-8:08_CHP-8_sec_ii:l112-124@947` (S0行115) | `Bergamo` | `cand-7743`（Bergamo） | Bergamo is the city named as the site of Santa Maria Maggiore; keep distinct from the index-seeded Bergamo candidate pending S3. |
+| 36 | `chp-8:08_CHP-8_sec_ii:l112-124@2522` (S0行122) | `collection` | `cand-2307`（Ruffo, Cardinal Tommaso） | Ruffo's collection is the object assembled in Ferrara; reuse the existing type-unresolved collection candidate. |
+| 37 | `chp-8:08_CHP-8_sec_ii:l112-124@2785` (S0行124) | `palace` | `cand-2306`（Ruffo, Cardinal Tommaso） | The palace adjoining the Cathedral is Ruffo's Archbishop's Palace in Ferrara. |
+| 38 | `chp-8:08_CHP-8_sec_ii:l126-138@2595` (S0行137) | `collection` | `cand-11490`（Sir William Hamilton's collection including the portrait later in the Metropolitan Museum (scope unresolved)） | The note reports a portrait in Sir William Hamilton's collection in Naples by 1798; collection title and scope remain unresolved. |
+| 40 | `chp-8:08_CHP-8_sec_ii:l140-150@1145` (S0行145) | `Roman artists` | `cand-3540`（Roman artists） | Roman artists is a collective social-group term; it does not identify individual artists. |
+| 41 | `chp-8:08_CHP-8_sec_ii:l163-177@86` (S0行164) | `canvas` | `cand-2481`（Sole, Giovan Gioseffo dal） | Canvas refers to the already indexed Andromache weeping before Aeneas painting by Giovan Gioseffo dal Sole. |
+| 42 | `chp-8:08_CHP-8_sec_ii:l163-177@1009` (S0行171) | `palace` | `cand-7731`（Raimondo Buonaccorsi's palace in Macerata） | Raimondo's palace is the already registered Macerata place candidate. |
+| 46 | `chp-8:08_CHP-8_sec_ii:l190-204@600` (S0行191) | `Bologna` | `cand-0381`（Bologna） | Bologna is the city in which Torelli proposed his painting; take the city subspan from the false larger prompt. |
+| 48 | `chp-8:08_CHP-8_sec_ii:l190-204@1827` (S0行196) | `Venice` | `cand-2719`（Venice） | Venice is the city named as the successful setting for the tenebrosi. |
+| 51 | `chp-8:08_CHP-8_sec_ii:l206-214@3148` (S0行214) | `Italian art` | `cand-4131`（Italian art） | Italian art names the historical field discussed in the interregnum passage. |
+| 57 | `chp-8:08_CHP-8_sec_ii:l227-236@2197` (S0行234) | `ridotto` | `cand-10725`（The Ridotto gambling room in Venice） | Ridotto refers to the Venetian gambling room already represented by the Ch.17 place candidate. |
+| 67 | `chp-8:08_CHP-8_sec_ii:l3-9@1054` (S0行5) | `Italian art` | `cand-4131`（Italian art） | Italian art is the stated field of the collections discussed in the section introduction. |
+| 70 | `chp-8:08_CHP-8_sec_ii:l311-325@1134` (S0行319) | `Prince → Grand Prince` | `cand-1609`（Medici, Grand Prince Ferdinand de'） | The Grand Prince is Ferdinand de' Medici; expand the prompt's Prince subspan to the explicit title. |
+| 73 | `chp-8:08_CHP-8_sec_ii:l311-325@1996` (S0行321) | `Florence` | `cand-1041`（Florence） | Florence is the city Crespi visited; reuse the existing place candidate. |
+| 75 | `chp-8:08_CHP-8_sec_ii:l327-336@1552` (S0行331) | `Italian art` | `cand-4131`（Italian art） | Italian art is the field in which Haskell situates Crespi's informal portrait group. |
+| 78 | `chp-8:08_CHP-8_sec_ii:l338-348@1976` (S0行343) | `Italian art` | `cand-4131`（Italian art） | Italian art is the field in which the treatment of poor and simple subjects remained exceptional. |
+| 80 | `chp-8:08_CHP-8_sec_ii:l350-359@1460` (S0行355) | `Florence` | `cand-1041`（Florence） | Florence is directly named as a city where pictures were exhibited. |
+| 81 | `chp-8:08_CHP-8_sec_ii:l361-370@256` (S0行362) | `old masters` | `cand-4288`（Old masters） | Venetian old masters is the broad art-historical category for the seven listed loans. |
+| 82 | `chp-8:08_CHP-8_sec_ii:l361-370@2187` (S0行369) | `Italian art` | `cand-4131`（Italian art） | Italian art names the field in the statement about Ferdinand's role in art patronage. |
+| 83 | `chp-8:08_CHP-8_sec_ii:l361-370@2331` (S0行369) | `prince` | `cand-1609`（Medici, Grand Prince Ferdinand de'） | The lower-case prince refers to Ferdinand in the quoted assessment; the candidate is the person, not a generic office. |
+| 85 | `chp-8:08_CHP-8_sec_ii:l372-461@951` (S0行380) | `Bergamo` | `cand-7743`（Bergamo） | Bergamo is directly named in the note about artists employed by S. Paolo d'Argan. |
+| 86 | `chp-8:08_CHP-8_sec_ii:l372-461@1076` (S0行382) | `Archbishop’s palace` | `cand-2306`（Ruffo, Cardinal Tommaso） | The Archbishop's Palace is the same Ferrara building described in the p.222 note. |
+| 88 | `chp-8:08_CHP-8_sec_ii:l372-461@1554` (S0行382) | `palace` | `cand-2306`（Ruffo, Cardinal Tommaso） | The later reference to the palace in the same note points back to Ruffo's Archbishop's Palace. |
+| 89 | `chp-8:08_CHP-8_sec_ii:l372-461@1700` (S0行382) | `Ferrara` | `cand-1017`（Ferrara） | Ferrara is the city named in the quoted manuscript account. |
+| 93 | `chp-8:08_CHP-8_sec_ii:l372-461@6829` (S0行423) | `Titian` | `cand-2630`（Titian） | Titian is the named painter whose St Peter Martyr Loth planned to copy. |
+| 94 | `chp-8:08_CHP-8_sec_ii:l372-461@6996` (S0行423) | `collection` | `cand-7865`（Cardinal Leopoldo de' Medici's collection of Renaissance works） | Ferdinand's 1716 collection reference is linked to the broader Leopoldo collection candidate, which Haskell says Ferdinand later amplified. |
+| 99 | `chp-8:08_CHP-8_sec_ii:l372-461@11032` (S0行440) | `Prince → Grand Prince` | `cand-1609`（Medici, Grand Prince Ferdinand de'） | The Grand Prince is Ferdinand; expand the prompt's Prince subspan to the explicit title. |
+| 101 | `chp-8:08_CHP-8_sec_ii:l372-461@14627` (S0行461) | `Florence` | `cand-1041`（Florence） | Florence is named as the city in which Gerini followed Ferdinand's patronage. |
+| 103 | `chp-8:08_CHP-8_sec_ii:l69-76@786` (S0行71) | `canvas` | `cand-7664`（The Flood (Pietro Liberi painting for Santa Maria Maggiore, Bergamo)） | Canvas refers to the already registered painting The Flood by Pietro Liberi. |
+| 105 | `chp-8:08_CHP-8_sec_ii:l69-76@2826` (S0行75) | `Venice` | `cand-2719`（Venice） | Venice is the city in which the committee's earlier attempts failed. |
+| 107 | `chp-8:08_CHP-8_sec_ii:l78-84@2440` (S0行84) | `drawings` | `cand-11491`（Drawings submitted by Antonio Zanchi for committee approval (intended picture unspecified)） | Zanchi's submitted drawings form a source-bounded design group; title, number, survival, and intended picture remain unspecified. |
+| 108 | `chp-8:08_CHP-8_sec_ii:l78-84@2897` (S0行84) | `Bergamo` | `cand-7743`（Bergamo） | Bergamo is the named city where Zanchi inspected the site; reuse the Ch.8 body-origin city candidate. |
+| 109 | `chp-8:08_CHP-8_sec_ii:l78-84@3003` (S0行84) | `canvas` | `cand-7670`（Moses striking the Rock (Antonio Zanchi painting for Santa Maria Maggiore, Bergamo)） | Canvas refers to Zanchi's already registered Moses striking the Rock painting. |
+| 111 | `chp-8:08_CHP-8_sec_ii_plates_visual-transcription:l3-3@0` (S0行3) | `PRINCE → GRAND PRINCE FERDINAND` | `cand-1609`（Medici, Grand Prince Ferdinand de'） | The plate heading names Grand Prince Ferdinand; expand the false archive hit to the full person name. |
+
+64条no-write提示及逐项理由：
+
+| # | 位置 | 提示词面 | 命中候选 | 不写入理由 |
+|---:|---|---|---|---|
+| 1 | `chp-8:08_CHP-8_sec_i:l108-118@2387` | `in Florence` | `cand-2244` | The larger 'in Florence' hit is an unrelated index/person pattern; the precise Florence city subspan is accepted at prompt 2. |
+| 3 | `chp-8:08_CHP-8_sec_i:l126-157@1234` | `subject` | `cand-0840` | Subject means the subject of the cited painting, not an independently identified entity. |
+| 4 | `chp-8:08_CHP-8_sec_i:l126-157@3138` | `collection` | `cand-0396` | This is the raw OCR duplicate of the p.211 note; the Del Rosso collection is already mentioned in the page-image transcription. |
+| 5 | `chp-8:08_CHP-8_sec_i:l126-157@4383` | `collection` | `cand-0396` | 'Same collection of documents' is a generic reference to archival records, not a separately identified collection object. |
+| 6 | `chp-8:08_CHP-8_sec_i:l126-157@4514` | `Italian Art` | `cand-4131` | The title Italian Art and Britain is already linked to its archive candidate in the p.211 visual transcription; this raw OCR occurrence is duplicate coverage. |
+| 7 | `chp-8:08_CHP-8_sec_i:l126-157@6162` | `palace` | `cand-1816` | This raw OCR palace phrase duplicates the p.214 visual note, where the specific unnamed Del Rosso palace is recorded. |
+| 8 | `chp-8:08_CHP-8_sec_i:l126-157@6268` | `Bologna` | `cand-0381, cand-0382, cand-3398` | The Bologna citation belongs to p.214 note 3 and is already linked to the publication candidate in the visual transcription. |
+| 9 | `chp-8:08_CHP-8_sec_i:l126-157@6332` | `Bologna` | `cand-0381, cand-0382, cand-3398` | The Bologna citation belongs to p.214 note 4 and is already linked to the publication candidate in the visual transcription. |
+| 10 | `chp-8:08_CHP-8_sec_i:l126-157@6397` | `admirers in Venice` | `cand-1173` | The p.214 raw OCR duplicates the visual transcription; the phrase is not a separate collective entity. |
+| 11 | `chp-8:08_CHP-8_sec_i:l126-157@6409` | `Venice` | `cand-2719, cand-2720, cand-2721, cand-2722, cand-2723, cand-2724, cand-2725, cand-2726, cand-2727, cand-2728, cand-2729, cand-2730, cand-2731, cand-2732, cand-2733, cand-2734, cand-2735, cand-2736, cand-2737, cand-2738, cand-2739, cand-2740, cand-2741, cand-2742, cand-2743, cand-2744, cand-2745, cand-2746, cand-2747, cand-2748, cand-2749, cand-3401` | The Venice mention is already recorded against the p.214 visual transcription; do not duplicate the parallel raw OCR occurrence. |
+| 12 | `chp-8:08_CHP-8_sec_i:l23-28@373` | `fortune` | `cand-2242` | Fortune means Roomer's wealth in this sentence, not the indexed work Fortune. |
+| 14 | `chp-8:08_CHP-8_sec_i:l23-28@1562` | `fortune` | `cand-2242` | Fortune means the wealth Roomer left, not a separately identified work or entity. |
+| 20 | `chp-8:08_CHP-8_sec_i:l30-41@2344` | `palace` | `cand-1816` | The later 'his palace' reference does not distinguish which of Roomer's multiple residences is meant. |
+| 21 | `chp-8:08_CHP-8_sec_i:l30-41@2508` | `in Naples` | `cand-0571, cand-0572` | The larger 'in Naples' hit matches unrelated index people; the precise Naples city subspan is accepted at prompt 22. |
+| 23 | `chp-8:08_CHP-8_sec_i:l43-51@900` | `subject` | `cand-0840` | Subject refers to the commission's chosen subject matter, not a separate entity. |
+| 24 | `chp-8:08_CHP-8_sec_i:l53-60@2025` | `fortune` | `cand-2242` | Fortune is a common-language reference to inherited wealth. |
+| 25 | `chp-8:08_CHP-8_sec_i:l62-70@1875` | `subject` | `cand-0840` | Subject means the painter's choice of subject matter, not an independently identified entity. |
+| 28 | `chp-8:08_CHP-8_sec_i:l72-82@3343` | `garden` | `cand-2081` | The garden is descriptive scenery around an unnamed house; no separately identifiable garden is given. |
+| 29 | `chp-8:08_CHP-8_sec_i_notes_p211_visual-transcription:l1-4@1267` | `collection` | `cand-0396` | 'Same collection of documents' is a generic reference to records, not a bounded archive candidate. |
+| 32 | `chp-8:08_CHP-8_sec_ii:l100-110@1790` | `payment` | `cand-0782, cand-1122, cand-1265, cand-1533` | Payment is a general financial term, not an identified payment record. |
+| 33 | `chp-8:08_CHP-8_sec_ii:l11-19@53` | `neglect of Roman painting` | `cand-2067` | 'Neglect of Roman painting' is Haskell's interpretive description, not a named entity. |
+| 39 | `chp-8:08_CHP-8_sec_ii:l140-150@321` | `histories` | `cand-1276` | Histories means the broad genre of history paintings, not a named work or bounded group. |
+| 43 | `chp-8:08_CHP-8_sec_ii:l179-188@1926` | `subject` | `cand-0840` | Subject-matter is generic; the source does not identify a separate concept entity. |
+| 44 | `chp-8:08_CHP-8_sec_ii:l179-188@2083` | `subject` | `cand-0840` | Subject and date are generic requirements in the guarantee, not entities. |
+| 45 | `chp-8:08_CHP-8_sec_ii:l190-204@597` | `in Bologna` | `cand-0066` | The larger 'in Bologna' hit is an unrelated index/person pattern; the precise city subspan is accepted at prompt 46. |
+| 47 | `chp-8:08_CHP-8_sec_ii:l190-204@1152` | `subject` | `cand-0840` | Subject is the general category of Biblical and mythological topics. |
+| 49 | `chp-8:08_CHP-8_sec_ii:l206-214@1564` | `contracts` | `cand-0837, cand-0838, cand-0839, cand-0840, cand-0841` | Contracts is an unbounded plural reference; the passage identifies no individual contract or record. |
+| 50 | `chp-8:08_CHP-8_sec_ii:l206-214@1790` | `subject` | `cand-0840` | Subject refers to The Infant Jupiter handed over by Cybele, already registered as a work. |
+| 52 | `chp-8:08_CHP-8_sec_ii:l21-35@552` | `subject` | `cand-0840` | Subject identifies the topic of the already named work The Levites, not a separate entity. |
+| 53 | `chp-8:08_CHP-8_sec_ii:l21-35@2011` | `subject` | `cand-0840` | Subject identifies the topic of the already named Story of Esther painting, not a separate entity. |
+| 54 | `chp-8:08_CHP-8_sec_ii:l216-225@1864` | `memoirs` | `cand-1209` | Private memoirs is a generic source category, not a separately bounded archive. |
+| 55 | `chp-8:08_CHP-8_sec_ii:l216-225@1952` | `character` | `cand-0220` | Character means an ordinary personal quality in Haskell's prose. |
+| 56 | `chp-8:08_CHP-8_sec_ii:l216-225@2014` | `artistic tastes` | `cand-2448` | Artistic tastes describes Ferdinand's dispositions, not a separate entity. |
+| 58 | `chp-8:08_CHP-8_sec_ii:l238-249@72` | `churches` | `cand-0681, cand-0682, cand-0683, cand-0684, cand-0685, cand-0686, cand-0687, cand-0688, cand-0689, cand-0690, cand-0691, cand-0692, cand-0693, cand-0694, cand-0695, cand-0696, cand-0697, cand-0698, cand-0699, cand-0700, cand-0701, cand-0702, cand-0703, cand-0704, cand-0705, cand-0706, cand-0707, cand-0708, cand-0709, cand-0710, cand-0711, cand-0712, cand-0713, cand-0714, cand-0715, cand-0716, cand-0717, cand-0718, cand-0719, cand-0720, cand-0721, cand-0722, cand-0723, cand-0724, cand-0725, cand-0726, cand-0727, cand-0728, cand-0729, cand-0730, cand-0731, cand-0732, cand-0733, cand-0734, cand-0735, cand-0736, cand-0737, cand-0738, cand-0739, cand-0740, cand-0741, cand-0742, cand-0743` | Churches is a generic category in a comparison, without individually named buildings. |
+| 59 | `chp-8:08_CHP-8_sec_ii:l238-249@828` | `collection` | `cand-0396` | Average noble collection is a generic comparison class, not a bounded collection. |
+| 60 | `chp-8:08_CHP-8_sec_ii:l238-249@1387` | `subject` | `cand-0840` | Subject refers to a narrative subject of painting, not a distinct entity. |
+| 61 | `chp-8:08_CHP-8_sec_ii:l238-249@1966` | `churches` | `cand-0681, cand-0682, cand-0683, cand-0684, cand-0685, cand-0686, cand-0687, cand-0688, cand-0689, cand-0690, cand-0691, cand-0692, cand-0693, cand-0694, cand-0695, cand-0696, cand-0697, cand-0698, cand-0699, cand-0700, cand-0701, cand-0702, cand-0703, cand-0704, cand-0705, cand-0706, cand-0707, cand-0708, cand-0709, cand-0710, cand-0711, cand-0712, cand-0713, cand-0714, cand-0715, cand-0716, cand-0717, cand-0718, cand-0719, cand-0720, cand-0721, cand-0722, cand-0723, cand-0724, cand-0725, cand-0726, cand-0727, cand-0728, cand-0729, cand-0730, cand-0731, cand-0732, cand-0733, cand-0734, cand-0735, cand-0736, cand-0737, cand-0738, cand-0739, cand-0740, cand-0741, cand-0742, cand-0743` | The churches from which paintings were bought are unnamed and unbounded. |
+| 62 | `chp-8:08_CHP-8_sec_ii:l251-257@2328` | `patronage of contemporary artists` | `cand-1622` | Patronage of contemporary artists describes Ferdinand's activity, not a separate object. |
+| 63 | `chp-8:08_CHP-8_sec_ii:l251-257@2746` | `prince` | `cand-1465` | Prince and painter are generic roles in a comparison, not named individuals. |
+| 64 | `chp-8:08_CHP-8_sec_ii:l281-289@1134` | `subject` | `cand-0840` | Subject means the chosen Old Testament topic, not a separately identified entity. |
+| 65 | `chp-8:08_CHP-8_sec_ii:l281-289@1696` | `portraits` | `cand-2410` | Portraits of the Prince and his household is an unbounded genre/group description, not a defined portrait set. |
+| 66 | `chp-8:08_CHP-8_sec_ii:l3-9@698` | `school` | `cand-1419` | Local school means an unspecified artistic tradition, not a named institution or bounded group. |
+| 68 | `chp-8:08_CHP-8_sec_ii:l303-309@577` | `character` | `cand-0220` | Character is an ordinary description of Ferdinand's personality. |
+| 69 | `chp-8:08_CHP-8_sec_ii:l311-325@797` | `temperament` | `cand-0077, cand-0078` | Temperament is a common personal-quality term. |
+| 71 | `chp-8:08_CHP-8_sec_ii:l311-325@1422` | `subject` | `cand-0840` | Subject is the generic topic of a still life. |
+| 72 | `chp-8:08_CHP-8_sec_ii:l311-325@1913` | `histories` | `cand-1276` | Histories is a broad religious/secular painting genre, not a bounded work group. |
+| 74 | `chp-8:08_CHP-8_sec_ii:l327-336@157` | `temperament` | `cand-0077, cand-0078` | Temperament is an ordinary descriptive term. |
+| 76 | `chp-8:08_CHP-8_sec_ii:l327-336@1985` | `subject` | `cand-0840` | Subject is a generic topic category for the painting. |
+| 77 | `chp-8:08_CHP-8_sec_ii:l327-336@2734` | `portraits` | `cand-2410` | Portraits of Ferdinand's courtiers is an unbounded group description; no separate set identity is supplied. |
+| 79 | `chp-8:08_CHP-8_sec_ii:l350-359@1457` | `in Florence` | `cand-2244` | The larger 'in Florence' hit is an unrelated index/person pattern; the precise Florence city subspan is accepted at prompt 80. |
+| 84 | `chp-8:08_CHP-8_sec_ii:l372-461@545` | `subject` | `cand-0840` | Subject introduces the represented subject already preserved as the source-reported Hymn of Liberation candidate. |
+| 87 | `chp-8:08_CHP-8_sec_ii:l372-461@1089` | `palace` | `cand-1816` | The nested 'palace' hit is contained in the accepted Archbishop's Palace phrase at prompt 86. |
+| 90 | `chp-8:08_CHP-8_sec_ii:l372-461@5213` | `churches` | `cand-0681, cand-0682, cand-0683, cand-0684, cand-0685, cand-0686, cand-0687, cand-0688, cand-0689, cand-0690, cand-0691, cand-0692, cand-0693, cand-0694, cand-0695, cand-0696, cand-0697, cand-0698, cand-0699, cand-0700, cand-0701, cand-0702, cand-0703, cand-0704, cand-0705, cand-0706, cand-0707, cand-0708, cand-0709, cand-0710, cand-0711, cand-0712, cand-0713, cand-0714, cand-0715, cand-0716, cand-0717, cand-0718, cand-0719, cand-0720, cand-0721, cand-0722, cand-0723, cand-0724, cand-0725, cand-0726, cand-0727, cand-0728, cand-0729, cand-0730, cand-0731, cand-0732, cand-0733, cand-0734, cand-0735, cand-0736, cand-0737, cand-0738, cand-0739, cand-0740, cand-0741, cand-0742, cand-0743` | Churches refers to a generic set of Florentine and other buildings, none identified individually here. |
+| 91 | `chp-8:08_CHP-8_sec_ii:l372-461@6158` | `Payments` | `cand-0938, cand-1028, cand-1361, cand-1678` | Payments is a generic note heading for records; the archival source is already represented separately. |
+| 92 | `chp-8:08_CHP-8_sec_ii:l372-461@6158` | `Payments to` | `cand-2601` | Payments to other painters is a generic citation heading, not an individually identified payment record. |
+| 95 | `chp-8:08_CHP-8_sec_ii:l372-461@7265` | `subject` | `cand-0840` | Subject is the topic of the named work in the adjacent statement, not another entity. |
+| 96 | `chp-8:08_CHP-8_sec_ii:l372-461@7379` | `subject` | `cand-0840` | Subject is the biblical topic of the already identified painting, not an independent entity. |
+| 97 | `chp-8:08_CHP-8_sec_ii:l372-461@7774` | `portraits` | `cand-2410` | Portraits refers to a broad category of pictures, not a bounded group. |
+| 98 | `chp-8:08_CHP-8_sec_ii:l372-461@10796` | `Bologna` | `cand-0381, cand-0382, cand-3398` | Bologna is the publication place in the citation for the already registered Mostra Celebrativa catalogue, not a narrative city reference. |
+| 100 | `chp-8:08_CHP-8_sec_ii:l372-461@11422` | `subject` | `cand-0840` | Subject means the same topic already attached to the registered Crossing of the Red Sea candidate. |
+| 102 | `chp-8:08_CHP-8_sec_ii:l372-461@14771` | `drawings` | `cand-0578` | Drawings describes Gabburri's professional field and practice, not a distinct drawing group. |
+| 104 | `chp-8:08_CHP-8_sec_ii:l69-76@1239` | `payments` | `cand-0938, cand-1028, cand-1361, cand-1678` | Payments is a general financial category in the quoted contract, not a discrete record. |
+| 106 | `chp-8:08_CHP-8_sec_ii:l78-84@2413` | `payment` | `cand-0782, cand-1122, cand-1265, cand-1533` | Payment refers to the general no-fee condition for submitting designs, not an identified payment object. |
+| 110 | `chp-8:08_CHP-8_sec_ii:l86-98@854` | `subject` | `cand-0840` | Subject is an anaphoric reference to the painting already represented by the Crossing of the Red Sea candidate. |
+
+补齐20条既有statement的`mentioned_candidate_ids`，不新增statement、不改关系表或正式关系：
+
+| statement ID | 补入 mentioned_candidate_ids |
+|---|---|
+| `st-chp8-p203-genoese-family-collections` | `cand-4288` |
+| `st-chp8-p205-roomer-hosted-neapolitan-nobility` | `cand-11489` |
+| `st-chp8-p206-bassano-animal-pieces-qualified-authorial-inference` | `cand-4288` |
+| `st-chp8-p214-n1-boni-mythological-frescoes` | `cand-11492` |
+| `st-chp8-p214-n4-cite-loret` | `cand-3126` |
+| `st-chp8-p214-n4-venetian-admirers` | `cand-2719` |
+| `st-chp8-p215-renaissance-campanile-sacristy` | `cand-3578` |
+| `st-chp8-p217-ferri-selected-invited-open` | `cand-2719` |
+| `st-chp8-p218-zanchi-terms` | `cand-11491`, `cand-7743` |
+| `st-chp8-p221-governors-ambition` | `cand-7743` |
+| `st-chp8-p221-provincial-patronage-context` | `cand-7743` |
+| `st-chp8-p222-n4-pareja-museum-and-hamilton` | `cand-11490` |
+| `st-chp8-p223-ruffo-opinion-of-roman-artists` | `cand-3540` |
+| `st-chp8-p233-note5-inventory` | `cand-7865` |
+| `st-chp8-p233-note5-loth-letter` | `cand-2630` |
+| `st-chp8-p237-ferdinand-role-in-crespi-career` | `cand-1041` |
+| `st-chp8-p241-note5-gerini-follower` | `cand-1041` |
+| `st-chp8-p241-quoted-praise-and-art-patronage` | `cand-4131` |
+| `st-chp8-p241-twenty-odd-loans` | `cand-4288` |
+| `st-chp8-sec-ii-intro-collections_in_nonlocal_centres` | `cand-4131` |
+
+受控脚本`chp8_candidate_surface_prompt_reconciliation.py`默认dry-run，锁定候选/mention/statement表、segments、coverage、扫描器、taxonomy及7份第八章规范S0文件；apply前检查111条提示完整分区、全部精确源跨度、候选ID序列、候选外键、mention重叠和statement目标，apply时为3张表保存恢复副本。plan SHA-256=`f982f0c7d2121385e56df9e577df41e1761d96c91c0ea7b36b273656553d8489`；script SHA-256=`7ab3e8b6e50e63fe0dc099c03cb09a56787f9c736668ee27f129405697c723c1`。表SHA-256写前→写后：candidates `2a68ced91ee0662e1e3515769eef7ac3d2981d3d00f5773613891a1e4acd22e5`→`64b00d3499f13c8340fa9a55250ecaec2f46326197d5eb169ec49615a789691c`；mentions `29a2d397cd6c1b32cf90b13d56ab5a68f15ba0011f01d23374f42de4394eea55`→`c9b56e91864305d3f87436bc685a38fac94c0f49ba240638c7ed745802bae551`；statements `a4a942d1f71c7735f03289129503d899683fcd84f9c8011e757e70855d67ed7e`→`ece9290d813a686b35da105ba17d4690a561f88f7534cc63c1026193363e2d20`。恢复副本：`C:\Users\001\AppData\Local\Temp\pnp-s2-chp8-surface-prompts-20261008-101735`。
+
+`python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,471 candidates、27,215 mentions、12,255 statements；832段中678 reviewed/complete、154 excluded/complete、0 queued、0 partial；`s2_missing=[]`、`errors=[]`。两条既存enrichment `source_ref`警告（`enr-06678`、`enr-06937`）未变化。第八章覆盖状态为56 reviewed/complete、5 excluded/complete。下一书序第九章当前定位器覆盖46个reviewed段、提示91条，均待逐条语义裁决；全书S2总交接尚未完成。

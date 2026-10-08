@@ -27823,3 +27823,50 @@ m-s2-chp7-surface-838991debf25c5df,chp-7:07_CHP-7_sec_iv:l77-87,cand-0969,Englis
 m-s2-chp7-surface-e873c964caa60d0b,chp-7:07_CHP-7_sec_iv:l77-87,cand-4131,Italian art,900,911,Names the field of Shaftesbury's contacts; use the broad existing Italian art term.
 m-s2-chp7-surface-fb87ff60ce57c95e,chp-7:07_CHP-7_sec_iv:l77-87,cand-7241,drawings,1603,1611,These are the already represented Prudence and Justice drawings sent to Shaftesbury by Closterman.
 m-s2-chp7-surface-7b3a3c0d5cdef50f,chp-7:07_CHP-7_sec_iv:l97-119,cand-1405,Prince,301,307,"The note's Prince is Wenzel of Liechtenstein, the subject of the linked statement; the mention is not Machiavelli's Prince."
+m-s2-chp8-surface-793839e1ea846aa4,chp-8:08_CHP-8_sec_i:l108-118,cand-1041,Florence,2390,2398,Direct city reference in the p.213 discussion; reuse the in-book Florence candidate.
+m-s2-chp8-surface-428c092f01283f1b,chp-8:08_CHP-8_sec_i:l23-28,cand-11489,his palace,761,771,"Roomer's first, unnamed Naples residence, distinguished from Via Monteoliveto as a street and from the later Palazzo della Stella."
+m-s2-chp8-surface-ba80f8ca55973750,chp-8:08_CHP-8_sec_i:l23-28,cand-1722,Naples,1889,1895,Naples is named as the city whose painters could satisfy Roomer's taste.
+m-s2-chp8-surface-74d82f7d6b14ad1d,chp-8:08_CHP-8_sec_i:l3-12,cand-1132,aristocracy,383,394,The Genoese mercantile aristocracy is the stated social group; use the existing term candidate.
+m-s2-chp8-surface-ac25aac587194b0e,chp-8:08_CHP-8_sec_i:l3-12,cand-4288,old masters,774,785,The phrase denotes the broad category of old-master pictures in the Genoese holdings.
+m-s2-chp8-surface-9eb3e0f5400e155d,chp-8:08_CHP-8_sec_i:l3-12,cand-1723,feudal landowners,825,842,"The Neapolitan feudal landowners are a social class, not a place-name; reuse the term candidate."
+m-s2-chp8-surface-a54e4c590217528b,chp-8:08_CHP-8_sec_i:l30-41,cand-4288,old masters,1623,1634,"Haskell uses old masters for the broad category in Roomer's collection, not for a single painting."
+m-s2-chp8-surface-ec42ac2fc782d177,chp-8:08_CHP-8_sec_i:l30-41,cand-1722,Naples,2511,2517,The sentence names the city of Naples as the setting of the painting's reception.
+m-s2-chp8-surface-64bb8a05a71b3ce1,chp-8:08_CHP-8_sec_i:l72-82,cand-2117,Rembrandt,411,420,The source names Rembrandt as a person; the surrounding work-title matches are separate candidates.
+m-s2-chp8-surface-25e1d67ec9b74be5,chp-8:08_CHP-8_sec_i:l72-82,cand-4288,old masters,2069,2080,The phrase is the broad old-master category in Russo's collection discussion.
+m-s2-chp8-surface-1804407b0748342c,chp-8:08_CHP-8_sec_i_notes_p214_visual-transcription:l1-4,cand-11492,their palace,186,198,The note refers to a distinct palace used by the Del Rosso family; its name and location are not supplied.
+m-s2-chp8-surface-4bd726557918a00b,chp-8:08_CHP-8_sec_i_notes_p214_visual-transcription:l1-4,cand-3126,Rome,987,991,Rome is the city named in the footnote's direction to Mattia Loret.
+m-s2-chp8-surface-e39291196ddde78e,chp-8:08_CHP-8_sec_ii:l11-19,cand-3578,Renaissance,1097,1108,Renaissance is the historical/artistic period invoked in the church's architectural history.
+m-s2-chp8-surface-4b7bb7f60096995c,chp-8:08_CHP-8_sec_ii:l112-124,cand-7743,Bergamo,947,954,Bergamo is the city named as the site of Santa Maria Maggiore; keep distinct from the index-seeded Bergamo candidate pending S3.
+m-s2-chp8-surface-316155b1fa0f4bdd,chp-8:08_CHP-8_sec_ii:l112-124,cand-2307,collection,2522,2532,Ruffo's collection is the object assembled in Ferrara; reuse the existing type-unresolved collection candidate.
+m-s2-chp8-surface-064480c3262f983e,chp-8:08_CHP-8_sec_ii:l112-124,cand-2306,palace,2785,2791,The palace adjoining the Cathedral is Ruffo's Archbishop's Palace in Ferrara.
+m-s2-chp8-surface-aabcdea4b8f6a07b,chp-8:08_CHP-8_sec_ii:l126-138,cand-11490,collection,2595,2605,The note reports a portrait in Sir William Hamilton's collection in Naples by 1798; collection title and scope remain unresolved.
+m-s2-chp8-surface-9feba50f15058228,chp-8:08_CHP-8_sec_ii:l140-150,cand-3540,Roman artists,1145,1158,Roman artists is a collective social-group term; it does not identify individual artists.
+m-s2-chp8-surface-a19d2ebbaccdaf5f,chp-8:08_CHP-8_sec_ii:l163-177,cand-2481,canvas,86,92,Canvas refers to the already indexed Andromache weeping before Aeneas painting by Giovan Gioseffo dal Sole.
+m-s2-chp8-surface-5cccc8afbef0d0cb,chp-8:08_CHP-8_sec_ii:l163-177,cand-7731,palace,1009,1015,Raimondo's palace is the already registered Macerata place candidate.
+m-s2-chp8-surface-08365c5358828d6b,chp-8:08_CHP-8_sec_ii:l190-204,cand-0381,Bologna,600,607,Bologna is the city in which Torelli proposed his painting; take the city subspan from the false larger prompt.
+m-s2-chp8-surface-e12efa505fb7d46b,chp-8:08_CHP-8_sec_ii:l190-204,cand-2719,Venice,1827,1833,Venice is the city named as the successful setting for the tenebrosi.
+m-s2-chp8-surface-343eb1474eb9e7a0,chp-8:08_CHP-8_sec_ii:l206-214,cand-4131,Italian art,3148,3159,Italian art names the historical field discussed in the interregnum passage.
+m-s2-chp8-surface-249837fe2552dfa3,chp-8:08_CHP-8_sec_ii:l227-236,cand-10725,ridotto,2197,2204,Ridotto refers to the Venetian gambling room already represented by the Ch.17 place candidate.
+m-s2-chp8-surface-0fd195f9402adf93,chp-8:08_CHP-8_sec_ii:l3-9,cand-4131,Italian art,1054,1065,Italian art is the stated field of the collections discussed in the section introduction.
+m-s2-chp8-surface-bb6ce290a9033325,chp-8:08_CHP-8_sec_ii:l311-325,cand-1609,Grand Prince,1134,1146,The Grand Prince is Ferdinand de' Medici; expand the prompt's Prince subspan to the explicit title.
+m-s2-chp8-surface-9de2058ffc4320a4,chp-8:08_CHP-8_sec_ii:l311-325,cand-1041,Florence,1996,2004,Florence is the city Crespi visited; reuse the existing place candidate.
+m-s2-chp8-surface-a278e91a0fc585d2,chp-8:08_CHP-8_sec_ii:l327-336,cand-4131,Italian art,1552,1563,Italian art is the field in which Haskell situates Crespi's informal portrait group.
+m-s2-chp8-surface-947c4339e0ad35a6,chp-8:08_CHP-8_sec_ii:l338-348,cand-4131,Italian art,1976,1987,Italian art is the field in which the treatment of poor and simple subjects remained exceptional.
+m-s2-chp8-surface-177b887928d10a76,chp-8:08_CHP-8_sec_ii:l350-359,cand-1041,Florence,1460,1468,Florence is directly named as a city where pictures were exhibited.
+m-s2-chp8-surface-abce526ed574eb2a,chp-8:08_CHP-8_sec_ii:l361-370,cand-4288,old masters,256,267,Venetian old masters is the broad art-historical category for the seven listed loans.
+m-s2-chp8-surface-6889d3cc4c3165df,chp-8:08_CHP-8_sec_ii:l361-370,cand-4131,Italian art,2187,2198,Italian art names the field in the statement about Ferdinand's role in art patronage.
+m-s2-chp8-surface-0e9861efcab464ad,chp-8:08_CHP-8_sec_ii:l361-370,cand-1609,prince,2331,2337,"The lower-case prince refers to Ferdinand in the quoted assessment; the candidate is the person, not a generic office."
+m-s2-chp8-surface-a4000171c8a52338,chp-8:08_CHP-8_sec_ii:l372-461,cand-7743,Bergamo,951,958,Bergamo is directly named in the note about artists employed by S. Paolo d'Argan.
+m-s2-chp8-surface-c8463612e6fc0895,chp-8:08_CHP-8_sec_ii:l372-461,cand-2306,Archbishop’s palace,1076,1095,The Archbishop's Palace is the same Ferrara building described in the p.222 note.
+m-s2-chp8-surface-b7f4793cdbaf9e9b,chp-8:08_CHP-8_sec_ii:l372-461,cand-2306,palace,1554,1560,The later reference to the palace in the same note points back to Ruffo's Archbishop's Palace.
+m-s2-chp8-surface-5cea5fef852538e4,chp-8:08_CHP-8_sec_ii:l372-461,cand-1017,Ferrara,1700,1707,Ferrara is the city named in the quoted manuscript account.
+m-s2-chp8-surface-9f6b48bf0e3d5180,chp-8:08_CHP-8_sec_ii:l372-461,cand-2630,Titian,6829,6835,Titian is the named painter whose St Peter Martyr Loth planned to copy.
+m-s2-chp8-surface-178533f1ba3d38c5,chp-8:08_CHP-8_sec_ii:l372-461,cand-7865,collection,6996,7006,"Ferdinand's 1716 collection reference is linked to the broader Leopoldo collection candidate, which Haskell says Ferdinand later amplified."
+m-s2-chp8-surface-0fb9b62595204f24,chp-8:08_CHP-8_sec_ii:l372-461,cand-1609,Grand Prince,11032,11044,The Grand Prince is Ferdinand; expand the prompt's Prince subspan to the explicit title.
+m-s2-chp8-surface-56753aa61524e91e,chp-8:08_CHP-8_sec_ii:l372-461,cand-1041,Florence,14627,14635,Florence is named as the city in which Gerini followed Ferdinand's patronage.
+m-s2-chp8-surface-3c1871adc0cbaa0f,chp-8:08_CHP-8_sec_ii:l69-76,cand-7664,canvas,786,792,Canvas refers to the already registered painting The Flood by Pietro Liberi.
+m-s2-chp8-surface-e5bfd4babf825c0b,chp-8:08_CHP-8_sec_ii:l69-76,cand-2719,Venice,2826,2832,Venice is the city in which the committee's earlier attempts failed.
+m-s2-chp8-surface-05b9a3ab07058fa8,chp-8:08_CHP-8_sec_ii:l78-84,cand-11491,drawings,2440,2448,"Zanchi's submitted drawings form a source-bounded design group; title, number, survival, and intended picture remain unspecified."
+m-s2-chp8-surface-e369bf6f0bd5e702,chp-8:08_CHP-8_sec_ii:l78-84,cand-7743,Bergamo,2897,2904,Bergamo is the named city where Zanchi inspected the site; reuse the Ch.8 body-origin city candidate.
+m-s2-chp8-surface-5070d6ca25c59ddf,chp-8:08_CHP-8_sec_ii:l78-84,cand-7670,canvas,3003,3009,Canvas refers to Zanchi's already registered Moses striking the Rock painting.
+m-s2-chp8-surface-4c06862e31e7ba8b,chp-8:08_CHP-8_sec_ii_plates_visual-transcription:l3-3,cand-1609,GRAND PRINCE FERDINAND,0,22,The plate heading names Grand Prince Ferdinand; expand the false archive hit to the full person name.
