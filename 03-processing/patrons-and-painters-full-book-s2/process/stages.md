@@ -7580,3 +7580,17 @@ L98外交事务转交侄辈的statement标为关系候选，保留已有“未�
 本段28条statement列为关系候选；3条因一般性自我纪念物或未指明的Paul V、Sixtus V纪念物缺具体作品端点而保持开放。Bernini/Algardi制作或改制、Senate下令、Urban VIII委托、Giori监督及Claude作品的赞助/所有均保留原文语气与对象范围；不新增正式关系。脚注1–6逐项与正文statement双向链接，注6的两幅Seaports仅落实到National Gallery／Louvre的机构集合，不将作品逐一指配。L119肖像续句与前段互链；Council of Trent与右侧墓龛的续接均核实到L127–139。引注出版物未独立查阅。
 
 写后严格阶段审计：1,019 KU、11,498 candidates、27,398 mentions、12,288 statements、832 segments；关系候选2,462条，2,445条标量端点齐全、17条开放；s2_missing=[]、errors=[]。两条既有enrichment source_ref告警和通用语义审查提示仍在。未写入relations.csv；全书S2交接继续，下一源段为 chp-2:02_CHP-2_sec_ii:l127-139。
+
+## 第二章第II节L127–139语义纠偏复核（2026-10-08）
+
+对照规范来源`02_CHP-2_sec_ii.md` L127–139及`CHP-2.pdf`印刷p.42／PDF物理第27页。首轮27条statement复核为34条，新增7条并复用17个既有候选；62条mention中Europe与Rome两个定位跨度均逐字符核对。将Urban VIII墓葬八年停工/1639复工从其向Bernini发出其他委托的关系中拆开；记录1644完工尝试前的再次停工。Antonio的Capuchin身份、Haskell性格判断和枢机身份分别表达，家族比较只保留为比较组限定。教堂、修院与Ludovisi庄园位置拆成两条statement；Capuchin请愿、Urban响应请愿、撤回外国王族许可分开；Barberini被逐出Rome与作者的资源剥削评价分开。
+
+本段26条S2关系候选，23条有标量两端点，3条因欧洲赞助群体、Peretti计划对象及获撤许可的外国王族未具名而开放。补标委托、隶属、位置、制作、迁移、请愿/响应和流亡候选；视觉解释仍归Haskell，不据此推断墓像制作者。Council of Trent续句与p.41 statement继续双向互链；“There”与前段右侧墓龛改为指代链接；L138纹章动机续至L142；注1的L139作者尾段与L191引文及研究归属statement互链。L137印本为`in-Roman`，OCR原文和`original_quote`均未改；无新增KU、候选或正式S6边。
+
+严格表审计：1,019 KU、11,498 candidates、27,398 mentions、12,295 statements、832 segments；2,487条S2关系候选，2,467条具两端点、20条开放；`s2_missing=[]`、`errors=[]`。两条既有enrichment source_ref警告及通用语义复核提示仍在。下一步复核已迁移的`chp-2:02_CHP-2_sec_ii:l141-145`关系候选覆盖，再按源序继续。
+
+## 第二章第II节L141–145语义关系覆盖复核（2026-10-08）
+
+对照规范来源`02_CHP-2_sec_ii.md` L141–145及`CHP-2.pdf`印刷p.43／PDF物理第28页。复核首轮24条statement为29条，沿用9个候选与38条mention；新增5条statement：将Capuchin退还烛台与十字架分开，并将Domenichino、Lanfranco、Pietro da Cortona、Baccio Ciarpi、Andrea Sacchi分别连接到未具名的后续祭坛画集合。候选仅表达书内群组贡献，不推断单幅归属。补标25条关系候选（24条两端点齐全，1条Pope/Antonio共同祭坛画委托因具体作品对象不明而开放），包括家族礼拜堂陈设、装饰责任、陈设订制/退回/接收、Capuchin请愿、高坛争议、特许与材料修改、艺术家贡献和师承。作者评价、社会背景和Urban VIII纹章动机不作关系边。
+
+L138–142 Urban VIII动机解释继续双向互链；Reni绘画的关系statement与作品评价statement互链，L144脚注1与L192 Malvasia II, p.26 citation双向互链。印刷核对确认`pietre fine`分写、`time`后的上标注号及L145末尾OCR单引号；不改S0及`original_quote`。无新增候选、KU或S6正式边。严格审计：12,300条statement、27,398条mention、2,512条S2关系候选（2,491端点齐全、21开放），`s2_missing=[]`、`errors=[]`。下一项按来源流程复核已迁移的注释段`chp-2:02_CHP-2_sec_ii:l147-193`。

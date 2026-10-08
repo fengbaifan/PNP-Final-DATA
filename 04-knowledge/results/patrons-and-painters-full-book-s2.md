@@ -134,8 +134,8 @@ p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本�
 正文题注与书前目录各有两条caption关系statement，分别记录礼拜堂位置及Castelli设计署名；复用Barberini Chapel、S. Andrea della Valle、Castelli候选，四条均列为关系候选，保留caption attribution边界，不写正式边。严格表审计无错误；全书关系候选2,433条、2,419条端点齐全、14条开放。下一段为`chp-2:02_CHP-2_sec_ii:l118-125`。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
 
 
-## 第二章p.41断言拆分、关系候选与脚注链接（2026-10-08）
+## 第二章p.41–43正文与关系候选复核（2026-10-08）
 
 完成第二章正文 l118-125（印刷p.41／PDF物理第26页）的语义复核，并回核其注释L185–190。正文由29条statement细化为35条，新增6条断言、1个“papal land and sea forces”机构候选和1条精确mention；补标28条关系候选，其中3条因比较性或一般性纪念物没有具体作品端点而开放。脚注1–6逐项与正文双向连接，注6涉及的两幅Claude Seaports保持机构对应未定。S2表中不写正式关系。
 
-写后严格审计：1,019 KU、11,498 candidates、27,398 mentions、12,288 statements、832 segments；关系候选2,462条、端点齐全2,445条、开放17条；s2_missing=[]、errors=[]。两条既存enrichment来源定位警告和语义审查提示仍未解决。下一源段 chp-2:02_CHP-2_sec_ii:l127-139 已有早期迁移稿，现继续审查其语义和关系候选，不重复计数或另建来源。
+截至p.43复核，写后严格审计为1,019 KU、11,498 candidates、27,398 mentions、12,300 statements、832 segments；全书S2关系候选2,512条，其中2,491条具两端点、21条开放；`s2_missing=[]`、`errors=[]`。两条既存enrichment来源定位警告及语义复核提示仍在。p.42为34条statement、62条mention、26条关系候选（3条开放）；p.43为29条statement、38条mention、25条关系候选（1条开放）。未生成正式S6边。下一步复核已迁移的`chp-2:02_CHP-2_sec_ii:l147-193`注释段。

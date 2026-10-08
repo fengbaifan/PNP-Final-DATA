@@ -264,17 +264,17 @@ L91–92补完前一规范段对Pietro壁画“grand manner”的句子，并与
 
 | 规范段 | 印刷页／PDF页 | 句意与语义判断 | 提及、断言与关系线索 |
 |---|---:|---|---|
-| `chp-2:02_CHP-2_sec_ii:l127-139` | 42／物理第27页 | 续完Guglielmo della Porta的Paul III墓及Council of Trent跨页句，记录墓葬迁至后殿左侧壁龛、Urban VIII墓青铜像、八年停工及1639复工、Charity与Death构件、1644年的最后完工尝试和1647年Justice完成。随后转入Urban VIII与S. Maria della Concezione的嘉布遣会项目：Antonio Barberini的角色、新教堂与修院、Cardinal Ludovisi庄园、无名建筑师方案、皇帝及Magalotti的礼拜堂计划、Peretti的相似意向、Capuchin请愿及Urban的家族动机。L139只保留脚注1的作者尾段。 | 新增17个候选（cand-4520–cand-4536）、60条精确跨度提及和27条原书断言。Paul III左侧壁龛与Urban VIII右侧壁龛分开；墓葬雕塑不推断作者；请求、材料筹备与完成状态分开；Cardinal Ludovisi与Prince Peretti身份未决。Council句与前段statement互链，L138王族纹章句留待L142续完；L139的P. Domenico da Isnello与L191脚注开头待注释段迁入后合并，不从姓名尾段新建研究对象。 |
+| `chp-2:02_CHP-2_sec_ii:l127-139` | 42／物理第27页 | 在首轮迁移上对照印本复核：Paul III墓移入后殿左侧壁龛；Urban VIII墓像、1639复工、两次停工、1644完工尝试及1647年Justice完成；转入嘉布遣会教堂/修院工程、请愿和王族装饰争议。Antonio修会身份、性格评价和枢机身份拆开；教堂与修院邻接Ludovisi庄园分别建statement； Urban VIII对Bernini的其他委托与墓葬停工分开。L139注1作者尾段连回L191；Council跨页及L138动机续句链接保留。 | 复用cand-4520–cand-4536，不新增候选；62条mention（含Europe与Rome两个经偏移核验的定位），34条statement（首轮27条上新增7条）。26条关系候选，23条具两端点，3条对象未具名（泛称欧洲人物、Peretti计划对象、外国王族）；区分Antonio—Capuchins成员关系、Urban—Bernini委托、Urban撤回许可、家族流亡与Haskell评价。未生成正式关系。 |
 
-印刷页42已目视核对：L134行首句点、L137行首短横线不见于印本，`in'Roman`印为`in Roman`。原S0和`original_quote`保留OCR。迁移后全书73段reviewed/complete、20段excluded、701段queued；候选4,534、提及2,580、原书断言1,371。第2章为26段迁移、9段排除、35段queued。下一段为`sec_ii:l141-145`。
+2026-10-08语义复核确认：L134行首句点及L137行首短横线不见于印本；L137印本为`in-Roman`，原S0和`original_quote`继续保留OCR形式。`There for eight years`指向前段墓龛，现作双向statement链接而非误作关系端点；“Urban VIII overwhelmed Bernini”独立为Urban—Bernini关系候选。另拆出二次停工、Barberini被逐出Rome、Antonio身份/性格/枢机身份、Capuchin请愿与教皇撤回许可，并补充修院位置边。脚注1中L139的P. Domenico da Isnello与L191引文及研究归属statement互链；Council of Trent真实跨页句与L138→L142纹章动机续句保持双向连接。严格审计：34条statement、62条mention、26条关系候选（23端点齐全、3开放），无新增实体或S6正式边。
 
-## 已完成迁移：第II节 L141–145（2026-09-27）
+## 第II节 L141–145（首轮迁移及2026-10-08语义复核）
 
 | 规范段 | 印刷页／PDF页 | 句意与语义判断 | 提及、断言与关系线索 |
 |---|---:|---|---|
-| `chp-2:02_CHP-2_sec_ii:l141-145` | 43／物理第28页 | 续完Urban VIII不愿其他王族纹章与Barberini纹章并列的归因判断，记录装饰责任与木制礼拜堂约定；继而叙述Cardinal S. Onofrio订制木制烛台和十字架、Capuchin退还陈设、教皇坚持接收烛台、高坛的类似争议、铜制圣体龛与金属枝形烛台方案、家族礼拜堂比较、简单装饰规则和妥协。段尾记录Urban VIII与Antonio Barberini的祭坛画委托、Guido Reni《践踏魔鬼的圣弥额尔》、Haskell的审美评价、其他未具名祭坛画贡献者和未具名Barberini侄辈的装饰参与。 | 新增9个候选（cand-4537–cand-4545）、38条精确跨度提及和24条原书断言。木制物件的退回、烛台被接收、圣体龛改用pietre fine、枝形烛台可省略分别记录；家族礼拜堂中的青铜烛台与铁栅栏作为比较对象，未推定同一制作者。五位后续艺术家的作品标题、数量和逐件归属不明确；Baccio Ciarpi为Pietro da Cortona之师按原书记作关系候选。脚注1待与注释L192交叉链接。 |
+| `chp-2:02_CHP-2_sec_ii:l141-145` | 43／物理第28页 | 复核L142承接p.42纹章动机并记录装饰责任/木制礼拜堂方案；L143记录Cardinal S. Onofrio订制烛台与十字架、Capuchin退还、Urban坚持接收烛台及高坛争议、铜制圣体龛和金属枝形烛台方案、特许例外、材料妥协与Capuchin再次申诉；L144–145记录Pope/Antonio委托祭坛画、Reni作品、其他艺术家贡献及Ciarpi师承、Barberini侄辈参与。 | 沿用首轮9个候选（cand-4537–cand-4545）、38条mention；24条首轮statement复核为29条。25条S2关系候选，24条端点齐全、1条共同祭坛画委托的具体作品对象未明。分别记录木烛台/十字架退还、五名艺术家对未具名作品组的贡献及作品/教堂装饰关系，不把群组陈述伪装成逐件归属。Reni作品评价与L192 Malvasia注1双向互链；未生成正式关系。 |
 
-印刷页43已目视核对：`pietrefine`印为`pietre fine`，L145末尾OCR单引号不见于印本，L144脚注1为time后的上标。原S0与`original_quote`不改。迁移后全书74段reviewed/complete、20段excluded、700段queued；候选4,543、提及2,618、原书断言1,395。第2章为27段迁移、9段排除、34段queued；表审计0结构错误，两条既有enrichment来源定位警告仍在，相关测试17项通过。下一段按S0源序为注释`sec_ii:l147-193`。
+印刷页43已目视核对：`pietrefine`印为`pietre fine`，L145末尾OCR单引号不见于印本，L144脚注1为`time`后的上标；S0和`original_quote`保留OCR形式。2026-10-08复核将首轮24条statement细化为29条、复用9个候选和38条mention；补标25条关系候选，24条端点齐全，1条共同委托的作品端点未明。将两组木制陈设的退还和五位艺术家对未具名作品组的贡献分别记录，不推定逐件归属。L192的Malvasia引用现与Reni作品评价双向互链。严格审计：全书12,300条statement、27,398条mention、2,512条关系候选（2,491端点齐全、21开放），`s2_missing=[]`、`errors=[]`。下一源段按顺序为已迁移的注释`sec_ii:l147-193`，需继续复核注释断言与关系覆盖。
 
 
 ## 已完成迁移：第II节 L147–193、视觉转录及第IV节标题核对（2026-09-27）
