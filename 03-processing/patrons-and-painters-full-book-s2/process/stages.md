@@ -7457,3 +7457,11 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 对12,263条statement按各自`source_file`及`qualifiers.source_line_start/end`校验行号和原句：源文件缺失0、越界0、原句不在指定范围0；7,246条与行段逐字相同，5,013条原句在行段内，4条忽略行末/换行空白后匹配。175条第一章statement的`source_file`为旧整章路径`01_CHP-1.md`，而`segment_id`关联分节文件；其原句均能在各自标注行段内复现。第一章来源路径作为既有S2定位保留，不将该整章副本计入S0来源或覆盖。
 
 `entity-candidates.csv`当前有450个`suggested_type`空值，407条状态open、43条excluded；其中378条`candidate_origin=body-mention`，72条有`index_entry_id`。空类型分布不能由机械检查判为错误或已解决；S3须按同一性和taxonomy对open候选逐条决定，仍不适用类型者保持undecided/type-pending。S2本轮未进入S3，也未创建KU。
+
+## 第八章p.224“Bologna (Plate 209)”书目匹配（2026-10-08）
+
+复核`08_CHP-8_sec_ii.md` L159–161、规范书目`21_CHP-21Bibliography.md` L217及本书图版目录。注释说“Bologna (Plate 209) publishes a replica...” 。书目L217唯一列出`Bologna, Ferdinando: Francesco Solimena, Napoli 1958.`，该书主题与Solimena的Dido画吻合；本书图版目录将同一Dido图像列为Plate 33a，排除把Plate 209误作本书图版号。由此，p.224语句中的书目指称已在S2解析为Ferdinando Bologna的1958年Solimena专著。
+
+连接正文候选`cand-7759`到书目statement `st-chp21-bib-l207-241-entry-07`，其object为已有书目候选`cand-7348`。候选表暂将cand-7759的规范显示名更新为该书名，并分别在cand-7348/cand-7759 detail中说明：书内引文身份已可解析，但两个candidate ID在S2保持分立，S3按same/new等规则作身份裁决。更新`st-chp8-p224-replica-publication-report`的claim/qualification，添加`linked_bibliography_statement_ids`、`bibliographic_identity_pending=false`及一条cand-7759与cand-7348的S3 identity question；更新replica cand-7760的detail，保留其为Haskell报告的另一件作品且具体实物/日期未明。
+
+没有独立阅读Bologna专著，故仍将版次内容视为Haskell转述；Scholz-Forni collection的类型待定标记保持true，未臆测馆藏机构或强制类型。全书identity questions现为16条statement、25个问题、20个不同候选ID，均待S3而非S2合并。

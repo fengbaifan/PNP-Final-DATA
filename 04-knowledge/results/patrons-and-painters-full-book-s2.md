@@ -53,13 +53,15 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 递归引用完整性
 
-对全部statement嵌套字段和mentions的候选ID进行递归核对：78,283个候选ID引用、10,114个不同候选均可解析；17,890个类型化statement引用全部存在；17,870个段落引用涉及591个不同segment，均可解析，`#L`锚点越界为0。新增的S3身份问题当前共15条statement、24个问题、18个不同候选ID，引用均存在。`candidate-backlog.csv`当前不存在；无新具名且可独立识别的缺失端点。其余全书断言限定语与语义风险仍待终审，S2尚未交接。
+对全部statement嵌套字段和mentions的候选ID进行递归核对：78,288个候选ID引用、10,114个不同候选均可解析；17,891个类型化statement引用全部存在；17,870个段落引用涉及591个不同segment，均可解析，`#L`锚点越界为0。新增的S3身份问题当前共16条statement、25个问题、20个不同候选ID，引用均存在。`candidate-backlog.csv`当前不存在；无新具名且可独立识别的缺失端点。其余全书断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
 对12,263条statement按其自身`source_file`及`source_line_start/end`复核：源文件缺失、行范围越界、引文不在指定范围内均为0。7,246条引文与行段完全相同，5,013条引文位于所指行段内，4条需忽略换行空白后匹配。另有175条第一章statement沿用`01_CHP-1.md`整章来源路径，而`segment_id`指向规范分节来源；这175条引文和行号均可在各自`source_file`中复现，保留为旧S2定位，不另计来源段或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
+
+第8章p.224注释中的“Bologna (Plate 209)”已通过本书内部材料识别为Ferdinando Bologna的《Francesco Solimena》（Napoli, 1958）：书目p.416 entry 7与作者、题名、年份一致；本书自身图版目录将该画列为Plate 33a，因此209是被引书的图版号。正文候选`cand-7759`与书目候选`cand-7348`已互链，但保留为两个S2候选并新增S3身份对齐问题；被引书未独立查阅，replica的具体实物身份仍未核验。
 
 第8章p.224注释仍有`collection_type_pending=true`：`cand-7761`为Scholz-Forni art collection，现行taxonomy没有collection类型，按规则保留空类型，不改成institution、archive或work。
 

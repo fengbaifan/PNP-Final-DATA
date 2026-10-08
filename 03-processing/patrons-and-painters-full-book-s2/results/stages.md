@@ -1699,3 +1699,7 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内引用身份闭合，原文论文未独立查阅。12,263条statement的source_file/行段均可复现引文，无缺失、越界或范围错配；第一章175条旧整章source_file路径保留，segment仍连接规范分节来源，不增加覆盖计数。
 
 递归statement/mention候选引用与statement/segment引用均无悬空项；唯一仍为真值的pending是Scholz-Forni收藏cand-7761的collection类型待决。候选表另有450个空suggested_type（407 open、43 excluded），留给S3逐项分类和身份判定。当前S2仍未交接。
+
+## 第八章p.224书目指称消歧（2026-10-08）
+
+“Bologna (Plate 209)”与书目p.416 entry 7（Ferdinando Bologna, Francesco Solimena, Napoli 1958）对应；本书自身Plate 33a列出Solimena的Dido画，说明209为该被引书的图版。statement已互链书目记录，内部citation pending关闭。cand-7759与cand-7348仍分开，交S3比对；被引书未独立查阅，replica具体实物仍未识别。Scholz-Forni collection的类型待定保留。
