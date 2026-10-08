@@ -7667,3 +7667,13 @@ p.351现有28条S2关系候选，28/28具标量端点；没有写入S6正式关�
 新增10条statement，现有31条；mention净增3条，现有76条。拆分Tiepolo大幅画的作者、与五幅组的边界、原定受赠者及Algarotti的订画关系；记录Villa Cordellina装饰、1743年书信作者/收件人、Smith放弃权利、两件版本的来源限定及Cognacq-Jay模型画所示构想。将“拟寄给Brühl”限定为计划，不断言收件或完成转移；注2分别保留Morassi归属的长期友谊说法、Haskell所说的1737年米兰相遇可能性及“1743年前缺乏实际证据”，不把证据缺失改成未接触。注1书目页码差异和注3书信跨章同一性均交S3，不在S2合并。
 
 p.352现有18条S2关系候选，标量端点18/18齐全；不新增KU、候选或S6正式关系。写后严格表审计：1,019 KU、11,498候选、27,412 mentions、12,346 statements、832 segments，`s2_missing=[]`、`errors=[]`；仍有两条既存enrichment `source_ref`警告及通用语义审查提示。p.352局部引文、mention跨度、候选外键及statement引用均通过定向校验。受控脚本`chp14_p352_s2_reaudit.py`以p.351写后哈希为前态，先dry-run后apply；写前恢复副本保存在`%TEMP%/pnp-chp14-p352-reaudit-r2a0kc80`。本次未更新原始来源。下一源序段为p.353正文`chp-14:14_CHP-14_intro:l63-71`；全书S2仍未交接。
+
+## 第十四章p.353语义复审补正（2026-10-09）
+
+复审已有首轮记录的正文`chp-14:14_CHP-14_intro:l63-71`、注1 L185及其与p.352/p.354的续接；对照`CHP-14.pdf`物理页7。Markdown与PDF哈希不变，未改写S0。校正Tiepolo人物候选：6处人物/代词mention及statement端点从Banquet作品候选`cand-2577`或accepted-KU候选`cand-3781`改到索引人物候选`cand-2572`（T.csv#35）；新增`the author`指代mention。把`this was ... a more classical picture`改指已完成的Melbourne作品`cand-4101`，并将该句与Tiepolo—Poussin比较及Haskell的“may well surprise”判断分开。Brühl相关commission段和代词改用页码/索引子目更具体的Algarotti候选`cand-0045`，保留与一般Algarotti–Tiepolo候选`cand-0052`的S3对齐问题，不合并。
+
+重构字面清楚但原先未按对象展开的关系候选：分别记录Maecenas/Flora两幅画的`created_by` Tiepolo、`sent_to` Count Brühl及注1所载`located_at` Hermitage/De Young；将悬挂花园、Mattielli Neptune喷泉报告为Brühl的所有物；拆出未定年信件的`authored_by` Algarotti、`addressed_to` Brühl及其拟携带Banquet原modello版画供Augustus III观看的意图。位置仍限定为注释所引书内报告，不表示当前馆藏；信件和刊文未独立查阅。`cand-10291`版画与`cand-4100` Cognacq-Jay小稿、p.353的两幅Brühl作品与装饰母题均未强制合并/逐件配对。p.353已有的开放关系`st-chp14-p353-bruhl-possessions-in-the-pictures`仍保留，因为原文没有指出两种母题各进入哪一幅作品。
+
+另将p.352未完的“more awestruck and”与p.353“more disciplined”互链；p.353 L71的“As in The”与p.354续句互链。注1与第21章书目中题名、年份及页码相同的Levey条目`st-chp21-bib-l658-699-entry-14`建立双向链接；Plate 68b注释与前言版图题注回链。写入11条statement和1条mention；p.353现35条statement、75条mention。关系候选20条，其中19条端点完整、1条保持上述未决端点；没有新增KU、候选或S6正式关系。
+
+受控脚本`chp14_p353_s2_reaudit.py`默认dry-run，校验来源/PDF和两张表的写前哈希、引用、mention跨度、候选外键及关系端点；预览后apply并保存恢复副本`%TEMP%/pnp-chp14-p353-reaudit-1yt6vi0y`。写后表SHA-256：`book-statements.jsonl`=`12fc18d9139dda4c4c39ff7a11af22c82a81a5e52552a2ea222895d6bc03372c`，`mentions.csv`=`cff17d5b14c56af9173315e6c0c3a357a2596934b0839d72535b5c82a55b8195`。严格表审计：1,019 KU、11,498候选、27,413 mentions、12,357 statements、832 segments，`s2_missing=[]`、`errors=[]`；两条既存enrichment来源警告与通用语义审查提示仍在。下一处按书序复核已有首轮记录的p.354 `chp-14:14_CHP-14_intro:l73-83`；全书S2未交接。
