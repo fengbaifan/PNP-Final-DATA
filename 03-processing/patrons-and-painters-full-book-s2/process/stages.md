@@ -7727,3 +7727,13 @@ p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全
 页图校读只登记在S2的五条statement，共六项，不改`original_quote`：L128 `. add`→`add`、`Use`→`life`；L129 `confmed`→`confined`；L131 `himselff`→`himself`；L137 `picturesque.-He`→`picturesque.—He`；注2 L215 `Opéré`→`Opere`。注4与注3仍是相同的Gabbrielli引注；印本p.359未找到注4正文标记，继续标记`orphan_unresolved`，不链接到p.360注4（Leslie）。p.359的12条关系候选端点均齐全；未新增KU或正式关系。此次写回前的四表恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p359-reaudit-1p7o4p5a`。
 
 全库为1,019 KU、11,501 candidates、27,417 mentions、12,392 statements、832 segments；S2关系候选2,609条，2,588条端点齐全、21条开放。全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接尚未完成。下一处按书序为p.360正文`chp-14:14_CHP-14_intro:l139-146`。
+
+## 第十四章p.360语义复审（2026-10-09）
+
+按书序复核正文`chp-14:14_CHP-14_intro:l139-146`和注1–4（L218–220），对照`CHP-14.pdf`物理页14，并核对p.359末句及Plate 60题注。源Markdown SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`、PDF SHA-256=`f871a00a63cfa5a9f229930cfd4b0d979baa0491ca4e7fe4d50404fa020a52e0`，未变化；未改S0。页内原有22条statement和39条mentions；复审后23条statement、43条mentions，候选净增1个。将`st-chp14-p360-synthesis-resolution`的subject从人物`cand-0059`清空：语法主语是p.359续至本页的风格冲突，不创建虚构事件候选。新增作品候选`cand-11523`与mention `m-chp14-p360-0042`记录碑铭文字“Algarottus non omnis”；另补其承载对象`cand-4107`的mention `m-chp14-p360-0043`。把碑铭源自Horace诗句和碑铭置于Algarotti纪念碑拆成两条独立关系候选，并以Plate 60题注互链；印本中的Plate 60是Volpato悼念者版画，不等同于纪念碑或碑铭。
+
+注2 L219复核后补入两条Algarotti mention：`m-chp14-p360-0040`对应Halsband讨论句，`m-chp14-p360-0041`对应Biffi引语。把`st-chp14-p360-note2-biffi-cecilia`的端点定为Algarotti（cand-0050）与Cecilia Emo（cand-10418），登记为Haskell转引Biffi的关系候选；这保留了原文归属，未将未查阅的书信写成独立核实的生平事实。注2对p.328 note 5的回链仍不证明两处出自同一手稿。注4仍是p.360 Leslie引注，不与p.359无正文标记且重复注3的Gabbrielli注4合并。
+
+页图确认三项印本校读：L143 `-psychological`→`psychological`；L146 `Non omnis mortar`→`Non omnis moriar`；注3 L219 OCR编号`8`→印本`3`。更正只保存在statement `ocr_corrections`，为既有记录补齐来源文件及印本依据；不改`original_quote`。p.360现7条关系候选、端点7/7齐全；没有新增KU或正式关系。此次写回前四表恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p360-reaudit-_debo496`。
+
+全库为1,019 KU、11,502 candidates、27,421 mentions、12,393 statements、832 segments；S2关系候选2,612条，2,591条端点齐全、21条开放。全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接尚未完成。下一处按书序复核p.361版图说明`chp-14:14_CHP-14_intro:l148-149`。

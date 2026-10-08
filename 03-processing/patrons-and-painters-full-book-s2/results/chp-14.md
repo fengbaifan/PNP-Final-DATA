@@ -134,3 +134,11 @@ p.353现35条statement、75条mention和20条关系候选（19条端点齐全、
 对照印本物理页13复核正文L127–137及注1–4（L214–217），并核对p.358/p.360跨页续接。24条statement、49条mention均保持原数；新建`cand-11522`记录Algarotti欣赏并由Tesi复制的未具名原作组，与复制品候选`cand-10400`分开。将`m-chp14-p359-0025`映射至原作组，将`m-chp14-p359-0040`“the picturesque”改映射至既有概念`cand-10384`。把理论作品评价statement的主语从Algarotti修正为作品候选`cand-10404`，并在旅行断言中明确原作和复制品均未识别、行程无日期。
 
 印本校读写入五条statement的S2 `ocr_corrections`，共六项：L128 `. add`→`add`、`Use`→`life`；L129 `confmed`→`confined`；L131 `himselff`→`himself`；L137 `picturesque.-He`→`picturesque.—He`；注2 L215 `Opéré`→`Opere`。不改源Markdown、S0或`original_quote`。p.359注3、注4所引Gabbrielli相同，但注4未见正文标记，仍为`orphan_unresolved`；不与p.360注4 Leslie互链。12条本页关系候选端点齐全；没有新增KU、statement、mention或正式关系。全库严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接未完成。下一页按书序为p.360。
+
+## 第十四章p.360语义复审补正（2026-10-09）
+
+对照印本物理页14复核正文L140–146和注1–4（L218–220），并核对p.359续句与Plate 60题注。原22条statement经复审为23条，原39条mention补至43条；新增碑铭候选`cand-11523`和4条mention。改正风格冲突statement的主体：冲突本身没有人物候选，不把人物Algarotti误作“待解决之战”的主体。将“Algarottus non omnis”登记为纪念碑碑铭并映射至碑铭候选；把其改编Horace诗句与安置于Algarotti纪念碑分列为两条S2关系候选。纪念碑`cand-4107`与Plate 60版画`cand-4042`保持不同对象；题注只证明版画表现墓前悼念者，不声称图中展示碑铭。
+
+为注2 L219的两处Algarotti补入独立mention。将Biffi引语拆清为Algarotti—Cecilia Emo的有据关系候选，speaker仍为Biffi（由Haskell转引），并保留原信未查、p.328 note 5身份不确定的限定；不新增正式关系。注4 C. R. Leslie的Memoirs引文（印本Memoirs）独立保留，与p.359 note 4无标记的Gabbrielli重复引注不混淆。印本校读：L143 `-psychological`→`psychological`，L146 `Non omnis mortar`→`Non omnis moriar`，注3 L219编号`8`→`3`。修订仅在S2，原始引文和S0未改。
+
+p.360现7条关系候选，7/7端点齐全。全库严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）；全书S2未交接。下一项按书序为p.361版图说明。

@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,501个候选、27,417条mentions及12,392条statement；索引候选2,934行。p.359复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,609条，2,588条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；p.359复审后的全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
+当前表包含1,019个KU、11,502个候选、27,421条mentions及12,393条statement；索引候选2,934行。p.360复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,612条，2,591条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；p.360复审后的全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -55,6 +55,8 @@ p.357复审共58条statement、79条mention和36条关系候选（36/36端点齐
 p.358复审36条statement、52条mention及17个既有候选，无数据行增删；仅为4条statement加入5项印本校读。注5 OCR标号误作6已按页图改记；注2中的印本方括号保留。正文对绘画类型责任的表述仍限定为书信刊行后逐渐形成的观念，p.357/p.359续句及注释链接有效。全库总数不变，严格表审计`errors=[]`、`s2_missing=[]`。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`；全书S2交接仍未完成。
 
 p.359复审24条statement、49条mention，无增删；新增未具名原作候选`cand-11522`并与Tesi复制品`cand-10400`分开，修正两条mention映射和理论作品评价的主语。对照印本为五条statement记录六项OCR校读，未改S0或原始引文。注4仍是无正文标记、与注3重复的孤立注释；12条本页关系候选端点齐全。严格审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.360 `chp-14:14_CHP-14_intro:l139-146`；全书S2交接仍未完成。
+
+p.360复审后为23条statement、43条mention和7条本页关系候选（7/7端点齐全）。新增碑铭候选`cand-11523`，补入碑铭、纪念碑及注2中Algarotti两处mention；拆分碑铭改编Horace诗句与置于纪念碑的断言，并将Biffi引语限定为Algarotti—Cecilia Emo关系候选。三项OCR校读只记在S2；版画、纪念碑与碑铭分开，p.359注4与本页注4分开。严格审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.361 `chp-14:14_CHP-14_intro:l148-149`；全书S2交接仍未完成。
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 

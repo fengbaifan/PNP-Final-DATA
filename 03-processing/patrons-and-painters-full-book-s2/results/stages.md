@@ -1804,3 +1804,7 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第十四章p.359语义复审（2026-10-09）
 
 复核正文、注1–4及p.358/p.360续句。24条statement、49条mention无增删；新增未具名原作候选`cand-11522`，与Tesi制作的复制品`cand-10400`区分。修正“the works he especially admired”及“the picturesque”两条mention映射，并将理论作品评价statement的主语改为`cand-10404`。对照印本为五条statement记录六项OCR校读；S0及`original_quote`均未改。p.359注4无可见正文标记且重复注3，仍为`orphan_unresolved`，不与p.360注4混同。12条本页关系候选端点齐全；未新增KU、statement、mention或正式关系。当前全库11,501 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.360 `chp-14:14_CHP-14_intro:l139-146`；全书S2未交接。
+
+## 第十四章p.360语义复审（2026-10-09）
+
+对照物理页14复核正文、注1–4及p.359/p.360跨页链接。新增碑铭候选`cand-11523`和4条mention，补拆碑铭改写Horace诗句、碑铭位于Algarotti纪念碑两条关系候选；修正风格冲突statement的错误人物subject，并把Biffi引语按Algarotti—Cecilia Emo保留为有出处限定的关系候选。p.360现23条statement、43条mention、7条关系候选（端点7/7齐全）。三项印本校读写入S2；原文及S0不改。Plate 60版画、纪念碑与碑铭分立；p.359 note 4仍与本页Leslie note 4分开。全库11,502 candidates、27,421 mentions、12,393 statements；严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.361 `chp-14:14_CHP-14_intro:l148-149`；全书S2未交接。
