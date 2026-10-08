@@ -7571,3 +7571,12 @@ L98外交事务转交侄辈的statement标为关系候选，保留已有“未�
 ## 第二章Plate 8题注与书前目录关系候选复核（2026-10-08）
 
 复核规范段`chp-2:02_CHP-2_sec_ii:l115-116`与书前图版目录`front-matter:00_05_List_of_Plates:l32-65`。两处分别表述Plate 8家庭礼拜堂位于S. Andrea della Valle、由Matteo Castelli设计；图版号和前言目录明确连接到Barberini Chapel候选`cand-3904`。两处关系statement各自保留为来源证据，共标记4条关系候选（每一来源各含空间定位与设计署名），不把礼拜堂等同整座教堂，不把设计署名扩展为全教堂装饰作者，也不重复建实体。正文段3条mention与候选`cand-3904`（礼拜堂）、`cand-3129`（教堂）、`cand-3837`（Castelli）相符。未生成正式S6边。下一段为正文与肖像描述续句`chp-2:02_CHP-2_sec_ii:l118-125`。
+
+
+## 第二章p.41正文与注释回链语义复核（2026-10-08）
+
+对照规范段 chp-2:02_CHP-2_sec_ii:l118-125、后置注释 l147-193 和 CHP-2.pdf 物理第26页。p.41正文从29条statement调整为35条，新增6条原书claim和1条 papal land and sea forces 机构候选 cand-11519 及精确mention。拆分1627年Bernini青铜像委托与Velletri安置、Carlo军事统帅职务与Julius Caesar比较；拆出Urban VIII—Carlo兄弟关系、Giori对Sacchi的艺术欣赏、Machiavelli对《君主论》的著作归属，以及Guglielmo della Porta对Paul III墓的书内归属，和Paul III召集特伦托会议的跨页陈述。另将Urban VIII—Julius II比较的主语改正为Urban VIII。
+
+本段28条statement列为关系候选；3条因一般性自我纪念物或未指明的Paul V、Sixtus V纪念物缺具体作品端点而保持开放。Bernini/Algardi制作或改制、Senate下令、Urban VIII委托、Giori监督及Claude作品的赞助/所有均保留原文语气与对象范围；不新增正式关系。脚注1–6逐项与正文statement双向链接，注6的两幅Seaports仅落实到National Gallery／Louvre的机构集合，不将作品逐一指配。L119肖像续句与前段互链；Council of Trent与右侧墓龛的续接均核实到L127–139。引注出版物未独立查阅。
+
+写后严格阶段审计：1,019 KU、11,498 candidates、27,398 mentions、12,288 statements、832 segments；关系候选2,462条，2,445条标量端点齐全、17条开放；s2_missing=[]、errors=[]。两条既有enrichment source_ref告警和通用语义审查提示仍在。未写入relations.csv；全书S2交接继续，下一源段为 chp-2:02_CHP-2_sec_ii:l127-139。

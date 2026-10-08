@@ -438,3 +438,10 @@ p.40正文及注1–5完成语义复核：30条原书statement、64条mentions�
 ## 第二章Plate 8题注与书前目录对读（2026-10-08）
 
 对正文及书前图版目录的Barberini Chapel题注分别保留位置与设计署名statement，复用同一组礼拜堂、教堂和Castelli候选；四条caption陈述均列入关系候选，不将内部礼拜堂扩大为整座教堂。当前严格审计无错误，全书关系候选2,433条（2,419条端点齐全、14条开放）；下一段按来源顺序为`l118-125`。
+
+
+## 第二章p.41正文及后置脚注（2026-10-08）
+
+核读 chp-2:02_CHP-2_sec_ii:l118-125 并回核同页PDF物理第26页。35条原书statement、70条mention；补入papal land and sea forces候选及mention。分开Velletri铜像的委托与安装、Carlo的军职与修辞比较、Giori对Bernini/Sacchi分别的欣赏、兄弟关系、Paul III墓归属与Council of Trent召集。纠正一条比较陈述的端点，使Julius II比较对应Urban VIII而非墓葬作品。
+
+28条关系statement保留为S2候选，其中3条缺具体作品端点；未生成正式关系。注1–6与相关正文statement双向链接，注6的两幅Seaports只关联到两机构集合，保留作品—机构对应未定；注引资料未独立查阅。L119续接L103–104，Council和墓龛语句续至L127–139。严格审计：12,288 statements、27,398 mentions、2,462条关系候选、2,445条端点齐全、17条开放；s2_missing=[]、errors=[]。下一段按来源顺序为 chp-2:02_CHP-2_sec_ii:l127-139。

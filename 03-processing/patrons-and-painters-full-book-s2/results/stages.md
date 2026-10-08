@@ -1769,3 +1769,8 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第二章Plate 8题注及书前目录（2026-10-08）
 
 正文题注与书前目录各有两条caption关系statement，分别记录礼拜堂位置及Castelli设计署名；复用Barberini Chapel、S. Andrea della Valle、Castelli候选，四条均列为关系候选，保留caption attribution边界，不写正式边。严格表审计无错误；全书关系候选2,433条、2,419条端点齐全、14条开放。下一段为`chp-2:02_CHP-2_sec_ii:l118-125`。详见[过程记录](../process/stages.md)。
+
+
+## 第二章p.41正文与注1–6交叉链接（2026-10-08）
+
+复核正文与印本p.41（PDF物理第26页），把首轮29条statement细化为35条，增添6条断言和1个军事组织候选mention。拆分委托/安置、军职/人物比较及Guglielmo della Porta墓葬归属/Paul III召集会议；补录Urban VIII与Carlo兄弟关系、Machiavelli与《君主论》归属及Giori对Sacchi的欣赏。全段28条关系候选，3条具体作品端点开放；没有进入S6。脚注1–6正反链接完成，注6不推断Seaports与两所美术馆的单幅对应。严格审计为12,288 statements、27,398 mentions、2,462关系候选（2,445端点齐全、17开放），s2_missing=[]、errors=[]。后续核读 l127-139，并复查其已迁移墓葬制作/位置关系。
