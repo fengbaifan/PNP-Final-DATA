@@ -1808,3 +1808,9 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第十四章p.360语义复审（2026-10-09）
 
 对照物理页14复核正文、注1–4及p.359/p.360跨页链接。新增碑铭候选`cand-11523`和4条mention，补拆碑铭改写Horace诗句、碑铭位于Algarotti纪念碑两条关系候选；修正风格冲突statement的错误人物subject，并把Biffi引语按Algarotti—Cecilia Emo保留为有出处限定的关系候选。p.360现23条statement、43条mention、7条关系候选（端点7/7齐全）。三项印本校读写入S2；原文及S0不改。Plate 60版画、纪念碑与碑铭分立；p.359 note 4仍与本页Leslie note 4分开。全库11,502 candidates、27,421 mentions、12,393 statements；严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.361 `chp-14:14_CHP-14_intro:l148-149`；全书S2未交接。
+
+p.361按物理页15复核Plate 61：保留既有精确S0 mention，只拆分并补正为早期/最终版本作品关系候选，以及页题所述Tiepolo受Algarotti影响的归属候选。后者限定为印本页题主张；S0漏识的页题和“b. Final version”只记视觉证据，不伪造mention。另将书前Plate 61a/61b两条作品—作者caption标为关系候选；不新增candidate或mention。严格审计`errors=[]`、`s2_missing=[]`。
+
+复核Plate 62–63共用段`chp-14:14_CHP-14_intro:l151-153`及物理页16–17。p.362拆分Canaletto作品作者、作品描绘Prà della Valle、Prà位于Padua三项关系候选，并新增2条精确嵌套mention。书前Padua定位端点改为地点`cand-3960`→城市`cand-3944`；索引种子`cand-1804`留待S3对齐。p.363图像页题注仍为截断文本；使用Plate 63书前完整caption建立交叉引用，不改S0或静默补全。相应creator/site statements均进入关系候选。严格审计`errors=[]`、`s2_missing=[]`。
+
+复核Plate 64物理页18旋转题注，新增地点候选`cand-11524`和倒序OCR精确mention `m-chp14-plates61-64-0014`；分开绘画作者与描绘别墅的主张，并将别墅定位Paese、Paese近Treviso以及题名与John Strange的来源关联分列。匿名London private collection保留开放端点。全库11,503 candidates、27,424 mentions、12,397 statements；关系候选2,632条、端点齐全2,610条、开放22条；`s2_missing=[]`、`errors=[]`。全量同步闭合通过（303 passed、2 subtests passed）。下一项转入第十五章p.361 `chp-15:15_CHP-15_sec_i:l3-14`。

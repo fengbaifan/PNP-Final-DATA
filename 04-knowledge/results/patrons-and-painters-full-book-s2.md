@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,502个候选、27,421条mentions及12,393条statement；索引候选2,934行。p.360复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,612条，2,591条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；p.360复审后的全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
+当前表包含1,019个KU、11,503个候选、27,424条mentions及12,397条statement；索引候选2,934行。p.364复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；全量同步闭合303项测试与2个子测试通过。两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,632条，2,610条端点齐全，22条仍开放并保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`。机械检查不等于语义准确或实体召回完整。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -57,6 +57,12 @@ p.358复审36条statement、52条mention及17个既有候选，无数据行增�
 p.359复审24条statement、49条mention，无增删；新增未具名原作候选`cand-11522`并与Tesi复制品`cand-10400`分开，修正两条mention映射和理论作品评价的主语。对照印本为五条statement记录六项OCR校读，未改S0或原始引文。注4仍是无正文标记、与注3重复的孤立注释；12条本页关系候选端点齐全。严格审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.360 `chp-14:14_CHP-14_intro:l139-146`；全书S2交接仍未完成。
 
 p.360复审后为23条statement、43条mention和7条本页关系候选（7/7端点齐全）。新增碑铭候选`cand-11523`，补入碑铭、纪念碑及注2中Algarotti两处mention；拆分碑铭改编Horace诗句与置于纪念碑的断言，并将Biffi引语限定为Algarotti—Cecilia Emo关系候选。三项OCR校读只记在S2；版画、纪念碑与碑铭分开，p.359注4与本页注4分开。严格审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.361 `chp-14:14_CHP-14_intro:l148-149`；全书S2交接仍未完成。
+
+p.361版图说明复审后为2条statement、2条本段关系候选；另将书前Plate 61a/61b的两条作品—作者caption归类为关系候选。将早期版与最终版的作品关系和页题归属于Algarotti的影响表述拆开；后者保留为印本页题的主张，不当作独立核实的历史事实。S0只含“a. Early version”；“b. Final version”及主页题按扫描图读取，无伪造mention或改写OCR。印本页题拼作“Antony”，书前图版目录拼作“Anthony”，两种文本层保持原样。严格审计`errors=[]`、`s2_missing=[]`；全书关系候选2,616条、2,595条端点齐全、21条开放。
+
+p.362–363图版题注复核后新增2条嵌套地点mention和2条statement，Plate 62的作者、描绘地点、地点在Padua分项记录为关系候选；书前同名索引seed留S3对齐。Plate 63 OCR/扫描题注为截断片段，完整题名只由单独的书前图版目录支持，S0不补写。对应已有的p.62与p.63书前作者/地点statement也标为关系候选。阶段审计后全库关系候选2,625条、2,604条端点齐全、21条开放。
+
+p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把作品作者与画作描绘的John Strange别墅分开，并将别墅位于Paese、Paese近Treviso及题名与Strange的关联分别记录。匿名London private collection保留开放端点，不推断所有人。S0逐词倒序文本保留；印本视觉读数作为独立证据。严格审计`errors=[]`、`s2_missing=[]`；全书关系候选2,632条、2,610条端点齐全、22条开放。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项转入第十五章p.361 `chp-15:15_CHP-15_sec_i:l3-14`；全书S2交接仍未完成。
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 

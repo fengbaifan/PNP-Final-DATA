@@ -7737,3 +7737,27 @@ p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全
 页图确认三项印本校读：L143 `-psychological`→`psychological`；L146 `Non omnis mortar`→`Non omnis moriar`；注3 L219 OCR编号`8`→印本`3`。更正只保存在statement `ocr_corrections`，为既有记录补齐来源文件及印本依据；不改`original_quote`。p.360现7条关系候选、端点7/7齐全；没有新增KU或正式关系。此次写回前四表恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p360-reaudit-_debo496`。
 
 全库为1,019 KU、11,502 candidates、27,421 mentions、12,393 statements、832 segments；S2关系候选2,612条，2,591条端点齐全、21条开放。全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接尚未完成。下一处按书序复核p.361版图说明`chp-14:14_CHP-14_intro:l148-149`。
+
+## 第十四章p.361版图说明语义复审（2026-10-09）
+
+对照`CHP-14.pdf`物理页15及书前图版目录复核Plate 61。来源PDF SHA-256=`f871a00a63cfa5a9f229930cfd4b0d979baa0491ca4e7fe4d50404fa020a52e0`；S0文件SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`；本段SHA-256=`861ec14c5018f5e8e77a0ebeb9b043ecce96247b0ea8fd606f85e664d7537651`。不改源Markdown或S0。现有提及`m-chp14-plates61-64-0001`精确覆盖S0的`a. Early version`（字符11:27），映射至Plate 61a候选`cand-4100`。
+
+原statement把两类内容合在一项：图版副题区分早期/最终版本，页题又把Tiepolo的改画置于Algarotti影响之下。现拆成`st-chp14-p361-plate61-version-sequence`（`cand-4100`→`cand-4101`）及新增`st-chp14-p361-heading-algarotti-impact`（Tiepolo `cand-3781` `influenced_by` Algarotti `cand-0050`）。两项均标记为S2关系候选，未新增正式关系。第二项的主张严格限定为印本页题的归属，不作独立史实确认；两候选作品身份继续通过书前Plate 61a/61b caption语句引用。扫描页可见`a. Early version`和`b. Final version`，S0仅识别前者；因此复用既有精确mention，不为漏识的副题或视觉页题伪造S0 mention。视觉题名拼作“Antony”，书前图版目录拼作“Anthony”，不归一化。
+
+本次未增删候选或mentions，statement净增1；p.361本段现2条statement和2条关系候选，端点2/2齐全。另将书前Plate 61a/61b的两条既有作品—作者caption statement标为关系候选，保留两版本分别归属Tiepolo。该阶段全库为1,019 KU、11,502 candidates、27,421 mentions、12,394 statements、832 segments；关系候选2,616条，2,595条端点齐全、21条开放。严格阶段审计通过：`s2_missing=[]`、`errors=[]`；保留两条既存enrichment `source_ref`警告。写回前的statement及coverage表恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p361-reaudit-pc6t5_na`。
+
+## 第十四章Plate 62–63题注复审（2026-10-09）
+
+复核共享S0段`chp-14:14_CHP-14_intro:l151-153`及`CHP-14.pdf`物理页16–17。Plate 62印本题注为“Canaletto: The Prà della Valle in Padua”；S0的“Prato”保留，并以S2校读指向印本“Prà”。将原合并statement拆为Canaletto对作品`cand-4014`的题注归属、作品描绘Prà della Valle地点`cand-3960`、地点位于Padua `cand-3944`三项关系候选；新增mentions `m-chp14-plates61-64-0012`（`Prato della Valle`，字符25:42）及`m-chp14-plates61-64-0013`（`Padua`，字符46:51），均为嵌套于作品题名的精确S0跨度。将书前p.62位置语句改为`cand-3960`→`cand-3944`；索引种子`cand-1804`（Padua条目含Prà della Valle子项）与接收KU候选`cand-3944`留给S3对齐。
+
+Plate 63正文图片页的题注只见截断片段“Domenico Cerato: Project for the r”。对照物理页17图像和书前Plate 63完整条目，确认来源关系仍应是归属于Cerato的提案作品、提案涉及Prà della Valle；不把完整标题补入S0。将已有p.363题注statement及书前creator/site statements标记为关系候选，并保留两源交叉引用。此段没有新增候选或statement；p.362新增2条mentions，p.362现3条关系候选，p.363现1条图像页关系候选。
+
+本批完成后全库为1,019 KU、11,502 candidates、27,423 mentions、12,396 statements、832 segments；关系候选2,625条，2,604条端点齐全、21条开放。严格阶段审计通过：`s2_missing=[]`、`errors=[]`。下一项按书序复核第十四章Plate 64（物理页18，`chp-14:14_CHP-14_intro:l155-166`）；全书S2交接仍未完成。
+
+## 第十四章Plate 64题注复审（2026-10-09）
+
+对照`CHP-14.pdf`物理页18复核旋转题注。印本读作“Francesco Guardi: View of John Strange’s villa at Paese near Treviso”，S0逐词倒序“osiverT … ocsecnarF”保持不变；新增地点候选`cand-11524`（John Strange在Paese的别墅，`place`，保持open），并为精确S0倒序词`alliv`（字符32:37）新增mention `m-chp14-plates61-64-0014`。该建筑与描绘它的绘画`cand-4036`及Paese/Treviso两个地点分别建模。
+
+将p.364 image statement拆成Guardi题注归属和绘画描绘该别墅两项关系候选。修订书前题注关系端点：别墅`cand-11524`位于Paese `cand-3945`，Paese近Treviso `cand-3981`；题名将别墅与John Strange `cand-3817`关联，但不据此断言法律所有权。书前“Private Collection, London”仍为对象未明的来源时点位置statement，关系端点保持开放，不创建虚构收藏机构。p.64书前creator、地点、人物关联及匿名收藏陈述与本页题注分别保留。
+
+本页新增1个候选、1条mention、1条statement；本页新增/重标7条关系候选，其中匿名收藏端点开放。全库严格阶段审计通过：1,019 KU、11,503 candidates、27,424 mentions、12,397 statements、832 segments；关系候选2,632条，2,610条端点齐全、22条开放；`s2_missing=[]`、`errors=[]`。全量同步闭合通过（303 passed、2 subtests passed）。两条enrichment `source_ref`警告仍在。写回前恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p364-villa-review-k8x5qqjt`。下一项转入第十五章书序复核p.361正文`chp-15:15_CHP-15_sec_i:l3-14`；全书S2交接仍未完成。

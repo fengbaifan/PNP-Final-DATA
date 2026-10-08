@@ -23476,6 +23476,9 @@ m-chp14-plates61-64-0008,chp-14:14_CHP-14_intro:l155-166,cand-3817,nhoJfo,49,55,
 m-chp14-plates61-64-0009,chp-14:14_CHP-14_intro:l155-166,cand-3817,egnartS,41,48,OCR reverses the printed caption; token is part of ‘John Strange’s’.
 m-chp14-plates61-64-0010,chp-14:14_CHP-14_intro:l155-166,cand-3945,eseaP,23,28,OCR reverses the printed caption; page image reads Paese.
 m-chp14-plates61-64-0011,chp-14:14_CHP-14_intro:l155-166,cand-3981,osiverT,10,17,OCR reverses the printed caption; page image reads Treviso.
+m-chp14-plates61-64-0012,chp-14:14_CHP-14_intro:l151-153,cand-3960,Prato della Valle,25,42,"Nested place mention inside the full work-title mention; S0 OCR reads “Prato”, while the scan reads “Prà”."
+m-chp14-plates61-64-0013,chp-14:14_CHP-14_intro:l151-153,cand-3944,Padua,46,51,Place context for Prà della Valle; not the physical repository of the depicted work.
+m-chp14-plates61-64-0014,chp-14:14_CHP-14_intro:l155-166,cand-11524,alliv,32,37,Rotated OCR token for “villa”; physical p.18 reads the caption as John Strange’s villa at Paese near Treviso.
 m-chp15-p361-0001,chp-15:15_CHP-15_sec_i:l3-14,cand-0050,Algarotti,37,46,
 m-chp15-p361-0002,chp-15:15_CHP-15_sec_i:l3-14,cand-1901,Piazzetta,120,129,
 m-chp15-p361-0003,chp-15:15_CHP-15_sec_i:l3-14,cand-2569,Tiepolo,159,166,
