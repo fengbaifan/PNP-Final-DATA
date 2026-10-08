@@ -7313,3 +7313,16 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本默认dry-run，锁定候选、mentions、statements、segments、coverage、扫描器、taxonomy、schema及5份第九章规范来源。计划SHA-256=c07457d2e420b3bcb2f758e577f56b511aa73f5eafa136276e140649b3719b2e；脚本SHA-256=46e87646ab8e99113a93a0f7354c9e022310f63c71eeddcdff918cde6de5ea1c。表SHA-256写前→写后：候选64b00d3499f13c8340fa9a55250ecaec2f46326197d5eb169ec49615a789691c→ad016f18b25aa2e9d0ce75be7399ac5a62b3ccd51b882100c9b60bb14cad1ffd；mentions c9b56e91864305d3f87436bc685a38fac94c0f49ba240638c7ed745802bae551→1569933c8d788796fb56d3fbe690753dae3d9eeadbe7695fff7f96550ab728a6；statements ece9290d813a686b35da105ba17d4690a561f88f7534cc63c1026193363e2d20→9a01c3ec987dd20a19773f711bfde74ed5d52d679ce83bc5d004e4124dc15280。恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp9-surface-prompts-20261008-110026。
 
 严格阶段审计通过：1,019 KU、11,472 candidates、27,259 mentions、12,256 statements；S2覆盖678 reviewed/complete、154 excluded/complete，s2_missing=[]、errors=[]。关系候选2,329条，2,323条两端完整、6条开放。两条既存enrichment source_ref警告（enr-06678、enr-06937）仍在。下一章第十章定位器目前在73个reviewed段上给出117条提示，待逐条语义裁决。
+
+
+## 第十章候选表面提示逐项裁决（2026-10-08）
+
+第十章73个reviewed段的117条候选表面提示已回到规范来源和statement逐项裁决：60条映射、57条不写。新增类型待定的Crozat收藏候选cand-11494、60条mentions和4条statement；拆分Crozat住宅、收藏内容、聚会及艺术家接待/开放访问断言，并补记Zuccarelli从Tuscany抵达Venice的来源说法。写后定位器剩余57条，与no-write集合逐跨度一致；不新增S6正式关系。第十章规范来源同时覆盖第十一、十二章；同版重复OCR的44段已排除。逐项记录见[第十章结果](../results/chp-10.md)。计划SHA-256=`dcc04acc36a61c24c05d48e515e1725c7a3cff8222ed67a9541df4819dc6c317`；脚本SHA-256=`a42a4fcd9a3809da6b63969db1b812558f82759b84e6b5479e4bf750d7ded00c`；恢复副本`C:\Users\001\AppData\Local\Temp\pnp-s2-chp10-surface-prompts-20261008-114450`。写后严格审计为11,473 candidates、27,319 mentions、12,260 statements，`s2_missing=[]`、`errors=[]`。
+
+## 第十三章候选表面提示逐项裁决（2026-10-08）
+
+第十三章24个reviewed段的33条提示中18条映射、15条不写。新增cand-11495类型待定的Northall转引收藏对象、18条mentions及2条statement；为8条statement补齐候选引用。写后定位器剩余14条，与不写项逐跨度一致，1条嵌套跨度随外层接纳mention而消失。关系候选总数2,331，其中本批新增1条S2关系候选；没有写入正式S6关系。逐项证据见[第十三章结果](../results/chp-13.md)。计划SHA-256=`51983375574b5b8aa3c857cdbd2a4aaa0e8a36957f56cdd4fd831257394184f8`；脚本SHA-256=`e7e76c8d2e30abd9b2a2afbf2748c0a39549a56f7017127fdf514e5f59c57306`；恢复副本`C:\Users\001\AppData\Local\Temp\pnp-s2-chp13-surface-prompts-20261008-120309`。严格审计为11,474 candidates、27,337 mentions、12,262 statements，`s2_missing=[]`、`errors=[]`。
+
+## 第十四章候选表面提示逐项裁决（2026-10-08）
+
+第十四章18个reviewed段的24条提示中10条映射、14条不写。新增cand-11496 Mead伦敦藏画收藏（类型未定）、cand-11497 Treviso保存的Algarotti—Bonomo书信群（archive）、cand-11498 Augustus III古代大师收藏（类型未定）；新增10条mentions，并为10条既有statement补齐候选引用，未新增statement。三项候选的馆藏/档案边界或与既有对象的关系均保留待定。“their collection”因原statement明示身份未决而不映射。写后定位器剩余14条，与no-write集合逐跨度一致；未新增关系候选或S6正式边。详细裁决见[第十四章结果](../results/chp-14.md)。计划SHA-256=`2d584101fb48fc104d39982ecd9a83705105fd9cdd45142817946a534815d461`；脚本SHA-256=`69ef779da463b937d8196d49329303f843e1133b402b491b4284b31cc27a8ce6`；恢复副本`C:\Users\001\AppData\Local\Temp\pnp-s2-chp14-surface-prompts-20261008-121411`。写后严格审计为11,477 candidates、27,347 mentions、12,262 statements；2,331条关系候选中2,325条端点完整、6条仍开放；`s2_missing=[]`、`errors=[]`。
