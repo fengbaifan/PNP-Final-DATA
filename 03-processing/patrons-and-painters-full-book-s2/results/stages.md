@@ -1753,3 +1753,19 @@ Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内�
 ## 第二章p.39关系候选与脚注交叉链接（2026-10-08）
 
 p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5条因目标、职务或泛指对象未明确而保留开放端点；新增Pietro受Marcello欢迎的原子statement，补入风格比较精确mention，并修正泛指“every artist”误连Pietro的候选外键。脚注1–4现双向链接L176–179，与p.38重复编号对应的L172–175分开。严格阶段审计：12,275 statements、27,398 mentions、2,413条关系候选、2,400条端点齐全、13条开放；`s2_missing=[]`、`errors=[]`。未生成S6边；全书S2交接未完成。详见[第2章结果](chp-02.md)与[过程记录](../process/stages.md)。
+
+## 第二章p.40断言拆分与关系候选复核（2026-10-08）
+
+对`l91-104`正文及脚注L180–184复核后，将23条首轮statement拆整为30条；删除1条把“his friends”错映射到诗歌候选的mention，当前64条mention。补标12条正文关系候选，其中未具名朋友对象保持开放；脚注L183中Urban VIII对Galileo的未详处置另列候选。脚注1–5与正文双向链接，注1回链3条断言。L104肖像句与L119续句保持互链。严格审计：12,282 statements、27,397 mentions、2,426条关系候选、2,412条端点齐全、14条开放；`s2_missing=[]`、`errors=[]`。本段未新增KU或正式关系边。其后的Plate 5题注现已另行复核并加入2条S2关系候选；当前下一段为`chp-2:02_CHP-2_sec_ii:l109-113`，全书S2交接继续。详见[过程记录](../process/stages.md)。
+
+## 第二章Plate 5题注（2026-10-08）
+
+题注归属与描绘两条statement现列为S2关系候选；“Bernini; Cardinal Borghese”与同页页题合读，将人物指向已接收的Cardinal Scipione Borghese候选，但作品版本仍未定。候选作品不并入正文胸像组，不据题注断言外部鉴定。严格审计无错误；全书关系候选2,428条、2,414条端点齐全、14条开放。详见[过程记录](../process/stages.md)。
+
+## 第二章Plate 7题注（2026-10-08）
+
+将题注“Domenichino: Hunt of Diana”记录为作品—作者的S2关系候选；沿用候选及两条精确mentions，保留题注归属不等于独立鉴定的限定。严格表审计无错误；全书关系候选2,429条、2,415条端点齐全、14条开放。当前下一段为Plate 8题注`chp-2:02_CHP-2_sec_ii:l115-116`。详见[过程记录](../process/stages.md)。
+
+## 第二章Plate 8题注及书前目录（2026-10-08）
+
+正文题注与书前目录各有两条caption关系statement，分别记录礼拜堂位置及Castelli设计署名；复用Barberini Chapel、S. Andrea della Valle、Castelli候选，四条均列为关系候选，保留caption attribution边界，不写正式边。严格表审计无错误；全书关系候选2,433条、2,419条端点齐全、14条开放。下一段为`chp-2:02_CHP-2_sec_ii:l118-125`。详见[过程记录](../process/stages.md)。

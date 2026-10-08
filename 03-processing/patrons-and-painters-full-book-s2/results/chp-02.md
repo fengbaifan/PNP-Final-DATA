@@ -236,9 +236,9 @@ PDF目视核对印刷页25–31，纠正S0识读用于限定记录：L127 `B.ell
 
 | 规范段 | 印刷页／PDF页 | 句意与语义判断 | 提及、断言与关系线索 |
 |---|---:|---|---|
-| `chp-2:02_CHP-2_sec_ii:l91-104` | 40／物理第21页 | L91–94接续Pietro da Cortona在S. Bibiana的壁画与发展，记其success及加入Bernini成为Urban VIII的“special artist”；L95是节分隔符。L96起为第III节，记Urban VIII的性格、诗歌兴趣及语言、宗教诗歌主张、Castel Gandolfo别墅、委托侄子处理外交事务、Haskell对其治理与性格的评价、诗卷出版，以及Bernini制作的多尊教皇胸像和这些肖像的表现特征。 | 新增12个候选（cand-4490–cand-4501）、65条精确跨度提及和23条原书断言。Rome、Castel Gandolfo、别墅、附加其上的匿名中世纪城堡分开；诗歌作品与1631年诗卷分开；未具名侄子不猜身份；Bernini的多尊青铜/大理石胸像作为未细分作品组。跨章节候选身份留待S3；未生成正式关系。 |
+| `chp-2:02_CHP-2_sec_ii:l91-104` | 40／物理第21页 | L91–94接续Pietro da Cortona在S. Bibiana的壁画与发展，记其success及加入Bernini成为Urban VIII的“special artist”；L95是节分隔符。L96起为第III节，记Urban VIII的性格、诗歌兴趣及语言、宗教诗歌主张、Castel Gandolfo别墅、委托侄子处理外交事务、Haskell对其治理与性格的评价、诗卷出版，以及Bernini制作的多尊教皇胸像和这些肖像的表现特征。 | 首轮迁移新增12个候选（cand-4490–cand-4501）、65条提及和23条原书断言；本轮语义拆分后为30条statement，撤销“his friends”误映射到诗歌候选的1条mention，现为64条mentions。Rome、Castel Gandolfo、别墅、附加其上的匿名中世纪城堡分开；诗歌作品与1631年诗卷分开；未具名侄子不猜身份；Bernini的多尊青铜/大理石胸像作为未细分作品组。跨章节候选身份留待S3；未生成正式关系。 |
 
-L91–92补完前一规范段对Pietro壁画“grand manner”的句子，并与此前statement交叉链接。Haskell对Urban的性格、政治志向和Baroque/谄媚关系保留作者评价，不当作外部已证事实；“Baroque”宽泛文化类别不与前段较窄的Baroque painting候选合并。五条脚注仍待`sec_ii:l147-193`迁移并逐一交叉链接。L104末尾肖像描述在L119续接，已标待续，不以跨过的图版题注代填。印刷页40核实OCR`his.career`应为`his career`，L103前的短横线是扫描/OCR残迹；来源与原书引句均不改写。
+L91–92补完前一规范段对Pietro壁画“grand manner”的句子，并与此前statement交叉链接。Haskell对Urban的性格、政治志向和Baroque/谄媚关系保留作者评价，不当作外部已证事实；“Baroque”宽泛文化类别不与前段较窄的Baroque painting候选合并。五条脚注已从`sec_ii:l147-193`的L180–184与正文双向链接；注1回链诗歌主题、别墅建造及别墅附着三条statement，注2–5各回链相应statement。L104末尾肖像描述在L119续接，已标待续，不以跨过的图版题注代填。印刷页40核实OCR`his.career`应为`his career`，L103前的短横线是扫描/OCR残迹；来源与原书引句均不改写。
 
 迁移后全书为69段reviewed/complete、19段excluded、704段queued；候选4,499、提及2,446、原书断言1,312。结构审计错误为0；两条既有enrichment来源定位警告仍在。下一段按规范S0源序为`chp-2:02_CHP-2_sec_ii:l106-107`。
 
@@ -428,3 +428,13 @@ PDF核验补齐先前分节S0遗漏的三组图版文本：
 首页PDF物理第1页可见正式章名“POPE URBAN VIII AND HIS ENTOURAGE”，整章OCR第8行有该标题，规范`02_CHP-2_intro.md`仅保留“Chapter 2”。新增独立标题转录段并复用`cand-3104`记录Urban VIII提及；标题作章级元数据，不增加原书事实断言。后续重复页眉和页码仍按版面元数据处理。
 
 补录后第2章共有75个规范段，64段迁移完成、11段有理由排除、0段queued；全书S0为799段，S2为113 reviewed、25 excluded、661 queued，提及4,224条、原书断言2,147条。第2章本地S2与全章OCR差异核对已完成，全书S2继续按源序处理第3章。
+
+## 第二章p.40语义复核与Plate 5题注（2026-10-08）
+
+p.40正文及注1–5完成语义复核：30条原书statement、64条mentions；拆分作品创作、内容引导、任职、别墅建造/附着、占星和教廷目标等复合陈述，未具名朋友的关系对象保留开放；纠正“his friends”误映射到诗歌作品。补标12条正文关系候选，另把注4中仅称为“对Galileo的处置”的宽泛关系列为候选。脚注正反链接均已核实；注1支持诗歌主题及别墅建造/附着三条statement。
+
+后续Plate 5题注复核确认页题将“Cardinal Borghese”指向Scipione Borghese；将印刷题注的作者归属与描绘关系列入S2候选，候选作品版本仍未定，不并入正文Bernini胸像组。该题注段有2条关系候选。全书当前2,428条关系候选、2,414条端点齐全、14条开放；严格审计`s2_missing=[]`、`errors=[]`，完整闭合测试303项及2个子测试通过。Plate 7题注随后已完成关系候选标注；下一段按S0来源顺序为Plate 8题注`chp-2:02_CHP-2_sec_ii:l115-116`。S2交接仍在进行。
+
+## 第二章Plate 8题注与书前目录对读（2026-10-08）
+
+对正文及书前图版目录的Barberini Chapel题注分别保留位置与设计署名statement，复用同一组礼拜堂、教堂和Castelli候选；四条caption陈述均列入关系候选，不将内部礼拜堂扩大为整座教堂。当前严格审计无错误，全书关系候选2,433条（2,419条端点齐全、14条开放）；下一段按来源顺序为`l118-125`。

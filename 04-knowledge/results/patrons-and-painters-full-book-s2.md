@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,398条mentions及12,275条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,413条，2,400条端点齐全，13条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,397条mentions及12,282条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,433条，2,419条端点齐全，14条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -116,3 +116,19 @@ p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本�
 ## 第二章p.39关系候选、脚注回链与提及修订（2026-10-08）
 
 复核p.39（`02_CHP-2_sec_ii:l80-89`）后补标并拆分关系断言：本段现有27条关系候选，其中5条因目标、职务或群体端点未明确而保持开放。补录风格比较短语的精确mention，修正一条泛指所有艺术家的断言误连Pietro候选，并将p.39脚注1–4与L176–179注释statement双向链接；p.38同号脚注仍指向L172–175。保留跨段购藏句，不生成正式关系边。严格阶段审计：12,275 statements、27,398 mentions、2,413条关系候选、2,400条端点齐全、13条开放；`s2_missing=[]`、`errors=[]`。全书S2语义交接仍未完成。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章p.40断言拆分与关系候选复核（2026-10-08）
+
+对`l91-104`正文及脚注L180–184复核后，将23条首轮statement拆整为30条；删除1条把“his friends”错映射到诗歌候选的mention，当前64条mention。补标12条正文关系候选，其中未具名朋友对象保持开放；脚注L183中Urban VIII对Galileo的未详处置另列候选。脚注1–5与正文双向链接，注1回链3条断言。L104肖像句与L119续句保持互链。严格审计：12,282 statements、27,397 mentions、2,426条关系候选、2,412条端点齐全、14条开放；`s2_missing=[]`、`errors=[]`。本段未新增KU或正式关系边。其后的Plate 5题注现已另行复核并加入2条S2关系候选；当前下一段为Plate 8题注`chp-2:02_CHP-2_sec_ii:l115-116`，全书S2交接继续。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章Plate 5题注（2026-10-08）
+
+题注归属与描绘两条statement现列为S2关系候选；“Bernini; Cardinal Borghese”与同页页题合读，将人物指向已接收的Cardinal Scipione Borghese候选，但作品版本仍未定。候选作品不并入正文胸像组，不据题注断言外部鉴定。严格审计无错误；全书关系候选2,428条、2,414条端点齐全、14条开放。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章Plate 7题注（2026-10-08）
+
+将题注“Domenichino: Hunt of Diana”记录为作品—作者的S2关系候选；沿用候选及两条精确mentions，保留题注归属不等于独立鉴定的限定。严格表审计无错误；全书关系候选2,429条、2,415条端点齐全、14条开放。当前下一段为Plate 8题注`chp-2:02_CHP-2_sec_ii:l115-116`。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章Plate 8题注及书前目录（2026-10-08）
+
+正文题注与书前目录各有两条caption关系statement，分别记录礼拜堂位置及Castelli设计署名；复用Barberini Chapel、S. Andrea della Valle、Castelli候选，四条均列为关系候选，保留caption attribution边界，不写正式边。严格表审计无错误；全书关系候选2,433条、2,419条端点齐全、14条开放。下一段为`chp-2:02_CHP-2_sec_ii:l118-125`。详见[章节结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-02.md)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。

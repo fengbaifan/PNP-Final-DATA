@@ -7547,3 +7547,27 @@ cand-0209与cand-0213的规范名相同，分别出现在p.30/p.38与p.42；新�
 补入`cand-4479`对应的精确风格mention；不为跨段续写的Aldobrandini购藏句重复添加作品mention。将“every artist”的泛指训练断言清除误连Pietro的subject候选。复核p.39脚注1–4，分别回链注释段L176–179并确认注释statement反链正文；与p.38同号脚注L172–175区分。相应修正source speaker限定。未新增S6正式关系边。
 
 写后严格审计：12,275 statements、27,398 mentions、2,413条关系候选、2,400条标量两端点齐全、13条开放；`s2_missing=[]`、`errors=[]`。既存两条enrichment `source_ref`警告仍在。该轮仅推进第2章p.39；全书S2语义交接仍未完成，未进入S3–S6。
+
+## 第二章p.40语义拆分与关系候选复核（2026-10-08）
+
+以`chp-2:02_CHP-2_sec_ii:l91-104`及相连注释L180–184为单位，对照分节S0和已核验的印刷p.40（PDF物理第21页）。首轮迁移为23条statement、65条mention；本次语义修订新增7条原书statement，撤销将泛称“his friends”误映射至`cand-4494`诗歌作品组的mention，现为30条statement、64条mention。
+
+L91–94承接Pietro在S. Bibiana的壁画叙述；把“成功已可预期”与其加入Bernini、成为Urban VIII特别画家分开。角色statement的关系端点改为Pietro→Urban VIII，Bernini保留为共同角色语境；原文未给具体任命日期。L96分别记录Urban对诗歌的兴趣及诗人交往；L97拆分诗歌创作、宗教内容偏好与对未具名朋友的劝告，后者关系候选保留空对象，不为泛称群体造实体。另将“别墅由Urban建造”和“别墅附加于一座中世纪城堡”拆为两条，城堡候选仍未识别。注1双向链接诗歌主题、建造及附着三条正文statement。
+
+L98外交事务转交侄辈的statement标为关系候选，保留已有“未具名侄子”占位候选，不推测身份。L99将宗教/迷信评价与占星活动分开，注3及Walker、Bazzoni、Bertolotti引文只挂接占星statement；Haskell将Campanella监视与占星活动相连仍明确为作者推论。将“petty meanness”与未能实现扩张教廷权力的政治目标拆开，注4只支持前者；“Urban对Galileo的处置”另作为关系候选，具体行为与结果未在注中说明。L100–101将1631诗卷的出版时间、耶稣会制作、Bernini插图、Bernini制作Urban胸像分别保留；制作、插图和创作标为关系候选。L102–104的肖像评论保留为Haskell评价，L104残句与L119 statement的既有续接保持互链。
+
+关系候选方面，本段12条body statement已标记候选，其中未具名朋友关系1条端点开放；相连的Galileo注释另标1条候选。注1–5与正文双向链接，注1回链3条statement，注2–5各回链对应statement。候选表面定位器剩2项，均判定不写：`poetry`是Duke of Bracciano索引子项与一般词`poetry`的词面相同；`character`是Urban VIII索引子项与“defects of character”普通短语相同。未新增候选实体或S6正式关系。
+
+写后严格阶段审计：12,282 statements、27,397 mentions、2,426条关系候选、2,412条端点齐全、14条开放；`s2_missing=[]`、`errors=[]`。两条既有enrichment `source_ref`告警仍在。此轮收口第2章正文p.40段及所连脚注语义，下一段按来源顺序为图版题注`chp-2:02_CHP-2_sec_ii:l106-107`；全书S2交接尚未完成，未进入S3–S6。
+
+## 第二章Plate 5题注关系候选核对（2026-10-08）
+
+复核`chp-2:02_CHP-2_sec_ii:l106-107`的印刷题注`Bernini; Cardinal Borghese`，并对照独立转录段`02_CHP-2_sec_ii_plate5_visual-transcription:l1-3`中的页题“Cardinal Scipione Borghese and his patronage”。`cand-4135`继续表示版本未定的Bernini—Cardinal Borghese题注作品，不与正文中Bernini制作的胸像组或其他具体肖像合并；`cand-3011`为已接收的Scipione Borghese人物候选。将caption attribution和caption depiction两条statement标为关系候选，限定它们只记录本书印刷题注/页题的表述，不构成独立作者或肖像鉴定。现有3条mention分别覆盖Bernini、完整题注和题注中的Cardinal Borghese，嵌套跨度与候选映射一致。未新增候选、KU或S6关系。下一段按来源顺序为`chp-2:02_CHP-2_sec_ii:l109-113`。
+
+## 第二章Plate 7题注关系候选核对（2026-10-08）
+
+复核`chp-2:02_CHP-2_sec_ii:l109-113`及`CHP-2.pdf`物理第24页。纸本题注将`Hunt of Diana`列于`Domenichino`名下，确认S0倒置的题名/画家顺序；末行OCR残留`D`不属于题注。沿用既有作品候选`cand-4030`和人物候选`cand-3024`，两条mention跨度逐字对应题名与作者名。将`caption_attribution`断言标为关系候选，保留“印刷归属≠独立作者鉴定”的限定；未新增实体或S6正式边。下一规范段为Plate 8题注`chp-2:02_CHP-2_sec_ii:l115-116`。
+
+## 第二章Plate 8题注与书前目录关系候选复核（2026-10-08）
+
+复核规范段`chp-2:02_CHP-2_sec_ii:l115-116`与书前图版目录`front-matter:00_05_List_of_Plates:l32-65`。两处分别表述Plate 8家庭礼拜堂位于S. Andrea della Valle、由Matteo Castelli设计；图版号和前言目录明确连接到Barberini Chapel候选`cand-3904`。两处关系statement各自保留为来源证据，共标记4条关系候选（每一来源各含空间定位与设计署名），不把礼拜堂等同整座教堂，不把设计署名扩展为全教堂装饰作者，也不重复建实体。正文段3条mention与候选`cand-3904`（礼拜堂）、`cand-3129`（教堂）、`cand-3837`（Castelli）相符。未生成正式S6边。下一段为正文与肖像描述续句`chp-2:02_CHP-2_sec_ii:l118-125`。
