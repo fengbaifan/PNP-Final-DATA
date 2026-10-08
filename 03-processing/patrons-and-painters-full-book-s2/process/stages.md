@@ -7400,3 +7400,11 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 逐页/栏映射记录覆盖19份A–Z索引CSV共2,934行；2,934个`index_entry_id`各有且仅有一个候选映射，未发现缺失或未知行。Markdown与CSV记录集合此前已逐行核对一致。已知印本漏录仅为p.446的Bentveugels、Bergamo、Santa Maria Maggiore与S. Paolo d’Argan四行，现已追加B.csv#324–327及cand-11459–11462；本次终审未发现其他印本词条漏录。页图及栏目、行范围证据见本记录各印刷页条目。
 
 本轮确认p.454印本词头为“Fetti, Domenico”，F.csv#48与对应Markdown转录为“Feti, Domenico”。按印本将cand-1033的`canonical_name`校正为“Fetti, Domenico”，保留`index_entry_id=F.csv#48`、原页码、类型、候选状态及全部既有mentions/statements；F.csv、F.md与PDF均未改写。该字形校正不改变候选ID或跨章身份裁决。文本层误读示例“Gavazza”经p.449页图核为“Cavazza”，候选与来源CSV均正确，未改表。
+
+## 全书脚注待办与跨页续注收口复核（2026-10-08）
+
+针对statement字段中审计器原先未覆盖的嵌套待办状态，逐项复核并修正三处正文/注文链接。第七章p.186注1印号位于完整的圣安妮描述句末、下一句“As such…”之前；将正文statement i11–i14链接到注文statement `st-chp7-p186-n1-cite-wittkower`，移除i11–i13残留的`footnotes_pending`，并从下一句i15移除误挂的链接。注文反向链接同步为i11–i14，引用页码仍仅记录为注文所列书目信息，未称已独立查阅原书。
+
+第十三章p.333的注1为Roberti；跨页引文在p.334结束后，其注1才是Bettinelli。将p.333正文statement指向p.334注文，修正`footnote_printed_page=334`，清除`continuation_footnote_text_pending`及“精确对应待定”的过时限定；注文statement已有对跨页引文两条正文statement的反向链接。第九章p.264注8的跨页句从p.264 L427续至p.265 L295–296；将正文续注状态改为closed并链接到对应p.265 statement，在目标statement补回链和起始行，清除旧`continuation_pending`对象。
+
+对全体statement及嵌套`footnote_refs`递归扫描后，真值状态的脚注/续注pending键为0，脚注打印页与目标注文页不一致为0。证据显示的来源异常继续保留并说明：第九章p.247印号不可见；p.270注7与标记句的内容不合；第十四章p.359注4无正文标记且与注3重复。它们不伪造精确回链，也不作为未清待办。仅修改既有statement记录，没有增删候选、mentions、coverage、statements或S6正式关系；全书S2其余语义交接审计仍进行中。

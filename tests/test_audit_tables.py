@@ -97,6 +97,35 @@ def test_s2_audit_rejects_broken_foreign_keys_and_empty_evidence(tmp_path):
     assert any("migration is partial, expected complete" in error for error in strict["errors"])
 
 
+def test_s2_audit_flags_nested_footnote_and_continuation_pending_states(tmp_path):
+    with (tmp_path / "source.md").open("w", encoding="utf-8") as handle:
+        handle.write("A source sentence.\n")
+    with (tmp_path / "s2-coverage.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["chapter", "segment_id", "disposition", "migration_status", "source_line_ranges", "note"])
+        writer.writeheader()
+        writer.writerow({"chapter": "chp-1", "segment_id": "chp-1:sec:l1-1", "disposition": "reviewed", "migration_status": "complete", "source_line_ranges": "L1-1", "note": "read"})
+    with (tmp_path / "mentions.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["mention_id", "segment_id", "candidate_id", "surface_form", "start_char", "end_char"])
+        writer.writeheader()
+    statement = {
+        "statement_id": "s-pending", "segment_id": "chp-1:sec:l1-1", "subject_candidate_id": None,
+        "object_candidate_id": None, "predicate": "describes",
+        "qualifiers": {
+            "source_line_start": 1, "source_line_end": 1,
+            "footnotes_pending": ["p.1 note 1"],
+            "footnote_refs": [{"footnote_text_pending": True}],
+            "continuation_pending": {"segment_id": "chp-1:sec:l2-2"},
+        },
+        "original_quote": "A source sentence.", "origin": "book", "source_file": "source.md",
+    }
+    (tmp_path / "book-statements.jsonl").write_text(json.dumps(statement) + "\n", encoding="utf-8")
+
+    result = audit_s2_artifacts(tmp_path, set(), {"chp-1:sec:l1-1"}, source_root=tmp_path)
+    assert any("footnotes_pending" in warning and "footnote_refs[0].footnote_text_pending" in warning for warning in result["warnings"])
+    strict = audit_s2_artifacts(tmp_path, set(), {"chp-1:sec:l1-1"}, strict_stage=True, source_root=tmp_path)
+    assert any("footnotes_pending" in error and "continuation_pending" in error for error in strict["errors"])
+
+
 def test_s2_audit_checks_mention_surface_offsets(tmp_path):
     with (tmp_path / "s2-coverage.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["chapter", "segment_id", "disposition", "migration_status", "source_line_ranges", "note"])

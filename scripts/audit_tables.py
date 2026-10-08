@@ -76,6 +76,26 @@ def read_jsonl(path: Path) -> list[dict]:
     return records
 
 
+def unresolved_note_pending_paths(value: object, prefix: str = "") -> list[str]:
+    """Return truthy footnote/continuation pending flags, including nested refs."""
+    paths: list[str] = []
+    if isinstance(value, dict):
+        for key, child in value.items():
+            key_text = str(key)
+            path = f"{prefix}.{key_text}" if prefix else key_text
+            lowered = key_text.casefold()
+            if "pending" in lowered and ("footnote" in lowered or "continuation" in lowered):
+                if child not in (None, False, 0, "", [], {}):
+                    if not isinstance(child, str) or child.strip().casefold() not in {"false", "no", "none", "null", "0", "resolved", "closed", "complete", "completed"}:
+                        paths.append(path)
+                continue
+            paths.extend(unresolved_note_pending_paths(child, path))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            paths.extend(unresolved_note_pending_paths(child, f"{prefix}[{index}]"))
+    return paths
+
+
 def duplicates(values: list[str]) -> set[str]:
     counts = Counter(value for value in values if value)
     return {value for value, count in counts.items() if count > 1}
@@ -276,6 +296,11 @@ def audit_s2_artifacts(
                 qualifiers = row.get("qualifiers")
                 if not isinstance(qualifiers, dict):
                     errors.append(f"{statement_id}: qualifiers must be an object")
+                else:
+                    pending_paths = unresolved_note_pending_paths(qualifiers)
+                    if pending_paths:
+                        message = f"{statement_id}: unresolved footnote/continuation pending fields: {', '.join(pending_paths)}"
+                        (errors if strict_stage else warnings).append(message)
                 if not isinstance(row.get("original_quote"), str) or not row["original_quote"].strip():
                     errors.append(f"{statement_id}: original_quote is empty or not a string")
                 if row.get("origin") != "book":
