@@ -17,18 +17,18 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,478个候选、27,356条mentions及12,262条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`及statement失效引用均为0。
+当前表包含1,019个KU、11,481个候选、27,362条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`及statement失效引用均为0。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
 ## 候选表面复核与当前游标
 
-书前材料及第1–10章、第13–15章的候选表面提示已逐项裁决；第十一、十二章与第十章共用规范来源。第十五章17个reviewed段的16条提示中9条映射、7条不写；新增cand-11499（Farsetti别墅引文所述珍奇收藏，边界与类型未定）、9条mentions，核对9条既有statement的候选引用，实际新增3个引用并修订1条断言的claim及限定语。写后定位器剩余6条，与已裁决的不写项一致。逐项记录见[第十五章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。
+书前材料及第1–10章、第13–16章的候选表面提示已逐项裁决；第十一、十二章与第十章共用规范来源。第十六章7个reviewed段的11条提示中6条映射、5条不写；新增cand-11500至cand-11502、6条mentions和1条statement，另修订既有statement的候选关联与subject、更新cand-10598 detail。写后定位器剩余5条，与已裁决的不写项一致。逐项记录见[第十六章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-16.md)。
 
-当前按书序转至第十六章：7个reviewed段中定位器给出11条提示，待逐项语义裁决。定位器只匹配已有候选词形，不证明实体召回完整，也不替代全书S2交接审计。
+当前按书序转至第十七章：10个reviewed段中定位器给出8条提示，待逐项语义裁决。定位器只匹配已有候选词形，不证明实体召回完整，也不替代全书S2交接审计。
 
 ## 全书S2交接审计与下一步
 
-交接前还需按证据边界检查来源范围和重复副本、跨页脚注与指代、statement限定语、候选外键及全部关系候选。6条关系候选继续开放，不转为无证正式关系。完成第十六章后按书序处理第十七章及仍待核的书后材料，再汇总交接审计。
+交接前还需按证据边界检查来源范围和重复副本、跨页脚注与指代、statement限定语、候选外键及全部关系候选。6条关系候选继续开放，不转为无证正式关系。完成第十七章后按书序处理仍待核的书后材料，再汇总交接审计。
 
 S2交接前不推进S3–S6、知识发现或页面工作。

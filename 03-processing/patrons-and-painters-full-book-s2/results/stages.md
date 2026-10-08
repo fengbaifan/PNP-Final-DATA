@@ -1651,3 +1651,7 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 ## 第十五章候选表面提示裁决（2026-10-08）
 
 17个reviewed段的16条提示中9条映射、7条不写；新增1个边界待定的Farsetti别墅珍奇收藏候选及9条mentions，核对9条既有statement的候选引用，实际新增3个引用，并修订1条statement的claim和限定语。写后剩6条提示，与不写残余一致。严格阶段审计通过：11,478 candidates、27,356 mentions、12,262 statements，`s2_missing=[]`、`errors=[]`。下一步第十六章7个reviewed段有11条提示。详见[第十五章结果](../results/chp-15.md)和[过程记录](../process/stages.md)。
+
+## 第十六章候选表面提示裁决（2026-10-08）
+
+第十六章7个reviewed/complete段上的11条提示中，6条映射、5条不写；新增3个候选、6条mentions、1条statement，另修订既有statement的候选关联与subject，并更新一项候选detail。写后剩余5条提示与no-write裁决一致。严格阶段审计通过：1,019 KU、11,481 candidates、27,362 mentions、12,263 statements，s2_missing=[]、errors=[]。详见[第十六章结果](chp-16.md)及[过程记录](../process/stages.md)。下一步第十七章10个reviewed段有8条提示；定位器仅为语义复核线索。
