@@ -36,4 +36,4 @@
 
 | `chp-5:05_CHP-5_sec_iii:l45-57` | reviewed / complete | 印刷页137的Plate 21a/b图注新增4条精确跨度提及和2条题注归属断言，复用既有作品及艺术家候选。PDF物理第18页确认竖排题注：a为“Madonna of the Rosary with Saints”，b为“Madonna and Child”。S0倒排字符保持不改，提及锚定OCR原串；a图注未写出Dominic、Catherine，未从图版目录扩写本图注。题注归属不作为独立作者身份验证。 |
 | `chp-5:05_CHP-5_sec_iii:l59-61` | reviewed / complete | 印刷图版Plate 22a/b新增5条精确跨度提及和2条题注归属断言，复用既有作品、艺术家及Masaniello候选。PDF物理第19页核实图版题注与图版清单一致；题注记录不作为独立作者身份验证，也不从a题名中的泛称扩写具名人物。 |
-页120–136正文及Plate 21–22图注按段迁移，保留作者评价、嵌套引述、传闻、推测和出处层级；匿名人物、作品和待定类型不补造。页124脚注1已与L142合并，页125脚注1与L143及页130–131脚注均已回链；页128两个OCR/版面标记在印本页底无对应注释，保持未链接。页132脚注1–2及页133–136脚注1–5待与后置注释L127–141迁移后回链。页133 L18的Doni引语已由页134 L21闭合；页134 L26由页135 L29闭合；页135 L34的Don Ferdinando全名已由页136 L37补出；页136 L43末句将在Plate 23–24之后的正文L70–80续完。当前全书211段语义完整、1段跨页未闭合、34段excluded、556段queued；候选6,137、提及8,359、原书断言4,263。coverage账本中212段已reviewed且迁移完成。`audit_tables.py --summary`结构errors为0；两条既存enrichment `source_ref`警告和全书S2未完成提示仍在。
+第5章35个已审段、6个有理由排除段均已迁移完成；queued/partial均为0。候选表面提示复核新增7个候选、26条mentions并链接10条既有statement；25/69条映射，其余44条均有记录理由且写后扫描吻合。全书当前状态及后续依赖见[全书S2结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，逐项裁决见[过程记录](../process/stages.md)。
