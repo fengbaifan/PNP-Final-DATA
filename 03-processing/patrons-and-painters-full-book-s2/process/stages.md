@@ -7326,3 +7326,11 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 ## 第十四章候选表面提示逐项裁决（2026-10-08）
 
 第十四章18个reviewed段的24条提示中10条映射、14条不写。新增cand-11496 Mead伦敦藏画收藏（类型未定）、cand-11497 Treviso保存的Algarotti—Bonomo书信群（archive）、cand-11498 Augustus III古代大师收藏（类型未定）；新增10条mentions，并为10条既有statement补齐候选引用，未新增statement。三项候选的馆藏/档案边界或与既有对象的关系均保留待定。“their collection”因原statement明示身份未决而不映射。写后定位器剩余14条，与no-write集合逐跨度一致；未新增关系候选或S6正式边。详细裁决见[第十四章结果](../results/chp-14.md)。计划SHA-256=`2d584101fb48fc104d39982ecd9a83705105fd9cdd45142817946a534815d461`；脚本SHA-256=`69ef779da463b937d8196d49329303f843e1133b402b491b4284b31cc27a8ce6`；恢复副本`C:\Users\001\AppData\Local\Temp\pnp-s2-chp14-surface-prompts-20261008-121411`。写后严格审计为11,477 candidates、27,347 mentions、12,262 statements；2,331条关系候选中2,325条端点完整、6条仍开放；`s2_missing=[]`、`errors=[]`。
+
+## 第十五章候选表面提示逐项裁决（2026-10-08）
+
+第十五章17个reviewed/complete段的16条定位提示逐项回看来源上下文及既有断言：9条映射、7条不写。新增cand-11499，记录Farsetti别墅引文中的“collection of rarities”；清单、类型及与其他Farsetti藏品的边界均保留未定。新增9条mentions，核对9条既有statement的候选引用，实际新增3个引用，并修订villa评价statement的claim与限定语；没有新增statement或S6正式关系。写后定位器剩6条，与已裁决的不写提示一致；嵌套的“arrest”随完整“arrest and detention”跨度覆盖。详见[第十五章结果](../results/chp-15.md)。
+
+计划SHA-256=`fae8f396c7f91d6bc6064a9ea6c698c5e5a6fd456fdc0b0115d7c2a3dd9d9c47`；最终脚本SHA-256=`963c2ad7fe2227822b8ae4bb05276f19a538dd3cd28e2bbc28d844f047015c1c`；恢复副本`C:\Users\001\AppData\Local\Temp\pnp-s2-chp15-surface-prompts-20261008-122515`。表SHA-256写前→写后：候选`08661d2bd55ac80f82a314a013334e0203cc51d3ab6beda7a4d6a57ba7f73eab`→`78266078cf48f1ade43e79bcdb4378334328a3a7c29fad61680803e7a4e3653f`；mentions`459ecd81f77e97bef006dca8003aba7c3731f66e4fd30a30d93c420c33a10e14`→`87aaea0cffe74f7b3057595911a11e954484b8ee292d6d330348a7d823c40a7e`；statements`37ec0304b794b839157bfd00996330612a202ff84c96283c53dbb26921205949`→`6f4769d0af0d52a375af1d0ee979a9c23d5accf147db2252ba57580b33b1b203`。
+
+写后严格阶段审计通过：1,019 KU、11,478 candidates、27,356 mentions、12,262 statements；`s2_missing=[]`、`errors=[]`。关系候选2,331条，其中2,325条端点齐全、6条仍开放。

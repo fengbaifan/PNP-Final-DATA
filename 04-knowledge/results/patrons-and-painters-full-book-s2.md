@@ -1,6 +1,6 @@
 # 《赞助人与画家》全书语义处理（S2）当前结果
 
-更新日期：2026-10-08。任务ID：`patrons-and-painters-full-book-s2`。**状态：S2交接审计进行中，尚未进入S3。**本文件只记录当前范围、状态、未决项和下一步；逐项语义裁决见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)及[逐段结果](../../03-processing/patrons-and-painters-full-book-s2/results/stages.md)。
+更新日期：2026-10-08。任务ID：`patrons-and-painters-full-book-s2`。**状态：S2交接审计进行中，尚未进入S3。**本页只记录当前范围、数据、未决项和下一步；历史逐项裁决见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)、[阶段结果索引](../../03-processing/patrons-and-painters-full-book-s2/results/stages.md)及各章结果。
 
 ## 范围与覆盖
 
@@ -10,28 +10,25 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 |---|---:|
 | reviewed / complete | 678 |
 | 有理由排除 / complete | 154 |
-| queued | 0 |
-| reviewed / partial | 0 |
+| queued / partial | 0 |
 | 合计 | 832 |
 
-所有纳入处理的正文、注释、图版说明及书前/书后材料均有S2处理记录。书目段已处理至L3–1306；索引94段已处理并补入索引p.446四条纸本漏项。全库脚注续页、正文回链和statement引用已专项检查；第九章p.270注7的印本错位，以及第十四章p.359重复且无正文标号的注4，按来源异常保留，不强行回链。
+所有纳入处理的正文、注释、图版说明及书前/书后材料均已有S2处理记录。书目段已处理至L3–1306；索引94段已处理并补入索引p.446四条纸本漏项。全库脚注续页、正文回链和statement引用已专项检查；已证实的印本错位及重复脚注按来源异常保留，不强行回链。
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,477个候选、27,347条mentions及12,262条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。结构检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
+当前表包含1,019个KU、11,478个候选、27,356条mentions及12,262条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`及statement失效引用均为0。
 
-全库`footnote_pending`和`footnote_text_pending`为0，statement内引用目标失效数为0。候选外键及关系端点仍在最终S2交接审计范围内。
+仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
 ## 候选表面复核与当前游标
 
-书前及第1–10章的候选表面提示已逐项裁决；第八章新增4个候选、47条mentions，第九章新增1个类型待定收藏候选及44条mentions，并拆分任职与收藏陈述；第十章新增1个类型待定Crozat收藏候选、60条mentions及4条statement。逐项结果见[第八章](../../03-processing/patrons-and-painters-full-book-s2/results/chp-08.md)、[第九章](../../03-processing/patrons-and-painters-full-book-s2/results/chp-09.md)和[第十章](../../03-processing/patrons-and-painters-full-book-s2/results/chp-10.md)。
+书前材料及第1–10章、第13–15章的候选表面提示已逐项裁决；第十一、十二章与第十章共用规范来源。第十五章17个reviewed段的16条提示中9条映射、7条不写；新增cand-11499（Farsetti别墅引文所述珍奇收藏，边界与类型未定）、9条mentions，核对9条既有statement的候选引用，实际新增3个引用并修订1条断言的claim及限定语。写后定位器剩余6条，与已裁决的不写项一致。逐项记录见[第十五章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。
 
-第十三章24个reviewed段的33条提示中18条映射、15条不写；新增1个类型待定收藏候选、18条mentions及2条statement。第十四章18个reviewed段的24条提示中10条映射、14条不写；新增Mead藏画收藏、Treviso Algarotti—Bonomo书信群和Augustus III古代大师收藏3个候选，新增10条mentions并补齐10条既有statement候选引用。“their collection”的身份仍未决，按原判断不映射。两章写后定位器残余均与no-write裁决逐跨度一致。扫描只匹配已有候选词形，不发现未登记实体，不构成召回率验收；逐项裁决见[第十三章](../../03-processing/patrons-and-painters-full-book-s2/results/chp-13.md)和[第十四章](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。
+当前按书序转至第十六章：7个reviewed段中定位器给出11条提示，待逐项语义裁决。定位器只匹配已有候选词形，不证明实体召回完整，也不替代全书S2交接审计。
 
-当前按书序转至第十五章：17个reviewed段中有16条提示待逐项审查。之后继续检查结论、附录、后记及书目边界，并完成跨页注释/指代、statement限定语、候选外键及关系候选的S2交接审计。第十章规范源同时承载第十一、十二章内容，44段重复OCR不重复计入。
+## 全书S2交接审计与下一步
 
-## 全书S2交接审计
+交接前还需按证据边界检查来源范围和重复副本、跨页脚注与指代、statement限定语、候选外键及全部关系候选。6条关系候选继续开放，不转为无证正式关系。完成第十六章后按书序处理第十七章及仍待核的书后材料，再汇总交接审计。
 
-关系候选复核已覆盖第1–20章记录；当前2,331条relation candidate中2,325条端点完整、6条仍开放且有来源依据：第七章两件Poussin作品与Louvre/Detroit馆藏的逐件配对未明；第八章未具名女儿的分配对象、未具名联姻家族及p.238注4“These pictures”的具体范围未明；第十四章Brühl两处母题与Maecenas/Flora作品未逐项对应；第二十章Alazard/Franceschini作品委托者未明。它们继续保留待证，不转成无证正式关系。
-
-S2交接前仍需完成后续候选提示复核，并逐项复查来源范围及重复副本、跨页脚注和指代、statement限定语、候选外键及全部关系候选，确认开放项的证据边界。交接审计完成后再进入S3全局身份对齐；此前不推进S3–S6、知识发现或页面工作。
+S2交接前不推进S3–S6、知识发现或页面工作。

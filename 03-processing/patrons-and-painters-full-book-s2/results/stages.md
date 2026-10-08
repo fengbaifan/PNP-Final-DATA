@@ -1647,3 +1647,7 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 ## 第十四章候选表面提示裁决（2026-10-08）
 
 第十四章24条提示中10条映射、14条不写；新增3个边界仍待定的候选和10条mentions，为10条statement补齐候选引用；写后剩余14条均为已裁决不写项。严格审计为11,477 candidates、27,347 mentions、12,262 statements，`s2_missing=[]`、`errors=[]`。下一步第十五章17个reviewed段有16条提示。详细判断见[第十四章结果](chp-14.md)和[过程记录](../process/stages.md)。
+
+## 第十五章候选表面提示裁决（2026-10-08）
+
+17个reviewed段的16条提示中9条映射、7条不写；新增1个边界待定的Farsetti别墅珍奇收藏候选及9条mentions，核对9条既有statement的候选引用，实际新增3个引用，并修订1条statement的claim和限定语。写后剩6条提示，与不写残余一致。严格阶段审计通过：11,478 candidates、27,356 mentions、12,262 statements，`s2_missing=[]`、`errors=[]`。下一步第十六章7个reviewed段有11条提示。详见[第十五章结果](../results/chp-15.md)和[过程记录](../process/stages.md)。
