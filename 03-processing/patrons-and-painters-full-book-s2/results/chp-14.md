@@ -104,3 +104,9 @@ p.353现35条statement、75条mention和20条关系候选（19条端点齐全、
 复审正文`chp-14:14_CHP-14_intro:l85-95`与注1–3（L191–193），对照印本物理页9，并核对p.354/p.356续接。p.355首轮27条statement、87条mention经复审；14条关系候选端点全部齐全。本次只补书目及statement交叉链接，没有增删知识数据行。
 
 注2中两幅画与两处地点不作一一配对；Pallucchini 1956页41定位与第21章Piazzetta 1956条目双向链接。注3的Levey 1960短引与第21章完整条目及p.354注2互链；G. A. Selva短引与第21章目录条目建立可能匹配链接，仍留待S3确认。两种书内对应均不代表独立查阅被引材料。p.355末句和p.356的续文及Bonomo注1已有跨页链接；Michelessi注1与Bonomo注1按各自页码区分。相关引文限定、跨页指代和关系候选复核后未发现需要新建候选或关系的情况。全量同步闭合通过（303 passed、2 subtests passed）；下一项按书序复核p.356 `chp-14:14_CHP-14_intro:l97-105`，全书S2未交接。
+
+## 第十四章p.356语义复审补正（2026-10-09）
+
+复审正文`chp-14:14_CHP-14_intro:l97-105`与注1–7（L194–200），对照`CHP-14.pdf`物理页10，并核对p.355/p.357续接。源Markdown和PDF哈希未变，未改S0。共30条statement、72条mention；将正文“Venice”mention从Algarotti索引项改映射至威尼斯地点候选，新增一条断言记录其离开意大利后仍关注当地艺术事务，并在艺术推广断言中保留爱国动因。其余语义限定包括Berlin/Potsdam居留范围、Marchiori委托未具名教堂且未确认完成、Rode影响Tiepolo属预测、Walpole赠画及Palladio图稿仍属条件／计划，以及`their collection`指代未定；未扩写未具名对象或将提案写成已完成事实。
+
+印本校读只记S2、不改S0：L101 `commision`→`commission`；注1 `T1`→`Il`、`pretcnderebbe`→`pretenderebbe`；注4 `fame un regalo`→`farne un regalo`、`facilitate`→`facilitare`、`1'esecuzione`→`l'esecuzione`；注7 `Opéré`→`Opere`。既有`thistime`→`this time`记录经页图复核。p.356末句与p.357续句、Bonomo注1及相应脚注链接有效。13条关系候选保持S2，不新增candidate或正式关系；statement净增1条，提及数量、候选数量与coverage不变。严格表审计`errors=[]`、`s2_missing=[]`；p.356之后按书序复核p.357 `chp-14:14_CHP-14_intro:l107-116`，全书S2未交接。

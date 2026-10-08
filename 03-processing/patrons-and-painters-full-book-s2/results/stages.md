@@ -1786,3 +1786,7 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第二章后置脚注L147–193（2026-10-08）
 
 修正avviso人物mention并拆分制作/委托/报酬关系候选；补录挂毯、Forge of Vulcan及计划寓意的位置/题材候选，修正Sacchetti collection地点端点、作者归属方向与p.60委托方向。补齐113条正文—注释反链及p.33、p.39和p.43内部引用目标；两种挂毯候选仍分开待S3。新增6条statement、2条mention；严格阶段审计无结构错误。全书S2交接继续。
+
+## 第十四章p.356语义复审补正（2026-10-09）
+
+复审已有首轮记录的p.356正文及注1–7，正文statement由22条增至23条，含注释共30条；72条mention保持不变。修正Venice地点mention映射，补记Algarotti离开意大利期间仍关注意大利艺术事务的断言，并明确艺术推广动机包含爱国情感。校读commision、注1 `T1`/`pretcnderebbe`、注4 `fame`/`facilitate`/`1'esecuzione`及注7 `Opéré`，不改写来源OCR。13条关系候选和p.356/p.357续接、脚注链接均通过定向复核。严格表审计`errors=[]`、`s2_missing=[]`；当前全库12,358条statement、27,413条mention。下一处按书序为p.357 `chp-14:14_CHP-14_intro:l107-116`。

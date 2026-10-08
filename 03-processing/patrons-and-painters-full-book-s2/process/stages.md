@@ -7693,3 +7693,9 @@ p.352现有18条S2关系候选，标量端点18/18齐全；不新增KU、候选�
 核对注2所列两幅Piazzetta画与两处地点时，仍不作逐件地点配对；Pallucchini 1956页41短引与第21章`Piazzetta`（1956）条目建立双向书内链接，原著未独立查阅。注3的Levey 1960短引连至第21章完整书目条目，并与p.354注2同一引注互链；G. A. Selva短引连至第21章方括号目录条目，但该目录是否即所指文献仍列为S3确认问题。来源不支持的家庭收藏同一性继续待决。p.355末句“still intensively”与p.356的雇主及Bonomo注1保持跨页链接；p.355注1（Michelessi）与p.356注1（Bonomo）虽编号相同，记录未混并。
 
 p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全。本次只补书目及statement交叉引用，没有增删statement、mention、candidate、KU或正式关系。全库严格表审计`errors=[]`、`s2_missing=[]`；本轮全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核已有首轮记录的p.356 `chp-14:14_CHP-14_intro:l97-105`；全书S2仍未交接。
+
+## 第十四章p.356语义复审（2026-10-09）
+
+复审正文`chp-14:14_CHP-14_intro:l97-105`与注1–7（L194–200），对照`CHP-14.pdf`物理页10，并核对p.355/p.357跨页续接。源Markdown SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`、PDF SHA-256=`f871a00a63cfa5a9f229930cfd4b0d979baa0491ca4e7fe4d50404fa020a52e0`，均与复审前一致；未改写S0。复审前p.356共29条statement（22条正文、7条注释）及72条mentions；现增补1条正文断言，合计30条statement（23条正文、7条注释）、72条mentions。将`m-chp14-p356-0003`的`Venice`从Algarotti索引项`cand-0082`改映射至地点候选`cand-2719`；新增`st-chp14-p356-kept-in-touch-with-italian-artistic-affairs`，记载Algarotti离开意大利后仍关注当地艺术事务；推广意大利及威尼斯艺术的statement现明确保留爱国动因。未合并候选或创建正式关系。
+
+页图校读仅写入对应statement的`ocr_corrections`，原始引文和S0均保留：L101 `commision`→`commission`；L194 `T1`→`Il`、`pretcnderebbe`→`pretenderebbe`；L197 `fame un regalo`→`farne un regalo`、`facilitate`→`facilitare`、`1'esecuzione`→`l'esecuzione`；L200 `Opéré`→`Opere`。正文L100 `thistime`→`this time`经印本复核。p.356 L105与p.357 L108句子续接和注释回链保持有效。表审计为1,019 KU、11,498 candidates、27,413 mentions、12,358 statements、832 segments；`s2_missing=[]`、`errors=[]`。S2关系候选总数2,583，其中2,562条端点齐全、21条仍开放；两条既存`source_ref`警告不变。下一源段为p.357正文`chp-14:14_CHP-14_intro:l107-116`，全书S2未交接。
