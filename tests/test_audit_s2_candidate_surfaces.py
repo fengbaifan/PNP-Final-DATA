@@ -2,6 +2,7 @@ from scripts.audit_s2_candidate_surfaces import (
     build_patterns,
     find_uncovered_spans,
     mask_uncovered_source_lines,
+    should_audit_chapter,
 )
 
 
@@ -86,3 +87,27 @@ def test_candidate_phrase_cannot_bridge_into_an_uncovered_line():
 
     assert covered_lines == 1
     assert find_uncovered_spans(scan_text, patterns, []) == []
+
+
+def test_split_chapter_one_uses_the_reviewed_local_segment_when_ranges_are_remote():
+    text = "Heading\nCovered local segment: Mancini"
+    scan_text, covered_lines = mask_uncovered_source_lines(
+        text,
+        segment_line_start=11,
+        source_line_ranges="L45-L48",
+        fallback_to_full_segment=True,
+    )
+    patterns = build_patterns(
+        [{"candidate_id": "cand-mancini", "canonical_name": "Mancini", "suggested_type": "person"}]
+    )
+
+    assert covered_lines == 2
+    assert find_uncovered_spans(scan_text, patterns, [])[0]["surface_form"] == "Mancini"
+
+
+def test_default_candidate_scan_omits_bibliography_and_index_but_allows_explicit_scan():
+    assert should_audit_chapter("chp-8", None)
+    assert not should_audit_chapter("chp-21", None)
+    assert not should_audit_chapter("chp-22", None)
+    assert should_audit_chapter("chp-22", "chp-22")
+    assert not should_audit_chapter("chp-8", "chp-22")

@@ -5,7 +5,9 @@ This is a heuristic recall prompt, not an entity extractor or semantic gate.
 It only detects existing typed candidate labels that appear literally in
 covered source lines in a reviewed S2 segment without overlapping any recorded
 mention. It cannot find unlisted entities, judge identity, or determine whether
-a candidate hit should be a mention.
+a candidate hit should be a mention. The default whole-book pass omits the
+bibliography and index, which are handled as citation records and locator data;
+pass an explicit ``--chapter`` to inspect either one separately.
 """
 from __future__ import annotations
 
@@ -23,6 +25,13 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 TABLES = ROOT / "04-knowledge" / "tables"
 SOURCE_LINE_RANGE = re.compile(r"(?<!\w)L\s*(\d+)(?:\s*[-–—]\s*L?\s*(\d+))?", re.IGNORECASE)
+NON_NARRATIVE_CHAPTERS = {"chp-21", "chp-22"}
+
+
+def should_audit_chapter(chapter_id: str, requested_chapter: str | None) -> bool:
+    if requested_chapter is not None:
+        return chapter_id == requested_chapter
+    return chapter_id not in NON_NARRATIVE_CHAPTERS
 
 
 def normalize(value: str) -> str:
@@ -128,6 +137,7 @@ def mask_uncovered_source_lines(
     text: str,
     segment_line_start: int,
     source_line_ranges: str,
+    fallback_to_full_segment: bool = False,
 ) -> tuple[str, int]:
     """Mask segment lines omitted from the coverage row, preserving offsets.
 
@@ -146,6 +156,13 @@ def mask_uncovered_source_lines(
         clipped_end = min(end, line_end)
         if clipped_start <= clipped_end:
             covered.update(range(clipped_start, clipped_end + 1))
+
+    # Chapter 1's S2 ranges refer to the merged chapter OCR, while its S0
+    # segments point into split section files. Those coordinate systems do not
+    # intersect; the reviewed split segment itself is the smallest reliable
+    # scan unit in that case.
+    if not covered and fallback_to_full_segment:
+        return text, len(lines)
 
     masked = [
         line if segment_line_start + index in covered else "\0" * len(line)
@@ -173,7 +190,7 @@ def audit(chapter: str | None, min_single_word_chars: int) -> tuple[dict[str, ob
     for segment in segment_rows:
         segment_id = segment["segment_id"]
         state = coverage.get(segment_id)
-        if chapter and segment.get("chapter") != chapter:
+        if not should_audit_chapter(str(segment.get("chapter", "")), chapter):
             continue
         if not state or state.get("disposition") != "reviewed" or state.get("migration_status") not in {"complete", "partial"}:
             continue
@@ -187,6 +204,7 @@ def audit(chapter: str | None, min_single_word_chars: int) -> tuple[dict[str, ob
             text,
             int(segment["line_start"]),
             state.get("source_line_ranges", ""),
+            fallback_to_full_segment=segment.get("chapter") == "chp-1",
         )
         if not covered_line_count:
             continue
@@ -197,6 +215,7 @@ def audit(chapter: str | None, min_single_word_chars: int) -> tuple[dict[str, ob
 
     summary = {
         "chapter": chapter or "all",
+        "default_scope_excludes": sorted(NON_NARRATIVE_CHAPTERS) if chapter is None else [],
         "reviewed_segments_scanned": scanned,
         "typed_candidate_name_patterns": len(patterns),
         "uncovered_candidate_surface_spans": len(hits),
