@@ -2,10 +2,10 @@
 """Read-only locator for typed candidate names missing from S2 mention spans.
 
 This is a heuristic recall prompt, not an entity extractor or semantic gate.
-It only detects existing typed candidate labels that appear literally in a
-reviewed S2 segment without overlapping any recorded mention. It cannot find
-unlisted entities, judge identity, or determine whether a candidate hit should
-be a mention.
+It only detects existing typed candidate labels that appear literally in
+covered source lines in a reviewed S2 segment without overlapping any recorded
+mention. It cannot find unlisted entities, judge identity, or determine whether
+a candidate hit should be a mention.
 """
 from __future__ import annotations
 
@@ -22,6 +22,7 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 TABLES = ROOT / "04-knowledge" / "tables"
+SOURCE_LINE_RANGE = re.compile(r"(?<!\w)L\s*(\d+)(?:\s*[-–—]\s*L?\s*(\d+))?", re.IGNORECASE)
 
 
 def normalize(value: str) -> str:
@@ -123,6 +124,36 @@ def find_uncovered_spans(
     return [hits[key] for key in sorted(hits)]
 
 
+def mask_uncovered_source_lines(
+    text: str,
+    segment_line_start: int,
+    source_line_ranges: str,
+) -> tuple[str, int]:
+    """Mask segment lines omitted from the coverage row, preserving offsets.
+
+    ``source_line_ranges`` can include ranges from other pages or other source
+    segments. Only line numbers intersecting this segment's own source-line
+    bounds are considered here. NUL barriers preserve character offsets while
+    preventing phrases from matching across an uncovered line.
+    """
+    lines = text.split("\n")
+    line_end = segment_line_start + len(lines) - 1
+    covered: set[int] = set()
+    for match in SOURCE_LINE_RANGE.finditer(source_line_ranges):
+        start = int(match.group(1))
+        end = int(match.group(2) or start)
+        clipped_start = max(start, segment_line_start)
+        clipped_end = min(end, line_end)
+        if clipped_start <= clipped_end:
+            covered.update(range(clipped_start, clipped_end + 1))
+
+    masked = [
+        line if segment_line_start + index in covered else "\0" * len(line)
+        for index, line in enumerate(lines)
+    ]
+    return "\n".join(masked), len(covered)
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -152,7 +183,14 @@ def audit(chapter: str | None, min_single_word_chars: int) -> tuple[dict[str, ob
         if source not in source_cache:
             source_cache[source] = source.read_text(encoding="utf-8-sig").splitlines()
         text = "\n".join(source_cache[source][segment["line_start"] - 1 : segment["line_end"]])
-        spans = find_uncovered_spans(text, patterns, mentions.get(segment_id, []), segment_id=segment_id)
+        scan_text, covered_line_count = mask_uncovered_source_lines(
+            text,
+            int(segment["line_start"]),
+            state.get("source_line_ranges", ""),
+        )
+        if not covered_line_count:
+            continue
+        spans = find_uncovered_spans(scan_text, patterns, mentions.get(segment_id, []), segment_id=segment_id)
         scanned += 1
         for span in spans:
             hits.append({"segment_id": segment_id, **span})

@@ -1,4 +1,8 @@
-from scripts.audit_s2_candidate_surfaces import build_patterns, find_uncovered_spans
+from scripts.audit_s2_candidate_surfaces import (
+    build_patterns,
+    find_uncovered_spans,
+    mask_uncovered_source_lines,
+)
 
 
 def test_candidate_surface_scan_maps_multiline_phrase_and_honors_mention_overlap():
@@ -53,3 +57,32 @@ def test_identity_unresolved_office_candidate_does_not_match_same_title_elsewher
     )
     assert len(source_hit) == 1
     assert source_hit[0]["candidate_matches"][0]["candidate_id"] == "unknown-pope"
+
+
+def test_candidate_scan_uses_only_covered_lines_and_preserves_source_offsets():
+    text = "Section heading Mancini\nCovered mention: Mancini\nDuplicate copy: Mancini"
+    scan_text, covered_lines = mask_uncovered_source_lines(
+        text,
+        segment_line_start=10,
+        source_line_ranges="L11-L11; p.4 L22",
+    )
+    patterns = build_patterns(
+        [{"candidate_id": "cand-mancini", "canonical_name": "Mancini", "suggested_type": "person"}]
+    )
+    hits = find_uncovered_spans(scan_text, patterns, [])
+
+    assert covered_lines == 1
+    assert len(hits) == 1
+    assert hits[0]["surface_form"] == "Mancini"
+    assert hits[0]["start_char"] == text.index("Mancini", text.index("Covered"))
+
+
+def test_candidate_phrase_cannot_bridge_into_an_uncovered_line():
+    text = "Northern\nEurope"
+    scan_text, covered_lines = mask_uncovered_source_lines(text, 1, "L1")
+    patterns = build_patterns(
+        [{"candidate_id": "cand-north", "canonical_name": "Northern Europe", "suggested_type": "place"}]
+    )
+
+    assert covered_lines == 1
+    assert find_uncovered_spans(scan_text, patterns, []) == []
