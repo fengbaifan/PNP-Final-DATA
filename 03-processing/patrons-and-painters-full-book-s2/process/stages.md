@@ -7206,3 +7206,110 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本`chp8_candidate_surface_prompt_reconciliation.py`默认dry-run，锁定候选/mention/statement表、segments、coverage、扫描器、taxonomy及7份第八章规范S0文件；apply前检查111条提示完整分区、全部精确源跨度、候选ID序列、候选外键、mention重叠和statement目标，apply时为3张表保存恢复副本。plan SHA-256=`f982f0c7d2121385e56df9e577df41e1761d96c91c0ea7b36b273656553d8489`；script SHA-256=`7ab3e8b6e50e63fe0dc099c03cb09a56787f9c736668ee27f129405697c723c1`。表SHA-256写前→写后：candidates `2a68ced91ee0662e1e3515769eef7ac3d2981d3d00f5773613891a1e4acd22e5`→`64b00d3499f13c8340fa9a55250ecaec2f46326197d5eb169ec49615a789691c`；mentions `29a2d397cd6c1b32cf90b13d56ab5a68f15ba0011f01d23374f42de4394eea55`→`c9b56e91864305d3f87436bc685a38fac94c0f49ba240638c7ed745802bae551`；statements `a4a942d1f71c7735f03289129503d899683fcd84f9c8011e757e70855d67ed7e`→`ece9290d813a686b35da105ba17d4690a561f88f7534cc63c1026193363e2d20`。恢复副本：`C:\Users\001\AppData\Local\Temp\pnp-s2-chp8-surface-prompts-20261008-101735`。
 
 `python -X utf8 scripts/audit_tables.py --strict-stage`通过：1,019 KU、11,471 candidates、27,215 mentions、12,255 statements；832段中678 reviewed/complete、154 excluded/complete、0 queued、0 partial；`s2_missing=[]`、`errors=[]`。两条既存enrichment `source_ref`警告（`enr-06678`、`enr-06937`）未变化。第八章覆盖状态为56 reviewed/complete、5 excluded/complete。下一书序第九章当前定位器覆盖46个reviewed段、提示91条，均待逐条语义裁决；全书S2总交接尚未完成。
+
+
+## 第九章候选表面提示裁决（2026-10-08）
+
+定位器在第九章46个reviewed/complete段中给出91条候选表面提示；候选表面定位器只覆盖已登记标签，不证明实体召回。逐条回到来源裁决后，44条映射、47条不写。写回后剩余45条提示，与47条不写决定扣除被接受短语覆盖的嵌套提示#50、#85后完全一致。逐条判断如下；字符跨度为定位器拼接段文本内的零起点、右开区间，来源行号用于回到S0原文。
+
+| 序号 | 来源定位 | 提示跨度 | 提示原文 | 裁决/候选 | 判断依据 |
+|---:|---|---:|---|---|---|
+| 1 | 09_CHP-9_intro.md#L107 | 130:138 | churches | 不写入 | Churches is an unbounded category in the Manin passage; no individual building is identified by this word. |
+| 2 | 09_CHP-9_intro.md#L110 | 1265:1272 | Bologna | 映射 cand-3398 | Bologna is the city in the Manin passage; reuse the candidate already linked to the corresponding Ch.9 statement, leaving S3 identity reconciliation open. |
+| 3 | 09_CHP-9_intro.md#L112 | 1994:2000 | Venice | 映射 cand-2719 | Venice is the named city in which the Jesuit church stands; choose the place candidate, not index subentries whose canonical label also says Venice. |
+| 4 | 09_CHP-9_intro.md#L165 | 2887:2894 | memoirs | 映射 cand-8426 | The memoirs are the source cited for the banquet report; use the Ch.9 volume-and-page citation locator, not Goldoni's memoirs or the unaligned bibliography record. |
+| 5 | 09_CHP-9_intro.md#L170 | 1088:1094 | Prince | 不写入 | Prince is a generic political role in Renier's contrast, not an identified person. |
+| 6 | 09_CHP-9_intro.md#L170 | 1100:1107 | subject | 不写入 | Subject means a person subject to a ruler in the quoted political contrast, not a work's subject. |
+| 7 | 09_CHP-9_intro.md#L170 | 1553:1560 | subject | 不写入 | Subject-matter is a generic description of painting content, not an independent entity. |
+| 8 | 09_CHP-9_intro.md#L180 | 187:193 | Venice | 映射 cand-2719 | Venice is the city contrasted with success abroad; reuse the in-book place candidate. |
+| 9 | 09_CHP-9_intro.md#L183 | 1365:1374 | character | 不写入 | Character describes an ordinary personal quality in the reported funeral oration. |
+| 10 | 09_CHP-9_intro.md#L184 | 1773:1782 | character | 不写入 | Character is a generic personal-quality term, not a named concept in this sentence. |
+| 11 | 09_CHP-9_intro.md#L185 | 2236:2245 | histories | 不写入 | Family histories means the subject matter of paintings, not a bounded work group. |
+| 12 | 09_CHP-9_intro.md#L193 | 837:843 | palace | 映射 cand-1059 | The palace is the indexed Foscarini family palace described in this paragraph; the false Pamfili index hit is unrelated. |
+| 13 | 09_CHP-9_intro.md#L195 | 1753:1759 | Venice | 映射 cand-2719 | Venice is the city whose recovery is invoked in the painting's subject; reuse the in-book place candidate. |
+| 14 | 09_CHP-9_intro.md#L196 | 1893:1900 | subject | 不写入 | Subject is the topic represented by the already identified painting, not another object. |
+| 15 | 09_CHP-9_intro.md#L205 | 786:792 | prince | 不写入 | Prince is a generic honorific/role in Novelli's praise of Marco Foscarini, not a separate named person. |
+| 16 | 09_CHP-9_intro.md#L214 | 1495:1502 | amateur | 映射 cand-3570 | Amateur is used as a social/artistic role for Almorò Pisani; map the exact term without inferring training or professional status. |
+| 17 | 09_CHP-9_intro.md#L219 | 224:230 | prices | 不写入 | Prices is a generic market category used for comparison; no particular price record is named. |
+| 18 | 09_CHP-9_intro.md#L221 | 1026:1032 | canvas | 映射 cand-3571 | Canvas is the painting support Tiepolo had to pay for; it is not a work title. |
+| 19 | 09_CHP-9_intro.md#L222 | 1870:1881 | old masters | 映射 cand-4288 | Old masters denotes the broad art-historical category in the Grassi comparison. |
+| 20 | 09_CHP-9_intro.md#L224 | 2452:2463 | old masters | 映射 cand-4288 | Old masters denotes the broad category of works bought by the Giovanelli, not an individual painting. |
+| 21 | 09_CHP-9_intro.md#L227 | 2853:2859 | palace | 映射 cand-8201 | The ceiling paintings are located in the Labia palace; the existing palace candidate was created from this chapter's p.250 account. |
+| 22 | 09_CHP-9_intro.md#L234 | 904:914 | collection | 映射 cand-11493 | Haskell explicitly describes the large multi-medium collection Sagredo amassed; the candidate preserves its unresolved boundary and type. |
+| 23 | 09_CHP-9_intro.md#L234 | 929:937 | drawings | 不写入 | Drawings is one medium in the multi-medium collection list; no distinct drawing group is identified by this span. |
+| 24 | 09_CHP-9_intro.md#L236 | 1383:1394 | temperament | 不写入 | Temperament is an ordinary personal disposition, not a separately named entity. |
+| 25 | 09_CHP-9_intro.md#L236 | 1627:1633 | palace | 映射 cand-8575 | The palace at S. Sofia is the unnamed Sagredo residence already recorded from the preceding source sentence. |
+| 26 | 09_CHP-9_intro.md#L236 | 1842:1852 | collection | 映射 cand-11493 | The collection is the same Sagredo collection he attempted to preserve after death; distinguish its broad scope from individual works. |
+| 27 | 09_CHP-9_intro.md#L237 | 2488:2498 | collection | 映射 cand-11493 | Cochin's account concerns pictures in the same Sagredo collection; the cited volume and pages remain unconsulted. |
+| 28 | 09_CHP-9_intro.md#L241 | 104:114 | collection | 映射 cand-11493 | The collection planned for dispersal is the broad Sagredo collection described on p.263. |
+| 29 | 09_CHP-9_intro.md#L241 | 293:303 | collection | 映射 cand-11493 | The collection broken up piecemeal is the same Sagredo collection; retain the source's gradual-disposal wording. |
+| 30 | 09_CHP-9_intro.md#L243 | 624:634 | collection | 映射 cand-11493 | The inventories are used to assess the same Sagredo collection; do not equate them with individual works or a complete itemized catalogue. |
+| 31 | 09_CHP-9_intro.md#L243 | 1114:1124 | collection | 映射 cand-11493 | The family collection includes pictures predating Zaccaria's own additions; its exact boundary remains unresolved. |
+| 32 | 09_CHP-9_intro.md#L243 | 1193:1199 | battle | 映射 cand-8602 | The battle scenes are the unidentified Borgognone group already recorded and are explicitly linked to Doge Niccolò in the source. |
+| 33 | 09_CHP-9_intro.md#L243 | 1364:1370 | palace | 映射 cand-8575 | The later reference to the palace points back to Sagredo's unnamed S. Sofia residence; do not merge it with Palazzo Sagredo before S3. |
+| 34 | 09_CHP-9_intro.md#L244 | 1734:1753 | of Venetian artists | 不写入 | The phrase 'Venetian artists' is a generic group description; the index matches are patronage subentries, not this group. |
+| 35 | 09_CHP-9_intro.md#L292 | 373:383 | collection | 映射 cand-11493 | The estimate refers to the Sagredo collection whose prestige is discussed in this paragraph. |
+| 36 | 09_CHP-9_intro.md#L292 | 607:615 | drawings | 映射 cand-8607 | The several drawings recorded in 1743 are the already registered unidentified Tiepolo drawing group. |
+| 37 | 09_CHP-9_intro.md#L295 | 2177:2185 | drawings | 不写入 | Drawings is a generic category in Crespi's quoted estimate; no bounded set is identified. |
+| 38 | 09_CHP-9_intro.md#L296 | 2581:2591 | collection | 映射 cand-11493 | The hundreds of works in the note belong to the broad Sagredo collection; individual old-master pictures remain unidentified. |
+| 39 | 09_CHP-9_intro.md#L297 | 2863:2869 | palace | 映射 cand-8614 | Cochin's phrase is specifically 'Sagredo palace'; map to the chapter's named Palazzo Sagredo candidate while preserving its unresolved identity with the S. Sofia residence. |
+| 40 | 09_CHP-9_intro.md#L304 | 626:636 | Collection | 映射 cand-2334 | Breval's 'Collection of Prints' is the indexed Sagredo print-and-drawing collection subentry, distinct from the broad multi-medium collection candidate. |
+| 41 | 09_CHP-9_intro.md#L305 | 1001:1012 | old masters | 映射 cand-4288 | German old masters is a broad art-historical category in the volumes, not a named work group. |
+| 42 | 09_CHP-9_intro.md#L307 | 1440:1448 | drawings | 映射 cand-8627 | 'These drawings' refers back to the volume of Diziani drawings just described; the statement remains limited to Haskell's account of their later sale. |
+| 43 | 09_CHP-9_intro.md#L307 | 1650:1665 | connoisseurship | 映射 cand-3567 | Connoisseurship names the collecting expertise inferred from the surviving volumes; map to the existing term candidate. |
+| 44 | 09_CHP-9_intro.md#L309 | 2307:2315 | drawings | 映射 cand-8636 | The admired prints and drawings are the previously registered Castiglione drawing set; the individual sheets remain unidentified. |
+| 45 | 09_CHP-9_intro.md#L309 | 2364:2370 | Venice | 映射 cand-2719 | Venice is the city where Castiglione's prints and drawings were admired; use the place candidate. |
+| 46 | 09_CHP-9_intro.md#L314 | 211:218 | subject | 不写入 | Subject-matter describes the content and technique of etchings, not an independent object. |
+| 47 | 09_CHP-9_intro.md#L321 | 1608:1616 | drawings | 不写入 | The source explicitly says there is no specific reference to drawings among the works sent to the Duke; do not create an object from this negative statement. |
+| 48 | 09_CHP-9_intro.md#L321 | 1660:1666 | Venice | 映射 cand-2719 | Venice is the city named as the destination of the Duke's art shipment; this does not establish the drawings' provenance. |
+| 49 | 09_CHP-9_intro.md#L321 | 2025:2035 | collection | 映射 cand-8636 | The phrase identifies Sagredo's collection of the Castiglione drawing set, not the full multi-medium collection. |
+| 50 | 09_CHP-9_intro.md#L321 | 2045:2053 | drawings | 不写入 | This nested 'drawings' span is covered by the accepted phrase 'collection of these drawings' at prompt 49. |
+| 51 | 09_CHP-9_intro.md#L321 | 2141:2147 | poetry | 不写入 | Poetry is a figurative description of Castiglione's work, not a named literary object. |
+| 52 | 09_CHP-9_intro.md#L321 | 2141:2150 | poetry of | 不写入 | The nested 'poetry of' hit is metaphorical prose and does not identify a separate work. |
+| 53 | 09_CHP-9_intro.md#L321 | 2192:2201 | character | 不写入 | Character is a generic quality inferred by Haskell, not a distinct object. |
+| 54 | 09_CHP-9_intro.md#L355 | 5490:5497 | subject | 不写入 | Subject means the depicted topic of a Vienna canvas; the statement concerns its identification, not a separate entity. |
+| 55 | 09_CHP-9_intro.md#L370 | 8134:8141 | subject | 不写入 | Subject is the generic choice left to the patron and painter in a commission. |
+| 56 | 09_CHP-9_intro.md#L388 | 9872:9878 | Veneto | 不写入 | Veneto is part of the cited honorific 'Veneto Senatore', not a geographic reference to the region. |
+| 57 | 09_CHP-9_intro.md#L411 | 12046:12052 | prices | 不写入 | Prices is a note's generic cross-reference to amounts discussed elsewhere, not a separate record. |
+| 58 | 09_CHP-9_intro.md#L413 | 12264:12274 | collection | 映射 cand-1348 | The note refers to the Labia collection in the cited 1749 inventory; inventory entries remain separate work candidates. |
+| 59 | 09_CHP-9_intro.md#L415 | 12841:12847 | Europa | 映射 cand-3462 | Italian Europa means geographic Europe in Da Canal's quotation, not the mythological figure or Ricci's work. |
+| 60 | 09_CHP-9_intro.md#L418 | 12996:13004 | drawings | 映射 cand-8590 | The Carracci drawings bought from the Bonfiglioli family are the already registered unidentified group. |
+| 61 | 09_CHP-9_intro.md#L422 | 13637:13647 | collection | 映射 cand-11493 | Posse's letter says the pictures were to be sold as a complete collection; use the broad Sagredo collection candidate. |
+| 62 | 09_CHP-9_intro.md#L423 | 13775:13783 | drawings | 不写入 | Paintings and drawings bought from Sagredo's heirs are an unbounded plural set in the archival citation; the statement preserves the sale without inventing a separate group. |
+| 63 | 09_CHP-9_intro.md#L39 | 840:851 | aristocracy | 映射 cand-2734 | The index term 'identification of aristocracy with state' precisely matches this Venetian political concept; the adjacent State mention remains a separate candidate. |
+| 64 | 09_CHP-9_intro.md#L85 | 2323:2329 | palace | 映射 cand-1886 | The private-palace reference occurs within the Pesaro commission account and is contextually tied to the indexed Pesaro palace; retain that contextual basis. |
+| 65 | 09_CHP-9_intro.md#L104 | 2183:2189 | Venice | 映射 cand-2719 | Cochin's presence 'in Venice' is a direct city reference in the inventory discussion. |
+| 66 | 09_CHP-9_intro_plates_visual-transcription.md#L1 | 38:47 | portraits | 不写入 | The caption already records the Barbaro family and façade; 'portraits' is a generic depiction mode, not an independently identified portrait group. |
+| 67 | 09_CHP-9_intro_plates_visual-transcription.md#L8 | 0:19 | Venetian artists in | 不写入 | 'Venetian artists in England' is a section-like caption heading, not a named entity. |
+| 68 | 09_CHP-9_sec_ii.md#L19 | 56:64 | churches | 不写入 | Churches is a generic category in the comparison of religious funding; the sentence does not name a particular church building. |
+| 69 | 09_CHP-9_sec_ii.md#L19 | 212:220 | churches | 不写入 | Churches is a generic class before the separately named parish examples; no bounded group is intended. |
+| 70 | 09_CHP-9_sec_ii.md#L19 | 664:672 | churches | 不写入 | Churches of several religious orders is an unenumerated group; named orders and individual sites remain represented separately. |
+| 71 | 09_CHP-9_sec_ii.md#L23 | 1537:1543 | Venice | 映射 cand-2719 | Venice is the city in the comparison of the Scalzi façade with Europe; the clergy-power index candidate is a separate term. |
+| 72 | 09_CHP-9_sec_ii.md#L28 | 206:214 | churches | 不写入 | Churches is a generic architectural category in a comparison; the named regions and cities are separate place references. |
+| 73 | 09_CHP-9_sec_ii.md#L36 | 2892:2899 | modello | 不写入 | Modello means an architectural model of the Redentore, not the existing term candidate for a preparatory oil sketch. |
+| 74 | 09_CHP-9_sec_ii.md#L54 | 313:319 | Venice | 映射 cand-2719 | Venice is the city used as the comparison for the Jesuit church's marble decoration. |
+| 75 | 09_CHP-9_sec_ii.md#L55 | 773:780 | subject | 不写入 | Subject is the depicted topic associated with the already registered Elijah painting, not a separate entity. |
+| 76 | 09_CHP-9_sec_ii.md#L10 | 1106:1117 | altarpieces | 不写入 | Altarpieces is a generic work category, not a bounded set. |
+| 77 | 09_CHP-9_sec_ii.md#L11 | 1555:1563 | churches | 不写入 | Churches is a generic category in the comparison with palaces; no separate building group is identified. |
+| 78 | 09_CHP-9_sec_ii.md#L13 | 1982:1988 | palace | 不写入 | Palace is used generically alongside church, not as a reference to one identifiable palace. |
+| 79 | 09_CHP-9_sec_ii.md#L64 | 356:364 | churches | 不写入 | Churches is an unbounded category in the account of private donations. |
+| 80 | 09_CHP-9_sec_ii.md#L67 | 1602:1609 | subject | 不写入 | Subject is the generic topic left to the patron's choice, not an independently identified work. |
+| 81 | 09_CHP-9_sec_ii.md#L72 | 356:364 | churches | 不写入 | Churches refers to the general context of earlier schemes, not a bounded group of buildings. |
+| 82 | 09_CHP-9_sec_ii.md#L73 | 1086:1093 | subject | 不写入 | Subject is a generic topic in the discussion of patron choice. |
+| 83 | 09_CHP-9_sec_ii.md#L75 | 1698:1706 | churches | 不写入 | Venetian churches is a generic subject of Corner's scholarship, not an identifiable group entity. |
+| 84 | 09_CHP-9_sec_ii.md#L76 | 2472:2491 | Counter Reformation | 映射 cand-3396 | Counter-Reformation names the art-historical religious movement in Haskell's comparison. |
+| 85 | 09_CHP-9_sec_ii.md#L76 | 2480:2491 | Reformation | 不写入 | The nested 'Reformation' hit is part of the accepted compound term 'Counter Reformation' at prompt 84. |
+| 86 | 09_CHP-9_sec_ii.md#L82 | 392:400 | churches | 不写入 | Churches is generic in the discussion of altar materials; individual buildings are not named here. |
+| 87 | 09_CHP-9_sec_ii.md#L82 | 485:492 | theatre | 不写入 | Theatre is a simile for profane decorative style, not a venue. |
+| 88 | 09_CHP-9_sec_ii.md#L82 | 1348:1356 | churches | 不写入 | Churches is a generic category in the quoted criticism; no specific building is identified. |
+| 89 | 09_CHP-9_sec_ii.md#L83 | 1459:1465 | Loreto | 不写入 | Loreto is part of a generic devotional image/dedication phrase, not the town candidate; no individual Madonna work is named. |
+| 90 | 09_CHP-9_sec_ii.md#L108 | 2776:2783 | Jesuits | 映射 cand-1322 | The Jesuits are the named religious institution in de Bernis's report; reuse the index candidate already present in the note statement. |
+| 91 | 09_CHP-9_sec_ii.md#L127 | 4562:4570 | churches | 不写入 | Venetian churches is an unbounded comparison class, not a separate collective entity. |
+
+第九章覆盖账本共53段：46段reviewed/complete、7段excluded/complete。写回新增1个类型待定的宽口径对象候选cand-11493（Zaccaria Sagredo多媒介收藏，边界未定），新增44条mentions，为既有statement补充候选提及链接，并保留候选身份边界：宽口径收藏与索引所列印刷品/素描子项cand-2334分开，Palazzo Sagredo与S. Sofia住所不在本阶段合并。
+
+另将st-chp9-p263264-zaccaria-public-service-and-collection拆分为治理Bergamo的任职陈述与新建的st-chp9-p263-zaccaria-amassed-multimedia-collection。第一条只保留1690年贝加莫总督任职；第二条只陈述Haskell所述绘画、素描、雕塑、书籍和盔甲收藏，不扩写为逐件清单。原有声誉与访客叙述仍由独立statement承载。此拆分让主张、对象和原文范围一致；没有新增KU或S6正式关系。
+
+受控脚本默认dry-run，锁定候选、mentions、statements、segments、coverage、扫描器、taxonomy、schema及5份第九章规范来源。计划SHA-256=c07457d2e420b3bcb2f758e577f56b511aa73f5eafa136276e140649b3719b2e；脚本SHA-256=46e87646ab8e99113a93a0f7354c9e022310f63c71eeddcdff918cde6de5ea1c。表SHA-256写前→写后：候选64b00d3499f13c8340fa9a55250ecaec2f46326197d5eb169ec49615a789691c→ad016f18b25aa2e9d0ce75be7399ac5a62b3ccd51b882100c9b60bb14cad1ffd；mentions c9b56e91864305d3f87436bc685a38fac94c0f49ba240638c7ed745802bae551→1569933c8d788796fb56d3fbe690753dae3d9eeadbe7695fff7f96550ab728a6；statements ece9290d813a686b35da105ba17d4690a561f88f7534cc63c1026193363e2d20→9a01c3ec987dd20a19773f711bfde74ed5d52d679ce83bc5d004e4124dc15280。恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp9-surface-prompts-20261008-110026。
+
+严格阶段审计通过：1,019 KU、11,472 candidates、27,259 mentions、12,256 statements；S2覆盖678 reviewed/complete、154 excluded/complete，s2_missing=[]、errors=[]。关系候选2,329条，2,323条两端完整、6条开放。两条既存enrichment source_ref警告（enr-06678、enr-06937）仍在。下一章第十章定位器目前在73个reviewed段上给出117条提示，待逐条语义裁决。
