@@ -7646,3 +7646,16 @@ mentions.csv新增m-chp14-p348-0111，源段chp-14:14_CHP-14_intro:l14-21中字�
 p.350 note 1对应的档案候选cand-10265为1741-09-05致Bonomo、Treviso MSS. 1256。把注1记录为letter `addressed_to` Bonomo，并新增正文主语指向Algarotti的`authored_by`候选；两者均通过具体脚注ID互链。未查阅原件或目录。
 
 本批新增3条statement、1条mention、0个candidate；另有2条既有statement新增关系候选标记，注1记录与作者statement共使关系候选净增5。p.350关系候选9条、端点9/9齐全；全书关系候选2,536条、端点齐全2,515条、开放21条。新增3组S3身份问题后，全书`candidate_identity_questions`为23条statement、34个问题、25个候选ID。严格审计：1,019 KU、11,498 candidates、27,402 mentions、12,314 statements、832 segments；`s2_missing=[]`、`errors=[]`。quote复核为12,268条逐字匹配、46条空白归一匹配、0条未匹配。写前表SHA-256和恢复副本见工具记录；写后`book-statements.jsonl` SHA-256=`be1b395307bb0868eeea390308e0bdff360800e1a213676d84061925a232af38`，`mentions.csv` SHA-256=`e9b0909d16300d7bf3d62b185fdceb15be2ad63db8f648409ee2c88c4676196f`；恢复副本：`%TEMP%/pnp-chp14-p350-relationships-f7h2vuws`。
+
+
+## 第十四章p.351语义复审与跨页复核（2026-10-08）
+
+对照`CHP-14.pdf`物理页5及Markdown正文L47–53、注2 L181，复审p.351首轮记录；不改写S0。将mention `m-chp14-p351-0062/0063`从Pittoni改指Algarotti，纠正误写为“his compositions”的注释；补录`m-chp14-p351-0068`至`0074`七条单数代词指代。复核多指代`them`仍指艺术家群体而非单个候选，故不伪造单一mention端点，由相关claim及候选列表表达群体范围。
+
+新增22条statement，无新增候选；p.351共45条statement、74条mention。拆出三位history painters分类及Algarotti分别为Tiepolo、Pittoni、Piazzetta选择不同题材的候选关系；将Zuccarelli、Pannini、Canaletto排除、Mura、Solimena、Lelli、Creti、Amigoni、Mancini和威尼斯返程记录为标量端点候选。Boucher、Balestra、Creti的题材分配与拟议合作分开；合作候选的pairwise编码仍仅供S6判断。把Augustus对old masters的较高热情与Algarotti推广modern art部分成功拆开。五幅作品组分为Algarotti选择、五位艺术家分别参与绘制、作品组据称遗失三类断言；不作题名或单件—画家配对。
+
+“the four Venetians already mentioned”未解析：Canaletto在同段刚被明确说成忽略，故不把其替换成Zuccarelli，也不推定这四人名单；只把Amigoni作为明确点名的关系端点。p.351 L53未完的patronage句与p.352 `st-chp14-p352-banquet-ordered-for-king`双向链接；p.352明言该Tiepolo画作不属五幅失传作品组。p.351离开Venice近五年的材料与p.352对1737年接触“无证据”的限定互链，不把“无证据”改写成未接触。
+
+注2信件候选`cand-10274`新增`authored_by` Algarotti及`addressed_to` Mariette两条S2关系候选；注2所引原信及Opere版本未独立查阅。把Ferrari短引注`cand-10275`与书目`cand-9460`、以及此信与第十章`cand-9869`分别列为S3身份问题；Posse条目链接至本书书目同候选`cand-10276`。此前首轮日志把`after.he`写作OCR纠正；页图显示句点见于印本，现撤销该OCR判断并按印本异常保留S0原文。另记录`modem`→`modern`、`Ercole Lefli`→`Ercole Lelli`、`Piazzctta`→`Piazzetta`及`soggetti.`→`soggetti`等校读依据。
+
+p.351现有28条S2关系候选，28/28具标量端点；没有写入S6正式关系。全书严格表审计：1,019 KU、11,498候选、27,409 mentions、12,336 statements、832 segments，`errors=[]`、`s2_missing=[]`。关系候选2,562条、2,541条端点齐全、21条开放；顶层原引文12,290条逐字匹配、46条空白归一匹配、未匹配0。受控写回脚本`chp14_p351_s2_reaudit.py`先dry-run再apply；写后`book-statements.jsonl` SHA-256=`8f8137a3c8544b77cae3ed11797ea3cccab99779e2968af7bc1588341c31eb2f`，`mentions.csv` SHA-256=`f29153aa995e9962804b1bbe33f5e9652810d8ac7b6ce49c6063f27ece677723`。其余第14章与全书S2审计继续，下一处按书序复审p.352。

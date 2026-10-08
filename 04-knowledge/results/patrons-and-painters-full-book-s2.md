@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,498个候选、27,402条mentions及12,314条statement；索引候选2,934行。严格阶段审计通过，s2_missing=[]、errors=[]；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,536条，2,515条端点齐全，21条仍开放且保留待证。全库footnote_pending、footnote_text_pending、cross_reference_text_pending及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
+当前表包含1,019个KU、11,498个候选、27,409条mentions及12,336条statement；索引候选2,934行。p.351语义复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,562条，2,541条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。全量同步闭合曾在p.350复核后通过（303 passed、2 subtests passed）；本次p.351写回后重跑了严格表审计，未重跑全量同步闭合。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -38,9 +38,11 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 - `st-chp10-p316-n04-honour-showed-haskell-painting-photographs`：目标cand-9678；注释说明组级先行词已确定，未把照片逐张映射到作品。正文statement的旧“注4待规范链接”限定已清理，`cand-9918` detail同步修正。
 - `st-chp15-p362-this-surpassed-venetian-collections-referent-unresolved`：主语锚定`cand-10432`，predicate现表述country-house architecture与威尼斯收藏的比较；新增mention `m-chp15-p362-0087`，来源段字符范围`2426:2430`。`candidate_identity_questions`记录cand-1007与cand-10432的S3比较，S2不合并。
 
+第十四章p.351已完成一次语义复审：23条首轮statement扩至45条、67条mentions扩至74条。两条原误指Pittoni的`his`改指Algarotti，补入7条明确的人称指代；另拆清三位历史画家的类别、拟分配题材、区域艺术家名单、Augustus对古代大师的偏好、五幅作品组的选择/绘制/遗失，以及注2书信的作者和收信人。该页28条关系候选均有标量端点，仍处S2候选层；没有新建候选或正式关系。`the four Venetians`的指代集合保留未决，因为同段明确说Canaletto被忽略，未用Zuccarelli替换或猜定名单。p.351末句与p.352互链；p.352说明其Tiepolo画作不属于五幅失传作品组。详细裁决见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项语义复审按书序回到p.352。
+
 ### 21条标量端点未齐的关系候选（交S3/S6）
 
-当前2,536条S2关系候选中，2,515条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
+当前2,562条S2关系候选中，2,541条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -70,11 +72,11 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,314条statement及27,402条mention：78,505个候选ID字段引用涉及10,111个候选，悬空0；5,849个嵌套statement引用均解析。statement与mentions共45,317个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为23条statement、34个问题、25个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个collection_type_pending=true，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计errors=[]、s2_missing=[]。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,336条statement及27,409条mention：78,627个候选ID字段引用涉及10,111个候选，悬空0；5,778个嵌套statement ID引用涉及3,264个目标，悬空0。statement与mentions共45,329个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为24条statement、36个问题、27个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,314条statement的顶层original_quote按各自source_file及source_line_start/end检查：12,268条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而segment_id指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,336条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,290条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 

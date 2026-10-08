@@ -71,3 +71,12 @@ p.349现有14条S2关系候选，端点14/14齐全；全书关系候选2,531条�
 补回Haskell认为皇家主人对画廊委托方案另有看法的限定；其具体偏好未说明。将Algarotti对Muratori等史家方法的承袭、画廊应代表绘画史与各画派的方案分别列为关系候选。修订“first rediscovery of the primitives” claim，明确原文排除Algarotti本人，不把后续原始主义收藏运动归因于他个人。
 
 p.350注1识别出`cand-10265`档案对象：致Bonomo、1741-09-05、Treviso MSS. 1256。注1关系记录为信件`addressed_to` Bonomo；另以正文主体`he`和脚注连接记录Algarotti的`authored_by`关系。原件/目录未查。新增3条statement、1条mention、0个candidate；新登记3组同名/同机构身份问题供S3对齐。p.350关系候选9条、端点全齐；全书2,536条、2,515条端点齐全、21条开放。严格审计`errors=[]`、`s2_missing=[]`；全书语义复核继续。
+
+
+## 第十四章p.351语义复审补正（2026-10-08）
+
+p.351首轮23条statement、67条mentions经过复审后，现为45条statement、74条mentions。更正两条`his`误指：`m-chp14-p351-0062/0063`均改指Algarotti；新增7条单数人称指代mention。题材分配、五幅画组、区域名单、Augustus偏好与现代艺术计划分别拆清；未确定“the four Venetians”的实际名单，因为Canaletto在同段被明确说成忽略。
+
+本页28条关系候选均有标量端点，仍处S2候选层；未新增实体候选或S6正式关系。注2把13 February 1751信件与Algarotti、Mariette建立`authored_by`和`addressed_to`候选边，并链接至书目；与第十章S. Rocco信件的身份保留给S3比较。p.351 L53和p.352 Tiepolo画作双向链接，明确该画不属于五幅失传作品组。
+
+对照印本后撤销旧过程记录中的`after.he` OCR纠正：句点见于印本，S0原文保持不变。严格表审计`errors=[]`、`s2_missing=[]`；全书当前12,336条statement、27,409条mentions、2,562条关系候选（2,541条端点齐全，21条开放）。下一处按书序复核p.352；全书S2交接仍未完成。

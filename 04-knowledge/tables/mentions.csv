@@ -1,4 +1,4 @@
-﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -22855,12 +22855,19 @@ m-chp14-p351-0058,chp-14:14_CHP-14_intro:l46-53,cand-0072,he,3144,3146,Coreferen
 m-chp14-p351-0059,chp-14:14_CHP-14_intro:l46-53,cand-0072,His,1103,1106,Coreference resolved from the immediate passage context.
 m-chp14-p351-0060,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,3237,3240,Coreference resolved from the immediate passage context.
 m-chp14-p351-0061,chp-14:14_CHP-14_intro:l46-53,cand-1950,his,395,398,"In ‘his compositions’, the possessive refers to Pittoni."
-m-chp14-p351-0062,chp-14:14_CHP-14_intro:l46-53,cand-1950,his,977,980,"In ‘his compositions’, the possessive refers to Pittoni."
-m-chp14-p351-0063,chp-14:14_CHP-14_intro:l46-53,cand-1950,his,1065,1068,"In ‘his compositions’, the possessive refers to Pittoni."
+m-chp14-p351-0062,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,977,980,"In ‘one of his most attractive characteristics’, ‘his’ refers to Algarotti."
+m-chp14-p351-0063,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,1065,1068,"In ‘his influence on individual painters’, ‘his’ refers to Algarotti."
 m-chp14-p351-0064,chp-14:14_CHP-14_intro:l46-53,cand-0072,Algarotti,136,145,
 m-chp14-p351-0065,chp-14:14_CHP-14_intro:l46-53,cand-0072,Algarotti,2539,2548,
 m-chp14-p351-0066,chp-14:14_CHP-14_intro:l46-53,cand-0072,Algarotti,2992,3001,
 m-chp14-p351-0067,chp-14:14_CHP-14_intro:l46-53,cand-0072,Algarotti’s,646,657,
+m-chp14-p351-0068,chp-14:14_CHP-14_intro:l46-53,cand-0072,he,1173,1175,"In ‘artists he proposes’, ‘he’ refers to Algarotti."
+m-chp14-p351-0069,chp-14:14_CHP-14_intro:l46-53,cand-1827,his,1534,1537,"In ‘his vedute’, the possessive refers to Pannini."
+m-chp14-p351-0070,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,1715,1718,"In ‘his foreign travels’, the possessive refers to Algarotti."
+m-chp14-p351-0071,chp-14:14_CHP-14_intro:l46-53,cand-0072,he,1838,1840,"In ‘he included Boucher’, ‘he’ refers to Algarotti."
+m-chp14-p351-0072,chp-14:14_CHP-14_intro:l46-53,cand-0072,He,2095,2097,"In ‘He found subjects’, the subject refers to Algarotti."
+m-chp14-p351-0073,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,2372,2375,"In ‘his detachment from Roman values’, the possessive refers to Algarotti."
+m-chp14-p351-0074,chp-14:14_CHP-14_intro:l46-53,cand-0072,his,2679,2682,"In ‘his comments’, the possessive refers to Algarotti."
 m-chp14-p352-0001,chp-14:14_CHP-14_intro:l55-61,cand-2577,Tiepolo,14,21,
 m-chp14-p352-0002,chp-14:14_CHP-14_intro:l55-61,cand-2577,Tiepolo,261,268,
 m-chp14-p352-0003,chp-14:14_CHP-14_intro:l55-61,cand-2577,Tiepolo,468,475,
