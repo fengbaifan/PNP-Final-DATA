@@ -7514,3 +7514,28 @@ p.330注1 statement `st-chp10-p330-n01-memmo-sheet-appendix`此前称附录正�
 将10条原文明确的关系statement补标`relation_candidate=true`：Boscarati作为Pisani官方画家、Pisani当选Procuratore di San Marco、Riviera委托Boscarati、Pisani委托Giampiccoli两项委托、Biffi与Beccaria和Verri的友谊、Memmo任职Inquisitori alle Arti，以及Pisani设计名片、Giampiccoli版画题铭赞扬Pisani、诗作受Rousseau影响。它们只进入关系候选审查，不写入`relations.csv`，不表示S6关系已确认。
 
 写后`audit_tables.py --strict-stage --summary`通过：KU 1,019、candidates 11,497、mentions 27,397、statements 12,263、segments 832，`s2_missing=[]`、`errors=[]`。关系候选2,341条，2,335条端点齐全，6条仍开放待证。保留两条既存enrichment `source_ref`警告及语义审查提示；全书S2交接审计继续。
+
+
+## 第二章亲属、友谊及萨凯蒂家族关系候选复核（2026-10-08）
+
+核对第2章规范来源`02_CHP-2_sec_ii.md` p.28–32及p.38、p.42对应语句和候选mention。补标7条明确亲属/友谊陈述：Anna Colonna与Contestabile、Agucchi与Domenichino、Ludovico与Gregory XV、Paul V与Scipione Borghese、Maffeo与Gian Lorenzo Bernini、Vincenzo Giustiniani与未具名父亲、Antonio Barberini与Urban VIII。对p.38将“兄弟及父亲”复合statement改为Marcello–Giulio兄弟关系，并新增Marcello、Giulio各自指向同一未具名父亲的两条statement；将两兄弟与Maffeo的共享友谊分别映射到Giulio和Marcello两组候选端点。另补标父亲迁居并任托斯卡纳社群领袖、Sacchetti宅邸/家族礼拜堂及别墅/画廊三条关系候选。以上共15条关系候选statement，未写入`relations.csv`。
+
+cand-0209与cand-0213的规范名相同，分别出现在p.30/p.38与p.42；新增S3身份比较问题，S2不合并候选。严格阶段审计：12,266 statements、2,356条关系候选，2,350条具标量两端点、6条端点仍开放；`s2_missing=[]`、`errors=[]`。同一p.38段L72–77其余委托、引介、创作/诗作及交往陈述仍待关系候选逐项核对，本批不表示第二章或全书关系审查完成。
+
+## 第二章 p.38 委托、创作与交往关系候选复核（2026-10-08）
+
+复核第2章规范来源`02_CHP-2_sec_ii.md` p.38 L72–77。为Ciampelli壁画委托及画面分配、Marcello引介Pietro da Cortona、Pietro进入Sacchetti赞助圈并会见Marino、Pietro摹制提香作品的委托、Marino影响Poussin赴意、Marino诗作及其对作品的评价、Marino与Marcello友谊/共同绘画兴趣、Marino赠歌题献及Haskell对接待和Urban VIII口味的限定性判断补上关系候选。将原复合“赠歌+共同兴趣”statement收窄为共同兴趣，新增`dedicated_to_reported`作品—受题献者映射；另新增Marcello–Marino亲友关系statement。相关“must have”“no doubt”等推断保持原文限定；未新增正式关系。
+
+写后严格阶段审计：12,268 statements、2,368条关系候选，2,362条具标量两端点、6条端点仍开放；`s2_missing=[]`、`errors=[]`。p.38 L72–77内Bernini首笔付款与同日事件关系、Marcello遇见Galatea摹本/寻访画家及其一般寻觅新人的表述仍需检查候选端点和是否属于正式关系候选；第2章及全书S2关系终审继续。
+
+## 第二章p.38遗漏关系端点与复合陈述拆分（2026-10-08）
+
+继续核对第2章p.38 L72–77。Bernini首笔付款与Ciampelli同日壁画委托保留为时间并列陈述（明确`relation_candidate=false`），另将Bernini—圣比比亚娜雕像付款作为关系候选。将Marcello遇见《伽拉忒亚》摹本与寻找未具名摹手分开；摹手和后文Pietro da Cortona是否同一人记录为S3身份问题，不因相邻叙述合并。将Marcello写托斯卡纳诗歌、欧洲旅行和未具名学者交往拆开，后者保持开放端点；“一直寻找新人”也保留无目标端点。补录两兄弟在Urban VIII政治/艺术世界的宽泛角色，以及“改良矫饰主义者”在托斯卡纳社群获得成功的关系候选，并限定集体与社群不等同正式组织。
+
+严格阶段审计通过：12,274 statements、2,377条关系候选、2,369条具有标量两端点、8条端点开放；`s2_missing=[]`、`errors=[]`。候选仍不是正式边，本轮未改`relations.csv`。继续全书关系候选、核心指代、来源限定与脚注/图版链接终审；全书S2交接尚未完成。
+
+## 第二章枢机任命、财产转让与婚姻安排候选补录（2026-10-08）
+
+为Urban VIII任命Francesco、年长的Antonio、年轻的侄子Antonio及Lorenzo Magalotti为枢机的4条statement补上关系候选标记；另标记Colonna出售Roviano城堡、Orsini出售Monte Rotondo地产、Colonna家族支系出售Palestrina公国、罗马元老院提议为Barberini家族成员建纪念碑，以及Anna Colonna被选作Don Taddeo新娘共5条statement。保留家族/支系和集体买方的粒度；“提议”不表示纪念碑建成，“被选为新娘”不证明婚礼举行。共补标9条关系候选，不新增正式边。
+
+复核后严格阶段审计通过：12,274 statements、2,386条关系候选、2,378条标量两端点齐全、8条开放；`s2_missing=[]`、`errors=[]`。两条既存enrichment `source_ref`告警仍在。全书S2关系、指代及来源语境终审仍未完成，未进入S3。

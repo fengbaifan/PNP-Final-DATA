@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,397条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,341条，2,335条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,397条mentions及12,274条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,386条，2,378条端点齐全，8条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -97,3 +97,18 @@ p.281–297的42条正文限定语已按原书注文与当前coverage修正。33
 p.326注1的首种小册子题名补入mention；第二、第三种题名跨度扩至全名，原文OCR／换行保留。p.330注1现链接至已处理的附录六p.394–395及14条相关statement，并回链正文；附录文本为书内转引，档案原件仍未独立查阅。另将10条明确关系statement纳入关系候选：官方画家、当选职务、两项委托、两项友谊、Memmo任职、名片创作、版画题铭赞誉及诗作影响；没有创建S6正式关系。
 
 本次严格阶段审计通过：1,019 KU、11,497 candidates、27,397 mentions、12,263 statements、832 segments；`s2_missing=[]`、`errors=[]`。关系候选2,341条，2,335条两端齐全，6条待证；既有两条enrichment `source_ref`告警和语义审查提示仍在。覆盖状态不等于语义交接完成。下一步继续对其余全书来源段执行断言限定、指代、书内引用和关系候选的语义终审，并专门核对本章其余脚注／图版与尾注残余；S2交接前不进入S3–S6。
+
+
+## 第二章亲属、友谊与家族关系候选补录（2026-10-08）
+
+补齐7条明确亲属/友谊statement的关系候选标记；将p.38 Sacchetti兄弟与父亲信息拆成兄弟关系和两条逐人父子映射，并将两兄弟与Maffeo的友谊分别按候选端点记录。另补标p.38父亲迁居/社群领导、宅邸与礼拜堂、别墅与画廊三条关系候选。共新增15条关系候选输入；不新增正式关系。cand-0209与cand-0213同名身份问题记录交S3。严格审计通过：12,266 statements、2,356条关系候选、2,350条标量端点齐全、6条待证；`s2_missing=[]`、`errors=[]`。同段p.38的委托、引介、创作及交往陈述仍待逐项审查，全书S2交接未完成。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章p.38委托、创作与交往关系补录（2026-10-08）
+
+为p.38壁画委托/分配、艺术家引介与赞助圈、Pietro摹制委托、Marino影响Poussin、诗作与评价、Marcello—Marino友谊、赠歌题献及原文限定性推断补上关系候选标记。把赠歌与共同兴趣拆为两项statement，新增题献关系映射及Marcello—Marino友谊映射；没有新增S6正式关系。严格审计通过：12,268 statements、2,368条关系候选、2,362条端点齐全、6条待证；`s2_missing=[]`、`errors=[]`。p.38剩余活动/端点边界和全书S2交接仍待复核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+## 第二章p.38遗漏关系端点与复合陈述拆分（2026-10-08）
+
+p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本与未具名摹手、风景创作/新人搜寻、旅行/学者交往、赠歌/共同兴趣、诗作与评价、Poussin赴意影响、兄弟家族关系、群体接纳和Urban VIII语境现已按statement端点整理。Bernini付款与Ciampelli委托的同日并列保留为时间陈述；不把它提升为正式关系。未具名目标保持开放，摹手是否为Pietro留待S3。严格审计通过：12,274 statements、2,377条关系候选、2,369条标量端点齐全、8条开放；`s2_missing=[]`、`errors=[]`。以上是局部回补，全书S2关系与语义交接仍未完成。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+第二章另补标4条枢机任命、3条家族资产/领地转让、1条纪念碑提案和1条婚配选择候选关系；保留提议未执行、选作新娘不等于已婚、集体买方/卖方未具体化等限定。当前严格审计为12,274 statements、2,386条关系候选、2,378条两端齐全、8条开放；`s2_missing=[]`、`errors=[]`。全书S2语义交接仍未完成。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
