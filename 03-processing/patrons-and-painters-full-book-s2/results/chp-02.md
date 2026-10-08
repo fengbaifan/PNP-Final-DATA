@@ -445,3 +445,11 @@ p.40正文及注1–5完成语义复核：30条原书statement、64条mentions�
 核读 chp-2:02_CHP-2_sec_ii:l118-125 并回核同页PDF物理第26页。35条原书statement、70条mention；补入papal land and sea forces候选及mention。分开Velletri铜像的委托与安装、Carlo的军职与修辞比较、Giori对Bernini/Sacchi分别的欣赏、兄弟关系、Paul III墓归属与Council of Trent召集。纠正一条比较陈述的端点，使Julius II比较对应Urban VIII而非墓葬作品。
 
 28条关系statement保留为S2候选，其中3条缺具体作品端点；未生成正式关系。注1–6与相关正文statement双向链接，注6的两幅Seaports只关联到两机构集合，保留作品—机构对应未定；注引资料未独立查阅。L119续接L103–104，Council和墓龛语句续至L127–139。严格审计：12,288 statements、27,398 mentions、2,462条关系候选、2,445条端点齐全、17条开放；s2_missing=[]、errors=[]。下一段按来源顺序为 chp-2:02_CHP-2_sec_ii:l127-139。
+
+## 第二章后置脚注L147–193语义与关系候选复核（2026-10-08）
+
+对照分节来源、p.33、p.37、p.39页图及已迁移正文statement，对第二章后置注释`chp-2:02_CHP-2_sec_ii:l147-193`作全段复核。印本p.33确认Forge of Vulcan、为Barberini宫设计的挂毯及尚属计划的罗马防卫寓意；p.37确认1月8日1633年avviso转引的主语结构；同页正文将“Cardinal Borghese”局部解析为Scipione Borghese，但雕像与正文两尊胸像的版本关系仍未定；p.39确认Sacchetti collection与Pinacoteca Capitolina是藏品和机构两个端点。相关断言保持Haskell/avviso归属，未将引文当成独立核验。
+
+修订6条statement、2条mention和1条候选说明。将avviso拆为Bernini制作、教皇委托、Scipione Borghese报酬三项关系候选；修正“Cardinal Borghese”mention至人物候选，另登记雕像短语与`Papa`嵌套/专名mention。补录Cortona壁画题材位置、挂毯的题材与预定宫殿位置、计划寓意所在宫墙；保留`cand-4583`与第VII节十二幅挂毯`cand-4935`为独立候选，待S3比较。补正Sacchetti collection地点端点、Domenico研究作者方向、p.60委托方向；p.61挂毯纪念Urban VIII列为关系候选。修正L154→L182、L176→第1章注释statement、L193→`sec_iv:l3-4`的引用目标；113条注释到正文的正向链接均已有对应反链。全段85条statement、93条mention，其中16条关系候选；未写入`relations.csv`。
+
+严格阶段审计：1,019 KU、11,498 candidates、27,400 mentions、12,306 statements；S2关系候选statement 2,527条（2,506条两端齐全，21条开放），832段覆盖中678段reviewed/complete、154段excluded/complete。`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告及语义质量通用提示仍在。全书S2交接继续，未进入S3–S6。

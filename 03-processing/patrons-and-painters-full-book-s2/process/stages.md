@@ -7594,3 +7594,11 @@ L98外交事务转交侄辈的statement标为关系候选，保留已有“未�
 对照规范来源`02_CHP-2_sec_ii.md` L141–145及`CHP-2.pdf`印刷p.43／PDF物理第28页。复核首轮24条statement为29条，沿用9个候选与38条mention；新增5条statement：将Capuchin退还烛台与十字架分开，并将Domenichino、Lanfranco、Pietro da Cortona、Baccio Ciarpi、Andrea Sacchi分别连接到未具名的后续祭坛画集合。候选仅表达书内群组贡献，不推断单幅归属。补标25条关系候选（24条两端点齐全，1条Pope/Antonio共同祭坛画委托因具体作品对象不明而开放），包括家族礼拜堂陈设、装饰责任、陈设订制/退回/接收、Capuchin请愿、高坛争议、特许与材料修改、艺术家贡献和师承。作者评价、社会背景和Urban VIII纹章动机不作关系边。
 
 L138–142 Urban VIII动机解释继续双向互链；Reni绘画的关系statement与作品评价statement互链，L144脚注1与L192 Malvasia II, p.26 citation双向互链。印刷核对确认`pietre fine`分写、`time`后的上标注号及L145末尾OCR单引号；不改S0及`original_quote`。无新增候选、KU或S6正式边。严格审计：12,300条statement、27,398条mention、2,512条S2关系候选（2,491端点齐全、21开放），`s2_missing=[]`、`errors=[]`。下一项按来源流程复核已迁移的注释段`chp-2:02_CHP-2_sec_ii:l147-193`。
+
+## 第二章后置脚注L147–193语义与关系候选复核（2026-10-08）
+
+对照分节来源、p.33、p.37、p.39页图及已迁移正文statement，对第二章后置注释`chp-2:02_CHP-2_sec_ii:l147-193`作全段复核。印本p.33确认Forge of Vulcan、为Barberini宫设计的挂毯及尚属计划的罗马防卫寓意；p.37确认1月8日1633年avviso转引的主语结构；同页正文将“Cardinal Borghese”局部解析为Scipione Borghese，但雕像与正文两尊胸像的版本关系仍未定；p.39确认Sacchetti collection与Pinacoteca Capitolina是藏品和机构两个端点。相关断言保持Haskell/avviso归属，未将引文当成独立核验。
+
+修订6条statement、2条mention和1条候选说明。将avviso拆为Bernini制作、教皇委托、Scipione Borghese报酬三项关系候选；修正“Cardinal Borghese”mention至人物候选，另登记雕像短语与`Papa`嵌套/专名mention。补录Cortona壁画题材位置、挂毯的题材与预定宫殿位置、计划寓意所在宫墙；保留`cand-4583`与第VII节十二幅挂毯`cand-4935`为独立候选，待S3比较。补正Sacchetti collection地点端点、Domenico研究作者方向、p.60委托方向；p.61挂毯纪念Urban VIII列为关系候选。修正L154→L182、L176→第1章注释statement、L193→`sec_iv:l3-4`的引用目标；113条注释到正文的正向链接均已有对应反链。全段85条statement、93条mention，其中16条关系候选；未写入`relations.csv`。
+
+严格阶段审计：1,019 KU、11,498 candidates、27,400 mentions、12,306 statements；S2关系候选statement 2,527条（2,506条两端齐全，21条开放），832段覆盖中678段reviewed/complete、154段excluded/complete。`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告及语义质量通用提示仍在。全书S2交接继续，未进入S3–S6。

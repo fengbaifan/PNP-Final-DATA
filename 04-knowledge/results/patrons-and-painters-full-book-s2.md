@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,397条mentions及12,282条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,433条，2,419条端点齐全，14条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
+当前表包含1,019个KU、11,498个候选、27,400条mentions及12,306条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,527条，2,506条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -31,7 +31,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 全书S2交接审计与下一步
 
-全书S2交接审计仍在进行。已复核两条原标为`referent_status=unresolved`的statement：第十章p.316注4的“These paintings”回指本段cand-9678所代表的Nogari作品组；单幅照片与作品之间的对应仍未知。第十五章p.362的“This”回指前句的country-house architecture，后文将该住宅定位为S. Maria di Sala别墅；正文候选cand-10432与索引种子cand-1007留给S3做身份对齐。两条显式未决指代状态现均已改为有范围的上下文解析，但全书其余指代和限定语仍需终审。
+全书S2交接审计仍在进行。已复核两条原标为`referent_status=unresolved`的statement：第十章p.316注4的“These paintings”回指本段cand-9678所代表的Nogari作品组；单幅照片与作品之间的对应仍未知。第十五章p.362的“This”回指前句的country-house architecture，后文将该住宅定位为S. Maria di Sala别墅；正文候选cand-10432与索引种子cand-1007留给S3做身份对齐。两条显式未决指代状态现均已改为有范围的上下文解析，但全书其余指代和限定语仍需终审。第二章后置注释L147–193本轮完成语义复核：已修复113条正文—注释反链，拆分1633年avviso的制作、委托和报酬主张，厘清p.33与p.60挂毯候选之间的交叉引用但不合并身份；p.40脚注、第1章脚注及L193通往`sec_iv:l3-4`的引用均已对齐。该段现有85条statement、93条mention及16条关系候选；所有关系仍处S2候选状态。
 
 ### 指代记录
 

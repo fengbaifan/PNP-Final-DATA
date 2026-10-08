@@ -5829,7 +5829,7 @@ m-chp2-secii-l147-193-0038,chp-2:02_CHP-2_sec_ii:l147-193,cand-4376,"Passeri, p.
 m-chp2-secii-l147-193-0039,chp-2:02_CHP-2_sec_ii:l147-193,cand-4553,"Fraschetti, p. 107",1478,1496,Publication said to publish the avviso.
 m-chp2-secii-l147-193-0040,chp-2:02_CHP-2_sec_ii:l147-193,cand-4554,avviso from the Este Resident in Rome dated 8 January 1633,1511,1569,Underlying dated report quoted through Fraschetti.
 m-chp2-secii-l147-193-0041,chp-2:02_CHP-2_sec_ii:l147-193,cand-0295,Cavalier Bernini,1602,1618,Sculptor named in the quoted avviso.
-m-chp2-secii-l147-193-0042,chp-2:02_CHP-2_sec_ii:l147-193,cand-4587,Cardinal Borghese,1673,1690,The note does not give the Cardinal’s forename.
+m-chp2-secii-l147-193-0042,chp-2:02_CHP-2_sec_ii:l147-193,cand-0394,Cardinal Borghese,1673,1690,The note does not give the Cardinal’s forename.
 m-chp2-secii-l147-193-0043,chp-2:02_CHP-2_sec_ii:l147-193,cand-4383,"Wittkower, 1955, pp. 200 and 202",1763,1795,Cited 1955 publication; title unresolved.
 m-chp2-secii-l147-193-0044,chp-2:02_CHP-2_sec_ii:l147-193,cand-4383,"Wittkower, 1955, p. 201",1799,1822,Cited 1955 publication; title unresolved.
 m-chp2-secii-l147-193-0045,chp-2:02_CHP-2_sec_ii:l147-193,cand-4555,"Gould, 1958",1828,1839,Publication cited alongside Wittkower.
@@ -28056,3 +28056,5 @@ m-chp20-p410-029,chp-20:20_CHP-20Postscript:l201-209,cand-11518,his collection,1
 m-chp15-p362-0087,chp-15:15_CHP-15_sec_i:l16-25,cand-10432,This,2426,2430,Demonstrative refers to the architecture of the country house named at L22; the following sentence locates the villa at S. Maria di Sala. Candidate identity with index seed cand-1007 remains for S3.
 m-s2-ch10-p326-327-0080,chp-10:10_CHP-10_sec_ii:l273-349,cand-9794,Componimenti poetici in occasione del solenne ingresso di Sua Eccellenza Missier Zorzi Pisani,8128,8221,The first pamphlet title appears in p.326 n.1; its imprint continues in the page-bottom text. The cited pamphlet was not independently consulted.
 m-chp2-secii-l118-125-0070,chp-2:02_CHP-2_sec_ii:l118-125,cand-11519,the papal land and sea forces,1334,1363,The text names the papal land and sea forces as the organization Carlo commanded; formal identity remains unresolved.
+m-chp2-secii-l147-193-0089,chp-2:02_CHP-2_sec_ii:l147-193,cand-4587,la testa de Cardinal Borghese,1661,1690,"Artwork mention in the quoted avviso; nested within the sitter mention, and kept distinct from the two-bust account."
+m-chp2-secii-l147-193-0090,chp-2:02_CHP-2_sec_ii:l147-193,cand-0209,Papa,1638,1642,"The quoted avviso says the commission came from the Pope; contextual mapping to Urban VIII, pending S3 identity alignment."
