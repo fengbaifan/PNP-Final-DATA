@@ -1655,3 +1655,11 @@ p.376正文注3标记和脚注开头已连到p.377 L60–64续文；8条既有�
 ## 第十六章候选表面提示裁决（2026-10-08）
 
 第十六章7个reviewed/complete段上的11条提示中，6条映射、5条不写；新增3个候选、6条mentions、1条statement，另修订既有statement的候选关联与subject，并更新一项候选detail。写后剩余5条提示与no-write裁决一致。严格阶段审计通过：1,019 KU、11,481 candidates、27,362 mentions、12,263 statements，s2_missing=[]、errors=[]。详见[第十六章结果](chp-16.md)及[过程记录](../process/stages.md)。下一步第十七章10个reviewed段有8条提示；定位器仅为语义复核线索。
+
+## 第十七章候选表面提示裁决（2026-10-08）
+
+10个reviewed段上的8条提示已逐项裁决；5条由新增/既有mention覆盖，3条判为普通词义或不匹配索引子项而不写。新增6个候选、9条mentions，更正Joseph的候选映射，并修订竞赛题材statement。写后扫描余3条，和不写项一致；严格审计通过：11,487 candidates、27,371 mentions、12,263 statements，`s2_missing=[]`、`errors=[]`。详情见[chp-17结果](chp-17.md)及[过程记录](../process/stages.md)。
+
+## 第十八章结论候选表面提示裁决（2026-10-08）
+
+第十八章2个reviewed段的2条提示均为普通词义或宽泛类别与索引子项误配，无表修改。当前按书序转至第十九章：12个reviewed段有17条提示待语义裁决。详情见[chp-18结果](chp-18.md)及[过程记录](../process/stages.md)。

@@ -27544,7 +27544,7 @@ m-s2-surface-cd159103160ce977,chp-13:13_CHP-13_intro:l70-77,cand-3462,Europe,278
 m-s2-surface-34f3295f62b59581,chp-14:14_CHP-14_intro:l14-21,cand-3507,Bottari,2598,2605,
 m-s2-surface-101b1d65803ce2d8,chp-14:14_CHP-14_intro:l97-105,cand-0947,Dresden,2084,2091,
 m-s2-surface-9154efa380b55add,chp-15:15_CHP-15_sec_ii:l61-67,cand-2242,Fortune,2368,2375,
-m-s2-surface-c606f489f1a86215,chp-17:17_CHP-17_sec_i:l22-24,cand-3428,Joseph,784,790,
+m-s2-surface-c606f489f1a86215,chp-17:17_CHP-17_sec_i:l22-24,cand-4140,Joseph,784,790,The competition theme identifies the biblical Joseph son of Jacob; keep distinct from St Joseph cand-3428.
 m-s2-surface-f88da9d56bb8b375,chp-1:01_CHP-1_sec_ii:l10-17,cand-8024,Cortona,2049,2056,
 m-s2-surface-6c2ec2dfdda13e14,chp-1:01_CHP-1_sec_ii:l168-239,cand-1422,London,3654,3660,
 m-s2-surface-5d7a2040f0184e10,chp-20:20_CHP-20Postscript:l81-96,cand-1422,London,687,693,
@@ -28017,3 +28017,12 @@ m-s2-chp16-surface-11161cfb6f03590f,chp-16:16_CHP-16_intro:l16-22,cand-1674,mode
 m-s2-chp16-surface-36e85f79efb72fe9,chp-16:16_CHP-16_intro:l24-36,cand-11501,drawings and sketches,26,47,The catalogue-list context identifies a distinct group of drawings and sketches by two named makers in Sasso's auctioned collection. Its count and individual works remain unspecified.
 m-s2-chp16-surface-3a04634b49b58aa6,chp-16:16_CHP-16_intro:l24-36,cand-10628,seven drawings,97,111,The source's full phrase identifies the already registered combined group of one Guardi painting and seven Guardi drawings.
 m-s2-chp16-surface-9c9ee6990c464139,chp-16:16_CHP-16_intro:l38-46,cand-11502,collection,2280,2290,His collection refers to Toninotto's art collection described in the following inventory; it is not Cardinal Borghese's collection index subentry.
+m-s2-chp17-surface-venice-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-2719,Venice,301,307,"City named in the gallery evaluation, distinct from Venice inside the earlier painting title; reuse the index candidate whose page range covers p.381."
+m-s2-chp17-surface-joseph-potiphar-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11503,Joseph and Potiphars Wife,784,809,"Narrative subject in Manfrin's proposed competition themes; source spelling is preserved, with the printed apostrophe correction recorded on the statement."
+m-s2-chp17-surface-potiphar-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11504,Potiphars,795,804,"Potiphar is named possessively in the subject phrase; the source OCR omits the printed apostrophe, already corrected in the statement qualifier."
+m-s2-chp17-surface-bathsheba-person-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11505,Bathsheba,811,820,Biblical figure named within the competition theme; keep distinct from paintings attributed to Maratta or Amigoni.
+m-s2-chp17-surface-bathsheba-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-8438,Bathsheba bathing,811,828,"Reuses the existing general subject term; this occurrence names a competition theme, not an identified picture."
+m-s2-chp17-surface-lot-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11506,Lot and his Daughters,830,851,Narrative subject in Manfrin's proposed competition themes; no resulting work is identified.
+m-s2-chp17-surface-lot-person-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11507,Lot,830,833,Biblical figure named at the start of the competition subject; the daughters are unnamed.
+m-s2-chp17-surface-susanna-person-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11508,Susanna,853,860,Biblical figure named within the competition theme; distinct from St Susanna and from specific paintings.
+m-s2-chp17-surface-susanna-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-8439,Susanna and the Elders,853,875,"Reuses the existing general subject term; this occurrence names a competition theme, not an identified picture."

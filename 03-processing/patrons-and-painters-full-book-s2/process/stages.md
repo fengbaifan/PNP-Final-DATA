@@ -7342,3 +7342,19 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 受控脚本chp16_candidate_surface_prompt_reconciliation.py默认dry-run，锁定候选、mentions、statements、segments、coverage、扫描器、taxonomy、schema和第十六章规范来源。计划SHA-256=5ac5b1e5a91c602856d3c3161e67d93e83bcd62ac9fd5d9d43e9fc9e80a4ddf4；脚本SHA-256=5961bcfe8f713aa0ad0d63a8515e4f5a5b6d045771ebbf2f935c20316934a8aa。表SHA-256写前→写后：候选78266078cf48f1ade43e79bcdb4378334328a3a7c29fad61680803e7a4e3653f→6023c8aa8fcc959e854a101728e655867417e0ba62b1d35f1915ad1030d77c83；mentions 87aaea0cffe74f7b3057595911a11e954484b8ee292d6d330348a7d823c40a7e→79dae349284d081e8f5fe222eb2214dcd251bebd4c1025ff16c7a6dabfb57d3a；statements 6f4769d0af0d52a375af1d0ee979a9c23d5accf147db2252ba57580b33b1b203→39974e07b374feb299aa067cf1123f11e870f889e0059fdd2042668c0a4f50f2。恢复副本：C:/Users/001/AppData/Local/Temp/pnp-s2-chp16-surface-prompts-20261008-124016。
 
 写后严格阶段审计通过：1,019 KU、11,481 candidates、27,362 mentions、12,263 statements；832段中678 complete、154有理由排除，s2_missing=[]、errors=[]。关系候选2,331条，2,325条端点齐全、6条仍开放；两条既存enrichment source_ref警告仍在。下一步第十七章定位器在10个reviewed段上给出8条提示，待逐项语义裁决；提示数不代表实体召回或语义验收。
+
+## 第十七章候选表面提示裁决（2026-10-08）
+
+在第十七章10个reviewed/complete段上重跑`audit_s2_candidate_surfaces.py`，得到8条启发式提示。逐条核对S0原文、上下文、索引主项/子项、既有mentions与statement后，5条提示由新旧mention覆盖，3条判为普通词义或不匹配索引子项而不写。提示数仅是候选表面线索，不代表实体召回或语义验收。
+
+裁决中，p.381“Venice”映射城市候选cand-2719，区别于同段较早画名中的Venice；“Joseph and Potiphars Wife”“Bathsheba bathing”“Lot and his Daughters”“Susanna and the Elders”被处理为Manfrin拟定的竞赛题材，而非已完成或可识别的竞赛画作。新增cand-11503（Joseph and Potiphar’s Wife叙事题材）、cand-11504（Potiphar）、cand-11505（Bathsheba）、cand-11506（Lot and his Daughters叙事题材）、cand-11507（Lot）、cand-11508（Susanna）。复用既有题材cand-8438、cand-8439，并将Joseph的既有mention由St Joseph cand-3428更正为圣经人物Joseph（Jacob之子）cand-4140。对竞赛statement补全题材与人物候选清单及限定语；保留OCR表层`Potiphars`，印本撇号校读留在statement的OCR校正记录中。p.379 `fortune`、p.381 `character`及p.382 `portraits`分别为财富普通用法、普通品格词和无界作品类别，不映射到误中的Rosa绘画、Barberini子项或Schulenburg肖像子项。
+
+受控脚本`chp17_candidate_surface_prompt_reconciliation.py`默认dry-run，锁定输入表、S0来源、覆盖、定位器及规则哈希；apply前核验提示全集、精确源跨度、候选类型、既有mention与statement前态，写后复扫和严格S2审计。计划SHA-256=`a8fc54f36105f36fe7bb6afc0f8f6634af01eea1c9fd23580ce4607cdda65e1e`；脚本SHA-256=`2c77506b7df338aee805487c81fbb8802cffc1cd433f2445d273af5da81fb1d5`。表SHA-256写前→写后：candidates `6023c8aa8fcc959e854a101728e655867417e0ba62b1d35f1915ad1030d77c83`→`a3f70aab1d1afe5200bc27f9d1a430299d12f8555f399e7fb2f5a251a9e4a598`；mentions `79dae349284d081e8f5fe222eb2214dcd251bebd4c1025ff16c7a6dabfb57d3a`→`c2ee7821af5388282374054d1486e2e7bd0ed3e6c69572f0c378a687ffb1028e`；statements `39974e07b374feb299aa067cf1123f11e870f889e0059fdd2042668c0a4f50f2`→`c82eb9b0968c0b2607f10ac357cc8dda9087ef886ce218589780cdc37066ae65`。写前恢复副本位于`C:\Users\001\AppData\Local\Temp\pnp-s2-chp17-surface-prompts-20261008-125552`。写后定位器剩余3条，恰与fortune、character、portraits三项不写裁决一致。
+
+严格阶段审计通过：1,019 KU、11,487 candidates、27,371 mentions、12,263 statements；832段中678 complete、154有理由排除、0 queued/partial；`s2_missing=[]`、`errors=[]`。关系候选仍为2,331，其中2,325条端点完整、6条开放；两条既存enrichment `source_ref`警告未变。
+
+## 第十八章结论候选表面提示裁决（2026-10-08）
+
+第十八章p.384–385的2个reviewed/complete段有2条候选表面提示：p.384 “gifted temperament”中的`temperament`是一般性格含义，不映射误中的Francesco Algarotti索引子项cand-0077/0078；p.385 “an orthodox Academy”中的`Academy`是一般机构类别，不指向仅在p.331出现的索引子项cand-0136。本轮无候选表、mentions或statements写入。结论段原有全书语义处理和跨页闭合记录见本文件前文及[第十八章结果](../results/chp-18.md)。
+
+第十九章当前候选表面游标为12个reviewed段、17条提示，尚未裁决；定位器仍只提供已登记候选词形线索。
