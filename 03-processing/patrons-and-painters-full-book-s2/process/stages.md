@@ -7481,3 +7481,7 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 ## 第四章已链接脚注的旧迁移措辞清理（2026-10-08）
 
 对第4章18条statement的qualifications逐条检查其`footnote_refs`：18条均已有存在的`note_statement_id`且`status=linked`，但文本仍称注释“待迁移/待链接”。现将这些过时工作状态改为准确的“已转录并链接”或相应出处限定；保留原书报告层、未独立查阅和未决身份/对象范围，不改候选、提及、statement锚点或关系判断。另3条虽有脚注引用，但措辞本来已表达S2候选或“按引文链接、未独立核验”，故保持不变。
+
+## 第十章p.314–324正文脚注状态措辞复核（2026-10-08）
+
+第十章`10_CHP-10_sec_ii`合并注释coverage L274–349为reviewed/complete。对照其中L288–326的注文statement，核对正文26条仍称“awaits/pending”的限定语：25条已有`footnote_refs`及`footnote_statement_ids`指向对应注文，另1条`st-chp10-p324-gozzi-praised-longhi-realism`通过嵌套`citation_statement_ids`链接注2。41个目标statement ID均存在，来源行和印本注号吻合。仅将26条过时状态措辞改为已转录/已链接，并保留未独立查阅等证据限定；未改断言、候选、mentions、statement数量或关系判断，也未重复添加链接字段。

@@ -74,3 +74,7 @@ S2交接前不推进S3–S6、知识发现或页面工作。
 p.251注1“See p.268, note 5”已链接到`st-chp9-p268-n05`及其来源段L89；书目L66的Andrés指引链接到L578条目statement，L638的Jaffé指引链接到L1276–1277条目statement。三者只闭合书内引用路径；候选身份仍交S3，引用出版物未声称独立查阅。第3章p.74–75跨页句现以statement ID互链，去除与complete coverage不一致的旧partial迁移状态，并澄清“another full generation”的修饰范围。
 
 按当前coverage坐标重新核对7,562条正文候选来源引用，全部落在reviewed行段，无悬空或越界。上述结构修改后严格阶段审计仍为`s2_missing=[]`、`errors=[]`。
+
+## 第十章p.314–324脚注状态措辞复核（2026-10-08）
+
+在完整的注释coverage L274–349中，p.314–324有26条正文限定语仍显示脚注待迁移/待链接；现已按实际注文L288–326及其statement外键修正。25条沿用正文已有`footnote_statement_ids`，另1条使用嵌套`citation_statement_ids`，共41个目标ID全部存在。只校正状态表述；引文未被视为独立查阅，断言、候选、mentions、statement数量与关系判断未变。全书S2交接审计仍继续。

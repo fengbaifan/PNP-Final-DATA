@@ -1715,3 +1715,7 @@ Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内�
 ## 第四章脚注迁移措辞一致性复核（2026-10-08）
 
 18条已建立脚注statement外键的正文记录，其qualifications已与当前linked状态一致；脚注源文及被引出版物未因措辞修订而被表述为独立核验。
+
+## 第十章p.314–324正文脚注限定语校正（2026-10-08）
+
+26条正文限定语已与已完成注文段状态一致；25条原有`footnote_statement_ids`和1条嵌套`citation_statement_ids`均解析到现存注文statement，合计41条引用ID。原引文未被表述为独立查阅，statement/候选/mention计数不变。
