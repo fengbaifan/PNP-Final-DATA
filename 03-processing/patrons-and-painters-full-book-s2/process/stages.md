@@ -7699,3 +7699,12 @@ p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全
 复审正文`chp-14:14_CHP-14_intro:l97-105`与注1–7（L194–200），对照`CHP-14.pdf`物理页10，并核对p.355/p.357跨页续接。源Markdown SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`、PDF SHA-256=`f871a00a63cfa5a9f229930cfd4b0d979baa0491ca4e7fe4d50404fa020a52e0`，均与复审前一致；未改写S0。复审前p.356共29条statement（22条正文、7条注释）及72条mentions；现增补1条正文断言，合计30条statement（23条正文、7条注释）、72条mentions。将`m-chp14-p356-0003`的`Venice`从Algarotti索引项`cand-0082`改映射至地点候选`cand-2719`；新增`st-chp14-p356-kept-in-touch-with-italian-artistic-affairs`，记载Algarotti离开意大利后仍关注当地艺术事务；推广意大利及威尼斯艺术的statement现明确保留爱国动因。未合并候选或创建正式关系。
 
 页图校读仅写入对应statement的`ocr_corrections`，原始引文和S0均保留：L101 `commision`→`commission`；L194 `T1`→`Il`、`pretcnderebbe`→`pretenderebbe`；L197 `fame un regalo`→`farne un regalo`、`facilitate`→`facilitare`、`1'esecuzione`→`l'esecuzione`；L200 `Opéré`→`Opere`。正文L100 `thistime`→`this time`经印本复核。p.356 L105与p.357 L108句子续接和注释回链保持有效。表审计为1,019 KU、11,498 candidates、27,413 mentions、12,358 statements、832 segments；`s2_missing=[]`、`errors=[]`。S2关系候选总数2,583，其中2,562条端点齐全、21条仍开放；两条既存`source_ref`警告不变。下一源段为p.357正文`chp-14:14_CHP-14_intro:l107-116`，全书S2未交接。
+
+
+## 第十四章p.357语义复审（2026-10-09）
+
+复审正文`chp-14:14_CHP-14_intro:l107-116`及本页脚注，对照`CHP-14.pdf`物理页11，并核对p.356/p.358跨页续接。源Markdown和PDF哈希与前次复审一致，未改写S0。印本确认L108 `him. with`应为`him with`、`ten yeTs`为`ten years`、`os France`为`of France`、`his Use`为`his life`；另校正`Mar-chigian`、注6两个`i960`及`VHI`。复核正文脚注标记5及柏林来信注前的标记5，修正OCR误识。校读只登记在S2断言，不回写来源。
+
+全页现有58条statement、79条mentions和36条关系候选，36/36端点完整。新增2个候选（Canaletto受委托绘制的Grand Canal视图、该构图中的Rialto要素）及4条mentions；新增34条statement，修订18条本页statement，并同步修订1条p.358跨页statement。修正作品、作者、地点和人物mention映射；将Batoni作品观看、Algarotti对Pannini的评价、Tiepolo壁画与modello、Bonomo代为保管的请求、拟议的Canaletto建筑视图及脚注书信拆为各自有据断言和关系候选。未将拟议作品写成已完成，也未将请求写成已发生；`his rooms`、作品身份冲突及与既有Rialto视图的对应仍待决。没有新建KU或正式关系。
+
+全库当前为1,019 KU、11,500 candidates、27,417 mentions、12,392 statements、832 segments；S2关系候选2,609条，其中2,588条端点完整、21条保持开放。严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。p.358 `chp-14:14_CHP-14_intro:l118-124`是下一项按书序复审内容；全书S2仍未交接。

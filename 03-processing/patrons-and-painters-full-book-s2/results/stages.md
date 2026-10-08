@@ -1790,3 +1790,8 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第十四章p.356语义复审补正（2026-10-09）
 
 复审已有首轮记录的p.356正文及注1–7，正文statement由22条增至23条，含注释共30条；72条mention保持不变。修正Venice地点mention映射，补记Algarotti离开意大利期间仍关注意大利艺术事务的断言，并明确艺术推广动机包含爱国情感。校读commision、注1 `T1`/`pretcnderebbe`、注4 `fame`/`facilitate`/`1'esecuzione`及注7 `Opéré`，不改写来源OCR。13条关系候选和p.356/p.357续接、脚注链接均通过定向复核。严格表审计`errors=[]`、`s2_missing=[]`；当前全库12,358条statement、27,413条mention。下一处按书序为p.357 `chp-14:14_CHP-14_intro:l107-116`。
+
+
+## 第十四章p.357语义复审（2026-10-09）
+
+对照印本复审p.357正文及脚注，修正正文和脚注标记的OCR误识；保留原始S0。新增2个候选、4条mention和34条statement，修订18条本页statement及1条p.358跨页statement。修正人物、作品、地点映射，拆分委托、作者、观看、保管请求与计划构图；36条关系候选端点齐全，正式关系表未改。当前全库11,500 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核p.358 `chp-14:14_CHP-14_intro:l118-124`。

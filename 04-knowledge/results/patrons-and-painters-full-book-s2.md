@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,498个候选、27,413条mentions及12,358条statement；索引候选2,934行。p.356复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,583条，2,562条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；机械检查不等于语义准确或实体召回完整。p.356复审后的全量同步闭合通过（303 passed、2 subtests passed）。
+当前表包含1,019个KU、11,500个候选、27,417条mentions及12,392条statement；索引候选2,934行。p.357复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,609条，2,588条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -48,11 +48,13 @@ p.354首轮27条statement和71条mentions经复审，纠正注5 OCR页码`296`�
 
 p.355首轮27条statement和87条mentions经复审，14条关系候选端点全齐。注2 Pallucchini 1956定位与Piazzetta书目条目双向链接；注3 Levey 1960及Selva可能对应的目录条目建立双向链接，Selva匹配留待S3确认；并连通与p.354同一Levey引注。正文至p.356的跨页句和注释链接保持有效；未新增或删除实体、statement、mention或关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。
 
-p.356现有30条statement（正文23条、注释7条）和72条mentions。将“Venice”mention从Algarotti索引候选改映射至地点候选，新增其持续关注意大利艺术事务的独立断言，并明确推广意大利／威尼斯艺术的动因包含爱国情感。印本校读更正记在S2，未改S0；p.356至p.357续句和脚注链接有效。13条关系候选维持S2状态，不新增候选或正式关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.357 `chp-14:14_CHP-14_intro:l107-116`；全书S2交接仍未完成。
+p.356现有30条statement（正文23条、注释7条）和72条mentions。将“Venice”mention从Algarotti索引候选改映射至地点候选，新增其持续关注意大利艺术事务的独立断言，并明确推广意大利／威尼斯艺术的动因包含爱国情感。印本校读更正记在S2，未改S0；p.356至p.357续句和脚注链接有效。13条关系候选维持S2状态，不新增候选或正式关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。本页复审后按书序转入p.357；全书S2交接仍未完成。
+
+p.357复审共58条statement、79条mention和36条关系候选（36/36端点齐全）。新增2个候选、4条mention、34条statement，修订18条本页statement及1条p.358跨页statement；校正印本脚注标记与数处OCR读法，修正作品/人物/地点映射，并拆分Batoni、Pannini、Tiepolo、Canaletto及脚注书信相关断言。拟议作品、请求、归属冲突和Rialto视图身份均保留原文限定；未新增KU或正式关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.358 `chp-14:14_CHP-14_intro:l118-124`；全书S2交接仍未完成。
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 
-当前2,583条S2关系候选中，2,562条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
+当前2,609条S2关系候选中，2,588条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -82,11 +84,11 @@ p.356现有30条statement（正文23条、注释7条）和72条mentions。将“
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,358条statement及27,413条mention：78,743个候选ID字段引用涉及10,112个候选，悬空0；5,897个嵌套statement ID引用涉及3,351个目标，悬空0。statement与mentions共45,356个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为35条statement、47个问题、36个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,392条statement及27,417条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,358条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,312条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,392条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,346条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 

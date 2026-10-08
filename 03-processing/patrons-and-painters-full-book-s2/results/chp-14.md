@@ -110,3 +110,14 @@ p.353现35条statement、75条mention和20条关系候选（19条端点齐全、
 复审正文`chp-14:14_CHP-14_intro:l97-105`与注1–7（L194–200），对照`CHP-14.pdf`物理页10，并核对p.355/p.357续接。源Markdown和PDF哈希未变，未改S0。共30条statement、72条mention；将正文“Venice”mention从Algarotti索引项改映射至威尼斯地点候选，新增一条断言记录其离开意大利后仍关注当地艺术事务，并在艺术推广断言中保留爱国动因。其余语义限定包括Berlin/Potsdam居留范围、Marchiori委托未具名教堂且未确认完成、Rode影响Tiepolo属预测、Walpole赠画及Palladio图稿仍属条件／计划，以及`their collection`指代未定；未扩写未具名对象或将提案写成已完成事实。
 
 印本校读只记S2、不改S0：L101 `commision`→`commission`；注1 `T1`→`Il`、`pretcnderebbe`→`pretenderebbe`；注4 `fame un regalo`→`farne un regalo`、`facilitate`→`facilitare`、`1'esecuzione`→`l'esecuzione`；注7 `Opéré`→`Opere`。既有`thistime`→`this time`记录经页图复核。p.356末句与p.357续句、Bonomo注1及相应脚注链接有效。13条关系候选保持S2，不新增candidate或正式关系；statement净增1条，提及数量、候选数量与coverage不变。严格表审计`errors=[]`、`s2_missing=[]`；p.356之后按书序复核p.357 `chp-14:14_CHP-14_intro:l107-116`，全书S2未交接。
+
+
+## 第十四章p.357语义复审补正（2026-10-09）
+
+复审正文`chp-14:14_CHP-14_intro:l107-116`及本页脚注，对照印本物理页11并核对p.356/p.358续接。共58条statement、79条mention、36条关系候选，端点36/36齐全。新增2个候选（拟议的Canaletto Grand Canal视图及构图中的Rialto要素）、4条mention和34条statement，修订18条本页statement及1条p.358跨页statement；更正4条旧mention候选映射。
+
+印本校读仅进入S2：`him. with`→`him with`、`ten yeTs`→`ten years`、`os France`→`of France`、`his Use`→`his life`、`Mar-chigian`→`Marchigian`、注6两处`i960`→`1960`、`VHI`→`VIII`，并校正正文 superscript 5及柏林来信前的注5标记。未更改来源文件。
+
+语义上分开Triumph of Venice作品与Batoni作者、Algarotti观看作品的宫殿语境和时间；区分Cleopatra事件与拟议作品；把Pantheon委托、拟由Pannini作画及Bonomo保管请求分别记录，不把请求写成已完成。Tiepolo壁画与modello、Algarotti对Pannini的评价、Pannini/Canaletto对建筑capricci的熟悉程度及Canaletto拟议构图分别拆分。本页注释中的书信作者/收件人/内容及两件Lazzarini作品的互相冲突归属保持各自范围；`his rooms`、作品身份及p.315 Rialto视图与本页视图是否同一均未猜定。没有新建KU或正式关系。
+
+全库严格表审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。当前S2关系候选2,609条，2,588条端点齐全、21条开放。下一项按书序复核p.358 `chp-14:14_CHP-14_intro:l118-124`，全书S2未交接。
