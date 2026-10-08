@@ -5408,13 +5408,13 @@ m-chp2-seci-l71-80-0043,chp-2:02_CHP-2_sec_i:l71-80,cand-0032,Cardinal Aldobrand
 m-chp2-seci-l71-80-0044,chp-2:02_CHP-2_sec_i:l71-80,cand-4030,Hunt of Diana,2967,2980,Domenichino work commissioned by Cardinal Aldobrandini and coveted by Scipione.
 m-chp2-seci-l71-80-0046,chp-2:02_CHP-2_sec_i:l71-80,cand-4030,Plate 7,3006,3013,Illustration pointer associated with the Hunt of Diana.
 m-chp2-seci-l71-80-0047,chp-2:02_CHP-2_sec_i:l71-80,cand-0394,Cardinal Borghese,3050,3067,Scipione Borghese in the incomplete accumulation sentence at the segment end.
-m-chp2-seci-l82-93-0001,chp-2:02_CHP-2_sec_i:l82-93,cand-0396,collection of paintings,10,33,Continuation of Scipione’s collection accumulated at the end of L71–80.
+m-chp2-seci-l82-93-0001,chp-2:02_CHP-2_sec_i:l82-93,cand-11474,collection of paintings,10,33,"Scipione's collection of paintings; source-derived collection candidate, with formal identity and type left open."
 m-chp2-seci-l82-93-0002,chp-2:02_CHP-2_sec_i:l82-93,cand-4288,Old masters,170,181,Haskell’s collection category.
 m-chp2-seci-l82-93-0003,chp-2:02_CHP-2_sec_i:l82-93,cand-4229,the Bolognese of every tendency,183,214,Collective artistic category; not individual artists.
 m-chp2-seci-l82-93-0004,chp-2:02_CHP-2_sec_i:l82-93,cand-0544,Caravaggio,216,226,Painter named as a represented school/category.
 m-chp2-seci-l82-93-0005,chp-2:02_CHP-2_sec_i:l82-93,cand-2293,Rubens,228,234,Painter named in the collection list; index candidate includes print p.28.
 m-chp2-seci-l82-93-0006,chp-2:02_CHP-2_sec_i:l82-93,cand-1516,the elder generation of Mannerists,236,270,Use the existing Mannerist painting term candidate.
-m-chp2-seci-l82-93-0007,chp-2:02_CHP-2_sec_i:l82-93,cand-0396,his collections,301,316,Scipione’s indexed collection subentry.
+m-chp2-seci-l82-93-0007,chp-2:02_CHP-2_sec_i:l82-93,cand-11474,his collections,301,316,"Scipione's collections; source-derived collection candidate, not the person-index subentry."
 m-chp2-seci-l82-93-0008,chp-2:02_CHP-2_sec_i:l82-93,cand-4289,His villa on the Pincio—the ‘delizia di Roma’,318,363,Villa and epithet as stated; the passage does not establish a modern site identity.
 m-chp2-seci-l82-93-0009,chp-2:02_CHP-2_sec_i:l82-93,cand-4274,the Pincio,331,341,Location nested within the villa mention.
 m-chp2-seci-l82-93-0010,chp-2:02_CHP-2_sec_i:l82-93,cand-3126,Rome,512,516,City in Haskell’s comparison with the Renaissance.
@@ -27695,3 +27695,43 @@ m-s2-surface-ddbb7b48014b2a8d,chp-1:01_CHP-1_sec_ii:l168-239,cand-3451,modelli,3
 m-s2-surface-ab08f389742d7a19,chp-1:01_CHP-1_sec_ii:l62-71,cand-0841,time limit,1577,1587,Exact contract term describing the deadline imposed on a commission.
 m-s2-surface-5e05f788838eb9d3,chp-1:01_CHP-1_sec_ii:l96-104,cand-1660,Michelangelo,1973,1985,Person reference in the comparison of Bernini’s opportunities with Michelangelo’s.
 m-s2-surface-e848a1b328875688,chp-1:01_CHP-1_sec_ii:l168-239,cand-4957,palace,3228,3234,"The definite place reference follows “Barberini Salone”; mapped to the existing Palazzo Barberini candidate, with cross-chapter identity retained for S3."
+m-s2-chp2-surface-ce7ddc4fc19e3ac2,chp-2:02_CHP-2_sec_i:l108-119,cand-4288,old masters,1500,1511,"Historical art-historical category, not a single work."
+m-s2-chp2-surface-5db1f18fc3e16ec7,chp-2:02_CHP-2_sec_i:l108-119,cand-3126,Rome,2321,2325,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
+m-s2-chp2-surface-0ac222757e37d3fa,chp-2:02_CHP-2_sec_i:l44-53,cand-0840,subject,797,804,Commissioned subject discussed as a term of patronal choice.
+m-s2-chp2-surface-11fef39a644b978f,chp-2:02_CHP-2_sec_i:l55-69,cand-0840,subject,920,927,The quoted commission leaves subject choice open to the patron.
+m-s2-chp2-surface-c21e7d67369e9e78,chp-2:02_CHP-2_sec_i:l71-80,cand-11474,his collection,2811,2825,The possessive collection is identified by the next segment as Scipione's collection of paintings; type and broader identity remain open.
+m-s2-chp2-surface-fbc96032aedbc3ac,chp-2:02_CHP-2_sec_ii:l127-139,cand-3126,Rome,2560,2564,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
+m-s2-chp2-surface-f13bed768355ea51,chp-2:02_CHP-2_sec_ii:l147-193,cand-0240,palace,559,565,The footnote refers back to the Barberini palace named in this passage.
+m-s2-chp2-surface-f92cf6f4789639b0,chp-2:02_CHP-2_sec_ii:l147-193,cand-11475,Sacchetti collection,2549,2569,The footnote names the collection through its inventories; the repository is not the collection itself.
+m-s2-chp2-surface-02bf8050f629a2ca,chp-2:02_CHP-2_sec_ii:l42-50,cand-5634,botany,1719,1725,Named disciplinary term in the botanical observation.
+m-s2-chp2-surface-583612bd4448284b,chp-2:02_CHP-2_sec_ii:l52-60,cand-4231,St Peter,1138,1146,"The apostle Peter, not Guercino's indexed work titled St Peter."
+m-s2-chp2-surface-b15dee633402886a,chp-2:02_CHP-2_sec_ii:l80-89,cand-2098,Raphael,248,255,Person reference in the comparison of artistic qualities.
+m-s2-chp2-surface-880141ed10c5d715,chp-2:02_CHP-2_sec_ii:l80-89,cand-2630,Titian,295,301,Person reference in the same comparison.
+m-s2-chp2-surface-bb6a03baba7ca7a8,chp-2:02_CHP-2_sec_iv:l139-152,cand-5634,botany,1678,1684,Named disciplinary term in the description of the Barberini palace library.
+m-s2-chp2-surface-b5ec52ff2ce48dfe,chp-2:02_CHP-2_sec_iv:l139-152,cand-0240,palace,1769,1775,Definite reference to the Barberini palace named earlier in the passage.
+m-s2-chp2-surface-913383ebc0dbf2b7,chp-2:02_CHP-2_sec_iv:l139-152,cand-0241,theatre,1898,1905,"The theatre subentry of the Barberini palace, not an unrelated theatre candidate."
+m-s2-chp2-surface-5fad8eba34c9bc29,chp-2:02_CHP-2_sec_iv:l19-29,cand-11476,private collection,2470,2488,"Francesco's own Poussin collection; a collection grouping, not a single work or repository. The nested 'collection' prompt maps to this same mention."
+m-s2-chp2-surface-481e4852f42f419e,chp-2:02_CHP-2_sec_iv:l190-245,cand-0398,palace,2044,2050,The note identifies the building as the Borghese Palace through its 1619 purchase history.
+m-s2-chp2-surface-63c8992a2d921163,chp-2:02_CHP-2_sec_iv:l190-245,cand-0398,palace,2625,2631,"Same Borghese Palace, identified in the preceding note."
+m-s2-chp2-surface-7a7768f95b8c4d84,chp-2:02_CHP-2_sec_iv:l190-245,cand-0398,palace,2894,2900,Same Borghese Palace in the Aurora anecdote.
+m-s2-chp2-surface-62cfb8efd3e07f0a,chp-2:02_CHP-2_sec_iv:l190-245,cand-3126,Rome,3037,3041,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
+m-s2-chp2-surface-7bd29df7950c6451,chp-2:02_CHP-2_sec_iv:l190-245,cand-0398,palace,3340,3346,The note explicitly says the palace then belonged to Scipione Borghese.
+m-s2-chp2-surface-e76a30ccdb12f9fa,chp-2:02_CHP-2_sec_iv:l190-245,cand-0198,the Barberini,4236,4249,Exact family span inside the locator's longer phrase; specific family/subgroup alignment remains for S3.
+m-s2-chp2-surface-59c6a1fc45d6db39,chp-2:02_CHP-2_sec_iv:l190-245,cand-1450,Louvre,4627,4633,"Repository/place, not a Louvre collection object."
+m-s2-chp2-surface-caf275a3039252c7,chp-2:02_CHP-2_sec_iv:l190-245,cand-1806,Palazzo Ducale,4642,4656,"The Ducal Palace in Urbino, not a generic palace."
+m-s2-chp2-surface-6f8d05c487c242c2,chp-2:02_CHP-2_sec_iv:l190-245,cand-1450,Louvre,5630,5636,Repository/place for the Poussin version.
+m-s2-chp2-surface-a930fe685cd7099d,chp-2:02_CHP-2_sec_iv:l190-245,cand-2128,Aurora,6055,6061,"Guido Reni's indexed Aurora, not Guercino's distinct Aurora work."
+m-s2-chp2-surface-d05aa7329b8728b4,chp-2:02_CHP-2_sec_iv:l190-245,cand-4291,family palace,6069,6082,The footnote's family palace is locally identified as Casino Rospigliosi in the same Reni Aurora context.
+m-s2-chp2-surface-d4864b3d59b8ab4b,chp-2:02_CHP-2_sec_iv:l190-245,cand-1995,Arcadian Shepherds,6338,6356,The Louvre location identifies the indexed second version.
+m-s2-chp2-surface-440d1a8a0dd7aa5d,chp-2:02_CHP-2_sec_iv:l190-245,cand-1481,Madrid,6510,6516,"City reference; use the main Madrid place candidate, not its indexed subentries."
+m-s2-chp2-surface-f8242f61b2e3a73f,chp-2:02_CHP-2_sec_iv:l6-17,cand-4129,art patrons,424,435,The exact social-role concept; the overlapping 'Italian art' phrase is a modifier.
+m-s2-chp2-surface-607a6a1cc62f86c4,chp-2:02_CHP-2_sec_iv:l65-77,cand-11477,notable collection,290,308,"Guido Bentivoglio's collection grouping, described with a Van Dyck Crucifixion and a portrait."
+m-s2-chp2-surface-672b5a5107268bc7,chp-2:02_CHP-2_sec_iv:l65-77,cand-4288,old masters,1720,1731,"Historical art-historical category, not a single work."
+m-s2-chp2-surface-0a863f3599f300e8,chp-2:02_CHP-2_sec_iv:l65-77,cand-11478,Ducal collection,2005,2021,Unidentified ducal collection from which Enzo procured Dosso works; keep distinct from the Urbino collection candidate pending S3.
+m-s2-chp2-surface-bdf3238451e9297f,chp-2:02_CHP-2_sec_iv:l79-89,cand-0240,palace,633,639,The new Barberini palace recommended for decoration.
+m-s2-chp2-surface-8368f7a27b51b1e8,chp-2:02_CHP-2_sec_iv:l79-89,cand-0240,palace,1838,1844,Definite reference to the Barberini palace in the ongoing decoration account.
+m-s2-chp2-surface-b0dcd7e8da3b23dc,chp-2:02_CHP-2_sec_iv:l79-89,cand-0840,subject,2159,2166,An explicitly named proposed subject in the patronal art discussion.
+m-s2-chp2-surface-2c7200d4adcfe9da,chp-2:02_CHP-2_sec_vii:l21-30,cand-2709,Velasquez,1836,1845,"The Spanish painter, not same-name work or event index subentries."
+m-s2-chp2-surface-db426204019481e6,chp-2:02_CHP-2_sec_vii:l38-54,cand-3126,Rome,843,847,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
+m-s2-chp2-surface-a9a1dc82a6c94ec8,chp-2:02_CHP-2_sec_vii:l5-19,cand-0840,subject,2770,2777,The commemorative subject selected by the cardinals from the Anabasis.
+m-s2-chp2-surface-513ad740ddc42833,chp-2:02_CHP-2_sec_iv:l190-245,cand-4291,Casino Rospigliosi,6105,6123,Proper place name in Haskell's p.57 footnote; locally identifies the family palace in the same Guido Reni Aurora discussion. Cross-chapter identity alignment remains open for S3.
