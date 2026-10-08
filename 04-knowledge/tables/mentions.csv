@@ -1,4 +1,4 @@
-mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -25001,7 +25001,7 @@ m-chp19-p391-011,chp-19:19_CHP-19Appendix:l109-124,cand-1141,George III,885,895,
 m-chp19-p391-012,chp-19:19_CHP-19Appendix:l109-124,cand-10807,paintings and drawings,919,941,The aggregate group of artworks reported in the 1762 sale.
 m-chp19-p391-013,chp-19:19_CHP-19Appendix:l109-124,cand-2292,Royal Collection,991,1007,Current collection identified by Haskell as holding works from the sale.
 m-chp19-p391-014,chp-19:19_CHP-19Appendix:l109-124,cand-2471,logued by him,1028,1041,The printed word is split by line-end hyphenation as cata- / . logued; the pronoun refers to Joseph Smith.
-m-chp19-p391-015,chp-19:19_CHP-19Appendix:l109-124,cand-10806,several hundred pictures,1218,1242,Pictures reportedly still recorded in Smith's palace at his death.
+m-chp19-p391-015,chp-19:19_CHP-19Appendix:l109-124,cand-11510,several hundred pictures,1218,1242,"The several hundred pictures recorded in 1770; cand-10806 is the archival list, not the pictures."
 m-chp19-p391-016,chp-19:19_CHP-19Appendix:l109-124,cand-2665,Ferdinando Uccelli,1271,1289,Notary named as recorder of the pictures.
 m-chp19-p391-017,chp-19:19_CHP-19Appendix:l109-124,cand-9171,his palace,1302,1312,Joseph Smith's palace referenced in the collection account.
 m-chp19-p391-018,chp-19:19_CHP-19Appendix:l109-124,cand-10806,The list of these,1314,1331,The list recording the pictures in Smith's palace.
@@ -25014,18 +25014,18 @@ m-chp19-p391-024,chp-19:19_CHP-19Appendix:l109-124,cand-8651,will of 1761,2282,2
 m-chp19-p391-025,chp-19:19_CHP-19Appendix:l109-124,cand-2476,Smith wrote,2295,2306,Smith as testator in Haskell's report of the will.
 m-chp19-p391-026,chp-19:19_CHP-19Appendix:l109-124,cand-9186,his widow,2312,2321,The unnamed wife referred to in the 1761 will; Chapter 10 describes her as Smith's second wife.
 m-chp19-p391-027,chp-19:19_CHP-19Appendix:l109-124,cand-9177,my Library,2567,2577,One class of Smith's collection that he hoped would remain united.
-m-chp19-p391-028,chp-19:19_CHP-19Appendix:l109-124,cand-10807,Drawings,2579,2587,Collection class named in the will excerpt; individual items are not identified.
-m-chp19-p391-029,chp-19:19_CHP-19Appendix:l109-124,cand-10807,Pictures,2598,2606,Collection class named in the will excerpt; individual items are not identified.
+m-chp19-p391-028,chp-19:19_CHP-19Appendix:l109-124,cand-11512,Drawings,2579,2587,Drawings named as a collection class in Smith's 1761 will; not the separate 1762 sale group.
+m-chp19-p391-029,chp-19:19_CHP-19Appendix:l109-124,cand-11513,Pictures,2598,2606,Pictures named as a collection class in Smith's 1761 will; not the separate 1762 sale group.
 m-chp19-p391-030,chp-19:19_CHP-19Appendix:l109-124,cand-1141,George III,2675,2685,Proposed purchaser of the library by about 1755.
 m-chp19-p391-031,chp-19:19_CHP-19Appendix:l109-124,cand-9177,the Library,2689,2700,Library named in the reported negotiations with George III.
-m-chp19-p391-032,chp-19:19_CHP-19Appendix:l109-124,cand-10807,the drawings,2717,2729,Drawings said to be included in the proposed library purchase.
+m-chp19-p391-032,chp-19:19_CHP-19Appendix:l109-124,cand-11515,the drawings,2717,2729,Drawings said to be included in the library under negotiation; keep distinct from the will's separate class pending S3.
 m-chp19-p391-033,chp-19:19_CHP-19Appendix:l109-124,cand-10805,Seven Years War,2741,2756,War named as the event after which the negotiations failed.
 m-chp19-p391-034,chp-19:19_CHP-19Appendix:l109-124,cand-9276,the plans came to nothing,2771,2796,The planned collection purchase said to have failed after the war.
 m-chp19-p391-035,chp-19:19_CHP-19Appendix:l109-124,cand-2476,Smith assumed,2844,2857,Smith's 1761 expectation about disposal after his death.
 m-chp19-p391-036,chp-19:19_CHP-19Appendix:l109-124,cand-9186,young wife,3005,3015,The wife whom Haskell says Smith had married three years earlier.
-m-chp19-p391-037,chp-19:19_CHP-19Appendix:l109-124,cand-2447,all the collection,2863,2881,The entire collection Smith thought would be sold after his death.
+m-chp19-p391-037,chp-19:19_CHP-19Appendix:l109-124,cand-11511,all the collection,2863,2881,The mixed collection Smith expected might be sold after his death; not Joseph Smith as a person.
 m-chp19-p391-038,chp-19:19_CHP-19Appendix:l109-124,cand-9278,the deal whereby the pictures,3144,3173,Reference to the reported 1762 sale; this is the same transaction described at p.391 L117-118.
-m-chp19-p391-039,chp-19:19_CHP-19Appendix:l109-124,cand-2292,the Royal,1946,1955,The Royal Collection name is split by the p.391 line break.
+m-chp19-p391-039,chp-19:19_CHP-19Appendix:l109-124,cand-2292,the Royal Collection,1946,1966,Complete Royal Collection mention; the existing span stopped before Collection.
 m-chp19-p391-040,chp-19:19_CHP-19Appendix:l109-124,cand-1141,the King,3228,3236,The King in the concluding sentence refers to George III.
 m-chp19-p392-001,chp-19:19_CHP-19Appendix:l126-138,cand-2471,Smith,161,166,Joseph Smith; the passage reports possible plans rather than an accomplished move or sale.
 m-chp19-p392-002,chp-19:19_CHP-19Appendix:l126-138,cand-2719,Venice,191,197,City named as Smith's residence before the contemplated move.
@@ -25124,7 +25124,7 @@ m-chp19-p393-049,chp-19:19_CHP-19Appendix:l140-155,cand-2879,Zuccarelli,3399,340
 m-chp19-p393-050,chp-19:19_CHP-19Appendix:l140-155,cand-2149,Marco Ricci,3411,3422,Artist named in the 1776 drawings/etchings list.
 m-chp19-p393-051,chp-19:19_CHP-19Appendix:l140-155,cand-2569,Tiepolo,3427,3434,Artist surname as printed in the 1776 drawings/etchings list.
 m-chp19-p393-052,chp-19:19_CHP-19Appendix:l140-155,cand-2447,Smith’s,3528,3535,Person whose taste Haskell says he discusses on the basis of known 1762 holdings.
-m-chp19-p393-053,chp-19:19_CHP-19Appendix:l140-155,cand-2447,his collection in 1762,3587,3609,Haskell's stated evidence base; the passage allows that Smith likely owned many more pictures.
+m-chp19-p393-053,chp-19:19_CHP-19Appendix:l140-155,cand-11511,his collection in 1762,3587,3609,"Smith's collection in 1762, the source basis Haskell discusses; distinct from the person candidate."
 m-chp19-p393-054,chp-19:19_CHP-19Appendix:l140-155,cand-2447,Smith’s,3749,3756,Possessive reference in the opening sentence about the difficult history of Smith's books.
 m-chp19-p394-001,chp-19:19_CHP-19Appendix:l157-183,cand-9177,library,107,114,The Smith library described as catalogued in the 1755 Bibliotheca Smithiana; collection type remains unresolved.
 m-chp19-p394-002,chp-19:19_CHP-19Appendix:l157-183,cand-9274,Bibliotheca Smithiana,133,154,The 1755 catalogue/inventory as described by Haskell; not independently consulted.
@@ -28026,3 +28026,24 @@ m-s2-chp17-surface-lot-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11506,Lot a
 m-s2-chp17-surface-lot-person-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11507,Lot,830,833,Biblical figure named at the start of the competition subject; the daughters are unnamed.
 m-s2-chp17-surface-susanna-person-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-11508,Susanna,853,860,Biblical figure named within the competition theme; distinct from St Susanna and from specific paintings.
 m-s2-chp17-surface-susanna-theme-p381,chp-17:17_CHP-17_sec_i:l22-24,cand-8439,Susanna and the Elders,853,875,"Reuses the existing general subject term; this occurrence names a competition theme, not an identified picture."
+m-chp19-surface-001,chp-19:19_CHP-19Appendix:l3-20,cand-11509,altarpieces,46,57,Collective work reference in the Appendix 1 heading; individual altarpieces are not named.
+m-chp19-surface-002,chp-19:19_CHP-19Appendix:l109-124,cand-11511,collection,1628,1638,The collection Smith might have continued adding to; its relation to the sale and later holdings remains unresolved.
+m-chp19-surface-003,chp-19:19_CHP-19Appendix:l109-124,cand-9171,his palace,2139,2149,Smith's unnamed palace in the unresolved 1762–1770 picture-history discussion.
+m-chp19-surface-004,chp-19:19_CHP-19Appendix:l109-124,cand-11511,collection,2354,2364,The mixed collection described in Haskell's summary of Smith's 1761 will.
+m-chp19-surface-005,chp-19:19_CHP-19Appendix:l109-124,cand-11511,collection,2528,2538,The mixed collection whose classes Smith hoped might remain united.
+m-chp19-surface-006,chp-19:19_CHP-19Appendix:l109-124,cand-11514,Gemms,2589,2594,OCR spelling of the gems class named in the 1761 will; individual stones are unspecified.
+m-chp19-surface-007,chp-19:19_CHP-19Appendix:l109-124,cand-9177,books,2885,2890,Books listed among the holdings Smith had built up; related to the library candidate without resolving its full contents.
+m-chp19-surface-008,chp-19:19_CHP-19Appendix:l109-124,cand-11514,gems,2892,2896,Gems listed as one component of Smith's mixed collection; no individual stones are identified.
+m-chp19-surface-009,chp-19:19_CHP-19Appendix:l109-124,cand-11513,pictures,2898,2906,Pictures listed as one class within Smith's mixed collection; individual works are unspecified.
+m-chp19-surface-010,chp-19:19_CHP-19Appendix:l109-124,cand-11512,drawings,2911,2919,Drawings listed as one class within Smith's mixed collection; individual sheets are unspecified.
+m-chp19-surface-011,chp-19:19_CHP-19Appendix:l109-124,cand-2292,"Royal
+Collection",3198,3214,Royal Collection across the line break at the end of the 1762 sale sentence.
+m-chp19-surface-012,chp-19:19_CHP-19Appendix:l126-138,cand-11511,collection,558,568,The mixed collection Haskell says Smith may have wished to dispose of.
+m-chp19-surface-013,chp-19:19_CHP-19Appendix:l126-138,cand-11511,Collection,631,641,"Smith's quoted phrase 'this whole Collection, the work of my life'."
+m-chp19-surface-014,chp-19:19_CHP-19Appendix:l140-155,cand-11511,collection,1186,1196,Haskell's reference to the collection Smith had built up; the sentence is quoted as Smith's statement.
+m-chp19-surface-015,chp-19:19_CHP-19Appendix:l140-155,cand-11510,pictures,2043,2051,"Pictures in Smith's palace in 1770, discussed by Haskell as the recorded group."
+m-chp19-surface-016,chp-19:19_CHP-19Appendix:l140-155,cand-9171,his palace,2061,2071,Second occurrence of Smith's unnamed palace in Haskell's provisional synthesis.
+m-chp19-surface-017,chp-19:19_CHP-19Appendix:l140-155,cand-11516,remaining pictures and drawings,2272,2303,Group Haskell says was sold in London in 1776; the two sale dates are not assigned individual works.
+m-chp19-surface-018,chp-19:19_CHP-19Appendix:l140-155,cand-11511,collection,2736,2746,Collection named in Haskell's qualified provenance phrase 'said to have come from Smith's collection'.
+m-chp19-surface-019,chp-19:19_CHP-19Appendix:l140-155,cand-11511,collection,3042,3052,Smith's collection from which Haskell says no further pictures had been traced.
+m-chp19-surface-020,chp-19:19_CHP-19Appendix:l65-84,cand-5555,modello,791,798,Second reference to Tacca's horse model in the same sentence; distinct from the preliminary oil-sketch term cand-3451.

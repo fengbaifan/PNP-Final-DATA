@@ -7357,4 +7357,14 @@ python -X utf8 scripts/audit_tables.py --strict-stage通过：s2_missing=[]、er
 
 第十八章p.384–385的2个reviewed/complete段有2条候选表面提示：p.384 “gifted temperament”中的`temperament`是一般性格含义，不映射误中的Francesco Algarotti索引子项cand-0077/0078；p.385 “an orthodox Academy”中的`Academy`是一般机构类别，不指向仅在p.331出现的索引子项cand-0136。本轮无候选表、mentions或statements写入。结论段原有全书语义处理和跨页闭合记录见本文件前文及[第十八章结果](../results/chp-18.md)。
 
-第十九章当前候选表面游标为12个reviewed段、17条提示，尚未裁决；定位器仍只提供已登记候选词形线索。
+第十九章候选表面提示裁决已完成：12个reviewed段上的17条提示逐项核对后，新增8个候选、20条mentions；修正6条旧mention映射、扩展1条Royal Collection跨度，并更新13条statement的候选关联。写后定位器仅余一般词义`subject`一处，判定不映射。详情见[第十九章结果](../results/chp-19.md)。下一游标为第二版后记20个reviewed段上的24条提示。
+
+## 第十九章候选表面提示裁决（2026-10-08）
+
+在12个reviewed段上对定位器给出的17条提示逐项核对来源原文、上下文、既有statement和候选边界。确认并登记8个源内集合/作品候选：cand-11509（S Andrea altarpieces）、cand-11510（1770年Smith宫中数百幅画作）、cand-11511（附录五所述Smith混合收藏，类型待定）、cand-11512（1761遗嘱中的drawings类）、cand-11513（同一遗嘱中的pictures类）、cand-11514（遗嘱中的gems类）、cand-11515（图书馆谈判中另指的drawings类）、cand-11516（1776年余存画作与素描）。这些对象与Smith的清单、1762年售画组、1770年画作组及1776年售画事件分开；边界未明处保留待定。
+
+新增20条mentions，重映射6条既有mentions并扩展一条Royal Collection跨度；修订13条statement候选关联，其中把1770年数百幅画作断言从拍卖/清单候选cand-10806更正到cand-11510。写后定位器仅剩p.391的`subject`一般词义提示，不对应独立实体，按no-write保留。无新增S6正式关系。候选表面提示仅是复核线索，不代表实体召回或独立语义验收。
+
+受控脚本`chp19_candidate_surface_prompt_reconciliation.py`默认dry-run，apply前核验提示全集、来源跨度和表前态，并保留未修改JSONL原始行；写前恢复副本位于`C:\Users\001\AppData\Local\Temp\pnp-s2-chp19-surface-mg_ffs0i`。脚本SHA-256=`bc17deba8576893445111708b939e827f73d96cd6c7610120249b72ef407d448`。写后表SHA-256：候选`07dfe219540afe7dbf3b17a73b6cafb32fcc2724b41ed0576c6fa39efa5ab0a0`；mentions `414fc34bbe5819c54bb83d2f55cdd3c2f52eca0b9e69224f8db9c0112b677112`；statements `29cefb618b838db67dd8fe97cf07c3e11b5f203eb8d2146672a7632e9374a4ad`。
+
+写后严格阶段审计通过：1,019 KU、11,495 candidates、27,391 mentions、12,263 statements；832段中678 complete、154有理由排除、0 queued/partial；`s2_missing=[]`、`errors=[]`。关系候选2,331条，2,325条端点齐全、6条开放；两条既存enrichment `source_ref`警告未变。下一游标为第二版后记：20个reviewed段上有24条候选表面提示待裁决；全书S2交接审计仍未完成。
