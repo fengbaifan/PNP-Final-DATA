@@ -38,26 +38,43 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 - `st-chp10-p316-n04-honour-showed-haskell-painting-photographs`：目标cand-9678；注释说明组级先行词已确定，未把照片逐张映射到作品。正文statement的旧“注4待规范链接”限定已清理，`cand-9918` detail同步修正。
 - `st-chp15-p362-this-surpassed-venetian-collections-referent-unresolved`：主语锚定`cand-10432`，predicate现表述country-house architecture与威尼斯收藏的比较；新增mention `m-chp15-p362-0087`，来源段字符范围`2426:2430`。`candidate_identity_questions`记录cand-1007与cand-10432的S3比较，S2不合并。
 
-### 六条端点未齐关系候选（交S3/S6）
+### 21条标量端点未齐的关系候选（交S3/S6）
 
-| Statement | 来源锚点 | 未决内容 | 下游处理 |
-|---|---|---|---|
-| `st-chp7-p180-n4-pair-location` | 第7章p.180注4，L338 | 两幅画`cand-6773/6774`与Louvre、Detroit Institute of Arts `cand-4589/7072`是成对提及；注释引Nicolas Poussin pp.46、65，但没有逐幅指配。 | S3对齐已有端点；S6在来源可逐幅指配前不生成单幅地点边。 |
-| `st-chp8-p207-n1-ferdinand-left-thirds-to-daughters` | 第8章p.207注1，L136 | `cand-0914`把画作的三份之一分别留给三名未具名女儿；未说明嫁给Giuliano Colonna `cand-7598`的是哪一女儿。 | 保留群体层断言；不为女儿造端点或分配份额。 |
-| `st-chp8-p211-del-rosso-marriage-alliances` | 第8章p.211，L85 | del Rosso家族`cand-7489`与“best families”的婚姻联盟未列出对方家族或具体婚姻。 | 不补造对方；S6不生成具体婚姻边。 |
-| `st-chp8-p238-note4-pictures-at-pisa-cabinet` | 第8章p.238注4，L446 | Pisa机构`cand-8048`所指图片可能是两幅风俗画`cand-0874/0887`，也可能包括前述讽刺画`cand-0885`；“are—or were in 1941”保留时间不确定，Casini pp.42–50未独立查阅。 | 保留注释statement及范围歧义；不作单幅地点边。 |
-| `st-chp14-p353-bruhl-possessions-in-the-pictures` | 第14章p.353，L70–71 | 两个图像母题`cand-10293/10294`未指配给Brühl委托的`Maecenas` `cand-2597`或`Flora` `cand-2590`，也未指配到具体住宅。 | S3对齐现有候选；S6等待作品与母题的逐项证据。 |
-| `st-chp20-p403-alazard-commissioned-franceschini-picture` | 第二版后记p.403，L111–113 | 作品`cand-6888`与画家`cand-1066`已识别；Colbert `cand-0800`、Abate Luigi Strozzi `cand-2528`是经手人，实际委托人未具名。 | 不把经手人提升为委托人；保留端点未决。 |
+当前2,527条S2关系候选中，2,506条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
 
-以上开放候选均无新近具名、可独立识别而缺候选的端点，故未创建`candidate-backlog.csv`；未新增S6正式关系。六条statement及候选映射构成当前关系问题的交接清单，不表示关系阶段已完成。
+| Statement | 来源锚点 | 未决端点与处理边界 |
+|---|---|---|
+| `st-chp2-secii-l118-125-paul-v-lifetime-monument` | 第2章p.41，L125 | Paul V `cand-0393`已识别，具体纪念物未指明；不创建单件作品。 |
+| `st-chp2-secii-l118-125-sixtus-v-lifetime-monument` | 第2章p.41，L125 | Sixtus V `cand-1874`已识别，具体纪念物未指明；不创建单件作品。 |
+| `st-chp2-secii-l118-125-urban-public-monuments` | 第2章p.41，L120 | Urban VIII `cand-0220`已识别；原文在“允许”与“鼓励”之间保留不确定，未指明纪念物或直接委托。 |
+| `st-chp2-secii-l127-139-church-fashionable-patronage` | 第2章p.42，L134 | 教堂`cand-4521`已识别；竞争关联的欧洲显要人物未具名，不生成个人或群体实体。 |
+| `st-chp2-secii-l127-139-peretti-similar-plans` | 第2章p.42，L136 | Peretti `cand-1875`仍有身份问题；“类似计划”的具体内容未说明，身份比较交S3，计划对象不猜定。 |
+| `st-chp2-secii-l127-139-urban-withdraws-princes-permissions` | 第2章p.42，L137 | Urban VIII `cand-0213`已识别；获撤许可的外国王子未具名，不作个人端点。 |
+| `st-chp2-secii-l141-145-barberini-altar-pictures-commission` | 第2章p.43，L144 | Urban VIII及共同委托人Antonio Barberini `cand-0186`已识别；委托对象是未逐件列举的祭坛画集合，没有单一作品端点。 |
+| `st-chp2-secii-l71-78-marcello-searches-for-new-talent` | 第2章p.38，L77 | Marcello `cand-2314`已识别；所寻觅的艺术家未具名。 |
+| `st-chp2-secii-l71-78-marcello-scholar-contacts` | 第2章p.38，L76 | Marcello `cand-2314`已识别；学者仅称为跨国群体，未列个人。 |
+| `st-chp2-secii-l80-89-chronicler-quote-on-sacchetti-protection` | 第2章p.39，L87及注3 L178 | Sacchetti相关statement已记录；被转引的编年史作者未识别，所引原文未独立查阅。 |
+| `st-chp2-secii-l80-89-giulio-made-cardinal` | 第2章p.39，L86 | Giulio Sacchetti `cand-2313`已识别；任命主体及任命机关未说明，不推断为Urban VIII。 |
+| `st-chp2-secii-l80-89-marcello-papal-treasurer` | 第2章p.39，L86 | Marcello `cand-2314`已识别；“papal treasurer”保留为职务表述，任职时间及任命主体未说明，不另造办公室实体。 |
+| `st-chp2-secii-l80-89-pietro-requested-subjects` | 第2章p.39，L81 | Pietro `cand-0356`已识别；习惯性请求所涉及的具体赞助人和题材未具名。 |
+| `st-chp2-secii-l80-89-sacchetti-influence-on-taste` | 第2章p.39，L87 | Sacchetti家族`cand-4452`已识别；“品味影响”的具体对象和范围未指明。 |
+| `st-chp2-secii-l91-104-urban-encouraged-friends-to-abandon-pagan-themes` | 第2章p.40，L97 | Urban VIII `cand-0230`已识别；朋友仅以泛称出现，主题候选`cand-4495`不是关系另一端。 |
+| `st-chp7-p180-n4-pair-location` | 第7章p.180注4，L338 | 两幅画`cand-6773/6774`与Louvre、Detroit Institute of Arts `cand-4589/7072`成对提及；未逐幅指配。 |
+| `st-chp8-p207-n1-ferdinand-left-thirds-to-daughters` | 第8章p.207注1，L136 | `cand-0914`将画作三分之一分别留给三名未具名女儿；未说明嫁给Giuliano Colonna `cand-7598`的是哪一位。 |
+| `st-chp8-p211-del-rosso-marriage-alliances` | 第8章p.211，L85 | del Rosso家族`cand-7489`与“best families”联姻；对方家族和具体婚姻均未具名。 |
+| `st-chp8-p238-note4-pictures-at-pisa-cabinet` | 第8章p.238注4，L446 | Pisa机构`cand-8048`所指图片可能为`cand-0874/0887`，也可能包括`cand-0885`；时间限定保留，Casini pp.42–50未独立查阅。 |
+| `st-chp14-p353-bruhl-possessions-in-the-pictures` | 第14章p.353，L70–71 | 母题`cand-10293/10294`未逐一指配给`Maecenas` `cand-2597`或`Flora` `cand-2590`，亦未指配到具体住宅。 |
+| `st-chp20-p403-alazard-commissioned-franceschini-picture` | 第二版后记p.403，L111–113 | 作品`cand-6888`及画家`cand-1066`已识别；实际委托人未具名，Colbert `cand-0800`及Strozzi `cand-2528`只记为经手人。 |
+
+未发现应据原文新增而遗漏的具名、可独立识别端点；`candidate-backlog.csv`不存在。开放端点不补猜测，不写入`relations.csv`；身份问题交S3比对，关系成立与边类型交S6裁决。
 
 ### 递归引用完整性
 
-对全部statement嵌套字段和mentions的候选ID进行递归核对：78,288个候选ID引用、10,114个不同候选均可解析；17,895个类型化statement引用全部存在；17,872个段落引用涉及591个不同segment，均可解析，`#L`锚点越界为0。新增的S3身份问题当前共16条statement、25个问题、20个不同候选ID，引用均存在。`candidate-backlog.csv`当前不存在；无新具名且可独立识别的缺失端点。其余全书断言限定语与语义风险仍待终审，S2尚未交接。
+基于当前表复核：12,306条statements及mentions中78,640个候选ID引用涉及10,115个候选，悬空0；5,713个typed statement引用均解析。statement与mentions共42,080个segment引用、覆盖596个规范segment，悬空0；唯一带`#L`的行锚在段内。S3身份问题为21条statement、30个问题、21个候选ID，引用均存在；真值未决指代状态和`*_pending=true`均为0。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对12,263条statement按其自身`source_file`及`source_line_start/end`复核：源文件缺失、行范围越界、引文不在指定范围内均为0。7,246条引文与行段完全相同，5,013条引文位于所指行段内，4条需忽略换行空白后匹配。另有175条第一章statement沿用`01_CHP-1.md`整章来源路径，而`segment_id`指向规范分节来源；这175条引文和行号均可在各自`source_file`中复现，保留为旧S2定位，不另计来源段或覆盖。
+对当前12,306条statement按各自`source_file`及`source_line_start/end`复核：源文件缺失、行范围越界、引文不在指定范围内均为0。7,246条引文与行段原文完全相同，另5,060条在统一空白后包含于所指行段。175条第一章statement沿用`01_CHP-1.md`整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 

@@ -7602,3 +7602,11 @@ L138–142 Urban VIII动机解释继续双向互链；Reni绘画的关系stateme
 修订6条statement、2条mention和1条候选说明。将avviso拆为Bernini制作、教皇委托、Scipione Borghese报酬三项关系候选；修正“Cardinal Borghese”mention至人物候选，另登记雕像短语与`Papa`嵌套/专名mention。补录Cortona壁画题材位置、挂毯的题材与预定宫殿位置、计划寓意所在宫墙；保留`cand-4583`与第VII节十二幅挂毯`cand-4935`为独立候选，待S3比较。补正Sacchetti collection地点端点、Domenico研究作者方向、p.60委托方向；p.61挂毯纪念Urban VIII列为关系候选。修正L154→L182、L176→第1章注释statement、L193→`sec_iv:l3-4`的引用目标；113条注释到正文的正向链接均已有对应反链。全段85条statement、93条mention，其中16条关系候选；未写入`relations.csv`。
 
 严格阶段审计：1,019 KU、11,498 candidates、27,400 mentions、12,306 statements；S2关系候选statement 2,527条（2,506条两端齐全，21条开放），832段覆盖中678段reviewed/complete、154段excluded/complete。`s2_missing=[]`、`errors=[]`；两条既存enrichment `source_ref`警告及语义质量通用提示仍在。全书S2交接继续，未进入S3–S6。
+
+## 全书开放关系候选、嵌套引用与交接清单复核（2026-10-08）
+
+从当前`book-statements.jsonl`逐条枚举`relation_candidate=true`：12,306条statement中共有2,527条关系候选；2,506条具标量主、宾端点，21条至少一端保持开放。章节分布为第2章15条、第7章1条、第8章3条、第14章1条、第二版后记1条。既有结果中的开放项表仅列6条，现已扩至21条。第2章新增的15条分别涉及未指明的纪念物、一般赞助群体、Peretti计划对象、外国王子群体、祭坛画集合、未具名艺术家/学者/赞助人、匿名编年史作者、任命/职务端点、家庭品味影响和泛称朋友。逐项回到原statement、来源行及当前限定语；未将集体、抽象对象或概括作品组拆成虚构个体端点。原有第7、8、14、20章开放项的成对地点、未具名婚配对象、未决图片范围、母题与委托画的映射、实际委托人限制均保留。21条清单与处理去向见[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。不新增`relations.csv`正式边；没有发现原文中具名且可独立识别、但缺少候选记录的端点，`candidate-backlog.csv`仍不存在。
+
+复查嵌套外键时发现一条脚注statement ID含空格：`st-chp3-seciv-notes-l205-243-p87-n1-ber nino-order-quote`，导致第3章两条正文statement的`footnote_statement_ids`被空格拆为悬空片段。现将目标统一改为`st-chp3-seciv-notes-l205-243-p87-bernini-order-quote`并修复两处引用。仅替换JSONL内该字符串的3次出现；恢复副本保存在`%TEMP%\pnp-s2-statement-id-fix-lt1bcepo\book-statements.jsonl.before`。改前SHA-256=`f7fe8a108189a27e2748a940563d42061847a4b2b1af5fdf885464c03c6317a4`，改后=`31ee375c51dde059413f63892ffe375e8a713e7cdff5e4c4373b99226c52f3f4`。另核对`chp-3:03_CHP-3_sec_ii:l144-179#L159`为有效行锚，不是悬空segment。
+
+当前递归检查覆盖12,306条statement及mentions：78,640个候选ID引用、10,115个不同候选，悬空0；5,713个嵌套statement引用悬空0；statement与mentions共42,080个segment引用、覆盖596个规范segment，悬空0，唯一`#L`行锚在段内。S3身份问题21条statement/30个问题/21个候选均解析；真值未决指代状态及`*_pending=true`均为0。12,306条原书引文均在其声明来源行内，其中7,246条与行段原文完全相同、5,060条在统一空白后匹配，越界/缺源为0。`audit_tables.py --strict-stage --summary`通过：1,019 KU、11,498 candidates、27,400 mentions、12,306 statements、832 segments，`s2_missing=[]`、`errors=[]`；仅保留两条既存enrichment `source_ref`警告及通用语义质量提示。以上闭合的是当前引用和开放关系交接项；仍须继续审查两端完整的关系候选及全书剩余语义限定，不表示S2整体交接完成。
