@@ -45,3 +45,15 @@
 - 恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp14-surface-prompts-20261008-121411。
 
 候选提示裁决不取代全书S2交接审计中的未登记实体、重复副本、跨页注释、指代、限定语、候选外键与全部关系候选复核。
+
+## 第十四章p.348通信关系候选与提及补录（2026-10-08）
+
+将原st-chp14-p348-move-to-rome中混合的行程与通信断言分开：保留1734年2月续行至罗马的行程statement；新增Algarotti—Bonomo与Algarotti—Francesco Zanotti两条corresponded_with候选，分别链接p.348注2（L172）和注3（L173）。注2只著录一封致Bonomo的信，不能代替完整往来；所引书信、版本及档案均未独立查阅。
+
+补录跨行mention m-chp14-p348-0111（Francesco Zanotti，1561:1578），映射既有候选cand-2864（索引形为F. M. Zanotti），身份比对留S3。两条Algarotti候选与Zanotti兄弟群体候选保持分立。新增2条statement和1条mention，不新增候选或正式关系。写后全书S2关系候选2,529条、端点齐全2,508条、开放21条；严格审计errors=[]、s2_missing=[]。其余第14章及全书S2关系/限定语仍在审查。
+
+## 第十四章p.349宫廷关系与授衔断言拆分（2026-10-08）
+
+原st-chp14-p349-travel-and-frederick-court把Algarotti的旅行、在Frederick the Great宫廷安置及1740年12月授爵合在一条。现拆为行程statement、settled_at_court_of关系候选，以及受控方向honoured_by的授衔候选；后者主语为Algarotti、宾语为Frederick，日期仅属于授衔。原文未给出进入宫廷的确切日期或授衔文书，不作延伸推断。
+
+p.349现有13条关系候选，端点全齐；该段旅行目的地仍作为有来源的行程事实记录，不推断每处的居住/任职。全书关系候选2,530条、完整端点2,509条、开放21条。新增2条statement、无新增mention/candidate或正式关系。严格阶段审计errors=[]、s2_missing=[]。其余第14章及全书S2语义审计继续。

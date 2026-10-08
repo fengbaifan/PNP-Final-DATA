@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,498个候选、27,400条mentions及12,306条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,527条，2,506条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
+当前表包含1,019个KU、11,498个候选、27,401条mentions及12,310条statement；索引候选2,934行。严格阶段审计通过，s2_missing=[]、errors=[]；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,530条，2,509条端点齐全，21条仍开放且保留待证。全库footnote_pending、footnote_text_pending、cross_reference_text_pending及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -40,7 +40,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 
-当前2,527条S2关系候选中，2,506条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
+当前2,530条S2关系候选中，2,509条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -70,11 +70,11 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 递归引用完整性
 
-基于当前表复核：12,306条statements及mentions中78,640个候选ID引用涉及10,115个候选，悬空0；5,713个typed statement引用均解析。statement与mentions共42,080个segment引用、覆盖596个规范segment，悬空0；唯一带`#L`的行锚在段内。S3身份问题为22条statement、31个问题、22个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,310条statement及27,401条mention：78,487个候选ID字段引用涉及10,111个候选，悬空0；5,848个嵌套statement引用均解析。statement与mentions共45,311个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为22条statement、31个问题、22个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个collection_type_pending=true，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计errors=[]、s2_missing=[]。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,306条statement按各自`source_file`及`source_line_start/end`复核：源文件缺失、行范围越界、引文不在指定范围内均为0。7,246条引文与行段原文完全相同，另5,060条在统一空白后包含于所指行段。175条第一章statement沿用`01_CHP-1.md`整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,310条statement的顶层original_quote按各自source_file及source_line_start/end检查：12,264条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而segment_id指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 
@@ -162,3 +162,21 @@ p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本�
 第十三章合并注释段`chp-13:13_CHP-13_intro:l179-251`为reviewed/complete。对65条statement的过时注释状态、无对应脚注标记的限定语及图版年份冲突作定点修订；不改statement、mention、candidate或coverage数量。原引的期刊、书籍、信件、档案与手稿仍标为未独立查阅。澄清p.336 note 6不支持Zais送展断言、p.337 note 5不支持Caime句、p.338 note 1只链接Goldoni的扉页方案；p.342 note 5的标号落在收藏句末，不据此补出奖章或宝石的来源细节。Plate 57b题注的1761与p.338 note 1所引volume II (1762)作为未决年份差异保留。
 
 p.332 note 4的“Berengo, 1957”已链接到书内唯一相符条目`st-chp21-bib-l129-163-entry-17`；note候选`cand-10136`与书目候选`cand-10134`仍分立，身份比较交S3。S3身份问题更新为22条statement、31个问题、22个候选ID。严格阶段审计仍为`errors=[]`、`s2_missing=[]`；全书语义限定和关系候选终审继续，未进入S3。
+
+## 第十四章p.348通信关系候选与提及补录（2026-10-08）
+
+复核14_CHP-14_intro.md L19–20，将原合并statement拆为“1734年2月续行至罗马”及两条通信关系候选：Algarotti—Bonomo、Algarotti—Francesco Zanotti。前者链接注2（L172，所引为一封1734年2月22日致Bonomo的信）；后者链接注3（L173，所引为1734年2–6月致F. M.及Eustachio Zanotti、Antonio Conti的信件）。原信与所引版本均未独立查阅，不将单封注释引文扩写为完整往来证据。
+
+补录mention m-chp14-p348-0111，精确覆盖跨行姓名“Francesco Zanotti”，映射至现有p.348索引候选cand-2864（F. M. Zanotti）。cand-0043/cand-0068的Algarotti候选及cand-10226（Zanotti兄弟群体）不合并；身份对齐留S3。共增加2条statement、1条mention；候选表、coverage及正式relations.csv未变。当前S2关系候选2,529条，其中2,508条端点齐全、21条仍开放。
+
+写前SHA-256：book-statements.jsonl=27cef89e4340b50912d859ff505ec05b88056e83e4c5aab37bebb81c5ebefb2c，mentions.csv=83cbe74b42385c62a552e90b1bdd1ffa45881ae9f28db524387cd3dc1e2664de；写后SHA-256：book-statements.jsonl=64a9c6b4e848d3d7cb883858bf577a56519f08e1fce3677e49ade040e14f902f，mentions.csv=6300b7dc5d4d5284d6ddab06c8ea3a80bb425790c8c5b2e1b9a4d74fd97bf9c9。恢复副本：%TEMP%/pnp-chp14-p348-correspondence-nizrx2c_。
+
+严格阶段审计通过：1,019 KU、11,498 candidates、27,401 mentions、12,308 statements、832 segments；s2_missing=[]、errors=[]。未解决的source_ref警告仍为enr-06678和enr-06937。本项仅补录p.348关系候选与mention，不代表第14章关系审计或全书S2交接完成；继续审查p.349起的全书关系候选与限定语。
+
+## 第十四章p.349关系候选拆分（2026-10-08）
+
+复核14_CHP-14_intro.md L30，将原复合statement拆为三项：Algarotti在法国、英格兰、俄罗斯的行程；在Frederick the Great宫廷的安置/服务关系；Frederick于1740年12月授予其伯爵头衔。后两项各自保留为关系候选，其中授衔使用受控语义方向honoured_by（受荣者Algarotti → 授予者Frederick）。“December 1740”仅限定授衔，不外推为进入宫廷的日期；原书未提供授衔文书，仍按Haskell叙述记录。旅行列表保留为有据statement，不把它误写成对三国的居住或任职关系。
+
+新增2条statement，无新增mention/candidate；p.349当前有13条关系候选，端点全部齐全。全书S2关系候选现为2,530条，2,509条端点齐全、21条仍开放；正式relations.csv未改。写前book-statements.jsonl SHA-256=64a9c6b4e848d3d7cb883858bf577a56519f08e1fce3677e49ade040e14f902f；写后=5f22734e1c6e52917eb4047958e103470ba5411ba6471dda16e4be14126d66ae。恢复副本：%TEMP%/pnp-chp14-p349-frederick-85_zgpem。
+
+严格阶段审计通过：1,019 KU、11,498 candidates、27,401 mentions、12,310 statements、832 segments；s2_missing=[]、errors=[]。本批只完成p.349行程与授衔的语义拆分；第14章其余段和全书限定语、关系候选仍需审查，S2尚未交接。

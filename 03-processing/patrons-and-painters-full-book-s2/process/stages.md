@@ -7616,3 +7616,17 @@ L138–142 Urban VIII动机解释继续双向互链；Reni绘画的关系stateme
 `chp-13:13_CHP-13_intro:l179-251`coverage为reviewed/complete，涵盖p.332–345合并注释。对65条statement限定语作受控更新，移除把已迁移注释描述成待处理的过时文字，纠正无脚注标记句的错误待注及脚注marker范围；不增删statement、mention、candidate、coverage或正式关系。逐项复核的关键边界包括：p.336 note 6不回链到Zais送展句；p.337 note 5只链接Officium插图statement；p.338 note 1只链接Goldoni的frontispiece proposal；p.342 note 5不视为奖章/宝石的逐件来源；p.343 note 4的1743只是Haskell转引的可能年份。Plate 57b caption记1761，p.338 note 1引volume II (1762)，保留差异，不自行调和。
 
 p.332 note 4的“Berengo, 1957”链接到书内唯一相符书目statement `st-chp21-bib-l129-163-entry-17`，并保留`cand-10136`与`cand-10134`分立、交S3对齐。受控脚本位于%TEMP%，默认preview，按写前SHA校验后应用；恢复副本为`%TEMP%\pnp-chp13-note-qualifier-9zglist2\book-statements.jsonl.before`。statement表SHA-256由`31ee375c51dde059413f63892ffe375e8a713e7cdff5e4c4373b99226c52f3f4`变为`27cef89e4340b50912d859ff505ec05b88056e83e4c5aab37bebb81c5ebefb2c`。严格阶段审计通过：`s2_missing=[]`、`errors=[]`；S3身份问题为22/31/22，唯一待决类型标记为第8章`collection_type_pending=true`。S2整体交接仍未完成。
+
+## S2 p.348通信关系候选补录（2026-10-08）
+
+原statement st-chp14-p348-move-to-rome同时承载Algarotti于1734年2月续行至罗马、向Bonomo和Francesco Zanotti写信谈罗马观感两类事实。将其收窄为行程statement moved_to，并按明确收信人新增st-chp14-p348-corresponded-with-bonomo、st-chp14-p348-corresponded-with-francesco-zanotti两条关系候选。分别连至注2 statement st-chp14-p348-note2-letter（一封1734-02-22致Bonomo信）和注3 statement st-chp14-p348-note3-letters（著录寄F. M./Eustachio Zanotti及Antonio Conti的1734年书信）。注明原信和版本未独立查阅；注2单封信不被扩大为完整往来。
+
+mentions.csv新增m-chp14-p348-0111，源段chp-14:14_CHP-14_intro:l14-21中字符1561:1578，精确表面为跨行Francesco Zanotti，候选映射cand-2864。Algarotti在p.347/p.348的候选cand-0043与cand-0068、以及cand-10226（Zanotti兄弟群体）不合并，留S3。候选及coverage表未改；S2关系候选+2，均有端点；正式relations.csv未改。
+
+写前/后SHA-256及恢复副本见第十四章结果。严格阶段审计：1,019 KU、11,498 candidates、27,401 mentions、12,308 statements、832 segments；s2_missing=[]、errors=[]。当前仍有两条既存enrichment source_ref警告。后续从第十四章p.349继续全书关系候选、断言限定和指代复核；本次修订不构成S2交接。
+
+## S2 p.349宫廷服务与授衔关系候选拆分（2026-10-08）
+
+14_CHP-14_intro.md L30原statement st-chp14-p349-travel-and-frederick-court把旅行列表、settling at court和授衔并为一个claim。拆成：1) France/England/Russia itinerary statement；2) Algarotti settled at Frederick’s court，保留其既有关系候选端点；3) Frederick于1740年12月授予Algarotti Count头衔，新增honoured_by关系候选，方向为受荣人cand-0080→授予者cand-1079。只将December 1740用于授衔，不推定入宫时间；未引用或核验授衔文书。旅行目的地保留在statement的候选提及中，不判作三国居住或任职关系。
+
+新增2条statement，没有新增mention/candidate。p.349关系候选13条、端点完整13条；全书关系候选2,530条、2,509条完整、21条开放。写前/写后statement表SHA-256及恢复副本见第十四章结果。严格阶段审计：1,019 KU、11,498 candidates、27,401 mentions、12,310 statements、832 segments；s2_missing=[]、errors=[]。后续继续第14章及全书关系候选、限定语和指代终审，不进入S3–S6。
