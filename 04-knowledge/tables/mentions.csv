@@ -3078,10 +3078,12 @@ m-s2-ch10-p326-327-0020,chp-10:10_CHP-10_sec_ii:l210-222,cand-1942,Pisani’s ad
 m-s2-ch10-p326-327-0021,chp-10:10_CHP-10_sec_ii:l210-222,cand-9739,The Inquisitors,2622,2637,
 m-s2-ch10-p326-327-0022,chp-10:10_CHP-10_sec_ii:l210-222,cand-9209,Trevigi,2839,2846,Retain source spelling; the index candidate is Treviso and identity awaits S3.
 m-s2-ch10-p326-327-0023,chp-10:10_CHP-10_sec_ii:l210-222,cand-9797,Antonio Paluello,2864,2880,
-m-s2-ch10-p326-327-0024,chp-10:10_CHP-10_sec_ii:l210-222,cand-9795,Poesie peril solenne ingresso di Sua Eccellenza Mss.r,2882,2935,Title continues on L219; OCR reads 'peril' for printed 'per il' and joins 'PisaniIn'.
+m-s2-ch10-p326-327-0024,chp-10:10_CHP-10_sec_ii:l210-222,cand-9795,"Poesie peril solenne ingresso di Sua Eccellenza Mss.r
+Zorzi Pisani",2882,2948,Full title spans L218–219; OCR reads 'peril' for printed 'per il' and joins 'PisaniIn' at the title/imprint boundary.
 m-s2-ch10-p326-327-0025,chp-10:10_CHP-10_sec_ii:l210-222,cand-1942,Zorzi Pisani,2936,2948,
 m-s2-ch10-p326-327-0026,chp-10:10_CHP-10_sec_ii:l210-222,cand-9798,Carlo Palese,2976,2988,
-m-s2-ch10-p326-327-0027,chp-10:10_CHP-10_sec_ii:l210-222,cand-9796,Il Patriotismo,2990,3004,
+m-s2-ch10-p326-327-0027,chp-10:10_CHP-10_sec_ii:l210-222,cand-9796,"Il Patriotismo. Poemetto per 1’ingresso di Sua
+Eccellenza M.r Giorgio Pisani",2990,3066,Full title spans L219–220; OCR reads '1’ingresso' for the printed lowercase l and joins title and imprint at 'PisaniIn'.
 m-s2-ch10-p326-327-0028,chp-10:10_CHP-10_sec_ii:l210-222,cand-1942,Giorgio Pisani,3052,3066,
 m-s2-ch10-p326-327-0029,chp-10:10_CHP-10_sec_ii:l210-222,cand-9799,Stamperia Albrizziana,3101,3122,
 m-s2-ch10-p326-327-0030,chp-10:10_CHP-10_sec_ii:l210-222,cand-9448,Biblioteca Marciana,3158,3177,
@@ -28052,3 +28054,4 @@ m-chp20-p409-053,chp-20:20_CHP-20Postscript:l187-199,cand-11517,vast majority of
 m-chp20-p410-028,chp-20:20_CHP-20Postscript:l201-209,cand-11518,Manfrin collection,1525,1543,"Reuse the source-local art-collection candidate, distinct from Girolamo Manfrin the person."
 m-chp20-p410-029,chp-20:20_CHP-20Postscript:l201-209,cand-11518,his collection,1832,1846,Anaphoric reference to the Manfrin collection in the passage on tobacco wealth.
 m-chp15-p362-0087,chp-15:15_CHP-15_sec_i:l16-25,cand-10432,This,2426,2430,Demonstrative refers to the architecture of the country house named at L22; the following sentence locates the villa at S. Maria di Sala. Candidate identity with index seed cand-1007 remains for S3.
+m-s2-ch10-p326-327-0080,chp-10:10_CHP-10_sec_ii:l273-349,cand-9794,Componimenti poetici in occasione del solenne ingresso di Sua Eccellenza Missier Zorzi Pisani,8128,8221,The first pamphlet title appears in p.326 n.1; its imprint continues in the page-bottom text. The cited pamphlet was not independently consulted.

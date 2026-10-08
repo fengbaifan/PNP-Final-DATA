@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,396条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,397条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,341条，2,335条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -91,3 +91,9 @@ p.281–297的42条正文限定语已按原书注文与当前coverage修正。33
 修正32条与已完成注文/书目/书内指引不一致的限定语；补齐p.303、p.315、p.321正文与注文statement双向链接，并将p.318注4归到印本实际标记的Conti陈述。书内书目确认Antonio Conti《Prose e poesie》卷二（1756），候选仍保持分立交S3；p.325第15章指引只作为书内引用。保留p.299身份语境未决、p.310–311候选待S3、p.304注5年份差异、原引材料未独立查阅等限制。
 
 严格阶段审计通过：1,019 KU、11,497 candidates、27,396 mentions、12,263 statements、832 segments，`s2_missing=[]`、`errors=[]`；既有两条enrichment `source_ref`告警和语义审查提示未解决。结构闭合130/130。此批仅核验结构与已定位的局部语义问题，不构成全书S2交接；后续继续第十章p.326以后及全书剩余指代、证据限定和关系候选终审。
+
+## 第十章p.326–331交接复核（2026-10-08）
+
+p.326注1的首种小册子题名补入mention；第二、第三种题名跨度扩至全名，原文OCR／换行保留。p.330注1现链接至已处理的附录六p.394–395及14条相关statement，并回链正文；附录文本为书内转引，档案原件仍未独立查阅。另将10条明确关系statement纳入关系候选：官方画家、当选职务、两项委托、两项友谊、Memmo任职、名片创作、版画题铭赞誉及诗作影响；没有创建S6正式关系。
+
+本次严格阶段审计通过：1,019 KU、11,497 candidates、27,397 mentions、12,263 statements、832 segments；`s2_missing=[]`、`errors=[]`。关系候选2,341条，2,335条两端齐全，6条待证；既有两条enrichment `source_ref`告警和语义审查提示仍在。覆盖状态不等于语义交接完成。下一步继续对其余全书来源段执行断言限定、指代、书内引用和关系候选的语义终审，并专门核对本章其余脚注／图版与尾注残余；S2交接前不进入S3–S6。

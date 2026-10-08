@@ -7504,3 +7504,13 @@ p.318按印本页图将注4归至Conti“意大利知识人先驱”陈述，移
 p.304注7中“Appendix 5尚未处理”已按附录五p.391–394当前S2记录纠正；p.312注3保留已核对的Moschini p.93页码。以下实质缺口仍开放：p.299身份/语境未决；p.310–311须在S3区分候选；p.304注5所引1730年信与正文1729年争端的关系未解；p.303注3仅支持Smith订购/送往伦敦的一组《四季》，不外推其他客户或交易。
 
 写后严格阶段审计：1,019 KU、11,497 candidates、27,396 mentions、12,263 statements、832 segments；`s2_missing=[]`、`errors=[]`。既有enrichment source_ref告警仍为`enr-06678`、`enr-06937`，另有语义审查提示。`run_sync_closure.py`通过，结构健康130/130。该结果仅说明本批链接和表结构闭合；全书S2语义交接仍未完成。下一步继续第十章p.326以后及全书剩余指代、限定语和关系候选终审。
+
+## 第十章 p.326–331 提及、关系候选与附录六回链复核（2026-10-08）
+
+复核规范来源`10_CHP-10_sec_ii.md` L210–222、L273–349及`19_CHP-19Appendix.md` L157–195。p.326注1的首种小册子题名在L333明示，但候选`cand-9794`此前无mention；新增`m-s2-ch10-p326-327-0080`，精确覆盖L333题名。将`m-s2-ch10-p326-327-0024`和`...-0027`分别扩展至第二、第三种小册子的完整题名（跨L218–220）；偏移仍与规范segment原文逐字匹配，保留`peril`、`1’ingresso`及`PisaniIn`等OCR／排版边界记录，不改写S0来源，所引小册子仍未独立查阅。
+
+p.330注1 statement `st-chp10-p330-n01-memmo-sheet-appendix`此前称附录正文未处理。附录六p.394–395现已有14条S2 statements覆盖该档案笔记；在注释中登记两个规范segment、14个目标statement及正文回链`st-chp10-p330-memmo-inquisitori-and-sheet`。限定改为内部附录文本已处理、底层档案原件仍未独立查阅；附录p.394来源statement既有的反向链接保留。
+
+将10条原文明确的关系statement补标`relation_candidate=true`：Boscarati作为Pisani官方画家、Pisani当选Procuratore di San Marco、Riviera委托Boscarati、Pisani委托Giampiccoli两项委托、Biffi与Beccaria和Verri的友谊、Memmo任职Inquisitori alle Arti，以及Pisani设计名片、Giampiccoli版画题铭赞扬Pisani、诗作受Rousseau影响。它们只进入关系候选审查，不写入`relations.csv`，不表示S6关系已确认。
+
+写后`audit_tables.py --strict-stage --summary`通过：KU 1,019、candidates 11,497、mentions 27,397、statements 12,263、segments 832，`s2_missing=[]`、`errors=[]`。关系候选2,341条，2,335条端点齐全，6条仍开放待证。保留两条既存enrichment `source_ref`警告及语义审查提示；全书S2交接审计继续。
