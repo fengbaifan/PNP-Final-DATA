@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,500个候选、27,417条mentions及12,392条statement；索引候选2,934行。p.358复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,609条，2,588条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
+当前表包含1,019个KU、11,501个候选、27,417条mentions及12,392条statement；索引候选2,934行。p.359复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,609条，2,588条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；p.359复审后的全量同步闭合通过（303 passed、2 subtests passed）。机械检查不等于语义准确或实体召回完整。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -53,6 +53,8 @@ p.356现有30条statement（正文23条、注释7条）和72条mentions。将“
 p.357复审共58条statement、79条mention和36条关系候选（36/36端点齐全）。新增2个候选、4条mention、34条statement，修订18条本页statement及1条p.358跨页statement；校正印本脚注标记与数处OCR读法，修正作品/人物/地点映射，并拆分Batoni、Pannini、Tiepolo、Canaletto及脚注书信相关断言。拟议作品、请求、归属冲突和Rialto视图身份均保留原文限定；未新增KU或正式关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。本页复审后按书序转入p.359；全书S2交接仍未完成。
 
 p.358复审36条statement、52条mention及17个既有候选，无数据行增删；仅为4条statement加入5项印本校读。注5 OCR标号误作6已按页图改记；注2中的印本方括号保留。正文对绘画类型责任的表述仍限定为书信刊行后逐渐形成的观念，p.357/p.359续句及注释链接有效。全库总数不变，严格表审计`errors=[]`、`s2_missing=[]`。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`；全书S2交接仍未完成。
+
+p.359复审24条statement、49条mention，无增删；新增未具名原作候选`cand-11522`并与Tesi复制品`cand-10400`分开，修正两条mention映射和理论作品评价的主语。对照印本为五条statement记录六项OCR校读，未改S0或原始引文。注4仍是无正文标记、与注3重复的孤立注释；12条本页关系候选端点齐全。严格审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核p.360 `chp-14:14_CHP-14_intro:l139-146`；全书S2交接仍未完成。
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 

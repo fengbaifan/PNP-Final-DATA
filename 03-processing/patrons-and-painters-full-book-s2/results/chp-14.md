@@ -128,3 +128,9 @@ p.353现35条statement、75条mention和20条关系候选（19条端点齐全、
 对照印本物理页12复核正文`l118-124`和注1–6（L208–213），核对p.357/p.359续接。36条statement、52条mention及17个候选均已复核；没有新增/删除数据行。校读只记S2，未改来源与原始引文：L123 `ofltalian`→`of Italian`；注4 L211 `VIH`→`VIII`；注5 L212 OCR编号`6`→印本5、`roo`→`100`；注6 L213 `in`→`111`。页图确认注2 `[I pens]ieri`及`[ac]quedotti`中的方括号为印本内容，原样保留。
 
 语义复核维持“负责这种绘画类型”的说法是书信出版后逐渐形成的看法，不写成Algarotti发明画种；审美评价、1741年未具名佛兰德画家与其选题、建筑幻想和古典建筑结构、Pesci/Tesi合作与草图指导、致Pesci书信比喻及艺术家参考分别记录。注2手稿、注3列举的书信/手稿/画册及各处被引页码均未独立查阅。p.357 Canaletto方案的描述与p.359 L127对建筑画家、Tiepolo补画人物的续文保持跨页链接。全库严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`，全书S2未交接。
+
+## 第十四章p.359语义复审补正（2026-10-09）
+
+对照印本物理页13复核正文L127–137及注1–4（L214–217），并核对p.358/p.360跨页续接。24条statement、49条mention均保持原数；新建`cand-11522`记录Algarotti欣赏并由Tesi复制的未具名原作组，与复制品候选`cand-10400`分开。将`m-chp14-p359-0025`映射至原作组，将`m-chp14-p359-0040`“the picturesque”改映射至既有概念`cand-10384`。把理论作品评价statement的主语从Algarotti修正为作品候选`cand-10404`，并在旅行断言中明确原作和复制品均未识别、行程无日期。
+
+印本校读写入五条statement的S2 `ocr_corrections`，共六项：L128 `. add`→`add`、`Use`→`life`；L129 `confmed`→`confined`；L131 `himselff`→`himself`；L137 `picturesque.-He`→`picturesque.—He`；注2 L215 `Opéré`→`Opere`。不改源Markdown、S0或`original_quote`。p.359注3、注4所引Gabbrielli相同，但注4未见正文标记，仍为`orphan_unresolved`；不与p.360注4 Leslie互链。12条本页关系候选端点齐全；没有新增KU、statement、mention或正式关系。全库严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接未完成。下一页按书序为p.360。

@@ -7719,3 +7719,11 @@ p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全
 注1记录Blainville不喜欢这种混合、但承认有人觉得有吸引力；注2是1741年柏林信及Treviso MSS.1256的书内引文，未据此选择手稿保管机构，也未独立查阅信件。页图确认`[I pens]ieri`与`[ac]quedotti`方括号确实见于印本，故原样保留。注3记录Haskell所指Opere书信、MSS. Hercolani 207和Mauro Tesi画册导言，不表示这些材料已独立核读。注4和注5分别定位Pesci信Opere VIII第95、100页；注6定位第104、109、111页。
 
 印本校读只记S2，不改S0或`original_quote`：L123 `ofltalian`→`of Italian`；注4 L211 `VIH`→`VIII`；注5 L212 OCR注号`6`→印本5、`roo`→`100`；注6 L213 `in`→`111`。注5与p.357同一Pesci书信的跨页定位保持链接；p.357方案信件数、体裁范围及`this type`所指边界继续保留原文的不确定性。全库候选、mention和statement数量不变；严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复审p.359 `chp-14:14_CHP-14_intro:l126-137`；全书S2尚未交接。
+
+## 第十四章p.359语义复审（2026-10-09）
+
+按书序复核正文`chp-14:14_CHP-14_intro:l126-137`和注1–4（L214–217），对照`CHP-14.pdf`物理页13，并核对p.358/p.360跨页续接。源Markdown SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`、PDF SHA-256=`f871a00a63cfa5a9f229930cfd4b0d979baa0491ca4e7fe4d50404fa020a52e0`，均未变化；未改写S0。复审前本页有24条statement、49条mention；本次均未增删。新增候选`cand-11522`，专指Algarotti所欣赏、Tesi在意大利中部旅行时复制的未具名原作，和既有`cand-10400`（Tesi制作的复制品）分开；`m-chp14-p359-0025`改指原作组。`m-chp14-p359-0040`“the picturesque”从人物候选改映射至p.358已建概念`cand-10384`。将`st-chp14-p359-evaluation-of-theoretical-works`的主语改为被评价的理论著作`cand-10404`，而非Algarotti；Tesi旅行断言的候选列表同时区分原作与复制品，并保留无作品名称、无行程日期的限定。
+
+页图校读只登记在S2的五条statement，共六项，不改`original_quote`：L128 `. add`→`add`、`Use`→`life`；L129 `confmed`→`confined`；L131 `himselff`→`himself`；L137 `picturesque.-He`→`picturesque.—He`；注2 L215 `Opéré`→`Opere`。注4与注3仍是相同的Gabbrielli引注；印本p.359未找到注4正文标记，继续标记`orphan_unresolved`，不链接到p.360注4（Leslie）。p.359的12条关系候选端点均齐全；未新增KU或正式关系。此次写回前的四表恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p359-reaudit-1p7o4p5a`。
+
+全库为1,019 KU、11,501 candidates、27,417 mentions、12,392 statements、832 segments；S2关系候选2,609条，2,588条端点齐全、21条开放。全量同步闭合通过（303 passed、2 subtests passed）；全书S2交接尚未完成。下一处按书序为p.360正文`chp-14:14_CHP-14_intro:l139-146`。

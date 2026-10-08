@@ -1800,3 +1800,7 @@ p.39 `chp-2:02_CHP-2_sec_ii:l80-89`语义复核后共27条关系候选，其中5
 ## 第十四章p.358语义复审（2026-10-09）
 
 复核36条statement、52条mention和17个既有候选；没有数据行增删。对照物理页12，为4条statement记录5项S2校读：L123 `ofltalian`→`of Italian`，注4 `VIH`→`VIII`，注5编号`6`→`5`及`roo`→`100`，注6 `in`→`111`。正文关于绘画类型的归因仍按“观念逐渐形成”记录；注2印本方括号保留。p.357/p.359跨页引用及注1–6链接通过复核。当前全库11,500 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`；p.358复审后的全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核p.359 `chp-14:14_CHP-14_intro:l126-137`。
+
+## 第十四章p.359语义复审（2026-10-09）
+
+复核正文、注1–4及p.358/p.360续句。24条statement、49条mention无增删；新增未具名原作候选`cand-11522`，与Tesi制作的复制品`cand-10400`区分。修正“the works he especially admired”及“the picturesque”两条mention映射，并将理论作品评价statement的主语改为`cand-10404`。对照印本为五条statement记录六项OCR校读；S0及`original_quote`均未改。p.359注4无可见正文标记且重复注3，仍为`orphan_unresolved`，不与p.360注4混同。12条本页关系候选端点齐全；未新增KU、statement、mention或正式关系。当前全库11,501 candidates、27,417 mentions、12,392 statements；严格表审计`errors=[]`、`s2_missing=[]`，全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序复核p.360 `chp-14:14_CHP-14_intro:l139-146`；全书S2未交接。
