@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,498个候选、27,401条mentions及12,310条statement；索引候选2,934行。严格阶段审计通过，s2_missing=[]、errors=[]；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,530条，2,509条端点齐全，21条仍开放且保留待证。全库footnote_pending、footnote_text_pending、cross_reference_text_pending及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
+当前表包含1,019个KU、11,498个候选、27,402条mentions及12,314条statement；索引候选2,934行。严格阶段审计通过，s2_missing=[]、errors=[]；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,536条，2,515条端点齐全，21条仍开放且保留待证。全库footnote_pending、footnote_text_pending、cross_reference_text_pending及statement失效引用均为0。同步闭合检查已通过：303 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -40,7 +40,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 
-当前2,530条S2关系候选中，2,509条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
+当前2,536条S2关系候选中，2,515条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -70,11 +70,11 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,310条statement及27,401条mention：78,487个候选ID字段引用涉及10,111个候选，悬空0；5,848个嵌套statement引用均解析。statement与mentions共45,311个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为22条statement、31个问题、22个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个collection_type_pending=true，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计errors=[]、s2_missing=[]。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,314条statement及27,402条mention：78,505个候选ID字段引用涉及10,111个候选，悬空0；5,849个嵌套statement引用均解析。statement与mentions共45,317个segment引用、覆盖596个规范segment，悬空0；唯一带#L的行锚仍在段内。S3身份问题为23条statement、34个问题、25个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个collection_type_pending=true，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计errors=[]、s2_missing=[]。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,310条statement的顶层original_quote按各自source_file及source_line_start/end检查：12,264条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而segment_id指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,314条statement的顶层original_quote按各自source_file及source_line_start/end检查：12,268条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而segment_id指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 
@@ -180,3 +180,19 @@ p.332 note 4的“Berengo, 1957”已链接到书内唯一相符条目`st-chp21-
 新增2条statement，无新增mention/candidate；p.349当前有13条关系候选，端点全部齐全。全书S2关系候选现为2,530条，2,509条端点齐全、21条仍开放；正式relations.csv未改。写前book-statements.jsonl SHA-256=64a9c6b4e848d3d7cb883858bf577a56519f08e1fce3677e49ade040e14f902f；写后=5f22734e1c6e52917eb4047958e103470ba5411ba6471dda16e4be14126d66ae。恢复副本：%TEMP%/pnp-chp14-p349-frederick-85_zgpem。
 
 严格阶段审计通过：1,019 KU、11,498 candidates、27,401 mentions、12,310 statements、832 segments；s2_missing=[]、errors=[]。本批只完成p.349行程与授衔的语义拆分；第14章其余段和全书限定语、关系候选仍需审查，S2尚未交接。
+
+## 第十四章p.349另一次拜访Voltaire的关系候选（2026-10-08）
+
+原`st-chp14-p349-return-publish-newtonianismo`同时包含1736年底返意并在威尼斯、米兰之间停留约一年，以及“另一次短暂拜访Voltaire”和出版《Newtonianismo per le Dame》。现将行程收窄为返意与停留；出版断言沿用既有`st-chp14-p349-authored-newtonianismo`单独记录。新增`st-chp14-p349-another-short-visit-to-voltaire`，主语Algarotti（cand-0080）、宾语Voltaire（cand-2791），谓词`visited`，标为S2关系候选。它与同页先前在巴黎结识Voltaire并留居Cirey的statement分开；后一次拜访没有确切日期或地点，出版地点也不由“where”推定为米兰或威尼斯。
+
+第349段的第二处Voltaire mention已存在（`m-chp14-p349-0007`，字符479:487），故未新增mention或候选。新增1条statement；p.349关系候选14条、14条端点齐全；全书关系候选2,531条、2,510条端点齐全、21条开放。严格阶段审计：1,019 KU、11,498 candidates、27,401 mentions、12,311 statements、832 segments；`s2_missing=[]`、`errors=[]`。原文行号与引文逐字核对通过；正式`relations.csv`未改。全书S2交接继续。
+
+## 第十四章p.350正文及注1关系语义复核（2026-10-08）
+
+将原`st-chp14-p350-youth-status-and-associations`拆为年龄/著作出版状态、Voltaire友谊与伦敦/巴黎社会成功、在威尼斯的财富/声望/关系网状态三项。Voltaire友谊依据“had already made friends with Voltaire”单列为关系候选；不与p.349记录的再次短访或Cirey留居混为一事。补录mention `m-chp14-p350-0069`，字符2509:2521，指向“royal master”所指的Augustus候选cand-0151；与p.349 cand-0148留给S3对齐。
+
+对`st-chp14-p350-proposed-living-artist-commissions`补回Haskell所说的“这并非皇家主人所见”的视角限定，并明确其偏好内容未载；“皇家主人”指向前句Augustus of Saxony。将`st-chp14-p350-followed-historians`标为Algarotti—Muratori的方法承袭关系候选；将`st-chp14-p350-gallery-represent-history-and-schools`标为画廊内容方案关系候选。`st-chp14-p350-rediscovery-of-primitives`改为无人物主语的历史判断，并保留“虽非在Algarotti本人身上发生”的排除限定，不把该现象归因于他个人。
+
+注1定位到档案候选`cand-10265`（1741-09-05致Bonomo的信，Treviso MSS. 1256）。将注1statement改为letter→Bonomo的`addressed_to`关系候选；新增正文statement记录该信由Algarotti执笔，并通过既有footnote ID连到注1。原件及馆藏目录未独立查阅。另在gallery-plan statement上登记3组S3身份问题：`cand-0056/0071/0072/0075`的Algarotti候选、`cand-0148/0151`的Augustus候选，以及`cand-9091/10222`的Dresden gallery候选；S2保持分立。
+
+新增3条statement及1条mention，不新增候选。p.350共有9条关系候选，端点9/9齐全；全书关系候选2,536条、端点齐全2,515条、21条开放。严格阶段审计：1,019 KU、11,498 candidates、27,402 mentions、12,314 statements、832 segments；`s2_missing=[]`、`errors=[]`。全书S2交接仍在进行。

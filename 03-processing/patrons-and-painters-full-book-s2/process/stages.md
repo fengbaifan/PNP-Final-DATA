@@ -7630,3 +7630,19 @@ mentions.csv新增m-chp14-p348-0111，源段chp-14:14_CHP-14_intro:l14-21中字�
 14_CHP-14_intro.md L30原statement st-chp14-p349-travel-and-frederick-court把旅行列表、settling at court和授衔并为一个claim。拆成：1) France/England/Russia itinerary statement；2) Algarotti settled at Frederick’s court，保留其既有关系候选端点；3) Frederick于1740年12月授予Algarotti Count头衔，新增honoured_by关系候选，方向为受荣人cand-0080→授予者cand-1079。只将December 1740用于授衔，不推定入宫时间；未引用或核验授衔文书。旅行目的地保留在statement的候选提及中，不判作三国居住或任职关系。
 
 新增2条statement，没有新增mention/candidate。p.349关系候选13条、端点完整13条；全书关系候选2,530条、2,509条完整、21条开放。写前/写后statement表SHA-256及恢复副本见第十四章结果。严格阶段审计：1,019 KU、11,498 candidates、27,401 mentions、12,310 statements、832 segments；s2_missing=[]、errors=[]。后续继续第14章及全书关系候选、限定语和指代终审，不进入S3–S6。
+
+## S2 p.349另一次拜访Voltaire拆分（2026-10-08）
+
+原`st-chp14-p349-return-publish-newtonianismo`把另一次短暂拜访Voltaire、1736年底返意、在威尼斯与米兰间停留约一年及出版《Newtonianismo per le Dame》合在一起。将该statement收窄为行程，范围仅到在两城之间停留；出版继续由既有`st-chp14-p349-authored-newtonianismo`记录。新增`st-chp14-p349-another-short-visit-to-voltaire`，将“After another short visit to Voltaire”单独记为Algarotti对Voltaire的一次短访关系候选，与早先相识并留居Cirey分开。后一次拜访的确切日期和地点未说明；出版句的“where”不据此解析为米兰或威尼斯。
+
+第二处Voltaire mention已由`m-chp14-p349-0007`（字符479:487）精确覆盖；不新增mention、候选或正式关系。p.349关系候选由13增至14，端点14/14齐全；全书关系候选2,531条、端点齐全2,510条、开放21条。statement总数12,311，mentions 27,401。原文行号25–26及两个新引文均逐字核对。写前`book-statements.jsonl` SHA-256=`5f22734e1c6e52917eb4047958e103470ba5411ba6471dda16e4be14126d66ae`；写后=`32bfd3bef3dce32fb6eb513f4037284cdbf38142a86b8e051f53fcdc4ea99c84`；恢复副本：`%TEMP%/pnp-chp14-p349-voltaire-0ohaxezl/book-statements.jsonl.before`。
+
+## S2 p.350正文与注1关系复核（2026-10-08）
+
+按原文分开记录Algarotti 25岁且《Newtonianismo》尚未出版、他此前已与Voltaire成为朋友并在伦敦/巴黎社会成功、以及他在1737年威尼斯尚不富裕/知名且未形成后来有用的强大关系网。新增`st-chp14-p350-made-friends-with-voltaire`关系候选；既有“没有证据显示他在1737年威尼斯与在世艺术家有特别接触”的否定限定保持独立，不与此前Voltaire往来冲突。
+
+`royal master`原先没有对象mention。按拼接段偏移2509:2521新增`m-chp14-p350-0069`→cand-0151，并补回Haskell关于皇家主人对委托方案另有看法的限定，不推断其偏好。对“first rediscovery of primitives”恢复“not in Algarotti himself”的限定并取消会将历史现象误锚到Algarotti的statement主语。将Muratori方法承袭和Dresden gallery预期内容分别标为关系候选。gallery-plan行新增3组S3身份问题：Algarotti cand-0056/0071/0072/0075、Augustus cand-0148/0151、Dresden gallery cand-9091/10222；保持S2分立。
+
+p.350 note 1对应的档案候选cand-10265为1741-09-05致Bonomo、Treviso MSS. 1256。把注1记录为letter `addressed_to` Bonomo，并新增正文主语指向Algarotti的`authored_by`候选；两者均通过具体脚注ID互链。未查阅原件或目录。
+
+本批新增3条statement、1条mention、0个candidate；另有2条既有statement新增关系候选标记，注1记录与作者statement共使关系候选净增5。p.350关系候选9条、端点9/9齐全；全书关系候选2,536条、端点齐全2,515条、开放21条。新增3组S3身份问题后，全书`candidate_identity_questions`为23条statement、34个问题、25个候选ID。严格审计：1,019 KU、11,498 candidates、27,402 mentions、12,314 statements、832 segments；`s2_missing=[]`、`errors=[]`。quote复核为12,268条逐字匹配、46条空白归一匹配、0条未匹配。写前表SHA-256和恢复副本见工具记录；写后`book-statements.jsonl` SHA-256=`be1b395307bb0868eeea390308e0bdff360800e1a213676d84061925a232af38`，`mentions.csv` SHA-256=`e9b0909d16300d7bf3d62b185fdceb15be2ad63db8f648409ee2c88c4676196f`；恢复副本：`%TEMP%/pnp-chp14-p350-relationships-f7h2vuws`。

@@ -57,3 +57,17 @@
 原st-chp14-p349-travel-and-frederick-court把Algarotti的旅行、在Frederick the Great宫廷安置及1740年12月授爵合在一条。现拆为行程statement、settled_at_court_of关系候选，以及受控方向honoured_by的授衔候选；后者主语为Algarotti、宾语为Frederick，日期仅属于授衔。原文未给出进入宫廷的确切日期或授衔文书，不作延伸推断。
 
 p.349现有13条关系候选，端点全齐；该段旅行目的地仍作为有来源的行程事实记录，不推断每处的居住/任职。全书关系候选2,530条、完整端点2,509条、开放21条。新增2条statement、无新增mention/candidate或正式关系。严格阶段审计errors=[]、s2_missing=[]。其余第14章及全书S2语义审计继续。
+
+## 第十四章p.349另一次拜访Voltaire（2026-10-08）
+
+原复合statement `st-chp14-p349-return-publish-newtonianismo`现只记录Algarotti于1736年底返意、其后约一年在威尼斯与米兰之间停留；Newtonianismo per le Dame的出版仍由既有statement单独记录。新增`st-chp14-p349-another-short-visit-to-voltaire`，记录其在返意前又短暂拜访Voltaire。它与先前的相识及Cirey留居分开，后一次拜访的日期和地点未给出。现有mention `m-chp14-p349-0007`覆盖第二处Voltaire姓名，无需新增mention；不将出版地点指定为米兰或威尼斯。
+
+p.349现有14条S2关系候选，端点14/14齐全；全书关系候选2,531条、端点齐全2,510条、开放21条。statement总数12,311；严格审计`errors=[]`、`s2_missing=[]`；未新增候选、mention或正式关系。第14章和全书S2语义审查继续。
+
+## 第十四章p.350正文与注1关系复核（2026-10-08）
+
+将原复合状态statement拆为年龄/著作出版状态、与Voltaire已成朋友及在伦敦/巴黎的社会成功、在威尼斯的财富/声望/关系网状态。后者均归于Haskell对1737年威尼斯期间的描述；Voltaire友谊另列关系候选，不等同于p.349再次短访或Cirey留居。补录`royal master` mention `m-chp14-p350-0069`（2509:2521）指向前文点明的Augustus cand-0151，并保留与p.349 cand-0148的S3身份问题。
+
+补回Haskell认为皇家主人对画廊委托方案另有看法的限定；其具体偏好未说明。将Algarotti对Muratori等史家方法的承袭、画廊应代表绘画史与各画派的方案分别列为关系候选。修订“first rediscovery of the primitives” claim，明确原文排除Algarotti本人，不把后续原始主义收藏运动归因于他个人。
+
+p.350注1识别出`cand-10265`档案对象：致Bonomo、1741-09-05、Treviso MSS. 1256。注1关系记录为信件`addressed_to` Bonomo；另以正文主体`he`和脚注连接记录Algarotti的`authored_by`关系。原件/目录未查。新增3条statement、1条mention、0个candidate；新登记3组同名/同机构身份问题供S3对齐。p.350关系候选9条、端点全齐；全书2,536条、2,515条端点齐全、21条开放。严格审计`errors=[]`、`s2_missing=[]`；全书语义复核继续。
