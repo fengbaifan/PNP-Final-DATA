@@ -27735,3 +27735,17 @@ m-s2-chp2-surface-2c7200d4adcfe9da,chp-2:02_CHP-2_sec_vii:l21-30,cand-2709,Velas
 m-s2-chp2-surface-db426204019481e6,chp-2:02_CHP-2_sec_vii:l38-54,cand-3126,Rome,843,847,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
 m-s2-chp2-surface-a9a1dc82a6c94ec8,chp-2:02_CHP-2_sec_vii:l5-19,cand-0840,subject,2770,2777,The commemorative subject selected by the cardinals from the Anabasis.
 m-s2-chp2-surface-513ad740ddc42833,chp-2:02_CHP-2_sec_iv:l190-245,cand-4291,Casino Rospigliosi,6105,6123,Proper place name in Haskell's p.57 footnote; locally identifies the family palace in the same Guido Reni Aurora discussion. Cross-chapter identity alignment remains open for S3.
+m-s2-chp3-surface-acb772a3471bef3b,chp-3:03_CHP-3_sec_ii:l19-31,cand-0840,subject,637,644,Art-historical subject-matter innovation; maps to the indexed patronal subject concept.
+m-s2-chp3-surface-63666aa72ed2899c,chp-3:03_CHP-3_sec_ii:l33-38,cand-0840,subject,502,509,The fresco subject is explicitly discussed as sermon-like subject-matter.
+m-s2-chp3-surface-e051ad697142e9d3,chp-3:03_CHP-3_sec_iv:l130-139,cand-0840,subject,3159,3166,Subject-matter and treatment are compared with earlier work.
+m-s2-chp3-surface-b3ee9b623f164e4d,chp-3:03_CHP-3_sec_iv:l189-243,cand-0840,subject,490,497,The selected subject is compared with the one chosen for Carlone.
+m-s2-chp3-surface-bc15ba5de5bae625,chp-3:03_CHP-3_sec_iv:l58-67,cand-0840,subject,2431,2438,A different artistic subject is explicitly identified.
+m-s2-chp3-surface-f9ac9f72e91ecb2b,chp-3:03_CHP-3_sec_iv:l75-81,cand-0840,subject,209,216,The Adoration of the Lamb is discussed as a revived subject.
+m-s2-chp3-surface-6335a8b23f26b2bd,chp-3:03_CHP-3_sec_iv:l152-163,cand-1321,Jesuits,3294,3301,Named religious institution in the historical account.
+m-s2-chp3-surface-3b91c94eac512006,chp-3:03_CHP-3_sec_iv:l165-177,cand-1321,Jesuits,357,364,Named religious institution in the historical account.
+m-s2-chp3-surface-98038f59437a12a5,chp-3:03_CHP-3_sec_iv:l179-187,cand-1321,Jesuits,1326,1333,Named religious institution in the historical account.
+m-s2-chp3-surface-332afcccee1fa887,chp-3:03_CHP-3_sec_iv:l189-243,cand-1321,Jesuits,3750,3757,Named religious institution in the debate footnote.
+m-s2-chp3-surface-961e7fd26943abd3,chp-3:03_CHP-3_sec_iv:l189-243,cand-1321,Jesuits,4424,4431,Named religious institution in the debate footnote.
+m-s2-chp3-surface-3190c700384bf7ac,chp-3:03_CHP-3_sec_iv:l118-128,cand-3571,canvas,2721,2727,"Canvas is the material of theatrical apparatus in this passage, not a claim about painting support."
+m-s2-chp3-surface-d05bd089cc32e3cf,chp-3:03_CHP-3_sec_iv:l189-243,cand-5478,drawings,1895,1903,Specific drawings of The Blood of Christ associated with Bernini/Gaulli programmes; retain the existing grouped work candidate.
+m-s2-chp3-surface-7f9c010f62c97321,chp-3:03_CHP-3_sec_iv:l8-14,cand-3126,Rome,3010,3014,The prompt collides with unrelated indexed phrases; record only the exact city span.
