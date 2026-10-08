@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,498个候选、27,413条mentions及12,357条statement；索引候选2,934行。p.353复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,583条，2,562条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；机械检查不等于语义准确或实体召回完整。p.353复审后的全量同步闭合通过：303 passed、2 subtests passed。
+当前表包含1,019个KU、11,498个候选、27,413条mentions及12,357条statement；索引候选2,934行。p.355复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,583条，2,562条端点齐全，21条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`；机械检查不等于语义准确或实体召回完整。p.355复审后的全量同步闭合通过（303 passed、2 subtests passed）。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -42,7 +42,11 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 p.352首轮21条statement和73条mentions经复审后调整为31条statement、76条mentions。改正Tiepolo人物与作品候选混淆、Algarotti跨页指代及本页人称映射；补全画作作者、组别、原定受赠者、信件端点、Smith权利放弃、两版本位置等断言，拆开注2中Morassi的归属说法、Haskell的可能性与证据限制。18条关系候选端点齐全；没有新增KU、候选或正式关系。Brühl只作为计划拟送对象，未断言已寄出；身份及引注差异留待S3。
 
-p.353首轮24条statement和74条mentions经复审后调整为35条statement、75条mention。修正Tiepolo人物与《Cleopatra宴会》作品候选混淆，处理错指画作的“this”、Algarotti代词及Brühl专题索引子目映射；分拆两幅Brühl作品的作者、送达和注释所载位置关系，并记录未定年信件的作者/收件人/携带版画计划。两幅画的具体Brühl装饰母题仍未配对；一条开放端点关系保留待证。p.353现20条关系候选，19条端点齐全；无新增候选、KU或正式关系。内部书目与注释、版图题注及相邻页statement均已互链。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核已有首轮记录的p.354 `chp-14:14_CHP-14_intro:l73-83`；全书S2交接仍未完成。
+p.353首轮24条statement和74条mentions经复审后调整为35条statement、75条mention。修正Tiepolo人物与《Cleopatra宴会》作品候选混淆，处理错指画作的“this”、Algarotti代词及Brühl专题索引子目映射；分拆两幅Brühl作品的作者、送达和注释所载位置关系，并记录未定年信件的作者/收件人/携带版画计划。两幅画的具体Brühl装饰母题仍未配对；一条开放端点关系保留待证。p.353现20条关系候选，19条端点齐全；无新增候选、KU或正式关系。内部书目与注释、版图题注及相邻页statement均已互链。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。
+
+p.354首轮27条statement和71条mentions经复审，纠正注5 OCR页码`296`为印本`206`，并补齐注2–4与第21章对应书目statement的双向链接。p.354/p.355跨页句的断言范围和互链同步校正；没有新增知识元、候选、statement、mention或关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。
+
+p.355首轮27条statement和87条mentions经复审，14条关系候选端点全齐。注2 Pallucchini 1956定位与Piazzetta书目条目双向链接；注3 Levey 1960及Selva可能对应的目录条目建立双向链接，Selva匹配留待S3确认；并连通与p.354同一Levey引注。正文至p.356的跨页句和注释链接保持有效；未新增或删除实体、statement、mention或关系。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项按书序复核已有首轮记录的p.356 `chp-14:14_CHP-14_intro:l97-105`；全书S2交接仍未完成。
 
 ### 21条标量端点未齐的关系候选（交S3/S6）
 

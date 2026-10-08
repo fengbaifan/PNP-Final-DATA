@@ -7677,3 +7677,19 @@ p.352现有18条S2关系候选，标量端点18/18齐全；不新增KU、候选�
 另将p.352未完的“more awestruck and”与p.353“more disciplined”互链；p.353 L71的“As in The”与p.354续句互链。注1与第21章书目中题名、年份及页码相同的Levey条目`st-chp21-bib-l658-699-entry-14`建立双向链接；Plate 68b注释与前言版图题注回链。写入11条statement和1条mention；p.353现35条statement、75条mention。关系候选20条，其中19条端点完整、1条保持上述未决端点；没有新增KU、候选或S6正式关系。
 
 受控脚本`chp14_p353_s2_reaudit.py`默认dry-run，校验来源/PDF和两张表的写前哈希、引用、mention跨度、候选外键及关系端点；预览后apply并保存恢复副本`%TEMP%/pnp-chp14-p353-reaudit-1yt6vi0y`。写后表SHA-256：`book-statements.jsonl`=`12fc18d9139dda4c4c39ff7a11af22c82a81a5e52552a2ea222895d6bc03372c`，`mentions.csv`=`cff17d5b14c56af9173315e6c0c3a357a2596934b0839d72535b5c82a55b8195`。严格表审计：1,019 KU、11,498候选、27,413 mentions、12,357 statements、832 segments，`s2_missing=[]`、`errors=[]`；两条既存enrichment来源警告与通用语义审查提示仍在。下一处按书序复核已有首轮记录的p.354 `chp-14:14_CHP-14_intro:l73-83`；全书S2未交接。
+
+## 第十四章p.354语义复审补正（2026-10-09）
+
+复审已有首轮记录的正文`chp-14:14_CHP-14_intro:l73-83`及注1–5（L186–190），对照`CHP-14.pdf`物理页8，并核对p.353/p.355续句和第21章书目。源Markdown及PDF哈希未变，未改写S0。再次核对正文关于《克娄巴特拉宴会》古典构图、两幅布吕尔委托画、为Algarotti私人委托的《狄安娜沐浴》、Boucher风格、Newton光学与色彩观、双方影响、Algarotti的东方人物素描/蚀刻，以及其对Tiepolo的古典性与幻想性的双重评价；保留作者归因和推断语气，不把推测扩成直接史实。
+
+校正注5页码：Markdown OCR和原始`original_quote`均保留`p.296`；物理页8图像印为`Opere, III, p.206`，故statement、候选`cand-10306`的规范标签及S2 OCR更正改为206。另将p.354 L83断言限定为本页“不断尝试调和Algarotti对Tiepolo的看法与新古典要求”；两人未及争论进入关键阶段的后续只记在p.355 statement。p.354与p.355续句statement建立双向链接，避免把p.355内容当作p.354引文支持。
+
+将p.354注2 Levey 1960、注3 Watson 1955、注4 Rava 1913分别与第21章匹配书目记录建立双向statement链接（第427、440、435页）。这些是书内书目身份和引用定位，不代表独立查阅文章或引文。对应正文脚注链接保持有效。p.354现有27条statement、71条mention；11条关系候选均有标量端点。本次未新增或删除statement、mention、candidate、KU或正式关系；未改原始来源。全库严格表审计`errors=[]`、`s2_missing=[]`，仅保留既有两条enrichment `source_ref`警告及语义审查提示。修订后全量同步闭合通过：303 passed、2 subtests passed。下一处按书序复核已有首轮记录的p.355 `chp-14:14_CHP-14_intro:l85-95`；全书S2仍未交接。
+
+## 第十四章p.355语义复审补正（2026-10-09）
+
+复审已有首轮记录的正文`chp-14:14_CHP-14_intro:l85-95`和注1–3（L191–193），对照`CHP-14.pdf`物理页9，并核对p.354/p.356续句。Markdown与PDF哈希未变，未改S0。重核Algarotti的威尼斯传统与国际主义张力、Piazzetta为Augustus创作的《Caesar and the Corsairs of Cilicia》、家族绘画收藏及其寄往Dresden的画作/草图、Tiepolo在该收藏中的约13幅画和116幅素描，以及Haskell对Canaletto联系与代办购画所作的“无证据/似乎”限定；未把证据缺失改写为确定的未发生。
+
+核对注2所列两幅Piazzetta画与两处地点时，仍不作逐件地点配对；Pallucchini 1956页41短引与第21章`Piazzetta`（1956）条目建立双向书内链接，原著未独立查阅。注3的Levey 1960短引连至第21章完整书目条目，并与p.354注2同一引注互链；G. A. Selva短引连至第21章方括号目录条目，但该目录是否即所指文献仍列为S3确认问题。来源不支持的家庭收藏同一性继续待决。p.355末句“still intensively”与p.356的雇主及Bonomo注1保持跨页链接；p.355注1（Michelessi）与p.356注1（Bonomo）虽编号相同，记录未混并。
+
+p.355现有27条statement、87条mention和14条关系候选，端点14/14齐全。本次只补书目及statement交叉引用，没有增删statement、mention、candidate、KU或正式关系。全库严格表审计`errors=[]`、`s2_missing=[]`；本轮全量同步闭合通过（303 passed、2 subtests passed）。下一处按书序复核已有首轮记录的p.356 `chp-14:14_CHP-14_intro:l97-105`；全书S2仍未交接。
