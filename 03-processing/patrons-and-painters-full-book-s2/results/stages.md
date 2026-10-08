@@ -1719,3 +1719,7 @@ Enggass 1957引文已与p.421书目entry 17及候选cand-5243互链；仅书内�
 ## 第十章p.314–324正文脚注限定语校正（2026-10-08）
 
 26条正文限定语已与已完成注文段状态一致；25条原有`footnote_statement_ids`和1条嵌套`citation_statement_ids`均解析到现存注文statement，合计41条引用ID。原引文未被表述为独立查阅，statement/候选/mention计数不变。
+
+## 第十章p.281–297脚注限定语状态复核（2026-10-08）
+
+校正42条正文statement中与已完成注文迁移不一致的限定语；33条现有注文链接含79个均可解析的statement ID，另9条为纯书目/页码定位注。仅改`qualification`，保留引文未查阅、身份/版本不明及原书不确定性；候选、mentions、statement和正式关系均未增删。严格审计`errors=[]`，结构闭合130/130。详见[过程记录](../process/stages.md)与[全书S2当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。全书S2交接审计仍未完成。

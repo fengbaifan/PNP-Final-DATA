@@ -78,3 +78,9 @@ p.251注1“See p.268, note 5”已链接到`st-chp9-p268-n05`及其来源段L89
 ## 第十章p.314–324脚注状态措辞复核（2026-10-08）
 
 在完整的注释coverage L274–349中，p.314–324有26条正文限定语仍显示脚注待迁移/待链接；现已按实际注文L288–326及其statement外键修正。25条沿用正文已有`footnote_statement_ids`，另1条使用嵌套`citation_statement_ids`，共41个目标ID全部存在。只校正状态表述；引文未被视为独立查阅，断言、候选、mentions、statement数量与关系判断未变。全书S2交接审计仍继续。
+
+## 第十章p.281–297脚注状态限定语复核（2026-10-08）
+
+p.281–297的42条正文限定语已按原书注文与当前coverage修正。33条已有注文statement ID，共79个且均解析；另外9条对应纯书目/页码定位注，不含独立注文断言。注释coverage `chp-10:10_CHP-10_intro:l491-634` 为reviewed/complete，42条正文的`footnote_text_pending`均为false。只更新限定语中的过时迁移状态，未改事实、候选、mentions、statement ID、链接字段或正式关系；原引文未独立查阅、未决身份和作品范围仍明确保留。
+
+严格阶段审计通过（1,019 KU、11,497 candidates、27,396 mentions、12,263 statements、832 segments，`s2_missing=[]`、`errors=[]`）；结构闭合健康130/130。审计器仍报告既有`enr-06678`、`enr-06937`两条enrichment `source_ref`告警及语义审查提示。全书S2交接仍未完成；下一步核对第十章p.298–313及余下注文状态限定，再继续全书指代、证据限定和关系候选终审。

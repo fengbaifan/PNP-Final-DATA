@@ -7485,3 +7485,11 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 ## 第十章p.314–324正文脚注状态措辞复核（2026-10-08）
 
 第十章`10_CHP-10_sec_ii`合并注释coverage L274–349为reviewed/complete。对照其中L288–326的注文statement，核对正文26条仍称“awaits/pending”的限定语：25条已有`footnote_refs`及`footnote_statement_ids`指向对应注文，另1条`st-chp10-p324-gozzi-praised-longhi-realism`通过嵌套`citation_statement_ids`链接注2。41个目标statement ID均存在，来源行和印本注号吻合。仅将26条过时状态措辞改为已转录/已链接，并保留未独立查阅等证据限定；未改断言、候选、mentions、statement数量或关系判断，也未重复添加链接字段。
+
+## 第十章p.281–297正文脚注状态限定语复核（2026-10-08）
+
+针对第十章p.281–297共42条正文statement，按原始脚注行L518–574与statement注释字段逐项核对。对应注文所在规范segment `chp-10:10_CHP-10_intro:l491-634` 的coverage为reviewed/complete，42条正文均为`footnote_text_pending=false`且保有注文来源行。33条现有`footnote_note_statement_ids`共79个不同ID，全部解析到现存statement；其余9条对应的脚注行是书目/页码定位注（p.281 n.1 L518；p.283 n.1–2 L523；p.284 n.5 L527；p.285 n.3–4 L530–531；p.286 n.3 L534；p.287 n.1 L535、n.5 L538），不含独立注文断言，因此无注文statement ID。
+
+仅将42条`qualifiers.qualification`中的旧“待迁移/待链接”措辞改为与当前转录、链接状态一致的描述。保留引文未独立查阅、来源题名/人物身份未决、作品版本不明、原文自身对收藏归属的疑问及限定语；没有改动候选、mentions、statement ID、statement事实、脚注映射字段或正式关系。
+
+写后扫描这42条无残留迁移待办词，79个注文ID均存在。严格阶段审计通过：1,019 KU、11,497 candidates、27,396 mentions、12,263 statements、832 segments，`s2_missing=[]`、`errors=[]`；既有两条enrichment `source_ref`告警未变。`run_sync_closure.py`结构健康为130/130；这两项只证明结构闭合，不替代全书语义终审。下一步检查第十章p.298–313及仍有旧状态的后续注文段。
