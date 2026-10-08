@@ -70,7 +70,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ### 递归引用完整性
 
-基于当前表复核：12,306条statements及mentions中78,640个候选ID引用涉及10,115个候选，悬空0；5,713个typed statement引用均解析。statement与mentions共42,080个segment引用、覆盖596个规范segment，悬空0；唯一带`#L`的行锚在段内。S3身份问题为21条statement、30个问题、21个候选ID，引用均存在；真值未决指代状态和`*_pending=true`均为0。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+基于当前表复核：12,306条statements及mentions中78,640个候选ID引用涉及10,115个候选，悬空0；5,713个typed statement引用均解析。statement与mentions共42,080个segment引用、覆盖596个规范segment，悬空0；唯一带`#L`的行锚在段内。S3身份问题为22条statement、31个问题、22个候选ID，引用均存在；未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
@@ -156,3 +156,9 @@ p.38明确的付款、壁画委托/分配、艺术家引介/赞助圈、摹本�
 完成第二章正文 l118-125（印刷p.41／PDF物理第26页）的语义复核，并回核其注释L185–190。正文由29条statement细化为35条，新增6条断言、1个“papal land and sea forces”机构候选和1条精确mention；补标28条关系候选，其中3条因比较性或一般性纪念物没有具体作品端点而开放。脚注1–6逐项与正文双向连接，注6涉及的两幅Claude Seaports保持机构对应未定。S2表中不写正式关系。
 
 截至p.43复核，写后严格审计为1,019 KU、11,498 candidates、27,398 mentions、12,300 statements、832 segments；全书S2关系候选2,512条，其中2,491条具两端点、21条开放；`s2_missing=[]`、`errors=[]`。两条既存enrichment来源定位警告及语义复核提示仍在。p.42为34条statement、62条mention、26条关系候选（3条开放）；p.43为29条statement、38条mention、25条关系候选（1条开放）。未生成正式S6边。下一步复核已迁移的`chp-2:02_CHP-2_sec_ii:l147-193`注释段。
+
+## 第十三章p.332–345脚注限定语与书目指引复核（2026-10-08）
+
+第十三章合并注释段`chp-13:13_CHP-13_intro:l179-251`为reviewed/complete。对65条statement的过时注释状态、无对应脚注标记的限定语及图版年份冲突作定点修订；不改statement、mention、candidate或coverage数量。原引的期刊、书籍、信件、档案与手稿仍标为未独立查阅。澄清p.336 note 6不支持Zais送展断言、p.337 note 5不支持Caime句、p.338 note 1只链接Goldoni的扉页方案；p.342 note 5的标号落在收藏句末，不据此补出奖章或宝石的来源细节。Plate 57b题注的1761与p.338 note 1所引volume II (1762)作为未决年份差异保留。
+
+p.332 note 4的“Berengo, 1957”已链接到书内唯一相符条目`st-chp21-bib-l129-163-entry-17`；note候选`cand-10136`与书目候选`cand-10134`仍分立，身份比较交S3。S3身份问题更新为22条statement、31个问题、22个候选ID。严格阶段审计仍为`errors=[]`、`s2_missing=[]`；全书语义限定和关系候选终审继续，未进入S3。

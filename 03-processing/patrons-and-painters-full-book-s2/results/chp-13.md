@@ -54,3 +54,11 @@
 - 恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp13-surface-prompts-20261008-120309。
 
 候选提示裁决不取代全书S2交接审计中的未登记实体、重复副本、跨页注释、指代、限定语、外键与全部关系候选复核。
+
+## 第十三章p.332–345脚注限定语与书目指引复核（2026-10-08）
+
+对65条statement的`qualifiers.qualification`作定点修订：移除已迁移注释仍被称为pending/awaiting-processing的文字，纠正没有对应印本脚注标记的6条正文限定与1条Berengo脚注自身描述，另将p.334仍称“待注释处理”的3条限定更新为当前注释内容。脚注标号的实际范围据印本页图和已迁移注释statement复核；外部引文、档案、手稿未被误写为独立核验。
+
+重点范围限制：p.336 note 6只对应Albrizzi收藏/藏书语境，不指向两幅未名Zais展览画；p.337 note 5位于Officium插图句后，不回挂Caime委托句；p.338 note 1只支持Goldoni扉页方案，不支持其后逐项列举的插图情节；p.341 Tessin爱好引文与后续收藏断言分别处理；p.343 note 4只对“首次发表Tiepolo蚀刻”提供出版日期可能性，不扩展至整句的古代趣味判断。p.342 note 5虽标在长句末，限定语指出该注未给旅行所获奖章与宝石逐件来源。Plate 57b caption的1761与p.338 note 1所引volume II (1762)仍保留为书内年份差异，注释目前关联的是Goldoni方案而非caption。
+
+p.332 note 4缩写引文“Berengo, 1957”与书内书目唯一同年条目相符，已通过`linked_bibliography_statement_ids`连至`st-chp21-bib-l129-163-entry-17`；`cand-10136`与书目候选`cand-10134`保持分立并记录S3身份问题。statement表由12,306行增删0，候选、mentions、coverage及正式关系均未改变。恢复副本：`%TEMP%\pnp-chp13-note-qualifier-9zglist2\book-statements.jsonl.before`；改前SHA-256=`31ee375c51dde059413f63892ffe375e8a713e7cdff5e4c4373b99226c52f3f4`，改后=`27cef89e4340b50912d859ff505ec05b88056e83e4c5aab37bebb81c5ebefb2c`。写后`audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既有`source_ref`警告仍在。全书S2交接仍进行中。
