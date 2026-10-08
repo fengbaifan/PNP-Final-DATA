@@ -7659,3 +7659,11 @@ p.350 note 1对应的档案候选cand-10265为1741-09-05致Bonomo、Treviso MSS.
 注2信件候选`cand-10274`新增`authored_by` Algarotti及`addressed_to` Mariette两条S2关系候选；注2所引原信及Opere版本未独立查阅。把Ferrari短引注`cand-10275`与书目`cand-9460`、以及此信与第十章`cand-9869`分别列为S3身份问题；Posse条目链接至本书书目同候选`cand-10276`。此前首轮日志把`after.he`写作OCR纠正；页图显示句点见于印本，现撤销该OCR判断并按印本异常保留S0原文。另记录`modem`→`modern`、`Ercole Lefli`→`Ercole Lelli`、`Piazzctta`→`Piazzetta`及`soggetti.`→`soggetti`等校读依据。
 
 p.351现有28条S2关系候选，28/28具标量端点；没有写入S6正式关系。全书严格表审计：1,019 KU、11,498候选、27,409 mentions、12,336 statements、832 segments，`errors=[]`、`s2_missing=[]`。关系候选2,562条、2,541条端点齐全、21条开放；顶层原引文12,290条逐字匹配、46条空白归一匹配、未匹配0。受控写回脚本`chp14_p351_s2_reaudit.py`先dry-run再apply；写后`book-statements.jsonl` SHA-256=`8f8137a3c8544b77cae3ed11797ea3cccab99779e2968af7bc1588341c31eb2f`，`mentions.csv` SHA-256=`f29153aa995e9962804b1bbe33f5e9652810d8ac7b6ce49c6063f27ece677723`。其余第14章与全书S2审计继续，下一处按书序复审p.352。
+
+## 第十四章p.352语义复审补正（2026-10-09）
+
+回看首轮已迁移的正文段`chp-14:14_CHP-14_intro:l55-61`与注释段`l168-220`，对照`CHP-14.pdf`物理第6页；原始Markdown与PDF哈希未变，未改写S0。纠正人物/作品候选混淆：Tiepolo人物用`cand-2572`，`cand-2577`保留为作品题名候选；将跨p.351的`him/his`回指到Algarotti，并修正本段Tiepolo/Algarotti三处代词。移除无法用单一端点表达的“the two men”mention，补录King的语境称谓、Smith的“another patron”、Cleopatra的“her”及Morassi书目页码mention。身份和作品版本的交叉候选保持分立，列为S3身份问题。
+
+新增10条statement，现有31条；mention净增3条，现有76条。拆分Tiepolo大幅画的作者、与五幅组的边界、原定受赠者及Algarotti的订画关系；记录Villa Cordellina装饰、1743年书信作者/收件人、Smith放弃权利、两件版本的来源限定及Cognacq-Jay模型画所示构想。将“拟寄给Brühl”限定为计划，不断言收件或完成转移；注2分别保留Morassi归属的长期友谊说法、Haskell所说的1737年米兰相遇可能性及“1743年前缺乏实际证据”，不把证据缺失改成未接触。注1书目页码差异和注3书信跨章同一性均交S3，不在S2合并。
+
+p.352现有18条S2关系候选，标量端点18/18齐全；不新增KU、候选或S6正式关系。写后严格表审计：1,019 KU、11,498候选、27,412 mentions、12,346 statements、832 segments，`s2_missing=[]`、`errors=[]`；仍有两条既存enrichment `source_ref`警告及通用语义审查提示。p.352局部引文、mention跨度、候选外键及statement引用均通过定向校验。受控脚本`chp14_p352_s2_reaudit.py`以p.351写后哈希为前态，先dry-run后apply；写前恢复副本保存在`%TEMP%/pnp-chp14-p352-reaudit-r2a0kc80`。本次未更新原始来源。下一源序段为p.353正文`chp-14:14_CHP-14_intro:l63-71`；全书S2仍未交接。
