@@ -7,6 +7,7 @@
 
 ### S2脚注与跨页续注pending审计
 - `audit_tables.py`递归检查statement及嵌套引用对象中真值的footnote/continuation pending字段；普通审计告警、`--strict-stage`失败，并忽略false/closed/resolved等已清状态。补充回归测试覆盖`footnotes_pending`、嵌套`footnote_text_pending`和`continuation_pending`。验证：`python -X utf8 -m pytest tests/test_audit_tables.py -q`（12 passed）及全书`--strict-stage --summary`（无errors，`s2_missing=[]`）。业务修订及S2未完成项见全书S2过程和结果记录。
+- 补将真值`cross_reference_text_pending`纳入同一递归审计与严格失败条件，回归测试覆盖true/false。复核并清理第十五章3条已完成引用的旧pending状态，同时校正第十章注文与正文断言的对应范围；引用本体尚未独立核验的限制继续保留。验证：`tests/test_audit_tables.py`全部通过，全书严格表审计`s2_missing=[]`、`errors=[]`。
 
 ### 候选表面定位器按实际覆盖行扫描
 - 为落实“核清全书处理范围，排除整章与分节副本的重复计数”，修正 `audit_s2_candidate_surfaces.py`：只扫描覆盖账本 `source_line_ranges` 在当前段内覆盖的原文行；跨页或其他来源段的行号不并入当前段，未覆盖行以偏移保持屏蔽，避免命中越界或跨未审行拼接。

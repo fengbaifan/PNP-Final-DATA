@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,497个候选、27,395条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
+当前表包含1,019个KU、11,497个候选、27,395条mentions及12,263条statement；索引候选2,934行。`python -X utf8 scripts/audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既存第1章statement缺少的claim已补齐。关系候选2,331条，2,325条端点齐全，6条仍开放且保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。同步闭合检查已通过：301 passed、2 subtests passed。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -31,6 +31,6 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 全书S2交接审计与下一步
 
-交接前还需按证据边界完成最后汇总：来源范围与排除项依据、候选外键和覆盖的机械核对已通过；脚注印号、续页、正文回链及statement引用专项复核已完成，递归pending扫描为0。剩余工作是全书语义指代与statement限定语的最后审视、六条端点未齐关系候选的逐项交接说明，以及汇总全部S2遗留风险并形成S3输入。六条关系候选继续开放，不转为无证正式关系；目前尚不进入S3。
+交接前还需按证据边界完成最后汇总：来源范围与排除项依据、候选外键和覆盖的机械核对已通过；脚注印号、续页、正文回链及statement引用专项复核已完成，递归脚注/续注和跨页引用pending扫描为0。第十章p.292、p.317及p.323的过期“待迁移”限定已清理；p.318注2按原文分别关联Giannone与Pilati，p.323注4回链到其所注的Goldoni指控。第十五章p.361–362及p.365–366跨页/跨注目标已复核并链接；Radicchio短引身份仍未确认，p.366所引信件及图稿未独立核验。剩余工作是全书语义指代与statement限定语的最后审视、六条端点未齐关系候选的逐项交接说明，以及汇总全部S2遗留风险并形成S3输入。六条关系候选继续开放，不转为无证正式关系；目前尚不进入S3。
 
 S2交接前不推进S3–S6、知识发现或页面工作。

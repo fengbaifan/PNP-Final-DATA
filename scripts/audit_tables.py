@@ -77,14 +77,14 @@ def read_jsonl(path: Path) -> list[dict]:
 
 
 def unresolved_note_pending_paths(value: object, prefix: str = "") -> list[str]:
-    """Return truthy footnote/continuation pending flags, including nested refs."""
+    """Return truthy footnote, continuation, and cross-reference pending flags."""
     paths: list[str] = []
     if isinstance(value, dict):
         for key, child in value.items():
             key_text = str(key)
             path = f"{prefix}.{key_text}" if prefix else key_text
             lowered = key_text.casefold()
-            if "pending" in lowered and ("footnote" in lowered or "continuation" in lowered):
+            if ("pending" in lowered and ("footnote" in lowered or "continuation" in lowered)) or lowered == "cross_reference_text_pending":
                 if child not in (None, False, 0, "", [], {}):
                     if not isinstance(child, str) or child.strip().casefold() not in {"false", "no", "none", "null", "0", "resolved", "closed", "complete", "completed"}:
                         paths.append(path)
@@ -299,7 +299,7 @@ def audit_s2_artifacts(
                 else:
                     pending_paths = unresolved_note_pending_paths(qualifiers)
                     if pending_paths:
-                        message = f"{statement_id}: unresolved footnote/continuation pending fields: {', '.join(pending_paths)}"
+                        message = f"{statement_id}: unresolved footnote/continuation/cross-reference pending fields: {', '.join(pending_paths)}"
                         (errors if strict_stage else warnings).append(message)
                 if not isinstance(row.get("original_quote"), str) or not row["original_quote"].strip():
                     errors.append(f"{statement_id}: original_quote is empty or not a string")

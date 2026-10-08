@@ -115,6 +115,7 @@ def test_s2_audit_flags_nested_footnote_and_continuation_pending_states(tmp_path
             "footnotes_pending": ["p.1 note 1"],
             "footnote_refs": [{"footnote_text_pending": True}],
             "continuation_pending": {"segment_id": "chp-1:sec:l2-2"},
+            "cross_reference_text_pending": True,
         },
         "original_quote": "A source sentence.", "origin": "book", "source_file": "source.md",
     }
@@ -122,8 +123,13 @@ def test_s2_audit_flags_nested_footnote_and_continuation_pending_states(tmp_path
 
     result = audit_s2_artifacts(tmp_path, set(), {"chp-1:sec:l1-1"}, source_root=tmp_path)
     assert any("footnotes_pending" in warning and "footnote_refs[0].footnote_text_pending" in warning for warning in result["warnings"])
+    assert any("cross_reference_text_pending" in warning for warning in result["warnings"])
     strict = audit_s2_artifacts(tmp_path, set(), {"chp-1:sec:l1-1"}, strict_stage=True, source_root=tmp_path)
-    assert any("footnotes_pending" in error and "continuation_pending" in error for error in strict["errors"])
+    assert any("footnotes_pending" in error and "continuation_pending" in error and "cross_reference_text_pending" in error for error in strict["errors"])
+
+
+def test_s2_pending_path_audit_ignores_resolved_cross_reference_text():
+    assert table_audit.unresolved_note_pending_paths({"cross_reference_text_pending": False}) == []
 
 
 def test_s2_audit_checks_mention_surface_offsets(tmp_path):

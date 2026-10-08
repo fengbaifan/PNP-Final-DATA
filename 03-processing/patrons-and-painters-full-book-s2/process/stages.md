@@ -7408,3 +7408,11 @@ S2脚注交接专项核对第2章pp.24、32、34，第3章pp.76、87，第6章p.
 第十三章p.333的注1为Roberti；跨页引文在p.334结束后，其注1才是Bettinelli。将p.333正文statement指向p.334注文，修正`footnote_printed_page=334`，清除`continuation_footnote_text_pending`及“精确对应待定”的过时限定；注文statement已有对跨页引文两条正文statement的反向链接。第九章p.264注8的跨页句从p.264 L427续至p.265 L295–296；将正文续注状态改为closed并链接到对应p.265 statement，在目标statement补回链和起始行，清除旧`continuation_pending`对象。
 
 对全体statement及嵌套`footnote_refs`递归扫描后，真值状态的脚注/续注pending键为0，脚注打印页与目标注文页不一致为0。证据显示的来源异常继续保留并说明：第九章p.247印号不可见；p.270注7与标记句的内容不合；第十四章p.359注4无正文标记且与注3重复。它们不伪造精确回链，也不作为未清待办。仅修改既有statement记录，没有增删候选、mentions、coverage、statements或S6正式关系；全书S2其余语义交接审计仍进行中。
+
+## 全书限定语、引文边界与跨页引用收口（2026-10-08）
+
+第十章p.292 Burney注2、p.317 Dialogo注2及p.323 Longhi注1已迁入并链接，正文限定语中残留的“待迁移”说明予以更新，同时保留所引材料未独立查阅的限定。p.318注2明确分别为Giannone的威尼斯居留/驱逐指向Pierantoni、为Pilati指向Brol；对应statement的注释链接按此范围拆分，Baretti与其他未具名思想者不再误挂两条具体引文。p.323注4由Goldoni“先进同情”断言移至其所注的“对手指控”断言；限定语保留信件及Melchiori出版物未经独立查阅、Goldoni未在信中具名的说明。
+
+复核第十五章p.361句子在p.362 L17收束；p.366注1指向第十六章p.373注2；p.366 Radicchio 1786叙述与p.365注2已有记录相关但身份未证。三条`cross_reference_text_pending`均清为false并添加/保留目标statement及来源段链接。Radicchio作品身份仍不合并；Strange所引信件及请求绘图均未独立查阅，图稿是否完成仍未知。
+
+审计器现将真值`cross_reference_text_pending`与脚注/续注pending一并纳入普通告警及严格失败；回归测试覆盖true与false。未新增/删除候选、mentions、statements、coverage或S6正式关系；六条开放关系候选保持待证，全书S2交接审计继续。
