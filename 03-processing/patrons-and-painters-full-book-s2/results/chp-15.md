@@ -67,3 +67,7 @@
 “the collections”未绑定铸像或绘画收藏候选，所售项目仍未逐项识别；“the property”范围未定。Canova 从 Venice 崛起不推断出生或居住；同代人对复兴的希望不等于结果；新式公共服务赞助不专属于 Memmo。Farsetti 被未指名的诗歌和演说举例，作品端点开放。8条 S2 关系候选中7条端点齐备、1条开放；没有新建 KU 或正式关系。
 
 S2 记录校正 L39 os→of、fife→life，L40 grëat→great，note 6 L56 pp. 32 if.→pp. 32 ff.；未改写 S0。note 1–2 已链接，notes 3–6 与下一段 Andrea Memmo 一并语义复审。全库严格表审计 errors=[]、s2_missing=[]；引文锚点 12,371 精确、46 空白归一化、0 未匹配。下一段：chp-15:15_CHP-15_sec_ii:l3-4。
+
+## 第十五章 p.364 Andrea Memmo 段复审（2026-10-09）
+
+对照印刷页图复核`chp-15:15_CHP-15_sec_ii:l3-4`及注释段L43–56。补入标题mention，拆分出生年/家族出身、Lodoli影响/传播思想/受影响、政治改革热情/打破贵族隔绝等复合陈述。新增4条statement、1条mention；本段18条statement、25条mention，8条关系候选端点齐备。校正注号5及`thé`的印本读法；核对注3–6而不将引文表述为独立查阅。p.364末尾恋情句已由p.365 L7闭合并与注1相连。全库12,421条statement、2,667条S2关系候选（27条开放）；下一段为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。

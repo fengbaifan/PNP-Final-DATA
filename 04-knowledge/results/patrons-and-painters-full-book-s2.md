@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前全书 S2 结构化数据为 1,019 KU、11,504 candidates、27,424 mentions、12,417 statements；2,665 条 S2 关系候选中 2,638 条端点齐备、27 条开放。覆盖表832段：678段 reviewed/complete、154段 excluded/complete、0段 queued/partial。12,417个引文锚点中12,371项精确匹配、46项经空白归一化匹配、0项未匹配。严格表审计 errors=[]、s2_missing=[]。逐页复审已完成 p.364 Farsetti 段；下一段是同页 Andrea Memmo（chp-15:15_CHP-15_sec_ii:l3-4）。覆盖／迁移完成不等于全书语义复审完成；enrichment 的 source_ref 仍有 enr-06678、enr-06937 两项既有警告。
+当前全书 S2 结构化数据为 1,019 KU、11,504 candidates、27,425 mentions、12,421 statements；2,667 条 S2 关系候选中 2,640 条端点齐备、27 条开放。覆盖表832段：678段 reviewed/complete、154段 excluded/complete、0段 queued/partial。12,421个引文锚点中12,375项精确匹配、46项经空白归一化匹配、0项未匹配。严格表审计 errors=[]、s2_missing=[]。逐页复审已完成 p.364 Andrea Memmo；下一段是 p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。覆盖／迁移状态不等于全书语义交接；enrichment 的 source_ref 仍有 enr-06678、enr-06937 两项既有警告。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -108,11 +108,11 @@ p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把�
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,417条statement及27,424条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的27条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,421条statement及27,425条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的27条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,409条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,363条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,421条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,375条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 
@@ -242,4 +242,12 @@ p.332 note 4的“Berengo, 1957”已链接到书内唯一相符条目`st-chp21-
 
 8条 p.364 关系候选中7条端点齐备、1条因诗歌／演说未指名而开放；Canova 的 Venice 表述不推断出生或居住，同代人的文化复兴愿望不表述为实现结果，新式公共服务模式不专属归给 Memmo。印刷校正只记于 S2，未改 S0。严格表审计 errors=[]、s2_missing=[]；全库12,417个 original_quote 锚点中12,371项精确、46项经空白归一化匹配、0项未匹配。
 
-当前全库：1,019 KU；11,504 candidates；27,424 mentions；12,417 statements；2,665条 S2 关系候选（2,638条两端齐备、27条开放）。覆盖表832段中678段 reviewed/complete、154段 excluded/complete、0段 queued/partial；覆盖与迁移状态不代表全书语义复审完成。下一步按书序复审 p.364 Andrea Memmo：chp-15:15_CHP-15_sec_ii:l3-4。
+当前全库：1,019 KU；11,504 candidates；27,425 mentions；12,421 statements；2,667条 S2 关系候选（2,640条两端齐备、27条开放）。覆盖表832段中678段 reviewed/complete、154段 excluded/complete、0段 queued/partial；覆盖与迁移状态不代表全书语义复审完成。下一步按书序复核 p.365：chp-15:15_CHP-15_sec_ii:l6-12。
+
+## 第十五章 p.364 Andrea Memmo 段语义复审（2026-10-09）
+
+对照 `CHP-15.pdf` 物理页4复核第十五章 p.364 L3–4及合并注释L43–56中注3–6。新增标题mention `m-chp15-p364-memmo-title-0001`（ANDREA MEMMO，cand-1642，0:12）；将1729年出生与未具名家族出身拆开，将Lodoli的主要影响、Memmo传播其思想、宣称受其影响拆为三条，将政治改革热情与打破同辈贵族隔绝拆开。既有statement ID保留；新增4条statement；本段现18条statement、25条mention。8条关系候选端点齐备；S2关系候选总数增加2条，没有新增候选、KU或正式关系。
+
+印本页图确认建筑句脚注标号为5（S0 OCR作6），并确认`thé`应为`the`；校读写入S2，不改S0。注3、5分别指向第12、11章，注4引Molmenti/Torcellan，注6为Tabacco pp.32 ff.；仅保留引用路径，未声称独立查阅。p.364末句已由p.365 L7闭合；续句statement现描述Memmo继续热衷并书写一系列恋情，保留与p.365注1的链接，移除误列入正文的Brunelli作者/作品候选。
+
+全库现12,421条statement、27,425条mention、2,667条S2关系候选（2,640条端点齐备、27条开放）；引文锚点12,375条精确、46条空白归一、0条未匹配。严格阶段审计通过。下一段为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`；全书S2交接仍未完成。

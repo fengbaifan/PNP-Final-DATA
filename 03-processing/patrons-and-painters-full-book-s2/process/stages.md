@@ -7801,3 +7801,15 @@ Plate 63正文图片页的题注只见截断片段“Domenico Cerato: Project fo
 依印刷页图登记 S2 OCR 校正，不改 S0 来源：L39 os→of、fife→life；L40 grëat→great；note 6 L56 pp. 32 if.→pp. 32 ff.。跨页续句中的 os→of 校正挂接既有 statement st-chp15-p363-daniele-continued-patronage-partial。p.364 note 1–2 已链接；note 6 的印刷校正不代表 Andrea Memmo 段及 notes 3–6 已完成语义复审。
 
 复审后全库为 11,504 candidates、27,424 mentions、12,417 statements、2,665 条 S2 关系候选（2,638 条两端齐备、27 条开放）。12,417 个 statement 引文锚点中，12,371 项在限定来源行内精确匹配，46 项经空白归一化匹配，0 项未匹配。严格表审计 errors=[]、s2_missing=[]。下一段按书序为 p.364 Andrea Memmo：chp-15:15_CHP-15_sec_ii:l3-4。
+
+## 第十五章 p.364 Andrea Memmo 段及注3–6语义复审（2026-10-09）
+
+复核范围：S0规范段`chp-15:15_CHP-15_sec_ii:l3-4`、合并注释段`chp-15:15_CHP-15_sec_i:l43-56`、`CHP-15.pdf`物理页4，以及p.365 L7跨页续句。该页标题`ANDREA MEMMO`补录为mention `m-chp15-p364-memmo-title-0001`（cand-1642，跨度0:12）；正文原有24条mention，现25条。
+
+按印本句义将出生年（1729，注4）与“of one of the great patrician families”分开；家庭未具名，保留既有候选cand-10472，不推断谱系。将Lodoli是Memmo一生主要影响、Memmo传播Lodoli思想、Memmo宣称欠其师恩分为三条statement；传播内容未说明，“master”措辞不扩写为正式师承。将异常强烈的政治改革热情与反复试图打破同辈贵族的隔绝分开；未把未具名同辈群体扩展为个人或正式群体身份。为避免破坏既有引用，复合statement原ID保留用于相应主张，其余三项各用新ID。
+
+逐句收窄本段14条statement的`original_quote`，均锚定S0 L4原文。印本页图确认S0在建筑句后的注号`6`应为印本`5`；注6确实附在French culture and ideas句后。记录`ocr_corrections`，不改S0或原始引文。页图还确认OCR `thé`为印本`the`，登记在aristocratic-pleasures statement。注3为See Chapter 12；注4为Molmenti undated及Torcellan 1963一般传记；注5为See Chapter 11；注6为Tabacco, pp. 32 ff.（S0 OCR `if`校为`ff`，删除重复的同一校读记录）。这些均是书内引注路径，未独立查阅所引作品。
+
+p.364末句以`and he`跨页；p.365 L7完整为`continued to enjoy (and write about) a series of love affairs with great enthusiasm.¹`。将既有partial statement改为该完整的Haskell断言，保留p.364行锚与p.365交叉引用及注1（Brunelli 1923），清除旧结构性claim，并从正文mention列表移除注释作者/作品cand-9501/cand-9502。mention `m-chp15-p364-memmo-0024`注明p.365续接。p.365其余内容尚未复审。
+
+写后本段18条statement、25条mention；新增4条statement、1条mention；新增2条S2关系候选（将Lodoli复合关系细分），该段8条候选端点均齐备；未新增候选、KU或S6正式关系。全库12,421条statement、27,425条mention、2,667条S2关系候选，其中2,640条端点齐备、27条开放。引文锚点12,375条精确、46条空白归一、0条未匹配；严格表审计`errors=[]`、`s2_missing=[]`。S2全书交接仍未完成；下一段按书序为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。
