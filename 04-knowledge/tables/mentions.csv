@@ -23791,7 +23791,7 @@ m-chp15-p365-memmo-0015,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a suitable site 
 m-chp15-p365-memmo-0016,chp-15:15_CHP-15_sec_ii:l6-12,cand-10481,church of S. Giustina,1097,1118,
 m-chp15-p365-memmo-0017,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,Pra della Valle,1164,1179,OCR omits the accent; print reads Prà. The index subentry cand-1804 and plate-caption place cand-3960 remain distinct candidates for S3.
 m-chp15-p365-memmo-0018,chp-15:15_CHP-15_sec_ii:l6-12,cand-4014,Plate 62,1181,1189,Reuses the existing Canaletto/Prà della Valle plate candidate and caption.
-m-chp15-p365-memmo-0019,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,Memmo decided to reclaim,1192,1216,
+m-chp15-p365-memmo-0019,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,1192,1197,Names Andrea Memmo as the actor deciding to reclaim the land.
 m-chp15-p365-memmo-0020,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,this land,1217,1226,
 m-chp15-p365-memmo-0021,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a canal,1297,1304,
 m-chp15-p365-memmo-0022,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,an island,1337,1346,
@@ -23803,12 +23803,12 @@ m-chp15-p365-memmo-0027,chp-15:15_CHP-15_sec_ii:l6-12,cand-0623,Abate Cerate,149
 m-chp15-p365-memmo-0028,chp-15:15_CHP-15_sec_ii:l6-12,cand-4031,Plate 63,1535,1543,Reuses the existing Cerato proposal drawing candidate.
 m-chp15-p365-memmo-0029,chp-15:15_CHP-15_sec_ii:l6-12,cand-3461,Italy,1635,1640,
 m-chp15-p365-memmo-0030,chp-15:15_CHP-15_sec_ii:l6-12,cand-4490,Rome,1668,1672,
-m-chp15-p365-memmo-0031,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,Memmo designed the scheme,2007,2032,
+m-chp15-p365-memmo-0031,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,the scheme,2022,2032,The scheme is the Prà della Valle project designed to raise funds.
 m-chp15-p365-memmo-0032,chp-15:15_CHP-15_sec_ii:l6-12,cand-3461,Italy,2166,2171,
 m-chp15-p365-memmo-0033,chp-15:15_CHP-15_sec_ii:l6-12,cand-3462,Europe,2184,2190,
 m-chp15-p365-memmo-0034,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a scries of statues,2237,2256,OCR reads ‘scries’; p.365 print reads ‘series’. The S0 source is unchanged.
 m-chp15-p365-memmo-0035,chp-15:15_CHP-15_sec_ii:l6-12,cand-1411,Lodoli,2398,2404,
-m-chp15-p365-memmo-0036,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a plan devised by a pupil,2369,2394,
+m-chp15-p365-memmo-0036,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a plan,2369,2375,The plan is the project under discussion; the pupil reference is recorded separately.
 m-chp15-p365-memmo-0037,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,the foundations of the statues,2591,2621,
 m-chp15-p365-memmo-0038,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a public gallery,2659,2675,
 m-chp15-p365-memmo-0039,chp-15:15_CHP-15_sec_ii:l6-12,cand-8107,the Enlightenment,2742,2759,
@@ -28084,3 +28084,9 @@ m-chp14-p357-0077,chp-14:14_CHP-14_intro:l107-116,cand-1827,the artist,877,887,A
 m-chp14-p357-0078,chp-14:14_CHP-14_intro:l107-116,cand-1827,Pannini,2054,2061,Second Pannini mention; subject of the genre-specialization claim.
 m-chp14-p357-0079,chp-14:14_CHP-14_intro:l107-116,cand-10386,same sort of fancy,2146,2164,Anaphoric mention of the architectural-capriccio genre.
 m-chp15-p361-0054,chp-15:15_CHP-15_sec_i:l3-14,cand-1002,FILIPPO FARSETTI,0,16,Printed section heading; p.361 index candidate; cross-chapter identity remains for S3.
+m-chp15-p365-memmo-0051,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,572,577,Names Andrea Memmo in the municipal authorities' request.
+m-chp15-p365-memmo-0052,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,He,1383,1385,"Pronoun refers to Andrea Memmo, who drew up the plan and summoned Cerato."
+m-chp15-p365-memmo-0053,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,1818,1823,Names Andrea Memmo in the sentence on his political authority and available funds.
+m-chp15-p365-memmo-0054,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,2007,2012,Names Andrea Memmo as designer of the scheme.
+m-chp15-p365-memmo-0055,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,pupil,2389,2394,Haskell's pupil reference is resolved to the designer Memmo from the immediately preceding sentence.
+m-chp15-p365-memmo-0056,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,the Pra della Valle,2060,2079,Second p.365 reference to the Prà della Valle; print accent is restored in S2 only.

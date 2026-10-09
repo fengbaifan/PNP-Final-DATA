@@ -7813,3 +7813,15 @@ Plate 63正文图片页的题注只见截断片段“Domenico Cerato: Project fo
 p.364末句以`and he`跨页；p.365 L7完整为`continued to enjoy (and write about) a series of love affairs with great enthusiasm.¹`。将既有partial statement改为该完整的Haskell断言，保留p.364行锚与p.365交叉引用及注1（Brunelli 1923），清除旧结构性claim，并从正文mention列表移除注释作者/作品cand-9501/cand-9502。mention `m-chp15-p364-memmo-0024`注明p.365续接。p.365其余内容尚未复审。
 
 写后本段18条statement、25条mention；新增4条statement、1条mention；新增2条S2关系候选（将Lodoli复合关系细分），该段8条候选端点均齐备；未新增候选、KU或S6正式关系。全库12,421条statement、27,425条mention、2,667条S2关系候选，其中2,640条端点齐备、27条开放。引文锚点12,375条精确、46条空白归一、0条未匹配；严格表审计`errors=[]`、`s2_missing=[]`。S2全书交接仍未完成；下一段按书序为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。
+
+## 第十五章 p.365 正文与注1–2复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页5复核正文段`chp-15:15_CHP-15_sec_ii:l6-12`、p.365跨页句及本页注1–2。注1（Brunelli 1923）继续支持p.364末句/p.365 L7的完整恋情断言；注2在合并注释段L92列Radicchio（1786）作为Prà历史参考、Neu-Mayr（1807）作为人物像与铭文参考，并在本段L12续出。引用作品未独立查阅；注2不用于计算农业集市的确切创办年份。
+
+将复合断言拆开：政治生涯评价与拒绝Doge机会分列；赞助成为生活重心与Haskell所称的重要历史贡献分列；新增1775年抵达Padua及集市安排；把岛屿用途、资源限制、反对与筹款、筹款方案的叙述功能、订阅机制与捐赠者选择条件、Bologna/Vicenza背景、计划雄心、雕像数与资格限制分别记录。校正语义端点：决定改造Prà的是Andrea Memmo而非计划作品；召请Cerato实施计划的主体为Memmo；“a pupil of Lodoli”依紧邻前句将学生解析为Memmo，记录为S2关系候选。五条本段关系候选均有端点，仍未生成S6正式关系。
+
+正文statement由23条增至36条（新增13条）；mention由46条增至52条（新增6条）。重定向m-chp15-p365-memmo-0019至Memmo人物；将m-chp15-p365-memmo-0031、0036收窄到scheme/plan，并补录人物、代词、学生和第二处Prà的mentions。36条statement引文均在声明的S0行范围精确匹配，52条mention跨度全部复算通过。
+
+按页图在S2记录10项OCR校读，不改写S0：L7 `Proweditore`→`Provveditore`、`thatwas`→`that was`、`themain`→`the main`、`Use`→`life`；L8集市脚注标记`?`→`2`、`Pra`→`Prà`、`Cerate`→`Cerato`；L9 `Pra`→`Prà`、`scries`→`series`；注2 L92 `Pri`→`Prà`。p.365 L11的“Only nobles…”由p.366 L15补足，继续与“以本人名义捐赠雕像”的另一条规则分开。
+
+本段未新增候选、KU或S6正式关系。写后全库1,019 KU、11,504 candidates、27,431 mentions、12,434 statements；S2关系候选2,667条（2,640条端点齐备、27条开放）。12,434个引文锚点中12,388条精确、46条空白归一、0条未匹配。严格表审计`errors=[]`、`s2_missing=[]`；完整同步闭合303项及2个子测试通过（9/9检查通过）。两条既存enrichment `source_ref`警告保持不变。全书S2尚未交接；下一段按书序为p.366 `chp-15:15_CHP-15_sec_ii:l14-28`。

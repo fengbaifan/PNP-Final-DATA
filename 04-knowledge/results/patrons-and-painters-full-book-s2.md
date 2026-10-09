@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前全书 S2 结构化数据为 1,019 KU、11,504 candidates、27,425 mentions、12,421 statements；2,667 条 S2 关系候选中 2,640 条端点齐备、27 条开放。覆盖表832段：678段 reviewed/complete、154段 excluded/complete、0段 queued/partial。12,421个引文锚点中12,375项精确匹配、46项经空白归一化匹配、0项未匹配。严格表审计 errors=[]、s2_missing=[]。逐页复审已完成 p.364 Andrea Memmo；下一段是 p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。覆盖／迁移状态不等于全书语义交接；enrichment 的 source_ref 仍有 enr-06678、enr-06937 两项既有警告。
+当前全书 S2 结构化数据为 1,019 KU、11,504 candidates、27,431 mentions、12,434 statements；2,667 条 S2 关系候选中 2,640 条端点齐备、27 条开放。覆盖表832段：678段 reviewed/complete、154段 excluded/complete、0段 queued/partial。12,434个引文锚点中12,388项精确匹配、46项经空白归一化匹配、0项未匹配。严格表审计 `errors=[]`、`s2_missing=[]`；全量同步闭合303项及2个子测试通过。逐页复审已完成 p.365 Andrea Memmo；下一段是 p.366 `chp-15:15_CHP-15_sec_ii:l14-28`。覆盖／迁移状态不等于全书语义交接；enrichment 的 source_ref 仍有 enr-06678、enr-06937 两项既有警告。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 

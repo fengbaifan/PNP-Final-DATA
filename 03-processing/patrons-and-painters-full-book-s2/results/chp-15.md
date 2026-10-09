@@ -71,3 +71,7 @@ S2 记录校正 L39 os→of、fife→life，L40 grëat→great，note 6 L56 pp. 
 ## 第十五章 p.364 Andrea Memmo 段复审（2026-10-09）
 
 对照印刷页图复核`chp-15:15_CHP-15_sec_ii:l3-4`及注释段L43–56。补入标题mention，拆分出生年/家族出身、Lodoli影响/传播思想/受影响、政治改革热情/打破贵族隔绝等复合陈述。新增4条statement、1条mention；本段18条statement、25条mention，8条关系候选端点齐备。校正注号5及`thé`的印本读法；核对注3–6而不将引文表述为独立查阅。p.364末尾恋情句已由p.365 L7闭合并与注1相连。全库12,421条statement、2,667条S2关系候选（27条开放）；下一段为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.365 Andrea Memmo 正文及注1–2（2026-10-09）
+
+对照`CHP-15.pdf`物理页5复核p.365正文和注1–2。正文由23条statement增至36条、由46条mention增至52条；新增13条statement、6条mention，无新增候选或KU。把Doge机会、赞助评价、到任与集市、Prà计划的实施和筹款、Bologna/Vicenza例证、雕像数量及代表资格拆分为单项主张；纠正“改造Prà”和“召请Cerato”的行动主体，并记录Memmo—Lodoli师承候选。五条S2关系候选端点均齐备，未生成正式关系。10项印本校读保存于S2，不改S0；注2只保留书内引注范围，未独立查阅。全段36条statement引文、52条mention跨度均核对通过；完整同步闭合通过。详见[逐项过程与裁决](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。下一段按书序为p.366 `chp-15:15_CHP-15_sec_ii:l14-28`。
