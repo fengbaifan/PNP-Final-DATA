@@ -7777,3 +7777,27 @@ Plate 63正文图片页的题注只见截断片段“Domenico Cerato: Project fo
 复核后本段为44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。将“洛多利是本章三位赞助人的直接启发者”列为一条S2关系候选，但目标集合未逐名列出，保持开放。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选；不生成S6正式关系。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；未增加候选、KU或mentions。
 
 全库现有1,019 KU、11,503候选、27,425 mentions、12,405 statements；S2关系候选2,644条，其中2,621条两端齐全、23条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；本段44条statement引文全部在指定S0段内精确定位，73条mention跨度全部吻合。两条既存`enrichment source_ref`警告保持不变。p.362完成后下一项按书序为p.363正文`chp-15:15_CHP-15_sec_i:l27-36`及其跨页注释。
+
+## 第十五章p.363正文与注释语义复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页3复核正文段`chp-15:15_CHP-15_sec_i:l27-36`及注释段`chp-15:15_CHP-15_sec_i:l43-56`，并核对p.364 L39对跨页句的闭合。p.363注1标记紧随教皇转移财产句，不支持“million ducats”支出句；删除后者误连的注1外键。匿名当代引文覆盖整段别墅赞誉，包括Farsetti在Paris受敬重的措辞；注2只记录其所引Boscovich致Vallisnieri信件，不据此认定匿名说话者。将Canova“最著名的学生”关系改为Canova（`cand-0532`）→Palazzo Farsetti（`cand-1010`）；花园与住宅比较改为花园（`cand-10457`）→别墅（`cand-10432`）。把“Venetian painting and sculpture”保留为未建模的艺术实践对象，不误映射Venice地点。
+
+新增并拆分四条statement：Canova创作两只首批花篮；花篮被放置于宫邸楼梯；Algarotti与他人提出遵循古典范式的理论；p.363注2称Boscovich为书信作者、Vallisnieri为收信人。后两项书信关系只作来源转述，不声称独立查阅原信或刊本。Farsetti支出说法、匿名赞誉说话者、未具名的艺术实践对象及Daniele继续赞助的未具名受助者均保留原文限定；三条关系候选端点继续开放。另复核Academy资源比较、Farsetti花园、Palazzo的理论交流场所、Canova观看Farsetti复制品及比较Raphael loggie版本等关系候选，没有写入S6正式关系。
+
+对照页图的九项印本校读写入S2：正文L32 `Use`→`life`；L34 `to' Venice`→`to Venice`；L35 `17251787`→`1725-1787`、`exhibitionof`→`exhibition-`/`of`；注3 `Notarise`→`Notarile`、`ri April`→`11 April`、`788V`→`788v`；注5注号`6`→`5`；注6注号`8`→`6`。不改S0及`original_quote`。
+
+正文段现35条statement、69条mention、23条关系候选，其中3条开放；注释段有16条statement。全库新增4条statement，无新增candidate、KU、mention或正式关系；当前共12,409条statement、2,659条S2关系候选，2,633条端点齐全、26条开放。12,409条引文锚点复核为12,363条逐字匹配、46条空白归一匹配、0条未匹配。严格阶段审计`s2_missing=[]`、`errors=[]`；全量同步闭合303项通过、2个子测试通过。下一段按书序复核p.364 L38–41，确认跨页续接和p.363关系候选边界；全书S2尚未交接。
+
+## 第十五章 p.364（Farsetti 段）语义复审（2026-10-09）
+
+复审范围为《CHP-15.pdf》物理页4的印刷页364，正文段 chp-15:15_CHP-15_sec_i:l38-41（L39–41）及其与 p.363 续句的跨页衔接；对照来源 Markdown 和页图。Andrea Memmo 从独立段 chp-15:15_CHP-15_sec_ii:l3-4 起，本轮未复审该段。
+
+将原有复合 statement 中的家族忠诚、侄子挥霍、举报、财产分散、收藏出售、学者反应、贵族角色及赞助模式比较等主张拆分或分别限定。新增8条 statement：Tommaso 与书籍／手稿收藏的归属陈述、家族记述的作者关系候选、Anton 与 Tommaso 的侄舅关系、举报未果、复数收藏品售出、威尼斯学者不满、Farsetti 出现在未指名诗歌／演说中作为例子、新赞助的公共服务观念。p.364 正文现有21条 statement、30条 mention。将“This”指代消歧为 Tommaso 向宗教裁判官举报 Anton 的事件，新增开放候选 cand-11525；来源脚注所引 1792 年 5 月 30 日档案未独立查阅，不扩写举报后果。
+
+本页将“the collections”保留为未指向具体对象的复数陈述：删除其对铸像收藏 cand-1005 和绘画收藏 cand-1006 的两个实体提及映射；当前文本没有逐项说明所售藏品，不能用两项目录候选代替全集。“the property”的具体所有者与范围同样未定。Tommaso 所著家族记述与目录候选 cand-10443 的同一性留待 S3；Tommaso 的书籍／手稿收藏 cand-10465 类型未定。已记录 Anton 为 Tommaso 侄子这一 S2 关系候选，不写正式关系。
+
+其他语义边界：Canova “emerge from Venice”表示艺术家从威尼斯艺术环境中崛起，不表示出生地或居住地；contemporaries 对文化复兴的期待不表述为已实现结果；“new patrons”公共服务模式不专属归给 Memmo；Farsetti 出现在未指名的 poems and speeches，其作品端点保持开放。p.364 共8条 S2 关系候选，其中7条有两端、1条（st-chp15-p364-farsetti-held-up-as-example）缺未识别作品端点；未创建 KU 或 S6 正式关系。
+
+依印刷页图登记 S2 OCR 校正，不改 S0 来源：L39 os→of、fife→life；L40 grëat→great；note 6 L56 pp. 32 if.→pp. 32 ff.。跨页续句中的 os→of 校正挂接既有 statement st-chp15-p363-daniele-continued-patronage-partial。p.364 note 1–2 已链接；note 6 的印刷校正不代表 Andrea Memmo 段及 notes 3–6 已完成语义复审。
+
+复审后全库为 11,504 candidates、27,424 mentions、12,417 statements、2,665 条 S2 关系候选（2,638 条两端齐备、27 条开放）。12,417 个 statement 引文锚点中，12,371 项在限定来源行内精确匹配，46 项经空白归一化匹配，0 项未匹配。严格表审计 errors=[]、s2_missing=[]。下一段按书序为 p.364 Andrea Memmo：chp-15:15_CHP-15_sec_ii:l3-4。

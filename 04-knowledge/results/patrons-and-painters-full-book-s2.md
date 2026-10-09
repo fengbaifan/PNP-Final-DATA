@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,503个候选、27,425条mentions及12,405条statement；索引候选2,934行。第十五章p.362复审写回后的严格阶段审计为`s2_missing=[]`、`errors=[]`。最近一次全量同步闭合在第十四章p.364批次通过303项测试和2个子测试；p.361–362之后按受影响范围复跑严格表审计及本段引文锚点核对。两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,644条，2,621条端点齐全，23条仍开放并保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`。机械检查不等于语义准确或实体召回完整。
+当前全书 S2 结构化数据为 1,019 KU、11,504 candidates、27,424 mentions、12,417 statements；2,665 条 S2 关系候选中 2,638 条端点齐备、27 条开放。覆盖表832段：678段 reviewed/complete、154段 excluded/complete、0段 queued/partial。12,417个引文锚点中12,371项精确匹配、46项经空白归一化匹配、0项未匹配。严格表审计 errors=[]、s2_missing=[]。逐页复审已完成 p.364 Farsetti 段；下一段是同页 Andrea Memmo（chp-15:15_CHP-15_sec_ii:l3-4）。覆盖／迁移完成不等于全书语义复审完成；enrichment 的 source_ref 仍有 enr-06678、enr-06937 两项既有警告。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -66,11 +66,13 @@ p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把�
 
 第十五章p.361正文及脚注交接复审（2026-10-09）：对照CHP-15.pdf物理页1复核正文及intro文件中的本页注1–2。补入此前遗漏的标题mention FILIPPO FARSETTI（m-chp15-p361-0054，cand-1002，跨度0:16）；更正两条脚注断言中的印刷页号p.362为p.361；从注2所引信件新增Mariette authored_by及Temanza addressed_to两条来源关系候选。新增1条mention、2条statement，不增候选、KU或正式关系；信件及刊本未独立查阅。详细裁决见第十五章结果。下一项按书序为p.362正文 chp-15:15_CHP-15_sec_i:l16-25。
 
-第十五章p.362正文复审（2026-10-09）：对照`CHP-15.pdf`物理页2重核`chp-15:15_CHP-15_sec_i:l16-25`。73条mention跨度均准确，44条statement引文在S0内均精确；印本`milord, employing`与OCR连写`milord,employing`的差异记入S2校读，不改S0。补入6条断言，将别墅位置、拟容纳的两类收藏、柱群与Dea Concordia神庙来源及神庙所在Rome分开建模；为Farsetti居住Paris、其在威尼斯新古典运动中的角色、别墅和柱群关系补齐S2关系候选。`Lodoli`是“三位赞助人”的直接启发者现列为开放关系候选，目标名单不猜定。修正候选`cand-10430`的跨页说明和`cand-9206`的使用范围；无新增候选、KU、mention或正式关系。第十五章结果与过程记录见[此处](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。下一项按书序为第十五章p.363正文`chp-15:15_CHP-15_sec_i:l27-36`。
+第十五章p.362正文复审（2026-10-09）：对照`CHP-15.pdf`物理页2重核`chp-15:15_CHP-15_sec_i:l16-25`。73条mention跨度均准确，44条statement引文在S0内均精确；印本`milord, employing`与OCR连写`milord,employing`的差异记入S2校读，不改S0。补入6条断言，将别墅位置、拟容纳的两类收藏、柱群与Dea Concordia神庙来源及神庙所在Rome分开建模；为Farsetti居住Paris、其在威尼斯新古典运动中的角色、别墅和柱群关系补齐S2关系候选。`Lodoli`是“三位赞助人”的直接启发者现列为开放关系候选，目标名单不猜定。修正候选`cand-10430`的跨页说明和`cand-9206`的使用范围；无新增候选、KU、mention或正式关系。第十五章结果与过程记录见[此处](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。p.362后的下一项为第十五章p.363正文`chp-15:15_CHP-15_sec_i:l27-36`。
 
-### 23条标量端点未齐的关系候选（交S3/S6）
+第十五章p.363正文与注释语义复审（2026-10-09）：对照`CHP-15.pdf`物理页3复核正文及L43–56注释。纠正million-ducats断言误连注1；将整段赞誉（包括Farsetti在Paris受敬重）归于匿名当代引文，不据注2将说话者认作Boscovich。将Canova“最著名的学生”关系改为Canova→Palazzo Farsetti，将花园/住宅比较关系改为花园→住宅；“Venetian painting and sculpture”不再误连Venice地点。拆分Canova创作首批两只花篮与花篮被放置在宫邸楼梯的断言；新增Algarotti古典范式理论归属及注2书信的作者、收信人statement，均保留来源限定。对正文与注释记录9项印本校读，不改S0或原始引文。正文段现35条statement、69条mention、23条关系候选（3条保持开放）；新增4条statement，无新增候选、KU、mention或正式关系。全库现12,409条statement、2,659条S2关系候选（2,633条端点齐全、26条开放）；所有12,409条引文均可在来源行段复现。详细裁决见[第十五章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。下一处为p.364续接段`chp-15:15_CHP-15_sec_i:l38-41`。
 
-当前2,644条S2关系候选中，2,621条有标量主、宾端点，23条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前23条涉及的候选引用均可解析。
+### S2 关系候选开放端点（27 条，待后续 S3/S6 裁决）
+
+全库现有 2,665 条 S2 关系候选，其中 2,638 条两端齐备、27 条至少一端未定。开放端点均保留原文限定，不从共现或叙述补造实体。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -97,16 +99,20 @@ p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把�
 | `st-chp20-p403-alazard-commissioned-franceschini-picture` | 第二版后记p.403，L111–113 | 作品`cand-6888`及画家`cand-1066`已识别；实际委托人未具名，Colbert `cand-0800`及Strozzi `cand-2528`只记为经手人。 |
 | `st-fm-pl-p64-private-collection` | 第14章p.364图版目录 | “Private Collection, London”未具名，保留开放端点；不创建虚构收藏实体。 |
 | `st-chp15-p362-lodoli-direct-inspirer-of-three-patrons` | 第15章p.362，L17 | Lodoli `cand-1411`已识别；原文称其启发本章三位赞助人，但未逐名列出目标集合；保留开放，不推断另外两人。 |
+| `st-chp15-p363-contemporary-praised-villa` | 第15章p.363，L28–30 | 匿名当代说话者未识别；注2所引Boscovich信件不等于对该引文作者的确认。 |
+| `st-chp15-p363-attempt-to-change-venetian-arts-partly-succeeded` | 第15章p.363，L31–32 | 目标是绘画与雕塑实践，不是可用的Venice地点端点；保留艺术实践对象开放。 |
+| `st-chp15-p363-daniele-continued-patronage-partial` | 第15章p.363–364，L35及L39 | Daniele继续赞助当代艺术家，但未列受助者或具体委托；不造未具名艺术家实体。 |
+| st-chp15-p364-farsetti-held-up-as-example | 第15章 p.364 L40 | Farsetti 被未指名的 poems and speeches 举作例子；作品端点保持开放。 |
 
 未发现应据原文新增而遗漏的具名、可独立识别端点；`candidate-backlog.csv`不存在。开放端点不补猜测，不写入`relations.csv`；身份问题交S3比对，关系成立与边类型交S6裁决。
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,405条statement及27,425条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的23条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,417条statement及27,424条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的27条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,405条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,359条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,409条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,363条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 
@@ -228,3 +234,12 @@ p.332 note 4的“Berengo, 1957”已链接到书内唯一相符条目`st-chp21-
 注1定位到档案候选`cand-10265`（1741-09-05致Bonomo的信，Treviso MSS. 1256）。将注1statement改为letter→Bonomo的`addressed_to`关系候选；新增正文statement记录该信由Algarotti执笔，并通过既有footnote ID连到注1。原件及馆藏目录未独立查阅。另在gallery-plan statement上登记3组S3身份问题：`cand-0056/0071/0072/0075`的Algarotti候选、`cand-0148/0151`的Augustus候选，以及`cand-9091/10222`的Dresden gallery候选；S2保持分立。
 
 新增3条statement及1条mention，不新增候选。p.350共有9条关系候选，端点9/9齐全；全书关系候选2,536条、端点齐全2,515条、21条开放。严格阶段审计：1,019 KU、11,498 candidates、27,402 mentions、12,314 statements、832 segments；`s2_missing=[]`、`errors=[]`。全书S2交接仍在进行。
+
+
+## 第十五章 p.364 Farsetti 段语义复审（2026-10-09）
+
+本轮完成 p.364 L39–41 及 p.363→364 跨页句复审。正文21条 statement、30条 mention；拆分并新增8条 statement，新增事件候选 cand-11525。举报档案仅按 Haskell 注释登记，未独立查阅。将“This”解析为举报事件；撤销将“the collections”同时绑定铸像与绘画两项候选的重复映射，所售藏品仍不具名；“the property”范围未定。Tommaso 家族记述与候选 cand-10443 的身份待 S3，书籍／手稿收藏 cand-10465 类型未定；侄舅关系和其他有据关系保留为 S2 候选。
+
+8条 p.364 关系候选中7条端点齐备、1条因诗歌／演说未指名而开放；Canova 的 Venice 表述不推断出生或居住，同代人的文化复兴愿望不表述为实现结果，新式公共服务模式不专属归给 Memmo。印刷校正只记于 S2，未改 S0。严格表审计 errors=[]、s2_missing=[]；全库12,417个 original_quote 锚点中12,371项精确、46项经空白归一化匹配、0项未匹配。
+
+当前全库：1,019 KU；11,504 candidates；27,424 mentions；12,417 statements；2,665条 S2 关系候选（2,638条两端齐备、27条开放）。覆盖表832段中678段 reviewed/complete、154段 excluded/complete、0段 queued/partial；覆盖与迁移状态不代表全书语义复审完成。下一步按书序复审 p.364 Andrea Memmo：chp-15:15_CHP-15_sec_ii:l3-4。
