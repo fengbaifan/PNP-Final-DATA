@@ -7761,3 +7761,19 @@ Plate 63正文图片页的题注只见截断片段“Domenico Cerato: Project fo
 将p.364 image statement拆成Guardi题注归属和绘画描绘该别墅两项关系候选。修订书前题注关系端点：别墅`cand-11524`位于Paese `cand-3945`，Paese近Treviso `cand-3981`；题名将别墅与John Strange `cand-3817`关联，但不据此断言法律所有权。书前“Private Collection, London”仍为对象未明的来源时点位置statement，关系端点保持开放，不创建虚构收藏机构。p.64书前creator、地点、人物关联及匿名收藏陈述与本页题注分别保留。
 
 本页新增1个候选、1条mention、1条statement；本页新增/重标7条关系候选，其中匿名收藏端点开放。全库严格阶段审计通过：1,019 KU、11,503 candidates、27,424 mentions、12,397 statements、832 segments；关系候选2,632条，2,610条端点齐全、22条开放；`s2_missing=[]`、`errors=[]`。全量同步闭合通过（303 passed、2 subtests passed）。两条enrichment `source_ref`警告仍在。写回前恢复副本保存在`C:\Users\001\AppData\Local\Temp\pnp-p364-villa-review-k8x5qqjt`。下一项转入第十五章书序复核p.361正文`chp-15:15_CHP-15_sec_i:l3-14`；全书S2交接仍未完成。
+
+## 第十五章p.361正文与脚注交接复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页1复核正文段`chp-15:15_CHP-15_sec_i:l3-14`及单独存于`15_CHP-15_intro.md`的p.361脚注段`chp-15:15_CHP-15_intro:l7-9`。S0原文和PDF均未改。正文段开头标题`FILIPPO FARSETTI`此前未进入mentions；现新增`m-chp15-p361-0054`，精确跨度0:16，映射到覆盖印刷p.361的F.csv#17候选`cand-1002`。身份仍按S3对齐，不因标题与索引词序差异而合并其他Farsetti候选。
+
+复核正文既有断言及OCR读法，并检查本页注1–2的正文链接。将两条注释claim中误写的“p.362”更正为“p.361”。注2明确称信件来自Mariette并致Temanza，故从现有信件候选`cand-10426`新增两条有原文锚点的S2关系候选：`authored_by` Mariette（`cand-1547`）及`addressed_to` Temanza（`cand-2546`）。两项均只记录Haskell注释中的归属；信件及Müntz刊本未独立查阅，不写入S6正式关系。
+
+本次净增1条mention和2条statement，不增候选、KU或正式关系。写后全库为11,503个候选、27,425条mentions、12,399条statements、832段；S2关系候选2,634条，2,612条端点齐全、22条开放。严格表审计`errors=[]`、`s2_missing=[]`；12,399条statement引文全部能在指定来源行内复现（12,353条逐字匹配、46条空白归一后匹配）。恢复副本：`C:/Users/001/AppData/Local/Temp/pnp-chp15-p361-reaudit-6gzb2ajw`。候选词形定位器此前未提示倒置词序标题，故不能据其无命中判定本段实体召回完备。下一处按书序复核第十五章p.362正文`chp-15:15_CHP-15_sec_i:l16-25`；全书S2仍未交接。
+
+## 第十五章p.362正文与脚注语义交接复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页2复核`chp-15:15_CHP-15_sec_i:l16-25`。73条既有mention的字符跨度逐条复算无误；原有38条statement引文均可在S0段落内定位。印本“milord, employing”被S0 OCR连写为“milord,employing”，只在对应statement的`ocr_corrections`记录，不改原文或引文。p.362注1–2的印刷页号与页图一致，且仍与L17正文标记双向链接；p.362末句与p.363 L28的续接、注1的跨页关系保持链接。
+
+复核后本段为44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。将“洛多利是本章三位赞助人的直接启发者”列为一条S2关系候选，但目标集合未逐名列出，保持开放。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选；不生成S6正式关系。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；未增加候选、KU或mentions。
+
+全库现有1,019 KU、11,503候选、27,425 mentions、12,405 statements；S2关系候选2,644条，其中2,621条两端齐全、23条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；本段44条statement引文全部在指定S0段内精确定位，73条mention跨度全部吻合。两条既存`enrichment source_ref`警告保持不变。p.362完成后下一项按书序为p.363正文`chp-15:15_CHP-15_sec_i:l27-36`及其跨页注释。

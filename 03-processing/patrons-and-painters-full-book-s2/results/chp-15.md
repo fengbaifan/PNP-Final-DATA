@@ -37,3 +37,17 @@
 - 恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp15-surface-prompts-20261008-122515。
 
 候选提示裁决不取代全书S2交接审计中的未登记实体、重复副本、跨页注释、指代、限定语、候选外键与全部关系候选复核。
+
+## 第十五章p.361正文与脚注交接复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页1复核`chp-15:15_CHP-15_sec_i:l3-14`正文，并跨文件检查`chp-15:15_CHP-15_intro:l7-9`脚注。补入此前遗漏的章节内人名标题`FILIPPO FARSETTI`（`m-chp15-p361-0054`，`cand-1002`，跨度0:16）；跨章身份保留待S3。更正注1、注2断言中的印刷页号，从p.362改为p.361。根据注2明载的信件收发人，新增`cand-10426`→Mariette（`cand-1547`）`authored_by`及→Temanza（`cand-2546`）`addressed_to`两条S2关系候选；信件与刊本未独立查阅，未生成S6边。
+
+本段候选词形定位器没有提示`FILIPPO FARSETTI`，因为索引名为倒置词序；该漏项由印本标题与S0复核发现。p.361完成后下一项是p.362正文`chp-15:15_CHP-15_sec_i:l16-25`。全书交接计数和未决项以[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)为准。
+
+## 第十五章p.362正文与脚注语义复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页2复核`chp-15:15_CHP-15_sec_i:l16-25`。73条既有mention的字符跨度逐条复算无误；44条statement引文均可在S0段落内定位。印本“milord, employing”被S0 OCR连写为“milord,employing”，只在对应statement的`ocr_corrections`记录，不改原文或引文。p.362注1–2的印刷页号与页图一致，且仍与L17正文标记双向链接；p.362末句与p.363 L28的续接、注1的跨页关系保持链接。
+
+复核后本段为44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。将“洛多利是本章三位赞助人的直接启发者”列为一条S2关系候选，但目标集合未逐名列出，保持开放。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选；不生成S6正式关系。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；未增加候选、KU或mentions。
+
+全库现有1,019 KU、11,503候选、27,425 mentions、12,405 statements；S2关系候选2,644条，其中2,621条两端齐全、23条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；本段44条statement引文全部在指定S0段内精确定位，73条mention跨度全部吻合。两条既存`enrichment source_ref`警告保持不变。p.362完成后下一项按书序为p.363正文`chp-15:15_CHP-15_sec_i:l27-36`及其跨页注释。

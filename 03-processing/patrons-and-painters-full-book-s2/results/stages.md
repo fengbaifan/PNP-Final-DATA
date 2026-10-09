@@ -1814,3 +1814,11 @@ p.361按物理页15复核Plate 61：保留既有精确S0 mention，只拆分并�
 复核Plate 62–63共用段`chp-14:14_CHP-14_intro:l151-153`及物理页16–17。p.362拆分Canaletto作品作者、作品描绘Prà della Valle、Prà位于Padua三项关系候选，并新增2条精确嵌套mention。书前Padua定位端点改为地点`cand-3960`→城市`cand-3944`；索引种子`cand-1804`留待S3对齐。p.363图像页题注仍为截断文本；使用Plate 63书前完整caption建立交叉引用，不改S0或静默补全。相应creator/site statements均进入关系候选。严格审计`errors=[]`、`s2_missing=[]`。
 
 复核Plate 64物理页18旋转题注，新增地点候选`cand-11524`和倒序OCR精确mention `m-chp14-plates61-64-0014`；分开绘画作者与描绘别墅的主张，并将别墅定位Paese、Paese近Treviso以及题名与John Strange的来源关联分列。匿名London private collection保留开放端点。全库11,503 candidates、27,424 mentions、12,397 statements；关系候选2,632条、端点齐全2,610条、开放22条；`s2_missing=[]`、`errors=[]`。全量同步闭合通过（303 passed、2 subtests passed）。下一项转入第十五章p.361 `chp-15:15_CHP-15_sec_i:l3-14`。
+
+## 第十五章p.362正文与脚注语义交接复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页2复核`chp-15:15_CHP-15_sec_i:l16-25`。73条既有mention的字符跨度逐条复算无误；原有38条statement引文均可在S0段落内定位。印本“milord, employing”被S0 OCR连写为“milord,employing”，只在对应statement的`ocr_corrections`记录，不改原文或引文。p.362注1–2的印刷页号与页图一致，且仍与L17正文标记双向链接；p.362末句与p.363 L28的续接、注1的跨页关系保持链接。
+
+复核后本段为44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。将“洛多利是本章三位赞助人的直接启发者”列为一条S2关系候选，但目标集合未逐名列出，保持开放。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选；不生成S6正式关系。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；未增加候选、KU或mentions。
+
+全库现有1,019 KU、11,503候选、27,425 mentions、12,405 statements；S2关系候选2,644条，其中2,621条两端齐全、23条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；本段44条statement引文全部在指定S0段内精确定位，73条mention跨度全部吻合。两条既存`enrichment source_ref`警告保持不变。p.362完成后下一项按书序为p.363正文`chp-15:15_CHP-15_sec_i:l27-36`及其跨页注释。

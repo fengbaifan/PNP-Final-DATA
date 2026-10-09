@@ -17,7 +17,7 @@ S0登记79个规范来源文件、832段，涵盖书前材料、第1–17章、�
 
 ## 当前数据与机械检查
 
-当前表包含1,019个KU、11,503个候选、27,424条mentions及12,397条statement；索引候选2,934行。p.364复审后的严格阶段审计为`s2_missing=[]`、`errors=[]`；全量同步闭合303项测试与2个子测试通过。两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,632条，2,610条端点齐全，22条仍开放并保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`。机械检查不等于语义准确或实体召回完整。
+当前表包含1,019个KU、11,503个候选、27,425条mentions及12,405条statement；索引候选2,934行。第十五章p.362复审写回后的严格阶段审计为`s2_missing=[]`、`errors=[]`。最近一次全量同步闭合在第十四章p.364批次通过303项测试和2个子测试；p.361–362之后按受影响范围复跑严格表审计及本段引文锚点核对。两条既存第1章statement缺少的claim已补齐。S2关系候选statement 2,644条，2,621条端点齐全，23条仍开放并保留待证。全库`footnote_pending`、`footnote_text_pending`、`cross_reference_text_pending`及statement失效引用均为0。两条既存enrichment `source_ref`警告为`enr-06678`、`enr-06937`。机械检查不等于语义准确或实体召回完整。
 
 仍有两条既存enrichment `source_ref`警告：`enr-06678`、`enr-06937`无法从对应卡片source清单解析。机械检查不等于语义准确或实体召回完整；目前没有独立外部语义验收。
 
@@ -62,11 +62,15 @@ p.361版图说明复审后为2条statement、2条本段关系候选；另将书�
 
 p.362–363图版题注复核后新增2条嵌套地点mention和2条statement，Plate 62的作者、描绘地点、地点在Padua分项记录为关系候选；书前同名索引seed留S3对齐。Plate 63 OCR/扫描题注为截断片段，完整题名只由单独的书前图版目录支持，S0不补写。对应已有的p.62与p.63书前作者/地点statement也标为关系候选。阶段审计后全库关系候选2,625条、2,604条端点齐全、21条开放。
 
-p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把作品作者与画作描绘的John Strange别墅分开，并将别墅位于Paese、Paese近Treviso及题名与Strange的关联分别记录。匿名London private collection保留开放端点，不推断所有人。S0逐词倒序文本保留；印本视觉读数作为独立证据。严格审计`errors=[]`、`s2_missing=[]`；全书关系候选2,632条、2,610条端点齐全、22条开放。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。下一项转入第十五章p.361 `chp-15:15_CHP-15_sec_i:l3-14`；全书S2交接仍未完成。
+p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把作品作者与画作描绘的John Strange别墅分开，并将别墅位于Paese、Paese近Treviso及题名与Strange的关联分别记录。匿名London private collection保留开放端点，不推断所有人。S0逐词倒序文本保留；印本视觉读数作为独立证据。严格审计`errors=[]`、`s2_missing=[]`；全书关系候选2,632条、2,610条端点齐全、22条开放。详见[第十四章结果](../../03-processing/patrons-and-painters-full-book-s2/results/chp-14.md)。该批次后转入第十五章p.361；此页现已完成本轮交接复审，最新游标见下文。
 
-### 21条标量端点未齐的关系候选（交S3/S6）
+第十五章p.361正文及脚注交接复审（2026-10-09）：对照CHP-15.pdf物理页1复核正文及intro文件中的本页注1–2。补入此前遗漏的标题mention FILIPPO FARSETTI（m-chp15-p361-0054，cand-1002，跨度0:16）；更正两条脚注断言中的印刷页号p.362为p.361；从注2所引信件新增Mariette authored_by及Temanza addressed_to两条来源关系候选。新增1条mention、2条statement，不增候选、KU或正式关系；信件及刊本未独立查阅。详细裁决见第十五章结果。下一项按书序为p.362正文 chp-15:15_CHP-15_sec_i:l16-25。
 
-当前2,609条S2关系候选中，2,588条有标量主、宾端点，21条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前21条涉及的候选引用均可解析。
+第十五章p.362正文复审（2026-10-09）：对照`CHP-15.pdf`物理页2重核`chp-15:15_CHP-15_sec_i:l16-25`。73条mention跨度均准确，44条statement引文在S0内均精确；印本`milord, employing`与OCR连写`milord,employing`的差异记入S2校读，不改S0。补入6条断言，将别墅位置、拟容纳的两类收藏、柱群与Dea Concordia神庙来源及神庙所在Rome分开建模；为Farsetti居住Paris、其在威尼斯新古典运动中的角色、别墅和柱群关系补齐S2关系候选。`Lodoli`是“三位赞助人”的直接启发者现列为开放关系候选，目标名单不猜定。修正候选`cand-10430`的跨页说明和`cand-9206`的使用范围；无新增候选、KU、mention或正式关系。第十五章结果与过程记录见[此处](../../03-processing/patrons-and-painters-full-book-s2/results/chp-15.md)。下一项按书序为第十五章p.363正文`chp-15:15_CHP-15_sec_i:l27-36`。
+
+### 23条标量端点未齐的关系候选（交S3/S6）
+
+当前2,644条S2关系候选中，2,621条有标量主、宾端点，23条至少一端保持开放。开放是原文语义范围或对象尚未细化，不等于候选外键悬空；目前23条涉及的候选引用均可解析。
 
 | Statement | 来源锚点 | 未决端点与处理边界 |
 |---|---|---|
@@ -91,16 +95,18 @@ p.364旋转题注复核新增地点候选`cand-11524`和1条精确mention；把�
 | `st-chp8-p238-note4-pictures-at-pisa-cabinet` | 第8章p.238注4，L446 | Pisa机构`cand-8048`所指图片可能为`cand-0874/0887`，也可能包括`cand-0885`；时间限定保留，Casini pp.42–50未独立查阅。 |
 | `st-chp14-p353-bruhl-possessions-in-the-pictures` | 第14章p.353，L70–71 | 母题`cand-10293/10294`未逐一指配给`Maecenas` `cand-2597`或`Flora` `cand-2590`，亦未指配到具体住宅。 |
 | `st-chp20-p403-alazard-commissioned-franceschini-picture` | 第二版后记p.403，L111–113 | 作品`cand-6888`及画家`cand-1066`已识别；实际委托人未具名，Colbert `cand-0800`及Strozzi `cand-2528`只记为经手人。 |
+| `st-fm-pl-p64-private-collection` | 第14章p.364图版目录 | “Private Collection, London”未具名，保留开放端点；不创建虚构收藏实体。 |
+| `st-chp15-p362-lodoli-direct-inspirer-of-three-patrons` | 第15章p.362，L17 | Lodoli `cand-1411`已识别；原文称其启发本章三位赞助人，但未逐名列出目标集合；保留开放，不推断另外两人。 |
 
 未发现应据原文新增而遗漏的具名、可独立识别端点；`candidate-backlog.csv`不存在。开放端点不补猜测，不写入`relations.csv`；身份问题交S3比对，关系成立与边类型交S6裁决。
 
 ### 递归引用完整性
 
-递归引用检查覆盖12,392条statement及27,417条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的21条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
+递归引用检查覆盖12,405条statement及27,425条mention；候选ID、嵌套statement ID、segment ID及行锚引用均无悬空。未决指代状态为0，脚注与交叉引用pending状态为0。另有1个`collection_type_pending=true`，对应第8章集合类型暂缺，不属于外键或脚注错误。严格阶段审计`errors=[]`、`s2_missing=[]`。关系候选的23条开放标量端点已逐条列于上表。全书其余断言限定语与语义风险仍待终审，S2尚未交接。
 
 ### 引用锚点、书目匹配与候选类型待决
 
-对当前12,392条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,346条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
+对当前12,405条statement的顶层`original_quote`按各自`source_file`及`source_line_start/end`检查：12,359条在所指行段逐字匹配，46条在统一空白后匹配，未匹配0。175条第一章statement沿用01_CHP-1.md整章来源路径而`segment_id`指向规范分节来源；其引文和行号均能复现，整章副本不另计S0来源或覆盖。
 
 第3章p.81注释`st-chp3-seciv-l48-56-enggass-citation`现在链接至本书书目`st-chp21-bib-l420-459-entry-17`，两者均指现有候选`cand-5243`。内部书目身份已确定，`bibliographic_identity_pending=false`；论文未独立查阅，不能据此声称已核验论文内容。
 
