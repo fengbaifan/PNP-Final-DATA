@@ -5125,7 +5125,7 @@ m-chp2-seci-l108-119-0022,chp-2:02_CHP-2_sec_i:l108-119,cand-1200,Vincenzo Giust
 m-chp2-seci-l108-119-0023,chp-2:02_CHP-2_sec_i:l108-119,cand-3126,Rome,1162,1166,City in Haskell’s comparative assessment.
 m-chp2-seci-l108-119-0025,chp-2:02_CHP-2_sec_i:l108-119,cand-2293,Rubens,1214,1220,"Peter Paul Rubens; the index candidate page range omits p.30, so retain for global S3 review."
 m-chp2-seci-l108-119-0026,chp-2:02_CHP-2_sec_i:l108-119,cand-0209,Cardinal Barberini,1222,1240,"Maffeo Barberini, identified by full name in L115; retain the cardinal-period designation."
-m-chp2-seci-l108-119-0027,chp-2:02_CHP-2_sec_i:l108-119,cand-2979,great household,1264,1279,Use the existing accepted household KU candidate; S3 should confirm that this passage maps to the same household scope.
+m-chp2-seci-l108-119-0027,chp-2:02_CHP-2_sec_i:l108-119,cand-11581,great household,1264,1279,The passage says Maffeo maintained a great household. Keep this reference separate from the combined Barberini family-and-household KU pending identity and scope review.
 m-chp2-seci-l108-119-0028,chp-2:02_CHP-2_sec_i:l108-119,cand-0209,He,1302,1304,Anaphoric subject is Maffeo Barberini.
 m-chp2-seci-l108-119-0029,chp-2:02_CHP-2_sec_i:l108-119,cand-4344,"a circle of writers, scholars, scientists and poets",1326,1377,"Unnamed, informal social circle; only Peiresc is named in this passage."
 m-chp2-seci-l108-119-0030,chp-2:02_CHP-2_sec_i:l108-119,cand-1861,Peiresc,1448,1455,"Nicolas-Claude-Fabri de Peiresc, identified in the index candidate."
@@ -5776,9 +5776,10 @@ m-chp2-secii-l141-145-0023,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,their povert
 m-chp2-secii-l141-145-0024,chp-2:02_CHP-2_sec_ii:l141-145,cand-0213,The Pope,1342,1350,"Urban VIII, whom Haskell characterizes as bewildered but adamant."
 m-chp2-secii-l141-145-0025,chp-2:02_CHP-2_sec_ii:l141-145,cand-4540,The tabernacle,1404,1418,The bronze design later accepted in pietre fine.
 m-chp2-secii-l141-145-0026,chp-2:02_CHP-2_sec_ii:l141-145,cand-4541,the candelabra,1533,1547,The furnishing Urban VIII ultimately agreed could be omitted.
+m-chp2-secii-l141-145-0039,chp-2:02_CHP-2_sec_ii:l141-145,cand-11554,altar pictures,1574,1588,The bounded group of altar pictures named in the joint commission statement; not an individual painting.
 m-chp2-secii-l141-145-0027,chp-2:02_CHP-2_sec_ii:l141-145,cand-0213,the Pope,1589,1597,"Urban VIII, co-commissioner of altar pictures."
 m-chp2-secii-l141-145-0028,chp-2:02_CHP-2_sec_ii:l141-145,cand-0186,his brother,1602,1613,Antonio Barberini; the other commissioner of altar pictures.
-m-chp2-secii-l141-145-0029,chp-2:02_CHP-2_sec_ii:l141-145,cand-2126,Guido Reni,1716,1726,Reuse the index candidate specifically associated with the Archangel Michael painting on print page 43.
+m-chp2-secii-l141-145-0029,chp-2:02_CHP-2_sec_ii:l141-145,cand-2124,Guido Reni,1716,1726,Guido Reni is the painter; use the person-level index candidate cand-2124. The separate index sub-entry cand-2126 identifies the Archangel Michael work.
 m-chp2-secii-l141-145-0030,chp-2:02_CHP-2_sec_ii:l141-145,cand-3398,Bologna,1745,1752,City where Reni was written to.
 m-chp2-secii-l141-145-0031,chp-2:02_CHP-2_sec_ii:l141-145,cand-4544,The Archangel Michael trampling on the Devil,1762,1806,Named altar picture sent by Reni.
 m-chp2-secii-l141-145-0032,chp-2:02_CHP-2_sec_ii:l141-145,cand-0932,Domenichino,1904,1915,Reuse the chapter index candidate covering the page 43 painter reference.
@@ -6002,14 +6003,14 @@ m-chp2-secii-l42-50-0016,chp-2:02_CHP-2_sec_ii:l42-50,cand-2098,Raphael,938,945,
 m-chp2-secii-l42-50-0017,chp-2:02_CHP-2_sec_ii:l42-50,cand-4394,these,989,994,Anaphoric reference to the twisted columns.
 m-chp2-secii-l42-50-0018,chp-2:02_CHP-2_sec_ii:l42-50,cand-3135,the greatest Christian church,1039,1068,"Haskell’s superlative description of St Peter’s Basilica, not a neutral ranking."
 m-chp2-secii-l42-50-0025,chp-2:02_CHP-2_sec_ii:l42-50,cand-4141,Christ,1052,1058,Jesus Christ; the statement retains the source’s “was supposed to have leant” qualification.
-m-chp2-secii-l42-50-0019,chp-2:02_CHP-2_sec_ii:l42-50,cand-4394,the twisted column,1074,1092,The form is discussed as a column type; preserve “supposed” in the associated claims.
+m-chp2-secii-l42-50-0019,chp-2:02_CHP-2_sec_ii:l42-50,cand-11585,the twisted column,1074,1092,The form is discussed as a column type; preserve “supposed” in the associated claims.
 m-chp2-secii-l42-50-0020,chp-2:02_CHP-2_sec_ii:l42-50,cand-4395,Solomon’s Temple,1121,1137,Source names the Temple as the supposed origin of the form.
 m-chp2-secii-l42-50-0021,chp-2:02_CHP-2_sec_ii:l42-50,cand-4396,Jerusalem,1141,1150,Place named in the Temple reference.
-m-chp2-secii-l42-50-0022,chp-2:02_CHP-2_sec_ii:l42-50,cand-4394,one of them,1164,1175,Anaphoric reference to one of the twisted columns preserved in St Peter’s.
+m-chp2-secii-l42-50-0022,chp-2:02_CHP-2_sec_ii:l42-50,cand-11586,one of them,1164,1175,Anaphoric reference to one of the twisted columns preserved in St Peter’s.
 m-chp2-secii-l42-50-0024,chp-2:02_CHP-2_sec_ii:l42-50,cand-4231,St Peter,1190,1198,"The basilica’s eponym, nested in “St Peter’s itself.”"
 m-chp2-secii-l42-50-0027,chp-2:02_CHP-2_sec_ii:l42-50,cand-3135,St Peter’s,1190,1200,St Peter’s Basilica is named as one of the ancient basilicas with this screen feature.
 m-chp2-secii-l42-50-0023,chp-2:02_CHP-2_sec_ii:l42-50,cand-3135,St Peter’s itself,1190,1207,"The basilica, not the apostle; nested eponym mention is included below."
-m-chp2-secii-l42-50-0026,chp-2:02_CHP-2_sec_ii:l42-50,cand-4394,the twisted column,1254,1272,"Second occurrence, describing vine leaves and basilica screens."
+m-chp2-secii-l42-50-0026,chp-2:02_CHP-2_sec_ii:l42-50,cand-11585,the twisted column,1254,1272,"Second occurrence, describing vine leaves and basilica screens."
 m-chp2-secii-l42-50-0028,chp-2:02_CHP-2_sec_ii:l42-50,cand-4231,St Peter,1390,1398,Basilica eponym nested in “St Peter’s.”
 m-chp2-secii-l42-50-0029,chp-2:02_CHP-2_sec_ii:l42-50,cand-0209,Urban VIII,1402,1412,Maffeo Barberini in his papal role; continue using the existing person candidate.
 m-chp2-secii-l42-50-0030,chp-2:02_CHP-2_sec_ii:l42-50,cand-4397,the iconographical scheme,1456,1481,Named concept applied to the baldacchino’s imagery.
@@ -6289,9 +6290,9 @@ m-chp2-secii-l71-78-0067,chp-2:02_CHP-2_sec_ii:l71-78,cand-4465,landscapes,2601,
 m-chp2-secii-l71-78-0068,chp-2:02_CHP-2_sec_ii:l71-78,cand-4467,a copy of Raphael’s Galatea,2723,2750,"Copy as an independent work, distinct from Raphael’s original."
 m-chp2-secii-l71-78-0070,chp-2:02_CHP-2_sec_ii:l71-78,cand-2098,Raphael,2733,2740,Artist named in the original work title.
 m-chp2-secii-l71-78-0069,chp-2:02_CHP-2_sec_ii:l71-78,cand-4466,Raphael’s Galatea,2733,2750,"Raphael’s original painting, distinct from the copy Marcello encountered."
-m-chp2-secii-l71-78-0071,chp-2:02_CHP-2_sec_ii:l71-78,cand-4468,the artist,2768,2778,Unidentified copyist sought by Marcello; do not equate with Pietro da Cortona from adjacency alone.
+m-chp2-secii-l71-78-0071,chp-2:02_CHP-2_sec_ii:l71-78,cand-0342,the artist,2768,2778,The definite description is contextually identified as Pietro da Cortona (cand-0342) by the immediate continuation of this episode; Haskell cites Passeri and notes alternate versions in footnote 4.
 m-chp2-secii-l71-78-0072,chp-2:02_CHP-2_sec_ii:l71-78,cand-3983,Tuscany,2828,2835,Region identified as the artist’s origin.
-m-chp2-secii-l71-78-0073,chp-2:02_CHP-2_sec_ii:l71-78,cand-0342,Pietro da Cortona,2838,2855,Painter introduced immediately after the account of Marcello finding the copy; do not treat that proximity as a firm copy attribution.
+m-chp2-secii-l71-78-0073,chp-2:02_CHP-2_sec_ii:l71-78,cand-0342,Pietro da Cortona,2838,2855,"Pietro da Cortona, contextually identified in Haskell's immediate narrative sequence as the artist of the Galatea copy; footnote 4 notes alternate versions of the meeting."
 m-chp2-secii-l71-78-0074,chp-2:02_CHP-2_sec_ii:l71-78,cand-1548,Marino,2911,2917,"Giambattista Marino, whom Pietro met soon afterwards."
 m-chp2-secii-l71-78-0078,chp-2:02_CHP-2_sec_ii:l71-78,cand-4470,one of his first commissions,2949,2977,The commission is Pietro da Cortona’s to copy the Titian painting; the sentence continues at L81.
 m-chp2-secii-l71-78-0075,chp-2:02_CHP-2_sec_ii:l71-78,cand-2630,one of the Titians,2990,3008,Titian is named as painter of the original to be copied.
@@ -6300,6 +6301,7 @@ m-chp2-secii-l71-78-0077,chp-2:02_CHP-2_sec_ii:l71-78,cand-4471,St Catherine,302
 m-chp2-secii-l71-78-0080,chp-2:02_CHP-2_sec_ii:l71-78,cand-4472,"Mostra di Pietro da Cortona, 1956",3074,3107,"Bibliographic pointer continuing footnote 4; the OCR tail reads “Brigand,” checked against print as “Briganti.”"
 m-chp2-secii-l71-78-0081,chp-2:02_CHP-2_sec_ii:l71-78,cand-0342,Pietro da Cortona,3084,3101,Pietro da Cortona is named in the catalogue title.
 m-chp2-secii-l71-78-0082,chp-2:02_CHP-2_sec_ii:l71-78,cand-4473,"Brigand, 1962",3113,3126,S0 OCR reads “Brigand”; print p.38 reads “Briganti.”
+m-chp2-secii-l71-78-0083,chp-2:02_CHP-2_sec_ii:l71-78,cand-11557,scholars in many countries,1707,1733,Source-bounded unnamed collective of scholars Marcello contacted in many countries; no members or count are named. Marino is not assigned to this group.
 m-chp2-secii-l80-89-0001,chp-2:02_CHP-2_sec_ii:l80-89,cand-0032,Cardinal Aldobrandini,31,52,Index candidate for Cardinal Pietro Aldobrandini includes print page 39; identity alignment remains for S3.
 m-chp2-secii-l80-89-0002,chp-2:02_CHP-2_sec_ii:l80-89,cand-1017,Ferrara,58,65,Place from which the Holy Family with Saint Catherine was reportedly acquired.
 m-chp2-secii-l80-89-0003,chp-2:02_CHP-2_sec_ii:l80-89,cand-2317,Marcello,67,75,Marcello Sacchetti; this index candidate is specific to his taste in painting.
@@ -7652,7 +7654,7 @@ m-chp2-secvii-l21-30-0047,chp-2:02_CHP-2_sec_vii:l21-30,cand-0187,him,1467,1470,
 m-chp2-secvii-l21-30-0048,chp-2:02_CHP-2_sec_vii:l21-30,cand-4914,their tastes,1510,1522,"Collective reference to Francesco and Antonio, whose tastes diverged."
 m-chp2-secvii-l21-30-0049,chp-2:02_CHP-2_sec_vii:l21-30,cand-4914,their political differences,1570,1597,The source frames political differences between the two brothers.
 m-chp2-secvii-l21-30-0050,chp-2:02_CHP-2_sec_vii:l21-30,cand-0199,the elder brother’s sympathies,1601,1631,The elder brother is Francesco in this context.
-m-chp2-secvii-l21-30-0051,chp-2:02_CHP-2_sec_vii:l21-30,cand-4266,France,1668,1674,Political orientation shifts away from France after Francesco's return.
+m-chp2-secvii-l21-30-0051,chp-2:02_CHP-2_sec_vii:l21-30,cand-4221,France,1668,1674,Polity away from which Francesco's reported political sympathies shifted; not a geographic travel location.
 m-chp2-secvii-l21-30-0052,chp-2:02_CHP-2_sec_vii:l21-30,cand-0199,his return from exile,1681,1702,"Refers to Francesco, the elder brother."
 m-chp2-secvii-l21-30-0053,chp-2:02_CHP-2_sec_vii:l21-30,cand-0199,Francesco,1705,1714,Cardinal Francesco Barberini.
 m-chp2-secvii-l21-30-0054,chp-2:02_CHP-2_sec_vii:l21-30,cand-0187,Antonio,1813,1820,Cardinal Antonio Barberini.
@@ -7738,7 +7740,7 @@ m-chp2-secvii-l38-54-0011,chp-2:02_CHP-2_sec_vii:l38-54,cand-4473,"Briganti, 196
 m-chp2-secvii-l38-54-0012,chp-2:02_CHP-2_sec_vii:l38-54,cand-4376,Passeri,318,325,"Cited source, page 301."
 m-chp2-secvii-l38-54-0013,chp-2:02_CHP-2_sec_vii:l38-54,cand-4831,"Bellori, 1942",336,349,"Cited edition, page 84."
 m-chp2-secvii-l38-54-0014,chp-2:02_CHP-2_sec_vii:l38-54,cand-4948,"Mozzetti, 1955",383,397,"S0 OCR reads “Mozzetti”; the p.60 print reads “Mezzetti”. Cited publication, page 253."
-m-chp2-secvii-l38-54-0015,chp-2:02_CHP-2_sec_vii:l38-54,cand-4950,the portrait,443,455,Portrait described in the preceding body text; its location is named in this note.
+m-chp2-secvii-l38-54-0015,chp-2:02_CHP-2_sec_vii:l38-54,cand-4922,the portrait,443,455,Portrait described in the preceding body text; its location is named in this note.
 m-chp2-secvii-l38-54-0016,chp-2:02_CHP-2_sec_vii:l38-54,cand-4142,Galleria Nazionale di Arte Antica,468,501,Repository named for the portrait.
 m-chp2-secvii-l38-54-0017,chp-2:02_CHP-2_sec_vii:l38-54,cand-4490,Rome,505,509,Location of the gallery.
 m-chp2-secvii-l38-54-0018,chp-2:02_CHP-2_sec_vii:l38-54,cand-4950,others of the Cardinal,518,540,"Other portraits of Cardinal Antonio, distinct from the portrait under discussion."
@@ -7746,7 +7748,7 @@ m-chp2-secvii-l38-54-0019,chp-2:02_CHP-2_sec_vii:l38-54,cand-4949,Nanteuil,559,5
 m-chp2-secvii-l38-54-0020,chp-2:02_CHP-2_sec_vii:l38-54,cand-4951,"Edoardo Lombardo, 1959",574,596,Cited publication for the recent discussion.
 m-chp2-secvii-l38-54-0021,chp-2:02_CHP-2_sec_vii:l38-54,cand-0199,him,641,644,Pronoun refers to Francesco in the immediately preceding discussion of the elder brother’s political sympathies.
 m-chp2-secvii-l38-54-0022,chp-2:02_CHP-2_sec_vii:l38-54,cand-4952,the French ministers,648,668,Unnamed collective actor whose comments are cited.
-m-chp2-secvii-l38-54-0023,chp-2:02_CHP-2_sec_vii:l38-54,cand-4266,France,708,714,Country named in the quoted comment.
+m-chp2-secvii-l38-54-0023,chp-2:02_CHP-2_sec_vii:l38-54,cand-4221,France,708,714,"France as the political polity named in the quoted comment; mapped to the chapter 2 polity candidate, not the geographic-location candidate."
 m-chp2-secvii-l38-54-0024,chp-2:02_CHP-2_sec_vii:l38-54,cand-4953,Hanotaux,770,778,Publication cited for the comments.
 m-chp2-secvii-l38-54-0025,chp-2:02_CHP-2_sec_vii:l38-54,cand-4954,Palomino,802,810,Writer named as the source of the attribution.
 m-chp2-secvii-l38-54-0033,chp-2:02_CHP-2_sec_vii:l38-54,cand-4955,p. 336,817,823,Page locator in the Palomino publication citation; the author name is separately linked.
@@ -7869,7 +7871,7 @@ m-chp2-sec-viii-l3-7-0013,chp-2:02_CHP-2_sec_viii:l3-7,cand-0198,them,600,604,Pr
 m-chp2-sec-viii-l3-7-0014,chp-2:02_CHP-2_sec_viii:l3-7,cand-0404,Borromini,667,676,Francesco Borromini; exception in Haskell’s comparison.
 m-chp2-sec-viii-l3-7-0015,chp-2:02_CHP-2_sec_viii:l3-7,cand-4490,Rome,727,731,Place named in the comparison of artists.
 m-chp2-sec-viii-l3-7-0016,chp-2:02_CHP-2_sec_viii:l3-7,cand-0198,Their,733,738,Possessive refers to the Barberini family in “Their most important contribution”.
-m-chp2-sec-viii-l3-7-0017,chp-2:02_CHP-2_sec_viii:l3-7,cand-0295,these men,828,837,"Bernini and Pietro da Cortona, the two painters named in the preceding clause."
+m-chp2-sec-viii-l3-7-0017,chp-2:02_CHP-2_sec_viii:l3-7,cand-11577,these men,828,837,"Bernini and Pietro da Cortona, the two painters named in the preceding clause."
 m-chp2-sec-viii-l3-7-0019,chp-2:02_CHP-2_sec_viii:l3-7,cand-0484,Camassei,920,928,"Andrea Camassei, the painter said to have been dropped."
 m-chp2-sec-viii-l3-7-0020,chp-2:02_CHP-2_sec_viii:l3-7,cand-0484,his,946,949,Possessive refers to Camassei’s limitations.
 m-chp2-sec-viii-l3-7-0021,chp-2:02_CHP-2_sec_viii:l3-7,cand-0295,Bernini,1023,1030,Painter retained by the Barberini.
@@ -7883,6 +7885,8 @@ m-chp2-sec-viii-l3-7-0028,chp-2:02_CHP-2_sec_viii:l3-7,cand-0198,the Barberini,1
 m-chp2-sec-viii-l3-7-0029,chp-2:02_CHP-2_sec_viii:l3-7,cand-0404,his,1390,1393,Possessive in “his talents” refers to Borromini.
 m-chp2-sec-viii-l3-7-0030,chp-2:02_CHP-2_sec_viii:l3-7,cand-0295,Bernini,1511,1518,One party in the stated comparison.
 m-chp2-sec-viii-l3-7-0031,chp-2:02_CHP-2_sec_viii:l3-7,cand-0198,the Barberini,1523,1536,The other party in the stated comparison.
+m-chp2-sec-viii-l3-7-0032,chp-2:02_CHP-2_sec_viii:l3-7,cand-11577,both,547,551,"Plural anaphor refers to Bernini and Pietro da Cortona, the two artists named immediately before."
+m-chp2-sec-viii-l3-7-0033,chp-2:02_CHP-2_sec_viii:l3-7,cand-11577,them,859,863,Object of 'support'; refers to Bernini and Pietro da Cortona as the bounded collective pair.
 m-chp2-sec-viii-l9-14-0001,chp-2:02_CHP-2_sec_viii:l9-14,cand-0295,Bernini,180,187,Painter whose relationship with Barberini patrons is described.
 m-chp2-sec-viii-l9-14-0002,chp-2:02_CHP-2_sec_viii:l9-14,cand-0295,his,213,216,Possessive in “his talent” refers to Bernini.
 m-chp2-sec-viii-l9-14-0003,chp-2:02_CHP-2_sec_viii:l9-14,cand-0209,Urban,247,252,Urban VIII; the source says Bernini did not give rein to later introspection while working for him.
@@ -7891,7 +7895,7 @@ m-chp2-sec-viii-l9-14-0005,chp-2:02_CHP-2_sec_viii:l9-14,cand-1660,Michelangelo,
 m-chp2-sec-viii-l9-14-0006,chp-2:02_CHP-2_sec_viii:l9-14,cand-0209,Urban,609,614,Urban VIII’s reign.
 m-chp2-sec-viii-l9-14-0007,chp-2:02_CHP-2_sec_viii:l9-14,cand-4223,the papacy,623,633,Institution described as losing power and prestige.
 m-chp2-sec-viii-l9-14-0008,chp-2:02_CHP-2_sec_viii:l9-14,cand-4965,the Thirty Years’ War,773,794,Named event; the source emphasizes its end.
-m-chp2-sec-viii-l9-14-0009,chp-2:02_CHP-2_sec_viii:l9-14,cand-4266,France,816,822,The country whose perceived arrogance is named as another force changing the situation.
+m-chp2-sec-viii-l9-14-0009,chp-2:02_CHP-2_sec_viii:l9-14,cand-4221,France,816,822,The country whose perceived arrogance is named as another force changing the situation.
 m-chp2-sec-viii-l9-14-0010,chp-2:02_CHP-2_sec_viii:l9-14,cand-4968,illusionism,996,1007,Artistic technique named as designed to overwhelm the onlooker.
 m-chp2-sec-viii-l9-14-0011,chp-2:02_CHP-2_sec_viii:l9-14,cand-4687,Pietro da Cortona’s ceiling,1134,1161,The great ceiling fresco in the Barberini palace; the candidate is the specific project already registered.
 m-chp2-sec-viii-l9-14-0012,chp-2:02_CHP-2_sec_viii:l9-14,cand-0240,the Barberini palace,1165,1185,Building housing the ceiling fresco.
@@ -7917,7 +7921,7 @@ m-chp3-intro-l7-9-0003,chp-3:03_CHP-3_intro:l7-9,cand-1320,Jesuits,53,60,The foo
 m-chp3-intro-l7-9-0002,chp-3:03_CHP-3_intro:l7-9,cand-4975,Galassi Paluzzi,78,93,Surname used for the cited author; the bibliography supplies only initial C.
 m-chp3-intro-l7-9-0001,chp-3:03_CHP-3_intro:l7-9,cand-4974,"Galassi Paluzzi, 1951",78,99,The citation string provisionally maps to the bibliography item; exact identity is revisited when the bibliography segment is processed.
 m-chp3-intro-l7-9-0004,chp-3:03_CHP-3_intro:l7-9,cand-0644,"Grey Brydges, 5th Lord Chandos",256,286,Bracketed author identification supplied by the footnote apparatus.
-m-chp3-intro-l7-9-0005,chp-3:03_CHP-3_intro:l7-9,cand-0646,Horae Subsecivae,289,305,Work cited in note 2; reuse its index candidate under Chandos rather than creating a duplicate.
+m-chp3-intro-l7-9-0005,chp-3:03_CHP-3_intro:l7-9,cand-11570,Horae Subsecivae,289,305,Work cited in note 2; record as an archive candidate distinct from its bracketed author.
 m-chp3-seci-l16-24-0001,chp-3:03_CHP-3_sec_i:l16-24,cand-2114,their followers,25,40,Corefers to the religious orders discussed in the preceding sentence; keep the collective scope.
 m-chp3-seci-l16-24-0002,chp-3:03_CHP-3_sec_i:l16-24,cand-1782,Oratorians,145,155,Religious order proposed as a possible source of encouragement.
 m-chp3-seci-l16-24-0003,chp-3:03_CHP-3_sec_i:l16-24,cand-0544,Caravaggio,243,253,Artist whose anti-conformist religious painting is discussed.
@@ -7939,7 +7943,7 @@ m-chp3-seci-l16-24-0018,chp-3:03_CHP-3_sec_i:l16-24,cand-1898,Philip Neri,718,72
 m-chp3-seci-l16-24-0019,chp-3:03_CHP-3_sec_i:l16-24,cand-4980,occasion,738,746,Corefers to Gregory XV’s canonisation occasion and ensuing ceremonies.
 m-chp3-seci-l16-24-0020,chp-3:03_CHP-3_sec_i:l16-24,cand-4977,paintings,811,820,The two pictures discussed in the main text and footnote 3.
 m-chp3-seci-l16-24-0021,chp-3:03_CHP-3_sec_i:l16-24,cand-1321,two Jesuits,828,839,The saints represented in the pair of paintings.
-m-chp3-seci-l16-24-0022,chp-3:03_CHP-3_sec_i:l16-24,cand-0960,Van Dyck,843,851,Artist named as the painter in the main text; footnote 3 records a disputed attribution.
+m-chp3-seci-l16-24-0022,chp-3:03_CHP-3_sec_i:l16-24,cand-0958,Van Dyck,843,851,Artist named as the painter in the main text; footnote 3 records a disputed attribution.
 m-chp3-seci-l16-24-0023,chp-3:03_CHP-3_sec_i:l16-24,cand-4490,Rome,863,867,Place where Van Dyck was said to be at the time.
 m-chp3-seci-l16-24-0024,chp-3:03_CHP-3_sec_i:l16-24,cand-3104,Urban VIII,882,892,Pope Urban VIII.
 m-chp3-seci-l16-24-0025,chp-3:03_CHP-3_sec_i:l16-24,cand-3104,He,924,926,Corefers to Urban VIII.
@@ -8550,6 +8554,8 @@ m-chp3-secii-l40-52-0061,chp-3:03_CHP-3_sec_ii:l40-52,cand-5044,Florentines,3078
 m-chp3-secii-l40-52-0062,chp-3:03_CHP-3_sec_ii:l40-52,cand-1898,St Philip himself,3096,3113,Philip Neri is given as a comparison for the patrons’ Florentine origin.
 m-chp3-secii-l40-52-0063,chp-3:03_CHP-3_sec_ii:l40-52,cand-5042,their chapels,3177,3190,Chiesa Nuova chapel spaces referred to in the patronage discussion.
 m-chp3-secii-l40-52-0064,chp-3:03_CHP-3_sec_ii:l40-52,cand-3402,Oratorians,3405,3415,Institutional candidate mention in the musical-performance sentence.
+m-chp3-secii-l40-52-0065,chp-3:03_CHP-3_sec_ii:l40-52,cand-11588,the women who came to gaze at him,2056,2089,Passage-bounded unnamed group; object of Philip Neri's reported act of sending them away.
+m-chp3-secii-l40-52-0066,chp-3:03_CHP-3_sec_ii:l40-52,cand-11589,the paintings in their chapels,3160,3190,Unnamed group of works described as being in the new patrons' chapels; no individual painting is named.
 m-chp3-secii-l54-60-0001,chp-3:03_CHP-3_sec_ii:l54-60,cand-0108,Giovanni Animuccia,19,37,Composer named as the speaker of the quotation.
 m-chp3-secii-l54-60-0002,chp-3:03_CHP-3_sec_ii:l54-60,cand-5051,my first book of Landi,69,91,S0 reads Landi; print p.70 reads Laudi. Preserve the source span and record the OCR correction.
 m-chp3-secii-l54-60-0003,chp-3:03_CHP-3_sec_ii:l54-60,cand-5053,the Oratory of S. Girolamo,133,159,Devotional place named in Animuccia's quotation.
@@ -8722,9 +8728,9 @@ m-chp3-secii-l74-81-0002,chp-3:03_CHP-3_sec_ii:l74-81,cand-4252,his family chape
 m-chp3-secii-l74-81-0003,chp-3:03_CHP-3_sec_ii:l74-81,cand-5044,Florentine families,158,177,Collective group planning chapels after Barberini; no individuals are named.
 m-chp3-secii-l74-81-0004,chp-3:03_CHP-3_sec_ii:l74-81,cand-5044,each of whom,180,192,Refers to the Florentine families in the quoted observation.
 m-chp3-secii-l74-81-0005,chp-3:03_CHP-3_sec_ii:l74-81,cand-4490,Rome,312,316,City in the quoted comparison of chapels.
-m-chp3-secii-l74-81-0006,chp-3:03_CHP-3_sec_ii:l74-81,cand-1877,Cardinal Montalto,320,337,Cardinal Peretti-Montalto in the church decoration account.
+m-chp3-secii-l74-81-0006,chp-3:03_CHP-3_sec_ii:l74-81,cand-1876,Cardinal Montalto,320,337,Cardinal Peretti-Montalto in the church decoration account.
 m-chp3-secii-l74-81-0007,chp-3:03_CHP-3_sec_ii:l74-81,cand-5064,the decoration,408,422,The S. Andrea della Valle decorative commission later divided between Lanfranco and Domenichino.
-m-chp3-secii-l74-81-0008,chp-3:03_CHP-3_sec_ii:l74-81,cand-1360,Giovanni Lanfranco,494,512,Artist promised the tribune and dome commission.
+m-chp3-secii-l74-81-0008,chp-3:03_CHP-3_sec_ii:l74-81,cand-1359,Giovanni Lanfranco,494,512,Artist promised the tribune and dome commission.
 m-chp3-secii-l74-81-0009,chp-3:03_CHP-3_sec_ii:l74-81,cand-5064,the entire tribune,605,623,Part of the commission reserved by Cardinal Montalto for Lanfranco.
 m-chp3-secii-l74-81-0010,chp-3:03_CHP-3_sec_ii:l74-81,cand-5065,dome,628,632,Dome commission promised to Lanfranco.
 m-chp3-secii-l74-81-0011,chp-3:03_CHP-3_sec_ii:l74-81,cand-0393,Pope Paul V,722,733,Pope whose death the printed page dates to 1621.
@@ -8732,23 +8738,23 @@ m-chp3-secii-l74-81-0012,chp-3:03_CHP-3_sec_ii:l74-81,cand-1455,Gregory XV,760,7
 m-chp3-secii-l74-81-0013,chp-3:03_CHP-3_sec_ii:l74-81,cand-1459,Cardinal Ludovisi,785,802,Gregory XV’s nephew and the patron of Domenichino.
 m-chp3-secii-l74-81-0014,chp-3:03_CHP-3_sec_ii:l74-81,cand-0934,Domenichino,832,843,Artist who asks Ludovisi to replace Lanfranco on the commission.
 m-chp3-secii-l74-81-0015,chp-3:03_CHP-3_sec_ii:l74-81,cand-1459,Ludovisi,985,993,Surname reference to Cardinal Ludovico Ludovisi.
-m-chp3-secii-l74-81-0016,chp-3:03_CHP-3_sec_ii:l74-81,cand-0697,the church,1022,1032,S. Andrea della Valle; local referent.
+m-chp3-secii-l74-81-0016,chp-3:03_CHP-3_sec_ii:l74-81,cand-5061,the church,1022,1032,The definite ‘church’ refers to the Theatine building candidate carried from the preceding paragraph; its identity with cand-5197 remains for S3 alignment.
 m-chp3-secii-l74-81-0017,chp-3:03_CHP-3_sec_ii:l74-81,cand-1856,Passeri,1042,1049,Source of the reported observation about Ludovisi’s influence.
-m-chp3-secii-l74-81-0018,chp-3:03_CHP-3_sec_ii:l74-81,cand-1877,Montalto,1180,1188,Cardinal whose rights Ludovisi’s power was applied against.
+m-chp3-secii-l74-81-0018,chp-3:03_CHP-3_sec_ii:l74-81,cand-1876,Montalto,1180,1188,Cardinal whose rights Ludovisi’s power was applied against.
 m-chp3-secii-l74-81-0019,chp-3:03_CHP-3_sec_ii:l74-81,cand-0934,Domenichino,1232,1243,Artist who receives the job after pressure.
-m-chp3-secii-l74-81-0020,chp-3:03_CHP-3_sec_ii:l74-81,cand-1360,Lanfranco,1353,1362,Artist Montalto insists should at least receive the dome.
+m-chp3-secii-l74-81-0020,chp-3:03_CHP-3_sec_ii:l74-81,cand-1359,Lanfranco,1353,1362,Artist Montalto insists should at least receive the dome.
 m-chp3-secii-l74-81-0022,chp-3:03_CHP-3_sec_ii:l74-81,cand-0934,Domenichino,1401,1412,Artist described as reacting with somewhat unreasonable fury.
-m-chp3-secii-l74-81-0023,chp-3:03_CHP-3_sec_ii:l74-81,cand-1360,the two artists,1479,1494,Lanfranco and Domenichino share the commission.
-m-chp3-secii-l74-81-0021,chp-3:03_CHP-3_sec_ii:l74-81,cand-5064,tire commission,1534,1549,S0 OCR reads “tire”; the printed page confirms “their commission”. S. Andrea della Valle decoration shared by Domenichino and Lanfranco.
+m-chp3-secii-l74-81-0023,chp-3:03_CHP-3_sec_ii:l74-81,cand-11590,the two artists,1479,1494,Bounded local pair reference to Giovanni Lanfranco and Domenichino; not an independent organization.
+m-chp3-secii-l74-81-0021,chp-3:03_CHP-3_sec_ii:l74-81,cand-5064,tire commission,1534,1549,S0 reads ‘tire commission’; the printed page reads ‘the commission’. The object is the shared S. Andrea decoration commission.
 m-chp3-secii-l74-81-0024,chp-3:03_CHP-3_sec_ii:l74-81,cand-2565,Theatines,1555,1564,Order said to have played no part in these decisions.
-m-chp3-secii-l74-81-0025,chp-3:03_CHP-3_sec_ii:l74-81,cand-0697,S. Andrea della Valle,1689,1710,Church whose decoration Haskell evaluates as a major Baroque achievement.
+m-chp3-secii-l74-81-0025,chp-3:03_CHP-3_sec_ii:l74-81,cand-5197,S. Andrea della Valle,1689,1710,Church whose decoration Haskell evaluates as a major Baroque achievement.
 m-chp3-secii-l74-81-0026,chp-3:03_CHP-3_sec_ii:l74-81,cand-4500,the Baroque,1756,1767,Art-historical category in Haskell’s evaluation.
-m-chp3-secii-l74-81-0027,chp-3:03_CHP-3_sec_ii:l74-81,cand-1360,Lanfranco,1776,1785,Artist of the dome completed in 1627.
+m-chp3-secii-l74-81-0027,chp-3:03_CHP-3_sec_ii:l74-81,cand-1359,Lanfranco,1776,1785,Artist of the dome completed in 1627.
 m-chp3-secii-l74-81-0028,chp-3:03_CHP-3_sec_ii:l74-81,cand-5065,dome,1788,1792,Lanfranco’s painted dome programme.
 m-chp3-secii-l74-81-0029,chp-3:03_CHP-3_sec_ii:l74-81,cand-0852,Correggio,1856,1865,Artist whose dome in Parma is the earlier comparison.
 m-chp3-secii-l74-81-0030,chp-3:03_CHP-3_sec_ii:l74-81,cand-3417,Parma,1871,1876,Place of Correggio’s earlier dome.
 m-chp3-secii-l74-81-0031,chp-3:03_CHP-3_sec_ii:l74-81,cand-4141,Christ,2009,2015,Figure named as the source of light in the dome description.
-m-chp3-secii-l74-81-0032,chp-3:03_CHP-3_sec_ii:l74-81,cand-5072,"the choirs of saints, martyrs, prophets, apostles and cherubs",2098,2159,Collective figures described in the dome composition.
+m-chp3-secii-l74-81-0032,chp-3:03_CHP-3_sec_ii:l74-81,cand-5071,"the choirs of saints, martyrs, prophets, apostles and cherubs",2098,2159,This mention is the choir group in Lanfranco's dome; the putti in Domenichino's pendentives remain cand-5072.
 m-chp3-secii-l74-81-0033,chp-3:03_CHP-3_sec_ii:l74-81,cand-3427,the Virgin,2199,2209,Virgin Mary in the dome composition.
 m-chp3-secii-l74-81-0034,chp-3:03_CHP-3_sec_ii:l74-81,cand-4412,St Andrew,2353,2362,Figure said to sponsor S. Gaetano.
 m-chp3-secii-l74-81-0035,chp-3:03_CHP-3_sec_ii:l74-81,cand-5068,S. Gaetano,2376,2386,Saint identified as founder of the Theatine order.
@@ -8764,7 +8770,7 @@ m-chp3-secii-l74-81-0044,chp-3:03_CHP-3_sec_ii:l74-81,cand-5072,putti,2795,2800,
 m-chp3-secii-l74-81-0045,chp-3:03_CHP-3_sec_ii:l74-81,cand-1459,his reluctant patron,2838,2858,Cardinal Ludovisi in the local commission narrative.
 m-chp3-secii-l74-81-0046,chp-3:03_CHP-3_sec_ii:l74-81,cand-5067,scenes from the life of St Andrew,2885,2918,Domenichino’s apse scenes.
 m-chp3-secii-l74-81-0047,chp-3:03_CHP-3_sec_ii:l74-81,cand-4412,St Andrew,2909,2918,Saint whose life is depicted in the apse.
-m-chp3-secii-l74-81-0048,chp-3:03_CHP-3_sec_ii:l74-81,cand-0697,S. Andrea della Valle,3003,3024,Church completed by the two artists in Haskell’s account.
+m-chp3-secii-l74-81-0048,chp-3:03_CHP-3_sec_ii:l74-81,cand-5197,S. Andrea della Valle,3003,3024,Church completed by the two artists in Haskell’s account.
 m-chp3-secii-l74-81-0049,chp-3:03_CHP-3_sec_ii:l74-81,cand-4490,Rome,3057,3061,City in the evaluation “finest modern church in Rome.”
 m-chp3-secii-l74-81-0050,chp-3:03_CHP-3_sec_ii:l74-81,cand-2565,Theatines,3075,3084,Order whose church is being discussed.
 m-chp3-secii-l74-81-0051,chp-3:03_CHP-3_sec_ii:l74-81,cand-1321,Jesuits,3144,3151,Religious order used as a comparison.
@@ -8842,7 +8848,7 @@ m-chp3-seciv-l106-116-0039,chp-3:03_CHP-3_sec_iv:l106-116,cand-5338,Fondo di Ges
 m-chp3-seciv-l106-116-0043,chp-3:03_CHP-3_sec_iv:l106-116,cand-1117,Gaulli,2935,2941,
 m-chp3-seciv-l106-116-0040,chp-3:03_CHP-3_sec_iv:l106-116,cand-5339,"P. Francesco
 Scaramuccia",2978,3002,
-m-chp3-seciv-l106-116-0042,chp-3:03_CHP-3_sec_iv:l106-116,cand-5080,Noviziato,3049,3058,"Italian reference to the novitiate; the payment source is reported by Haskell, not independently checked."
+m-chp3-seciv-l106-116-0042,chp-3:03_CHP-3_sec_iv:l106-116,cand-11617,Noviziato,3049,3058,"In the Italian payment quotation, this identifies the Novitiate as the reported source of funds, not the physical place candidate cand-5080. The cited archive has not been independently consulted."
 m-chp3-seciv-l106-116-0041,chp-3:03_CHP-3_sec_iv:l106-116,cand-5327,"Signor
 Principe Panfiglio",3088,3113,Italian wording in the cited footnote; the S0 spelling is retained and the identity remains unresolved.
 m-chp3-seciv-l118-128-0001,chp-3:03_CHP-3_sec_iv:l118-128,cand-0399,Giacomo,10,17,Completes the preceding segment’s reference to Guglielmo’s Jesuit brother.
@@ -8863,7 +8869,7 @@ m-chp3-seciv-l118-128-0014,chp-3:03_CHP-3_sec_iv:l118-128,cand-4910,Christ,413,4
 m-chp3-seciv-l118-128-0013,chp-3:03_CHP-3_sec_iv:l118-128,cand-5345,Christ and St Veronica,413,435,One proposed picture subject in the grammar of this list; execution is not established.
 m-chp3-seciv-l118-128-0015,chp-3:03_CHP-3_sec_iv:l118-128,cand-5350,St Veronica,424,435,Depicted figure within the proposed Christ and St Veronica picture.
 m-chp3-seciv-l118-128-0016,chp-3:03_CHP-3_sec_iv:l118-128,cand-5346,The Flagellation,440,456,"A proposed picture, not a confirmed completed altarpiece."
-m-chp3-seciv-l118-128-0017,chp-3:03_CHP-3_sec_iv:l118-128,cand-1536,Carlo Maratta,492,505,Use the index candidate with the St Stanislas Kostka subentry.
+m-chp3-seciv-l118-128-0017,chp-3:03_CHP-3_sec_iv:l118-128,cand-1526,Carlo Maratta,492,505,Use the index candidate with the St Stanislas Kostka subentry.
 m-chp3-seciv-l118-128-0051,chp-3:03_CHP-3_sec_iv:l118-128,cand-4490,Rome,548,552,
 m-chp3-seciv-l118-128-0018,chp-3:03_CHP-3_sec_iv:l118-128,cand-5352,his altarpiece of St Stanislas Kostka,582,619,
 m-chp3-seciv-l118-128-0019,chp-3:03_CHP-3_sec_iv:l118-128,cand-5351,St Stanislas Kostka,600,619,The saint is distinct from Maratta’s altarpiece.
@@ -9045,7 +9051,7 @@ m-chp3-seciv-l152-163-0010,chp-3:03_CHP-3_sec_iv:l152-163,cand-5200,Gesù,819,82
 m-chp3-seciv-l152-163-0012,chp-3:03_CHP-3_sec_iv:l152-163,cand-5399,heirs of Cardinal Savelli,840,865,Unidentified collective; the nested named person is retained separately.
 m-chp3-seciv-l152-163-0013,chp-3:03_CHP-3_sec_iv:l152-163,cand-2375,Cardinal Savelli,849,865,Index candidate explicitly covers p.91.
 m-chp3-seciv-l152-163-0014,chp-3:03_CHP-3_sec_iv:l152-163,cand-5398,Crucifixion,896,907,"Original chapel dedication, not a specific artwork."
-m-chp3-seciv-l152-163-0015,chp-3:03_CHP-3_sec_iv:l152-163,cand-5246,altar,913,918,The altar designed by Giacomo della Porta and replaced by Pietro da Cortona.
+m-chp3-seciv-l152-163-0015,chp-3:03_CHP-3_sec_iv:l152-163,cand-11624,altar,913,918,"The earlier Della Porta altar, never completed; distinct from Cortona's replacement altar."
 m-chp3-seciv-l152-163-0017,chp-3:03_CHP-3_sec_iv:l152-163,cand-1976,Giacomo della Porta,960,979,Index candidate covers p.91.
 m-chp3-seciv-l152-163-0018,chp-3:03_CHP-3_sec_iv:l152-163,cand-2375,the Cardinal,1000,1012,Anaphoric reference to Cardinal Savelli.
 m-chp3-seciv-l152-163-0019,chp-3:03_CHP-3_sec_iv:l152-163,cand-5399,his heirs,1014,1023,Unidentified heirs of Cardinal Savelli.
@@ -9054,13 +9060,13 @@ m-chp3-seciv-l152-163-0024,chp-3:03_CHP-3_sec_iv:l152-163,cand-1309,Ignatius,115
 m-chp3-seciv-l152-163-0028,chp-3:03_CHP-3_sec_iv:l152-163,cand-5220,remains,1206,1213,"Physical remains of St Ignatius, distinct from the person."
 m-chp3-seciv-l152-163-0029,chp-3:03_CHP-3_sec_iv:l152-163,cand-5236,this chapel,1217,1228,The Chapel of St Ignatius in the Gesù.
 m-chp3-seciv-l152-163-0030,chp-3:03_CHP-3_sec_iv:l152-163,cand-5400,picture painted for the occasion,1256,1288,Unidentified Van Dyck picture associated with the 1622 canonisation occasion.
-m-chp3-seciv-l152-163-0031,chp-3:03_CHP-3_sec_iv:l152-163,cand-0960,Van Dyck,1292,1300,Artist index candidate; S3 will align the source candidate globally.
+m-chp3-seciv-l152-163-0031,chp-3:03_CHP-3_sec_iv:l152-163,cand-0960,Van Dyck,1292,1300,Haskell names Van Dyck as the picture's painter. The index candidate is typed as a person; its identity alignment with the separate Van Dyck person candidate cand-8909 is deferred to S3.
 m-chp3-seciv-l152-163-0021,chp-3:03_CHP-3_sec_iv:l152-163,cand-3403,the Jesuits,1323,1334,The Society of Jesus; preserve the source's plural surface.
 m-chp3-seciv-l152-163-0033,chp-3:03_CHP-3_sec_iv:l152-163,cand-5401,urn,1357,1360,Specific urn modelled by Algardi for Ignatius's remains.
 m-chp3-seciv-l152-163-0034,chp-3:03_CHP-3_sec_iv:l152-163,cand-0034,Algardi,1374,1381,Index candidate covers p.91.
 m-chp3-seciv-l152-163-0035,chp-3:03_CHP-3_sec_iv:l152-163,cand-5220,bones,1413,1418,Anaphoric reference to Ignatius's remains.
 m-chp3-seciv-l152-163-0036,chp-3:03_CHP-3_sec_iv:l152-163,cand-0345,Pietro da Cortona,1441,1458,"Index subentry explicitly names the altar in the Chapel of St Ignatius, Gesù, p.91."
-m-chp3-seciv-l152-163-0016,chp-3:03_CHP-3_sec_iv:l152-163,cand-5246,altar,1471,1476,The altar designed by Giacomo della Porta and replaced by Pietro da Cortona.
+m-chp3-seciv-l152-163-0016,chp-3:03_CHP-3_sec_iv:l152-163,cand-5246,altar,1471,1476,The new left-transept altar built by Pietro da Cortona to replace Della Porta's uncompleted predecessor; contextually matched to the later altar above which Gaulli painted in 1685.
 m-chp3-seciv-l152-163-0037,chp-3:03_CHP-3_sec_iv:l152-163,cand-1976,della Porta’s,1490,1503,Reference to Giacomo della Porta's uncompleted altar.
 m-chp3-seciv-l152-163-0022,chp-3:03_CHP-3_sec_iv:l152-163,cand-3403,the Jesuits,1566,1577,The Society of Jesus; preserve the source's plural surface.
 m-chp3-seciv-l152-163-0038,chp-3:03_CHP-3_sec_iv:l152-163,cand-5403,the Eighth General Congregation,1599,1630,The Society's 1646 assembly.
@@ -9313,7 +9319,7 @@ m-chp3-seciv-notes-l189-204-0037,chp-3:03_CHP-3_sec_iv:l189-243,cand-5263,Eve,16
 m-chp3-seciv-notes-l189-204-0038,chp-3:03_CHP-3_sec_iv:l189-243,cand-5254,The Blood of Christ,1747,1766,Iconographic subject.
 m-chp3-seciv-notes-l189-204-0039,chp-3:03_CHP-3_sec_iv:l189-243,cand-0298,Bernini,1870,1877,Gian Lorenzo Bernini's early drawing.
 m-chp3-seciv-notes-l189-204-0040,chp-3:03_CHP-3_sec_iv:l189-243,cand-1117,Gaulli,1886,1892,Giovanni Battista Gaulli's early drawing and later adaptation.
-m-chp3-seciv-notes-l189-204-0041,chp-3:03_CHP-3_sec_iv:l189-243,cand-5259,Duplex Intercessio,2029,2047,Bernini composition adapted by Gaulli.
+m-chp3-seciv-notes-l189-204-0041,chp-3:03_CHP-3_sec_iv:l189-243,cand-11608,Duplex Intercessio,2029,2047,Bernini's source composition named in footnote 4; distinct from Gaulli's resulting dome scheme.
 m-chp3-seciv-notes-l189-204-0042,chp-3:03_CHP-3_sec_iv:l189-243,cand-5475,Brauer und Wittkower,2063,2083,Publication cited for plate 128.
 m-chp3-seciv-notes-l205-243-0001,chp-3:03_CHP-3_sec_iv:l189-243,cand-5479,Damello Bartoli,2232,2247,Preserve the S0 OCR name; p.83 print image reads Daniello Bartoli.
 m-chp3-seciv-notes-l205-243-0002,chp-3:03_CHP-3_sec_iv:l189-243,cand-5473,Lanckoronska,2312,2324,Cited publication by author surname.
@@ -9622,7 +9628,6 @@ m-chp3-seciv-l58-67-0032,chp-3:03_CHP-3_sec_iv:l58-67,cand-3427,Virgin,2595,2601
 m-chp3-seciv-l58-67-0033,chp-3:03_CHP-3_sec_iv:l58-67,cand-4910,Christ,2658,2664,
 m-chp3-seciv-l58-67-0034,chp-3:03_CHP-3_sec_iv:l58-67,cand-5262,Adam,2794,2798,
 m-chp3-seciv-l58-67-0035,chp-3:03_CHP-3_sec_iv:l58-67,cand-5263,Eve,2803,2806,
-m-chp3-seciv-l58-67-0036,chp-3:03_CHP-3_sec_iv:l58-67,cand-5259,saints and kings,2879,2895,Collective iconographic figures within the named composition; no individual identities are supplied.
 m-chp3-seciv-l69-73-0001,chp-3:03_CHP-3_sec_iv:l69-73,cand-5266,the triangular spaces below the dome,49,85,
 m-chp3-seciv-l69-73-0002,chp-3:03_CHP-3_sec_iv:l69-73,cand-5267,the Doctors of the Church,102,127,
 m-chp3-seciv-l69-73-0003,chp-3:03_CHP-3_sec_iv:l69-73,cand-5268,the Prophets,129,141,
@@ -9675,11 +9680,11 @@ m-chp3-seciv-l75-81-0001,chp-3:03_CHP-3_sec_iv:l75-81,cand-5001,the apse,13,21,
 m-chp3-seciv-l75-81-0002,chp-3:03_CHP-3_sec_iv:l75-81,cand-1771,Oliva,67,72,
 m-chp3-seciv-l75-81-0003,chp-3:03_CHP-3_sec_iv:l75-81,cand-1117,Gaulli,74,80,
 m-chp3-seciv-l75-81-0004,chp-3:03_CHP-3_sec_iv:l75-81,cand-5218,the dome,184,192,
-m-chp3-seciv-l75-81-0005,chp-3:03_CHP-3_sec_iv:l75-81,cand-5287,The Adoration of the Lamb,220,245,
+m-chp3-seciv-l75-81-0005,chp-3:03_CHP-3_sec_iv:l75-81,cand-5291,The Adoration of the Lamb,220,245,"Iconographic subject, distinct from Gaulli's fresco."
 m-chp3-seciv-l75-81-0007,chp-3:03_CHP-3_sec_iv:l75-81,cand-4490,Rome,276,280,
 m-chp3-seciv-l75-81-0008,chp-3:03_CHP-3_sec_iv:l75-81,cand-5288,mosaics in S. Prassede,291,313,
 m-chp3-seciv-l75-81-0009,chp-3:03_CHP-3_sec_iv:l75-81,cand-0719,S. Prassede,302,313,
-m-chp3-seciv-l75-81-0010,chp-3:03_CHP-3_sec_iv:l75-81,cand-5289,S. Maria Maggiore,318,335,
+m-chp3-seciv-l75-81-0010,chp-3:03_CHP-3_sec_iv:l75-81,cand-5289,mosaics in S. Prassede and S. Maria Maggiore,291,335,"Coordinated mosaic phrase; this candidate covers the S. Maria Maggiore component, separately mapped as a place in cand-0712."
 m-chp3-seciv-l75-81-0012,chp-3:03_CHP-3_sec_iv:l75-81,cand-0995,Alessandro Farnese,486,504,
 m-chp3-seciv-l75-81-0013,chp-3:03_CHP-3_sec_iv:l75-81,cand-5000,the tribune,629,640,
 m-chp3-seciv-l75-81-0014,chp-3:03_CHP-3_sec_iv:l75-81,cand-5290,the glorification of Christ,833,860,
@@ -9700,14 +9705,14 @@ m-chp3-seciv-l75-81-0028,chp-3:03_CHP-3_sec_iv:l75-81,cand-3403,the Society,1819
 m-chp3-seciv-l75-81-0029,chp-3:03_CHP-3_sec_iv:l75-81,cand-0995,Cardinal Farnese,1991,2007,
 m-chp3-seciv-l75-81-0030,chp-3:03_CHP-3_sec_iv:l75-81,cand-5300,"The chapel, in the right transept",2034,2067,
 m-chp3-seciv-l75-81-0031,chp-3:03_CHP-3_sec_iv:l75-81,cand-3403,Jesuit patronage,2130,2146,
-m-chp3-seciv-l75-81-0032,chp-3:03_CHP-3_sec_iv:l75-81,cand-5300,the Saviour,2184,2195,
-m-chp3-seciv-l75-81-0033,chp-3:03_CHP-3_sec_iv:l75-81,cand-5300,the Resurrection,2208,2224,
+m-chp3-seciv-l75-81-0032,chp-3:03_CHP-3_sec_iv:l75-81,cand-4910,the Saviour,2184,2195,
+m-chp3-seciv-l75-81-0033,chp-3:03_CHP-3_sec_iv:l75-81,cand-11609,the Resurrection,2208,2224,
 m-chp3-seciv-l75-81-0034,chp-3:03_CHP-3_sec_iv:l75-81,cand-0156,Baglione,2233,2241,
 m-chp3-seciv-l75-81-0035,chp-3:03_CHP-3_sec_iv:l75-81,cand-5297,an altarpiece,2254,2267,
 m-chp3-seciv-l75-81-0036,chp-3:03_CHP-3_sec_iv:l75-81,cand-5302,his canonisation,2281,2297,
 m-chp3-seciv-l75-81-0037,chp-3:03_CHP-3_sec_iv:l75-81,cand-2826,St Francis Xavier,2334,2351,
 m-chp3-seciv-l75-81-0038,chp-3:03_CHP-3_sec_iv:l75-81,cand-5298,a picture of the saint,2373,2395,
-m-chp3-seciv-l75-81-0039,chp-3:03_CHP-3_sec_iv:l75-81,cand-0960,Van Dyck,2422,2430,
+m-chp3-seciv-l75-81-0039,chp-3:03_CHP-3_sec_iv:l75-81,cand-0958,Van Dyck,2422,2430,Person candidate; the index's paintings subentry remains a separate work candidate.
 m-chp3-seciv-l75-81-0040,chp-3:03_CHP-3_sec_iv:l75-81,cand-5300,the patronage of the chapel,2471,2498,
 m-chp3-seciv-l75-81-0041,chp-3:03_CHP-3_sec_iv:l75-81,cand-1732,Negroni,2525,2532,
 m-chp3-seciv-l75-81-0049,chp-3:03_CHP-3_sec_iv:l75-81,cand-1732,Negroni,2645,2652,
@@ -9716,7 +9721,7 @@ m-chp3-seciv-l75-81-0043,chp-3:03_CHP-3_sec_iv:l75-81,cand-5200,the rest of the 
 m-chp3-seciv-l75-81-0045,chp-3:03_CHP-3_sec_iv:l75-81,cand-5299,drawings for a grandiose altar,2812,2842,
 m-chp3-seciv-l75-81-0044,chp-3:03_CHP-3_sec_iv:l75-81,cand-0342,Pietro da Cortona,2848,2865,
 m-chp3-seciv-l75-81-0046,chp-3:03_CHP-3_sec_iv:l75-81,cand-0342,the artist,2878,2888,
-m-chp3-seciv-l75-81-0047,chp-3:03_CHP-3_sec_iv:l75-81,cand-5299,the projected pediment,2922,2944,
+m-chp3-seciv-l75-81-0047,chp-3:03_CHP-3_sec_iv:l75-81,cand-11610,the projected pediment,2922,2944,"The projected architectural component, distinct from Pietro da Cortona's drawings."
 m-chp3-seciv-l75-81-0048,chp-3:03_CHP-3_sec_iv:l75-81,cand-0997,Duke Ranuccio,3039,3052,
 m-chp3-seciv-l75-81-0050,chp-3:03_CHP-3_sec_iv:l75-81,cand-2263,Clement,3214,3221,Name continues as Pope Clement IX in following segment L85.
 m-chp3-seciv-l8-14-0001,chp-3:03_CHP-3_sec_iv:l8-14,cand-3110,Chiesa Nuova,10,22,Church named as the location; record each explicit occurrence.
@@ -9838,9 +9843,9 @@ m-chp3-seciv-l96-104-0008,chp-3:03_CHP-3_sec_iv:l96-104,cand-1771,Oliva,226,231,
 m-chp3-seciv-l96-104-0004,chp-3:03_CHP-3_sec_iv:l96-104,cand-3403,the Society,434,445,
 m-chp3-seciv-l96-104-0009,chp-3:03_CHP-3_sec_iv:l96-104,cand-0694,S. Andrea,474,483,
 m-chp3-seciv-l96-104-0011,chp-3:03_CHP-3_sec_iv:l96-104,cand-0298,he began to build,490,507,Refers to Bernini.
-m-chp3-seciv-l96-104-0012,chp-3:03_CHP-3_sec_iv:l96-104,cand-5313,his own son,650,661,Local continuation of the Bernini-son reference named as Domenico in the preceding segment; footnote 2 remains pending.
+m-chp3-seciv-l96-104-0012,chp-3:03_CHP-3_sec_iv:l96-104,cand-5313,his own son,650,661,The preceding sentence identifies Domenico as Bernini’s son; this occurrence is read in that local context. Note 2 is linked as a locator for Bernini’s reported saying; its source was not independently consulted.
 m-chp3-seciv-l96-104-0014,chp-3:03_CHP-3_sec_iv:l96-104,cand-0694,the church,677,687,
-m-chp3-seciv-l96-104-0013,chp-3:03_CHP-3_sec_iv:l96-104,cand-5313,My son,706,712,Bernini’s quoted address to the son; footnote 2 remains pending.
+m-chp3-seciv-l96-104-0013,chp-3:03_CHP-3_sec_iv:l96-104,cand-5313,My son,706,712,Bernini’s quoted address to his son. Note 2 is linked as a locator for the reported saying; its source was not independently consulted.
 m-chp3-seciv-l96-104-0016,chp-3:03_CHP-3_sec_iv:l96-104,cand-0694,the building,936,948,
 m-chp3-seciv-l96-104-0017,chp-3:03_CHP-3_sec_iv:l96-104,cand-4490,Rome,993,997,
 m-chp3-seciv-l96-104-0047,chp-3:03_CHP-3_sec_iv:l96-104,cand-5309,the project,1053,1064,
@@ -9863,14 +9868,14 @@ m-chp3-seciv-l96-104-0033,chp-3:03_CHP-3_sec_iv:l96-104,cand-0404,Borromini,1904
 m-chp3-seciv-l96-104-0034,chp-3:03_CHP-3_sec_iv:l96-104,cand-0404,the most prominent architect of the day,1915,1954,Appositional description of Borromini.
 m-chp3-seciv-l96-104-0002,chp-3:03_CHP-3_sec_iv:l96-104,cand-0298,Bernini,1986,1993,
 m-chp3-seciv-l96-104-0035,chp-3:03_CHP-3_sec_iv:l96-104,cand-5321,The drawings,1996,2008,
-m-chp3-seciv-l96-104-0036,chp-3:03_CHP-3_sec_iv:l96-104,cand-2911,"Innocent
+m-chp3-seciv-l96-104-0036,chp-3:03_CHP-3_sec_iv:l96-104,cand-1819,"Innocent
 X",2024,2034,Pope’s name is split across source lines L100–101.
 m-chp3-seciv-l96-104-0037,chp-3:03_CHP-3_sec_iv:l96-104,cand-5322,the Rector of the novitiate,2093,2120,
-m-chp3-seciv-l96-104-0038,chp-3:03_CHP-3_sec_iv:l96-104,cand-2889,the new Pope,2144,2156,
-m-chp3-seciv-l96-104-0039,chp-3:03_CHP-3_sec_iv:l96-104,cand-2889,Alexander VII,2158,2171,
-m-chp3-seciv-l96-104-0040,chp-3:03_CHP-3_sec_iv:l96-104,cand-2889,the Pope,2239,2247,"Second occurrence: Alexander VII, named in the same sentence."
+m-chp3-seciv-l96-104-0038,chp-3:03_CHP-3_sec_iv:l96-104,cand-0665,the new Pope,2144,2156,
+m-chp3-seciv-l96-104-0039,chp-3:03_CHP-3_sec_iv:l96-104,cand-0665,Alexander VII,2158,2171,
+m-chp3-seciv-l96-104-0040,chp-3:03_CHP-3_sec_iv:l96-104,cand-0665,the Pope,2239,2247,"Second occurrence: Alexander VII, named in the same sentence."
 m-chp3-seciv-l96-104-0041,chp-3:03_CHP-3_sec_iv:l96-104,cand-1814,Prince Camillo Pamfili,2420,2442,
-m-chp3-seciv-l96-104-0042,chp-3:03_CHP-3_sec_iv:l96-104,cand-2911,"Pope Innocent
+m-chp3-seciv-l96-104-0042,chp-3:03_CHP-3_sec_iv:l96-104,cand-1819,"Pope Innocent
 X",2454,2469,Name is split across source lines L102–103.
 m-chp3-seciv-l96-104-0043,chp-3:03_CHP-3_sec_iv:l96-104,cand-3456,his family,2513,2523,The Pamfili family.
 m-chp3-seciv-l96-104-0015,chp-3:03_CHP-3_sec_iv:l96-104,cand-0694,the church,2587,2597,
@@ -10360,11 +10365,11 @@ m-chp4-sec-ii-p108-naude,chp-4:04_CHP-4_sec_ii:l109-119,cand-1726,Gabriel Naudé
 m-chp4-sec-ii-p108-portrait-group,chp-4:04_CHP-4_sec_ii:l109-119,cand-5831,portraits,2636,2645,"Plural, unidentified portrait group introduced in a sentence continuing on p.109."
 m-chp4-sec-ii-p108-naude-inscriptions,chp-4:04_CHP-4_sec_ii:l109-119,cand-1726,Naudé,2691,2696,Named as the writer of the Latin inscriptions.
 m-chp4-sec-ii-p109-cassiano-collection,chp-4:04_CHP-4_sec_ii:l121-128,cand-2036,Cassiano’s,26,36,Cassiano is referenced in the continuation of the portrait sentence begun on p.108.
-m-chp4-sec-ii-p109-portraits-naude,chp-4:04_CHP-4_sec_ii:l121-128,cand-5832,collection,37,47,"The portrait collection introduced on p.108, continued here as the setting for the portraits."
+m-chp4-sec-ii-p109-portraits-naude,chp-4:04_CHP-4_sec_ii:l121-128,cand-5831,collection,37,47,"The portrait collection introduced on p.108, continued here as the setting for the portraits."
 m-chp4-sec-ii-p109-cassiano-him,chp-4:04_CHP-4_sec_ii:l121-128,cand-2036,him,124,127,Pronoun in Cassiano’s reported 1647 request to Gaudenzi.
 m-chp4-sec-ii-p109-paganino-gaudenzi,chp-4:04_CHP-4_sec_ii:l121-128,cand-1116,Paganino Gaudenzi,149,166,Scholar asked to send his likeness.
 m-chp4-sec-ii-p109-portrait-likeness,chp-4:04_CHP-4_sec_ii:l121-128,cand-5842,his likeness,179,191,"The requested likeness, before the later acknowledgement."
-m-chp4-sec-ii-p109-cassiano-collection-illustrious,chp-4:04_CHP-4_sec_ii:l121-128,cand-5832,the collection I have,272,293,Collection of portraits in Cassiano’s quoted letter; relation to the 1641 imprint is not assumed beyond the text.
+m-chp4-sec-ii-p109-cassiano-collection-illustrious,chp-4:04_CHP-4_sec_ii:l121-128,cand-5831,the collection I have,272,293,Collection of portraits in Cassiano’s quoted letter; relation to the 1641 imprint is not assumed beyond the text.
 m-chp4-sec-ii-p109-portrait-copy,chp-4:04_CHP-4_sec_ii:l121-128,cand-5842,a portrait,386,396,Portrait acknowledged in Cassiano’s quoted letter.
 m-chp4-sec-ii-p109-portrait-original,chp-4:04_CHP-4_sec_ii:l121-128,cand-5843,original,458,466,Original from which the copy is said to derive.
 m-chp4-sec-ii-p109-saracini,chp-4:04_CHP-4_sec_ii:l121-128,cand-2359,Gherardo Saracini,479,496,Named as the maker of the reported original portrait.
@@ -10600,7 +10605,7 @@ m-chp4-sec-ii-p114-0016,chp-4:04_CHP-4_sec_ii:l172-178,cand-3462,Europe,677,683,
 m-chp4-sec-ii-p114-0008,chp-4:04_CHP-4_sec_ii:l172-178,cand-1984,Poussin,776,783,Named artist; plural Poussins refers to paintings and is excluded.
 m-chp4-sec-ii-p114-0002,chp-4:04_CHP-4_sec_ii:l172-178,cand-2036,Cassiano,841,849,Named patron; repeated occurrences retained.
 m-chp4-sec-ii-p114-0029,chp-4:04_CHP-4_sec_ii:l172-178,cand-5921,his patron’s collection,896,919,Cassiano’s painting collection as a group.
-m-chp4-sec-ii-p114-0042,chp-4:04_CHP-4_sec_ii:l172-178,cand-5921,fifty or so Poussins,933,953,"Metonym for approximately fifty pictures, not the artist."
+m-chp4-sec-ii-p114-0042,chp-4:04_CHP-4_sec_ii:l172-178,cand-11649,fifty or so Poussins,933,953,"Metonym for approximately fifty Poussin paintings in Cassiano’s collection, not the artist or the collection itself."
 m-chp4-sec-ii-p114-0018,chp-4:04_CHP-4_sec_ii:l172-178,cand-2792,Vouet,1077,1082,Named artist.
 m-chp4-sec-ii-p114-0019,chp-4:04_CHP-4_sec_ii:l172-178,cand-0342,Pietro da Cortona,1084,1101,Named artist.
 m-chp4-sec-ii-p114-0020,chp-4:04_CHP-4_sec_ii:l172-178,cand-2556,Testa,1106,1111,Named artist.
@@ -10632,6 +10637,9 @@ m-chp4-sec-ii-p114-0034,chp-4:04_CHP-4_sec_ii:l172-178,cand-1564,Camillo Massimi
 m-chp4-sec-ii-p114-0035,chp-4:04_CHP-4_sec_ii:l172-178,cand-4144,Moses,2993,2998,Biblical figure named in the painting title.
 m-chp4-sec-ii-p114-0043,chp-4:04_CHP-4_sec_ii:l172-178,cand-5945,Moses trampling on Pharaoh’s Crown,2993,3027,Named work; the list continues on p.115.
 m-chp4-sec-ii-p114-0036,chp-4:04_CHP-4_sec_ii:l172-178,cand-4145,Pharaoh,3012,3019,Figure named in the painting title.
+m-chp4-sec-ii-p114-0044,chp-4:04_CHP-4_sec_ii:l172-178,cand-11650,that group in Rome,1651,1669,Unnamed collective; nested Rome mention is retained.
+m-chp4-sec-ii-p114-0045,chp-4:04_CHP-4_sec_ii:l172-178,cand-11651,many other amateurs,1033,1052,Unnamed collective of amateur owners.
+m-chp4-sec-ii-p114-0046,chp-4:04_CHP-4_sec_ii:l172-178,cand-11652,"fine paintings by Vouet, Pietro da Cortona and Testa",1059,1111,Unidentified work group; named makers remain separately mentioned.
 m-chp4-sec-ii-p115-0001,chp-4:04_CHP-4_sec_ii:l180-189,cand-5945,Plate 19a,12,21,Plate locator for the first work named on p.114.
 m-chp4-sec-ii-p115-0003,chp-4:04_CHP-4_sec_ii:l180-189,cand-4144,Moses,27,32,Biblical figure nested in the work title.
 m-chp4-sec-ii-p115-0002,chp-4:04_CHP-4_sec_ii:l180-189,cand-5946,Moses changing Aaron s Rod into a Serpent,27,68,Second work; OCR omits apostrophe in Aaron's.
@@ -10710,7 +10718,7 @@ m-chp4-sec-ii-p116-0029,chp-4:04_CHP-4_sec_ii:l191-205,cand-4110,Plate 20,1370,1
 m-chp4-sec-ii-p116-0009,chp-4:04_CHP-4_sec_ii:l191-205,cand-1564,Massimi,1409,1416,Surname reference to Camillo Massimi.
 m-chp4-sec-ii-p116-0021,chp-4:04_CHP-4_sec_ii:l191-205,cand-2709,Velasquez,1708,1717,Named painter; source mention.
 m-chp4-sec-ii-p116-0031,chp-4:04_CHP-4_sec_ii:l191-205,cand-5970,a portrait of Donna Olimpia,1791,1818,"Work identified by sitter, without a title."
-m-chp4-sec-ii-p116-0030,chp-4:04_CHP-4_sec_ii:l191-205,cand-1498,Donna Olimpia,1805,1818,Named sitter of the portrait Massimi acquired.
+m-chp4-sec-ii-p116-0030,chp-4:04_CHP-4_sec_ii:l191-205,cand-1496,Donna Olimpia,1805,1818,Named sitter of the portrait Massimi acquired.
 m-chp4-sec-ii-p116-0032,chp-4:04_CHP-4_sec_ii:l191-205,cand-1819,the Pope,1820,1828,Appositional family reference to Innocent X.
 m-chp4-sec-ii-p116-0010,chp-4:04_CHP-4_sec_ii:l191-205,cand-1564,Massimi,1960,1967,Surname reference to Camillo Massimi.
 m-chp4-sec-ii-p116-0033,chp-4:04_CHP-4_sec_ii:l191-205,cand-4396,Jerusalem,2114,2123,See of the office to which Massimi was appointed.
@@ -10735,12 +10743,12 @@ m-chp4-sec-ii-p117-0011,chp-4:04_CHP-4_sec_ii:l207-216,cand-4591,Spaniards,386,3
 m-chp4-sec-ii-p117-0012,chp-4:04_CHP-4_sec_ii:l207-216,cand-4632,France,419,425,France as polity in the quarrels.
 m-chp4-sec-ii-p117-0013,chp-4:04_CHP-4_sec_ii:l207-216,cand-5968,French,448,454,"Collective French actors, membership unspecified."
 m-chp4-sec-ii-p117-0015,chp-4:04_CHP-4_sec_ii:l207-216,cand-5977,Peace of the Pyrenees,571,592,Named peace settlement.
-m-chp4-sec-ii-p117-0016,chp-4:04_CHP-4_sec_ii:l207-216,cand-3457,Venetians,630,639,Venetians as collective political actor.
+m-chp4-sec-ii-p117-0016,chp-4:04_CHP-4_sec_ii:l207-216,cand-11664,Venetians,630,639,Venetians as collective political actor.
 m-chp4-sec-ii-p117-0004,chp-4:04_CHP-4_sec_ii:l207-216,cand-1564,Massimi,659,666,Surname reference to Camillo Massimi.
 m-chp4-sec-ii-p117-0018,chp-4:04_CHP-4_sec_ii:l207-216,cand-0665,Pope,680,684,Papal reference to Alexander VII.
 m-chp4-sec-ii-p117-0020,chp-4:04_CHP-4_sec_ii:l207-216,cand-4490,Rome,688,692,City named as location.
 m-chp4-sec-ii-p117-0019,chp-4:04_CHP-4_sec_ii:l207-216,cand-0665,Alexander VII,747,760,Named pope.
-m-chp4-sec-ii-p117-0017,chp-4:04_CHP-4_sec_ii:l207-216,cand-3457,Venetians,804,813,Venetians as collective political actor.
+m-chp4-sec-ii-p117-0017,chp-4:04_CHP-4_sec_ii:l207-216,cand-11664,Venetians,804,813,Venetians as collective political actor.
 m-chp4-sec-ii-p117-0022,chp-4:04_CHP-4_sec_ii:l207-216,cand-1319,Jesuits,846,853,Jesuit order.
 m-chp4-sec-ii-p117-0014,chp-4:04_CHP-4_sec_ii:l207-216,cand-5968,French,989,995,"Collective French actors, membership unspecified."
 m-chp4-sec-ii-p117-0005,chp-4:04_CHP-4_sec_ii:l207-216,cand-1564,Massimi,1023,1030,Surname reference to Camillo Massimi.
@@ -10768,10 +10776,10 @@ m-chp4-sec-ii-p118-0008,chp-4:04_CHP-4_sec_ii:l218-227,cand-0087,Pope Clement X,
 m-chp4-sec-ii-p118-0002,chp-4:04_CHP-4_sec_ii:l218-227,cand-1564,Massimi,367,374,Camillo Massimi; surname reference.
 m-chp4-sec-ii-p118-0011,chp-4:04_CHP-4_sec_ii:l218-227,cand-5989,his portrait,557,569,Portrait of Massimi by Carlo Maratta.
 m-chp4-sec-ii-p118-0010,chp-4:04_CHP-4_sec_ii:l218-227,cand-1526,Carlo Maratta,581,594,Named painter.
-m-chp4-sec-ii-p118-0013,chp-4:04_CHP-4_sec_ii:l218-227,cand-4651,Altieri,833,840,Altieri family collectively.
+m-chp4-sec-ii-p118-0013,chp-4:04_CHP-4_sec_ii:l218-227,cand-6461,Altieri,833,840,Altieri family collectively.
 m-chp4-sec-ii-p118-0016,chp-4:04_CHP-4_sec_ii:l218-227,cand-0291,Cardinal Bentivoglio,917,937,Historical officeholder invoked for comparison.
 m-chp4-sec-ii-p118-0012,chp-4:04_CHP-4_sec_ii:l218-227,cand-4490,Rome,1039,1043,City named as site of the fresco opportunity.
-m-chp4-sec-ii-p118-0015,chp-4:04_CHP-4_sec_ii:l218-227,cand-5990,main ceding fresco,1048,1066,Main ceiling fresco; OCR “ceding” is corrected in the assertion.
+m-chp4-sec-ii-p118-0015,chp-4:04_CHP-4_sec_ii:l218-227,cand-5990,main ceding fresco,1048,1066,OCR reads 'ceding'; the scan reads 'ceiling'.
 m-chp4-sec-ii-p118-0014,chp-4:04_CHP-4_sec_ii:l218-227,cand-5990,Allegory of Clemency,1081,1101,Subject depicted in the palace ceiling fresco.
 m-chp4-sec-ii-p118-0009,chp-4:04_CHP-4_sec_ii:l218-227,cand-0087,Pope,1175,1179,"Pope Clement X, named in the appointment/allusion passage."
 m-chp4-sec-ii-p118-0003,chp-4:04_CHP-4_sec_ii:l218-227,cand-1564,Massimi,1228,1235,Camillo Massimi; surname reference.
@@ -10790,7 +10798,7 @@ m-chp4-sec-ii-p118-0023,chp-4:04_CHP-4_sec_ii:l218-227,cand-1984,Poussin,1902,19
 m-chp4-sec-ii-p118-0025,chp-4:04_CHP-4_sec_ii:l218-227,cand-5994,volume,1917,1923,Volume acquired from Marino’s successors.
 m-chp4-sec-ii-p118-0026,chp-4:04_CHP-4_sec_ii:l218-227,cand-1548,Marino,1963,1969,Giambattista Marino; the text refers to his successors.
 m-chp4-sec-ii-p118-0006,chp-4:04_CHP-4_sec_ii:l218-227,cand-1564,Massimi,1980,1987,Camillo Massimi; surname reference.
-m-chp4-sec-ii-p118-0028,chp-4:04_CHP-4_sec_ii:l218-227,cand-1572,copies made by Pietro Santo Bartoli,2077,2112,Index-derived candidate for the copies of manuscript illustrations.
+m-chp4-sec-ii-p118-0028,chp-4:04_CHP-4_sec_ii:l218-227,cand-11672,copies made by Pietro Santo Bartoli,2077,2112,Index-derived candidate for the copies of manuscript illustrations.
 m-chp4-sec-ii-p118-0027,chp-4:04_CHP-4_sec_ii:l218-227,cand-0251,Pietro Santo Bartoli,2092,2112,Named maker of the copies.
 m-chp4-sec-ii-p118-0029,chp-4:04_CHP-4_sec_ii:l218-227,cand-4380,Vatican library,2190,2205,Institution holding the manuscript.
 m-chp4-sec-ii-p118-0030,chp-4:04_CHP-4_sec_ii:l218-227,cand-5995,late antique edition of Virgil,2208,2238,"Specific manuscript, shelfmark unspecified."
@@ -10823,7 +10831,7 @@ m-chp4-sec-ii-p99body-0007,chp-4:04_CHP-4_sec_ii:l232-308,cand-0641,Prince Feder
 m-chp4-sec-ii-p99body-0008,chp-4:04_CHP-4_sec_ii:l232-308,cand-0003,its founder,290,301,Anaphoric reference to the Accademia dei Lincei; the appositive identifies Cesi as founder.
 m-chp4-sec-ii-p99body-0009,chp-4:04_CHP-4_sec_ii:l232-308,cand-5641,died in 1630,303,315,"Death of Prince Federico Cesi, dated 1630 by Haskell."
 m-chp4-sec-ii-p99body-0010,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,Cassiano,316,324,"Cassiano dal Pozzo, purchaser of books and instruments after Cesi’s death."
-m-chp4-sec-ii-p99body-0011,chp-4:04_CHP-4_sec_ii:l232-308,cand-0641,his books and scientific instruments,350,386,“His” is read as Federico Cesi from the immediately preceding clause; the source does not specify the transaction’s archival details.
+m-chp4-sec-ii-p99body-0011,chp-4:04_CHP-4_sec_ii:l232-308,cand-0641,his,350,353,Possessive pronoun refers to Federico Cesi; the following nouns are separately mapped as the objects of Cassiano's purchase.
 m-chp4-sec-ii-p99body-0012,chp-4:04_CHP-4_sec_ii:l232-308,cand-5632,natural history,436,451,Field associated with materials Cassiano collected.
 m-chp4-sec-ii-p99body-0013,chp-4:04_CHP-4_sec_ii:l232-308,cand-5636,the pubheation of works,466,489,OCR “pubheation” is “publication” in the scan; work titles remain unspecified.
 m-chp4-sec-ii-p99body-0014,chp-4:04_CHP-4_sec_ii:l232-308,cand-5633,medicine,493,501,One subject of the unspecified sponsored works.
@@ -10848,6 +10856,9 @@ m-chp4-sec-ii-p99body-0032,chp-4:04_CHP-4_sec_ii:l232-308,cand-5642,"Giuseppe Ga
 m-chp4-sec-ii-p99note-0001,chp-4:04_CHP-4_sec_ii:l232-308,cand-5649,Lumbroso,1541,1549,Cited publication in footnote 4 at p.137; keep separate from footnote 2’s “passim” citation until identity is established.
 m-chp4-sec-ii-p99body-0033,chp-4:04_CHP-4_sec_ii:l232-308,cand-5643,Lumbroso: passim,1541,1557,Citation in footnote 2; title and year are not supplied.
 m-chp4-sec-ii-p99body-0034,chp-4:04_CHP-4_sec_ii:l232-308,cand-5644,"Carutti, 1883",1561,1574,Citation in footnote 3; title is not supplied.
+m-chp4-sec-ii-p99body-0035,chp-4:04_CHP-4_sec_ii:l232-308,cand-0003,the recently created ancestor,58,87,Appositive description of the Accademia dei Lincei in Haskell's comparison.
+m-chp4-sec-ii-p99body-0036,chp-4:04_CHP-4_sec_ii:l232-308,cand-11678,all European scientific societies,91,124,Collective comparison target; no constituent societies are identified.
+m-chp4-sec-ii-p99body-0037,chp-4:04_CHP-4_sec_ii:l232-308,cand-11679,books and scientific instruments,354,386,Unspecified mixed group of items that Haskell says Cassiano bought from Cesi's collection.
 m-chp4-sec-ii-p99note-0002,chp-4:04_CHP-4_sec_ii:l232-308,cand-5648,Letter of 27 August 1617,1595,1619,Work cited by footnote 4; its author and fuller details are not supplied.
 m-chp4-sec-ii-p99note-0003,chp-4:04_CHP-4_sec_ii:l232-308,cand-5650,Naudaeana et Patiniana,1642,1664,Printed source cited in footnote 5.
 m-chp4-sec-ii-p99note-0004,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,Cassianus a Puteo,1690,1707,Latinized form of Cassiano dal Pozzo in the quoted comment.
@@ -10858,6 +10869,7 @@ m-chp4-sec-ii-p99note-0008,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,six mil livr
 m-chp4-sec-ii-p99note-0009,chp-4:04_CHP-4_sec_ii:l232-308,cand-5651,neveu d’un Àrcheveque de Pise,1828,1857,Kinship assertion in the French quotation; keep the Archbishop distinct from the earlier candidate until identity is established.
 m-chp4-sec-ii-p99note-0010,chp-4:04_CHP-4_sec_ii:l232-308,cand-5651,qui portoit ce nom,1858,1876,The antecedent of “this name” is unclear in the quoted text.
 m-chp4-sec-ii-p99note-0011,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,n’est point marie,1881,1898,The comment says Cassiano was unmarried; retain the source’s temporal context.
+m-chp4-sec-ii-p99note-0012,chp-4:04_CHP-4_sec_ii:l232-308,cand-11680,plusieurs Savans,2007,2023,Several unnamed learned people in the French comment; identities and exact number are not supplied.
 m-chp4-sec-ii-p100note-0001,chp-4:04_CHP-4_sec_ii:l232-308,cand-1861,Peiresc,2028,2035,Named author in footnote 1.
 m-chp4-sec-ii-p100note-0002,chp-4:04_CHP-4_sec_ii:l232-308,cand-5662,"Peiresc, IV, p. 107",2028,2047,Bibliographic locator; title unspecified.
 m-chp4-sec-ii-p100note-0003,chp-4:04_CHP-4_sec_ii:l232-308,cand-5656,This portrait,2051,2064,Portrait referred to in body.
@@ -11073,7 +11085,7 @@ m-chp4-sec-ii-notes-p114-0060,chp-4:04_CHP-4_sec_ii:l232-308,cand-1984,Poussin,9
 m-chp4-sec-ii-notes-p114-0061,chp-4:04_CHP-4_sec_ii:l232-308,cand-4634,Correspondance—passim,9756,9777,Cited correspondence edition; locator only.
 m-chp4-sec-ii-notes-p114-0062,chp-4:04_CHP-4_sec_ii:l232-308,cand-4371,"Mahon, 1947, pp. 144 if.",9809,9833,Existing Mahon 1947 publication; scan reads pp.144 ff.
 m-chp4-sec-ii-notes-p114-0054,chp-4:04_CHP-4_sec_ii:l232-308,cand-5793,Sheila Rinehart,9867,9882,Named author of cited source.
-m-chp4-sec-ii-notes-p114-0055,chp-4:04_CHP-4_sec_ii:l232-308,cand-5792,"Actes, 1961, pp. 19-30",9886,9908,Publication locator; reuse the existing 1961 Rinehart candidate.
+m-chp4-sec-ii-notes-p114-0055,chp-4:04_CHP-4_sec_ii:l232-308,cand-11428,"Actes, 1961, pp. 19-30",9886,9908,"The page range matches the Actes contribution candidate; the footnote says 1961 while the bibliography says 1960, vol. I."
 m-chp4-sec-ii-notes-p114-0044,chp-4:04_CHP-4_sec_ii:l232-308,cand-5936,Landscape with Woman washing her Feet,9943,9980,Work title; reported version in Ottawa.
 m-chp4-sec-ii-notes-p114-0045,chp-4:04_CHP-4_sec_ii:l232-308,cand-5940,Ottawa,9982,9988,Location given for reported version.
 m-chp4-sec-ii-notes-p114-0046,chp-4:04_CHP-4_sec_ii:l232-308,cand-5937,Funeral ofPhocion,9991,10008,OCR joins title words; scan reads Funeral of Phocion.
@@ -11147,11 +11159,11 @@ m-chp4-sec-ii-p118note-0008,chp-4:04_CHP-4_sec_ii:l232-308,cand-4388,Abbate Mich
 m-chp4-sec-ii-p118note-0009,chp-4:04_CHP-4_sec_ii:l232-308,cand-5504,"Abbate Michele Giustiniani, III, p. 567",12040,12079,Reuse volume III citation candidate; page added.
 m-chp4-sec-ii-p118note-0010,chp-4:04_CHP-4_sec_ii:l232-308,cand-3502,Rothlisberger,12083,12096,Named scholar cited.
 m-chp4-sec-ii-p118note-0011,chp-4:04_CHP-4_sec_ii:l232-308,cand-4577,"Rothlisberger, 1961",12083,12102,Reuse the 1961 publication candidate.
-m-chp4-sec-ii-p118note-0012,chp-4:04_CHP-4_sec_ii:l232-308,cand-6002,Chicago Art Institute,12149,12170,Repository named for one painting.
-m-chp4-sec-ii-p118note-0013,chp-4:04_CHP-4_sec_ii:l232-308,cand-5971,Lord Leicester Collection,12175,12200,Named collection; mapping to individual painting unresolved.
+m-chp4-sec-ii-p118note-0012,chp-4:04_CHP-4_sec_ii:l232-308,cand-6002,Chicago Art Institute,12149,12170,One of the two reported repositories; exact painting assignment is unspecified.
+m-chp4-sec-ii-p118note-0013,chp-4:04_CHP-4_sec_ii:l232-308,cand-5971,Lord Leicester Collection,12175,12200,One of the two reported repositories; exact painting assignment is unspecified.
 m-chp4-sec-ii-p118note-0016,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,Cassiano dal Pozzo,12202,12220,Named previous owner in note 5.
 m-chp4-sec-ii-p118note-0014,chp-4:04_CHP-4_sec_ii:l232-308,cand-0342,Pietro da Cortona,12250,12267,Named painter in note 5.
-m-chp4-sec-ii-p118note-0015,chp-4:04_CHP-4_sec_ii:l232-308,cand-5724,Origin of Coral,12275,12290,Reuse the previously identified Cortona painting candidate; object identity still merits global alignment.
+m-chp4-sec-ii-p118note-0015,chp-4:04_CHP-4_sec_ii:l232-308,cand-11673,Origin of Coral,12275,12290,Surface identifies the Origin of Coral subject; the unspecified Cortona painting remains cand-5724 in the linked statement.
 m-chp4-sec-ii-p118note-0017,chp-4:04_CHP-4_sec_ii:l232-308,cand-3507,Bottari,12461,12468,Named author/editor of the 1741 text.
 m-chp4-sec-ii-p118note-0018,chp-4:04_CHP-4_sec_ii:l232-308,cand-6009,de Nolhac,12478,12487,Author cited by surname.
 m-chp4-sec-ii-p118note-0019,chp-4:04_CHP-4_sec_ii:l232-308,cand-6008,"de Nolhac, p. 25",12478,12494,Publication/page locator.
@@ -11314,7 +11326,7 @@ m-chp4-sec-ii-l46-51-0026,chp-4:04_CHP-4_sec_ii:l46-51,cand-1105,Galileo,1378,13
 m-chp4-sec-ii-l46-51-0027,chp-4:04_CHP-4_sec_ii:l46-51,cand-2036,Cassiano,1428,1436,Person named or referred to in the passage.
 m-chp4-sec-ii-l46-51-0028,chp-4:04_CHP-4_sec_ii:l46-51,cand-4266,France,1486,1492,Geographic place named in Cassiano’s travels.
 m-chp4-sec-ii-l46-51-0029,chp-4:04_CHP-4_sec_ii:l46-51,cand-5120,Spain,1497,1502,Geographic place named in Cassiano’s travels.
-m-chp4-sec-ii-l46-51-0030,chp-4:04_CHP-4_sec_ii:l46-51,cand-0342,a number of things,1513,1531,Approximate unspecified works by Pietro da Cortona; not equated with the two later named pictures.
+m-chp4-sec-ii-l46-51-0030,chp-4:04_CHP-4_sec_ii:l46-51,cand-11641,a number of things,1513,1531,The vague phrase denotes unidentified works by Pietro owned by Cassiano before travel; not equated with the two named pictures later.
 m-chp4-sec-ii-l46-51-0031,chp-4:04_CHP-4_sec_ii:l46-51,cand-0342,Pietro da Cortona,1536,1553,Artist named in the collection and architecture discussion.
 m-chp4-sec-ii-l46-51-0032,chp-4:04_CHP-4_sec_ii:l46-51,cand-0295,Bernini,1556,1563,Artist named in the patronage and architecture discussion.
 m-chp4-sec-ii-l46-51-0033,chp-4:04_CHP-4_sec_ii:l46-51,cand-2036,made him,1564,1572,Him refers to Cassiano.
@@ -11344,7 +11356,7 @@ m-chp4-sec-ii-l46-51-0056,chp-4:04_CHP-4_sec_ii:l46-51,cand-2419,Serlio,3216,322
 m-chp4-sec-ii-l46-51-0057,chp-4:04_CHP-4_sec_ii:l46-51,cand-1807,Palladio,3224,3232,Architect named in Cassiano’s quotation.
 m-chp4-sec-ii-l46-51-0058,chp-4:04_CHP-4_sec_ii:l46-51,cand-2775,Vignola,3234,3241,Architect named in Cassiano’s quotation.
 m-chp4-sec-ii-l46-51-0059,chp-4:04_CHP-4_sec_ii:l46-51,cand-5730,those perfectly regular orders,3318,3348,Architectural order concept in Cassiano’s quotation.
-m-chp4-sec-ii-l46-51-0060,chp-4:04_CHP-4_sec_ii:l46-51,cand-4490,Roman buildings,3354,3369,Location expressed adjectivally in the quotation.
+m-chp4-sec-ii-l46-51-0060,chp-4:04_CHP-4_sec_ii:l46-51,cand-11642,Roman buildings,3354,3369,Unspecified Roman buildings are the quoted source of architectural proportions; not merely a location mention of Rome.
 m-chp4-sec-ii-l53-63-0001,chp-4:04_CHP-4_sec_ii:l53-63,cand-0404,Borromini,47,56,Named as the commonly identified target of Cassiano’s architectural outburst.
 m-chp4-sec-ii-l53-63-0002,chp-4:04_CHP-4_sec_ii:l53-63,cand-0295,Bernini,143,150,Sculptor discussed in Cassiano’s changing views and the wider artistic argument.
 m-chp4-sec-ii-l53-63-0003,chp-4:04_CHP-4_sec_ii:l53-63,cand-2036,Cassiano,253,261,Person discussed or referred to in the passage.
@@ -11356,7 +11368,7 @@ m-chp4-sec-ii-l53-63-0008,chp-4:04_CHP-4_sec_ii:l53-63,cand-4515,"Paul
 Ill",448,456,S0 reads “Ill”; the scan confirms the Roman numeral III.
 m-chp4-sec-ii-l53-63-0007,chp-4:04_CHP-4_sec_ii:l53-63,cand-4516,"Paul
 Ill’s [by Guglielmo della Porta]",448,485,S0 reads “Ill”; the scan confirms Paul III. The tomb is said to stand opposite Urban VIII’s.
-m-chp4-sec-ii-l53-63-0009,chp-4:04_CHP-4_sec_ii:l53-63,cand-1978,Guglielmo della Porta,463,484,Artist named as maker of Paul III’s opposite tomb.
+m-chp4-sec-ii-l53-63-0009,chp-4:04_CHP-4_sec_ii:l53-63,cand-1977,Guglielmo della Porta,463,484,"The passage names Guglielmo della Porta as maker of Paul III's opposite tomb; map to the existing person candidate, not the duplicate index candidate typed as a work."
 m-chp4-sec-ii-l53-63-0010,chp-4:04_CHP-4_sec_ii:l53-63,cand-5734,Fountain of the Four Rivers,555,582,Named work in Cassiano’s reported enthusiasm.
 m-chp4-sec-ii-l53-63-0011,chp-4:04_CHP-4_sec_ii:l53-63,cand-0952,"The sculptor who really appealed to
 Cassiano’s tastes",672,725,The paragraph identifies the sculptor as François Duquesnoy.
@@ -11374,7 +11386,7 @@ m-chp4-sec-ii-l53-63-0022,chp-4:04_CHP-4_sec_ii:l53-63,cand-5750,the ancients,10
 m-chp4-sec-ii-l53-63-0023,chp-4:04_CHP-4_sec_ii:l53-63,cand-2036,Cassiano,1062,1070,Person discussed or referred to in the passage.
 m-chp4-sec-ii-l53-63-0024,chp-4:04_CHP-4_sec_ii:l53-63,cand-4937,extreme high Baroque style,1085,1111,Haskell’s authorial phrase for the 1630s style cultivated by the Barberini.
 m-chp4-sec-ii-l53-63-0025,chp-4:04_CHP-4_sec_ii:l53-63,cand-4937,Baroque,1098,1105,Barberini-era style characterized by Haskell.
-m-chp4-sec-ii-l53-63-0026,chp-4:04_CHP-4_sec_ii:l53-63,cand-4301,"the straight and narrow path of true, classical painting",1186,1242,Classical painting as the path in Haskell’s comparison.
+m-chp4-sec-ii-l53-63-0026,chp-4:04_CHP-4_sec_ii:l53-63,cand-11643,"the straight and narrow path of true, classical painting",1186,1242,Classical painting as the path in this comparison; keep separate from the early-1620s periodizing phrase cand-4301.
 m-chp4-sec-ii-l53-63-0027,chp-4:04_CHP-4_sec_ii:l53-63,cand-1516,Mannerism,1259,1268,Earlier tendency named in Haskell’s comparison.
 m-chp4-sec-ii-l53-63-0028,chp-4:04_CHP-4_sec_ii:l53-63,cand-5739,Naturalism,1272,1282,Earlier tendency named in Haskell’s comparison.
 m-chp4-sec-ii-l53-63-0029,chp-4:04_CHP-4_sec_ii:l53-63,cand-5740,the team of artists who had made their first appearance in St Peter’s under the auspices of the Barberini,1310,1415,Unnamed collective; membership is not supplied in this passage.
@@ -11462,7 +11474,7 @@ m-chp4-sec-ii-l80-89-protege,chp-4:04_CHP-4_sec_ii:l80-89,cand-1984,favourite pr
 m-chp4-sec-ii-l80-89-carracci-collective,chp-4:04_CHP-4_sec_ii:l80-89,cand-4318,the Carracci,1427,1439,"The reported advice names the collective, not Annibale alone."
 m-chp4-sec-ii-l80-89-marbles,chp-4:04_CHP-4_sec_ii:l80-89,cand-5516,your marbles,1450,1462,"Quoted shorthand for antique sculpture; preserve as wording, not a literal identified collection."
 m-chp4-sec-ii-l80-89-annibale,chp-4:04_CHP-4_sec_ii:l80-89,cand-0576,Annibale Carracci,1523,1540,Named individually in the following authorial assessment.
-m-chp4-sec-ii-l80-89-antique-forms,chp-4:04_CHP-4_sec_ii:l80-89,cand-4301,antique forms,1586,1599,Haskell's characterization of Carracci's subject and method.
+m-chp4-sec-ii-l80-89-antique-forms,chp-4:04_CHP-4_sec_ii:l80-89,cand-11646,antique forms,1586,1599,The phrase names the antique forms Annibale Carracci is described as interpreting in an acceptable seventeenth-century language; not the early-1620s reaction candidate.
 m-chp4-sec-ii-l80-89-rome-travellers,chp-4:04_CHP-4_sec_ii:l80-89,cand-4490,Rome,1664,1668,Place named as the destination of the unnamed travellers.
 m-chp4-sec-ii-l80-89-poussins,chp-4:04_CHP-4_sec_ii:l80-89,cand-1984,Poussins,1698,1706,Plural refers to paintings by Nicolas Poussin in Cassiano's collection.
 m-chp4-sec-ii-l80-89-cassiano-4,chp-4:04_CHP-4_sec_ii:l80-89,cand-2036,Cassiano,1710,1718,Collection whose Poussin pictures are being discussed.
@@ -11542,13 +11554,13 @@ m-chp5-p120-note-0001,chp-5:05_CHP-5_intro:l7-9,cand-2015,The Martyrdom of St Er
 m-chp5-p120-note-0002,chp-5:05_CHP-5_intro:l7-9,cand-6014,St Erasmus,34,44,Title-level subject nested within the work title; no further identity asserted.
 m-chp5-p120-note-0003,chp-5:05_CHP-5_intro:l7-9,cand-6012,Vatican Gallery,57,72,Repository as named by Haskell; not equated here with Pinacoteca Vaticana.
 m-chp5-p120-note-0004,chp-5:05_CHP-5_intro:l7-9,cand-1984,Poussin,102,109,Painter named as maker of the altarpiece and modello.
-m-chp5-p120-note-0005,chp-5:05_CHP-5_intro:l7-9,cand-0714,St Peter’s,138,148,Church named as the Italian church for which the altarpiece was painted; index candidate is the St Peter’s altarpiece entry.
+m-chp5-p120-note-0005,chp-5:05_CHP-5_intro:l7-9,cand-0713,St Peter’s,138,148,"The church for which Haskell says the altarpiece was painted; use the church/place candidate, not the separate altarpiece index heading."
 m-chp5-p120-note-0006,chp-5:05_CHP-5_intro:l7-9,cand-6013,preparatory modello,198,217,Distinct preparatory work; Haskell gives no title or medium.
 m-chp5-p120-note-0007,chp-5:05_CHP-5_intro:l7-9,cand-5940,Ottawa,219,225,Location given parenthetically for the modello; no institution specified.
 m-chp5-p120-note-0008,chp-5:05_CHP-5_intro:l7-9,cand-3506,Friedlaender,230,242,Scholar named in a citation; identity unresolved.
 m-chp5-p120-note-0009,chp-5:05_CHP-5_intro:l7-9,cand-4375,"Friedlaender, p. 101",230,250,Citation locator for the source on Caravaggio/Del Monte; title and edition remain unresolved.
 m-chp5-p120-note-0010,chp-5:05_CHP-5_intro:l7-9,cand-1507,Mancini,254,261,Author named in a citation; identified in the index candidate as Giulio Mancini.
-m-chp5-p120-note-0011,chp-5:05_CHP-5_intro:l7-9,cand-5726,"Mancini, I, p. 249",254,272,"Volume I citation locator at p. 249; reuse of the existing title/edition-unspecified Mancini I source candidate, with this passage’s locator preserved."
+m-chp5-p120-note-0011,chp-5:05_CHP-5_intro:l7-9,cand-1508,"Mancini, I, p. 249",254,272,"Citation to Giulio Mancini’s Considerazioni sulla Pittura, volume I, page 249; edition given in the bibliography, cited page not independently consulted."
 m-chp5-p130-0001,chp-5:05_CHP-5_sec_i:l108-113,cand-3152,bentveughels,182,194,Named society/group; retain the source spelling and leave its identity alignment to S3.
 m-chp5-p130-0002,chp-5:05_CHP-5_sec_i:l108-113,cand-6063,body of connoisseurs,330,350,Unnamed emerging collective described by its aesthetic judgment of pictures.
 m-chp5-p130-0003,chp-5:05_CHP-5_sec_i:l108-113,cand-1200,Vincenzo Giustiniani,712,732,Index lead includes printed page 130.
@@ -11664,7 +11676,7 @@ m-chp5-note-L137-024,chp-5:05_CHP-5_sec_i:l125-147,cand-6082,Cornelius de Stael,
 m-chp5-note-L137-025,chp-5:05_CHP-5_sec_i:l125-147,cand-2297,Don Antonio Ruffo,1797,1814,
 m-chp5-note-L138-027,chp-5:05_CHP-5_sec_i:l125-147,cand-6084,Holland,2051,2058,
 m-chp5-note-L139-028,chp-5:05_CHP-5_sec_i:l125-147,cand-0560,Ferrante Carlo,2079,2093,
-m-chp5-note-L139-029,chp-5:05_CHP-5_sec_i:l125-147,cand-3509,Miss Jane Costello,2131,2149,
+m-chp5-note-L139-029,chp-5:05_CHP-5_sec_i:l125-147,cand-7016,Miss Jane Costello,2131,2149,
 m-chp5-note-L139-030,chp-5:05_CHP-5_sec_i:l125-147,cand-6085,Dumesnil,2151,2159,
 m-chp5-note-L139-031,chp-5:05_CHP-5_sec_i:l125-147,cand-0417,Bottari,2274,2281,
 m-chp5-note-L139-032,chp-5:05_CHP-5_sec_i:l125-147,cand-4945,Cassiano dal Pozzo,2486,2504,
@@ -11742,7 +11754,7 @@ m-chp5-p120-0001,chp-5:05_CHP-5_sec_i:l3-7,cand-1984,OUSSIN,0,6,PDF印本为POUS
 m-chp5-p120-0002,chp-5:05_CHP-5_sec_i:l3-7,cand-4490,Rome,45,49,城市实体。
 m-chp5-p120-0007,chp-5:05_CHP-5_sec_i:l3-7,cand-3578,Florentine Renaissance,593,615,绘画史术语。
 m-chp5-p120-0003,chp-5:05_CHP-5_sec_i:l3-7,cand-4490,Rome,730,734,城市实体。
-m-chp5-p120-0008,chp-5:05_CHP-5_sec_i:l3-7,cand-4266,French,757,763,法国政策/文化或国别描述。
+m-chp5-p120-0008,chp-5:05_CHP-5_sec_i:l3-7,cand-4221,French policy and culture,757,782,"French political and cultural alignment; map to the France political/cultural candidate, not the geographic France place mention."
 m-chp5-p120-0010,chp-5:05_CHP-5_sec_i:l3-7,cand-0209,Urban VIII,817,827,Maffeo Barberini；指其教宗任期。
 m-chp5-p120-0004,chp-5:05_CHP-5_sec_i:l3-7,cand-4490,Rome,1312,1316,城市实体。
 m-chp5-p120-0011,chp-5:05_CHP-5_sec_i:l3-7,cand-0125,professional art dealers,1495,1519,职业画商群体。
@@ -11785,7 +11797,7 @@ m-chp5-p124-0023,chp-5:05_CHP-5_sec_i:l35-49,cand-2434,Simonelli,1758,1767,Nicco
 m-chp5-p124-0024,chp-5:05_CHP-5_sec_i:l35-49,cand-1856,Passeri,2057,2064,Cited authority; citation is not independent verification.
 m-chp5-p124-0026,chp-5:05_CHP-5_sec_i:l35-49,cand-2236,Salvator Rosa,2107,2120,Rosa’s letters are cited as mentioning Simonelli.
 m-chp5-p124-0025,chp-5:05_CHP-5_sec_i:l35-49,cand-2434,Simonelli,2132,2141,Passeri’s characterization of him as an expert.
-m-chp5-p124-0027,chp-5:05_CHP-5_sec_i:l35-49,cand-2391,Luigi Scaramuccia,2230,2247,Index-derived artist candidate; the source also names a specific print.
+m-chp5-p124-0027,chp-5:05_CHP-5_sec_i:l35-49,cand-2390,Luigi Scaramuccia,2230,2247,Person mention maps to cand-2390; print cand-6018 and index work candidate cand-2391 remain distinct pending S3 alignment.
 m-chp5-p124-0029,chp-5:05_CHP-5_sec_i:l35-49,cand-6018,Venus and Adonis,2276,2292,Title of Scaramuccia’s dedicated print.
 m-chp5-p124-0028,chp-5:05_CHP-5_sec_i:l35-49,cand-2434,Simonelli,2317,2326,Recipient of the dedication.
 m-chp5-p124-0033,chp-5:05_CHP-5_sec_i:l35-49,cand-6019,drawing,2385,2392,Context-specific drawing by Testa at Windsor.
@@ -11818,13 +11830,13 @@ m-chp5-p125-0015,chp-5:05_CHP-5_sec_i:l51-58,cand-2293,Rubens,1814,1820,Peter Pa
 m-chp5-p125-0016,chp-5:05_CHP-5_sec_i:l51-58,cand-6027,Bergamasque community,2048,2069,Community described as holding exhibitions in Rome.
 m-chp5-p125-0017,chp-5:05_CHP-5_sec_i:l51-58,cand-4490,Rome,2073,2077,City where the community held exhibitions.
 m-chp5-p125-0018,chp-5:05_CHP-5_sec_i:l51-58,cand-6028,St Bartholomew,2128,2142,Patron saint named in the passage; identity left at the source’s level of specificity.
-m-chp5-p125-0019,chp-5:05_CHP-5_sec_i:l51-58,cand-0698,church of S. Bartolomeo,2185,2208,Index subentry lead; retain the architectural/place reading for later alignment.
-m-chp5-p125-0020,chp-5:05_CHP-5_sec_i:l51-58,cand-0698,S. Bartolomeo all’Isola,2757,2780,Index subentry lead; the source gives this as a less important exhibition venue.
+m-chp5-p125-0019,chp-5:05_CHP-5_sec_i:l51-58,cand-11729,church of S. Bartolomeo,2185,2208,Named church and courtyard venue; distinct from S. Bartolomeo all’Isola.
+m-chp5-p125-0020,chp-5:05_CHP-5_sec_i:l51-58,cand-11735,S. Bartolomeo all’Isola,2757,2780,Site named for less important name-day exhibitions; organizer identity remains unresolved.
 m-chp5-p125-0021,chp-5:05_CHP-5_sec_i:l51-58,cand-0720,S. Salvatore in Lauro,3029,3050,Index-derived church/place lead.
 m-chp5-p125-0022,chp-5:05_CHP-5_sec_i:l51-58,cand-6029,papers of Giuseppe Ghezzi,3084,3109,"Specific archival papers, distinct from the named person and current repository."
 m-chp5-p125-0023,chp-5:05_CHP-5_sec_i:l51-58,cand-1157,Giuseppe Ghezzi,3094,3109,Named person associated with the papers.
 m-chp5-p125-0024,chp-5:05_CHP-5_sec_i:l51-58,cand-6030,Museo di Roma,3121,3134,Repository named by the source; no catalogue record is supplied.
-m-chp5-p126-0001,chp-5:05_CHP-5_sec_i:l60-74,cand-0131,saints’ day fairs,37,54,Completes the comparison begun on p.125 L57.
+m-chp5-p126-0001,chp-5:05_CHP-5_sec_i:l60-74,cand-11741,saints’ day fairs,37,54,Comparator category for the S. Bartolomeo all'Isola name-day exhibitions begun at p.125 L57.
 m-chp5-p126-0002,chp-5:05_CHP-5_sec_i:l60-74,cand-4490,Rome,295,299,City of the annual exhibition.
 m-chp5-p126-0004,chp-5:05_CHP-5_sec_i:l60-74,cand-6031,the one held in the Pantheon each year on 19 March,304,354,Recurring St Joseph’s Day exhibition series; event candidate.
 m-chp5-p126-0003,chp-5:05_CHP-5_sec_i:l60-74,cand-4236,Pantheon,324,332,Place hosting the annual exhibition; source-specific aliases are held separately for S3.
@@ -11859,8 +11871,8 @@ m-chp5-p126-0031,chp-5:05_CHP-5_sec_i:l60-74,cand-0821,Congregazione,3190,3203,R
 m-chp5-p126-0032,chp-5:05_CHP-5_sec_i:l60-74,cand-6032,St Joseph,3380,3389,Saint named in the will quotation.
 m-chp5-p126-0033,chp-5:05_CHP-5_sec_i:l60-74,cand-6038,Madonna of the Rotonda,3419,3441,Place named in the will; keep distinct from Pantheon pending S3.
 m-chp5-p127-0001,chp-5:05_CHP-5_sec_i:l76-83,cand-6031,the exhibition,95,109,Anaphoric continuation of the Pantheon exhibition described on p.126.
-m-chp5-p127-0003,chp-5:05_CHP-5_sec_i:l76-83,cand-6031,the exhibition,302,316,The 1680 instance belongs to the Pantheon exhibition series.
-m-chp5-p127-0004,chp-5:05_CHP-5_sec_i:l76-83,cand-6047,the exhibition of 1680,302,324,Specific seizure episode; nested in the continuing Pantheon exhibition reference.
+m-chp5-p127-0003,chp-5:05_CHP-5_sec_i:l76-83,cand-6031,the exhibition,302,316,The 1680 instance within the Pantheon exhibition series.
+m-chp5-p127-0004,chp-5:05_CHP-5_sec_i:l76-83,cand-6047,the exhibition of 1680,302,324,The 1680 order-to-seize episode at the Pantheon exhibition.
 m-chp5-p127-0002,chp-5:05_CHP-5_sec_i:l76-83,cand-4490,Rome,506,510,City in Haskell’s explanation of the 1680 religious climate.
 m-chp5-p127-0005,chp-5:05_CHP-5_sec_i:l76-83,cand-6039,The other great annual exhibition,617,650,"The second annual exhibition series, distinguished from the Pantheon event."
 m-chp5-p127-0006,chp-5:05_CHP-5_sec_i:l76-83,cand-4490,Rome,659,663,City hosting the annual event.
@@ -11889,7 +11901,7 @@ m-chp5-p127-0024,chp-5:05_CHP-5_sec_i:l76-83,cand-3429,the saint,1790,1799,Anaph
 m-chp5-p127-0025,chp-5:05_CHP-5_sec_i:l76-83,cand-2236,Salvator Rosa,1801,1814,Index-derived painter candidate.
 m-chp5-p127-0026,chp-5:05_CHP-5_sec_i:l76-83,cand-6039,the exhibition,1842,1856,Rosa’s use of the event to show his work publicly.
 m-chp5-p127-0027,chp-5:05_CHP-5_sec_i:l76-83,cand-4452,the Sacchetti,2009,2022,Existing source-derived family candidate; first occurrence as 1662 organizers.
-m-chp5-p127-0028,chp-5:05_CHP-5_sec_i:l76-83,cand-6039,the exhibition,2035,2049,The 1662 event in the recurring series.
+m-chp5-p127-0028,chp-5:05_CHP-5_sec_i:l76-83,cand-11766,the exhibition,2035,2049,Specific exhibition organized by the Sacchetti in 1662.
 m-chp5-p127-0029,chp-5:05_CHP-5_sec_i:l76-83,cand-2236,Rosa,2069,2073,Rosa is named as the source of the pride-of-place report.
 m-chp5-p127-0030,chp-5:05_CHP-5_sec_i:l76-83,cand-0342,Pietro da Cortona,2103,2120,Index-derived artist candidate.
 m-chp5-p127-0031,chp-5:05_CHP-5_sec_i:l76-83,cand-0342,the family painter,2122,2140,Role label for Pietro da Cortona in relation to the Sacchetti.
@@ -11903,9 +11915,9 @@ m-chp5-p127-0038,chp-5:05_CHP-5_sec_i:l76-83,cand-6050,an avviso,2918,2927,Unspe
 m-chp5-p127-0039,chp-5:05_CHP-5_sec_i:l76-83,cand-0675,Queen Christina,3037,3052,Index-derived person candidate; the page-specific loan lead cand-0678 remains separate.
 m-chp5-p127-0040,chp-5:05_CHP-5_sec_i:l76-83,cand-6049,The Rospigliosi,3092,3107,The family’s restriction to old masters.
 m-chp5-p127-0041,chp-5:05_CHP-5_sec_i:l76-83,cand-2236,Rosa,3243,3247,Artist who challenged the restriction.
-m-chp5-p127-0042,chp-5:05_CHP-5_sec_i:l76-83,cand-6039,the occasion,3345,3357,The San Giovanni Decollato exhibition named in Rosa’s nickname.
+m-chp5-p127-0042,chp-5:05_CHP-5_sec_i:l76-83,cand-11767,the occasion,3345,3357,Specific Rospigliosi exhibition in 1668.
 m-chp5-p127-0043,chp-5:05_CHP-5_sec_i:l76-83,cand-6039,Valley of Jehoshaphat,3363,3384,Quoted nickname Rosa gave the occasion; not a separate event.
-m-chp5-p127-0044,chp-5:05_CHP-5_sec_i:l76-83,cand-2236,his band of supporters,3515,3537,Anaphoric reference to Rosa; his unnamed supporters are not created as separate candidates.
+m-chp5-p127-0044,chp-5:05_CHP-5_sec_i:l76-83,cand-11764,his band of supporters,3515,3537,"Anaphoric reference to Rosa’s unnamed supporters, distinct from Rosa."
 m-chp5-p127-0045,chp-5:05_CHP-5_sec_i:l76-83,cand-4490,Rome,3549,3553,Place where supporters may have canvassed viewers.
 m-chp5-p127-0046,chp-5:05_CHP-5_sec_i:l76-83,cand-2630,the Titian,3584,3594,Artist named metonymically for an unidentified picture; do not create a title candidate.
 m-chp5-p127-0047,chp-5:05_CHP-5_sec_i:l76-83,cand-0852,the Correggio,3596,3609,Artist named metonymically for an unidentified picture; the quotation continues on p.128.
@@ -16863,6 +16875,7 @@ m-chp8-p207-note-020,chp-8:08_CHP-8_sec_i:l126-157,cand-4835,"de Dominici, III, 
 m-chp8-p207-note-021,chp-8:08_CHP-8_sec_i:l126-157,cand-7595,the Colonna collection,2476,2498,Evidence is expressly said to be lacking for other pictures in this collection.
 m-chp8-p207-note-022,chp-8:08_CHP-8_sec_i:l126-157,cand-6386,Vaes,2531,2535,Haskell refers to Vaes’s provenance certainty but does not supply a title or locator in this note.
 m-chp8-p207-note-023,chp-8:08_CHP-8_sec_i:l126-157,cand-4835,"De Dominici, IV, p. 47",2574,2596,Citation locator for the p.207 body quotation; cited page not independently read.
+m-chp8-p207-note-024,chp-8:08_CHP-8_sec_i:l126-157,cand-11553,his three daughters,1881,1900,Bounded collective of three unnamed daughters; candidate type remains unassigned; no individual share assignment is implied.
 m-chp8-p208-note-001,chp-8:08_CHP-8_sec_i:l126-157,cand-4835,De Dominici,2600,2611,"In-book citation to volume IV, p.131; cited page not independently read."
 m-chp8-p208-note-002,chp-8:08_CHP-8_sec_i:l126-157,cand-6454,Ruffo,2758,2763,Short citation mapped to the V. Ruffo 1916 bibliography entry; p.176 not independently read.
 m-chp8-p208-note-003,chp-8:08_CHP-8_sec_i:l126-157,cand-5609,Bartsch,2775,2782,"Volume V, pp.5-10 cited for the de Wael print series; cited pages not independently read."
@@ -23864,11 +23877,11 @@ m-chp15-p366-memmo-0038,chp-15:15_CHP-15_sec_ii:l14-28,cand-10498,another six,17
 m-chp15-p366-memmo-0039,chp-15:15_CHP-15_sec_ii:l14-28,cand-4490,Rome,1717,1721,
 m-chp15-p366-memmo-0040,chp-15:15_CHP-15_sec_ii:l14-28,cand-3960,Prato della Valle,1745,1762,OCR reads Prato; p.366 print reads Prà della Valle.
 m-chp15-p366-memmo-0041,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,Debts,1794,1799,
-m-chp15-p366-memmo-0042,chp-15:15_CHP-15_sec_ii:l14-28,cand-8406,the councillors,1810,1825,Unnamed civic actors; do not resolve their exact body here.
+m-chp15-p366-memmo-0042,chp-15:15_CHP-15_sec_ii:l14-28,cand-11529,the councillors,1810,1825,Unidentified councillors; kept distinct from the City of Padua civic-body candidate.
 m-chp15-p366-memmo-0043,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,work,1851,1855,
 m-chp15-p366-memmo-0044,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo remained,1898,1912,
 m-chp15-p366-memmo-0045,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,put up statues,1981,1995,
-m-chp15-p366-memmo-0046,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,his friends,1966,1977,Friends are unnamed; this mention records the reported relationship context only.
+m-chp15-p366-memmo-0046,chp-15:15_CHP-15_sec_ii:l14-28,cand-11527,his friends,1966,1977,"Unidentified friends; retained as a group endpoint, not mapped to Memmo."
 m-chp15-p366-memmo-0047,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,his plans,2069,2078,
 m-chp15-p366-memmo-0048,chp-15:15_CHP-15_sec_ii:l14-28,cand-2532,Giuseppe Subleyras,2088,2106,
 m-chp15-p366-memmo-0049,chp-15:15_CHP-15_sec_ii:l14-28,cand-8108,the nobility,2193,2205,
@@ -23911,22 +23924,20 @@ m-chp15-p366-memmo-0085,chp-15:15_CHP-15_sec_ii:l14-28,cand-1204,Duca,3439,3443,
 m-chp15-p367-memmo-0001,chp-15:15_CHP-15_sec_ii:l30-36,cand-1647,Elementi dell’Architettura lodoliana,50,86,Print has a superscript note 1 after the title; OCR renders it as a trailing ‘f’.
 m-chp15-p367-memmo-0002,chp-15:15_CHP-15_sec_ii:l30-36,cand-4490,Rome,28,32,
 m-chp15-p367-memmo-0003,chp-15:15_CHP-15_sec_ii:l30-36,cand-1411,his master’s,142,154,The referent is Carlo Lodoli in the adjacent clause.
-m-chp15-p367-memmo-0004,chp-15:15_CHP-15_sec_ii:l30-36,cand-1643,teaching of,302,313,Index candidate for Memmo and Lodoli; source-level relation only.
 m-chp15-p367-memmo-0005,chp-15:15_CHP-15_sec_ii:l30-36,cand-1411,Lodoli,314,320,
-m-chp15-p367-memmo-0006,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Prato della Valle,255,272,OCR reads Prato; p.367 print reads Prà della Valle.
+m-chp15-p367-memmo-0006,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Prato della Valle,255,272,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0007,chp-15:15_CHP-15_sec_ii:l30-36,cand-2719,Venice,389,395,
 m-chp15-p367-memmo-0008,chp-15:15_CHP-15_sec_ii:l30-36,cand-8449,Procuratore di San Marco,419,443,
 m-chp15-p367-memmo-0009,chp-15:15_CHP-15_sec_ii:l30-36,cand-1644,appointed two years earlier,465,492,
 m-chp15-p367-memmo-0010,chp-15:15_CHP-15_sec_ii:l30-36,cand-1642,he published,541,553,Andrea Memmo is the continuing subject.
 m-chp15-p367-memmo-0011,chp-15:15_CHP-15_sec_ii:l30-36,cand-1411,Lodoli’s,569,577,
-m-chp15-p367-memmo-0012,chp-15:15_CHP-15_sec_ii:l30-36,cand-1651,Apologhi,578,586,
+m-chp15-p367-memmo-0012,chp-15:15_CHP-15_sec_ii:l30-36,cand-1413,Apologhi,578,586,"The surface form denotes the Apologhi text/archive, not the publication event cand-1651."
 m-chp15-p367-memmo-0013,chp-15:15_CHP-15_sec_ii:l30-36,cand-10505,panegyric,685,694,
-m-chp15-p367-memmo-0014,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Prà della,786,795,The place-name is split across S0 lines 32–33; L33 begins ‘Valle’.
-m-chp15-p367-memmo-0015,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Valle,796,801,Continuation of the p.367 L32 Prà della Valle mention; superscript note 3 follows.
+m-chp15-p367-memmo-0014,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Prà della,786,795,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
+m-chp15-p367-memmo-0015,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Valle,796,801,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0016,chp-15:15_CHP-15_sec_ii:l30-36,cand-1642,Memmo himself,808,821,
 m-chp15-p367-memmo-0017,chp-15:15_CHP-15_sec_ii:l30-36,cand-10506,plans for an amphitheatre,931,956,
 m-chp15-p367-memmo-0018,chp-15:15_CHP-15_sec_ii:l30-36,cand-10509,municipal authorities,978,999,
-m-chp15-p367-memmo-0019,chp-15:15_CHP-15_sec_ii:l30-36,cand-1650,further statues,1001,1016,
 m-chp15-p367-memmo-0020,chp-15:15_CHP-15_sec_ii:l30-36,cand-0591,Casanova,1071,1079,
 m-chp15-p367-memmo-0021,chp-15:15_CHP-15_sec_ii:l30-36,cand-10507,Dux,1113,1116,
 m-chp15-p367-memmo-0022,chp-15:15_CHP-15_sec_ii:l30-36,cand-2797,the Count of,1118,1130,The name continues across the source line break at L34.
@@ -23936,27 +23947,27 @@ m-chp15-p367-memmo-0025,chp-15:15_CHP-15_sec_ii:l30-36,cand-10508,Pilsen,1218,12
 m-chp15-p367-memmo-0026,chp-15:15_CHP-15_sec_ii:l30-36,cand-1803,Padua,1263,1268,
 m-chp15-p367-memmo-0027,chp-15:15_CHP-15_sec_ii:l30-36,cand-8351,League of Cambrai,1279,1296,
 m-chp15-p367-memmo-0028,chp-15:15_CHP-15_sec_ii:l30-36,cand-2708,Giovanni Adalbertho Veith,1301,1326,
-m-chp15-p367-memmo-0029,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Prato della Valle,1386,1403,OCR reads Prato; p.367 print reads Prà della Valle.
+m-chp15-p367-memmo-0029,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Prato della Valle,1386,1403,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0030,chp-15:15_CHP-15_sec_ii:l30-36,cand-0532,Canova,1600,1606,
-m-chp15-p367-memmo-0031,chp-15:15_CHP-15_sec_ii:l30-36,cand-0536,a statue of the,1645,1660,The statue candidate is linked to the adjacent Marchese Poleni mention.
+m-chp15-p367-memmo-0031,chp-15:15_CHP-15_sec_ii:l30-36,cand-11530,a statue,1645,1653,The sculpture is a distinct work candidate; Marchese Poleni is separately mentioned at the adjacent span.
 m-chp15-p367-memmo-0032,chp-15:15_CHP-15_sec_ii:l30-36,cand-1968,Marchese Poleni,1661,1676,
 m-chp15-p367-memmo-0033,chp-15:15_CHP-15_sec_ii:l30-36,cand-2750,Leonardo Venier,1681,1696,
-m-chp15-p367-memmo-0034,chp-15:15_CHP-15_sec_ii:l30-36,cand-0534,the sculptor’s own statue,1748,1773,The p.367 index identifies the statue of Canova; retain this identity for S3 alignment.
+m-chp15-p367-memmo-0034,chp-15:15_CHP-15_sec_ii:l30-36,cand-0534,the sculptor,1748,1760,Coreferential mention of Canova; the artwork noun is separately mentioned as cand-11531.
 m-chp15-p367-memmo-0035,chp-15:15_CHP-15_sec_ii:l30-36,cand-0537,Antonio Cappello,1791,1807,
 m-chp15-p367-memmo-0036,chp-15:15_CHP-15_sec_ii:l30-36,cand-1020,Giovanni Ferrari,1813,1829,
-m-chp15-p367-memmo-0037,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Prato della Valle,2109,2126,OCR reads Prato; p.367 print reads Prà della Valle.
+m-chp15-p367-memmo-0037,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Prato della Valle,2109,2126,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0038,chp-15:15_CHP-15_sec_ii:l30-36,cand-10510,rococo sculpture,2201,2217,
 m-chp15-p367-memmo-0039,chp-15:15_CHP-15_sec_ii:l30-36,cand-6439,neo-classicism,2225,2239,
 m-chp15-p367-memmo-0040,chp-15:15_CHP-15_sec_ii:l30-36,cand-6836,Livy,2372,2376,
 m-chp15-p367-memmo-0041,chp-15:15_CHP-15_sec_ii:l30-36,cand-1105,Galileo,2380,2387,
 m-chp15-p367-memmo-0042,chp-15:15_CHP-15_sec_ii:l30-36,cand-10511,Middle Ages,2403,2414,
-m-chp15-p367-memmo-0043,chp-15:15_CHP-15_sec_ii:l30-36,cand-1804,Prà della,2631,2640,The sentence continues on p.368 L39 with ‘Valle of the effect’.
+m-chp15-p367-memmo-0043,chp-15:15_CHP-15_sec_ii:l30-36,cand-3960,Prà della,2631,2640,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0044,chp-15:15_CHP-15_sec_ii:l90-113,cand-10503,"della Valle, HI, p. 459",142,165,OCR reads HI; p.367 print reads III.
-m-chp15-p367-memmo-0045,chp-15:15_CHP-15_sec_ii:l90-113,cand-1804,prato della Valle,171,188,
+m-chp15-p367-memmo-0045,chp-15:15_CHP-15_sec_ii:l90-113,cand-3960,prato della Valle,171,188,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p367-memmo-0046,chp-15:15_CHP-15_sec_ii:l90-113,cand-10504,P. Valloni,332,342,OCR reads Valloni; p.367 print reads Vallotti.
 m-chp15-p367-memmo-0047,chp-15:15_CHP-15_sec_ii:l90-113,cand-1411,sistema Lodoliano,360,377,Italian wording retained from Haskell’s quoted passage.
 m-chp15-p367-memmo-0048,chp-15:15_CHP-15_sec_ii:l90-113,cand-1647,Elementi,573,581,
-m-chp15-p367-memmo-0049,chp-15:15_CHP-15_sec_ii:l90-113,cand-1651,Apologhi immaginati,706,725,
+m-chp15-p367-memmo-0049,chp-15:15_CHP-15_sec_ii:l90-113,cand-1413,Apologhi immaginati,706,725,"The surface form denotes the Apologhi text/archive, not the publication event cand-1651."
 m-chp15-p367-memmo-0050,chp-15:15_CHP-15_sec_ii:l90-113,cand-1411,Carlo de’ Conti Lodoli,790,812,
 m-chp15-p367-memmo-0051,chp-15:15_CHP-15_sec_ii:l90-113,cand-9736,Min. Osservante,813,828,
 m-chp15-p367-memmo-0052,chp-15:15_CHP-15_sec_ii:l90-113,cand-1642,Andrea Memmo,1016,1028,
@@ -23973,8 +23984,8 @@ m-chp15-p367-memmo-0062,chp-15:15_CHP-15_sec_ii:l90-113,cand-10475,Un nobil huom
 m-chp15-p367-memmo-0063,chp-15:15_CHP-15_sec_ii:l90-113,cand-1642,Memmo,1301,1306,
 m-chp15-p367-memmo-0064,chp-15:15_CHP-15_sec_ii:l90-113,cand-10476,Torcellan,1346,1355,
 m-chp15-p363-0087,chp-15:15_CHP-15_sec_i:l27-36,cand-3570,amateur,2843,2850,"Literal term in Daniele Farsetti’s ‘amateur painter’ description; linked to the existing open Amateur candidate, with global semantic alignment still pending."
-m-chp15-p368-querini-0001,chp-15:15_CHP-15_sec_ii:l38-47,cand-1804,Valle,11,16,Continuation of the p.367 L36 Prà della Valle place-name.
-m-chp15-p368-querini-0002,chp-15:15_CHP-15_sec_ii:l38-47,cand-1804,Pra della Valle,271,286,The print reads Prà della Valle; the OCR omits the accent.
+m-chp15-p368-querini-0001,chp-15:15_CHP-15_sec_ii:l38-47,cand-3960,Valle,11,16,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
+m-chp15-p368-querini-0002,chp-15:15_CHP-15_sec_ii:l38-47,cand-3960,Pra della Valle,271,286,Prà della Valle is the square/site in Padua; retain it separately from Padua city candidate cand-1804.
 m-chp15-p368-querini-0003,chp-15:15_CHP-15_sec_ii:l38-47,cand-1642,Venetian patron,340,355,The immediate context identifies the patron as Andrea Memmo.
 m-chp15-p368-querini-0004,chp-15:15_CHP-15_sec_ii:l38-47,cand-8107,Enlightenment,448,461,
 m-chp15-p368-querini-0005,chp-15:15_CHP-15_sec_ii:l38-47,cand-1642,Memmo,485,490,
@@ -23984,7 +23995,7 @@ m-chp15-p368-querini-0008,chp-15:15_CHP-15_sec_ii:l38-47,cand-2719,Venice,717,72
 m-chp15-p368-querini-0009,chp-15:15_CHP-15_sec_ii:l38-47,cand-10517,family palace,740,753,
 m-chp15-p368-querini-0010,chp-15:15_CHP-15_sec_ii:l38-47,cand-10518,frescoed gallery,771,787,
 m-chp15-p368-querini-0011,chp-15:15_CHP-15_sec_ii:l38-47,cand-1646,paintings,936,945,Index candidate for Memmo's collection of paintings.
-m-chp15-p368-querini-0012,chp-15:15_CHP-15_sec_ii:l38-47,cand-1642,his brothers,1033,1045,The brothers are unnamed; no individual identities are inferred.
+m-chp15-p368-querini-0012,chp-15:15_CHP-15_sec_ii:l38-47,cand-11532,his brothers,1033,1045,"The phrase identifies Memmo's unnamed brothers, not Memmo himself; their names and number are unknown."
 m-chp15-p368-querini-0013,chp-15:15_CHP-15_sec_ii:l38-47,cand-1002,Farsetti,1161,1169,
 m-chp15-p368-querini-0014,chp-15:15_CHP-15_sec_ii:l38-47,cand-1642,Memmo,1174,1179,
 m-chp15-p368-querini-0015,chp-15:15_CHP-15_sec_ii:l38-47,cand-2719,Venice,1290,1296,
@@ -24075,19 +24086,18 @@ m-chp15-p369-querini-0050,chp-15:15_CHP-15_sec_ii:l90-113,cand-1803,Padua,2807,2
 m-chp15-p370-alticchiero-0001,chp-15:15_CHP-15_sec_ii:l61-67,cand-1938,Piranesi,44,52,
 m-chp15-p370-alticchiero-0002,chp-15:15_CHP-15_sec_ii:l61-67,cand-10546,engravings,134,144,
 m-chp15-p370-alticchiero-0003,chp-15:15_CHP-15_sec_ii:l61-67,cand-1925,Picart,148,154,
-m-chp15-p370-alticchiero-0004,chp-15:15_CHP-15_sec_ii:l61-67,cand-10547,library,290,297,
+m-chp15-p370-alticchiero-0004,chp-15:15_CHP-15_sec_ii:l61-67,cand-11536,library,290,297,Here 'library' denotes the physical room; the books are recorded separately as a collection.
 m-chp15-p370-alticchiero-0005,chp-15:15_CHP-15_sec_ii:l61-67,cand-0155,Bacon,455,460,
 m-chp15-p370-alticchiero-0006,chp-15:15_CHP-15_sec_ii:l61-67,cand-8107,Enlightenment,489,502,
 m-chp15-p370-alticchiero-0007,chp-15:15_CHP-15_sec_ii:l61-67,cand-1411,Lodoli,530,536,
 m-chp15-p370-alticchiero-0008,chp-15:15_CHP-15_sec_ii:l61-67,cand-2075,Querini,538,545,
 m-chp15-p370-alticchiero-0009,chp-15:15_CHP-15_sec_ii:l61-67,cand-10549,series of prints,570,586,A print group described by purpose and subject; title and edition are not supplied.
 m-chp15-p370-alticchiero-0010,chp-15:15_CHP-15_sec_ii:l61-67,cand-0901,Daphnis and Chloe,657,674,
-m-chp15-p370-alticchiero-0011,chp-15:15_CHP-15_sec_ii:l61-67,cand-1786,Philippe d,695,705,"OCR preserves the given name and start of surname; print reads Philippe d'Orléans, Regent."
+m-chp15-p370-alticchiero-0011,chp-15:15_CHP-15_sec_ii:l61-67,cand-1786,Philippe d’Orléans,695,713,The full printed name is present in S0 and matches the p.370 scan.
 m-chp15-p370-alticchiero-0012,chp-15:15_CHP-15_sec_ii:l61-67,cand-0145,Audran,730,736,
 m-chp15-p370-alticchiero-0013,chp-15:15_CHP-15_sec_ii:l61-67,cand-2081,garden,743,749,
 m-chp15-p370-alticchiero-0014,chp-15:15_CHP-15_sec_ii:l61-67,cand-2075,Querini,809,816,
-m-chp15-p370-alticchiero-0015,chp-15:15_CHP-15_sec_ii:l61-67,cand-2827,Young’s,1163,1170,
-m-chp15-p370-alticchiero-0016,chp-15:15_CHP-15_sec_ii:l61-67,cand-10550,Wood,1171,1175,
+m-chp15-p370-alticchiero-0015,chp-15:15_CHP-15_sec_ii:l61-67,cand-10550,Young’s Wood,1163,1175,The complete toponym names the garden area; the poet is separately mentioned as 'the poet'.
 m-chp15-p370-alticchiero-0017,chp-15:15_CHP-15_sec_ii:l61-67,cand-10551,Night Thoughts,1205,1219,
 m-chp15-p370-alticchiero-0018,chp-15:15_CHP-15_sec_ii:l61-67,cand-3462,Europe,1259,1265,
 m-chp15-p370-alticchiero-0019,chp-15:15_CHP-15_sec_ii:l61-67,cand-10552,columns and burial urns,1077,1100,
@@ -24102,7 +24112,7 @@ m-chp15-p370-alticchiero-0027,chp-15:15_CHP-15_sec_ii:l61-67,cand-1198,Girolamo 
 m-chp15-p370-alticchiero-0028,chp-15:15_CHP-15_sec_ii:l61-67,cand-10529,Switzerland,2234,2245,
 m-chp15-p370-alticchiero-0029,chp-15:15_CHP-15_sec_ii:l61-67,cand-2824,Mme Rosenberg,2296,2309,
 m-chp15-p370-alticchiero-0030,chp-15:15_CHP-15_sec_ii:l61-67,cand-10559,Tranquillity,2337,2349,
-m-chp15-p370-alticchiero-0031,chp-15:15_CHP-15_sec_ii:l61-67,cand-10559,Country Life,2354,2366,
+m-chp15-p370-alticchiero-0031,chp-15:15_CHP-15_sec_ii:l61-67,cand-11539,Country Life,2354,2366,Country Life is a separate ideal from Tranquillity.
 m-chp15-p370-alticchiero-0032,chp-15:15_CHP-15_sec_ii:l61-67,cand-10560,Apollo,2380,2386,
 m-chp15-p370-alticchiero-0033,chp-15:15_CHP-15_sec_ii:l61-67,cand-10561,a modern and still living sculptor,2450,2484,
 m-chp15-p370-alticchiero-0034,chp-15:15_CHP-15_sec_ii:l61-67,cand-10562,cabane de la folie,2571,2589,
@@ -24134,12 +24144,11 @@ m-chp15-p371-querini-0011,chp-15:15_CHP-15_sec_ii:l69-83,cand-4302,Grand Duke of
 m-chp15-p371-querini-0012,chp-15:15_CHP-15_sec_ii:l69-83,cand-2075,Querini,464,471,
 m-chp15-p371-querini-0013,chp-15:15_CHP-15_sec_ii:l69-83,cand-10573,the occasion,600,612,
 m-chp15-p371-querini-0014,chp-15:15_CHP-15_sec_ii:l69-83,cand-10574,a monument,625,635,
-m-chp15-p371-querini-0015,chp-15:15_CHP-15_sec_ii:l69-83,cand-10575,allegory,861,869,
+m-chp15-p371-querini-0015,chp-15:15_CHP-15_sec_ii:l69-83,cand-11542,allegory,861,869,
 m-chp15-p371-querini-0016,chp-15:15_CHP-15_sec_ii:l69-83,cand-2824,Mme Rosenberg,836,849,
-m-chp15-p371-querini-0017,chp-15:15_CHP-15_sec_ii:l69-83,cand-10575,allegories,1036,1046,
+m-chp15-p371-querini-0017,chp-15:15_CHP-15_sec_ii:l69-83,cand-11542,allegories,1036,1046,
 m-chp15-p371-querini-0018,chp-15:15_CHP-15_sec_ii:l69-83,cand-2075,Querini’s,1050,1059,
-m-chp15-p371-querini-0019,chp-15:15_CHP-15_sec_ii:l69-83,cand-10575,sculpture,1208,1217,
-m-chp15-p371-querini-0020,chp-15:15_CHP-15_sec_ii:l69-83,cand-2824,Mme Rosenberg’s book,1129,1149,
+m-chp15-p371-querini-0020,chp-15:15_CHP-15_sec_ii:l69-83,cand-2825,Mme Rosenberg’s book,1129,1149,
 m-chp15-p371-querini-0021,chp-15:15_CHP-15_sec_ii:l69-83,cand-2816,Winckelmann,1346,1357,
 m-chp15-p371-querini-0022,chp-15:15_CHP-15_sec_ii:l69-83,cand-10576,Hercules,1474,1482,
 m-chp15-p371-querini-0023,chp-15:15_CHP-15_sec_ii:l69-83,cand-0034,Algardi,1486,1493,
@@ -24207,13 +24216,13 @@ m-chp16-p373-sasso-0011,chp-16:16_CHP-16_intro:l3-14,cand-8838,Republic,1790,179
 m-chp16-p373-sasso-0012,chp-16:16_CHP-16_intro:l3-14,cand-9174,British Residency,2011,2028,
 m-chp16-p373-sasso-0013,chp-16:16_CHP-16_intro:l3-14,cand-2517,John Strange,2095,2107,
 m-chp16-p373-sasso-0014,chp-16:16_CHP-16_intro:l3-14,cand-2517,Strange,2465,2472,
-m-chp16-p373-sasso-0015,chp-16:16_CHP-16_intro:l3-14,cand-2367,Sasso,2482,2487,Index sub-entry candidate for purchases of Venetian paintings for Strange; identity awaits S3.
+m-chp16-p373-sasso-0015,chp-16:16_CHP-16_intro:l3-14,cand-2364,Sasso,2482,2487,Sasso is the person employed; the purchase undertaking is separately represented by cand-2367.
 m-chp16-p373-sasso-0016,chp-16:16_CHP-16_intro:l69-89,cand-2364,Sasso,88,93,
 m-chp16-p373-sasso-0017,chp-16:16_CHP-16_intro:l69-89,cand-10600,Cicogna,43,50,
 m-chp16-p373-sasso-0018,chp-16:16_CHP-16_intro:l69-89,cand-10601,Osservazioni sopra i lavori A niello,96,132,
 m-chp16-p373-sasso-0019,chp-16:16_CHP-16_intro:l69-89,cand-10602,"Lorenzetti, 1914",139,155,
 m-chp16-p373-sasso-0020,chp-16:16_CHP-16_intro:l69-89,cand-10599,bis portrait,161,173,S0 OCR reads 'bis'; the printed reading is 'his'.
-m-chp16-p373-sasso-0021,chp-16:16_CHP-16_intro:l69-89,cand-1426,Alessandro Longhi,177,194,
+m-chp16-p373-sasso-0021,chp-16:16_CHP-16_intro:l69-89,cand-11545,Alessandro Longhi,177,194,Person named as the portrait painter; cand-1426 is the index-derived work candidate for a portrait of G. M. Sasso.
 m-chp16-p373-sasso-0022,chp-16:16_CHP-16_intro:l69-89,cand-10603,"Bollettino dei Musei Civici Veneziani, 1959, No. 2",199,249,
 m-chp16-p373-sasso-0023,chp-16:16_CHP-16_intro:l69-89,cand-10604,letters from Strange to Sasso,257,286,
 m-chp16-p373-sasso-0024,chp-16:16_CHP-16_intro:l69-89,cand-10605,Epistolario Moschini,298,318,
@@ -24224,7 +24233,7 @@ m-chp16-p373-sasso-0028,chp-16:16_CHP-16_intro:l69-89,cand-10607,four letters fr
 m-chp16-p373-sasso-0029,chp-16:16_CHP-16_intro:l69-89,cand-5986,British Museum,498,512,
 m-chp16-p373-sasso-0030,chp-16:16_CHP-16_intro:l69-89,cand-10607,"Add. MSS. 23,730",514,530,
 m-chp16-p373-sasso-surfacefix-0001,chp-16:16_CHP-16_intro:l3-14,cand-4129,art patrons,87,98,"Existing typed term candidate; the phrase is a general category, not an individually identified patron."
-m-chp16-p373-sasso-surfacefix-0002,chp-16:16_CHP-16_intro:l69-89,cand-3401,Venice,339,345,Place named in the note's repository locator; print reading separately records the OCR correction Cotter to Correr.
+m-chp16-p373-sasso-surfacefix-0002,chp-16:16_CHP-16_intro:l69-89,cand-2719,Venice,339,345,Geographic Venice in the Biblioteca Correr repository locator; mapped to the indexed city candidate cand-2719.
 m-chp16-p374-sasso-0001,chp-16:16_CHP-16_intro:l16-22,cand-2517,Strange,134,141,
 m-chp16-p374-sasso-0002,chp-16:16_CHP-16_intro:l16-22,cand-0581,Rosalba,41,48,Index identity is Rosalba Carriera.
 m-chp16-p374-sasso-0003,chp-16:16_CHP-16_intro:l16-22,cand-0498,Canaletto,50,59,
@@ -24270,7 +24279,7 @@ m-chp16-p374-sasso-0042,chp-16:16_CHP-16_intro:l69-89,cand-10613,Strange-Sasso c
 m-chp16-p374-sasso-0043,chp-16:16_CHP-16_intro:l69-89,cand-10613,Letter 8,724,732,
 m-chp16-p374-sasso-0044,chp-16:16_CHP-16_intro:l69-89,cand-10614,Lettere pittoriche di G. A. Armanni a G. M Sasso,775,823,S0 omits the period after M; the print reads G. M. Sasso.
 m-chp16-p374-sasso-0045,chp-16:16_CHP-16_intro:l69-89,cand-10614,MSS. 565 and 566,982,998,
-m-chp16-p374-sasso-0046,chp-16:16_CHP-16_intro:l69-89,cand-6589,"Seminario Patriarcale, Venice",952,981,
+m-chp16-p374-sasso-0046,chp-16:16_CHP-16_intro:l69-89,cand-6589,Seminario Patriarcale,952,973,
 m-chp16-p374-sasso-0047,chp-16:16_CHP-16_intro:l69-89,cand-1973,Mr Poore,1000,1008,
 m-chp16-p374-sasso-0048,chp-16:16_CHP-16_intro:l69-89,cand-10615,letter of 7 July 1789,1027,1048,
 m-chp16-p374-sasso-0049,chp-16:16_CHP-16_intro:l69-89,cand-10616,two auctions—4 and 19 April 1805,1053,1085,
@@ -27560,7 +27569,7 @@ m-s2-surface-e50c219632cd27bc,chp-13:13_CHP-13_intro:l61-68,cand-3462,Europe,194
 m-s2-surface-cd159103160ce977,chp-13:13_CHP-13_intro:l70-77,cand-3462,Europe,2789,2795,
 m-s2-surface-34f3295f62b59581,chp-14:14_CHP-14_intro:l14-21,cand-3507,Bottari,2598,2605,
 m-s2-surface-101b1d65803ce2d8,chp-14:14_CHP-14_intro:l97-105,cand-0947,Dresden,2084,2091,
-m-s2-surface-9154efa380b55add,chp-15:15_CHP-15_sec_ii:l61-67,cand-2242,Fortune,2368,2375,
+m-s2-surface-9154efa380b55add,chp-15:15_CHP-15_sec_ii:l61-67,cand-11540,Fortune,2368,2375,"In this passage Fortune is an ideal in the Alticchiero altar programme, not the indexed Salvator Rosa work."
 m-s2-surface-c606f489f1a86215,chp-17:17_CHP-17_sec_i:l22-24,cand-4140,Joseph,784,790,The competition theme identifies the biblical Joseph son of Jacob; keep distinct from St Joseph cand-3428.
 m-s2-surface-f88da9d56bb8b375,chp-1:01_CHP-1_sec_ii:l10-17,cand-8024,Cortona,2049,2056,
 m-s2-surface-6c2ec2dfdda13e14,chp-1:01_CHP-1_sec_ii:l168-239,cand-1422,London,3654,3660,
@@ -27599,7 +27608,7 @@ m-s2-surface-6da4932ef8390678,chp-5:05_CHP-5_sec_i:l125-147,cand-3455,Piazza Nav
 m-s2-surface-28567f0b9e8498ae,chp-5:05_CHP-5_sec_i:l125-147,cand-3504,Bertolotti,1064,1074,
 m-s2-surface-7818349268bad0e3,chp-5:05_CHP-5_sec_i:l125-147,cand-3504,Bertolotti,1568,1578,
 m-s2-surface-5539866d956c8bd5,chp-5:05_CHP-5_sec_i:l125-147,cand-3530,V. Russo,1846,1854,
-m-s2-surface-93a43ab71d5c9f67,chp-5:05_CHP-5_sec_i:l125-147,cand-3509,Costello,2315,2323,
+m-s2-surface-93a43ab71d5c9f67,chp-5:05_CHP-5_sec_i:l125-147,cand-7016,Costello,2315,2323,
 m-s2-surface-1fc1314ae54b69cd,chp-5:05_CHP-5_sec_i:l125-147,cand-3519,Fraschetti,2729,2739,
 m-s2-surface-a631807763946c97,chp-5:05_CHP-5_sec_i:l125-147,cand-3507,Bottari,3538,3545,
 m-s2-surface-35b8eae1e407462f,chp-5:05_CHP-5_sec_i:l125-147,cand-3514,Mancini,3561,3568,
@@ -27757,8 +27766,6 @@ m-s2-chp3-surface-acb772a3471bef3b,chp-3:03_CHP-3_sec_ii:l19-31,cand-0840,subjec
 m-s2-chp3-surface-63666aa72ed2899c,chp-3:03_CHP-3_sec_ii:l33-38,cand-0840,subject,502,509,The fresco subject is explicitly discussed as sermon-like subject-matter.
 m-s2-chp3-surface-e051ad697142e9d3,chp-3:03_CHP-3_sec_iv:l130-139,cand-0840,subject,3159,3166,Subject-matter and treatment are compared with earlier work.
 m-s2-chp3-surface-b3ee9b623f164e4d,chp-3:03_CHP-3_sec_iv:l189-243,cand-0840,subject,490,497,The selected subject is compared with the one chosen for Carlone.
-m-s2-chp3-surface-bc15ba5de5bae625,chp-3:03_CHP-3_sec_iv:l58-67,cand-0840,subject,2431,2438,A different artistic subject is explicitly identified.
-m-s2-chp3-surface-f9ac9f72e91ecb2b,chp-3:03_CHP-3_sec_iv:l75-81,cand-0840,subject,209,216,The Adoration of the Lamb is discussed as a revived subject.
 m-s2-chp3-surface-6335a8b23f26b2bd,chp-3:03_CHP-3_sec_iv:l152-163,cand-1321,Jesuits,3294,3301,Named religious institution in the historical account.
 m-s2-chp3-surface-3b91c94eac512006,chp-3:03_CHP-3_sec_iv:l165-177,cand-1321,Jesuits,357,364,Named religious institution in the historical account.
 m-s2-chp3-surface-98038f59437a12a5,chp-3:03_CHP-3_sec_iv:l179-187,cand-1321,Jesuits,1326,1333,Named religious institution in the historical account.
@@ -27774,7 +27781,6 @@ m-s2-chp4-surface-793e617e68fbda6e,chp-4:04_CHP-4_sec_ii:l15-22,cand-5652,palace
 m-s2-chp4-surface-1a9c09cb374bf811,chp-4:04_CHP-4_sec_ii:l161-170,cand-5921,collection,557,567,The passage concerns Cassiano's painting collection as a group; preserve its unresolved type.
 m-s2-chp4-surface-0e18254f1d62687c,chp-4:04_CHP-4_sec_ii:l218-227,cand-3567,connoisseurship,767,782,Connoisseurship is used as the same art-historical practice represented by the existing term candidate.
 m-s2-chp4-surface-cd62fb9207f3297d,chp-4:04_CHP-4_sec_ii:l218-227,cand-0090,palace,884,890,The new palace is locally identified as the Altieri palace in the same sentence.
-m-s2-chp4-surface-3975471a12395f9a,chp-4:04_CHP-4_sec_ii:l218-227,cand-0840,subject,1747,1754,The painting subject is explicitly said to have been chosen by the patron.
 m-s2-chp4-surface-fb2a98d9898d0bda,chp-4:04_CHP-4_sec_ii:l232-308,cand-5921,collection,3338,3348,The note cites accounts of Cassiano's painting collection.
 m-s2-chp4-surface-43606b262aedb3e5,chp-4:04_CHP-4_sec_ii:l232-308,cand-5921,collection,4331,4341,Skippon is said to have been shown Cassiano's painting collection; the bird-painting group remains a separate candidate.
 m-s2-chp4-surface-3c433afdd1812822,chp-4:04_CHP-4_sec_ii:l232-308,cand-3126,Rome,4548,4552,The longer indexed phrase collides with unrelated subentries; record the exact city span.
@@ -27787,15 +27793,15 @@ m-s2-chp4-surface-f2ba8e5042f7958f,chp-4:04_CHP-4_sec_ii:l24-31,cand-5694,drawin
 m-s2-chp4-surface-b070d5824c18368a,chp-4:04_CHP-4_sec_ii:l33-44,cand-5850,drawings,304,312,The quotation specifies Cassiano's volumes copied from ancient marbles; keep them distinct from the deity-and-sacrifice volume.
 m-s2-chp4-surface-a47b1aaff669d478,chp-4:04_CHP-4_sec_ii:l53-63,cand-5741,altarpieces,1548,1559,The phrase identifies one work appositionally as the St Romualdo altarpiece of 1638.
 m-s2-chp4-surface-0f686407e50b10c5,chp-4:04_CHP-4_sec_ii:l80-89,cand-5921,collection,1721,1731,The passage explicitly counts Poussin paintings in Cassiano's painting collection.
-m-s2-chp4-surface-f93a5e50eadd7a24,chp-4:04_CHP-4_sec_ii:l91-99,cand-0840,subject,170,177,Cassiano proposes the subject of the Marriage of Peleus to Poussin.
+m-s2-chp4-surface-f93a5e50eadd7a24,chp-4:04_CHP-4_sec_ii:l91-99,cand-5777,subject,170,177,Generic anaphoric reference to the proposed Marriage of Peleus subject; it does not refer to the index subentry 'Contracts: subject'.
 m-s2-chp4-surface-2092fcd519cb3973,chp-4:04_CHP-4_sec_ii:l91-99,cand-4653,Paris,780,785,The longer indexed phrase is not an entity; record its exact destination city.
 m-s2-chp4-surface-2ff115e324f1b967,chp-4:04_CHP-4_sec_ii:l91-99,cand-5784,drawings,2755,2763,The demonstrative refers back to Poussin's drawings made for the Trattato.
 m-s2-chp5-surface-64bd44a457fba1d4,chp-5:05_CHP-5_sec_i:l28-33,cand-0398,palace,789,795,Ferrante Carlo lived in Cardinal Borghese’s palace; the index-derived Borghese Palace candidate is the local referent.
 m-s2-chp5-surface-0aa5824362592ef1,chp-5:05_CHP-5_sec_i:l28-33,cand-11479,collection,1522,1532,Ferrante Carlo’s notable collection of pictures is a source-described collection; retain it untyped because the taxonomy has no collection type.
 m-s2-chp5-surface-0f0df16d14699bcd,chp-5:05_CHP-5_sec_i:l35-49,cand-11480,collection,874,884,"Simonelli’s mixed collection is explicitly assembled by him and includes drawings, paintings, antiquities and cameos; retain its collection type unresolved."
-m-s2-chp5-surface-ad6e891414df5aff,chp-5:05_CHP-5_sec_i:l60-74,cand-4288,old masters,1329,1340,The phrase is the same art-historical category as the existing Old masters term candidate.
+m-s2-chp5-surface-ad6e891414df5aff,chp-5:05_CHP-5_sec_i:l60-74,cand-11753,old masters,1329,1340,"In this exhibition sentence, 'old masters' stands for their works; the source names no individual works or makers."
 m-s2-chp5-surface-0937891166a6c55a,chp-5:05_CHP-5_sec_i:l60-74,cand-3571,canvas,2992,2998,"Canvas denotes the painting support, matching the existing material term candidate."
-m-s2-chp5-surface-fd23ac64148fdc27,chp-5:05_CHP-5_sec_i:l76-83,cand-4288,old masters,2258,2269,"The phrase uses the existing broad art-historical category, not a particular work."
+m-s2-chp5-surface-fd23ac64148fdc27,chp-5:05_CHP-5_sec_i:l76-83,cand-11759,old masters,2258,2269,Here old masters refers metonymically to works borrowed for the 1662 Sacchetti exhibition.
 m-s2-chp5-surface-e368d4b0ccfe8024,chp-5:05_CHP-5_sec_i:l76-83,cand-4288,old masters,3126,3137,"The phrase uses the existing broad art-historical category, not a particular work."
 m-s2-chp5-surface-369d55234fe8cc41,chp-5:05_CHP-5_sec_i:l85-97,cand-11481,Holy Year,315,324,"This is the specific Jubilee of 1675, recorded separately from the generic Holy Year term cand-3453."
 m-s2-chp5-surface-8ccc934d2d9f00c8,chp-5:05_CHP-5_sec_i:l85-97,cand-11481,Holy Year,1474,1483,This is the same specific Jubilee of 1675 referenced in the preceding exhibition account.
@@ -28022,10 +28028,12 @@ m-s2-chp14-surface-a69fc900789b38d1,chp-14:14_CHP-14_intro:l63-71,cand-11498,col
 m-s2-chp14-surface-459923c7039c1b19,chp-14:14_CHP-14_intro:l85-95,cand-2719,Venice,2885,2891,Venice is the city of the visit discussed in this statement; use the place candidate.
 m-s2-chp15-surface-1b2d4e0bae041b40,chp-15:15_CHP-15_sec_i:l27-36,cand-11499,collection,541,551,The contemporary quotation identifies a collection of rarities associated with Farsetti's villa; its inventory and relation to his other holdings remain unspecified.
 m-s2-chp15-surface-799c3ec0483afc8b,chp-15:15_CHP-15_sec_ii:l14-28,cand-4490,in Rome,1890,1897,Rome is the geographic setting in which Memmo continued urging friends to contribute statues; use the existing Rome place candidate.
+m-chp15-p366-memmo-0087,chp-15:15_CHP-15_sec_ii:l14-28,cand-11528,distinguished visitors,2210,2232,Unnamed visitors are treated as a source-level group; no individuals are inferred.
+m-chp15-p366-memmo-0086,chp-15:15_CHP-15_sec_ii:l14-28,cand-11526,an account,2542,2552,Unidentified text accompanying Piranesi’s engraving; title and edition are not supplied.
 m-s2-chp15-surface-2caec30388a71f6e,chp-15:15_CHP-15_sec_ii:l38-47,cand-10517,palace,1007,1013,'This palace' refers back to the Memmo family palace named in the preceding sentence; use its existing place candidate.
 m-s2-chp15-surface-cd6ae66a98e48412,chp-15:15_CHP-15_sec_ii:l38-47,cand-2719,Venice,1347,1353,Venice is the city from which Querini emerged as a major patron; use the geographic place candidate.
 m-s2-chp15-surface-59d7d421716d4734,chp-15:15_CHP-15_sec_ii:l49-59,cand-2079,arrest and detention,418,438,This is Querini's specific arrest and detention event indexed at p.369; accept the full phrase so the nested generic 'arrest' prompt is not duplicated.
-m-s2-chp15-surface-830230fc30c2a5cd,chp-15:15_CHP-15_sec_ii:l61-67,cand-10547,collection,349,359,"The phrase names the subject-matter book collection in the Alticchiero library, already recorded as cand-10547."
+m-s2-chp15-surface-830230fc30c2a5cd,chp-15:15_CHP-15_sec_ii:l61-67,cand-10547,collection,349,359,"This is the book collection, distinct from the physical library room."
 m-s2-chp15-surface-d96d38b543584869,chp-15:15_CHP-15_sec_ii:l61-67,cand-2081,garden,1288,1294,This is the garden indexed under Querini at p.370 and described as part of the Alticchiero estate; retain the index-derived candidate pending S3 identity review.
 m-s2-chp15-surface-82df7cae94660256,chp-15:15_CHP-15_sec_ii:l69-83,cand-4302,prince,736,742,The 'reforming prince' is the unnamed Grand Duke of Tuscany identified immediately before; reuse the same person candidate without inferring his individual identity.
 m-s2-chp15-surface-0617a04afe88516a,chp-15:15_CHP-15_sec_ii:l69-83,cand-2081,garden,1060,1066,The later possessive reference is to the same Querini garden described at p.370; use cand-2081.
@@ -28090,3 +28098,270 @@ m-chp15-p365-memmo-0053,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,1818,1823,
 m-chp15-p365-memmo-0054,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,2007,2012,Names Andrea Memmo as designer of the scheme.
 m-chp15-p365-memmo-0055,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,pupil,2389,2394,Haskell's pupil reference is resolved to the designer Memmo from the immediately preceding sentence.
 m-chp15-p365-memmo-0056,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,the Pra della Valle,2060,2079,Second p.365 reference to the Prà della Valle; print accent is restored in S2 only.
+m-chp15-p367-memmo-0065,chp-15:15_CHP-15_sec_ii:l30-36,cand-11531,statue,1767,1773,"The distinct statue of Canova, commissioned by Cappello from Ferrari."
+m-chp15-p368-querini-0050,chp-15:15_CHP-15_sec_ii:l38-47,cand-11533,the more advanced spirits,1075,1100,Unnamed collective described by Haskell; no individual members or institution inferred.
+m-chp15-p368-querini-0051,chp-15:15_CHP-15_sec_ii:l38-47,cand-11534,open house,1061,1071,Recurring social activity treated as an event candidate; not a named or single dated gathering.
+m-chp15-p369-querini-0054,chp-15:15_CHP-15_sec_ii:l49-59,cand-11535,"victory of the
+‘conservatives’",336,366,Event mention. Marco Foscarini is separately named as leader; no individual sole responsibility for the arrest is inferred.
+m-chp15-p369-querini-0055,chp-15:15_CHP-15_sec_ii:l49-59,cand-0086,Alticchiero,2596,2607,Second mention of the house in Mme Rosenberg's reported comparison of Tahiti and Alticchiero.
+m-chp15-p370-piranesi-print-group,chp-15:15_CHP-15_sec_ii:l61-67,cand-10545,prints by Piranesi,34,52,
+m-chp15-p370-bathroom-room,chp-15:15_CHP-15_sec_ii:l61-67,cand-11537,bathroom,11,19,
+m-chp15-p370-bacon-bust,chp-15:15_CHP-15_sec_ii:l61-67,cand-10548,a bust of Bacon,445,460,
+m-chp15-p370-querini-study-room,chp-15:15_CHP-15_sec_ii:l61-67,cand-11538,study,552,557,
+m-chp15-p370-edward-young-poet,chp-15:15_CHP-15_sec_ii:l61-67,cand-2827,the poet,1190,1198,The book index identifies Edward Young with the Night Thoughts sub-entry; S3 retains the identity alignment decision.
+m-chp15-p370-altar-bust-pair,chp-15:15_CHP-15_sec_ii:l61-67,cand-10557,colossal busts,1572,1586,
+m-chp15-p370-other-altars,chp-15:15_CHP-15_sec_ii:l61-67,cand-10554,Other altars,2117,2129,
+m-chp15-p370-altar-remention,chp-15:15_CHP-15_sec_ii:l61-67,cand-10555,the Altar,2025,2034,
+m-chp15-p370-huber-print,chp-15:15_CHP-15_sec_ii:l61-67,cand-10566,one by Huber,3082,3094,
+m-chp15-p371-querini-0056,chp-15:15_CHP-15_sec_ii:l69-83,cand-0086,Querini’s villa,464,479,
+m-chp15-p371-querini-0057,chp-15:15_CHP-15_sec_ii:l69-83,cand-11541,Apollo,762,768,
+m-chp15-p371-querini-0058,chp-15:15_CHP-15_sec_ii:l69-83,cand-11542,allegorised,747,758,
+m-chp16-p373-sasso-review-0001,chp-16:16_CHP-16_intro:l3-14,cand-11543,the most fruitful tradition of Venetian art,461,504,
+m-chp16-p373-sasso-review-0002,chp-16:16_CHP-16_intro:l3-14,cand-2719,the seemingly inexhaustible city,906,938,Anaphoric description of Venice in Haskell's account of embassy agents.
+m-chp16-p373-sasso-review-0003,chp-16:16_CHP-16_intro:l3-14,cand-11544,a great book,1602,1614,The planned but unfinished book on Venetian painting history; no title is supplied.
+m-chp16-p373-sasso-review-0004,chp-16:16_CHP-16_intro:l3-14,cand-2367,"to buy him
+Venetian pictures of all kinds—Giorgiones and Titians, Veroneses and Tintorettos, and",2488,2584,The purchase undertaking indexed as an event; the painter list continues on p.374.
+m-chp16-p374-refine-0001,chp-16:16_CHP-16_intro:l16-22,cand-11546,country house,144,157,Residence near Treviso; do not assume identity with the villa at Paese.
+m-chp16-p374-refine-0002,chp-16:16_CHP-16_intro:l16-22,cand-11547,apartments,178,188,Unidentified residences in London.
+m-chp16-p374-refine-0003,chp-16:16_CHP-16_intro:l16-22,cand-1239,the artist,887,897,Haskell's description refers to Guardi in context.
+m-chp16-p374-refine-0004,chp-16:16_CHP-16_intro:l16-22,cand-11548,his works,1214,1223,Unidentified Guardi works reportedly owned by Strange.
+m-chp16-p374-refine-0005,chp-16:16_CHP-16_intro:l16-22,cand-11543,Venetian painting,1381,1398,
+m-chp16-p374-refine-0006,chp-16:16_CHP-16_intro:l16-22,cand-8837,neo-classical works,1443,1462,
+m-chp16-p374-refine-0007,chp-16:16_CHP-16_intro:l16-22,cand-11543,recent Venetian painting,2278,2302,
+m-chp16-p374-refine-0008,chp-16:16_CHP-16_intro:l16-22,cand-11543,earlier eighteenthcentury painters,2420,2454,S0 has a joined word; print reading is recorded in the statement's correction metadata.
+m-chp16-p374-refine-0009,chp-16:16_CHP-16_intro:l69-89,cand-2719,Venice,975,981,Place in the manuscript repository locator.
+m-chp16-p376-modelli-candidate-surface,chp-16:16_CHP-16_intro:l38-46,cand-1674,tnodelli,2481,2489,The mention preserves the exact S0 OCR span; CHP-16.pdf physical page 4 reads 'modelli'.
+m-chp16-p377-celotti-0066,chp-16:16_CHP-16_intro:l48-64,cand-11552,Tiepolo sketches,1805,1821,S2 semantic refinement: explicit group-level work reference.
+m-chp16-p377-celotti-0067,chp-16:16_CHP-16_intro:l69-89,cand-11550,some more Tiepolos,2784,2802,S2 semantic refinement: explicit group-level work reference.
+m-chp16-p377-celotti-0068,chp-16:16_CHP-16_intro:l69-89,cand-11551,also Piazzettas,2807,2822,S2 semantic refinement: explicit group-level work reference.
+m-chp2-secii-l127-139-0061,chp-2:02_CHP-2_sec_ii:l127-139,cand-11555,great figures from all over Europe,2284,2318,Unnamed collective competing to associate with S. Maria della Concezione; membership and count are not specified.
+m-chp2-secii-l127-139-0062,chp-2:02_CHP-2_sec_ii:l127-139,cand-11556,foreign princes,3156,3171,Unnamed collective defined by Urban VIII's permissions in the Capuchin church context; no individual membership or count is assigned.
+m-chp2-secii-l91-104-0066,chp-2:02_CHP-2_sec_ii:l91-104,cand-11558,his friends,547,558,"Unnamed source-level collective referring to Urban VIII's friends, recipients of his advice about pagan mythological themes. No individual members or count are supplied; not equated with the poets mentioned immediately before."
+m-chp8-p211-080,chp-8:08_CHP-8_sec_i:l84-96,cand-11559,the best families,453,470,Source-defined collective endpoint for the reported series of del Rosso marriage alliances; individual families and marriage pairs are not named.
+m-chp15-p370-alticchiero-0049,chp-15:15_CHP-15_sec_ii:l61-67,cand-11560,those formed in Switzerland,2218,2245,Anaphoric phrase for the unnamed friendship group commemorated by other garden altars; do not map individual members from nearby travel or friendship statements.
+m-chp15-p367-memmo-0066,chp-15:15_CHP-15_sec_ii:l30-36,cand-11561,one,1175,1178,"The singular pronoun refers to the possible statue Memmo asks Waldstein to fund; the following Skala and Veith clauses give alternative possible subjects, not a completed commission."
+m-chp15-p367-memmo-0067,chp-15:15_CHP-15_sec_ii:l30-36,cand-11562,further statues,1001,1016,The plural source phrase identifies the additional statues still needed at the Prà della Valle as a group; its members and count are not supplied. Do not infer that the singular Waldstein proposal cand-11561 is a member.
+m-chp15-p363-0088,chp-15:15_CHP-15_sec_i:l27-36,cand-11563,Venetian painting and sculpture,1355,1386,Source-specific term for the artistic practices Haskell says Farsetti tried to change. This longer phrase contains the separate 'Venetian' modifier mention linked to place cand-3401.
+m-chp15-p363-0089,chp-15:15_CHP-15_sec_i:l27-36,cand-11564,one of them,465,476,Refers to the one unnamed contemporary who wrote the quoted villa praise; identity is not supplied. Do not infer Boscovich from note 2 without consulting the cited letter.
+m-chp15-p364-poems-speeches-group-0001,chp-15:15_CHP-15_sec_i:l38-41,cand-11565,a flood of poems and speeches,1180,1209,The plural source phrase identifies a body of unnamed poems and speeches in which Farsetti was held up as an example; individual works and the group's exact extent are not supplied.
+m-chp4-intro-0027,chp-4:04_CHP-4_intro:l3-8,cand-11566,many paintings and drawings by Pietro da Cortona,818,866,Source-bounded work group; no individual titles or count. Strictly contains the separate artist mention m-chp4-intro-0014.
+m-chp2-seci-l108-119-0071,chp-2:02_CHP-2_sec_i:l108-119,cand-11567,"paintings—by old masters such as Raphael, Correggio, Andrea del Sarto,
+Giulio Romano, Parmigianino and others",1487,1596,Source-bounded group of paintings; strictly contains the five separate old-master mentions. No individual work titles or count are supplied.
+m-chp2-seci-l95-106-0085,chp-2:02_CHP-2_sec_i:l95-106,cand-11568,"along with others by the
+Carracci, the great masters of the Venetian High Renaissance and by Luca Cambiaso",1607,1713,"Source-bounded group of additional paintings; strictly contains the Carracci, Venetian tradition, and Cambiaso mentions. No individual titles or complete count are supplied."
+m-chp2-seci-l95-106-0086,chp-2:02_CHP-2_sec_i:l95-106,cand-11569,the great masters of the Venetian High Renaissance,1642,1692,"Unnamed creator collective, strictly nested within the additional-paintings group and containing the separate artistic-tradition term mention cand-4319. Individual masters and membership remain unknown."
+m-chp5-letter-16600402-01,chp-5:05_CHP-5_sec_iii:l126-165,cand-11571,Letter from Salvator Rosa to G. B. Ricciardi dated 2 April 1660,6092,6155,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp5-letter-16661009-01,chp-5:05_CHP-5_sec_iv:l39-54,cand-11572,Letter to Ricciardi of 9 October 1666,17,54,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp5-letter-16510424-01,chp-5:05_CHP-5_sec_iv:l39-54,cand-11573,Letter of 24 April 1651,559,582,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp5-letter-16510512-01,chp-5:05_CHP-5_sec_iv:l39-54,cand-11574,Letter of 12 May 1Ó51,599,620,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp5-letter-16620513-01,chp-5:05_CHP-5_sec_iv:l39-54,cand-11575,Letter of 13 May 1662,644,665,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp5-letter-16640521-01,chp-5:05_CHP-5_sec_iv:l39-54,cand-11576,Letter ofZI May 1664,695,715,A specific letter identified by Haskell; retain the printed/OCR surface and keep the publication locator separate.
+m-chp2-secvii-l38-54-0053,chp-2:02_CHP-2_sec_vii:l38-54,cand-4913,The picture,287,298,Anaphoric mention of the Xenophon painting described in the preceding body passage.
+m-chp2-seci-l124-157-0082,chp-2:02_CHP-2_sec_i:l124-157,cand-1200,Giustiniani,2141,2152,Vincenzo Giustiniani in the footnote phrase 'Giustiniani’s friend'; distinguish him from Michele Giustiniani named as publisher at line 157.
+m-chp1-secii-p23-n2-baldinucci-vol6-p579,chp-1:01_CHP-1_sec_ii:l168-239,cand-4846,"VI, 1728, p. 579.",9521,9538,"Volume VI (1728), page 579 locator following the existing Baldinucci person mention; the cited passage was not independently consulted."
+m-chp1-secii-p23-n3-pascoli-vol1-p233,chp-1:01_CHP-1_sec_ii:l168-239,cand-4834,"I, p. 233",10039,10048,"Volume I, page 233 locator after the Pascoli person mention; the cited passage was not independently consulted."
+m-s2-chp2-seci-l44-53-event-cand-4254,chp-2:02_CHP-2_sec_i:l44-53,cand-4254,visit to Ferrara to take over the city,986,1024,Haskell's event statement for Clement VIII's 1598 visit to Ferrara and the takeover; the phrase explicitly names the visit and its purpose.
+m-chp2-seci-l82-93-0053,chp-2:02_CHP-2_sec_i:l82-93,cand-11578,"The new Pope and his vigorous young nephew Ludovico
+Ludovisi",1312,1372,The coordinated source subject Gregory XV and nephew Ludovico Ludovisi; preserve the line break.
+m-chp2-seci-l82-93-0054,chp-2:02_CHP-2_sec_i:l82-93,cand-11579,the most hedonistic society that Rome had known since the Renaissance,479,548,The unnamed social collective described as centered on Scipione Borghese’s villa; membership is not given.
+m-chp2-seci-l95-106-0087,chp-2:02_CHP-2_sec_i:l95-106,cand-4305,a series of canvases of effeminate young boys,370,415,"Untitled, uncounted canvas group attributed to Caravaggio."
+m-chp2-seci-l95-106-0088,chp-2:02_CHP-2_sec_i:l95-106,cand-4315,‘large room with old pictures’,1491,1521,Room in Giustiniani’s palace where the thirteen Caravaggio paintings were hung.
+m-chp2-seci-l95-106-0089,chp-2:02_CHP-2_sec_i:l95-106,cand-4338,contemporary art,2410,2426,Category of contemporary art described as receiving the highest level in the collection display.
+m-chp2-seci-l95-106-0090,chp-2:02_CHP-2_sec_i:l95-106,cand-4322,an essay to theorise his eclecticism,2584,2620,Untitled essay by Vincenzo Giustiniani; no title or independent consultation is supplied.
+m-chp2-seci-l95-106-0091,chp-2:02_CHP-2_sec_i:l95-106,cand-11580,Dr. Salerno and other investigators,2984,3019,Source-defined collective of Dr. Salerno and unnamed other investigators; preserve the plural subject without inferring membership or organization.
+m-chp2-seci-l108-119-0072,chp-2:02_CHP-2_sec_i:l108-119,cand-11582,the reigning Pope Paul V and his nephew Scipione Borghese,2387,2444,Collective source phrase naming Pope Paul V and Scipione Borghese in the Bernini-output statement; it does not assign individual works or commissions.
+m-chp2-secii-l10-18-0036,chp-2:02_CHP-2_sec_ii:l10-18,cand-11583,people come from every country,1995,2025,Unnamed collective in Contarini's quotation: people who come to Rome from every country; no individual members or count is supplied.
+m-chp2-secii-l30-40-0043,chp-2:02_CHP-2_sec_ii:l30-40,cand-11584,early Christian tombs,2583,2604,原文指面临巴尔达基诺地基扰动风险的未具名早期基督教墓葬群；与前文“supposed tomb of St Peter”区分。
+m-chp2-secii-l52-60-0089,chp-2:02_CHP-2_sec_ii:l52-60,cand-11587,the relics associated with the saints concerned,683,730,原文所指与四位最受崇敬圣人相关、可在节日展示的圣髑；具体物件及现藏处未给出。
+m-chp3-secii-l74-81-0053,chp-3:03_CHP-3_sec_ii:l74-81,cand-11591,Correggio’s in Parma,1856,1876,Elliptical reference to Correggio's dome fresco; title and exact building are not named in the passage.
+m-chp3-secii-l115-123-0053,chp-3:03_CHP-3_sec_ii:l115-123,cand-11592,others,290,296,Plural model-target group; members and scope are not identified.
+m-chp3-secii-l115-123-0054,chp-3:03_CHP-3_sec_ii:l115-123,cand-3967,the construction,1104,1120,Anaphoric reference to the S. Ignazio church project; linked to its existing building candidate.
+m-chp3-secii-l125-135-0060,chp-3:03_CHP-3_sec_ii:l125-135,cand-4730,court,1255,1260,Mapped to the existing Urban VIII papal-court candidate in the paragraph's immediate reign context; the influence claim remains Haskell's inference.
+m-chp3-secii-l125-135-0061,chp-3:03_CHP-3_sec_ii:l125-135,cand-11593,rivals,163,169,Plural group explicitly named by role but not identified; do not assume the Oratorians are the referent.
+m-chp3-seciv-l16-24-0058,chp-3:03_CHP-3_sec_iv:l16-24,cand-11594,his wife,2224,2232,The unnamed woman identified as Courtois's wife; no name or further identity is supplied.
+m-chp3-seciv-l16-24-0059,chp-3:03_CHP-3_sec_iv:l16-24,cand-11595,lais son and grandson,1448,1469,S0 OCR reads 'lais'; the print reads 'his'. Two unnamed people; do not infer their identities or merge them with Cardinal Farnese's heirs.
+m-chp3-seciv-l16-24-0060,chp-3:03_CHP-3_sec_iv:l16-24,cand-11596,the north,1433,1442,The source's vague regional phrase; do not normalize to northern Italy or another bounded region.
+m-chp3-seciv-l16-24-0061,chp-3:03_CHP-3_sec_iv:l16-24,cand-11597,the rector of the Society’s college in Siena,2391,2435,The unnamed individual Courtois approached; college and Siena retain their own nested mentions.
+m-chp3-seciv-l16-24-0062,chp-3:03_CHP-3_sec_iv:l16-24,cand-11599,my confessor,2604,2616,Role-based person in Courtois's quotation as represented by Haskell; personal identity and memoir source are not given.
+m-chp3-seciv-l16-24-0063,chp-3:03_CHP-3_sec_iv:l16-24,cand-11598,Tapestries specially hung out,860,889,Unnamed work group mentioned in the Gesu description; ceremonial use is stated as a possibility.
+m-chp3-seciv-l16-24-0064,chp-3:03_CHP-3_sec_iv:l16-24,cand-11600,further decorations,10,29,Unnamed decorations at S. Andrea della Valle; no agent is named in this clause.
+m-chp3-seciv-l26-33-0062,chp-3:03_CHP-3_sec_iv:l26-33,cand-11601,Borgognone died,2412,2427,"Lexical mention of the 1676 death event, distinct from the existing person mention."
+m-chp3-seciv-l26-33-0063,chp-3:03_CHP-3_sec_iv:l26-33,cand-11601,This,2429,2433,Pronoun resolved to Courtois's death in the preceding sentence; it is the cause of the stated project stoppage.
+m-chp3-seciv-l35-46-0058,chp-3:03_CHP-3_sec_iv:l35-46,cand-11602,the general public,2324,2342,The unnamed audience group whose admiration of Gaulli's Gesu painting and stucco arrangement Haskell reports.
+m-chp3-seciv-l35-46-0059,chp-3:03_CHP-3_sec_iv:l35-46,cand-11603,The experts,2241,2252,The unnamed invited evaluators at the private showing; group membership is not supplied.
+m-chp3-seciv-l48-56-0059,chp-3:03_CHP-3_sec_iv:l48-56,cand-11604,a wide and exceedingly influential following,2152,2196,The unnamed following acquired by Molinos; membership and organization are not supplied.
+m-chp3-seciv-l48-56-0060,chp-3:03_CHP-3_sec_iv:l48-56,cand-11605,molti virtuosi,3196,3210,The unnamed group of virtuosi referred to by the 1675 avviso; not the named Congregazione dei Virtuosi.
+m-chp3-seciv-l48-56-0061,chp-3:03_CHP-3_sec_iv:l48-56,cand-11606,la cuppola della loro Chiesa . .. dipinta da nuovo,3060,3110,"The newly painted surface/work of the Gesù dome, nested with the separate architectural dome mention."
+m-chp3-seciv-l58-67-0037,chp-3:03_CHP-3_sec_iv:l58-67,cand-11607,God,2740,2743,Divine addressee in the iconographic scene; not a theological or historical claim.
+m-chp3-seciv-l75-81-0051,chp-3:03_CHP-3_sec_iv:l75-81,cand-0712,S. Maria Maggiore,318,335,
+m-chp3-seciv-l75-81-0052,chp-3:03_CHP-3_sec_iv:l75-81,cand-11611,the cornice,2950,2961,
+m-chp3-seciv-l75-81-0053,chp-3:03_CHP-3_sec_iv:l75-81,cand-11612,rival architects,3001,3017,
+m-chp3-seciv-l75-81-0054,chp-3:03_CHP-3_sec_iv:l75-81,cand-11613,Oliva’s plans for the rest of the church,2754,2794,
+m-chp3-seciv-l83-94-0058,chp-3:03_CHP-3_sec_iv:l83-94,cand-11614,its benefactors,1497,1512,Source-defined unnamed group; membership and count are unspecified.
+m-chp3-seciv-l83-94-0059,chp-3:03_CHP-3_sec_iv:l83-94,cand-11615,the public,899,909,Source-defined public audience; no membership or attendance is inferred.
+m-chp3-seciv-l96-104-0049,chp-3:03_CHP-3_sec_iv:l96-104,cand-11616,all his entourage,2331,2348,"The pronoun “his” refers to Alexander VII. The entourage is unnamed; members, number, and actual contributions are not given."
+m-chp3-seciv-l106-116-0044,chp-3:03_CHP-3_sec_iv:l106-116,cand-11618,Workmen engaged on the most menial tasks,566,606,Unidentified worker group directly supervised by Bernini on the S. Andrea rebuilding; membership and count are not stated.
+m-chp3-seciv-l118-128-0058,chp-3:03_CHP-3_sec_iv:l118-128,cand-11619,several Jesuit churches,1895,1918,"Source-bounded group of unnamed churches; Turin and Mondovi are locations, while individual identities and count remain unspecified."
+m-chp3-seciv-l130-139-0065,chp-3:03_CHP-3_sec_iv:l130-139,cand-11620,chapels,214,221,"Plural, unnamed chapel group into which the former rooms were converted; count and individual identities are not given."
+m-chp3-seciv-l130-139-0066,chp-3:03_CHP-3_sec_iv:l130-139,cand-11621,Various artists and architects,2028,2058,Unnamed collective consulted about the S. Ignazio dome substitute; no members or consulting authority are specified.
+m-chp3-seciv-l130-139-0067,chp-3:03_CHP-3_sec_iv:l130-139,cand-11622,another personal letter,1404,1427,"Source-bounded reference to the Duke's letter; addressee, date, contents, and survival are unknown."
+m-chp3-seciv-l141-150-0064,chp-3:03_CHP-3_sec_iv:l141-150,cand-11623,"T am come to send fire on the earth: but what will I, if it be already kindled?",2449,2528,"Exact S0 OCR quotation attributed by Haskell to Christ as reported by St Luke; the printed scan reads ‘I am’, but S0 is unchanged and the exact biblical verse/version remains unverified."
+m-chp3-seciv-l152-163-0070,chp-3:03_CHP-3_sec_iv:l152-163,cand-11625,this idea,2433,2442,Deictic reference to Padre Nickel's proposal event cand-11625.
+m-chp3-seciv-l152-163-0071,chp-3:03_CHP-3_sec_iv:l152-163,cand-11625,the matter,2545,2555,Refers to Nickel's proposal event cand-11625; the source does not identify who dropped it.
+m-chp3-seciv-l165-177-0064,chp-3:03_CHP-3_sec_iv:l165-177,cand-5427,many members of the Society,466,493,Source names many members of the Society as a group with various consulted architects who considered the tribune most suitable; membership is not specified.
+m-chp3-seciv-l179-187-rel-0052,chp-3:03_CHP-3_sec_iv:l179-187,cand-11626,an Order,1945,1953,Unnamed religious Order; identity unresolved and not inferred from the church context.
+m-chp3-seciv-l179-187-rel-0053,chp-3:03_CHP-3_sec_iv:l179-187,cand-11627,current styles,807,821,Unparticularized contemporaneous artistic styles; not equated with Baroque.
+m-chp3-seciv-l179-187-rel-0054,chp-3:03_CHP-3_sec_iv:l179-187,cand-11628,those who come to see it,541,565,Unidentified visitors quoted as being moved by the figure; members and number unknown.
+m-chp4-sec-i-0347,chp-4:04_CHP-4_sec_i:l6-18,cand-11629,a dazzling group of artists and musicians,2741,2782,"Unnamed collective explicitly described in the passage; the five named artists are examples, not an exhaustive membership list."
+m-chp4-sec-i-0348,chp-4:04_CHP-4_sec_i:l20-24,cand-11630,a number of admirers,312,332,Unnamed collective identified as the writers of poems honouring Leonora Baroni; Haskell gives no names or exact count.
+m-chp4-sec-i-0349,chp-4:04_CHP-4_sec_i:l20-24,cand-11631,sovereigns,1208,1218,Unnamed plural interlocutors in Haskell's account of Paolo Giordano II's correspondence; no sovereign is individually identified.
+m-chp4-sec-i-0350,chp-4:04_CHP-4_sec_i:l20-24,cand-11632,news-letters,1228,1240,"A source-described group of newsletters read by Paolo Giordano II; titles, senders, and dates are not supplied."
+m-chp4-sec-i-0351,chp-4:04_CHP-4_sec_i:l20-24,cand-11633,retainers,1339,1348,Unnamed collective for whom Haskell says Paolo Giordano II used his authority to secure advantageous positions; no individuals or offices are named.
+m-chp4-sec-i-0352,chp-4:04_CHP-4_sec_i:l20-24,cand-11634,more indulgent literary historians,609,643,Unidentified class of literary historians whom Haskell says mentioned or quoted the poetry volumes; no individual historian is named.
+m-chp4-sec-i-0353,chp-4:04_CHP-4_sec_i:l20-24,cand-11635,the best artists of the day,2228,2255,"Unidentified group from which Paolo Giordano II wanted portraiture; Ottavio Leoni and Bernini are named as examples, not an exhaustive membership list."
+m-chp4-sec-i-0354,chp-4:04_CHP-4_sec_i:l20-24,cand-11636,more sarcastic correspondents,1540,1569,Unidentified plural correspondents in Haskell's explicitly speculative account; footnote 7 identifies one quoted writer only by signature.
+m-chp4-sec-i-0355,chp-4:04_CHP-4_sec_i:l26-33,cand-11637,certain other smaller works which he undertook at this time,270,329,Unidentified group of works attributed in Haskell's account to Bernini; titles and exact number remain unknown.
+m-chp4-sec-ii-l24-31-0050,chp-4:04_CHP-4_sec_ii:l24-31,cand-5691,a group at Windsor,2939,2957,Unidentified Windsor drawing group reported as deriving from Pietro da Cortona and his studio.
+m-chp4-sec-ii-l33-44-0053,chp-4:04_CHP-4_sec_ii:l33-44,cand-11638,"artists who worked for
+Cassiano",1006,1037,Unnamed group explicitly described as artists who worked for Cassiano; the membership is not listed.
+m-chp4-sec-ii-l33-44-0054,chp-4:04_CHP-4_sec_ii:l33-44,cand-11639,painters whom he took under his wing,2578,2614,Unnamed collective explicitly described as painters Cassiano took under his wing; membership is not listed.
+m-chp4-sec-ii-l46-51-0061,chp-4:04_CHP-4_sec_ii:l46-51,cand-11640,"the
+Pope and his nephews",1738,1762,Collective endpoint for the Pope and unnamed nephews; do not equate the group with all Barberini family members or infer individual employers.
+m-chp4-sec-ii-l46-51-0062,chp-4:04_CHP-4_sec_ii:l46-51,cand-5728,them,1450,1454,Pronoun refers to the named 1620s artists as a collective; no individual patronage is implied.
+m-chp4-sec-ii-l46-51-0063,chp-4:04_CHP-4_sec_ii:l46-51,cand-5728,these artists capable of working on a large scale,1643,1692,Anaphoric description of the previously named 1620s artist cohort.
+m-chp4-sec-ii-l46-51-0064,chp-4:04_CHP-4_sec_ii:l46-51,cand-5728,them,1841,1845,Pronoun refers to the named 1620s artists as a collective; the statement records only occasional employment.
+m-chp4-sec-ii-l46-51-0065,chp-4:04_CHP-4_sec_ii:l46-51,cand-5728,all these artists,2300,2317,Collective reference to the artists named earlier in the paragraph.
+m-chp4-sec-ii-l46-51-0066,chp-4:04_CHP-4_sec_ii:l46-51,cand-5732,the other restorers of this great art,3246,3283,Unnamed additional restorers following the six individually named figures; keep the collective open.
+m-chp4-sec-ii-l53-63-0063,chp-4:04_CHP-4_sec_ii:l53-63,cand-11645,essential spirit of classical art,2977,3010,"The phrase refers to the broader classical-art tradition Poussin absorbed, distinct from the specific classical painting path candidate."
+m-chp4-sec-ii-l53-63-0064,chp-4:04_CHP-4_sec_ii:l53-63,cand-11644,that group of artists,2331,2352,Anaphoric reference to the unnamed collective recording ancient Roman remains; not the earlier St Peter's team.
+m-chp4-sec-ii-l80-89-venetian-vogue,chp-4:04_CHP-4_sec_ii:l80-89,cand-11647,vogue for Venetian painting,825,852,"The sentence describes a vogue for Venetian painting, distinct from the artistic tradition candidate used for the shorter phrase 'Venetian painting'."
+m-chp4-sec-ii-l101-107-oderisi-frescoes,chp-4:04_CHP-4_sec_ii:l101-107,cand-11648,some frescoes,292,305,Source-specific mention of the earlier Italian Sacrament fresco series; the exact cycle and church are unresolved.
+m-chp4-sec-ii-p112-0029,chp-4:04_CHP-4_sec_ii:l151-159,cand-3461,Italy,1905,1910,Named geographic boundary of Haskell's reputation claim.
+m-chp4-sec-ii-p115-0051,chp-4:04_CHP-4_sec_ii:l180-189,cand-11653,private tutors,1004,1018,Unnamed plural group; no individual tutors are identified.
+m-chp4-sec-ii-p115-0052,chp-4:04_CHP-4_sec_ii:l180-189,cand-11654,some unidentified friend,2393,2417,Singular recipient; Cassiano is only proposed as a possible identity.
+m-chp4-sec-ii-p115-0053,chp-4:04_CHP-4_sec_ii:l180-189,cand-11655,several others by Poussin’s hand,2582,2614,"Additional unidentified Poussin drawings, distinct from the Marino-commissioned group."
+m-chp4-sec-ii-p116-0045,chp-4:04_CHP-4_sec_ii:l191-205,cand-11656,the highly placed and powerful,234,264,Unspecified plural group; no individual patrons are named.
+m-chp4-sec-ii-p116-0046,chp-4:04_CHP-4_sec_ii:l191-205,cand-11657,other new ones,686,700,Unnamed clients in Claude's late-1640s lists; membership is unknown.
+m-chp4-sec-ii-p116-0047,chp-4:04_CHP-4_sec_ii:l191-205,cand-11658,the Roman newswriters,1929,1950,Unspecified plural group reacting to Donna Olimpia's influence.
+m-chp4-sec-ii-p116-0048,chp-4:04_CHP-4_sec_ii:l191-205,cand-11659,his learned friends in Italy,2762,2790,Unnamed plural group for whom Massimi deciphered inscriptions.
+m-chp4-sec-ii-p116-0049,chp-4:04_CHP-4_sec_ii:l191-205,cand-11660,some half-dozen masterpieces,2001,2029,Approximate group of works; no individual titles are given.
+m-chp4-sec-ii-p116-0050,chp-4:04_CHP-4_sec_ii:l191-205,cand-11661,three of the greatest painters,2033,2063,The source gives a group size but does not name its members.
+m-chp4-sec-ii-p116-0051,chp-4:04_CHP-4_sec_ii:l191-205,cand-11662,pictures of Argus guarding Io and A Coast View with Apollo and the Cumaean Sibyl,748,828,Group-level referent for two separately indexed paintings; not a composite work.
+m-chp4-sec-ii-p116-0052,chp-4:04_CHP-4_sec_ii:l191-205,cand-11663,"the local antiquities, a Roman theatre, fragments of statues and other ruins",2531,2607,Source-bounded mixed group of visited sites and objects; individual identities remain unresolved.
+m-chp4-sec-ii-p117-0034,chp-4:04_CHP-4_sec_ii:l207-216,cand-11665,the King and Queen and of two Infantas,36,74,Sitter roles only; personal identities are not supplied.
+m-chp4-sec-ii-p117-0035,chp-4:04_CHP-4_sec_ii:l207-216,cand-11666,many of the older Roman buildings and paintings,1617,1664,Mixed group arranged for copying; originals and copies are unnamed.
+m-chp4-sec-ii-p117-0036,chp-4:04_CHP-4_sec_ii:l207-216,cand-11667,a pair of that painter’s most beautiful early works,2019,2070,Source-defined pair; not evidence of pendant status.
+m-chp4-sec-ii-p117-0037,chp-4:04_CHP-4_sec_ii:l207-216,cand-11668,"heirs of
+Cassiano",1939,1956,"Unidentified heirs, mentioned only as a possible source without direct evidence."
+m-chp4-sec-ii-p118-0040,chp-4:04_CHP-4_sec_ii:l218-227,cand-11670,two large pictures,1480,1498,Source-bounded pair; its two named members are recorded separately.
+m-chp4-sec-ii-p118-0041,chp-4:04_CHP-4_sec_ii:l218-227,cand-11669,conflict between fertility and sterility,172,212,Theme named in the sentence completing the p.117 discussion of Apollo and Daphne.
+m-chp4-sec-ii-p118-0042,chp-4:04_CHP-4_sec_ii:l218-227,cand-6468,Clemency,1093,1101,Nested mention of the allegorical subject of the Altieri palace fresco.
+m-chp4-sec-ii-p118-0043,chp-4:04_CHP-4_sec_ii:l218-227,cand-11674,court art,1200,1209,Practice Haskell says was modeled by the fresco.
+m-chp4-sec-ii-p118-0044,chp-4:04_CHP-4_sec_ii:l218-227,cand-11673,Origin of Coral,1726,1741,Mythological subject named within the Claude painting title.
+m-chp4-sec-ii-p118-0045,chp-4:04_CHP-4_sec_ii:l218-227,cand-11675,several other works,692,711,Unspecified group of works by Maratta commissioned by Massimi.
+m-chp4-sec-ii-p118-0046,chp-4:04_CHP-4_sec_ii:l218-227,cand-11676,other important collectors,2678,2704,Unnamed Roman collector group; no members inferred.
+m-chp4-sec-ii-p118-0047,chp-4:04_CHP-4_sec_ii:l218-227,cand-11677,leading Italian patrons,2869,2892,Unnamed seventeenth-century group; sentence continues at p.119 L230.
+m-chp4-sec-ii-p118note-painting-group,chp-4:04_CHP-4_sec_ii:l232-308,cand-11670,The pictures,12121,12133,Footnote refers to the two Claude paintings named on p.118; individual repository mapping is unspecified.
+m-chp4-sec-ii-p118note-location-group,chp-4:04_CHP-4_sec_ii:l232-308,cand-11671,the Chicago Art Institute and Lord Leicester Collection,12145,12200,Joint location group; exact painting-to-repository assignment is not stated.
+m-chp4-sec-ii-p107-fn263-haskell-first-person,chp-4:04_CHP-4_sec_ii:l232-308,cand-3770,I,6711,6712,First-person authorial speaker Francis Haskell; reused the book-author candidate already present in the front matter.
+m-chp4-sec-ii-notes-p112-he-cassiano,chp-4:04_CHP-4_sec_ii:l232-308,cand-2036,he,9090,9092,Anaphor refers to Cassiano dal Pozzo in the preceding p.112 text; the printed page confirms footnote 6 follows the sentence about his reinstatement.
+m-chp4-sec-ii-notes-p114-0063,chp-4:04_CHP-4_sec_ii:l232-308,cand-11681,other contemporaries,9783,9803,Unnamed and uncounted contemporaries reported as having referred to Angeloni; group membership remains unspecified.
+m-chp4-sec-ii-notes-p114-0064,chp-4:04_CHP-4_sec_ii:l232-308,cand-5935,The pictures,9910,9922,Anaphor for Cassiano’s unresolved group of two or three Poussin heroic landscape copies described in the p.114 body.
+m-chp4-sec-ii-p115note-0072,chp-4:04_CHP-4_sec_ii:l232-308,cand-1564,Massimi,10598,10605,The named dedicatee of the biography in Haskell’s reported correction.
+m-chp5-p120-s2-pope,chp-5:05_CHP-5_sec_i:l3-7,cand-11682,the Pope,111,119,Unidentified office-holder in Haskell’s employment statement; not equated with Urban VIII or Alexander VII.
+m-chp5-p120-s2-independent-patron,chp-5:05_CHP-5_sec_i:l3-7,cand-11689,the independent patron,190,212,Generic patron category in Haskell’s historical interpretation.
+m-chp5-p120-s2-independent-patrons,chp-5:05_CHP-5_sec_i:l3-7,cand-11689,independent patrons of this kind,1173,1205,Continuation of the source-defined independent-patron category.
+m-chp5-p120-s2-poussin-circle,chp-5:05_CHP-5_sec_i:l3-7,cand-11683,restricted circle of scholars and humanists,315,358,Unnamed circle to which Haskell says Poussin deliberately confined himself.
+m-chp5-p120-s2-connoisseur-circle,chp-5:05_CHP-5_sec_i:l3-7,cand-11684,circle of intellectually minded connoisseurs,890,934,Unnamed circle described by Haskell; membership and institutional status are unspecified.
+m-chp5-p120-s2-artistic-expression,chp-5:05_CHP-5_sec_i:l3-7,cand-11690,complex imagery and a more aristocratically restrained form of artistic expression,1024,1106,Source-described artistic expression the connoisseurs were ready to encourage.
+m-chp5-p120-s2-living-painters,chp-5:05_CHP-5_sec_i:l3-7,cand-11685,living painters,1543,1558,Unnamed group in direct contact with professional dealers.
+m-chp5-p120-s2-young-unknown-artists,chp-5:05_CHP-5_sec_i:l3-7,cand-11686,young and unknown artists,1625,1650,General group said to benefit from dealers at first.
+m-chp5-p120-s2-newly-arrived-painter,chp-5:05_CHP-5_sec_i:l3-7,cand-11686,some painter newly arrived in Rome,1704,1738,Generic member/example of the young newcomer group; no individual is identified.
+m-chp5-p120-s2-established-artist,chp-5:05_CHP-5_sec_i:l3-7,cand-11687,an artist had made his reputation,2148,2181,Generic established artist in Haskell’s contrast with newcomers.
+m-chp5-p120-s2-dealer,chp-5:05_CHP-5_sec_i:l3-7,cand-0125,a dealer,2239,2247,Generic dealer in Haskell’s qualified statement about established artists.
+m-chp5-p120-s2-alexander-chapel,chp-5:05_CHP-5_sec_i:l3-7,cand-11688,Pope Alexander Vil’s chapel at Castel Gandolfo,2507,2553,Specific but unnamed chapel in the reported provenance tradition; the printed page reads VII where OCR has Vil.
+m-chp5-p120-s2-alexander-pronoun,chp-5:05_CHP-5_sec_i:l3-7,cand-0665,his,2579,2582,"Pronoun refers to Pope Alexander VII, the immediately preceding named person; Haskell treats the inscription as suggestive, not conclusive."
+m-chp5-p120-s2-blunt-article,chp-5:05_CHP-5_sec_i:l3-7,cand-11251,"Blunt in Société Poussin, 1947, pp. 18-25",2656,2697,Bibliography identifies Blunt’s article; its contents were not independently consulted.
+m-chp5-p121-s2-accademia-members,chp-5:05_CHP-5_sec_i:l9-15,cand-11691,its own members,1088,1103,Accademia di S. Luca members subject to the reported prohibition; individual membership is unspecified.
+m-chp5-p122-s2-flemish-dealers,chp-5:05_CHP-5_sec_i:l17-26,cand-11692,The Flemish,275,286,The unnamed collective described as prominent dealers.
+m-chp5-p122-s2-wael-compatriots,chp-5:05_CHP-5_sec_i:l17-26,cand-11693,his own compatriots,520,539,Unnamed compatriot artists and clients in Haskell's general account of de Wael.
+m-chp5-p122-s2-wael-small-pictures,chp-5:05_CHP-5_sec_i:l17-26,cand-11694,"smaller pictures by
+Italian genre, flower and battle painters",665,726,Unnamed pictures in de Wael's collection; individual works and painters are not identified.
+m-chp5-p122-s2-wael-important-artists,chp-5:05_CHP-5_sec_i:l17-26,cand-11695,more important artists,770,792,Haskell's unnamed comparative group in the statement about de Wael's limited social involvement.
+m-chp5-p122-s2-financial-turmoil,chp-5:05_CHP-5_sec_i:l17-26,cand-11696,financial turmoil that followed the pontificate of Urban VIII,806,867,Source-described event; not an action by Urban VIII.
+m-chp5-p122-s2-economic-pressure-artists,chp-5:05_CHP-5_sec_i:l17-26,cand-11697,Artists,957,964,Generic artist population described as affected by Innocent X's retrenchment policy.
+m-chp5-p122-s2-market-painters,chp-5:05_CHP-5_sec_i:l17-26,cand-11697,more and more painters,1339,1361,Generic painters described as working for dealers amid market pressure.
+m-chp5-p122-s2-exported-italian-pictures,chp-5:05_CHP-5_sec_i:l17-26,cand-11698,"increasing number of Italian pictures which were being sent to France, Spain, England and other European countries",1683,1797,Unnamed works in Haskell's general export trend.
+m-chp5-p122-s2-temporary-foreign-visitors,chp-5:05_CHP-5_sec_i:l17-26,cand-11699,Foreigners who came to Rome for a short time,1837,1881,Unnamed visitor group in Haskell's qualified generalization.
+m-chp5-p122-s2-visiting-painters,chp-5:05_CHP-5_sec_i:l17-26,cand-11700,the painter,1950,1961,Generic artist contrasted with dealers as an access point for temporary visitors.
+m-chp5-p122-s2-dealer-exported-works,chp-5:05_CHP-5_sec_i:l17-26,cand-11701,works of art,2081,2093,Unnamed works in the general statement about dealers initiating exports.
+m-chp5-p122-s2-stael-painters,chp-5:05_CHP-5_sec_i:l17-26,cand-11702,[painters],2649,2659,Editorial bracket in the quotation clarifies the unnamed plural referent.
+m-chp5-p122-s2-prepainted-pictures,chp-5:05_CHP-5_sec_i:l17-26,cand-11703,already painted,2703,2718,The class of pictures de Stael says he preferred buying to commissioning new works.
+m-chp5-p123-s2-leading-artists,chp-5:05_CHP-5_sec_i:l28-33,cand-11704,many leading artists,1337,1357,Unnamed group used as the object of Carlo's reported contacts.
+m-chp5-p123-s2-mancini-friends,chp-5:05_CHP-5_sec_i:l28-33,cand-11705,his friends,2485,2496,Unnamed friends whom Mancini reportedly encouraged to eat meat during Lent.
+m-chp5-p123-s2-mancini-woman,chp-5:05_CHP-5_sec_i:l28-33,cand-11706,a married woman,2560,2575,Unidentified woman in Haskell's account of Mancini.
+m-chp5-p123-s2-mancini-sons,chp-5:05_CHP-5_sec_i:l28-33,cand-11707,criminal sons,2582,2595,Unidentified plural group whose members Haskell says Mancini saved from justice.
+m-chp5-note-p123-s2-eritreo-volume,chp-5:05_CHP-5_sec_i:l125-147,cand-11708,"Jan Niceo Eritreo, II",72,93,Source reference for Mancini's life; work title remains unresolved.
+m-chp5-note-p123-s2-dumesnil-work,chp-5:05_CHP-5_sec_i:l125-147,cand-11319,Dumesnil in 1853,2151,2167,Bibliography candidate matching the named author and year in Haskell's note.
+m-chp5-note-p123-s2-borzelli-work,chp-5:05_CHP-5_sec_i:l125-147,cand-11259,"Borzelli, 1910",2446,2460,Bibliography candidate matching the named author and year in Haskell's note.
+m-chp5-note-p123-s2-fraschetti-work,chp-5:05_CHP-5_sec_i:l125-147,cand-4553,"Fraschetti, p. 71",2729,2746,Bibliography candidate for the cited Fraschetti volume; the locator is preserved from Haskell's footnote.
+m-chp5-p124-s2-patients,chp-5:05_CHP-5_sec_i:l35-49,cand-11709,distinguished and fashionable patients,147,185,Unspecified patient group in Haskell's account of Mancini's medical visits.
+m-chp5-p124-s2-rival-dealers,chp-5:05_CHP-5_sec_i:l35-49,cand-0125,all rival dealers,383,400,Collective reference to Mancini's unnamed rivals in art dealing.
+m-chp5-p124-s2-cardinals,chp-5:05_CHP-5_sec_i:l35-49,cand-11710,various cardinals,661,678,Unnamed cardinals under whom Simonelli reportedly served.
+m-chp5-p124-s2-interesting-artists,chp-5:05_CHP-5_sec_i:l35-49,cand-11714,a number of interesting artists outside the main stream of fashion,1124,1190,"Source-defined group exemplified by Rosa, Testa, and Castiglione."
+m-chp5-p124-s2-other-visitors,chp-5:05_CHP-5_sec_i:l35-49,cand-11711,other visitors,1704,1718,Unnamed group in Haskell's explicit inference about repeated assistance.
+m-chp5-p124-s2-three-figures,chp-5:05_CHP-5_sec_i:l35-49,cand-11712,"All three figures, Carlo, Mancini and Simonelli",1720,1767,Source-defined grouping of the three men compared in the passage.
+m-chp5-p124-s2-leading-artists,chp-5:05_CHP-5_sec_i:l35-49,cand-11713,many of the leading artists of their day,1972,2012,Unnamed group said to have been friends with and patronized by all three men.
+m-chp5-note-p124-s2-journal,chp-5:05_CHP-5_sec_i:l125-147,cand-11403,Journal des Voyages,3017,3036,Bibliography candidate for Monconys's cited travel journal; the cited page was not independently consulted.
+m-chp5-p125-0025,chp-5:05_CHP-5_sec_i:l51-58,cand-11715,those that wegenerally come across,852,886,Source-defined profile group; the printed page reads 'those that we generally come across'.
+m-chp5-p125-0026,chp-5:05_CHP-5_sec_i:l51-58,cand-11716,other craftsmen or merchants,698,726,Unnamed exhibitors whom artists probably showed alongside.
+m-chp5-p125-0027,chp-5:05_CHP-5_sec_i:l51-58,cand-11717,connoisseurs of standing,1084,1108,Audience described as attracted by exhibitions.
+m-chp5-p125-0028,chp-5:05_CHP-5_sec_i:l51-58,cand-11718,the artist,251,261,Generic artist in Haskell's public-contact claim.
+m-chp5-p125-0029,chp-5:05_CHP-5_sec_i:l51-58,cand-11719,wider public,282,294,Unspecified audience in Haskell's public-contact claim.
+m-chp5-p125-0030,chp-5:05_CHP-5_sec_i:l51-58,cand-11720,many saints’ days and processions,397,430,Recurring religious occasions identified as principal contexts for exhibitions.
+m-chp5-p125-0031,chp-5:05_CHP-5_sec_i:l51-58,cand-11721,a young peasant boy,1155,1174,Anonymous person in the reported Sinigaglia anecdote.
+m-chp5-p125-0032,chp-5:05_CHP-5_sec_i:l51-58,cand-11722,the fair of Sinigaglia,1264,1286,The fair is an event setting; the existing place mention Sinigaglia remains separate.
+m-chp5-p125-0033,chp-5:05_CHP-5_sec_i:l51-58,cand-11723,a stall covered with pictures,1231,1260,The displayed pictures are unidentified.
+m-chp5-p125-0034,chp-5:05_CHP-5_sec_i:l51-58,cand-11724,landscapes by the Flemish artist Goffredo Wals,1324,1370,Unidentified works reportedly seen by Claude.
+m-chp5-p125-0035,chp-5:05_CHP-5_sec_i:l51-58,cand-11725,another exhibition,1530,1548,Narrative antecedent to the 1607 display occasion; connection is preserved as the passage presents it.
+m-chp5-p125-0036,chp-5:05_CHP-5_sec_i:l51-58,cand-11725,an occasion,1830,1841,Anaphoric mention of the 1607 painting-display occasion.
+m-chp5-p125-0037,chp-5:05_CHP-5_sec_i:l51-58,cand-11726,the Duke of Mantua’s agent,1667,1693,Unnamed buyer and display actor in the 1607 account.
+m-chp5-p125-0038,chp-5:05_CHP-5_sec_i:l51-58,cand-11727,all the leading artists,1875,1898,The group said to have apparently attended the occasion.
+m-chp5-p125-0039,chp-5:05_CHP-5_sec_i:l51-58,cand-11728,More organised exhibitions,1981,2007,Recurring Bergamasque community exhibition series.
+m-chp5-p125-0040,chp-5:05_CHP-5_sec_i:l51-58,cand-11728,These,2144,2149,Anaphoric reference to the Bergamasque exhibitions.
+m-chp5-p125-0042,chp-5:05_CHP-5_sec_i:l51-58,cand-11730,the Guardiano,2230,2243,Anonymous officeholder named as payer.
+m-chp5-p125-0043,chp-5:05_CHP-5_sec_i:l51-58,cand-11731,tapestries,2437,2447,Unidentified textiles hung on the church facade and nearby houses.
+m-chp5-p125-0044,chp-5:05_CHP-5_sec_i:l51-58,cand-11733,the houses round about,2457,2479,Unnamed surrounding buildings hung with tapestries.
+m-chp5-p125-0045,chp-5:05_CHP-5_sec_i:l51-58,cand-11732,pictures spread round the inner courtyard,2623,2664,Unidentified works in the courtyard display.
+m-chp5-p125-0046,chp-5:05_CHP-5_sec_i:l51-58,cand-11734,his devotees,2384,2396,The source's possessive refers to St Bartholomew.
+m-chp5-p125-0048,chp-5:05_CHP-5_sec_i:l51-58,cand-11736,exhibitions,2261,2272,Name-day exhibition series attributed by the source to S. Bartolomeo all'Isola.
+m-chp5-p125-0049,chp-5:05_CHP-5_sec_i:l51-58,cand-11740,artists,2926,2933,Artists given the display opportunity by the S. Bartolomeo all'Isola name-day exhibitions; distinct from the Bergamasque series.
+m-chp5-p125-0050,chp-5:05_CHP-5_sec_i:l51-58,cand-11738,artist of established reputation,761,793,Generic group in Haskell's judgment about lowering one's dignity.
+m-chp5-p125-0051,chp-5:05_CHP-5_sec_i:l51-58,cand-11739,the painters in Rome,1637,1657,Unnamed group said to have pressured for another exhibition.
+m-chp5-p125-0052,chp-5:05_CHP-5_sec_i:l51-58,cand-11739,them,1716,1720,Anaphoric reference to the painters in Rome.
+m-chp5-note-p125-0029,chp-5:05_CHP-5_sec_i:l125-147,cand-11355,Studi Secenteschi,3452,3469,"Journal title in Haskell's note 1; citation is recorded as printed, not independently consulted."
+m-chp5-p126-0034,chp-5:05_CHP-5_sec_i:l60-74,cand-11742,The pictures chosen,1161,1180,Unnamed group selected for display at the annual exhibition.
+m-chp5-p126-0035,chp-5:05_CHP-5_sec_i:l60-74,cand-11743,the colonnade of the portico,1206,1234,Pantheon portico display space below the balustrade.
+m-chp5-p126-0036,chp-5:05_CHP-5_sec_i:l60-74,cand-11743,the balustrade,1248,1262,Upper display reference within the same Pantheon portico space.
+m-chp5-p126-0037,chp-5:05_CHP-5_sec_i:l60-74,cand-11744,probably tapestries,1303,1322,The source explicitly qualifies their presence as probable.
+m-chp5-p126-0038,chp-5:05_CHP-5_sec_i:l60-74,cand-11745,contemporary works,1345,1363,Unnamed group of contemporary works shown alongside works by old masters.
+m-chp5-p126-0039,chp-5:05_CHP-5_sec_i:l60-74,cand-11746,the picture,2470,2481,Untitled picture in Rosa's statement before the 1651 exhibition.
+m-chp5-p126-0040,chp-5:05_CHP-5_sec_i:l60-74,cand-11747,he wrote before the exhibition of 1651,2378,2416,A written statement attributed to Rosa by Haskell; its original document is not identified.
+m-chp5-p126-0041,chp-5:05_CHP-5_sec_i:l60-74,cand-11748,the last picture,2743,2759,Untitled picture in Rosa's 1652 statement; not merged with cand-11746.
+m-chp5-p126-0042,chp-5:05_CHP-5_sec_i:l60-74,cand-11749,he wrote in 1652,2637,2653,A written statement attributed to Rosa by Haskell; its original document is not identified.
+m-chp5-p126-0043,chp-5:05_CHP-5_sec_i:l60-74,cand-11750,his will,3121,3129,"Jan Miel's will, referred to and quoted by Haskell; original not examined."
+m-chp5-p126-0044,chp-5:05_CHP-5_sec_i:l60-74,cand-11751,a yearly mass,3260,3273,Recurring memorial mass required by the will.
+m-chp5-p126-0045,chp-5:05_CHP-5_sec_i:l60-74,cand-11752,the brethren,3306,3318,Unnamed group addressed by the will's annual celebration and decoration requirements.
+m-chp5-p126-0046,chp-5:05_CHP-5_sec_i:l60-74,cand-6031,those who did so,2123,2139,Corefers to artists using the Pantheon exhibitions to attract attention.
+m-chp5-p126-0047,chp-5:05_CHP-5_sec_i:l60-74,cand-6031,the occasion,3043,3055,Corefers to the annual St Joseph's Day exhibition discussed in this passage.
+m-chp5-p127-0048,chp-5:05_CHP-5_sec_i:l76-83,cand-11754,two of the pictures,369,388,The unnamed pictures targeted by the 1680 order.
+m-chp5-p127-0049,chp-5:05_CHP-5_sec_i:l76-83,cand-11754,the offending pictures,578,600,Anaphoric reference to the same two pictures.
+m-chp5-p127-0050,chp-5:05_CHP-5_sec_i:l76-83,cand-11756,a cardinal,605,615,Unnamed defender of the pictures.
+m-chp5-p127-0051,chp-5:05_CHP-5_sec_i:l76-83,cand-11757,the leading patrician families,825,855,Unnamed collective patrons.
+m-chp5-p127-0052,chp-5:05_CHP-5_sec_i:l76-83,cand-11758,the Roman aristocracy,2194,2215,Collective audience influenced by the Sacchetti.
+m-chp5-p127-0053,chp-5:05_CHP-5_sec_i:l76-83,cand-11760,Owners of private galleries,2788,2815,Unnamed lenders for the Rospigliosi display.
+m-chp5-p127-0054,chp-5:05_CHP-5_sec_i:l76-83,cand-11761,their masterpieces,2831,2849,Works lent by private gallery owners.
+m-chp5-p127-0055,chp-5:05_CHP-5_sec_i:l76-83,cand-11762,the papal nephews of the day,2940,2968,Unnamed group in the avviso report.
+m-chp5-p127-0056,chp-5:05_CHP-5_sec_i:l76-83,cand-11755,the Pope’s,2489,2499,Unnamed Pope identified as Camillo’s brother.
+m-chp5-p127-0057,chp-5:05_CHP-5_sec_i:l76-83,cand-11763,his four sons,2520,2533,Four unnamed sons of Camillo.
+m-chp5-p127-0058,chp-5:05_CHP-5_sec_i:l76-83,cand-11765,some of her most famous pictures,3058,3090,Queen Christina’s unnamed loaned works.

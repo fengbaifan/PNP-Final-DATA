@@ -25,3 +25,45 @@
 p161第V节迁移新增23个局部候选、53条精确跨度提及和22条正文断言；注2–4以4条引文定位statement处理并链接到正文，注3–4位于复合段L71–72。扫描物理第16页核实Clement IX后有空格、The fresco中间有空格、a Barberini前无多余o；S0原文保持不改。p161 L11末句待p162 L15续为“or a Chigi”，该断言保持pending。
 
 下一段为chp-6:06_CHP-6_sec_v:l14-19（印刷页162）。续接完成后继续全书S2；全书覆盖和语义交接审计完成前不进入S3。
+
+## 第6章脚注引用候选规范化（2026-10-10）
+
+本章2条具有双端候选的`footnote_citation` statement已规范为`cites`候选；缺端引用仍待处理。详见[全书阶段记录](../process/stages.md)。
+
+## 第六章p.158–160脚注书目指引语义复核（2026-10-10）
+
+本章11条双端`footnote_bibliographic_pointer`逐条按印本文字及正文回链复核，规范为12条《赞助人与画家》`cites` archive候选。p.160注3原将Skippon与Misson两种来源合成一条作品间指向，现拆为两条来源引用，并补齐Christina描述statement的脚注回链；p.160注1保留avvisi与Roma出版定位的区别，注2保留书信与刊载文章的区别。被引文本均未独立查阅，关系仍属S2候选。详细依据、写回脚本及恢复副本见[过程记录](../process/stages.md)。
+
+### 第六章 p.148 n.2、p.149 n.6 关系候选分类（2026-10-10）
+
+回核 `06_CHP-6_sec_i.md` L123、L128及段内正文。p.148注2明确将Bernini与《君士坦丁骑马像》置于Innocent X时期委托语境，标记为关系候选；保留“only important”为Haskell的范围判断。p.149注6明确说《Allori d’Eurota》包含对Camillo Pamfili赞助活动的颂扬性记述，按作品主题关系标记为候选，不推断Pamfili为作者。两项均为Haskell脚注报告，作品/诗集未独立查阅，未写入S6正式关系。
+
+p.153注1–5仍是一条复合的二手争议陈述：Samek Ludovici报告比萨条约授予法国国王雇用教皇艺术家的权利，Haskell则称该条款不见于已出版版本。现有subject/object为报告者与条约，无法直接代表被争议关系两端；暂不分类为关系候选，留待拆分主张、反驳和书目引用。此批未增删candidate、mention或statement。
+全量同步闭合通过：9/9检查、303 passed与2个subtests；严格表审计errors=[]、s2_missing=[]，结构契约130/130。卡片预检1,019张、2,608张表、10,149行，files_to_write=0；工作树`git diff --check`通过（仅有LF/CRLF转换提示）。全书S2交接仍未完成。
+### 第六章 p.153 注1–5 复合脚注拆分（2026-10-10）
+
+将原复合statement拆成三个可追溯记录：Haskell之书对Baldinucci 1948版的引文（印本p.153为pp.111 ff.，并指向该版注107 p.249）；Samek Ludovici经Haskell转述的比萨条约“授予法国国王雇用教皇艺术家之权”主张；Haskell称该条款不见于已出版条约版本的反驳。关系主张端点改为未名法国国王与“Pope’s artists”群组，明确标为二手、受争议的S2关系候选，不声称实际雇用或权利确已生效。反驳保留为来源批评statement，不把缺席判断转换为关系。引用独立连至书目已有的Baldinucci 1948 archive候选；版本和注释未独立查阅。既有mention已覆盖各对象，不新增candidate或mention；statement净增2条。
+## 第六章p.154注1所有权与书目引用关系复核（2026-10-10）
+
+复核 `06_CHP-6_sec_i.md` L147。原`st-chp6-notes-l147-p154-n1-citation`明确把《赞助人与画家》`cand-2962`连至Baldinucci卷VI（1728）`cand-4846`，定位pp.558–559；改为`cites`并标记relation candidate。原`st-chp6-notes-l147-p154-n1-location`说`cand-6224`画作为Haskell 1980年文本写作时归`cand-6378` Paul Getty Museum所有，谓词修正为work→institution的`owned_by`，保留来源时间限定，不解释为当前馆藏地点。两端候选类型、source line、印本原文和coverage均通过预检；没有新增或删除candidate、mention、statement，也未写S6关系。
+
+受控脚本 `process/classify_chp6_p154_note1_20261010.py` 以输入SHA、固定statement ID、候选类型、脚注定位、原文锚点和预期端点执行dry-run/apply。恢复副本：`04-knowledge/tables/book-statements.jsonl.bak-s2-chp6-p154-note1-20261010`；写前SHA-256 `862d6afed5b027c3b57238cc99b1b11b8354941a2fb0b9f1d290a10c79dbf09b`，写后SHA-256 `93d20c41325d4918b5fff54f3207a3880a783d5a6dd874277eb15e9db3374fcd`。
+写后全量同步闭合通过：9/9检查、303 passed与2个subtests；结构契约130/130；严格表审计`errors=[]`、`s2_missing=[]`；关系一致性机械审计各错误项为0。卡片预检1,019张、2,608张表、10,149行，`files_to_write=0`；`git diff --check`通过。仍有两条既存enrichment `source_ref`警告，S2语义交接仍未完成。
+关系候选增至3,780条（3,764条双端、16条开放）；双端未分类降至4,313条；双端脚注引用候选增至128条；`footnote_citation`降至659条，其中645条仍缺至少一个端点。
+
+## 第六章p.154注2–4引文拆分与端点规范化（2026-10-10）
+
+复核 `06_CHP-6_sec_i.md` L148–150及对应页下注。注2 Golzio 1939 p.14映射至既有archive候选`cand-6196`；注3 Pastor XIV p.329映射至既有候选`cand-4836`；注4将Golzio 1939和Incisa della Rocchetta 1925 pp.539–544拆成两条独立引用，分别指向`cand-6196`与书目已识别、内容未独立查阅的`cand-6379`。四条现有/新增statement均为《赞助人与画家》`cand-2962`→archive的`cites`候选；没有新增候选、mention或S6正式关系，statement净增1。
+
+受控脚本 `process/classify_chp6_p154_notes2_4_20261010.py` 以输入SHA、固定statement ID、候选类型、coverage、原文行锚与mention覆盖执行dry-run/apply。恢复副本：`04-knowledge/tables/book-statements.jsonl.bak-s2-chp6-p154-notes2-4-20261010`；写前SHA-256 `93d20c41325d4918b5fff54f3207a3880a783d5a6dd874277eb15e9db3374fcd`，写后SHA-256 `acbd74bfa6cd7a43905209a4bfbc04bd95d20ef33087e31d332d070751b2f471`。全书现12,687条statement、3,784条`relation_candidate=true`（3,768条双端、16条开放），4,313条双端未分类；双端脚注引用候选132条；656条`footnote_citation`中642条仍缺至少一个端点。
+
+
+本批写后全量同步闭合通过：9/9检查、303 passed与2个subtests；结构契约130/130；严格表审计`errors=[]`、`s2_missing=[]`。卡片预检1,019张、2,608张表、10,149行，`files_to_write=0`；关系一致性机械审计错误项均为0。既存两条enrichment `source_ref`警告和S2语义质量提示仍在。
+
+## 第六章p.155注释1–5引文及范围主张拆分（2026-10-10）
+
+注1、2、3、5及注4续注已规范为7条本书→archive `cites`候选；注3匿名1783年目录与Corti短述分开，注4续注的Pascoli与Bellori引文分开。注4正文概括“十七世纪艺术文献多有Colonna赞助记载”单列为Haskell范围性主张，明确不是关系。正文注4回链与续注L154/L110定位已同步。候选和mention均复用，不新增KU、candidate或mention，不写S6正式关系。受控写回及SHA、备份、端点核验记录见[全书过程记录](../process/stages.md)。写回后全量复核待执行；全书S2交接仍未完成。
+
+## 第六章p.155正文关系候选复核（2026-10-10）
+
+L103–109中12条直接支持的有端点关系现标记为S2候选，覆盖Bernini重建宫殿、Filippo/Girolamo重建装饰Colonna宫殿、Lorenzo–Maria婚姻、Palestrina领地售予Barberini、Lorenzo的家族赞助/收藏增补/艺术家聘用、Grimaldi在宫殿绘制风景、Lorenzo题材偏好与可能的风景装饰影响，以及Resta的艺术批评。保留Haskell引述、作者限定和未名委托者；不合并同名宫殿候选、不建S6正式关系。写回备份、哈希及逐条预检记录见[全书过程记录](../process/stages.md)。全书关系分类与S2语义交接仍未完成。

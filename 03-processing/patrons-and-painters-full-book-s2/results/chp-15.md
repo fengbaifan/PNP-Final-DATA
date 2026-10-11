@@ -46,7 +46,7 @@
 
 ## 第十五章p.362正文语义复审（2026-10-09）
 
-对照`CHP-15.pdf`物理页2复核正文段`chp-15:15_CHP-15_sec_i:l16-25`。73条mention字符跨度均吻合，44条statement引文均可在指定S0段定位；印本`milord, employing`与S0 OCR连写`milord,employing`的差异记入S2校读，不改来源。补录6条定位明确的statement，细分别墅位置、拟容纳的收藏、柱群来源与Rome地理限定；增加Farsetti居住巴黎、威尼斯新古典运动角色及别墅/柱群关系候选。Lodoli启发“三位赞助人”的对象集合保持开放。修正`cand-10430`跨页说明与`cand-9206`使用范围；未新增候选、KU、mention或正式关系。全库12,405条statement、2,644条关系候选（23条开放）；下一项p.363正文与注释。
+对照`CHP-15.pdf`物理页2复核正文段`chp-15:15_CHP-15_sec_i:l16-25`。73条mention字符跨度均吻合，44条statement引文均可在指定S0段定位；印本`milord, employing`与S0 OCR连写`milord,employing`的差异记入S2校读，不改来源。补录6条定位明确的statement，细分别墅位置、拟容纳的收藏、柱群来源与Rome地理限定；增加Farsetti居住巴黎、威尼斯新古典运动角色及别墅/柱群关系候选。首次审阅将Lodoli启发“三位赞助人”的目标集合保留开放；该决定在全书交接审计中按本章三位赞助人小节标题复核并修正，见下方复核记录。修正`cand-10430`跨页说明与`cand-9206`使用范围；未新增候选、KU、mention或正式关系。全库12,405条statement、2,644条关系候选（23条开放）；下一项p.363正文与注释。
 
 ## 第十五章p.363正文与注释语义复审（2026-10-09）
 
@@ -56,9 +56,9 @@
 
 对照`CHP-15.pdf`物理页2复核`chp-15:15_CHP-15_sec_i:l16-25`。73条既有mention的字符跨度逐条复算无误；44条statement引文均可在S0段落内定位。印本“milord, employing”被S0 OCR连写为“milord,employing”，只在对应statement的`ocr_corrections`记录，不改原文或引文。p.362注1–2的印刷页号与页图一致，且仍与L17正文标记双向链接；p.362末句与p.363 L28的续接、注1的跨页关系保持链接。
 
-复核后本段为44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。将“洛多利是本章三位赞助人的直接启发者”列为一条S2关系候选，但目标集合未逐名列出，保持开放。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选；不生成S6正式关系。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；未增加候选、KU或mentions。
+本段原复核形成44条statement、73条mention。补录6条精确锚点statement：Farsetti别墅位于S. Maria di Sala家族产业；别墅拟容纳索引中分别列出的石膏像模与绘画收藏；石膏像模收藏在家族宫邸组建；42根多立克柱的来源为Dea Concordia神庙；来源文字称该庙位于Rome。首次将“洛多利是本章三位赞助人的直接启发者”列为一条开放S2关系候选；全书交接审计对照第十五章小节标题后，将目标解析为Farsetti `cand-1002`、Memmo `cand-1642`和Querini `cand-2075`。原组级statement保留原文与注脚上下文、取消其关系候选标记；新增三条逐人标量关系候选，以`parent_body_statement_ids`回链组级断言。现本段47条statement、73条mention；端点解析依据为书内标题，未做S3身份对齐，也未写入S6正式关系。另把Farsetti居住巴黎、其在威尼斯新古典运动中的角色、别墅与柱群关系补入S2候选。`cand-10430`的跨页说明和`cand-9206`的使用范围已按本页证据修正；无新增候选、KU或mentions。
 
-全库现有1,019 KU、11,503候选、27,425 mentions、12,405 statements；S2关系候选2,644条，其中2,621条两端齐全、23条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；本段44条statement引文全部在指定S0段内精确定位，73条mention跨度全部吻合。两条既存`enrichment source_ref`警告保持不变。p.362完成后下一项按书序为p.363正文`chp-15:15_CHP-15_sec_i:l27-36`及其跨页注释。
+全书现有1,019 KU、11,530候选、27,463 mentions、12,644 statements；S2关系候选2,808条，其中2,777条两端齐备、31条开放。p.362三条新增关系statement引文均精确落在L17；全段73条mention跨度保持吻合。严格阶段审计`errors=[]`、`s2_missing=[]`。两条既存`enrichment source_ref`警告保持不变。全书交接审计仍在进行；S2尚未交接。
 
 ## 第十五章 p.364 Farsetti 段复审（2026-10-09）
 
@@ -75,3 +75,76 @@ S2 记录校正 L39 os→of、fife→life，L40 grëat→great，note 6 L56 pp. 
 ## 第十五章 p.365 Andrea Memmo 正文及注1–2（2026-10-09）
 
 对照`CHP-15.pdf`物理页5复核p.365正文和注1–2。正文由23条statement增至36条、由46条mention增至52条；新增13条statement、6条mention，无新增候选或KU。把Doge机会、赞助评价、到任与集市、Prà计划的实施和筹款、Bologna/Vicenza例证、雕像数量及代表资格拆分为单项主张；纠正“改造Prà”和“召请Cerato”的行动主体，并记录Memmo—Lodoli师承候选。五条S2关系候选端点均齐备，未生成正式关系。10项印本校读保存于S2，不改S0；注2只保留书内引注范围，未独立查阅。全段36条statement引文、52条mention跨度均核对通过；完整同步闭合通过。详见[逐项过程与裁决](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。下一段按书序为p.366 `chp-15:15_CHP-15_sec_ii:l14-28`。
+
+## 第十五章 p.366 正文与注1（2026-10-09）
+
+对照`CHP-15.pdf`物理页6复审L14–24及注1 L25–28，并核对p.365资格句续接与p.367 Elementi续句。27条既有statement细化为54条（新增27），86条mention增至88条（新增2），候选净增4个。细化价格和雕像规范，拆分雕像题材/拟制作者、Padua提供祖先雕像、19座完成/外交任职、项目困难及注1书信线索；“another six in Rome”保持原文歧义。把“his friends”和“the councillors”从错误的人物/城市机构映射改为匿名群体；另记录匿名访客和未题名的Radicchio说明文。拆分Subleyras绘制计划、Memmo展示计划、访客捐像、波兰/瑞典君主订阅及雕像已立/索取图画等关系主张；书信和说明文未独立查阅。
+
+印本确认`Prato`→`Prà`（L20、注1 L28）、`Memiiio’s`→`Memmo’s`（L22）、`dining`→`during`（L24），只登记于S2；S0不改。54条quote均逐字落在声明来源行，88条mention跨度全部匹配。p.366现32条S2关系候选、标量端点32/32；没有新增KU、S3对齐或S6正式边。写后全书12,461条statement、27,433条mention、2,687条关系候选（2,660条端点齐备、27条开放）；严格阶段审计`errors=[]`、`s2_missing=[]`，同步闭合5/5检查通过。当前下一段为p.367 `chp-15:15_CHP-15_sec_ii:l30-36`；S2尚未交接。详见[逐项过程与恢复信息](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.367 Andrea Memmo 与 Prà della Valle（2026-10-09）
+
+对照`CHP-15.pdf`物理页7复核正文L30–36及对应注释L90–97，并核对p.366/p.368跨页语境。正文38条statement，连同注释共46条statement、63条mention。按印本校读`Prà`、`must certainly`、`notable variations`及注释III、Vallotti、Procuratia、Zatta等；S0和原始引文不改。
+
+修正Prà地点、Padua索引候选与Memmo计划的区分；分开《Apologhi》文本与出版事件；将两尊雕像建模为作品候选`cand-11530`、`cand-11531`，并校正panegyric候选`cand-10505`类型为archive。纠正作品/人物候选错配，删除两处泛词误提及。关系候选共29条，4条端点开放：未指名的待安置雕像、Waldstein可能资助的作品、Skala与Veith可能成为雕像题材。Memmo致Casanova仅记录单封书信；可能性不写成已委托、已资助或已制作，不生成S6正式关系。未新增KU或S3对齐。
+
+写后全库1,019 KU、11,510 candidates、27,432 mentions、12,478 statements、2,711条S2关系候选（31条端点开放）。严格阶段审计`errors=[]`、`s2_missing=[]`；引文锚点12,432精确、46空白归一、0未匹配。p.367之后下一处按书序为p.368 `chp-15:15_CHP-15_sec_ii:l38-47`；全书S2仍未交接。详见[逐项过程与恢复信息](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.368 Andrea Memmo 与 Querini（2026-10-09）
+
+复核物理页8正文后，statement由16条调整为31条，mention由29条增至31条；新增15条statement、2条mention和3个候选。修复his brothers误映射，区分Farsetti与Memmo各自的公共服务主张，并拆开Memmo的社交活动、友谊/赞助与收藏权属、Lodoli纪念、Querini政治经历及1761年危机参与等复合主张。新增14条关系候选；正文与关联注释共23条，端点23/23齐备，不生成S6正式边。
+
+页图校读与OCR缺标只登记于S2：脚注6标记见于印本而S0 OCR缺失；Prà、confined、private/lives及State Inquisition读数按印本记录。State Inquisition句延续至p.369，继续保留跨页statement链接。全库现1,019 KU、11,513 candidates、27,434 mentions、12,493 statements、2,725条S2关系候选（2,694条端点齐备、31条开放）；12,447条引文精确匹配、46条空白归一、0条未匹配。严格表审计`errors=[]`、`s2_missing=[]`，同步闭合5/5项检查通过。下一处为p.369 `chp-15:15_CHP-15_sec_ii:l49-59`；全书S2尚未交接。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.369 Querini 与 Alticchiero（2026-10-09）
+
+对照物理页9复核正文39条statement、36条mention及注1–4。新增13条statement、2条mention和事件候选cand-11535；纠正保守派胜利与Querini拘押事件的端点，拆出改革评议、政治退出、Querini/Voltaire勋章、Festari同行、别墅位置和陈设评价等内容。18条S2关系候选端点齐备，不写入正式关系。
+
+将脚注、引文、OCR校读取证边界保留在S2；作者传闻仍为传闻。修正p.369对p.370浴室版画statement的重复，并把不同OCR校读挂到各自语句。全库现1,019 KU、11,514 candidates、27,436 mentions、12,506 statements、2,732条S2关系候选（2,701条端点齐备、31条开放）；引文锚点12,460精确、46空白归一、0未匹配。严格表审计`errors=[]`、`s2_missing=[]`，同步闭合5/5项检查通过。下一处为p.370 `chp-15:15_CHP-15_sec_ii:l61-67`；全书S2尚未交接。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.370 Querini、Alticchiero 与花园陈设语义复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页10复核正文`chp-15:15_CHP-15_sec_ii:l61-67`及注释段L109–110。正文statement由22条调整至52条，mention由45条调整至53条；净增30条statement、5个候选和8条mention。将浴室、图书室、Querini书房和藏书集合分开；拆出Piranesi/Picart版画作者、Bacon胸像所描绘人物、`Daphnis and Chloe`版画组的底本/绘制/雕版角色，以及友谊祭坛、Epicurus与Phocion胸像、碑铭、友谊和花园理想等陈述。`Young’s Wood`改为完整地名跨度，另提及“the poet”；`Night Thoughts`作为独立作品，Edward Young身份仍留S3对齐。Fortune改映射为祭坛理想，不再误连Salvator Rosa作品。注1链接版画组，注2链接Mme Rosenberg友谊陈述；印本注号及相关OCR差异只记录于S2，未改S0。
+
+本页37条关系候选中36条端点齐备；瑞士友谊未具名成员保持1条开放候选，不写入正式关系。正文52条statement、53条mention跨度通过S0行锚/字符偏移核对；写后全库1,019 KU、11,519 candidates、27,444 mentions、12,536 statements、2,757条关系候选（2,725条端点齐备、32条开放），引文锚点12,490精确、46空白归一、0未匹配。严格阶段审计`errors=[]`、`s2_missing=[]`；全书S2仍未交接。下一处按书序为p.371 `chp-15:15_CHP-15_sec_ii:l69-83`。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章 p.371 Querini 与 De Non 语义复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页11复核正文`chp-15:15_CHP-15_sec_ii:l69-83`及p.371注1–2（合并注释L111–112）；注释L113属于p.372，留待下一页。正文由23条statement重组为49条，51条mention均与源文跨度匹配。将Mme Rosenberg对Querini灵魂的转述与所报告信念分开；拆出祭坛奉献对象、浮雕描绘的三种拟人化恶德、浮雕与Apelles构图及Pliny记录关系；分开别墅访客、纪念碑、收藏/作者、De Non居留/交往、版画对De Non与Novelli的影响、Voltaire肖像制作者/对象/地点及Renier胸像的委托/制作/对象。男性肖像坐者仍待决，p.371–372竞选句保留互链。
+
+修复候选语义：删除把Haskell证据限制误作实体的`cand-10575`；把“allegory”提及映射到新术语`cand-11542`，删除泛称“sculpture”的伪实体提及；将“Rosenberg’s book”映射到已有archive候选`cand-2825`。新增Apollo候选`cand-11541`和提及，补录Alticchiero别墅及`allegorised`提及，并把“花园寓意直白”的判断主语更正为Mme Rosenberg。38条正文关系候选端点全部齐备，无S6写入。印本读数仅保存在S2，S0未改。
+
+受控dry-run及写入后最终严格审计`errors=[]`、`s2_missing=[]`；p.371 statement引文和mention跨度均逐条通过。全库1,019 KU、11,520 candidates、27,446 mentions、12,562 statements、2,783条S2关系候选（2,751条端点齐备、32条开放）；引文锚点12,516精确、46空白归一、0未匹配。同步闭合运行通过，结构契约健康130/130，语义成熟度未评分。恢复副本和受控脚本见[过程记录](../process/stages.md)。下一处按书序为p.372正文`chp-15:15_CHP-15_sec_ii:l85-88`及注释L113；全书S2尚未交接。
+
+## 第十五章 p.372 Querini 与 Maffei 语义复审（2026-10-09）
+
+对照`CHP-15.pdf`物理页12复核正文及注1。正文从9条statement细化为13条；注释3条，17条mention全部保留且跨度通过核验。分别记录异教遗址对Querini的意义及Haskell对学者群体的对比、Maffei的收藏与记录活动、Querini的政治退隐与回归理想过去，以及Winckelmann比较中的“洞见较少”限定。Renier竞选目标及1779年、其后政治妥协与胸像事件、Rousseau影响、心脏按请求安葬、1951年注释中的陶制胸像推定和仆役盥洗处传闻均保留来源归属与不确定性。
+
+6条S2关系候选端点均齐全；没有新增KU、候选、mention或正式关系。p.371的跨页statement正确链接本页Doge断言。严格表审计通过，16条引文无未匹配。全书S2仍未交接；下一处重新复核第十六章p.373正文及注释。
+
+## 第十五章 p.370 瑞士友谊匿名群体端点复核（2026-10-09）
+
+对照印刷p.370页图及规范段`chp-15:15_CHP-15_sec_ii:l61-67`，将“those formed in Switzerland”登记为园林祭坛所纪念的来源界定匿名群体。新增无类型、status=open候选`cand-11560`和mention `m-chp15-p370-alticchiero-0049`，精确跨度`[2218,2245)`；将statement `st-chp15-p370-querini-swiss-friendships-open`的object连接到群组。成员、人数和名册均未知，不据周边材料推断Voltaire、Festari、Giustiniani或Mme Rosenberg为成员；无KU或S6正式关系新增。严格阶段审计通过（`errors=[]`、`s2_missing=[]`）；全量同步闭合303 passed、2 subtests passed，9/9检查及结构契约130/130通过。全书S2交接仍在进行。详见[过程记录](../process/stages.md)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 第十五章p.367单数雕像候选关系端点复裁（2026-10-10）
+
+对照印刷p.367及规范段`chp-15:15_CHP-15_sec_ii:l30-36`，将“one”解析为Memmo所问的一尊可能雕像，新增开放作品候选`cand-11561`及mention `m-chp15-p367-memmo-0066`（`[1175,1178)`，source line L34）。Waldstein可能资助、Skala可能为题材、Veith作为备选题材三条关系statement均连接至同一作品候选；没有把疑问写成承诺、委托或完工。复数“further statues”仍未枚举，原关系对象保持开放，并与单数问题互链。
+
+写后全库11,539 candidates、27,472 mentions、12,644 statements；2,808条S2关系候选中2,789条端点齐备、19条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment `source_ref`警告仍在。全量同步闭合通过（303 passed、2 subtests passed，9/9闭合检查、结构契约130/130）；全书S2尚未交接。详见[过程记录](../process/stages.md)。
+
+
+## 第十五章p.367复数雕像群组端点复裁（2026-10-10）
+
+复核同段further statues needed to be installed及紧接的Waldstein单数雕像疑问。将复数表述登记为来源限定的开放作品群组cand-11562，精确mention m-chp15-p367-memmo-0067跨度[1001,1016)；更新st-chp15-p367-further-statues-still-needed对象端点。候选成员和数量未知；不推断单数候选cand-11561属于该组。严格审计errors=[]、s2_missing=[]；全库11,540 candidates、27,473 mentions、12,644 statements，2,808条关系候选中18条端点开放。详见过程记录及全书当前结果。
+
+## 第十五章p.363艺术实践term端点补充复裁（2026-10-10）
+
+将`Venetian painting and sculpture`作为来源限定的艺术实践term `cand-11563`，精确mention为`m-chp15-p363-0088`（`[1355,1386)`）；保留句内“Venetian”至Venice地点候选`cand-3401`的地域修饰映射，并用完整短语表达艺术实践对象。p.363关系statement的object端点接至该term，仍归属Haskell的评价。严格审计`errors=[]`、`s2_missing=[]`，全库关系候选2,808条中2,791条端点齐备、17条开放；不新增KU或正式关系。
+
+## 第十五章p.363未名赞语作者端点复裁（2026-10-10）
+
+将引述中的“one of them”登记为未名同时代人候选`cand-11564`，mention `m-chp15-p363-0089`跨度`[465,476)`，并连接赞语statement主语。注2提到Boscovich书信，但未独立查阅书信及原文，不据此确认作者。全书S2关系候选2,808条中2,792条端点齐备、16条开放；严格审计`errors=[]`、`s2_missing=[]`。
+
+## 第十五章p.364诗歌与演说群组端点复裁（2026-10-10）
+
+将原文“a flood of poems and speeches”登记为未名文本群候选`cand-11565`，mention `m-chp15-p364-poems-speeches-group-0001`跨度`[1180,1209)`，并连接Farsetti作为范例的关系statement对象端点。文本、作者、日期及准确数量均未知，且暂不定work或archive类型。严格审计`errors=[]`、`s2_missing=[]`；全书S2关系候选2,808条中2,793条端点齐备、15条开放。

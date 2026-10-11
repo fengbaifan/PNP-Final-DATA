@@ -30,3 +30,31 @@
 - 恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp16-surface-prompts-20261008-124016。
 
 候选提示裁决不取代全书S2交接审计中的未登记实体、重复副本、跨页注释、指代、限定语、候选外键与全部关系候选复核。
+
+## 第十六章 p.373 Sasso 与新一代赞助人语义复审（2026-10-09）
+
+对照`CHP-16.pdf`物理页1复核正文`chp-16:16_CHP-16_intro:l3-14`及合并注释L69–71中的注1–2。页图未显示印刷页码，依连续页序判为p.373。正文31条statement、注释11条statement；新增26条statement、3个候选和4条mention。将新赞助人及其趣味、较低社会地位画家的艺术传统、Guardi评价、代理人/收藏者形象与Sasso活动拆为独立断言；分开私人收藏、买卖、代理业务、书信/交往、写作、计划未完成著作、履历及与Strange的互动。采购句与p.374画家清单保持双向跨页链接。
+
+注1分开Longhi人物、Sasso肖像、肖像说明与Bollettino引注；注2分开Strange与Sasso通信来源、Epistolario Moschini、Biblioteca Correr和Venice地点、Mauroner引信、回复缺失及英国博物馆所藏四封信。重映射Sasso、Longhi和Venice提及，避免把人物名映射到索引肖像作品候选。20条关系候选端点20/20齐备，仍为S2候选，没有KU、对齐或S6正式关系变动。
+
+记录10处印本/OCR差异仅供S2使用，S0及PDF未改。42条statement引文均锚定来源，36条mention字符跨度和候选引用均通过；脚注与跨页链接通过。受控脚本为`process/chp16_p373_sasso_semantic_review.py`，写前dry-run检查来源、PDF和三表哈希；修正脚本基线哈希和跨行引文范围后才应用。恢复副本保存在`04-knowledge/tables/`，文件名后缀`.bak-s2-chp16-p373-semantic-review-20261009`。
+
+写后严格审计`errors=[]`、`s2_missing=[]`。下一处按书序为p.374 `chp-16:16_CHP-16_intro:l16-22`及相应注释；本次复审不表示全书S2交接完成。
+
+## 第十六章 p.374 Sasso 段与注1–4语义复审（2026-10-09）
+
+对照`CHP-16.pdf`物理页2复核正文L17–22和注L72–75。首轮数据细化为33条正文statement、6条注释statement、50条正文mention及14条注释mention；净增20条statement、4个候选（cand-11546–11549）和9条mention。拆开暂存/可能出售、贸易条件、Guardi评价与Strange态度、收藏及审美、Armanni身份/旅行/引语、Canova的modello请求与被Haskell否定的收购说法，并分离1803年拍卖事件与藏品清单。注3的档案定位、Poore日期信件及拍卖记录各自成statement。11条关系候选端点齐备；无KU、对齐或正式关系新增。
+
+印本校读8项仅记入S2，原始S0不变。注1–4按正文标记回链；p.373购画列表与p.374现代画家续句、p.374收藏清单与p.375续表的双向链接均已闭合。首轮严格审计报出续表`cross_reference_text_pending`，按已完成p.375 statement核实后单字段修正；最终`errors=[]`、`s2_missing=[]`，全量同步闭合303 passed、2 subtests passed。详细方法、证据及恢复副本见[过程记录](../process/stages.md)。全书S2交接仍未完成；下一顺序先核当前p.375结果，再到p.376 `chp-16:16_CHP-16_intro:l38-46`。
+
+## 第十六章 p.376 语义复审（2026-10-09）
+
+对照CHP-16.pdf物理页4复审印刷p.376正文L39–46及注1–3。当前正文40条statement、50条mention，注释3条statement；本次新增13条statement和1条mention，未新增候选或KU。将Vianello的出版、藏品、审美评价与身份不确定性分开；细化Toninotto和del Pian版画组/题材、古画、modelli及各艺术家作品组；分开Swajer传记、一般手稿收藏与秘密手稿可能散佚。19条正文关系候选端点齐备，仍为S2候选。
+
+10项印本校读只记入S2，不改S0。脚注1回连1790年图录出版statement；p.376正文续至p.377，注3的8条续注statement也保持链接，待下一页复核。受控脚本process/chp16_p376_semantic_refine_20261009.py经dry-run及SHA校验后应用，43条本页statement引文锚点核验通过；恢复副本保留于04-knowledge/tables。严格表审计errors=[]、s2_missing=[]。全量同步闭合303 passed、2 subtests passed，结构契约130/130。下一处为p.377 chp-16:16_CHP-16_intro:l48-64及注3续文；本页复审不表示全书S2交接完成。详见过程记录。
+
+## 第十六章 p.377–378 语义复审（2026-10-09）
+
+p.377正文、p.376注3续文与p.377页下注1–5复核后共49条statement；本次新增15条statement、3个候选和3条mention。拆分Swajer手稿散佚焦虑与宗教裁判官收取手稿；区分Celotti的藏品、销售、城市活动与图录评价；分列注3的Christie's销售定位和Ottley描述；注5拆出两类1814年作品组销售、目录引注与手写增补说明。新候选cand-11550–11552分别表示Tiepolo销售组、Piazzetta销售组及两幅Tiepolo素描组。p.377正文印本标号6与页底注5保持`mismatched`，无强制回链。
+
+p.378结论现为4条组级statement：经销者生计、收藏趣味变化、时间带来的回顾变化、Haskell的‘威尼斯传统守护者’隐喻。Sasso群体回指从错误的索引购买事件cand-2367改为人物cand-2364；其余五人端点亦逐一核对。未将组级判断转成正式个人关系。严格表审计`errors=[]`、`s2_missing=[]`；全库1,019 KU、11,530 candidates、27,463 mentions、12,641 statements、2,806条关系候选（2,774端点齐备、32开放）。无KU、alignment或S6关系新增。p.378完成后转入全书S2交接审计；S2仍未交接。详细依据及恢复副本见[过程记录](../process/stages.md)。
