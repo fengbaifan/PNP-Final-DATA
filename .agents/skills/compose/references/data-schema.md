@@ -19,7 +19,7 @@
 ```
 
 nodes 含稳定 id、title、type、path 及实际存在的状态/来源信息；KU 类型为 person/family/institution/place/work/archive/term/procedure/event。consensus 如提供，使用 tentative/disputed/confirmed。
-后续呈现须保留 KU 的双语标题/描述及元数据、内容、关系与证据三部分，结构化属性和历史变化来自实际正文，不为页面反填知识。当前仅明确消费规则，尚未完成全库双语/三部分内容迁移及页面适配；本轮不刷新网页。
+后续呈现须保留 KU 的双语标题/描述及元数据、内容、关系与证据三部分；字段表行及证据取 enrichment.jsonl，正式关系取 relations.csv，元数据及散文取对应 KU，不能用旧 frontmatter.relations 覆盖正式表。当前页面适配仍暂停，既有卡片渲染不表示页面同步或全库语义验收。
 links 只表示登记对象间已有证据的正式关系，含 source/target/relation_type 及实际 evidence_ref；端点不在本次数据范围的边不显示，不能把遗留全库关系数量当当前统计。
 structure 各数组按实际节点生成，父层未形成合法。展示字段兼容 primary_*、topic_memberships 和 code，但不得预设 A–E 分组或填满所有层级。
 统计、筛选和详情都从当前数据派生，不放旧项目示例规模；空数据有明确说明。

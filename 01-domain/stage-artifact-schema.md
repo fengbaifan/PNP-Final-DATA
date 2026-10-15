@@ -1,6 +1,6 @@
-# S0–S7 阶段产出字段规范（草案 v1）
+# S0–S7 阶段产出字段规范
 
-> 状态：**草案，供审**。本文件定义各阶段产物字段、来源与放行约束；阶段实际数量、当前成果及未决项见 [pipeline](../.agents/pipeline.md) 和[第一章结果](../04-knowledge/results/patrons-and-painters-chp-1.md)。数据包机械检查与发布限制见[验证报告](../release/v0.2-draft/validation-report.md)。结构审计通过不证明语义召回率、准确率或独立验收。
+> 本文件定义现行产物字段、来源与阶段交接约束；执行顺序见 [pipeline](../.agents/pipeline.md)，实际数量、当前成果及未决项见[全书 S2 结果](../04-knowledge/results/patrons-and-painters-full-book-s2.md)。发布目录中的报告只说明对应快照，不代表当前工作表。结构审计通过不证明语义召回率、准确率或独立验收。
 
 ## 已决事项（2026-09-25）
 
@@ -41,10 +41,12 @@
 - `evidence_status`：沿用现有 5 值 `unverified` / `source_backed` / `partially_verified` / `externally_verified` / `model_supported`，与 `scripts/_evidence_policy.py` 和 `claim-evidence-governance.md` 保持一致。当前 `enrichment.jsonl` 使用此字段；S2 断言与 S6 关系通过各自的原文/来源定位字段留证。
 - `dispute` ∈ {`true`, `false`}：是否存在来源冲突，与证据强度分开记录。
 - `decision` ∈ {`same`, `new`, `conflict`, `excluded`, `undecided`}：只用于 `alignment.csv`。
-- `relation_status` ∈ {`formal`, `pending`, `rejected`}：只用于 `relations.csv`。
+- 关系状态 `status` ∈ {`formal`, `pending`, `rejected`}：用于 `relations.csv`，不与候选表自己的 `status` 枚举混用。
 - 不另设 `confirmed`/`contested`/`uncertain` 这类枚举。
 
-**0.4 v0.1 迁移映射（供第 5 步使用）**
+**0.4 v0.1 历史迁移映射**
+
+下表保留旧格式转换依据，不是当前工作表的重跑指令；不得按旧规则重新编号、删除现存记录或覆盖已核实的证据。实际迁移需核对当时输入与保留的过程记录。
 
 | v0.1 现状 | 迁移规则 |
 |---|---|
@@ -60,7 +62,7 @@
 | ku_id 带或不带 .md 不一致 | 统一为不带 .md |
 
 **0.5 结构化 vs 散文分界（转换安全前提）**
-- 目标：结构化事实 → CSV/JSONL 唯一权威，包括名称/别名、类型、日期、外部 ID、对齐决定、补足事实、关系和提及/断言定位。`relations.csv` 和 `enrichment.jsonl` 均驱动只读渲染预览；KU 登记仍与 `accepted.yml`、frontmatter 并行。预览可重建表格行，但批量写回尚未执行，旧卡片仍保留迁移对照证据。
+- 结构化工作事实由 CSV/JSONL 维护：`enrichment.jsonl` 保存字段表行与逐行证据，`relations.csv` 保存正式/待证关系，S2 表保存提及与断言定位，`alignment.csv` 保存身份及外部标识。`ku-manifest.csv` 负责 KU 登记和计数；`accepted.yml` 仍登记有效范围，卡片元数据与散文保留。已有字段表和关系视图已获准批量写回；旧 frontmatter.relations 继续保留作迁移对照，不再作为新的关系写入入口。
 - 散文 → 仍在 `units/*.md` 卡内人工维护：双语描述、「本章相关内容」、「原书转引评论」、原文引用。
 - 卡片 = 结构化表由 CSV 渲染 + 散文段落原位；不追求「卡片 100% 由表生成」。
 
@@ -132,17 +134,18 @@ source 与 segment 的当前数量以全书 S2 结果为准。校验物理行覆
 `alignment.csv` 实际列：`alignment_id,candidate_id,ku_id,external_source,external_id,decision,accessed_date,process_ref,legacy_ku_id,resolution_note`。
 
 - `alignment_id` 唯一；`candidate_id` 必须指向候选；存在的 `ku_id` 必须在 manifest。
-- `same` 必须有 KU、`external_source` 和 `external_id`；`new` 必须有 KU。
-- `undecided`、`excluded`、`conflict` 必须有 `process_ref` 或 `resolution_note`。
+- `same` 必须指向已有 KU；原书语境支持的内部同一性判断也可成立，外部标识不作为所有对象的必填条件。填写 `external_id` 时必须同时说明 `external_source`。
+- `new` 表示 S3 已判断应新建对象，可在 S4 登记前暂空 `ku_id`；填写的 KU 必须已存在于 manifest。S4 收口时所有 `new` 均须有对应 KU，审计器单列尚待登记数。
+- 每个决定均须有 `process_ref` 或 `resolution_note`，其中保存实际比较与证据依据；未决不自动转为否定匹配。
 - 自然键为 `candidate_id + external_source`；每个决定保留稳定对齐 ID。
 
-当前 335 行：185 same、146 undecided、4 excluded，0 条无候选 ID。只有同一对象身份决定有依据时才记 same；数量完整不证明外部身份判断无误。
+只有同一对象身份决定有依据时才记 same；数量完整不证明外部身份判断无误。已有记录与本轮全书 S3 的完成状态分别说明，动态计数见当前结果。
 
 ## S4 KU 登记
 
 `ku-manifest.csv` 实际列：`ku_id,type,canonical_name,name_en,source_task,card_path`。
 
-`ku_id` 唯一且稳定，type 属九类之一，中英文规范名和卡片路径必填；`source_task` 允许空值表示历史登记未留任务 ID。当前 1,019 个 KU。计数只按该表计算；不虚构文件中不存在的 created/updated 字段。
+`ku_id` 唯一且稳定，type 属 taxonomy-registry 定义的类型，中英文规范名和卡片路径必填；`source_task` 允许空值表示历史登记未留任务 ID。计数只按该表计算；不虚构文件中不存在的 created/updated 字段。
 
 ## S5 补足
 
@@ -153,7 +156,7 @@ source 与 segment 的当前数量以全书 S2 结果为准。校验物理行覆
 - `origin` 可为 `book`、`external`、`inferred`；空值表示混合或尚不能确定来源类别，不猜填。`dispute` 为布尔值或 null。
 - `(table_id,row_index)` 稳定且从 1 连续；卡片小节、表头及所有证据单元格均保留。
 
-当前 10,149 行，1,501 行 `unverified`。这表示字段已登记，不表示事实准确率已验收。
+字段已登记不表示事实准确率已验收；当前记录规模及未核验数量见全书结果。
 
 ## S6 关系
 
@@ -163,7 +166,9 @@ source 与 segment 的当前数量以全书 S2 结果为准。校验物理行覆
 - `origin` 实际值为 `book`、`external` 或历史显式值 `explicit`；`status` 为 `formal`、`pending`、`rejected`。
 - `formal` 必须有来源定位（`source_file`、`source_span`）；填写的 `source_id` 必须在 sources 表。`pending` 必须保留来源定位及待决理由；无证据时不升级为 formal。
 
-当前 1,227 行（1,225 formal、2 pending）。来源 URL 不能唯一映射到登记项时保留 URL 定位，不猜选 source ID。卡片关系预览按有向边生成正反向投影，派生反边不新增事实。
+来源 URL 不能唯一映射到登记项时保留 URL 定位，不猜选 source ID。卡片关系视图按有向边生成正反向投影，派生反边不新增事实；动态数量见当前结果。
+
+`candidate-backlog.csv` 是关系端点待办的必需工作表，即使没有待办也保留表头。当前列为 `backlog_id,canonical_name,suggested_type,status,source_id,source_ref,statement_id,endpoint_role,candidate_id,ku_id,decision_note,process_ref`；`backlog_id` 唯一且非空，决定及未决理由在同一行保留。阶段收口规则见 pipeline，不用删除待决记录代替处理。
 
 ## S7 发布与验证
 
@@ -178,11 +183,13 @@ S0(来源) → S1(候选) → S2(提及/断言) → S3(对齐) → S4(KU) → S5
                                               ↑________ backlog drain（阈值 20）________|
 ```
 
-## 校验与跟踪
+## 兼容与既有校验记录
+
+以下保留矩阵和迁移修复的既有依据，不作为本次检查结果；当前数量与实际通过情况见任务结果及其过程记录。
 
 - 已对既有 `relation-index.yml` 的 1,227 条边做只读校验：0 弃用类型在途、0 未知谓词、0 非法类型。
 - `relation-domain-range.yml` 已修到 v1（domain/range 覆盖当前实际用法）。
 - `located_at` 语义过载（person/institution/archive/work → place/institution），标 `needs_split`，拆分去向待定。
 - 数据修正 1 条：`gianfranco-torcellan.md` 的 `authored_by` 方向反了，已改回（archive 卡持 `authored_by`→person，person 卡改反向投影）。
 - `commissioned_by` 的 `place→person`（建筑/教堂/祭坛被委托人委托建造）为合法用法，矩阵 domain 含 `place`。
-- S0–S7 已分步实施，当前仍是部分迁移状态；规则变更按 system-upgrade 维护 pipeline 与对应 Skill，不在本文件外另建副本。已有表的机械可用不代表各阶段语义验收完成。
+- 阶段接口已分步实现，业务完成情况以任务结果为准；规则变更按 system-upgrade 维护 pipeline 与对应 Skill，不在本文件外另建副本。已有表的机械可用不代表各阶段语义验收完成。

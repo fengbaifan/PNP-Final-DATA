@@ -17,7 +17,7 @@
 | 工作 | 工具与边界 |
 |---|---|
 | 外部候选采集 | verify_collect_*.py 只产生候选证据；Wikipedia/Wikidata collector 目前未自动完成双向 QID 配对，须按 verify 直接阅读与核对。Open Library 等书目来源只覆盖 archive 的适用子集 |
-| 验证状态写回 | `verify_apply_evidence.py --dry-run` 可检查旧格式计划；`--apply/--resume` 与 `evidence_batch_runner.py --apply-low-risk` 已停用，因其写卡片 frontmatter 而 enrichment 正迁至表。runner 的候选路由不自行批准知识 |
+| 验证状态写回 | `verify_apply_evidence.py --dry-run` 可检查旧格式计划；`--apply/--resume` 与 `evidence_batch_runner.py --apply-low-risk` 已停用，因其仍写卡片 frontmatter，而字段表行已由 `enrichment.jsonl` 维护。runner 的候选路由不自行批准知识 |
 | 未决事项定位 | audit_unverified_queue.py、plan_verification_batch.py、plan_relation_candidates.py 输出候选或计划；工具中的批量默认值不是日常研究固定配额 |
 | 关系与名称投影 | `relations.csv` 是关系输入，`enrichment.jsonl` 是字段表行输入；`build_cards.py --preview --ku <ku_id>` 依据卡片保留的小节与表头重建单卡表格行并输出差异，拒绝缺行或未知布局；`--check` 核对全库且不写卡；`--render` 全量预检通过后批量写回全部卡片，必须有明确用户授权。`build_relation_views.py --apply` 的旧 frontmatter 写入路径已禁用。`build_translation_index.py` 按需生成名称索引 |
 | 关系批量写回 | `apply_relation_plan.py` 的 frontmatter `--apply` 已停用。经语义裁决的边写入 `relations.csv` 并运行表检查；卡片展示先用 `build_cards.py --preview --ku <ku_id>` 审阅 |
@@ -42,6 +42,6 @@ workflow-copy-manifest.json 是最初导入的历史清单，其中路径和数�
 - 06-runtime/automation/index.md、06-runtime/governance/governance-backlog.md
 - 05-outputs/index/* 和页面数据 knowledge-graph-data.json/js：只在用户明确下指令时生成，S7 不生成。
 
-事实源迁移状态以[管线说明](../.agents/pipeline.md)和[第一章结果](../04-knowledge/results/patrons-and-painters-chp-1.md)为准；本文件只说明工具入口与边界。`release/v0.2-draft/` 是内部可移植性审阅包，不是冻结或公开版本；机械审计与 provenance diagnostics 不代替语义质量判断。
+事实源及当前阶段以[管线说明](../.agents/pipeline.md)和[全书 S2 结果](../04-knowledge/results/patrons-and-painters-full-book-s2.md)为准；本文件只说明工具入口与边界。`release/v0.2-draft/` 是2026-09-26生成的内部可移植性审阅快照，未覆盖当前全书 S2，不是本次 S7 交付；机械审计与 provenance diagnostics 不代替语义质量判断。
 
 不默认新增工作包、机器状态、全量收尾或固定审核轮数。每项实际任务的过程与结果按 pipeline 分布存储；系统调整只记 CHANGELOG.md。

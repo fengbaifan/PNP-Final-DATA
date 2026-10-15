@@ -1,8 +1,50 @@
 import csv
 import json
 
+import pytest
+
 from scripts import audit_tables as table_audit
 from scripts.audit_tables import audit_s2_artifacts
+
+
+def test_table_audit_requires_candidate_backlog_artifact(monkeypatch):
+    original_read_csv = table_audit.read_csv
+
+    def read_without_backlog(path):
+        if path.name == "candidate-backlog.csv":
+            raise FileNotFoundError(path)
+        return original_read_csv(path)
+
+    monkeypatch.setattr(table_audit, "read_csv", read_without_backlog)
+    with pytest.raises(FileNotFoundError, match="candidate-backlog"):
+        table_audit.audit_tables(strict_stage=True)
+
+
+def test_alignment_accepts_book_identity_without_external_identifier():
+    row = {
+        "alignment_id": "aln-test", "candidate_id": "cand-1", "decision": "same",
+        "ku_id": "units/persons/example", "process_ref": "03-processing/test/process/knowledge.md#s3",
+    }
+    assert table_audit.alignment_row_errors(row, {"cand-1"}, {"units/persons/example"}) == []
+
+
+def test_alignment_new_decision_can_precede_s4_registration():
+    row = {
+        "alignment_id": "aln-test", "candidate_id": "cand-1", "decision": "new",
+        "ku_id": "", "resolution_note": "Source identity is distinct; KU registration is pending S4.",
+    }
+    assert table_audit.alignment_row_errors(row, {"cand-1"}, set()) == []
+    row["ku_id"] = "units/persons/not-registered"
+    assert "aln-test: unknown ku_id units/persons/not-registered" in table_audit.alignment_row_errors(row, {"cand-1"}, set())
+
+
+def test_alignment_keeps_evidence_and_reference_requirements():
+    row = {"alignment_id": "aln-test", "candidate_id": "cand-missing", "decision": "same", "external_id": "Q1"}
+    errors = table_audit.alignment_row_errors(row, {"cand-1"}, set())
+    assert "aln-test: unknown candidate_id cand-missing" in errors
+    assert "aln-test: same requires ku_id" in errors
+    assert "aln-test: external_id requires external_source" in errors
+    assert "aln-test: same requires process_ref or resolution_note" in errors
 
 
 def test_full_table_audit_rejects_missing_primary_key(monkeypatch):

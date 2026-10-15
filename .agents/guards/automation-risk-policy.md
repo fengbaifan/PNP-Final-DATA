@@ -2,15 +2,17 @@
 
 ## Scope
 
+Current execution boundary: `verify_apply_evidence.py --apply/--resume` and `evidence_batch_runner.py --apply-low-risk` are disabled because they target card frontmatter. The risk labels below are retained for evidence routing and legacy dry-run compatibility; they do not authorize write-back. A table-based writer must be implemented and validated before applying field evidence. See `verify/SKILL.md` and the pipeline.
+
 `scripts/_evidence_policy.py` is the single executable definition of evidence automation risk. Both `scripts/evidence_batch_runner.py` and `scripts/verify_apply_evidence.py` use it.
 
-The runner may parse evidence, classify risk, write non-empty queues, invoke the typed evidence apply path, and call the change-aware closure once. It does not create knowledge units, decide claim truth, select relation types, generate governance prose, or execute Git.
+The runner may parse evidence, classify risk, write non-empty queues, and call the change-aware closure once when requested. The legacy typed apply path remains disabled. It does not create knowledge units, decide claim truth, select relation types, generate governance prose, or execute Git.
 
 ## Risk levels
 
 | Level | Meaning | Automated action |
 |---|---|---|
-| `L1` | existing-KU, bounded evidence update | explicit dry-run; apply only with `--apply-low-risk` |
+| `L1` | existing-KU, bounded evidence update | explicit dry-run / candidate output; legacy apply is disabled |
 | `L2` | evidence or candidate requiring semantic review | non-empty `review_queue.jsonl` |
 | `L3` | semantic boundary or unsafe state promotion | non-empty `defer_queue.jsonl` |
 

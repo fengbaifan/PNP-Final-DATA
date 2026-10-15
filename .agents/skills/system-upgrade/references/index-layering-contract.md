@@ -7,7 +7,8 @@
 | 类别 | 当前入口 | 使用边界 |
 |---|---|---|
 | 有效范围登记 | 04-knowledge/accepted.yml | 登记可用对象、断言及结构，不复制正文或证明全部事实已验证 |
-| 知识与证据 | 04-knowledge/units/、quality/claim-registry.yml、实际成立的 structure 节点及证据 | 对象正文、KU relations 和绑定证据是判断具体知识的依据；原始事实最终回查 02-sources 或实际外部来源 |
+| 结构化工作事实 | 04-knowledge/tables/ | S0–S6 产物；字段表行、提及/断言、身份对齐及正式关系在表中维护，KU 计数取 ku-manifest.csv |
+| 知识正文与断言证据 | 04-knowledge/units/、quality/claim-registry.yml、实际成立的 structure 节点及证据 | 元数据和散文保留原位，字段/关系表是工作表的渲染视图，旧 frontmatter.relations 仅作迁移对照；原始事实最终回查 02-sources 或实际外部来源 |
 | 当前任务结果 | 04-knowledge/results/<task-id>.md | 说明范围、完成度、成果位置、未决项和交接；不是另一套知识正文 |
 | 过程与历史裁决 | 03-processing/<task-id>/process/stages.md、process/knowledge.md | 分阶段保留实际阅读、语义判断及更改理由；不把历史状态当当前状态 |
 | 可重建索引 | 04-knowledge/quality/translation-index.yml | 由 KU 名称生成，是检索投影；不能因位于 quality 就成为独立事实源 |
@@ -15,7 +16,7 @@
 | 运行快照与候选 | 06-runtime/state/、实际候选/冲突记录 | 派生信号或待决内容，不代表知识成立或自动开工 |
 | 呈现 | 05-outputs/ 的导航、数据和页面 | 用户启动后读取有效成果；当前冻结页面不反向定义类型、数量或研究完成度 |
 
-quality 目录中的正式断言、成功写回记录、候选与派生索引有不同责任，不能将整个目录统称为“权威索引”。关系冲突回到 KU relations/claim bindings 和具体证据处理；名称冲突回到 KU 正文及来源，不改权威正文去迁就旧投影。
+quality 目录中的正式断言、成功写回记录、候选与派生索引有不同责任，不能将整个目录统称为“权威索引”。关系冲突回到 relations.csv、claim bindings 和具体证据处理；名称冲突回到 KU 登记、正文及来源，不改权威事实去迁就旧投影。
 
 ## 渐进式定位
 

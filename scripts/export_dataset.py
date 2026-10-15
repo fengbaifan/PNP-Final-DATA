@@ -418,7 +418,7 @@ def build_package() -> tuple[dict[str, str], dict]:
             "Alignment identities are restored from the retained evidence JSONL; 25 recorded same/QID outcomes were recovered, while 12 originally unpaired rows remain undecided.",
             f"{unverified_without_source_ref} unverified enrichment rows have an empty source_ref. Disjoint field-presence buckets find {unverified_with_source_metadata} with source IDs/citations/URLs, {unverified_project_naming} labelled as project naming, {unverified_wikidata_evidence_marker} with a Wikidata-related evidence marker but no structured source metadata, {unverified_other_evidence_without_source_metadata} with other evidence text but no structured source metadata, and {unverified_without_evidence_or_source} with neither evidence text nor structured source metadata; these are not semantic classifications. {unresolved_source_refs} retained source_ref values do not map to a card source record.",
             f"Of the Wikidata-marked rows, {len(wikidata_property_rows)} are property-like rows; {len(wikidata_rows_linked_to_source_registry)} map through a unique same-QID alignment to {len(wikidata_qids_linked_to_source_registry)} QIDs in the source registry, but each of those QIDs has multiple source records. {len(same_revision_duplicate_qids)} duplicate-QID groups have one recorded revision and {len(differing_revision_duplicate_qids)} have differing revisions. The wikidata-source-candidates.csv file preserves these review leads, but they are unresolved provenance pointers, not evidence that property values are verified; no source ID was assigned automatically.",
-            "A stratified blind review in an isolated Codex context covered 9 segments and cross-checked 363 existing mentions and 69 statements; four high-confidence errors were corrected. This is not formal human acceptance and does not estimate chapter-level precision or recall.",
+            "Historical development review (2026-09-26): an isolated Codex context reviewed 9 segments, 363 then-existing mentions and 69 statements, and four high-confidence errors were corrected. This is not formal human acceptance or a current full-book precision/recall estimate.",
             "A deterministic surface scan over 27 migrated segments found 13 unmatched typed candidate labels; all 13 were reviewed and linked to existing candidates. The scan cannot identify unlisted entities, validate identity mappings, or estimate semantic recall.",
             f"{len(portable_refs)} relative Markdown links in enrichment fields are mapped in portable-references.csv; entity targets use stable KU IDs, while {sum(row['target_type'] == 'processing_record' for row in portable_refs)} processing-record links point to files not included in the package.",
             f"{source_citation_cardinality_mismatches} enrichment rows have different counts of structured source IDs and citation strings. These fields are preserved independently; array position is not a source-to-citation mapping.",
@@ -431,11 +431,13 @@ def build_package() -> tuple[dict[str, str], dict]:
 
 **Status: draft; do not distribute publicly.** The project and third-party rights have not been reviewed, so no license is asserted. Citation metadata is incomplete.
 
+Snapshot created: {metadata['created']}. Counts and validation findings describe the packaged files, not the live working tables or completion of all full-book stages.
+
 ## Contents
 
-- `entities.csv`: current 1,019 knowledge unit identifiers, type, and bilingual names.
+- `entities.csv`: {len(ku_rows):,} packaged knowledge unit identifiers, type, and bilingual names.
 - `entity-candidates.csv`: index-derived, accepted-unit, and source-derived mention candidates, including explicit exclusions. `candidate_source_ref` uses a stable `units/...` ID for accepted-unit candidates and a segment/line locator for reviewed source mentions.
-- `alignment.csv`: identity decisions. Empty `candidate_id` means unresolved, not a negative match.
+- `alignment.csv`: evidence-based identity decisions linked by `candidate_id`. A `same` decision references an existing KU; a `new` decision may await S4 KU registration. External identifiers are included where applicable.
 - `enrichment.jsonl`: one preserved structured-table occurrence per row, with original cells, section, evidence text, source references, and verification status.
 - `relations.csv`: formal and pending directed relations, context, evidence locator, and note.
 - `portable-references.csv`: registry of relative Markdown links retained in enrichment values/evidence/cells. Links to entity cards resolve to stable KU IDs; processing-note targets are identified but their files are not bundled.
@@ -550,7 +552,7 @@ Empty strings and JSON `null` represent unrecorded or unresolved values, not fal
 
 ## Mechanical checks
 
-- Current tables: 1,019 entities; {entity_candidates:,} candidates; {len(align_rows)} alignment rows; {len(enrichment):,} enrichment rows; {len(rel_rows):,} relations; {len(source_rows):,} sources.
+- Packaged tables (snapshot {metadata['created']}): {len(ku_rows):,} entities; {entity_candidates:,} candidates; {len(align_rows)} alignment rows; {len(enrichment):,} enrichment rows; {len(rel_rows):,} relations; {len(source_rows):,} sources.
 - S2 coverage ledger: {len(coverage_rows)} canonical source segments; {complete_reviewed_segments} reviewed and migrated, {partial_reviewed_segments} partially migrated, {pending_reviewed_segments} reviewed but not yet migrated, and {queued_segments} queued for semantic review; the package includes {len(mention_rows)} mention rows and {len(statement_rows)} statement rows.
 - Formal relations: {formal_relations:,}; pending relations: {pending_relations}.
 - Unverified enrichment rows: {unverified_enrichment:,}.
@@ -569,11 +571,11 @@ Empty strings and JSON `null` represent unrecorded or unresolved values, not fal
 ## Known unresolved issues
 
 - The coverage ledger does not establish sentence-level entity recall or independent claim-level accuracy. Source segment text is omitted, and quote redistribution rights are unresolved.
-- A read-only exact-surface scan of typed candidate labels found 13 uncovered spans across the 27 migrated segments; these were manually reviewed and added as mentions. This scan only finds names already present in the candidate table, so it cannot establish candidate recall, identity accuracy, or overall semantic quality.
-- All 335 alignment rows link to a KU and candidate. Twenty-five same/QID outcomes are directly restored from retained evidence; 12 originally unpaired rows remain undecided.
+- Historical development check (2026-09-26): a read-only exact-surface scan found 13 uncovered spans across 27 then-migrated segments; these were reviewed and added as mentions. This is not a current full-book quality measurement and only searches names already in the candidate table.
+- Alignment decisions belong to this snapshot: {sum(bool(row.get('ku_id')) for row in align_rows):,} of {len(align_rows):,} rows reference a KU. Their presence does not establish full-book S3 or S4 completion.
 - {unverified_enrichment:,} enrichment rows remain unverified; {unverified_without_source_ref:,} have an empty `source_ref`. See the provenance diagnostic above before interpreting an empty locator as absent evidence. {unresolved_source_refs} retained source markers do not resolve to a source record.
 - Wikidata identity alignment does not verify the aligned entity's property values. The property-like row matches above remain without an unambiguous version-level source pointer; source-record duplicates are referenced and have not been merged.
-- A stratified blind review in an isolated Codex context covered 9 segments and cross-checked 363 existing mentions and 69 statements; four high-confidence errors were corrected. This is not formal human acceptance and does not estimate chapter-level precision or recall. Rights review, license, author metadata, DOI, and final citation remain unresolved.
+- Historical development review (2026-09-26) in an isolated Codex context covered 9 segments and cross-checked 363 then-existing mentions and 69 statements; four high-confidence errors were corrected. This is not formal human acceptance or a current full-book precision/recall estimate. Rights review, license, author metadata, DOI, and final citation remain unresolved.
 - No representative extraction-throughput benchmark was recorded during the original semantic processing; wall time for mechanical audit/render checks is not an extraction-speed estimate.
 
 ## Local runtime observation

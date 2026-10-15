@@ -28,11 +28,11 @@ S4 输入：`alignment.csv` 中 `decision=new` 的行（新建 KU），以及 `d
 
 ## 产出与交接
 
-摄入、处理的过程和结果分别在 03-processing/<task-id>/process/stages.md、results/stages.md。KU 成稿过程在同包 process/knowledge.md，知识结果在 04-knowledge/results/<task-id>.md，正文原位维护；实际成稿后在 accepted.yml 登记引用，既有试填不得批量接收。
+摄入、处理的过程和结果分别在 03-processing/<task-id>/process/stages.md、results/stages.md。S4 KU 成稿过程在同包 process/knowledge.md，知识结果在 04-knowledge/results/<task-id>.md，正文原位维护；依据 S3 决定登记/复用 ku-manifest.csv，并在 accepted.yml 登记有效引用，既有试填不得批量接收。
 
 按 pipeline 的阶段收口规则，摄入与处理定稿应包含可追溯的逐行语义分析、来源章页、句意摘要、校正、关系候选／指代／证据跨度和未决项，不能只留“已完成”的短报告。候选使用稳定锚点，成稿时记录提及到KU的映射；收口后过程只留必要裁决，消除与定稿重复的正文。
 
-明确新增、更新、无变化和暂缓对象，逐个说明来源支持与缺口。上下文充分的成稿对象交 verify；依赖未读范围或关键歧义的对象不交接。第一次成稿不填写虚假的验证日期或任何预设层级。
+明确新增、更新、无变化和暂缓对象，逐个说明来源支持与缺口。S2 交接到 verify 执行 S3；S4 依据已完成的身份决定登记，随后按实际缺口交 S5，不再为已判断的同一身份重复对齐。出现新的身份/版本冲突才回 S3；依赖未读范围或关键歧义的对象不交接。第一次成稿不填写虚假的验证日期或任何预设层级。
 
 ## 必要检查与工具
 

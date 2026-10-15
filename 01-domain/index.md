@@ -1,6 +1,6 @@
 # 材料范围与研究约定
 
-本项目以用户指定的《赞助人与画家》材料作为初始阅读范围。书名和项目名称用于来源管理，不是已经涌现的 Domain。不预设维度、主题、Topic 或知识元归属；当前实际进度见 [第一章结果](../04-knowledge/results/patrons-and-painters-chp-1.md)。
+本项目以用户指定的《赞助人与画家》材料作为初始阅读范围。书名和项目名称用于来源管理，不是已经涌现的 Domain。不预设维度、主题、Topic 或知识元归属；当前实际进度见[全书 S2 结果](../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
 
 - [source-registry.md](../02-sources/source-registry.md)：实际来源及版本登记。
 - [taxonomy-registry.md](taxonomy-registry.md)：对象的基本表达类型。

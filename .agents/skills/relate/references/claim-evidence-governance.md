@@ -16,6 +16,8 @@ historiographic_claim
 
 ## 当前 Evidence Envelope
 
+以下 envelope 兼容既有采集、风险路由和 dry-run；旧验证接口的 `--apply/--resume` 与 runner 的 `--apply-low-risk` 已停用。新字段证据在 `enrichment.jsonl` 维护，正式关系在 `relations.csv` 维护；下述 apply 日志格式不表示旧卡片写入器可继续执行。
+
 ```yaml
 evidence_id: optional-on-collect        # apply 时如缺失则由输入与目标稳定派生
 ku_path: 04-knowledge/units/<type>/<slug>.md
@@ -39,7 +41,7 @@ reviewer: optional
 notes: optional
 ```
 
-`verification_level` 只使用 `L1`–`L7` 作为既有验证渠道兼容码，不表示七级必走搜索或六个业务阶段；
+`verification_level` 只使用 `L1`–`L7` 作为既有验证渠道兼容码，不表示七级必走搜索或 S0–S7 业务阶段；
 `evidence_status` 使用 `unverified / source_backed / partially_verified /
 externally_verified / model_supported`。两者不得再使用同名的两套枚举。
 

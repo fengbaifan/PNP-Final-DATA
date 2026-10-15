@@ -1,5 +1,7 @@
 # 全书语义处理（S2）逐段结果记录
 
+> 本文件按源序保存分段与历史批次处理结果。全书当前交接状态、数量与下一步以[全书 S2 当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)为准；各历史条目中的旧游标不再作为当前待办。
+
 任务ID：`patrons-and-painters-full-book-s2`。本文件按源段保存已完成的语义阅读结果和局部裁决，不维护全书总状态或工作游标；当前范围、计数、未决项及下一步唯一见[全书S2当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。操作过程和判断依据见[过程记录](../process/stages.md)。
 
 ## 第十章印刷页324正文（2026-10-03）

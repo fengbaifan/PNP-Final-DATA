@@ -1,0 +1,2 @@
+backlog_id,canonical_name,suggested_type,status,source_id,source_ref,statement_id,endpoint_role,candidate_id,ku_id,decision_note,process_ref
+bl-0001,Luigi Pavini,person,pending,haskell-1980-rev-ed,chp-9:09_CHP-9_sec_ii:l85-127#L95,st-chp9-p269-n05,publisher of cand-8789,,,Haskell names Luigi Pavini as publisher of the 1734 pamphlet; no candidate or independent identity record is present. Resolve through S1-S3-S4 without inferring more than the source provides.,03-processing/patrons-and-painters-full-book-s2/process/stages.md

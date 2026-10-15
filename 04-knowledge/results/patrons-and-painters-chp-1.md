@@ -1,4 +1,6 @@
-﻿# 第一章样例：第一部分当前结果
+# 第一章样例：第一部分当前结果
+
+> 范围说明（2026-10-15）：本文件保留该任务的既有成稿、补证及裁决快照。全书 S2 后续修订、当前数量与接续阶段以[全书 S2 当前结果](patrons-and-painters-full-book-s2.md)为准；下文旧计数、局部游标和“本轮”指当时任务，不作为全库当前进度或重开 S2 的指令。
 
 **全书 S2 候选表面复核补充（2026-10-08）：** 第一章27个已迁移段的64处候选表面提示已逐项核对，新增27条mentions，37条因泛称、普通词义或候选子项错配而拒绝映射。第一章当前共701条mentions；候选、statement、coverage和关系记录未因本轮改变。严格阶段审计通过；该提示集复核不替代全章召回率或独立语义验收。精确跨度与裁决理由见[全书S2过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#第一章候选表面提示全量裁决2026-10-08)。
 
@@ -308,7 +310,7 @@ MS.5001 的官方修复项目记录已支持同馆号、题名、17世纪和纸�
 | work | 31 |
 | **合计** | **298** |
 
-有效对象的唯一登记见 [accepted.yml](../accepted.yml)，断言见 [claim-registry.yml](../quality/claim-registry.yml)，关系原记录在 KU 的 relations，派生索引见 [relation-index.yml](../quality/relation-index.yml)。第六章专属 19 个草稿仍未接收；其中两张文献草稿只机械迁移类型/路径，未进行第六章语义处理。
+本任务有效对象登记见 [accepted.yml](../accepted.yml)，既有断言见 [claim-registry.yml](../quality/claim-registry.yml)，现行关系记录见 [relations.csv](../tables/relations.csv)，旧 KU relations 留作迁移对照；派生索引不作为必需入口。上述第六章19个旧草稿的接收情况属于本任务快照；全书 S2 对第六章的核对与迁移见全书结果，不再按旧报告判断该章未处理。
 
 ## 可解决与仍未解决的问题
 

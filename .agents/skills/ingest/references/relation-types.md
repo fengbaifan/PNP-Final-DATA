@@ -5,12 +5,14 @@
 ## 一、权威与投影
 
 - 新关系在 `04-knowledge/tables/relations.csv` 记录，并驱动 preview-first 卡片关系视图；`relation-index.yml` 不作为当前关系输入。
-- 既有 KU frontmatter `relations` 仍保留作迁移对照；卡片批量重建完成前，不删除原始记录或宣称全库视图已同步。
+- 既有 KU frontmatter `relations` 仍保留作迁移对照；卡片关系视图已支持从 CSV 重建，实际同步状态由渲染检查及任务结果说明，不删除原始对照记录或用旧 frontmatter 覆盖表。
 - `related` 仅为历史兼容字段；`weak_associations` 对其具有排除优先级。
 - 生成器、审计器和 batch prescreen 必须共同加载 `relation-types.yml`，不得各自维护类型集合或 inverse map。
 - REV-019、020 的正文“关系与证据”部分解释并指向这些记录，不复制另一套正式边。内容表中的亲缘、创作者、设计师、所有者等项目须有各自依据；正式建边仍检查有效端点、受控类型、方向及具体证据，不能由字段/链接存在自动生成。历史角色与时间限定不得在建边时丢失。
 
-## 二、字段
+## 二、兼容字段
+
+以下 YAML 用于理解既有卡片的迁移对照；当前写入列名及约束见 `01-domain/stage-artifact-schema.md` 的 S6，正式记录写入 `relations.csv`。
 
 ```yaml
 relations:

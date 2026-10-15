@@ -30,6 +30,7 @@ CSV_REQUIRED_COLUMNS = {
     "ku-manifest.csv": {"ku_id", "type", "canonical_name", "name_en", "card_path"},
     "entity-candidates.csv": {"candidate_id", "canonical_name", "status", "candidate_origin"},
     "alignment.csv": {"alignment_id", "candidate_id", "decision", "process_ref"},
+    "candidate-backlog.csv": {"backlog_id", "canonical_name", "status", "decision_note", "process_ref"},
     "relations.csv": {"relation_id", "subject_ku_id", "object_ku_id", "predicate", "origin", "status", "source_file", "source_span"},
 }
 KU_TYPES = {"person", "family", "institution", "place", "work", "archive", "term", "procedure", "event"}
@@ -99,6 +100,30 @@ def unresolved_note_pending_paths(value: object, prefix: str = "") -> list[str]:
 def duplicates(values: list[str]) -> set[str]:
     counts = Counter(value for value in values if value)
     return {value for value, count in counts.items() if count > 1}
+
+
+def alignment_row_errors(row: dict, candidate_ids: set[str], ku_ids: set[str]) -> list[str]:
+    """Check an S3 decision without requiring S4 to have run first."""
+    errors = []
+    record_id = row.get("alignment_id")
+    candidate_id = row.get("candidate_id")
+    ku_id = row.get("ku_id")
+    decision = row.get("decision")
+    if not candidate_id:
+        errors.append(f"{record_id}: candidate_id is required")
+    elif candidate_id not in candidate_ids:
+        errors.append(f"{record_id}: unknown candidate_id {candidate_id}")
+    if decision not in ALIGNMENT_STATES:
+        errors.append(f"{record_id}: invalid alignment decision {decision!r}")
+    if ku_id and ku_id not in ku_ids:
+        errors.append(f"{record_id}: unknown ku_id {ku_id}")
+    if decision == "same" and not ku_id:
+        errors.append(f"{record_id}: same requires ku_id")
+    if row.get("external_id") and not row.get("external_source"):
+        errors.append(f"{record_id}: external_id requires external_source")
+    if not (row.get("process_ref") or row.get("resolution_note")):
+        errors.append(f"{record_id}: {decision} requires process_ref or resolution_note")
+    return errors
 
 
 def independently_parse_card_tables(body: str, ku_id: str) -> dict[str, dict]:
@@ -390,11 +415,13 @@ def audit_tables(strict_stage: bool = False) -> dict:
     ku_rows = read_csv(TABLES / "ku-manifest.csv")
     candidate_rows = read_csv(TABLES / "entity-candidates.csv")
     alignment_rows = read_csv(TABLES / "alignment.csv")
+    backlog_rows = read_csv(TABLES / "candidate-backlog.csv")
     relation_rows = read_csv(TABLES / "relations.csv")
     source_rows = read_csv(TABLES / "sources.csv")
     for filename, rows in (
         ("ku-manifest.csv", ku_rows), ("entity-candidates.csv", candidate_rows),
         ("alignment.csv", alignment_rows), ("relations.csv", relation_rows),
+        ("candidate-backlog.csv", backlog_rows),
         ("sources.csv", source_rows),
     ):
         errors.extend(csv_row_shape_errors(filename, rows))
@@ -410,7 +437,7 @@ def audit_tables(strict_stage: bool = False) -> dict:
     source_ids = {row.get("source_id", "") for row in source_rows}
     for filename, rows, key in (("sources.csv", source_rows, "source_id"), ("ku-manifest.csv", ku_rows, "ku_id"),
                                 ("entity-candidates.csv", candidate_rows, "candidate_id"), ("alignment.csv", alignment_rows, "alignment_id"),
-                                ("relations.csv", relation_rows, "relation_id")):
+                                ("relations.csv", relation_rows, "relation_id"), ("candidate-backlog.csv", backlog_rows, "backlog_id")):
         if any(not row.get(key, "").strip() for row in rows) or duplicates([row.get(key, "") for row in rows]):
             errors.append(f"{filename} has duplicate/missing {key}")
     for filename, rows, key in (("enrichment.jsonl", enrichment_rows, "enrichment_id"), ("segments.jsonl", segment_rows, "segment_id")):
@@ -455,21 +482,10 @@ def audit_tables(strict_stage: bool = False) -> dict:
         if row.get("release_excluded") is not True:
             errors.append(f"{row.get('segment_id')}: source segment must be marked release_excluded")
     for row in alignment_rows:
-        if not row.get("candidate_id"):
-            errors.append(f"{row.get('alignment_id')}: candidate_id is required")
-        if row.get("decision") not in ALIGNMENT_STATES:
-            errors.append(f"{row.get('alignment_id')}: invalid alignment decision {row.get('decision')!r}")
-        if row.get("candidate_id") and row["candidate_id"] not in candidate_ids:
-            errors.append(f"{row.get('alignment_id')}: unknown candidate_id {row['candidate_id']}")
-        if row.get("ku_id") and row["ku_id"] not in ku_ids:
-            errors.append(f"{row.get('alignment_id')}: unknown ku_id {row['ku_id']}")
-        decision = row.get("decision")
-        if decision in {"same", "new"} and not row.get("ku_id"):
-            errors.append(f"{row.get('alignment_id')}: {decision} requires ku_id")
-        if decision == "same" and not (row.get("external_source") and row.get("external_id")):
-            errors.append(f"{row.get('alignment_id')}: same requires external_source and external_id")
-        if decision in {"undecided", "excluded", "conflict"} and not (row.get("process_ref") or row.get("resolution_note")):
-            errors.append(f"{row.get('alignment_id')}: {decision} requires process_ref or resolution_note")
+        errors.extend(alignment_row_errors(row, candidate_ids, ku_ids))
+    pending_registration = sum(row.get("decision") == "new" and not row.get("ku_id") for row in alignment_rows)
+    if pending_registration:
+        warnings.append(f"S4 KU registration pending for {pending_registration} new alignment decision(s)")
     alignment_keys = [f"{r.get('candidate_id','')}|{r.get('external_source','')}" for r in alignment_rows]
     if duplicates(alignment_keys): errors.append("alignment.csv has duplicate candidate_id + external_source natural key")
     if not candidate_rows:
@@ -651,6 +667,9 @@ def audit_tables(strict_stage: bool = False) -> dict:
         "candidate_index_rows": sum(bool(row.get("index_entry_id")) for row in candidate_rows),
         "candidate_excluded": sum(row.get("status") == "excluded" for row in candidate_rows),
         "alignments": len(alignment_rows), "alignments_unlinked": sum(not row.get("candidate_id") for row in alignment_rows),
+        "alignment_new_pending_registration": pending_registration,
+        "candidate_backlog_rows": len(backlog_rows),
+        "candidate_backlog_pending": sum(row.get("status") == "pending" for row in backlog_rows),
         "relations": len(relation_rows), "formal_relations": sum(row.get("status") == "formal" for row in relation_rows),
         "enrichment_rows": len(enrichment_rows), "enrichment_unverified": sum(row.get("evidence_status") == "unverified" for row in enrichment_rows),
         "independent_card_tables": independently_parsed_table_count,

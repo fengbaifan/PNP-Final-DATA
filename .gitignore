@@ -19,6 +19,19 @@ desktop.ini
 *.temp
 *~
 
+# Local review screenshots, one-off scratch scripts, and recovery copies
+.tmp*
+_tmp*
+*.bak
+*.bak-*
+*-bak-*
+*.before-apply
+*.before-natural-key-repair
+*.before-range-format-repair
+04-knowledge/tables/tmp*
+03-processing/patrons-and-painters-full-book-s2/process/*.png
+/tmp_*.png
+
 # Build outputs
 node_modules/
 dist/

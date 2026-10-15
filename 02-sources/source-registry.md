@@ -1,6 +1,6 @@
 # 来源登记（Source Registry）
 
-> 本文件为 02-sources 只读原则下的追加登记，不改写任何既有来源文件。
+> 本文件是可更新的顶层来源登记；来源本体只追加、不改写、不删除。处理进度以对应任务结果为准。
 
 ## patrons-and-painters
 
@@ -51,7 +51,7 @@
 | 第3章 | `CHP-3.pdf` | `03_CHP-3_intro.md`、`03_CHP-3_sec_i.md`、`03_CHP-3_sec_ii.md`、补充转录`03_CHP-3_sec_ii_notes_p73_visual-transcription.md`、`03_CHP-3_sec_iv.md` | `03_CHP-3.md` 是整章OCR对照。 |
 | 第4章 | `CHP-4.pdf` | `04_CHP-4_intro.md`、`04_CHP-4_sec_i.md`、`04_CHP-4_sec_ii.md`、补充转录`04_CHP-4_sec_ii_visual-transcription.md` | `04_CHP-4.md` 是整章OCR对照。 |
 | 第5章 | `CHP-5.pdf` | `05_CHP-5_intro.md`、`05_CHP-5_sec_i.md`、`05_CHP-5_sec_iii.md`、`05_CHP-5_sec_iv.md` | `05_CHP-5.md` 是整章OCR对照。 |
-| 第6章 | `CHP-6.pdf` | `06_CHP-6_intro.md`、`06_CHP-6_sec_i.md`、`06_CHP-6_sec_iv.md`、补充转录`06_CHP-6_sec_iv_notes_p161_visual-transcription.md`（与下节OCR L12同文，S2有理由排除）、`06_CHP-6_sec_v.md` | `06_CHP-6.md` 是整章OCR对照。既有整章阅读和候选稿在书序到达时映射至规范段并补齐S2提及／断言，不从零重做，也不因旧记录直接判定迁移完成。 |
+| 第6章 | `CHP-6.pdf` | `06_CHP-6_intro.md`、`06_CHP-6_sec_i.md`、`06_CHP-6_sec_iv.md`、补充转录`06_CHP-6_sec_iv_notes_p161_visual-transcription.md`（与下节OCR L12同文，S2有理由排除）、`06_CHP-6_sec_v.md` | `06_CHP-6.md` 是整章OCR对照。旧稿复用、规范段映射及S2提及／断言迁移的完成依据见[全书S2结果](../04-knowledge/results/patrons-and-painters-full-book-s2.md)，不由旧稿文件存在推定。 |
 | 第7章 | `CHP-7.pdf` | `07_CHP-7_intro.md`、`07_CHP-7_sec_i.md`、`07_CHP-7_sec_iv.md`、`07_CHP-7_sec_v.md`、补充转录`07_CHP-7_sec_v_visual-transcription.md`（PDF物理第40页Plate 30组题、第42页Plate 32b题注；同版扫描的派生转录） | `07_CHP-7.md` 是整章OCR对照。 |
 | 第8章 | `CHP-8.pdf` | `08_CHP-8_intro.md`、`08_CHP-8_sec_i.md`、补充转录`08_CHP-8_sec_i_notes_p211_visual-transcription.md`、`08_CHP-8_sec_i_notes_p214_visual-transcription.md`、`08_CHP-8_sec_ii.md`、补充转录`08_CHP-8_sec_ii_plates_visual-transcription.md`、`08_CHP-8_sec_ii_plates_p232_visual-transcription.md` | `08_CHP-8.md` 是整章OCR对照。p.211补录分节OCR漏掉、由印本核实的脚注1开头及注2–3；p.214补录OCR漏掉的注2及注4截断续文，并校核注1–4；物理页17–18补录OCR漏失的Plate 35b题注及旋转错序的Plate 36组题、题注；物理页36补录OCR漏掉的Plate 38题头；补充转录不替代仍可辨认的原OCR文字。 |
 | 第9章 | `CHP-9.pdf` | `09_CHP-9_intro.md`、补充转录`09_CHP-9_intro_plates_visual-transcription.md`、补充转录`09_CHP-9_intro_notes_p260_visual-transcription.md`、`09_CHP-9_sec_ii.md` | `09_CHP-9.md` 是整章OCR对照。 |
