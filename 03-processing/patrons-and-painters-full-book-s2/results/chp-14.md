@@ -166,3 +166,25 @@ p.363物理页16–17图像的Cerato题注只有“Domenico Cerato: Project for 
 将图像页现有statement拆分为Guardi归属和作品描绘该别墅两项关系候选。书前caption中的别墅→Paese、Paese→Treviso、别墅与John Strange的题名关联分别改正端点并标为关系候选；“Private Collection, London”因收藏者未指明保持空宾端点和pending，未建泛化机构实体。S0不改，也不将题名的所有格升级为法律所有权。
 
 本页新增1个candidate、1条mention、1条statement；新增/重标7条关系候选，6条端点完整，匿名collection一条保持开放。全库1,019 KU、11,503 candidates、27,424 mentions、12,397 statements；关系候选2,632条，2,610条端点齐全、22条开放。严格阶段审计`errors=[]`、`s2_missing=[]`；全量同步闭合通过（303 passed、2 subtests passed）。下一项按书序转入第十五章p.361 `chp-15:15_CHP-15_sec_i:l3-14`；全书S2交接未完成。
+
+## 状态更新：第十四章p.349–350正文及脚注复核（2026-10-14）
+
+p.349正文42条statement与本页脚注9条共51条，分类为48条关系候选、3条非关系陈述；拆开路线、住所、出版、影响判断与书信/档案关系，新增4个来源限定候选及53条正文mention。p.349正文此前没有mention行；现有脚注锚点经重叠检查修正后保留。三条脚注非正文关系的边界与两次Voltaire接触的区别均已保留。
+
+p.350正文35条、注释3条，共38条statement（18 true、20 false）；正文从18条整理为35条，新增17条原子statement、9个来源限定候选和36条精确mention。拆分社会评价、历史性画廊组织方案、早期意大利艺术收藏的解释、生活艺术家委托及Castiglione/Claude题材示例；未知作者、作品、艺术家群成员均未补猜。p.350正文原无mention行。注释L179的`Opere, Vin`按物理页4校为印本`Opere, VIII`，新增候选cand-10266的精确锚；“See Chapter 12”保持内部导航，不建关系。S0文本未改。
+
+本批严格阶段审计`errors=[]`、`s2_missing=[]`；写后全书15,052条statement（10,061 true、4,399 false、592 unset）、12,172 candidates、20,748 mentions。下一段为p.351 `chp-14:14_CHP-14_intro:l46-53`，41条statement中15条待裁决；全书S2交接未完成，未进入S3–S6。脚本、写前哈希、校读与恢复副本见[过程记录](../process/stages.md)。
+
+## 2026-10-14：p.352–354分类补正与mention恢复
+
+历史提交中找回并恢复p.352–354的221条mention锚点；逐条核对候选、S0字符跨度和非交叉条件。p.352现31条statement（18 true、13 false）；p.353现35条（23/12），将Algarotti对建筑透视、绘画学养的赞赏及国王偏好旧大师三条明确关系由false更正为true。p.354现28条（20/8）：新增匿名萨克森赞助群、Newton光学发现、未具名色彩大师作品组及白底绘画提案四个候选和5条mention；修正作品/概念/信件端点，拆开Algarotti赞扬Tiepolo的学养与被其brio、fantasy吸引两项反应，并为未分类陈述逐条记录关系边界。注3仍严格表述为Haskell对未独立查阅信件的解释。p.354写后无unset。p.357–360及第十五章p.361另外恢复277条锚点；相关恢复和哈希见[过程记录](../process/stages.md)。
+
+当前p.351–354均无未分类statement；第十四章按源序下一段为p.355 `chp-14:14_CHP-14_intro:l85-95`，正文22条中7条尚未裁决。写后全库严格阶段审计`errors=[]`、`s2_missing=[]`；全书S2未交接，未进入S3–S6。
+
+## 2026-10-15：p.355–356正文与脚注语义复核
+
+p.355正文及当页注释共27条statement（22条关系候选、5条非关系），未分类为0。新增3个来源限定候选及3条mention；将9条误映到“Piazzetta”作品索引项的提及改映人物候选；新增Algarotti同代画家群、日期未定的威尼斯访问和Piazzetta古典历史画组端点。将Canaletto与Consul Smith的跨页句收窄为雇佣关系，并将清单证据限制表述保留为非关系断言。
+
+p.356正文及当页注释共34条statement（25条关系候选、9条非关系），未分类为0。新增6个来源限定候选、6条mention和4条原子statement：分开记录Algarotti与威尼斯艺术市场的联系、为新赞助人寻找作品、分别连接两封写给Frederick的具日期书信，并补入Diderot引文中所述对普鲁士国王的遗赠。修正`roi de Prusse`从地点候选映到身份未决的人物候选；将脚注“the Veronese”映到未具名画作而非画家。Diderot—Treat转述链、两封信未独立查阅、匿名收件人与作品组均保留相应限定。
+
+p.355–356正文/注释的159条缺失mention锚点从既有提交恢复并逐条核对；本轮另新增9条mention。写后全库15,059条statement（10,097 true、4,550 false、412 unset）、12,185 candidates、21,493 mentions。严格阶段表审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告与通用语义提示不变。第十四章当前已无unset；全书下一未裁决段为第十五章p.362 `chp-15:15_CHP-15_sec_i:l16-25`，47条中20条待裁决。S2未交接，未进入S3–S6；写回脚本及备份后缀记录在过程文件。

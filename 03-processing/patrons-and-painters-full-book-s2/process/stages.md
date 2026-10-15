@@ -9189,7 +9189,7 @@ run_sync_closure.py --full通过9/9项，303 tests与2 subtests通过（82.14秒
 
 将学者群体写信索取信息与回寄报告拆为两个群体→Cassiano关系；两封稿本分为Cicero与Seneca各一条救回陈述；将“drawings”依既有mention映射至古罗马图稿组`cand-5744`，分别记录其现藏British Museum和Royal Collection；Cassiano纸上博物馆的卷册事实与Haskell对现代`musée imaginaire`的类比分开；记录项目拆出绘图收藏和雇用年轻绘图师两项。Vitzthum“adds a few more”保留为来源限定的单端书目陈述，未猜定作品或归属。
 
-段内statement由21条增至28条，23条双端statement现为18条关系候选、5条非关系、0条未分类。新增7条statement和1条精确mention `m-chp4-sec-ii-l24-31-0050`（`cand-5691`，`a group at Windsor`，跨度`[2939,2957)`）；没有新增candidate或mention以外的实体记录。`cand-5681`（匿名年轻绘图师组）和`cand-5695`（匿名学者/业余学者组）不适用`term`类型，清空` suggested_type`并保持open。没有修改S0，没有写入S6正式关系。
+段内statement由21条增至28条，23条双端statement现为18条关系候选、5条非关系、0条未分类。新增7条statement和1条精确mention `m-chp4-sec-ii-l24-31-0050`（`cand-5691`，`a group at Windsor`，跨度`[2939,2957)`）；没有新增candidate或mention以外的实体记录。`cand-5681`（匿名年轻绘图师组）和`cand-5695`（匿名学者/业余学者组）不适用`term`类型，清空`suggested_type`并保持open。没有修改S0，没有写入S6正式关系。
 
 受控脚本`chp4_p101_l24_31_relation_review_20261011.py`先按表及来源SHA-256 dry-run，再应用并逐表预检；恢复副本为`book-statements.jsonl.bak-s2-chp4-sec-ii-l24-31-relations-20261011`、`entity-candidates.csv.bak-s2-chp4-sec-ii-l24-31-relations-20261011`、`mentions.csv.bak-s2-chp4-sec-ii-l24-31-relations-20261011`。写前statement/candidate/mention SHA-256分别为`867046d48c2f5e3a863fc97f1f538f94f3f54df3e54cfdaefc20e52820a46762`、`6351f6cc9d758391424b1360de27dcf2d428b3b57f442b19f32def026b5a0d50`、`a7f7a97d192f872d94ab6fc804d30a3866190c44a9201b94f5873aa0feeb2b29`；写后分别为`20b306df2fc249db980339730313d01012749d61936b20d59332c0597fee3e9e`、`6fe602bb0a8313ea754281efe537a85426943fc65e3b0eab9697a89729ed7b75`、`ab281c6ba89343b4aacf7859d996274642c32c9db30e96302c4abb0a637127af`。当前全库11,615 candidates、27,552 mentions、12,953 statements；8,770条双端statement中5,504 true、511 false、2,755未分类；`relation_candidate=true`共5,562条，58条至少缺一个端点。下一段L33–44有16条未分类；全书共2,755条分布于262段。
 
@@ -9619,3 +9619,1169 @@ p.104脚注原有10条statement；其中9条未分类项完成裁决，已有的
 写回前对statement/candidate/mention表设置SHA-256保护并保留恢复副本：book-statements.jsonl.bak-s2-chp5-p127-20261011（原哈希6bfb7e4d2839411ca53875d03d28bccd6fdb05b617ade7be97eda6173d550f47）、entity-candidates.csv.bak-s2-chp5-p127-20261011（fb9fcdf0518ffc18a948bbfcccb17e35dac0354657982de52a3a4a9299bf0de5）、mentions.csv.bak-s2-chp5-p127-20261011（207f172327e12a569c597aac25137594702dbaf56a8cd6b11835be6869759040）。首轮严格审计指出新增mention相对段起点少计了页眉[Page 127]\n的11个字符；随后逐项核对校正，并保留mentions.csv.bak-s2-chp5-p127-offsetfix-20261011（校正前哈希0ca8f0b7a4f391b245daa45a63f266970f81b5e0837f7bd8aff05e28bac0a437）。写后statement/candidate/mention SHA-256分别为6f4042b9b027e6edea62a4e1ba58b9be112ca726eb2b177ecbc6a6651f1ee3a0、714c522c6c846612167ef934d16bba0eb2bdd9aadcd091322228cc778b154bba、6daa57037f79fb3eca85207b04091c710928d183f68dfc63afd4fb3fefd4b899。
 
 写后全库13,348条statement、11,745个candidate、27,697条mention；relation_candidate为true 6,344、false 2,336、unset 4,668；9,107条双端statement中6,268 true、536 false、2,303 unset；76条true候选至少缺一端。严格表审计errors=[]、s2_missing=[]；仅有既存enrichment source_ref警告enr-06678和enr-06937及标准语义质量提示。关系一致性五类硬错误均为0；卡片预检1,019卡、2,608张表、10,149行，files_to_write=0。本批后未重跑全量闭合；最近一次p.126后9/9通过（303 tests、2 subtests；结构契约130/130）。下一游标为p.128 L88 st-chp5-p128-medici-1675-exhibition，全书S2交接仍未完成。
+
+
+## 第五章印刷页128正文（2026-10-12）语义复核与展览实例拆分
+
+对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_i.md`（SHA-256 `8ef51cd646ed6abf398c9faeb47df9a03f70de696d9a871c6d0b734b2adeeeee`）、段`chp-5:05_CHP-5_sec_i:l85-97`（SHA-256 `9c8360e14542de083d5e2414f7fdbf81b4f52f087f158d9d62239bcc023278d7`）、`CHP-5.pdf`物理第9页（SHA-256 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`）及证据图`process/p128_page_review_20261011.png`（SHA-256 `b5d9f076776b10f2581345f7ecb6ad85b67cb844515e4b96d7216b3acd50f652`）。保留S0原文；p.128 L88及L96的版面/OCR标记在PDF页底没有对应注释，保持未链接。
+
+复核并分类24条未分类statement，新增15条原子statement；p.128段共41条，26条为来源限定的S2关系候选、15条为非关系陈述、0条未分类。新增13个开放候选`cand-11768`–`cand-11780`、10条精确mention`m-chp5-p128-0054`–`0063`，并将4条既有展览mention改接到对应年度实例。分别建立S. Giovanni Decollato的1675年Medici展览、1736年展览及S. Salvatore in Lauro的1675、1697年展览事件候选，保留其与定期展览系列的区别。未名作品组与具体陈列空间分开；新增未名出借家族群、其他藏家群、St Peter’s传道者和枢机群体的开放候选。拆分Ghezzi的管理工作、Accademia di S. Luca职务、Ascoli Piceno来源地与Haskell对其努力的评价。保留1736年教皇出价仅为希望、Prince Pio身份未解决、1708句首由p.129 L100完整句承接，以及Madonna作为泛指图像主题而非已识别画作等限定。所有新增边仍为S2候选，不写`relations.csv`或S6正式边。
+
+受控脚本`classify_s2_chp5_p128_20261012.py`校验来源与段SHA、写前三表SHA、目标statement前态、ID唯一、引文子串、候选端点和精确mention字符范围。dry-run输出24条既有statement复核、15条新增statement、13个新候选、10个新mention；段内最终分类为26 true、15 false、0 unset。apply前写前哈希为：statement `6f4042b9b027e6edea62a4e1ba58b9be112ca726eb2b177ecbc6a6651f1ee3a0`，candidate `714c522c6c846612167ef934d16bba0eb2bdd9aadcd091322228cc778b154bba`，mention `6daa57037f79fb3eca85207b04091c710928d183f68dfc63afd4fb3fefd4b899`。恢复副本为`book-statements.jsonl.bak-s2-chp5-p128-20261012`、`entity-candidates.csv.bak-s2-chp5-p128-20261012`、`mentions.csv.bak-s2-chp5-p128-20261012`，各自哈希与写前值一致。写后表SHA-256为statement `4076c417cd3429dfebb087d9ef414fd9b8f8a3af904549f2a94595054ff8905b`、candidate `93e29fc48ff4de524a7649eb6029a6bc0bef7be751b2d2b5d9be86a52403e6f6`、mention `d8858ebe1c83e0cfd6138ff404d435f28a7d104018010c1e109bb35fde78d066`；JSONL保持原文件无BOM编码。
+
+写后总账13,363 statements、11,758 candidates、27,707 mentions；关系候选分类为true 6,369、false 2,350、unset 4,644；9,116条双端statement中6,293 true、537 false、2,286 unset，76条true候选仍缺端点。`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`，保留两条既存enrichment `source_ref`警告；关系一致性五类硬错误均为0。随后运行`python scripts/run_sync_closure.py --full`，9/9检查通过：303 tests、2 subtests，结构契约130/130、系统升级链4/4、项目规则契约4/4；`python scripts/build_cards.py --check`预检1,019张卡、2,608张表及10,149行，`files_to_write=0`。下一游标为p.129 L100 `st-chp5-p129-1708-ruspoli-condition-and-concession`；S2交接仍未完成。
+
+## 第五章印刷页129正文（2026-10-12）语义复核与关系端点拆分
+
+对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_i.md`（SHA-256 `8ef51cd646ed6abf398c9faeb47df9a03f70de696d9a871c6d0b734b2adeeeee`）、段`chp-5:05_CHP-5_sec_i:l99-106`（SHA-256 `1096a4da306376fcd90adfdebcee1c52752b8c72cf0792ebef1a1b6fe005018f`）、`CHP-5.pdf`物理第10页/印刷p.129（SHA-256 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`）及页图`process/p129_page_review_20261012.png`（SHA-256 `75ef06ee23d1ce99286fb2b47fefa81cea96bb817811fb507fcba2cf95c2834e`）。页图确认印本为“a fit”及“primary aim”，S0的“a sit”和“primary.aim”按证据保留，只记录S2校读；未见对应脚注标记。p.129 L106“making rapid impressions”续至p.130 L109，关联既有续句statement，不重复建立独立事实。
+
+复核并分类p.129原有20条statement，新增14条原子statement；页段共34条，21条为来源限定的S2关系候选、13条为非关系陈述、0条未分类。新增14个开放候选`cand-11781`–`cand-11794`和15条精确mention`m-chp5-p129-0016`–`0031`；更新既有Roman collectors mention并增加跨页年份mention `m-chp5-p128-0064`。1708年Ruspoli句由p.128 L97起、p.129 L100闭合：建未名事件候选`cand-11783`，只记录其紧接1697年S. Salvatore叙述的语境，不断言p.129重复指明了场地或系列。分开记录Ruspoli的194幅作品与Olivieri获准悬挂的23幅作品、Ghezzi建议和Ruspoli接受；保留“获准”不等于实际陈列。另将Ottoboni雇用Trevisani与展示其作品拆开；将Grimani送展、Molinari作品归属、相对死亡时间及Roman collectors对其陌生程度分开。1704年段落分别连接King John及其未名胜利组、教皇的宣传意图、未名遗孀和拟借出的肖像/战役画组；教皇身份仅保留索引候选提示，遗孀身份不补名，来源只证明劝借、不证明实际出借或展出。四次定期展览、装饰性媒介、旅行者可达性、商人增加、外国赞助者用本国艺术家记录Rome、外来艺术文化及画家群体分别按原文范围记录；保留Haskell的评价、推测和“among a number of factors”等限定。未写`relations.csv`或S6正式边。
+
+受控脚本`process/classify_s2_chp5_p129_20261012.py`校验来源、PDF、页图、p.128/p.129段哈希、前三表写前SHA、20条目标statement前态、quote子串、候选自然键、端点和mention跨度；dry-run确认14条新增statement、14个候选及16个新mention（含p.128跨页年份），再apply。恢复副本为`book-statements.jsonl.bak-s2-chp5-p129-20261012`、`entity-candidates.csv.bak-s2-chp5-p129-20261012`、`mentions.csv.bak-s2-chp5-p129-20261012`，哈希与写前表一致。写后SHA-256分别为statement `82e4e551ffe4395562a6352246ba2f0a097c0288871d71e7a7ca7298f28c0690`、candidate `2a5718c17365008fcb20992aeb1c9577ce1456cd6e6b6be131bb7fda4f9f7685`、mention `0f21a1df5a8b4559cb923ef0fc916d98cd2dcb9ed5880ac6a3d1ece1d3b0d064`；JSONL保持无BOM UTF-8。
+
+写后全库13,377条statement、11,772个candidate、27,723条mention；`relation_candidate`为true 6,390、false 2,363、unset 4,624；9,134条双端statement中6,314 true、537 false、2,283 unset；76条true候选仍缺至少一端。p.129定向审计确认34条statement全分类、32条mention跨度唯一且精确、14个候选和全部true关系端点有效。`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`，仅保留两条既存enrichment来源引用警告；关系一致性硬错误为0；卡片预检1,019卡、2,608表、10,149行、`files_to_write=0`。本批后的全量闭合另记于本节末尾。按书序下一游标为p.130 L109 `st-chp5-p130-aesthetic-view-and-connoisseurs`，段`chp-5:05_CHP-5_sec_i:l108-113`；全书S2交接仍未完成。
+
+## 2026-10-12：第五章印刷p.130语义复核
+
+对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_i.md`（SHA-256 `8ef51cd646ed6abf398c9faeb47df9a03f70de696d9a871c6d0b734b2adeeeee`）、段`chp-5:05_CHP-5_sec_i:l108-113`（SHA-256 `4d9e900d455df7d1db1be2a849344aae3fb4ba1517e6600c677e84d20bed5af5`）、`CHP-5.pdf`物理第11页／印刷p.130（SHA-256 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`）及页图`process/p130_page_review_20261012.png`（SHA-256 `4672ad1b87e787057f3adeec0c191677987f668a72c19cb8723018dcb87ae095`）。页图确认OCR的`theprice`印为`the price`，L113 `copied`前多出的引号不见于印本；差异仅记S2，不改写S0。p.130正文续完p.129 L106关于艺术家可见性的跨页句，既有statement通过续文指针连接；页下注1、2分别链接到同页注1、注2 statement。
+
+复核19条既有statement，6条标记为S2关系候选、13条为非关系陈述，0条未分类；不新建statement。6条候选分别记录Caravaggio向Vincenzo Giustiniani所作评论、Mancini面向匿名赞助人、Mancini的价格协商建议、其Treatise作者关系、关于有限居住空间与挂画的建议，以及初到罗马的年轻艺术家与匿名购画公众之间的生计协商。最后一条保留Haskell原文`no doubt`所标示的推断：新增来源限定的未名群组候选`cand-11795`，将错误的Rome端点改为匿名公众`cand-6064`，Rome只作为到达语境；与外国艺术家群`cand-3467`及外国赞助者所求艺术家群`cand-11789`保持分立。新增3条精确mention（`m-chp5-p130-0024`至`0026`），页内原有23条跨度逐项复核，写后共26条，跨度无误。
+
+本页其余statement保留为作者限定的历史解释、一般性叙述或假设，包括匿名公众的图像持有、当代审美变化、题材发展及对Sassoferrato赞助对象的疑问；未将疑问写成事实或把泛称扩展为个体。所有关系候选仍属S2，不创建S6正式边。
+
+受控脚本`process/classify_s2_chp5_p130_20261012.py`默认dry-run，校验来源、PDF、页图、段哈希、19个statement ID/引文、现有23条mention跨度、新候选自然键和新增mention字符位置。写前statement/candidate/mention SHA-256分别为`82e4e551ffe4395562a6352246ba2f0a097c0288871d71e7a7ca7298f28c0690`、`2a5718c17365008fcb20992aeb1c9577ce1456cd6e6b6be131bb7fda4f9f7685`、`0f21a1df5a8b4559cb923ef0fc916d98cd2dcb9ed5880ac6a3d1ece1d3b0d064`；写后为`1cda591a07de1cc49d2ce55de1932726f291303b987f40c069a614dc09206f0b`、`df039573b75fb0d72c08773e058c009cda2f70730629471e2b06465b69abf235`、`ab090632eb7b56a6814d79264669a1648e5c7ca093e5e3d42ad3bf7353384c45`。可恢复副本为`book-statements.jsonl.bak-s2-chp5-p130-20261012`、`entity-candidates.csv.bak-s2-chp5-p130-20261012`、`mentions.csv.bak-s2-chp5-p130-20261012`。
+
+写后定向检查：严格表审计`errors=[]`、`s2_missing=[]`；关系一致性断端点、非法类型、缺反向映射和弱证据均为0；卡片预检1,019卡、2,608表、10,149行、`files_to_write=0`。全量同步闭合在本页写回后通过9/9检查，303 tests与2个subtests通过，结构契约130/130、项目规则契约4/4。写后全库为13,377条statement、11,773个candidate、27,726条mention；`relation_candidate` true 6,396、false 2,376、unset 4,605；9,134条双端statement中6,320 true、538 false、2,276 unset；76条true候选仍缺至少一端。按书序下一待复核位置为第5章印刷p.131 L116 `st-chp5-p131-sassoferrato-location-and-career`，段`chp-5:05_CHP-5_sec_i:l115-123`；全书S2语义交接仍未完成。
+
+## 2026-10-12：第五章印刷p.131正文与脚注语义复核
+
+对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_i.md`（SHA-256 `8ef51cd646ed6abf398c9faeb47df9a03f70de696d9a871c6d0b734b2adeeeee`）、正文段`chp-5:05_CHP-5_sec_i:l115-123`（SHA-256 `78c4b953b87c595419bae0aff8a0c1c68ee336b56a5061ce28a9c475b2979986`）、脚注段`chp-5:05_CHP-5_sec_i:l125-147`（SHA-256 `5fdb179fd5637ce1d0a0b6b3da66e4e871452e25debcd265e4749060845324e8`）、`CHP-5.pdf`物理第12页／印刷p.131（SHA-256 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`）及页图`process/p131_page_review_20261012.png`（SHA-256 `9231ae7a3aca9649bd6a5f8cfb3218a7b3fbe6927f839b97207e69572a7f8a96`）。页图确认正文印本为`the Holy Family`、`1636`、`Pamfili`、`Giacinto Gigli`、`diligently`，OCR差异仅在S2记录，未改S0。脚注印本确认`Galleria Nazionale`及`pp. 102 ff.`，对应OCR读数保留并记录校正。
+
+正文复核26条既有statement并新增8条原子statement，段内合计34条全部分类（28条S2关系候选、6条非关系陈述）。新增候选`cand-11796`–`cand-11798`和2条精确mention；把Sassoferrato未知赞助人同p.130广泛匿名公众及本页推测的professional community区分，把Holy Family作品组、题材、prototype和艺术家模式关系拆清。校正commission、支付、转移和赠予端点与未完成交易状态；所有边仍是S2候选，没有写入`relations.csv`。
+
+脚注段的p.131 n1、n2、n3、n4四条既有statement均分类，新增3条原子关系statement与3条archive mention。Pollak卷I引用连至既有卷I候选`cand-4556`，并以书目候选`cand-11421`保留出版物匹配线索；Berthier及Gigli分别复用`cand-11246`、`cand-6076`。n3将Prati肖像描绘关系、肖像的报告地点和Prati在Benevento/Viterbo任职拆开；馆藏机构复用已采纳KU候选`cand-3247`，将既有mention从粒度未定的`cand-4142`改接。来源只证明Haskell报告的馆藏和职务，不证明当前保管状态或任职日期，所引文献未独立查阅。
+
+受控脚本`process/classify_s2_chp5_p131_20261012.py`、`classify_s2_chp5_p131_notes_20261012.py`均默认dry-run，核对来源、PDF、页图、段与写前表哈希、目标statement前态、候选/mention引用和字符跨度后写回。p.131正文写前三表SHA-256为`1cda591a07de1cc49d2ce55de1932726f291303b987f40c069a614dc09206f0b`、`df039573b75fb0d72c08773e058c009cda2f70730629471e2b06465b69abf235`、`ab090632eb7b56a6814d79264669a1648e5c7ca093e5e3d42ad3bf7353384c45`；正文写后为`94e49cde4b1c7adc35c95ecadf0494d6414ebb7736006f446c6987f6c1f61ef8`、`311cf9ed9935f5c12c6f3b4d1a23571a01ff0d69208af2f488bee39d1c6ee687`、`3c5dfb6aa984776063f2f74822eec6382394831049495908192316222cb3d842`。脚注写后statement/mention哈希为`9f7e0afbcab377046e424239c700619cfdb2fc4bf3815b0c62ac7d8c76972ac7`、`723ae0da9bec22eb6379a4999f094f3d8010b2c0d71707e2fced87651432d4f2`；候选表来源锚点修订后SHA-256为`e1ec0370f8250872ee452e0f70546652cd22078705871000f735954de7952dc5`。首轮严格审计发现`cand-11797`引用行范围不符合接口；受控修订脚本`process/fix_s2_p131_candidate_source_ref_20261012.py`将锚点收敛到受审段内的L117并通过复核。恢复副本分别为`book-statements.jsonl.bak-s2-chp5-p131-20261012`、`entity-candidates.csv.bak-s2-chp5-p131-20261012`、`mentions.csv.bak-s2-chp5-p131-20261012`、`book-statements.jsonl.bak-s2-chp5-p131-notes-20261012`、`mentions.csv.bak-s2-chp5-p131-notes-20261012`及`entity-candidates.csv.bak-s2-chp5-p131-source-ref-20261012`。
+
+最终全库为13,388条statement、11,776个candidate、27,731条mention；关系候选true 6,430、false 2,382、unset 4,576；9,147条双端statement中6,354 true、538 false、2,255 unset，76条true候选仍缺至少一端。严格表审计`errors=[]`、`s2_missing=[]`，保留两条既存enrichment source_ref警告`enr-06678`、`enr-06937`及语义复核质量提示；关系一致性硬错误0，诊断135个零关系KU及1个超连接KU。卡片预检1,019卡、2,608表、10,149行、`files_to_write=0`。p.131写回后全量同步闭合9/9通过：303 tests、2 subtests，结构契约130/130，Skill注册8/8，项目规则契约4/4。按书序下一游标为第5章p.132开篇L3 `st-chp5-sec-iii-l3-self-made-taste`，段`chp-5:05_CHP-5_sec_iii:l3-3`；其后正文p.132 L5–10有15条既有statement待分类。全书S2交接仍未完成。
+
+## 2026-10-12：第五章印刷p.132正文与脚注语义复核
+
+正文对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_iii.md`（SHA-256 `9b095b1a93570102ad2cdb117580f2fbeccd2ff017033a2f66557c58a0d1ef0a`）、开篇段`chp-5:05_CHP-5_sec_iii:l3-3`（SHA-256 `80f0e4c372eccb56f69bdcc201a74504380a1c88ead844d4b31c231e323d1277`）、正文段`chp-5:05_CHP-5_sec_iii:l5-10`（SHA-256 `e306d5e3b7c6e8bb64829e9dcc00a3b612e066a4669ab6a0ef0920ddfbb21e38`）、`CHP-5.pdf`物理第13页／印刷p.132及页图`process/p132_page_review_20261012.png`（SHA-256 `58d8cef4152d2c383e4019caac0e1d9be2b3db2de1cefac8345d598a44f53489`）。页图确认开篇印本为`established canons`，脚注为Giulio Briganti；S0中的`estabhshed`与`Brigand`保留，仅记录S2印本读法。
+
+复核开篇及正文16条既有statement并新增3条原子statement，正文19条全部分类（8条关系候选、11条非关系）。将“影响力足以吸引迎合其趣味的艺术家”与随之而来的大量尖锐谴责拆开；把bambocciate最初或来自`uomini di stato mediocre e di stato basso`的作者推断，与后来得到社会最高阶层支持分别记录。新增开放、来源界定群组候选`cand-11799`（最高阶层支持者）及`cand-11800`（迎合自成身份赞助人口味的艺术家），及2条精确mention。其余概括性题材、跨文化趣味、叙述方法、无名画作场景及城市印象保留为非关系；不补造具体画作或群体成员。Rome和campagna的场景、1630–40年代时间范围分别表达；campagna具体范围未定。所有关系仍为S2候选。
+
+p.132注释段`chp-5:05_CHP-5_sec_iii:l126-165`（SHA-256 `183b8dbbc0e05624d35d19fdc7f140e588145c5503bbd898b15c65a77e3c58c8`）中n1、n2两条既有statement均分类，并新增一条原子关系statement。n1记Passeri对Van Laer绘画的引述性评价，限制为Haskell脚注转引、未独立查阅原版；同跨度既有mention映射被引archive候选`cand-4376`，没有再叠加人物mention，人物端点`cand-1856`及Van Laer端点`cand-1351`由statement显式给出，Passeri人物也在链接正文段有精确mention。n2的既有`footnote_citation`保留为非关系书目指引，并新增`cand-6180` Giulio Briganti→`cand-6181` 1950年展览目录的引言撰写关系候选；印本纠正`Brigand`→`Briganti`只记S2，不改S0。
+
+受控正文脚本`process/classify_s2_chp5_p132_20261012.py`对来源、PDF、页图、段哈希、目标statement及mention跨度作前置校验；正文写前三表SHA-256由`9f7e0afbcab377046e424239c700619cfdb2fc4bf3815b0c62ac7d8c76972ac7`、`e1ec0370f8250872ee452e0f70546652cd22078705871000f735954de7952dc5`、`723ae0da9bec22eb6379a4999f094f3d8010b2c0d71707e2fced87651432d4f2`变为`c4265cf26489e01616211c4912bb7b008afb43481d8acd8299343f6c6ef5bfcd`、`012efa6759909bc8a1e9b7c16929f331b0b0c065279090c488810b00b25c8df4`、`665ebc1635b2af8282feba756bffe34d609786bea45c3f2f937f90a3b235681a`；恢复副本为`book-statements.jsonl.bak-s2-chp5-p132-20261012`、`entity-candidates.csv.bak-s2-chp5-p132-20261012`、`mentions.csv.bak-s2-chp5-p132-20261012`。
+
+脚注脚本`process/classify_s2_chp5_p132_notes_20261012.py`写回n1–2分类及新增原子statement。首次严格审计发现新建人物mention与既有archive mention在同一跨度重叠；受控修正`process/fix_s2_p132_note_mention_overlap_20261012.py`验证写入后mention表与受审恢复副本仅相差该行，再撤回该重复mention，保留原archive映射。修正前临时SHA-256 `d4a0a2b98e4237973df879bf601554253e5a9fc2f01457b2020a6773defe2816`，最终恢复至p.132正文写后mention表SHA `665ebc1635b2af8282feba756bffe34d609786bea45c3f2f937f90a3b235681a`；修正副本`mentions.csv.bak-s2-fix-p132-note-overlap-20261012`保存中间态。脚注最终statement表SHA-256 `817794cfddab7e9e02d0f1531584d2b437e795588e1995304e2ca9bdd53ee5da`；恢复副本`book-statements.jsonl.bak-s2-chp5-p132-notes-20261012`及`mentions.csv.bak-s2-chp5-p132-notes-20261012`保留脚注首次写回前状态。
+
+最终全库13,392条statement：relation_candidate true 6,440、false 2,394、unset 4,558；9,150条双端statement中6,364 true、538 false、2,248 unset，76条true候选至少缺一端。严格表审计`errors=[]`、`s2_missing=[]`；仍有两条既存enrichment source_ref警告`enr-06678`、`enr-06937`及语义质量提示。关系一致性硬错误0；卡片预检1,019卡、2,608表、10,149行、`files_to_write=0`。本页不新增KU或写S6正式关系。按书序下一游标为第5章印刷p.133正文段`chp-5:05_CHP-5_sec_iii:l12-18`（17条既有statement，尚未分类）；全书S2交接仍未完成。
+
+全量同步闭合在p.132写回及结果更新后通过9/9检查；303 tests与2个subtests通过，结构契约130/130、Skill注册8/8、项目规则契约4/4。机械闭合不构成事实准确性、实体召回完整性或独立语义验收。
+
+
+## 2026-10-12：第五章印刷p.133正文与注1语义复核
+
+对照规范来源`02-sources/02-Markdown/05_CHP-5_sec_iii.md`（SHA-256 `9b095b1a93570102ad2cdb117580f2fbeccd2ff017033a2f66557c58a0d1ef0a`）、段`chp-5:05_CHP-5_sec_iii:l12-18`（SHA-256 `7665aa1fe5c68405644c7ebc5bfbe3fd99be5daef5a8b35e8e62fabf46e35882`）、`CHP-5.pdf`物理第14页及页图`process/p133_page_review_20261012.png`（SHA-256 `2da80de80eb9491e2bd70eb6d9c36ea19dee0cf15ba255766ac547b5efed356c`）。按页图将L16 OCR `wesind`校读为印本`we find`；校读只记S2，不改S0。闭合p.132 L10的Rome场景句，p.133 L18的Doni引语由p.134 L21续完。
+
+复核17条既有statement并新增12条原子statement，最终29条全部分类（16条关系候选、13条非关系陈述）。新增`cand-11801`–`cand-11805`和7条mention：未名mob、竖立纪念像的administration、cultivated society及其模仿者、区别于常规警察的教皇武装警察，以及无日期的反复使馆骚乱。为临时治理候选`cand-6107`、未名教皇`cand-6105`补精确mention。将Rome街巷印象与农民渐入城市无产阶级分开；分别记录军队保护枢机/王公、参加骚乱并与常规警察冲突；将纪念像竖立者、纪念对象及mob潜在破坏威胁拆分；将使馆群体持续紧张、反复骚乱及教皇武装警察难以镇压分开。所有作者概括、潜在性、群体未名状态与比较性批评均保留；未生成S6正式关系。
+
+注1/L129原有`cites`候选`st-chp5-notes-l129-gigli-citation`已是分类状态。按注号落点，将其正文回链扩为使馆张力、骚乱在Rome发生及教皇武装警察难以镇压三条statement；未另造一条脚注引用或改`relations.csv`。
+
+受控脚本`process/classify_s2_chp5_p133_20261012.py`先核验来源、PDF、页图、段哈希、写前三表哈希、17条未分类旧statement、全部29条旧mention跨度及新增ID/引文，再dry-run并写回。写前statement/candidate/mention SHA-256为`817794cfddab7e9e02d0f1531584d2b437e795588e1995304e2ca9bdd53ee5da`、`012efa6759909bc8a1e9b7c16929f331b0b0c065279090c488810b00b25c8df4`、`665ebc1635b2af8282feba756bffe34d609786bea45c3f2f937f90a3b235681a`；写后为`b0163b24ffdacc3871e086b5df79380eccf4f3d87aeaaf9fd76b6b3f72e45b81`、`e0d5ccdb53d6f3b7a8d69ec334467745c75310249c2e32f2ca51eee7391a969e`、`f6403bd6b6f81169f5cb05c3d0d95f4e523c8e7f5bbab16edb7535d2c9b12eae`。恢复副本为`book-statements.jsonl.bak-s2-chp5-p133-20261012`、`entity-candidates.csv.bak-s2-chp5-p133-20261012`、`mentions.csv.bak-s2-chp5-p133-20261012`。
+
+写后全库13,404条statement（true 6,456、false 2,407、unset 4,541）、11,783 candidates、27,740 mentions；9,159条双端statement中6,380 true、539 false、2,240 unset，76条true仍缺至少一端。严格表审计`errors=[]`、`s2_missing=[]`，保留两条既存enrichment `source_ref`警告；关系审计五类硬错误为0，诊断135个零关系KU及1个超连接KU；卡片预检1,019张卡、2,608张表、10,149行、`files_to_write=0`。此前章节结果将p.133列为complete，但三表中17条均未分类；现已更正p.133结果，并把p.134、p.135、p.136的旧提取记录明确标成语义待复核（分别14、20、23条unset）。当前顺序游标为p.134正文`chp-5:05_CHP-5_sec_iii:l20-26`；全书S2交接未完成。
+
+p.133写回及结果更新后全量同步闭合9/9通过：303 tests与2个subtests通过；结构契约130/130、Skill注册8/8、项目规则契约4/4。
+
+## 第五章印刷页134正文与注释L130–133语义复核（2026-10-12）
+
+对照来源`02-sources/02-Markdown/05_CHP-5_sec_iii.md`（SHA-256 `9b095b1a93570102ad2cdb117580f2fbeccd2ff017033a2f66557c58a0d1ef0a`）、正文段`chp-5:05_CHP-5_sec_iii:l20-26`（段SHA-256 `75ca5d81ada4ae3a81e8096bfb49752c7db39763799d21e2c21d77abd8a507c3`）、注释段`chp-5:05_CHP-5_sec_iii:l126-165`（段SHA-256 `183b8dbbc0e05624d35d19fdc7f140e588145c5503bbd898b15c65a77e3c58c8`）、`CHP-5.pdf`（SHA-256 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`）及页图`process/p134_page_review_20261012.png`（SHA-256 `54d3bacbe3e32303bf5a23dfba599ca7282233f6a5de1485e750e760ce414a58`）。页图核实`hills`、`within`、`one palmo (22½ cm.)`、`his`、`in`、`himself`、`painting`、`ordinary`、`this`、`life`、`which`、`grotesque`、`incidents`及`Annibale`；差异只记录于S2，不改写S0。p.133引文在L21闭合，p.134末句“But these”续至p.135，未把截断句扩展成完整结论。
+
+p.134正文14条既有statement全部分类（8条关系候选、6条非关系），新增13条原子statement（8条关系候选、5条非关系），合计27条（16条关系候选、11条非关系），0条未分类。将Van Laer本人引入意大利绘画新内容，与其及未名追随者共同带入新材料分开；新增追随者群候选`cand-11806`，不与全体Bamboccianti合并。Bassano与Caravaggio作为Bamboccianti可能先例分别表达；Bellori文本中的并列关联及Haskell对cultivated amateur的评价保留为非关系陈述。Caravaggio早期proletarian-model作品组`cand-11808`与晚期宗教画作品组`cand-11809`分开；其追随者群`cand-6123`与其作品组`cand-11811`分开，作品组通过“their work”精确mention承接与picaresque novel术语`cand-11807`的比较。另记录《The Beaneater》与Annibale的归属、Colonna gallery位置及未识别工作阶层素描组。将`cand-6121`类型由空值补为place。
+
+注释L130–133现有4条statement均完成分类：Doni引文与续注为非关系；Rosa《Della Pittura》及Passeri p.72引用为关系候选。新增note 1书目关系statement `st-chp5-notes-l130-doni-citation`，将Haskell本书对G. B. Doni卷II、p.16的指引连至开放archive候选`cand-11810`；不推定书名或版本。p.134正文Doni句分别链接注1引文与书目关系statement；Van Laer shepherds的pastoral contrast链接注4续引。注释L130–133共5条statement，3条关系候选、2条非关系。未改`relations.csv`或建立S6正式边。
+
+受控脚本`process/classify_s2_chp5_p134_20261012.py`核验来源、PDF、页图、段哈希、目标记录前态、候选ID、引文子串和mention范围。首次dry-run发现更新项初始化、Doni citation重复加入及两处mention跨度等脚本缺陷，并发现Rosa诗句statement锚点错到L21；全部修正后dry-run通过，再执行一次受控写回。写前三表SHA-256为statement `b0163b24ffdacc3871e086b5df79380eccf4f3d87aeaaf9fd76b6b3f72e45b81`、candidate `e0d5ccdb53d6f3b7a8d69ec334467745c75310249c2e32f2ca51eee7391a969e`、mention `f6403bd6b6f81169f5cb05c3d0d95f4e523c8e7f5bbab16edb7535d2c9b12eae`。原始写回恢复副本分别为`book-statements.jsonl.bak-s2-chp5-p134-20261012`、`entity-candidates.csv.bak-s2-chp5-p134-20261012`、`mentions.csv.bak-s2-chp5-p134-20261012`，与写前哈希一致。首轮严格表审计指出新Doni候选的`candidate_origin=footnote-citation`不符合schema；将其修正为`body-mention`，`candidate_source_ref`保持注释段L130，并保存修正前恢复副本`entity-candidates.csv.bak-s2-chp5-p134-origin-fix-20261012`（SHA-256 `a55f5fb6da07086f6e284f5f982fc481062188e5b9bff1184142309a1353549a`）。最终写后SHA-256为statement `7679e83abed813b29c2d0df17b96764e75cbf571e974eeadf0cc5a4fb97567ea`、candidate `f1c0246d94e2a415e5f0667eb322fa38e5498d83b0400d8b0e666f7719771e99`、mention `a4a465d366cf3038f4d1e094780491d1a457b48bc0224f90e6d8cdfe3bc99c03`。
+
+写后全库13,418条statement（true 6,474、false 2,420、unset 4,524）、11,789 candidates、27,745 mentions；9,168条双端statement中6,398 true、539 false、2,231 unset；76条true候选仍缺至少一端。`audit_tables.py --strict-stage --summary`首轮指出origin枚举问题，修正后`errors=[]`、`s2_missing=[]`，仅保留既存enrichment警告`enr-06678`、`enr-06937`及语义检查提示。关系一致性审计五类硬错误0，诊断135个零关系KU与1个超连接KU；`build_cards.py --check`预检1,019卡、2,608表、10,149行、`files_to_write=0`。当前顺序游标移至p.135正文段`chp-5:05_CHP-5_sec_iii:l28-34`（20条既有statement待分类）；p.136另有23条待分类。全书S2交接仍未完成。
+
+## 2026-10-12：全书S2状态对账—书前标题及版权页
+
+全库`book-statements.jsonl`状态盘点发现，按源段顺序位于原p.135游标之前仍有684条statement未写`qualifiers.relation_candidate`，涉及书前材料、第1–4章及第5章前段共92个源段。部分相关段已有旧任务的完整阅读/迁移记录，故这些空值代表当前关系裁决字段尚未对账，不能单凭空值认定未读；也不能把旧章节完成标签当作字段已分类。全库原unset 4,524条。最早未分类源段为`front-matter:00_01_Title_Copyright:l3-12`，紧接`l14-29`。
+
+按规范来源`02-sources/02-Markdown/00_01_Title_Copyright.md`逐项对照（文件SHA-256 `75dfb1077cb870473ecb3a5576fe6b5ef5b2d244bfe43dc55d884d66ebfe1c32`；段SHA-256分别为`11f29ceeb14f079c9b5f2b1168a0c1d98b5c4934ad3d09889ab0b0df15f85329`和`a534ca68ef97050c4c5287d66dd7086a020f2618d27e5a8a4167438aa678bc17`），将6条旧statement判为非关系：修订版描述、版次年份、2006印次、图书馆目录分类/控制号、书目/索引内容说明、ISBN。它们均为书目属性，不表达实体间关系；没有改写原句、端点、候选、mention、coverage或来源文本。
+
+受控写回前验证6个statement ID、字段为空态、原文引句及源行范围；dry-run通过。`book-statements.jsonl`写前SHA-256 `7679e83abed813b29c2d0df17b96764e75cbf571e974eeadf0cc5a4fb97567ea`；恢复副本`04-knowledge/tables/book-statements.jsonl.bak-s2-fm-title-copyright-20261012`与写前哈希一致。写回仅新增6条`relation_candidate=false`及对应理由，写后SHA-256 `c5de62756362694095c779c7040a1a104abbc7069621d2bdd21d90932c50f65b`。总statement数不变；分类更新为true 6,474、false 2,426、unset 4,518；p.135之前仍有678条unset、分布90段。下一空值位于`front-matter:00_02_Preface_2nd_Ed:l3-8`。
+
+写后`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`；既存enrichment来源警告`enr-06678`、`enr-06937`和语义质量提示仍在。关系一致性五类硬错误为0；卡片预检1,019卡、2,608表、10,149行、`files_to_write=0`。`git diff --check`通过，仅有LF/CRLF提示。本批未重跑全量同步闭合；不改`relations.csv`，不写S6正式边。
+
+
+## 2026-10-12：全书S2状态对账—第二版序言
+
+对照规范来源`02-sources/02-Markdown/00_02_Preface_2nd_Ed.md`（SHA-256 `8de19ec8cbf405958ad3c47f1cf4023a18a4fce8323e3e34b93ad36dfed3d7d0`）与段`front-matter:00_02_Preface_2nd_Ed:l3-8`（SHA-256 `e5d7bd5337ab4d00b55be362364effa920c7d845fac683b0db017e61a0f123f8`），按statement原文及既有语境逐条核对原有12条unset。`st-fm-b2-bibindex`、`st-fm-b2-exclusions`、`st-fm-b2-firstpub`、`st-fm-b2-keepup`、`st-fm-b2-literature`、`st-fm-b2-revision`分别属于书目结构、作品取舍、出版年、作者阅读自评、领域史评价和修订安排，已写`relation_candidate=false`及范围说明。`st-fm-b2-apology`、`st-fm-b2-corrections`、`st-fm-b2-discoveries`、`st-fm-b2-impression`、`st-fm-b2-intro`、`st-fm-b2-postscript`涉及未具名对象或尚未拆清的作品/出版物端点，保持unset，未造候选或正式关系。
+
+受控写回前核验12个statement ID、目标前态、原文引句和源行范围；仅对上述6条写入非关系状态及说明。`book-statements.jsonl`写前SHA-256 `c5de62756362694095c779c7040a1a104abbc7069621d2bdd21d90932c50f65b`；恢复副本`04-knowledge/tables/book-statements.jsonl.bak-s2-fm-b2-status-20261012`与写前哈希一致；写后SHA-256 `6f8dba570a202e3df0e79c0b8ff1282305e7feb7fa2724db0a3edb9ce2a9bb8c`。写后全库13,418条statement：true 6,474、false 2,432、unset 4,512；双端statement计数不变（true 6,398、false 539、unset 2,231）。p.135之前剩余672条unset、90个源段；当前第一处未决仍为本段6条。未新增statement、candidate、mention或正式S6关系。
+
+写后`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`，保留既存enrichment警告`enr-06678`、`enr-06937`及语义质量提示；关系一致性五类硬错误为0，另有135个孤立KU和1个超连接KU诊断；`build_cards.py --check`预检1,019卡、2,608表、10,149行、`files_to_write=0`，未写卡片。此次状态对账未重跑全量同步闭合。
+
+
+## 2026-10-12：全书S2状态对账—第二版序言未决statement
+
+依据来源`02-sources/02-Markdown/00_02_Preface_2nd_Ed.md`（文件SHA-256 `8de19ec8cbf405958ad3c47f1cf4023a18a4fce8323e3e34b93ad36dfed3d7d0`；段`front-matter:00_02_Preface_2nd_Ed:l3-8` SHA-256 `e5d7bd5337ab4d00b55be362364effa920c7d845fac683b0db017e61a0f123f8`），复审该段剩余6条statement。六条均包含明确的关系性主张，已设`relation_candidate=true`并添加边界说明：Haskell向未具名作者/读者致歉；本书修订始于1966年意大利版；1963年仅由文献得知的部分绘画后来出现并有复制品加入原插图；Haskell对唯一重大批评的主观判断；新导言回应该批评所指问题；后记评论与本书主题相关的新出版物。没有把作者对学术状况的印象写成独立外部共识，也没有将未具名批评、读者、作者、绘画或出版物推定为具体对象。
+
+`st-fm-b2-corrections`的“1966年意大利版”是来源明示且与本书版本史有关的独立出版物端点，新增开放archive候选`cand-11812`，mention `m-fm-b2-italian-edition-1966`精确锚定段内字符跨度`[980,1003)`。候选名称只表达书名关联、意大利版及1966年；原文未给出的版名、出版社、出版地均未补造，身份对齐留S3。其余五条关系候选缺乏可独立识别的目标，写入`open_endpoint_reason`保持端点开放，不新增泛化群组候选。未新增正式S6关系或KU。
+
+写回前恢复副本：`book-statements.jsonl.bak-s2-fm-b2-relations-20261012`、`entity-candidates.csv.bak-s2-fm-b2-relations-20261012`、`mentions.csv.bak-s2-fm-b2-relations-20261012`，各自哈希与写前文件一致。写前三表SHA-256依次为`6f8dba570a202e3df0e79c0b8ff1282305e7feb7fa2724db0a3edb9ce2a9bb8c`、`f1c0246d94e2a415e5f0667eb322fa38e5498d83b0400d8b0e666f7719771e99`、`a4a465d366cf3038f4d1e094780491d1a457b48bc0224f90e6d8cdfe3bc99c03`；写后SHA-256依次为`f2229c8cec8ae3b23dc1c44c286a7887f41812fcd63a50f6d74d33ebdea017e2`、`975caa4c28f398dadb4161d37949757557222f5daaebad8427e972e0c8be79ba`、`b816b22884bc1257c2c9e9b1bf9e6b3f297fdfd92ece7c7a85d42e090d8f1653`。全库statement仍为13,418条（true 6,480、false 2,432、unset 4,506）；候选11,790、mention 27,746；双端statement 9,169条（true 6,399、false 539、unset 2,231），81条true候选至少缺一端。p.135之前剩余666条unset、89段；下一段为第一版序言`front-matter:00_03_Preface_1st_Ed:l3-8`。
+
+写后严格表审计`errors=[]`、`s2_missing=[]`，仅保留既存enrichment来源警告`enr-06678`、`enr-06937`及语义质量提示；关系一致性五类硬错误均为0，诊断135个孤立KU和1个超连接KU；卡片预检1,019张卡、2,608张表、10,149行、`files_to_write=0`，未写卡片。此批次未重跑全量同步闭合。
+
+
+## 2026-10-12：第一版序言p.v–vii关系状态与分组复核
+
+对照规范来源`02-sources/02-Markdown/00_03_Preface_1st_Ed.md`（SHA-256 `e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`）和段`front-matter:00_03_Preface_1st_Ed:l3-8`（SHA-256 `8944577715ae630432869a25801578dd86b91448e0b0880c449ea5efcd351afa`），核对原有4条unset。`st-fm-c1-compromise`记录作者解释其选材方法与折衷所得模式，`st-fm-c1-space-merit`比较篇幅分配与作者所评作品价值；两者均标为非关系，不转成作品间关系。
+
+`st-fm-c1-patron-types`原来把两个赞助人类别合并在一条声明中。现将其改为“中段纳入外来赞助人”并保留原ID；新增`st-fm-c1-patron-types-provincial-collectors`记录“中段纳入偏远省镇收藏者”。分别建立来源限定的term候选`cand-11813`（外来赞助人）与`cand-11814`（省镇收藏者），mention精确锚定`[2753,2767)`和`[2849,2908)`。二者均不与章节中其他外来群体或省区实体合并。
+
+`st-fm-c1-understudied`现聚焦于Haskell认为某些未受充分研究的男性与组织为后续艺术发展铺路这一来源判断；主体映射到新term候选`cand-11815`，mention `m-fm-c1-p3-8-understudied-groups`锚定`[1390,1416)`。群体成员和具体后续发展均未具名，发展端点保持开放。原句“the method I have adopted is the correct one”另建`st-fm-c1-method-judgment`并标为非关系，避免把作者的自我评价混入群体贡献关系。无外部身份对齐、KU登记或正式S6关系。
+
+写回前恢复副本`book-statements.jsonl.bak-s2-fm-c1-p3-8-20261012`、`entity-candidates.csv.bak-s2-fm-c1-p3-8-20261012`、`mentions.csv.bak-s2-fm-c1-p3-8-20261012`均与写前表哈希一致。写前三表SHA-256为`f2229c8cec8ae3b23dc1c44c286a7887f41812fcd63a50f6d74d33ebdea017e2`、`975caa4c28f398dadb4161d37949757557222f5daaebad8427e972e0c8be79ba`、`b816b22884bc1257c2c9e9b1bf9e6b3f297fdfd92ece7c7a85d42e090d8f1653`；写后为`44c9f93ecc1ef07a880d5a6b901087bbd4b0f611d4f2eead120ff378f31f61c8`、`24dc91a01f753e2aa75862232e4e097bdba20af724fd6210bd02f79bd12ebf7d`、`5f8898b5ddf11218916c9e3d6731fe33fb90ba5892ebd2d1d1e5e83f86d6ba40`。全库现13,420条statement（true 6,483、false 2,435、unset 4,502）、11,793个candidate及27,749条mention；双端statement 9,171条（true 6,401、false 539、unset 2,231），82条true候选至少缺一个端点。p.135之前剩余662条unset、88段；当前下一项为`front-matter:00_03_Preface_1st_Ed:l10-17`。
+
+写后`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`；仍有既存enrichment警告`enr-06678`、`enr-06937`及语义质量提示。关系一致性五类硬错误为0，另有135个孤立KU与1个超连接KU诊断；`build_cards.py --check`预检1,019张卡、2,608张表、10,149行、`files_to_write=0`，未写卡片。此批次未重跑全量同步闭合。
+
+
+## 2026-10-12：第一版序言l10–17关系候选裁决
+
+对照规范来源`02-sources/02-Markdown/00_03_Preface_1st_Ed.md`（SHA-256 `e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`）和段`front-matter:00_03_Preface_1st_Ed:l10-17`（SHA-256 `1caebe49f2b5f4361352d1d35ae173890789645a01143860650a12ea6df25602`），逐条复核7条未分类statement。`st-fm-c2-beyond-painting`、`st-fm-c2-ferdinand-exception`、`st-fm-c2-illustrations`、`st-fm-c2-later-narrative`、`st-fm-c2-no-laws`和`st-fm-c2-short-chapters`标为关系候选，保留作者观点、条件限定与原文语境；其中宽泛艺术门类、插图/论述对应和风格因果端点不具体，维持开放。`st-fm-c2-synthesis-hope`标为非关系：它记录作者对后续研究者的期待，不是已断言的历史实体关系。
+
+为“great metropolitan patrons”建立来源限定的开放term候选`cand-11816`，作为Ferdinand味觉比较的群体端点；mention `m-fm-c1-p10-17-metropolitan-patrons`锚定`[249,279)`。候选仅表达原文未具名的比较群体，不推定成员。此批未新增statement、KU或S6正式关系。
+
+受控写回前恢复副本`book-statements.jsonl.bak-s2-fm-c1-p10-17-20261012`、`entity-candidates.csv.bak-s2-fm-c1-p10-17-20261012`、`mentions.csv.bak-s2-fm-c1-p10-17-20261012`均与写前文件哈希一致。写前三表SHA-256为statement `44c9f93ecc1ef07a880d5a6b901087bbd4b0f611d4f2eead120ff378f31f61c8`、candidate `24dc91a01f753e2aa75862232e4e097bdba20af724fd6210bd02f79bd12ebf7d`、mention `5f8898b5ddf11218916c9e3d6731fe33fb90ba5892ebd2d1d1e5e83f86d6ba40`；写后为statement `e7cc8c76c029da9423b07834ea3a225acce114a8d303fa4cf21bb026258a853c`、candidate `cf1e7b1ecb4606852ba7892e31f06c3465bb3e506368f40bd9c5f224e4659afe`、mention `4db682af3907e5c6f00bb2ed9b15e04a385d80df749e66d6357a0da7812008b8`。
+
+写后全库13,420条statement（true 6,489、false 2,436、unset 4,495）、11,794个candidate及27,750条mention；9,174条双端statement中6,404 true、539 false、2,231 unset，85条true候选至少缺一端。游标前剩余655条unset、87段，当前最早未决为`front-matter:00_03_Preface_1st_Ed:l19-29`（7条）。写后全库S2严格表审计、关系一致性审计及卡片只读预检通过；审计详情以本轮复核输出为准。全书S2仍未交接，未进入S3。
+
+
+## 2026-10-12：第一版序言l19–29关系状态对账与匿名群体锚定
+
+对照规范来源`02-sources/02-Markdown/00_03_Preface_1st_Ed.md`（SHA-256 `e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`）和段`front-matter:00_03_Preface_1st_Ed:l19-29`（SHA-256 `e6cf252331b6e5f64eaf1518f9de020715a229a9a040834f1d0214f4b1ab73f0`），逐条复核7条未分类statement。`st-fm-c-preface-conversations-overview`、`st-fm-c-preface-friends-in-italy-england`、`st-fm-c-preface-italian-colleagues-acknowledged`、`st-fm-c-preface-libraries-archives-kindness`标为关系候选：分别保留未具名谈话对象、意大利与英格兰朋友群及“许多人”提供帮助的限定、五位已映射意大利同事的集体致谢、以及原书后文所指图书馆/档案馆的宽泛访问与善意表述。布伦特、利维等具名谈话关系和Warburg Institute Library的具体支持已由本段其他statement记录，未重复猜定为这些宽泛陈述的唯一对象。`st-fm-c-preface-field-position`、`st-fm-c-preface-research-difficulty`、`st-fm-c-preface-value-of-attempt`标为非关系：分别是作者对书籍跨学科位置、跨领域研究难度及个人写作体验的自述，不据此建立实体边。
+
+为“large number of friends”登记开放、未定类型候选`cand-11817`，名称为“Haskell’s unnamed friends in Italy and England (source-defined group)”。mention `m-fm-c-preface-066`精确锚定段内`[535,558)`。原文没有给出成员、人数，也没有说明哪些朋友提供了帮助；候选不把相邻列名的致谢对象自动并入。conversation overview与libraries/archives statements因对象集合未被该句枚举，保留`open_endpoint_reason`；意大利同事statement通过`mentioned_candidate_ids`保留五个已有候选，且不把集体致谢扩成每个人的具体贡献。没有新增KU或正式S6关系，也未修改来源文本。
+
+受控写回前恢复副本`book-statements.jsonl.bak-s2-fm-c1-p19-29-20261012`、`entity-candidates.csv.bak-s2-fm-c1-p19-29-20261012`、`mentions.csv.bak-s2-fm-c1-p19-29-20261012`均与写前文件哈希一致。写前三表SHA-256依次为`e7cc8c76c029da9423b07834ea3a225acce114a8d303fa4cf21bb026258a853c`、`cf1e7b1ecb4606852ba7892e31f06c3465bb3e506368f40bd9c5f224e4659afe`、`4db682af3907e5c6f00bb2ed9b15e04a385d80df749e66d6357a0da7812008b8`；写后为`dd53da89494cb75bc6187f358e402cd2550f6f97e1996ee5df5a5ad88fce5bc3`、`4cc5a5578b89d513a3f377040feedc68b58348c166f304167f1e27065cd183d3`、`8b053b52f009be27aa2f5f6f9ef18c66d92553a3e9249a0dd8833a2daff669b7`。
+
+写后全库13,420条statement（true 6,493、false 2,439、unset 4,488）、11,795个candidate及27,751条mention；9,175条双端statement中6,405 true、539 false、2,231 unset，88条true候选至少缺一端。游标前剩余648条unset、86段，当前最早未决为`front-matter:00_05_List_of_Plates:l32-65`（2条）。`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`，仅保留既存两条enrichment来源警告及语义质量提示；关系一致性五类硬错误均为0，诊断135个孤立KU和1个超连接KU；`build_cards.py --check`预检1,019卡、2,608表、10,149行、`files_to_write=0`，未写卡片。全书S2仍未交接，未进入S3。
+
+## 2026-10-12：图版目录与第一章首段关系状态对账
+
+复核依据为02-sources/02-Markdown/00_05_List_of_Plates.md（SHA-256 96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83）和第一章分节来源02-sources/02-Markdown/01_CHP-1_sec_i.md（SHA-256 fb6198d0392e70a23a2d9ed05c0d432d4466de4ba75cc96762e3b4e45a204c40）。图版目录段哈希依次为：l32-65 5f82980ede7ea866a397dad977969665104f6e56444b00cf829bbb24c4426a8c，l83-118 debb1d2752997be33db63891b529b946f6b4ca38c50cd059c3df7a52c847873f，l123-138 99895d582375332bdf53442ec47932b60c932b147270c1583d8c187ef9f3be0e，l140-172 16b5be546aa8ed1bb7a59a16db3c2a20ec327a95d95da393a83d55584734b3e6。
+
+图版目录四段逐条对账：l32-65的st-fm-pl-p06-date及st-fm-pl-p10a-title为题注日期和作品题名/内容，不是独立关系；l83-118的st-fm-pl-p33b-space是建筑空间类别说明，另有statement承担位置和宫殿内空间关系；l123-138的p.51、57a、57b年份为题注/版本书目属性，均标非关系，并把57a、57b年份statement主体校正到相应archive版本候选；l140-172的供图通用兜底说明和未具名Doges题注内容标非关系，Stearn and Son对plate 55的供图与68a作品的匿名Private Collections标关系候选，两个未能识别的工作/收藏端点保留开放。后四段未新增候选或mention。
+
+四段statement表写回按书序串行完成。每段恢复副本分别为book-statements.jsonl.bak-s2-fm-plates-l32-65-20261012、book-statements.jsonl.bak-s2-fm-plates-l83-118-20261012、book-statements.jsonl.bak-s2-fm-plates-l123-138-20261012、book-statements.jsonl.bak-s2-fm-plates-l140-172-20261012，写前SHA-256均与各自备份一致；statement表哈希链为dd53da89494cb75bc6187f358e402cd2550f6f97e1996ee5df5a5ad88fce5bc3 → 4bd463fd7a199329c2595fae5cffa2e49037df7515bd14254a1b34d2d68b891b → 08623331b468e23ecb38beaa82e2970c89202fde6ccdbbdb524eda7c8e271920 → c0a0a4571e8e07a2a619146bd92f33a2570cea7a99e70849929dc21f7c62f969 → 1d28aacab7fd4fe5ff248156a3e5cd18455642823f571cfa8e4d0d7c8dce0de7。
+
+按segments.jsonl顺序重新核对第一章首段chp-1:01_CHP-1_sec_i:l3-13（segment SHA-256 41b7957cf5b7396cb2bf948142f957259f0ee928eac86de3ffb801d118b032fa）。旧过程记录只裁决了Passeri、Rome/Urban VIII背景和Coke意见3条非关系；当前表仍有6条空状态。现将Urban VIII的赞助阶段periodization、反宗教改革及实验环境、Urban VIII统治的双重效果、教皇与侄辈对时尚影响列为关系候选；将概括性的赞助实践清单和单一教皇的角色张力标为非关系，分别避免把清单强配到个别赞助人、把同一人的角色对照转成实体边。为原文明确的“Popes and their nephews”群体新增开放term候选cand-11818及精确mention m-chp1-seci-0108，跨度[1620,1647)；该候选仅限Haskell此处定义的罗马赞助群体，与cand-4988保持区分。关系候选中未具名的阶段、历史条件、宽泛效果和时尚/多样性对象继续保留开放；未新增statement、KU或S6正式关系。
+
+第一章首段写回前statement/candidate/mention SHA-256分别为1d28aacab7fd4fe5ff248156a3e5cd18455642823f571cfa8e4d0d7c8dce0de7、4cc5a5578b89d513a3f377040feedc68b58348c166f304167f1e27065cd183d3、8b053b52f009be27aa2f5f6f9ef18c66d92553a3e9249a0dd8833a2daff669b7；恢复副本为book-statements.jsonl.bak-s2-chp1-p3-13-20261012、entity-candidates.csv.bak-s2-chp1-p3-13-20261012、mentions.csv.bak-s2-chp1-p3-13-20261012。写后SHA-256分别为1a4b982c1ce295d530571fb0f1709ac2a9bfddb2c186bc7d5fd330742f63b13f、f908a8ed90a2abc1e672fb5b754a21a49e7f882950f2844bdf0c19809beedafd、b2581c1374e20749e6a31b5cd34e04e582b03e5236394e2a32692a839c561a23。此段6条现为4条关系候选、2条非关系；连同此前状态，该段11条全部已分类。
+
+合并上述图版目录和第一章批次后，全库13,420条statement：relation_candidate=true 6,499、false 2,449、unset 4,472；双端9,175条（true 6,405、false 539、unset 2,231），true候选至少缺一端94条。候选11,796、mention 27,752。audit_tables.py --strict-stage --summary通过（errors=[]、s2_missing=[]），只保留既存enrichment引用警告enr-06678、enr-06937及语义质量提示；关系一致性审计五类硬错误均为0，诊断135个零关系KU、1个超连接KU；build_cards.py --check为1,019卡、2,608表、10,149行、files_to_write=0，未写卡片。
+
+书前材料未分类状态已清零。原p.135工作游标范围仍有632条unset、81段（第1章132、第2章355、第3章70、第4章51、第5章前段24）；当前按规范segments.jsonl顺序的下一段为chp-1:01_CHP-1_sec_i:l15-24，9条未分类statement。第5章p.135及p.136的后续statement仍待处理；全书S2交接未完成。
+
+## 2026-10-12：第一章第一节L15–24关系状态续审
+
+重新按当前book-statements表状态核对segment chp-1:01_CHP-1_sec_i:l15-24（SHA-256 c9f47239d438c2b61316aa257d542644d243911ef124c889e244531a35006b31；分节来源SHA-256 fb6198d0392e70a23a2d9ed05c0d432d4466de4ba75cc96762e3b4e45a204c40）。2026-10-10过程条目已处理5条双端statement，但本轮对账发现该段另有9条relation_candidate空状态；逐条结合原文和现有mentions复核。
+
+st-chp1-l53-55-reiteration标为非关系：Haskell只是比较Urban VIII统治后对先前观点的重述力度，Urban仅为时间背景。其余8条为关系候选：政治更替/新家族对赞助模式的影响；历任教皇与随行亲族、朋友、客户的网络形成；该群体的建造与竞争行为；教皇死亡后地位和收入变化；Gregory XV引述中的侄辈处境；收入终止与首要赞助人地位终止；教廷随行贵族的地域认同；以及Annibale Carracci之后画家的入行模式。对一般化活动保留来源限定，不推定具体任职者、建筑、收入、画家或枢机。
+
+为有明确原文边界的集合新增4个开放term候选和非重叠mention：cand-11819“successive popes的亲族、朋友和客户”m-chp1-seci-0109 [409,439)；cand-11820“教皇侄辈在叔父去世后的处境”m-chp1-seci-0110 [1128,1143)；cand-11821“教廷随行贵族”m-chp1-seci-0111 [1560,1597)；cand-11822“追随Annibale Carracci自Bologna而来的重要画家群”m-chp1-seci-0112 [2587,2626)。四组成员均未具名；不与cand-11818、cand-5010或cand-11762合并。statement端点按可支持范围连接到群体候选，其余历任教皇、特定职位、艺术家、建筑和结果端点保持开放。未新增statement、KU或S6关系。
+
+写回前statement/candidate/mention SHA-256分别为1a4b982c1ce295d530571fb0f1709ac2a9bfddb2c186bc7d5fd330742f63b13f、f908a8ed90a2abc1e672fb5b754a21a49e7f882950f2844bdf0c19809beedafd、b2581c1374e20749e6a31b5cd34e04e582b03e5236394e2a32692a839c561a23；恢复副本为book-statements.jsonl.bak-s2-chp1-p15-24-20261012、entity-candidates.csv.bak-s2-chp1-p15-24-20261012、mentions.csv.bak-s2-chp1-p15-24-20261012。写后SHA-256分别为7722d40faf73478ba4e3143f6e7f05c1887ca54ba0360c20e5fb4c4e4f8fc384、49edbe4902f6463cdce9cc2350eb242de3c82a6f157232afdbdedec0ae3533f3、7486cad92c49438d5239009c62d10aa0095e669010ab2505841281ae8585163d。
+
+写后全库13,420条statement，relation_candidate=true 6,507、false 2,450、unset 4,463；双端9,175条（true 6,405、false 539、unset 2,231），true候选至少缺一端102条；候选11,800、mentions 27,756。audit_tables.py --strict-stage --summary通过，errors=[]、s2_missing=[]；仍有既存enrichment引用警告enr-06678、enr-06937和语义质量提示。关系一致性五类硬错误均为0；诊断135个零关系KU和1个超连接KU。build_cards.py --check为1,019卡、2,608表、10,149行、files_to_write=0，未写卡片。
+
+按S0 segments.jsonl顺序，下一段为chp-1:01_CHP-1_sec_i:l26-33，6条unset。书前材料未分类状态保持清零；原p.135工作游标范围仍有623条unset、80段（第1章123、第2章355、第3章70、第4章51、第5章前段24）。第5章p.135及p.136后续statement仍待处理；全书S2交接未完成。
+
+
+## 2026-10-12：第一章第一节L26–33关系状态与候选修正
+
+对照规范段`chp-1:01_CHP-1_sec_i:l26-33`（segment SHA-256 `159cdfe11b59f8c8197cea76168d11f6cc7ab7f5e5155e5795af86a2176b1ce0`；分节来源SHA-256 `fb6198d0392e70a23a2d9ed05c0d432d4466de4ba75cc96762e3b4e45a204c40`），逐条复核6条旧unset：`st-chp1-l101-104-career-commissions`与`st-chp1-l105-110-career-independence`记录未具名赞助人、画家群、客户与作品间的典型委托/职业发展关系；`st-chp1-l111-117-sites`记录罗马现代艺术的地点分布及教皇监督、枢机与贵族家族维护教堂的概述；`st-chp1-l125-131-new-churches`记录贵族兴建新教堂、作者对新修会与宗教改革的解释及罗马外来社群的竞争；`st-chp1-l131-136-building-and-heirs`记录工期、造价、发起人/继承人兴趣变化与小堂装饰处置；`st-chp1-l137-138-rivalry`记录枢机间竞争对承接他人教堂小型工程的抑制。六条均设`relation_candidate=true`，保留Haskell的一般化、频率和因果限定，不补造实际交易或个人。原已分类的`st-chp1-l117-124-church-types=false`与`st-chp1-l139-141-montalto-quote=true`未改；本段8条statement现全部分类（7 true、1 false）。
+
+移除`st-chp1-l111-117-sites`误挂的Annibale Carracci主体，以及`st-chp1-l125-131-new-churches`误挂的Rome主体；前者保持未界定的整体地点模式，后者保留Rome为语境。前两条career statement分别将画家端点接至既有来源限定群体`cand-11822`，赞助人、具体客户、作品和场地仍开放。为`the artist`与`newly arrived painter`新增mention `m-chp1-seci-0113`和`m-chp1-seci-0114`；将`m-chp1-seci-0055`从Bologna地点改映射至`cand-11822`并扩展为精确表面`Bolognese painters`。
+
+为原文所指罗马外来社群新增开放term候选`cand-11823`（“Various foreign communities in Rome”）及精确mention `m-chp1-seci-0115`（`[2279,2318)`）；另新增`cand-11824`（Florentine community in Rome），将既有mention `m-chp1-seci-0074`从城市Florence改为此社群。`cand-3407`“Lombards in Rome”类型补为term。修会、Florentines与Lombards仅保留为原文举例，不据此构造正式边。未新增statement、KU或S6关系。
+
+来源文本存在一处登记差异：分节来源`01_CHP-1_sec_i.md`写`his family palace`，statement所登记的全文来源`01_CHP-1.md`（SHA-256 `2c99c1b372f756b1482d746f5714fe930b538118792b52a3de0834f585d4f3fb`）对应行仍写`Iris family palace`。为保持`original_quote`与当前登记来源及机械校验一致，本批未改引文或来源资产；该跨文件差异待后续来源定位治理。
+
+写回前statement/candidate/mention SHA-256分别为`7722d40faf73478ba4e3143f6e7f05c1887ca54ba0360c20e5fb4c4e4f8fc384`、`49edbe4902f6463cdce9cc2350eb242de3c82a6f157232afdbdedec0ae3533f3`、`7486cad92c49438d5239009c62d10aa0095e669010ab2505841281ae8585163d`；恢复副本为`book-statements.jsonl.bak-s2-chp1-p26-33-20261012`、`entity-candidates.csv.bak-s2-chp1-p26-33-20261012`、`mentions.csv.bak-s2-chp1-p26-33-20261012`。写后SHA-256分别为`9f7619c29b3ceb77d64efeb73e60e931bdef0147c3f0c0cc3c3e4ce816b89458`、`9b22a6fc372090f10f434add3c81d9e95e640f749220373caac430056c16e3dd`、`b4aeb2501cf76da39599df6b830b28893920b6a062c50f3c3592d9c743281101`。
+
+写后全库13,420条statement：relation_candidate=true 6,513、false 2,450、unset 4,457；双端statement 9,175（true 6,405、false 539、unset 2,231），108条true候选至少缺一端；candidate 11,802、mention 27,759。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；仅保留既存enrichment引用警告`enr-06678`、`enr-06937`及语义复核提示。关系一致性检查的断边、非法类型、缺失反向、弱证据和未基线通用证据均为0；诊断135个零关系KU及1个超连接KU。旧p.135工作游标范围余617条unset、79段（第1章117、第2章355、第3章70、第4章51、第5章前段24）。下一段按`segments.jsonl`顺序为`chp-1:01_CHP-1_sec_i:l35-36`（2条unset）；全书S2交接未完成。
+
+
+## 2026-10-12：第一章第一节L35–36关系状态与画家群建模
+
+对照规范段`chp-1:01_CHP-1_sec_i:l35-36`（segment SHA-256 `144576b6f1a130d0ff72352390a013b92e6af49aba5da5a5b7f99fab0cdf2f32`；分节来源SHA-256 `fb6198d0392e70a23a2d9ed05c0d432d4466de4ba75cc96762e3b4e45a204c40`），该段共有3条statement：`st-chp1-l147-montalto-plan-continuation`原已标为关系候选并保持不变；将`st-chp1-l148-150-patron-profile`和`st-chp1-l150-152-old-church-art`两条unset均判为关系候选。前者保留“much more usually”及Haskell的因果归纳，连接未具名的新教堂赞助人群、其与当时最前沿画家的距离、及其对成熟画家的依赖；后者保留“约1620年一位见多识广的旅行者会发现”的推断语气，记录最好的现代绘画多在最古老教堂这一空间分布判断，不把它改写成实际旅行者调查或外部核实事实。
+
+为前一关系新增3个开放term候选：`cand-11825`（富有但政治地位不高的新教堂赞助人群）、`cand-11826`（承接新教堂装饰的成熟画家群）、`cand-11827`（作为对照的当时最前沿画家群），分别新增精确mention `m-chp1-seci-0116` `[141,184)`、`m-chp1-seci-0118` `[292,319)`、`m-chp1-seci-0117` `[217,247)`。前两者作为泛化关系端点，成员未具名；最前沿画家群仅作对照提及。旧教堂中的绘画分布statement不再把Rome误设为艺术品主体，Rome仅作为语境mention。未新增statement、KU或S6关系。
+
+写回前statement/candidate/mention SHA-256分别为`9f7619c29b3ceb77d64efeb73e60e931bdef0147c3f0c0cc3c3e4ce816b89458`、`9b22a6fc372090f10f434add3c81d9e95e640f749220373caac430056c16e3dd`、`b4aeb2501cf76da39599df6b830b28893920b6a062c50f3c3592d9c743281101`；恢复副本为`book-statements.jsonl.bak-s2-chp1-p35-36-20261012`、`entity-candidates.csv.bak-s2-chp1-p35-36-20261012`、`mentions.csv.bak-s2-chp1-p35-36-20261012`。写后SHA-256分别为`154c4f236275c4bf3540e093b2bc963e3abb7c66e79abe3bf59b53fd4676b6b0`、`6e406dcef759c8d7ada5dcbdf0ee9af8e1507bcac5c656511a70fcfd63ba682d`、`8cb8b439101ba24539780311fab2f1de4aa70df8118697e093f7a4a1c7553b6a`。
+
+写后全库13,420条statement：relation_candidate=true 6,515、false 2,450、unset 4,455；双端statement 9,176（true 6,406、false 539、unset 2,231），109条true候选至少缺一端；candidate 11,805、mention 27,762。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；保留既存enrichment来源警告`enr-06678`、`enr-06937`及语义复核提示。旧p.135工作游标范围余615条unset、78段（第1章115、第2章355、第3章70、第4章51、第5章前段24）；下一段为`chp-1:01_CHP-1_sec_ii:l3-8`（9条unset）。全书S2交接未完成。
+
+
+## 2026-10-12：第一章第二节L3–8关系状态续审
+
+依据规范段`chp-1:01_CHP-1_sec_ii:l3-8`（segment SHA-256 `99c88a4e0141dc67871c10cca9157ea1a33e78f1d02e14808123ea745ba58440`；分节来源SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），该段9条原有statement全部为unset。逐条判为关系候选：赞助人专属雇佣与无指定去向的公开售画构成赞助模式光谱；中介角色连接两端；中间阶段随17世纪推进而日益重要；艺术家通常不喜欢面向未知仰慕者的自由创作、展览多被视为失业者最后手段（保留少数例外）；`servitù particolare`所含定期雇佣、宫邸供养、月俸和作品市场价；赞助人按条件支付学习旅行费用；画家被视为王侯家户`famiglia`成员（非血缘亲属）；部分王侯可能授予`nostro pittore`职位及待遇；该职位在建筑师中较画家常见且王侯随从存在奖励等级。所有主张均保留来源归属、概括频率、条件或可能语气。
+
+第9条statement的句子跨至下一S0段`chp-1:01_CHP-1_sec_ii:l10-17`，该段开头完成为画家可通过晋升沿奖励等级上升；据此补足claim，不另造重复statement。把已有mention映射写入对应statement的`mentioned_candidate_ids`：展览售画与自我宣传`cand-3141`、中介/画商/鉴赏者/旅客/代理人`cand-3561`、`cand-3149`、`cand-3159`、`cand-3562`、`cand-3563`、`servitù particolare` `cand-3175`、旅行地与Correggio `cand-3417`、`cand-0852`、`cand-3401`、家户`cand-3160`、`nostro pittore` `cand-3171`。不新增candidate、mention、statement、KU或S6关系；具体雇主、艺术家、作品和旅程保持未命名/未证。
+
+写回前statement表SHA-256 `154c4f236275c4bf3540e093b2bc963e3abb7c66e79abe3bf59b53fd4676b6b0`，恢复副本`book-statements.jsonl.bak-s2-chp1-secii-p3-8-20261012`与写前哈希一致；写后`book-statements.jsonl` SHA-256 `c178d1ba51da409daf6b8e5fc78607152eea0623c8f08ffe589e39f00684905d`。candidate与mention表未改。
+
+写后全库13,420条statement：relation_candidate=true 6,524、false 2,450、unset 4,446；双端statement 9,176（true 6,406、false 539、unset 2,231），118条true候选至少缺一端；candidate 11,805、mention 27,762。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；既存enrichment引用警告`enr-06678`、`enr-06937`及语义复核提示仍在。旧p.135工作游标范围余606条unset、77段（第1章106、第2章355、第3章70、第4章51、第5章前段24）；下一段为`chp-1:01_CHP-1_sec_ii:l10-17`（9条unset）。全书S2交接未完成。
+
+
+## 2026-10-12：第一章第二节L10–17关系状态与保护群体建模
+
+对照规范段`chp-1:01_CHP-1_sec_ii:l10-17`（segment SHA-256 `a678453151b763f6a157472bf6393ec985feccc26d008c9a8e81c8a9dc6c124b`；分节来源SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），复核13条statement中的9条unset。将`st-chp1-secii-l10-17-02`至`-05`、`-07`、`-08`、`-11`至`-13`列为关系候选，分别保留作者对servitù particular的赞誉和限制、雇佣退出困难、艺术家知名度、赞助人鼓励门生、家族为门生取得教堂委托、国族竞争与出生地、礼貌和国籍对职位的影响、罗马政权变化对赞助前景的影响，以及艺术家对自由限制的保留。概括性判断保留“some”“could”及Haskell归属；既有具名实例`st-...-01`、Sacchetti/Cortona与Ottoboni/Trevisani两条保持原true；`st-chp1-secii-l10-17-06` Passeri通用劝言的false裁决保持不变，因其记录的是归属明确的一般建议，不是特定参与者间的事件。该段13条现为12 true、1 false。
+
+为“great families”与“their protégés”新增来源限定开放term候选`cand-11828`（未具名家族群）和`cand-11829`（赞助人门生群）；新增精确mention `m-chp1-secii-0668`（`the great families`，`[1421,1439)`）、`m-chp1-secii-0669`（`their protégés`，`[1486,1500)`）及`m-chp1-secii-0667`（`his protégé`，`[1064,1075)`）。`st-chp1-secii-l10-17-07`的主体/客体分别映射到两组候选；`-05`链接门生角色候选。群体成员、具体委托、画家和教堂保持开放；未新增statement、KU或S6关系。
+
+写回前statement/candidate/mention SHA-256分别为`c178d1ba51da409daf6b8e5fc78607152eea0623c8f08ffe589e39f00684905d`、`6e406dcef759c8d7ada5dcbdf0ee9af8e1507bcac5c656511a70fcfd63ba682d`、`8cb8b439101ba24539780311fab2f1de4aa70df8118697e093f7a4a1c7553b6a`；恢复副本为`book-statements.jsonl.bak-s2-chp1-secii-p10-17-20261012`、`entity-candidates.csv.bak-s2-chp1-secii-p10-17-20261012`、`mentions.csv.bak-s2-chp1-secii-p10-17-20261012`。写后SHA-256分别为`f8e02359a0a81d2ce8d29b4cc0d92e73816a08710a649a5e5b48450ba09a1ac2`、`f7c30fd7feaace45a0925b0fb626bcd27d64a3f2362026933f54e6f116adb489`、`2cb6888ef2e52bf0f57a0543f2c8e184c3314108e68aa752d1bfdc51e3535606`。
+
+写后全库13,420条statement：relation_candidate=true 6,533、false 2,450、unset 4,437；双端statement 9,177（true 6,407、false 539、unset 2,231），126条true候选至少缺一端；candidate 11,807、mention 27,765。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；既存enrichment来源警告`enr-06678`、`enr-06937`及语义复核提示仍在。旧p.135工作游标范围余597条unset、76段（第1章97、第2章355、第3章70、第4章51、第5章前段24）；下一段为`chp-1:01_CHP-1_sec_ii:l19-26`（11条unset）。全书S2交接未完成。
+
+
+## 2026-10-12：第一章第二节L19–26合同条件与赞助关系候选
+
+依据规范段`chp-1:01_CHP-1_sec_ii:l19-26`（segment SHA-256 `a02b3059573fde2ae25c1889bd20f1536844d9418ac903cda93bafdf29e22126`；分节来源SHA-256 `1b5890ce028c4217187cea76168e4c6dc4070be1bc71597a96247b32ebee42e2268`），逐读本段正文与其在整章OCR中的对应行L242–277。11条既有statement均为unset；本段11条均判为S2关系候选，并为每条记录relation_candidate_note与open_endpoint_reason。逐条裁决如下：
+
+- `st-chp1-secii-l19-26-01`：近侍赞助常限于生涯初期，家族和画家均为未具名概括群体。
+- `-02`：远地艺术家与高位同乡的接待、鼓励和收入是修辞性假设，不是历史个案。
+- `-03`：原文对象为愿付高价的外国人；修正旧claim误写的“外国画家接受高价”。Haskell对艺术家名望与赞助位置的变化使用“must have looked”推断语气。
+- `-04`：补贴换取优先服务是可行折衷，未指称具体交易。
+- `-05`：画家在自有工作室接受各方委托是通常实践，委托方未具名。
+- `-06`：书面合同取决于委托范围；本段没有指认单一合同。
+- `-07`：宗教绘画/壁画的尺寸和场地、远地祭坛画的光线及往返信件均作一般合同条件，不补造个案端点。
+- `-08`：私家画廊布置与尺寸、赞助人关注被保留为概括，不指配给单件作品。
+- `-09`：成对作品委托及装饰/建筑用途对构图尺寸的影响保持泛称。
+- `-10`：题材通常由委托方告知，但监督范围难定且依作品用途而异。
+- `-11`：宗教壁画/祭坛画可能受严格题材控制；保留may并标注句子续至l28-38。
+
+mention映射已写入相应statement。新增开放term候选`cand-11830`“愿意支付高价的外国人（来源限定群体）”，精确mention `m-chp1-secii-0670`对应段内跨度`[504,545)`；其身份、国籍、购买对象及与具体画家的关系均未确定，不等同于外国画家。该候选仅用于忠实保留原文群体，不作为关系端点。没有新增KU或S6正式关系。段内前后句关系按原文保留：L242承接前段未完句；statement `-11`的句尾在`l28-38`续接。
+
+写入前statement/candidate/mention表SHA-256分别为`f8e02359a0a81d2ce8d29b4cc0d92e73816a08710a649a5e5b48450ba09a1ac2`、`f7c30fd7feaace45a0925b0fb626bcd27d64a3f2362026933f54e6f116adb489`、`2cb6888ef2e52bf0f57a0543f2c8e184c3314108e68aa752d1bfdc51e3535606`；恢复副本`book-statements.jsonl.bak-s2-chp1-secii-p19-26-20261012`、`entity-candidates.csv.bak-s2-chp1-secii-p19-26-20261012`、`mentions.csv.bak-s2-chp1-secii-p19-26-20261012`与写入前字节一致。写后SHA-256分别为`bf550c1b59a34ae33c6e443ee820dfd27bc608e75a17946228bddfbbc7d039a4`、`dc9dbaeccb965a91895baaeef017f0ba3f29bc8735820b536c985ac9002a7b4c`、`6c2ed911be4d2763c2f92132580a2fabf0f1564c3421c570247e0db65da9292c`。
+
+写后全库13,420条statement：relation_candidate=true 6,544、false 2,450、unset 4,426；9,177条双端statement中true 6,407、false 539、unset 2,231；137条true候选至少缺一端；candidate 11,808、mention 27,766。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`）；关系一致性审计的断裂目标、类型、逆向边、弱证据和未基准通用证据均为0。既存两条enrichment来源引用警告及语义复核提示未改变。旧p.135工作游标范围余586条unset、75段（第1章86、第2章355、第3章70、第4章51、第5章前段24）；下一段为`chp-1:01_CHP-1_sec_ii:l28-38`（6条unset）。全书S2交接仍未完成。
+
+
+## 2026-10-12：第一章第二节L28–38合同细节与实例
+
+依据规范段`chp-1:01_CHP-1_sec_ii:l28-38`（segment SHA-256 `80d90e0f8b0aa22f45dbfe8fc9492c5ae9baee2c9a2c6749df4929754fd2e375`；分节来源SHA-256 `1b5890ce028c4217187cea76168e4c6dc4070be1bc71597a96247b32ebee42e2268`），阅读正文及本段脚注。6条statement均为unset；其中5条判为S2关系候选，1条价格规则判为非关系陈述。
+
+- `st-chp1-secii-l28-38-01`：罗马委托较少细定、艺术家常可发展题材；较小省城合同更具体，进一步图像学要求也常由画家提出。作为未具名艺术家—赞助合同的一般模式，保留Haskell的频率和城市范围限定。
+- `-02`：1665年Guercino受命为西西里一座未具名修道院作祭坛画，并就圣像服饰、会规、圣Teresa位置、悬挂方式和光线提问。映射已识别的Guercino为主体；祭坛画与修道院未具名，保留开放对象及二手引述限定。
+- `-03`：画家遇到“四季”等宽泛世俗题材时，常向学者或诗人请教；这是一般实践，不补具体委托或顾问。
+- `-04`：保留Pamfili委托Mola绘制《四元素》于Valmontone，以及Mola查阅神话谱系、Virgil评注并选择空气元素图像的连续叙事；将statement端点映射到Mola与作品，Pamfili、Valmontone及其余人物/母题列为mentions。律师和借阅书籍未具名。原文分节转录为“his to Turnus”；既有mention按full-chapter/PDF校读候选Iris并保留来源差异，不改来源文本。
+- `-05`：未完成句只提出价格常取决于画中全身人物数量；按标量价格规则标为非关系陈述。下一段`l40-46`续句中的Urban VIII个案独立保留，不提前并入。
+- `st-chp1-secii-notes-local-commissions-savini-minnitti`：注释引用Savini/Gubbio（1608）与Minnitti/Augusta（Sicily，1617）的刊布合同条件，作为被文献中介的地方委托关系候选；未在本注给出委托人或作品端点，保持开放，并保留印本/索引拼写差异。
+
+补入三条漏记的精确mention：`m-chp1-secii-0671` Rome `[272,276)`、`m-chp1-secii-0672` altarpiece `[706,716)`、`m-chp1-secii-0673` fresco `[2786,2792)`。无新增candidate、statement或KU；未写S6正式关系。S2 coverage该行原已登记reviewed/complete，本轮不改其机械状态。
+
+写入前statement/mention表SHA-256分别为`bf550c1b59a34ae33c6e443ee820dfd27bc608e75a17946228bddfbbc7d039a4`、`6c2ed911be4d2763c2f92132580a2fabf0f1564c3421c570247e0db65da9292c`；恢复副本`book-statements.jsonl.bak-s2-chp1-secii-p28-38-20261012`和`mentions.csv.bak-s2-chp1-secii-p28-38-20261012`。写后statement/mention/candidate SHA-256分别为`f070e62e6cbe36930a635506368190da6103019f6b67bf68e288aee4c988c77d`、`9bb908d7b0ac49dbecd3c331cc3861c2ea9555a914f6aaf419496412fe1e9457`、`dc9dbaeccb965a91895baaeef017f0ba3f29bc8735820b536c985ac9002a7b4c`。
+
+写后全库13,420条statement：relation_candidate=true 6,549、false 2,451、unset 4,420；9,178条双端statement中true 6,408、false 539、unset 2,231；141条true候选至少缺一个端点；candidate 11,808、mention 27,769。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`）；关系一致性硬错误均为0。仍有两条既存enrichment来源引用警告及语义复核提示。旧p.135工作游标范围余580条unset、74段（第1章80、第2章355、第3章70、第4章51、第5章前段24）；下一段为`chp-1:01_CHP-1_sec_ii:l40-46`（6条unset）。全书S2交接仍未完成。
+
+
+## 2026-10-12：第一章第二节L40–46绘画市场与委托关系
+
+依据规范段`chp-1:01_CHP-1_sec_ii:l40-46`（segment SHA-256 `8a047fc987870ab67066ad0c938de849d66aa2757d38b1dc4c4ca354194193bd`；分节来源SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），结合紧邻的价格规则续句逐读全段正文。该段原有6条statement均为unset；现有6条逐项完成分类，新增2条原子statement以分离两项不同委托。
+
+- `st-chp1-secii-l28-38-06`（本段继续）：将“有时告知应纳入多少全身人物”保留为价格/数量规则，判为非关系陈述；原Urban VIII实例另列。原quote仅保留价格句续片，source行锚点收窄至L335–336。
+- `st-chp1-secii-l40-46-07`：画廊绘画选择趋于自由，流通包括买卖、继承、投机和交换，鉴赏家/收藏者更常按艺术家选择作品；判为一般关系模式候选，但未指定交易双方。
+- `-08`：Marchese Giustiniani收购被原定地点拒绝的Caravaggio祭坛画并置于画廊系列。主体映射身份未决的`cand-3441`，作品映射既有匿名作品候选`cand-3445`；不猜作品名或原地点。
+- `-09`：Giovanni Adamo为Paolo Girolamo Piola委托作品并只规定尺寸、把题材留给画家；映射Adamo→Piola，作品未具名。
+- `-10`：保守赞助人可选定共同主题并委托多位画家形成组画；保留Haskell的解释及例示，不分派为具体个案。
+- `-11`：拆出Mantua公爵的Samson题材委托；新增源定义群组`cand-11832`表示两位未具名罗马画家，映射Duke `cand-3443`→该群组。公爵身份、画家成员及具体剧目保持未决。
+- `st-chp1-secii-l40-46-12-urban-viii-altarpiece`：从原价格续句复合statement拆出Urban VIII对Palatine S. Sebastiano教堂祭坛画的具体委托；新增作品候选`cand-11831`，端点为Urban VIII `cand-0209`→该来源定义作品。题名和画家未知；八人物的选择属于画家裁量是Haskell以“evidently”表达的推断。
+- `st-chp1-secii-l40-46-13-del-carpio-commission`：从`-11`拆出Marchese del Carpio在罗马西班牙使馆任职期间委托画家绘制Painting某一面向的作品；新增源定义群组`cand-11833`表示未具名艺术家，映射del Carpio→群组。未指定个别画家或图画。
+
+新增`cand-11831`、`cand-11832`、`cand-11833`及精确mention `m-chp1-secii-0674`–`0676`，分别锚定未具名Urban VIII祭坛画、Mantua的两位罗马画家、del Carpio委托的一组艺术家。已有教堂mention `m-chp1-secii-0052`从仅含“Sebastiano”修订为完整跨行表述`S.\nSebastiano on the Palatine`，跨度`[174,203)`。候选身份仍开放，不创建KU或S6正式关系。
+
+写入前statement/candidate/mention SHA-256分别为`f070e62e6cbe36930a635506368190da6103019f6b67bf68e288aee4c988c77d`、`dc9dbaeccb965a91895baaeef017f0ba3f29bc8735820b536c985ac9002a7b4c`、`9bb908d7b0ac49dbecd3c331cc3861c2ea9555a914f6aaf419496412fe1e9457`；恢复副本`book-statements.jsonl.bak-s2-chp1-secii-p40-46-20261012`、`entity-candidates.csv.bak-s2-chp1-secii-p40-46-20261012`、`mentions.csv.bak-s2-chp1-secii-p40-46-20261012`。写后SHA-256分别为`8623c60d1022cbc4b6c843e64b3f0a2162e5cd85dfbe291dfc4d3c15fc64c25d`、`b6a94aa9fbd904d9714cc91950608eb7f9511b82c7270127d29db82cff1956a6`、`2cfc58571b5d27382a1302bfcb00342c3546387f13badf492daa312fc4ac57b7`。新增两条statement均以精确原文子串及L336–338、L368–371来源行锚定。
+
+写后全库13,422条statement：relation_candidate=true 6,556、false 2,452、unset 4,414；9,183条双端statement中true 6,413、false 539、unset 2,231；143条true候选至少缺一个端点；candidate 11,811、mention 27,772。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`）；关系一致性硬错误均为0；候选表面扫描后来命中l40–46的词面“portraits”与Schulenburg索引子条cand-2410；本句是“portraits of great men”的泛称，不指向该对象，不补mention。既存两条enrichment来源引用警告及语义复核提示未变。旧p.135工作游标范围余574条unset、73段（第1章74、第2章355、第3章70、第4章51、第5章前段24）；下一段`chp-1:01_CHP-1_sec_ii:l48-60`有7条unset。全书S2交接仍未完成。
+
+
+## 2026-10-12：第一章第二节L48–60艺术家声誉与预备草图
+
+依据规范段`chp-1:01_CHP-1_sec_ii:l48-60`（segment SHA-256 `9e78342f6ca4b5d210c405aaa1e7cd1f063df4e9a68b78c823597d2bda34c2c3`；分节来源SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），逐读本段正文、引文和注释定位。7条既有statement中6条判为关系候选，1条“未见已知modello”的负面知识陈述判为非关系。
+
+- `st-chp1-secii-l48-60-01`：保留Haskell关于委托指示随艺术家声誉/性格而异的概括，以及Cortona与Rosa的对照；不把两例写成自由/服从的普遍二分。Rosa的客户和朋友未具名，端点保持开放。
+- `-02`：匿名收藏者向Valentin提出大型画作及人物要求；映射Valentin→来源定义的未名画作`cand-3447`。不认定画作已完成或有题名，提问者未具名。
+- `-03`：赞助人可通过要求油性modello或图稿控制画家；保留Haskell对17世纪上半叶频率的限定，不分配到个案。
+- `-04`：Caravaggio于1600年同未名赞助人约定在完成两幅具名祭坛画前提交人物/物件的样稿和设计。映射Caravaggio为主体，赞助人端点开放；将契约引语保留为Haskell经注释转引的证据，并标出该做法属例外。
+- `-05`：Rubens于1606年在Chiesa Nuova承接祭坛画前被要求出示绘画样例；映射Rubens为艺术家端点，提问者及具体作品仍未定。
+- `-06`：Lanfranco于1640年主动提出向Cardinal Barberini展示画在画布上的设计以说明构图困难，映射Lanfranco→身份未决的Cardinal Barberini；来源明确建议由Lanfranco提出。
+- `-07`：Haskell称在罗马工作的Bolognese艺术家中没有已知modello，且连Pietro da Cortona也没有确定例子；标为限定的负面知识陈述，不转成正向作品关系。该短语在本段断于“Pietro da”，下段l62–71续出姓氏。
+
+为负面陈述新建开放群体候选`cand-11834`“在罗马工作的Bolognese艺术家”，并与`cand-11822`（跟随Annibale Carracci自Bologna迁来的重要画家群体）区分；新增`m-chp1-secii-0677`，跨度`[2560,2593)`。另为截在段界的Pietro da Cortona补mention `m-chp1-secii-0678`（“Pietro da”，`[2699,2708)`），映射到既有`cand-0342`并指向下一段续文。无新增statement、KU或S6正式关系。
+
+本章候选表面扫描出现若干字面命中，经核均为索引子条误碰普通词：`temperament`属于Algarotti，`drawings`属于Annibale Carracci，`altarpieces`属于Poussin，`character`属于Urban VIII；不新增这些mention。它还在前段l40–46以`portraits`命中Schulenburg的索引子条`cand-2410`，但原文的“portraits of great men”是泛称，不是Schulenburg作品。
+
+写入前statement/candidate/mention表SHA-256分别为`8623c60d1022cbc4b6c843e64b3f0a2162e5cd85dfbe291dfc4d3c15fc64c25d`、`b6a94aa9fbd904d9714cc91950608eb7f9511b82c7270127d29db82cff1956a6`、`2cfc58571b5d27382a1302bfcb00342c3546387f13badf492daa312fc4ac57b7`；恢复副本`book-statements.jsonl.bak-s2-chp1-secii-p48-60-20261012`、`entity-candidates.csv.bak-s2-chp1-secii-p48-60-20261012`、`mentions.csv.bak-s2-chp1-secii-p48-60-20261012`。写后SHA-256分别为`5268408b4d69c9fa93195c5cbb7e337996dbd75859c133b6b4ce9ef688b7a03a`、`0a875628313a1cdcbe24733b612549b4b338804a9edbe0f5237faee80fe959c8`、`888b83f433e944d2921d356073eda3fee5ab414d1257298c322eee0751184311`。
+
+写后全库13,422条statement：relation_candidate=true 6,562、false 2,453、unset 4,407；9,185条双端statement中true 6,415、false 539、unset 2,231；147条true候选至少缺一个端点；candidate 11,812、mention 27,774。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`）；关系一致性硬错误均为0。结构审计保留两条既存enrichment来源警告及语义复核提示。旧p.135工作游标范围余567条unset、72段（第1章67、第2章355、第3章70、第4章51、第5章前段24）；下一段`chp-1:01_CHP-1_sec_ii:l62-71`有7条unset。全书S2交接仍未完成。
+
+
+## 2026-10-12：第一章第二节 L62–71 草图实践与工期
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l62-71`（段指纹`93e137305efc7e0753350ed38084128dc82aa61a596a6adf3d3979609109f965`；来源文件指纹`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），逐读正文及该段脚注定位。前段`Pietro da`在本段续为`Cortona`；脚注1已在注释段`l168–239`单独成statement，现与前段负面知识断言双向关联。脚注保留Grassi所提Cortona草图归属未获普遍认可、Barberini Salone bozzetto不可信，以及Waterhouse指出Camassei作品和记录在案的Sacelli草图；因此正文“no certain examples”的限定不能删去。
+
+本段7条原statement全部判为S2关系候选，并拆出7条可分别承接端点的statement：
+- `-01`：modello实践在17世纪后半叶普及并与Gaulli关联，映射Gaulli→modello术语候选；`-08`另记“Gaulli可能从故乡Genoa引入”的推测，映射Gaulli→Genoa，不推断明确目的地或原创者。
+- `-02`：Wittkower的罗马教堂大型壁画年代判断归于Wittkower；Haskell对modelli服务赞助人和助手及壁画图像复杂度的概述保留作者归属。仅modello实践端可映射，受益者是泛称角色，未补造人群候选。
+- `-03`：Ciro Ferri于1670年被要求为S. Agnese穹顶制作彩色modello，获批后不得擅改；新增作品候选`cand-11835`。`-09`单列Pamfili family对S. Agnese穹顶委托的责任，映射到另一个作品候选`cand-11836`；Haskell关于其与艺术家关系的概括不解释为本次委托发生争执。
+- `-04`：保留草图自发性评价与amateur兴起的可能关联及收藏风尚的18世纪时间限定；因人物/作品均未具体化，端点开放，不将“collecting sketches”候选代替“appreciation”。`-05`保留近乎所有赞助人催促快完工及常有失望的概括，端点仍是泛称群体。
+- `-06`：Ferri的S. Agnese穹顶工程获四年工期，映射Ferri→`cand-11836`；`-10`单列Gaulli为Gesù穹顶和横向拱顶壁画获八年工期，新增作品组候选`cand-11837`。工期不当作实际完工日期。
+- `-07`：将Odazzi快于Giordano保留为有来源限定的比较，不作客观速度排名。`-11`–`-14`分别记录Holy Years常为教堂工作提供激励、Brandi的速度声誉、Dughet因快速工作获益及其未必获批评、Venetian painters的群体速度声誉和外部轻蔑；保持often/might/reported/collective等限定。
+
+新增候选`cand-11835`–`cand-11837`三件来源可定位的作品，新增mention `m-chp1-secii-0679`–`0681`三处穹顶/壁画组跨度；把既有单数`modello` mention `m-chp1-secii-0654`从通用术语候选改映射为本段具体作品，复数`modelli`仍映射术语。按来源核对31条本段mention跨度，全部精确；S0 section转录为`Ciro Ferri`，chapter转录为`Ciro'Ferri`，按各自来源保留差异，不改S0。候选表面扫描中的泛称`churches`命中多条索引候选、`character`命中人名索引子目，均非具名实体；`subject`与`time limit`则对应Contracts索引子目并保留。
+
+修订前表哈希：statements `5268408b4d69c9fa93195c5cbb7e337996dbd75859c133b6b4ce9ef688b7a03a`，candidates `0a875628313a1cdcbe24733b612549b4b338804a9edbe0f5237faee80fe959c8`，mentions `888b83f433e944d2921d356073eda3fee5ab414d1257298c322eee0751184311`。写后哈希：statements `1cfb5ce755cc5854eaecc3fd15eac4fd8e006e1d2eb63bd322f4dfa78326c904`，candidates `26e023c266b889d4167234fa155a352303f79810868b7d05590be51ca13614f9`，mentions `96f772b5515d845ddc0f0d3c1b8a53c320f948efea19d837abb445ce7af5bf23`。恢复副本按`*.bak-s2-chp1-secii-p62-71-20261012`保存；候选来源指针另有修正前副本。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0；本段mention跨度31/31匹配来源。
+
+### 第一章第二节 l73–77（2026-10-12）
+
+依据S0段chp-1:01_CHP-1_sec_ii:l73-77（段SHA-256 08d0b4db8a37d6097dd9c5fcaf28e90034a721c7077a470ab332c4e0a0e80542；来源文件SHA-256 1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268），完成原有4条statement裁决，并拆出2条原子关系候选，共6条均标为relation_candidate=true。-01保留定金比例、图片分期与大型壁画按月支付的一般规则；-02分列画布、底料、群青、脚手架及异地食宿的费用承担，不把注释中的具体例证普遍化；-03记录Pamfili对Mola的款待及Valmontone装饰语境，不推为正式家户任职；-04仅把130杜卡特按人物计价归于Domenichino和Naples Cathedral壁画，-05只记Lanfranco也按人物计价，不转移130杜卡特；-06记录计价实践普及及声誉与价格上调的作者概括。
+
+正文13条mention跨度全部精确，无新增候选、mention、KU或正式关系。注释statement与正文的定金案例、付款书信、材料分担及Mola款待按内容互链。CHP-1.pdf物理页12确认S0转录Eke的印本为like；校读只写入S2 qualifier，未改来源。候选表面扫描的payment和Prices为普通泛称/索引子目碰撞，本段无漏记的既有候选词面。段写后全库13,431 statements、11,815 candidates、27,777 mentions；relation_candidate true/false/unset为6,582/2,453/4,396，双端statement 9,194条。恢复副本为book-statements.jsonl.bak-s2-chp1-secii-p73-77-20261012。严格表审计errors=[]、s2_missing=[]。
+
+### 第一章第二节 l79–84（2026-10-12）
+
+依据S0段chp-1:01_CHP-1_sec_ii:l79-84（段SHA-256 83e5da63c3e5deb00803dec8bc08b9a4d32f99ade9e2827960ee2117ce3c8334；来源文件SHA-256 1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268），将7条原statement拆分和复核为17条：14条关系候选、3条非关系陈述。区分委托方社会地位与Mancini的宽厚赞助叙述、1617年Duke of Mantua对Guido Reni的绘画请求、Guidotti赠画与收礼、Claude按客户社会身份定价、贵族慷慨衰退与商业化判断、Arragona建议预付定金及其转述的画家条件、Guercino对Don Antonio Ruffo的逐人物报价，以及旧式赞助、罗马城市职能和国际吸引力。原文的推测、引述、金额与未完成作品均保留限定。
+
+新增6个开放候选cand-11838至cand-11843（含四个未具名群体/端点，不强配不存在的对象类型），新增9条mention m-chp1-secii-0682至m-chp1-secii-0690；把本段Mancini回指映射到Giulio Mancini，把Claude映射到Claude Lorrain。将注释中已明确的Salviati、Arragona和Ruffo分别连接到正文代理人/赞助人指称，并与脚注statement互链；His Highness单列为1621年身份未明的Duke候选，不与1617年公爵合并。l73–77的价格转段句与本段委托方社会地位statement双向链接；本段末尾“两重吸引力”片段与l86–94续句双向链接。共25条mention跨度全部与S0一致，17条引文均在各自source line范围内精确复现；本段候选表面扫描无未覆盖命中。未新增KU或S6正式关系。
+
+写入前恢复副本：statements book-statements.jsonl.bak-s2-chp1-secii-p79-84-20261012、candidates entity-candidates.csv.bak-s2-chp1-secii-p79-84-20261012、mentions mentions.csv.bak-s2-chp1-secii-p79-84-20261012。本段写后全库13,441 statements、11,821 candidates、27,786 mentions；relation_candidate true/false/unset为6,596/2,456/4,389，9,201条双端statement中true/false/unset为6,431/539/2,231；165条true候选至少缺一个端点。严格表审计errors=[]、s2_missing=[]；关系一致性硬错误均为0，另保留两条既存enrichment来源警告和语义复核提示。全书S2仍未交接；下一段l86–94有7条unset。
+
+## 2026-10-12：第一章第二节 L86–94 工作室样品与艺术家位置
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l86-94`（段SHA-256 `5d626905d132320e68740a13163e775091bf604ce40c5d41c40858884a17ab52`；来源文件SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），按书序逐读本段正文，并回到合并脚注段核对注1–3。旧7条statement拆分为18条：
+
+- `-01`–`-01g`区分贵族邀请同国籍画家、艺术家对罗马职业机会的期待、供需互促、古今纪念物与古典传统、罗马本地产生画家的不足、流动画家/鉴赏者群体，以及威尼斯/博洛尼亚/那不勒斯来源的新画家与政权更替。一般化论述保留Haskell归因；群体端点不补造个人身份。
+- `-02`与`-02b`分开记录掌握财政资源的家族可支撑统治家族尺度赞助，以及财政收紧可能把受雇画家推向市场。Borghese与Barberini仅作为尺度例证，不指认为未具名的财政持有者；财政限制是条件句，不写成已发生解雇。
+- `-03`、`-03b`分开记录画室样品惯例与“客户觉得合意且议价后才完成”的条件顺序。Valguarnera部分拆成`-04`（两次访问Lanfranco并请求完成两件素描画布）、`-04b`（安排完成Poussin《阿什杜德的瘟疫》）和`-04c`（另订《春》）；请求、安排与完成不混为一谈。印本确认`and-was`有连字符，保留S0文字。
+- `-05`、`-05b`记录Rosa不喜按委托作画并备有现货，以及风景画爱好者浏览后偏选小画而激怒画家的差别。`-06`记录Haskell把罗马社会政治变化与艺术交易、展览重要性上升相联系；`-07`保留跨段未完结的“艺术家在罗马社会中的位置”总结，与下一段首条statement互链。
+
+注1的Costello pp.274–275经书目对应Jane Costello讨论Valguarnera的论文候选`cand-7017`，仅为引用定位，文章及该页未独立阅读；注2指向Baldinucci VI（1728）p.581，也未独立阅读。印本物理页14将S0的`Balditiucci`校读为`Baldinucci`，仅记录于S2。注3是“See Chapter 5”的内部导航，不作为证据。正文脚注与脚注statement互链；沿用脚注段已有Costello、Baldinucci mentions，未重复新增。为使覆盖账本对应本次实际读取，将`chp-1:01_CHP-1_sec_ii:l168-239`的来源范围补入全章行号`L613-615`。
+
+新增13个开放候选`cand-11844`–`cand-11856`及15条正文mention；无新增KU或S6正式关系。写入前恢复副本：statements、candidates、mentions分别为`*.bak-s2-chp1-secii-p86-94-20261012`；表校正另保存mentions与coverage的`*.bak-s2-chp1-secii-p86-94-auditfix-20261012`。最终表哈希：statements `1abcb4c86aca9b665050324360bf0ece84501be397104b6002b00aa8bce5e71b`，candidates `70883c251a9c282510150e3f663b6fdd61e172b01e4640f5f60c78ab6b5f6eee`，mentions `65dd573c5a42f78589362731e589c0d948fc950769e59c5fc9258890e8a7bcd3`，coverage `4df4b4511d52c3580c5583fc0877d571c69e3b7821320f9138afee32895ef53c`。`audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；仍有两条既存enrichment source_ref警告及语义质量提示。关系一致性审计硬错误为0，诊断仍显示135个孤立KU和1个超连接KU。第一章候选表面扫描总计33处启发式提示，本段为0；提示不表示全章召回率。当前首个未分类段为`chp-1:01_CHP-1_sec_ii:l96-104`，5条statement待处理。
+
+## 2026-10-12：第一章第二节 L96–104 艺术家社会地位与声望
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l96-104`（段SHA-256 `48354a5337e70fa0da4c03e96c672613b4cadb0f990d965f7b4475d929bf04af`；来源文件SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`），按印刷p.16（PDF物理页15）核对正文和注1–3。原有5条statement拆为14条原子陈述：分别保留文艺复兴时期的艺术家地位争议及Michelangelo/Raphael崇拜、巴洛克罗马新社会因素、艺术家需求与声望/金钱回报、Malvasia经保禄五世归语及其现实限定、Cellini类比与匿名画家道德困难、艺术家社会权威与Bernini受尊重、敌对作者对其扶助作用的说法、Bernini与Michelangelo的声望差异、文艺复兴后地位变化、Sixtus V与宫廷艺术生产的作者因果解释、Leo X时期比较、柏拉图主义退潮、功利社会安全与魅力，以及十八世纪天才崇拜复兴。14条正文均为关系候选=false；没有将概念性和因果性论述转写成未经支持的S6正式边。
+
+脚注账本补入5条明确引证记录：Malvasia卷II第27页、Fraschetti passim、Passeri第236页、Pascoli卷I第134页、Wittkower 1958年第96页；其中Passeri、Pascoli和Wittkower分开保留来源端点。引用分别连回正文Paul V归语、Bernini书信/声望及敌对作者论断。既有`st-chp1-secii-notes-bernini-testimony`收窄为注3的证据偏向与Wittkower评述，并回链敌对作者主张。Malvasia的`corre voce`只作为归语谨慎，不把Paul V的直接发言写成已证事实；所引页均未独立查阅。
+
+本段新增5条精确mention：4处把本段的artists/leading artists/artist社会类别映射到已有`cand-11845`，另将脚注OCR `Passer!` 映射到Passeri `cand-1856`。未新增candidate、KU或正式关系。印本p.16校读记录在S2 qualifier：`that’artists`→`that artists`、`tills`→`this`、全章OCR `Iris support`→`his support`、`decfine`→`decline`、`Iris position`→`his position`、`Passer!`→`Passeri`；来源文本未改写。上一段L611–612与本段首句保持双向链接；L656未完句与下一段L668续句也已双向链接。
+
+写入前恢复副本：`book-statements.jsonl.bak-s2-chp1-secii-l96-104-20261012`、`mentions.csv.bak-s2-chp1-secii-l96-104-20261012`。表后总量为13,469 statements、27,806 mentions、11,834 candidates；关系候选true/false/unset为6,619/2,474/4,376，9,225条双端statement中true/false/unset为6,452/542/2,231。新增mention跨度及正文引文在full-chapter source范围内逐项核对通过。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误0。第一章启发式候选表面扫描33处提示均不在本段；提示不代表召回率或验收。下一段按序为`chp-1:01_CHP-1_sec_ii:l106-116`，3条statement待裁决。
+## 2026-10-12：第一章第二节 p.17 L106–116 与注释1–6
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l106-116`逐项复核，细分正文有关艺术家收入与社会上升、Bernini胸像报酬、Maratta/Gaulli费用、艺术家舒适程度与公共身份、Rembrandt/Baldinucci报价，以及Accademia地位、Zuccari复兴、教皇措施、Apostolic Chamber书记员引语、Paul V特权、Gregory XV章程、Urban VIII学院权威与行会反对、Francesco Barberini任命和1633税权。残句“All public”保留为跨页片段；Bellori对Maratta的评论单独归于Bellori。注1–6拆分记入相应引证statement，所引页未独立查阅。另原子化Thomas Baker胸像、V&A位置、Testi书信角色、雕像估价、Borghese头像付款及Fabbrica薪俸注释。
+
+新增5个开放候选`cand-11857`–`cand-11861`及22条mention；修正`m-chp1-secii-0528`，将未指名的Cardinal Borghese保留为本段未决对象，不强行并入Scipione候选。Tax group、fringe group及Cardinal Borghese头像维持S2开放状态；没有新增KU或S6正式关系。第一次写入的append筛选错误已用四表原始恢复副本回滚并修正后重写；恢复副本为`book-statements.jsonl.bak-s2-chp1-secii-l106-116-20261012`、`mentions.csv.bak-s2-chp1-secii-l106-116-20261012`、`entity-candidates.csv.bak-s2-chp1-secii-l106-116-20261012`、`s2-coverage.csv.bak-s2-chp1-secii-l106-116-20261012`；span校正另存`mentions.csv.bak-s2-chp1-secii-l106-116-auditfix-20261012`。
+
+写后13,507条statement、11,839个candidate、27,828条mention。正文段27条statement；注释段15条statement。35条正文mention及254条注释mention跨度核验无误。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误0，135个零关系KU和1个超连接KU为既存诊断。后续按序处理p.18 `l118-127`。
+
+## 2026-10-12：第一章第二节 p.18 L118–127 与注释1–5
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l118-127`及合并注释段`l168-239`复核正文和引用。原有学院、艺术家礼仪及Maratta记录拆为独立声明：早期成员范围、反常题材准入、gilders早期成员及1645年转为次等成员、法国影响下17世纪后半的教条化、创院者早期目标、学院社会尊严和知识性定位、罗马社会地位及其集合功能；另分别记录Brandi、Ferri、Gimignani、Morandi、Procaccini的传记例证，以及“后半世纪更典型”和艺术家—赞助人交往的作者判断。脚注1关于van Laer、Cerquozzi的成员身份另列两条`member_of`关系候选；脚注2、4分别精确链接Missirini与Pascoli卷I、II，脚注3保留为Chapter 6内部导航。脚注5拆出Novetti书信的作者、收信人及V. Ruffo p.290引证；S0的“Russo”经PDF核为印本“Ruffo”，书信及所引页面仍未独立查阅。L752未完句与下一段首句`st-chp1-secii-l129-135-01`双向链接。
+
+正文政策句L717–719进一步拆为预定垄断、执行阻力/撤回和声望效果三项，并均标为非正式关系；保留p.17跨页续句和回链。总计新增26条statement，另在审计发现后再加2条statement并分类旧政策行；新增6条精确mention，无新candidate、KU或S6正式关系。恢复副本：`book-statements.jsonl.bak-s2-chp1-secii-l118-127-20261012`、`mentions.csv.bak-s2-chp1-secii-l118-127-20261012`、`s2-coverage.csv.bak-s2-chp1-secii-l118-127-20261012`；分类修复另有`book-statements.jsonl.bak-s2-chp1-secii-l118-127-auditfix-20261012`。最终SHA-256：statements `55ca6ef18863f646caef4c40b135c7f0d04b16c614c646ef047ed5783a76a64f`，mentions `e4e1894234c14e0e306bd9c17f487f60e6ac98a74f3098cefc3b29b5ba3c299d`，coverage `fc35a126091bc5e937d86abe17fdbbb3a1d3fc84054dba98ad75753801cdc577`。
+
+写后全库13,535 statements、11,839 candidates、27,834 mentions；relation_candidate true/false/unset为6,655/2,513/4,367；9,261条双端statement中6,488/542/2,231。六条新mention跨度逐项精确。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性断裂目标、非法类型、缺反向映射、弱证据及通用证据硬错误均为0。当前首个未分类段为p.19 `chp-1:01_CHP-1_sec_ii:l129-135`，4条正文statement待裁决；全书S2交接仍未完成。
+
+## 2026-10-12：第一章第二节 p.19 L129–135 与注释1–6
+
+依据S0段`chp-1:01_CHP-1_sec_ii:l129-135`及合并注释段`l168-239`逐项复核正文、脚注定位与前后页链接。原4条宽泛正文statement细分为24条：保留Roman society判断的跨页续接；把Ridolfi/Charles V/Titian故事、Barberini与Bernini的镜像故事、Innocent X/Mola画布、象征性价值及Queen Christina/Spanish Ambassador较可能可信的叙述分开；另分列Ghezzi的教育、Arcadia成员身份、Clement XI所授St Peter’s benefice、Innocent XIII任命、Parma公爵荣衔，以及授衔史、艺术家教育和自我肖像的社会呈现。4条端点明确的Ghezzi关系标为`member_of`、`privilege_granted_by`、`appointed_by`、`honoured_by`；时间、角色、地点及Duke of Parma身份的范围限制保留在claim/qualifier中。其余20条为作者解释、一般陈述、带来源归属的轶闻或引语，不转写成正式关系。
+
+注1–3、5–6新增6条`cites` statement，分别登记Baldinucci 1948 p.78、Pascoli I p.122、Pascoli II pp.202/205、Pascoli II p.202及Passeri p.285，并与相应正文断言互链；引文内容及所引页均未独立查阅。注2 S0 OCR的小写`l`与印本罗马数字`I`差异记录于S2。注4既有早期荣誉例证及注6 Cerquozzi/Passeri说明与新正文断言的链接同步更新；p.18 `Roman society...`续句保持双向链接。
+
+无新增candidate、mention、KU或S6正式关系。p.19正文21条mention及脚注6条mention跨度核验无误；33条相关statement引文均可在各自source line范围内复现。写入前statement/coverage SHA-256为`55ca6ef18863f646caef4c40b135c7f0d04b16c614c646ef047ed5783a76a64f`、`fc35a126091bc5e937d86abe17fdbbb3a1d3fc84054dba98ad75753801cdc577`；恢复副本为`book-statements.jsonl.bak-s2-chp1-secii-l129-135-20261012`与`s2-coverage.csv.bak-s2-chp1-secii-l129-135-20261012`；写后SHA-256为`194928a5e551f73e720bf4e8bdcfa4e78dde9d19afbb91fcf01ba1a23eaba5eb`、`03265e2111e2f3f2e266750ddeb75db8beda04c0c9312cf04db46cd6e99872e6`。
+
+写后全库13,561 statements、11,839 candidates、27,834 mentions；relation_candidate true/false/unset为6,665/2,533/4,363；9,271条双端statement中6,498/542/2,231，167条true候选至少缺一个端点。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`）；关系一致性审计断裂目标、非法类型、缺反向映射、弱证据及未基线通用证据硬错误均为0，仍诊断135个零关系KU和1个超连接KU。另保留两条既存enrichment来源引用警告及语义复核提示。当前首个未分类段为p.20 `chp-1:01_CHP-1_sec_ii:l137-146`，3条statement待裁决；全书S2交接仍未完成。
+
+
+## 2026-10-13：第5章p.143–145正文及注释L39–54
+
+依据S0段`chp-5:05_CHP-5_sec_iv:l14-21`、`l23-31`、`l33-37`、`l39-54`，对照印刷页143–145（PDF物理页28–30）及段哈希，按源序完成现存statement语义裁决、拆分和脚注互链。p.143正文44条，35条关系候选、9条非关系；拆出Rosa对小幅风景画的抱怨、匿名信中 Stoic 比喻、De’ Rossi兄弟亲属/职业属性、存款与利息、Modena公爵经代理人提出的六类作品请求及Carpegna/Teodoli等受众关系。新增cand-11948–cand-11949及2条mention。p.144正文24条，22条关系候选、2条非关系；分列私人博物馆、挂画、作品组、未收费祭坛画、对Ricciardi的友谊/建议/通信、Florence求赞助和Ancona/Sirolo/Assisi行程。注1恢复为de Rinaldis p.199定位，不再误带其他注的日期和收信人；注4–6回链与跨页句同步。p.145正文24条，18条关系候选、6条非关系；拆分Rosa对Ricciardi的信任/友情/艺术判断、两幅未识别画作的不同评价、Bamboccianti与Rosa对道德/诗性品质的相反态度、同业蔑视及社会接受度。修正Passeri作品分布statement端点为作品组cand-11951，而不是艺术家Rosa；新增cand-11950–cand-11953及10条mention。跨页书信“thinking of you”独立成行并接到p.144注6。
+
+注释段L39–54现31条statement，30条关系候选、1条非关系；原8条未裁决行全部处理。p.143注2拆为Baldinucci p.581引证、Limentani p.79引证、Rosa自称Stoic及27 May 1651信件作者/收信人记录，新增archive候选cand-11954和2条mention。p.144注2中的Bellori《Nota de Musei》—De’ Rossi藏品引用独立记录；注3连接未名祭坛画组与Chantilly。p.145注2内部章回指为非关系，注4规范为Haskell书籍引用De Dominici。页图核实much-loved、bamboccianti和ZI/21差异；只记S2，不改S0。所有quote和mention跨度通过源段子串核对，p.143–145脚注回链存在，无S6正式关系。
+
+使用四个受保护脚本，均先dry-run后apply：`resolve_chp5_seciv_l14_21_semantics_20261013.py`、`resolve_chp5_seciv_l23_31_semantics_20261013.py`、`resolve_chp5_seciv_l33_37_semantics_20261013.py`、`resolve_chp5_seciv_notes_l39_54_semantics_20261013.py`。每次写入均为受影响表保存恢复副本，后缀分别为`.bak-s2-chp5-seciv-l14-21-20261013`、`.bak-s2-chp5-seciv-l23-31-20261013`、`.bak-s2-chp5-seciv-l33-37-20261013`、`.bak-s2-chp5-seciv-notes-l39-54-20261013`。当前四表SHA-256：book-statements `cf570d972dacf08659fb4842c97e602861cf44d726522503949013fb3bd8f3a7`；entity-candidates `ecdfcf43f119585fc7c3714561627b0f346e625a47b76bcb270b5b420120fe4c`；mentions `4fae73c6a1d593a31615f5adc7840730c52ee4e4df054f36bc165a91f7b19b29`；s2-coverage `148b9215ac373f4d8a5a28614c6aebb56deb6e3f0a8580e4bcc941edb30414be`。
+
+写后全库13,999条statement（relation_candidate true/false/unset为7,263/3,171/3,565），11,932 candidates、27,999 mentions；9,668条双端statement中true/false/unset为7,030/593/2,045，233条true候选至少缺一个端点。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；仅保留两条既存enrichment source_ref警告及通用语义复核提示。`audit_relation_consistency.py`断裂目标、非法relation_type、缺反向、弱证据及未基线通用证据硬错误均为0；另诊断135个孤立KU和1个超连接KU。按S0源序，下一未分类statement为第6章p.146章首`chp-6:06_CHP-6_intro:l3-5`中的`st-chp6-title-frame`。全书S2语义交接仍未完成。
+
+## 2026-10-13：第七章p.169–179关系候选分类
+
+按S0源序继续裁决第七章p.169注释L11–15及正文L3–9、p.170 L11–19、p.171 L21–29、p.172 L31–35、p.173 L37–43、p.174 L45–59、p.175 L61–74、p.176 L76–89、p.177 L91–100、p.178 L102–111及p.179 L113–126的既有statement，共12个段。283条中256条标为`relation_candidate=true`、27条为false，未新增或删除candidate、mention、statement，也未写S6正式关系。
+
+保留分段证据与作者归属，并对开放端点和对象粒度作局部修正：p.169注释纠正书籍引用主语；p.170修复三条端点；p.171把匿名画家群体、Cardinal Aldobrandini及Naples Cathedral分别映射到合适对象；p.172移除把风景题材误作关系端点；p.173修正宫殿壁画对象并拆清Henry IV建造巴黎与后续城市规划的语义；p.174将Ferdinand拒绝对象和Gentileschi服务对象分别定位到未获准请求及Marie；p.175把Poussin委托端点从《酒神节》作品改为人物，并把Richelieu事件主语改为人物；p.176区分Bernini本人、其半身像作品及被描绘者，mentions的候选映射随之校正；p.177移除将匿名妻子/朝臣宗教身份及未具名刑法错误连到Charles I的端点，并将Puritan反对所针对的概念映射到`sophistication`；p.178把Fanelli青铜作品组设为“反映Newcastle兴趣”的主语。
+
+p.179的28条中23条为关系候选、5条为一般评价、事件日期或宽泛历史陈述。对照p.180续文确认Queen's bust为Bernini拟作、Mazarin为“Italian amateur”；修正p.179 i05为Bernini的Charles I胸像→Van Dyck三人肖像，i07与i20补Bernini主体。保留Arundel未实现浮雕愿望、未具名赠画投诉者和引文主体开放状态。脚注1的Wittkower citation仍只作为Haskell书内引文定位，未声称外部来源核实。
+
+使用的受控脚本为本目录下`classify_chp7_*_relation_candidates_20261013.py`；各段均先dry-run，核对固定statement集合、来源行锚、候选外键和表哈希后写回，并保留对应恢复副本。p.175、p.176同步修正mentions中的作品候选映射。写后全库14,171 statements、11,979 candidates、28,042 mentions；`relation_candidate=true/false/unset`为8,058/3,377/2,736；9,845条双端statement中为7,746/613/1,486，另有312条true候选至少缺一个端点。`audit_tables.py --strict-stage --summary`通过（`errors=[]`、`s2_missing=[]`；678段reviewed/complete、154段有理由排除、0 queued）；`audit_relation_consistency.py`硬错误为0，诊断135个零关系KU、100个孤立预览行及1个超连接KU。既存两条enrichment `source_ref`警告和语义复核提示仍在。下一源段为第七章p.180 `chp-7:07_CHP-7_sec_i:l128-138`，35条statement待裁决；全书S2尚未交接。
+
+## 2026-10-13：第七章p.182–188关系候选分类
+
+按`segments.jsonl`源序完成第七章p.182–188七个正文段。共分类176条新statement：168条`relation_candidate=true`、8条false；p.186另保留并补写理由的既有3条true判定。七页涉及179条statement，逐页总数true/false为：p.182 23/1、p.183 21/2、p.184 18/0、p.185 29/1、p.186 20/1（其中3条true在本批前已分类）、p.187 29/0、p.188 31/3。所有false仍保留原statement及原文引句，仅排除其作为独立关系候选。
+
+语义复核修正p.182多余端点，厘清p.183的Borghese casino—Aurora fresco、lampoon—Italian artists候选，p.184的Charles I picture collection、画家群体及Mazarin指控对象，并纠正p.185收藏端点和Fronde→Mazarin方向。p.188补足Colbert—Bernini视角、Bernini—法国对意大利艺术敌意及Louis XIV—Bernini后续计划端点；“Bernini计划未执行”的对象映射到该计划候选。p.188的genius赞誉、法国自满情绪概括和未完句分别标为非关系陈述；末句仍保留与p.189完整statement的续接链接。
+
+跨页链接已核对：p.182 `i24`→p.183 `q01`、p.183 `i19`→p.184 `q01`、p.184 `i17`由p.185 L206闭合、p.185 `i30`→p.186 `q01`、p.186 `i19/i20`→p.187 `i01/i02`、p.187 `i29`→p.188 `i01`、p.188 `i34`→p.189 `i01`。p.188依`CHP-7.pdf`物理页26核对印本；未改写S0，也未新增KU或S6正式边。
+
+各段均使用受控脚本先dry-run、按statement集合/来源行/候选外键/输入SHA校验，再写回并保留`book-statements.jsonl.bak-s2-chp7-seci-p182-l150-158-relation-classification-20261013`、`book-statements.jsonl.bak-s2-chp7-seci-p183-l160-168-relation-classification-20261013`、`book-statements.jsonl.bak-s2-chp7-seci-p184-l170-176-relation-classification-20261013`、`book-statements.jsonl.bak-s2-chp7-seci-p185-l205-213-relation-classification-20261013`、`book-statements.jsonl.bak-s2-chp7-seci-p186-l215-222-relation-classification-20261013`、`book-statements.jsonl.bak-s2-chp7-seci-p187-l224-230-relation-classification-20261013`及`book-statements.jsonl.bak-s2-chp7-seci-p188-l232-241-relation-classification-20261013`恢复副本。对应脚本为`classify_chp7_seci_p182_l150_158_relation_candidates_20261013.py`、`classify_chp7_seci_p183_l160_168_relation_candidates_20261013.py`、`classify_chp7_seci_p184_l170_176_relation_candidates_20261013.py`、`classify_chp7_seci_p185_l205_213_relation_candidates_20261013.py`、`classify_chp7_seci_p186_l215_222_relation_candidates_20261013.py`、`classify_chp7_seci_p187_l224_230_relation_candidates_20261013.py`和`classify_chp7_seci_p188_l232_241_relation_candidates_20261013.py`。
+
+写后全库14,171 statements、11,979 candidates、28,042 mentions；`relation_candidate=true/false/unset`为8,284/3,391/2,496。`audit_tables.py --strict-stage --summary`通过：`errors=[]`、`s2_missing=[]`，678段reviewed/complete、154段有理由排除、0 queued/partial；保留既存enrichment来源警告`enr-06678`、`enr-06937`和语义审查提示。`audit_relation_consistency.py`断裂目标、非法类型、缺反向、弱证据及未基线通用证据硬错误均为0；诊断135个零关系KU、100个孤立预览行、1个超连接KU。按源序下一段为p.189 `chp-7:07_CHP-7_sec_i:l243-257`，28条statement待分类；全书S2尚未交接。
+
+## 2026-10-14：第八章p.206–209 S2语义复核与关系候选裁决
+
+按`segments.jsonl`源序对照`CHP-8.pdf`物理第4–7页，复核p.206–209四段共88条既有statement，逐项处理35条此前未分类项；新增14条原子statement、11个来源局部候选，mentions净增2条。四段写后共102条statement，`relation_candidate=true/false`为80/22：p.206 23/6、p.207 17/3、p.208 21/4、p.209 19/9。无新建KU或S6正式关系。
+
+- p.206（`chp-8:08_CHP-8_sec_i:l30-41`）：24条旧statement中分类14条、复核10条；新增5条statement，写后29条（23 true、6 false）。拆分实藏作品与Haskell推断、作品内容与审美解释；纠正`cand-2295`类型为person，并把后续购买作品组mention从收藏端点改接作品组。
+- p.207（`l43-51`）：18条旧statement中分类7条、复核11条；新增2条statement，写后20条（17 true、3 false）。纠正叙述归属：Roomer赞扬Preti，De Dominici为转述来源；分开Giordano为Roomer作画的未识别作品与据称伪作的旧大师作品。Preti画作令Roomer失望、此后停止委托仍是作者提出且证据不足的假设；与p.208续句保持同一未证状态。
+- p.208（`l53-60`）：24条旧statement中分类7条、复核17条；新增1条statement及5个候选，写后25条（21 true、4 false）。区分那不勒斯画家群与绘画作品组；纠正Roomer索引副条被映射为“南北文化关系”概念的错误，并将索引候选恢复为人物类型；新增未名画家和评论者群组。印本校读记入S2，不改S0。
+- p.209（`l62-70`）：22条旧statement逐条复核，裁决7条未分类项，新增6条statement及2个开放候选，写后28条（19 true、9 false）。修正中介→Ruffo的信息方向；拆开出生地与未名家族、收集起始与迁入/建造宫殿、贸易与税收收入、政治概述与1661年事件、艺术赞助与宫殿文化角色。两个索引副条“contemporaries”“size and expense”不再冒充独立人物端点；删除对应的错误mention，并将未名家族和同时代画家群保持开放。页图校读包括`Use`→`life`、`Strada Emnianuela`→`Strada Emmanuela`、错识引号/破折号及`halfa`→`half a`，均只记入S2。p.209代表性收藏句由p.210 L73闭合，续句两侧均标为关系候选；p.210的“contemporaries”提及改映为cand-12039，并删除将“this motive”误映为人物的非实体提及。该跨页映射修正的statement与mention恢复副本后缀为`.bak-s2-chp8-p209-p210-contemporaries-link-20261014`。
+
+每段受控脚本先dry-run，核对statement清单、来源段哈希、候选序号和表前态后apply；四段恢复副本后缀分别为`.bak-s2-chp8-p206-relation-review-20261014`、`.bak-s2-chp8-p207-relation-review-20261014`、`.bak-s2-chp8-p208-relation-review-20261014`、`.bak-s2-chp8-p209-relation-review-20261014`。写后全库14,238条statement、12,017个candidate、28,072条mention；`relation_candidate=true/false/unset`为8,933/3,477/1,828。严格阶段审计`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的断裂目标、非法类型、缺反向、弱证据及未基线通用证据硬错误均为0。仍有两条既存enrichment `source_ref`警告及通用语义复核提示；另诊断135个零关系KU和1个超连接KU。按S0源序，下一段为p.210正文`chp-8:08_CHP-8_sec_i:l72-82`，34条statement中9条未分类；全书S2交接仍未完成。
+
+
+## 2026-10-14：第八章 p.233–236 语义复核
+
+按S0源序复核`chp-8:08_CHP-8_sec_ii:l271-309`四段，逐项重读正文、页注续文和`CHP-8.pdf`物理第39–42页；共复核44条既有statement，新增63条原子statement。四段写后分别为：p.233 27条（18条`relation_candidate=true`、9条false）；p.234 34条（25/9）；p.235 25条（20/5）；p.236 21条（14/7）。没有新增KU或S6正式关系；p.234新增两个来源局部作品候选`cand-12097`、`cand-12098`和一条mention，并调整两条既有mention映射。其余页不新增candidate或mention。
+
+p.233继续保留Haskell的推测语气、无名施事和分层引述，拆分Sacconi赞助、Cassana雇佣及Venice行程、委托作品/指令/警告/展览/评价，以及Gabbiani与Loth的各自陈述。页末modello句保持续接Fumiani。修复一次毁损作品引句的末尾越界，确认`original_quote`保留S0原文。
+
+p.234分开Fumiani设计要求、modello提交/审查/批准和主题修改，Cassana履历/肖像/职责/作品，Cook肖像抵达与Ferdinand评价，以及Ratti报告和Haskell的年代反驳。新增具体modello与肖像群候选；将对应mentions映射到`cand-12097`、`cand-12098`及1716 inventory `cand-7936`。一次全表审计发现六条`original_quote`错误地混入印本校读，已恢复为精确S0 OCR引句，校读仅保留在S2 qualifiers。
+
+p.235把Giordano玻璃画、Livorno到访和为Ferdinand工作分开；不猜“one exception”或两位未名画家身份。Ricci部分拆分首次联系不明、Venice缺席、1704 Crucifixion委托、取代Madonna的目的、购藏、Florence到访和Cassana市场职责；另拆Marucelli雇佣、Francesco于1703年在Rome去世、两箱运画、Marco风景画、Poggio房间计划及Ferdinand延期、Allegory创作/毁损和幸存的两组装饰。页图显示脚注6紧接毁损句；notes 1–6按对应断言重连。S2校读L292 `painted, for`、L296 `Marucelli.of whom`、L297–298 `Grand Princewhich`/`. included`，不改S0。
+
+p.236把Haskell关于Ferdinand参与的推论与Gherardi关于具体指令的后出证言分开；拆出新职业阶段判断、宫廷氛围解释、Prince性格的象征性解读、壁画新颖性与Ferdinand欣喜。小人物画组、匿名合作者绘制建筑背景、Ferdinand的审美反应、Ricci被引述的评价及macchiette后来流行也各自记录；notes 1–3回链到具体陈述。页图确认S0 `little suture`印本为`little future`，沿用S2校读。修正一条新statement误用L304而非L309的来源范围。
+
+控制脚本为`classify_chp8_p233_l271_279_semantic_review_20261014.py`、`classify_chp8_p234_l281_289_semantic_review_20261014.py`、`classify_chp8_p235_l291_301_semantic_review_20261014.py`和`classify_chp8_p236_semantic_refinement_20261014.py`；另有p.233、p.234、p.235及p.236 quote/range repair脚本。脚本默认dry-run，校验来源行、statement集合、精确引句、候选外键和表前态后原子写回。表恢复副本包括`.bak-s2-chp8-p233-l271-279-semantic-review-20261014`、`.bak-s2-chp8-p233-bacchanal-quote-repair-20261014`、`.bak-s2-chp8-p234-l281-289-semantic-review-20261014`、`.bak-s2-chp8-p234-quote-contract-repair-20261014`、`.bak-s2-chp8-p235-l291-301-semantic-review-20261014`、`.bak-s2-chp8-p235-quote-range-repair-20261014`、`.bak-s2-chp8-p236-semantic-refinement-20261014`和`.bak-s2-chp8-p236-quote-range-repair-20261014`；p.234候选、mentions和coverage亦各留有批次恢复副本。
+
+写后全库14,630条statement、12,076个candidate、28,120条mention；`relation_candidate=true/false/unset`为9,367/3,744/1,519。`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；覆盖登记832段中678 reviewed/complete、154 excluded/complete、0 queued/partial。关系一致性审计的断裂目标、非法relation_type、缺反向、弱证据及未基线通用证据硬错误均为0；诊断仍为135个零关系KU、100个孤立预览行及1个超连接KU。两条既存enrichment `source_ref`警告和通用语义复核提示仍在。按S0源序，下一首个未分类statement位于p.237 `chp-8:08_CHP-8_sec_ii:l311-325`（11条中3条未分类）；全书S2交接未完成。
+
+
+## 2026-10-14：第九章 p.247–251 语义复核
+
+复核`chp-9:09_CHP-9_intro:l27-36`、`l38-46`、`l77-88`、`l90-104`和`l106-114`五段，逐页对照`CHP-9.pdf`物理第5、6、11–13页，重读正文、脚注与跨页指代。74条既有statement均完成语义复核和`relation_candidate`裁决，拆分并新增49条原子statement；五段最终分别为p.247 30条（25 true、5 false）、p.248 16条（14/2）、p.249 15条（10/5）、p.250 28条（17/11）、p.251 34条（17/17），无未分类项。没有新增候选、KU或S6正式关系。
+
+- p.247恢复并逐一核对62条既有提及，另为Renier引语中的Venetian art patronage增加精确提及，共63条。拆开新贵族阶层的构成/评价、财富与政治分化、古老家族排斥/融合、教会与国家治理、参议院接纳与买入贵族身份等断言。将赞助端点映射到`cand-2720`艺术赞助语境；图像校读只记S2，不改S0。
+- p.248恢复并核对57条既有提及；把Antonio Barbaro战事、驻罗马使节经历分开，分列Sardi立面建造、War of Candia和Barbaro相关行为，并将Patrician赞誉对象从艺术赞助改为印刷品/出版者`cand-8149`。将跨页OCR校读移至真正续接的p.249 statement。
+- p.249恢复并核对38条既有提及，拆出三条原子断言。把Pesaro宫殿立面mention由Damerini档案`cand-8182`改接立面作品`cand-8180`；分开立面比较、政治起因、宫廷限制贵族权力、Barbaro遭解职/报复和贵族炫耀趋势/同时代人的品格判断。`os`校为`of`仅记S2。
+- p.250恢复并核对65条页内提及，另为合并注释L348中1749年Labia公证库存增加精确档案提及。既有库存断言的主题端点由画作集合改为已存在的档案候选`cand-8548`；把Zenobio宫殿、财富传闻、Dorigny壁画委托、建筑框架/法尔内塞影响、Carlevarijs住宿/创作/安置、Widmann住所/壁画、Labia宫殿建成与炫富分开。页图校读`socalled`、`i68os`、`trionso`和`138139-`；档案没有独立调阅。
+- p.251恢复并核对57条页内提及，为合并注释L350–351补7条Florio与1708年信件/出版物提及。将Palazzo Manin比较、装饰评价、挂毯/镜子、画廊作品、Cignani与Mazza作品、重复雇用团队、Manin风格描述及其四处实例、新旧家族共同炫耀、同时代人关于贵族的格言分别记录。p.251 L114的Ricci续句回链p.252 L117。印本确认S0 OCR`Le Crazie`应读作`Le Grazie`，仅记S2。
+
+批量表恢复副本按五段各自页码及`.bak-s2-chp9-*-semantic-review-20261014`后缀保存；p.250另在合并注释段添一条档案提及，p.251另添七条脚注提及。p.251首次应用时，mention和statement表已按预检计划写入，coverage写入因脚本参数遗漏中止；随后以三表恢复副本、57条基线提及ID、34条statement及候选外键为前置核验，仅补写coverage并通过审计，没有重复写前两表。相应脚本提供`--resume-partial-apply`恢复路径。
+
+写后全库1,019 KU、12,082候选、18,542提及、14,794条statement；分类为9,542 true、3,861 false、1,391 unset。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误0；`tests/test_audit_tables.py`十二项通过。两条既存enrichment `source_ref`警告及通用语义复核提示仍在。当前按S0源序的首个未分类statement已推进至p.252 `chp-9:09_CHP-9_intro:l116-122`（20条中6条未分类）；全书S2交接未完成。
+
+## 2026-10-14：第九章 p.252–253 S2语义复核
+
+按S0源序处理`chp-9:09_CHP-9_intro:l116-122`（印刷p.252）和`l124-132`（印刷p.253），逐行核对`CHP-9.pdf`物理第14–15页，并检查p.251 L114→p.252 L117及p.252 L122→p.253 L125续接。p.252的20条既有正文statement全部复核，拆分新增15条；写后正文35条，28条`relation_candidate=true`、7条false、无unset。p.253的14条既有正文statement全部复核，拆分新增13条；写后正文27条，14条true、13条false、无unset。另将p.252注释L353–359和p.253注释L360–363中对应statement逐项复核并补齐分类。
+
+p.252从固定基线恢复61条正文mention；对合并注释L353–359恢复45条p.252 mention。另有一条基线mention把note 3中的泛称`the room`误映射为Dionisio在Udine的图书馆，因注释未识别该房间且正文图书馆是另一处地点而不恢复。复核后将候选`cand-8275`名称改为“未识别天顶壁画中的古典与寓意题材群”，避免把它称作Dolfin图书馆壁画。分开Ricci的四类雇佣、Tiepolo的职业/风格、战争语境与Venice历史评价、Daniele III的公职/演说/遗嘱主张、Daniele IV在Morosini麾下的伯罗奔尼撒军事经历与1715年经历、Dionisio任职/迁居/治理/居住/建馆，以及Bambini绘制的壁画和图书馆装饰关系。将conditional bequest的主语从Daniele III改为其遗嘱。
+
+p.253从既有迁移规格恢复46条正文mention及22条本页注释mention。把楼梯顶壁画、亚伯拉罕场景、《所罗门的审判》及各自宫殿空间分开；将Dionisio的统治比喻和Tiepolo风格评价保留为Haskell的解释；分别记录Tiepolo作品纪念Antonio Barbaro和未注明序号的Daniele Dolfin，后者身份保留待对齐。英国驻扎官关于Alessandro Zen继任者的报告继续归属于匿名报告者及Haskell转引，职位候选缺席不写成已知人物关系。p.253注2的意大利报刊转引与正文英语引语保持来源区分；p.252–253未新增KU或S6正式关系。
+
+本批受控脚本为`chp9_p252_semantic_review_20261014.py`和`chp9_p253_semantic_review_20261014.py`，均先dry-run校验来源哈希、statement清单、mention候选及精确Unicode跨度，并备份后写入。p.252第一次apply在写盘前被一条既有全库空字符串端点拦截；校验范围修正为本批语义复核行后重跑成功，未发生部分写入。p.253页图保存为`p253_page_review_20261014.png`；S0来源文本未修改。p.252新增校读记录包括L118 `subjectmatter`→`subject-matter`、`chronicler "of`→`chronicler of`，L120 `2 virtual`→`a virtual`及L122 `thirty-six-year.residence`→`thirty-six-year residence`；脚注图像另校正L355 `Ans`/`arc`、L356 `Disccndenze`、L357注号及人名、L359人名。p.253保留经页图核实的L131破折号行末连接、注2 `dite`→`dire`及注4 `i$>55. P-14-`→`1955, p. 14`；清除与S0当前文本不相符的旧OCR校正标记。
+
+写后全库1,019 KU、12,082候选、18,716 mention、14,828 statement；`relation_candidate=true/false/unset`为9,572/3,895/1,361。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误0；`tests/test_audit_tables.py`十二项通过。既存两条enrichment `source_ref`警告与语义审查提示仍在。当前首个未分类statement为p.254 `chp-9:09_CHP-9_intro:l134-146`（25条中7条未分类）；全书S2交接未完成。
+
+## 2026-10-14：第十章 p.327–330 S2语义复核
+
+按正文源序处理第十章p.327–330四个正文段，结合p.330 `CHP-10.pdf`物理第63页和脚注放大图核对S0转录。p.327写后32条statement（24 true、8 false）；p.328为23条（12/11），p.329为24条（15/9），p.330为19条（13/6），四段共98条，全部完成`relation_candidate`裁决，无unset。p.328、p.329、p.330分别新增7、6、9条原子statement；没有新增KU或S6正式关系。
+
+p.328把Biffi对Rousseau的追随判断、日记事件和褒扬、Arcadias绘画说服力、Zais作品真伪/坚实度、Gozzi对期刊空间分配的批评、未完传统荣誉论点及诗意对Zuccarelli成功的作用分开。新增景观绘画提及`m-s2-ch10-p328-0042`映射至`cand-3575`。p.329闭合p.328的Gozzi传统民族荣誉论点，并与其后社会效用论分开；增加State's Academy计划、1772年委员会组织、学院仿照既有机构及其组织并未反映新理论等statement。Haskell未具名复数范畴“new political economists”保留为`cand-12117`，不推定个人或组织；England、Spain映射修正为place候选。
+
+p.330闭合p.329艺术家社会地位句，并保留其与相邻艺术赞助争论的语义分界。将Memmo的行会职务与准备报告的手稿分开；分别记录免会费主张、画家C.的税收问题、画家性情问题、Vasari阅读提示、学院徽记/名称/守护圣人问句、绘画自由引语及Haskell对Memmo的评价。原先映射至Canaletto的“C.”改为未识别人物候选`cand-12118`；Haskell注2提出的Canaletto假说与年代张力仍在注释中。Algarotti被明确设为“伟大艺术会带来赞助人”论点的发言主体；艺术家地位未变与传统赞助是否必要分别作为非关系陈述。将Martyn引文拆成Signory赴S. Rocco教堂 procession 和画家在Scuola展出两条；将Nuova Gazzetta Veneta对Foscarini肖像的褒扬与匿名其他作品的褒扬分开。`Scuola`映射为来源限定的S. Rocco场所候选`cand-8588`；Haskell转引材料未声称独立查阅。补入`Vasari’s life of Montorsoli`对`cand-9864`的精确提及，逐项保留页图确认的OCR读数，不改写S0来源。
+
+p.329→p.330艺术家地位句及p.330→p.331 Piazza S. Marco描述的续句链接已核对；p.330脚注1–4与对应正文statement保持回链。受控脚本`chp10_p328_semantic_reconciliation_20261014.py`、`chp10_p329_semantic_reconciliation_20261014.py`和`chp10_p330_semantic_reconciliation_20261014.py`按表前哈希预检、preview后apply，p.330四表恢复副本后缀为`.bak-s2-chp10-p330-semantic-reconciliation-20261014`。页图为`p330_page_review_20261014.png`与`p330_notes_zoom_20261014.png`；S0文本未改。写后全库1,019 KU、12,096 candidates、20,100 mentions、14,897 statements；true/false/unset为9,807/4,193/897。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；保留既有`enr-06678`、`enr-06937`来源警告及通用语义复核提示。当前正文游标为p.331 `chp-10:10_CHP-10_sec_ii:l269-271`，12条statement中3条未分类（`st-chp10-p331-academy-shows-ended-1787`、`st-chp10-p331-limited-surviving-criticism`、`st-chp10-p331-s-rocco-not-salon-in-scale`）；全书S2尚未交接，合并注释段中的脚注statement仍按其注释源段后续处理。
+
+
+
+## 2026-10-14：第十三章p.337–340正文语义处理
+
+按规范S0源序继续第十三章。p.337段`chp-13:13_CHP-13_intro:l52-59`的30条statement全部裁决（24 true、6 false）；补建匿名学术读者、禁书购书者群体、出版物类型及审查语境候选，校正旧索引映射并区分Haskell叙述与Goldoni被转述的意见。p.338段`l61-68`拆分为28条原子statement（23 true、5 false）；纠正Novelli人物/作品候选映射、匿名权威与Inquisitori的主体边界，分开Goldoni目标读者、Pasquali出版物受众、Zatta政治评价和Novelli声望。页图和来源字形复核后，严格审计通过。
+
+p.339段`l70-77`原有23条statement中15条未裁决；完成29条写后statement（19 true、10 false），新增候选`cand-12154`–`cand-12161`及2条mention。分开Fontebasso与Zompini面临的Dante中世纪图像难题、Zatta嘲讽与序言中虚构秘书的寓意解读、Novelli两版插图的比较、匿名其他出版商的作品与影响、Pinelli图书馆的关联与名声评价。修正Novelli人物与作品组、出版者与出版物及“权威机关”与Inquisitori的错接；保留Pinelli私人藏书和藏画类型未决。印本图像为`CHP-13.pdf`物理页8，S0未改。受控脚本`classify_chp13_p339_semantics_20261014.py`先dry-run后apply；对话中途p.338脚本首次dry-run报一处撇号字形差异，按S0弯引号修复后严格审计通过。p.339三表恢复副本后缀为`.bak-s2-ch13-p339-semantic-review-20261014`。
+
+p.340段`l79-88`原有41条statement中20条未裁决；新增8条原子statement，写后49条（37 true、12 false），新增候选`cand-12162`–`cand-12170`和11条mention。拆开Pinelli出生/求学声誉、本人收藏/藏品类别、散佚事件/同时代人反应；把Remondini市场与客户、扩张与国际客户、商业竞争与机构敌意、仿制实践与Haskell评价、打印者与艺术家聘用分别记录；把Wagner、Viero开店事实与职业属性分开。修正`their market`指向国际客户候选的错映射；Wagner店铺与其“对印刷者意义重大”的句子改用店铺主体和来源限定的印刷者群体。店铺候选保持类型未决，因为taxonomy未规定商业场所/营业体的独立类型。印本图像为`CHP-13.pdf`物理页9，保存在`.tmp_chp13_p340_phys-09.png`。
+
+p.340批次脚本为`classify_chp13_p340_semantics_20261014.py`，默认dry-run，锁定S0段SHA与三张表写前SHA，apply前备份后缀`.bak-s2-ch13-p340-semantic-review-20261014`。首次严格审计发现新增9个candidate的`candidate_source_ref`误用范围锚；未改变来源内容或关系端点，随后由`repair_chp13_p340_candidate_source_refs_20261014.py`将其改为各自精确单行锚，并为候选表保留`.bak-s2-ch13-p340-source-ref-repair-20261014`。修复后严格审计通过：1,019 KU、12,148 candidates、20,147 mentions、14,943 statements，`s2_missing=[]`、`errors=[]`；仍有既存`enr-06678`和`enr-06937`来源警告及通用语义审查提示。关系一致性检查：断裂目标、无效类型、缺反向、弱证据及未基线通用证据硬错误均为0；诊断135个零关系KU、100条孤立预览行和1个超连接KU。p.339–340共143条mention跨度及78条statement引句核验通过。
+
+当前全库statement分类为9,915 true、4,293 false、735 unset；按S0源序，下一段p.341 `chp-13:13_CHP-13_intro:l90-96`共29条statement，14条待裁决。p.337–340 coverage原均为reviewed/complete；此机械登记不代表全书S2语义交接。未进入S3–S6。
+
+
+## 2026-10-14：第十三章p.341正文语义处理
+
+处理S0段`chp-13:13_CHP-13_intro:l90-96`（段SHA-256 `2aedb9d5ab3791a325d38e6b2a6b963d39fe6faab03ddf8930abde4740e74a95`），对照`CHP-13.pdf`物理页10。原29条statement中14条未裁决；新增4条原子statement后，共33条（28 true、5 false、无unset）。将出生与Venice/Bologna学画拆分；将1722年返Venice与随后带有`seems`限定的Vienna行程拆分；将Paris至London路线与London藏家访问拆分。分别记录打印商/出版商周围的匿名赞助群体和其对Venetian artistic scene的影响；不与同段后文的connoisseur circle混并。另将dresser/engraver/collector描述、声望评价及Crespi牧歌的审美判断标为非关系，友谊、联系、旅行、委托、收藏与风格偏好作为来源限定关系候选。
+
+将mention `m-s2-ch13-p341-005`从connoisseur circle `cand-10061`改映至`cand-12171`（Venetian artistic scene term）；`m-s2-ch13-p341-001`改映至`cand-12172`（p.340商人/出版者指代组），并移除泛称`both activities`的非实体mention `m-s2-ch13-p341-003`。新增cand-12171–cand-12172，类型均为`term`，并使用精确行锚`#L91`。页图确认S0 `number.of`印本为`number of`、`ani`印本为`and`；校读取statement qualifiers，不改S0。
+
+受控脚本`classify_chp13_p341_semantics_20261014.py`默认dry-run，核验段SHA、三表SHA、14条unset ID、候选映射和S0引句后写入。恢复副本后缀为`.bak-s2-ch13-p341-semantic-review-20261014`。p.341 88条mention的字符跨度与写后33条引句均核验通过。全库严格阶段审计通过：1,019 KU、12,150 candidates、20,146 mentions、14,947 statements，`s2_missing=[]`、`errors=[]`；关系一致性硬错误均为0。保留既存`enr-06678`、`enr-06937`两条来源警告和通用语义复核提示；诊断135个零关系KU、100条孤立预览行、1个超连接KU。
+
+当前statement分类9,928 true、4,298 false、721 unset。按S0源序，下一段为p.342 `chp-13:13_CHP-13_intro:l98-105`，27条statement中8条待裁决；尚未进入S3–S6。
+
+## 2026-10-14：第十三章p.342–346及第十四章p.347–350语义续接
+
+按S0正文顺序完成第十三章p.342–345四段和p.346脚注段：正文分别为27条（24 true、3 false）、29条（26/3）、31条（22/9）、59条（40/19）；p.346脚注段6条（5/1），均无unset。第十三章合并注释段`chp-13:13_CHP-13_intro:l179-251`的102条statement全部分类（48 true、54 false）。该段原来缺少实体mention锚点；依S0注释全文补入并逐字核对后为264条。严格审计发现6组跨度重叠，已修正为作者/定位器、作品/版画编号等互不冲突的锚点；修复后严格审计通过。详情见`classify_chp13_p342_semantics_20261014.py`、`classify_chp13_p343_semantics_20261014.py`、`classify_chp13_p342_p343_notes_semantic_20261014.py`及`chp13_p342_overlap_repair.py`等记录脚本。
+
+第十四章p.347为32条statement（21 true、11 false）；p.348为32条（14/18）。p.349按物理页3逐项复核正文和脚注，正文42条、脚注9条，共51条（48 true、3 false）。拆分行程、居留、出版限制、影响判断与通信/档案关系，补入53条精确正文mention；原p.349正文mention段曾为零行。合并注释段既有35条p.349提及锚点经重叠修复后保持有效。页图保存为`chp14_p349_physical_page3_review_20261014.png`。受控脚本`classify_chp14_p349_semantics_20261014.py`默认dry-run并锁定S0/PDF及表SHA。首次apply的写后哈希校验调用了错误函数名，备份回滚恢复原表；修正后重新dry-run与apply成功，备份后缀`.bak-s2-ch14-p349-semantic-review-20261014`。
+
+p.350按物理页4复核正文及三条本页脚注记录，共38条statement（18 true、20 false），无unset。正文由18条整理为35条，拆分社会评价、文献可见性、画廊组织原则、历史解释、在世艺术家委托、艺术家题材专长与鉴赏判断；新增9个来源限定候选和36条正文精确mention。p.350正文段原先无mention行。页图保存为`chp14_p350_physical_page4_review_20261014.png`。脚注L179的`Opere, Vin`按页图校读为`Opere, VIII`，登记候选cand-10266及精确mention；注3“See Chapter 12”作为内部导航分类为非关系。首次严格审计指出“not well known in Venice”引句跨L36–37但source line end仅到36；由`repair_chp14_p350_not_known_source_line_20261014.py`扩至L37后，最终严格阶段审计`errors=[]`、`s2_missing=[]`。p.350备份后缀为`.bak-s2-ch14-p350-semantic-review-20261014`和`.bak-s2-ch14-p350-footnotes-20261014`。
+
+写后全库1,019 KU、12,172 candidates、20,748 mentions、15,052 statements；`relation_candidate=true/false/unset`为10,061/4,399/592。关系一致性检查硬错误为0；仍有两条既存enrichment `source_ref`警告及通用语义质量提示。无新增KU、S6正式关系或独立语义验收。按S0源序下一段为p.351 `chp-14:14_CHP-14_intro:l46-53`（41条statement中15条unset）；全书S2交接未完成，未进入S3–S6。
+
+## 2026-10-14：第十四章p.352–354复核及提及锚点恢复
+
+核对工作树与提交`c65900801de1cb3af9089345250774161d67f5c9`，发现p.352–354正文与合并注释段的一批既有提及行缺失；从提交快照恢复221条（p.352/353/354页前缀分别76/74/71），逐条校验候选外键、当前S0段落字符跨度、重复ID及交叉跨度，均通过。此前p.357–360及第十五章p.361的277条mention也从同一快照恢复并通过相同核验；两批合计恢复498条，不以恢复本身冒充新语义审查。
+
+按书序复核p.352–354：p.352共31条statement（18 true、13 false）；p.353共35条（23/12），将Algarotti对建筑与透视的赞赏、对绘画学养的赞赏及国王偏好古代大师三条原误标false的明确关系改为true；p.354经复核拆分一条复合评价后共28条（20/8）。p.354新增来源限定候选`cand-12195`–`cand-12198`及5条mention，分别记录萨克森匿名赞助群、Newton光学发现、未具名色彩大师作品组和白底绘画提案；将“萨克森”从错误的受赠群体端点改为地点语境，并将重复的Algarotti索引子目端点改为Newton光学概念。将p.354注3表达为Haskell对1756年信件所含白底提案的解释，未称独立核阅信件或确认发明年代。p.354行分类及endpoint具体理由见对应脚本与本章结果。
+
+写后全库15,055条statement（10,077 true、4,540 false、438 unset）、12,176 candidates、21,325 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义提示仍在。当前第一未裁决段为p.355正文`chp-14:14_CHP-14_intro:l85-95`（22条中7条unset）；p.356正文也有7条unset，合并注释段另有12条待按页复核。全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：p.355–356完成裁决及mention恢复
+
+核对当前S0源段及既有提交快照后，恢复p.355正文/注释87条、p.356正文/注释72条，共159条原有mention；候选外键、跨度文本及重叠检查均通过。历史恢复量现为p.352–354的221条、p.355–356的159条、p.357–361的277条，合计657条；恢复行与本轮新建mention分开计数。
+
+p.355共27条statement（22 true、5 false）。受控脚本`classify_ch14_p355_remaining_20261014.py`默认dry-run，固定三表写前哈希，核验3个新来源锚点、候选外键、9条Piazzetta人物提及改映和跨度交叉后apply；备份后缀`.bak-s2-ch14-p355-semantic-review-20261014`。新增cand-12199–cand-12201及3条mention，分别代表Algarotti所识别的未具名威尼斯画家群、日期未定的威尼斯访问及Piazzetta三幅古典历史画组。校正Algarotti—同代画家、Piazzetta—人物/访问/作品组端点；将p.355–356跨页Canaletto句限定为Canaletto仍受Consul Smith密集雇佣，不混入Bonomo另报的完成工期。注释中的两件作品与两处地点无一一对应证据，故未分配单件作品位置。
+
+p.356共34条statement（25 true、9 false）。受控脚本`classify_ch14_p356_remaining_20261014.py`默认dry-run，固定三表写前哈希，逐项校验6条新mention及statement引句、端点和跨度后apply；备份后缀`.bak-s2-ch14-p356-semantic-review-20261014`。新增cand-12202–cand-12207及6条mention：艺术外推广义、礼物收件角色、威尼斯艺术市场、为新赞助人寻找的未具名作品、新赞助人角色，以及身份未决的普鲁士国王。将“the Venetian art market”与“looked out for pictures…”拆为两项关系；将p.356注4端点从书信改为未具名韦罗内塞画作，收件人Walpole与价格条件保留为限定；注5中`roi de Prusse`原误连Prussia地点，改连未定身份的人物候选，不凭语境认定为Frederick；`the Veronese`脚注提及从Paolo Veronese人物候选改映该画作。注5关于王位继承者的遗赠保留为Diderot经Treat转引的次级来源断言；注7两封给Frederick的具日期书信拆分为两条archive→person关系候选，不推定作者或信件内容。书信、Treat引文与档案均未独立查阅。
+
+写后全库15,059条statement（10,097 true、4,550 false、412 unset）、12,185 candidates、21,493 mentions。严格阶段表审计通过：`errors=[]`、`s2_missing=[]`；仅保留两条既存enrichment来源警告和通用语义提示。按S0源序下一未裁决段为第十五章p.362 `chp-15:15_CHP-15_sec_i:l16-25`，47条statement中20条unset。全书S2未交接，未进入S3–S6。
+
+
+## 2026-10-15：第十五章p.362正文、脚注和锚点修复
+
+正文`chp-15:15_CHP-15_sec_i:l16-25`的48条statement完成分类（41 true、7 false），20条原unset全部裁决；另将新增的“别墅更接近奥地利建筑模式”statement列为true。恢复该正文段73条历史mention，候选外键、S0字符跨度和非交叉条件通过；新增14个来源限定候选和9条mention。修复“he”落在“they”内部的无效mention，Michelangelo/Sansovino映射到人物候选，Venetian从城市地名改为文化取向term，并为凸窗、主体楼块、翼楼和端部亭阁分别建候选，避免混指整个别墅。四件选定雕塑继续逐件保留；集合层评价不重复扩成四条关系。
+
+同页注1–2的四条书目statement规范为主书`cand-2962`指向已识别archive候选的`cites`候选，新增4条精确书目mention。引用仅记Haskell的引文路径；家族史、Paravia pamphlet、Sforza文章和Memmo著作均未独立查阅，不据其内容增写事实。受控脚本`classify_ch15_p362_remaining_20261015.py`及`classify_ch15_p362_footnote_citations_20261015.py`均经dry-run、写前SHA锁定和S0跨度/端点核验后apply；备份后缀分别为`.bak-s2-ch15-p362-semantic-review-20261015`和`.bak-s2-ch15-p362-footnote-citations-20261015`。p.362引用重建及实体提及恢复副本另存于对应恢复备份。
+
+写后全库15,060条statement（10,116 true、4,556 false、388 unset）、12,199 candidates、21,577 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；尚有两条既存enrichment来源警告和通用语义复核提示。按S0源序下一未裁决段为p.363 `chp-15:15_CHP-15_sec_i:l27-36`（12条unset）；全书S2未交接，未进入S3–S6。
+
+## 第十五章 p.364 Farsetti正文剩余statement裁决（2026-10-15）
+
+处理`chp-15:15_CHP-15_sec_i:l38-41`此前13条unset。正文21条现全部分类为16条关系候选、5条非关系主张。保留Tommaso对书籍/手稿收藏的偏好、对家族传统的忠诚及受侄子挥霍影响、贵族传统艺术赞助角色的变化、举报无效、收藏出售及学者反应、新赞助人公共服务观等来源限定关系；“无效”不推断Inquisitors后续行动，Memmo仍是新群体中的例子。五条非关系主张是Tommaso叙述语气、范围未明的财产拆散、Farsetti影响评价、人物形象评价及赞助人类型学定位，原文claim仍保留。
+
+新增候选`cand-12222`家族传统term、`cand-12223`贵族艺术赞助角色term、`cand-12224`未逐项识别的收藏群、`cand-12225`未名威尼斯学者群及`cand-12226`新赞助人群。将“family tradition”mention从家族实体`cand-10431`改映为独立概念；复用`cand-10473`表示本句泛称贵族，复用索引事件`cand-1012`表示收藏出售。收藏群不等同于铸像或绘画两项索引集合，也不假定其完整范围；不推断财产所有人、买家、学者个人或正式组织。新增6条精确mention锚点，覆盖贵族、赞助角色、收藏群、出售事件、学者群和新赞助人群。
+
+受控脚本`process/classify_ch15_p364_remaining_20261015.py`先以表哈希、固定statement集合和S0跨度dry-run，再apply；备份后缀为`.bak-s2-ch15-p364-classification-20261015`。写后全库15,060条statement（10,128 true、4,569 false、363 unset）、12,204 candidates、22,194 mentions。严格表审计`errors=[]`、`s2_missing=[]`；既存enrichment `source_ref`警告`enr-06678`、`enr-06937`与通用语义提示不变。按源序下一段为p.364合并注释`chp-15:15_CHP-15_sec_i:l43-56`，12条statement待裁决；全书S2未交接，未进入S3–S6。
+
+## 第十五章 p.363–364合并脚注statement裁决（2026-10-15）
+
+复核合并注释段`chp-15:15_CHP-15_sec_i:l43-56`的16条既有statement，含p.362注1–2已完成的4条。将剩余12条unset裁为11条引文关系候选、2条非关系章内指引，并把p.363注1原本合写的De Tipaldo与Mazzotti拆成两条原子statement；写后合计17条（15 true、2 false）。所有外部档案/书目仍仅记录Haskell在注释中的引文路径，不称独立核验或据引文扩写内容。将De Tipaldo、Mazzotti、Lodovico Gabrieli档案、Malamani、Canova《Quaderni》、Haskell与Levey、p.364的Busta 540档案、Moschini、Molmenti、Torcellan及Tabacco统一记为主书`cand-2962`→对应archive候选的`cites`；注3“See Chapter 12”与注5“See Chapter 11”保留为内部导航，不当作实体关系。保留S2页图校读的注号和OCR更正，S0未改写。
+
+受控脚本`process/classify_ch15_p364_notes_remaining_20261015.py`先校验固定statement集合、候选类型、来源行和写前SHA，再dry-run/apply；恢复副本后缀为`.bak-s2-ch15-p364-notes-classification-20261015`。为原note 1新增独立Mazzotti statement一条。写后全库15,061条statement（10,139 true、4,571 false、351 unset）、12,204 candidates、22,194 mentions。严格表审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告与通用语义提示不变。下一段按源序为p.364 Andrea Memmo正文`chp-15:15_CHP-15_sec_ii:l3-4`，10条statement待裁决；全书S2未交接，未进入S3–S6。
+
+## 第十五章 p.364 Andrea Memmo开篇剩余statement裁决（2026-10-15）
+
+对`chp-15:15_CHP-15_sec_ii:l3-4`此前10条unset完成裁决；正文18条现全部分类为13条关系候选、5条非关系主张。关系候选保留：Memmo在Consul Smith图书馆首次欣赏“chaste”建筑、属于威尼斯贵族、受法国文化/观念塑造、对政治改革的热情，以及试图打破同辈贵族隔绝。政治改革句保留Haskell的“异常强烈”评价和cand-1648索引子目身份待S3；不推断具体政策。五条非关系项是第12章回指、比较性的赞助人评价、1729出生年属性、未列举的贵族娱乐活动及未名恋情系列的概括。p.364末句仍与p.365 L7组成完整claim，脚注1和跨页锚点保留。
+
+受控脚本`process/classify_ch15_p364_memmo_remaining_20261015.py`先校验statement/coverage写前SHA、S0正文片段、18条固定集合及原分类，再dry-run/apply；恢复副本后缀为`.bak-s2-ch15-p364-memmo-classification-20261015`。本批仅分类既有statement，无新增候选或mention；脚注3–6的链路和注号/OCR校读不变。写后全库15,061条statement（10,144 true、4,576 false、341 unset）、12,204 candidates、22,194 mentions。严格审计`errors=[]`、`s2_missing=[]`；既存两条enrichment来源警告和通用语义提示不变。下一段按源序为p.365 `chp-15:15_CHP-15_sec_ii:l6-12`，31条statement待裁决；S2未交接，未进入S3–S6。
+
+## 2026-10-15：第十五章p.367–370正文语义续接
+
+按S0源序继续第十五章正文。当前表中p.365段37条（25 true、12 false）、p.366段56条（44/12）均无unset；既有逐项结果保留在第十五章结果记录。复核发现p.367虽已登记coverage complete，38条statement中仍有18条`relation_candidate`未分类；补完后p.367为30 true、8 false。为Apologhi讽刺所指的匿名群体及Prà所代表的英雄对象补候选`cand-12235`、`cand-12236`和精确mention；修正群体端点，并将Skala题材候选与Padua地点分开。两个来源限定因果观察保留开放端点。
+
+p.368段31条现为23 true、8 false；新增`cand-12237`（公共服务观念）、`cand-12238`（被指控利益受损的公众群）和`cand-12239`（未具名政治当局）及3条mention。修正Farsetti/Memmo公共服务、Memmo家族宫邸聚会、公共利益指控和Querini早年政治困境端点；没有把未具名当局等同于State Inquisition。p.369段39条现为24 true、15 false；新增`cand-12240`记录Wynne所述“人性信任”观念，补精确mention，并把“her rapturous account”连至已存Wynne作品候选`cand-10534`。改革派系转移仍因两派未名而开放；没有把1761年的“downfall”预先等同拘押事件。
+
+p.370原15条未分类全部裁决，并将Epicurus称谓/接受史、Phocion称谓/立场各拆成两条原子statement；写后本段54条（48 true、6 false）。新增来源限定候选`cand-12241`–`cand-12243`，分别记录“the populace”、Wynne所思及所忆的两项观念；新增3条mention并重接Querini、Wynne相关statement端点。群众范围和所述文化观念均保留Haskell归属，不写成已核实的普遍事实；没有将“downfall”合并进拘押事件。
+
+受控脚本`classify_ch15_p367_remaining_20261015.py`至`classify_ch15_p370_remaining_20261015.py`均以固定statement集合和写前哈希保护，先dry-run后apply；p.370恢复副本后缀为`.bak-s2-ch15-p370-classification-20261015`。写后全库15,066条statement（10,212 true、4,637 false、217 unset）、12,221 candidates、22,208 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment `source_ref`警告及通用语义审查提示仍在。当前第一未裁决段为p.371 `chp-15:15_CHP-15_sec_ii:l69-83`（11条unset）；全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十五章p.371正文剩余statement裁决
+
+对照`CHP-15.pdf`物理页11复核`chp-15:15_CHP-15_sec_ii:l69-83`。11条unset裁为5条关系候选、6条非关系，段内49条现为43 true、6 false。保留Mme Rosenberg对Querini信念的转述、她对寓意表现的反应、Querini对古代艺术的审美理解及其相关信念；将Haskell的证据限制、De Non职业/评价描述、“well qualified to appeal”适格性判断、别墅吸引注意力及已由原子关系覆盖的综合句留作claim，不重复生成关系边。
+
+复核发现“bas-relief based on the famous composition of Apelles as recorded by Pliny”的原端点把作品依据连到了画家、把Pliny记录的作品连到了画家本人。新增未定名作品候选`cand-12246`，并将浮雕和Pliny两条关系都接到该作品；三项“restraint”“sacrifice”及作品mention共增候选`cand-12244`–`cand-12246`和3条精确mention。上述信念与文化观念保留Haskell/Mme Rosenberg归属，不据二手转述断言普遍实践或外部身份。受控脚本`classify_ch15_p371_remaining_20261015.py`经写前SHA、固定unset集、来源短语跨度及候选端点校验后dry-run/apply；恢复副本后缀为`.bak-s2-ch15-p371-classification-20261015`。
+
+写后全库15,066条statement（10,217 true、4,643 false、206 unset）、12,224 candidates、22,211 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment `source_ref`警告及通用语义审查提示不变。下一段按S0源序为p.372 `chp-15:15_CHP-15_sec_ii:l85-88`（9条unset）；全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十五章p.372正文剩余statement裁决
+
+对照`CHP-15.pdf`物理页12复核`chp-15:15_CHP-15_sec_ii:l85-88`。9条unset裁为7条关系候选、2条非关系，段内13条现为11 true、2 false。将Renier后期妥协所指的政治力量保留为来源限定匿名群体；为Querini对异教圣所的观念、Maffei的古代雕塑收藏类别及相比较的同代学者群建立可追溯端点。Querini/Maffei与Winckelmann的比较均保留Haskell归属和限定；退休状态及“理想过去”修辞不转为无端点关系。Maffei记录“evidences of the past”保留为开放关系候选，不猜成具体文献或物件。
+
+受控脚本`classify_ch15_p372_remaining_20261015.py`核验写前SHA、固定unset集合和4条mention的S0字符跨度后dry-run/apply；恢复副本后缀为`.bak-s2-ch15-p372-classification-20261015`。写后全库15,066条statement（10,224 true、4,645 false、197 unset）、12,228 candidates、22,215 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义审查提示不变。按源序下一段为第十五章合并注释`chp-15:15_CHP-15_sec_ii:l90-113`（26条unset）；全书S2未交接，未进入S3–S6。
+
+## 2026-10-15：第十五章p.365–372合并注释完成裁决
+
+按注释所属印刷页逐项复核`chp-15:15_CHP-15_sec_ii:l90-113`，覆盖p.365注1、p.367注释、p.368注释、p.369注释、p.370注释、p.371注释及p.372注1。该段现有63条statement，62条relation candidate、1条非关系；此前26条unset已全部裁决。按具体注释拆分作品/收藏断言、引文定位、目录编纂与保管来源、出版史和未核传闻；所有引文链仅说明Haskell所引来源，未声称独立查阅或据其补充事实。纠正p.371注2中的De Tipaldo书目端点，区分其十卷本传记目录与p.363注释所引的另一出版物。p.368注3将Mengs绘画与Memmo所藏数百幅版画分开；为版画组新增`cand-12251`，为洪水治理计划新增`cand-12252`，并新增3条精确mention。p.368注5的受指控行为连至未命名治理计划，保留“被指控”性质；注释未明确的具体作品、艺术家、计划对象和馆藏现状均不推断。
+
+受控脚本`process/classify_ch15_notes_l90_113_20261015.py`以写前哈希、固定statement集合及来源跨度校验完成preview/apply；恢复副本后缀为`.bak-s2-ch15-notes-classification-20261015`。写后全库15,094条statement（10,277 true、4,646 false、171 unset）、12,230 candidates、22,218 mentions；未分类statement分布于19个来源段。严格阶段审计`errors=[]`、`s2_missing=[]`；既存enrichment来源警告`enr-06678`、`enr-06937`及通用语义提示仍在。当前第一未裁决段为第十六章导言`chp-16:16_CHP-16_intro:l3-14`（19条）；全书S2未交接，未进入S3–S6。
+
+## 2026-10-15：第十六章p.373正文剩余statement分类
+
+按物理页1和已有逐句语义稿，对`chp-16:16_CHP-16_intro:l3-14`剩余19条statement作显式裁决；段内31条现为20条relation candidate、11条非关系。保留8条可用于后续关系审查的陈述：艺术传统由未名低阶层画家延续；未名经销者形成私人收藏且收藏呈现特定趣味；Sasso的买卖、与英国代理人往来、与友人/经销者通信、制作小册子，以及计划未完成的威尼斯绘画史著作。对8条中端点未指明的群体、作品和交往对象补充open-endpoint reason；计划著作继续映射既有`cand-11544`。其余11条（赞助人群体的宏观思想影响、新品味类型、群体可见度评价、Sasso生平及典型性概括）标为非关系候选，保留原claim、来源归属和限定，不增造实体或把Haskell的概括写成已核事实。该裁决未新增候选、mention或statement。
+
+受控脚本`process/classify_ch16_p373_residual_20261015.py`以固定19个statement ID、所属段与写前SHA校验，经preview后apply；恢复副本后缀为`.bak-s2-ch16-p373-residual-20261015`。写后全库15,094条statement（10,285 true、4,657 false、152 unset）、12,230 candidates、22,218 mentions；未分类statement分布于18个来源段。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义提示仍在。当前第一未裁决段为第十六章导言合并注释`chp-16:16_CHP-16_intro:l69-89`（18条）；全书S2未交接，未进入S3–S6。
+
+## 2026-10-15：第十六章p.373合并注释分类
+
+对合并注释段`chp-16:16_CHP-16_intro:l69-89`的18条unset逐项裁决；段内38条现为21条relation candidate、17条非关系。保留Armanni与Sasso书信档案的保管定位、Poore书信与拍卖记录、Sasso拍卖目录/藏品关联，以及Della Lena手稿和Ortes书信在Correr的档案位置。其余条目是传记文献引用、重复通信定位、Haskell书目页码、缺失信件概况或无新增关系的拍卖目录定位；不将引文定位误写为历史事实。外部档案与文献未独立查阅。受控脚本`process/classify_ch16_p373_notes_l69_89_20261015.py`以固定18个statement ID和写前SHA校验，经preview后apply；恢复副本后缀为`.bak-s2-ch16-p373-notes-classification-20261015`。写后全库15,094条statement（10,291 true、4,669 false、134 unset）、12,230 candidates、22,218 mentions；未分类statement分布于17个来源段。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义提示仍在。当前第一未裁决段为第十六章正文p.374 `chp-16:16_CHP-16_intro:l16-22`（22条）；全书S2未交接，未进入S3–S6。
+
+## 2026-10-15：第十六章p.374正文剩余statement分类
+
+对chp-16:16_CHP-16_intro:l16-22剩余22条statement逐条裁决；段内33条现为22条relation candidate、11条非关系。保留Strange未具名现代作品委托、威尼斯社群延续本地绘画传统、Sasso藏品/交易及作品存放、Strange对Guardi和威尼斯绘画的审美取向、Armanni行旅，以及Haskell对Sasso趣味的来源限定推断。七条开放关系分别标明未具名作品、客户、社群、藏品、销售对象、路线/行程和未逐项列举的画家；作品销售的条件语气、藏品清单的部分性及传闻被否定后仅作为Haskell解释的限定均保留。一般物流条件、传闻本身、引语修辞、人物履历和无明确对象的评价列为非关系候选。本轮未新增候选、mention或statement。
+
+受控脚本process/classify_ch16_p374_residual_20261015.py以固定22个statement ID、所属段及写前SHA校验，经preview后apply；恢复副本后缀为.bak-s2-ch16-p374-residual-20261015。写后全库15,094条statement（10,302 true、4,680 false、112 unset）、12,230 candidates、22,218 mentions；未分类statement分布于16个来源段。严格阶段审计errors=[]、s2_missing=[]；两条既存enrichment来源警告及通用语义提示仍在。当前第一未裁决段为第十六章p.375正文chp-16:16_CHP-16_intro:l24-36（5条）；全书S2未交接，未进入S3–S6。
+
+
+## 2026-10-15：恢复书前及第16–21章提及表记录
+
+按当前S0范围逐项比对`mentions.csv`与仓库基线`c65900801de1cb3af9089345250774161d67f5c9`，发现当前工作表缺少书前材料735条及第16–21章3,000条既有mention。受控脚本`process/restore_missing_s2_mentions_20261015.py`固定当前mentions、候选表、段清单和coverage哈希，默认preview；仅从基线恢复上述7个范围，保留第1–15章当前修订。恢复前为现表保存副本`04-knowledge/tables/mentions.csv.bak-s2-restore-dropped-frontmatter-ch16-21-20261015`。
+
+对3,735条逐项核验mention ID唯一、候选外键有效、segment存在且coverage为complete、来源资产与段哈希匹配、原文字符切片精确；同段提及跨度无重复或交叉，校验零错误。恢复后mentions.csv为25,953条。此操作恢复此前已登记的记录并重新确认锚点，不代表对全部提及做了新的独立语义审查。`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；两条既存enrichment source_ref警告及通用语义质量提示不变。
+
+## 2026-10-15：第十六章p.375正文残余裁决与原子化
+
+处理`chp-16:16_CHP-16_intro:l24-36`中5条unset；将经销者群体的审美影响与Della Lena的学术位置拆成不同陈述，并把Della Lena出生于Lucca（`cand-1454`）与长期居Venice、任副领事及去世（`cand-2719`）分开登记，共新增2条statement。经销者群体对Venetian art传统的影响及Guardi在该审美环境中兴盛，均保留为Haskell来源限定的关系候选；经销者成员和德国交易对象不具名，分别记明端点缺口。Della Lena学术位置和艺术/科学价值论为非关系陈述；德国交易保留为匿名十九世纪史家经Haskell转述。未新增candidate、mention或S6正式关系。段内18条statement现为15 true、3 false。
+
+受控脚本`process/classify_ch16_p375_residual_20261015.py`先校验写前SHA、固定statement ID、候选外键与原文引句，经preview后apply；恢复副本为`04-knowledge/tables/book-statements.jsonl.bak-s2-ch16-p375-residual-20261015`。写后全库15,096条statement（10,307 true、4,682 false、107 unset）、12,230 candidates、25,953 mentions；未分类statement分布于15段。严格阶段审计`errors=[]`、`s2_missing=[]`；既存来源警告和语义提示不变。下一段为p.377正文`chp-16:16_CHP-16_intro:l48-64`（10条未分类）；全书S2未交接，未进入S3–S6。
+
+
+## 2026-10-15：p.375文化语境提及补记
+
+关系候选复审将p.375的“Venetian art”及末句回指“such an atmosphere”映射到既有来源术语`cand-11543`。复核时发现旧提及表没有这两个跨度；受控脚本`process/add_ch16_p375_art_context_mentions_20261015.py`校验S0来源/段哈希、候选、coverage、精确字符跨度和既有提及无重叠，preview后新增2条提及。回指说明记录其前指是经销者趣味与威尼斯色彩/幻想语境，不另造概念候选。未新增statement或candidate。恢复副本`04-knowledge/tables/mentions.csv.bak-s2-ch16-p375-art-context-mentions-20261015`。写后全库25,955 mentions；严格阶段审计`errors=[]`、`s2_missing=[]`。
+
+
+## 2026-10-15：第十六章p.377正文与注释续注残余裁决
+
+按S0源序复核`chp-16:16_CHP-16_intro:l48-64`，逐句对照`CHP-16.pdf`物理页5及当前转写；该段同时承接p.376注3。补齐10条relation_candidate未分类项。段内42条statement现为32条true、10条false。Celotti“在任何政体下都能如鱼得水，只要有人买画”是条件性商业适应描写，没有断言具体成交或确定的客户关系，标为非关系；Haskell对其销售才能与品味的推论拆为两条，销售才能是个人属性，非关系；与此前“较谦逊经销者”的品味相似则保留为带明确推论归属的关系候选，端点复用原书所指经销者群体`cand-0126`，限定为未具名子集。
+
+注3续注中的Vannetti来信、Durazzo家族来信、两封刊载书信、信中提及的画及其“为法国国王而作”表述、被声称属于Urbani de Ghelthof本人收藏的书信、Haskell依据1937年期刊记录提出的文献可靠性警告，以及Swajer档案定位，均按原文归属标为关系候选。将“书信提及画作”与“画作被描述为供法国国王”拆开；不识别画作和君主，不推断委托或所有权。新建人物候选`cand-12253`及精确mention `m-chp16-p377-celotti-0069`，与同名1879年出版物`cand-8793`分开；保留“被声称属于其收藏”及Haskell的来源批评，未将其写成核实后的所有权或人物事实。注4目录定位与正文推论关联补齐；被引书信、档案及1937年材料均未独立查阅。
+
+受控脚本`process/classify_ch16_p377_residual_20261015.py`以写前SHA、来源段指纹、固定statement ID和字符跨度校验，经preview后apply；另以`process/repair_ch16_p377_residual_audit_20261015.py`修正严格审计发现的来源锚点、原文行范围和relation状态覆盖问题。保留写前恢复副本：`entity-candidates.csv.bak-s2-ch16-p377-residual-20261015`、`mentions.csv.bak-s2-ch16-p377-residual-20261015`、`book-statements.jsonl.bak-s2-ch16-p377-residual-20261015`；审计修复副本：`entity-candidates.csv.bak-s2-ch16-p377-audit-fix-20261015`、`book-statements.jsonl.bak-s2-ch16-p377-audit-fix-20261015`。本段净增2条statement、1个candidate和1条mention；没有新增KU、正式S6关系或独立核验结论。
+
+写后全库15,098条statement（10,317 true、4,684 false、97 unset），12,231 candidates、25,956 mentions；未分类分布于14段。`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义审查提示仍在。下一处按S0源序为第十七章前置注释`chp-17:17_CHP-17_intro:l7-13`（8条未分类）。全书S2尚未交接，未进入S3–S6。
+
+
+## 2026-10-15：第十七章开篇注释（印本folio i）
+
+对照`CHP-17.pdf`物理页1（印本folio i）复核`chp-17:17_CHP-17_intro:l7-13`的8条unset。打印页图确认S0把注3、5、6分别转成8、6、8；相关statement已有逐项OCR校正及正文回链。6条source/document关系候选包括Meschini被归为Manfrin与其画廊的唯一一般性论述、Biblioteca Correr手稿、Biblioteca Marciana小册子、Inquisitori档案记录两项及Tassini书目归属；2条非关系分别为Haskell的未刊材料状况说明、未具名公众的声誉推断。所有被引手稿、档案、册子和书目均未独立查阅；不把“不诚实程度不明”写成已证事实。段内8条现为6 true、2 false；无candidate、mention或statement新增。
+
+受控脚本`process/classify_chp17_intro_footnotes_20261015.py`校验来源段指纹、S0脚注标号、固定statement ID及写前SHA，preview后apply；恢复副本`book-statements.jsonl.bak-s2-chp17-intro-footnotes-20261015`。
+
+## 2026-10-15：第十七章p.379首段语义裁决与断言拆分
+
+对照同一PDF物理页1及`chp-17:17_CHP-17_sec_i:l3-6`，裁决10条unset为非关系；宽泛的时代氛围、对Manfrin的修辞评价、一般历史解释、未具名者的攻击/指控及无确定受众的“在Dalmatia令人憎恨”不强造关系端点。将“政治演说与文学中有大量相关论述”和“氛围影响 patrons/collectors”分开，将Manfrin“令人憎恨”与“很快积累巨额财富”分开，共新增2条原子statement；收入来源“somewhat discreditable”的限定保持单列。正文中note 2只回链到贵族诋毁语句，不再误连到后续指控；note 3为“令人憎恨”statement补上来源回链。页图校正S0的`OR`→`FOR`、`Ffeeling`→`feeling`及`to' the past`→`to the past`，只记入S2，不改写S0。
+
+受控脚本`process/classify_chp17_p379_opening_body_20261015.py`通过写前SHA、来源段指纹、固定待判ID和新ID冲突校验后preview/apply；恢复副本`book-statements.jsonl.bak-s2-chp17-p379-opening-body-20261015`。段内20条statement现为7 true、13 false；新增2条statement，无candidate、mention或S6正式关系新增。
+
+截至该批次，全库15,100条statement（10,323 true、4,698 false、79 unset），12,231 candidates、25,956 mentions；未分类分布于12个来源段。`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义审查提示仍在。当时下一处按S0源序为第十七章p.380正文`chp-17:17_CHP-17_sec_i:l8-20`（8条未分类）。全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十七章p.380正文残余关系候选裁决
+
+对照`CHP-17.pdf`物理页2（印本p.380），完成`chp-17:17_CHP-17_sec_i:l8-20`剩余8条statement裁决。将Manfrin假死讯传至Bologna、Armanni对Manfrin的引语评价、Manfrin在Venetian art world中的位置、私人鉴赏能力评价、择画标准、Haskell对势利的评价及“national institution”类比判为非关系候选；分别保留叙事事件、归属、限定语与评价性质。画廊“似乎”旨在呈现意大利、部分佛兰德绘画史的判断保留为关系候选，明确这是Haskell的策展方向解释，不是已核实的Manfrin意图或S6正式边。段内24条statement现16 true、8 false；无candidate、mention或statement新增。
+
+受控脚本`process/classify_chp17_p380_residual_20261015.py`以固定8个statement ID、S0来源哈希、段哈希和写前statement表哈希校验，先preview后apply；恢复副本为`04-knowledge/tables/book-statements.jsonl.bak-s2-chp17-p380-residual-20261015`。写后全库15,100条statement（10,324 true、4,705 false、71 unset）、12,231 candidates、25,956 mentions；未分类分布于11个来源段。`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；保留两条既存enrichment来源警告及通用语义审查提示。当前下一处按S0源序为第十七章p.381正文`chp-17:17_CHP-17_sec_i:l22-24`（4条待裁决）；全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十七章p.380–381注释与Correr首段
+
+对照`CHP-17.pdf`物理页2–3及S0文本，按源序完成注释段`chp-17:17_CHP-17_sec_i:l26-35`的8条statement（7 true、1 false）。保留Meschini/Moschini拼写差异、档案和书目定位的“未独立查阅”状态；不把肖像年代说明误作独立关系。随后完成`chp-17:17_CHP-17_sec_ii:l3-5`的10条unset：2条保留关系候选，8条属性、解释或无明确端点的语境判断判为非关系；将共同爱好与人物比较、肖像身份与性格解读分开。补记未具名的Venetian family与Correr所属club为`cand-12255`、`cand-12256`，各添1条精确mention；新增shared-interest、portrait-depiction、club-membership三条原子statement。家庭/社团身份未猜定，S0未改。
+
+受控脚本先preview后apply；恢复副本为`book-statements.jsonl.bak-s2-chp17-p381-correr-20261015`、`entity-candidates.csv.bak-s2-chp17-p381-correr-20261015`、`mentions.csv.bak-s2-chp17-p381-correr-20261015`。写后全库15,104条statement（10,338 true、4,717 false、49 unset）、12,234 candidates、25,959 mentions。严格阶段审计通过，`errors=[]`、`s2_missing=[]`；仍有两条既存enrichment `source_ref`警告和通用语义审查提示。当前未分类分布于8段；下一处按S0源序为第十七章`chp-17:17_CHP-17_sec_ii:l7-17`（11条）。全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十七章p.382 Correr收藏段
+
+对照`CHP-17.pdf`物理页4（印本p.382）复核`chp-17:17_CHP-17_sec_ii:l7-17`，完成11条未分类statement：8条保留为带来源限定的关系候选，3条一般活动/评价判为非关系。保留服务于Venice、收藏形成与内容、与在世艺术家委托关系的可能性、受经济困境同代人关系、历史收藏目的及Haskell对城市景观变化的推测；不把零散拍卖活动、泛指的品味批评或动机推断升格为正式边。新增`cand-12257`（经济困境中的未具名同代人群体）和`cand-12258`（“living artists”未具名群体），类型留空待决。`m-chp17-p382-0012`原已覆盖“his contemporaries”同一跨度，现改映射至`cand-12257`；新增`m-chp17-p382-living-artists-0001`。物理页确认并沿用既有校读`already-a`→`already a`、`ofhis`→`of his`；脚注所引Dandolo、Urbani de Ghelthof和期刊文章均未独立查阅。
+
+受控脚本先preview后apply；本轮提及偏移首次按原文行内值写入，严格审计据此报错，随后改为段内跨度`741:759`与`476:490`，并复用已有同跨度提及。最终全库15,104条statement（10,346 true、4,720 false、38 unset）、12,236 candidates、25,960 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；保留两条既存enrichment来源引用警告及通用语义审查提示。当前未分类分布于7段；下一处按S0源序为p.383正文`chp-17:17_CHP-17_sec_ii:l19-22`（9条）。全书S2尚未交接，未进入S3–S6。
+
+## 2026-10-15：第十七章p.383 Correr结尾正文
+
+对照`CHP-17.pdf`物理页5（印本p.383）复核`chp-17:17_CHP-17_sec_ii:l19-22`，完成9条既有unset：5条保留为来源限定的关系候选，4条人物状态、文化评价和长时段历史框架判为非关系。将赌场Ridotto的闭门关系指向未具名政府候选`cand-12259`，不与1797年后的新民主统治者混同；为`cand-12260`记录Correr写信所针对的未具名统治者，并将其从信件内容拆为独立statement；`cand-12261`记录Haskell所说的未具名二手画商群体。新增3个候选、3条精确mention及1条原子statement。`Liberia`→`Libertà`印本校读已在原有信件statement中记录；脚注2的档案位置沿正文回链，原信和Levi、Pignatti等引文均未独立查阅。
+
+受控脚本先preview后apply，保留三张写前恢复副本。写后全库15,105条statement（10,352 true、4,724 false、29 unset）、12,239 candidates、25,963 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`，两条既存enrichment来源引用警告不变。当前未分类分布于6段；下一处按S0源序为第十七章p.383注释`chp-17:17_CHP-17_sec_ii:l24-33`（4条）。全书S2尚未交接，未进入S3–S6。
+
+
+## 2026-10-15：第十七章p.382–383注释与档案佐证拆分
+
+对照`CHP-17.pdf`物理页4–5，完成注释段`chp-17:17_CHP-17_sec_ii:l24-33`的4条待裁决statement。Dandolo两条页码注及Levi卷页注均为文献定位，未标为关系候选；Urbani de Ghelthof出版物在Biblioteca Correr、馆藏号Op. P.D. 18796的定位保留为true statement，并将Haskell所说“其叙述由Correr档案文件确认”拆为独立statement `st-chp17-p382-note3-archive-confirmation`。出版物及档案文件未独立查阅，且未擅自指定具体档案文件。无candidate、mention或正式relation变更。
+
+受控脚本`process/classify_chp17_p383_notes_citations_20261015.py`固定来源文件SHA-256 `d23af9f50ab9ac84fb250f5c7c5c260908096616ca83773a647977b8e07f4ff3`、目标段SHA-256 `9c475e85fa962219537da954e1f299de3df3f277850a16612105fbb8fd7c46df`及写前statement表SHA-256 `9bba52eb306ee2ab48f394e19bbe0730b07117b4c265194f85c8773d3ab11ab1`；preview后apply并生成恢复副本`book-statements.jsonl.bak-s2-chp17-p383-notes-20261015`。写后statement表SHA-256 `8989c8e1384d3036a5ce323269f662c2bc5ed8e26f84eb3a6e63ed28a9aae239`。严格阶段审计通过：15,106 statements（10,354 true、4,727 false、25 unset），12,239 candidates、25,963 mentions；`errors=[]`、`s2_missing=[]`。两条既存enrichment来源引用警告及通用语义审查提示仍在。未分类statement现分布于5段；下一处按S0源序为第十八章结论`chp-18:18_CHP-18Conclusion:l3-17`（10条）。全书S2尚未交接，未进入S3–S6。
+
+
+## 2026-10-15：第十八章p.384剩余statement裁决与原子拆分
+
+对照`CHP-18Conclusion.pdf`物理页1（印刷p.384），完成`chp-18:18_CHP-18Conclusion:l3-17`的10条unset。Rome与Venice的并列衰退是各自状态，不代表城市之间的关系，因此拆为两个false状态断言；Italian贡献等级与外国艺术家/意大利public masterpieces对照是Haskell的艺术史评价，不补造作品群实体。以下关系保留为source-attributed候选：社会诉求与原创路径压制、Bamboccianti与Rosa作为conformity论点的例证、Canaletto从本城景观转向游客熟悉视图、Lodoli获授未具名政府职务、意大利历史学家对写作从众的反应，以及Haskell的赞助人修辞比较。问句没有转写成具体人物教养排名。Lodoli职务与未刊写作拆分，后者仅记未具名写作的出版状态；Canaletto本城候选由Rome修正为已由原mention映射的Venice。另新建Venice政治衰退statement与Lodoli未刊写作statement；候选、mentions和S6 relations未变。
+
+受控脚本`process/classify_chp18_p384_remaining_20261015.py`固定源、段及表SHA-256，preview后apply。恢复副本`book-statements.jsonl.bak-s2-chp18-p384-remaining-20261015`；写前/后statement表SHA-256 `8989c8e1384d3036a5ce323269f662c2bc5ed8e26f84eb3a6e403d63d1f7e3c2c` → `ee9699e75c231050f57f88103e99c5353a2a13a027a933a5e403d63d1f7e3c2c`。全库审计15,108 statements（10,361 true、4,732 false、15 unset），`errors=[]`、`s2_missing=[]`。
+
+## 2026-10-15：第十八章p.385结论末段裁决与区域比较拆分
+
+对照`CHP-18Conclusion.pdf`物理页2（印刷p.385），完成`chp-18:18_CHP-18Conclusion:l19-23`的2条unset。将Fetti作为“withdrawn artist”类型例外的作者评语与意大利主要绘画中心的区域比较拆开，避免把绘画水平判断误挂在Fetti名下；前者是非关系评价，后者作为Italy—Europe区域比较候选并保留“almost any other town”的原有限定。法国/英国绘画复兴与Venice fall/Italian art expiry的对照保留为来源限定的历史解释，未推导单一机构或作品的因果边。新增1条painting-level comparison statement，无候选或mention变化。
+
+受控脚本`process/classify_chp18_p385_remaining_20261015.py`固定源、段及写前表SHA-256，preview后apply。恢复副本`book-statements.jsonl.bak-s2-chp18-p385-remaining-20261015`；写前/后statement表SHA-256 `ee9699e75c231050f57f88103e99c5353a2a13a027a933a5e403d63d1f7e3c2c` → `7118e3b983df1fed91dfd526d6236b63d948a55cf03bbee17e58abc6477509db`。严格阶段审计通过：1,019 KU、12,239 candidates、25,963 mentions、15,109 statements（10,363 true、4,733 false、13 unset），`errors=[]`、`s2_missing=[]`。两条既存enrichment来源引用警告不变。当前未分类限于第二版后记3段；下一处按S0源序为`chp-20:20_CHP-20Postscript:l174-185`（3条）。全书S2尚未交接，未进入S3–S6。
+## 2026-10-15：第二版后记p.408–410最后statement分类与端点修正
+
+按S0源序完成全表中最后13条未分类statement裁决：p.408 `chp-20:20_CHP-20Postscript:l174-185` 3条中2条为关系候选、1条为Haskell对“Venetian Enlightenment”范围的非关系限定；p.409 `l187-199` 2条中，Maggiotto肖像系列的艺术史解释判为非关系，Schmidt蚀刻判为作品—创作者关系候选；p.410 `l201-209` 8条中，墓画细部上书籍封套、Sasso与学者艺术家群体的关联、Lloyd与未完成项目、Olivato文章、Della Lena论著所述移画与艺术家评价、Fontana对Manfrin烟草制造财富来源的研究均保留关系候选；Manfrin藏品来源不明是研究缺口，判为非关系。对未具名群体、未独立查阅的论著及Vivarini个人/家族范围保留限定和开放端点，不生成S6正式边。
+
+p.409发现`m-chp20-p409-035`把“the same artist”错误指向作品`cand-11136`；改指Georg Friedrich Schmidt `cand-2396`，并新增`m-chp20-p409-054`，将原文蚀刻短语精确映射至作品`cand-11136`（段内1851–1935，嵌套于Felice Salimbeni提及）。对应statement改为作品`cand-11136` `created_by` Schmidt `cand-2396`；Salimbeni和Algarotti仍保留为原文中的模特与受印对象。p.408保留此前源据印本校正的`oiLodoli`→`of Lodoli`、`begji`→`been`及引文起点修正。
+
+| statement | 分类 | 裁决摘要 |
+|---|---|---|
+| `st-chp20-p408-venetian-enlightenment-recent-scholarship` | true | Haskell报告两位具名学者对威尼斯启蒙研究的推进；二手文献未独立查阅。 |
+| `st-chp20-p408-haskell-qualifies-enlightenment-term` | false | 作者限定自身术语与未具名人物，不断言具体实体关系。 |
+| `st-chp20-p408-byam-shaw-identifies-le-blon` | true | Haskell转述Byam Shaw对Le Blon身份的识别。 |
+| `st-chp20-p409-maggiotto-historical-portraiture` | false | 对肖像系列的来源限定艺术史评价，不是实体间关系。 |
+| `st-chp20-p409-schmidt-salimbeni-etching` | true | 作品由Schmidt创作；1753年由“1752年后一年”推得。 |
+| `st-chp20-p410-tomb-detail-dust-jacket` | true | 明确的图像再现关系；封套不单独建模。 |
+| `st-chp20-p410-sasso-scholarly-associations` | true | 关联对象为未具名学者与艺术家群体。 |
+| `st-chp20-p410-lloyd-venezia-pittrice-project` | true | Lloyd将未完成项目置于展览目录语境。 |
+| `st-chp20-p410-olivato-sasso-article` | true | Haskell转述文章对Sasso及其通信材料的讨论。 |
+| `st-chp20-p410-della-lena-treatise-content` | true | 论著记述的移画行为保留为二手转述，行为端点未逐一识别。 |
+| `st-chp20-p410-della-lena-painter-appreciations` | true | 保留对Guardi等人的评价；Vivarini个人/家族边界待辨。 |
+| `st-chp20-p410-manfrin-acquisition-sources-uncertain` | false | 仅报告Manfrin藏品来源的研究缺口，不是取得事件。 |
+| `st-chp20-p410-fontana-manfrin-tobacco-article` | true | Haskell转述Fontana对烟草制造与收藏财富的关联解释。 |
+
+受控脚本`classify_chp20_p408_l176_185_20261015.py`与`classify_chp20_p409_p410_relation_candidates_20261015.py`均先预演并校验源文件/段哈希后写入。p.408恢复副本`book-statements.jsonl.bak-s2-chp20-p408-l176-185-20261015`；statement哈希`7118e3b9…7509db`→`c1bf0f1b…9311d89e`。p.409–410恢复副本为`book-statements.jsonl-bak-s2-chp20-p409-p410-classification-20261015`及`mentions.csv-bak-s2-chp20-p409-p410-classification-20261015`；statement哈希`c1bf0f1b…9311d89e`→`32f4218d…fae346`，mentions哈希`0ae0e3e8…1fffd4a`→`87fbbc86…91f263b`。全库statement分类现为10,373 true、4,736 false、0 unset；candidate不变12,239，mentions增至25,964，statements仍为15,109。严格阶段审计`errors=[]`、`s2_missing=[]`。
+
+全表交接筛查的下一项是重跑当前15,109条statement的递归引用与引文锚点检查，并按原文核实关系候选的开放端点说明。旧结果中70/59/11关系候选统计及12,704/12,690条递归引用、引文锚点快照不能外推到当前表。S2交接前不进入S3–S6。
+## 2026-10-15：全表statement引用与来源引文锚点核验
+
+针对当前15,109条statement重跑ID与来源锚点核查。初次遍历8,439条statement间直接引用发现2个目标ID不存在：p.137“careful and conscientious in his”指向旧拼写的p.138续句ID；p.124 Castiglione出版者注指向错误增加`note-`前缀的“dedication interpretation”ID。对照原文及相邻statement确认正确目标分别为`st-chp5-p138-cerquozzi-careful-and-conscientious-in-work`和`st-chp5-p124-castiglione-dedication-interpretation`。前者的反向`continued_from_statement_id`及p.124印刷注号/正文关联均与该修正一致。
+
+受控脚本`repair_ch5_statement_links_20261015.py`默认preview，校验statement表与两份来源文件SHA-256后仅修订上述两处链接。写前表SHA-256 `32f4218d1c22fa7d7489def330c76ec6c9961cdf3b95f00dd3b1b6170bfae346`；恢复副本`book-statements.jsonl.bak-s2-ch5-recursive-statement-links-20261015`；写后SHA-256 `86fef0a906bbad4710a557a4d8d6f9aef24ba5ff9bd4826d9f5e4f3aba0829da`。复扫后15,109个statement_id均唯一，8,439条直接链接目标缺失0。
+
+另对照每条statement登记的`source_file`与source_line范围检查15,109条`original_quote`：15,040条逐字匹配，69条仅在空白归一化后匹配，未匹配0。`audit_tables.py --strict-stage --summary`再次通过，`errors=[]`、`s2_missing=[]`；仍有两条既存enrichment `source_ref`警告及通用语义审查提示。以上是全表引用/锚点机械核查，不替代开放端点及未决指代的语义复核；这些仍是S2交接前工作。
+
+## 2026-10-15：恢复既有接受的候选表面提及
+
+对照第十、十三、十四、十五章结果文件中97条已接受的候选表面映射与当前`mentions.csv`及仓库`HEAD`。4条已有精确记录，2条已由同候选较宽跨度覆盖；余下91条在当前表缺失、但在`HEAD`中均有同一候选、来源段和精确字符范围记录。逐条核验S0来源资产与段哈希、映射候选外键、coverage完成状态、原文字符跨度，并确认91条与当前提及无冲突重叠；没有恢复其余HEAD-only行。
+
+受控脚本`restore_accepted_surface_mentions_20261015.py`先预演再写回。写前`mentions.csv` SHA-256 `87fbbc8644a2680ce6ecf4098ab948a6ac49ccece6646da3c9370b07491f263b`；恢复副本为`mentions.csv.bak-s2-accepted-surface-mentions-20261015`；写后SHA-256 `2314deb9d8ab42e7222c69035993009f92e2a14948b03c78b04465b9d2e99cff`。提及数由25,964增至26,055，ID唯一。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；既存两条enrichment `source_ref`警告及通用语义审查提示保留。此修复恢复已接受且有来源锚点的记录，不替代本轮候选召回检查或全书S2语义交接。
+
+## 2026-10-15：恢复第八章已接受的候选表面提及
+
+按第八章锁定的候选表面提示裁决脚本与写前表备份，恢复47条仍适用的已接受提及；另64条既有no-write判断不写入。三条旧statement链接未恢复，因为其陈述后来已收窄或拆分，与当前引文范围不再相符。逐条核对候选、S0资产及段哈希、coverage完成状态、字符跨度、ID和现有提及重叠。`restore_accepted_chp8_surface_mentions_20261015.py`先预演再应用；写前提及表26,055行、SHA-256 `2314deb9d8ab42e7222c69035993009f92e2a14948b03c78b04465b9d2e99cff`，备份`mentions.csv.bak-s2-chp8-accepted-surface-restore-20261015`，写后26,102行、SHA-256 `178885264bc55e8fe1acda43aa078c03dde9a45de54d51bec7f610e82b37dfa8`。全库严格阶段审计通过；表错误0，`s2_missing=[]`。从保存的候选表面启发式扫描复筛后为990条提示；提示含普通词、歧义和已裁决no-write项，不等于未审实体数或召回率。
+
+## 2026-10-15：恢复全书早先已接受的候选表面提及
+
+对仓库`HEAD`中符合既有表面审查ID格式、而当前提及表缺少的345条记录逐项分类。322条与当前提及无重叠；3条为独立地理实体，分别嵌在Central European修道院群、Salon in Paris活动和Petit Palais馆址提及内，且均有对应候选。14条已由当前同候选跨度覆盖；5条属于后来更具体的机构/地点拆分或Girolamo Zanetti候选选择，保留当前映射；另跳过“Central Europe”中的“Europe”子串，避免把复合地名拆成重复实体。第2章“Giovanni Angelo da Camerino”/Camerino与第7章Institute of Arts, Detroit/Detroit的历史嵌套映射各保留一组。逐条核对当前候选外键、已完成coverage、S0来源资产和段哈希及精确字符跨度。发现Central Europe历史`surface_form`漏掉S0中的换行符，按原跨度修正为`Central\nEurope`后写回，使表面值与来源精确一致。
+
+受控脚本`restore_accepted_surface_review_mentions_20261015.py`锁定仓库`HEAD`、写前表和来源相关表哈希，预演确认分类为322条无冲突、3条允许的嵌套地理提及、14条同候选覆盖、5条后续修订冲突和1条复合地名子串；随后应用325条。写前`mentions.csv`为26,102行、SHA-256 `178885264bc55e8fe1acda43aa078c03dde9a45de54d51bec7f610e82b37dfa8`；备份`mentions.csv.bak-s2-reviewed-surface-mentions-20261015`；写后26,427行、SHA-256 `389c4878660c1f6d3a530bc986eec11e968b8cc9a1a1397087a2960dd5563edf`。严格阶段表审计通过：1,019 KU、12,239 candidates、26,427 mentions、15,109 statements，`errors=[]`、`s2_missing=[]`；两条既存enrichment `source_ref`警告及通用语义提醒仍在。原1,135条候选表面提示按当前mention覆盖跨度复筛后剩683条；其中包含此前逐章记录的普通词/歧义no-write决定，不能直接视为683条未处理实体。后续需将残余提示与逐章裁决记录对应，再按书序完成开放关系端点和唯一未决指代复核；全书S2仍未交接，未进入S3–S6。
+
+## 2026-10-15：书前材料候选表面残余提示复核
+
+对`audit_s2_candidate_surfaces.py --chapter front-matter`当前返回的14条提示逐项对照来源上下文和候选索引语境。第一版序言的3处`subject`是一般“主题”用语、与`cand-0840` Contracts无关；`gardens`是一般建筑类别，不指向Farsetti候选`cand-1008`；`character`是“国际特征”而非Urban VIII候选`cand-0220`。图版目录的2处`Private Collection`及3处`Collection/collection`仅表示未具名私人藏家或收藏标注，不指向Albrizzi/Scipione Borghese人物候选`cand-0029`、`cand-0396`；`portraits`是图注中的泛称，非Schulenburg作品候选`cand-2410`；`churches`是“罗马主要教堂”的泛称，不映射词面相同的63条候选`cand-0681`–`cand-0743`；法文`fortune`为普通名词，不指向Rosa作品候选`cand-2242`。14项均不形成独立实体提及；无候选或mentions写入。该章前置扫描覆盖20个reviewed段，残余提示已记录为no-write裁决，不计作未处理实体。
+
+## 2026-10-15：书前材料关系开放端点复核与七项来源限定候选
+
+对书前材料此前25条缺少标量端点的`relation_candidate=true`记录逐条对照S0段文本、现有候选、mentions和statement限定。新增七个开放、类型未定的来源限定候选：迁入罗马画家群体`cand-12263`（例示Conca、Giaquinto、Batoni，Naples/Tuscany不逐人配对）；拒绝迁居画家群体`cand-12264`（例示P. G. Piola、Viani、Lazzarini，身份未决，竞争恐惧仅是Waterhouse的群体解释）；Guido与Guercino历史比较群体`cand-12265`（Guido身份仍未决）；Haskell所述意大利画家清单群体`cand-12266`（Crespi、Solimena为例，二选一标准不拆配到个人）；Giaquinto与Batoni较晚一代群体`cand-12267`（Rome由前句承接，年代保持相对）；匿名London私人收藏`cand-12268`；以及图版68a题注的复数匿名私人收藏群`cand-12269`。群体成员仍由各statement原有`participant_candidate_ids`分别记录；未补个人作品归属、未推断收藏所有人或现藏状态。七个新候选均保持`status=open`且`suggested_type`为空，等待taxonomy-compatible身份处理。
+
+新增七条精确mention；两处并列人物群体mention嵌套覆盖现有成员提及，地点“London”继续使用原独立mention。写回前候选表12,240行、mentions 26,428行、statements 15,109行；预演后为12,247、26,435、15,109。写后SHA-256：`entity-candidates.csv` `4036994c619d907a075ab663608c8a20ce94a571931173c33bae7f3db4a5c480`；`mentions.csv` `efb923d5c7383bedf8a9636925b2863bdd31000f82d3825a28337e42c27390fc`；`book-statements.jsonl` `aeff3d38e0acb2e1536795000c5d5cbbfaab1ec6fdfceab8e5ccd84886d3ee61`。写前恢复副本分别为`entity-candidates.csv.bak-s2-fm-open-endpoints-20261015`、`mentions.csv.bak-s2-fm-open-endpoints-20261015`、`book-statements.jsonl.bak-s2-fm-open-endpoints-20261015`；受控预演/写入脚本为`repair_front_matter_open_endpoints_20261015.py`。
+
+该批次将全库至少缺一个端点的statement从552降至545：仅缺subject 351条、仅缺object 79条、两端均缺115条；书前材料从25条降至18条。图版摄影来源中的“55”仍无a/b后缀，虽另有Cacco对应55b，现有文字不足以确认Stearn and Son对应55a，因此仍保持开放。其余书前材料开放项包括未具名战争与来访者、宽泛社会类别、未界定作品/艺术领域、未名批评者、通称的图书馆与档案馆集合及不具名聘用对象；不以泛称或相邻语境补造有界实体。
+
+`python -m py_compile`通过；应用后运行`python scripts/audit_tables.py --summary`退出码0：1,019 KU、12,247 candidates、26,435 mentions、15,109 statements，`errors=[]`、`s2_missing=[]`。statement分类仍为true 10,373、false 4,736、unset 0。保留两条既存enrichment来源警告`enr-06678`、`enr-06937`和通用语义审查提示。该批次仅完成S2候选端点记录，不写入`relations.csv`，不构成S3–S6交接。
+
+## 2026-10-15：第1章开篇关系端点审查
+
+按S0顺序复核第1章第1节前两个段组（`l3-13`、`l15-24`）中的12条原先至少缺一个标量端点的statement，并对照段文本、原书引文、现有mention/candidate与qualifier。`l3-13`的四条开放项分别描述Urban VIII统治所处的未界定艺术赞助时期、反宗教改革相关宽泛条件、赞助增加与控制收紧的复合影响，以及教宗/侄辈影响时尚并引发多样性变化的复合因果论述；都没有唯一有界作品、机构、政策或事件端点。本批不把普通概念或未拆分的复合结果强行当作单一实体。相邻Paul V和Gregory XV设置赞助模式、Urban VIII承接模式的两条statement已有精确人物端点，保留原状。
+
+`l15-24`的八条开放项中，`st-chp1-l57-60-papal-clients`的主语由原文明确的“successive popes”表达，可按项目已采用的来源限定群体方式处理。新增开放、类型未定候选`cand-12270`，mention `m-chp1-seci-successive-popes`精确跨度`[330,346)`；statement对象仍是既有亲属/朋友/客户群`cand-11819`，没有推定具体教宗、人数或officeholders。其余七条保留开放：政权更替、新家族与赞助格局是未界定的历史机制；建设竞争、教宗死后失势和收入终止没有指定对象；Gregory XV谈的是角色处境而非具名侄辈事件；贵族城市认同未提供逐对的贵族—城市或枢机—画家关系；艺术家住宿模式未指定画家、枢机、修道院或出生城市。
+
+本批写回前candidate/mention/statement表为12,247/26,435/15,109；写后为12,248/26,436/15,109。写后SHA-256分别为`entity-candidates.csv` `3a611b2fbc1b0b9a93c209c6afaadb58e6e5682e4d81d28ec98ba3c13b8d1192`、`mentions.csv` `f9ce556c80f6fa9053eed7cacc164e99dbca37041c34dda407b8fe13cabc6182`、`book-statements.jsonl` `585fcc78a9d6259562addbe0f5d24498f764ba1d05420d45e9fcf8c53afdcd40`。恢复副本为三张表各自的`.bak-s2-chp1-successive-popes-20261015`文件；受控预演/应用脚本为`repair_chp1_successive_popes_endpoint_20261015.py`。
+
+`python -m py_compile`通过；`python scripts/audit_tables.py --summary`退出码0：1,019 KU、12,248 candidates、26,436 mentions、15,109 statements，`errors=[]`、`s2_missing=[]`。全库仍有544条true关系候选至少缺一个端点（subject已有而缺object 354、object已有而缺subject 75、两端均缺115）；第1章仍有81条开放端点，其中本批复核后仍开放11条，尚未审查的本章开放项约70条。既存两条enrichment来源警告及通用语义审查提示不变；S2仍未交接。
+
+## 2026-10-15：拆分第1章新教堂段复合主张
+
+第1章第1节`l26-33`的`st-chp1-l125-131-new-churches`把三种主体和行为写在同一条statement：贵族建堂的一般可能、新修会回应宗教改革、罗马外来社群竞争兴建庙宇。为保留可复用的具体关系，按原文拆为三项：原statement ID现记录新修会群`cand-12271`回应Reformation `cand-3406`，成员为Oratorians、Jesuits、Theatines、Barnabites和Capuchins；新增`st-chp1-l125-131-noble-church-building`保留贵族建堂的泛化可能，主客体仍开放；新增`st-chp1-l125-131-foreign-communities-temples`连接既有外来社群候选`cand-11823`与新建庙宇群`cand-12272`，Florentines和Lombards仍作分立成员/例示。两个新群体候选均为`status=open`、类型未定；不指派具体建堂人、单座庙宇或精确创建事件。三项均保留同一段原书引文锚点和Haskell归属，关系候选数增加2。
+
+写前为12,248 candidates、26,436 mentions、15,109 statements；写后为12,250、26,438、15,111。写后SHA-256：`entity-candidates.csv` `fb5851ca9d3c11fb521b18c1041e85116067f9fc08ad9455ecfdc3c16576b0e2`；`mentions.csv` `8beb012f2e38373a470c7a0476af9a0f1da5d6dafee896d18315f3a7cd1d686d`；`book-statements.jsonl` `cc968ba9b29b2091dbdc32553b27a01d04d4bb21fcd3b86d72e0572fed469e97`。写前恢复副本为三表各自的`.bak-s2-chp1-churches-atomic-claims-20261015`；受控预演/应用脚本为`split_chp1_new_churches_claim_20261015.py`。
+
+应用后`python scripts/audit_tables.py --summary`退出码0：1,019 KU、12,250 candidates、26,438 mentions、15,111 statements，`errors=[]`、`s2_missing=[]`；关系候选分类为true 10,375、false 4,736、unset 0。全库至少缺一个端点的true关系候选仍为544条（subject已有而缺object 354、object已有而缺subject 75、两端均缺115），因为拆分同时解决原泛化statement并保留贵族建堂的未具名一般机制。该段其余五条旧开放statement及新增贵族一般机制均复核后保持开放：职业委托与独立发展是作者的一般模式；地点模式没有把具名家族/教堂逐一配给特定作品和委托；建造与继承段未指向具体创办人、继承人或礼拜堂；枢机竞争段的Peretti例子另列statement，不移接为泛化主张的端点。本批不改变coverage，也不写入`relations.csv`或启动S3–S6。
+
+## 2026-10-15：第1章“最古老教堂”作品组端点
+
+复核段`chp-1:01_CHP-1_sec_i:l35-36`及statement `st-chp1-l150-152-old-church-art`。Haskell描述一位约1620年的知情旅行者可能会在罗马最古老的教堂中看到大部分优秀现代绘画；这是一项假设性历史重构，不是作品清单或现藏目录。新增开放候选`cand-12273`表示“most of the best modern paintings”作品组，`suggested_type=work`；新增开放候选`cand-12274`表示“oldest churches”地点组，`suggested_type=place`。分别新增mention `m-chp1-seci-best-modern-paintings-group`和`m-chp1-seci-oldest-churches-group`，将statement主客体连接到两组；Roman地点继续由既有上下文mention承载。具体画作和教堂未命名，不补成员或精确位置。
+
+写前candidate/mention/statement计数为12,250/26,438/15,111；写后为12,252/26,440/15,111。写后SHA-256：`entity-candidates.csv` `6a408ce997a3e2bba4eb307d1048ced34fabd57e98df47038114e9578d7213dd`；`mentions.csv` `154e044abc3530eaf51f0f10b03bb8599a3d370847738423d9c47d7c6c927a9b`；`book-statements.jsonl` `d0fb6de1cc802c818ce09d75e12a12e0c36d27f2f5a17520aa29a85d909bee52`。恢复副本为三张表各自的`.bak-s2-chp1-old-church-groups-20261015`；受控预演/写入脚本为`resolve_chp1_old_church_paintings_groups_20261015.py`。
+
+应用后`python scripts/audit_tables.py --summary`退出码0：1,019 KU、12,252 candidates、26,440 mentions、15,111 statements，`errors=[]`、`s2_missing=[]`。当前relation_candidate分类true 10,375、false 4,736、unset 0；543条true候选至少缺一个端点（subject已填/object缺失354，object已填/subject缺失75，两端均缺114）。第1章现有80条开放端点；仍需审查本章其余来源段。
+
+## 2026-10-15：第1章第二节开篇开放端点复核
+
+按S0顺序逐条对照`chp-1:01_CHP-1_sec_ii:l3-8`及`l10-17`的正文、statement引句、候选mention与相邻段续句。前段9条、后段8条relation candidate缺少至少一个标量端点。l3-8均保留开放：赞助—市场两端是一般模式；中介、画商、鉴赏爱好者、旅客与代理人均为角色类别；中间形态随世纪推进是未界定趋势；艺术家对未知买家和展览的态度是带例外的概括；`servitù particolare`是一般制度描述；Parma/Venice行旅是条件句，未陈述实际出行；`famiglia`表示家户身份而非亲缘；`nostro pittore`是匿名君主可能作出的任命；宫廷奖励阶梯是一般模型。其后Andrea Sacchi在Antonio Barberini家户中晋升的具体例证已独立记录于`st-chp1-secii-l10-17-01`，不并入一般模型。
+
+l10-17的开放项分别是服务的普遍优缺点、艺术家可见度与行动限制、赞助人对才能和门生的概括性扶助、出生地对`servitù particolare`机会的普遍影响、礼貌影响职位取得、罗马政局变化对赞助的概括影响，以及未具名艺术家对限制的不适。Pietro da Cortona—Marcello Sacchetti及Francesco Trevisani—Cardinal Ottoboni两例由同段其他statement分别记录，不作为该概括主张的端点。更新`st-chp1-secii-l3-8-09`及`st-chp1-secii-l10-17-08`的`open_endpoint_reason`以写明这些跨statement边界；端点仍开放，无候选、mention或statement数量变化，未写入`relations.csv`。
+
+受控脚本`process/review_chp1_sec_ii_open_endpoints_20261015.py`校验HEAD、来源资产/段指纹、目标statement状态与写前表SHA，经preview后apply；恢复副本为`book-statements.jsonl.bak-s2-chp1-sec-ii-open-endpoints-20261015`。statement表SHA-256：`d0fb6de1cc802c818ce09d75e12a12e0c36d27f2f5a17520aa29a85d909bee52` → `c9dc60fceadb1f7d06c9b3ac2cbad07ccdc9a48c80484abe5a14ca4fa9eb8658`。`python -m py_compile`通过；应用后`python scripts/audit_tables.py --strict-stage --summary`通过：1,019 KU、12,252 candidates、26,440 mentions、15,111 statements，`errors=[]`、`s2_missing=[]`。全库开放端点仍543条，第1章仍80条；本批17条已语义复核但按原文保持开放。S2交接未完成。
+
+## 2026-10-15：第1章第二节l28-38开放端点与文献记录复核
+
+对照S0段`chp-1:01_CHP-1_sec_ii:l28-38`、脚注全文、候选表面提及及已有statement。原有四条开放项中，`st-chp1-secii-l28-38-01`仍是罗马/外省合同详略的作者概括，`-03`仍是“四季”泛题下画家通常向学者或诗人求教的概括；均未指向单一委托，保持开放。`st-chp1-secii-l28-38-02`明确记载1665年Guercino受命为西西里一所修道院绘制特定祭坛画，简报列明人物和构图、但无正式题名。新增开放作品候选`cand-12275`及精确mention `m-chp1-secii-guercino-sicilian-altarpiece`（`altarpiece`，段内字符`[706,716)`），并将作品填入statement对象端点；委托人、修道院、题名和作品是否完成仍未知。圣母与圣徒的图像人物mention不误作作品候选。
+
+脚注`st-chp1-secii-notes-local-commissions-savini-minnitti`将Saverio Savini/Gubbio/1608与Mario Minnitti/Augusta/1617两项刊布条款合在一起。依原文拆为两条`has_subject`关系候选，分别连接来源限定的档案记录候选`cand-12277`（Gualandi IV, p.60所刊Savini条款）与Savini，以及`cand-12278`（Agnello所刊Minnitti条款）与Minnitti；新statement为`st-chp1-secii-notes-local-commissions-minnitti-1617`。新增`cand-12276`表示Gualandi第IV卷的具体引用位置，并新加三条精确mention（`m-chp1-secii-gualandi-vol-iv`、`m-chp1-secii-savini-1608-contract-terms`、`m-chp1-secii-minnitti-1617-contract-terms`）。现有书目候选`cand-11225`已识别Agnello 1941年论文、`cand-11348`已识别Gualandi六卷本；复用这些记录，不重复创建来源。两项条款候选均保持open，描述明确只表示原书所引的刊布文书内容，不声称已核实现存原件、馆藏、委托人或具体作品。
+
+首次写回后严格审计发现Agnello人名与论文候选的同跨度重复mention；从保留的恢复副本还原三表，移除重复跨度后按预览重写。最终无重复或交叉mention偏移，未增加临时作者/论文重叠提及；Agnello论文的完整候选继续由书目entry支撑。受控脚本`process/resolve_chp1_guercino_sicilian_altarpiece_20261015.py`及`process/split_chp1_cited_contract_terms_20261015.py`分别先preview后apply并保存恢复副本。最终表SHA-256：`entity-candidates.csv` `317360dc58a1ff7ff952b209733ff093818c1c90a73d9de212406f2ef081bf18`；`mentions.csv` `c3ac6a7f170a0107e2daa7abc1dd71d0df50cdb98a9cc3686de8d31ba61daed1`；`book-statements.jsonl` `8d39f4d40a20cb1f70b7c4042ab443285c8572e125838ba154ff0e4764ad8dd8`。`python -m py_compile`通过；最终`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`。全库为1,019 KU、12,256 candidates、26,444 mentions、15,112 statements；relation_candidate为10,376 true、4,736 false、0 unset。开放端点降至541（subject已填/object缺失353、object已填/subject缺失75、两端均缺113），第1章78；`l28-38`剩余两条概括性主张保持开放。没有接收候选或写入`relations.csv`。
+
+## 2026-10-15：第1章第二节l40-46开放端点复核
+
+对照S0段`chp-1:01_CHP-1_sec_ii:l40-46`及前后段statement，复核两条仍缺标量端点的relation candidate。`st-chp1-secii-l40-46-07`概括画廊委托中的自主选择、可移动作品市场及收藏者偏好；它不是某笔买卖。Marchese Giustiniani购入被拒的Caravaggio祭坛画、Giovanni Adamo委托Paolo Girolamo Piola的两个具名个案，分别由`st-chp1-secii-l40-46-08`和`-09`记录，不把端点移接至概括主张。`st-chp1-secii-l40-46-10`概括赞助人以统一主题组织系列作品的折中策略；Alexander the Great是主题示例，不是该一般模式的作品端点。Duke of Mantua的Samson系列推断及Marchese del Carpio委托已分别由`st-chp1-secii-l40-46-11`和`st-chp1-secii-l40-46-13-del-carpio-commission`记录。两项概括statement仍保持开放，并修订`open_endpoint_reason`明确不跨statement借用个案端点。
+
+受控脚本`process/review_chp1_market_open_endpoints_20261015.py`校验HEAD、S0资产/段指纹、目标端点状态和具名statement外键，经preview后apply；恢复副本`book-statements.jsonl.bak-s2-chp1-market-open-endpoints-20261015`。statement表SHA-256：`8d39f4d40a20cb1f70b7c4042ab443285c8572e125838ba154ff0e4764ad8dd8` → `27f125ef906618187c7e837f9de17fffbd39ea4fa922af716d99be79f6c0fcf6`。`python -m py_compile`通过，`python scripts/audit_tables.py --strict-stage --summary`通过：1,019 KU、12,256 candidates、26,444 mentions、15,112 statements，`errors=[]`、`s2_missing=[]`。本批未改端点和数据计数；全书开放端点仍541，第1章78。S2未交接。
+
+
+## 2026-10-15：第1章第二节l48-60对象端点拆分与回链校正
+
+对照S0段`chp-1:01_CHP-1_sec_ii:l48-60`、规范正文L382–406、相关脚注及已采纳作品知识元。将`st-chp1-secii-l48-60-01`的原书引句终点由L392收至L388，使其只覆盖Cortona与Rosa的名誉/性情对比；Valentin所受匿名收藏者画作请求仍由相邻的独立statement记录，相关mention不再列入前一条概括。
+
+`st-chp1-secii-l48-60-04`原将两幅祭坛画和设计条款合在一项、并把作品提及误映射到Caravaggio人物索引子项。现拆为两项艺术家—委托作品关系候选：原statement连接`cand-3185`（《圣保罗归化》委托），新增`st-chp1-secii-l48-60-04-martyrdom-design`连接`cand-3187`（《圣彼得殉难》委托）。mention `m-chp1-secii-0076`、`m-chp1-secii-0077`改映射到相应已采纳委托知识元；注4 statement的`related_body_statement_ids`与`linked_body_statement_ids`均补入新拆分项。Haskell未点名赞助人，且该段不确定合同对应的现存版本，均保留未知。
+
+`st-chp1-secii-l48-60-05`连接Rubens与已采纳作品/委托单元`cand-3206`。为准确指认原段中未具名的`an altarpiece`新增mention `m-chp1-secii-rubens-chiesa-nuova-altarpiece-1606`，字符跨度`[1778,1791)`；对象身份依赖该知识元中对应此段的来源证据及独立作品识别，Haskell本段自身没有给出正式题名或版本。没有新增candidate或正式关系。
+
+写前为12,256 candidates、26,444 mentions、15,112 statements；写后为12,256、26,445、15,113。写后SHA-256：`mentions.csv` `549e103532926a24508864224447b3d2993efd347420ccbb3a29ae7e73e25ac5`；`book-statements.jsonl` `6c12d7a2ee3b513ea6fc505a6e76316be3b39616ce1e3e9f55293477beb9c4e0`。恢复副本为两表各自的`.bak-s2-chp1-secii-l48-60-20261015`；受控预演/应用脚本为`process/resolve_chp1_secii_l48_60_endpoints_20261015.py`。
+
+`python -m py_compile`通过；应用后`python scripts/audit_tables.py --strict-stage --summary`通过：1,019 KU、12,256 candidates、26,445 mentions、15,113 statements，`errors=[]`、`s2_missing=[]`。relation_candidate为true 10,377、false 4,736、unset 0；全库开放端点降至539（subject已填/object缺失351、object已填/subject缺失75、两端均缺113），第1章76。本批未改coverage或`relations.csv`，S2交接未完成。
+
+
+## 2026-10-15：第1章第二节l62-71及l73-77开放端点复核（no_delta）
+
+依源序复核l62-71中7条开放relation candidate：`-02`的modelli、Wittkower年代判断及Rubens/Northern Europe类比没有给出特定壁画或具体受益人；`-04`、`-05`分别是草图鉴赏与业余者、工期与催促的一般论述；`-11`为Holy Years通常提供的激励；`-12`为Brandi的速度声誉；`-13`未说明Dughet的具体作品、奖励或批评者；`-14`未指名Venetian painters群体之外的评价者。相邻的Ferri、Gaulli及Cortona例子已独立成statement，不转移为这些概括的端点。原有开放理由准确，端点保持开放。
+
+l73-77的4条开放项也保持开放。`-01`是契约定金、分期款与壁画月付的一般规则；注1中Albani、Mola、Ferri的具体付款statement已分别与该规则交叉链接，不能替代一般主张的泛称当事人。`-02`概括材料、脚手架及差旅费用；注2–4的Gessi、Quarismini、Camassei、Gozadini、Pamfili及Mola例证由分立statement承接，不将各例费用分配扩展至其他委托。`-05`仅说Lanfranco也按人物计价，没有具体作品和单价，不移用Domenichino的130杜卡特；`-06`仍是按人物计价与画家声誉普遍变化的概述。端点、候选与coverage均无变化，记录为no_delta。
+
+当前全库开放端点仍539，第1章76；本批不改表或`relations.csv`。严格阶段表审计在此前对应写回后通过。开放端点语义复核下一组按源序为`chp-1:01_CHP-1_sec_ii:l79-84`。
+
+
+## 2026-10-15：第1章第二节l79-84跨段群体端点补齐
+
+检查`st-chp1-secii-l79-84-17`及其在l86-94的续段。l79-84明确称Rome对artists的吸引有两方面；续段将该群体展开为贵族邀请本国画家赴罗马，以及画家认为罗马提供创作空间和回报。复用续段已登记的来源限定群体候选`cand-11845`，为本段短语“artists”添加精确mention `m-chp1-secii-rome-twofold-appeal-artists`（段内字符`[2808,2815)`），并将其设为statement对象端点。移除原开放原因，修订claim与qualification以说明这是概括性引句及其跨段定义；两个具体机制继续由续段statement `st-chp1-secii-l86-94-01`、`-01b`分别承担，避免用具体艺术家补成群体。
+
+该段其余6条开放statement仍无具体交易、作品、受礼人、政治实体或可确认的单一关系端点，保持开放。写前12,256 candidates、26,445 mentions、15,113 statements；写后12,256、26,446、15,113。写后SHA-256：`mentions.csv` `67eec4d44273fc8dfa5fde7e842d2ff79fca95386bbe920f05a8529ecb4fa5a6`；`book-statements.jsonl` `051150589198af30907d6709737736ebb2ce872e5cad9825d787df35663fb16f`。恢复副本为两表各自的`.bak-s2-chp1-secii-rome-twofold-artists-20261015`；受控预演/应用脚本为`process/resolve_chp1_rome_twofold_artist_group_20261015.py`。
+
+应用后`python scripts/audit_tables.py --strict-stage --summary`通过：1,019 KU、12,256 candidates、26,446 mentions、15,113 statements，`errors=[]`、`s2_missing=[]`。relation_candidate true 10,377、false 4,736、unset 0；全库开放端点降至538（subject已填/object缺失350、object已填/subject缺失75、两端均缺113），第1章75。本批未改coverage或`relations.csv`；开放端点语义复核下一组为`chp-1:01_CHP-1_sec_ii:l86-94`，S2交接未完成。
+
+
+## 2026-10-15：第1章第二节l86-94开放端点理由校正
+
+复核`st-chp1-secii-l86-94-02`与`-02b`。两条主语已分别由来源限定群体候选`cand-11856`（未具名、可提供大规模赞助的家族）和`cand-11849`（可能因财政限制而失去雇佣的艺术家）承载；原`open_endpoint_reason`却仍解释为主语个人身份不明，未说明空白对象端点。现分别改为：正文没有为家族提供单一赞助对象/事件，Borghese与Barberini仅作规模类比；“被推向市场”是财政条件下的劳动市场结果，没有命名机构或单独事件。对象端点仍为空，候选端点未强填，记为理由校正。
+
+写后`book-statements.jsonl` SHA-256 `b7300918d071593d4aeaec63cbe6c329174c2113fd4e66296ee5edb9aca0393b`；恢复副本`book-statements.jsonl.bak-s2-chp1-l86-94-open-reasons-20261015`；受控预演/应用脚本`process/review_chp1_l86_94_open_endpoint_reasons_20261015.py`。`python -m py_compile`通过，`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`。端点与计数未变：全书开放538、第1章75。此后l96–146无开放true关系候选；下一组有开放项的段为`chp-1:01_CHP-1_sec_ii:l148-153`。
+
+## 2026-10-15：第1章第二节后续关系端点复核（l148–153、l155–159、脚注段l168–239）
+
+按书序复核此前开放的三段。l148–153中“著名雕塑家使用其兄弟作助手”原关系只记录了雕塑家；现新增来源限定、身份未名的人物候选`cand-12279`并补精确mention，按从句指代将其接为object，不推定兄弟姓名。l155–159中Rosa拒收的明确对象是caparra定金术语而非某项未名委托，现复用已采纳术语候选`cand-3155`并补mention，委托与对手方继续未名。
+
+脚注长段中，Sacchi的modello明确针对一幅罗马Capuchin教堂祭坛画；新增开放作品候选`cand-12280`，与modello候选`cand-11874`区分，并补mention`m-chp1-secii-sacchi-intended-altarpiece`（`[3582,3595)`）。Albani 1639年450/1000 lire的caparra预付款连接既有术语`cand-3155`，mention`m-chp1-secii-albani-caparra-1639`（`[4050,4057)`）；具体委托未指明。Piola因避免住在Pallavicini宫而获准另居的脚注仍缺许可授予者及实际居所，保持开放；没有把其所述的Rome或Marchese Palla-vicini直接当作许可端点。
+
+本批写回前为12,257 candidates、26,448 mentions、15,113 statements；写后为12,258、26,450、15,113。写后SHA-256：`entity-candidates.csv` `47b3ea3a52700b28e49f61e5932ab0cffa6df692159b9658ac3b2daabd3f54a5`；`mentions.csv` `320797c41296f3a484c2d6f55e64c3864e0a952dc21bb68b963339175e6885d4`；`book-statements.jsonl` `039103aeea1becf95ca51771cbcb70ec988577e5206b4a2413bc66bbaefd34b6`。恢复副本分别为三表的`.bak-s2-chp1-bernini-brother-rosa-deposit-20261015`及`.bak-s2-chp1-secii-footnote-endpoints-20261015`；受控脚本为`process/resolve_chp1_bernini_brother_and_rosa_deposit_20261015.py`与`process/resolve_chp1_footnote_payment_and_sacchi_target_20261015.py`。
+
+严格阶段表审计通过：errors=[]、s2_missing=[]；statement分类10,377 true、4,736 false、0 unset。全库开放端点为534（346仅缺object、75仅缺subject、113两端皆缺），第1章71。下一段按源序为`chp-2:02_CHP-2_sec_i:l3-7`，当前发现一条开放statement `st-chp2-seci-l3-7-marriage-plan`。
+
+## 2026-10-15：第2章第1节 l3–7、l71–80、l82–93 开放端点复核
+
+`chp-2:02_CHP-2_sec_i:l3-7`仅有`st-chp2-seci-l3-7-marriage-plan`一条开放项。Haskell说Maffeo的结婚计划未成，但没有出现意向对象；“to marry”不是可单独映射的人物提及，不能据此创建配偶候选，也不表示婚姻已成立。原开放理由准确，记为no_delta。
+
+l71–80中，`st-chp2-seci-l71-80-quirinal-decoration`的主语由原文明确的“teams of artists”补成来源限定、类型待定的开放群体`cand-12281`，mention`m-chp2-seci-l71-80-artist-teams`为`[980,996)`。该collective身份、人数与成员均未知。`st-chp2-seci-l71-80-borghese-country-houses`仍仅能确认对象组，句子用被动语态，没有明确谁对乡间别墅投入了相近关注；不从前句Paul V与Scipione的支出直接推派付款者。
+
+l82–93中，为五个原文明示但此前缺少标量端点的对象增加来源限定候选并补mention：Scipione生活方式带来的未命名“new era”术语`cand-12282`；继承变动后离开Scipione的枢机、艺术家、随从和谄媚者群`cand-12283`；替代Borghese patronage的未名政策`cand-12284`；前置约二十年的宽容期`cand-12285`；以及区别于教宗与其侄辈的罗马其他赞助人群`cand-12286`。候选均保持open；群体成员、政策内容、历史边界与身份类型没有外推。严格审读后仍有两条开放：`st-chp2-seci-l82-93-domenichino-encouraged`未说明施予鼓励者，`st-chp2-seci-l82-93-long-term-impact`未说明影响对象。候选`cand-12283`来源锚点先因范围格式未通过机械检查，修正为单行锚点`#L85`后严格审计通过。
+
+写后为12,264 candidates、26,456 mentions、15,113 statements。SHA-256：`entity-candidates.csv` `59be8404c8f4ddc973429594a0f970208c499be17d29807e1277013a7caf0d3f`；`mentions.csv` `225469d11d6a51f0a482893c53c46c1c8ffee12eb3f6d04c067a3eed2f2fff97`；`book-statements.jsonl` `798db6751385295d7175609bf189d74bd6026d553569d837de4f47c4d278cfde`。恢复副本按批次保存在三表的`.bak-s2-chp2-quirinal-artist-team-20261015`、`.bak-s2-chp2-l82-93-open-endpoints-20261015`，另保留`entity-candidates.csv.bak-s2-chp2-l82-93-source-ref-repair-20261015`。受控脚本为`process/resolve_chp2_quirinal_artist_team_endpoint_20261015.py`及`process/resolve_chp2_seci_l82_93_open_endpoints_20261015.py`。
+
+`python scripts/audit_tables.py --strict-stage --summary`通过：errors=[]、s2_missing=[]；全库开放端点528（344仅缺object、71仅缺subject、113两端皆缺），第1章71。下一段按源序为`chp-2:02_CHP-2_sec_i:l95-106`，开放statement为`st-chp2-seci-l95-106-continued-search`。
+
+## 2026-10-15：第2章第1节 l95–106 del Monte 搜寻关系端点补齐
+
+`st-chp2-seci-l95-106-continued-search`的关系对象由原文短语“new artists of talent”明确给出。新增类型待决的来源限定候选`cand-12287`，mention`m-chp2-seci-l95-106-del-monte-talented-artists`精确跨度`[624,645)`，并将其接为object。工作室仍未具名，保留为搜寻场所语境，不另造地点端点；紧邻段中的Filippo d’Angeli和Andrea Sacchi分别记录为独立个案，不推定为该搜寻群体的成员。候选身份、成员及人数仍待后续S3消歧。
+
+写后为12,265 candidates、26,457 mentions、15,113 statements。SHA-256：`entity-candidates.csv` `71b4f894efbfe3a78d36ed80f336e2540622f246ff28fe437c9f15d84733f1de`；`mentions.csv` `64cf1e93455a3453f68051041efafa392437c00dbf9c636d23314f7f32a8df99`；`book-statements.jsonl` `981ceb8089bb1b51c33e4b327926cbf603180c16e287e2096aabedd40c8057ec`。恢复副本为三表的`.bak-s2-chp2-del-monte-search-group-20261015`；受控脚本`process/resolve_chp2_del_monte_search_artist_group_20261015.py`。
+
+严格阶段审计通过：errors=[]、s2_missing=[]。全库开放端点527（343仅缺object、71仅缺subject、113两端皆缺）。下一段按源序为`chp-2:02_CHP-2_sec_i:l108-119`，statement `st-chp2-seci-l108-119-bernini-employed-by-powerful-families`仍缺未名的强大家族群体对象。
+
+## 2026-10-15：第2章第1节 l108–119 Bernini雇用者群体端点补齐
+
+`st-chp2-seci-l108-119-bernini-employed-by-powerful-families`的对象短语“the most powerful families in Rome”是Haskell明确给出的匿名复数群体。新增类型待决、身份开放候选`cand-12288`，mention`m-chp2-seci-l108-119-powerful-families`精确跨度`[2291,2325)`，并设为statement对象。嵌套的Rome mention仍单独映射城市`cand-3126`；不把Barberini、Paul V、Scipione或Ludovisi推定为该群体的完整成员。
+
+写后为12,266 candidates、26,458 mentions、15,113 statements。SHA-256：`entity-candidates.csv` `bd6381a1b34842da10ab29138b10a3daf99d903e1e3775d6355d5735c13a8066`；`mentions.csv` `977df8e921422f2c3340eb0c488b6521a7dace02fc47756a5de6f78b5b08bbe6`；`book-statements.jsonl` `bff63186a689c49fc687393d1956a29ec07dfa971640754f0369b871bc014beb`。恢复副本为三表的`.bak-s2-chp2-bernini-powerful-families-20261015`；受控脚本`process/resolve_chp2_bernini_powerful_families_endpoint_20261015.py`。
+
+严格阶段审计通过：errors=[]、s2_missing=[]。全库开放端点526（342仅缺object、71仅缺subject、113两端皆缺）。下一段按源序为`chp-2:02_CHP-2_sec_i:l124-157`，`st-chp2-seci-l124-157-rucellai-chapels`与`st-chp2-seci-l124-157-strozzi-chapels`的匿名礼拜堂仍待逐条复核。
+
+## 2026-10-15：第2章第1节脚注l124–157 Strozzi与Rucellai礼拜堂端点
+
+对`st-chp2-seci-l124-157-strozzi-chapels`和`...-rucellai-chapels`回到脚注6原句“Other chapels belonged to the Strozzi and the Rucellai—Ortolani”。新增一个类型为place、身份开放的共享来源群候选`cand-12289`，mention`m-chp2-seci-l124-157-other-chapels`精确跨度`[824,837)`，并分别接为两个statement的subject。脚注没有列出礼拜堂名称、数量、地点或各家族对应哪座；共用群体保留这种未分配状态，不将候选展开成两组确定地点。`Ortolani`仍是既有独立、引文身份待定的archive候选，不把它写成第三个家族或礼拜堂。
+
+写后为12,267 candidates、26,459 mentions、15,113 statements。SHA-256：`entity-candidates.csv` `2d7871e39b7a3039f52c2ca4a00c74fead6f77a58e014d9ae2644a04a2a6db32`；`mentions.csv` `95831ea69ca9453e9d115a9da498ecf4c0604fa9531c642aebeedd95dabd7754`；`book-statements.jsonl` `7a39bced1076d576ddfd6f8263983c79f1aebb2044d35e290e8d76266b5b26f0`。恢复副本为三表的`.bak-s2-chp2-strozzi-rucellai-chapels-20261015`；受控脚本`process/resolve_chp2_unnamed_strozzi_rucellai_chapels_20261015.py`。
+
+严格阶段审计通过：errors=[]、s2_missing=[]。全库开放端点524（342仅缺object、69仅缺subject、113两端皆缺）。下一段按源序为`chp-2:02_CHP-2_sec_ii:l3-8`，含5条开放statement，详见后续逐项复核。
+
+## 2026-10-15：第2章第二节 l3–8 开放端点复核
+
+按S0来源段复核五条开放statement。`st-chp2-sec-ii-l3-8-family-art-patronage`中的“Most of these men”明确指向前文男性亲属/姻亲中的多数，但未说明具体成员；新增类型待决、身份开放的来源限定群体候选`cand-12290`，mention `m-chp2-secii-l3-8-patronage-majority`跨度`[879,896)`，补为subject，并保留“most”量词，不将全部具名亲属都判为赞助人。
+
+`st-chp2-sec-ii-l3-8-witchcraft-plot`的行动者按原文补为未具名野心侄辈候选`cand-12291`；提及的未具名papabile枢机另建人物候选`cand-12292`。新增`st-chp2-sec-ii-l3-8-nephew-kinship-cardinal`，用受控类型`kin_of`并在role保留具体“nephew of”语义；原书OCR将“one papabile”连写为“onepapabile”，页图确认空格，S0不改。该情节仍按Haskell转述保留，不视为独立核实。
+
+`st-chp2-sec-ii-l3-8-urban-excess-reputation`的主语由来源明确的“his contemporaries and by his successors”补为开放群体候选`cand-12293`，mention跨度`[1797,1837)`；成员不推定，“universally”仍作为Haskell表述而非独立证实的共识。Taddeo获授政治职位与财富两条仍缺授予者/财富来源；通用职位类别没有被强造为实体端点。未新增S6正式关系。
+
+新增4个候选、4条精确mention和1条statement；写后为12,271 candidates、26,463 mentions、15,114 statements。恢复副本为三表的`.bak-s2-chp2-secii-l3-8-open-endpoints-20261015`。受控脚本`process/review_chp2_sec_ii_l3_8_open_endpoints_20261015.py`经preview后apply。写后SHA-256：`entity-candidates.csv` `2901c4b0a160c13ac8e5dd20a923c6dc68c5681369d829f562c98e80b1910ba6`；`mentions.csv` `d9e8e88bd1056ccfdf72356ffa52c7eb8e67708b7c860f027be91cbeb31222b5`；`book-statements.jsonl` `472e5e3e5d9c05bee4108260a69d00d5d886a71bd22fdd48c55a4e2d089f4dd4`。`py_compile`通过；严格阶段审计`errors=[]`、`s2_missing=[]`。全库开放端点521（342仅缺object、66仅缺subject、113两端皆缺）。当前段仍有Taddeo两条开放项；下一段按源序为`chp-2:02_CHP-2_sec_ii:l10-18`，statement `st-chp2-sec-ii-l10-18-important-posts-sold`。
+
+## 2026-10-15：第2章第二节 l10–18 开放端点复核（no_delta）
+
+`st-chp2-sec-ii-l10-18-important-posts-sold`记录Haskell对教皇国重要职位可出售、由最高出价者竞得并获利的概括陈述。来源没有具体列出职位、出售者、购买者或交易；“important posts”是职位类别，“highest bidder”是交易中的竞买角色，均不足以指向可识别的独立实体。保持两端开放，不从相邻关于教皇财政赞助的叙述推定交易方，也不将通用职位类别强归现有对象类型。原开放理由成立，记为no_delta；全库开放端点仍为521。下一处按源序为第2章第二节l30–40的`st-chp2-sec-ii-l30-40-bernini-first-official-post`。
+
+## 2026-10-15：第2章第二节 l30–40 Bernini首任正式职务端点复核（no_delta）
+
+`st-chp2-sec-ii-l30-40-bernini-first-official-post`明确记录Bernini在短期内获授首个正式职务，但原文既未给职务名称，也未写授予者。前后文提到Urban VIII和Tuscan artists不足以证明他是授予者；通用职位类别也不另建为现有类型的实体。保持object开放，理由成立，记为no_delta。全库开放端点仍为521。下一处按源序为`chp-2:02_CHP-2_sec_ii:l42-50`。
+
+## 2026-10-15：第2章第二节 l42–50 巴尔达基诺观众群体端点补齐
+
+`st-chp2-secii-l42-50-artistic_success_and_visibility`报告Bernini的巴尔达基诺获得即时成功，并称同时代人都被其视觉效果打动。原文明确给出集体受众“contemporaries”，新增类型待决、成员开放候选`cand-12294`，mention `m-chp2-secii-l42-50-contemporaries-response`跨度`[94,108)`，接为subject；对象保留既有巴尔达基诺候选`cand-4234`。不推定具体观众、艺术家或评论者。无S6正式关系。
+
+写后为12,272 candidates、26,464 mentions、15,114 statements。恢复副本为三表的`.bak-s2-chp2-baldacchino-contemporaries-20261015`；受控脚本`process/resolve_chp2_baldacchino_contemporaries_endpoint_20261015.py`先preview后apply。写后SHA-256：`entity-candidates.csv` `cb1d79b826880eebf011c794be16bdbe1582efcd2bcb079a9a2be4cb6df7c575`；`mentions.csv` `b14166712644ad370c3f19afa35ee8e98653b66deaa76c07ee19ac8159841f9d`；`book-statements.jsonl` `7d654dfb29798e67f2826d2e6c84a1d4178d3dd848e75f8c9bd6d635d1a8594c`。`py_compile`及严格阶段审计通过，`errors=[]`、`s2_missing=[]`。全库开放端点520（342仅缺object、65仅缺subject、113两端皆缺）；下一段按源序为`chp-2:02_CHP-2_sec_ii:l71-78`，`st-chp2-secii-l71-78-marcello-searches-for-new-talent`。
+
+
+## 2026-10-15：第2章第二节 l71–78 Marcello寻找新才俊端点复核
+
+复核`st-chp2-secii-l71-78-marcello-searches-for-new-talent`时，原开放理由称无具体目标；对照同段紧接叙述及`st-chp2-secii-l71-78-marcello-sought-galatea-copyist`后，文本明确把Marcello寻找新才俊的概括与他寻找Raphael《Galatea》摹本画家相连，下一句将该画家识别为Pietro da Cortona（`cand-0342`）。据此将Pietro作为该一般实践的一个具体例子接为object，不表述为唯一目标；原书引文扩展到紧邻身份识别句，保留原文“always”的概括范围。未新增candidate、mention或statement。
+
+写后SHA-256：`book-statements.jsonl` `22db2b8ae11c9578d29eb39c8ba0ba0757e8f29c9a2ace3b8bd825c23bd6f0ec`；恢复副本`book-statements.jsonl.bak-s2-chp2-marcello-talent-search-20261015`；受控脚本`process/resolve_chp2_marcello_talent_search_endpoint_20261015.py`先preview后apply。`py_compile`及严格阶段审计通过，`errors=[]`、`s2_missing=[]`。全库开放端点519（341仅缺object、65仅缺subject、113两端皆缺）；下一段按源序为`chp-2:02_CHP-2_sec_ii:l80-89`。
+
+
+## 2026-10-15：第2章第二节 l80–89 Pietro向赞助人索求题材端点补齐
+
+复核`st-chp2-secii-l80-89-pietro-requested-subjects`：原文明确说Pietro总向“his patrons”索求题材，短语指向未具名、未枚举的复数赞助人群。新增类型待决、身份开放候选`cand-12295`及mention `m-chp2-secii-l80-89-pietro-patrons`，跨度`[540,551)`，将其接为object；与本段具体提及的Marcello保持区分，不推定其为唯一成员。无S6正式关系。
+
+该段其余三条开放关系分别缺Giulio晋升枢机的授予者、Marcello担任papal treasurer的任命方、Sacchetti家族“taste”影响的具体对象。邻近叙述没有充分指定这些端点；不把Urban VIII补作授予者或任命者，也不将一般的影响领域硬造为实体。写后为12,273 candidates、26,465 mentions、15,114 statements；恢复副本为三表`.bak-s2-chp2-pietro-patron-group-20261015`。受控脚本`process/resolve_chp2_pietro_patron_group_endpoint_20261015.py`经preview后apply。写后SHA-256：`entity-candidates.csv` `2f9eac78b189591b0605fdf745b7a972c1f4448c91a6bfae3e4c3ffac1d5f29a`；`mentions.csv` `3ed7a55a7e489e10c8c57b8493f7ff8c0c9054d0a8a18d3d54aa276c71c7987e`；`book-statements.jsonl` `3d7954179817b566e8ce2aee45756d5e2cb564e2d30313c966b5ac97cb59a4c4`。`py_compile`及严格阶段审计通过，`errors=[]`、`s2_missing=[]`。全库开放端点518（340仅缺object、65仅缺subject、113两端皆缺）；下一段为`chp-2:02_CHP-2_sec_ii:l118-125`。
+
+
+## 2026-10-15：第2章第二节 l118–125 Urban VIII公共纪念物群端点复核
+
+`st-chp2-secii-l118-125-urban-public-monuments`明确指向一组“grander and more public monuments”，新增作品群候选`cand-12296`（status=open）及精确mention `m-chp2-secii-l118-125-urban-public-monuments`跨度`[274,307)`，接为object。数量与成员仍未知；Velletri铜像和元老院委托的大理石像继续分别记录，不将其当作穷尽清单，也不把后者归给Urban VIII委托。
+
+另复核`st-chp2-secii-l118-125-paul-v-lifetime-monument`与`...-sixtus-v-lifetime-monument`。原文在协调句中共用“grandiose monuments”泛称，未逐人列出或界定作品组。拆成两组会产生无依据的独立mention，合成一组又会模糊两条人物关系所指的作品范围；因此两项保持开放，原理由成立，记为no_delta。
+
+写后为12,274 candidates、26,466 mentions、15,114 statements。恢复副本为三表`.bak-s2-chp2-urban-public-monuments-group-20261015`；受控脚本`process/resolve_chp2_urban_public_monuments_group_20261015.py`先preview后apply。写后SHA-256：`entity-candidates.csv` `ccc14395839635318fa8187bf9901267ced19aaea52c6615a9190c8824e650e9`；`mentions.csv` `13700bee9acb8aa67dc37f63f0121cd679d0cfe34527c21410a82d51e0695fd1`；`book-statements.jsonl` `85902b3e4bb26dc00d2e53568299505154ccff730e537d952a521e18a4e6f53a`。`py_compile`及严格阶段审计通过，`errors=[]`、`s2_missing=[]`。全库开放端点517（339仅缺object、65仅缺subject、113两端皆缺）；本段仍有Paul V与Sixtus V两项开放，下一段为`chp-2:02_CHP-2_sec_ii:l127-139`。
+
+
+
+## 2026-10-15 第3章开放端点语义复核与补齐（续）
+
+按原文和同段上下文复核第3章尚开放的关系端点。第I节L26–33将“世俗君主优先”连接到既有宗教会候选`cand-2114`；“冲突力量的综合”与“法律及财政力量”仍是未枚举的概括，保留开放。第II节L6–17将外聘画家个案映射到Baglione候选`cand-0158`，并限定为示例；被动语态下的耶稣会堂马赛克规划者未指明；Farnese“宏大计划”改为非关系评价。拆开S. Stefano壁画说明文本与画面细节的statement。L33–38复用Philip Neri吸引的文人群`cand-5029`，新增壁画题材、Richeome所论绘画组及装饰物的来源限定候选`cand-12314`–`cand-12316`；“不依赖单一赞助人”仍缺有界对象。L74–81新增`cand-12317`（未具名佛罗伦萨家族礼拜堂组）和`cand-12318`（未具名后世艺术家组），补精确mention并关闭对应对象端点；成员、数量及具体身份不外推。
+
+第IV节L16–24根据“the General in Rome”及紧接着明确总会长为Goswin Nickel的句子，将Courtois诚意测试的对象补为`cand-1740`，并链接身份statement；Oliva“利用新局面”仍指向未界定情境。L26–33将“private patrons”补为开放群体候选`cand-12319`，关闭该关系对象端点；鼓励者、具体赞助人及实际完成的委托均未指明。L165–177复核四条开放关系：来信与告知公爵的来源是否相同、Pozzo任命者、Savelli纪念性致辞的执行方、咨询建筑师的主体，原文均不足以确定；不据相邻叙述补猜。注文L189–243的Carlone同题材身份及“the church itself”目的地也继续开放，需取得注文所引研究全文后再判断。
+
+本轮不登记S4知识元或S6正式关系。写后表规模为12,297 candidates、26,491 mentions、15,118 statements；relation_candidate为true 10,379、false 4,739、unset 0。开放端点491条：仅缺object 314、仅缺subject 64、两端均缺113。恢复副本及逐表哈希保存在相关`.bak-s2-chp3-*-20261015`文件。`python scripts/audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；既有两条enrichment source_ref警告与通用语义审查提示仍在。该批复核不构成全书S2交接。
+
+
+## 2026-10-15 跨章开放端点语义复核与补齐
+
+第2章第IV节L6–17复核三条开放关系：新增`cand-12320`（term）表示七幅挂毯描绘的《君士坦丁生平》叙事主题，并与挂毯组`cand-4598`分开；印本读作“Life”，S0 OCR作“Lise”。指示Francesco提出停战的发出者，以及巴黎使团“各处受到礼遇”的接待者仍未具名，保持开放。第VIII节L3–7复核Urban VIII未被新广场纪念的负向比较；原文未命名某座广场，保持开放，不将后继教皇的广场转作端点。
+
+第5章第IV节p.142–143将“a brilliant society”与续段“Florentine society”接到同一个来源限定开放群体`cand-12321`；Rosa所说的“his clients”经Haskell紧邻的Roman connoisseurs叙述，连接既有开放群`cand-6218`，并保留Rosa自述与Haskell评价的立场差异。另为Bamboccianti艺术家及其追随者的未名赞助人建立独立开放群`cand-12322`，不与Rosa的客户群合并。Rosa关于假设性权威枢机、未实现的公共委托以及Cassiano/Camillo式理想赞助人的三条statement继续开放；不转为实际赞助关系。
+
+写后为12,300 candidates、26,495 mentions、15,118 statements；relation_candidate true 10,379、false 4,739、unset 0。开放端点486条（仅缺object 309、仅缺subject 64、两端均缺113），分布于169段。SHA-256：`entity-candidates.csv` `9d195670b74f32ed2c631b8e0a55b86e59b8c9b475f1cc9dcbd2da80fb021ba6`；`mentions.csv` `046b8b9b04890b7b52371c86451deee3e95d827f40c05bf873ecd727597eaf97`；`book-statements.jsonl` `3c386962865a659b72c5f7cd4d737e4b4dc398f5edec9d9e36008c0f723e45df`。恢复副本为三表的`.bak-s2-chp5-rosa-open-groups-20261015`。严格阶段审计通过（`errors=[]`、`s2_missing=[]`）；既有两条enrichment source_ref警告与语义审查提示仍存在，全书S2尚未交接。
+
+
+本轮复核的规范`segment_id`：`chp-3:03_CHP-3_sec_i:l26-33`、`chp-3:03_CHP-3_sec_ii:l6-17`、`chp-3:03_CHP-3_sec_ii:l33-38`、`chp-3:03_CHP-3_sec_ii:l74-81`、`chp-3:03_CHP-3_sec_iv:l16-24`、`chp-3:03_CHP-3_sec_iv:l26-33`、`chp-3:03_CHP-3_sec_iv:l165-177`、`chp-3:03_CHP-3_sec_iv:l189-243`、`chp-2:02_CHP-2_sec_iv:l6-17`、`chp-2:02_CHP-2_sec_viii:l3-7`、`chp-5:05_CHP-5_sec_iv:l3-12`、`chp-5:05_CHP-5_sec_iv:l14-21`。
+
+## 2026-10-15 第5章 p.144–145 开放端点复核
+
+按源序复核 chp-5:05_CHP-5_sec_iv:l23-31 与 chp-5:05_CHP-5_sec_iv:l33-37。p.144 将“quantities of the smaller pictures”记录为开放作品组候选 cand-12323，对应mention m-chp5-p144-derossi-small-pictures；不与de’ Rossi私人博物馆藏品及Rosa为家族礼拜堂绘制的祭坛画合并，题名和数量未知。该statement的object端点关闭。
+
+p.145 的四个对象端点分别落到来源限定候选：cand-12324（De Dominici所述Giordano三类受众，term；不转归Rosa）、cand-12325（Passeri所述Rosa作品出现的住所组，place；无单体地址）、cand-12326（Rosa所抨击的conventional patronage，term）、cand-12327（Haskell所谓contemporary patronage的outer circles，term；不与前句select clientele混并）。各自新增精确mention并连接原statement。st-chp5-p145-rosa-not-taken-seriously-by-unnamed-audience 的“no one”没有可界定的受众，保留开放；本段共剩1个开放端点。无新增KU或S6正式关系。
+
+写后为12,305 candidates、26,500 mentions、15,118 statements；relation_candidate true 10,379、false 4,739、unset 0。开放端点481条（仅缺object 304、仅缺subject 64、两端皆缺113）。p.144与p.145写回均先preview后apply，恢复副本后缀分别为 .bak-s2-chp5-derossi-small-pictures-group-20261015 和 .bak-s2-chp5-p145-open-group-endpoints-20261015。当前SHA-256：entity-candidates.csv b89fd87ae4cb5d830ae64769d0dbbfee69872fc26975e27cfe1052b137ca1268；mentions.csv 27ab6d2c1d06180fd87b946a6176a8d16d441f85e1813a94d8d59791b237bdfd；book-statements.jsonl 2e16ecd3a0190bc93eaaf7e5de6a05d95b342d471af4e128431ac16a0f9c0ab3。audit_tables.py --strict-stage --summary通过，errors=[]、s2_missing=[]；两条既存enrichment source_ref警告及语义审查提示不变。
+
+## 2026-10-15 第6章 p.146 开放端点语义核定
+
+复核 chp-6:06_CHP-6_sec_i:l3-11 的 statement st-chp6-p146-taxes-and-patronage。原文“New taxes were raised, private silver was confiscated”使用被动结构，未说明行动者；前文的战争和政治叙述也不足以确认由谁加税、没收银器。因此保留subject开放，不推定Rome、Urban VIII、Barberini或其他机构为行动者；仅补充机器可读的open_endpoint_reason，无新增candidate、mention或statement，也不改写claim与predicate。
+
+恢复副本为 book-statements.jsonl.bak-s2-ch6-p146-unspecified-tax-agents-20261015。写后SHA-256：dc241774127e975cac306d56a7d5262d7808ca26e88b2bc23eb2b5e98fe10229。严格阶段表审计通过，errors=[]、s2_missing=[]；全库计数不变（12,305 candidates、26,500 mentions、15,118 statements），开放端点481（仅缺object 304、仅缺subject 64、两端皆缺113）。此对象仍待证，不转成正式关系。下一有开放端点段为 chp-6:06_CHP-6_sec_iv:l12-26。
+
+## 2026-10-15 第6章 p.158 Marucelli三组开放对象复核
+
+复核 chp-6:06_CHP-6_sec_iv:l12-26。将三项原文明示、但未逐一命名的对象分别建模并连接原statement：cand-12328 为Marucelli委托制作的伟人半身像组（work；四种媒材，单件、作者、被表现者和数量未明）；cand-12329 为Marucelli撰写生平且与之相友的主要画家子群（term；成员未列举，不视为其所写生平的完整集合）；cand-12330 为填充Marucelli藏书的伟人作品组（work；作者、题名、版本和数量未明，与半身像分开）。新增对应精确mention。S0 OCR的“fdled”仍保留，mention注记记录页图校读为“filled”；未改写S0。三项对象端点均关闭，无新增KU或S6正式关系。
+
+写后为12,308 candidates、26,503 mentions、15,118 statements；开放端点478条（仅缺object 301、仅缺subject 64、两端皆缺113）。恢复副本后缀为 .bak-s2-ch6-p158-marucelli-open-groups-20261015。当前SHA-256：entity-candidates.csv 01c42074f039ad5da2cc9f0645a02ef911f4bb0378ecb8ad4470045b60aaa000；mentions.csv cf5b15ceaebd9936fd4938dfcc3a2f1240cc794b5d24db668db00572ded27629；book-statements.jsonl fe052d8ed0b5cbd767d7d8440a87e0aa989d7ef7535e839450091229ee31d0c4。audit_tables.py --strict-stage --summary通过，errors=[]、s2_missing=[]；两条既存enrichment source_ref警告和语义审查提示不变。
+
+## 2026-10-15 第6章 p.165 风格关系拆分与端点处理
+
+复核 chp-6:06_CHP-6_sec_v:l35-40。将Haskell关于Ottoboni相关风格的概括拆为可区分的传递渠道与受众：st-chp6-p165-v1-11 现记 master-to-pupil、court-to-court 两类传递渠道，object为cand-12333；新增st-chp6-p165-v1-11-audience-reception，记录princes与general public两类受众，object为cand-12334。两项均为term型来源限定类别，不推断个人、具体宫廷或具体传播事件。
+
+将原复合比较st-chp6-p165-v1-12拆为三个来源限定风格比较：true Baroque（cand-12331）、French rococo（复用cand-6555）、later eighteenth-century painting（cand-12332）。原mention m-chp6-p165-v-025从宽泛Baroque文化候选cand-4500改接到更具体的true Baroque候选cand-12331；cand-4500仍用于本段另一个“academic Baroque”mention。保留S0对“eighteenthcentury”的OCR连写，记录页图断行连字符。五条statement各自保留Haskell评价语气；没有具体作品被推定。
+
+写后为12,312 candidates、26,506 mentions、15,121 statements（relation_candidate true 10,382、false 4,739、unset 0）；本段开放端点归零。全库开放端点476条（仅缺object 299、仅缺subject 64、两端皆缺113）。恢复副本后缀为 .bak-s2-ch6-p165-style-statement-atomicity-20261015。当前SHA-256：entity-candidates.csv b11bdde78b630f07fffaa998d0ef68fd79070ac2d6a3c8eec5a57fa1ea52dc50；mentions.csv 3567c9c39405fc54cc4564f77593f131ef7bc0178e76e3b21faa42865f6519e8；book-statements.jsonl bcfead9c9ce1117bb0ac28ba3c79f09a8d7b11048f67eb1879d85be50e7b56c4。audit_tables.py --strict-stage --summary通过，errors=[]、s2_missing=[]；两条既存enrichment source_ref警告及语义审查提示不变。无新增KU或S6正式关系。下一待复核段按书序为 chp-7:07_CHP-7_sec_iv:l77-87。
+
+## 2026-10-15 第7章 p.198 开放端点语义复核
+
+复核规范段 `chp-7:07_CHP-7_sec_iv:l77-87`，以印本 `CHP-7.pdf` 物理页36（印刷p.198）核对OCR。将原7条开放statement拆解为12条原子关系候选：English milordi参观未具名画室、支付高价、邀请意大利半岛各地艺术家赴英定居分开记录；Shaftesbury的理论化、Exeter在英国收藏史中的角色、作品创作判断、那不勒斯知识圈、英国友人购画、Closterman来信背后的Haskell推断，以及对Holland和France的不同态度分别处理。新增6个来源限定候选（`cand-12335`–`cand-12340`）、6条精确mention及5条statement；复用段内既有England mention `cand-8983`，避免同一跨度重复登记。所有新statement继承来源层、注2链接及Haskell叙述限定；没有新建KU或S6正式关系。
+
+关闭6个有明确对象的端点：未具名画室组、受邀艺术家群、English patronage术语、English collecting历史领域、Choice of Hercules作品，以及未具名劝阻信件。Shaftesbury混入知识圈及其英国友人保持为来源限定群体；Haskell对信件获认可的判断仍标为推论。唯一保留开放的是“paying fabulous prices”：原文没有说明具体交易或购买对象，不补造。
+
+写后为12,318 candidates、26,512 mentions、15,126 statements；`relation_candidate` true 10,387、false 4,739、unset 0。开放端点470条（仅缺object 293、仅缺subject 64、两端皆缺113），分布于166段；本段剩1条对象端点开放。恢复副本后缀为 `.bak-s2-chp7-p198-open-endpoints-20261015`。写后SHA-256：`entity-candidates.csv` `9f74f394cb9c7bc7265716645aff439842d5e1b5ebef15fe3246fa23ba4766dc`；`mentions.csv` `e43483fdde105b3fc9e1885dc14e08016714b8572c26644f860f5170d55aafec`；`book-statements.jsonl` `303f21c9a61139078b62584936f167373c68bfd19ce699e94e8e7dd0ad4d6676`。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一段为 `chp-7:07_CHP-7_sec_iv:l89-95`（3条开放statement）。
+
+## 2026-10-15 第7章 p.199（第IV节）开放端点复核
+
+复核规范段 `chp-7:07_CHP-7_sec_iv:l89-95`，以 `CHP-7.pdf` 物理页37（印刷p.199）核对原文。`st-chp7-p199-choice-hercules-failed-to-convey-thought`的对象端点连接到前页已明确的道德主题候选`cand-7249`（Vice and Virtue），并链接前页相关instruction statement；Haskell关于画作无法传达其复杂构思的判断仍保留为作者评价。
+
+将Shaftesbury“强调艺术教化作用”与“良善社会必然产生良好艺术”两项概念从复合statement中拆开。新增term候选`cand-12341`（艺术的教化作用）、`cand-12342`（良善社会产生良好艺术的命题）及`cand-12343`（绘画的情感感染力），各补一条精确mention；新增原子statement `st-chp7-p199-shaftesbury-good-society-produces-good-art`，将第二项明确保留为Haskell所述、且被其评价为较不可取的Shaftesbury命题。`st-chp7-p199-shaftesbury-emotional-appeal`对象连接到绘画的情感感染力这一明确概念；具体文本和画作仍未指明，不补造档案或作品端点。
+
+本段3个开放端点均有来源支持的对象并已关闭；没有新增KU或S6正式关系。写后为12,321 candidates、26,515 mentions、15,127 statements；`relation_candidate` true 10,388、false 4,739、unset 0。全库开放端点467条（仅缺object 290、仅缺subject 64、两端皆缺113），分布于165段。恢复副本后缀为 `.bak-s2-chp7-p199-open-endpoints-20261015`。写后SHA-256：`entity-candidates.csv` `2560801eebc4b50477b7f566aa05a4d2927b9e2f92932093a43696805c6d20e5`；`mentions.csv` `503e04c6415dea82402bbf73d63646434370ec7f00f2c426a042f2f0edc4de8d`；`book-statements.jsonl` `2fca2077ea16775c003e69242d57669ca8283113da7d8f734619f4c49c4215f0`。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告和通用语义审查提示不变。下一段为 `chp-7:07_CHP-7_sec_v:l3-7`（2条开放statement）。
+
+## 2026-10-15 第7章 p.199（第V节）开放端点复核
+
+复核规范段 `chp-7:07_CHP-7_sec_v:l3-7`，以印本物理页37核对“provincial centres”与随后列出的Bologna、Venice、Naples。`st-chp7-p199-v-collectors-alternative-centres`对象复用同段既有术语候选`cand-2066`（Provincial centres of art patronage）；三座城市被作为本段明确给出的替代中心，仍不将任何收藏者逐一指派到某城。添加与`st-chp7-p199-v-papal-power-and-provincial-centres`的语境链接并移除该对象端点理由。
+
+`st-chp7-p199-v-artists-european-favourites`保留两个开放端点。原文列出六位画家并以Maratta、Trevisani作比较，但未提供一个可直接复用的特定艺术家群知识元或界定“European favourites”的具体受众。若新造群组会超出既有成员提及表达，若逐人拆分则会把比较性集体陈述改写为独立的人物主张；故本项记`no_delta`，沿用既有open理由。本段未新增候选、mention或statement。
+
+写后表规模不变：12,321 candidates、26,515 mentions、15,127 statements；`relation_candidate` true 10,388、false 4,739、unset 0。开放端点466条（仅缺object 289、仅缺subject 64、两端皆缺113），分布于165段；本段剩1条缺subject。statement表恢复副本后缀为 `.bak-s2-chp7-p199-v-collectors-endpoint-20261015`，写后SHA-256 `c44e54fae9e43db03a634351f20186f781398c9975372f65442a3bb4c9cc5cfa`。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一段为 `chp-7:07_CHP-7_sec_v:l42-55`（6条开放statement）。
+
+## 2026-10-15 第7章 p.201 开放端点语义复核
+
+复核规范段 `chp-7:07_CHP-7_sec_v:l42-55`，以 `CHP-7.pdf` 物理页43（印刷p.201）核对原文。为Eugene对Venetian“lighter manner”的无兴趣新增term候选`cand-12344`；将Galli-Bibiena的未具体指名戏剧演出记录为event候选`cand-12345`；将正文用于解释Vienna兴起的军事结果记录为event候选`cand-12346`；将Eugene绘画收藏的散佚记录为event候选`cand-12347`。Eugene的“欧洲最宏大且有影响力的私人赞助人”所指范围连接到既有Europe候选，不把无名比较组拆成实体。
+
+关闭本段6个原开放端点；Mattielli与Parodi分别作为雕塑群制作方拆为两条原子statement，共用既有雕塑群候选。收藏散佚statement链接至注2关于Carlo Emanuele III购得大量藏画的statement，但不推断其买下全部收藏。新增4个候选、4条精确mention及1条statement；无新增KU或S6正式关系。
+
+写后为12,325 candidates、26,519 mentions、15,128 statements；`relation_candidate` true 10,389、false 4,739、unset 0。全库开放端点460条（仅缺object 284、仅缺subject 63、两端皆缺113），分布于164段；本段无开放端点。恢复副本后缀为 `.bak-s2-chp7-p201-open-endpoints-20261015`。写后SHA-256：`entity-candidates.csv` `62ac78a5a0de70b505baa349c38cb741ce561ec3cf441aaecbb3e0f29befe8a3`；`mentions.csv` `0ea78f194a108c6dbff367756669059eee229d74ab3a0b8ff2a8f176d385d086`；`book-statements.jsonl` `d700e38f5f740e752cf689a3686170cdc8bac215685d32fcf663ecf2eb4e8e4f`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一段按源序为 `chp-7:07_CHP-7_sec_v:l57-60`（1条开放statement）。
+
+## 2026-10-15 第7章 p.202 开放端点复核与漏提及修正
+
+以 `CHP-7.pdf` 物理页44（印刷p.202）复核 `chp-7:07_CHP-7_sec_v:l57-60`。Victor Amadeus与Juvarra所吸引的对象在原文中明确是“leading painters, or at least their pictures”；画家与画作是不同类型的替代对象，不能写成二者同时发生。故保留statement的标量object端点开放及原有`disjunctive_object_candidate_ids`，不增造单一实体来掩盖歧义。复核时发现来源限定的城市群候选`cand-12005`已列入该statement的mention清单，却缺少对应的精确mention；补入`m-chp7-p202-v-origin-cities`，表面形式“more richly endowed cities”，跨度`[1067,1093)`。无新增候选、statement、KU或S6正式关系。
+
+全库仍为12,325 candidates、26,520 mentions、15,128 statements；关系候选true/false/unset为10,389/4,739/0，开放端点460条（仅缺object 284、仅缺subject 63、两端皆缺113），分布于164段。本次mention写回恢复副本后缀为 `.bak-s2-chp7-p202-origin-cities-mention-20261015`；写后SHA-256 `mentions.csv` `e47ee6770d121192112fd20f385a5b85b3c59b531b7231e530a173c3c4624b24`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核段按书序为 `chp-8:08_CHP-8_sec_i:l3-12`（1条开放statement）。
+
+## 2026-10-15 第8章 p.203–204 开放端点语义复核
+
+复核第8章p.203规范段 `chp-8:08_CHP-8_sec_i:l3-12`，对照 `CHP-8.pdf` 物理页1。`st-chp8-p203-bolognese-doctors-picture-owners`继续保留object开放：Haskell说Paolo Battista Balbi、Beccari和Marcello Malpighi均拥有画作，但没有指名任何作品，也没有说三人共有同一收藏。若补单一作品组会把各自的所有权误并成一个共有对象，故记`no_delta`；既存校读“great - Marcello”对照印本为“great Marcello”，沿用statement内的OCR校正记录。
+
+复核p.204规范段 `chp-8:08_CHP-8_sec_i:l14-21`，对照物理页2。原文“support of the arts”明确以广义艺术活动为宾语；按taxonomy的term类型新增`cand-12348`“The arts in Naples”和精确mention `m-chp8-p204-lawyers-support-arts`（“the arts”，跨度`[1041,1049)`），连接`st-chp8-p204-naples-lawyers-supported-arts`。该端点表达一般概念，不推定具体作品、机构或项目；本段开放端点关闭。新增1个候选、1条mention；无新增KU或S6正式关系。
+
+写后为12,326 candidates、26,521 mentions、15,128 statements；关系候选true/false/unset为10,389/4,739/0。开放端点459条（仅缺object 283、仅缺subject 63、两端皆缺113），分布于163段。恢复副本后缀为 `.bak-s2-chp8-p204-arts-term-endpoint-20261015`。写后SHA-256：`entity-candidates.csv` `bf6ac1f8a45a04995907a614d875e5ff2e1611941fc46e332091a7cf086bb81d`；`mentions.csv` `8aa6d919cc6ffdc9af1fed84e91548298976003494cadb0cd5636092ea4b9e9b`；`book-statements.jsonl` `d9fe999dfc78f759a3588121032974f3974743c30304ef7a9dff1fd803e06d08`。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一段按书序为 `chp-8:08_CHP-8_sec_i:l84-96`（1条开放statement）。
+
+## 2026-10-15 第8章 p.211 脚注作者端点复核
+
+对照 `CHP-8.pdf` 物理页9（印刷p.211），复核脚注statement `st-chp8-p211-manini-salvini-career-accounts`。原文把brief career accounts归于Giuseppe Manini与Salvino Salvini两人；将复合statement拆为两个来源限定、原子归属：原statement连接`cand-7505`（Manini），新增`st-chp8-p211-salvini-career-accounts`连接`cand-7506`（Salvini），两条互链。该拆分不声称两人合著某一已识别文献，也不把某个具体账户映射到其中一位兄弟；文献题名、日期和版本仍缺。新增1条statement，无新增候选、mention、KU或S6正式关系；本段开放端点归零。
+
+首次写入后的严格审计发现写回脚本误将CSV旧行整体重复拼接。立即用同批写入前、SHA-256为`8aa6d919cc6ffdc9af1fed84e91548298976003494cadb0cd5636092ea4b9e9b`的恢复副本还原`mentions.csv`，确认原哈希一致；修正写入脚本并复跑严格审计。最终提及表未改变，最终`book-statements.jsonl` SHA-256为`068af80309912a77859f3e16e0194719f3e3e41c6a25fda8d8f318f5f6f80d2b`。最终严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。
+
+写后为12,326 candidates、26,521 mentions、15,129 statements；关系候选true/false/unset为10,390/4,739/0。开放端点458条（仅缺object 282、仅缺subject 63、两端皆缺113），分布于162段。statement恢复副本后缀为 `.bak-s2-chp8-p211-career-authors-20261015`。下一待复核段按源序为 `chp-8:08_CHP-8_sec_i:l108-118`（1条开放statement）。
+
+## 2026-10-15 第8章 p.213 Nomé别名断言分类修正
+
+对照 `CHP-8.pdf` 物理页11（印刷p.213），复核 `st-chp8-p213-nome-alias-and-inventory-description`。`Monsù Desiderio`已作为Nomé的同一人物候选`cand-1749`的别名mention；此断言不指向另一独立实体，按第7章Del Carpio别名处理先例，将`relation_candidate`由true改为false，保留为身份与名称证据并链接独立的库存描述statement `st-chp8-p213-nome-inventory-described-as-lorenese`。后一statement已准确记录inventory把Nomé描述为“Lorenese”，无需新增名称对象。将本statement claim收窄为别名断言，并移除重复写在qualifiers之外的顶层`claim`、`qualification`和`mentioned_candidate_ids`字段。无新增候选、mention、statement或KU；本段开放端点归零。
+
+写后为12,326 candidates、26,521 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点457条（仅缺object 281、仅缺subject 63、两端皆缺113），分布于161段。statement恢复副本后缀为 `.bak-s2-chp8-p213-nome-alias-classification-20261015`，写后SHA-256 `0687a82c9d71db923385472842a063a5f96094aa50e65d03ce2af16529b01ef9`。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。下一待复核段为 `chp-8:08_CHP-8_sec_i:l120-124`（1条开放statement）。
+
+## 2026-10-15 第8章 p.214 Baglioni家族端点复核
+
+对照 `CHP-8.pdf` 物理页12（印刷p.214），复核`st-chp8-p214-baglioni-family-publishers-and-nobility`。原文把“bought their way into the nobility”作为Haskell对Venice Baglioni家族进入贵族身份的概括。复用已有term候选`cand-8108`（Venetian nobility as a social estate）作object，新增mention `m-chp8-p214-040`精确对应“the nobility”（跨度`[675,687)`），并保留原statement中的Baglioni Venice家族候选`cand-7575`。沿用Haskell评价性转述，不推断具体购买交易、个人成员或准确授予日期；此Venice家族与Perugia的`cand-4279`仍待S3身份对齐。无新增候选、statement、KU或S6正式关系。
+
+写后为12,326 candidates、26,522 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点456条（仅缺object 280、仅缺subject 63、两端皆缺113），分布于160段。恢复副本后缀为 `.bak-s2-chp8-p214-venetian-nobility-endpoint-20261015`。写后SHA-256：`mentions.csv` `4f8edd898bf3261bf112f8ad9c580f81c3683dfb034e15b8e091094e37b43029`；`book-statements.jsonl` `6c8c17a6cf2eb1b175f35ab77a086183d50b459c72e4dd5921f13395b252c257`。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。下一待复核段按源序为 `chp-8:08_CHP-8_sec_i:l126-157`（3条开放statement，章内注释转录）。
+
+
+## 2026-10-15 第8章 p.215 开放端点语义复核
+
+对照 `CHP-8.pdf` 物理页13（印刷p.215），并核对跨页至物理页14（印刷p.216）的指代。新增候选`cand-12359`–`cand-12365`：Santa Maria Maggiore持续施工事件、威尼斯/米兰搜寻相对失败、后续意大利城镇谈判、罗马绘画、未具名古典主义学说与机构群、地方收藏发展过程、Haskell所称的特殊赞助机制。候选类型依次为event、event、event、term、未定、event、term；未定项同时涵盖学说和机构，未强行归入单一类型。新增13条精确mention，均以来源段字符跨度复核。
+
+关闭6条statement端点：教堂施工起始、古典主义制度与偏远城市、搜寻失败与谈判、地方收藏发展与赞助机制、地方收藏与罗马绘画之间的评价性关联，以及Haskell对Dora Coggiola的致谢。p.216“these”明确回指p.215谈判系列，在续页statement中记录该指代及mention；该续页的no-masterpieces评价仍保持`relation_candidate=false`。保留`st-chp8-p215-local-capacity-and-foreign-commission`开放（Haskell转述的是假设性委员会判断，未指名实际受委画家），以及`st-chp8-p215-one-collection-influential`开放（“at least one case”未识别具体收藏）。未新增KU或S6正式关系。
+
+写后为12,343 candidates、26,546 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点443条（仅缺object 277、仅缺subject 62、两端皆缺104），分布于160段。恢复副本后缀为 `.bak-s2-chp8-p215-structural-endpoints-20261015`；写后SHA-256：`entity-candidates.csv` `4b5efa9e8b81f0570872586964f437bd8b5472c63e9a57403f8eda43e8aa2883`，`mentions.csv` `6c2d791d991b4744e2ee79a5697636755de1a1e21a358afb1d331f57bbc02f6b`，`book-statements.jsonl` `8b61e14a298b6b856c882ce3746c25d27255c9461b108606a51ce42da0b09829`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核段为`chp-8:08_CHP-8_sec_ii:l21-35`（7条开放statement）。
+
+
+## 2026-10-15 第8章 p.216 开放端点语义复核
+
+对照 `CHP-8.pdf` 物理页14（印刷p.216）。新增`cand-12366`“Storer在Bergamo有密切联系的主要家族”与`cand-12367`“受托绘制Santa Maria Maggiore四幅画作的米兰地区艺术家群”，两者均保持未定类型，不推断家族成员或单幅作品与特定画家的对应；新增`cand-12368`记录原装饰计划第一阶段于1659年前完成，类型为event。三条新mention的字符跨度均对回来源文本。
+
+关闭6条statement端点：Storer与未具名Bergamo家族的联系、四幅作品与来源所称米兰地区艺术家群的委托关系、以及既有装饰计划的第一阶段完成事件。保留`st-chp8-p216-governors-pleased-with-massacre`的subject开放：上下文同时提到Consiglio del Consorzio和全城，代词“they”的行动者边界不足以安全映射到单一端点。未新增KU或S6正式关系。
+
+写后为12,346 candidates、26,549 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点437条（仅缺object 275、仅缺subject 58、两端皆缺104），分布于160段。恢复副本后缀为 `.bak-s2-chp8-p216-source-groups-20261015`；写后SHA-256：`entity-candidates.csv` `1d75b32caa7b5491b9f8f191a9e406d263847c150983b2365f7cc058c7eeb0e5`，`mentions.csv` `5d2dfcd72b8ac1f466c6f480eed8e3a792ebca541fb7b61748d5f3cd50910630`，`book-statements.jsonl` `03909e32f7e4581bb585012cc2820698b5e21bc26affea0c266e94a20ee92afb`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核段为`chp-8:08_CHP-8_sec_ii:l69-76`（1条开放statement）。
+
+
+## 2026-10-15 第8章 p.217 开放端点语义复核
+
+对照 `CHP-8.pdf` 物理页19（印刷p.217），复核`st-chp8-p217-liberi-nudes-upset-bergamasque-susceptibilities`。新增term候选`cand-12369`“Haskell关于Liberi裸像的或然解释中的Bergamasque susceptibilities”，为原文短语添加mention（字符跨度`[2462,2490)`），并连接为statement的object。保留Haskell的“most probable”判断，不把该解释转写为全体当地人的已证实反应；与关于Liberi画作接收原因不确定的statement保持原链接。本段开放端点归零，无新增KU或S6正式关系。
+
+写后为12,347 candidates、26,550 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点436条（仅缺object 274、仅缺subject 58、两端皆缺104），分布于160段。恢复副本后缀为 `.bak-s2-chp8-p217-bergamasque-susceptibilities-20261015`；写后SHA-256：`entity-candidates.csv` `b668251d8977caf93a397655282e8c66312b20941aa4b06a61b60e6d9da2bcff`，`mentions.csv` `af07394bd47b09b493419ec810055274fb173730ce7eb780a48c024043a60bce`，`book-statements.jsonl` `b3f44d6dc571bbcdbcd3f81b6b1f862c7c2ffff7eac4afa75aa8df3fdd9cfbc7`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核段为`chp-8:08_CHP-8_sec_ii:l78-84`（2条开放statement）。
+
+
+## 2026-10-15 第8章 p.218 开放端点语义复核
+
+对照 `CHP-8.pdf` 物理页20（印刷p.218）。为“relations between artist and patrons”新增未定类型候选`cand-12370`，范围限定于Ciro Ferri的Santa Maria Maggiore委托语境，不将其成员等同于已命名委员会；为“Various artists proposed themselves”新增未定类型候选`cand-12371`，不推断成员数量和个人身份。新增两条精确mention。将两项分别连接为Ferri关系降温statement的patrons对象，以及自荐艺术家群statement的subject；保留延误原因未知，也不建立个人艺术家与剩余画作的配对。本段开放端点归零；无新增KU或S6正式关系。
+
+写后为12,349 candidates、26,552 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点434条（仅缺object 273、仅缺subject 57、两端皆缺104），分布于158段。恢复副本后缀为 `.bak-s2-chp8-p218-source-groups-20261015`；写后SHA-256：`entity-candidates.csv` `d6339d9caf3129398a42b5ec32d2c8cb8cc336f8516845af6e1ae7e25bacb8de`，`mentions.csv` `d7e83aaa77a0d5e396bef376668a3ebd6d4498b8f23b7667fe628d6671cb9295`，`book-statements.jsonl` `dfcad093f0671d2322b226399116c2ef669325fb5d95237598a34290ac9c2357`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核段为`chp-8:08_CHP-8_sec_ii:l112-124`（1条开放statement）。
+
+
+## 2026-10-15 第8章 p.221 开放端点语义复核
+
+对照 `CHP-8.pdf` 物理页23（印刷p.221），复核`st-chp8-p221-abraham-picture-approved`。实验性《亚伯拉罕》画作“met with approval”是被动表述；紧接着的安排表明获准后将委托Melanconici绘制整套作品，但这一短句没有明确命名审批主体，也无法在committee与教堂治理者之间作可靠区分。因此不把相邻行动者自动回填为approver，保留object开放并记`no_delta`；不新增候选、mention、statement或KU。表数据未变，沿用最近一次严格阶段审计与关系一致性审计结果。下一待复核段为第8章p.223脚注`chp-8:08_CHP-8_sec_ii:l372-461`（1条开放statement）。
+
+
+## 2026-10-15 第8章 p.223 注4 开放端点语义复核
+
+对照`CHP-8.pdf`物理页25（印刷p.223），复核`st-chp8-p223-n4-orlando-acknowledgement`。新增未定类型候选`cand-12372`，对应Count Orlando Buonaccorsi为Haskell提供的“what little material survives about his ancestor”来源材料组，并新增精确mention，连接为statement的object。材料的具体内容、媒介和数量未说明；不将脚注稍后提到的1726年手稿直接认作该材料组的全部内容。本段开放端点关闭；无新增KU或S6正式关系。
+
+写后为12,350 candidates、26,553 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点433条（仅缺object 272、仅缺subject 57、两端皆缺104），分布于158段。恢复副本后缀为 `.bak-s2-chp8-p223-orlando-material-group-20261015`；写后SHA-256：`entity-candidates.csv` `50b94dc190c7880b2991fabe61b9bd887e974e84a14fed2d2c24c9c4de7c7e43`，`mentions.csv` `465d9d79622d8ccbab14d3e807f7b1b18cfe3f20ba469d6c618f95b5b353b005`，`book-statements.jsonl` `2191e72a29be3e4fee17088e5af05b63652fd9a86ada5c9d26f851f8f18bcd5e`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核项为`st-chp8-p225-n9-haskell-collection-visit`（p.225注9）。
+
+
+## 2026-10-15 第8章 p.225 注9 访问者主体端点复核
+
+对照`CHP-8.pdf`物理页27（印刷p.225），复核`st-chp8-p225-n9-haskell-collection-visit`。原文第一人称“I”是Haskell访问Buonaccorsi收藏的报告者；复用作者候选`cand-9423`，新增mention `m-chp8-p225-n9-haskell-visit-author`，精确跨度`[3560,3561)`。对象仍为已存在收藏候选`cand-7765`；该statement只记录Haskell自述的访问和观察，不代表独立复查或归属目录。本段开放端点关闭，无新增candidate、KU或S6正式关系。
+
+写后为12,350 candidates、26,554 mentions、15,129 statements；关系候选true/false/unset为10,389/4,740/0。开放端点432条（仅缺object 272、仅缺subject 56、两端皆缺104），分布于158段。仅修改mentions与statements，恢复副本后缀为 `.bak-s2-chp8-p225-haskell-visit-subject-20261015`；写后SHA-256：`mentions.csv` `6aeaaaa3f35fe1f3fe4b6618fcd57ea2633b260746cf4dfcf7e1e47a4c5d7cab`，`book-statements.jsonl` `70e56001e83376db3d4af01b2a6d9ac64e07c8fb45e2d145c9df9d481d4e2757`。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。两条既存enrichment来源警告及通用语义审查提示不变。下一待复核项为`st-chp8-p238-note4-pictures-at-pisa-cabinet`（p.238注4）。
+
+
+## 2026-10-15 书前至第3章开放端点理由回填
+
+按源序核对已存在的语义决定。第一版序言L19–29原有一条将五人合并的意大利致谢statement，现拆为五条逐人致谢statement，复用既有五个person候选和mention跨度，不新增候选或mention；Marabottini的款待及共同观画仍由原有独立statement记录。第二章印刷p.39 L80–89已有过程决定（见本文件“第二章 p.39–40 关系端点交接复核”）；现为Giulio晋升枢机、Marcello任papal treasurer及Sacchetti taste影响三条开放statement补入行级`open_endpoint_reason`，不推断授予人、任期或一般评价对象。第三章p.78的Oliva“利用新局面”、p.92 Savelli致辞执行方/告知公爵的信息来源/建筑师咨询主体/Pozzo任命者，以及p.79、p.93两条注文比较或迁移目的地，均依据既有复核保留开放，并补齐表内理由；不改端点或关系分类。
+
+受控脚本`reconcile_preface_ack_and_chp2_p39_endpoint_reasons_20261015.py`与`backfill_chp3_open_endpoint_reasons_20261015.py`均先preview再apply，校验statement表、来源资产和segment哈希、原有候选/mention证据跨度、开放端点计数及已有过程裁决。恢复副本分别为`book-statements.jsonl.bak-s2-preface-chp2-p39-reconcile-20261015`和`book-statements.jsonl.bak-s2-chp3-open-reasons-20261015`。写后SHA-256为`a69b6b68e50288d139844de16779c4724efa2b0a2c397864d4fe68b1610888ca`；statement从15,141增至15,145，开放端点由391降为390（仅缺object 244、仅缺subject 46、两端均缺100），缺少表内理由的开放statement由82降至75。
+
+写后`audit_tables.py --strict-stage --summary`通过：1,019 KU、12,371 candidates、26,582 mentions、15,145 statements；832段中678 reviewed/complete、154有理由排除、0 queued；`errors=[]`、`s2_missing=[]`。仍有两条既存enrichment source_ref警告及通用语义审查提示。`audit_relation_consistency.py`五类硬错误均为0，另报告135个无关系单元及1个超过50条关系的连接单元。下一条缺少表内理由的statement为第4章`st-chp4-sec-ii-l101-107-possible-schismatic-sect`；全书S2交接未完成。
+
+## 2026-10-15 第六章p.147–148跨页端点与对象复核
+
+对照第六章p.147–149原文及已登记statement复核：为Barberini收入调查受威胁、Innocent X计划兴建的家族宫殿与教会建筑、Camillo的未具名公私项目群、Innocent X时期的财政困难，以及Lateran未建成的计划穹顶新增5个来源限定候选；为其中3项新增精确mention，另外把已有mention改接到对应候选。`m-chp6-p148-039`从人物候选`cand-0353`改接作品`cand-11957`；画廊穹顶委托和1651年首项正式委托均与p.149点名的Aeneid壁画组关联。金融statement改为分别连接原文的财政条件与计划穹顶，后者不再误指整个Lateran改建项目。p.148艺术成就续句从关系候选改为Haskell的评价性时间概述，与p.149例证记录一致。军职任命者、cardinalate是否应独立建模、罗马艺术生活复兴的具体对象仍开放，均补入逐行理由；未推断因果或具名身份。
+
+严格阶段表审计通过：`errors=[]`、`s2_missing=[]`；全库1,019 KU、12,378 candidates、26,587 mentions、15,145 statements。开放true关系候选382条（缺object 237、缺subject 45、两端缺失100），其中62条尚无行级理由；本批覆盖段中未解决者均已有理由。未改KU、正式关系或S2覆盖状态。批量写回脚本、预检与恢复副本位于同目录，逐项跨度及候选映射已通过机械审计。
+
+## 2026-10-15 第十章 p.276 注1与正文关系拆分
+
+对照`CHP-10.pdf`物理页1复核p.276脚注1和正文。脚注中，早期传记作者关于Christian Cole建议Rosalba改用粉彩的说法现接到`cand-0801`→`cand-0581`，并保留转述归属；Zanetti的1708年日期更正作为非关系陈述保留，Crespi在1703年比较Carriera粉彩作品与Guido Reni、以及Haskell关于Reni晚期“chalky”画法和鉴赏家接受度的判断拆为独立statement。新增`cand-12401`（Haskell描述的晚期画法）、`cand-12402`（未具名十八世纪鉴赏家群）和`cand-12403`（Carriera粉彩作品组），相关引文没有独立查阅Malamani原页。
+
+正文中，“All three”确切回指State、nobles、Church三类。新增未定类型集合`cand-12404`和赞助概念`cand-12405`，分别记录其传统赞助来源角色及促进反宗教改革绘画倾向。另将欧洲战争背景、未具名外国使团、外国国王和未具名军事行动分开记录为`cand-12406`至`cand-12409`；Venice中立、外国国王求盟及避开军事行动压力分别成句。使团“intrigued”没有明示对象或确切地点，保留一个带理由的开放statement，不从章节语境补造目标。
+
+本批共新增9个候选、10条mention和5条statement；一条日期更正改为非关系。恢复副本及dry-run/apply脚本均留在同目录。写后为12,387 candidates、26,597 mentions、15,150 statements；关系候选true/false为10,397/4,753。
+
+## 2026-10-15 第六章 p.157–164 引文及开放端点复核
+
+p.157注1与p.161注1的引用主体统一接至已采纳Haskell原书候选`cand-2962`。Spon/Wheler旅行记与Pascoli两卷分别作为被引对象；Pascoli卷I和卷II拆为两条statement，保留页码定位且不声称独立读过被引页面。
+
+对照`CHP-6.pdf`物理页17–19复核p.162–164。p.162 Clement IX计划改建S. Maria Maggiore tribune并设墓地的statement，新增`cand-12410`表示教宗去世事件，将“去世后中止”限定为时间先后，不写成因果。法语引文的文字在印刷p.162已经结束，只有“1685.”归属语跨到p.163；依页图校正OCR问号和漏掉的脚注标记，并以continuation segment保留跨页定位。该引文记录的是Haskell对匿名见证的归属，不是实体间关系，故`st-chp6-p162-v1-25`改为非关系；p.163注1的Michaud书目引文继续单独保留。
+
+p.164为Ottoboni的1689年枢机任命新增事件候选`cand-12411`，接入`st-chp6-p164-v1-02`；来源未在该句说明授予任命者，因此不把相邻的Alexander VIII推为授予主体。严格阶段审计通过，`errors=[]`、`s2_missing=[]`。当前全库1,019 KU、12,389 candidates、26,599 mentions、15,151 statements；372条关系候选仍缺至少一端（缺object 234、缺subject 44、两端皆缺94），51条尚缺行级理由，分布于140段。按源序下一条缺理由statement为`st-chp7-p171-i09`（`chp-7:07_CHP-7_sec_i:l21-29`）。
+
+## 2026-10-15 第十七章p.380、p.381、p.383；第十八章p.384；第二十章p.403、p.408开放端点收口
+
+对照`CHP-17.pdf`物理页2、3、5，`CHP-18Conclusion.pdf`物理页1及`CHP-20Postscript.pdf`物理页12、17，逐项处理最后8条无`open_endpoint_reason`的关系候选。p.380为Manfrin画廊增加term候选`cand-12423`，表示原文明确提到的意大利及部分佛兰德绘画史范围，并保留“apparently”“to some extent”的限定；mention `m-s2-ch17-p380-manfrin-gallery-history-of-painting`跨度为`[618,676)`，source ref锚定L11。p.383为“many pictures coming on to the market”增加event候选`cand-12424`及mention `m-s2-ch17-p383-pictures-to-market-event`（`[356,393)`），只记录市场事件，不指认作品、收藏、交易或地点。
+
+p.383 Correr“持续购买到十九世纪”的表述没有被单独界定的活动实体、作品、卖方或交易，改为保留的非关系传记statement。p.384的赞助人比较是修辞问句，不报告比较结论，改为非关系陈述；Lodoli的“official government post”未给职务或任命政府，继续开放并补明理由。p.381注2是V. Lazari和两部博物馆图录的聚合书目指引；两部catalogue候选可识别，但Lazari所指作品未定，原关系保持开放。p.403只说明画作经Colbert与Abate Luigi Strozzi委托给Franceschini，原文未命名commissioner，继续开放；不把经手人或前文Louis XIV提升为委托人。
+
+p.408将原来的复合statement拆成Venturi、Torcellan分别受到关注，以及Venturi关注Lodoli意义三条有端点候选；Torcellan二十八岁去世后“本书会更完善”保留为Haskell反事实评价，标为非关系。未独立查阅的学术文献仍只作引文定位，未新增S6关系。
+
+受控脚本`review_final_open_endpoints_chp17_chp20_20261015.py`固定核对六个S0段哈希、来源资产及三份PDF哈希，先preview后apply；恢复副本为三表的`.bak-s2-chp17-chp20-open-endpoints-20261015`。严格审计发现p.380候选source ref不接受行范围语法，随后用`fix_chp17_p380_candidate_source_ref_20261015.py`改为单行锚点`#L11`并另留恢复副本`entity-candidates.csv.bak-s2-chp17-p380-source-ref-20261015`。最终SHA-256：`book-statements.jsonl` `1005648e791008e5b58440aede8a3f50746d54f782c2d2896c519d545072aef1`；`mentions.csv` `a98bdc25e7d3b3750b03fccc0877eb16f82b915b745716745ad1a2069c5cc2a1`；`entity-candidates.csv` `d5d0d2a2b985d8a8b705f55836137e19db3fe64d91f8d1fe63590fb737ea252d`。写后12,402 candidates、26,616 mentions、15,161 statements（true/false/unset：10,399/4,762/0）；331条开放true候选（缺object 217、缺subject 42、两端缺72）均已有行级理由，分布于126段；无理由项0。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误0。没有修改KU、S6正式关系或S2 coverage。全书S2源段处理与statement分类已完成并形成内部交接稿；语义判断未独立验收，后续阶段未启动。
+
+
+## 2026-10-15：开放端点证据核对与第4章引句精确化
+
+核对当前331条`relation_candidate=true`且至少缺一端的statement：331条均有`open_endpoint_reason`；理由共328种，三种理由各被两条记录复用。此项核对确认待决理由均非空，不把理由字段存在本身当作全部端点已独立语义验收。126个相关来源段中，124个段ID可在总过程记录中直接检索；另两段分别在第4章开篇过程/章节结果，以及第十章p.326–327正文与注释续页过程/结果中有对应记录。
+
+对照`04_CHP-4_intro.md` L7，`st-chp4-intro-l3-8-collectors-accumulate-art`的主语复用私藏家群体`cand-5500`。原文“works of art”是未界定、无稳定成员的泛称，未构成具体作品组或有界收藏；对象端点继续开放，不新增候选。将`original_quote`从覆盖整段的954字符收窄为直接支持断言的163字符原句；claim、谓词、端点、候选和提及均未改变。
+
+对照`10_CHP-10_sec_ii.md` L237，`st-chp10-p327-n03-pictures-or-prints-exhibited`的原文明确保留“pictures or prints”二选一；脚注所引Zannandreis/Moschini未在此处独立查阅。画作候选`cand-9803`与版画候选`cand-9826`都不能被选作唯一客体，保持已有开放理由。
+
+表规模未变：12,402 candidates、26,616 mentions、15,161 statements；331条开放端点构成不变。严格表审计`errors=[]`、`s2_missing=[]`。本次为内部证据核对，不构成独立语义验收，不启动S3。

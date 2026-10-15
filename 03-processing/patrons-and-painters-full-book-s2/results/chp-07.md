@@ -19,3 +19,41 @@
 ## p.197 Exeter收藏艺术家关联候选分类（2026-10-10）
 
 全段9条按城市列举的`collector_artist_association_in_city`均标为S2关系候选。Liberi一项明说购买；Pasinelli、Piola、Assereto、Castelli、Maratta、Brandi、Gaulli及Calandrucci为省略式列举。候选只记录Haskell在Exeter收藏叙述中的来源限定关联，不把后8项扩写为具体购买或作品，不生成S6正式边。全库关系候选3,613条（3,599端点齐备、14开放），双端未分类statement 4,454条；严格审计`errors=[]`、`s2_missing=[]`，同步闭合5/5、结构契约130/130。全书S2仍未交接。
+
+## 2026-10-13：p.169–179关系候选语义分类
+
+按源序完成12个正文/注释段的283条statement分类，其中256条为关系候选、27条为非关系。修正p.169–179中人物、作品、地点、匿名群组等关系端点；p.175、p.176同步校正作品mention候选映射。p.179的端点修正以p.180续文和本页明确语境为依据；未把未实现的雕塑计划写成已完成，也未把匿名投诉补成具名主体。没有新增KU或S6正式关系。第七章覆盖账本仍为47段reviewed/complete、8段有理由排除；当前关系分类游标已到p.180正文L129–138。逐段决定与全库审计见[全书过程记录](../process/stages.md)及[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 2026-10-13：p.182–188关系候选分类
+
+按书序完成七段共176条新分类（168条关系候选、8条非关系）；p.186另保留并说明3条此前已有的true判定。逐页true/false总量为p.182 23/1、p.183 21/2、p.184 18/0、p.185 29/1、p.186 20/1、p.187 29/0、p.188 31/3。修正Borghese casino、Aurora fresco、匿名群体、Mazarin、Charles I picture collection及Bernini后续方案等端点；p.182至p.189间的引文和跨页statement续接已互链。p.188印本以CHP-7.pdf物理页26复核。未新增KU或S6正式关系。写后全库relation_candidate true/false/unset为8,284/3,391/2,496；严格表审计errors=[]、s2_missing=[]，关系一致性硬错误为0。下一段为p.189 L243–257，有28条statement待分类；全书S2交接尚未完成。详细裁决见[过程记录](../process/stages.md)。
+
+## 2026-10-15：p.198开放端点复核
+
+印本CHP-7.pdf物理页36确认S0转录内容。7条开放关系候选拆为12条原子关系候选；新增`cand-12335`–`cand-12340`、6条精确mention和5条statement。分开记录English milordi访画室、付高价及邀请艺术家赴英；Shaftesbury理论、Exeter收藏史角色、Haskell对Choice of Hercules的判断、那不勒斯知识圈、为英国友人购画、Closterman劝阻信推论，以及对Holland与France的政治态度。复用既有精确England mention `cand-8983`。有据端点关闭6项；高价陈述因原文没有具体交易或对象继续开放。注2和Haskell归属限定随拆分保留；无新增KU或S6正式边。
+
+当前全库为12,318 candidates、26,512 mentions、15,126 statements；relation_candidate true/false/unset为10,387/4,739/0。开放端点470（仅缺object 293、仅缺subject 64、两端皆缺113），本段仅剩高价陈述开放。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。下一待复核段为p.199 `chp-7:07_CHP-7_sec_iv:l89-95`，3条开放statement。全书S2交接仍未完成。
+
+## 2026-10-15：p.199第IV节开放端点复核
+
+物理页37核对后，将画作无法表达的复杂构思连接到前页已明确的“Vice and Virtue”主题候选`cand-7249`，并链接p.198相关statement。将Shaftesbury强调的艺术教化作用与他所延伸出的“良善社会必然产生良好艺术”命题拆为两条来源限定statement；后一命题保留Haskell“较不可取”的评价。新增`cand-12341`–`cand-12343`三个term候选、3条精确mention和1条statement；分别表达艺术的教化作用、社会与良好艺术的因果命题及绘画的情感感染力。Haskell对Shaftesbury非正式写作的判断仍有归属限定，不补造具体文献或画作。本段3条原开放statement对象均已有依据，关闭后本段无开放端点；无新增KU或S6正式关系。
+
+写后全库为12,321 candidates、26,515 mentions、15,127 statements；relation_candidate true/false/unset为10,388/4,739/0。开放端点467（仅缺object 290、仅缺subject 64、两端皆缺113），分布于165段。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。下一段为p.199第V节 `chp-7:07_CHP-7_sec_v:l3-7`，2条开放statement；全书S2交接仍未完成。
+
+## 2026-10-15：p.199第V节开放端点复核
+
+将收藏者可转向的Bologna、Venice、Naples连接到本段前文所述“provincial centres”候选`cand-2066`；不将英德收藏者个体分配到具体城市。六位画家与Maratta、Trevisani的比较性“European favourites”判断仍开放：没有可复用的特定艺术家群实体或明确受众，逐人拆边会改变原文的集体比较范围，故保留原理由并记`no_delta`。本段无新增候选、mention或statement。
+
+当前全库12,321 candidates、26,515 mentions、15,127 statements；relation_candidate true/false/unset为10,388/4,739/0。开放端点466（仅缺object 289、仅缺subject 64、两端皆缺113），分布于165段。本段剩余1条开放关系候选。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。下一段为p.201 `chp-7:07_CHP-7_sec_v:l42-55`，6条开放statement。全书S2交接仍未完成。
+
+## 2026-10-15：p.201 开放端点复核
+
+以印本物理页43核对p.201。新增`cand-12344`–`cand-12347`四个来源限定候选，分别表示Venetian绘画风格、Galli-Bibiena未具体指名的戏剧演出、Vienna兴起所涉军事结果及Eugene绘画收藏散佚；补4条精确mention。将Eugene的私人赞助人评价连接到Europe范围；Mattielli与Parodi分别接到同一雕塑群的制作statement；散佚事件与注2“Carlo Emanuele III购得大量藏画”互链，同时保留购藏范围不完整的限制。原6个开放端点全部关闭；无新增KU或S6正式关系。
+
+写后全库12,325 candidates、26,519 mentions、15,128 statements；关系候选true/false/unset为10,389/4,739/0。开放端点460条，分布于164段；本段无开放端点。严格阶段表审计通过，关系一致性硬错误为0。全书S2交接未完成。详细记录见[全书过程记录](../process/stages.md)。
+
+## 2026-10-15：p.202 开放端点复核与漏提及修正
+
+以印本物理页44核对p.202。原句明确表达“画家，或至少他们的画作”的替代关系，故保留标量object端点开放及候选`cand-7344`、`cand-7345`，不把二选一写成两条并行事实。补入遗漏的来源城市群提及`m-chp7-p202-v-origin-cities`（候选`cand-12005`，跨度`[1067,1093)`），使该候选与“more richly endowed cities”原文跨度对应。无新增候选、statement、KU或正式关系。
+
+全库12,325 candidates、26,520 mentions、15,128 statements；开放端点460条，分布于164段。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。下一待复核段按书序为第8章p.203 `chp-8:08_CHP-8_sec_i:l3-12`，有1条开放statement。全书S2交接仍未完成。详细判断见[全书过程记录](../process/stages.md)。

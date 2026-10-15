@@ -136,3 +136,9 @@
 - 恢复副本：C:\Users\001\AppData\Local\Temp\pnp-s2-chp10-surface-prompts-20261008-114450。
 
 候选提示裁决不取代对S2语义陈述、跨章身份、脚注、遗漏来源及关系候选的全书交接审计。
+
+## 第十章 p.276 注1与正文语义处理（2026-10-15）
+
+脚注1中，早期传记作者关于Christian Cole建议Carriera改用粉彩的归属、Zanetti日期更正、Crespi 1703年比较、Haskell关于Guido Reni晚期“chalky”画法及鉴赏家接受度的判断分开记录。新增`cand-12401`–`cand-12403`；Malamani原页未独立查阅。
+
+正文“All three”明确回指State、nobles、Church。新增`cand-12404`–`cand-12409`，记录传统赞助及绘画倾向、战争背景、未具名外交使团、外国国王与未具名军事行动；分别保留Venice中立、求盟和避战压力主张。使团“intrigued”的对象和确切地点未明，保留为带理由的开放statement。无新增KU或正式S6关系。

@@ -58,3 +58,32 @@
 p.377正文、p.376注3续文与p.377页下注1–5复核后共49条statement；本次新增15条statement、3个候选和3条mention。拆分Swajer手稿散佚焦虑与宗教裁判官收取手稿；区分Celotti的藏品、销售、城市活动与图录评价；分列注3的Christie's销售定位和Ottley描述；注5拆出两类1814年作品组销售、目录引注与手写增补说明。新候选cand-11550–11552分别表示Tiepolo销售组、Piazzetta销售组及两幅Tiepolo素描组。p.377正文印本标号6与页底注5保持`mismatched`，无强制回链。
 
 p.378结论现为4条组级statement：经销者生计、收藏趣味变化、时间带来的回顾变化、Haskell的‘威尼斯传统守护者’隐喻。Sasso群体回指从错误的索引购买事件cand-2367改为人物cand-2364；其余五人端点亦逐一核对。未将组级判断转成正式个人关系。严格表审计`errors=[]`、`s2_missing=[]`；全库1,019 KU、11,530 candidates、27,463 mentions、12,641 statements、2,806条关系候选（2,774端点齐备、32开放）。无KU、alignment或S6关系新增。p.378完成后转入全书S2交接审计；S2仍未交接。详细依据及恢复副本见[过程记录](../process/stages.md)。
+
+## 2026-10-15：第十六章p.373正文未分类项裁决
+
+`chp-16:16_CHP-16_intro:l3-14`的31条statement现为20条关系候选、11条非关系；补齐原19条unset。8条关系候选涵盖传统延续、经销者收藏、藏品趣味、Sasso买卖与经纪往来、书信、未名小册子和计划著作。未名群体、藏品/作品和通讯对象保留为开放端点；计划著作复用`cand-11544`。其余11条为范围未界定的思想框架、审美比较、社会可见度评价和人物履历/概括；保持Haskell归属及原文的不确定程度。没有新增candidate、mention或statement。受控脚本`process/classify_ch16_p373_residual_20261015.py`写前SHA及固定statement集合预览通过后应用；恢复副本`.bak-s2-ch16-p373-residual-20261015`。写后全库15,094条statement（10,285 true、4,657 false、152 unset），严格审计`errors=[]`、`s2_missing=[]`。下一段为p.373注释`chp-16:16_CHP-16_intro:l69-89`（18条未分类）；全书S2仍未交接。
+
+## 2026-10-15：第十六章p.373合并注释分类
+
+`chp-16:16_CHP-16_intro:l69-89`现有38条statement，21条关系候选、17条非关系；补齐18条原unset。保留具体档案保管、Poore书信与拍卖、Sasso目录与藏品、Della Lena手稿及Ortes书信关系；纯书目指引、重复信件定位、生平日期和一般缺失情况不作关系。所引来源未独立查阅。没有新增candidate、mention或statement。受控脚本`process/classify_ch16_p373_notes_l69_89_20261015.py`经写前SHA、固定ID校验和preview后apply，恢复副本`.bak-s2-ch16-p373-notes-classification-20261015`。写后全库15,094条statement（10,291 true、4,669 false、134 unset），严格审计`errors=[]`、`s2_missing=[]`。下一段为p.374正文`chp-16:16_CHP-16_intro:l16-22`（22条未分类）；全书S2仍未交接。
+
+## 2026-10-15：第十六章p.374正文残余项分类
+
+chp-16:16_CHP-16_intro:l16-22现有33条statement，22条关系候选、11条非关系；补齐22条原unset。新增保留的关系候选涵盖Strange委托现代作品、威尼斯经销/宗教人员群体与艺术传统、Sasso收藏的部分清单、作品存放和有条件销售、Strange的审美取向、Armanni在Bologna与Rome间行旅，以及Haskell对Sasso趣味的推断。七条端点缺口分别保留未识别作品/客户、未列举社群、藏品成员、交易对象或路线信息；未将条件销售写成确定成交。传闻已被Haskell否定，相关声明不作为真实购藏关系。没有新增candidate、mention或statement。受控脚本process/classify_ch16_p374_residual_20261015.py以写前SHA、固定statement集合和preview后apply；恢复副本.bak-s2-ch16-p374-residual-20261015。写后全库15,094条statement（10,302 true、4,680 false、112 unset），严格审计errors=[]、s2_missing=[]。下一段为p.375正文chp-16:16_CHP-16_intro:l24-36（5条未分类）；全书S2仍未交接。
+
+
+## 2026-10-15：p.375正文关系候选裁决与断言拆分
+
+`chp-16:16_CHP-16_intro:l24-36`的5条unset已裁决。将其他威尼斯经销者的审美影响与Della Lena“处于学术边缘”的作者评价分开；前者连接到来源术语`cand-11543`并保留匿名群体端点，后者标为非关系。将Della Lena出生于Lucca（`cand-1454`）与居住/副领事身份/死亡发生于Venice（`cand-2719`）拆开，均保留为原书关系候选。德国绘画交易保留经匿名十九世纪史家转述的归属，并标出未名交易对象；Della Lena艺术/科学理论为引述性思想陈述，不升级为关系。Haskell关于Guardi与威尼斯审美环境的因果解释保留为来源限定候选，不把其对英国观者的概括扩写为个人事实。段内新增2条statement，总计18条（15 true、3 false）；未新增candidate、mention或正式关系。
+
+受控脚本`process/classify_ch16_p375_residual_20261015.py`经写前哈希、固定ID/候选/引句校验、preview后apply；恢复副本`book-statements.jsonl.bak-s2-ch16-p375-residual-20261015`。提及表另恢复此前缺失的书前及第16–21章3,735条记录，当前全库25,953 mentions。严格审计`errors=[]`、`s2_missing=[]`。全书仍有107条statement未分类；下一处为p.377正文`chp-16:16_CHP-16_intro:l48-64`（10条），S2尚未交接。
+
+
+随后为“Venetian art”及末句“such an atmosphere”补入2条精确mention，均映射既有术语`cand-11543`；回指的前指限定为本段经销者趣味和色彩/幻想语境。未新增candidate或statement。全书现有25,955 mentions；S2仍未交接。
+
+
+## 第十六章p.377正文与注释续注关系裁决（2026-10-15）
+
+`chp-16:16_CHP-16_intro:l48-64`现有42条statement，32条relation candidate、10条非关系；补齐10条原unset。Celotti的条件性“在任何政体下都能适应”不作为具体成交事实；将Haskell对销售才能与品味的复合推论拆分，前者记个人属性、后者保留与未具名较谦逊经销者群体的比较关系。注3续注按书信和档案定位记录Vannetti、Durazzo、两封Tiepolo书信、信中提及的未识别画作及法国国王、声称的收藏来源、Haskell对Urbani de Ghelthof文献可靠性的批评，以及Swajer档案定位。人物`cand-12253`与1879年出版物`cand-8793`分立；来源归属、未核实所有权和未独立查阅状态保留。将信件提画与画作“为法国国王”分成两条；不推断委托、君主身份或正式所有权。
+
+本段新增2条statement、1个candidate和1条精确mention，无KU或正式S6关系新增。严格阶段审计`errors=[]`、`s2_missing=[]`；全库15,098条statement（10,317 true、4,684 false、97 unset）、25,956 mentions。下一未分类段为第十七章前置注释`chp-17:17_CHP-17_intro:l7-13`（8条）。全书S2仍未交接。

@@ -343,3 +343,11 @@ L141–150写后全量闭合9/9通过（303 tests、2 subtests，81.96秒），�
 对照S0规范段`chp-3:03_CHP-3_sec_iv:l189-243`及其印刷p.77–93脚注，逐项复核75条既有statement；新拆分4条后共79条：18条S2关系候选、10条非关系，另有51条单端脚注引用待归一化。12条双端未分类陈述均已裁决。将Oliva作品组的作者关系从传记/书目评价中拆出；将Carlone比较端点由画家改为未名主题的开放端点；将1679年avviso批评对象改为Gaulli未实施的tribune装饰候选`cand-5240`；将Adam/Eve连接的Blood of Christ与Duplex Intercessio两个图像学programs作为关系两端；分开Bernini赴法意图与向Louis XIV通报施压意图；将Camillo的档案引文改为来源限定的非关系陈述，并为Rom.163及N.865-18分别建立`cand-2962`指向档案的`cites`候选。p.86的Chapter 6指针和p.88的Appendix 1指针均标非关系；Pozzo未具名的新题材保持无关系端点；Legros雕像迁入“教堂本身”的提议保留开放目的地。未增加候选或mention，未写入S6正式关系；Carlone身份、圣髑类型、未名比较主题和迁移目的地均未补猜。
 
 写前statement SHA-256为`90d6a3b4661a77d8591f818e25501e08a418731ad2ac2a45336531cc81c26e04`，写后为`0fe6f104b25272d99b7441fd8d2017ee097ebe909c4c36023b90628af1a899ce`；恢复副本为`book-statements.jsonl.bak-s2-chp3-notes-l189-243-relclass-20261011`。本批statement总数12,870；双端statement 8,648条，其中5,275条关系候选、490条非关系、2,883条未分类；全书S2关系候选5,333条，58条至少一端开放。`footnote_citation`剩650条，其中635条缺至少一端（subject-only 57、object-only 528、neither 50）。
+
+
+## 第3章开放关系端点复核续记（2026-10-15）
+
+第I节L26–33闭合“世俗君主优先”的宗教会端点；抽象的冲突力量与法律/财政机制保持开放。第II节L6–17复用Baglione作为外聘画家示例，未推定后殿马赛克规划者；L33–38补齐来源定义的题材与装饰物候选；L74–81将未具名家族礼拜堂组和后世艺术家组分别登记为`cand-12317`、`cand-12318`。第IV节L16–24根据紧邻明示的总会长身份将Courtois诚意测试对象连接到Goswin Nickel；L26–33为私人赞助人组新增`cand-12319`，不推定鼓励者或具体委托。L165–177四条缺端点关系及注文L189–243两条缺端点关系复核后仍保留开放，依据是执行者、来源或目的地未被原文限定。随后将p.78“new situation”、p.92四条单端关系及p.79、p.93两条注文开放端点的既有语义决定同步为表内理由，未改动其端点。当前全库开放端点390条，缺少表内理由者75条；下一条按书序为第4章`st-chp4-sec-ii-l101-107-possible-schismatic-sect`。严格阶段审计`errors=[]`、`s2_missing=[]`，全书S2语义交接未完成。详见[全书过程记录](../process/stages.md)。
+
+
+复核范围：`chp-3:03_CHP-3_sec_i:l26-33`、`chp-3:03_CHP-3_sec_ii:l6-17`、`chp-3:03_CHP-3_sec_ii:l33-38`、`chp-3:03_CHP-3_sec_ii:l74-81`、`chp-3:03_CHP-3_sec_iv:l16-24`、`chp-3:03_CHP-3_sec_iv:l26-33`、`chp-3:03_CHP-3_sec_iv:l165-177`、`chp-3:03_CHP-3_sec_iv:l189-243`。

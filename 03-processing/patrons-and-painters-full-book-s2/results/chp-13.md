@@ -62,3 +62,15 @@
 重点范围限制：p.336 note 6只对应Albrizzi收藏/藏书语境，不指向两幅未名Zais展览画；p.337 note 5位于Officium插图句后，不回挂Caime委托句；p.338 note 1只支持Goldoni扉页方案，不支持其后逐项列举的插图情节；p.341 Tessin爱好引文与后续收藏断言分别处理；p.343 note 4只对“首次发表Tiepolo蚀刻”提供出版日期可能性，不扩展至整句的古代趣味判断。p.342 note 5虽标在长句末，限定语指出该注未给旅行所获奖章与宝石逐件来源。Plate 57b caption的1761与p.338 note 1所引volume II (1762)仍保留为书内年份差异，注释目前关联的是Goldoni方案而非caption。
 
 p.332 note 4缩写引文“Berengo, 1957”与书内书目唯一同年条目相符，已通过`linked_bibliography_statement_ids`连至`st-chp21-bib-l129-163-entry-17`；`cand-10136`与书目候选`cand-10134`保持分立并记录S3身份问题。statement表由12,306行增删0，候选、mentions、coverage及正式关系均未改变。恢复副本：`%TEMP%\pnp-chp13-note-qualifier-9zglist2\book-statements.jsonl.before`；改前SHA-256=`31ee375c51dde059413f63892ffe375e8a713e7cdff5e4c4373b99226c52f3f4`，改后=`27cef89e4340b50912d859ff505ec05b88056e83e4c5aab37bebb81c5ebefb2c`。写后`audit_tables.py --strict-stage --summary`通过，`s2_missing=[]`、`errors=[]`；两条既有`source_ref`警告仍在。全书S2交接仍进行中。
+
+## 第十三章 p.337–341 正文语义复核（2026-10-14）
+
+按S0源序完成p.337–341五段statement语义裁决。写后分别为30条（24 true、6 false）、28条（23/5）、29条（19/10）、49条（37/12）和33条（28/5），均无unset。p.339–341新增18条原子statement、19个候选；mentions净增12条。无新增KU或S6正式关系。
+
+p.337–338校正出版者、出版物、匿名读者和群体端点，拆分Novelli插图、读者范围、Zatta评价和象征性转述。p.339按印本拆出Dante插图困难、讽刺寓意、Novelli两组作品及其他出版商影响，校正人物/作品组映射。p.340拆分Pinelli履历与收藏、收藏散佚事件、Remondini市场/受众/经营与评价，以及Wagner/Viero商店和职业属性。p.341拆分Zanetti出生与学画地点、1722年返回路线和巴黎/伦敦行程；修正“威尼斯艺术场景”与“鉴赏家圈”的混淆。页图校读取自`CHP-13.pdf`物理页8–10，仅记入S2，不改S0。
+
+严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。当前下一段p.342 `chp-13:13_CHP-13_intro:l98-105`有8/27条statement未分类。详细裁决、恢复副本和哈希见[过程记录](../process/stages.md)；全书总状态见[全书S2当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+## 状态更新：p.342–346已按源序处理（2026-10-14）
+
+p.342–345正文共146条statement，逐段为27条（24 true、3 false）、29条（26/3）、31条（22/9）、59条（40/19）；p.346脚注段6条（5/1）。均已分类，无unset。第十三章合并注释段L179–251的102条statement全部完成分类（48 true、54 false），并补入264条与S0逐字对应的mention锚点。严格审计发现6处跨度重叠，已逐组改正；修复后`errors=[]`、`s2_missing=[]`。本页段的详细语义裁决与脚注范围留在[过程记录](../process/stages.md)。全书当前游标已推进到第十四章p.351；全书S2交接尚未完成。

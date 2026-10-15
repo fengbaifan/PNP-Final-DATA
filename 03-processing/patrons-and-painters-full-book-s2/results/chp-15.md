@@ -148,3 +148,56 @@ S2 记录校正 L39 os→of、fife→life，L40 grëat→great，note 6 L56 pp. 
 ## 第十五章p.364诗歌与演说群组端点复裁（2026-10-10）
 
 将原文“a flood of poems and speeches”登记为未名文本群候选`cand-11565`，mention `m-chp15-p364-poems-speeches-group-0001`跨度`[1180,1209)`，并连接Farsetti作为范例的关系statement对象端点。文本、作者、日期及准确数量均未知，且暂不定work或archive类型。严格审计`errors=[]`、`s2_missing=[]`；全书S2关系候选2,808条中2,793条端点齐备、15条开放。
+
+## 2026-10-14：p.361 statement原子化复核与mentions恢复
+
+从历史提交恢复p.361的54条mention锚点，并核对候选引用、字符跨度和重叠。复核后p.361正文27条statement为10 true、17 false；脚注4条为2 true、2 false，合计31条无unset。将Tiepolo在西班牙及Pittoni衰退等复合/漏标内容拆为原子裁决；“these men”促成威尼斯绘画复兴仍因指代端点不明而保留开放，不据名单或共现补猜。p.361当前结果与恢复证据见[过程记录](../process/stages.md)；全书S2仍在第十四章p.355推进。
+
+
+## 2026-10-15：p.362正文与注1–2脚注完成语义裁决
+
+复核正文段`chp-15:15_CHP-15_sec_i:l16-25`及同页注1–2。正文48条statement全部分类（41 true、7 false）；注1的Farsetti家族史、Paravia 1829 pamphlet、Sforza 1911文章及注2的Memmo 1786著作共4条均规范为《赞助人与画家》`cand-2962`→对应archive候选的`cites`关系候选。被引著作和页面均未独立查阅；注释内容不扩写为被引文献中的事实。
+
+恢复正文73条历史mention并按S0重核跨度；新增14个来源限定候选、9条正文mention及4条脚注书目mention。修正`he`误落在`they`内部、Michelangelo与Sansovino的人/作品错映、Venetian文化修饰与城市地名混淆，以及别墅构件被映射到整体别墅的问题。印本p.362与S0页码标注不一致时，以页图保留S2校读，不改S0。脚注citation mention和新增statement引句逐项核对，mention无重复或交叉跨度。
+
+受控脚本`classify_ch15_p362_remaining_20261015.py`和`classify_ch15_p362_footnote_citations_20261015.py`均先dry-run、锁定写前SHA并校验端点/跨度，再apply；恢复副本后缀分别为`.bak-s2-ch15-p362-semantic-review-20261015`与`.bak-s2-ch15-p362-footnote-citations-20261015`。写后全库15,060条statement（10,116 true、4,556 false、388 unset）、12,199 candidates、21,577 mentions。严格阶段审计`errors=[]`、`s2_missing=[]`；两条既存enrichment来源警告及通用语义提示仍在。下一未裁决段为p.363 `chp-15:15_CHP-15_sec_i:l27-36`，12条待裁决；全书S2未交接。
+
+## 2026-10-15：p.364 Farsetti正文剩余statement完成裁决
+
+此前13条unset现分类为8条关系候选、5条非关系；本段21条statement总计16 true、5 false。新增候选`cand-12222`–`cand-12226`及6条mention，分开记录家族传统、贵族艺术支持角色、未枚举的收藏群、威尼斯学者群和新赞助人群。关联使用已有贵族群`cand-10473`与收藏出售事件`cand-1012`；未将集合指定为铸像或绘画收藏，也未把Memmo当作新赞助人观念的唯一持有者。作者评价、叙述语气、类型学判断及范围不明的财产处置保留为原书claim，但不列图谱关系。
+
+受控脚本`process/classify_ch15_p364_remaining_20261015.py`经dry-run、写前SHA和mention字符跨度核验后apply。写后全库15,060条statement（10,128 true、4,569 false、363 unset）、12,204 candidates、22,194 mentions；严格表审计`errors=[]`、`s2_missing=[]`。当前下一段为p.364合并注释`chp-15:15_CHP-15_sec_i:l43-56`，12条statement待裁决；外部书目未独立查阅，全书S2未交接。
+
+## 2026-10-15：p.364合并注释引文与章内指引完成裁决
+
+将p.363–364注释中11条已识别档案/书目引文统一规范为主书→archive候选的`cites`，并把p.363注1的De Tipaldo与Mazzotti拆成独立statement。Chapter 12与Chapter 11的内部交叉指引为非关系断言。所有被引来源未独立查阅；页码、注号及OCR更正保留S2证据，不改S0。写后本段17条statement（15 true、2 false）；全库15,061条statement（10,139 true、4,571 false、351 unset）、12,204 candidates、22,194 mentions。严格审计`errors=[]`、`s2_missing=[]`。下一段按源序为Andrea Memmo正文`chp-15:15_CHP-15_sec_ii:l3-4`（10条待裁决），全书S2仍未交接。
+
+## 2026-10-15：p.364 Andrea Memmo开篇剩余statement完成裁决
+
+将10条unset裁为5条关系候选、5条非关系，段内18条现为13 true、5 false。建筑理念、贵族成员关系、法国文化取向、政治改革兴趣及试图打破贵族隔绝保留为来源限定候选；“exceptional”不转作客观评价，cand-1648的索引子目身份留待S3。将内部回指、作者比较、出生年、未列举娱乐活动及未名恋情系列保留为claim，不增造关系边。p.364–365跨页句保持完整，脚注1–6回链和印本校读均保留。
+
+写后全库15,061条statement（10,144 true、4,576 false、341 unset）、12,204 candidates、22,194 mentions；严格表审计`errors=[]`、`s2_missing=[]`。下一段按书序为p.365正文`chp-15:15_CHP-15_sec_ii:l6-12`（31条待裁决），全书S2未交接。
+
+## 2026-10-15：p.367–370正文剩余statement完成裁决
+
+p.367–369的残余项已按源序裁决：p.367段38条（30 true、8 false），p.368段31条（23/8），p.369段39条（24/15）。p.367新增cand-12235–cand-12236及3条mention；p.368新增cand-12237–cand-12239及3条mention；p.369新增cand-12240及2条mention。端点保留匿名群体和事件边界；“reforms”“downfall”等词不跨段合并为同一政治事件。
+
+p.370对照物理页10复审，原15条未分类项全部裁决；Epicurus的法语称谓与其被“vulgar minds”误解、Phocion的法语称谓与其对抗“ignorant mob”分别拆开，段内由52条增至54条（48 true、6 false）。新增cand-12241–cand-12243及3条精确mention，表示Haskell所述的“the populace”及Wynne所思、所忆的两个观念。所述群体和文化判断仍带来源限定；未把Querini的“downfall”认定为拘押，也未将宽泛群众修辞扩成可识别成员名单。
+
+受控脚本`process/classify_ch15_p370_remaining_20261015.py`经写前SHA、固定unset集合和来源短语跨度校验，dry-run后apply；恢复副本后缀`.bak-s2-ch15-p370-classification-20261015`。写后全库15,066条statement（10,212 true、4,637 false、217 unset）、12,221 candidates、22,208 mentions；严格审计`errors=[]`、`s2_missing=[]`。当前下一段为p.371 `chp-15:15_CHP-15_sec_ii:l69-83`（11条待裁决）；S2仍未交接。
+
+## 2026-10-15：p.371正文剩余statement完成裁决
+
+对照印刷p.371页图复核正文段；11条残余项裁为5条关系候选、6条非关系，段内49条现为43 true、6 false。保留Mme Rosenberg对Querini信念的转述、她对寓意的反应、Querini对古代艺术的审美理解及信念；Haskell的证据限制、De Non职业评价、适格性判断、别墅吸引注意力及由原子关系覆盖的综合句不转为独立关系。
+
+新增候选`cand-12244`–`cand-12246`及3条精确mention。修正浮雕依据与Pliny记录作品的端点，统一指向未定名的阿佩莱斯作品候选；未从文献传统推定作品题名。恢复副本后缀为`.bak-s2-ch15-p371-classification-20261015`。写后全库15,066条statement（10,217 true、4,643 false、206 unset）、12,224 candidates、22,211 mentions；严格阶段审计`errors=[]`、`s2_missing=[]`。当前下一段为p.372正文`chp-15:15_CHP-15_sec_ii:l85-88`（9条待裁决）；S2仍未交接。
+
+## 2026-10-15：p.372正文剩余statement完成裁决
+
+p.372正文9条残余项裁为7条关系候选、2条非关系，段内13条现为11 true、2 false。新增cand-12247–cand-12250及4条精确mention：Renier妥协所指的匿名政治力量、Querini对异教圣所的观念、Maffei的古代雕塑收藏类别、以及其时代的大多数学者/古物学者群。保留“most”限定；Maffei所记录的历史证据没有被猜成具体作品或文献。`ideal world of the past`留作Haskell解释，不新造地点或时代实体。
+
+受控脚本`process/classify_ch15_p372_remaining_20261015.py`经写前SHA、固定statement集合和S0跨度校验后dry-run/apply；恢复副本后缀`.bak-s2-ch15-p372-classification-20261015`。写后全库15,066条statement（10,224 true、4,645 false、197 unset）、12,228 candidates、22,215 mentions；严格审计`errors=[]`、`s2_missing=[]`。当前下一段为第十五章合并注释`chp-15:15_CHP-15_sec_ii:l90-113`（26条待裁决）；全书S2仍未交接。
+
+## 2026-10-15：第十五章p.365–372合并注释完成裁决
+
+合并注释段`chp-15:15_CHP-15_sec_ii:l90-113`现有63条statement，62条关系候选、1条非关系；按p.365、367–372各脚注归属逐项审理。新增`cand-12251`（Memmo所藏、艺术家多未注明的版画组）、`cand-12252`（未命名的Brenta防洪计划）及3条精确mention。区分Mengs绘画与版画收藏；将Querini所受指控的对象映射为计划而非河流；拆分档案编目、保管机构、编者、出版引文和未经独立核验的传闻。p.371注2的De Tipaldo映射已校正；外部引文未被宣称独立查阅。恢复副本后缀为`.bak-s2-ch15-notes-classification-20261015`。全库现15,094条statement（10,277 true、4,646 false、171 unset）、12,230 candidates、22,218 mentions；严格阶段审计`errors=[]`、`s2_missing=[]`。当前下一段为第十六章导言`chp-16:16_CHP-16_intro:l3-14`（19条待裁决）；全书S2尚未交接。

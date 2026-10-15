@@ -7,7 +7,7 @@
 | 规范段 | 状态 | 处理结果 |
 |---|---|---|
 | chp-4:04_CHP-4_intro:l1-1 | excluded | 自动生成的分节文件标题，不属于原书内容；PDF物理第1页已核对。 |
-| chp-4:04_CHP-4_intro:l3-8 | reviewed / complete | L3页码导航、L4–5章号与标题作结构元数据；正文已迁入，脚注1已链接至注释L11。 |
+| chp-4:04_CHP-4_intro:l3-8 | reviewed / complete | L3页码导航、L4–5章号与标题作结构元数据；正文已迁入，脚注1已链接至注释L11。`st-chp4-intro-l3-8-collectors-accumulate-art`的客体仍为未界定的泛称作品；原文引句已精确收窄，见2026-10-15过程记录。 |
 | chp-4:04_CHP-4_intro:l10-13 | reviewed / complete | 脚注L11–13已迁移，新增7个来源候选、25条提及及10条原书断言。脚注1链接Ghibbesio描述；脚注2链接Marchese Giustiniani收藏，脚注3链接其致Dirk Ameyden的信及趣味论述，sec_i L3–4现已回链。脚注3中的日期史、Longhi校改与Nicolson口头假说均保留为Haskell转述/解释，不提升为核实事实；不创建正式关系边。扫描页确认脚注2印作1960，S0的i960保留不改。 |
 | chp-4:04_CHP-4_sec_i:l1-1 | excluded | 自动生成的分节文件标题，不属于原书内容。 |
 | chp-4:04_CHP-4_sec_i:l3-4 | reviewed / complete | 第I节开篇跨印刷页94–95；新增23条提及和8条断言。L3–4讨论Giustiniani的收藏、政治位置、趣味及给Dirk Ameyden的信；脚注2–3已与intro L10–13的说明回链。跨页名称Cavaliere d'Arpino由L4与下一段L7接续。 |

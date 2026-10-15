@@ -67,3 +67,29 @@ p.153注1–5仍是一条复合的二手争议陈述：Samek Ludovici报告比�
 ## 第六章p.155正文关系候选复核（2026-10-10）
 
 L103–109中12条直接支持的有端点关系现标记为S2候选，覆盖Bernini重建宫殿、Filippo/Girolamo重建装饰Colonna宫殿、Lorenzo–Maria婚姻、Palestrina领地售予Barberini、Lorenzo的家族赞助/收藏增补/艺术家聘用、Grimaldi在宫殿绘制风景、Lorenzo题材偏好与可能的风景装饰影响，以及Resta的艺术批评。保留Haskell引述、作者限定和未名委托者；不合并同名宫殿候选、不建S6正式关系。写回备份、哈希及逐条预检记录见[全书过程记录](../process/stages.md)。全书关系分类与S2语义交接仍未完成。
+
+## 2026-10-15 p.146 开放端点复核
+
+statement st-chp6-p146-taxes-and-patronage 的被动句只说明加税与没收私人银器发生，没有指出行动者。未从前文政治背景推定执行方，保留subject开放并补充open_endpoint_reason；无新增对象或正式关系。严格阶段表审计通过，计数保持12,305 candidates、26,500 mentions、15,118 statements，开放端点481。详情见[全书S2过程记录](../process/stages.md)。
+
+## 2026-10-15 p.158 Marucelli开放对象复核
+
+新增 cand-12328–cand-12330 与三条精确mention，分别登记Marucelli委托的伟人半身像组、其所写生平且与之相友的主要画家子群、以及填充其藏书的伟人作品组。四种媒材按原文保留；个体题名、作者和数量未知。OCR “fdled”未改S0，仅记页图读作“filled”。三项端点均关闭；无新增KU或正式关系。严格阶段表审计通过，当前开放端点478。详见[全书S2过程记录](../process/stages.md)。
+
+## 2026-10-15 p.165 风格关系拆分
+
+将style从master到pupil、court到court的传播与princes/general public对风格的欣赏拆开；把true Baroque、French rococo、later eighteenth-century painting三项评价比较拆为三条statement。新增cand-12331–cand-12334、三条mention和三条statement；将“the true Baroque”既有mention从宽泛Baroque文化候选改接到本段更具体的风格比较候选。保留Haskell的评价归属与S0 OCR校读，不推定具体作品、人物或宫廷。严格阶段表审计通过：12,312 candidates、26,506 mentions、15,121 statements；开放端点476，全段无开放端点。详情见[全书S2过程记录](../process/stages.md)。
+
+## 第六章p.147–148跨页端点与作品对象复核（2026-10-15）
+
+p.147为收入调查受威胁建立事件候选`cand-12396`，把Barberini出逃statement接至该未实际启动、调查主体未明的事件；为Innocent X的建筑意图建立计划建造事件`cand-12398`，保留全部建筑清单未详。军职任命主体仍未具名；cardinalate保留为Camillo的角色描述，不另造办公室实体，二者补充开放理由。
+
+p.148将“a number of other projects”从Camillo人物候选重映射为未定类型的项目群`cand-12397`。金融困难与计划穹顶分别登记为`cand-12399`（类型待定）和`cand-12400`（work）；原先指向整体Lateran改建的穹顶mention改接计划穹顶。Cortona画廊天花板commission的mention从人物候选`cand-0353`改接p.149明确点名的Aeneid壁画组`cand-11957`，首项正式委托statement也接至该作品。p.148“艺术成就”续句改为非关系的评价性概述；“艺术生活复兴”仍记为时间关系候选，具体事件对象开放并说明理由，不推定Camillo造成复兴。
+
+新增5个候选、3条mention；重映射3条既有mention；5条开放关系statement补齐端点，另1条改为非关系分类；3条仍开放的statement补齐理由。严格阶段表审计通过，`errors=[]`、`s2_missing=[]`。无新增KU或正式关系。
+
+## 第六章 p.157–164 开放端点与引文复核（2026-10-15）
+
+p.157 Spon/Wheler脚注、p.161 Pascoli卷I与卷II脚注分别由Haskell原书候选`cand-2962`指向对应archive候选；卷I、卷II不再合并为一个引用statement。p.162 Clement IX的S. Maria Maggiore计划改建与墓地方案连接到新事件候选`cand-12410`（教宗去世），只表达“去世后中止”的时间关系。匿名法语见证引文的文字止于印刷p.162，日期“1685.”在p.163续接；页图校正OCR问号并链接续段。此引文属于来源归属statement，不构成实体关系，原statement改为非关系，Michaud引文仍单独记录。p.164 Ottoboni的1689年枢机任命由新事件候选`cand-12411`表达；原句未指出任命者，不从上下文推定。
+
+本批没有新增KU或正式S6关系。严格阶段审计通过；全库开放端点372，其中51条尚缺行级理由。下一条缺理由记录为第七章p.171 `st-chp7-p171-i09`。
