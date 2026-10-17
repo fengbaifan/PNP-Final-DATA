@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 576 / 668 | 488 / 489 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 580 / 672 | 484 / 485 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **985 / 1,162** | **3,787 / 3,801** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **989 / 1,166** | **3,783 / 3,797** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6247,3 +6247,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记8条source_backed enrichment行（`enr-14972`、`enr-14973`、`enr-14974`、`enr-14975`、`enr-14976`、`enr-14977`、`enr-14978`、`enr-14979`），全部引用既有Haskell书目来源ID；Novelli索引别称、Noyelle的OCR断行校正及Murray、Nadal的索引／正文称名均按来源分列。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-harley-paciaudi-paolini-parigi-20261018"></a>
+
+### S4 person：Harley、Paciaudi、Paolini与Parigi四组索引／正文人物登记（2026-10-18）
+
+- `cand-1801`（`new-person:harley-of-oxford-robert-a663f62cf8`）→ [罗伯特·哈利（牛津伯爵）（Robert Harley, Earl of Oxford）](../../../04-knowledge/units/persons/robert-harley-earl-of-oxford.md)；依据索引O.csv#36与正文第10章，印刷页288；OCR L220–221登记。
+- `cand-1802`（`new-person:maria-paciaudi-paolo-c642933872`）→ [保罗·玛丽亚·帕西奥迪（Paolo Maria Paciaudi）](../../../04-knowledge/units/persons/paolo-maria-paciaudi.md)；依据索引P.csv#0与正文第14章，印刷页360注2；OCR L219登记。
+- `cand-1829`（`new-person:paolini-pietro-aa29b3e319`）→ [皮耶特罗·保利尼（Pietro Paolini）](../../../04-knowledge/units/persons/pietro-paolini.md)；依据索引P.csv#28与正文第5章第III节注150，印刷页150注1；OCR L150登记。
+- `cand-1835`（`new-person:giulio-parigi-905380a51e`）→ [朱利奥·帕里吉（Giulio Parigi）](../../../04-knowledge/units/persons/giulio-parigi.md)；依据索引P.csv#34与正文第4章第I节，印刷页95；OCR L14登记。
+
+四组均为单候选S3 new身份组，各登记一个KU。Paolini归属断言`st-chp5-notes-l126-165-l150-wallenstein-authorship`保留待S6核对作品端点；Harley纪念碑语境、Paciaudi书目信息及Parigi群体语境不转换为formal relation。未新增外部来源或relation row。
+
+登记后人物类型S4为580组/672条已登记、484组/485条待登记；全书KU=2008。
+
+<a id="s4-person-name-fields-harley-paciaudi-paolini-parigi-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记8条source_backed enrichment行（`enr-14980`、`enr-14981`、`enr-14982`、`enr-14983`、`enr-14984`、`enr-14985`、`enr-14986`、`enr-14987`），全部引用既有Haskell书目来源ID；Paciaudi索引完整姓名与正文姓氏分列，Paolini作品归属仍待S6核对。本批未新增sources.csv记录、生平字段或formal relation。
