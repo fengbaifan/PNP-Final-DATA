@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 580 / 672 | 484 / 485 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 584 / 676 | 480 / 481 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **989 / 1,166** | **3,783 / 3,797** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **993 / 1,170** | **3,779 / 3,793** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6266,3 +6266,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记8条source_backed enrichment行（`enr-14980`、`enr-14981`、`enr-14982`、`enr-14983`、`enr-14984`、`enr-14985`、`enr-14986`、`enr-14987`），全部引用既有Haskell书目来源ID；Paciaudi索引完整姓名与正文姓氏分列，Paolini作品归属仍待S6核对。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-passante-perugino-perusini-pesne-20261018"></a>
+
+### S4 person：Passante、Perugino、Perusini与Pesne四组索引／正文登记（2026-10-18）
+
+- `cand-1854`（`new-person:bartolommeo-passante-776a9fc247`）→ [巴托洛梅奥·帕桑特（Bartolommeo Passante）](../../../04-knowledge/units/persons/bartolommeo-passante.md)；依据索引P.csv#54与正文第8章第I节，印刷页206；OCR L38登记。
+- `cand-1883`（`new-person:perugino-pietro-628c4b189f`）→ [彼得罗·佩鲁吉诺（Pietro Perugino）](../../../04-knowledge/units/persons/pietro-perugino.md)；依据索引P.csv#84与正文第2章第IV节，印刷页56；OCR L145登记。
+- `cand-1884`（`new-person:giovanni-perusini-bcbd5a7b57`）→ [乔瓦尼·佩鲁西尼（Giovanni Perusini）](../../../04-knowledge/units/persons/giovanni-perusini.md)；依据索引P.csv#85与正文第5章第I节注，印刷页122注1；OCR L132登记。
+- `cand-1888`（`new-person:antoine-pesne-22a62961be`）→ [安托万·佩斯内（Antoine Pesne）](../../../04-knowledge/units/persons/antoine-pesne.md)；依据索引P.csv#89与正文第10章第II节，印刷页316；OCR L113登记。
+
+四组均为单候选S3 new身份组。Perugino的第56、175页姓氏称名由同一索引条目连接；Pesne的朋友关系候选`st-chp10-p316-streit-regarded-pesne-as-friend`保留待S6。Passante绘画、Perusini失窃画作归属均按Haskell来源语境记录，未新增formal relation或外部来源。
+
+登记后人物类型S4为584组/676条已登记、480组/481条待登记；全书KU=2012。
+
+<a id="s4-person-name-fields-passante-perugino-perusini-pesne-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记8条source_backed enrichment行（`enr-14988`、`enr-14989`、`enr-14990`、`enr-14991`、`enr-14992`、`enr-14993`、`enr-14994`、`enr-14995`），全部引用既有Haskell书目来源ID；Perugino的两章称名共享同一索引条目。本批未新增sources.csv记录、生平字段或formal relation。
