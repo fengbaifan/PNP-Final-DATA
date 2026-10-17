@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 529 / 621 | 537 / 538 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 534 / 626 | 532 / 533 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **938 / 1,115** | **3,836 / 3,850** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **943 / 1,120** | **3,831 / 3,845** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6024,3 +6024,17 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 - cand-2112（new-person:francesco-redi-01250bf868）→ [弗朗切斯科·雷迪（Francesco Redi）](../../../04-knowledge/units/persons/francesco-redi.md)。索引Q-R.csv#39与相应正文页段支持source-local人物登记；直接S2关系候选st-chp8-p229-ferdinand-educated-by-redi留待S6逐条裁决，不登记正式关系。
 
 本批登记5个S3 new人物组、5条候选映射和14条source_backed名称字段；8条直接S2关系候选留待S6，未新增正式关系、S2断言或来源。登记后person类型S4为529组/621条已登记、537组/538条待登记；全书为938组/1,115条已登记、3,836组/3,850条待登记，KU=1957。
+
+
+<a id="s4-person-direct-endpoints-qr-middle-20261018"></a>
+
+### S3理由校正与S4人物直接端点登记：Q-R索引中段（2026-10-18）
+
+- S3理由校正：cand-2138由索引和p.254正文全名支持，并按正文亲属措辞与Aurelio、Carlo既有KU区分。cand-2139由p.135的Don Ferdinando及p.136续文Afan de Ribera明确识别；对应source identity statement的S3待办文字已更新，未增加关系边。cand-2146索引和正文均给出Francesco Maria Ricchini。cand-2188正文只称Abbé Richard，名字未提供；引文经Morazzoni转引，原刊未核，并与Richard Mead分开。cand-2198名字Hyacinthe来自索引，正文p.285仅称Rigaud。五项S3决定均保持new，原自我匹配式说明已撤回并以可追溯的页段证据替换。
+- cand-2138（new-person:lodovico-rezzonico-dd8b30f008）→ [洛多维科·雷佐尼科（Lodovico Rezzonico）](../../../04-knowledge/units/persons/lodovico-rezzonico.md)。索引Q-R.csv#65与相应正文页段支持source-local人物登记；直接S2关系候选st-chp9-p254-aurelio-father-of-lodovico, st-chp9-p254-faustina-lodovico-marriage留待S6逐条裁决，不登记正式关系。
+- cand-2139（new-person:afan-de-ferdinando-ribera-369de73a8f）→ [唐·费迪南多·阿凡·德·里贝拉（Don Ferdinando Afan de Ribera）](../../../04-knowledge/units/persons/don-ferdinando-afan-de-ribera.md)。索引Q-R.csv#66与相应正文页段支持source-local人物登记；直接S2关系候选st-chp5-p135-van-laer-dedicated-eight-animal-engravings留待S6逐条裁决，不登记正式关系。
+- cand-2146（new-person:francesco-maria-ricchini-03415a916c）→ [弗朗切斯科·马里亚·里基尼（Francesco Maria Ricchini）](../../../04-knowledge/units/persons/francesco-maria-ricchini.md)。索引Q-R.csv#73与相应正文页段支持source-local人物登记；直接S2关系候选st-chp8-p215-ricchini-planned-dome-1612留待S6逐条裁决，不登记正式关系。
+- cand-2188（new-person:abbe-richard-b9f32ee805）→ [阿贝·理查德（Abbé Richard）](../../../04-knowledge/units/persons/abbe-richard.md)。索引Q-R.csv#115与相应正文页段支持source-local人物登记；直接S2关系候选st-chp13-p335-gerusalemme-admired-by-richard留待S6逐条裁决，不登记正式关系。
+- cand-2198（new-person:hyacinthe-rigaud-27fb3b4435）→ [雅辛特·里戈（Hyacinthe Rigaud）](../../../04-knowledge/units/persons/hyacinthe-rigaud.md)。索引Q-R.csv#125与相应正文页段支持source-local人物登记；直接S2关系候选st-chp10-p285-carriera-met-artists留待S6逐条裁决，不登记正式关系。
+
+本批登记5个S3 new人物组、5条候选映射和12条source_backed名称字段；6条直接S2关系候选留待S6，未新增正式关系或来源。登记后person类型S4为534组/626条已登记、532组/533条待登记；全书为943组/1,120条已登记、3,831组/3,845条待登记，KU=1962。
