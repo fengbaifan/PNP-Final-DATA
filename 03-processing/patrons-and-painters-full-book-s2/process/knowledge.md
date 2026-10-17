@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 584 / 676 | 480 / 481 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 588 / 680 | 476 / 477 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **993 / 1,170** | **3,779 / 3,793** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **997 / 1,174** | **3,775 / 3,789** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6285,3 +6285,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记8条source_backed enrichment行（`enr-14988`、`enr-14989`、`enr-14990`、`enr-14991`、`enr-14992`、`enr-14993`、`enr-14994`、`enr-14995`），全部引用既有Haskell书目来源ID；Perugino的两章称名共享同一索引条目。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-philip-piccino-pompeati-porta-20261018"></a>
+
+### S4 person：Philip II、Piccino、Pompeati与della Porta四组索引／正文登记（2026-10-18）
+
+- `cand-1895`（`new-person:ii-of-philip-spain-d29092bda5`）→ [西班牙的菲利普二世（Philip II of Spain）](../../../04-knowledge/units/persons/philip-ii-of-spain.md)；依据索引P.csv#96与正文第7章第I节，印刷页170；OCR L15–16登记。
+- `cand-1926`（`new-person:jacopo-piccino-7b6fbf5d82`）→ [雅各布·皮奇诺（Jacopo Piccino）](../../../04-knowledge/units/persons/jacopo-piccino.md)；依据索引P.csv#127与正文Postscript，印刷页408；OCR L185–188登记。
+- `cand-1972`（`new-person:domenico-pompeati-dddf91ab34`）→ [多梅尼科·庞佩亚蒂（Domenico Pompeati）](../../../04-knowledge/units/persons/domenico-pompeati.md)；依据索引P.csv#174与正文第19章Appendix，印刷页394；OCR L159–160登记。
+- `cand-1977`（`new-person:della-guglielmo-porta-e07ba351f0`）→ [古列尔莫·德拉·波尔塔（Guglielmo della Porta）](../../../04-knowledge/units/persons/guglielmo-della-porta.md)；依据索引P.csv#179与正文第4章第II节，印刷页104；OCR L54–56登记。
+
+四组均为单候选S3 new身份组。Piccino版画来源保留Parker的可能性措辞；della Porta的Paul III墓创作候选`st-chp4-sec-ii-l53-63-guglielmo-created-paul-tomb`留待S6核对。Philip II的概括性收藏史语境和Pompeati售书记录不转换为formal relation；未新增外部来源或relation row。
+
+登记后人物类型S4为588组/680条已登记、476组/477条待登记；全书KU=2016。
+
+<a id="s4-person-name-fields-philip-piccino-pompeati-porta-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记8条source_backed enrichment行（`enr-14996`、`enr-14997`、`enr-14998`、`enr-14999`、`enr-15000`、`enr-15001`、`enr-15002`、`enr-15003`），全部引用既有Haskell书目来源ID；Piccino的索引全名与正文姓氏分列，della Porta的创作候选仍待S6。本批未新增sources.csv记录、生平字段或formal relation。
