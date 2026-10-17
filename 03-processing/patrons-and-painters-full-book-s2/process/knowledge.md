@@ -623,6 +623,12 @@
 
 复核脚本 `reconcile_s3_family_type_closure_20261016.py` 先以 `--dry-run` 核对36条原待证记录、来源锚点、类型与分组，再以 `--apply` 更新18项决定、18条待证路线和两条外部身份行。应用后全表候选决定为 same=1,707、new=4,996、conflict=7、excluded=98、undecided=5,596；new 为4,827组/4,996条候选，S4 已登记162组/207条映射，尚待4,665组/4,789条映射。family 当前为 same=22、new=94（88组）、excluded=1、undecided=18；其中86条 new 候选/80组已有 KU，8条候选/8组待 S4。表内共12,593行，其中12,404条候选决定和189条外部身份记录。全程未改 manifest、accepted.yml、KU 卡、S5、S6 或页面。
 
+### S3 家族：Baglioni 佩鲁贾与威尼斯出版家族复核（2026-10-18）
+
+复核 `cand-4279`（第2章 p.29，Baglioni family chapel in Perugia）与 `cand-7575`（第8章 p.214，Baglioni publishing family in Venice）。原书分别以礼拜堂语境和收藏／出版家族语境指称两者，没有提供具名成员或谱系连接。外部核对（访问日期均为2026-10-18）：Treccani《Baglióni》称其为佩鲁贾的古老封建家族，统治于1540年结束、主支于17世纪消失（https://www.treccani.it/enciclopedia/baglioni/）；Treccani《Dizionario Biografico degli Italiani》Alfredo Cioni 的“BAGLIONI, Tommaso”记威尼斯印刷出版企业由 Tommaso 创始、家族经营延续至1850年，并记1717年入威尼斯贵族（https://www.treccani.it/enciclopedia/tommaso-baglioni_%28Dizionario-Biografico%29/）；Marco Gozzi《Dizionario degli editori musicali italiani》“Baglioni”条目称 Tommaso 出身贝加莫（https://iris.unitn.it/handle/11572/248214）。
+
+这些记录支持两种不同的历史语境，但没有证明出版家族与佩鲁贾家族之间是同支、异支或无亲缘关系；姓氏相同及地理、行业差异不足以单独解决谱系身份。故 `cand-4279`、`cand-7575` 均维持 `undecided`，沿用各自 review 组，不建 KU、不合并也不确认拆分。解除待证所需材料：可把威尼斯出版家族成员连至佩鲁贾家系的谱牒或档案记录，或足以确认其为独立支系的家族来源。此项复核只处理身份，不建立家族关系。
+
 
 ### S3 procedure 类型跨章复核（2026-10-16）
 

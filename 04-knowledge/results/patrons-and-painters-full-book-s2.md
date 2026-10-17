@@ -60,6 +60,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
 
+### S3 family：Baglioni 跨章候选保持待证（2026-10-18）
+
+复核 `cand-4279`（佩鲁贾礼拜堂所指家族）与 `cand-7575`（威尼斯出版家族）。Treccani 与 Marco Gozzi 的记录分别支持佩鲁贾封建家族和 Tommaso Baglioni 创立、源自贝加莫的威尼斯印刷出版家族，但未证明两者的谱系关系；两候选继续保持独立 review 组、`undecided`、不登记 KU。仅在取得能说明同支、异支或无谱系联系的家族材料后再裁决。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)。
+
 Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battista Cimaroli 人物卡](../units/persons/cimaroli.md)。索引全名、第9章 OCR 异写、第10章多项正文／注表锚点与既有图版及 Zeri 身份依据支持同一画家；cand-0764 的 Stanhope 作品归属问号继续保留，cand-0759 只解决人物身份而无新增正文断言。此前的 6 条 new 建议组与 1 条 undecided 理由保存在对齐行中；S4 无需重复登记该人物。
 
 本轮新增一项身份冲突：`cand-1405` 的 Wenzel 索引标签与第七章 1691 年书信年代不相容；该信的 Prince 较可能是既有人物 Johann Adam Andreas I，但索引跨页组尚待拆分核实。该候选由 `new` 改为 `conflict`，不生成 Wenzel KU；另两条只具头衔的第十三章候选继续独立待证。16条相关关系候选不进入正式关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)。
