@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 557 / 649 | 508 / 509 |
+| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 561 / 653 | 504 / 505 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **966 / 1,143** | **3,807 / 3,821** |
+| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **970 / 1,147** | **3,803 / 3,817** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6145,3 +6145,22 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记5条source_backed enrichment行（`enr-14949`、`enr-14950`、`enr-14951`、`enr-14952`、`enr-14953`），全部引用既有Haskell书目来源ID；Raffaelo Marchesi（索引）与Raffaele Marchesi（正文）分列为来源拼写异形，未设定标准形式。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-relation-endpoints-mari-maria-teresa-martinelli-mascardi-20261018"></a>
+
+### S4 person：Cosimo Mari、Maria Teresa、Domenico Martinelli与Agostino Mascardi四组直接端点登记（2026-10-18）
+
+- `cand-1543`（`new-person:cosimo-mari-23dde1b6dd`）→ [科西莫·马里（Cosimo Mari）](../../../04-knowledge/units/persons/cosimo-mari.md)；S2关系候选`st-chp20-p409-tiepolo-pictures-bequeathed-to-cosimo-mari`留待S6。Haskell将该遗赠说法归于Da Pozzo公布的遗嘱；相关候选关系留待S6，脚注3所涉遗嘱依据仍按S2记录保留待核。
+- `cand-1545`（`new-person:holy-maria-roman-teresa-b39636bd88`）→ [玛丽亚·特蕾莎（Empress Maria Teresa）](../../../04-knowledge/units/persons/maria-teresa-holy-roman-empress.md)；S2关系候选`st-chp13-p335-gerusalemme-dedicated-to-maria-teresa`留待S6。正文称名“Empress Maria Teresa”与索引称名“Maria Teresa, Holy Roman Empress”并列保存；题献关系候选留待S6。关于Schönbrunn的表述作为Haskell的作者叙述保留，不登记为第二条正式关系。
+- `cand-1553`（`new-person:domenico-martinelli-8fc1406b14`）→ [多梅尼科·马蒂内利（Domenico Martinelli）](../../../04-knowledge/units/persons/domenico-martinelli.md)；S2关系候选`st-chp7-p201-v-martinelli-town-palace-1691`留待S6。本条只登记人物身份及Haskell的书内叙述；城市宅邸仍是独立地点候选，相关关系候选留待S6。
+- `cand-1560`（`new-person:agostino-mascardi-04145514b9`）→ [阿戈斯蒂诺·马斯卡尔迪（Agostino Mascardi）](../../../04-knowledge/units/persons/agostino-mascardi.md)；S2关系候选`st-chp6-p157-mascardi-professorship`、`st-chp6-p157-table-vogue-mascardi`留待S6。两条关于任教与翻译/声望的S2关系候选均留待S6；Rome University与cand-5169（Sapienza）的身份对应仍待S3处理，不在本次扩写或定边。
+
+四组均为单候选S3 new身份组，逐组登记一个人物KU。Maria Teresa正文称名与索引称号并列保留；Cosimo Mari遗嘱叙述、Martinelli的“came to build”限定、Mascardi关于任教及《The Table》的来源归因均按原书语气保留。关系候选留待S6；Rome University与cand-5169（Sapienza）的身份对应仍待S3。未新增正式关系、外部来源或backlog项目。
+
+登记后人物类型S4为561组/653条已登记、504组/505条待登记；全书KU=1989。
+
+<a id="s4-person-name-fields-mari-maria-teresa-martinelli-mascardi-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记5条source_backed enrichment行（`enr-14954`、`enr-14955`、`enr-14956`、`enr-14957`、`enr-14958`），全部引用既有Haskell书目来源ID；Maria Teresa的正文称名与索引称号分别保留为两行。本批未新增sources.csv记录、生平字段或formal relation。
