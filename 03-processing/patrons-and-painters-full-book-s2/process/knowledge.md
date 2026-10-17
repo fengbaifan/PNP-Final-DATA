@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 500 / 592 | 566 / 567 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 506 / 598 | 560 / 561 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **909 / 1,086** | **3,865 / 3,879** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **915 / 1,092** | **3,859 / 3,873** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -5949,3 +5949,18 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 本批S4登记7个S3 new人物组、7条候选映射和14条source_backed名称字段；9条直接S2关系候选留待S6。Noailles按书内称谓保留为source-local身份，未补给名或外部人物匹配；Nomé称号和Negri跨章姓名按原书语境记录。本批未新增外部身份行、正式关系、来源登记或S2断言。
 
 登记后person类型S4为500组/592条已登记、566组/567条待登记；全书为909组/1,086条已登记、3,865组/3,879条待登记，KU=1928。
+
+
+<a id="s4-person-direct-endpoints-o-section-20261018"></a>
+
+### S3复核与S4人物直接端点登记：O索引组（2026-10-18）
+
+- cand-1767（new-person:oderisi-roberto-9cef78b777）→ [罗伯托·奥德里西（Roberto Oderisi）](../../../04-knowledge/units/persons/roberto-oderisi.md)。索引O.csv#1（页码107）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp4-sec-ii-l101-107-oderisi-frescoes-ascribed留待S6逐条裁决，不登记正式关系。
+- cand-1769（new-person:livio-odescalchi-2f323704d5）→ [利维奥·奥德斯卡尔基（Livio Odescalchi）](../../../04-knowledge/units/persons/livio-odescalchi.md)。索引O.csv#3（页码98）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp4-sec-i-l35-40-sale-to-livio留待S6逐条裁决，不登记正式关系。
+- cand-1779（new-person:olivieri-paolo-pietro-b164336a9d）→ [彼得罗·保罗·奥利维耶里（Pietro Paolo Olivieri）](../../../04-knowledge/units/persons/pietro-paolo-olivieri.md)。索引O.csv#13（页码71）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp3-secii-l62-72-olivieri-authority-over-proposed-person留待S6逐条裁决，不登记正式关系。
+- cand-1781（new-person:gilles-marie-oppenord-5d38abd47a）→ [吉尔-马里·奥本诺尔（Gilles-Marie Oppenord）](../../../04-knowledge/units/persons/gilles-marie-oppenord.md)。索引O.csv#15（页码285）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp10-p285-carriera-met-oppenord留待S6逐条裁决，不登记正式关系。
+- cand-1788（new-person:alessandro-orsini-908fd3aa90）→ [亚历山德罗·奥尔西尼（Alessandro Orsini）](../../../04-knowledge/units/persons/alessandro-orsini.md)。索引O.csv#22（页码99）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp4-sec-ii-l10-13-alessandro-brother-of-paolo, st-chp4-sec-ii-l10-13-cassiano-close-friend-alessandro留待S6逐条裁决，不登记正式关系。
+- cand-1793（new-person:ottley-william-young-211293a343）→ [威廉·扬·奥特利（William Young Ottley）](../../../04-knowledge/units/persons/william-young-ottley.md)。索引O.csv#28（页码377n）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp16-p377-note3-miniatures-described-by-ottley留待S6逐条裁决，不登记正式关系。
+本批S4登记6个S3 new人物组、6条候选映射和12条source_backed名称字段；7条直接S2关系候选留待S6。人物身份按索引及本书正文建立，不据姓氏相似补并外部人物；未决的匿名人物、拟议建筑师及作品端点保持原状态。本批未新增外部身份行、正式关系、来源登记或S2断言。
+
+登记后person类型S4为506组/598条已登记、560组/561条待登记；全书为915组/1,092条已登记、3,859组/3,873条待登记，KU=1934。
