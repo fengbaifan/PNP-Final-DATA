@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,087 | 1,067 / 1,160 | 4 | 7 | 1,206 | 493 / 585 | 574 / 575 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 500 / 592 | 566 / 567 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,902** | **4,775 / 4,966** | **9** | **100** | **5,430** | **902 / 1,079** | **3,873 / 3,887** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **909 / 1,086** | **3,865 / 3,879** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -5932,3 +5932,20 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 本批登记5个S3 new人物组、5条候选映射和10条source_backed名称字段；6条直接S2关系候选留待S6。Maffei两章指称、Magalotti两处正文形式均按各自既有身份组处理；Magalotti与Maidalchini的相关已登记人物入口只作导航。本批未新增外部身份行、正式关系、来源登记或S2断言。
 
 登记后person类型S4为493组/585条已登记、574组/575条待登记；全书为902组/1,079条已登记、3,873组/3,887条待登记，KU=1921。
+
+
+<a id="s4-person-direct-endpoints-n-section-20261018"></a>
+
+### S3复核与S4人物直接端点登记：N索引组（2026-10-18）
+
+- S3更正：`cand-1741`（索引N.csv#21，Benedict Nicolson）由new改为same → [Lionel Benedict Nicolson](../../../04-knowledge/units/persons/benedict-nicolson.md)。现有same候选`cand-3732`已映射到该KU；第4章注3的姓名和语境与章前相同。原new判断及理由留在alignment行历史；直接候选`st-chp4-intro-notes-03-nicolson-hypothesis`仍待S6，因书信端点`cand-5507`未决。
+- `cand-1736`（`new-person:balthasar-neumann-de17cb965f`）→ [巴尔塔萨·诺伊曼（Balthasar Neumann）](../../../04-knowledge/units/persons/balthasar-neumann.md)。索引N.csv#16（页码296）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp10-p296-neumann-builds-residenz留待S6逐条裁决，不登记正式关系。
+- `cand-1764`（`new-person:de-francois-noyers-sublet-c3e504e823`）→ [弗朗索瓦·苏布莱·德·努瓦耶（François Sublet de Noyers）](../../../04-knowledge/units/persons/francois-sublet-de-noyers.md)。索引N.csv#44（页码112）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp4-sec-ii-p112-denoyers-assessment-of-cassiano留待S6逐条裁决，不登记正式关系。
+- `cand-1742`（`new-person:de-marechal-noailles-5dbb196acf`）→ [诺阿耶元帅（Maréchal de Noailles）](../../../04-knowledge/units/persons/marechal-de-noailles.md)。索引N.csv#22（页码200）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp7-p200-v-noailles-secures-de-ferrari-at-marseilles留待S6逐条裁决，不登记正式关系。
+- `cand-1749`（`new-person:desiderio-monsu-francois-frenchman-nome-fr-31a920c8cc`）→ [弗朗索瓦·诺梅（François Nomé (Monsù Desiderio)）](../../../04-knowledge/units/persons/francois-nome-monsu-desiderio.md)。索引N.csv#29（页码213）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp8-p213-nome-inventory-described-as-lorenese留待S6逐条裁决，不登记正式关系。
+- `cand-1731`（`new-person:negri-pietro-d97f9be175`）→ [彼得罗·内格里（Pietro Negri）](../../../04-knowledge/units/persons/pietro-negri.md)。索引N.csv#11（页码219, 294）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp8-p219-negri-san-rocco-picture, st-chp8-p219-negri-enters-noah-competition留待S6逐条裁决，不登记正式关系。
+- `cand-1735`（`new-person:neri-vincenzo-94f1ade31a`）→ [温琴佐·内里（Vincenzo Neri）](../../../04-knowledge/units/persons/vincenzo-neri.md)。索引N.csv#15（页码136）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp5-p136-neri-and-friends-immortalised-in-plate-22a留待S6逐条裁决，不登记正式关系。
+- `cand-1756`（`new-person:francesco-novelli-ae0651e151`）→ [弗朗切斯科·诺韦利（Francesco Novelli）](../../../04-knowledge/units/persons/francesco-novelli.md)。索引N.csv#36（页码371）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp15-p371-rembrandt-prints-influenced-novelli留待S6逐条裁决，不登记正式关系。
+本批S4登记7个S3 new人物组、7条候选映射和14条source_backed名称字段；9条直接S2关系候选留待S6。Noailles按书内称谓保留为source-local身份，未补给名或外部人物匹配；Nomé称号和Negri跨章姓名按原书语境记录。本批未新增外部身份行、正式关系、来源登记或S2断言。
+
+登记后person类型S4为500组/592条已登记、566组/567条待登记；全书为909组/1,086条已登记、3,865组/3,879条待登记，KU=1928。
