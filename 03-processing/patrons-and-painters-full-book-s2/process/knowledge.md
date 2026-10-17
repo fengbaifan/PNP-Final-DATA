@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 513 / 605 | 553 / 554 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 521 / 613 | 545 / 546 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **922 / 1,099** | **3,852 / 3,866** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **930 / 1,107** | **3,844 / 3,858** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -5980,3 +5980,21 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 本批S4登记7个S3 new人物组、7条候选映射和15条source_backed名称字段；10条直接S2关系候选留待S6。跨页姓名形式按本书索引及对应正文定位归组；Paltronieri的Petoni为Haskell转述的拍卖目录异写，未当作独立核验。未决的海军将领、纪念碑项目、职务或版画组端点保持原状态；本批未新增外部身份行、正式关系、来源登记或S2断言。
 
 登记后person类型S4为513组/605条已登记、553组/554条待登记；全书为922组/1,099条已登记、3,852组/3,866条待登记，KU=1941。
+
+
+<a id="s4-person-direct-endpoints-p-middle-section-20261018"></a>
+
+### S3复核与S4人物直接端点登记：P索引中段组（2026-10-18）
+
+- S3依据修正：cand-1969原对齐说明称来源提供full personal name，现撤回。索引与正文仅称Baron de Pöllnitz，保留为source-local人物组，不补给名或外部匹配；原错误措辞保留于Git历史。
+- cand-1925（new-person:bernard-picart-ecea5d104f）→ [贝尔纳·皮卡尔（Bernard Picart）](../../../04-knowledge/units/persons/bernard-picart.md)。索引P.csv#126（页码370）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp15-p370-picart-engravings-created-by-picart留待S6逐条裁决，不登记正式关系。
+- cand-1929（new-person:antonio-pignatelli-innocent-xii-96ebb8305a）→ [安东尼奥·皮尼亚泰利（教宗英诺森十二世）（Antonio Pignatelli (Pope Innocent XII)）](../../../04-knowledge/units/persons/antonio-pignatelli-innocent-xii.md)。索引P.csv#130（页码221, 222）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp8-p221-innocent-xii-appoints-vice-legate, st-chp8-p222-innocent-xii-patron-of-ruffo留待S6逐条裁决，不登记正式关系。
+- cand-1930（new-person:antonio-carlo-pilati-e89a18d7a3）→ [卡洛·安东尼奥·皮拉蒂（Carlo Antonio Pilati）](../../../04-knowledge/units/persons/carlo-antonio-pilati.md)。索引P.csv#131（页码318, 336）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp10-p318-pilati-expelled-from-venetian-territory, st-chp13-p336-pasquali-friend-of-pilati留待S6逐条裁决，不登记正式关系。
+- cand-1931（new-person:giuseppe-pinacci-5cb62bbf30）→ [朱塞佩·皮纳奇（Giuseppe Pinacci）](../../../04-knowledge/units/persons/giuseppe-pinacci.md)。索引P.csv#132（页码191, 233n）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp7-p191-i22留待S6逐条裁决，不登记正式关系。
+- cand-1937（new-person:francesco-piranesi-42d51ce564）→ [弗朗切斯科·皮拉内西（Francesco Piranesi）](../../../04-knowledge/units/persons/francesco-piranesi.md)。索引P.csv#138（页码366）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp15-p366-piranesi-engraves-subleyras-drawing留待S6逐条裁决，不登记正式关系。
+- cand-1969（new-person:baron-de-pollnitz-745cce1347）→ [波尔尼茨男爵（Baron de Pöllnitz）](../../../04-knowledge/units/persons/baron-de-pollnitz.md)。索引P.csv#170（页码283）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp10-p283-pollnitz-praise留待S6逐条裁决，不登记正式关系。
+- cand-1973（new-person:edward-poore-f2d0623bd5）→ [爱德华·普尔（Edward Poore）](../../../04-knowledge/units/persons/edward-poore.md)。索引P.csv#175（页码374）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp16-p374-armanni-introduces-poore, st-chp16-p374-note3-poore-letter-locator, st-chp16-p374-note3-poore-auction-sales留待S6逐条裁决，不登记正式关系。
+- cand-1976（new-person:della-giacomo-porta-b53d418aa4）→ [贾科莫·德拉·波尔塔（Giacomo della Porta）](../../../04-knowledge/units/persons/giacomo-della-porta.md)。索引P.csv#178（页码71, 91）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp3-secii-l62-72-gesualdo-appointed-own-architects, st-chp3-seciv-l152-163-della-porta-designed-uncompleted-altar留待S6逐条裁决，不登记正式关系。
+本批S4登记8个S3 new人物组、8条候选映射和22条source_backed名称字段；13条直接S2关系候选留待S6。Antonio Pignatelli与Innocent XII按同一索引及第8章正文形式分组，与Innocent XIII分立；Pilati按第10、13章相同全名归组，其两处姓名字段按章页标记以保留各自证据定位并满足 enrichment 自然键；Pinacci的p.233注仅记录姓名与书目指引，不新增关系；Francesco Piranesi与Giovanni Battista Piranesi保持分立。Poore组保留Haskell索引和脚注的书内关联，不据未核的拍卖目录断言访客与拍卖藏家为同一外部个人。未决的画作组、藏画集合、书信、拍卖事件、提议建筑师及未完成祭坛对象均保持原状态。本批未新增外部身份行、正式关系、来源登记或S2断言。
+
+登记后person类型S4为521组/613条已登记、545组/546条待登记；全书为930组/1,107条已登记、3,844组/3,858条待登记，KU=1949。
