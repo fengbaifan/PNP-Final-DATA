@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 549 / 641 | 516 / 517 |
+| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 553 / 645 | 512 / 513 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **958 / 1,135** | **3,815 / 3,829** |
+| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **962 / 1,139** | **3,811 / 3,825** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6107,3 +6107,22 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 - cand-1441（new-person:leopold-duke-of-lorraine-20261018）→ [洛林公爵利奥波德（Leopold, Duke of Lorraine）](../../../04-knowledge/units/persons/leopold-duke-of-lorraine.md)；外部身份记录：The Historical Journal / Cambridge Core（10.1017/S0018246X2100090X）；直接S2关系候选st-chp9-p267-lorraine-claim留待S6逐条裁决，不登记正式关系。
 
 本批确认/更正3项S3身份组并登记3个new person KU、3条候选映射、6条source_backed名称字段及2条外部身份记录；3条直接S2关系候选留待S6。未新增正式关系、来源登记或candidate-backlog项。登记后person类型S4为549组/641条已登记、516组/517条待登记；全书为958组/1,135条已登记、3,815组/3,829条待登记，KU=1977。
+
+<a id="s4-person-relation-endpoints-scaramuccia-gonzaga-crespi-spezzaferro-20261018"></a>
+
+### S4 person：Scaramuccia、Gonzaga、Crespi、Spezzaferro四组人物身份登记（2026-10-18）
+
+- `cand-2390`（`new-person:luigi-scaramuccia-aa9d76a4e9`）→ [路易吉·斯卡拉穆恰（Luigi Scaramuccia）](../../../04-knowledge/units/persons/luigi-scaramuccia.md)；S2候选`st-chp5-note-p124-n1-scaramuccia-dedicated-by`留待S6；哈斯克尔把Scaramuccia记为版画题献者；该书内陈述对应的S2关系候选保留待S6审查。索引作品候选cand-2391与人物cand-2390类型不同，仍各自保持其S3去向。
+- `cand-5453`（`new-person:blessed-gonzaga-luigi-302904be8f`）→ [阿洛伊修斯·贡扎加（Aloysius Gonzaga）](../../../04-knowledge/units/persons/aloysius-gonzaga.md)；S2候选`st-chp3-seciv-l179-187-assumption-relief-represents-luigi-gonzaga`留待S6；本书称该人物为S. Ignazio左横堂一件浮雕所表现的主题，并以the Assumption of the Blessed Luigi Gonzaga称述；这里依原句表述为Luigi Gonzaga升天主题，不据此另造作品题名。第8章及第9章另以S. Luigi Gonzaga指称绘画与modello主题。相应S2关系候选留待S6，不在S4建立作品关系。
+- `cand-7716`（`new-person:crespi-luigi-bd0f28eb72`）→ [路易吉·克雷斯皮（Luigi Crespi）](../../../04-knowledge/units/persons/luigi-crespi-author.md)；S2候选`st-chp8-p239-note1-luigi-crespi-stay`留待S6；原书的L. Crespi两年说与哈斯克尔所述八个月上限并列，Zanotti的多次到访暗示也未消解差异；关系候选保留来源归因并待S6，不作实体层面的事实裁决。
+- `cand-10881`（`new-person:luigi-spezzaferro-cd9c5c8655`）→ [路易吉·斯佩察费罗（Luigi Spezzaferro）](../../../04-knowledge/units/persons/luigi-spezzaferro.md)；S2候选`st-chp20-p397-spezzaferro-del-monte-caravaggio`留待S6；第20章的S2关系候选记载哈斯克尔对Spezzaferro研究的转述；原书所引文章另有archive候选cand-10882，二者保持人物与文献类型区别，关系留待S6。
+
+四组均按各自S3 new身份组登记为一个人物KU，未按名字相近合并。Scaramuccia人物候选cand-2390与版画作品候选cand-2391保持类型区分；Luigi Crespi与画家Giuseppe Maria Crespi保持人物区分；Spezzaferro及其文章候选cand-10882保持人物/文献区分。Luigi Gonzaga与Aloysius Gonzaga的别名同一性据梵蒂冈2025年英意礼仪对照行确认，未将外部资料用于扩写书内事实。四条S2关系候选均留待S6；未新增正式关系或enrichment字段。
+
+登记后人物类型S4为553组/645条已登记、512组/513条待登记；全书KU=1981。
+
+<a id="s4-person-name-fields-luigi-scaramuccia-gonzaga-crespi-spezzaferro-20261018"></a>
+
+### S4结构化字段与来源登记：四张人物卡姓名（2026-10-18）
+
+四张新人物卡的姓名表行登记为6条enrichment.jsonl记录（`enr-14943`, `enr-14944`, `enr-14945`, `enr-14946`, `enr-14947`, `enr-14948`），来源序号与卡片sources对应。Luigi/Aloysius Gonzaga的英文惯用名字段引用Holy See礼仪文本来源`src-6828ef56b8f5c57f`；该外部来源已列入sources.csv，URL与PDF页码定位见人物卡。其余姓名字段引用Haskell书内页段或索引。本批只登记名称字段，不新增生平事实、formal relation或S6裁决。
