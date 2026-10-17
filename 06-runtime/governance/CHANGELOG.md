@@ -3,6 +3,12 @@
 > 治理日志已冻结归档：`user-revisions.md` 与 `system-upgrade-log.md` 自 2026-09-25 起只读，不再追加。
 > 此后的规则与系统变更只记在这里，按时间倒序；`current-requirements.md` 仍索引有效要求。
 
+## 2026-10-17
+
+### 校正 S4 待登记数审计口径
+
+`scripts/audit_tables.py` 曾把 `alignment.csv` 中 `external_source` 非空且 `decision=new` 的外部身份依据计入 S4 KU 待登记数。此类行不是待登记的 S3 候选身份组；审计统计与 warning 现仅计算主候选行。业务表未因此改变。全书严格审计复核无 errors，候选级待登记数与 S4 分组统计一致。
+
 ## 2026-10-15
 
 ### 全库入口、工作流程与文档同步审查

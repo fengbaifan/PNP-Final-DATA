@@ -1,4 +1,4 @@
----
+﻿---
 title: 胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）
 name_en: Portrait of Juan de Pareja
 type: work
@@ -19,9 +19,39 @@ sources:
     Accessed 2026-09-14.
   location: 页面导言、Artwork Details及音频文字稿
   sentence_summary: Diego Rodríguez de Silva y Velázquez作Juan de Pareja肖像，1650，布面油画81.3×69.9 cm，1971年购入；Pareja约1608–1670，为画家，绘像时仍被Velázquez奴役，解放文件规定至1654年获得自由。
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第5章；印刷页126；OCR L67
+  sentence_summary: 第5章记 Velasquez 于1650年在 Pantheon 展览中展出其仆人 Pareja 的肖像。
+  original_quotes:
+  - source_span: lines 67
+    text: showed the portrait of his servant Pareja
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/05_CHP-5_sec_i.md
+    source_span: lines 67; print p. 126
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第8章；印刷页222；OCR L133
+  sentence_summary: 第8章再次以画家及人物全名描述该肖像。
+  original_quotes:
+  - source_span: lines 133
+    text: Velasquez’s portrait of his servant Juan de Pareja
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
+    source_span: lines 133; print p. 222
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第8章注4；印刷页222；OCR L137
+  sentence_summary: 第8章注4将库存描述所指画作明确指认为现藏大都会艺术博物馆的作品。
+  original_quotes:
+  - source_span: lines 137
+    text: It is the picture now in the Metropolitan Museum
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
+    source_span: lines 137; print p. 222
 created: '2026-09-14'
-updated: '2026-09-15'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#剩余作品与收藏链集中审查
+updated: '2026-10-16'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
 relations:
 - relation_type: created_by
   target: persons/velasquez.md
@@ -117,6 +147,12 @@ relations:
 | 尺寸 | 81.3 × 69.9 cm | S2 |
 | 藏品号 | 1971.86 | S2 |
 | 入藏年 | 1971；购入 | S2 |
+
+### 1650与1704年的展览记载
+
+**中文：** Haskell 第5章称 Velasquez 于1650年在 Pantheon 展览中展出其仆人 Pareja 的肖像；第8章以“Velasquez 的 Juan de Pareja 肖像”再次提及该作，并称它于1704年被送往罗马展览。第8章注4进一步把所引库存描述中的肖像认定为现藏大都会艺术博物馆的画作。该组跨章名称、画家和人物线索与本卡图版34及大都会藏品相合。以上记录 Haskell 的叙述与识别，不在此新增正式展出或借展关系。
+
+**English:** Haskell says in Chapter 5 that Velasquez showed his portrait of his servant Pareja at the Pantheon exhibition in 1650. Chapter 8 again names Velasquez’s portrait of Juan de Pareja and reports that it was sent to an exhibition in Rome in 1704. Note 4 identifies the inventory picture as the painting now in the Metropolitan Museum. These cross-chapter references to the painter, sitter, and portrait match this card’s plate 34 and the Metropolitan collection record. This records Haskell’s account and identification; it does not add formal exhibition or loan relations.
 
 ## 关系与证据
 

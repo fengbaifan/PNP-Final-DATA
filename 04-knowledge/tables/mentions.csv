@@ -2659,9 +2659,9 @@ m-s2-ch10-p318-0006,chp-10:10_CHP-10_sec_ii:l133-142,cand-0974,intellectual revi
 m-s2-ch10-p318-0007,chp-10:10_CHP-10_sec_ii:l133-142,cand-3461,Italy,375,380,Named in the claim about writers across Italy.
 m-s2-ch10-p318-0008,chp-10:10_CHP-10_sec_ii:l133-142,cand-9721,writers,381,388,An unnamed group whose awareness and response are generalized by Haskell.
 m-s2-ch10-p318-0009,chp-10:10_CHP-10_sec_ii:l133-142,cand-3462,Europe,459,465,"The reference is to the rest of Europe, not to a specific state."
-m-s2-ch10-p318-0010,chp-10:10_CHP-10_sec_ii:l133-142,cand-1718,Muratori,502,510,The page-specific index candidate has the title as its subentry.
+m-s2-ch10-p318-0010,chp-10:10_CHP-10_sec_ii:l133-142,cand-1717,Muratori,502,510,Maps the named author form Muratori to the existing person candidate cand-1717 (L. A. Muratori). Keep distinct from the Della pubblica felicità archive title candidate cand-9705; the person's S3 identity remains undecided.
 m-s2-ch10-p318-0011,chp-10:10_CHP-10_sec_ii:l133-142,cand-9705,"Della puhblica felicita, oggetto de’buoni principi",525,575,"Canonical OCR title; the scanned print reads 'Della pubblica felicità, oggetto de’ buoni principi'."
-m-s2-ch10-p318-0012,chp-10:10_CHP-10_sec_ii:l133-142,cand-1103,Abate Galiani,669,682,Uses the page-specific index candidate with the Della Moneta subentry.
+m-s2-ch10-p318-0012,chp-10:10_CHP-10_sec_ii:l133-142,cand-1102,Abate Galiani,669,682,Rechecked the source syntax: Abate Galiani is the person named as the owner/author of the treatise; map this mention to person candidate cand-1102. The separate title Della Moneta maps to archive cand-9706; cand-1103 is the index-subentry archive candidate.
 m-s2-ch10-p318-0013,chp-10:10_CHP-10_sec_ii:l133-142,cand-9706,Della Moneta,694,706,"A named treatise, kept distinct from its author's person candidate."
 m-s2-ch10-p318-0014,chp-10:10_CHP-10_sec_ii:l133-142,cand-1133,Antonio Genovesi,716,732,Named in the professorship claim.
 m-s2-ch10-p318-0015,chp-10:10_CHP-10_sec_ii:l133-142,cand-3534,Naples,754,760,Reuses the existing place candidate; the chair is located in Naples.
@@ -3624,7 +3624,7 @@ m-s2-ch10-p313-0016,chp-10:10_CHP-10_sec_ii:l72-81,cand-2629,Temperance,518,528,
 m-s2-ch10-p313-0017,chp-10:10_CHP-10_sec_ii:l72-81,cand-2628,Fortitude,533,542,
 m-s2-ch10-p313-0018,chp-10:10_CHP-10_sec_ii:l72-81,cand-0727,Madonna dell’Orto,550,567,
 m-s2-ch10-p313-0019,chp-10:10_CHP-10_sec_ii:l72-81,cand-0257,Bassano,569,576,
-m-s2-ch10-p313-0020,chp-10:10_CHP-10_sec_ii:l72-81,cand-0258,Nativity,579,587,
+m-s2-ch10-p313-0020,chp-10:10_CHP-10_sec_ii:l72-81,cand-12428,Nativity,579,587,
 m-s2-ch10-p313-0022,chp-10:10_CHP-10_sec_ii:l72-81,cand-0732,Giorgio Maggiore,594,610,Continuation of the place name split across source lines.
 m-s2-ch10-p313-0023,chp-10:10_CHP-10_sec_ii:l72-81,cand-1245,his own contemporaries,632,654,
 m-s2-ch10-p313-0024,chp-10:10_CHP-10_sec_ii:l72-81,cand-2154,Sebastiano Ricci,656,672,
@@ -4057,7 +4057,7 @@ m-s2-ch13-p337-007,chp-13:13_CHP-13_intro:l52-59,cand-9707,Dei delitti e delle p
 m-s2-ch13-p337-008,chp-13:13_CHP-13_intro:l52-59,cand-12145,all the clients,509,524,Source-defined group of buyers; Haskell names no individual clients.
 m-s2-ch13-p337-009,chp-13:13_CHP-13_intro:l52-59,cand-12146,elegant pamphlets for aristocratic ceremonies,595,640,"Publication category, not an identified pamphlet."
 m-s2-ch13-p337-010,chp-13:13_CHP-13_intro:l52-59,cand-2440,his patron Joseph Smith,686,709,
-m-s2-ch13-p337-011,chp-13:13_CHP-13_intro:l52-59,cand-9799,the firm,750,758,
+m-s2-ch13-p337-011,chp-13:13_CHP-13_intro:l52-59,cand-9172,the firm,750,758,"In the p.337 paragraph the firm is Pasquali's publishing venture, not the Albrizziana press; corrected by immediate discourse context and aligned to S3 group sg3-institution-cand-9172."
 m-s2-ch13-p337-013,chp-13:13_CHP-13_intro:l52-59,cand-1847,Pasquali,817,825,
 m-s2-ch13-p337-012,chp-13:13_CHP-13_intro:l52-59,cand-10010,an English grammar,830,848,
 m-s2-ch13-p337-014,chp-13:13_CHP-13_intro:l52-59,cand-9626,Smith’s collection,958,976,
@@ -6504,12 +6504,12 @@ m-chp2-seciv-l106-112-0031,chp-2:02_CHP-2_sec_iv:l106-112,cand-0350,Pietro,1782,
 m-chp2-seciv-l106-112-0032,chp-2:02_CHP-2_sec_iv:l106-112,cand-4687,the ceiling,1804,1815,Cortona's great ceiling fresco.
 m-chp2-seciv-l106-112-0033,chp-2:02_CHP-2_sec_iv:l106-112,cand-0240,the family palace,1819,1836,The Barberini palace in which the ceiling was being painted.
 m-chp2-seciv-l106-112-0034,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,Cardinal Francesco,1838,1856,The cardinal employing Romanelli.
-m-chp2-seciv-l106-112-0035,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,his leading pupil,1873,1890,His refers to Pietro da Cortona; the pupil is Romanelli.
-m-chp2-seciv-l106-112-0036,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,Giovan Francesco Romanelli,1891,1917,Artist named in the passage.
+m-chp2-seciv-l106-112-0035,chp-2:02_CHP-2_sec_iv:l106-112,cand-2208,his leading pupil,1873,1890,His refers to Pietro da Cortona; the pupil is Romanelli.
+m-chp2-seciv-l106-112-0036,chp-2:02_CHP-2_sec_iv:l106-112,cand-2208,Giovan Francesco Romanelli,1891,1917,Artist named in the passage.
 m-chp2-seciv-l106-112-0037,chp-2:02_CHP-2_sec_iv:l106-112,cand-0350,his master,2029,2039,Romanelli's master is Pietro da Cortona.
 m-chp2-seciv-l106-112-0038,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,the Cardinal,2168,2180,Cardinal Francesco Barberini.
 m-chp2-seciv-l106-112-0039,chp-2:02_CHP-2_sec_iv:l106-112,cand-4734,the Barberini tapestry works,2238,2266,Organization/production site type remains unresolved.
-m-chp2-seciv-l106-112-0040,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,His painting,2268,2280,"Romanelli's painting, evaluated by Haskell."
+m-chp2-seciv-l106-112-0040,chp-2:02_CHP-2_sec_iv:l106-112,cand-2208,His painting,2268,2280,"Romanelli's painting, evaluated by Haskell."
 m-chp2-seciv-l106-112-0041,chp-2:02_CHP-2_sec_iv:l106-112,cand-0209,the Pope,2388,2396,Urban VIII in this Barberini court context.
 m-chp2-seciv-l106-112-0042,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,his nephew,2401,2411,The nephew refers to Cardinal Francesco Barberini.
 m-chp2-seciv-l106-112-0043,chp-2:02_CHP-2_sec_iv:l106-112,cand-0007,the Accademia di S. Luca,2539,2563,Uses the index candidate whose page range includes p.53.
@@ -6517,7 +6517,7 @@ m-chp2-seciv-l106-112-0044,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,Cardinal [Fr
 m-chp2-seciv-l106-112-0045,chp-2:02_CHP-2_sec_iv:l106-112,cand-0007,that body,2638,2647,Anaphoric reference to the Accademia di S. Luca.
 m-chp2-seciv-l106-112-0046,chp-2:02_CHP-2_sec_iv:l106-112,cand-4735,its church,2718,2728,Distinct from the Academy as an institution; the building is unnamed here.
 m-chp2-seciv-l106-112-0047,chp-2:02_CHP-2_sec_iv:l106-112,cand-0350,Pietro da Cortona,2732,2749,Named as the architect/artist responsible for rebuilding the church.
-m-chp2-seciv-l106-112-0048,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,Romanelli’s ambitions,2771,2792,Romanelli's reported ambition to supplant his master.
+m-chp2-seciv-l106-112-0048,chp-2:02_CHP-2_sec_iv:l106-112,cand-2208,Romanelli’s ambitions,2771,2792,Romanelli's reported ambition to supplant his master.
 m-chp2-seciv-l106-112-0049,chp-2:02_CHP-2_sec_iv:l106-112,cand-0350,his master,2834,2844,Refers to Pietro da Cortona.
 m-chp2-seciv-l106-112-0050,chp-2:02_CHP-2_sec_iv:l106-112,cand-0209,the Pope’s service,2848,2866,The papal service Romanelli hoped to enter more fully.
 m-chp2-seciv-l114-125-0001,chp-2:02_CHP-2_sec_iv:l114-125,cand-0203,Cardinal Francesco,109,127,The elder Barberini cardinal and patron described here.
@@ -7101,7 +7101,7 @@ m-chp2-seciv-l31-43-0042,chp-2:02_CHP-2_sec_iv:l31-43,cand-4620,the palace of Al
 m-chp2-seciv-l31-43-0043,chp-2:02_CHP-2_sec_iv:l31-43,cand-4621,Alessandro,1706,1716,Previous owner named in the palace description; surname continues on the next source line.
 m-chp2-seciv-l31-43-0044,chp-2:02_CHP-2_sec_iv:l31-43,cand-4621,"Sforza, duca di Segni",1717,1738,Surname and title attached to Alessandro Sforza.
 m-chp2-seciv-l31-43-0045,chp-2:02_CHP-2_sec_iv:l31-43,cand-2088,the Quirinal,1743,1755,Location of the Sforza palace.
-m-chp2-seciv-l31-43-0046,chp-2:02_CHP-2_sec_iv:l31-43,cand-4591,Spain,1792,1797,Destination of Francesco's departure after giving the palace to Taddeo.
+m-chp2-seciv-l31-43-0046,chp-2:02_CHP-2_sec_iv:l31-43,cand-5120,Spain,1792,1797,"Destination of Francesco's departure after giving the palace to Taddeo; geographic Spain, not the political entity. S3 correction from cand-4591 after checking the source sentence."
 m-chp2-seciv-l31-43-0047,chp-2:02_CHP-2_sec_iv:l31-43,cand-0198,one of his younger brothers,1813,1840,Family reference resolved in the same clause as Taddeo.
 m-chp2-seciv-l31-43-0048,chp-2:02_CHP-2_sec_iv:l31-43,cand-0239,Taddeo,1842,1848,"Taddeo Barberini, recipient of the palace."
 m-chp2-seciv-l31-43-0049,chp-2:02_CHP-2_sec_iv:l31-43,cand-0239,Taddeo,1853,1859,Taddeo Barberini; the printed text begins after a decorative separator misread as “- v”.
@@ -7554,10 +7554,10 @@ m-chp2-seciv-l96-104-0010,chp-2:02_CHP-2_sec_iv:l96-104,cand-0209,Urban,330,335,
 m-chp2-seciv-l96-104-0011,chp-2:02_CHP-2_sec_iv:l96-104,cand-0209,Your Holiness,361,374,Form of address in Bracciolini's quoted appeal.
 m-chp2-seciv-l96-104-0012,chp-2:02_CHP-2_sec_iv:l96-104,cand-0440,him,423,426,In 'fortunately for him'; refers to Bracciolini.
 m-chp2-seciv-l96-104-0014,chp-2:02_CHP-2_sec_iv:l96-104,cand-0440,his,484,487,Possessive identifying the poem as Bracciolini's.
-m-chp2-seciv-l96-104-0015,chp-2:02_CHP-2_sec_iv:l96-104,cand-0441,L’elettione di Urbano VIII,500,526,"Matches the Bracciolini index sub-entry; its candidate row repeats the author's canonical name, so retain work typing/identity review for S3."
+m-chp2-seciv-l96-104-0015,chp-2:02_CHP-2_sec_iv:l96-104,cand-4796,L’elettione di Urbano VIII,500,526,"Corrected 2026-10-16: this title is the archive candidate cand-4796 (the poem), not the person index subentry cand-0441."
 m-chp2-seciv-l96-104-0013,chp-2:02_CHP-2_sec_iv:l96-104,cand-0440,he,527,529,Subject of receiving honours and privileges.
 m-chp2-seciv-l96-104-0016,chp-2:02_CHP-2_sec_iv:l96-104,cand-0440,He,572,574,Subject continuing from Bracciolini.
-m-chp2-seciv-l96-104-0017,chp-2:02_CHP-2_sec_iv:l96-104,cand-0441,the poem,584,592,Anaphoric reference to L’elettione di Urbano VIII.
+m-chp2-seciv-l96-104-0017,chp-2:02_CHP-2_sec_iv:l96-104,cand-4796,the poem,584,592,Anaphoric reference to L’elettione di Urbano VIII; corrected 2026-10-16 to archive candidate cand-4796.
 m-chp2-seciv-l96-104-0018,chp-2:02_CHP-2_sec_iv:l96-104,cand-4697,a long series,598,611,A later group of poems; individual titles are not supplied.
 m-chp2-seciv-l96-104-0019,chp-2:02_CHP-2_sec_iv:l96-104,cand-4698,the capture of La Rochelle,643,669,Poem subject only; no date or specific campaign is given.
 m-chp2-seciv-l96-104-0020,chp-2:02_CHP-2_sec_iv:l96-104,cand-4699,La Rochelle,658,669,Nested place within the unnamed poem subject.
@@ -8615,7 +8615,7 @@ m-chp3-secii-l54-60-0056,chp-3:03_CHP-3_sec_ii:l54-60,cand-3402,Oratorians,1953,
 m-chp3-secii-l54-60-0024,chp-3:03_CHP-3_sec_ii:l54-60,cand-5033,The High Altar,1965,1979,High Altar whose original dedication and proposed decoration are described.
 m-chp3-secii-l54-60-0025,chp-3:03_CHP-3_sec_ii:l54-60,cand-5035,the Nativity,2013,2025,"Nativity of the Virgin, using the existing dedication candidate."
 m-chp3-secii-l54-60-0033,chp-3:03_CHP-3_sec_ii:l54-60,cand-5033,its decoration,2027,2041,Likely the High Altar's decoration from the preceding sentence; retain the pronoun's source wording.
-m-chp3-secii-l54-60-0026,chp-3:03_CHP-3_sec_ii:l54-60,cand-0639,Cardinal Angelo Cesi,2063,2083,Provisional same-text mapping to the Angelo Cesi candidate used at L44; identity remains for S3 review.
+m-chp3-secii-l54-60-0026,chp-3:03_CHP-3_sec_ii:l54-60,cand-0639,Cardinal Angelo Cesi,2063,2083,S3 maps this title-form reference to the Bishop of Todi Angelo Cesi candidate cand-0639; Treccani DBI reports the 1586 cardinal nomination was unsuccessful. Retain Haskell's conflicting title as source wording.
 m-chp3-secii-l54-60-0027,chp-3:03_CHP-3_sec_ii:l54-60,cand-3402,the Oratorians,2165,2179,Institution deciding about the image.
 m-chp3-secii-l54-60-0028,chp-3:03_CHP-3_sec_ii:l54-60,cand-5033,the High Altar,2221,2235,Destination of the proposed image transfer.
 m-chp3-secii-l54-60-0029,chp-3:03_CHP-3_sec_ii:l54-60,cand-5055,a ‘miraculous’ image of the Madonna and Child,2236,2281,Specific sacred image preserved from the original church; object medium and identity are unspecified.
@@ -8623,7 +8623,7 @@ m-chp3-secii-l54-60-0030,chp-3:03_CHP-3_sec_ii:l54-60,cand-3427,the Madonna,2260
 m-chp3-secii-l54-60-0031,chp-3:03_CHP-3_sec_ii:l54-60,cand-4141,Child,2276,2281,"Jesus, nested within the image description."
 m-chp3-secii-l54-60-0032,chp-3:03_CHP-3_sec_ii:l54-60,cand-5027,the original church,2298,2317,"The original S. Maria della Vallicella, based on the preceding chapter context."
 m-chp3-secii-l54-60-0034,chp-3:03_CHP-3_sec_ii:l54-60,cand-5032,the façade,2424,2434,Façade whose unexpected expenses absorbed the money set aside for decoration.
-m-chp3-secii-l54-60-0035,chp-3:03_CHP-3_sec_ii:l54-60,cand-0639,Cardinal Cesi,2444,2457,Same-text continuation of Cardinal Angelo Cesi; provisional identity mapping.
+m-chp3-secii-l54-60-0035,chp-3:03_CHP-3_sec_ii:l54-60,cand-0639,Cardinal Cesi,2444,2457,"Continuation of the same p.70 source reference; identity maps to cand-0639, while Haskell's cardinal title remains in conflict with the Treccani DBI biography."
 m-chp3-secii-l54-60-0036,chp-3:03_CHP-3_sec_ii:l54-60,cand-3402,the Oratorians,2495,2509,Institution facing a financial/patronage crisis.
 m-chp3-secii-l54-60-0037,chp-3:03_CHP-3_sec_ii:l54-60,cand-1321,the Jesuits,2553,2564,Comparison group for the familiar situation.
 m-chp3-secii-l54-60-0038,chp-3:03_CHP-3_sec_ii:l54-60,cand-3402,they,2566,2570,Corefers to the Oratorians.
@@ -12367,7 +12367,7 @@ m-chp5-sec-iii-l36-43-035,chp-5:05_CHP-5_sec_iii:l36-43,cand-6141,Hispanophil cl
 m-chp5-sec-iii-l36-43-041,chp-5:05_CHP-5_sec_iii:l36-43,cand-4490,Rome,2603,2607,
 m-chp5-sec-iii-l36-43-036,chp-5:05_CHP-5_sec_iii:l36-43,cand-4638,the Colonna,2609,2620,
 m-chp5-sec-iii-l36-43-038,chp-5:05_CHP-5_sec_iii:l36-43,cand-0625,Cerquozzi,2713,2722,"Second Cerquozzi mention on L43, in the Spanish-association context."
-m-chp5-sec-iii-l36-43-039,chp-5:05_CHP-5_sec_iii:l36-43,cand-5120,Spain,2754,2759,Geographic candidate; Haskell’s wording also evokes patronage networks.
+m-chp5-sec-iii-l36-43-039,chp-5:05_CHP-5_sec_iii:l36-43,cand-4591,Spain,2754,2759,"Spain in the statement that Cerquozzi's career was linked to Spain and her supporters in Rome; political-entity context, not a travel destination. S3 correction from geographic cand-5120 after checking the source sentence."
 m-chp5-sec-iii-l36-43-040,chp-5:05_CHP-5_sec_iii:l36-43,cand-6133,her.supporters,2764,2778,S0 OCR span retained; print reads “her supporters”. The group is unnamed and is not merged with the embassy community.
 m-chp5-p137-plate21b-work,chp-5:05_CHP-5_sec_iii:l45-57,cand-4094,"dlihC
 dna
@@ -12414,7 +12414,7 @@ m-chp5-sec-iii-l70-80-003,chp-5:05_CHP-5_sec_iii:l70-80,cand-1662,Jan Miel,143,1
 m-chp5-sec-iii-l70-80-004,chp-5:05_CHP-5_sec_iii:l70-80,cand-0399,Giacomo Borgognone,153,171,Index candidate; identity alignment remains for S3.
 m-chp5-sec-iii-l70-80-005,chp-5:05_CHP-5_sec_iii:l70-80,cand-2514,Famiano Strada,227,241,Author of the cited work as named in the source; alignment remains for S3.
 m-chp5-sec-iii-l70-80-006,chp-5:05_CHP-5_sec_iii:l70-80,cand-2515,De Bello Belgico,244,260,Index subentry for the work; the passage specifies its second volume.
-m-chp5-sec-iii-l70-80-007,chp-5:05_CHP-5_sec_iii:l70-80,cand-0995,Alessandro Farnese,279,297,Index candidate; the source describes campaigns on behalf of the Spaniards.
+m-chp5-sec-iii-l70-80-007,chp-5:05_CHP-5_sec_iii:l70-80,cand-12426,Alessandro Farnese,279,297,Body-anchored person candidate; the Low Countries campaign context distinguishes this Alessandro Farnese from the cardinal entry.
 m-chp5-sec-iii-l70-80-008,chp-5:05_CHP-5_sec_iii:l70-80,cand-11928,Spaniards,327,336,"Collective political referent, not a list of individual participants."
 m-chp5-sec-iii-l70-80-009,chp-5:05_CHP-5_sec_iii:l70-80,cand-4342,"Low
 Countries",344,357,Exact cross-line S0 span; the print reads 'Low Countries'.
@@ -16746,8 +16746,8 @@ m-chp8-p213-036,chp-8:08_CHP-8_sec_i:l108-118,cand-2719,Venice,1140,1146,City re
 m-chp8-p213-037,chp-8:08_CHP-8_sec_i:l108-118,cand-1516,Mannerist,1175,1184,Style label used by Haskell; not a claim about all works in the collection.
 m-chp8-p213-038,chp-8:08_CHP-8_sec_i:l108-118,cand-7489,their possession,1197,1213,The Del Rosso brothers' possession of an original plate.
 m-chp8-p213-039,chp-8:08_CHP-8_sec_i:l108-118,cand-7570,the original plate,1237,1255,Physical printing matrix reported as apparently original; distinct from the printed work.
-m-chp8-p213-040,chp-8:08_CHP-8_sec_i:l108-118,cand-0483,Callot’s print,1260,1274,"Print by Jacques Callot, distinct from the original plate reportedly held by the brothers."
-m-chp8-p213-041,chp-8:08_CHP-8_sec_i:l108-118,cand-0483,La Fiera dellTmpruneta,1278,1300,Title as present in S0; the page image reads La Fiera dell'Impruneta.
+m-chp8-p213-040,chp-8:08_CHP-8_sec_i:l108-118,cand-12429,Callot’s print,1260,1274,"Mention of Callot's print; mapped to the separately identified work, not to the person or the original-plate candidate cand-7570."
+m-chp8-p213-041,chp-8:08_CHP-8_sec_i:l108-118,cand-12429,La Fiera dellTmpruneta,1278,1300,Title of Callot's print. S0 OCR reads La Fiera dellTmpruneta; S2 visual comparison reads La Fiera dell'Impruneta. S0 remains unchanged.
 m-chp8-p213-042,chp-8:08_CHP-8_sec_i:l108-118,cand-7520,the del Rosso collection,1328,1352,"The brothers' picture collection, kept distinct from the family entity."
 m-chp8-p213-043,chp-8:08_CHP-8_sec_i:l108-118,cand-3534,Naples,1380,1386,City emphasized in Haskell's description of the collection.
 m-chp8-p213-045,chp-8:08_CHP-8_sec_i:l108-118,cand-7520,its,1391,1394,"Possessive reference to the Del Rosso collection, whose motives Haskell leaves unresolved."
@@ -17773,7 +17773,7 @@ m-chp8-p222-ruffo-5,chp-8:08_CHP-8_sec_ii:l126-138,cand-2304,Russo,1921,1926,OCR
 m-chp8-p222-abigail-person,chp-8:08_CHP-8_sec_ii:l126-138,cand-7721,Abigail,1953,1960,Person named in the title of the Crespi painting.
 m-chp8-p222-abigail-work,chp-8:08_CHP-8_sec_ii:l126-138,cand-7719,Abigail giving Presenti to David,1953,1985,Named Crespi painting; OCR Presenti is corrected to Presents in the page image.
 m-chp8-p222-david-person,chp-8:08_CHP-8_sec_ii:l126-138,cand-4268,David,1980,1985,Biblical figure named in the painting title.
-m-chp8-p222-finding-moses-work,chp-8:08_CHP-8_sec_ii:l126-138,cand-7720,The Finding of Moses,1990,2010,Named Crespi painting; kept separate from index candidate cand-0879 pending S3.
+m-chp8-p222-finding-moses-work,chp-8:08_CHP-8_sec_ii:l126-138,cand-7720,The Finding of Moses,1990,2010,Named Crespi painting in the p.222 Ruffo commission context. S3 resolved: distinct from the p.228 Conti work that used the same title as a customs-duty label.
 m-chp8-p222-moses-person,chp-8:08_CHP-8_sec_ii:l126-138,cand-4144,Moses,2005,2010,Figure named in the painting title.
 m-chp8-p222-ruffo-6,chp-8:08_CHP-8_sec_ii:l126-138,cand-2304,Russo,2137,2142,OCR spelling; page image reads Ruffo.
 m-chp8-p222-donato-creti,chp-8:08_CHP-8_sec_ii:l126-138,cand-0889,Donato Creti,2238,2250,Artist compared with Crespi in Haskell's account.
@@ -18092,7 +18092,7 @@ m-chp8-p228-jupiter,chp-8:08_CHP-8_sec_ii:l206-214,cand-4178,Jupiter,1824,1831,M
 m-chp8-p228-infant-title-rest,chp-8:08_CHP-8_sec_ii:l206-214,cand-0879,handed over by Cybele to the Corybantes to be fed,1832,1881,Remainder of the original work title; the title spans source lines 209-210.
 m-chp8-p228-cybele,chp-8:08_CHP-8_sec_ii:l206-214,cand-4187,Cybele,1847,1853,Mythological figure in Crespi's original title.
 m-chp8-p228-corybantes,chp-8:08_CHP-8_sec_ii:l206-214,cand-4188,the Corybantes,1857,1871,Mythological group in Crespi's original title.
-m-chp8-p228-finding-title,chp-8:08_CHP-8_sec_ii:l206-214,cand-0879,The Finding of Moses,2032,2052,New title for the same 1728 Conti commission; keep separate from the similarly titled p.222 painting until S3.
+m-chp8-p228-finding-title,chp-8:08_CHP-8_sec_ii:l206-214,cand-0879,The Finding of Moses,2032,2052,Title used for the same 1728 Conti Jupiter/Cybele commission; S3 distinguishes it from the separate p.222 Ruffo work with the same title.
 m-chp8-p228-moses,chp-8:08_CHP-8_sec_ii:l206-214,cand-4144,Moses,2047,2052,Biblical figure in the retitled work.
 m-chp8-p228-crespi-group,chp-8:08_CHP-8_sec_ii:l206-214,cand-0871,Crespi,2149,2155,Member of the group of later pictures in Conti's collection.
 m-chp8-p228-canaletto-2,chp-8:08_CHP-8_sec_ii:l206-214,cand-0498,Canaletto,2157,2166,Member of the group of later pictures in Conti's collection.
@@ -24783,7 +24783,7 @@ m-chp20-p404-061,chp-20:20_CHP-20Postscript:l123-135,cand-11054,it,2744,2746,Ana
 m-chp20-p404-062,chp-20:20_CHP-20Postscript:l123-135,cand-11056,many of the finest pictures in it,2713,2746,"Unidentified subset of pictures in the ensemble, dispersed before acquisition."
 m-chp20-p405-001,chp-20:20_CHP-20Postscript:l137-148,cand-0833,Stefano Conti,39,52,Reuse the indexed Stefano Conti candidate; his commission is already described on p.228.
 m-chp20-p405-002,chp-20:20_CHP-20Postscript:l137-148,cand-0871,Crespi,84,90,Reuse the indexed artist candidate; this is the same Jupiter/Corybantes painting discussed on p.228 and captioned on Plate 67.
-m-chp20-p405-003,chp-20:20_CHP-20Postscript:l137-148,cand-0879,Jupiter among the Corybantes,94,122,Specific painting; reuse the index and Plate 67 candidate. Keep the separate p.222 same-title candidate cand-7720 unmerged pending S3.
+m-chp20-p405-003,chp-20:20_CHP-20Postscript:l137-148,cand-0879,Jupiter among the Corybantes,94,122,Specific Conti painting; reuse the p.228 index and Plate 67 work candidate. S3 resolves the p.222 same-title Ruffo painting as a separate work.
 m-chp20-p405-004,chp-20:20_CHP-20Postscript:l137-148,cand-0879,The Finding of Moses,154,174,Alternate title in Haskell's p.405 report; see the p.228 report and preserve the source's customs-duty explanation.
 m-chp20-p405-005,chp-20:20_CHP-20Postscript:l137-148,cand-0833,him,147,150,"Pronoun refers to Stefano Conti, who described the subject under the alternate title."
 m-chp20-p405-006,chp-20:20_CHP-20Postscript:l137-148,cand-0879,Plate 67,308,316,Internal plate reference to the same work candidate; Plate 67 caption was processed separately.
@@ -27283,3 +27283,6 @@ m-s2-chp15-p363-contemporary-artists-patronage,chp-15:15_CHP-15_sec_i:l38-41,can
 m-s2-ch17-p380-manfrin-gallery-history-of-painting,chp-17:17_CHP-17_sec_i:l8-20,cand-12423,"history of Italian (and, to some extent,
 Flemish) painting",618,676,Broad conceptual subject of the gallery's qualified historical survey; the phrase crosses the source line break.
 m-s2-ch17-p383-pictures-to-market-event,chp-17:17_CHP-17_sec_ii:l19-22,cand-12424,many pictures coming on to the market,356,393,Collective market event stated by Haskell; individual pictures and transactions remain unidentified.
+m-chp2-seciv-l106-112-0051,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,In 1638 he was made Principe,2507,2535,Event: Romanelli's 1638 appointment as Principe of Accademia di S. Luca.
+m-chp8-p213-086,chp-8:08_CHP-8_sec_i:l108-118,cand-0483,Callot,1260,1266,Person mention inside the possessive phrase Callot's print; the full phrase and title are mapped separately to work candidate cand-12429.
+m-chp8-p238-giovanni-ricci,chp-8:08_CHP-8_sec_ii:l327-336,cand-2147,Giovanni Ricci,754,768,Full name in the p.238 discussion of Crespi's Bolognese patrons; linked to index main entry Q-R.csv#74 and its p.204 subentry.

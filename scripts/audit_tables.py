@@ -483,7 +483,10 @@ def audit_tables(strict_stage: bool = False) -> dict:
             errors.append(f"{row.get('segment_id')}: source segment must be marked release_excluded")
     for row in alignment_rows:
         errors.extend(alignment_row_errors(row, candidate_ids, ku_ids))
-    pending_registration = sum(row.get("decision") == "new" and not row.get("ku_id") for row in alignment_rows)
+    pending_registration = sum(
+        row.get("decision") == "new" and not row.get("ku_id") and not row.get("external_source")
+        for row in alignment_rows
+    )
     if pending_registration:
         warnings.append(f"S4 KU registration pending for {pending_registration} new alignment decision(s)")
     alignment_keys = [f"{r.get('candidate_id','')}|{r.get('external_source','')}" for r in alignment_rows]

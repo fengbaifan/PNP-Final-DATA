@@ -1,4 +1,4 @@
-# 全书语义处理（S2）过程
+﻿# 全书语义处理（S2）过程
 
 
 
@@ -11181,3 +11181,27 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 ### 第一版序言术语与章节范围statement裁决（2026-10-10）
 
 按L4–8裁决11条双端statement：4条作为S2候选保留Baroque阶段在Urban VIII时期的高峰、其延续至威尼斯共和国终结，以及书前两节关于罗马的范围关系；其余7条为作者的术语定义、标题评价、方法论、材料选择、叙述取舍或历史解释，不作为端点之间的关系。均保留Haskell归属与章节/概念语境。无新增candidate、mention或statement。写前SHA-256 `9289f6713a93a062c41e900c7804c41a759f80ee277ad27315abd042d417f623`；恢复副本`04-knowledge/tables/book-statements.jsonl.bak-s2-front-matter-first-ed-preface-scope-20261010`；写后SHA-256 `d6a03e97f88f43139db93d9064bd8c8dcab4cf1c124f8219abab71b6f2ec19d9`。当前全库12,690条statement，3,826条relation_candidate=true（3,810条双端、16条开放），双端未分类4,268条。
+
+
+### 第十章 p.318 Abate Galiani 端点回核（2026-10-16）
+
+复核 `m-s2-ch10-p318-0012` 后发现其表面形式“Abate Galiani”误映射至 archive 候选 `cand-1103`；第10章 p.318 L136 的语法将人物与其论著 *Della Moneta* 分开，现将该mention改映射至已有 person 候选 `cand-1102`。原 statement `st-chp10-p318-galiani-della-moneta-appeared-in-1750` 的主语同步改为 `cand-1102`，宾语保留 `cand-9706`；原文引句、断言内容、来源锚点及关系候选状态不变。
+`cand-1103` 是 Galiani 索引下的 *della Moneta* 文献子项，索引页318与正文候选 `cand-9706` 的同题名文本相合；两者归入同一 archive 身份组。未新增或删除候选、mention、statement，也未把人物并入文献。
+
+### 第十章 p.318 Muratori 人物／论著端点更正（2026-10-16）
+
+复核 `m-s2-ch10-p318-0010` 后发现表面形式“Muratori”误映射至 archive 候选 `cand-1718`；该候选实际是 *Della pubblica felicità* 的索引子项。现将 mention 与 `st-chp10-p318-muratori-published-della-pubblica-felicita` 主语改映射至人物候选 `cand-1717`，论著宾语保持 `cand-9705`。Haskell 原句、statement claim、题名 OCR 及扫描印本校读未改；人物候选因全名仅有 initials 仍保持 S3 `undecided`。候选、mention、statement 数量不变。
+
+### Evidence locator correction for st-chp2-seciv-l65-77-enzo-buys-borghese-palace-1619（2026-10-16）
+
+复核第2章 p.49 L67–68 后，将原 statement 引句由不完整的前置短语校正为 “his brother Enzo bought in 1619”，并将 source_line_end 从67改为68。断言内容、人物与宫殿端点、1619日期及注1定位不变；注1 L214 另称 Bentivoglio 从 Altemps 家族购得宫殿，两处措辞均保留，不据此静默确定归属。
+
+### S2 p.406 注7与1948年书目引用校正（2026-10-17）
+
+- st-chp20-p406-n07-citation 原 claim 将注7说明为“俄国宫廷相关后续论文之一”；回读 p.406 L157–158 与注释 L262 后确认，正文的1948年著作带注号7，紧接的“两篇后续论文”带注号8，注8列 Ernst 与 Fomiciova。故注7实际对应正文所述的书籍。
+- 已将该 statement claim 改为注7识别前句所述 Giuseppe Valeriani 研究书；qualification 保留注释仅写 Konopleva、完整作者身份未明及书未独立查阅。predicate 和 relation_candidate=false 不变；S2 statement 数量及候选覆盖不变。正文原句、注7原文、书目行及候选映射未改。
+- 修正后将 cand-11088 正文候选与 cand-11204 书目候选按同一出版物归入 archive-group-09a3b2fdbd56；旧组号和旧决定理由均保留在 S3 alignment 注释中。
+
+### S2 cand-7285 metadata refresh after p.200 note 1 migration (2026-10-17)
+
+- cand-7285 的 detail 原称 p.200 注1尚未迁移；当前 statement 表已完整包含该注，旧状态过时。现更新为明确记录正文与注1的来源锚点，并保留注释中的 tentative identification：cand-7285 与 cand-1891 不合并，cand-7285 的 S3 决定继续为 undecided。未修改候选、提及或 statement 数量。
