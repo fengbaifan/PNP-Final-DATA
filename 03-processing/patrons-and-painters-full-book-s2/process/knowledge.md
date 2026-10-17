@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 543 / 635 | 522 / 523 |
+| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 546 / 638 | 519 / 520 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **952 / 1,129** | **3,821 / 3,835** |
+| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **955 / 1,132** | **3,818 / 3,832** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6078,3 +6078,17 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 - cand-2291（new-person:rowlandson-thomas-587b2a4589）→ [托马斯·罗兰森（Thomas Rowlandson）](../../../04-knowledge/units/persons/thomas-rowlandson.md)。索引Q-R.csv#219与正文页段支持书内人物登记；直接S2关系候选st-chp10-p292-rowlandson-adaptation留待S6逐条裁决，不登记正式关系。
 
 本批登记3个S3 new人物组、3条候选映射和6条source_backed名称字段；3条直接S2关系候选留待S6，未新增正式关系或来源。登记后person类型S4为543组/635条已登记、522组/523条待登记；全书为952组/1,129条已登记、3,821组/3,835条待登记，KU=1971。
+
+
+<a id="s4-person-direct-endpoints-grimani-grosley-guidi-20261018"></a>
+
+### S3身份组交接与S4登记：Grimani、Grosley、Guidi（2026-10-18）
+
+- cand-1234：沿用本日既有S3标题身份审查，登记为Doge Grimani书内人物KU，不补姓名；1745年奠基语境将其与一般性的威尼斯总督机构候选分开，Cardinal Grimani仍按现有S3记录保持未决。
+- cand-1235：修正旧的自我匹配式new理由。索引G.csv#145定位p.301n与p.332；前者转引1758年在威尼斯的Grosley，后者称旅人Grosley并引其出版许可观察，支持同一书内人物组。引文U p.99与书目条目的对应仍未证实。
+- cand-1277：修正旧的自我匹配式new理由。索引G.csv#187将p.189与p.198并列；两处正文均称Domenico Guidi，分别置于凡尔赛雕塑遴选及Closterman寄送其素描的语境。p.198关系候选仍映射Closterman与素描对象，本批不把Guidi增作该statement的端点。
+- cand-1234（new-person:doge-grimani-ee5c26c638）→ [格里马尼总督（Doge Grimani）](../../../04-knowledge/units/persons/doge-grimani.md)。索引G.csv#144与正文页段支持书内人物登记；直接S2关系候选st-chp9-p272-doge-grimani-rebuild留待S6逐条裁决，不登记正式关系。
+- cand-1235（new-person:grosley-jean-pierre-ebde05d809）→ [皮埃尔·让·格罗斯莱（Pierre Jean Grosley）](../../../04-knowledge/units/persons/pierre-jean-grosley.md)。索引G.csv#145与正文页段支持书内人物登记；直接S2关系候选st-chp10-p301-note1-grosley-quote留待S6逐条裁决，不登记正式关系。
+- cand-1277（new-person:domenico-guidi-8bb3bdb48b）→ [多梅尼科·圭迪（Domenico Guidi）](../../../04-knowledge/units/persons/domenico-guidi.md)。索引G.csv#187与正文页段支持书内人物登记；直接S2关系候选st-chp7-p189-i06留待S6逐条裁决，不登记正式关系。
+
+本批保留1个标题身份S3决定并校正2条new身份理由，登记3个new人物组、3条候选映射和6条source_backed名称字段；3条直接S2关系候选留待S6，未新增正式关系或来源。登记后person类型S4为546组/638条已登记、519组/520条待登记；全书为955组/1,132条已登记、3,818组/3,832条待登记，KU=1974。
