@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 588 / 680 | 476 / 477 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 592 / 684 | 472 / 473 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **997 / 1,174** | **3,775 / 3,789** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **1,001 / 1,178** | **3,771 / 3,785** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6304,3 +6304,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记8条source_backed enrichment行（`enr-14996`、`enr-14997`、`enr-14998`、`enr-14999`、`enr-15000`、`enr-15001`、`enr-15002`、`enr-15003`），全部引用既有Haskell书目来源ID；Piccino的索引全名与正文姓氏分列，della Porta的创作候选仍待S6。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-pozzi-puget-querini-rainaldi-20261018"></a>
+
+### S4 person：Pozzi、Puget、Querini与Rainaldi四组索引／正文登记（2026-10-18）
+
+- `cand-2032`（`new-person:luigi-pozzi-99e955d500`）→ [路易吉·波齐（Luigi Pozzi）](../../../04-knowledge/units/persons/luigi-pozzi.md)；依据索引P.csv#235与正文第15章第I节，印刷页362；OCR L19登记。
+- `cand-2070`（`new-person:pierre-puget-c313de05b2`）→ [皮埃尔·皮热（Pierre Puget）](../../../04-knowledge/units/persons/pierre-puget.md)；依据索引P.csv#273与正文第10章第II节，印刷页312；OCR L22登记。
+- `cand-2087`（`new-person:giacomo-querini-7687c88ca3`）→ [贾科莫·奎里尼（Giacomo Querini）](../../../04-knowledge/units/persons/giacomo-querini.md)；依据索引Q-R.csv#14与正文第6章第I节，印刷页152；OCR L72–74登记。
+- `cand-2092`（`new-person:carlo-rainaldi-7ecc91cf92`）→ [卡洛·拉伊纳尔迪（Carlo Rainaldi）](../../../04-knowledge/units/persons/carlo-rainaldi.md)；依据索引Q-R.csv#19与正文第7章第I节，印刷页187；OCR L230登记。
+
+四组均为单候选S3 new身份组。Pozzi临摹工作、Puget浮雕归属、Querini的Sagredo继承人称谓及Rainaldi方案语境均按来源原有范围记录；未新增外部来源或formal relation。
+
+登记后人物类型S4为592组/684条已登记、472组/473条待登记；全书KU=2020。
+
+<a id="s4-person-name-fields-pozzi-puget-querini-rainaldi-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记8条source_backed enrichment行（`enr-15004`、`enr-15005`、`enr-15006`、`enr-15007`、`enr-15008`、`enr-15009`、`enr-15010`、`enr-15011`），全部引用既有Haskell书目来源ID；Querini正文重复称名并保留索引正名。本批未新增sources.csv记录、生平字段或formal relation。
