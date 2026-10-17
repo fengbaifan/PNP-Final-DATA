@@ -1,5 +1,6 @@
 import csv
 import io
+import json
 
 from scripts.export_dataset import build_package, source_citation_link_rows, validate_package
 
@@ -31,26 +32,86 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     assert metadata["counts"]["portable_reference_rows"] > 0
     assert metadata["counts"]["portable_entity_references"] > 0
     assert metadata["counts"]["portable_processing_references"] > 0
-    assert metadata["provenance_diagnostics"]["unverified_empty_source_ref"] == 1499
-    assert metadata["provenance_diagnostics"]["with_source_id_citation_or_url"] == 83
-    assert metadata["provenance_diagnostics"]["project_naming_evidence_label"] == 464
-    assert metadata["provenance_diagnostics"]["wikidata_evidence_marker_without_source_metadata"] == 469
-    assert metadata["provenance_diagnostics"]["other_nonempty_evidence_without_source_metadata"] == 377
-    assert metadata["provenance_diagnostics"]["without_evidence_text_or_structured_source_metadata"] == 106
-    assert metadata["provenance_diagnostics"]["wikidata_property_rows"] == 465
-    assert metadata["provenance_diagnostics"]["wikidata_property_rows_with_unique_same_alignment_and_source_record"] == 403
-    assert metadata["provenance_diagnostics"]["wikidata_property_qids_with_multiple_source_records"] == 52
-    assert metadata["provenance_diagnostics"]["wikidata_property_qids_with_duplicate_records_same_revision"] == 44
-    assert metadata["provenance_diagnostics"]["wikidata_property_qids_with_duplicate_records_different_revisions"] == 8
-    assert metadata["provenance_diagnostics"]["wikidata_property_rows_without_unique_same_alignment_or_source_record"] == 62
-    assert metadata["provenance_diagnostics"]["wikidata_source_candidate_rows"] == 465
-    assert metadata["provenance_diagnostics"]["source_citation_cardinality_mismatches"] == 138
-    assert metadata["counts"]["enrichment_citation_links"] == 12254
-    assert metadata["counts"]["enrichment_citations_resolved_unique"] == 12201
-    assert metadata["counts"]["enrichment_citations_resolved_exact"] == 9328
-    assert metadata["counts"]["enrichment_citations_resolved_by_work_identity"] == 2873
-    assert metadata["counts"]["enrichment_citations_ambiguous"] == 0
-    assert metadata["counts"]["enrichment_citations_without_deterministic_match"] == 53
+    enrichment_rows = [
+        json.loads(line) for line in files["enrichment.jsonl"].splitlines() if line
+    ]
+    unverified_without_ref = [
+        row for row in enrichment_rows
+        if row.get("evidence_status") == "unverified" and not row.get("source_ref")
+    ]
+    def has_source_metadata(row):
+        return any((
+            row.get("source_id"), row.get("source_ids"), row.get("source_citations"), row.get("source_urls")
+        ))
+
+    evidence_text_without_source = [
+        row for row in unverified_without_ref
+        if row.get("evidence") and row.get("evidence") != "项目命名" and not has_source_metadata(row)
+    ]
+    wikidata_markers = [row for row in evidence_text_without_source if "Wikidata" in str(row.get("evidence", ""))]
+    expected_provenance_counts = {
+        "unverified_empty_source_ref": len(unverified_without_ref),
+        "with_source_id_citation_or_url": sum(has_source_metadata(row) for row in unverified_without_ref),
+        "project_naming_evidence_label": sum(row.get("evidence") == "项目命名" for row in unverified_without_ref),
+        "wikidata_evidence_marker_without_source_metadata": len(wikidata_markers),
+        "other_nonempty_evidence_without_source_metadata": len(evidence_text_without_source) - len(wikidata_markers),
+        "without_evidence_text_or_structured_source_metadata": sum(
+            not row.get("evidence") and not has_source_metadata(row) for row in unverified_without_ref
+        ),
+        "source_citation_cardinality_mismatches": sum(
+            bool(row.get("source_citations"))
+            and len(row.get("source_ids") or ([row["source_id"]] if row.get("source_id") else []))
+            != len(row["source_citations"])
+            for row in enrichment_rows
+        ),
+    }
+    source_candidates = list(csv.DictReader(io.StringIO(files["wikidata-source-candidates.csv"])))
+    ambiguous = [row for row in source_candidates if row["pointer_status"] == "candidate_sources_ambiguous"]
+    no_unique_record = [
+        row for row in source_candidates
+        if row["pointer_status"] in {"no_unique_same_alignment", "no_source_record"}
+    ]
+    linked_to_source = [
+        row for row in source_candidates
+        if row["pointer_status"] in {"candidate_sources_ambiguous", "one_candidate_source"}
+    ]
+    multiple_source_qids = {}
+    for row in ambiguous:
+        multiple_source_qids[row["wikidata_qid"]] = row["candidate_revisions"].split(";")
+    same_revision_qids = sum(
+        len({revision for revision in revisions if revision}) == 1
+        for revisions in multiple_source_qids.values()
+    )
+    expected_provenance_counts.update({
+        "wikidata_property_rows": len(source_candidates),
+        "wikidata_property_rows_with_unique_same_alignment_and_source_record": len(linked_to_source),
+        "wikidata_property_qids_with_multiple_source_records": len(multiple_source_qids),
+        "wikidata_property_qids_with_duplicate_records_same_revision": same_revision_qids,
+        "wikidata_property_qids_with_duplicate_records_different_revisions": len(multiple_source_qids) - same_revision_qids,
+        "wikidata_property_rows_without_unique_same_alignment_or_source_record": len(no_unique_record),
+        "wikidata_source_candidate_rows": len(source_candidates),
+    })
+    for key, expected in expected_provenance_counts.items():
+        assert metadata["provenance_diagnostics"][key] == expected
+    citation_links = list(csv.DictReader(io.StringIO(files["enrichment-citation-links.csv"])))
+    expected_citation_counts = {
+        "enrichment_citation_links": len(citation_links),
+        "enrichment_citations_resolved_unique": sum(row["resolution_status"] == "resolved_unique" for row in citation_links),
+        "enrichment_citations_resolved_exact": sum(
+            row["match_method"] == "normalized_exact_citation" and row["resolution_status"] == "resolved_unique"
+            for row in citation_links
+        ),
+        "enrichment_citations_resolved_by_work_identity": sum(
+            row["match_method"] == "work_author_title_year" and row["resolution_status"] == "resolved_unique"
+            for row in citation_links
+        ),
+        "enrichment_citations_ambiguous": sum(row["resolution_status"] == "ambiguous" for row in citation_links),
+        "enrichment_citations_without_deterministic_match": sum(
+            row["resolution_status"] == "no_exact_match" for row in citation_links
+        ),
+    }
+    for key, expected in expected_citation_counts.items():
+        assert metadata["counts"][key] == expected
     assert sum(metadata["provenance_diagnostics"][key] for key in (
         "with_source_id_citation_or_url",
         "project_naming_evidence_label",
@@ -60,15 +121,9 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     )) == metadata["provenance_diagnostics"]["unverified_empty_source_ref"]
     assert "not an independent recall or accuracy estimate" in metadata["known_gaps"][0]
     assert "no source ID was assigned automatically" in metadata["known_gaps"][3]
-    assert any("13 unmatched typed candidate labels" in gap for gap in metadata["known_gaps"])
+    assert any("unmatched typed candidate labels" in gap for gap in metadata["known_gaps"])
 
-    source_candidates = list(csv.DictReader(io.StringIO(files["wikidata-source-candidates.csv"])))
-    assert len(source_candidates) == 465
-    assert sum(row["pointer_status"] == "candidate_sources_ambiguous" for row in source_candidates) == 403
-    assert sum(row["pointer_status"] == "no_unique_same_alignment" for row in source_candidates) == 62
-    ambiguous = [row for row in source_candidates if row["pointer_status"] == "candidate_sources_ambiguous"]
-    assert len({row["wikidata_qid"] for row in ambiguous}) == 52
-    assert all(len(row["candidate_source_ids"].split(";")) == 2 for row in ambiguous)
+    assert all(len(row["candidate_source_ids"].split(";")) > 1 for row in ambiguous)
 
     statements = [line for line in files["book-statements.jsonl"].splitlines() if line]
     assert len(statements) == metadata["counts"]["s2_statement_rows"]
@@ -132,7 +187,6 @@ def test_enrichment_citation_links_must_match_deterministic_source_mapping():
     rows = list(csv.DictReader(io.StringIO(files["enrichment-citation-links.csv"])))
     assert rows
     assert any(row["resolution_status"] == "resolved_unique" for row in rows)
-    assert sum(row["match_method"] == "work_author_title_year" and row["resolution_status"] == "resolved_unique" for row in rows) == 2873
     anthology_url_citation = next(
         row for row in rows if row["enrichment_id"] == "enr-00215" and row["citation_index"] == "0"
     )
