@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 553 / 645 | 512 / 513 |
+| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 557 / 649 | 508 / 509 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **962 / 1,139** | **3,811 / 3,825** |
+| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **966 / 1,143** | **3,807 / 3,821** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6126,3 +6126,22 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 ### S4结构化字段与来源登记：四张人物卡姓名（2026-10-18）
 
 四张新人物卡的姓名表行登记为6条enrichment.jsonl记录（`enr-14943`, `enr-14944`, `enr-14945`, `enr-14946`, `enr-14947`, `enr-14948`），来源序号与卡片sources对应。Luigi/Aloysius Gonzaga的英文惯用名字段引用Holy See礼仪文本来源`src-6828ef56b8f5c57f`；该外部来源已列入sources.csv，URL与PDF页码定位见人物卡。其余姓名字段引用Haskell书内页段或索引。本批只登记名称字段，不新增生平事实、formal relation或S6裁决。
+
+<a id="s4-person-relation-endpoints-mancini-manfredi-marchesi-marchiori-20261018"></a>
+
+### S4 person：Mancini、Manfredi、Marchesi、Marchiori四组直接端点登记（2026-10-18）
+
+- `cand-1506`（`new-person:francesco-mancini-f439d8fb6a`）→ [弗朗切斯科·曼奇尼（Francesco Mancini）](../../../04-knowledge/units/persons/francesco-mancini.md)；S2关系候选`st-chp14-p351-rome-artists`留待S6。第14章将Mancini列入Algarotti的罗马画家建议名单；对应statement仍是S2关系候选，留待S6裁决。该人物与现有Giulio Mancini、Maria Mancini为不同身份。
+- `cand-1511`（`new-person:eustachio-manfredi-e87f85ad8e`）→ [尤斯塔基奥·曼弗雷迪（Eustachio Manfredi）](../../../04-knowledge/units/persons/eustachio-manfredi.md)；S2关系候选`st-chp14-p347-algarotti-corresponded-with-manfredi`留待S6。Haskell称Algarotti与Manfredi在学生时代相识后持续通信；该陈述仍为来源归因的关系候选，不在S4转为正式关系。
+- `cand-1538`（`new-person:marchesi-raffaelo-548b679336`）→ [拉斐洛·马尔凯西（Raffaelo Marchesi）](../../../04-knowledge/units/persons/raffaelo-marchesi.md)；S2关系候选`st-chp5-p136-marchesi-lawyer-and-beneficiary-of-cerquozzi-bequest`留待S6。第5章称律师Raffaele Marchesi为Cerquozzi部分作品遗赠对象。索引拼写Raffaelo与正文Raffaele的差异记作来源异形，未借此判断人物为两人；关系候选仍待S6。
+- `cand-1541`（`new-person:giovanni-marchiori-065f269ab2`）→ [乔瓦尼·马尔基奥里（Giovanni Marchiori）](../../../04-knowledge/units/persons/giovanni-marchiori.md)；S2关系候选`st-chp14-p356-marchiori-berlin-church-commission`留待S6。原书称Algarotti取得该委托并提及其致Bonomo信中“for the honour of Italy”的劝促；人物与教堂雕塑委托关系候选留待S6。
+
+四组均为单候选S3 new身份组，各登记一个人物KU。cand-1538的书后索引写Raffaelo Marchesi，而正文同页写Raffaele Marchesi；相同索引页码、姓名和律师/遗赠语境支持归为同一书内人物，卡片保留拼写异形，不认定哪一形式为规范名。所有书内陈述仍为S2关系候选；未新增正式关系、外部事实、来源登记或backlog项目。
+
+登记后人物类型S4为557组/649条已登记、508组/509条待登记；全书KU=1985。
+
+<a id="s4-person-name-fields-mancini-manfredi-marchesi-marchiori-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记5条source_backed enrichment行（`enr-14949`、`enr-14950`、`enr-14951`、`enr-14952`、`enr-14953`），全部引用既有Haskell书目来源ID；Raffaelo Marchesi（索引）与Raffaele Marchesi（正文）分列为来源拼写异形，未设定标准形式。本批未新增sources.csv记录、生平字段或formal relation。
