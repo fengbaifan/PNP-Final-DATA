@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 592 / 684 | 472 / 473 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 595 / 687 | 469 / 470 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **1,001 / 1,178** | **3,771 / 3,785** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **1,004 / 1,181** | **3,768 / 3,782** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6323,3 +6323,23 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记8条source_backed enrichment行（`enr-15004`、`enr-15005`、`enr-15006`、`enr-15007`、`enr-15008`、`enr-15009`、`enr-15010`、`enr-15011`），全部引用既有Haskell书目来源ID；Querini正文重复称名并保留索引正名。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-sagredo-family-endpoints-20261018"></a>
+
+### S3身份复核与S4人物直接端点登记：Sagredo三位人物（2026-10-18）
+
+- `cand-2326`（`new-person:gherardo-sagredo-6252819bc6`）→ [杰拉尔多·萨格雷多（Gherardo Sagredo）](../../../04-knowledge/units/persons/gherardo-sagredo.md)；索引S.csv#14、第9章，印刷页263–264；OCR L236、241、246；S3续核（2026-10-18）：DIA馆藏号38.56的沿革记录将Gherardo Sagredo列在Zaccaria之后，姓名及卒年与第9章对应；该作品沿革只支持身份比对，不把收藏转移叙述转成新关系事实。另查Princeton object x1948-601列Gherardo生卒年1691–1738，而Haskell p.264称其1738年去世时49岁；年龄差异留待后续事实核验，不改变本次身份分组。
+- `cand-2327`（`new-person:niccolo-sagredo-52f2c679cd`）→ [尼科洛·萨格雷多（Niccolò Sagredo）](../../../04-knowledge/units/persons/niccolo-sagredo.md)；索引S.csv#15、第9章，印刷页263–264；OCR L234、243；另见第6章第I节，印刷页152、OCR L70；S3续核（2026-10-18）：Treccani《Enciclopedia Italiana》Mario Brunetti撰“SAGREDO, Niccolò”记其为威尼斯总督并于1675年当选；书中第6章p.152的全名和第9章p.263的总督称谓、当选年份与之相合。cand-2327与既有Zaccaria Sagredo及其父Stefano保持分立。
+- `cand-2328`（`new-person:sagredo-stefano-fce8efdd59`）→ [斯特法诺·萨格雷多（Stefano Sagredo）](../../../04-knowledge/units/persons/stefano-sagredo.md)；索引S.csv#16、第9章，印刷页263注1；OCR L414；S3续核（2026-10-18）：索引S.csv#16给出“Sagredo, Stefano”；第9章p.263注1转述Barbaro称Zaccaria为Stessano Sagredo之子，既有S2页图校读记该姓名为“Steffano”。三种拼写按索引名、OCR与页图读法保留，指向同一书内父辈人物。对照Princeton University Art Museum object x1948-601时，其来源链虽列Niccolò之弟Stefano及Zaccaria之父，但以“possibly”限定沿承，且将Zaccaria生年列为1633，与书中转引的1653不合；该外部对应记为undecided，不据此改动书内身份或生年。
+
+外部记录结论：cand-2326 → same（Detroit Institute of Arts collection record）；cand-2327 → same（Treccani, Enciclopedia Italiana）；cand-2328 → undecided（Princeton University Art Museum）。Niccolò、Stefano、Gherardo分别对应不同身份组；Stefano的Princeton馆藏沿革仅作未决比对，保留其对Zaccaria生年的冲突，不改写书内原名和日期。五条直接S2关系候选留待S6审查，未新增formal relation。
+
+登记脚本 `register_s4_person_sagredo_family_endpoints_20261018.py` 与姓名字段脚本 `register_s4_person_name_fields_sagredo_family_20261018.py` 均先dry-run后apply。
+
+登记后人物类型S4为595组/687条已登记、469组/470条待登记；全书KU=2023。
+
+<a id="s4-person-name-fields-sagredo-family-20261018"></a>
+
+### S4结构化姓名字段登记：Sagredo三张人物卡（2026-10-18）
+
+三张人物卡登记7条source_backed姓名enrichment行（`enr-15012`、`enr-15013`、`enr-15014`、`enr-15015`、`enr-15016`、`enr-15017`、`enr-15018`），均引用既有Haskell书目来源ID。Gherardo卡保留遗嘱拼写“Girardo P.O Sagredio”；Niccolò卡保留索引名与第6章正文全名；Stefano卡分列索引“Stefano”、脚注OCR“Stessano”及页图校读“Steffano”。Princeton馆藏沿革的外部身份比对仍为undecided，未写成姓名事实。本批未新增sources.csv记录、生平字段或formal relation。
