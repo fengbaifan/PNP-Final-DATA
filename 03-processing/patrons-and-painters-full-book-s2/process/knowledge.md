@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,087 | 1,067 / 1,160 | 4 | 7 | 1,206 | 488 / 580 | 579 / 580 |
+| person | 3,464 | 1,087 | 1,067 / 1,160 | 4 | 7 | 1,206 | 493 / 585 | 574 / 575 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,902** | **4,775 / 4,966** | **9** | **100** | **5,430** | **897 / 1,074** | **3,878 / 3,892** |
+| **合计** | **12,407** | **1,902** | **4,775 / 4,966** | **9** | **100** | **5,430** | **902 / 1,079** | **3,873 / 3,887** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -5917,3 +5917,18 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 本批登记4个S3 new人物组、4条候选映射和8条source_backed名称字段；5条直接S2关系候选留待S6，另1组因身份锚点仅为未具名爵号而保持待证。保留Antonio的日期限定、Pietro演说引文未独立查阅状态、Lorenzi的嵌套转述和可能伪托、Lovisa出版与赞助两种角色及标题OCR更正。本批无外部身份行、无正式关系、无来源登记变更。
 
 登记后person类型S4为488组/580条已登记、579组/580条待登记；全书为897组/1,074条已登记、3,878组/3,892条待登记，KU=1916。
+
+
+<a id="s4-person-direct-endpoints-maffei-m-20261018"></a>
+
+### S4人物直接关系端点登记：Maffei、Magalotti、Magnasco、Magni与Maidalchini（2026-10-18）
+
+- `cand-1486`（`new-person:francesco-maffei-fbe66c73c0`）→ [弗朗切斯科·马费伊（Francesco Maffei）](../../../04-knowledge/units/persons/francesco-maffei.md)。索引M.csv#23（页码232, 248）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp9-p248-maffei-governor-canvases留待S6逐条裁决，不登记正式关系。
+- `cand-1488`（`new-person:lorenzo-magalotti-fa04976cc4`）→ [洛伦佐·马加洛蒂（Lorenzo Magalotti）](../../../04-knowledge/units/persons/lorenzo-magalotti.md)。索引M.csv#25（页码31, 42）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp2-sec-ii-l3-8-magalotti-cardinal, st-chp2-secii-l127-139-magalotti-chapel-materials留待S6逐条裁决，不登记正式关系。
+- `cand-1492`（`new-person:alessandro-magnasco-ba9ee3bdc8`）→ [亚历山德罗·马格纳斯科（Alessandro Magnasco）](../../../04-knowledge/units/persons/alessandro-magnasco.md)。索引M.csv#29（页码404）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp20-p404-inventories-magnasco-limited-patronage留待S6逐条裁决，不登记正式关系。
+- `cand-1493`（`new-person:magni-pietro-d0f4dde5f1`）→ [彼得罗·马尼（Pietro Magni）](../../../04-knowledge/units/persons/pietro-magni.md)。索引M.csv#30（页码216）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp8-p216-magni-working-for-marquis-mantua留待S6逐条裁决，不登记正式关系。
+- `cand-1495`（`new-person:francesco-maidalchini-e5968ef278`）→ [弗朗切斯科·马伊达尔基尼（Francesco Maidalchini）](../../../04-knowledge/units/persons/francesco-maidalchini.md)。索引M.csv#32（页码147）与对应书内页段支持source-local人物登记；直接S2关系候选st-chp6-p147-francesco-maidalchini-selected留待S6逐条裁决，不登记正式关系。
+
+本批登记5个S3 new人物组、5条候选映射和10条source_backed名称字段；6条直接S2关系候选留待S6。Maffei两章指称、Magalotti两处正文形式均按各自既有身份组处理；Magalotti与Maidalchini的相关已登记人物入口只作导航。本批未新增外部身份行、正式关系、来源登记或S2断言。
+
+登记后person类型S4为493组/585条已登记、574组/575条待登记；全书为902组/1,079条已登记、3,873组/3,887条待登记，KU=1921。
