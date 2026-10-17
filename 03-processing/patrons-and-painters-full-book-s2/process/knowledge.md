@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 568 / 660 | 496 / 497 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 572 / 664 | 492 / 493 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **977 / 1,154** | **3,795 / 3,809** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **981 / 1,158** | **3,791 / 3,805** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6209,3 +6209,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：三张人物卡（2026-10-18）
 
 三张卡姓名表登记3条source_backed enrichment行（`enr-14964`、`enr-14965`、`enr-14966`），全部引用既有Haskell书目来源ID。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-relation-endpoints-morlaiter-morris-moscheni-mura-20261018"></a>
+
+### S4 person：Morlaiter、Morris、Moscheni与de Mura四组直接端点登记（2026-10-18）
+
+- `cand-1703`（`new-person:michelangelo-morlaiter-17d79e97ce`）→ [米开朗基罗·莫莱特（Michelangelo Morlaiter）](../../../04-knowledge/units/persons/michelangelo-morlaiter.md)；S2关系候选`st-chp10-p312-morlaiter-sculpted-portraits-of`留待S6。Haskell列举了不止一位为Schulenburg制作肖像的艺术家，且未给出具体肖像题名；相关关系候选留待S6。
+- `cand-1707`（`new-person:morris-roger-69ba5e4869`）→ [罗杰·莫里斯（Roger Morris）](../../../04-knowledge/units/persons/roger-morris.md)；S2关系候选`st-chp10-p309-one-picture-after-morris`留待S6。S2候选指十一幅图中有一幅呈现Roger Morris的一件作品；不将其改写成Morris绘制该图。关系候选留待S6。
+- `cand-1708`（`new-person:moscheni-pietro-41b3d0bea5`）→ [皮耶特罗·莫斯凯尼（Pietro Moscheni）](../../../04-knowledge/units/persons/pietro-moscheni.md)；S2关系候选`st-chp10-p322-moscheni-commissioned-longhi-portrait`、`st-chp10-p322-moscheni-friend-of-lodoli`留待S6。委托与Lodoli友谊两条S2关系候选均留待S6；未把来源叙述转换为正式关系。
+- `cand-1716`（`new-person:de-francesco-mura-a4cbc8f2bb`）→ [弗朗切斯科·德·穆拉（Francesco de Mura）](../../../04-knowledge/units/persons/francesco-de-mura.md)；S2关系候选`st-chp14-p351-neapolitan-subjects`留待S6。S2候选记录Haskell对Algarotti提案的报告；地区语境保留为“那不勒斯画家中”，不据此构造机构关系。
+
+四组均为单候选S3 new身份组，各登记一个KU。Morlaiter正文只作姓氏称呼，索引提供Michelangelo全名；Morris不被写成所绘图片的作者；Moscheni两条候选分别记录委托和友谊；de Mura的地区措辞保留为‘那不勒斯画家中’。关系候选留待S6，未新增外部来源、正式关系或backlog项目。
+
+登记后人物类型S4为572组/664条已登记、492组/493条待登记；全书KU=2000。
+
+<a id="s4-person-name-fields-morlaiter-morris-moscheni-mura-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记5条source_backed enrichment行（`enr-14967`、`enr-14968`、`enr-14969`、`enr-14970`、`enr-14971`），全部引用既有Haskell书目来源ID；Morlaiter 的索引全名与正文姓氏分列记录。本批未新增sources.csv记录、生平字段或formal relation。
