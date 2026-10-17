@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 534 / 626 | 532 / 533 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 537 / 629 | 529 / 530 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **943 / 1,120** | **3,831 / 3,845** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **946 / 1,123** | **3,828 / 3,842** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6038,3 +6038,15 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 - cand-2198（new-person:hyacinthe-rigaud-27fb3b4435）→ [雅辛特·里戈（Hyacinthe Rigaud）](../../../04-knowledge/units/persons/hyacinthe-rigaud.md)。索引Q-R.csv#125与相应正文页段支持source-local人物登记；直接S2关系候选st-chp10-p285-carriera-met-artists留待S6逐条裁决，不登记正式关系。
 
 本批登记5个S3 new人物组、5条候选映射和12条source_backed名称字段；6条直接S2关系候选留待S6，未新增正式关系或来源。登记后person类型S4为534组/626条已登记、532组/533条待登记；全书为943组/1,120条已登记、3,831组/3,845条待登记，KU=1962。
+
+
+<a id="s4-person-direct-endpoints-del-rosso-family-20261018"></a>
+
+### S3家族身份组校正与S4登记：del Rosso三代人物（2026-10-18）
+
+- S3身份边界承接2026-10-16已记录的修正：cand-2279是兄弟三人的祖父，与既有cand-2275（生于1640年的Andrea del Rosso）分代；p.211的祖父称谓和p.212的Andrea续文支撑该组。cand-2280和cand-2281的索引分别给出Antonio del Rosso与Giovanni Battista del Rosso，正文p.211只给名字并说明二人是Nicola之子；原‘正文全名’理由撤回，姓氏按索引与家族上下文定位。三项均各自保留new组，不互相合并，不作外部匹配。
+- cand-2279（new-person:andrea-del-rosso-grandfather-2279）→ [安德烈亚·德尔·罗索（安德烈亚、洛伦佐与奥塔维奥三兄弟之祖父）（Andrea del Rosso (grandfather of Andrea, Lorenzo, and Ottavio del Rosso)）](../../../04-knowledge/units/persons/andrea-del-rosso-grandfather.md)。索引Q-R.csv#207与相应正文页段支持source-local人物登记；直接S2关系候选st-chp8-p211-forebears-grandfather-open, st-chp8-p212-grandfather-andrea-built-chapel留待S6逐条裁决，不登记正式关系。
+- cand-2280（new-person:antonio-del-rosso-7dc9d7753f）→ [安东尼奥·德尔·罗索（Antonio del Rosso）](../../../04-knowledge/units/persons/antonio-del-rosso.md)。索引Q-R.csv#208与相应正文页段支持source-local人物登记；直接S2关系候选st-chp8-p211-nicola-father-of-antonio留待S6逐条裁决，不登记正式关系。
+- cand-2281（new-person:battista-del-giovanni-rosso-6a1d2554fa）→ [乔瓦尼·巴蒂斯塔·德尔·罗索（Giovanni Battista del Rosso）](../../../04-knowledge/units/persons/giovanni-battista-del-rosso.md)。索引Q-R.csv#209与相应正文页段支持source-local人物登记；直接S2关系候选st-chp8-p211-nicola-father-of-giovanni-battista留待S6逐条裁决，不登记正式关系。
+
+本批登记3个S3 new人物组、3条候选映射和7条source_backed名称字段；4条直接S2关系候选留待S6，未新增正式关系、S2断言或来源。登记后person类型S4为537组/629条已登记、529组/530条待登记；全书为946组/1,123条已登记、3,828组/3,842条待登记，KU=1965。
