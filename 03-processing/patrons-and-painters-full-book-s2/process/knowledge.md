@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 521 / 613 | 545 / 546 |
+| person | 3,464 | 1,088 | 1,066 / 1,159 | 4 | 7 | 1,206 | 524 / 616 | 542 / 543 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **930 / 1,107** | **3,844 / 3,858** |
+| **合计** | **12,407** | **1,903** | **4,774 / 4,965** | **9** | **100** | **5,430** | **933 / 1,110** | **3,841 / 3,855** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -5998,3 +5998,15 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 本批S4登记8个S3 new人物组、8条候选映射和22条source_backed名称字段；13条直接S2关系候选留待S6。Antonio Pignatelli与Innocent XII按同一索引及第8章正文形式分组，与Innocent XIII分立；Pilati按第10、13章相同全名归组，其两处姓名字段按章页标记以保留各自证据定位并满足 enrichment 自然键；Pinacci的p.233注仅记录姓名与书目指引，不新增关系；Francesco Piranesi与Giovanni Battista Piranesi保持分立。Poore组保留Haskell索引和脚注的书内关联，不据未核的拍卖目录断言访客与拍卖藏家为同一外部个人。未决的画作组、藏画集合、书信、拍卖事件、提议建筑师及未完成祭坛对象均保持原状态。本批未新增外部身份行、正式关系、来源登记或S2断言。
 
 登记后person类型S4为521组/613条已登记、545组/546条待登记；全书为930组/1,107条已登记、3,844组/3,858条待登记，KU=1949。
+
+
+<a id="s4-person-direct-endpoints-p-late-section-20261018"></a>
+
+### S3理由校正与S4人物直接端点登记：P索引末段（2026-10-18）
+
+- S3理由校正：cand-2064正文拼作Ercole Proccaccini，索引为Procaccini, Ercole；以页段和索引对应支持source-local new组，保留拼写差异，并与已有Andrea Procaccini人物KU区分。cand-2069索引给出Samuel，p.320正文只写Puffendorf；此前声称正文提供完整姓名的理由撤回，具体著作仍未指明。cand-2072的Scipione与Pulzone来自同页相邻mention，合读为正文全名。三项决定均保持new，不据此新增外部身份匹配。
+- cand-2064（new-person:ercole-procaccini-395244d722）→ [埃尔科莱·普罗卡奇尼（Ercole Procaccini）](../../../04-knowledge/units/persons/ercole-procaccini.md)。索引P.csv#267与列明的正文页段支持source-local人物登记；直接S2关系候选st-chp8-p216-storer-pupil-proccaccini留待S6逐条裁决，不登记正式关系。
+- cand-2069（new-person:pufendorf-samuel-2430e8c679）→ [塞缪尔·冯·普芬多夫（Samuel Pufendorf）](../../../04-knowledge/units/persons/samuel-pufendorf.md)。索引P.csv#272与列明的正文页段支持source-local人物登记；直接S2关系候选st-chp10-p320-lodoli-taught-puffendorf-on-duties留待S6逐条裁决，不登记正式关系。
+- cand-2072（new-person:pulzone-scipione-a1ff2a9238）→ [西皮奥内·普尔佐内（Scipione Pulzone）](../../../04-knowledge/units/persons/scipione-pulzone.md)。索引P.csv#275与列明的正文页段支持source-local人物登记；直接S2关系候选st-chp3-secii-l6-17-pious-ladies-introduced-pulzone留待S6逐条裁决，不登记正式关系。
+
+本批登记3个S3 new人物组、3条候选映射和6条source_backed名称字段；3条直接S2关系候选留待S6，未新增正式关系、S2断言或来源。登记后person类型S4为524组/616条已登记、542组/543条待登记；全书为933组/1,110条已登记、3,841组/3,855条待登记，KU=1952。

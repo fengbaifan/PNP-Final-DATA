@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,903（指向1,040个既有 KU）、new=4,965（4,774个身份组）、conflict=9、excluded=100、undecided=5,430。S4 已登记930组、映射1,107条成员候选；尚待登记3,844组、3,858条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,903（指向1,040个既有 KU）、new=4,965（4,774个身份组）、conflict=9、excluded=100、undecided=5,430。S4 已登记933组、映射1,110条成员候选；尚待登记3,841组、3,855条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 1,949 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 1,952 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,088→398 | 1,159／1,066 | 521／545；546 | 4 | 7 | 1,206 |
+| person | 1,088→398 | 1,159／1,066 | 524／542；543 | 4 | 7 | 1,206 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,903→1,040** | **4,965／4,774** | **930／3,844；3,858** | **9** | **100** | **5,430** |
+| **合计** | **1,903→1,040** | **4,965／4,774** | **933／3,841；3,855** | **9** | **100** | **5,430** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2227,3 +2227,8 @@ Benedict Nicolson候选cand-1741由new更正为same，复用既有Lionel Benedic
 ### S3复核与S4人物直接端点登记：P索引中段组（2026-10-18）
 
 登记Bernard Picart、Antonio Pignatelli（Pope Innocent XII）、Carlo Antonio Pilati、Giuseppe Pinacci、Francesco Piranesi、Baron de Pöllnitz、Edward Poore与Giacomo della Porta八个人物组；本批8条new候选映射、22条source_backed名称字段及13条直接S2关系候选。关系均留待S6，未新增正式边；Pöllnitz只保留书内头衔与姓氏，Poore外部身份与拍卖归属未核。KU=1949；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoints-p-middle-section-20261018)。
+
+
+### S3理由校正与S4人物直接端点登记：P索引末段（2026-10-18）
+
+登记Ercole Procaccini、Samuel Pufendorf与Scipione Pulzone三个source-local人物组。修正cand-2064、cand-2069、cand-2072的S3证据表述，保留new决定；三条直接S2关系候选留待S6，未新增正式关系。KU=1952；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoints-p-late-section-20261018)。
