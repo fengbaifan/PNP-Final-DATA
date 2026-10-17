@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 572 / 664 | 492 / 493 |
+| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 576 / 668 | 488 / 489 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **981 / 1,158** | **3,791 / 3,805** |
+| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **985 / 1,162** | **3,787 / 3,801** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6228,3 +6228,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记5条source_backed enrichment行（`enr-14967`、`enr-14968`、`enr-14969`、`enr-14970`、`enr-14971`），全部引用既有Haskell书目来源ID；Morlaiter 的索引全名与正文姓氏分列记录。本批未新增sources.csv记录、生平字段或formal relation。
+
+<a id="s4-person-murray-nadal-novelli-noyelle-20261018"></a>
+
+### S4 person：Murray、Nadal、Novelli与Noyelle四组索引人物登记（2026-10-18）
+
+- `cand-1719`（`new-person:john-murray-587d09c515`）→ [约翰·默里（John Murray）](../../../04-knowledge/units/persons/john-murray-resident.md)；依据索引M.csv#260与正文第10章，印刷页302；OCR L391–393登记。
+- `cand-1721`（`new-person:jerome-nadal-c9c2d78438`）→ [杰罗姆·纳达尔（Jerome Nadal）](../../../04-knowledge/units/persons/jerome-nadal.md)；依据索引N.csv#0与正文Postscript，印刷页399；OCR L40–41登记。
+- `cand-1757`（`new-person:il-monrealese-novelli-pietro-c49178815b`）→ [彼得罗·诺韦利（il Monrealese）（Pietro Novelli (il Monrealese)）](../../../04-knowledge/units/persons/pietro-novelli-il-monrealese.md)；依据索引N.csv#37与正文第8章第I节，印刷页210；OCR L75登记。
+- `cand-1763`（`new-person:charles-de-noyelle-54b3847378`）→ [夏尔·德·努瓦耶尔（Charles de Noyelle）](../../../04-knowledge/units/persons/charles-de-noyelle.md)；依据索引N.csv#43与正文第3章第IV节，印刷页91；OCR L162–163登记。
+
+四组均为单候选S3 new身份组；均依据书后索引与正文姓名登记，不新增外部来源或正式关系。Pietro Novelli的索引别称保留，并未仅凭姓氏并入既有Pietro Antonio Novelli卡；两组的历史身份关系未由本批外部核验。 `cand-1748`（Abbé Nollet）本批暂缓S4登记：索引与正文仅给出尊称加姓氏，没有足以唯一登记的完整姓名依据；S3决定保留，待获得进一步身份依据后再回到S4。
+
+登记后人物类型S4为576组/668条已登记、488组/489条待登记；全书KU=2004。
+
+<a id="s4-person-name-fields-murray-nadal-novelli-noyelle-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记8条source_backed enrichment行（`enr-14972`、`enr-14973`、`enr-14974`、`enr-14975`、`enr-14976`、`enr-14977`、`enr-14978`、`enr-14979`），全部引用既有Haskell书目来源ID；Novelli索引别称、Noyelle的OCR断行校正及Murray、Nadal的索引／正文称名均按来源分列。本批未新增sources.csv记录、生平字段或formal relation。
