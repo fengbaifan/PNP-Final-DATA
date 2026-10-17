@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 546 / 638 | 519 / 520 |
+| person | 3,464 | 1,089 | 1,065 / 1,158 | 4 | 7 | 1,206 | 549 / 641 | 516 / 517 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **955 / 1,132** | **3,818 / 3,832** |
+| **合计** | **12,407** | **1,904** | **4,773 / 4,964** | **9** | **100** | **5,430** | **958 / 1,135** | **3,815 / 3,829** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6092,3 +6092,18 @@ cand-1046（F.csv#61，Conte Francesco Fontana）由new改为same，复用[弗�
 - cand-1277（new-person:domenico-guidi-8bb3bdb48b）→ [多梅尼科·圭迪（Domenico Guidi）](../../../04-knowledge/units/persons/domenico-guidi.md)。索引G.csv#187与正文页段支持书内人物登记；直接S2关系候选st-chp7-p189-i06留待S6逐条裁决，不登记正式关系。
 
 本批保留1个标题身份S3决定并校正2条new身份理由，登记3个new人物组、3条候选映射和6条source_backed名称字段；3条直接S2关系候选留待S6，未新增正式关系或来源。登记后person类型S4为546组/638条已登记、519组/520条待登记；全书为955组/1,132条已登记、3,818组/3,832条待登记，KU=1974。
+
+
+<a id="s4-person-direct-endpoints-gustavus-halifax-lorraine-20261018"></a>
+
+### S3身份复核与S4人物登记：Gustav III、Halifax与Leopold of Lorraine（2026-10-18）
+
+- cand-1283（G.csv#193）：第15章p.366正文只称King of Sweden，索引列Gustavus III of Sweden。瑞典国家档案馆《瑞典传记辞典》记录13317列Gustav III为瑞典国王（1746–1792，在位1771–1792），与1777年语境相符。该身份与cand-1284 Gustavus Adolphus（Gustav II Adolf，1611–1632）分开；未匹配现有KU，判new并登记为Gustav III of Sweden。外证不验证认捐陈述。
+- cand-1286（H.csv#1）：重申new人物身份组，但名称严格保留为未具名Earl of Halifax。第10章p.286确认其在Queen’s Bed Chamber委托叙述中的发言角色；未查得足以识别个人的跨章/外部锚点，也不映射至具名继承人。
+- cand-1441（L.csv#99）：修正本日早先‘仅有爵号、待身份锚点’的S4说明。第9章p.267及索引只给出Duke of Lorraine；Griffin, ‘Duke Leopold of Lorraine,’ The Historical Journal 65, no. 5 (2022), pp.1244–1261, DOI 10.1017/S0018246X2100090X, §I and n.26将Leopold (1679–1729)与Ferdinando-Carlo Gonzaga继承及1708年事件相连，足以识别本候选。与cand-1398（Holy Roman Emperor Leopold I）、cand-1397/cand-8097（Pietro Leopoldo of Tuscany）及cand-1399（Leopold Wilhelm）分开。身份由pending改为new；无现有精确KU，登记为Leopold, Duke of Lorraine。
+- cand-1441的身份匹配不裁决Haskell‘successfully established his claim’与Griffin所述未取得Mantua、Monferrato之间的表述差异；该关系候选仍待S6解释。cand-11467 ‘Gonzaga effects’仍无支持类型，保持undecided，不建KU。
+- cand-1283（new-person:gustavus-iii-of-sweden-5f6ef99faa）→ [古斯塔夫三世（瑞典国王）（Gustav III of Sweden）](../../../04-knowledge/units/persons/gustav-iii-of-sweden.md)；外部身份记录：Svenskt Biografiskt Lexikon (Riksarkivet)（13317）；直接S2关系候选st-chp15-p366-king-of-sweden-subscribed留待S6逐条裁决，不登记正式关系。
+- cand-1286（new-person:halifax-of-d914fc61b9）→ [哈利法克斯伯爵（原书未具名）（Earl of Halifax (unnamed in the source)）](../../../04-knowledge/units/persons/earl-of-halifax-source-local.md)；不作外部身份映射；直接S2关系候选st-chp10-p286-queens-bedchamber-commission留待S6逐条裁决，不登记正式关系。
+- cand-1441（new-person:leopold-duke-of-lorraine-20261018）→ [洛林公爵利奥波德（Leopold, Duke of Lorraine）](../../../04-knowledge/units/persons/leopold-duke-of-lorraine.md)；外部身份记录：The Historical Journal / Cambridge Core（10.1017/S0018246X2100090X）；直接S2关系候选st-chp9-p267-lorraine-claim留待S6逐条裁决，不登记正式关系。
+
+本批确认/更正3项S3身份组并登记3个new person KU、3条候选映射、6条source_backed名称字段及2条外部身份记录；3条直接S2关系候选留待S6。未新增正式关系、来源登记或candidate-backlog项。登记后person类型S4为549组/641条已登记、516组/517条待登记；全书为958组/1,135条已登记、3,815组/3,829条待登记，KU=1977。
