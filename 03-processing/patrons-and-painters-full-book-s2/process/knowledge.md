@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 667 / 760 | 394 / 395 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 671 / 764 | 390 / 391 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,076 / 1,254** | **3,693 / 3,707** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,080 / 1,258** | **3,689 / 3,703** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6599,3 +6599,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和7条source_backed姓名字段。James Wyatt只关联Smith接待英国访客的集体陈述；同段关于Mead、Newton、Walpole的其他关系候选不归给Wyatt。Edward Young以书后索引主条和第15章p.370的间接称名归组；索引#164不列页码，同主条#165列Night Thoughts子目及p.370。Night Thoughts索引archive候选cand-2828仍S3 undecided，正文work候选cand-10551保持excluded；作者关系不登记为正式边。Pietro Zaguri仅按Haskell所述与Memmo围绕Lodoli merits的friendly controversy登记。Enrico Zuccalli的Schleissheim委建记述保留“a Versailles”原文比喻，不推定委托人为Max Emmanuel或工程已完成。五条S2关系候选留待S6；无外部来源、正式关系或backlog写入。
 
 登记后人物类型S4为667组/760条已登记、394组/395条待登记；全书KU=2095。
+
+<a id="s4-zambelli-zanotti-zen-zucchi-person-endpoints-20261018"></a>
+
+### S4 person：Zambelli、Zanotti、Zen与Zucchi四组人物端点（2026-10-18）
+
+- cand-2833（new-person:dottoressa-paola-zambelli-paola-zambelli-82f8913498）→ [保拉·赞贝利（Paola Zambelli）](../../../04-knowledge/units/persons/paola-zambelli.md)；S2关系候选留待S6。来源只说明她为Archivio di Stato人员并向Haskell提供协助，不扩写其生平、具体档案发现或其他关系。
+- cand-2863（new-person:eustachio-zanotti-e0dbfd3b49）→ [尤斯塔基奥·扎诺蒂（Eustachio Zanotti）](../../../04-knowledge/units/persons/eustachio-zanotti.md)；S2关系候选留待S6。书信内容及Opere卷册未独立查阅；本卡只保留脚注的姓名和书目定位，不转写通信内容，也不据此新增正式关系。
+- cand-2868（new-person:alessandro-procurator-zen-b85892daa8）→ [亚历山德罗·泽恩（Alessandro Zen）](../../../04-knowledge/units/persons/alessandro-zen.md)；S2关系候选留待S6。此处只记录Haskell转述的死亡报告和官职称谓；引文中关于尚无人提出继任候选的内容不外推为后续继任结果。
+- cand-2886（new-person:andrea-zucchi-a8e76e789e）→ [安德烈亚·祖基（Andrea Zucchi）](../../../04-knowledge/units/persons/andrea-zucchi.md)；S2关系候选st-chp9-p265-tiepolo-drew-virginity-for-zucchi留待S6。原文区分Corradini所作雕像与Tiepolo为雕刻师Zucchi绘制的图像，不将雕像归于Tiepolo。同段另称一幅版画题献给Zaccaria Sagredo；该题献候选不归入Andrea Zucchi组。相关绘图关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Paola Zambelli只在Haskell致谢中作为Archivio di Stato档案协助者出现。Eustachio Zanotti仅在p.348和p.354脚注的书信书目定位中具名；所引书信和版本均未独立查阅，不记录通信内容或额外关系，姓名字段合并为一行并保留两处定位。Procurator Alessandro Zen只依索引及Haskell转述的1761年死亡报告登记；不外推继任情况。Andrea Zucchi依据索引与Tiepolo为该雕刻师绘制Corradini雕像图像的叙述登记；同段Zaccaria Sagredo版画题献不归入Zucchi关系。唯一直接S2关系候选留待S6；其余三组无可归属于各自身份组的S2关系候选。无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为671组/764条已登记、390组/391条待登记；全书KU=2099。

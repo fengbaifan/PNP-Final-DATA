@@ -279,6 +279,16 @@ def make_card(t: dict) -> str:
     fm = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False, width=1000)
     rows = "\n".join(f"| {field} | {value} | {evidence} |" for field, value, evidence in t["name_rows"])
     relation_ids = "、".join(t["relation_ids"])
+    if relation_ids:
+        relation_record = (
+            f"当前没有登记在 relations.csv 中的正式关系。S2关系候选 {relation_ids} 保留原书归因和限制，"
+            "留待S6逐条裁决；本次S4身份登记不将其转为正式关系。"
+        )
+    else:
+        relation_record = (
+            "当前没有登记在 relations.csv 中的正式关系。本卡未关联到可归于该身份组的S2关系候选；"
+            "不从同段共现或索引提及生成正式关系。"
+        )
     type_sections = t.get("type_sections", "")
     return f"""---
 {fm}---
@@ -308,7 +318,7 @@ def make_card(t: dict) -> str:
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 {relation_ids} 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+{relation_record}
 """
 
 
