@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,711组、3,739条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,112组、映射1,292条成员候选；尚待登记3,706组、3,732条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,126 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,131 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
@@ -33,7 +33,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,508；S4待登记new候选映射3,739条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,131；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,508；S4待登记new候选映射3,732条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,148→405 | 1,170／1,072 | 698／374；379 | 4 | 7 | 1,135 |
+| person | 1,148→405 | 1,170／1,072 | 703／369；372 | 4 | 7 | 1,135 |
 | place | 228→153 | 567／559 | 40／519；519 | 0 | 0 | 314 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 495／479 | 50／429；439 | 5 | 29 | 1,631 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,965→1,047** | **5,024／4,818** | **1,107／3,711；3,739** | **9** | **100** | **5,310** |
+| **合计** | **1,965→1,047** | **5,024／4,818** | **1,112／3,706；3,732** | **9** | **100** | **5,309** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2704,3 +2704,10 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 ### S3 person：Bertolotti 跨章作者身份新组（2026-10-18）
 
 `cand-3504` 由 undecided 改为 new，归入 `new-person:antonino-bertolotti-20261018`，待 S4 登记。第1、4、5章的引文将 Bertolotti 作为作者；Braidense 目录记录将书目中的 A. Bertolotti 对应为 Antonino Bertolotti，并列 Antonio 为异名；Treccani 传记记录提供同一身份依据。未发现同类型人物 KU。此决定只消歧作者身份，不验证被引作品或 Haskell 的具体陈述；见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-bertolotti-cross-chapter-new-20261018)及[对齐表](../tables/alignment.csv)。
+
+
+<a id="s4-person-direct-endpoint-batch-20261018"></a>
+
+### S4 person：五组高优先级直接关系端点登记（2026-10-18）
+
+完成Richelieu、年轻的Anton Maria Zanetti、Voltaire、Philippe d’Orléans与Ludovico Antonio Muratori五个S3身份组的S4登记，7条候选映射各指向组内唯一人物KU。五组均为书内关系断言的直接端点，合计49条关系候选保留待S6审查；本批未新增正式关系。卡片保留双语名称、等义描述、章页证据与S3已记录的身份入口。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
