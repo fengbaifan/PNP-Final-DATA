@@ -61,10 +61,17 @@ def book_source(source_file: str, location: str, span: str, quote: str, summary:
 
 def index_source(t: dict) -> dict:
     index_file = t["index_entry"].split("#", 1)[0]
+    page = t.get("index_page", "")
+    if page:
+        location = f"书后索引，{t['index_entry']}；指向印刷页{page}"
+        summary = f"索引以“{t['index_name']}”为主条并指向印刷页{page}。"
+    else:
+        location = f"书后索引，{t['index_entry']}；该索引行未列页码"
+        summary = f"索引以“{t['index_name']}”为主条；该索引行未列页码。"
     return {
         "citation": f"Francis Haskell, *Patrons and Painters*, index, {index_file}.",
-        "location": f"书后索引，{t['index_entry']}；指向印刷页{t['index_page']}",
-        "sentence_summary": f"索引以“{t['index_name']}”为主条并指向印刷页{t['index_page']}。",
+        "location": location,
+        "sentence_summary": summary,
         "original_quotes": [{"source_span": t["index_entry"], "text": t["index_name"]}],
         "evidence_ref": {
             "doc_id": "patrons-and-painters",

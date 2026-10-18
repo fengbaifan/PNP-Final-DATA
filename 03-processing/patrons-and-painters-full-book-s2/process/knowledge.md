@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 647 / 740 | 414 / 415 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 651 / 744 | 410 / 411 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,056 / 1,234** | **3,713 / 3,727** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,060 / 1,238** | **3,709 / 3,723** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6534,3 +6534,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Giuseppe Torelli依据附录书信题头和索引登记；书信内容报告其兄弟Felice选定画题及预期绘制难点，不证明作品完成，OCR的Febee按S2页图校读记录为Felice。Andrea Torresani依据第9章及索引登记；Haskell转引Moschini的句子中，印刷页图读作100 views，OCR转录为too views，Moschini原文及单幅作品未独立查阅。Antonio Triva仅按Haskell列举为慕尼黑受聘意大利画家之一登记，保留“best known”非穷尽和相对年代限定。Caterina Dolfin Tron保留Haskell的might/perhaps语气；可能讨论不记作已发生事件，威尼斯状态 quo 的判断仍归于作者。四条S2关系候选留待S6；不新增外部来源、正式关系或backlog项目。
 
 登记后人物类型S4为647组/740条已登记、414组/415条待登记；全书KU=2075。
+
+<a id="s4-troy-tubeuf-turchi-uccelli-person-endpoints-20261018"></a>
+
+### S4 person：de Troy、Tubeuf、Turchi与Uccelli四组人物端点（2026-10-18）
+
+- cand-2656（new-person:de-francois-troy-41388b5a89）→ [弗朗索瓦·德·特鲁瓦（François de Troy）](../../../04-knowledge/units/persons/francois-de-troy.md)；S2关系候选st-chp10-p285-carriera-met-de-troy留待S6。Haskell称Carriera见过Rigaud、Watteau及其他艺人与鉴赏家，并在集体名单中列出de Troy。该处没有提供其单独会面细节；相关关系候选留待S6。
+- cand-2657（new-person:jacques-tubeuf-da9776ab01）→ [雅克·蒂伯夫（Jacques Tubeuf）](../../../04-knowledge/units/persons/jacques-tubeuf.md)；S2关系候选st-chp7-p181-i19留待S6。Haskell称Mazarin未能说服Bernini扩建一座其从Tubeuf处强行取得的宫殿。原文没有提供取得日期、法律机制或宫殿确切名称；以上均保留为书内叙述，关系候选留待S6。
+- cand-2660（new-person:alessandro-turchi-62c226570b）→ [亚历山德罗·图尔基（Alessandro Turchi）](../../../04-knowledge/units/persons/alessandro-turchi.md)；S2关系候选st-chp7-p185-i05、st-chp7-p185-i11留待S6。Haskell称La Vrillière在1640年代增加一组绘画，并列出Alessandro Turchi名下的《The Death of Cleopatra》。该归属仍是书内陈述，相关系列和作品关系候选分别留待S6；S2记录页图将OCR在题名后的尾随撇号校为转录误差。
+- cand-2665（new-person:ferdinando-uccelli-49b207abe4）→ [费迪南多·乌切利（Ferdinando Uccelli）](../../../04-knowledge/units/persons/ferdinando-uccelli.md)；S2关系候选st-chp19-p391-smith-1770-picture-list留待S6。Haskell称Smith于1770年去世时，公证人Uccelli记录其宫殿内有数百幅画；清单仅列主题而不列作者。该段未命名宫殿，Archivio di Stato记录及C. A. Levi的再版未独立查阅；关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。François de Troy依据索引全名和第10章集体名单中的de Troy登记；不补写个人会面细节。Jacques Tubeuf依据索引及第7章被称作金融家之正文记录；强行取得宫殿的具体法律机制、日期与宫殿名称未见于该处。Alessandro Turchi的T.csv索引行未列页码，正文p.185提供全名及作品归属语境；保留Haskell归属、系列边界和OCR尾随撇号校读。Ferdinando Uccelli依据索引与附录p.391登记为Haskell所称公证人；Smith宫殿未在该段具名，档案清单与Levi出版物未独立查阅。五条S2关系候选继续留待S6；无外部来源、formal relation或backlog写入。
+
+登记后人物类型S4为651组/744条已登记、410组/411条待登记；全书KU=2079。

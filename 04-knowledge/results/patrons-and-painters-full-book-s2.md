@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,056组、映射1,234条成员候选；尚待登记3,713组、3,727条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,060组、映射1,238条成员候选；尚待登记3,709组、3,723条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,075 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,079 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 11,404条，其中1,624条 unverified |
+| [既有字段表](../tables/enrichment.jsonl) | 11,412条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,155／1,061 | 647／414；415 | 4 | 7 | 1,208 |
+| person | 1,090→398 | 1,155／1,061 | 651／410；411 | 4 | 7 | 1,208 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,961／4,769** | **1,056／3,713；3,727** | **9** | **100** | **5,432** |
+| **合计** | **1,905→1,040** | **4,961／4,769** | **1,060／3,709；3,723** | **9** | **100** | **5,432** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -547,6 +547,10 @@ cand-2549 → ../units/persons/david-teniers.md；cand-2566 → ../units/persons
 ### S4 人物身份组登记：Torelli、Torresani、Triva与Tron四组人物端点（2026-10-18）
 
 cand-2648 → ../units/persons/giuseppe-torelli.md；cand-2649 → ../units/persons/andrea-torresani.md；cand-2654 → ../units/persons/antonio-triva.md；cand-2655 → ../units/persons/caterina-dolfin-tron.md；4条S2关系候选继续待S6；Torelli书信未证明作品完成，Torresani数量保留OCR与页图读数差异，Tron相关讨论保留可能语气；未新增正式关系或外部来源。S4累计1,056组/1,234条候选映射已登记，3,713组/3,727条待登记；KU=2075。
+
+### S4 人物身份组登记：de Troy、Tubeuf、Turchi与Uccelli四组人物端点（2026-10-18）
+
+cand-2656 → ../units/persons/francois-de-troy.md；cand-2657 → ../units/persons/jacques-tubeuf.md；cand-2660 → ../units/persons/alessandro-turchi.md；cand-2665 → ../units/persons/ferdinando-uccelli.md；5条S2关系候选继续待S6；Turchi索引页码栏为空，按正文锚点保留身份依据；Uccelli所涉档案清单未独立查阅；未新增正式关系或外部来源。S4累计1,060组/1,238条候选映射已登记，3,709组/3,723条待登记；KU=2079。
 
 ## 未解决项与交接限制
 
