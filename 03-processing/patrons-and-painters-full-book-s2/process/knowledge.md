@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 619 / 712 | 442 / 443 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 623 / 716 | 438 / 439 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,028 / 1,206** | **3,741 / 3,755** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,032 / 1,210** | **3,737 / 3,751** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6443,3 +6443,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。Skala的雕像对象建议与Padua学生描述保留perhaps和问句限定；Schut的数百件作品数量保留为多人集合总量。本批不新增外部来源、正式关系或backlog项目。
 
 登记后人物类型S4为619组/712条已登记、442组/443条待登记；全书KU=2047。
+
+<a id="s4-skippe-sleter-stazio-stone-person-endpoints-20261018"></a>
+
+### S4 person：Skippe、Sleter、Stazio、Stone四组直接端点登记（2026-10-18）
+
+- cand-2437（new-person:john-skippe-c41d071db2）→ [约翰·斯基普（John Skippe）](../../../04-knowledge/units/persons/john-skippe.md)；S2关系候选st-chp16-p375-skippe-in-touch-with-sasso留待S6。唯一关系候选是Haskell脚注所述Skippe与Sasso的联系及其书信目录指引；原信未读，候选待S6。
+- cand-2439（new-person:francesco-sleter-5d38f9ab80）→ [弗朗切斯科·斯莱特（Francesco Sleter）](../../../04-knowledge/units/persons/francesco-sleter.md)；S2关系候选st-chp10-p281-bellucci-chandos-chapel-team、st-chp10-p286-moor-park-decoration-open留待S6。两条候选分别涉及礼拜堂装饰雇用和Moor Park工作改派；后一陈述跨页，按原文续句保留，不将其拆成不同身份。
+- cand-2508（new-person:andrea-stazio-a3e55b8f8f）→ [安德烈亚·斯塔齐奥（Andrea Stazio）](../../../04-knowledge/units/persons/andrea-stazio.md)；S2关系候选st-chp9-p269-n01-stae-choir-pictures、st-chp9-p269-n01-stazio-bequest留待S6。两条候选区分Stazio遗赠款项与合唱席画作支出；委托者未明，关系候选保留此缺口并待S6。
+- cand-2511（new-person:nicholas-stone-02907ebe1f）→ [尼古拉斯·斯通（Nicholas Stone）](../../../04-knowledge/units/persons/nicholas-stone.md)；S2关系候选st-chp2-secii-l62-69-nicholas-stone-baker-bust-account留待S6。关系候选是Haskell转引Stone关于Bernini为Thomas Baker制作胸像及教皇派人阻止的记述；不将引文直接当作已核读原件。
+
+四组均为S3 new单候选身份组，登记4张KU卡、4条候选映射和9条source_backed姓名字段。Sleter在p.286–287的句子跨页续接；Stazio遗嘱明确未说明合唱席画作的委托者；Nicholas Stone的陈述是Haskell转引的嵌套引文。本批不新增外部来源、正式关系或backlog项目。
+
+登记后人物类型S4为623组/716条已登记、438组/439条待登记；全书KU=2051。

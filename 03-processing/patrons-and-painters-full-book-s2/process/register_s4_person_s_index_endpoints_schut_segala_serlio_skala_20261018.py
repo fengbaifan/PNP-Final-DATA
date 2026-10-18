@@ -32,6 +32,13 @@ PROCESS_PATH = ROOT / "03-processing" / TASK / "process" / "knowledge.md"
 RESULT_PATH = ROOT / "04-knowledge" / "results" / f"{TASK}.md"
 ANCHOR = "s4-schut-segala-serlio-skala-person-endpoints-20261018"
 PROCESS_REF = f"03-processing/{TASK}/process/knowledge.md#{ANCHOR}"
+BATCH_TITLE = "Schut、Segala、Serlio、Skala四组直接端点登记"
+BATCH_PROCESS_NOTE = (
+    "四组均为S3 new单候选身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。"
+    "Skala的雕像对象建议与Padua学生描述保留perhaps和问句限定；Schut的数百件作品数量保留为多人集合总量。"
+    "本批不新增外部来源、正式关系或backlog项目。"
+)
+BATCH_RESULT_NOTE = "。五条S2关系候选继续待S6；Skala相关两条保留原文的试探语气。"
 BOOK = (
     "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. "
     "(New Haven and London: Yale University Press, 1980; this printing 2006)"
@@ -250,7 +257,7 @@ TARGETS = [
 
 
 def make_card(t: dict) -> str:
-    sources = [index_source(t), t["book_source"]]
+    sources = [index_source(t), *t.get("book_sources", [t.get("book_source")])]
     frontmatter = {
         "title": f"{t['name_zh']}（{t['name_en']}）",
         "name_en": t["name_en"],
@@ -339,7 +346,8 @@ def main() -> int:
         assert index_row.get("Main Entry") == t["index_name"]
         assert index_row.get("Page Numbers", "") == t["index_page"]
         source_body = (ROOT / t["source_file"]).read_text(encoding="utf-8-sig")
-        assert t["book_source"]["original_quotes"][0]["text"] in source_body
+        for book_source_record in t.get("book_sources", [t.get("book_source")]):
+            assert book_source_record["original_quotes"][0]["text"] in source_body
         assert t["ku"] not in manifest_by_ku
         assert t["card"] not in accepted_paths
         assert not (ROOT / t["card"]).exists()
@@ -407,7 +415,8 @@ def main() -> int:
             selected_manifest.append({"ku_id": t["ku"], "card_path": str(temp_card)})
         additions, source_registry, warnings, cards_with_tables = extract_records(selected_manifest)
     assert cards_with_tables == 4 and not warnings, warnings
-    assert len(additions) == sum(len(t["name_rows"]) for t in TARGETS) == 8
+    expected_name_rows = sum(len(t["name_rows"]) for t in TARGETS)
+    assert len(additions) == expected_name_rows
     assert all(row.get("evidence_status") == "source_backed" for row in additions)
     assert all(row.get("source_ids") == ["haskell-1980-rev-ed"] and row.get("source_ref") for row in additions)
 
@@ -439,11 +448,9 @@ def main() -> int:
         for t in TARGETS
     ]
     process_text = process_text.rstrip() + (
-        f"\n\n<a id=\"{ANCHOR}\"></a>\n\n### S4 person：Schut、Segala、Serlio、Skala四组直接端点登记（{DATE}）\n\n"
+        f"\n\n<a id=\"{ANCHOR}\"></a>\n\n### S4 person：{BATCH_TITLE}（{DATE}）\n\n"
         + "\n".join(process_lines)
-        + f"\n\n四组均为S3 new单候选身份组，登记4张KU卡、4条候选映射和{len(additions)}条source_backed姓名字段。"
-        "Skala的雕像对象建议与Padua学生描述保留perhaps和问句限定；Schut的数百件作品数量保留为多人集合总量。"
-        "本批不新增外部来源、正式关系或backlog项目。\n\n"
+        + f"\n\n{BATCH_PROCESS_NOTE}\n\n"
         f"登记后人物类型S4为{sync.fmt(stats['person']['registered_groups'])}组/"
         f"{sync.fmt(stats['person']['registered_members'])}条已登记、{sync.fmt(stats['person']['pending_groups'])}组/"
         f"{sync.fmt(stats['person']['pending_members'])}条待登记；全书KU={len(planned_manifest)}。"
@@ -475,8 +482,8 @@ def main() -> int:
     batch_result = (
         f"### S4 人物身份组登记：S索引四个直接端点（{DATE}）\n\n"
         + "；".join(f"{t['candidate']} → ../units/persons/{t['ku'].split('/')[-1]}.md" for t in TARGETS)
-        + f"。五条S2关系候选继续待S6；Skala相关两条保留原文的试探语气。"
-        f"S4累计{sync.fmt(totals['registered_groups'])}组/{sync.fmt(totals['registered_members'])}条候选映射已登记，"
+        + BATCH_RESULT_NOTE
+        + f"S4累计{sync.fmt(totals['registered_groups'])}组/{sync.fmt(totals['registered_members'])}条候选映射已登记，"
         f"{sync.fmt(totals['pending_groups'])}组/{sync.fmt(totals['pending_members'])}条待登记；KU={len(planned_manifest)}。"
     )
     marker = "## 未解决项与交接限制"
