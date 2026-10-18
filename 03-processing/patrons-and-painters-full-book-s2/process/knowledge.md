@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 599 / 692 | 463 / 464 |
+| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 603 / 696 | 459 / 460 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,008 / 1,186** | **3,762 / 3,776** |
+| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,012 / 1,190** | **3,758 / 3,772** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6360,3 +6360,17 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 本批登记4个S3人物组、5条候选映射、4张KU卡及14条source_backed姓名字段；新增5条外部身份对齐行（4个外部记录），并登记4个外部来源ID。6条直接S2 relation_candidate（含待证的cand-1525）全部留待S6，未新增formal relation。
 
 登记后人物类型S4为599组/692条已登记、463组/464条待登记；全书KU=2027。
+
+
+<a id="s3-s4-person-medici-endpoints-20261018"></a>
+
+### S3身份组登记与S4人物端点：Medici索引候选（2026-10-18）
+
+- cand-1606（原组new-person:anna-de-ludovica-maria-medici-4e4e0c1fff）→ new-person:anna-de-ludovica-maria-medici-4e4e0c1fff → [安娜·玛丽亚·卢多维卡·德·美第奇（Anna Maria Ludovica de' Medici）](../../../04-knowledge/units/persons/anna-maria-ludovica-de-medici.md)；索引与第10章p.282均使用Anna Maria Ludovica形式；无匹配的既有person KU。保留现有new身份组，不将未见于本书的姓名异体补入。
+- cand-1626（原组new-person:de-francesco-maria-medici-d2f7719ab0）→ new-person:de-francesco-maria-medici-d2f7719ab0 → [弗朗切斯科·玛丽亚·德·美第奇（Francesco Maria de' Medici）](../../../04-knowledge/units/persons/francesco-maria-de-medici.md)；索引提供Medici姓氏，第8章p.229提供正文称名及叔侄语境；无匹配的既有person KU。该关系候选不在S4写为正式边。
+- cand-1627（原组new-person:de-gastone-gian-medici-6164ea1b9e）→ new-person:de-gastone-gian-medici-6164ea1b9e → [吉安·加斯托内·德·美第奇（Gian Gastone de' Medici）](../../../04-knowledge/units/persons/gian-gastone-de-medici.md)；索引列Grand Duke Gian Gastone de'，第8章p.229有两处正文提及。保留与Ferdinand相区分的候选映射；不把相邻句中关于Ferdinand的1663年出生日期转移给Gian Gastone。
+- cand-1628（原组new-person:de-isabella-medici-6acace310c）→ new-person:de-isabella-medici-6acace310c → [伊莎贝拉·德·美第奇（Isabella de' Medici）](../../../04-knowledge/units/persons/isabella-de-medici.md)；索引姓名及Bracciano头衔与第4章p.98注3的Isabella de' Medici相合。保持与cand-5550（Paolo Giordano II之身份未明妻子）分开；不以同名推定同一人物。
+
+本批沿用4个既有S3 new人物组，登记4张KU卡、4条候选映射和14条source_backed名称／头衔字段；身份依据为既有书内索引与正文来源，未新增外部身份对齐行或sources.csv记录。8条直接S2 statement中5条relation_candidate继续待S6，3条非关系叙述不转为关系；未新增formal relation。cand-1628与仍为undecided的cand-5550保持区分。
+
+登记后person类型S4为603组/696条已登记、459组/460条待登记；全书KU=2031。
