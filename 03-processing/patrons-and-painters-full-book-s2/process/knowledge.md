@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 607 / 700 | 455 / 456 |
+| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 611 / 704 | 451 / 452 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,016 / 1,194** | **3,754 / 3,768** |
+| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,020 / 1,198** | **3,750 / 3,764** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6388,3 +6388,17 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 本批沿用4个既有S3 new人物组，登记4张KU卡、4条候选映射和12条source_backed名称字段；身份依据为书内索引与正文，未新增外部身份对齐行或sources.csv记录。5条直接S2 statement中4条relation_candidate继续待S6，Monteverdi的Prunières (1926)脚注仅为书目定位；未新增formal relation。
 
 登记后person类型S4为607组/700条已登记、455组/456条待登记；全书KU=2035。
+
+
+<a id="s3-s4-person-s-index-endpoints-20261018"></a>
+
+### S3身份组登记与S4人物端点：S索引候选（2026-10-18）
+
+- cand-2347（原组new-person:nicola-salvi-4ff08e1bab）→ new-person:nicola-salvi-4ff08e1bab → [尼古拉·萨尔维（Nicola Salvi）](../../../04-knowledge/units/persons/nicola-salvi.md)；S.csv#35与第8章p.223均给出Nicola Salvi全名；礼拜堂作为教堂内部空间保持独立，建造关系待S6。
+- cand-2357（原组new-person:de-santi-tommaso-ed5fd73fba）→ new-person:de-santi-tommaso-ed5fd73fba → [托马索·德·桑蒂（Tommaso de Santi）](../../../04-knowledge/units/persons/tommaso-de-santi.md)；索引与正文称名为Tommaso de’ Santi，遗嘱引文拼作Tomaso；原始遗嘱未独立查阅。Gherardo／Girardo身份对应仍待S3，不通过登记Tommaso KU替代该裁决。
+- cand-2358（原组new-person:carlo-saraceni-d6fa6d7fe0）→ new-person:carlo-saraceni-d6fa6d7fe0 → [卡洛·萨拉切尼（Carlo Saraceni）](../../../04-knowledge/units/persons/carlo-saraceni.md)；索引S.csv#46确认完整姓名；p.205句末与p.206续行构成同一条Roomer藏画陈述，保留两条S2记录但不当作两项作品事实。
+- cand-2360（原组new-person:giuseppe-sardi-d9fb8f5ac8）→ new-person:giuseppe-sardi-d9fb8f5ac8 → [朱塞佩·萨尔迪（Giuseppe Sardi）](../../../04-knowledge/units/persons/giuseppe-sardi.md)；索引列p.248、269；p.248明确区分Antonio Barbaro为设计者、Sardi为建造者，p.269只称Longhena与Sardi受聘建造新教堂，不推定具体分工。
+
+本批沿用4个既有S3 new人物组，登记4张KU卡、4条候选映射和14条source_backed名称字段；身份依据为书内索引与正文，未新增外部身份对齐行或sources.csv记录。7条relation_candidate记录继续待S6，其中Saraceni跨页续句、Tommaso遗嘱摘要与引文保留来源层差异；Gherardo／Girardo身份对应仍待S3，不合并。未新增formal relation。
+
+登记后person类型S4为611组/704条已登记、451组/452条待登记；全书KU=2039。
