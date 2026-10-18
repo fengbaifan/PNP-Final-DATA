@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,156 | 1,066 / 1,166 | 4 | 7 | 1,131 | 764 / 862 | 302 / 304 |
+| person | 3,464 | 1,156 | 1,066 / 1,167 | 4 | 7 | 1,130 | 765 / 864 | 301 / 303 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,973** | **4,811 / 5,020** | **9** | **100** | **5,305** | **1,181 / 1,369** | **3,630 / 3,651** |
+| **合计** | **12,407** | **1,973** | **4,811 / 5,021** | **9** | **100** | **5,304** | **1,182 / 1,371** | **3,629 / 3,650** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -7575,3 +7575,19 @@ Haskell 第21章书目 p.416 将题名列于 Milano 1822 项下，书目形式�
 四张卡分别为[Filippo della Valle](../../../04-knowledge/units/persons/filippo-della-valle.md)、[Salvator Varda](../../../04-knowledge/units/persons/salvator-varda.md)、[Carlo Emanuele III](../../../04-knowledge/units/persons/carlo-emanuele-iii-of-savoy.md)和[Tamizey de Laroque](../../../04-knowledge/units/persons/tamizey-de-laroque.md)。本批未新增formal relation或enrichment；四条原书关系候选保留待S6。
 
 本批后S3决定数不变：same=1,973（1,052个既有KU）、new=5,020／4,811组、conflict=9、excluded=100、undecided=5,305。S4由1,177组／1,365条映射增至1,181组／1,369条；待登记由3,634组／3,655条降至3,630组／3,651条。直接关系端点队列由1,879组／1,879条降至1,875组／1,875条，其中person由35／35降至31／31。KU=2,200；alignment行数=12,709，其中候选决定12,407、外部身份记录302。
+
+<a id="s3-s4-person-previtali-cross-chapter-group-20261019"></a>
+### S3–S4 person：Previtali跨章姓名形式归并与登记（2026-10-19）
+
+cand-9508由undecided改为new，归入既有组new-person:giovanni-previtali-b5258f2c7f，与cand-10982共同映射至[乔瓦尼·普雷维塔利人物卡](../../../04-knowledge/units/persons/giovanni-previtali.md)。本批只裁人物身份和KU映射，不裁具体短引文所指的出版物，也不新增正式关系或S5字段事实。
+
+| 候选 | 书内形式与定位 | S3/S4去向 |
+|---|---|---|
+| cand-10982 | Giovanni Previtali；第20章 p.402 line 101，另见第21章 p.414 line 139 | new，组new-person:giovanni-previtali-b5258f2c7f → units/persons/giovanni-previtali |
+| cand-9508 | 第10章 p.301 注3与p.322 注3写Previtali；第21章 p.434书目列两项Previtali, G.著作 | undecided改new，加入组new-person:giovanni-previtali-b5258f2c7f → units/persons/giovanni-previtali |
+
+**身份依据。** Haskell第20章以全名称呼《Lives》批评版导言作者；第21章 p.414书目也将导言作者写为Giovanni Previtali。第21章 p.434另列Previtali, G.的1959年文章和1964年书，第20章 p.410 注1给出Previtali, 1964, pp. 153-8。[SIUSA人物记录“Previtali Giovanni”（Chiave 61723）](https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?Chiave=61723&RicLin=en&RicProgetto=personalita&TipoPag=prodpersona)以全名标识人物，并列出1964年《La fortuna dei primitivi》（访问日期2026-10-19）。[法国文化部POP/Joconde馆藏记录（notice 01370014172）](https://pop.culture.gouv.fr/notice/joconde/01370014172)将同题1959年Paragone第113期文章的作者写作“Previtali (Giovanni)”（访问日期2026-10-19）。这些记录分别支持书目缩写与全名的对应；没有将外部生平字段移入卡片。
+
+**保留的边界。** 第10章 p.301和p.322两条短注均未给题名；其所指可能为书目列出的1959年文章或1964年著作，具体映射继续待证。相关出版物及被引页未独立查阅。archive候选cand-9509仍为undecided；cand-11212和cand-11424仍各自保持独立archive候选，未因作者身份归并。S2 statement st-chp20-p402-previtali-bellori-edition仍待S6，archive端点cand-10981未登记，因此不建立formal relation。
+
+本批新增1条外部身份记录。S3现为same=1,973（1,052个既有KU）、new=5,021／4,811组、conflict=9、excluded=100、undecided=5,304；S4现为1,182组／1,371条候选映射已登记，3,629组／3,650条待登记。人物类型new成员增至1,167；S4 person为765组／864条已登记、301组／303条待登记。直接关系端点队列为1,874组／1,874条，其中person 30／30。KU=2,201；alignment行数=12,710（12,407条候选决定、303条外部身份记录）。关系表、source_id缺失数和字段表未变化；330条S2关系候选至少缺一个端点，因为本组关联的archive端点仍未登记。本批未新增formal relation或enrichment。
