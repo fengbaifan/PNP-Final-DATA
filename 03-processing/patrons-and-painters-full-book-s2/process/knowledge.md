@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,133 | 1,058 / 1,153 | 4 | 7 | 1,167 | 698 / 791 | 360 / 362 |
+| person | 3,464 | 1,137 | 1,058 / 1,153 | 4 | 7 | 1,163 | 698 / 791 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,948** | **4,766 / 4,959** | **9** | **100** | **5,391** | **1,107 / 1,285** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,952** | **4,766 / 4,959** | **9** | **100** | **5,387** | **1,107 / 1,285** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6759,3 +6759,11 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - cand-2402（S.csv#90，and Canaletto，p.312）、cand-2403（#91，and Gian Antonio Guardi，pp.312–313）、cand-2404（#92，comparison of collection with Smith's，p.315）、cand-2408（#96，interest in contemporary Venetian sculpture，p.312）与cand-2414（#102，taste for naturalistic and genre painting，p.314）均由undecided改判same，映射至同一既有人物KU。子目只是人物索引定位；不把Canaletto、Guardi或Joseph Smith并入Schulenburg，也不由子目建立正式关系。
 - 相邻事件cand-2405、cand-2411、cand-2413及作品cand-2406、cand-2407、cand-2409、cand-2410、cand-2412保持原类型与决定。现有五条formal relations继续指向规范人物KU；本批未更改关系表。
 - 更新后S3 same=1,948（1,045个KU），new=4,959/4,766组，undecided=5,391；S4已登记1,107组/1,285条、待登记3,659组/3,674条；KU=2126。
+
+<a id="s3-oliva-index-subentries-20261018"></a>
+
+### S3 person：Oliva人物索引子目复用既有人物KU（2026-10-18）
+
+- cand-1772（O.csv#6，and Bernini，pp.85–86）、cand-1773（O.csv#7，and Borgognone，pp.78–79）、cand-1774（O.csv#8，and Duke of Parma，pp.79–81）及cand-1776（O.csv#10，and Cardinal Negroni，pp.84–85）均由undecided改判same → [units/persons/gian-paolo-oliva](../../../04-knowledge/units/persons/gian-paolo-oliva.md)。O.csv四条均以person型子目置于同一“Oliva, Gian Paolo”主项；书内相应段落将其连接至主项cand-1771及已登记cand-1775所指的Jesuit General Gian Paolo Oliva。既有人物卡的第3章全名、总会长身份和第6章p.153语境与这些页码连续相符。
+- 边界：Bernini、Borgognone、Duke of Parma及Cardinal Negroni仍为各自的人物候选；子目只提供检索定位。不由索引交叉项建立友谊、赞助、委托或冲突等正式关系；相关书内断言仍按既有S2状态等待S6。
+- 更新后S3 same=1,952（1,046个KU），new=4,959/4,766组，undecided=5,387；S4待登记3,659组/3,674条候选映射。
