@@ -26,7 +26,7 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 112 / 157 | 1,119 / 1,139 |
+| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 113 / 158 | 1,118 / 1,138 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
@@ -36,7 +36,7 @@
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,130 / 1,314** | **3,688 / 3,710** |
+| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,131 / 1,315** | **3,687 / 3,709** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6874,7 +6874,7 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-4237`（20条 mention、18条 citation statement，覆盖第2、3、6章）由 `undecided` 改判 `new`，归入 `archive-group-pastor-storia-dei-papi-vol-xiii`。原书各处一致标为 Pastor XIII，页码包括 232、260–261、865、868、939–947、955、965、969、972 及 881–895。Treccani《Gregorio XV》书目列出 Pastor《Storia dei papi dalla fine del Medio Evo》XIII卷、Roma 1931、pp.1–226；Paolo Vian 的研究书目列出卷名及时期“Gregorio XV (1621–1623) ed Urbano VIII (1623–1644)”，Roma 1931（据德文第七版，1929）。[Treccani](https://www.treccani.it/enciclopedia/gregorio-xv_(Enciclopedia-dei-Papi)/)；[Paolo Vian, *La canonizzazione di san Filippo Neri*](https://www.srsp.it/Annate/ASRSP-146.pdf)（书目注33）。这些外部书目确认卷号、标题和范围，不确认 Haskell 使用的具体印次；所引页未独立查阅。第21章 p.433 的 Pio Cenci、Roma 1943 条目没有卷号，不把 1943 年套用于本卷。
 - `cand-4836`（10条 mention、9条 citation statement，覆盖第2、3、6章）由 `undecided` 改判 `new`，归入 `archive-group-pastor-storia-dei-papi-vol-xiv-parts-i-ii`。外部书目将卷 XIV 列为两部分：I 部覆盖 Innocenzo X、Alessandro VII、Clemente IX、Clemente X；II 部覆盖 Innocenzo XI、Alessandro VIII、Innocenzo XII。第3章明引 `XIV, parte II`；第6章关于 Alessandro VII 的 p.506 ff. 引文落在 I 部所列时期，因此本候选按卷 XIV 两部分的书目单元对齐，不压成 II 部单册。[Romei 研究书目](https://www.nuovorinascimento.org/n-rinasc/saggi/pdf/romei/pasquinata.pdf)（书目 pp.41–42）给出卷名、两部分题名及出版项；它确认书目结构，未验证 Haskell 所用印本。所引页未独立查阅。
 - `cand-11414` 保持 `undecided`，明确留在系列／版本级待证：第21章 p.433 只写系列、译者与 Roma 1943，未给卷次；外部书目虽可识别 XIII 与 XIV 两部分，仍不能据此确定该泛称条目对应哪一卷或具体印本。它与新建的 XIII、XIV 卷册组分开，不作合并。
-- 边界：意大利语卷 XIII、卷 XIV 两部分与既有 Pastor 英文版第 XXXIII 卷不是同一版本对象；作者人物 KU 不并入文献组。所有决定只裁决引文书目身份，不验证引文页内容或其所载历史主张；本段作出时两组均待S4，现卷XIV已登记、卷XIII仍待登记，见下方S4记录。
+- 边界：意大利语卷 XIII、卷 XIV 两部分与既有 Pastor 英文版第 XXXIII 卷不是同一版本对象；作者人物 KU 不并入文献组。所有决定只裁决引文书目身份，不验证引文页内容或其所载历史主张；本段作出时两组均待S4，现卷XIII、卷XIV均已登记，见下方S4记录。
 
 <a id="s3-bottari-parker-smith-will-20261018"></a>
 ### S3 archive：Bottari 卷 I、卷 II，Parker 出版物与 Smith 遗嘱跨章归组（2026-10-18）
@@ -7194,3 +7194,12 @@ cand-3504 由 undecided 改为 new，归入 new-person:antonino-bertolotti-20261
 - Haskell第21章 p.433 的泛称系列条目写有Pio Cenci意大利译本、Roma 1943，但没有卷号；本卡不把这组出版信息归给卷XIV，也不写入未有据的年份、地点、出版者或具体印次。原书及被引页面未独立查阅；卷XIV不同于已有英文版XXXIII卷和Pastor人物 KU。
 - 新卡使用描述性中英文工作题名，记录原书目署名、卷次、部分结构、语言和引文范围，新增8条 source-backed 字段记录，复用既有Haskell来源，来源登记无变化；作者只作书目署名展示，不新增正式关系。
 - 卷XIV为15条S2关系候选端点，15条全部留待S6逐项审查。本批未新增正式关系或S5补足。登记后S4累计1,130组/1,314条候选映射，待登记3,688组/3,710条；archive类型登记112组/157条映射，待登记1,119组/1,139条；KU=2,149，字段=11,595。严格阶段审计 `errors=[]`、`s2_missing=[]`，既有两条source_ref警告及S2语义审查提示仍保留。
+
+<a id="s4-archive-pastor-storia-dei-papi-vol-xiii-20261018"></a>
+
+### S4 archive：Pastor《教皇史》卷 XIII 跨章身份组登记（2026-10-18）
+
+- 将既有 S3 `new` 组 `archive-group-pastor-storia-dei-papi-vol-xiii` 的唯一候选 `cand-4237`（20条 mention、18条 citation statement）映射至 `units/archives/pastor-storia-dei-papi-vol-xiii`。第2、3、6章的卷XIII引文一致指向同一卷级对象；Treccani及Paolo Vian书目用于支持卷号、系列题名与历史范围，但不确认Haskell所引具体印次。
+- 第21章 p.433 的 Pio Cenci意大利译本、Roma 1943条目没有卷号；对应候选 `cand-11414` 仍为 `undecided`，不并入卷XIII，也不据此填写本卷出版年、地点、出版者或印次。卷XIII与既有英文版XXXIII卷及Pastor人物KU保持分立。
+- 卡片记录书目署名、系列题名、卷号、语言、外部书目范围和跨章引文范围。新增8条 source-backed 字段记录并复用Haskell来源，来源登记无变化；5条S2关系候选仍留待S6，本批未新增正式作者关系或S5补足。
+- 登记后S4累计1,131组/1,315条候选映射，待登记3,687组/3,709条；archive类型登记113组/158条映射，待登记1,118组/1,138条；KU=2,150，字段=11,603。严格阶段审计 `errors=[]`、`s2_missing=[]`，既有两条source_ref警告及S2语义审查提示仍保留。
