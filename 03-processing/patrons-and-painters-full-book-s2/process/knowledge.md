@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,097 | 1,059 / 1,154 | 4 | 7 | 1,202 | 699 / 792 | 360 / 362 |
+| person | 3,464 | 1,105 | 1,059 / 1,154 | 4 | 7 | 1,194 | 699 / 792 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,912** | **4,767 / 4,960** | **9** | **100** | **5,426** | **1,108 / 1,286** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,920** | **4,767 / 4,960** | **9** | **100** | **5,418** | **1,108 / 1,286** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6726,3 +6726,11 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - cand-0582（C.csv#106，and Augustus III of Poland）、cand-0583（#107，influence on French painting）、cand-0584（#108，journal, edited by Vianello）、cand-0587（#111，Winter）及cand-0589（#113，work in Paris）均由undecided改判same → [units/persons/rosalba-carriera](../../../04-knowledge/units/persons/rosalba-carriera.md)。五项均为人物主项“Carriera, Rosalba”下的书后索引子目，页码分别为295、285、376、303、284–285；不是五个独立人物。主项cand-0581由第10章p.276的全名锚定，且主项下cand-0585、cand-0586、cand-0588已进入同一Carriera人物KU，提供跨章上下文连续性。
 - 关系边界：Augustus III（cand-0148）保持独立人物；1793年journal候选仍是独立archive KU [units/archives/carriera-journal-vianello-1793](../../../04-knowledge/units/archives/carriera-journal-vianello-1793.md)；`Winter`作品端点cand-9203及其S2 statement st-chp10-p303-winter-description不由索引子项替代。不新增正式关系；相关S2关系候选保持原状态。
 - 更新后S3 same=1,912（1,043个KU），new=4,960/4,767组，undecided=5,426；S4待登记3,659组/3,674条候选映射。
+
+<a id="s3-angelo-querini-index-subentries-20261018"></a>
+
+### S3 person：Angelo Querini索引子项复用既有人物KU（2026-10-18）
+
+- cand-2076（Q-R.csv#3，and De Non）、cand-2077（#4，and Enlightenment）、cand-2078（#5，and Carlo Lodoli）、cand-2082（#9，influence of Rousseau）、cand-2083（#10，opposition of Marco Foscarini to）、cand-2084（#11，romantic, 'pagan, and Manichean' soul）、cand-2085（#12，taste for antique）与cand-2086（#13，visit to Voltaire）均由undecided改判same → [units/persons/angelo-querini](../../../04-knowledge/units/persons/angelo-querini.md)。八项均隶属同一人物主项“Querini, Angelo”，页码258–373；既有cand-2075以第10章p.320和第15章p.368全名锚点登记该人物，支持跨章复用。
+- 子目标题保留为索引定位，不采纳为独立事实或正式关系；De Non、Lodoli、Foscarini、Voltaire仍为不同人物端点。cand-2074（Andrea Querini）与cand-2087（Giacomo Querini）不并入；事件cand-2079及地点cand-2080、cand-2081保持各自类型和决定。未新增正式关系。
+- 更新后S3 same=1,920（1,044个KU），new=4,960/4,767组，undecided=5,418；S4待登记3,659组/3,674条候选映射。
