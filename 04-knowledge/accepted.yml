@@ -2155,20 +2155,6 @@
 - 04-knowledge/units/archives/pastor-storia-dei-papi-vol-xiii.md
 - 04-knowledge/units/persons/domenico-fedini.md
 - 04-knowledge/units/persons/marquis-de-vandieres.md
-claims:
-- m1-papal-nephews-led-patronage
-- m2-compatriot-networks
-- m3-deposit-figure-pricing
-- m4-servitu-particolare-terms
-- m5-accademia-1633-monopoly
-- m6-modelli-qualified-generalization
-- m7-studio-stock-and-new-commission
-- m8-artists-status-and-genius
-- m9-anecdote-evidence-boundary
-- m10-rosa-independence-and-exceptions
-- m11-patronage-instability-and-market
-- m12-academy-and-bent-overlap
-structure: []
 - 04-knowledge/units/persons/frances-vivian.md
 - 04-knowledge/units/persons/thomas-buser.md
 - 04-knowledge/units/persons/irving-lavin.md
@@ -2188,3 +2174,17 @@ structure: []
 - 04-knowledge/units/persons/stella-rudolph.md
 - 04-knowledge/units/persons/salvino-salvini.md
 - 04-knowledge/units/persons/angelo-contarini.md
+claims:
+- m1-papal-nephews-led-patronage
+- m2-compatriot-networks
+- m3-deposit-figure-pricing
+- m4-servitu-particolare-terms
+- m5-accademia-1633-monopoly
+- m6-modelli-qualified-generalization
+- m7-studio-stock-and-new-commission
+- m8-artists-status-and-genius
+- m9-anecdote-evidence-boundary
+- m10-rosa-independence-and-exceptions
+- m11-patronage-instability-and-market
+- m12-academy-and-bent-overlap
+structure: []
