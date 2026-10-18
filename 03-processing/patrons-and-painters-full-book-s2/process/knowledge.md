@@ -6908,3 +6908,14 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-4354` 继续 `undecided`，不创建身份组。第21章书目 statement `st-chp21-bib-l1179-1218-entry-16` 记录 A. Venturi《La R. Galleria Estense in Modena》为 Modena, 1883；Internet Archive 的 Getty Research Institute 扫描项 `largalleriaesten00vent` 给出相同题名、作者及出版地，但将出版日期著录为1882，并注明未见版权页（[Internet Archive item](https://archive.org/details/largalleriaesten00vent)，访问日期2026-10-18）。题名匹配尚不足以判断 Haskell 所引具体版本／印次，故保留待证，后续需比对原书书目与所引本。
 
 本批四项 `new` 仅确认出版物身份并保留可核馆藏目录标识，暂待 S4 登记；引文页和对应历史主张未核验，不增 KU、关系或补足事实。`cand-4354` 的版本日期矛盾仍为 S3 待证项。所有候选 mention、statement、来源标识及决定见 [alignment.csv](../../../04-knowledge/tables/alignment.csv)。
+
+<a id="s3-whinney-frommel-vaes-english-taste-20261018"></a>
+
+### S3 archive：四项跨章图书、论文与展览目录身份（2026-10-18）
+
+- `cand-7066` 由 `undecided` 改为 `new`，归入 `archive-group-whinney-millar-english-art-1625-1714-1957`。第7章 pp.121–122 引文与第21章书目项 `st-chp21-bib-l1220-1259-entry-23` 对应。CiNii Books 记录 BA24693266 明列 Margaret Whinney、Oliver Millar、*English Art, 1625–1714*、Clarendon Press 1957，并记为 *The Oxford History of English Art* 第8卷（[CiNii Books](https://ci.nii.ac.jp/ncid/BA24693266)，访问日期2026-10-18）。此决定只确认书目身份。
+- `cand-10878` 由 `undecided` 改为 `new`，归入 `archive-group-frommel-caravaggio-fruehwerk-del-monte-1971`。第20章 p.397 注9的 Frommel 短引与第21章书目项 `st-chp21-bib-l498-536-entry-02` 指向同一论文。Deutsche Digitale Bibliothek 记录 HDUJXVSAEVFJ6UWXQJHG7USYYQG55SCQ 由德国国家图书馆提供，著录 Christoph Luitpold Frommel，《Caravaggios Frühwerk und der Kardinal Francesco Maria Del Monte》，*Storia dell’arte* 9/10（1971），pp.5–52（[DDB记录](https://www.deutsche-digitale-bibliothek.de/item/HDUJXVSAEVFJ6UWXQJHG7USYYQG55SCQ)，访问日期2026-10-18）。只确认论文身份，不以其KU或引文证明 Del Monte 收藏与 Caravaggio 影响关系。
+- `cand-7584` 由 `undecided` 改为 `new`，归入 `archive-group-vaes-corneille-de-wael-bulletin-1925`。第8章 p.205、p.208 短引及第21章 `st-chp21-bib-l1179-1218-entry-06` 的题名、作者和页码范围一致。Académie royale de Belgique《Biographie Nationale》著录 Maurice Vaes 的 Corneille de Wael 研究发表于 *Bulletin de l’Institut historique belge de Rome* 第V辑（1925），pp.137–247，和 Haskell 书目吻合；该决定指向期刊论文，不指向另有分页的单行本抽印本（[Biographie Nationale PDF](https://www.academieroyale.be/academie/documents/FichierPDFBiographieNationaleTome2096.pdf)，访问日期2026-10-18）。p.185 未独立查阅。
+- `cand-9350` 由 `undecided` 改为 `new`，归入 `archive-group-royal-academy-english-taste-1955-56`。第10章 pp.26、54 的题名短引与第21章 `st-chp21-bib-l420-459-entry-21` 所列 Royal Academy of Arts 1955–56 年展览目录一致。WorldCat 记录 69084026 的扩展题名为 *English taste in the eighteenth century from Baroque to Neo-Classic: winter exhibition 1955–56*，London 1955；与原书短题名、机构和日期相合（[WorldCat](https://search.worldcat.org/title/69084026)，访问日期2026-10-18）。原书未列作者，本批不补作者。
+
+四项均为不同的 archive 出版物身份组，依据跨章短引、原书书目和对应图书馆／目录记录裁为 `new`，待S4登记。所引页、论文论点及展览目录内容未阅读，不新增 KU、关系或内容事实。每个决定及外部目录标识分别保留在 `alignment.csv` 的候选主决定行和独立身份来源行；逐项 mention 与 statement 锚点见对齐行。
