@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 691 / 784 | 370 / 371 |
+| person | 3,464 | 1,091 | 1,060 / 1,154 | 4 | 7 | 1,208 | 695 / 788 | 365 / 366 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,100 / 1,278** | **3,669 / 3,683** |
+| **合计** | **12,407** | **1,906** | **4,768 / 4,960** | **9** | **100** | **5,432** | **1,104 / 1,282** | **3,664 / 3,678** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6677,3 +6677,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Jan Both的姓名跨行，所处句保留Haskell的probably限定；Donato Bramante仅列于Cassiano引述的建筑复兴者集合中，不将集合表述拆作个人事实。Leonard Bramer列于Roomer藏画的开放多人名单，数百件不归到个人名下。Johannes Christian Brand依据索引全名与正文姓氏对齐；相关藏画未具名或计数。五条S2关系候选留待S6；无外部身份来源、正式关系或backlog写入。
 
 登记后人物类型S4为691组/784条已登记、370组/371条待登记；全书KU=2119。
+
+<a id="s4-b-index-velvet-breughel-du-breuil-paul-bril-de-brosses-20261018"></a>
+
+### S4 person：Velvet Breughel、du Breuil、Paul Brill与Charles de Brosses四组人物端点（2026-10-18）
+
+- cand-0449（new-person:breughel-velvet-e4c1642729）→ [扬·布鲁盖尔（老）（Jan Brueghel the Elder）](../../../04-knowledge/units/persons/jan-brueghel-the-elder.md)；S2关系候选st-chp8-p206-roomer-owned-hundreds-by-flemish-artists留待S6。Haskell将其列入Roomer藏画的开放作者名单；数百件是多人作品总量，不归给该人物个人。同一名单另有Abram Breughel相关记录，但本候选的别称由ULAN对应Jan Brueghel the Elder；没有依据把两张人物卡合并。
+- cand-0450（new-person:breuil-du-toussaint-49211ac1bb）→ [图桑·迪布勒伊（Toussaint du Breuil）](../../../04-knowledge/units/persons/toussaint-du-breuil.md)；S2关系候选st-chp7-p173-i23留待S6。Haskell把他与Ambroise Dubois并列为后期风格主义画家，并评价相关绘画结果为provincial decoration；该判断保留为作者评价，不扩写成中性事实或个人生平。
+- cand-0453（new-person:brill-paul-0242398f04）→ [保罗·布里尔（Paul Bril）](../../../04-knowledge/units/persons/paul-bril.md)；S2关系候选st-chp8-p206-roomer-owned-hundreds-by-flemish-artists留待S6。Haskell把Paul Brill列入Roomer藏画的开放作者名单；数百件是多人作品总量，不归给单一画家，也不由身份记录验证。
+- cand-0455（new-person:brosses-charles-de-president-73d472266d）→ [夏尔·德·布罗斯（Charles de Brosses）](../../../04-knowledge/units/persons/charles-de-brosses.md)；S2关系候选st-chp9-p245-footnote1-measures-and-brosses留待S6。第9章p.245与p.260及第10章p.292、p.311均以De Brosses姓名或引文定位出现；p.311注5与索引311n相合。S3依据该索引锚点及书目署名“Brosses, Charles de”，将第10章人物候选cand-9436映射到本KU；[裁决记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-brosses-cross-chapter-person-reuse-20261018)。archive候选cand-9437、cand-9879及书目作品cand-11268保持分开。引文均经Haskell转引，De Brosses原书页未独立查阅。
+
+四组S3 new身份组登记为4张KU卡、4条候选映射和8条source_backed姓名字段。Velvet Breughel按Getty ULAN 500007095的名称变体映射到Jan Brueghel the Elder；Paul Brill按Getty ULAN 500005652的名称变体映射到Paul Bril；两条外部身份记录仅支持名称与人物身份，不验证Roomer藏画归属。Toussaint du Breuil保留Haskell对法国绘画政策结果的评价限定。Charles de Brosses以索引主项及书目全名登记；第10章p.292与p.311的S2人物候选cand-9436已由下述S3复核映射至本KU，而archive候选cand-9437、cand-9879、cand-11268继续各自保留其书目／引文定位粒度。四条直接S2关系候选留待S6；本批不登记正式关系或backlog。
+
+登记后人物类型S4为695组/788条已登记、366组/367条待登记；全书KU=2123。
+
+<a id="s3-brosses-cross-chapter-person-reuse-20261018"></a>
+
+### S3 person：de Brosses跨章人物身份复用（2026-10-18）
+
+cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../../04-knowledge/units/persons/charles-de-brosses.md)（units/persons/charles-de-brosses）。S1索引B.csv#302将该人物页码列为245、260及311n；S2 cand-9436记录第10章p.292注1与p.311注5的De Brosses称名，其中p.311注5正落在索引311n所指位置。第21章书目“Brosses, Charles de”提供同书作者全名。这些书内索引、正文／脚注与书目锚点支持同一人物；不要求原引文页已独立阅读，也不把书目或引文定位对象合并到人物。cand-9437、cand-9879、cand-8429与cand-8505仍是各自的archive引文定位候选；cand-11268是两卷本书目对象。保留原new组与原S3理由作为历史记录；本次没有新增外部身份来源、字段事实、正式关系或S6裁决。

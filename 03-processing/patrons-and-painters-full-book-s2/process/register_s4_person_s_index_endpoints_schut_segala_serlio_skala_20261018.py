@@ -290,6 +290,9 @@ def make_card(t: dict) -> str:
             "不从同段共现或索引提及生成正式关系。"
         )
     type_sections = t.get("type_sections", "")
+    identity_section = t.get("identity_section", "")
+    if identity_section:
+        identity_section = identity_section.rstrip() + "\n\n"
     return f"""---
 {fm}---
 
@@ -316,7 +319,7 @@ def make_card(t: dict) -> str:
 
 ## 关系与证据
 
-### 关系记录
+{identity_section}### 关系记录
 
 {relation_record}
 """
@@ -402,6 +405,10 @@ def main() -> int:
         )
         row["ku_id"] = t["ku"]
         row["process_ref"] = PROCESS_REF
+        if t.get("s3_identity_note"):
+            row["resolution_note"] = row.get("resolution_note", "").rstrip() + (
+                f" S3身份复核（{DATE}，补记）：{t['s3_identity_note']}"
+            )
         row["resolution_note"] = row.get("resolution_note", "").rstrip() + (
             f" S4登记（{DATE}）：身份组{t['group']}映射至{t['ku']}；"
             "新增一张书内来源支持的人物KU，相关S2关系候选仍待S6。"
@@ -414,6 +421,39 @@ def main() -> int:
             "source_task": TASK,
             "card_path": t["card"],
         })
+    next_alignment_number = max(
+        (
+            int(match.group(1))
+            for row in planned_alignments
+            if (match := re.fullmatch(r"aln-(\d+)", row.get("alignment_id", "")))
+        ),
+        default=0,
+    ) + 1
+    external_alignment_rows = []
+    for t in TARGETS:
+        for external in t.get("external_identities", []):
+            candidate_id = external.get("candidate", t["candidate"])
+            assert candidate_id == t["candidate"]
+            assert external.get("source") and external.get("id") and external.get("resolution_note")
+            assert not any(
+                row.get("candidate_id") == candidate_id
+                and row.get("external_source") == external["source"]
+                for row in alignments
+            )
+            external_alignment_rows.append({
+                "alignment_id": f"aln-{next_alignment_number:04d}",
+                "candidate_id": candidate_id,
+                "ku_id": t["ku"],
+                "external_source": external["source"],
+                "external_id": external["id"],
+                "decision": "same",
+                "accessed_date": DATE,
+                "process_ref": PROCESS_REF,
+                "legacy_ku_id": "",
+                "resolution_note": external["resolution_note"],
+            })
+            next_alignment_number += 1
+    planned_alignments.extend(external_alignment_rows)
     planned_manifest.sort(key=lambda row: row["ku_id"])
 
     planned_accepted = list(accepted_lines)
@@ -542,7 +582,8 @@ def main() -> int:
             f"person_registered={stats['person']['registered_groups']}/{stats['person']['registered_members']}; "
             f"person_pending={stats['person']['pending_groups']}/{stats['person']['pending_members']}; "
             f"enrichment={len(current_enrichment)}->{len(planned_enrichment)}; KU={len(planned_manifest)}; "
-            "external_sources_added=0; formal_relations_added=0; no files changed"
+            f"external_alignment_rows_added={len(external_alignment_rows)}; "
+            "formal_relations_added=0; no files changed"
         )
         return 0
 
@@ -563,7 +604,7 @@ def main() -> int:
         f"person_registered={stats['person']['registered_groups']}/{stats['person']['registered_members']}; "
         f"person_pending={stats['person']['pending_groups']}/{stats['person']['pending_members']}; "
         f"enrichment={len(current_enrichment)}->{len(planned_enrichment)}; KU={len(planned_manifest)}; "
-        "external_sources_added=0; formal_relations_added=0"
+        f"external_alignment_rows_added={len(external_alignment_rows)}; formal_relations_added=0"
     )
     return 0
 

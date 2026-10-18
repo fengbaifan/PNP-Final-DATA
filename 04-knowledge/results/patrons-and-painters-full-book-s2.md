@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,100组、映射1,278条成员候选；尚待登记3,669组、3,683条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,906（指向1,041个既有 KU）、new=4,960（4,768个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,104组、映射1,282条成员候选；尚待登记3,664组、3,678条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,119 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,123 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 11,492条，其中1,624条 unverified |
+| [全书对齐](../tables/alignment.csv) | 12,667 条：12,407 条候选决定记录及 260 条外部身份记录；候选决定数见下表 |
+| [既有字段表](../tables/enrichment.jsonl) | 11,500条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -51,8 +51,8 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
-| same | 1,905 | 指向 1,040 个既有 KU |
-| new | 4,961 | 按 4,769 个当前身份组进入 S4；每组登记一个 KU |
+| same | 1,906 | 指向 1,041 个既有 KU |
+| new | 4,960 | 按 4,768 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
 | undecided | 5,432 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,155／1,061 | 691／370；371 | 4 | 7 | 1,208 |
+| person | 1,091→399 | 1,154／1,060 | 695／365；366 | 4 | 7 | 1,208 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,961／4,769** | **1,100／3,669；3,683** | **9** | **100** | **5,432** |
+| **合计** | **1,906→1,041** | **4,960／4,768** | **1,104／3,664；3,678** | **9** | **100** | **5,432** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -591,6 +591,14 @@ cand-0288 → ../units/persons/marco-benefial.md；cand-0368 → ../units/person
 ### S4 人物身份组登记：Both、Bramante、Bramer与Brand四组人物端点（2026-10-18）
 
 cand-0416 → ../units/persons/jan-both.md；cand-0443 → ../units/persons/donato-bramante.md；cand-0444 → ../units/persons/leonard-bramer.md；cand-0445 → ../units/persons/johannes-christian-brand.md；Both的群体陈述保留probably，Bramante仅在建筑复兴者集合引文中出现，Bramer与Brand分别留在Roomer藏画及Zanetti藏画的多人表述范围内；五条S2关系候选留待S6，不新增正式关系。S4累计1,100组/1,278条候选映射已登记，3,669组/3,683条待登记；KU=2119。
+
+### S4 人物身份组登记：Velvet Breughel、du Breuil、Paul Brill与Charles de Brosses四组人物端点（2026-10-18）
+
+cand-0449 → ../units/persons/jan-brueghel-the-elder.md；cand-0450 → ../units/persons/toussaint-du-breuil.md；cand-0453 → ../units/persons/paul-bril.md；cand-0455 → ../units/persons/charles-de-brosses.md；Velvet Breughel和Paul Brill的Getty ULAN身份记录分别列于alignment.csv，规范显示名采用Jan Brueghel the Elder与Paul Bril；de Brosses的章10人物候选cand-9436随后复核为本KU的same，章10引文定位及第21章书目对象保持archive类型。四条直接关系候选继续留待S6，不新增正式关系。S4累计1,104组/1,282条候选映射已登记，3,665组/3,679条待登记；KU=2123。
+
+### S3 person：de Brosses跨章人物身份复用（2026-10-18）
+
+cand-9436由new改为same，映射至[Charles de Brosses KU](../units/persons/charles-de-brosses.md)。第10章p.311注5与S1索引B.csv#302的311n定位相合，第21章书目提供Charles de Brosses全名；人物same裁决与书目／引文archive候选分开。
 
 ## 未解决项与交接限制
 
