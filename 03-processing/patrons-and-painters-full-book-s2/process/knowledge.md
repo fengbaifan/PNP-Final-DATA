@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 671 / 764 | 390 / 391 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 675 / 768 | 386 / 387 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,080 / 1,258** | **3,689 / 3,703** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,084 / 1,262** | **3,685 / 3,699** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6612,3 +6612,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Paola Zambelli只在Haskell致谢中作为Archivio di Stato档案协助者出现。Eustachio Zanotti仅在p.348和p.354脚注的书信书目定位中具名；所引书信和版本均未独立查阅，不记录通信内容或额外关系，姓名字段合并为一行并保留两处定位。Procurator Alessandro Zen只依索引及Haskell转述的1761年死亡报告登记；不外推继任情况。Andrea Zucchi依据索引与Tiepolo为该雕刻师绘制Corradini雕像图像的叙述登记；同段Zaccaria Sagredo版画题献不归入Zucchi关系。唯一直接S2关系候选留待S6；其余三组无可归属于各自身份组的S2关系候选。无外部来源、正式关系或backlog写入。
 
 登记后人物类型S4为671组/764条已登记、390组/391条待登记；全书KU=2099。
+
+<a id="s4-acqua-albani-altham-anne-austria-person-endpoints-20261018"></a>
+
+### S4 person：Acqua、Albani、Altham与Anne of Austria四组人物端点（2026-10-18）
+
+- cand-0010（new-person:acqua-cristoforo-dall-b6b5d0c035）→ [克里斯托福罗·达尔阿夸（Cristoforo dall’Acqua）](../../../04-knowledge/units/persons/cristoforo-dall-acqua.md)；S2关系候选st-chp10-p327-n03-prints-predate-election、st-chp10-p327-n03-moschini-prints-at-entry留待S6。Haskell称他为寓意画的雕刻师，并在讨论Pisani入城仪式时提及其版画；版画年代与Moschini转述均按原书归因保留。Haskell另称他未涉Pisani失势，不将该否定陈述转成其他关系。
+- cand-0020（new-person:albani-annibale-f7a833163c）→ [安尼巴莱·阿尔巴尼（Annibale Albani）](../../../04-knowledge/units/persons/annibale-albani.md)；S2关系候选st-chp6-p166-n2-viani留待S6。Haskell称d’Adda在Gozzadini与Albani支持下，未能邀请Viani赴罗马；原文没有说Albani独立发起该行动。
+- cand-0085（new-person:altham-james-93ba925b1e）→ [詹姆斯·阿尔瑟姆（James Altham）](../../../04-knowledge/units/persons/james-altham.md)；S2关系候选st-chp7-p197-tourist-portrait-examples、st-chp7-p197-n2-altham-portrait留待S6。正文将Altham列为artist及游客肖像组成员，未把其对应到特定城市或图版；脚注将一幅隐士肖像归于Salvator Rosa并定于1665年。Bankes Collection为Haskell当时的记载，不据此推断现藏情况。
+- cand-0109（new-person:anne-austria-france-of-of-regent-4d8cb859b3）→ [奥地利的安娜（Anne of Austria）](../../../04-knowledge/units/persons/anne-of-austria-regent-france.md)；S2关系候选st-chp7-p182-i03留待S6。Haskell在Mazarin的绘画赞颂语境中称她为摄政者，并说Mazarin名义上依赖她与少年国王Louis XIV；不扩展为宪制判断。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Cristoforo dall’Acqua仅依索引及第10章p.327的具名与版画记述登记；Haskell转述的Moschini说法及版画年代论证不视为独立查证，也不把未涉Pisani失势扩成正式关系。Albani仅按索引全名及第6章脚注中的姓氏登记；脚注说d’Adda在Gozzadini和Albani支持下未能邀Viani赴罗马，不改写为Albani独立发起。James Altham依据索引、正文与脚注登记；脚注归属和日期仍为Haskell的记述，不将三位游客、城市与图版作一一对应。Anne of Austria仅按索引及第7章p.182的regent称谓登记，保留Haskell对Mazarin nominal dependence的原有限定，不扩展为宪制判断。六条相关S2关系候选留待S6；无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为675组/768条已登记、386组/387条待登记；全书KU=2103。
