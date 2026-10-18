@@ -7249,3 +7249,14 @@ cand-3504 由 undecided 改为 new，归入 new-person:antonino-bertolotti-20261
 - `st-chp19-p387-orsini-letter-model-transfer`、`st-chp19-p387-orsini-letter-four-sapphires`、`st-chp19-p388-171-sapphires-close`、`st-chp19-p388-c140-bronze-head-casting-plan`、`st-chp19-p388-c173-cast-result-and-instructions`、`st-chp19-p388-c173-foundry-and-transfer-request` 六条直接S2关系候选留待S6逐项审查；未新增正式关系或候选待办。
 
 登记后 S4 累计1,135组／1,321条候选映射，待登记3,682组／3,704条；person类型登记719组／817条映射，待登记352组／354条；KU=2,154，enrichment=11,631。
+
+<a id="s4-person-vandieres-direct-endpoint-20261018"></a>
+
+### S4 person：Marquis de Vandières 直接关系端点登记（2026-10-18）
+
+- 将 S3 new 组 new-person:de-de-later-marigny-vandieres-de-later-mar-c4ca763124 的 cand-2692 映射至 units/persons/marquis-de-vandieres。索引 UVWXYZ.csv#28 与第9章 p.257 的正文提及相接；同段称此人为 Marquis de Vandières，后续称谓为 Marquis de Marigny。
+- S3 旧说明将 source anchor 称为 “full personal name”，但所引段落没有个人名字。本次在 alignment 行追加范围澄清，S3 的 source-local new 决定与组号不变；人物卡保留原书称谓和后续称谓，不填写未见于该段的个人姓名或生卒。
+- 人物卡提供中英文显示名、等义描述及 Haskell 原文摘录。中文“万迪埃尔侯爵”为项目工作音译；未加入外部身份或生平。卡片的两项称谓记录复用既有 Haskell 来源。
+- st-chp9-p257-vandieres-1754-letter-copies-tiepolo-frescoes 与 st-chp9-p257-vandieres-french-history-painting-purpose 两条直接 S2 关系候选保留待 S6 审查；未新增正式关系或候选待办。
+
+登记后 S4 累计1,136组／1,322条映射，待登记3,681组／3,703条；person类型登记720组／818条映射，待登记351组／353条；KU=2,155，enrichment=11,633。
