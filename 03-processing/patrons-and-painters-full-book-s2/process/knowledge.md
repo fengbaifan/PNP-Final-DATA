@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 615 / 708 | 446 / 447 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 619 / 712 | 442 / 443 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,024 / 1,202** | **3,745 / 3,759** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,028 / 1,206** | **3,741 / 3,755** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6430,3 +6430,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：四张人物卡（2026-10-18）
 
 四张卡姓名表共登记9条source_backed enrichment行（enr-15073、enr-15074、enr-15075、enr-15076、enr-15077、enr-15078、enr-15079、enr-15080、enr-15081），全部关联既有Haskell书目来源ID；未新增sources.csv记录、S5生平字段或formal relation。
+
+<a id="s4-schut-segala-serlio-skala-person-endpoints-20261018"></a>
+
+### S4 person：Schut、Segala、Serlio、Skala四组直接端点登记（2026-10-18）
+
+- cand-2415（new-person:corneille-schut-c477be65d5）→ [科内利斯·舒特（Corneille Schut）](../../../04-knowledge/units/persons/corneille-schut.md)；S2关系候选st-chp8-p206-roomer-owned-hundreds-by-flemish-artists留待S6。关系候选将Schut列入Roomer所藏画作的多人作者名单；作品数量和归属范围保持原书的集合表述，候选留待S6。
+- cand-2417（new-person:giovanni-segala-c9998cedb7）→ [乔瓦尼·塞加拉（Giovanni Segala）](../../../04-knowledge/units/persons/giovanni-segala.md)；S2关系候选st-chp8-p227-gallery-academic-style留待S6。关系候选将Segala列入Conti为画廊挑选的画家名单；关于同代与风格的评价仍按原文集体限定，候选待S6。
+- cand-2419（new-person:sebastiano-serlio-9c5888fd05）→ [塞巴斯蒂亚诺·塞尔里奥（Sebastiano Serlio）](../../../04-knowledge/units/persons/sebastiano-serlio.md)；S2关系候选st-chp4-sec-ii-l46-51-restorers-took-proportions-from-roman-buildings留待S6。Cassiano引文中的集合关系候选把Serlio列在建筑艺术复兴者名单中；不补造其个人作品或具体建筑对应，候选待S6。
+- cand-2436（new-person:dubravio-giovanni-skala-b564631145）→ [乔瓦尼·杜布拉维奥·斯卡拉（Giovanni Dubravio Skala）](../../../04-knowledge/units/persons/giovanni-dubravio-skala.md)；S2关系候选st-chp15-p367-skala-possible-statue-subject、st-chp15-p367-skala-student-description留待S6。两条候选分别涉及可能的雕像对象和带问号的Padua学生描述；均不改写为确定身份或经历，留待S6裁决。
+
+四组均为S3 new单候选身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。Skala的雕像对象建议与Padua学生描述保留perhaps和问句限定；Schut的数百件作品数量保留为多人集合总量。本批不新增外部来源、正式关系或backlog项目。
+
+登记后人物类型S4为619组/712条已登记、442组/443条待登记；全书KU=2047。
