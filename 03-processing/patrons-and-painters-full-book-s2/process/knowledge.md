@@ -18,7 +18,7 @@
 - 分开处理的事件：S. Giovanni Decollato 的持续系列与 1675、1736 两次具体事件分别分组；S. Rocco 的年度系列与 1770 年具体事件分开；贝加莫 1653 年装饰计划与 1695 年完成事件分开。
 - 保留待证的交叉引用：John Strange 在 Paese 的别墅与“Treviso 附近乡间宅邸”尚无同一建筑证据；威尼斯与佩鲁贾 Baglioni 家族的谱系关系未明；Rialto 地区与构图中的 Rialto 元素分开。Gonzaga 家族候选与“see under Mantua, Dukes of”索引交叉引用共用 `sg3-review-gonzaga-family-redirect` 仅为检索/复核关系：后者按 S1 已排除，不能被视为另一个 family 身份；House Savoy 的 family 候选与类型不符的索引指引也分别保留。相关候选保留单独的 review 组或候选级决定，不以索引、相邻条目或共现代替证据。
 - 档案/文献类型形成 27 个已裁定的跨章多候选身份组；另有 `cand-6207` / `cand-11945` 作为待证重复候选组保留。题名相同但版次、卷册、责任者、日期或档号不一致时不自动合并。
-- 历史分组、复用与拆分轨迹见下方各批次记录；截至 2026-10-17 的候选数及逐类型决定数以本节统计表和全书结果文件为准。S4 已登记组按每组一个 KU 处理并映射全部组内候选；未登记组按本节统计保留待办。
+- 历史分组、复用与拆分轨迹见下方各批次记录；截至 2026-10-18 的候选数及逐类型决定数以本节统计表和全书结果文件为准。S4 已登记组按每组一个 KU 处理并映射全部组内候选；未登记组按本节统计保留待办。
 
 ## 按类型决定数
 
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,143 | 1,058 / 1,153 | 4 | 7 | 1,157 | 698 / 791 | 360 / 362 |
+| person | 3,464 | 1,143 | 1,059 / 1,156 | 4 | 7 | 1,154 | 698 / 791 | 361 / 365 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,958** | **4,766 / 4,959** | **9** | **100** | **5,381** | **1,107 / 1,285** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,958** | **4,767 / 4,962** | **9** | **100** | **5,378** | **1,107 / 1,285** | **3,660 / 3,677** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,430 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；248 条外部身份记录另行保留。same 的 1,902 条候选指向 1,040 个既有 KU；new 候选组成 4,775 个类型内身份组，共 4,966 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,378 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；264 条外部身份记录另行保留。same 的 1,958 条候选指向 1,046 个既有 KU；new 候选组成 4,767 个类型内身份组，共 4,962 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -6783,3 +6783,13 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - cand-0273（B.csv#120，as librarian and antiquarian to Queen Christina of Sweden，pp.160–161）、cand-0275（B.csv#122，devotion to Raphael，p.159）及cand-0276（B.csv#123，influence of his views，p.160）均由undecided改判same → [units/persons/giovanni-pietro-bellori](../../../04-knowledge/units/persons/giovanni-pietro-bellori.md)。三项都是person主项“Bellori, Gian Pietro”下的person型子目。第6章p.158给出全名，p.159–161连续叙述同一Bellori，既有cand-0272、cand-0274、cand-0277与跨章Bellori候选已映射同一KU。
 - 边界：Queen Christina、Raphael及其他索引人物仍各有独立候选。子目只作索引检索定位；不把职务、艺术观点或其影响转写成新增事实或正式关系，也不改变既有人物卡限定为第1章证据的内容范围。
 - 更新后S3 same=1,958（1,046个KU），new=4,959/4,766组，undecided=5,381；S4待登记3,659组/3,674条候选映射。
+
+
+<a id="s3-zanetti-younger-cross-chapter-person-20261018"></a>
+
+### S3 person：A. M. Zanetti the Younger 跨章新身份组（2026-10-18）
+
+- `cand-2854`（UVWXYZ.csv#191）、`cand-2856`（#193，on engraving，p.343）与 `cand-2857`（#194，on social value of painting，p.329）均改为 `new`，合入 `new-person:anton-maria-zanetti-younger-1706-1778`，待 S4 登记。第13章 p.345（L161–171）称他为与年长者“identically named younger cousin”，并明确写出“Antonio Maria the Younger”；p.343（L107–114）称“the younger A. M. Zanetti”；第10章 p.329（L248–256）同样明确称“A. M. Zanetti the Younger”。索引子目与上述正文页码相合。
+- Treccani DBI《ZANETTI, Anton Maria》（Enrico Lucchese，vol.100，2020）记其生于1706年、为Alessandro之子，记载其1733年修订《Ricche Miniere》并题献给年长堂兄、与年长同名堂兄合作；该身份记录单独列于 `alignment.csv` 的 aln-12674。它支持 younger 身份与相对于长者的区分，不外推为全部书内事实已验证。既有人物 KU `units/persons/a-m-zanetti-the-elder` 保持独立。
+- 分组边界：`cand-2855`（《Della Pittura Veneziana》archive）、`cand-2858`（《Ricche Miniere》1733修订本 archive）已各自映射相应 archive KU；`cand-2859`（《Varie Pitture a Fresco》work）保持 work KU。它们不并入人物组。S2 的作者／出版关系候选仍待 S6，不新增正式关系、enrichment 或 KU。此前三条人物候选的 `undecided` 理由保留在各自 alignment 行的历史注释中。
+- 更新后 S3：same=1,958（1,046个既有 KU）；new=4,962（4,767组）；conflict=9、excluded=100、undecided=5,378。S4 已登记1,107组/1,285条候选映射，待登记3,660组/3,677条；另新增1条Treccani DBI外部身份记录，不计作候选决定。

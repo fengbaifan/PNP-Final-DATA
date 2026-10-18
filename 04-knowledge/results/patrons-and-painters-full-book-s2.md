@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,958（指向1,046个既有 KU）、new=4,959（4,766个身份组）、conflict=9、excluded=100、undecided=5,381。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,659组、3,674条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,958（指向1,046个既有 KU）、new=4,962（4,767个身份组）、conflict=9、excluded=100、undecided=5,378。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,660组、3,677条映射。
 
 ## 范围与覆盖
 
@@ -26,14 +26,14 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,670 条：12,407 条候选决定记录及 263 条外部身份记录；候选决定数见下表 |
+| [全书对齐](../tables/alignment.csv) | 12,671 条：12,407 条候选决定记录及 264 条外部身份记录；候选决定数见下表 |
 | [既有字段表](../tables/enrichment.jsonl) | 11,508条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=1,881；candidates=12,407；alignments=12,655、unlinked=0；enrichment=10,976；S4待登记new候选映射3,928条；errors=[]、s2_missing=[]。S3闭包机械核对：12,407个候选各有且仅有一条决定；4,966个new候选组成4,775个类型内身份组，组内类型一致且无部分登记；same均指向有效且类型相符的KU；conflict、excluded、undecided均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,671、unlinked=0；enrichment=11,508；S4待登记new候选映射3,677条；errors=[]、s2_missing=[]。S3闭包机械核对：12,407个候选各有且仅有一条决定；4,962个new候选组成4,767个类型内身份组，组内类型一致且无部分登记；same均指向有效且类型相符的KU；conflict、excluded、undecided均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。
 
 ## S3 身份决定与交接
 
@@ -52,10 +52,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,958 | 指向 1,046 个既有 KU |
-| new | 4,959 | 按 4,766 个当前身份组进入 S4；每组登记一个 KU |
+| new | 4,962 | 按 4,767 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,381 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,378 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,143→404 | 1,153／1,058 | 698／360；362 | 4 | 7 | 1,157 |
+| person | 1,143→404 | 1,156／1,059 | 698／361；365 | 4 | 7 | 1,154 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,958→1,046** | **4,959／4,766** | **1,107／3,659；3,674** | **9** | **100** | **5,381** |
+| **合计** | **1,958→1,046** | **4,962／4,767** | **1,107／3,660；3,677** | **9** | **100** | **5,378** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2485,3 +2485,8 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 ### S3 person：Bellori人物索引子目身份归组（2026-10-18）
 
 三个有关其任职、Raphael及艺术观点的person型索引子目现映射至既有Bellori人物KU；卡片事实范围、其他人物身份及正式关系均不由索引交叉项扩写。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bellori-remaining-index-subentries-20261018)及alignment.csv。
+
+
+### S3 person：A. M. Zanetti the Younger 跨章身份组（2026-10-18）
+
+`cand-2854`（UVWXYZ.csv#191）、`cand-2856`（#193，p.343）及 `cand-2857`（#194，p.329）现为同一待登记 new-person 组 `new-person:anton-maria-zanetti-younger-1706-1778`。第13章 p.345 明称 Antonio Maria the Younger 为年长同名堂兄的年轻表亲；p.343 和第10章 p.329 分别以 “the younger A. M. Zanetti” 与 “A. M. Zanetti the Younger”指称此人。Treccani DBI 的身份对照记录及访问日期见 alignment.csv。既有 Zanetti the Elder KU 保持独立。`cand-2855`、`cand-2858` 是不同 archive 对象，`cand-2859` 是 work 对象，不并入人物组；相应书内关系候选仍待 S6。此前的待证理由保留于alignment历史注释，不新增KU或正式关系。
