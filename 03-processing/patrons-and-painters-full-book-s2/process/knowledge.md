@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 635 / 728 | 426 / 427 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 639 / 732 | 422 / 423 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,044 / 1,222** | **3,725 / 3,739** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,048 / 1,226** | **3,721 / 3,735** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6495,3 +6495,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。Anne Marie de Savoye仅登记为收据签署人，不推定为卖方，并与Adelaide Enrichetta身份组保持分立；Shaftesbury仅以第一伯爵爵位称呼登记，不推补名字；Stanislas Poniatowski的第10章全名与第15章波兰国王称谓按同一索引组登记；Talbot的T.csv索引转写“Bruno”与正文“S2 Buno”并列保留，候选规范名继续依正文，不改写索引或候选表。本批6条S2关系候选留待S6；无formal relation或新增外部来源。
 
 登记后人物类型S4为635组/728条已登记、426组/427条待登记；全书KU=2063。
+
+<a id="s4-tassi-temanza-tessin-thornhill-person-endpoints-20261018"></a>
+
+### S4 person：Tassi、Temanza、Tessin与Thornhill四组人物端点（2026-10-18）
+
+- cand-2542（new-person:agostino-tassi-e888637062）→ [阿戈斯蒂诺·塔西（Agostino Tassi）](../../../04-knowledge/units/persons/agostino-tassi.md)；S2关系候选st-chp2-seciv-l65-77-borghese-palace-decoration-by-tassi留待S6。第49页称Tassi与Gentileschi绘制的壁画完成于1611至1612年；第56页具名Agostino Tassi，并称他受命绘制Don Taddeo出任罗马长官的场景。本卡依S3索引组对应两页语境，不补充外部生平；S2关系候选留待S6，不登记正式关系。
+- cand-2546（new-person:temanza-tommaso-8171d459b0）→ [托马索·特曼扎（Tommaso Temanza）](../../../04-knowledge/units/persons/tommaso-temanza.md)；S2关系候选st-chp15-p361-note2-mariette-letter-addressed-to-temanza留待S6。第6章脚注将未刊Zibaldone称为Tommaso Temanza所作；第10章脚注引用Temanza第87页；第15章脚注称Mariette于1768年致信Temanza；第21章书目列出T. Temanza的1778年著作。上述均为Haskell书内引文信息，不代表本轮查阅了原件。致信关系候选留待S6；不在本轮登记正式关系。
+- cand-2555（new-person:nicodemus-tessin-younger-09dda9ee95）→ [尼科德穆斯·泰辛（Nicodemus Tessin the Younger）](../../../04-knowledge/units/persons/nicodemus-tessin-younger.md)；S2关系候选st-chp2-seciv-l139-152-tessin-account-locator-and-date、st-chp20-p406-bjurstrom-tessin-drawings留待S6。第56页脚注称其游记为所述旅行记中最完整者，并推测成于1687至1688年，注明斯德哥尔摩藏本位置；第406页称Bjurström讨论Tessin的艺术趣味与绘画收藏。第406页称名按索引归组，正文简称所指未另行核验。两条S2关系候选留待S6，不登记正式关系。
+- cand-2568（new-person:james-thornhill-65d8cd6a4b）→ [詹姆斯·索恩希尔爵士（Sir James Thornhill）](../../../04-knowledge/units/persons/james-thornhill.md)；S2关系候选st-chp10-p286-thornhill-st-pauls-dome、st-chp10-p286-moor-park-built、st-chp10-p286-moor-park-decoration-open、st-chp10-p286-queens-bedchamber-commission留待S6。Haskell称圣保罗大教堂穹顶及汉普顿宫王后寝宫天顶交由Thornhill绘制；Moor Park乡间住宅由Sir James Thornhill与Giacomo Leoni先后建造。Styles原拟委托Thornhill装饰Moor Park，争执后改交Amigoni与Francesco Sleter。四条S2关系候选均留待S6，不新增正式关系。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和12条source_backed姓名字段。Agostino Tassi依索引第49、56页同组记录，保留第49页装饰语境与第56页全名和受命绘画的语境；Tommaso Temanza以索引全名连接第6、10、15、21章的书内指称，所引原件和出版物未独立查阅；Nicodemus Tessin the Younger依索引将第56注与第406页归入同组，同时标明第406页正文只写Tessin，并与Count Carl Gustav Tessin分开；Sir James Thornhill的St Paul's穹顶、Moor Park与Hampton Court事例仅保留原书所述的受命、建造和改派语气。本批8条S2关系候选留待S6；无formal relation、外部来源或backlog写入。
+
+登记后人物类型S4为639组/732条已登记、422组/423条待登记；全书KU=2067。

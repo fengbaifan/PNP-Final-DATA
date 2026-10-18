@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,044组、映射1,222条成员候选；尚待登记3,725组、3,739条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,048组、映射1,226条成员候选；尚待登记3,721组、3,735条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,063 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,067 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 11,374条，其中1,624条 unverified |
+| [既有字段表](../tables/enrichment.jsonl) | 11,386条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,155／1,061 | 635／426；427 | 4 | 7 | 1,208 |
+| person | 1,090→398 | 1,155／1,061 | 639／422；423 | 4 | 7 | 1,208 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,961／4,769** | **1,044／3,725；3,739** | **9** | **100** | **5,432** |
+| **合计** | **1,905→1,040** | **4,961／4,769** | **1,048／3,721；3,735** | **9** | **100** | **5,432** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -535,6 +535,10 @@ cand-2378 → ../units/persons/faustina-savorgnan.md；cand-2529 → ../units/pe
 ### S4 人物身份组登记：Anne Marie、Shaftesbury、Stanislas与Talbot四组人物端点（2026-10-18）
 
 cand-2381 → ../units/persons/anne-marie-of-savoy.md；cand-2425 → ../units/persons/1st-earl-of-shaftesbury.md；cand-2505 → ../units/persons/stanislas-poniatowski-king-of-poland.md；cand-2539 → ../units/persons/buno-talbot.md；六条S2关系候选保持待S6；Anne Marie只作收据署名者，Shaftesbury保留爵位称名，Talbot索引拼写Bruno与正文Buno并列保存；Stanislas相关未具名Warsaw views候选cand-9156仍待证。S4累计1,044组/1,222条候选映射已登记，3,725组/3,739条待登记；KU=2063。
+
+### S4 人物身份组登记：Tassi、Temanza、Tessin与Thornhill四组人物端点（2026-10-18）
+
+cand-2542 → ../units/persons/agostino-tassi.md；cand-2546 → ../units/persons/tommaso-temanza.md；cand-2555 → ../units/persons/nicodemus-tessin-younger.md；cand-2568 → ../units/persons/james-thornhill.md；8条S2关系候选继续待S6；Tessin第406页身份沿用索引归组并保留正文简称；本批未新增正式关系或外部来源。S4累计1,048组/1,226条候选映射已登记，3,721组/3,735条待登记；KU=2067。
 
 ## 未解决项与交接限制
 
