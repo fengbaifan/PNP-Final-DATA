@@ -60,14 +60,15 @@ def book_source(source_file: str, location: str, span: str, quote: str, summary:
 
 
 def index_source(t: dict) -> dict:
+    index_file = t["index_entry"].split("#", 1)[0]
     return {
-        "citation": "Francis Haskell, *Patrons and Painters*, index, S.csv.",
+        "citation": f"Francis Haskell, *Patrons and Painters*, index, {index_file}.",
         "location": f"书后索引，{t['index_entry']}；指向印刷页{t['index_page']}",
         "sentence_summary": f"索引以“{t['index_name']}”为主条并指向印刷页{t['index_page']}。",
         "original_quotes": [{"source_span": t["index_entry"], "text": t["index_name"]}],
         "evidence_ref": {
             "doc_id": "patrons-and-painters",
-            "source_file": "02-sources/03-Index/03-2-Index-CSV/S.csv",
+            "source_file": f"02-sources/03-Index/03-2-Index-CSV/{index_file}",
             "source_span": t["index_entry"],
         },
     }
@@ -271,6 +272,7 @@ def make_card(t: dict) -> str:
     fm = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False, width=1000)
     rows = "\n".join(f"| {field} | {value} | {evidence} |" for field, value, evidence in t["name_rows"])
     relation_ids = "、".join(t["relation_ids"])
+    type_sections = t.get("type_sections", "")
     return f"""---
 {fm}---
 
@@ -288,6 +290,7 @@ def make_card(t: dict) -> str:
 |---|---|---|
 {rows}
 
+{type_sections}
 ### 本书相关内容
 
 **中文：** {t['context_zh']}
@@ -341,7 +344,8 @@ def main() -> int:
         assert candidate.get("index_entry_id") == t["index_entry"]
         assert candidate.get("canonical_name") == t["index_name"]
         assert candidate.get("index_page_range") == t["index_page"]
-        index_rows = person_sync.read_index_rows("S.csv")
+        index_file = t["index_entry"].split("#", 1)[0]
+        index_rows = person_sync.read_index_rows(index_file)
         index_row = index_rows[int(t["index_entry"].split("#")[1])]
         assert index_row.get("Main Entry") == t["index_name"]
         assert index_row.get("Page Numbers", "") == t["index_page"]
@@ -416,7 +420,8 @@ def main() -> int:
         additions, source_registry, warnings, cards_with_tables = extract_records(selected_manifest)
     assert cards_with_tables == 4 and not warnings, warnings
     expected_name_rows = sum(len(t["name_rows"]) for t in TARGETS)
-    assert len(additions) == expected_name_rows
+    expected_additional_rows = sum(t.get("additional_field_rows", 0) for t in TARGETS)
+    assert len(additions) == expected_name_rows + expected_additional_rows
     assert all(row.get("evidence_status") == "source_backed" for row in additions)
     assert all(row.get("source_ids") == ["haskell-1980-rev-ed"] and row.get("source_ref") for row in additions)
 
@@ -480,7 +485,7 @@ def main() -> int:
     )
     assert count == 1
     batch_result = (
-        f"### S4 人物身份组登记：S索引四个直接端点（{DATE}）\n\n"
+        f"### S4 人物身份组登记：{BATCH_TITLE}（{DATE}）\n\n"
         + "；".join(f"{t['candidate']} → ../units/persons/{t['ku'].split('/')[-1]}.md" for t in TARGETS)
         + BATCH_RESULT_NOTE
         + f"S4累计{sync.fmt(totals['registered_groups'])}组/{sync.fmt(totals['registered_members'])}条候选映射已登记，"
@@ -501,7 +506,8 @@ def main() -> int:
 
     if args.dry_run:
         print(
-            f"dry-run passed: groups=4; cards=4; candidate_mappings=4; name_rows={len(additions)}; "
+            f"dry-run passed: groups=4; cards=4; candidate_mappings=4; name_rows={expected_name_rows}; "
+            f"additional_fields={expected_additional_rows}; enrichment_rows={len(additions)}; "
             f"relation_candidates={sum(len(t['relation_ids']) for t in TARGETS)}; "
             f"manifest={len(manifest)}->{len(planned_manifest)}; "
             f"person_registered={stats['person']['registered_groups']}/{stats['person']['registered_members']}; "
@@ -522,7 +528,8 @@ def main() -> int:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding="utf-8", newline="\n")
     print(
-        f"applied: groups=4; candidate_mappings=4; name_rows={len(additions)}; "
+        f"applied: groups=4; candidate_mappings=4; name_rows={expected_name_rows}; "
+        f"additional_fields={expected_additional_rows}; enrichment_rows={len(additions)}; "
         f"relation_candidates={sum(len(t['relation_ids']) for t in TARGETS)}; "
         f"person_registered={stats['person']['registered_groups']}/{stats['person']['registered_members']}; "
         f"person_pending={stats['person']['pending_groups']}/{stats['person']['pending_members']}; "
