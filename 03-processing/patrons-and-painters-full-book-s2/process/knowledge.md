@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,091 | 1,060 / 1,154 | 4 | 7 | 1,208 | 695 / 788 | 365 / 366 |
+| person | 3,464 | 1,092 | 1,059 / 1,154 | 4 | 7 | 1,207 | 699 / 792 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,906** | **4,768 / 4,960** | **9** | **100** | **5,432** | **1,104 / 1,282** | **3,664 / 3,678** |
+| **合计** | **12,407** | **1,907** | **4,767 / 4,960** | **9** | **100** | **5,431** | **1,108 / 1,286** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6696,3 +6696,25 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S3 person：de Brosses跨章人物身份复用（2026-10-18）
 
 cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../../04-knowledge/units/persons/charles-de-brosses.md)（units/persons/charles-de-brosses）。S1索引B.csv#302将该人物页码列为245、260及311n；S2 cand-9436记录第10章p.292注1与p.311注5的De Brosses称名，其中p.311注5正落在索引311n所指位置。第21章书目“Brosses, Charles de”提供同书作者全名。这些书内索引、正文／脚注与书目锚点支持同一人物；不要求原引文页已独立阅读，也不把书目或引文定位对象合并到人物。cand-9437、cand-9879、cand-8429与cand-8505仍是各自的archive引文定位候选；cand-11268是两卷本书目对象。保留原new组与原S3理由作为历史记录；本次没有新增外部身份来源、字段事实、正式关系或S6裁决。
+
+<a id="s4-b-index-brugiori-brunelleschi-brusoni-burrini-20261018"></a>
+
+### S4 person：Brugiori、Brunelleschi、Brusoni与Burrini四组人物（2026-10-18）
+
+- cand-0456（new-person:brugiori-domenico-add9db10dc）→ [多梅尼科·布鲁乔里（Domenico Brugiori）](../../../04-knowledge/units/persons/domenico-brugiori.md)；S2关系候选st-chp8-p227-conti-bought-brugiori-cain-abel留待S6。第8章p.227将Cain and Abel作为独立作品候选cand-0457，并在同句称Domenico Brugiori为画家。人物与作品分开；购买statement及其作者表述保留为S2关系候选，留待S6，不由本次登记生成正式边。
+- cand-0459（new-person:brunelleschi-filippo-62fe3e2653）→ [菲利波·布鲁内莱斯基（Filippo Brunelleschi）](../../../04-knowledge/units/persons/filippo-brunelleschi.md)；S2关系候选st-chp4-sec-ii-l46-51-restorers-took-proportions-from-roman-buildings留待S6。Haskell转引Cassiano，将Brunelleschi列在一组被称为建筑复兴者的人物中。该表述保留引文与群体层级；不据此为Brunelleschi补充未由本书锚点支持的个人生平或建筑事实。
+- cand-0461（new-person:brusoni-girolamo-86f3dc6e32）→ [吉罗拉莫·布鲁索尼（Girolamo Brusoni）](../../../04-knowledge/units/persons/girolamo-brusoni.md)；S2关系候选st-chp6-notes-l128-p149-n6留待S6。Haskell脚注称1662年诗集Allori d'Eurota由Girolamo Brusoni编辑；archive候选与人物保持分开，脚注关系候选st-chp6-notes-l128-p149-n6留待S6，不建立正式关系。
+- cand-0473（new-person:antonio-burrini-giovanni-e58a37c469）→ [乔瓦尼·安东尼奥·布里尼（Giovanni Antonio Burrini）](../../../04-knowledge/units/persons/giovanni-antonio-burrini.md)；S2关系候选st-chp8-p204-ricci-admired-contemporary-artists留待S6。Haskell在描写Giovanni Ricci欣赏的当代艺术家时列出Burrini和年轻的Crespi。该表述保留原书评价与多人语境；S2关系候选st-chp8-p204-ricci-admired-contemporary-artists留待S6。
+
+四个S3 new人物组登记为4张KU卡、4条new候选映射和8条source_backed姓名字段；Filippo Brunelleschi、Girolamo Brusoni与Giovanni Antonio Burrini分别有Treccani DBI身份记录，外部记录只支持身份，不扩展为卡内生平事实。Domenico Brugiori按本书全名及画家称名登记为source-local人物；Cain and Abel作品候选cand-0457与人物cand-0456分开。Brusoni索引子项cand-0462的same裁决及Canal跨章分组见后续S3复核。四条直接相关S2关系候选留待S6；无正式关系或backlog写入。
+
+登记后人物类型S4为699组/792条已登记、361组/362条待登记；全书KU=2127。
+
+<a id="s3-brusoni-canal-cross-chapter-20261018"></a>
+
+### S3跨章人物身份归并：Brusoni索引子项与Canal/Canale（2026-10-18）
+
+- `cand-0462`（B.csv#309，Brusoni, Girolamo；子目Allori d'Eurota）由undecided改为same → [units/persons/girolamo-brusoni](../../../04-knowledge/units/persons/girolamo-brusoni.md)。B.csv#308–309属于同一人名主项，#309仅列作品子目；第6章p.149注6给出Girolamo Brusoni全名。旧undecided理由在alignment.csv中保留并标明被本次直接索引结构及正文全名证据取代。子目指向的诗集/archive对象与人物仍分开，关系候选st-chp6-notes-l128-p149-n6留待S6。
+- `cand-0496`（C.csv#20，Gerolamo Canal）与`cand-0497`（C.csv#21，Procuratore Canale）合并为同一待登记身份组`new-person:canal-gerolamo-1e30c99339`，二者均为new；撤回的旧组`new-person:canale-procuratore-0f841d72a8`保存在cand-0497对齐行。第10章p.304的全名与职衔、第8章p.214注4的Procuratore称名由同一身份语境连接；Treccani DBI Solimena条目（[https://www.treccani.it/enciclopedia/francesco-solimena_(Dizionario-Biografico)/](https://www.treccani.it/enciclopedia/francesco-solimena_(Dizionario-Biografico)/)）提供上下文印证，但不是Canal个人规范记录，未填作外部身份ID。保留原书Canal/Canale拼写，不并入Canaletto/Giovanni Antonio Canal或Fabio Canal。两条S2关系候选均留待S6；该组尚无KU，进入S4待登记。
+- 其他相关S2关系候选（st-chp10-p304-smith-country-house-lease-purchase, st-chp6-notes-l128-p149-n6, st-chp8-p214-n4-venetian-patrons-owned-pictures）均保留原候选状态，未新增正式关系。
+- 更新后S3 same=1,907（1,042个KU），new=4,960/4,767组，undecided=5,431；S4待登记3,659组/3,674条候选映射。
