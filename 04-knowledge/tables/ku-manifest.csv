@@ -1,4 +1,4 @@
-﻿ku_id,type,canonical_name,name_en,source_task,card_path
+ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -959,6 +959,7 @@ units/persons/gianandrea-carlone,person,乔万尼·安德烈亚·卡尔洛内,Gi
 units/persons/giandomenico-tiepolo,person,乔万多梅尼科·提埃坡罗,Giandomenico Tiepolo,front-matter,04-knowledge/units/persons/giandomenico-tiepolo.md
 units/persons/gianfranco-torcellan,person,詹弗兰科·托尔切兰,Gianfranco Torcellan,,04-knowledge/units/persons/gianfranco-torcellan.md
 units/persons/giannantonio-fumiani,person,乔瓦尼·安东尼奥·富米亚尼,Giovanni Antonio Fumiani,front-matter,04-knowledge/units/persons/giannantonio-fumiani.md
+units/persons/giannantonio-moschini,person,吉安安东尼奥·莫斯基尼（Giannantonio Moschini）,Giannantonio Moschini,patrons-and-painters-full-book-s2,04-knowledge/units/persons/giannantonio-moschini.md
 units/persons/giaquinto-front-matter,person,科拉多·贾昆托,Corrado Giaquinto,front-matter,04-knowledge/units/persons/giaquinto-front-matter.md
 units/persons/gilles-marie-oppenord,person,吉尔-马里·奥本诺尔,Gilles-Marie Oppenord,patrons-and-painters-full-book-s2,04-knowledge/units/persons/gilles-marie-oppenord.md
 units/persons/gio-gasparo-baldoini,person,乔瓦尼·加斯帕雷·巴尔多伊诺,Giovanni Gaspare Baldoino,,04-knowledge/units/persons/gio-gasparo-baldoini.md
@@ -1457,6 +1458,7 @@ units/persons/ralph-bankes-1631-1677,person,拉尔夫·班克斯爵士,Sir Ralph
 units/persons/raphael,person,拉斐尔,Raphael,chp-1,04-knowledge/units/persons/raphael.md
 units/persons/rembrandt,person,伦勃朗,Rembrandt,chp-1,04-knowledge/units/persons/rembrandt.md
 units/persons/ribera,person,胡塞佩·德·里贝拉,Jusepe de Ribera,front-matter,04-knowledge/units/persons/ribera.md
+units/persons/richard-boyle-earl-burlington,person,"理查德·博伊尔，第三代伯灵顿伯爵兼第四代科克伯爵（Richard Boyle, 3rd Earl of Burlington and 4th Earl of Cork）","Richard Boyle, 3rd Earl of Burlington and 4th Earl of Cork",patrons-and-painters-full-book-s2,04-knowledge/units/persons/richard-boyle-earl-burlington.md
 units/persons/richard-mead,person,理查德·米德（Richard Mead）,Richard Mead,patrons-and-painters-full-book-s2,04-knowledge/units/persons/richard-mead.md
 units/persons/richard-wilson,person,理查德·威尔逊,Richard Wilson,patrons-and-painters-full-book-s2,04-knowledge/units/persons/richard-wilson.md
 units/persons/robert-adam,person,罗伯特·亚当,Robert Adam,patrons-and-painters-full-book-s2,04-knowledge/units/persons/robert-adam.md
