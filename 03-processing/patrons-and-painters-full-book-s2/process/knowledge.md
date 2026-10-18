@@ -26,7 +26,7 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 110 / 154 | 1,121 / 1,142 |
+| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 111 / 156 | 1,120 / 1,140 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
@@ -36,11 +36,11 @@
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,128 / 1,311** | **3,690 / 3,713** |
+| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,129 / 1,313** | **3,689 / 3,711** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,309 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；301 条外部身份记录另行保留。same 的 1,965 条候选指向 1,047 个既有 KU；new 候选组成 4,818 个类型内身份组，共 5,024 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,690 组、3,713 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,309 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；301 条外部身份记录另行保留。same 的 1,965 条候选指向 1,047 个既有 KU；new 候选组成 4,818 个类型内身份组，共 5,024 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,689 组、3,711 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -6818,9 +6818,9 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 
 ### S3 archive：Baldinucci《Notizie》卷 VI（1728）跨章引文身份组（2026-10-18）
 
-`cand-4846` 与 `cand-8601` 合为 `new` 组 `archive-group-baldinucci-notizie-vol-vi-1728`，待S4登记。第21章 p.413 书目条目 `st-chp21-bib-l87-127-entry-01` 列出 Filippo Baldinucci, *Notizie de’ Professori del disegno da Cimabue in qua, Secolo V dal 1610 al 1670*, vol. VI, Firenze 1728。`cand-4846` 汇集第1、2、4、5、6、7、8章的卷VI/1728页码引文；`cand-8601` 是第9章 p.263–264 注7 的“Baldinucci, VI, 1728, p.421”。版本、卷次、年份及书目题名相合，指向同一出版物卷册。
+`cand-4846` 与 `cand-8601` 合为 `new` 组 `archive-group-baldinucci-notizie-vol-vi-1728`。第21章 p.413 书目条目 `st-chp21-bib-l87-127-entry-01` 列出 Filippo Baldinucci, *Notizie de’ Professori del disegno da Cimabue in qua, Secolo V dal 1610 al 1670*, vol. VI, Firenze 1728。`cand-4846` 汇集第1、2、4、5、6、7、8章的卷VI/1728页码引文；`cand-8601` 是第9章 p.263–264 注7 的“Baldinucci, VI, 1728, p.421”。版本、卷次、年份及书目题名相合，指向同一出版物卷册；S3裁决时待S4，现已登记，见下文。
 
-裁决只处理书目身份；所引页码与相应正文主张均未通过原书引文页独立核验。`cand-7027`（IV, 1688）、`cand-7059`（V, 1702）保留各自不同卷次／年份或待证身份；`cand-6413` 仅称Baldinucci的艺术史、未指定卷册，不并入；1948年《Vita del Cavaliere Gio. Lorenzo Bernini》也保持独立。未新增KU或正式关系。档案类现为new=1,255个候选/1,203组，undecided=737；待登记1,094组/1,104条成员候选。全书new=4,971/4,769组、undecided=5,367；S4待登记3,662组/3,686条映射。
+裁决只处理书目身份；所引页码与相应正文主张均未通过原书引文页独立核验。`cand-7027`（IV, 1688）、`cand-7059`（V, 1702）保留各自不同卷次／年份或待证身份；`cand-6413` 仅称Baldinucci的艺术史、未指定卷册，不并入；1948年《Vita del Cavaliere Gio. Lorenzo Bernini》也保持独立。S3阶段未新增KU或正式关系；本组随后完成S4登记（见下文），本段计数为S3裁决时快照。档案类当时为new=1,255个候选/1,203组，undecided=737；待登记1,094组/1,104条成员候选。全书new=4,971/4,769组、undecided=5,367；S4待登记3,662组/3,686条映射。
 
 ### S3 archive：Passeri《Vite》Jacob Hess 1934版跨章引文身份组（2026-10-18）
 
@@ -7177,3 +7177,11 @@ cand-3504 由 undecided 改为 new，归入 new-person:antonino-bertolotti-20261
 - 登记三个已裁为 `new` 的单候选人物组：`new-person:de-giovanni-vecchi-528e973190`（`cand-2706`）→ `units/persons/giovanni-de-vecchi`；`new-person:alessandro-borgia-14b6400170`（`cand-7737`）→ `units/persons/alessandro-borgia`；`new-person:de-ghelthof-urbani-26e26c4cab`（`cand-12253`）→ `units/persons/urbani-de-ghelthof`。
 - Vecchi 依据索引页码66、80及第3章两处正文记录耶稣教堂穹隅与穹顶壁画；Borgia 依据第8章p.223注5所列两封致Raimondo Buonaccorsi的信及书内称谓，原信未查；Urbani de Ghelthof 依据第16章p.377注3登记其书内刊布者身份，并保留Haskell关于文献使用可靠性的原文警示，不将该评价改写成独立结论。
 - 三卡均限于Haskell书内信息，新增10条 source-backed 字段记录、复用既有Haskell来源，不加入外部身份资料。每人两条S2关系候选，共6条留待S6；本批未新增正式关系。S4累计登记1,128组/1,311条候选映射，待登记3,690组/3,713条；person类型登记718组/814条映射，待登记354组/356条。
+
+<a id="s4-archive-baldinucci-notizie-volume-vi-1728-20261018"></a>
+
+### S4 archive：Baldinucci《Notizie》卷 VI（1728）跨章直接关系端点组登记（2026-10-18）
+
+- 将既有 S3 `new` 组 `archive-group-baldinucci-notizie-vol-vi-1728` 的 `cand-4846`、`cand-8601` 共同映射至一张 KU：`units/archives/baldinucci-notizie-volume-vi-1728`。第21章 p.413 书目列 Filippo Baldinucci、*Notizie de’ Professori del disegno da Cimabue in qua, Secolo V dal 1610 al 1670*, vol. VI, Firenze 1728；版本、卷次和年份与跨章引文定位相合，原书卷册和被引页均未独立查阅。
+- 卡片以中英文描述性工作题名保留原题；第1、2、4、5、6、7、8、9章的引文及第21章书目项各有定位。作者指向已存在的 Filippo Baldinucci 人物 KU；新增8条 source-backed 字段记录并复用既有 Haskell 来源，不新建来源登记；本批未登记正式作者关系。
+- 该卷为15条S2关系候选的端点，15条均留待S6逐项审查；引文身份与引用线索不自动成为正式关系。登记后，S4累计登记1,129组/1,313条映射，待登记3,689组/3,711条；archive类型登记111组/156条，待登记1,120组/1,140条；KU=2,148，字段=11,587。
