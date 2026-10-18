@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,131组、映射1,315条成员候选；尚待登记3,687组、3,709条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,132组、映射1,316条成员候选；尚待登记3,686组、3,708条映射。
 
 ## 范围与覆盖
 
@@ -21,19 +21,19 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,150 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,151 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,708 条：12,407 条候选决定记录及 301 条外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,603条，其中1,624条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,611条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,150；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,603；S4待登记new候选映射3,709条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,151；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,611；S4待登记new候选映射3,708条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2739,3 +2739,8 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 ### S4 archive：Pastor《教皇史》卷 XIII 跨章身份组登记（2026-10-18）
 
 `cand-4237` 按既有 S3 组 `archive-group-pastor-storia-dei-papi-vol-xiii` 映射至[Pastor《教皇史》卷 XIII 档案卡](../units/archives/pastor-storia-dei-papi-vol-xiii.md)。第2、3、6章的卷XIII引文一致归入该卷级书目组。外部书目支持卷号、系列题名与历史范围，但不确定Haskell所引具体印次；第21章Roma 1943泛称条目无卷号，`cand-11414` 仍待证且不并入。本卡新增8条source-backed字段记录；5条关系候选留待S6，无正式关系或S5补足。本批后S4已登记1,131组/1,315条映射，待登记3,687组/3,709条；archive类型登记113组/158条，待登记1,118组/1,138条；KU=2,150，字段=11,603。严格阶段审计通过，既有警告仍保留。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-pastor-storia-dei-papi-vol-xiii-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
+
+
+### S4 archive：Orbaan《Documenti sul Barocco in Roma》（1920）跨章引文身份组登记（2026-10-18）
+
+`cand-4373` 按 S3 组 `archive-group-orbaan-documenti-barocco-1920` 映射至[《罗马巴洛克文献》档案卡](../units/archives/documenti-sul-barocco-in-roma-1920.md)。第21章 p.432 书目给出 J. A. F. Orbaan、原题、Roma 与1920年；第2至4章的引文与该身份相合。登记范围限于书目身份，未独立查阅原书、所引页或转引材料；不推断出版社、版本或作者规范身份。1631年清单、1608年Avviso及Orbaan 1914–1915年论文保持分立；人物候选 `cand-6384` 仍待证。6条S2关系候选留待S6，未新增正式关系或外部来源。本批新增8条source-backed字段事实。此后S4已登记1,132组／1,316条映射，待登记3,686组／3,708条；archive类型登记114组／159条，待登记1,127组／1,137条；KU=2,151，enrichment=11,611。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-orbaan-documenti-barocco-1920-20261018)、[KU清单](../tables/ku-manifest.csv)、[对齐表](../tables/alignment.csv)与知识卡。
