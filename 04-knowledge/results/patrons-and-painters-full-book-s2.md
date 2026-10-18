@@ -33,7 +33,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,697、unlinked=0；enrichment=11,508；S4待登记new候选映射3,729条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,961（1,046个既有KU）、new=5,014（4,808个类型内身份组）、conflict=9、excluded=100、undecided=5,323；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。290条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,697、unlinked=0；enrichment=11,508；S4待登记new候选映射3,729条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,963（1,046个既有KU）、new=5,014（4,808个类型内身份组）、conflict=9、excluded=100、undecided=5,321；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。290条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2627,3 +2627,10 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-2709` 由 `undecided` 改为 `same`，映射到既有人物 KU `units/persons/velasquez`。索引主项跨章出现，第8章注4直接写出 “Diego Velasquez”，与卡片规范名 Diego Velázquez、别名 Velasquez 及已映射候选 `cand-3894` 相合。仅复用人物身份，作品及其归属保留 S2 限定；不新增 KU 或关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-velasquez-cross-chapter-person-reuse-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前 S3 `same=1,961`（1,046个既有KU）、`new=5,014`／4,808组、`conflict=9`、`excluded=100`、`undecided=5,323`；S4待登记映射仍为3,729条。严格表审计复核后确认。
+
+
+### S3 person：Bottari 与 Bellori 人物候选复用（2026-10-18）
+
+`cand-3507` 映射到 Giovanni Bottari 人物 KU：第14章全名、B.csv#264 及已登记索引候选 `cand-0417` 相合。`cand-3535` 映射到 Giovanni Pietro Bellori 人物 KU：B.csv#119 全名主项、跨章引文语境及已映射候选组支持复用。引文所指书信、刊本及人物著作维持 archive 与 person 粒度边界，相关编者关系仍留待 S6。
+
+当前 S3 `same=1,963`（1,046个既有KU）、`new=5,014`／4,808组、`conflict=9`、`excluded=100`、`undecided=5,321`；S4待登记映射仍为3,729条。人物类型 `same=1,146`、`new=1,160`、`undecided=1,147`。严格表审计复核后确认。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bottari-bellori-cross-chapter-person-reuse-20261018)与[对齐表](../tables/alignment.csv)。
