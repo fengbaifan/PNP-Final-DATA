@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 639 / 732 | 422 / 423 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 643 / 736 | 418 / 419 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,048 / 1,226** | **3,721 / 3,735** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,052 / 1,230** | **3,717 / 3,731** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6508,3 +6508,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和12条source_backed姓名字段。Agostino Tassi依索引第49、56页同组记录，保留第49页装饰语境与第56页全名和受命绘画的语境；Tommaso Temanza以索引全名连接第6、10、15、21章的书内指称，所引原件和出版物未独立查阅；Nicodemus Tessin the Younger依索引将第56注与第406页归入同组，同时标明第406页正文只写Tessin，并与Count Carl Gustav Tessin分开；Sir James Thornhill的St Paul's穹顶、Moor Park与Hampton Court事例仅保留原书所述的受命、建造和改派语气。本批8条S2关系候选留待S6；无formal relation、外部来源或backlog写入。
 
 登记后人物类型S4为639组/732条已登记、422组/423条待登记；全书KU=2067。
+
+<a id="s4-teniers-theodon-tofts-torelli-person-endpoints-20261018"></a>
+
+### S4 person：Teniers、Théodon、Tofts与Torelli四组人物端点（2026-10-18）
+
+- cand-2549（new-person:david-teniers-a9f6e89e4e）→ [大卫·泰尼尔斯（David Teniers）](../../../04-knowledge/units/persons/david-teniers.md)；S2关系候选st-chp14-p358-recommended-study-teniers留待S6。Haskell转述Algarotti建议学习Teniers、Wouwermans、Vernet和Pannini，以兼顾意大利素描的高贵与佛兰德趣味。第358页正文仅称Teniers；本卡全名依书后索引，不扩展其生平或外部身份。该关系候选留待S6，不登记正式关系。
+- cand-2566（new-person:baptiste-jean-theodon-db4c8b1420）→ [让-巴蒂斯特·泰奥东（Jean Baptiste Théodon）](../../../04-knowledge/units/persons/jean-baptiste-theodon.md)；S2关系候选st-chp20-p400-enggass-rome-sculpture-book留待S6。第3章称另一侧祭坛有一组Faith crushing Idolatry雕塑，归于Jean Baptiste Theodon，并将其风格与Legros比较；第20章称Enggass的研究讨论了Gesù教堂中Théodon与Legros的雕像。相关作品候选cand-2567、cand-5434、cand-10936仍分别为S3 undecided，本卡不据此登记作品KU或正式创作关系。唯一S2关系候选留待S6。
+- cand-2639（new-person:katherine-tofts-2496dc1f4e）→ [凯瑟琳·托夫茨（Katherine Tofts）](../../../04-knowledge/units/persons/katherine-tofts.md)；S2关系候选st-chp10-p302-smith-first-marriage、st-chp10-p302-smith-second-marriage、st-chp10-p302-smith-wynne-pursuit留待S6。Haskell称Smith与Katherine Tofts的第一段婚姻，并以“rich but mad”描述她；该措辞是作者评价，未作为独立事实核实。同段另提Smith追求Giustiniana Wynne及其第二段婚姻，分别保留为不同S2关系候选，不映射为Tofts的关系。本批三条相关关系候选均待S6，不登记正式关系。
+- cand-2647（new-person:giacomo-torelli-16d67515c5）→ [贾科莫·托雷利（Giacomo Torelli）](../../../04-knowledge/units/persons/giacomo-torelli.md)；S2关系候选st-chp7-p182-i10、st-chp7-p182-i11、st-chp7-p183-i16、st-chp7-p183-n4-cite-prunieres留待S6。Haskell称Torelli于1645年由帕尔马公爵派往巴黎，此前曾为该公爵工作；其布景和新技术比所服务的歌剧吸引更多注意。第183页称他在Fronde期间财务破产并被监禁数月；此为Haskell书内叙述。脚注4引用Prunières 1913年著作第149页，未独立查阅。四条S2关系候选留待S6，不登记正式关系。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和10条source_backed姓名字段。David Teniers依索引全名登记，正文p.358仅称Teniers；Jean Baptiste Théodon以索引第92、400页连接第3章全名与第20章简称，相关雕塑候选cand-2567、cand-5434、cand-10936继续保留S3 undecided；Katherine Tofts只按Haskell第302页所述第一段婚姻登记，同段关于Giustiniana Wynne及Smith第二段婚姻的S2关系候选保持区分；Giacomo Torelli依据索引第182、183页与正文全名归组，保留第183页财务处境归因和脚注书目定位。本批9条S2关系候选留待S6；无formal relation、外部来源或backlog写入。
+
+登记后人物类型S4为643组/736条已登记、418组/419条待登记；全书KU=2071。
