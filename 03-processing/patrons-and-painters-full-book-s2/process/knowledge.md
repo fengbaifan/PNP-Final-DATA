@@ -16,7 +16,7 @@
 
 - 新身份组：1667 年克勉九世即位（`cand-4813`、`cand-6482`）；贝加莫城市（`cand-11460`、`cand-7743`、`cand-6208`、`cand-8574`）；Farsetti 在 S. Maria di Sala 的乡间宅邸（`cand-1007`、`cand-10432`）；Montecchio 的 Villa Cordellina（`cand-10279`、`cand-8376`）；维琴察 Cordellina 宅邸（`cand-11069`、`cand-8375`）；Dresden Gallery（`cand-10222`、`cand-9091`）。这些组各自没有现成同类 KU，决定为 `new`，不是把不同对象并入既有卡片。
 - 分开处理的事件：S. Giovanni Decollato 的持续系列与 1675、1736 两次具体事件分别分组；S. Rocco 的年度系列与 1770 年具体事件分开；贝加莫 1653 年装饰计划与 1695 年完成事件分开。
-- 保留待证的交叉引用：John Strange 在 Paese 的别墅与“Treviso 附近乡间宅邸”尚无同一建筑证据；威尼斯与佩鲁贾 Baglioni 家族的谱系关系未明；Rialto 地区与构图中的 Rialto 元素分开。Gonzaga 家族候选与“see under Mantua, Dukes of”索引交叉引用共用 `sg3-review-gonzaga-family-redirect` 仅为检索/复核关系：后者按 S1 已排除，不能被视为另一个 family 身份；House Savoy 的 family 候选与类型不符的索引指引也分别保留。相关候选保留单独的 review 组或候选级决定，不以索引、相邻条目或共现代替证据。
+- 保留待证的交叉引用：威尼斯与佩鲁贾 Baglioni 家族的谱系关系未明；Rialto 地区与构图中的 Rialto 元素分开。John Strange 的 Paese 别墅与 Treviso 附近乡间宅邸已于2026-10-18复核并复用Villa Loredan既有KU，详见下方S3地点裁决。Gonzaga 家族候选与“see under Mantua, Dukes of”索引交叉引用共用 `sg3-review-gonzaga-family-redirect` 仅为检索/复核关系：后者按 S1 已排除，不能被视为另一个 family 身份；House Savoy 的 family 候选与类型不符的索引指引也分别保留。相关候选保留单独的 review 组或候选级决定，不以索引、相邻条目或共现代替证据。
 - 档案/文献类型形成 28 个已裁定的跨章多候选身份组；另有 `cand-6207` / `cand-11945` 作为待证重复候选组保留。题名相同但版次、卷册、责任者、日期或档号不一致时不自动合并。
 - 历史分组、复用与拆分轨迹见下方各批次记录；截至 2026-10-18 的候选数及逐类型决定数以本节统计表和全书结果文件为准。S4 已登记组按每组一个 KU 处理并映射全部组内候选；未登记组按本节统计保留待办。
 
@@ -31,16 +31,16 @@
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
 | person | 3,464 | 1,143 | 1,061 / 1,159 | 4 | 7 | 1,151 | 698 / 791 | 363 / 368 |
-| place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
+| place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,958** | **4,768 / 4,969** | **9** | **100** | **5,371** | **1,107 / 1,285** | **3,661 / 3,684** |
+| **合计** | **12,407** | **1,960** | **4,768 / 4,969** | **9** | **100** | **5,369** | **1,107 / 1,285** | **3,661 / 3,684** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,371 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；268 条外部身份记录另行保留。same 的 1,958 条候选指向 1,046 个既有 KU；new 候选组成 4,768 个类型内身份组，共 4,969 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,369 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；270 条外部身份记录另行保留。same 的 1,960 条候选指向 1,046 个既有 KU；new 候选组成 4,768 个类型内身份组，共 4,969 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -6809,3 +6809,9 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 `cand-8658` 由 `undecided` 改为 `new`，建立待登记组 `new-person:vittorio-moschini-1896-1976`。第9章 p.265 注5引 `V. Moschini, 1956, p.12`，第10章 p.277 注5引 `V. Moschini, 1954, p.29`；第21章 p.431 书目分别列出 V. Moschini 的 *Pietro Longhi*（Milano 1956）与 *Canaletto*（Milano 1954）。美国国家美术馆[《The Faint》记录](https://www.nga.gov/artworks/204-faint)的书目将 *Pietro Longhi*（1956）作者列作 Vittorio Moschini；[《Entrance to the Grand Canal from the Molo, Venice》记录](https://www.nga.gov/artworks/32589-entrance-grand-canal-molo-venice)也把 *Canaletto*（1954）作者列作 Vittorio Moschini。BiblioToscana[目录记录](https://biblio.toscana.it/catalogo/record/a_pittura_italiana_del_settecento_moschini_vittorio_1896_1976_1931_nemi_novissima_enciclopedia_monografica_illustrata-prato_XABPO0017420)将其另一部1931年著作的作者列为“Moschini, Vittorio <1896-1976>”。三个记录均于2026-10-18访问，分别保存在 `aln-12677` 与 `aln-12676`；题名、出版年和作者形式相合，支持两章中的 V. Moschini 为 Vittorio Moschini。
 
 该组与 Giannantonio Moschini（1773–1840）分开；`cand-8643`（*Pietro Longhi*）和 `cand-9295`（*Canaletto*）仍是各自的 archive 身份组，`cand-10605`（*Epistolario Moschini*）仍为独立档案对象。对引用内容、作品位置和作者论证不作验证；S2 关系候选未改写，S4 KU 尚未登记。外部身份行新增2条，alignment 共12,674行（12,407条候选决定、267条外部身份记录）。更新后全书 `new=4,969`（4,768组），`undecided=5,371`；S4待登记3,661组/3,684条候选映射。
+
+### S3 place：John Strange 的 Paese 别墅与 Treviso 乡间住宅（2026-10-18）
+
+`cand-11524`（图版64说明中的“John Strange’s villa at Paese near Treviso”）与 `cand-11546`（第16章 p.374 的“Strange’s country house near Treviso”）均改判 `same` → `units/places/villa-loredan-paese`。前者与既有图版64作品候选 `cand-4036` 同出一条图版说明；已接受作品 KU 的正式 `has_subject` 关系 `rel-0698` 指向Villa Loredan。后者的原文地点虽未写Paese，但National Gallery称Villa Loredan是Strange在Paese的乡间住宅；Met记录题为 *The Villa Loredan, near Treviso*，所录题记称该处为Paese的Loredan宅邸、当时由John Strange持有。两记录的地点、住宅指代和人物相合。
+
+外部身份对照与访问日期分别记于 `aln-12678`–`aln-12680`。图版64不与某一具体馆藏画作配对；第16章关于画作曾暂存于该处的断言未作外部核实。本次仅将两条place候选映射到现有KU，不新增KU、关系或补足事实。S3 place 为same=228、undecided=314；全书same=1,960（1,046个既有KU）、new=4,969/4,768组、conflict=9、excluded=100、undecided=5,369。S4状态不变：已登记1,107组/1,285条，待登记3,661组/3,684条；alignment共12,677行，其中270行为外部身份记录。
