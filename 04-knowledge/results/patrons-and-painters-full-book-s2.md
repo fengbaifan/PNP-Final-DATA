@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,020组、映射1,198条成员候选；尚待登记3,749组、3,763条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,024组、映射1,202条成员候选；尚待登记3,745组、3,759条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,039 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,043 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 11,322条，其中1,624条 unverified |
+| [既有字段表](../tables/enrichment.jsonl) | 11,331条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,155／1,061 | 611／450；451 | 4 | 7 | 1,208 |
+| person | 1,090→398 | 1,155／1,061 | 615／446；447 | 4 | 7 | 1,208 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,961／4,769** | **1,020／3,749；3,763** | **9** | **100** | **5,432** |
+| **合计** | **1,905→1,040** | **4,961／4,769** | **1,024／3,745；3,759** | **9** | **100** | **5,432** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2347,3 +2347,8 @@ cand-1671由new改判same，映射至既有Mario Minniti KU。M.csv的“Minitti
 ### S3复核与S4人物登记：Sagredo三位人物（2026-10-18）
 
 `cand-2326` → `../units/persons/gherardo-sagredo.md`；`cand-2327` → `../units/persons/niccolo-sagredo.md`；`cand-2328` → `../units/persons/stefano-sagredo.md`。三位均为各自独立的S3 new身份组，各登记一张KU；Niccolò与Gherardo的外部身份对应已记录，Stefano的Princeton馆藏沿革映射仍为undecided，书内索引、注释及页图拼写差异保留。Princeton记录与Haskell对Zaccaria生年（1633／1653）的记载不一，且Princeton对Gherardo列1691–1738，Haskell称其1738年去世时49岁；日期与年龄差异留待S5事实核验，不作为身份冲突裁决。五条关系候选留待S6，不新增正式关系。
+
+
+### S4 人物身份组登记：S索引四个直接端点（2026-10-18）
+
+cand-2396 → ../units/persons/georg-friedrich-schmidt.md；cand-2397 → ../units/persons/friedrich-karl-schonborn.md；cand-2398 → ../units/persons/johann-philip-franz-schonborn.md；cand-2399 → ../units/persons/lothar-franz-von-schonborn.md。四个S3 new单候选身份组各登记一个KU；Schönborn三人按各自全名分别保留。本批涉及的S2关系候选继续待S6；书信原件与引文依据保留各自核读限制。未新增外部来源或正式关系。

@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 611 / 704 | 450 / 451 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 615 / 708 | 446 / 447 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,020 / 1,198** | **3,749 / 3,763** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,024 / 1,202** | **3,745 / 3,759** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6411,3 +6411,22 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 - cand-2383由new改为undecided，原组new-person:duchess-of-savoy-5fdc78ee0e撤回，不登记KU。S.csv#71及第3章p.65只有“Duchess of Savoy”称号，虽有17世纪末和Turin语境，未给个人姓名，也没有书内跨章锚点能对应cand-2380或cand-2381。不因同属Savoy或头衔相近而合并；关系候选st-chp3-seci-l26-33-duchess-wanted-ciro-ferri、st-chp3-seci-l26-33-duchess-turin-not-prevented继续待S6。
 
 复核后person类型S4为611组/704条已登记、450组/451条待登记；全书KU=2039。
+
+<a id="s4-schmidt-schonborn-person-endpoints-20261018"></a>
+
+### S4 person：Schmidt与Schönborn四个身份组登记（2026-10-18）
+
+- cand-2396（new-person:friedrich-georg-schmidt-91439cc794）→ [格奥尔格·弗里德里希·施密特（Georg Friedrich Schmidt）](../../../04-knowledge/units/persons/georg-friedrich-schmidt.md)；S2关系候选st-chp20-p409-santifaller-algarotti-portraits-schmidt-print、st-chp20-p409-schmidt-salimbeni-etching留待S6。两条涉及Schmidt的S2关系候选分别涉及Algarotti肖像与1752年版画、以及为Felice Salimbeni制作的蚀刻像；保留原书归因并待S6逐条裁决。
+- cand-2397（new-person:friedrich-karl-schonborn-ec83d66570）→ [弗里德里希·卡尔·申伯恩（Friedrich Karl Schönborn）](../../../04-knowledge/units/persons/friedrich-karl-schonborn.md)；S2关系候选st-chp10-p293-note4-franz-schoenborn-letter、st-chp10-p293-note4-franz-letter-addressed-to、st-chp10-p296-bishopric-transfer留待S6。涉及本人的三条S2候选涵盖脚注所述信件及其收件人、以及1746年去世后Würzburg主教职位的转移；原信未读，三条均保留来源限定并待S6裁决。
+- cand-2398（new-person:franz-johann-philip-schonborn-934e428cde）→ [约翰·菲利普·弗朗茨·申伯恩（Johann Philip Franz Schönborn）](../../../04-knowledge/units/persons/johann-philip-franz-schonborn.md)；S2关系候选st-chp10-p293-note4-franz-schoenborn-letter、st-chp10-p293-note4-franz-letter-authored-by留待S6。同一脚注的综合陈述和作者指认均为S2关系候选；书信原件未读，关系与信件细节待S6依据现有证据裁决。
+- cand-2399（new-person:franz-lothar-schonborn-von-9635ffd088）→ [洛塔尔·弗朗茨·冯·申伯恩（Lothar Franz von Schönborn）](../../../04-knowledge/units/persons/lothar-franz-von-schonborn.md)；S2关系候选st-chp7-p195-german-patron-generalization、st-chp7-p195-lothar-schonborn-letter、st-chp7-p195-n2-schoenborn-letter留待S6。相关三条S2候选分别涉及信中陈述、Haskell关于其他德国赞助人的概括，以及脚注书目指引；后两者不作为独立人物关系或已核实原件处理，均留待S6。
+
+四条S3 new决定分别对应四个单候选身份组，各登记一张人物KU。Friedrich Karl与Johann Philip Franz Schönborn按不同全名和独立身份组分别登记。书信及引文均保留Haskell的转述范围；Johann Philip Franz与Friedrich Karl相关信件原件、Lothar Franz所引信件及书目均未在本轮独立查阅。本批不新增外部来源、正式关系或backlog项目。
+
+登记后人物类型S4为615组/708条已登记、446组/447条待登记；全书KU=2043。
+
+<a id="s4-person-name-fields-schmidt-schonborn-20261018"></a>
+
+### S4结构化姓名字段登记：四张人物卡（2026-10-18）
+
+四张卡姓名表共登记9条source_backed enrichment行（enr-15073、enr-15074、enr-15075、enr-15076、enr-15077、enr-15078、enr-15079、enr-15080、enr-15081），全部关联既有Haskell书目来源ID；未新增sources.csv记录、S5生平字段或formal relation。
