@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,092 | 1,059 / 1,154 | 4 | 7 | 1,207 | 699 / 792 | 360 / 362 |
+| person | 3,464 | 1,097 | 1,059 / 1,154 | 4 | 7 | 1,202 | 699 / 792 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,907** | **4,767 / 4,960** | **9** | **100** | **5,431** | **1,108 / 1,286** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,912** | **4,767 / 4,960** | **9** | **100** | **5,426** | **1,108 / 1,286** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6718,3 +6718,11 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-0496`（C.csv#20，Gerolamo Canal）与`cand-0497`（C.csv#21，Procuratore Canale）合并为同一待登记身份组`new-person:canal-gerolamo-1e30c99339`，二者均为new；撤回的旧组`new-person:canale-procuratore-0f841d72a8`保存在cand-0497对齐行。第10章p.304的全名与职衔、第8章p.214注4的Procuratore称名由同一身份语境连接；Treccani DBI Solimena条目（[https://www.treccani.it/enciclopedia/francesco-solimena_(Dizionario-Biografico)/](https://www.treccani.it/enciclopedia/francesco-solimena_(Dizionario-Biografico)/)）提供上下文印证，但不是Canal个人规范记录，未填作外部身份ID。保留原书Canal/Canale拼写，不并入Canaletto/Giovanni Antonio Canal或Fabio Canal。两条S2关系候选均留待S6；该组尚无KU，进入S4待登记。
 - 其他相关S2关系候选（st-chp10-p304-smith-country-house-lease-purchase, st-chp6-notes-l128-p149-n6, st-chp8-p214-n4-venetian-patrons-owned-pictures）均保留原候选状态，未新增正式关系。
 - 更新后S3 same=1,907（1,042个KU），new=4,960/4,767组，undecided=5,431；S4待登记3,659组/3,674条候选映射。
+
+<a id="s3-rosalba-carriera-index-subentries-20261018"></a>
+
+### S3 person：Rosalba Carriera索引子项复用既有人物KU（2026-10-18）
+
+- cand-0582（C.csv#106，and Augustus III of Poland）、cand-0583（#107，influence on French painting）、cand-0584（#108，journal, edited by Vianello）、cand-0587（#111，Winter）及cand-0589（#113，work in Paris）均由undecided改判same → [units/persons/rosalba-carriera](../../../04-knowledge/units/persons/rosalba-carriera.md)。五项均为人物主项“Carriera, Rosalba”下的书后索引子目，页码分别为295、285、376、303、284–285；不是五个独立人物。主项cand-0581由第10章p.276的全名锚定，且主项下cand-0585、cand-0586、cand-0588已进入同一Carriera人物KU，提供跨章上下文连续性。
+- 关系边界：Augustus III（cand-0148）保持独立人物；1793年journal候选仍是独立archive KU [units/archives/carriera-journal-vianello-1793](../../../04-knowledge/units/archives/carriera-journal-vianello-1793.md)；`Winter`作品端点cand-9203及其S2 statement st-chp10-p303-winter-description不由索引子项替代。不新增正式关系；相关S2关系候选保持原状态。
+- 更新后S3 same=1,912（1,043个KU），new=4,960/4,767组，undecided=5,426；S4待登记3,659组/3,674条候选映射。
