@@ -88,8 +88,17 @@ def write_csv(path: Path, fieldnames, rows):
 
 
 def get_group(note: str) -> str:
-    match = re.search(r"group=([^;]+)", note or "")
-    return match.group(1).strip() if match else ""
+    note = note or ""
+    patterns = (
+        re.compile(r"(?<![A-Za-z0-9_-])group=([A-Za-z0-9_./:-]+)"),
+        re.compile(r"身份组=([A-Za-z0-9_./:-]+)"),
+    )
+    matches = [match for pattern in patterns for match in pattern.finditer(note)]
+    if not matches:
+        return ""
+    # Notes retain prior decisions; use the first explicit current group marker,
+    # while avoiding matches inside keys such as prior_group= and current_group=.
+    return min(matches, key=lambda match: match.start()).group(1).rstrip(".,:;")
 
 
 def load_statements():
@@ -163,11 +172,21 @@ def make_card():
 
 def summarize_by_type(candidate_rows, alignment_rows):
     candidate_by_id = {row["candidate_id"]: row for row in candidate_rows}
-    decisions = {
-        row["candidate_id"]: row
-        for row in alignment_rows
-        if row.get("candidate_id") and not row.get("external_source")
-    }
+    alignment_by_candidate = defaultdict(list)
+    for row in alignment_rows:
+        candidate_id = row.get("candidate_id", "")
+        if candidate_id in candidate_by_id:
+            alignment_by_candidate[candidate_id].append(row)
+    decisions = {}
+    for candidate_id, rows in alignment_by_candidate.items():
+        candidate_rows = [row for row in rows if not row.get("external_source")]
+        if len(candidate_rows) == 1:
+            decisions[candidate_id] = candidate_rows[0]
+        elif not candidate_rows and len(rows) == 1:
+            # Some current candidate decisions carry their own external source.
+            decisions[candidate_id] = rows[0]
+        else:
+            raise AssertionError(f"ambiguous candidate decision rows: {candidate_id}")
     assert len(decisions) == len(candidate_by_id), "candidate/alignment decision coverage differs"
     buckets = defaultdict(list)
     for cid, candidate in candidate_by_id.items():
