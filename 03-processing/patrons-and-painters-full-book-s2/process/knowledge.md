@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 643 / 736 | 418 / 419 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 647 / 740 | 414 / 415 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,052 / 1,230** | **3,717 / 3,731** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,056 / 1,234** | **3,713 / 3,727** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6521,3 +6521,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和10条source_backed姓名字段。David Teniers依索引全名登记，正文p.358仅称Teniers；Jean Baptiste Théodon以索引第92、400页连接第3章全名与第20章简称，相关雕塑候选cand-2567、cand-5434、cand-10936继续保留S3 undecided；Katherine Tofts只按Haskell第302页所述第一段婚姻登记，同段关于Giustiniana Wynne及Smith第二段婚姻的S2关系候选保持区分；Giacomo Torelli依据索引第182、183页与正文全名归组，保留第183页财务处境归因和脚注书目定位。本批9条S2关系候选留待S6；无formal relation、外部来源或backlog写入。
 
 登记后人物类型S4为643组/736条已登记、418组/419条待登记；全书KU=2071。
+
+<a id="s4-torelli-torresani-triva-tron-person-endpoints-20261018"></a>
+
+### S4 person：Torelli、Torresani、Triva与Tron四组人物端点（2026-10-18）
+
+- cand-2648（new-person:giuseppe-torelli-a6692bccd5）→ [朱塞佩·托雷利（Giuseppe Torelli）](../../../04-knowledge/units/persons/giuseppe-torelli.md)；S2关系候选st-chp19-p389-giuseppe-reports-felice-trojan-subject留待S6。信中称Torelli的兄弟Felice已为一幅已知绘画找到特洛伊题材，并提及Pyrrhus杀害Polyxena及其他构图人物；信件报告题材选择和预期绘制难点，不证明绘画已经完成。原书OCR将Felice转录为“Febee”，S2据页图校读为Felice。该信的原始档案材料未独立查阅；关系候选留待S6。
+- cand-2649（new-person:andrea-torresani-a049f34c67）→ [安德烈亚·托雷萨尼（Andrea Torresani）](../../../04-knowledge/units/persons/andrea-torresani.md)；S2关系候选st-chp9-p266-torresani-views留待S6。该句经Haskell转引Moschini，称Sagredo委托Torresani以笔墨绘制100幅views；印刷页图读数为“100”，书本文本OCR为“too”。Moschini原文与单幅作品未独立查阅，数量及委托关系候选留待S6裁决。
+- cand-2654（new-person:antonio-triva-0ffbc63d0f）→ [安东尼奥·特里瓦（Antonio Triva）](../../../04-knowledge/units/persons/antonio-triva.md)；S2关系候选st-chp7-p193-munich-italian-painters留待S6。Haskell说一组意大利画家在三十年战争结束后的三十年间受聘于慕尼黑，并列出Pietro Liberi、Antonio Triva、Pietro Bellotti为其中最知名者；该名单不表示穷尽，原文相对年代不转写成精确任职日期。关系候选留待S6。
+- cand-2655（new-person:caterina-dolfin-tron-dd7c35da12）→ [卡泰丽娜·多尔芬·特龙（Caterina Dolfin Tron）](../../../04-knowledge/units/persons/caterina-dolfin-tron.md)；S2关系候选st-chp10-p318-venetian-status-quo-limited-doctrine-origin留待S6。Haskell称启蒙思想可能较容易通过审查，并可能在Consul Smith的图书馆或Caterina Dolfin Tron及其知识界朋友中讨论；作者随后把威尼斯维护现状的利益视为共和国未成为启蒙学说发源地的原因。might／perhaps限定均保留；不据此断言Tron实际参加讨论，威尼斯政治文化判断仍归于Haskell。关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Giuseppe Torelli依据附录书信题头和索引登记；书信内容报告其兄弟Felice选定画题及预期绘制难点，不证明作品完成，OCR的Febee按S2页图校读记录为Felice。Andrea Torresani依据第9章及索引登记；Haskell转引Moschini的句子中，印刷页图读作100 views，OCR转录为too views，Moschini原文及单幅作品未独立查阅。Antonio Triva仅按Haskell列举为慕尼黑受聘意大利画家之一登记，保留“best known”非穷尽和相对年代限定。Caterina Dolfin Tron保留Haskell的might/perhaps语气；可能讨论不记作已发生事件，威尼斯状态 quo 的判断仍归于作者。四条S2关系候选留待S6；不新增外部来源、正式关系或backlog项目。
+
+登记后人物类型S4为647组/740条已登记、414组/415条待登记；全书KU=2075。
