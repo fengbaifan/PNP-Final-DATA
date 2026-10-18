@@ -472,6 +472,7 @@ units/institutions/warburg-institute,institution,瓦尔堡研究院,Warburg Inst
 units/institutions/warburg-institute-library,institution,瓦尔堡研究院图书馆,Library of the Warburg Institute,front-matter,04-knowledge/units/institutions/warburg-institute-library.md
 units/institutions/yale-university,institution,耶鲁大学,Yale University,front-matter,04-knowledge/units/institutions/yale-university.md
 units/institutions/yale-university-press,institution,耶鲁大学出版社,Yale University Press,front-matter,04-knowledge/units/institutions/yale-university-press.md
+units/persons/1st-earl-of-shaftesbury,person,沙夫茨伯里第一伯爵,1st Earl of Shaftesbury,patrons-and-painters-full-book-s2,04-knowledge/units/persons/1st-earl-of-shaftesbury.md
 units/persons/3rd-earl-of-peterborough,person,彼得伯勒第三代伯爵,3rd Earl of Peterborough,patrons-and-painters-full-book-s2,04-knowledge/units/persons/3rd-earl-of-peterborough.md
 units/persons/5th-lord-exeter,person,第五代埃克塞特勋爵,5th Lord Exeter,patrons-and-painters-full-book-s2,04-knowledge/units/persons/5th-lord-exeter.md
 units/persons/a-d-gabbiani,person,安东·多梅尼科·加比亚尼,Anton Domenico Gabbiani,front-matter,04-knowledge/units/persons/a-d-gabbiani.md
@@ -546,6 +547,7 @@ units/persons/aniello-falcone,person,阿涅洛·法尔科内,Aniello Falcone,pat
 units/persons/ann-sutherland-harris,person,安·萨瑟兰·哈里斯,Ann Sutherland Harris,front-matter,04-knowledge/units/persons/ann-sutherland-harris.md
 units/persons/anna-colonna,person,安娜·科隆纳（Anna Colonna）,Anna Colonna,patrons-and-painters-full-book-s2,04-knowledge/units/persons/anna-colonna.md
 units/persons/anna-maria-ludovica-de-medici,person,安娜·玛丽亚·卢多维卡·德·美第奇,Anna Maria Ludovica de' Medici,patrons-and-painters-full-book-s2,04-knowledge/units/persons/anna-maria-ludovica-de-medici.md
+units/persons/anne-marie-of-savoy,person,安娜·玛丽·德·萨伏依,Anne Marie of Savoy,patrons-and-painters-full-book-s2,04-knowledge/units/persons/anne-marie-of-savoy.md
 units/persons/anne-queen-of-england,person,"英国女王安妮（Anne, Queen of England）","Anne, Queen of England",patrons-and-painters-full-book-s2,04-knowledge/units/persons/anne-queen-of-england.md
 units/persons/annibale-bentivoglio,person,安尼巴莱·本蒂沃利奥,Annibale Bentivoglio,front-matter,04-knowledge/units/persons/annibale-bentivoglio.md
 units/persons/annibale-carracci,person,安尼巴莱·卡拉奇,Annibale Carracci,,04-knowledge/units/persons/annibale-carracci.md
@@ -625,6 +627,7 @@ units/persons/bernhard-rode,person,贝恩哈德·罗德（Bernhard Rode）,Bernh
 units/persons/bonifazio-gozadini,person,博尼法齐奥·戈扎迪尼,Bonifazio Gozadini,chp-1,04-knowledge/units/persons/bonifazio-gozadini.md
 units/persons/bonomo-algarotti,person,博诺莫·阿尔加罗蒂,Bonomo Algarotti,patrons-and-painters-full-book-s2,04-knowledge/units/persons/bonomo-algarotti.md
 units/persons/bruce-boucher,person,布鲁斯·安布勒·鲍彻,Bruce Ambler Boucher,front-matter,04-knowledge/units/persons/bruce-boucher.md
+units/persons/buno-talbot,person,布诺·塔尔博特,Buno Talbot,patrons-and-painters-full-book-s2,04-knowledge/units/persons/buno-talbot.md
 units/persons/burnacini,person,卢多维科·奥塔维奥·布尔纳奇尼,Ludovico Ottavio Burnacini,front-matter,04-knowledge/units/persons/burnacini.md
 units/persons/camillo-astalli,person,卡米洛·阿斯塔利,Camillo Astalli,patrons-and-painters-full-book-s2,04-knowledge/units/persons/camillo-astalli.md
 units/persons/camillo-carandini,person,卡米洛·卡兰迪尼伯爵（Count Camillo Carandini）,Count Camillo Carandini,patrons-and-painters-full-book-s2,04-knowledge/units/persons/camillo-carandini.md
@@ -1432,6 +1435,7 @@ units/persons/sir-richard-worsley,person,理查德·沃斯利,Sir Richard Worsle
 units/persons/sir-william-morice,person,威廉·莫里斯爵士,Sir William Morice,patrons-and-painters-full-book-s2,04-knowledge/units/persons/sir-william-morice.md
 units/persons/sixtus-v,person,西斯笃五世,Sixtus V,,04-knowledge/units/persons/sixtus-v.md
 units/persons/solimena,person,弗朗切斯科·索利梅纳,Francesco Solimena,front-matter,04-knowledge/units/persons/solimena.md
+units/persons/stanislas-poniatowski-king-of-poland,person,斯坦尼斯拉斯·波尼亚托夫斯基,"Stanislas Poniatowski, King of Poland",patrons-and-painters-full-book-s2,04-knowledge/units/persons/stanislas-poniatowski-king-of-poland.md
 units/persons/stefano-cadani,person,斯特法诺·卡达尼,Stefano Cadani,patrons-and-painters-full-book-s2,04-knowledge/units/persons/stefano-cadani.md
 units/persons/stefano-conti,person,斯特凡诺·孔蒂,Stefano Conti,front-matter,04-knowledge/units/persons/stefano-conti.md
 units/persons/stefano-della-bella,person,斯特凡诺·德拉·贝拉,Stefano della Bella,patrons-and-painters-full-book-s2,04-knowledge/units/persons/stefano-della-bella.md

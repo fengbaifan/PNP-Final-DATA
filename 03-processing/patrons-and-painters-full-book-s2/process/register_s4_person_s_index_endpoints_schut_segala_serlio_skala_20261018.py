@@ -342,15 +342,16 @@ def main() -> int:
         ]
         assert group_members == [cid], (t["group"], group_members)
         assert candidate.get("index_entry_id") == t["index_entry"]
-        assert candidate.get("canonical_name") == t["index_name"]
+        assert candidate.get("canonical_name") == t.get("candidate_name", t["index_name"])
         assert candidate.get("index_page_range") == t["index_page"]
         index_file = t["index_entry"].split("#", 1)[0]
         index_rows = person_sync.read_index_rows(index_file)
         index_row = index_rows[int(t["index_entry"].split("#")[1])]
         assert index_row.get("Main Entry") == t["index_name"]
         assert index_row.get("Page Numbers", "") == t["index_page"]
-        source_body = (ROOT / t["source_file"]).read_text(encoding="utf-8-sig")
         for book_source_record in t.get("book_sources", [t.get("book_source")]):
+            evidence_file = book_source_record.get("evidence_ref", {}).get("source_file", t["source_file"])
+            source_body = (ROOT / evidence_file).read_text(encoding="utf-8-sig")
             assert book_source_record["original_quotes"][0]["text"] in source_body
         assert t["ku"] not in manifest_by_ku
         assert t["card"] not in accepted_paths

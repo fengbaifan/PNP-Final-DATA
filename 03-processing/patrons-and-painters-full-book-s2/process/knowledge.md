@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 631 / 724 | 430 / 431 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 635 / 728 | 426 / 427 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,040 / 1,218** | **3,729 / 3,743** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,044 / 1,222** | **3,725 / 3,739** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6482,3 +6482,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。Faustina Savorgnan的婚姻叙述及后续Rezzonico婚姻壁画语境保持原书限定；Strudel的两幅作品候选未辨明，Schönborn引文保留为Haskell转述；Giuseppe Subleyras与未具名的法国画家保持区分，其计划图作品候选仍待证；Swanevelt两幅Van Laer作品未具名，Catalano偷窃说法只记录为Haskell转引的指控。本批10条S2关系候选留待S6，不新增作品KU、正式关系或外部来源。
 
 登记后人物类型S4为631组/724条已登记、430组/431条待登记；全书KU=2059。
+
+<a id="s4-anne-marie-shaftesbury-stanislas-talbot-person-endpoints-20261018"></a>
+
+### S4 person：Anne Marie、Shaftesbury、Stanislas与Talbot四组人物端点（2026-10-18）
+
+- cand-2381（new-person:anne-marie-of-savoy-f98122919d）→ [安娜·玛丽·德·萨伏依（Anne Marie of Savoy）](../../../04-knowledge/units/persons/anne-marie-of-savoy.md)；S2关系候选st-chp13-p341-notes-note4-receipt-date-place-signatory留待S6。原文仅将Anne Marie de Savoye标为收据签署人；收据所述物品被售予Zanetti，不据此认定她是卖方。收据未独立查阅，唯一S2关系候选留待S6；本身份组与Adelaide Enrichetta of Savoy保持分立，不新增正式关系。
+- cand-2425（new-person:1st-of-shaftesbury-e97b949355）→ [沙夫茨伯里第一伯爵（1st Earl of Shaftesbury）](../../../04-knowledge/units/persons/1st-earl-of-shaftesbury.md)；S2关系候选st-chp7-p196-verrio_shaftesbury_roles留待S6。Haskell称Verrio曾将第一代伯爵画作Faction，后来又向第三代伯爵（其孙）征询表现新教美德的意见；壁画对象及建议所涉作品未具名，唯一S2关系候选留待S6，不新增正式关系。
+- cand-2505（new-person:new-of-poland-poniatowski-stanislas-of-pol-9c93ccb680）→ [斯坦尼斯拉斯·波尼亚托夫斯基（Stanislas Poniatowski, King of Poland）](../../../04-knowledge/units/persons/stanislas-poniatowski-king-of-poland.md)；S2关系候选st-chp10-p298-bellotto-persuaded-to-warsaw、st-chp10-p298-bellotto-warsaw-views、st-chp15-p366-poland-sweden-subscriptions留待S6。第10章称Bellotto在途中受其劝说而停留Warsaw，并为其绘制大量城市景观；第15章仅写波兰国王参加Prà计划，按同一索引页码与第10章全名归入本组。未具名Warsaw views候选cand-9156仍为S3 undecided。三个S2关系候选留待S6，不据此登记正式关系或作品KU。
+- cand-2539（new-person:buno-talbot-5fe8942fd7）→ [布诺·塔尔博特（Buno Talbot）](../../../04-knowledge/units/persons/buno-talbot.md)；S2关系候选st-chp7-p197-isham-acquired-paintings-with-advice留待S6。T.csv索引写作“Bruno”，正文写作“Buno”；沿用S3按正文确定的候选规范名，原样保留索引拼写差异。“dissolute”仅作为Haskell对神父的描述归因，不升级为独立人物事实。购画建议关系候选留待S6，不新增正式关系。
+
+四组均为S3 new单候选人物身份组，登记4张KU卡、4条候选映射和8条source_backed姓名字段。Anne Marie de Savoye仅登记为收据签署人，不推定为卖方，并与Adelaide Enrichetta身份组保持分立；Shaftesbury仅以第一伯爵爵位称呼登记，不推补名字；Stanislas Poniatowski的第10章全名与第15章波兰国王称谓按同一索引组登记；Talbot的T.csv索引转写“Bruno”与正文“S2 Buno”并列保留，候选规范名继续依正文，不改写索引或候选表。本批6条S2关系候选留待S6；无formal relation或新增外部来源。
+
+登记后人物类型S4为635组/728条已登记、426组/427条待登记；全书KU=2063。
