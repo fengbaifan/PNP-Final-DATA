@@ -2606,3 +2606,9 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-9462`（Bellotto/Gierymski 1955 年展览目录）和 `cand-9479`（E. Battisti 1958 年论文）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。前者裁定为展览目录，后者裁定为期刊论文；均仅核书目身份，不核验内容主张。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bellotto-battisti-archive-identities-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前全书 S3 `new=5,010`／4,805组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,328`；S4已登记1,107组／1,285条候选映射，待登记3,698组／3,725条候选映射。archive 类型 `new=1,294`／1,239组、`undecided=698`；S4已登记109组／151条候选映射，待登记1,130组／1,143条候选映射。严格表审计复核后更新最终计数。
+
+### S3 archive：Viale 论文与 Clemens August 展览目录两项身份裁决（2026-10-18）
+
+`cand-9471`（Viale 关于 Rivoli 的论文）和 `cand-9464`（Brühl 1961 年 Clemens August 展览目录）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Viale 外部书目拼法与本地目录存在一字母差异且略去副标题，过程记录保留此差异；Clemens August 记录指向展览目录，不与同年评论文章混并。两项只裁决书目身份。依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-viale-clemens-august-archive-20261018)及[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=5,012`／4,807组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,326`；S4已登记1,107组／1,285条候选映射，待登记3,700组／3,727条候选映射。archive 类型 `new=1,296`／1,241组、`undecided=696`；S4已登记109组／151条候选映射，待登记1,132组／1,145条候选映射。严格表审计复核后更新最终计数。

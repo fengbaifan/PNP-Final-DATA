@@ -6953,3 +6953,12 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-9479` 由 `undecided` 改判 `new`，归入 `archive-group-battisti-juvarra-sant-ildefonso-1958`。第10章注2与第21章 statement `st-chp21-bib-l87-127-entry-24` 对应同一篇 E. Battisti 论文。Treccani《Dizionario Biografico degli Italiani》书目列 “Juvarra a Sant’Ildefonso”，*Commentari*, IX, 1958, pp.273–297（[Treccani 条目](https://www.treccani.it/enciclopedia/giambattista-pittoni_%28Dizionario-Biografico%29/)，访问日期2026-10-18）。仅确认论文身份，不据此复述其论点；论文及引文页未独立查阅。
 
 两项分别为展览目录与期刊论文身份，均待 S4 登记；其书目证据不扩展到目录/论文内容中的历史断言。逐候选映射、原书 mention 与 statement 锚点见 `alignment.csv`。
+
+<a id="s3-viale-clemens-august-archive-20261018"></a>
+
+### S3 archive：Viale 论文与 Clemens August 展览目录两项身份（2026-10-18）
+
+- `cand-9471` 由 `undecided` 改判 `new`，归入 `archive-group-viale-panini-rivoli-article-1950-51`。第10章 p.297 注1短引指向 p.161，第21章 statement `st-chp21-bib-l1179-1218-entry-21` 列出 V. Viale 的 Rivoli 论文。UNESCO 世界遗产提名文件的参考书目记录 Vittorio Viale, “Un dipinto del Panini con la veduta orientale del castello di Rivoli”，*Atti della Società Piemontese di Archeologia e Belle Arti*, Torino 1950–1951（[UNESCO 提名文件](https://whc.unesco.org/uploads/nominations/823bis.pdf)，访问日期2026-10-18）。本地书目拼作 “Pannini” 并有副标题 “secondo il progetto originale di Filippo Juvarra”；该外部引文省略副标题并少一个 n，作者、题名主体、刊名与年份相合。仅裁决论文身份，不据此判定拼写或验证论文论点；p.161 未查阅。
+- `cand-9464` 由 `undecided` 改判 `new`，归入 `archive-group-clemens-august-exhibition-catalogue-bruhl-1961`。第10章 p.295 注5与第21章 statement `st-chp21-bib-l336-374-entry-12` 对应 Schloss Augustusburg zu Brühl 1961 年展览目录。University of Cologne repository 的展览目录书目列出 *Kurfürst Clemens August, Landesherr und Mäzen des 18. Jahrhunderts*, Ausstellung in Schloß Augustusburg zu Brühl, Köln 1961（[大学图书馆书目](https://kups.ub.uni-koeln.de/534/1/11w933.pdf)，访问日期2026-10-18）。此对象为展览目录，不与 *Kunstchronik* 同年相关展览评论文章合并；目录正文未独立查阅。
+
+两项身份均待 S4 登记；Viale 条目保留外部书目省略副标题及拼写差异，尚无依据据此扩写为争议结论。
