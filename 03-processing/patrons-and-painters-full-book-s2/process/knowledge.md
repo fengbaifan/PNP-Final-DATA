@@ -6866,3 +6866,12 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-4995` → 新组 `archive-group-claretta-reali-savoia-1893`。第21章书目 `st-chp21-bib-l336-374-entry-09` 列出 Gaudenzio Claretta, *I Reali di Savoia munifici fautori delle arti: contributo alla storia artistica del Piemonte nel secolo XVIII*, *Miscellanea di Storia Italiana*（1893），pp.1–309；第3、7、10章的短引相合。
 
 两组均仅裁定书目身份，出版物正文和被引页未读，均待S4登记；不新增KU或关系。Claretta的1885年另一篇论文及转述它的信件保持独立。档案类现为 `new=1,268` 个候选／1,214组、`undecided=724`；S4待登记1,105组／1,117条映射。全书 `new=4,984`／4,780组、`undecided=5,354`；S4待登记3,673组／3,699条映射。
+
+<a id="s3-pastor-volumes-xiii-xiv-20261018"></a>
+
+### S3 archive：Pastor《Storia dei papi》卷 XIII 与卷 XIV 两部分的跨章裁决（2026-10-18）
+
+- `cand-4237`（20条 mention、18条 citation statement，覆盖第2、3、6章）由 `undecided` 改判 `new`，归入 `archive-group-pastor-storia-dei-papi-vol-xiii`。原书各处一致标为 Pastor XIII，页码包括 232、260–261、865、868、939–947、955、965、969、972 及 881–895。Treccani《Gregorio XV》书目列出 Pastor《Storia dei papi dalla fine del Medio Evo》XIII卷、Roma 1931、pp.1–226；Paolo Vian 的研究书目列出卷名及时期“Gregorio XV (1621–1623) ed Urbano VIII (1623–1644)”，Roma 1931（据德文第七版，1929）。[Treccani](https://www.treccani.it/enciclopedia/gregorio-xv_(Enciclopedia-dei-Papi)/)；[Paolo Vian, *La canonizzazione di san Filippo Neri*](https://www.srsp.it/Annate/ASRSP-146.pdf)（书目注33）。这些外部书目确认卷号、标题和范围，不确认 Haskell 使用的具体印次；所引页未独立查阅。第21章 p.433 的 Pio Cenci、Roma 1943 条目没有卷号，不把 1943 年套用于本卷。
+- `cand-4836`（10条 mention、9条 citation statement，覆盖第2、3、6章）由 `undecided` 改判 `new`，归入 `archive-group-pastor-storia-dei-papi-vol-xiv-parts-i-ii`。外部书目将卷 XIV 列为两部分：I 部覆盖 Innocenzo X、Alessandro VII、Clemente IX、Clemente X；II 部覆盖 Innocenzo XI、Alessandro VIII、Innocenzo XII。第3章明引 `XIV, parte II`；第6章关于 Alessandro VII 的 p.506 ff. 引文落在 I 部所列时期，因此本候选按卷 XIV 两部分的书目单元对齐，不压成 II 部单册。[Romei 研究书目](https://www.nuovorinascimento.org/n-rinasc/saggi/pdf/romei/pasquinata.pdf)（书目 pp.41–42）给出卷名、两部分题名及出版项；它确认书目结构，未验证 Haskell 所用印本。所引页未独立查阅。
+- `cand-11414` 保持 `undecided`，明确留在系列／版本级待证：第21章 p.433 只写系列、译者与 Roma 1943，未给卷次；外部书目虽可识别 XIII 与 XIV 两部分，仍不能据此确定该泛称条目对应哪一卷或具体印本。它与新建的 XIII、XIV 卷册组分开，不作合并。
+- 边界：意大利语卷 XIII、卷 XIV 两部分与既有 Pastor 英文版第 XXXIII 卷不是同一版本对象；作者人物 KU 不并入文献组。所有决定只裁决引文书目身份，不验证引文页内容或其所载历史主张；新 archive 组待 S4 登记。

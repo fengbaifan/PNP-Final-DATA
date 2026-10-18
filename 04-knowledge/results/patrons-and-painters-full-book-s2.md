@@ -2553,3 +2553,11 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 - `cand-4995` → `archive-group-claretta-reali-savoia-1893`：Claretta关于萨伏依王室赞助艺术的1893年论文，第3、7、10章引用与书目题名及出版项相符。该论文与既有书信所引的Claretta 1885年论文不同。
 
 两项仅确认书目身份，原书及引文页未读，KU待S4登记。当前 `new=4,984`／4,780组、`undecided=5,354`；S4待登记3,673组／3,699条候选映射。
+
+### S3 archive：Pastor 意大利文版卷 XIII 与卷 XIV 跨章身份（2026-10-18）
+
+- `cand-4237` → `archive-group-pastor-storia-dei-papi-vol-xiii`：第2、3、6章一致引用卷 XIII；外部书目支持卷题及其 Gregorio XV／Urbano VIII 时期范围。所用具体印次仍未确定，不将第21章泛称系列条目的 1943 年套用于此卷。
+- `cand-4836` → `archive-group-pastor-storia-dei-papi-vol-xiv-parts-i-ii`：第2、3、6章引用卷 XIV；跨章证据涉及 I、II 两部分，按两部分卷 XIV 的书目单元建组，不归入 II 部单册。
+- `cand-11414` 继续 `undecided`：第21章 p.433 的系列条目缺卷号，保留为系列／版本级待证对象；不与具体卷册合并。完整 mention、statement 和比较理由见[对齐表](../tables/alignment.csv)与[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-pastor-volumes-xiii-xiv-20261018)。
+
+两项新组只确认书目身份；引文页未独立查阅，KU待S4登记。当前全书 `same=1,960`（1,046个既有KU）、`new=4,986`／4,782组、`conflict=9`、`excluded=100`、`undecided=5,352`；S4已登记1,107组／1,285条候选映射，待登记3,675组／3,701条候选映射。archive 类型当前 `new=1,270`／1,216组、`undecided=722`；S4已登记109组／151条候选映射，待登记1,107组／1,119条候选映射。
