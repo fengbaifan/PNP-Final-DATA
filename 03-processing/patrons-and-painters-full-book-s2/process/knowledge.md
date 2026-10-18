@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 679 / 772 | 382 / 383 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 683 / 776 | 378 / 379 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,088 / 1,266** | **3,681 / 3,695** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,092 / 1,270** | **3,677 / 3,691** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6638,3 +6638,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Pietro Martire Bagutti仅在正文以Bagutti出现；Haskell称Brydges雇用他与Bellucci、Sleter装饰Canons礼拜堂，但未分配个人分工。Paolo Battista Balbi与Beccari、Marcello Malpighi被列为拥有画作的博洛尼亚医生；不将具体画作分配给Balbi，也不与Genoese Balbi家族合并。Lazzaro Baldi依据索引及正文姓名登记；p.60的委托事实明确保留在卡片语境供S6反向关系审查，但当前S2没有关联到该身份组的relation_candidate，不在本批造边。Baccio Bandinelli只出现在Galileo对Orlando Furioso的嵌套引文及假设性草图中，不登记为现存作品的作者或归属。三条已登记的S2关系候选留待S6；无外部来源、正式关系或backlog写入。
 
 登记后人物类型S4为679组/772条已登记、382组/383条待登记；全书KU=2107。
+
+<a id="s4-baratta-bassanino-bedford-bellotti-person-endpoints-20261018"></a>
+
+### S4 person：Baratta、Bassanino、Bedford与Bellotti四组人物端点（2026-10-18）
+
+- cand-0181（new-person:baratta-francesco-8d4e7a7bfb）→ [弗朗切斯科·巴拉塔（Francesco Baratta）](../../../04-knowledge/units/persons/francesco-baratta.md)；S2关系候选st-chp6-p149-baratta-ferrata-financial-difficulties留待S6。Haskell将Baratta与Ercole Ferrata并列为与Pamfili及其继承人发生长期财务纠纷的雕刻家；继承人未具名，也不与其他段落的继承人候选合并。
+- cand-0255（new-person:bassanino-virgilio-5074fb2e86）→ [维吉利奥·巴萨尼诺（Virgilio Bassanino）](../../../04-knowledge/units/persons/virgilio-bassanino.md)；S2关系候选st-chp8-p232-bassanino-rape-sabines留待S6。Haskell转述Ferdinand书信语境中一幅位于Livorno、表现Sabines之劫题材的绘画；不据此推定确切观察日期或现藏地。
+- cand-0267（new-person:4th-bedford-john-of-0badc6a345）→ [约翰，第四代贝德福德公爵（John, 4th Duke of Bedford）](../../../04-knowledge/units/persons/john-4th-duke-of-bedford.md)；S2关系候选st-chp10-p305-bedford-views留待S6。Haskell称Canaletto在1730年代后半为该公爵绘制二十幅景观；不为各幅补题名或日期，也不把同段给Hervey、Carlisle的画作归给贝德福德。
+- cand-0278（new-person:bellotti-pietro-89aea065b8）→ [皮耶特罗·贝洛蒂（Pietro Bellotti）](../../../04-knowledge/units/persons/pietro-bellotti.md)；S2关系候选st-chp7-p193-munich-italian-painters留待S6。Haskell将Bellotti列为三十年战争结束后三十年间在慕尼黑受雇的数位意大利画家之一；不推导精确任期或具体委托。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Francesco Baratta与Ercole Ferrata均被Haskell写作与Camillo Pamfili及其未具名继承人发生长期财务纠纷的雕刻家；继承人身份及关系边界不外推。Virgilio Bassanino只据Haskell转述的Livorno《Sabines之劫》绘画记述登记；未补画作观察日期或现藏地。John, 4th Duke of Bedford依据索引全称及第10章p.305的Duke of Bedford称名归组；只将Canaletto二十幅景观的委托归于该身份，不给单件作品补题名或日期。Pietro Bellotti被列为三十年战争结束后约三十年间在慕尼黑受雇的意大利画家之一；不推导精确任期或具体委托。四条相关S2关系候选留待S6；无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为683组/776条已登记、378组/379条待登记；全书KU=2111。
