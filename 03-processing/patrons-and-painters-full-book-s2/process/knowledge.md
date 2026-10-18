@@ -29,14 +29,14 @@
 | archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 119 / 168 | 1,121 / 1,130 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
-| institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
+| institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
 | person | 3,464 | 1,156 | 1,066 / 1,167 | 4 | 7 | 1,130 | 765 / 864 | 301 / 303 |
-| place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
+| place | 1,109 | 228 | 559 / 569 | 0 | 0 | 312 | 43 / 53 | 516 / 516 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 51 / 57 | 428 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,973** | **4,811 / 5,023** | **9** | **100** | **5,302** | **1,185 / 1,376** | **3,626 / 3,647** |
+| **合计** | **12,407** | **1,973** | **4,811 / 5,025** | **9** | **100** | **5,300** | **1,189 / 1,382** | **3,622 / 3,643** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -7634,3 +7634,15 @@ cand-9508由undecided改为new，归入既有组new-person:giovanni-previtali-b5
 该机构与第9章另一个由哈斯克尔明确称作加尔默罗会严格分支的威尼斯 Scalzi 区分。`cand-5121` 的原驻地仍未具名且为 `undecided`；`cand-5123` 的教堂保持独立 place 候选，仍待 S4。五条直接关系候选均未转成正式边：机构端点登记后，其中三条两端齐备，另两条分别因 `cand-5121`、`cand-5123` 缺 KU 映射而未齐。
 
 本批后 S3 决定和分组数不变。S4 已登记1,186组／1,377条候选映射，待登记3,625组／3,646条；直接关系端点待登记队列由1,871组／1,871条降至1,870组／1,870条，其中 institution 为96组／96条。KU=2,205；至少缺一个端点的 S2 关系候选由322条降至319条（仅缺 object 216条、仅缺 subject 34条、两端均缺69条）。无 S5 字段、来源登记或 formal relation 新增。
+
+<a id="s3-s4-place-san-carlo-alle-quattro-fontane-20261019"></a>
+### S3–S4 place：San Carlo alle Quattro Fontane 跨章身份组及三项地点登记（2026-10-19）
+
+- **身份裁决：** `cand-5123` 保留 `new`，组 `sg3-place-cand-5123`。原先 `undecided` 的 `cand-0701`（C.csv#225，索引 “S. Carlo alle Quattro Fontane, 75-6”）与 `cand-4963`（第2章第VII节注4，具名建筑）均改为 `new` 并加入同组。索引明确把该名称定位至第75–76页；第3章同页段叙述为 Discalced Trinitarians 建造的教堂；第2章注4再次使用同一建筑名。书内索引与正文的页段交叉定位支持三条候选指向同一座教堂。当前没有同类型既有 KU，故建立一张新 place 卡；未查询外部身份来源。
+- **旧理由保留：** `cand-0701` 此前仅有索引定位，缺正文锚点；`cand-4963` 的原暂缓理由涉及 Cardinal Francesco Barberini 参与建造的角色不明。现在解决的是建筑身份，不是该人物角色；其关系仍待 S6。两条旧 `undecided` 理由均保存在 alignment 行的 `prior_reason` 中。
+- **S4 地点登记：** San Carlo 教堂组含 `cand-0701`、`cand-4963`、`cand-5123` 三条候选映射至 `units/places/san-carlo-alle-quattro-fontane`。修道院 `cand-5122` 单独登记为 `units/places/trinitarian-monastery-rome-context`；施工地点 `cand-5125` 单独登记为 `units/places/trinitarian-building-site-quattro-fontane`。前者与教堂、后者与两座建筑分别保留对象边界。`cand-5121` 未具名西班牙原驻地与 `cand-5124` 未明确所指的 Quattro Fontane 地标继续 `undecided`；立面作品 `cand-5126` 保留 work 类型和自身 S3 组。
+- 七条 S2 候选 `st-chp3-secii-l125-135-church-site`、`st-chp3-secii-l125-135-trinitarian-church-commission`、`st-chp3-secii-l137-142-scalzi-plan-quotation`、`st-chp3-secii-l137-142-style-departure`、`st-chp3-secii-l125-135-construction-site`、`st-chp3-secii-l125-135-trinitarian-commission`、`st-chp3-secii-l137-142-site-solution-praise` 的 KU 端点现齐备，均未自动转成正式边，仍待 S6 核查原句、方向、谓词和语境。
+
+本批后 S3 为 same=1,973（1,052个既有 KU）、new=5,025／4,811组、conflict=9、excluded=100、undecided=5,300（含622项未分类）。S4 已登记1,189组／1,382条候选映射，待登记3,622组／3,643条；KU=2,208。直接关系端点待登记队列由1,870组／1,870条降至1,867组／1,867条，其中 place 为233组／233条。至少缺一个端点的 S2 关系候选按现行跟踪口径由319条降至312条（仅缺 object 214条、仅缺 subject 31条、两端均缺67条）；相关段数维持126。无新增来源、enrichment 或 formal relation。
+
+本批 strict-stage 表审计通过（KU=2,208，alignment_new_pending_registration=3,643，errors=[]）；`build_cards.py --check` 预检通过：2,208张卡、3,236张表、11,693行、预计关系派生2,436行、477张卡受关系视图影响、487个文件待渲染，未写入派生卡片。

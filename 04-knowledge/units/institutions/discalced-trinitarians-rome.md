@@ -33,7 +33,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 - 原文称谓为 “Discalced Trinitarians”；“赤足三位一体会”为据原文所作的描述性中文名，不主张其为规范中文机构名称。
 - 本卡对应第3章的三位一体会语境。第9章的威尼斯 Scalzi 被哈斯克尔明确称为加尔默罗会的严格分支，属于另一修会，不与本卡合并；共享 Scalzi／赤足称谓不足以抹去原书明确给出的修会边界。
-- `cand-5121` 所指西班牙原驻地未具名，仍为待证地点；`cand-5123` 所指修会教堂是另一个尚待登记的 place 候选，不并入机构卡。
+- `cand-5121` 所指西班牙原驻地未具名，仍为待证地点；`cand-5122` 的修道院、`cand-5123` 对应的 S. Carlo alle Quattro Fontane 教堂及 `cand-5125` 的施工地点分别登记为独立 place，不并入机构卡。
 
 ### 基本信息
 
@@ -45,7 +45,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本卡没有已登记的正式关系。五条 S2 关系候选涉及迁居罗马、离开西班牙原驻地、该会教堂设计评价及对 Borromini 的评价；本批登记机构端点后，其中三条的端点已齐备，仍全部待 S6 逐条核对证据、谓词、方向与语境。原驻地 `cand-5121` 仍未分类，教堂 place 候选 `cand-5123` 尚未登记。
+本卡没有已登记的正式关系。五条 S2 关系候选涉及迁居罗马、离开西班牙原驻地、该会教堂设计评价及对 Borromini 的评价；机构与 place 端点登记后，其中四条的端点已齐备，仍全部待 S6 逐条核对证据、谓词、方向与语境。原驻地 `cand-5121` 仍未分类。
 
 ### 关系候选入口
 
