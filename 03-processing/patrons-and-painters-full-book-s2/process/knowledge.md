@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 655 / 748 | 406 / 407 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 659 / 752 | 402 / 403 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,064 / 1,242** | **3,705 / 3,719** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,068 / 1,246** | **3,701 / 3,715** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6560,3 +6560,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Giambattista Vico依据UVWXYZ.csv全名及第13章脚注中的姓氏登记；脚注引用的1728年书信及Fisch与Bergin第184页未独立查阅，Conti姓氏端点仍有歧义，页图对1728年后标点的校读按S2保留。Gaspare Vigarani依据索引与p.185正文登记；原句对移往Tuileries的主体表达压缩，不据此断言剧场建成，脚注Hautecœur页码未独立查阅。Domenico Viola依据索引和p.136正文登记为Haskell所称Cerquozzi两位密友之一，不补入原文未给的日期或语境。Vincenzo Viviani依据索引全名与p.229正文姓氏登记；正文仅称Viviani，不扩展其名字或经历。四条S2关系候选留待S6；无外部身份来源、formal relation或backlog写入。
 
 登记后人物类型S4为655组/748条已登记、406组/407条待登记；全书KU=2083。
+
+<a id="s4-vleughels-wael-wagner-webster-person-endpoints-20261018"></a>
+
+### S4 person：Vleughels、de Wael、Wagner与Webster四组人物端点（2026-10-18）
+
+- cand-2789（new-person:nicolas-vleughels-f1b8031c61）→ [尼古拉·弗勒赫尔（Nicolas Vleughels）](../../../04-knowledge/units/persons/nicolas-vleughels.md)；S2关系候选st-chp10-p285-carriera-met-vleughels、st-chp13-p343-notes-note3-named-dedicatees留待S6。Haskell将Vleughels列入Carriera所遇艺人与鉴赏家的集体名单；另一脚注将他列入Zanetti画页受赠者名单，但不对应具体纸张。两处均不提供个别会面或逐件赠送细节；两条关系候选留待S6。
+- cand-2795（new-person:baptiste-de-jean-wael-5ccecc0733）→ [让-巴蒂斯特·德·瓦尔（Jean-Baptiste de Wael）](../../../04-knowledge/units/persons/jean-baptiste-de-wael.md)；S2关系候选st-chp8-p208-de-wael-dedicated-print-series留待S6。原书文本OCR作“peasant Use”，S2据页图校读为“peasant life”。版画没有逐件题名或日期，相关脚注3仍待查；委托／赠献关系候选留待S6。
+- cand-2796（new-person:german-joseph-wagner-joseph-wagner-029a33bcd8）→ [约瑟夫·瓦格纳（Joseph Wagner）](../../../04-knowledge/units/persons/joseph-wagner-printseller.md)；S2关系候选st-chp13-p340-wagner-german-and-opened-shop-1742、st-chp13-p340-wagner-shop-significant-to-printers留待S6。Haskell称Wagner于1742年开店，并称该店对印刷业者极其重要；S2据页图校正“significance.to printers”中的OCR多余句点。该店的名称、地址和精确类型未确定；脚注4不回指国籍或开店日期，两条关系候选留待S6。
+- cand-2805（new-person:john-webster-6bdfe375fe）→ [约翰·韦伯斯特（John Webster）](../../../04-knowledge/units/persons/john-webster-playwright.md)；S2关系候选st-chp4-sec-i-l42-67-fn98-white-devil-inspiration留待S6。Haskell脚注称Isabella de’ Medici被勒死的事件启发了Webster的《The White Devil》；这是作者的文学影响判断，未独立评价。该关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和9条source_backed姓名字段。Nicolas Vleughels的全名取自索引，正文p.285与p.343脚注均只写Vleughels；Carriera会面名单不含个别细节，Zanetti受赠者名单也不对应具体纸张。Jean-Baptiste de Wael的p.208引文OCR作peasant Use，S2按页图校读为life；版画未逐件题名或定年，脚注3仍待查。Joseph Wagner的p.340两条陈述分别记录1742年开店及店铺对印刷业者的重要性；S2页图校正.to中的OCR多余句点，并确认脚注4不回指国籍或开店年份；店铺名称、地址和精确类型仍未确定。John Webster依据索引及p.98脚注登记；《The White Devil》的影响说法归于Haskell，未作独立评价。六条S2关系候选继续留待S6；无外部来源、formal relation或backlog写入。
+
+登记后人物类型S4为659组/752条已登记、402组/403条待登记；全书KU=2087。
