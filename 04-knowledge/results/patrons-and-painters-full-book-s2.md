@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,084组、映射1,262条成员候选；尚待登记3,685组、3,699条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,961（4,769个身份组）、conflict=9、excluded=100、undecided=5,432。S4 已登记1,088组、映射1,266条成员候选；尚待登记3,681组、3,695条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,103 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,107 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 11,460条，其中1,624条 unverified |
+| [既有字段表](../tables/enrichment.jsonl) | 11,468条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,155／1,061 | 675／386；387 | 4 | 7 | 1,208 |
+| person | 1,090→398 | 1,155／1,061 | 679／382；383 | 4 | 7 | 1,208 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,961／4,769** | **1,084／3,685；3,699** | **9** | **100** | **5,432** |
+| **合计** | **1,905→1,040** | **4,961／4,769** | **1,088／3,681；3,695** | **9** | **100** | **5,432** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -575,6 +575,10 @@ cand-2833 → ../units/persons/paola-zambelli.md；cand-2863 → ../units/person
 ### S4 人物身份组登记：Acqua、Albani、Altham与Anne of Austria四组人物端点（2026-10-18）
 
 cand-0010 → ../units/persons/cristoforo-dall-acqua.md；cand-0020 → ../units/persons/annibale-albani.md；cand-0085 → ../units/persons/james-altham.md；cand-0109 → ../units/persons/anne-of-austria-regent-france.md；dall’Acqua的两条版画陈述、Albani参与支持d’Adda邀Viani、Altham肖像／游客陈述及Anne of Austria语境关系均留待S6；不新增外部来源或正式关系。S4累计1,084组/1,262条候选映射已登记，3,685组/3,699条待登记；KU=2103。
+
+### S4 人物身份组登记：Bagutti、Balbi、Baldi与Bandinelli四组人物端点（2026-10-18）
+
+cand-0161 → ../units/persons/pietro-martire-bagutti.md；cand-0164 → ../units/persons/paolo-battista-balbi.md；cand-0165 → ../units/persons/lazzaro-baldi.md；cand-0179 → ../units/persons/baccio-bandinelli.md；Bagutti教堂装饰团队、Balbi多人藏画陈述及Bandinelli／Parmigianino假设草图语境的三条S2关系候选留待S6；Baldi的p.60委托句保留供S6反向关系审查，当前无对应S2 relation_candidate；不新增正式关系、外部来源或backlog项目。S4累计1,088组/1,266条候选映射已登记，3,681组/3,695条待登记；KU=2107。
 
 ## 未解决项与交接限制
 

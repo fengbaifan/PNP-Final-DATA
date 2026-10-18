@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 675 / 768 | 386 / 387 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 679 / 772 | 382 / 383 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,084 / 1,262** | **3,685 / 3,699** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,088 / 1,266** | **3,681 / 3,695** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6625,3 +6625,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Cristoforo dall’Acqua仅依索引及第10章p.327的具名与版画记述登记；Haskell转述的Moschini说法及版画年代论证不视为独立查证，也不把未涉Pisani失势扩成正式关系。Albani仅按索引全名及第6章脚注中的姓氏登记；脚注说d’Adda在Gozzadini和Albani支持下未能邀Viani赴罗马，不改写为Albani独立发起。James Altham依据索引、正文与脚注登记；脚注归属和日期仍为Haskell的记述，不将三位游客、城市与图版作一一对应。Anne of Austria仅按索引及第7章p.182的regent称谓登记，保留Haskell对Mazarin nominal dependence的原有限定，不扩展为宪制判断。六条相关S2关系候选留待S6；无外部来源、正式关系或backlog写入。
 
 登记后人物类型S4为675组/768条已登记、386组/387条待登记；全书KU=2103。
+
+<a id="s4-bagutti-balbi-baldi-bandinelli-person-endpoints-20261018"></a>
+
+### S4 person：Bagutti、Balbi、Baldi与Bandinelli四组人物端点（2026-10-18）
+
+- cand-0161（new-person:bagutti-martire-pietro-ef19d5eb62）→ [皮耶特罗·马尔蒂雷·巴古蒂（Pietro Martire Bagutti）](../../../04-knowledge/units/persons/pietro-martire-bagutti.md)；S2关系候选st-chp10-p281-bellucci-chandos-chapel-team留待S6。Haskell称Bagutti为博洛尼亚stuccatore，并与Bellucci、Francesco Sleter并列为Brydges雇用的Canons礼拜堂装饰人员；原文未说明个人分工。
+- cand-0164（new-person:balbi-battista-paolo-63acb22825）→ [保罗·巴蒂斯塔·巴尔比（Paolo Battista Balbi）](../../../04-knowledge/units/persons/paolo-battista-balbi.md)；S2关系候选st-chp8-p203-bolognese-doctors-picture-owners留待S6。Haskell把Balbi与Beccari、Marcello Malpighi列作拥有画作的博洛尼亚医生；未识别或逐人分配具体画作，不与Genoese Balbi家族混并。
+- cand-0165（new-person:baldi-lazzaro-f2aa552fa8）→ [拉扎罗·巴尔迪（Lazzaro Baldi）](../../../04-knowledge/units/persons/lazzaro-baldi.md)；无可归属于本身份组的S2关系候选；不从同段共现或索引提及生成正式关系。Haskell称Francesco委托Baldi与Ciro Ferri为Urban VIII生平的十二幅挂毯创作图稿和纸本草图；此委托事实留供S6反向关系审查，本卡不新增正式关系。
+- cand-0179（new-person:baccio-bandinelli-7015a2f061）→ [巴乔·班迪内利（Baccio Bandinelli）](../../../04-knowledge/units/persons/baccio-bandinelli.md)；S2关系候选st-chp4-sec-ii-l46-51-galileo-orlando-furioso-imagery留待S6。Galileo的引文把《Orlando Furioso》想象为珍宝室和画廊，并将Bandinelli或Parmigianino的草图作为假设性对照；不把草图认作现存作品或确定归属。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Pietro Martire Bagutti仅在正文以Bagutti出现；Haskell称Brydges雇用他与Bellucci、Sleter装饰Canons礼拜堂，但未分配个人分工。Paolo Battista Balbi与Beccari、Marcello Malpighi被列为拥有画作的博洛尼亚医生；不将具体画作分配给Balbi，也不与Genoese Balbi家族合并。Lazzaro Baldi依据索引及正文姓名登记；p.60的委托事实明确保留在卡片语境供S6反向关系审查，但当前S2没有关联到该身份组的relation_candidate，不在本批造边。Baccio Bandinelli只出现在Galileo对Orlando Furioso的嵌套引文及假设性草图中，不登记为现存作品的作者或归属。三条已登记的S2关系候选留待S6；无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为679组/772条已登记、382组/383条待登记；全书KU=2107。

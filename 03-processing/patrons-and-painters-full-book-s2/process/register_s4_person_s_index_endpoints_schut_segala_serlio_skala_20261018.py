@@ -470,11 +470,17 @@ def main() -> int:
         PROCESS_PATH.read_text(encoding="utf-8-sig"), stats
     )
     assert f'<a id="{ANCHOR}"></a>' not in process_text
-    process_lines = [
-        f"- {t['candidate']}（{t['group']}）→ [{t['name_zh']}（{t['name_en']}）]"
-        f"(../../../{t['card']})；S2关系候选{'、'.join(t['relation_ids'])}留待S6。{t['context_zh']}"
-        for t in TARGETS
-    ]
+    process_lines = []
+    for t in TARGETS:
+        relation_note = (
+            f"S2关系候选{'、'.join(t['relation_ids'])}留待S6。"
+            if t["relation_ids"]
+            else "无可归属于本身份组的S2关系候选；不从同段共现或索引提及生成正式关系。"
+        )
+        process_lines.append(
+            f"- {t['candidate']}（{t['group']}）→ [{t['name_zh']}（{t['name_en']}）]"
+            f"(../../../{t['card']})；{relation_note}{t['context_zh']}"
+        )
     process_text = process_text.rstrip() + (
         f"\n\n<a id=\"{ANCHOR}\"></a>\n\n### S4 person：{BATCH_TITLE}（{DATE}）\n\n"
         + "\n".join(process_lines)
