@@ -3,7 +3,7 @@ title: "乔万尼·彼得罗·贝洛里（Giovanni Pietro Bellori）"
 name_en: "Giovanni Pietro Bellori"
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-10-18
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 10.'
@@ -83,6 +83,12 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 身份／职业标签 | 策展人；傳記作家；畫家；圖書館員；美術史學家；歷史學家；考古学家 | Wikidata P106；有参考 |
 | 成员身份 | 聖路卡學院 | Wikidata P463；有参考 |
 | 代表作 | Le vite de' pittori, scultori et architetti moderni | Wikidata P800；有参考 |
+
+### 索引身份对应
+
+中文：B.csv#119“Bellori, Gian Pietro”主项及cand-0273、cand-0275、cand-0276三个person型子目现均映射至本卡。第6章p.158–161以Gian Pietro Bellori全名及连续叙述锚定该身份；主项cand-0272和已有同身份子目cand-0274、cand-0277此前已映射至本KU。这里仅确认索引指向同一人；Queen Christina相关职务、Raphael偏好及其影响仍不扩充本卡事实或正式关系。
+
+English: The B.csv#119 headword “Bellori, Gian Pietro” and its person-type subentries cand-0273, cand-0275, and cand-0276 now all map to this card. Chapter 6, pp. 158–161, anchors the identity with the full name Gian Pietro Bellori and a continuous account; the headword candidate cand-0272 and established person subentries cand-0274 and cand-0277 already map to this KU. This confirms only that the index refers to the same person; the Queen Christina office, Raphael preference, and influence do not expand this card's facts or formal relations.
 
 ## 关系与证据
 
