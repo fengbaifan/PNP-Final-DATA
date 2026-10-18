@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,963（4,772个身份组）、conflict=9、excluded=100、undecided=5,430。S4 已登记1,004组、映射1,181条成员候选；尚待登记3,768组、3,782条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,905（指向1,040个既有 KU）、new=4,962（4,770个身份组）、conflict=9、excluded=100、undecided=5,431。S4 已登记1,008组、映射1,186条成员候选；尚待登记3,762组、3,776条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,023 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,027 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,655 条：12,407 条候选决定记录及 248 条外部身份记录；候选决定数见下表 |
-| [既有字段表](../tables/enrichment.jsonl) | 10,976条，其中1,615条 unverified |
+| [全书对齐](../tables/alignment.csv) | 12,665 条：12,407 条候选决定记录及 258 条外部身份记录；候选决定数见下表 |
+| [既有字段表](../tables/enrichment.jsonl) | 11,282条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
@@ -52,10 +52,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,905 | 指向 1,040 个既有 KU |
-| new | 4,963 | 按 4,772 个当前身份组进入 S4；每组登记一个 KU |
+| new | 4,962 | 按 4,770 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,430 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,431 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,090→398 | 1,157／1,064 | 595／469；470 | 4 | 7 | 1,206 |
+| person | 1,090→398 | 1,156／1,062 | 599／463；464 | 4 | 7 | 1,207 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,905→1,040** | **4,963／4,772** | **1,004／3,768；3,782** | **9** | **100** | **5,430** |
+| **合计** | **1,905→1,040** | **4,962／4,770** | **1,008／3,762；3,776** | **9** | **100** | **5,431** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -488,6 +488,14 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 - Giovanni Baglione人物组 cand-0156/0157/0158 映射至一个person KU；The Resurrection工作组 cand-5013/5297 映射至一个work KU，Divine Love cand-6045与Earthly Love cand-6046各登记为独立work KU。三组人物/作品身份判断均附有书内证据和候选映射。
 - 六条直接人物关系候选的端点现均有KU；Divine Love与Earthly Love的2条直接关系候选也有对应作品端点。所有关系保持待S6审查，本批没有新增正式关系或外部身份核验。
 - 当前S4为331组/432条候选映射已登记，待登记4,507组/4,587条；KU总数1350。字段表经build_field_facts.py预检无警告并apply新增13条source-backed记录，来源登记未变化、unverified保持1,578。
+
+### S3复核与S4人物端点：M索引候选组（2026-10-18）
+
+`cand-1552` → `../units/persons/sarah-churchill.md`（`new-person:sarah-churchill-duchess-of-marlborough`）；
+`cand-1585` → `../units/persons/pierre-louis-moreau-de-maupertuis.md`（`new-person:pierre-louis-moreau-de-maupertuis`）；
+`cand-1586` → `../units/persons/maximilian-ii-emanuel-of-bavaria.md`（`new-person:maximilian-ii-emanuel-of-bavaria-074eaa9da4`）；
+`cand-1605` → `../units/persons/christian-ludwig-ii-of-mecklenburg-schwerin.md`（`new-person:christian-ludwig-ii-mecklenburg-schwerin`）；
+`cand-1587` → `../units/persons/maximilian-ii-emanuel-of-bavaria.md`（`new-person:maximilian-ii-emanuel-of-bavaria-074eaa9da4`）。cand-1586、cand-1587经Deutsche Biographie GND 11857941X合并为一个人物组及一张KU卡。cand-1525由new改为undecided：p.216只有‘Marquis of Mantua’头衔，没有可唯一确认的个人姓名，旧S3 full-name理由撤回。本批6条直接S2 relation_candidate继续待S6；未新增正式关系。S4累计1,008组/1,186条候选映射已登记，3,762组/3,776条待登记；KU=2027。
 
 ## 未解决项与交接限制
 

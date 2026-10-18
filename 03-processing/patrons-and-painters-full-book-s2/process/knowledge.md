@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,064 / 1,157 | 4 | 7 | 1,206 | 595 / 687 | 469 / 470 |
+| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 599 / 692 | 463 / 464 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,772 / 4,963** | **9** | **100** | **5,430** | **1,004 / 1,181** | **3,768 / 3,782** |
+| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,008 / 1,186** | **3,762 / 3,776** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6343,3 +6343,20 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 ### S4结构化姓名字段登记：Sagredo三张人物卡（2026-10-18）
 
 三张人物卡登记7条source_backed姓名enrichment行（`enr-15012`、`enr-15013`、`enr-15014`、`enr-15015`、`enr-15016`、`enr-15017`、`enr-15018`），均引用既有Haskell书目来源ID。Gherardo卡保留遗嘱拼写“Girardo P.O Sagredio”；Niccolò卡保留索引名与第6章正文全名；Stefano卡分列索引“Stefano”、脚注OCR“Stessano”及页图校读“Steffano”。Princeton馆藏沿革的外部身份比对仍为undecided，未写成姓名事实。本批未新增sources.csv记录、生平字段或formal relation。
+
+
+<a id="s3-s4-person-m-index-endpoints-20261018"></a>
+
+### S3身份复核与S4人物端点登记：M索引组（2026-10-18）
+
+- `cand-1552`（原组`new-person:duchess-marlborough-of-a578c57838`）→ `new-person:sarah-churchill-duchess-of-marlborough` → [萨拉·丘吉尔（Sarah Churchill）](../../../04-knowledge/units/persons/sarah-churchill.md)；NPG person record mp02960 identifies Sarah Churchill (née Jenyns/Jennings), 1660–1744, as Duchess of Marlborough and wife of John Churchill, 1st Duke; Haskell p.278 places the title in the context of Lord Manchester's 1709 Venice embassy. No matching person KU exists. New identity group; the undated letter's attribution is not independently verified and its relation_candidate remains for S6.
+- `cand-1585`（原组`new-person:louis-maupertuis-pierre-bddd1f3354`）→ `new-person:pierre-louis-moreau-de-maupertuis` → [皮埃尔-路易·莫罗·德·莫佩尔蒂（Pierre-Louis Moreau de Maupertuis）](../../../04-knowledge/units/persons/pierre-louis-moreau-de-maupertuis.md)；Deutsche Biographie GND 118731998 lists “Maupertuis, Pierre-Louis” and “Maupertuis” as names for Pierre-Louis Moreau de Maupertuis, matching the index and p.349 body mention. No matching person KU exists. New identity group; external identity evidence does not validate the meeting claim in the relation_candidate.
+- `cand-1586` 与 `cand-1587` 合并为 `new-person:maximilian-ii-emanuel-of-bavaria-074eaa9da4`，共同映射至一张Maximilian II Emanuel人物卡；Deutsche Biographie GND 11857941X列明Max Emanuel与Maximilian II. Emanuel为同一选帝侯记录。
+- `cand-1586`（原组`new-person:bavaria-elector-emmanuel-max-of-185c8d9fb9`）→ `new-person:maximilian-ii-emanuel-of-bavaria-074eaa9da4` → [马克西米连二世·埃曼努埃尔（Maximilian II Emanuel of Bavaria）](../../../04-knowledge/units/persons/maximilian-ii-emanuel-of-bavaria.md)；Deutsche Biographie GND 11857941X lists Max Emanuel and Maximilian II. Emanuel under one identity and records him as Elector of Bavaria from 1679. This matches cand-1586 (pp.193, 278) and cand-1587 (p.277, commission in 1704). The prior separate groups are superseded and merged as one new identity group; no matching person KU exists.
+- `cand-1605`（原组`new-person:christian-louis-mecklenburg-of-6ce0779819`）→ `new-person:christian-ludwig-ii-mecklenburg-schwerin` → [克里斯蒂安·路德维希二世（Christian Ludwig II of Mecklenburg-Schwerin）](../../../04-knowledge/units/persons/christian-ludwig-ii-of-mecklenburg-schwerin.md)；Deutsche Biographie GND 102111847 lists “Christian Ludwig, Mecklenburg, Herzog” as an alternate name for Christian Ludwig II of Mecklenburg-Schwerin (1683–1756), matching Haskell's index form and body title. The commission date is unstated, so only the identity/name correspondence is used. No matching person KU exists.
+- `cand-1587`（原组`new-person:bavaria-elector-maximilian-of-7d0b923214`）→ `new-person:maximilian-ii-emanuel-of-bavaria-074eaa9da4` → [马克西米连二世·埃曼努埃尔（Maximilian II Emanuel of Bavaria）](../../../04-knowledge/units/persons/maximilian-ii-emanuel-of-bavaria.md)；cand-1587在第10章p.277称Maximilian of Bavaria；Deutsche Biographie GND 11857941X将Maximilian II. Emanuel与Max Emanuel列为同一巴伐利亚选帝侯记录。与cand-1586并入同一new身份组，没有匹配既有person KU。
+- `cand-1525`（原组`new-person:mantua-of-73894be007`）由`new`改为`undecided`：书后索引M.csv#62及第8章p.216只称‘Marquis of Mantua’，未给个人姓名；旧S3理由误称其为full personal name，现撤回。尚无本批外部记录或书内跨章锚点能把这一头衔唯一对应到具体人物，故由new改为undecided，不登记KU。后续需有据的1656年曼图亚头衔持有人或原始委托记录才能消歧；关系候选st-chp8-p216-magni-working-for-marquis-mantua仍待S6。
+
+本批登记4个S3人物组、5条候选映射、4张KU卡及14条source_backed姓名字段；新增5条外部身份对齐行（4个外部记录），并登记4个外部来源ID。6条直接S2 relation_candidate（含待证的cand-1525）全部留待S6，未新增formal relation。
+
+登记后人物类型S4为599组/692条已登记、463组/464条待登记；全书KU=2027。
