@@ -26,14 +26,14 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,677 条：12,407 条候选决定记录及 270 条外部身份记录；候选决定数见下表 |
+| [全书对齐](../tables/alignment.csv) | 12,697 条：12,407 条候选决定记录及 290 条外部身份记录；候选决定数见下表 |
 | [既有字段表](../tables/enrichment.jsonl) | 11,508条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,677、unlinked=0；enrichment=11,508；S4待登记new候选映射3,699条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,960（1,046个既有KU）、new=4,984（4,780个类型内身份组）、conflict=9、excluded=100、undecided=5,354；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。270条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,697、unlinked=0；enrichment=11,508；S4待登记new候选映射3,729条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,960（1,046个既有KU）、new=5,014（4,808个类型内身份组）、conflict=9、excluded=100、undecided=5,324；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。290条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2612,3 +2612,11 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-9471`（Viale 关于 Rivoli 的论文）和 `cand-9464`（Brühl 1961 年 Clemens August 展览目录）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Viale 外部书目拼法与本地目录存在一字母差异且略去副标题，过程记录保留此差异；Clemens August 记录指向展览目录，不与同年评论文章混并。两项只裁决书目身份。依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-viale-clemens-august-archive-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前全书 S3 `new=5,012`／4,807组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,326`；S4已登记1,107组／1,285条候选映射，待登记3,700组／3,727条候选映射。archive 类型 `new=1,296`／1,241组、`undecided=696`；S4已登记109组／151条候选映射，待登记1,132组／1,145条候选映射。严格表审计复核后更新最终计数。
+
+
+### S3 person/work：Giorgione 与《Tempesta》跨章分组（2026-10-18）
+
+- `cand-1188` 由 `undecided` 改为独立 new-person 组 `new-person:giorgione-giorgio-da-castelfranco-20261018`；Treccani 支持 Giorgione / Giorgio da Castelfranco 的人物身份，并警示 Barbarelli 姓氏有误。
+- `cand-1189` 由 `undecided` 改为 `new`，与 `cand-10695` 共用既有作品组 `workgrp-ab3548af485776`；索引子目和第17、20章同一 Manfrin 收藏的《Tempesta》陈述支持作品身份。人物与作品分开，作者归属仍是原书表述。
+
+严格表审计通过：全书 `new=5,014`／4,808组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,324`；S4已登记1,107组／1,285条映射，待登记3,701组／3,729条映射。人物类型当前 `new=1,160`、`undecided=1,150`；作品类型 `new=495`、`undecided=1,631`。本批没有登记KU、补足字段或正式关系。证据及旧待决理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-giorgione-person-and-tempesta-work-20261018)和[对齐表](../tables/alignment.csv)。
