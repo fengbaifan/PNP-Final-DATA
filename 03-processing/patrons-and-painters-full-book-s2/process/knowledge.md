@@ -7499,3 +7499,10 @@ Caesar), m-chp2-secii-l118-125-0033 (a Julius Caesar)
 新建的16张人物卡均保留单一来源锚点与双语描述。Alessandro身份核对Treccani及圣座，Farinelli核对Treccani DBI，Antonio Vallisnieri通过Treccani父子区分将1772年收信人限定为儿子；其余新组不扩写外部身份。
 
 Van Dyck/Vandyke为同一艺术家形式；Bernardo/Bernardino Castelli与Antonio/Andrea Zucchi只记录为各自段落的原书异文，不建立全局别名。Veith、Violante及Gioì Paolo Baldi保留来源形式。20组关系候选不因身份登记自动转为正式边，仍按S6逐项裁决。
+
+<a id="s6-source-id-exact-url-repair-20261019"></a>
+### S6 关系来源 ID：唯一精确映射回填（2026-10-19）
+
+复核关系表118条空白 `source_id` 记录，均为 external 来源（117条 formal、1条 pending）。按关系 `source_file` 的精确 URL 匹配 `sources.csv`，再核对主客体 KU 的 `enrichment.jsonl` 来源 URL 与 ID。仅对端点证据候选并集唯一，或两端共有且唯一的来源 ID 写回；不改变关系状态、端点、谓词、时间或证据定位。
+
+本次回填73条，全部为 formal：`rel-0038`–`rel-0046`、`rel-0062`–`rel-0064`、`rel-0067`、`rel-0100`、`rel-0111`–`rel-0112`、`rel-0139`、`rel-0143`、`rel-0154`、`rel-0157`–`rel-0158`、`rel-0160`、`rel-0174`、`rel-0208`、`rel-0302`、`rel-0360`–`rel-0362`、`rel-0429`、`rel-0431`、`rel-0433`、`rel-0515`–`rel-0522`、`rel-0640`、`rel-0644`、`rel-0648`、`rel-0653`、`rel-0667`、`rel-0669`、`rel-0681`、`rel-0685`、`rel-0751`、`rel-0853`–`rel-0854`、`rel-0968`–`rel-0969`、`rel-0973`、`rel-0991`–`rel-0992`、`rel-0995`、`rel-1044`–`rel-1046`、`rel-1048`–`rel-1051`、`rel-1054`–`rel-1055`、`rel-1079`、`rel-1094`–`rel-1095`、`rel-1126`、`rel-1198`–`rel-1199`、`rel-1218`–`rel-1219`。45条仍空白：13条无精确 URL 来源登记，30条端点来源 ID 有歧义，2条没有同 URL 的端点字段来源；其中包括原有1条 pending。保留待查，不按网站 URL 猜选 ID。关系表总行数及原有 1,225 formal、2 pending 状态不变。

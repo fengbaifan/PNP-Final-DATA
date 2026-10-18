@@ -2,7 +2,7 @@
 
 ## 目标与当前状态
 
-项目版本为初始化阶段的 0.1.0；全书 S2 内部处理已完成，尚未独立语义验收。全书 S3 已为 12,407 个候选记录当前决定与去向：same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308；冲突与待证对象仍未解决。S4 已登记 1,172 / 4,812 个新增身份组，3,640 组待登记。S5 全书字段补足与 S6 全书关系裁决尚未收口。覆盖、计数与未决项以[全书当前结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)及其结构化表为准；其中按日期记录的批次段落是当时快照，不作为当前累计数。[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)仅说明独立的历史任务，不由规则版本或文件数量推导全书完成。知识发现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
+项目版本为初始化阶段的 0.1.0；全书 S2 内部处理已完成，尚未独立语义验收。全书 S3 已为 12,407 个候选记录当前决定与去向：same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308；冲突与待证对象仍未解决。S4 已登记 1,172 / 4,812 个新增身份组（1,358条候选映射），3,640组／3,662条映射待登记；直接关系端点待登队列为1,882组／1,883条候选映射。S5字段表11,693条、其中1,627条unverified；S6关系表1,227条（1,225 formal、2 pending），45条缺结构化 `source_id`（44条formal、1条pending）。S5、S6尚未收口。覆盖、计数与未决项以[全书当前结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)及其结构化表为准；其中按日期记录的批次段落是当时快照，不作为当前累计数。[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)仅说明独立的历史任务，不由规则版本或文件数量推导全书完成。知识发现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
 
 第一部分：知识元与知识图谱，按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。
 第二部分：知识发现与知识呈现，用户明确启动后，依据 **KU 及关系 → Topic → Theme → Dimension → Domain** 逐级涌现，组织成果并形成页面。
