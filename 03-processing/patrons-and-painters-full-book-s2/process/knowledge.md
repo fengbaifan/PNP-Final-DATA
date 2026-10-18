@@ -26,7 +26,7 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,205 / 1,259 | 0 | 18 | 733 | 109 / 151 | 1,096 / 1,108 |
+| archive | 2,100 | 90 | 1,208 / 1,262 | 0 | 18 | 730 | 109 / 151 | 1,099 / 1,111 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
@@ -36,11 +36,11 @@
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,960** | **4,771 / 4,975** | **9** | **100** | **5,363** | **1,107 / 1,285** | **3,664 / 3,690** |
+| **合计** | **12,407** | **1,960** | **4,774 / 4,978** | **9** | **100** | **5,360** | **1,107 / 1,285** | **3,667 / 3,693** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,363 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；270 条外部身份记录另行保留。same 的 1,960 条候选指向 1,046 个既有 KU；new 候选组成 4,771 个类型内身份组，共 4,975 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,360 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；270 条外部身份记录另行保留。same 的 1,960 条候选指向 1,046 个既有 KU；new 候选组成 4,774 个类型内身份组，共 4,978 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -6834,3 +6834,18 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 `cand-4373` 形成新 archive 组 `archive-group-orbaan-documenti-barocco-1920`，待S4登记。第21章 p.432 的书目 statement `st-chp21-bib-l883-926-entry-10` 列出 J. A. F. Orbaan, *Documenti sul Barocco in Roma*, Roma 1920；第2、3、4章的引文均标作 Orbaan (1920)，包括第2章 p.237、p.xv、p.506，第3章 pp.107–108及第4章 pp.515–522。完整八条跨章 mention 与对应 citation statements 保留于 `aln-4556`。未发现同类 archive KU。
 
 相关档案对象和其他出版物分开：`cand-4783` 是被 Orbaan 部分刊布的1631年 Barberini 清单，`cand-5155` 是经 Orbaan 转引的1608年 Avviso，`cand-6385` 是 Orbaan 1914–15年另一篇论文；均不是这本1920年文集。裁决只确认书目身份，不确认引用页内容、清单原件或转引事实；不新建KU或关系。档案类现为 `new=1,259` 个候选／1,205组、`undecided=733`；S4待登记1,096组／1,108条候选映射。全书 `new=4,975`／4,771组、`undecided=5,363`；S4待登记3,664组／3,690条候选映射。
+
+
+### S3 archive：Wittkower《The sculptures of Gian Lorenzo Bernini》（1955）
+
+`cand-4383` 形成新 archive 组 `archive-group-wittkower-sculptures-bernini-1955`，待S4登记。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-06` 列明 Rudolf Wittkower、*The sculptures of Gian Lorenzo Bernini*、London 1955；第2、7章的引用均标为 Wittkower 1955。书目身份与引文定位相合； cited pages 未读。此书与《Art and architecture in Italy 1600 to 1750》（1958）及1948、1900年不同作者的Bernini传记分开。
+
+### S3 archive：Wittkower《Art and architecture in Italy 1600 to 1750》（1958）
+
+`cand-4557` 形成新 archive 组 `archive-group-wittkower-art-architecture-1958`，待S4登记。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-07` 列明 Rudolf Wittkower、*Art and architecture in Italy 1600 to 1750*、London 1958；第1–7章短引、年份和 ibid. 定位与该项一致。其与Wittkower 1955年Bernini雕塑专著分别记录；所引页未读。
+
+### S3 archive：V. Ruffo《La galleria Ruffo nel secolo XVII in Messina》（1916）
+
+`cand-6454` 形成新 archive 组 `archive-group-ruffo-galleria-1916`，待S4登记。第21章 p.436 书目 statement `st-chp21-bib-l1059-1100-entry-11` 列明文章题名、*Bollettino d’Arte* 卷X、1916年；第1、6、8章短引与该条相合。知识库中引用该文的Ruffo书信卡是不同 archive 对象，没有对应的文章KU；书信不并入文章组。所引页未读。
+
+三项均仅作书目身份裁决，不据此验证被引页内容或书内历史主张，也未新增KU或正式关系。档案类现为 `new=1,262` 个候选／1,208组、`undecided=730`；S4待登记1,099组／1,111条映射。全书 `new=4,978`／4,774组、`undecided=5,360`；S4待登记3,667组／3,693条映射。
