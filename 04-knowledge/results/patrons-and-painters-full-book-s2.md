@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,958（指向1,046个既有 KU）、new=4,968（4,767个身份组）、conflict=9、excluded=100、undecided=5,372。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,660组、3,683条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,958（指向1,046个既有 KU）、new=4,969（4,768个身份组）、conflict=9、excluded=100、undecided=5,371。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,661组、3,684条映射。
 
 ## 范围与覆盖
 
@@ -26,14 +26,14 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,672 条：12,407 条候选决定记录及 265 条外部身份记录；候选决定数见下表 |
+| [全书对齐](../tables/alignment.csv) | 12,674 条：12,407 条候选决定记录及 267 条外部身份记录；候选决定数见下表 |
 | [既有字段表](../tables/enrichment.jsonl) | 11,508条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,672、unlinked=0；enrichment=11,508；S4待登记new候选映射3,683条；errors=[]、s2_missing=[]。S3闭包机械核对：12,407个候选各有且仅有一条决定；4,968个new候选组成4,767个类型内身份组，组内类型一致且无部分登记；same均指向有效且类型相符的KU；conflict、excluded、undecided均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。265条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,674、unlinked=0；enrichment=11,508；S4待登记new候选映射3,684条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,958（1,046个既有KU）、new=4,969（4,768个类型内身份组）、conflict=9、excluded=100、undecided=5,371；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。267条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -52,10 +52,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,958 | 指向 1,046 个既有 KU |
-| new | 4,968 | 按 4,767 个当前身份组进入 S4；每组登记一个 KU |
+| new | 4,969 | 按 4,768 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,372 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,371 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,143→404 | 1,158／1,060 | 698／362；367 | 4 | 7 | 1,152 |
+| person | 1,143→404 | 1,159／1,061 | 698／363；368 | 4 | 7 | 1,151 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,958→1,046** | **4,968／4,767** | **1,107／3,660；3,683** | **9** | **100** | **5,372** |
+| **合计** | **1,958→1,046** | **4,969／4,768** | **1,107／3,661；3,684** | **9** | **100** | **5,371** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2497,3 +2497,9 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 - `cand-9561`、`cand-9821`、`cand-9886`、`cand-10191`、`cand-10220`、`cand-10587`裁为同一1924年出版物身份组 `archive-group-ec73462cbd49`；引用页未独立查阅，KU待S4登记。
 - `cand-8658`（V. Moschini）继续待证；`cand-10605`（Epistolario Moschini）保持独立档案对象。书内关系候选未改写，仍待S6。
 - 详情、原S2未决理由及历史组号见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-giannantonio-moschini-person-and-1924-publication-20261018)。当前总计：new=4,968/4,767组，undecided=5,372；S4待登记3,660组/3,683条候选映射。
+
+### S3 person：V. Moschini 跨章新身份组（2026-10-18）
+
+`cand-8658`（第9章 p.265 注5、第10章 p.277 注5中的“V. Moschini”）由 `undecided` 改为待登记的 `new-person:vittorio-moschini-1896-1976`。两处分别引用 1956 年 *Pietro Longhi* 与 1954 年 *Canaletto*；第21章书目列出这两部出版物。美国国家美术馆的馆藏书目分别把对应作者写为 Vittorio Moschini（[《The Faint》书目](https://www.nga.gov/artworks/204-faint)、[《Entrance to the Grand Canal from the Molo, Venice》书目](https://www.nga.gov/artworks/32589-entrance-grand-canal-molo-venice)）；BiblioToscana记录其全名与1896–1976年生卒（[《La pittura italiana del Settecento》目录记录](https://biblio.toscana.it/catalogo/record/a_pittura_italiana_del_settecento_moschini_vittorio_1896_1976_1931_nemi_novissima_enciclopedia_monografica_illustrata-prato_XABPO0017420)）。外部依据及访问日期见 `alignment.csv` 的 `aln-12676`–`aln-12677`。
+
+此人物与 Giannantonio Moschini（1773–1840）分开；`cand-8643` 和 `cand-9295` 仍各自标识 *Pietro Longhi* 与 *Canaletto* 两部文献，`cand-10605` 仍是独立 *Epistolario Moschini* 档案对象。引用内容、作品位置与论证未据此核实，书内关系候选未改写；本组待 S4 登记。当前对齐为12,674行，其中12,407条候选决定与267条外部身份记录；全书 `new=4,969`/4,768组、`undecided=5,371`，S4待登记3,661组/3,684条映射。
