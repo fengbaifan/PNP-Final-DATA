@@ -11207,3 +11207,8 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 ### S2 cand-7285 metadata refresh after p.200 note 1 migration (2026-10-17)
 
 - cand-7285 的 detail 原称 p.200 注1尚未迁移；当前 statement 表已完整包含该注，旧状态过时。现更新为明确记录正文与注1的来源锚点，并保留注释中的 tentative identification：cand-7285 与 cand-1891 不合并，cand-7285 的 S3 决定继续为 undecided。未修改候选、提及或 statement 数量。
+
+### S2 第七章 p.185 注2–4书目交叉引用定位校正（2026-10-19）
+
+- 回核规范转录 L358–359：注2原文仅为“Hautecoeur, pp. 39-49”，注3为“ibid., pp. 84-9”，注4为“Alazard, pp. 18-28 and 55-86”。原 statement 的 locator 将 Hautecœur 误扩写为1943年《Rome et la Renaissance de la peinture française》，将 Alazard 误扩写为1931年《La Vie artistique au temps de Mazarin》；这些题名均未出现在对应脚注，且与当前候选所据书目项不符。
+- 现将三个 statement 的 claim、qualification、`citation_locator`、`citations[].locator` 与 relation-candidate 说明改为区分脚注原文和书目映射：Hautecœur 映射到书目唯一条目《L’Histoire des Châteaux du Louvre et des Tuileries》（1927），Alazard 映射到《L’Abbé Luigi Strozzi…》（1924）；两项均未独立查阅所引页。候选端点、S3决定、正文脚注链接及数量不变；改动由 `correct_chp7_p185_citation_work_mappings_20261019.py` dry-run 后 apply，并保留恢复副本。
