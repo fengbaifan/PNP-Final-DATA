@@ -2594,3 +2594,15 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-7690`（Tassi《Vite》第一卷，1793）及 `cand-9445`（Per Bjurström 1967 年论文）由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Tassi 第一卷与已裁决的第二卷保持卷级边界；两项只确认书目身份，原文和所引内容未核读。裁决依据和映射见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-tassi-vol-i-bjurstrom-archive-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前全书 S3 `new=5,007`／4,802组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,331`；S4已登记1,107组／1,285条候选映射，待登记3,695组／3,722条候选映射。archive 类型 `new=1,291`／1,236组、`undecided=701`；S4已登记109组／151条候选映射，待登记1,127组／1,140条候选映射。严格表审计复核后更新最终计数。
+
+### S3 archive：Ferrari 1900 年 Algarotti 研究论文身份（2026-10-18）
+
+`cand-9460`（Luigi Ferrari, “Gli acquisti dell’Algarotti pel Regio Museo di Dresda”）由 `undecided` 改判 `new`，归入独立 archive 论文身份组并待 S4 登记；记录指向 *L’Arte* 期刊论文，不推定或登记单行本。书目身份的跨章依据及外部来源见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-ferrari-algarotti-article-1900-20261018)及[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=5,008`／4,803组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,330`；S4已登记1,107组／1,285条候选映射，待登记3,696组／3,723条候选映射。archive 类型 `new=1,292`／1,237组、`undecided=700`；S4已登记109组／151条候选映射，待登记1,128组／1,141条候选映射。严格表审计复核后更新最终计数。
+
+### S3 archive：Bellotto 展览目录与 Battisti 论文两项身份裁决（2026-10-18）
+
+`cand-9462`（Bellotto/Gierymski 1955 年展览目录）和 `cand-9479`（E. Battisti 1958 年论文）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。前者裁定为展览目录，后者裁定为期刊论文；均仅核书目身份，不核验内容主张。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bellotto-battisti-archive-identities-20261018)及[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=5,010`／4,805组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,328`；S4已登记1,107组／1,285条候选映射，待登记3,698组／3,725条候选映射。archive 类型 `new=1,294`／1,239组、`undecided=698`；S4已登记109组／151条候选映射，待登记1,130组／1,143条候选映射。严格表审计复核后更新最终计数。

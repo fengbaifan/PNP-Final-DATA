@@ -6938,3 +6938,18 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-9445` 由 `undecided` 改判 `new`，归入 `archive-group-bjurstrom-carl-gustaf-tessin-drawings-1967`。第10章 p.292 注6、第20章 Tessin 注释及第21章 statement `st-chp21-bib-l165-205-entry-12` 指向同一篇 Per Bjurström 论文。Accademia Nazionale di San Luca 的书目引文列出 “Carl Gustaf Tessin as a Collector of Drawings”，收入 *Contributions to the History and Theory of Art*（Figura, n.s. 6），Uppsala 1967，pp.99–120（[书目记录所在论文](https://accademiasanluca.it/uploads/CARLO_FONTANA_fb60c8927f.pdf)，访问日期2026-10-18）。仅裁决论文书目身份；论文及所引页未独立查阅，不据此验证 Tessin 收藏史事实。
 
 两项均待 S4 登记；Tassi 第一、二卷分别保留卷级身份，Bjurström 论文作为文集中的独立论文记录。各候选的原始短引、mention、statement 与外部来源分别列在 `alignment.csv` 主决定行及身份来源行。
+
+<a id="s3-ferrari-algarotti-article-1900-20261018"></a>
+
+### S3 archive：Ferrari 1900 年 Algarotti 研究论文身份（2026-10-18）
+
+`cand-9460` 由 `undecided` 改判 `new`，归入 `archive-group-ferrari-algarotti-acquisti-1900`。第10章 p.295 注1引用 pp.150–154，第21章 statement `st-chp21-bib-l461-496-entry-08` 将 Luigi Ferrari 的 “Gli acquisti dell’Algarotti pel Regio Museo di Dresda” 列为 *L’Arte* 论文；两章书目定位相合。University of Padua research repository 收录的书目将该论文列在1900年 *L’Arte* 第3卷、pp.150–154（[书目 repertory](https://www.research.unipd.it/retrieve/e14fb26f-af47-3de1-e053-1705fe0ac030/chiara_logiudice_Joseph_Wagner.pdf)，访问日期2026-10-18）。此处裁决为期刊论文身份，不并作单行本；论文及所引页未独立查阅。
+
+<a id="s3-bellotto-battisti-archive-identities-20261018"></a>
+
+### S3 archive：Bellotto 展览目录与 Battisti 论文两项跨章身份（2026-10-18）
+
+- `cand-9462` 由 `undecided` 改判 `new`，归入 `archive-group-bellotto-gierymski-poland-exhibition-1955`。第10章 pp.295、298 的目录短引和第21章 statement `st-chp21-bib-l129-163-entry-10` 对应。Biblioteca Braidense OPAC 记录 NAP0104820 著录《Mostra di Bernardo Bellotto, 1720–1780; Alessandro Gierymski, 1850–1901: opere provenienti dalla Polonia》，Venezia, Palazzo Grassi, 13 settembre–16 ottobre 1955，Venezia–Milano: Alfieri, 1955，并标为展览目录（[Braidense 目录](https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&fname=none&from=2&item%3A21%3ASoggetti%3A%3A%40frase%40=ESPOSIZIONI+-+VENEZIA+-+1955&nentries=1&resultForward=opac%2Ffull.jsp&saveparams=false&searchForm=opac%2Ferror.jsp)，访问日期2026-10-18）。仅确认目录身份。
+- `cand-9479` 由 `undecided` 改判 `new`，归入 `archive-group-battisti-juvarra-sant-ildefonso-1958`。第10章注2与第21章 statement `st-chp21-bib-l87-127-entry-24` 对应同一篇 E. Battisti 论文。Treccani《Dizionario Biografico degli Italiani》书目列 “Juvarra a Sant’Ildefonso”，*Commentari*, IX, 1958, pp.273–297（[Treccani 条目](https://www.treccani.it/enciclopedia/giambattista-pittoni_%28Dizionario-Biografico%29/)，访问日期2026-10-18）。仅确认论文身份，不据此复述其论点；论文及引文页未独立查阅。
+
+两项分别为展览目录与期刊论文身份，均待 S4 登记；其书目证据不扩展到目录/论文内容中的历史断言。逐候选映射、原书 mention 与 statement 锚点见 `alignment.csv`。
