@@ -1,4 +1,4 @@
----
+﻿---
 title: 约翰·马蒂亚斯·冯·德尔·舒伦堡（Johann Matthias von der Schulenburg）
 name_en: Johann Matthias von der Schulenburg
 type: person
@@ -26,9 +26,39 @@ sources:
 - citation: Art Institute of Chicago, Pastoral Scene, artwork 23333, reference 1937.68. https://api.artic.edu/api/v1/artworks/23333. Accessed 2026-09-14.
   location: 馆方API的作品字段、完整description、provenance_text、publication_history及exhibition_history
   sentence_summary: Giovanni Battista Piazzetta，1740年布面油画，191.8×143厘米；Schulenburg委托，1743年清单已载，1937年芝加哥艺术博物馆购入。题材寓意保留解释的不确定性。
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第10章，印刷页311；OCR L8；印刷页暂按候选索引定位 p.311；OCR L7 页标异常为[Page 1661]，L17 为[Page 312]，待页图复核。
+  sentence_summary: 第10章以全名识别 Schulenburg，并称其出身萨克森家族、1661年出生。
+  original_quotes:
+  - source_span: lines 8
+    text: Johann Matthias Schulenburg, who came from a Saxon family, was born in 1661.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/10_CHP-10_sec_ii.md
+    source_span: lines 8; print p. 311; 印刷页暂按候选索引定位 p.311；OCR L7 页标异常为[Page 1661]，L17 为[Page 312]，待页图复核。
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第9章，印刷页267；OCR L320–321
+  sentence_summary: 第9章称 Schulenburg 购入一批包含若干 Castiglione 作品的藏品；原书将批次事实与艺术家曾任 Mantua 宫廷画家相连。
+  original_quotes:
+  - source_span: lines 320–321
+    text: Marshall Schulenburg bought a large batch4 among which were several Castigliones
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/09_CHP-9_intro.md
+    source_span: lines 320–321; print p. 267
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第20章，印刷页407；OCR L169–171
+  sentence_summary: 第20章后记提及两篇新近研究讨论 Schulenburg 的收藏，并呈现对其艺术鉴赏力的不同评价。
+  original_quotes:
+  - source_span: lines 169–171
+    text: Marshal Schulenburg’s collection has been discussed in two recent articles.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
+    source_span: lines 169–171; print p. 407
 created: '2026-09-14'
-updated: '2026-09-15'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#德国馆藏版本与创作委托关系
+updated: '2026-10-18'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-schulenburg-duplicate-ku-reconciliation-20261018
 ---
 
 ## 内容
@@ -38,6 +68,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 **中文：** 为威尼斯共和国服务的元帅、收藏家与赞助人，委托皮亚泽塔创作及评估收藏。
 
 **English:** A field marshal in Venetian service, collector and patron who employed Piazzetta for artistic commissions and collection assessment.
+
+### 本书语境
+
+第10章以 Johann Matthias Schulenburg 全名识别此人，称其出身萨克森家族、1661年出生；第9章记其购入包含多幅 Castiglione 作品的一批藏画；第20章后记回顾其收藏研究。以上为 Haskell 的书内叙述。
+
+**English:** Chapter 10 names Johann Matthias Schulenburg and says he came from a Saxon family and was born in 1661. Chapter 9 reports his purchase of a group that included several works by Castiglione; the Chapter 20 postscript reviews scholarship on his collection. These remain Haskell's reports.
 
 ### 名称
 
@@ -81,6 +117,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 科隆画作 | [田园](../works/piazzetta-idyll.md)；不晚于1745 | S4 |
 | 芝加哥画作 | [田园场景](../works/piazzetta-pastoral-scene-chicago.md)；1743年清单已载 | S5 |
+
+### 身份边界
+
+中文：第10章的书内形式“Johann Matthias Schulenburg”与前言图版及既有人物记录采用的“Johann Matthias von der Schulenburg”归为同一人；S.csv#89主项及其人物子目指向此人。第10章p.311暂依索引定位，OCR页标异常仍待页图核对。第9章p.267与第20章p.407提供跨章收藏语境。这些书内陈述不替代外部核验，购买、赞助及艺术往来仍按既有证据状态保留。
+
+English: Chapter 10's form “Johann Matthias Schulenburg” and the “Johann Matthias von der Schulenburg” form used in the plate list and existing person record refer to the same person; the S.csv#89 index headword and its person subentries point to him. The Chapter 10 p. 311 locator follows the index provisionally, and its OCR page marker still awaits image review. Chapter 9 (p. 267) and Chapter 20 (p. 407) provide further collection context. These book statements do not replace external verification; claims about purchases, patronage, and artistic dealings retain their existing evidence status.
 
 ## 关系与证据
 

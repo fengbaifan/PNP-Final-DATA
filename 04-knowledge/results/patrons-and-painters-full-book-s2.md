@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,942（指向1,045个既有 KU）、new=4,960（4,767个身份组）、conflict=9、excluded=100、undecided=5,396。S4 已登记1,108组、映射1,286条成员候选；尚待登记3,659组、3,674条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,948（指向1,045个既有 KU）、new=4,959（4,766个身份组）、conflict=9、excluded=100、undecided=5,391。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,659组、3,674条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,127 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,126 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
@@ -51,11 +51,11 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
-| same | 1,942 | 指向 1,045 个既有 KU |
-| new | 4,960 | 按 4,767 个当前身份组进入 S4；每组登记一个 KU |
+| same | 1,948 | 指向 1,045 个既有 KU |
+| new | 4,959 | 按 4,766 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,396 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,391 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,127→403 | 1,154／1,059 | 699／360；362 | 4 | 7 | 1,172 |
+| person | 1,133→403 | 1,153／1,058 | 698／360；362 | 4 | 7 | 1,167 |
 | place | 226→153 | 567／559 | 40／519；519 | 0 | 0 | 316 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,942→1,045** | **4,960／4,767** | **1,108／3,659；3,674** | **9** | **100** | **5,396** |
+| **合计** | **1,948→1,045** | **4,959／4,766** | **1,107／3,659；3,674** | **9** | **100** | **5,391** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2465,3 +2465,8 @@ cand-0462复用既有Girolamo Brusoni KU；cand-0496与cand-0497合并为待S4�
 ### S3 person：Grand Prince Ferdinand跨章索引身份组复用（2026-10-18）
 
 10条人物主项下的索引子目现映射至既有Grand Prince Ferdinand人物KU；画家、地点、术语、展览程序及收藏候选保留各自类型和决定。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-ferdinand-tuscany-index-subentries-20261018)及alignment.csv。
+
+
+### S3 person：Schulenburg跨章同一性与重复KU合并（2026-10-18）
+
+cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡已合并来源后撤下，原正式关系端点保持不变。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-schulenburg-duplicate-ku-reconciliation-20261018)及alignment.csv。
