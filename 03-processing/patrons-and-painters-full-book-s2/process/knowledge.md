@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,117 | 1,059 / 1,154 | 4 | 7 | 1,182 | 699 / 792 | 360 / 362 |
+| person | 3,464 | 1,127 | 1,059 / 1,154 | 4 | 7 | 1,172 | 699 / 792 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,932** | **4,767 / 4,960** | **9** | **100** | **5,406** | **1,108 / 1,286** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,942** | **4,767 / 4,960** | **9** | **100** | **5,396** | **1,108 / 1,286** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6742,3 +6742,11 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - cand-2441（S.csv#130，and Canaletto，p.304, 305, 306, 307, 308, 309, 310）、cand-2444（S.csv#133，and Marco Ricci，p.303, 310）、cand-2445（S.csv#134，and neo-Palladianism，p.308, 309）、cand-2446（S.csv#135，and Sebastiano Ricci，p.302, 303, 306, 310）、cand-2448（S.csv#137，artistic tastes，p.306）、cand-2449（S.csv#138，attitude of English contemporaries，p.301）、cand-2454（S.csv#143，comparison of collection with Marshal Schulenburg's，p.315）、cand-2455（S.csv#144，contacts with British visitors to Venice，p.301, 302）、cand-2456（S.csv#145，contacts with Venetian society，p.299, 300, 301）、cand-2459（S.csv#148，early collecting of paintings，p.302, 303）、cand-2463（S.csv#152，move towards classicism in taste，p.309）、cand-2474（S.csv#163，support for Pasquali's publishing firm，p.299, 301, 306, 337）均由undecided改判same → [units/persons/joseph-smith-venice](../../../04-knowledge/units/persons/joseph-smith-venice.md)。S.csv#129主项为“Smith, Joseph”；以上12项是同一person主项下跨第9、10、13、15及19章页码的索引子目，不是另12个人物。第10章p.299的全名与“CONSUL JOSEPH SMITH”标题、既有人物卡第9章p.264及第19章pp.391–394的语境共同支持主项身份。此前五条new候选仍保留其source-local人物组和S4映射；本批只把同一主项下其余12条索引候选same至已登记KU。
 - 边界：Canaletto、Marco Ricci、Sebastiano Ricci、Marshal Schulenburg等仍各自为不同候选人物；neo-Palladianism、审美、英格兰同代人的态度、访客与交往、收藏及Pasquali出版活动仅作为索引子目，不据此采纳新事实或登记正式关系。相邻archive、event、place候选和原决定均不变。
 - 更新后S3 same=1,932（1,045个KU），new=4,960/4,767组，undecided=5,406；S4待登记3,659组/3,674条候选映射。
+
+<a id="s3-ferdinand-tuscany-index-subentries-20261018"></a>
+
+### S3 person：Grand Prince Ferdinand索引子项复用既有人物KU（2026-10-18）
+
+- cand-1612（M.csv#152，and G. M. Crespi／support in break with conventional 'history picture'，p.239）、cand-1613（M.csv#153，and Fumiani，p.234）、cand-1614（M.csv#154，and Gabbiani，p.233）、cand-1615（M.csv#155，and Karl Loth，p.233）、cand-1616（M.csv#156，and Livio Mehus，p.240）、cand-1619（M.csv#159，and Venice，p.230, 231, 232, 233）、cand-1621（M.csv#161，employment of Niccolò Cassana，p.232, 234）、cand-1622（M.csv#162，patronage of contemporary artists，p.232, 233, 234, 235, 236, 237, 238, 239）、cand-1623（M.csv#163，collaboration with painters，p.232, 234, 236）、cand-1624（M.csv#164，support of writers，p.230）均由undecided改判same → [units/persons/ferdinand-grand-prince-tuscany](../../../04-knowledge/units/persons/ferdinand-grand-prince-tuscany.md)。M.csv#149主项为“Medici, Grand Prince Ferdinand de'”；以上10项是同一person主项下的索引子目，不是另10个人物。第8章p.229以Medici及Grand Prince Ferdinand明确开启其叙述，后文连续记述同一人物的出生、家庭、威尼斯旅行、收藏及与画家的往来；主项cand-1609及索引子项cand-1611、cand-1617已same至既有人物KU。
+- 边界：画家、Venice与16世纪威尼斯绘画仍是不同候选；艺术展览程序cand-1610保持其procedure KU，术语cand-1618和未分类收藏cand-1620保持原决定。子目描述的赞助、合作、用人或支持不转写为正式关系。
+- 更新后S3 same=1,942（1,045个KU），new=4,960/4,767组，undecided=5,396；S4待登记3,659组/3,674条候选映射。
