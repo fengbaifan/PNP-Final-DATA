@@ -1,8 +1,8 @@
-﻿# 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
+# 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,960（指向1,046个既有 KU）、new=4,969（4,768个身份组）、conflict=9、excluded=100、undecided=5,369。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,661组、3,684条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,960（指向1,046个既有 KU）、new=4,971（4,769个身份组）、conflict=9、excluded=100、undecided=5,367。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,662组、3,686条映射。
 
 ## 范围与覆盖
 
@@ -33,7 +33,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,677、unlinked=0；enrichment=11,508；S4待登记new候选映射3,684条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,960（1,046个既有KU）、new=4,969（4,768个类型内身份组）、conflict=9、excluded=100、undecided=5,369；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。270条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,677、unlinked=0；enrichment=11,508；S4待登记new候选映射3,686条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,960（1,046个既有KU）、new=4,971（4,769个类型内身份组）、conflict=9、excluded=100、undecided=5,367；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。270条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -52,10 +52,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,960 | 指向 1,046 个既有 KU |
-| new | 4,969 | 按 4,768 个当前身份组进入 S4；每组登记一个 KU |
+| new | 4,971 | 按 4,769 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,369 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,367 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -200,7 +200,7 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 
 | 类型 | same（候选→KU） | new（候选／组） | S4 新组（已登记／待登记；待登候选） | conflict | excluded | undecided |
 |---|---:|---:|---:|---:|---:|---:|
-| archive | 90→62 | 1,253／1,202 | 109／1,093；1,102 | 0 | 18 | 739 |
+| archive | 90→62 | 1,255／1,203 | 109／1,094；1,104 | 0 | 18 | 737 |
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
@@ -210,7 +210,7 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 494／479 | 50／429；438 | 5 | 29 | 1,632 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,960→1,046** | **4,969／4,768** | **1,107／3,661；3,684** | **9** | **100** | **5,369** |
+| **合计** | **1,960→1,046** | **4,971／4,769** | **1,107／3,662；3,686** | **9** | **100** | **5,367** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2509,3 +2509,9 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-11524`（图版64说明中的Paese别墅）与 `cand-11546`（第16章 p.374 所称Treviso附近乡间住宅）均 `same` → 既有[洛雷丹别墅（Villa Loredan, Paese）](../units/places/villa-loredan-paese.md)。National Gallery称Villa Loredan为Strange在Paese的乡间住宅；Met所录题记把Villa Loredan近Treviso与Paese及John Strange联系起来（[National Gallery记录](https://www.nationalgallery.org.uk/paintings/francesco-guardi-villa-del-timpano-arcuato-at-paese)、[Met馆藏记录](https://www.metmuseum.org/art/collection/search/338929)）。`cand-11524`还与已接受的图版64作品候选共用来源，既有作品到Villa Loredan的 `has_subject` 端点见 `rel-0698`。来源与访问日期见 `alignment.csv` 的 `aln-12678`–`aln-12680`。
 
 本决定复用同一物理地点，不把图版64与某件具体馆藏画作配对；第16章所述画作临时存放在该处也未由外部记录验证。当前全书same=1,960（指向1,046个KU），new=4,969/4,768组，conflict=9，excluded=100，undecided=5,369；S4待登记3,661组/3,684条候选映射。alignment为12,677行，其中12,407条候选决定、270条外部身份记录。
+
+### S3 archive：Baldinucci《Notizie》卷 VI（1728）跨章新身份组（2026-10-18）
+
+`cand-4846`（第1、2、4、5、6、7、8章的卷VI引文）与 `cand-8601`（第9章 p.263–264 注7，卷VI p.421）现归为新 archive 组 `archive-group-baldinucci-notizie-vol-vi-1728`。第21章 p.413 书目将该卷列为 Filippo Baldinucci, *Notizie de’ Professori del disegno da Cimabue in qua, Secolo V dal 1610 al 1670*, vol. VI, Firenze 1728；两候选的卷次与年份匹配该条。详见[对齐行](../tables/alignment.csv)及[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-baldinucci-notizie-vol-vi-1728-cross-chapter-20261018)。
+
+此裁决只确认引文指向同一书目卷册；页码内容和相关历史主张未独立核验，KU待S4登记。卷IV/1688、卷V/1702、未指明卷册的艺术史称谓，以及1948年《Bernini》传记均保持分立或待证。当前全书same=1,960（1,046个既有KU）、new=4,971/4,769组、conflict=9、excluded=100、undecided=5,367；S4待登记3,662组/3,686条候选映射。
