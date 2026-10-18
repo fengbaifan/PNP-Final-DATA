@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,134组、映射1,318条成员候选；尚待登记3,684组、3,706条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,025（4,817个身份组）、conflict=9、excluded=100、undecided=5,308。S4 已登记1,135组、映射1,321条成员候选；尚待登记3,682组、3,704条映射。
 
 ## 范围与覆盖
 
@@ -21,19 +21,19 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,153 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,154 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,708 条：12,407 条候选决定记录及 301 条外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,627条，其中1,624条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,631条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,153；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,627；S4待登记new候选映射3,706条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,154；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,631；S4待登记new候选映射3,704条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,025（4,817个类型内身份组）、conflict=9、excluded=100、undecided=5,308；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -47,18 +47,26 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione人物组：同页正文全名及作品子项语境提供直接身份锚点。cand-5013（p.66 The Resurrection）与cand-5297（p.84 1602年耶稣堂祭坛画）归为一个new作品组，依据为同一画家、复活题材、耶稣会教堂语境及相容年代；题名和具体陈列状态不作超出原文的推断。两项工作组判断及旧理由均保留于对齐表和过程记录。
 
-候选决定按每个候选一条 `external_source` 为空的 alignment 行统计；300条外部身份记录单独保留，不计入候选决定。
+候选决定按每个候选一条 `external_source` 为空的 alignment 行统计；301条外部身份记录单独保留，不计入候选决定。
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,965 | 指向 1,047 个既有 KU |
-| new | 5,024 | 按 4,818 个当前身份组进入 S4；每组登记一个 KU |
+| new | 5,025 | 按 4,817 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,309 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,308 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
+
+### S3 person：Domenico Fedini 索引与页图签名归并（2026-10-18）
+
+`cand-1014`（F.csv#29，pp.388–389）由 `undecided` 改为 `new`，与 `cand-10766`、`cand-10781` 共用一个 source-local 身份组。附录页图签名读作“Domenico Fedini”及“Dom.o Fedini”，与索引姓名相合；OCR “Pedini”保留为转录异文，不另立人物。原有 `cand-10781` 独立组撤回，旧理由与变更依据均保存在对齐记录。未新增外部身份或生平事实；`cand-10791`仍为排除。
+
+### S4 person：Domenico Fedini 登记
+
+三个候选现映射至[多梅尼科·费迪尼人物卡](../units/persons/domenico-fedini.md)。卡片记录索引、两页图签名及OCR转录差异；6条直接S2关系候选留待S6，未登记正式关系。strict-stage表审计 `errors=[]`、`s2_missing=[]`，现有两条字段来源引用警告与S2语义审查提示未变。
 
 ### S3 family：Baglioni 跨章候选保持待证（2026-10-18）
 
