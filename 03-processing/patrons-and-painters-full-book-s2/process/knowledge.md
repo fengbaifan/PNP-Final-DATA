@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 659 / 752 | 402 / 403 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 663 / 756 | 398 / 399 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,068 / 1,246** | **3,701 / 3,715** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,072 / 1,250** | **3,697 / 3,711** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6573,3 +6573,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和9条source_backed姓名字段。Nicolas Vleughels的全名取自索引，正文p.285与p.343脚注均只写Vleughels；Carriera会面名单不含个别细节，Zanetti受赠者名单也不对应具体纸张。Jean-Baptiste de Wael的p.208引文OCR作peasant Use，S2按页图校读为life；版画未逐件题名或定年，脚注3仍待查。Joseph Wagner的p.340两条陈述分别记录1742年开店及店铺对印刷业者的重要性；S2页图校正.to中的OCR多余句点，并确认脚注4不回指国籍或开店年份；店铺名称、地址和精确类型仍未确定。John Webster依据索引及p.98脚注登记；《The White Devil》的影响说法归于Haskell，未作独立评价。六条S2关系候选继续留待S6；无外部来源、formal relation或backlog写入。
 
 登记后人物类型S4为659组/752条已登记、402组/403条待登记；全书KU=2087。
+
+<a id="s4-wilson-de-witte-wouwermans-wren-person-endpoints-20261018"></a>
+
+### S4 person：Wilson、de Witte、Wouwermans与Wren四组人物端点（2026-10-18）
+
+- cand-2815（new-person:richard-wilson-6ea937c8d1）→ [理查德·威尔逊（Richard Wilson）](../../../04-knowledge/units/persons/richard-wilson.md)；S2关系候选st-chp10-p301-smith-official-visitors留待S6。Haskell写道Wilson等人“at one time or another”受Smith接待；名单没有给出Wilson单独到访的时间或情节。脚注7所引Levey文章及页码未独立查阅；该集体接待关系候选留待S6。
+- cand-2817（new-person:de-peter-witte-d00315b83f）→ [彼得·德·维特（Peter de Witte）](../../../04-knowledge/units/persons/peter-de-witte.md)；S2关系候选st-chp8-p206-roomer-owned-hundreds-by-flemish-artists留待S6。原文称Roomer拥有数百件由该段多位画家创作的作品，并以“many others”继续开放名单；数量不是de Witte个人作品数，也未识别其单件作品。该集体藏品关系候选留待S6。
+- cand-2820（new-person:philips-wouwermans-44cfb8cece）→ [菲利普斯·沃维尔曼斯（Philips Wouwermans）](../../../04-knowledge/units/persons/philips-wouwermans.md)；S2关系候选st-chp14-p358-recommended-study-wouwermans、st-chp14-p359-tiepolo-additions-to-pesci-setting留待S6。第358页的学习建议不证明师承；第359页的“worthy of Wouwermans”是风格比较，不把该船、白马或架构画归于Wouwermans。第二处引文经Haskell转述，所引书信未独立查阅；两条关系候选留待S6。
+- cand-2821（new-person:christopher-wren-512fe90374）→ [克里斯托弗·雷恩（Christopher Wren）](../../../04-knowledge/units/persons/christopher-wren.md)；S2关系候选st-chp7-p196-whitehall_programme留待S6。原文将Wren与三人并列，称其共同促成Whitehall一处未具名英国教堂的巴洛克装饰；教堂和具体装饰作品均未识别，“most full-blooded”为Haskell评价。该集体关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Wilson只关联Smith接待英国访客的集体陈述；同一段中Mead、Newton与Walpole的其他关系陈述不归给Wilson。de Witte仅列入Roomer所藏数百件作品的多人作者名单，未具名单件作品或个人数量。Wouwermans在p.358是Algarotti建议学习的画家之一，p.359仅作作品风格比较；两者均不表示师承或作品归属。Wren与Gennari、Verrio、Gibbons共同出现在Whitehall一处未具名教堂的装饰陈述中。五条相关S2关系候选留待S6；无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为663组/756条已登记、398组/399条待登记；全书KU=2091。

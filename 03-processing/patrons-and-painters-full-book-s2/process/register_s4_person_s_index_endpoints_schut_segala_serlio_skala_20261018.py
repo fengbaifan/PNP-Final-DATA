@@ -376,7 +376,12 @@ def main() -> int:
                 or cid in (row.get("qualifiers") or {}).get("mentioned_candidate_ids", [])
             )
         }
-        assert related == set(t["relation_ids"]), (cid, related, set(t["relation_ids"]))
+        # `mentioned_candidate_ids` may cover every entity in a whole segment,
+        # even when a relation candidate concerns only one sentence or another
+        # person in that segment. `relation_ids` is the semantically selected
+        # list for this identity; require each selected statement to be present
+        # without treating every co-mentioned candidate as a relation endpoint.
+        assert set(t["relation_ids"]) <= related, (cid, related, set(t["relation_ids"]))
 
     planned_alignments = [dict(row) for row in alignments]
     planned_manifest = list(manifest)
