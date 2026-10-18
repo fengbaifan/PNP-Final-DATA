@@ -59,7 +59,7 @@ sources:
     source_file: 02-sources/02-Markdown/19_CHP-19Appendix.md
     source_span: lines 161; print p. 394
 created: '2026-10-16'
-updated: '2026-10-16'
+updated: '2026-10-18'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
 ---
 
@@ -91,9 +91,9 @@ English: The normalized name follows the Chapter 10 heading and narrative form J
 
 ### 身份边界
 
-中文：本卡对应第10章以“CONSUL JOSEPH SMITH”为题的连续人物叙述，以及第9章领事购藏和第19章皇家收藏附录中的同一 Joseph Smith。五条索引候选覆盖其传记、与 McSwiny、Rosalba Carriera 的关联、Sagredo 购藏及皇家收藏语境；第19章同处出现 Giuseppe Smith 与 Joseph Smith 的目录形式，按后文明确的威尼斯国王领事语境归组。此处仅登记人物身份，不把原书所述购买、委托、收藏和交往改作正式关系或外部核实；相关 S2 断言仍待 S6 审查。
+中文：本卡对应第10章以“CONSUL JOSEPH SMITH”为题的连续人物叙述，以及第9章领事购藏和第19章皇家收藏附录中的同一 Joseph Smith。原S4登记组的五条索引候选覆盖其传记、与 McSwiny、Rosalba Carriera 的关联、Sagredo 购藏及皇家收藏语境。S3另将同一人物主项下的12条person型索引子目映射为same，仅作为页码检索定位，不将子目短语作为独立人物、事实或正式关系；第19章同处出现 Giuseppe Smith 与 Joseph Smith 的目录形式，按后文明确的威尼斯国王领事语境归组。此处仅登记人物身份，不把原书所述购买、委托、收藏和交往改作正式关系或外部核实；相关 S2 断言仍待 S6 审查。
 
-English: This card represents the continuous account headed “CONSUL JOSEPH SMITH” in Chapter 10 and the same Joseph Smith in Chapter 9's consular purchase context and Chapter 19's Royal Collection appendix. The five index candidates cover his biography, index links to McSwiny and Rosalba Carriera, the Sagredo purchases, and the Royal Collection context. Chapter 19 uses both Giuseppe Smith and Joseph Smith in catalogue forms; they are grouped here in the surrounding context that explicitly identifies the deceased Joseph Smith as His Majesty's Consul at Venice. This card registers identity only: the book's reports of purchases, commissions, collections, and associations are not made into formal relations or externally verified facts, and relevant S2 claims remain for S6 review.
+English: This card represents the continuous account headed “CONSUL JOSEPH SMITH” in Chapter 10 and the same Joseph Smith in Chapter 9's consular purchase context and Chapter 19's Royal Collection appendix. The five index candidates in the original S4 registration group cover his biography, index links to McSwiny and Rosalba Carriera, the Sagredo purchases, and the Royal Collection context. S3 also maps twelve person-type index subentries under the same headword to this KU as same; they remain page-reference locators, and their labels do not become separate people, factual claims, or formal relations. Chapter 19 uses both Giuseppe Smith and Joseph Smith in catalogue forms; they are grouped here in the surrounding context that explicitly identifies the deceased Joseph Smith as His Majesty's Consul at Venice. This card registers identity only: the book's reports of purchases, commissions, collections, and associations are not made into formal relations or externally verified facts, and relevant S2 claims remain for S6 review.
 
 ## 关系与证据
 
