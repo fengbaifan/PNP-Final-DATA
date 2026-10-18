@@ -22,7 +22,7 @@
 
 ## 按类型决定数
 
-数字按每个候选唯一的一条空 `external_source` 决定记录统计，不把保留的外部标识行重复计为另一个候选决定。
+数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。3条经复核的候选决定行（cand-4167、cand-6180、cand-10748）同时保存外部来源信息，仍按各自的候选决定计数。
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,148 | 1,071 / 1,171 | 4 | 7 | 1,134 | 721 / 819 | 350 / 352 |
+| person | 3,464 | 1,149 | 1,070 / 1,170 | 4 | 7 | 1,134 | 740 / 838 | 330 / 332 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,965** | **4,817 / 5,025** | **9** | **100** | **5,308** | **1,137 / 1,323** | **3,680 / 3,702** |
+| **合计** | **12,407** | **1,966** | **4,816 / 5,024** | **9** | **100** | **5,308** | **1,156 / 1,342** | **3,660 / 3,682** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,308 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；301 条外部身份记录另行保留。same 的 1,965 条候选指向 1,047 个既有 KU；new 候选组成 4,817 个类型内身份组，共 5,025 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,680 组、3,702 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,308 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。12,407 个候选各有一条当前决定；301 条外部身份记录另行保留。Arlotto、Giuliano Briganti 与 Mattia di Rossi 的候选决定行同时带有外部来源字段。same 的 1,966 条候选指向 1,048 个既有 KU；new 候选组成 4,816 个类型内身份组，共 5,024 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,660 组、3,682 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7270,3 +7270,196 @@ cand-3504 由 undecided 改为 new，归入 new-person:antonino-bertolotti-20261
 - `st-chp10-p289-note1-row03-artist1`、`st-chp10-p289-note1-row04-artist1` 两条直接 S2 关系候选留待 S6；相应 monument 候选 `cand-9387`、`cand-9375` 仍 undecided。本批未新增正式关系、外部来源或候选待办。
 
 登记后 S4 累计1,137组／1,323条映射，待登记3,680组／3,702条；person类型登记721组／819条映射，待登记350组／352条；KU=2,156，enrichment=11,634。
+
+<a id="s3-s4-person-endpoints-batch-20261018"></a>
+
+### S3/S4 人物端点批次（2026-10-18）
+
+
+一次性证据包覆盖20个人物组、20条成员候选、53条提及、51条原书断言及80个来源上下文片段。19组判为 new 并登记一张卡，1组复用 Mattia de’ Rossi；无冲突或未决身份。Arlotto Mainardi、Giuliano Briganti 的外部记录用于姓名校准；所有直接 S2 关系候选仍待 S6。
+
+
+#### cand-9553 — Frances Vivian
+
+- group：new-person:frances-vivian-34ccb3aaa1；决定：new → [frances-vivian.md](../../../04-knowledge/units/persons/frances-vivian.md)；直接 S6 候选：st-chp20-p406-vivian-partial-sale-hypothesis。
+- S3 理由：第10章脚注 Vivian 与第20章后记 Frances Vivian 对应；后记给出全名。未发现同类既有 KU。
+- 全部提及：m-s2-p307n3-vivian-author (Vivian), m-s2-ch10-p308n3-vivian (Vivian), m-chp20-p406-041 (Frances Vivian), m-chp20-p406-050 (she), m-chp20-p406-051 (she~argues), m-s2-chp20-notes-p406-013 (Vivian)
+- 全部断言：st-chp10-p307-note3-picture-list-citations, st-chp10-p308-note3-blunt-vivian-citations, st-chp20-p406-vivian-scholarship-and-open-question, st-chp20-p406-vivian-partial-sale-hypothesis, st-chp20-p406-n09-citation
+- 原文上下文：02-sources/02-Markdown/10_CHP-10_intro.md#L491-L634, 02-sources/02-Markdown/20_CHP-20Postscript.md#L150-L162, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/10_CHP-10_intro.md#L617-L621, 02-sources/02-Markdown/10_CHP-10_intro.md#L621-L625, 02-sources/02-Markdown/20_CHP-20Postscript.md#L158-L164, 02-sources/02-Markdown/20_CHP-20Postscript.md#L160-L164, 02-sources/02-Markdown/20_CHP-20Postscript.md#L261-L265
+
+
+#### cand-10920 — Thomas Buser
+
+- group：new-person:buser-thomas-cc46759866；决定：new → [thomas-buser.md](../../../04-knowledge/units/persons/thomas-buser.md)；直接 S6 候选：st-chp20-p399-buser-s-vitale-frescoes。
+- S3 理由：第20章正文以全名引出1976年文章，后续 Buser 为同段简称；无同类既有 KU。
+- 全部提及：m-chp20-p399-010 (Thomas Buser), m-chp20-p399-023 (Buser has some valuable comments), m-chp20-p399-027 (he suggests), m-chp20-p399-031 (Buser referring)
+- 全部断言：st-chp20-p399-buser-challenges-jesuit-art-scepticism, st-chp20-p399-buser-s-vitale-frescoes, st-chp20-p399-haskell-jesuit-art-and-patron-tension, st-chp20-p399-n01-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L38-L44, 02-sources/02-Markdown/20_CHP-20Postscript.md#L38-L42, 02-sources/02-Markdown/20_CHP-20Postscript.md#L39-L44, 02-sources/02-Markdown/20_CHP-20Postscript.md#L40-L44, 02-sources/02-Markdown/20_CHP-20Postscript.md#L223-L227
+
+
+#### cand-10859 — Irving Lavin
+
+- group：new-person:irving-lavin-d2fbc3805c；决定：new → [irving-lavin.md](../../../04-knowledge/units/persons/irving-lavin.md)；直接 S6 候选：st-chp20-p399-lavin-rejects-lanckoronska-dome-drawing-theory。
+- S3 理由：第20章 p.396 全名与 p.397、399 简称对应；脚注分别引其研究；无同类既有 KU。
+- 全部提及：m-chp20-p396-033 (Irving Lavin), m-chp20-p399-041 (Lavin), m-s2-chp20-notes-p397-002 (Lavin), m-s2-chp20-notes-p399-005 (Lavin)
+- 全部断言：st-chp20-p396-lavin-bernini-crossing-open, st-chp20-p397-lavin-quote-closure, st-chp20-p399-lavin-rejects-lanckoronska-dome-drawing-theory, st-chp20-p397-n01-citation, st-chp20-p399-n03-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L3-L12, 02-sources/02-Markdown/20_CHP-20Postscript.md#L38-L44, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/20_CHP-20Postscript.md#L10-L14, 02-sources/02-Markdown/20_CHP-20Postscript.md#L13-L17, 02-sources/02-Markdown/20_CHP-20Postscript.md#L41-L45, 02-sources/02-Markdown/20_CHP-20Postscript.md#L213-L217, 02-sources/02-Markdown/20_CHP-20Postscript.md#L223-L227
+
+
+#### cand-4265 — Renier Zeno
+
+- group：new-person:renier-zeno-7d9c5b23ff；决定：new → [renier-zeno.md](../../../04-knowledge/units/persons/renier-zeno.md)；直接 S6 候选：st-chp2-seciv-l45-52-taddeo-sugar-and-honey-description。
+- S3 理由：第2章两条脚注明确给出全名与1621–23时段；匿名使节语境按现行 S2 组保存，不扩张到其他匿名提及。
+- 全部提及：m-chp2-seci-l124-157-0035 (Renier Zeno), m-chp2-seci-l124-157-0038 (Renier Zeno), m-chp2-seci-l55-69-0036 (a Venetian ambassador), m-chp2-seci-l71-80-0032 (the Venetian ambassador)
+- 全部断言：st-chp2-seci-l55-69-zeno-testimony, st-chp2-seci-l71-80-zeno-scipione-learning, st-chp2-seciv-l45-52-taddeo-sugar-and-honey-description
+- 原文上下文：02-sources/02-Markdown/02_CHP-2_sec_i.md#L124-L157, 02-sources/02-Markdown/02_CHP-2_sec_i.md#L55-L69, 02-sources/02-Markdown/02_CHP-2_sec_i.md#L71-L80, 02-sources/02-Markdown/02_CHP-2_sec_i.md#L64-L69, 02-sources/02-Markdown/02_CHP-2_sec_i.md#L76-L81, 02-sources/02-Markdown/02_CHP-2_sec_iv.md#L45-L49
+
+
+#### cand-10943 — Maria Teresa Bonadonna Russo
+
+- group：new-person:bonadonna-maria-russo-teresa-63c2216179；决定：new → [maria-teresa-bonadonna-russo.md](../../../04-knowledge/units/persons/maria-teresa-bonadonna-russo.md)；直接 S6 候选：st-chp20-p400-bonadonna-russo-longhi-and-angelo-cesi。
+- S3 理由：第20章以全名引出研究者，脚注以 Bonadonna Russo 简称并列1967、1968年出版物。
+- 全部提及：m-chp20-p400-032 (Maria Teresa Bonadonna
+Russo), m-s2-chp20-notes-p400-011 (Bonadonna Russo), m-s2-chp20-notes-p400-013 (Bonadonna Russo)
+- 全部断言：st-chp20-p400-bonadonna-russo-longhi-and-angelo-cesi, st-chp20-p400-n06-citation, st-chp20-p400-n07-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L46-L57, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/20_CHP-20Postscript.md#L50-L55, 02-sources/02-Markdown/20_CHP-20Postscript.md#L226-L230, 02-sources/02-Markdown/20_CHP-20Postscript.md#L227-L231
+
+
+#### cand-9502 — Bruno Brunelli
+
+- group：new-person:brunelli-bruno-115f661c93；决定：new → [bruno-brunelli.md](../../../04-knowledge/units/persons/bruno-brunelli.md)；直接 S6 候选：st-chp15-p369-note4-brunelli-article-authored-by-brunelli。
+- S3 理由：跨第10、15章的出版物主题与第15章全名相互支持；保留 OCR 异形，不据拼写噪声另拆人物。
+- 全部提及：m-chp10-p300-n5-brunelli (B. Brunelli), m-chp15-p365-memmo-0047 (Brunel Ji), m-chp15-p369-querini-0045 (Bruno Brunelh)
+- 全部断言：st-chp10-p300-note5-brunelli-citation, st-chp15-p365-note1-brunelli-1923, st-chp15-p369-note4-brunelli-article, st-chp15-p369-note4-cites-brunelli-article, st-chp15-p369-note4-brunelli-article-authored-by-brunelli
+- 原文上下文：02-sources/02-Markdown/10_CHP-10_intro.md#L491-L634, 02-sources/02-Markdown/15_CHP-15_sec_ii.md#L90-L113, 02-sources/02-Markdown/10_CHP-10_intro.md#L584-L588, 02-sources/02-Markdown/15_CHP-15_sec_ii.md#L89-L93, 02-sources/02-Markdown/15_CHP-15_sec_ii.md#L106-L110
+
+
+#### cand-10418 — Cecilia Emo
+
+- group：new-person:called-cecilia-emo-morosini-widow-a6ef270251；决定：new → [cecilia-emo.md](../../../04-knowledge/units/persons/cecilia-emo.md)；直接 S6 候选：st-chp14-p360-note2-biffi-cecilia。
+- S3 理由：同一引文明确给出 Cecilia Emo 及其称谓；仅记录被引指称，不据此新增亲缘关系。
+- 全部提及：m-chp14-p360-0031 (Cecilia Emo), m-chp14-p360-0032 (vedova Morosini), m-chp14-p360-0033 (Contessa Zenobio)
+- 全部断言：st-chp14-p360-note2-biffi-cecilia
+- 原文上下文：02-sources/02-Markdown/14_CHP-14_intro.md#L168-L220, 02-sources/02-Markdown/14_CHP-14_intro.md#L217-L220
+
+
+#### cand-11009 — Malcolm Campbell
+
+- group：new-person:campbell-malcolm-f601a8df4e；决定：new → [malcolm-campbell.md](../../../04-knowledge/units/persons/malcolm-campbell.md)；直接 S6 候选：st-chp20-p403-campbell-ferdinand-ii-palazzo-pitti。
+- S3 理由：第20章正文全名与脚注简称、出版物对应；无同类既有 KU。
+- 全部提及：m-chp20-p403-050 (Malcolm Campbell), m-s2-chp20-notes-p403-013 (Campbell), m-s2-chp20-notes-p403-015 (Campbell)
+- 全部断言：st-chp20-p403-campbell-ferdinand-ii-palazzo-pitti, st-chp20-p403-n08-citation, st-chp20-p403-n09-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L110-L121, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/20_CHP-20Postscript.md#L118-L122, 02-sources/02-Markdown/20_CHP-20Postscript.md#L240-L244, 02-sources/02-Markdown/20_CHP-20Postscript.md#L241-L245
+
+
+#### cand-4510 — Julius Caesar
+
+- group：new-person:a-caesar-julius-caesar-julius-186a705763；决定：new → [julius-caesar.md](../../../04-knowledge/units/persons/julius-caesar.md)；直接 S6 候选：st-chp2-secii-l118-125-carlo-caesar-comparison。
+- S3 理由：正文明确写作 Julius Caesar；与同书 Pope Julius II 候选组分立。
+- 全部提及：m-chp2-secii-l118-125-0028 (Julius
+Caesar), m-chp2-secii-l118-125-0033 (a Julius Caesar)
+- 全部断言：st-chp2-secii-l118-125-carlo-caesar-comparison
+- 原文上下文：02-sources/02-Markdown/02_CHP-2_sec_ii.md#L118-L125, 02-sources/02-Markdown/02_CHP-2_sec_ii.md#L120-L125
+
+
+#### cand-4167 — Arlotto Mainardi
+
+- group：new-person:arlotto-piovano-69c355f1f2；决定：new → [arlotto-mainardi.md](../../../04-knowledge/units/persons/arlotto-mainardi.md)；直接 S6 候选：st-fm-pl-p37c-figure。
+- S3 理由：Pievano/Piovano 变体指向同一画名人物；Treccani DBI 明确将 Piovano Arlotto 对应为 Arlotto Mainardi。
+- 全部提及：m-chp8-p231-arlotto (Pievano Arlotto), m-fm-pl-p37c-figure (Piovano Arlotto)
+- 全部断言：st-chp8-p231-la-burla-purchase-and-making, st-fm-pl-p37c-figure
+- 原文上下文：02-sources/02-Markdown/08_CHP-8_sec_ii.md#L238-L249, 02-sources/02-Markdown/00_05_List_of_Plates.md#L83-L118, 02-sources/02-Markdown/08_CHP-8_sec_ii.md#L241-L246, 02-sources/02-Markdown/00_05_List_of_Plates.md#L103-L107
+
+
+#### cand-6180 — Giuliano Briganti
+
+- group：new-person:briganti-giulio-b5d29561c9；决定：new → [giuliano-briganti.md](../../../04-knowledge/units/persons/giuliano-briganti.md)；直接 S6 候选：st-chp5-notes-l128-briganti-authored-introduction。
+- S3 理由：Haskell 的1950 I Bamboccianti 展览引言与外部图录责任记录指向同一独特展览；目录、Treccani、官方传记支持规范姓名 Giuliano Briganti。保留 Giulio/Giuliano 及引言/图录角色差异，不声称核验原册署名。
+- 全部提及：m-chp5-note-128-003 (Giulio Brigand), m-chp5-note-147-071 (Briganti)
+- 全部断言：st-chp5-notes-l128-briganti-survey, st-chp5-notes-l128-briganti-authored-introduction
+- 原文上下文：02-sources/02-Markdown/05_CHP-5_sec_iii.md#L126-L165, 02-sources/02-Markdown/05_CHP-5_sec_iii.md#L126-L130
+
+
+#### cand-9798 — Carlo Palese
+
+- group：new-person:carlo-palese-a6f32d4294；决定：new → [carlo-palese.md](../../../04-knowledge/units/persons/carlo-palese.md)；直接 S6 候选：st-chp14-p347-note1-edition-published-by-palese。
+- S3 理由：第14章脚注明确姓名和出版角色；第10章出现的姓名提及与同一候选组对应。
+- 全部提及：m-s2-ch10-p326-327-0026 (Carlo Palese), m-s2-ch14-p347-038 (Carlo Palese)
+- 全部断言：st-chp14-p347-note1-edition-published-by-palese
+- 原文上下文：02-sources/02-Markdown/10_CHP-10_sec_ii.md#L210-L222, 02-sources/02-Markdown/14_CHP-14_intro.md#L168-L220, 02-sources/02-Markdown/14_CHP-14_intro.md#L167-L171
+
+
+#### cand-8228 — Daniele Florio
+
+- group：new-person:daniele-florio-ae59a4ccb1；决定：new → [daniele-florio.md](../../../04-knowledge/units/persons/daniele-florio.md)；直接 S6 候选：st-chp9-p251-florio-citation-note4。
+- S3 理由：第9章正文／脚注以全名连接同一诗歌引文；OCR 题名差异保留，不影响作者身份组。
+- 全部提及：m-chp9-p251-local-poet (local poet), m-chp9-notes-p251-florio-poet (Daniele Florio)
+- 全部断言：st-chp9-p251-florio-citation-note4, st-chp9-p251-florio-country-house-verse, st-chp9-p251-st-peters-poetic-influence-note
+- 原文上下文：02-sources/02-Markdown/09_CHP-9_intro.md#L106-L114, 02-sources/02-Markdown/09_CHP-9_intro.md#L323-L445, 02-sources/02-Markdown/09_CHP-9_intro.md#L350-L354, 02-sources/02-Markdown/09_CHP-9_intro.md#L109-L113, 02-sources/02-Markdown/09_CHP-9_intro.md#L348-L352
+
+
+#### cand-10940 — Jacob Hess
+
+- group：new-person:hess-jacob-092723919f；决定：new → [jacob-hess.md](../../../04-knowledge/units/persons/jacob-hess.md)；直接 S6 候选：st-chp20-p400-oratorian-building-history-and-chapel-autonomy。
+- S3 理由：第20章正文全名、脚注简称及1963年出版物对应；无同类既有 KU。
+- 全部提及：m-chp20-p400-022 (Jacob Hess), m-s2-chp20-notes-p400-009 (Hess)
+- 全部断言：st-chp20-p400-oratorian-building-history-and-chapel-autonomy, st-chp20-p400-n05-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L46-L57, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/20_CHP-20Postscript.md#L48-L53, 02-sources/02-Markdown/20_CHP-20Postscript.md#L226-L230
+
+
+#### cand-10231 — Ida Treat
+
+- group：new-person:ida-treat-860449b722；决定：new → [ida-treat.md](../../../04-knowledge/units/persons/ida-treat.md)；直接 S6 候选：st-chp14-p347-note1-treat-life-authorship。
+- S3 理由：第14章脚注明确给出全名与传记作者角色，后文 Treat 简称回指同一人。
+- 全部提及：m-s2-ch14-p347-044 (Ida Treat), m-chp14-p356-0063 (Treat)
+- 全部断言：st-chp14-p347-note1-treat-life-authorship, st-chp14-p356-note5-treat-diderot-quotation, st-chp14-p356-note5-diderot-prussian-king-bequest
+- 原文上下文：02-sources/02-Markdown/14_CHP-14_intro.md#L168-L220, 02-sources/02-Markdown/14_CHP-14_intro.md#L167-L171, 02-sources/02-Markdown/14_CHP-14_intro.md#L196-L200
+
+
+#### cand-4513 — Pope Julius II
+
+- group：new-person:ii-julius-13230e5ebb；决定：new → [pope-julius-ii.md](../../../04-knowledge/units/persons/pope-julius-ii.md)；直接 S6 候选：st-chp2-secii-l118-125-urban-julius-ii-comparison。
+- S3 理由：第2章以教皇语境限定 Julius II；与 Julius Caesar 人物组分立。
+- 全部提及：m-chp2-secii-l118-125-0047 (Julius II), m-chp2-sec-viii-l9-14-0004 (Julius II)
+- 全部断言：st-chp2-secii-l118-125-urban-julius-ii-comparison
+- 原文上下文：02-sources/02-Markdown/02_CHP-2_sec_ii.md#L118-L125, 02-sources/02-Markdown/02_CHP-2_sec_viii.md#L9-L14, 02-sources/02-Markdown/02_CHP-2_sec_ii.md#L123-L127
+
+
+#### cand-11035 — Stella Rudolph
+
+- group：new-person:rudolph-stella-e41d5a1673；决定：new → [stella-rudolph.md](../../../04-knowledge/units/persons/stella-rudolph.md)；直接 S6 候选：st-chp20-p404-rudolph-florentine-provincial-culture。
+- S3 理由：第20章正文全名与脚注姓氏、1971和1973年出版物对应。
+- 全部提及：m-chp20-p404-020 (Stella Rudolph), m-s2-chp20-notes-p404-016 (Rudolph)
+- 全部断言：st-chp20-p404-rudolph-florentine-provincial-culture, st-chp20-p404-n10a-citation, st-chp20-p404-n10b-citation
+- 原文上下文：02-sources/02-Markdown/20_CHP-20Postscript.md#L123-L135, 02-sources/02-Markdown/20_CHP-20Postscript.md#L211-L280, 02-sources/02-Markdown/20_CHP-20Postscript.md#L124-L128, 02-sources/02-Markdown/20_CHP-20Postscript.md#L246-L250
+
+
+#### cand-7506 — Salvino Salvini
+
+- group：new-person:salvini-salvino-42113f3aef；决定：new → [salvino-salvini.md](../../../04-knowledge/units/persons/salvino-salvini.md)；直接 S6 候选：st-chp8-p211-salvini-career-accounts。
+- S3 理由：第8章明确将相应生平记述归于 Salvino Salvini；不与同段 Giuseppe Manini 合并。
+- 全部提及：m-chp8-p211-034 (Salvino), m-chp8-p211-035 (Salvini)
+- 全部断言：st-chp8-p211-manini-salvini-career-accounts, st-chp8-p211-salvini-career-accounts
+- 原文上下文：02-sources/02-Markdown/08_CHP-8_sec_i.md#L84-L96, 02-sources/02-Markdown/08_CHP-8_sec_i.md#L88-L93
+
+
+#### cand-4875 — Angelo Contarini
+
+- group：new-person:1627-9-ambassador-angelo-contarini-venetia-4aa0a68600；决定：new → [angelo-contarini.md](../../../04-knowledge/units/persons/angelo-contarini.md)；直接 S6 候选：st-chp2-seciv-l190-245-contarini-report。
+- S3 理由：第2章脚注直接给出全名、职衔与报告时段；无同类既有 KU。
+- 全部提及：m-chp2-seciv-l190-245-0101 (Venetian ambassador Angelo Contarini, 1627-9)
+- 全部断言：st-chp2-seciv-l190-245-contarini-report
+- 原文上下文：02-sources/02-Markdown/02_CHP-2_sec_iv.md#L190-L245, 02-sources/02-Markdown/02_CHP-2_sec_iv.md#L230-L234
+
+
+#### cand-10748 — Mattia di Rossi
+
+- group：new-person:di-mattia-rossi-7a4c72e1ec；决定由 new 改为 same → [Mattia de’ Rossi](../../../04-knowledge/units/persons/mattia-de-rossi.md)；直接 S6 候选：st-chp19-p386-feb1676-canvas-arrangement。
+- S3 理由：同一封1676年信先写 Mattia di Rossi、后写 Derossi；Getty ULAN 500031408 列出 Mattia/Matthia de’ Rossi 变体，身份复用成立；不验证信中委托事实。
+- 全部提及：m-chp19-p386-014 (Mattia di Rossi), m-chp19-p386-016 (Derossi)
+- 全部断言：st-chp19-p386-feb1676-canvas-arrangement
+- 原文上下文：02-sources/02-Markdown/19_CHP-19Appendix.md#L3-L20, 02-sources/02-Markdown/19_CHP-19Appendix.md#L12-L18
+- 变更轨迹：alignment 保留原决定注释，现行去向为 same。
+
+
+本批后 person：same=1,149；new=1,070组／1,170条成员候选；conflict=4；excluded=7；undecided=1,134。S4 person 已登记740组／838条映射，待登记330组／332条映射。全书 S4 已登记1,156组／1,342条映射，待登记3,660组／3,682条映射；KU=2,175。

@@ -4,8 +4,8 @@ name_en: La Burla del Piovano Arlotto
 type: work
 evidence_status: source_backed
 sources:
-- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this
-    printing 2006).
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale
+    University Press, 1980; this printing 2006).
   location: 章前：图版目录；印刷页xiv；OCR L105–106
   sentence_summary: 《赞助人与画家》图版37c目录所记的《阿尔洛托教区神父的玩笑》艺术对象。
   original_quotes:
@@ -17,8 +17,22 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 105–106; 章前：图版目录；印刷页xiv
+- citation: Treccani, Dizionario Biografico degli Italiani, Giuseppe Crimi, “Mainardi,
+    Arlotto”, vol. 67 (2006).
+  location: MAINARDI, Arlotto；词条开头身份识别
+  sentence_summary: Treccani identifies Piovano Arlotto as Arlotto Mainardi; used
+    only to align the person named in the work title.
+  original_quotes:
+  - source_span: MAINARDI, Arlotto；词条开头身份识别
+    text: Il piovano Arlotto ... Arlotto Mainardi.
+  evidence_ref:
+    doc_id: treccani-dbi-mainardi-arlotto
+    source_file: https://www.treccani.it/enciclopedia/arlotto-mainardi_(Dizionario-Biografico)/
+    source_span: MAINARDI, Arlotto；词条开头身份识别
+  url: https://www.treccani.it/enciclopedia/arlotto-mainardi_(Dizionario-Biografico)/
+  accessed_date: '2026-10-18'
 created: '2026-09-14'
-updated: '2026-09-15'
+updated: '2026-10-18'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#图版画家与版画家身份角色补足
 relations:
 - relation_type: created_by
@@ -57,7 +71,6 @@ relations:
   role: 书中保管地点
   time: 本书所述时点
 ---
-
 ## 内容
 
 ### 描述
@@ -81,7 +94,7 @@ relations:
 | 创作者 | [巴尔达萨雷·弗兰切斯基尼](../persons/baldassare-franceschini.md) | S1 |
 | 书中收藏／保管者 | [乌菲齐美术馆](../institutions/uffizi-gallery.md) | S1 |
 | 书中位置 | [佛罗伦萨](../places/florence.md) | S1 |
-| 描绘对象 | Piovano Arlotto／阿尔洛托教区神父，身份待对齐 | S1 |
+| 描绘对象 | [阿尔洛托·迈纳尔迪（Arlotto Mainardi）](../persons/arlotto-mainardi.md)（书中题名称 Piovano/Pievano Arlotto） | S1、S2 |
 
 ## 关系与证据
 
