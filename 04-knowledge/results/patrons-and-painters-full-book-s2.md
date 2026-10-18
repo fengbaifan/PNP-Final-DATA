@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 已为全部候选记录当前决定与去向，9项冲突及5,308项待证对象仍未解决；S4 KU 登记处理中；S5、S6 尚未全书收口。** 当前 12,407 个候选决定为 same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308。S4 已登记1,172组、映射1,358条成员候选；尚待登记3,640组、3,662条映射，其中直接关系端点待登记队列为1,882组／1,883条候选映射。S5字段表11,693条、1,627条unverified；S6关系表1,227条（1,225 formal、2 pending），其中45条缺结构化 `source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落保留各自当时状态，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 已为全部候选记录当前决定与去向，9项冲突及5,308项待证对象仍未解决；S4 KU 登记处理中；S5、S6 尚未全书收口。** 当前 12,407 个候选决定为 same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308。S4 已登记1,176组、映射1,362条成员候选；尚待登记3,636组、3,658条映射，其中直接关系端点待登记队列为1,880组／1,881条候选映射。S5字段表11,693条、1,627条unverified；S6关系表1,227条（1,225 formal、2 pending），其中45条缺结构化 `source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落保留各自当时状态，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,191 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,195 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
@@ -34,12 +34,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 330条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 41条、两端均缺72条。330条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 strict-stage 表审计通过：KU=2,191；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,751；S4待登记new候选映射3,662条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,970（1,050个既有KU）、new=5,020（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,308；S4已登记1,172组／1,358条候选映射，待登记3,640组／3,662条，其中直接关系端点队列1,882组／1,883条。S6已有1,225条formal与2条pending关系，45条缺结构化`source_id`（44条formal、1条pending）；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
-直接关系端点待登队列按类型（组／候选成员）为：person 37／37、institution 97／97、event 144／144、place 236／236、work 343／343、archive 486／487、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片；若执行全量渲染，将涉及462张卡、472个文件，当前卡片派生视图尚未整体同步。
+2026-10-19 strict-stage 表审计通过：KU=2,195；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,751；S4待登记new候选映射3,658条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,970（1,050个既有KU）、new=5,020（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,308；S4已登记1,176组／1,362条候选映射，待登记3,636组／3,658条，其中直接关系端点队列1,880组／1,881条。S6已有1,225条formal与2条pending关系，45条缺结构化`source_id`（44条formal、1条pending）；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+直接关系端点待登队列按类型（组／候选成员）为：person 35／35、institution 97／97、event 144／144、place 236／236、work 343／343、archive 486／487、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片；若执行全量渲染，将涉及466张卡、476个文件，当前卡片派生视图尚未整体同步。
 2026-10-19 最新人物端点批次复核20个单候选组：4组改为 `same` 并复用既有人物 KU，16组保持 `new` 且完成 S4 登记。身份判断、边界和外部身份依据见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019)；关系候选仍待 S6，本批未新增正式关系。
-此前“1,902组”是本次人物端点批次完成前的快照；当前从待登new组与S2直接关系端点重算为1,882组／1,883条候选成员。
+此前“1,902组”为2026-10-19二十组人物批次完成前的快照；1,882组／1,883条是该批完成后的中间快照。追加四组裁决并登记后，当前待登 new 组与 S2 直接关系端点为1,880组／1,881条候选成员。
 2026-10-19 回填73条具唯一来源证据的关系 `source_id`；剩余45条（44 formal、1 pending）仍待消歧或补来源依据。关系状态与证据范围未改；详见[S6来源ID修复记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-source-id-exact-url-repair-20261019)。
 
+2026-10-19 后续四组人物批次：cand-7034、cand-7036、cand-0657、cand-1448 均裁决为 `new` 并完成 S4，KU 总数增至2,195；其中 Catherine de’ Medici 与 Philip III of Spain 直接承担 S2 关系候选端点，直接端点待登队列由1,882组／1,883条减至1,880组／1,881条。查理二世与路易十五在本批仅作身份登记，不据此新增正式关系。详见[四组人物裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-batch-four-20261019)。
 ## S3 身份决定与交接
 
 ### S3 复核：Modena 公爵候选改列待证（2026-10-16）

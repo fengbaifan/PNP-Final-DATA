@@ -7506,3 +7506,21 @@ Van Dyck/Vandyke为同一艺术家形式；Bernardo/Bernardino Castelli与Antoni
 复核关系表118条空白 `source_id` 记录，均为 external 来源（117条 formal、1条 pending）。按关系 `source_file` 的精确 URL 匹配 `sources.csv`，再核对主客体 KU 的 `enrichment.jsonl` 来源 URL 与 ID。仅对端点证据候选并集唯一，或两端共有且唯一的来源 ID 写回；不改变关系状态、端点、谓词、时间或证据定位。
 
 本次回填73条，全部为 formal：`rel-0038`–`rel-0046`、`rel-0062`–`rel-0064`、`rel-0067`、`rel-0100`、`rel-0111`–`rel-0112`、`rel-0139`、`rel-0143`、`rel-0154`、`rel-0157`–`rel-0158`、`rel-0160`、`rel-0174`、`rel-0208`、`rel-0302`、`rel-0360`–`rel-0362`、`rel-0429`、`rel-0431`、`rel-0433`、`rel-0515`–`rel-0522`、`rel-0640`、`rel-0644`、`rel-0648`、`rel-0653`、`rel-0667`、`rel-0669`、`rel-0681`、`rel-0685`、`rel-0751`、`rel-0853`–`rel-0854`、`rel-0968`–`rel-0969`、`rel-0973`、`rel-0991`–`rel-0992`、`rel-0995`、`rel-1044`–`rel-1046`、`rel-1048`–`rel-1051`、`rel-1054`–`rel-1055`、`rel-1079`、`rel-1094`–`rel-1095`、`rel-1126`、`rel-1198`–`rel-1199`、`rel-1218`–`rel-1219`。45条仍空白：13条无精确 URL 来源登记，30条端点来源 ID 有歧义，2条没有同 URL 的端点字段来源；其中包括原有1条 pending。保留待查，不按网站 URL 猜选 ID。关系表总行数及原有 1,225 formal、2 pending 状态不变。
+<a id="s3-s4-person-batch-four-20261019"></a>
+### S3/S4 跨章人物端点批次：四组裁决（2026-10-19）
+
+本批复核 cand-7034、cand-7036、cand-0657、cand-1448。四者均裁决为 `new` 并完成 S4；没有复用、冲突或待证对象。原 S3 身份组号和理由保留在 `alignment.csv`，本批补充裁决依据、Treccani 身份入口与 KU 去向。没有新增 enrichment 字段或正式关系。
+
+| 候选 | 当前组 | S3 | S4 去向 | S2 证据定位 |
+|---|---|---|---|---|
+| cand-7034 | new-person:catherine-de-medici-73fbaf8c57 | new | units/persons/catherine-de-medici | st-chp7-p174-n2-catherine-commission；第7章 p.174 注2 |
+| cand-7036 | new-person:iii-of-philip-spain-c8b7eaf813 | new | units/persons/philip-iii-of-spain | st-chp7-p174-n2-monument-for-philip-iii；第7章 p.174 注2 |
+| cand-0657 | new-person:charles-ii-of-spain-4bf5c541dc | new | units/persons/charles-ii-of-spain | st-chp6-p163-v1-17 的引文提及；非直接关系端点 |
+| cand-1448 | new-person:louis-xv-bbd43bc0ca | new | units/persons/louis-xv | 第10章 p.285 未具名 little King；第13章 p.336 明名 Louis XV；索引 L.csv#106 |
+
+- Catherine de’ Medici：Haskell 第7章 p.174 注2给出全名及1559年委托语境。[Treccani《Dizionario Biografico degli Italiani》](https://www.treccani.it/enciclopedia/caterina-de-medici-regina-di-francia_(Dizionario-Biografico)/)以 “Caterina de’ Medici, regina di Francia” 为题，并记录她于1559年丧夫；姓名与年份语境相合。现有 Marie de Medici 卡仅因姓氏相同不构成复用依据。
+- Philip III of Spain：原书注释直接给出王号与国别。[Treccani](https://www.treccani.it/enciclopedia/filippo-iii-re-di-spagna/)将 Filippo III 列为西班牙国王；按序号与现有 Philip II、Philip IV 分开。
+- Charles II of Spain：原书正文及 C.csv#181 明确写 “of Spain”。[Treccani《Dizionario di Storia》](https://www.treccani.it/enciclopedia/carlo-ii-re-di-spagna_(Dizionario-di-Storia)/)的 Carlo II 条目明确指西班牙国王；与现有 Charles II of England（C.csv#180）分立。
+- Louis XV：索引 L.csv#106 覆盖 p.285、p.236，第13章 p.336 明写 Louis XV。第10章 p.285 的 “little King” 在句中未具名；[Treccani《Enciclopedia Italiana》](https://www.treccani.it/enciclopedia/luigi-xv-re-di-francia_(Enciclopedia-Italiana)/)将 Luigi XV 描述为摄政时期的儿童王位继承人，支持按该索引定位将相关候选映入同一跨章人物组。仍与 Louis XIV 分立。
+
+卡片、manifest、accepted.yml 与 alignment 均已登记；四个候选的身份决定和外部身份入口可逐项追溯。Catherine 委托 statue 与 Philip III 的 Tacca monument 仍只是 S2 关系候选；作品端点尚未完成 S3，本批不登记正式边。
