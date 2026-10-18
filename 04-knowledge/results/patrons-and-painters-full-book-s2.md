@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,129组、映射1,313条成员候选；尚待登记3,689组、3,711条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,130组、映射1,314条成员候选；尚待登记3,688组、3,710条映射。
 
 ## 范围与覆盖
 
@@ -21,19 +21,19 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,148 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,149 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,708 条：12,407 条候选决定记录及 301 条外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,587条，其中1,624条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,595条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,148；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,587；S4待登记new候选映射3,711条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,149；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,595；S4待登记new候选映射3,710条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2730,4 +2730,8 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 
 ### S4 archive：Baldinucci《Notizie》卷 VI（1728）跨章直接关系端点组登记（2026-10-18）
 
-`cand-4846`、`cand-8601` 按既有 S3 组 `archive-group-baldinucci-notizie-vol-vi-1728` 共同映射至一个 archive KU。第21章 p.413 书目记录支持原题、Filippo Baldinucci 书目署名、Secolo V 时间范围、卷VI、Firenze与1728年；第1、2、4、5、6、7、8、9章的卷VI引文支持跨章身份归组，所有被引原页未独立查阅。新增8条 source-backed 字段记录并复用既有Haskell来源；作者人物卡已链接，本批未登记正式作者关系。该卷作为15条S2关系候选的端点，15条全部留待S6逐项审查，本批不将引文转为正式关系。当前S4已登记1,129组／1,313条映射，待登记3,689组／3,711条；KU=2,148，字段=11,587。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-baldinucci-notizie-volume-vi-1728-20261018)、[KU清单](../tables/ku-manifest.csv)、[对齐表](../tables/alignment.csv)及[知识卡](../units/archives/baldinucci-notizie-volume-vi-1728.md)。
+`cand-4846`、`cand-8601` 按既有 S3 组 `archive-group-baldinucci-notizie-vol-vi-1728` 共同映射至一个 archive KU。第21章 p.413 书目记录支持原题、Filippo Baldinucci 书目署名、Secolo V 时间范围、卷VI、Firenze与1728年；第1、2、4、5、6、7、8、9章的卷VI引文支持跨章身份归组，所有被引原页未独立查阅。新增8条 source-backed 字段记录并复用既有Haskell来源；作者人物卡已链接，本批未登记正式作者关系。该卷作为15条S2关系候选的端点，15条全部留待S6逐项审查，本批不将引文转为正式关系。该批后S4已登记1,129组／1,313条映射，待登记3,689组／3,711条；KU=2,148，字段=11,587。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-baldinucci-notizie-volume-vi-1728-20261018)、[KU清单](../tables/ku-manifest.csv)、[对齐表](../tables/alignment.csv)及[知识卡](../units/archives/baldinucci-notizie-volume-vi-1728.md)。
+
+### S4 archive：Pastor《教皇史》卷 XIV 两部分跨章身份组登记（2026-10-18）
+
+`cand-4836` 按既有 S3 组 `archive-group-pastor-storia-dei-papi-vol-xiv-parts-i-ii` 映射至[Pastor《教皇史》卷 XIV 两部分档案卡](../units/archives/pastor-storia-dei-papi-vol-xiv-parts-i-ii.md)。第2、3、6章均有卷XIV引文，第3章明指 `parte II`；书目身份组覆盖两部分，具体印次未定。第21章泛称Roma 1943书目没有卷号，不据以确定本卷出版年、地点或版本。新增8条 source-backed 字段记录，未新增来源登记或正式关系；15条关系候选留待S6。本批后S4已登记1,130组/1,314条映射，待登记3,688组/3,710条；archive类型登记112组/157条，待登记1,119组/1,139条；KU=2,149，字段=11,595。严格阶段审计通过，既有来源引用警告和S2语义审查提示仍保留。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-pastor-storia-dei-papi-vol-xiv-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
