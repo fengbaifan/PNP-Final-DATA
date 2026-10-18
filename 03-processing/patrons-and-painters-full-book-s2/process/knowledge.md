@@ -6929,3 +6929,12 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-9914` 由 `undecided` 改判 `new`，归入 `archive-group-constable-four-paintings-grauen-kloster-1956`。第10章 p.316 注7与第21章 statement `st-chp21-bib-l336-374-entry-26` 对应；印刷 p.419 识别 W. G. Constable 1956 年论文 “Four paintings by Antonio Canale in the Gymnasium zum Grauen Kloster, Berlin”，收入 *Scritti di storia dell’arte in onore di Lionello Venturi* 第II卷，pp.81–93。University of Padua research repository 收录的书目 repertory 同列该论文及卷页（[书目 repertory](https://www.research.unipd.it/retrieve/21373090-5176-4ac7-a8dd-473328978d4c/Gardner%20Repertory%20copia_compressed_compressed.pdf)，访问日期2026-10-18）。仅裁决论文身份，未核读论文或所引页。
 
 本批三个新身份组均待 S4 登记；三项只裁决被引出版物的书目身份，不验证其历史主张或引文内容。对齐主决定行与分立外部身份来源行见 `alignment.csv`，各自保留候选、mention 和 statement 锚点。
+
+<a id="s3-tassi-vol-i-bjurstrom-archive-20261018"></a>
+
+### S3 archive：Tassi 第一卷与 Bjurström 论文两项身份裁决（2026-10-18）
+
+- `cand-7690` 由 `undecided` 改判 `new`，归入独立的 `archive-group-tassi-vite-bergamaschi-vol-i-1793`。第8章 p.219 注2的短引明确标作 “Tassi, I, p.265”；第6、7章及第21章另有同书第二卷的完整书目匹配 `cand-6590`，本组只指向第一卷。Internet Archive Getty Research Institute 项 `vitedepittoriscu00tass` 著录 Tassi《Vite de' pittori, scultori e architetti bergamaschi》1793 年版并标为 v.1（[Internet Archive](https://archive.org/details/vitedepittoriscu00tass)，访问日期2026-10-18）。这只确定出版物身份；p.265 未查阅，不据此说明第8章所述契约。
+- `cand-9445` 由 `undecided` 改判 `new`，归入 `archive-group-bjurstrom-carl-gustaf-tessin-drawings-1967`。第10章 p.292 注6、第20章 Tessin 注释及第21章 statement `st-chp21-bib-l165-205-entry-12` 指向同一篇 Per Bjurström 论文。Accademia Nazionale di San Luca 的书目引文列出 “Carl Gustaf Tessin as a Collector of Drawings”，收入 *Contributions to the History and Theory of Art*（Figura, n.s. 6），Uppsala 1967，pp.99–120（[书目记录所在论文](https://accademiasanluca.it/uploads/CARLO_FONTANA_fb60c8927f.pdf)，访问日期2026-10-18）。仅裁决论文书目身份；论文及所引页未独立查阅，不据此验证 Tessin 收藏史事实。
+
+两项均待 S4 登记；Tassi 第一、二卷分别保留卷级身份，Bjurström 论文作为文集中的独立论文记录。各候选的原始短引、mention、statement 与外部来源分别列在 `alignment.csv` 主决定行及身份来源行。

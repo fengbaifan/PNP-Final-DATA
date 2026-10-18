@@ -2588,3 +2588,9 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-6590`（Tassi《Vite》第二卷，1793）、`cand-9950`（Massimo Petrocchi，1947）及 `cand-9914`（W. G. Constable，1956论文）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Tassi 卷一候选 `cand-7690` 保持分组边界；三项只裁决书目身份，不核验所引内容。证据与候选映射见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-tassi-petrocchi-constable-archive-identities-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前全书 S3 `new=5,005`／4,800组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,333`；S4已登记1,107组／1,285条候选映射，待登记3,693组／3,720条候选映射。archive 类型 `new=1,289`／1,234组、`undecided=703`；S4已登记109组／151条候选映射，待登记1,125组／1,138条候选映射。统计排除分立外部身份来源行；严格表审计复核后更新最终计数。
+
+### S3 archive：Tassi 第一卷与 Bjurström 论文两项身份裁决（2026-10-18）
+
+`cand-7690`（Tassi《Vite》第一卷，1793）及 `cand-9445`（Per Bjurström 1967 年论文）由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Tassi 第一卷与已裁决的第二卷保持卷级边界；两项只确认书目身份，原文和所引内容未核读。裁决依据和映射见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-tassi-vol-i-bjurstrom-archive-20261018)及[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=5,007`／4,802组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,331`；S4已登记1,107组／1,285条候选映射，待登记3,695组／3,722条候选映射。archive 类型 `new=1,291`／1,236组、`undecided=701`；S4已登记109组／151条候选映射，待登记1,127组／1,140条候选映射。严格表审计复核后更新最终计数。
