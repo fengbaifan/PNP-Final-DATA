@@ -26,7 +26,7 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 114 / 159 | 1,127 / 1,137 |
+| archive | 2,100 | 90 | 1,241 / 1,296 | 0 | 18 | 696 | 116 / 161 | 1,125 / 1,135 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
@@ -36,7 +36,7 @@
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,132 / 1,316** | **3,686 / 3,708** |
+| **合计** | **12,407** | **1,965** | **4,818 / 5,024** | **9** | **100** | **5,309** | **1,134 / 1,318** | **3,684 / 3,706** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6836,13 +6836,17 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 相关档案对象和其他出版物分开：`cand-4783` 是被 Orbaan 部分刊布的1631年 Barberini 清单，`cand-5155` 是经 Orbaan 转引的1608年 Avviso，`cand-6385` 是 Orbaan 1914–15年另一篇论文；均不是这本1920年文集。裁决只确认书目身份，不确认引用页内容、清单原件或转引事实；不新建KU或关系。档案类现为 `new=1,259` 个候选／1,205组、`undecided=733`；S4待登记1,096组／1,108条候选映射。全书 `new=4,975`／4,771组、`undecided=5,363`；S4待登记3,664组／3,690条候选映射。
 
 
+<a id="s3-wittkower-sculptures-bernini-1955-cross-chapter-20261018"></a>
+
 ### S3 archive：Wittkower《The sculptures of Gian Lorenzo Bernini》（1955）
 
 `cand-4383` 形成新 archive 组 `archive-group-wittkower-sculptures-bernini-1955`，待S4登记。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-06` 列明 Rudolf Wittkower、*The sculptures of Gian Lorenzo Bernini*、London 1955；第2、7章的引用均标为 Wittkower 1955。书目身份与引文定位相合； cited pages 未读。此书与《Art and architecture in Italy 1600 to 1750》（1958）及1948、1900年不同作者的Bernini传记分开。
 
+<a id="s3-wittkower-art-architecture-1958-cross-chapter-20261018"></a>
+
 ### S3 archive：Wittkower《Art and architecture in Italy 1600 to 1750》（1958）
 
-`cand-4557` 形成新 archive 组 `archive-group-wittkower-art-architecture-1958`，待S4登记。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-07` 列明 Rudolf Wittkower、*Art and architecture in Italy 1600 to 1750*、London 1958；第1–7章短引、年份和 ibid. 定位与该项一致。其与Wittkower 1955年Bernini雕塑专著分别记录；所引页未读。
+`cand-4557` 形成新 archive 组 `archive-group-wittkower-art-architecture-1958`，待S4登记。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-07` 列明 R. Wittkower、*Art and architecture in Italy 1600 to 1750*、London 1958；其 qualifier 记录页图像将OCR“195 8”校读为“1958”。第7章 p.187注6 statement `st-chp7-p187-n6-cite-wittkower` 记录OCR“Wittkower, 1938”据印刷页图像校读为“Wittkower, 1958”。第1–7章短引、年份和 ibid. 定位与该书目项一致。其与Wittkower 1955年Bernini雕塑专著分别记录；所引页未读。
 
 ### S3 archive：V. Ruffo《La galleria Ruffo nel secolo XVII in Messina》（1916）
 
@@ -7212,3 +7216,18 @@ cand-3504 由 undecided 改为 new，归入 new-person:antonino-bertolotti-20261
 `cand-4373` 按 S3 组 `archive-group-orbaan-documenti-barocco-1920` 登记至 `units/archives/documenti-sul-barocco-in-roma-1920`。第21章 p.432 书目给出 J. A. F. Orbaan、原题、Roma 与1920年；第2至4章的书内引文相合。卡片仅记录书目身份与所引页码，未独立查阅原书、所引页或转引材料；出版社与版本未从该条书目推断。书目署名对应的人物候选 `cand-6384` 仍待证，未新建人物KU或正式作者关系。1631年清单、1608年Avviso及Orbaan 1914–1915年论文保持为不同候选。
 
 本KU新增8条source-backed字段事实；6条S2关系候选仍待S6逐项审查，未新增正式关系或外部来源。本批后 S4 已登记1,132组／1,316条映射，待登记3,686组／3,708条；archive类型登记114组／159条，待登记1,127组／1,137条；KU=2,151。严格阶段审计与单卡预览结果见本批交接记录。
+
+
+<a id="s4-archive-wittkower-sculptures-bernini-1955-20261018"></a>
+
+### S4 archive：Wittkower《The sculptures of Gian Lorenzo Bernini》（1955）
+
+`cand-4383` 按 S3 组 `archive-group-wittkower-sculptures-bernini-1955` 登记至 `units/archives/wittkower-sculptures-bernini-1955`。第21章 p.441 书目列 R. Wittkower、原题、London及1955年；第2、7章的引文定位与该书目身份相合。所引页及原书均未独立查阅。与Wittkower 1958年意大利艺术与建筑著作和人物KU分开；作者正式关系留待S6。本KU新增8条source-backed字段事实；6条S2关系候选留待S6。
+
+<a id="s4-archive-wittkower-art-architecture-1958-20261018"></a>
+
+### S4 archive：Wittkower《Art and architecture in Italy 1600 to 1750》（1958）
+
+`cand-4557` 按 S3 组 `archive-group-wittkower-art-architecture-1958` 登记至 `units/archives/wittkower-art-architecture-italy-1600-1750-1958`。第21章 p.441 书目 statement `st-chp21-bib-l1261-1299-entry-07` 的 qualifier 记录OCR“195 8”据页图像校读为1958；第7章 p.187注6 statement `st-chp7-p187-n6-cite-wittkower` 记录OCR“1938”据印刷页图像校读为1958，详情见[原书断言记录](../../04-knowledge/tables/book-statements.jsonl)中的对应qualifiers。第7章 p.189注2所引Wittkower 1938–39年论文单独映射至`cand-7111`，不并入本KU。第1、2、3、6、7章的引用定位与1958年书目身份相合；原书和被引页未独立查阅。作者正式关系留待S6。本KU新增8条source-backed字段事实；6条S2关系候选留待S6。
+
+两组各映射一个KU；本批共新增16条source-backed字段事实，未新增外部来源、正式关系或候选待办。登记后S4累计1,134组／1,318条映射，待登记3,684组／3,706条；archive类型登记116组／161条，待登记1,125组／1,135条；KU=2,153。
