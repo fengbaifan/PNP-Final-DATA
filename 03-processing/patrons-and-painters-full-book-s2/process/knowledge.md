@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,147 | 1,065 / 1,163 | 4 | 7 | 1,143 | 698 / 791 | 367 / 372 |
+| person | 3,464 | 1,147 | 1,070 / 1,168 | 4 | 7 | 1,138 | 698 / 791 | 372 / 377 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,964** | **4,811 / 5,017** | **9** | **100** | **5,317** | **1,107 / 1,285** | **3,704 / 3,732** |
+| **合计** | **12,407** | **1,964** | **4,816 / 5,022** | **9** | **100** | **5,312** | **1,107 / 1,285** | **3,709 / 3,737** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,317 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；294 条外部身份记录另行保留。same 的 1,964 条候选指向 1,047 个既有 KU；new 候选组成 4,811 个类型内身份组，共 5,017 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,312 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。所有 12,407 个候选各有且仅有一条 `external_source` 为空的当前决定；299 条外部身份记录另行保留。same 的 1,964 条候选指向 1,047 个既有 KU；new 候选组成 4,816 个类型内身份组，共 5,022 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；未登记组保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7023,3 +7023,44 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 `cand-1786`（O.csv#20，索引页200n、341、370）由 `undecided` 改为 `new`，归入 `new-person:philippe-dorleans-regent-1674-1723-20261018`，待 S4 登记。第7章 p.200 注4称奥尔良公爵后来成为摄政并于1715年邀请 Solimena；第10章 p.285 和第13章 p.341 将摄政者置于 Rosalba、Zanetti 于1720年在巴黎活动的语境；第15章 p.370 明确写作 “Régent Philippe d’Orléans”。BnF 人物规范记录 FRBNF11918201（ARK `ark:/12148/cb11918201w`）确认规范名 Philippe d’Orléans、生卒1674–1723及法国摄政（1715–1723）；现有同类型 KU 中没有该人物，且须与 Anne of Austria 等其他摄政者区分。
 
 本裁决仅解决人物身份；书中关于画像、委托、绘制与雕版的具体归属仍是 Haskell 的来源陈述，不因 BnF 身份记录而获外部验证。人物组尚无 KU 或正式关系登记，外部身份来源行单独绑定 `cand-1786`；旧待决理由及交叉章 S2 提及锚点保留于 alignment 行。
+
+
+<a id="s3-person-muratori-cross-chapter-new-20261018"></a>
+
+### S3 person：L. A. Muratori 跨章身份新组（2026-10-18）
+
+cand-1717（M.csv#258）由 undecided 改为 new，归入 new-person:ludovico-antonio-muratori-20261018，待 S4 登记。第9章 p.261、271、275，第10章 p.300、302、318，第13章注释及第14章 p.350 的姓名提及分属书信收件人、通信对象、1749年著作作者和历史人物语境，构成人物身份的跨章链。Treccani《意大利人传记辞典》条目以 Ludovico Antonio Muratori 为词头，并列出 1749 年的 Pubblica felicità，支持 L. A. Muratori／Muratori 的身份匹配；没有同类型既有人物 KU。
+
+人物候选与 archive 候选 cand-1718、cand-9705（Della pubblica felicità）严格分开。本决定仅裁人物身份，不核验 Haskell 对书信、出版或艺术相关事实的陈述；不创建 KU 或正式关系。既有待决理由及逐章 mention 锚点保留在 alignment 行。
+
+<a id="s3-person-burlington-cross-chapter-new-20261018"></a>
+
+### S3 person：Lord Burlington 跨章身份新组（2026-10-18）
+
+cand-0470（B.csv#318）由 undecided 改为 new，归入 new-person:richard-boyle-earl-burlington-20261018，待 S4 登记。第10章 p.280 的 Lord Burlington 位于 1715 年 Ricci 受雇语境；第14章 p.356 提及 Algarotti 索取 Lord Burlington 的 Chiswick 宅邸图。National Portrait Gallery 人物记录将 Richard Boyle 与第三代伯灵顿伯爵、第四代科克伯爵及 1694–1753 年代相连，与书中头衔和年代相合。当前无同类型人物 KU。
+
+本决定只解决人物身份，不据此验证 Ricci 的具体委托、Burlington 的赞助或建筑叙述；S4 尚未登记 KU，未新增正式关系。既有待决理由与跨章锚点保留于 alignment 行。
+
+<a id="s3-person-voltaire-cross-chapter-new-20261018"></a>
+
+### S3 person：Voltaire 跨章身份新组（2026-10-18）
+
+cand-2791（UVWXYZ.csv#128）由 undecided 改为 new，归入 new-person:voltaire-francois-marie-arouet-20261018，待 S4 登记。第10章 p.318、第14章 pp.349–350 与第15章 pp.369–371 共八处提及，分别置于思想观察、Cirey 接触、Querini 访问、哲学家胸像和版画肖像语境。BnF 人物规范记录 FRBNF11928669 将 Voltaire 标作规范笔名形式，列出 François-Marie Arouet 为拒用形式，并识别其为作家、哲学家。当前无同类型人物 KU。
+
+身份决定不验证 Haskell 转述的旅行、交往、肖像制作或思想影响；人物组待 S4，关系候选待 S6，不新增正式边。
+
+<a id="s3-person-tintoretto-cross-chapter-new-20261018"></a>
+
+### S3 person：Tintoretto 跨章身份新组（2026-10-18）
+
+cand-2627（T.csv#90）由 undecided 改为 new，归入 new-person:jacopo-robusti-tintoretto-20261018，待 S4 登记。第9章 p.248、第10章 p.313 和第19章附录 p.390 的人名都指向画家；附录的 Tintoreti 保留为原文异形。Treccani 规范词条写作 Iacopo Robusti detto il Tintoretto，确认人物及画家类型。当前无同类型人物 KU。
+
+此决定仅消歧人物身份，不验证 Haskell 关于作品、复制或归属的叙述；不创建 KU 或正式关系。
+
+<a id="s3-person-roethlisberger-cross-chapter-new-20261018"></a>
+
+### S3 person：Marcel Roethlisberger 跨章作者身份新组（2026-10-18）
+
+cand-3502（索引/来源候选名 M. Röthlisberger）由 undecided 改为 new，归入 new-person:marcel-roethlisberger-20261018，待 S4 登记。第1、4、6章多条书目引文与第7章 p.173 的 “M. Marcel Rothlisberger” 明示名称相连。BnF 人物规范记录 FRBNF12399359 以 Marcel Roethlisberger 为规范形式，记其为艺术史家，并列有 Claude Lorrain 画稿研究著作。当前无同类型人物 KU。
+
+本决定只对齐被引作者身份，不表示已阅读其被引页面或核验其艺术史主张；不新增 KU 或正式关系。

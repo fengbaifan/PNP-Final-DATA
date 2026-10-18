@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,964（指向1,047个既有 KU）、new=5,017（4,811个身份组）、conflict=9、excluded=100、undecided=5,317。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,704组、3,732条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,964（指向1,047个既有 KU）、new=5,022（4,816个身份组）、conflict=9、excluded=100、undecided=5,312。S4 已登记1,107组、映射1,285条成员候选；尚待登记3,709组、3,737条映射。
 
 ## 范围与覆盖
 
@@ -26,14 +26,14 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,701 条：12,407 条候选决定记录及 294 条外部身份记录；候选决定数见下表 |
+| [全书对齐](../tables/alignment.csv) | 12,706 条：12,407 条候选决定记录及 299 条外部身份记录；候选决定数见下表 |
 | [既有字段表](../tables/enrichment.jsonl) | 11,508条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,701、unlinked=0；enrichment=11,508；S4待登记new候选映射3,732条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,964（1,047个既有KU）、new=5,017（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,317；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。294条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,706、unlinked=0；enrichment=11,508；S4待登记new候选映射3,737条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,964（1,047个既有KU）、new=5,022（4,816个类型内身份组）、conflict=9、excluded=100、undecided=5,312；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。299条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -47,15 +47,15 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione人物组：同页正文全名及作品子项语境提供直接身份锚点。cand-5013（p.66 The Resurrection）与cand-5297（p.84 1602年耶稣堂祭坛画）归为一个new作品组，依据为同一画家、复活题材、耶稣会教堂语境及相容年代；题名和具体陈列状态不作超出原文的推断。两项工作组判断及旧理由均保留于对齐表和过程记录。
 
-候选决定按每个候选一条 `external_source` 为空的 alignment 行统计；227条外部身份记录单独保留，不计入候选决定。
+候选决定按每个候选一条 `external_source` 为空的 alignment 行统计；299条外部身份记录单独保留，不计入候选决定。
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 1,964 | 指向 1,047 个既有 KU |
-| new | 5,017 | 按 4,811 个当前身份组进入 S4；每组登记一个 KU |
+| new | 5,022 | 按 4,816 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,317 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,312 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -204,13 +204,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,147→405 | 1,163／1,065 | 698／367；372 | 4 | 7 | 1,143 |
+| person | 1,147→405 | 1,168／1,070 | 698／372；377 | 4 | 7 | 1,138 |
 | place | 228→153 | 567／559 | 40／519；519 | 0 | 0 | 314 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 495／479 | 50／429；439 | 5 | 29 | 1,631 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,964→1,047** | **5,017／4,811** | **1,107／3,704；3,732** | **9** | **100** | **5,317** |
+| **合计** | **1,964→1,047** | **5,022／4,816** | **1,107／3,709；3,737** | **9** | **100** | **5,312** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2666,3 +2666,24 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-1786` 由 `undecided` 改为新人物组 `new-person:philippe-dorleans-regent-1674-1723-20261018`，待 S4 登记。第7章注释称奥尔良公爵后来成为摄政且于1715年邀请 Solimena；第10、13章是1720年巴黎活动中的摄政者；第15章 p.370 明称 “Régent Philippe d’Orléans”。BnF 人物规范记录 FRBNF11918201 确认其姓名、生卒1674–1723及法国摄政（1715–1723）。仅确认人物身份，画像、绘制、委托等书中陈述不因此获外部验证；与 Anne of Austria 等其他摄政者分立。
 
 当前全书 S3 `same=1,964`（1,047个既有KU）、`new=5,017`／4,811组、`conflict=9`、`excluded=100`、`undecided=5,317`；S4已登记1,107组／1,285条映射，待登记3,704组／3,732条映射。人物类型 `same=1,147`、`new=1,163`／1,065组、`undecided=1,143`。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-orleans-regent-cross-chapter-new-20261018)和[对齐表](../tables/alignment.csv)。
+
+
+### S3 person：L. A. Muratori 跨章身份新组（2026-10-18）
+
+cand-1717 由 undecided 改为 new-person:ludovico-antonio-muratori-20261018，待 S4 登记。第9、10、13、14章的提及与 Treccani《意大利人传记辞典》身份词条吻合。与 Della pubblica felicità 的 archive 候选分开；不据此验证书信或艺术关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-muratori-cross-chapter-new-20261018)与[对齐表](../tables/alignment.csv)。
+
+### S3 person：Lord Burlington 跨章身份新组（2026-10-18）
+
+cand-0470 由 undecided 改为 new-person:richard-boyle-earl-burlington-20261018，待 S4 登记。第10、14章称名与 National Portrait Gallery 的 Richard Boyle, 3rd Earl of Burlington 身份记录相符。只解决人物身份，不验证具体赞助或建筑主张。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-burlington-cross-chapter-new-20261018)与[对齐表](../tables/alignment.csv)。
+
+### S3 person：Voltaire 跨章身份新组（2026-10-18）
+
+cand-2791 由 undecided 改为 new-person:voltaire-francois-marie-arouet-20261018，待 S4 登记；第10、14、15章八处提及对应 BnF 人物规范记录 FRBNF11928669。只确认人物身份，不验证旅行、访问、肖像及思想影响叙述。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-voltaire-cross-chapter-new-20261018)与[对齐表](../tables/alignment.csv)。
+
+### S3 person：Tintoretto 跨章身份新组（2026-10-18）
+
+cand-2627 由 undecided 改为 new-person:jacopo-robusti-tintoretto-20261018，待 S4 登记；第9、10、19章称名与 Treccani 的 Iacopo Robusti detto il Tintoretto 词条相符。只确认人物身份，不验证相关作品归属。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-tintoretto-cross-chapter-new-20261018)与[对齐表](../tables/alignment.csv)。
+
+### S3 person：Marcel Roethlisberger 跨章作者身份新组（2026-10-18）
+
+cand-3502 由 undecided 改为 new-person:marcel-roethlisberger-20261018，待 S4 登记；第1、4、6、7章的书目提及与 BnF 人物规范记录 FRBNF12399359 相合。只确认被引作者身份，不表示已阅读其引文或核验其研究结论。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-roethlisberger-cross-chapter-new-20261018)与[对齐表](../tables/alignment.csv)。
