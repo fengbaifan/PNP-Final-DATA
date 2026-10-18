@@ -6919,3 +6919,13 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-9350` 由 `undecided` 改为 `new`，归入 `archive-group-royal-academy-english-taste-1955-56`。第10章 pp.26、54 的题名短引与第21章 `st-chp21-bib-l420-459-entry-21` 所列 Royal Academy of Arts 1955–56 年展览目录一致。WorldCat 记录 69084026 的扩展题名为 *English taste in the eighteenth century from Baroque to Neo-Classic: winter exhibition 1955–56*，London 1955；与原书短题名、机构和日期相合（[WorldCat](https://search.worldcat.org/title/69084026)，访问日期2026-10-18）。原书未列作者，本批不补作者。
 
 四项均为不同的 archive 出版物身份组，依据跨章短引、原书书目和对应图书馆／目录记录裁为 `new`，待S4登记。所引页、论文论点及展览目录内容未阅读，不新增 KU、关系或内容事实。每个决定及外部目录标识分别保留在 `alignment.csv` 的候选主决定行和独立身份来源行；逐项 mention 与 statement 锚点见对齐行。
+
+<a id="s3-tassi-petrocchi-constable-archive-identities-20261018"></a>
+
+### S3 archive：Tassi、Petrocchi 与 Constable 三项跨章出版物身份（2026-10-18）
+
+- `cand-6590` 由 `undecided` 改判 `new`，归入 `archive-group-tassi-vite-bergamaschi-vol-ii-1793`。第6章 p.165 注6和第7章 p.200 注6均指向《Vite de’ Pittori, Scultori e Architetti Bergamaschi》第二卷 pp.60/64；第21章书目 statement `st-chp21-bib-l1141-1177-entry-05` 给出书名、Bergamo、1793。Google Books 全文记录 `VlqoKPAx04MC` 著录第二卷及1793年版（[Google Books](https://books.google.com/books?id=VlqoKPAx04MC)，访问日期2026-10-18）。卷一 p.265 的候选 `cand-7690` 不并入第二卷身份组；所引页未核读。
+- `cand-9950` 由 `undecided` 改判 `new`，归入 `archive-group-petrocchi-razionalismo-1947`。第10章注释 mention `m-s2-ch10-p320-323-note-0007` 与第21章书目 statement `st-chp21-bib-l928-983-entry-15` 对应同一书目项；印刷 p.433 给出书名、Roma 和1947年。出版社目录列作者 Massimo Petrocchi、完整书名及1947年（[出版社目录](https://www.storiaeletteratura.it/catalogo/razionalismo-architettonico-e-razionalismo-storiografico/1396)，访问日期2026-10-18）。仅裁决书目身份，未核读原书或引文段落。
+- `cand-9914` 由 `undecided` 改判 `new`，归入 `archive-group-constable-four-paintings-grauen-kloster-1956`。第10章 p.316 注7与第21章 statement `st-chp21-bib-l336-374-entry-26` 对应；印刷 p.419 识别 W. G. Constable 1956 年论文 “Four paintings by Antonio Canale in the Gymnasium zum Grauen Kloster, Berlin”，收入 *Scritti di storia dell’arte in onore di Lionello Venturi* 第II卷，pp.81–93。University of Padua research repository 收录的书目 repertory 同列该论文及卷页（[书目 repertory](https://www.research.unipd.it/retrieve/21373090-5176-4ac7-a8dd-473328978d4c/Gardner%20Repertory%20copia_compressed_compressed.pdf)，访问日期2026-10-18）。仅裁决论文身份，未核读论文或所引页。
+
+本批三个新身份组均待 S4 登记；三项只裁决被引出版物的书目身份，不验证其历史主张或引文内容。对齐主决定行与分立外部身份来源行见 `alignment.csv`，各自保留候选、mention 和 statement 锚点。

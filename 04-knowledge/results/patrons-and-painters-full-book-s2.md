@@ -2583,3 +2583,8 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-7066`（Whinney–Millar, *English Art*）、`cand-10878`（Frommel 的 *Storia dell’arte* 论文）、`cand-7584`（Vaes 关于 Corneille de Wael 的期刊论文）及 `cand-9350`（Royal Academy 的 *English Taste* 展览目录）均由 `undecided` 改为 `new`，分别归入四个 archive 身份组并待S4登记；Vaes 的期刊论文和另有分页的抽印本分开。决定证据、外部目录记录及未核验范围见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-whinney-frommel-vaes-english-taste-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前全书 S3 `new=5,002`／4,797组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,336`；S4已登记1,107组／1,285条候选映射，待登记3,690组／3,717条候选映射。archive 类型 `new=1,286`／1,231组、`undecided=706`；S4已登记109组／151条映射，待登记1,122组／1,135条映射。严格表审计通过；其余 candidate 的身份、复用、冲突和待证去向尚在逐类型处理中。
+### S3 archive：Tassi、Petrocchi 与 Constable 三项跨章出版物身份（2026-10-18）
+
+`cand-6590`（Tassi《Vite》第二卷，1793）、`cand-9950`（Massimo Petrocchi，1947）及 `cand-9914`（W. G. Constable，1956论文）均由 `undecided` 改判 `new`，各归入独立 archive 身份组并待 S4 登记。Tassi 卷一候选 `cand-7690` 保持分组边界；三项只裁决书目身份，不核验所引内容。证据与候选映射见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-tassi-petrocchi-constable-archive-identities-20261018)及[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=5,005`／4,800组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,333`；S4已登记1,107组／1,285条候选映射，待登记3,693组／3,720条候选映射。archive 类型 `new=1,289`／1,234组、`undecided=703`；S4已登记109组／151条候选映射，待登记1,125组／1,138条候选映射。统计排除分立外部身份来源行；严格表审计复核后更新最终计数。
