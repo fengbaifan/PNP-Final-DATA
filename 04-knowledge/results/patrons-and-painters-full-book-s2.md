@@ -2567,3 +2567,7 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-4830`归入 Bottari/Ticozzi Milano 1822 卷 I；`cand-6200`、`cand-7516`、`cand-8584`统一归入 Bottari/Ticozzi 卷 II；`cand-9484`归入 Parker 1948 年 Windsor Canaletto 图录；`cand-8651`归入独立的 Smith 1761 遗嘱文献件。第19章 Parker pp.61–62 mention 已从遗嘱候选校正到 Parker 书目候选。Blunt 1957 p.12 n.6 与 Pastor 泛称继续待证。书目身份有据；引文页及遗嘱原件未独立查阅，均待S4登记。过程比较、外部书目和原决定见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bottari-parker-smith-will-20261018)及[对齐表](../tables/alignment.csv)。
 
 当前 S3 `new=4,990`／4,785组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,348`；S4已登记1,107组／1,285条映射，待登记3,678组／3,705条映射。archive 类型 `new=1,274`／1,219组、`undecided=718`；S4已登记109组／151条映射，待登记1,110组／1,123条映射。计数按候选决策行统计，排除270条外部身份来源记录。
+
+### S3 archive：Bottari 卷 III、V、VI、VII跨章卷册身份（2026-10-18）
+
+`cand-5461`、`cand-9458`、`cand-5503`、`cand-11868`分别归入 Ticozzi《Raccolta》卷 III、V、VI、VII 新组；跨章引文和系列书目相符。卷 V、VI、VII 的 Internet Archive 卷册标识复用既有相应信件卡片记载，信件与出版物分开。各页未独立查阅。全书当前 S3 `new=4,994`／4,789组、`same=1,960`、`conflict=9`、`excluded=100`、`undecided=5,344`；S4已登记1,107组／1,285条映射，待登记3,682组／3,709条映射。archive 类型 `new=1,278`／1,223组、`undecided=714`；待登记1,114组／1,127条映射。详细卷册边界与证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bottari-volumes-iii-v-vii-20261018)和[对齐表](../tables/alignment.csv)。

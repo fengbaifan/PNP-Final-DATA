@@ -6886,3 +6886,13 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-9340` 的 Blunt 合著书继续待证：p.302 n.5 的 “Blunt, 1957, p.12, note 6” 尚未核实是否指向书目中的 Windsor 目录，未与已匹配书目条目强行合并。`cand-11414` 的 Pastor 系列级泛称也保持待证，不并入卷 XIII/XIV。
 
 本批只确认书目／文献身份；引文页、遗嘱原件及书内历史主张未独立核验，不登记 KU、关系或补足事实。当前 S3 候选 `new=4,990`／4,785组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,348`；S4已登记1,107组／1,285条映射，待登记3,678组／3,705条映射。archive 类型 `new=1,274`／1,219组、`undecided=718`；S4已登记109组／151条映射，待登记1,110组／1,123条映射。计数按候选决策行统计，排除270条外部身份来源记录。
+
+<a id="s3-bottari-volumes-iii-v-vii-20261018"></a>
+### S3 archive：Bottari 卷 III、V、VI、VII 跨章分组（2026-10-18）
+
+- `cand-5461`（第3、8章卷 III 引文）归入 `archive-group-bottari-ticozzi-raccolta-vol-iii`；第3章明列 1695 年 Resta 致 Ghezzi 信及 pp.490–491，第8章另引 pp.352–369。Haskell 第21章书目将该系列指向 Ticozzi 续编的 Milano 1822 版；[Halwas书目](https://www.robinhalwas.com/index.php?controller=attachment&id_attachment=262&name=004845-Halwas-List-6.pdf)（p.13）列出八卷及分卷页码，并区分较早的 Rome 版。Resta 信与卷册分开。
+- `cand-9458`（第1、10章卷 V 引文）归入 `archive-group-bottari-ticozzi-raccolta-vol-v`；第1章 p.186 与第10章 pp.27–28 两处卷次一致。既有 Quarismini 信件 KU 记载卷 V 及 Internet Archive 项 `diletteresulla05bott`（其卡片记录访问日期2026-09-11）；该信不并入卷册。
+- `cand-5503`（第1、4章卷 VI 引文）归入 `archive-group-bottari-ticozzi-raccolta-vol-vi`；既有 Piola 信件 KU 记载卷 VI 与 Internet Archive 项 `diletteresulla06bott`（卡片访问日期2026-09-11），信件与卷册区分。第4章另一封未定日期信件也不并入卷册。
+- `cand-11868`（第1章 p.21 n.2 的卷 VII 引文）归入 `archive-group-bottari-ticozzi-raccolta-vol-vii`；statement `st-chp1-secii-p21-n2-cites-bianconi-letter` 将 1762 年 Bianconi 信定位到 VII, p.362。既有 Bianconi 信件 KU 记录卷 VII 及 Internet Archive 项 `diletteresulla07bott`（卡片访问日期2026-09-11）；信件为独立文献件。
+
+四项均只裁决具体卷册的书目身份，不确认引用页内容；外部卷册标识复用既有 S4 卡片中记录的 Internet Archive 标识及访问日期，未在本批重复打开数字化全文。系列级 `cand-11261`、卷册候选与 Resta、Quarismini、Piola、Bianconi 信件各自保持粒度边界。详见各对齐行；archive 类未决数随本批减少4。
