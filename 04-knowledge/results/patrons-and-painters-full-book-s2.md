@@ -26,14 +26,14 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
-| [全书对齐](../tables/alignment.csv) | 12,697 条：12,407 条候选决定记录及 290 条外部身份记录；候选决定数见下表 |
+| [全书对齐](../tables/alignment.csv) | 12,699 条：12,407 条候选决定记录及 292 条外部身份记录；候选决定数见下表 |
 | [既有字段表](../tables/enrichment.jsonl) | 11,508条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,697、unlinked=0；enrichment=11,508；S4待登记new候选映射3,729条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,963（1,046个既有KU）、new=5,014（4,808个类型内身份组）、conflict=9、excluded=100、undecided=5,321；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。290条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,126；candidates=12,407；alignments=12,699、unlinked=0；enrichment=11,508；S4待登记new候选映射3,730条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,963（1,046个既有KU）、new=5,015（4,809个类型内身份组）、conflict=9、excluded=100、undecided=5,320；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。292条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2634,3 +2634,10 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 `cand-3507` 映射到 Giovanni Bottari 人物 KU：第14章全名、B.csv#264 及已登记索引候选 `cand-0417` 相合。`cand-3535` 映射到 Giovanni Pietro Bellori 人物 KU：B.csv#119 全名主项、跨章引文语境及已映射候选组支持复用。引文所指书信、刊本及人物著作维持 archive 与 person 粒度边界，相关编者关系仍留待 S6。
 
 当前 S3 `same=1,963`（1,046个既有KU）、`new=5,014`／4,808组、`conflict=9`、`excluded=100`、`undecided=5,321`；S4待登记映射仍为3,729条。人物类型 `same=1,146`、`new=1,160`、`undecided=1,147`。严格表审计复核后确认。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bottari-bellori-cross-chapter-person-reuse-20261018)与[对齐表](../tables/alignment.csv)。
+
+
+### S3 person：Soprani 跨章作者身份新组（2026-10-18）
+
+`cand-3500` 由 `undecided` 改为新人物组 `new-person:raffaele-soprani-20261018`，并与出版物候选 `cand-5160` 保持人物／archive 类型区分。多章卷册引文与第21章 Raffaello Soprani 书目署名相合；Treccani DBI 记载 Raffaele Soprani 的《Le Vite》作者身份与 Ratti 的1768年重印，Braidense 记录明确将 Raffaello 列为 Raffaele 的变体名。只确认人物及责任者身份，原书和被引页未独立阅读，KU待 S4。
+
+当前全书 S3 `same=1,963`（1,046个既有KU）、`new=5,015`／4,809组、`conflict=9`、`excluded=100`、`undecided=5,320`；S4已登记1,107组／1,285条映射，待登记3,702组／3,730条映射。人物类型 `new=1,161`／1,063组、`undecided=1,146`。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-soprani-cross-chapter-person-identity-20261018)和[对齐表](../tables/alignment.csv)。
