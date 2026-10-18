@@ -2,7 +2,7 @@
 
 更新日期：2026-10-18。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,118组、映射1,299条成员候选；尚待登记3,700组、3,725条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,407 个候选决定行中，same=1,965（指向1,047个既有 KU）、new=5,024（4,818个身份组）、conflict=9、excluded=100、undecided=5,309。S4 已登记1,122组、映射1,305条成员候选；尚待登记3,696组、3,719条映射。
 
 ## 范围与覆盖
 
@@ -21,19 +21,19 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,137 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,141 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,398、false 4,764、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,708 条：12,407 条候选决定记录及 301 条外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,546条，其中1,624条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,560条，其中1,624条 unverified |
 | [既有关系](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；不等于已裁决本轮10,400条关系候选 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 331条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 42条、两端均缺72条。331条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-18 strict-stage 表审计通过：KU=2,137；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,546；S4待登记new候选映射3,725条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-18 strict-stage 表审计通过：KU=2,141；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,560；S4待登记new候选映射3,719条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,965（1,047个既有KU）、new=5,024（4,818个类型内身份组）、conflict=9、excluded=100、undecided=5,309；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。审计保留两条既有字段来源引用警告（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 
 ## S3 身份决定与交接
 
@@ -2711,3 +2711,11 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 ### S4 person：五组高优先级直接关系端点登记（2026-10-18）
 
 完成Richelieu、年轻的Anton Maria Zanetti、Voltaire、Philippe d’Orléans与Ludovico Antonio Muratori五个S3身份组的S4登记，7条候选映射各指向组内唯一人物KU。五组均为书内关系断言的直接端点，合计49条关系候选保留待S6审查；本批未新增正式关系。卡片保留双语名称、等义描述、章页证据与S3已记录的身份入口。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
+
+### S4 person：三组直接关系端点（2026-10-18）
+
+`cand-8465`（Pietro Visconti）、`cand-2668`（John Udney）和`cand-10590`（Jacopo Morelli）各自按既有S3 `new`组登记为一个人物 KU。卡片保留双语名称、书内角色和精确来源定位；John的“Zuane Udni”作为来源转录形式保留。共6条S2关系候选留待S6，没有新增正式关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-visconti-udney-morelli-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
+
+### S4 archive：Passeri《Vite》Jacob Hess 1934版（2026-10-18）
+
+`cand-4376`、`cand-5749`、`cand-6241` 三项候选依既有S3身份组共同映射至一张 archive KU。第21章书目与页图校读支持原题、Jacob Hess编者、Leipzig und Wien及1934年；题名译文明确为工作译名。28条关系候选留待S6；未新增正式关系或外部来源。当前S4已登记1,122组／1,305条映射，待登记3,696组／3,719条；KU=2,141，字段=11,560。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-passeri-vite-hess-1934-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
