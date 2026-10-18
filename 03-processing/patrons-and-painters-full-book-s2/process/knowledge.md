@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,137 | 1,058 / 1,153 | 4 | 7 | 1,163 | 698 / 791 | 360 / 362 |
+| person | 3,464 | 1,140 | 1,058 / 1,153 | 4 | 7 | 1,160 | 698 / 791 | 360 / 362 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,952** | **4,766 / 4,959** | **9** | **100** | **5,387** | **1,107 / 1,285** | **3,659 / 3,674** |
+| **合计** | **12,407** | **1,955** | **4,766 / 4,959** | **9** | **100** | **5,384** | **1,107 / 1,285** | **3,659 / 3,674** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6767,3 +6767,11 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - cand-1772（O.csv#6，and Bernini，pp.85–86）、cand-1773（O.csv#7，and Borgognone，pp.78–79）、cand-1774（O.csv#8，and Duke of Parma，pp.79–81）及cand-1776（O.csv#10，and Cardinal Negroni，pp.84–85）均由undecided改判same → [units/persons/gian-paolo-oliva](../../../04-knowledge/units/persons/gian-paolo-oliva.md)。O.csv四条均以person型子目置于同一“Oliva, Gian Paolo”主项；书内相应段落将其连接至主项cand-1771及已登记cand-1775所指的Jesuit General Gian Paolo Oliva。既有人物卡的第3章全名、总会长身份和第6章p.153语境与这些页码连续相符。
 - 边界：Bernini、Borgognone、Duke of Parma及Cardinal Negroni仍为各自的人物候选；子目只提供检索定位。不由索引交叉项建立友谊、赞助、委托或冲突等正式关系；相关书内断言仍按既有S2状态等待S6。
 - 更新后S3 same=1,952（1,046个KU），new=4,959/4,766组，undecided=5,387；S4待登记3,659组/3,674条候选映射。
+
+<a id="s3-albrizzi-index-subentries-20261018"></a>
+
+### S3 person：Albrizzi人物索引子目复用既有人物KU（2026-10-18）
+
+- cand-0026（A.csv#25，edition of works of Bossuet，pp.334–335）、cand-0028（A.csv#27，Il Forestiere Illuminato，p.334）及cand-0030（A.csv#29，publication of gems in A. M. Zanetti's collection，pp.337、344）均由undecided改判same → [units/persons/albrizzi](../../../04-knowledge/units/persons/albrizzi.md)。A.csv三项都是同一Giambattista Albrizzi人物主项下的person型子目。第13章p.334以该全名介绍威尼斯出版者，并在pp.334–335记Bossuet法文版、指南及其与Piazzetta的出版合作；p.344又明确称Albrizzi为Zanetti宝石目录出版者。Treccani《意大利传记辞典》以Giovanni Battista Albrizzi为题，记其出版Bossuet作品（1736–1757）、Il Forestiero illuminato、Gemme antiche di A. M. Zanetti（1750），并区分同名侄辈（1798–1806）；[Treccani DBI](https://www.treccani.it/enciclopedia/giovanni-battista-albrizzi_%28Dizionario-Biografico%29/)；既有人物KU的Giovanni Battista及Giambatista姓名形式、1745年图版出版证据与此相合。
+- 边界：Bossuet版、威尼斯指南及Zanetti宝石目录仍为独立archive/work对象，不因person型索引子目合并入人物卡；不据索引关系新增人物—作品正式关系。Haskell约生于1699年与既有外部来源精确日期1698-12-29的差异仍作为来源核对项保留。
+- 更新后S3 same=1,955（1,046个KU），new=4,959/4,766组，undecided=5,384；S4待登记3,659组/3,674条候选映射。

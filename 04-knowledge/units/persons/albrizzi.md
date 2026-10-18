@@ -28,7 +28,7 @@ sources:
   sentence_summary: 1745年威尼斯Giambatista Albrizzi版La Gerusalemme liberata，文字作者Torquato Tasso，插图署Giovanni Battista
     Piazzetta；Marquand Library藏本图像目录。
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-10-18'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
@@ -64,6 +64,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 出版文献 | [《耶路撒冷解放》插图本（1745）](../archives/gerusalemme-liberata-illustrations-1745.md) | S1–S3 |
 | 肖像所在作品 | [《耶路撒冷解放》插图末页](../works/piazzetta-final-plate-of-illustrations-to-gerusalemme-liberata.md) | S1 |
+
+### 身份与书内索引
+
+中文：第13章及人物索引中的全名形式Giambattista Albrizzi、既有人物卡所记录的Giovanni Battista Albrizzi和出版署名Giambatista Albrizzi，均指向本卡所记威尼斯出版者。A.csv人物主项cand-0025及其Bossuet版、威尼斯指南和Zanetti宝石目录三个person型子目（cand-0026、cand-0028、cand-0030）现统一映射至本卡；出版物仍是独立对象。Treccani传记条目区分其同名侄辈。Haskell约生于1699年与既有来源所记精确日期1698-12-29的差异保留为来源核对项。
+
+English: The Chapter 13 and person-index form Giambattista Albrizzi, the existing card's Giovanni Battista Albrizzi, and the publication signature Giambatista Albrizzi refer to the Venetian publisher recorded here. The A.csv person headword cand-0025 and its three person-type subentries for the Bossuet edition, the Venice guide, and Zanetti's gem catalogue (cand-0026, cand-0028, cand-0030) now map to this card; the publications remain separate objects. Treccani's biographical entry distinguishes his nephew of the same name. The difference between Haskell's approximate birth year 1699 and the existing source's exact date 1698-12-29 remains a source-check item.
 
 ## 关系与证据
 
