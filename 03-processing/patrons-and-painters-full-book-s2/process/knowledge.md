@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 603 / 696 | 459 / 460 |
+| person | 3,464 | 1,090 | 1,062 / 1,156 | 4 | 7 | 1,207 | 607 / 700 | 455 / 456 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,012 / 1,190** | **3,758 / 3,772** |
+| **合计** | **12,407** | **1,905** | **4,770 / 4,962** | **9** | **100** | **5,431** | **1,016 / 1,194** | **3,754 / 3,768** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6374,3 +6374,17 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 本批沿用4个既有S3 new人物组，登记4张KU卡、4条候选映射和14条source_backed名称／头衔字段；身份依据为既有书内索引与正文来源，未新增外部身份对齐行或sources.csv记录。8条直接S2 statement中5条relation_candidate继续待S6，3条非关系叙述不转为关系；未新增formal relation。cand-1628与仍为undecided的cand-5550保持区分。
 
 登记后person类型S4为603组/696条已登记、459组/460条待登记；全书KU=2031。
+
+
+<a id="s3-s4-person-montage-endpoints-20261018"></a>
+
+### S3身份组登记与S4人物端点：M索引候选（2026-10-18）
+
+- cand-1673（原组new-person:alvise-doge-mocenigo-112023801c）→ new-person:alvise-doge-mocenigo-112023801c → [阿尔维塞·莫切尼戈（Alvise Mocenigo）](../../../04-knowledge/units/persons/alvise-mocenigo.md)；索引与第9章p.269注1均使用Doge Alvise Mocenigo；书内未给出在任序号。本卡保留源内指称，不作外部人物消歧。
+- cand-1689（原组new-person:de-michel-montaigne-49e9b48a8a）→ new-person:de-michel-montaigne-49e9b48a8a → [米歇尔·德·蒙田（Michel de Montaigne）](../../../04-knowledge/units/persons/michel-de-montaigne.md)；索引列出Michel de Montaigne，第15章p.370以Montaigne称呼门上格言的作者；本卡保留书内归属，不声称独立核验。
+- cand-1692（原组new-person:da-federigo-montefeltre-7c480bf440）→ new-person:da-federigo-montefeltre-7c480bf440 → [费代里戈·达·蒙特费尔特罗（Federigo da Montefeltre）](../../../04-knowledge/units/persons/federigo-da-montefeltre.md)；索引与第2章p.54均给出Federigo da Montefeltre全名；与未命名宫殿候选cand-4746分开，关系留待S6。
+- cand-1697（原组new-person:claudio-monteverdi-306c7d79d5）→ new-person:claudio-monteverdi-306c7d79d5 → [克劳迪奥·蒙特威尔第（Claudio Monteverdi）](../../../04-knowledge/units/persons/claudio-monteverdi.md)；索引列出Claudio Monteverdi，第4章p.96称Monteverdi；脚注2仅指向Prunières (1926)，作为书目定位而非关系或独立查证。
+
+本批沿用4个既有S3 new人物组，登记4张KU卡、4条候选映射和12条source_backed名称字段；身份依据为书内索引与正文，未新增外部身份对齐行或sources.csv记录。5条直接S2 statement中4条relation_candidate继续待S6，Monteverdi的Prunières (1926)脚注仅为书目定位；未新增formal relation。
+
+登记后person类型S4为607组/700条已登记、455组/456条待登记；全书KU=2035。
