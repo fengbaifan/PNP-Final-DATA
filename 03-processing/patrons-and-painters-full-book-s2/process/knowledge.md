@@ -22,7 +22,7 @@
 
 ## 按类型决定数
 
-数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。3条经复核的候选决定行（cand-4167、cand-6180、cand-10748）同时保存外部来源信息，仍按各自的候选决定计数。
+数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。4条经复核的候选决定行（cand-4147、cand-4167、cand-6180、cand-10748）同时保存外部来源信息，仍按各自的候选决定计数。
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,153 | 1,066 / 1,166 | 4 | 7 | 1,134 | 756 / 854 | 310 / 312 |
+| person | 3,464 | 1,156 | 1,066 / 1,166 | 4 | 7 | 1,131 | 760 / 858 | 306 / 308 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,970** | **4,812 / 5,020** | **9** | **100** | **5,308** | **1,172 / 1,358** | **3,640 / 3,662** |
+| **合计** | **12,407** | **1,973** | **4,812 / 5,020** | **9** | **100** | **5,305** | **1,176 / 1,362** | **3,636 / 3,658** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,308 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。12,407 个候选各有一条当前决定；301 条外部身份记录另行保留。Arlotto、Giuliano Briganti 与 Mattia di Rossi 的候选决定行同时带有外部来源字段。same 的 1,970 条候选指向 1,050 个既有 KU；new 候选组成 4,812 个类型内身份组，共 5,020 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,640 组、3,662 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,305项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；301条独立外部身份记录另行保留。Arlotto、Giuliano Briganti、Mattia di Rossi 与 cand-4147 的候选决定行同时带有外部来源字段。same的1,973条候选指向1,052个既有KU；new候选组成4,812个类型内身份组，共5,020条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,636组、3,658条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7524,3 +7524,14 @@ Van Dyck/Vandyke为同一艺术家形式；Bernardo/Bernardino Castelli与Antoni
 - Louis XV：索引 L.csv#106 覆盖 p.285、p.236，第13章 p.336 明写 Louis XV。第10章 p.285 的 “little King” 在句中未具名；[Treccani《Enciclopedia Italiana》](https://www.treccani.it/enciclopedia/luigi-xv-re-di-francia_(Enciclopedia-Italiana)/)将 Luigi XV 描述为摄政时期的儿童王位继承人，支持按该索引定位将相关候选映入同一跨章人物组。仍与 Louis XIV 分立。
 
 卡片、manifest、accepted.yml 与 alignment 均已登记；四个候选的身份决定和外部身份入口可逐项追溯。Catherine 委托 statue 与 Philip III 的 Tacca monument 仍只是 S2 关系候选；作品端点尚未完成 S3，本批不登记正式边。
+
+<a id="s3-person-existing-ku-reuse-20261019"></a>
+### S3 person：跨章既有 KU 复用与 Bankes 姓名区分（2026-10-19）
+
+本批复核3条仍为 `undecided` 的人物候选。三者均不新建 KU；旧决定、旧理由留在 `alignment.csv` 注释中，并写入对应现行指向。
+
+- `cand-1252`（G.csv#162，Gian Antonio Guardi，p.313）改为 `same` → `units/persons/gian-antonio-guardi`。同名主项 `cand-1245`（G.csv#155，pp.258、312、315、383）已由跨章证据归入并登记到同一卡；第10章 p.312–313 的连续叙述明确承接同一 Guardi。索引子项“work for Marshal Schulenburg as copyist”是该人物的活动定位，不是第二个人物。S2 statement `st-chp10-p313-guardi-copied-contemporary-pictures` 将 `cand-1252` 放在 object 端；本裁决只确认人身份，不确认该端点角色或关系，后续 S6 需先核查该字段与原句。
+- `cand-1701`（M.csv#242，Jacopo Morelli，p.371n）改为 `same` → `units/persons/jacopo-morelli`。正文候选 `cand-10590` 在第15章 p.371 注1、L111 记录同一全名，且已映射至该 KU；索引定位和正文形式一致。statement `st-chp15-p371-de-non-later-director-of-napoleon-museums` 的 object 候选目前指向 `cand-1701`，但其引文陈述的是 De Non 的后续职位，不是 Morelli；本批仅裁身份，不据此确认关系端点，S6前须核查该 S2 指派。
+- `cand-4147`（图版目录 L73、L87，“Ralph Bankes, Kingston Lacy”）改为 `same` → `units/persons/ralph-bankes`，即20世纪收藏者 Henry John Ralph Bankes，而不是 `units/persons/ralph-bankes-1631-1677` 中的 Sir Ralph Bankes。National Trust记录 NT 1251462 将 Henry John Ralph Bankes 定为1902–1981；NT 1257045 记 Jerome Bankes 肖像由其兄长 (Sir) Ralph Bankes 可能委托，并由 (Henry John) Ralph Bankes 于1981年遗赠，明确区分两人；NT 1257142 记录 Camillo Massimi 肖像由 Ralph Bankes 于1981年遗赠。图版中的收藏者语境与20世纪人物 KU 一致。当前外部身份入口写入 alignment；图版说明不据此自动升格为法定所有权或关系。
+
+本批后 S3 为 same=1,973（1,052个既有 KU）、new=5,020／4,812组、conflict=9、excluded=100、undecided=5,305；S4登记组与候选映射不变，仍为1,176组／1,362条已登记、3,636组／3,658条待登记。关系候选未转成正式边；S2候选端点疑点留给S6逐条裁决。外部来源访问日期为2026-10-19。

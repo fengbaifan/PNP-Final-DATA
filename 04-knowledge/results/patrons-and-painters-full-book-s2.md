@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 已为全部候选记录当前决定与去向，9项冲突及5,308项待证对象仍未解决；S4 KU 登记处理中；S5、S6 尚未全书收口。** 当前 12,407 个候选决定为 same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308。S4 已登记1,176组、映射1,362条成员候选；尚待登记3,636组、3,658条映射，其中直接关系端点待登记队列为1,880组／1,881条候选映射。S5字段表11,693条、1,627条unverified；S6关系表1,227条（1,225 formal、2 pending），其中45条缺结构化 `source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落保留各自当时状态，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 已为全部候选记录现行决定与可追溯去向，9项冲突及5,305项待证对象仍未解决；S4 KU 登记处理中；S5、S6 尚未全书收口。** 当前12,407个候选决定为same=1,973（指向1,052个既有KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,305（含622项未分类）。S4已登记1,176组、映射1,362条成员候选；尚待登记3,636组、3,658条映射，其中直接关系端点待登记队列为1,880组／1,881条候选映射。S2中10,399条statement标记`relation_candidate=true`；S6关系表有1,227条记录（1,225 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；其中330条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化`source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落保留各自历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -29,18 +29,20 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [全书对齐](../tables/alignment.csv) | 12,708 条：12,407 条候选决定记录及 301 条外部身份记录；候选决定数见下表 |
 | [字段表](../tables/enrichment.jsonl) | 11,693条，其中1,627条 unverified |
 | [来源登记](../tables/sources.csv) | 1,751 条来源记录 |
-| [关系表](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；全书 S2 当前有10,399条关系候选，仍须逐批进入S6裁决 |
+| [关系表](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,399条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 330条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 217条、仅缺 subject 41条、两端均缺72条。330条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 strict-stage 表审计通过：KU=2,195；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,751；S4待登记new候选映射3,658条；`errors=[]`、`s2_missing=[]`。S3去向统计为：same=1,970（1,050个既有KU）、new=5,020（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,308；S4已登记1,176组／1,362条候选映射，待登记3,636组／3,658条，其中直接关系端点队列1,880组／1,881条。S6已有1,225条formal与2条pending关系，45条缺结构化`source_id`（44条formal、1条pending）；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
+2026-10-19 strict-stage表审计通过：KU=2,195；candidates=12,407；alignments=12,708、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,751；S4待登记new候选映射3,658条；`errors=[]`、`s2_missing=[]`。当前S3去向统计为same=1,973（1,052个既有KU）、new=5,020（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,305（含622项未分类）；S4已登记1,176组／1,362条候选映射，待登记3,636组／3,658条，其中直接关系端点队列1,880组／1,881条。S2有10,399条`relation_candidate=true` statement；S6关系表另有1,225条formal和2条pending，表行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化`source_id`（44条formal、1条pending）；new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。301条外部身份记录单独保存。
 直接关系端点待登队列按类型（组／候选成员）为：person 35／35、institution 97／97、event 144／144、place 236／236、work 343／343、archive 486／487、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片；若执行全量渲染，将涉及466张卡、476个文件，当前卡片派生视图尚未整体同步。
 2026-10-19 最新人物端点批次复核20个单候选组：4组改为 `same` 并复用既有人物 KU，16组保持 `new` 且完成 S4 登记。身份判断、边界和外部身份依据见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019)；关系候选仍待 S6，本批未新增正式关系。
-此前“1,902组”为2026-10-19二十组人物批次完成前的快照；1,882组／1,883条是该批完成后的中间快照。追加四组裁决并登记后，当前待登 new 组与 S2 直接关系端点为1,880组／1,881条候选成员。
+历史快照：1,902组是2026-10-19二十组人物批次完成前的数值；1,882组／1,883条是该批完成后的中间数值。后续四组裁决登记后，当前待登new组与S2直接关系端点为1,880组／1,881条候选成员。
 2026-10-19 回填73条具唯一来源证据的关系 `source_id`；剩余45条（44 formal、1 pending）仍待消歧或补来源依据。关系状态与证据范围未改；详见[S6来源ID修复记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-source-id-exact-url-repair-20261019)。
 
 2026-10-19 后续四组人物批次：cand-7034、cand-7036、cand-0657、cand-1448 均裁决为 `new` 并完成 S4，KU 总数增至2,195；其中 Catherine de’ Medici 与 Philip III of Spain 直接承担 S2 关系候选端点，直接端点待登队列由1,882组／1,883条减至1,880组／1,881条。查理二世与路易十五在本批仅作身份登记，不据此新增正式关系。详见[四组人物裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-batch-four-20261019)。
+
+2026-10-19 人物复用复核：`cand-1252`、`cand-1701`、`cand-4147` 从 `undecided` 改为 `same`，分别复用 Gian Antonio Guardi、Jacopo Morelli 与 Henry John Ralph Bankes 人物 KU；Bankes 与 17 世纪 Sir Ralph Bankes 分开。same 现为1,973条／1,052个目标KU，undecided为5,305条；不新增KU，相关关系仍须S6裁决。两条 statement 的 candidate endpoint 指派疑点已标注，不能据本次身份复用直接建边。详见[人物复用裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-existing-ku-reuse-20261019)。
 ## S3 身份决定与交接
 
 ### S3 复核：Modena 公爵候选改列待证（2026-10-16）
@@ -53,7 +55,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione人物组：同页正文全名及作品子项语境提供直接身份锚点。cand-5013（p.66 The Resurrection）与cand-5297（p.84 1602年耶稣堂祭坛画）归为一个new作品组，依据为同一画家、复活题材、耶稣会教堂语境及相容年代；题名和具体陈列状态不作超出原文的推断。两项工作组判断及旧理由均保留于对齐表和过程记录。
 
-候选决定按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。Arlotto、Giuliano Briganti 与 Mattia di Rossi 的候选决定行同时保存外部来源信息，仍按其候选决定计数。
+候选决定按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。Arlotto、Giuliano Briganti、Mattia di Rossi 与 cand-4147 的候选决定行同时保存外部来源信息，仍按其候选决定计数。
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
@@ -218,13 +220,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 34／197；197 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／191 | 24／167；167 | 0 | 0 | 121 |
-| person | 1,153→408 | 1,166／1,066 | 756／310；312 | 4 | 7 | 1,134 |
+| person | 1,156→410 | 1,166／1,066 | 760／306；308 | 4 | 7 | 1,131 |
 | place | 228→153 | 567／559 | 40／519；519 | 0 | 0 | 314 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 655 |
 | work | 237→218 | 495／479 | 50／429；439 | 5 | 29 | 1,631 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **1,970→1,050** | **5,020／4,812** | **1,172／3,640；3,662** | **9** | **100** | **5,308** |
+| **合计** | **1,973→1,052** | **5,020／4,812** | **1,176／3,636；3,658** | **9** | **100** | **5,305** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
