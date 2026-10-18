@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 651 / 744 | 410 / 411 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 655 / 748 | 406 / 407 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,060 / 1,238** | **3,709 / 3,723** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,064 / 1,242** | **3,705 / 3,719** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6547,3 +6547,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。François de Troy依据索引全名和第10章集体名单中的de Troy登记；不补写个人会面细节。Jacques Tubeuf依据索引及第7章被称作金融家之正文记录；强行取得宫殿的具体法律机制、日期与宫殿名称未见于该处。Alessandro Turchi的T.csv索引行未列页码，正文p.185提供全名及作品归属语境；保留Haskell归属、系列边界和OCR尾随撇号校读。Ferdinando Uccelli依据索引与附录p.391登记为Haskell所称公证人；Smith宫殿未在该段具名，档案清单与Levi出版物未独立查阅。五条S2关系候选继续留待S6；无外部来源、formal relation或backlog写入。
 
 登记后人物类型S4为651组/744条已登记、410组/411条待登记；全书KU=2079。
+
+<a id="s4-vico-vigarani-viola-viviani-person-endpoints-20261018"></a>
+
+### S4 person：Vico、Vigarani、Viola与Viviani四组人物端点（2026-10-18）
+
+- cand-2770（new-person:giambattista-vico-fecfefaafe）→ [詹巴蒂斯塔·维柯（Giambattista Vico）](../../../04-knowledge/units/persons/giambattista-vico.md)；S2关系候选st-chp13-p337-note1-conti-letter-to-vico-1728留待S6。Haskell脚注称Conti致Vico的1728年信由Fisch与Bergin刊于第184页；脚注中的Conti仅有姓氏，身份仍有歧义，书信及所引出版页未独立查阅。正文转录在1728年后有句点，S2据页图校读为无句点；该关系候选留待S6。
+- cand-2774（new-person:gaspare-vigarani-7728563f06）→ [加斯帕雷·维加拉尼（Gaspare Vigarani）](../../../04-knowledge/units/persons/gaspare-vigarani.md)；S2关系候选st-chp7-p185-i26留待S6。Haskell称Vigarani受召从Mantua到Mazarin宫殿建剧场，发现空间不足后“移至Tuileries”。原句对移动主体表达压缩，不据此断言剧场在Tuileries建成；脚注引文页码未独立查阅，关系候选留待S6。
+- cand-2776（new-person:domenico-viola-9c07bd68a7）→ [多梅尼科·维奥拉（Domenico Viola）](../../../04-knowledge/units/persons/domenico-viola.md)；S2关系候选st-chp5-p136-cerquozzi-close-friend-domenico-viola留待S6。Haskell称Cerquozzi最亲密的两位朋友是画家Domenico Viola与Giacinto Brandi；原文未给出日期或进一步语境。该朋友关系候选留待S6裁决。
+- cand-2788（new-person:vincenzo-viviani-fd372f4147）→ [温琴佐·维维亚尼（Vincenzo Viviani）](../../../04-knowledge/units/persons/vincenzo-viviani.md)；S2关系候选st-chp8-p229-ferdinand-education留待S6。Haskell称Ferdinand由Viviani、Lorenzini、Redi等人教育；本段只写Viviani姓氏，不以该段扩写姓名或经历。教育关系候选留待S6。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Giambattista Vico依据UVWXYZ.csv全名及第13章脚注中的姓氏登记；脚注引用的1728年书信及Fisch与Bergin第184页未独立查阅，Conti姓氏端点仍有歧义，页图对1728年后标点的校读按S2保留。Gaspare Vigarani依据索引与p.185正文登记；原句对移往Tuileries的主体表达压缩，不据此断言剧场建成，脚注Hautecœur页码未独立查阅。Domenico Viola依据索引和p.136正文登记为Haskell所称Cerquozzi两位密友之一，不补入原文未给的日期或语境。Vincenzo Viviani依据索引全名与p.229正文姓氏登记；正文仅称Viviani，不扩展其名字或经历。四条S2关系候选留待S6；无外部身份来源、formal relation或backlog写入。
+
+登记后人物类型S4为655组/748条已登记、406组/407条待登记；全书KU=2083。
