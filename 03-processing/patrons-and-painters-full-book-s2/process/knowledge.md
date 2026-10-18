@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 663 / 756 | 398 / 399 |
+| person | 3,464 | 1,090 | 1,061 / 1,155 | 4 | 7 | 1,208 | 667 / 760 | 394 / 395 |
 | place | 1,109 | 226 | 559 / 567 | 0 | 0 | 316 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 494 | 5 | 29 | 1,632 | 50 / 56 | 429 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,072 / 1,250** | **3,697 / 3,711** |
+| **合计** | **12,407** | **1,905** | **4,769 / 4,961** | **9** | **100** | **5,432** | **1,076 / 1,254** | **3,693 / 3,707** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
@@ -6586,3 +6586,16 @@ cand-1671的书后索引M.csv#211写作“Minitti, Mario”，指向第1章脚�
 四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和8条source_backed姓名字段。Wilson只关联Smith接待英国访客的集体陈述；同一段中Mead、Newton与Walpole的其他关系陈述不归给Wilson。de Witte仅列入Roomer所藏数百件作品的多人作者名单，未具名单件作品或个人数量。Wouwermans在p.358是Algarotti建议学习的画家之一，p.359仅作作品风格比较；两者均不表示师承或作品归属。Wren与Gennari、Verrio、Gibbons共同出现在Whitehall一处未具名教堂的装饰陈述中。五条相关S2关系候选留待S6；无外部来源、正式关系或backlog写入。
 
 登记后人物类型S4为663组/756条已登记、398组/399条待登记；全书KU=2091。
+
+<a id="s4-wyatt-young-zaguri-zuccalli-person-endpoints-20261018"></a>
+
+### S4 person：Wyatt、Young、Zaguri与Zuccalli四组人物端点（2026-10-18）
+
+- cand-2823（new-person:james-wyatt-d25b8edf77）→ [詹姆斯·怀亚特（James Wyatt）](../../../04-knowledge/units/persons/james-wyatt.md)；S2关系候选st-chp10-p301-smith-official-visitors留待S6。原文称名单中的人“at one time or another”受Smith接待，没有给出Wyatt单独到访的时间或情节。脚注7所引Levey文章及页码未独立查阅；该集体接待关系候选留待S6。
+- cand-2827（new-person:edward-young-5c6ef7bfa5）→ [爱德华·杨（Edward Young）](../../../04-knowledge/units/persons/edward-young.md)；S2关系候选st-chp15-p370-youngs-wood-named-in-honour-of-young、st-chp15-p370-night-thoughts-authored-by-edward-young留待S6。S3将cand-2827记录为new source-local person identity group；该决定只依据书内索引和正文锚点，不含外部身份核验。同主条Night Thoughts索引候选cand-2828仍为S3 undecided，正文work候选cand-10551仍excluded；两条作者／命名关系候选留待S6，不新建或合并Night Thoughts KU，也不登记正式关系。
+- cand-2829（new-person:pietro-zaguri-f977d2ea03）→ [皮耶特罗·扎古里（Pietro Zaguri）](../../../04-knowledge/units/persons/pietro-zaguri.md)；S2关系候选st-chp15-p368-memmo-zaguri-lodoli-controversy留待S6。原文将争论限定为friendly，且置于Memmo晚年；不补充争论内容或日期。相关关系候选保留原文限定并留待S6。
+- cand-2878（new-person:enrico-zuccalli-b2963e912b）→ [恩里科·祖卡利（Enrico Zuccalli）](../../../04-knowledge/units/persons/enrico-zuccalli.md)；S2关系候选st-chp7-p193-zuccalli-schleissheim-project留待S6。原文写作“a Versailles”，按比喻保留引号；虽称工程发生于Max Emmanuel任新选帝侯期间，未明确指定委托人，也未证明工程完成。唯一关系候选留待S6，不据此新增作品KU或正式关系。
+
+四组均为S3 new单候选人物身份组，共登记4张KU卡、4条候选映射和7条source_backed姓名字段。James Wyatt只关联Smith接待英国访客的集体陈述；同段关于Mead、Newton、Walpole的其他关系候选不归给Wyatt。Edward Young以书后索引主条和第15章p.370的间接称名归组；索引#164不列页码，同主条#165列Night Thoughts子目及p.370。Night Thoughts索引archive候选cand-2828仍S3 undecided，正文work候选cand-10551保持excluded；作者关系不登记为正式边。Pietro Zaguri仅按Haskell所述与Memmo围绕Lodoli merits的friendly controversy登记。Enrico Zuccalli的Schleissheim委建记述保留“a Versailles”原文比喻，不推定委托人为Max Emmanuel或工程已完成。五条S2关系候选留待S6；无外部来源、正式关系或backlog写入。
+
+登记后人物类型S4为667组/760条已登记、394组/395条待登记；全书KU=2095。
