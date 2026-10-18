@@ -35,14 +35,19 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 基本信息
 
-- 建造委托：哈斯克尔称 Borromini 于1634年受托建造该修道院；委托关系仍待 S6 核验。
+- 建造委托：哈斯克尔称 Borromini 于1634年受托建造该修道院；本卡以 `entrusted_to_build` 记录受托建造关系，不据此断言工程已开工或完工。
 - 来源语境：第3章将它与为 Discalced Trinitarians 建造的教堂并述；本卡不将两座建筑合并。
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有已登记的正式关系。建造委托及施工地点两条 S2 候选现有可映射端点，仍需 S6 核验端点角色、方向及证据范围。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [四喷泉旁的三位一体会建造地点（Trinitarian Building Site Adjoining Quattro Fontane）](trinitarian-building-site-quattro-fontane.md) | statement=st-chp3-secii-l125-135-construction-site；原文将施工地点置于修道院与教堂建造语境；不推定地块边界；角色：拟建地点；范围：赤足三位一体会修道院；与教堂并述的建造地点，精确地块未指明；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 135; print p. 75 |
+| → 委托其建造（`entrusted_to_build`） | [弗朗切斯科·博罗米尼（Francesco Borromini）](../persons/francesco-borromini.md) | statement=st-chp3-secii-l125-135-trinitarian-commission；原文明确 Borromini 于1634年受托建造修道院；时间：1634；角色：受托建造者；范围：修道院建造；记录受托，不声称工程已开工或完工；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；lines 134–135; print p. 75 |
+
+已登记两条有据关系：本修道院位于 `cand-5125` 所指施工地点，并于1634年被委托给 Borromini 建造。原书未给修道院专名、精确地块或工程完工信息。
 
 ### 关系候选入口
 

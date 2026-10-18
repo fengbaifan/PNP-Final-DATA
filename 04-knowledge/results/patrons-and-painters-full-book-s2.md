@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,300项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,973（指向1,052个既有KU）、new=5,025（4,811个身份组）、conflict=9、excluded=100、undecided=5,300（含622项未分类）。S4已登记1,189组、映射1,382条成员候选；尚待登记3,622组、3,643条映射，其中直接关系端点待登记队列为1,867组／1,867条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,227条记录（1,225 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；312条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,300项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,973（指向1,052个既有KU）、new=5,025（4,811个身份组）、conflict=9、excluded=100、undecided=5,300（含622项未分类）。S4已登记1,189组、映射1,382条成员候选；尚待登记3,622组、3,643条映射，其中直接关系端点待登记队列为1,867组／1,867条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,232条记录（1,230 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；312条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -29,12 +29,16 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [全书对齐](../tables/alignment.csv) | 12,711 条：12,407 条候选决定记录及 304 条外部身份记录；候选决定数见下表 |
 | [字段表](../tables/enrichment.jsonl) | 11,693条，其中1,627条 unverified |
 | [来源登记](../tables/sources.csv) | 1,752 条来源记录 |
-| [关系表](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,399条`relation_candidate=true`的statement，二者不是同一计数口径 |
+| [关系表](../tables/relations.csv) | 1,232条：1,230 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,399条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 312条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 214条、仅缺 subject 31条、两端均缺67条。312条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 最新 strict-stage 表审计通过：KU=2,208；candidates=12,407；alignments=12,711（12,407条候选决定、304条外部身份记录）、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,752；S4待登记new候选映射3,643条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,973（1,052个既有KU）、new=5,025（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,300（含622项未分类）；S4已登记1,189组／1,382条候选映射，待登记3,622组／3,643条，其中直接关系端点队列1,867组／1,867条。S2有10,399条relation_candidate=true statement；S6关系表另有1,225条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；312条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。304条独立外部身份记录单独保存。
+2026-10-19 最新 strict-stage 表审计通过：KU=2,208；candidates=12,407；alignments=12,711（12,407条候选决定、304条外部身份记录）、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,752；S4待登记new候选映射3,643条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,973（1,052个既有KU）、new=5,025（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,300（含622项未分类）；S4已登记1,189组／1,382条候选映射，待登记3,622组／3,643条，其中直接关系端点队列1,867组／1,867条。S2有10,399条relation_candidate=true statement；S6关系表另有1,230条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；312条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。304条独立外部身份记录单独保存。
+
+### S6：三位一体会建筑关系批次（2026-10-19）
+
+第3章 p.75–76 的11条关系候选现分为5条 formal（`rel-1228`–`rel-1232`）、1条因匿名原驻地端点未决而 pending、5条评价或转述候选不建图谱边。新增受控关系 `entrusted_to_build` 记录教堂、修道院于1634年被委托给 Borromini 建造；它不表示工程已经开工或完工。待证端点 `cand-5121` 保持 S3 undecided，没有用 Spain 地理实体替代未具名原驻地。判断依据与逐条去向见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-trinitarian-commission-site-migration-20261019)。
 
 2026-10-19 定点校正第七章 p.185 注2–4的引用定位：脚注原文仅列作者与页码，链接出版物由唯一对应书目项映射；此前误写入的两个不符书名已移除。S3身份端点、全书统计及关系状态未变，所引页面仍未独立阅读；细节见[阶段过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)及修订脚本。
 直接关系端点待登队列按类型（组／候选成员）为：person 30／30、institution 96／96、event 144／144、place 233／233、work 342／342、archive 483／483、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片：2,208张卡、3,236张表、11,693行、预计关系派生2,436行、477张卡受关系视图影响、487个文件待渲染。当前卡片派生视图尚未整体同步。

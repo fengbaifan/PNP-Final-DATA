@@ -53,6 +53,8 @@ LABELS = {
     "collaborated_with": "合作",
     "commissioned_by": "由其委托",
     "commissioner_of": "委托者",
+    "entrusted_to_build": "委托其建造",
+    "entrusted_with_building_of": "受托建造",
     "contributed_by": "由其贡献",
     "contributor_to": "贡献者",
     "corresponded_with": "通信",

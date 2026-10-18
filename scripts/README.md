@@ -19,7 +19,7 @@
 | 外部候选采集 | verify_collect_*.py 只产生候选证据；Wikipedia/Wikidata collector 目前未自动完成双向 QID 配对，须按 verify 直接阅读与核对。Open Library 等书目来源只覆盖 archive 的适用子集 |
 | 验证状态写回 | `verify_apply_evidence.py --dry-run` 可检查旧格式计划；`--apply/--resume` 与 `evidence_batch_runner.py --apply-low-risk` 已停用，因其仍写卡片 frontmatter，而字段表行已由 `enrichment.jsonl` 维护。runner 的候选路由不自行批准知识 |
 | 未决事项定位 | audit_unverified_queue.py、plan_verification_batch.py、plan_relation_candidates.py 输出候选或计划；工具中的批量默认值不是日常研究固定配额 |
-| 关系与名称投影 | `relations.csv` 是关系输入，`enrichment.jsonl` 是字段表行输入；`build_cards.py --preview --ku <ku_id>` 依据卡片保留的小节与表头重建单卡表格行并输出差异，拒绝缺行或未知布局；`--check` 核对全库且不写卡；`--render` 全量预检通过后批量写回全部卡片，必须有明确用户授权。`build_relation_views.py --apply` 的旧 frontmatter 写入路径已禁用。`build_translation_index.py` 按需生成名称索引 |
+| 关系与名称投影 | `relations.csv` 是关系输入，`enrichment.jsonl` 是字段表行输入；`build_cards.py --preview --ku <ku_id>` 依据卡片保留的小节与表头重建单卡表格行并输出差异，拒绝缺行或未知布局；`--check` 核对全库且不写卡；`--render --ku <ku_id>` 写回已预览的指定卡片，可重复 `--ku` 定向多个卡片；省略 `--ku` 才执行全量写回。所有写回先预检、保留恢复快照并逐文件核对，批量写回须有明确用户授权。`build_relation_views.py --apply` 的旧 frontmatter 写入路径已禁用。`build_translation_index.py` 按需生成名称索引 |
 | 关系批量写回 | `apply_relation_plan.py` 的 frontmatter `--apply` 已停用。经语义裁决的边写入 `relations.csv` 并运行表检查；卡片展示先用 `build_cards.py --preview --ku <ku_id>` 审阅 |
 | 后续结构 | build_discovery_index.py、hierarchy_stress_test.py 仅在相应任务已启动时使用，不因空层级自动执行 |
 | 运行与生成记录 | build_runtime_index.py、build_generated_projection_manifest.py 记录实际运行/输入输出，不证明研究完成；不为普通编辑刷新全部快照 |

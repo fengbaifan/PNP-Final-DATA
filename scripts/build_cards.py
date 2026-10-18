@@ -207,11 +207,19 @@ def table_signature(items: list[dict]) -> list[tuple]:
     ]
 
 
-def build_render_plan(manifest, enrichments, projected):
+def build_render_plan(manifest, enrichments, projected, selected_ku_ids=None):
     planned: dict[Path, str] = {}
     originals: dict[Path, bytes] = {}
     table_count = row_count = relation_count = relation_preview_change_count = 0
-    for row in manifest:
+    selected_rows = [
+        row for row in manifest
+        if selected_ku_ids is None or row["ku_id"] in selected_ku_ids
+    ]
+    available_ku_ids = {row["ku_id"] for row in selected_rows}
+    if selected_ku_ids is not None and available_ku_ids != selected_ku_ids:
+        missing = sorted(selected_ku_ids - available_ku_ids)
+        raise ValueError(f"unknown ku_id(s): {', '.join(missing)}")
+    for row in selected_rows:
         key = card_key(row["card_path"])
         path = BASE / row["card_path"]
         original_bytes = path.read_bytes()
@@ -251,7 +259,7 @@ def build_render_plan(manifest, enrichments, projected):
             planned[path] = rendered
             originals[path] = original_bytes
     return planned, originals, {
-        "cards": len(manifest),
+        "cards": len(selected_rows),
         "tables": table_count,
         "rows": row_count,
         "projected_relation_rows": relation_count,
@@ -330,19 +338,26 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--preview", action="store_true", help="print a unified diff for one card; never writes")
     mode.add_argument("--check", action="store_true", help="preflight every card and report the exact render scope; never writes")
-    mode.add_argument("--render", action="store_true", help="preflight and write the complete CSV-backed card projection")
-    parser.add_argument("--ku", help="KU path, for example units/archives/arragona-mantua-letter-1621")
+    mode.add_argument("--render", action="store_true", help="preflight and write selected cards, or all cards when --ku is omitted")
+    parser.add_argument("--ku", action="append", help="KU path; use once for preview or repeat to target selected render cards")
     args = parser.parse_args()
     manifest, enrichments, projected = load_inputs()
-    if args.preview:
-        if not args.ku:
-            parser.error("--preview requires --ku")
-        ku_id = args.ku.removesuffix(".md")
+    ku_ids = []
+    for value in args.ku or []:
+        ku_id = value.removesuffix(".md")
         if not ku_id.startswith("units/"):
             ku_id = "units/" + ku_id
-        row = next((item for item in manifest if item["ku_id"] == ku_id), None)
-        if row is None:
-            parser.error(f"unknown ku_id: {ku_id}")
+        if ku_id not in ku_ids:
+            ku_ids.append(ku_id)
+    manifest_by_id = {item["ku_id"]: item for item in manifest}
+    unknown_ku_ids = [ku_id for ku_id in ku_ids if ku_id not in manifest_by_id]
+    if unknown_ku_ids:
+        parser.error(f"unknown ku_id(s): {', '.join(unknown_ku_ids)}")
+    if args.preview:
+        if len(ku_ids) != 1:
+            parser.error("--preview requires exactly one --ku")
+        ku_id = ku_ids[0]
+        row = manifest_by_id[ku_id]
         path = BASE / row["card_path"]
         before = read_card(path)
         after = render_card(before, ku_id, enrichments.get(ku_id, []), projected.get(card_key(row["card_path"]), []))
@@ -350,11 +365,13 @@ def main() -> int:
         print("".join(difflib.unified_diff(before.splitlines(keepends=True), after.splitlines(keepends=True),
                                             fromfile="card/current", tofile="card/rendered")))
         return 0
-    if args.ku:
-        parser.error("--ku is only valid with --preview")
-    planned, originals, stats = build_render_plan(manifest, enrichments, projected)
+    if ku_ids and not args.render:
+        parser.error("--ku is valid with --preview or --render")
+    selected_ku_ids = set(ku_ids) if args.render and ku_ids else None
+    planned, originals, stats = build_render_plan(manifest, enrichments, projected, selected_ku_ids)
+    scope_label = "selected render" if selected_ku_ids is not None else "full render"
     print(
-        f"full render preflight passed: cards={stats['cards']} tables={stats['tables']} "
+        f"{scope_label} preflight passed: cards={stats['cards']} tables={stats['tables']} "
         f"rows={stats['rows']} projected_relation_rows={stats['projected_relation_rows']} "
         f"cards_with_relation_changes={stats['cards_with_relation_changes']} files_to_write={len(planned)}"
     )

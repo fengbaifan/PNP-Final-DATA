@@ -65,7 +65,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有已登记的正式关系。委托建造、教堂方案评价、风格及施工地点候选现有可映射端点，仍待 S6 核查原句、谓词方向和语境；Cardinal Francesco Barberini 的角色也未由本卡确认为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [四喷泉旁的三位一体会建造地点（Trinitarian Building Site Adjoining Quattro Fontane）](trinitarian-building-site-quattro-fontane.md) | statement=st-chp3-secii-l125-135-church-site；依第3章pp.75语境记录教堂与施工地点关系；不等同于 Quattro Fontane 地标本身；角色：拟建地点；范围：S. Carlo alle Quattro Fontane 教堂；与修道院并述的建造地点，精确地块未指明；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 135; print p. 75 |
+| → 委托其建造（`entrusted_to_build`） | [弗朗切斯科·博罗米尼（Francesco Borromini）](../persons/francesco-borromini.md) | statement=st-chp3-secii-l125-135-trinitarian-church-commission；原文明确 Borromini 于1634年受托建造教堂；时间：1634；角色：受托建造者；范围：教堂建造；记录受托，不声称工程已开工或完工；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；lines 134–135; print p. 75 |
+
+已登记两条有据关系：本教堂位于 `cand-5125` 所指施工地点，并于1634年被委托给 Borromini 建造。评价教堂方案与风格的 statement 保留为原书陈述，不转为关系边；Cardinal Francesco Barberini 的角色仍无足够依据确认。
 
 ### 关系候选入口
 

@@ -39,13 +39,17 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 - 机构性质：原书称作 Discalced Trinitarians 的宗教修会。
 - 罗马语境：哈斯克尔称该会离开西班牙原驻地，于世纪初定居罗马；原书没有给出原驻地名称或具体年份。
-- 建筑语境：原书称 Borromini 于1634年受托为该会建造修道院与教堂；此事实仍是待 S6 核查的关系候选，不据此断言两座建筑的精确身份或产权。
+- 建筑语境：原书称 Borromini 于1634年受托为该会建造修道院与教堂；关系表分别记录两座建筑与 Borromini 的建造受托关系。原文说建筑“为该会”建造，但未明确指出委托主体，故不把该会另记为委托人或产权人。
 
 ## 关系与证据
 
 ### 关系记录
 
-本卡没有已登记的正式关系。五条 S2 关系候选涉及迁居罗马、离开西班牙原驻地、该会教堂设计评价及对 Borromini 的评价；机构与 place 端点登记后，其中四条的端点已齐备，仍全部待 S6 逐条核对证据、谓词、方向与语境。原驻地 `cand-5121` 仍未分类。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | statement=st-chp3-secii-l125-135-trinitarian-migration；保留原文时间精度，不换算成具体年份；时间：世纪初；角色：定居地；范围：离开西班牙原驻地后定居罗马；原书未给精确年份；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 135; print p. 75 |
+
+已登记本会于世纪初定居罗马的 `located_at` 关系。离开西班牙原驻地的 statement 因原驻地未具名、`cand-5121` 仍为 S3 undecided，暂不生成关系行；关于教堂方案、造价、建筑师评价的三条 statement 作为原书评价保留，不转为关系边。原书评价本身不因此被否定。
 
 ### 关系候选入口
 

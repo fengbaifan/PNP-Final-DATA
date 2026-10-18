@@ -99,6 +99,8 @@ types:
   - educated_at
   - education_of
   - employer_of
+  - entrusted_to_build
+  - entrusted_with_building_of
   - renamed_from
   - replaces
   - same_as
@@ -228,6 +230,8 @@ inverse:
   employer_of: employed_by
   educated_at: education_of
   education_of: educated_at
+  entrusted_to_build: entrusted_with_building_of
+  entrusted_with_building_of: entrusted_to_build
   scene_of: occurred_at
   source_of: derived_from
   subject_of: has_subject

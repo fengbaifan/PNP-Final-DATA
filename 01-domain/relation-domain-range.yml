@@ -40,6 +40,8 @@ domain_range:
   disputed_with:    {domain: [institution, person], range: [institution, person]}
   educated_at:      {domain: [person], range: [institution]}
   employed_by:      {domain: [person], range: [institution, person]}
+  entrusted_to_build: {domain: [place], range: [person]}
+  entrusted_with_building_of: {domain: [person], range: [place]}
   exemplified_by:   {domain: [procedure], range: [event]}
   friend_of:        {domain: [person], range: [person]}
   granted_privilege_to: {domain: [person], range: [institution, person]}

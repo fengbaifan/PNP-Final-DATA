@@ -41,7 +41,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有已登记的正式关系。修道院和教堂与该施工地点的定位候选现有可映射端点，仍待 S6 核验原文对应范围、方向及语境。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [圣卡洛·阿勒·夸特罗·丰塔内教堂（S. Carlo alle Quattro Fontane）](san-carlo-alle-quattro-fontane.md) | statement=st-chp3-secii-l125-135-church-site；依第3章pp.75语境记录教堂与施工地点关系；不等同于 Quattro Fontane 地标本身；角色：拟建地点；范围：S. Carlo alle Quattro Fontane 教堂；与修道院并述的建造地点，精确地块未指明；原断言与证据见发出端卡片“圣卡洛·阿勒·夸特罗·丰塔内教堂（S. Carlo alle Quattro Fontane）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 135; print p. 75 |
+| ← 所在地（`location_of`，反向投影） | [赤足三位一体会修道院（Discalced Trinitarian Monastery）](trinitarian-monastery-rome-context.md) | statement=st-chp3-secii-l125-135-construction-site；原文将施工地点置于修道院与教堂建造语境；不推定地块边界；角色：拟建地点；范围：赤足三位一体会修道院；与教堂并述的建造地点，精确地块未指明；原断言与证据见发出端卡片“赤足三位一体会修道院（Discalced Trinitarian Monastery）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 135; print p. 75 |
+
+关系表登记该施工地点为 S. Carlo alle Quattro Fontane 教堂与赤足三位一体会修道院的书内建造地点。原文没有提供精确地块边界，也没有把 Quattro Fontane 的具体地标消歧；两项不确定性仍分别保留。
 
 ### 关系候选入口
 

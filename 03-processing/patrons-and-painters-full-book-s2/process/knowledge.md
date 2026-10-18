@@ -7646,3 +7646,26 @@ cand-9508由undecided改为new，归入既有组new-person:giovanni-previtali-b5
 本批后 S3 为 same=1,973（1,052个既有 KU）、new=5,025／4,811组、conflict=9、excluded=100、undecided=5,300（含622项未分类）。S4 已登记1,189组／1,382条候选映射，待登记3,622组／3,643条；KU=2,208。直接关系端点待登记队列由1,870组／1,870条降至1,867组／1,867条，其中 place 为233组／233条。至少缺一个端点的 S2 关系候选按现行跟踪口径由319条降至312条（仅缺 object 214条、仅缺 subject 31条、两端均缺67条）；相关段数维持126。无新增来源、enrichment 或 formal relation。
 
 本批 strict-stage 表审计通过（KU=2,208，alignment_new_pending_registration=3,643，errors=[]）；`build_cards.py --check` 预检通过：2,208张卡、3,236张表、11,693行、预计关系派生2,436行、477张卡受关系视图影响、487个文件待渲染，未写入派生卡片。
+
+
+<a id="s6-trinitarian-commission-site-migration-20261019"></a>
+
+### S6：第3章三位一体会教堂、修道院与迁居关系批次（2026-10-19）
+
+复核输入为 `book-statements.jsonl` 中 p.75–76 的11条直接候选；端点采用已登记的 S. Carlo alle Quattro Fontane 教堂、描述性修道院卡、施工地点、Discalced Trinitarians、Francesco Borromini 与 Rome。候选逐条裁决如下：
+
+| statement_id | S6 去向 | 记录／理由 |
+|---|---|---|
+| `st-chp3-secii-l125-135-church-site` | formal | `rel-1228`，church `located_at` construction site。原文续句说明同一建造项目的地点；保留精确地块未知。 |
+| `st-chp3-secii-l125-135-construction-site` | formal | `rel-1229`，monastery `located_at` construction site；地点描述不与教堂或 Quattro Fontane 地标合并。 |
+| `st-chp3-secii-l125-135-trinitarian-church-commission` | formal | `rel-1230`，church `entrusted_to_build` Borromini，1634。新增受控谓词保留受托建造角色，不推定开工或完工。 |
+| `st-chp3-secii-l125-135-trinitarian-commission` | formal | `rel-1231`，monastery `entrusted_to_build` Borromini，1634；修道院与教堂分开。 |
+| `st-chp3-secii-l125-135-trinitarian-migration` | formal | `rel-1232`，institution `located_at` Rome，time 原样保留为“世纪初”。 |
+| `st-chp3-secii-l125-135-trinitarian-left-base` | pending | `cand-5121` 的原驻地未具名且 S3 仍 undecided，尚无可用 KU 端点；不将 Spain 国家/地理实体替代为原驻地，也不写入缺端点关系行。 |
+| `st-chp3-secii-l137-142-scalzi-plan-quotation` | rejected（仅作图谱边） | 后引评价及其转述时点仍保留在 S2；它不是可表达的结构性实体关系，不转成正式边。 |
+| `st-chp3-secii-l137-142-scalzi-satisfaction` | rejected（仅作图谱边） | 对建筑师原创性与“cheapness”的评价性满意陈述保留来源措辞，不转成正式边或客观造价事实。 |
+| `st-chp3-secii-l137-142-site-solution-praise` | rejected（仅作图谱边） | Haskell 对赞誉成因的解释保留为评价/解释，不作为客观地点关系。 |
+| `st-chp3-secii-l137-142-style-departure` | rejected（仅作图谱边） | 风格“radical departure”是书中比较性判断，不建立 church—Rome 实体边。 |
+| `st-chp3-secii-l137-142-trinitarian-admiration` | rejected（仅作图谱边） | 对 Trinitarian brothers 态度的转述保留在 S2，不将评价关系建成实体边。 |
+
+本批5条 formal 写入 `relations.csv`；1条 pending 因缺少身份与端点不入关系表；5条只否决图谱建边，不否认原书陈述。匿名原驻地已有 `cand-5121` 的 S3 undecided 决定和理由，因无独立可识别名称不新增 backlog KU。相关卡片正文已保留原书范围与不确定性；本批没有新的外部字段事实，S5 enrichment 不增量。

@@ -93,4 +93,11 @@ English: This card refers to Francesco Borromini as one person. Candidates cand-
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本轮新增两条 `entrusted_with_building_of` 反向导航，分别指向赤足三位一体会教堂与修道院；该关系只记录1634年的受托建造，不声称工程完工。其他 S2 创作、地点、家族及人物候选仍按各自证据状态留待 S6。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 受托建造（`entrusted_with_building_of`，反向投影） | [圣卡洛·阿勒·夸特罗·丰塔内教堂（S. Carlo alle Quattro Fontane）](../places/san-carlo-alle-quattro-fontane.md) | statement=st-chp3-secii-l125-135-trinitarian-church-commission；原文明确 Borromini 于1634年受托建造教堂；时间：1634；角色：受托建造者；范围：教堂建造；记录受托，不声称工程已开工或完工；原断言与证据见发出端卡片“圣卡洛·阿勒·夸特罗·丰塔内教堂（S. Carlo alle Quattro Fontane）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；lines 134–135; print p. 75 |
+| ← 受托建造（`entrusted_with_building_of`，反向投影） | [赤足三位一体会修道院（Discalced Trinitarian Monastery）](../places/trinitarian-monastery-rome-context.md) | statement=st-chp3-secii-l125-135-trinitarian-commission；原文明确 Borromini 于1634年受托建造修道院；时间：1634；角色：受托建造者；范围：修道院建造；记录受托，不声称工程已开工或完工；原断言与证据见发出端卡片“赤足三位一体会修道院（Discalced Trinitarian Monastery）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；lines 134–135; print p. 75 |
