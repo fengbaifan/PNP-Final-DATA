@@ -2571,3 +2571,9 @@ cand-2401及五条人物索引子目均映射至既有人物KU；其重复S4卡�
 ### S3 archive：Bottari 卷 III、V、VI、VII跨章卷册身份（2026-10-18）
 
 `cand-5461`、`cand-9458`、`cand-5503`、`cand-11868`分别归入 Ticozzi《Raccolta》卷 III、V、VI、VII 新组；跨章引文和系列书目相符。卷 V、VI、VII 的 Internet Archive 卷册标识复用既有相应信件卡片记载，信件与出版物分开。各页未独立查阅。全书当前 S3 `new=4,994`／4,789组、`same=1,960`、`conflict=9`、`excluded=100`、`undecided=5,344`；S4已登记1,107组／1,285条映射，待登记3,682组／3,709条映射。archive 类型 `new=1,278`／1,223组、`undecided=714`；待登记1,114组／1,127条映射。详细卷册边界与证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-bottari-volumes-iii-v-vii-20261018)和[对齐表](../tables/alignment.csv)。
+
+### S3 archive：四项跨章出版物归组与一项版本待证（2026-10-18）
+
+`cand-4635`（Blunt 1945 Windsor 法国素描目录）、`cand-4843`（Bentivoglio《Memorie》第五卷，1807）、`cand-4845`（Callari《I Palazzi di Roma》第三版，1944）及 `cand-4847`（Campori《Lettere artistiche inedite》，1866）均由 `undecided` 改为 `new`，分属四个 archive 身份组并待S4登记；外部馆藏目录记录已绑定各自的来源行。`cand-4354`（Venturi《La R. Galleria Estense in Modena》）仍待证：Haskell书目记1883，已识别数字化本记1882，版本日期未解决。引文页与出版物正文未核验；不新增 KU、关系或补足事实。过程依据及逐项来源见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-blunt-bentivoglio-callari-campori-20261018)，决定见[对齐表](../tables/alignment.csv)。
+
+当前全书 S3 `new=4,998`／4,793组、`same=1,960`（1,046个既有KU）、`conflict=9`、`excluded=100`、`undecided=5,340`；S4已登记1,107组／1,285条候选映射，待登记3,686组／3,713条候选映射。archive 类型 `new=1,282`／1,227组、`undecided=710`；S4已登记109组／151条映射，待登记1,118组／1,131条候选映射。计数按无外部身份副记录的候选决定行统计；严格表审计通过。

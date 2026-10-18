@@ -6896,3 +6896,15 @@ cand-9436由new改为same，映射到已登记的[Charles de Brosses KU](../../.
 - `cand-11868`（第1章 p.21 n.2 的卷 VII 引文）归入 `archive-group-bottari-ticozzi-raccolta-vol-vii`；statement `st-chp1-secii-p21-n2-cites-bianconi-letter` 将 1762 年 Bianconi 信定位到 VII, p.362。既有 Bianconi 信件 KU 记录卷 VII 及 Internet Archive 项 `diletteresulla07bott`（卡片访问日期2026-09-11）；信件为独立文献件。
 
 四项均只裁决具体卷册的书目身份，不确认引用页内容；外部卷册标识复用既有 S4 卡片中记录的 Internet Archive 标识及访问日期，未在本批重复打开数字化全文。系列级 `cand-11261`、卷册候选与 Resta、Quarismini、Piola、Bianconi 信件各自保持粒度边界。详见各对齐行；archive 类未决数随本批减少4。
+
+<a id="s3-blunt-bentivoglio-callari-campori-20261018"></a>
+
+### S3 archive：Blunt、Bentivoglio、Callari 与 Campori 四项跨章出版物身份（2026-10-18）
+
+- `cand-4635` 由 `undecided` 改判 `new`，归入 `archive-group-blunt-french-drawings-windsor-1945`。第2章 p.43 与第4章 pp.32、45 的 Blunt 1945 短引和第21章 `st-chp21-bib-l165-205-entry-16` 对应。CiNii Books 记录 BC14747079 给出 Anthony Blunt、Windsor 法国素描目录题名及 Phaidon 1945 出版项；该书目身份与 Haskell 的局部书目及跨章短引相符（[CiNii Books](https://ci.nii.ac.jp/ncid/BC14747079)，访问日期2026-10-18）。所引页未独立核对。此组与 Blunt、Croft-Murray 1957 年的威尼斯素描目录 `cand-9340` 不同。
+- `cand-4843` 由 `undecided` 改判 `new`，归入 `archive-group-bentivoglio-memorie-vol-v-1807`。第2章 pp.14 ff.、第3章 p.48 的 Bentivoglio 1807 短引对应第21章 `st-chp21-bib-l129-163-entry-14` 所列《Memorie》（Milano, 1807）。Google Books 全文目录记录表明此《Memorie》为《Opere storiche del cardinal Bentivoglio》第五卷，出版者为 Società tipografica de' Classici Italiani，1807 年（[Google Books](https://books.google.com/books/about/Opere_storiche_del_cardinal_Bentivoglio.html?id=GIlY8a7O3GUC)，访问日期2026-10-18）。第2、3章引文归同一第五卷；所引页未独立阅读。
+- `cand-4845` 由 `undecided` 改判 `new`，归入 `archive-group-callari-i-palazzi-di-roma-3ed-1944`。第2、7章 p.298 的 Callari 引文与第21章 `st-chp21-bib-l295-334-entry-04` 对应。Biblioteca Baldini 目录记录 M 728.82 CAL 67149 著录 Luigi Callari《I Palazzi di Roma》修订增补第三版，Roma: Apollon，1944 年（[馆藏目录](https://bibliotecabaldini.cultura.gov.it/wp-content/uploads/2019/01/DE-TUDDO_catalogo_completo-1.pdf)，访问日期2026-10-18）。所引 p.298 未独立阅读。
+- `cand-4847` 由 `undecided` 改判 `new`，归入 `archive-group-campori-lettere-artistiche-inedite-1866`。第2章 p.103、第14章短引和第21章 `st-chp21-bib-l295-334-entry-09` 的作者、年份与题名对应。Royal Collection Trust 记录 1194242 著录 Giuseppe Campori 编《Lettere artistiche inedite》，1866 年（[馆藏记录](https://www.rct.uk/collection/1194242/lettere-artistiche-inedite-g-campori)，访问日期2026-10-18）。所引 p.103 未独立阅读。
+- `cand-4354` 继续 `undecided`，不创建身份组。第21章书目 statement `st-chp21-bib-l1179-1218-entry-16` 记录 A. Venturi《La R. Galleria Estense in Modena》为 Modena, 1883；Internet Archive 的 Getty Research Institute 扫描项 `largalleriaesten00vent` 给出相同题名、作者及出版地，但将出版日期著录为1882，并注明未见版权页（[Internet Archive item](https://archive.org/details/largalleriaesten00vent)，访问日期2026-10-18）。题名匹配尚不足以判断 Haskell 所引具体版本／印次，故保留待证，后续需比对原书书目与所引本。
+
+本批四项 `new` 仅确认出版物身份并保留可核馆藏目录标识，暂待 S4 登记；引文页和对应历史主张未核验，不增 KU、关系或补足事实。`cand-4354` 的版本日期矛盾仍为 S3 待证项。所有候选 mention、statement、来源标识及决定见 [alignment.csv](../../../04-knowledge/tables/alignment.csv)。
