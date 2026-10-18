@@ -22,7 +22,7 @@
 
 ## 按类型决定数
 
-数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；301条独立外部身份记录不另算候选决定。5条经复核的候选决定行（cand-4147、cand-4167、cand-6180、cand-10748、cand-6200）同时保存外部来源信息，仍按各自的候选决定计数。
+数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；302条独立外部身份记录不另算候选决定。5条经复核的候选决定行（cand-4147、cand-4167、cand-6180、cand-10748、cand-6200）同时保存外部来源信息，仍按各自的候选决定计数。
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,156 | 1,066 / 1,166 | 4 | 7 | 1,131 | 760 / 858 | 306 / 308 |
+| person | 3,464 | 1,156 | 1,066 / 1,166 | 4 | 7 | 1,131 | 764 / 862 | 302 / 304 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,973** | **4,811 / 5,020** | **9** | **100** | **5,305** | **1,177 / 1,365** | **3,634 / 3,655** |
+| **合计** | **12,407** | **1,973** | **4,811 / 5,020** | **9** | **100** | **5,305** | **1,181 / 1,369** | **3,630 / 3,651** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,305项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；301条独立外部身份记录另行保留。Arlotto、Giuliano Briganti、Mattia di Rossi、cand-4147 与 cand-6200 的候选决定行同时带有外部来源字段。same的1,973条候选指向1,052个既有KU；new候选组成4,811个类型内身份组，共5,020条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,634组、3,655条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,305项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；302条独立外部身份记录另行保留。Arlotto、Giuliano Briganti、Mattia di Rossi、cand-4147 与 cand-6200 的候选决定行同时带有外部来源字段。same的1,973条候选指向1,052个既有KU；new候选组成4,811个类型内身份组，共5,020条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,630组、3,651条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7554,3 +7554,24 @@ Haskell 第21章书目 p.416 将题名列于 Milano 1822 项下，书目形式�
 本批将 Sources 登记增加1条、KU增加1个；S4由1,176组／1,362条映射增至1,177组／1,365条，待登记由3,635组／3,658条降至3,634组／3,655条。直接关系端点待登队列由1,880组／1,881条降至1,879组／1,879条。S3决定数不变；本批加入1条带外部来源的候选决定记录，独立外部身份记录数仍单独统计。
 
 2026-10-19 复算 `new` 组时，发现旧类型汇总将 archive 身份组多计1组。当前待登记 archive 有1,132条候选映射：1,113个不同 `group=` 标识，另有10个各自唯一的 `archive-group-*` 标识未使用 `group=` 前缀，合计1,123组；加上已登记117组，archive 共1,240组。其余类型计数不变，全书 new 组总数由4,812更正为4,811，待登记组由3,635更正为3,634。候选决定、分组成员与映射均未改变。
+
+<a id="s3-s4-person-endpoints-varda-della-valle-carlo-emanuele-tamizey-20261019"></a>
+### S3–S4 person：四个直接关系端点组裁决与登记（2026-10-19）
+
+本批核查四个已有S3 `new` 决定，四组均与现有同类型人物KU区分并完成S4登记。除Carlo Emanuele III新增一条Treccani DBI身份记录外，未新增外部身份配对。身份核验不等于原书关系断言已验证。
+
+| 候选 | S3身份组 | S4去向 | S2关系候选 |
+|---|---|---|---|
+| `cand-2685` | `new-person:della-filippo-valle-b6ab7ea511` | `units/persons/filippo-della-valle` | `st-chp3-seciv-l179-187-della-valle-made-annunciation-relief` |
+| `cand-2700` | `new-person:salvator-varda-c4461bbddc` | `units/persons/salvator-varda` | `st-chp9-p263264-will-gifts-to-varda` |
+| `cand-7353` | `new-person:carlo-emanuele-iii-of-savoy-a69e3c8f1b` | `units/persons/carlo-emanuele-iii-of-savoy` | `st-chp7-p201-n2-eugene-collection-acquired` |
+| `cand-5833` | `new-person:de-laroque-tamizey-ce365919cd` | `units/persons/tamizey-de-laroque` | `st-chp4-sec-ii-notes-l265-268-fn265-publication` |
+
+- **Filippo della Valle：** 第3章 p.93 line 185明示全名及其与Pietro Bracci共同制作《天使报喜》大理石浅浮雕的原书说法。既有Bracci卡记载相同书内陈述，但不是另一张Filippo KU；未发现同类型既有KU。登记新人物卡，保留statement供S6审查；不独立核验作品或正式关系。
+- **Salvator Varda：** 第9章注释续段页图可读作“Sig. Salvator Varda”，所以保留原书读法，不当作OCR误认。现有Salvator Rosa卡不是该拼写的直接身份依据，故不合并；目前也没有证据断言二人必为不同个体。按书内source-local身份登记新KU，遗嘱和友人关系仍待S6。
+- **Carlo Emanuele III of Savoy：** Treccani DBI条目将其列为Vittorio Amedeo II之子并记其1730年继位，支持其为独立人物而非父亲别名；身份记录写入alignment外部身份行。Haskell关于其购得Prince Eugene收藏“大部分”的说法仍属原书转述，Treccani身份条目不验证该交易。
+- **Tamizey de Laroque：** 第4章 p.108写“Tamizey de Laroque”；第21章 p.438书目列“P. Tamizey de Larroque”及1886年文章。保留拼写异文，不扩写首字母P，不把书目条目与注释所指刊布记录认定为已证同一事件；对应和关系留待S6。
+
+四张卡分别为[Filippo della Valle](../../../04-knowledge/units/persons/filippo-della-valle.md)、[Salvator Varda](../../../04-knowledge/units/persons/salvator-varda.md)、[Carlo Emanuele III](../../../04-knowledge/units/persons/carlo-emanuele-iii-of-savoy.md)和[Tamizey de Laroque](../../../04-knowledge/units/persons/tamizey-de-laroque.md)。本批未新增formal relation或enrichment；四条原书关系候选保留待S6。
+
+本批后S3决定数不变：same=1,973（1,052个既有KU）、new=5,020／4,811组、conflict=9、excluded=100、undecided=5,305。S4由1,177组／1,365条映射增至1,181组／1,369条；待登记由3,634组／3,655条降至3,630组／3,651条。直接关系端点队列由1,879组／1,879条降至1,875组／1,875条，其中person由35／35降至31／31。KU=2,200；alignment行数=12,709，其中候选决定12,407、外部身份记录302。
