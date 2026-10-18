@@ -3,6 +3,12 @@
 > 治理日志已冻结归档：`user-revisions.md` 与 `system-upgrade-log.md` 自 2026-09-25 起只读，不再追加。
 > 此后的规则与系统变更只记在这里，按时间倒序；`current-requirements.md` 仍索引有效要求。
 
+## 2026-10-19
+
+### 保持字段表生成顺序稳定
+
+`build_field_facts.py --apply` 现在沿用既有 `enrichment.jsonl` 行序，并将新出现的卡片表行追加到末尾。新增 KU 时，原有字段记录内容不变、顺序稳定，避免整表按 manifest 顺序重排造成无关差异。
+
 ## 2026-10-17
 
 ### 校正 S4 待登记数审计口径

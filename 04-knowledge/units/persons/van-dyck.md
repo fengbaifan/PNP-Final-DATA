@@ -23,9 +23,29 @@ sources:
 - citation: 'The Frick Collection, Van Dyck: The Anatomy of Portraiture, Cardinal Guido Bentivoglio. https://www.frick.org/exhibitions/van_dyck/15. Accessed 2026-09-14.'
   location: 完整作品展签、作者和技术字段
   sentence_summary: Anthony van Dyck（1599–1641），1623年在罗马绘制；Guido Bentivoglio是外交官、艺术赞助人和历史学家。画家可能住在枢机宅邸，不能写成确定居住事实。
+- citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
+  location: "第10章p.279；OCR line 48"
+  sentence_summary: "Van Dyck肖像给Pellegrini提供技术提示和英国社会认识。"
+  original_quotes:
+  - source_span: "lines 48–48; print p. 279"
+    text: "The easy elegance and charm of Van Dyck’s portraits … gave him a number of technical hints."
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: "02-sources/02-Markdown/10_CHP-10_intro.md"
+    source_span: "lines 48–48; print p. 279"
+- citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
+  location: "第10章p.309；OCR lines 471–472"
+  sentence_summary: "Haskell以Vandyke指称Inigo Jones肖像的图像来源。"
+  original_quotes:
+  - source_span: "lines 471–472; print p. 309"
+    text: "taken from “Vandyke, with the plan of the Banquetting House in his hands”"
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: "02-sources/02-Markdown/10_CHP-10_intro.md"
+    source_span: "lines 471–472; print p. 309"
 created: '2026-09-14'
-updated: '2026-09-14'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#本蒂沃利奥肖像与流传
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019
 ---
 
 ## 内容
@@ -67,6 +87,12 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | 1623年委托人 | [圭多·本蒂沃利奥](cardinal-bentivoglio.md) | S2 |
 | 创作地点 | [罗马](../places/rome.md) | S2、S4 |
+
+### 全书新增语境
+
+Haskell第10章p.279称Van Dyck肖像给予Pellegrini技术提示；p.309的Vandyke指同一艺术家。前者留作S2关系候选，后者在S2为非关系陈述。
+
+Haskell says Van Dyck’s portraits gave Pellegrini technical hints on p. 279; Vandyke on p. 309 refers to the same artist. The first statement remains an S2 relation candidate; the second is non-relational in S2.
 
 ## 关系与证据
 

@@ -1,6 +1,6 @@
 # 全书 S3 身份对齐过程
 
-更新日期：2026-10-18。
+更新日期：2026-10-19。
 
 ## 范围与裁决方式
 
@@ -18,7 +18,7 @@
 - 分开处理的事件：S. Giovanni Decollato 的持续系列与 1675、1736 两次具体事件分别分组；S. Rocco 的年度系列与 1770 年具体事件分开；贝加莫 1653 年装饰计划与 1695 年完成事件分开。
 - 保留待证的交叉引用：威尼斯与佩鲁贾 Baglioni 家族的谱系关系未明；Rialto 地区与构图中的 Rialto 元素分开。John Strange 的 Paese 别墅与 Treviso 附近乡间宅邸已于2026-10-18复核并复用Villa Loredan既有KU，详见下方S3地点裁决。Gonzaga 家族候选与“see under Mantua, Dukes of”索引交叉引用共用 `sg3-review-gonzaga-family-redirect` 仅为检索/复核关系：后者按 S1 已排除，不能被视为另一个 family 身份；House Savoy 的 family 候选与类型不符的索引指引也分别保留。相关候选保留单独的 review 组或候选级决定，不以索引、相邻条目或共现代替证据。
 - 档案/文献类型形成 30 个已裁定的跨章多候选身份组；另有 `cand-6207` / `cand-11945` 作为待证重复候选组保留。题名相同但版次、卷册、责任者、日期或档号不一致时不自动合并。
-- 历史分组、复用与拆分轨迹见下方各批次记录；截至 2026-10-18 的候选数及逐类型决定数以本节统计表和全书结果文件为准。S4 已登记组按每组一个 KU 处理并映射全部组内候选；未登记组按本节统计保留待办。
+- 历史分组、复用与拆分轨迹见下方各批次记录；截至 2026-10-19 的候选数及逐类型决定数以本节统计表和全书结果文件为准。S4 已登记组按每组一个 KU 处理并映射全部组内候选；未登记组按本节统计保留待办。
 
 ## 按类型决定数
 
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 24 / 29 | 167 / 167 |
-| person | 3,464 | 1,149 | 1,070 / 1,170 | 4 | 7 | 1,134 | 740 / 838 | 330 / 332 |
+| person | 3,464 | 1,153 | 1,066 / 1,166 | 4 | 7 | 1,134 | 756 / 854 | 310 / 312 |
 | place | 1,109 | 228 | 559 / 567 | 0 | 0 | 314 | 40 / 48 | 519 / 519 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 50 / 56 | 429 / 439 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,966** | **4,816 / 5,024** | **9** | **100** | **5,308** | **1,156 / 1,342** | **3,660 / 3,682** |
+| **合计** | **12,407** | **1,970** | **4,812 / 5,020** | **9** | **100** | **5,308** | **1,172 / 1,358** | **3,640 / 3,662** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,308 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。12,407 个候选各有一条当前决定；301 条外部身份记录另行保留。Arlotto、Giuliano Briganti 与 Mattia di Rossi 的候选决定行同时带有外部来源字段。same 的 1,966 条候选指向 1,048 个既有 KU；new 候选组成 4,816 个类型内身份组，共 5,024 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,660 组、3,682 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
+人物冲突 4 项、作品冲突 5 项；冲突两侧和来源位置均留在候选行，不强选一方。5,308 项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中 622 项仍为未分类类型，等待类型证据，不强塞入现有类。12,407 个候选各有一条当前决定；301 条外部身份记录另行保留。Arlotto、Giuliano Briganti 与 Mattia di Rossi 的候选决定行同时带有外部来源字段。same 的 1,970 条候选指向 1,050 个既有 KU；new 候选组成 4,812 个类型内身份组，共 5,020 条映射。S4 按整组登记，当前没有组内部分登记或类型不符映射；3,640 组、3,662 条成员映射尚待登记，保留在 S4 待办中。此处收口的是 S3 决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7462,4 +7462,40 @@ Caesar), m-chp2-secii-l118-125-0033 (a Julius Caesar)
 - 变更轨迹：alignment 保留原决定注释，现行去向为 same。
 
 
-本批后 person：same=1,149；new=1,070组／1,170条成员候选；conflict=4；excluded=7；undecided=1,134。S4 person 已登记740组／838条映射，待登记330组／332条映射。全书 S4 已登记1,156组／1,342条映射，待登记3,660组／3,682条映射；KU=2,175。
+截至2026-10-18、本批前 person：same=1,149；new=1,070组／1,170条成员候选；conflict=4；excluded=7；undecided=1,134。S4 person 已登记740组／838条映射，待登记330组／332条映射。全书 S4 已登记1,156组／1,342条映射，待登记3,660组／3,682条映射；KU=2,175。
+
+<a id="s3-s4-person-endpoints-20261019"></a>
+### S3/S4跨章人物端点批次：20组复核（2026-10-19）
+
+本批20组均为单候选人物组。4组改为复用既有KU，16组保持new并完成S4登记；旧决定、旧组号及旧理由仍保留在alignment行。姓名异文、外部身份对应与关系事实分开处理。
+
+| 候选 | 原身份组 | 当前决定 | S4去向 | 直接S2 statement |
+|---|---|---|---|---|
+| cand-8801 | new-person:bernis-de-043687aa77 | new | units/persons/cardinal-de-bernis | st-chp9-p271-n06 [non-relation]；st-chp15-p369-note3-memoires-passage-attributed-to-bernis [relation_candidate] |
+| cand-10912 | new-person:ackerman-james-05d396bf67 | new | units/persons/james-ackerman | st-chp20-p398-ackerman-gesu-camps [relation_candidate] |
+| cand-2708 | new-person:adalbertho-giovanni-veith-ef0e3d8fd8 | new | units/persons/giovanni-adalbertho-veith | st-chp15-p367-veith-alternative-statue-subject [relation_candidate]；st-chp15-p367-veith-student-fame-1709 [non-relation] |
+| cand-8196 | new-person:africanus-scipio-37fedcf873 | new | units/persons/scipio-africanus | st-chp9-p250-widmann-canvases-show-scipio [relation_candidate] |
+| cand-5025 | new-person:alessandro-de-medici-40f1223058 | new | units/persons/alessandro-de-medici | st-chp3-secii-l33-38-foundation-stone-laid-by-alessandro-de-medici [relation_candidate] |
+| cand-10828 | new-person:amigoni-an-as-entry-farinelli-in-named-por-c9e3ccef70 | new | units/persons/carlo-broschi-farinelli | st-chp19-p393-1776-amigoni-portrait-farinelli-sitter [relation_candidate] |
+| cand-5069 | new-person:andrew-avellino-e48fdbf5ca | new | units/persons/st-andrew-avellino | st-chp3-secii-l74-81-lanfranco-dome-depicts-st-andrew-avellino [relation_candidate] |
+| cand-4877 | new-person:angelo-camerino-da-giovanni-269b057b1e | new | units/persons/giovanni-angelo-da-camerino | st-chp2-seciv-l190-245-tavole-barberini-attribution [relation_candidate] |
+| cand-4379 | new-person:anna-banti-cf40e06567 | new | units/persons/anna-banti | st-chp2-seci-l124-157-bizoni-journal-published [relation_candidate] |
+| cand-6280 | new-person:antonio-del-grande-f4ee6bf54b | new | units/persons/antonio-del-grande | st-chp6-p148-camillo-employs-antonio-del-grande [relation_candidate] |
+| cand-2687 | new-person:antonio-vallisnieri-5feb4b6253 | new | units/persons/antonio-vallisnieri-junior | st-chp15-p363-note2-boscovich-letter-addressed-to-vallisnieri [relation_candidate] |
+| cand-10236 | new-person:aurelio-lepre-c83d1e35d2 | new | units/persons/aurelio-lepre | st-chp14-p347-note1-lepre-article-on-algarotti [relation_candidate] |
+| cand-10789 | new-person:baldi-gioi-paolo-1d64624462 | new | units/persons/gioi-paolo-baldi-source-form | st-chp19-p388-c463-baldi-recommendation [relation_candidate] |
+| cand-7831 | new-person:bavaria-of-violante-d3767a1a5c | new | units/persons/violante-bavarian-princess-source-form | st-chp8-p229-marriage-violante [relation_candidate] |
+| cand-11013 | new-person:borea-evelina-1cebd8eb67 | new | units/persons/evelina-borea | st-chp20-p403-borea-don-lorenzo-ferdinand-leopoldo-open [relation_candidate] |
+| cand-10160 | new-person:brandolese-pietro-a266c74eb0 | new | units/persons/pietro-brandolese | st-chp13-p336-note6-brandolese-catalogue-untraced [relation_candidate] |
+| cand-8909 | new-person:dyck-van-d7cde43653 | same | units/persons/van-dyck | st-chp10-p279-van-dyck-portraits-influence-pellegrini [relation_candidate]；st-chp10-p309-portrait-model-description [non-relation] |
+| cand-7282 | new-person:amadeus-of-savoy-victor-9f9fef01e4 | same | units/persons/vittorio-amedeo-ii-duke-of-savoy | st-chp7-p200-v-victor-amadeus-breaks-from-louis-xiv [relation_candidate] |
+| cand-10696 | new-person:bernardo-castelli-b88f87c163 | same | units/persons/bernardino-castelli | st-chp17-p381-note3-castelli-portrait [relation_candidate] |
+| cand-2887 | new-person:antonio-zucchi-5b8d0e03ad | same | units/persons/andrea-zucchi | st-chp10-p294-zucchi-print-cabinet [relation_candidate] |
+- cand-8909 → units/persons/van-dyck：第10章p.279明称Van Dyck肖像影响Pellegrini；p.309的Vandyke为同一艺术家形式。既有卡已确认身份。p.309 statement在S2为非关系。 原new组保存在alignment历史注释。
+- cand-7282 → units/persons/vittorio-amedeo-ii-duke-of-savoy：全书索引S.csv#76将第3章p.89与第7章pp.200、202列入同一人物主项；既有卡已记录这些跨章锚点。 原new组保存在alignment历史注释。
+- cand-10696 → units/persons/bernardino-castelli：第17章p.381注3的Bernardo与图版59b的Bernardino指向同一Teodoro Correr肖像；Treccani DBI同一传记记载该肖像及1795年Giaconi版画。只记录本处姓名异文，不作全局别名。 原new组保存在alignment历史注释。
+- cand-2887 → units/persons/andrea-zucchi：第10章p.294的Dresden语境称Antonio Zucchi为雕刻师；既有卡p.265明称雕刻师Andrea Zucchi。Getty ULAN 500016147记Andrea为雕刻师并活动于Dresden；Treccani区分Andrea与其侄Antonio（1726–1795，1766年在英国）。该 passage 指向Andrea，保留Antonio为本处原文差异，不作为别名，也不据此新增雇佣关系。 原new组保存在alignment历史注释。
+
+新建的16张人物卡均保留单一来源锚点与双语描述。Alessandro身份核对Treccani及圣座，Farinelli核对Treccani DBI，Antonio Vallisnieri通过Treccani父子区分将1772年收信人限定为儿子；其余新组不扩写外部身份。
+
+Van Dyck/Vandyke为同一艺术家形式；Bernardo/Bernardino Castelli与Antonio/Andrea Zucchi只记录为各自段落的原书异文，不建立全局别名。Veith、Violante及Gioì Paolo Baldi保留来源形式。20组关系候选不因身份登记自动转为正式边，仍按S6逐项裁决。

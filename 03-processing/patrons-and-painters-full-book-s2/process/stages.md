@@ -2,7 +2,7 @@
 
 
 
-任务 ID：`patrons-and-painters-full-book-s2`。当前按用户指令推进本书从书前材料到索引的S2处理；832个规范段及交接审计完成前不交S3，也不启动S3–S6。
+任务 ID：`patrons-and-painters-full-book-s2`。全书S2内部语义处理已覆盖832个规范段并完成阶段交接，尚未独立语义验收；S3已为12,407个候选记录当前身份决定与去向，S4 KU登记处理中。当前数量和未决项见[全书结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)与[S3过程统计](knowledge.md#按类型决定数)；S5补足和S6关系裁决尚未全书收口。
 
 
 

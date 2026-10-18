@@ -20,9 +20,19 @@ sources:
     Accessed 2026-09-15.
   location: 完整传记正文及附录书目；起首、迁居段、卒年段、Correr藏品段
   sentence_summary: 1750年出生，1810年卒于威尼斯；1775年迁帕多瓦，Correr肖像与1795年复制版画分别记载。
+- citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
+  location: "第17章p.381注3；OCR line 34"
+  sentence_summary: "注3将Teodoro Correr肖像归于Bernardo Castelli。"
+  original_quotes:
+  - source_span: "lines 34–34; print p. 381"
+    text: "By Bernardo Castelli—painted before 1795, in which year it was engraved."
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: "02-sources/02-Markdown/17_CHP-17_sec_i.md"
+    source_span: "lines 34–34; print p. 381"
 created: '2026-09-14'
-updated: '2026-09-15'
-process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#画家与收藏家姓名师承及肖像关系
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019
 relations:
 - relation_type: located_at
   target: places/padua.md
@@ -97,6 +107,10 @@ relations:
 |---|---|---|
 | 1775 | 迁居[帕多瓦](../places/padua.md)，继续肖像绘画 | S2 |
 
+
+### 本书姓名异文
+
+第17章p.381注3写“Bernardo Castelli”，图版59b写“Bernardino Castelli”。Treccani DBI同一人物条目记载Teodoro Correr肖像及1795年Giaconi版画。S3将此处映射到本卡；Bernardo只保留为原书局部异文，不登记为全局别名。statement：st-chp17-p381-note3-castelli-portrait，关系仍交S6裁决。
 
 ## 关系与证据
 

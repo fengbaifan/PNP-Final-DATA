@@ -295,6 +295,17 @@ def main() -> int:
     ] if ENRICHMENT.exists() else []
     existing_by_id = {row.get("enrichment_id", ""): row for row in existing_records}
     generated_by_id = {row.get("enrichment_id", ""): row for row in records}
+    existing_ids = set(existing_by_id)
+    # Keep the established ledger order stable when a manifest gains new cards.
+    # Rewriting in manifest order creates a large unrelated diff on every apply.
+    ordered_records = [
+        generated_by_id[row.get("enrichment_id", "")]
+        for row in existing_records
+        if row.get("enrichment_id", "") in generated_by_id
+    ]
+    ordered_records.extend(
+        row for row in records if row.get("enrichment_id", "") not in existing_ids
+    )
     changed_ids = sorted(
         key for key in existing_by_id.keys() & generated_by_id.keys()
         if existing_by_id[key] != generated_by_id[key]
@@ -324,7 +335,7 @@ def main() -> int:
         print("Review warnings before applying; no data was written.")
         return 2
     if args.apply:
-        write_jsonl(ENRICHMENT, records)
+        write_jsonl(ENRICHMENT, ordered_records)
         write_sources(SOURCES, old_source_rows, source_registry)
         print(f"applied enrichment={ENRICHMENT.relative_to(BASE)} sources={SOURCES.relative_to(BASE)}")
     else:

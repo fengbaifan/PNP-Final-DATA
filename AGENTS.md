@@ -2,7 +2,7 @@
 
 ## 目标与当前状态
 
-项目版本为初始化阶段的 0.1.0；全书语义处理（S2）已完成内部处理并具备交接条件，尚未独立语义验收。本轮全书任务的 S3–S6 尚未启动，下一业务阶段为 S3 身份对齐。覆盖、完成依据与未决项以[全书 S2 结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)为准；[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)只说明该任务的既有成果，不由规则版本或文件数量推导完成。全书 S2 交接前不推进 S3–S6；知识涌现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
+项目版本为初始化阶段的 0.1.0；全书 S2 内部处理已完成，尚未独立语义验收。全书 S3 已为 12,407 个候选记录当前决定与去向：same=1,970（指向1,050个既有 KU）、new=5,020（4,812个身份组）、conflict=9、excluded=100、undecided=5,308；冲突与待证对象仍未解决。S4 已登记 1,172 / 4,812 个新增身份组，3,640 组待登记。S5 全书字段补足与 S6 全书关系裁决尚未收口。覆盖、计数与未决项以[全书当前结果](04-knowledge/results/patrons-and-painters-full-book-s2.md)及其结构化表为准；其中按日期记录的批次段落是当时快照，不作为当前累计数。[第一章结果](04-knowledge/results/patrons-and-painters-chp-1.md)仅说明独立的历史任务，不由规则版本或文件数量推导全书完成。知识发现与页面暂停。有效对象见 [accepted.yml](04-knowledge/accepted.yml)；遗留文件与未处理来源不自动成为成果。
 
 第一部分：知识元与知识图谱，按 **S0–S7**（来源 → 全书候选 → 语义处理 → 对齐 → KU 登记 → 补足 → 关系 → 发布）执行，详见 [pipeline](.agents/pipeline.md)。
 第二部分：知识发现与知识呈现，用户明确启动后，依据 **KU 及关系 → Topic → Theme → Dimension → Domain** 逐级涌现，组织成果并形成页面。

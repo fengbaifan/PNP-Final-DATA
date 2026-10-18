@@ -26,9 +26,39 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/09_CHP-9_intro.md
     source_span: lines 293–294; print p. 265
+- citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
+  location: "第10章p.294；OCR line 294"
+  sentence_summary: "Dresden段落写作Antonio Zucchi, the engraver。"
+  original_quotes:
+  - source_span: "lines 294–294; print p. 294"
+    text: "A year after Pellegrini came Antonio Zucchi, the engraver"
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: "02-sources/02-Markdown/10_CHP-10_intro.md"
+    source_span: "lines 294–294; print p. 294"
+- citation: "Treccani, “Zucchi,” Enciclopedia on line. https://www.treccani.it/enciclopedia/zucchi/. Accessed 2026-10-19."
+  location: "Family entry, Andrea and Francesco sections, lines 20–22."
+  sentence_summary: "Records Andrea as working in Dresden and distinguishes nephew Antonio (1726–1795), active in England in 1766."
+  original_quotes:
+  - source_span: "Family entry, Andrea and Francesco sections, lines 20–22."
+    text: "Andrea … lavorò a Dresda … Francesco … fratello di Andrea … Antonio (Venezia 1726 - Roma 1795) … fu in Inghilterra (1766)."
+  evidence_ref:
+    doc_id: "zucchi"
+    source_file: "https://www.treccani.it/enciclopedia/zucchi/"
+    source_span: "Family entry, Andrea and Francesco sections, lines 20–22."
+- citation: "Getty Research Institute, Union List of Artist Names, “Zucchi, Andrea,” ULAN 500016147. Accessed 2026-10-19."
+  location: "Full record: identity, role, active places, and related people, lines 16–65."
+  sentence_summary: "Identifies Andrea as engraver active in Dresden and lists Antonio (1726–1796) as his nephew."
+  original_quotes:
+  - source_span: "Full record: identity, role, active places, and related people, lines 16–65."
+    text: "Zucchi, Andrea (Italian painter, scenographer and printmaker, 1679-1740); engraver (printmaker); active: Dresden; uncle/aunt of Zucchi, Antonio (1726-1796)."
+  evidence_ref:
+    doc_id: "ULANFullDisplay?find=&nation=&prev_page=1&role=&subjectid=500016147"
+    source_file: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&prev_page=1&role=&subjectid=500016147"
+    source_span: "Full record: identity, role, active places, and related people, lines 16–65."
 created: '2026-10-18'
-updated: '2026-10-18'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-zambelli-zanotti-zen-zucchi-person-endpoints-20261018
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019
 ---
 
 ## 内容
@@ -52,6 +82,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 **中文：** 原文区分Corradini所作雕像与Tiepolo为雕刻师Zucchi绘制的图像，不将雕像归于Tiepolo。同段另称一幅版画题献给Zaccaria Sagredo；该题献候选不归入Andrea Zucchi组。相关绘图关系候选留待S6。
 
 **English:** The passage distinguishes Corradini's statue from Tiepolo's drawing of it for the engraver Zucchi; the statue is not attributed to Tiepolo. The same paragraph separately says a print was dedicated to Zaccaria Sagredo; that dedication candidate is not assigned to Andrea Zucchi. The drawing relation candidate remains for S6.
+
+### 本书姓名异文与跨章身份
+
+第10章p.294的Dresden段落写“Antonio Zucchi, the engraver”；第9章p.265明称雕刻师Andrea Zucchi。Treccani与Getty ULAN记Andrea在Dresden活动并区分其侄Antonio。S3将p.294此处映射至Andrea；Antonio保留为原文差异，不列作别名。外部身份记录不证明此处雇佣关系。statement：st-chp10-p294-zucchi-print-cabinet，交S6裁决。
 
 ## 关系与证据
 
