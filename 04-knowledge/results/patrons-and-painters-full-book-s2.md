@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,302项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,973（指向1,052个既有KU）、new=5,023（4,811个身份组）、conflict=9、excluded=100、undecided=5,302（含622项未分类）。S4已登记1,184组、映射1,375条成员候选；尚待登记3,627组、3,648条映射，其中直接关系端点待登记队列为1,872组／1,872条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,227条记录（1,225 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；326条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,302项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,973（指向1,052个既有KU）、new=5,023（4,811个身份组）、conflict=9、excluded=100、undecided=5,302（含622项未分类）。S4已登记1,185组、映射1,376条成员候选；尚待登记3,626组、3,647条映射，其中直接关系端点待登记队列为1,871组／1,871条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,227条记录（1,225 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；322条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,203 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,204 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
@@ -32,12 +32,12 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [关系表](../tables/relations.csv) | 1,227条：1,225 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,399条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
-326条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 213条、仅缺 subject 41条、两端均缺72条。326条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
+322条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 214条、仅缺 subject 37条、两端均缺71条。322条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 最新 strict-stage 表审计通过：KU=2,203；candidates=12,407；alignments=12,711（12,407条候选决定、304条外部身份记录）、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,752；S4待登记new候选映射3,648条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,973（1,052个既有KU）、new=5,023（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,302（含622项未分类）；S4已登记1,184组／1,375条候选映射，待登记3,627组／3,648条，其中直接关系端点队列1,872组／1,872条。S2有10,399条relation_candidate=true statement；S6关系表另有1,225条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；326条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。304条独立外部身份记录单独保存。
+2026-10-19 最新 strict-stage 表审计通过：KU=2,204；candidates=12,407；alignments=12,711（12,407条候选决定、304条外部身份记录）、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,752；S4待登记new候选映射3,647条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,973（1,052个既有KU）、new=5,023（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,302（含622项未分类）；S4已登记1,185组／1,376条候选映射，待登记3,626组／3,647条，其中直接关系端点队列1,871组／1,871条。S2有10,399条relation_candidate=true statement；S6关系表另有1,225条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；322条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。304条独立外部身份记录单独保存。
 
 2026-10-19 定点校正第七章 p.185 注2–4的引用定位：脚注原文仅列作者与页码，链接出版物由唯一对应书目项映射；此前误写入的两个不符书名已移除。S3身份端点、全书统计及关系状态未变，所引页面仍未独立阅读；细节见[阶段过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)及修订脚本。
-直接关系端点待登队列按类型（组／候选成员）为：person 30／30、institution 97／97、event 144／144、place 236／236、work 343／343、archive 483／483、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片：2,203张卡、3,236张表、11,693行、预计关系派生2,436行、472张卡受关系视图影响、482个文件待渲染。当前卡片派生视图尚未整体同步。
+直接关系端点待登队列按类型（组／候选成员）为：person 30／30、institution 97／97、event 144／144、place 236／236、work 342／342、archive 483／483、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片：2,204张卡、3,236张表、11,693行、预计关系派生2,436行、473张卡受关系视图影响、483个文件待渲染。当前卡片派生视图尚未整体同步。
 2026-10-19 Bellori 1976跨章版次组：cand-4377、cand-11157、cand-10981合并至同一archive KU并完成S4；Braidense OPAC RAV0025303与第21章唯一书目项支持身份。两条直接关系候选端点现齐备、仍待S6；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-archive-bellori-1976-cross-chapter-group-20261019)。
 2026-10-19 最新人物端点批次复核20个单候选组：4组改为 `same` 并复用既有人物 KU，16组保持 `new` 且完成 S4 登记。身份判断、边界和外部身份依据见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019)；关系候选仍待 S6，本批未新增正式关系。
 2026-10-19 四组人物端点登记：cand-2685、cand-2700、cand-7353、cand-5833各保留既有S3 new身份组并新增一个person KU；cand-7353另有Treccani DBI身份入口。S4登记至1,181组／1,369条候选映射，待登记为3,630组／3,651条；直接端点队列为1,875组／1,875条（person 31组／31条）。四条S2关系候选留待S6；无formal relation或enrichment新增。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-varda-della-valle-carlo-emanuele-tamizey-20261019)。
@@ -2769,3 +2769,5 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 ### S4 archive：Wittkower 两种著作跨章身份组登记（2026-10-18）
 
 `cand-4383` 按 `archive-group-wittkower-sculptures-bernini-1955` 登记至[1955年Bernini雕塑专著卡](../units/archives/wittkower-sculptures-bernini-1955.md)；`cand-4557` 按 `archive-group-wittkower-art-architecture-1958` 登记至[1958年意大利艺术与建筑著作卡](../units/archives/wittkower-art-architecture-italy-1600-1750-1958.md)。第21章 p.441书目和跨章引文支持两项不同出版物身份；1958年年份校读及第7章p.187注6 OCR纠正保存在对应S2 statement qualifiers中：`st-chp21-bib-l1261-1299-entry-07`、`st-chp7-p187-n6-cite-wittkower`，见[原书断言记录](../tables/book-statements.jsonl)。被引页及原书未独立查阅；R. Wittkower链接至既有人物KU，但未新增正式作者关系。每组6条S2关系候选共12条均留待S6。本批新增2张archive卡、2条manifest、2条候选映射、accepted路径及16条source-backed字段事实，不新增来源或正式关系。此后S4已登记1,134组／1,318条映射，待登记3,684组／3,706条；archive类型登记116组／161条，待登记1,125组／1,135条；KU=2,153，enrichment=11,627。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-wittkower-sculptures-bernini-1955-20261018)、[KU清单](../tables/ku-manifest.csv)及[对齐表](../tables/alignment.csv)。
+
+2026-10-19 卡诺瓦雕像 work 组 `cand-11531` 保留S3 `new` 并完成S4登记。四条直接关系候选现有完整KU端点，仍待S6语义裁决；“唯一受尊崇的当代人”候选仍因未分类对象 `cand-12236` 缺端点。KU=2,204，S4已登记1,185组／1,376条映射，待登记3,626组／3,647条；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-work-canova-statue-prato-della-valle-20261019)与[知识卡](../units/works/canova-statue-prato-della-valle.md)。
