@@ -7625,3 +7625,12 @@ cand-9508由undecided改为new，归入既有组new-person:giovanni-previtali-b5
 五条S2关系候选分别是委托人、制作者、描绘对象、Prà della Valle安置地及“唯一受尊崇的当代人”判断。前四条端点现均有KU映射，但仍需S6核对谓词、方向、语境和原文证据；第五条的英雄群对象 `cand-12236` 仍未分类，保持端点未齐。五条均不因S4身份登记而自动成为正式关系。
 
 本批后S4已登记1,185组／1,376条候选映射，待登记3,626组／3,647条；work类型已登记51组／57条，待登记428组／438条。直接关系端点待登记队列由1,872组／1,872条降至1,871组／1,871条，其中work为342组／342条。KU=2,204。S2端点状态按本批涉及语句复算，五条中四条由端点未齐转为齐备，一条仍因 `cand-12236` 未分类而未齐。
+
+<a id="s3-s4-institution-discalced-trinitarians-rome-20261019"></a>
+### S3–S4 institution：罗马语境中的 Discalced Trinitarians 身份组登记（2026-10-19）
+
+`cand-5119` 保留既有 S3 `new` 决定及单成员组 `sg3-institution-cand-5119`，登记至[赤足三位一体会知识卡](../../../04-knowledge/units/institutions/discalced-trinitarians-rome.md)，KU 为 `units/institutions/discalced-trinitarians-rome`。第3章 p.75 称该会离开西班牙原驻地并于世纪初定居罗马；p.76 在同一教堂叙述中以 Scalzi 和 Trinitarian brothers 指称该会成员。未查询外部机构记录；中文显示名为据原文作出的描述性翻译。
+
+该机构与第9章另一个由哈斯克尔明确称作加尔默罗会严格分支的威尼斯 Scalzi 区分。`cand-5121` 的原驻地仍未具名且为 `undecided`；`cand-5123` 的教堂保持独立 place 候选，仍待 S4。五条直接关系候选均未转成正式边：机构端点登记后，其中三条两端齐备，另两条分别因 `cand-5121`、`cand-5123` 缺 KU 映射而未齐。
+
+本批后 S3 决定和分组数不变。S4 已登记1,186组／1,377条候选映射，待登记3,625组／3,646条；直接关系端点待登记队列由1,871组／1,871条降至1,870组／1,870条，其中 institution 为96组／96条。KU=2,205；至少缺一个端点的 S2 关系候选由322条降至319条（仅缺 object 216条、仅缺 subject 34条、两端均缺69条）。无 S5 字段、来源登记或 formal relation 新增。
