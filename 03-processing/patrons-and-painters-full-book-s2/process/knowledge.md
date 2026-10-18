@@ -22,7 +22,7 @@
 
 ## 按类型决定数
 
-数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；304条独立外部身份记录不另算候选决定。5条经复核的候选决定行（cand-4147、cand-4167、cand-6180、cand-10748、cand-6200）同时保存外部来源信息，仍按各自的候选决定计数。
+数字按每个 `candidate_id` 的现行决定统计，每个候选只计一次；306条独立外部身份记录不另算候选决定。5条经复核的候选决定行（cand-4147、cand-4167、cand-6180、cand-10748、cand-6200）同时保存外部来源信息，仍按各自的候选决定计数。
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
-| person | 3,464 | 1,156 | 1,066 / 1,167 | 4 | 7 | 1,130 | 765 / 864 | 301 / 303 |
+| person | 3,464 | 1,156 | 1,067 / 1,168 | 4 | 7 | 1,129 | 765 / 864 | 302 / 304 |
 | place | 1,109 | 228 | 559 / 569 | 0 | 0 | 312 | 43 / 53 | 516 / 516 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 51 / 57 | 428 / 438 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,973** | **4,811 / 5,025** | **9** | **100** | **5,300** | **1,189 / 1,382** | **3,622 / 3,643** |
+| **合计** | **12,407** | **1,973** | **4,812 / 5,026** | **9** | **100** | **5,299** | **1,189 / 1,382** | **3,623 / 3,644** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,302项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；304条独立外部身份记录另行保留。Arlotto、Giuliano Briganti、Mattia di Rossi、cand-4147 与 cand-6200 的候选决定行同时带有外部来源字段。same的1,973条候选指向1,052个既有KU；new候选组成4,811个类型内身份组，共5,023条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,628组、3,649条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,299项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；306条独立外部身份记录另行保留。Arlotto、Giuliano Briganti、Mattia di Rossi、cand-4147 与 cand-6200 的候选决定行同时带有外部来源字段。same的1,973条候选指向1,052个既有KU；new候选组成4,812个类型内身份组，共5,026条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,623组、3,644条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7669,3 +7669,15 @@ cand-9508由undecided改为new，归入既有组new-person:giovanni-previtali-b5
 | `st-chp3-secii-l137-142-trinitarian-admiration` | rejected（仅作图谱边） | 对 Trinitarian brothers 态度的转述保留在 S2，不将评价关系建成实体边。 |
 
 本批5条 formal 写入 `relations.csv`；1条 pending 因缺少身份与端点不入关系表；5条只否决图谱建边，不否认原书陈述。匿名原驻地已有 `cand-5121` 的 S3 undecided 决定和理由，因无独立可识别名称不新增 backlog KU。相关卡片正文已保留原书范围与不确定性；本批没有新的外部字段事实，S5 enrichment 不增量。
+
+S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差异。随后 `build_cards.py --check` 全库只读预检通过且未写文件：2,208张卡、3,236张表、11,693行、预计关系派生2,446行，474张卡／484个文件仍有派生差异待处理；本次未执行全库写回。
+
+<a id="s3-person-filippo-dangeli-napoletano-cross-chapter-identity-20261019"></a>
+
+## S3 人物：Filippo d’Angeli（Napoletano）跨章身份裁决（2026-10-19）
+
+- `cand-0105`（A.csv#106，索引 pp.29、50、95）原决定 `undecided`（`aln-0440`），现改为 `new`，唯一身份组为 `new-person:filippo-dangeli-napoletano-715dfcf2d8`。第2章 p.29 明确写作 landscape painter Filippo d’Angeli (Napoletano)；第2章 p.50 再称 landscape painter Filippo Napoletano；第4章 p.95 将 Filippo Napoletano 列于佛罗伦萨美第奇宫廷的艺术家群中。mentions.csv 的四个锚点覆盖 d’Angeli、括号别名及两处 Napoletano 复现；第2章首处全名与括号别名是直接同一性依据，跨章复现补强，而不是仅凭同名或索引页码合并。
+- 对照 `ku-manifest.csv` 及人物卡，没有同名或这些别称对应的现有 person KU；现有 Giovanni da San Giovanni、Jacques Callot 卡中的 Filippo Napoletano 只作为正文提及，并非该人物的 KU。`cand-2920`（N.csv#3，Napoletano, Filippo）是 “see under Angeli, Filippo d’” 交叉引用，S1 已排除，继续排除，不另建候选或新组。
+- 外部身份仅用于姓名链核对：Estella Brunetti, “ANGELI, Filippo, detto Filippo Napolitano,” *Dizionario Biografico degli Italiani*, vol. 3 (1961), Treccani DBI，<https://www.treccani.it/enciclopedia/angeli-filippo-detto-filippo-napolitano_(Dizionario-Biografico)/>，访问于 2026-10-19；ICCD, *Catalogo generale dei Beni Culturali*, record 0900745766, <https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900745766>，访问于 2026-10-19。DBI 的 Angeli／d’Angeli 词形与 Filippo Napolitano 称名、ICCD 的 Angeli Filippo detto Filippo Napoletano 归属支持人物名称对应。DBI 还提到与 Teodoro Filippo di Liagno 刻工身份的历史辨识问题；本次不把该外部讨论扩写为本书的新候选或关系事实。两条外部来源记录分别存于 `aln-12715`、`aln-12716`；未采纳外部生平、年代、作品或关系事实。
+- `aln-0440` 的旧 undecided 理由保留在历史注释中；这次决定修正其“仅一名词 token”的保守判断，因为索引全名及原书明确别名、跨章复现和外部姓名链现已核实。S4 尚待登记该新组。两个直接 S2 关系候选 `st-chp2-seci-l95-106-launched-dangeli` 与 `st-chp2-seciv-l79-89-filippo-recommends-camassei-to-unidentified-marchese` 留待 S6；本批不新增 KU、formal relation 或 S5 字段。
+- 当前统计相应更新：same=1,973；new=5,026／4,812组；conflict=9；excluded=100；undecided=5,299（其中622项未分类）。S4 待登记为3,623组／3,644条候选映射，直接关系端点队列1,868组／1,868条（person 31／31）；alignment.csv 共12,713行，包括12,407条候选当前决定及306条独立外部身份记录。
