@@ -29,7 +29,7 @@ sources:
     source_file: 02-sources/02-Markdown/20_CHP-20Postscript.md
     source_span: line 157; print p. 406; PDF physical p. 15
 created: '2026-10-17'
-updated: '2026-10-17'
+updated: '2026-10-19'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-giuseppe-valeriani-crosschapter-20261017
 ---
 
@@ -37,15 +37,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记书内以全名 Giuseppe Valeriani 提及的人物，中文名采用项目工作音译。第10章注1表将他列在“参与相关纪念碑项目的威尼斯艺术家”栏，分别出现在 William III 与 Isaac Newton 两行；表格未界定其个人的创作、执行或委托角色。第20章后记称一部1948年资料详尽的 Giuseppe Valeriani 著作研究了18世纪俄罗斯宫廷吸引威尼斯艺术家的兴趣，并提及两篇后续论文。以上为 Haskell 的书内报告；所述著作和论文未独立查阅，也未作外部人物身份核验。[第10章 p.289 注1](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md)（L2、L7–8）；[第20章 p.406](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（L157）
+**中文：** 本卡登记书内以全名 Giuseppe Valeriani 提及的人物，中文名采用项目工作音译。第10章注1表将他列在“参与相关纪念碑项目的威尼斯艺术家”栏，分别出现在 William III 与 Isaac Newton 两行；表格未界定其个人的创作、执行或委托角色。第20章后记称一部1948年资料详尽的 Giuseppe Valeriani 著作研究了18世纪俄罗斯宫廷吸引威尼斯艺术家的兴趣，并提及两篇后续论文。以上为 Haskell 的书内报告；所述著作和论文未独立查阅。S3 身份对照将本书第3章的“Padre Valeriano”与本卡 Giuseppe Valeriani 判为同一人物：Treccani DBI 记 Giuseppe Valeriano 为耶稣会士并记其参与罗马耶稣堂工程；耶稣堂官方资料亦称 Father Giuseppe Valeriani（1542–1596）。该对照只裁决人名身份，不核验 Haskell 关于 principal painter 或节省费用的表述。[Treccani DBI](https://www.treccani.it/enciclopedia/giuseppe-valeriano_(Dizionario-Biografico)/)；[耶稣堂官方资料](https://www.chiesadelgesu.org/documenti/presentazione_chiesa_del_gesu_roma.pdf)。[第10章 p.289 注1](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md)（L2、L7–8）；[第20章 p.406](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（L157）
 
-**English:** This card records the person named Giuseppe Valeriani in the book; the Chinese name is a project transliteration. Chapter 10, note 1, lists him in the column for Venetian artists concerned in the monument enterprise, on the rows for William III and Isaac Newton. The table does not define his individual role in creating, executing, or commissioning either monument. The chapter 20 postscript says that a fully documented 1948 book about Giuseppe Valeriani investigated the eighteenth-century Russian court’s interest in attracting artists from Venice, and mentions two later articles. These are Haskell’s reports; the book and articles have not been independently consulted, and the person’s identity has not been externally verified. [第10章 p.289 注1](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md)（L2、L7–8）; [第20章 p.406](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（L157）
+**English:** This card records the person named Giuseppe Valeriani in the book; the Chinese name is a project transliteration. Chapter 10, note 1, lists him in the column for Venetian artists concerned in the monument enterprise, on the rows for William III and Isaac Newton. The table does not define his individual role in creating, executing, or commissioning either monument. The chapter 20 postscript says that a fully documented 1948 book about Giuseppe Valeriani investigated the eighteenth-century Russian court’s interest in attracting artists from Venice, and mentions two later articles. These are Haskell’s reports; the book and articles have not been independently consulted, and S3 identifies the chapter 3 “Padre Valeriano” as the same person as Giuseppe Valeriani in this card: Treccani DBI identifies Giuseppe Valeriano as a Jesuit and records his work at the Roman Gesù; the church’s official guide names Father Giuseppe Valeriani (1542–1596). This resolves the person reference only; it does not verify Haskell’s principal-painter wording or cost-saving claim. [Treccani DBI](https://www.treccani.it/enciclopedia/giuseppe-valeriano_(Dizionario-Biografico)/); [official church guide](https://www.chiesadelgesu.org/documenti/presentazione_chiesa_del_gesu_roma.pdf). [第10章 p.289 注1](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md)（L2、L7–8）; [第20章 p.406](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（L157）
 
 ### 姓名与身份范围
 
 - **书内全名：** Giuseppe Valeriani。[第10章 p.289 注1](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md)（L2、L7–8）；[第20章 p.406](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)（L157）
 - **中文工作音译：** 朱塞佩·瓦莱里亚尼，仅作项目展示名，不作为原语姓名或独立身份依据。
-- **身份范围：** 本卡对应候选 cand-9382 的单一 S3 new 身份组。第10章表格中的两次出现与第20章的全名相同；本卡保留书内人物身份，不补充外部生平。
+- **身份范围：** cand-9382 是本卡原 S3 new 组成员；cand-2683（第3章“Padre Valeriano”）现按 same 映射至本卡。姓名形式、耶稣会身份、罗马耶稣堂语境及时代相合；此身份判断不为第3章的具体绘画角色或节省费用动机增加证据。
 
 ### 本书相关内容
 
