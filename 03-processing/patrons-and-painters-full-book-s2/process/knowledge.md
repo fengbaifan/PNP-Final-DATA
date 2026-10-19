@@ -38,10 +38,10 @@
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 47 / 57 | 511 / 511 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 40 / 52 | 888 / 888 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 42 / 54 | 886 / 886 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,288 / 1,489** | **3,518 / 3,539** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,290 / 1,491** | **3,516 / 3,537** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8452,3 +8452,9 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 ### S4 institution：哈斯克尔威尼斯叙述中的教会机构（2026-10-20）
 
 `cand-8672`沿用S3 `new`机构组 `sg3-institution-cand-8672`，登记为[教会机构卡](../../../04-knowledge/units/institutions/church-as-patron-in-venice-haskell-account.md)。类型和身份边界依候选表及S3记录；第9章 p.268 将“the Church”称为威尼斯当代艺术的领先赞助者、祭坛画需求来源，并联系教堂装饰与贵族理想。本卡只表示书内集体机构主体，不推定法律组织边界、分支或跨时期连续性；与威尼斯共和国、教宗职位、教廷国家及单座教堂保持分立。5条直接S2关系候选（st-chp9-p268-church-altarpiece-market, st-chp9-p268-church-decoration-patrician-ideals, st-chp9-p268-church-leading-patron, st-chp9-p268-history-painters-church-work, st-chp9-p268-noble-commissions）仍待S6；本批不登记formal边或S5字段。登记后S4已登记1,288组／1,489条映射，待登记3,518组／3,539条映射；直接端点队列由1767组／1781成员降至1766组／1780成员。独立S2复核尚在进行，本登记不构成该五条statement或相关章节的语义接收。
+
+<a id="s4-ch13-publisher-terms-20261020"></a>
+
+### S4 term：第13章威尼斯出版商的两个来源类别端点（2026-10-20）
+
+按候选表和既有S3裁决，`cand-12120`（`sg3-term-cand-12120`）登记为[出版商雇用的雕版工](../../../04-knowledge/units/terms/printmakers-employed-by-venetian-publishers.md)，`cand-12121`（`sg3-term-cand-12121`）登记为[出版商选用于委托的艺术家](../../../04-knowledge/units/terms/artists-selected-for-venetian-publishers-commissions.md)。第13章 p.333 将两类来源称谓置于散页版画与插图书出版活动中：出版商雇用 print makers，并委托适合者绘图、有时绘画。分别保留来源所示类别，不生成成员名单、个人身份或互斥关系。四条直接S2关系候选（`st-chp13-p333-publishers-employed-printmakers`、`st-chp13-p333-publishers-patronized-printmakers`、`st-chp13-p333-publishers-as-patrons-and-reliance-on-patronage`、`st-chp13-p333-publishers-commissioned-suitable-artists`）留待S6逐条裁决；不写formal边或S5字段。登记后S4已登记1,290组／1,491条映射，待登记3,516组／3,537条映射；直接端点队列由1766组／1780成员降至1764组／1778成员。第13章S2独立审读覆盖该页，但章级仍有其他未修问题；本次登记不代表关系成立或章节接收。
