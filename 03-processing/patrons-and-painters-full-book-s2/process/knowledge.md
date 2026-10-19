@@ -8359,3 +8359,41 @@ cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画�
 ### S4 term：外国旅行者跨章术语组（2026-10-20）
 
 `cand-3562` 沿用既有 S3 `new` term 组 `sg3-term-cand-3562`，登记至[外国旅行者术语卡](../../../04-knowledge/units/terms/foreign-travellers.md)。第1章将旅行者及其代理人置于艺术家—客户关系的中间环节；第4章称外国旅行者前往罗马参观收藏；第5章以各类旅行者（包括新教徒）说明罗马对来访者的可达性；第9章分别涉及外国使节、普通旅行者及游客。这些称谓处于不同叙述语境，不构成同一历史群体或个人身份判断。第7章已有的英国游客术语卡范围更窄，继续独立。5条直接 S2 关系候选（st-chp4-intro-l3-8-foreign-travellers-flocked-to-rome, st-chp5-p129-dealers_and_travellers, st-chp9-p245-footnote1-measures-and-brosses, st-chp9-p245-visitor-access, st-chp9-p246-betrothal-judgment）保留待 S6；本次未新增 formal 关系、S5 字段或外部身份核验。登记后 S4 已登记1,282组／1,483条映射，待登记3,524组／3,545条映射；直接端点队列由1773组／1787成员降至1772组／1786成员。
+
+
+<a id="s2-chapter-2-independent-review-20261020"></a>
+
+### S2 第2章独立语义复核（2026-10-20）
+
+按当前 `book-statements.jsonl` 的来源文件、原文起始行及 `statement_id` 排序直接核读1,051/1,441条；未重读的390条不以历史覆盖替代。报告中的排序序号是该章子集的1-based定位，不是statement ID或JSONL物理行号。审读只读，未改写S2表。**本章不接收**；先修下列阻断项并定点回核：
+
+- 引用范围及同句重复：`st-chp2-seciv-l190-245-citation-71`与`st-chp2-seciv-l190-245-panofsky-contact-claim-corrected`需合并或限缩更正关系；`st-chp2-seciv-l190-245-poussin-work-locations-and-dedications`将三件作品、版画题记和Bellori解释合并。
+- 人物/作品端点或章节对象错误：`st-chp2-seciv-l190-245-claude-will-and-pictures-in-collection`把Claude人物误作两幅画的主题；`st-chp2-secvii-l5-19-hostility-and-rome-crisis`合并敌意、政治危机序列；`st-chp2-secvii-l5-19-rome-properties-and-taddeo-wife`合并财产查封与妻子贫困。
+- 指代、归属及来源限制：`st-chp2-secvii-l32-36-bernini-received-family-patronage`的“his family”不明；`st-chp2-secvii-l38-54-fn-p60-5a-palomino-attribution`与`st-chp2-secvii-l38-54-fn-p60-5a-sitter-identification`重复且将归属报告与身份识别混合；`st-chp2-secvii-l38-54-fn-p60-7b-ferri-attribution-suggested`须保留建议性归属。
+- 书目与政治实体：`st-chp2-secvii-l38-54-fn-p61-1-vatican-manuscript-holder`、`st-chp2-secvii-l38-54-fn-p61-1-vatican-manuscript-reference`须区分馆藏者与手稿引用；`st-chp2-sec-viii-l3-7-barberini-heritage-and-artistic-choice`、`st-chp2-sec-viii-l3-7-no-new-squares-recall-urban`需拆清家族传承、艺术选择和城市空间；`st-chp2-sec-viii-l9-14-bernin-barberini-and-julius-michelangelo-comparison`的“Both men”缺少明确先行词。
+- 限定与端点：`st-chp2-sec-viii-l9-14-papacy-loss-power-prestige-under-urban`需区分教宗权力、威望及国际势力；`st-chp2-sec-viii-l9-14-french-king-self-glorification-through-lebrun`把Le Brun错置为关系端点；`st-chp2-sec-viii-l9-14-antonio-supports-sacchi`与`st-chp2-sec-viii-l9-14-scholar-painter-contact-and-intellectual-art`分别需复核人物配对、重复及学者/画家结果的复合表述。
+
+
+<a id="s2-chapter-3-independent-review-20261020"></a>
+
+### S2 第3章独立语义复核（2026-10-20）
+
+当前1,173/1,173条statement均已逐条对照原文，其中 `relation_candidate=true` 938条、`false` 235条、unset 0；最后86条脚注与2条视觉转录已覆盖。本次只读，未改写S2表。两条p.73视觉转录 `st-chp3-secii-p73-note3-ibid`（回指 cand-5129）和`st-chp3-secii-p73-note4-passeri`（Passeri pp.66–67，cand-4376）核对相符；`cand-0710` same至既有Chiesa Nuova KU成立。**本章不接收**，因仍有以下语义阻断：
+
+- 说话者及来源定位：`st-chp3-seciv-l141-150-pozzo-attacked-for-stucco-removal`、`st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project`把Haskell正文误归给已结束的传记作者引文；`st-chp3-seciv-l48-56-oliva-implicated`、`st-chp3-seciv-l48-56-jesuits-opposed-daily-communion`与`st-chp3-seciv-l48-56-jesuits-opposed-passive-contemplation`错挂穹顶告示脚注；`st-chp3-seciv-l83-94-negroni-papal-arms`的证据锚应从L85扩到L81–85。
+- 端点方向/类型：`st-chp3-seciv-l165-177-site-officially-belonged-to-savelli`与`st-chp3-seciv-l179-187-annunciation-relief-in-right-chapel`需统一谓词和端点方向；`st-chp3-seciv-l48-56-oliva-took-advantage-of-new-situation`须保留Haskell推断性质；`st-chp3-seciv-l96-104-bernini-france-jesuit-links`把耶稣会教堂误连为组织；`st-chp3-seciv-l96-104-camillo-son-followed-example`把儿子效仿对象映为工程而非父亲。
+- 复合claim及遗漏角色：`st-chp3-seciv-l69-73-central-iconographic-groups`与`st-chp3-seciv-l69-73-light-strikes-damned-and-heretics`漏结构化主体；`st-chp3-seciv-l69-73-sixteen-stucco-figures`合并Gaulli设计、追随者制作及安置；`st-chp3-seciv-l130-139-artists-consulted`缺少咨询发起者Rector；`st-chp3-seciv-l165-177-doctors-figures-scheme-abandoned`把未具名判断者写成未指明项目权威。
+- 作品/人物/事件混置及拆分：`st-chp3-seciv-l26-33-duke-implied-damage`合并教堂损坏与对Cardinal失礼；`st-chp3-seciv-l130-139-pozzo-ordered-to-rome-on-maratta-advice`合并Maratta建议和未具名权威下令；`st-chp3-seciv-l8-14-resta-oval-scenes`合并Resta选人与艺术家作画；`st-chp3-seciv-l165-177-contract-uncompleted`端点不应以Gaulli替代合同状态。`st-chp3-secii-l125-135-palace-acquisition`还需明确取得者、宫殿和来源方。
+- 其他遗漏/待证：`st-chp3-secii-p67-note2-necrology-claim`及`st-chp3-secii-p67-note2-anonymous-life-claim`须拆清最早记录、教堂例证和模仿范围；`st-chp3-secii-p76-note3-other-order-churches`须表达教堂、壁画、艺术家的具体关系；`st-chp3-seciv-notes-l189-204-p79-n2-joshua-subject-compared-with-carlone`和`st-chp3-seciv-notes-l205-243-p93-n1-proposal-to-move-legros-figure`保留开放对象，不据空缺补造端点。
+
+
+<a id="s2-chapters-10-12-independent-review-20261020"></a>
+
+### S2 第10–12章独立语义复核（2026-10-20）
+
+按当前来源页与PDF对照复核1,567条：第10组（印刷页276–298及图注）651条、第11组（p.299–316及图注）485条、第12组（p.317–331）431条；无未覆盖statement。旧内部阶段记录不能替代逐条独立语义接收。本次只读。**三章均不接收**，修订后仅回核受影响statement、mentions与来源锚点：
+
+- 第10组：`st-chp10-p278-whig-sons-admired-venice-and-palladio`漏威尼斯端点；p.289将15幅画的创作与里士满收藏购入混合；p.293四条Tessin/Tiepolo记录错误使用索引子目 `cand-2553` 作人物端点（`st-chp10-p293-tessin-tiepolo-letter-evaluation`、`st-chp10-p293-tessin-tiepolo-quoted-praise`、`st-chp10-p293-tessin-tiepolo-works`、`st-chp10-p293-tiepolo-price-invitation`）。p.295–298仍有作品、委托及人物端点和复合claim问题。
+- 第11组：`st-chp10-p301-smith-official-visitors`方向及访客范围不符原文；`st-chp10-p314-schulenburg-owned-views-and-landscapes-by-six-artists`涉及六位画家但作品端点只映射Marieschi；`st-chp10-p316-n02-sala-attributed-to-francesco-guardi`与`st-chp10-p316-n02-sala-attributed-to-gianantonio-guardi`是相互冲突的来源归属报告，应分立并保留引述归属。
+- 第12组：出版、接待、政治破裂、写作与委托等claim混合，如`st-chp10-p318-muratori-published-della-pubblica-felicita`、`st-chp10-p318-beccaria-published-dei-delitti-and-welcomed-in-paris`、`st-chp10-p319-conti-revealed-notes-to-french-following-rupture`；人物/作品/内容端点错配见`st-chp10-p319-conti-wrote-on-sasper-and-imitated-julius-caesar`、`st-chp10-p320-lodoli-among-those-who-persuaded-vico-to-write-autobiography`及mention `m-s2-ch10-p320-0038`、`st-chp10-p320-zanetti-announced-colour-woodcut-process-to-conti`、`st-chp10-p322-lodoli-familiar-with-canaletto-visentini-work-through-smith`、`st-chp10-p322-print-tablets-bear-jeremiah-text`。其他需修项包括p.323期号应为No.35（`st-chp10-p323-note7-gazzetta-veneta-issue-longhi-comparison`）、推测语气丢失、作品/委托端点缺项（p.325–327）、未具名画家会费询问（`st-chp10-p330-memmo-dues-query`）、展览与Salon比较主体（`st-chp10-p331-algarotti-letter-and-salon-comparison`）。
+- p.317 `st-chp10-p317-royalty-and-church-no-longer-monopolised-painters`现已包含英法范围；p.318 `st-chp10-p318-arcadia-and-french-critics-stimulated-debate`现已包含Marino及其追随者，核读时确认这两项既有修订已在当前版本。
