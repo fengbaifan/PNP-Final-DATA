@@ -8236,3 +8236,29 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 本组触及10条 S2 关系候选：`st-chp4-sec-ii-p118-fresco-papal-allusion`、`st-chp4-sec-ii-p118-maratta-fresco-opportunity`、`st-chp6-p161-note3-bellori`、`st-chp6-p161-v1-11`、`st-chp6-p161-v1-12`、`st-chp6-p161-v1-13`、`st-chp6-p161-v1-17`、`st-chp4-sec-ii-p118-fresco-created-by-maratta`、`st-chp4-sec-ii-p118-fresco-subject-clemency`、`st-chp4-sec-ii-p118-fresco-court-art-model`。其中3条目前两端均已映射到 KU，登记只解除其 S6 端点缺口，不预判它们应为 formal；其余7条仍有待映射端点或开放对象，全部保留原状供 S6 逐条裁决。没有复制 statement、合并其关系语义或将身份组决定当作关系决定。
 
 登记后 KU=2,291；S4 已登记1,272/4,812组、1,468条候选映射，待登记3,540组／3,560条映射。直接端点待登记队列按现行结果快照由1,786组／1,787个端点候选／1,801条组成员映射减为1,785组／1,785个端点候选／1,798条组成员映射；S2、S3、S6决定数量未改变。验证以 `python scripts/build_cards.py --preview --ku units/works/altieri-clemency-fresco` 和 `python scripts/audit_tables.py --strict-stage --summary` 为准；结构通过不代表10条关系已裁决，也不代表 S2 语义验收。
+
+
+<a id="s3-s4-france-polity-crosschapter-20261020"></a>
+
+### S3–S4 institution：France 跨章政治实体归组与直接端点登记（2026-10-20）
+
+#### S3 跨章身份组
+
+将六个已有 `new` 候选组归并为同一来源内身份组 `sg3-institution-france-polity`：`cand-4221`（第2章 p.33）、`cand-6253`（第6章 p.146）、`cand-6704`（第7章 p.175）、`cand-6764`（第7章 p.180及其延续叙述）、`cand-7223`（第7章 p.196）与 `cand-8308`（第9章 p.254）。这些段落分别把 France 写作天主教政治强权与联盟对象、政治联合力量、Richelieu的国家性称谓、Mazarin接管的政府及其所涉国家事务、寓意叙述中的政治列强领头者，以及威尼斯贵族面对的国家性邻国。跨章同一性只指哈斯克尔叙述中被称作 France 的国家政治参照，不推断不同年代的宪制连续、历史疆域、具体行政机构或外交细节。
+
+六条 alignment 的当前决定均保留为 `new`；`group` 统一更新为 `sg3-institution-france-polity`，原单候选组、S3理由及此前过程引用均保存在各自 `resolution_note` 的历史部分。登记不更改S2 statements或mentions。
+
+边界复核：地理地点 France 继续指向既有 `units/places/france`；`cand-6699` 的 French court 与 `cand-6910` 的 French monarchy 不并入本国家实体。`cand-4440` 仍为 `undecided`，单凭Richelieu的国家归属称谓不另造对象。`cand-4632` 在“in France”目的地语境中的类型和指称范围尚须单独复核，不因名称相同而合并至本政治实体或地点卡。此批未对这些候选改判。
+
+#### S4 登记与关系交接
+
+六条候选映射至[法国政治实体（France as a polity）](../../../04-knowledge/units/institutions/france-polity.md)（`units/institutions/france-polity`）。卡片只用原书来源定位与原文摘录说明国家政治实体语境；未加外部标识、S5补足字段或独立历史事实。原有相关S2关系仍须逐条S6裁决；本次未新增 `relations.csv` 记录或formal边：
+
+- 第2章：`st-chp2-sec-ii-l20-28-france-hapsburg-rivalry`、`st-chp2-sec-ii-l20-28-urban-alliance-with-france`、`st-chp2-sec-viii-l9-14-france-arrogance-changes-papal-situation`、`st-chp2-secvii-l21-30-francesco-political-sympathies-after-exile`。
+- 第5章：`st-chp5-p120-rome-cultural-climate`。
+- 第7章：`st-chp7-p179-i26`、`st-chp7-p180-i03`、`st-chp7-p188-i23`、`st-chp7-p188-i33`、`st-chp7-p198-shaftesbury-hostile-to-france`。
+- 第9章：`st-chp9-p255-england-canada-india-france-claim`。
+
+本批涉及11条S2 `relation_candidate=true` 记录，均仍待S6逐条裁决；未改变formal关系。登记后S4已登记1,273／4,807组、1,474条候选映射，待登记3,534组／3,554条映射。直接关系端点待登记队列为1,781组／1,781个端点候选／1,794条组成员映射；其中机构92组／92个端点／92成员。非直接端点待登记队列为1,753组／1,760条映射。KU总数2,292。
+
+验证：`python scripts/build_cards.py --preview --ku units/institutions/france-polity` 通过；`python scripts/audit_tables.py --strict-stage --summary` 通过，`errors=[]`、`s2_missing=[]`、S4待登记映射3,554。机械通过不代表11条S2关系已裁决或全书S2已独立语义验收。
