@@ -8177,3 +8177,17 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 ### S5：两项作品馆藏标识来源定位（2026-10-19）
 
 修正 `enr-06678`（《多马的疑惑》教会版本）与 `enr-06937`（《圣奥古斯丁》争议版本）的卡片及字段表。两项字段均限定为“所引专页／条目未提供可识别的单件馆藏号”，分别引用完整阅读的 S2 页面记录 `src-00809e6dd9c338fd` 与 `src-d6def4a1ab13cf5f`；这只说明所引页面没有列出馆藏号，不断言作品在其他目录或馆藏记录中不存在号码。两行 `source_ref` 改为可解析的 `S2`，来源状态更新为 `source_backed`，身份决定、端点和关系表均未改变。
+
+<a id="s4-event-direct-endpoint-roman-plague-1656-20261019"></a>
+
+### S4 event：1656年罗马大瘟疫直接端点组登记（2026-10-19）
+
+| candidate | S3 身份组 | 书内锚点 | S4 KU | 直接 S2 关系候选 |
+|---|---|---|---|---|
+| `cand-6318` | `sg3-event-cand-6318` | 第6章 p.152，`06_CHP-6_sec_i.md` L75 | `units/events/roman-plague-1656` | `st-chp6-p152-roman-plague-1656`；`st-chp6-p152-quirinal-decoration-continues` |
+
+`cand-6318` 沿用 S3 `new` 决定，按单成员事件组登记。Haskell称瘟疫于1656年从那不勒斯向北传播，数月后抵达罗马，处于亚历山大七世统治初期；原文未给出更精确的抵达日期。卡片只记录这一时间定位，没有新增外部身份资料。另一条关于瘟疫年间奎里纳尔装饰工程继续的statement注明转引Bellori，原引文尚未独立审阅；两条statement均保留为S2候选，未写入S6关系表。
+
+本批新增1张双语卡、1条manifest、1条accepted路径及1条alignment KU映射；未新增S5字段或formal关系。本批后S4已登记1,269／4,812个新增身份组、1,463／5,028条候选映射；待登记3,543组／3,565条映射。直接关系端点待登记队列为1,788组／1,789个直接端点候选／1,803条组成员映射，其中event剩余104组／104成员；非直接端点队列1,755组／1,762条映射。KU=2,288。
+
+验证：`python scripts/build_cards.py --preview --ku units/events/roman-plague-1656` 通过且未写入派生卡片；`python scripts/audit_tables.py --strict-stage --summary` 通过，KU=2,288、S4待登记映射=3,565、`errors=[]`、`s2_missing=[]`。warning仍提示S4积压及S2独立语义审阅未完成。
