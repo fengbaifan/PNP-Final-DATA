@@ -38,10 +38,10 @@
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 46 / 56 | 512 / 512 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 37 / 49 | 891 / 891 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 38 / 50 | 890 / 890 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,283 / 1,484** | **3,523 / 3,544** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,284 / 1,485** | **3,522 / 3,543** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8409,3 +8409,9 @@ cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画�
 ### S2定点修复：羔羊崇拜主题端点（2026-10-20）
 
 st-chp3-seciv-l75-81-revived-lamb-subject 的第3章 L76 原文称 Gaulli 恢复的是 the subject of The Adoration of the Lamb。依独立第3章复核意见，并核对同段提及 m-chp3-seciv-l75-81-0005 与 S4 已登记术语 KU，将 object_candidate_id 从壁画作品 cand-5287 改为图像主题 cand-5291；人物端点 cand-1117、谓词、原文引句、claim 与 relation_candidate 状态均保持不变。此修改校正断言的对象指称，不等于关系成立或独立语义验收；该术语 KU 当前对应的6条直接 S2 关系候选仍待 S6 逐条裁决，未新增 formal 边。同时校准术语卡中 hardly been seen 与 seven torches 的中英文表述，使其贴合原文。
+
+<a id="s4-term-bolognese-artists-collective-category-20261020"></a>
+
+### S3→S4 term：博洛尼亚画家集体称谓（2026-10-20）
+
+cand-4229 沿用既有 S3 new 组 sg3-term-cand-4229，登记为[博洛尼亚画家集体称谓卡](../../../04-knowledge/units/terms/bolognese-artists-collective-category.md)。S3 的跨章组包含第2章中“the Bolognese of every tendency”、Domenichino 与 Guercino 的地域性称谓、Passeri 对“the Bolognese”的回顾性评价，以及第5章 Carlo 偏爱博洛尼亚画家的记述。核对第2章 p.28、p.34、p.45 与第5章 p.123 原文后，卡片将对象限定为书内地域性画家类别，不宣称固定成员或正式组织。4条直接 S2 关系候选（st-chp2-sec-ii-l30-40-passeri-bolognese-and-urban, st-chp5-p123-carlo-befriended-bolognese, st-chp5-p123-carlo-commissioned-bolognese, st-chp5-p123-carlo-favorite-bolognese）在本次登记后均有双方、类型相符的 KU 映射；仍待 S6 逐条裁决，不新增 formal 关系。登记后 S4 已登记1,284组／1,485条映射，待登记3,522组／3,543条映射；直接端点队列由1771组／1785成员降至1770组／1784成员。该登记沿用 S3 决定，不替代第2章独立语义复核，也不把 S2 关系候选预判为成立。
