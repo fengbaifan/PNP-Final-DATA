@@ -38,10 +38,10 @@
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 47 / 57 | 511 / 511 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 38 / 50 | 890 / 890 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 39 / 51 | 889 / 889 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,285 / 1,486** | **3,521 / 3,542** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,286 / 1,487** | **3,520 / 3,541** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8434,3 +8434,9 @@ cand-4229 沿用既有 S3 new 组 sg3-term-cand-4229，登记为[博洛尼亚画
 ### S4 place：波焦阿卡亚诺费迪南德画廊中的博物馆房间（2026-10-20）
 
 cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识卡](../../../04-knowledge/units/places/poggio-a-caiano-museum-room.md)。第8章 p.235 将房间定位在 Ferdinand 的威尼斯画作画廊，并记 Ricci 拟赴佛罗伦萨绘制、Ferdinand 因病推迟；附录 p.390 所录 1706年5月1日与8日信件分别记 Ricci 的绘制计划和 Ferdinand 关于房间尚未准备好、以后仍拟由 Ricci 绘制的回复。原始档案信件未直接查阅。身份范围限于该书内描述的室内空间，不推定施工完成，不与后来的 special room 或 Farsetti 所述天顶自动合并。4条直接 S2 关系候选（st-chp19-p390-ferdinand-defers-room, st-chp19-p390-ricci-museum-room-plan, st-chp8-p235-ferdinand-postpones-poggio-scheme, st-chp8-p235-poggio-visit-postponed）的另一端均已有类型相符的 KU，仍留待 S6；本批未新增 S2 statements/mentions、S5 字段或 formal 关系。S4登记后为 1,285/4,806 组、1,486/5,028 条映射；直接端点队列由 1,770 组／1,784 成员降至 1,769 组／1,783 成员。
+
+<a id="s4-term-procuratore-di-san-marco-office-20261020"></a>
+
+### S4 term：圣马可 Procuratore 职位（2026-10-20）
+
+`cand-8449`沿用S3 `new`术语组 `sg3-term-cand-8449`，登记为[圣马可 Procuratore 职位卡](../../../04-knowledge/units/terms/procuratore-di-san-marco-office.md)。类型依据为候选表和S3身份裁决；第9章 p.258、p.259以及第10章 p.326、p.327和第15章 p.367提供跨章书内用例。Haskell分别报告 Marco Foscarini自1741年任职、Pietro Foscarini的职位称谓、Pisani于1780年当选、图像中未具名Procurator，以及Memmo于1787年就任且早两年获任命。本卡将对象范围限于职位术语，不补写制度职能或任命规则，不把图像人物映射到已知人物；以上未作外部核验。5条直接 S2 关系候选（st-chp10-p326-election-1780, st-chp10-p327-political-pictures-iconography, st-chp15-p367-memmo-assumed-procurator-office-1787, st-chp9-p258-marco-held-procuratore-and-doge-offices, st-chp9-p259-pietro-foscarini-procuratore）仍待 S6；本批不登记 formal 关系或 S5 字段。登记后 S4 已登记1,286组／1,487条映射，待登记3,520组／3,541条映射；直接端点队列由1769组／1783成员降至1768组／1782成员。

@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,285组、映射1,486条成员候选；尚待登记3,521组、3,542条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,286组、映射1,487条成员候选；尚待登记3,520组、3,541条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,304 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,305 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,621 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |
@@ -338,10 +338,10 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | person | 1,204→450 | 1,171／1,069 | 798／271；273 | 4 | 7 | 1,078 |
 | place | 229→153 | 568／558 | 47／511；511 | 0 | 0 | 312 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
-| term | 43→35 | 940／928 | 38／890；890 | 0 | 2 | 656 |
+| term | 43→35 | 940／928 | 39／889；889 | 0 | 2 | 656 |
 | work | 238→218 | 495／477 | 60／417；427 | 5 | 29 | 1,630 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **2,023→1,092** | **5,028／4,806** | **1,285／3,521；3,542** | **9** | **100** | **5,248** |
+| **合计** | **2,023→1,092** | **5,028／4,806** | **1,286／3,520；3,541** | **9** | **100** | **5,248** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2952,3 +2952,7 @@ cand-4229 按既有 S3 new 组 sg3-term-cand-4229 登记至[术语卡](../units/
 ### S4 place：波焦阿卡亚诺费迪南德画廊中的博物馆房间（2026-10-20）
 
 cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../units/places/poggio-a-caiano-museum-room.md)。第8章 p.235 与附录 p.390 所录 1706年书信支持其为 Ferdinand 在 Poggio a Caiano 的威尼斯画作画廊中的博物馆房间，且 Ricci 的绘制计划当时被推迟；原始档案信件未直接查阅。本卡不声称房间最终完成或与后来的房间、天顶装饰为同一对象。4条直接 S2 关系候选（st-chp19-p390-ferdinand-defers-room, st-chp19-p390-ricci-museum-room-plan, st-chp8-p235-ferdinand-postpones-poggio-scheme, st-chp8-p235-poggio-visit-postponed）均有类型匹配的另一端 KU，仍待 S6 逐条裁决；登记后 S4 已登记1,285/4,806组、1,486/5,028条映射，待登记3,521组／3,542条映射。
+
+### S4 term：圣马可 Procuratore 职位（2026-10-20）
+
+`cand-8449`沿用既有S3 `new`组 `sg3-term-cand-8449`，登记至[圣马可 Procuratore 职位卡](../units/terms/procuratore-di-san-marco-office.md)。第9、10、15章分别称 Marco Foscarini、Pietro Foscarini、Pisani 与 Memmo 曾担任、当选或就任该职位；第10章 p.327 的政治图像只称一位未具名 Procurator，未据此识别其身份。五条直接 S2 关系候选留待 S6；未新增正式关系、外部身份或 S5 字段。登记后 S4 已登记1,286/4,806组、1,487/5,028条映射；待登记3,520组／3,541条映射。
