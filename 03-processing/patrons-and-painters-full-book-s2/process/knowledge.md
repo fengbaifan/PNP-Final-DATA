@@ -7973,3 +7973,22 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 本批新增4个 KU 与4条候选映射。S4累计1,215组／1,409条映射已登记，待登记3,597组／3,619条；person类型已登记783组／883条、待登记286组／288条。直接关系端点待登记队列为1,842组／1,843个端点候选／1,857条组成员映射，其中person 16组。KU=2,234。
 
 验证：`python scripts/audit_tables.py --strict-stage --summary` 通过（`errors=[]`、`s2_missing=[]`）；S4待登记、两条source_ref缺口及S2独立语义审阅未完成仍作为既有警告保留。
+
+<a id="s4-person-direct-endpoints-chp8-20261019"></a>
+
+### S4 person：四个第8章直接关系端点登记（2026-10-19）
+
+本批将四个既有 S3 `new` 单成员组登记为人物 KU；四个候选均是现有 `relation_candidate=true` statement 的直接人物端点：
+
+| candidate | 书内身份锚点 | S4 KU | S2关系候选 |
+|---|---|---|---|
+| `cand-7505` | Giuseppe Manini，第8章 p.211 L90–L91 | `units/persons/giuseppe-manini` | `st-chp8-p211-manini-salvini-career-accounts` |
+| `cand-7658` | Dora Coggiola，第8章 p.215 L374 | `units/persons/dora-coggiola` | `st-chp8-p215-dora-coggiola-acknowledgment` |
+| `cand-7734` | Silvio Ubaldi，第8章 p.223 L388 | `units/persons/silvio-ubaldi` | `st-chp8-p223-n4-ubaldi-family-information` |
+| `cand-7736` | Tiberio Cenci，第8章 p.223 L150 | `units/persons/tiberio-cenci` | `st-chp8-p223-n5-letter-1705` |
+
+Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日期或两人各自的记述归属；Coggiola 仅记录致谢及原书所写的 Biblioteca Cívica, Bergamo，不推定职业、职务或更完整的机构名称；Ubaldi 的具体出版物或档案文献未指明；Cenci 仅按脚注记为1705年2月23日信件的收件人，未查阅信件内容或目录记录。四项中文姓名为项目工作音译。未添加外部身份标识、enrichment 字段或正式关系，四条关系候选仍待 S6 逐条裁决。
+
+本批登记4组／4条成员映射后，S4累计1,219组／1,413条映射已登记，待登记3,593组／3,615条；person类型已登记787组／887条、待登记282组／284条。直接关系端点待登记队列降至1,838组／1,839个端点候选／1,853条组成员映射，其中person 12组／12成员。KU=2,238。
+
+机械审计：`python scripts/audit_tables.py --strict-stage --summary` 通过（KU=2,238、S4待登记映射=3,615、`errors=[]`、`s2_missing=[]`）。剩余S4映射、两条既有 `source_ref` 缺口及S2独立语义审阅仍为未完成警告。
