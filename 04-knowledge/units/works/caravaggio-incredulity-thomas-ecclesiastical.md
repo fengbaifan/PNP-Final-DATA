@@ -48,7 +48,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 媒介与材质 | 布面油画（oil on canvas） | S2–S4（如有） |
 | 尺寸 | 107 cm × 146 cm (42 in × 57 in) | S2 |
 | 当前保管／状态 | 私人收藏；版本与作者范围待证；私人收藏；版本与作者范围待证 | S2–S4 |
-| 馆藏标识 | 未取得可安全采用的单一馆藏号 | S3–S4 |
+| 馆藏标识 | 所引专页未提供可识别的单件馆藏号 | S2；完整页面的版本记录未列出馆藏号 |
 
 ### 委托、版本、存世与流传
 
