@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 首轮内部处理已完成，独立语义验收仍在进行；S3 决定记录覆盖全部候选，冲突与待证身份尚未解决；S4 KU 登记处理中，S5、S6未全书收口。** 12,408个候选中，same=2,023（指向1,092个既有KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248（含622项未分类）。S4已登记1,277/4,806组、1,478/5,028条映射，待登记3,529组/3,550条映射。S2有10,400条关系候选，333条statement至少一端无candidate ID；S5有11,725条字段、1,625条unverified；S6有1,242条记录（1,240 formal、2 pending），另45条缺结构化source_id。上述均为不同数据对象和覆盖口径。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,278组、映射1,479条成员候选；尚待登记3,528组、3,549条映射。
 
 ## 范围与覆盖
 
@@ -21,13 +21,13 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,296 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,297 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,621 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,716 条：12,408 条候选决定记录及 308 条独立外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,725条，其中1,625条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,731条，其中1,625条 unverified |
 | [来源登记](../tables/sources.csv) | 1,752 条来源记录 |
 | [关系表](../tables/relations.csv) | 1,242条：1,240 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,400条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
@@ -339,9 +339,9 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | place | 229→153 | 568／558 | 46／512；512 | 0 | 0 | 312 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 656 |
-| work | 238→218 | 495／477 | 57／420；430 | 5 | 29 | 1,630 |
+| work | 238→218 | 495／477 | 58／419；429 | 5 | 29 | 1,630 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **2,023→1,092** | **5,028／4,806** | **1,277／3,529；3,550** | **9** | **100** | **5,248** |
+| **合计** | **2,023→1,092** | **5,028／4,806** | **1,278／3,528；3,549** | **9** | **100** | **5,248** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2912,3 +2912,13 @@ S3 当前为 same=1,993、new=5,027／4,812组、conflict=9、excluded=100、und
 ### S4 work：Liberi《洪水》画布（2026-10-20）
 
 cand-7664 映射至[《洪水》画布知识卡](../units/works/the-flood-canvas-liberi-bergamo.md)。作品边界限于 Haskell 所称 Liberi 为贝加莫 Santa Maria Maggiore 委托绘制的首幅画布；原题及当代实物身份未核实，成书时“仍在南门上方”的报告不表示当前状态。7条直接 S2 statement 中5条关系候选仍待 S6；无 formal 关系及外部补足。当前 S4 为1,277组/1,478条已登记映射，3,529组/3,550条映射待登记。
+
+
+### S4 work：Scuola del Carmine 第二套天顶装饰方案（2026-10-20）
+
+`cand-8742` 沿用既有 S3 `new` 组 `workgrp-30ad0d8bb1910a`，登记至[第二套天顶装饰方案卡](../units/works/scuola-del-carmine-second-ceiling-scheme.md)。第9章 p.273 称 Tiepolo 提出两种主厅装饰方案；第二方案以启迪兄弟会的德性为周围画布主题，并与第一方案区分。Haskell 称第二方案经少量修改后被选择并实施；本卡不推定具体修改、存世画作身份或最终配置。6条直接 S2 statement 中5条关系候选（st-chp9-p273-second-scheme-chosen-and-executed, st-chp9-p273-second-scheme-depicts-charity, st-chp9-p273-second-scheme-depicts-faith, st-chp9-p273-second-scheme-depicts-hope, st-chp9-p273-tiepolo-proposed-second-scuola-scheme）留待 S6；本批未改动 S2 statements/mentions，未新增 formal 关系、外部身份核验或 S5 补足。S4 当前登记 1,278/4,806 组、1,479/5,028 条映射；待登记 3,528 组／3,549 条映射。
+
+
+### S4 work：Scuola del Carmine 第二方案结构化字段（2026-10-20）
+
+卡片中的1条名称字段与5条基本信息字段已登记至 `enrichment.jsonl`，均由第9章 p.273 原书支持并保留表格单元格和来源定位；未作外部身份核验或外部补足。

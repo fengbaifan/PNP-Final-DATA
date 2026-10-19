@@ -31,7 +31,7 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,241 / 1,298 | 0 | 18 | 694 | 125 / 174 | 1,116 / 1,124 |
+| archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 125 / 174 | 1,115 / 1,124 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 74 / 78 | 157 / 157 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 26 / 36 | 160 / 160 |
@@ -39,9 +39,9 @@
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 46 / 56 | 512 / 512 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 35 / 47 | 893 / 893 |
-| work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 56 / 64 | 421 / 431 |
+| work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 58 / 66 | 419 / 429 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,807 / 5,028** | **9** | **100** | **5,248** | **1,276 / 1,477** | **3,531 / 3,551** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,278 / 1,479** | **3,528 / 3,549** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8331,3 +8331,15 @@ Gini、Savini、Guercino、Ricci等脚注中的若干已核端点与原文相符
 ### S4 work：Pietro Liberi《洪水》画布直接端点登记（2026-10-20）
 
 cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画布知识卡](../../../04-knowledge/units/works/the-flood-canvas-liberi-bergamo.md)。第8章 p.217 将其识别为 Liberi 在贝加莫 Santa Maria Maggiore 委托中的首幅画布；七个月后抵达、委员会拒绝及要求重绘、随后重绘并安置于南门上方均归于 Haskell 的叙述。合同的总价与预付款适用于16幅画，不分摊到本画；“仍在那里”限定为 Haskell 成书时的报告。该组仅含1个候选，来源为单章描述性识别；无外部身份核验。7条直接 S2 statement 中5条关系候选（st-chp8-p217-committee-rejects-flood, st-chp8-p217-flood-arrives-after-seven-months, st-chp8-p217-flood-placed-south-door, st-chp8-p217-flood-repainted, st-chp8-p217-letter-demands-repaint-and-suspension）留待 S6；本批未改动 S2 statements/mentions，未新增 formal 关系或 S5 外部补足。S4 已登记1,277组/1,478条映射，待登记3,529组/3,550条映射。
+
+
+### S4 work：Scuola del Carmine 第二套天顶装饰方案（2026-10-20）
+
+`cand-8742` 沿用既有 S3 `new` 身份组 `workgrp-30ad0d8bb1910a`，登记为[第二套天顶装饰方案卡](../../../04-knowledge/units/works/scuola-del-carmine-second-ceiling-scheme.md)。第9章 p.273 称 Tiepolo 提出主厅装饰的两个方案，第二方案拟以 Faith、Hope、Charity 等德性装饰周围画布；中央画面与第一方案相同。Haskell 称该第二方案经少量修改后被选中并实施。卡片将其限定为来源描述的设计对象，不声称已核实任何对应存世画布、修改细节或最终配置；未新增外部身份或 S5 字段。6条直接 S2 statement 中5条关系候选（st-chp9-p273-second-scheme-chosen-and-executed, st-chp9-p273-second-scheme-depicts-charity, st-chp9-p273-second-scheme-depicts-faith, st-chp9-p273-second-scheme-depicts-hope, st-chp9-p273-tiepolo-proposed-second-scuola-scheme）保留待 S6；本批未写入正式关系。登记后 S4 已登记 1,278 组／1,479 条候选映射，待登记 3,528 组／3,549 条映射。
+
+
+<a id="s4-scuola-second-scheme-structured-fields-20261020"></a>
+
+### S4 work：Scuola del Carmine 第二方案卡片字段结构化（2026-10-20）
+
+从[第二套天顶装饰方案卡](../../../04-knowledge/units/works/scuola-del-carmine-second-ceiling-scheme.md)提取1条名称字段和5条书内基本信息字段，逐条保留 Haskell 第9章 p.273 的 source ID、位置和原始 Markdown 表格单元格；6条均标为 `source_backed`。这是把 S4 卡片的原书属性纳入既有字段索引，不是外部身份核验或外部补足；5条关系候选仍待 S6。
