@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,291组、映射1,492条成员候选；尚待登记3,515组、3,536条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,029（4,806个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,292组、映射1,494条成员候选；尚待登记3,514组、3,535条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,310 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,311 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,621 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |
@@ -173,10 +173,10 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
 | same | 2,023 | 指向 1,092 个既有 KU |
-| new | 5,028 | 按 4,806 个当前身份组进入 S4；每组登记一个 KU |
+| new | 5,029 | 按 4,806 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,248 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,247 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,408** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -334,14 +334,14 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | archive | 90→62 | 1,298／1,240 | 125／1,115；1,124 | 0 | 18 | 694 |
 | event | 7→7 | 235／231 | 74／157；157 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
-| institution | 180→141 | 196／186 | 27／159；159 | 0 | 0 | 121 |
+| institution | 180→141 | 197／186 | 28／158；158 | 0 | 0 | 120 |
 | person | 1,204→450 | 1,171／1,069 | 798／271；273 | 4 | 7 | 1,078 |
 | place | 229→153 | 568／558 | 47／511；511 | 0 | 0 | 312 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 43／885；885 | 0 | 2 | 656 |
 | work | 238→218 | 495／477 | 60／417；427 | 5 | 29 | 1,630 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **2,023→1,092** | **5,028／4,806** | **1,291／3,515；3,536** | **9** | **100** | **5,248** |
+| **合计** | **2,023→1,092** | **5,029／4,806** | **1,292／3,514；3,535** | **9** | **100** | **5,247** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2972,3 +2972,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 ### S4 term：洛多利论述中的新兴古典主义端点（2026-10-20）
 
 `cand-9748`（`sg3-term-cand-9748`）沿用既有 S3 `new` 决定，登记为来源局部术语“洛多利论述中取代晚期巴洛克的古典主义”。第10章 p.321 称该古典主义正在取代晚期巴洛克、并处于洛多利反对的样式之列；p.322 的 “that very classicism” 明确回指前者，称 Memmo、Querini、Farsetti 后来支持它。按来源回指将两处映射到同一 S3 组；不自动并入既有 Neo-classicism KU。四条直接 S2 关系候选的另一端均已有 KU，本批补齐该端点映射；关系仍待 S6 逐条裁决，不写 formal 边、外部身份或 S5 字段。登记后 S4 为 1,291/4,806 组、1,492/5,028 条映射；待登记 3,515 组／3,536 条映射。
+
+
+### S4 institution：Inquisitori di Stato 跨章身份组（2026-10-20）
+
+`cand-9739` 与 `cand-10464` 已按第10章 p.320 及第15章 p.364 注1的同名机构锚点合并登记至[知识卡](../units/institutions/inquisitori-di-stato-venice.md)。后者从 S3 `undecided` 改列 `new`；官方威尼斯国家档案指南用于核对同名机构及档案层级，机构、保管机构和档案记录仍分开。相关四条 S2 关系候选中三条的 KU 端点已齐但均待 S6，另有一条因 `cand-9807` 未决而阻断；本批未新增正式关系或 S5 字段。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-institution-inquisitori-di-stato-20261020)。当前 S4 已登记1,292/4,806组、1,494/5,029条映射；待登记3,514组/3,535条映射。

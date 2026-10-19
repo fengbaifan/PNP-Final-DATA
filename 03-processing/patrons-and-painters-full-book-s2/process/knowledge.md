@@ -34,14 +34,14 @@
 | archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 125 / 174 | 1,115 / 1,124 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 74 / 78 | 157 / 157 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
-| institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 27 / 37 | 159 / 159 |
+| institution | 497 | 180 | 186 / 197 | 0 | 0 | 120 | 28 / 39 | 158 / 158 |
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 47 / 57 | 511 / 511 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 43 / 55 | 885 / 885 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,291 / 1,492** | **3,515 / 3,536** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,029** | **9** | **100** | **5,247** | **1,292 / 1,494** | **3,514 / 3,535** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8468,3 +8468,10 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 该组直接涉及四条 S2 关系候选：`st-chp10-p321-lodoli-rejected-emerging-classicism`、`st-chp10-p322-farsetti-supports-classicism-questioned-by-lodoli`、`st-chp10-p322-memmo-supports-classicism-questioned-by-lodoli`、`st-chp10-p322-querini-supports-classicism-questioned-by-lodoli`；四条的其他端点均已映射至有效 KU。它们只因本次登记而具备完整 S4 端点映射，尚未进行 S6 语义裁决；本批未写正式关系、外部身份或 S5 字段。
 
 登记后 S4 已登记 1,291/4,806 组、1,492/5,028 条候选映射；待登记 3,515 组／3,536 条映射。直接端点队列由 1764 组／1778 条成员映射降至 1763 组／1777 条成员映射。
+
+
+### S3/S4 institution：Inquisitori di Stato 跨章身份组（2026-10-20）
+
+`cand-9739`（第10章 p.320，L159）保留原有 S3 `new` 决定；`cand-10464`（第15章 p.364 注1，L51）由 `undecided` 改为 `new`，与前者共用身份组 `sg3-institution-cand-9739`，两条映射登记至[威尼斯国家审判官机构卡](../../04-knowledge/units/institutions/inquisitori-di-stato-venice.md)。跨章判断依据是第15章脚注明确写出 `Inquisitori di Stato (Busta 540)`，并由威尼斯国家档案官方指南的同名机构条目核对；该外部指南只用于名称及身份，不替代档案原件查阅。机构本体、Archivio di Stato di Venezia 保管机构及 Busta 540 / Annotazioni 档案记录保持分立；不据此推断机构权限、Lodoli 案件详情或档案内容，也不与 `Inquisitori alle Arti` 合并。
+
+四条相关直接 S2 关系候选（`st-chp10-p320-lodoli-dispute-with-inquisitori-over-state-documents`、`st-chp10-p326-inquisitori-opposition`、`st-chp10-p326-inquisitors-interpret-allegories`、`st-chp10-p327-inquisitors-act-four-days-later`）中三条现在有完整 KU 端点，仍待 S6 逐条裁决；`st-chp10-p326-inquisitors-interpret-allegories` 仍被对象端候选 `cand-9807` 的未决身份阻断。本批未写入正式关系或 S5 字段。全书当前 S3 为 same=2,023、new=5,029/4,806组、conflict=9、excluded=100、undecided=5,247；S4 已登记1,292/4,806组、1,494/5,029条映射，待登记3,514组/3,535条映射。直接关系端点待登记队列为1,762组/1,762个直接端点候选/1,776条组成员映射，其中 institution 90组；其余1,752组/1,759条映射不直接作为当前S2关系端点。
