@@ -44,8 +44,8 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 直接关系端点待登队列按类型（组／候选成员）为：person 31／31、institution 96／96、event 144／144、place 232／232、work 340／340、archive 482／482、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。历史预检（2026-10-19、本批前）`build_cards.py --check` 全量预检通过且未写卡片：2,208张卡、3,236张表、11,693行、预计关系派生2,446行、474张卡受关系视图影响、484个文件待渲染。当前卡片派生视图尚未整体同步。
 2026-10-19 Bellori 1976跨章版次组：cand-4377、cand-11157、cand-10981合并至同一archive KU并完成S4；Braidense OPAC RAV0025303与第21章唯一书目项支持身份。两条直接关系候选端点现齐备、仍待S6；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-archive-bellori-1976-cross-chapter-group-20261019)。
 2026-10-19 最新人物端点批次复核20个单候选组：4组改为 `same` 并复用既有人物 KU，16组保持 `new` 且完成 S4 登记。身份判断、边界和外部身份依据见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019)；关系候选仍待 S6，本批未新增正式关系。
-2026-10-19 四组人物端点登记：cand-2685、cand-2700、cand-7353、cand-5833各保留既有S3 new身份组并新增一个person KU；cand-7353另有Treccani DBI身份入口。S4登记至1,181组／1,369条候选映射，待登记为3,630组／3,651条；直接端点队列为1,875组／1,875条（person 31组／31条）。四条S2关系候选留待S6；无formal relation或enrichment新增。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-varda-della-valle-carlo-emanuele-tamizey-20261019)。
-历史快照：1,902组是2026-10-19二十组人物批次完成前的数值；1,882组／1,883条是该批完成后的中间数值；1,880组／1,881条为其后四组人物登记后的中间数值，Bottari档案登记再将直接端点队列降至1,879组／1,879条。当前四个人物端点登记后为1,875组／1,875条。
+2026-10-19 四组人物端点登记（批次快照）：cand-2685、cand-2700、cand-7353、cand-5833各保留既有S3 new身份组并新增一个person KU；cand-7353另有Treccani DBI身份入口。该批后S4登记至1,181组／1,369条候选映射，待登记为3,630组／3,651条；直接端点队列为1,875组／1,875条（person 31组／31条）。四条S2关系候选留待S6；无formal relation或enrichment新增。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-varda-della-valle-carlo-emanuele-tamizey-20261019)。
+历史快照：1,902组是2026-10-19二十组人物批次完成前的数值；1,882组／1,883条是该批完成后的中间数值；1,880组／1,881条为其后四组人物登记后的中间数值，Bottari档案登记再将直接端点队列降至1,879组／1,879条；随后四组人物端点批次后的历史数值为1,875组／1,875条。当前队列以本结果顶部及下方最新统计为准：1,864组／1,864条。
 2026-10-19 回填73条具唯一来源证据的关系 `source_id`；剩余45条（44 formal、1 pending）仍待消歧或补来源依据。关系状态与证据范围未改；详见[S6来源ID修复记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-source-id-exact-url-repair-20261019)。
 
 2026-10-19 后续四组人物批次：cand-7034、cand-7036、cand-0657、cand-1448 均裁决为 `new` 并完成 S4，KU 总数增至2,195；其中 Catherine de’ Medici 与 Philip III of Spain 直接承担 S2 关系候选端点，直接端点待登队列由1,882组／1,883条减至1,880组／1,881条。查理二世与路易十五在本批仅作身份登记，不据此新增正式关系。详见[四组人物裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-batch-four-20261019)。
@@ -68,7 +68,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 ### 后续工作规划
 
 1. **S3 按类型、依赖和证据可得性推进**：当前5,294项 `undecided` 中，优先审查直接承担关系候选端点且已有跨章锚点或可比对既有 KU 的对象；现有7,075个候选曾作为关系候选 statement 的直接端点，其中未决人物437项、未决作品1,129项。随后逐侧处理9项真实冲突（人物4、作品5）；622项未分类候选单列类型判定队列。证据不足的对象保留 `undecided`，写明最小证据缺口与后续去向，不强并。
-2. **S4 按类型先登记直接关系端点**：先处理1,864个待登记组：人物31、机构96、事件144、地点232、作品340、档案482、术语539；再登记其余1,755组。直接端点队列是3,623个待登记组的子集，不重复计数；每批核对组成员映射和 KU 类型。
+2. **S4 按类型先登记直接关系端点**：先处理1,864个待登记组：人物31、机构96、事件144、地点232、作品340、档案482、术语539；再登记其余1,755组。直接端点队列是3,619个待登记组的子集，不重复计数；每批核对组成员映射和 KU 类型。
 3. **S5 定向补证**：围绕关系关键及高影响字段核查1,627条 `unverified` 记录；先解决 `enr-06678`、`enr-06937` 两条来源定位问题，再按关系影响和证据可得性补足，不把结构化填充当作事实核验。
 4. **S6 逐条裁决关系候选**：以10,399条 `relation_candidate=true` statement 为待审范围；对象的 S3/S4 端点和证据齐备后按类型批量给出 formal、pending 或 rejected 去向。330条至少缺一端的候选留待上游身份／端点补齐；关系表中45条缺结构化 `source_id` 另行补证。
 5. **S7 重建发布快照**：待S3–S6状态稳定后，从当前表刷新 release 与 validation report，再解决引用／授权、作者元数据和最终引文；现有 `release/v0.2-draft` 报告仍记录1,019 KU和1,227条关系，不代表当前2,210 KU及1,232条关系的发布状态。知识发现与页面仍暂停。
