@@ -38,10 +38,10 @@
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 47 / 57 | 511 / 511 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 42 / 54 | 886 / 886 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 43 / 55 | 885 / 885 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,290 / 1,491** | **3,516 / 3,537** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,291 / 1,492** | **3,515 / 3,536** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8458,3 +8458,13 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 ### S4 term：第13章威尼斯出版商的两个来源类别端点（2026-10-20）
 
 按候选表和既有S3裁决，`cand-12120`（`sg3-term-cand-12120`）登记为[出版商雇用的雕版工](../../../04-knowledge/units/terms/printmakers-employed-by-venetian-publishers.md)，`cand-12121`（`sg3-term-cand-12121`）登记为[出版商选用于委托的艺术家](../../../04-knowledge/units/terms/artists-selected-for-venetian-publishers-commissions.md)。第13章 p.333 将两类来源称谓置于散页版画与插图书出版活动中：出版商雇用 print makers，并委托适合者绘图、有时绘画。分别保留来源所示类别，不生成成员名单、个人身份或互斥关系。四条直接S2关系候选（`st-chp13-p333-publishers-employed-printmakers`、`st-chp13-p333-publishers-patronized-printmakers`、`st-chp13-p333-publishers-as-patrons-and-reliance-on-patronage`、`st-chp13-p333-publishers-commissioned-suitable-artists`）留待S6逐条裁决；不写formal边或S5字段。登记后S4已登记1,290组／1,491条映射，待登记3,516组／3,537条映射；直接端点队列由1766组／1780成员降至1764组／1778成员。第13章S2独立审读覆盖该页，但章级仍有其他未修问题；本次登记不代表关系成立或章节接收。
+
+<a id="s4-term-lodoli-emerging-classicism-20261020"></a>
+
+### S4 term：洛多利论述中的新兴古典主义端点（2026-10-20）
+
+按既有 S3 决定，`cand-9748`（`sg3-term-cand-9748`）登记为[洛多利论述中取代晚期巴洛克的古典主义](../../../04-knowledge/units/terms/classicism-emerging-against-late-baroque-lodoli-account.md)。来源第10章 p.321 的 “classicism that was beginning to replace it” 与 p.322 的 “that very classicism” 由明确回指连接；候选提及 `m-s2-ch10-p321-0012`、`m-s2-ch10-p322-0006` 保留在同一来源局部概念组。现有 `neo-classicism` KU 的章前序言用法并未证明与本处相同，因此本批落实既有 new 组，不自动合并。
+
+该组直接涉及四条 S2 关系候选：`st-chp10-p321-lodoli-rejected-emerging-classicism`、`st-chp10-p322-farsetti-supports-classicism-questioned-by-lodoli`、`st-chp10-p322-memmo-supports-classicism-questioned-by-lodoli`、`st-chp10-p322-querini-supports-classicism-questioned-by-lodoli`；四条的其他端点均已映射至有效 KU。它们只因本次登记而具备完整 S4 端点映射，尚未进行 S6 语义裁决；本批未写正式关系、外部身份或 S5 字段。
+
+登记后 S4 已登记 1,291/4,806 组、1,492/5,028 条候选映射；待登记 3,515 组／3,536 条映射。直接端点队列由 1764 组／1778 条成员映射降至 1763 组／1777 条成员映射。
