@@ -34,14 +34,14 @@
 | archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 125 / 174 | 1,115 / 1,124 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 74 / 78 | 157 / 157 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
-| institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 26 / 36 | 160 / 160 |
+| institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 27 / 37 | 159 / 159 |
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 47 / 57 | 511 / 511 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 39 / 51 | 889 / 889 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 40 / 52 | 888 / 888 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,286 / 1,487** | **3,520 / 3,541** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,288 / 1,489** | **3,518 / 3,539** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8440,3 +8440,15 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 ### S4 term：圣马可 Procuratore 职位（2026-10-20）
 
 `cand-8449`沿用S3 `new`术语组 `sg3-term-cand-8449`，登记为[圣马可 Procuratore 职位卡](../../../04-knowledge/units/terms/procuratore-di-san-marco-office.md)。类型依据为候选表和S3身份裁决；第9章 p.258、p.259以及第10章 p.326、p.327和第15章 p.367提供跨章书内用例。Haskell分别报告 Marco Foscarini自1741年任职、Pietro Foscarini的职位称谓、Pisani于1780年当选、图像中未具名Procurator，以及Memmo于1787年就任且早两年获任命。本卡将对象范围限于职位术语，不补写制度职能或任命规则，不把图像人物映射到已知人物；以上未作外部核验。5条直接 S2 关系候选（st-chp10-p326-election-1780, st-chp10-p327-political-pictures-iconography, st-chp15-p367-memmo-assumed-procurator-office-1787, st-chp9-p258-marco-held-procuratore-and-doge-offices, st-chp9-p259-pietro-foscarini-procuratore）仍待 S6；本批不登记 formal 关系或 S5 字段。登记后 S4 已登记1,286组／1,487条映射，待登记3,520组／3,541条映射；直接端点队列由1769组／1783成员降至1768组／1782成员。
+
+<a id="s4-term-venetian-artists-collective-category-20261020"></a>
+
+### S4 term：威尼斯艺术家集合称谓（2026-10-20）
+
+`cand-8104`沿用S3 `new`术语组 `sg3-term-cand-8104`，登记为[威尼斯艺术家集合称谓卡](../../../04-knowledge/units/terms/venetian-artists-collective-category.md)。第8章 p.241 及其脚注5、第10章 pp.278、287、298 均提供书内用例，覆盖展览参展者、Gabburri书信往来、英国赞助与艺术品/艺术家海外流动。各段没有固定成员名单；本卡不推定不同用例指同一批个人，不给成员范围添加国籍、居住地或完整性条件。5条直接S2关系候选仍待S6；本次不登记formal边或S5字段。登记后S4已登记1,287组／1,488条映射，待登记3,519组／3,540条映射；直接端点队列由1768组／1782成员降至1767组／1781成员。独立S2复核尚在进行，本登记不构成该五条statement或相关章节的语义接收。
+
+<a id="s4-institution-church-as-patron-in-venice-20261020"></a>
+
+### S4 institution：哈斯克尔威尼斯叙述中的教会机构（2026-10-20）
+
+`cand-8672`沿用S3 `new`机构组 `sg3-institution-cand-8672`，登记为[教会机构卡](../../../04-knowledge/units/institutions/church-as-patron-in-venice-haskell-account.md)。类型和身份边界依候选表及S3记录；第9章 p.268 将“the Church”称为威尼斯当代艺术的领先赞助者、祭坛画需求来源，并联系教堂装饰与贵族理想。本卡只表示书内集体机构主体，不推定法律组织边界、分支或跨时期连续性；与威尼斯共和国、教宗职位、教廷国家及单座教堂保持分立。5条直接S2关系候选（st-chp9-p268-church-altarpiece-market, st-chp9-p268-church-decoration-patrician-ideals, st-chp9-p268-church-leading-patron, st-chp9-p268-history-painters-church-work, st-chp9-p268-noble-commissions）仍待S6；本批不登记formal边或S5字段。登记后S4已登记1,288组／1,489条映射，待登记3,518组／3,539条映射；直接端点队列由1767组／1781成员降至1766组／1780成员。独立S2复核尚在进行，本登记不构成该五条statement或相关章节的语义接收。
