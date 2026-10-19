@@ -8326,3 +8326,8 @@ candidate cand-1784 沿用现行 S3 new 决定及身份组 sg3-place-cand-1784�
 - **文本校勘与日期限定：** `st-chp1-secii-p9-n4-armanni-letter-authored-by`把Haskell注释的印本文字“Armarmi”改为“Armanni”并升格为注释明载；须区分原书文字与校勘依据。`st-chp1-secii-l137-146-02b`删除了“was formed in 1623?”的疑问限定；`st-chp1-secii-l974-980-07`把Ferri来信与Luti/Pascoli后续例证及两个来源层级合并，`st-chp1-secii-l971-973-06`混合de Rosis来信和Baldinucci引文。
 
 Gini、Savini、Guercino、Ricci等脚注中的若干已核端点与原文相符，但不抵消上述阻断。本记录保留完整审读范围和代表ID，不构成S2语义接收或关系裁决。
+
+
+### S4 work：Pietro Liberi《洪水》画布直接端点登记（2026-10-20）
+
+cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画布知识卡](../../../04-knowledge/units/works/the-flood-canvas-liberi-bergamo.md)。第8章 p.217 将其识别为 Liberi 在贝加莫 Santa Maria Maggiore 委托中的首幅画布；七个月后抵达、委员会拒绝及要求重绘、随后重绘并安置于南门上方均归于 Haskell 的叙述。合同的总价与预付款适用于16幅画，不分摊到本画；“仍在那里”限定为 Haskell 成书时的报告。该组仅含1个候选，来源为单章描述性识别；无外部身份核验。7条直接 S2 statement 中5条关系候选（st-chp8-p217-committee-rejects-flood, st-chp8-p217-flood-arrives-after-seven-months, st-chp8-p217-flood-placed-south-door, st-chp8-p217-flood-repainted, st-chp8-p217-letter-demands-repaint-and-suspension）留待 S6；本批未改动 S2 statements/mentions，未新增 formal 关系或 S5 外部补足。S4 已登记1,277组/1,478条映射，待登记3,529组/3,550条映射。
