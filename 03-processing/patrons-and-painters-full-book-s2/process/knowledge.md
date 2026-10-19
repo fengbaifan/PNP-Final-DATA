@@ -8196,3 +8196,30 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 本批新增1张双语卡、1条manifest、1条accepted路径及1条alignment KU映射；未新增S5字段或formal关系。本批后S4已登记1,269／4,812个新增身份组、1,463／5,028条候选映射；待登记3,543组／3,565条映射。直接关系端点待登记队列为1,788组／1,789个直接端点候选／1,803条组成员映射，其中event剩余104组／104成员；非直接端点队列1,755组／1,762条映射。KU=2,288。
 
 验证：`python scripts/build_cards.py --preview --ku units/events/roman-plague-1656` 通过且未写入派生卡片；`python scripts/audit_tables.py --strict-stage --summary` 通过，KU=2,288、S4待登记映射=3,565、`errors=[]`、`s2_missing=[]`。warning仍提示S4积压及S2独立语义审阅未完成。
+
+<a id="s4-work-archive-cross-chapter-20261019"></a>
+
+### S4–S6 work／archive：The Confession 与 Luigi Crespi 著作跨章登记（2026-10-19）
+
+本批沿用既有 S3 `new` 决定，按原书证据完成一个单成员 work 组和一个单成员 archive 组；不做外部身份核验，不宣称读过 Luigi Crespi 原书或注释所引页面。
+
+| candidate | S3 身份组 | 类型与书内锚点 | S4 KU | 交接 |
+|---|---|---|---|---|
+| `cand-6562` | `workgrp-5c7f1d3f61976d` | work；第6章 p.166，`06_CHP-6_sec_v.md` L43；具名绘画 *The Confession* | `units/works/giuseppe-maria-crespi-the-confession` | Haskell称其为Crespi“one of his pictures”；主题未名。注1的“these pictures”按S2范围涉及此画与相邻六幅圣事组，Dresden仅记为Haskell所报位置。 |
+| `cand-6591` | `archive-group-b19e2b1e1847` | archive；第6章 p.166 注1 L69及第21章书目 p.420 L389 | `units/archives/luigi-crespi-vite-pittori-bolognesi-1769` | 书目列 *Vite de’ Pittori bolognesi non descritte nella ‘Felsina Pittrice’*, Roma 1769；第6、8章的 L. Crespi 引文按题名和责任者形式连接，所引页面未读。 |
+
+本批新增2张双语卡、2条manifest、2条accepted路径及2条alignment映射。直接关系端点待登记队列减少2组／2个候选／2条组成员映射；其余类型队列不变。
+
+#### S6 逐项裁决
+
+| statement_id | 决定 | 正式记录 | 理由与后续 |
+|---|---|---|---|
+| `st-chp6-p166-n1-cite` | formal | `rel-1240`，Haskell archive `cites` Luigi Crespi archive | 第6章 p.166 注1明确定位至 L. Crespi p.213；只记录引文路径，不核验被引页。 |
+| `st-chp6-p166-v1-01` | formal（限缩子断言） | `rel-1241`，Giuseppe Maria Crespi `creator_of` *The Confession* | “one of his ... pictures”支持作者归属。S2同句中的从 Bologna 寄给 Cardinal 是另一事件；当前受控谓词未表达该运输关系，本边不代替该事件。 |
+| `st-chp6-p166-n1-confession` | formal | `rel-1242`，*The Confession* `located_at` Dresden | 按Haskell p.166 注1的复数“these pictures”及已登记S2关联范围记录来源所报位置；被引 p.213 未读，不表述为当前馆藏核验。 |
+| `st-chp6-p166-v1-02` | pending | 暂无formal边 | statement将作品连到Poussin，但原文的Poussin是“not been painted since”中的年代／作者参照，真正题材未名。待S2修正端点或将其限定为非关系断言；不新造未名题材KU。 |
+| `st-chp6-p166-v1-04` | rejected（仅作为图谱边） | 无 | Ottoboni的欣喜是Haskell报告的反应；当前受控关系类型无对应项。原书叙述保留在S2，不转为正式边。 |
+| `st-chp6-p166-v1-05`、`st-chp6-p166-n1-sacraments` | pending | 暂无formal边 | 对象是独立S3组 `cand-6563` 六幅圣事画，尚未S4登记；待该组完成后再裁决委托和Dresden位置。 |
+| `st-chp8-p238-note3-ferdinand-letter-published-by-crespi` | pending | 暂无formal边 | Luigi Crespi 著作端点已登记，但原信 `cand-8038` 尚未S4登记；待该archive组完成后再裁决 `published_in`。 |
+
+验证：两张新卡的定点 `build_cards.py --preview --ku` 与 `python scripts/audit_tables.py --strict-stage --summary` 通过；当前 KU=2,290、S4待登记候选映射=3,563、S6关系表=1,242、`errors=[]`、`s2_missing=[]`。机械通过不构成S2全书语义接收；S2审阅和S5/S6剩余队列继续开放。
