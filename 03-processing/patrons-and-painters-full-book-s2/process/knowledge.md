@@ -8133,3 +8133,41 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 本批后 S4 已登记1,254组／1,448条候选成员映射，待登记3,558组／3,580条映射；事件类型已登记59组／63条映射，待登记172组／172条。直接关系端点待登记队列为1,803组／1,804个直接候选／1,818条组成员映射，其中事件剩余119组／119成员；非直接端点队列为1,755组／1,762条映射。KU=2,273。
 
 验证：13张卡片的 build_cards.py --preview --ku 均通过；python scripts/audit_tables.py --strict-stage --summary 通过（KU=2,273、S4待登记映射=3,580、errors=[]、s2_missing=[]）。warning仍包括S4剩余登记、既有 enrichment source_ref 问题 enr-06678／enr-06937，以及S2独立语义审阅未完成。
+
+<a id="s4-event-direct-endpoints-chp2-20261019"></a>
+
+### S4 event：第2章14个直接关系端点身份组登记（2026-10-19）
+
+本批沿用既有 S3 `new` 决定与14个单成员事件组，不重裁身份、不更改组边界。依据原书逐项登记14个事件 KU，并将其候选映射写入 `ku-manifest.csv`、`accepted.yml` 与 `alignment.csv`。所有描述保留作者归因、条件语气、历史场景的图像性或题材性，不把转述自动升级为独立核实。
+
+| candidate | S3身份组 | 书内锚点 | KU | 相关S2关系候选 |
+|---|---|---|---|---|
+| `cand-4428` | `sg3-event-cand-4428` | 02_CHP-2_sec_ii.md:OCR L56; print p. 36 | `units/events/canossa-scene-on-matildas-tomb-relief` | `st-chp2-secii-l52-60-matilda-relief-depicts-canossa` |
+| `cand-4517` | `sg3-event-cand-4517` | 02_CHP-2_sec_ii.md:OCR L125; print p. 41；02_CHP-2_sec_ii.md:OCR L128; print p. 42 | `units/events/council-of-trent` | `st-chp2-secii-l118-125-paul-iii-and-council`；`st-chp2-secii-l127-139-council-of-trent-continuation` |
+| `cand-4592` | `sg3-event-cand-4592` | 02_CHP-2_sec_iv.md:OCR L4; print-page marker absent in opening paragraph before p. 44；02_CHP-2_sec_iv.md:OCR L7; print p. 44 | `units/events/threatened-war-with-spain-urban-viii-era` | `st-chp2-seciv-l3-4-richelieu-spain-war-fragment`；`st-chp2-seciv-l6-17-threatened-war-involves-italy` |
+| `cand-4594` | `sg3-event-cand-4594` | 02_CHP-2_sec_iv.md:OCR L3; print-page marker absent in opening paragraph before p. 44；02_CHP-2_sec_iv.md:OCR L8; print p. 44 | `units/events/francesco-barberini-paris-legation-1625` | `st-chp2-seciv-l6-17-paris-mission-outcome`；`st-chp2-seciv-l6-17-madrid-mission-failure` |
+| `cand-4603` | `sg3-event-cand-4603` | 02_CHP-2_sec_iv.md:OCR L15–16; print p. 44 | `units/events/francesco-barberini-madrid-mission` | `st-chp2-seciv-l6-17-madrid-mission`；`st-chp2-seciv-l6-17-madrid-mission-failure` |
+| `cand-4642` | `sg3-event-cand-4642` | 02_CHP-2_sec_iv.md:OCR L48; print p. 47 | `units/events/street-brawl-and-murder-involving-taddeo-barberini` | `st-chp2-seciv-l45-52-taddeo-murder-involvement` |
+| `cand-4698` | `sg3-event-cand-4698` | 02_CHP-2_sec_iv.md:OCR L99; print p. 52 | `units/events/capture-of-la-rochelle-in-bracciolini-poem-series` | `st-chp2-seciv-l96-104-series-subject-capture` |
+| `cand-4700` | `sg3-event-cand-4700` | 02_CHP-2_sec_iv.md:OCR L99; print p. 52 | `units/events/conversion-of-bulgaria-in-bracciolini-poem-series` | `st-chp2-seciv-l96-104-series-subject-bulgaria` |
+| `cand-4761` | `sg3-event-cand-4761` | 02_CHP-2_sec_iv.md:OCR L132–133; print p. 55 | `units/events/jesuit-statutes-centenary-reception-gesu-1639` | `st-chp2-seciv-l127-137-antonio-1639-jesuit-centenary-reception` |
+| `cand-4822` | `sg3-event-cand-4822` | 02_CHP-2_sec_iv.md:OCR L186; print p. 58；02_CHP-2_sec_iv.md:OCR L245; print p. 58 | `units/events/inondazione-del-tevere-performance-carnival-1638` | `st-chp2-seciv-l181-188-inondazione-performed-carnival-1638`；`st-chp2-seciv-l190-245-later-bernini-account` |
+| `cand-4823` | `sg3-event-cand-4823` | 02_CHP-2_sec_iv.md:OCR L186; print p. 58 | `units/events/prior-year-flood-said-to-inspire-bernini-play` | `st-chp2-seciv-l181-188-play-inspired-by-prior-year-flood` |
+| `cand-4965` | `sg3-event-cand-4965` | 02_CHP-2_sec_viii.md:OCR L12; print p. 62；07_CHP-7_sec_i.md:source-file line 301; print p. 192；07_CHP-7_sec_iv.md:OCR L7–8; print p. 193 | `units/events/thirty-years-war` | `st-chp2-sec-viii-l9-14-war-end-and-france-change-papal-situation`；`st-chp7-p172-cont-i15`；`st-chp7-p193-war-vienna` |
+| `cand-11879` | `sg3-event-cand-11879` | 02_CHP-2_sec_ii.md:OCR L22–23; print p. 33 | `units/events/henri-iv-reconciliation-1593` | `st-chp2-sec-ii-l20-28-protestant-advance-and-events` |
+| `cand-12301` | `sg3-event-cand-12301` | 02_CHP-2_sec_iv.md:OCR L60; print p. 48 | `units/events/guido-bentivoglio-nunciature-missions-flanders-paris` | `st-chp2-seciv-l54-63-guido-missions-shape-taste-and-writings`；`st-chp2-seciv-l54-63-guido-missions-provided-writing-material` |
+
+语义边界：
+- `cand-4428`只登记墓碑浮雕呈现的坎诺莎跪拜场景，图像不独立证明历史细节；`cand-4517`只保留哈斯克尔关于保罗三世召集特伦托会议的简要指称。
+- `cand-4592`为未声称实际爆发的战争威胁；`cand-4594`、`cand-4603`分别登记赴巴黎与马德里的使节任务，日期按原文限定。
+- `cand-4642`保留塔代奥“牵涉”街头斗殴与凶杀及“within three years”的模糊起点，不推定其责任或受害者。
+- `cand-4698`、`cand-4700`登记为布拉乔利尼诗歌系列所提事件题材，不补入战事／皈依过程或独立事实；`cand-4823`保留“1638演出前一年洪水”的相对时间，不反推具体年份。
+- `cand-4761`按原书登记安东尼奥枢机组织的1639年Gesù百年纪念招待会及萨基临时装饰；`cand-4822`登记狂欢节演出，并保留多梅尼科后来的记述作为另一来源陈述。
+- `cand-4965`以第2、7章的同一战争指称为跨章身份组；statement ID `st-chp7-p172-cont-i15` 的后缀写作 p172，但其来源文件行301位于 `[Page 192]` 标记之后，本卡按来源页标引 p192，相关S2定位须在关系裁决前定点核对。
+- `cand-11879`保留哈斯克尔关于1593年和解及其历史作用的表述；`cand-12301`保留本蒂沃格里奥于1621年前在佛兰德与巴黎使节任职约十四年的来源限定，不拆造未经记载的逐项日期。
+
+14张卡均含双语描述、原书定位、句意摘要及原文摘录；本批新增14条manifest、accepted和alignment映射。共21条相关S2关系候选仍待S6逐项裁决；未新增enrichment字段、外部身份依据或formal关系。
+
+本批后全书S4已登记1,268／4,812个新增身份组、1,462／5,028条候选映射；待登记3,544组／3,566条映射。事件类型累计登记73组／77条映射，待登记158组／158条；直接关系端点待登记队列降为1,789组／1,790个直接端点候选／1,804条组成员映射，其中事件剩余105组／105成员。KU=2,287。
+
+验证：14张卡片逐张 `build_cards.py --preview --ku` 通过；`python scripts/audit_tables.py --strict-stage --summary` 通过，errors=[]、s2_missing=[]。本批变更未涉及S2 statement内容或S6正式关系表。
