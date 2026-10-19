@@ -8089,4 +8089,47 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 
 本批后 S4 已登记1,241组／1,435条成员候选映射，待登记3,571组／3,593条；event 类型已登记46组／50条、待登记185组／185条。直接关系端点待登记队列为1,816组／1,817个直接端点候选／1,831条组成员映射，其中 event 剩余132组／132成员；非直接端点队列为1,755组／1,762条映射。KU=2,260。
 
-验证：六张卡片 `build_cards.py --preview --ku` 均通过且没有文件写入；`python scripts/audit_tables.py --strict-stage --summary` 通过，KU=2,260、S4待登记映射=3,593、`errors=[]`、`s2_missing=[]`。仍有S4积压、两条既有 enrichment `source_ref`问题及S2独立语义审阅未完成警告。
+验证：六张卡片 build_cards.py --preview --ku 均通过且没有文件写入；python scripts/audit_tables.py --strict-stage --summary 通过，KU=2,260、S4待登记映射=3,593、errors=[]、s2_missing=[]。仍有S4积压、两条既有 enrichment source_ref 问题及S2独立语义审阅未完成警告。
+
+<a id="s4-event-direct-endpoints-chp4-20261019"></a>
+
+### S4 event：第4章13个直接关系端点组登记（2026-10-19）
+
+本批沿用既有 S3 new 决定和单成员事件组，不重裁身份、不更改组边界。依据第4章书内来源登记13个事件 KU，并为相应候选补齐 KU 外键。
+
+| candidate | S3 身份组 | 书内锚点 | S4 KU | S2 关系候选 |
+|---|---|---|---|---|
+| cand-5573 | sg3-event-cand-5573 | 第4章 p.98 L37；跨章参照第6章 p.160 L47 | units/events/queen-christina-conversion-before-1655-visit | st-chp6-p160-christina-arrival-conversion |
+| cand-5576 | sg3-event-cand-5576 | 第4章 p.98 L37–L38 | units/events/queen-christina-bracciano-concert-1655 | st-chp4-sec-i-l35-40-concert |
+| cand-5625 | sg3-event-cand-5625 | 第4章 p.98 注3，OCR L66 | units/events/isabella-de-medici-strangling-as-reported | st-chp4-sec-i-l42-67-fn98-white-devil-inspiration |
+| cand-5641 | sg3-event-cand-5641 | 第4章 p.113 注9；脚注见来源文件 p.119 页段 L233 | units/events/federico-cesi-death-1630 | st-chp4-sec-ii-l232-308-cesi-died-1630; st-chp4-sec-ii-l232-308-lincei-disintegrated-after-cesi-death |
+| cand-5668 | sg3-event-cand-5668 | 第4章 p.101 L26 | units/events/spanish-report-vegetables-from-man-stomach | st-chp4-sec-ii-l24-31-spain-report |
+| cand-5669 | sg3-event-cand-5669 | 第4章 p.101 L26 | units/events/milan-plague-ointment-report | st-chp4-sec-ii-l24-31-milan-plague-report |
+| cand-5680 | sg3-event-cand-5680 | 第4章 p.101 L29–L30 | units/events/cassiano-dal-pozzo-roman-antiquities-recording-project | st-chp4-sec-ii-l24-31-recording-enterprise |
+| cand-5876 | sg3-event-cand-5876 | 第4章 p.110 L134–L136 | units/events/flight-into-egypt-event-depicted-by-testa | st-chp4-sec-ii-p110-counterreformation-associations; st-chp4-sec-ii-p110-testa-print-dedicated-flight; st-chp4-sec-ii-p110-flight-associated-with-passion; st-chp4-sec-ii-p110-flight-subsidiary-role |
+| cand-5895 | sg3-event-cand-5895 | 第4章 p.111 L146 | units/events/pietro-testa-imprisonment-contract-breach | st-chp4-sec-ii-p111-testa-imprisonment |
+| cand-5914 | sg3-event-cand-5914 | 第4章 p.112 L154–L155 | units/events/pietro-testa-suicide-tiber-1650 | st-chp4-sec-ii-p112-suicide-date; st-chp4-sec-ii-p112-testa-suicide; st-chp4-sec-ii-p112-tiber-suicide-location |
+| cand-5919 | sg3-event-cand-5919 | 第4章 p.113 L162 | units/events/cassiano-dal-pozzo-death-1657 | st-chp4-sec-ii-p113-cassiano-death |
+| cand-5927 | sg3-event-cand-5927 | 第4章 p.113 注4；脚注见来源文件 p.119 页段 L290 | units/events/carlo-antonio-dal-pozzo-death-1689 | st-chp4-sec-ii-notes-p113-fn4-painting-collection |
+| cand-5977 | sg3-event-cand-5977 | 第4章 p.117 L209 | units/events/peace-of-pyrenees | st-chp4-sec-ii-p117-pyrenees-balance |
+
+语义边界与交接：
+
+- cand-5573：结合第4章“赴意前皈依”与第6章“1655年首次到罗马、皈依天主教时28岁”的表述；未推定皈依日期或地点。
+- cand-5576：音乐会置于1655年赴意叙述中；同段先提布拉恰诺过夜，但没有单独标明音乐会的日期、场所或曲目。
+- cand-5625：只登记 Haskell 脚注所述的缢死事件及其对白魔鬼的影响说法，未作独立核验。
+- cand-5641：脚注将费德里科·切西之死定于1630年；林琴科学院在其死后瓦解是另一个先后陈述，不推断为因果。
+- cand-5668、cand-5669：分别记录寄给 Cassiano 的西班牙奇闻报告和来自米兰通信者对瘟疫软膏指控的半信半疑转述；不把报告内容写成已核实事件。
+- cand-5680：记录卡西亚诺组织绘制罗马遗存的长期计划；“超过23卷”明确属于 Haskell 转述同时代人的说法。
+- cand-5876：区分圣经叙事与泰斯塔版画；原书 OCR 将 Egyptwith 连写，卡片引文照录，未静默校改。
+- cand-5895：限于 Haskell 所述泰斯塔试图离开赞助人后因违约入狱，不补充日期、司法过程或独立事实。
+- cand-5914：保留 Haskell 对自尽方式、台伯河地点和1650年年份的表述，不增补具体日期或河段。
+- cand-5919：保留 Haskell 所记1657年死亡年份；原段未给出地点。
+- cand-5927：脚注位置记作 p.113 注4，同时注明 OCR 脚注文本位于来源文件 p.119 页段；probably 及 not very long after 保持为概率和模糊时间限定。
+- cand-5977：只记录 Haskell 在外交叙述中所称即将通过《比利牛斯和约》确立力量平衡；该段没有给出签订日期或地点，OCR 的 whowere 连写在引文中保留。
+
+十三张卡均含双语描述、来源句意摘要与逐段原文；新增13条 manifest、accepted 和 alignment 映射。相关19条 S2 关系候选仍待 S6 逐条裁决；未新增 enrichment 字段、外部身份依据或 formal relation。
+
+本批后 S4 已登记1,254组／1,448条候选成员映射，待登记3,558组／3,580条映射；事件类型已登记59组／63条映射，待登记172组／172条。直接关系端点待登记队列为1,803组／1,804个直接候选／1,818条组成员映射，其中事件剩余119组／119成员；非直接端点队列为1,755组／1,762条映射。KU=2,273。
+
+验证：13张卡片的 build_cards.py --preview --ku 均通过；python scripts/audit_tables.py --strict-stage --summary 通过（KU=2,273、S4待登记映射=3,580、errors=[]、s2_missing=[]）。warning仍包括S4剩余登记、既有 enrichment source_ref 问题 enr-06678／enr-06937，以及S2独立语义审阅未完成。
