@@ -34,9 +34,9 @@
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 43 / 53 | 515 / 515 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
-| work | 2,397 | 238 | 478 / 494 | 5 | 29 | 1,631 | 52 / 58 | 426 / 436 |
+| work | 2,397 | 238 | 478 / 494 | 5 | 29 | 1,631 | 54 / 60 | 424 / 434 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,982** | **4,812 / 5,027** | **9** | **100** | **5,289** | **1,199 / 1,393** | **3,613 / 3,634** |
+| **合计** | **12,407** | **1,982** | **4,812 / 5,027** | **9** | **100** | **5,289** | **1,201 / 1,395** | **3,611 / 3,632** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -7814,8 +7814,21 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 
 四条直接S2候选 `st-chp15-p370-note1-querini-alticchiero-inventory`、`st-chp15-p370-note1-inventory-of-querini-effects`、`st-chp15-p370-note1-inventory-records-alticchiero`、`st-chp15-p370-note1-inventory-published-in-levi` 均保留S6裁决；目前不将转引定位写成已独立核实的馆藏或正式关系。
 
-#### 本批登记与当前状态
+#### 本批完成时状态（2026-10-19）
 
 三组均为单候选组，新增3张双语KU卡、3条manifest登记和3条现行candidate-to-KU映射；没有新增来源、S5字段或formal关系。S3决定数不变；S4当前为1,199组／1,393条成员已登记，3,613组／3,634条映射待登记。直接关系端点待登由1,862组降至1,859组／1,859个成员：person 30、archive 478，其余institution 96、event 144、place 232、work 340、term 539。本批10条S2关系候选均以这三个对象之一为端点；另一端点是否齐备、证据限定与谓词是否成立仍须逐条S6审查，不能仅凭本次S4登记认定关系已可正式入图。`relations.csv` 保持1,239条（1,237 formal、2 pending）。S2总关系候选仍为10,399条，空候选端点仍为330条，不与本次S4登记计数合并。
 
-- 验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（KU=2,218、alignments=12,715、待登记映射=3,634、errors=[]、s2_missing=[]）；`python scripts/build_cards.py --check` 通过（2,218 cards、3,238 tables、11,702 rows、预计2,460条派生关系行，476张卡有关系差异、487个文件有派生差异；未写卡片）；`git diff --check` 通过。审计仍提示3,634条S4候选映射待登记、`enr-06678`／`enr-06937`来源定位未解决，以及S2语义质量尚待独立审查。
+- 本批验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（KU=2,218、alignments=12,715、待登记映射=3,634、errors=[]、s2_missing=[]）；`python scripts/build_cards.py --check` 通过（2,218 cards、3,238 tables、11,702 rows、预计2,460条派生关系行，476张卡有关系差异、487个文件有派生差异；未写卡片）；`git diff --check` 通过。该快照仍提示3,634条S4候选映射待登记、`enr-06678`／`enr-06937`来源定位未解决，以及S2语义质量尚待独立审查。
+
+<a id="s3-s4-work-direct-endpoints-20261019"></a>
+
+### S3–S4 work直接关系端点组登记：Pomerancio祭坛画与Legros临终像（2026-10-19）
+
+本批沿用两项既有S3 `new` 决定，各为单候选组；未改动S3裁决或外部身份状态。
+
+- `cand-5046` → `workgrp-26f0a5c1e47097` → `units/works/pomerancio-altarpiece-st-domitilla-nereus-achilleus`。第3章 p.69 将对象称为一幅祭坛画，描绘圣多米蒂拉位于圣涅柔斯与圣阿基琉斯之间，并记其姿态与神情。卡片使用描述性暂题，不冒充原题；Pomerancio作者归属保留为哈斯克尔的原书表述，地点端点 `cand-5050` 仍未决。五条作品描绘、作者及地点S2关系候选保留待S6逐条裁决。
+- `cand-5440` → `workgrp-50dca9ed7719ab` → `units/works/legros-st-stanislas-kostka-deathbed-figure`。第3章 p.93 称 Legros 制作一件圣斯坦尼斯劳斯·科斯特卡临终时的多彩人物像，并记其存放在初学院一间光线昏暗的房间；注1所引移动提议没有指定目的教堂，也不证明实际迁移。卡片与同章另述、由 Carlo Maratta 绘制并位于 S. Andrea al Quirinale 的 `cand-5352` 作品明确区分。五条作者、存放、引述和迁移S2关系候选保留待S6逐条裁决。
+
+新增2张双语work卡、2条manifest记录及2条candidate-to-KU映射，并将12条源文本支持的卡内属性写入结构化字段表；未新增S5外部补足或formal关系。S3决定总数不变。S4当前已登记1,201组／1,395条映射，待登记3,611组／3,632条映射；直接关系端点队列由1,859组降至1,857组／1,857个成员，其中work由340降至338，其他类型不变。`relations.csv`仍为1,239条；本批10条S2候选均未因端点登记自动转为formal。
+
+- 验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（KU=2,220、alignments=12,715、待登记候选映射=3,632、enrichment=11,714〔unverified=1,627〕、独立卡片表=3,240／行=11,714、errors=[]、s2_missing=[]）；警告为S4待登记映射、历史字段 `enr-06678`／`enr-06937` 来源定位及S2独立语义审查提示。`python scripts/build_cards.py --check` 预检通过（2,220张卡、3,240张表、11,714行；预计2,460条派生关系行、478张卡有关系变化、489个文件存在派生差异；未写卡片）；`git diff --check` 通过。
