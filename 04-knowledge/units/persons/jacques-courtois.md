@@ -55,8 +55,8 @@ sources:
     source_file: 02-sources/02-Markdown/03_CHP-3_sec_iv.md
     source_span: lines 106–116; print p. 88
 created: '2026-10-16'
-updated: '2026-10-16'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-index-reuse-remaining-20261019
 ---
 
 ## 内容
@@ -87,9 +87,9 @@ English: The normalized name follows Jacques Courtois in Chapter 3; Giacomo Borg
 
 ### 身份边界
 
-中文：本卡指 Jacques Courtois／Giacomo Borgognone，不与其兄弟 Guglielmo 合并。候选 cand-0401、cand-0402 的正文对象是 Guglielmo Borgognone，依据第3章的兄弟关系复用既有人物卡 units/persons/guglielmo-cortese；不把兄弟的 Martyrdom of St. Andrew 委托或其他作品归给本卡。cand-0400 只有索引子目、没有正文锚点，仍为 undecided。关于其妻身份、匿名告解神父及未具名赞助人等候选也不在本卡推定。S2 正式关系候选仍待 S6 审查。
+中文：本卡指 Jacques Courtois／Giacomo Borgognone，不与其兄弟 Guglielmo 合并。候选 cand-0401、cand-0402 的正文对象是 Guglielmo Borgognone，依据第3章的兄弟关系复用既有人物卡 units/persons/guglielmo-cortese；不把兄弟的 Martyrdom of St. Andrew 委托或其他作品归给本卡。cand-0400（B.csv#247）现 same 映射至本卡：第3章 pp.78–79 明确将 Giacomo Borgognone 与 Jacques Courtois 对应。此身份判断不确认索引子目所列素描归属。关于其妻身份、匿名告解神父及未具名赞助人等候选也不在本卡推定。S2 正式关系候选仍待 S6 审查。
 
-English: This card refers to Jacques Courtois / Giacomo Borgognone and remains separate from his brother Guglielmo. Candidates cand-0401 and cand-0402 refer to Guglielmo Borgognone and reuse the existing person card units/persons/guglielmo-cortese on the basis of the Chapter 3 sibling passages. The brother's Martyrdom of St. Andrew commission and other works are not assigned to this card. Candidate cand-0400 has only an index subentry and no body anchor, so it remains undecided. The identity of Courtois's wife, an unnamed confessor, and unnamed patrons is not inferred here. S2 relation candidates remain for S6 review.
+English: This card refers to Jacques Courtois / Giacomo Borgognone and remains separate from his brother Guglielmo. Candidates cand-0401 and cand-0402 refer to Guglielmo Borgognone and reuse the existing person card units/persons/guglielmo-cortese on the basis of the Chapter 3 sibling passages. The brother's Martyrdom of St. Andrew commission and other works are not assigned to this card. Candidate cand-0400 (B.csv#247) now maps as same to this card: Chapter 3 pp.78–79 explicitly identifies Giacomo Borgognone as Jacques Courtois. This identity decision does not confirm the index subentry's drawing attribution. The identity of Courtois's wife, an unnamed confessor, and unnamed patrons is not inferred here. S2 relation candidates remain for S6 review.
 
 ## 关系与证据
 

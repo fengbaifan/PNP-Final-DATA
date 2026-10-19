@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
-| person | 3,464 | 1,163 | 1,069 / 1,171 | 4 | 7 | 1,119 | 769 / 869 | 300 / 302 |
+| person | 3,464 | 1,203 | 1,069 / 1,171 | 4 | 7 | 1,079 | 769 / 869 | 300 / 302 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 43 / 53 | 515 / 515 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 238 | 478 / 494 | 5 | 29 | 1,631 | 54 / 60 | 424 / 434 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,982** | **4,812 / 5,027** | **9** | **100** | **5,289** | **1,201 / 1,395** | **3,611 / 3,632** |
+| **合计** | **12,407** | **2,022** | **4,812 / 5,027** | **9** | **100** | **5,249** | **1,201 / 1,395** | **3,611 / 3,632** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -48,7 +48,7 @@
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,289项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的1,982条候选指向1,056个既有KU；new候选组成4,812个类型内身份组，共5,027条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,199组／1,393条映射已登记，3,613组／3,634条成员映射尚待登记，其中直接关系端点待登记1,859组／1,859个成员。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,702条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,249项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的2,022条候选指向1,092个既有KU；new候选组成4,812个类型内身份组，共5,027条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,201组／1,395条映射已登记，3,611组／3,632条成员映射尚待登记，其中直接关系端点待登记1,857组／1,857个直接端点候选、共含1,871条组成员映射。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,714条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 <a id="s3-s4-alazard-strozzi-cross-type-batch-20261019"></a>
 
@@ -7832,3 +7832,64 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 新增2张双语work卡、2条manifest记录及2条candidate-to-KU映射，并将12条源文本支持的卡内属性写入结构化字段表；未新增S5外部补足或formal关系。S3决定总数不变。S4当前已登记1,201组／1,395条映射，待登记3,611组／3,632条映射；直接关系端点队列由1,859组降至1,857组／1,857个成员，其中work由340降至338，其他类型不变。`relations.csv`仍为1,239条；本批10条S2候选均未因端点登记自动转为formal。
 
 - 验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（KU=2,220、alignments=12,715、待登记候选映射=3,632、enrichment=11,714〔unverified=1,627〕、独立卡片表=3,240／行=11,714、errors=[]、s2_missing=[]）；警告为S4待登记映射、历史字段 `enr-06678`／`enr-06937` 来源定位及S2独立语义审查提示。`python scripts/build_cards.py --check` 预检通过（2,220张卡、3,240张表、11,714行；预计2,460条派生关系行、478张卡有关系变化、489个文件存在派生差异；未写卡片）；`git diff --check` 通过。
+
+<a id="s3-person-index-reuse-russo-ruffo-20261019"></a>
+
+### S3 person：索引姓名候选复用既有人物 KU（2026-10-19）
+
+本批将11项索引候选映射到6张已登记人物 KU；每项原有 alignment_id 不变，旧 undecided 理由保留，并在现行记录中追加 same 决定及本批锚点。候选均为索引播种项，没有各自映射的 S2 正文提及；逐一检查了其索引主项／子项、所列页码与既有人物卡的书内锚点。精确核对 book-statements.jsonl 的 subject_candidate_id 和 object_candidate_id 后，确认这11项均不是当前 S2 关系的直接端点，故本批不改变 S6 可审关系数。
+
+- cand-0123 → units/persons/orazio-arrighi-landini：A.csv#124 的 Tempio della Filosofia 子项指向 p.301 注6；同页原文明确称诗人 Arrighi-Landini，既有卡据同一注释记录。
+- cand-0400 → units/persons/jacques-courtois：B.csv#247 将 Giacomo Borgognone 与 Jacques Courtois 并列，子项定位 p.79；第3章 pp.78–79 明确写出两种姓名对应。此映射只裁人物身份，不据索引子项确认具体素描归属。
+- cand-1639、cand-1640 → units/persons/niccolo-melanconici：M.csv#179–180 将 Melanconici 置于 p.220–221 的 S. Maria Maggiore, Bergamo 作品语境；既有人物卡已记录相同连续段落及同名人物。两行是同一人物的主项／子项定位，不另建人。
+- cand-2276、cand-2277、cand-2278 → units/persons/andrea-del-rosso：Q-R.csv#204–206 的主项及 pp.212–213 子项归在 Andrea del Rosso 名下；第8章 p.211 已明确识别其为三兄弟中的长兄，pp.212–213 接续叙述其家族、礼拜堂与收藏。索引语境不提升为新的关系事实。
+- cand-2305、cand-2308 → units/persons/tommaso-ruffo：Q-R.csv#233、#236 将两条子项列在 Cardinal Tommaso Ruffo 主项下，定位 pp.222–223。核对第8章 PDF 物理页23（印刷页221）时，页图首处姓名清楚印作 “Cardinal Tommaso Ruffo”；本地 OCR 同行 L115 误转为 “Russo”。p.224 所引 Biblioteca Ariostea 手稿题名也作 Tommaso Ruffo。页图只解决该行 OCR 异读；本批不将页面其余 Russo 形式一概改写，也不裁决相关作品和委托关系。
+- cand-2641、cand-2642 → units/persons/pietro-antonio-toni：T.csv#104–105 两条 p.345 子项归在 Don Pietro Antonio Toni 主项下；第13章 p.345 正文以全名介绍同一神父，既有卡锚定于该段。Novelli、Ricci 子项仅作索引定位，不在此登记关系。
+
+本批 S3 决定变化：same +11（总计1,993；指向1,056个既有 KU），undecided −11（总计5,278）；其中 person same=1,174、undecided=1,108。new 5,027／4,812组、conflict 9、excluded 100 均不变。未新建 KU、身份组、外部身份记录、enrichment 或 formal relation。Tommaso Ruffo 卡已同步记录 p.221 页图读法、OCR 差异及两项候选的 same 去向。
+
+下一批优先从直接关系端点中的 S3 未决候选按类型筛选，检查正文身份锚点、既有同类型 KU 与跨章组边界；身份未定的关系端点保持 pending。
+
+验证：严格阶段表审计通过；11项 same 均指向有效 person KU，候选决定唯一且理由可追溯。页面预检只检查派生差异，不写回全库卡片。
+
+<a id="s3-person-index-reuse-remaining-20261019"></a>
+
+### S3 person：索引候选复用既有人物 KU（第二批，2026-10-19）
+
+本批复核并裁决29项人物索引候选，均 same 映射至现有同类型 person KU；与上一批合计完成预备的40项候选（含两项 Ruffo 拼写核对）。每项原 alignment_id 保持不变，旧 undecided 理由留在 resolution_note 历史中，并追加当前证据及 KU 外键。没有依据名称相似单独合并：本批核对了各条索引主项／子项、候选所列页码、同一书内的正文人名锚点及目标卡片。
+
+| 候选 | 映射 KU | 身份依据与边界 |
+|---|---|---|
+| cand-0103 | units/persons/francesco-andreosi | A.csv#104 的 Andreosi 主项；第15章 p.366 正文全名与既有卡一致。 |
+| cand-0242 | units/persons/agostino-barelli | B.csv#89 主项对应同卡的两条 p.193 建筑子项；目标卡记载 Barelli 的正文语境。 |
+| cand-0256 | units/persons/virgilio-bassanino | B.csv#103，p.232《Sabines之劫》子项；目标卡同页引文明确写 Virgilio Bassanino。 |
+| cand-0340 | units/persons/cardinal-de-bernis | B.csv#187，pp.271n、369n 与现有卡片的两处同名注释重合；不扩展索引未列的履历。 |
+| cand-0424 | units/persons/pietro-bracci | B.csv#271 主项；p.93 正文及目标卡均全名列 Pietro Bracci。 |
+| cand-0442 | units/persons/francesco-bracciolini | B.csv#289，pp.52–53 天花板方案子项；第2章 p.51 全名与 p.52 延续语境对应同一诗人。 |
+| cand-0490 | units/persons/giovanni-angelo-da-camerino | C.csv#14 的全名对应第2章 p.58 注中同名画家。索引页码 55n 与现有 OCR 正文锚点 p.58 不一致；本裁决只复用身份，不声称已核实 55n 定位。 |
+| cand-0492 | units/persons/colen-campbell | C.csv#16 Campbell 主项；第10章 p.309 正文全名与现有卡一致。 |
+| cand-0807 | units/persons/prince-francesco-colonna | C.csv#337 的 Prince Francesco Colonna 主项与 p.31 “sale of Castle of Roviano”子项属同一索引主词；p.31 注5既有卡全名相同。p.21n 主项定位在 OCR 中未找到，不据此补写该页内容。 |
+| cand-0831 | units/persons/antonio-conti | C.csv#361，p.319 绘画论著子项；第10章 pp.318–319 正文以全名称 Antonio Conti。 |
+| cand-0891 | units/persons/donato-creti | C.csv#425，pp.222–223 Cardinal Tommaso Ruffo 子项；目标卡同页记载 Donato Creti。身份映射不确认索引暗示的委托事实。 |
+| cand-0909 | units/persons/ludovico-david | D.csv#11，pp.88、220；第8章 p.220 正文全名直接对应目标卡。 |
+| cand-1023 | units/persons/andrea-ferrerio | F.csv#38 Ferrerio 主项；第8章 pp.221–222 称雕塑家 Andrea Ferrerio，目标卡锚定同段。 |
+| cand-1225 | units/persons/antonio-del-grande | G.csv#133，p.148；第6章正文与目标卡同名记载 Antonio del Grande。 |
+| cand-1388 | units/persons/giacomo-della-lena | L.csv#45，p.375 F. Guardi 子项；第16章 p.375 正文以全名介绍 Abate Giacomo della Lena。 |
+| cand-1432 | units/persons/pietro-longhi | L.csv#89，pp.323–324 “Gasparo Gozzi and”子项；第10章 p.323 正文点名 Pietro Longhi。索引并列不单独确立二人关系。 |
+| cand-1443 | units/persons/johann-karl-loth | L.csv#101，p.233 Grand Prince Ferdinand 子项；第8章 p.233 以 Karl Loth 指同一画家。身份映射不确认子项暗示的关系。 |
+| cand-1550 | units/persons/giambattista-marino | M.csv#89，p.38 Poussin 子项；第2章 p.38 正文以全名介绍那不勒斯诗人。 |
+| cand-1579 | units/persons/tommaso-mattei | M.csv#118 Mattei 主项；第8章 p.221 正文以 Tommaso Mattei 称建筑师，目标卡记录同一段。 |
+| cand-1665 | units/persons/francesco-milizia | M.csv#205，p.371n；第15章注1与目标卡均以全名列 Milizia。 |
+| cand-1694 | units/persons/count-of-monterey | M.csv#235，p.172 Ribera 子项；第5、7章及目标卡的同名西班牙赞助人语境相接。 |
+| cand-1980 | units/persons/henry-first-duke-portland | P.csv#182，p.280 Ricci 子项；第10章 pp.279–280 明称 Henry、其父及其 Duke of Portland 爵位承袭。 |
+| cand-2195 | units/persons/duke-of-richmond-mcswiny-british-worthies | Q-R.csv#122，p.289n 系列收藏子项；现有卡已用 Lord March 于1723年成为里士满公爵及同组信件语境识别该人。 |
+| cand-2268 | units/persons/carlo-de-rossi | Q-R.csv#196，pp.143、144、153、190 与目标卡所据同一 Carlo de’ Rossi 全名相符。 |
+| cand-2717 | units/persons/antonio-da-venezia | UVWXYZ.csv#53 的倒置、带 Padre 称谓姓名，与第13章 p.335 注2题名前置署名 Padre Antonio da Venezia 及目标卡同一题名相合。 |
+| cand-2782 | units/persons/pietro-visconti | UVWXYZ.csv#118，p.259n、323n；p.323 注6与 p.259 注3重复指向 Visconti 致 Gian Pietro Ligari 的 1749 信及 Arslan 1952 p.63，目标卡已有该身份锚点。 |
+| cand-2809 | units/persons/adrian-van-der-werff | UVWXYZ.csv#146，p.283 选侯宫廷工作子项；第10章 p.283 与目标卡明确点名 Adrian van der Werff。索引内容不证明 Weenix 是否接受邀请或每年工作安排是否履行。 |
+| cand-2867 | units/persons/antonio-zatta | UVWXYZ.csv#204，p.338 耶稣会子项；第13章 p.338 正文以全名指 Antonio Zatta。身份裁决不确认书中政治关系谓词。 |
+| cand-2880 | units/persons/francesco-zuccarelli | UVWXYZ.csv#217，p.328；第10章同页的 Zuccarelli 评价与目标卡一致。 |
+
+本批及上一批共40项候选的逐项复用已写入 alignment.csv。精确核对 book-statements.jsonl 的 subject_candidate_id / object_candidate_id 后，确认这40项均非当前 S2 关系直接端点，因此 S6 可审端点数与 S4 队列不变；相关索引关系子目仍不自动成为正式边。无新增 KU、new 组、外部身份记录、enrichment 或 relations.csv 行。
+
+本批后 S3 当前为 same=2,022（指向1,092个既有 KU）、new=5,027（4,812组）、conflict=9、excluded=100、undecided=5,249；person same=1,203、undecided=1,079。全书 S2、S4、S5、S6总量未因本批改变。验证：全部29条 same 指向有效 person KU；候选计数每项只记一次，旧 undecided 理由仍保留。

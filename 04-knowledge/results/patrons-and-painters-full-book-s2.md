@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个唯一候选记录了现行决定及可追溯去向，9项冲突与5,289项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,982（指向1,056个既有KU）、new=5,027（4,812个身份组）、conflict=9、excluded=100、undecided=5,289（含622项未分类）。S4已登记1,201组、映射1,395条成员候选；尚待登记3,611组、3,632条映射，其中直接关系端点待登记队列为1,857组／1,857条候选映射（人物30、机构96、事件144、地点232、作品338、档案478、术语539）。S2有10,399条statement标记`relation_candidate=true`；当前statement表中330条至少一端尚无候选ID（仅缺object 217、仅缺subject 41、两端均缺72，分布125段）；这是S2空端点口径，不与S3身份未决或S4待登记混算。S6关系表有1,239条记录（1,237 formal、2 pending），行数不是S2候选的逐条裁决覆盖数。S5字段表11,714条、1,627条unverified；S6关系表45条缺结构化`source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个唯一候选记录了现行决定及可追溯去向，9项冲突与5,249项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=2,022（指向1,092个既有KU）、new=5,027（4,812个身份组）、conflict=9、excluded=100、undecided=5,249（含622项未分类）。S4已登记1,201组、映射1,395条成员候选；尚待登记3,611组、3,632条映射，其中直接关系端点待登记队列为1,857组／1,857个直接端点候选；这些组共含1,871条成员映射（作品338组／347成员、档案478组／483成员），另有1,754组／1,761条映射待登记。S2有10,399条statement标记`relation_candidate=true`；当前statement表中330条至少一端尚无候选ID（仅缺object 217、仅缺subject 41、两端均缺72，分布125段）；这是S2空端点口径，不与S3身份未决或S4待登记混算。S6关系表有1,239条记录（1,237 formal、2 pending），行数不是S2候选的逐条裁决覆盖数。S5字段表11,714条、1,627条unverified；S6关系表45条缺结构化`source_id`（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -34,7 +34,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 当前statement表中330条 S2 关系候选至少一端尚无候选ID，分布于125个来源段：仅缺 object 217条、仅缺 subject 41条、两端均缺72条。330条均保留关系候选说明字段；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。旧摘要的326条／214、40、72是过期统计，S2语句本身未因本次S3/S4工作改变。
 
-2026-10-19 本批工作登记前 strict-stage 表审计通过：KU=2,218；candidates=12,407；alignments=12,715（12,407条候选决定、308条外部身份记录）、unlinked=0；enrichment=11,702（1,627条unverified）；sources=1,752；S4待登记new候选映射3,634条；errors=[]、s2_missing=[]。本批完成后的当前S3去向统计仍为same=1,982（1,056个KU）、new=5,027（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,289（含622项未分类）；S4已登记1,201组／1,395条候选映射，待登记3,611组／3,632条，其中直接关系端点队列1,857组／1,857条。S2有10,399条relation_candidate=true statement；当前有330条空候选端点记录（仅缺object 217、仅缺subject 41、两端均缺72，125段）；S6关系表有1,237条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning包括S4待登记new候选映射3,632条、既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。308条额外外部身份记录单独保存；18条现行候选决定行本身同时包含外部来源信息。
+2026-10-19 本批工作登记前 strict-stage 表审计通过：KU=2,218；candidates=12,407；alignments=12,715（12,407条候选决定、308条外部身份记录）、unlinked=0；enrichment=11,702（1,627条unverified）；sources=1,752；S4待登记new候选映射3,634条；errors=[]、s2_missing=[]。该较早批次历史快照记录为same=1,982（1,056个KU）、new=5,027（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,289（含622项未分类）；S4已登记1,201组／1,395条候选映射，待登记3,611组／3,632条，其中直接关系端点队列1,857组／1,857条。S2有10,399条relation_candidate=true statement；当前有330条空候选端点记录（仅缺object 217、仅缺subject 41、两端均缺72，125段）；S6关系表有1,237条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning包括S4待登记new候选映射3,632条、既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。308条额外外部身份记录单独保存；18条现行候选决定行本身同时包含外部来源信息。
 
 ### S3–S4 work直接关系端点组：Pomerancio祭坛画与Legros临终像（2026-10-19）
 
@@ -95,9 +95,9 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 ### 后续工作规划
 
-1. **S3 先审直接关系端点的待证对象**：12,407个候选均已有现行决定记录，但 `undecided` 仍有5,289项。10,399条关系候选覆盖7,075个不同候选端点，其中3,082项仍为 `undecided`：人物432、作品1,129、档案307、术语441、地点137、机构84、事件70、家族13、程序2、未分类467。按类型逐组核对原书跨章锚点、同类既有KU及最小缺证；有据者裁为 `same` 或 `new`，证据不足则保留 `undecided` 并写明后续去向，不强并。
-2. **S3 收完其余待证与冲突**：复核其余2,207项非直接端点 `undecided`，再逐侧处理9项冲突（人物4、作品5，其中直接端点冲突6项）。622项未分类候选独立完成类型判定；直接关系端点中的467项优先。S3交接检查覆盖候选唯一现行决定、理由与来源锚点、`same`目标有效且类型相符、`new`组号稳定、冲突两侧和待证对象均有明确去向。
-3. **S4 先登记直接关系端点，再登记其余组**：当前待登记3,611组／3,632条映射，其中1,857组／1,857个成员直接承担关系候选端点：人物30、机构96、事件144、地点232、作品338、档案478、术语539；其余1,754组随后处理。每批按组登记并核对所有成员映射和KU类型，不以已登记端点替代S6关系裁决。此前1,902组是较早批次前的历史队列数。
+1. **S3 先审直接关系端点的待证对象**：12,407个候选均已有现行决定记录，但 `undecided` 仍有5,249项。10,399条关系候选覆盖7,075个不同候选端点，其中3,082项仍为 `undecided`：人物432、作品1,129、档案307、术语441、地点137、机构84、事件70、家族13、程序2、未分类467。按类型逐组核对原书跨章锚点、同类既有KU及最小缺证；有据者裁为 `same` 或 `new`，证据不足则保留 `undecided` 并写明后续去向，不强并。
+2. **S3 收完其余待证与冲突**：复核其余2,167项非直接端点 `undecided`，再逐侧处理9项冲突（人物4、作品5，其中直接端点冲突6项）。622项未分类候选独立完成类型判定；直接关系端点中的467项优先。S3交接检查覆盖候选唯一现行决定、理由与来源锚点、`same`目标有效且类型相符、`new`组号稳定、冲突两侧和待证对象均有明确去向。
+3. **S4 先登记直接关系端点，再登记其余组**：当前待登记3,611组／3,632条映射，其中1,857组／1,857个直接端点候选；这些组共含1,871条成员映射（人物30、机构96、事件144、地点232、作品338组／347成员、档案478组／483成员、术语539）。其余1,754组／1,761条映射随后处理。每批按组登记并核对所有成员映射和KU类型，不以已登记端点替代S6关系裁决。此前1,902组是较早批次前的历史队列数。
 4. **S5 定向补证**：围绕关系关键及高影响字段核查1,627条 `unverified` 记录；先解决 `enr-06678`、`enr-06937` 两条来源定位问题，再按关系影响和证据可得性补足，不把结构化填充当作事实核验。
 5. **S6 逐条裁决关系候选**：以10,399条 `relation_candidate=true` statement 为待审范围；S3/S4端点与具体证据齐备后按类型批量给出 `formal`、`pending` 或 `rejected` 去向。当前330条S2候选至少一端没有候选ID（仅缺object 217、仅缺subject 41、两端均缺72）；逐项决定补候选、保留待证或不进入图谱。另行处理关系表45条缺结构化 `source_id`（44条formal、1条pending），并核对其与S2候选的对应关系。
 6. **完成独立语义交接并重建S7快照**：全书S2尚未独立语义验收；结构审计不能替代该项。待S2交接、S3–S6状态稳定后，从当前表刷新 release 与 validation report，并解决引用／授权、作者元数据和最终引文。现有 `release/v0.2-draft` 仍记录1,019 KU和1,227条关系，不代表当前2,220 KU及1,239条关系的发布状态。知识发现与页面仍暂停。
@@ -118,11 +118,11 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
-| same | 1,982 | 指向 1,056 个既有 KU |
+| same | 2,022 | 指向 1,092 个既有 KU |
 | new | 5,027 | 按 4,812 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,289 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,249 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
@@ -2830,3 +2830,15 @@ cand-8257 由 undecided 改为 new-person:antonio-morassi-20261018，待 S4 登�
 2026-10-19 罗马语境中的 Discalced Trinitarians（cand-5119）保留既有 S3 `new` 身份组并完成 S4 institution 登记；与威尼斯赤足加尔默罗会分立。五条 S2 关系候选中三条现有完整 KU 端点但仍待 S6，另两条仍因西班牙原驻地 cand-5121 未分类、教堂 place 候选 cand-5123 未登记而缺端点；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-institution-discalced-trinitarians-rome-20261019)及[知识卡](../units/institutions/discalced-trinitarians-rome.md)。
 
 2026-10-19 三项地点端点登记并完成 San Carlo alle Quattro Fontane 跨章分组：cand-0701 与 cand-4963 从 undecided 改列 new，与 cand-5123 共同映射至一张 place KU；cand-5122 修道院、cand-5125 施工地点另立对象。cand-5121 原驻地、cand-5124 具体地标仍待证。七条相关 S2 关系候选现有 KU 端点但仍待 S6。当前 S3/S4 累计与过程见[地点身份组记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-place-san-carlo-alle-quattro-fontane-20261019)。
+
+### S3 person：索引姓名候选复用与 Tommaso Ruffo 页图核对（2026-10-19）
+
+本批完成11项 person same 裁决，映射至6张既有人物卡：Orazio Arrighi-Landini（cand-0123）、Jacques Courtois／Giacomo Borgognone（cand-0400）、Niccolò Melanconici（cand-1639、cand-1640）、Andrea del Rosso（cand-2276–2278）、Tommaso Ruffo（cand-2305、cand-2308）及 Don Pietro Antonio Toni（cand-2641、cand-2642）。决定依据各自索引主项／子项与原书对应页的身份锚点，不新增知识元或关系。尤其 p.221 页图直接印作 Tommaso Ruffo，确认 OCR L115 的 Russo 是该处识读错误；两条 Ruffo 子项现 same 映射至既有人物卡，并保留 S2 正文其他拼写及关系陈述的原有边界。
+
+S3 当前为 same=1,993、new=5,027／4,812组、conflict=9、excluded=100、undecided=5,278；person same=1,174、undecided=1,108。KU仍为2,220；S4待登记3,611组／3,632条成员映射，其中直接关系端点队列为1,857组／1,857个端点候选、共1,871个组成员映射。本批11个候选均非 S2 关系直接端点，S4、S5、S6数据未变。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-index-reuse-russo-ruffo-20261019)、[人物卡](../units/persons/tommaso-ruffo.md)及[对齐表](../tables/alignment.csv)。
+
+### S3 person：完成40项既有人物 KU 复用候选审查（2026-10-19）
+
+本批新增29项 same 裁决；连同上一批11项，预备的40项人物索引姓名／异名复用候选现均有明确去向，全部映射到6项 Ruffo／Longhi／Loth／Courtois 等已复用对象及其他同类型既有 KU。候选历史理由仍保留。p.221 页图核对解决了 Tommaso Ruffo 首见名称的 OCR 误读；另对 Camerino p.55n 和 Colonna p.21n 保留索引定位与现有正文锚点之间的差异，不以其定位补写新事实。索引子项提到的作品、并列或关系仍须独立审查。
+
+当前 S3 为 same=2,022（1,092个目标 KU）、new=5,027／4,812组、conflict=9、excluded=100、undecided=5,249；person same=1,203、undecided=1,079。KU仍为2,220，S4待登记3,611组／3,632条映射；S5字段11,714条（1,627条unverified）；S6关系表1,239条（1,237 formal、2 pending），这些阶段总量均未因本批改变。40项候选均非 S2 关系直接端点。逐项证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-index-reuse-remaining-20261019)和[对齐表](../tables/alignment.csv)；Ruffo卡同步记录扫描页与 OCR 差异。

@@ -69,8 +69,8 @@ sources:
     source_file: 02-sources/02-Markdown/10_CHP-10_sec_ii.md
     source_span: lines 192; print p. 323; OCR L192 是印本注5的续文，注号及 Paoletti 引证始于 L322；此处不创建独立 Antonio Longhi 人物。
 created: '2026-10-16'
-updated: '2026-10-16'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-index-reuse-remaining-20261019
 ---
 
 ## 内容
@@ -101,9 +101,9 @@ English: The Chinese display name is a working transliteration for readability; 
 
 ### 身份边界
 
-中文：本卡只指索引和正文明确称 Pietro Longhi 的威尼斯画家。第15、17章称 Alessandro Longhi 为其子；本批将 Alessandro 与 Pietro 区分，亲缘断言留待 S6 审查，不新增正式关系。第10章注释转述 Paoletti 将画家称作“Antonio”Longhi，Haskell 认为该来源不完全可靠；本卡不将该称呼当作可靠异名，也不据此创建第二人物。相邻 cand-1431、cand-1432、cand-1434 仍按既有 S3 决定待证，不映射到本 KU。
+中文：本卡只指索引和正文明确称 Pietro Longhi 的威尼斯画家。第15、17章称 Alessandro Longhi 为其子；本批将 Alessandro 与 Pietro 区分，亲缘断言留待 S6 审查，不新增正式关系。第10章注释转述 Paoletti 将画家称作“Antonio”Longhi，Haskell 认为该来源不完全可靠；本卡不将该称呼当作可靠异名，也不据此创建第二人物。cand-1432（L.csv#89，p.323–324，“Gasparo Gozzi and”）现 same 映射至本 KU，依据为同名索引子项和 p.323 的 Pietro Longhi 正文锚点；该索引语境不单独确立人物关系。cand-1431、cand-1434 仍按既有 S3 决定待证。
 
-English: This card refers only to the Venetian painter explicitly named Pietro Longhi in the index and body. Chapters 15 and 17 call Alessandro Longhi his son; this batch keeps Alessandro distinct, leaves the kinship claim for S6 review, and adds no formal relation. A Chapter 10 note reports that Paoletti calls the artist 'Antonio' Longhi, which Haskell says is not wholly reliable; this is not adopted as a reliable alias and does not create a second person. Adjacent candidates cand-1431, cand-1432, and cand-1434 retain their existing S3 unresolved decisions and are not mapped to this KU.
+English: This card refers only to the Venetian painter explicitly named Pietro Longhi in the index and body. Chapters 15 and 17 call Alessandro Longhi his son; this batch keeps Alessandro distinct, leaves the kinship claim for S6 review, and adds no formal relation. A Chapter 10 note reports that Paoletti calls the artist 'Antonio' Longhi, which Haskell says is not wholly reliable; this is not adopted as a reliable alias and does not create a second person. Candidate cand-1432 (L.csv#89, pp.323–324, “Gasparo Gozzi and”) now maps as same to this KU based on the index subentry and p.323 body anchor naming Pietro Longhi; the index context alone does not establish a relation. Candidates cand-1431 and cand-1434 retain their existing S3 unresolved decisions.
 
 ## 关系与证据
 

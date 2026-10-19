@@ -49,8 +49,8 @@ sources:
     source_file: 02-sources/03-Index/03-1-Index-MD/L.md
     source_span: index entries L.csv#100–102
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
+updated: '2026-10-19'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-index-reuse-remaining-20261019
 ---
 
 ## 内容
@@ -63,9 +63,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份边界
 
-S3 人物组 `new-person:johann-karl-loth-77685471f9` 仅含 `cand-1442`，由第8章的 Karl Loth 与第9章的 Johann Karl Loth 跨章提及对应索引主项 L.csv#100。索引子项 L.csv#101（“and Grand Prince Ferdinand”；`cand-1443`）和 L.csv#102（“Death of Abel”；`cand-1444`）各自仍为 S3 `undecided`；本次 S4 不改其决定，也不另造关系／作品 KU。注5中的信件 `cand-7931` 是分立 archive 候选，S3 为 `new`、仍待 S4 登记；自画像 `cand-7933` 仍为待证 work 候选。
+S3 人物组 `new-person:johann-karl-loth-77685471f9` 仅含 `cand-1442`，由第8章的 Karl Loth 与第9章的 Johann Karl Loth 跨章提及对应索引主项 L.csv#100。索引子项 L.csv#101（“and Grand Prince Ferdinand”；`cand-1443`）现 same 映射至本 KU，因为 p.233 正文以 Karl Loth 称呼同一画家；此映射不据索引子目确立他与 Grand Prince Ferdinand 的关系。L.csv#102（“Death of Abel”；`cand-1444`）仍为 S3 `undecided`，未另造作品 KU。注5中的信件 `cand-7931` 是分立 archive 候选，S3 为 `new`、仍待 S4 登记；自画像 `cand-7933` 仍为待证 work 候选。
 
-S3 person group `new-person:johann-karl-loth-77685471f9` contains only `cand-1442`, linking the Chapter 8 form Karl Loth and Chapter 9 form Johann Karl Loth to index main entry L.csv#100. Index subentry L.csv#101 (“and Grand Prince Ferdinand”; `cand-1443`) and L.csv#102 (“Death of Abel”; `cand-1444`) remain `undecided` at S3; this S4 action neither changes those decisions nor creates additional person or work KUs. The letter in note 5 (`cand-7931`) is a separate archive candidate with an S3 `new` decision, still awaiting S4; the self-portrait (`cand-7933`) remains an unresolved work candidate.
+S3 person group `new-person:johann-karl-loth-77685471f9` contains only `cand-1442`, linking the Chapter 8 form Karl Loth and Chapter 9 form Johann Karl Loth to index main entry L.csv#100. Index subentry L.csv#101 (“and Grand Prince Ferdinand”; `cand-1443`) now maps as same to this KU because p.233 body text calls the same painter Karl Loth; this mapping does not establish a relation with Grand Prince Ferdinand. Index subentry L.csv#102 (“Death of Abel”; `cand-1444`) remains `undecided` at S3; no work KU is added. The letter in note 5 (`cand-7931`) is a separate archive candidate with an S3 `new` decision, still awaiting S4; the self-portrait (`cand-7933`) remains an unresolved work candidate.
 
 ## 关系与证据
 
