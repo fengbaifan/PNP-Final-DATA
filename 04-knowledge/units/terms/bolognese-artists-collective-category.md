@@ -66,4 +66,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-以下4条直接 S2 关系候选仍待 S6 逐条裁决；本卡不预判关系类型、方向或事实成立：st-chp2-sec-ii-l30-40-passeri-bolognese-and-urban, st-chp5-p123-carlo-befriended-bolognese, st-chp5-p123-carlo-commissioned-bolognese, st-chp5-p123-carlo-favorite-bolognese。四条候选的另一端目前均有类型相符的 KU 映射；本次登记后端点齐备，但不因此自动成为正式关系。
+4条直接 S2 关系候选已有逐条 S6 去向：`st-chp2-sec-ii-l30-40-passeri-bolognese-and-urban` 的回顾性评价否决为图谱边；`st-chp5-p123-carlo-favorite-bolognese`、`st-chp5-p123-carlo-befriended-bolognese`、`st-chp5-p123-carlo-commissioned-bolognese` 因集体成员/具体对象未定，且没有 person → term 受控关系而待证。原书陈述仍保留在 S2，本卡不创建正式边。详见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-bolognese-collective-candidates-20261020)。

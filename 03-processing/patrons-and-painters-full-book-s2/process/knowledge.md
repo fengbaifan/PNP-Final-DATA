@@ -8415,3 +8415,18 @@ st-chp3-seciv-l75-81-revived-lamb-subject 的第3章 L76 原文称 Gaulli 恢复
 ### S3→S4 term：博洛尼亚画家集体称谓（2026-10-20）
 
 cand-4229 沿用既有 S3 new 组 sg3-term-cand-4229，登记为[博洛尼亚画家集体称谓卡](../../../04-knowledge/units/terms/bolognese-artists-collective-category.md)。S3 的跨章组包含第2章中“the Bolognese of every tendency”、Domenichino 与 Guercino 的地域性称谓、Passeri 对“the Bolognese”的回顾性评价，以及第5章 Carlo 偏爱博洛尼亚画家的记述。核对第2章 p.28、p.34、p.45 与第5章 p.123 原文后，卡片将对象限定为书内地域性画家类别，不宣称固定成员或正式组织。4条直接 S2 关系候选（st-chp2-sec-ii-l30-40-passeri-bolognese-and-urban, st-chp5-p123-carlo-befriended-bolognese, st-chp5-p123-carlo-commissioned-bolognese, st-chp5-p123-carlo-favorite-bolognese）在本次登记后均有双方、类型相符的 KU 映射；仍待 S6 逐条裁决，不新增 formal 关系。登记后 S4 已登记1,284组／1,485条映射，待登记3,522组／3,543条映射；直接端点队列由1771组／1785成员降至1770组／1784成员。该登记沿用 S3 决定，不替代第2章独立语义复核，也不把 S2 关系候选预判为成立。
+
+<a id="s6-bolognese-collective-candidates-20261020"></a>
+
+### S6：博洛尼亚画家集体称谓的四条直接候选（2026-10-20）
+
+逐条核对 `book-statements.jsonl` 的原句、speaker、qualifiers 与当前 S3/S4 端点。四条候选现在都可追溯到已登记的 person/term KU；这只解决端点，不预判关系成立。当前受控词表没有四条 S2 谓词，域值域表也没有 person → term 的正式关系类型。
+
+| statement_id | S6 去向 | 裁决与后续路径 |
+|---|---|---|
+| `st-chp2-sec-ii-l30-40-passeri-bolognese-and-urban` | rejected（仅作图谱边） | p.34 是 Haskell 转引 Passeri 对博洛尼亚画家影响力消退的回顾判断，不是 Urban VIII 与一个固定群体间可成立的结构性关系。保留原 S2 引述、说话者及限定，不建立边。 |
+| `st-chp5-p123-carlo-favorite-bolognese` | pending | p.123 支持 Haskell 关于 Carlo 偏爱该地域类别的叙述；对象是无固定成员的 term，且 `favored_artists` 不在受控词表、person → term 不在域值域。仅在出现具名成员依据或经明确模型修订可表示类别关系时重审；否则全书 S6 收口时关闭为图谱边否决。 |
+| `st-chp5-p123-carlo-befriended-bolognese` | pending | “all of these” 同时指向博洛尼亚画家类别和 Giovanni Lanfranco；本候选的群体成员未定，`befriended_artists` 不受控且 person → term 不合法。Lanfranco 的独立候选须独立裁决；本项仅在成员范围和可用端点明确后重审，否则在 S6 收口时关闭为图谱边否决。 |
+| `st-chp5-p123-carlo-commissioned-bolognese` | pending | 原句未识别受委托的艺术家或作品，且 `commissioned_works_from_artists` 不受控、person → term 不合法。若来源或后续登记提供具体艺术家/作品端点再重审；否则在 S6 收口时关闭为图谱边否决。 |
+
+本批不向 `relations.csv` 写入 formal/pending 边：三项 pending 目前没有合法、具类型的关系端点；一项 rejected 是来源评价而非图谱边。S2 原句和限定保留不变；没有添加关系类型或扩大 term 的身份范围。知识卡现已更新为上述 S6 状态。

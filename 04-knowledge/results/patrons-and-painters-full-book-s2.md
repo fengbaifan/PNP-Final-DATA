@@ -2947,4 +2947,4 @@ st-chp3-seciv-l75-81-revived-lamb-subject 的对象端点已由壁画作品候�
 
 ### S4 term：博洛尼亚画家集体称谓（2026-10-20）
 
-cand-4229 按既有 S3 new 组 sg3-term-cand-4229 登记至[术语卡](../units/terms/bolognese-artists-collective-category.md)。第2章 p.28、p.34、p.45 与第5章 p.123 的多处书内用例支持将其登记为地域性画家集体称谓；不设固定名录或正式组织身份。4条直接 S2 关系候选在本次登记后均有双方 KU 映射，仍待 S6 逐条裁决；本批未新增 formal 关系、外部身份或 S5 字段。登记后 S4 已登记1,284/4,806组、1,485/5,028条映射；待登记3,522组／3,543条映射。
+cand-4229 按既有 S3 new 组 sg3-term-cand-4229 登记至[术语卡](../units/terms/bolognese-artists-collective-category.md)。第2章 p.28、p.34、p.45 与第5章 p.123 的多处书内用例支持将其登记为地域性画家集体称谓；不设固定名录或正式组织身份。4条直接 S2 关系候选已有逐条 S6 去向：Passeri 的回顾评价否决为图谱边；Carlo 偏爱、交游、委托三项因群体成员/具体对象未定且没有 person → term 受控关系而待证；本批不新增 formal 关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-bolognese-collective-candidates-20261020)。登记后 S4 已登记1,284/4,806组、1,485/5,028条映射；待登记3,522组／3,543条映射。
