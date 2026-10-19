@@ -8060,3 +8060,33 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 
 本批新增6组／6条候选映射。S4累计1,235组／1,429条映射已登记，待登记3,577组／3,599条；event类型已登记40组／44条、待登记191组／191条。直接关系端点待登记队列为1,822组／1,823个端点候选／1,837条组成员映射；其中event剩余138组／138成员。KU=2,254。
 验证：`python scripts/audit_tables.py --strict-stage --summary` 通过（KU=2,254、S4待登记映射=3,599、`errors=[]`、`s2_missing=[]`）；六张新卡的 `build_cards.py --preview --ku` 均通过且未写文件。warning仍包括S4剩余登记、两条既有enrichment `source_ref`问题及S2独立语义审阅未完成。
+
+<a id="s4-event-direct-endpoints-chp3-additional-20261019"></a>
+
+### S4 event：第3章六个直接关系端点组登记（后续批次）（2026-10-19）
+
+本批沿用既有 S3 `new` 事件身份组，不改候选类型、同一性判断或组边界；依据原书对应段落将六组登记为事件 KU。
+
+| candidate | S3 身份组 | 书内锚点 | S4 KU | S2 关系候选 |
+|---|---|---|---|---|
+| `cand-5375` | `sg3-event-cand-5375` | 第3章 p.89 L138–L139 | `units/events/la-storta-promise-to-st-ignatius` | `st-chp3-seciv-l130-139-cycle-culminates-in-la-storta-promise`; `st-chp3-seciv-l130-139-promise-event-at-la-storta` |
+| `cand-5398` | `sg3-event-cand-5398` | 第3章 p.91 L155–L156 | `units/events/crucifixion-dedication-gesu-chapel` | `st-chp3-seciv-l152-163-crucifixion-dedication-altar-unfinished` |
+| `cand-5403` | `sg3-event-cand-5403` | 第3章 p.91 L158 | `units/events/eighth-general-congregation-society-jesus-1646` | `st-chp3-seciv-l152-163-congregation-agreed-monument` |
+| `cand-5421` | `sg3-event-cand-5421` | 第3章 p.92 L170–L172 | `units/events/st-ignatius-chapel-altar-competitions` | `st-chp3-seciv-l165-177-competition-caused-uproar-and-rivalry`; `st-chp3-seciv-l165-177-pozzo-plans-choice-did-not-calm-situation`; `st-chp3-seciv-l165-177-pozzo-organized-sculptor-competitions` |
+| `cand-11601` | `sg3-event-cand-11601` | 第3章 p.79 L31–L32；身份对照 p.78 L21 | `units/events/jacques-courtois-death-1676` | `st-chp3-seciv-l26-33-affair-stalled` |
+| `cand-11625` | `sg3-event-cand-11625` | 第3章 p.91 L159–L160 | `units/events/padre-nickel-peru-legacy-proposal-gesu` | `st-chp3-seciv-l152-163-nickel-proposed-redirecting-legacy`; `st-chp3-seciv-l152-163-spaniards-rejected-proposal-and-rumour` |
+
+语义边界与交接：
+
+- `cand-5375`：只记录 Haskell 所述、由 Pozzo 壁画表现的拉斯托尔塔允诺叙事；壁画在圣依纳爵堂祭坛区与后殿，原书没有给允诺事件本身定年。本卡不独立核验宗教叙事。
+- `cand-5398`：记录耶稣堂左侧耳堂小堂原奉献于受难；不把奉献主题等同于具体受难作品。未完成的 della Porta 祭坛保持为独立作品陈述。
+- `cand-5403`：1646年总会同意建立更宏大的圣依纳爵纪念物；Haskell称当时因贫困与时局没有进一步行动，不推断该项目随后完成或永久取消。
+- `cand-5421`：区分祭坛方案竞选争议、1695年5月总会长作出最终决定、其后波佐组织雕塑家竞赛三阶段；只有总会长决定被原文明确标为1695年5月。原书无正式竞赛题名。`st-chp3-seciv-l165-177-competition-caused-uproar` 是非关系叙述，不作为 S6 关系候选。
+- `cand-11601`：第3章 p.78 明确对应 Courtois 与意大利称名 Giacomo Borgognone；p.79 记其1676年死亡及祭坛区装饰事务停滞。事件、人物和未完成项目分开，停滞不等于项目完成。
+- `cand-11625`：只记录 Padre Nickel 关于秘鲁遗产的提议及 Haskell 对西班牙人反应的限定语“evidently”；不推断资金已转移、装饰已执行、传闻属实或传闻导致搁置。此批不重裁 Nickel 的人物身份。
+
+六张卡保留双语描述及逐段原书引文；新增6个 manifest 条目、6条 accepted 路径和6条 alignment KU 映射。十条直接 S2 关系候选均留待 S6；未新增 enrichment、外部身份依据或 formal relation。
+
+本批后 S4 已登记1,241组／1,435条成员候选映射，待登记3,571组／3,593条；event 类型已登记46组／50条、待登记185组／185条。直接关系端点待登记队列为1,816组／1,817个直接端点候选／1,831条组成员映射，其中 event 剩余132组／132成员；非直接端点队列为1,755组／1,762条映射。KU=2,260。
+
+验证：六张卡片 `build_cards.py --preview --ku` 均通过且没有文件写入；`python scripts/audit_tables.py --strict-stage --summary` 通过，KU=2,260、S4待登记映射=3,593、`errors=[]`、`s2_missing=[]`。仍有S4积压、两条既有 enrichment `source_ref`问题及S2独立语义审阅未完成警告。
