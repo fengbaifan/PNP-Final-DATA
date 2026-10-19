@@ -36,12 +36,12 @@
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 26 / 36 | 160 / 160 |
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 797 / 897 | 272 / 274 |
-| place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 44 / 54 | 514 / 514 |
+| place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 45 / 55 | 513 / 513 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 56 / 64 | 421 / 431 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,807 / 5,028** | **9** | **100** | **5,248** | **1,274 / 1,475** | **3,533 / 3,553** |
+| **合计** | **12,408** | **2,023** | **4,807 / 5,028** | **9** | **100** | **5,248** | **1,275 / 1,476** | **3,532 / 3,552** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8273,3 +8273,29 @@ candidate cand-1784 沿用现行 S3 new 决定及身份组 sg3-place-cand-1784�
 新增一张双语 place 卡、一个 manifest KU、一个 accepted 路径，并将 aln-2119 映射至该 KU、process_ref 指向本记录。五条相关 S2 关系候选保持原样，均未在本批写入 S6 或 relations.csv。S4 累计登记1,274／4,807组、1,475／5,028条候选映射；待登记3,533组、3,553条映射。直接关系端点待登记队列为1,780组／1,780个候选／1,793条成员映射，其中 place 231组／231成员；非直接端点队列为1,753组／1,760条映射。KU总数2,293。
 
 本批只完成身份登记，不表示相关关系已裁决或全书 S2 已独立验收。
+
+<a id="s4-place-palazzo-vescovale-ferrara-direct-endpoint-ch8-20261020"></a>
+
+### S4 place：Ruffo在费拉拉使用的总主教宫登记（2026-10-20）
+
+`cand-2306`（Q-R.csv#234，索引 pp.221–222）沿用 `new` 组 `sg3-place-cand-2306`，登记为来源局部地点 KU `units/places/palazzo-vescovale-di-ferrara`。第8章 p.221称 Ruffo 的画廊收藏存放在费拉拉新总主教宫，宫殿于1710年由罗马建筑师 Tommaso Mattei 为 Ruffo 建造并毗邻未具名座堂；p.222说 Ruffo 与建筑师、雕刻家共同设计其陈设。脚注转引手稿名含 `Palazzo Vescovale di Ferrara`，本轮未查阅手稿；卡片不据此声称核过手稿原件或建筑现状，也与 Ruffo 的罗马住宅、费拉拉教区机构分开。
+
+新增一张双语 place 卡、一个 manifest KU 和一个 accepted 路径；`aln-2641` 现映射至该 KU，`process_ref` 指向本记录，原 `new` 决定及组理由保留。五条相关 S2 关系候选仍逐条待 S6：`st-chp8-p221-ruffo-gallery-kept-in-palace`、`st-chp8-p221-palace-built-for-ruffo`、`st-chp8-p221-palace-built-by-mattei`、`st-chp8-p221-palace-adjoins-cathedral`、`st-chp8-p222-ruffo-designed-palace-setting-collaboratively`。本次不写入 `relations.csv`；`enrichment.jsonl` 新增5条仅由哈斯克尔原书支持的 source_backed 字段，不构成外部身份核验或外部补足，也未新增正式关系。
+
+登记后 S4 已登记1,275／4,807组、1,476条候选映射，待登记3,532组／3,552条映射。直接关系端点队列为1,779组／1,779个候选／1,792条成员映射，其中 place 为230组／230成员；非直接队列为1,753组／1,760条映射。KU总数2,294。
+
+验证：`python scripts/build_cards.py --preview --ku units/places/palazzo-vescovale-di-ferrara` 与 `python scripts/audit_tables.py --strict-stage --summary` 均退出码0；KU=2,294，待登记new映射=3,552，enrichment=11,725（unverified=1,625），`errors=[]`、`s2_missing=[]`。单卡预览仅显示预期的空正式关系提示；结构通过不表示五条关系已裁决或全书S2已独立验收。
+
+<a id="s2-chapter-6-independent-review-20261020"></a>
+
+### S2 第6章独立语义复核（2026-10-20）
+
+独立审读当前第6章763/763条statement，范围为intro（6）、sec_i（404）、sec_iv（170）、sec_v（183）；按当前表为`relation_candidate=true` 589条、`false` 174条、unset 0。审读对照了已登记正文分节并用`segments.jsonl`核范围；未改写S2来源、statement、mention或候选表。**本章不接收**：审阅者已完整回报问题；本过程记录摘要保留主要阻断类别和代表性statement ID，需先修订及定点回核。
+
+主要阻断类如下，条目均按当前statement ID追踪：
+
+- **端点类型、角色及方向：** `st-chp6-p148-algardi-bust-of-donna-olimpia`、`st-chp6-p148-algardi-bust-of-innocent`、`st-chp6-p148-bernini-fountain-restores-favour`把作品对象落在人物候选；`st-chp6-p150-alexander-accession-patronage`与`st-chp6-p153-departure-diminishes-papal-prestige`的对象/事件不符；`st-chp6-p155-colonna-palace-rebuilt`遗漏Girolamo角色；`st-chp6-p155-lorenzo-genre-preferences`仅连接神话寓言而未表达风景；`st-chp6-p160-christina-collection-displayed`未结构化展示地点；`st-chp6-p161-v1-03`、`v1-04`、`v1-07`、`v1-10`、`v1-12`、`v1-15`、`v1-17`存在作者、委托者、地点、图像指涉或对象类别缺漏/错配；`st-chp6-p162-v1-06`、`v1-07`、`v1-08`、`v1-12`、`v1-23`、`v1-24`需重建经济事实、被动行动及匿名报告的事实端点；`st-chp6-p163-v1-09`、`v1-10`；`st-chp6-p164-v1-17`、`v1-22`、`v1-24`；`st-chp6-p165-v1-23`、`v1-25`；`st-chp6-p166-v1-01`、`v1-09`均有复合关系、端点或指代问题。
+- **复合claim、说话者和模态：** `st-chp6-p146-taxes-and-patronage`、`st-chp6-p157-ownership-and-collector-status`、`st-chp6-p157-table-vogue-mascardi`、`st-chp6-p158-critic-rise-and-patron-decline`、`st-chp6-p158-patron-to-critic-shift`、`st-chp6-p160-bellori-opposes-rival-view`、`st-chp6-p160-bellori-words-hardened-into-dogma`、`st-chp6-p160-maratta-classical-comparison`、Christina的travel/patronage/Arcadia及生活画家条目、Basadonna卧室报告、p.163迁居因果、p.164–166画家委托和接纳事项需按原文拆分并保留引述层级、推测、时间与因果限定。
+- **分类和引文定位：** `st-chp6-p155-patronage-decline-causes`、`st-chp6-p158-critic-rise-and-patron-decline`、`st-chp6-p158-patron-to-critic-shift`是否应列relation candidate需按项目边界裁决；`st-chp6-notes-l123-p148-n2`遗漏肖像胸像组；`st-chp6-notes-l147-p154-n1-location`错链正文ID；`st-chp6-notes-l150-p154-n4`需限缩claim；`st-chp6-p151-bernini-designs-scala-regia`原引文过宽；`st-chp6-p159-note1-schlosser-magnino`超出原注书目信息；`st-chp6-p159-note2-bellori-1942-p99`、`note3-bellori-pascoli`、`note4-bellori-1942-p115`的页码候选误用p.128；`st-chp6-p161-note3-bellori`、`note4-pascoli`缺正文可核锚点；`st-chp6-p162-n2-cite`候选页码不符，`st-chp6-p162-n7-tomb`应以墓为位置断言主体。
+
+尚有第8章无页码记录26条待审；其余已完成审读的第4、5、8、9章发现仍需按结果规划修复和回核。本记录只保存审读范围与待修问题，不构成S2语义接收或关系裁决。
