@@ -26,17 +26,17 @@
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 122 / 171 | 1,118 / 1,127 |
+| archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 124 / 173 | 1,116 / 1,125 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
-| person | 3,464 | 1,163 | 1,069 / 1,171 | 4 | 7 | 1,119 | 768 / 868 | 301 / 303 |
+| person | 3,464 | 1,163 | 1,069 / 1,171 | 4 | 7 | 1,119 | 769 / 869 | 300 / 302 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 43 / 53 | 515 / 515 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 238 | 478 / 494 | 5 | 29 | 1,631 | 52 / 58 | 426 / 436 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,982** | **4,812 / 5,027** | **9** | **100** | **5,289** | **1,196 / 1,390** | **3,616 / 3,637** |
+| **合计** | **12,407** | **1,982** | **4,812 / 5,027** | **9** | **100** | **5,289** | **1,199 / 1,393** | **3,613 / 3,634** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -48,7 +48,7 @@
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,289项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的1,982条候选指向1,056个既有KU；new候选组成4,812个类型内身份组，共5,027条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,616组、3,637条成员映射尚待登记。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,702条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,289项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的1,982条候选指向1,056个既有KU；new候选组成4,812个类型内身份组，共5,027条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,199组／1,393条映射已登记，3,613组／3,634条成员映射尚待登记，其中直接关系端点待登记1,859组／1,859个成员。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,702条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 <a id="s3-s4-alazard-strozzi-cross-type-batch-20261019"></a>
 
@@ -7789,3 +7789,33 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 - 该批后S3为 same=1,982（1,056个KU）、new=5,027／4,812组、conflict=9、excluded=100、undecided=5,289（含622项未分类）；person为same=1,163、new=1,171／1,069组、conflict=4、excluded=7、undecided=1,119。S4已登记1,196组／1,390条映射，待登记3,616组／3,637条映射；KU=2,215。对齐表仍有12,715行，其中308条独立外部身份记录，18条现行候选决定行自带外部来源。
 - 当前S2关系候选空端点按现行statement字段复算为330条：仅缺object 217、仅缺subject 41、两端均缺72，分布于125段；330条均保留关系候选说明字段。旧结果快照中的326条／214、40、72已过期；本批没有改写S2语句，这属于结果统计校正。
 - 验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（errors=[]、s2_missing=[]）；`python scripts/build_cards.py --check` 通过（2,215 cards、3,238 tables、11,702 rows；预计486个文件有派生差异，未写卡片）；`git diff --check` 通过。尚存审计警告为3,637条S4候选待登记、`enr-06678`／`enr-06937`来源定位问题及S2独立语义审查提示。
+
+<a id="s4-person-filippo-dangeli-and-archive-endpoints-20261019"></a>
+
+### S3–S4跨类型身份组：Filippo d’Angeli 与 Alticchiero 文献端点（2026-10-19）
+
+#### 人物组：Filippo d’Angeli（Napoletano）
+
+`cand-0105` 按既有S3决定 `new-person:filippo-dangeli-napoletano-715dfcf2d8` 登记为一个person KU `units/persons/filippo-dangeli-napoletano`。本组只有一个候选成员，alignment主行 `aln-0440` 现映射至该KU；索引候选 `cand-2920` 是“Napoletano, Filippo”指向“Angeli, Filippo d’”的S1 see-under排除项，不另建候选或映射。
+
+姓名比较以第2章p.29“Filippo d’Angeli (Napoletano)”为直接连接，结合第2章p.50和第4章p.95的“Filippo Napoletano”复现。Treccani DBI“ANGELI, Filippo, detto Filippo Napolitano”列出Angeli/d’Angeli姓氏形式；ICCD记录0900745766使用“Angeli Filippo detto Filippo Napoletano”。两条外部身份行 `aln-12715`、`aln-12716` 仅支持姓名链，不将Treccani关于Teodoro Filippo di Liagno辨识的讨论延伸成与本人物组的关系事实。
+
+人物卡记录三处原书锚点及姓名变体。两条直接S2关系候选 `st-chp2-seci-l95-106-launched-dangeli`、`st-chp2-seciv-l79-89-filippo-recommends-camassei-to-unidentified-marchese` 仍未进入正式关系；第二条的侯爵端点保持未具名。
+
+#### 档案组：Giustiniana Wynne-Rosenberg，《Alticchiero》（1787）
+
+`cand-10534` 保持既有S3新组 `archive-group-0af55c048ab6`，单成员映射至 `units/archives/alticchiero-wynne-rosenberg-1787`。第15章p.369注4将Giustiniana Wynne-Rosenberg、题名 *Alticchiero* 与 `Venezia 1787` 并列；第21章p.441书目列相同作者、题名和年份，但地点形式是 `à Padoue`。作者、题名和年份足以登记该书目身份组；出版地差异未由原版或外部目录解决，卡片保留两种书内形式，不选定地点或版本。该书及其被引页未独立查阅。
+
+四条直接S2关系候选 `st-chp15-p369-wynne-account-source-for-alticchiero`、`st-chp15-p369-note4-alticchiero-wynne-publication`、`st-chp15-p369-note4-cites-alticchiero-1787`、`st-chp15-p369-note4-alticchiero-authored-by-wynne` 留待S6逐条判断；不因S4书目登记将作者关系或来源关系直接写成正式边。
+
+#### 档案组：Angelo Querini财物清单（Alticchiero）
+
+`cand-10567` 保持既有单成员新组 `archive-group-1abc747a5852`，映射至 `units/archives/querini-effects-inventory-alticchiero`。第15章p.370注1只称其为Angelo Querini在Alticchiero财物的一份清单，并给出Levi第II卷第255页的刊载定位；没有原题、年份、编者全名或收藏机构。卡片采用描述性暂题并明确不把它当作原题名。清单原件和Levi刊本均未独立查阅。
+
+四条直接S2候选 `st-chp15-p370-note1-querini-alticchiero-inventory`、`st-chp15-p370-note1-inventory-of-querini-effects`、`st-chp15-p370-note1-inventory-records-alticchiero`、`st-chp15-p370-note1-inventory-published-in-levi` 均保留S6裁决；目前不将转引定位写成已独立核实的馆藏或正式关系。
+
+#### 本批登记与当前状态
+
+三组均为单候选组，新增3张双语KU卡、3条manifest登记和3条现行candidate-to-KU映射；没有新增来源、S5字段或formal关系。S3决定数不变；S4当前为1,199组／1,393条成员已登记，3,613组／3,634条映射待登记。直接关系端点待登由1,862组降至1,859组／1,859个成员：person 30、archive 478，其余institution 96、event 144、place 232、work 340、term 539。本批10条S2关系候选均以这三个对象之一为端点；另一端点是否齐备、证据限定与谓词是否成立仍须逐条S6审查，不能仅凭本次S4登记认定关系已可正式入图。`relations.csv` 保持1,239条（1,237 formal、2 pending）。S2总关系候选仍为10,399条，空候选端点仍为330条，不与本次S4登记计数合并。
+
+- 验证：`python scripts/audit_tables.py --strict-stage --summary` 退出码0（KU=2,218、alignments=12,715、待登记映射=3,634、errors=[]、s2_missing=[]）；`python scripts/build_cards.py --check` 通过（2,218 cards、3,238 tables、11,702 rows、预计2,460条派生关系行，476张卡有关系差异、487个文件有派生差异；未写卡片）；`git diff --check` 通过。审计仍提示3,634条S4候选映射待登记、`enr-06678`／`enr-06937`来源定位未解决，以及S2语义质量尚待独立审查。
