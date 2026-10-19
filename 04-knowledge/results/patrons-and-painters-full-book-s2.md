@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,279组、映射1,480条成员候选；尚待登记3,527组、3,548条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,281组、映射1,482条成员候选；尚待登记3,525组、3,546条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,298 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,300 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,621 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |
@@ -335,13 +335,13 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | event | 7→7 | 235／231 | 74／157；157 | 0 | 0 | 115 |
 | family | 22→16 | 94／88 | 88／0；0 | 0 | 1 | 18 |
 | institution | 180→141 | 196／186 | 26／160；160 | 0 | 0 | 121 |
-| person | 1,204→450 | 1,171／1,069 | 797／272；274 | 4 | 7 | 1,078 |
+| person | 1,204→450 | 1,171／1,069 | 798／271；273 | 4 | 7 | 1,078 |
 | place | 229→153 | 568／558 | 46／512；512 | 0 | 0 | 312 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
 | term | 43→35 | 940／928 | 35／893；893 | 0 | 2 | 656 |
-| work | 238→218 | 495／477 | 59／418；428 | 5 | 29 | 1,630 |
+| work | 238→218 | 495／477 | 60／417；427 | 5 | 29 | 1,630 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **2,023→1,092** | **5,028／4,806** | **1,279／3,527；3,548** | **9** | **100** | **5,248** |
+| **合计** | **2,023→1,092** | **5,028／4,806** | **1,281／3,525；3,546** | **9** | **100** | **5,248** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2927,3 +2927,8 @@ cand-7664 映射至[《洪水》画布知识卡](../units/works/the-flood-canvas
 ### S4 work：Chiesa Nuova 主祭坛（2026-10-20）
 
 `cand-5033` 沿用 S3 `new` 组 `workgrp-d80b6b26bc76a0`，登记至[Chiesa Nuova 主祭坛卡](../units/works/high-altar-chiesa-nuova.md)。第3章 pp.69–70 记载主祭坛与圣母诞生的奉献关系、Cardinal Angelo Cesi 的装饰承诺及约1605年预留款被意外立面费用吸收的报告。卡片按原书来源保留头衔冲突和‘its’暂定先行词，区分主祭坛与后文祭坛画。4条直接关系候选留待 S6；圣母诞生及 Angelo Cesi 已有 KU，立面 `cand-5032` 待登记。未新增正式关系、外部身份或 S5 字段。S4 登记 1,279/4,806 组、1,480/5,028 条映射；待登记 3,527 组／3,548 条映射。
+
+
+### S4：Chiesa Nuova 立面与 Fausto Rughesi（2026-10-20）
+
+`cand-5032` 与 `cand-2309` 分别沿用既有 S3 `new` 组，登记 Chiesa Nuova 立面 work 与来源点名的 Fausto Rughesi 人物卡。Haskell称主结构到1590年已完成，而立面又过十六年才建成；保留相对时间，不换算绝对年份。相关 S2 关系候选两端现均已有 KU，关系裁决留待 S6。不新增 S2 断言、正式关系、外部身份核验或 S5 字段。当前 S4 登记 1,281/4,806 组、1,482/5,028 条映射；待登记 3,525 组／3,546 条映射。

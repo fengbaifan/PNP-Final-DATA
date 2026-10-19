@@ -46,4 +46,4 @@ Haskell 将装饰承诺、约1605年的款项状况及立面费用分别叙述�
 - `st-chp3-secii-l54-60-decoration-funds-absorbed-by-facade-costs`
 - `st-chp3-secii-l54-60-high-altar-nativity-dedication`
 
-四条候选中，三条的两端现均有对应 KU（两条涉及圣母诞生，一条涉及 Angelo Cesi）；涉及立面费用的另一条中，立面对象 `cand-5032` 尚未登记。即使端点齐备，以上候选仍须经 S6 语义裁决后才能成为正式关系。
+四条候选的两端现均有对应 KU（两条涉及圣母诞生，一条涉及 Angelo Cesi，一条涉及立面费用）；以上候选仍须经 S6 逐条语义裁决后才能成为正式关系。
