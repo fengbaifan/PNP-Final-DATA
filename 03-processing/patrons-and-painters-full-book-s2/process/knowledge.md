@@ -39,9 +39,9 @@
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 46 / 56 | 512 / 512 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 35 / 47 | 893 / 893 |
-| work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 58 / 66 | 419 / 429 |
+| work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 59 / 67 | 418 / 428 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,278 / 1,479** | **3,528 / 3,549** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,279 / 1,480** | **3,527 / 3,548** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8343,3 +8343,8 @@ cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画�
 ### S4 work：Scuola del Carmine 第二方案卡片字段结构化（2026-10-20）
 
 从[第二套天顶装饰方案卡](../../../04-knowledge/units/works/scuola-del-carmine-second-ceiling-scheme.md)提取1条名称字段和5条书内基本信息字段，逐条保留 Haskell 第9章 p.273 的 source ID、位置和原始 Markdown 表格单元格；6条均标为 `source_backed`。这是把 S4 卡片的原书属性纳入既有字段索引，不是外部身份核验或外部补足；5条关系候选仍待 S6。
+
+
+### S4 work：Chiesa Nuova 主祭坛（2026-10-20）
+
+`cand-5033` 沿用既有 S3 `new` 身份组 `workgrp-d80b6b26bc76a0`，登记至[Chiesa Nuova 主祭坛卡](../../../04-knowledge/units/works/high-altar-chiesa-nuova.md)。第3章 pp.69–70 将对象称为 High Altar，称其分配／原奉献于圣母诞生，并报告 Cardinal Angelo Cesi 曾承诺装饰；约1605年预留款据称被意外立面费用吸收。卡片保留 S2 对“its”先行词的暂定判断和 Cardinal 头衔冲突，不将祭坛与后文祭坛画混同，不补资金转移机制。4条直接 S2 关系候选（st-chp3-secii-l40-52-high-altar-nativity, st-chp3-secii-l54-60-cesi-promised-high-altar-decoration, st-chp3-secii-l54-60-decoration-funds-absorbed-by-facade-costs, st-chp3-secii-l54-60-high-altar-nativity-dedication）均留待 S6；圣母诞生与 Angelo Cesi 端点已有 KU，立面候选 `cand-5032` 尚未登记；本次无 formal 关系、外部身份核验或 S5 字段写入。登记后 S4 已登记 1,279/4,806 组、1,480/5,028 条映射；待登记 3,527 组／3,548 条映射。直接端点队列由 1,775 组／1,789 成员降至 1,774 组／1,788 成员。
