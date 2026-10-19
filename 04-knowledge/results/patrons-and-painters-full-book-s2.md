@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,292项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,980（指向1,055个既有KU）、new=5,026（4,811个身份组）、conflict=9、excluded=100、undecided=5,292（含622项未分类）。S4已登记1,192组、映射1,386条成员候选；尚待登记3,619组、3,640条映射，其中直接关系端点待登记队列为1,864组／1,864条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,232条记录（1,230 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；327条S2候选至少缺一个端点。S5字段表11,702条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,291项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,981（指向1,056个既有KU）、new=5,026（4,811个身份组）、conflict=9、excluded=100、undecided=5,291（含622项未分类）。S4已登记1,192组、映射1,386条成员候选；尚待登记3,619组、3,640条映射，其中直接关系端点待登记队列为1,864组／1,864条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,232条记录（1,230 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；327条S2候选至少缺一个端点。S5字段表11,702条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -34,7 +34,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 327条 S2 关系候选至少缺一个端点，分布于125个来源段：仅缺 object 215条、仅缺 subject 40条、两端均缺72条。327条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 最新 strict-stage 表审计通过：KU=2,211；candidates=12,407；alignments=12,715（12,407条候选决定、308条外部身份记录）、unlinked=0；enrichment=11,702（1,627条unverified）；sources=1,752；S4待登记new候选映射3,640条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,980（1,055个既有KU）、new=5,026（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,292（含622项未分类）；S4已登记1,192组／1,386条候选映射，待登记3,619组／3,640条，其中直接关系端点队列1,864组／1,864条。S2有10,399条relation_candidate=true statement；S6关系表另有1,230条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；327条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning包括S4待登记new候选映射3,640条、既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。308条额外外部身份记录单独保存；15条现行候选决定行本身同时包含外部来源信息。
+2026-10-19 最新 strict-stage 表审计通过：KU=2,211；candidates=12,407；alignments=12,715（12,407条候选决定、308条外部身份记录）、unlinked=0；enrichment=11,702（1,627条unverified）；sources=1,752；S4待登记new候选映射3,640条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,981（1,056个KU）、new=5,026（4,811个类型内身份组）、conflict=9、excluded=100、undecided=5,291（含622项未分类）；S4已登记1,192组／1,386条候选映射，待登记3,619组／3,640条，其中直接关系端点队列1,864组／1,864条。S2有10,399条relation_candidate=true statement；S6关系表另有1,230条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；327条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning包括S4待登记new候选映射3,640条、既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。308条额外外部身份记录单独保存；16条现行候选决定行本身同时包含外部来源信息。
 
 ### S6：三位一体会建筑关系批次（2026-10-19）
 
@@ -56,6 +56,10 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 ### S3–S4 person：Anton Francesco Gori 跨章身份组登记（2026-10-19）
 
 `cand-1214`（G.csv#122，“Gori, A. F.”）与 `cand-10105`（第13章 p.344 的“Francesco Gori”）由 `undecided` 改为 `new`，组成 `new-person:anton-francesco-gori-20261019` 并登记为一个 person KU。第10章 p.299、p.328注2及第13章 p.342注6保留 A. F. Gori 的索引与书信语境；第13章 p.344称 Francesco Gori 为 *Dactyliotheca* 撰写拉丁文 commentary。Treccani DBI 对 Anton Francesco Gori 的身份条目及 Zanetti 条目提供外部身份对照。1749/1750年版年差异仍待证。4条 S2 关系候选没有转成正式关系；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-gori-cross-chapter-20261019)。本批新增1个 KU、2条候选映射及2条外部身份记录。
+
+### S3 person：R. Longhi（Roberto Longhi）1956年文章署名复用（2026-10-19）
+
+`cand-7603`（第8章 pp.212–213 注释中的“R. Longhi”）由 `undecided` 改为 `same`，映射到既有人物 KU `units/persons/roberto-longhi`（其新身份组由 `cand-5505` 建立并已登记）。第21章 p.428 书目将同篇文章列作 “Longhi, R.”，并提供题名、期号、年份和页码；Fondazione Roberto Longhi 的档案目录在 Roberto Longhi 的文献记录中列出同一题名的全写形式及 Paragone 75（1956）、pp.61–64，支持首字母作者形式与全名对应。文章未独立阅读。本次只处理人物身份；两条第8章 S2 关系候选仍留待 S6，不验证文章内容、作品归属或正式关系。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-longhi-1956-article-reuse-20261019)与[人物卡](../units/persons/roberto-longhi.md)。
 
 ### S3–S4跨章人物与直接关系作品／档案批次（2026-10-19）
 
@@ -89,15 +93,15 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione人物组：同页正文全名及作品子项语境提供直接身份锚点。cand-5013（p.66 The Resurrection）与cand-5297（p.84 1602年耶稣堂祭坛画）归为一个new作品组，依据为同一画家、复活题材、耶稣会教堂语境及相容年代；题名和具体陈列状态不作超出原文的推断。两项工作组判断及旧理由均保留于对齐表和过程记录。
 
-候选决定按每个 `candidate_id` 的现行决定统计，每个候选只计一次；308条额外外部身份记录不另算候选决定。当前15条候选决定行本身也带外部来源字段，仍分别按候选ID计数。
+候选决定按每个 `candidate_id` 的现行决定统计，每个候选只计一次；308条额外外部身份记录不另算候选决定。当前16条候选决定行本身也带外部来源字段，仍分别按候选ID计数。
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
-| same | 1,980 | 指向 1,055 个既有 KU |
+| same | 1,981 | 指向 1,056 个既有 KU |
 | new | 5,026 | 按 4,811 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,292 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,291 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。
