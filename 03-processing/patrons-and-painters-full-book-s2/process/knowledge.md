@@ -8223,3 +8223,16 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 | `st-chp8-p238-note3-ferdinand-letter-published-by-crespi` | pending | 暂无formal边 | Luigi Crespi 著作端点已登记，但原信 `cand-8038` 尚未S4登记；待该archive组完成后再裁决 `published_in`。 |
 
 验证：两张新卡的定点 `build_cards.py --preview --ku` 与 `python scripts/audit_tables.py --strict-stage --summary` 通过；当前 KU=2,290、S4待登记候选映射=3,563、S6关系表=1,242、`errors=[]`、`s2_missing=[]`。机械通过不构成S2全书语义接收；S2审阅和S5/S6剩余队列继续开放。
+
+
+<a id="s4-work-altieri-clemency-fresco-20261020"></a>
+
+### S4 work：阿尔蒂耶里宫《仁慈》寓意天顶壁画登记（2026-10-20）
+
+`cand-5990`（第4章 p.118）、`cand-6466`（第6章 p.161）与索引候选 `cand-1528`（M.csv#65，索引页码118、161）沿用现行 `new` 决定，登记为同一 KU `units/works/altieri-clemency-fresco`。该路径上的旧测试卡原先不在 manifest 或 accepted.yml 内，不作为 `same` 目标；本次将其改为有效的新组卡片，标题明确标作描述性暂题。跨章注3“See Chapter 6”、第6章主厅天顶与仁慈寓意像叙述、以及索引页码相合支持同一作品判断。索引只作定位线索；第4章来源转录含可疑 OCR 词 `ceding`，卡片不沿用该词，主厅天顶位置以第6章 p.161 明确文本为准。
+
+卡片保留第4章 p.118与第6章 p.161的来源定位、英文原文摘录及逐项证据；归属只记录为 Haskell 将 Carlo Maratta 记作受选创作者，未做外部身份或归属核验。卡片及 `enrichment.jsonl` 新增6条源文本支持的结构化属性（暂题、作品类型、题材、空间、归属、图像志咨询），没有新增 S5 外部补足或正式关系。原书涉及整套宫殿装饰耗时与未完成的陈述未移植为本幅壁画的存世或完成状态。
+
+本组触及10条 S2 关系候选：`st-chp4-sec-ii-p118-fresco-papal-allusion`、`st-chp4-sec-ii-p118-maratta-fresco-opportunity`、`st-chp6-p161-note3-bellori`、`st-chp6-p161-v1-11`、`st-chp6-p161-v1-12`、`st-chp6-p161-v1-13`、`st-chp6-p161-v1-17`、`st-chp4-sec-ii-p118-fresco-created-by-maratta`、`st-chp4-sec-ii-p118-fresco-subject-clemency`、`st-chp4-sec-ii-p118-fresco-court-art-model`。其中3条目前两端均已映射到 KU，登记只解除其 S6 端点缺口，不预判它们应为 formal；其余7条仍有待映射端点或开放对象，全部保留原状供 S6 逐条裁决。没有复制 statement、合并其关系语义或将身份组决定当作关系决定。
+
+登记后 KU=2,291；S4 已登记1,272/4,812组、1,468条候选映射，待登记3,540组／3,560条映射。直接端点待登记队列按现行结果快照由1,786组／1,787个端点候选／1,801条组成员映射减为1,785组／1,785个端点候选／1,798条组成员映射；S2、S3、S6决定数量未改变。验证以 `python scripts/build_cards.py --preview --ku units/works/altieri-clemency-fresco` 和 `python scripts/audit_tables.py --strict-stage --summary` 为准；结构通过不代表10条关系已裁决，也不代表 S2 语义验收。
