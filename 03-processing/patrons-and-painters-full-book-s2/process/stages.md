@@ -10080,6 +10080,8 @@ p.236把Haskell关于Ferdinand参与的推论与Gherardi关于具体指令的后
 
 - p.247恢复并逐一核对62条既有提及，另为Renier引语中的Venetian art patronage增加精确提及，共63条。拆开新贵族阶层的构成/评价、财富与政治分化、古老家族排斥/融合、教会与国家治理、参议院接纳与买入贵族身份等断言。将赞助端点映射到`cand-2720`艺术赞助语境；图像校读只记S2，不改S0。
 - p.248恢复并核对57条既有提及；把Antonio Barbaro战事、驻罗马使节经历分开，分列Sardi立面建造、War of Candia和Barbaro相关行为，并将Patrician赞誉对象从艺术赞助改为印刷品/出版者`cand-8149`。将跨页OCR校读移至真正续接的p.249 statement。
+- 2026-10-19独立语义复核更正st-chp9-p248-patricians-praised-as-patrons：p.248 L39的施事是出版者／印刷商cand-8149，受事是Patricians cand-8109；原表主客体方向颠倒，已按主动谓词调换。S3对出版者群体仍为undecided，本次只修S2候选端点，不生成正式关系；交原审阅者复核。
+- 修订后独立复核确认方向正确，但指出cand-8109仅指受出境限制的子群，不能代表p.248广义patricians。已新增term候选cand-12430，重映射该处mention和statement endpoint，并为S3增加undecided决定aln-12719（group=sg3-review-venetian-patricians-p248）；其与cand-8108所映射的广义贵族阶层KU是否同一仍待裁，当前不建KU或S6关系。
 - p.249恢复并核对38条既有提及，拆出三条原子断言。把Pesaro宫殿立面mention由Damerini档案`cand-8182`改接立面作品`cand-8180`；分开立面比较、政治起因、宫廷限制贵族权力、Barbaro遭解职/报复和贵族炫耀趋势/同时代人的品格判断。`os`校为`of`仅记S2。
 - p.250恢复并核对65条页内提及，另为合并注释L348中1749年Labia公证库存增加精确档案提及。既有库存断言的主题端点由画作集合改为已存在的档案候选`cand-8548`；把Zenobio宫殿、财富传闻、Dorigny壁画委托、建筑框架/法尔内塞影响、Carlevarijs住宿/创作/安置、Widmann住所/壁画、Labia宫殿建成与炫富分开。页图校读`socalled`、`i68os`、`trionso`和`138139-`；档案没有独立调阅。
 - p.251恢复并核对57条页内提及，为合并注释L350–351补7条Florio与1708年信件/出版物提及。将Palazzo Manin比较、装饰评价、挂毯/镜子、画廊作品、Cignani与Mazza作品、重复雇用团队、Manin风格描述及其四处实例、新旧家族共同炫耀、同时代人关于贵族的格言分别记录。p.251 L114的Ricci续句回链p.252 L117。印本确认S0 OCR`Le Crazie`应读作`Le Grazie`，仅记S2。
