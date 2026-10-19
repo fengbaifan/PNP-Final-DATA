@@ -30,13 +30,13 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
-| person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 769 / 869 | 300 / 302 |
+| person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 775 / 875 | 294 / 296 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 43 / 53 | 515 / 515 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 54 / 60 | 423 / 435 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **2,023** | **4,812 / 5,028** | **9** | **100** | **5,247** | **1,201 / 1,395** | **3,611 / 3,633** |
+| **合计** | **12,407** | **2,023** | **4,812 / 5,028** | **9** | **100** | **5,247** | **1,207 / 1,401** | **3,605 / 3,627** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -48,7 +48,7 @@
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,247项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的2,023条候选指向1,092个既有KU；new候选组成4,812个类型内身份组，共5,028条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,201组／1,395条映射已登记，3,611组／3,633条成员映射尚待登记，其中直接关系端点待登记1,856组／1,857个直接端点候选、共含1,871条组成员映射。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,714条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,247项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的2,023条候选指向1,092个既有KU；new候选组成4,812个类型内身份组，共5,028条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,207组／1,401条映射已登记，3,605组／3,627条成员映射尚待登记，其中直接关系端点待登记1,850组／1,851个直接端点候选、共含1,865条组成员映射（人物24组／24成员）。S2 10,399条关系候选中，现行statement表有330条至少一端没有候选ID（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,714条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 <a id="s3-s4-alazard-strozzi-cross-type-batch-20261019"></a>
 
@@ -7912,3 +7912,24 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 `cand-1308`（H.csv#24，p.375n “A. Hume”）由 `undecided` 改为 `same`，映射到既有人物 KU `units/persons/abraham-hume`。国家美术馆档案 NGA8/1 系列目录标题明确为 Abraham Hume 与 Giovanni Maria Sasso 等人的通信，目录日期为1787–1805，并说明 Sasso 等意大利代理人与 Hume 就潜在艺术品通信；这与书中将 A. Hume 列为与 Sasso 有联系者的语境相合，足以消歧人物身份。身份依据记录为 National Gallery Archive, [NGA8/1](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA8/1)（访问日期：2026-10-19）。
 
 本裁决仅确认人物复用。馆藏系列目录不能确认 Haskell 所引 Lorenzetti 1914 年出版的 1790–1792 年具体三封信；该出版物及信件未独立阅读。NGA8/1 是通信系列号，不作为 Hume 的个人规范标识写入 `external_source`／`external_id`。`st-chp16-p375-hume-in-touch-with-sasso` 的关系端点现可映射至 KU，但 `was_in_touch_with` 的具体证据仍待 S6 裁决。旧的 undecided 决定与原理由保存在 `aln-1643` 的 `resolution_note` 末尾。
+
+<a id="s4-person-direct-endpoints-postscript-20261019"></a>
+
+### S4 person：第20章后记六个直接关系端点登记（2026-10-19）
+
+本批登记六个已裁为 S3 `new`、各含一个候选的 person 组，均为 S2 关系候选端点：
+
+| candidate | 书内身份锚点 | S4 KU | S2关系候选 |
+|---|---|---|---|
+| `cand-10865` | David Dubon，第20章后记 p.397 L16 | `units/persons/david-dubon` | `st-chp20-p397-french-tapestries-dubon` |
+| `cand-10877` | Christoph Frommel，第20章后记 p.397 L21 | `units/persons/christoph-frommel` | `st-chp20-p397-frommel-del-monte-inventories` |
+| `cand-10902` | p.398 L28 的 Whitfield 与 p.440 L1254 书目全名 Clovis Whitfield | `units/persons/clovis-whitfield` | `st-chp20-p398-whitfield-agucchi-programme` |
+| `cand-10967` | Cyril Humphris，第20章后记 p.401 L85–86 | `units/persons/cyril-humphris` | `st-chp20-p401-humphris-bust-possession` |
+| `cand-11125` | Giovanni da Pozzo，第20章后记 p.409 L190–191 | `units/persons/giovanni-da-pozzo` | `st-chp20-p409-da-pozzo-edition-and-will-publication` |
+| `cand-11148` | Christopher Lloyd，第20章后记 p.410 L205–206 | `units/persons/christopher-lloyd` | `st-chp20-p410-lloyd-venezia-pittrice-project` |
+
+登记沿用 S3 既有 source-local 身份组和单成员映射。卡片以中英文描述、书内姓名及原书来源锚点限定对象：Dubon 与 Frommel 的出版研究、Whitfield 对 Agucchi programme 的研究、Humphris 对胸像的持有、da Pozzo 的两项出版及 Lloyd 的未完成书稿均只作为 Haskell 的书内报告；未独立查阅被引材料或补入外部生平。Whitfield 的正文姓氏与第21章书目全名对应；Humphris 的持有转移没有确切日期；Lloyd 的 *Venezia Pittrice* 明确仍未完成。六个 `alignment.csv` 行现映射至对应 KU，原 S3 理由保留。六条关系候选仍待 S6；本批未新增 `relations.csv` 行、`enrichment.jsonl` 事实或来源登记。
+
+本批新增6个 KU 与6条候选映射。S4累计1,207组／1,401条映射已登记，待登记3,605组／3,627条；person类型登记775组／875条、待登记294组／296条。直接关系端点待登记队列由1,856组／1,857个端点候选／1,871条组成员映射降至1,850组／1,851个端点候选／1,865条组成员映射；person子队列由30组降至24组。KU=2,226。
+
+验证：`python scripts/audit_tables.py --strict-stage --summary` 通过（`errors=[]`、`s2_missing=[]`）；保留四项既有警告，分别为S4待登记、两条source_ref缺口及S2独立语义审阅未完成。
