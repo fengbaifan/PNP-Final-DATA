@@ -17849,7 +17849,7 @@ m-chp8-p224-states,chp-8:08_CHP-8_sec_ii:l152-161,cand-1831,States of the Church
 m-chp8-p224-raimondo-1,chp-8:08_CHP-8_sec_ii:l152-161,cand-0467,Raimondo,52,60,Patron for whom the palace was built.
 m-chp8-p224-earlier-palace,chp-8:08_CHP-8_sec_ii:l152-161,cand-7747,an earlier one,131,145,Unnamed predecessor palace/building on the site; it is not described as a church.
 m-chp8-p224-father,chp-8:08_CHP-8_sec_ii:l152-161,cand-7748,his father,181,191,Unnamed father of Raimondo; source reports acquisition of the predecessor building in 1701.
-m-chp8-p224-contini,chp-8:08_CHP-8_sec_ii:l152-161,cand-0836,Giovanni Battista Contini,222,247,Reuse the index subentry for Contini's work on the Buonaccorsi palace.
+m-chp8-p224-contini,chp-8:08_CHP-8_sec_ii:l152-161,cand-0835,Giovanni Battista Contini,222,247,"Person Giovanni Battista Contini; use the person index entry, not the Buonaccorsi-palace place subentry."
 m-chp8-p224-raimondo-2,chp-8:08_CHP-8_sec_ii:l152-161,cand-0467,Raimondo,335,343,Subject of the palace-decoration chronology.
 m-chp8-p224-gallery-1,chp-8:08_CHP-8_sec_ii:l152-161,cand-7749,the long gallery,383,399,Interior space in the palace.
 m-chp8-p224-gallery-fresco,chp-8:08_CHP-8_sec_ii:l152-161,cand-7750,a single fresco,494,509,The vault fresco later identified as the Apotheosis of Aeneas.
@@ -27286,3 +27286,5 @@ m-s2-ch17-p383-pictures-to-market-event,chp-17:17_CHP-17_sec_ii:l19-22,cand-1242
 m-chp2-seciv-l106-112-0051,chp-2:02_CHP-2_sec_iv:l106-112,cand-2209,In 1638 he was made Principe,2507,2535,Event: Romanelli's 1638 appointment as Principe of Accademia di S. Luca.
 m-chp8-p213-086,chp-8:08_CHP-8_sec_i:l108-118,cand-0483,Callot,1260,1266,Person mention inside the possessive phrase Callot's print; the full phrase and title are mapped separately to work candidate cand-12429.
 m-chp8-p238-giovanni-ricci,chp-8:08_CHP-8_sec_ii:l327-336,cand-2147,Giovanni Ricci,754,768,Full name in the p.238 discussion of Crespi's Bolognese patrons; linked to index main entry Q-R.csv#74 and its p.204 subentry.
+m-chp8-p224-large-canvases,chp-8:08_CHP-8_sec_ii:l152-161,cand-12083,huge square and rectangular canvases,916,952,Unidentified large-canvas group decorating the Buonaccorsi gallery; individual titles are not supplied here.
+m-chp8-p224-episode-pictures,chp-8:08_CHP-8_sec_ii:l152-161,cand-12083,the pictures of single episodes,1765,1796,"Raimondo's reported gallery-picture commission; the Aeneid is the narrative source, not the commissioned object."

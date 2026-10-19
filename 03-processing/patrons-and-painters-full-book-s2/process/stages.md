@@ -11212,3 +11212,12 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 
 - 回核规范转录 L358–359：注2原文仅为“Hautecoeur, pp. 39-49”，注3为“ibid., pp. 84-9”，注4为“Alazard, pp. 18-28 and 55-86”。原 statement 的 locator 将 Hautecœur 误扩写为1943年《Rome et la Renaissance de la peinture française》，将 Alazard 误扩写为1931年《La Vie artistique au temps de Mazarin》；这些题名均未出现在对应脚注，且与当前候选所据书目项不符。
 - 现将三个 statement 的 claim、qualification、`citation_locator`、`citations[].locator` 与 relation-candidate 说明改为区分脚注原文和书目映射：Hautecœur 映射到书目唯一条目《L’Histoire des Châteaux du Louvre et des Tuileries》（1927），Alazard 映射到《L’Abbé Luigi Strozzi…》（1924）；两项均未独立查阅所引页。候选端点、S3决定、正文脚注链接及数量不变；改动由 `correct_chp7_p185_citation_work_mappings_20261019.py` dry-run 后 apply，并保留恢复副本。
+
+
+### S2 独立语义复核前两批修订（2026-10-19）
+
+根据独立复核意见，用 `integrate_s2_independent_review_batch1_20261019.py` 与 `integrate_s2_independent_review_batch2_20261019.py` 按预期原值校验后写回。相对本批前仓库版本，现有23条 statement 有修订，新增1条 statement；新增2条 mention，另有1条既有 mention 改正候选映射。未新增候选或知识元，未改写 `relations.csv`。
+
+修订集中在断言范围、说话者／指代、端点角色与来源锚点：例如将 Mola“请律师借给他书籍”保留为请求而非已借得；把 Arragona 建议的收件人更正为 Duke，而非代收信件的 chancellor；将 Contini 的人物提及从 Buonaccorsi 宫殿地点候选改至人物候选；将 Raimondo 委托的未具名画作组与《埃涅阿斯纪》叙事来源分开；并为 De Non—Novelli 师生断言新增独立 statement。相关身份、未具名对象及关系是否成立仍留在其各自阶段，不据此写入正式关系。
+
+写后全库为15,163条 statement（relation_candidate=true 10,400、false 4,763、未设置0）与26,621条 mention。`python scripts/audit_tables.py --strict-stage --summary` 通过：KU 2,288、候选12,407、alignment 12,715（含308条额外外部身份记录）、S4待登记new映射3,565、S2覆盖832段全部有状态、`errors=[]`、`s2_missing=[]`。审计保留S2语义质量警告；本批机械通过不构成全书独立语义验收。
