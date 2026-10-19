@@ -38,10 +38,10 @@
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
 | place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 46 / 56 | 512 / 512 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 36 / 48 | 892 / 892 |
+| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 37 / 49 | 891 / 891 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,282 / 1,483** | **3,524 / 3,545** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,028** | **9** | **100** | **5,248** | **1,283 / 1,484** | **3,523 / 3,544** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8397,3 +8397,15 @@ cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画�
 - 第11组：`st-chp10-p301-smith-official-visitors`方向及访客范围不符原文；`st-chp10-p314-schulenburg-owned-views-and-landscapes-by-six-artists`涉及六位画家但作品端点只映射Marieschi；`st-chp10-p316-n02-sala-attributed-to-francesco-guardi`与`st-chp10-p316-n02-sala-attributed-to-gianantonio-guardi`是相互冲突的来源归属报告，应分立并保留引述归属。
 - 第12组：出版、接待、政治破裂、写作与委托等claim混合，如`st-chp10-p318-muratori-published-della-pubblica-felicita`、`st-chp10-p318-beccaria-published-dei-delitti-and-welcomed-in-paris`、`st-chp10-p319-conti-revealed-notes-to-french-following-rupture`；人物/作品/内容端点错配见`st-chp10-p319-conti-wrote-on-sasper-and-imitated-julius-caesar`、`st-chp10-p320-lodoli-among-those-who-persuaded-vico-to-write-autobiography`及mention `m-s2-ch10-p320-0038`、`st-chp10-p320-zanetti-announced-colour-woodcut-process-to-conti`、`st-chp10-p322-lodoli-familiar-with-canaletto-visentini-work-through-smith`、`st-chp10-p322-print-tablets-bear-jeremiah-text`。其他需修项包括p.323期号应为No.35（`st-chp10-p320-323-n07-gazzetta-veneta-issue-longhi-comparison`）、推测语气丢失、作品/委托端点缺项（p.325–327）、未具名画家会费询问（`st-chp10-p330-memmo-dues-query`）、展览与Salon比较主体（`st-chp10-p331-algarotti-letter-and-salon-comparison`）。
 - p.317 `st-chp10-p317-royalty-and-church-no-longer-monopolised-painters`现已包含英法范围；p.318 `st-chp10-p318-arcadia-and-french-critics-stimulated-debate`现已包含Marino及其追随者，核读时确认这两项既有修订已在当前版本。
+
+<a id="s4-term-adoration-lamb-iconographic-subject-20261020"></a>
+
+### S4 term：羔羊崇拜图像主题（2026-10-20）
+
+`cand-5291`沿用S3 `new`术语组 `sg3-term-cand-5291`，登记为[羔羊崇拜图像主题卡](../../../04-knowledge/units/terms/adoration-of-the-lamb-iconographic-subject.md)。第3章 p.84 是本卡身份与定义的书内依据：哈斯克尔称 Gaulli 在耶稣堂后殿恢复了该主题，提到 S. Prassede 与 S. Maria Maggiore 的早期马赛克，并描述封印之书、七盏灯、二十四长老、持棕枝青年及吹号和焚香天使等传统图像元素。本卡将主题与后殿壁画、两处较早马赛克以及拱顶原拟表现的基督受难主题分开；所有年代和艺术史表述仅记为哈斯克尔所述，未作外部核验。5条直接 S2 关系候选（st-chp3-seciv-l75-81-ancient-maggiore-mosaic, st-chp3-seciv-l75-81-ancient-prassede-mosaic, st-chp3-seciv-l75-81-baroque-transfer-judgment, st-chp3-seciv-l75-81-iconographic-elements, st-chp3-seciv-l75-81-theme-in-oliva-writings）仍待 S6；本批不登记 formal 关系或 S5 字段。登记后 S4 已登记1,283组／1,484条映射，待登记3,523组／3,544条映射；直接端点队列由1772组／1786成员降至1771组／1785成员。S2 第3章复核指出 `st-chp3-seciv-l75-81-revived-lamb-subject` 将主题误指向作品候选；本次只登记正确类型的主题KU，不改动该statement，待S2修订时再按复核意见回核。
+
+<a id="s2-targeted-repair-revived-lamb-subject-endpoint-20261020"></a>
+
+### S2定点修复：羔羊崇拜主题端点（2026-10-20）
+
+st-chp3-seciv-l75-81-revived-lamb-subject 的第3章 L76 原文称 Gaulli 恢复的是 the subject of The Adoration of the Lamb。依独立第3章复核意见，并核对同段提及 m-chp3-seciv-l75-81-0005 与 S4 已登记术语 KU，将 object_candidate_id 从壁画作品 cand-5287 改为图像主题 cand-5291；人物端点 cand-1117、谓词、原文引句、claim 与 relation_candidate 状态均保持不变。此修改校正断言的对象指称，不等于关系成立或独立语义验收；该术语 KU 当前对应的6条直接 S2 关系候选仍待 S6 逐条裁决，未新增 formal 边。同时校准术语卡中 hardly been seen 与 seven torches 的中英文表述，使其贴合原文。

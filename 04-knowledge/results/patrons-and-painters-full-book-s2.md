@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,282组、映射1,483条成员候选；尚待登记3,524组、3,545条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,023（指向1,092个既有 KU）、new=5,028（4,806个身份组）、conflict=9、excluded=100、undecided=5,248。S4 已登记1,283组、映射1,484条成员候选；尚待登记3,523组、3,544条映射。
 
 ## 范围与覆盖
 
@@ -21,7 +21,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,301 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,302 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,621 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |
@@ -338,10 +338,10 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 | person | 1,204→450 | 1,171／1,069 | 798／271；273 | 4 | 7 | 1,078 |
 | place | 229→153 | 568／558 | 46／512；512 | 0 | 0 | 312 |
 | procedure | 10→10 | 31／29 | 29／0；0 | 0 | 0 | 2 |
-| term | 43→35 | 940／928 | 36／892；892 | 0 | 2 | 656 |
+| term | 43→35 | 940／928 | 37／891；891 | 0 | 2 | 656 |
 | work | 238→218 | 495／477 | 60／417；427 | 5 | 29 | 1,630 |
 | 未分类 | 0→0 | 0／0 | 0／0；0 | 0 | 43 | 622 |
-| **合计** | **2,023→1,092** | **5,028／4,806** | **1,282／3,524；3,545** | **9** | **100** | **5,248** |
+| **合计** | **2,023→1,092** | **5,028／4,806** | **1,283／3,523；3,544** | **9** | **100** | **5,248** |
 
 2026-10-17 十批 S4 登记见[term批次一](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-terms-20261017)、[term批次二](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017)、[term批次三](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-three-direct-endpoint-terms-20261017)、[work批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017)、[英国游客身份组](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-english-tourists-italy-term-20261017)、[修会教堂与罗马画家群体](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-terms-20261017-batch2)、[不雅与艳情索引主题](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-indecency-erotic-term-20261017)、[两组事件](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-endpoint-events-20261017)、[贝加莫圣母玛利亚教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-bergamo-santa-maria-maggiore-place)及[威尼斯 Pietà 教堂](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-pieta-venice-place-20261017)；共新增23个KU与24条候选映射，153条直接关系候选继续待S6。
 
@@ -2936,3 +2936,11 @@ cand-7664 映射至[《洪水》画布知识卡](../units/works/the-flood-canvas
 ### S4 term：外国旅行者跨章术语组（2026-10-20）
 
 `cand-3562` 沿用既有 S3 `new` 组 `sg3-term-cand-3562`，登记至[外国旅行者术语卡](../units/terms/foreign-travellers.md)。第1、4、5、9章提供不同语境的来源锚点；旅行者、游客、外国人、使节与普通来访者不视为同一批人。第7章限定为17世纪后半赴意大利英国游客的术语卡保持独立。5条直接 S2 关系候选留待 S6；本次未新增正式关系、S5字段或外部身份核验。登记后 S4 已登记1,282/4,806组、1,483/5,028条映射；待登记3,524组／3,545条映射。
+
+### S4 term：羔羊崇拜图像主题（2026-10-20）
+
+`cand-5291` 沿用既有S3 `new`组 `sg3-term-cand-5291`，登记至[羔羊崇拜图像主题卡](../units/terms/adoration-of-the-lamb-iconographic-subject.md)。第3章 p.84 将其作为 Gaulli 后殿壁画所表现的主题，并分别提及较早的 S. Prassede、S. Maria Maggiore 马赛克；主题、壁画和马赛克保持分立。5条直接 S2 关系候选留待 S6，本批未新增正式关系、外部身份或 S5 字段。登记后 S4 已登记1,283/4,806组、1,484/5,028条映射；待登记3,523组／3,544条映射。
+
+### S2定点修复：羔羊崇拜主题端点（2026-10-20）
+
+st-chp3-seciv-l75-81-revived-lamb-subject 的对象端点已由壁画作品候选 cand-5287 校正为图像主题候选 cand-5291，依据为第3章 L76 原文及同段提及映射；该术语 KU 当前对应的6条直接 S2 关系候选均待 S6 逐条裁决，不表示正式关系或独立语义验收。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-targeted-repair-revived-lamb-subject-endpoint-20261020)。
