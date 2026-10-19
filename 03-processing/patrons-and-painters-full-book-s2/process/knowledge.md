@@ -36,12 +36,12 @@
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 186 / 196 | 0 | 0 | 121 | 26 / 36 | 160 / 160 |
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 797 / 897 | 272 / 274 |
-| place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 45 / 55 | 513 / 513 |
+| place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 46 / 56 | 512 / 512 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 35 / 47 | 893 / 893 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 56 / 64 | 421 / 431 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,807 / 5,028** | **9** | **100** | **5,248** | **1,275 / 1,476** | **3,532 / 3,552** |
+| **合计** | **12,408** | **2,023** | **4,807 / 5,028** | **9** | **100** | **5,248** | **1,276 / 1,477** | **3,531 / 3,551** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -8285,6 +8285,18 @@ candidate cand-1784 沿用现行 S3 new 决定及身份组 sg3-place-cand-1784�
 登记后 S4 已登记1,275／4,807组、1,476条候选映射，待登记3,532组／3,552条映射。直接关系端点队列为1,779组／1,779个候选／1,792条成员映射，其中 place 为230组／230成员；非直接队列为1,753组／1,760条映射。KU总数2,294。
 
 验证：`python scripts/build_cards.py --preview --ku units/places/palazzo-vescovale-di-ferrara` 与 `python scripts/audit_tables.py --strict-stage --summary` 均退出码0；KU=2,294，待登记new映射=3,552，enrichment=11,725（unverified=1,625），`errors=[]`、`s2_missing=[]`。单卡预览仅显示预期的空正式关系提示；结构通过不表示五条关系已裁决或全书S2已独立验收。
+
+<a id="s4-place-palace-piazza-navona-20261020"></a>
+
+### S4 place：纳沃纳广场帕姆菲利家族／教宗宫殿登记（2026-10-20）
+
+`cand-1824` 沿用现行 `new` 身份组 `sg3-place-cand-1824`，登记为来源内描述性地点 KU `units/places/palace-on-piazza-navona`。第3章 p.77称 Innocent X 曾请 Pietro da Cortona 为其家族在 Piazza Navona 的宫殿作画；第6章 pp.147–149将 Rainaldi 所规划、Innocent 曾居住、后来交给 Camillo Astalli、并设有 Pietro 画廊委托的 palace 连续置于同一语境。卡片采用来源局部描述名，不声称正式建筑名、现代建筑身份或现状；Piazza Navona 广场、Collegio Romano 对面的 Prince Camillo Pamfili 宫殿及别墅均保持区分。
+
+新增一张双语 place 卡、一个 manifest KU、一个 accepted 路径，并将 `aln-2159` 映射至该 KU、`process_ref` 指向本记录。四条以地点为直接关系端点的 S2 候选——`st-chp6-p147-rainaldi-plans-pamfili-palace`、`st-chp6-p147-innocent-lived-pamfili-palace`、`st-chp6-p148-astalli-assigned-papal-palace`、`st-chp6-p148-pamfili-palace-rainaldi-limitations`——仍留待 S6。另四条将宫殿作为其他关系候选的地点语境，分别保留在其原statement中，不新增宫殿正式边。未新增 S5 字段或外部身份链接。
+
+登记后 S4 已登记1,276／4,807组、1,477条候选映射，待登记3,531组／3,551条映射。直接关系端点队列为1,778组／1,778个候选／1,791条成员映射，其中 place 为229组／229成员；非直接队列为1,753组／1,760条映射。KU总数2,295。
+
+验证：`python scripts/build_cards.py --preview --ku units/places/palace-on-piazza-navona` 与 `python scripts/audit_tables.py --strict-stage --summary` 均通过；卡片预览无差异，严格阶段审计 `errors=[]`、`s2_missing=[]`。本批只完成 S4 身份登记；八条相关S2关系候选仍须逐条S6裁决，全书S2仍待独立语义验收。
 
 <a id="s2-chapter-6-independent-review-20261020"></a>
 
