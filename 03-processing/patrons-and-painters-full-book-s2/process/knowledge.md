@@ -8311,3 +8311,18 @@ candidate cand-1784 沿用现行 S3 new 决定及身份组 sg3-place-cand-1784�
 - **分类和引文定位：** `st-chp6-p155-patronage-decline-causes`、`st-chp6-p158-critic-rise-and-patron-decline`、`st-chp6-p158-patron-to-critic-shift`是否应列relation candidate需按项目边界裁决；`st-chp6-notes-l123-p148-n2`遗漏肖像胸像组；`st-chp6-notes-l147-p154-n1-location`错链正文ID；`st-chp6-notes-l150-p154-n4`需限缩claim；`st-chp6-p151-bernini-designs-scala-regia`原引文过宽；`st-chp6-p159-note1-schlosser-magnino`超出原注书目信息；`st-chp6-p159-note2-bellori-1942-p99`、`note3-bellori-pascoli`、`note4-bellori-1942-p115`的页码候选误用p.128；`st-chp6-p161-note3-bellori`、`note4-pascoli`缺正文可核锚点；`st-chp6-p162-n2-cite`候选页码不符，`st-chp6-p162-n7-tomb`应以墓为位置断言主体。
 
 尚有第8章无页码记录26条待审；其余已完成审读的第4、5、8、9章发现仍需按结果规划修复和回核。本记录只保存审读范围与待修问题，不构成S2语义接收或关系裁决。
+
+<a id="s2-chapter-1-independent-review-20261020"></a>
+
+### S2 第1章独立语义复核（2026-10-20）
+
+独立审读当前第1章521/521条statement，按当前ID核对统一OCR行锚、端点、mentions及段落连续性；其中`relation_candidate=true` 335条、`false` 186条、unset 0。既有历史盲审只覆盖9段样本，没有可逐条映射当前ID的完整独立报告；因此历史覆盖外的逐ID审阅量为521条。本次只读，没有改写S2表。**本章不接收**：须先按来源段修订问题项，再对受影响statement定点回核。
+
+主要阻断及代表ID：
+
+- **跨段断裂、重复及来源锚：** `st-chp1-l139-141-montalto-quote` 的引文截在“carried on with”，而 `st-chp1-l147-montalto-plan-continuation`重复续写同一计划；`st-chp1-l111-117-sites` 的引文跨至L124且与下一条重叠；`st-chp1-secii-l19-26-01` 锚点止于L244而claim延至L246；`st-chp1-secii-l19-26-11`、`st-chp1-secii-l28-38-01`及`st-chp1-secii-l28-38-05`保留“继续句子”式迁移痕迹；`st-chp1-secii-l86-94-01`、`-07`及`st-chp1-secii-l927-943-03i`／`st-chp1-secii-l952-958-04a`需合并或还原完整原句。
+- **复合断言与说话者：** `st-chp1-l131-136-building-and-heirs`、`st-chp1-secii-l28-38-04`、`st-chp1-secii-l48-60-01`、`st-chp1-secii-l48-60-06`、`st-chp1-secii-l62-71-02`、`st-chp1-secii-l62-71-09`、`st-chp1-secii-l62-71-13`及`st-chp1-secii-l73-77-01`／`-02`／`-04`分别混合人物晋升与安置、委托与借阅、多个艺术家例证、不同文献层级、委托与关系评价或多种付款事实；应按来源句、说话者与具体对象拆分或收窄。
+- **候选类型、身份与关系端点：** `st-chp1-l180-185-vasalli-princely-service`把泛称的 Prince or Princess 具体化为 Prince Pamfili；`st-chp1-secii-l79-84-10`对未具名公爵的“His Highness”是否可识别仍须核；`st-chp1-secii-l86-94-02`需核 Treasury 家族例证的mention映射。`st-chp1-l68-70-peretti-exception`当前标为false且未表达艺术家对Peretti的工作关系；`st-chp1-secii-l106-116-02f`、`-02h`、`-02j`方向反置，`-02l`把学院保护人关系误连到Urban VIII；`st-chp1-secii-l10-17-01`和`-09`亦须拆分具体关系角色。
+- **文本校勘与日期限定：** `st-chp1-secii-p9-n4-armanni-letter-authored-by`把Haskell注释的印本文字“Armarmi”改为“Armanni”并升格为注释明载；须区分原书文字与校勘依据。`st-chp1-secii-l137-146-02b`删除了“was formed in 1623?”的疑问限定；`st-chp1-secii-l974-980-07`把Ferri来信与Luti/Pascoli后续例证及两个来源层级合并，`st-chp1-secii-l971-973-06`混合de Rosis来信和Baldinucci引文。
+
+Gini、Savini、Guercino、Ricci等脚注中的若干已核端点与原文相符，但不抵消上述阻断。本记录保留完整审读范围和代表ID，不构成S2语义接收或关系裁决。
