@@ -2,7 +2,7 @@
 
 更新日期：2026-10-19。
 
-**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,297项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,975（指向1,053个既有KU）、new=5,026（4,812个身份组）、conflict=9、excluded=100、undecided=5,297（含622项未分类）。S4已登记1,189组、映射1,382条成员候选；尚待登记3,623组、3,644条映射，其中直接关系端点待登记队列为1,868组／1,868条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,232条记录（1,230 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；312条S2候选至少缺一个端点。S5字段表11,693条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
+**当前状态：全书 S2 内部语义处理已完成，尚未独立语义验收；S3 为12,407个候选记录了现行决定及可追溯去向，9项冲突与5,294项待证对象仍未解决；S4 KU 登记处理中；S5、S6尚未全书收口。** 当前S3决定为same=1,980（指向1,055个既有KU）、new=5,024（4,810个身份组）、conflict=9、excluded=100、undecided=5,294（含622项未分类）。S4已登记1,191组、映射1,384条成员候选；尚待登记3,619组、3,640条映射，其中直接关系端点待登记队列为1,864组／1,864条候选映射。S2有10,399条statement标记relation_candidate=true；S6关系表有1,232条记录（1,230 formal、2 pending），两者是不同数据集，现有关系行数不是S2候选的逐条裁决覆盖数；330条S2候选至少缺一个端点。S5字段表11,702条、1,627条unverified；S6关系表45条缺结构化source_id（44条formal、1条pending）。以下当前统计以结构化表为准；按日期记录的批次段落是历史快照，不累计替代当前数。
 
 ## 范围与覆盖
 
@@ -21,27 +21,27 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,208 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,210 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,407 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,619 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,162 statements；relation_candidate true 10,399、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,713 条：12,407 条候选决定记录及 306 条独立外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,693条，其中1,627条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,702条，其中1,627条 unverified |
 | [来源登记](../tables/sources.csv) | 1,752 条来源记录 |
 | [关系表](../tables/relations.csv) | 1,232条：1,230 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,399条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
-312条 S2 关系候选至少缺一个端点，分布于126个来源段：仅缺 object 214条、仅缺 subject 31条、两端均缺67条。312条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
+330条 S2 关系候选至少缺一个端点，分布于125个来源段：仅缺 object 217条、仅缺 subject 41条、两端均缺72条。330条均保留逐行理由，无缺理由开放端点；它们仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。
 
-2026-10-19 最新 strict-stage 表审计通过：KU=2,208；candidates=12,407；alignments=12,713（12,407条候选决定、306条外部身份记录）、unlinked=0；enrichment=11,693（1,627条unverified）；sources=1,752；S4待登记new候选映射3,644条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,975（1,053个既有KU）、new=5,026（4,812个类型内身份组）、conflict=9、excluded=100、undecided=5,297（含622项未分类）；S4已登记1,189组／1,382条候选映射，待登记3,623组／3,644条，其中直接关系端点队列1,868组／1,868条。S2有10,399条relation_candidate=true statement；S6关系表另有1,230条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；312条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。306条额外外部身份记录单独保存；15条现行候选决定行本身同时包含外部来源信息。
+2026-10-19 最新 strict-stage 表审计通过：KU=2,210；candidates=12,407；alignments=12,713（12,407条候选决定、306条外部身份记录）、unlinked=0；enrichment=11,702（1,627条unverified）；sources=1,752；S4待登记new候选映射3,640条；errors=[]、s2_missing=[]。当前S3去向统计为same=1,980（1,055个既有KU）、new=5,024（4,810个类型内身份组）、conflict=9、excluded=100、undecided=5,294（含622项未分类）；S4已登记1,191组／1,384条候选映射，待登记3,619组／3,640条，其中直接关系端点队列1,864组／1,864条。S2有10,399条relation_candidate=true statement；S6关系表另有1,230条formal和2条pending，行数不表示这些S2候选已逐条裁决。S6关系表45条缺结构化source_id（44条formal、1条pending）；330条S2候选仍至少缺一个端点。new组无部分登记，same均指向有效且类型相符的KU，各候选决定均有理由记录。逐类型裁决及组信息见[过程记录的S3统计表](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#按类型决定数)。保留的warning为既有enrichment来源定位问题（enr-06678、enr-06937）及S2语义质量提示；结构检查不替代独立语义验收。306条额外外部身份记录单独保存；15条现行候选决定行本身同时包含外部来源信息。
 
 ### S6：三位一体会建筑关系批次（2026-10-19）
 
 第3章 p.75–76 的11条关系候选现分为5条 formal（`rel-1228`–`rel-1232`）、1条因匿名原驻地端点未决而 pending、5条评价或转述候选不建图谱边。新增受控关系 `entrusted_to_build` 记录教堂、修道院于1634年被委托给 Borromini 建造；它不表示工程已经开工或完工。待证端点 `cand-5121` 保持 S3 undecided，没有用 Spain 地理实体替代未具名原驻地。判断依据与逐条去向见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-trinitarian-commission-site-migration-20261019)。
 
 2026-10-19 定点校正第七章 p.185 注2–4的引用定位：脚注原文仅列作者与页码，链接出版物由唯一对应书目项映射；此前误写入的两个不符书名已移除。S3身份端点、全书统计及关系状态未变，所引页面仍未独立阅读；细节见[阶段过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)及修订脚本。
-直接关系端点待登队列按类型（组／候选成员）为：person 31／31、institution 96／96、event 144／144、place 233／233、work 342／342、archive 483／483、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。2026-10-19 `build_cards.py --check` 全量预检通过且未写卡片：2,208张卡、3,236张表、11,693行、预计关系派生2,446行、474张卡受关系视图影响、484个文件待渲染。当前卡片派生视图尚未整体同步。
+直接关系端点待登队列按类型（组／候选成员）为：person 31／31、institution 96／96、event 144／144、place 232／232、work 340／340、archive 482／482、term 539／539；不含已复用、已登记或没有直接承担关系候选端点的new组。历史预检（2026-10-19、本批前）`build_cards.py --check` 全量预检通过且未写卡片：2,208张卡、3,236张表、11,693行、预计关系派生2,446行、474张卡受关系视图影响、484个文件待渲染。当前卡片派生视图尚未整体同步。
 2026-10-19 Bellori 1976跨章版次组：cand-4377、cand-11157、cand-10981合并至同一archive KU并完成S4；Braidense OPAC RAV0025303与第21章唯一书目项支持身份。两条直接关系候选端点现齐备、仍待S6；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-archive-bellori-1976-cross-chapter-group-20261019)。
 2026-10-19 最新人物端点批次复核20个单候选组：4组改为 `same` 并复用既有人物 KU，16组保持 `new` 且完成 S4 登记。身份判断、边界和外部身份依据见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-20261019)；关系候选仍待 S6，本批未新增正式关系。
 2026-10-19 四组人物端点登记：cand-2685、cand-2700、cand-7353、cand-5833各保留既有S3 new身份组并新增一个person KU；cand-7353另有Treccani DBI身份入口。S4登记至1,181组／1,369条候选映射，待登记为3,630组／3,651条；直接端点队列为1,875组／1,875条（person 31组／31条）。四条S2关系候选留待S6；无formal relation或enrichment新增。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-endpoints-varda-della-valle-carlo-emanuele-tamizey-20261019)。
@@ -53,6 +53,10 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 2026-10-19 人物复用复核：`cand-1252`、`cand-1701`、`cand-4147` 从 `undecided` 改为 `same`，分别复用 Gian Antonio Guardi、Jacopo Morelli 与 Henry John Ralph Bankes 人物 KU；Bankes 与 17 世纪 Sir Ralph Bankes 分开。same 现为1,973条／1,052个目标KU，undecided为5,305条；不新增KU，相关关系仍须S6裁决。两条 statement 的 candidate endpoint 指派疑点已标注，不能据本次身份复用直接建边。详见[人物复用裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-existing-ku-reuse-20261019)。
 ## S3 身份决定与交接
 
+### S3–S4跨章人物与直接关系作品／档案批次（2026-10-19）
+
+人物 `cand-1106`、`cand-1108`、`cand-2349` 复用既有人物 KU；作品 `cand-5945` 与地点 `cand-5439` 由待新增组改为复用既有 KU；作品 `cand-5457` 与档案定位 `cand-5458` 两个新组已登记，见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-work-archive-endpoints-20261019)。新增2个KU；10条直接关系候选中8条已有两端KU映射并可交S6，另2条仍待 Josephus 身份与《圣经》档案端点补齐。本批未新增正式关系或S5外部补足；两张新卡新增9条书内结构字段。
+
 ### S3 person：Filippo d’Angeli（Napoletano）跨章身份裁决（2026-10-19）
 
 `cand-0105`（A.csv#106）由 `undecided` 改为 `new`，分入 `new-person:filippo-dangeli-napoletano-715dfcf2d8`。第2章 p.29 的 Filippo d’Angeli（Napoletano）、第2章 p.50 的 Filippo Napoletano 和第4章 p.95 的同名风景画家语境相互衔接；Treccani DBI 与 ICCD 目录支持这组称名对应同一人物。索引 `cand-2920` 是 see-under，继续排除。旧决定理由保留在 alignment 行中；本次只完成身份裁决，不创建 KU 或正式关系。两条直接 S2 关系候选留待 S6。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-person-filippo-dangeli-napoletano-cross-chapter-identity-20261019)。
@@ -63,11 +67,11 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 ### 后续工作规划
 
-1. **S3 按类型、依赖和证据可得性推进**：当前5,297项 `undecided` 中，优先审查直接承担关系候选端点且已有跨章锚点或可比对既有 KU 的对象；现有7,075个候选曾作为关系候选 statement 的直接端点，其中未决人物437项、未决作品1,129项。随后逐侧处理9项真实冲突（人物4、作品5）；622项未分类候选单列类型判定队列。证据不足的对象保留 `undecided`，写明最小证据缺口与后续去向，不强并。
-2. **S4 按类型先登记直接关系端点**：先处理1,868个待登记组：人物31、机构96、事件144、地点233、作品342、档案483、术语539；再登记其余1,755组。直接端点队列是3,623个待登记组的子集，不重复计数；每批核对组成员映射和 KU 类型。
+1. **S3 按类型、依赖和证据可得性推进**：当前5,294项 `undecided` 中，优先审查直接承担关系候选端点且已有跨章锚点或可比对既有 KU 的对象；现有7,075个候选曾作为关系候选 statement 的直接端点，其中未决人物437项、未决作品1,129项。随后逐侧处理9项真实冲突（人物4、作品5）；622项未分类候选单列类型判定队列。证据不足的对象保留 `undecided`，写明最小证据缺口与后续去向，不强并。
+2. **S4 按类型先登记直接关系端点**：先处理1,864个待登记组：人物31、机构96、事件144、地点232、作品340、档案482、术语539；再登记其余1,755组。直接端点队列是3,623个待登记组的子集，不重复计数；每批核对组成员映射和 KU 类型。
 3. **S5 定向补证**：围绕关系关键及高影响字段核查1,627条 `unverified` 记录；先解决 `enr-06678`、`enr-06937` 两条来源定位问题，再按关系影响和证据可得性补足，不把结构化填充当作事实核验。
-4. **S6 逐条裁决关系候选**：以10,399条 `relation_candidate=true` statement 为待审范围；对象的 S3/S4 端点和证据齐备后按类型批量给出 formal、pending 或 rejected 去向。312条至少缺一端的候选留待上游身份／端点补齐；关系表中45条缺结构化 `source_id` 另行补证。
-5. **S7 重建发布快照**：待S3–S6状态稳定后，从当前表刷新 release 与 validation report，再解决引用／授权、作者元数据和最终引文；现有 `release/v0.2-draft` 报告仍记录1,019 KU和1,227条关系，不代表当前2,208 KU及1,232条关系的发布状态。知识发现与页面仍暂停。
+4. **S6 逐条裁决关系候选**：以10,399条 `relation_candidate=true` statement 为待审范围；对象的 S3/S4 端点和证据齐备后按类型批量给出 formal、pending 或 rejected 去向。330条至少缺一端的候选留待上游身份／端点补齐；关系表中45条缺结构化 `source_id` 另行补证。
+5. **S7 重建发布快照**：待S3–S6状态稳定后，从当前表刷新 release 与 validation report，再解决引用／授权、作者元数据和最终引文；现有 `release/v0.2-draft` 报告仍记录1,019 KU和1,227条关系，不代表当前2,210 KU及1,232条关系的发布状态。知识发现与页面仍暂停。
 
 执行上按类型和直接关系端点组织小批次，复用已核证的身份来源，避免重复通读全书；只对受影响的卡片定点渲染，整库只读预检用于发现派生差异，不将机械通过写成语义验收。
 
@@ -85,11 +89,11 @@ cand-0157（B.csv#4，Divine Love）由undecided改为new并入Giovanni Baglione
 
 | S3 决定 | 候选数 | 去向 |
 |---|---:|---|
-| same | 1,975 | 指向 1,053 个既有 KU |
-| new | 5,026 | 按 4,812 个当前身份组进入 S4；每组登记一个 KU |
+| same | 1,980 | 指向 1,055 个既有 KU |
+| new | 5,024 | 按 4,810 个当前身份组进入 S4；每组登记一个 KU |
 | conflict | 9 | 冲突两侧与来源依据保留在对齐行，等待解决证据 |
 | excluded | 100 | 含 48 项 S1 排除及其余 S3 类型/对象边界排除 |
-| undecided | 5,297 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
+| undecided | 5,294 | 保留对象、版本、身份、类型或来源方面的逐项未决理由及证据去向 |
 | **合计** | **12,407** | 每个候选一条当前决定记录 |
 
 **S3 决定去向核对：** 每条候选均有 `resolution_note` 与 `process_ref`；same 指向既有 manifest KU；new 组成员全部待登记或一致映射至同一 KU；conflict、undecided 和 excluded 均保留各自理由。此处表示当前决定与去向可追溯，不表示所有冲突或待证身份已解决。逐项裁决及判断变化见[全书 S3/S4 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)与[对齐表](../tables/alignment.csv)。

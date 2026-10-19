@@ -30,17 +30,17 @@
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 34 / 38 | 197 / 197 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 191 / 196 | 0 | 0 | 121 | 25 / 30 | 166 / 166 |
-| person | 3,464 | 1,158 | 1,067 / 1,168 | 4 | 7 | 1,127 | 765 / 864 | 302 / 304 |
-| place | 1,109 | 228 | 559 / 569 | 0 | 0 | 312 | 43 / 53 | 516 / 516 |
+| person | 3,464 | 1,161 | 1,067 / 1,168 | 4 | 7 | 1,124 | 765 / 864 | 302 / 304 |
+| place | 1,109 | 229 | 558 / 568 | 0 | 0 | 312 | 43 / 53 | 515 / 515 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
 | term | 1,640 | 43 | 928 / 940 | 0 | 2 | 655 | 35 / 47 | 893 / 893 |
-| work | 2,397 | 237 | 479 / 495 | 5 | 29 | 1,631 | 51 / 57 | 428 / 438 |
+| work | 2,397 | 238 | 478 / 494 | 5 | 29 | 1,631 | 52 / 58 | 426 / 436 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,407** | **1,975** | **4,812 / 5,026** | **9** | **100** | **5,297** | **1,189 / 1,382** | **3,623 / 3,644** |
+| **合计** | **12,407** | **1,980** | **4,810 / 5,024** | **9** | **100** | **5,294** | **1,191 / 1,384** | **3,619 / 3,640** |
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,297项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；306条额外外部身份记录另行保留，另有15条候选决定行本身同时带外部来源字段。same的1,975条候选指向1,053个既有KU；new候选组成4,812个类型内身份组，共5,026条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,623组、3,644条成员映射尚待登记。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
+当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,294项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。12,407个候选各有一条当前决定；306条额外外部身份记录另行保留，另有15条候选决定行本身同时带外部来源字段。same的1,980条候选指向1,055个既有KU；new候选组成4,810个类型内身份组，共5,024条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；3,619组、3,640条成员映射尚待登记；S2 10,399条关系候选中330条至少缺一个候选端点（125段：仅缺object 217条、仅缺subject 41条、两端均缺72条）。字段表当前共11,702条，其中1,627条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决。
 
 ### 跨章补充裁决：Valmarana 壁画组（2026-10-15）
 
@@ -7695,3 +7695,38 @@ S6批次涉及的5张卡已定点渲染；逐卡预览与定点重跑均无差�
 `cand-7353` 的决定行原仅写“existing S3 new-person group retained”，没有可解析的组号；现补入既有组 `new-person:carlo-emanuele-iii-of-savoy-a69e3c8f1b`，不改决定或KU。`cand-9508` 的 Previtali 组号后原紧接句点及历史说明，解析时被误读为另一组；现将分隔符改为分号，cand-9508 与 cand-10982 均解析到 `new-person:giovanni-previtali-b5258f2c7f`。
 
 修正后的统计函数按每个候选选取一条现行决定行，只有在候选没有独立无来源决定行时才采用其唯一带来源行；组号解析排除 `prior_group=` 历史字段，兼容 `group=` 与 `身份组=`，并只读取标识符本身。按逐类型表复算后，S3仍为same=1,975、new=5,026／4,812组、conflict=9、excluded=100、undecided=5,297；S4为已登记1,189组／1,382条映射、待登记3,623组／3,644条映射。此项工具修正不改变其他候选决定、KU映射或组成员。
+
+<a id="s3-s4-person-work-archive-endpoints-20261019"></a>
+
+### S3–S4 跨章人物复用与作品／档案端点批次（2026-10-19）
+
+本批复核五项既有候选身份、登记两个直接关系端点组；未新增正式关系或 S5 外部补足；两张新卡的9条书内结构化字段已写入 enrichment.jsonl。
+
+| 候选 | 原决定 | 当前决定／S4去向 | 关键证据与边界 |
+|---|---|---|---|
+| `cand-1106`、`cand-1108` | undecided | same → `units/persons/galileo-galilei` | G.csv#13、#15 是 Galileo 主项下的 Ludovico Cigoli 与 painting-views 子项；第4章 pp.102–103 的现有人物卡已记录对应原文。索引姓氏前置不构成另一人物。 |
+| `cand-2349` | undecided | same → `units/persons/giovanni-da-san-giovanni` | S.csv#37 的倒置姓名及 pp.49、95 与既有人物卡所引的第2章 Baldinucci 注和第4章艺术家名单吻合。 |
+| `cand-5945` | new，`workgrp-0efe5e6f22b460` | same → `units/works/poussin-moses-trampling-on-pharaoh-s-crown` | 第4章 p.114 的具体题名、p.115 叙述与既有图版19a作品卡一致；cand-2018、cand-4087 已映射至同一作品。保留原组号与旧理由，不另建卡。 |
+| `cand-5439` | new，`sg3-place-cand-5439` | same → `units/places/s-ignazio` | 第3章 p.93 的 S. Ignazio 耶稣会教堂与既有同类型 S. Ignazio 地点卡（罗马）相符；不与 Gesù 内 St Ignatius 礼拜堂合并。 |
+| `cand-5457` | new，`workgrp-1a180be8d3050f` | new → [S. Ignazio 纪念碑作品卡](../../../04-knowledge/units/works/pierre-legros-monument-gregory-xv-ludovico-ludovisi.md) | 第3章 p.93 L182、186 将 S. Ignazio、1710年、Pierre Legros、Gregory XV 与 Cardinal Ludovisi 连接为一件作品；当前同类型 manifest 无相同作品。题名为描述性工作题名。 |
+| `cand-5458` | new，`archive-group-7630830856b3` | new → [Jesuit Archives 档案定位卡](../../../04-knowledge/units/archives/jesuit-archives-ecclesia-s-ignatii-de-urbe-1255.md) | 第3章 p.93 L186–187 所引 `Ecclesia S. Ignatii de Urbe, 1255` 作为档案定位登记；不表示项目已查阅文件，也不与 `Fondo di Gesù, N. 865-13` 合并。 |
+
+人物三条由 `undecided` 改为 `same`；作品 `cand-5945` 与地点 `cand-5439` 由 `new` 改为 `same`，移除两个重复待登组。新增两个 KU（work 1、archive 1），全部各映射一个候选。S3 当前为 same=1,980（1,055个既有KU）、new=5,024（4,810组）、conflict=9、excluded=100、undecided=5,294（含622项未分类）。S4 已登记1,191组／1,384条映射，待登记3,619组／3,640条映射；直接关系端点待登队列由1,868降至1,864组／候选成员。
+
+本批涉及的10条直接关系候选中，8条现在已有两端 S3/S4 KU 映射，可交 S6 裁决；2条仍受 `cand-5948`（Josephus 身份待证）与 `cand-5965`（Bible archive 尚待S4）影响。S6关系表未新增行，S2中330条缺少候选端点的陈述未变。S3/S4映射只解除端点阻塞，不代表关系已正式成立。
+
+#### 逐项证据与身份边界
+
+人物复用线索来自索引倒置姓名、主项与子项及既有人物卡的同页证据；不以姓名相似单独判定。`cand-1106`、`cand-1108` → `units/persons/galileo-galilei`：G.csv#13 的 Ludovico Cigoli 子项对应第4章 p.102；G.csv#15 的 painting-views 子项对应 p.103，现有人物卡分别引用这两页。`cand-2349`（S.csv#37，Giovanni da San Giovanni，pp.49、95）→ `units/persons/giovanni-da-san-giovanni`：既有卡分别引用第2章 p.49 的 Baldinucci 注与第4章 p.95 的人名列表。三条索引候选原均为 `undecided`，现由 `same` 映射至有效同类型 KU；原理由留在 alignment 历史注释中。
+
+`cand-5945` 原为 `new`，现复用 `units/works/poussin-moses-trampling-on-pharaoh-s-crown`。第4章 p.114 直接给出《Moses trampling on Pharaoh’s Crown》题名，p.115继续描述同一件作品；已有图版19a work KU 的来源锚点与 `cand-2018`、`cand-4087` 的 same 映射证实这不是新作品。原 `workgrp-0efe5e6f22b460` 作为 `prior_group` 保留，不再进入待登记组。
+
+`cand-5439` 原为 place `new`，现复用 `units/places/s-ignazio`。第3章 p.93将对象称为罗马的 S. Ignazio 耶稣会教堂；既有同类型地点卡的图版15来源称 S. Ignazio, Rome。该教堂与 [Gesù 内的 St Ignatius 礼拜堂](../../../04-knowledge/units/places/gesu-chapel-st-ignatius.md)保持区分；原 `sg3-place-cand-5439` 留作 prior_group。
+
+新增 S4 work 组 `workgrp-1a180be8d3050f`（`cand-5457`）→ `units/works/pierre-legros-monument-gregory-xv-ludovico-ludovisi`，及 archive 组 `archive-group-7630830856b3`（`cand-5458`）→ `units/archives/jesuit-archives-ecclesia-s-ignatii-de-urbe-1255`。两个组均为单成员，已创建双语卡、写入 `ku-manifest.csv` 和 `accepted.yml` 并完成映射。作品卡记录 Haskell 所称 Pierre Legros 于1710年完成、纪念 Gregory XV 与 Cardinal Ludovisi 的 S. Ignazio 纪念碑；档案卡只记录 Haskell 的 `Ecclesia S. Ignatii de Urbe, 1255` 档案定位，未把原件或整组文件写成已查阅。两者均仅依据第3章 p.93；无外部目录／档案访问、S5外部补足或 S6 正式边新增。两张新卡的9行书内结构化字段另见本批记录。档案定位与既有 `Fondo di Gesù, N. 865-13` 为不同引用，未合并。
+
+本批5条 same 映射、移除2个 S3 new 身份组，并登记2个新 KU。S3 为 same=1,980（1,055个目标KU）、new=5,024（4,810组）、conflict=9、excluded=100、undecided=5,294；S4 已登记1,191组／1,384条映射、待登记3,619组／3,640条映射。直接关系端点待登队列为1,864组／候选成员，其中 work 340、archive 482、place 232。
+
+两张新卡的正文结构表分别包含6行、3行；9条记录（`enr-15445`–`enr-15453`，`origin=book`、`source_backed`）同步写入 `enrichment.jsonl`，与表格逐行对应。字段表由11,693行增至11,702行，`unverified` 仍为1,627；本批没有新增 S5 外部补足。
+
+上述两个身份组各有5条 `relation_candidate=true` 直接陈述；现在共8条具有完整的 S3/S4 端点KU映射，可提交 S6 判断，剩余2条仍被 `cand-5948`（Josephus 身份待证）和 `cand-5965`（Bible archive 新组待登记）阻断。10条陈述均未写入 `relations.csv`；书中仍有330条陈述至少缺一个 candidate endpoint（125段；仅缺object 217条、仅缺subject 41条、两端均缺72条），数量未因本批改变。按全书10,399条关系候选计算，拥有完整端点KU映射的statement由3,885条增至3,893条；这只表示可进入S6审查，不代表formal关系已成立。
