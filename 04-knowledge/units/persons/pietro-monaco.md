@@ -104,3 +104,9 @@ English: Haskell's claim that the plates were used to advertise Monaco's dealer 
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [彼得罗·莫纳科致约翰·斯特兰奇的书信（17幅作品清单）（Letter from Pietro Monaco to John Strange concerning seventeen pictures）](../archives/pietro-monaco-letter-to-john-strange-seventeen-pictures-1763.md) | st-chp13-p345-monaco-letter-to-strange-seventeen-pictures；时间：4 February 1763/4；角色：author；范围：Haskell正文称信写于1763年；注2排作4 February 1763/4，保留原有歧义。；原断言与证据见发出端卡片“彼得罗·莫纳科致约翰·斯特兰奇的书信（17幅作品清单）（Letter from Pietro Monaco to John Strange concerning seventeen pictures）”：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；lines 167-168; print p. 345; note 2 line 250 |

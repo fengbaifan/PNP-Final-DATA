@@ -44,7 +44,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← publisher_of（`publisher_of`，反向投影） | [阿尔加罗蒂著作十七卷本（威尼斯，卡洛·帕莱塞；1791年卷一）（Seventeen-volume edition of Algarotti’s works [Venice: Carlo Palese; first volume, 1791]）](../archives/algarotti-opere-seventeen-volume-edition-palese-1791.md) | st-chp14-p347-note1-edition-published-by-palese；时间：1791 (first volume)；角色：publisher；范围：仅记录Haskell对第一卷的书内出版者归属；未核对题名页或全套版本。；原断言与证据见发出端卡片“阿尔加罗蒂著作十七卷本（威尼斯，卡洛·帕莱塞；1791年卷一）（Seventeen-volume edition of Algarotti’s works [Venice: Carlo Palese; first volume, 1791]）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；line 169; print p. 347 n. 1 |
+
 
 ### 关系候选入口
 

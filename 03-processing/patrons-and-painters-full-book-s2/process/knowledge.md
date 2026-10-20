@@ -9156,3 +9156,23 @@ S6 本批覆盖16条候选，5条 formal 合并为3条边，11条 pending；没�
 | `st-chp14-p350-note1-letter-authored-by-algarotti` | 1741年书信→Francesco Algarotti；p.350 L36及注1 L178 | formal `authored_by`，`rel-1318`。正文代词指向Algarotti，脚注1将信件日期及收信人连至同一引文；手稿未独立查阅。|
 
 本批新增6条formal关系、1条pending决定。relations.csv增至1,318条（1,315 formal、3 pending）；累计逐条裁决149/10,402条S2关系候选（92 formal、50 pending、7 rejected）。批后S4已登记1,362/4,804组、1,566/5,029条映射，待登记3,442组／3,463条映射；直接端点队列为1,694组／1,708条成员映射。S5字段表11,859条、其中1,634条仍为 `unverified`。结构审计与卡片预检只确认机械一致，不表示手稿、馆藏或全书关系已独立验收。
+
+
+<a id="s4-s5-s6-monaco-and-algarotti-bibliographic-endpoints-20261020"></a>
+### S4/S5/S6 archive：Monaco—Strange书信与Algarotti书目端点（2026-10-20）
+
+沿用既有S3 `new`决定登记3个archive身份组：`cand-10119`→`units/archives/pietro-monaco-letter-to-john-strange-seventeen-pictures-1763`，`cand-10228`→`units/archives/michelessi-memorie-short-title`，`cand-10229`→`units/archives/algarotti-opere-seventeen-volume-edition-palese-1791`。第13章p.345正文与注2支持Monaco致John Strange书信的描述、日期原排法“4 February 1763/4”及书内档案引注；正文称信写于1763年，保留日期歧义，未核查手稿或馆藏号。第14章p.347注1支持Michelessi *Memorie*的短题名、相对年代表述及其收入阿尔加罗蒂著作十七卷本第一卷的书目说法。版本卡保持描述性题名，不将本章其他 *Opere* 引注自动并入该版，也不声称查阅原书。三张卡新增9条由Haskell书内页行支持的S5字段，`enrichment.jsonl` 预检 warnings=0；未新增来源登记。
+
+本簇7条S2关系候选逐项裁决如下：
+
+| statement_id | 决定 | 去向 | 理由 |
+|---|---|---|---|
+| `st-chp13-p345-monaco-letter-to-strange-seventeen-pictures` | formal | `rel-1319` `authored_by` | Haskell正文明确称信由Monaco写给John Strange；时间保留注2原排“4 February 1763/4”。 |
+| `st-chp13-p345-monaco-letter-addressed-to-strange` | formal | `rel-1320` `addressed_to` | 原文直接指明收信人为John Strange。 |
+| `st-chp13-p345-monaco-letter-encloses-picture-list` | pending | 不写入formal关系表 | 附有清单的事实有据，但清单所列17幅作品仍对应S3 `undecided` 的 `cand-12179`，且当前受控关系表没有适配“信附清单/包含清单”的谓词；保留端点与谓词问题，不把清单强并为具体作品。 |
+| `st-chp14-p347-note1-memorie-posthumous-appearance` | pending | 不写入formal关系表 | 注释只给出“Algarotti去世六年后”的相对年代；当前受控谓词不能表达此时间关系，不计算或补造出版年份。 |
+| `st-chp14-p347-note1-memorie-in-palese-edition` | formal | `rel-1321` `part_of` | 注释明确称 *Memorie* 于1791年收入该十七卷本第一卷；关系范围保留卷次，未独立核查版本。 |
+| `st-chp14-p347-note1-edition-published-by-palese` | formal | `rel-1322` `published_by` | 注释直接将Carlo Palese列为该版出版者；限于书内题录归属。 |
+| `st-chp14-p347-note1-edition-published-in-venice` | pending | 不写入formal关系表 | Haskell直接记载Venice为出版地，但当前域值域表没有出版地谓词；`located_at`表达物理位置，不能替代出版地关系。 |
+
+批后S4为已登记1,365/4,804组、1,569/5,029条候选映射；待登记3,439组／3,460条映射，其中直接关系端点1,691组／1,705条组成员映射，非直接队列1,748组／1,755条映射。S5为11,868条字段、1,634条 `unverified`。S6逐条裁决累计156/10,402条（96 formal、53 pending、7 rejected）；关系表1,322条（1,319 formal、3 pending），均有有效 `source_id`。S2复核与全书验收状态不变。
