@@ -8541,3 +8541,19 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 **S4 新登记：** `cand-5348` 沿用 S3 身份组 `sg3-place-cand-5348`，登记为 `units/places/chapel-of-the-madonna-s-andrea-al-quirinale`，即原书所称 S. Andrea al Quirinale 内“that dedicated to the Madonna”的小堂。第3章印刷页88、来源行122–124支持其为最后装饰的一处小堂、1691年耶稣会文书的评价、Ottoboni接手与Pamfili继承人保留并后来行使的装饰变更权。正式名称未给出，故使用描述性名称；与主教堂、主礼拜堂和圣方济各·沙勿略小堂分立。未加外部身份或补足字段。
 
 该卡新增1条 KU manifest、1条候选映射及1个 accepted 路径。`st-chp3-seciv-l118-128-heirs-reserved-and-exercised-right-to-change-decor`、`st-chp3-seciv-l118-128-jesuit-document-complained-affatto-rustica`、`st-chp3-seciv-l118-128-madonna-chapel-last-to-be-adorned`、`st-chp3-seciv-l118-128-ottoboni-took-over-madonna-chapel`仍待S6逐条裁决；其中两条另一端尚无KU，不据新卡转为formal。没有改动 S2 statement、mention 或 `relations.csv`。现 S3 same=2,024、new=5,028/4,805组；S4登记1,303/4,805组、1,505/5,028条映射，待登记3,502组/3,523条；直接关系端点待登记1,750组/1,750候选/1,764成员映射，非直接待登记1,752组/1,759条映射；KU=2,322。
+
+<a id="s4-archive-bottari-ticozzi-volumes-i-iii-20261020"></a>
+
+### S4 archive：六组直接文献端点登记（2026-10-20）
+
+**S3 决定沿用：** `cand-4830` 属 `archive-group-bottari-ticozzi-raccolta-vol-i-1822`，`cand-5461` 属 `archive-group-bottari-ticozzi-raccolta-vol-iii`，`cand-5745` 属 `archive-group-cead40e86cb6`，`cand-6239` 属 `archive-group-d8d67169251e`，`cand-6576` 属 `archive-group-e6e1f66080a3`，`cand-5467` 属 `archive-group-a73d47782e77`。六项均已在 S3 定为 `new`；本批没有重做身份裁决。
+
+**来源核对与边界：** 第21章书目列出 Bottari 与 Ticozzi 续编的 *Raccolta di lettere sulla Pittura, Scultura ed Architettura*（Milano 1822）；原书第2、3、4、5章分别以卷次和页码引用其卷 I、III。第4章注3称 P. Olina 的 *Uccelleria* 出版于1622年并献给 Cassiano，只保留来源给出的作者首字母和书名形式。第21章书目列出 U. Limentani 的 *Poesie e lettere inedite di Salvator Rosa*，第5、7章引用注明1950年；书目 OCR 年份作“!95O”，不据此推出版社、出版地或卷号。Hantsch 与 Scherf 的题名、第一部第一半卷、Augsburg 1931 见第21章书目；第6、7章引用与其卷册相符，脚注 OCR 对 Scherf 姓名有异文。Tacchi-Venturi 题名及 Roma 1935、pp.147–156 见第21章书目，第1、3章有对应引文。以上卡片记录原书书目和引用，不表示本批查阅具体印本或被引页。
+
+**S4 登记：** `cand-4830` → `units/archives/bottari-ticozzi-raccolta-vol-i-1822`；`cand-5461` → `units/archives/bottari-ticozzi-raccolta-vol-iii-1822`；`cand-5745` → `units/archives/olina-uccelleria-1622`；`cand-6239` → `units/archives/limentani-poesie-lettere-salvator-rosa-1950`；`cand-6576` → `units/archives/hantsch-scherf-quellen-schoenborn-vol-i-first-half-1931`；`cand-5467` → `units/archives/tacchi-venturi-convenzioni-gaulli-gesuiti-1935`。每组新增1张 archive 卡、1条 manifest、1个 accepted 路径和1条候选映射。Bottari 卷 I、III 保持为不同卷册，不与系列级候选 `cand-11261`、被引信件或 Haskell 本书 archive KU 合并；其余记录也按题录对象分立。本批未新增外部身份、S5字段或正式关系。
+
+- 六组共对应20条直接 S2 关系候选，均保留待 S6 逐条裁决；19条的另一端现已映射到 KU。卷 III 的 Resta 致 Ghezzi 信候选 `cand-5460` 仍缺 KU，其关系继续待办。
+- 第8章三个 Bottari III statement ID 标注 p.217、p.218、p.220，但 source anchors 落在 `08_CHP-8_sec_ii.md` OCR L375、L376、L379，所在来源页标记241；OCR 转录分别有 `H`、`HI`、`Bonari`。卷 I 第4章 statement ID 标注 p.101、p.102、p.103、p.111，而 OCR 行同在来源页标记119。只记录为 S2 定点复核项，不据此更改 statement 或引用。
+- `relations.csv` 未改变；端点映射可用不等于 S6 成边。
+
+现 S3 same=2,024、new=5,028/4,805组；S4已登记1,309/4,805组、1,511/5,028条映射，待登记3,496组/3,517条；直接端点待登记1,744组/1,744候选/1,758成员映射，其中 archive 471组/476成员；非直接待登记1,752组/1,759条；KU=2,328。

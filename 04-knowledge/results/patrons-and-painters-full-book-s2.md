@@ -2,7 +2,15 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,303组、映射1,505条成员候选；尚待登记3,502组、3,523条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,309组、映射1,511条成员候选；尚待登记3,496组、3,517条映射。
+
+### S4 archive：六组直接文献端点登记（2026-10-20）
+
+沿用既有 S3 `new` 组，为 `cand-4830`、`cand-5461`、`cand-5745`、`cand-6239`、`cand-6576`、`cand-5467` 新增六张 archive 卡：Bottari/Ticozzi《Raccolta》卷 I、III，P. Olina 的 *Uccelleria*，Limentani 论 Salvator Rosa 的诗歌与书信，Hantsch–Scherf 的 Schönborn 研究资料卷，以及 Tacchi-Venturi 论 Gaulli 与耶稣会总会长的出版物。身份依第21章书目和原书卷次／题录引用记录；不宣称查阅具体印本或被引页。本批未新增外部身份或 S5 字段。
+
+二十条直接 S2 关系候选仍待 S6：十九条的另一端已有 KU，Resta 致 Ghezzi 信的一条另一端仍缺 KU。端点可解析不代表关系获准。第8章三个卷 III statement 的 ID 标为 p.217、p.218、p.220，但当前 source anchors 指向 OCR L375、L376、L379（来源页标记241）；卷 I 第4章 S2 页码标签与当前来源页标记也有待核对。Limentani 书目年份 OCR 为“!95O”，Hantsch 作者拼写在脚注 OCR 中有异文；这些转录问题与关系裁决分开保留，均不在本批改写 S2 statement。
+
+调整后 S4 已登记1,309/4,805组、1,511/5,028条映射，待登记3,496组／3,517条；直接关系端点待登记1,744组／1,744个候选／1,758条成员映射，其中 archive 为471组／476成员；非直接队列为1,752组／1,759条映射。KU=2,328。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-bottari-ticozzi-volumes-i-iii-20261020)。
 
 ### S3 same／S4 place：Palazzo Pitti 复用与圣母小堂登记（2026-10-20）
 
