@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,309组、映射1,511条成员候选；尚待登记3,496组、3,517条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,311组、映射1,513条成员候选；尚待登记3,494组、3,515条映射。
 
 ### S4 archive：六组直接文献端点登记（2026-10-20）
 
@@ -11,6 +11,17 @@
 二十条直接 S2 关系候选仍待 S6：十九条的另一端已有 KU，Resta 致 Ghezzi 信的一条另一端仍缺 KU。端点可解析不代表关系获准。第8章三个卷 III statement 的 ID 标为 p.217、p.218、p.220，但当前 source anchors 指向 OCR L375、L376、L379（来源页标记241）；卷 I 第4章 S2 页码标签与当前来源页标记也有待核对。Limentani 书目年份 OCR 为“!95O”，Hantsch 作者拼写在脚注 OCR 中有异文；这些转录问题与关系裁决分开保留，均不在本批改写 S2 statement。
 
 调整后 S4 已登记1,309/4,805组、1,511/5,028条映射，待登记3,496组／3,517条；直接关系端点待登记1,744组／1,744个候选／1,758条成员映射，其中 archive 为471组／476成员；非直接队列为1,752组／1,759条映射。KU=2,328。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-bottari-ticozzi-volumes-i-iii-20261020)。
+
+
+### S4 term：两个直接关系端点登记（2026-10-20）
+
+沿用 S3 的两个 `new` 组，登记 cand-6065（中等与较低社会地位人群）及 cand-4294（教宗政府国务秘书职位）。第5章 pp.130、132、136 直接支持前者的意大利语类别及其来源限定；第2章 p.28 与第6章 p.147 支持后者的职位用法。卡片将社会类别与固定成员名单分开，将职位与任职人物、政府机构分开，均未补写外部事实。两组关联的7条直接 S2 关系候选，其另一端均已有 KU；全部仍留待 S6 逐条裁决，本批未改写 S2 statement、mentions、enrichment 或 relations.csv。
+
+S4 更新为已登记1,311/4,805组、1,513/5,028条候选映射；待登记3,494组／3,515条。直接端点待登记1,742组／1,742个候选／1,756条组成员映射（其中术语526组／526成员）；非直接队列1,752组／1,759条映射；KU=2,330。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-two-direct-term-endpoints-20261020)。
+
+### S6：两个术语端点关联的七条候选裁决（2026-10-20）
+
+本批对第2、5、6章7条两端 KU 已登记的 S2 关系候选逐条裁决，7条均为 pending：候选有直接来源锚点，但当前受控关系类型和值域不能表达 person/term 或 term/term 组合，且其中起源、客群判断带 Haskell 的推断限定。无 formal 边或新增关系类型；`relations.csv` 未改动。逐条去向与理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-seven-term-endpoint-candidates-20261020)。
 
 ### S3 same／S4 place：Palazzo Pitti 复用与圣母小堂登记（2026-10-20）
 
@@ -55,7 +66,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,321 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,330 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,627 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |

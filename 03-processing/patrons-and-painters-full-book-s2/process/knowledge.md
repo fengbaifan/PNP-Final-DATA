@@ -1,4 +1,4 @@
-﻿# 全书 S3 身份对齐过程
+# 全书 S3 身份对齐过程
 
 更新日期：2026-10-20。
 
@@ -8557,3 +8557,36 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 - `relations.csv` 未改变；端点映射可用不等于 S6 成边。
 
 现 S3 same=2,024、new=5,028/4,805组；S4已登记1,309/4,805组、1,511/5,028条映射，待登记3,496组/3,517条；直接端点待登记1,744组/1,744候选/1,758成员映射，其中 archive 471组/476成员；非直接待登记1,752组/1,759条；KU=2,328。
+
+<a id="s4-two-direct-term-endpoints-20261020"></a>
+
+### S4 term：两个直接关系端点登记（2026-10-20）
+
+**S3 决定沿用：** cand-6065 属于 `sg3-term-cand-6065`，cand-4294 属于 `sg3-term-cand-4294`；两者在 `alignment.csv` 中均已判为 `new`。本批只落实各自既有身份组，不新增或合并 S3 身份。
+
+**来源核对与类型边界：**
+
+- cand-6065：第5章 p.130 L110 将 *uomini di stato mediocre e di stato basso* 置于富有者与贵族的对照中，并转述 Giulio Mancini 对议价和陈列图片的建议；p.132 L7 说 bambocciate 的支持“有理由相信”始于该类别；p.136 L38 以“we must assume”推断 Van Laer 的主要客户可能包括匿名的 *uomini di stato mediocre*。依据 taxonomy-registry 的 term“概念与术语”边界，将此登记为书内社会类别概念；不建人物或家族名录，不将 Haskell 的推断写成确定成员事实。
+- cand-4294：第2章 p.28 L87 称 Monsignor Agucchi 任有影响力的 Secretary of State 职位；第6章 p.147 L14 记载未具名外来者被引入任该职，并称教宗与已任命的 Secretary of State 保有重大政治权力。沿用既有 term 类型，中文名称和“in the Papal Government”是语境限定；不将职位混同于任职人物或教宗政府机构，不补写正式意大利语名、完整职能或未知任职者。
+
+**S4 登记：** 新增术语卡 `units/terms/people-of-middling-and-lower-status` 与 `units/terms/secretary-of-state-papal-government-office`，各新增1条 KU manifest、1条候选映射和1个 accepted 路径。`aln-6246`（cand-6065）与 `aln-4477`（cand-4294）已映射到对应 KU，并将 `process_ref` 指向本记录。七条直接 S2 候选为 `st-chp5-p130-mancini_bargaining_advice`、`st-chp5-p130-mancini_two_rooms_and_hanging`、`st-chp5-p132-bambocciate-support-and-origin`、`st-chp5-p136-van-laer-clientele-was-anonymous-middle-status-group`、`st-chp2-seci-l82-93-agucchi-office`、`st-chp6-p147-camillo-secretary-state-authority` 与 `st-chp6-p147-outsider-secretary-of-state`；对端均已映射到 KU，但仍待 S6 逐条裁决。本批未新增外部身份、S5 字段或 formal 关系，未改动 S2 statements、mentions 与 `relations.csv`。
+
+**当前计数：** S3 same=2,024、new=5,028/4,805组；S4 已登记1,311组／1,513条候选映射，待登记3,494组／3,515条；直接端点待登记1,742组／1,742个候选／1,756条成员映射，其中术语526组／526成员；非直接待登记1,752组／1,759条；KU=2,330。
+
+<a id="s6-seven-term-endpoint-candidates-20261020"></a>
+
+### S6：两个术语端点关联的七条候选（2026-10-20）
+
+逐条核对 S2 statements、原书引句、speaker/qualifiers、S3/S4 类型映射及 `01-domain/relation-domain-range.yml`。本批七条均有来源锚点和已登记端点，裁决如下：
+
+| statement_id | 映射端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| st-chp5-p130-mancini_bargaining_advice | Giulio Mancini person → 中等与较低社会地位人群 term | 第5章 p.130 L110 | pending。Haskell转述 Mancini 给该类别的条件性议价建议；当前 advised 只支持 person → person，不支持 person → term。|
+| st-chp5-p130-mancini_two_rooms_and_hanging | Giulio Mancini person → 中等与较低社会地位人群 term | 第5章 p.130 L110 | pending。陈列建议针对社会类别，当前受控关系类型没有对应 term 端点。|
+| st-chp5-p132-bambocciate-support-and-origin | 中等与较低社会地位人群 term → Bambocciate term | 第5章 p.132 L7 | pending。Haskell将起源表述为“有理由相信”；当前受控类型没有 term → term 关系。|
+| st-chp5-p136-van-laer-clientele-was-anonymous-middle-status-group | Pieter van Laer person → 中等与较低社会地位人群 term | 第5章 p.136 L38 | pending。Haskell明确以“we must assume”标记推断，且 clientele 谓词与 person → term 未获当前类型支持。|
+| st-chp2-seci-l82-93-agucchi-office | Giovanni Battista Agucchi person → Secretary of State term | 第2章 p.28 L87 | pending。来源明确报告任职，但 held_office_reported 不是受控谓词；不得以 member_of 表达 person → term 职位关系。|
+| st-chp6-p147-camillo-secretary-state-authority | Secretary of State term → Camillo Pamfili person | 第6章 p.147 L14 | pending。原句将教宗与国务秘书作为共同主体；当前映射仅含职位和 Camillo，且域值域中没有该 term → person 权力谓词。|
+| st-chp6-p147-outsider-secretary-of-state | Innocent X person → Secretary of State term | 第6章 p.147 L14 | pending。外来任职者未具名，任命主体亦未由被动句明示；当前两端不是完整的任命主体—任命对象关系。|
+
+七条均保留 pending，未新增 formal 边或关系类型，`relations.csv` 不变。每条候选及理由已与原 S2 statement 锚点逐一对应；相关两张术语卡同步列出状态。本批仅解决 S6 裁决记录，不把未收录关系误记为事实，也不扩大关系模型。
