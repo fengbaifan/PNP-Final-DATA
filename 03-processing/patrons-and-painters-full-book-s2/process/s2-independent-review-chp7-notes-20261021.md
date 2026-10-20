@@ -23,4 +23,10 @@
 
 改动项已由独立审阅者复核，Gennari 的两条书目 citation 与顶层 shelfmark／repository 分离清楚；S6 两条裁决和端点边界均通过。本段接收仅限 `chp-7:07_CHP-7_sec_iv:l97-119`，章节其他范围尚未完成，故第七章仍不接收。当前结果快照记录第七章1,009/1,239条；本记录先不增加汇总分子，待按 statement ID 去重后再归并至全书9,400/15,167统计。
 
-下一游标为 `chp-7:07_CHP-7_sec_v:l3-7`；页码标记段 `l1-1` 无 statement。独立复核覆盖、问题修订和正式接收分别记录。
+该批之后的下一游标为 `chp-7:07_CHP-7_sec_v:l3-7`；页码标记段 `l1-1` 无 statement。后续接续记录见下节。
+
+## 第七章 p.199 第V节当前ID独立语义复核
+
+逐条核读登记段 `chp-7:07_CHP-7_sec_v:l3-7` 的14条 statement（印刷p.199、PDF物理页37），并对照S0及46条 mention span。12条 `relation_candidate=true`、2条 `false`、0条未分类；46条span均精确对应登记源段。p.199的“Roman art”原被误映到Rome地点候选 `cand-4490`；按同一“Roman art”艺术生产领域的跨章语义，改映到既有term候选 `cand-4631`（其来源已含第2章和第7章p.173），并把相应 statement 主语同步改为该term。两个明确的城市提及仍映到 `cand-4490`；Maratta、Trevisani两条mention中的旧待S3备注同步为当前 `same` 决定。S3既有 `new` 身份组决定不变，不新增候选或身份组。
+
+本段14条按 statement ID 去重后计入全书独立复核：第七章1,023/1,239，全书9,414/15,167（62.1%）。接收范围仅限本登记段，第七章及全书仍未接收。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l9-18`。

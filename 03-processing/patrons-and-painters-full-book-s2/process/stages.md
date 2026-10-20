@@ -13439,3 +13439,10 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 ### 2026-10-20：S2 qualifiers 与直接机构端点批次交接
 
 S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier：`st-chp8-p219-negri-san-rocco-picture` 标明 Scuola 机构端点已映射，但未具名画作 `cand-7680` 仍未决且缺少 mention；`st-chp15-p365-padua-authorities-request-fair-assistance` 标明市政主体已映射但当前无准确请求谓词；`st-chp15-p366-padua-offers-memmo-ancestor-statue` 标明市政主体已映射、雕像 `cand-10488` 仍未决且 offer 不推为 commission。原句、关系候选状态和独立复核覆盖均未改。逐条 S4/S6 判定及证据见 [knowledge.md](knowledge.md#s4-s6-direct-institution-batch-20261020)。
+### 2026-10-21：第七章 p.199 第V节当前ID独立语义复核
+
+按登记源段 `chp-7:07_CHP-7_sec_v:l3-7` 逐条核读14条当前statement（印刷p.199、PDF物理页37），同时检查S0、statement端点、候选类型及46条mention span。12条 `relation_candidate=true`、2条 `false`、0条未分类；46条mention span均与登记段文本精确相符。p.199 L7的“Then came the”与下一源段 p.200 L9的“war of the Spanish succession”闭合，继续沿用 `cand-2502` 与相邻statement，不拆成独立战争事件。
+
+发现 `st-chp7-p199-v-roman-art-reputation` 将“Roman art”错映到城市Rome候选 `cand-4490`。本句指艺术生产领域，与地点“Rome”不同；同一term候选 `cand-4631` 已承载第2章的“Roman art”及第7章p.173同词用例，其S3决定为 `new` 组 `sg3-term-cand-4631`。据此将mention `m-chp7-p199-v-011`改为精确短语“Roman art” `[494,503)`，映射至 `cand-4631`；同步更正statement subject及mentioned-candidate映射，并在既有S3决定理由追加p.199来源锚点。两个明确的Rome城市mention仍映射至 `cand-4490`；另将Maratta、Trevisani两条mention中的旧待S3备注同步为当前 `same` 决定。未增删statement/candidate/mention行数，S3决定及S4/S6记录行数不变。
+
+本段14条按statement ID去重后计入独立复核覆盖：第七章1,023/1,239、全书9,414/15,167（62.1%）。本段接收仅及上述登记段，第七章及全书仍未接收。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l9-18`；后续应优先检查战争开篇续句、政治实体及艺术委托statement的端点类型，不由未具名群体推定个体。

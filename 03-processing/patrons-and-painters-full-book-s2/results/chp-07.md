@@ -2,6 +2,8 @@
 
 任务：`patrons-and-painters-full-book-s2`。第七章共55个规范段；当前覆盖账本显示47段reviewed/complete、8段excluded/complete，queued与partial均为0。当前覆盖状态以`04-knowledge/tables/s2-coverage.csv`为准，全书状态见`04-knowledge/results/patrons-and-painters-full-book-s2.md`，逐项判断及执行记录见同任务`process/stages.md`。
 
+截至2026-10-21，当前ID独立逐条语义复核为1,023/1,239；这不同于上述段级coverage状态，也不表示第七章已接收。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l9-18`。
+
 ## 候选表面提示裁决（2026-10-08）
 
 在47个已审段上复扫候选表面定位器，10,489个既有类型词形形成40条启发式提示。逐项核对S0原文、候选、mentions及statement后，17条映射为精确mention，23条因泛称、普通语义或索引候选错配不写入。新增候选3个：cand-11486为Cardinal Aldobrandini所藏两件Titian作品相关收藏（类型待定）；cand-11487为Charles Le Brun提供给Domenico Guidi凡尔赛雕塑组的设计图稿（work）；cand-11488为Cardinal Chigi 1664年访巴黎事件（event）。三者的身份或具体范围按原文证据保留未决。
