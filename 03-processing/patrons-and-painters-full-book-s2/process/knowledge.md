@@ -8782,3 +8782,25 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批写入六条 formal `cites` 记录 `rel-1257`–`rel-1262`，裁决七条 S2 候选（7 formal、0 pending、0 rejected）。没有新增外部来源、S5字段或知识类型；关系证据仅证明原书引注。
 
 **本批后当前状态：** S4 已登记1,322/4,806组、1,525/5,029条成员映射；待登记3,484组／3,504条映射。直接关系端点待登记1,731组／1,731个候选／1,744条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 470／474、term 525／525），另有1,753组／1,760条非直接映射。KU共2,342；S6关系表1,262条（1,260 formal、2 pending），过程记录累计裁决52条S2候选（24 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
+
+
+<a id="s4-s6-archive-publication-citations-20261020-ruffo-prunieres"></a>
+
+### S4/S6 archive：Ruffo（1916）与 Prunières（1913）跨章引注（2026-10-20）
+
+**S4 端点登记：** `cand-6454` 沿用 S3 `new` 组 `archive-group-ruffo-galleria-1916`，登记为[《17世纪墨西拿的鲁福画廊》archive KU](../../../04-knowledge/units/archives/ruffo-galleria-1916.md)。第21章 p.436 书目列出 *La galleria Ruffo nel secolo XVII in Messina*、*Bollettino d’Arte* 卷X与1916年；现有同类 Ruffo 书信卡是不同文献。`cand-4861` 沿用 S3 `new` 组 `archive-group-9233392cebac`，登记为[《吕利之前在法国的意大利歌剧》archive KU](../../../04-knowledge/units/archives/prunieres-opera-italien-1913.md)。第21章 p.434 书目和第7章脚注明确定位 H. Prunières 的1913年出版物。两卡均照录责任者缩写，不补全姓名，也不声称读过被引文献或页面。
+
+**S6 逐条结果：** 六条 S2 statement 都是 Haskell 对出版物的直接书目引注，主端点均映射到既有 Haskell archive KU；两端 archive 类型符合 `cites` 域值。第1章三条 Ruffo 引注共用 `rel-1263`，第7章三条 Prunières 引注共用 `rel-1264`；每条 statement 在下表单独列出去向。OCR“Rufifo”“Russo”“Prunidres”的页图校读限定保留在 S2。本裁决仅确认引注，不核验被引页。
+
+| statement_id | 映射端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| `st-chp1-secii-p9-n3-cites-ruffo-p109` | Haskell book archive → Ruffo 1916 article archive | 第1章 p.9 n.3，L328；引p.109 | formal，`rel-1263` `cites`。书目身份及短引对应；只记录引注。|
+| `st-chp1-secii-p14-n6-cites-v-ruffo-p97-guercino-letter` | Haskell book archive → Ruffo 1916 article archive | 第1章 p.14 n.6，L569–570；引p.97 | formal，同为`rel-1263`。S2保留OCR与页图校读差异；只记录引注。|
+| `st-chp1-secii-p18-n5-cites-novetti-letter-ruffo-p290` | Haskell book archive → Ruffo 1916 article archive | 第1章 p.18 n.5，L757–758；引p.290 | formal，同为`rel-1263`。S2页图将OCR“Russo”读为Ruffo；只记录引注。|
+| `st-chp7-p180-n1-cite-prunieres` | Haskell book archive → Prunières 1913 book archive | 第7章 p.180 n.1，L335；引p.41 | formal，`rel-1264` `cites`。书目列H. Prunières、Paris 1913；只记录引注。|
+| `st-chp7-p182-n1-cite-prunieres` | Haskell book archive → Prunières 1913 book archive | 第7章 p.182 n.1，L343；引p.68 | formal，同为`rel-1264`。本注另引Bjurström；S2将两个来源分开映射。|
+| `st-chp7-p183-n4-cite-prunieres` | Haskell book archive → Prunières 1913 book archive | 第7章 p.183 n.4，L351；引p.149 | formal，同为`rel-1264` `cites`。只记录书目定位。|
+
+本批登记2个既有 S3 new 身份组、2张 KU 卡及2条候选映射；S6裁决6条候选（6 formal、0 pending、0 rejected），写入2条 formal 关系。未新增 S5 字段或外部身份核验。
+
+**本批后当前状态：** S4 已登记1,324/4,806组、1,527/5,029条成员映射；待登记3,482组／3,502条映射。直接关系端点待登记1,729组／1,729个候选／1,742条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 468／472、term 525／525），另有1,753组／1,760条非直接映射。KU共2,344；S6关系表1,264条（1,262 formal、2 pending），过程记录累计裁决58条S2候选（30 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
