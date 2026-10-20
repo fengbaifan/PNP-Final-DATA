@@ -1,5 +1,20 @@
 # 全书 S3 身份对齐过程
 
+<a id="s6-chp7-collective-picture-location-notes-20261021"></a>
+
+### S6：第7章两条画作组地点脚注（2026-10-21）
+
+逐条裁决 `st-chp7-p197-n4-isham-pictures-lamport` 与 `st-chp7-p197-n5-exeter-pictures-burghley`。第7章 p.197 注4称 Isham 讨论中的画作均在 Lamport Hall；注5称 Exeter 相关画作大多仍在 Burghley。S2 原句、Haskell 归属、限定及人物和地点候选均保留。两条候选分别是人物 `cand-1315`→地点 `cand-7258`、人物 `cand-0984`→地点 `cand-7237`；它们表达未具名画作组的位置陈述，不表达人物居住、所有权或人物与宅邸的一般关系。
+
+| statement_id | S6 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp7-p197-n4-isham-pictures-lamport` | rejected（仅否决图谱边） | 原书的画作组位置陈述留在 S2；端点却是 Isham→Lamport Hall，不能据此建人物—地点边。作品未逐件识别，也没有可用作品组端点。 |
+| `st-chp7-p197-n5-exeter-pictures-burghley` | rejected（仅否决图谱边） | 原书“大多仍在 Burghley”的限定陈述留在 S2；端点却是 Exeter→Burghley，不能据此建人物—地点边。“大多仍在”不证明 Exeter 本人、所有权或当前完整馆藏。 |
+
+当前受控关系类型没有可用于这两条 person→place 端点的类型；`located_at` 适用于 work→place 或 place→place，不能用人物端点代替未具名画作组。故不写入 `relations.csv`，也不把来源陈述删除或改成矛盾事实。只有后续 S2 明确了画作组端点及相应证据、并经 S3/S4 给出身份去向后，才可重新评估作品—地点关系。
+
+裁决后累计逐条决定 189/10,402 条 S2 关系候选：127 formal、53 pending、9 rejected；尚有 10,213 条待逐项裁决。`relations.csv` 仍为1,353条（1,350 formal、3 pending）；本批不增加正式边，现有关系 `source_id` 缺失数仍为0。
+
 <a id="s4-s5-s6-chp3-jesuit-archive-citations-20261021"></a>
 
 ### S4/S5/S6 archive：第3章 Jesuit Archives 引注簇（2026-10-21）
