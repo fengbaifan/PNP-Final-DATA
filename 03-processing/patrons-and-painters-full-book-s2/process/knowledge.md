@@ -1,5 +1,42 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp3-jesuit-archive-citations-20261021"></a>
+
+### S4/S5/S6 archive：第3章 Jesuit Archives 引注簇（2026-10-21）
+
+本批沿用八个既有 S3 new 档案组，按 Haskell 第3章 p.86–88 脚注中的档案标识分别登记。ibid. 按相邻脚注指回 Jesuit Archives；Romanum 标识、Fondo di Gesù 号及 N. 865 下的多项引注保持各自原有粒度。cand-5485 的 N. 865-18 在两条脚注中重复出现，作为同一档案身份组登记，但两次引注分别保留为两个 S6 候选。档案原件及馆藏目录未独立查阅，本批只记录 Haskell 的引注。
+
+| candidate_id | S3 身份组 | S4 登记 | 书内锚点 |
+|---|---|---|---|
+| cand-5483 | archive-group-37c1a97e9dde | [units/archives/jesuit-archives-rom-164-folios-193-194](../../../04-knowledge/units/archives/jesuit-archives-rom-164-folios-193-194.md) | p.86 n.3 |
+| cand-5484 | archive-group-9f3c96612b6c | [units/archives/jesuit-archives-rom-21-folio-174](../../../04-knowledge/units/archives/jesuit-archives-rom-21-folio-174.md) | p.86 n.4 |
+| cand-5485 | archive-group-301d4754b147 | [units/archives/jesuit-archives-fondo-di-gesu-n865-18](../../../04-knowledge/units/archives/jesuit-archives-fondo-di-gesu-n865-18.md) | p.86 n.5; p.87 n.1 |
+| cand-5486 | archive-group-7f5696e7aac7 | [units/archives/jesuit-archives-rom-163-folio-304](../../../04-knowledge/units/archives/jesuit-archives-rom-163-folio-304.md) | p.86 n.6 |
+| cand-5487 | archive-group-ec45a8e7373d | [units/archives/jesuit-archives-fondo-di-gesu-n865-items-4-6-7-8](../../../04-knowledge/units/archives/jesuit-archives-fondo-di-gesu-n865-items-4-6-7-8.md) | p.87 n.2 |
+| cand-5488 | archive-group-7529ee33484e | [units/archives/jesuit-archives-fondo-di-gesu-n865-19](../../../04-knowledge/units/archives/jesuit-archives-fondo-di-gesu-n865-19.md) | p.87 n.3 |
+| cand-5489 | archive-group-861d4a4a5ef4 | [units/archives/jesuit-archives-fondo-di-gesu-n1017-page-95](../../../04-knowledge/units/archives/jesuit-archives-fondo-di-gesu-n1017-page-95.md) | p.87 n.4 |
+| cand-5490 | archive-group-678975b104af | [units/archives/jesuit-archives-fondo-di-gesu-n101-page-191](../../../04-knowledge/units/archives/jesuit-archives-fondo-di-gesu-n101-page-191.md) | p.88 n.4 |
+
+各卡记录四项来源支持字段：文献类型、Haskell 所称档案机构、原书档案标识、Haskell 印刷页及注号，共32条；来源均为 haskell-1980-rev-ed，不表示核阅档案原件。候选 cand-5483 至 cand-5490 均已映射至上述八张 archive 卡。
+
+九条 S2 cites 候选逐条裁为 formal。关系仅证明 Haskell 在该脚注中引用了相应档案定位，不证明档案内容或引文所述事实已核实：
+
+| statement_id | 书内定位 | 关系 | 决定与边界 |
+|---|---|---|---|
+| st-chp3-seciv-notes-l205-243-p86-n3-rom164 | p.86 n.3：Rom. 164, if. 193-4 | rel-1345 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p86-n4-rom21 | p.86 n.4：Rom. 21, f. 174 | rel-1346 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p86-n5-86518 | p.86 n.5：Fondo di Gesu, N. 865-18 | rel-1347 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p87-n1-86518-citation | p.87 n.1：Fondo di Gesu, N. 865-18 | rel-1348 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p86-n6-rom163-citation | p.86 n.6：Rom. 163, f. 304 | rel-1349 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p87-n2-865-items | p.87 n.2：Fondo di Gesu, N. 865, items 4, 6, 7, 8 | rel-1350 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p87-n3-86519 | p.87 n.3：Fondo di Gesu, N. 865-19 | rel-1351 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p87-n4-1017 | p.87 n.4：Fondo di Gesu, N. 1017, p. 95 | rel-1352 (cites) | formal；书内引注，档案原件未独立查阅。 |
+| st-chp3-seciv-notes-l205-243-p88-n4-101 | p.88 n.4：Fondo di Gesu, N. 101, p. 191 | rel-1353 (cites) | formal；书内引注，档案原件未独立查阅。 |
+
+对应关系行均以 haskell-1980-rev-ed 为来源，并分别保存 Markdown 行号、印刷页/注号和 statement ID。p.88 n.4 同时提及 Pascoli；本边只记录同注中指向 N. 101 的 Jesuit Archives 引注，不将 Pascoli 合并为档案对象。
+
+定点字段预检与写回均无 warning，新增32条；写后字段预检为 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0。八卡定点渲染预检通过，关系投影9行、写入8卡并通过写后字节核对。audit_tables.py --strict-stage --summary：exit 0、errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；git diff --check exit 0。写后核查：S4登记1,388/4,804组、1,592/5,029条候选映射；直接端点待登记1,668组/1,682条映射。S5字段11,965条（1,634条 unverified）。S6逐条裁决187/10,402条（127 formal、53 pending、7 rejected），关系表1,353条（1,350 formal、3 pending）；全部关系均有 source_id。S2复核和S3决定计数不变。
+
 <a id="s4-s5-s6-chp7-bibliography-endpoints-20261021"></a>
 
 ### S4/S5/S6 archive：第7章书目引注端点（2026-10-21）
