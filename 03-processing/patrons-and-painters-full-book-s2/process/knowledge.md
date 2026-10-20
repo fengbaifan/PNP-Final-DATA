@@ -8882,3 +8882,24 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 **本批后当前状态：** S4 已登记1,330/4,805组、1,533/5,029条候选映射；待登记3,475组／3,496条映射。直接关系端点待登记1,724组／1,724个端点候选／1,738条成员映射（archive 463组／468成员）；非直接队列1,751组／1,758条映射。KU=2,350。S5字段表11,764条，其中1,625条unverified。S6关系表1,273条（1,270 formal、3 pending）；本过程累计逐条裁决74条S2候选（45 formal、24 pending、5 rejected）。候选待办表有5条记录、pending=0。
 
 **验证与写回边界：** 定点字段抽取为本卡生成7条记录，warnings=0；全库 `build_field_facts.py` 预览发现既有字段行和来源登记差异（11条更新、16条新增、9条移除、5条来源登记变化），故未执行全库 apply。定点 `build_cards.py --preview` 核对4条关系展示，`--render` 写回1张卡且写后预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性审计的断链、无效谓词、缺逆向边、弱证据均为0。
+
+<a id="s4-s6-direct-endpoints-saint-saulveur-20261020"></a>
+
+### S3/S4/S5/S6：Saint-Saulveur 书信与直接人物端点（2026-10-20）
+
+本批按可解除的直接关系候选推进。S3 `new` 组 `archive-group-b9ccfb258fd3`（`cand-5813`）登记为 Haskell 报告的 Peiresc 书信 archive；`new-person:de-monsieur-saulveur-4a8766a516`（`cand-5815`）登记为书内具名收信人。人物卡仅保留来源内称名与书信角色，不补全姓名、职业、生平或外部身份。原信被引卷册 Peiresc III, p.252 未查阅。
+
+修订两条 S3 对齐说明的错误身份边界：`cand-5815` 来源只给“Monsieur de Saint-Saulveur”，不是完整个人姓名；`cand-4159` 来源只给“Her Majesty the Queen”的复制许可署名，未给姓名或指出具体君主。两项现均按 source-local referent 处理，不扩展外部身份；`cand-4159` 的 S4 登记仍待能唯一识别的人物端点及合适的受控关系谓词。
+
+**S5 字段：** 两张新卡合计4条字段，均由 Haskell 第4章 p.107注4（line 263）支持并标为 `source_backed`。不表示查阅 Peiresc 被引卷册或原稿。
+
+**S6 逐条裁决：**
+
+| statement_id | 端点与定位 | 决定 |
+|---|---|---|
+| `st-chp4-sec-ii-notes-l260-264-fn263-peiresc-letter-report` | archive `cand-5813` → person `cand-5815`；p.107 n.4 L263 | formal，`rel-1274 addressed_to`，时间1635-01-09；Haskell 明确称该信寄给 Monsieur de Saint-Saulveur，原信未独立核验。 |
+| `st-fm-pl-p29-permission` | Hampton Court Palace 壁画 work `cand-4004` → Queen title candidate `cand-4159`；图版目录 L86 | pending；文字只报告复制许可，不证明所有权或委托；对象未具名为具体君主，当前受控谓词也没有表达图版复制许可的类型。关系端点与谓词边界确定前不写入 `relations.csv`。 |
+
+本批新增1条 formal S6 关系；另将1条 Queen 许可候选明确记为 pending，不以缺少 `relations.csv` 行误作 rejected。当前 S4 已登记1,332/4,805组、1,535/5,029条映射；待登记3,473组／3,494条映射。直接端点待登记1,722组／1,722个候选／1,736条成员映射（person 1/1、archive 462/467）；非直接映射1,751组／1,758条。KU=2,352，S5字段=11,768（1,625 unverified），S6关系表=1,274（1,271 formal、3 pending）。过程记录累计裁决76条S2关系候选（46 formal、25 pending、5 rejected）；候选待办表仍5条记录、pending=0。
+
+**验证：** 定点 `build_field_facts` 为两卡生成4条 `source_backed` 字段，warnings=0；`build_cards.py --preview` 显示 archive→person 正向边及 person 反向投影，分别 `--render` 两卡并通过写后字节核对。`audit_tables.py --strict-stage --summary` errors=[]、s2_missing=[]；关系一致性审计断链、无效谓词、缺逆向边、弱证据及未基线通用证据均为0。S4 待登记映射和全书 S2 语义审查提示仍在。
