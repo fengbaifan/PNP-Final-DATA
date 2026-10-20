@@ -1,4 +1,4 @@
-﻿# 全书语义处理（S2）过程
+# 全书语义处理（S2）过程
 
 
 
@@ -13461,3 +13461,9 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 四条新关系候选逐项裁为S6 `pending`：Daun与未具名前任、Paolo与未对齐的Daun、del Po与未登记／未识别画布组、Paolo与未识别画布组。无关系写入 `relations.csv`。`cand-7296` 因新增关系角色进入S4直接端点队列；队列重算为1,662组／1,662候选／1,677组成员。`cand-7301` 的mention说明更新为S3现行决定：Haskell注5将来源拼写“Binchs”识别为Admiral Byng；Victor Amadeus句新增物理页校读 `tortuous'`→`tortuous`。
 
 本段按statement ID去重后将第七章复核更新为1,055/1,243、全书9,446/15,171（62.3%）；S2缺至少一个候选端点的关系候选为335条（subject-only 45、object-only 218、both 72）。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l39-40`，随后p.201 `l42-55`。逐条发现见 [S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p200-正文-s2-独立语义复核) 和 [S6记录](knowledge.md#s6-chp7-p200-atomic-relations-20261021)。
+
+### 2026-10-21：第七章 p.200 Plate 32a–32b 图版簇 S2 语义复核
+
+按同一PDF物理页42合并复核常规OCR段 `chp-7:07_CHP-7_sec_v:l39-40` 与视觉转录段 `chp-7:07_CHP-7_sec_v_visual-transcription:l3-3`：共6条statement、8条mention，全部span精确。确认两条caption的作品、作者归属、图像主题及“painted for”原书范围；将32b仍待身份对齐的旧 qualifier 和 Roomer／Shaftesbury mention 状态更新为当前S3 same决定。`cand-4071` 与p.198正文 `cand-7245` 已同指既有作品KU；Silenus、Hercules仍待类型／身份判断。匹配创作者关系已有formal边 `rel-0948`、`rel-0866`，本次不生成重复行；两条painted-for与两条iconographic-subject候选留待S6按受控谓词和端点分别处理。无statement、mention、S3、S4或relations.csv行数变化。
+
+本段按statement ID去重后计入逐条语义复核：第七章1,061/1,243、全书9,452/15,171（62.3%）。下一游标为p.201 `chp-7:07_CHP-7_sec_v:l42-55`。详细语义记录见 [S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p200-plate-32a32b-图版簇-s2-语义复核)。

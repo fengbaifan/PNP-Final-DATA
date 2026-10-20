@@ -48,3 +48,11 @@
 新增四条关系候选（Daun比较赞助、Paolo为Daun工作、del Po制作画布、Paolo制作画布）已逐条记入 [S6 pending裁决](knowledge.md#s6-chp7-p200-atomic-relations-20261021)。Daun、未具名前任和画布组等端点仍未映射到可用KU，故没有写入正式关系表。纠正端点不改变S3决定；`cand-7296`作为既有 `new` 组成员因本段新增端点而进入S4直接关系端点队列。
 
 本段32条按 statement ID 去重后计入统一复核：第七章1,055/1,243，全书9,446/15,171（62.3%）。修订后全书有10,406条 `relation_candidate=true`；其中335条至少缺一个候选端点ID（仅缺subject 45、仅缺object 218、两端均缺72）。第七章与全书尚未接收。下一游标为第七章p.200 `chp-7:07_CHP-7_sec_v:l39-40`（Plate 32a，3条statement）。
+
+## 第七章 p.200 Plate 32a–32b 图版簇 S2 语义复核
+
+对照 `CHP-7.pdf` 物理页42（印刷p.200）复核两条独立登记来源：`chp-7:07_CHP-7_sec_v:l39-40` 的Plate 32a，以及视觉转录段 `chp-7:07_CHP-7_sec_v_visual-transcription:l3-3` 的Plate 32b。页图显示32a为 Ribera 的 *Drunken Silenus*，caption称其“painted for Gaspar Roomer”；32b为 Paolo de Matteis 的 *The Choice of Hercules*，caption称其“painted for Lord Shaftesbury”。两段共6条statement、8条mention，8个mention span均与各自S0登记文本精确对应。
+
+S3现行决定将32a作品、Ribera和Roomer分别复用至 `units/works/ribera-the-drunken-silenus`、`units/persons/ribera` 和 `units/persons/gaspar-roomer`；32b的图版作品候选 `cand-4071` 与p.198正文候选 `cand-7245` 均映射至 `units/works/paolo-de-matteis-the-choice-of-hercules`，Paolo de Matteis与Shaftesbury也各自复用既有人物KU。故更正32b qualifier中过时的“later alignment／no identity merge”表述及Roomer旧 mention note；不改变S3决定或身份组。Silenus `cand-4161` 与Hercules `cand-4162` 仍为类型／身份待决，未强制分类。
+
+两条作者归属候选已存在匹配的formal `created_by` 关系（`rel-0948`、`rel-0866`），本批不复制关系行；图版caption作为来源证据是否并入现有边，随S6核对证据范围。两条“painted for”候选不升级为委托或所有权，且受控谓词是否足以准确表达该措辞仍待S6裁决；两个神话人物subject候选因端点类型／KU未决也待S6处理。本批不新增或删除statement、mention或relation记录，S4登记不变；S2逐条复核计数增加6条至第七章1,061/1,243、全书9,452/15,171（62.3%）。本段复核不表示第七章或全书接收。下一游标为p.201 `chp-7:07_CHP-7_sec_v:l42-55`，随后p.202 `l57-60`及p.200脚注 `l62-76`。
