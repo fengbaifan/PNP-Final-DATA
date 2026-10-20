@@ -9311,3 +9311,20 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 写入后四张卡均经 build_cards.py --preview 检视，定点 --render 预检通过并完成4张卡渲染，21条字段与8条关系投影均按表重建、写后字节核验通过。audit_tables.py --strict-stage --summary：errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run：broken target、invalid relation type、missing inverse、weak evidence及未基线generic evidence-backed均为0。检查不构成对原信、刊本或被引版本的独立验收。
 
 本批后：S4已登记1,369/4,804组、1,573/5,029条候选映射；待登记3,435组／3,456条映射，其中直接端点1,687组／1,701条组成员映射，非直接队列1,748组／1,755条映射。S5为11,889条字段、1,634条 unverified。S6逐条裁决累计164/10,402条（104 formal、53 pending、7 rejected）；关系表1,330条（1,327 formal、3 pending），来源ID齐备。S2复核状态不变。
+
+<a id="s4-s5-s6-da-canal-cross-chapter-citations-20261021"></a>
+
+### S4/S5/S6 archive：Da Canal《Vita di Gregorio Lazzarini》跨章引注（2026-10-21）
+
+沿用 S3 既有 `new` 组 `archive-group-aa69e7e50bc3`，仅将 `cand-6593` 映射到新建 archive KU `units/archives/vincenzo-da-canal-vita-gregorio-lazzarini-1809`。第21章书目 p.418 L307 明列 “Canal, Vincenzo da: Vita di Gregorio Lazzarini (1732), Venezia 1809”；身份判断来自本书的书目与跨章引注，不是外部目录或对出版物的直接查阅。题名括注 `(1732)` 照录，不推断为创作年、版本年或其他年代。责任者只保留 Haskell 书目形式；人物候选 `cand-7781` 继续独立。
+
+卡片以第21章书目、第6章 p.166 n.2（L70）和第7章 p.195 n.3（L105）为来源，新增 6 条 `source_backed` 字段。第6章引文 p.69 与第7章引文 pp.71–73 都是该出版物的 locator；两处页码不构成不同文献身份。被引页和出版物均未独立核读。
+
+**S6逐条裁决：** 两条候选的端点分别为 `cand-2962`（已登记 `units/archives/patrons-and-painters`）与 `cand-6593`（本批登记为 `units/archives/vincenzo-da-canal-vita-gregorio-lazzarini-1809`）。`footnote_citation` 按受控域值映射为 `cites`；两条边分开保留章节、注号和 locator。决定只确认 Haskell 明示引注，不确认被引内容。
+
+| statement_id | 原书定位 | 决定 | 正式关系 |
+|---|---|---|---|
+| `st-chp6-p166-n2-canal` | 第6章 p.166 n.2，L70；“da Canal, p. 69” | formal `cites`；只表示书内引注 | `rel-1354` |
+| `st-chp7-p195-n3-da-canal` | 第7章 p.195 n.3，L105；“Da Canal, especially pp. 71-3” | formal `cites`；只表示书内引注 | `rel-1355` |
+
+批后 S4 登记1,389/4,804组、1,593/5,029条映射；待登记3,415组／3,436条，其中直接端点1,667组／1,667个候选／1,681条成员映射，非直接1,748组／1,755条。S5字段表11,971条、1,634条 `unverified`。S6累计逐条裁决191/10,402条（129 formal、53 pending、9 rejected）；关系表1,355条（1,352 formal、3 pending）。
