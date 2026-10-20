@@ -2,6 +2,22 @@
 
 更新日期：2026-10-20。
 
+<a id="s4-s5-s6-archive-cross-chapter-citations-20261020"></a>
+
+### S4/S5/S6 archive：Claretta、Tassi 卷 II 与 Whinney–Millar 跨章引注（2026-10-20）
+
+**S3→S4：** 沿用既有 `new` 组登记三张 archive KU：`cand-4995`／`archive-group-claretta-reali-savoia-1893`、`cand-6590`／`archive-group-tassi-vite-bergamaschi-vol-ii-1793`、`cand-7066`／`archive-group-whinney-millar-english-art-1625-1714-1957`。题名、版本或卷次由第21章书目及各章短引互证；只记录书目身份和引文定位，不声称查阅被引书目或页面。
+
+**S5：** 三卡新增17条由 Haskell 书内书目／脚注支持的字段。生成前预览发现 Wilhelm 与 Sweetman 两卡有11条既有来源字段的 `S1`/`S2` 标记缺失或错位；修正标记后重新预览为 `rows=11,849`、`unverified=1,634`、新增17条、移除0条、warnings=0，再应用。先前 `enr-06678`、`enr-06937` 两项定位问题经核对已修复，本批未重复改动。
+
+**S6：** 六条明确书内引文逐条裁为 formal `cites`：`st-chp3-seci-l35-43-claretta-citation`→`rel-1304`（Claretta p.33）；`st-chp7-p202-n1-cite-claretta`→`rel-1305`（Claretta pp.1–309）；`st-chp6-p165-n6-cite`→`rel-1306`（Tassi 卷II p.60）；`st-chp7-p200-v-note6-cite-tassi`→`rel-1307`（卷II p.64）；`st-chp7-p178-n6-cite-whinney-millar`→`rel-1308`（Whinney–Millar pp.121–122）；`st-chp7-p195-n5-whinney-millar`→`rel-1309`（pp.296–302）。这些边仅记录 Haskell 的引用，不验证被引内容。
+
+关系投影预览后，将三条接收端反向边写入三张新 archive 卡，并把六条发出端边写入《赞助人与画家》卡；4张卡、7个表格、73条投影行通过定向预检，写后字节校验通过。
+
+**保留边界：** `st-chp10-p296-note3-turin-rise-citations` 当前为 `relation_candidate=false`，不计入本批 S6，转第10章独立复核时核查；`cand-6076` 的“Gigli 日记”与1958年 *Diario Romano* 版本身份未能确定，继续待证、不登记。新增裁决不计作 S2 独立语义复核。
+
+**批次后状态：** S4已登记1,351/4,805组、1,555/5,029条映射；待登记3,454组／3,474条映射，其中直接端点待登1,705组／1,719条成员映射。S5字段表11,849条、1,634条 `unverified`。S6关系表1,309条（1,306 formal、3 pending）；过程记录累计逐条裁决126/10,402条关系候选（81 formal、38 pending、7 rejected），全部关系均有 `source_id`。结构检查不代表全书语义验收。
+
 <a id="s4-s5-s6-sweetman-last-commission-20261020"></a>
 
 ### S4/S5/S6 archive：Sweetman《Shaftesbury’s last commission》及第7章引文（2026-10-20）

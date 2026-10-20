@@ -48,13 +48,13 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 内容 | 依据 |
 |---|---|---|
-| 文献类型 | 期刊文章 | S2；第21章书目，印刷页440–441，L1259–1263 |
-| 书目责任者形式 | Wilhelm, F. | S2；第21章书目，印刷页440，L1259；人物候选 cand-7184 仍为 undecided |
-| 原题名 | Neue Quellen zur Geschichte des fürstlich Liechtensteinschen Kunstbesitzes | 第21章书目，印刷页440，L1259 |
-| 期刊 | Jahrbuch des Kunsthistorischen Institutes der K.K. Zentralkommission | 第21章书目，印刷页440，L1261 |
-| 年份与分册 | 1911，Beiblatt | 第21章书目，印刷页440–441，L1261–1263 |
-| 书目页码 | pp. 87–142 | 第21章书目，印刷页441，L1263 |
-| 书内引注 | 第7章 pp. 194–195 注2、注4、注1 | 只记录哈斯克尔的引文；被引页及文章内容未独立查阅 |
+| 文献类型 | 期刊文章 | S1，第21章书目，印刷页440–441，L1259–1263 |
+| 书目责任者形式 | Wilhelm, F. | S1，第21章书目，印刷页440，L1259；人物候选 cand-7184 仍为 undecided |
+| 原题名 | Neue Quellen zur Geschichte des fürstlich Liechtensteinschen Kunstbesitzes | S1，第21章书目，印刷页440，L1259 |
+| 期刊 | Jahrbuch des Kunsthistorischen Institutes der K.K. Zentralkommission | S1，第21章书目，印刷页440，L1261 |
+| 年份与分册 | 1911，Beiblatt | S1，第21章书目，印刷页440–441，L1261–1263 |
+| 书目页码 | pp. 87–142 | S1，第21章书目，印刷页441，L1263 |
+| 书内引注 | 第7章 pp. 194–195 注2、注4、注1 | S2，只记录哈斯克尔的引文；被引页及文章内容未独立查阅 |
 
 ## 关系与证据
 
