@@ -49,6 +49,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 S3 身份组 `archive-group-b19e2b1e1847` 只含 `cand-6591`。书目条目与各章的 “L. Crespi” 引文按题名、责任者和定位衔接；这项书内对应不等于对该书内容或引文所述事实的独立核验。
 
-### 关系与证据
+## 关系与证据
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 只记录 Haskell 的引文路径，不验证被引页所述内容；角色：脚注引文；范围：第6章 p.166 注1以 L. Crespi, p.213 定位相邻作品叙述；被引页未独立阅读。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 69; printed p.166, note 1 |
 
 《赞助人与画家》在第6章 p.166 注1 引用本书第213页，已登记为一条 `cites` 正式关系。该边只表示 Haskell 的引文定位，不表示被引页面已阅读。

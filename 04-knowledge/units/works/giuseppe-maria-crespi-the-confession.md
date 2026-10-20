@@ -50,12 +50,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 Footnote 1 says “These pictures are now at Dresden” and cites L. Crespi, p. 213. The S2 record links the plural note to this painting and the adjacent six Sacraments group. This is Haskell's report, not an independent confirmation of the cited page or a claim about the present-day location.
 
-### 关系与证据
+## 关系与证据
+
+### 关系记录
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← `creator_of` | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | Haskell称此画为克雷斯皮“他的一幅画”；正式关系只记录作者归属，不把寄送事件编码为其他关系。第6章 p.166，line 43。 |
-| `located_at` → | Dresden | 依据 Haskell 注1 的复数指称，作为原书所报现藏地记录；被引 p.213 未独立查阅，时间指向 Haskell 文中的 “now”。第6章 p.166，注1，line 69。 |
+| ← 创作者（`created_by`，反向投影） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 对应 st-chp6-p166-v1-01 的来源支持子断言；审美评价仍归于 Haskell；角色：创作者；范围：第6章 p.166；Haskell称 The Confession 是 Crespi “one of his ... pictures”；只记录作者归属，不编码从 Bologna 寄给 Cardinal 的事件。；原断言与证据见发出端卡片“朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 43; printed p.166 |
+| → 位于（`located_at`） | [德累斯顿（Dresden）](../places/dresden.md) | 对应 st-chp6-p166-n1-confession；注中所引 Crespi p.213 未独立查阅；时间：Haskell叙述中的“now”；未给具体日期；角色：书中所报现藏地；范围：第6章 p.166 注1；“These pictures”按S2链接到本画与相邻六幅圣事组；本边只记录 Haskell 对 The Confession 的报告，不代表现时馆藏核验。；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 69; printed p.166, note 1 |
 
 ## English scope note
 

@@ -98,3 +98,9 @@ English: This card represents the continuous account headed “CONSUL JOSEPH SMI
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 争执（`disputed_with`） | [Salumieri 行会（Arte de’ Salumieri）](../institutions/arte-de-salumieri.md) | The body statement and note 2 map to the same reported dispute relation. Civil 263/16 is cited as containing an account; the file was not consulted.；范围：Smith’s imports of meat and fish; Haskell says this activity sometimes led to disputes with the guild.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；lines 361–362; line 579, note 2; printed p.299 |

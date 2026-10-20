@@ -9092,3 +9092,41 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 第7章 p.194 n.2（L36）、p.194 n.4（L102）和 p.195 n.1（L103）三条明确引文逐条裁为 formal `cites`，记录为 `rel-1300`–`rel-1302`，方向均为《赞助人与画家》→该文章。p.195 n.1 的 “ibid.” 依紧邻的 n.4 解析为 Wilhelm；注释后半是 Haskell 对 Prince 偏好的解释，已从错误的 Prince→Wilhelm 关系候选拆出，改记为不生成 S6 边的 `authorial_interpretation`，并保留 “curious” 和 “even in sacred pictures” 的限定。
 
 本批后 S4 已登记1,347/4,805组、1,551/5,029条映射；待登记3,458组／3,478条映射，其中直接端点1,709组／1,723条映射，非直接队列1,749组／1,755条映射。S6关系表1,302条（1,299 formal、3 pending）；S2关系候选逐条裁决119/10,403（74 formal、38 pending、7 rejected）。S2 statements 增至15,167条；独立逐条语义复核9,400/15,167，剩余5,767条。S5新增7条由哈斯克尔书目与脚注直接支持的书目字段，均为 `source_backed`；全表11,825条、1,634条仍为 `unverified`，作者身份及文章内容未作外部核验。严格结构审计和关系一致性检查通过仅说明机械完整，不代表文章内容核验或S2全书接收。
+
+<a id="s4-s6-direct-institution-batch-20261020"></a>
+
+### S3/S4/S6：六个直接机构／职位端点及逐候选裁决（2026-10-20）
+
+本批沿用五个已有 S3 `new` 机构组 `cand-2351`、`cand-4211`、`cand-5082`、`cand-8406`、`cand-9167`，并将 `cand-8248` 的类型从 institution 校正为 term 后一并登记。六组均依据 Haskell 书内明确称谓与上下文登记；未作外部机构／职位核验。`cand-8406` 作为第9章演说中的市政主体，并与第15章 “municipal authorities”／“city of Padua” 的来源称谓相连；卡片仍与帕多瓦地点分开。`cand-5082` 保持与相邻的 S. Ignazio 教堂分立。`cand-8248` 的第9章 p.252 原文称 Dionisio “was given the post”，故按职位语境记录为阿奎莱亚宗主教职位 term，不扩写为教区、城市或机构；“virtual monopoly”限定照录。
+
+| S3 candidate | 决定／登记去向 | 来源锚点与边界 |
+|---|---|---|
+| `cand-2351` | new → `units/institutions/scuola-di-san-rocco` | 第13章 pp.334、336 的成员／Guardiano记载；第8章 p.219 另述为该会绘画，未具名画作不并入机构身份。 |
+| `cand-4211` | new → `units/institutions/roman-senate` | 第2章 L7、L121 的市政机构；与教廷、罗马地点分开。 |
+| `cand-5082` | new → `units/institutions/collegio-romano` | 第3章 L104 明称耶稣会学院；与相邻教堂分开。 |
+| `cand-8406` | new → `units/institutions/city-of-padua-civic-body` | 第9章 L379 的城市名义演说及第15章 pp.365–366 市政行动称谓；不推定法定组织结构。 |
+| `cand-9167` | new → `units/institutions/arte-de-salumieri` | 第10章 p.299 正文及注2；与贸易活动、档案和保管机构分开。 |
+| `cand-8248` | institution → term；new → `units/terms/patriarchate-of-aquileia-office` | 第9章 p.252 “given the post”；Udine 是书中所称主教驻地，不据此把职位并为地点或机构。 |
+
+S6 本批覆盖16条候选，5条 formal 合并为3条边，11条 pending；没有用非受控谓词制造边：
+
+| S2 statement | S6 去向 | 理由／关系记录 |
+|---|---|---|
+| `st-chp13-p334-albrizzi-member-and-guardiano-at-san-rocco` | formal | 与 p.336 任职记载合并为 `rel-1310 member_of`；角色 Guardiano。 |
+| `st-chp13-p336-albrizzi-guardiano-of-scuola-in-1770` | formal | `rel-1310`；p.334 仅称晚年任职，本边不推定连续任期。 |
+| `st-chp8-p219-negri-san-rocco-picture` | pending | Scuola 端点已登记；作品候选 `cand-7680` 仍 undecided 且缺少对应 mention，未建未识别作品边。 |
+| `st-chp2-sec-ii-l3-8-senate-monuments` | pending | 被提议的纪念碑未逐件识别，不能构成具体 work 端点。 |
+| `st-chp2-secii-l118-125-1590-decree-revoked` | pending | 法令候选 `cand-4504` 未决；不把撤销陈述写成已识别文书关系。 |
+| `st-chp2-secii-l118-125-carlo-capitol-statue-order` | pending | 雕像候选 `cand-4508` 未决；不补造对象或与 Urban VIII 大理石像合并。 |
+| `st-chp2-secii-l118-125-urban-marble-figure-commission` | formal | 已登记的 Urban VIII 大理石像→Roman Senate，`rel-1311 commissioned_by`，1635；不表示作品完成或现址。 |
+| `st-chp3-secii-l102-113-relocation` | pending | “next to”表示邻接，不等于 `located_at` 或学院内部位置。 |
+| `st-chp3-secii-l115-123-lattre-collegio` | pending | “went to”并“remained”未说明就学、成员、居住或任职，当前无准确受控关系。 |
+| `st-chp9-p252-dionisio-appointed-and-moved` | pending | 办公室 term 已登记；当前词表无忠实的 person→term 任职谓词。 |
+| `st-chp9-p252-dolfin-patriarchate` | pending | 保留“virtual monopoly”原有限定；当前词表无忠实的 family→term 职位谓词，任期亦未明确。 |
+| `st-chp15-p365-padua-authorities-request-fair-assistance` | pending | 市政请求主体已登记；当前受控词表无可准确表达该请求的谓词。 |
+| `st-chp15-p366-padua-offers-memmo-ancestor-statue` | pending | 雕像候选 `cand-10488` 未决；提出／提供不等于委托或完成。 |
+| `st-chp15-p366-memmo-declined-self-representation` | pending | 来源只说 Memmo 拒绝代表其本人的提议；提议对象与关系谓词均未能准确表达。 |
+| `st-chp10-p299-smith-trade-and-guild-dispute` | formal | 与注2合并为 `rel-1312 disputed_with`：Smith 的肉鱼进口有时引发与行会争端。 |
+| `st-chp10-p299-note2-avogaria-dispute-account` | formal | `rel-1312` 同边第二来源跨度；仅记录 Haskell 称 Civil 263/16 有争端记录，未查阅该档案。 |
+
+三条 formal 关系均以 `haskell-1980-rev-ed` 为来源，具体章页／行定位保存在 `relations.csv`。本批没有 S5 新字段；书内未核实的档案、职位规则、未具名作品和制度细节仍不作外部事实声称。S2 qualifiers 对 `st-chp8-p219-negri-san-rocco-picture`、`st-chp15-p365-padua-authorities-request-fair-assistance`、`st-chp15-p366-padua-offers-memmo-ancestor-statue` 作定向澄清，未改 statement 数、关系候选数或独立复核覆盖。

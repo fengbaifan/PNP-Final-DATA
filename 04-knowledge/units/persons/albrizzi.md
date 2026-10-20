@@ -81,7 +81,10 @@ English: The Chapter 13 and person-index form Giambattista Albrizzi, the existin
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [圣罗科会（Scuola di San Rocco）](../institutions/scuola-di-san-rocco.md) | S2 candidates st-chp13-p334-albrizzi-member-and-guardiano-at-san-rocco and st-chp13-p336-albrizzi-guardiano-of-scuola-in-1770 map to this one edge; no continuous tenure is inferred.；时间：1770；角色：Guardiano；范围：Membership in Scuola di S. Rocco; one office instance is explicitly reported in 1770. The earlier account says he became Guardiano in old age without a start or end date.；证据：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；line 28; printed p.334; line 49; printed p.336 |
+
 
 暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
 

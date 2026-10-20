@@ -13435,3 +13435,7 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 - `cand-7268` 已有S3 `new` 的archive身份组，但尚无S4 `ku_id`；本次不增正式S6边，脚注引文候选留待关系阶段及端点登记处理。
 
 写后仍为15,167条statement；`relation_candidate=true/false` 从10,403/4,764改为10,402/4,765。段落覆盖与独立复核计数均不变。
+
+### 2026-10-20：S2 qualifiers 与直接机构端点批次交接
+
+S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier：`st-chp8-p219-negri-san-rocco-picture` 标明 Scuola 机构端点已映射，但未具名画作 `cand-7680` 仍未决且缺少 mention；`st-chp15-p365-padua-authorities-request-fair-assistance` 标明市政主体已映射但当前无准确请求谓词；`st-chp15-p366-padua-offers-memmo-ancestor-statue` 标明市政主体已映射、雕像 `cand-10488` 仍未决且 offer 不推为 commission。原句、关系候选状态和独立复核覆盖均未改。逐条 S4/S6 判定及证据见 [knowledge.md](knowledge.md#s4-s6-direct-institution-batch-20261020)。

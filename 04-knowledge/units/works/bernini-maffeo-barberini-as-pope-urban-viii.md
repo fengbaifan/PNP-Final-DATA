@@ -104,6 +104,7 @@ relations:
 | → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：教宗肖像人物；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [保守宫（Palazzo dei Conservatori）](../places/palazzo-dei-conservatori.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版02b；原书明确Maffeo Barberini as Pope Urban VIII，未据此填材料或馆藏号；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 38–39; 章前：图版目录；印刷页xii |
+| → 由其委托（`commissioned_by`） | [罗马元老院（Roman Senate）](../institutions/roman-senate.md) | The sentence separately reports the 1590 decree and location at Palazzo dei Conservatori; neither is added as a relation here.；时间：1635；角色：委托方；范围：The large marble figure of Urban VIII identified as Plate 2b; this edge records the reported commission and does not assert completion or present-day location.；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；line 121; chapter 2; printed page not recorded in current S2 locator |
 
 ### 关系候选入口
 
