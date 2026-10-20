@@ -2,6 +2,10 @@
 
 更新日期：2026-10-21。
 
+### S3/S4/S5/S6 archive：Loret、Wind 与 Torcellan 跨章引注（2026-10-21）
+
+两篇新 archive 沿用既有 S3 `new` 组：`cand-6583` Loret（1934）和 `cand-7230` Wind（1939–40）；新增11条Haskell书目支持的 `source_backed` 字段。端点查重触发S3局部复核：`cand-10476` Torcellan 1963与既有 `units/archives/torcellan-andrea-memmo-1963` 为同一出版物，决定由 `new` 改为 `same`，不重复建卡。S6对六条明确书内引注逐条裁为 formal `cites`（`rel-1360`–`rel-1365`）；第8章 p.214 对 Loret 的阅读指引保持非关系。被引文献和页面未独立查阅。逐项证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-loret-wind-and-torcellan-citations-20261021)。
+
 ### S4/S5/S6 archive：第6章 Michaud 与 Roma 引注端点（2026-10-21）
 
 沿用既有 S3 `new` 单成员组登记两项 archive：`cand-6571`（`archive-group-06ab78ee5350`）对应 Michaud 四卷本 *Louis XIV et Innocent XI*；`cand-6575`（`archive-group-e4f0548d6dd1`）对应 *Roma* XIX (1941)。两组身份沿用第21章书目与第6章脚注定位，不增加外部身份断言。按 Haskell 原书支持新增13条 `source_backed` 字段。
@@ -19,10 +23,10 @@ S6 对第6章 p.166 注2和第7章 p.195 注3两条关系候选逐条裁为 form
 ## 当前全书阶段总览（2026-10-21）
 
 - **S2：** 内部处理15,167条statement；独立逐条语义复核9,414/15,167（62.1%），尚未接收。333条关系候选至少缺一个S2候选端点ID。
-- **S3：** 12,408/12,408个候选均有现行裁决记录；same 2,024、new 5,029（4,804组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。这表示决定可追溯，不表示未决身份已消除。
-- **S4：** 已登记1,391/4,804组、1,595/5,029条候选映射；待登记3,413组／3,434条映射，直接端点1,665组／1,679条组成员映射。
-- **S5：** 字段表11,984条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
-- **S6：** 关系表1,359条（1,356 formal、3 pending）；过程记录累计逐条裁决195/10,402条S2关系候选（133 formal、53 pending、9 rejected），其余10,207条待逐项裁决。
+- **S3：** 12,408/12,408个候选均有现行裁决记录；same 2,025（指向1,092个既有KU）、new 5,028（4,803组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。这表示决定可追溯，不表示未决身份已消除。
+- **S4：** 已登记1,393/4,803组、1,597/5,028条候选映射；待登记3,410组／3,431条映射，直接端点1,663组／1,677条组成员映射，非直接1,747组／1,754条。
+- **S5：** 字段表11,995条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
+- **S6：** 关系表1,365条（1,362 formal、3 pending）；过程记录累计逐条裁决201/10,402条S2关系候选（139 formal、53 pending、9 rejected），其余10,201条待逐项裁决。
 - **S7：** 尚未启动；等待 S2 独立语义验收及 S3–S6 收口条件。知识发现与页面工作继续暂停。
 
 ### S2独立复核与S6裁决：第七章脚注段（2026-10-21）

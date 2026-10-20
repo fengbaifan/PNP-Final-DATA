@@ -9347,3 +9347,26 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp6-p163-n4-cite` | 第6章 p.163 注4；2月18日 avviso，刊于 ibid.，原注未另列页码 | formal `cites`，不推定 locator | `rel-1359` |
 
 批后 S4 登记1,391/4,804组、1,595/5,029条映射；待登记3,413组／3,434条，其中直接端点1,665组／1,665个候选／1,679条成员映射、非直接1,748组／1,755条。S5字段表11,984条、1,634条 `unverified`。S6累计逐条裁决195/10,402条（133 formal、53 pending、9 rejected）；关系表1,359条（1,356 formal、3 pending）。
+
+<a id="s4-s5-s6-archive-loret-wind-and-torcellan-citations-20261021"></a>
+
+### S3/S4/S5/S6 archive：Loret、Wind 与 Torcellan 跨章引注（2026-10-21）
+
+**S3复核与复用。** 端点登记前发现 `cand-10476`（Gianfranco Torcellan, *Una figura della Venezia settecentesca: Andrea Memmo*, 1963）对应的既有 S3 `new` 组，与 `units/archives/torcellan-andrea-memmo-1963` 为同一出版物。Haskell 第21章印刷页438书目给出责任者、题名和1963年；既有 KU 卡的 Bibliothek Werner Oechslin 记录011679565及Fondazione Giorgio Cini出版记录指向同一书。Venezia、Venezia–Roma及含Firenze的出版项按来源原样保留，不据此拆成不同作品。将 `cand-10476` 从 `new` 修订为 `same` 并映射到既有 KU；不新建重复卡。相应两条第15章引注在本批继续进入S6裁决。
+
+**S4登记。** 沿用既有 S3 `new` 组登记两篇 archive：`cand-6583` / `archive-group-8132730d38fb` → `units/archives/loret-i-pittori-napoletani-1934`；`cand-7230` / `archive-group-433891702345` → `units/archives/wind-julian-apostate-hampton-court-1939-1940`。Loret 身份限于Haskell第21章印刷页428的书目；既有印本校读记录将OCR刊名“Capitoliam”校为“Capitolium”，并将第6章注1的“Lores”校为“Loret”。第7章 p.200 注3指向Loret p.543。第8章 p.214 注4“see Mattia Loret”是阅读指引，S2已标 `relation_candidate=false`，不建立formal cite。Wind身份限于第21章印刷页441书目；第7章 p.196 注2和p.198 注4分别引其pp.127–137、134–135。两篇论文和所有被引页均未独立查阅，不登记作者人物或作者关系。
+
+**S5字段。** 两张卡合计提取11条 `source_backed` 字段：Loret 5条、Wind 6条，均来自Haskell书目条目。字段记录文献题名、书目责任者形式、刊名、出版年、卷册或页码；不扩展作者姓名，不声称外部核验或全文阅读。新增ID为 `enr-15754`–`enr-15764`。
+
+**S6逐条裁决。** 六条候选均为Haskell对文献的明确引注，受控关系为 archive→archive `cites`。关系只记录书内引注路径，不确认被引材料的内容：
+
+| statement_id | 原书定位与 locator | 决定 |
+|---|---|---|
+| `st-chp6-p165-n1-cite` | 第6章 p.165 注1；Loret 1934, p.545 | formal `cites`，`rel-1360` |
+| `st-chp7-p200-n3-cite-loret` | 第7章 p.200 注3；Loret, p.543 | formal `cites`，`rel-1361` |
+| `st-chp7-p196-footnote2-wind` | 第7章 p.196 注2；Wind 1939–40, pp.127–137 | formal `cites`，`rel-1362` |
+| `st-chp7-p198-n4-wind-1939` | 第7章 p.198 注4；Wind 1939–40, pp.134–135 | formal `cites`，`rel-1363` |
+| `st-chp15-p364-memmo-note4-torcellan-biography` | 第15章 p.364 注4；Torcellan 1963 | formal `cites`，`rel-1364` |
+| `st-chp15-p367-note4-cites-torcellan-1963` | 第15章 p.367 注4；Torcellan 1963 | formal `cites`，`rel-1365` |
+
+批后 S3决定记录12,408/12,408：same 2,025（1,092个既有KU）、new 5,028（4,803组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。S4已登记1,393/4,803组、1,597/5,028条映射；待登记3,410组／3,431条，其中直接关系端点1,663组／1,663个候选／1,677条成员映射，非直接1,747组／1,754条。直接端点数按本批前后相同的 `summarize_relation_endpoint_queue` 例程重算；HEAD基线为1,666组／1,666个候选／1,680条成员映射，较上一当前快照所列1,665／1,679高1组和1条成员映射。S5字段表11,995条、1,634条 `unverified`。S6累计逐条裁决201/10,402条（139 formal、53 pending、9 rejected）；关系表1,365条（1,362 formal、3 pending），所有关系均有结构化 `source_id`。S2独立复核维持9,414/15,167，本批未将定点引注裁决计作整段S2验收。
