@@ -8822,3 +8822,38 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批登记1个既有 S3 new 身份组、1张 KU 卡及1条候选映射；S6裁决3条候选（3 formal、0 pending、0 rejected），写入2条 formal 关系；补入7条 Haskell 书目／脚注直接支持的结构字段，未新增外部身份核验。
 
 **本批后当前状态：** S4 已登记1,325/4,806组、1,528/5,029条成员映射；待登记3,481组／3,501条映射。直接关系端点待登记1,728组／1,728个候选／1,741条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 467／471、term 525／525），另有1,753组／1,760条非直接映射。KU共2,345；S6关系表1,266条（1,264 formal、2 pending），过程记录累计裁决61条S2候选（33 formal、23 pending、5 rejected）。S5字段表11,738条、其中1,625条unverified。
+
+<a id="s4-s5-s6-archive-ch3-ch7-bibliographic-citations-20261020"></a>
+
+### S4/S5/S6 archive：第3章与第7章书目引注端点批次（2026-10-20）
+
+按直接关系候选可解锁数、书内身份锚点和边界清晰度，登记三个直接 archive 组；Bonnaffé 的 S3 新人物组同时作为 archive 责任者字段依赖登记。批次脚本：[dry-run/apply](register_s4_s5_s6_archive_citations_20261020.py)。
+
+**S4登记与身份边界：**
+
+| 候选 | S3身份组 | KU | 依据与限制 |
+|---|---|---|---|
+| cand-5473 | archive-group-58e12013842e | `units/archives/lanckoronska-decoracja-gesu-1935` | 第21章p.427书目与第3章三条脚注；仅记录书目责任者形式“K. Lanckoronska”。人物候选 cand-10932 仍为 undecided，不扩写身份。|
+| cand-5491 | archive-group-4d60e2987b4e | `units/archives/baldinucci-vita-padre-pozzo-ms-cod-palat-565` | 第3章p.88 n.5具名手稿及p.89、p.90回指；保留S0 OCR叶码“if. 120-42”。cand-5388所指 biographer 仍 undecided，不与 Filippo Baldinucci 合并，也不建立作者人物KU。|
+| cand-7042 | archive-group-a26d5e573340 | `units/archives/bonnaffe-dictionnaire-amateurs-francais-1884` | 第21章p.416书目及第7章三条脚注；只登记 Haskell 的书目身份与引文范围。|
+| cand-7043 | new-person:bonnaffe-edmond-a247874362 | `units/persons/edmond-bonnaffe` | 沿用 S3 全名新组，按第21章p.416书目责任者形式登记 source-local 人物卡；不补传记或外部身份。本批不从 relation_candidate=false 的书目行新增 authored_by 边。|
+
+**S5定向字段：** 三张 archive 卡的书目类型、原题、书目责任者形式、出版项或手稿馆藏定位、Haskell引文范围共19条字段写入 `enrichment.jsonl`。字段均由 Haskell 原书锚点支持；OCR异文、责任者未决状态和“未读原件／被引页”限制随字段及卡片保留。未新增来源记录或外部核验。
+
+**S6逐条裁决：** 九条直接引用候选均符合 archive→archive 的 `cites` 类型和值域；每条分别保留原句、脚注位置和关系映射。被引内容未核实，裁决只确认 Haskell 的书目引注。
+
+| statement_id | 端点 | 原书定位 | 裁决 |
+|---|---|---|---|
+| st-chp3-seciv-notes-l189-204-p82-n3-lanckoronska | Haskell → Lanckoronska 1935 archive | 第3章p.82 n.3，L203 | formal，rel-1267 `cites`；脚注明示由该书推导图像解释，只记录引注。|
+| st-chp3-seciv-notes-l205-243-p83-n2-lanckoronska | Haskell → Lanckoronska 1935 archive | 第3章p.83 n.2，L206 | formal，同映射 rel-1267；简写引用由相邻完整题录唯一识别。|
+| st-chp3-seciv-notes-l205-243-p84-n1-lanckoronska | Haskell → Lanckoronska 1935 archive | 第3章p.84 n.1，L207 | formal，同映射 rel-1267；脚注简写回指同一出版物。|
+| st-chp3-seciv-notes-l205-243-p88-n5-baldinucci-ms | Haskell → Baldinucci manuscript archive | 第3章p.88 n.5，L232 | formal，rel-1268 `cites`；明确著录手稿、馆藏号及叶码转录。|
+| st-chp3-seciv-notes-l205-243-p89-n3-baldinucci-citation | Haskell → Baldinucci manuscript archive | 第3章p.89 n.3，L235 | formal，同映射 rel-1268；“MS. cit.”回指p.88 n.5。|
+| st-chp3-seciv-notes-l205-243-p90-n2-baldinucci-ms | Haskell → Baldinucci manuscript archive | 第3章p.90 n.2，L238 | formal，同映射 rel-1268；“MS. cit.”回指同一手稿。|
+| st-chp7-p175-n2-cite-bonnaffe | Haskell → Bonnaffé 1884 archive | 第7章p.175 n.2，L313 | formal，rel-1269 `cites`；书目唯一识别该书。|
+| st-chp7-p184-n4-cite-bonnaffe | Haskell → Bonnaffé 1884 archive | 第7章p.184 n.4，L357 | formal，同映射 rel-1269；多来源脚注只将 Bonnaffé 部分计为该边证据。|
+| st-chp7-p187-n1-cite-bonnaffe | Haskell → Bonnaffé 1884 archive | 第7章p.187 n.1，L362 | formal，同映射 rel-1269；书目责任与题名可对应。|
+
+**写入后核对与纠正：** 首次 apply 已生成4张卡、3条 S6 关系和19条 S5 字段，但复制对齐行后修改了原行而未修改输出副本，导致4条 S4 `ku_id` 未写入。表审计发现待登记映射没有下降；已逐项核实并补写 cand-5473、cand-5491、cand-7042、cand-7043 的 KU 映射及本批 `process_ref`，未重复写入关系、字段或卡片。批次脚本已修正为修改待写副本，并按未登记组的全部成员计算直接端点队列。
+
+**本批后当前状态：** S4 已登记1,329/4,805组、1,532/5,029条成员映射；待登记3,476组／3,497条映射。直接关系端点待登记1,725组／1,725个端点候选／1,739条组成员映射（person 2/2、institution 90/90、event 101/101、place 224/224、work 319/328、archive 464/469、term 525/525），非直接待登记1,751组／1,758条映射。KU=2349；S6关系表1269条（1267 formal、2 pending）；本过程累计逐条裁决70条 S2 关系候选（42 formal、23 pending、5 rejected）。S5字段表11,757条，其中1,625条unverified。非直接字段责任者和未决人物仍按其原S3状态保留。
