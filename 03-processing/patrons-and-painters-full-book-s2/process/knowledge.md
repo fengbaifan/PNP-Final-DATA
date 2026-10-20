@@ -8903,3 +8903,35 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批新增1条 formal S6 关系；另将1条 Queen 许可候选明确记为 pending，不以缺少 `relations.csv` 行误作 rejected。当前 S4 已登记1,332/4,805组、1,535/5,029条映射；待登记3,473组／3,494条映射。直接端点待登记1,722组／1,722个候选／1,736条成员映射（person 1/1、archive 462/467）；非直接映射1,751组／1,758条。KU=2,352，S5字段=11,768（1,625 unverified），S6关系表=1,274（1,271 formal、3 pending）。过程记录累计裁决76条S2关系候选（46 formal、25 pending、5 rejected）；候选待办表仍5条记录、pending=0。
 
 **验证：** 定点 `build_field_facts` 为两卡生成4条 `source_backed` 字段，warnings=0；`build_cards.py --preview` 显示 archive→person 正向边及 person 反向投影，分别 `--render` 两卡并通过写后字节核对。`audit_tables.py --strict-stage --summary` errors=[]、s2_missing=[]；关系一致性审计断链、无效谓词、缺逆向边、弱证据及未基线通用证据均为0。S4 待登记映射和全书 S2 语义审查提示仍在。
+
+<a id="s4-s6-chp15-strange-memmo-letters-20261020"></a>
+
+### S4/S6 archive：第15章 Memmo—Strange 与 Strange—Sasso 两封书信（2026-10-20）
+
+按可解除的直接人物端点和同章证据成组登记两个 S3 `new` archive 组；不查阅或声称已查阅原件。
+
+**S3→S4 身份去向：** `cand-10499` 沿用 `archive-group-6c6f7a6001d5`，登记为[Memmo 致 John Strange 的 Egerton 书信卡](../../../04-knowledge/units/archives/andrea-memmo-letter-to-john-strange-egerton-mss-1969-no-80.md)。Haskell 第15章 p.366 注1称 Egerton MSS. 1969, no. 80 来自帕多瓦的 Memmo，日期为 18 October [1775]，写给 John Strange 并涉及格洛斯特公爵健康；保留年份方括号。
+
+`cand-10500` 沿用 `archive-group-bd311bad522b`，登记为[John Strange 致 G. M. Sasso 的书信卡](../../../04-knowledge/units/archives/john-strange-letter-to-g-m-sasso-1777-10-08.md)。Haskell 第15章 p.366 注1报告1777年10月8日的书信及绘图请求；第16章 p.373 注2称 Strange 致 Sasso 的信件在 Epistolario Moschini、威尼斯 Biblioteca Correr，但没有该信的单件索书号。书内 OCR 的 “Cotter” 根据印本图像校为 “Correr”。馆藏记录与单件信均未独立查阅。两个 S3 组各自映射至一张 archive 卡；人物端点沿用既有 Andrea Memmo、John Strange 与 G. M. Sasso。
+
+**S5 定向字段：** 两卡合计10条 `source_backed` 字段，来自 Haskell 第15章 p.366 注1和第16章 p.373 注2。保留 Memmo 信件日期中的 `[1775]`；Strange—Sasso 信仅记录书内提供的集合级馆藏定位，不补造单件索书号或今日馆藏核验。
+
+**S6 逐条裁决：**
+
+| statement_id | 端点与定位 | 决定 |
+|---|---|---|
+| `st-chp15-p366-note1-egerton-ms-1969-no80` | Haskell → Egerton MSS. 1969, no. 80；第15章p.366注1，L26–27 | formal，`rel-1275 cites`。仅记录哈斯克尔的档案引注；未查阅手稿。 |
+| `st-chp15-p366-note1-egerton-letter-authored-by-memmo` | Egerton no. 80 → Andrea Memmo；L27 | formal，`rel-1276 authored_by`。依据 “from Memmo”；原件未查阅。 |
+| `st-chp15-p366-note1-egerton-letter-addressed-to-strange` | Egerton no. 80 → John Strange；L26–27 | formal，`rel-1277 addressed_to`。收信人及单件对应均限于哈斯克尔的书内报告。 |
+| `st-chp15-p366-note1-strange-letter-authored-by-strange` | 1777-10-08 信 → John Strange；L27–28 | formal，`rel-1278 authored_by`。原件未查阅。 |
+| `st-chp15-p366-note1-strange-letter-addressed-to-sasso` | 1777-10-08 信 → G. M. Sasso；L27 | formal，`rel-1279 addressed_to`。原件未查阅。 |
+| `st-chp15-p366-note1-statue-and-strange-letter-1777` | 信件所载绘图请求；L27–28 | pending。`cand-10501` 表示被请求制作的图样，来源未证明图样完成或存世，S3 已排除为已识别作品；当前受控谓词也不能准确表达“信件载有制作图样的请求”。不建立绘图作品或委托关系。 |
+
+本批裁决6条 S2 关系候选（5 formal、1 pending、0 rejected），新增5条 formal 关系。身份分组、书内报告、正式关系和未决请求分别保留其证据边界。
+
+
+**验证：** `build_cards.py --preview` 分别核对两张卡，确认第一张显示 Haskell→Egerton letter 的反向 `cited_by` 投影及作者、收信人边，第二张显示作者与收信人边；定点渲染2张卡、10个字段表行和5条正式关系行，并通过写后字节核验。定点字段抽取生成10条 `source_backed` enrichment（enr-15529–enr-15538）。全库 `build_field_facts.py` 只读预览发现11条现有记录变化、9条新增、9条移除及5项来源登记差异；未执行全库 apply。
+
+当前结果表审计：`audit_tables.py --strict-stage --summary` 的 `errors=[]`、`s2_missing=[]`；KU=2,354，S3候选=12,408，alignment=12,716且未链接=0，待S4登记新组映射=3,492，S6关系表=1,279（1,276 formal、3 pending），S5字段=11,778（1,625 unverified），来源=1,758。关系一致性审计的断链、无效类型、缺失逆向边、弱证据和未基线通用证据均为0；孤立单元1,432、过度连接单元1为信息项。`git diff --check` 通过。
+
+**本批后当前状态：** S4已登记1,334/4,805组、1,537/5,029条映射；待登记3,471组／3,492条映射。直接端点待登1,720组／1,720个候选／1,734条成员映射（person 1/1、institution 90/90、event 101/101、place 224/224、work 319/328、archive 460/465、term 525/525），另有1,751组／1,758条非直接映射。S6过程记录累计裁决82条S2候选（51 formal、26 pending、5 rejected）。
