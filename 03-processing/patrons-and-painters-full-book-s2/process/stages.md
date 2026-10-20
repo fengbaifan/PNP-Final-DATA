@@ -13354,3 +13354,30 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 本批独立复核后，另行按来源偏移修复了 p.216 的六条 mention、两项 statement mention 映射、Massimo 综合 claim 的未具名指代及错误 OCR correction；过程和逐项偏移见知识处理记录锚点 s2-targeted-repair-ch8-p216-mentions-20261020。该局部修订不构成 p.216 或第八章接收。
 
 **本轮交接：** Ch7 下一游标为 p.198 的 chp-7:07_CHP-7_sec_iv:l77-87；Ch8 下一游标为 p.217 的 chp-8:08_CHP-8_sec_ii:l37-39。上述复核发现不更改 S3 组或裁决；只有相应 S2 语句、mentions 或端点修订后，才定向复核受影响的 S3/S4/S6 对象。
+
+
+#### 第七章 p.198
+
+独立复核当前第七章 p.198 的25条 statement 与43个 mention span；25条 statement 均与所引文本相符。本页及章节均不接收，因需先修订以下端点、关系方向、限定和脚注映射；审读本身不改变 S3 身份决定或正式关系：
+
+- `st-chp7-p198-closterman-search-sculptor`：Shaftesbury 派 Closterman 到罗马寻找一位未具名雕塑家；拆分委派行动与寻找目标，保留雕塑家未具名。
+- `st-chp7-p198-enthusiasm-and-shaftesbury-theory`：因果方向及端点不符；“indiscriminate enthusiasm”促成理论形成，须与赞助断言分开。
+- `st-chp7-p198-shaftesbury-verrio-programme` 与 `m-chp7-p198-b010`：原文复数壁画误映到单件作品；应使用有来源支持的作品组，或保留开放端点。
+- `st-chp7-p198-guidi-drawings-project-failed`：复合断言将“nothing came of”扩写成项目被放弃；拆开发送图样与后续结果，并保留 Haskell 推断层级。
+- `st-chp7-p198-closterman-shaftesbury-portrait`：肖像作品端点 cand-7243 缺 mention。
+- cand-0973、cand-12336、cand-12339 不应作为具名术语组；保持来源中未具名的人群并待类型证据。cand-12338 指知识圈层，不是已确认机构。
+- `st-chp7-p198-shaftesbury-italy-visit`：补回与意大利艺术“strong but not always happy”的接触限定；mention cand-4131 的跨度/作用范围不合。
+- `st-chp7-p198-shaftesbury-applied-ideas-to-choice-hercules`：来源跨度需延至 L84–85，或拆分 statement。
+- 脚注6标记接在错误 statement 后，n6也链接错误主张；按印本调整双向链接。
+- 脚注5反向链接与正文不一致；核定两条 statement 的实际支持范围后修正。
+- `shaftesbury-buys-pictures-for-friends` ID 对应当前关于 Naples 知识圈的 claim，购买图片事实在另一条 ID 中；按事实重新对应。
+- 补回比较限定语“More than anyone”与“by far”。
+- `st-chp7-p198-exeter-introduced-maratta` 提及未具名贵族群体却无端点；保留未具名群体，不创建具名人物。
+
+记录后第七章统一复核为1,008/1,238条；下一游标 p.199。问题修订与回核完成前，章节仍未接收。
+
+#### 第八章 Plate 33（segment `chp-8:08_CHP-8_sec_ii:l37-39`）
+
+独立复核6条 statement，5条关系候选有原文支持，1条候选不应转成图谱关系；未发现需修改的 statement claim。当前该 segment 在 `mentions.csv` 中没有 mention 行，但 statement qualifiers 引用 cand-4099、cand-4163、cand-4164、cand-3884、cand-3925、cand-3949、cand-3935 共7个候选；补入逐字跨度并复核前不接收。OCR “Soumena”暂保留，复核记录印本图版读作“Solimena”；题注没有“formerly at Palazzo Buonaccorsi”字样。
+
+记录后第八章统一复核为482/1,462条；下一游标 L41–43 Plate 34。章节未接收。
