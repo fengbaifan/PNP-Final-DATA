@@ -2,6 +2,10 @@
 
 更新日期：2026-10-20。
 
+### S4/S5/S6 place：Palais du Luxembourg 直接端点登记（2026-10-20）
+
+沿用 S3 `new` 组 `cand-1461` 登记为[卢森堡宫地点卡](../units/places/palais-du-luxembourg.md)，新增4条由第7章 p.174 支持的结构化字段。四条直接 S2 候选逐条裁决为1 formal、3 pending；formal 边 `rel-1280 commissioned_by` 仅记录1611年建造委托，不声称工程完成。场址上较早的宫殿 `cand-6683` 继续待证；未作外部建筑身份或现状核验。逐项理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-place-palais-luxembourg-20261020)。
+
 ### S4/S5/S6 term：巴洛克天花板装饰与英国对意大利艺术影响（2026-10-20）
 
 登记既有 S3 `new` 的两个术语组：巴洛克天花板装饰类型、英国对意大利艺术影响主题。两卡新增10条 `source_backed` 字段，依 Haskell 第2章 p.101、第7章 p.195–196 保留其艺术史评价与时期限定。8条直接关系候选逐条裁为6 pending、2 rejected、0 formal；术语端点组合不符合当前域值域矩阵，且两条被否决候选分别是无第二端点的单端描述、明确归因于德国赞助者的叙述。`relations.csv` 未增加边。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-term-barq-ceiling-and-english-impact-20261020)。
@@ -26,7 +30,7 @@
 登记三个直接 archive 组及其 S3 既有决定；另登记 Bonnaffé 书目责任者已有的 S3 新人物组，作为该 archive 必需责任者字段的依赖。S5 从 Haskell 原书为三张 archive 卡新增19条 source_backed 字段；不新增外部核验。九条直接 `cites` 候选逐条判为 formal，映射到三条关系记录；被引文献及页码均未独立查阅。Lanckoronska 与 Baldinucci 责任者形式保留其身份未决边界；不新增作者关系。批次后 S4 为1,329/4,805组、1,532/5,029条映射；S6关系表共1,269条。逐条证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-ch3-ch7-bibliographic-citations-20261020)。
 
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；统一计入口径的独立逐条复核覆盖9,394/15,164条statement（61.9%），第七章1,008/1,238、第八章482/1,462，均未接收；S3已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU登记处理中。** 12,408个候选决定行中，same=2,024（指向1,092个既有KU）、new=5,029（4,805个身份组）、conflict=9、excluded=100、undecided=5,246（含622项类型未决）。S4已登记1,336/4,805组、1,539/5,029条候选映射；待登记3,469组／3,490条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；统一计入口径的独立逐条复核覆盖9,394/15,164条statement（61.9%），第七章1,008/1,238、第八章482/1,462，均未接收；S3已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU登记处理中。** 12,408个候选决定行中，same=2,024（指向1,092个既有KU）、new=5,029（4,805个身份组）、conflict=9、excluded=100、undecided=5,246（含622项类型未决）。S4已登记1,337/4,805组、1,540/5,029条候选映射；待登记3,468组／3,489条映射。
 
 ### S4/S6 archive：Missirini（1823）跨章引注（2026-10-20）
 
@@ -121,15 +125,15 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,350 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,357 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,627 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,164 statements；relation_candidate true 10,401、false 4,763、unset 0 |
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,716 条：12,408 条候选决定记录及 308 条独立外部身份记录；候选决定数见下表 |
-| [字段表](../tables/enrichment.jsonl) | 11,764条，其中1,625条 unverified |
+| [字段表](../tables/enrichment.jsonl) | 11,792条，其中1,625条 unverified |
 | [来源登记](../tables/sources.csv) | 1,758 条来源记录 |
-| [关系表](../tables/relations.csv) | 1,273条：1,270 formal、3 pending；0条缺结构化 `source_id`（45条历史记录已回补）；S2另有10,401条`relation_candidate=true`的statement，二者不是同一计数口径 |
+| [关系表](../tables/relations.csv) | 1,280条：1,277 formal、3 pending；0条缺结构化 `source_id`（45条历史记录已回补）；S2另有10,401条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 当前statement表中333条 S2 关系候选至少一端尚无候选ID，分布于125个来源段：仅缺 object 218条、仅缺 subject 43条、两端均缺72条。其中325条以 relation_candidate_note、8条以 open_endpoint_reason 说明端点缺口；这些仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。旧摘要的326条／214、40、72是过期统计，S2语句本身未因本次S3/S4工作改变。
@@ -250,16 +254,16 @@ cand-1784 沿用既有 S3 new 身份组，登记为描述性来源局部 place K
 
 **当前基线：** 独立逐条复核覆盖第1章521/521、第2章1,441/1,441、第4章1,082/1,082、第5章1,073/1,073、第6章763/763、第7章1,008/1,238、第8章482/1,462、第9章904/904，以及第13–17章、结论和附录合计2,120/2,120；第七章 p.198 的25条 statement、43个 mention span 已审读，修订后下一游标为 p.199。第八章 p.216 的定向 mention 修订已完成；Plate 33 仍须补齐7条候选 mention，完成局部回核后从 Plate 34 续审。另有独立章节记录：第3章1,173/1,174、第10–12章1,567/1,567，均未接收且不并入统一口径。S2 有10,401条关系候选，其中333条至少一端缺candidate ID（仅缺object 218、仅缺subject 43、两端均缺72）。
 
-S3决定记录覆盖12,408/12,408个候选：same=2,024（指向1,092个既有KU）、new=5,029（4,805个身份组）、conflict=9、excluded=100、undecided=5,246（其中622项类型未决）。S4已登记1,336/4,805组、1,539/5,029条候选映射；待登记3,469组／3,490条映射。直接关系端点待登队列为1,718组／1,718个直接端点候选／1,732条组成员映射（person 1组／1成员、institution 90组／90成员、event 101组／101成员、place 224组／224成员、work 319组／328成员、archive 460组／465成员、term 523组／523成员）；非直接映射另有1,751组／1,758条。S5有11,788条字段、1,625条unverified；此前两个来源定位问题已修复。S6关系表有1,279条记录（1,276 formal、3 pending），原45条历史记录均已绑定结构化 `source_id`；过程记录累计逐条裁决90条S2候选（51 formal、32 pending、7 rejected），这仍只是10,401条关系候选的一部分。
+S3决定记录覆盖12,408/12,408个候选：same=2,024（指向1,092个既有KU）、new=5,029（4,805个身份组）、conflict=9、excluded=100、undecided=5,246（其中622项类型未决）。S4已登记1,337/4,805组、1,540/5,029条候选映射；待登记3,468组／3,489条映射。直接关系端点待登队列为1,717组／1,717个直接端点候选／1,731条组成员映射（person 1组／1成员、institution 90组／90成员、event 101组／101成员、place 223组／223成员、work 319组／328成员、archive 460组／465成员、term 523组／523成员）；非直接映射另有1,751组／1,758条。S5有11,792条字段、1,625条unverified；此前两个来源定位问题已修复。S6关系表有1,280条记录（1,277 formal、3 pending），原45条历史记录均已绑定结构化 `source_id`；过程记录累计逐条裁决94条S2候选（52 formal、35 pending、7 rejected），这仍只是10,401条关系候选的一部分。
 
 1. **完成正在进行的 S2 局部修订，再推进独立复核。** 补齐第八章 Plate 33 的7条候选 mention，核对相关 statement/端点；随后按第七章 p.199、Plate 34 继续复核。每批只回核受影响的 statement、mention 与来源锚点；5,770条未复核内容按连续来源段推进，不把覆盖率当作章节接收。
 2. **保持 S3 闭环并按证据定向变更。** 12,408项当前决定均有去向；仅在S2修订或新证据影响身份时，复核 same/new/conflict/undecided。保留9项 conflict、5,246项 undecided（含622项类型未决）的逐项理由，不以清零未决数为目标。
-3. **按关系解锁价值登记 S4。** 优先处理1,718组直接端点（1,732条成员映射），再处理1,751组非直接映射（1,758条）。同一类型及互相关联组并成可审查批次；登记时一并核对身份边界、成员映射、必需字段及直接关系候选。人物直接端点现剩1组待登记；“Her Majesty the Queen”候选继续待证，保留其身份及复制许可关系类型缺口。
+3. **按关系解锁价值登记 S4。** 优先处理1,717组直接端点（1,731条成员映射），再处理1,751组非直接映射（1,758条）。同一类型及互相关联组并成可审查批次；登记时一并核对身份边界、成员映射、必需字段及直接关系候选。人物直接端点现剩1组待登记；“Her Majesty the Queen”候选继续待证，保留其身份及复制许可关系类型缺口。
 4. **依赖端点和证据逐条完成 S6。** 以10,401条S2关系候选为候选全集；按端点齐备且来源锚点清楚的批次裁为 `formal`、`pending` 或 `rejected`，每项保留理由和 `source_id`。333条缺端点候选ID的 statement 先核来源锚点与对象身份；证据不足或关系类型未定的明确保留为 pending，不猜补端点。既有45条关系的 `source_id` 缺失已归零。
 5. **定向收口 S5 未核字段。** 来源定位错误已修复；先处理影响S6端点、身份和关键断言的字段，再按可获得的原始页、权威目录或研究文献逐批验证其余1,625条。没有足够证据的字段保留 `unverified` 并记清缺口。
 6. **上游状态可追溯后执行 S7。** S4新增组均已登记或有明确待证去向，S6候选逐项有正式决定，S5验证状态及来源清楚后，再生成发布快照和验证报告。知识发现与页面仍暂停。
 
-**提速安排：** 按“来源连续段复核”与“同类型直接端点及其关系候选”两种批次组织工作；共享表按文件串行写入。每批先界定对象及候选数，再集中语义判断和写入，只复核受影响行，收尾时运行一次严格表审计、关系一致性审计和差异检查，再提交推送，减少重复全表审计与CI等待。最近一批审计结果为 `audit_tables.py --strict-stage --summary` errors=[]，关系一致性审计的断链、无效类型、缺失逆向边和弱证据均为0；S4尚有3,492条映射待登记，S2语义复核仍未完成。cand-4723、cand-7205 两个术语组已登记，8条关联S6候选均有明确去向（6 pending、2 rejected、无formal边）。机器初筛的下一批地点候选 cand-1461（Palais du Luxembourg）与 cand-6290（England as economic competitor）各连接4条其余端点已映射的关系候选；cand-1461 的章内叙述明确指向 Marie de’ Medici 于1611年下令建造的新宫殿，当前没有同名 place KU；cand-6290 的“England”在经济竞争语境中作为政治行动者出现，与现有地域性 England 卡的类型边界未明，须先复核 S3 类型与原文语境。候选计数只用于排序，不替代身份或关系裁决。这些机械结果不等于全书语义接收。
+**提速安排：** 按“来源连续段复核”与“同类型直接端点及其关系候选”两种批次组织工作；共享表按文件串行写入。每批先界定对象及候选数，再集中语义判断和写入，只复核受影响行，收尾时运行一次严格表审计、关系一致性审计和差异检查，再提交推送，减少重复全表审计与CI等待。最近一批审计结果为 `audit_tables.py --strict-stage --summary` errors=[]，关系一致性审计的断链、无效类型、缺失逆向边和弱证据均为0；S4尚有3,489条映射待登记，S2语义复核仍未完成。cand-4723、cand-7205 两个术语组已登记，8条关联S6候选均有明确去向（6 pending、2 rejected、无formal边）；cand-1461 现已登记并完成4条S6裁决（1 formal、3 pending）。下一项先复核 cand-6290：S2 将其记作 place，但第6章 p.149 用 “England” 表示经济竞争来源，第7章又将同一候选用于地点和目的地表述。按项目的地点／政治实体边界，先拆清跨章 mention 与端点映射，再决定它属于既有地域 England、政治实体或仍需待证；类型未清前不登记。并行的上游语义工作先补第八章 Plate 33 的7条候选 mention，再按第七章 p.199 与 Plate 34 连续复核。候选计数只用于排序，不替代身份或关系裁决；这些机械结果不等于全书语义接收。
 
 
 ### S3 复核：Modena 公爵候选改列待证（2026-10-16）

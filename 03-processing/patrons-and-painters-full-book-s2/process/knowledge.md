@@ -8964,3 +8964,24 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 **验证：** `build_cards.py --preview` 确认两卡均显示“当前没有正式关系”，并保留逐条裁决说明；定点渲染2卡、10个字段表行、0条关系行，写后字节核验通过。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；KU=2,356，待S4登记映射=3,490，S6关系表=1,279（1,276 formal、3 pending），S5字段=11,788（1,625 unverified），来源=1,758。关系一致性审计断链、无效类型、缺失逆向边、弱证据和未基线通用证据均为0；孤立单元1,434和过度连接单元1为信息项。
 
 **本批后当前状态：** S4已登记1,336/4,805组、1,539/5,029条映射；待登记3,469组／3,490条映射。直接端点待登1,718组／1,718个候选／1,732条组成员映射（person 1/1、institution 90/90、event 101/101、place 224/224、work 319/328、archive 460/465、term 523/523），另有1,751组／1,758条非直接映射。S6过程记录累计裁决90条S2候选（51 formal、32 pending、7 rejected）。
+
+<a id="s4-s6-place-palais-luxembourg-20261020"></a>
+
+### S4/S6 place：Palais du Luxembourg 直接端点登记（2026-10-20）
+
+**S3→S4 身份去向：** 沿用 `cand-1461` 的既有 S3 `new` 组 `sg3-place-cand-1461`，登记为[卢森堡宫地点卡](../../../04-knowledge/units/places/palais-du-luxembourg.md)。哈斯克尔索引 “Luxembourg, Palais du” 指向 p.174；同页称 Marie de Medici 于1611年命 Salomon de Brosse 为她建造一座大型宫殿。索引与正文支持将该段所述新宫映射到该候选。场址上较早的一座宫殿另由 `cand-6683` 表示，身份仍未决，不与新宫合并。未做外部建筑身份、现址或现状核验。
+
+**S5 定向字段：** 新增4条仅由 Haskell 第7章 p.174 line 57 支持的字段：书内索引名、1611年建造委托、与 Palazzo Pitti 的设计比较、未指明原因的工程延迟。保留原文对完成状态、设计细节和内部问题的不确定性。
+
+**S6 逐条裁决：**
+
+| statement_id | 端点与定位 | 决定 |
+|---|---|---|
+| `st-chp7-p174-i24` | Marie de Medici → Palais du Luxembourg；第7章p.174，line 57 | formal，反向存储为 `rel-1280 commissioned_by`（地点→委托人），时间1611；仅记录命人建造，不声称工程完成。 |
+| `st-chp7-p174-i26` | Palais du Luxembourg → Palazzo Pitti；同页同句 | pending。原文只作设计差异比较，当前受控类型没有忠实表达该 place→place 关系的谓词。 |
+| `st-chp7-p174-i27` | Palais du Luxembourg → 未识别的内部问题；同页同句 | pending。来源未把延误原因识别为具体实体或事件，不补造第二端点。 |
+| `st-chp7-p175-i13` | S2 记录为 Ferdinando → Palais du Luxembourg；第7章p.175，line 64 | pending。原文说的是有人建议“为新宫殿准备图画作礼物”，建议者未具名；该句的宫殿端点与未具体表述的图片尚未形成可裁决的受控端点对。先回 S2 修正候选映射，不将建议或拟送图画写成已实现关系。 |
+
+本批共裁决4条直接 S2 候选（1 formal、3 pending、0 rejected），只新增1条正式关系。原文中提及 Salomon de Brosse 不足以把未出现在该 statement 端点对中的人物另造正式边。
+
+**本批后当前状态：** S4已登记1,337/4,805组、1,540/5,029条映射；待登记3,468组／3,489条映射。直接端点待登1,717组／1,717个候选／1,731条组成员映射（person 1/1、institution 90/90、event 101/101、place 223/223、work 319/328、archive 460/465、term 523/523），另有1,751组／1,758条非直接映射。KU=2,357；S6关系表=1,280（1,277 formal、3 pending）；过程记录累计裁决94条S2候选（52 formal、35 pending、7 rejected）。S5字段=11,792，其中1,625条unverified。
