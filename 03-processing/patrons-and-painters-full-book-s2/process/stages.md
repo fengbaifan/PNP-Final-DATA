@@ -13426,3 +13426,12 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 复核此前记录的 `st-chp7-p195-n1-prince-taste-comment`：同一注先以“ibid., pp. 89 and 92”引用 F. Wilhelm，随后才由 Haskell 评论“mondane”及 Prince 的偏好。将引文拆为新 statement `st-chp7-p195-n1-wilhelm-citation`，按独立的书→文章 `cites` 候选处理；原评论保留为 `authorial_interpretation`、`relation_candidate=false`，主语仅保留 Prince 候选，清除文章对象。正文脚注回链同时列出两条statement。
 
 评论原有 S2 真关系分类是误建端点造成的分类错误，现予更正；其判断内容与原始转录保留，包括“curious”及“even in sacred pictures”。并移除 p.194 注2、注4 的内部过程摘要和未出现在脚注中的人物 mentions，保留两条实际 Wilhelm 文献引用及正文回链。p.195 本批增加1条已复核statement，总表改为15,167条，独立复核9,400条。该修正不改变 `relation_candidate=true` 总数（仍为10,403）；不得把评论登记为拒绝的正式关系，也不从S6生成 Prince—Wilhelm 边。原书页图校正 `in.` 的记录保留；本批不独立核验 Wilhelm pp.89、92。
+## 2026-10-20：p.199 既有 statement 的定向语义修正
+
+对照 `CHP-7.pdf` 物理页37复查已在 `s2-coverage.csv` 标为 `reviewed/complete` 的p.199正文与注释记录。此为定向修复，不重复计入独立逐条复核覆盖。
+
+- `st-chp7-p199-shaftesbury-died-before-order` 原将“下令后一个月内去世”误连到未识别的画作。现保留人物 `cand-2426` 为主语、清空作品对象、设 `relation_candidate=false`；陈述仍限于Haskell给出的相对时间，不生成S6图边。
+- `st-chp7-p199-n1-sweetman` 删除脚注claim中的内部背景摘要，并将提及对象收窄为脚注实际引用的 `cand-7268`。页图确认脚注页码为110–116；S0原OCR `no-16` 保留在 `original_quote`，校读留在 `ocr_corrections`。文章题名与1956年出版信息依据第21章书目条目 `st-chp21-bib-l1102-1139-entry-24`，未声称独立查阅该文。
+- `cand-7268` 已有S3 `new` 的archive身份组，但尚无S4 `ku_id`；本次不增正式S6边，脚注引文候选留待关系阶段及端点登记处理。
+
+写后仍为15,167条statement；`relation_candidate=true/false` 从10,403/4,764改为10,402/4,765。段落覆盖与独立复核计数均不变。

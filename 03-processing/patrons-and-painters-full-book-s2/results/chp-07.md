@@ -57,3 +57,6 @@
 以印本物理页44核对p.202。原句明确表达“画家，或至少他们的画作”的替代关系，故保留标量object端点开放及候选`cand-7344`、`cand-7345`，不把二选一写成两条并行事实。补入遗漏的来源城市群提及`m-chp7-p202-v-origin-cities`（候选`cand-12005`，跨度`[1067,1093)`），使该候选与“more richly endowed cities”原文跨度对应。无新增候选、statement、KU或正式关系。
 
 全库12,325 candidates、26,520 mentions、15,128 statements；开放端点460条，分布于164段。严格阶段表审计`errors=[]`、`s2_missing=[]`；关系一致性审计硬错误为0。下一待复核段按书序为第8章p.203 `chp-8:08_CHP-8_sec_i:l3-12`，有1条开放statement。全书S2交接仍未完成。详细判断见[全书过程记录](../process/stages.md)。
+## 2026-10-20：p.199 定向语义修正
+
+复核已覆盖的p.199正文与注释，纠正一项将Shaftesbury去世时间误设为人物—作品关系的statement（改为单主语、非关系断言），并清理Sweetman脚注claim中的内部背景摘要。页图校读仍与原OCR分开保存；该修复不增加S2独立复核覆盖，也未生成S6正式边。详见全书过程记录 `stages.md`。
