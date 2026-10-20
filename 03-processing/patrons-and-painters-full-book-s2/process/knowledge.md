@@ -1,5 +1,22 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-storm-at-sea-20261021"></a>
+
+### S4/S5/S6 work：Claude《A Storm at Sea》直接端点（2026-10-21）
+
+沿用 S3 `new` 身份组 `workgrp-8b74eec6fd2029`，将 `cand-5556` 登记为单成员 work KU [`units/works/a-storm-at-sea-claude-orsini`](../../../04-knowledge/units/works/a-storm-at-sea-claude-orsini.md)。身份范围限于 Haskell 称 Paolo Giordano II 委托 Claude 绘制的《A Storm at Sea》；“或许”旨在说明格言、失佚、*Liber Veritatis* 第33号记录及1638–39可能年代均按 Haskell／其引文归属保留，未独立查阅该研究或图册。S5 从卡片提取4条书内 `source_backed` 字段（原文名称、作者转述的状态、可能年代、图册记录）；来源表无变化。
+
+| S2 statement | S6 决定 | 关系／去向 |
+|---|---|---|
+| `st-chp4-sec-i-l26-33-claude-seascape` | formal | `rel-1367`：作品 `commissioned_by` Paolo Giordano II，证据限第4章 p.97 L29–30。 |
+| `st-chp4-sec-i-l26-33-claude-authored-picture` | formal | `rel-1368`：作品 `created_by` Claude，证据限第4章 p.97 L29–30。 |
+| `st-chp4-sec-i-l26-33-storm-motto-connection` | pending | Haskell 使用 “perhaps”，且格言 term 端点 `cand-5557 尚未 S4 登记`；保留来源推测，不建立正式边。 |
+| `st-chp4-sec-i-l42-67-claude-picture-recorded-in-liber-veritatis` | pending | Haskell 注7转述该记录，但 `cand-5617 尚未 S4 登记`；具体图册条目未核，暂不建立正式边。 |
+
+本批同时按第4章独立复核记录修复 S2 注7 `recorded_in` statement 的印刷页／PDF物理页锚及其与父statement的链接；父statement新增扫描校读 `Rdthlisberger` → `Röthlisberger`，保留原始转录。该修复不增加statement数或独立复核覆盖，也不表示第4章已接收。
+
+批后 S4 已登记1,395/4,803组、1,599/5,028条映射；待登记3,408组／3,429条，其中直接关系端点1,661组／1,675条组成员映射。S5字段12,005条（1,634条 `unverified`）；S6累计逐条裁决207/10,402条（143 formal、55 pending、9 rejected），关系表1,368条（1,365 formal、3 pending）。S2独立复核分子不变；S3决定不变。
+
 <a id="s3-da-canal-bibliographic-identity-locator-separation-20261021"></a>
 
 ### S3 archive：Da Canal《Vita di Gregorio Lazzarini》跨章身份与页码定位（2026-10-21）

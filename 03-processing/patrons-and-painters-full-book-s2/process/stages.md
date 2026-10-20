@@ -13446,3 +13446,9 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 发现 `st-chp7-p199-v-roman-art-reputation` 将“Roman art”错映到城市Rome候选 `cand-4490`。本句指艺术生产领域，与地点“Rome”不同；同一term候选 `cand-4631` 已承载第2章的“Roman art”及第7章p.173同词用例，其S3决定为 `new` 组 `sg3-term-cand-4631`。据此将mention `m-chp7-p199-v-011`改为精确短语“Roman art” `[494,503)`，映射至 `cand-4631`；同步更正statement subject及mentioned-candidate映射，并在既有S3决定理由追加p.199来源锚点。两个明确的Rome城市mention仍映射至 `cand-4490`；另将Maratta、Trevisani两条mention中的旧待S3备注同步为当前 `same` 决定。未增删statement/candidate/mention行数，S3决定及S4/S6记录行数不变。
 
 本段14条按statement ID去重后计入独立复核覆盖：第七章1,023/1,239、全书9,414/15,167（62.1%）。本段接收仅及上述登记段，第七章及全书仍未接收。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l9-18`；后续应优先检查战争开篇续句、政治实体及艺术委托statement的端点类型，不由未具名群体推定个体。
+
+<a id="s2-repair-storm-at-sea-footnote-anchor-20261021"></a>
+
+### S2定向修复：A Storm at Sea 注7定位与校读（2026-10-21）
+
+依第4章独立复核批次六、八的既有问题记录，修复 `st-chp4-sec-i-l42-67-claude-picture-recorded-in-liber-veritatis`：补印刷页 `p.97`、PDF物理页4，并关联复合父statement `st-chp4-sec-i-l42-67-fn97-claude-picture-record`。父statement保留S0／original_quote原转录 `Rdthlisberger`，在 `ocr_corrections` 记录扫描页印作 `Röthlisberger`。本修订只补证据定位、statement关联与校读；statement/candidate/mention行数及S2独立复核覆盖不变，第4章仍未接收。

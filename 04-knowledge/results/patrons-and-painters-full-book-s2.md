@@ -2,6 +2,10 @@
 
 更新日期：2026-10-21。
 
+### S4/S5/S6 work：Claude《A Storm at Sea》直接端点（2026-10-21）
+
+登记既有 S3 新组 `workgrp-8b74eec6fd2029` 的作品候选 `cand-5556`，新增4条 Haskell 书内 `source_backed` 字段。四条直接关系候选逐条裁决为2 formal、2 pending：正式边为作品 `commissioned_by` Paolo Giordano II 与 `created_by` Claude；格言关系因原文仅为“perhaps”且 term 端点未登记而待证；*Liber Veritatis* 第33号记录关系因端点未登记且图册未核而待证。第4章注7 `recorded_in` statement 的页锚、父statement链接及 Röthlisberger OCR校读一并修复；不增加S2覆盖计数，不表示第4章接收。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-storm-at-sea-20261021)。批后 S4 1,395/4,803组、1,599/5,028条映射；S5 12,005条（1,634条 `unverified`）；S6 207/10,402条（143 formal、55 pending、9 rejected），关系表 1,368条（1,365 formal、3 pending）。
+
 ### S4/S5/S6 archive：Mazarin 1961展览图录及两处书内引注（2026-10-21）
 
 沿用 S3 `new` 组 `archive-group-1e3bcedc560c`，将 `cand-7044` 登记为单成员 archive KU `units/archives/mazarin-homme-detat-collectionneur-1961`。身份依据 Haskell 第21章书目（印刷页429）列出的法文题名、纪念展说明、Bibliothèque Nationale、Paris 和1961年；不推定个人作者或出版者身份，图录未独立查阅。S5 提取6条书内 `source_backed` 字段（`enr-15765`–`enr-15770`），来源登记无变化。
@@ -30,9 +34,9 @@ S6 对第6章 p.166 注2和第7章 p.195 注3两条关系候选逐条裁为 form
 
 - **S2：** 内部处理15,167条statement；独立逐条语义复核9,414/15,167（62.1%），尚未接收。333条关系候选至少缺一个S2候选端点ID。
 - **S3：** 12,408/12,408个候选均有现行裁决记录；same 2,025（指向1,092个既有KU）、new 5,028（4,803组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。这表示决定可追溯，不表示未决身份已消除。
-- **S4：** 已登记1,394/4,803组、1,598/5,028条候选映射；待登记3,409组／3,430条映射，直接端点1,662组／1,676条组成员映射，非直接1,747组／1,754条。
-- **S5：** 字段表12,001条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
-- **S6：** 关系表1,366条（1,363 formal、3 pending）；过程记录累计逐条裁决203/10,402条S2关系候选（141 formal、53 pending、9 rejected），其余10,199条待逐项裁决。
+- **S4：** 已登记1,395/4,803组、1,599/5,028条候选映射；待登记3,408组／3,429条映射，直接关系端点1,661组／1,675条组成员映射，非直接1,747组／1,754条。
+- **S5：** 字段表12,005条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
+- **S6：** 关系表1,368条（1,365 formal、3 pending）；过程记录累计逐条裁决207/10,402条S2关系候选（143 formal、55 pending、9 rejected），其余10,195条待逐项裁决。
 - **S7：** 尚未启动；等待 S2 独立语义验收及 S3–S6 收口条件。知识发现与页面工作继续暂停。
 
 ### S2独立复核与S6裁决：第七章脚注段（2026-10-21）
