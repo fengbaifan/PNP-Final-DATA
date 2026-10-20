@@ -16,6 +16,10 @@
 独立核读并接收31条 statement（30条 relation candidate、1条非关系解释）和56条 mention span；修正Da Canal注页、Gennari注引文结构，并补齐von Freeden书名及同注印本校读记录。两条画作组地点陈述在S2保留、S6仅否决人物→地点图谱边，未新增关系表记录。逐条发现与接收依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/s2-independent-review-chp7-notes-20261021.md)及[S6裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-chp7-collective-picture-location-notes-20261021)。段级接收不增加第七章1,009/1,239或全书9,400/15,167分子，待按statement ID去重后归并；第七章整体仍未接收。
 
 
+### S3 archive：Da Canal《Vita di Gregorio Lazzarini》跨章身份（2026-10-21）
+
+`cand-6593` 保留为单成员 `new` archive 组 `archive-group-aa69e7e50bc3`。第21章书目确认作品全名及 Venezia 1809 版；第6、7、9章中的 p.69、pp.71–73、pp.32–33、57、36 是同一作品的引注定位。已从候选规范名移除 locator，并与作者人物候选分开；未核读被引页或外部目录，S4登记及相应S6引注裁决仍待后续批次。决定数量不变。详见[裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-da-canal-bibliographic-identity-locator-separation-20261021)。
+
 ### S4/S5/S6 archive：第3章 Jesuit Archives 引注簇（2026-10-21）
 
 沿用八个既有 S3 new 档案组，补齐8张卡、8条映射及32条原书支持字段，并逐条裁决9条档案引注为 formal cites。Fondo di Gesù, N. 865-18 在两处脚注出现，身份组复用、两条引注分别记录；档案原件与馆藏均未独立核查。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-jesuit-archive-citations-20261021)。批后 S4 为1,388/4,804组、1,592/5,029条映射；S5为11,965条字段（1,634条 unverified）；S6累计裁决187/10,402条（127 formal、53 pending、7 rejected），关系表1,353条（1,350 formal、3 pending）。

@@ -1,5 +1,11 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-da-canal-bibliographic-identity-locator-separation-20261021"></a>
+
+### S3 archive：Da Canal《Vita di Gregorio Lazzarini》跨章身份与页码定位（2026-10-21）
+
+复核 `cand-6593`。第21章书目明确列出 “Canal, Vincenzo da: Vita di Gregorio Lazzarini (1732), Venezia 1809”；第6章 p.166 注2的 p.69、第7章 p.195 注3的 pp.71–73，以及第9章注释中的 pp.32–33、57、36，均为同一出版物的书内定位。`p.69` 不属于作品题名或版次。候选规范名据书目更正，原有 `new` 决定与单成员 `archive-group-aa69e7e50bc3` 保留；不与作者人物候选 `cand-7781` 合并，也不按页码拆组。未查阅外部目录或 Da Canal 原书，页码所载事实不因此视为独立核验。该候选尚未 S4 登记；相关书内引注仍依其 S2 statement 进入 S6 裁决。
+
 <a id="s6-chp7-collective-picture-location-notes-20261021"></a>
 
 ### S6：第7章两条画作组地点脚注（2026-10-21）
