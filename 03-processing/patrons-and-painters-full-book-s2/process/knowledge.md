@@ -8995,3 +8995,39 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批共裁决4条直接 S2 候选（1 formal、3 pending、0 rejected），只新增1条正式关系。原文中提及 Salomon de Brosse 不足以把未出现在该 statement 端点对中的人物另造正式边。
 
 **本批后当前状态：** S4已登记1,337/4,805组、1,540/5,029条映射；待登记3,468组／3,489条映射。直接端点待登1,717组／1,717个候选／1,731条组成员映射（person 1/1、institution 90/90、event 101/101、place 223/223、work 319/328、archive 460/465、term 523/523），另有1,751组／1,758条非直接映射。KU=2,357；S6关系表=1,280（1,277 formal、3 pending）；过程记录累计裁决94条S2候选（52 formal、35 pending、7 rejected）。S5字段=11,792，其中1,625条unverified。
+
+<a id="s4-s5-s6-archive-citation-endpoints-batch-20261020"></a>
+
+### S4/S5/S6 archive：跨章引文端点与三组文献登记（2026-10-20）
+
+**S3 身份合并：** 第15章 p.369 n.4 的 `cand-10535` 与第21章书目 p.417 的 `cand-11271` 原分别处于单成员 archive 组。两处均指向 Bruno Brunelli 1931 年、pp.4–11 的文章；第21章书目印刷页图读出原题 *Un Senatore Veneziano ed una villa scomparsa* 及刊名 *Le Tre Venezie*。据作者、年份、页码和主题的跨章书目锚点，将两候选合并至 `archive-group-1ebd14bced8b`；旧组 `archive-group-a6e90da147b3` 标为被合并，不抹除候选或原决定。文章与该期刊原件未独立查阅。
+
+**S4 去向：** 登记三个既有 `new` 身份组，并将四条候选映射写入同三张 archive KU：
+
+- `cand-5718` → [1621年西蒙·武埃致卡西亚诺书信](../../../04-knowledge/units/archives/letters-from-simon-vouet-to-cassiano-1621.md)。范围仅限哈斯克尔第4章 p.102 n.2 的书内引文；Bottari 与 Demonts 所刊文本未独立查阅。
+- `cand-10475` → [Molmenti《Un nobil huomo veneziano del secolo XVIII》](../../../04-knowledge/units/archives/molmenti-un-nobil-huomo-veneziano-del-secolo-xviii.md)。第15章多处引注与第21章书目条目合组；出版年维持未载，被引文章和页面未查阅。
+- `cand-10535`、`cand-11271` → [Brunelli《Un Senatore Veneziano ed una villa scomparsa》](../../../04-knowledge/units/archives/brunelli-un-senatore-veneziano-ed-una-villa-scomparsa-1931.md)。合并组由两候选共同映射，题名和刊名依据本书第21章书目页图，未将其说成外部核验。
+
+本次 S4 增加3个已登记组、4条映射。`accepted.yml`、manifest 与 alignment 的新增均按该映射一致登记；原组理由及合并路径保留在 alignment 行。
+
+**S5 字段：** 三张卡共有20条 source-backed 书内字段，抽取为 `enr-15568`–`enr-15587`，来源均为 `haskell-1980-rev-ed`。9条已有卡片字段发生的 occurrence/source citation 同步由 `build_field_facts.py --apply` 写回；同步后字段表为11,818条，其中1,634条状态仍为 `unverified`。该数字只反映账表当前状态，不表示这些字段都应通过外部来源升级。未新增外部查阅或外部事实。预检还发现5条已存在知识卡引用未进入`sources.csv`，`build_field_facts.py --apply`仅补登记其source row（Joconde、Internet Archive Bottari卷VI、SIUSA Giovanni Previtali、Wikimedia Commons Bottari卷II、Braidense OPAC）；不把目录记录的登记误称为本批新核验。
+
+**逐条 S6 裁决：** 下列9条 S2 relation candidates 均有直接书内定位且两端 KU 已登记，本批逐条裁为 formal：
+
+| S2 statement | relation | 决定与记录 |
+|---|---|---|
+| `st-chp4-sec-ii-p102-footnote2-vouet-letters` | `cites` | formal，`rel-1284`；Haskell p.102 n.2 指向1621年书信刊本。 |
+| `st-chp4-sec-ii-p102-footnote2-vouet-letters-addressed-to` | `addressed_to` | formal，`rel-1285`；书内明称致 Cassiano。 |
+| `st-chp4-sec-ii-p102-footnote2-vouet-letters-authored-by` | `authored_by` | formal，`rel-1286`；书内明称来自 Vouet。 |
+| `st-chp15-p364-memmo-note4-molmenti-biography` | `cites` | formal，`rel-1287`；p.364 n.4 的书目指引。 |
+| `st-chp15-p367-note4-memmo-friends-citations` | `cites` | formal，`rel-1288`；p.367 n.4，Molmenti pp.143–144。 |
+| `st-chp15-p368-note1-memmo-zaguri-reference` | `cites` | formal，`rel-1289`；p.368 n.1，印刷页读数 pp.137 ff.。 |
+| `st-chp15-p369-note4-cites-brunelli-article` | `cites` | formal，`rel-1290`；p.369 n.4，Brunelli 1931，pp.4–11。 |
+| `st-chp15-p369-note4-brunelli-article-authored-by-brunelli` | `authored_by` | formal，`rel-1291`；作者归属由哈斯克尔报告，并与第21章书目同名条目对应。 |
+| `st-chp15-p369-note4-brunelli-article` | `has_subject` | formal，`rel-1292`；将“讨论并图示 Alticchiero 遗迹”映射为受控文章主题关系，不表示独立查阅文章或核实遗址现状。 |
+
+所有关系均标 `origin=book`，证据指向哈斯克尔对应章节与行。三条书信/文献端点关系保留 Haskell 转引限制；`cites` 仅表示书内引注，不证明被引内容。第15章 p.368 n.1 的 `original_quote` 保持 S0 OCR 原文 `pp. 137 if.`；`qualifiers.ocr_corrections` 另记印刷页读作 `pp. 137 ff.`，避免用校读覆盖转录。
+
+**验证：** `build_field_facts.py --apply` 完成，预检 warnings=0；三卡 `build_cards.py --preview --ku` 均显示预期的关系投影，再逐卡渲染，写后字节核验通过。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence 与 unbaselined generic evidence-backed 均为0。`audit_tables.py --strict-stage --summary` 通过，`errors=[]`、`s2_missing=[]`；仍有 S4 待登记映射及 S2 独立语义审查提示。
+
+**批次后全书状态：** S3 决定覆盖仍为12,408/12,408；`new` 为5,029候选、4,805组。S4 登记1,341/4,805组、1,545/5,029映射；待登记3,464组／3,484映射。直接端点待登1,713组／1,713个端点候选／1,727条成员映射（person 1／1、institution 90／90、event 101／101、place 223／223、work 319／328、archive 456／461、term 523／523），非直接队列1,751组／1,757映射。S6关系表1,292条（1,289 formal、3 pending），逐条裁决累计106条S2候选（64 formal、35 pending、7 rejected）。这些候选裁决仍不等于10,401条关系候选全部收口。
