@@ -2,7 +2,7 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,311组、映射1,513条成员候选；尚待登记3,494组、3,515条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮独立逐条复核覆盖9,363/15,163条statement（61.8%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,312组、映射1,514条成员候选；尚待登记3,493组、3,514条映射。
 
 ### S4 archive：六组直接文献端点登记（2026-10-20）
 
@@ -22,6 +22,12 @@ S4 更新为已登记1,311/4,805组、1,513/5,028条候选映射；待登记3,49
 ### S6：两个术语端点关联的七条候选裁决（2026-10-20）
 
 本批对第2、5、6章7条两端 KU 已登记的 S2 关系候选逐条裁决，7条均为 pending：候选有直接来源锚点，但当前受控关系类型和值域不能表达 person/term 或 term/term 组合，且其中起源、客群判断带 Haskell 的推断限定。无 formal 边或新增关系类型；`relations.csv` 未改动。逐条去向与理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-seven-term-endpoint-candidates-20261020)。
+
+### S4 work：密西西比画廊壁画装饰方案（2026-10-20）
+
+沿用既有 S3 `new` 组 `workgrp-ac7a28ee4bbeb5`，登记 cand-8964 为[佩莱格里尼为密西西比画廊创作的壁画装饰方案](../units/works/pellegrini-mississippi-gallery-fresco-programme.md)。第10章 pp.284–285 将对象描述为为 Banque Royale 内 Mississippi Gallery 制作的装饰方案／壁画组；本书未给作品原题，名称保持描述性，Royal glorification、商业寓意及 Système 崩溃后的毁损均按 Haskell 原文限定。本批登记一张 work KU 和一条候选映射；不新增外部身份或 S5 字段。
+
+对该对象关联的4条 S2 关系候选逐条记录 S6 pending：一条是任务委派而非受控的创作者／委托边；两条记载方案内容与指示，但当前无对应端点组合和受控类型；一条把壁画毁损与金融方案崩溃相连，当前无受控时间限定毁损关系，且 cand-8966 指向金融方案 term、不是“崩溃”事件。本批未新增 formal 边或类型，`relations.csv` 未改动。S4 已登记1,312/4,805组、1,514/5,028条映射，待登记3,493组／3,514条；直接关系端点待登记1,741组／1,741个候选／1,755条成员映射，其中 work 为326组／335成员；非直接队列1,752组／1,759条映射；KU=2,331。S6 已在过程记录中逐条裁决11条 S2 候选，11条均为 pending。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-work-mississippi-gallery-programme-20261020)及[四条裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-four-mississippi-gallery-candidates-20261020)。
 
 ### S3 same／S4 place：Palazzo Pitti 复用与圣母小堂登记（2026-10-20）
 
@@ -66,7 +72,7 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 
 | 产物 | 当前规模／状态 |
 |---|---|
-| [KU 登记](../tables/ku-manifest.csv) | 2,330 KU；新组登记与待登记分类型统计见下表 |
+| [KU 登记](../tables/ku-manifest.csv) | 2,331 KU；新组登记与待登记分类型统计见下表 |
 | [实体候选](../tables/entity-candidates.csv) | 12,408 candidates（新增 Callot《La Fiera dell'Impruneta》版画 work 候选；含直接关系端点候选 Luigi Pavini、Alessandro Farnese 公爵与 Paul Bonnefon） |
 | [提及账本](../tables/mentions.csv) | 26,627 mentions |
 | [原书断言及关系候选](../tables/book-statements.jsonl) | 15,163 statements；relation_candidate true 10,400、false 4,763、unset 0 |

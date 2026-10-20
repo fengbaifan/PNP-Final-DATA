@@ -8590,3 +8590,28 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 | st-chp6-p147-outsider-secretary-of-state | Innocent X person → Secretary of State term | 第6章 p.147 L14 | pending。外来任职者未具名，任命主体亦未由被动句明示；当前两端不是完整的任命主体—任命对象关系。|
 
 七条均保留 pending，未新增 formal 边或关系类型，`relations.csv` 不变。每条候选及理由已与原 S2 statement 锚点逐一对应；相关两张术语卡同步列出状态。本批仅解决 S6 裁决记录，不把未收录关系误记为事实，也不扩大关系模型。
+
+<a id="s4-work-mississippi-gallery-programme-20261020"></a>
+
+### S4 work：密西西比画廊壁画装饰方案（2026-10-20）
+
+**S3 决定沿用：** cand-8964 属于既有 `new` 组 `workgrp-ac7a28ee4bbeb5`，本批不新增或合并身份组。对照现有 work KU 及 manifest，未发现同对象卡片。
+
+**来源与作品边界：** 第10章 p.284 L174–176 记 Pellegrini 被安排装饰 Banque Royale 内的 Mississippi Gallery；p.285 L179 将任务内容表述为颂扬国王与摄政及银行利益，L180 称相关壁画在 Système 崩溃后不久毁损。cand-8964 将 p.284 的 programme mention 与 p.285 的 frescoes mention 合为同一来源定义的装饰方案／壁画组。原文未给作品题名，卡片采用描述性暂名；未补充外部身份、实施细节、具体毁损日期或馆藏现状。
+
+**S4 登记：** 新增 work 卡 `units/works/pellegrini-mississippi-gallery-fresco-programme`、1条 KU manifest、1条候选映射及1个 accepted 路径。`aln-9137`（cand-8964）映射到该 KU，`process_ref` 指向本记录。4条相关候选为 `st-chp10-p284-pellegrini-mississippi-commission`、`st-chp10-p284-mississippi-programme-open`、`st-chp10-p285-french-gallery-inscription`、`st-chp10-p285-fresco-destruction-after-systeme-collapse`。
+
+<a id="s6-four-mississippi-gallery-candidates-20261020"></a>
+
+### S6：密西西比画廊装饰方案关联的四条候选（2026-10-20）
+
+逐条核对 S2 statement、p.284–285 原文与已登记端点，并按 `01-domain/relation-domain-range.yml` 评估受控关系类型：
+
+| statement_id | 映射端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| st-chp10-p284-pellegrini-mississippi-commission | Giovanni Antonio Pellegrini person → 装饰方案 work | 第10章 p.284 L174–176 | pending。来源说 Pellegrini 被安排承担装饰任务；当前受控类型没有委派任务 person→work 关系，不能改写为已完成创作的 `creator_of`。|
+| st-chp10-p284-mississippi-programme-open | Giovanni Antonio Pellegrini person → 装饰方案 work | 第10章 p.284 L175–176，续第285页 | pending。候选表达方案的王权颂扬与商业寓意；现有关系类型不能把该复合内容判断表述为 person→work 正式边。|
+| st-chp10-p285-french-gallery-inscription | Giovanni Antonio Pellegrini person → 装饰方案 work | 第10章 p.285 L179 | pending。来源引述方案指示，但当前没有能表达该指示语义的 person→work 关系类型；不得将引文改写成正式委托或创作事实。|
+| st-chp10-p285-fresco-destruction-after-systeme-collapse | 装饰方案 work → John Law’s Système financial scheme term | 第10章 p.285 L180 | pending。来源报告壁画在该金融方案崩溃后不久毁损；当前没有受控的时间限定毁损关系，且 cand-8966 指向金融方案 term、不是“崩溃”事件，term KU 也尚未登记。|
+
+四条均留作 pending；未新增 formal 边、关系类型或 `relations.csv` 行。S4 只解决 cand-8964 的作品端点；S6 关系语义限制和术语端点仍保留在本记录。
