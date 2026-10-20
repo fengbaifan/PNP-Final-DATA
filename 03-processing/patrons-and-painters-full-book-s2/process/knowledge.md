@@ -8804,3 +8804,21 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批登记2个既有 S3 new 身份组、2张 KU 卡及2条候选映射；S6裁决6条候选（6 formal、0 pending、0 rejected），写入2条 formal 关系。未新增 S5 字段或外部身份核验。
 
 **本批后当前状态：** S4 已登记1,324/4,806组、1,527/5,029条成员映射；待登记3,482组／3,502条映射。直接关系端点待登记1,729组／1,729个候选／1,742条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 468／472、term 525／525），另有1,753组／1,760条非直接映射。KU共2,344；S6关系表1,264条（1,262 formal、2 pending），过程记录累计裁决58条S2候选（30 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
+
+<a id="s4-s6-cross-chapter-archive-missirini-1823-20261020"></a>
+
+### S4/S6 archive：Missirini《罗马圣卢卡学院史料》（1823）跨章引注（2026-10-20）
+
+**S3→S4 身份去向：** `cand-6361` 沿用既有 `new` 组 `archive-group-6225553c89ea`，登记为[archive KU](../../../04-knowledge/units/archives/missirini-memorie-roman-academy-1823.md)。第21章 p.430 书目逐字列出原题、书目署名和 Roma 1823；第1章 p.17、18及第6章 p.150 的三条脚注与该书目项对应。未查阅原书或所引页，不补写出版者、版本或外部身份。人物候选 `cand-3538` 仍保持其现行 S3 `undecided` 决定；本批只处理出版物身份与 `cites` 候选，不新建人物端点或 author 关系。
+
+**S6 逐条裁决：** 三条 S2 候选均为 Haskell 对该出版物的直接引注，主端点均映射至既有 Haskell archive KU；两端 archive 类型符合 `cites` 域值。第1章两条引注共用 `rel-1265`，第6章引注记录为 `rel-1266`，按源文件分行保留定位。
+
+| statement_id | 原书定位 | S6 去向与理由 |
+|---|---|---|
+| `st-chp1-secii-p17-n5-missirini-pp81-87` | 第1章 p.17 n.5，L712；引 pp.81、87 | formal，`rel-1265` `cites`。脚注明确指向 Missirini；被引页未查阅。 |
+| `st-chp1-secii-p18-n2-cites-missirini-p115` | 第1章 p.18 n.2，L755；引 p.115 | formal，同为 `rel-1265`。印本说明下一注转第6章；本批只记录该注的书目引文。 |
+| `st-chp6-notes-l132-p150-n3` | 第6章 p.150 n.3，L132；引 p.116 | formal，`rel-1266` `cites`。脚注明确指向 Missirini；不据此核验原书内容。 |
+
+本批登记1个既有 S3 new 身份组、1张 KU 卡及1条候选映射；S6裁决3条候选（3 formal、0 pending、0 rejected），写入2条 formal 关系；补入7条 Haskell 书目／脚注直接支持的结构字段，未新增外部身份核验。
+
+**本批后当前状态：** S4 已登记1,325/4,806组、1,528/5,029条成员映射；待登记3,481组／3,501条映射。直接关系端点待登记1,728组／1,728个候选／1,741条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 467／471、term 525／525），另有1,753组／1,760条非直接映射。KU共2,345；S6关系表1,266条（1,264 formal、2 pending），过程记录累计裁决61条S2候选（33 formal、23 pending、5 rejected）。S5字段表11,738条、其中1,625条unverified。
