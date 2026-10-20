@@ -9176,3 +9176,37 @@ S6 本批覆盖16条候选，5条 formal 合并为3条边，11条 pending；没�
 | `st-chp14-p347-note1-edition-published-in-venice` | pending | 不写入formal关系表 | Haskell直接记载Venice为出版地，但当前域值域表没有出版地谓词；`located_at`表达物理位置，不能替代出版地关系。 |
 
 批后S4为已登记1,365/4,804组、1,569/5,029条候选映射；待登记3,439组／3,460条映射，其中直接关系端点1,691组／1,705条组成员映射，非直接队列1,748组／1,755条映射。S5为11,868条字段、1,634条 `unverified`。S6逐条裁决累计156/10,402条（96 formal、53 pending、7 rejected）；关系表1,322条（1,319 formal、3 pending），均有有效 `source_id`。S2复核与全书验收状态不变。
+
+
+<a id="s4-s5-s6-chp14-algarotti-correspondence-20261020"></a>
+### S4/S5/S6 archive：第14章四封书信身份组与关系裁决（2026-10-20）
+
+沿用现有S3 new决定登记四个archive身份组；没有改写S3身份判断，也没有新增外部身份或版本核验。
+
+| candidate_id | alignment_id / S3组 | S4映射 |
+|---|---|---|
+| cand-10274 | aln-10446 / archive-group-edf4ca5b9775 | units/archives/algarotti-letter-to-mariette-1751-02-13 |
+| cand-10357 | aln-10527 / archive-group-edae4831f8d5 | units/archives/letter-to-girolamo-curli-1751-11-20 |
+| cand-10363 | aln-10533 / archive-group-b3f0e0f49cac | units/archives/letter-from-berlin-to-bonomo-1750-08-13 |
+| cand-10375 | aln-10545 / archive-group-e7a5c0d382ef | units/archives/letter-to-prospero-pesci-1759-09-28 |
+
+Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年2月13日的信；Opere, VW, pp. 15–40按S0 OCR转录原样保留，不推测改成VIII。Curli信p.357注1明示收信人、日期及A. Neri 1885刊布信息，且脚注连接p.356–357“Algarotti写信给意大利熟人寻求热那亚建筑版画”的正文。Bonomo信p.357注4明示自Berlin致Bonomo、1750年8月13日及Campori 1866 p.201；其作者关系由同页“Algarotti委托Pannini并请Bonomo保管画作”的正文与脚注连接。Pesci信p.357注7明示致Pesci、1759年9月28日及Opere, VHI, pp. 89–100；其作者关系由Algarotti的Canaletto大运河景观委托叙述与脚注连接。以上三条语境作者归属只表达Haskell书内叙事，不表示独立查阅信件原件；VW与VHI均未经页图校勘或版本核实。四卡均用描述性暂题，文献出版、馆藏和实物状态不外推。
+
+四卡新增21条 source_backed 字段：Mariette 5条（enr-15638–enr-15642）、Curli 5条（enr-15643–enr-15647）、Bonomo 6条（enr-15648–enr-15653）、Pesci 5条（enr-15654–enr-15658）。build_field_facts.py --apply 预检 warnings=0、无重复occurrence，来源登记无变化；S5 unverified保持原数。
+
+八条S2关系候选逐项裁为formal并写入 relations.csv：
+
+| statement_id | 证据与决定 | 关系记录 |
+|---|---|---|
+| st-chp14-p351-note2-letter-authored-by-algarotti | p.351 n.2直接称“Algarotti’s letter to Mariette”；formal authored_by。 | rel-1323 |
+| st-chp14-p351-note2-letter-addressed-to-mariette | 同注明示Mariette为收信人；formal addressed_to。 | rel-1324 |
+| st-chp14-p357-note1-letter-authored-by-algarotti | p.356 L105–p.357 L108正文称Algarotti写信给意大利熟人索取热那亚建筑版画，p.357 n.1链接Curli信；formal authored_by，限定为Haskell语境归属。 | rel-1325 |
+| st-chp14-p357-note1-letter-addressed-to-curli | p.357 n.1明示收信人和日期；formal addressed_to。此前S4记录留待S6，本批在端点登记后裁决。 | rel-1326 |
+| st-chp14-p357-note4-letter-authored-by-algarotti | p.357 L109–110将委托与请Bonomo保管画作归于Algarotti，n.4链接致Bonomo信；formal authored_by，限定为Haskell语境归属。 | rel-1327 |
+| st-chp14-p357-note4-letter-addressed-to-bonomo | p.357 n.4明示收信人；formal addressed_to。 | rel-1328 |
+| st-chp14-p357-note7-letter-authored-by-algarotti | p.357 L113的Canaletto大运河景观委托叙述与n.7的Pesci书信引用相连；formal authored_by，限定为Haskell语境归属。 | rel-1329 |
+| st-chp14-p357-note7-letter-addressed-to-pesci | p.357 n.7明示收信人和日期；formal addressed_to。 | rel-1330 |
+
+写入后四张卡均经 build_cards.py --preview 检视，定点 --render 预检通过并完成4张卡渲染，21条字段与8条关系投影均按表重建、写后字节核验通过。audit_tables.py --strict-stage --summary：errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run：broken target、invalid relation type、missing inverse、weak evidence及未基线generic evidence-backed均为0。检查不构成对原信、刊本或被引版本的独立验收。
+
+本批后：S4已登记1,369/4,804组、1,573/5,029条候选映射；待登记3,435组／3,456条映射，其中直接端点1,687组／1,701条组成员映射，非直接队列1,748组／1,755条映射。S5为11,889条字段、1,634条 unverified。S6逐条裁决累计164/10,402条（104 formal、53 pending、7 rejected）；关系表1,330条（1,327 formal、3 pending），来源ID齐备。S2复核状态不变。
