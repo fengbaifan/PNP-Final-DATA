@@ -105,4 +105,11 @@ English: This card represents the sole S3 candidate cand-0040 and the index form
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本卡身份依据见对应S3记录；已正式记录的收信关系列于下表。其他S2关系候选仍须按端点与具体证据分别审查。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [阿尔加罗蒂致博诺莫的特雷维索书信汇集（Large Treviso Collection of Letters from Algarotti to Bonomo）](../archives/algarotti-bonomo-correspondence-collection-treviso.md) | S2 statement: st-chp14-p349-note1-collection-addressed-to-bonomo.；角色：addressee across the described correspondence；范围：Haskell identifies Bonomo as the recipient of letters in the collection; no complete item-level inventory is claimed.；原断言与证据见发出端卡片“阿尔加罗蒂致博诺莫的特雷维索书信汇集（Large Treviso Collection of Letters from Algarotti to Bonomo）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；line 174; print p. 349 n. 1 |
+| ← 为收信人（`addressee_of`，反向投影） | [Francesco Algarotti 致 Bonomo 的书信（1741年9月5日）（Letter from Francesco Algarotti to Bonomo, 5 September 1741）](../archives/algarotti-letter-to-bonomo-1741-09-05.md) | S2 statement: st-chp14-p350-note1-letter.；时间：5 September 1741；角色：addressee；范围：Haskell’s note identifies Bonomo as the recipient and gives the date; the manuscript was not independently consulted.；原断言与证据见发出端卡片“Francesco Algarotti 致 Bonomo 的书信（1741年9月5日）（Letter from Francesco Algarotti to Bonomo, 5 September 1741）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；line 178; print p. 350 n. 1 |

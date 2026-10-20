@@ -93,17 +93,17 @@ S6候选 `st-chp7-p199-n1-sweetman` 裁为 formal `cites`，记录关系 `rel-13
 
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| archive | 2,100 | 90 | 1,241 / 1,298 | 0 | 18 | 694 | 143 / 192 | 1,098 / 1,106 |
+| archive | 2,100 | 90 | 1,239 / 1,298 | 0 | 18 | 694 | 157 / 207 | 1,082 / 1,091 |
 | event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 77 / 81 | 154 / 154 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
-| institution | 497 | 180 | 186 / 197 | 0 | 0 | 120 | 28 / 39 | 158 / 158 |
-| person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 800 / 900 | 269 / 271 |
-| place | 1,110 | 230 | 558 / 568 | 0 | 0 | 312 | 51 / 61 | 507 / 507 |
+| institution | 496 | 180 | 185 / 196 | 0 | 0 | 120 | 34 / 45 | 151 / 151 |
+| person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 802 / 902 | 267 / 269 |
+| place | 1,110 | 230 | 558 / 568 | 0 | 0 | 312 | 52 / 62 | 506 / 506 |
 | procedure | 43 | 10 | 29 / 31 | 0 | 0 | 2 | 29 / 31 | 0 / 0 |
-| term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 51 / 63 | 877 / 877 |
+| term | 1,642 | 43 | 929 / 941 | 0 | 2 | 656 | 52 / 64 | 877 / 877 |
 | work | 2,396 | 238 | 476 / 495 | 5 | 29 | 1,629 | 71 / 80 | 405 / 415 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,024** | **4,806 / 5,029** | **9** | **100** | **5,246** | **1,338 / 1,541** | **3,468 / 3,488** |
+| **合计** | **12,408** | **2,024** | **4,804 / 5,029** | **9** | **100** | **5,246** | **1,362 / 1,566** | **3,442 / 3,463** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -115,7 +115,7 @@ S6候选 `st-chp7-p199-n1-sweetman` 裁为 formal `cites`，记录关系 `rel-13
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-20）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,246项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向，其中622项未分类候选仍待类型证据；未分类类型共665项，另含43项S1明确排除。按候选级裁决汇总，12,408个候选均有现行决定；same=2,024（指向1,092个既有KU）、new=5,029（4,806个身份组）。S4已登记1,318组／1,521条映射，待登记3,488组／3,508条成员映射；其中直接关系端点待登记1,735组／1,735个端点候选、共含1,748条组成员映射（person 2组／2成员、institution 90组／90成员、event 101组／101成员、place 225组／225成员、work 321组／330成员、archive 471组／475成员、term 525组／525成员），非直接映射待登记1,753组／1,760条。S2有10,401条 `relation_candidate=true` statement，其中333条至少一端没有候选ID（仅缺subject 43、仅缺object 218、两端均缺72）。字段表共11,731条，其中1,625条unverified。S6关系表有1,253条记录（1,251 formal、2 pending）；截至本批，过程记录累计逐条裁决34条S2候选（12 formal、20 pending、2 rejected）。以上为决定记录与映射状态，不表示冲突、待证身份或关系已整体解决。
+当前快照（2026-10-20）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,246项 `undecided` 保留对象、版本、身份、类型或来源锚点不足的理由与后续去向，其中622项未分类候选仍待类型证据；未分类类型共665项，另含43项S1明确排除。12,408个候选均有现行决定：same=2,024（指向1,092个既有KU）、new=5,029（4,804个身份组）、conflict=9、excluded=100、undecided=5,246。S4已登记1,362/4,804组、1,566/5,029条成员映射；待登记3,442组／3,463条成员映射，其中直接关系端点待登记1,694组／1,708条成员映射，非直接队列1,748组／1,755条。S2有10,402条 `relation_candidate=true` statement，其中333条至少一端没有候选ID（仅缺subject 43、仅缺object 218、两端均缺72）。字段表共11,859条，其中1,634条unverified。S6关系表1,318条（1,315 formal、3 pending）；截至当前，过程记录累计逐条裁决149/10,402条S2候选（92 formal、50 pending、7 rejected）。以上为决定记录与映射状态，不表示冲突、待证身份或关系已整体解决。
 
 <a id="s3-s4-alazard-strozzi-cross-type-batch-20261019"></a>
 
@@ -8770,7 +8770,7 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 |---|---|---|
 | `cand-1978` | `new`，与 `cand-4516` 共用 `workgrp-34f3401379b60d`，S4映射至[保罗三世墓卡](../../../04-knowledge/units/works/paul-iii-tomb-st-peters-basilica.md) | P.csv#180索引子目；第2章 p.41正文提及与第4章 p.104回指。|
 | `cand-4516` | 沿用 `new` 组 `workgrp-34f3401379b60d`，同上登记 | 第2章 p.41直接提及；第4章 p.104跨章参照。|
-| `cand-4520` | `new`，组号改为 `sg3-place-cand-4520`；待 S4 登记 | 第2章 p.42称为左后殿建筑空间；与右侧壁龛区分。|
+| `cand-4520` | `new`，组号 `sg3-place-cand-4520`，已映射至[后殿左侧壁龛卡](../../../04-knowledge/units/places/st-peters-left-apse-niche-paul-iii.md) | 第2章 p.42称为左后殿建筑空间；与右侧壁龛区分。|
 
 **S2 定点修订：** `st-chp2-secii-l118-125-paul-iii-tomb-attributed-to-guglielmo` 的宾语从错误索引候选 `cand-1978` 改为人物 `cand-1977`。第4章 p.104 两条 statement 的 `original_quote` 保留与 S0 OCR 一致的 “Paul Ill’s”，以满足引用行与来源逐字对照；qualifier 明示扫描印本读作 “Paul III’s”。来源 OCR 本体未改。
 
@@ -8784,6 +8784,8 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 | `st-chp4-sec-ii-l53-63-cassiano-urban-tomb-report` | Urban VIII 墓 work → 保罗三世墓 work；第4章 p.104 L54–56，Cassiano 1647年嵌套比较 | rejected as graph edge。该句保留为 S2 引述与声誉比较，不建立墓葬之间的持续二元关系。|
 
 本批将1条候选由 `undecided` 改为 `new`，并修正1条候选类型；S4登记保罗三世墓工作组的2条成员映射，壁龛 place 组仍待登记。S6新增4条逐条裁决（3 formal、1 rejected），写入2条正式关系 `rel-1252`–`rel-1253`；未新增S5字段或外部身份记录。三张受影响卡片经构建器定点预览、写回及字节核验。
+
+**S4交接复核（2026-10-20）：** `cand-4520` 的 place 卡已存在于 `accepted.yml` 与 `ku-manifest.csv`，并承载 `rel-1253` 的反向投影；但 alignment 行仍为空 `ku_id`，当前决定表也仍标作待登记。现补齐其 S4 映射，不新建 KU、不改 S3/S6 决定。
 
 ### S4：第六章拉特朗改建与宗徒之椅直接端点批次（2026-10-20）
 
@@ -9054,6 +9056,8 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 
 **S3 身份合并：** 第15章 p.369 n.4 的 `cand-10535` 与第21章书目 p.417 的 `cand-11271` 原分别处于单成员 archive 组。两处均指向 Bruno Brunelli 1931 年、pp.4–11 的文章；第21章书目印刷页图读出原题 *Un Senatore Veneziano ed una villa scomparsa* 及刊名 *Le Tre Venezie*。据作者、年份、页码和主题的跨章书目锚点，将两候选合并至 `archive-group-1ebd14bced8b`；旧组 `archive-group-a6e90da147b3` 标为被合并，不抹除候选或原决定。文章与该期刊原件未独立查阅。
 
+**S3组号交接复核（2026-10-20）：** 上述合并已记录于过程和 `cand-10535` 的 alignment 行，但 `cand-11271` 的现行 `group=` 字段仍残留被合并的旧组号。现统一为 `archive-group-1ebd14bced8b`；保留旧组被取代的说明，候选仍为 `new`，S4仍映射到同一 archive KU。
+
 **S4 去向：** 登记三个既有 `new` 身份组，并将四条候选映射写入同三张 archive KU：
 
 - `cand-5718` → [1621年西蒙·武埃致卡西亚诺书信](../../../04-knowledge/units/archives/letters-from-simon-vouet-to-cassiano-1621.md)。范围仅限哈斯克尔第4章 p.102 n.2 的书内引文；Bottari 与 Demonts 所刊文本未独立查阅。
@@ -9130,3 +9134,25 @@ S6 本批覆盖16条候选，5条 formal 合并为3条边，11条 pending；没�
 | `st-chp10-p299-note2-avogaria-dispute-account` | formal | `rel-1312` 同边第二来源跨度；仅记录 Haskell 称 Civil 263/16 有争端记录，未查阅该档案。 |
 
 三条 formal 关系均以 `haskell-1980-rev-ed` 为来源，具体章页／行定位保存在 `relations.csv`。本批没有 S5 新字段；书内未核实的档案、职位规则、未具名作品和制度细节仍不作外部事实声称。S2 qualifiers 对 `st-chp8-p219-negri-san-rocco-picture`、`st-chp15-p365-padua-authorities-request-fair-assistance`、`st-chp15-p366-padua-offers-memmo-ancestor-statue` 作定向澄清，未改 statement 数、关系候选数或独立复核覆盖。
+
+<a id="s4-s5-s6-treviso-algarotti-correspondence-20261020"></a>
+
+### S4/S5/S6 archive 与 institution：Algarotti—Bonomo 特雷维索书信簇（2026-10-20）
+
+**S3→S4：** 沿用4个既有 `new` 身份组，各登记一张KU：`cand-11497`大型特雷维索书信汇集、`cand-10259`其中来自巴黎的1734–1736年书信子集、`cand-10265`1741年9月5日致Bonomo的单封书信，以及`cand-10251`原书称作Archivio Comunale in Treviso的机构。机构和文书均只按Haskell的书内称谓记录；描述性卡名不声称正式档案系列名，MSS. 1256及当前馆藏未独立核查。没有把1741年信件推定为巴黎子集或大型汇集的组成部分。
+
+**S5：** 新增10条 `source_backed` 字段（archive 8、institution 2）。字段保存文献类型、日期范围、书内地点用语、档案引注与书信内容摘要；重复的作者、收信人、合集归属与保管位置由关系表表达，不另设字段副本。新增字段均以Haskell第14章p.348–350为依据；没有外部馆藏或手稿核验。
+
+**S6逐条裁决：**
+
+| statement_id | 端点与来源 | 裁决 |
+|---|---|---|
+| `st-chp14-p349-note1-bonomo-paris-letters` | 巴黎书信子集→Paris；p.349 n.1 L174 | pending。`originated_from`不在当前受控谓词中；`located_at`会把写作／寄发地点混作保管或物理位置，不强行替代。保留原文“from Paris”的来源用语。|
+| `st-chp14-p349-note1-paris-letters-part-of-collection` | 巴黎书信子集→大型特雷维索书信汇集；p.349 n.1 L174 | formal `part_of`，`rel-1313`。来源明确指出该子集属于所述大型汇集。|
+| `st-chp14-p349-note1-collection-authored-by-algarotti` | 大型书信汇集→Francesco Algarotti；p.349 n.1 L174 | formal `authored_by`，`rel-1314`。记录书内描述的发信人范围。|
+| `st-chp14-p349-note1-collection-addressed-to-bonomo` | 大型书信汇集→Bonomo Algarotti；p.349 n.1 L174 | formal `addressed_to`，`rel-1315`。记录书内描述的收信人范围。|
+| `st-chp14-p349-note1-collection-held-in-archivio` | 大型书信汇集→Archivio Comunale in Treviso；p.349 n.1 L174 | formal `located_at`，`rel-1316`。矩阵允许archive→institution，但该谓词仍标记 `needs_split`；scope严格限定为Haskell的书内馆藏地点报告，不表示当前持有状态或已识别档案系列。|
+| `st-chp14-p350-note1-letter` | 1741年书信→Bonomo Algarotti；p.350 n.1 L178 | formal `addressed_to`，`rel-1317`。|
+| `st-chp14-p350-note1-letter-authored-by-algarotti` | 1741年书信→Francesco Algarotti；p.350 L36及注1 L178 | formal `authored_by`，`rel-1318`。正文代词指向Algarotti，脚注1将信件日期及收信人连至同一引文；手稿未独立查阅。|
+
+本批新增6条formal关系、1条pending决定。relations.csv增至1,318条（1,315 formal、3 pending）；累计逐条裁决149/10,402条S2关系候选（92 formal、50 pending、7 rejected）。批后S4已登记1,362/4,804组、1,566/5,029条映射，待登记3,442组／3,463条映射；直接端点队列为1,694组／1,708条成员映射。S5字段表11,859条、其中1,634条仍为 `unverified`。结构审计与卡片预检只确认机械一致，不表示手稿、馆藏或全书关系已独立验收。
