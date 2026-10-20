@@ -2,6 +2,18 @@
 
 更新日期：2026-10-20。
 
+<a id="s4-s5-s6-sweetman-last-commission-20261020"></a>
+
+### S4/S5/S6 archive：Sweetman《Shaftesbury’s last commission》及第7章引文（2026-10-20）
+
+沿用S3 `new` 身份组 `archive-group-719ab0e9117e`，将候选 `cand-7268` 登记为一张 archive KU：[《沙夫茨伯里最后一项委托》（Shaftesbury’s last commission）](../../04-knowledge/units/archives/sweetman-shaftesbury-last-commission-1956.md)。身份依据限于 Haskell 第21章书目 p.437 与第7章 p.199 注1；文章内容和所引页均未独立查阅。原作者仅以 `Sweetman, J. E.` 署名记录，现有证据不足以映射到具体人物KU或建立 `authored_by` 关系。
+
+S5增加7条 `source_backed` 书目字段（文献类型、书目责任者形式、原题、期刊、出版年、文章页码、书内引注），均由 Haskell 书目及注1支持，不代表外部核验。p.199 注1 OCR `no-16` 保留为原始引句；页图读作 `110-16`，并与书目页码校读互证为 pp. 110–116。
+
+S6候选 `st-chp7-p199-n1-sweetman` 裁为 formal `cites`，记录关系 `rel-1303`（《赞助人与画家》→本文）；`archive → archive` 通过域值域矩阵。证据仅是 Haskell 明确的书内引用，不据此采纳或验证被引文章内容。关系视图已预览并写入发出端与接收端卡片。
+
+本批后S4已登记1,348/4,805组、1,552/5,029条映射；待登记3,457组／3,477条映射，其中直接关系端点1,708组／1,722条成员映射，非直接队列1,749组／1,755条映射。KU共2,368。S5字段11,832条、1,634条 `unverified`。S6关系表1,303条（1,300 formal、3 pending）；过程记录累计逐条裁决120/10,402条S2候选（75 formal、38 pending、7 rejected）；`source_id`缺失0。
+
 <a id="s4-s6-pintard-book-cross-chapter-citations-20261020"></a>
 
 ### S4/S6 archive：Pintard《Le libertinage érudit》及第4章跨章引文（2026-10-20）
