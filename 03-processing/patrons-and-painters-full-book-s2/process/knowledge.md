@@ -9418,3 +9418,17 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp7-p200-v-paolo-canvases-for-daun-palace` | `cand-1581` Paolo de Matteis（S4已登记）→ `cand-7300` 未识别画布组（`undecided`） | `pending`：画布组未识别，无法建立作品端点；不推定单件作品或归属。 |
 
 四项均有当前决定和理由，但相关事实未形成formal关系。S4待登记直接端点队列因 `cand-7296` 新增关系角色而重算为1,662组／1,662个直接候选／1,677条组成员映射。本批后S6累计逐条裁决211/10,406条（143 formal、59 pending、9 rejected），尚有10,195条未逐项裁决；关系表仍为1,368条（1,365 formal、3 pending）。
+
+
+<a id="s6-chp7-p201-pozzo-ceiling-and-summons-20261021"></a>
+
+### S6：第七章 p.201 Pozzo 天顶画与受召候选（2026-10-21）
+
+以下两条候选分别裁为 `pending`。尚无formal关系写入 `relations.csv`：
+
+| statement_id | 端点与现行状态 | S6决定及理由 |
+|---|---|---|
+| `st-chp7-p201-v-pozzo-garden-palace-ceiling-1704` | `cand-7320`（作品组，S3 `new`，S4未登记）→ `cand-2033`（Andrea Pozzo，S4已登记） | `pending`：作品端点尚无KU；来源只说Pozzo于1704年“开始”绘画，未说明完成。S4登记后再判断受控关系类型与是否足以表达创作，不提前断言完整作品归属。 |
+| `st-chp7-p201-v-pozzo-summoned-by-emperor` | `cand-2033`（Andrea Pozzo，S4已登记）→ `cand-4531`（未具名皇帝，S3 `undecided`） | `pending`：皇帝身份未决，来源未给召见时间或目的；不将召见改写成正式委托。 |
+
+两条statement均有具体p.201原书跨度；S6 `pending` 仅表示当前无法形成formal图谱边，不否定来源陈述。作品候选 `cand-7320` 已在S4直接端点队列，因此本批不改变其规模。批后S6累计逐条裁决213/10,407条（143 formal、61 pending、9 rejected），尚余10,194条；关系表仍为1,368条（1,365 formal、3 pending）。

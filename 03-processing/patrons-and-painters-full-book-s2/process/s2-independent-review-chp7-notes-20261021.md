@@ -56,3 +56,19 @@
 S3现行决定将32a作品、Ribera和Roomer分别复用至 `units/works/ribera-the-drunken-silenus`、`units/persons/ribera` 和 `units/persons/gaspar-roomer`；32b的图版作品候选 `cand-4071` 与p.198正文候选 `cand-7245` 均映射至 `units/works/paolo-de-matteis-the-choice-of-hercules`，Paolo de Matteis与Shaftesbury也各自复用既有人物KU。故更正32b qualifier中过时的“later alignment／no identity merge”表述及Roomer旧 mention note；不改变S3决定或身份组。Silenus `cand-4161` 与Hercules `cand-4162` 仍为类型／身份待决，未强制分类。
 
 两条作者归属候选已存在匹配的formal `created_by` 关系（`rel-0948`、`rel-0866`），本批不复制关系行；图版caption作为来源证据是否并入现有边，随S6核对证据范围。两条“painted for”候选不升级为委托或所有权，且受控谓词是否足以准确表达该措辞仍待S6裁决；两个神话人物subject候选因端点类型／KU未决也待S6处理。本批不新增或删除statement、mention或relation记录，S4登记不变；S2逐条复核计数增加6条至第七章1,061/1,243、全书9,452/15,171（62.3%）。本段复核不表示第七章或全书接收。下一游标为p.201 `chp-7:07_CHP-7_sec_v:l42-55`，随后p.202 `l57-60`及p.200脚注 `l62-76`。
+
+
+## 第七章 p.201 正文 S2 独立语义复核
+
+对照 `CHP-7.pdf` 物理页43（印刷p.201）复核 `chp-7:07_CHP-7_sec_v:l42-55`。原段37条statement经复核后为38条，97条mention；36条为关系候选、2条为非关系判断。mention跨度由表审计对照登记文本核对。现存OCR文本未回写；已记录的印本校读继续保存在各statement的 `ocr_corrections`。
+
+| Statement／对象 | 发现与处理 |
+|---|---|
+| `st-chp7-p201-v-italian-commanders-furnish-palaces` | 作为p.200高意大利裔军官句的续句，补充 `continuation_of_statement_id` 与反向关联。对本段“their”两处指代（`[11,16)`、`[53,58)`）新增mention，均指回 `cand-7303` 指代的同一军官群；不扩大为具名个人。 |
+| `st-chp7-p201-v-eugene-no-interest-in-venetian-manner` | claim仅保留Eugene“似乎”不关注较轻盈的Venetian风格；将同句中许多Venetian画家赴Vienna为其他赞助人工作的内容与既有statement互链，避免重复复述。风格term不与画家群等同。 |
+| `st-chp7-p201-v-pozzo-garden-palace-ceiling-1704`、`st-chp7-p201-v-pozzo-summoned-by-emperor` | 将“Pozzo受皇帝召见”与“1704年开始绘制Liechtenstein园邸大厅天顶”拆成两条原子statement。前者主语为Andrea Pozzo `cand-2033`，对象为未具名皇帝 `cand-4531`；后者对象为S3 `new` 的未识别作品候选 `cand-7320`，不声称完成或正式委托。两者共享原书局部引文并互链。 |
+| 其他第七章p.201 statements | 核对Eugene的意大利／奥地利忠诚比较、赞助判断、收藏散佚、绘画与雕塑群、Martinelli建筑及Vienna文化语境；保留作者评价、群体范围和“开始/意图”状态，不将集合叙述扩成未证实的个人作品或完成委托。既有 `Bologna¹`、`fine arts`、`Galli-Bibiena` 等校读不改写S0。 |
+
+Pozzo ceiling与summons两条关系候选分别裁为S6 `pending`：作品候选尚未登记为KU；皇帝候选仍是S3 `undecided`，且来源不明示召见的时间和目的。没有新formal边，S4直接端点队列计数不变（`cand-7320`此前已在队列）。全书关系候选数增至10,407，缺S2候选端点仍335；S6累计裁决213/10,407（143 formal、61 pending、9 rejected），尚余10,194。S3决定记录与S5字段数不变。
+
+本段38条按statement ID去重后计入统一复核：第七章1,099/1,244、全书9,490/15,172（62.5%）。第七章及全书仍未接收。下一段为p.202 `chp-7:07_CHP-7_sec_v:l57-60`，随后核对p.200脚注 `l62-76`。

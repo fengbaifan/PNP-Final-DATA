@@ -13467,3 +13467,10 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 按同一PDF物理页42合并复核常规OCR段 `chp-7:07_CHP-7_sec_v:l39-40` 与视觉转录段 `chp-7:07_CHP-7_sec_v_visual-transcription:l3-3`：共6条statement、8条mention，全部span精确。确认两条caption的作品、作者归属、图像主题及“painted for”原书范围；将32b仍待身份对齐的旧 qualifier 和 Roomer／Shaftesbury mention 状态更新为当前S3 same决定。`cand-4071` 与p.198正文 `cand-7245` 已同指既有作品KU；Silenus、Hercules仍待类型／身份判断。匹配创作者关系已有formal边 `rel-0948`、`rel-0866`，本次不生成重复行；两条painted-for与两条iconographic-subject候选留待S6按受控谓词和端点分别处理。无statement、mention、S3、S4或relations.csv行数变化。
 
 本段按statement ID去重后计入逐条语义复核：第七章1,061/1,243、全书9,452/15,171（62.3%）。下一游标为p.201 `chp-7:07_CHP-7_sec_v:l42-55`。详细语义记录见 [S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p200-plate-32a32b-图版簇-s2-语义复核)。
+
+
+### 2026-10-21：第七章 p.201 正文 S2 语义复核与 S6 pending
+
+按来源顺序对照 CHP-7.pdf 物理页43复核 `chp-7:07_CHP-7_sec_v:l42-55`。原37条statement在拆分Pozzo“受召”与“开始绘制天顶画”后为38条；mention从95条补至97条，加入两处指向p.200高意大利裔军官群的精确代词span。Eugene对Venetian风格的无兴趣判断与“其他画家在Vienna工作”分开并互链；其他claim保留原作者限定和未完成状态。无新候选或S3决定；`cand-7320`已属直接端点队列，S4队列不变。
+
+Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关系裁决](knowledge.md#s6-chp7-p201-pozzo-ceiling-and-summons-20261021)。本段计入后S2独立复核为第七章1,099/1,244、全书9,490/15,172（62.5%）；关系候选10,407，缺S2端点335；S6逐项决定213/10,407（143 formal、61 pending、9 rejected）。下一段为p.202 `chp-7:07_CHP-7_sec_v:l57-60`，随后检查p.200脚注。
