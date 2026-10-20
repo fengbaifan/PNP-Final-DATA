@@ -8531,3 +8531,13 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 - 新增其他五条已精确核对的 mention：m-chp8-p216-cand-12057-swiss-descriptor（“Swiss”[228,233)，映射给 st-chp8-p216-storer-described-as-swiss 与 st-chp8-p216-storer-selection-and-background）；m-chp8-p216-cand-7646-experiment-picture（“one picture for the site as an experiment”[1276,1317)，映射给 st-chp8-p216-magni-experimental-commission）；m-chp8-p216-cand-7647-one-of-pictures（“one of the pictures”[1523,1542)）和 m-chp8-p216-cand-7647-four-more（“four more”[1609,1618)），两者映射给 st-chp8-p216-cocchi-five-pictures；m-chp8-p216-cand-7639-decoration（“the decoration”[3251,3265)，映射给 st-chp8-p216-first-decoration-stage-complete-1659）。
 
 核验：六个新增 span 均逐字符等于登记来源段的对应切片；Mention 总数由26,621增至26,627。cand-12057、cand-7646、cand-7647、cand-7640、cand-7639 既有候选身份/类型和对齐决定未变；cand-12367 的既有 mention 只增加了 statement 回链。p.216 剩余断言端点和类型问题仍待按阶段记录修订；本次不据 mention 回链推定正式关系。
+
+<a id="s3-s4-place-pitti-madonna-chapel-20261020"></a>
+
+### S3 same 与 S4 place：Palazzo Pitti 复用及圣母小堂登记（2026-10-20）
+
+**S3 复用：** `cand-1949` 原为单成员 `new` 组 `sg3-place-cand-1949`，身份锚点是索引 “Pitti Palace” 及第7章 p.174 的 “Palazzo Pitti”。现有地点 KU `units/places/palazzo-pitti` 的规范名同为 Palazzo Pitti，且属于同类型地点；第2章对 Guido Bentivoglio 肖像“now in the Pitti”、第7章对 Palazzo Pitti 图纸的请求与第8章的 “Pitti, No. 75” 均与该地点相符。故将候选决定从 `new` 修正为 `same`，映射至既有 KU；记录原 `new` 组作为历史，不新增卡、manifest 或 accepted 路径。4条直接 S2 statement 为 `st-chp2-seciv-l190-245-portrait-location-and-date`、`st-chp7-p174-i25`、`st-chp7-p174-i26`、`st-chp8-p241-cagnacci-picture-at-pitti-75`。这只确认地点身份复用，关系仍须 S6 审查。
+
+**S4 新登记：** `cand-5348` 沿用 S3 身份组 `sg3-place-cand-5348`，登记为 `units/places/chapel-of-the-madonna-s-andrea-al-quirinale`，即原书所称 S. Andrea al Quirinale 内“that dedicated to the Madonna”的小堂。第3章印刷页88、来源行122–124支持其为最后装饰的一处小堂、1691年耶稣会文书的评价、Ottoboni接手与Pamfili继承人保留并后来行使的装饰变更权。正式名称未给出，故使用描述性名称；与主教堂、主礼拜堂和圣方济各·沙勿略小堂分立。未加外部身份或补足字段。
+
+该卡新增1条 KU manifest、1条候选映射及1个 accepted 路径。`st-chp3-seciv-l118-128-heirs-reserved-and-exercised-right-to-change-decor`、`st-chp3-seciv-l118-128-jesuit-document-complained-affatto-rustica`、`st-chp3-seciv-l118-128-madonna-chapel-last-to-be-adorned`、`st-chp3-seciv-l118-128-ottoboni-took-over-madonna-chapel`仍待S6逐条裁决；其中两条另一端尚无KU，不据新卡转为formal。没有改动 S2 statement、mention 或 `relations.csv`。现 S3 same=2,024、new=5,028/4,805组；S4登记1,303/4,805组、1,505/5,028条映射，待登记3,502组/3,523条；直接关系端点待登记1,750组/1,750候选/1,764成员映射，非直接待登记1,752组/1,759条映射；KU=2,322。
