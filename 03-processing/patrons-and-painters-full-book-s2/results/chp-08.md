@@ -92,3 +92,7 @@ p.204物理页2中，“the arts”是“Naples lawyers”支持行为的明确�
 对照物理页27，为Haskell访问Buonaccorsi收藏的第一人称报告补入主体`cand-9423`，并添加“I”的精确mention `m-chp8-p225-n9-haskell-visit-author`（跨度`[3560,3561)`）。收藏对象`cand-7765`不变；该记录属于作者自述，不是独立复查。本段端点关闭，无新增candidate、KU或正式关系。
 
 当前全库12,350 candidates、26,554 mentions、15,129 statements；开放端点432条（仅缺object 272、仅缺subject 56、两端皆缺104），分布于158段。严格阶段审计`errors=[]`、`s2_missing=[]`；关系一致性硬错误为0。下一待复核项为`st-chp8-p238-note4-pictures-at-pisa-cabinet`（p.238注4）。全书S2交接仍未完成。详见[全书过程记录](../process/stages.md)。
+
+## 2026-10-20：Plate 33 候选提及回补
+
+当前表核对发现图版页覆盖为 `reviewed/complete`，但迁移计划中的7条候选 mention 未写入 `mentions.csv`。现按第8章印刷页15和既有候选/statement 映射补录7条精确跨度；未更改候选、statement 或 S3/S6决定。严格审计后全书 mentions=26,634、`errors=[]`。详见[过程记录](../process/stages.md#s2-repair-ch8-plate33-mentions-20261020)。

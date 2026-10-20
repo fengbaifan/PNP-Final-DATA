@@ -13381,3 +13381,21 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 独立复核6条 statement，5条关系候选有原文支持，1条候选不应转成图谱关系；未发现需修改的 statement claim。当前该 segment 在 `mentions.csv` 中没有 mention 行，但 statement qualifiers 引用 cand-4099、cand-4163、cand-4164、cand-3884、cand-3925、cand-3949、cand-3935 共7个候选；补入逐字跨度并复核前不接收。OCR “Soumena”暂保留，复核记录印本图版读作“Solimena”；题注没有“formerly at Palazzo Buonaccorsi”字样。
 
 记录后第八章统一复核为482/1,462条；下一游标 L41–43 Plate 34。章节未接收。
+
+<a id="s2-repair-ch8-plate33-mentions-20261020"></a>
+
+## 第八章 Plate 33 候选提及回补（2026-10-20）
+
+对照 `CHP-8.pdf` 物理页15图版页图及已分段来源 `chp-8:08_CHP-8_sec_ii:l37-39`，发现该段覆盖虽为 `reviewed/complete`，但 `mentions.csv` 中缺少迁移计划列出的7条候选提及。六条对应 statement 已包含这些候选 ID，候选行均存在，来源文件SHA与 `segments.jsonl` 一致；因此只补 mention 映射，不改 statement、candidate、S3决定或关系候选状态。
+
+| mention_id | candidate | 原文表面 | 精确跨度 |
+|---|---|---|---|
+| `m-chp8-pl33a-work` | `cand-4099` | `Dido and Aeneas` | `[22,37)` |
+| `m-chp8-pl33a-creator` | `cand-3884` | `Soumena` | `[13,20)` |
+| `m-chp8-pl33a-dido` | `cand-4163` | `Dido` | `[22,26)` |
+| `m-chp8-pl33a-aeneas` | `cand-4164` | `Aeneas` | `[31,37)` |
+| `m-chp8-pl33b-gallery` | `cand-3925` | `gallery of the Palazzo Buonaccorsi` | `[45,79)` |
+| `m-chp8-pl33b-palace` | `cand-3949` | `Palazzo Buonaccorsi` | `[60,79)` |
+| `m-chp8-pl33b-city` | `cand-3935` | `Macerata` | `[81,89)` |
+
+原文提及保持OCR字面形式 `Soumena`；页图确认印刷名为 `Solimena`，此校读仍留在S2限定说明，不改写S0来源。局部预检确认7个ID及跨度无冲突，之后补录。`audit_tables.py --strict-stage --summary` 通过：mentions由26,627增至26,634，`errors=[]`、`s2_missing=[]`；S2 statements仍为15,164条，coverage仍按已完成迁移登记。此项是局部表修复，不构成章节独立验收或整体S2接收。

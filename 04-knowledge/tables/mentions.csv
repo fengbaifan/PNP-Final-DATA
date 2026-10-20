@@ -27294,3 +27294,10 @@ m-chp8-p216-cand-7647-one-of-pictures,chp-8:08_CHP-8_sec_ii:l21-35,cand-7647,one
 m-chp8-p216-cand-7647-four-more,chp-8:08_CHP-8_sec_ii:l21-35,cand-7647,four more,1609,1618,The additional four pictures requested from Cocchi.
 m-chp8-p216-cand-7640-magnifico-consiglio,chp-8:08_CHP-8_sec_ii:l21-35,cand-7640,Magnifico Consiglio del Consorzio,2473,2506,Named committee/council in the account of the commission.
 m-chp8-p216-cand-7639-decoration,chp-8:08_CHP-8_sec_ii:l21-35,cand-7639,the decoration,3251,3265,The decoration whose first stage is reported complete by 1659.
+m-chp8-pl33a-work,chp-8:08_CHP-8_sec_ii:l37-39,cand-4099,Dido and Aeneas,22,37,Plate 33a work caption; reuses the work candidate already anchored in the List of Plates.
+m-chp8-pl33a-creator,chp-8:08_CHP-8_sec_ii:l37-39,cand-3884,Soumena,13,20,The S0 OCR reads Soumena; CHP-8.pdf physical p.15 confirms printed Solimena. Keep the source surface and correction in S2.
+m-chp8-pl33a-dido,chp-8:08_CHP-8_sec_ii:l37-39,cand-4163,Dido,22,26,Named mythological figure in the captioned work title; no event claim is inferred.
+m-chp8-pl33a-aeneas,chp-8:08_CHP-8_sec_ii:l37-39,cand-4164,Aeneas,31,37,Named mythological figure in the captioned work title; no event claim is inferred.
+m-chp8-pl33b-gallery,chp-8:08_CHP-8_sec_ii:l37-39,cand-3925,gallery of the Palazzo Buonaccorsi,45,79,"Plate 33b names an architectural gallery space, separate from its parent palace."
+m-chp8-pl33b-palace,chp-8:08_CHP-8_sec_ii:l37-39,cand-3949,Palazzo Buonaccorsi,60,79,Named as the parent building of the gallery space.
+m-chp8-pl33b-city,chp-8:08_CHP-8_sec_ii:l37-39,cand-3935,Macerata,81,89,Printed location in the Plate 33b caption.
