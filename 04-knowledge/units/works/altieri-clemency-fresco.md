@@ -43,16 +43,16 @@ sources:
 ### 名称
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 描述性暂题 | 阿尔蒂耶里宫主厅《仁慈》寓意天顶壁画 / Altieri Palace Principal Hall Ceiling Fresco Depicting Clemency | 第4章 p.118；第6章 p.161 |
+| 描述性暂题 | 阿尔蒂耶里宫主厅《仁慈》寓意天顶壁画 / Altieri Palace Principal Hall Ceiling Fresco Depicting Clemency | S1；第4章 p.118；S2；第6章 p.161 |
 
 ### 基本信息
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 作品类型 | 天顶壁画（fresco） | 第6章 p.161 |
-| 题材 | 女性仁慈寓意像 | 第6章 p.161 |
-| 所在空间 | 阿尔蒂耶里宫主厅天顶 | 第6章 p.161 |
-| 创作者归属 | Haskell 记述 Carlo Maratta 为受选创作者；本卡未作独立归属核验 | 第6章 p.161 |
-| 图像志咨询 | Haskell 记述 Maratta 曾咨询 Bellori；不据此新增正式关系 | 第6章 p.161 |
+| 作品类型 | 天顶壁画（fresco） | S2；第6章 p.161 |
+| 题材 | 女性仁慈寓意像 | S2；第6章 p.161 |
+| 所在空间 | 阿尔蒂耶里宫主厅天顶 | S2；第6章 p.161 |
+| 创作者归属 | Haskell 记述 Carlo Maratta 为受选创作者；本卡未作独立归属核验 | S2；第6章 p.161 |
+| 图像志咨询 | Haskell 记述 Maratta 曾咨询 Bellori；不据此新增正式关系 | S2；第6章 p.161 |
 
 ### 本章相关内容
 第4章 p.118 将该装饰与教皇克雷芒十世名字的双关联系起来，并称其成为欧洲宫廷艺术的范本；这是 Haskell 的历史解释与影响判断。第6章 p.161 描写仁慈形象的构图和光照，也把壁画置于晚17世纪罗马艺术的语境中。
