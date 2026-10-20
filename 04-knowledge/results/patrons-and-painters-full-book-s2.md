@@ -2,11 +2,15 @@
 
 更新日期：2026-10-20。
 
-**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；统一计入口径的独立逐条复核覆盖9,394/15,164条statement（61.9%），第七章1,008/1,238、第八章482/1,462，均未接收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,029（4,806个身份组）、conflict=9、excluded=100、undecided=5,246（含622项类型未决）。S4 已登记1,321组、映射1,524条成员候选；尚待登记3,485组、3,505条映射。
+**当前状态：全书 S2 语义处理已完成，尚未独立语义验收；统一计入口径的独立逐条复核覆盖9,394/15,164条statement（61.9%），第七章1,008/1,238、第八章482/1,462，均未接收；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,029（4,806个身份组）、conflict=9、excluded=100、undecided=5,246（含622项类型未决）。S4 已登记1,322组、映射1,525条成员候选；尚待登记3,484组、3,504条映射。
 
 ### S4/S6：第六章拉特朗改建与宗徒之椅（2026-10-20）
 
 登记三张直接关系端点 KU 卡；对11条 S2 关系候选逐项裁决，5条 statement 映射到3条 formal 关系（`rel-1254`–`rel-1256`），另有3条 pending、3条 rejected。完整端点、证据与理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch6-lateran-apostles-chair-20261020)。
+
+### S4/S6 archive：Röthlisberger 与 Mahon 的跨章引注（2026-10-20）
+
+登记 `cand-4371` 的新 archive 组；`cand-4577` 已复用既有两卷本 archive 卡，不另建卷I卡。七条 S2 引注候选均裁决为 formal，映射到六条 `cites` 记录 `rel-1257`–`rel-1262`；仅记录书目引用，不验证被引页内容。完整证据、范围和理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-cross-chapter-archive-citations-20261020)。
 
 ### S6：关系表45条来源ID回补（2026-10-20）
 
@@ -271,7 +275,7 @@ Cimaroli 索引候选 cand-0758–cand-0764 现统一 same → [Giovanni Battist
 
 复核人物候选 cand-1013（Farsetti, Tommaso Giuseppe）：第8章 p.235n 的 T. G. Farsetti、第14章 p.347n 的 T. G. Farsetti 与第15章 pp.362n、364 的全名及1720–91相互对应；Treccani DBI 支持该身份，并列出其1778年家族史。该候选保留 new-person:farsetti-giuseppe-tommaso-339a4db213 的独立 new 决定，现登记为[托马索·朱塞佩·法尔塞蒂人物卡](../units/persons/tommaso-giuseppe-farsetti.md)。现有 Filippo Farsetti 人物 KU 与 Farsetti family KU 分别是不同人物和集体对象；cand-10443 是独立 archive 新组 archive-group-ca70d9ac8f95，不与作者人物合并。9条关系候选仍待 S6；第8章转引不作为独立核验的天花描述。
 
-复核 archive 候选 cand-4577（Claude Lorrain—The Paintings，1961）：第2、4、6、7章的引文及第21章书目项指向同一两卷本出版物；INHA 与 Folger 目录将作者全名定为 Marcel Röthlisberger，并区分 vol.1 critical catalogue 与 vol.2 illustrations。保留 archive-group-4f5f75670a57 为 new archive 组，待 S4。候选标题中的 vol. I 是所引页码定位；不与 Claude Lorrain 人物 KU 或其1968年绘画作品集混合。4条关系候选仍待 S6；书目身份不验证具体引文内容。
+复核 archive 候选 cand-4577（Claude Lorrain—The Paintings，1961）：第2、4、6、7章引文及第21章书目指向同一两卷本；INHA 与 Folger 目录记录作者 Marcel Röthlisberger，并区分卷I目录与卷II图版。archive-group-4f5f75670a57 已登记到[既有两卷本archive KU](../units/archives/claude-lorrain-paintings-1961.md)；候选中的vol. I作为页码定位保留，不另建卷I卡，也不与 Claude Lorrain 人物或其1968年绘画作品集混合。四条引注候选现已formal，详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-cross-chapter-archive-citations-20261020)；书目身份不验证具体引文内容。
 
 复核 event 候选 cand-6051：第5章将 S. Salvatore in Lauro 描述为十二月循环展览，第8章记录同一地点的1704年展览。保留 sg3-event-cand-6051 为“系列”身份；1675、1697 和 1701 年展览候选分别保持独立新事件，其中 cand-11942 未证明属于十二月系列；1708 年相似展览 cand-11783 仍待证。S. Giovanni Decollato 系列和其1675年展览不合并；修道院回廊位置 cand-6053 保持 undecided。5条关系候选仍待 S6。
 
@@ -1830,12 +1834,6 @@ S4 当前登记580组/725条映射，待登记4,219组/4,250条；KU总数1,599�
 `cand-4553`登记为Fraschetti 1900年 *Il Bernini*，对应第1、2、5章及书目中的同一书目身份；`cand-4554`登记为Haskell第2章引述的1633年1月8日Avviso。原件与刊本未独立查阅，未推定Cardinal Borghese的名字。发现cand-4554已有mentions锚点但无S2主客体关系行；本次在过程记录保留该缺口，未新增正式边。
 
 S4 当前登记582组/727条映射，待登记4,217组/4,248条；KU总数1,601。
-
-### S4 archive：Röthlisberger《Claude Lorrain—The Paintings》（2026-10-17）
-
-`cand-4577`（`archive-group-4f5f75670a57`）登记为1961年两卷本书目身份，对应[archive KU](../units/archives/claude-lorrain-paintings-1961.md)。第21章书目给出题名、责任者缩写、卷数和出版项；第2、4、6、7章引文与INHA AGORHA记录共同支持书目身份，后者列作者全名Marcel Röthlisberger。只在原文明确标注时记录卷I页码；未标卷的引文不强行分册。10条直接S2陈述中4条关系候选仍待S6；书目登记不验证页内事实。
-
-S4 当前登记583组/728条映射，待登记4,216组/4,247条；KU总数1,602。
 
 ### S4 archive：Mancini《Considerazioni sulla Pittura》1956年版（2026-10-17）
 

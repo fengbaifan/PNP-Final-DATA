@@ -128,4 +128,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有本任务新增的正式关系。直接 S2 关系候选 `st-chp6-notes-l156-p156-n1-1`、`st-chp6-p162-n1-cite`、`st-chp7-p172-n4-cite-rothlisberger` 与 `st-chp7-p182-n5-cite-rothlisberger` 留待S6复核；其余书目引文只作本卡的身份与定位依据。
+四条直接 S2 引注候选均已裁决为 formal `cites`，归入三条关系记录：第6章 p.156 n.1（p.374，未标卷）→ `rel-1257`；第6章 p.162 n.1（第369页；S2记录页图读作卷I，S0 OCR为“s”）→ `rel-1258`；第7章 p.172 n.4 与 p.182 n.5（均明标卷I）→ `rel-1259`。这些边只表示 Haskell 的书目引注，不表示被引页已查阅或其内容已核实。逐条引文、端点与理由见[本批 S6 裁决](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-cross-chapter-archive-citations-20261020)。
+
+All four direct S2 citation candidates have formal `cites` outcomes, mapped to three relation records: Ch. 6, p. 156 n. 1 (p. 374, volume unmarked) → `rel-1257`; Ch. 6, p. 162 n. 1 (p. 369; S2 records the page image as volume I while S0 OCR reads “s”) → `rel-1258`; Ch. 7, p. 172 n. 4 and p. 182 n. 5 (both explicitly volume I) → `rel-1259`. These edges record Haskell’s bibliographic references only; the cited pages were not read or verified. See the [S6 process record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-cross-chapter-archive-citations-20261020) for evidence and reasons.
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 statement: st-chp6-notes-l156-p156-n1-1; bibliographic locator only；角色：第6章脚注书目引文；范围：Haskell注1引用第374页；该注未标卷，关系端点保持为两卷本出版物。仅记录引注，不表示被引页已阅读或核验。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；line 156; print p.156 n.1; cited p.374, volume unmarked |
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 statement: st-chp6-p162-n1-cite; OCR/image-reading difference retained in S2；角色：第6章脚注书目引文；范围：Haskell注1引用第369页。S0 OCR为“s”，S2记录页图读作卷I；本关系只记录书目定位，不表示被引页已阅读或核验。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 48; print p.162 n.1; S2 records scan reading vol. I, p.369 |
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 statements: st-chp7-p172-n4-cite-rothlisberger; st-chp7-p182-n5-cite-rothlisberger；角色：第7章卷I脚注书目引文；范围：Haskell两条脚注均明确标注1961年出版物卷I，分别引第155–160页和第274页。仅记录引注，不表示被引页或被转述的Claude记录已独立核验。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；lines 305, 347; print pp.172 n.4, 182 n.5; vol. I locators |

@@ -8758,3 +8758,27 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批写入 `relations.csv` 三条 formal 记录 `rel-1254`–`rel-1256`。十一条 S2 候选现均有去向：formal 5、pending 3、rejected 3；其中正式边由五条 statement 支持。关系与卡片均保留来源和端点边界；未新增 S5 字段、外部身份或关系类型。
 
 **本批后当前状态：** S4 已登记1,321/4,806组、1,524/5,029条成员映射；待登记3,485组／3,505条映射。直接关系端点待登记1,732组／1,732个候选／1,745条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 471／475、term 525／525），另有1,753组／1,760条非直接映射。KU共2,341；S6关系表1,256条（1,254 formal、2 pending），过程记录累计裁决45条S2候选（17 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
+
+<a id="s4-s6-cross-chapter-archive-citations-20261020"></a>
+
+### S4/S6：跨章文献引注端点登记与裁决（2026-10-20）
+
+**S4 端点处理：** `cand-4371` 沿用既有 S3 `new` 组 `archive-group-c26a1f0044e3`，登记为[《Studies in Seicento art and theory》archive KU](../../../04-knowledge/units/archives/mahon-studies-seicento-art-theory-1947.md)。第21章书目给出题名、D. Mahon、London 与1947年；第1、2、4章注释提供同一书的引注。责任者保留原文缩写，不补全姓名，也不声称查阅被引页。
+
+`cand-4577` 的 S3 组 `archive-group-4f5f75670a57` 已登记为[1961年两卷本 archive KU](../../../04-knowledge/units/archives/claude-lorrain-paintings-1961.md)，本批复用该 set-level 端点，不再另建卷I知识元。四条关系候选均指向这一出版物；卷I仅作为明确标注或S2校读确认的引用定位保留，未标卷的第374页不强行分卷。
+
+**S6 逐条结果：** 核对七条 statement 的原书引句、candidate 映射与 `cites` 的 archive → archive 域值。全部是 Haskell 对出版物的直接书目引注，判为 formal；被引页内容仍未核实。`cand-4577` 的四条 statement 对应三条来源文件记录；`cand-4371` 的三条 statement 分属三份来源文件记录。
+
+| statement_id | 映射端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| `st-chp6-notes-l156-p156-n1-1` | Haskell book archive → Claude Lorrain 两卷本 archive | 第6章 p.156 n.1，L156 | formal，`rel-1257` `cites`。引第374页但本注未标卷；端点保留为两卷本出版物。|
+| `st-chp6-p162-n1-cite` | Haskell book archive → Claude Lorrain 两卷本 archive | 第6章 p.162 n.1，L48 | formal，`rel-1258` `cites`。S0 OCR作“s”，S2记录页图读作卷I；只保留书目定位，不核验被引内容。|
+| `st-chp7-p172-n4-cite-rothlisberger` | Haskell book archive → Claude Lorrain 两卷本 archive | 第7章 p.172 n.4，L305 | formal，`rel-1259` `cites`。脚注明标卷I及 pp.155–160。|
+| `st-chp7-p182-n5-cite-rothlisberger` | Haskell book archive → Claude Lorrain 两卷本 archive | 第7章 p.182 n.5，L347 | formal，同为 `rel-1259`。脚注明标卷I第274页；同文件同端点不重复建边。|
+| `st-chp1-secii-p17-n4-mahon-p157-191` | Haskell book archive → Mahon 1947 archive | 第1章 p.17 n.4，L711 | formal，`rel-1260` `cites`。引 pp.157–191；只记录定位。|
+| `st-chp2-seci-l124-157-cite-agucchi-mahon` | Haskell book archive → Mahon 1947 archive | 第2章第1节 n.2，L141 | formal，`rel-1261` `cites`。引 pp.111–154；只记录定位。|
+| `st-chp4-sec-ii-notes-p114-fn1-cite-mahon` | Haskell book archive → Mahon 1947 archive | 第4章 p.114 n.1，L291 | formal，`rel-1262` `cites`。S2记载页图 pp.144 ff.、OCR“if.”；只记录定位。|
+
+本批写入六条 formal `cites` 记录 `rel-1257`–`rel-1262`，裁决七条 S2 候选（7 formal、0 pending、0 rejected）。没有新增外部来源、S5字段或知识类型；关系证据仅证明原书引注。
+
+**本批后当前状态：** S4 已登记1,322/4,806组、1,525/5,029条成员映射；待登记3,484组／3,504条映射。直接关系端点待登记1,731组／1,731个候选／1,744条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 470／474、term 525／525），另有1,753组／1,760条非直接映射。KU共2,342；S6关系表1,262条（1,260 formal、2 pending），过程记录累计裁决52条S2候选（24 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
