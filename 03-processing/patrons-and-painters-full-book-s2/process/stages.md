@@ -2,7 +2,7 @@
 
 
 
-任务 ID：`patrons-and-painters-full-book-s2`。全书S2内部语义处理已覆盖832个规范段并完成阶段交接，尚未独立语义验收；S3已为12,407个候选记录当前身份决定与去向，S4 KU登记处理中。当前数量和未决项见[全书结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)与[S3过程统计](knowledge.md#按类型决定数)；S5补足和S6关系裁决尚未全书收口。
+任务 ID：`patrons-and-painters-full-book-s2`。全书S2内部语义处理已覆盖832个规范段并完成阶段交接，尚未独立语义验收；S3已为12,408个候选记录当前身份决定与去向，S4 KU登记处理中。当前数量和未决项见[全书结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)与[S3过程统计](knowledge.md#按类型决定数)；S5补足和S6关系裁决尚未全书收口。
 
 
 
@@ -5903,7 +5903,7 @@ L1049原文为`Rinehart, S.: See also Haskell and Rinehart.`，目标与已审�
 | L1124–1125 | cand-11172 | Sotheby’s展览出版物《An Exhibition of Old Master Drawings…》，Plymouth 1979；补全p.401 pp.31–32候选，与Sotheby’s机构cand-9307区别 |
 | L1126 | cand-10882 | Luigi Spezzaferro《La cultura del Cardinal Del Monte…》，Storia dell’Arte, 1971, pp.57–92；补全p.397 note 11出版物记录，不据此独立验证Haskell对文章的转述 |
 | L1127 | cand-11435 | G. Spini《Ricerca dei libertini》，Roma 1950；新建记录，与人物cand-6375及另一Spini/Limentani出版物cand-6377分开 |
-| L1128–1129 | cand-6395 | Jacob Spon与George Wheler《Voyage d’Italie . . .》，2卷，La Haye 1724；补全既有卷I定位，保留书名中的间隔省略号 |
+| L1128–1129 | cand-6395 | Jacob Spon与George Wheler《Voyage d’Italie . . .》，2卷，La Haye 1724；补全既有卷I定位，保留书名中的间隔省略号 |；新增两条 `authored_by` S2 关系候选（st-chp21-bib-l1128-spon-authored-by、st-chp21-bib-l1128-wheler-authored-by），均据书目责任者形式记录，尚未独立复核。
 | L1130 | cand-7867 | K. Steinbart《Die Gemalten Schwänke des Pfarrers Arlotto》，Pantheon 1936, pp.233–234；复用既有记录 |
 | L1131 | cand-7030 | C. Sterling《Gentileschi in France》，Burlington Magazine 1958, pp.112–120；复用既有记录 |
 | L1132 | cand-7048 | L. Stone《The market for Italian art》，Past and Present 1959, pp.92–94；复用既有记录 |

@@ -56,9 +56,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** 第8章 p.241 称1706年展览在该院名义支持下举办，费迪南德患病后学院回到此前的不活跃状态。第10章 p.330 注3称Vasari的Life记载佛罗伦萨Accademia di Disegno的形成，作为跨章身份锚点。展览候选 st-chp8-p241-academy-organized-exhibition 及书目候选 st-chp10-p330-n03-vasari-life 仍待S6；相关对端仍未全部登记。
+**中文：** 第8章 p.241 称1706年展览在该院名义支持下举办，费迪南德患病后学院回到此前的不活跃状态。第10章 p.330 注3称 Vasari 的 Life 记载佛罗伦萨 Accademia di Disegno 的形成；该文献已登记为独立 archive，书目主题关系见 `rel-1293 has_subject`。展览候选 `st-chp8-p241-academy-organized-exhibition` 的对象 `cand-7977` 仍为 S3 `undecided`，继续待证。
 
-**English:** Chapter 8, p.241, says the 1706 exhibition was held under the academy’s auspices and that the academy returned to its prior inactivity after Ferdinand fell ill. Chapter 10, p.330 n.3, says Vasari’s Life describes the formation of the Accademia di Disegno in Florence and serves as a cross-chapter identity anchor. Candidates st-chp8-p241-academy-organized-exhibition and st-chp10-p330-n03-vasari-life remain for S6; their other endpoints are not all registered.
+**English:** Chapter 8, p.241, says the 1706 exhibition was held under the academy’s auspices and that the academy returned to its prior inactivity after Ferdinand fell ill. Chapter 10, p.330 n.3, says Vasari’s Life describes the formation of the Accademia di Disegno in Florence. That source is now registered as a separate archive; its reported subject relation is `rel-1293 has_subject`. The exhibition candidate `st-chp8-p241-academy-organized-exhibition` remains pending because its object `cand-7977` is still S3 `undecided`.
 
 ## 关系与证据
 
@@ -70,8 +70,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [瓦萨里的《蒙托尔索利传》（Vasari's Life of Montorsoli）](../archives/vasari-life-of-montorsoli.md) | S2断言 st-chp10-p330-n03-vasari-life；OCR读作Lise，印本读作Life；角色：文献所涉主题（据书内转述）；范围：哈斯克尔第10章 p.330 注3称该 Life 包含佛罗伦萨 Accademia di Disegno 成立的记述；作品及具体版本未独立查阅。；原断言与证据见发出端卡片“瓦萨里的《蒙托尔索利传》（Vasari's Life of Montorsoli）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；line 348; printed p.330 n.3 |
 
-**中文：** 前者的展览对象cand-7977为S3 undecided；后者的Vasari文献cand-9864尚待S4。两项均不在本批登记正式关系。
 
-**English:** The exhibition object cand-7977 in the first candidate remains S3 undecided; the Vasari source cand-9864 in the second awaits S4. Neither is registered as a formal relation in this batch.
+**中文：** 展览对象 `cand-7977` 仍为 S3 `undecided`，其关系候选继续待证；Vasari 文献端点已登记，`st-chp10-p330-n03-vasari-life` 已裁为 formal `rel-1293`。
+
+**English:** The exhibition object `cand-7977` remains S3 `undecided`, so its relation candidate stays pending. The Vasari source endpoint is registered, and `st-chp10-p330-n03-vasari-life` is formal as `rel-1293`.

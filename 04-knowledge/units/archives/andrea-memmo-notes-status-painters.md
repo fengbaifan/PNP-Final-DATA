@@ -56,8 +56,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份边界
 
-S3 身份组 archive-group-c9f891c0a384 仅含 cand-9857，映射至本卡。它指这张画家地位便笺，不与 Andrea Memmo 人物、其著作 *Elementi dell’architettura lodoliana*、1792年 Petizion 488 财物清单、档案机构或 Inquisitori alle Arti 机构合并。附录中提及的 Vasari《Montorsoli传》仍为独立文献候选 cand-9864。
+S3 身份组 archive-group-c9f891c0a384 仅含 cand-9857，映射至本卡。它指这张画家地位便笺，不与 Andrea Memmo 人物、其著作 *Elementi dell’architettura lodoliana*、1792年 Petizion 488 财物清单、档案机构或 Inquisitori alle Arti 机构合并。附录中提及的 Vasari《Montorsoli传》已作为独立 archive `units/archives/vasari-life-of-montorsoli` 登记；版本仍未识别。
 
 ## 关系与证据
 
-当前未登记正式关系。直接 S2 关系候选 st-chp10-p330-n01-memmo-sheet-appendix、st-chp19-p394-memmo-sheet-source-and-date、st-chp19-p395-memmo-note-marks-life-of-montorsoli-read、st-chp10-p330-memmo-preparatory-sheet 均留待 S6 逐条核对端点、方向、语境与证据。该 KU 登记不确认档案原件、转录内容或哈斯克尔的年代估计。
+当前未登记以本便笺为端点的正式关系。直接 S2 关系候选 `st-chp10-p330-n01-memmo-sheet-appendix`、`st-chp19-p394-memmo-sheet-source-and-date`、`st-chp10-p330-memmo-preparatory-sheet` 仍待 S6 逐条核对。`st-chp19-p395-memmo-note-marks-life-of-montorsoli-read` 已裁为 pending：转录中的“Letta”是被归于该便笺的阅读标记，不能独立确定实际阅读者、日期或具体版本；该决定不确认档案原件、转录准确性或哈斯克尔的年代估计。

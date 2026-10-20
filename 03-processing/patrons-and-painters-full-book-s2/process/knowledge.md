@@ -2,6 +2,20 @@
 
 更新日期：2026-10-20。
 
+<a id="s4-s6-archives-vasari-and-spon-wheler-20261020"></a>
+
+### S4/S6 archive 与作者端点：Vasari《蒙托尔索利传》及 Spon/Wheler《意大利旅行记》（2026-10-20）
+
+**S3→S4 身份去向：** 沿用四个既有 `new` 身份组，分别登记 `cand-9864`（`archive-group-52c20326f2a6`）为 Vasari《蒙托尔索利传》来源局部 archive、`cand-6395`（`archive-group-2b0d02973faa`）为 *Voyage d’Italie . . . fait aux années 1675 et 1676* archive、`cand-6396`（`new-person:jacob-spon-14eb5bb7fd`）为 Jacob Spon、`cand-6397`（`new-person:george-wheler-35316694d4`）为 George Wheler。四组均仅映射各自单一候选。Vasari 文献版本未识别；Spon/Wheler 书目列作2卷、La Haye 1724，但原书及第6章 p.157、第7章 p.183 所引页未独立查阅。中文人物名为工作译名；本批未查询外部身份资料或补写人物生平。
+
+**S2→S6 关系裁决：** `st-chp10-p330-n03-vasari-life` 裁为 formal `rel-1293 has_subject`，只记录 Haskell 注3所述的文献主题。`st-chp21-bib-l1128-spon-authored-by` 与 `st-chp21-bib-l1128-wheler-authored-by` 裁为 formal `rel-1294`、`rel-1295 authored_by`，范围仅为 Haskell 书目中的作者责任归属。`st-chp6-p157-note1-source` 与 `st-chp7-p183-n3-cite-spon-wheler` 分别裁为 formal `rel-1296`、`rel-1297 cites`，保留 p.232 与 p.236 两个独立引文定位。新增两条作者候选和已有 S2 断言未计入独立 S2 复核。
+
+**卡片关系投影：** 预览后将五条新 formal 边投影到各自端点卡。更新 Haskell 主书卡时，同时补出关系表中已有、此前未呈现的9条正式引文投影；这些投影没有新增 `relations.csv` 关系事实。六张受影响卡均经渲染器写后字节校验。
+
+以下三项裁为 pending，未新增关系边：`st-chp10-p330-memmo-read-vasari-life` 记 Haskell 所述“提醒自己阅读”，没有可忠实表达该意向的受控关系；`st-chp19-p395-memmo-note-marks-life-of-montorsoli-read` 是归于 Memmo 便笺的转录阅读标记，不能独立确定实际阅读者、日期或版本；`st-chp6-p157-studiolo-description` 的旅行记端点已登记，但 studiolo 候选 `cand-6391` 仍为 S3 `undecided`，无法确定对象身份。三项的具体依据与后续条件均保留，不以登记 archive 代替关系裁决。
+
+**本批后当前状态：** S4 已登记1,345/4,805组、1,549/5,029条候选映射；待登记3,460组/3,480条映射。直接端点待登1,711组/1,725条成员映射（person 1/1、institution 90/90、event 101/101、place 223/223、work 319/328、archive 454/459、term 523/523），非直接队列1,749组/1,755条映射。KU共2,365。S2共15,166条 statement，relation_candidate=true 为10,403；独立逐条复核仍为9,394/15,166（61.9%），至少缺一个候选端点ID的关系候选仍有333条。S5为11,818条字段、1,634条 `unverified`，本批未改字段。S6关系表1,297条（1,294 formal、3 pending）；逐条裁决114/10,403（69 formal、38 pending、7 rejected），source_id 缺失0。机械结构检查通过不代表 S2 语义验收或全书 S5/S6 收口。
+
 <a id="s4-s5-s6-direct-archive-letter-franz-schonborn-1723-20261020"></a>
 
 ### S4/S5/S6 archive：Johann Philip Franz Schönborn 致 Friedrich Karl Schönborn 的书信（2026-10-20）

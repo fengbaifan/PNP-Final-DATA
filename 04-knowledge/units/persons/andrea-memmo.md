@@ -81,3 +81,5 @@ relations:
 ### 关系候选入口
 
 [章前原文关系候选与端点映射](../../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#候选登记映射)
+
+全书候选 `st-chp10-p330-memmo-read-vasari-life` 为 pending：Haskell 只称 Memmo 提醒自己阅读 Vasari 的 Montorsoli 生平，当前受控类型不能忠实表达该阅读意向；不据此断言他已阅读。相关文献端点见[瓦萨里的《蒙托尔索利传》卡](../archives/vasari-life-of-montorsoli.md)及[逐条裁决记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-archives-vasari-and-spon-wheler-20261020)。
