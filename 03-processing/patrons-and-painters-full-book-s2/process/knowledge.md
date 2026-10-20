@@ -8504,3 +8504,30 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 本批新增3张事件卡、3条 manifest 记录、3条 accepted 路径及3条 alignment KU 映射；S3 决定和组边界未变。上述11条直接 `relation_candidate=true` 陈述均留待 S6 逐项裁决，本轮未写入正式关系、未新增 S5 字段或外部身份行。
 
 登记后 S4 已登记1,298/4,806组、1,500/5,029条候选映射；待登记3,508组/3,529条映射。直接端点队列为1,756组/1,756个候选/1,770条成员映射，其中事件101组；非直接待登记队列为1,752组/1,759条映射。KU=2317。
+
+<a id="s4-direct-work-endpoints-four-20261020"></a>
+
+### S3→S4 work：四个直接关系端点登记（2026-10-20）
+
+沿用既有 S3 `new` 身份组，登记四个有明确书内对象锚点的 work 候选。S3 决定和组成员没有改变；每组各登记一个 KU 与一条候选映射。
+
+| candidate | 既有 S3 身份组 | S4 KU | 来源与对象边界 | 直接 S2 关系候选 |
+|---|---|---|---|---|
+| `cand-4445` | `workgrp-21d3add0bf4925` | `units/works/bernini-saint-bibiana-statue` | 第2章 pp.37–38：Haskell称Bernini制作圣比比亚娜像，原定置于S. Bibiana主祭坛后，并称Bernini收到与该像有关的第一笔款项；不推定最终位置、付款人或金额。 | `st-chp2-secii-l62-69-berninimade-bibiana-statue`; `st-chp2-secii-l62-69-bibiana-statue-aesthetic-interpretation`; `st-chp2-secii-l71-78-bernini-first-payment-for-bibiana-statue` |
+| `cand-5546` | `workgrp-4d47e405da2db6` | `units/works/bernini-wax-head-model-paolo-giordano-ii` | 第4章 pp.96–97：蜡制头像模型，页96句子跨到页97闭合；Haskell称1623年6月Bernini已在制作。未据此判定完成、存世或与铜像版本同一。 | `st-chp4-sec-i-l20-24-bernini-wax-model`; `st-chp4-sec-i-l26-33-wax-model-closure`; `st-chp4-sec-i-l20-24-wax-head-depicts-paolo` |
+| `cand-5555` | `workgrp-778ff08fdb83c2` | `units/works/tacca-modello-equestrian-statue-paolo-giordano-ii` | 第4章 p.97称Tacca寄出modello；第19章附录 p.389 转录1624年书信，称马模型已装箱寄送，并把铜像装饰明确写成条件计划。档案原件未独立查阅；不推定拟议铜像完成或模型存世，也与初步油画草图分开。 | `st-chp4-sec-i-l26-33-tacca-sent-modello`; `st-chp19-p389-tacca-model-shipping`; `st-chp19-p389-tacca-conditional-bronze-fittings` |
+| `cand-11530` | `workgrp-7a0628665769a5` | `units/works/canova-poleni-statue-for-leonardo-venier` | 第15章 p.367：Haskell称Canova于1781年受托制作波莱尼侯爵像，为Leonardo Venier而作。委托方未具名，“for Venier”不改写为“由Venier委托”；完成和现存身份未独立核实。 | `st-chp15-p367-canova-poleni-statue-for-venier`; `st-chp15-p367-poleni-statue-depicts-poleni`; `st-chp15-p367-poleni-statue-made-for-venier` |
+
+以上12条 `relation_candidate=true` 现在都有该 work 端点的 KU 映射；这不表示对端也全部就绪或关系已经成立。它们仍须在 S6 按每条 statement 的来源、谓词和值域逐条裁决。没有新增 `relations.csv` 记录或外部身份核验。作品卡保留原书限定及[统一作品字段模板](../../../.agents/skills/ingest/references/body-template.md)要求；映射依据、候选和范围见[alignment.csv](../../../04-knowledge/tables/alignment.csv)、[ku-manifest.csv](../../../04-knowledge/tables/ku-manifest.csv)及四张[圣比比亚娜像](../../../04-knowledge/units/works/bernini-saint-bibiana-statue.md)、[蜡制头像模型](../../../04-knowledge/units/works/bernini-wax-head-model-paolo-giordano-ii.md)、[Tacca模型](../../../04-knowledge/units/works/tacca-modello-equestrian-statue-paolo-giordano-ii.md)、[波莱尼侯爵像](../../../04-knowledge/units/works/canova-poleni-statue-for-leonardo-venier.md)。
+<a id="s2-targeted-repair-ch8-p216-mentions-20261020"></a>
+
+### S2 定点修订：第8章 p.216 指代、印本校读与 mention 回链（2026-10-20）
+
+依据第8章 p.216 独立复核记录，修订来源段 chp-8:08_CHP-8_sec_ii:l21-35 的三条当前 statement，并逐一按登记偏移回切原文。没有更改 S3 身份决定、候选类型、relation_candidate 状态或正式关系表。
+
+- st-chp8-p216-massimo-response-and-no-further-work：claim 保留原文代词 they，删除将其解释为 governors 的断言；移除将 promise-of 改作 promise of 的 OCR correction。PDF物理页14印本保留连字符，原词转录有效。
+- st-chp8-p216-padre-massimo-massacre-commission：将 cand-7640 补入 mentioned_candidate_ids。六条新增 mention 为 m-chp8-p216-cand-7640-magnifico-consiglio，指向“Magnifico Consiglio del Consorzio”[2473,2506)。
+- st-chp8-p216-milan-pictures-first-stage-complete：将已有 mention m-chp8-cand-12367-source-mention（“other artists from Milan and its surroundings”[3065,3110)）补入 mentioned_candidate_ids。
+- 新增其他五条已精确核对的 mention：m-chp8-p216-cand-12057-swiss-descriptor（“Swiss”[228,233)，映射给 st-chp8-p216-storer-described-as-swiss 与 st-chp8-p216-storer-selection-and-background）；m-chp8-p216-cand-7646-experiment-picture（“one picture for the site as an experiment”[1276,1317)，映射给 st-chp8-p216-magni-experimental-commission）；m-chp8-p216-cand-7647-one-of-pictures（“one of the pictures”[1523,1542)）和 m-chp8-p216-cand-7647-four-more（“four more”[1609,1618)），两者映射给 st-chp8-p216-cocchi-five-pictures；m-chp8-p216-cand-7639-decoration（“the decoration”[3251,3265)，映射给 st-chp8-p216-first-decoration-stage-complete-1659）。
+
+核验：六个新增 span 均逐字符等于登记来源段的对应切片；Mention 总数由26,621增至26,627。cand-12057、cand-7646、cand-7647、cand-7640、cand-7639 既有候选身份/类型和对齐决定未变；cand-12367 的既有 mention 只增加了 statement 回链。p.216 剩余断言端点和类型问题仍待按阶段记录修订；本次不据 mention 回链推定正式关系。

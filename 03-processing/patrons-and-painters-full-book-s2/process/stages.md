@@ -13294,3 +13294,63 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 **可保留项及裁决：**`st-chp7-p196-gennari-mythological_pictures`、`gennari-paris_success`、`gennari_ancient_guise_practice`、`gennari_subject_shift`、`jamesii-demand_for_italian_artists`、`verrio-illusionistic-effects`、`verrio-windsor-fresco-series`、`verrio_career_alignment`、`verrio-served-williamiii`、`verrio_conflicting_programmes`及`windsor-frescoes-absolutism`整体有原文支持；仍须保留人物群体未具名、Haskell评价归属、“from then onwards”“within little more than a generation”等限定。`st-chp7-p196-windsor-charles-rubens-comparison`列`relation_candidate=false`合适：来源是Charles I项目与Rubens的类比，不断言Rubens参与Verrio工程。除上述需修订/待证项外，本批不提出新的身份认定。
 
 本批当前p.196的27/27条已逐条核读（true=26、false=1、未分类=0），但存在断言合并、端点类型/角色错位、mention映射缺口、注释层级和跨页重复等问题，因此不接收p.196或第七章。Ch7当前1,238条中累计逐条审阅937条（true=862、false=75、未分类=0），未审301条；下一游标p.197 `chp-7:07_CHP-7_sec_iv:l63-75`，未计入本批。仅追加本过程记录；未改S0、statements、mentions、coverage、候选或KU。
+<a id="2026-10-20-s2-review-followup"></a>
+
+### 2026-10-20：第七章 p.197 与第八章 p.215–216 当前 S2 语句独立语义复核
+
+按当前 statement 表逐条对照书内印本及已登记来源段。复核记录只统计本轮针对当前行的检查；较早全章审读记录不并入本轮。
+
+#### 第七章 p.197
+
+核对正文来源段 chp-7:07_CHP-7_sec_iv:l63-75 与本页相关脚注段 chp-7:07_CHP-7_sec_iv:l97-119。当前 printed_page=197 的46条 statement 全部逐条复核（正文38、脚注8）：true=41、false=5、未分类=0。第七章累计复核983/1,238条（true=903、false=80、未分类=0），尚余255条。
+
+**待修订或保持待证：**
+
+- st-chp7-p197-exeter-unique-commission-scale：候选 cand-0970 是 patronage 术语，不是“No Englishman”所指人物。应开放未具名 English person/group，保留原文比较范围。
+- 下列九条 Exeter 收藏语句均缺少原文中的城市端点：st-chp7-p197-exeter-collected-assereto-genoa、st-chp7-p197-exeter-collected-brandi-rome、st-chp7-p197-exeter-collected-calandrucci-rome、st-chp7-p197-exeter-collected-castelli-genoa、st-chp7-p197-exeter-collected-gaulli-rome、st-chp7-p197-exeter-collected-maratta-rome、st-chp7-p197-exeter-collected-pasinelli-bologna、st-chp7-p197-exeter-collected-piola-genoa、st-chp7-p197-exeter-collected-liberi-venice。Liberi 条目还把画家当作购买对象；对象应是来源所述作品。不得用旅居城市替代作品地点或收藏关系语境。
+- st-chp7-p197-giordano-frescoes-riccardi：当前以 work group 作宾语，Riccardi 宫仅为提及；需区分受雇创作者、壁画作品及其地点。
+- st-chp7-p197-dolci-giordano-contrast：合并风格对比和赞助人偏好，且缺少艺术家端点；拆分并保留原文 seem 的推测语气。
+- st-chp7-p197-finch-commissioned-dolci 与本页注2 portrait attribution：原文还称 Finch 与 Baines 为朋友。需按来源范围另记关系，不从照片或被引研究推补具体亲密程度。
+- st-chp7-p197-n4-isham-pictures-lamport：注4所述 Lamport Hall 位于 Northamptonshire 的定位信息遗漏，补入时保留脚注来源层级。
+- st-chp7-p197-isham-mythological-pictures：须补出 Ludovico Gimignani、Giacinto Brandi、Filippo Lauri 与所委托神话画作的对应端点，不能以一组作品代替三个具名创作者。
+- st-chp7-p197-isham-portrait-maratta：须明确 Maratta 为肖像创作者及 Isham 为被描绘者，不能用一般 commission 角色替代 portrait-by 关系。
+- st-chp7-p197-monnot-tomb：Exeter 为墓主/委托受益人，Monnot 为创作者；当前角色未结构化。
+- st-chp7-p197-exeter-return-verrio-open：本页是未完叙述，p.198 有闭合陈述；p.197 保留开放续句并链接后页，避免把完整主张提前重复。
+- st-chp7-p197-n3-baldinucci 与 st-chp7-p197-n6-monnot-tomb-citations：脚注 claim 含内部整理文字，需清除；核对引用/来源映射、提及位置与脚注范围。Cassana 1714 注文及 OCR 与印本的差异也须按页图区分印刷标点和转录错误，不能无依据覆盖来源。
+
+本页不接收。上述项目仍需按 S2 原文修订并回核；审阅本身未改变候选身份、类型或正式关系。
+
+#### 第八章 p.215
+
+核对第8章 sec. I 正文来源段 l11–19 及本页脚注来源段 l372–461 中对应 p.215 的脚注。当前 printed_page=215 的29条 statement 全部复核，45个 mention span 已逐项对照；true=21、false=8、未分类=0。
+
+**待修订或保持待证：**
+
+- st-chp8-p215-committee-orders-oil-paintings：任命委员会的施事者属于推断，需保留来源未指明的状态。
+- st-chp8-p215-cavagna-dome-frescoes-1614：须保留 Giovanni Battista Cavagna 与两名未具名本地画家的共同参与，不能只记 Cavagna。
+- st-chp8-p215-interior-decoration-and-ricchini-dome：装饰变化、祭坛画群和 Ricchini 穹顶规划混为一项；拆分事实并补出本地/威尼斯艺术家群体端点。
+- st-chp8-p215-classicising-institutions-outside-rome：把不同地区的艺术品味标准写成同一种制度/教条作用，须依原文区分 doctrines、institutions 和地方评价标准。
+- st-chp8-p215-collections-estimated-frequency 与 st-chp8-p215-one-collection-influential：保留“probably few”“at least one”等量词，不把至少一项藏品的影响推广到整个集合。
+- st-chp8-p215-patronage-mechanism-and-roman-values：Haskell称藏品发展显示赞助机制，并将其与其关于罗马价值被摧毁的论证相关；statement 不应改成藏品对该论证产生影响。
+- st-chp8-p215-bergamo-venice-milan-context、st-chp8-p215-bergamo-ruled-by-venice-from-1430 及相邻城市语句：区分 Venice 城市和 Venice 政治实体，避免以同一候选或关系角色混写。
+- st-chp8-p215-negotiations-follow-relative-failure：原文的 relative failure 修饰范围未明，不应扩写成委员会搜寻失败；保留“谈判扩展至意大利各城镇”的来源事实和限定。
+
+本页不接收；独立核读未改表。
+
+#### 第八章 p.216
+
+核对 chp-8:08_CHP-8_sec_ii:l21-35 与印刷 p.216/PDF物理页14。当前 printed_page=216 的30条 statement 全部复核，42个 mention span 已逐项核对；true=25、false=5、未分类=0。第八章本轮累计复核476/1,462条，尚余986条，章节不接收。
+
+**待修订或保持待证：**
+
+- st-chp8-p216-magni-experimental-commission、st-chp8-p216-cocchi-five-pictures、st-chp8-p216-guercino-proposed-door-canvas：补出 Magni、Cocchi、Guercino 的人物端点；保留一次试画、条件追加委托、原顺序和 Guercino 看似无意接受的来源语气。
+- st-chp8-p216-committee-assessment-visit：评估对象为未具名艺术家及其壁画，当前主体/宾语未结构化，须保留其未具名边界。
+- st-chp8-p216-massimo-response-and-no-further-work：原文仅用 they；把 actor 指定为 governors 超出本段明确措辞。claim 应保留未解析指代。
+- 同一 statement 的 OCR correction 将 promise-of 改成 promise of；印本 p.216 保留连字符，删除这条不成立的校正。
+- mention 缺口：cand-12057 的 Swiss（[228,233)）用于 storer-described-as-swiss 与 storer-selection-and-background；cand-7646 的 one picture for the site as an experiment（[1276,1317)）；cand-7647 的 one of the pictures（[1523,1542)）及 four more（[1609,1618)）；cand-7640 的 Magnifico Consiglio del Consorzio（[2473,2506)）；cand-7639 的 the decoration（[3251,3265)）。另将已存在的 cand-12367 提及（[3065,3110)）补连至 st-chp8-p216-milan-pictures-first-stage-complete。
+- cand-12366（Bergamo 未具名家族群）及 cand-12367（Milan 周边艺术家群）的 suggested_type 仍未设定；保留 S3 待决类型，不强推为 family、institution 或 term。
+- st-chp8-p216-milan-pictures-first-stage-complete 等作品/群体断言保留未指派具体画家的限制；第35行关于北耳堂穹顶的陈述须与 p.217 续页连接，不在 p.216 补全后页信息。
+
+本批独立复核后，另行按来源偏移修复了 p.216 的六条 mention、两项 statement mention 映射、Massimo 综合 claim 的未具名指代及错误 OCR correction；过程和逐项偏移见知识处理记录锚点 s2-targeted-repair-ch8-p216-mentions-20261020。该局部修订不构成 p.216 或第八章接收。
+
+**本轮交接：** Ch7 下一游标为 p.198 的 chp-7:07_CHP-7_sec_iv:l77-87；Ch8 下一游标为 p.217 的 chp-8:08_CHP-8_sec_ii:l37-39。上述复核发现不更改 S3 组或裁决；只有相应 S2 语句、mentions 或端点修订后，才定向复核受影响的 S3/S4/S6 对象。
