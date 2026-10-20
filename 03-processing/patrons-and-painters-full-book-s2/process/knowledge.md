@@ -9328,3 +9328,22 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp7-p195-n3-da-canal` | 第7章 p.195 n.3，L105；“Da Canal, especially pp. 71-3” | formal `cites`；只表示书内引注 | `rel-1355` |
 
 批后 S4 登记1,389/4,804组、1,593/5,029条映射；待登记3,415组／3,436条，其中直接端点1,667组／1,667个候选／1,681条成员映射，非直接1,748组／1,755条。S5字段表11,971条、1,634条 `unverified`。S6累计逐条裁决191/10,402条（129 formal、53 pending、9 rejected）；关系表1,355条（1,352 formal、3 pending）。
+
+<a id="s4-s5-s6-ch6-michaud-roma-citations-20261021"></a>
+
+### S4/S5/S6 archive：第6章 Michaud 与 Roma 引注端点（2026-10-21）
+
+沿用既有 S3 `new` 决定登记两个单成员 archive 组，不改 S3 身份裁决：`cand-6571` / `archive-group-06ab78ee5350` 映射到 `units/archives/michaud-louis-xiv-et-innocent-xi-1882-1883`；`cand-6575` / `archive-group-e4f0548d6dd1` 映射到 `units/archives/roma-volume-xix-1941`。Michaud 身份依据第21章印刷页430 L811 的书目条目“E. Michaud: Louis XIV et Innocent XI, 4 vols., Paris 1882-3.”；其书目责任者形式不用于推定或登记人物身份。Roma 卷册身份依据第6章印刷页163注3–4：注3把 1679年1月28日 avviso 定位为 *Roma*, XIX (1941), p.161，注4以 ibid. 指回该刊载来源且没有另写页码。所引文献、报告与 avvisi 均未在本批独立查阅。
+
+两张卡按中英双语格式登记，分别新增7条与6条 `source_backed` 字段，共13条；字段只记录 Haskell 原书的题名、书目形式、卷册／出版项与书内引注 locator。字段状态不表示独立外部核验。
+
+**S6逐条裁决：** 四条 S2 候选均以 Haskell 的书内脚注为证据，`footnote_citation` 映射为受控的 `cites`。主体 `cand-2962` 已复用 `units/archives/patrons-and-painters`；两个 archive 客体由本批登记。正式边各自保留脚注、所引文献／avviso 和 locator 范围；边仅表示 Haskell 的引注，不表示被引内容已读或核实。
+
+| statement_id | 原书定位与对象 | 决定 | 正式关系 |
+|---|---|---|---|
+| `st-chp6-p162-n7-cite` | 第6章 p.162 注7；Michaud I, p.176 | formal `cites`，书内转引定位 | `rel-1356` |
+| `st-chp6-p163-n1-cite` | 第6章 p.163 注1；ibid., Michaud I, p.68 | formal `cites`，书内引注定位 | `rel-1357` |
+| `st-chp6-p163-n3-cite` | 第6章 p.163 注3；1月28日 avviso，Roma XIX (1941), p.161 | formal `cites`，书内引注定位 | `rel-1358` |
+| `st-chp6-p163-n4-cite` | 第6章 p.163 注4；2月18日 avviso，刊于 ibid.，原注未另列页码 | formal `cites`，不推定 locator | `rel-1359` |
+
+批后 S4 登记1,391/4,804组、1,595/5,029条映射；待登记3,413组／3,434条，其中直接端点1,665组／1,665个候选／1,679条成员映射、非直接1,748组／1,755条。S5字段表11,984条、1,634条 `unverified`。S6累计逐条裁决195/10,402条（133 formal、53 pending、9 rejected）；关系表1,359条（1,356 formal、3 pending）。
