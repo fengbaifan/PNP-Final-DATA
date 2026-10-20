@@ -8657,3 +8657,40 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 | st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project | Jesuits institution → 拱顶壁画 work | 第3章 p.90 L147 | pending。Haskell报告耶稣会士曾考虑放弃，但后句称当时已为时过晚；这不是已完成的放弃事件，当前无受控意向谓词。 |
 
 **累计状态：** S4 已登记1,317/4,805组、1,519/5,028条候选映射；待登记3,488组／3,509条映射。直接关系端点待登队列1,736组／1,736个候选／1,750条成员映射；非直接待登记1,752组／1,759条映射；KU=2,336。S2 共15,164条statement，relation_candidate=true 10,401；新增statement未纳入统一独立复核覆盖。S6关系表为1,251条（1,249 formal、2 pending）；本过程记录累计裁决30条S2候选，其中formal 9、pending 20、rejected 1。S5为11,731条字段、1,625条unverified。以上为批次状态，不代表全书S2语义接收或S6全量收口。
+
+<a id="s6-relation-source-id-reconciliation-20261020"></a>
+
+### S6：关系表45条来源ID回补与定位修订（2026-10-20）
+
+对照 `relations.csv`、`sources.csv`、关系定位及现有同页来源记录，补齐原缺失的45个 `source_id`（44条 formal、1条 pending）。同一URL对应多个来源记录时，按出版版本、题页／章节／页码覆盖及已采用的相邻关系引用选取，不合并或删除来源记录；32条关系行复用现有来源，另有12条关系行使用本次新增的6条来源记录。关系状态和端点未变。
+
+| 关系行 | source_id | 来源匹配依据 |
+|---|---|---|
+| rel-0028、rel-0153、rel-0428、rel-0430、rel-0432 | `src-ddee30071eb84269` | Thevenon 第32页通用记录；与同页 rel-0431、rel-0433 的来源ID一致。 |
+| rel-0422 | `src-a52197cecc6315b2` | Thevenon pp.31–32、注31的精确书目范围。 |
+| rel-0090、rel-0206 | `src-85065cd13eebe535` | 博洛尼亚大学仓储记录，定位明确为 repository abstract；不误用作者专著的书目记录。 |
+| rel-0138 | `src-e5f32ad6521cdcf3` | Testi《书信》卷II印本 pp.28–29、书信549号及其数据库转录；同 URL 的 rel-1198、rel-1199 已用该ID。 |
+| rel-0161 | `src-2d805002516e7ffe` | Lanfranco 英文 Wikipedia 相同修订1372179417的来源记录。 |
+| rel-0194、rel-0647、rel-0649、rel-0650、rel-0651、rel-0652 | `src-429b70d422438f3e` | Cambridge Museums 同一页的 2026-09-15 来源记录；与页面上已登记的相邻关系来源一致。 |
+| rel-0195 | `src-78f4cd23e59dc305` | Yale University Press 历史页面的完整署名及改编来源记录。 |
+| rel-0197 | `src-5c1277026a1ac523` | Treccani Ludovico Ludovisi 条目完整标题与作者记录。 |
+| rel-0235 | `src-a0816be996f0695f` | Treccani Camillo Pamphili 条目记录，标题与页面题名匹配。 |
+| rel-0303 | `src-bc2159907d7651e9` | 新增 Georg Lutz 的 DBI 第97卷（2020）条目记录；原路径已改至当前规范文章地址。条目段落明确叙述 Barberini 与 Bernini 的赞助关系。 |
+| rel-0665、rel-0666 | `src-90e728d5e5c1b993` | Galleria Borghese《黛安娜狩猎》目录页完整标题记录。 |
+| rel-0668、rel-0670 | `src-c3e472eca96cacae` | 同一目录页的对象详情及藏购信息记录；与同页已登记关系采用的来源ID一致。 |
+| rel-0753 | `src-f341c852a1c2b372` | Zeri 作品条目含作品题名的具体记录，适用于目录所载末次地点。 |
+| rel-0855 | `src-f77bfd2512df8ba1` | Palais Fesch 藏品记录含馆藏号 MFA 852.1.265；与 rel-0853、rel-0854 的来源一致。 |
+| rel-0972 | `src-efa93d0f2a30e946` | 《圣乌巴尔多圣殿指南》pp.20–21；同页 rel-0973 已使用该ID。 |
+| rel-0993 | `src-8c7dcfa7bd70cf6d` | Paris Musées《Le Banquet de Cléopâtre》藏品页；同对象相邻候选使用该ID。 |
+| rel-1029 | `src-6c5a0c1cd4a805a3` | 新增卢浮宫对象记录 cl010062321（L’enfant prodigue）。 |
+| rel-1047、rel-1056 | `src-da4cfd0b933026a8` | National Trust 同一藏品页；与 Provenance 及题名字段的相邻关系行一致。 |
+| rel-1080 | `src-2f4789331474cf1b` | Bottari/Ticozzi 卷VII 1822年印本；同页相邻 rel-1079 的来源ID。 |
+| rel-0015 | `src-f7b5f9486fb2c46e` | 新增 Andrea Procaccini 英文 Wikipedia revision 1366087864 记录；原文定位为早期生涯中的圣路加学院成员名录。 |
+| rel-0128、rel-0129、rel-0130、rel-0131、rel-0132、rel-0133、rel-0196 | `src-82db5ffb1f42b5b4` | 新增 Charles Hope 论 Francis Haskell 的 British Academy 论文记录（vol.115, 2002, pp.227–242），覆盖全部现有页码定位。 |
+| rel-1081 | `src-3a01a396ad72b2f8` | 新增 Internet Archive 卷VII 1757年扫描记录；保留其与1822年版本的区别。 |
+| rel-1096 | `src-62788c8494d29e3c` | Ruffo 文章印刷页169的具体来源记录，覆盖销售注和脚注。 |
+| rel-1125 | `src-e58e83c88e325cb7` | Treccani Lanfranco 条目；同段落的 rel-1126 已采用该来源ID。 |
+| rel-1197 | `src-6496d24feffef83f` | 原 Internet Archive 标识 `ilbernini00fras` 当前无可用记录；改用来源表已登记的同版《Il Bernini》Warburg Institute PDF。将页码保留为印刷页108注1，删除只适用于失效扫描的扫描页130。关系语义判断仍以同版原文为据。 |
+| rel-1226 | `src-1bfc47aa608eb102` | 新增梵蒂冈 Pinacoteca Room XII 官方页面记录；旧 `/sala-xii` 路径返回404，现改到有效的 Room XII 页面。该页列出 Caravaggio《Deposition》，但没有在对象层级确认作者关系，因此该候选仍为 pending。 |
+
+新增6条来源记录均按实际检索日期记为2026-10-20。`sources.csv` 现有1,758条记录；45条关系的 `source_id` 均能解析到来源表。只修复来源外键及三条失效／过时定位，不把当前页级链接状态当作新增事实或 S6 重新裁决；rel-1226 继续 pending。

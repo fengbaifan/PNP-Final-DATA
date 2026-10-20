@@ -4,6 +4,10 @@
 
 **当前状态：全书 S2 语义处理已完成，尚未独立语义验收；本轮统一计入口径的独立逐条复核覆盖9,363/15,164条statement（61.7%）；S3 已记录全部候选的现行决定与去向，冲突及待证对象仍未解决；S4 KU 登记处理中。** 12,408 个候选决定行中，same=2,024（指向1,092个既有 KU）、new=5,028（4,805个身份组）、conflict=9、excluded=100、undecided=5,247。S4 已登记1,317组、映射1,519条成员候选；尚待登记3,488组、3,509条映射。
 
+### S6：关系表45条来源ID回补（2026-10-20）
+
+原有45条关系记录（44 formal、1 pending）均已绑定有效 `source_id`，32条复用来源表既有记录，12条关联至6条新增来源记录，另1条切换到已登记的同版 Warburg PDF。3条旧定位更新为可确认的当前地址；rel-1226 仍为 pending。来源登记总数现为1,758，关系状态与候选端点未变。完整来源映射与依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-relation-source-id-reconciliation-20261020)。
+
 ### S2／S4／S6：圣依纳爵教堂走廊与拱顶端点簇（2026-10-20）
 
 第3章 p.89–90 的两条说话者误归 statement 已改为 Haskell 作者叙述；新增 Pozzo 分场与描绘的关系候选，原文引句已与来源行核对。S4 登记 cand-5365、cand-5366、cand-5368、cand-5389、cand-5390 五个既有 S3 new 组，共新增5张KU卡及5条候选映射。S6 对本簇19条候选逐项裁决：9条 formal、9条 pending、1条 rejected；formal 边为 rel-1243–rel-1251。详细证据、端点与理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-s-ignazio-endpoint-cluster-20261020)。新增S2 statement尚未纳入独立复核；第3章当前1,173/1,174条已复核，仍不接收。
@@ -84,8 +88,8 @@ S0 登记79个来源文件、832段，涵盖书前材料、第1–17章、结论
 | [覆盖账本](../tables/s2-coverage.csv) | 832段全部完成登记与迁移 |
 | [全书对齐](../tables/alignment.csv) | 12,716 条：12,408 条候选决定记录及 308 条独立外部身份记录；候选决定数见下表 |
 | [字段表](../tables/enrichment.jsonl) | 11,731条，其中1,625条 unverified |
-| [来源登记](../tables/sources.csv) | 1,752 条来源记录 |
-| [关系表](../tables/relations.csv) | 1,251条：1,249 formal、2 pending；45条缺结构化 `source_id`（44条formal、1条pending）；S2另有10,401条`relation_candidate=true`的statement，二者不是同一计数口径 |
+| [来源登记](../tables/sources.csv) | 1,758 条来源记录 |
+| [关系表](../tables/relations.csv) | 1,251条：1,249 formal、2 pending；0条缺结构化 `source_id`（45条已回补）；S2另有10,401条`relation_candidate=true`的statement，二者不是同一计数口径 |
 | [候选待办](../tables/candidate-backlog.csv) | 5条记录均已登记到KU，状态均为 completed；新增 Callot《La Fiera dell'Impruneta》work 对象；Paul Bonnefon编辑端点正式关系仍待S6 |
 
 当前statement表中333条 S2 关系候选至少一端尚无候选ID，分布于125个来源段：仅缺 object 218条、仅缺 subject 43条、两端均缺72条。其中325条以 relation_candidate_note、8条以 open_endpoint_reason 说明端点缺口；这些仍是 S2 候选，不是 S6 正式关系。具体身份、群组边界、版本与指代限定在对应 statement 的 qualifiers 中保留。旧摘要的326条／214、40、72是过期统计，S2语句本身未因本次S3/S4工作改变。
