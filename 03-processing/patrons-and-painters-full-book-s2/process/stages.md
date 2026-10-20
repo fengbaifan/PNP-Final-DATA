@@ -13452,3 +13452,12 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 ### S2定向修复：A Storm at Sea 注7定位与校读（2026-10-21）
 
 依第4章独立复核批次六、八的既有问题记录，修复 `st-chp4-sec-i-l42-67-claude-picture-recorded-in-liber-veritatis`：补印刷页 `p.97`、PDF物理页4，并关联复合父statement `st-chp4-sec-i-l42-67-fn97-claude-picture-record`。父statement保留S0／original_quote原转录 `Rdthlisberger`，在 `ocr_corrections` 记录扫描页印作 `Röthlisberger`。本修订只补证据定位、statement关联与校读；statement/candidate/mention行数及S2独立复核覆盖不变，第4章仍未接收。
+
+
+### 2026-10-21：第七章 p.200 正文当前statement独立语义复核
+
+按 `chp-7:07_CHP-7_sec_v:l9-18` 对照S0与CHP-7.pdf物理页38，逐条复核原有28条statement和70条mention span。修订后该段共32条statement、71条mention；新增1条“his portrait”mention精确锚定字符偏移2625–2637。识别并修正和约／政治变化、德斯特雷介绍画家、同行人物等关系端点误映；将Daun的任命与比较性赞助、Paolo的两位赞助人、三位艺术家的画布制作拆为各自可追溯的原子断言。S0来源不改写。
+
+四条新关系候选逐项裁为S6 `pending`：Daun与未具名前任、Paolo与未对齐的Daun、del Po与未登记／未识别画布组、Paolo与未识别画布组。无关系写入 `relations.csv`。`cand-7296` 因新增关系角色进入S4直接端点队列；队列重算为1,662组／1,662候选／1,677组成员。`cand-7301` 的mention说明更新为S3现行决定：Haskell注5将来源拼写“Binchs”识别为Admiral Byng；Victor Amadeus句新增物理页校读 `tortuous'`→`tortuous`。
+
+本段按statement ID去重后将第七章复核更新为1,055/1,243、全书9,446/15,171（62.3%）；S2缺至少一个候选端点的关系候选为335条（subject-only 45、object-only 218、both 72）。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l39-40`，随后p.201 `l42-55`。逐条发现见 [S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p200-正文-s2-独立语义复核) 和 [S6记录](knowledge.md#s6-chp7-p200-atomic-relations-20261021)。

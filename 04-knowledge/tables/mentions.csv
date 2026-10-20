@@ -16667,7 +16667,7 @@ m-chp7-p200-v-036,chp-7:07_CHP-7_sec_v:l9-18,cand-7287,Versailles,1475,1485,Plac
 m-chp7-p200-v-037,chp-7:07_CHP-7_sec_v:l9-18,cand-3534,Naples,1521,1527,"Existing place candidate; in L10 it is the object of seizure, and later mentions refer to the city."
 m-chp7-p200-v-038,chp-7:07_CHP-7_sec_v:l9-18,cand-3534,the city,1533,1541,Anaphora to Naples.
 m-chp7-p200-v-039,chp-7:07_CHP-7_sec_v:l9-18,cand-7292,opposing forces,1563,1578,Unnamed forces said to have conquered Naples.
-m-chp7-p200-v-040,chp-7:07_CHP-7_sec_v:l9-18,cand-7301,English Admiral ‘Binchs’,1616,1640,Keep the source-form admiral separate from Admiral Byng until S3.
+m-chp7-p200-v-040,chp-7:07_CHP-7_sec_v:l9-18,cand-7301,English Admiral ‘Binchs’,1616,1640,"Haskell's p.200 n.5 identifies the source form 'Binchs' as Admiral Byng; S3 groups the two source forms as one source-local person, not as an external identity verification."
 m-chp7-p200-v-041,chp-7:07_CHP-7_sec_v:l9-18,cand-7284,Austrian,1649,1657,Nationality/political affiliation attached to Count Daun and the new regime.
 m-chp7-p200-v-042,chp-7:07_CHP-7_sec_v:l9-18,cand-0906,Count Daun,1668,1678,"Existing index candidate; the passage attributes capture, viceroyalty, and patronage to him."
 m-chp7-p200-v-043,chp-7:07_CHP-7_sec_v:l9-18,cand-7293,its capture,1708,1719,Anaphora to the conquest of Naples described in this passage.
@@ -16698,6 +16698,7 @@ m-chp7-p200-v-067,chp-7:07_CHP-7_sec_v:l9-18,cand-6208,Bergamo,2601,2608,Place n
 m-chp7-p200-v-068,chp-7:07_CHP-7_sec_v:l9-18,cand-0906,he,2609,2611,"Footnote 6's pronoun refers to Count Daun, the subject of the immediately preceding body passage."
 m-chp7-p200-v-069,chp-7:07_CHP-7_sec_v:l9-18,cand-1101,Vittore Gliislandi,2643,2661,OCR surface form; the scan reads Vittore Ghislandi. Correction is recorded only in S2.
 m-chp7-p200-v-070,chp-7:07_CHP-7_sec_v:l9-18,cand-6590,"Tassi, II",2662,2671,"Bibliographic pointer to volume II, p.64; cited page not independently read."
+m-chp7-p200-v-daun-portrait,chp-7:07_CHP-7_sec_v:l9-18,cand-7302,his portrait,2625,2637,Anaphoric reference to the unidentified portrait Count Daun commissioned from Vittore Ghislandi in Haskell's p.200 n.6.
 m-chp7-p200-plate32b-creator,chp-7:07_CHP-7_sec_v_visual-transcription:l3-3,cand-3214,Paolo de Matteis,3,19,Printed Plate 32b attribution; reuses the existing List of Plates candidate.
 m-chp7-p200-plate32b-work,chp-7:07_CHP-7_sec_v_visual-transcription:l3-3,cand-4071,The Choice of Hercules,21,43,Printed Plate 32b title; the body and List of Plates references remain separately anchored.
 m-chp7-p200-plate32b-subject,chp-7:07_CHP-7_sec_v_visual-transcription:l3-3,cand-4162,Hercules,35,43,Nested title-figure mention; the title is not treated as evidence for a historical event.

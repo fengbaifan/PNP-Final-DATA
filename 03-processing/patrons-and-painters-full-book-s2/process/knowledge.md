@@ -9403,3 +9403,18 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp7-p181-n3-cite-mazarin` | 第7章 p.181 n.3，L341；`Mazarin, p. xxxiii` | formal `cites`；仅记录 Haskell 书内引注，图录及 p. xxxiii 未独立查阅 | `rel-1366` |
 
 卡片的字段表和关系投影经 `build_cards.py --preview` 检视后定点渲染。S4 登记后已登记1,394/4,803组、1,598/5,028条候选映射；待登记3,409组／3,430条映射，其中直接端点1,662组／1,662个候选／1,676条组成员映射，非直接1,747组／1,754条映射。S5字段表12,001条（1,634条 `unverified`）。S6逐条裁决累计203/10,402条（141 formal、53 pending、9 rejected）；关系表1,366条（1,363 formal、3 pending）。S2复核计数不变。
+
+<a id="s6-chp7-p200-atomic-relations-20261021"></a>
+
+### S6：第七章 p.200 正文新增四条原子关系候选（2026-10-21）
+
+第七章 p.200 S2 独立复核把原有合并陈述拆成原子候选。以下四条新候选均逐项裁为 `pending`；端点尚未形成可用于正式关系的KU，因此本批不写 `relations.csv`：
+
+| statement_id | 端点与现行状态 | S6决定及理由 |
+|---|---|---|
+| `st-chp7-p200-v-daun-rivalled-spanish-predecessors-patronage` | `cand-0906` Count Daun（S3 `undecided`）→ `cand-7295` 西班牙前任总督群（`undecided`） | `pending`：两端身份／群组均未解决；“rivalled”保留为Haskell的比较性判断，不转作测量结果。 |
+| `st-chp7-p200-v-paolo-works-for-daun-after-capture` | `cand-1581` Paolo de Matteis（S4已登记）→ `cand-0906` Count Daun（S3 `undecided`） | `pending`：直接关系端点尚未完成Daun对齐；来源支持工作／赞助关系，不足以改写为正式委托。 |
+| `st-chp7-p200-v-del-po-canvases-for-daun-palace` | `cand-7296` Giacomo del Po（S3 `new`，S4未登记）→ `cand-7300` 未识别画布组（`undecided`） | `pending`：人物KU未登记且作品组未识别；原文只给出集体题材和装饰用途。 |
+| `st-chp7-p200-v-paolo-canvases-for-daun-palace` | `cand-1581` Paolo de Matteis（S4已登记）→ `cand-7300` 未识别画布组（`undecided`） | `pending`：画布组未识别，无法建立作品端点；不推定单件作品或归属。 |
+
+四项均有当前决定和理由，但相关事实未形成formal关系。S4待登记直接端点队列因 `cand-7296` 新增关系角色而重算为1,662组／1,662个直接候选／1,677条组成员映射。本批后S6累计逐条裁决211/10,406条（143 formal、59 pending、9 rejected），尚有10,195条未逐项裁决；关系表仍为1,368条（1,365 formal、3 pending）。
