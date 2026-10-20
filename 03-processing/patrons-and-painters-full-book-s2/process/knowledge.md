@@ -9055,3 +9055,12 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 **验证：** `build_field_facts.py --apply` 完成，预检 warnings=0；三卡 `build_cards.py --preview --ku` 均显示预期的关系投影，再逐卡渲染，写后字节核验通过。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence 与 unbaselined generic evidence-backed 均为0。`audit_tables.py --strict-stage --summary` 通过，`errors=[]`、`s2_missing=[]`；仍有 S4 待登记映射及 S2 独立语义审查提示。
 
 **批次后全书状态：** S3 决定覆盖仍为12,408/12,408；`new` 为5,029候选、4,805组。S4 登记1,341/4,805组、1,545/5,029映射；待登记3,464组／3,484映射。直接端点待登1,713组／1,713个端点候选／1,727条成员映射（person 1／1、institution 90／90、event 101／101、place 223／223、work 319／328、archive 456／461、term 523／523），非直接队列1,751组／1,757映射。S6关系表1,292条（1,289 formal、3 pending），逐条裁决累计106条S2候选（64 formal、35 pending、7 rejected）。这些候选裁决仍不等于10,401条关系候选全部收口。
+<a id="s4-s6-wilhelm-liechtenstein-article-20261020"></a>
+
+### S4/S6 archive：F. Wilhelm《列支敦士登亲王艺术收藏史新资料》及第7章三条跨页引文（2026-10-20）
+
+沿用既有 S3 `new` 组 `archive-group-af6e2169ff22`（`cand-7185`），登记一张 archive KU：[Wilhelm 文章卡](../../../04-knowledge/units/archives/wilhelm-liechtenstein-art-collection-1911.md)。第21章书目 p.440–441（Markdown L1259–1263）支持书目责任者形式“Wilhelm, F.”、德文原题、期刊、1911年 Beiblatt 与 pp.87–142；中文、英文展示题名为描述性工作译名。作者全名候选 `cand-7184` 仍为 `undecided`，没有建立作者关系；文章及被引页均未独立查阅。
+
+第7章 p.194 n.2（L36）、p.194 n.4（L102）和 p.195 n.1（L103）三条明确引文逐条裁为 formal `cites`，记录为 `rel-1300`–`rel-1302`，方向均为《赞助人与画家》→该文章。p.195 n.1 的 “ibid.” 依紧邻的 n.4 解析为 Wilhelm；注释后半是 Haskell 对 Prince 偏好的解释，已从错误的 Prince→Wilhelm 关系候选拆出，改记为不生成 S6 边的 `authorial_interpretation`，并保留 “curious” 和 “even in sacred pictures” 的限定。
+
+本批后 S4 已登记1,347/4,805组、1,551/5,029条映射；待登记3,458组／3,478条映射，其中直接端点1,709组／1,723条映射，非直接队列1,749组／1,755条映射。S6关系表1,302条（1,299 formal、3 pending）；S2关系候选逐条裁决119/10,403（74 formal、38 pending、7 rejected）。S2 statements 增至15,167条；独立逐条语义复核9,400/15,167，剩余5,767条。S5新增7条由哈斯克尔书目与脚注直接支持的书目字段，均为 `source_backed`；全表11,825条、1,634条仍为 `unverified`，作者身份及文章内容未作外部核验。严格结构审计和关系一致性检查通过仅说明机械完整，不代表文章内容核验或S2全书接收。

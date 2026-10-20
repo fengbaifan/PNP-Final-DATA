@@ -27303,3 +27303,10 @@ m-chp8-pl33b-palace,chp-8:08_CHP-8_sec_ii:l37-39,cand-3949,Palazzo Buonaccorsi,6
 m-chp8-pl33b-city,chp-8:08_CHP-8_sec_ii:l37-39,cand-3935,Macerata,81,89,Printed location in the Plate 33b caption.
 m-chp21-bib-jacob-spon,chp-21:21_CHP-21Bibliography:l1102-1139,cand-6396,"Spon, Jacob",2044,2055,Bibliography name form; candidate canonical order is Jacob Spon.
 m-chp21-bib-george-wheler,chp-21:21_CHP-21Bibliography:l1102-1139,cand-6397,"Wheler, George",2059,2073,Bibliography name form; candidate canonical order is George Wheler.
+m-chp8-pl34-work,chp-8:08_CHP-8_sec_ii:l41-43,cand-4111,Velasquez: Juan de Pareja,65,90,Plate 34 caption identifies the pictured work; the full caption span intentionally overlaps creator and sitter mentions.
+m-chp8-pl34-creator,chp-8:08_CHP-8_sec_ii:l41-43,cand-3894,Velasquez,65,74,Artist name as printed in the Plate 34 caption.
+m-chp8-pl34-sitter,chp-8:08_CHP-8_sec_ii:l41-43,cand-3818,Juan de Pareja,76,90,Depicted sitter named in the Plate 34 caption.
+m-chp8-pl35a-work,chp-8:08_CHP-8_sec_ii:l45-46,cand-4088,Aristotle contemplating the Bust of Homer,23,64,Plate 35a work title; the title span intentionally overlaps its named figures.
+m-chp8-pl35a-creator,chp-8:08_CHP-8_sec_ii:l45-46,cand-3471,Rembrandt,12,21,Creator named in the Plate 35a caption; caption attribution only.
+m-chp8-pl35a-aristotle,chp-8:08_CHP-8_sec_ii:l45-46,cand-3727,Aristotle,23,32,Named iconographic subject in the Plate 35a work title.
+m-chp8-pl35a-homer,chp-8:08_CHP-8_sec_ii:l45-46,cand-3805,Homer,59,64,Subject of the bust named in the Plate 35a work title.

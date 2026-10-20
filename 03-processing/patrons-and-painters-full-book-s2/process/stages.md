@@ -13399,3 +13399,30 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 | `m-chp8-pl33b-city` | `cand-3935` | `Macerata` | `[81,89)` |
 
 原文提及保持OCR字面形式 `Soumena`；页图确认印刷名为 `Solimena`，此校读仍留在S2限定说明，不改写S0来源。局部预检确认7个ID及跨度无冲突，之后补录。`audit_tables.py --strict-stage --summary` 通过：mentions由26,627增至26,634，`errors=[]`、`s2_missing=[]`；S2 statements仍为15,164条，coverage仍按已完成迁移登记。此项是局部表修复，不构成章节独立验收或整体S2接收。
+
+<a id="s2-review-ch8-plate34-35a-mentions-20261020"></a>
+
+## 第八章 Plate 34 与 Plate 35a 独立复核及 mention 回补（2026-10-20）
+
+沿上一游标核对 `chp-8:08_CHP-8_sec_ii:l41-43`（Plate 34，PDF物理页16）及 `l45-46`（Plate 35a，物理页17），对照S0、当前statement和两页页图。5条statement均获原文支持，relation_candidate=true；未改claim、候选身份或关系状态。Plate 34 页图显示完整组题，但S0 line 42 只转录了后半标题；组题是编辑导航，不形成研究主题。Plate 35a 的S0 line 45 `[Page 3]` 与印本页标不符，statement保留印本 Plate 35 的定位；被引内容未在本次复核中核查。
+
+两段原有mention均缺失。按当前S0段文本零基半开区间补入7条：
+
+| mention_id | candidate | 原文表面 | 精确跨度 |
+|---|---|---|---|
+| `m-chp8-pl34-work` | `cand-4111` | `Velasquez: Juan de Pareja` | `[65,90)` |
+| `m-chp8-pl34-creator` | `cand-3894` | `Velasquez` | `[65,74)` |
+| `m-chp8-pl34-sitter` | `cand-3818` | `Juan de Pareja` | `[76,90)` |
+| `m-chp8-pl35a-work` | `cand-4088` | `Aristotle contemplating the Bust of Homer` | `[23,64)` |
+| `m-chp8-pl35a-creator` | `cand-3471` | `Rembrandt` | `[12,21)` |
+| `m-chp8-pl35a-aristotle` | `cand-3727` | `Aristotle` | `[23,32)` |
+| `m-chp8-pl35a-homer` | `cand-3805` | `Homer` | `[59,64)` |
+
+预检逐项确认表面字串与S0切片相同；作品标题与其作者／人物mention按语义重叠保留。此局部回补把第八章当前统一独立复核数从482增至487/1,462，仍不接收图版段或整章。下一源序游标为 `chp-8:08_CHP-8_sec_ii:l48-67`（Plate 36）；第七章 p.199 仍待复核。
+<a id="s2-split-wilhelm-citation-and-p195-comment-20261020"></a>
+
+### 2026-10-20：第7章 p.195 注1 书目引文与作者评论拆分
+
+复核此前记录的 `st-chp7-p195-n1-prince-taste-comment`：同一注先以“ibid., pp. 89 and 92”引用 F. Wilhelm，随后才由 Haskell 评论“mondane”及 Prince 的偏好。将引文拆为新 statement `st-chp7-p195-n1-wilhelm-citation`，按独立的书→文章 `cites` 候选处理；原评论保留为 `authorial_interpretation`、`relation_candidate=false`，主语仅保留 Prince 候选，清除文章对象。正文脚注回链同时列出两条statement。
+
+评论原有 S2 真关系分类是误建端点造成的分类错误，现予更正；其判断内容与原始转录保留，包括“curious”及“even in sacred pictures”。并移除 p.194 注2、注4 的内部过程摘要和未出现在脚注中的人物 mentions，保留两条实际 Wilhelm 文献引用及正文回链。p.195 本批增加1条已复核statement，总表改为15,167条，独立复核9,400条。该修正不改变 `relation_candidate=true` 总数（仍为10,403）；不得把评论登记为拒绝的正式关系，也不从S6生成 Prince—Wilhelm 边。原书页图校正 `in.` 的记录保留；本批不独立核验 Wilhelm pp.89、92。
