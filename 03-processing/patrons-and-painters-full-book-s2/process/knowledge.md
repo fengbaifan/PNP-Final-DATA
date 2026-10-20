@@ -2,6 +2,16 @@
 
 更新日期：2026-10-20。
 
+<a id="s4-s6-pintard-book-cross-chapter-citations-20261020"></a>
+
+### S4/S6 archive：Pintard《Le libertinage érudit》及第4章跨章引文（2026-10-20）
+
+沿用既有 S3 `new` 组 `archive-group-058153ec9714`，将 `cand-4547` 登记为一张 archive KU；第21章书目 p.433 支持原题、书目责任者形式“Pintard, R.”、Paris 与1943年。中文与英文显示名是描述性工作译名。候选 `cand-5818` 的作者人物身份继续待证，本批不新建人物或作者关系。原书与p.262、p.238被引内容均未独立查阅。
+
+第4章两条明确的 `cites` 候选逐条裁为 formal：`st-chp4-sec-ii-notes-l260-264-fn261-pintard` → `rel-1298`（p.107 n.2，引用第2章“Les déniaisés d’Italie”）；`st-chp4-sec-ii-notes-l265-268-fn266-pintard-citation` → `rel-1299`（p.108 n.2，引用p.238）。关系只表达哈斯克尔脚注的引文指向，不验证相邻叙述或被引内容。结构化关系已投影到两端卡片；这两条新增候选不计入 S2 独立语义复核覆盖。
+
+本批后 S4 已登记1,346/4,805组、1,550/5,029条候选映射；待登记3,459组／3,479条映射。直接关系端点待登1,710组／1,724条成员映射。S6关系表1,299条（1,296 formal、3 pending）；逐条裁决116/10,403（71 formal、38 pending、7 rejected），`source_id`缺失0。S5字段表及S2独立复核覆盖不变。严格结构与关系一致性核验结果仅说明机械条件，不代表全书语义接收。
+
 <a id="s4-s6-archives-vasari-and-spon-wheler-20261020"></a>
 
 ### S4/S6 archive 与作者端点：Vasari《蒙托尔索利传》及 Spon/Wheler《意大利旅行记》（2026-10-20）
