@@ -8378,7 +8378,7 @@ cand-7664 沿用 S3 new 组 workgrp-26c7ec57931fff，登记至[《洪水》画�
 
 ### S2 第3章独立语义复核（2026-10-20）
 
-当前1,173/1,173条statement均已逐条对照原文，其中 `relation_candidate=true` 938条、`false` 235条、unset 0；最后86条脚注与2条视觉转录已覆盖。本次只读，未改写S2表。两条p.73视觉转录 `st-chp3-secii-p73-note3-ibid`（回指 cand-5129）和`st-chp3-secii-p73-note4-passeri`（Passeri pp.66–67，cand-4376）核对相符；`cand-0710` same至既有Chiesa Nuova KU成立。**本章不接收**，因仍有以下语义阻断：
+该次独立复核覆盖当时1,173/1,173条statement；本批新增1条statement后，本章当前共1,174条，其中1,173条已复核，新行尚未独立复核，其中 `relation_candidate=true` 938条、`false` 235条、unset 0；最后86条脚注与2条视觉转录已覆盖。本次只读，未改写S2表。两条p.73视觉转录 `st-chp3-secii-p73-note3-ibid`（回指 cand-5129）和`st-chp3-secii-p73-note4-passeri`（Passeri pp.66–67，cand-4376）核对相符；`cand-0710` same至既有Chiesa Nuova KU成立。**本章不接收**，因仍有以下语义阻断：
 
 - 说话者及来源定位：`st-chp3-seciv-l141-150-pozzo-attacked-for-stucco-removal`、`st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project`把Haskell正文误归给已结束的传记作者引文；`st-chp3-seciv-l48-56-oliva-implicated`、`st-chp3-seciv-l48-56-jesuits-opposed-daily-communion`与`st-chp3-seciv-l48-56-jesuits-opposed-passive-contemplation`错挂穹顶告示脚注；`st-chp3-seciv-l83-94-negroni-papal-arms`的证据锚应从L85扩到L81–85。
 - 端点方向/类型：`st-chp3-seciv-l165-177-site-officially-belonged-to-savelli`与`st-chp3-seciv-l179-187-annunciation-relief-in-right-chapel`需统一谓词和端点方向；`st-chp3-seciv-l16-24-oliva-took-advantage-of-new-situation`须保留Haskell推断性质；`st-chp3-seciv-l96-104-bernini-france-jesuit-links`把耶稣会教堂误连为组织；`st-chp3-seciv-l96-104-camillo-son-followed-example`把儿子效仿对象映为工程而非父亲。
@@ -8615,3 +8615,45 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 | st-chp10-p285-fresco-destruction-after-systeme-collapse | 装饰方案 work → John Law’s Système financial scheme term | 第10章 p.285 L180 | pending。来源报告壁画在该金融方案崩溃后不久毁损；当前没有受控的时间限定毁损关系，且 cand-8966 指向金融方案 term、不是“崩溃”事件，term KU 也尚未登记。|
 
 四条均留作 pending；未新增 formal 边、关系类型或 `relations.csv` 行。S4 只解决 cand-8964 的作品端点；S6 关系语义限制和术语端点仍保留在本记录。
+
+<a id="s4-s6-s-ignazio-endpoint-cluster-20261020"></a>
+
+### S2定点修订、S4走廊／拱顶端点登记与S6逐条裁决（2026-10-20）
+
+**S2 修订：** 第3章 p.90 的两条 statement 之前将哈斯克尔已经结束的传记作者引文误作说话者。本次将 `st-chp3-seciv-l141-150-pozzo-attacked-for-stucco-removal` 与 `st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project` 的 `speaker`、`text_layer` 与 `claim` 改为 Haskell 作者叙述；前者仍为非关系候选，后者仅保留“考虑放弃”的意图陈述。新增 `st-chp3-seciv-l130-139-pozzo-divided-corridor-scenes`，将原文“the artist”按上下文映射至 Andrea Pozzo 与走廊装饰，记录其分场与描绘贡献；既有 mention 已对应 cand-2034，未新增 mention。原引文已与来源 L132 逐字核对。第3章该次独立复核覆盖当时1,173/1,173条；当前1,174条中1,173条已复核，新行未纳入独立审读，本章仍不接收。
+
+**S4 登记：** 沿用五个既有 S3 `new` 组，各登记一张有来源依据的 KU 卡，并写入 manifest、accepted.yml 与候选映射；没有新增外部身份核验或 S5 字段。
+
+| 候选 | 既有 S3 组 | 类型 | 新 KU |
+|---|---|---|---|
+| cand-5365 | workgrp-cabade45abc751 | work | [走廊装饰](../../04-knowledge/units/works/pozzo-corridor-decoration-s-ignazio.md) |
+| cand-5366 | sg3-term-cand-5366 | term | [putti 框景母题](../../04-knowledge/units/terms/putti-framing-corridor-decoration-s-ignazio.md) |
+| cand-5368 | workgrp-12a04370498279 | work | [帆布穹顶幻象](../../04-knowledge/units/works/pozzo-canvas-dome-illusion-s-ignazio.md) |
+| cand-5389 | sg3-place-cand-5389 | place | [圣依纳爵堂整面拱顶](../../04-knowledge/units/places/s-ignazio-main-vault.md) |
+| cand-5390 | workgrp-83d4cc948e6582 | work | [拱顶旧灰泥装饰](../../04-knowledge/units/works/earlier-stucco-decoration-vault-s-ignazio.md) |
+
+**S6 逐条结果：** 对照 S2 statement、引文、候选端点映射及 `01-domain/relation-domain-range.yml`，本簇19条均有明确去向：9条 formal、9条 pending、1条 rejected。正式边见 `relations.csv` rel-1243–rel-1251；不受控的语义不改写成正式谓词，pending／rejected 及理由留在本记录。
+
+| statement_id | S2 端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| st-chp3-seciv-l130-139-corridor-layout | 走廊装饰 work → putti term | 第3章 p.89 L132 | pending。原文描述 putti 与框景分隔场景，当前没有表达作品使用装饰母题的受控谓词。 |
+| st-chp3-seciv-l130-139-device-shown-june-1685 | 帆布幻象 work → public audience term | 第3章 p.89 L137 | pending。audience 候选 cand-5105 仍未决、未登记；“向公众展示”也没有可直接表示的受控关系。 |
+| st-chp3-seciv-l130-139-giacomo-began-decoration | 走廊装饰 work → Giacomo Borgognone person | 第3章 p.89 L132 | formal，rel-1243 `created_by`。role/scope 限定为 Borgognone 开始且未完成的初始工作，不称唯一创作者。 |
+| st-chp3-seciv-l130-139-mattia-advice-plan-accepted | Mattia de’ Rossi person → 帆布幻象 work | 第3章 p.89 L136 | pending。来源说其建议后方案获采纳；当前谓词不能表示建议影响计划，不改写为创作或委托。 |
+| st-chp3-seciv-l130-139-pozzo-divided-corridor-scenes | Andrea Pozzo person → 走廊装饰 work | 第3章 p.89 L132 | formal，rel-1244 `creator_of`。记录分场与描绘贡献；与 Borgognone 先前未完成的工作并存，不主张独创或完成。 |
+| st-chp3-seciv-l130-139-pozzo-proposed-painted-dome | Andrea Pozzo person → 帆布幻象 work | 第3章 p.89 L136–137 | formal，rel-1246 `created_by`。方案获采纳，随后原文称公开展示的装置为“his device”；不据此补写协作者或制作细节。关系证据同时引用 proposed 与 device-shown 两条 statement。 |
+| st-chp3-seciv-l130-139-pozzo-required-to-paint-corridor | Andrea Pozzo person → 走廊装饰 work | 第3章 p.89 L131 | pending。受命承担工作不等于可由当前受控关系直接表达的创作或委托边；实际分场与描绘由独立 statement 记录。 |
+| st-chp3-seciv-l130-139-scenes-depict-ignatius | 走廊装饰 work → Ignatius of Loyola person | 第3章 p.89 L132 | formal，rel-1245 `has_subject`。来源明确说场景描绘圣依纳爵此世与来世经历。 |
+| st-chp3-seciv-l141-150-dome-reputation-led-to-vault-idea | 既有穹顶壁画 work → 帆布幻象 work | 第3章 p.90 L147 | pending。原文转引传记作者的起因叙述；当前关系类型不能表达声誉导致方案构想的因果关系。 |
+| st-chp3-seciv-l141-150-pozzo-called-stucco-kitchen-suitable | Andrea Pozzo person → 旧灰泥装饰 work | 第3章 p.90 L147 | pending。该断言记录对作品的评价性引语，不是当前可控的正式关系类型。 |
+| st-chp3-seciv-l141-150-pozzo-destroyed-stucco-decoration | Andrea Pozzo person → 旧灰泥装饰 work | 第3章 p.90 L147 | pending。来源明确记载毁去，但当前关系类型不表达毁损事件；保留来源事实，不造谓词。 |
+| st-chp3-seciv-l141-150-stucco-removal-required-for-vault-fresco | 旧灰泥装饰 work → 拱顶壁画 work | 第3章 p.90 L147 | pending。原文是“若要绘制拱顶则必须移除”的条件关系，当前无相应受控谓词。 |
+| st-chp3-seciv-l141-150-vault-previously-decorated-with-stucco | 旧灰泥装饰 work → 整面拱顶 place | 第3章 p.90 L147 | formal，rel-1247 `located_at`。记录先前装饰所在建筑空间，不推断作者、具体日期或保存状态。 |
+| st-chp3-seciv-l141-150-pozzo-began-vault-undertaking-in-1688 | Andrea Pozzo person → 拱顶壁画 work | 第3章 p.90 L147 | formal，rel-1248 `creator_of`，time=1688；只记工程开始，不推断完工日期。 |
+| st-chp3-secii-l89-90-p15-church-city | S. Ignazio church place → Rome place | 图版15题注（来源页标记 p.15；PDF物理页13） | formal，rel-1249 `located_at`。题注明确将教堂标为位于 Rome。 |
+| st-chp3-secii-l89-90-p15-fresco-location | 拱顶壁画 work → S. Ignazio church place | 图版15题注（来源页标记 p.15；PDF物理页13） | formal，rel-1250 `located_at`。题注定位的是壁画，不将该地点外推给模型。 |
+| st-chp3-secii-l89-90-p15-model-for | modello work → 拱顶壁画 work | 图版15题注（来源页标记 p.15；PDF物理页13） | formal，rel-1251 `model_for`。题注明确将 modello 指为拱顶壁画的模型。 |
+| st-fm-pl-p15-target-space | modello work → S. Ignazio church place | 前置图版清单，图版15 | rejected。原记录把模型的题材对象／壁画地点混作模型所在地点；相邻图版题注仅支持壁画地点与模型对应关系。 |
+| st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project | Jesuits institution → 拱顶壁画 work | 第3章 p.90 L147 | pending。Haskell报告耶稣会士曾考虑放弃，但后句称当时已为时过晚；这不是已完成的放弃事件，当前无受控意向谓词。 |
+
+**累计状态：** S4 已登记1,317/4,805组、1,519/5,028条候选映射；待登记3,488组／3,509条映射。直接关系端点待登队列1,736组／1,736个候选／1,750条成员映射；非直接待登记1,752组／1,759条映射；KU=2,336。S2 共15,164条statement，relation_candidate=true 10,401；新增statement未纳入统一独立复核覆盖。S6关系表为1,251条（1,249 formal、2 pending）；本过程记录累计裁决30条S2候选，其中formal 9、pending 20、rejected 1。S5为11,731条字段、1,625条unverified。以上为批次状态，不代表全书S2语义接收或S6全量收口。
