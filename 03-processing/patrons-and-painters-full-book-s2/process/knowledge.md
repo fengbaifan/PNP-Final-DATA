@@ -8935,3 +8935,32 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 当前结果表审计：`audit_tables.py --strict-stage --summary` 的 `errors=[]`、`s2_missing=[]`；KU=2,354，S3候选=12,408，alignment=12,716且未链接=0，待S4登记新组映射=3,492，S6关系表=1,279（1,276 formal、3 pending），S5字段=11,778（1,625 unverified），来源=1,758。关系一致性审计的断链、无效类型、缺失逆向边、弱证据和未基线通用证据均为0；孤立单元1,432、过度连接单元1为信息项。`git diff --check` 通过。
 
 **本批后当前状态：** S4已登记1,334/4,805组、1,537/5,029条映射；待登记3,471组／3,492条映射。直接端点待登1,720组／1,720个候选／1,734条成员映射（person 1/1、institution 90/90、event 101/101、place 224/224、work 319/328、archive 460/465、term 525/525），另有1,751组／1,758条非直接映射。S6过程记录累计裁决82条S2候选（51 formal、26 pending、5 rejected）。
+
+<a id="s4-s6-term-barq-ceiling-and-english-impact-20261020"></a>
+
+### S4/S5/S6 term：巴洛克天花板装饰与英国对意大利艺术影响（2026-10-20）
+
+按术语直接端点的可解锁候选数，登记两个既有 S3 `new` 单成员组。
+
+**S3→S4 身份去向：** `cand-4723`（`sg3-term-cand-4723`）登记为[巴洛克天花板装饰类型术语](../../../04-knowledge/units/terms/baroque-ceiling-decoration-mode.md)。依第2章 p.101 与第7章 p.196 的 Haskell 描述界定：保留作者对 Cortona 天花板和 Verrio 装饰类型的艺术史概括，不扩展为独立分期边界、正式风格定义或已证实首创。
+
+`cand-7205`（`sg3-term-cand-7205`）登记为[英国影响意大利艺术的历史主题术语](../../../04-knowledge/units/terms/italian-art-english-patronage-impact.md)。第7章 p.195 比较1700年前后的影响，称前者相较德国、奥地利委托几乎可忽略、下一个世纪变得重要；保留作者原有时期和比较限定，不量化或补写因果事实。两组均不外推到既有“意大利艺术”或“英国对意大利艺术的赞助”宽泛术语。
+
+**S5 定向字段：** 两卡合计10条 `source_backed` 字段，分别锚定 Haskell 第2章 p.101、第7章 p.195–196。定点字段抽取生成 `enr-15539`–`enr-15548`，未查外部资料或新增来源登记。
+
+**S6 逐条裁决：** 两个术语组关联的8条直接候选中，6条 pending、2条 rejected，0条 formal，`relations.csv` 不变。当前域值域矩阵没有可准确表达相关 term 端点组合的受控谓词；被否决的候选仍分别保留为术语单端描述或不相干的来源主张，不否定其原书文字。
+
+| statement_id | 端点与定位 | 决定 |
+|---|---|---|
+| `st-chp2-seciv-l96-104-ceiling-baroque-characterization` | Cortona 天花板 → 巴洛克装饰术语；第2章p.101 L101 | pending。书内判断有据，但 work→term 组合没有可用的准确受控谓词。 |
+| `st-chp7-p196-verrio-brings-baroque-decoration` | Verrio → 巴洛克装饰术语；第7章p.196 L50–51 | pending。带入装饰类型的陈述有据，但 person→term 端点不符合现有谓词域值域。 |
+| `st-chp7-p196-verrio-illusionistic-effects` | 巴洛克装饰术语单端描述；第7章p.196 L51 | rejected（关系边）。陈述无第二实体端点，作为术语描述已写入卡片。 |
+| `st-chp7-p196-verrio-style_evaluation` | Verrio → 巴洛克装饰术语；第7章p.196 L51 | pending。复合评价指向其作品，但 S2 端点为 person→term，当前无准确谓词。 |
+| `st-chp7-p195-charlesii-no-contemporary-italian-interest` | Charles II → 英国影响意大利艺术主题；第7章p.195 L45–46 | pending。负向兴趣陈述有据，但没有当前可用的负向 person→term 谓词。 |
+| `st-chp7-p195-england-impact-comparison` | England → 英国影响意大利艺术主题；第7章p.195 L44 | pending。影响比较有据，但地点→术语端点组合没有矩阵许可的谓词；保留“几乎可忽略”限定。 |
+| `st-chp7-p195-english-patronage-next-century` | 英国赞助术语 → 英国影响意大利艺术主题；第7章p.195 L44 | pending。原文说明下一个世纪影响的重要性，但 term→term 组合无当前许可的受控谓词。 |
+| `st-chp7-p195-female-nude-historical-role` | 德国赞助／女性裸体陈述 → 英国影响意大利艺术主题；第7章p.195 L41 | rejected（与该术语的关系候选）。来源明确归因于德国赞助者，不支持其与英国影响主题相连；不否定原书对德国赞助的陈述。 |
+
+**验证：** `build_cards.py --preview` 确认两卡均显示“当前没有正式关系”，并保留逐条裁决说明；定点渲染2卡、10个字段表行、0条关系行，写后字节核验通过。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；KU=2,356，待S4登记映射=3,490，S6关系表=1,279（1,276 formal、3 pending），S5字段=11,788（1,625 unverified），来源=1,758。关系一致性审计断链、无效类型、缺失逆向边、弱证据和未基线通用证据均为0；孤立单元1,434和过度连接单元1为信息项。
+
+**本批后当前状态：** S4已登记1,336/4,805组、1,539/5,029条映射；待登记3,469组／3,490条映射。直接端点待登1,718组／1,718个候选／1,732条组成员映射（person 1/1、institution 90/90、event 101/101、place 224/224、work 319/328、archive 460/465、term 523/523），另有1,751组／1,758条非直接映射。S6过程记录累计裁决90条S2候选（51 formal、32 pending、7 rejected）。
