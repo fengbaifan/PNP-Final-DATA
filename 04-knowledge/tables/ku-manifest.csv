@@ -1,4 +1,4 @@
-ku_id,type,canonical_name,name_en,source_task,card_path
+﻿ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -2313,3 +2313,6 @@ units/terms/classicism-emerging-against-late-baroque-lodoli-account,term,洛多�
 units/terms/bernini-baldacchino-iconographic-scheme,term,贝尔尼尼巴尔达基诺的图像方案,Iconographic Scheme of Bernini’s Baldacchino,patrons-and-painters-full-book-s2,04-knowledge/units/terms/bernini-baldacchino-iconographic-scheme.md
 units/terms/diffusion-of-neapolitan-painting,term,那不勒斯绘画的传播,Diffusion of Neapolitan Painting,patrons-and-painters-full-book-s2,04-knowledge/units/terms/diffusion-of-neapolitan-painting.md
 units/terms/true-classical-painting-path,term,真正古典绘画之路,Path of True Classical Painting,patrons-and-painters-full-book-s2,04-knowledge/units/terms/true-classical-painting-path.md
+units/events/s-salvatore-in-lauro-exhibition-1675,event,圣年1675年圣萨尔瓦托雷因劳罗展览,Holy Year 1675 Exhibition at S. Salvatore in Lauro,patrons-and-painters-full-book-s2,04-knowledge/units/events/s-salvatore-in-lauro-exhibition-1675.md
+units/events/s-salvatore-in-lauro-exhibition-1697,event,1697年圣萨尔瓦托雷因劳罗展览,1697 Exhibition at S. Salvatore in Lauro,patrons-and-painters-full-book-s2,04-knowledge/units/events/s-salvatore-in-lauro-exhibition-1697.md
+units/events/venetian-academy-piazzetta-exhibition-series,event,威尼斯学院皮亚泽塔年度展览系列,Venetian Academy Annual Exhibition Series at the Piazzetta,patrons-and-painters-full-book-s2,04-knowledge/units/events/venetian-academy-piazzetta-exhibition-series.md

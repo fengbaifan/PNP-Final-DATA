@@ -1,4 +1,4 @@
-# 全书 S3 身份对齐过程
+﻿# 全书 S3 身份对齐过程
 
 更新日期：2026-10-20。
 
@@ -32,7 +32,7 @@
 | 类型 | 候选 | same | new（组/成员） | conflict | excluded | undecided | S4已登记（组/成员） | S4待登记（组/成员） |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | archive | 2,100 | 90 | 1,240 / 1,298 | 0 | 18 | 694 | 125 / 174 | 1,115 / 1,124 |
-| event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 74 / 78 | 157 / 157 |
+| event | 357 | 7 | 231 / 235 | 0 | 0 | 115 | 77 / 81 | 154 / 154 |
 | family | 135 | 22 | 88 / 94 | 0 | 1 | 18 | 88 / 94 | 0 / 0 |
 | institution | 497 | 180 | 186 / 197 | 0 | 0 | 120 | 28 / 39 | 158 / 158 |
 | person | 3,464 | 1,204 | 1,069 / 1,171 | 4 | 7 | 1,078 | 798 / 898 | 271 / 273 |
@@ -41,7 +41,7 @@
 | term | 1,641 | 43 | 928 / 940 | 0 | 2 | 656 | 46 / 58 | 882 / 882 |
 | work | 2,397 | 238 | 477 / 495 | 5 | 29 | 1,630 | 60 / 68 | 417 / 427 |
 | 未分类 | 665 | 0 | 0 / 0 | 0 | 43 | 622 | 0 / 0 | 0 / 0 |
-| **合计** | **12,408** | **2,023** | **4,806 / 5,029** | **9** | **100** | **5,247** | **1,295 / 1,497** | **3,511 / 3,532** |
+| **合计** | **12,408** | **2,023** | **4,806 / 5,029** | **9** | **100** | **5,247** | **1,298 / 1,500** | **3,508 / 3,529** |
 
 <a id="s3-person-padre-valeriano-reuse-20261019"></a>
 
@@ -53,7 +53,7 @@
 
 48 项 S1 明确排除均保留为 `excluded`（未分类 43、人物 3、作品 1、术语 1）；另有 52 项按 S3 的对象类型／独立性判断排除（档案文献 18、家族 1、人物 4、术语 1、作品 28）。曾有一条作品占位候选 `cand-10059` 在类型建议中误判为 `same`；合并时按其 S1 排除状态恢复为 `excluded`。其所指的真实作品由候选 `cand-4048` 承接。
 
-当前快照（2026-10-19）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5,248项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中622项仍为未分类类型，等待类型证据，不强塞入现有类。按候选级裁决汇总，12,408个候选均有现行决定；308条额外外部身份记录另行保留，另有18条候选决定行本身同时带外部来源字段。same的2,023条候选指向1,092个既有KU；new候选组成4,812个类型内身份组，共5,028条映射。S4按整组登记，当前没有组内部分登记或类型不符映射；1,269组／1,463条映射已登记，3,543组／3,565条成员映射尚待登记，其中直接关系端点待登记1,788组／1,789个直接端点候选、共含1,803条组成员映射（人物2组／2成员、机构96组／96成员、事件104组／104成员、地点232组／232成员、作品337组／348成员、档案478组／482成员、术语539组／539成员）。S2 10,400条关系候选中，现行statement表有333条至少一端没有候选ID（125段：仅缺object 218条、仅缺subject 43条、两端均缺72条）；这些空端点与S3身份未决、S4待登记分别统计。字段表当前共11,714条，其中1,625条unverified。此处收口的是S3决定与可追溯去向，冲突和待证身份问题本身未解决；alignment.csv行数包含额外外部身份记录，候选决定统计仍须按candidate_id口径维护。
+当前快照（2026-10-20）：人物冲突4项、作品冲突5项；冲突两侧和来源位置均留在候选行，不强选一方。5247项 `undecided` 各自保留对象、版本、身份、类型或来源锚点不足的理由与后续去向；其中665项仍为未分类类型，等待类型证据，不强塞入现有类。按候选级裁决汇总，12408个候选均有现行决定；same=2023（指向1092个既有KU）、new=5029（4806个身份组）。S4已登记1298组／1500条映射，待登记3508组／3529条成员映射；其中直接关系端点待登记1756组／1756个直接端点候选、共含1770条组成员映射（person 2组／2成员、institution 90组／90成员、event 101组／101成员、place 227组／227成员、work 331组／340成员、archive 477组／482成员、term 528组／528成员），非直接映射待登记1752组／1759条。S2有10400条 `relation_candidate=true` statement，其中333条至少一端没有候选ID（仅缺subject 43、仅缺object 218、两端均缺72）。字段表共11731条，其中1625条unverified。上述是决定记录与映射状态，不表示冲突、待证身份或关系已解决。
 
 <a id="s3-s4-alazard-strozzi-cross-type-batch-20261019"></a>
 
@@ -8485,3 +8485,22 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 `cand-9739`（第10章 p.320，L159）保留原有 S3 `new` 决定；`cand-10464`（第15章 p.364 注1，L51）由 `undecided` 改为 `new`，与前者共用身份组 `sg3-institution-cand-9739`，两条映射登记至[威尼斯国家审判官机构卡](../../04-knowledge/units/institutions/inquisitori-di-stato-venice.md)。跨章判断依据是第15章脚注明确写出 `Inquisitori di Stato (Busta 540)`，并由威尼斯国家档案官方指南的同名机构条目核对；该外部指南只用于名称及身份，不替代档案原件查阅。机构本体、Archivio di Stato di Venezia 保管机构及 Busta 540 / Annotazioni 档案记录保持分立；不据此推断机构权限、Lodoli 案件详情或档案内容，也不与 `Inquisitori alle Arti` 合并。
 
 四条相关直接 S2 关系候选（`st-chp10-p320-lodoli-dispute-with-inquisitori-over-state-documents`、`st-chp10-p326-inquisitori-opposition`、`st-chp10-p326-inquisitors-interpret-allegories`、`st-chp10-p327-inquisitors-act-four-days-later`）中三条现在有完整 KU 端点，仍待 S6 逐条裁决；`st-chp10-p326-inquisitors-interpret-allegories` 仍被对象端候选 `cand-9807` 的未决身份阻断。本批未写入正式关系或 S5 字段。全书当前 S3 为 same=2,023、new=5,029/4,806组、conflict=9、excluded=100、undecided=5,247；S4 已登记1,292/4,806组、1,494/5,029条映射，待登记3,514组/3,535条映射。直接关系端点待登记队列为1,762组/1,762个直接端点候选/1,776条组成员映射，其中 institution 90组；其余1,752组/1,759条映射不直接作为当前S2关系端点。
+
+
+<a id="s4-event-direct-endpoints-exhibitions-ch5-ch10-20261020"></a>
+
+### S4 event：第5、10章展览直接端点登记（2026-10-20）
+
+沿用既有 S3 `new` 决定，将三个事件身份组各登记为一张 KU，并按已核原文保存双语描述和逐条引文。
+
+| candidate | S3 身份组 | 来源锚点 | S4 KU | 直接 S2 关系候选 |
+|---|---|---|---|---|
+| `cand-11770` | `sg3-event-cand-11770` | 第5章 p.128 L94 | `units/events/s-salvatore-in-lauro-exhibition-1675` | `st-chp5-p128-salvatore-1675-instance-of-series`、`st-chp5-p128-salvatore-exhibition-purpose`、`st-chp5-p128-salvatore-lenders-glorified` |
+| `cand-11771` | `sg3-event-cand-11771` | 第5章 p.128 L97 | `units/events/s-salvatore-in-lauro-exhibition-1697` | `st-chp5-p128-salvatore-1697-instance-of-series`、`st-chp5-p128-other-collectors-display-intent`、`st-chp5-p128-preacher-sermon`、`st-chp5-p128-cardinals-assembly` |
+| `cand-9872` | `sg3-event-cand-9872` | 第10章 p.331 L271 | `units/events/venetian-academy-piazzetta-exhibition-series` | `st-chp10-p331-academy-borrowed-pictures`、`st-chp10-p331-academy-exhibition-series-started-1777`、`st-chp10-p331-academy-exhibitors-bore-cost`、`st-chp10-p331-state-interference-evaluation` |
+
+1675与1697是两个具体展览场次，不与已登记的 S. Salvatore 常规系列合并；1675 的来源评价保持为转述。1697卡仅记录 Prince Pio 的出借条件、分区陈列和未具名仪式参与者，不补推个人身份。`cand-9872` 登记为年度系列：1777年开始，Haskell称至1787年时展览已停止，未推定末届年份；“国家干预艺术”的总结保留为作者判断。第10章 p.331 尚未完成本轮独立 S2 审读。
+
+本批新增3张事件卡、3条 manifest 记录、3条 accepted 路径及3条 alignment KU 映射；S3 决定和组边界未变。上述11条直接 `relation_candidate=true` 陈述均留待 S6 逐项裁决，本轮未写入正式关系、未新增 S5 字段或外部身份行。
+
+登记后 S4 已登记1,298/4,806组、1,500/5,029条候选映射；待登记3,508组/3,529条映射。直接端点队列为1,756组/1,756个候选/1,770条成员映射，其中事件101组；非直接待登记队列为1,752组/1,759条映射。KU=2317。
