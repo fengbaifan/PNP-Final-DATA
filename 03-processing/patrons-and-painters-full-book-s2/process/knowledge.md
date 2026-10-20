@@ -8722,3 +8722,39 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 | `st-chp4-sec-ii-l53-63-cassiano-urban-tomb-report` | Urban VIII 墓 work → 保罗三世墓 work；第4章 p.104 L54–56，Cassiano 1647年嵌套比较 | rejected as graph edge。该句保留为 S2 引述与声誉比较，不建立墓葬之间的持续二元关系。|
 
 本批将1条候选由 `undecided` 改为 `new`，并修正1条候选类型；S4登记保罗三世墓工作组的2条成员映射，壁龛 place 组仍待登记。S6新增4条逐条裁决（3 formal、1 rejected），写入2条正式关系 `rel-1252`–`rel-1253`；未新增S5字段或外部身份记录。三张受影响卡片经构建器定点预览、写回及字节核验。
+
+### S4：第六章拉特朗改建与宗徒之椅直接端点批次（2026-10-20）
+
+按直接关系端点优先级登记三组已有 S3 `new` 决定；本批不改候选身份决定：
+
+| candidate | S3 身份组 | S4 知识元 | 来源与对象边界 |
+|---|---|---|---|
+| `cand-0704` | `sg3-place-cand-0704` | `units/places/st-john-lateran` | 第6章 p.147 L23–24 称 St John Lateran 为罗马主教座堂；作为 place 建筑记录。 |
+| `cand-6277` | `workgrp-eab5d8c72205a4` | `units/works/borromini-remodelling-st-john-lateran` | 第6章 p.147 L23–24 称博罗米尼接手整体改建；p.148 L27–29 说明保留旧大殿基本结构、将设计工作用于装饰。作为建筑改建 work，与教堂 place 分开；标题为描述性工作名。 |
+| `cand-6304` | `workgrp-bf6d0a2d233fb4` | `units/works/apostles-chair-st-peters-basilica` | 第6章 p.151 L65 称 Bernini 在圣彼得大殿后殿树立宗徒之椅，并描述周围装饰；作为独立 work 记录，不与建筑、教皇墓或后殿空间合并。 |
+
+三组均只依据 Haskell 书内引文登记，没有新增外部身份或 S5 字段。`cand-6278`（被毁壁画群）和 `cand-6316`（米兰画家比较群）仍为 S3 `undecided`，不因相邻关系自动登记。本节记录 S4 登记时的状态；对应 S6 逐条裁决见下节。
+
+<a id="s4-s6-ch6-lateran-apostles-chair-20261020"></a>
+
+### S6：拉特朗改建与宗徒之椅关联的十一条候选（2026-10-20）
+
+逐项核对第6章 p.147–148、p.151 的 S2 statement、来源行、S3/S4 端点及 `01-domain/relation-domain-range.yml`。十一条候选均有明确裁决；五条 statement 归入三条正式关系，三条 pending，三条 rejected：
+
+| statement_id | 映射端点 | 原书定位 | S6 去向与理由 |
+|---|---|---|---|
+| `st-chp6-p147-borromini-takes-over-lateran-remodelling` | Borromini person → St John Lateran 改建 work | 第6章 p.147 L23 | formal，映射到 `rel-1254`（work → person，`contributed_by`）。原书明确称 Borromini 接手整体改建；不扩写为唯一作者或全程施工。|
+| `st-chp6-p147-lateran-and-st-peters-contrast` | St John Lateran place → St Peter's Basilica place | 第6章 p.147 L22–24 | rejected as graph edge。此处为建筑状况与装饰华美的作者比较，不表示两地之间持续的二元关系；比较保留在 S2。|
+| `st-chp6-p148-borromini-preservation-constraint` | Borromini person → St John Lateran place | 第6章 p.148 L28–29 | pending。保存旧大殿结构的指令明确，但发令者未具名，现有受控谓词不能表达该 person → place 指令约束；不以 `entrusted_to_build` 代替。|
+| `st-chp6-p148-borromini-applies-gifts-to-decoration` | Borromini person → St John Lateran 改建 work | 第6章 p.148 L29 | formal，同映射到 `rel-1254`。作为同一改建 work 与参与者的角色细节并入一条边，不重复建边。|
+| `st-chp6-p148-lateran-frescoes-destroyed` | 待证壁画群 `cand-6278` → 改建 work | 第6章 p.148 L27–28 | pending。`cand-6278` 的 S3 身份与作品边界未决；不为满足关系登记而代其建立 KU。|
+| `st-chp6-p148-lateran-interior-and-ornament` | St John Lateran place → 改建 work | 第6章 p.148 L27–28 | rejected as graph edge。原文描述装饰取代被毁壁画；当前端点是建筑与项目，未表示该句所述装饰／壁画对象关系，不能以泛化边替代。|
+| `st-chp6-p148-lateran-instructions-limit-borromini` | St John Lateran place → Borromini person | 第6章 p.148 L27 | pending。作者将教堂的限制归于给 Borromini 的抑制性指令，但发令者未具名，且无受控谓词可精确表示此因果与指令语义。|
+| `st-chp6-p151-bernini-erects-apostles-chair` | Bernini person → 宗徒之椅 work | 第6章 p.151 L65 | formal，映射到 `rel-1255`（work → person，`contributed_by`）。原文明确称其在后殿树立该作品；关系不延伸为唯一作者或完整制作分工。|
+| `st-chp6-p151-chair-doctors-and-milanese-comparison` | 宗徒之椅 work → 未登记比较群 `cand-6316` | 第6章 p.151 L65 | rejected as graph edge。Haskell 作审美比较但不声称米兰画家直接影响 Bernini；比较保留为 S2 解释，`cand-6316` 仍 undecided。|
+| `st-chp6-p151-chair-light-and-architecture` | 宗徒之椅 work → St Peter's Basilica place | 第6章 p.151 L65 | formal，映射到 `rel-1256`（`located_at`）。同一连续原文明确称在圣彼得大殿后殿树立该椅；此边只记来源所述历史安装语境，不将视觉阐释转为建筑物理事实。|
+| `st-chp6-p151-expressionist-element-at-chair` | Bernini person → 宗徒之椅 work | 第6章 p.151 L65 | formal，同映射到 `rel-1255`。该 statement 记载 Bernini 作品中的神秘、表现主义因素在此处被戏剧性运用，作为同一参与边的风格语境，不重复建边。|
+
+本批写入 `relations.csv` 三条 formal 记录 `rel-1254`–`rel-1256`。十一条 S2 候选现均有去向：formal 5、pending 3、rejected 3；其中正式边由五条 statement 支持。关系与卡片均保留来源和端点边界；未新增 S5 字段、外部身份或关系类型。
+
+**本批后当前状态：** S4 已登记1,321/4,806组、1,524/5,029条成员映射；待登记3,485组／3,505条映射。直接关系端点待登记1,732组／1,732个候选／1,745条组成员映射（person 2／2、institution 90／90、event 101／101、place 224／224、work 319／328、archive 471／475、term 525／525），另有1,753组／1,760条非直接映射。KU共2,341；S6关系表1,256条（1,254 formal、2 pending），过程记录累计裁决45条S2候选（17 formal、23 pending、5 rejected）。S5字段表11,731条、其中1,625条unverified。
