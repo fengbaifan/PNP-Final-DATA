@@ -9370,3 +9370,19 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp15-p367-note4-cites-torcellan-1963` | 第15章 p.367 注4；Torcellan 1963 | formal `cites`，`rel-1365` |
 
 批后 S3决定记录12,408/12,408：same 2,025（1,092个既有KU）、new 5,028（4,803组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。S4已登记1,393/4,803组、1,597/5,028条映射；待登记3,410组／3,431条，其中直接关系端点1,663组／1,663个候选／1,677条成员映射，非直接1,747组／1,754条。直接端点数按本批前后相同的 `summarize_relation_endpoint_queue` 例程重算；HEAD基线为1,666组／1,666个候选／1,680条成员映射，较上一当前快照所列1,665／1,679高1组和1条成员映射。S5字段表11,995条、1,634条 `unverified`。S6累计逐条裁决201/10,402条（139 formal、53 pending、9 rejected）；关系表1,365条（1,362 formal、3 pending），所有关系均有结构化 `source_id`。S2独立复核维持9,414/15,167，本批未将定点引注裁决计作整段S2验收。
+<a id="s4-s5-s6-mazarin-exhibition-catalogue-citations-20261021"></a>
+
+### S4/S5/S6 archive：Mazarin 1961展览图录及两处书内引注（2026-10-21）
+
+**S4登记。** 沿用既有 S3 `new` 组 `archive-group-1e3bcedc560c`，将单成员 `cand-7044`（`aln-7220`）登记为 `units/archives/mazarin-homme-detat-collectionneur-1961`。Haskell 第21章印刷页429、L786–L787的书目列出原题 *Mazarin, homme d’état et collectionneur 1602-1661*，说明该展览为纪念 Mazarin 逝世三百周年而组织，并列 Bibliothèque Nationale、Paris 和1961年。书目未列个人作者；不由机构和地点文字推定出版者身份。卡片记录书目身份和书内定位，不表示独立查阅图录。
+
+**S5字段。** 新增6条 `source_backed` 字段 `enr-15765`–`enr-15770`：文献类型、原题名、纪念展说明、书目所列机构与地点、年份，以及 Haskell 两处引注范围。字段证据分别指向第21章书目和第7章脚注；既有来源 `haskell-1980-rev-ed` 未改写，来源登记无变化。
+
+**S6逐条裁决。** 两个 statement 均明确记录 Haskell 对同一图录的书内引注，受控关系为 archive→archive `cites`。每个候选各自裁为 formal；考虑同一主体、同一出版物端点，合并为 `rel-1366` 一条正式边并在 `source_span` 和 `scope` 保留两处定位。引注范围不证明图录或其内容已经核读：
+
+| statement_id | 原书定位与引注 | 决定 | 关系记录 |
+|---|---|---|---|
+| `st-chp7-p176-n1-cite-mazarin` | 第7章 p.176 n.1，L314；`Mazarin, 1961` | formal `cites`；仅记录 Haskell 书内引注，图录未独立查阅 | `rel-1366` |
+| `st-chp7-p181-n3-cite-mazarin` | 第7章 p.181 n.3，L341；`Mazarin, p. xxxiii` | formal `cites`；仅记录 Haskell 书内引注，图录及 p. xxxiii 未独立查阅 | `rel-1366` |
+
+卡片的字段表和关系投影经 `build_cards.py --preview` 检视后定点渲染。S4 登记后已登记1,394/4,803组、1,598/5,028条候选映射；待登记3,409组／3,430条映射，其中直接端点1,662组／1,662个候选／1,676条组成员映射，非直接1,747组／1,754条映射。S5字段表12,001条（1,634条 `unverified`）。S6逐条裁决累计203/10,402条（141 formal、53 pending、9 rejected）；关系表1,366条（1,363 formal、3 pending）。S2复核计数不变。

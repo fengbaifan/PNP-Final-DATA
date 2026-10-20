@@ -2,6 +2,12 @@
 
 更新日期：2026-10-21。
 
+### S4/S5/S6 archive：Mazarin 1961展览图录及两处书内引注（2026-10-21）
+
+沿用 S3 `new` 组 `archive-group-1e3bcedc560c`，将 `cand-7044` 登记为单成员 archive KU `units/archives/mazarin-homme-detat-collectionneur-1961`。身份依据 Haskell 第21章书目（印刷页429）列出的法文题名、纪念展说明、Bibliothèque Nationale、Paris 和1961年；不推定个人作者或出版者身份，图录未独立查阅。S5 提取6条书内 `source_backed` 字段（`enr-15765`–`enr-15770`），来源登记无变化。
+
+S6 对第7章 p.176 注1与 p.181 注3的两条候选分别裁为 formal `cites`，共用一条关系 `rel-1366`，分别保留 L314 / p.176 n.1 与 L341 / p.181 n.3 两个证据跨度。裁决只确认 Haskell 的书内引注；图录及其 p. xxxiii 均未独立查阅。批后 S4 已登记1,394/4,803组、1,598/5,028条候选映射；待登记3,409组／3,430条映射，其中直接端点1,662组／1,662个候选／1,676条组成员映射、非直接1,747组／1,754条映射。S5字段12,001条（1,634条 `unverified`）；S6累计逐条裁决203/10,402条（141 formal、53 pending、9 rejected），关系表1,366条（1,363 formal、3 pending）。S2复核计数不变。逐项证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-mazarin-exhibition-catalogue-citations-20261021)。
+
 ### S3/S4/S5/S6 archive：Loret、Wind 与 Torcellan 跨章引注（2026-10-21）
 
 两篇新 archive 沿用既有 S3 `new` 组：`cand-6583` Loret（1934）和 `cand-7230` Wind（1939–40）；新增11条Haskell书目支持的 `source_backed` 字段。端点查重触发S3局部复核：`cand-10476` Torcellan 1963与既有 `units/archives/torcellan-andrea-memmo-1963` 为同一出版物，决定由 `new` 改为 `same`，不重复建卡。S6对六条明确书内引注逐条裁为 formal `cites`（`rel-1360`–`rel-1365`）；第8章 p.214 对 Loret 的阅读指引保持非关系。被引文献和页面未独立查阅。逐项证据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-loret-wind-and-torcellan-citations-20261021)。
@@ -24,9 +30,9 @@ S6 对第6章 p.166 注2和第7章 p.195 注3两条关系候选逐条裁为 form
 
 - **S2：** 内部处理15,167条statement；独立逐条语义复核9,414/15,167（62.1%），尚未接收。333条关系候选至少缺一个S2候选端点ID。
 - **S3：** 12,408/12,408个候选均有现行裁决记录；same 2,025（指向1,092个既有KU）、new 5,028（4,803组）、conflict 9、excluded 100、undecided 5,246（含622项类型未决）。这表示决定可追溯，不表示未决身份已消除。
-- **S4：** 已登记1,393/4,803组、1,597/5,028条候选映射；待登记3,410组／3,431条映射，直接端点1,663组／1,677条组成员映射，非直接1,747组／1,754条。
-- **S5：** 字段表11,995条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
-- **S6：** 关系表1,365条（1,362 formal、3 pending）；过程记录累计逐条裁决201/10,402条S2关系候选（139 formal、53 pending、9 rejected），其余10,201条待逐项裁决。
+- **S4：** 已登记1,394/4,803组、1,598/5,028条候选映射；待登记3,409组／3,430条映射，直接端点1,662组／1,676条组成员映射，非直接1,747组／1,754条。
+- **S5：** 字段表12,001条，其中1,634条为 `unverified`；未核字段按证据逐项处理。
+- **S6：** 关系表1,366条（1,363 formal、3 pending）；过程记录累计逐条裁决203/10,402条S2关系候选（141 formal、53 pending、9 rejected），其余10,199条待逐项裁决。
 - **S7：** 尚未启动；等待 S2 独立语义验收及 S3–S6 收口条件。知识发现与页面工作继续暂停。
 
 ### S2独立复核与S6裁决：第七章脚注段（2026-10-21）
