@@ -11223,3 +11223,2074 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 修订集中在断言范围、说话者／指代、端点角色与来源锚点：例如将 Mola“请律师借给他书籍”保留为请求而非已借得；把 Arragona 建议的收件人更正为 Duke，而非代收信件的 chancellor；将 Contini 的人物提及从 Buonaccorsi 宫殿地点候选改至人物候选；将 Raimondo 委托的未具名画作组与《埃涅阿斯纪》叙事来源分开；并为 De Non—Novelli 师生断言新增独立 statement。相关身份、未具名对象及关系是否成立仍留在其各自阶段，不据此写入正式关系。
 
 写后全库为15,163条 statement（relation_candidate=true 10,400、false 4,763、未设置0）与26,621条 mention。`python scripts/audit_tables.py --strict-stage --summary` 通过：KU 2,288、候选12,407、alignment 12,715（含308条额外外部身份记录）、S4待登记new映射3,565、S2覆盖832段全部有状态、`errors=[]`、`s2_missing=[]`。审计保留S2语义质量警告；本批机械通过不构成全书独立语义验收。
+
+
+### 2026-10-20：第八章 S2 独立语义复核（阶段记录，未接收全章）
+
+按当前 `segments.jsonl`、`02-sources/02-Markdown/` 与 `book-statements.jsonl` 核对范围；交叉检查 mentions、候选端点、qualifiers、引文锚点及 `CHP-8.pdf` 页图。当前第八章共1,462条statement。本次直接逐条审读417条：`08_CHP-8_intro:l7-10` 6条（首尾 `st-chp8-p203-n1-soprani`—`st-chp8-p203-n4-ruffo-citation`）；`08_CHP-8_sec_i` 377条（排序首尾 `st-chp8-p203-italian-patronage-context`—`st-chp8-p213-n1-more-del-rosso-pictures`，覆盖正文与该节后置注释）；p.211视觉转录13条（`st-chp8-p211-andrea-inventory-principal-source`—`st-chp8-p211-dolci-picture-burghley-exhibition-reference`）；p.214视觉转录15条（`st-chp8-p214-n1-boni-mythological-frescoes`—`st-chp8-p214-solimena-admirers-in-venice`）；图版视觉转录5条（Plate 35b、36a、36b）；p.232图版标题1条（`st-chp8-pl38-group-attribution`）。当前这417条的表内分类值为 `relation_candidate=true` 300条、`false` 117条；该计数只描述当前字段，不代表语义接收。已对照的页图包括印刷页203–214相关页及物理页17、18、36；图版署名/题名与相应statement基本相合。
+
+**未覆盖：** 当前第八章余1,045条，全部属于 `08_CHP-8_sec_ii.md`（p.214以后正文及注释）。因此本记录不作第八章接收结论；覆盖表的机械 `reviewed/complete` 状态不替代本次逐条审读。源表、候选、mentions及知识卡均未由本次审阅者修改。
+
+**需修订或复核的实质问题**
+
+- 说话者、事实方向与时间范围：`st-chp8-p203-malpighi-reni-painting-and-taste`（p.203 L8）应保留并归属 Malpighi 对 Reni《S. Luigi Gonzaga》的“quel abito gesuitico fa melanconia”评价；`st-chp8-p205-roomer-lifespan-recovery-death`（p.205 L25）把瘟疫后康复（1656）与“再活二十六年”压成同一时间起点，应按原叙述拆开；`st-chp8-p206-haskell-compared-roman-painting-and-venetian-colour`（p.206 L37）将“缺少清晰与宁静”的对象放错，原句把这些品质说成罗马绘画的特征，须回到前文图像／收藏语境重写；`st-chp8-p206-later-roomer-collection-less-documented`（p.206 L38）把 Haskell 的信息缺口误挂到 Roomer 身上，宜保留为作者对后期收藏资料较少的认识；`st-chp8-p208-roomer-backed-giordano-against-francesco`（p.208 L54–55）把关系从句误作 Francesco di Maria 对 Giordano 的评价，原句是在称 Francesco 为优秀素描家、弱色彩家。
+- `st-chp8-p213-nome-contemporary-popularity`（p.213 L110–111）把原文 “our own day” 改成 Nomé “自己的时代”；应保留作者叙述时点，不作其生前流行的断言。`st-chp8-p207-n1-limits-on-other-colonna-provenance`（p.207 注1）记录的是 Haskell 对 Vaes 确定性归属的保留，不应成为 Colonna 收藏与画作间的正向历史关系；建议设为非关系的史学判断，并与另条 tentative provenance 候选分开。
+- 错误端点或混合事件：`st-chp8-p211-haskell-acknowledges-paola-zambelli`（p.211 注1 L1）subject 当前为 `cand-2275`（Andrea del Rosso），但原句是作者 Haskell 感谢 Paola Zambelli；移除 Andrea 端点，保留 Haskell 说话者、Zambelli 与档案馆语境，不因缺作者候选而补造身份。`st-chp8-p211-cinelli-inventory-incidental-biographical-information`（p.211 注1 L1）把两份文献分别放为 subject/object，而 claim 是“两份文献各提供一些传记信息”；应拆成两条来源—信息断言，或先有来源组端点。`st-chp8-p214-n1-boni-mythological-frescoes`（p.214 注1 L1）claim 明说 Del Rosso 家族召来 Boni 装饰宫室，当前端点却是家族→壁画组，且 Boni 仅列在 mentioned 候选中；须让委托／执行角色进入正确端点，或拆成委托关系与作品组陈述。
+- 复合断言／对象粒度：`st-chp8-p208-ferdinand-inherited-fortune-collected`、`st-chp8-p208-ferdinand-taste-modeled-roomer-inherited-pictures`、`st-chp8-p208-three-preti-paintings-brutal-realism`、`st-chp8-p208-ferdinand-admired-giordano-works-unknown`（p.208 L59–60）分别涉及继承/收藏、推测语气与继承、三幅有名作品、作品身份未明，不宜合并或弱化题名；`st-chp8-p209-ruffo-began-collecting-about-1646-palace-built-by-mother`（p.209 L66–67）需拆开收藏起始、迁入和母亲建宫殿；`st-chp8-p209-first-picture-guided-further-orders-open`（p.209 L70）应把 Messina 保留为地点而不作订单或作品端点；`st-chp8-p211-andrea-born-and-flour-monopoly`（p.211 L85）应拆开出生与授予面粉专卖权，并保留 Lorenzo 共持；`st-chp8-p211-wills-and-caravaggio-bequest`（p.211 L92–94）混合遗嘱档案定位、无其他画作记载与 Lorenzo 给 Priore Coriolano Montemagni 的 Caravaggio 遗赠，需拆分并补回受赠者角色；`st-chp8-p212-n3-dolci-and-bilivert-pictures`（p.212 注3 L151）claim 包含 Dolci 与 Bilivert 两组，但 object `cand-7606`只代表 Dolci 组，应拆分/分别映射；`st-chp8-p212-1613-grand-duke-letter-about-antonio-sons`（p.212 L102–103）混写 Grand Duke 致 Viceroy 的信与信中内容，不可把引述的 sons 等同于 Andrea/Lorenzo；`st-chp8-p211-three-del-rosso-brothers-notable-collectors`（p.211 L85）ID称“三兄弟”而 claim仅以 Andrea 为主体，须改群组或改名。
+- 端点/提及映射与限定：`st-chp8-p212-many-family-pictures-acquired-through-giordano`（p.212 L105）statement 声称 `cand-12051`画作组，但对应原文 “their pictures” 的 mentions 未见该组的精确映射；核补源跨度与 mention→候选。`st-chp8-p214-influence-on-pittoni-and-tiepolo`（p.214 L124）原文 “whose influence” 紧接两幅 Solimena 画，现有端点不应锁定为未经说明的整个收藏组；保留具体两作与更广泛组别之间的未决范围。p.203 L8 的 Bolognese doctors “all owned pictures”没有指名作品，`st-chp8-p203-bolognese-doctors-picture-owners` 保持对象开放并留待证，不补造画作。
+- `claim` 字段双份冲突：下列当前记录的顶层 `claim` 与 `qualifiers.claim` 范围不同；统一为同一经语义确认的断言，避免渲染/审计读到不同内容：`st-chp8-p212-four-scenes-made-for-house-and-considered-finest`、`st-chp8-p212-vannini-style-and-florentine-disegno-assessment`、`st-chp8-p212-andrea-and-lorenzo-may-have-started-careers-in-naples`、`st-chp8-p213-giordano-religious-and-devotional-pictures`、`st-chp8-p213-collection-emphasis-on-naples-and-neglect-of-rome`、`st-chp8-p213-collection-shift-from-disegno-to-colore`、`st-chp8-p213-giordano-works-regional-importance`、`st-chp8-p213-mehus-freshness-would-suit-giordano-patrons`、`st-chp8-p213-durazzo-local-collection-and-bologna-open`、`st-chp8-p214-baglioni-neapolitan-holdings`、`st-chp8-p214-influence-on-pittoni-and-tiepolo`。应以原文限定、说话者和现有拆分statement为准同步两处；不得把 sibling statement 的内容仅留在某一副本。
+- 引用关系分类：p.214注释的9条 cite statement（`st-chp8-p214-n1-cite-soprani`、`st-chp8-p214-n1-cite-zanotti-vol-i`、`st-chp8-p214-n1-cite-zanotti-vol-ii`、`st-chp8-p214-n1-cite-zanotti-vol-ii-p231`、`st-chp8-p214-n2-cite-de-dominici`、`st-chp8-p214-n3-cite-de-dominici-bologna`、`st-chp8-p214-n4-cite-de-dominici-bologna`、`st-chp8-p214-n4-cite-loret`、`st-chp8-p214-n4-cite-monaco-engravings`）当前均为 `relation_candidate=false`；但同章 p.203 明确书→引文作品的 footnote cite rows 为 true，p.211 来源文献关系亦作为 true 候选。建议按是否建模本书→被引文献统一裁决；若纳入关系，则补齐书 `cand-2962` 与每个 `source_candidate_id` 端点，并把一条含两种文献的 statement（n3、n4）拆分。未独立阅读被引页的限定须保留；citation locator 本身不能被写成历史事实。
+- OCR校读：以下差异由印本页图支持，建议保留 S0 原文及其 `original_quote` 锚点，使用S2校读字段记录印本读法，不直接改写来源资产：`st-chp8-p205-marcotti-januarius-print-dedicated-to-roomer` p.205注4（S0 `Januatius`，物理页3印本 `Januarius`）；`st-chp8-p208-n1-cite-de-dominici` p.208注1（S0 `rune quelle`，物理页6印本 `tutte quelle`）；`st-chp8-p209-n1-cite-ruffo` 与 `st-chp8-p209-n1-cite-slive` p.209注1（S0 `Vincenzo Russo`/`Russo’s`/`Slivc`，物理页7印本 `Vincenzo Ruffo`/`Ruffo’s`/`Slive`）；`st-chp8-p212-n2-longhi-publishes-vannini-scenes` p.212注2（S0 `Fäll of Manna`，物理页10为 `Fall of Manna`）；`st-chp8-p213-durazzo-family-membership` p.213 L117–118（S0 在 `member of one` 前有多余句点，物理页11无此点）。
+
+**本批结论：** 417条范围已逐条审读，但上列端点、claim一致性、引文关系和OCR限定问题仍需主代理核实/修订；不构成第八章或本批全部行的接收。下一游标为第八章 sec_ii 当前source-order首条statement，所在S0段 `chp-8:08_CHP-8_sec_ii:l3-9`；剩余1,045条未读。
+
+
+### 2026-10-20：第八章 sec_ii 首批 S2 独立复核（statement 1–75）
+
+沿 `08_CHP-8_sec_ii.md` 的 source-order，逐条复核当前表中第1–75条：排序首尾为 `st-chp8-sec-ii-intro-local-centres` 至 `st-chp8-pl35a-credit`，主要覆盖 p.214–216 概述、Santa Maria Maggiore 装饰史与首轮委托，以及 Plates 33–35a 图注。对照S0 L3–46、`CHP-8.pdf`物理页12–16，并核对候选端点、qualifier、speaker、mention及图注候选映射。本批当前字段为61条`relation_candidate=true`、14条false。连同前记录的417条，本章当前已逐条审读492/1,462条；表内分类值合计true=361、false=131。尚余970条，未作章节接收判断。
+
+**发现：**
+
+- `st-chp8-p216-massimo-response-and-no-further-work`（p.216 L31–33）把style评价、`they`对《Massacre of the Innocents》的满意、请求Capuchins临时放行及后来未成四项压为一条false statement；其claim把“they”定为 governors，但同段的 `st-chp8-p216-governors-pleased-with-massacre`、`st-chp8-p216-governors-request-massimo-leave` 正确把行动者留空。应拆分/压缩该摘要并保持施事开放，不把满意和请求收窄为 governors。
+- 多条false statement是已拆原子关系的复合摘要，建议去重或缩小范围：`st-chp8-p215-campione-portico-and-south-entrance`（p.215 L13，两个建筑工程；已分别列`...campione-erected-gothic-portico-1355`和`...campione-built-south-entrance`）；`st-chp8-p215-renaissance-campanile-sacristy`（同L13，复兴时期增建、1425钟楼、晚15世纪圣器室，部分另有statement）；`st-chp8-p215-interior-decoration-and-ricchini-dome`（p.215 L13–14，混合哥特壁画残迹、祭坛画、灰泥、圆顶及Ricchini）；`st-chp8-p215-bergamo-venice-milan-context`（p.215 L19，分别与`...bergamo-distance-from-milan`、`...bergamo-ruled-by-venice-from-1430`及两条艺术文化端点重复）；`st-chp8-p216-storer-selection-and-background`（p.216 L23–24，与Storer身份描述、师承和家族联系原子行重复）；`st-chp8-p216-storer-delay-and-assessment-visit`（p.216 L25，混合延误、改作壁画考虑及对未名艺术家的考察，已由`...storer-delay-led-fresco-alternative`和`...committee-assessment-visit`分别记录）；`st-chp8-p216-milan-pictures-first-stage-complete`（p.216 L33–34，四幅作品委托与1659完成状态应分开，四幅委托和阶段完成已有独立行）。`st-chp8-p216-negotiations-outcome`（p.216 L22）也把“无真正杰作/少数高价值作品”与作者对史家印象合并，宜分开评价和叙事结论。
+- 委托端点/粒度需回核：`st-chp8-p216-committee-assessment-visit`（p.216 L25）端点是委员会→Santa Maria Maggiore，但所述核心是委员会成员到未名贵族乡间住所审看未名艺术家的壁画，以判断其是否适合教堂；保持“考察而非委托”，并为未名艺术家/作品保留开放角色。`st-chp8-p216-magni-experimental-commission`（同L25）端点为委员会→试验画组，claim明确写入Pietro Magni；如该候选表达委托，须让艺术家角色在端点或事件结构中可追溯，并保留满意后才可能授予整项工作的条件及Haskell的“显然未通过”限定。`st-chp8-p216-cocchi-five-pictures`（p.216 L25–26）把Cocchi主动提出一幅、委员会接受及其后另要求四幅合并为五幅作品组端点，艺术家只在mention/claim中；应保留五幅确切数量、明确Cocchi参与，并区分初次提议与后续四幅请求。`st-chp8-p216-guercino-proposed-door-canvas`（p.216 L27–29）合并委员会选人和派信使、题材由《Esther》改为《Marriage at Cana》、Guercino工作过多以及“seems to have made no appeal”；当前端点是委员会→未实现画布，Guercino仅在引文/claim中。应分开选择/联系、题材改动、未实现及作者推测，并保留Guercino作为委托对象的端点角色。
+- 印本核读确认需用S2 OCR校读字段记录而保留S0及其精确`original_quote`：`st-chp8-sec-ii-intro-local-centres`（p.214，物理页12，S0 `Russo`，印本`Ruffo`；qualifier已说明差异）；`st-chp8-p215-classicising-institutions-outside-rome`（p.215 L12，物理页13，`growup`→`grow up`）；`st-chp8-p216-storer-selection-and-background`与`st-chp8-p216-committee-assessment-visit`（p.216 L23/L25，物理页14，`die country house`→`the country house`）；`st-chp8-p216-guercino-proposed-door-canvas`（p.216 L27，`cominittee`→`committee`）；`st-chp8-p216-padre-massimo-massacre-commission`（p.216 L31，`tó the full satisfaction`→`to the full satisfaction`）；`st-chp8-p216-milan-artists-commissioned-jacobs-ladder`（p.216 L33，`facob’s Ladder`→`Jacob’s Ladder`）；`st-chp8-pl33a-credit`（Plate 33a图注，物理页15，S0 `Soumena`，印本`Solimena`）。图版33a、33b、34及35a的署名、题名和地点/空间端点总体相合；caption statement记录的是印本用语，不延伸为外部归属核验。
+
+其余本批逐条检查项未发现另需报告的问题；这不代表接收。下一批从第76条（p.216正文/后续图版，依当前source-order）继续，仍在第八章sec_ii范围内。
+
+
+### 2026-10-20：第八章 sec_ii 第二批 S2 独立复核（statement 76–150）
+
+以当前 `book-statements.jsonl` 的 sec_ii 正文顺序逐条复核第76–150条（75条）：首尾 ID 为 `st-chp8-pl35a-homer` 至 `st-chp8-p218-zanchi-terms`，对应 S0 `08_CHP-8_sec_ii.md` L46、L70–76、L79–84，印刷页216–218；对照印本 `CHP-8.pdf` 物理页17、19–20，核对原文、说话者、端点、提及、语气/时间限定及 relation_candidate。当前标记53 true、22 false（仅字段计数，不代表接收）。加前两批，第八章当前直接逐条复核567/1,462条；按表字段累计true=414、false=153；尚余895条，未接收全章。
+
+**问题与去向：**
+
+- 主体错配：`st-chp8-p218-experts-set-price-if-accepted`（p.218 L84）原句为“If it was accepted, experts would decide on the price”，行为主体是未具名 experts，且以画作被接收为条件；当前 subject 误填委员会 `cand-7641`，`mentioned_candidate_ids` 也未列 experts。应将专家主体保持开放，或按可识别性建立有类型的候选/事件端点，并保留条件。复合摘要 `st-chp8-p218-zanchi-terms` 同样把设价者说成 experts 而沿用委员会端点，应同步拆分/修正。
+- 许可端点不完整：`st-chp8-p218-zanchi-site-visit-and-venice-permission`（p.218 L84）把“获准在 Venice 作画”编码为 Zanchi→Venice，地点充当关系对象；原文未说明许可授予者，作画对象是 `cand-7670`。将 Venice 保留为地点限定，许可/作画对象显式化，grantor 继续开放；补核该处 `Venice` 是否需独立 mention 锚点（当前本段 `mentions.csv` 未见该表面形式，虽 statement 的 mentioned ID 列有 `cand-3401`）。
+- 同源年代矛盾：`st-chp8-p218-ferri-completion-status-1667` 与 `st-chp8-p218-ferri-june-1667-completion-snapshot`（p.218 L82）照录“June 1667, eighteen months after his arrival”，而同一叙述 `st-chp8-p218-ferri-arrives-september-1665`（p.218 L79–80）称其1665年9月到达 Bergamo；两者相差约21个月。保留 Haskell 两处原说法，在限定中标为来源内部年代不一致，不替作者改算。
+- 来源锚点越界：`st-chp8-p218-zanchi-merits-praise-open`（p.218 L84）原引句止于“richly”，statement claim 已写“richly coloured appearance”；下一页 p.219 L87 才出现“coloured picture”。需把 evidence/source span 延至 L87 并跨页引用，或将 claim 保持为未完句并开放补足。
+- 无类型群组端点：`cand-12370`“Ferri 的 patrons”作为 `st-chp8-p218-delay-cools-relations` 的关系对象，以及 `cand-12371`“Various artists”作为 `st-chp8-p218-artists-propose-for-remaining-works` 的主语，当前 `entity-candidates.csv.suggested_type` 均为空。原文身份与成员确实未明，不补造成员；但在补足端点类型或改为开放端点前，相关边不得作为类型已确定候选交接。
+- mention—endpoint 映射需保持一致：p.217 L71–76 的 `mentions.csv` 将 Venice 映到 `cand-2719`，而 `st-chp8-p217-committee-turns-to-venice` 使用 `cand-3401`；两者当前 S3 均映到 `units/places/venice`，故不是城市身份冲突，但该 statement 的来源 mention 锚应选一个精确 ID或记录同组映射。p.218 L79–84 的唯一 Bergamo mention `m-s2-chp8-surface-e369bf6f0bd5e702` 使用 `cand-7743`，部分 statement（如 `st-chp8-p218-ferri-leaves`、`st-chp8-p218-ferri-arrives-september-1665`）用 `cand-6208`；两者均映到 `units/places/bergamo`，仍需将段内 mention 与 statement 端点统一或明示身份组关系。
+- 书信端点/范围：`st-chp8-p217-committee-sends-letter`（p.217 L72）statement 记录委员会→信件，但原句另明示收信人为 Liberi，接收人只在提及/谓词中。应使“寄给 Liberi”成为可追溯关系端点或事件角色。`st-chp8-p217-letter-demands-repaint-and-suspension`（同页同段）当前以信件→《The Flood》为端点，claim 还包括暂停其他受委托画作和款项；应拆开为“要求重画此作”与“要求暂停其他作品/付款”，并保留这是信中要求而非已执行事实。
+- 多条 false 行是已由相邻 true 原子 statement 覆盖的复合摘要，建议缩窄到无重叠的独立断言或清楚标成非关系摘要后去重：`st-chp8-p217-liberi-contract`、`st-chp8-p217-flood-rejected`、`st-chp8-p217-flood-repainted-placed`、`st-chp8-p217-last-judgement-cancelled`、`st-chp8-p217-ferri-selected-invited-open`、`st-chp8-p217-ferri-cannot-leave-open`、`st-chp8-p218-ferri-invitation-response`、`st-chp8-p218-ferri-arrival-contract`、`st-chp8-p218-ferri-private-letters-and-subject`、`st-chp8-p218-ferri-schedule-and-work-progress`、`st-chp8-p218-ferri-completion-status-1667`、`st-chp8-p218-ferri-leaves`、`st-chp8-p218-zanchi-canvas-accepted`、`st-chp8-p218-zanchi-selected-for-moses`、`st-chp8-p218-zanchi-terms`。对应的原子行已分别保留合同金额、作品到达/拒绝/重画、Ferri选择与回信、进度和 Zanchi 条件/许可/完成/接收等限定；不得把摘要的 false 值视作原子内容已经核准。
+- 已核读的限定：`st-chp8-p218-ferri-working-day-and-night` 原引句的 S0 OCR `T ana` 在物理页20读作“I am”；当前 qualification 已记录校读，可保留原 quote 并只在 S2 记录更正。`st-chp8-p217-liberi-arrives-after-year` 保持“一年”起算点不明；`st-chp8-p217-flood-placed-south-door` 的“still is”限定在 Haskell 写作时；`st-chp8-p218-ferri-grandest-composition-description` 保留该评价为 Ferri 引语（经 Haskell 转述）；其他已核项目未见新增需报问题。
+
+**本批结论：** 75条均已逐条与来源核读；上列主体、端点、mention锚、年代和复合项仍需修订或待证，本批不接收。下一游标为第151条 `st-chp8-p219-zanchi-coloured-picture`（p.219 L87）；第八章其余895条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第三批 S2 独立复核（statement 151–225）
+
+按当前 `book-statements.jsonl` 的 sec_ii source-order，逐条复核第151–225条（75条）：首尾 ID `st-chp8-p219-zanchi-coloured-picture` 至 `st-chp8-p220-painters-self-fund-central-nave-pictures`，对应 S0 `08_CHP-8_sec_ii.md` L87–98、L101–106，印刷页219–220；对照 `CHP-8.pdf` 物理页21–22、statement/qualifier、候选端点与 `mentions.csv`。当前字段true=41、false=34（非语义接收计数）。累计直接逐条复核642/1,462条（true=455、false=187），余820条未读。
+
+**问题与去向：**
+
+- 方向/施事开放：`st-chp8-p219-tencala-approached`（p.219 L94–95）原文为被动 “Cristoforo Tencala was approached”；当前主语是 Tencala，predicate 却是 `artist_approached_for_project`，容易读成他主动接洽。原文未明示接洽者，保持施事开放/待证，并把 Tencala 作为被接洽对象。`st-chp8-p219-giordano-contract-not-performed`（p.219 L96）将“签了合同，后来被艺术家忽略”放在 Giordano→合同端点下，易误读成Giordano签约；与 signer 开放的 `st-chp8-p219-giordano-contract-signed` 对照，拆明签约者未指明、Giordano是未履行者。
+- 明确 OCR 校读：p.219 L91 的 `st-chp8-p219-giordano-crossing-assigned`（及包含同句的 `...giordano-crossing-description`）S0 `Bcrgamasque`，印本为 `Bergamasque`；p.219 L93 的 `st-chp8-p219-giordano-gift`、`...giordano-gift-and-remainder`（及复合引句 `...giordano-crossing-description`）S0 `setidi`，印本为 `scudi`，claim已用 scudi 但应在 S2 OCR 字段明确记录；p.219 L95–96 `st-chp8-p219-ceresa-modello`、`...ceresa-submitted-modello` S0 `tnodello`，印本 `modello`，claim已按印本读法写，但应记录校读；p.220 L106 `st-chp8-p220-david-rejects-committee-terms` 的原引语及复合 `st-chp8-p220-david-payment-terms-objection` S0 `T could not`，印本为 `I could not`，补 S2 校读而不改原 quote。`st-chp8-p219-giordano-court-success-drawback` 已在 qualification 记录 `Giordano��s.success` 拼接校读，可保留。
+- 断言范围越出引句：`st-chp8-p219-cervelli-visits-bergamo`（p.219 L90）原引句仅“after a visit … to make certain alterations”，claim额外纳入“was paid”，而同页另有 `st-chp8-p219-cervelli-payment`。删去该claim里的付款或同步扩证据跨度，避免一条端点只支持访问关系却承载付款事实。
+- 类型与边界：`st-chp8-p220-committee-proposes-to-painters`、`st-chp8-p220-painters-self-fund-central-nave-pictures` 的主体候选 `cand-12063`（全意大利画家组）和 `st-chp8-p220-david-offers-share-with-artists` 的客体 `cand-12064`（David提议中的其他画家组）当前 `suggested_type` 都为空；组员未知不补造，但要先定 person-group 类型或保持端点开放。p.219 `st-chp8-p219-noah-competition-entrants` 的复合列表及三个独立参赛statement分别保留了三名参赛者与草图事实，没有把作品题目补成未提及的草图标题；`st-chp8-p219-perugino-protege` 保留未具名“King of Savoy”及 title-only 人物，不提前对齐为某位国王。
+- mention表缺口：`chp-8:08_CHP-8_sec_ii:l86-98`（印刷p.219，L87–98）当前有51条statement但 `mentions.csv` 为0行，尽管其中statement的 `mentioned_candidate_ids` 涉及多位参赛者、作品、城市、committee及Giordano/Cignani；`s2-coverage.csv` 仍标 `reviewed/complete`。需补齐该段逐提及→候选锚或明确记录结构化遗漏并修复覆盖状态；statement内候选列表不能替代单独mentions表。相邻 `l100-110` 有35条statement与33条mention行，说明两段表覆盖不一致。
+- 延续上一批的时间/claim范围：`st-chp8-p220-cignani-paints-forli-cupola`（p.220 L102–103）claim写“in 1692”，原文是在“in 1692 the committee turned to Cignani”之后说“Much had happened in the meantime. He was now painting…”；具体cupola工作年份不如委员会再接洽年份明确，建议保留“now”叙述锚并降低claim的精确年份。`st-chp8-p219-cignani-requests-commission-terms`（p.219 L96）把 Haskell 的“exorbitant sums”弱化为“large sums”；应保留“exorbitant”并明确为 Haskell 的评价。p.219 `st-chp8-p219-giordano-crossing-assigned` 的1682委托、`st-chp8-p219-giordano-in-naples` 的在Naples职业状态、`st-chp8-p220-cignani-letter-perspective-objection` 的1692年8月信件，以及 Zanchi 描述跨页到p.219 L87，均按原文限定分别记录。
+- 多项 false 记录是与现有原子行重叠的组合摘要，建议去重/拆分，保留原子行的说话者、金额、日期、对象和开放端点：`st-chp8-p219-noah-competition-entrants`（参赛名单，重叠 `...cervelli-enters-noah-competition`、`...negri-enters-noah-competition`、`...perugino-enters-noah-competition`）；`st-chp8-p219-cervelli-wins-noah`（获胜、访问、付款，重叠同页 `...cervelli-payment`、`...cervelli-visits-bergamo`、`...cervelli-wins-competition`）；`st-chp8-p219-giordano-crossing-description`、`st-chp8-p219-giordano-gift-and-remainder`、`st-chp8-p219-central-nave-requirement`、`st-chp8-p219-ceresa-modello`、`st-chp8-p219-cignani-negotiation-fails`、`st-chp8-p219-giordano-project-terms`、`st-chp8-p219-giordano-speed-and-court-success`；以及 `st-chp8-p220-giordano-spain-cignani-reapproached`、`st-chp8-p220-cignani-forli-cupola`、`st-chp8-p220-committee-self-funded-alternative`、`st-chp8-p220-david-offer`、`st-chp8-p220-david-payment-terms-objection`。false不表示其中每个子断言已接收；其中 `st-chp8-p220-cignani-forli-cupola` 还把 Cignani 的cupola、意图、狭小空间反应及 Ferri 的较早反应合为一条而端点仅为Cignani→cupola。
+
+**本批结论：** 75条statement已逐条对照印本；但 p.219 51条statement所在源段缺整段mentions记录，且方向、时间、claim锚与OCR校读问题待修，故不接收本批。下一游标为第226条 `st-chp8-p220-david-competitive-scheme`（p.220 L106）；本章尚余820条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第四批 S2 独立复核（statement 226–300）
+
+以当前 `book-statements.jsonl` source-order逐条复核第226–300条（75条）：首尾 `st-chp8-p220-david-competitive-scheme` 至 `st-chp8-p222-bigari-paints-catholic-religion-fresco`，对应 S0 L106–110、L113–124、L127–129，印刷页220–222；对照 `CHP-8.pdf` 物理页22–24、statement/qualifier、实体候选及mention映射。本批字段true=51、false=24（不等于接收）。累计当前版逐条复核717/1,462条（true=506、false=211），余745条未读。
+
+**问题与去向：**
+
+- 选画方案端点/范围：`st-chp8-p220-david-competitive-scheme`（p.220 L106–107）复合了David的候选方案：选三题、每题500 scudi、David与两位其他画家先获四分之一预付款、一年内完成并在Rome公开展评；`cand-12065`“两位其他画家”仅在mentioned list中，未作关系角色端点且`suggested_type`为空。应拆出方案组成或用事件/参与角色表达，不把未具名画家写成已识别端点。`st-chp8-p220-david-guild-review`（L107）端点只有David→画家guilds，claim又包括“评为最佳者获余下委托”；应拆审核路线与后续授予，把获选人开放。
+- 跨页证据跨度：`st-chp8-p220-melanconici-abraham-open`（p.220 L110）claim包含实验画“met with approval”，但该词在p.221 L113才出现，当前quote/segment只到p.220 L110。将来源锚延至p.221 L113，或将本行限于自行承担费用的实验画及迅速送达；认可由谁作出继续开放。原子行 `st-chp8-p221-abraham-picture-approved` 已把审批者留空。
+- 职位端点冲突：`st-chp8-p221-ruffo-early-ecclesiastical-career`（p.221 L116–118）摘要多项任职，却把Ruffo与Pope Innocent XII放作一对端点；“maestro de camera to the Pope”在任职叙述中没有说明是哪位教皇。拆为单项职位；Vice-Legate由Innocent XII任命的关系保留，maestro de camera对象沿用未具名教皇候选 `cand-12071` 或开放。
+- 雕塑角色：`st-chp8-p221-ferrerio-sculptor-of-vigilance`（p.221 L124）当前端点Ferrerio→Vigilance statue，但claim说“Ruffo委托Ferrerio制作”；改claim为“Haskell称Ferrerio为该像雕塑家”，由 `st-chp8-p221-vigilance-statue-commissioned-by-ruffo` 另行记录 patron→work。
+- 群组/集合端点类型缺失：`cand-12068`（意大利各画派画家组，`st-chp8-p221-governors-seek-artists-from-italian-schools`）、`cand-12069`（其他小镇助力的男性群体，`...small-town-figures-break-isolation` / `...ruffo-example-of-provincial-patronage`）、`cand-12072`（Ruffo可寻访的意大利画家组，`...ruffo-opportunities-to-seek-artists`）、`cand-12073`（其居住城镇中的受委托画作组，`...ruffo-commissioning-in-resident-towns`）、`cand-12077`（六位教皇组，p.222 Medallions claims）及 `cand-2307`（Ruffo画作收藏，`...ruffo-assembles-collection-in-ferrara` / `...ruffo-gallery-kept-in-palace`）的 `suggested_type` 均为空。依据对象粒度分类或保持类型未决；不要把 collection、地点群或人物组强行归为单实体类型。
+- 校读记录：p.221 `st-chp8-p221-ruffo-born-in-naples` S0 `bom`，印本 `born`；`st-chp8-p221-ruffo-shares-family-with-don-antonio` 的提及表把“Don Antonio”按索引及本书上下文映至 `cand-2297`，家族候选 `cand-7694` 仍S3 `undecided`，不得从同姓推定谱系或家族名；p.222 `st-chp8-p222-ferrerio-pupil` S0 `os`，印本 `of`；`st-chp8-p222-clement-xi-medallion-on-top-floor` S0 `Clement XL`，印本 `Clement XI`。其中 Russo/Ruffo、Clement XI已有mention/qualification中的校读说明，但需保证具体claim的限定一致；原quote保留S0读法。
+- 复合false摘要与其相邻原子事实重叠：`st-chp8-p220-franceschini-approached`、`st-chp8-p220-melanconici-abraham-open`、`st-chp8-p221-melanconici-commission`、`st-chp8-p221-melanconici-oils-and-frescoes`、`st-chp8-p221-melanconici-results-and-additional-pictures`、`st-chp8-p221-governors-ambition`、`st-chp8-p221-provincial-patronage-context`、`st-chp8-p221-ruffo-origin-and-family`、`st-chp8-p221-early-ecclesiastical-career`、`st-chp8-p221-ruffo-cardinal-and-legate-appointments`、`st-chp8-p221-ruffo-rome-palace-and-death`、`st-chp8-p221-ruffo-gallery-taste`、`st-chp8-p221-archbishop-palace-and-vigilance-statue-open`、`st-chp8-p222-staircase-stucco-medallions`、`st-chp8-p222-bigari-ceiling-fresco`。保留能表达的独立事实，但摘要中不同主体/任职/工程/评价不要被视作原子关系已核准；`...archbishop-palace-and-vigilance-statue-open` 另把宫殿、建筑、雕像委托合在Ruffo→statue端点下。
+
+**本批结论：** 75条均已对照来源；方案参与角色、审批页码、任职端点、claim/endpoint不一致和未定类型仍待修复。mentions本批覆盖可用：`l100-110` 35 statements/33 mention rows，`l112-124` 54/43，`l126-138` 42/64；这些计数只表明存在记录，仍需按对象核对其映射。下一游标第301条 `st-chp8-p222-fresco-represents-catholic-religion-through-papacy`（p.222 L129）；第八章剩余745条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第五批 S2 独立复核（statement 301–375）
+
+依据当前 `book-statements.jsonl` 的 `segment_id`，仅计 `08_CHP-8_sec_ii` 规范来源段（不把独立视觉转录段混入分母），按源文件 `qualifiers.source_line_start/end` 排序，逐条复核 #301–375（75条）：首尾 `st-chp8-p222-fresco-represents-catholic-religion-through-papacy` 至 `st-chp8-p224-haskell-aeneid-style-judgment`；涉及S0 L127–138、L141–150、L153–155，印刷页222–224，PDF物理页24–26。逐行检查claim、候选端点、mentioned IDs、`mentions.csv`（相关段64/60/47条mention）、语气/时间及原引句，并直接核读三页PDF。当前批次 `relation_candidate=true` 50条、false 25条。第八章历史已逐条读的417条前段及sec_ii #1–300与当前ID/源序相符；累计当前版逐条复核792/1,462条，当前表分类字段累计true=556、false=236，尚余670条未读；不作整章接收判断。
+
+**问题与建议去向：**
+
+- 群组端点的类型与语义边界：`cand-12079`（#302、#305）是Bigari壁画中象征出现的Ravenna、Bologna、Ferrara三地组，当前 `suggested_type` 为空；#305把同一候选描述为Ruffo“principally served”的“三座城市”，而候选名称限定为“壁画中的三省”。需把地点组的类型补足，并确认是否为同一外延对象；如“省份”与“服务城市”角色不应共用组，则另设城市组，不能用提及共现替代组边界。`cand-12080`（#307）和 `cand-12081`（#309）分别是未具题名的意大利大师归属画作组与Rubens/Van Dyck画作组，端点类型均空，应归入work组或留作待定端点。`cand-12082`（#345）是未具成员的Neapolitan compatriots人物组，类型为空，且“turned to”没有说明具体委托/往来对象；补类型前保留开放，不将它当作已解析的patronage关系。`cand-2307`（#303、#306及#307–309）Ruffo画作收藏与 `cand-11490`（#332）Hamilton藏画集合仍无类型；当前 taxonomy 不表达collection时留S3/S4待决，相关端点不视为类型已收口。mention中的集体艺术家 `cand-4318`（“the Carracci”）也应保持集体指称，不映射为Annibale单人。
+- 合作与作品端点需补齐：`st-chp8-p222-ruffo-designed-palace-setting-collaboratively`（p.222 L130）claim说Ruffo与其architect、sculptor合作设计宫殿陈设，端点仅Ruffo→Ferrara宫殿 `cand-2306`；Tommaso Mattei、Andrea Ferrerio只在mention中。应让两名协作者作为可追溯参与者或把该复合设计陈述拆成可支持的角色关系。`st-chp8-p223-solimena-nativity` / `st-chp8-p223-solimena-presentation`（p.223 L143–144）称Solimena为Ruffo画Nativity、Presentation，但各行端点均Solimena→Ruffo，具体作品 `cand-7726` / `cand-7727`仅在mentioned IDs。建议按作品为关系端点，或明确保留作者—赞助人关系并另记作品创作边，避免漏掉已具名作品。
+- 书信记录的关系端点：`st-chp8-p223-n5-letter-1705`、`...letter-1737`、`...letter-1742`（p.223 L150，印刷页223，PDF物理页25）有独立archive候选 `cand-7739/7740/7741`，但当前statement端点为发信人→收信人，archive只在mentioned IDs；predicate分别是 `wrote_letter_to`。建议以各自信件为文书端点保存日期及馆藏定位，并按契约分别记录信件→作者的 `authored_by` 和信件→收件人的 `addressed_to`，不要让直接的人际边代替三件文书。
+- 页间续句已读，旧开放状态需更新：`st-chp8-p222-ruffo-fondness-for-creti-open`（p.222 L135）在p.223 L141续为Ruffo坐看Creti作画数小时并使其获 `Cavaliere dello speron d'oro`；当前qualification仍写“待读p.223”，claim只截到“used to sit”，没有“watching him at work for hours”。扩展claim/source span并保留荣衔授予者与日期未明。`st-chp8-p223-palace-superlative-open`（p.223 L148）在p.224 L153续成“this little hill town in the States of the Church”；去掉过期open状态，补完地理比较范围和跨页来源锚。
+- 复合断言及来源锚：`st-chp8-p224-palace-construction`（p.224 L153）同时说Raimondo的宫殿在18世纪前两十年建造、建在父亲1701年取得的旧址；后半是独立的父亲 `cand-7748`→旧建筑 `cand-7747` 取得断言，当前仅在mentions中，建议另拆statement。`st-chp8-p224-gallery-survival-and-vault-fresco`（p.224 L154）把“在Haskell写作时仍完整”与“低桶形拱顶由单幅壁画覆盖”合并；其work端点 `cand-7750` 名称已具体为《Aeneas的神化》，但本行quote只到L154，具体身份见L156–157。拆分保存时点，或延长证据跨度至L156–157并明确壁画同一性依据。
+- 图像校读字段：PDF物理页24印本为“Abigail giving Presents to David”及“Ruffo found so congenial”；S0在 `st-chp8-p222-ruffo-commissioned-abigail-giving-presents`、`...ruffo-commissioned-two-crespi-works` 和 `...crespi-creti-style-comparison` 保留OCR `Presenti`、`sound`，claim已按印本语义改写，但应在S2校读/qualifier中记录。PDF物理页25将 `Cbnca` 读为 `Conca`；页26将 `fight which streams in` 读为 `light which streams in`，原quote保留S0而claim改用印本读法，应确保校读差异可追溯。脚注5的 `Vat. Lat. 9041, c.39`、`Borg. Lat. 236, c.87/c.125` 已由页25核实，现候选及qualifier保留这些定位，S0 OCR短式不改。
+- false摘要仍须与原子行分开：#303/#306的setting、收藏与作者评价混合；`st-chp8-p222-italian-masters-in-ruffo-collection` 同时覆盖#307/#309已拆开的画作组；`...pareja-portrait-to-rome-exhibition` 混合藏品、评价、画像和展览（#313/#316已有单项）；`...crespi-four-works` 与 `...ruffo-commissioned-two-crespi-works` 分别重叠#317–321；`...crespi-creti-style-comparison`/`...creti-crespi-counterpart-and-ruffo-taste`与#323–325重叠；`...pareja-museum-and-hamilton`与#330/#332重叠。false值只标记这些为非关系摘要，不等于其中主张已逐项接收。其余本批逐条核对未见新增方向反转或人物身份冲突。
+
+**本批结论：** 75条均已逐条对照当前S0与PDF；上述collection/group类型、信件端点、页间续句、作品关系和校读记载仍需整理，本批不接收。下一游标是按S0分节源行序的#376（`st-chp8-p224-rambaldi-dardani-apotheosis`，p.224 L156），第八章当前余670条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第六批 S2 独立复核（statement 376–450）
+
+以当前 `book-statements.jsonl` 中 `segment_id` 前缀 `chp-8:08_CHP-8_sec_ii:` 确认标准来源范围，按 `qualifiers.source_line_start/end` 排序，逐条复核本批75条（首尾 `st-chp8-p224-rambaldi-dardani-apotheosis`—`st-chp8-p226-marchesini-close-contact-claim`），覆盖S0 L156–161、L164–177、L180–187，印刷页224–226、PDF物理页26–28。逐条对照S0原文、页图、statement及当前mentions/候选端点，检查claim、predicate、relation_candidate、说话者、限定、来源行与提及映射。本批 `relation_candidate=true` 50条、false 25条；涉及三个来源段的mention行分别为47、54、56。当前第八章共1,462条；连同此前已映射到当前表的非sec_ii 417条和sec_ii #1–375，本章当前ID累计逐条复核867条（true=606、false=261），尚未读595条；不作章节接收结论。
+
+**实质问题与建议去向：**
+
+- `st-chp8-p224-rambaldi-dardani-apotheosis`（L156–157）：原文为“Raimondo Buonaccorsi summoned two Bolognese artists, Carlo Antonio Rambaldi and Antonio Dardani, to paint the fresco”；statement端点仅Raimondo→壁画 `cand-7750`，两位执行者只在mentions中。更严重的是相应候选 `cand-2095`（Rambaldi）和 `cand-0903`（Dardani）虽以人名为canonical_name、提及注明确称artist，`entity-candidates.csv.suggested_type`却均为`work`，且以“Apotheosis (with …)”作索引子目。应在候选类型裁决中将人名/艺术家与作品子目分开核定；statement应保留两位画家参与召画/绘制的角色（可拆为委托参与/创作边或建事件），不让一个Patron→work谓词替代两位执行者。PDF物理页26还确认S0在“artists. Carlo Antonio”处误断句，印本是“artists, Carlo Antonio”；保留S0引句并记录校读。
+- `st-chp8-p224-dido-enthusiasm-open` 与 `st-chp8-p225-dido-interest-closes`（L159、L164）：前行quote已止于“enthusiasm and”，后行补“interest”，两行分别将同一跨页句列为false statement，形成重复断言。合并为一条跨页有锚的非关系评价，或明确前行仅作句段续接标记、不得重复计入事实；同步去掉过期open状态。
+- `st-chp8-p224-dido-picture-narrative`（L159）：claim描述画中Dido、Aeneas、Juno、风暴和Cupid，predicate也称“Dido and Aeneas in storm scene”，但object仅为Dido人物 `cand-4163`，其余叙事角色只在mentioned IDs。宜改成明确的作品—场景/人物描绘关系或拆开角色断言，保留候选只是神话图像角色、不是历史事件的限定。
+- `st-chp8-p224-replica-publication-report`（注4，L161）：原文仅为“Bologna (Plate 209) publishes a replica in the Scholz-Forni collection, Hamburg.” 顶层claim将其识别为Ferdinando Bologna 1958年著作，这一消歧依赖本书p.416 bibliography和plate list，当前quote锚只在p.224注4。应将身份识别作为有明确页码依据的校读/推断并补p.416来源定位，或将claim限于本段所说的“Bologna (Plate 209)”；保持 `cand-7759` 与对应书目候选 `cand-7348` 分离待S3对齐。复制画 `cand-7760` 与原作区分正确；集合候选 `cand-7761` 目前无类型，不能把collection当已收口端点。
+- 地点/空间只作提及而未进入端点：`st-chp8-p225-dal-sole-working-on-andromache-canvas`（L164–165）claim说Dal Sole在Bologna作画，但端点仅画家→画布；可将地点放入有据的qualifier或补独立地点/工作事件关系。`st-chp8-p225-dal-sole-visits-dido`（L165–166）claim说他坚持到Buonaccorsi palace看已到达的画，端点仅画家→画作；宫殿 `cand-7731` 只在mentioned IDs，应保留为访问地点或拆为访问事件。`st-chp8-p226-conti-looks-outside-lucca`（L181–182）claim与predicate均说Conti把搜求限定在Bologna与Venice，端点却是Conti→未定类型的collection `cand-7784`；两座城市只在mentions。应改为地点端点或地点组，并让collection候选类型继续待决。
+- `st-chp8-p225-modern-works-in-palace-rooms`（L171）claim按原文说更有趣、更现代画家的作品“were to be found”在Raimondo宫殿其他房间；其qualification却称“must have”标示Haskell推断。“must have”属于下一条 `st-chp8-p225-modern-works-raimondo-awareness`（L171–172），应将推断限定留在后行，不要削弱/改写前行原文语气。
+- `st-chp8-p225-crespi-interpretive-irony`（L172）：claim是Haskell称赞Crespi解释古典神话时的“engaging irony”，提及中正确列出艺术家 `cand-0871`，但false行subject错误指向作品 `cand-0880`《Leto turning the Shepherds into Frogs》。应改为作者评价的艺术家主体，或在无建模端点时留空；不能把画作当作被称赞的解释者。
+- 群组/collection/学校类型仍未决：`cand-12084`（#409、#415，启蒙时代patrons组）、`cand-12085`（#448，Cignani学校培养的未名leading artists组）、`cand-7789`（#447–448，Cignani“school”）当前`suggested_type`为空；`cand-7784`（#417–419，Conti collection）、`cand-7761`（#387，Scholz-Forni collection）也是taxonomy未表达的collection。按原文保留tentative membership、学校性质和集合边界，留S3/S4待决，不强制落单体端点类型。#448的“produced all the leading artists”是Haskell概括，组成员未命名；当前`mentions.csv`在该来源段没有`cand-12085`对应的表层锚，需补组范围mention或移除无锚的mentioned ID。
+- 页图校读应留在S2校读/qualification，不改S0原始引句：p.225物理页27脚注3印本为`Libro dei Conti`，而 `st-chp8-p225-n3-libro-records-franceschini-payment`（L177）quote留S0 `Libra`；p.226物理页28印本为“he managed”，而 `st-chp8-p226-conti-looks-outside-lucca` quote为OCR `��lie`；同页 `st-chp8-p226-conti-business-acumen-documents` 的 `siom` 印本为 `from`，`st-chp8-p226-gallery-displays-collection` 的 `silled` 印本为 `filled`。`st-chp8-p226-conti-original-works-only` 已有`originals`→`original`校读说明。另`st-chp8-p224-rambaldi-dardani-apotheosis` 的印本逗号校读如上。
+- false行只标明非关系候选，不等于语义事实已由false本身接收。`st-chp8-p224-regional-focus`（#379）与三个城市原子行#380–382有摘要/拆分重叠；`st-chp8-p225-aeneid-artists-and-evaluation`（#396）概括四位画家和作品评价，与#392–395创作行重叠；逐行保留说话者、引文范围和评价性质，勿将摘要当作额外关系。
+
+**批次结论：** 75条均已逐条对照S0和印本页图；上述类型冲突、参与者/空间端点、重复续句、限定不符、消歧锚与校读记录未闭合，本批不接收。下一游标为sec_ii第451条 `st-chp8-p226-marchesini-distributes-advances`（p.226 L187）；第八章当前尚余595条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第七批 S2 独立复核（statement 451–525）
+
+按当前 `book-statements.jsonl` 中规范分节 `chp-8:08_CHP-8_sec_ii:` 的 `source_line_start/end` 排序，逐条审读本批75条（首尾 `st-chp8-p226-marchesini-distributes-advances`—`st-chp8-p229-gian-gastone-last-medici-prince`），覆盖S0 L187–188、L191–204、L207–214、L217–218，印刷页226–229、PDF物理页28–31。逐条对照S0、印本页图、当前 `book-statements.jsonl`、`mentions.csv` 和候选端点。本批 `relation_candidate=true` 54条、false 21条；四个对应source segment的mention行数依次为56、66、44、37（合计203）。当前第八章共1,462条；连同此前已映射到当前表的非sec_ii 417条及sec_ii #1–450，本章累计逐条复核942条（true=660、false=282），当前尚有520条未审；不作章节接收结论。
+
+**问题与建议去向：**
+
+- `st-chp8-p227-franceschini-proposes-pastoral`（p.227 L191）：claim把Adam/Eve、Bacchus/Ariadne等“various subjects”与最终偏好的牧歌草案合在一起，object `cand-7797`只代表牧歌作品。拆开列举的主题提议与特定牧歌草案，或另建覆盖全部候选主题的提议组；`st-chp8-p227-franceschini-pastoral-accepted`只支持牧歌建议被接受为题材，不证明完成作品。
+- `st-chp8-p227-conti-asks-what-arrived-picture-represented`（p.227 L192）：claim说有一幅“of this kind”的画后来送达并被Conti追问题材，但object `cand-7798`是Torelli提议的特定Trojan-history画作；当前qualification也承认送达作品身份不明。不要把提议候选当成送达作品身份，保留未识别作品/事件，或改为未具名作品组端点。
+- `st-chp8-p227-venetian-six-lazzarini-pictures`（#465）与 `st-chp8-p227-lazzarini-morality-judgment`（#464）：false行将Lazzarini因裸体作品受欣赏与其六幅圣经题材画的“impeccable morality”合在一起，后半与true原子行#465重叠。将审美/接受判断拆开，不能把false摘要视为已核准的独立艺术家关系。
+- `st-chp8-p227-venetian-subjects`（#466）：原文概括“Venetian artists on the whole”，当前subject却是个人Lazzarini `cand-1368`；其后关于Lazzarini六幅旧约/新约画的实例已由#465另行记录。把地域概括留作开放/无单人端点，或用有据的画家群；不要将整体判断归给一位画家。
+- `st-chp8-p227-gallery-academic-style`（#468）将Conti所选九位画家映到未定类型组 `cand-12089`；`cand-12086`（迟延工作的未名画家）、`cand-12087`（Marchesini推荐的未名画家）及 `cand-7810`（Conti三位未名女儿）类型也为空。原文支持前两者是人物组，补类型或留待决；不补造成员。`cand-12089`成员有逐人mention，但当前 `mentions.csv`没有该组的表层跨度锚。
+- 作品端点与创作者/委托参与者需完整分开：`st-chp8-p227-conti-portraits`（#470）只有Conti→三幅肖像组 `cand-7800`，Bombelli `cand-0383`仅在mentions；`st-chp8-p227-gallery-other-works`（#473）只有Conti→七幅果蔬/动物画，Cassana `cand-0592`仅在mentions；`st-chp8-p227-commissioned-carlevarijs-views`（#474）只有Conti→三幅威尼斯景观组，Carlevarijs `cand-0554`仅在mentions；`st-chp8-p228-canaletto-four-pictures`（#490）与 `st-chp8-p228-marco-ricci-five-landscapes`（#492）同样只把作品组作端点，Canaletto `cand-0498`、Marco Ricci `cand-2149`未进入角色关系。建议保留赞助人—作品委托关系，并补画家→作品创作边或事件参与角色。#490还把受Marchesini催促、两次各委托两幅及Canaletto讨价难缠合在同一claim，宜将艺术家金钱行为拆出。
+- `st-chp8-p228-marco-ricci-landscape-praise`（#493）claim/predicate谈Marco Ricci的景观作品，但object是画家本人 `cand-2149`；应以作品组/作品为评价对象，或改写predicate为对画家的评价，不用人物端点承载作品属性。`st-chp8-p228-sebastiano-proposal-failed`（#495）同时包含Sebastiano被邀绘制、Conti认为报价过高及提议未成；Conti只在mentions，建议按提议/未成委托事件拆分角色与结果。
+- `st-chp8-p228-carriera-emmanuela-portrait`（#496）：原文“a portrait by Rosalba Carriera of his daughter-in-law Emmanuela”中的作品端点被设成画家候选 `cand-0585`（person；index子目是portrait of Emmanuela），`mentions.csv`也把整个肖像短语映到该人，注释却称它是“portrait work”。需建/映射作品候选并分列Conti购画、Carriera创作、Emmanuela为肖像对象；不能让画家person充当portrait object。相邻的 `st-chp8-p228-crespi-1728-commission`（#497）也以Conti→Crespi person表示“最后一幅画”的委托，而作品 `cand-0879`在#501单列；改为赞助人—作品委托边，并保留Crespi创作者角色/直接谈判。
+- `st-chp8-p228-crespi-chosen-subject-sketch`（#501）同一claim记Crespi说明所选主题并附寄一张“to serve as an embryo”的草图，唯一object是后续画作 `cand-0879`。如草图作为独立材料对象保留，应拆出草图递交/用途；否则将claim限于画作题材选择，并把草图作为限定上下文。
+- 未完成引文/身份边界：`st-chp8-p227-carlevarijs-transformed-scene-open`（#486）只有“Carlevarijs, wrote Marchesini, was”残句，却列为true relation_candidate；其续句在 `st-chp8-p228-carlevarijs-bassi-age`（#491）才完成“old”。将#486作为非独立续接片段合并/改为false，避免把不完整引介计作事实关系。#455与#460的跨页per-figure pricing则有`continued_from_statement_id`及closure字段，可继续作为一项被后句关闭的完整断言，不重复计事实。
+- `st-chp8-p228-medici-exception`（#508）和 `st-chp8-p228-ferdinand-member-of-medici-family`（#509）source锚只到p.228 L213–214；#508 claim识别Ferdinand、#509认定其属Medici，需用p.229 L217“Grand Prince Ferdinand”及“As a Medici”补足身份/亲属端证据或缩窄claim。该段mention把表层“a Medici”错误映到个人 `cand-1609`，应映到Medici家族 `cand-5179`；Ferdinand本人由下一页具名提及映射。`st-chp8-p229-birth-and-parentage`（#516）、教育人 `#519–521`的quote从L218代词“He”起，subject是Ferdinand；source span须纳入前行L217具名主体，避免只靠候选ID反向补正文身份。#516还把出生年份属性和“son of Cosimo III”亲缘断言合在一个谓词，应拆成出生时间与父子边。#519–521来源只写Viviani/Lorenzini/Redi姓氏，当前候选全名含Vincenzo/Francesco；保留surname-only表层锚，将扩名留S3身份对齐证据，不把qualified“do not expand identity from this passage”与全名候选当作已互证。
+- 当前mentions映射/遗漏：p.226 L203的surface `1725` 被映到Conti人物 `cand-0833`，应作为日期限定而非人名提及；“alterations in the work of established masters”映到procedure `cand-7787`，但声明中的作品组是 `cand-12088`，需要把mention与works group对齐或保留为动作描述。p.227 L201 “a Cain and Abel”映到 `cand-0457`，其canonical_name/detail说明是Domenico Brugiori作品，`suggested_type`却为`person`，同时被#480用作object；应裁决为work。p.228 L212 “Conti’s collection”映到Conti本人 `cand-0833`，应映到集合候选 `cand-7784`；p.228 L214 “a Medici”误映到Ferdinand个人的错误见上条。p.228 L208“a portrait by Rosalba Garriera”映到画家 `cand-0585`而无作品端点。
+- `mentioned_candidate_ids`与当前segment的mention锚存在以下未对齐项，建议按原词/跨度补mention行或移除无对应提及ID：L187–188 `cand-12086/12087/12088`；L191–204 `cand-12089/12090/7784`；L207–214 `cand-12091/5179/7785/7824/7825/7826`；L217–218 `cand-12092/12093`。其中`cand-5179`应修正而非新增第二个“a Medici”映射。#448组 `cand-12085`的同段缺锚已在前一批记录中补充说明。
+- 其余本批false记录中的作者评价、推论和一般化（如#467、#469、#484、#487、#504–508、#511、#513–515、#518、#523–524）按Haskell或其报告者限定，不转换为正式历史关系；#477保留“‘Correggio’”归属引号，#482/#485保留obtaining意图而非已购，#489将“this city”限于威尼斯，#510页图校读fine arts及#462 Achilles拼写校读均有对应上下文。
+
+**批次结论：** 75条均已逐条对照S0与PDF页图；候选类型、作品/人物端点、身份锚、claim原子性和mentions映射仍有实质缺口，本批不接收。下一游标为sec_ii第526条 `st-chp8-p229-marguerite-departure`（p.229 L218）；第八章当前尚余520条未审。
+
+
+### 2026-10-20：第八章 sec_ii 第八批 S2 独立复核（statement 526–600）
+
+按当前 `book-statements.jsonl` 中 `chp-8:08_CHP-8_sec_ii:` 的来源行排序，逐条核读本批75条（首尾 `st-chp8-p229-marguerite-departure`—`st-chp8-p232-ferdinand-told-second-artist-meno-flemmatico`），覆盖S0 L218–249、L251–254，印刷页229–232；对照S0分节原文、当前statement/qualifier、`mentions.csv`、候选表及本批PDF物理页32–34。`relation_candidate=true` 44条、false 31条。第八章共1,462条（sec_ii 1,045条及其他登记分节/转录417条）；本批后累计核读1,017条（此前可映射至当前表的417条 + sec_ii #1–600；true=704、false=313），当前余445条。下一游标为当前sec_ii第601条 `st-chp8-p232-instructions-to-unnamed-artists`（印刷p.232 L254）。此计数不代表本章接收。
+
+**问题与建议去向：**
+
+- `st-chp8-p229-ferdinand-francesco-opposition`（p.229 L220）：原文“with his uncle Francesco Maria … he led the opposition”后接“as so often where political activity is out of the question”，是在说两人共同反对Cosimo；当前subject/object是Ferdinand与Francesco，predicate却写“opposition to Cosimo”，三方角色没有结构化表达。拆成共同领导的反对行动/事件，并将Cosimo III作为反对目标；或将不确定参与角色保留开放。
+- `st-chp8-p229-marriage-and-venice-permission`（p.229 L221–222）：原文是未说明施事的“marriage was insisted on and agreed to in return for permission to visit Venice”。当前Ferdinand→Venice端点把条件地点当作婚姻关系对象，也没有说明谁坚持、谁同意或婚姻另一方。应记录为婚姻/许可条件事件，Venice放在条件/目的地限定中；未具名参与者保持开放。
+- `st-chp8-p229-portugal-negotiations`（p.229 L222–223）：一条claim同时记“与Portugal谈判无果”和“Violante被找到并嫁给Ferdinand”，但唯一object是Portugal（`cand-7833`），Violante（`cand-7831`）仅在mentions。拆为未具名葡萄牙婚配谈判及Ferdinand—Violante婚姻两项；不补造葡萄牙提议对象或婚期。
+- `st-chp8-p230-scarlatti-music`（p.230 L229）：把Ferdinand雇Alessandro Scarlatti写歌剧与Ferdinand参与歌剧创作合成一条，object仅为Scarlatti本人（`cand-2393`），未具名歌剧没有作品端点。拆雇佣/创作角色，保留匿名歌剧组端点或开放，且“参与创作”不能写成Scarlatti单人创作关系。
+- `st-chp8-p230-discerning-patron-and-scholars`（p.230 L229）：predicate含“welcomed scholars”，claim却只说Ferdinand与艺术家和音乐家通信；同段学者及展示收藏已由 `st-chp8-p230-welcomed-foreign-scholars`（#552）另记。将本条predicate收窄到通信，避免结构字段比claim多出事实。
+- `st-chp8-p230-regent-louis-comparison`（p.230 L230–231）：印本为“as if the Regent had died before Louis XIV”；当前object `cand-1447`是Louis XIV，而未具名Regent `cand-7841`只在mentioned ids，造成比较端点错配。将object改为`cand-7841`或不建立人物边，并保留其未具名状态；此句是类比，不是实际死亡事件。
+- `st-chp8-p231-franceschini-biography`（p.231 L243）：predicate/subject/object把Franceschini“a late follower of Pietro da Cortona”与“died in 1689”合在同一条Franceschini→Cortona关系中。拆出师承/风格描述与死亡年份属性。S0 OCR `1689?`不是疑问标记；PDF物理页33印本为`1689¹`，脚注1指向Baldinucci，VI (1728), p.411；在校读记录中更正，不把脚注上标误写成不确定死亡年份。该书页仍未独立核读，保留Haskell转述来源限定。
+- `st-chp8-p231-franceschini-painted-religious-works-for-ferdinand`（p.231 L243）：原文清楚称“一批宗教作品”由Franceschini为Ferdinand绘制；当前端点只有画家和赞助人，作品组仅在predicate中。补充有来源限定的未识别作品组端点，或将具体创作关系保持开放；不得与紧接着的《La Burla》混为一组。
+- `st-chp8-p231-la-burla-purchase-and-making`（p.231 L243–244）：把Ferdinand在1693年前购入《La Burla》、Franceschini多年前以蛋彩为某私人市民绘制该画合在同一条Ferdinand→作品边；原文另含Franceschini创作者与未名早期委托人角色。拆购入与创作/早期委托，保留“many years earlier”“private citizen”及未名委托人的来源限定。
+- `st-chp8-p231-encouraged-crespi`（p.231 L246）：原文说Ferdinand有机会鼓励“Crespi作品中的类似亲密感”，当前object为画家本人`cand-0871`，而claim/predicate指向作品中的风格；改为作品组端点或保留目标开放，并维持“有机会鼓励”而非已完成委托的语气。
+- `st-chp8-p231-s-marco-purchase-and-copy`（p.231 L247）：合并Ferdinand从未名教堂购入Fra Bartolommeo原作、1692年以复制品替换原作两项行动，唯一object为原画`cand-7856`；复制品`cand-7857`及教堂`cand-7858`只在mentioned ids。拆购入和替换两项，并把复制品、来源教堂作为各自端点/角色；保留原作与复制品为不同作品。
+- `st-chp8-p231-interest-in-gabbiani`（p.231 L248）：把Ferdinand特别关注Gabbiani与其在Ferdinand视野扩大后仍长期忠于Gabbiani合并为一条。拆出关注与持续忠诚，保留“long after his own horizons had been immeasurably widened”的时间/比较限定；Haskell对Gabbiani艺术原则的评价不是正式机构成员关系。
+- `st-chp8-p231-cardinal-leopold-collection`（p.231 L249）：claim同时说Leopold的活动使威尼斯艺术趣味进入Medici宫廷、其汇集文艺复兴作品、Ferdinand后来扩充该收藏；当前仅Leopold→`cand-7865`收藏一个端点，且该候选`suggested_type`为空。拆开宫廷趣味、Leopold收藏和Ferdinand扩充收藏；收藏候选类型未定前保持开放，不把Ferdinand行动归作Leopold的边。
+- 当前候选/mention类型错误：p.231 L247–248的艺术家表层提及被映到作品类型的索引子目：`st-chp8-p231-1690s-church-purchases`、`...ferdinand-bought-cigoli-deposition`、`...ferdinand-bought-madonna-delle-arpie`、`...ferdinand-bought-martyrdom-st-cecilia`所涉mention分别把Raphael、Andrea del Sarto、Cigoli、Riminaldi映至`cand-2102/2362/0757/2201`，其suggested_type为work，且mention note明确称其为artist。当前已存在对应人物候选`cand-2098/2361/0756/2200`，作品端点另由`cand-7861–7864`表示；修正艺术家mention映射/候选类型，保留单独作品端点。
+
+**本批无新增问题的范围：**除上述条目外，#526–532、#534、#537–550（不含#548）、#552–559、#561–576、#580–581、#583、#585–588、#590、#592–600逐条与所引S0内容和印本限定相符。#561的正文说话者仍是匿名当代赞助者；注4对Luca Ombrosi的归属仅为probable，脚注链接已指向对应脚注statement，故不把匿名说话者改成已确认身份。#537、#543续句链接已关闭；#590至p.232 L252的Cassana续接已闭合，不另报缺锚。
+
+**批次结论：不接收。**75条均已逐条核读，但上述关系端点、复合claim、对象/人物提及类型及claim-predicate不一致仍待修订；其余条目不因该结论自动转成S3决定。
+
+
+### 2026-10-20：第八章 sec_ii 第九批 S2 独立复核（statement 601–675）
+
+依当前 `book-statements.jsonl` 按 `chp-8:08_CHP-8_sec_ii:` source lines 排序，逐条复核75条（首尾 `st-chp8-p232-instructions-to-unnamed-artists`—`st-chp8-p234-cassana-history-pictures`），覆盖S0 L254–257、L259–261、L263–266、L268–269、L271–279、L281–287，印刷页232–234及Plate 37–40图版。逐条对照登记原文和PDF物理页34–40；核对当前statement、qualifier、候选和mentions。true=48、false=27。本批后第八章累计已逐条复核1,092/1,462（非sec_ii 417 + sec_ii #1–675；true=752、false=340），余370条；下一游标为sec_ii第676条 `st-chp8-p234-cassana-venus-work`（p.234 L287）。
+
+**问题与建议去向：**
+
+- `st-chp8-p232-madonna-collo-lungo-purchase`（p.232 L255）：当前claim把1698年购入《Madonna del Collo Lungo》与“disegnata come da Raffaello, finita con l’anima”的审美描述合在购买关系行。拆为购入和评价两项；购买日期和“如Raphael所作”比较语保留在相应statement，不转成Raphael作者归属。OCR校读`sinita→finita`、`1’anima→l’anima`及脚注上标²已记录并与PDF物理页34吻合，但surface `Raffaello`的mention映到`cand-2102`（Raphael的work子目）；改映到现有人物候选`cand-2098`，作品仍由`cand-7885`表示。
+- `st-chp8-p232-eagle-ganymede-example`（p.232 L257）：Haskell原文“might range from sending his court painter an eagle to help with a Ganymede”是对合作方式的假设举例；当前predicate/claim将其写成Ferdinand实际送鹰给画家的事件并标true。改为一般/可能模式描述，或取消实际事件断言；鹰的具体性质及Ganymede作品身份继续开放。
+- `st-chp8-p232-fumiani-david-instruction`（p.232 L257）：claim同时包含寄给Cassana的信和指示Fumiani的内容，当前关系端点只有Fumiani，Cassana仅在mentioned IDs。保留“Ferdinand→Cassana（信件/传达）”与“Cassana转告Fumiani（绘画指令）”的不同角色，拆成通信/指令事件或显式记录三方角色；当前限定“作品未识别”及Fogolari Letter 45未独立核读说明正确。
+- `st-chp8-pl38-group-city`、`st-chp8-pl38-group-site`（Plate 38–39 heading，p.232图版，PDF物理页36）：PDF上印有“FRESCOES BY SEBASTIANO RICCI”并接“IN PITTI PALACE, FLORENCE”，但两条statement的source_quote仅含后半位置行，S0该图版转录也未录前半标题。补充标题的图像校读/锚点，令“此组为Sebastiano Ricci壁画”的claim可追至实际印本，不从候选名称反推source claim。
+- Sacconi未名作品委托角色：`st-chp8-p233-sacconi-bacchanal-order`（p.233 L276）、`st-chp8-p233-sacconi-orders`（L276）、`st-chp8-p233-sacconi-st-giustina-order`（L276）端点都是Ferdinand→具体题材作品组，Sacconi只在mentions，而原文上下文明确这些命令跟随Sacconi。增加Sacconi作为预定执行画家的角色/委托事件参与者，维持“下令不证明完成”；把学习全身人物的理由留在 `st-chp8-p233-sacconi-full-length-figure-instruction`，不与作品制作结果混同。
+- `st-chp8-p233-sacconi-corpus-domini-exhibition`（p.233 L277）：claim/predicate是Ferdinand安排Sacconi的画作在Corpus Domini展出，object却是Sacconi本人`cand-2325`，而图片组/展览事件没有成为端点。改用作品组或展览事件作为对象并把Sacconi列为作者/参与者；地点仍未给出。
+- `st-chp8-p233-sacconi-picture-humour`（p.233 L277）：Ferdinand欣赏的是Sacconi画作的幽默，当前object仍为画家本人。虽该条`relation_candidate=false`且限定为报告中的情感评价，statement的作品评价对象仍应映到作品组/留空，而不能以画家承载画作属性。
+- `st-chp8-p234-cassana-portraits-group`（p.234 L285）：S0说Cassana多次去Florence“chiefly so as to paint portraits of the Prince and his household”；当前claim/predicate写成已完成绘制的肖像组。收窄为造访的目的/任务，不把意图自动改成已完成；候选`cand-12098`（肖像组）被statement提及但在对应 `mentions.csv` segment没有表层跨度，若保留该候选须补`portraits of the Prince and his household`的mention锚。
+- `st-chp8-p234-cassana-sent-pictures-from-venice`（p.234 L285–286）：原文称Cassana不时从Venice寄画，当前subject是Cassana、object却是Venice，画作没有端点且接收者未指明。以未名画作组/发送事件承载关系，Venice保留为来源地；收件人继续开放，不能由“worked for Ferdinand”的上下文补为确定收件人。
+- `st-chp8-p234-cassana-history-pictures`（p.234 L287）：原文称Cassana为Grand Prince绘制Bacchanal等历史画；当前端点只表示Cassana→Bacchanal工作`cand-7941`，Ferdinand仅在mentioned IDs。将创作者—作品与为赞助人作画的角色分别记录，或以事件参与者表达Cassana、Ferdinand和作品，不遗漏明确的 patron 端点。
+
+**无新增问题的条目：**除上述问题外，#601–608、#610–611、#614–617、#620–634、#636–642、#644、#646–668、#671–674与S0/PDF所示主张及限定一致。#608、#609的意大利文校读分别已记入p.232 L254及L255的`ocr_corrections`；#614到`st-chp8-p233-modelli-purposes`（#625）的续句已闭合。#647从p.233“an artist”识别到p.234 Fumiani，当前qualification明确这是上下文识别而非独立姓名证据。#667关于1716 inventory的claim见p.234脚注3；该脚注statement `st-chp8-p234-note3-stoning-record` 的`linked_body_statement_ids`已反向列出#665、#667、#668，日期来源可追。#668的“Uffizi”候选类型仍明确未定，保留为待S3判定，不强行归类。Plate 37、38及40a图注逐字与PDF物理页35、36、38相符；Plate 38的分组标题锚点问题见上。
+
+**批次结论：不接收。**75条均已逐条核读；假设性举例被写成历史事件、作品/艺术家端点、多人通信角色、source quote标题锚及创作/委托角色仍有待修项。其余通过核读的条目不代替S3裁决。
+
+### 2026-10-20：第八章 sec_ii 第十批 S2 独立复核（statement 676–750）
+
+以当前book-statements.jsonl中chp-8:08_CHP-8_sec_ii:的1,045条statement按source_line排序，本批逐条复核75条（st-chp8-p234-cassana-venus-work至st-chp8-p237-pleasant-subject-commissions），对照S0 L281–321、mentions.csv、候选端点/类型及PDF物理页40–43（印刷pp.234–237）。relation_candidate=true 54条、false 21条、未分类0。第八章共1,462条（sec_ii 1,045；其他登记分节/转录417）。计入此前映射到当前ID的417条及sec_ii #1–750，累计核读1,167条（true=806、false=361），余295条；下一游标#751 st-chp8-p237-note2-cites-silva-letter-155（L322）。417条属于历史映射覆盖，本批直接重读当前ID为#676–750；不据此接收全章。
+
+**问题与建议去向：**
+
+- st-chp8-p234-cassana-venus-work、st-chp8-p234-cassana-catiline-conspiracy（p.234 L287）：Cassana历史画明确“for the Grand Prince”；artist→work端点漏Ferdinand的赞助角色。补赞助/委托参与者，不推定每个题材都是已识别作品。
+- st-chp8-p235-giordano-glass-pictures（p.235 L292–293）：Giordano为Ferdinand画《The Flight into Egypt》，当前artist→work漏赞助对象；补Ferdinand角色。Livorno、May 1702及返自Spain限定与脚注Naples路线不一致，现有qualification正确保留可能是连续行程。
+- st-chp8-p235-two-unnamed-artists-met_ferdinands_demands（p.235 L294）：cand-7958在entity-candidates.csv为term、S3组为sg3-term，但来源是两名未具名画家的人物组；修为人物组或保留类型未决，勿拆造个体。未识别作品组也应保持开放。
+- st-chp8-p235-ferdinand-commissioned-crucifixion（p.235 L295–296）：Ferdinand委托Ricci创作《Crucifixion》，当前subject→work漏受托画家Ricci；补为事件参与者，作品cand-7957仍保持未识别限定。
+- st-chp8-p235-madonna-acquisition（p.235 L296）：将Ferdinand购《Madonna delle Arpie》、卖方修女、来源教堂和自家gallery合并；拆出购买事件角色并锚定卖方及收藏/用途。Andrea del Sarto人物mention在本segment缺失；cand-2362为未决索引子目，应改映已登记person cand-2361；作品由cand-7862承载。
+- st-chp8-p235-ricci-visit-florence-to-paint（p.235 L296）：Ricci“似乎”到Florence为现场画前述委托画；当前仅Ricci→Florence地点边，作品cand-7957只在mentioned IDs。保留推测语气并记录绘画目的/作品端点。
+- st-chp8-p235-crates-and-landscapes（p.235 L297–298）：Ricci为Marucelli装箱画作、送至Ferdinand；当前claim未结构化Marucelli预定受益与Ferdinand收件角色。改为寄送事件/作品组及三方角色。
+- st-chp8-p235-marco-landscapes（p.235 L298）：statement说Marco画两幅风景，遗漏原文“his nephew Marco”所明示的Ricci—Marco亲属事实。补独立关系候选及人物提及锚，保留nephew措辞，不扩大身份。
+- st-chp8-p235-allegory-arrival、st-chp8-p235-pitti-decoration（p.235 L299–300）：Ricci为Ferdinand作《Allegory of the Arts》及Pitti装饰，当前artist→work漏Ferdinand赞助角色；补参与者，不强配favorite gallery/villa。
+- st-chp8-p235-surviving-decorations（p.235 L300）：把为Marucelli及Ferdinand本人绘制的不同装饰合成一条artist→work组；拆分对象/项目与赞助角色。
+- st-chp8-p236-rococo-style-and-reception（p.236 L308）：S0 OCR “little suture in Italy”，PDF物理页42印“little future in Italy”；claim已按印本，但未记校读。补ocr_corrections及页图依据。
+- st-chp8-p236-collaborator-painted-backgrounds（p.236 L309）：cand-8003类型为term，却作为通常绘制建筑背景的未名collaborator施事；修为未名人物/人物组，或保留类型待决，保留usually限定。
+- st-chp8-p236-ricci-small-figure-pictures（p.236 L309）：Ricci为Ferdinand画多幅小人物画，当前Ricci→作品组漏Ferdinand赞助角色；补角色并保持作品未具名。
+- st-chp8-p236-ricci-wrote-to-ferdinand-again-1708与st-chp8-p237-ricci-return-venice-before-letter（p.236 L309、p.237 L312）：两条指同一封1708年信，后一条补“返回Venice后”；合并为带时间限定的一条，或将前条标为续接片段。
+- st-chp8-p237-ricci-crespi-missed-meeting（p.237 L317）：“错过相见两三个月”是未发生的会面及时间间隔，却标relation_candidate=true并以两画家为端点；改false或记非关系时间事件，不声称实际会面。
+- st-chp8-p237-ferdinand-commissioned-still-lives（p.237 L320）：Ferdinand委托Crespi一对静物，当前Ferdinand→作品组漏Crespi受托画家角色；补事件参与者及数量/题材限定。
+- st-chp8-p237-pleasant-subject-commissions（p.237 L321）：Ferdinand给Crespi的委托均为“d’argomenti piacevoli”，当前person→person未表达未名作品组与题材限定；补作品组/委托集合限定，不造具体作品。
+- mention锚点：L303–309 segment在mentions.csv为0行，但#710–731引用Ferdinand、Ricci、Venus/Adonis及cand-8001/8003等。L311–325仅2行（Grand Prince、Florence），#739–750中的Crespi、Ricci、Ferdinand、Massacre of the Innocents及cand-8010/8014缺span。按S0和PDF补锚；无法定位span的候选从mentioned_candidate_ids移除或保留开放，不能由端点反造mention。
+
+**无新增问题的条目：**#678–684（Langetti来源/年代冲突保持区分）、#686–688、#690–691、#693–694、#696、#698–699、#702–704、#706、#709、#711–729（#725/#726除外）、#732–738（#739除外）、#741–742（#742为Haskell一般化且保持false）、#744–749与S0/PDF限定相符。#701绘景本身可追溯；遗漏的是原句另含的亲属事实。毁损说法与Farsetti天花板识别及Ricci画作归属不确定性均保持开放。
+
+**批次结论：不接收。**75条逐条核读；赞助/委托角色、候选类型、mention锚点、复合关系、同信重复及非关系分类仍待修订。其余295条未读，不作全章接收判断。
+
+
+### 2026-10-20：第八章 sec_ii 第十一批 S2 独立复核（statement 751–825）
+
+以当前book-statements.jsonl中chp-8:08_CHP-8_sec_ii:按S0 source lines排序，本批逐条复核75条（首尾st-chp8-p237-note2-cites-silva-letter-155—st-chp8-p239-earlier-family-pictures-included），覆盖S0 L322–347、印刷pp.237–239、PDF物理页43–45；逐条对照当前statements、mentions、候选端点/类型、脚注引文及页图。本批relation_candidate=true 51条、false 24条、未分类0。计入非sec_ii 417条已映射覆盖及sec_ii #1–825，第八章当前ID累计核读1,242/1,462（true=857、false=385），余220条。下一游标#826 st-chp8-p239-pictures-number-considerable（L347，p.239）。非sec_ii 417条为历史映射覆盖，本批当前ID直接复核范围仅#751–825。
+
+**问题与建议去向：**
+
+- st-chp8-p238-nativity-and-selfportrait-sent（p.238 L328）：claim把“开始向Ferdinand寄画”与“Nativity于3月初抵达”并在一起，predicate及唯一作品端点cand-0883只表达Nativity抵达。应收窄到该画到达并保留收件角色，或拆出未名寄画组/发送事件。
+- 送画收件角色：st-chp8-p238-selfportrait-arrived-a-month-later（L328）、st-chp8-p238-copy-st-william-sent（L330）、st-chp8-p238-painters-family-sent-and-evaluated（L330–331）、st-chp8-p238-silva-satirical-picture（L332）都以Crespi→作品为端点，却明确说作品送给/作为礼物给Ferdinand；补收件人/礼物事件角色。#781 Children at Play及#784 Women washing仅说与其他作品同句寄出，具体收件人不能超出原文推定，保持开放。Nativity/selfportrait及两件小画候选cand-0883–0887为不同作品，不应并成一个具体作品。
+- st-chp8-p238-letters-prevented-fresco-destruction、st-chp8-p238-pepoli-considered-palace-alterations（p.238 L329）：原文说两封Ferdinand急信阻止Pepoli计划实施、Pepoli在1708年考虑结构改造且改造将毁Crespi天花壁画。#771当前端点Ferdinand→壁画，#772为Pepoli家族→壁画；它们把信件/计划事件缩为作品边。将“受考虑的改造计划”作为事件/开放端点，壁画作为目标，保留未实施语气。note 2列3个Pepoli往来档案号，原文qualification正确指出无法确定哪两封是急信。
+- st-chp8-p238-ricci-acquired-work（p.238 L329）：Giovanni Ricci取得Crespi“very large proportion of his work”，当前subject为Ricci、object为Crespi本人cand-0871，作品集合未成为端点。改为来源限定的Crespi作品组/collection端点；不要补具体作品清单或精确数量。
+- st-chp8-p238-painters-family-confidence-in-ferdinands-taste（L331）：此interpretation本身保留Haskell归属且relation_candidate=false；但它带脚注3，p.238 note 3引Ferdinand致Crespi信并说明《The Painter’s Family》所在，当前note 3回链只列作品寄送#778，未回链本条评价。应把note/statement双向锚连到#779；不把Haskell的判断误作信中直述。
+- st-chp8-p238-genre-scenes-and-subject-popularity、st-chp8-p238-silva-satirical-picture、st-chp8-p238-women-washing-scene-sent（p.238 L332）：note 4的“These pictures”定位三幅寄给Ferdinand的画在1941年的Pisa Cabinetto；当前note statement仅链接#783与#781，漏掉#784 Women washing。补#784的note回链。#782关于洗衣题材后来流行的claim是作者评价，不是这条藏地信息所证明的对象位置。
+- st-chp8-p238-ferdinand-collected-crespi-work（p.238 L334）：Ferdinand在1709年“collected [Crespi’s] work”，当前object是Crespi人物cand-0871。将object改为未逐件识别的Crespi作品/收藏组；保留“increasing enthusiasm”而不补清单。
+- st-chp8-p238-many-pictures-gifts-and-godfather（p.238 L334）：claim记Crespi为Ferdinand画大量作品，当前端点Crespi→Ferdinand且无作品组。补未名作品组/创作事件角色，避免把人际服务边当成完整的创作事实。
+- st-chp8-p238-genre-scenes-and-fair（p.238 L334–335）：claim/predicate合并“大量genre scenes”、一幅《Fair at Poggio a Caiano》及其纳入宫廷肖像；唯一object cand-0878是Fair。拆为来源限定的genre-scene组及Fair作品/肖像内容。对应note 5称Fair在Uffizi，当前note statement没有linked_body_statement_ids；应回链#797（及需用该地点限定的Fair陈述），并校对#796/#797的footnote_marker覆盖。
+- st-chp8-p239-crespi-studies-venetian-painters（p.239 L340–341）：claim把“Ferdinand的gallery”明确限定为地点未明，qualification也说不能等同Medici collections；但mentioned_candidate_ids包含cand-8052（Medici collections作为观看语境）。移除该不相符mention，仅保留未定位gallery cand-8051；与下一句Medici collections中的Tintoretto归属故事分开。
+- st-chp8-p239-ferdinand-supported-history-picture-break（p.239 L341）：claim是Haskell评估Ferdinand支持Crespi脱离传统history picture的尝试；当前人—人端点可作支持关系，但mentioned_candidate_ids多出cand-1612（其候选canonical仍为Ferdinand本人，索引子目却写“support in break...”），不是独立的人名提及。移除/重映该重复候选；如需给尝试建端点，须以活动/作品组而非第二个Ferdinand身份承载。
+- st-chp8-p239-only-princes-influential-patrons（p.239 L344）：claim是“只有王子能成为有影响力的赞助人”的普遍化，当前subject_candidate_id却指定Ferdinand。改为不指派Ferdinand个人，或以来源限定的一般类别保存；relation_candidate=false应保留。
+- st-chp8-p239-pictures-distributed-among-medici-residences、st-chp8-p239-pictures-distributed-in-country-houses、st-chp8-p239-earlier-family-pictures-included（p.239 L345–347）：三条当前均relation_candidate=false，但原文分别陈述Ferdinand所集图片在Pitti寓所和其年内居住的country houses存放，以及早期Medici家族成员另行聚集图片、与Ferdinand私人收藏有别。它们涉及明确的收藏归属/作品存放关系，宜转为关系候选；增加来源限定的Ferdinand私人作品组、早期家族作品组和country-house地点组端点，保持未识别成员开放，勿将两组Medici收藏合并。#823当前object Pitti Palace没有作品组端点，#824无place/object端点，#825仅Medici family端点。
+- 脚注回链缺口：p.238 note 1（L443）列March/April 1708书信，当前只链Nativity/寄画#764，未链脚注标记1的#768自画像回复；note 3（L445）信件/作品定位应链#779评价（前一条仅链#778）；note 4漏#784见上；note 5 Uffizi定位未链Fair语句见上。p.239 note 1现有链接到#785的1709访问，但应复核并补其谈多次Florence访问的#799；note 2“see p.237 note 1”未链带脚注2的#807；note 3对Zanotti及Ferdinand 28 April 1708 letter的引用未链带脚注3的#816。保留各引文只证明书中引述/定位、未独立查阅原信的限定。
+- mention锚点严重不足：本批三个segment在mentions.csv分别只有2行（L311–325）、2行（L327–336）、1行（L338–348）；原文却具名提及archive letters、Graziani/Santi/dal Sole、Crespi/Ferdinand、Ricci/Marucelli/Pepoli、许多作品、Bologna/Pratolino/Pitti等。#751–825的mentioned_candidate_ids及候选端点多无对应source span。按S0/PDF补span及映射；没有原词跨度的候选应移除或保持开放，不能从statement端点反推mention。
+
+**无新增主张错误的范围：**除上述结构问题及mention/footnote回链缺口外，#751–763、#765–770、#773、#775、#777、#779–780、#782、#785–788、#790–792、#794–796、#798–802、#803–804、#806、#808–811、#813–821与S0/PDF原文的核心claim、说话者、语气和时间限定相符；含Haskell推断、可能性、一般化的记录保持其原归属或false分类。此“无新增主张错误”不表示这些条目的mention跨度或脚注关系完整。
+
+**批次结论：不接收。**75条均已逐条核读；作品/地点组端点、收件人角色、计划事件、作品集合关系分类、重复候选与脚注及mention锚点仍待处理。余220条未审，本章不作接收判断。
+
+
+### 2026-10-20：第八章 sec_ii 第十二批 S2 独立复核（当前statement #826–900）
+
+按当前 `book-statements.jsonl` 对 `chp-8:08_CHP-8_sec_ii:` 记录以S0行号升序编号，本批逐条核读75条（首尾 `st-chp8-p239-pictures-number-considerable`—`st-chp8-p218-bottari-volume-iii-355-356`），覆盖S0 L347–376及L452的已登记图像转录，对照印刷pp.239–241、215、217–218及相应PDF页图、当前mentions与候选端点。本批true=53、false=22、未分类=0。纳入此前417条非sec_ii历史映射和sec_ii #1–900后，当前ID累计覆盖1,317/1,462（true=910、false=407），尚余145条；下游游标为#901 `st-chp8-p219-n1-alternative-subject`（S0 L377，p.219）。其中本批直接重读仅#826–900；历史映射不是本批接收依据。
+
+**实质问题与建议去向：**
+
+- `st-chp8-p240-ferdinand-displays-gabbiani`（p.240，L355–356）：原文同时给出Ferdinand的常规公开展示做法和Gabbiani《Flight into Egypt》在Piazza del Duomo的具体展示。当前statement把一般政策、具体作品和展示地合并，Gabbiani cand-1093与场地cand-8065只在mentioned IDs中。拆分一般政策与具体展示，保留画家、作品、地点及Ferdinand的主办/展示角色。
+- `st-chp8-p240-displays-sacconi-policy`（p.240，L356）：所谓对Sacconi适用同一展示政策没有指明作品或展示事件，却以Ferdinand与Sacconi两个人为关系端点。改为来源限定的未名作品/展示组开放端点，或保留为非关系叙述，不能写成人际边。
+- `st-chp8-p240-displays-sacconi-and-cassana`（p.240，L356）：把1707年信中对Cassana《Portrait of a Cook》的赞赏与拟向本地画家展示的意图并为实际展示；qualification虽说明只是意图，claim仍复合且与 `st-chp8-p240-ferdinand-admired-cassana-cook` 重复。拆分书信、评价、展示意图，保持未发生实际展示。
+- `st-chp8-p240-1706-exhibition-and-san-rocco`（p.240，L356–357）：把1706年实际展览、Haskell关于其规模的评价、可能受San Rocco展览影响及“probably”限定合并。拆分可确认事件与来源归属的推测/比较。
+- `st-chp8-p241-portrait-as-patronage-signal`（p.241，L362）：statement误以Ferdinand为主体；“who thus unmistakably showed his patronage...”回指画像，而不是Ferdinand本人。画像在S0图像转录L452明确为Grand Prince画像；应以对应portrait候选为主体、把显示赞助作为作者解释，并锚定L452，不将解释改成被描绘者的直接行为。
+- `st-chp8-p241-luca-giordano-presence`（p.241，L366）：原文“Luca Giordano was much in evidence”承接那批那不勒斯作品；当前把Giordano本人设为展览参与者。改为Giordano作品组的展览呈现候选，作品未具名时保持开放，并保留Haskell的概括措辞。
+- `st-chp8-p241-venetians-showing`（p.241，L366）：原文称“Venetians”在展览中表现突出，当前cand-8104类型为term。端点可能指威尼斯画家群或其作品群，须按上下文辨明；无法辨明时保留开放的群组端点，不把地域/艺术类别直接当参展对象。
+- `st-chp8-p240-ricci-painted-this`（p.240，L356）：Ricci于1707年“painted this”指代前句的房间/装饰或相关作品，作品候选cand-8063虽为开放work端点但open_endpoint_reason为空。补记指代未决理由或按实际对象拆分，不能制造特定作品身份。
+- `st-chp8-p215-pesenti-church-citation`（p.215脚注）：Haskell引用Pesenti的关系当前为false，而相邻Bottari脚注引文记录为true。统一引用关系的表达规则：将作者著作→被引文献及脚注定位一致记录；如保留false，须说明其与另两条有何实质差别。
+- `st-chp8-p215-dora-coggiola-acknowledgment` 与 `st-chp8-p215-pinetti-document-source-note`（p.215脚注）：引文内容分别涉及Dora Coggiola/机构与Pinetti文章，但对应L374来源segment缺mentions跨度。Pinetti statement也把档案材料来源、解读归作者本人、追随Pinetti三个内容合在一起；补可追溯mentions，必要时拆分来源及解释归属。
+- `st-chp8-p217-bottari-volume-ii`、`st-chp8-p217-bottari-volume-iii`、`st-chp8-p218-bottari-volume-iii`（pp.217–218脚注）：PDF可读卷号II/III，OCR分别误作H/HI；当前statement保留校读说明和未独立核验引文内容的限定，证据锚应持续指向对应页图。mentions只有Bottari人物候选，未映射各具体卷册档案候选；补与文字对应的mention映射。
+- #826–894 mentions锚点：L338–348的mentions仅1行（意大利艺术）；L350–359仅1行（Florence）；L361–370仅3行（old masters、Italian art、Prince）。与statement中具名人物、地点、展览、作品及作品组端点不相称。按原文span补mention及mentioned_candidate_ids；没有可定位原词的candidate ID应移除或保持开放，不能从statement端点反造mention。
+- L373–376脚注statement #895–897涉及Pesenti、Dora Coggiola、Pinetti与Biblioteca Civica等，但source segment没有相应mention spans；核对并补写准确行页锚。
+- #851 `st-chp8-p240-exhibition-catalogue`的original_quote覆盖到后续日期/场地句开头，超出该statement的“目录有助重建展览”claim；收窄引文锚或拆分。#846与#849的复合问题见上。
+
+**其余逐条核读结论：**除上述端点/复合断言/候选类型/来源锚和mentions问题外，#826–845、#847、#850、#852–863、#865–873、#875–876、#878–893、#895、#898–900的核心断言与S0/PDF一致，作者评价、推测、意图、约数和否定语气大体保留。#874端点对象仍待定；#894的“威尼斯是当时最有趣的意大利绘画所在”属于Haskell的评价性地理概括，留作关系候选建模复核，当前保留原归属和限定。L452转录已包含“十二幅由Ferdinand借出的画”及门上Grand Prince画像，故#864应修复指代和来源链接，不应报告为来源缺失。
+
+**批次结论：不接收。**本批75条已逐条复核；高影响问题集中于#864画像主体误配、#877人物/作品参展端点、#846展示角色缺失，以及mention锚点系统性不足。章节尚有145条未核读，不能接收第八章。
+
+
+### 2026-10-20：第八章 sec_ii 第十三批 S2 独立复核（当前statement #901–975）
+
+按当前 `book-statements.jsonl` 对 `chp-8:08_CHP-8_sec_ii:` 按S0行号排序，本批逐条核读75条（首尾 `st-chp8-p219-n1-alternative-subject`—`st-chp8-p233-note5-self-portrait`），覆盖S0 L377–423、印刷pp.219–233及相应PDF页图。交叉核对当前statement、mention spans、候选类型/端点、脚注引用和原书。relation_candidate=true 29条、false 46条、未分类0。计入此前sec_ii #1–900及417条非sec_ii历史映射，当前ID累计覆盖1,392/1,462（true=939、false=453），余70条；下一游标#976 `st-chp8-p233-note5-loth-letter`（L423，p.233）。本批只直接重读#901–975；未独立阅读的引用原件不作事实验证。
+
+**实质问题与建议去向：**
+
+- `st-chp8-p221-n1-ricci-worked-for-church`、`...balestra-worked-for-church`、`...local-artists-worked-for-church`、`...s-paolo-painters`、`...lazzarini-worked-for-church`（p.221 n.1，L380）：当前以教堂/地点cand-11462为subject、画家或人物组为object，谓词为“worked_for_church_in_Bologna/Venice”，方向反转；印本说S. Paolo d’Argan位于Bergamo，教堂聘用在Bologna工作的Crespi、在Venice工作的Lazzarini/Ricci/Balestra及当地画家。改为画家/人物组→教堂，Bologna/Venice/Bergamo作为服务地点角色；保留这是Haskell转述Pinetti、文章未独立查阅。#907未名本地画家cand-12104当前类型term，应改为人物组候选或保留类型待证。
+- `st-chp8-p222-n1-ruffo-resigns-and-takes-gallery`（p.222 n.1，L382）：一个statement合并Ruffo辞去Ferrara职位、离开前往Rome、携其绘画收藏离开等不同事件；作品收藏端点cand-2307当前无suggested_type。按原手稿的嵌套转述拆开辞职与搬运/收藏去向，补明确的作品组类型和地点/职位角色；不把Haskell引述写成经独立核实的史实。
+- `st-chp8-p222-n5-crespi-works-at-museo-palazzo-venezia`（p.222 n.5，L385）：claim准确限定为“刚提到的两幅Crespi画及其他Ruffo藏画”，但subject使用cand-7707（四幅Crespi画组）。改用两幅已识别作品cand-7719/7720构成的子组，另将其余Ruffo藏画保持开放；不能把四幅均判为现藏该馆。印本脚注号5及OCR 6校读已记录。
+- `st-chp8-p223-n3-ruffo-pozzo-portrait`（p.223 n.3，L387）：Ruffo→Andrea Pozzo人物端点未承载原文明确的portrait作品；已有开放作品候选cand-7742。改以未识别肖像为作品端点，区分委托人/画家角色，并保留Pascoli引用未独立查阅的限定。
+- `st-chp8-p223-n4-miller-attribution-suggestions`（p.223 n.4，L388）：claim说Miller建议画作归属，object却是其拍摄的gallery照片cand-7733，混淆“照片复制件”和“归属建议对象”。改接未名绘画归属组/相关作品组，或去掉不准确object；照片另由 `...miller-photos-and-attributions` 表达。
+- `st-chp8-p223-n4-memoria-source`（p.223 n.4，L388）：把Memoria关于Raimondo的少量记载、妻子作者、1726年成文、仍属家族合在一条；拆分内容、作者和当前家族保管/所有关系。保持妻子身份与cand-0474 Francesca Bussi的映射待S3裁决，不把候选身份当定论。
+- `st-chp8-p223-n4-miller-photos-and-attributions`、`st-chp8-p223-n4-orlando-acknowledgement`（p.223 n.4，L388）：谓词分别明确Miller向Haskell提供照片副本、Orlando将材料交Haskell使用；端点却没有接收者Haskell cand-9423，也未列入mentioned_candidate_ids。补Haskell的接收者/可用者角色，或用带参与者角色的提供/致谢事件记录。
+- `st-chp8-p223-n4-ubaldi-family-information`（p.223 n.4，L388）：把未注明标题的来源直接设为Silvio Ubaldi人物cand-7734，形成“人物是家族信息来源”端点。查书目能否定位到Ubaldi的作品；无法定位时将其保留为未解析文献来源/脚注定位，不造人物—家族关系。
+- `st-chp8-p230-note1-archival-letters`（p.230 n.1，L405）：claim称Scarlatti致Ferdinand的一系列信“在Archivio Mediceo”，当前subject候选cand-7844为信件组但类型archive、object为空且relation_candidate=false。若保留为实质内容，须区分信件组与档案保管机构/地点并表达收藏位置；若只作为脚注定位，则收窄claim和端点。保持档号未明、原件未查阅。
+- `st-chp8-p230-note3-elogio-journal-maffei`（p.230 n.3，L407）：引文同时列Elogio/期刊和Maffei信，并在qualification另记Ferdinand曾赞助该期刊，当前relation_candidate=false且未专门链接相应主体断言。拆开引用定位；若正文尚无Ferdinand—期刊赞助陈述，补独立关系候选，不与Maffei信混并。
+- `st-chp8-p231-note2-la-burla-location-history`、`st-chp8-p231-note3-copy-location-and-franchi`（p.231 nn.2–3，L410–411）：分别断言La Burla与Fra Bartolommeo画作的copy当时在Pitti，均为relation_candidate=false；同章 `st-chp8-p225-n7-leto-painting-location` 对“now in Pinacoteca”的同型地点断言为true。应一致编码作品→馆藏地点关系；#962另含Antonio Franchi作者归属，需分成地点与作画者关系两条，并保留“now”为Haskell写作时点、未现状核实的限定。
+- `st-chp8-p233-note2-medici-payments`（p.233 n.2，L420）：claim除定位Archivio Mediceo Guardaroba 1055外，还列出Dandini、Foggini、Franchi、Botti、Pinacci、Panfi、Monari等画家并称其他人“worked for him”；整条却为relation_candidate=false，且只链接Gabbiani正文条目。拆分档案付款定位与有据的艺术家服务关系，反查是否已有对应正文记录；不把“有付款记录”扩成逐位艺术家及作品的具体支付事实。
+- `st-chp8-p233-note1-trevisani-modello` 与 `st-chp8-p233-note5-self-portrait`（p.233 nn.1、5，L419、423）：前者说Trevisani将modello寄给Ferdinand，后者说Loth将自画像寄往Florence；两个statement虽含收件/目的地于谓词，却未把Ferdinand/Florence作为端点或角色。保留作品cand-7915、cand-7933，补收件/目的地字段或用事件角色表示，勿丢失寄送方向及1693时间。
+
+**mentions缺口：**在当前注册合并segment L372–461中，精确对应L377–423仅有6个mention spans：L380 Bergamo，L382 Archbishop’s palace两处及Ferrara，L423 Titian和collection。S0/PDF明确出现而无对应span的代表例包括L377的Crossing of the Red Sea、Hymn of Liberation与Bergomum文章，L380的S. Paolo、Crespi、Lazzarini、Ricci、Balestra和Pinetti，L382的Ruffo、Baruffaldi/MS 610/Ariostea，L387的Pozzo/肖像，L388的Orlando、Miller、Ubaldi、Memoria，L405–420的Scarlatti、Ferdinand、Maffei、Franchi等，L423的Loth及Florence。逐条补确切span和候选映射；代词候选可保留注释说明，不得将其当成有字面跨度的姓名。L377–423其余提及需以实际当前span逐项核对。
+
+**无新增语义问题的范围：**#901的替代画题明确归于Haskell转述的匿名文章，且不作独立身份确认；#902–903、#908、#911、#915–917、#919–926、#933–947、#950–955、#957、#959–960、#963–970、#972–974的主要引文定位、来源归属和未独立查阅限定与页面/转录相符（#927、#928–932、#937等上述条目除外）。#904的S0 OCR “Bonari”已在qualification校读为印本“Bottari”；#912–913校正Baruffaldi手稿标题的Galleria，且区分Haskell引用与原件；#939–943把Lazzarini/Balestra作品归于Haskell转述文献、保留未读原件说明；#946保持“无作品可归于Giaquinto”的否定及作者访查语气。#974仅为文献指引，但同一脚注的油酒赠礼、拟摹Titian画、自画像、Death of Abel及1716库存等事实已有独立条目#975–978承接，没有重复提取缺口。
+
+**批次结论：不接收。**75条逐条核读完成。关系方向与端点、复合作品组、缺收件人/地点角色、来源类型和mentions映射仍待修复。当前第八章尚余70条未审，不能作全章接收判断。
+
+
+### 2026-10-20：第八章 sec_ii 第十四批 S2 独立复核（当前statement #976–1045）
+
+按当前 `book-statements.jsonl` 对第八章sec_ii按S0行号排序，本批逐条核读70条（首尾 `st-chp8-p233-note5-loth-letter`—`st-chp8-p241-note5-gerini-follower`），覆盖S0 L423–461、印刷pp.233–241及相应PDF页图。交叉核对当前statement、mentions、候选端点/类型、脚注来源与印本。relation_candidate=true 48条、false 22条、未分类0。本批末完成sec_ii当前ID #1–1045全部逐条复核（累计true=687、false=358）；本章另417条非sec_ii有历史审阅映射，本轮未逐条重读这些旧映射，故不以此批报告给出第八章整体接收。当前表共1,462条；下一步转入第九章，sec_ii余量0。
+
+**实质问题与建议去向：**
+
+- `st-chp8-p234-note3-stoning-record`（p.234 n.3，L426）：一条note claim并列1716库存记载、经文题材、1959目录误题和Ferdinand致Fumiani信；relation_candidate=false。与已链接正文statement对应拆分inventory/作品主题/目录误题/书信例证，或将此行明确限为引用注释；错题仍是误写，不创建另一作品身份。
+- `st-chp8-p234-note4-cassana-references`（p.234 n.4，L427）：把Ratti所述Ferdinand及其妻子、gentiluomo、其他廷臣/小丑肖像、自画像、历史画及Fogolari Letter 120一并放在false引用statement。拆分书目定位与来源归属的作品组/人物角色；无名妻子、廷臣、具体作品保持未识别。
+- `st-chp8-p234-note5-catiline`（p.234 n.5，L428）：明确报《Conspiracy of Catiline》“probably”摹自Rosa并当时藏于Pitti No.111，但relation_candidate=false。拆开推测性摹本/作者归属和Haskell时点的馆藏位置；保留No.111印本校读及地点未独立核实限定。
+- `st-chp8-p235-note4-letter197-and-exhibition`（p.235 n.4，L433）：同时引用Archivio Mediceo Letter 197与报道Orazio Marucelli在1706年10月展出Sebastiano Ricci的Flora；subject却是档案信，object是画作且relation_candidate=false。拆分引文定位和展览事件，以Marucelli、展览、Flora/Ricci分别承担角色；展场未注明，不能从交叉引用擅自补地点。
+- `st-chp8-p236-note1-gherardi-report`（p.236 n.1，L436）：把Ricci获知Ferdinand对未名作品的要求、遵从要求、及时完成、收取酬金礼物及显示赞许合并；当前只有Ricci→Ferdinand人际端点。拆为来源限定的委托要求/作品完成/支付与酬谢，作品保持未名，不将赞许解释为人物关系。
+- `st-chp8-p236-note3-saluzzi-painting-at-lucca`（p.236 n.3，L438）：inventory说明Saluzzi建筑画及Ricci人物，同时又给出Pinacoteca at Lucca地点、1706题记和日期；当前inventory→work端点未表达现存地点cand-8009。拆库存描述与地点/题记陈述，保留不与Letter 106不确定画作合并的限定。
+- `st-chp8-p237-note2-massacre-commission-and-default`（p.237 n.2，L440）：把Silva委托《Massacre of the Innocents》以赠Ferdinand、完工后违约及不再赠送合在一个predicate。保留Silva→作品关系，拆开委托和未交付/撤回意图，明确Ferdinand只是原定受赠者，不能暗示实际转移；Zanotti/1948展览目录的二手来源限定已在qualification中。
+- `st-chp8-p237-note3-ecstasy-replaces-lanfranco`（p.237 n.3，L441）：一条“替代”关系同时说明Crespi画作原在S. Maria Nuova、后在Diocesan Museum，并称Ferdinand购买Lanfranco原画；当前只把两画连成替代关系。拆工作替代、两件作品的地点和Ferdinand购买原画，分别保留未核现址/未识别Lanfranco题名限定。
+- 具体信件引用分类：`st-chp8-p235-note1-letter75`（p.235 n.1，L430）识别到日期、写信人、Fogolari Letter 75并引内容，却标relation_candidate=false；同类明确档案信定位 `st-chp8-p237-note1-letter-citation`、`st-chp8-p237-note2-introduction-letter-citation`、`st-chp8-p240-note3-fogolari-letter12`为true。统一判定规则：如#985只作注释引用，应收窄claim并依托已链接的正文关系；如保留信件内容/作者关系，则明确letter、写信人和引用源端点并一致分类。关联的Giordano路线差异已在正文 `st-chp8-p235-giordano-livorno-visit` 明确记为“主文西班牙/信中那不勒斯”，两条来源保持开放，当前没有把路线合并。
+- `st-chp8-p240-pictures-borrowed-from-florence`（p.240，L452）：约250幅展品中“几乎全部”借自Florence的重要收藏，当前用图片组→Florence城市作为来源端点，容易把城当作借出者。补来源收藏组/借出来源角色并把Florence留作这些收藏的所在地，保留“nearly all”的数量限定。
+- `st-chp8-p240-twelve-ferdinand-pictures-first-lunette`（p.240，L452）：12幅作品组和首个lunette/展览端点清楚，但predicate/端点未表达原文“lent by Ferdinand himself”的借出者。加Ferdinand作为lender/loan event参与者，维持十二幅未识别作品组。
+- `st-chp8-p241-note5-gabburri-correspondence`（p.241 n.5，L461）：Venetian artists集体候选cand-8104为term，却承担Francesco Gabburri书信往来对象的角色。改为未名人物组，或保持群体类型待证；“个别通信者未具名”限定应保留。
+- `st-chp8-p241-note5-gerini-follower`（p.241 n.5，L461）：predicate把Gerini写成跟随Ferdinand这个人；原文是Gerini追随Ferdinand对当代威尼斯艺术的赞助做法。目标应是来源限定的艺术赞助实践/类别，不建Gerini—Ferdinand人际边。
+
+**mentions缺口：**当前合并segment L372–461在L424–461仅有13个mention spans。L426的《Stoning of Zechariah》、II Chronicles、Fumiani、目录及Fogolari；L427的Cassana、Ferdinand、妻子、廷臣；L430的Giordano与Livorno；L432–438的Ricci、Mehus、Ghisolfi、Lyss、Vouet、Marucelli、Flora、Farsetti、Gherardi、Saluzzi、Lucca；L452的展览、Florence收藏、Ferdinand、Grand Duke、画像和cloister；L461的Gerini、Gabburri、Venetian artists、Bottari等未见对应源跨度。仅有L427的Soprani、L440的Grand Prince、L446的“These pictures”、L449的一组人称/地点及L461的Florence等span。按S0/PDF为每条statement补确切mention；开放代词/群组保持注释，不把端点倒推成原文mention。
+
+**无新增主张错误的范围：**#976–978把Loth来信、尚未证实完成的摹画、自画像、Death of Abel及1716库存分开记录，逐条保留来源和作品身份限制；#979–980、#984、#987、#990、#993–994、#996–998、#1000、#1002、#1004–1008、#1009–1015、#1016–1025、#1027、#1029–1032、#1033–1038、#1039–1043的主要文本、日期/数量、来源归属及不确定性与印本相符。#1016–1020明确保留L. Crespi两年、Haskell称1709至多八个月、Haskell认为Zanotti暗示多次访问之间未解决差异；#1031将OCR缺失的About按图像校为“约250”；#1040把Ferdinand收到的两幅画与四幅展品仅作probable连接且保持两个作品组分开。#991引述Farsetti的Poggio威尼斯画室天花板时保留晚18世纪来源，不把它识别为正文被毁的Allegory。
+
+**批次结论：**本批70条全部逐条核读，发现关系候选endpoint/类型、复合断言和mentions映射待修，故本批不接收。sec_ii已完成1045/1045当前ID审阅；非sec_ii 417条目前只确认存在历史映射，未纳入当前版逐条复核，不据此接收第八章整体。
+
+### 2026-10-20：第九章 p.245–248 首批 S2 独立语义复核（当前statement ID）
+
+以当前 `segments.jsonl` 中 `chapter=chp-9` 的登记范围定位 `book-statements.jsonl`。第九章现有904条statement：intro正文653条、独立视觉转录17条、`sec_ii`正文/注释234条；当前分类为true=596、false=308、unset=0。此前 `results/chp-09.md` 的886条（461 true、87 false、338 unset）是2026-10-14旧快照，不代表当前表。本批逐条复核intro正文按 `source_line_start/source_line_end/statement_id` 排序的前75条，覆盖S0 L12–45、印刷pp.245–248、`st-chp9-p245-cosmopolitan-tourism`至`st-chp9-p248-facade-place-plans-and-ambassador`；分类true=63、false=12。另直接核读note 8视觉转录4条及Plate 41a、41b、43、45、46、47说明9条，均为true。合计当前ID逐条复核88/904（true=76、false=12）；并交叉检查相应statement的来源锚点、候选类型/方向及mentions spans。历史coverage/process登记不计为本轮独立接收。本批未修改知识表或卡片。
+
+**实质问题及建议去向：**
+
+- `st-chp9-p245-censorship-and-prosecution`（p.245 L13）把“censorship was strict, if fitful”与“prosecutions for political unorthodoxy threatened even the most highly placed”写入同一predicate/claim，主客体只覆盖government→political unorthodoxy。拆分审查、审查制度与被威胁的起诉风险两条事实；匿名/未具名对象保持开放，保留“strict, if fitful”限定。
+- `st-chp9-p246-corfu-and-passarowitz`（p.246 L22）将1716年守住Corfu围城与1718年Passarowitz和约被迫放弃三十年前征服地并入同一claim；当前仅以`cand-1855`和平事件为object。拆成围城事件`cand-8119`和和约事件`cand-1855`两条来源限定的关系；保留未逐项列出的领土开放。
+- `st-chp9-p246-end-state-commissions`（p.246 L24）将国家艺术委托几近停止、贵族家族向艺术家提供最丰厚机会并成一个predicate。分别记录国家委托衰退与领先贵族家族提供机会，保持匿名家族组`cand-8124`，不扩成具名委托。
+- `st-chp9-p246-tiepolo-madrid-mission`（p.246 L24）把“国家未能更多使用Tiepolo”与“违其意送赴Madrid以安抚Spain”并列，predicate只表达赴Madrid事件。拆开国家雇用评价和赴Madrid使命；继续把使命当作Haskell叙述的候选事件，保留against his will及appeasement限定。
+- `st-chp9-p246-great-power-fiction`（p.246 L22–23）同时声称国家维持Venice大国形象、该形象影响其委托绘画；当前只连government→Venice，虽mentions列有`cand-2600`，关系端点未覆盖绘画。拆分政治自我呈现与具体委托绘画/作品组所表达的形象。
+- `st-chp9-p246-veronese-inspiration`（p.246 L22–23）claim同时覆盖Veronese启发Tiepolo作品及更广泛18世纪威尼斯绘画、该画“not nostalgic”；predicate和端点只覆盖Veronese→`cand-2600`。拆分作品影响范围和对Tiepolo作品的非怀旧判断；扩展时保留这是Haskell的艺术史解释，不据此推直接摹仿。
+- `st-chp9-p248-veronese-tintoretto-venice`（p.248 L39）原文主语是Veronese与Tintoretto的“paintings”，当前subject为Veronese本人`cand-2755`，另把Tiepolo家庭赞助对比纳入claim。以作品组→Venice的描述为核心；若需保留两位画家，使用两人作品组或分别链接作品组，并将Tiepolo对比拆开。`cand-2627`目前只证明Tintoretto本人被提及，不能充当两人的作品端点。
+- `st-chp9-p248-patricians-praised-as-patrons`（p.248 L39）现有publishers/printsellers→patricians方向正确，但claim又含“这种赞誉很少给予非贵族”；`cand-8167`只列mentions而不是关系端点。拆出或补记相对于non-nobles的比较，避免丢失句末限定。
+- `st-chp9-p248-maffei-governor-canvases`（p.248 L39–40）原文是Maffei的一系列画布描绘Venetian governors；当前subject为Maffei本人`cand-1486`、object为被描绘的governor组`cand-8150`，却没有以已有作品组`cand-8151`作为描绘关系的subject。分成artist→series（如有证据支持）及series→depicted governors；保留作品地点Este、Rovigo及其他省区。
+- `st-chp9-p248-canvas-homage`（p.248 L40）claim为画布既向State致敬也向画中个人致敬，object只接State；已提及的governor组`cand-8150`未作为关系端点。补齐第二个受致敬端点或拆成两条，继续用`cand-8151`作品组。
+- `st-chp9-p248-palace-commemorations`（p.248 L41）把Palazzo Ducale纪念胜利后指挥官的绘画组与Lazzarini凯旋拱门、Morosini短暂胜利合成一条；当前大组`cand-8152`直接连Morosini。拆分一般绘画组与特定拱门作品/纪念对象，保留“climax”及“short-lived”限定。
+- `st-chp9-p248-shift-to-individual`（p.248 L41）claim说个体颂扬以State或God为代价，当前object仅有State；God及“individual”在mentions/关系端点中均无对应对象。将其作为来源限定的概括判断处理，补充可支持的集体/神圣对象或保留未具名端点。
+- `st-chp9-p248-facade-design-and-building`（p.248 L42–43）将Antonio Barbaro设计立面与“作为他和兄弟们的apotheosis”合为一条designer关系，object仅有Antonio本人。拆开立面作者归属与纪念/表现对象；使用已提及的四兄弟组`cand-8163`，保留“设计归属来自Haskell、注释引遗嘱但未独立证明”的限定。
+- `st-chp9-p260-note8-miani-baglione-list`与`st-chp9-p260-note8-baglione-household-example`（p.260 n.8，视觉转录L1）把“the Miani of Camerata and the Baglione of Polazzo”作为两家族例子，空置artist端点，并仅映射家族及括号中的Alessandro Longhi引用。上下文将此列作household-employment例证，当前候选表已有`cand-0489` Camerata与`cand-1967` Polazzo；回查印本后分别补artist mentions和家庭→画家关系候选，保留Longhi为书目引用而非就业端点。
+- `st-chp9-p245-government-promoted-tourism`（p.245 L12–13）和`st-chp9-p245-footnote1-measures-varied`（p.245 n.1 L15）均有source lines但`printed_page`为空；补p.245页码以便按页复核。
+
+**本批未发现实质问题的范围：**上述88条中其余71条的核心断言、来源归属、时间/语气限定与候选基本匹配。包括p.245旅游目的地与政府分开的主张、被报告/被引用观点的speaker限定、p.247的家族/政治背景断言，以及已独立分列的脚注与Plate图注。Plate captions无printed_page但有plate number、label、PDF physical page和转录行锚，当前定位足够。
+
+**批次结论：不接收。**当前ID复核发现断言复合、作品—人物端点错配和视觉注释artist mentions/端点遗漏。下一正文游标为`st-chp9-p248-antonio-ambassador-in-rome`（p.248 L45–46）；intro正文尚余578条、视觉转录4条、sec_ii尚余234条，当前章未完成，不能给出章节接收结论。
+
+### 第九章首批视觉caption覆盖补记（2026-10-20，当前statement ID）
+
+前一批已语义核读Plate 41a、41b、43、45、46、47及p.260 n.8，共13条视觉转录statement。本次补读尚余Plate 48a/b四条（`st-chp9-plate48a-attribution`、`st-chp9-plate48a-subject`、`st-chp9-plate48b-attribution`、`st-chp9-plate48b-subject`），均与已登记视觉转录L14–15、Plate 48标签及PDF physical p.30相符，四条均为true。由此第九章所有17条视觉statement均已逐条核读；本章累计当前ID语义覆盖92/904（true=80、false=12），未覆盖812：intro正文578、sec_ii 234、视觉转录0。
+
+**新发现的mentions缺口：**当前`mentions.csv`对6个Plate视觉segment仅记录Plate 46组的“England”一条span；Plate 41a、41b、43、45、47、48a、48b的caption实体均无mention span。即使这些statement的`qualifiers.mentioned_candidate_ids`已列出画家、作品、描绘对象或地点，也不构成相应`mentions.csv`跨度。需按各视觉caption原文/图像补齐13条statement所需的精确表面跨度及候选映射。受影响ID：`st-chp9-plate41a-barbaro-family-portraits`、`st-chp9-plate41b-monument-location`、`st-chp9-plate41b-monument-subject`、`st-chp9-plate43-rezzonico-family-subject`、`st-chp9-plate43-tiepolo-attribution`、`st-chp9-plate45-caption`、`st-chp9-plate46-creator`、`st-chp9-plate46-sitter`、`st-chp9-plate47-caption`、`st-chp9-plate48a-attribution`、`st-chp9-plate48a-subject`、`st-chp9-plate48b-attribution`、`st-chp9-plate48b-subject`。Plate captions的页码字段为空由plate label、visual source line与PDF physical page共同定位，不单列为页码错误。此补记只更新独立复核覆盖及发现，不写回任何表格/卡片。
+
+
+### 2026-10-20：第九章 p.248–251 第二批正文 S2 独立语义复核（当前statement ID）
+
+按当前`book-statements.jsonl`连接`segments.jsonl`，对`chp-9:09_CHP-9_intro:`正文依S0行号排序的本地序位#76–150逐条核读75条（首尾`st-chp9-p248-antonio-ambassador-in-rome`—`st-chp9-p251-old-new-shared-display`），覆盖p.248 L45–46及p.249 L78–88、p.250 L91–104、p.251 L107–113，并核对对应PDF physical pp.11–13、mentions和候选类型。statement ID是稳定依据；#76–150只是本次按正文行排序的位置。批次relation_candidate=true 45、false 30、未分类0。另此前本章直接复核正文#1–75（true 63、false 12）及全部17条视觉转录（true 17）；当前ID直接复核累计167/904（true 125、false 42）。余737条：intro正文503、sec_ii 234、视觉转录0。下一正文游标为`st-chp9-p251-reluctance-to-break-with-past`（L113）。历史映射和机械统计不计入以上直接复核。
+
+**实质问题及建议去向：**
+
+- `st-chp9-p249-barbaro-conduct`（p.249 L79）：原文先说Barbaro在Candia战争中的行为“somewhat discreditable”，再说Morosini以无能为由将其免职；当前predicate把作者评价与免职事实并为一条。拆开评价与免职，保留Haskell归属及“somewhat”。
+- `st-chp9-p249-barbaro-returned-and-opposed-morosini`（p.249 L79）：原文先称其返回Venice，后称其竭力煽动对Morosini的敌意；当前statement合并两项行动。拆开返回与政治行动，保留“did everything possible”及来源归属。
+- `st-chp9-p249-barbaro-will-location`（p.249 L79）：原文明确主体是Barbaro的will；当前主语仍为人物，关系落到教堂与Morosini宫殿，`mentions.csv`也没有“will”跨度。为遗嘱建立archive候选／开放档案端点并补精确mention，再表达遗嘱对两处位置的记载；保留“仅经Haskell转述、未直接查阅”的限定。
+- `st-chp9-p249-government-limits-noble-power`（p.249 L79–80）：government防止单一贵族权力与声望过大的当时观察，与Haskell称S. Maria del Giglio façade构成该担忧背景的解释合并；当前端点只连government和nobility，facade候选只在mentions。拆分当时观察与作者的建筑解释，补facade/建筑对象端点，保留注释来源尚未独立核验。
+- `st-chp9-p249-family-wealth-and-patronage-pattern`（p.249 L81）：一条包含战争耗竭、家族财富、按财富入贵族阶层、旧新家族争取地位及其对绘画发展的长期影响；当前只有State→财富准入程序。拆分事实与Haskell历史解释，保留“as rich or richer than ever”及匿名家族组。
+- `st-chp9-p249-pesaro-monument`（p.249 L83–84）：1669年建于Frari的叔父纪念碑及Haskell“超越此前纪念物”的评价合在一条；当前Leonardo→monument端点没有使用mentions中的Frari候选，且把评价并入建造关系。拆开建造/地点和比较判断，保留Plate 41b及评价归属。
+- `st-chp9-p249-pesaro-palace`（p.249 L84）：继续家族宫殿与其Grand Canal façade在Leonardo死后约17年完成合并；当前人物→宫殿，facade候选`cand-8180`仅在mentioned IDs。分开延续宫殿和立面完成，给后者适当建筑端点，保留“about seventeen years”。
+- `st-chp9-p249-bambini-triumph-venice`（p.249 L84–85）：1682年向Niccolo Bambini委托天花绘画与“Triumph of Venice”主题首次出现于私人宫殿合并；当前只有Leonardo→主题/作品候选，Bambini`cand-3846`仅被提及，未表达画家端点或单独的未具名天花画。拆分委托/作品归属与主题优先性，必要时保留开放work端点及Palazzo位置；保留注释4的题材解释限定。
+- `st-chp9-p249-old-and-mercantile-families`（p.249 L86）：旧家族政治特权、新商业阶层进入贵族阶层并以赞助彰显地位，以及省区豪华建筑有时助其取得政治地位合并；当前仅新商业阶层→贵族阶层。拆分不同断言及赞助/建筑关系，保留“like”“at least”“sometimes”及注释5仅为未独立核对的例证。
+- `st-chp9-p250-zenobio-wealth-and-palace`（p.250 L92）：原文明说Zenobio从Morosini购入Carmini宫殿，当前只连买方家族与宫殿，卖方家族`cand-1706`仅在mentioned IDs。补卖方端点或拆出交易事件；不把Morosini家族与个人混同，并保留“被说成全城最富”已另行记录。
+- `st-chp9-p251-manin-venice-patronage`（p.251 L107）：Manin家族持续装饰Venice及周边的宫殿、乡间宅邸和教堂，当前`relation_candidate=false`且Manin→Venice不足以表达被装饰建筑。建议复核分类：若S2关系候选包括这种概括性委托/装饰活动，应改true并保留匿名建筑组开放端点；否则须在叙述中说明关系型事实被排除的理由。不能把Venice当成唯一关系对象。
+- `st-chp9-p251-passeriano-wings`（p.251 L107–108）：原文称Passeriano乡间宅邸入口经由“两座柱廊翼”，仿Bernini的St Peter porticos；`mentions.csv`把“two colonnaded wings”误映射到`cand-1518`宅邸地点，statement只连接宅邸与参考porticos。改正该mention并为建筑翼部保留适当work/建筑构件候选或开放端点。
+- `st-chp9-p251-mirror-fashion-origin`（p.251 L108）：对应句称镜子时尚刚从France传入并最终源自Persia；当前以术语→France为端点而将statement设false，Persia仅在mentions。拆开传播/来源断言，考虑按可用关系类型标作关系候选并纳入Persia端点；保持这是未具名1708通讯者经Haskell转述、未独立验证的说法。
+- `st-chp9-p251-palace-hangings-tapestries`（p.251 L108）：原文先说墙面覆盖华美hangings，再另说有Raphael题材的Old Testament tapestries；当前statement把两者合并，object仅为特定挂毯组`cand-8219`。拆开一般hangings与特定挂毯组，前者保持未名对象开放，避免把所有hangings映射为该组挂毯。
+- `st-chp9-p251-palace-mirrors`（p.251 L108）：原文指小房间中的实物镜子，当前object`cand-8220`是“镜子时尚”术语而非物件。改用实物镜子群的候选/开放对象；“like the sea in the Apocalypse”的比喻和其时尚来源另行保存。
+- `st-chp9-p251-mazza-marble-venus`（p.251 L110）：原文称Manin宫中有Giuseppe Mazza所作大理石Venus；当前work→宫殿表达了位置，Mazza`cand-1602`只在mentioned IDs。补一条Mazza→work创作归属关系，保留“Phidias of Bologna”为引述称号及无具体年代/作品题名的限定。
+
+**无实质问题范围：**本批其余59条的主要claim、对象类型、speaker、时序/语气限定及行页锚与p.249–251正文/PDF一致。尤其`st-chp9-p251-consistent-taste-and-team`当前只记录Haskell对Manin品味的比较；同句的Rossi、Dorigny雇用已由两个独立true statement表达，无需重复写入该条。p.250的1749 inventory标题按“档案列项→作品标题组”处理，未把题名误当现存作品；引文限定与来源边界保留。章节尚有737条未读，故本批及第九章均不接收。
+
+
+### 2026-10-20：第九章 p.251–254 第三批正文 S2 独立语义复核（当前statement ID）
+
+按当前`book-statements.jsonl`连接`segments.jsonl`，对`chp-9:09_CHP-9_intro:`正文依S0行号排序的本地序位#151–225逐条核读75条（首尾`st-chp9-p251-reluctance-to-break-with-past`—`st-chp9-p254-carlo-rezzonico-elected-pope`），覆盖p.251 L113–114、p.252 L117–122、p.253 L125–132、p.254 L135–140；对照对应PDF physical pp.13–16、原文提及span、candidate类型、端点、speaker和限定。稳定依据为statement ID；序号仅表示本批行序。relation_candidate=true 50、false 25、未分类0。本章当前ID直接复核累计242/904（true=175、false=67）；余662：intro正文428、sec_ii 234、视觉转录0。下一正文游标`st-chp9-p254-tiepolo-rezzonico-marriage-fresco`（L140）。本批不作章节接收。
+
+**实质问题及建议去向：**
+
+- `st-chp9-p251-artists-seventeenth-century-taste`（p.251 L114）：claim把成功画家组主要联系到17世纪趣味，与其声望在更冒险画家开创新方向后仍持续合并；端点只表达画家组→趣味且`relation_candidate=false`。拆开风格关联与声望/时期概括；前者应作为关系候选评估（当前两端点cand-8238/cand-8240已可定位），后者继续保留Haskell的比较和“chiefly/long after”限定。
+- `st-chp9-p251-avant-painters-outside-venice`（p.251 L114）：将“极少获大宫殿装饰工作”与“在Venice之外更知名”合在一条；当前只有画家组与Venice端点且relation_candidate=false。拆开两项概括；在无具体宫殿/目的地时可保留来源限定叙述，不据“outside Venice”造地名端点。
+- `st-chp9-p252-ricci-employment-churches`（p.252 L117）：原文只称Ricci更常受“churches”雇用；当前object `cand-8274`类型为term（教会赞助作为雇佣语境），但statement为true关系候选。确认此term代表机构群而非一个抽象主题；否则用未具名教会/机构群开放端点，避免将term误作单一雇主。
+- `st-chp9-p252-tiepolo-required-subjects`（p.252 L118）：mention span“Roman history”当前映射到`cand-8241`（p.252 L119具体十幅Florus题材画布的work组），把一般题材类别错配到特定作品组。为一般Roman-history subject另用术语候选或移除该映射；保留`cand-8241`仅指L119所述Dolfin十幅画。
+- `st-chp9-p252-daniele-iv-command`（p.252 L119）：statement谓Daniele IV在Peloponnese于Morosini麾下任指挥官，端点只有Daniele IV→Morosini；地点`cand-8117`仅在mentioned IDs。把Peloponnese作为明确地点限定或单独地点关系保存，不能只留在predicate文字。
+- `st-chp9-p252-dionisio-appointed-and-moved`（p.252 L120–121）：原文说Dionisio于1698年“was given the post”，当前连到`cand-8248` Patriarchate of Aquileia，其candidate类型为institution且被另一条family monopoly claim用作机构/职团。复核职位与机构的类型边界；若语义区分，建立主教职位端点或明确为该机构内的职位，不把任职写成对机构本身的委任。
+- `st-chp9-p252-summoned-tiepolo-pending-purpose`（p.252 L122）与`st-chp9-p253-commission-to-palace-and-cathedral`（p.253 L125）：PDF显示同一跨页句“Dionisio summoned Tiepolo … to paint frescoes in the Cathedral and his new Archiepiscopal Palace”。现为两条Dionisio→Tiepolo summoned关系，前条写时间和此前在Venice家族宫殿工作、后条写同次召唤的目的地。合并为一条跨页召唤/委托断言并同时锚定两页，或明确区分“此前工作”与“召唤委托”，避免重复计算同一事件。
+- `st-chp9-p253-heroic-days-seemed-remote`（p.253 L129）与`st-chp9-p253-roman-epics-commemorate-daniele-dolfin`（p.253 L129）：原文只有“a Daniele Dolfin”，没有ordinal；前条mentions把它映射为`cand-0927`（Daniele III），后条更把`cand-0927`作为纪念对象端点，虽qualification自己说身份未定，却未设置open endpoint。撤掉此处对Daniele III的mention/端点，保留未定Daniele Dolfin对象至S3裁决；Antonio Barbaro的索引候选另有p.248、249、253范围，本批未发现同样冲突。
+- `st-chp9-p253-tiepolo-patronage-ideal`（p.253 L130）：原文“He himself ... He used to say”明确将随后引语归给Tiepolo；当前speaker仅为Haskell。标为“Tiepolo（据Haskell转述）”，把Haskell保留为转述来源，避免把作者引用误作作者本人发言。
+- `st-chp9-p254-rezzonico-origin-and-ennoblement`（p.254 L137）：Rezzonico家族“Genoese origin”及“ennobled only in 1687”并为一条，唯一端点family→Genoa只覆盖出身。拆分地理起源与1687年贵族身份/授爵信息，分别保留来源限定与时间。
+- `st-chp9-p254-aurelio-bought-bon-palace`（p.254 L138–139）：Aurelio于1751年从Bon家族购入未具名威尼斯宫殿；当前Aurelio→宫殿，卖方`cand-8301`仅在mentions。补Bon家族卖方端点或单列交易事件，继续保持宫殿未定名并保留1751年。
+- `st-chp9-p254-carlo-rezzonico-elected-pope`（p.254 L139–140）：claim把“Aurelio的兄弟Carlo”与Carlo当选Pope合为一条，当前端点Aurelio→Carlo，predicate同时承载亲属和选任，未表示教皇职位/选举事件。拆为兄弟关系与Carlo当选教皇/职位（必要时开放职位或事件端点），保留“七年后”相对于1751年购宫的时间以及Carlo=Clement XIII身份。
+
+**无实质问题范围：**本批其余61条逐项与原文及页图基本一致。开放端点如`st-chp9-p253-tiepolo-summoned-outside-venice`保留无名委托人/目的地，不以相邻Udine作品倒推出地点；Daniele III/IV兄弟、Aurelio与Lodovico父子、1758年婚姻、Tiepolo作品与其空间位置等对应清楚。OCR“everyday Use”依据p.254页图校为“everyday life”的限定已留存。该结论仅覆盖本批，不能替代章节接收；第九章仍有662条未读。
+
+
+### 2026-10-20：第九章 p.254–257 第四批正文 S2 独立语义复核（当前statement ID）
+
+依当前`book-statements.jsonl`及`segments.jsonl`，按S0行号核读第九章intro正文序位#226–300共75条（首尾`st-chp9-p254-tiepolo-rezzonico-marriage-fresco`—`st-chp9-p257-maria-labia-doyenne-and-description`），覆盖p.254 L140–146、p.255 L149–155、p.256 L158–165及p.257 L168，对照PDF physical pp.16–19、mentions跨度、候选端点类型与注释来源。relation_candidate=true 57、false 18、未分类0。本章当前ID直接核读累计317/904（true=232、false=85）；未核读587：intro正文353、sec_ii234、视觉0。下一游标`st-chp9-p257-maria-labia-identifies-with-cleopatra`（L168）。本批不作章节接收。
+
+**实质问题及建议去向：**
+
+- `st-chp9-p254-solar-chariot-scene`（p.254 L140–141）：claim描述新婚夫妇、太阳车、四匹白马、Apollo及Fame；当前subject是作品，object却为Rezzonico家族，且无open endpoint。mentioned IDs已列夫妇及寓意人物。拆开作品描绘对象与图像中人物/象征角色，不能把家族caption当作全部场景的object；保留此为Haskell图像描述而非独立图像鉴定。
+- `st-chp9-p254-novelli-records-collalto`（p.254 L142–143）：原文说Pietro Novelli记录Collalto的greatness，当前artist→family候选没有表达被记录的作品/媒介；p.255 L155注释另称Novelli自述选择记录该家族。用开放作品组或来源限定的描绘对象表示，勿把未具名作品直接等同家族本体。
+- `st-chp9-p254-barbarigo-nephews-in-strength-fresco`（p.254 L143–144）：statement把Barbarigo所属政治派别、侄辈列入壁画、Tiepolo为其作画及1745年合在一条；当前只连Pietro→壁画，Tiepolo和侄辈仅列mentioned IDs。拆为身份/派别、作品与画家、作品所描绘的侄辈关系；继续保留印本脚注5（OCR误作8）及引文未独立核验状态。
+- `st-chp9-p255-england-canada-india-france-claim`（p.255 L150）：原文称England从France夺得Canada和India；当前仅连England→France，两个territory候选只在mentioned IDs。按领土分别表达夺取/前属关系或建立多角色事件端点，保留1762时间与Haskell原述，不把Canada、India留在predicate文字里。
+- `st-chp9-p255-corner-commission-lazzarini`（p.255 L153）：Corner家族于1700年委托Gregorio Lazzarini绘制在League of Cambrai时期立功的家族成员；当前Corner→work，artist和未名家族成员仅在mentioned IDs。拆出委托/画家与作品描绘对象，保持成员、作品标题、地点开放及note 2未查阅。
+- `st-chp9-p255-old-families-followed-historical-subjects`（p.255 L153）：原文说其他旧家族跟随Corner，随后又称Widmann或Grassi无力承担这类历史题材；当前true statement没有subject，object为泛化贵族阶层，open_endpoint_reason也明确承认是两项命题并要求先拆。拆成匿名旧家族组的跟随行为和Widmann/Grassi资源比较，再决定关系端点；此行仍是未完成对象。
+- `st-chp9-p255-tiepolo-soderini-historical-cycle`（p.255 L153）：statement以Tiepolo→未名作品周期表示创作，但claim还覆盖Soderini家族1656年授爵、佛罗伦萨祖源、三个15世纪场景和家族apotheosis；当前关系端点未表达Soderini patronage/委托。分开画家—作品、家族—作品与作品内容/家族背景，继续保留地点未定和OCR校读限定。
+- `st-chp9-p256-classical-repertoire-codified-for-aristocratic-virtues`（p.256 L162）：原文既说希腊罗马故事 repertory 被编为贵族美德展示，也说后世艺术家大量使用；当前true端点只连故事 repertory→贵族阶层，未表达艺术家使用。拆成传统功能与后世艺术家采用，给匿名艺术家群开放端点并保留这是Haskell艺术史概括。
+- `st-chp9-p256-pietro-loredan-1724-mucius-comparison`（p.256 L163–164）与`st-chp9-p256-antonio-loredan-pompey-comparison`（p.256 L164）：source报告演说者把两人的离任/出发分别比作Mucius Scaevola与Pompey；当前是Loredan本人→古代人物的直接关系，actual departure event与被引演说/档案只在predicate或mentions。将边界改为来源记载的修辞比较（事件/演说→比较人物），保留一个有1724年、另一个仅“at about the same time”的区别；引文底本未独立查阅。
+- `st-chp9-p256-tiepolo-followers-frequently-painted-banquet`（p.256 L164）：原文明确主语是“Tiepolo and his followers”，当前subject只用Tiepolo个人，未名followers未进入mentions/端点。补一个开放的追随者群组端点或分拆可确证的Tiepolo本人，保留反复画的是主题/不同版本而非一件特定现存作品。
+- `st-chp9-p256-banquet-glorifies-cleopatra-over-antony`（p.256 L164–165）：claim明说Cleopatra挑战Antony并被主题歌颂，当前仅work→Cleopatra；Antony候选只在mentioned IDs。补Antony作为比较/叙事另一端或拆成两条描绘关系，继续保留这是通用主题而非一件已鉴定作品。
+- `st-chp9-p256-gozzi-literary-equivalent`（p.256 L165）：原文是反动宣言在Carlo Gozzi“某些 writings”中有文学对应；当前object为Gozzi本人，缺作品类型/开放写作群端点。改为概念→未具名Gozzi作品组，保留“some”且不造标题。
+- `st-chp9-p257-maria-labia-doyenne-and-description`（p.257 L168）：statement把Maria在家族中的身份与“femme sur le retour…”法语评价合并，speaker填Haskell；note 3明确引De Brosses, I, p.149，mentions也已有`cand-0455`及档案引用候选。拆分家族角色与被引人物评价，speaker标为De Brosses（经Haskell转述），不把未直接查阅的引文当作独立核实。
+
+**无实质问题范围：**本批其余61条的核心断言、speaker/quote限定、work地点、年代、非关系评价及开放身份与p.254–257页图基本相符。保留Plate 43与正文婚姻寓意候选的来源限定，Footnote 2对Grassi壁画的Molmenti/Fabio Canal归属仍明确只是Haskell引述，not independently verified；Robespierre四岁、1762、以及Vienna/France地域主张均仅作为作者原述，不在本批外加事实校正。其余行不计入接收第九章的依据。
+
+
+### 2026-10-20：第九章 p.257–260 第五批正文 S2 独立语义复核（当前 statement ID）
+
+按当前 `book-statements.jsonl` 和 `segments.jsonl`，在 `chp-9:09_CHP-9_intro` 主来源段按来源行排序，逐条核读 #301–375 共75条，首尾为 `st-chp9-p257-maria-labia-identifies-with-cleopatra`—`st-chp9-p260-sculptors-and-past-images`，覆盖 S0 L168–205、印刷页257–260，并核对 PDF physical pp.20–22、mention 到候选映射、候选类型、speaker、qualifier 与关系端点。relation_candidate=true 61、false 14、未分类0。此前累计317条（主来源段#1–300及视觉17条）；本批后当前版逐条核读392/904（relation_candidate true=293、false=99），其中主来源段375/653、视觉17/17、sec_ii 0/234；未核读512（主来源段278、sec_ii234）。按当前表全章 true=596、false=308，未核读部分 true=303、false=209。未完成章节验收。
+
+**需修订或明确保留为待裁决的条目：**
+
+- `st-chp9-p257-history-painting-kept-alive-in-venice`（p.257 L169）：Haskell以“权力与宏大梦想”及贵族对国家权力的认识解释历史画在威尼斯延续，并与欧洲其他地区衰退相对照；当前只用“威尼斯贵族→历史画”一条边。拆出至少两个解释因素，保留“elsewhere in Europe”比较与表现力/重要性下降的限定，不把群体标签等同于心理因素。
+- `st-chp9-p257-french-middle-class-history-painting-revival`（p.257 L170）：claim将法国中产阶级的部分道德热忱、历史画复兴及David的修辞性表达连在一起；端点只到历史画类别，David只在mentions。拆分为归因于Haskell的趋势与复兴结果，给“David的修辞”明确谓词/端点或在本条删除该子命题；保留“some”与将来时。
+- `st-chp9-p257-venetian-aristocracy-and-tiepolo-as-champion`（p.257 L170）：原文是类似的道德热忱由威尼斯贵族表达、并由Tiepolo代表；当前“贵族→Tiepolo”将抽象思想表达与艺术家代表合成一条人群—个人关系。拆为来源限定的思想表达/代表关系，必要时以“道德热忱/共和主义”概念为端点，不当作赞助或师承关系。
+- `st-chp9-p257-vandieres-1754-letter-copies-tiepolo-frescoes`（p.257 L171–173）：原文关系链为Vandières写信给法兰西学院驻罗马院长，指示派学生临摹Tiepolo壁画；当前 Vandières→壁画作品，predicate却把院长、派遣学生、临摹都写入，端点未表示收信院长或学生。拆出书信/指示、院长派遣学生、学生临摹作品等角色，保留1754、地点及作品未逐幅命名。
+- `st-chp9-p257-vandieres-french-history-painting-purpose`（p.257 L173）：被引法语“un autre bien pour l’histoire de France”是对法国历史的益处；当前mention把 `l’histoire de France` 映射到“历史画”艺术类型 `cand-6179`，语义类型错误。改用法国历史/国家历史题材概念，或去掉该错配；继续标注这是Vandières引语、由Haskell转引。
+- `st-chp9-p257-fragonard-connoisseurs-may-share-distinction`（p.257 L175）：原文是“像Fragonard这样的画家”与“某些当时鉴赏家”或许作出相同区分；当前Fragonard个人→鉴赏家群组，漏掉画家群组与“bozzetti/全幅装饰”的区分对象。改为匿名画家群与鉴赏家群的共同判断，保留“may”。
+- `st-chp9-p257-no-venetian-equivalent-to-boucher-fragonard`（p.257 L177）：原文概括威尼斯没有可比拟Boucher/Fragonard的艺术家；当前subject=`cand-8108`“威尼斯贵族”term，属于对象类型/提及映射错配。移除贵族端点；若保留可比性论述，用匿名威尼斯艺术家群或作为无正向实体边的作者概括。
+- `st-chp9-p257-nobility-awareness-and-portraiture-dignity` 与 `st-chp9-p257-venetian-erotic-painting-comparison`（p.257 L177）：两条都把“贵族对特权与义务的认识”设为因果端点，但当前subject=`cand-8108`只表示社会阶层；区分“贵族群体”与其认识/义务意识，不将群体直接当作抽象原因，并保留Haskell的“probably”及定性比较。
+- `st-chp9-p258-erotic-subjects-less-common-later`（p.258 L180）：原文并列Bathsheba bathing与Susanna and the Elders两种题材在十七世纪末之后更少见；当前将两个不同题材分别设为subject/object，形成Bathsheba→Susanna的虚假关系。改用匿名题材组的来源限定趋势，或拆成两条各自的“后来更少见”主张。
+- `st-chp9-p258-pellegrini-carriera-more-success-abroad`（p.258 L180）：原文说Pellegrini和Rosalba Carriera两人“appear to have had more success abroad than in Venice”；当前Pellegrini→Carriera。用两位艺术家组成的比较群，或拆为两位艺术家各自与威尼斯/未指定国外的比较；保留“appear to have”与“abroad”未指明地点。
+- `st-chp9-p258-valmarana-virtue-helps-explain-decorations`（p.258 L184）：该行`relation_candidate=true`且端点Leonardo Valmarana→Tiepolo作品，但原文仅说其讣告所述品性值得在解释Villa Valmarana作品与其子foresteria壁画时考虑；qualifier虽已说明不证明Leonardo直接赞助或儿子身份，需避免将解释性关联输出为已确立的实体关系。改为显式归属Haskell的解释性statement/false关系候选，并保留儿子作品与地点的开放端点。
+- `st-chp9-p258-ancient-glories-shaped-foscarini-politics`（p.258 L186）：claim说Foscarini对过去、尤其威尼斯古代荣光的持续关注影响其政治思想；当前object=`cand-2719`仅为威尼斯地点，谓词因此把“古史/历史记忆”错成城市本身的因果作用。改用历史记忆/威尼斯古代荣光的概念端点，保留Haskell的解释性因果限定。
+- `st-chp9-p258-marco-literary-history-interests-and-studies`（p.258 L186）：兴趣、计划若干研究、其中仅部分在生前出版三项被并入一条person→知识领域边；对象仅表示兴趣领域，没有承载计划/出版的未名作品组。拆分兴趣、计划研究和有限出版，并保留作品未命名、未能据此补造书目。
+- `st-chp9-p258-marco-strongest-stand-against-querini`（p.258 L186）与 `st-chp9-p259-querini-reforms-context`（p.259 L189）：PDF显示前一页句尾“against Angelo”与后一页“Querini and his proposed ‘reforms’ in 1762”连成同一句；当前两行重复同一“Foscarini最强烈反对Querini”的断言，后者另带改革年份。合并为一条跨页断言（source anchor覆盖L186–189），或删去前一条重复项；如需关系候选，优先表达对改革提案的政治反对而不是泛化为人物间关系。
+- `st-chp9-p259-foscarini-palace-location-and-decoration`（p.259 L192）：原文分述宫殿与Carmini教堂相对位置、宫殿反复豪华装饰；当前以宫殿→教堂单边承载两项。拆分地点关系与装饰历史，未知装饰者/时期继续开放。
+- `st-chp9-p259-visconti-1749-wealth-quotation`（p.259 L192–193）：原文由在宫工作的建筑画家在1749年称Foscarini家族最富有并给出年收入、宫殿/珠宝数量与画廊估值；当前subject=`cand-8465` Pietro Visconti、object=`cand-1057`家族，把被引说话人设成了财富主语，且将多项数字合并。将Visconti保留为speaker/二手来源，Foscarini家族作为被述主语；按来源可支撑的收入、房产珠宝、gallery估值拆开，继续标注数字未独立核实及gallery估值对象范围待证。
+- `st-chp9-p259-pietro-left-other-venetian-classics` 与 `st-chp9-p259-pietro-left-picture-group-with-palace`（p.259 L193）：当前两行以Pietro Foscarini为subject、作品组为object，claim称作品“left with the palace”；作品组候选均未类型化，Palace只在mentions，无法区分所有/遗留、存放地点与转移事件。按可证程度拆分Pietro的遗留/转移行为与作品在宫中的去向；将接收端点、作品组类型或开放原因明确保留，不据脚注4未查阅的遗嘱/清单补事实。
+- `st-chp9-p259-batoni-rome-embassy-portrait`（p.259 L194–195）：claim含Foscarini于1737–1740驻罗马、雇Batoni画肖像、两人同住Palazzo di S. Marco；端点只有Foscarini→肖像。拆出雇佣/画家Batoni→肖像，以及可核的驻地/地点限定；不把未定位的宫殿名称扩展为具体建筑身份。
+- `st-chp9-p259-batoni-triumph-painted-to-marco-programme`（p.259 L195）：claim说Batoni作《威尼斯的胜利》并按Foscarini拟定的programme作画，端点只表示Batoni→作品。补入Foscarini对programme的作者/拟定角色或拆开作品创作与programme形成；保留与别处同名作品的区分及Haskell归属。
+- `st-chp9-p259-triumph-programme-venetian-recovery`（p.259 L195–196）：claim把共和国繁盛、Cambrai战争、和平恢复、艺术复兴、Doge Loredano扶持并成工作programme的一项描述，endpoint只有Venetian State。拆成可辨认的画面主题/历史事件断言或建立programme/depiction的开放事件端点；全部保留为Haskell所引画面programme内容，不转为独立核实的政治史事实。
+- `st-chp9-p259-triumph-depicts-sages-and-warrior` 与 `st-chp9-p259-triumph-depicts-arts-republic-history-fame`（p.259 L197–199）：两条原文分别描述希腊贤者、罗马战士、Mercury、Neptune、Minerva、Arts、Republic、Doge、History、Fame的画面角色与位置，当前共同仅以作品→State为端点，其他角色仅在mentions。按画面 depiction 角色拆分或至少令claim与depicted-figure端点一致；限定为Haskell的图像描述，不能转成角色之间的现实关系/事件。
+- `st-chp9-p260-writers-pictures`（p.260 L203）：原文说Foscarini的其他图画表现威尼斯伟大作家，并挂在放置其书籍的房间；当前object=`cand-2719` Venice地点，实际作品组、房间和书籍候选仅在mentions。改为作品组→所描绘作家/主题与作品组→房间的明确断言，避免picture group→Venice地点的端点错配；继续保持标题/作家未名。
+- `st-chp9-p260-books-and-manuscripts-returned`（p.260 L205）：原文说Foscarini在罗马取得大量书籍和手稿，并带回家族宫殿；当前仅连person→library/archive组。拆分罗马取得与带回宫殿两段去向/地点关系，保留“large numbers”及`quasi trionfando`引语，不补具体文献。
+- `st-chp9-p260-guarana-frescoes`（p.260 L205）：claim把“Guarana为Tiepolo追随者”与“在宫殿绘制壁画”放在一条Guarana→壁画边，Tiepolo与Palace仅为mentions。拆出风格/追随关系与作品作者/地点，继续将壁画组作为未具名作品。
+- `st-chp9-p260-novelli-history-picture-request`（p.260 L205）：Novelli转述Foscarini向“我”索要一幅历史画，当前subject=Foscarini、object=未名画作，predicate却包含“from Novelli”，Novelli仅为mention。补Novelli作为受托画家/请求对象，或改用请求事件端点；保留未说明主题且不知是否完成。
+- `st-chp9-p260-sculptors-and-past-images`（p.260 L205）：claim说Foscarini在罗马和威尼斯雇雕塑家，用大理石、象牙、金属制作纪念历史人物的雕像；端点只到未具名作品组，雕塑家群未入mentions/端点。补未名雕塑家群作为开放端点并拆分两地雇佣/制作事实；人物和作品均不补名。
+
+**无实质不一致：**本批其余45条与p.257–260页图及已登记S0行内容基本一致；包括被明确标注的Haskell评价/假设、Renier引语speaker、Valmarana家族关系的“seems”限定、Foscarini教育/出行/任职、以及《威尼斯的胜利》主体所指。`cand-2594`虽沿用索引名“Tiepolo, Giambattista”且suggested_type=work，但当前alignment已将其登记为 `units/works/tiepolo-valmarana-fresco-cycle`；本批不据表面重名判为端点类型错配。以上无实质问题数量仅属当前批次，不表示整章接收。
+
+
+### 2026-10-20：第九章 p.260–264 第六批正文 S2 独立语义复核（当前 statement ID）
+
+按当前 `book-statements.jsonl`、`segments.jsonl`，在 `chp-9:09_CHP-9_intro` 主来源段按来源行排序，逐条核读 #376–450 共75条，首尾为 `st-chp9-p260-sculptural-images-now-gone`—`st-chp9-p263264-preexisting-collection-and-borgognone`，覆盖S0 L205–243、印刷页260–264，并对照PDF physical pp.22–26、mentions/候选、限定与脚注来源。relation_candidate=true 44、false 31、未分类0。此前累计392条；本批后当前版逐条核读467/904（true=337、false=130），其中intro主段450/653、视觉17/17、sec_ii 0/234；未核读437（主段203、sec_ii234）。按当前表全章true=596、false=308，未核读部分true=259、false=178。未完成章节验收。
+
+**需修订或明确保留为待裁决的条目：**
+
+- `st-chp9-p260-contemporary-rooms-description`（p.260 L207、注6）：主体/谓词使用Sebastiano Molino `cand-8509`，而speaker仍填“Unnamed contemporary”；同页注6给出Sebastiano Molino的演说题名。将引述者标为“Sebastiano Molino（据Haskell注释识别）”或明确speaker尚待证，不要同时把同一speaker称作匿名。
+- `st-chp9-p260-venetian-painters-limited-role`（p.260 L207）：claim并入“威尼斯绘画名家似乎对Foscarini影响甚少”及“他的赞助给同乡留下深刻印象”两项，object却是`cand-8489`“Venetian taste”。移除无关object并拆开两项；将未指名的同乡受众保持开放。
+- `st-chp9-p260-pisani-private-academy`（p.260 L208）：原文说Pisani组织私人academy并由Pietro Longhi负责；当前family→academy端点未表达Longhi的负责人角色，Longhi只在mentions。保留组织关系，并补充或单列Longhi→academy的任职/负责关系。
+- `st-chp9-p260-narrower-patronage-scope`（p.260 L209）：当前subject=`cand-1053` Marco Foscarini，但原文是Haskell对威尼斯赞助范围、艺术支持和类型限制的全局分析，与Marco个人无关。删除个人端点，改用威尼斯赞助/艺术类型概念或保持为无实体关系的作者分析；继续保留对Moschini论点的让步。
+- `st-chp9-p261-inventories-contemporary-pictures-decline`（p.261 L214）：statement的事实是从18世纪初后委托/购买当代画显著下降，但object=`cand-8531`“18世纪威尼斯库存档案群”，是证据来源而非趋势端点。将inventory corpus放在source/evidence，使用下降趋势/时间范围作内容端点或将其保留为属性断言；不把未查阅的库存当作关系对象。
+- `st-chp9-p261-foscarini-rumoured-richest`（p.261 L216）：claim合并“Foscarini住在Carmini对面”与“传为城中最富家族”两项；分开住址和传闻财富，并保留“rumoured”及之后32,000 zecchini年收入仅由Haskell转述的状态。
+- `st-chp9-p261-economic-assessment-difficult`（p.261 L216）：原文只说经济情况更难评估，当前object=`cand-8530`“财富集中于小群体”是后一句的另一主张。清除该错配object，作为Haskell的认识/不确定性陈述，和后续财富下降及集中断言分开。
+- `st-chp9-p262-canaletto-career-price`（p.262 L219）与 `st-chp9-p262-carriera-miniature-and-pastel-prices`（p.262 L219）：两个true候选都将艺术家直接连到`cand-8544`“zecchino货币单位”，但claim表达的是某作品格式的估价/收费，不是艺术家与货币实体的关系。把金额、单位、作品类型和时间作为价格/估值属性保存或改成非关系属性声明；Carriera行还须把miniature的50与pastel的20/30按品类拆分，保留是否含一手/双手/鲜花的条件。
+- `st-chp9-p262-piazzetta-angelo-custode-price`（p.262 L220）：原文是《Angelo Custode》大画被估约100 zecchini，当前subject是画家Piazzetta、object为作品，true predicate却描述价格估值。将价格主张落在作品/估值属性上；不得把估价行为归给画家Piazzetta。
+- `st-chp9-p262-tiepolo-martyrdom-payment`（p.262 L221）：source说Tiepolo“was given”约100 zecchini作画，同时自己负担canvas与pigments；当前predicate `tiepolo_paid_100_zecchini...`把收款方向写成Tiepolo付款。改为Tiepolo收到约100 zecchini的报酬，另列其承担画布和颜料成本；保持为Haskell报告且没有合同核验。
+- `st-chp9-p262-new-nobles-collection-paradox`（p.262 L222）：claim讨论新贵族不受空间/金钱约束却不买当代画的迟疑，当前object=`cand-1227` Grassi collection与该句无关。删除错配collection端点；保留为作者提出的比较/解释难题，而非Grassi收藏事实。
+- `st-chp9-p262-labia-collection-era-and-tiepolo`（p.262 L223）：statement把Labia家族选择较不冒险、艺术趣味止于17世纪末、例外拥有一幅Tiepolo肖像与壁画并入Labia→collection一条；具体两件作品只在mentions。拆分作者评价与collection holdings，保持两件作品未命名，不将“seemed to stop”绝对化。
+- `st-chp9-p262-note5-cignaroli-ceiling-paintings`（p.262 L227、注5）：claim把Cignaroli为Labia工作四年与他嵌入宫殿天花板的油画仍在原处合并，端点只有Cignaroli→作品组。拆为家族雇佣/工作时段和作品组→天花板位置/保存状态；保持注释中的报告尚未独立查证。
+- `st-chp9-p262-note6-biffi-manuscript-locator`（p.262 L229）：claim把Biffi correspondence位于Biblioteca Governativa与Haskell感谢Franco Venturi提供microfilms并在一条中，端点仅archive→institution。拆出库藏定位和研究者致谢，Venturi作为Haskell所述协助人，不写成Biffi correspondence内容的共同端点。
+- `st-chp9-p263264-niccolo-and-zaccaria-kinship`（p.263 L234）：当前Niccolò→Zaccaria一条同时承载叔侄、Niccolò 1675当选Doge、任职18个月后去世及Zaccaria当时21岁。拆为亲属、Doge选任/任期、Zaccaria年龄等独立断言；“18个月”保留原文近似时间，不反算日期。
+- `st-chp9-p263264-zaccaria-public-service-and-collection`（p.263 L234）：source称Zaccaria志在其他领域、未超过1690年Bergamo总督职位；当前object=`cand-8574`只是Bergamo地点，predicate却写“governed Bergamo”。使用总督职位/任职端点并将Bergamo作地点限定，拆出一般公共服务前景与最高职位事实。
+- `st-chp9-p263264-breval-patron-reputation`（p.263 L234–235）：claim合并Haskell报告的Sagredo patron声誉与John Breval的“只听说过一位dilettante”引语，object=`cand-0451` Breval使其看似Sagredo→Breval关系，relation_candidate虽为false但仍误置内容端点。拆成带来源归属的声誉判断和Breval作为speaker的引语；不将外来访客印象转成实体边/数量事实。
+- `st-chp9-p263264-sagredo-temperament`（p.263 L235–236、注4）：mention IDs含Keysler和其`Travels`，但本段脚注4是Edward Wright, I, p.77；Keysler属于下一条关于gallery的注释/段落。删除错误Keysler映射，改为Edward Wright的开放/待查来源候选；保留Haskell“seems”及转述未核验限定。
+- `st-chp9-p263264-sagredo-palace-collection`（p.263 L236）：Zaccaria“never married”与填满S. Sofia宫殿、从旧藏家购入/委托/展览取得古今绘画并为一条Zaccaria→palace。拆分婚姻状态与收藏/来源途径，作品组仍无单件标题，宫殿身份不外推。
+- `st-chp9-p263264-will-arrangements-summary`（p.263 L236；注6续至p.264 L245–248）：当前Zaccaria→Gherardo概括收藏死后维持、交由servant Tommaso de' Santi照管并留给Gherardo，遗漏Tommaso照管角色。拆出保管人/受托人与遗赠对象，保持这是Zaccaria的意图且最终未能阻止散佚，不表示收藏实际上保持完整。
+- `st-chp9-p263264-keysler-gallery-report`（p.263 L237）：claim把Keysler对gallery内容的转述、当次因维修未能入内、以及Cochin另行讨论许多画作并在同一statement中；当前object是Sagredo本人。改为Keysler对未具名gallery/collection的二手报告，分开“不能进入”和Cochin的研究；保留Keysler未亲见室内陈设这一关键来源限制。
+- `st-chp9-p263264-gradenigo-1710-art-collection`（p.263 L238）：statement称匿名Gradenigo manuscript记录Zaccaria于1710年花费巨大购得数千prints/drawings，当前object=`cand-8581`是该manuscript archive，而采集对象只在claim/mentions。将manuscript作为speaker/evidence source，Zaccaria的收藏行为及未名prints/drawings组作为内容；保留数量和赞语属匿名稿并经Haskell转引。
+- `st-chp9-p263264-heirs-sold-to-udney-report`（p.264 L241–242、注5）：source只说Udney与Smith一样是“来购买”的人；注5说1762有Udney寻求的画目，不证明买卖完成。当前predicate却是“heirs sold collection items to John Udney”。改为来访/寻购或保持潜在买家待证，不能记作已完成交易。
+- `st-chp9-p263264-preexisting-collection-and-borgognone`（p.264 L243）：claim合并Zaccaria个人贡献难以评定、家族原有大量作品、Borgognone战斗场景为Doge Niccolò作及其他作品更早等判断，当前只设Zaccaria→Borgognone战斗场景。拆开证据不确定性、前置家族收藏、为Niccolò创作的具体来源主张及其他作品年代推断；保留Haskell的“must”推论与Baldinucci注引，不识别具体战斗画。
+
+**无实质不一致：**本批其余50条与S0原文/PDF p.260–264主体相符；包括Molino注释对房间引语的来源指向（需与speaker字段同步）、Pisani/ Zais赞助关系的限定、旅人/ Gherardi/Keysler/匿名Gradenigo各自的引述层次、艺术价格中的金额文字本身、格拉西旧大师选择的“seem/perhaps”语气、以及inventory记录者Longhi与Piazzetta。候选`cand-2338`与`cand-2329`均已对齐到Zaccaria Sagredo同一KU，`cand-0754`与`cand-0755`也都已对齐Giambettino Cignaroli同一KU；因此本批未把相同身份的分候选本身误记成语义冲突。以上无实质问题数量仅指当前批次，不表示整章接收。
+
+
+### 2026-10-20：第九章 p.264–267 第七批正文 S2 独立语义复核（当前statement ID）
+
+按当前 `book-statements.jsonl`，将第九章 intro 正文按S0来源行排序，逐条复核#451–525共75条，首尾为`st-chp9-p263264-sagredo-inventory-makers`—`st-chp9-p267-sagredo-importance-in-taste`，范围为S0 L243–321、印刷pp.264–267；对照`segments.jsonl`、`s2-coverage.csv`、`mentions.csv`、候选端点及原书PDF physical pp.26、31–33。relation_candidate=true 67、false 8、未分类0。此前当前ID直接复核467条；本批后累计542/904（true=404、false=138），intro正文525/653、视觉17/17、sec_ii 0/234；尚362条（intro正文128、sec_ii234）。`s2-coverage.csv`的各段`reviewed/complete`只代表来源覆盖/迁移记录，不能代替本次逐条语义验收。章节未完成，不作章节接收。
+
+**本批问题及建议修订去向：**
+
+- `st-chp9-p263264-sagredo-inventory-makers`（p.264 L243）：claim含Tiepolo、Piazzetta于1743受命编制库存和Longhi于1762接续；当前relation_candidate=false。对照同句作者角色和已有`st-chp9-p263264-tiepolo-drew-1743-inventory`，复核是否应拆为按人/库存的relation_candidate=true；当前mentions把“Zaccaria Sagredo”映射到档案型`cand-2337`，statement却列人物型`cand-2329`，且1743/1762库存候选缺精确mention span。统一人物与库存提及映射，明确source/evidence与被编制档案的边界。
+- `st-chp9-p263264-zaccaria-head-of-branch-and-late-passion`（p.264 L244）：原文只说“his father”去世，当前object却是Stefano Sagredo `cand-2328`，而本段无该名字的mention span。删除无原文支持的父亲身份或保留开放端点；将家族支系负责人、老年时才开始显露艺术热情、晚年支持年轻威尼斯艺术家拆成独立断言，保留“ten years after this”的相对时间。
+- `st-chp9-p263264-will-quoted-provisions`（p.263 L245–248）：遗嘱引文同时包括不分散收藏、Tommaso de’ Santi照管物品与公寓并获季度津贴、余产遗赠侄甥Girardo；当前statement只将Tommaso `cand-2357`设为object且把多项条款合并。拆分保管/津贴与余产继承，补Girardo `cand-2326`端点并保留原拼写与“据Haskell转录、未直查遗嘱”限定。
+- `st-chp9-p263264-will-gifts-to-varda`（p.263 L247）：claim列Rubens画与Moroni肖像两件遗赠，但端点只有Zaccaria→Salvator Varda，mentions映射的是艺术家候选，不是具体作品。为作品组开放对象或明确该边仅表示遗赠人—受赠人关系，避免让artist mention替代被遗赠作品。
+- `st-chp9-p265-angelo-prior-disposal-difficulty`（p.265 L292）：原文说Piazzetta未能在别处脱手该画；当前work `cand-8569`→artist `cand-1904`的端点顺序未表达画家为行动者。调整为画家→作品的来源限定行动，或作为未证实的先前售出尝试保留为非正式关系。
+- `st-chp9-p265-angelo-valuation-and-reputation`（p.265 L292）：合并了画作在收藏中的重要性、Tiepolo/Piazzetta高估价及威尼斯/外国访客知晓其声名；端点只为作品→估价档案，且Tiepolo、Piazzetta和访客均未作为端点。拆分作品评价、两位艺术家估价和访客认知；source record继续标为未识别档案，不把Haskell评价写成估价原件事实。
+- `st-chp9-p265-sagredo-bought-angelo-custode`（p.265 L292）：statement提到S. Rocco年度展览，`mentioned_candidate_ids`含活动候选`cand-8587`，但`mentions.csv`没有该活动的span（只有S. Rocco地点）。补展览系列mention，维持年份/具体届次未明。
+- `st-chp9-p265-tiepolo-drew-virginity-for-zucchi`（p.265 L293–294）：原文是Tiepolo为Zucchi绘制Corradini雕像图像；当前subject为图像作品`cand-8608`、object为Zucchi `cand-2886`，predicate却以Tiepolo为作画者。改为Tiepolo→图像作品并将Zucchi作为委托/预备用途的端点或限定；Corradini的雕像与Tiepolo图像要分开。
+- `st-chp9-p265-zucchi-dedication-to-sagredo`（p.265 L293–294，注3在L297）：dedication对象在主文由“this”指代，需靠注3识别为Correr《Raccolta Gherro》print 428；当前subject `cand-8639`合理，但`mentions.csv`未记录print 428的文本span，且statement锚点仅落主文。补注释交叉引用/作品mention，使dedication对象可追溯并避免转嫁到Corradini雕像或Tiepolo预备图。
+- `st-chp9-p265-crespi-painted-two-religious-works-for-sagredo`（p.265 L295）：claim为Crespi为Sagredo画两件宗教作品，当前subject却是作品组`cand-8591`、object为Sagredo `cand-2335`，遗漏作画者Crespi `cand-0871`。改为Crespi→作品组的创作端点；若继续表达赞助/委托，再单列Sagredo→作品。
+- `st-chp9-p265-crespi-reported-dealers-hastened-sagredo-death`与`st-chp9-p265-crespi-letter-italian-quotation`（p.265 L295、L300–301）：主文转述与脚注原文分别记录同一封信，但两行都把“经销商欺骗加速死亡”和七至八千zecchini支出/低价作品合在一起，并把嵌套引文压成Sagredo—Crespi人物边。拆开信件定位/说话者、关于死亡的转述和支出引语；保留“据Haskell转录/报告”，不把报告源本身当人物间关系。
+- `st-chp9-p265-longhi-fall-of-giants-location-and-date`（p.265 L295）：当前work→Palazzo楼梯端点对应地点，但claim还含Longhi创作、1734日期和Haskell“clumsy”评价。分列作者归属、位置、年代与评价，保留“1734应为完成日期”是Haskell推断。
+- `st-chp9-p265-zaccaria-possible-longhi-commission`（p.265 L295）：claim将Longhi可能较早开工与委托可能来自Zaccaria合在一条，端点为Zaccaria→壁画而缺Longhi角色。拆开创作起始时间判断与委托归属，保留“just possible / reason to believe”的推测语气。
+- `st-chp9-p265-note8-assessment-and-collection-dispersal`（p.265 L295–296）：把Zaccaria购入无法识别的旧大师作品与大量作品在1743前已处分并列；当前work组→Zaccaria端点只覆盖购入。拆购入与散佚/处分两项，后一项保留未名接收方及库存仅提供截至日期的限定。
+- `st-chp9-p266-reputation-and-collection`相邻但不同statement `st-chp9-p266-sagredo-collected-prints-and-drawings`（p.266 L304）：`cand-2334`收藏子项的suggested_type为空，当前true关系把Sagredo→“版画和素描收藏”作为正式端点。先明确该聚合对象在taxonomy的类型或保留待分类端点；不把它与已登记的特定素描册/作品组等同。
+- `st-chp9-p266-breval-assessment`（p.266 L304–305）：false关系分类与Breval嵌套引文相符；但`mentioned_candidate_ids`含Breval 1738书籍候选`cand-7713`，来源脚注的候选没有对应mention。为脚注补来源锚点，保持Breval为speaker而不是Sagredo的关系端点。
+- `st-chp9-p266-attributed-artists-in-volumes`（p.266 L305）：原文“they”指素描册而非其后的inventory；当前subject是后出库存`cand-8624`、object是素描册`cand-8635`，predicate却称库存“include attributed drawings”。改以素描册/其中作品为内容主体，将inventory留作证据来源；分别保留“attributed to Rembrandt”等归属措辞，不升级为作者确证。
+- `st-chp9-p266-inventories-record-volumes`（p.266 L305）：合并后出库存列出许多册与Haskell推定这些册由Sagredo组装两项。保留inventory→册组的记录关系，另列Sagredo组装推断并标作作者推测；不将后出库存与明确的1743第一库存混同。
+- `st-chp9-p266-torresani-views`（p.266 L305–306）：Sagredo委托100幅pen-and-ink views，当前Sagredo→views端点没有将Andrea Torresani `cand-2649`作为画家/执行者。补艺术家→作品组或将委托人与受托画家分开表达，保留Moschini为Haskell转引且未独立查阅。
+- `st-chp9-p266-sagredo-heirs-sold-volumes`（p.266 L307）：`mentions.csv`只映射“Zaccaria”到本人`cand-2329`，没有覆盖“heirs”这一真正出售主体`cand-11466`的span。补匿名继承人群mention，维持其身份、日期、交易条件未明。
+- `st-chp9-p266-volumes-survive-royal-collection`（p.266 L307）：object `cand-2292`（Royal Collection）suggested_type为空。先确定机构/收藏实体类型，或保持端点未分类；继续保留“截至Haskell写作时仍存”的时间限定。
+- `st-chp9-p266-original-pieces-and-attention`（p.266 L308）：合并Carracci册购入内容（Raphael sheets及其他原作）与吸引当时connoisseurs关注；当前Sagaedo→Carracci册端点未覆盖接受者/关注事件，且另有`st-chp9-p266-raphael-sheets-in-purchase`重述Raphael部分。拆购藏内容与同期接受，避免重复同一Raphael claim。
+- `st-chp9-p266-castiglione-set-and-later-taste`（p.266 L308–309）：把Sagredo拥有/评估Castiglione素描集和该集对后来威尼斯趣味/艺术的重要性合成一个person→work statement。拆持有与后世影响/接受，保持“finest in existence”是Haskell评价。
+- `st-chp9-p266-algarotti-intended-purchase`（p.266 L309）：claim记Algarotti拟为萨克森国王购入素描册，当前端点只有Algarotti→册组；King of Saxony `cand-8622`仅在mentions。补 recipient/transaction 角色或以明确开放的三方交易/意向事件表达，不推定国王身份或交易完成。
+- `st-chp9-p266-algarotti-gave-additional-drawings`与`st-chp9-p266-smith-received-additional-drawings`（p.266 L309–310）：两条对应同一句“Smith, who was also given ... by Algarotti”，一条Algarotti→绘画组遗漏受赠人Smith，另一条绘画组→Smith遗漏赠与人Algarotti，形成重复而互不完整的礼物关系。合并为能保留赠与者、受赠者和绘画组的事件/多端点断言；若schema暂不支持，分别明确礼物关系与作品去向并互相引用。
+- `st-chp9-p267-tiepolo-etchings-study-castiglione`（p.267 L314–315）：来源为Haskell认为Castiglione的影响见于Tiepolo版画的题材与技法，并转述Algarotti先提出此点；当前端点是版画组→Castiglione。核准relation方向与谓词，表达Castiglione对Tiepolo作品的影响，同时保留解释性归属和没有具体版画对应的限定。
+- `st-chp9-p267-sagredo-early-venetian-collector`（p.267 L316）：把Haskell的“似乎是Venice最早欣赏者”优先性判断与Sagredo广泛收藏分作一条person→work关系。拆出带“seems”的历史优先性判断与收藏范围，不把作者推论当客观排名。
+- `st-chp9-p267-sagredo-paid-1500-zecchini`（p.267 L316–317）：claim兼有“精心挑选”与“据说以1500 zecchini购入”两项，当前person→素描集predicate未结构化价格。拆开选择评价与带来源限定的购入/价格，保留“were said to”及Smith遗嘱仅经Parker发表的来源状态。
+- `st-chp9-p267-ducal-pictures-sent-and-distributed`（p.267 L318）：claim同时称900余幅公爵收藏画送给Ferdinando Carlo、随后分给廷臣；当前work组→Ferdinando只表示前一段，未表示发送者/具体收藏或 courtiers。拆为送达与分配两事件，保持数字为Haskell报告，不补发送者、作品或廷臣身份。
+- `st-chp9-p267-lorraine-claim`（p.267 L318–319）：Gonzaga “effects”是遗产/财产而非人物家族关系，但object `cand-11467`未设suggested_type；`mentions.csv`也无该词组mention。补准确表面span并明确财产/遗产对象类型，不能误映射Gonzaga家族。
+- `st-chp9-p267-entourage-member-may-have-owned-sagredo-drawings`（p.267 L321）：限定语保留了“Ferdinando Carlo本人或其随从成员之一可能拥有来源绘画”的二择假设；但“someone in his immediate entourage”对应的匿名候选`cand-11468`在`mentions.csv`无span。补此短语映射；不将假设登记为确定所有权/来源。
+- `st-chp9-p267-sagredo-drawings-relate-to-mantuan-pictures`（p.267 L321）：绘画组端点`cand-11469`对应Haskell所说Castiglione在Mantua创作的画，但`mentions.csv`没有“pictures that Castiglione painted at Mantua”的candidate span。补作品组mention并继续保留“some”及该关系不证明素描来源。
+
+**无实质不一致范围：**本批其余41条的claim方向、来源speaker、原文行页锚及限定基本吻合；包括来源明确的作品购买/持有、地点和年代陈述、明确标false的作者判断，以及保留“may well”“probably”“some”“were said to”等限定的候选关系。以上计数只反映本批当前ID复核，不表示第九章接收。当前intro正文下一游标为`st-chp9-p267-tentative-mantuan-origin-of-sagredo-drawings`（当前正文行序#526，L321）；第九章尚余intro正文128条及sec_ii 234条未读。
+
+
+### 2026-10-20：第九章 p.267及p.251–260脚注 第八批 S2 独立语义复核（当前statement ID）
+
+按当前 `book-statements.jsonl` 将第九章 intro 来源行排序，本批逐条核读#526–600共75条，首尾为`st-chp9-p267-tentative-mantuan-origin-of-sagredo-drawings`—`st-chp9-p260-note4-gradenigo`；范围为p.267 L321，以及合并脚注段S0 L349–398（印刷pp.251–260）。核对`segments.jsonl`、`s2-coverage.csv`、`mentions.csv`、候选端点和限定，并直接对照PDF physical pp.13–22。relation_candidate=true 28、false 47、未分类0。此前当前ID直接复核542条；本批后累计617/904（true=432、false=185），intro正文600/653、视觉17/17、sec_ii 0/234；未覆盖287条（intro正文53、sec_ii234）。批次内63条未见实质语义问题；9条有明确提及/端点缺口，另3条需统一relation分类/端点口径。章节未完成，不作接收结论。
+
+**明确问题及建议去向：**
+
+- `st-chp9-p251-st-peters-poetic-influence-note`与`st-chp9-p251-villa-restoration-note`（p.251 n.2，S0 L350）：两条`mentioned_candidate_ids`均含Manin villa `cand-1518`，前者另含St Peter’s `cand-6960`，但`mentions.csv`在该脚注段没有对应span。补“the villa”“St Peter’s”的精确span；并将前者严格保留为Haskell所引十八世纪诗人对villa与St Peter’s的影响/类比报告，不把诗歌观察扩写成未被注明的建筑师或确定设计来源。
+- `st-chp9-p251-anonymous-1708-source-citation`（p.251 n.3，S0 L351）：候选`cand-8232`代表标题中N.N.匿名通讯者，但当前`mentions.csv`仅有匿名收信人、刊物等span。补N.N./匿名通讯者提及，保持身份未名；statement所记刊载定位及“未独立查阅”限定可保留。
+- `st-chp9-p253-note1-later-recall-and-chapel`（p.253 n.1，S0 L360）：原文说新任宗主教Daniele Dolfin于1759年召回Tiepolo与其子Gian Domenico去Udine装饰Cappella della Purità；当前端点是Daniele `cand-0926`→chapel `cand-8285`，将召回者、两位艺术家和装饰对象压在一个边。拆分Daniele→艺术家（召回/委托）与艺术家→chapel（装饰/创作），保留“据Haskell注释”及这与Dionisio早期工程不同的限定。
+- `st-chp9-p253-note2-italian-advice-to-young-artists`（p.253 n.2，S0 L361）：claim概括Tiepolo的新闻转述建议，但`mentioned_candidate_ids`中的`cand-8295`（面向大规模作品的艺术理想）与`cand-8299`（富有贵族赞助群）在`mentions.csv`无对应span。补引文中的准确span，避免只映射年轻艺术家/学生而漏掉建议对象与目标；speaker“经Haskell转引的报刊报道”及非独立验证状态正确。
+- `st-chp9-p255-lorenzi-scheme-report`（p.255 n.1，S0 L370）：Lorenzi→Tiepolo端点表达了据Zannandreis称“提供方案给Tiepolo”，但claim还说方案旨在颂扬西班牙国王；已有方案`cand-8361`和匿名君主`cand-8362`只列在mentions，且Zannandreis文献页候选`cand-8360`没有相应span。补Zannandreis p.426 locator span；若保留方案用途为独立断言，补方案→未名King的内容/对象端点，或明确它仅是两人间“提供方案”断言的限定。保留“possibly apocryphal”，不得写成已完成作品。
+- `st-chp9-p256-note6-pietro-loredan-orazione`与`st-chp9-p256-note7-antonio-loredan-orazione`（p.256 nn.6–7，S0 L378–379）：两条均以“citation locator only”为claim，却设`relation_candidate=true`且`subject_candidate_id`为空；候选的受赠/受颂人物与离任事件只在mentions。统一去向：若只是书目定位则改为非关系陈述；若要记录演说与受颂人/离任事件，须给出有据方向和端点，并保留出版年未知等限定，不能以空subject表示已有正式关系。
+- `st-chp9-p259-note5-foscarini-library-transfer`（p.259 n.5，S0 L393）：claim谓Marco Foscarini descendants出售图书馆给奥地利政府；当前端点为图书馆`cand-8462`→政府`cand-8471`，未表达出售者，且`mentioned_candidate_ids`只列Marco本人`cand-1057`。补“Marco Foscarini’s descendants”的家族/群体端点，或用转让事件保留卖方、资产和接收方；不得将Marco本人改作卖方。
+
+**需明确模型口径的项：**`st-chp9-p253-note2-press-report-and-italian-quote`（p.253 n.2）、`st-chp9-p256-note5-tiepolo-letter-publication`（p.256 n.5）及`st-chp9-p259-note3-visconti-letter-citation`（p.259 n.3）分别把新闻/信件出处或出版关系设为relation_candidate=false/true/true。当前#575和#590的端点是archive letter→publication，而不是信件发送者/收件人；如candidate是文献出版/定位边，应明确该类型与历史对应物关系的区别；如要采入Tiepolo→Algarotti或Visconti→Ligari通信边，改用人物端点并把原件/出版物留在source evidence，不把来源引用误作通讯双方的边。`st-chp9-p256-note1-correr-manuscript-locator`只记录Sandi主文的书目定位，false不等同于`st-chp9-p252-correr-manuscript-citation-note4`所记的manuscript→Biblioteca Correr存放关系。`st-chp9-p259-note6-kress-location`保留本书脚注所称Kress Foundation与front-matter Plate 45所称North Carolina Museum of Art / Samuel H. Kress Collection的来源差异；现有qualifier已明确要求后续核对，本批不强行合并。
+**需明确模型口径的项：**`st-chp9-p251-florio-citation-note4`（p.251 n.4）、`st-chp9-p256-note5-tiepolo-letter-publication`（p.256 n.5）及`st-chp9-p259-note3-visconti-letter-citation`（p.259 n.3）分别把诗歌引文/作者、信件出处或出版关系设为relation candidate。当前#575和#590的端点是archive letter→publication，而不是信件发送者/收件人；如candidate是文献出版/定位边，应明确该类型与历史对应物关系的区别；如要采入Tiepolo→Algarotti或Visconti→Ligari通信边，改用人物端点并把原件/出版物留在source evidence，不把来源引用误作通讯双方的边。#531若只记录Haskell的文献引用则relation_candidate应与citation locator口径一致；若记录Florio对诗作的作者关系，则需要改为有来源支持的作者—作品断言。`st-chp9-p256-note1-correr-manuscript-locator`只记录Sandi主文的书目定位，false不等同于`st-chp9-p252-correr-manuscript-citation-note4`所记的manuscript→Biblioteca Correr存放关系。`st-chp9-p259-note6-kress-location`保留本书脚注所称Kress Foundation与front-matter Plate 45所称North Carolina Museum of Art / Samuel H. Kress Collection的来源差异；现有qualifier已明确要求后续核对，本批不强行合并。
+
+**无实质语义问题范围：**本批其余63条与S0脚注文字、PDF扫描、speaker、候选对象和限定基本一致；包括来源明确的书目定位false statements、已拆分的四个Sandi ceiling depicted-subject关系、Vendramin-Calergi cycle的作者“归属”而非确证、Tiepolo advice的转引限定、archival locators和Haskell当前馆藏说法。此数量不代表任何章节接收。下一intro正文游标为`st-chp9-p260-note5-tiepolo-dedicated-prints`（当前正文行序#601，S0 L399）；第九章尚余intro正文53条、sec_ii 234条未读。
+
+
+### 2026-10-20：第九章 p.260–267 脚注 S2 独立语义复核（当前 statement #601–653）
+
+按当前 `book-statements.jsonl` 对 `09_CHP-9_intro.md` 的 653 条statement按来源行排序，本批逐条核读 #601–653，共53条；首尾为 `st-chp9-p260-note5-tiepolo-dedicated-prints`—`st-chp9-p267-note5-blunt-citation`，覆盖S0 L399–445、印刷页260–267。对照已登记分节原文、mentions、候选端点与限定，并复核对应PDF扫描（physical pp.22–26、31–33）。当前批次 relation_candidate=true 22、false 31、未分类0。批次中28条未见实质不一致；25条含须处理的问题/映射缺口/关系模式待核项（这些类别不等同于25条事实错误）。当前第九章直接审读为 intro 670/904（正文653/653、图版17/17、sec_ii 0/234），true=454、false=216；尚未审读234条，均在sec_ii。第九章不作章节接收结论。原始 statements、mentions、candidate和来源文件未修改。
+
+**实质语义修订去向：**
+
+- `st-chp9-p260-note5-tiepolo-dedicated-prints`（p.260 L399）：原文“prints taken from drawings by Tiepolo … were dedicated to him”；当前端点Tiepolo→版画组只表达创作，遗漏受赠人Foscarini（cand-1053）。拆开作品来源/作者与版画→受赠人dedication；保留版画未具名和Haskell注释来源限定。
+- `st-chp9-p261-note2-levi-inventory-collection`（p.261 L405）：原文为若干威尼斯库存“included in C. A. Levi’s collection”；当前端点Levi本人→collection，遗漏inventory corpus。改为collection收录库存群组，或降为来源/书目陈述；不把收藏者本人当库存内容。
+- `st-chp9-p261-note2-seminario-edwards-inventories`（p.261 L405）：原文同时说其他库存尚未刊布、特指Seminario Patriarcale及MSS 788.13所存Pietro Edwards在共和国覆亡时编制的库存。当前机构→单一库存bundle过度压缩这些事实。拆出未刊状态、手稿库藏位置、Edwards编制者与时间限定；明确档案对象与关系方向。
+- `st-chp9-p261-note5-gherardi-letter`（p.261 L408）：原文列出Gherardi致Muratori的1745年信及其在Biblioteca Estense、Modena的馆藏位置。当前Gherardi→信件边不足以表达收件人和保存地点。作者/信件、信件→收件人（addressed_to）、信件→保管机构/地点及日期应分别表达，保留缩写姓名和脚注定位。
+- `st-chp9-p262-note5-labia-inventory`（p.262 L413）：一条Labia family→inventory边承载未刊1749 inventory、两条Tiepolo条目名称及对Cignaroli的另一个Bevilacqua出处。将“inventory被引作来源”与条目内容/艺术家工作出处分开；Labia候选cand-1349应对应原文“Labia inventory”的提及span，不将书目线索自动当正式关系。
+- `st-chp9-p263264-barbaro-genealogy`（p.263 L414）：原文所引谱系同时列Zaccaria出生、双亲、Bergamo职务、gallery作品构成及去世。当前谱系文献→Zaccaria一条true relation并未表示这些复合事实，且不应将证据文献本身作为事实主体边。拆为来源归属的原子断言；出生、父母、任职、gallery及死亡分别保留证据。mentions应补Zaccaria cand-2329对“Zaccaria Sagredo”精确span；PDF扫描与OCR在父名拼读有差异，保留转录/扫描差异，不据此另造身份。
+- `st-chp9-p263264-da-canal-meschini-praise`（p.263 L415）：同一false statement合并Da Canal对gallery规模的评价和Meschini对Sagredo的评价；分别标记说话者与评价对象，避免两项作者归属混成一条。mentions应把“him”映射到Zaccaria cand-2329。
+- `st-chp9-p263264-wright-anecdote-locator`（p.263 L417）：原文只给“Edward Wright, I, p.77”，subject候选cand-8578为Keysler（来自别处），与该定位不符。移除Keysler端点；保留Edward Wright书目locator为未解决/来源候选，不推导Keysler身份或Wright—Sagredo历史关系。
+- `st-chp9-p263264-purchases-from-artists`（p.263 L418）：该umbrella false statement将三项购藏/委托压为一句，而下列statement已分别记录交易；删除重复事实或仅保留来源定位。其“he”指Zaccaria，当前mentions未映射cand-2329。
+- `st-chp9-p263264-sagredo-bought-carracci-drawings`（p.263 L418）：购入端点未包含原文明示的卖方Bonfiglioli family；补交易/卖方角色或采用多端点交易表述，并保留Bologna与图纸未具名。
+- `st-chp9-p263264-sagredo-commissioned-crespi-pictures`（p.263 L418）：Sagredo→画作遗漏原文明示的受托创作者Crespi；补画家/委托角色或拆为委托事件和未具名作品组，保留未具名作品范围。
+- `st-chp9-p263264-will-archival-locator`（p.263 L419）：原文说Zaccaria的遗嘱存于Archivio di Stato，日期为1729-05-22，公证人为Pietro Grigis。当前Zaccaria→will边未承载档案库、日期和公证人。拆出立遗嘱者与文书、文书→archive、日期/公证人等来源属性；mentions需将cand-2329另映射至“Zaccaria Sagredo’s will”，不只映射遗嘱候选cand-8594。
+- `st-chp9-p263264-inventory-1738-locator`（p.264 L420）：原文只称“tempo della morte del Proc.r Sagredo”，没有给出该Procuratore的个人身份；当前主体cand-2326指向Gherardo，statement将匿名称谓落实为具名者。移除不受原文支持的个人端点，保持匿名Procuratore Sagredo未识别，不与Gherardo或其个人收藏建立连接。
+- `st-chp9-p263264-posse-complete-sale-report`（p.264 L422）：原文说1743年信报告图片“were to be sold as a complete collection”，是拟议/计划的出售。当前连接到代表实际分散的事件cand-2336会混淆意向与完成交易。改为来源归属的出售计划，或另设计划端点；不要记录成已完成整体出售。
+- `st-chp9-p263264-smith-purchases-document`（p.264 L423）：来源说档案文书显示Smith于1751–52年向Zaccaria的heirs购买绘画和素描。当前Smith→文书是证据关系，不是购买关系。改为Smith、作品、heirs/卖方的交易或多端点事件，文书仅留source/evidence；mentions补heirs group cand-8571对“Zaccaria’s heirs”的精确span。
+- `st-chp9-p263264-udney-1762-list`（p.264 L424）：原文清单标题为“list of pictures … ricercati dal Sig. Zuane Udni”；现谓词把pictures seeking误写成Udney寻找一份Sagredo picture list。改为对画作被寻求/请求的来源限定陈述，保留list作为档案证据；不推成实际购买，并保留“Udni”与索引John Udney身份映射仍待S3核实。
+- `st-chp9-p263264-longhi-inventory-survival`（p.264 L425）：inventory→Biblioteca Correr的库藏断言与原文相符；但mentions把“Longhi inventory”映射到人cand-1429，没有为同一span映射具体inventory/archive cand-11465。补档案对象的mention，不改写其合理的库藏方向。
+- `st-chp9-p263264-direct-acquisition-limit-partial`（p.264 L427，并续接p.265正文）：原文是“must have been painted between 1685 and 1729”，并称这些是“safe to assume”由Zaccaria直接购得的唯一作品。当前claim/title容易读成清单/库存“dated 1685–1729”。改为画作创作年代的Haskell推断，并保留safe-to-assume限定；不能转成inventory日期或确定事实。
+
+**提及、模式与待证边界：**
+
+- `st-chp9-p265-note3-correr-print-dedication`（p.265 L430，正文续至L298）：版画428 dedicatee→Zaccaria的语义方向正确；但出现两个不同Sagredo候选cand-2329（S.csv#17）及cand-2339（S.csv#27），跨页重叠，是否同一人属S3身份裁决，不由本S2批次合并或判错。
+- `st-chp9-p265-note4-marchesini-letter-1725-08-11`、`st-chp9-p265-note4-marchesini-letter-1725-12-01`（p.265 L431）及`st-chp9-p266-note6-zanetti-letter-citation`（p.266 L438）：原文均明确给出信件作者与收件人。当前writer→letter/archive对象适合作者—文书表达，但若candidate实际意图表示通信关系，须按schema分别使用文书→收件人`addressed_to`或有证据支持时的人物`corresponded_with`，不能把书目/出版物当通信双方边。列作关系模式/端点口径复核，不单凭引用行判为错误事实。
+- `st-chp9-p266-note6-crespi-works-identified`、`st-chp9-p266-note6-mission-work-identified`（p.265 L432）：Nativity/Mission的内容识别与限定基本成立；mentions中未把“The pictures”“The latter”这些承接前句的组/作品提及映射至cand-8591/具体作品候选。按span补齐承接提及，Chicago对应仍保持may的未决语气。
+
+**批次结论：**本批剩余28条未发现实质语义不一致，可作为本批局部可接收范围；本批列出的语义、mention和schema事项需由主代理核验/写回。当前仅提交此独立审阅记录，没有更改原始表格、候选或知识卡；不能据此将第九章标为接收。下一范围应为sec_ii尚未复核的234条。
+
+
+### 2026-10-20：第九章 sec_ii p.267–271 S2 独立复核（当前 statement #1–75）
+
+按当前 `book-statements.jsonl` 的 `source_file=02-sources/02-Markdown/09_CHP-9_sec_ii.md`，以来源行、页码和statement_id排序，本批逐条核读#1–75，共75条，首尾为`st-chp9-sec2-1657-readmission-jesuits`—`st-chp9-p271-jesuit-unpopularity-and-papal-subjection`；对应S0 L3–51、印刷pp.267–271。核对来源行、各端点候选类型、claim/谓词、speaker/限定与mentions。当前批次true=55、false=20、未分类0。5个来源段共199条mentions的start/end span均与登记S0文本精确匹配；另有若干statement候选只在同段notes之外的脚注/续页被点名，须保持可追溯的跨段归属。第九章累计直接语义复核745/904：intro及图版670/670，sec_ii 75/234；true=509、false=236；尚余159条（true=87、false=72），不作章节接收结论。原始来源和S2表未修改。
+
+**须修订的断言原子性、关系分类或端点：**
+
+- `st-chp9-sec2-1657-readmission-jesuits`（p.267 L3）：当前主体cand-8671是“1657 Jesuit readmission”事件，客体cand-1322是Jesuits，但谓词为“Venice readmitted … in exchange for papal support”，事件不能作为“Venice readmitted”的施事，且交易一端papal support未作端点。改为Republic/政府→Jesuits的readmission/许可关系，或以事件端点保留施事Venice、受事Jesuits、Papacy支持及1657时间；保留financial necessity为Haskell因果解释。
+- `st-chp9-p268-property-transfer-ban-1767`（p.268 L8）：当前subject为禁止财产转移事件cand-8678、object为Republic cand-8572，但predicate表示“Venetian state decided to forbid”。调换/重设施事、政策和事件角色；不得让禁令事件充当决策主体。
+- `st-chp9-p268-church-leading-patron`（p.268 L9）：Church→客体cand-2735；该候选为“Venice”而原句客体是“contemporary art”。替换客体为有据艺术对象/艺术类型候选，Venice仅作限定地点。
+- `st-chp9-p268-cignaroli-saints-claim`（p.268 L9–10）：claim除“据称Cignaroli多年几乎只画圣徒”外，还纳入“许多此类画作必为私人虔敬用途”。拆开“was claimed”报告与Haskell的“must have”推断，保留大约/推断的来源语气及Barocci、Carlo Dolci只作比较的限定。
+- `st-chp9-p268-clergy-government-nobility`（p.268 L11）：一条clergy→Republic关系捆绑神职人员不得任政治职务、与政府紧密关联、教会高职由贵族担任三项。拆分制度排除、政府关联和贵族占有高级教职；保留Haskell所述解释，不把“nobility held posts”改成神职人员参与政治职位。
+- `st-chp9-p268-traveller-younger-sons`（p.268 L11）：当前端点是匿名旅客cand-12391→贵族群体，predicate本身写成“traveller said…”。这将speaker误作社会关系施事。保留匿名旅客为speaker，将内容写成有来源限定的贵族次子缺乏可接受职业/贸易被视为不名誉的一般化断言；只有存在明确社会关系时才设置人物端点和true relation。
+- `st-chp9-p268-noble-commissions`（p.268 L13）：claim含贵族负责委托、雇用偏爱的艺术家、宫殿和教堂两类场所，当前端点仅nobility→Church。拆分委托与雇佣，必要时设开放艺术家群和作品/委托对象；不能把宫殿场所压成Church客体。
+- `st-chp9-p269-scalzi-arrival-1633`（p.269 L21）：subject为“Scalzi到达威尼斯”事件cand-8692、object为Scalzi institution cand-2389，predicate却是Scalzi→Venice；且Venice cand-2724仅为mention。改为Scalzi→Venice的arrived_at并记1633，或用事件并表达抵达群体和地点；把Carmelite affiliation与到达事实分开。
+- `st-chp9-p269-scalzi-noble-links-missions`（p.269 L21）：claim合并Scalzi与贵族的联系、Peloponnese传教工作、与威尼斯军队的关系及由此获得的同情，端点只含Scalzi→nobility。拆分社会联系和传教/军事背景；不把地名、军队及因果作为被省略的普通限定。
+- `st-chp9-p269-scalzi-original-church-too-small`（p.269 L21–22）：claim把受欢迎致原教堂不足、Longhena与Sardi受雇建新教堂合并，端点只有Scalzi→原教堂。拆出规模判断与受雇建新堂，后者补两位建筑师及另一个未具名教堂端点；不将原堂和替代教堂合并。
+- `st-chp9-p269-scalzi-luxury-pamphlet`（p.269 L23）：claim一并说奢华使严守贫穷的修会尴尬、1732年请匿名作者为费用辩护；subject候选是“请作者辩护”事件而object是Scalzi，无法承载前半心理/制度判断。拆为Haskell对奢华与修会的描述及匿名pamphlet辩护事件，保留作者匿名和年份。
+- `st-chp9-p269-pamphleteer-monastery-finances`（p.269 L24）：source是匿名pamphleteer对“修道院未被掏空、僧侣境况未变、无本金亦无债”的多项否认。当前端点为“呼请作者辩护事件”→修道院，relation=true，predicate/端点不能表达引语speaker和多项被否认的财务主张。改为来源归属的atomic claims；不把辩护行为当成该财务事实。
+- `st-chp9-p270-rich-families-employed-painters`（p.270 L28）：原文明确写old/new rich families雇用Lazzarini、Bambini、Dorigny供画与壁画，当前relation=false且无端点。作为来源限定的委托/雇佣关系候选拆分或设开放富裕家族群与三位艺术家端点；不把三人分派到未被分派的特定委托。
+- `st-chp9-p270-carmelite-patronage-comparison`（p.270 L29）：当前Carmelites→Scalzi客体不受原句支持。原文只称Scalzi的母修会Carmelites之赞助“equally splendid”，并未称Carmelites赞助Scalzi。改为对Carmelite patronage的一般作者评价或明确其实际赞助对象，移除Scalzi作为被赞助者。
+- `st-chp9-p270-ricci-and-diziani-carmini-works`（p.270 L30）：一条Ricci→Ricci壁画边合并1708壁画和近半世纪后Diziani为同一教堂绘制四幅画。拆成Ricci作品及Diziani作品/雇佣关系，分别保留艺术家、作品群、地点与模糊时间。
+- `st-chp9-p270-pedozzi-reputation-and-canaletto-patron`（p.270 L33–34）：claim合并Pedozzi修会职务、贵族评价和他是Canaletto早期赞助人；当前仅Pedozzi→Canaletto。拆成职务、引用评价和patron关系；不把“很早”提升为精确日期。
+- `st-chp9-p270-gesuati-new-church-public-funding`（p.270 L35）：一条Gesuati→新教堂关系合并开始雇Massari建堂及大部分经费来自公众支持。拆出Massari的建筑师/受雇角色与集体资金来源；保留“largely”且不补具体捐赠人。
+- `st-chp9-p270-n07-benigna-dominican-church-model`（p.270 L36）：原注释报告Zattere的Observant Dominicans拆除部分修院并建一所新堂，仿Redentore；当前只设Dominican order→新堂，未覆盖拆除对象和Redentore模型端点。拆/补三项建筑关系，并保留这条印刷脚注错位、其内容不支持Gesuati资金的限定。
+- `st-chp9-p271-tiepolo-dominican-fresco-and-piazzetta-altarpiece`（p.271 L40–41）：Tiepolo的St Dominic Rosary天顶画和Piazzetta的Three Dominican Saints祭坛画是两件作品，时间也分别叙述；当前仅Tiepolo→其天顶画端点。拆为两条作品断言及两位艺术家/作品端点，保留共同年份背景但不要混成同一作品。
+- `st-chp9-p271-visitor-alms-funding`（p.271 L39–40）：引述中的事实是Gesuati教堂12万ducats全部来自施舍，当前subject却是visitor cand-8708、object是教堂，relation_candidate=false；这将报告者—被描述建筑误当资金事实并漏掉资金来源。把Gherardi保持为speaker，把教堂资金来自alms记作有来源归属的资助断言/事件并补资金来源端点；只保留“访客称”与总额限定。
+- `st-chp9-p271-concina-anti-jesuit-invective`（p.271 L46）：一条Concina→Jesuits捆绑其来自Gesuati/邻接修院、发出攻击、加剧两修会竞争及最早提出压制Society。拆开来源地点、言辞及其引发竞争、提出suppression四项，保留“among the first”而不写成首创；不替未名修院补实体。
+- `st-chp9-p271-oratorian-fava-commissions`（p.271 L47）：claim先记Piazzetta/Tiepolo在1724和1732年为Fava新堂作祭坛画，后又记Oratorians中世纪雇用Balestra、Amigoni、Cignaroli，当前端点只有Oratorian→第一组作品。拆开两组委托/雇佣事实；不把日期分配给特定画家或把后三人配到未命名作品。
+- `st-chp9-p271-correr-patriarch-1734`（p.271 L48）：当前Capuchins→Correr边及predicate将“他是其中一员”与“1734被任为威尼斯宗主教”混成修会任命。拆出修会成员身份和宗主教任命/职位事件；任命者原文未说，不补为Capuchins。
+- `st-chp9-p271-counter-reformation-competition`（p.271 L49）：claim同时概括反宗教改革延续、各修会争相委托和耶稣会缺席，当前Counter-Reformation term→Jesuits边不能表达竞争关系，也不是其缺席的直接端点。保留为Haskell历史概括，或拆出有适当组织/委托群端点的竞争关系；不能用耶稣会作为所有竞争的客体。
+- `st-chp9-p271-jesuit-readmission-and-manin-resources`（p.271 L50–51）：statement重复1657复会，并合并约半世纪后的新堂建设和Manin家族出资；当前Jesuits→教堂端点遗漏Manin出资者且把读回/开建压成同一条。拆分时间顺序、建堂和资源来源；记Manin family为出资端点，保留“about”与“mostly”。
+
+**mentions逐项核对：**
+
+- 文字span已核对无偏移；但statement到mention映射仍有明确缺口：`st-chp9-sec2-casanova-attitude-source-reference`的`cand-8667`“Bozzòla's description”无本段mention；`st-chp9-p269-scalzi-arrival-1633`的事件候选cand-8692没有映射到“came to Venice in 1633”；`st-chp9-p270-fresco-subject-and-madonna-donation`和`st-chp9-p270-tiepolo-scalzi-decoration-1745`均缺天顶画cand-8702的来源span；`st-chp9-p270-ricci-and-diziani-carmini-works`缺cand-8703及cand-8704两组作品span；`st-chp9-p270-tiepolo-madonna-del-carmelo`缺cand-8825作品span。给各端点/作品候选添加不重叠的准确mention。
+- `st-chp9-p271-visitor-church-description-continuation`、`st-chp9-p271-visitor-alms-funding`的quotation speaker cand-1155和未名visitor cand-8708在本地段span中未完整显现：visitor可以由“he”映射；Gherardi的具名身份仅在p.271 note 1（另一个S0 segment）明示，应建立可追踪的note→quote attribution而非在正文伪造姓名span。同理，#25/#27的Zanetti及#62的Antonio Benigna身份来自另一脚注/引文；明确跨段归属，不将来源注释中出现当成正文出现。
+- `st-chp9-p271-tiepolo-dominican-fresco-and-piazzetta-altarpiece`、`st-chp9-p271-ricci-dominican-saints-altarpiece`和`st-chp9-p271-dominican-church-exaltation`提及的Dominican group cand-0941在对应source segment未见明确表面提及；若保留为语境端点，说明指代/跨句依据并用可追踪mention关联，否则从显式mentioned IDs移除。
+
+**批次结论：**#1–75有24项需要语义/分类或端点修订，另有上述端点span/跨段说话者映射事项；其余条目在当前逐条审读中未发现实质claim方向错误。此批局部结论不构成第九章接收。
+
+### 2026-10-20：第九章 sec_ii p.271–274 S2 独立复核（当前 statement #76–150）
+
+按当前 `book-statements.jsonl` 行序映射#76–150，共75条，首尾为`st-chp9-p271-hostile-pamphlet-introduction-partial`—`st-chp9-p274-corner-angeli-sbasile`；覆盖S0 `09_CHP-9_sec_ii.md` L51、L53–60、L62–68、L70–78，印刷pp.271–274。逐条对照原书扫描physical pp.38–40与已登记转录、候选和mentions；四个来源段的已登记mention字符范围全部与当前S0文本精确匹配。批次relation_candidate=true 51、false 24、未分类0。第九章累计直接复核820/904：intro及图版670/670，sec_ii 150/234；true=560、false=260；尚余84条（true=36、false=48），章节不接收。原始来源、statement与mention表未修改。
+
+**实质断言、关系端点或分类问题：**
+
+- `st-chp9-p272-hostile-pamphlet-allegation`（p.272 L54）：原文是匿名pamphlet指控耶稣会“from a single family”攫取建堂费用。当前端点pamphlet archive→Jesuits把“指控行为”当实体关系，且没有保留声称的匿名单一家庭作为内容端点。改为归属于pamphlet的来源性指控；若登记关系候选，端点应表达Jesuits与未名资助/被攫取家庭，不能指认Manin家族。维持Haskell转引与pamphlet标题待查。
+- `st-chp9-p272-three-angels-iconography`（p.272 L54）：原文明确说该作品“had no specific relationship to Jesuit iconography”。当前relation_candidate=true与断言的否定内容冲突。保留为Haskell的负面/解释性声明并改false，不产生Jesuit作品关系边。
+- `st-chp9-p272-dominican-ensemble`（p.272 L55）：claim是S. Maria del Rosario画作庆祝Dominican Order；当前subject是绘画组、object却是教堂cand-0737。调整为绘画组→Dominican Order的庆典/表现关系；教堂只另作location/context。保留“great saints”“painted in threes”及leading contemporary artists的概括范围。
+- `st-chp9-p272-jesuit-altarpieces`（p.272 L55）：单条claim将耶稣会圣徒出现于一两幅祭坛画、不显眼及教堂整体“wealth/anonymity”合并；后续`st-chp9-p272-jesuit-visual-anonymity`重复视觉匿名结论。拆开作品内容/数量、缺乏显著性和整体观感，避免相同匿名判断重复成两条。
+- `st-chp9-p272-pieta-refuge-foundation`（p.272 L56）：原文是14世纪救助弃婴与孤儿的refuge建立在“the site”；当前refuge cand-8727→18世纪Pietà church cand-8551容易把后来的教堂写成当时的地点/机构。改用历史site地点或明确“后来Pietà教堂所在地点”，并保留refuge与新教堂为不同对象。
+- `st-chp9-p272-pieta-gazzetta-description`（p.272 L57）：Gazzetta Veneta报告Pietà于1760年近完工并称其为富丽的现代建筑作品；当前`relation_candidate=true`使期刊→教堂成为实体关系。保留出版物为报告来源、把称赞与“nearly completed”作为来源归属断言，除非schema有明确的“报道/描述”关系型，否则改false，不把评价变成正式边。
+- `st-chp9-p273-pieta-five-altar-pictures`（p.273 L63）：statement仅以画作群→教堂为端点，claim还说由Piazzetta学派的leading artists绘制、由私人捐赠支付。拆出作品组的馆藏/位置、艺术家群及私人捐赠来源；不推断Piazzetta本人创作或具体捐赠者。
+- `st-chp9-p273-tiepolo-paid-for-dome-work`（p.273 L63）：原文“he was paid 500 zecchini”是Tiepolo收款；当前predicate `tiepolo_paid_500_zecchini_for...`会读作Tiepolo付款。改为Tiepolo收取/获得作品报酬，保留金额、币种和Haskell报告限制，并与前句作品身份链接。
+- `st-chp9-p273-education-virgin-tenderness`（p.273 L64）：claim含《Education of the Virgin》的unusual tenderness及其与mystical ecstasy一并更常见于早期罗马绘画的比较；`st-chp9-p273-oratorian-mystical-ecstasy`已单独记后者。调整本条只保留Tiepolo作品的温柔特征及相应比较，避免同一“mystical ecstasy”重复断言。
+- `st-chp9-p273-second-scheme-chosen-and-executed`及`st-chp9-p273-tiepolo-proposed-second-scuola-scheme`（p.273 L67）：两条均将第二scheme选择并以修改实施记为事实。保留Tiepolo提出第二案的独立事实一条，另由#120记录选择/实施状态；#126删除重复实施claim或明确是一个不同、未重复的方面。
+- `st-chp9-p273-zompini-proposal-accepted-partial`（p.273 L68）：原文“Zompini, whose idea was accepted”表示其方案由competition组织者/Scuola governors接受；当前Zompini→proposal单边没有接受者，却把acceptance写入predicate。拆出governors接受方案事件与Zompini提出proposal，并与p.274续文链接。
+- `st-chp9-p274-zompini-fathers-reading`（p.274 L71）：原文是Zompini称“his proposal”取自Church Fathers阅读；当前Zompini→proposal边不能表达proposal与Church Fathers/阅读来源的内容关系。使用proposal为内容端点、Church Fathers文本群为来源/内容端点，并把“he claimed”明确保留为归属，不断言实际依赖。
+- `st-chp9-p274-zompini-virgin-typology`（p.274 L71）：当前Zompini本人cand-2874→Virgin Mary cand-3427，谓词却描述方案内容。以Zompini的proposal/work cand-8754为主体，表达其拟定的Virgin typology，并纳入Rebecca、Abigail、Esther、Judith及未名Mother of the Maccabees；保持这是计划而非完成的作品。
+- `st-chp9-p274-casanova-corner-reputation`（p.274 L74）：本条记Casanova承认Corner声誉无瑕；它是Haskell转述的一句评价，不应以Casanova→Corner作为正式人物关系。保留双层归属（Casanova引语/Haskell叙述）并改为非关系来源性评价，或明确使用只表示评价/言说且schema认可的表达。
+- `st-chp9-p274-angeli-imitated-piazzetta`（p.274 L75）：一个true关系同时包括Angeli模仿Piazzetta风格及Angeli几乎只画宗教画；拆出风格影响与创作题材范围，分别保留“long after 1754”和“almost entirely”限定。
+- `st-chp9-p274-corner-marriage-family`（p.274 L75）：原文称Corner在父母和兄长去世后不情愿结婚，以避免家族断绝；当前Corner→family不能表达未具名配偶、婚姻事件及其目的。可改为来源归属的人物/婚姻事件叙述，保留家族延续目的及“one of oldest”是原文评价；不得把family误作配偶端点或推造子嗣。
+- `st-chp9-p274-corner-palace-relics`（p.274 L75）：一条Corner→relic collection边合并宫殿地点、藏有大量relics、clergy与学者频繁来访；拆为地点—收藏及访客描述。候选cand-8762（relic collection）当前`suggested_type`为空，先保持端点类型待证，勿按关系表使用来补猜实体类别。
+
+**S0覆盖遗漏与mentions：**
+
+- p.274 L72“Like Tiepolo, Zompini must certainly have taken clerical advice”是Haskell的明确推断，本批现有#129–134无对应statement。补一条归属Haskell的推断statement或明确链接到已有断言；保留“must certainly”语气，不能写成已证事实。
+- mentions span范围未发现字符偏移；但本批statement级ID映射缺口为：`st-chp9-p271-hostile-pamphlet-introduction-partial`的pamphlet候选cand-8722只在p.272续文L54出现，需把其跨segment引用显式连至续文提及；`st-chp9-p273-tiepolo-madonna-omits-purgatorial-fires`缺本段“Madonna del Carmelo”对应cand-8825；`st-chp9-p273-second-scheme-chosen-and-executed`缺“second plan”对应作品组cand-8705；`st-chp9-p274-zompini-fathers-reading`与`st-chp9-p274-zompini-virgin-typology`缺代词“his proposal”对应cand-8754；`st-chp9-p274-pieta-governors-sought-plans`缺“suitable plans/choose the best”所指procedure cand-11471；`st-chp9-p274-programmes-followed-artist-initiative`只列Zompini proposal cand-8754但原文谈“both artists”long plans，补Tiepolo两个scheme的对应提及或缩窄cand列表。`st-chp9-p272-n03-wilde-modello-canonization-hypothesis`所列Pennsylvania Museum cand-8814来自p.273 note 3（另段），应建立引用交叉链接而非伪作p.272正文span。
+
+**批次结论：**本批识别18条明确语义/端点/分类修订、1项S0内容遗漏，以及跨段和本地mentions缺口；其余statement未发现独立实质方向错误。此为局部结论，不构成第九章接收；下一批从#151开始。
+
+
+### 2026-10-20：第九章 sec_ii p.274–275及脚注 S2 独立复核（当前 statement #151–225）
+
+按当前ID逐条核读#151–225共75条，首尾为`st-chp9-p274-sbasile-nobles-aconato-cult`—`st-chp9-p274-n05-corner-relic-collection-report`；覆盖S0 L76、L80–83、脚注L85–127及印刷pp.274–275和p.268–274注释。对照当前statement/mention/speaker/端点及相应原书扫描（含physical p.41）；三个来源段合计192个mention字符span全部与当前S0文本精确匹配。批次relation_candidate=true 32、false 43、未分类0。第九章累计直接复核895/904：intro及图版670/670，sec_ii 225/234；true=592、false=303；仅余9条（true=4、false=5），尚不能称整章接收。原始表和来源未修改。
+
+**实质问题及修订去向：**
+
+- `st-chp9-p274-sbasile-nobles-aconato-cult`（p.274 L76）：Haskell说S. Basilio有一组贵族传播Beato Pietro Aconato崇拜，当前两端点候选cand-11472/cand-11473均未在本segment的mentions中映射；cand-11472（贵族群组）无`suggested_type`，却已作为true关系主体。补S. Basilio、匿名贵族群组和cult的精确span；在端点类型裁决前将其保持待证，不猜作family或institution。原文相邻代词先行词仍开放，不归入Corner或Angeli。
+- `st-chp9-p275-priest-says-corner-built-altars`（p.275 L82）：`speaker=Haskell`与原文引语角色不一致；source实际是1778年Corner葬礼上 unnamed priest说“这些祭坛……由他建造”。将实际speaker设为匿名牧师（Haskell为转述者），保留嵌套引语和年份，不把匿名牧师改成具名人物。
+- `st-chp9-p275-sanciano-surviving-style`（p.275 L82）：claim说S. Canciano是Corner所鼓励风格最完整的存例，当前端点是church cand-8198→altars group cand-8771；predicate指向style而非祭坛组。改用当前有据的style候选cand-8772或把教堂作为style实例表达，勿误当作教堂→祭坛的普通位置边。
+- `st-chp9-p269-n01-stae-choir-pictures`（p.269 n.1，S0 L91）：原文明确“some of [Andrea Stazio's] bequest was spent”在S. Stae唱诗席画作；当前subject cand-8783是教堂，object cand-8785是画作，未表达遗赠资金。改为Stazio bequest/资金来源→画作群，或以资金事件为中介；画作候选保持未具名，并补Piazzetta、Sebastiano Ricci精确mentions（当前两span缺失），不把三位画家分派到具体单件。
+- `st-chp9-p269-n05`（p.269 n.5，S0 L95）：publisher Luigi Pavini→1734 pamphlet关系方向可接收；但完整claim同时称32页、出版者和Biblioteca Marciana馆藏。cand-12425的“Luigi Pavini”在本段没有mention span，补精确出版者span；如将馆藏信息纳入statement，拆出pamphlet→Marciana repository locator，保留这是Haskell书目/馆藏报告、没有独立调阅的限定。
+- `st-chp9-p270-n06-marchesini-letter-citation`（p.270 n.6，S0 L101）：当前Marchesini→letter端点表达作者关系；claim同时列Conti收信人、1725日期、Biblioteca Governativa/Lucca馆藏和Zarzabini页码。若此row作为关系候选，拆分信件作者、文书→收件人`addressed_to`及文书→repository，并把Zarzabini保留为单独书目定位；不将letter locator与Marchesini/Conti人物通信边混同。
+- `st-chp9-p271-n01`（p.271 n.1，S0 L103）：Gherardi致Muratori的1742信和Biblioteca Estense位置用于识别前文访客。当前Gherardi→archive letter只表达作者端点；同时补/明确recipient及repository role，并建立本条与p.270 visitor quotation的speaker attribution交叉链接。所引信件未独立查验。
+- `st-chp9-p272-n04-rubens-antwerp-series`（p.272 n.4，S0 L112）：原文说Rubens所绘Old Testament scenes系列为安特卫普耶稣会教堂绘制，且预示基督生平。当前Rubens→Jesuit Church端点遗漏作品组cand-8830，系列只是mentioned；调整为Rubens→series work及series→教堂/为其绘制关系，并保留场景含义。`It`的前指仍不明确；不得把该系列并入上文未识别的作品。
+- `st-chp9-p274-n05-corner-relic-collection-report`（p.274 n.5，S0 L124）：Correr手稿引文称Corner收集许多圣髑并能按教会礼仪展示当日圣人，当前Corner→relic collection边只表达收藏关系，未覆盖每日展示实践；拆出收藏与展示/敬礼安排。cand-8762的`suggested_type`仍空，继续阻断类型敏感的知识元/关系写回。
+
+**需要明确跨段来源关系或保留待证：**
+
+- `st-chp9-p275-gerardi-madonna-complaint-tail`与`st-chp9-p275-n02-haskell-commentary-tail`（p.275 L83；S0脚注续文L127）：引语中的speaker及P. E. Gherardi信件cand-8823只在脚注段L127具名，正文段mentions没有同段span；保留body continuation与note locator之间的显式交叉链接，不在L83虚造姓名mention，并区分Gherardi原话与Haskell“today”的评价。
+- `st-chp9-p274-sbasile-nobles-aconato-cult`所用未名贵族群组cand-11472未分类；`st-chp9-p274-corner-advised-carita-facade`中的Carità特定地点cand-8770也未分类且注释已说明身份未决。维持开放/待证，不能由单个关系端点或名称相似强行归入现有KU。
+- `st-chp9-p268-n03`（S0 L87）缺Bevilacqua p.32候选cand-8549对原词“Bevilacqua”的mention；`st-chp9-p269-n01-stazio-will-no-commissioner`（L91）缺will cand-8592的定位mention；补准确span。
+- `st-chp9-p271-n05-nuns-employed-pittoni`、`st-chp9-p271-n05-nuns-employed-ricci`、`st-chp9-p271-n05-nuns-employed-trevisani`（L107）statement端点均存在，mentions却分别缺Pittoni cand-1950、Ricci cand-2154及Trevisani cand-2650；补对应艺术家span，与当前已映射Tiepolo cand-2569保持不重叠。
+- `st-chp9-p272-n06`（L114）提及Andrea Memmo cand-1642，但mentions仅有引用locator；补“[Andrea Memmo]”的人物span。
+
+**批次结论：**9条需语义、speaker、端点或关系模式修订；另列出精确mention缺口和未分类端点。其余当前条目未发现独立实质方向错误。此为当前批次结论，不表示第九章接收；下一游标为#226。
+
+
+### 2026-10-20：第九章 sec_ii p.275脚注收尾 S2 独立复核（当前 statement #226–234）
+
+按当前`book-statements.jsonl`逐条核读#226–234共9条，首尾为`st-chp9-p274-n06`—`st-chp9-p275-n02-other-protests-context`，S0 p.274 n.6及p.275 nn.1–2（`09_CHP-9_sec_ii.md` L125–127），对照本书PDF physical p.41、notes segment、候选、speaker与relation端点。当前批次true=4、false=5、未分类0；mention span与S0一致，本批未发现实质claim/端点/方向/说话者不一致。
+
+#226 Pallucchini定位、#227 Brustoloni定位及#229 Gherardi信件locator保留为书目/来源定位，不声称已查阅其引文原件；#228 Corner委托Letterini祭坛画的表述准确保留“probable”限定；#230保留Gherardi引语并与L83续文相连；#231–233分别保留信件收件人、作者及Biblioteca Estense馆藏定位；#234把“其他人也曾抗议”保持为未具名的Haskell概括，不扩展人数或身份。原始表格与来源没有改动。
+
+**第九章当前ID逐条复核结论：**intro 653/653、图版17/17、sec_ii 234/234，合计904/904；relation_candidate=true 596、false 308、未分类0。逐条独立语义复核已覆盖全章当前表。**章节建议不接收/暂缓接收**：本章前批仍有待修复的claim原子性、主体客体/类型、关系方向、speaker及mentions缺口，以及未分类候选端点（如cand-11472、cand-8762）；“全部逐条读完”不等于“当前产物已接收”。待主代理修订并按当前ID确认差异后，再做有针对性的复核；历史机械coverage不替代本批独立语义结论。
+
+
+### 2026-10-20：第5章当前ID独立语义复核（sec_i首批，#1–90）
+
+直接按当前`book-statements.jsonl`中`05_CHP-5_sec_i.md`的S0行序逐条复核90条，首尾`st-chp5-p120-poussin-position`—`st-chp5-p123-carlo-taste`，覆盖S0 L3–31、印刷pp.120–123；交叉核对当前statement原文片段、端点候选/类型、speaker、qualifiers、`mentioned_candidate_ids`及同segment mentions。批次当前字段为relation_candidate=true 65、false 25、unset 0。第5章共1,073条；本次当前ID直接复核90条，余983条，未作章节接收。旧日期的页面处理/语义记录不替代本批对当前ID的直接审读。未修改表、候选或知识卡。
+
+**实质问题／待决去向：**
+
+- `st-chp5-p203-local-schools-support`（p.203 L4）：原文明确“local schools of painting”及“great noble families and the religious orders”，但对应两个source-defined端点`cand-12012`、`cand-7380`在当前segment无mention span。补准确原文跨度；不以此推导任何具名家族或学校。
+- `st-chp5-p203-naples-families-and-school`、`st-chp5-p203-naples-school-support`（p.203 L6–8）：原文主体为“feudal landowners of the South”及随后具名家族，statement主体均指向`cand-1723`（当前登记名Naples、suggested_type=term、sub_entry=feudal landowners）。应核对候选是否错误承载集体地主端点；需要独立群组候选或维持类型/身份待证，不能将Naples城作为行动主体。
+- `st-chp5-p203-bolognese-doctors-picture-owners`（p.203 L8）：原文说三名医生“all owned pictures”，但statement标true且无object端点。为未识别画作组保留开放端点/待证，不补造作品归属。
+- `st-chp5-p203-belloni-sent-gambarini-to-rome`（p.203 L8）：谓词及claim写“on a journey to Rome”，当前两端点却是Belloni→Gambarini；Rome只在mentions中，没有承担目的地角色。补目的地/事件端点或显式目的地限定，不把Gambarini当作城市。
+- `st-chp5-p203-merchants-role`（p.203 L8）：claim主语为merchants，端点使用更宽泛的`cand-2065`“Professional classes, patronage by”，易把专业阶层泛化为商人。改用有据的商人组候选或保留开放群组，并保留“especially at the end of the century”。
+- `st-chp5-p121-dealer-trade-population`（p.121 L14）：单条claim把兼营行业、交易品类、宗教小像、税收抵抗/1669减税、1674至少百名及Piazza Navona集中、似为Genoese等多项放入dealer→Piazza Navona边。拆分行为、税收、数量/时间与分布；保留“at least”“seemingly”及Haskell报告语气。
+- `st-chp5-p122-wael-clients`（p.122 L18）：de Wael与“compatriots”同时涵盖artist和client两种角色，当前一个未分类/term组候选`cand-11693`承担合并端点，且该候选没有本段mention span。补原文跨度；按artists/clients拆分或把未名组及其类型保持待证，不由旁文“Flemish dealer”指定国籍。
+- `st-chp5-p122-market-biography-context`（p.122 L21）：statement列`cand-11697`为mentioned candidate，但本段无对应mention；原文明确“artists at the time”。补该短语的精确span，并保持只是Haskell称传记记载危机影响、未独立核读所引传记。
+- `st-chp5-p122-stael-business-with-painters`与`st-chp5-p122-stael-preference`（p.122 L25–26）：两条引语均来自Cornelius de Stael 1663信，当前`speaker=Haskell`把转述者与引语发言者合并。将de Stael标为引语speaker，Haskell保留为转引/叙述来源；不声称已查阅信件原件。
+- `st-chp5-p123-carlo-befriended-bolognese`、`st-chp5-p123-carlo-commissioned-bolognese`、`st-chp5-p123-carlo-favorite-bolognese`（p.123 L31）：Bolognese artists作为集体端点使用`cand-4229`，当前类型为term；关系需群体端点。核定其为来源限定艺术家群组或保持类型待证，不虚构成员。与可识别的Lanfranco条目分开。
+
+**边界／限定：** `st-chp5-p123-carlo-agreed-sale`的`original_quote`沿用S0 OCR“ T agreed”，qualifier记录页图读作“I agreed”；claim及Carlo引语归属与印本相符。该处建议修正statement层引文呈现或明确印本文字/转录差异，不改写只追加的S0转录。其余本批已核对项未发现需要新增的事实方向/说话者错误；候选组空类型仍按未决记录，不代替S3身份裁决。
+
+
+### 2026-10-20：第五章当前ID独立语义复核（sec_i第二批，#91–165）
+
+按当前`05_CHP-5_sec_i.md`的source-line顺序直接复核75条，首尾`st-chp5-p123-carlo-understanding`—`st-chp5-p125-exhibitions-attracted-connoisseurs`，覆盖S0 L31–53、印刷pp.123–125；逐条核对claim、predicate/端点、speaker、限定、当前候选及mentions。relation_candidate字段true=43、false=32、unset=0。第5章当前已直接复核165/1,073（true=108、false=57），余908；本章不接收，未改知识表、候选或卡片。
+
+**需修订／待证：**
+
+- `st-chp5-p123-mancini-affair`、`st-chp5-p123-mancini-encouraged-friends`、`st-chp5-p123-mancini-saved-sons`（p.123 L33）：匿名已婚女子、其“friends”和其“criminal sons”均为statement端点候选，但相应mention分别缺cand-11706、cand-11705及cand-11706/cand-11707。按“a married woman”, “his friends”, “whose criminal sons”补本段定位；不要具名化身份。
+- `st-chp5-p124-mancini-medical-dealing`与`st-chp5-p124-mancini-patient-refusal`（p.124 L36）：cand-11709患者群在两条statement的原文mention未映射；补“their pictures”/“Few”等准确指代。原句“he would suggest”描述Haskell所述做法，不说已完成赠画；predicate由`solicited`收窄为建议/请求，继续保留“would”及无实际转移证据。
+- `st-chp5-p124-simonelli-served-cardinals`（p.124 L37）：无名cardinals候选cand-11710缺“various cardinals”mention；补span并保留群组身份开放。
+- `st-chp5-p124-simonelli-close-artist-contacts`、`st-chp5-p124-simonelli-uses-contacts`（p.124 L38–39）：source-defined artists组cand-11714缺“a number of interesting artists”/“these contacts”映射；另该组当前type为空，按source group待证，不强判为term或正式组织。
+- `st-chp5-p124-monconys-other-visitors-inference`（p.124 L40）：claim把原文“No doubt he did the same”降为“probably”；恢复Haskell更强的推断语气（但仍属推断），并为cand-11711补“other visitors”指代span。
+- `st-chp5-p124-monconys-picture-sale`（p.124 L40）：claim明确Simonelli向Monconys出售“the odd picture”，当前端点仅两个人物；补未识别画作/交易事件端点，不能把销售行为写成无作品对象的纯人际关系。
+- `st-chp5-p124-three_figures-common`、`st-chp5-p124-three_figures-careers`、`st-chp5-p124-three_figures-not-church`及p.125 `st-chp5-p125-three-figures-*`（p.124 L41–42、p.125 L52）：三人组cand-11712在“all three figures/they/them”处缺mentions；cand-11713“leading artists”组在友谊/赞助关系各行缺mention。补可见代词/概括组span；两个组当前type均为term但承担集合端点，提交S3/类型裁决或保持未决，不补造成员。
+- `st-chp5-p124-carlo-friends-leading-artists`、`st-chp5-p124-carlo-patrons-leading-artists`、对应Mancini/Simonelli各行（p.124 L42）：语法“all”分配给三人，现有各人拆行可接收；但共用“many of the leading artists”候选cand-11713无本段mention，按其源文词组补span，并保留“many”及未名。
+- `st-chp5-p124-simonelli-collection-contents`（p.124 L37–38）：原句明确collection含绘画、古物、cameos和三位艺术家的素描，现标`relation_candidate=false`且无object。改成来源限定的collection-contents/作品组候选，或按项目relation contract解释为何非关系；不得把各媒介集合当成单件作品。
+- `st-chp5-note-p124-n1-scaramuccia-dedicated-by`、`st-chp5-p124-scaramuccia-print-dedication`（p.124 n.1 L44）：当前statement的实体端点分别表达print→Scaramuccia及print→Simonelli，表面上缺index作品cand-2391的mention；需审候选cand-2391与正文work cand-6018的重叠/映射。打印的dedicated_to与dedicated_by是不同方向，不应因两者并存合成同一边。
+- `st-chp5-p125-artists-exhibited-alongside-craftsmen`与`st-chp5-p125-exhibition-participant-profile`（p.125 L53）：候选参与者组cand-11715/11716在“artists”及“other craftsmen or merchants”短语无mention；补原文组span。`st-chp5-p125-claude-struck-by-wals-landscapes`、`st-chp5-p125-claude-wals-naples`所用未识别画作组cand-11724也缺“Them/landscapes”映射；二者同指来源描述的Wals landscape组，链接相同source-defined对象，勿造题名。
+- `st-chp5-p125-exhibitions-attracted-connoisseurs`、`st-chp5-p125-exhibition-religious-calendar`、`st-chp5-p125-established-artists-dignity`（p.125 L53）：`cand-11717`、`cand-11720`及`cand-11738`分别缺“connoisseurs of standing”“saints’ days and processions”“no artist of established reputation”span；补映射并保留“seem”“principal”“obviously”及概括范围。
+
+**批次无新实质问题范围：**#91–98、#100–101、#103、#108–112、#114–115、#117、#119–125、#127–128、#130–132、#142–144、#146及#148–151的来源归属、限定、明显关系方向和作者评价总体对应。原文引语来自Passeri/letters者仍应保留Haskell转引层级；此批非独立核读所引原件。
+
+
+### 2026-10-20：第五章当前ID独立语义复核（sec_i第三批，#166–240）
+
+按当前`05_CHP-5_sec_i.md`来源行序直接核读75条，首尾`st-chp5-p125-exhibitions-public-contact`—`st-chp5-p126-rosa-last-picture-at-rotonda`，覆盖S0 L53–72、印刷pp.125–126；复核claim、来源speaker、relation候选状态、端点类型与source-segment mention映射。当前字段true=52、false=23、unset=0。第5章当前ID直接复核240/1,073，true=160、false=80，余833；仍不接收。没有修改原始表或候选。
+
+**实质问题及修订去向：**
+
+- `st-chp5-p125-exhibitions-public-contact`、`st-chp5-p125-exhibitions-usefulness`、`st-chp5-p125-exhibition-participant-profile`（p.125 L53）：原文的展览扩展、参展艺术家与更广公众/实用性有明确短语，但source-defined端点cand-11715、cand-11718/11719的mentions缺失；补原文群组span并保留“gradual”“seem”。这些`term`组承担参与者角色，需S3类型裁决，不能强设既有组织。
+- `st-chp5-p125-painters-pressure-exhibition`至`st-chp5-p125-rubens-advised-mantua-purchase`（p.125 L53–55）：另一次1607展览由画家施压安排、Mantua公爵代理人购入《Death of the Virgin》以满足画家，Rubens建议购画；statement已拆为人、事件、作品关系，但cand-11739/11725/11726/11727等群组/代理/事件在本segment均缺精确mentions。补“painters”“the Duke’s agent”“occasion”等跨度，并以人物组/事件类型待证处理未具名对象；不要将agent写成公爵本人。
+- `st-chp5-p125-sinigaglia-peasant-anecdote`、`st-chp5-p125-sinigaglia-stall-at-fair`（p.125 L53）：原文为听闻一位农家男孩看见Sinigaglia集市画摊后决定学画；cand-11721男孩、cand-11723画组及cand-11722集市事件在segment缺mention。补对应原词跨度，保持Haskell“we hear”的转述限定。
+- `st-chp5-p125-bergamasque-exhibition-*`、`st-chp5-p125-all-isola-exhibitions-less-important`、`st-chp5-p125-artists-display-opportunity`、`st-chp5-p125-bartolomeo-all-isola-exhibitions`、`st-chp5-p125-guardiano-paid-bergamasque-exhibitions`及相关挂毯/庭院行（p.125 L56–57）：多条展览、圣人、信众、Guardiano出资、建筑、图片/挂毯及围屋位置的source-defined候选（cand-11728–11736、11740）均缺原文mentions。按各具体短语补span；`S. Bartolomeo all’Isola`当前为place候选却承担“arranged exhibitions”主体，应核定教堂/机构/群体身份，未解决前不要用地点实体替代组织者。观察者比较外墙挂毯与院内绘画的speaker保持匿名。
+- `st-chp5-p126-buyers-no-onsite-sales`（p.126 L61）：statement明言展览吸引潜在买家，却标`relation_candidate=false`且无买家端点。应列为吸引未名潜在买家组的关系候选并保留open端点；分开下一条“不能现场成交”的展览限制（该属性可维持false）。
+- `st-chp5-p126-pantheon-exhibition-*`（p.126 L65）：#212明确展览包含“contemporary works”，其work-group cand-11745在mentions缺“contemporary works”；#213的display-space cand-11743缺“above the balustrade”映射；#216所列选择画组/portico空间cand-11742/11743及#217挂毯/空间cand-11744/11743均缺span。按源词分别补精确mentions，不把合并的展览陈列组拆成具名单件。原文“Both old masters and contemporary works”在两行分述，两种作品组保持分开。
+- `st-chp5-p126-pareja-servant-of-velasquez`与`st-chp5-p126-portrait-depicts-pareja`（p.126 L67）：客体cand-1834登记为Juan de Pareja的suggested_type=`work`，但在两条statement中分别承担Velasquez仆人/肖像对象的人物角色；核查该index候选的S3类型，若不能纠正则改连人物候选。不能将人物关系端点当作品。
+- `st-chp5-p126-velasquez-membership-accademia`与`st-chp5-p126-velasquez-memberships`（p.126 L67–68）：原句同时点名两个学会，当前拆成两条membership，语义拆分可接收；但mention元数据仍含额外index候选cand-2711而本段无对应span。核定它是否是索引别名/重复候选并保留一处准确名词跨度，不能把同一句重复式引用当成第三个学会。
+- `st-chp5-p126-rosa-1651-kept-picture-private`、`st-chp5-p126-rosa-1651-private-picture-quotation`、`st-chp5-p126-rosa-1651-writing-authorship`（p.126 L70）：未名画作cand-11746及Rosa的书面说明cand-11747在source segment缺span；为“it”“no one except Simonelli”“he wrote”补对齐，保持前两条是Rosa引语，第三条是Haskell对信件/说明作者与时间的报告。不要把未名画认成具体作品。
+- `st-chp5-p126-rosa-1652-writing-authorship`、`st-chp5-p126-rosa-1652-sweden-quotation`、`st-chp5-p126-rosa-last-picture-at-rotonda`（p.126 L71–72）：书面声明cand-11749、未名最后画作cand-11748均缺mention跨度；补“he wrote”及“last picture”等指代。#239 claim需显式拆清Rosa拒绝去Sweden、缘由是此前展画所得喝彩，以及所指作品与1652声明关系；不要只把这段含多项的第一人称引语压为Rosa→Sweden一条边。
+
+**已核实且无需改动：**`st-chp5-p126-pantheon-exhibition-chronology`保留probably并依据记录说明印本页图为1764（S0 OCR `17Ó4`）；Velasquez二次赴罗马（1650）、Pareja肖像/展览关系以及画作引起轰动的作者评价分开；Haskell对Rosa年度新作计划、宣传欲和批评者冲突分别保留为作者概述/评价。本批次不作章节接收。
+
+
+### 2026-10-20：第五章当前ID独立语义复核（sec_i第四批，#241–315）
+
+按当前`05_CHP-5_sec_i.md`来源行序逐条复核75条，首尾`st-chp5-p126-admirers-wait-for-canvas`—`st-chp5-p128-1675-salvatore-reputation`，覆盖S0 L72–94、印刷pp.126–128。逐条核对原句、candidate endpoint/type、qualifier/speaker及提及候选映射。当前relation_candidate字段true=60、false=15、unset=0；第5章当前直接复核315/1,073（true=220、false=95），余758，不接收。未改statement/mention/source或知识卡。
+
+**需修订／待证：**
+
+- `st-chp5-p126-admirers-wait-for-canvas`（p.126 L72）：文本说picture admirers等画家把画布带回家后再开价，当前只用Art exhibitions作主体且没有买方/画作端点；若保留true关系，补匿名买家群、画作/交易对象并维持Haskell概述。`st-chp5-p126-exhibitions-no-onsite-sales`及`st-chp5-p126-no-onsite-sales-in-rosa-passage`是一般不现场售画的属性，可维持false，但后者漏map其source-defined exhibition候选cand-0131。
+- `st-chp5-p126-miel-*`（p.126 L74、p.127 L77）：Jan Miel遗嘱（1654）捐款、要求每年弥撒/庆祝St Joseph节并装饰Rotonda portico的主张应维持“据Haskell引遗嘱”来源层级。遗嘱候选cand-11750在bequest、member及跨页装饰条件行的原段mentions漏映射；补`his will`等可见跨度并保留跨页链。原文图片是portico位置，不把cand-6038 place改为作品。
+- `st-chp5-p127-pantheon-1680-cardinal-defence`、`st-chp5-p127-pantheon-1680-seizure`、`st-chp5-p127-pantheon-order-targets-pictures`（p.127 L77）：原文为匿名cardinal为两幅被指“不雅”作品辩护及1680命令令警察没收两画。前者的cardinal cand-11756/pictures cand-11754缺mentions，后者两画候选cand-11754缺span；补映射并让#254–255共享同一命令/受影响画组对象，不把指控本身写作已证作品性质。
+- `st-chp5-p127-san-giovanni-patrician-patronage`（p.127 L79）：举办展览的受赞助组cand-11757为term组且原文mention缺失；补“leading patrician families”，按未名群体保留类型待证。
+- `st-chp5-p127-baglione-counter-picture`（p.127 L80）：claim说Baglione将《Divine Love》放在Gentileschi《Archangel Michael》对面，现端点只有Baglione→《Divine Love》，未连接另一幅作品。增加与cand-6043的明确`placed_opposite`作品关系或拆为陈列事实；同时保留#264艺术家竞争行和#266两幅画的竞争主题行各自不同语义。
+- `st-chp5-p127-rosa-public-use-and-source`（p.127 L80）：claim说Rosa利用展览向公众展示作品，当前只连Rosa→展览cand-6039，没有匿名作品组；补open work-group endpoint或将claim缩至参加/使用展览，勿把“show his work”遗漏。
+- `st-chp5-p127-avviso-papal-nephews-appropriation`、`st-chp5-p127-camillo-brother-of-pope`、`st-chp5-p127-gallery-owners-*`（p.127 L81）：source-defined papal nephews、匿名教皇、私藏家组及借出杰作cand-11755/11760–11762都缺对应原段mentions；补“the Pope”“owners of private galleries”“pictures lent”等精确指代，并维持未名组/来源未独立核实。不要把“found some pretext … laying hands”强化为有正式产权转移。
+- `st-chp5-p127-rospigliosi-display-spaces`（p.127 L81）：一个statement将立面、墓园、广场、邻街及挂毯/银器/画作多处布置压成event→church place关系。拆位置与材料显示关系、保留1668年Rospigliosi展览event；不要用Church端点替代cemetery、piazza、street。
+- `st-chp5-p127-rospigliosi-organized-1668`（p.127 L81）：claim既记Rospigliosi筹办又比较其display比前任更奢华，predicate只表组织+lavish，需拆举办事件与相对奢华评价；保持1662→1668的六年间隔。
+- `st-chp5-p127-rospigliosi-sons-novices`及`st-chp5-p127-sons-novices`（p.127 L81）：Camillo本人及其四子加入慈善团体已拆为两行，但四子候选cand-11763在其两处原段mention缺失。补“he and his four sons”组span；成员关系不可只由父亲代表儿子。
+- `st-chp5-p127-sacchetti-influence-and-loans`、`st-chp5-p127-sacchetti-obtained-old-master-loans`（p.127 L81）：前者Roman aristocracy组cand-11758缺原文span；后者claim明确从Roman galleries借旧作，但只有Sacchetti family→works group端点，补未名借出画廊/collection角色或收窄claim，不把借出人遗漏。
+- `st-chp5-p127-christina-loaned-pictures`、`st-chp5-p127-christina-pictures-shown-1668`（p.127 L82）：作品组cand-11765缺原文“some of her most famous pictures”span；#291的额外候选cand-0678也未映射本segment，检查是否为Queen Christina重复/index候选，仅保留有据人物映射。
+- `st-chp5-p127-supporters-promoted-rosa-works`至`st-chp5-p128-supporters-enthusiasm-harm`（pp.127–128 L83、86–87）：匿名支持者cand-11764在“his band of supporters/they”处缺span；#296 claim兼有Haskell“may well”推断、向人询问多位名家及推广Rosa作品，subject→Rome端点未表达询问对象或Rosa作品组。拆/补问询行为与作品端点，保留推测和引用层级。
+- `st-chp5-p127-rosa-two-pictures-shown`（p.127 L83）：谓词记Rosa是唯一在世且送展两件画的艺术家，但端点只有artist→exhibition；补两件未名作品组，保留“alone among living artists”及数量two。
+- `st-chp5-p128-medici-*`（p.128 L88）：1675展示的`cand-11772`画作组和户外挂毯/damask组cand-11773在展示、计数、室内/室外各statement缺mentions；补准确span。`st-chp5-p128-medici-outdoor-stage-setting`和`st-chp5-p128-medici-textiles-displayed`都记录同一组户外织物展示，核查是否重复，合并或给#302留外观舞台布景信息、#305限定材料而避免完全重复。#299“Medici展示图片”的claim含画组但端点仅Medici→event，需分配画组/展示event。
+- `st-chp5-p128-azzolini-purchased-church`（p.128 L92–93）：买教堂的目的受益者是Marchigian colony (cand-6054)，候选虽列在mentioned IDs但statement端点没有体现。将受益群组加入购买事件/关系，保留1669和“for”目的语义，不把群组只留mention。
+
+**无新增实质问题范围：**#244保留“some”人仍把展览视作敬礼St Joseph；#248–250分开Miel遗嘱捐款、会员身份和立遗嘱；#257日期/地点、#258–259 Orazio引语及1603审判报道、#262–266画作/艺术家关系拆分与#267“Almost certainly”设计意图，均保留原文归属与语气。#253、#256保留Haskell对禁令及Pantheon宗教目的的解释为false作者主张；#308目录引用与#309数量陈述分开。此批仍不构成第5章接收。
+
+
+### 2026-10-20：第五章当前ID独立语义复核（sec_i第五批，#316–390）
+
+按当前`05_CHP-5_sec_i.md`行序直接核读75条，首尾`st-chp5-p128-salvatore-1675-instance-of-series`—`st-chp5-p130-young-artists_public_employment`，覆盖S0 L94–113、印刷pp.128–130。核对当前原文、claim、关系方向/端点类型、语气/年代与mention候选span。字段true=40、false=35、unset=0。第5章当前直接复核390/1,073（true=260、false=130），余683；不接收，未修改表。
+
+**问题与建议去向：**
+
+- `st-chp5-p128-salvatore-lenders-glorified`（p.128 L94）：展览“intention was to…glorify the lenders—often families from the Marche”保留了Haskell意图叙述及“often”，但cand-11777在原段缺mentioned span。补“lenders/families from the Marche”span，组身份仍开放。
+- `st-chp5-p128-display-conditions`、`st-chp5-p128-lending-and-security`、`st-chp5-p128-madonna-pride-and-variety`、`st-chp5-p128-prestige-rivalries`及`st-chp5-p128-1697-social-ceremony`（pp.128 L95–97）：多条false statement各自把展期/照明/批评、预先联系借展/搬运/24小时守卫、Madonna置首和媒材广度、声望及收藏家竞争、1697礼仪/布道/枢机集会压为多项合成claim。可维持非关系分类，但应按独立可追溯claim拆分，保留日期和原文“often/always”等限定。
+- `st-chp5-p128-additional-loans-upper-gallery`、`st-chp5-p128-cardinals-assembly`、`st-chp5-p128-other-collectors-display-intent`（p.128 L97）：画组cand-11776、枢机组cand-11780和收藏家组cand-11778分别缺`further pictures`、`assembly of cardinals`、`other collectors` span；补精确mentions。#333还说他们想展示“treasures”但端点只有group→event，补未名作品/收藏组端点或收窄claim。
+- `st-chp5-p128-pio-exclusive-loan`、`st-chp5-p128-pio-works-loggia`（p.128 L97）：Pio借出的画组cand-11775缺mention；#334还将借出、自己承担费用、仅展示其作品条件合并为一条work→Pio关系且未连接1697 event。拆借出事件、承担费用和排他展示条件，并连至该年度活动；保留“on condition”。
+- `st-chp5-p128-1708-ghezzi-suggestion`、`st-chp5-p129-1708-olivieri-permitted-display`、`st-chp5-p129-1708-ruspoli-agreement`、`st-chp5-p129-1708-ruspoli-condition-and-concession`（pp.128–129 L97、100）：Olivieri 23幅作品cand-11782、194幅作品cand-11781及1708 event cand-11783在mentions中缺span；#338–340缺画组/展览端点。拆为Ghezzi建议、Ruspoli同意/初始专属要求及作品组准展三类事实，不把建议行为与实际准展或专属条件合成同一边。
+- `st-chp5-p129-additional-loans-upper-gallery`（p.129 L100）：进一步供其他藏家展示的画组cand-11776缺mentions；维持“further pictures”是来源定义的未名组，不能与Pio的画组混同。
+- `st-chp5-p129-current_painting_access`、`st-chp5-p129-old_masters_repeated`、`st-chp5-p129-propagandist_use`、`st-chp5-p129-exhibitions_introduced_alien_cultures`、`st-chp5-p129-regular_shows_not_new_work`（p.129 L101–106）：现有`cand-0130`（Art exhibitions）列于mentioned IDs，但相应原segment没有span；为“exhibitions/these exhibitions/regular exhibitions”补精确指代，不把Haskell对展览效果的总体判断升成具名事件关系。`old_masters_repeated`是Haskell概括旧作更受重视及重复展示，保留其概述范围。
+- `st-chp5-p129-ottoboni-showed-trevisani-pictures`、`st-chp5-p129-trevisani-authorship`（p.129 L101）：图片组cand-11785缺“pictures by Trevisani”span；添加对应工件mention，保留Ottoboni展示关系与Trevisani作者关系分开。
+- `st-chp5-p129-king-john-victory-group`、`st-chp5-p129-pope_polish_victories`（pp.129 L102–103）：匿名胜利事件组cand-11793两处缺span；后条还漏Pope cand-0022的原词mention。补“victories won by King John of Poland”与Pope角色，避免把胜利列为有名的独立战争事件。
+- `st-chp5-p129-john-sobieski-widow`、`st-chp5-p129-widow-picture-loan-encouragement`（p.129 L103）：widow cand-11786及其portrait/battle pictures cand-11787皆缺原文span；且#355谓词只在widow→picture group之间，claim说由Pope鼓励借出，漏Pope端点/行动者。补mention，并以Haskell描述的鼓励/拟借事件建模，不写成已经完成借展。
+- `st-chp5-p129-decorative_use`、`st-chp5-p129-four_annual_exhibitions`（p.129 L104）：cand-0130展览泛组、装饰材料组cand-11790及四项年展组cand-11794缺span；补对应原文并保留“essentially all”/“by the end of the century”。年展组仍为未名事件集合，地点Rome作为地点端点。
+- `st-chp5-p129-dealers-increased-presence`、`st-chp5-p129-dealers_and_travellers`（p.129 L105）：cand-0125 dealers与cand-3562 travellers均缺source spans；第二行明确“Rome became more easily accessible to travellers of all kinds, including Protestants”，补候选mention；避免把通达性泛述改成某具体旅行者迁徙。
+- `st-chp5-p129-foreign_patron_ambitions`（p.129 L105）：一条claim合并外来君主/赞助人想让本国艺术家记录罗马荣耀，以及再现意大利绘画胜利，主体、艺术家候选cand-11788/11789均缺mentions。拆开目的和目标作品/艺术实践的表述，保留无名群体与Haskell分析。
+- `st-chp5-p129-national_artist_colonies`（p.129 L105）：未名艺术家群候选cand-3467缺“different national colonies of artists”跨度，且当前type=term承担群体定居关系主体。补span并交S3核定collective/type，不自行拆出国家殖民团体身份。
+- `st-chp5-p129-artists_more_visible_open`、`st-chp5-p130-artist_impressions_closure`、`st-chp5-p129-public_display_practices`、`st-chp5-p129-public_picture_market_and_criticism`、`st-chp5-p129-public_picture_access_and_circulation`、`st-chp5-p130-new_subjects_in_early_seventeenth_century`（pp.129–130 L106、109）：这些false条目是Haskell对艺术家公共活动、图像传播/流通及审美转变的作者解释；其中多条各包含数个不同practice/因果结论。保留false属性或解释分类，但拆分事实单元；`public_picture_access_and_circulation`不得把“within reach of everybody”弱化为笼统“broad public”而不说明这是Haskell的概括性原句。
+- `st-chp5-p130-young_artists_public_employment`（p.130 L113）：source说年轻艺术家初到罗马时常被雇来制作这类（devotional）画作，并以Haskell推断很多画可能为此前所述普通买家而作。当前predicate写“bargained_with_picture_buying_public_for_livelihood”，原句没有说这些艺术家与买家讨价还价；改为有来源限定的受雇/制作对象及Haskell推断，不增加议价事实，补cand-11795群组span。
+
+**其余范围：**#316–317展览作为常规系列与场地装饰目的、#320–325 Ghezzi职位/来源/建议尺度、#329社会礼仪叙述、#330跨页句子开放续接、#337系列关系、#343–346 Molinari委托画组/作者与收藏者接受度、#372–389作者评价/假说均暂未见新增事实方向错误；Haskell关于罗马展览和公众的总体解释仍不构成具名实体正式关系。本批未接收章节。
+
+
+### 2026-10-20：第五章当前ID独立语义复核（sec_i第六批，#391–465）
+
+按当前`book-statements.jsonl`中`05_CHP-5_sec_i.md`的来源行序逐条核读75条，首尾为`st-chp5-p131-sassoferrato-location-and-career`—`st-chp5-note-p123-n4-citation`。覆盖正文p.131 L116–123、注释p.121n1–n7 L126–131、p.122n1–n6 L132–137及p.123n1–n4 L138–141；逐条核对S0登记分节原文、当前statement/mentions/candidate端点、语气、speaker与relation_candidate，并对照`CHP-5.pdf`物理页2–4（p.121、p.122、p.123；后两页亦参照对应页图）。本批`relation_candidate=true` 55、`false` 20、`unset` 0。第五章当前表总计1,073条；本轮直接复核累计465/1,073（true=315、false=150），余608条；本章不接收。未改statement、mention、候选或知识卡；仅追加本审阅过程记录。
+
+**本批需修订或待决：**
+
+- #392、#393、#394、#398（p.131 L117–118，`st-chp5-p131-holy-family-pictures-and-prototypes`、`st-chp5-p131-holy-family-prototypes`、`st-chp5-p131-holy-family-subject`、`st-chp5-p131-current-style-opposition`）：候选cand-11797“反复出现的圣家族画作组”作为statement端点/mentioned candidate，但本segment没有其mention span；原文“pictures of the Holy Family”“simple pictures”可支持组候选，需补相应span或收窄候选映射。#393 claim将“basing himself…”改述为画作组基于原型，需保留这是Haskell对Sassoferrato创作实践的叙述，不扩成已辨识的作品。
+- #410（p.131 L119–120，`st-chp5-p131-1636-transfer-to-barberini`）：来源说Dominicans把Raphael的《圣家族》交给Barberini，期待其补偿；当前端点仅Dominicans→Barberini，作品cand-2101只在mentioned IDs。补清该转移所涉作品/事件端点，保留“有补偿约定、未说明已付款”的状态。
+- #411（p.131 L120，`st-chp5-p131-barberini-took-picture`）：谓词将“接过画作”与“认为事情已了结”合成一个关系断言；拆开占有/接收行为与Barberini的态度，继续不推断已付款或法律产权。
+- #417（p.131 L123，`st-chp5-p131-clerical-portraits`）：cand-11798是未名“被描绘的clerics”人物群，当前`suggested_type=term`；taxonomy没有未组织人物群类型。保留开放类型待决，不按term直接登记；该候选本segment也缺mention span。
+- #422（p.131 L123，`st-chp5-p131-professional-community-inference`）：`mentioned_candidate_ids`含cand-6064（p.130广义公众），但本句指Haskell推测的专业赞助人群cand-6075；两候选的来源说明要求保持区分，且当前segment无cand-6064 mention。移除跨段/不适用映射或给出明确语义依据，保留“strongly suggests”推论限定。
+- 本批多处来源对象的mention span缺失：#427–430（p.121n2 L127）缺cand-6092印本span；#432–436（p.121n5 L129）缺cand-11909税册所列画商组span；#442（p.121n7 L131）缺cand-11910十一幅失窃画组span；#446（p.122n1 L132）缺cand-11911两幅失窃画组span；#454（p.123n1 L138）缺cand-0125“art dealers”span；#455（p.123n2 L139）缺cand-11259 Borzelli文献span。cand-11909是具体税册中未名画商集合，当前`suggested_type=term`与集合对象不等；先保留候选类型待决，区分职业概念与该记录中的人群。
+- #440（p.121n7 L131，`st-chp5-note-p121-n7-roccatagliata-sales`）：PDF物理p.2印本清楚读作“sold pictures to Valguarnera”，S0转录为`'old pictures`；claim目前说印本“appears to say”。保留S0不变，S2应记录校读为`sold`并据印本恢复确定表达。
+- #452（p.122n6 L137，`st-chp5-note-p122-n6-letter-published-by`）：PDF物理p.3印本为“published by V. Ruffo, p.170”，S0转录的“V. Russo”是误读。将S2 claim/候选改为首字母未展开的“V. Ruffo”，记下印本校读；不与收信人Don Antonio Ruffo（cand-2297）或另一个V. Russo候选cand-3530合并，身份保留待决。当前候选cand-11913的“V. Russo”mention也缺span，随读数修订一并复核。
+- #455（p.123n2 L139，`st-chp5-note-p123-n2-carlo-cassiano-letters`）：端点cand-4945“Cassiano dal Pozzo（1646信件收件人）”与同页#457使用的索引候选cand-2036“Pozzo, Cassiano dal”对应同一人物，送S3裁定same/复用；不要保留为两个身份组。#457本句还缺cand-2036的mention span。
+- #457（p.123n2 L139，`st-chp5-note-p123-n2-cassiano-letters-location`）：claim把Carlo—Cassiano联系、书信记录及信件“now in the Montpellier Library”合在一条；当前subject是Carlo、object为空且`relation_candidate=false`。需分开书信所载人物联系与书信馆藏位置；以来源限定的未名letters/archive候选连接cand-6086 Montpellier Library（institution），保留“now”相对于Haskell叙述的时间限定。
+- #458–459、#463–465（p.123n2–n4 L139–141）：显式引用的来源文献/通知有`mentioned_candidate_ids`却无本segment的mention span：Borzelli cand-11259、Dumesnil 1853出版物cand-11319、Fraschetti cand-4553、1637 avviso cand-6088、Jan Niceo Eritreo卷II cand-11708。补实际出现的书目/文献span；不要把Haskell作为隐含来源主体误写成词面mention。
+
+#391、#395–410中除#410转移端点外，#412–416、#418–421、#423–424、#426、#431、#433–441、#443–451、#453、#456、#460–462及其余未列statement的claim方向、原文限定与引注大体相符；#455另列Cassiano候选复用裁决。此为本批逐条审阅结论，不等于第五章接收。
+
+
+### 2026-10-20：第五章 sec_i 当前statement尾批复核（#466–480）
+
+完成`05_CHP-5_sec_i.md`当前statement剩余15条，首尾`st-chp5-note-p123-n4-critical-edition`—`st-chp5-note-p131-n4-citation`；复核p.123 n4、p.124 n1、p.125 n1、p.130 n1–n2与p.131 n1–n4，参照现有`p124_page_review_20261011.png`及`p125_page_review_20261011.png`。本批relation_candidate=true 11、false 4、unset 0。sec_i现为480/480条直接语义复核；第5章共1,073条，累计480条已核、593条待核（intro、sec_iii、sec_iv），因此全章仍不接收。未改表或卡片。
+
+- #467–468（p.124n1 L142，`st-chp5-note-p124-n1-bellori-drawings`、`st-chp5-note-p124-n1-bellori-other-items`）：印本和转录均明言Simonelli“owned”Bellori《Nota dei Musei》所列素描及混合收藏；当前两条`relation_candidate=false`且object为空，漏掉对既有来源限定收藏候选cand-11480的收藏/所有关系。应列为true关系候选、分别保留素描与异质收藏内容；cand-11480类型继续开放，不把馆藏虚构成单件work。cand-11480在p.124n1所在segment无mention span。
+- #470、#471、#474、#475、#480（分别p.124n1 L142、p.125n1 L143、p.131n1–n2 L146、p.131n4 L147）：当前mentioned IDs缺少明确出现的引用文献mention span：Monconys《Journal des Voyages》cand-11403、Haskell 1960文章cand-11355、Pollak文献cand-4556、Berthier文献cand-11246及Gigli《Diario Romano》cand-6076。为这些文献名补精确span；隐含的当前书籍主体cand-2962不要求词面mention。#466、#469的引用主体/对象和页码范围与来源相符；#472–473为纯书目定位，维持非关系。
+- #476–479（p.131n3 L147）中的肖像存放地点以及Prati不同时期任Benevento、Viterbo governor的断言与原文方向、人物/地点候选相符；不据此推定任职年份。
+
+除此之外，本尾批未发现需要改写claim方向或speaker/qualifier的条目。全章仍待intro 6、sec_iii 436、sec_iv 151条当前statement逐条复核，不能以本节完成替代全章接收。
+
+
+### 2026-10-20：第五章 sec_iii 当前ID独立语义复核（第一批，#1–75）
+
+按当前`book-statements.jsonl`中`05_CHP-5_sec_iii.md`来源行序逐条复核75条，首尾`st-chp5-sec-iii-l3-self-made-taste`—`st-chp5-p134-caravaggio-revolution-cleared-ground`。覆盖印刷p.131 L3、p.132 L6–10、p.133 L13–18、p.134 L21–26；核对当前源句、statement claim/quote、relation_candidate、人物/群体/作品端点、speaker、限定与mentions，并对照`CHP-5.pdf`/现有页图p.131–134。当前字段relation_candidate=true 40、false 35、unset 0。sec_iii共436条，本批已直接复核75条；连同sec_i已核480条，第5章累计555/1,073（true=366、false=189），余518条；未达到全章接收条件。未改S2表、候选、来源或知识卡，仅追加过程记录。
+
+**本批待修/待决：**
+
+- #2（p.132 L6，`st-chp5-p132-ignorant-patrons-attacked`）：claim涵盖攻击最初试探、对“ignorant”这一敌意标签的解释及随此类赞助者人数增加而升级；`original_quote`仅为“the attacks on the”，不能独立支持claim。扩展摘录到相应完整句或收窄claim；保留“ignorant”为Haskell引述的贬称。
+- #3–4（p.132 L6，`st-chp5-p132-nonelite-denunciations-after-influence`、`st-chp5-p132-nonelite-taste-and-denunciation`）：#3将来源的条件句（自成一派或与同伴合力变得足够有影响、能吸引迎合其品味的艺术家后，批评很多且尖刻）概括成“self-made patrons崛起带来大量谴责”，宜保留影响力/吸引艺术家这一条件。#4的mentioned IDs列入cand-6096、cand-6097、cand-11800，但相应“his/fellows/artists willing to gratify him”本segment缺span；补代词/短语映射，并保持未名艺术家群体开放。
+- #6（p.132 L7，`st-chp5-p132-highest-ranks-support-bambocciate`）：cand-11799“社会最高阶层”在mention列表中但本segment缺原词span，补“highest ranks of society”。
+- #8、#11–15、#19（p.132 L7–10）：多个claim扩展了短摘录未覆盖的语句：#8摘录仅“desire for the more picturesque aspects”；#11–12仅“Men at work/play”标题而claim列出具体场景；#13仅“dandified brigand”而claim述及闯入农场、威胁马房男孩和狗；#14仅Erminia例句而claim还包括施洗约翰场景；#15仅驴死亡开头而claim概括家庭悲伤和失去生计；#19仅“where the broken column is used”而claim还述及雕像碎片与拱廊交易。对应source-line覆盖了这些内容，事实未见错误，但需扩展`original_quote`或缩窄claim以便逐条追溯。
+- #24（p.133 L15，`st-chp5-p133-administration-erected-statue`）：未名administration cand-11802出现在mentioned IDs但缺span；现有摘录“a sycophantic administration had erected”也未包含被建的statue及“only a few years earlier”，补mention并保留Haskell的评价和相对时间。
+- #28、#31–32、#34、#36、#44、#46、#59–60、#63（p.133 L15–17；p.134 L25）：来源中直接出现但mentioned IDs缺span的候选包括#28 recurring-riots cand-11805；#31–32 mob cand-11801；#34 riots cand-11805及papal police cand-11804；#36 temporary authorities cand-6107；#44 cultivated society cand-11803；#46 bambocciate works cand-6099；#59 Caravaggio later-pictures group cand-11809和poor group cand-6116；#60、#63 earlier-paintings group cand-11808。补原词/指代span；不把一般场景补造成具名事件或具体作品。
+- #35–37（p.133 L15，`st-chp5-p133-papal-vacancy-and-discontent`、`st-chp5-p133-rome-partially-governed-by-temporary-authorities`、`st-chp5-p133-statue-commemorated-pope`）：保留cand-6105未识别教宗、cand-6107临时当局的open状态；来源没有给出身份和确切空位事件。cand-6107在#36当前segment缺mention span。不可据同段语境为未名教宗补造具体身份；若将#35与纪念像关系连接，需保留其同一指代仍待核。
+- #50（p.134 L22–23，`st-chp5-p134-rosa-poem-protest`）：claim称诗句对比活人贫困与绘画受欢迎，但当前source_line_end仅L22、`original_quote`只含首行；对比句出现在L23。扩展source span与摘录；如保留Rosa→bambocciate的关系候选，说明无题诗句对象是否需来源定义的archive/work候选，避免把诗本身省略为人物端点。
+- #74–75（p.134 L26，`st-chp5-p134-caravaggio-revolution-and-prominence-of-poor`、`st-chp5-p134-caravaggio-revolution-cleared-ground`）：#74以Caravaggio为“赋予贫者显著性”的关系主语；#75的谓词端点也把Caravaggio本人设为cleared-ground动作主体，而原文语法主体是“Caravaggio's spiritual and aesthetic revolution”。按Haskell的艺术史解释保留限定，核对是否应使用该革命/图像转变的开放概念或事件候选，不能把艺术家个人直接等同于革命对象。
+
+本批其余#1、#5、#7、#9–10、#16–23、#25–27、#29–30、#33、#38–49及#51–58、#61–73中，speaker、语气/时间限定及claim与原文大体相符；#48–49是同一Doni引语跨页续接，`continuation_of`已连通，可按一个完整引语检查。上述为本批覆盖判断，不代表整段或本章接收。
+
+#### 2026-10-20：第五章 sec_iii 当前ID独立语义复核（第二批，#76–150）
+
+按当前`book-statements.jsonl`的`05_CHP-5_sec_iii.md`源行序逐条核读75条，首尾`st-chp5-p135-carracci-works-incidental-to-orthodox-career`—`st-chp5-p136-velasquez-guest-of-monterey-in-1630`；覆盖印刷p.135 L29–34、p.136 L37–42，逐条核对来源原句、claim/quote、当前提及候选及span、端点类型/方向、speaker、限定和`relation_candidate`，并以`CHP-5.pdf`印本图对照。当前`relation_candidate=true` 56、`false` 19、`unset` 0；sec_iii累计直接复核150/436（true=96、false=54），尚286条。连同sec_i已复核630/1,073条（true=422、false=208），尚443条；第5章不接收。仅追加本审阅过程记录；未改statement、mentions、候选、来源或知识卡。
+
+**实质问题及去向：**
+
+- #73（`st-chp5-p134-caravaggio-followers-picaresque-resemblance`，p.134 L26）补充前批记录：原句称followers' work recalls incidents of the picaresque novel；候选cand-11811与cand-11807在该segment的`mentions.csv`都无对应span。补“their work”及“picaresque novel”映射；不因此把某部小说或某幅画实体化。
+- #76（p.135 L29，`st-chp5-p135-carracci-works-incidental-to-orthodox-career`）：原句续接前页的“some of the pictures of Annibale Carracci…his drawings…But these had only been incidental…”，当前只摘“had only been incidental”，且mentioned IDs含cand-6119/6120却本segment无span。扩展引文/续接定位以保留“these”先行词；claim维持Haskell对既述Carracci绘画尝试相较其正统生涯的评价，避免把画家本人写成作品的直接主语。
+- #79、#85–87（p.135 L30，Van Laer田园/动物小画及销售）：候选cand-11917“his little scenes of peasant and animal life”在各statement来源段缺mention；#86 dealers cand-0125也缺“to dealers”span。补相应作品组和买家群span，保留#85的“perhaps”及#86的“certainly”。
+- #91、#95–96（p.135 L32，Van Laer画作被画家欣赏/求购）：作品组cand-11914缺“his pictures/some”等mention span；补候选指代。#94“must have been in the forefront”应继续作为Haskell推断，不把北方同乡组并入普通画家/求购者组。
+- #98、#100（p.135 L32，`st-chp5-p135-simonelli-owned-and-exchanged-night-scene`、`st-chp5-p135-simonelli-temporarily-owned-and-exchanged-two-pictures`）：两条分别以单件夜景/农民小画作object，却都将Simonelli短期持有与“两画之后换成别物”写成每件作品各自一次的合成predicate，重复计入同一对画的交换。拆成两件画的短期持有与一次涉及该两画的pair-exchange事件；换入物保持未名。#97、#99分别记录作者归属，可保留。
+- #101–102（p.135 L32，Swanevelt拥有两幅未名Van Laer画）：cand-11915作品组在mentions中缺“owned two”对应span；补mention，并保留“two”数量及作者语境。#104–105（同页同段，Testa可能拥有早期Bamboccianti作品）：cand-11916候选组缺“examples of their work”span；补映射，并保留“may”。
+- #106（p.135 L33，`st-chp5-p135-cassiano-may-have-owned-van-laer-picture`）：句中明确“one painting by Van Laer”，候选cand-5708却没有该mention；补未题名画作跨度，仍保留“seems”及不确定持有。
+- #107–109、#111（p.135 L33，Giustiniani两幅画）：原句在Van Laer段落语境中说Giustiniani取得两件“rather uncharacteristic examples”，列出风景画与St Eustace狩猎小景；该句没有再次明说作者。当前claim称“Haskell identifies as Van Laer examples”较源文直接性更强。改为“段落语境将其作为Van Laer相关例子”，或在来源/索引依据能独立确认作者后明确注明依据；不得把上下文推断写成该句显式归属。两件作品分别取得、共同未装框及作品间身份范围可保持。
+- #113（p.136 L37，`st-chp5-p136-complete-don-ferdinando-identification`）：source continuation为“Don Ferdinando = Afan de Ribera, the Viceroy of Naples”；结构化object却为place候选cand-1722 Naples。该行当前`relation_candidate=false`正确，但端点把地名当作人物身份对象。改成cand-2139的来源限定身份/职衔标量断言或有据的职位表达，Naples仅作职衔中的地理限定；保留与#112跨页continuation及S3人物身份分组。
+- #115、#121（p.136 L38–39）：cand-11919未名画家群对应“many ready to exploit it / Among these was Cerquozzi”，候选虽列入mentioned IDs但segment的mentions缺群体span；补直接短语并维持#121的成员关系。cand-11919当前`suggested_type=term`承载未组织人物群，taxonomy没有group类型；保持类型开放，交S3/S4解决，不按term登记。
+- #116（p.136 L38，`st-chp5-p136-van-laer-clientele-was-anonymous-middle-status-group`）：claim保留Haskell“we must assume”及其对上层赞助人的对照，但`original_quote`只摘bulk clientele“not made up of the great princes”，遗漏正向限定“rather among the anonymous uomini di stato mediocre”。扩展quote以支持完整claim；保持其推断性质，别将Cand-6065的更广泛上下阶层范围误读为明确列出的客户名单。
+- #122、#127（p.136 L39）：cand-11922匿名connoisseurs组在“attention of connoisseurs”处、cand-0125 dealers候选在“selling…to dealers”处缺mentions span；补直引跨度。claim应保留“probably began”“before”等序列/推测限制。
+- #126（p.136 L39，`st-chp5-p136-cerquozzi-nationality-eased-patron-contact`）：source仅写“his nationality, if nothing else, made his situation much easier”；当前claim增加“social circumstances”作为原因。删去无对应原句的因素；比较/因果仍归Haskell解释，不推成独立确认。
+- #128（p.136 L40）：cand-11920未名同业群缺“his fellow-artists”mention；补span。#129–130 quote只摘两友姓名，未呈现“his two closest friends”，建议扩引文；原文人物与`close_friend_of`方向相符。#131（L40–41）quote仅到“on excellent terms with”，宜补Pietro da Cortona姓名。
+- #134–135（p.136 L41）：professional classes候选cand-6136有source mention，但`term`类型目前描述混合了“阶层概念”和“匿名赞助/欣赏者群”。如以未名人物集合作关系端点，类型应开放；否则将阶层作群体概念保留且不冒充已识别组织。#139的cand-6138是画中未名朋友群，同样不应以`term`直接登记，待扩展类型/待决。
+- #141–143、#147、#149（p.136 L42）：cand-11923“those who circled round the Barberini court”与cand-11921“some of the leading aristocratic families”的可见span缺失，补原词/指代映射。两候选都是未名人群/复数家族集合，当前`term`并非显然恰当端点类型，留作类型待决。#149的`distinct_from`超出原文“of a kind rather different from”；改为有程度的性质/类别对照，不推断两群体成员互斥或无交集。#141–143 `original_quote`也应包含Barberini周围人群这一主语与spread fame的完整句义。
+- #146（p.136 L42）：`it is possible that he may have been employed there`的可能性保留；谓词把“employed at Spanish Embassy”与“在Velasquez来访期间”塞进同一关系名称。将时间同期条件移到temporal qualifier并扩展quote至“when Velasquez came to stay…”；不把可能雇佣升级为事实。
+- #150（p.136 L42，`st-chp5-p136-velasquez-guest-of-monterey-in-1630`）：source明确Velasquez在1630年作为Ambassador Monterey的客人到访；当前subject是Velasquez，object却是该次stay事件cand-6140，predicate表达guest-of关系，且host cand-1693仅在mentioned IDs中。将object改为Monterey并把1630作为时间，或拆为人物参加stay事件、事件host为Monterey两条关系；不得把host留在mention-only。
+- #114（p.136 L37）：原文仅称“the Spaniards”与Bamboccianti成功相关；cand-6133标签又含“supporters in Rome”，可能与L43另一个“Spain and her supporters in Rome”候选指代混合。保留两处群体范围及同一性待决，S3不得仅凭同章邻近就合并；未组织集体类型也开放处理。
+
+以上述问题以外，#77–78、#80–90、#92–94、#97、#99、#103、#105、#107–112、#117–125、#127–138、#140、#142–148及#150中可独立核对的原文方向/限定大体相符；其中已列明的quote长度、群组提及、端点或类型问题仍须先修订后再接收。本批不构成第5章或sec_iii接收。
+
+#### 2026-10-20：第五章 sec_iii 当前ID独立语义复核（第三批，#151–225）
+
+按当前statement来源行序逐条复核75条，首尾`st-chp5-p136-velasquez-stay-hosted-by-monterey`—`st-chp5-p138-deathbed-artichoke-return`；覆盖p.136 L42–43、图版题注Plate 21–24与p.137 L71–79、p.138 L83。核对当前Markdown转录及`CHP-5.pdf`对应印本图，逐条检查claim、source quote/行页锚点、candidate endpoints/type、mentions、speaker/qualifier和`relation_candidate`。本批true=57、false=18、unset=0；sec_iii累计225/436（true=153、false=72），尚211条；第5章累计705/1,073（true=479、false=226），尚368条；不接收。仅写入过程记录，未更改源表、mentions、候选或知识卡。
+
+**问题、待证和修订去向：**
+
+- #153–154（p.136 L43，`st-chp5-p136-cerquozzi-career-linked-to-rome-supporters-of-spain`、`st-chp5-p136-cerquozzi-career-linked-to-spain-and-supporters`）：mentions已把词面“Spain”映射cand-4591（Spain polity, institution），但两条的mentioned IDs/`#154` object仍为cand-5120（Spain geographic place）。按当前来源“career linked to Spain and her supporters in Rome”的政治语境，统一候选映射并核对指代；不能用place表达政治关联。#153的cand-6133又把L37“the Spaniards”与L43“her supporters in Rome”合并为一组，原文未给出二者同一性，拆分或保持S3待证。
+- #151（p.136 L42，`st-chp5-p136-velasquez-stay-hosted-by-monterey`）：事件cand-6140作subject、Monterey作host端点的方向合适，印本明确1630；但该statement的mentioned IDs有cand-6140而当前source segment mentions无事件span，补“came to stay as a guest … in 1630”的事件映射。并与前批#150的问题一起处理：#150目前以guest关系谓词连接Velasquez至事件，应改为参加事件+本条host关系，或直接连接Velasquez与Monterey并保留年份。
+- #158–164（图版Plate 21–24）图版页扫描核对后，caption、作者/作品对应与印本一致；反向OCR caption已在claim/qualification记录印本读法，不把图注当独立作者认证。#160–163保留各图版对象，不从题名推出额外人物/事件事实。
+- #165–181（p.137 L71–73）关系方向、年份、限定与来源基本相符；#166–174中`cand-11927`战役事件在“campaigns”各statement段缺mention，`cand-11930`未名协作者在“and others”缺span。补事件和未名艺术家群的直接跨度；cand-11930、cand-11928群体类型继续开放，不推成正式组织/国家机构。#179的“French”cand-6143为未名人物群，当前term类型不应直接交S4，保持类型待决。
+- #182–201（p.137 L74–77）claim整体保留“whatever political affiliations”“most”“tended”“again and again”等范围/频率，分拆各艺术家、风格与收藏者陈述基本成立。需修候选cand-6148范围：当前canonical name限定为“Roman patron families within the Spanish sphere”，但L74明确说“Whatever their political affiliations, most of these families…”，L79又以“them/their values”承接；后续关系不能把这些未名家族压成单一亲西班牙阵营。扩大或分开来源定义的家庭组并保持成员/政治归属开放。cand-6148现`term`作为未组织人群端点也待类型处理。#185、#187复合审美理想cand-11929列在mentioned IDs但无直接span；补“noble balance between classicism and Venetian colour”。#183 original_quote未包含“Again and again we find them concentrating…”，应扩展以支持claim中的重复性。
+- #213（p.137 L79，`st-chp5-p137-gradual-acceptance-of-patrons-values`）：谓词表达接受“家族的价值观”，结构化object却为cand-6148家族群。此行`relation_candidate=false`、作为Haskell解释可保持，但object应为空/标量断言，或建立来源定义的values term；不能把家族群当作价值对象。#207、#212、#216也依赖cand-6148所指家族组，随前述范围问题一并复核。
+- #217（p.137 L79，`st-chp5-p137-popular-bambocciate-continued-to-fetch-high-prices`）：candidate cand-2062 “Prices paid to artists”列在mentioned IDs但没有本段mention span；补“very high prices”跨度。原句未报金额、单笔出售或买家，当前false标量陈述及限定恰当。
+- #220（p.138 L83，`st-chp5-p138-aristocratic-limit`）：claim指出罗马贵族接纳之后，Cerquozzi几乎无法同情地描绘“the very poor”；当前mentioned IDs仅包括Cerquozzi与罗马贵族cand-5260，漏掉已有贫民组候选cand-6116的对应指代。补该群体span或将其纳入claim候选映射；保持`relation_candidate=false`及Haskell“almost impossible”作者解释，不转为独立因果结论。
+- #209–210（p.137 L79）cand-6146“antiSpanish common people”、cand-6147“sympathisers with Spain”是未名人群，当前类型term应保持open；只保留Haskell原句限定，不给个体政治身份。
+
+#152、#155–157、#176–178、#180–181、#202–212、#214–216、#218–225其余当前statement的原文方向、叙述归属、语气/时间限制和跨页续接基本相符。#208与#221已通过`continued_by_statement_id`/`continued_from_statement_id`互链，作为p.137“careful and conscientious in his…”至p.138“work”的完整限定句处理，不重复报为断裂。无问题仅指本批逐条对照通过，不代表sec_iii或第5章接收。
+
+
+#### 2026-10-20：第五章 sec_iii 当前ID独立语义复核（第四批，#226–300）
+
+按当前`book-statements.jsonl`源行排序逐条核读75条，首尾`st-chp5-p138-deathbed-artichokes-as-symbolic-return-to-popular-life`—`st-chp5-p140-bath-scene-figures`；覆盖印刷p.138 L83–93、p.139 L96–100和p.140 L104–108。对照`05_CHP-5_sec_iii.md`、`mentions.csv`、候选端点及`CHP-5.pdf`印刷p.138–140，检查claim、引用、端点类型/方向、speaker、限定、mention映射与`relation_candidate`。本批true=40、false=35、unset=0；sec_iii累计300/436（true=193、false=107），余136；第五章累计780/1,073，余293（sec_iii 136、sec_iv 151、intro 6）。第五章及sec_iii均不接收。仅追加本过程记录，未改statement、mentions、候选、来源或知识卡。
+
+**本批问题与修订去向：**
+
+- #228（p.138 L83，`st-chp5-p138-work-characterization`）：原文“the friend of princes and prelates”，现有开放人群候选cand-11931列入`mentioned_candidate_ids`，但本segment缺该短语mention span。补原词跨度；群体成员未明，类型继续开放。
+- #231（p.138 L84–85，`st-chp5-p138-observation-contrast`）：claim所述是Haskell对Cerquozzi创作实践与Passeri关于Van Laer的评价作对照；当前端点却是两位画家人物、谓词像两人间的正式关系，且`relation_candidate=true`。改作作者限定的比较性标量断言/`relation_candidate=false`，或将比较端点明确建模为两种实践/评价；不能记成Cerquozzi—Van Laer人物关系。
+- #242、#246（p.138 L89–90，`st-chp5-p138-battle-pictures-for-society-indirectly-affected-by-wars`、`st-chp5-p138-vicarious-participation`）：欧洲战争集合cand-11933已列在mentioned IDs，但该段“wars”没有mention span；补对应原词，保留“only indirectly affected”及画作提供vicarious participation的解释范围。
+- #244（p.138 L90，`st-chp5-p138-battle-scene-motifs`）：描述对象应是battle pictures/类型cand-6152；当前subject却为画家cand-3084、object为类型cand-6152，端点与claim主语不符。将类型候选设为被描述对象并清空不适用的object。PDF印刷p.138读作“the air is lit up”，当前S0/`original_quote`为OCR误读“fit up”；来源本体不改，S2引文应按印本校正并保留校读说明。
+- #251–252（p.138 L93，`st-chp5-p138-exclusive-french-influence-came-to-an-end`、`st-chp5-p138-patronage-political-shift`）：cand-11932“death of Urban VIII”列在mentioned IDs但共享segment缺对应mention；补“death of Urban VIII”span。#251另核该事件仅作时间/叙述上下文，不把它写成French influence自身的直接关系端点。
+- #253（p.138 L93，`st-chp5-p138-possible-crisis-1648-partial`）：claim主体是Haskell所说“a crisis may have occurred in about 1648”，当前subject误设为Cerquozzi。撤掉人物主体，保持可能性和约数；若结构化事件端点必要，建来源限定的未识别危机候选并维持开放，后接#258不得令危机变成确定事实。
+- #259（p.139 L96，`st-chp5-p139-spada-assembled-collection`）：claim及原文包括Spada palace，mentions已有未识别宫殿cand-5112的“palace”span，但该ID未列入本statement的mentioned IDs。补cand-5112映射；继续区分宫殿与所集图片/collection cand-5111。
+- #286–287（p.139 L99–100，两个艺术家共同为Chigi绘画）：claim对应原句“Some time after 1657”及“only three years before Cerquozzi’s death”，保留这些时间范围。现有qualifier引用印刷p.140 L154关于委托无法证实的脚注；该注直接讨论后文明确提出的“两幅作品”，不可无差别扩大为同一未定边界中所有“several pictures”。将脚注限定回确指的两幅作品/拆分候选组，并保持“painted for”来源陈述与所有权/实际付款证据不混同。
+- #291（p.140 L104，`st-chp5-p140-two-chigi-works`）：主语cand-6164覆盖Cerquozzi与Codazzi为Chigi绘制的“several pictures”宽组，而claim/predicate收窄到“two of Cerquozzi’s works”；该组边界不等于两幅作品子集。拆出或明示两幅作品的子集候选，连接后续识别出的《The Arrival at the Palace》与《Women’s Bath》，保留脚注1对“painted for”的不确定限定。
+- #298（p.140 L108，`st-chp5-p140-bath-allusion-stufe-or-east`）：claim只记Haskell关于stufe的“must surely”解释，#299另记“or perhaps”东方旅行叙事；当前谓词仍把两种互斥/备选解释合并为同一断言。将谓词收窄至首个备选并与#299保持分列，保留各自限定。
+- #300（p.140 L108，`st-chp5-p140-bath-scene-figures`）：predicate同时说bath场景包括turbaned figure和young dandies，而claim只记东方人物；年轻花花公子已有#301单独陈述。收窄#300 predicate/quote至东方人物，避免和#301重复或混合两类画中人物。
+
+#226–227、#229–230、#232–250（以上单列的问题除外）、#254–258、#260–290、#292–300中其余本批逐条核读内容的原文方向、语气/时间限定及来源页锚总体相符；#256保留条件式委托，#258保留“may/about/probably”，#281保留Codazzi提供目击叙述的“may well”，#286–291各保留印本对委托/所有权的限定。上述范围内的“相符”不代表其他批次或第五章接收。下一游标为#301 `st-chp5-p140-bath-young-dandies`；本条未审。
+
+
+#### 2026-10-20：第五章 sec_iii 当前ID独立语义复核（第五批，#301–375）
+
+按当前`book-statements.jsonl`源行序逐条核读75条，首尾`st-chp5-p140-bath-young-dandies`—`st-chp5-notes-l140-baldinucci-p190`；覆盖印刷p.140 L108–113、p.141 L116–121，以及附注所引印刷p.132–136。对照当前Markdown、mentions、候选端点、statement及`CHP-5.pdf`对应印本页，检查断言主客体/方向、source quote、speaker、语气/时间、注释链接与`relation_candidate`。本批true=39、false=36、unset=0；sec_iii累计375/436（true=232、false=143），余61；第五章累计855/1,073，余218（sec_iii 61、sec_iv 151、intro 6）。第五章及sec_iii均不接收。仅追加过程记录，未改S2表、候选、来源或知识卡。
+
+**本批待修/待决：**
+
+- #302（p.140 L108，`st-chp5-p140-moved-from-inspiration`）：原句是Cerquozzi“far from his original inspiration”的Haskell解释；当前object直接指向《Women’s Bath》cand-4061，容易变成“该作是原始灵感”。移除该object或换成有据且来源明确的原始题材/类型候选；保留这是作者对艺术发展距离的评价。
+- #305（p.140 L110–111，`st-chp5-p140-theoretical-opposition-chronology`）：S0 quote为“and. later”，PDF印本p.140读作“and later”；按印本校正S2 quote/记录校读，S0不改。
+- #306（p.140 L111，`st-chp5-p140-patrons-outside-theoretical-reach`）：断言是“many patrons”不受理论考虑约束，当前subject却为Bamboccianti cand-0173；改为未名赞助者范围候选（保持开放）或无人物subject的Haskell标量/解释断言，不把艺术家群体写成赞助者。
+- #317、#321、#330（p.141 L116–117，`st-chp5-p141-attacks-targeted-new-ruling-class`、`st-chp5-p141-liberal-connoisseurship-and-cerquozzi-success`、`st-chp5-p141-financial-depression-and-cheaper-prices`）：原文主语分别是针对Bamboccianti的attacks/onslaught、随时间而变强的攻击，以及攻击所处的萧条时期；当前统一以受攻击的cand-0173作为subject。改用来源定义的攻击/时间语境候选或标量化，不把被攻击对象当作攻击行动/时期主体。#317原文提到攻击者，但当前候选cand-11936仅适合表示未名艺术家/理论家，不代表攻击事件本身。
+- #318、#320、#323、#324（p.141 L116，`st-chp5-p141-bambocciate-described-unlike-actual-pictures`、`st-chp5-p141-crowd-versus-connoisseur`、`st-chp5-p141-public-versus-man-of-taste-distinction`、`st-chp5-p141-snobbery-as-anti-bamboccianti-appeal`）：#318原文对象为画作类型“bambocciate”，当前subject用艺术家群cand-0173、object才用画作类型cand-6099，端点混淆；改以cand-6099承载被描述的画作或改为标量断言。#320断言对象是对Van Laer/Cerquozzi艺术世界的“admiration”，不是艺术家群；#324是批评话语中的“plea to snobbery”，也不以Bamboccianti为主语。#323原文为taste distinction被用于诋毁movement，当前端点方向反置；改为source distinction→被诋毁的movement或标量陈述，候选cand-6177“public”不自动等同于“public/man-of-taste distinction”。
+- #314、#322（p.140 L113—p.141 L116，`st-chp5-p140-old-families-description-partial`、`st-chp5-p141-old-families-power-bankruptcy-continuation`）：这是跨页同一句“families, now bereft of power and bankrupt”；两条目前各自重复完整claim，quote被截成前半和后半，未设statement续接链接。合并成完整claim，或用continuation字段相连并让后条只承载续文。#322现谓词/claim写“lost power and wealth”，原文是“bereft of power and bankrupt”；不得把破产改写为一般“失去财富”。
+- #336–338、#341（p.141 L119，`st-chp5-p141-bamboccianti-preceded-1651-letter-by-quarter-century`、`st-chp5-p141-correspondence-significance-not-altogether-clear`、`st-chp5-p141-correspondence-significance-unclear`、`st-chp5-p141-six-or-eight-scudi-claim-absurd`）：#336说Bamboccianti此前已作画四分之一世纪，当前subject却为Sacchi；换为艺术家组/来源限定标量主张，仍不推具体创立年份。#337–338的主体是Sacchi–Albani correspondence/cand-11938而非两个收信/通信人物；#338另以Albani作object也不符“该通信在运动史中被视为重要”。#341质疑的是通信中“six or eight scudi”这一价格说法，当前subject Sacchi不足以承载两位通信者共同知情的claim；改用通信/被引说法的来源限定断言。#343、#348须让claim明确保留原文“no doubt held”的Haskell判断，并连同Malvasia可能修订通信的限定一起读，不把作者评价写成独立确认。
+- #316、#327、#334、#347（p.141 L116–121）：mentions缺少现有候选span：#316/#327的cand-11936应映射“other artists and theorists / many artists who were among their most ferocious enemies”；#334的cand-11938映射“exchange of letters”；#347同一通信候选映射“letters themselves”。#327的claim还应扩展source quote到前句的cheaper-price主张，因原quote“one of the charges”单独不能说明指控内容。
+- #349–350（附注p.132，source L127–128）：印本p.132 note 1清楚读作Passeri意大利引文“che…parevano…”，当前S0 quote有`die/parcvano`等OCR错字；按印本修正S2 quote并保留“引文经Haskell转录，未独立检查Passeri原书”的限定。note 2印本为“Giulio Briganti”，S0/当前quote与mention surface为“Brigand”；改为Briganti并保留mention span。
+- #352–358（附注p.133–135，source L129–134）：#352脚注仅写“Gigli passim, especially pp.77,162,290,324-5”，claim却扩写成《Diario Romano》、Ricciotti编者及1958年版；把claim收窄到印本脚注所给引文信息，具体书目解析只作候选待对齐，且补齐source span与statement mentioned IDs。#353–356分别有G.B. Doni、Della Pittura/Rosa、Passeri等脚注mention span，但statement的`mentioned_candidate_ids`为空；补对应来源/书目映射。#354的speaker Doni由同一注前置引文归属，应与“G.B. Doni, II, p.16”引用交叉链接。#358明说1636年两幅Van Laer小画值32 scudi，当前mentioned IDs为空；补cand-1351及cand-6186的实际mention span（含“two small paintings”）。
+- #359、#361–362、#366–368、#371、#375（附注p.135–136，source L135–140）：多条quote整段覆盖混合的引用和邻接论断，需缩至分别支持当前claim的句子/书目短语，避免一条证据锚点跨多个不同statement。#361“Lely seems to have been an admirer”在印本p.135 note 2中由正文“Van Laer admirers”语境给出；当前无footnote/body statement link、mentions为空，补关联到正文主张并保留“seems”，不把note脱离语境当作直接确认。#367的Bernardino Lorca—Van Laer友谊有原文短语，但其mentioned IDs为空；补候选映射并保留Haskell引用Resta书信的归属。#368来源只写“Bottari, II, p.106”及Resta书信，不写《Raccolta…》全名、Milano或1822；claim应按source改窄，书目全名另作待核解析，补cand-2134/cand-6200映射。#362、#366、#371、#375的Haskell自引书本无需伪造mention span，直接书目候选保留于statement即可。
+- #363–364（附注p.135，source L136）：印本为`Artisti belgi e olandesi, pp.127 ff.`，当前S0/quote/mentions把`e`、`ff.`误读为`c`、`If.`；按印本校正S2文字/mention。#363的candidate映射漏了mention表中Benevento地点cand-6093，并应为“two pictures by Van Laer”保留独立未名作品组或待决映射。#364的source主语是“the testimony provides much useful information”，当前subject错误沿用Swanevelt、object用Van Laer；改为证词/案件记录的开放source candidate或无错误人物端点的标量判断，不把Swanevelt当作提供信息的证词。
+- #369–372（附注p.136，source L139）：当前statement引用候选cand-11940 Cerquozzi的will，但mentions缺原文“his will”span；为#369、#370、#372补映射，并链接相邻文本以支持`his`指Cerquozzi。#374（附注p.136，source L140）对“this early work”是否于1615绘制提出“exceedingly unlikely”；当前subject却是Cerquozzi本人cand-0625，未见本statement中的作品端点/相邻正文锚。若能从印本注脚标记与正文解析出特定作品，挂该work candidate；否则保持作品端点开放，不把断言主体落到艺术家。
+
+除上述问题外，#301、#303–304、#307–315、#325–333、#335、#339–340、#342、#344–348及#351、#353–357、#359–360、#362、#365–366、#368–373、#375中其余逐条核对的source方向、限定、人物/文献对象范围总体相符；来源组cand-11936、cand-11937、cand-6176、cand-6178保持未名开放，不转作已识别机构/人物。无问题范围仅表示本批核对结果，不代表本章接收。下一游标为#376，未审。
+
+
+**印本文字校读补充（本批）：**印刷p.141在#317、#329、#340均作“bamboccianti”，当前S0/quote的“baniboccianti”是OCR误读；#346印本作“relatively late”，quote中的撇号为OCR伪字。按印本修订S2引文并保留S0不动。印刷p.134脚注1的Doni引文#354中，S0的“guardone”与印本读数不符，需按扫描校正原词；不要因此改写Doni意思或把未识别作品名补入。其余无问题范围为#301、#303–304、#307–313、#315、#319、#325–326、#328、#331–333、#335、#339、#342、#344–345、#351、#357、#360、#365、#373；这是本批直接复核且未单列问题的statement范围。
+
+
+#### 2026-10-20：第五章 sec_iii 当前版独立语义复核（第六批，#376–436）
+
+按当前 `book-statements.jsonl` 第五章 sec_iii 的来源行序，直接复核61条：`st-chp5-notes-l140-embassy-meeting` 至 `st-chp5-notes-l165-shaftesbury-second-characters`；逐条对照分节原文、当前 mentions 与候选端点，并核看印本 p.136–142（PDF物理页17、22–27；其中 p.137、140–142重新核看扫描）。本批 `relation_candidate=true` 50条、`false` 11条、未分类0条。sec_iii累计436/436；按本批起点的第五章当前直接复核累计916/1,073，余157条（sec_iv 151、intro 6）。第五章及sec_iii不作接收结论。除本过程记录外，没有修改S2表、候选、mentions、来源或知识卡。
+
+**实质问题及建议去向：**
+
+- #376–378（p.136 L140，`st-chp5-notes-l140-embassy-meeting`、`…longhi-significance`、`…vanlaer-rome-arrival`）：三条 `mentioned_candidate_ids` 为空；原文分别有 Cerquozzi/Velasquez/Spanish Embassy、Roberto Longhi/Cerquozzi/Velasquez、Van Laer/Rome 的已有mention span。补相应直接映射。#376保留“perfectly reasonable to assume”“may have met”，仍是Haskell推测性会面候选；#377是史学评价，不改造成传记关系；#378保留“not…until 1624”。
+- #379（p.136 L140，`st-chp5-notes-l140-velasquez-attribution`）：当前端点是 Longhi→作品，谓词 `reported_attribution`，但原文是 Longhi 把《Rissa all’ambasciata di Spagna》归给 Velasquez，并称此归属“not altogether convincing”。建议将候选表述为作品→Velasquez、Longhi作为归属主张者并保留Haskell的质疑，或改用来源限定的归属断言；不可丢掉受归属者Velasquez。
+- #381–382（p.136 L141，`…cerquozzi-colonna-work`、`…ghezzi-velasco-pictures`）：两条mentioned IDs均为空，原文分别有Cerquozzi、Colonna、Ferdinando Colonna，以及Ghezzi、Colonna、“Due bambocciate di Velasco”的mention span。补已有候选映射；保持Velasco为原文形式且与Velasquez区分，身份不由近似拼写消解。
+- #383（p.137 L142，`st-chp5-notes-l142-rapaccioli-report`）：印本读作“Valfrey, p.220”，当前S2 quote与mention surface写“Valsrey”；按印本校正S2引文/候选显示，S0 OCR原文不改。西班牙阵营候选 cand-4404 已列在statement mentioned IDs，但缺其实际“Espagnol”mention span；补span。保留法国大使经Haskell转述、并非正式政治成员身份的限定。
+- #388（p.137 L143，`st-chp5-notes-l143-carandini-reference`）：当前S2 quote在“G. A.”处截断，但印本继续为“Lotti of 1784. I am most grateful to the Marchesa Elisa Carandini for drawing my attention to this book.”；现有claim已经使用该印本续文。补全S2引文并注明S0缺漏，不改S0；只把S0中可定位的“Conte Camillo Carandini”和“G. A.”映射至已有cand-0542、cand-6185，不为S0中不存在的续文伪造offset。
+- #390–391（p.137 L144，`…miel-painting-by-miel`、`st-chp5-notes-l144-corsini-miel`）：两条claim所指未名画作 cand-11943 在mention表中没有“a painting by Jan Miel”span，补该对象span。#391的S2 quote有OCR误读；印本为“alle ginocchia”“l’immondezza”，应校正S2引文，S0保持不动。其所有权仍作为Haskell引Baldinucci的报告，不升级成当前所有权事实。
+- #392–393（p.137 L145，`…amayden-report`、`…amayden-source-caveat`）：印本为“Relazione della Città di Roma fatta nell’Anno 1642”及“MS. in Biblioteca Casanatense”，当前S2 quote保留OCR “Citti”“hi”；按扫描校正S2 quote/来源名。#393提及Amayden两次而mentioned IDs为空，补cand-0093 span；继续保留Haskell对Amayden西班牙保护人身份的来源偏向提醒，不将其扩写成否定报告内容。
+- #395、#397（p.138 L147、149，`…briganti-1954`、`…saxl`）：#395引用对象 cand-6187 是不具题名的文献候选；原文“Briganti”实际span对应作者 cand-6180，当前statement未列该人，需补直接mention，文献候选与作者分开。#397原文只写“Saxl.”，当前 mentions 含出版物 cand-11946 与人物 cand-6153，但mention表只有cand-11946的span；对同一“Saxl”span补cand-6153映射，保留作品题名/日期/页码未给出的开放状态，不推定特定出版物。
+- #399–400（p.139 L150–151，`…wallenstein-painting`、`…spada-location`）：#399直接提到《The Death of Wallenstein》，但mentioned IDs为空；补cand-1830的作品span，同时保留“most extraordinary”为Haskell评价。#400的“si vede nel Palazzo…”以代词指向正文作品 cand-4060，印本引Baldinucci；若保留work端点，应由相邻正文 statement 链接解决指代，而不是在这个脚注中伪造作品名span。
+- #401、#403（p.139 L152，`…spadaro-workgroup-authorship`、`…spadaro-pictures`）：mention表已有“Micco Spadaro’s pictures”原文span，statement提及列表含群候选 cand-11944，但未登记该span；补齐。该组与单幅双场景画 cand-6162保持分开。
+- #406–409（p.139 L153，`…brunetti-evidence-assessment`、`…codazzi-testimony`、`…collaboration-after1647`、`…longhi-brunetti-claim`）：#406把cand-6193（Estella Brunetti）放在subject，但原句主张的是Haskell对Brunetti证据的评价（“None of Dr Brunetti’s evidence…seems…conclusive”）；将subject改为证据/来源评价或标量化，Brunetti留作被评价证据的来源并补直接mention；保留“seems”和Haskell speaker。#407提及列表把Baglivo cand-6202带入，但本条claim/quote只覆盖从Bergamo来Naples约十五年前，Baglivo属于后续“always lived…”句（#405）；从#407移除该提及。#408的合理假设及“after 1647”限定方向正确，但mentioned IDs为空，补Cerquozzi、Codazzi、Rome对应span，并将quote缩至支持该claim的句子。#409保留为Haskell对Longhi/Brunetti 1625–35合作说的反驳性转述，不应标成已证合作；“and others”对应开放候选 cand-6194 有原文span，补mention。
+- #410、#412–416（p.140 L154，`…acquisition-by-chigi-1661`、`…contemporary-ownership-reports`、`…pictures-listed-in-chigi-inventories`、`…chigi-commission-unproven`、`…colonna-acquisition-alternative`、`…no-payment-document`）：当前共同端点 cand-6164 是较宽的Cerquozzi/Codazzi/Chigi关联画作组，而脚注反复指“the two pictures”，并明确区分Chigi收藏/所有权、未证明委托、可能但“most unlikely”的Colonna来源及没有付款文件。应为本脚注所指两幅画建立/映射更窄子组并逐条使用，不把较宽画作组和不确定委托边界合并。#411（`…chigi-bought-palazzo-odescalchi`）则把“the Chigi”复数主体落到个人cand-0671 Cardinal Flavio Chigi；原文说“the Chigi…they bought the palace”，应保留Chigi家户/群体端点开放，避免直接归为该个人。#412–414关于所有、目录列载与委托未证的区分本身符合原文，不得合并为确定委托。
+- #419（p.140 L155，`st-chp5-notes-l155-raggi-report-citation`）：整条mentioned IDs为空，原文有“report by Ferdinando Raggi…in Rome…quoted by Achille Neri, 1883”；补 cand-2090、cand-4490、cand-6197 的实际span，并可将“a report by…”映射到报告候选 cand-6210。#418已有候选列表但报告本体须有明确文本锚；不要把二手引述写成已检查原件。
+- #420（p.141 L156，`…hoogewerff-1913`）：statement列的 cited-publication cand-6199有书目指针，但“Hoogewerff”姓名span对应人物cand-3522，当前没有映射；补作者mention，保留出版物题名未给出的限定。#394、396、421–422、427的Passeri/Malvasia/Baldinucci引文范围与候选映射相符。
+- #423–425（p.141 L159，`…vanlaer-picture-authorship`、`…ruffo-cerquozzi-purchase`、`…vanlaer-valuation`）：#423的cand-6204未名画作应映射“a Van Laer, size 4 palmi”span。#424、#425的quote都覆盖整条脚注的两件价格事实，而各claim仅覆盖一件：#424只留1646–48 Ruffo购买Cerquozzi战斗画80 ducats的句子；#425只留1671 Van Laer画作估值句。两条目前mentioned IDs为空，补Don Antonio Ruffo cand-2297、Cerquozzi cand-0625、战斗画cand-6203及Van Laer cand-1351、估值作品cand-6204各自span。印本明确为350 ducats；#425 S2 quote中的“3 50”应校正为350，S0不改。
+- #426（p.142 L160，`st-chp5-notes-l160-simonelli-tityus-exhibition`）：关系方向、1638时间、Pantheon地点及Haskell引Passeri的限定相符，但mentioned IDs为空；补Simonelli cand-2434、Rosa cand-2236、Tityus cand-2257、Pantheon cand-4236的直接span。
+- #428–430（p.142 L162，`…satire-first-mentioned-in-letter`、`…satire-possibly-written-in-florence`、`st-chp5-notes-l162-rosa-satire-date`）：#428声明“letter of 1651”而mention表缺信件候选cand-11945的“a letter”span，需补。#429“may have been written in Florence”保留为可能性且端点正确。#430“the date of Rosa’s satire…is not certain”当前subject=作者cand-2236、object=作品cand-2255，方向错误；改为作品cand-2255的来源限定断代状态（可无object/标量化），只用支持不确定日期的短引文，补作品span；首见于1651信、可能在Florence写成、Limentani分析应分别留给已有statement，不把整条脚注quote重复挂到日期判断。
+- #431–432（p.142 L163，`st-chp5-l163-letter-addressed-to`、`…letter-authored-by`）：两条与原文方向一致，但`print_page`和`pdf_physical_page`缺失，应补印刷p.142/PDF物理页27；mentions为空，印本脚注明确有“Letter from Salvator Rosa to G. B. Ricciardi dated 2 April 1660”，应补作者、收信人、信件span。当前qualification称作者/收件人由正文上下文补入，与本脚注文字不符，应删除该误述；仍保留未独立查阅原信和所引版本的限制。
+- #433–434（p.142 L163，`…letter-published-in-de-rinaldis`、`st-chp5-notes-l163-rosa-ricciardi-letter`）：印本图像可读为“de Rinaldis, 1939, p.109”，而S2 quote保留`de R...Jdis` OCR形；按扫描校正S2 quote/候选展示，题名仍不推定。#433 claim说经1939版引用，但quote当前仅到letter日期，需延至书目指针；#434所列关系/引文范围相符，mentions却为空，补Rosa、Ricciardi、de Rinaldis候选span。#433现有四个mentioned IDs与mention span基本相符。
+
+除上述单列问题外，#380、#384–387、#389、#394、#396、#398、#402、#404–405、#421–422、#427、#429、#435–436共18条在本批逐项核对中未见需修订的不一致。此为本批局部结论，非第五章接收。仍待证内容包括Velasco身份、Longhi对《Rissa…》的归属、Chigi两幅画的委托/付款与家户购宫主体，以及脚注所引原始书信/出版物的独立核验；应保留限定或回相应阶段，不据S2单独消解。
+
+
+### 2026-10-20：第八章当前版 S2 独立语义复核（补读首批，#1–75）
+
+按当前 `book-statements.jsonl` 非sec_ii范围的source-order直接逐条复核#1–75，首尾`st-chp8-p203-n1-soprani`—`st-chp8-p205-roomer-lifespan-recovery-death`；包含intro脚注6条及sec_i第1–69条，覆盖印刷pp.203–205、S0 L3–28及注释L126–134。对照当前分节转录、statement、mention spans、候选端点、source quote、speaker、qualifiers及PDF物理页1–3（p.204物理页2；p.205物理页3）。本批`relation_candidate=true`57条、`false`18条、未分类0条。第八章sec_ii已在另一当前版复核记录逐条覆盖1,045条；加本批后，当前ID直接复核1,120/1,462（true=744、false=376），仍余342条旧历史映射行未在当前批次直接重读；第八章不接收。没有改S2表、候选、mentions或来源，只追加过程记录。
+
+**本批问题与修订去向：**
+
+- #13（p.203 L8，`st-chp8-p203-bolognese-doctors-picture-owners`）：原文将Paolo Battista Balbi、Beccari、Marcello Malpighi分配为“all owned pictures”，当前以医生群cand-12013为subject、`object_candidate_id=null`，但仍标为关系候选。为匿名画作组补一个开放work对象，或把此处改为不强造作品端点的来源限定概述；不能把三人群当作品object。
+- #15（p.203 L5–6，`st-chp8-p203-genoese-family-collections`）、#21（p.203 n.5，`st-chp8-p203-n5-zanotti-and-b109`）、#24（p.203 L3–4，`st-chp8-p203-italian-patronage-context`）、#25（p.203 L8，`st-chp8-p203-bologna-second-capital`）：claim大体符合原文，但S2 `original_quote`保留数处已能从扫描判定的OCR字形错误，应在S2校读/展示层更正而不改S0：p.203印本为“Imperiali”“Vicelegate”“The new world”“within Italy itself”“second capital”；当前分别出现`Imperial!`、`Vicelcgate`、`HE new world`、`Titself`、`second.capital`。#21的书名印本读“Descrizione delle Pitture che ornano le Case de’ Cittadini della Città di Bologna”，当前quote含`eke`与`Cittd`；修正文献显示名及引文校读。#59另有`Januatius`→`Januarius`，但当前qualifier已明确记载印本校读，此处作为确认，不单列待修。
+- #37（p.204 n.2 L128，`st-chp8-p204-marriage-at-cana-date-and-location`）：当前claim称画作约1686年并“then in Chicago”；印本是“The Marriage at Cana of about 1686, now in Chicago”，`now`指Haskell写作时所说的馆藏地点，不是1686年地点。拆分或重写为约1686年的年代判断和作者当时报告的Chicago位置，避免改变时间限定。
+- #38（p.204 n.2 L128，`st-chp8-p204-marriage-at-cana-influence`）：claim称《Marriage at Cana》显示Veronese及Barocci的影响，端点只连Veronese cand-2755；Barocci cand-0247仅在mentioned IDs。将两个艺术家分别作为影响端点拆成两条statement，或使用能表达两位艺术家的有据组端点，不能只保留一端。
+- #39–43（p.204 n.1、n.3，`st-chp8-p204-n1-citations`、`…n3-codazzi-paintings-citation`、`…n3-giordano-iconography-citation`、`…n3-patronage-citations`及同页对应引用记录）：当前这些`footnote_citation`均为`relation_candidate=false`、无主体；同章p.203 n.1–5与Zanotti引文statement则把相同“本书引用某文献”记作true候选并设本书subject。请按同一口径决定“引用关系”是否纳入关系候选；若纳入，统一本书→被引来源端点，保留各自`citations` locator；若引用仅是书目过程记录，则也应将p.203同类行统一为false。被引页未直接阅读的限定不变。#42–43虽含正文事实的上下文，不要把引用locator本身扩成新的历史关系。
+- #47（p.204 L16，`st-chp8-p204-ricci-dealer-terms`）：claim仅述Ricci买入Crespi可售作品并转交转售利润，`original_quote`却继续引入艺术家传记作者关于“noble and generous treatment…of enormous advantage”的评价；该评价由#32另作statement。将quote缩到本claim所需交易句，避免把传记评价重复当作本关系的证据。
+- #52（p.204 n.3 L129，`st-chp8-p204-valletta-bought-codazzi-paintings`）：原注同时说Valletta从另一收藏者购入Codazzi建筑画，并说人物由Cerquozzi与Micco Spadaro绘制；当前唯一关系端点为Valletta→画作组，艺术家只在mentions中。将购入事件与画作署名/figure contribution拆成有相应端点的断言，保留Haskell转引De Dominici、卖方未名及作品未逐件识别的限定。
+- #62–64（p.205 n.2–4，`…palomino-capaccio-trapier-citations`、`…capaccio-trapier-ville-citations`、`…trapier-citation`）：当前均为citation/footnote行且分类false，前两行的`citations`数组分别完整列出三项书目定位；这与p.203 cite行的true分类不一致，但不是这些citation locator缺失。按上一项统一citation分类口径；如判true，再为每个被引来源建立独立的本书→来源statement，保留locator和未直接阅读说明，而不是用单一object承载多条引用。
+- #66–67（p.205 L27，`st-chp8-p205-roomer-collected-drunk-silenus`、`…roomer-collected-flaying-marsyas`）：每条claim将Roomer收藏作品关系与Haskell对画中人物/构图的描述或评价合并，predicate却只编码收藏/作品归属。拆分关系候选与作品内容/评价断言；继续保留注释对1634清单、1637现存画作与来源作品未必同一的限制。
+- #75（p.205 L25，`st-chp8-p205-roomer-lifespan-recovery-death`）：claim/predicate把1656年从鼠疫康复与“lived on … for another twenty-six years”接在一起，易读成1656后又活26年；印本把26年接在此前叙述之后，1656仅是括号内康复日期，下句另称1674年去世。拆开或调整时间起点，按文本关系表述，不推算出1682。
+
+**本批未见实质不一致的statement：**#1–12、#14、#16–20、#22–23、#26–36、#40–46、#48–51、#53–61、#65、#68–74；这些行的主要claim、speaker、候选端点、原文限定及当前mention映射相符。#19的p.203句首与#48的p.204续句已有`continuation_completed_in_segment_id`及`continuation_source_lines`回链，故不重复报告为未锚定。仅局部可接收，不表示章节接收。下一当前版游标为非sec_ii序位#76 `st-chp8-p205-roomer-revolt-and-memory-saved-him`；本批以后仍有342条非sec_ii历史映射范围待当前ID直接复核。
+
+
+**第八章当前版首批范围更正：**上一段“本批未见实质不一致的statement”误把#40–43列入无问题范围，和上文将#39–43列为citation分类待统一相冲突。正确无问题范围为：#1–12、#14、#16–20、#22–23、#26–36、#44–46、#48–51、#53–61、#65、#68–74，共55条；#39–43仍属分类口径待决。
+
+### 第八章非 `sec_ii` 当前版直接语义复核：批次 #76–150
+
+按登记分节及 `source_line_start` 排序，逐条核对当前 `book-statements.jsonl` 序位#76–150，共75条；首尾 `st-chp8-p205-roomer-collected-flaying-marsyas`—`st-chp8-p208-jan-partnership-1630s-enriched`。核查 `08_CHP-8_sec_i.md` L27–59、印刷pp.205–208（PDF物理页3–6），并交叉检查对应statement、mentions、候选端点/类型、原句、说话者、限定、脚注锚点和关系分类。本批当前字段 `relation_candidate=true` 62条、`false` 13条、未分类0条；全章当前ID逐条复核累计1,195/1,462（true=806、false=389），尚有267条非`sec_ii`当前ID未直读；旧历史映射不计入。未修改知识表或候选表。
+
+**需修订或待决：**
+
+- #77 `st-chp8-p205-sandrart-recalled-cato`（L27，p.205）：claim说画作“shown in the act of suicide”，但引文为Cato“after committing suicide”并撕扯内脏。改为忠实描述Sandrart所忆画面，不把事后状态改成正在自杀。
+- #83 `st-chp8-p206-falcone-painted-battle-scenes-for-roomer`（L31–32，p.206）：claim将Roomer特别喜爱Falcone与Falcone为其绘制战斗场景合为一条；predicate只编码后者。拆分喜爱判断与画家—委托人/作品关系。脚注1的Saxl定位仍待后置注释statement交叉核完。
+- #85/#88/#78/#139（p.205–208）：兴趣/偏好类断言的`relation_candidate`口径不一致：#78偏爱Caravaggists、#85战争题材有兴趣为true；#88偏爱若干佛兰德题材、#139偏爱自然主义为false。统一偏好/风格类断言的分类规则，避免仅由候选对象写成作品组或术语组决定真假。
+- #86 `st-chp8-p206-saraceni-closes-three-paintings-continuation`（L31，p.206）：p.205 #81已给出完整“三幅Carlo Saraceni绘画”claim并有续页回链；本行又以true候选编码同一事实为Roomer→Saraceni边。保留续文/闭合锚点即可，避免重复生成事实关系。
+- #87 `st-chp8-p206-flemish-painters-settled-temporarily-in-rome`（L33，p.206）：`cand-4490`作为Rome地点端点类型正确，但其候选详情目前解释为乌尔班八世诗集印刷地，指向第2章另一语境；应补接本次来源依据或在S3同一城市组内统一来源细节，不能让旧详情代表此处证据。
+- #89 `st-chp8-p206-roomer-quoted-inventory-request`（L33–34，p.206）：statement把未具名的“Roomer书面陈述”cand-7425列在`mentioned_candidate_ids`，但`mentions.csv`无该候选的表面mention。原文仅“he wrote”，未识别信件/档案。若保留作未具名来源候选，应从mentioned IDs移除或明确其为非表面来源端点；不要把未知文书登记成已识别archive。Roomer引语speaker、库存尚未完成的限定正确。
+- #94 `st-chp8-p206-haskell-compared-roman-painting-and-venetian-colour`（L37，p.206）：claim/predicate把“clarity and serenity were missing”挂在Roman painting上；原文称这些正是当时Roman painting最具特点的品质，缺失项承接上句所谈画廊/审美图景。改写缺失品质的承载对象，不能写成Roman painting缺乏自身典型特征。#96对classical discipline与Venetian colour的拆分方向相符。
+- #98 `st-chp8-p206-later-roomer-collection-less-documented`（L38，p.206）：原文“we have much less information… and have to rely on…indirect sources”是Haskell/作者的信息与证据限制；当前subject却为Roomer。改为作者认识/来源状态的标量陈述或开放作者主体，避免把“资料少”归到Roomer属性；collection可保留为所谈对象。
+- #104 `st-chp8-p206-feast-of-herod-arrived-roomers-palace-c1640`（L39–40，p.206）：`mentioned_candidate_ids`含`cand-1816`，该ID在候选表是Camillo Pamfili，mentions.csv中也仅映射到第6章“a palace for himself”，与本句无关。移除此错映射；Roomer、Rubens、作品和约1640限定正确。
+- #111 `st-chp8-p206-herod-depicted-as-aware-of-injustice`（L41，p.206）：画作→Herod的语义方向可读，但对象cand-4165在`entity-candidates.csv`的`suggested_type`为空；应明确为画中人物/待识别的描绘对象，或保持未定，不要直接等同某一历史Herod身份。
+- #112 `st-chp8-p207-brandi-painted-chapel-altarpiece`（L44，p.207）：当前端点Brandi→祭坛画，predicate还断言作品为Roomer私人礼拜堂所用，Roomer只有mention、未结构化为patron角色。补入patron角色或拆出创作者、委托/使用场所关系；地点、作品题名与日期仍未给出。
+- #113 `st-chp8-p207-roomer-probably-commissioned-through-flemish-agents`（L44，p.207）：claim保留了“seems probable”，但端点仅Roomer→作品组；Guercino、Brandi、Sacchi及Flemish agents都只在mentions。补足创作者/中介角色映射或拆成角色明确的候选，保持概率限定及未具名代理人状态。
+- #114–115 `st-chp8-p207-roomer-sought-castiglione-bamboccianti-and-battle-painter-works`、`st-chp8-p207-roomer-sought-bamboccianti-and-battle-painter-works`（L44，p.207）：原文只说Roomer“keen to obtain”，当前statement claim正确保留愿望且称未证明购买；但候选cand-7445/7446标题写“obtained by Roomer”，把意向升级成完成收购。改候选名称与说明为“所求/欲取得的作品”，保持交易未证。
+- #120 `st-chp8-p207-preti-picture-attracted-attention-and-was-exported`（L46，p.207）：一条claim合并“Marriage Feast at Cana在Naples引起注意”与“Roomer似乎购入其他Preti作品供出口”；当前object只有后者的作品组cand-7449，不能承载前一作品的接受史。拆成作品接受与其他作品出口两条，并分别使用cand-7448/cand-7449，保留“seems”。
+- #124 `st-chp8-p207-roomer-forgave-giordano-and-became-staunch-supporter`（L48，p.207）：source只用被动语态“He was forgiven”，没有说出施予宽恕者；predicate把Roomer指定为原谅者。改成开放宽恕者的陈述，并把随后Roomer成为Giordano支持者单独保留。
+- #126 `st-chp8-p207-roomer-held-richest-and-largest-collection-permanent`（L49–50，p.207）：一条claim把“被认为是Naples最富有者”与“其收藏是城中最大且永久存在”合并；前者是Roomer个人的传闻性财富评价，后者是collection的明确比较。拆分subject范围及来源语气。
+- #134 `st-chp8-p208-roomer-backed-giordano-against-francesco`（L54–55，p.208）：claim误写成Francesco被引述为评价Giordano“优秀素描家、弱色彩家”。原文仅说Roomer支持Giordano对抗Francesco di Maria，并以插入描述称Francesco本人是great draughtsman/weak colourist；没有说Francesco在评价Giordano。保留Roomer→Giordano的站队事实；另作Haskell对Francesco的作者描述，勿误置说话者或评价对象。
+- #137 `st-chp8-p208-de-wael-dedicated-print-series`（L55，p.208）：谓词说de Wael将版画集献给Roomer，但端点为de Wael→作品组cand-7456；Roomer只在mentions。补充明确受献者Roomer角色，或以能表达献赠事件的结构记录，不将作品组误作受献者。
+- #138 `st-chp8-p208-roomer-acquired-codazzi-scenes`（L55，p.208）：是对#116 p.207“最后十年努力获取Codazzi建筑画”的回指/重述，且复用cand-7447。合并到既有证据/语境或标为上下文，不额外生成第二条同一关系。
+- #141 `st-chp8-p208-de-dominici-cavallino-affect`（L56，p.208）：主张是Rubens作品的色彩影响Cavallino；当前端点却为De Dominici→Cavallino，把“we learn from de Dominici”证据来源当作影响关系主体并漏掉作品。将关系端点设为作品cand-4092→Cavallino cand-0613，De Dominici保留在reported-by/source限定。
+
+以上75条均已逐条审读；问题行需修订/主代理裁决，本批不接收。未列行在本次statement与来源对照中未见实质矛盾；这不是第八章接收结论。下一当前版游标为非`sec_ii`序位#151（L59起）；余267条非`sec_ii`当前ID未审，完成该范围前不得称第八章整体接收。
+
+**类型待决补记：**本批出现的匿名人群端点，如 `cand-1040`（#87，佛兰德画家）、`cand-7424`/`cand-7426`（#89–91，Naples/foreign painters）、`cand-6624`（#130，西班牙总督序列）、`cand-12033`/`cand-12034`/`cand-12035`（#136、#142–144，画家/鉴赏者集合）及`cand-7460`（#146，离开Caravaggism的艺术家）当前均以`suggested_type=term`承载。依`01-domain/taxonomy-registry.md`，term定义为概念与术语；这些语句指向的是未具名或开放成员的人群。需判断其是以类别概念表达，还是现有类型无法表达的群体对象；在该边界未决前不要把它们直接当人物集合登记为KU。#78 Caravaggists也需结合其风格概念/画家群双重语境裁定。
+
+### 第八章非 `sec_ii` 当前版直接语义复核：批次 #151–225
+
+按当前 `book-statements.jsonl` 的非 `sec_ii` 来源行序，对当前序位#151–225逐条复核，共75条：`st-chp8-p208-ferdinand-commissioned-large-preti-pictures` 至 `st-chp8-p211-lorenzo-del-rosso-became-senator`。核查 `08_CHP-8_sec_i.md` L59–86、印刷pp.208–211（PDF物理页6–9），并逐项对照原文、statement、mentions、候选端点/类型、语气/时间/来源限定、脚注锚点及 `relation_candidate`。本批当前字段 `true` 59条、`false` 16条、未分类0条；累计直接复核1,270/1,462（true=865、false=405），余192条非`sec_ii`当前ID未审。旧版本映射不计入本次直接复核。未修改S2结构化表、候选表、mentions或知识卡。
+
+**需修订或待决：**
+
+- #151–154（p.208 L59）：#151把Marriage at Cana引起的反响与Ferdinand随后订购其他Preti大幅作品合并；拆开触发/接受与后续订购，并保留因果方向。#152把Jan遗产、购侯爵头衔及收藏购入合并，当前Jan→Ferdinand单一端点不足以表达各事实；按文本拆分并保留“因此有能力”的因果限定。#154把“似乎以Roomer为品味范型”与继承70幅Roomer作品合并；拆分并保留“seems”。
+- #156（p.208 L60）：Ferdinand对Giordano的高度赞赏与其持有哪些Giordano作品“不详”是两项不同内容；拆分赞赏关系与未识别作品持有范围，保留开放对象。
+- #162、#168、#183–184、#189、#204、#208–211、#207（pp.208–211）：`cand-7468`收藏组和`cand-7477`版画收藏组无可用KU类型。taxonomy无collection类型；保留类型待决，不强制归为work或term。#153、#174、#176–177、#205、#208、#215、#218所涉未具名画家、代理人和赞助者群亦以term承载，须先解决类别概念与人群对象的类型边界，不直接作为人物/机构组进入S4。
+- #166–167、#172（p.209 L66–67）：#166把Ruffo约1646开始收藏、迁入宫殿及其母建宫殿合并，#167又重复迁入事实，#172另载母亲建造。拆分收藏起始、迁入与建造事实，避免重复；S0的“Strada Emnianuela”与印本“Strada Emmanuela”校读已由S2引文保留，需按印本校正S2文字而不改S0。
+- #173、#193（pp.209–210 L68–70）：原文说Guercino要求看Rembrandt《Aristotle》的粗略图样，以使自己的画达到该画标准；当前端点Guercino→《Aristotle》把艺术家和作品混为同一关系。应以未识别的Guercino画作`cand-7471`→Rembrandt作品`cand-2119`承载匹配关系，并另记Guercino索取图样的行动。#179–180的价格谈判也复用`cand-7471`，但原文未证明谈价之画就是上述匹配画；将交易画保持为独立开放对象，暂不合并。
+- #179–180（p.209 L69）：两行表达Ruffo以100 scudi/ducats出价、后提高价格并由Guercino承诺相称画作，价格协商大体符合原文；问题在作品身份复用。保留讨价还价限定，另建未识别交易作品对象或暂缓身份连接。
+- #182（p.209 L70）：Ruffo在Messina收到画作后决定是否继续订购，是条件性决策；当前Ruffo→Messina把地点错当决策对象。将Messina作地点限定，画家/作品/决定对象保持未识别或开放。
+- #184、#189（p.209–210 L70、L73）：跨页“Ruffo aiming at a representative collection of the leading contemporaries”续句已通过continuation指针连接，但两行都作为true关系重复编码同一Ruffo→collection关系。后行保留作续文证据/闭合，不重复建边。
+- #186–188（p.210 L72）：原文“over a period of a dozen years”限定三幅Rembrandt画作作为集合的购藏期间；当前分别附在三幅单件statement上。把时间范围保留在三作集合级，除非另有单件日期证据。
+- #200（p.210 L74）：Ruffo特别搜求Guercino早期、粗犷风格作品；当前对象端点却为画家本人`cand-1258`。将Guercino作创作者/风格限定，作品组保持开放，或改为来源限定的偏好断言。
+- #203（p.210 L75）：原文说Ruffo画廊所列多数南意大利画作继承自其兄弟；当前端点为作品组→未名兄弟，Ruffo只在mention中。保留Ruffo收藏语境和“most”限定，受赠/继承主体按原文可证范围保持开放，不补推关系。
+- #215（p.210 L81）：Haskell概括Florentine patrons对Neapolitan art的欣赏导致“vitally important commissions”；当前端点 patrons→Neapolitan painting，没有承载未知委托/作品的端点。保留为来源限定的概括因果判断，委托结果保持开放，不暗示具体委托。
+- #222（p.211 L85）：正文statement正确保留Andrea出生于1640、36岁获与Lorenzo共享的面粉专营权及脚注边界；但正文脚注标记仅写入自由文本，未通过结构化`footnote_marker`/note statement link连至独立脚注statement `st-chp8-p211-flour-decree-citation`。补结构化脚注锚；脚注所述1676-06-01起九年期限不得并入年龄主张。
+
+其余本批逐条核对的当前statement，未发现超出上述问题的实质原文—结构不一致；“无其他发现”仅指本批，不构成章节接收。本批存在收藏类型与匿名群体类型阻断项，且多个claim需拆分/改端点，故第八章仍不接收。下一当前版游标为非`sec_ii`序位#226；当前版本章仍有192条未复核。
+
+### 第八章非 `sec_ii` 当前版直接语义复核：批次 #226–300
+
+按当前 `segments.jsonl` 登记顺序、`qualifiers.source_line_start` 及原表行序作为同段并列项的次序，对非`sec_ii`当前序位#226–300逐条审阅，共75条，首尾为`st-chp8-p211-andrea-died-in-rome`—`st-chp8-p213-collection-outstanding-interest`。对照`08_CHP-8_sec_i.md` p.211 L85–96、p.212 L99–106、p.213 L109–114，PDF物理页9–11及当前statement、mentions、entity-candidates、结果摘要和来源限定。本批`relation_candidate=true`51条、`false`24条、未分类0条。累计当前版直接复核1,345/1,462（true=916、false=429、未分类0）；余117条，即非`sec_ii`序位#301–411及6条图版视觉转录statement。旧版本行序映射及历史覆盖不计入当前直接审阅。只追加本过程记录；未修改S2结构化表、候选表、mentions或知识卡。第八章未完成，不能接收。
+
+**需修订或待决：**
+
+- **claim范围仍混入相邻断言：**#264（p.212 L103，`st-chp8-p212-four-scenes-made-for-house-and-considered-finest-works`）把Vannini制作四幅画与其被认为是最佳作品并在一条claim内；#267另有评价断言。将#264限于制作事实，评价留在#267并保留评价者未明。#266（p.212 L103，`st-chp8-p212-vannini-style-and-florentine-disegno-assessment`）把Vannini风格/素描与佛罗伦萨绘画“provincial backwater”评价合并；后者已由#268承载。缩窄#266并移除不再由claim支持的佛罗伦萨mention。#276（p.212 L105，`st-chp8-p212-andrea-and-lorenzo-may-have-started-careers-in-naples`）subject只含Andrea `cand-2275`，claim却同时指Andrea与Lorenzo；#277另述Lorenzo。按人物拆开，保留Haskell“perfectly possible”的推测语气。#289（p.213 L112，`st-chp8-p213-giordano-religious-and-devotional-pictures`）把宗教题材与“more purely devotional”画作合并，后者由#290另述；缩窄#289并移出`cand-7558`。#299（p.213 L114，`st-chp8-p213-collection-emphasis-on-naples-and-neglect-of-rome`）混合那不勒斯收藏重点、罗马被忽略与“outstanding interest”；#300另述评价，#302另述罗马。将#299限于那不勒斯收藏重点；#301保留disegno转向colore的独立判断。
+- **关系参与者或端点缺失/角色错误：**#249（p.211 L97，`st-chp8-p211-wills-and-caravaggio-bequest`）现为Lorenzo `cand-2282`→画作`cand-7514`，claim实际说Lorenzo遗嘱把作品遗赠给Priore Coriolano Montemagni `cand-7512`；受遗者仅为mention。且claim将Lorenzo、Ottavio两份遗嘱未提及画作的档案事实与遗赠合并。拆开文书记载与遗赠，或建含遗嘱人、作品、受遗者的事件结构；共享“wills of Lorenzo and Ottavio”span还应映射Ottavio遗嘱候选`cand-7508`。#236（p.211 L94，`st-chp8-p211-ottavio-bishop-volterra`）把Volterra `cand-7491`（place）当作主教职位端点；补职位类型端点或把Volterra作地点限定，不能把城市等同教区/职位。#243–244（p.211 L96，`st-chp8-p211-dolci-flight-sent-to-lord-exeter`、`st-chp8-p211-second-picture-sent-to-poland`）原文是兄弟把画送给Lord Exeter（在England）/远至Poland，现仅家族→作品；补收件人/目的地角色或记录为转送事件，保留方向。#260（p.212 L101，`st-chp8-p212-altar-picture-left-for-pupil-completion`）学徒`cand-7526`仅作mention；保留其“由学徒完成”的角色与匿名状态。#262（p.212 L99，`st-chp8-p212-grandfather-andrea-built-chapel`）把祖父Andrea建家族礼拜堂与奉献给其未具名同名圣人合并；拆分建造和奉献，或明确礼拜堂→未具名圣人的dedication角色。#269（p.212 L104，`st-chp8-p212-1613-grand-duke-letter-about-antonio-sons`）原文称大公写信给西班牙总督，信中提及Antonio的sons and heirs；当前端点大公→信件档案，收信人`cand-7539`及子嗣组仅作mention。保留信件为archive并显式表达发信人、收信人、信件与被提及人物的来源限定角色；`cand-7541`将复数人物组错标`term`，属类型待决，不可当概念。#285（p.212 L107，`st-chp8-p212-many-family-pictures-acquired-through-giordano`）和#293（p.213 L111，`st-chp8-p213-nome-collecting-may-have-followed-giordano-intervention`）分别把Giordano中介只留在mention，未表达“acquired through/through Giordano”角色；保留“may have”并补中介角色或改成来源限定事件主张。#285还应将未具名画组`cand-12051`加入mentioned IDs并把“Many of their pictures”span映射给它，移除不属本句的`cand-7520`及较早六十余幅Giordano作品`cand-7537`。
+- **主语、证据对象或作品类型错配：**#270（p.212 L104，`st-chp8-p212-business-connections-probably-outweighed-taste`）原句是Haskell对家族收藏转向原因的推断（business connections probably outweighed taste），当前subject却是未具类型的Del Rosso picture collection `cand-7520`，且该段无此对象mention。改为来源限定的作者判断/收藏模式判断或开放主语，删除无锚点的`cand-7520`映射。#274（p.212 L105，`st-chp8-p212-over-hundred-neapolitan-pictures-introduced`）原文主语为“new generation”，当前落到较宽的Del Rosso家族`cand-7489`；避免将行动归给全体家族成员，必要时保持代际组开放。#241（p.211 L96，`st-chp8-p211-del-rosso-inventory-reports-glass-and-durer-pairs`）`cand-7520`是未定类型画作收藏，claim却称“collection record lists”；核实脚注的inventory是否可作为独立archive端点，或改为收藏中作品内容主张，保留脚注来源归属，不将collection本体说成inventory record。#295（p.213 L113，`st-chp8-p213-callot-print-and-original-plate`）印版候选`cand-7570`无当前taxonomy类型，须维持待决并与Callot印刷品`cand-12429`分开，不可强塞为作品类型。
+- **mention映射遗漏、越界或多余：**#231（p.211 L90，`st-chp8-p211-del-rosso-marriage-alliances`）“the best families”明确对应未名家族组`cand-11559`，但无mention span；补直接跨度并保留类型待决。#237（p.211 L94，`st-chp8-p211-ottavio-entered-church`）`cand-3400`列为mentioned ID但缺“The Church”span，应补。#246（p.211 L98，`st-chp8-p211-forebears-grandfather-open`）将只在次页p.212 L99出现的家族礼拜堂`cand-7522`放入p.211 mentions；移除该跨段映射或用明确continuation元数据保留。#247–248（p.211 L90–91，`st-chp8-p211-manini-salvini-career-accounts`及其相邻statement）档案组`cand-12050`列在mentioned IDs但无原文跨度；映射至“Very brief accounts of the careers…”并说明其指代对象仍开放。#251（p.211 L92，`st-chp8-p211-andrea-artistic-activity-sources`）补`Giuseppe Ghezzi’s notes`→`cand-12049`。#275（p.212 L105，`st-chp8-p212-some-pictures-came-from-roomer-collection`）`cand-7535`作品子组和Roomer `cand-2223`列入IDs但缺“some”及“Roomer collection”跨度，补span。#286（p.212 L108，`st-chp8-p212-giordano-pictures-included-many-erotic-works-open`）把`cand-7553`列入p.212 mentions，但其具体作品描述在p.213 L109；移除或以明确跨页指代标记。#287（p.213 L110，`st-chp8-p213-giordano-erotic-subjects-and-ignudo`）作品组`cand-7551`需判断“of which”回指span并补映射；Venus/Amor主题`cand-7552`仅出现于p.212，应从本句移除或说明跨页延续；具体作品`cand-7553`的p.213映射可保留。#289缩窄后移除与独立#290 devotional group重复的`cand-7558`。
+- **来源引文及原文跨度：**#249的合并来源跨度目前只映射Lorenzo遗嘱候选`cand-7507`，补Ottavio遗嘱`cand-7508`的同跨度映射。#270当前`cand-7520`无本段原文mention，按上述主语问题删除。所有mention修订须以原文短语实际边界为准；不因候选表已有对象而补造原文跨度。
+
+**类型待决与接收结论：**#231未名“best families”候选`cand-11559`无类型；#241/#270/#285/#299涉及的收藏候选`cand-7520`无taxonomy类型，collection类型在当前taxonomy中缺席；#295印版`cand-7570`亦无可用类型；#269“sons and heirs”候选`cand-7541`被标为`term`但实际指人群。上述均保持待证/待定，不以S2表通过替代S4登记。除列出的问题外，本批其余逐条核读记录未见需修订的不一致；此结论限于75条，不是第八章接收。下一当前版游标为#301 `st-chp8-p213-collection-shift-from-disegno-to-colore`；余117条未审，不得称章节完成。
+
+### 第八章当前版直接语义复核：批次 #301–375
+
+按当前 `segments.jsonl` 登记序、`qualifiers.source_line_start` 及原表并列行序，对当前statement #301–375逐条复核，共75条，首尾为`st-chp8-p213-collection-shift-from-disegno-to-colore`—`st-chp8-p212-n3-dolci-and-bilivert-pictures`。对照S0分节原文p.213 L114–118、p.214 L121–124及注释L127–151；目视核对PDF物理页11–12（正文）及2–7、10（脚注）。交叉检查当前 `book-statements.jsonl`、`mentions.csv`、`entity-candidates.csv` 和 `results/chp-08.md`。本批`relation_candidate=true`44条、`false`31条、未分类0条；本批当前ID逐条覆盖完整。只追加过程记录，未修改S2表、候选、mentions或知识卡。第八章不接收。
+
+**实质问题及建议去向：**
+
+- **拆分后顶层与qualifiers仍保存不同版本：**#301 `st-chp8-p213-collection-shift-from-disegno-to-colore` 的顶层claim仅记录收藏由disegno转向colore，但`qualifiers.claim`仍加入其“symptomatic of advanced international taste”解释（该解释已有#303）；#306 `st-chp8-p213-giordano-works-regional-importance`的qualifiers.claim还加入“crucial importance to central Italy”及“masterpieces”（分别由#308/#309记录）；#307 `st-chp8-p213-mehus-freshness-would-suit-giordano-patrons`的qualifiers.claim还包含#310的Mehus适合Giordano友人/赞助人的反事实评价；#314 `st-chp8-p213-durazzo-local-collection-and-bologna-open`的qualifiers.claim还包含Durazzo家族成员身份及地方收藏（分别由#316/#317记录）；#322 `st-chp8-p214-baglioni-neapolitan-holdings`的qualifiers.claim还包括Baglioni对那不勒斯艺术的兴趣及Preti作品（分别由#324/#325记录）。这些行顶层claim是窄化后的当前内容，qualifiers中的旧claim会重新把已拆开的判断混回去；对同一ID同步或移除过期副本，并使两个mention列表一致。#305 `st-chp8-p213-conditional-rosso-role-in-giordano-commissions`的顶层mentioned IDs包含作品组`cand-7565`，qualifiers列表没有；按当前端点及源跨度同步该引用。不要把此字段差异误计为新事实。
+- **重复、复合及跨页边界：**#312 `st-chp8-p213-mehus-three-pictures-disappeared`同时记录兄弟1677年拥有三幅Mehus作品和十二年后这些画消失；拆为有时间限定的所有权与后续消失/不见两项，保留“twelve years later”的相对时间及Haskell转述。#313 `st-chp8-p213-mehus-ignored-by-brothers`与#307对“Yet Livio Mehus they largely ignored”完全重复；合并证据或将一条标为重复上下文，不重复生成同一关系。#314（p.213 L117–118）与#318 `st-chp8-p214-durazzo-naples-continuation`是同一跨页“not only Bologna…but also Naples”句；保留p.213开放片段作continuation或合并原句证据，避免把同一来源路径计为两条独立关系。#319 `st-chp8-p214-giordano-four-canvases-for-durazzo`述Giordano为Durazzo家族画四幅画，当前关系端点仅画家→家族，作品组`cand-7573`只是mention；用作品组并保留Durazzo为受益/委托方，或明确以事件结构表达画家、作品和家族角色。#320 Solimena约1704“added”两幅旧约历史画；句子没有重述收藏者/委托人。保留此处添加作品的来源表述，不把上下文升级为明示的家族委托或确定收藏事实。#326–327 `st-chp8-p214-influence-on-pittoni-and-tiepolo`中“whose”的先行项未定，现把整组Giordano/Solimena作品`cand-7576`作为影响源端点可能过宽；将先行项保持开放，或限于与文本距离最近的两幅Solimena作品并注明仍属来源语法解释，不声称组内每件作品都影响两位画家。
+- **p.204注2断代/地点与艺术影响：**#329 `st-chp8-p204-marriage-at-cana-date-and-location`的扫描p.204 n.2（PDF物理页2）为“The Marriage at Cana of about 1686, now in Chicago”。当前qualifiers.claim把它转述成“dating to about 1686 and says it was then in Chicago”，会将`now`误读为1686时的地点；拆分或改为约1686年的作品年代及Haskell写作时所报的Chicago位置。#330 `st-chp8-p204-marriage-at-cana-influence`的原句同时称Veronese和Barocci影响，当前唯一object端点为Veronese `cand-2755`，Barocci `cand-0247`只在mentions；拆分成两条艺术家影响候选或使用明确的双艺术家组端点，保留Haskell的风格判断及被引页面未独立核读限制。#328 `st-chp8-p204-n1-citations`扫描读作Zanotti II p.35，`original_quote`为“p. 3 5”；校正S2引文为印本读数但保持S0不改。该脚注同引Zanotti及L. Crespi，而结构化object只放Zanotti `cand-7115`，Crespi `cand-7578`仅在mentions；按 citation contract 分拆locator或记录完整引用目标集合。#334（p.204 n.3）一行并引De Dominici与Bologna，object仅De Dominici、Bologna只作mention；同样拆分或完整保存两个来源locator。
+- **source/端点映射：**#335 `st-chp8-p204-valletta-bought-codazzi-paintings`将购买与Codazzi建筑画、Cerquozzi和Micco Spadaro画中人物贡献合在一条claim，当前端点为Valletta→作品组；分别表达购买和作品署名/人物贡献，并保留卖方未名、作品未逐件识别及De Dominici为二手来源。#337 `st-chp8-p205-n1-articles-reference-firsthand-sources`说Ceci、de Vaes两篇文章使用一手资料，当前subject/object却分别是Ceci文章与de Vaes文章，形成“文章A→文章B”的假关系；改成两篇文章组→资料组/作者对证据来源的陈述，或作为非关系来源方法说明。#338 `st-chp8-p205-n1-roomer-source-citations`的脚注明确说Roomer信息来自Ceci和de Vaes两篇文章，当前object只连Ceci `cand-7583`，de Vaes `cand-7584`只在mention；补足第二文献目标或将来源组结构化。年份范围按扫描原句“Ceci and de Vaes (1925)”与书目已有Ceci 1920条目保留为未决，不据此消解冲突。
+- **复合内容或脚注锚不充分：**#339 `st-chp8-p205-drunk-silenus-capaccio-1634-list`把作品在Capodimonte、作品约1626年和未见于Roomer 1634列表三点放一条；拆成作品地点/年代与名单未见的来源限定判断，避免将“不提及”扩写成未收藏。#340 `st-chp8-p205-n2-palomino-capaccio-trapier-citations`与#342 `st-chp8-p205-n3-capaccio-trapier-ville-citations`各自把含多项历史陈述及多个引证的整条脚注挂到单一object（前者Capaccio列表，后者同为Capaccio列表），而Palomino/Trapier/Ville仅为mention；citation行应保存完整多来源定位或逐一拆开，历史claim分别由#339/#341/#343承载。#354 `st-chp8-p207-n1-pool-of-bethesda-passed-through-three-collections`的claim谓该画经过Roomer、Van den Einden、Colonna三收藏，但`original_quote`只截到画名“The Pool of Bethesda”，未包含随后谓语“did pass through the three collections in just this way”；扩展到实际完整句/明确续句锚点，否则来源不能证明claim。#356 `st-chp8-p207-n1-tentative-colonna-picture-provenance`保留“good—but not conclusive—grounds”，但Colonna→Roomer两端省略“through Van den Einden”这一中介候选`cand-7461`；补中间收藏/过渡角色或继续用文字限定而不压成直接来源链。#357的对应第二幅画statement也把三收藏路线压在Colonna单一object上，宜与#354采用同一source-bounded路径表达。
+- **作者、档案与所指来源角色：**#350 `st-chp8-p207-n1-colonna-collection-inventoried-in-1688`说Luca Giordano于1688年为夫妻收藏编制目录，当前关系是inventory archive→collection，Giordano仅为mention；补出编制者角色或表示为包含档案、收藏与编制者的事件，同时保留Haskell引Ferdinando Colonna来源、目录未独立查阅。#353 `st-chp8-p207-n1-limits-on-other-colonna-provenance`是Haskell拒绝接受Vaes对其他画作来源的确定性判断，当前subject=Colonna收藏、object=Vaes，不能准确表达“作者对来源主张的质疑”；用source/claim评价或scalar claim记述，勿当作Colonna与Vaes间事实关系。#367 `st-chp8-p209-n1-cite-ruffo`的PDF物理页7印本写“Vincenzo Russo”，但当前qualifiers.claim和`cand-3474`把名字写成“Vincenzo Ruffo”；书目候选`cand-6454`为V. Ruffo的文章。保留印本“Russo”及候选书目“V. Ruffo”，将二者身份关系列待证，不能静默校成同一人。相邻#368 `st-chp8-p209-n1-cite-slive`印作“Russo’s relations with Rembrandt”，claim可以说明此处语境所指但须保留原印字并区分待核的作者/被讨论者身份。
+- **文字校读及类型待决：**目视扫描确认#344 `st-chp8-p205-marcotti-januarius-print-dedicated-to-roomer`印作“St Januarius”，当前`original_quote`为“St Januatius”；#352 `st-chp8-p207-n1-ferdinand-left-thirds-to-daughters`印作“in turn”，当前quote为“imturn”；#359 `st-chp8-p208-n1-cite-de-dominici`引文印作“contra tutte quelle”，当前quote为“contra rune”; #362 `st-chp8-p208-n3-set-reported-at-british-museum`印作“There is a set in the British Museum”，当前quote为“set tn”; #371 `st-chp8-p212-n2-longhi-publishes-vannini-scenes`印作“The Fall of Manna”，当前quote为“The Fäll of Manna”；#374 `st-chp8-p212-n3-cortona-madonna-four-saints`印作“obtained for them in Naples by Luca Giordano”，当前quote作“in-Naples”。按印本修校S2引文/候选显示层，S0来源转录保持不变。#371另把Longhi设为subject、Longhi文章`cand-7604`作object，predicate却说“两幅画由Longhi发表”；应将作品组`cand-7529`/`cand-7530`→文章`cand-7604`作为发表/刊载关系，另把Longhi标作文章作者。#374则把Giordano的中介/取得角色只放在mention，当前work→Del Rosso family端点没有表现“由Giordano在Naples为他们取得”；补事件角色并避免声称委托。#375 `st-chp8-p212-n3-dolci-and-bilivert-pictures`把三幅Dolci、四幅Bilivert、其中《Flight into Egypt》出售给Lord Exeter及“均为宗教题材”合并；它的object仅为Dolci组`cand-7606`，Bilivert组`cand-7607`仅在mentions，且后者已由#372另记。拆开两组的所有权/题材与特定画作出售，消解与#372重复，并保留Lord Exeter角色。
+- **citation目标待补：**#370 `st-chp8-p212-n2-cite-cinelli-baldinucci`和#373 `st-chp8-p212-n3-cite-gualandi-mostra`均为`relation_candidate=false`的脚注来源记录，object为空而引用书目只在mentioned IDs中。若这些行保留为书目定位记录，应为所引文献建立完整可追溯目标或citation数组；不把“引用”本身转成历史事实边。#332–333、#340、#342等多个来源目标亦按上文补足，维持citation本身的false分类。
+
+**本批范围与旧序号差异：**本批75个当前ID均已直接重读。按既有游标算术，之前报告的1,345/1,462加本批为1,420/1,462，剩42条（当前序位#376–411的36条及6条图版视觉转录）。但复核发现此前#1–75历史记录把p.204脚注statement标为#37–43；当前 `segments.jsonl` 登记序+行号中p.204正文在#37–43，而p.204注释statement `st-chp8-p204-n1-citations`、`st-chp8-p204-marriage-at-cana-date-and-location`、`…influence`现位于#328–330。因此旧游标数字不能证明注释statement的ID覆盖；全章唯一ID累计数待主记录按statement_id核对后确认。当前批次确证的可接收结论仅限本批未列出的逐条比对项；第八章仍不接收。
+
+### 第八章当前版直接语义复核：批次 #376–411 与六条图版statement
+
+本批按当前 `segments.jsonl` 登记顺序、`qualifiers.source_line_start` 及同段原表行序直接核读#376–411共36条，首尾为`st-chp8-p212-n3-ferri-altarpieces`—`st-chp8-p214-solimena-admirers-in-venice`；覆盖S0 p.211–214注释转录L1–4（包括主分节文件中的p.212–213注释），核看PDF物理页9–12。另逐条核对六条图版statement #1457–1462：`st-chp8-pl38-group-attribution`、`st-chp8-pl35b-credit`、`st-chp8-pl35b-herod`、`st-chp8-pl36a-credit`、`st-chp8-pl36a-subject`、`st-chp8-pl36b-credit`；对照图版转录及PDF物理页17、18、36，并用目录/正文交叉指针核对Plates 38–39。#376–411中`relation_candidate=true`22、`false`14、未分类0；图版六条均为true。与此前当前版复核的sec_ii #412–1456（1,045条）及非sec_ii #1–375合并，当前章共1,462个statement ID且唯一，逐条覆盖1,462/1,462；按当前表重算`relation_candidate=true`987、`false`475、未分类0。未修改 `book-statements.jsonl`、`mentions.csv`、`entity-candidates.csv` 或知识卡；仅追加本过程记录。该覆盖不构成语义接收，实质端点/映射问题待修。
+
+**需修订或待决：**
+
+- **正文断言与关系端点：**#378 `st-chp8-p212-n5-archivio-letter-content`（p.212注5）把收自那不勒斯、写给Panciatichi的原始来信`cand-7613`放在object，而predicate主张该信转递总督致画家Giordani的另一封信；后一封信未建候选、subject开放，且`cand-7613`没有本段mention span。保留作者/总督未名及Haskell二手转述，明确外层档案来信与内层总督信的不同对象/角色，或暂写来源限定内容断言；不补造写信人身份。#382 `st-chp8-p213-n1-longhi-publication`称Paceco de Rosa的画“由R. Longhi发表”，当前却是Longhi `cand-7603`→其论文`cand-7604`；改为画作组→论文的刊载关系，Longhi保留为论文作者，`the latter`仍只指Paceco de Rosa。#384 `st-chp8-p211-cinelli-inventory-incidental-biographical-information`说两份档案均提供附带传记信息，当前却连成Cinelli文本→Andrea库存；改作作者对两份来源的并列评价/来源说明，不编码文献之间的关系。#385 `st-chp8-p211-haskell-acknowledges-paola-zambelli`误把Andrea del Rosso `cand-2275`设为subject；原文“I am most grateful”是Haskell对Paola Zambelli的致谢，改为作者/来源语境断言并保留Zambelli及Archivio di Stato角色，不把Andrea设为关系端点。#397 `st-chp8-p214-n1-boni-mythological-frescoes`目前仅以Del Rosso family→壁画组表示“召来Boni装饰宫室”；应补Boni的装饰者/受召角色及未具名宫室的地点限定，或改用包含家族、艺术家、壁画组与建筑空间的事件表述。family候选已列入mentioned IDs，但原句代词“they”没有本段mention span；补直接指代跨度或由明确跨段链接承接。
+- **来源引用与mention：**#379 `st-chp8-p212-n5-cite-baldinucci`的`citations`已指向Baldinucci卷VI、1728、p.506及`cand-4846`，但该publication候选列在mentioned IDs而没有本段mention span；应决定publication只由`citations`定位，还是为可见书目字符串补跨度，不将作者Baldinucci与书目作品混作同一mention。#391 `st-chp8-p211-flour-decree-citation`把佛罗伦萨`cand-1041`列入mentioned IDs，但S0原句“Città e Dominio di Firenze”无相应mention；补地点span/限定，勿把城市写成该decree的直接关系端点。#398–405（p.214注1–4引用记录）保留现有`citations`中可追溯的卷/页，不需把引文误作历史事实边；但凡`mentioned_candidate_ids`含可见的Soprani、Zanotti、De Dominici或Bologna候选，须补对应本段名称span。尤其#402 `st-chp8-p214-n1-cite-zanotti-vol-ii-p231`的family、Boni及壁画组候选仅属被引正文claim，不是短引文“Zanotti, II, p.231”的本段mention；从此citation statement的mention列表移出或仅由`linked_body_statement_ids`承接。#406 `st-chp8-p214-n4-cite-loret`已有Mattia Loret人名span与文章的citation target，页码未给出，限定准确。
+- **不当纳入的群组成员：**#410 `st-chp8-p214-n4-venetian-patrons-owned-pictures`及候选`cand-12055`把Labia列入画作所有者组，但原文说“Besides the Labia, who are discussed separately in Chapter 9”，本句所述四组/人是Procuratore Canale、Flaminio Corner、Giovanelli、Widmann。将Labia从本项组成员和claim中分开（其第九章事实另审），保留“Giordano or Solimena之一”的不确定分配；该组混合家族/个人，candidate type仍待决，不能强归一类。`cand-12056`保留为未具名作品组，不拆派给单一所有者/画家。
+- **图版逐字mention锚点：**#1458–1462的caption statement各自有原文引句、source_file、印刷图版和PDF页锚，但当前`mentions.csv`在相应图版segment中没有这些直接caption提及的跨度（#1458–1459 Rubens/《The Feast of Herod》/Herod；#1460–1461 Petrucci/大公子费迪南多肖像/费迪南多；#1462 Crespi/《Girl at her toilet》）。尽管各条cross-reference指向List of Plates 100–102且对应候选在目录中已有提及，仍应为图版caption本身补mention跨度，或明确使用跨段mention映射契约。#1457标题段已有“FRESCOES”及“SEBASTIANO RICCI”的span和Plates 38–39/目录107–109 cross-reference；三幅作品只由交叉来源限定，保持group候选`cand-12418`与三个单件作品边界，不把group标题拆并成单幅作品。
+
+**范围内无其他问题：**#376–377、#380–381、#383、#386–390、#392–396、#406–409、#411本次对照的原文方向、归属语气、时间/来源限定及对象范围相符；图版#1457的组标题和交叉范围相符。该清单仅限本批，不消除上述citation跨度、candidate待决或全章待修事项。
+
+**范围外的扫描补充（不计入本批数量）：**#368 `st-chp8-p209-n1-cite-slive`在PDF物理页7印作“Slive, pp. 59 ff.”；当前S0 OCR/statement quote的“Slivc”应仅在S2引文层按印本校正，S0来源本体保持不改。另，PDF物理页12正文印作“Don Antonio Russo”，而当前#413 `st-chp8-sec-ii-intro-local-centres`按Ruffo/cand-2297归一；该印字与身份候选冲突应保留为待证，不能静默同一化。#413不计入本批。按当前表重算的#1–75 `relation_candidate`为true56/false19，与较早过程段落记录的57/18相差1；本记录采用当前结构化表计数，旧批次汇总应按statement ID复核后再更新。
+
+**批次结论：**本批42条（#376–411及图版#1457–1462）已逐条核读；不接收。第八章当前唯一ID覆盖1,462/1,462，但caption mention span、出版/来源端点、错误主体与组成员边界等未修项仍阻止语义接收；#368拼写及#413身份差异保留待修/待证。无未覆盖当前statement；本章接收需先处理记录中的修订事项并做定向复核。
+
+
+### 2026-10-20：第五章当前版 S2 独立语义复核收尾（intro 6条、sec_iv 151条）
+
+按当前 `04-knowledge/tables/book-statements.jsonl` 中的稳定 `statement_id` 逐条复核第五章最后未覆盖范围：`05_CHP-5_intro.md` 注释段 `chp-5:05_CHP-5_intro:l7-9` 共6条（`st-chp5-p120-note1-modello-ottawa` 至 `st-chp5-p120-note3-mancini-locator`）；`05_CHP-5_sec_iv.md` 当前151条（`st-chp5-p142-academy-quarrels-would-not-deter-cardinal` 至 `st-chp5-seciv-note-l47-p144-bellori-nota-refers-to-de-rossi-collection`）。逐项对照登记分节原文、mentions、candidate端点和候选类型、claim、原引文、speaker/语气/时间/来源限定、`relation_candidate`及书信/脚注链接；sec_iv核对印刷pp.142–145、PDF物理页27–30，覆盖S0 L4–54（含跨页段及L40–54注释）；intro核对印刷p.120、PDF物理页1及L8–9脚注。新增本批当前ID直接复核157/157，其中intro true=6、false=0、unset=0；sec_iv true=127、false=24、unset=0。结合此前本过程记录中sec_i 480/480、sec_iii 436/436的当前ID逐条复核，第五章当前唯一statement共1,073条，直接语义复核1,073/1,073；表内分类当前true=741、false=332、unset=0。全章不接收，原因是以下需修订或明确保留待证的语义问题。未改 `book-statements.jsonl`、`mentions.csv`、`entity-candidates.csv`、S0来源或知识卡；仅追加本过程审阅记录。
+
+**实质性claim、端点或分类问题：**
+
+- `st-chp5-p142-rosa-landscapes-and-battles-as-client-driven-compromise`（S0 L8，p.142）把Rosa所说客户“obtuseness”的自我描述与Haskell另一句“Roman connoisseurs”促使其专画小幅浪漫风景拼成同一断言；当前object `cand-6218`是connoisseurs组，不是Rosa句中的clients。应拆开两种声音/解释，不把两组人视为同一对象。
+- `st-chp5-p142-cerquozzi-and-rosa-considered-rivals`（L7，p.142）把“were considered rivals”与Haskell称这种比较为“an outrageous insult”的评价合并；保留来源的比较说法和Haskell评价层级，避免把作者评价编码为Rosa/Cerquozzi的关系事实。
+- `st-chp5-p143-stoicism-virtually-replaced-christianity`（L15–16，p.143）将一般“Christianity as a guiding creed”接到`cand-5855`，该候选是别处Cassiano信仰语境，不是本句泛指基督教。改用开放、来源限定的通用概念或保留对象未定；保留“for some daring thinkers”及“virtually”的范围/程度限定。
+- `st-chp5-p143-rosa-studied-stoics-for-art-themes`（L16，p.143）与`st-chp5-p144-regulus-raised-small-picture-idiom-to-heroic-tragedy`（L26，p.144）都将“the Stoics”/“Stoic historians”及其writings接至抽象哲学候选`cand-2510`。分别厘清人物/群体、历史著述与Stoicism思想概念；保留后一项为Haskell对Regulus的解释，不把诠释升为作品自述。
+- `st-chp5-p143-duke-of-modena-requested-pictures`及`st-chp5-p143-duke-request-battles-by-rosa`、`...battles-by-borgognone`、`...flower-pictures-by-mario-de-fiori`、`...flower-pictures-by-cerquozzi`、`...landscapes-by-gaspard-poussin`、`...fables-by-pier-francesco-mola`（均S0 L20，p.143）：原文是公爵经其罗马代理人提出按类型、按画家分列的请求。保留请求/愿望、代理中介、作品类型与艺术家角色；不要生成已完成委托或假定已存在作品。总述与六条分类请求可互链，避免重复写成六项已完成委托。
+- 下列statement虽`relation_candidate=true`，却为无端点或缺关键对象的泛称/反事实/愿望/作者概述：`st-chp5-p142-rosa-sought-but-failed-public-commission`、`st-chp5-p142-rosa-wished-for-hypothetical-patrons-for-histories`、`st-chp5-p143-paintings-recorded-ancient-heroes`、`st-chp5-p143-plutarch-used-as-quotation-source`、`st-chp5-p143-seneca-used-as-quotation-source`、`st-chp5-p143-rosa-potential-clients-preferred-landscapes`、`st-chp5-p143-learned-connoisseurs-rarely-interested-in-rosa-histories`、`st-chp5-p143-stoicism-appealed-to-the-disappointed`、`st-chp5-p143-stoicism-colored-ethics-and-imagery`。按句义补有边界的未名对象组/开放端点，或将纯概述及Haskell评价降为非关系claim；Cassiano/Camillo是Rosa假想所求的赞助人，不应推断实际赞助。`st-chp5-p143-plutarch-and-seneca-used-for-quotations`保留为复合说法时当前已标false；两条拆分statement分别列人物但未连接引文/作品对象，需一并考虑重分类或补有边界的“引文”对象。
+- `st-chp5-p144-rosa-painted-altarpieces-for-family-chapel`（L26–27，p.144）主客体为Rosa→altarpiece组，predicate却写“for chapel”，而Madonna di Montesanto `cand-6228`只在mentions。拆成艺术家制作作品、作品与family chapel/公开展示场所之间的角色，保留“without charge”与至少一次公开露出的目的；不将不同关系压进错误端点。
+- `st-chp5-p144-no-evidence-of-de-rossi-intellectual-stimulus`（L28，p.144）是Haskell关于“没有证据表明”De’ Rossi给予Rosa知识刺激的证据缺失判断，不是De’ Rossi→Rosa的肯定关系。降为来源限定的否定/缺证评述，不进入正式正向关系候选。
+- `st-chp5-p145-rosa-not-taken-seriously-by-unnamed-audience`（L36，p.145）将修辞性“whom no one would take seriously”作为true关系候选，但无边界的“no one”没有对象。宜作为Haskell对Rosa处境的作者概述（false），或另存受限、明确匿名的受众组，不补造具体人群。
+
+**原文引句、mention跨度与来源锚点：**
+
+- `st-chp5-p142-rosa-at-center-of-florentine-society`（L12，p.142）当前引句“centre osa brilliant society”应据印本读作“centre of a brilliant society”；该跨页句在p.143续为`st-chp5-p143-rosa-talents-admired-in-florence`（L15）。后者的claim扩展到前段conversation/music并声称Florence及社交圈候选，但当前引句仅含“poetry and mime…”、该段无Florence/社会组mention span。应核对跨页引文/statement互链并将映射置于实际出现名字的p.142跨度，不能把未显示的mention当成本段直接提及。
+- `st-chp5-p143-rosa-million-for-large-picture`（L18–19，p.143）把未名prelate列入mentions但无“prelate”跨度；补原词映射。`st-chp5-p143-duke-of-modena-requested-pictures`及六条具体请求（L20）列代理人`cand-11948`但缺“his agent”直接跨度；按实际代词/名词补mention或仅由总述保留并由分类行链接。
+- `st-chp5-p144-de-rossi-displayed-la-fortuna`与`st-chp5-p144-de-rossi-displayed-regulus`（L25，p.144）各自的引句未包含前文“In these he hung”，仅摘作品名/“above all the artist’s masterpiece”；补入谓词所依赖的来源短语，或把挂藏事实链接到前一句“in these”。
+- `st-chp5-p145-ricciardi-condemned-second-picture`及`st-chp5-p145-rosa-judged-second-picture-least-bad`（L35，p.145）共用匿名第二幅画`cand-11950`，但该作品候选在两行均无对应指代mention span。为“the one which you damn”与“I find the least bad”补精确回指跨度；保持它与前一幅“小画”分开。
+- `st-chp5-p145-haskell-speculates-about-quality-in-humble-dwellings`（L36）列画作组`cand-11951`但缺“such pictures/such humble dwellings”跨度；`st-chp5-p145-passeri-pictures-found-in-homes-of-different-status`（L36）把Passeri `cand-6238`与其“his pictures”作品组列入mentions，却在当前段缺对应跨度。补原句中可见的Passeri归属/作品代词，保留“Passeri所述”嵌套来源与Haskell转述。
+- `st-chp5-p145-bamboccianti-rejected-rosa-sought-qualities`及`st-chp5-p145-rosa-aspired-to-moral-poetic-qualities`（L36）所列质量候选`cand-11952`缺“elevated moral and poetic qualities”跨度；`st-chp5-p145-rosa-contemptuous-of-fellow-artists`同段所列同业组`cand-11953`缺“fellow-artists”跨度。补对应词语映射，不能只依靠候选数组。
+- `st-chp5-p143-de-rossi-paid-interest-on-rosa-deposit`（L21，p.143）claim含4000 scudi存款，但`original_quote`仅摘“paid 6 per cent interest”；应扩引至存款短语，或将利率与存款金额分别链接相邻statement。`st-chp5-p144-rosa-claimed-rome-heard-of-his-originality`（L29）引文误作“must five up”，印本为“must live up”。`st-chp5-p144-rosa-proposed-georgics-subject-of-justice`（L29）印本为Virgil’s *Georgics*，当前引文/表面“Georgies”需修正。`st-chp5-p144-rosa-letter-described-landscape-contrast`（L30）印本为“in future”，当前为“in suture”。
+- 对照PDF物理页27–30发现以下S2引句误识字/标点；按印本校正S2引文或surface，保持S0转录不改：`st-chp5-p142-rosa-leaves-rome-and-settles-in-florence`及`st-chp5-p142-bernini-hostility-partly-drove-rosa-from-rome`有多余的前置撇号；`st-chp5-p143-rosa-and-de-rossi-quarrel-in-1667`在“1667”处多出引号；`st-chp5-p145-rosa-frequently-confused-with-bamboccianti`将印本“bamboccianti”识成“bamhoccianti”；`st-chp5-seciv-note-l45-p143-marker6`页码“p. 139”被写为“p. 13 9”；`st-chp5-seciv-note-l49-p144-marker5`信件日期应为“12 May 1651”，S0/OCR“1Ó51”不应进入S2日期；`st-chp5-seciv-note-l51-p145-marker1`印本“21 May 1664”被写为“ZI May 1664”。`st-chp5-p142-rosa-at-center-of-florentine-society`的“osa”校读见上项。
+- 注释中的引用对象以`citations`/脚注互链记录，不把引文自身变成史实边。`st-chp5-seciv-note-l41-p143-rosa-described-himself-as-stoic`及同注相关行将Stoicism候选/信件候选带入mentions，但本注段缺直接跨度；`st-chp5-seciv-note-l40-p143-marker1`等引用行应以可见引文和既存`citation`目标为准，不继承被引正文对象的mentions。若由正文statement回链，明确使用已有footnote/linked-body字段，不伪造注释跨度。
+- 书信端点行`st-chp5-l40-letter-authored-by`、`st-chp5-l40-letter-addressed-to`、`st-chp5-l41-letter-authored-by`、`st-chp5-l41-letter-addressed-to`、`st-chp5-l48-letter-authored-by`至`st-chp5-l51-letter-addressed-to`目前有来源行锚，但缺`pdf_physical_page`和显式印刷页定位（原文位于印刷p.143–145/PDF物理页28–30）。补全可复现页面锚点；收信人若只从信件正文上下文推断，保留“由正文语境推定”，不要声称脚注直接写明。
+
+**intro六条结论：**四条p.120注1断言均保留Haskell的原书限定：作品`cand-2015`、艺术家`cand-1984`、教堂分录`cand-0713`（`sub_entry=St Peter’s`）、Vatican Gallery、未具名modello `cand-6013`与Ottawa定位的端点映射总体正确；“now”已限定为Haskell写作时。`st-chp5-p120-note1-preparatory-modello`目前subject=Poussin、object=modello，但predicate `made_preparatory_modello_for`按词义指向被制作模型的目标；target作品`cand-2015`仅在`work_candidate_id`，形成谓词—object不一致。改成明确三角色的事件表述，或令predicate所指“for”目标为作品、把模型作为所制作对象保留。四条注1行的`original_quote`把S0 OCR连写“anltalianchurch”原样带入；印本为“an Italian church—St Peter’s”，应只在S2引文层按印本校正。`st-chp5-p120-note2-friedlaender-locator`与`st-chp5-p120-note3-mancini-locator`的作者/作品候选、p.101及volume I/p.249定位及`citation_for_statement_ids`均与注2/3的支撑对象相符；所引原页未独立阅读的限定保留。
+
+**范围内未见需修订项：**除本记录列出的当前statement外，sec_iv逐条核读项的方向、原书限定、speaker和脚注关系与S0基本相符。所有引用页的statement来源行与PDF物理页27–30相符；未发现未覆盖statement或未分类项。上述范围是审阅结论，不代表所列对象已修复或经外部核验。第五章当前语义接收建议：**不接收，待修正引句/mention跨度、谓词端点及缺证/假设关系分类后，按受影响ID定向复核。**
+
+
+### 2026-10-20：第六章当前ID独立语义复核进度（intro及sec_i p.146–152）
+
+以当前 `04-knowledge/tables/book-statements.jsonl` 的唯一 `statement_id` 为范围，复核第六章intro 6条及sec_i截至印刷p.152的226条：`chp-6:06_CHP-6_intro:l7-11`、`sec_i:l3-11`、`l13-24`、`l26-36`、`l38-46`、`l48-57`、`l59-67`、`l69-76`。核对S0登记分节、mentions/candidate端点、原引文、speaker/时间/条件限定、`relation_candidate`和段落跨页连接；对照 `CHP-6.pdf` 物理页1–7（印刷pp.146–152）。当前表第六章唯一statement总计763条，分类true=589、false=174、unset=0。本次当前ID已逐条直读232/763，true=163、false=69；余531条，下一范围`chp-6:06_CHP-6_sec_i:l78-89`的33条（`st-chp6-p153-alexander-protests-1648-settlement`起），随后sec_i其余段、后置注释、sec_iv与sec_v。未将旧S2处理记录或机械分类计作独立审阅；未改任何S2表、候选、来源或知识卡。此为部分覆盖，不作第六章接收结论。
+
+**当前范围的实质问题及建议去向：**
+
+- `st-chp6-p146-castro-dispute`（S0 `06_CHP-6_sec_i.md` L6，p.146）把“financial disputes with the Duke led to his excommunication”与“rapid occupation of the town”压在同一statement，且主客体当前为Duke→Castro。来源没有命名实施占领的行动方。拆开被绝罚的Duke与被占领的Castro两项内容；分别保留未名施事/开放端点，不把两种行为的方向合并。
+- `st-chp6-p146-castro-location`及`st-chp6-p146-castro-papal-territory`将`cand-6257`正确用作Castro镇候选；但后项端点`cand-1831`名为Papal States且suggested_type为institution，来源说它位于“papal territory”。领土/政治实体与机构类型边界应在S3/类型审查中保持待定，不能把地理范围事实直接落到未经论证的institution类型。
+- `st-chp6-p146-decline-war-onset`（L5）当前将“some three years earlier”连到`cand-4904`（War of Castro，候选detail说1641 outbreak）；相对Haskell所说August 1645，约略年差与第2章p.58的1641说法不完全一致。保留“约三年前”原文时间和跨章差异待核，不静默重写为精确年份。当前`original_quote`的“earher”亦须按p.146印本校为“earlier”。
+- 以下p.146–150行的`original_quote`尚带S0 OCR/分行噪声，虽部分`qualifiers.qualification`已指出扫描校读，statement直接引句仍需按印本校正，S0不改：`st-chp6-p146-poussin-letter`（“N August”“Iwrote”→“IN August”“wrote”；保留Poussin作为被引用话语者）；`st-chp6-p146-1527-panic`（“the,panic”→“the panic”）；`st-chp6-p146-urban-death`（“amid the ' execration”中多余撇号）；`st-chp6-p146-note1-correspondance`（印本“Correspondance”，当前“CorresponJance”）；`st-chp6-p147-bernini-campanile-committee-decision`（“oflhe”→“of the”）；`st-chp6-p147-bernini-replaced-as-leading-architect`和`st-chp6-p147-bernini-replaced-by-borromini`（印本“leading architect”无逗号）；`st-chp6-p147-francesco-maidalchini-selected`（“17-y earold”→“17-year-old”）；`st-chp6-p148-cortona-choice-and-camillo-pamfili`（“ofPietro”“CamiUo”→“of Pietro”“Camillo”）；`st-chp6-p149-camillo-compared-with-barberini-generosity`（“did-Prince”→“did Prince”）；`st-chp6-p150-academy-director-proposals`（“director‘did”→“director did”）；`st-chp6-p150-fabio-descended-from-agostino`（“faibiilou’sly”→“fabulously”）；`st-chp6-p152-rosa-1662-and-1664-letters`（“òf reforms”→“of reforms”）。
+- `st-chp6-p147-camillo-cardinal-nephew`、`st-chp6-p147-outsider-secretary-of-state`的原文用“was made”“was brought in”的被动语态，当前subject指向Innocent X，claim则陈述任命结果。若保留Papa为施事，需标为依上下文推定；否则把施事留作未名。把Camillo先选择婚姻/建家族王朝、随后改任军职、11月再被册为Cardinal nephew、最后于1647辞职并结婚的顺序通过关联相邻statement保留，不能压成同一确定计划。`st-chp6-p147-camillo-resigns-cardinalate`（L14）true但object为空；补cardinalate/职务端点或标为开放辞职对象。
+- `st-chp6-p147-bernini-replaced-as-leading-architect`与`st-chp6-p147-bernini-replaced-by-borromini`源句主语是复数“两人”Girolamo Rainaldi和Francesco Borromini共同接替；claim应表达两人共同/并列接替或分别标作两名候选，而不是令每条都单独读成唯一接替者。`st-chp6-p147-bernini-replaced-as-leading-architect`的claim仅说Rainaldi一人。两人是否同任、职责是否完全相同仍不由这句推出。
+- `st-chp6-p148-artistic-life-revived-after-camillo-return`（L36，p.148）为true但object为空，句子表达Camillo返城后Roman artistic life相对早期torpor复苏。补“艺术生活复苏”概念/事件作为明确端点，或降为Haskell的时间性总评；保留“after”而不推成Camillo造成复苏。邻句`st-chp6-p148-artistic-life-revival-partial`保留的是更美丽的Baroque成就晚于回城这一来源陈述，勿混为因果。
+- `st-chp6-p150-alexander-accession-patronage`（L57，p.150）subject是“Alexander即位”事件、object却是Alexander本人，而predicate/claim说即位移除了阻碍enlightened patronage的个人障碍。当前端点与断言宾语不符；补有界“个人障碍/赞助条件”对象，或改为来源限定的非关系评述，不把即位事件连向Pope本人冒充被移除对象。
+- `st-chp6-p150-coffin-refusal`与`st-chp6-p150-camillo-refused-coffin-payment`将“Donna Olimpia and Prince Camillo Pamfili refused”拆为两条各自主张个体拒付。保留原文联合施事为共同拒绝/共同事件；正文随后明确二人就由谁支付争执，仍另由`st-chp6-p150-burial-cost-dispute`表达，不消去共同背景。
+- `st-chp6-p151-bernini-papal-tomb`（L65–66，p.151）claim保留Alexander VII墓、教皇去世后才动工，以及与Urban VIII凯旋纪念碑的对比，但`mentioned_candidate_ids`只列Bernini和墓；当前mention spans中有`the Pope’s death`=`cand-0665`、`triumphal monument to Urban VIII`=`cand-6306`，需补入statement提及映射。commissioner remains unknown; 不把墓的所属/安葬者认成委托人。
+- `st-chp6-p152-querini-architecture-weaknesses-blamed-on-bernini`（L73，p.152）正确保留Querini的归责话语“Bernini has been blamed”，但true候选仅有object Bernini、subject空。补来源界定的匿名blaming group/开放subject，或作为Querini归责陈述不交形式边；不能将“被归责”改成Bernini确实造成缺陷。
+
+**范围内其余核读结论：**第六章p.146的Poussin书信保持为Haskell对引文的转述并保留书信未经独立复查；财政、外交、艺术及Papacy引语大多按相应说话者、历史时态和Haskell的解释限定登记。第七章至p.152所引Niccolò Sagredo/继承人Giacomo Querini的报告，需继续保持来源归属和预测/意见语气（如Querini关于Leonine city、Vatican遗弃、malaria及porticos无益的主张不能写作已发生事实）。除上述列项外，此批当前ID逐条核读未见需修订的方向/限定错误。下一游标为第六章p.153，不代表全章接收。
+
+### 2026-10-20：第六章当前ID独立复核进度（p.155–156正文）
+
+按当前 `book-statements.jsonl` 的当前ID逐条复核：`chp-6:06_CHP-6_sec_i:l102-110` 31条（印刷p.155，PDF物理页10）、`chp-6:06_CHP-6_sec_i:l112-118` 27条（印刷p.156，PDF物理页11）及 `chp-6:06_CHP-6_sec_iv:l3-5` 5条（印刷p.156，PDF物理页11）。直接核对S0分节、扫描页、各statement原文锚、mention跨度及候选类型/端点、claim、说话者、语气时间限定与`relation_candidate`。与此前已核段合计当前版直接逐ID覆盖360/763，`relation_candidate=true` 255、`false` 105、未分类0；仍余403条：未核intro L3–5 1条、sec_i后置注释L120–157 54条、sec_iv L7–72 165条、sec_v L3–70 183条。之前进度记录将intro L7–11误计6条；当前表该段为5条，故此前“232/763”及“298/763”均多计1。本记录按当前ID纠正：此前截至p.154实际为297条，本段新增63条后为360条。仍不构成第六章接收；本轮未改结构化表、候选或mentions。
+
+**本轮需修订/待决：**
+
+- **端点类型与mention均错配：**`st-chp6-p156-lorenzo-employs-coli-on-scheme`（S0 `06_CHP-6_sec_i.md` L117，p.156）和`st-chp6-p156-lorenzo-employs-gherardi-on-scheme`（同页L117）原文明确称Giovanni Coli与Filippo Gherardi为“两位Lucchese artists”，当前object分别为`cand-0803`、`cand-1154`，而`entity-candidates.csv`将它们标为`work`（Coli/Gherardi名下的Lepanto壁画子项）。人物候选分别是`cand-0802`（Coli, Giovanni，person）和`cand-1153`（Gherardi, Filippo，person）；当前L117姓名mentions也误映射到作品候选。将两条关系端点及姓名mention改接人物候选；Lepanto装饰项目`cand-6345`保留为作品/项目角色，避免把艺术家当作品。
+- **售地断言关系角色缺卖方：**`st-chp6-p155-palestrina-sale`（S0 L105，p.155）端点为`cand-4215`（Principality of Palestrina）→`cand-0198`（Barberini family），但claim说贫困迫使Colonna出售其Palestrina领地，原句“poverty which had compelled them to sell their principality … to the Barberini”。`cand-4638` Colonna family仅在mentions中，未作为卖方角色。建议以明确的出售事件或分角色关系记录Colonna（卖方）、Palestrina（资产）、Barberini（买方）和经济压力；不得让property→buyer边单独承载完整的三方claim。
+- **claim混合断言：**`st-chp6-p155-lorenzo-eclectic-patronage`（L107）将Haskell对Lorenzo品味“eclectic”的评价与主要罗马艺术家曾为他工作的事实并入一条claim，虽端点只表示Lorenzo与艺术家组的工作关系。拆开来源评价与工作事实，或令claim限定为当前关系并另存评价；类别mention仍按bamboccianti与history painters原词映射。`st-chp6-p156-claude-employment-taste`（L113）同样把“近二十年雇用Claude”的事实和“Haskell据此认为其品味有鉴别力”的解释合并；保留时长限定，拆开或收窄claim。
+- **合作者端点claim未完全收窄：**`st-chp6-p155-colonna-palace-rebuilt`（L105）端点只接Filippo `cand-0806`，但claim仍说该宫殿由Filippo及其子Cardinal Girolamo共同重建装饰；`st-chp6-p155-colonna-palace-decorated-by-girolamo`另行记录Girolamo `cand-0809`。前者claim应收窄到Filippo，或改用能保留两名共同参与者的事件表达。两座Colonna palace的candidate和mention跨度本轮核对保持区分，未将售予Chigi的宫殿误作本句主语。
+- **source qualifier与扫描图冲突：**`st-chp6-p156-seciv-massimi-exception`（`06_CHP-6_sec_iv.md` L4，p.156）qualifier称S0前置短横为OCR、印本无hyphen；但PDF物理页11扫描句首可见“-Cardinal Massimi”，当前`original_quote`与S0一致。应复核/撤销此项OCR更正说明，保留实际印本形态。
+- **引文OCR校读状态：**`st-chp6-p155-resta-landscape-criticism`（L108–109，p.155）claim和qualifier已正确保留Resta的嵌套引语及Haskell“rather acidly”的归属，但`original_quote`仍带S0 OCR痕迹“bamboc- / cisti.. .”“earher'days”“hot much enjoyed”；印本为跨行“bamboc-/cianti”、 “earlier days”、“not much enjoyed”。保持S0原样并在S2引文层以扫描文字校正或显式保留逐字OCR及校读对照，不能把错误转录误当印本。
+
+**本轮其余已核段：**p.155关于Bernini重建Colonna宫殿的近十年相对时间、亚历山大七世时期赞助趋势及Haskell的“perhaps/at least partly”限定，Colonna家族收藏例外、Maria Mancini婚姻与社交描述、Lorenzo的画作收藏/委托以及Resta归因多数方向和source attribution相符。p.156 Claude作品与八幅神话场景保持为两个不同对象；作品名称“so-called”限定、1662购买年、Ashmolean位置均与扫描一致。p.156 fresco cycle、Battle of Lepanto、Marc’Antonio Colonna、gallery与palace空间层级，以及“fourteen years earlier”“virtually retired”等相对/弱限定保留。仅`st-chp6-p155-palestrina-sale`的卖方缺端点、上述Coli/Gherardi候选类型问题及本节列出的claim/qualifier问题待修订；本章未接收。
+
+### 2026-10-20：第六章注释L120–157当前ID独立复核
+
+本批按当前 `book-statements.jsonl` 的 segment_id=`chp-6:06_CHP-6_sec_i:l120-157` 逐条核对全部54个当前statement（首末ID：`st-chp6-notes-l121-p147-n1`—`st-chp6-notes-l154-p155-n4-patronage-literature-claim`），对照S0注释原文及PDF物理页2–11（印刷pp.147–156），检查当前引文、claim、说话者、候选端点、mention、脚注/正文互链、印刷页和OCR校读限定。本段 `relation_candidate=true` 51条、`false` 3条、未分类0条。计入此前当前ID直接核读的360条后，第六章累计414/763（true=306、false=108、未分类0），未审349条：intro L3–5 1条、sec_iv L7–72 165条、sec_v L3–70 183条。旧记录及机械计数不替代本轮逐条阅读；本章未完成，不能接收；未改S2表、候选或mentions。
+
+**需修订或复核：**
+
+- `st-chp6-notes-l123-p148-n2`（S0 L123，p.148 n.2）：claim涉及除四河喷泉外的Bernini重要委托，并列君士坦丁骑马像和一组肖像胸像；当前object仅为君士坦丁骑马像候选`cand-6353`，胸像组`cand-6354`、喷泉`cand-5734`只在mentions中。应拆分列举项目或使用集合/委托事件表达，避免单一雕像端点承载复合claim。当前original_quote把印本“The Fountain”写作S0 OCR的“die Fountain”；保留S0原件，须在S2校读层按扫描修正或显式标注校读差异。
+- `st-chp6-notes-l128-p149-n6`（S0 L128，p.149 n.6）：印本说颂扬Camillo Pamfili赞助的文字见于Girolamo Brusoni **编辑**的诗集；当前claim “Girolamo Brusoni’s poems”可能误把编辑者写成作者。改成“由Brusoni编辑的诗集/其中的颂扬文字”，保留未独立查阅该诗集的限定及编辑者角色。
+- `st-chp6-notes-l150-p154-n4`（S0 L150，p.154 n.4）：原注分别列Golzio 1939及Incisa della Rocchetta 1925；当前首条claim称其同时引两项，但object仅Golzio（`cand-6196`），而独立statement `st-chp6-notes-l150-p154-n4-incisa-citation`承载Incisa。将首条claim收窄到Golzio，或合并/重构成能分别映射两条引用的结构，不重复或漏掉citation locator。
+- `st-chp6-notes-l122-p148-n1`（S0 L122，p.148 n.1）：当前引文原文保留S0 OCR “die Fountain”；应按印本核正为“The Fountain”或在S2明确记录校读差异，S0保持不改。
+
+`st-chp6-notes-l129-p149-n7` 的S0拼写“situarion”与印本“situation”差异已由当前 `ocr_correction` 明确登记；不列为缺失校读。其余本段已读注释的citation locator、正文回链、印刷页及PDF页锚整体相符；引用内容未被误作独立史实，Alexander VII及Samek Ludovici等校读限定已有记录。此“其余无新增实质问题”仅限上述54条，不构成全章接收。
+
+**本节编号更正（追加于2026-10-20）：**上一段末尾误把`st-chp6-notes-l122-p148-n1`列为“die Fountain”引句。核对当前S0 L122及当前statement后确认：L122 p.148 n.1实际为“Wittkower, 1958, and Portoghesi, 1955”引文，没有“die Fountain”。该OCR问题只属于`st-chp6-notes-l123-p148-n2`，已在本节第一项正确记录；请忽略前述L122单列项。未修改源表或既有记录，以本更正保留审计轨迹。
+
+### 2026-10-20：第六章当前ID独立复核进度（p.157–158）
+
+本批按当前 statement ID 复核 `chp-6:06_CHP-6_sec_iv:l7-10`（10条，印刷p.157/PDF物理页12）与 `chp-6:06_CHP-6_sec_iv:l12-26`（42条，印刷p.158/PDF物理页13），共52条。逐项对照S0分节、扫描页、claim、端点候选及类型、mentions、speaker、时间/语气/延续限定、脚注标记和 `relation_candidate`。本批true=34、false=18、unset=0。与此前当前ID直接核读414条累计，现为466/763（true=340、false=126、unset=0）；余297条：sec_iv L28–38 45、L40–50 20、L52–53 8、L55–72 40，以及sec_v L3–70 183。未计旧游标或机械统计为本次语义覆盖。本章未接收，源表与知识卡均未修改。
+
+**需修订/待决：**
+
+- `st-chp6-p157-other-represented-painters`（S0 L8，p.157）：true关系称Antonio收藏中“a great number of Flemish artists”，subject为收藏`cand-6389`，object为空；mention仅以`cand-4652`（Flanders，place）标出地域，qualifier也说明没有artist-group端点。补来源限定的未具名画家组候选并重连，或把该行降为不建边的分类说明；不可把Flanders地点充当艺术家组。
+- `st-chp6-p158-helmbrecker-pictures-for-marucelli`（S0 L15，p.158）：端点为Helmbrecker人物→Marucelli人物，predicate是为赞助者绘画，但claim还合并“16幅”、乡村生活场景及寓意提示；作品组候选`cand-6414`仅在mentions中。收窄当前关系claim至为Marucelli绘制16幅画，并将题材/寓意放到该来源限定作品组的独立陈述，保留确切作品未识别。
+- `st-chp6-p158-bellori-lives-partial`（S0 L26，p.158）：Bellori“writing the Lives”被建为true关系，object=`cand-0277`，但该候选suggested_type为person，索引sub-entry却是书名“Le Vite de Pittori... Moderni”。端点对象类型不符；为Lives使用明确的archive/work候选，或在不把Bellori本人当作品的前提下修正该候选及所依赖映射。p.159的出版年份和序言内容应继续按跨页延续单列。
+- `st-chp6-p157-collection-includes-work-by-gagliardi`、`st-chp6-p157-collection-includes-work-by-allegrini`及`st-chp6-p157-other-represented-painters`（S0 L8，p.157）：`original_quote`分别保留“The' others were' meri like'”及“and; above all”等OCR噪声；扫描印本读作“The others were men like … and, above all…”。S0原件不改；在S2引句校为印本文字或显式增补OCR校读说明。前两条claim/人名端点本身对应原文示例，问题是引文层校读状态。
+
+**其余范围结论：**p.157 Cortona与Maratta各一幅的数量限定、Antonio gallery/collection区别、其“doubtless”判断及Marucelli跨页引入已有来源限定；Pinax/Seebohm译本note 2有marker与书籍来源候选。p.158 Marucelli居所、藏书、著述、Baldinucci通信、作者评价、Helmbrecker崇拜/收藏、Adami 1667嵌套报告及Drach身份/国籍开放限定、Bellori约生于1615、被称为Angeloni侄子/确定为其监护人、可见Carracci图稿、Domenichino授课、学院成员、讲座与“Lives”写作等逐条方向和说话者基本对应原文。`cand-1555`（Marucelli library）与`cand-0015`（Adami肖像收藏）类型空缺当前明确保留为集合对象待定，不当作person重复合并；`cand-6423`与第4章图稿组`cand-5932`潜在重合继续开放给S3身份裁决。未发现的其他问题仅限本批52条，不能据此接收第六章。
+
+### 2026-10-20：第六章当前ID独立复核进度（title及p.159）
+
+补核当前`st-chp6-title-frame` 1条（`06_CHP-6_intro.md` L5，印刷p.146/PDF物理页1），并逐条核对`chp-6:06_CHP-6_sec_iv:l28-38`全部45条（首末ID `st-chp6-p159-algardi-bernini-treatment`—`st-chp6-p159-sacchi-unpublished-life`；印刷p.159/PDF物理页14）。合计新增46条，true=42、false=4、unset=0。标题行仅记录印本章名的作者框架并明确不是历史验证，false分类适当。当前章累计512/763（true=382、false=130、unset=0）；余251条，范围为sec_iv L40–50 20条、L52–53 8条、L55–72 40条，sec_v L3–70 183条。没有以旧游标或结构统计替代阅读；本章未接收，未改S2数据或知识卡。
+
+**需修订/待决：**
+
+- **出版物端点类型错配：**`cand-0277`的suggested_type为`person`，但其索引sub-entry是Bellori的《Le Vite de Pittori... Moderni》。当前把该候选用作Lives端点的行包括：`st-chp6-p158-bellori-lives-partial`、`st-chp6-p159-algardi-bernini-treatment`、`st-chp6-p159-lives-mentions-bernini-casually`、`st-chp6-p159-bellori-lives-1672-preface`、`st-chp6-p159-lives-includes-prefatory-lecture`、`st-chp6-p159-bellori-selectivity`、`st-chp6-p159-poussin-inspired-lives`。另`st-chp6-p159-bellori-descrizione`将Bellori的《Descrizione delle Immagini dipinte da Raffaello d’Urbino》连至`cand-0274`，该候选同为suggested_type=`person`而sub-entry是这部书名。作品/出版物被当作作者本人端点，影响发布、收录、非完备性及启发关系的方向/类型；应改用正确的archive/work候选，或一致修正这两条书目候选并复核关联行，不要把Bellori人身端点和其著作合并。
+- `st-chp6-p159-mannerism-decline`（S0 L31，p.159）：claim是“后文艺复兴时期的art退化为mannerism”，但当前subject=`cand-6426`（Mannerism）、object=`cand-3578`（Renaissance），predicate却描述art→mannerism并把Renaissance作时间背景；端点不承载该谓词。把艺术作为概念/事件主体、mannerism作结果对象，并将“after the Renaissance”存为时间限定；或作为Haskell的史学判断不建关系边。
+- `st-chp6-p159-domenichino-hero`（S0 L33，p.159）：当前claim/谓词把“Domenichino是Bellori的heroes之一”与“Bellori曾向他学画”并列，但后项已由p.158 `st-chp6-p158-bellori-lessons-from-domenichino`独立表达。收窄本行到英雄评价，保留两行各自的来源锚，避免重复组合事实。
+- `st-chp6-p159-raphael-devotion`（S0 L36–37，p.159）：claim以Maratta→Raphael作唯一端点，却同时说Maratta与Chiari共有的敬爱、Maratta修复的壁画、Bellori的《Descrizione》表达，以及Haskell“genuine but unfortunate”的评价；已有`chiari-devotion-to-raphael`、`maratta-restored-raphael-frescoes`和`bellori-descrizione`等独立行。将此行拆/窄为确由Maratta修复所表达的部分，shared devotion、Bellori著作表达及评价分别保留各自主体与事件/作品端点。
+- `st-chp6-p159-bellori-descrizione`：除`cand-0274`书目类型问题外，`original_quote`从Maratta早期委托/肖像/咨询段落一直延至Raphael批评家，远超“Bellori写《Descrizione》”这一claim；压缩到直接支持该书名与作者的原句，并按印本校正其中S0的`the'Vatican`噪声。`pdf_print_corrections`目前在相邻`st-chp6-p159-raphael-devotion`记录了该校读，但不宜依赖别行的校读字段替代本行引文处理。
+
+**开放端点保留：**`st-chp6-p159-attacks-raphael-critics`（L37–38）对象无ID但qualifier明示被攻击者未具名、嵌套批评不是Haskell/Bellori本人的主张；`st-chp6-p159-bellori-more-influential-than-other-bodies`（L29）同样记录other bodies未具名。两者可作为明确开放端点的候选待证，不得擅补身份；解决端点后再裁定是否成正式关系。其余本批 Bellori 的时间、speaker、被引语归属、Sacchi未出版传记、Maratta 1652委托和未知肖像范围与印文大体相符；本结论只针对新增46条，不等于接收全章。
+
+### 2026-10-20：第六章当前ID独立复核进度（p.160–161正文）
+
+按当前statement ID逐条复核 `chp-6:06_CHP-6_sec_iv:l40-50` 20条（印刷p.160/PDF物理页15）及 `chp-6:06_CHP-6_sec_iv:l52-53` 8条（印刷p.161/PDF物理页16），合计28条。本批true=22、false=6、unset=0。对照S0、扫描原页、端点/类型、mentions、话语来源、条件与相对时间、脚注及跨页延续。累计当前版直接语义复核540/763（true=404、false=136、unset=0），尚余223条：sec_iv L55–72 40条、sec_v L3–70 183条。仍为部分覆盖，不能接收第六章；未改S2表、候选或知识卡。
+
+**需修订/待决：**
+
+- `st-chp6-p160-bellori-accademia-christina-appointments`（S0 L45，p.160）：一条true关系把Bellori于1671年被任为Accademia di S. Luca秘书，与“不久后”任Queen Christina的图书管理员和古物学家合并；subject为Bellori、object仅Christina，Accademia只在mentions。拆成两次任命，分别接Accademia和Christina，保留仅第一职务有1671年份、第二职务为“not long after”。
+- `st-chp6-p160-artists-from-other-cities-rome`（L43，p.160）：true行用外地艺术家组→Rome单一端点，claim同时说艺术家在罗马受轻视，以及若来工作便被迫按当地教条规范风格。拆分社会评价与条件性风格整正规则；保留Naples只是“particularly”的地域例，不泛化成所有外地画家实际遭遇。
+- `st-chp6-p160-bellori-opposes-rival-view`（L41，p.160）：主谓边是Bellori反对一种竞争审美，但claim继续把“后章将说明此审美在罗马少有皈依者、部分归因于Bellori影响”并入。收窄当前反对关系；延后章节解释单独保留，并维持“in fact / partly”的限定。
+- `st-chp6-p160-maratta-classical-comparison`（L42，p.160）：Maratta→古典理想端点承载了“其Baroque画作与古典理想/ Raphael关系很少”及“与Cortona/Gaulli高Baroque相比，转向简约和规则尊重”两组比较。拆成有相应比较端点的两项Haskell评价；不要把“to us”作者判断改成无来源客观事实。
+- `st-chp6-p160-christina-travel-and-residence`（L47，p.160）：同一Christina→Rome行混合频繁/有时长途前往France与Sweden，以及留居Rome至1689年去世；当前端点仅Rome，France/Sweden只在mentions。将旅行目的地与Rome居住期限拆开，保留旅程日期未给及“until her death, in 1689”。
+- `st-chp6-p160-bellori-influence-on-gaulli-reception`（L43，p.160）：此行claim正确保留Gaulli Gesù壁画遇到敌意“无疑部分由于”Bellori古典化影响，方向及弱因果强度相符；不列问题。另需注意更复合的是相邻 `st-chp6-p160-gaulli-fresco-hostile-reception`：清楚保留Haskell对“一些圈子”的评价和匿名艺术家对穹顶比例的引语，可维持原speaker限定。
+- `st-chp6-p161-christina-influence-arcadia-formation`（S0 L52–53，p.161）：subject Christina→Arcadia形成事件，但claim还包含她的影响更多表现于文学而非绘画赞助的比较。拆出影响领域比较与“她去世一年后成立”的来源主张，不把相对间隔推算成具体年份。
+- `st-chp6-p161-christina-patronage-living-painters-limited`（L52–53，p.161）：true行predicate称她对“在世画家”的赞助微不足道，但object为空且无open_endpoint_reason。补来源限定的living-painters群体端点/有界`patronage`对象并保留Haskell评价，或将它保留为false评价句；不能在空object下宣称关系完整。
+
+**开放端点与无新增问题范围：**`st-chp6-p160-christina-quoted-appearance`明示引述的物理描写无法由两条note citation判断究竟出自Skippon还是Misson；保持speaker open，不补具体作者。`st-chp6-p160-articulate-criticism-public-sentiment` qualifier明确避免将“批评兴起”和“艺术不如从前”的社会观念写成直接因果；`st-chp6-p160-haskell-interprets-shortage-sentiment`保留Haskell的“部分反映事实、部分反映对评论者关注”两条限定。Queen Christina的转信天主教后1655年首次抵罗马、年龄28、其父从布拉格掠来的作品集、其在Palazzo Riario展陈、Mola/Gherardi师承和色彩传统特征、Canini受Bellori鼓励，以及第七年后Arcadia成立等相关行，按各自引述/相对时间限定对应p.160–161。p.160–161其余本批逐条核对行未发现除上述问题外的实质不一致；不构成章节接收。
+
+**本批记录文字校正（追加于2026-10-20）：**上一段末尾“第七年后Arcadia成立”是笔误，应读作“Christina去世一年后Arcadia成立”，即保留原文`a year after her death`，不推算具体年份。`st-chp6-p160-bellori-influence-on-gaulli-reception`仅为核对正确的参照项，不属于“需修订/待决”发现；其claim方向及“no doubt / in part”限定可保留。
+
+### 2026-10-20：第六章sec_iv p.157–161当前ID逐条收尾（含注释）
+
+按当前 `segment_id=chp-6:06_CHP-6_sec_iv:l55-72` 逐条阅读40个当前statement（首末ID `st-chp6-p157-armida-danae-placement`—`st-chp6-p161-note1-pascoli-canini-vol-ii`），对照S0 p.157–161脚注/延续正文、PDF物理页12–16、引用上下文、mentions、候选端点和类型、来源归属、脚注标记/正文回链及 `relation_candidate`。本段true=36、false=4、unset=0。至此第六章intro、sec_i、sec_iv当前statement已全部直接复核；累计580/763（true=440、false=140、unset=0），余183条，均在sec_v L3–70。全章仍不接收，未改结构化数据或知识卡。
+
+**当前范围需修订/待决：**
+
+- `st-chp6-p157-table-content`（S0 L56，印刷p.157/PDF物理页12）：true claim称《The Table/Pinax》描述一幅象征人生的画，当前object为空且无open endpoint reason；提及的`cand-6399`是神祇Kronos，不是该画。补匿名寓意画作/概念端点并保留“purports”，或记作有界开放端点，不能让Kronos承担画作宾语。
+- `st-chp6-p157-employed-artists-theme`（L56，p.157）：true谓词是Antonio要求受雇艺术家描绘财富的影响，但object空；qualifier承认艺术家组未具名。补来源限定的匿名艺术家组或保留明确待证端点，并留住“virtually all”，不可将其写成已识别个体群。
+- `st-chp6-p157-gallery-reproduction`（L56，p.157）：Antonio→《Pinax》图像版本关系的谓词含“在gallery入口重制”，但`cand-6392` gallery只在mentions，缺少地点角色/位置限定。把“at the entrance of his gallery”存为地点端点或结构化限定；不要把Pinax文本与重制图像合并。
+- `st-chp6-p157-renaissance-ekphrasis`（L56，p.157）：claim把自文艺复兴以来赞助人/画家对古画描述的普遍取用和Haskell对其解释《The Table》吸引Antonio的推断并在Antonio→对话作品一条true关系中。拆开一般历史概括与来源限定的个案解释，保留“it is easy to understand”属于Haskell推断。
+- `st-chp6-p157-table-vogue-mascardi`（L56，p.157）：Mascardi→《The Table》一条true关系claim合并1629翻译和长篇评注、作品流行主要归因，以及Shaftesbury后来喜爱。拆出翻译/评注、传播或归因、后续接受；保留“大体上largely”的强度及各自时间。
+- `st-chp6-p157-ownership-and-collector-status`（L56，p.157）：claim把某些目录画作可能由Antonio拥有或想象的疑问，和另有独立证据表明他作为收藏者被认识，合在Antonio→整体collection关系中。拆开作品所有权未决与收藏者身份证据，保留some/疑问范围；不能让整体collection端点消去局部不确定性。
+- `st-chp6-p157-note1-source`（S0 L57，p.157 n.1）：引文Spon and Wheler、vol. I、p.232与扫描一致，`Wheler` OCR更正已记；正文`st-chp6-p157-studiolo-description`有marker和citation statement ID互链。该注释行本身缺`footnote_marker`/正文回链字段，而同段后续注释行通常带source_note锚；补充结构化互链以让双向追溯一致（若统一规则只要求正文反链，则明确该最小格式即可）。
+- **Bellori 1942文献候选/claim locator矛盾，跨当前及已审段：**候选`cand-6338`的canonical_name写“Bellori publication cited as 1942, p. 128”，candidate_source_ref来自p.155注释；而`st-chp6-notes-l143-p152-n4`的claim是p.152 n.4引1942 p.82，却object同一候选；p.159 `st-chp6-p159-note2-bellori-1942-p99`、`...note3-bellori-pascoli`、`...note4-bellori-1942-p115`的claim也把p.128写成所引页，同时各自`citations[].locator`分别正确记p.99、p.92、p.115；p.161 `st-chp6-p161-note3-bellori`称pp.91–94但无结构化locator，并用同一p.128候选。需区分“同一出版物”与每条citation locator：缩窄/校正statement claim、将locator统一放入`citations`，并确认cand-6338确为这些Bellori页的同一出版物而非仅p.128来源对象。引用行本身不证明被引内容。
+- `st-chp6-p161-note3-bellori`及`st-chp6-p161-note3-clark`（S0 L71，p.161 n.3）：true行当前subject分别为Altieri天花板壁画、Berrettoni宫内作品，object为被引书目；而本章其他footnote citation一般以Haskell本书为subject、具体语境写入`citation_context_candidate_id`/linked_body字段。统一引文关系方向，并明确这两条注释分别支撑Altieri壁画/宫内作品的具体语境，不把被引文献当壁画自身关系。`st-chp6-p161-note4-pascoli`也采用计划装饰方案→Pascoli的特殊端点方式，建议一并按同一规则复核。
+
+**其余当前范围结论：**p.157 Armida/Danae/Midas等画作摆放分别由未识别作品候选承载；馆藏作品组边界、作者限制及gallery/Studiolo未证同一性保持开放。Pinax作者注释将实际作者留为未知并明确其不同于Cebes；p.157–160各Spon/Wheler、Biagi、Baldinucci、Giustiniani、Donahue、Schlosser、Bellori、Avvisi、Ruffo、Skippon、Misson与Bildt引文定位及正文回链总体可追溯，引用材料均明确未独立核查。Mola、Gherardi、Canini师承/色彩限定和Christina受Bellori劝导、Arcadia去世一年后成立均与印本文字及弱语气相符。其余本段逐条核读的当前行未发现上述问题之外实质不一致；此范围不能作为第六章接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.161首段）
+
+按当前 `segment_id=chp-6:06_CHP-6_sec_v:l3-12` 逐条复核23条当前statement（`st-chp6-p161-v1-01`—`st-chp6-p161-note2-avviso`；S0 `06_CHP-6_sec_v.md` L3–12；印刷p.161/PDF物理页16），对照扫描页、端点角色、claim、mentions、speaker、相对时间/条件、脚注和跨章候选。true=18、false=5、unset=0。当前第六章直接语义覆盖603/763（true=458、false=145、unset=0），未审160条：sec_v L14–19 25、L21–26 19、L28–33 29、L35–40 29、L42–45 14、L47–70 44。尚不能接收全章；未改表或知识卡。
+
+**需修订或待决：**
+
+- `st-chp6-p161-v1-03`（S0 L3，p.161）：Clement IX委托Carlo Maratta绘肖像，当前true关系是教皇→匿名肖像`cand-6463`，Maratta仅在mentions。应补画家角色或拆出委托事件，避免未表示创作者的边独自承载“from Carlo Maratta”。
+- `st-chp6-p161-v1-04`（S0 L4–5，p.161）：Clement IX→Bernini天使雕塑组端点有作品候选，但Bernini只在mentions，Ponte S. Angelo也只在mentions；claim同含委托人、艺术家与“拟置于”地点。应按commission event/作品创作者/拟定安置地保留三个角色，并保持“to be placed”不误写为已安装。
+- `st-chp6-p161-v1-07`（L5，p.161）：Altieri宅邸建造事件→宅邸地点claim还包含“令Jesuits愤怒”；当前Jesuits仅mention。拆开建造地点和群体反应，保留这是Haskell的报告，注释不是该反应的独立核验。
+- `st-chp6-p161-v1-10`（L5–6，p.161）：subject Maratta→Bellori一条true关系同时说Camillo Massimi建议选择Maratta、Maratta随后向Bellori咨询图像学；Camillo及壁画计划仅mentions。拆开建议/遴选与咨询，并为第一项保留Massimi施事、第二项保留Bellori作为咨询对象；不推成共同创作。
+- `st-chp6-p161-v1-22`（L11，p.161，跨至p.162 L15）：Don Gasparo奢华程度与Barberini/Chigi家族比较的true行当前object只有Barberini候选`cand-6473`，Chigi family `cand-6484`仅在mentions；补第二个比较端点或按比较对象拆分，保留Chigi在下页补全句子的跨页锚。
+- `st-chp6-p161-v1-06`（L5，p.161）：“家族担心在教皇死前完成家族宫殿”有Altieri family及Palace端点，主体、条件和家族范围与来源相符；保留为Haskell报告，不把家族缩成Don Gasparo一人。
+- `st-chp6-p161-v1-13`（L8，p.161）：fresco为薄椭圆并被雕刻灰泥框包围的true行object为空，qualifier只说不将框当作独立作品，但未给开放端点说明。补框/形式对象，或将可见形制收为有界评价/描述句。
+- `st-chp6-p161-v1-15`（L9，p.161）：Don Gasparo是Clement X的adopted nephew并任Gonfaloniere of the Church；当前两角色塞进单一Clement X对象及“papal_kinship_and_office”谓词。拆亲属关系与明确官职角色，不能令Clement X成为该职位的对象。
+- `st-chp6-p161-v1-01`的“after Alexander VII去世官方艺术赞助锐减”、`v1-02`的Clement IX于1667即位/短暂统治、`v1-18`二十年duration保留未决指代，以及Clement X削减nepotism与经济因果推断，均有来源限定；`v1-02`本地 accession event需在S3与跨章候选`cand-4813`对照，不在S2中静默合并。
+
+注释行`st-chp6-p161-note2-avviso`（S0 L12，p.161 n.2）有明确页码/physical page、marker及脚注locator；但true关系端点为Jesuits→avviso，而本章其他书目citation多采用Haskell本书→来源、再记录context。和本章p.161 n.3/n.4三条特殊方向一并归入引文主体口径复核。其余逐条核读的当前行未发现上述列项外实质不一致；此批不构成全章接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.162）
+
+按当前 `segment_id=chp-6:06_CHP-6_sec_v:l14-19` 逐条复核25条statement（`st-chp6-p162-v1-01`—`st-chp6-p162-v1-25`；S0 L15–19，印刷p.162/PDF物理页17），逐项核对扫描原页、嵌套引语、端点类型/角色、mentions、speaker、跨页代词及相对时间和脚注边界。本批true=18、false=7、unset=0。累计第六章当前ID直接复核628/763（true=476、false=152、unset=0），尚余135条：sec_v L21–26 19、L28–33 29、L35–40 29、L42–45 14、L47–70 44。未将未读页或旧记录计入覆盖；未改表、候选或知识卡。
+
+**需修订/待决：**
+
+- `st-chp6-p161-v1-22`与`st-chp6-p162-v1-01`（p.161 L11–p.162 L15）：两行都是“Don Gasparo无法按Barberini或Chigi的规模满足奢侈品味”的整句claim，但前行subject Don Gasparo→Barberini，后行subject Don Gasparo→Chigi；每行各漏一个比较对象且重复整个比较claim。各自收窄为只比较当前endpoint，或用共同比较结构一次表达两家族；保留句跨页闭合。
+- `st-chp6-p162-v1-02`（L15，p.162）：Don Gasparo→Claude《Landing of Aeneas in Latium》行claim还说他把该画加入同艺术家的《Sacrifice to Apollo》，但后作`cand-0783`只在mentions。拆分patronage记录与两作品的集合/配对关系；保留同一艺术家约十二年前作画的限定，并将“painted for his father”的指代留在`st-chp6-p162-v1-03`的未决状态。
+- `st-chp6-p162-v1-03`（L16，p.162）：`his father`指代在Don Gasparo与Claude之间目前明确开放，候选`cand-6485`、qualification已保留疑问；不作身份补配，后续作为待证对象。
+- `st-chp6-p162-v1-07`（L18，p.162）：被引的Venetian ambassador报告土地耕作因农民低价损失而被放弃；当前subject是报告者，object却为农民组，仅在predicate写“农业放弃/低价”。改用农业/耕作事件目标，并用农民作受损群体/因果角色或拆两条，保留这是嵌套引述而非外部实证。
+- `st-chp6-p162-v1-08`（L18，p.162）：Genoese取Adriatic粮食与罗马海岸作物滞销合并成Genoese→Adriatic一条true关系；Roman shores `cand-6492`仅mention。拆分供粮路线与来源报告所说的滞销结果，保留“三年前”相对于未定日期报告的时间限定。
+- `st-chp6-p162-v1-12`（L18，p.162）：候选`cand-6496`已是Clement IX规划事件，但当前object错误接到“反对奢侈赞助”概念`cand-6495`；claim实际说计划改造S. Maria Maggiore tribune并为自己建墓，且比Sixtus V/Paul V墓更壮观。将墓地/tribune/目标 memorial 角色接入事件；不以相邻段落的“反对”替代计划目标。
+- `st-chp6-p162-v1-13`（L18，p.162）：计划死后被取消的时序关系方向清晰，qualifier也明确“after”不是因果；不把它与上一项错误object合并处理。
+- `st-chp6-p162-v1-19`（L18，p.162）：Innocent XI相关的“驱回土耳其人”引文由Haskell明示为`we are told`，并将“with all Asia”按修辞而非军队计量处理；维也纳、匈牙利端点及报告者匿名状态保持来源界定。
+- `st-chp6-p162-v1-23`（L18，p.162）：true row把剧院/狂欢被抑制与压制艺术中的不雅内容合并；唯一object为`Indecency in art`，并且原文随即说未能完全成功。拆分活动禁令/抑制与对象内容，保留Haskell的范围及“不完全成功”限制。
+- `st-chp6-p162-v1-24`（L18，p.162）：端点是匿名法国使节→Basadonna本人，claim却是使节报告其卧室满是裸体画。卧室`cand-6508`和画作组`cand-6509`仅在mentions；宜用报告事件及其空间/作品角色建模，保留“if we are to believe”与第163页注7的引文来源，不把匿名报告写成已核实藏品事实。
+- `st-chp6-p162-v1-06`的匿名treasurers候选`cand-6487` suggested_type=`institution`，但原文是称其官员追讨债务的财政官员群组；S3类型审查应考虑人员群体/职务类，不按机构实体直接登记。该对象与Papal States候选另保持类型区别。
+
+**其余范围结论：**Clement IX之后继任关系、十三年统治、报告的Ottoman推进与Haskell所称Maratta未能觐见Innocent XI均保留reported speech；同段“这并非全然准确”及修整Quirinal Guido Reni画作的具体干预另有分条，不把“掩盖裸露乳房”扩大成艺术创作。Clement X年代、财政、法令与Museal claims均仅在文本给定范围，相关p.162 footnotes仍待本章注释段直接核读。其余本批逐条statement未发现上述问题之外的实质不一致；本批不构成章节接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.163）
+
+按当前 `segment_id=chp-6:06_CHP-6_sec_v:l21-26` 逐条复核19条statement（`st-chp6-p163-v1-01`—`st-chp6-p163-v1-19`；S0 L22–26，印刷p.163/PDF物理页18），核对扫描、statement/mention对应、端点角色与类型、引述来源/时间限定、跨页引文和脚注链接。本批true=11、false=8、unset=0。累计第六章当前ID直接语义覆盖647/763（true=487、false=160、unset=0），未审116条：sec_v L28–33 29、L35–40 29、L42–45 14、L47–70 44。未修改S2表、候选或知识卡；第六章尚不能接收。
+
+**需修订/待决：**
+
+- `st-chp6-p163-v1-03`（S0 L22，p.163）：Innocent XI拒绝准许St Peter’s chapter建第三段柱廊，当前endpoint为教皇→未建柱廊候选，chapter `cand-6514`只在mentions。若建正式关系，应表达谁请求/被拒准许、对应的拟建工程和目的（封闭广场）；保留“not built”与拒绝许可，不写为工程完成。
+- `st-chp6-p163-v1-04`（L23，p.163）：来源说King of Spain给Jesuits大笔钱，供其希望装饰Gesù tribune的计划；当前King→Jesuits，项目`cand-6516`和目标tribune仅mentions。以资金/捐助事件或清楚的用途限定表达三方（出资王、Jesuits、拟装饰项目/场所），不把计划写作已完成。
+- `st-chp6-p163-v1-08`（L24，p.163）：true谓词说Maratta的“official commissions almost vanished”，但object为空且无open-endpoint说明。补来源限定的委托集合/工作机会端点，保留“almost”和两届教皇的未具名范围，或改为false的作者总评。
+- `st-chp6-p163-v1-09`（L24，p.163）：claim称失业威胁与Roman critics日益教条化共同阻止许多外地画家来罗马工作；subject只为失业威胁，object为画家组，critics/dogmatism和目的地Rome只在mentions。拆成两个带来源限定的原因，或把两个原因及迁居目标分别写入因果事件；不泛化为所有外城艺术家均实际迁居/受阻。
+- `st-chp6-p163-v1-16`（L24–25，p.163）：Clement XI大量委托作品的true行object是“全意大利leading artists”群体`cand-6529`，作品组`cand-6530`只在mentions；谓词/claim的直接宾语应为作品或委托事件，而艺术家是创作者端点。重接作品组并保留“many/leading artists/all over Italy”。
+- `st-chp6-p163-v1-17`（L25，p.163）：counterfactual quote保留Clement XI会为painting做更多、但Charles II去世与全欧战争使其计划受阻；当前reported_speaker与attribution_chain已将直接引用者留为匿名、Haskell为转述者，且footnote 5已链入。不要将这段引语升级为已独立验证的Clement本人原话。
+
+**其余范围结论：**Innocent XI建筑兴趣/永久纪念意愿及赞助衰退的作者评述均归false；Jesuit向教皇申请铸造厂、教皇答复、匿名编年史家关于百名工人可工作三年的反事实估算、避免把它写成真实就业数，叙述者层级和时间限定清晰。Haskell明确强调其“decline”并未终止该世纪后期的建筑装饰，随后“rich/magnificent results”及重要人物/教皇相对作用均保存为false范围评述；Clement XI购买/委托与其他势力为Lateran大部分作品出资的分角色candidate总体对应原文，未将Schönborn家族误作唯一出资者。p.163段其余逐条核读statement未发现上述问题以外的实质不一致；不构成全章接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.164）
+
+按当前 `segment_id=chp-6:06_CHP-6_sec_v:l28-33` 逐条复核29条statement（`st-chp6-p164-note1-cicogna`与p.164 Ottoboni/Trevisani相关当前行；S0 L29–33，印刷p.164/PDF物理页19），对照扫描、跨页人物引入、端点及类型、叙述层级、书目指针和限定。本段true=22、false=7、unset=0。累计第六章当前ID直接复核676/763（true=509、false=167、unset=0），尚余87：sec_v L35–40 29、L42–45 14、L47–70 44。未以历史记录或机械计数代替直接核读；未改S2表或知识卡。
+
+**需修订/待决：**
+
+- `st-chp6-p164-v1-12`（S0 L30，p.164）：Pietro Ottoboni被称为多才的音乐家及歌剧libretto作者，当前true谓词无object且没有open_endpoint_reason。补作品/创作对象组或false归入作者特质，不应保持空端点true关系。
+- `st-chp6-p164-v1-17`（L30，p.164）：claim把Ottoboni复兴Barberini魅力约半世纪与留下少量永久价值两项判断并在Ottoboni→Barberini家族一条关系中；“echo of the Barberini glamour”指风格/时代影响，端点不是该家族本身。拆开审美影响与作者对遗产价值的评估，保留“some half-century”及Haskell判断。
+- `st-chp6-p164-v1-22`（L32，p.164）：Trevisani人物→未识别作品组`cand-6548`，claim还说作品是为其“chief protector”Ottoboni而画；Ottoboni只有mention。拆出艺术家创作与作品服务/委托端点，或用三角色创作事件，不令“for Ottoboni”只留在claim。
+- `st-chp6-p164-v1-24`（L33，p.164）：subject Trevisani、object Maratta，predicate/claim同时涵盖Rome古典氛围、Maratta影响、Trevisani无法抵御、转为gentle/sweet/academic风格及取得欧洲声誉；Rome仅mention。拆分风格影响因素、作者的风格评价与声誉结果，分别保留Maratta与Rome角色及“too powerful to be withstood”归因，不把整段作为单一Trevisani→Maratta关系。
+- `st-chp6-p164-v1-25`（L33，p.164跨p.165 L36）：Ottoboni圈子对为他工作的多数画家的影响，当前群体双方都有候选并保留“most”，p.165续句`worked for him`关闭指代；保留此跨页锚，别将下页“风格温和、学院化”等总解释压回同一具体关系。
+- `st-chp6-p164-note1-cicogna`（p.164 n.1）：脚注locator是Cicogna I pp.269–270，明确供Ottoboni政治生涯摘要；当前subject是Ottoboni person→被引volume，和本章不少其他`footnote citation`以Haskell本书作引用主体的口径不同。引用上下文可保留Ottoboni，但将书目链接设为本书→来源并把Ottoboni写作citation_context/linked-body，不建成Ottoboni本人“引用”Cicogna的关系。
+
+**其余范围结论：**Ottoboni与Alexander VIII的亲属、1689年22岁受任枢机、Venetian nobility背景、他和父亲分别多次因接受外国政府津贴被临时移出Libro d’Oro、1700年以前任Vice-Chancellor至1740去世、住Cancelleria，均保留来源所述的开放身份/非精确时间。Trevisani约1682从Venice抵Rome，受Ottoboni赞助并画宗教/历史/风俗题材和肖像的行分别保留约数/作品未识别状态；Juvarra管理舞台布景、Ottoboni购藏多数leading Italian artists作品及Haskell关于Trevisani作品色彩/艺术水平的评价有合适端点或false分类。其他本段逐条statement未发现上述问题之外的实质不一致；本批不能接收整章。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.165）
+
+按当前`segment_id=chp-6:06_CHP-6_sec_v:l35-40`逐条复核29条statement：`st-chp6-p165-v1-01`—`st-chp6-p165-v1-26`，以及`st-chp6-p165-v1-11-audience-reception`、`st-chp6-p165-v1-12-french-rococo`、`st-chp6-p165-v1-12-later-painting`；S0 L35–40、印刷p.165/PDF物理页20。对照转录与扫描，核对各statement、当前mention字符跨度、端点候选及类型、谓词/关系候选、叙述层级、相对时间、引语和脚注锚。当前段true=27、false=2、unset=0；累计第六章当前ID直接逐条核读705/763（true=536、false=169、unset=0），尚余58条：`sec_v:l42-45` 14条、`sec_v:l47-70` 44条。该段62个mention区间均能切取S0原文跨度；未改S2表、候选或知识卡，第六章尚未完成且不接收。
+
+**需修订/待决：**
+
+- `st-chp6-p165-v1-04`（S0 L36，p.165）：“Conca was taken up by the Cardinal and his friends”当前端点只有Ottoboni `cand-6536`，但“his friends”`cand-6549`只在mentions；保留来源明确的朋友群/开放群组端点，不要将friends默认缩为Ottoboni一人，也不在没有依据时等同更大的艺术圈。
+- `st-chp6-p165-v1-07`（L36–37，p.165）：原文说Juvarra的architectural style受其吸收的Fontana academic Baroque影响；当前subject/object却是Juvarra本人→Fontana本人，具体风格候选`cand-4500`仅为mention且只概括Baroque类别。应表达“Juvarra的来源限定风格/academic Baroque”与Fontana风格来源关系，或明确将人物作为影响来源的中介；保留“certainly”及1704–1714十年区间，不推成每年均共事。
+- `st-chp6-p165-v1-08`（L37，p.165）：claim同时表达Juvarra为Ottoboni工作/产出作品的关系和Haskell对作品“exceptional verve and vitality”的评价，当前仅Juvarra→Ottoboni，且没有作品端点；与下一行stage-set范围相邻。拆出作者评价，或以已识别stage-set组/来源限定作品组承接创作事实，避免评价词代替关系类型。
+- `st-chp6-p165-v1-13`（L38，p.165）：claim把“随着neoclassicism到来，风格被不留情面地否定”与“至今仍少有拥护者”合并，唯一object是neo-classicism `cand-6439`；持续接受度没有端点，且claim略去了“out of hand”的强度。拆分历史否定与Haskell当下接受度判断，保留时间范围和作者归因。
+- `st-chp6-p165-v1-16`（L39，p.165）：claim说未被Ottoboni吸引来罗马的画家中包括“在其天才与指导下”推动意大利绘画复兴的人，当前object却是“great revival”术语`cand-6553`，谓词`included_leaders_of_italian_painting_revival`把人群与运动/术语混作同一端点。需为来源所说的匿名画家子群保留人员群组/开放端点，并将其与复兴运动或事件的关系另行表达；不补造姓名。
+- `st-chp6-p165-v1-20`（L39，p.165）：Ricci“naturally did some work for [Ottoboni] and his friends”当前object仅Ottoboni `cand-6536`，朋友群`cand-6549`在mentions。为朋友保留群组/开放端点，勿把复数赞助对象缩成单人。
+- `st-chp6-p165-v1-23`（L40，p.165）：将Diziani来罗马与随即被Ottoboni接纳合成一个谓词，object只有Ottoboni，Rome `cand-6474`只在mentions。拆成抵罗地点与接受/赞助关系，保留“more than thirty years later”相对Ricci抵罗时间及“at once”。
+- `st-chp6-p165-v1-25`（L40，p.165）：claim把Fra Galgario与Venice的紧密关联、在Bergamo居住合并，当前唯一object为Bergamo `cand-6208`，Venice `cand-3401`只在mentions。拆成两种地理关系，保留来源没有声称其出生地或国籍。
+
+**其余范围结论：**Conca为Solimena学生及约1706年来罗马、Gaulli段落的Gauhi/Gaulli扫描校读、Conca/Gaulli的Haskell风格判断（relation_candidate=false）、Ottoboni影响风格的作者归因、风格与Baroque/French rococo/后期绘画的比较、Ottoboni影响的两组画家区分、Ricci与Mariette的明确转述听闻层级和法语代词未决、Diziani为Ricci学生及指定stage set、Galgario拒绝赴罗马等表述，按原文锚和现有qualifier核对；未发现上述列项外的实质不一致。扫描核对保留Haskell评价及近似/相对时间，不把作者叙述升级为外部验证。当前段审阅不构成第六章接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（p.166正文）
+
+按当前`segment_id=chp-6:06_CHP-6_sec_v:l42-45`逐条复核14条statement（`st-chp6-p166-v1-01`—`st-chp6-p166-v1-14`；S0 L42–45，印刷p.166/PDF物理页21）。核对扫描原页、mentions跨度、候选端点/类型、引述归属、复合断言及脚注marker。当前段true=11、false=3、unset=0；累计第六章当前ID直接逐条核读719/763（true=547、false=172、unset=0），尚余44条，均在脚注段`sec_v:l47-70`。本段23个mention区间均准确切取S0原文跨度；未改S2表、候选或知识卡。第六章尚未完成，不接收。
+
+**需修订/待决：**
+
+- `st-chp6-p166-v1-01`（S0 L43，p.166）：句子说Crespi从Bologna将《The Confession》送给Cardinal，且Haskell称其为“most attractive and adventurous”；当前subject Crespi、object为画作，predicate却把Ottoboni收件人、Bologna出发地写进同一关系名，Ottoboni仅mention；claim还把Haskell的审美评价并入送画事实。建议以有角色的送交事件或拆分“画家—作品”“作品/事件—收件人/出发地”，并将评价单独保留为Haskell评述。
+- `st-chp6-p166-v1-02`（L43，p.166）：原文说《The Confession》采用一个“自Poussin以来未曾绘画”的题材；该题材未具名，当前却用画作作subject、Poussin本人作object，predicate使Poussin看似作品关系端点。应保留未名题材的开放候选，把Poussin作为时间参照/来源限定，不推定具体前作或题材身份。
+- `st-chp6-p166-v1-05`（L43，p.166）：“Ottoboni委托Crespi创作剩余六件Sacraments”当前主客体为Ottoboni→作品组，Crespi仅在claim/mentions，委托事件的创作者角色未建模。保留委托人、艺术家和作品组角色；不为六件未具名作品补标题。
+- `st-chp6-p166-v1-07`与`st-chp6-p166-v1-08`（L43，p.166）：两条分别以Crespi→Bologna、Solimena→Naples为端点，但每条claim都重复整句“两人各自留在其城”的比较。收窄为各自行人—地点关系，比较只作共同来源语境，避免同一整句重复挂接两次。
+- `st-chp6-p166-v1-09`（L43，p.166）：Solimena“也给Cardinal送画”当前object是未名画作组`cand-6564`，Ottoboni仅作为predicate/mention中的收件人；需补收件人角色或改用送交事件，保留作品未识别、未计数状态。
+- `st-chp6-p166-v1-12`（L44，p.166）：source的“rigours of a classical taste, already outmoded elsewhere”映射到`cand-6556`（p.165“academic classicism”）。上下文可能相关，但本句未明示是同一风格实体；保留S3待决/源语表述，不据邻近共现直接固化同一身份。
+
+**其余范围结论：**Ottoboni与Cassiano dal Pozzo的对比保留为Haskell比较性格描述；Ottoboni对《The Confession》的反应、六件Sacraments“equally successful”作为Haskell评价（false）、Crespi留在Bologna、Solimena留在Naples与其另送未识别画作、其他未具名赞助人难以吸引偏爱的艺术家来罗马，以及欧洲势力/意大利其他城镇分别成为罗马竞争者，均与原文方向及限定相符。p.166 n.2举例对应困难吸引艺术家来罗马的论述，脚注marker已链接到当前脚注segment，尚待下一批直接核读其引文主体与定位。当前批次未发现上述列项外实质不一致；不构成全章接收。
+
+### 2026-10-20：第六章sec_v当前ID独立复核进度（脚注段收口，pp.162–166）
+
+按当前`segment_id=chp-6:06_CHP-6_sec_v:l47-70`逐条复核44条statement，来源为S0 L48–70（印刷pp.162–166/PDF物理pp.17–21），包括p.162注1–7、p.163注1–6、p.164注2–5、p.165注1–6及p.166注1–2。对照各页扫描及脚注原文，逐条检查引文链、脚注marker、locator、主张/说话者、relation_candidate、候选身份与提及锚点。本段true=42、false=2、unset=0；累计第六章当前ID直接逐条核读763/763（true=589、false=174、unset=0）。本段65个mention区间均可准确切取S0行文；未修改S2表、候选、mentions或知识卡。第六章逐条覆盖现已完成，但以下问题尚未修订，故不接收。
+
+**需修订/待决：**
+
+- `st-chp6-p164-n2-inventory`（S0 L61，p.164 n.2）：扫描physical p.19印作“protocols 1838 and 1839”；S0 OCR及`original_quote`误成`protocol!! 1838 and 1839`。candidate canonical已规范为protocols，但qualifier只说OCR保留，未列扫描读法；在S2 source quote/校读限定中写明扫描文字，不改S0。
+- `st-chp6-p165-n3-europa`与`st-chp6-p165-n3-friend`（S0 L66，p.165 n.3）：扫描physical p.20印作“Arcangelo Corelli”，S0/两个statement的`original_quote`为`CoreUi`。claim及candidate已映射为Corelli，但qualifier没有明示OCR校读；补充印本读法与校读理由，不改S0转录。
+- `st-chp6-p165-n5-cite`（S0 L68，p.165 n.5）：扫描physical p.20脚注号为5（“5 See the unpublished Zibaldone…”），S0/`original_quote`误作“6 See…”；p.165 n.6另列Tassi II p.60，扫描确实为6。校正S2脚注5引用锚和quote，不把Temanza与Tassi编号合并。
+- `st-chp6-p166-n1-confession`、`st-chp6-p166-n1-sacraments`（S0 L69，p.166 n.1）：原文“These pictures are now at Dresden”中的复数指代被拆解为《The Confession》`cand-6562`与六件Sacraments `cand-6563`两条地点claim，但mentions.csv本段没有将其映射到这两个对象/作品组。为代词补可追溯mention或来源限定的Crespi作品组映射；保持Solimena另送的画不被并入，且不要超出脚注可支持的范围。
+
+**有意保留的待证端点：**`st-chp6-p162-n4-attack`的攻击者未具名，当前`open_endpoint_reason`已明确记录，不补造群体；`st-chp6-p164-n2-authors`说“Every author of the period”但未指名，当前作者群开放理由已记录。两者可保持S2来源限定候选，不能在身份未明时升级为正式S6关系。`st-chp6-p163-n1-bias`将French hostility处理为Haskell的来源可靠性警示并分类false，未被改写成对被引报告的核验。
+
+**其余范围结论：**p.162关于两幅Claude作品在Anglesey Abbey、文献页码、Bernini受攻击引文及Basadonna tomb地点；p.163各项citation locator与French hostility caveat；p.164 Rava、Pascoli、Waterhouse引用及Trevisani肖像在Bowes Museum；p.165 Juvarra sketch、Ricci/Mariette引文、Europa与Ottoboni friends、Temanza/Tassi引用；p.166 Crespi作品去向及Soprani、Guidalotti Franchini、da Canal的例证，均与扫描上的来源层级、人物/作品/地点角色及脚注顺序相符。已在S2中注明Röthlisberger→Rothlisberger OCR校读、Loret→Lores OCR、Scherff/Scherf书目拼写差异；这些不重复列为新问题。引文locator不等于已独立核读被引文献。全章虽763/763覆盖，仍未完成问题修复或正式语义接收。
+
+### 2026-10-20：第七章p.169首段及关联脚注当前ID独立复核
+
+本批以当前source registration和`book-statements.jsonl`核对两个相连段：`chp-7:07_CHP-7_sec_i:l3-9`的18条（`st-chp7-p169-i01`—`i14`、`i16`—`i18`、`st-chp7-p169-n2-cite`），以及其footnote 1、3、4、5所连`chp-7:07_CHP-7_intro:l11-15`的5条（`st-chp7-p169-n1-cite`、`n3-cite`、`n4-albani`、`n4-cite`、`n5-cite`）；共23条逐条核读，relation_candidate=true 23、false 0、unset 0。对照S0 L3–15和CHP-7.pdf physical p.3；扫描页显示首面为chapter section i，紧接physical p.4明确印p.170。两段合计57个mention区间均准确切取对应S0原文。第七章当前总量1,238，本轮当前版直接覆盖23/1,238；未修改statement、candidate或mention表。本批不能接收章节。
+
+**需修订/待决：**
+
+- 本批两个S0 segment的全部23条qualifier均将`printed_page`记为`3`，与`pdf_physical_page=3`重复；Statement ID标p.169，扫描首面为chapter section i，physical p.4印p.170。`printed_page=3`记录的是PDF物理页而非印本页，应按本书页序核准并修正（首面对应p.169），保留physical page字段3。
+- `st-chp7-p169-i03`（S0 L5–6，p.169）：claim把罗马的财务/政治衰退导致教皇赞助难以维持写成Papacy→Rome地名；object `cand-4490`只表示地点，未表达衰退这一原因状态。增加来源限定的decline/condition候选或因果事件端点，保持“catastrophic”为Haskell用语，不推定具体教皇或量化幅度。
+- `st-chp7-p169-i04`（L5–6，p.169）：原句被接手的是“the patronage”——此前教皇难以维持的赞助，而非Papacy机构本身；当前subject `cand-4223`为Papacy机构，object为境外人物组。将赞助实践/转移事件与教皇原有赞助者、接手的来源限定群组分清；不指定外国国家或单个赞助人。
+- `st-chp7-p169-i05`（L6，p.169）：claim同时登记衰退可能妨碍意大利大型绘画未来及把半岛变成“provincial backwater”两个反事实后果，predicate/object只表示recession→Italy且主要覆盖第一结果。拆开或明确用描述/条件形式保留第二结果，维持“might well”模态，不将其写作已发生的状态。
+- `st-chp7-p169-i07`（L6，p.169）：合并意大利画家需求上升和画家迅速利用局面的两个谓词层次，object为境外 patrons/client group；拆分需求来源与画家应对，或将“take advantage”保留为来源限定评价，不假定是同一群具名顾客造成。
+- `st-chp7-p169-i10`（L6，p.169）：claim保存了欧洲王侯每日请求Forabosco送画及愿付高价，却漏掉“拥有他的任何作品本身都被视为真正荣幸”这一句。补回该评价或拆成单独的Haskell报告，保留嵌套转述和未具名王侯群。
+- `st-chp7-p169-i16`（L7–8，p.169）：S0 OCR为`coinè`，physical p.3清楚印`come`；statement claim已用come，但qualification未说明校读。补写scan correction，不改S0。此行object `cand-1405` canonical为Prince Wenzel of Liechtenstein，正文只称Prince of Liechtenstein且未给名；已有qualification提示S3身份核对，保持未决，不凭候选canonical添加Wenzel。
+- `st-chp7-p169-n4-albani`（S0 `intro:l11-15` L14，p.169 n.4）：原文写“as early as 1647”，claim称“a 1647 case”且结构化date为`1647`，未保留这是时间下界/早至该年。改为“早至1647”或相应时间限定；继续保留报道者/文书类型未明、不把文字归给Albani本人、与其他章节`cand-3545`可能身份待S3核对。
+
+**明确开放而不补造：**`st-chp7-p169-i02`（Rosa拒绝跨欧洲委托）、`i13`（其他画家离开并定居新国家）与`i18`（未名architectural painter）均有清楚的`open_endpoint_reason`，保留待证。`cand-6597`被用于不同时间和子集的“意大利画家”泛称；保留“soon”“by the end of the century”“some/others”及原有群体限定，不将其解释为成员固定不变的同一批人。`cand-6595`标题中的“c.1669”也不能替代Haskell未给精确衰退起点的限定。
+
+**其余范围结论：**Rosa于1669年写Ricciardi及信中每日拒绝重要委托、Ruffo 1671年在Messina向Forabosco求画遭冷遇、两年等待与80 doppie是预期条件而非付款/交付、Forabosco关于欧洲王侯请求的嵌套传述、截至世纪末对外国委托的概括、部分画家留在故乡为德国/西班牙王侯与总督作画、其他人移居及“blackmail”评价的Haskell归属、Crespi给Liechtenstein亲王的条件信及其拒绝与建筑画家合作等，均保留对应来源、模态、数量和未名对象。关联脚注行已核页码与链接：Rosa信De Rinaldis p.221、Ruffo p.289、Albani例证Gualandi I p.38及Crespi信Miller p.530；这些只是locator，不表示被引材料已独立读取。`st-chp7-p169-n5-cite`的qualifier已正确记录扫描footnote为5、年份1960，而S0 OCR为6/i960；不重复报为新问题。所有其余逐条语义核对行未发现上述问题外实质不一致。本批不构成第七章接收。
+
+### 2026-10-20：第七章p.170正文当前ID独立语义复核
+
+按当前`segments.jsonl`与`book-statements.jsonl`逐条核读`chp-7:07_CHP-7_sec_i:l11-19`中22条statement：`st-chp7-p170-i01`—`i22`（source-order跨页含脚注citation行，S0 L12–19，印刷p.170/PDF physical p.4）。逐项对照p.170扫描、S0原文、当前claim/predicate、候选端点及类型、speaker/限定、续句和脚注链接，并核读段内44个mention跨度。跨度均可准确切回S0；其中两处候选映射语义不当（见下）。本批relation_candidate字段true=16、false=6、unset=0。结合p.169及其关联脚注本轮已直接复核23条，第七章当前ID累计45/1,238（true=39、false=6）；尚余1,193条，不能接收章节。未改statement、candidate、mentions或S0来源。
+
+**需修订/待证：**
+
+- `st-chp7-p170-i01`（S0 L12、p.170；承接p.169 Crespi信）：object为`cand-1405`（规范名Prince Wenzel of Liechtenstein），但本段/上页原文只称Prince of Liechtenstein，未给名。当前mentioned IDs是Crespi与`cand-6604`未识别的Vienna宫殿，不含Wenzel；`cand-6604`所指是房屋，不是委托亲王。将收件/委托端点留作来源描述的未具名Prince of Liechtenstein，并将宫殿作为地点/拟装饰对象分开；保留费用、住宿及“条件而非已接受/履行”的限定，不因候选规范名补入Wenzel。
+- `st-chp7-p170-i05`（S0 L12–13、p.170）：claim说画家未能引起“欧洲宫廷”的兴趣，但object是地理候选`cand-3462 Europe`。法院群不是欧洲这一地理实体；改接合适的未名court group候选，或将关系对象留空并以open endpoint说明，不将欧洲写成直接对象。
+- `st-chp7-p170-i09`（S0 L15、p.170）：true项主客体皆空；文本列举François I、Charles V、Philip II等君主斥资建绘画收藏并经代理人或直接向艺术家购画，现三位君主及collection/painting都只在mentions/claim中。应记录可追溯主体（可由具名君主组成的来源限定群组/角色）和未具名收藏或作品集合，或保留为待决，不以无端点true行承载。
+- `st-chp7-p170-i11`（S0 L16、p.170）：true项主客体皆空；“these artists”由紧邻上句明确指Titian与Michelangelo，claim称其作品持续受到敬仰并被搜求，Raphael仅是先前接受度对比。补作品群与未名搜求者的来源限定端点，或明确待决；不要把Raphael改成当前作品主体。
+- `st-chp7-p170-i19`（S0 L17、p.170）：Van Mander引文称Caravaggio在Rome工作并“does wonderful things”，当前关系仅连接Caravaggio→Rome，claim又把未名作品/创作评价并入地点关系。收窄claim至地点，或将引文的笼统评价另列为明确归属Van Mander的评价/未名作品群，不写成Haskell独立判断。
+- `m-chp7-p170-b-032`（跨度[2618,2630)，S0 L16）：完整姓名“Michelangelo da Caravaggio”内的“Michelangelo”被误映射为Michelangelo Buonarroti (`cand-1660`)；同处`m-chp7-p170-b-033`已将全名映射至Caravaggio (`cand-0544`)。删除重叠误映射，不将Caravaggio首名当作另一位画家。
+- `m-chp7-p170-b-013`（跨度[1176,1187)，S0 L15）将“Italian art”映射至地理place `cand-3461 Italy`；该句对象是意大利艺术相对其他国家艺术的主导地位，不是地理地点。改为适当艺术/文化候选或不建该mention。
+
+**其余行：**p.170 p.15–16对艺术接受的Haskell历史概述均按作者判断分类false；Van Mander引文来源/Amsterdam、Carracci的住宿与为未定身份的Cardinal Farnese作画、匿名听众对未名壁画廊的评价均保留嵌套引述层级；“of-the”与physical p.4扫描一致，不作OCR校正。p.170-i22的西班牙身份通过p.171续句关闭，声明保留跨段锚点，不由此推定具体君主或成员。其余当前ID未发现本批所列之外的实质不一致；此项只指当前22条，不构成章节接收。
+
+### 2026-10-20：第七章p.171正文当前ID独立语义复核
+
+按当前source registration与`book-statements.jsonl`逐条核读`chp-7:07_CHP-7_sec_i:l21-29`的24条statement（`st-chp7-p171-i01`—`i24`，S0 L22–29及页间衔接，印刷p.171/PDF physical p.5）；直接对照p.171扫描、statement/claim、候选及端点类型、mentions、引述/时间限定与跨页/跨段关系。本批true=24、false=0、unset=0。61个mention跨度均精确切回S0；但其中两条映射到候选的语义不符。结合p.169关联注脚和p.170，本次第七章当前ID逐条核读69/1,238（true=63、false=6、unset=0），未读1,169条；不接收章节。未改源、statement、candidate或mentions表。
+
+**需修订/待证：**
+
+- `st-chp7-p171-i01`、`i02`（S0 L22、p.171）：主语/代词“the Spaniards/they”执行委托并在Naples活动；当前主体`cand-6622`定义为institution“Spanish political power in Italy”，把政治势力对象与执行行动的人群/统治者角色合并。请核查是否需分为政治势力与未具名西班牙施事群，避免把institution直接当commissioning actor；保留个体统治者未命名。
+- `m-chp7-p171-b-006`（S0 L23）把“form of government”提及映射到`cand-6624`“Spanish viceroys governing Naples”人员群；该跨度是治理形式/制度，不是viceroy群。分出合适制度/治理概念或不建mention。
+- `st-chp7-p171-i08`、`i09`（S0 L25，p.171）把原文一般性命题“a man who had already served ... as ambassador in Rome”后任viceroy、且其口味有时异于日后被治者，映到特定的`cand-6624`（Spanish viceroys governing Naples）组；紧接着“Monterey”才作为例证。`m-chp7-p171-b-018`（“viceroy”）也被映到同一特定组。将一般模式与Monterey例证分开，以通用角色/开放群体记录，不把一般陈述限定为西班牙那不勒斯总督。
+- `st-chp7-p171-i11`（S0 L25）：true关系围绕Count of Monterey与Count-Duke Olivarez的姻亲/影响关系，但claim同列Haskell对Monterey“小、虚荣、贪婪”等评价及嵌入语“ugly majesty”。拆开作者人格评价与“职位归因于Olivarez影响”的关系；都保留Haskell来源归属，勿将评价当作独立履历事实。
+- `st-chp7-p171-i14`—`i16`（S0 L25）：`i14`说两幅特别重要的画“perforce acquired for the King”，但只有King客体、作品主体为空；后续`i15`、`i16`明确点出《Titian’s Bacchanal》和《Worship of Venus》，却两行subject仍为空，作品候选只列在mentions。按两件作品分别建立可追溯主体/作品—收藏/接收对象关系，或建立有来源限定的二画组；不让true关系端点留空。`i14`被动语态仍保留收购者未明，不能补造。
+- `st-chp7-p171-i15`（S0 L25）：claim把“so intoxicated Roman artists”弱化为“impressed”；保留原文强度/比喻并明示为Haskell表述。statement的两件Titian作品缺subject endpoint，Cardinal Aldobrandini的collection只作语境。
+- `st-chp7-p171-i17`（S0 L25）：claim/predicate合并Monterey从Ludovisi家族购得“these masterpieces”与“All Italians”自然悲愤这一宽泛反应；现buyer/seller endpoints在，但两幅作品仅为mentions。补作品/作品组角色或收窄交易claim，并把Haskell的“all Italians”反应单列为作者概括，不当作已核验的普遍情绪。
+- `st-chp7-p171-i23`（S0 L28–29、p.171）：单一claim下合并Monterey委托Lanfranco在其Naples宫殿作画、为Salamanca Augustinian convent和church分别作祭坛画；statement endpoints仅是委托人与画家，works与三个不同地点只在mentions。拆分不同委托/作品与场所，或明确它是多项委托事件并保留Convent/Church独立边界。
+- `st-chp7-p171-i24`（S0 L29接p.172 L301）：claim与object `cand-3117`（Naples Cathedral）依靠p.172 continuation正确补足目的地，但qualification又称“no destination is inferred”。改为“由p.172 L301关联续句识别目的地，非由p.171截句推断”；保留`continuation_status=complete`和跨段statement链。
+- S0转录校读（L25、p.171）：Markdown为`ruled.'We find`，physical p.5印本为`ruled. We find`；多出的撇号是S0/OCR转录差异，需在受控校读说明中记录，不改来源本体。
+
+**有意保留的来源边界：**Monterey对Velasquez的欢迎、对Ludovisi家族购画叙述、对Lanfranco/Montserrey委托及Finelli从Rome赴Naples Cathedral的跨段句，都保留Haskell叙述与适用的引文locator；`i24`之后的p.172 continuation已注册并关闭句子，不将其重复计为独立关系。p.171 body的printed_page=171与pdf_physical_page=5匹配。未列statement逐条对照原文后未发现本批列项外的实质claim方向错误；本批不构成章节接收。
+
+### 2026-10-20：第七章p.172开篇当前ID独立语义复核
+
+按当前source registration与`book-statements.jsonl`逐条核读`chp-7:07_CHP-7_sec_i:l31-35`的12条statement（`st-chp7-p172-i01`—`i12`，S0 L32–35，印刷p.172/PDF physical p.6）。对照p.172扫描、原文、statement quote/claim、候选和端点、mentioned IDs、speaker/qualifiers/开放端点及引用脚注。段内34个mention跨度均可准确切回S0。本批relation_candidate字段true=12、false=0、unset=0。结合前三批，第七章当前ID直接语义复核81/1,238（true=75、false=6、unset=0），尚1,157条，不接收章节。未修改statement、candidate、mentions或来源表。
+
+**需修订/待决：**
+
+- `st-chp7-p172-i01`（S0 L32–33，p.172）：claim把“Philip IV…whose appetite for painting was by no means satiated by the employment of Rubens and Velasquez”改写成“paintings already obtained through Rubens and Velasquez”。原文只说雇用两位画家仍不能满足其绘画兴趣，不明确已取得画作；应回到原文的雇用/赞助措辞，避免把未写明的完成采购写成事实。
+- `st-chp7-p172-i04`（S0 L33、p.172）：true行说《The Abduction of Helen》和《The Death of Dido》均未送至Madrid，现只有Madrid地点端点、两画分别在mentions。拆为两条作品→目的地关系，或建立明确作品组端点并保留“owing to some diplomatic confusion”；不猜测画作之后所在地点或派送者。
+- `st-chp7-p172-i08`（S0 L33、p.172）：关于picture type由Venice起始、后被忽略、约百年后在Rome重现，当前只留类型subject，Rome/Venice都在mentions且object为空。可拆为来源地/重现地两个来源限定阶段，分别保留早16世纪与约百年间隔；不要把两地压成一个地点端点。
+- `st-chp7-p172-i09`（S0 L33–34、p.172）：claim并列“最初推动”来自Annibale Carracci/Domenichino与“后由北方艺术家丰富”两类不同角色，当前只以picture type作subject、无object端点。拆为两个来源限定的影响/贡献claim，保留两组人不同角色及Haskell的“picturesque and irrational”评价，不合并为同一artist group。
+- `st-chp7-p172-i11`（S0 L34–35、p.172）：claim称genre由Claude、若干Flemish painters、可能最杰出的Jan Both以及较少程度的Poussin实践；当前genre在subject、人物组在mentions，object为空。按个人/群组拆分相应artist→genre关系，保留“mainly”“probably”“to a lesser extent”限定，或明确留作待证端点。
+- `st-chp7-p172-i12`（S0 L35、p.172）：claim把“这些画家刚开始建立名声”与“King of Spain正转向他们”合并，当前Philip IV为subject、object为空；多位画家/群组仅在mentions。拆出Haskell的声誉概括，并将King转向多位/群组艺术家的来源范围单独表达；保留Claude、Flemish painters、Jan Both（probably）与Poussin（to a lesser extent）的成员和强度差异，不编造一个固定单一群组。
+
+**其余范围结论：**p.172-i02匿名国王使节于1628年委托Reni作品；i03的两作pendant关系及工作类型端点对应索引子项；i05约1636年、超过12幅、每幅含隐士/anchorite图像的景观系列协商；i06 Buen Retiro与Jeronymites monastery原址分开；i07明确属于Haskell对Philip转向Rome的解释；i10保留“almost a monopoly”；i12 OCR黏连经扫描识别且仍保留source quote原样等，相关原文方向及时间/语气基本准确。脚注3/4依已登记页脚链指向Costello和Röthlisberger/Blunt locator；它们只记录Haskell的引文，不代表已读取被引材料。除上列外未发现本批逐条statement有其他实质方向不一致。本批不构成第七章接收。
+
+### 2026-10-20：第七章p.173正文当前ID独立语义复核
+
+按当前source registration与`book-statements.jsonl`逐条核读`chp-7:07_CHP-7_sec_i:l37-43`的27条statement（`st-chp7-p173-i01`—`i27`；S0 L38–43，印刷p.173/PDF physical p.7），对照扫描、原文、候选端点、`mentions.csv`、关系/非关系分类、speaker/嵌套引文、限定及续句。53个mention跨度均精确切回当前S0。当前relation_candidate字段true=22、false=5、unset=0。结合p.169–172，本次第七章直接语义复核108/1,238（true=97、false=11、unset=0），未读1,130条；不接收章节。未修改S2表、候选或来源。
+
+**需修订/待证：**
+
+- `st-chp7-p173-i03`、`i05`、`i08`（S0 L38、p.173）：正文只称“His brother”以及“the two men/both”；将brother名为Pietro Paolo的来源是同卷索引映射，而非该叙述句本身。`i03`的claim说“identified by the book index”，但speaker仍为Haskell；`i05/i08`分别把Pietro Paolo连到Claude与Spanish cause，却未显出索引识别依据。保留“索引映射→Pietro Paolo”的来源锚/来源层，不能把姓名说成Haskell该句直接点名；兄弟身份依索引映射保留待S3对照。
+- `st-chp7-p173-i02`（S0 L38、p.173）：claim将“born in 1577”与“came of a noble Roman family”作为一项`born_in_and_member_of`关系；补充日期字段或拆为出生年代与家族出身两项，避免把年分和家族端点混为一个关系。
+- `st-chp7-p173-i10`（S0 L38、p.173）：同一true claim合并Crescenzi实际从事建筑与其对Buen Retiro建造发挥关键作用；目前Buen Retiro宫殿是唯一object。拆开职业描述与建筑项目贡献，或收窄关系claim为后者。
+- `st-chp7-p173-i11`（S0 L38、p.173）：claim/open reason正确保留“他本人或他的兄弟”两种可能，object为未具名景观系列，subject开放。原文扫描physical p.7读作“or his brother”，S0/quote却作“of his brother”；补扫描校读限定，仍保持“more than likely”、either/or及兄弟身份开放，不替读者选定委托人。
+- `st-chp7-p173-i18`（S0 L39、p.173）：原文以“one other nation”比较France与Spain争取意大利艺术家服务的政治能力，当前subject `cand-5317 France`与object `cand-5120 Spain`均为geographic place。不能用地理地点直接代表政治共同体；两端应保留political entity/国家身份待对齐，且当前open_reason只提France，需把Spain端点也纳入身份待决。
+- `st-chp7-p173-i22`（S0 L40–41、p.173）：claim称“不靠Italian help或specific Italian models”，原句更精确为“without Italian help or even specific Italian models in mind”；避免把无意采用模型扩大为未使用模型，保留“in mind”、consciously or not、almost entirely。
+- `st-chp7-p173-i23`及`m-chp7-p173-b-044`（S0 L41、p.173）：原句“latter-day Mannerists”跨行印为行末`Manner-`、次行`ists`；S0/mention跨度含额外的`- -`，`original_quote`为`Manner-\n- ists`。qualifier虽指出扫描读作Mannerists，但应明确记录多出的OCR连字符校读；不改S0原始转录。
+- `st-chp7-p173-i27`（S0 L43续p.174）：true claim把Marie与Medici、Gonzaga两家及侄女/姻亲关系并在一行，subject存在而object为空，open reason说明多条路径。按家族/亲属端点拆为有向、逐条可追溯的关系，保留p.174续句锚；未拆前不据该行登记单一正式关系。
+
+**其余范围结论：**Röthlisberger论述到Haskell转述/认同的层级、关于Venetian ambassador的“some say”嵌套怀疑及Haskell反驳、Landscape commission的“more than likely”与Claude/Poussin作品数量限定、法国贵族关注“the south”的上下文解释、Henry IV法语引语（`queje`扫描分词校读已在qualifier注明）、建筑政策与Mannerists后期装饰的作者评估、Marie de Medici相关观点的作者/历史学家归属等均保持来源界限。`cand-1483`的索引子项为Palace of Buen Retiro，故它在本段作为宫殿端点，不解释为Madrid城本身。其余statement未见所列问题外的实质方向不一致；本批不构成第七章接收。
+
+### 2026-10-20：第七章p.174正文当前ID独立语义复核
+
+按已登记来源段 `chp-7:07_CHP-7_sec_i:l45-59`，逐条核读当前 `book-statements.jsonl` 中 `st-chp7-p174-i01`—`st-chp7-p174-i33` 共33条，核对 S0 L46–59、扫描PDF物理页8/印刷p.174、82条mentions、候选端点、原文claim/谓词、来源/说话者、限定与 relation_candidate 分类。当前段true=32、false=1、unset=0。结合此前本轮第七章p.169–173当前ID直接核读108条，现累计141/1,238（true=129、false=12、unset=0），未读1,097条；不接收章节。未修改来源、statement、mention或candidate表。
+
+**需修订/待证：**
+
+- `m-chp7-p174-b-020`（S0 L49，p.174）：mention `he` 的 `[414,416)` 精确切中“ The garden”中的`he`字符，而注释说它指Francavilla；真正的指代在“made by ... Pietro Francavilla, that he summoned him...”之后的另一处。需把跨度移至实际代词（并按真实代词分别保留King/Francavilla指代），candidate仍应为Francavilla。
+- `m-chp7-p174-b-067`（S0 L57，p.174）：mention `it` 的 `[1633,1635)` 落在较早的`portraits`内部；注释将其解释为Palais du Luxembourg，而实际`it`在“the new building ... In fact it was designed...”处。修正跨度至实际代词位置，保留其指向新宫殿`cand-1461`。
+- `st-chp7-p174-i04`（S0 L47–48，p.174）：一条claim合并Marie于1601年抵达Paris与她对Louvre的反应，subject Marie、object Louvre；Paris只在mentions。拆成到Paris的行程/时间与对Louvre的反应两项，并保留当前正确的Haskell叙述归属，勿把引号内评价说成Marie的直接原话。
+- `st-chp7-p174-i12`（S0 L51–52，p.174）：谓词为`persuaded_grand_duke_to_commission`，但object是雕像`cand-6676`；句法中被Marie说服的是未具名身份的叔父Grand Duke `cand-6668`，雕像是随后委托的对象。将说服关系端点改为Marie→Grand Duke；如需记录委托意向，再单独表示对象/作品与来源限定，不把三元角色压进一条二元边。
+- `st-chp7-p174-i15`（S0 L54，p.174）：被动句“this request was not granted”没有指明拒绝者，当前将`cand-6668` Grand Duke Ferdinand作为object会把未说明的代理人写成事实。删除此拒绝者端点或保留拒绝事件/请求对象为开放；不推断是Grand Duke亲自拒绝。
+- `st-chp7-p174-i23`（S0 L57，p.174）：将Henri IV于1610年遭刺、Marie ambition增强和摄政局势“ever more disastrous”合并为一项带因果/评价的claim。拆开事件、Marie的变化和Haskell对摄政恶化的评价，并分别保留来源层级和时间。
+- `st-chp7-p174-i24`（S0 L57，p.174）：合并Marie命建筑师Salomon de Brosse建新宫、场地来自她购入的旧宫、旧宫卖方身份三项；当前只有新宫`cand-1461`作为object。拆分建造指令/建筑师角色与旧宫购买/场地沿革；保留旧宫`cand-6683`及身份未决卖方`cand-6684`，不把“new palace”与先前建筑合并。
+- `st-chp7-p174-i25`（S0 L57，p.174）：合并Marie向未具名姨母索取Palazzo Pitti plans与希望以之为新宫模型的两项行动，且object仅Pitti。拆成请求与设计意图/比较关系；保留姨母未具名、来源只说希望，不能推成收到图纸或实际采用设计。
+- `st-chp7-p174-i28`（S0 L57，p.174）：claim合并“到1620年重新掌权”与“急于向世人展示胜利”，没有端点且没有open reason。拆开时间/政治地位描述与作者归属的展示意图；源文未给出正式职位，也未指定“world”的具体对象，仍保持开放。
+- `st-chp7-p174-i32`（S0 L58–59，p.174）：predicate `chapter_scope_turns_from_rubens_project_to_gentileschi` 是作者的编辑转场，不是Gentileschi→Marie的关系；claim同时包含Rubens项目重要性评价和Gentileschi进入Marie服务。拆出Haskell的章节评价与Gentileschi entered her service的实际关系，修正关系谓词；扫描支持`artists, more`，现qualifier已记录S0异常，保留原始S0文本。
+- `st-chp7-p174-i33`（S0 L59续p.175，p.174）：claim合并Gentileschi于1623抵达和此前从Genoa寄出一幅未具名画作；subject是画家，object是画作。拆为人物到达事件（保留p.175续文）与画作寄出/来源地关系，不推断其后收藏位置或归宿。
+
+**其余范围结论：**p.174-i01—i03保留Marie与Medici/Gonzaga家族及匿名亲属路径的区分；i05—i10对Gondi palace、花园、Orpheus fountain、Francavilla、Bordoni与巴黎传召的对象边界基本对应原文；i13—i18区分Pont Neuf、Marie所求的Grand Duke雕像部件与Henri IV雕像，且扫描核实`Pont Neus`应校读为Pont Neuf（S0保持不改）；i19—i22及i26—i27保留Marie、Pourbus、工艺兴趣和新宫/Pitti之间的来源限定；i29—i31关于Rubens的“probably”、尚处于approached/asked阶段、两个gallery（interior spaces）与cycle（work）类型区分均有相应限定；其他mentions切片与candidate映射未发现新增实质问题。脚注1—4的链接在表中均指向当前复合来源段；引用书目只是Haskell的引用，不代表已独立核实引文。除上列问题外，本段其余当前statement逐条未见实质方向不一致；本批不构成第七章接收。
+
+### 2026-10-20：第七章p.175正文当前ID独立语义复核
+
+按已登记来源段 `chp-7:07_CHP-7_sec_i:l61-74`，逐条核读当前 `book-statements.jsonl` 中 `st-chp7-p175-i01`—`st-chp7-p175-i32` 共32条，核对 S0 L62–74、扫描PDF物理页9/印刷p.175、84条mentions、候选端点、原文claim/谓词、来源/说话者、限定、脚注与跨页续句及relation_candidate分类。当前段true=27、false=5、unset=0。结合本轮此前Ch7 p.169–174，当前ID直接核读173/1,238（true=156、false=17、unset=0），未读1,065条；不接收章节。未修改来源、statement、mention或candidate表。
+
+**需修订/待证：**
+
+- `st-chp7-p175-i10`（S0 L64，p.175）：claim说Ferdinando“为类似的问题担忧”，object却指Marie本人；原文只类比他对personal prestige的担忧与Marie对个人声望推广的关注，不表示他“担忧Marie”。将object改为来源支持的共同问题/声望议题端点，或拆为两人的各自关注并开放未命名问题端点，保留1624及“similar”。
+- `st-chp7-p175-i16`（S0 L64–65，p.175）：claim称Ferdinando雇用many leading artists in Italy并突出Domenico Fetti，结构化object只有Fetti `cand-1033`；未具名artist group `cand-6698`只在mentioned_candidate_ids。拆出群体雇用概括（保持成员未枚举）和Fetti的特指关系，或明确本行仅保留Fetti的特指事实并另存群体端点待证。
+- `st-chp7-p175-i20`（S0 L65–66，p.175）：原文“he—and so many others”将Richelieu与未具名其他取得者并列；当前subject仅`cand-2189`，object `cand-6696`是作品/宝藏组而非取得者群组。保留“soon to obtain”的Haskell预测及价值判断归属；将未具名取得者群作为开放subject端点或拆开Richelieu与未名人群，不能用作品组替代人物取得者。
+- `st-chp7-p175-i21`（S0 L65，p.175）：false行claim明确称Richelieu是Marie的minister，谓词`minister_to`及Richelieu→Marie两端已编码；原文“her minister, Cardinal Richelieu”明示身份关系。应按关系候选重新裁决为true（日期/正式职衔仍不另推）。
+- `st-chp7-p175-i22`（S0 L67，p.175）：quote写Richelieu为“minister de la France”；当前object `cand-5317`是地理France，而 mentions中已有语境专用政治实体`cand-6704`。改用政治实体端点，并保留未具名被引说话者、Bonnaffé脚注locator及引文评价属性；predicate也应表达“被引来源称其为法国minister/艺术爱好者”，不能仅把Richelieu→France描述为一般评价关系。
+- `st-chp7-p175-i25`（S0 L68，p.175）：claim主语是四位艺术家（Perugino、Mantegna、Costa、Correggio）“long since dead”，当前subject却为`cand-6694`（他们绘制的studiolo画作组）；合适的artist-group `cand-6705`已在mentioned_candidate_ids，四人各自mention也有映射。将主体改为艺术家组或逐人表示，保留相对时间“long since”，relation_candidate=false可维持。
+- `st-chp7-p175-i30`（S0 L71–72，p.175）：claim合并Haskell推断Richelieu听闻Barberini将Rome变为荣耀纪念碑并心生羡慕，以及推断他认为Paris没有可比人才两项心智判断；当前object只有Barberini家族`cand-0198`，Paris观点只在mentions。拆分两项，分别保留“must have”“some envy”“despite all his encouragement”与Haskell推断/评价，不把推断写成可独立验证的Richelieu心理事实。
+- `st-chp7-p175-i31`（S0 L73–74，p.175）：claim合并Mazzarini为Richelieu意大利protégé与他开始在法国政治中发挥重要作用；当前Mazzarini→Richelieu端点只承载前一关系。拆为protégé关系和“beginning to play an important role”来源限定claim，后者如无合适政治角色/场域端点则保持开放。
+
+**其余范围结论：**i01将“less than two years”及“no doubt”推测原因归于Haskell并保留跨p.174续句；i02–i05保留影响被“traced”而非断言直接因果、唯一确定存世委托的限度及作品身份；i06/i15/i23/i25为非关系描述/评价分类总体适当（i25主体如上须改）；i11–i14保留未名ambassador/adviser、形式称谓请求、宫殿赠画建议与Vincenzo父子关系，未把建议写为已送达；i17–i19保留未送达的十画提议、Marie对人物裸露/淫荡程度的请求及其余反应未知、图片对Richelieu转向Mantua仅为间接影响；i24–i29保留代理人未名、作品未证实已购入、Richelieu与活跃艺术家群关系的“for most”、Poussin commission中的artist/works/Château/locality区分以及吸引画家来巴黎是尝试政策。扫描确认OCR `Duke ofMantua`有空格、`he was told`无多余引号、`agents of`无点、`illustre`拼写、`protégé`重音和`available`拼写；S0不改，必要校读取决保存在qualifier。除上列外本段当前statement与mentions未见实质方向错误；本批不构成第七章接收。
+
+### 2026-10-20：第七章p.176正文当前ID独立语义复核
+
+按已登记来源段 `chp-7:07_CHP-7_sec_i:l76-89`，逐条核读当前 `book-statements.jsonl` 中 `st-chp7-p176-i01`—`i33`及`i16b`共34条，核对S0 L77–89、扫描PDF物理页10/印刷p.176、88条mentions、候选类型与端点方向、claim原子性、 speaker/引文层级、限定和跨页续句。当前段true=33、false=1、unset=0。对本章累计直接语义核读207/1,238（true=189、false=18、unset=0），未读1,031条；第七章不接收。未修改来源、statement、mention或candidate表。
+
+**需修订/待证：**
+
+- `st-chp7-p176-i01`（S0 L77，p.176；续p.175 L74）：当前claim断言Richelieu的压力“resulted in Mazzarini being made a cardinal”；来源仅称Richelieu用尽压力“to have him made” cardinal，表达目的/施压，不确认任命结果。改为来源实际声称的施压及目的；若需记录任命结果，须另有证据，不能由不定式推成已完成事件。
+- `st-chp7-p176-i09`（S0 L83，p.176）：claim是Haskell对“his prophecy proved accurate enough”的回顾评价，当前subject空、object却是Poussin本人。补一个可追溯的预测/事件端点与随后被认为验证它的结果端点；若只保留作者评价，则明确改为非关系断言，不把Poussin本人当作“准确”的object。
+- `st-chp7-p176-i10`（S0 L83，p.176）：source明确列出Poussin和Duquesnoy为被施压对象、法国为目的地，但subject/object均空，relation_candidate=true。可拆到两位具名目标或使用有来源锚的目标组，并保留施压方开放；不要凭后文任命推断该次施压者。
+- `st-chp7-p176-i11`（S0 L83，p.176）：claim称Poussin和Duquesnoy均拒绝先前邀请，当前两个端点都空。拆为两名artist各自拒绝（或有确切成员范围的组端点），object为已知邀请/招募对象；未给个人拒绝理由，继续保持开放。
+- `st-chp7-p176-i12`（S0 L83–84，p.176）：把Poussin提出赴法条件与未具名权威接受条件合在一行，subject为Poussin而object空。拆为条件提出与接受两项；接受者未明，不用France地点或French court替代接受者身份。
+- `m-chp7-p176-b-045`及`st-chp7-p176-i17`（S0 L84，p.176）：短语“they had aimed too high”指前句Mazarin及其朋友/招募者，mention却映到`cand-6710`（受招募画家、雕塑家等目标群）；该行是作者评价而非artist group事实。将mention改到招募者/招募行动候选，若本行保持false则移除不适当的目标组endpoint。
+- `st-chp7-p176-i14`（S0 L84，p.176）：Chantelou的任务claim同时包含带Poussin回法与招募更广泛的artist/artisan group，当前只以未名招募群`cand-6710`作object。拆出具名Poussin返法和广义招募任务，保留引文中的群体范围，不令“other artists”吞并Poussin这一单独目标。
+- `st-chp7-p176-i15`、`i16`、`i16b`（S0 L84，p.176）：来源的appeals及对Cortona/Guercino的招募愿望归于Mazarin和其未名罗马上层朋友；当前单人subject是Mazarin。三条open reason已承认不是Mazarin独自行动，但i16/i16b的`mentioned_candidate_ids`未纳入已建候选`cand-6712`（朋友群）。补齐群体引用/端点或以有来源锚的行动组表示；保留“希望响应/目标招募”而非已接受。
+- `st-chp7-p176-i19`（S0 L84，p.176）：claim称Chantelou护送Poussin及少数未名次级画家，object只有Poussin，`cand-6711`只在mentions。拆出对Poussin与未名画家组的护送结果，或让对象端点覆盖claim的两个层级；保留October时间及未名群组。
+- `m-chp7-p176-b-050`及`st-chp7-p176-i20`（S0 L84，p.176）：mention“this limited success”映到`cand-6710`（原文招募目标全组），但就近所指是Chantelou最后只护送Poussin与少数次级画家的实际有限结果；claim的subject又为空，object为威胁/贿赂手段`cand-6717`。修正成功结果的事件/群组映射（至少包含Poussin及`cand-6711`，不等于全部目标），施压者及受压对象仍待证；保留Haskell对使用extreme pressure的归属。
+- `st-chp7-p176-i23`（S0 L84–85，p.176）：Barberini允许Bernini“and his pupils”制作Richelieu胸像，当前唯一object是Bernini；open reason正确记下未名pupils组`cand-6714`尚未成为endpoint。保留该待补端点，不把作品端点、Bernini与未名助手并为一名maker。
+- `st-chp7-p176-i26`（S0 L85–86，p.176）：claim在bust→Paris到达关系中又并入“cold, aloof and elegant”评价及“距被描绘者之死一年多”相对时间。分开到达地点/日期、Haskell对胸像的评价和相对死亡时间；保持“little more than a year”而不计算精确日期。
+- `st-chp7-p176-i27`及`m-chp7-p176-b-068`（S0 L87，p.176）：source主语是“Richelieu’s death”，而当前relation subject及mention映为Richelieu人物`cand-2189`。用死亡事件端点或开放事件候选表示“死亡未中断法国计划”，不可把人物本身当作死亡事件。
+- `m-chp7-p176-b-082`、`st-chp7-p176-i30`、`i31`（S0 L88–89，p.176）：“This disaster”明确指Duquesnoy临启航前死亡，mention映为Duquesnoy本人`cand-0952`；i30把同意赴巴黎与死亡合成Duquesnoy→Paris一条关系，i31又将死亡作为Mazarin更进取的因果刺激，却只结构化Mazarin→Richelieu继任关系。拆开赴法同意与死亡事件，并在继任关系外单独保留Haskell对死亡刺激招募政策的因果解释；死亡event endpoint需另建/待证。
+- `st-chp7-p176-i33`（S0 L89续p.177 L92）：当前claim只写“reckoning without Urban VIII; the consequence follows on p.177”，但qualifier已登记续句说Urban VIII虽近死仍有权控制Bernini。待p.177来源段逐条核读后，将该续文纳入完整claim或显式保持partial；不能在续句未核完前称此statement完整。
+
+**其余范围结论：**i02–i08 speaker分别区分Haskell叙述与Poussin经Haskell转述的Correspondance内容，保留“too well treated”“only second-rate”“s’abusent très grossièrement”等范围/评价；i03–i05正确区分Congress of Cologne、French court与Mazarin启动Richelieu政策的作者限定推断；i13保留Surintendant为未名职务持有人、Chantelou为使者；i18对拒绝者不作具名归属，保留开放；i21–i25区分Della Bella、未名Florentine ambassador、Barberini家族、Bernini/学徒、Richelieu胸像和未名Champaigne三人像，并保留Haskell的almost certainly推断及所谓ally的修辞限定；i28–i29保留Richelieu死后计划继续、Poussin回罗马“pretext”的叙述归属；i32保留1644年劝Bernini定居法国、给未说明金额的高薪且不声称Bernini接受；i33当前Urban VIII身份端点正确，续句映射已登记。相关脚注1–9的表内citation link均为linked，但仅表示引文定位已关联，不代表已独立读过被引著作。扫描核实`policy / earlier / brilliant / della Bella / climate / allies / Philippe / Richelieu`等S0 OCR差异；原S0保留不改，校读在qualifier/note中表达。除上述外，本段逐条statement与mentions未见其他实质方向问题；本批不构成第七章接收。
+
+### 2026-10-20：第七章p.177正文段当前ID独立语义复核
+
+按当前登记段 `chp-7:07_CHP-7_sec_i:l91-100`，逐条核读 `book-statements.jsonl` 中 `st-chp7-p177-i01`—`st-chp7-p177-i27` 共27条（source L92–99，印刷p.177/PDF physical p.11）；对照当前S0转录、扫描、claim/predicate、端点类型与方向、52条mentions、speaker/引述层级、时间与语气限定、跨页续句和 `relation_candidate`。本段true=23、false=4、unset=0；52个mention跨度逐一切回本段文本均精确。当前第七章总计1,238条；按此前过程记录直接核读207条加本批27条，累计234/1,238（true=212、false=22），未读1,004条，不接收章节。此覆盖仅指正文段：同页另有独立脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 中10条p.177 statement（`st-chp7-p177-n1-cite`至`n5-cite`及`n4-letter-*`），本批未核读。未改S0、statement、mention或candidate表，仅追加本过程记录。
+
+**需修订/待证：**
+
+- `st-chp7-p177-i03`（S0 L93，p.177；承接p.176）：claim将“detain Bernini”的施事写成Urban VIII的patronage，并与 patron去世后的bad days合在一起；原文把留住Bernini的力量归于前句所报的那句话，继而说 patron去世、艰难时期随之而来。收窄/拆分：保留Haskell所报言语对Bernini的作用、Urban去世后的困难，避免将话语改写成赞助关系或把两个时间关系并为一项。
+- `st-chp7-p177-i04`：source说最有力的欧洲国家努力几乎未能与Barberini regime的吸引力竞争，但未点名国家；subject缺失且open reason已说明未名。应保留开放施事群，补充可追溯的来源限定群组/待证端点，不能据上下文定为法国等具名国家。
+- `st-chp7-p177-i06`（S0 L95）：主语是Lord Arundel、Charles I和少数未名courtiers的合组，当前subject仅Arundel，object为空；`cand-6723`（courtiers）在mentions中但现型为term，`cand-0650` Charles I也未纳入。应让主体覆盖原文三类成员并补足“love of art”对象概念，或保留明确开放组；不能让单一Arundel代表全组。
+- `st-chp7-p177-i08`（L95）：claim的source subject是“the King’s purchase”且结果是对其他欧洲rulers的repercussions；当前subject写Charles I本人，丢失购买事件。以来源限定的购买/影响事件承接，或将事件端点开放；`cand-6738`所指未名统治者群也不应以term代替人群。
+- `st-chp7-p177-i10`（L95）：原文失败的努力由Charles I和his agents共同承担，当前subject只有Charles；已有 `cand-6725` 未名agent group仅在mentions且类型为term。让端点/claim覆盖代理人群，保留艺术家与英国两个目标范围；不要记成Charles一人独自实施。
+- `st-chp7-p177-i14`（L96）：原文施事为Charles I和his ministers，statement只用Charles；未名ministers未进mentions/端点。source所说England–Rome isolation是政治/宗教关系，当前Rome使用 `cand-4490` place，England在mentions为 `cand-6290` place。保留未名minister群，并核对政治实体与地理地点的区别，不把城市/国家地理卡直接当作外交机构。
+- `st-chp7-p177-i15`（L96–97）：明确主语“his own wife and many of his courtiers”与谓语“were Catholic”，但subject/object均为空；`cand-6726`妻子及`cand-6723`courtiers仅在mentions，宗教身份没有概念端点。补可追溯主体组及宗教属性端点，或拆成妻子/宫廷群体并开放未名身份；此处不是没有端点依据。
+- `st-chp7-p177-i18`（L97）：把Englishmen能赴Rome且不怕Inquisition，与他们受到Cardinal Barberini欢迎合成一条；当前仅Englishmen→Rome，缺欢迎者和fear所指机构的结构表达。拆分旅行/安全与接待两项，使用已有 `cand-6727`/`cand-6728`或保持身份待证；不要把地点端点当作接待者。Englishmen候选 `cand-6730` 当前为term，需按人群候选处理。
+- `st-chp7-p177-i19`（L97）：source只说鼓励外交交流，没有列出参与机构、个人或时间；claim改写成England与Rome之间的交流，端点又是地理place `cand-6290`、`cand-4490`。将具体外交主体留空/待证，不把上下文的“reciprocal gestures”扩成已确认的双边主体；若保留英罗交往语境，需用匹配的政治实体并保持source限定。
+- `st-chp7-p177-i20`（L97）：原文是政治缓和伴随“English respect for contemporary Italian culture”增长；当前subject为political relaxation，object仅文化本体 `cand-6739`，没有表达/连接增长的respect态度。改为态度/历史趋势claim或增加相应概念端点，不要让culture替代respect。
+- `st-chp7-p177-i21`、`i23`（L98）：分别声称Catholic humanism吸引“many”人，以及这种sophistication仅见于small privileged elite，但两行object均为空。保留人数模糊性和未名群体，添加来源限定的人群组/开放端点，避免把`many`或`small elite`写成具名对象。
+- `m-chp7-p177-b-042`、`b-043`及`st-chp7-p177-i22`（L98）：aesthetic merits和representational content两个mention均映射到 `cand-6735`，其detail实际定义的是二者之间的“distinction”。保留i22的上位区分claim，但为两个被区分的方面使用各自匹配的概念候选，或不将短语直接映射为“区分”本身。
+- `st-chp7-p177-i26`（L98）：这是Haskell关于“评估Charles艺术政策时必须考虑这些张力”的解释性/方法性提示，不是已发生的对象关系；当前relation_candidate=true且Tensions无独立端点。改为relation_candidate=false的来源限定断言，避免据此生成正式关系。
+- `st-chp7-p177-i27`（L99，续p.178 L103）：段尾条件句尚未完结；p.178补出“settle at his court”，当前claim概括为“if he would accept”不够精确。跨段复核时补全为定居宫廷的条件，保留1625、Guercino的Semiramis画、优厚条件、尚无接受事实及脚注Mahon对两者因果关联的相反解释；不要裁定两种来源说法。
+- 候选类型待处理：`cand-6723`（courtiers）、`cand-6724`（artists）、`cand-6725`（agents）、`cand-6730`（Englishmen）、`cand-6738`（European rulers）均表示人群却标为term；taxonomy将term定义为概念/术语，未定义临时人群类型。转回S2/S3保留群体边界并待定类型处理，不强行转换为institution或当作概念。`cand-6721`是明确的图画收藏候选，当前type留空且detail说明taxonomy没有collection类型；本批保持待定，不据此删除claim或冒充单件work。
+
+**其余核读结论：**i01–i02的Urban VIII→Bernini引述与临终仍保有权威，保留reported speech及p.176续句；i05英方努力与前句结果作相似比较；i07 Charles I购买Mantua公爵图画收藏；i09保留Naudé“probably”预测及嵌套引语归属；i11–i12分别记录Rubens、Van Dyck受雇；i13保留Haskell推断并为false；i16–i17、i25为非关系描述并为false；i24的代词指向前文sophistication。扫描校读确认S0 `osali`应读作“of all”、`artisricpolicy`应读作“artistic policy”，当前qualifier已保存校读，不改来源本体。脚注段中的书目/信件statement未纳入本批，citation locator也不等于已独立读取被引材料。除列明项外，本正文段其余当前ID未见新的实质方向问题；本批不构成第七章或p.177全页接收。
+**补充逐句问题：**`st-chp7-p177-i01`（L93）谓词称Urban VIII的引语为“encouragement to remain in Rome”，但原话“you are made for Rome...”并非直接的留下命令；“words powerful enough to detain Bernini”是Haskell另述的效果。宜拆分报告言语与其叙述效果，或将谓词改成准确的reported saying。`st-chp7-p177-i09`（L95）把Naudé预测“pictures ... would probably go to Arundel”与同一引文对Arundel搜取意大利珍宝的评价合并；可拆出评价并保留嵌套说话层级。`st-chp7-p177-i11`、`i12`（L95）各将Charles雇用Rubens/Van Dyck与Haskell称其为“fully justified satisfaction”的评价写在同一claim；将事实与作者评价分开或把评价移入明确的Haskell限定。`st-chp7-p177-i17`（L97）将刑法仍有效与执行宽松两项命题并为一个statement；拆分为法律状态和执行方式，relation_candidate=false可保留。
+### 2026-10-20：第七章p.178正文段当前ID独立语义复核
+
+按当前登记段 `chp-7:07_CHP-7_sec_i:l102-111`，逐条核读 `st-chp7-p178-i01`—`st-chp7-p178-i24` 共24条（S0 L103–111，印刷p.178/PDF physical p.12），对照p.178扫描、当前原文、claim/predicate、端点及候选类型、speaker/引述、限定、mentions和关系候选分类。53条mention跨度全部精确切回该段文本；本段true=23、false=1、unset=0。结合前批直接核读234条，累计258/1,238（true=235、false=23），未读980条；不接收第七章。p.178同页另有 `chp-7:07_CHP-7_sec_i:l293-389` 脚注段的12条 statement 未包含在本批；p.177脚注段10条仍待审。未修改S0、statement、mention或candidate表，仅追加过程记录。
+
+**需修订/待证：**
+
+- `st-chp7-p177-i27`、`st-chp7-p178-i01`（p.177 L99续p.178 L103）：跨页续句已核实，原条件是Guercino定居Charles I宫廷。p.177 claim仍写“if he would accept”，应更新为原文条件；p.178 i01现已准确记录，且明确没有说Guercino接受。
+- `st-chp7-p178-i02`（L103–104）：来源以“we are told”引出Guercino拒绝及其理由；当前claim略去“以免玷污其天使般品格”以及“如此可怕、气候与故乡如此不同的旅程”。完整保留报告/引语层级和两项理由，不把它们提升为独立核实的动机；脚注1的Mahon意见仅针对Semiramis与邀请的关联，保留为相反来源解释。
+- `st-chp7-p178-i04`（L104）：把Albani拒绝与其未决动机合成一个predicate。拆分拒绝事实与Haskell称其动机不明的评价；不替他选“气候”或“异教徒”。
+- `st-chp7-p178-i05`（L104–105）：Charles希望Tacca赴London制两匹马，与Grand Duke of Tuscany拒绝授权访问是两项不同角色/行动；当前行只用Charles→Tacca承载两者，Grand Duke `cand-1608`只在mentions。拆开希望/招募与拒绝授权，保留马匹仅为计划；不能写成正式委托或已制作。Grand Duke在正文未具名，当前候选依索引识别为Ferdinando II，须保留这是索引映射而非本句点名。
+- `st-chp7-p178-i06`、`i07`（L105）：两行分别记录Painter Gentileschi、sculptor Fanelli被Charles取得，却都重复附加“二人均不及原先期望的地位”。保留两个不同引入结果；将Haskell对两人整体的比较评价单列或用准确双人组承接，不能重复成每个单人claim的属性。
+- `st-chp7-p178-i08`（L106）：Gentileschi受诱赴英的时间“probably at the end of 1625”已保留；诱使者未名，若该关系候选保留“induced”，需把未名施事显式列作开放端点。该行原文的`1625/`在扫描中为脚注4标记，qualification应记录校读，不能当年份字符。
+- `st-chp7-p178-i09`（L106）：claim合并在Paris开始摆脱Caravaggist influence与发展出lighter/less idiosyncratic/more decorative style；当前object仅`cand-6744`（Caravaggist influence）。拆分影响变化与风格发展，或补入匹配的风格概念端点，保留“had begun / had developed”的阶段限定及不推定单一原因。
+- `st-chp7-p178-i10`（L106）：合并在England受到Charles和Duke of Buckingham欢迎、风格发展继续两项；subject是Gentileschi，object只含Duke。分别记录两位明确的欢迎者与风格延续；source没有说两人中谁“发起”欢迎，现open reason不应写成欢迎者身份未明，而应覆盖两位共同角色。
+- `st-chp7-p178-i11`（L106–107）：claim主语应是Gentileschi的easel pictures，而非人物本人；该作品组没有结构化端点。又把作品的叙事风格和Haskell关于极端Puritan以外观众“未必会反感”的推测合为一项。以来源限定作品组记录风格，另列作者对潜在接受度的判断；不写成实际观众反应。
+- `st-chp7-p178-i12`（L107–108）：把Gentileschi大型委托在政治上无害、Stuart“Divine Right”宣传交给Rubens，以及艺术时效性评价合为一项；并把末尾“less up to date artistically”从Gentileschi的commission移到Rubens身上，claim改成Rubens更时髦，方向与原文不符。拆开三项并恢复评价对象；“far abler brush”是Haskell对Rubens能力的评价，不等于当前claim所写“Rubens的风格更时髦”。
+- `st-chp7-p178-i13`（L108）：claim覆盖Gentileschi→Muses/Virtues画作、画作在Queen’s house天花板的位置，以及Inigo Jones建造此屋三项事实；当前结构仅人物→画作。拆出作品创作与其安置空间/建筑者，保留房屋位置及画作身份未详。
+- `st-chp7-p178-i14`（L108–109）：原文说画作既“looked back to Veronese”也参照Venice的Libreria，当前object仅Veronese；`cand-6742` Libreria与Venice `cand-3401`仅在mentions。补第二个参考端点，保留这是Haskell的风格比较，不推成对特定作品的复制。
+- `st-chp7-p178-i16`（L109）：把Gentileschi年老、疲倦、思乡的作者描写与其在Paris及England都被Rubens超越的比较合并。拆开人物状态评价和艺术竞争/比较，保留“as in Paris”及Haskell叙述，不把主观描写作为客观履历字段。
+- `st-chp7-p178-i18`（L110）：人物是Fanelli，claim述其“brought up in traditions of”Giambologna、Tacca、Francavilla，但主客体没有结构化端点；三人仅在mentions。补来源限定的艺术传统/影响端点或保留描述性claim；不把“traditions”改写为师生关系或具体训练。
+- `st-chp7-p178-i21`（L111）：谓词把Duke of Newcastle任Charles王子guardian与其本人热衷骑马两项合并；当前Duke→Prince只能表达前者。拆成任职关系和骑马属性。
+- `st-chp7-p178-i22`（L111）：原文说Fanelli为Duke及其未名circle取用宗教/世俗文学，以提高马匹描绘的格调；当前subject Fanelli、object Duke，predicate却是使用文献/提升horse portrayals。拆为文学来源与作品/描绘的使用关系，并保留Duke及其circle作为受益语境；无作品或具体文本依据时保持开放，不推成Duke逐件委托。
+- `st-chp7-p178-i24`（L111）：Fanelli制作Charles I胸像与Haskell对作品、表情、眼睛的审美评价合并在同一关系claim。保留Fanelli→胸像的创作事实，并将“great distinction / strained / lifeless”另作明确归属Haskell的评价。
+
+**可保留项及限定：**i01条件由本页完整关闭、未声称接受；i03保留“may have been immediately after”与引文拼法Albano/叙述拼法Albani，Walpole脚注的证据限制已摘要；i15正确保留画布磨损及“probably”评价并分类false；i17保留约1635及Fanelli作为下句识别的 sculptor；i19保留Fanelli英格兰作品“almost entirely”限于小型bronze、未具名实物；i20将“parody”对照归于Haskell的解释；i23作品与年轻Prince候选端点对应。脚注1–6的citation/事实statement不在本批，虽已读扫描页脚，不把书目locator说成独立核实。除列明项外，本正文段当前ID未发现其他实质方向错误；本批不构成p.178全页或第七章接收。
+### 2026-10-20：第七章p.177–178脚注当前ID独立语义复核
+
+在同一登记脚注源段 `chp-7:07_CHP-7_sec_i:l293-389` 中，逐条核读p.177的10条（`st-chp7-p177-n1-cite-baldinucci`—`p177-n5-cite-albion`）与p.178的12条（`st-chp7-p178-n1-cite-mahon`—`p178-n6-cite-whinney-millar`），共22条；按statement ID分属印刷p.177/178，statement locator为S0 L319–329。对照两页脚注扫描与当前claim、quote、候选端点/类型、source line、speaker和relation_candidate；当前true=21、false=1、unset=0。`mentions.csv`在此源段L319–329只有3个mention：`Modena`→place `cand-3416`（[2716,2722)）、`Semiramis`→work `cand-1271`（[2859,2868)）、`England`→place `cand-8983`（[3169,3176)）；三处跨度准确，但本段脚注引用作者/出版物、Balestrieri与Artemisia等其余端点没有相应mention映射。此前p.169–178正文与本批脚注累计直接核读280/1,238（true=256、false=24），未读958；第七章不接收。p.177正文27条、脚注10条及p.178正文24条、脚注12条共73个当前page-ID均已直接审阅，但有待修条目；其它页脚注和正文范围仍未覆盖。未修改来源或知识表。
+
+**需修订/待证：**
+
+- 15条`cites`行（`st-chp7-p177-n1-cite-baldinucci`、`p177-n2-cite-betcherman`、`p177-n2-cite-stone`、`p177-n3-cite-luzio`、`p177-n4-cite-lumbroso`、`p177-n4-cite-venturi`、`p177-n5-cite-albion`、`p178-n1-cite-mahon`、`p178-n1-cite-malvasia`、`p178-n2-cite-walpole`、`p178-n3-cite-baldinucci`、`p178-n4-cite-crino`、`p178-n4-cite-hess`、`p178-n6-cite-pope-hennessy`、`p178-n6-cite-whinney-millar`）的claim都在引文事实后附有“The prior note records: …”的内部历史说明；它不是S0中的主张。保留claim仅述Haskell脚注引用该出版物及locator；把既有过程摘要移出claim，citation对象候选仍保留且不声称读过被引材料。
+- 上述15条citation对象（`cand-4548`、`cand-7050`、`cand-7048`、`cand-7052`、`cand-5683`、`cand-4354`、`cand-7055`、`cand-7057`、`cand-6933`、`cand-7058`、`cand-7059`、`cand-7060`、`cand-7062`、`cand-7064`、`cand-7066`）都在claim/endpoint中，但L319–329没有与书目短引/作者题名对应的mention跨度；此外p.177 n.4的信件、作者Balestrieri及收件Duke也未见各自的实体mention。为每一脚注短引按其精确S0跨度映射候选，区分书目作者、出版物、信件与信件人物；不要只用statement endpoint代替mention出处。
+- `m-s2-surface-ffffcefa55022620`（S0 L328，p.178 n.5）把England映射至 `cand-8983`，其来源锚却是第10章p.286“national taste”地理语境；`st-chp7-p178-n5-artemisia-england`的object为 `cand-6290`（第6章的England地理候选）。应对齐此处“Artemisia赴英”的mention与同一statement endpoint，或在S3身份组处理中明确二者同一性；不可让mention和statement静默指向两个未裁决候选。
+- `m-s2-surface-33b9de31a16ed464`（L322）只把短语中的`Modena`映到地点 `cand-3416`；`st-chp7-p177-n4-letter-addressed-to`明确用人物端点 `cand-1675`（Duke of Modena），但“Duke”整段没有对应person mention；补齐整个人物称谓的mention并保留另一个Modena地名mention。
+- `st-chp7-p178-n5-artemisia-daughter`、`st-chp7-p178-n5-artemisia-england`（S0 L328）及`st-chp7-p178-n6-cite-pope-hennessy`、`n6-cite-whinney-millar`（L329）：原S0脚注标号OCR为6和8；p.178物理页12扫描明确为5和6。statement IDs按印本编号正确，但current `original_quote`带错标号；在qualifier中登记扫描校读，不静默改写S0原始转录。
+- `st-chp7-p177-n4-letter-addressed-to`、`n4-letter-authored-by`、`n4-letter-quoted-content`（p.177 n.4）：S0 L322脚注开头止于“gli Inglesi...”，完整引文及`A. Venturi, p.252`续于另一个S0分节 `chp-7:07_CHP-7_sec_i:l91-100` 的L100。当前三行locator/`original_quote`只锚L322，quoted-content claim已概括整句。补上跨分节延续锚并完整保留来源引用链；明确这是Haskell经Venturi报告的1645信，不是直接核读信件。
+- `st-chp7-p178-n1-mahon-interpretation`（L324）：它是Haskell转述Mahon“Semiramis与Charles邀请之间没有关联”的负向解释，不是Mahon与画作的正向实体关系。当前`relation_candidate=true`，subject Mahon→object仅Semiramis，且没有“invitation”事件端点。保留作来源限定的相反解释/非关系断言（建议`relation_candidate=false`），不可把缺失的因果联系生成正式边；也不由此裁决正文i27/i01的说法。
+- `st-chp7-p178-n2-cite-walpole`（L325）：脚注印为1762、卷II、p.51；候选详情另保留书目p.440的1726五卷本，两者冲突目前明确未决，候选detail处理正确。删除claim中的内部prior-note文字后，继续明确保留书目/脚注两种locator，不据常识调和。
+
+### 2026-10-20：第七章p.179正文及脚注当前ID独立语义复核
+
+按已登记来源段 `chp-7:07_CHP-7_sec_i:l113-126` 逐条核读当前 `book-statements.jsonl` 的 `st-chp7-p179-i01`—`i27` 与 `st-chp7-p179-n1-cite-wittkower`，共28条；另在合并脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 按S0 L330–334逐条核读 `st-chp7-p179-n2-cite-wittkower-ibid`—`st-chp7-p179-n6-cite-guido-reni` 共5条。范围为印刷p.179、PDF物理页13；逐句对照登记转录、扫描、候选类型/端点、claim/predicate、说话层级、时间与推测限定、relation_candidate、当前mentions和脚注链接。正文段80个mention的字符跨度全部精确切回S0。共核审33条：true=28、false=5、unset=0。前序Ch7直接核审280条后累计313/1,238（true=284、false=29、unset=0），剩余925条；第七章不接收。未修改S0、结构化知识表或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p179-i04`、`m-chp7-p179-b-010`、`m-chp7-p179-b-015`（S0 L115–116，印刷p.179）：`cand-0304` 的当前类型是person，规范名为Bernini；statement却把它作为“the bust”的subject，两个mention也把“his portrait”“the bust”映到这位雕塑家。原文明确说Charles I的雕像胸像于1637年抵达英格兰，且以Van Dyck三人肖像为图像来源。需以独立work端点表示Charles胸像并修正两处work mention；可与较早的宽泛授权画像候选 `cand-4435` 对照后再界定此作，不把雕塑家当作品。`cand-0295`与`cand-0304`都为Bernini本人person候选，宜在S3按证据处理同一身份组，不能因此把作品候选并入人物。
+- `st-chp7-p179-i03`（L115）：claim将Charles使用影响力取得Barberini授权、以教宗对英国天主教徒的希望/忧虑达成目的写为一个复合事实。拆开授权/达成目的与Haskell所述说服手段，保留Charles、Bernini、Barberini家族、Urban VIII及English Catholics各自角色；不把“Barberini”改成未具名的特定红衣主教。
+- `st-chp7-p179-i05`（L116）：把Bernini对Van Dyck肖像的艺术转化、后世将忧郁气质与Charles相联、Charles本人欣赏结果合为一条。拆开艺术解释和接受反应；保留`Haskell`的评价归属及“subsequent generations”限定，不写成可独立核实的心理事实。
+- `st-chp7-p179-i06`（L116）：claim将Charles欣赏胸像与赠送Bernini丰厚礼物合并，subject/object不能同时表达作品反应与赠礼。拆成Charles对具体胸像的反应及Charles→Bernini赠礼；保留赠礼未具名/未估值。
+- `st-chp7-p179-i07`（L116）：被动句“plans were put in hand”没有指出谁启动王后胸像计划，当前subject却是Bernini。将计划发起者保留未名/开放；p.179 L122后文只说明该计划中的胸像归于Bernini，不能反推由Bernini启动计划。
+- `st-chp7-p179-i12`（L119）：声明Arundel要求制作浮雕且由年轻雕刻家Francesco尝试，但结构端点只有浮雕；雕刻家 `cand-6750`、地点Florence及信中“said to be valente Huomo”的报告限定只留在mentions/引文。保留“试作”意图，不写成已受托或完成；补足艺术家角色与来源限定，若不能编码则分拆为开放的制作提议。
+- `st-chp7-p179-i13`（L119–120）：愿望关系端点只有Arundel和浮雕，Bernini与Duquesnoy虽为“or”备选制作者却只在mentions；显式保留替代关系和“希望”语气，不当作委托或完成关系。
+- `st-chp7-p179-i14`（L120）：claim把“wished in vain”概括为Arundel的全部浮雕愿望均未实现，模糊了紧接其后的Bernini/Duquesnoy第二件同题浮雕愿望。收窄为这项替代性愿望落空；不要据此裁定此前Florence试作浮雕也未完成。
+- `st-chp7-p179-i15`（L121）：概括许多当代意大利作品在1642年前到达英格兰，relation_candidate=true但subject/object均空且无open-endpoint说明。补来源界定的未具名作品组和Italy→England端点；如只能保留一般化历史陈述，则明确不生成无端点正式关系。
+- `st-chp7-p179-i16`（L121–122）：statement以Charles为subject、未具名绘画组为object，却漏掉明示的受委托画家Angelo Caroselli（`cand-0564`仅在mentions）。分开委托事实/画家角色，保留“a number of”且不补数量、标题或完成状态。
+- `st-chp7-p179-i17`（L122）：复合Cardinal Barberini向Queen送画、Queen将画陈列在私密礼拜堂两项行为；现行端点为Cardinal→Queen，作品组、展陈空间`cand-6759`与Somerset House `cand-6758`只作mentions。拆出送画和陈列，保留“many pictures”而不虚构确数；匿名Cardinal身份维持未定。
+- `st-chp7-p179-i18`（L122）：Haskell称展陈“tactless”并转述匿名投诉者指责Charles受罗马赠画欺骗，当前却以Cardinal→Charles作为true关系候选。将作者评价与嵌套的匿名投诉分开并归属正确说话层级；投诉作为引述/观点保存，不当作已证实的欺骗事实或正式实体关系。
+- `st-chp7-p179-i19`、`m-chp7-p179-b-063`（L122）：一个claim合并作品被称为最著名赠礼、到达时内战将发、及很快“in French hands”；object/mention `cand-5317` 是地理France，不能确定为实际接收者/持有人。拆开作品评价、相对时间和后续持有状态；保留未名French recipient、未知转移机制及尚未确定其组织/个人类型。
+- `st-chp7-p179-i20`（L122）：被动句只说Bernini的王后胸像“had to be cancelled”，没有说取消者；当前以Bernini为subject会把作者/计划作品误作取消代理。将取消作为计划作品状态/事件记录并保持行动者开放；不由相邻内战句推断取消原因。
+- `st-chp7-p179-i25`（L125）：合并Urban VIII侄辈离开Rome的事件与Haskell称此事移除了意大利最重要赞助源的因果/评价；当前object只有Rome，未结构化的是意大利赞助源/其来源群体。拆分迁离与作者评价，保留侄辈未名、群体类型未定及“by far the most important”确为Haskell判断。
+- `st-chp7-p179-n1-cite-wittkower`、`st-chp7-p179-n2-cite-wittkower-ibid`、`st-chp7-p179-n3-cite-hervey`、`st-chp7-p179-n4-cite-passeri`、`st-chp7-p179-n5-cite-albion`、`st-chp7-p179-n6-cite-guido-reni`（p.179 n.1–6；S0 L126、330–334）：六条claim均在真实脚注/locator后附加“The prior note records:”及内部过程摘要，后者不是书中主张。删除该过程句，保留脚注所引出版物及locator；所有行已明确注明被引材料未独立查阅，citation链接及body对应关系未见新增问题。扫描脚注标号与S0转录的1–6一致。
+
+**本批未发现其他实质不一致：**i01准确保留Arundel对Fanelli与墓葬的未执行计划；i02为Haskell的非关系比较；i08–i10区分Baker运送Van Dyck肖像、Bernini为Baker塑像和Urban VIII限制后续英格兰委托，后者对受限委托者保持开放；i11的letter speaker、carrier与sculptor Francesco按引用关系区分，picture、人物和信件候选切片正确；i21保留Fanelli赴Paris的相对时间而不推因果，i22的Orazio Gentileschi“约同时”死亡归为false非关系描述，i23的时期划分、i24 Urban VIII死亡和i27跨页未完句的relation_candidate分类与续页锚适当。扫描确认L118–119读作“I send”“by me”，L125读作“fine taste”；相应校读均已保存在限定字段。此结论只覆盖上述33条，不接收第七章。
+
+**可保留的来源边界：**p.177 n.1–5的Baldinucci、Stone/Betcherman、Luzio、Lumbroso/Venturi、Albion locator与扫描相符；p.177 n.4将1645信明确归于Gabriele Balestrieri、写给Duke of Modena，并通过Venturi转引，`letter_content_quoted_by_haskell`为false、保留“all English”只是引文内容，不作全体买家外推。p.178 n.1两条引用与Mahon对Semiramis/邀请的意见分开；n.2保留Haskell对Walpole证据可靠性的两面判断；n.3的Baldinucci卷V题名/版本未明，candidate `cand-7059`已开放，不错配到卷VI；n.4 Crinò/Hess两篇引用分开；n.5“daughter_of”及来英一年或两年“about 1638”均有文本支持；n.6 Pope-Hennessy/Whinney–Millar分别引用。全章未被引著作仅凭locator建引用候选，不视为已独立查阅。
+### 2026-10-20：第七章p.180正文及脚注当前ID独立语义复核
+
+按已登记源段 `chp-7:07_CHP-7_sec_i:l128-138` 逐条核读当前 `book-statements.jsonl` 的 `st-chp7-p180-i01`—`i35` 共35条，并在合并脚注源段 `chp-7:07_CHP-7_sec_i:l293-389` 按S0 L335–338逐条核读p.180注1–4当前9条。对照p.180印刷页/PDF物理页14、S0行、claim/predicate、候选类型和端点、mentions、speaker/语气/时间限定、脚注引用链与跨页续句；本正文段79个mention字符跨度均精确切回登记文本。共复核44条：true=41、false=3、unset=0。Ch7当前ID直接复核357/1,238（true=325、false=32、unset=0），未读881条；不接收第七章。未改S0、表格或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p180-i01`（S0 L129，p.180；承接p.179 L125）将战后恢复带来意大利艺术需求、英格兰在Puritan统治下似乎失去兴趣并在同一claim中；subject为空、object仅为Italian art `cand-4131`，relation_candidate=true。拆分或补足恢复、市场需求及英格兰政治/兴趣角色端点，完整保留“seemed”；扫描为“art just when”，当前S0 OCR `artjust`的空格校读未见登记，需在限定字段记扫描依据，不改S0。
+- `st-chp7-p180-i02`（L129）：把“人才相对衰退”与意大利在欧洲权力平衡中争取位置的努力合并；subject为空、object仅为抽象term `cand-6245`，不足以表示意大利的行动主体。拆成Haskell的时段/艺术评价和政治努力陈述，明确一般性时期判断不自动生成正式关系。
+- `st-chp7-p180-i05`（L131）：Mazarin由Jesuits在Rome教育，但endpoint只连Mazarin→Rome；Jesuits机构 `cand-3403`仅在mentions。补教育机构角色并与地点分开。
+- `st-chp7-p180-i06`（L131–132）：Mazarin进入Colonna服务与其父亲作为该家intendant两件事合并在Mazarin→Colonna family一行；未名父亲候选 `cand-6767`未进statement端点。拆开两个角色关系，保留父亲身份不详。
+- `st-chp7-p180-i07`（L132）：statement记录Mazarin随Girolamo Colonna赴西班牙，但目标地Spain `cand-5120`仅在mentions。增列准确地理目的地/行程事件端点，维持Girolamo为同行人；不要误用同段政治实体Spain候选。
+- `st-chp7-p180-i08`（L132–133）：Mazarin担任Colonna家族所募军团的captain，claim还写明为收复Valtellina而募、该地在North Italy。将任职关系与军团募组/战役目标分开，显式接入Colonna family、Valtellina地理/战役端点，保持军团名称和事件均未名及目的语气。
+- `st-chp7-p180-i13`（L134）：原文是Bentivoglio的support加强Mazarin地位，当前subject为受支持者Mazarin、object为支持方Bentivoglio family。为后续关系图明确support实际方向（Bentivoglio→Mazarin），不要把结果谓词当作支持边反向。
+- `st-chp7-p180-i14`（L134）：Bentivoglio对新人才保持警觉是一般习惯判断，当前true但无object/open-endpoint reason。保留跨章引述和泛指人才边界；若不能给出来源限定的群体对象，应作非关系描述，而不是空端点正式候选。
+- `st-chp7-p180-i19`（L136）：将Mazarin外貌、性格、抱负和在欧洲最高社交圈的地位混成一条true关系候选且无object。拆成归属Haskell的属性/评价与群体社交位置；群体不明时开放，不把作者形容词变成正式关系边。
+- `st-chp7-p180-i20`（L136）：Mazarin“被当时最显赫家族结交”只记录Mazarin主体，未为families配置候选或open-endpoint reason。保留未枚举边界，补来源限定家族组端点或保持关系待证。
+- `st-chp7-p180-i23`（L136）：合并Mazarin与Barberini、Sacchetti、Bentivoglio三个家族的特定关联，以及Haskell称这些家族都是杰出艺术赞助人的判断；当前只有Mazarin主体，三家族候选仅在mentions。拆成三条家族关联及独立来源评价，避免合并为一个不明群体或映射到个人成员。
+- `st-chp7-p180-i24`（L136）：Mazarin获得终身收藏热情是人物属性/概括，当前无object但relation_candidate=true。改作属性/作者限定的非关系断言，保留“never left him”。
+- `st-chp7-p180-i28`（L136）：合并Mazarin被任命为S. Giovanni in Laterano canonry与该职位带来定期收入；object为空，而`cand-6775`仅代表教堂建筑并只在mentions。拆出职位/任命事件和收益事实，保持任命者未名；不能用教堂建筑替代canonry职位。
+- `st-chp7-p180-i29`（L136）：将“多数报告称Mazarin对自己的钱吝啬、却乐于花别人钱供自己”记录为true关系候选但无object。此处是经Haskell转述的报告性格评述，不是可登记实体关系；拆分两项评价，保留“most reports”来源限定并归为非关系。
+- `st-chp7-p180-i30`（L136–137）：原文说Mazarin似乎最先从Poussin委托绘画；当前subject=Poussin、object=Mazarin，predicate却是“commissioned by Mazarin”，方向与委托代理人相反。将Mazarin设为委托方，保留“first seems”、脚注3时间限制及Haskell推断；具体作品另依i34处理。
+- `st-chp7-p180-i32`（L137）：价格“doubtless reasonable”是Haskell推断，理由是Poussin尚未成名；当前无object却relation_candidate=true。保留doubtless和评价对象，按非关系/价格评价处理，不生成空端点边。
+- `st-chp7-p180-i33`（L137）：合并Poussin在Barberini circle中容易接触与未受official commissions两项；当前object只为circle `cand-4969`，negative commission状态无独立表示。拆分可接触性与官方委托状态，保留“yet”的对比。
+- `st-chp7-p180-i34`（L137–138）：claim称Poussin可能为Mazarin画两幅具名作品，但statement端点仅Poussin→Mazarin，作品候选`cand-6773`和`cand-6774`只在mentions。保留“may”及Haskell审美判断，增加逐作或边界明确的作品组端点；不要将可能受委托说成确定创作/购藏。
+- `st-chp7-p180-i35`、`st-chp7-p181-i01`（p.180 L138续p.181 L141）：同一跨页句关于两幅Poussin画与Giorgione/年轻Titian poesie的相似/影响及“golden light”在两条statement中重复；p.180行标true且两端为空，完整续文的p.181行标false。归并为一条跨页来源限定评价，统一本质上是否为艺术影响关系的分类；不保留重复、互相冲突的relation_candidate裁定。
+- `st-chp7-p180-n1-cite-prunieres`、`n2-cite-brienne`、`n3-cite-mahon`、`n4-cite-poussin-catalog`（p.180 n.1–4；S0 L335–338）：四条citation claim均在真实脚注/locator后附加“The prior note records:”过程摘要，须从claim移除。当前段未给四条引用短引、作者和出版物补mention映射；L338另有3条地点mention（Louvre、Institute of Arts, Detroit、Detroit），其字符跨度准确。保留locator及“未独立查阅”限定。
+- `st-chp7-p180-n3-commission-before-1632`（L337）：Haskell关于1632年前Mazarin不大可能委托“serious”作品的判断当前标为true、无object。保留“most unlikely”和“serious”边界；作为来源限定的可能性评估，不据此建委托关系。
+- `st-chp7-p180-n3-mahon-purchase-date`（L337）：这是Haskell转述Mahon对“两幅Poussins”建议购买日期为1632，不等同于委托或逐作购买。现有qualifier保留这一差异与成对对象开放，继续不拆派到某一幅。
+- `st-chp7-p180-n4-pair-location`、`n4-inspiration-louvre-location`、`n4-diana-detroit-location`（L338）：脚注只称两幅画在Louvre与Detroit Institute of Arts并列列出，没有独立确认每幅对应哪个馆；pair statement保留整体位置且relation_candidate=false，另两条却分别断言`cand-6773`在Louvre、`cand-6774`在Detroit。与i34 qualifier“没有逐作映射”矛盾。保留pair-level source statement，或取得被引图录证据再确定逐作映射；当前指定馆藏端点保持待证。
+
+**本批其余行与边界：**i03–i04的Mazarin接任France政府、出生约40年前于Abruzzi无名村的claim及时间限定适当；i09–i12分别保留吸引Sacchetti注意、Giovanni Francesco与Giulio/Marcello兄弟关系及Mazarin成为Sacchetti protégé，不推正式任命；i15–i18分别保留Antonio Barberini下工作、试图调停France–Spain关于Mantua继承权的战争、Haskell对外交成果的评价及1632回罗马；i21保留Mazarin选择Baroni为mistress，i22将Baroni成名影响归为Haskell并保留“operatic stardom”term，i25和i26将“不确定如何表达收藏热情”“当时尚未富有”标false恰当，i27的Bentivoglio贷款保留“apparently”，i31不把未具名nationality补成国籍事实。p.180脚注n3校读`i960`→1960、n1校读`Prunidres`→Prunières均已在qualifiers登记；p.180 n.1–4引用仅作为Haskell书内locator。`cand-1588`、`cand-1589`和`cand-1592`当前均为Mazarin人物候选，关联及其他章节复用前需在S3按来源定位裁决身份组。除所列问题外本批当前statement逐条未发现其他实质不一致；本批不构成第七章接收。
+### 2026-10-20：第七章p.181正文及脚注当前ID独立语义复核
+
+按登记源段 `chp-7:07_CHP-7_sec_i:l140-148` 逐条核读p.181正文当前ID `st-chp7-p181-i01`—`i29` 共29条，并在合并脚注源段 `chp-7:07_CHP-7_sec_i:l293-389` 逐条核读p.181 n.1–4共8条（n.1 Brienne报告、citation及Haskell解释；n.2–4 citation与n.4信件角色）。对照印刷p.181/PDF物理页15、S0文本、statement/mention/candidate端点、来源层级、qualifiers及页间/脚注链接。正文49个mention跨度全部精确切回S0；复核脚注L339–342的2个mention跨度也准确（France、Pollak），其余书目信息和信件人物尚无mentions。共复核37条：true=33、false=4、unset=0。Ch7累计当前ID直接复核394/1,238（true=358、false=36、unset=0），未读844条；不接收第七章。未修改S0、表格或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p181-i01`与p.180 `st-chp7-p180-i35`（p.180 L138续p.181 L141）：同一跨页评价已在上批记录，p.181完整statement的false分类与p.180 true分类不一致。归并为单一跨页claim，并统一“Poussin两作look back to Giorgione/young Titian poesie、owe much及golden light”究竟仅作Haskell审美描述还是要建立来源限定艺术影响候选；无可定位具体作品时不虚造作品端点。
+- `st-chp7-p181-i03`（L141）：把两幅Poussin作品回望古代抒情诗/神话传统、该主题据其他来源强烈吸引Mazarin合并，端点仅Mazarin→“world of fable and mythology” `cand-6783`；两幅作品与抒情诗群 `cand-6782`未入主客体。拆开Haskell的艺术渊源判断与Mazarin兴趣的其他来源报告，保留作品个体/古代诗人未名。`cand-6782`为人群却标`term`，如taxonomy没有人群类型应待类型裁决，不能把古代诗人群作为概念实体注册。
+- `st-chp7-p181-i06`—`i09`、`i11`（L142）：Brienne关于Mazarin性格、购画野心、珍玩兴趣的描述是经Haskell转述/解释的层叠说法。保持Haskell报告Brienne的speaker链，避免把Brienne→Mazarin的叙述/描写关系写为未经限定的正式社会关系；i06另是Haskell判断Brienne描述可靠性的元叙述，需与被引性格评价区分。
+- `st-chp7-p181-i10`（L142）：claim明确说“We can visualise”讨论藏品与选择摆放位置，是Haskell想象/叙述图景，不是有记录的事件；当前relation_candidate=true且仅Mazarin一端。保留其修辞/作者归属，分类为非关系陈述或把情景明确限定为假设，不生成实际会面或收藏活动。
+- `st-chp7-p181-i12`（L143）：合并日渐增加的职责使Mazarin多年离Rome与他同France关系越发密切两项，当前只以Rome为object；France polity `cand-6764`只在mentions。拆分离城/职责原因和与France的联系，保留“for years at a time”与“closer and closer”。
+- `st-chp7-p181-i14`（L143）：Mazarin于“following year”年末成为Cardinal，当前object为空；应将升任/职位或事件作为有依据的候选端点，任命者保持未名，并保留相对年份，不将称号直接映成第二个人物。
+- `st-chp7-p181-i17`（L143）：将Richelieu、Louis XIII死亡与Mazarin得以空前满足艺术欲望和抱负的Haskell因果/时代评价合在Mazarin无object的一行。拆开两项死亡事件与作者对Mazarin政治/收藏环境改变的评价；不把“scale”变成确定作品或委托数量。
+- `st-chp7-p181-i18`、`i20`、`i21`（L144–145）：招聘意向/失败的目标群`cand-6784`“Italian artists”与`cand-6785`“Italian musicians”都指人群却当前被标为`term`，不能据此当作概念端点。保留招募失败、包含Leonora Baroni但成员未列全、到Paris/France的目标及Urban VIII仍在世的时间界线；为群体类型单列待定，勿强制套`term`。
+- `st-chp7-p181-i19`（L144）：合并Mazarin未能请Bernini扩建一座宫殿与Mazarin此前从Jacques Tubeuf处强行取得该宫殿；statement端点只为Mazarin→宫殿，Bernini和Tubeuf仅在mentions。拆分未实现的扩建委托/邀请与来源叙述的购得行为，分别补Bernini、Tubeuf角色；保留建筑正式名称、时间与取得法律机制未说明。
+- `st-chp7-p181-i22`（L145）：原句把后续能使用意大利艺术家归因于Rome政权更替，当前两端为空但relation_candidate=true。保留Haskell因果解释、变更未名和意向/可能性边界；用开放事件/目标群端点或明确记为非关系史述，不指认Innocent X为个人施事。
+- `st-chp7-p181-i23`（L145）：把Francesco Barberini逃离Innocent X的迫害与抵达Paris合为一个predicate，现仅Francesco→Paris端点。拆分逃离与抵达，补明确迫害归属和Paris目的地，保留“early in 1646”和来源归属；不推导正式驱逐/流亡程序。当前qualification已承认两项行动被合在同一行。
+- `st-chp7-p181-i24`（L145）：原文说Francesco Barberini抵达Paris是为了寻求其前protégé Mazarin的保护；statement claim仍是寻求保护的意图，但predicate写成“mazarin_protected…”，容易被读成Mazarin已提供保护，subject/object又是Francesco→Mazarin，与该保护方向相反。改为Francesco寻求庇护/保护的有向意图，或保留未证实的保护实现状态；不把抵达/寻求写成保护已经发生。
+- `st-chp7-p181-i29`（L148）：这是Haskell称Romanelli gallery选择“characteristic”并援引Mazarin—Poussin“probable relations”的解释性判断；现relation_candidate=true且端点Mazarin→Poussin，但qualifier已说不是正式关系。拆为非关系艺术/历史解释及必要的来源限定“probable”关联，不将其转成确认委托/社会关系。
+- `st-chp7-p181-n1-haskell-interpretation`（脚注L339）：claim说Brienne几乎肯定指Poussin的一件晚期作品，但object候选是Poussin本人`cand-1984`；qualifier也承认未识别具体画作。保留“almost certainly”与未名作品组的开放边界，不把画家当作品端点；并审视该作者解释是否应为false非关系判断。
+- `st-chp7-p181-n1-cite-brienne`、`n2-cite-brienne`、`n3-cite-mazarin`、`n4-cite-pollak`（p.181 n.1–4；S0 L339–342）：四条真实citation claims均附有“The prior note records:”过程摘要，须移出claim；脚注L339–342当前仅有France、Pollak两处mention，没有Brienne短引/出版物、Mazarin catalog、Pollak题名及Romanelli—Francesco信件人物的mention跨度。补精确来源段mentions，继续标注被引材料未独立阅读。n.1另区分Brienne的报告和Haskell解释，n.4信件作者/收件人行是Haskell脚注转述，不是已读原信。
+- `st-chp7-p181-i11`（L142）和`st-chp7-p181-i28`（L148）：两处S0 OCR均与扫描不同且qualifier未记：French引句开头`JSon Eminence n avoit`扫描为`Son Eminence n’avoit`；Metamorphoses的作者`vid`扫描为`Ovid`，并且`comforming`应校读`conforming`。`m-chp7-p181-b-046`的mention note已说明Ovid首字母遗漏，但statement `ocr_corrections`仍为空。仅在限定字段记校读和扫描依据，保留S0原始转录。
+
+**本批其他核读结论：**i02对Inspiration du Poète主题仍未确定的claim分类false适当；i04保留“thereafter”后Mazarin不再关注Poussin事业的来源限定；i05如上保留Brienne经Haskell报告的责备；i13 Paris early 1640、i15–i16两位人物于1643年中前已死的false生平描述、i25 Romanelli回Rome后开始遭冷落但行为者未名、i26 Romanelli至June已在新建上层gallery工作、i27 proposed Roman histories仅为提议、i28偏好Metamorphoses作为较欢快且适合“country”口味题材，方向总体与原文相符。对应的p.181脚注n.4保留Pollak locator与信件角色的二手归属；未独立查阅Pollak或原信。`cand-1588`等Mazarin重复人物候选的跨章合并继续留S3。除列出的问题外本批其余当前ID未见独立实质不一致；本批不构成第七章接收。
+
+### 2026-10-20：第七章p.182当前ID独立语义复核
+
+按已登记来源段 `chp-7:07_CHP-7_sec_i:l150-158` 逐条核读当前 `book-statements.jsonl` 的 `st-chp7-p182-i01`—`i24` 共24条；在复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 按S0 L343–347逐条核读p.182注1–5当前10条（注1两条citation，注2–4各一条citation，注5一条citation及四条正文报告）。对照CHP-7印刷p.182、PDF物理页16、S0、mention跨度、候选类型、statement端点/谓词、来源层级及限定。正文62条mention跨度和脚注复合段203条mention跨度均逐条切回各自登记源段，0处不匹配；注1–5原文作者/出版物的对应mention仍缺失。共复核34条：relation_candidate=true 33、false 1、未分类0。Ch7当前ID直接复核428/1,238（true=391、false=37、未分类=0），未复核810条；第七章不接收。本批只追加审阅记录，未修改S0、结构化知识表或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p182-i01`（S0 L151）：claim称对《变形记》题材的选择适合Romanelli的才力，但主客体仅为Mazarin→Romanelli；作品/题材候选`cand-6778`只在mentions。保留这是Haskell的审美判断；在端点中纳入这项具体选择，或将其留作来源限定评价，不简化成Mazarin与Romanelli之间无中介的正式关系。
+- `st-chp7-p182-i02`（L151–152）：Haskell比较Romanelli对Ariadne、Narcissus、Romulus and Remus等题材及Jupiter战斗场景的适应程度，现statement只有Romanelli人物端点，所有具体作品只在mentions。当前open_endpoint_reason准确指出无单一作品能概括该比较；需补来源限定的作品组/比较对象，或归为非关系审美判断，不能由人物端点代表整组作品。
+- `st-chp7-p182-i03`（L152）：claim称Mazarin因名义上依赖Louis XIV和Regent Anne而不宜被颂扬，subject= Mazarin、object=Louis XIV，Anne of Austria（`cand-0109`）仅为mention。保留“nominal dependence”及Haskell论断，不推成宪制事实；补足Anne端点或拆分，使两个条件对象都可追溯。
+- `st-chp7-p182-i04`（L152）：关于狭长gallery vault不适于Palazzo Barberini式大型统一fresco的Haskell建筑判断，当前对象为空；open_endpoint_reason准确指出没有具体的Barberini fresco。可保留为来源限定建筑适配判断，但若进入关系候选，需用适当的未具名fresco类型/组端点或转为非关系评价，勿造具体作品。
+- `st-chp7-p182-i08`（L154）：“Mazarin统治早年对意大利艺术传播重要”是Haskell的时段判断；当前Mazarin→Italian art (`cand-4131`)不足以表达未界定的“early years”与抽象传播过程。补未定时段/传播过程端点或将重要性评价分类为非关系史述；不自行补年份。
+- `st-chp7-p182-i09`（L154）：opera、ballet、fashion、pictures、sculptures、craftwork被合并为从意大利持续抵达Paris的宽泛清单，当前subject仅为`cand-4131` Italian art，不能代表全部不同类型的输入。保留Haskell的概括和“constantly”；按不同对象类别拆分或建立来源限定的未枚举文化输入组，不将其当作完整货物清册。
+- `st-chp7-p182-i10`（L154）：Torelli于1645年被Duke of Parma送往Paris并曾为该Duke工作，当前Torelli→未具名Duke端点可表达派遣者，但Paris `cand-4653`仅在mentions，且“为该Duke工作”与被派往Paris是不同角色。补目的地/行程语境或拆分工作关系与派遣；保留Duke身份未定和脚注仅作locator的边界。
+- `st-chp7-p182-i11`（L154）：舞台布景美感及新技术比其所服务的opera更受关注，当前主客体皆空；虽有open_endpoint_reason，未指明布景/技术、歌剧或观众的对应候选。补未具名设计/技术、演出对象及注意力主体的来源限定开放端点，或把这项Haskell接受史比较作为非关系陈述；不能以空端点表示已成立的直接关系。
+- `st-chp7-p182-i12`（L154）：Grimaldi于1648年、Romanelli离开后，为Cardinal的gallery完成装饰并在窗龛/窗间墙绘制风景。当前仅Grimaldi→gallery，未表示新增风景画作/装饰对象；保留“soon after departure”和完成装饰范围，不把gallery误作作品端点。S0 `theniches`扫描读作`the niches`，应在qualifier登记校读与扫描依据。
+- `st-chp7-p182-i13`（L154）：候选`cand-6791`命名为“unnamed Italian potentates”但suggested_type=`term`，语义上是未枚举的人物集体。改为适合的人群组类型或保留类型待定；不强塞term。claim的送画行为对象为pictures但statement仅连Mazarin，保持赠画对象未具名/未枚举并开放，不推成具体作品或组织。
+- `st-chp7-p182-i14`（L154–155）：Bentivoglio于1639年为Mazarin委托Guercino的Carità Romana，当前端点为Bentivoglio→作品`cand-1260`，却漏掉明确的预定收受者Mazarin和创作者Guercino。补受托/创作者/预定收受者角色或拆分委托与作品交付；保持这只是“commissioning for him”，不得写成Mazarin已直接取得。S0 `Caritd`应据扫描校读为`Carità`并记录在限定字段。
+- `st-chp7-p182-i15`、`i16`、`i17`（L155）：三条均称Mazarin直接从Guercino取得特定作品（St Peter、篮果女孩题材画、Venus mourning over Adonis），作品端点分别为`cand-1268`、`cand-6787`、`cand-1272`，但Guercino仅在mentions，未作转让方/创作者端点。保留每作独立边界、来源描述而非扩写标题，并补Guercino角色或拆分购藏与创作关系。S0 `Death ofAdonis`扫描读作`Death of Adonis`，需登记校读。
+- `st-chp7-p182-i18`（L155）：Mazarin于1647年委托Claude创作Flight into Egypt landscape，当前Mazarin→作品`cand-0780`，Claude `cand-0767`只在mentions。补作为委托对象的艺术家角色，或拆成委托与作品关系；保留1647及脚注5只是经Haskell转述Röthlisberger的辅助来源，不声称已读该书。扫描脚注号为5、S0 OCR为6，现限定已记校读，保留即可。
+- `st-chp7-p182-i19`（L156）：`cand-6784`是未枚举的Italian artists群，但suggested_type=`term`。调整为人物集体类型或待定类型；保留Haskell称Romanelli与Grimaldi的到来未满足Mazarin招募抱负的评价，不由“arrivals”推论二人未工作或未抵达Paris。
+- `st-chp7-p182-i21`（L157）：claim表达Algardi差点离开、随后papal policy干预，当前只有Algardi主体，且未命名干预者、行动或目的地。保留“on the point of”而不写成已经离开；补开放的计划/离职事件端点或降为来源限定的未遂过程描述，不依据p.183续文倒推在本句中明确了干预者。
+- `st-chp7-p182-i22`（L157）：当前predicate比较Algardi在Pamfili court与Bernini先前在Barberini court的显赫位置，端点却为Algardi→Bernini；两个court候选`cand-6793/6794`仅在mentions。按“两个不同court中的地位比较”建模或作为Haskell比较性描述标false；不要让人物对人物端点暗示二人有直接关系/相同职位。
+- `st-chp7-p182-i23`（L158）：原句是Haskell推测Innocent X和其侄子“could scarcely allow”主要艺术家Algardi离开Rome；当前subject只连Innocent X，未名侄子`cand-6790`留在mentions。补两位行动方或未名群组，完整保留“could scarcely”的可能性与Haskell评价，不转成已执行阻止或正式雇佣禁令。
+- `st-chp7-p182-i24`及其跨页续句`st-chp7-p183-q01`（p.182 L158→p.183 L161）：p.182引语“they made him so many offers”中的they承接Innocent X与其侄子；两页statement均仅以Innocent X `cand-1819`作subject，侄子只在mentions/open_endpoint_reason。跨页closed链接正确，但代理群体端点仍不完整；联合修正主体/群体，并继续保留嵌入引语归属为Haskell经Passeri的来源层，不直接当作原始信件或已读Passeri原文。
+- `st-chp7-p182-n1-cite-prunieres`、`n1-cite-bjurstrom`、`n2-cite-felibien`、`n3-cite-malvasia`、`n4-cite-malvasia`、`n5-cite-rothlisberger`（S0 L343–347）：六条citation claim均在脚注书目信息后附加“The prior note records:”及内部过程摘要；这不是原书内容，应从claim移除。脚注物理扫描可读作Prunières 1913 p.68/Bjurström 1961、Félibien III p.530、Malvasia II pp.264/327及Röthlisberger 1961 I p.274；保留locator且明确被引材料未独立查阅。当前L343–347无对应作者、书名和publication mentions；仅L347有Claude、Dresden、M. Parasson三个精确mention。补短引/作者/出版物的精确span映射，不能以citation statement端点替代mentions。
+- `st-chp7-p182-n5-probable-agent`、`n5-mazarin-owned-by-1653`、`n5-picture-dresden`、`n5-claude-recorded-parasson`：claim正确保留Haskell转述Röthlisberger的来源层、by 1653时间上限、now-in-Dresden位置、otherwise unknown的M. Parasson身份和“most likely/through an agent”不确定性；此处不把可能的代理委托改成确定事实。候选与开放端点继续待证，未独立核对被引书或Claude记录。
+
+**可保留项/其余范围：**`i05`准确记录Romanelli划分gallery并以镀金灰泥框分隔不同形状隔间，未误报壁画数量；`i06`准确作为Haskell对图像人物的审美评价而分类false；`i07`保留Haskell关于frescoes影响French taste的来源限定，不外推为实测接受史；`i20`准确保留Mazarin 1648年亲自致信Algardi、以优厚条件劝其改变约六年前的拒绝。p.182注5四条内容statement均保留了二手报告链和必要的时间/地点/概率限定。以上是可保留判断，不代表接收整页；其余具体修订项见上，故本页不接收。
+
+### 2026-10-20：第七章p.183正文及脚注当前ID独立语义复核
+
+按登记源段 `chp-7:07_CHP-7_sec_i:l160-168` 逐条核读p.183 `st-chp7-p183-i01`—`i20`及承接p.182的`st-chp7-p183-q01`；在复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 按S0 L348–353逐条核读脚注1–6当前statement，共36条。对照印刷p.183、PDF物理页17及跨页承接的p.184物理页18、登记S0、端点类型/方向、mentions、引文层级、时间与语气限定及脚注回链。正文段62条mention跨度及复合脚注段203条mention跨度均精确切回来源段（0错）；p.183注1–6具体source lines仅有4个mention，L349两处（palace、Lante family）、L350一处Elpidio Benedetti；L348、L351–353没有对应作者/书目mention，L350大量书目与letter实体也缺mention。36条当前statement均为relation_candidate=true，false=0、未分类=0。Ch7累计当前ID直接复核464/1,238（true=427、false=37、未分类=0），未复核774条；第七章不接收。仅追加过程审阅记录，未修改事实表或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p183-i01`（S0 L162）：claim把Mazarin在France掌权、其Rome地位增强及未名Pope的敌意放在一个因果/让步判断中，statement仅连Mazarin→Rome，France polity `cand-6764`与匿名Pope `cand-6795`只在mentions。拆出权力变化及其作者所述影响，保留Pope匿名和“despite”语境，不推测教宗身份或正式权力关系。
+- `st-chp7-p183-i02`、`st-chp7-p183-n2-lante-transfer-chain`、`st-chp7-p183-i20`（L162、脚注L349及S0 L168）：正文说Mazarin在Bentivoglio旧主人的大宅买入，注2明确实际从Lante家购入、而Lante此前从Bentivoglio取得；不要让谓词`mazarin_bought_bentivoglio_palace`暗示Mazarin直接向Bentivoglio购买。分别表达Mazarin←Lante与Lante←Bentivoglio的转手，补Bentivoglio端点。`i20`只提供“exact-date is not certain, but ... before 1647”这一交易时间上限，应作为i02的日期限定/引文支持，不作仅以宫殿为主语的孤立关系候选。`st-chp7-p183-n2-lante-transfer-chain`当前只以Lante→宫殿表示“从Bentivoglio取得”，缺Bentivoglio上一手方端点，也在同一claim概括了Mazarin之后买入；需拆成两笔交易。
+- `st-chp7-p183-i03`（L162）：Mazarin计划把宫殿用于接待未名法国访客；当前端点Mazarin→`cand-6808`访客组，漏掉作为用途空间的宫殿`cand-6796`。且`cand-6808`是人物集体却suggested_type=`term`。拆分用途/接待计划或补宫殿端点；将访客组改为适当人群类型或待定，不强塞term，也不补访客名单。
+- `st-chp7-p183-i04`（L162）：把Mazarin年轻时曾在这组房间被接待和“此后从未回去重看”合成一次关系；拆出过往接待与未返访，分别保留“obscure and ambitious young diplomat”的Haskell描述及否定时间范围。
+- `st-chp7-p183-i06`（L162）：Guido Reni为Scipione Borghese绘制Aurora，当前Reni→Aurora端点遗漏委托/赞助者Scipione Borghese（`cand-0394`只在mentions）。明确艺术家与受益/委托人的不同角色；不得仅从`painted for`进一步推定具体付款合同。
+- `st-chp7-p183-i07`（L162）：“拥有这座宫殿一定令Mazarin非常满足”是Haskell推测的心理反应，并非已记录行为；保留“must have”推测语气，但从关系候选中排除或明记为作者解释，不当作经证实的情感事实。
+- `st-chp7-p183-i08`（L163–164）：Mazarin经代理Maccarani委托建筑师Longhi为教堂增建facade；当前Mazarin→facade是作品/委托目标端点，却将Longhi建筑师、Maccarani代理人与教堂/地点全留在mentions。拆分Mazarin委托Longhi、Maccarani居间、facade附属于SS. Vincenzo ed Anastasio的角色链，保留地点Piazza di Trevi及“Soon afterwards”相对时间。
+- `st-chp7-p183-i10`（L164）：把建筑施工拖延与Mazarin日渐受经济困难困扰合并，当前facade→空端点；qualifier已正确提醒原文没有明确因果关系。拆开施工状态与Mazarin的困境，不由并列句生成“施工导致财务困难”边；如无可识别事件/困境对象，归为来源限定的非关系叙述或保持开放。
+- `st-chp7-p183-i11`（L164）：claim和speaker正确保留Mazarin经Haskell引用的1661年话语及“may be better”的设想，object为信件档案`cand-6798`；但正文明确收信人Maccarani仅在mentions。补Mazarin—信件作者关系及信件—Maccarani收件关系，或拆句，保留信件引用未独立核读和Paradise房间只是反思而非已建造计划的边界。
+- `st-chp7-p183-i13`、`i14`、`i15`（L165–166）：First Fronde、Mazarin敌人及意大利艺术家雇佣争议中，`cand-6784`意大利艺术家组及`cand-6800`派系、`cand-6801`敌人组都被suggested_type=`term`；这些是未枚举的人群/派系而非抽象术语。改为可支持的集体类型或保留类型待定。`i13`的1649年赞助挫折与First Fronde转而攻击Cardinal是两个相连事实，需呈现Haskell所述关系并避免把“temporary setback”消成永久中止；`i14`真正被作为目标的是Mazarin雇用意大利艺术家的做法，不要把雇佣实践误作艺术家本身；`i15`保留未名lampoon所用法语原文及Haskell的粗俗/廉价评价，不把其侮辱性引文当成客观艺术家描述。
+- `st-chp7-p183-i16`（L166）：Torelli“financially ruined and imprisoned for many months”将财务状态和监禁经历合为一条，只有人物端点，监禁行为人/机构及财务对象均未识别。拆分两种经历、保留时长和来源限定，不由上下文将行为人指认为First Fronde或某个未名敌人。
+- `st-chp7-p183-i18`（L166）：Grimaldi不得不躲藏在未名Jesuit seminary，随后设法回家；当前Grimaldi→seminary覆盖一项但claim还包含返乡，家乡地点不明。拆出藏匿与返乡并保持目的地开放，不虚构seminary身份或旅行路线。
+- `st-chp7-p183-i19`及跨页`st-chp7-p184-q01`（L167、p.184 L171）：i19把未来四年的复位/流亡、行军、联盟变化、图书馆出售及收藏面临解散压成Mazarin→空端点一条，关系候选却true；应拆开不同状态与事件，保留“next four years”相对时间、library确已出售与collection只是被威胁解散的差别。`cand-6804`图书馆、`cand-6805`收藏当前未分配类型，维持待定。跨页续句closed回链有效，但p.184 q01把object设为`cand-6805`，容易把“alternating with vital new purchases”误作收藏本身与购买相交替；原文上下文可能指一系列政治/财富逆转与购买相交替。保留原句的叙述并列而不指定未识别的购买对象或改写为收藏实体的正式状态。
+- `st-chp7-p183-n2-cite-daumale`（S0 L168）：当前`citation_locator`声称d’Aumale, *Histoire des princes de Condé*, p.8；本书已登记书目 `21_CHP-21Bibliography.md:L82` 所列为d’Aumale的 *Inventaire de tous les meubles du Cardinal Mazarin dressé en 1653...*（伦敦，1861），没有前述书名。应按已登记书目修正引用候选/locator并保留脚注p.8，不发明未见书名。对应`cand-6807`仍写title/edition unspecified，需与该bibliography候选核对。`st-chp7-p183-n2-cite-callari`的`cand-4845`也title/edition unspecified；本书书目L300已给Luigi Callari, *I Palazzi di Roma*, 3a ed. Roma 1944，可用该登记信息核对书目身份，同时保留脚注只写Callari p.298的事实。
+- `st-chp7-p183-n2-cite-daumale`及`st-chp7-p183-n2-cite-callari`（S0 L168）：当前ocr_corrections将`exact-date`改成`exact date`；扫描PDF物理页17显示印本确为连字符`exact-date`，S0该拼写正确，应撤销这条校读，不修改来源转录。
+- `st-chp7-p183-n1-cite-passeri`、`n2-cite-callari`、`n2-cite-daumale`、`n3-cite-avviso`、`n3-cite-benedetti`、`n3-cite-epistolario`、`n3-cite-lettres`、`n3-cite-spon-wheler`、`n4-cite-prunieres`、`n5-cite-baldinucci`、`n6-cite-pascoli`（脚注L348–353及n2延伸L168）：citation claims均在真实引文/locator后附加`The prior note records:`及内部处理摘要，后者非原书主张；移出claim，保留引文定位、书目识别依据和“未独立查阅”限定。全段mention跨度虽准确，但脚注L348–353中只有L349的palace/Lante family、L350的Elpidio Benedetti三处mention；`Passeri`、`d’Aumale`、`Callari`（此二者在L168已有mention）、Bentivoglio、L350的avviso/Roma刊本、Epistolario/两封Mazarin书信与Maccarani、façade inscription、Spon/Wheler及L351–353 Prunières/Baldinucci/Pascoli仍需按原span映射。不要用statement citation endpoint代替作者/出版物/信件的mention出处。
+- `st-chp7-p183-n3-cite-avviso`、`n3-cite-benedetti`、`n3-cite-epistolario`、`n3-cite-lettres`、`n3-cite-spon-wheler`及n3正文/信件报告（S0 L350）：当前OCR校读`Roma, 19 3 8`→1938、`fletter osò March 1661`→`letter of 6 March 1661`、`Span`→`Spon`均与物理页17相符；保留为qualifier中的扫描依据。`n3-letter-1650-to-maccarani`及`n3-maccarani-gallery-1675`正确保留Haskell转引/引述链，但1650 letter的具体赞美对象仍只是语境推定，1675 gallery仍属未定类型collection候选（`cand-7085`）；不得写成独立核读信件或确定建筑型画廊。
+- `st-chp7-p183-n6-cite-pascoli`（S0 L353）：脚注印本编号为6，S0转录8；现有qualifier已按物理页17记校读`8`→`6`，保留，不静默改S0。
+
+**可保留项/其余范围：**`i05`正确连接Borghese casino与Aurora fresco（并与i06的作者/赞助关系区分）；`i09`保留Mazarin对facade建筑控制有限的表述；`i12`可保留为Haskell对立面象征意义的明确作者解释，不升格为独立核实的事实关系；`i17`“险遭lynching后返回Italy”保留先后和near-escape限定，不补袭击者；n3对1661 letter、inscription及Maccarani 1675收藏的来源链限定、n6脚注号校读正确。以上仅是对应ID的可保留判断，不表示接收整页。其余需修项目如上；p.183本批不接收。
+
+### 2026-10-20：第七章p.184正文及脚注当前ID独立语义复核
+
+按登记源段 `chp-7:07_CHP-7_sec_i:l170-176` 逐条核读p.184 `st-chp7-p184-i01`—`i17`及从p.183闭合的`st-chp7-p184-q01`；在复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 按S0 L354–357逐条核读注1–4当前statement，共29条。对照印刷p.184、PDF物理页18、p.185物理页23仅核读句尾闭合、已登记源文本、mentions/候选、说话者、claim原子性、relation_candidate及脚注链。正文段77条mention跨度及复合脚注段203条mention跨度全部精确（0错）；p.184注1–4的L354–357仅有1个mention（L357 Marseilles），其余作者、书目、作品和信件/清单实体没有逐处mention映射。29条当前statement均为relation_candidate=true，false=0、未分类=0。Ch7累计当前ID直接复核493/1,238（true=456、false=37、未分类=0），未复核745条；第七章不接收。仅追加本批过程审阅记录，未改来源、结构化表或知识卡。
+
+**需修订/待证：**
+
+- `st-chp7-p184-i01`（S0 L171）：同一claim包含Charles I面对未名对手、被处决、Parliament出售picture gallery并将珍品置于国际市场；当前Charles I→未类型化收藏`cand-6812`一行遗漏Parliament/对手角色，且把政治事件与出售结果压为一条。拆出对手/处决和议会出售/市场化两类事实；保留Haskell对对手及珍品的评价，不补具体政治团体、市场地或画作清单。`cand-6813`（未名对手）为人群却标term，应待定人群类型；`cand-6812`收藏保持未类型化，勿冒充建筑画廊。
+- `st-chp7-p184-i02`（L171）：Mazarin委托Jabach为他购买前对手收藏绘画，主体Mazarin→Jabach准确表示委托意图，不能推成购买已完成。所称“former rival”由跨段S0 p.177 L95指向Duke of Mantua及其被Charles I购入的藏画（`cand-6720/6721`）；此处保留可追溯交叉引用和身份待S3，不应把该特定藏画组静默等同于更宽的Charles I picture gallery `cand-6812`，也不要把人物候选和收藏候选混并。当前qualification只说本句未具名，宜补p.177 L95定位与这一区分；不自行把“to buy”改为已购入。
+- `st-chp7-p184-i03`（L172）：Mazarin到1653年恢复权力与发现绝大多数画作从前述威胁中幸存被写在一条；分别保留政治状态与作品保存结果，保留“vast majority”而非全部及威胁为此前语境的限定。`cand-6816`为未定类型图片收藏可继续开放。
+- `st-chp7-p184-i04`（L172）：原文被动写“An inventory was at once drawn up”，没有指明编制者。当前Mazarin作为subject→1653 inventory `cand-6814`可以表示收藏/清单归属，但不得让predicate imply Mazarin本人编制或下令编制；把制作行动者留空/未名，并和本页注3的1661 inventory `cand-7091`严格区分。d’Aumale脚注及本书书目可定位1653清单版本，但清单页未独立核读。
+- `st-chp7-p184-i05`（L172）：Mazarin约500幅画与除Old Masters外“大多由年轻时在意大利熟悉的艺术家创作”被合并。拆数量/持有陈述与创作者熟悉度概括；保留some约数、Old Masters例外及artists未枚举。`cand-6815`“熟悉的意大利艺术家”是未枚举人群，却标term，应保留人群边界并待定类型。
+- `st-chp7-p184-i06`（L172）：Reni/Guercino在17世纪画家中代表最多，和Mazarin另藏Sacchi/da Cortona作品及后两者为Barberini favourites被合并；当前只有Mazarin→`cand-6831`画家组。拆各自作品/艺术家关系和Barberini趣味背景；保留“best represented”相对范围及“also owned”，不推总量。`cand-6831`是人物组却标term；Reni、Guercino、Sacchi和da Cortona仅在mentions。
+- `st-chp7-p184-i07`、`i08`（L172）：i07把Mazarin终身忠于前述taste、几乎不关注离意大利后的绘画发展、较少关注Rome/Bologna以外城市的作品压成概括；端点只Mazarin→Italian painting developments，遗漏地域排除和作品范围。拆分或明确将其作为Haskell的审美概括，保留almost no的限定。i08“恢复收藏后也没有改变立场”没有独立object/open statement，当前仍relation_candidate=true；可并入来源限定的taste判断或改作false属性/叙述，不保留空端点关系候选。
+- `st-chp7-p184-i09`（L172）：1653–1661所有购入中仅一件由Mazarin离意大利时不认识的艺术家创作，即Rosa《Landscape with Apollo》。当前Mazarin→作品`cand-6832`端点符合购入，但Salvator Rosa `cand-2246`仅在mentions。保持作品购入与艺术家熟悉度/作者归属边界，若表达创作者关系则另列Rosa；不把购入年代误当创作年代，并保留only one排他性。
+- `st-chp7-p184-i10`（L172）：Mazarin获朋友/客户赠画及“难以从作品质量/题材推断其taste”两项被合并；当前Mazarin→`cand-6817`赠画者群方向不清，且该人群candidate错误标term。拆出来源未枚举赠画者→Mazarin/作品的来源行为与Haskell关于解释困难的观点；保留so many不是数量、作品未枚举；群体类型待定。
+- `st-chp7-p184-i11`（L172）：Haskell从有限直接commission证据概括Mazarin几乎总偏好世俗/情色主题，qualification已准确限定证据范围和nearly always，可保留作来源限定主题偏好，不扩大到全部收藏。
+- `st-chp7-p184-i12`（L172）：当前predicate称Mazarin的敌人“accused Mazarin”，而原文仅称“his enemies’ accusations about ‘lascives images’”，继以Haskell评价在Titian/Correggio作品上的适用性；不明确说敌人直接指控Mazarin。拆敌人评价与Haskell判断，保留Titian/Correggio只是被应用的例子；`cand-6818`未名敌人是人群却标term，待定类型，不把批评或历史学家评论当成已证社会关系。
+- `st-chp7-p184-i13`（L173）：这是Haskell提出“比较Mazarin同时代人La Vrillière来衡量taste”的方法建议，不是Mazarin与La Vrillière存在历史交往的事实。可以保留为作者的比较方法陈述，但relation_candidate应审为false/非关系，避免生成person-to-person历史边。
+- `st-chp7-p184-i14`（L173–174）：claim和qualification把Brienne引语“Brienne said that he would prefer…”中的he错误指为La Vrillière。原句语法明确是Brienne表示“他（Brienne）更愿意要La Vrillière画廊的四幅画，而不是Mazarin全部作品（除三幅Correggio和一幅Titian Venus外）”；statement subject cand-0452 Brienne反而正确，中文claim/predicate/qualifier需与之统一。四幅作品、三幅Correggio及Titian Venus各自未具名；保留数量和“except”边界，不把它说成La Vrillière本人偏好。`cand-6819` gallery的空间/收藏含义未定。
+- `st-chp7-p184-i15`（L174）：当前statement subject=La Vrillière、object=`cand-6820`宫殿，predicate却含“Mansart建造”及La Vrillière收藏绘画，主体角色、对象和事实被混合。拆为François Mansart→宫殿建造（为La Vrillière）及La Vrillière→未枚举绘画的收藏陈述；保留“most artists也出现于Mazarin公寓”的限定。`cand-6822` Mazarin公寓画家组和`cand-6833` La Vrillière雇用艺术家组均为未枚举人群但标term，类型待定；不可只用宫殿端点代表 paintings/artists。S0 `In bis palace`扫描读作`In his palace`，`La'Vrillière`读作`La Vrillière`；当前qualifier只记了bis→his，未结构化记录校读，且第二处未记。
+- `st-chp7-p184-i16`（L174–175）：将比较性“accent不同”、对被引一般化“神话题材符合本国趣味”的反驳、La Vrillière选择古代英雄题材三层判断合在一个端点La Vrillière→英雄题材。拆/分层保留Haskell声音与Far from finding限定；“country”不擅自认定为法国或普遍受众事实。
+- `st-chp7-p184-i17`（L175–176，p.185 L206 `earlier.`闭合）：La Vrillière在1635年前购入Guido Reni《The Rape of Helen》，而Marie de Medici此前数年购得同一作品；statement只有La Vrillière→作品，漏Marie de Medici购藏关系与Reni创作者角色。拆两笔 acquisition，保留“some time before 1635”“a few years earlier”的相对时间，不补年份或作品版本。跨页闭合segment/source-line正确，但当前没有resolved-by statement ID，若系统需要statement级链接可补，不重复迁入p.185整页。
+- `st-chp7-p184-n1-cite-cosnac`、`n1-cite-taylor`、`n2-cite-daumale`、`n3-cite-blunt`、`n3-cite-inventory-cosnac`、`n4-cite-bonnaffe`、`n4-cite-briganti`、`n4-cite-hoog`（脚注L354–357）：所有citation claim均在书目/locator之后带“The prior note records:”及内部过程摘要，应从claim移除。对应页的原书citation没有被独立查阅，保留Haskell书目定位层级。
+- `st-chp7-p184-n2-cite-daumale`（L355）object=`cand-6807`当前题名仍未明；本书已登记书目`21_CHP-21Bibliography.md:L82`给出d’Aumale的*Inventaire de tous les meubles du Cardinal Mazarin dressé en 1653…*（1861版）；将其与底层1653 inventory `cand-6814`区分并对齐，不将note 2引用误并为de Cosnac 1661清单`cand-7091`。此外现有OCR correction把尾随`-`删去；p.184扫描在`pp.293 ff.`后看似保留短横，需按页图确认是印本文字还是扫描瑕疵后再校，不能仅据S0改掉。
+- `st-chp7-p184-n3-podesta-inventory`、`n3-podesta-mazarin-connection`（L356）：S0/OCR拼作Podesta；候选备注称扫描有重音，需在相关statement qualifier记录`Podesta`→印本`Podestà`及页图依据。`n3-podesta-inventory`准确保留Haskell称其为1661清单编制者之一；`n3-podesta-mazarin-connection`只说两人的“connection”未曾被注意，关系类型、方向、语境均未知，可保留为待定候选，不生成S6正式边。
+- `st-chp7-p184-n4-guercino-cato-location`（L357）：Haskell注称Guercino的Cato现藏Marseilles，`cand-7092`作品—`cand-7093`地点符合原文；只保留报告性地点、未独立核实限制。该note与p.185《Scene from the Life of Cato》依当前上下文候选相连，不据此推出具体馆藏。
+- `mentions.csv`：段内77条body spans及复合脚注203条均与源文本精确；但注1–4 L354–357当前仅L357 `Marseilles`有mention。需要为L354 de Cosnac/Taylor及出版物、L355 d’Aumale、L356 inventory/de Cosnac/Podestà/Blunt/期刊、L357 Bonnaffé/Briganti/Guercino’s Cato/Hoog等逐处映射，不以citation statement的端点集合替代source spans。
+- OCR corrections：扫描确认S0原文中`ofhis`（L171、172、173）、`with whomhehadbecomefamiliar`、`not always-easy`、`subject-matfer`（L172）、`In bis`及`La'Vrillière`（L174）分别应按印本空格/字母校读；当前仅`i10`自由文本限定提到subject-matter、`i15`限定提到bis，但其`ocr_corrections`字段均为空，其他相关statement也未结构化登记。保留S0原文不改，在对应statement qualifiers中记录具体校读与扫描页依据。
+
+**可保留项/其余范围：**`i02`“former rival”映到p.177 L95的Duke of Mantua/其collection有跨段来源基础，需将定位写入qualification并保留S3身份候选边界；`i04`目前区分d’Aumale 1653 inventory和de Cosnac item 1240的1661 inventory正确，编制者仍未名；`i11`的“nearly always”及direct-commission证据范围准确；`i14`数量及excepted作品准确、只需纠正he的指代；`i17`跨页闭合锚点正确但两笔收购需拆；`n1`扫描校读de Còrnac→de Cosnac及p,332→p.332准确；`n4`Cato→Marseilles的Haskell报告链保留且未独立核实边界适当。以上可保留判断不构成接收；本页当前29条均需至少针对关系分类、复合关系、speaker/角色、群体类型、引用mention或OCR元数据之一修订，故p.184不接收。
+
+### 2026-10-20：第七章p.185当前ID独立语义复核
+
+按当前 `segments.jsonl` 登记段 `chp-7:07_CHP-7_sec_i:l205-213`，核对S0实际正文L206–213、当前全部statement及mention映射，并检查复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 中本页脚注L358–360。逐条读当前版正文 `st-chp7-p185-i01`—`i30`、脚注 `st-chp7-p185-n1-cite-cosnac` 至 `n5-cite-brienne`，共35条；对照印刷p.185、PDF物理页23、候选端点/类型、说话者、语气和时间、relation_candidate及p.186引文闭合。`s2-coverage.csv`将正文段标为reviewed/complete，来源范围L206–213；本次直接语义复核不由该机械状态推导。正文94条mention字符跨度逐条切回当前S0原文（0错）；脚注L358–360当前没有任何mention记录，尽管各citation statement已有作者/书目候选ID。当前本页relation_candidate=true 34、false 1、未分类0。Ch7累计当前ID逐条直读528/1,238（true 490、false 38、未分类0），尚有710条未读；第七章不接收。本记录仅追加审阅过程；未改写statement、mention、候选或KU表。
+
+**需修订或保持待证：**
+
+- `st-chp7-p185-i01`（S0 L206，印刷p.185）：Mazarin委托Guercino创作《Scene from the Life of Cato》，当前Mazarin→作品`cand-7092`，Guercino `cand-1258`仅在mentions、候选标题中也不应替代正式端点。补Guercino为受托创作者/委托对象的角色，保留Cato身份未定与p.184注4经Hoog报告Marseilles的二手来源限制；不将“commission”扩大为已完成交付或所有权转移。
+- `st-chp7-p185-i02`（L206–207）：1637年Mazarin“ordered from Poussin”《Camillus…》；当前Mazarin→作品`cand-1999`，Poussin `cand-1984`仅为mention。补订购方/受托艺术家的角色端点；保留1637和Haskell报告，不把“订购”推成作品完成或现藏事实。
+- `st-chp7-p185-i03`（L207）：画作题材源自Livy的Camillus故事；当前画作→事件候选`cand-6840`，claim和qualification正确保留拒绝人质提议、校长交还学生及“这是Haskell叙述而非独立历史核实”。本条可留；如把事件内容拆为多条，保持叙事全部属于Haskell对画作题材的报告，不形成对事件事实的独立断言。`i04`将“one of Poussin’s largest”及austere/harsh/brutal审美判断列false、无关系端点，分类恰当。
+- `st-chp7-p185-i05`—`i11`：可保留La Vrillière于1640年代添加作品系列及逐件按Haskell记录的画家归属；`i06`—`i11`的作品/画家端点与索引候选类型相符，资格说明均避免独立认证作者归属。`st-chp7-p185-i12`将series→Maratta作品`cand-1530`、some years later保留为相对时间，端点可用，但claim目前仅写“some years later不换算为具体日期”，没有陈述系列后来由《Augustus closing…》完成；另需按同页逐件归属的表达补Maratta `cand-1526`创作者角色，或明确该行仅记录系列与最终画作的完成关系。
+- `st-chp7-p185-i13`、`i14`、`i15`、`i18`（L209）：当前均以La Vrillière→Mazarin人物端点、`relation_candidate=true`表达口味/文化比较。`i13`只在claim写“Haskell明确说ten”；`i14`仅记录France/Spanish/Italian戏剧及歌剧芭蕾对照；`i18`只解释“Neither quality”指向，却未陈述主张。将这些重写为Haskell的比较性叙述；`i13`、`i14`、`i18`应从人物间历史关系候选中排除，`i15`拆分“从一个角度共享理想”与“二人继续向意大利寻求艺术家”，不要把两人互设为端点，也不要由此生成未说明内容的共同理想关系。若保留对Italy的行为陈述，主体应表达Haskell概括的两位赞助人，地点和artist角色依原文限定。
+- `st-chp7-p185-i16`、`i17`（L209）：候选`cand-6854`明指以bankers/lawyers/merchants为主的新赞助人群体，当前` suggested_type=term`；taxonomy只把term用于概念与术语，未规定任意人群可充当term。将群体类型保留为待决/类型缺口，勿强塞institution（原文没有正式组织身份）或term。`i16`拒斥当代意大利绘画保留“beginning to”；`i17`claim现在仅为语气提醒，需补完整的“开始发展后来被视作更具法国特征的含蓄与古典主义趣味”断言。
+- `st-chp7-p185-i19`（L210）：原文并列Mazarin于1653年返巴黎与Charles I绘画在伦敦继续出售；当前Mazarin→未定藏品候选`cand-6812`把同时发生的返程/出售时间关系写成个人—藏品边。将其改为带印刷年份/地点的并行事件或来源限定的时间陈述；不要将collection `cand-6812`当作sale event。
+- `st-chp7-p185-i20`—`i22`（L210）：三项均由Mazarin经大使M. de Bordeaux购/取得作品；`cand-6849`只在mentions而未作为中介/代理端点。按每项补出ambassador角色或拆购藏与代理行为。`i20`claim仅“able to buy”源层提示，`i21`claim仅题名映射待S3，`i22`claim仅指出有一组并列其中一件；三者都未完整陈述Haskell的购画事实，须补全原文主张。`i21`保留Venus of the Pardo（书名形式）与索引Venus del Pardo的身份待S3；`i22`分别保持Van Dyck未枚举组`cand-6847`与其中具名《The Children of Charles I》`cand-6848`的组/成员边界，不能让名称嵌入替代组成员关系。作品创作者也仅为mentions，需按本章创作关系规则决定是否补端点，勿与购买方混为一角色。
+- `st-chp7-p185-i23`（L210）：`relation_candidate=true`却无object。原句`Perhaps`提出“取得这些作品后Mazarin对收藏和赞助的投入大幅减少”的可能解释，且同时涉及collecting和patronage两类活动；拆开两种活动/变化并保留Haskell推测。如无法建立可表达端点，作为来源限定的叙述而非空端点关系候选；“much decreased”不等同完全停止。
+- `st-chp7-p185-i24`—`i25`（L210–211）：`i24`把Romanelli被召回Paris（召回者未名）与其专为Queen Mother在Louvre工作合为Romanelli→Queen Mother一条；拆出召回事件及雇用/工作地点关系，维持the Queen Mother身份待定。`i25`把当年鼓励Romanelli画Roman histories与Mazarin九年前拒绝该题材并在一个Romanelli→`cand-6779`项目中；claim目前只写受鼓励者和施事未明，需拆出来源主张且不要把未名鼓励者补为Queen Mother。`cand-6779`与p.181方案的跨段同一性qualification已保留待证，不得据主题/九年时间相合直接合并。
+- `st-chp7-p185-i26`（L211）：1659年召Vigarani从Mantua为Mazarin宫中剧场计划工作；“found there was not enough space and moved to the Tuileries instead”的语法主语是Vigarani，但也可能压缩指整个剧场项目迁址。现statement以Vigarani→项目并把移动压在同一谓词；分解召来及空间不足后的迁移陈述，保留“谁/什么 moved”的开放端点，且不得写成剧场已建成。claim现仅陈述召人建剧场，需包含后续迁移的原文范围。
+- `st-chp7-p185-i27`（L211）：Mazarin推动“these enterprises”，但`they`指事业/项目，是它们更多以君主名义执行而非Mazarin名义；当前Mazarin→Louis XIV人物端点误把名义归属写成人际关系。将“这些事业的推动者”与“项目执行名义”分开；保留`as if foreshadowing`为Haskell类比，不作为因果关系。claim仅记录该类比而遗漏被解释的执行方式。
+- `st-chp7-p185-i28`（L212）：保留`Perhaps`是对的，但claim只写“保留Perhaps”，没有说明Haskell认为Fronde的敌意可能对Mazarin后期活动产生影响；受影响活动应仍开放，不将Mazarin本人设成笼统结果端点，也不把未分期的Fronde `cand-6860`并到First Fronde候选。
+- `st-chp7-p185-i29`（L212–213）：Mazarin对意大利珍贵织物的热情依旧并继续取得，时间/作者修辞均保留，可留；对象是品类`cand-6861`而非已列举的单件织物，不从`term`类别推出某个具体作品。
+- `st-chp7-p185-i30`（L213，法文引文续至p.186 L216–218）：claim正确归为Haskell转述Brienne、保留“死前一个月”和临终访问绘画的来源层。可保留访问事实与页面跨段闭合锚点；引文由Brienne报告，不按第一人称片段作为独立已读的原始信件。若拆分，保持Mazarin访问绘画与Brienne叙述来源两层。
+- `st-chp7-p185-n1-cite-cosnac`与`st-chp7-p185-n5-cite-brienne`（S0 L358、L360）：两条claim都在真实书目引文后追加“The prior note records:”及内部流程摘要；删除非原书内容，保留对应Haskell脚注、作者/书名与页码定位。`n5`将印本“III”与S0 OCR“IH”的校读取证放在qualification的做法恰当，勿据此改动冻结S0。
+- `st-chp7-p185-n2-cite-hautecoeur`、`n3-cite-hautecoeur`及`n4-cite-alazard`：脚注的引文和ibid.传递关系及书目交叉识别qualification与正文来源层相符，可留为citation记录，引用页未独立查阅的限制继续保留。
+- `mentions.csv`：正文L206–213有94条mentions，字符跨度均精确；脚注L358–360有de Cosnac/Hautecœur/ibid./Alazard/Brienne及出版物指向，但当前在该复合segment中0条mention映射。补对应原文精确span及作者/出版物映射；statement的`mentioned_candidate_ids`不是source mention替代物。
+- 页图可确认S0校读：L207、L209“Vrilliere”应记录印本重音`Vrillière`；L209 `The Death of Cleopatra'`尾撇号不属印本；L210 `Charles 1`→`Charles I`；L211 `Louis XTV`→`Louis XIV`；脚注L360 `IH`→`III`。最后一项已结构化写入`n5.ocr_corrections`，其余校读目前主要散落在mention note或自由qualification，需在受影响statement中用结构化OCR校读字段统一记录，不改写S0原文。
+
+**可保留项及批次结论：**`i03`的来源层与故事端点、`i04`的false审美属性、`i05`—`i11`逐件原书归属（不等于独立作者认证）、`i12`的work endpoint与相对时间边界、`i16`对Haskell“beginning to”的初始边界、`i29`继续取得材料类别、`i30`跨页引文范围、注2–4书目定位及注5印本卷号校读均有可保留部分；这不抵消上列claim原子性、关系端点/分类、agent、群体类型和脚注mentions问题。p.185本批不接收。
+
+### 2026-10-20：第七章p.186当前ID独立语义复核
+
+按登记源段 `chp-7:07_CHP-7_sec_i:l215-222` 逐条核对S0 L216–222（含p.185起始、于本页L218闭合的Brienne法文引文），读取 `st-chp7-p186-i01`—`i20`、承接引文的`st-chp7-p186-q01`，并核对复合脚注段L361的`st-chp7-p186-n1-cite-wittkower`，共22条。对照印刷p.186、PDF物理页24、候选类型/端点、speaker与文本层、断言范围、时间限定、relation_candidate和跨页回链。当前行中正文83条mention的字符跨度均精确（0错）；脚注L361的Wittkower/出版物无mention span。`s2-coverage.csv`将正文段记作reviewed/complete，但这不替代本次语义审读。当前本页relation_candidate=true 21、false 1、未分类0；Ch7累计当前ID逐条复核550/1,238（true 511、false 39、未分类0），余688条；本章不接收。本批仅追加审阅记录，没有修改事实表或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p186-i01`（S0 L216）：当前一条claim同时写小画廊中的Scipio羊毛挂毯、曾属Saint-André元帅、Cardinal最美挂毯，并重复挂毯设计归于Jules Romain（另有i02）。拆开挂毯→画廊位置、前任持有人Saint-André、来源称“最美”评价、设计来源；i01只以挂毯→画廊为端点，Saint-André `cand-6866`、Scipio题材`cand-6865`未建对应角色边。保留Brienne回忆/Haskell转述层及挂毯版本待证；“最美”是来源评价，不写成核验排名。
+- `st-chp7-p186-i02`（L216）：挂毯设计归于Jules Romain，当前挂毯`cand-6864`→Giulio Romano`cand-1194`，claim和qualifier已保留原书归属、非独立作者核验，可留。`i03`（L216–218）Mazarin直接话语中的离别与不舍，claim及Brienne→Haskell引述链、心理真实性边界均准确，可留为来源限定表述。`st-chp7-p186-q01`记录引文从p.185续至p.186 L218的文本闭合，但subject/object设为Brienne→Mazarin、relation_candidate=true，所表达只是跨页引用连续性且与i03/i04重复；应留在continuation/evidence锚点或将其标为非关系，不生成Brienne与Mazarin的关系边。
+- `st-chp7-p186-i04`（L218）：Brienne分别指出Cortège、Titian的Venus和Antoine Carrache的Deluge三作，并称喜爱及付出很大代价；当前Mazarin→通用藏画候选`cand-6816`掩盖三件不同作品，作品均只在mentions，Titian/Antoine Carrache作者也只在mentions。拆为具名作品级端点或作品组与成员关系，保持Cortège版本不明、Venus不等同p.185 Venus del Pardo、Deluge版本和Carrache身份待证；保留喜爱及“cost”来自Brienne所引话语，不推断价格。
+- `st-chp7-p186-i05`（L219）：`from the grave`明确是Haskell解释Mazarin死后通过遗嘱安排仍促进意大利艺术赞助的修辞，不表示死后本人采取行动。当前claim/qualifier保留该层，可作为来源限定解释，不扩成已证因果或Mazarin死后行为。
+- `st-chp7-p186-i06`（L219）：Mazarin召来Theatine order的一个分支赴Paris，分支后来定居在Seine河岸；当前以Mazarin→`cand-2564` Theatines（in Paris）单一关系打包召请与安置，Paris及河岸地点`cand-6872`仅在mentions，且未名“branch”是否对应现有机构候选仍待证。拆分召请与分支落脚地，按原文保留“a branch”，不推断具体修院或组织身份。
+- `st-chp7-p186-i07`（L219）：claim称Mazarin遗嘱留给Theatines一笔钱供重建教堂；端点却是遗嘱档案`cand-6873`→教堂`cand-6875`，漏掉明确受领方Theatines `cand-2564`。区分遗嘱/其所载bequest、受领组织和重建用途；金额未知不补数值。
+- `st-chp7-p186-i08`（L219）：heart `cand-6874`的类型开放与来源称遗嘱“指示安葬在此”保留得当；不得把will direction写成已实际埋葬。KU类型缺口保持待决。
+- `st-chp7-p186-i09`、`i10`（L219）：`i09` Theatines召来同属其修会的Guarino Guarini、抵达年份1662可留，但claim应保留“member of their own order”及St Anne项目目的。`i10`把Guarini开始教堂工程、1669被中断、约50年后完成并为一条；原文只给Guarini起工，后两项是被动语态、施事未名。拆为起工及工程中断/完成状态，保留中断者/后来完成者开放，严格维持“some fifty years later”。
+- `st-chp7-p186-i11`（L219–220）：弯曲立面`cand-6878`与S. Carlo alle Quattro Fontane的比较按Haskell来源表达可留；S0 `aile`→印本`alle`校读依据正确写入qualification，但尚未进入结构化`ocr_corrections`字段，需补该元数据，不改S0。
+- `st-chp7-p186-i12`（L219–220）：穹顶高度独特为作者属性描述，relation_candidate=false且object空，分类恰当。
+- `st-chp7-p186-i13`（L219–220）：方案不迁就当时法国实践，是明确的作品—建筑惯例比较；限定为Haskell评价、不推广为法国建筑师统一立场，端点可留。
+- `st-chp7-p186-i14`（L220）：claim将原文“remained as a wholly isolated-example”写成“成为孤立例子”，改变了“持续/仍然作为”的时间语气；应改为“仍是/一直作为”。qualification中的OCR判断亦有误：物理页24明确印作`isolated-example`，与S0连字符写法相同，不应校成`isolated example`；撤销该校读并保留原印本形式。Grand Siècle时期、Paris地点及Haskell孤例判断仍需保留为来源限定。
+- `st-chp7-p186-i15`（L220）：`may well`及deterrent相对inducement方向、说明是Haskell推测的限制均正确，可留；脚注1印在前一孤例句末，此处不回链注1的判断正确。
+- `st-chp7-p186-i16`（L220）：claim准确记录Haskell称一场针对意大利建筑实验的反应已在酝酿、尚未显现；候选`cand-6883`本身被类型化为term且本行无object，宜按状态/解释性主张保留，不标为有向formal relation，除非明确指定关系端点。
+- `st-chp7-p186-i17`—`i20`（L221–222）：Fouquet“as soon as”Louis XIV掌权被捕、Colbert替代Fouquet、两人都曾受雇于Mazarin，当前拆成具体命题、人物/事件端点与qualifier基本相符。i17应保留“as soon as”而不补年份。i19/i20句尾跨页到p.187 L225 (“and both were enthusiastic collectors of Italian art”)，当前只覆盖本页雇佣命题；完整句的余项和statement跨页关系需在p.187范围一起确认，本批不将它们标为整句关闭。
+- `st-chp7-p186-n1-cite-wittkower`（S0 L361）：Haskell脚注确为Wittkower, 1958, p.269，书目唯一匹配与“ cited page未独立查阅”限制可留；claim尾部“The prior note records:”及内部审阅摘要不是脚注内容，应移除。对应L361当前mentions.csv没有Wittkower作者及出版物精确span，需补映射。
+- `mentions.csv`：本段正文83个mention spans逐一切回S0均精确；L361只有“1 Wittkower, 1958, p.269.”，当前无mention映射；为作者和书目候选增加对应精确source spans，不能用citation statement中的`mentioned_candidate_ids`替代。
+- 页图物理页24显示S0 OCR需校读而不改来源本体：L216 `SaintAndré`→印本`Saint-André`；L216 `Je sis`→`Je fis`；L217 `es j’ai`→`et j’ai`。对这些影响Brienne原文引句的改读建立结构化OCR correction及页图依据。L219–220的facade `aile`→`alle`如上已在自由qualifier记录，补结构化字段。另，p.186物理页显示`isolated-example`确有连字符，当前i14所记OCR correction反而是误判，撤销该校读。
+
+**批次接收判断：**`i02`、`i03`、`i05`、`i08`、`i12`、`i13`、`i15`、`i17`—`i20`保留其已准确限定的断言部分；但i01、i04、i06–i07的对象/行动方范围，i10的复合事件，i14语气与错误OCR判读，q01关系分类，脚注claim及source mention锚点仍需处理。p.186本批不接收；p.187仅用于等待确认已标出的跨页句尾，未计入本批逐条语义覆盖。
+
+### 2026-10-20：第七章p.187当前ID独立语义复核
+
+按当前源登记段 `chp-7:07_CHP-7_sec_i:l224-230` 核对S0正文L225–230与复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 的L362–367。逐条阅读正文 `st-chp7-p187-i01`—`i29`、脚注 `st-chp7-p187-n1-cite-alazard`—`st-chp7-p187-n6-cite-wittkower`及其间全部脚注statement，共48条（正文29、脚注19）；对照印刷p.187、PDF物理页25、当前mentions/candidate端点、claim原子性、speaker、时间与语气限定及relation_candidate。正文69条mention spans切回本段S0均精确；复合脚注段中p.187六条脚注仅有`m-chp7-p187-n4-pascoli-ii-author`一处mention，L362–367其余作者、出版物、人物、作品和地点均缺精确mention映射。p.187当前48条均为relation_candidate=true，false=0、未分类=0。当前Ch7 statement总量1,238；本批加此前已逐条直读的p.182–186，共当前ID直读598/1,238（true=559、false=39、未分类=0），余640条；Ch7不接收。过程记录为当前ID只读语义审查，不改source、S2表或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p187-i01`、`i02`（S0 L225，承接p.186 L221–222）：`both`确指Fouquet与Colbert；两条各自以人物为主语、意大利艺术收藏为行为，claim与端点可保留。不要把“热衷收藏”扩大为收藏清单或具体作品所有权。
+- `st-chp7-p187-i03`（L225）：Louis XIV从意大利寻找拟聘用的画家、雕塑家、建筑师，保留`For all`让步及“拟聘”的语气。`cand-6887`是未具名人物群体却标为term；taxonomy的term为概念与术语，且材料未说明该群体具组织身份，不应以term或institution强塞。保留开放群体候选/类型待决；Italy是寻找来源地，不推断聘任名单或聘用完成。
+- `st-chp7-p187-i04`（L225）：Franceschini受托绘制《Fame carrying the Name of the King to the Temple of Immortality》可保留；委托者在该句未名，保持主语开放，不补为Louis XIV或Colbert。扫描校读`os`→`of`与未推定委托人均正确。
+- `st-chp7-p187-i05`（L226）：Ciro Ferri为Louis XIV工作可留；保留also和Haskell报告层，不将未迁移的脚注3当作已读独立来源。
+- `st-chp7-p187-i06`、`i07`（L226）：i06把Mola受邀赴巴黎、获高额俸金、启程前去世合为单条，邀请者未名；拆分/细化邀约与死亡，保留“about to set off”，不写成抵达巴黎或已就职。i07正确保留Rosa于1665年同年拒绝邀请；邀约者也未名，`independent-minded`是Haskell描述而非拒绝原因。
+- `st-chp7-p187-i08`（L226）：Rosa引语的施事方向颠倒。原文说喜爱艺术的法国访客来“here”时试图取得Rosa的某件作品；当前subject为Rosa、object为访客群体。改为访客为寻求/尝试获取的一方，Rosa及其未指明作品为目标；保留Rosa引语视角的here与`trying`，不能写成成功买得。`cand-6902`是人群而非概念，term类型不合，应待定人群类型。
+- `st-chp7-p187-i09`（L227）：“culmination and crisis”是Haskell对法国热情及Louvre方案的篇章判断，可保留为作者解释；不写成Louvre工程已建成或具体危机事件，正式关系端点仍须以解释性主张而非实体事实阅读。
+- `st-chp7-p187-i10`（L227）：原文Louis与Colbert共同考虑王宫东立面建造方案，当前只保留Louis为subject，漏Colbert共同施事。补Colbert角色或改写联合主体；严格保留“开始考虑方案”，不得改成已开工。`eastern’front`→`eastern front`校读正确。
+- `st-chp7-p187-i11`、`i12`（L227）：i11把Colbert对Le Vau敌意与Le Vau曾任Mazarin首席建筑师并在一个claim里；i12又单列后一个任职事实，形成重复。拆开敌意与任职，保留Haskell来源语气及`had been`过去任职。
+- `st-chp7-p187-i13`—`i15`（L227–228）：i13把寻找法国替代设计师和转向意大利打包，object只链接`cand-6891`而意大利`cand-3461`仅为mention；拆为寻找人群与转向地理范围两个主张，保留`after searching`、`was compelled`，不臆造迫使者。`cand-6891`、`cand-6892`、`cand-6893`分别是未具名设计师/建筑师群体，当前均为term；保持未具名群体类型待决。i14是Colbert提议把Le Vau方案提交给若干主要罗马建筑师，当前只以方案为object，补出受提议审阅的群体角色或开放端点；`some`和proposal不等于实际送审。i15是Colbert要求意大利建筑师提交各自图样，当前object只有图样组、受请求群体仅mentions；表示ask而非实际递交。
+- `st-chp7-p187-i16`（L228）：Haskell说许多作者已详论这段经过，本书只讲轮廓和意义；subject/object均空却标true。保留为篇章范围说明/作者修辞，改为非关系记录，勿创造“悲喜剧”实体或无端点关系。
+- `st-chp7-p187-i17`（L229）：原文称民族主义因Richelieu与Mazarin的爱国政策而强势，保留`arrogant`、`unscrupulously`及`paradoxically`。当前statement object为空但relation_candidate=true，且政策仅为mention；补政策概念端点或保存为来源限定解释，不能留空端点关系，也不能把Mazarin的反讽限定删去。
+- `st-chp7-p187-i18`（L229）：法国对意大利艺术的敌意“基于不止纯粹种族情绪”，保留`more than`的非排他因果限定和开始显现的时间语气；不得改写为种族情绪是唯一原因。可作为来源层概念判断，不推出额外动因。
+- `st-chp7-p187-i19`、`i20`（L229–230）：i19把“方案受批评”写成工作组`cand-6894`→法国条件的关系，但原文明确主张是四位建筑师没有认真考虑法国条件；应以Bernini、Cortona、Rainaldi、未知Candiani等建筑师为行为方，或拆分Haskell报告的批评与建筑师的忽略。保留“critics’ views precise and consistent”是Haskell的概括，不冒充独立看图审查。i20的“所有方案过于繁复、过于巴洛克，不合本土趣味”应继续限定为被报告的批评，并明确all of them仅指上述四位建筑师提交的方案。`Baroque1`的OCR/引号校读正确。
+- `st-chp7-p187-i21`—`i23`（L230）：三条是Cortona图样像庙宇而非宫殿、Candiani方案被称`extravagant`、Rainaldi方案被称`bizarre`且缺乏简洁建筑趣味的引述评价。原文未命名批评者；保留来源引语与`Candiani`身份未定，不补批评者。当前statement object空但relation_candidate=true；按作品评价/属性处理或保留待表达类型，不生成空端点边。`Rainaldirs`→`Rainaldi’s`校读正确。
+- `st-chp7-p187-i24`（L230）：“Modern opinion has endorsed most of these views”是Haskell的接受史概括，未指明实体“现代意见”；当前subject/object空而true。保留`most`非全称限制及作者归属，作为叙述性判断，不构造无端点关系。
+- `st-chp7-p187-i25`—`i28`（L230）：i25称Bernini最接近把自身趣味带入巴黎，主要凭国王个人支持，最终仍未成功；当前仅Bernini→Paris，漏支持方Louis XIV `cand-1447`及支持角色。拆分到巴黎的尝试、国王支持与失败结果，保留`came nearest`、`mainly`、`but`。i26“最初方案遭拒”缺拒绝方；保持拒绝者开放，按方案状态记录，不能生成空端点的有向关系。i27受邀提交更多方案和本人赴巴黎讨论被合为一条；拆开提交方案和出行邀请，邀请者未名，不能推为采纳。i28把经过各省的凯旋式进展与被引见Louis XIV合为Bernini→Louis关系；分开旅程和引见，介绍者未名，保留1665-06-04及`provinces`但不补具体路线。`triumphantprogress`跨印刷断行的校读为`triumphant progress`准确。
+- `st-chp7-p187-i29`（L230，跨页至p.188 L233）：Bernini向Louis XIV开口的引语在p.187起始，p.188续完。当前claim可保留为Haskell引述并标为跨页partial；不能把本页半句当作完整引文，p.188句尾另作闭合核对。
+- p.187脚注引用claim `st-chp7-p187-n1-cite-alazard`、`n1-cite-bonnaffe`、`n2-cite-alazard`、`n3-cite-ruffo`、`n4-cite-pascoli-i`、`n4-cite-pascoli-ii`、`n5-cite-bailly`、`n5-cite-de-rinaldis`、`n5-cite-limentani`、`n6-cite-blunt`、`n6-cite-chantelou`、`n6-cite-hautecoeur`、`n6-cite-wittkower`：各条claim在书目和locator之后追加`The prior note records:`及内部处理摘要，均不是Haskell脚注内容，应删除摘要；书目匹配/定位可保留为citation层，不把被引页当作已独立阅读。脚注n2 `p. no.`→`p. 110`、n3 `RufFo`→`Ruffo`、n6 `Wittkower, 1938`→印本`1958`已有结构化校读，物理页25确认1958。
+- `st-chp7-p187-n4-canini-accompanied-cardinal-chigi`、`n4-canini-employed-french-court`（L365）：保持Haskell报告的Canini陪同Cardinal Chigi于1664访问巴黎、且受雇于法国宫廷；Canini全名和Cardinal身份未提供，不能补人名。需为Canini、Chigi、Paris、court及两条Pascoli出处增加精确mention映射；现有唯一mention只覆盖Pascoli vol.II。
+- `st-chp7-p187-n5-louis-xiv-attitude-to-rosa-changed`、`n5-papal-nunzio-presented-battle-to-louis-xiv`、`n5-rosa-battle-sent-from-versailles-to-paris`、`n5-note-accompanies-1697-transfer-and-quotes-royal-refusal`（L366）：保留Haskell对Louis态度后来变化、某未名Papal Nunzio曾将Rosa的Battle呈给Louis、该画1697从Versailles送往Paris并附所引法文便条的来源范围。1697限定送画，不明确限定最初呈画时间；当前sent statement只连Paris，遗漏Versailles出发地并把移动事件直接写到作品—目的地，建议拆成带两地点的来源限定转运/事件记录。画名、版本、Nunzio、note的作者/收件者及馆藏均未明；不补现藏位置。所有脚注作者/地点/作品mention仍缺，Bailly等书目仅属Haskell citation链，未独立查页。
+- `mentions.csv`：正文69个span均精确；L362–367仅有Pascoli vol.II一个mention。至少需补L362 Alazard、Bonnaffé及书目/页码；L363 Alazard与p.110；L364 Ruffo；L365 Canini、Cardinal Chigi、Paris、French court、Pascoli I/II；L366 Limentani、De Rinaldis、Louis XIV、Rosa、Battle、Papal Nunzio、Versailles、Paris、引文、Bailly；L367 Blunt、Wittkower、Hautecœur、Chantelou及对应出版物。候选ID出现在statement不代替mentions的原文span。
+
+**可保留项及批次结论：**i01/i02的Fouquet与Colbert各自收藏意大利艺术、i04 Franceschini受托作画且委托人开放、i05 Ferri为Louis XIV工作、i07 Rosa于1665年拒绝邀请、i09作者对Louvre计划的篇章解释、i12 Le Vau过去任首席建筑师、i18敌意不止种族情绪、i20批评的限定范围、n4脚注两项Haskell报告事实及n5中Haskell记载的送画和便条均可保留相应来源限制；这不等于statement整体接收。i03、i06、i08、i10、i11、i13–i17、i19、i21–i28及n1–n6 citation文本/mentions仍有实质修订或类型待决项。p.187本批不接收；仅完成本页48/48当前ID复核，Ch7剩余640条未审，不能据此称章完成。
+
+### 2026-10-20：第七章p.188当前ID独立语义复核
+
+按当前源段 `chp-7:07_CHP-7_sec_i:l232-241` 逐条核对S0 L233–241，脚注复合段 `chp-7:07_CHP-7_sec_i:l293-389` 中L368–369，读取 `st-chp7-p188-i01`—`i34`及注1–2两条citation statement，共36条；对照印刷p.188、PDF物理页26、当前statement/mention/candidate端点、说话者、限定与跨页链接。正文75条mentions、p.188脚注3条mentions均以当前S0相应segment全文的字符偏移逐条切回核对，均匹配（0错）。正文34条中true=31、false=3；脚注2条均true，因此本页全部36条true=33、false=3、未分类0。S2 coverage将正文段标为reviewed/complete，仅表明结构化迁入状态；不替代本次语义审查。Ch7累计当前ID直读634/1,238（true=592、false=42、未分类=0），未读604；本章不接收。本批只追加process审阅记录，未修改S0、结构化S2表或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p188-i01`（S0 L233，承接p.187 L230）：Bernini直接引语称法国国王应拥有比沿途诸侯宫殿更宏大壮丽的建筑；引述和Louis为目标的角色可留。引语中夸张诉求按Bernini发言层保留，不作为已经建造的事实。
+- `st-chp7-p188-i02`、`i03`（L233）：Colbert难以从Bernini角度看问题、又关注费用及房间安排，claim与人物端点基本相符。i02及`st-chp7-p188-i04`的qualifier已说明页图校读`couldhardly`→`could hardly`、`nothelpful`→`not helpful`，但原文图像确认的校读未落在结构化`ocr_corrections`字段；建议补该字段，S0保留OCR原样。i03不补具体房间或支出数额。
+- `st-chp7-p188-i04`、`i05`（L234）：i04说Bernini未理解法国君主制与教廷之间的制度差异，当前object仅为French monarchy `cand-6910`，漏掉对照方Papacy `cand-4223`，且把“差异”误表达为单一机构端点。改为Haskell对制度差异的来源限定判断，补对照两方或以差异概念作端点。i05原文是“each new pope”试图超越前任并重新开始，当前subject `cand-4223`代表制度性Papacy而非历任人物，predicate也仅有前任/重新开始的合并主张；分开主体为未具名历任教皇群体或保留为Haskell概括，明确超过前任及重新开始，不将机构写成个人。
+- `st-chp7-p188-i06`（L234）：法国国王继承其所敬重的父亲和祖父、并无意抹除他们记忆，当前French monarchy制度候选与继承/记忆概念作为Haskell制度比较可保留；不推为每一位法国国王均有同一心理，也不把父祖扩成具体身份。
+- `st-chp7-p188-i07`、`i08`（L234）：Louis向Bernini解释其愿意保存前任所作之物，i07的claim可保留，但须明确Bernini为解释对象、被保留的是前任作品。`i08`谓词说Louis解释“未对Bernini产生影响”，原文明确是未影响Bernini的方案；当前object=`cand-0295`（Bernini人物）不等于受影响的方案，改以Bernini提案组`cand-6906`为受影响对象，并保留其方案“uncompromisingly new”的评价。
+- `st-chp7-p188-i09`（L234）：Haskell将Bernini对法国事物的轻蔑与他激起的敌意联系起来；作为作者因果解释保留，不升级为所有法国人的实证态度。
+- `st-chp7-p188-i10`（L235）：原文仅说宫廷中存在派系；当前subject为空、object为term类型的未具名派系群体`cand-6913`，却标为关系候选true。该候选表示人群而非概念，类型应待决；若表达“派系在宫廷中”，需补宫廷/地点端点，否则作为Haskell背景陈述并取消空端点关系。成员和立场仍未名。
+- `st-chp7-p188-i11`—`i13`（L235）：i11国王仍支持Bernini方案可留；i12 Bernini至十月已在返罗马途中及行程event端点相符。i13原文为“人们广泛且正确地相信其方案不会实施”，当前用Bernini本人作subject；改为无名群体的来源层判断/计划的预期状态，保留widely与correctly以及不会实施的后见限定，不把Bernini写成信念主体。
+- `st-chp7-p188-i14`、`i22`（L236、238）：i14关于巴黎停留证明天才、i22关于法国自满达到高峰均为Haskell评价/概括，relation_candidate=false恰当。i22 subject=`cand-6764`（France polity）不匹配短语“French self-satisfaction”，mentions却映到`cand-1725`（Nationalism and art）；两者都不能未经身份/概念边界判断就替代该短语。保留为来源限定判断，必要时另建窄义自满概念，不把法国政治实体与Nationalism概念混同。
+- `st-chp7-p188-i15`（L237）：Bernini抵达两三周内受托制作国王大理石胸像；作品、画家与相对时间正确，委托者被动语态未名，继续开放，不补Louis XIV为委托人。
+- `st-chp7-p188-i16`—`i18`（L237）：胸像首次使Bernini有机会按真人描绘世俗君主、塑造理想化个人君主形象，以及Haskell称其为专制主义视觉记录中最有力的一件；创作者、作品端点和评价层均可保留。所有“最”级评价归于Haskell，不作外部排名事实。
+- `st-chp7-p188-i19`—`i21`（L237–238）：Louis因胸像印象深刻而订制骑马像、Bernini返罗马四年后开工、雕像1684年才到巴黎且晚于其死，statement端点和时间范围基本相符。i20的四年是相对于Bernini返罗马，不换算为臆造年份；i21仍是Haskell/被引Wittkower的来源报告，未独立核查。
+- `st-chp7-p188-i23`（L238）：原文称没有国家或国家组合能在军事实力、文学及其他各领域胜过法国。当前subject是France，object为空却relation_candidate=true；改成明确的比较对象/开放对照组，或作为Haskell修辞性总体判断而非空端点边。保留“no country—or combination of countries”范围。
+- `st-chp7-p188-i24`（L239）：Haskell解释Gallican原则体现Louis XIV建立尽可能独立于教皇影响的国教愿望，作者解释限定及两个方面可留；不要把该解释扩为教廷与法国的正式制度关系。
+- `st-chp7-p188-i25`（L239）：`Bernini’s monument was found uncongenial`是被动审美判断，原文未明确评议主体；当前statue subject、object空却true。保留为来源层审美判断，或补明确受众证据，不能生成空端点边。
+- `st-chp7-p188-i26`、`i27`（L239–240）：i26说Bernini被要求以梵蒂冈Constantine雕像为骑马像蓝本；当前作品—作品端点可表达参照，但保留请求者未知，不把此要求当作Bernini主动选择。i27关于雕像所回响的教廷权威主张“must have seemed”刺耳且不得体，当前qualifier保留推测归属，可留为Haskell推断。
+- `st-chp7-p188-i28`（L240）：Haskell称本土审美逐渐排斥意大利式繁饰，source-limited判断可留；不可推广到每个法国人或将Italian floridity指为某件具体作品。
+- `st-chp7-p188-i29`、`i30`（L240）：Louis想砸毁雕像，随后改变主意而把它放到凡尔赛园地最偏远角落，保留改变决定及grounds这一室外范围。i30若主张雕像的位置而非Louis的处置行为，需区分行动者与最终安置地；不得写成置于凡尔赛宫建筑内。
+- `st-chp7-p188-i31`（L240）：原文把Girardon作必要改动与“figure was called Marcus Curtius”并列；当前Girardon→雕像单条claim把改动及后续命名合并，且被动命名者未名。拆出改动与称谓；Marcus Curtius在此是雕像后来称名，不另立古代人物端点。
+- `st-chp7-p188-i32`（L241）：claim将`always said`降为“常被说成”，应恢复原文“总被说成”的转述强度。当前subject为Bernini人物，但原文主语是其巴黎失败/事件；补事件型端点或将评价陈述留在来源层，不把个人直接等同“失败”。保留标志意大利艺术在法国声望崩塌这一转述内容。
+- `st-chp7-p188-i33`（L241）：原文是对意大利艺术的批评与敌意随法国人更加自信而增强。当前subject France自满概念`cand-6764`、object“意大利艺术声望”`cand-6924`，与原文被增强的“敌意/批评”终点不符；应以French hostility候选`cand-1082`作为被增强对象，并保留French self-assurance为时间/比较条件或单独待定概念。不要把敌意增长改写成声望本身的边。
+- `st-chp7-p188-i34`（L241）：`with the full support`是未完分句，当前false分类、来源片段和p.189 L244闭合提示适当；本页不把它当完整事实，跨页statement链接继续保留。
+- `st-chp7-p188-n1-cite-wittkower`、`n2-cite-ibid-wittkower`（脚注L368–369）：Wittkower 1955书目和ibid.回指关系与本页脚注相符，三个mentions跨度均准确，引用页未独立读的限制正确；两条claim末尾的`The prior note records:`及其审阅摘要不是原书脚注，应删除。被引页pp.230–231、234–236的事实只保留Haskell引用定位，不据此作独立验证。
+- 当前mentions对`French self-satisfaction`及其后文`the French ... self-assured`均链接到宽泛候选`cand-1725`（Nationalism and art）；应核查是否把民族主义、法国自满与法国自信三种概念错误合并，必要时保持分开或待决。主体/对象端点错误详见i22、i33。
+
+**可保留项及批次结论：**i01、i03、i06、i09、i11–i12、i14–i21、i24、i27–i30、i34可保留其来源层、语气与时间限定的相符部分；i02、i04–i05、i07–i08、i10、i13、i22–i23、i25–i26、i31–i33及两条citation statement仍需修订端点、主张边界、分类或内部摘要。p.188本批不接收；本页36/36当前statement已逐条核对，Ch7累计634/1,238，余604条未读，不能称章完成。
+
+### 2026-10-20：第七章p.189当前ID独立语义复核
+
+按当前登记源段 `chp-7:07_CHP-7_sec_i:l243-257` 逐条核读S0 L244–257，核对p.189脚注复合段 `chp-7:07_CHP-7_sec_i:l293-389` 的L370–374，逐条检查当前表中 `st-chp7-p189-i01`—`i28`、`i23`的汇总及四条个人子项、`n1`—`n6`共44条statement；对照印刷p.189/PDF物理页27、当前mentions和候选端点、说话者、时间与语气限定、statement来源锚点及 `relation_candidate`。正文71条mention span及本页脚注26条mention span逐条切回相应S0文本，均准确（0错）；复合段全部203条mention span也无越界或文本不符。当前44条为true=42、false=2、unset=0。印本校读确认p.189 L244开头OCR `os Bernini`应为`of Bernini`、L249 `Considered`应为小写`considered`；页图也确认L255脚注印本为5、S0 OCR为6。当前n5 citation statement已记录5号OCR校读，但正文两处校读尚未在对应S2 `ocr_corrections`结构字段中记录。Ch7累计当前ID直接复核678/1,238（true=634、false=44、unset=0），未复核560条；本章仍不接收。本批仅追加审阅记录，未修改S0、statement/mention/candidate表或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p189-i01`（S0 L244，接p.188 L241）：原句为“with the full support of Bernini himself, Louis established ...”；当前关系仅记录Louis建立学院，claim虽提示前页承接，却漏掉Bernini的明确支持角色。补Bernini共同支持关系或拆出独立claim，并校读OCR `os`→印本`of`；不把支持扩大为共同创办。
+- `st-chp7-p189-i02`、`i04`、`i17`、`i18`、`i23`汇总项、`i24`、`i28`（L244–257）：其中法国艺术家、意大利画家/艺术家、博洛尼亚艺术家以及意大利画家群体当前分别映到`cand-6934`、`cand-6887`、`cand-6935`、`cand-6939`等`term`候选，实为人群端点，候选类型不符或待决。保留源文群体与作者概括范围，不把群体硬作术语；`i23`汇总句与四条个人statement同时保留时应明确汇总与个体证据的层次，`We are told`的来源归属留在个人claim中。
+- `st-chp7-p189-i02`（L244）：Academy宣称让法国艺术家与意大利人共同研究古代杰作、最终取代意大利艺术家；当前object仅连法国目标群体，漏掉作为学习对象/比较群体的意大利艺术家。该取代是宣称的未来目标，不是既成结果。
+- `st-chp7-p189-i03`（L245）：原文判断意大利人参与凡尔赛工程“negligible”；当前subject为“意大利参与”概念但object为空，仍标relation candidate=true。补适当工程/参与对象端点，或作为Haskell评价保存为来源层陈述，不保留空端点关系。
+- `st-chp7-p189-i05`（L246）：被动句把Borzone受召巴黎、受国王优厚雇用至1679年合为Louis XIV→Borzone雇用关系；原文未指明召者，且召至巴黎与随后雇用是不同主张。拆分召请（行动者开放）及雇用；保留“新王朝初期”“generously”“until 1679”，不补召请者。
+- `st-chp7-p189-i06`—`i08`（L246）：i06记录Louis选择Guidi制作园林雕塑群，宜补雕塑群作为制作目标，并保留选择范围是“意大利乃至全欧洲”，不能推作已完成。i07图样依据关系及原拟语气基本相符。i08的Fame、Time（`cand-4186`、`cand-6927`）是作品中的寓意拟人形象，不应未经分类依据当作历史人物端点；表达为作品表现的象征角色，身份类型待决。
+- `st-chp7-p189-i09`—`i11`（L246）：雕塑群历经困难抵法、替代Bernini骑马像、Louis认为衣褶略显繁复，作品/端点和语气大体有据；评价应保持Louis的判断及原引文，不推广为普遍审美结论。
+- `st-chp7-p189-i12`、`i13`（L246）：Maratta受托画《阿波罗与达芙妮》一事保留作品及commissioned的被动语气；谁委托仍未名。i13把“为该画获得优厚报酬”与“获peintre du roi称号”绑在作品端点上，需拆分；付款者及授衔者均未指明，不推定Louis。
+- `st-chp7-p189-i14`、`i15`、`i16`（L246–250）：未名学院负责人询问Cignani是否愿赴巴黎，不等于已邀请或赴任；Cignani为国王画两幅未具名作品可保留。i16的“未继续推进”原因由被动的“was considered too weak”表达，评判/决策者未知；区分素描能力被评价不足与Haskell将其作为意大利绘画/法国趣味分歧实例的解释，并补`Considered`→`considered`印本校读。
+- `st-chp7-p189-i17`、`i18`、`i19`（L251）：i17为Haskell比较Louis对意大利艺术家的赞助与艺术家预期，保留“许多例子”与“令人失望”的相对评价，不添数量。i18保留`Again and again`、`often ... in vain`以及教皇不再能雇用他们的因果背景，不指定教皇或年代。i19对期待范围的概括relation_candidate=false，可作为叙述层描述，不作事实边。
+- `st-chp7-p189-i20`、`i21`（L252–253）：两部著作的题献对象和年份与来源相符；仍需区分引用事实与被引书页内容，不能将引用链视为独立阅读证据。
+- `st-chp7-p189-i22`（L253）：原文是博洛尼亚艺术家想吸引“法国注意”；当前object为Paris地理候选`cand-4653`，不是注意对象，subject `cand-6935`又是“吸引注意的努力”概念而非艺术家群体。调整为未具名博洛尼亚艺术家群体→法国受众/注意对象或开放端点，保留`especially`。
+- `st-chp7-p189-i23`及四条个人子项（L253–255）：原文以`We are told`报告四位艺术家都仰慕Louis XIV。汇总条relation_candidate=false、个人条true可分别表达非关系汇总与个体陈述；个人条保留来源限定，不将报道写成作者亲见或补充仰慕动机。紧随的`i24`是Haskell提出的非完全无私之猜测，当前object为空但true；作为作者推测保留限定，改为来源层解释或补有证端点，不能据此推定四人各自的实际动机。
+- `st-chp7-p189-i25`—`i27`（L255–256）：Preti画寓意肖像并意图赠予Louis，后因法西敌对行动及其在Malta的处境认为赠礼不审慎，最终卖往别处。i25的意图不等于已赠出；i26现以hostilities event→portrait表达，原文因果核心是Preti对赠礼行动的判断，改成“事件背景—处置决定”来源陈述，未知敌对行动不定年、不推为作品关系；i27的出售目的地继续开放。
+- `st-chp7-p189-i28`（L257）：西班牙对意大利画家及其作品仍保持欢迎兴趣；当前只以意大利画家群体为object，漏掉作品，并且群体候选类型为term。保留Haskell的评价措辞，补作品范围或拆分对象。
+- `st-chp7-p189-n1-cite-soprani`至`n6-cite-dedominici`（脚注L370–374）：印本脚注号码、引文书目和locator与citation层相符；n5现有字段正确记录OCR 6→印本5。但6条claim都在locator后带有`The prior note records:`及本项目内部审阅摘要，此类流程文本不属于原书内容，应删除而保留citation locator、未独立读被引页的限定。n4的`st-chp7-p189-n4-claim-attempt`为脚注所报1685年劝说Giordano作画；未名学院负责人不与正文i14的负责人合并。`n4-claim-default`主张Giordano未履行义务，当前object为空但relation_candidate=true；保留Haskell脚注报告和义务对象未明，不造空端点关系。
+- p.189正文71条与脚注26条mention span均字符级匹配当前登记S0；字符准确不等于候选语义映射正确。i22的“French attention”映到代表吸引努力的`cand-6935`需重定向，且正文多个人群候选的term类型问题见上。Citation statements已带source/publication及脚注回链结构，但被引书目页未经独立核查。
+
+**可保留项及批次结论：**i07、i09–i11、i14–i15、i18–i21、i23四条个人报告、i25与i27及citation locator可保留相应来源、对象、语气和时间边界；i01–i06、i08、i12–i13、i16–i17、i22、i23汇总、i24、i26、i28和n1–n6内部摘要仍有端点、原子性、类型或内容边界修订。p.189当前版44/44逐条核对；本批不接收。Ch7累计678/1,238、剩余560条未审，不能称章节完成。
+
+### 2026-10-20：第七章p.190当前ID独立语义复核
+
+按当前登记正文源段 `chp-7:07_CHP-7_sec_i:l259-266` 核读S0 L260–266，并在复合注释段 `chp-7:07_CHP-7_sec_i:l293-389` 核对本页脚注L375–378；逐条核读当前 `st-chp7-p190-i01`—`i28`（含i26汇总与三个子statement）及n1–n5十条脚注statement，共41条。对照印刷p.190/PDF物理页28、statement和mention锚点、候选端点/类型、来源语气及时间。正文97条mention span和本页脚注20条span逐条切回S0均匹配（0错）；当前页relation_candidate=true 35、false 6、unset 0。页图核实S0 OCR校读：`48?`应为`48.`（脚注号2另计）、`Hs`为`His`、`havewelcomed`为`have welcomed`、`i960`为`1960`、`politics! career`为`political career`；i14/i15/i19、n1一条及n2已有部分校读记录，但共享L375原文的n1第二条citation statement尚无`i960`→`1960`校读。Ch7累计当前ID直接复核719/1,238（true=669、false=50、unset=0），未复核519条；本章不接收。本批只追加审阅记录，未修改S0、S2表或知识卡。
+
+**需修订或保持待证：**
+
+- `st-chp7-p190-i01`、`i02`（L260）：原文说那不勒斯艺术家在17世纪后半常受雇于总督，而总督又常代表宫廷或马德里重要收藏家行事。候选`cand-6940`（艺术家群体）、`cand-6624`（总督群体）和`cand-6941`（宫廷/收藏家受益群体）目前均标term，实际均含人群/群体对象，应待定或按类型规则分类；i02的多种委托/代理对象保留原文“often”，不推成每次均代表宫廷。
+- `st-chp7-p190-i03`—`i05`（L260）：Velasquez于1649年第二次赴意大利、承担为王宫Alcazar购置绘画与雕塑职责、在所访城镇尤其威尼斯看画或购买，时间/目的限定基本相符。i04目标候选`cand-6943`（未指明绘画及雕塑）无类型；保留为对象集合待定，不推断每件都购入。i05保留“most towns”“especially Venice”及“looked at or bought”的选择式语气，不把看过等同购得。
+- `st-chp7-p190-i06`—`i09`（L260–261）：i06把需要一位在世画家与Velasquez未能成功合为一条，主张边界需区分需求和招募结果；`cand-6945`描述的是恢复西班牙壁画实践的招募，不能把未具名画家补成Cortona/Colonna/Mitelli。i07的原文是Velasquez“受命尝试劝说”Cortona赴Madrid，命令者未名；statement同时记下Oratorians的既有委托使Cortona无法离开，可拆分被告知的行为与Cortona当时受聘状态，不能写成其拒绝。i08保留归途Modena接洽Colonna和Mitelli及当时未果；`cand-6954`将两名画家组成群体却标term，类型待决。i09把带回古代大师作品与未能招到复兴西班牙壁画的画家合并，分别记录作品取得和未招到适任画家的结果；保持`was thus forced`为Haskell原文解释，不把空缺写成具名端点。
+- `st-chp7-p190-i10`、`i11`（L261）：i10原句同时说Velasquez雇用雕塑家较成功，列Finelli、Algardi及其他画家/雕塑家在罗马与那不勒斯制作古代摹本和原创作品、供王室收藏。当前Velasquez→王室收藏的单条边未表达被雇用的艺术家/制作作品关系，且`cand-6944`收藏与`cand-6947`作品组无类型；拆分雇用主体与产出关系，并保留“more satisfactory”“less distinguished”为Haskell的比较评价。i11把两人1658年抵达Madrid及被积极雇用合为一条；到达地有据，雇主未名，分开抵达和雇用，1658不外推到其他相关行为。
+- `st-chp7-p190-i12`—`i16`（L262–263）：i12称Del Carpio在17世纪后半总督中以政治能力和艺术赞助表现特别突出，`cand-6624`总督群体仍有类型问题，claim须保留Haskell的“远胜其余”评价。i13将Don Gasparo de Haro y Guzman与意大利称谓Marchese del Carpio列为同一人物的名称/别称，relation_candidate=false可作为非关系身份陈述，但两个表面名称须共同映回`cand-0573`。i14任命为驻罗马大使的年份和48岁相符；任命者被动未名，不补任命机构。i15保留两年监禁和“涉嫌参与刺杀国王”的怀疑语气，不能把涉嫌升格为参与既遂事件；页图OCR校读`Hs`→`His`已记录。i16是Haskell对Del Carpio绘画热爱的描述，relation_candidate=false可留来源限定人物描述。
+- `st-chp7-p190-i17`—`i19`（L263–265）：Del Carpio至1651年拥有Velasquez《维纳斯梳妆》（Rokeby Venus）及Haskell对其作为西班牙艺术杰作/“最意大利化”绘画的评价，以及其“must have welcomed”赴意机会的推断，来源层均基本保留。i17的“masterpiece”评价只归Haskell；i18 relation_candidate=false恰当，不能把比较性风格评价当作作品关系。i19须保留must have的推断强度；OCR `havewelcomed`→`have welcomed`已记录。
+- `st-chp7-p190-i20`、`i21`（L265）：Del Carpio抵罗马后三个月内访问Carlo de Rossi画廊并停留一个半小时以上；具体场址未识别，候选说明正确保持开放。Carlo de Rossi与Salvator Rosa的友谊在i21单独报告，端点方向正确；不把Rosa当作画廊主人或画廊活动参与者。
+- `st-chp7-p190-i22`—`i25`（L265–266）：i22的“Cardinal Camillo Massimi died full of debts”作为非关系事实说明可保留。i23当前用人群候选`cand-6952`（类型term）作为继承人主语，宾语却空而true；原文是继承人被迫处置其财产，处置行动施事及财产对象均应开放/待决，不能造空端点边。i24“获得增加收藏的绝佳机会”和i25“规模宏大的购买”均空端点true；保留为Haskell的叙事概括或连接有据的具体财产/收藏过程，不推定机会具体包括何物，也不留下空端点关系。
+- `st-chp7-p190-i26`及三个子项（L266）：i26作为取得两幅肖像及许多古物的汇总、relation_candidate=false可作非关系摘要；三个子项的工作端点`cand-2712`、`cand-2713`分别是Velasquez的Camillo Massimi肖像和Donna Olimpia肖像（类型work），但当前claim误称Del Carpio“取得Cardinal Camillo Massimi/Donna Olimpia”本人，须改成取得对应肖像；不能把肖像的描绘对象当作取得对象。古物子项连`cand-6953`，候选未定类型且来源未逐件列明；statement claim中的“no specific source of this item is asserted”是内部处理语而非原书事实，移出claim，原文只支持取得大量古物。所有物品与Massimi遗产之间的来源关系不得超过原文上下文。
+- `st-chp7-p190-i27`、`i28`（L266）：Del Carpio计划将古物刻印的意图可保留，但计划不表示已完成刻印。末句`Indeed he clearly`未完，relation_candidate=false及跨页续接可保留，不将半句转成完整事实。
+- `st-chp7-p190-n1-cite-harris-1960`、`n1-cite-harris-1961`（脚注L375）：两条分别记录Harris 1960、1961文章及页码的引用，定位可保留且 cited pages 未独立阅读；claim末尾`The prior note records:`内部摘要须删除。OCR `i960`→`1960`校读已写在第一条，第二条共享同一source line/原引文，也需同样记录，不改S0。
+- `st-chp7-p190-n2-cite-ghelli`、`n3-cite-maclaren`、`n4-cite-avviso`（L376–377）：Ghelli政治生涯书目、Maclaren p.76、1677年6月12日Avviso的出版定位与页图相符；n2 `politics!`→`political`校读已记录。n2、n3、n4 citation claim内的`The prior note records:`摘要均属流程语应删除；Avviso正文statement`n4-avviso-published-in-roma`只应记录Haskell该注称其刊于Roma XIX (1941) p.308，不推断已读原Avviso或其内容。
+- `st-chp7-p190-n5-album-belongs-to-society`、`n5-cite-harris-1957`、`n5-haskell-acknowledges-harris`、`n5-inscription-names-gasparo-purchaser`（L378）：Haskell称古物相册藏于Society of Antiquaries、引用Harris 1957、感谢Enriqueta Harris，并转录相册扉页称Carpio在Rome购买所列古物；引文层和“as quoted by Haskell”限定正确。不要把该相册自动等同第七章后文提及的30卷素描；n5 Harris citation claim内`The prior note records:`摘要应去除。扉页转录事实不能作为独立查阅相册的证据。
+- 本页S2当前提及映射保留了97条正文及20条脚注mention，跨度均逐条与S0相符；但字符串位置正确不等于候选语义正确。`cand-6940`、`cand-6624`、`cand-6941`、`cand-6946`、`cand-6952`、`cand-6954`均为群体或集合而当前建议类型term，`cand-6943`、`cand-6944`、`cand-6947`、`cand-6953`类型空缺；上述对象边界及子statement错误见对应条目。
+
+**可保留项及批次结论：**i03及其行程/时间、i04的职责对象、i05的看画或购买限定、i08的当时未果、i13别称陈述、i14任命时间、i15涉嫌语气、i16–i22相符部分、i26非关系汇总、i27计划语气、i28跨页未完句，以及脚注locator/感谢/转录的来源限定可保留。i01–i02、i06–i07、i09–i12、i23–i25、i26三个子项及n1–n5的内部摘要/缺校读项仍需修订或保持待决。p.190当前版41/41逐条核对；本批不接收。Ch7累计719/1,238，剩余519条未审。
+
+### 2026-10-20：第七章p.191当前ID独立语义复核
+
+按当前登记正文段 `chp-7:07_CHP-7_sec_i:l268-280` 核对S0 L269–278及同段收录的脚注L279–280，并检查复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 中本页注1–4、6–8、10–11（L379–387）。逐条复核当前表中正文 `st-chp7-p191-i01`—`i32`（含i28两个子statement）、脚注 `st-chp7-p191-n1-cite-bellori`、`n2-cite-album`、`n2-cite-pacichelli`、`n3-cite-bernino`、`n4-cite-letter`、`n6-cite-dominici`、`n7-cite-address`、`n8-cite-bottari`、`n8-cite-orlandi`、`n10-cite-dominici`、`n10-cite-saxl`、`n10-neapolitan-drawings`、`n11-cite-list`，合计47条现存statement。对照印刷p.191/PDF物理页29、source lines、mentions、端点候选与类型、claim原子性、speaker/语气/时间、relation_candidate及跨页句闭合。现存47条中true=39、false=8、unset=0；正文段87条mention及本页注释复合段L379–387的34条span逐条匹配原文。S0段L279–280另有注5、注9的4条mention，但没有对应citation statement。`s2-coverage.csv`把本段标为reviewed/complete，却只列注1–4、6–8、10–11，不能据此视为来源注释完整。页图确认注5为Pascoli, I, pp.48 and 186, and II, p.202；注9为Pacichelli, Parte IV, Vol. I, p.39。Ch7累计当前ID直接复核766/1,238（true=708、false=58、unset=0），仍有472条未读；第七章不接收。本记录仅追加审阅过程，没有改写statement、mention、candidate、S0或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p191-i07`（S0 L271，注3）：原句是Del Carpio从雕塑家Bernini的儿子Domenico处购得一幅Bernini自画像素描。当前subject=`cand-6958`（素描作品），object=`cand-0294`（Domenico），谓词`acquired_from`，把取得者误放在作品端点且将转让人作为宾语。应改为Del Carpio为取得者、素描为作品对象，Domenico仅作为来源/转让角色；保留注3对Bernini传记的引用，不把引文当成独立查阅作品或原始记录的证据。
+- `st-chp7-p191-i12`（L273，脚注5）：原文以“We are told that”引出每周多次访问Berrettoni、Ghezzi、Grimaldi工作室。当前claim直接断言Del Carpio访问，漏掉Haskell报告的匿名来源限定。补回reported speech；`footnote_marker=5`但无`footnote_refs`，且注5无statement，须补注5的精确来源锚和回链。原文只支持访问所列工作室，不补出具体地址或赴任事实。
+- `st-chp7-p191-i23`（L275，脚注9）：原文称那不勒斯宫殿以挂毯、陈设给熟悉总督奢华的人留下印象；当前statement是`impressed_visitors_with_display`，subject为宫殿候选、object为空，仍标relation_candidate=true。补出原文所说的受影响群体/对象（保持未指名）或改为Haskell来源层的评价性陈述，不留空端点关系。`footnote_marker=9`无refs；S0有注9、mention `m-chp7-p191-086`/`-087`分别覆盖Pacichelli和完整locator，但当前没有注9 citation statement。不要以p.191注2的Pacichelli引用替代注9，除非能证明其确为同一引文且保留两个脚注位置。
+- 当前缺失的 `st-chp7-p191-n5-*` 与 `st-chp7-p191-n9-*` 是两个源注释缺项，不计入47条已审statement。`s2-coverage.csv`段标complete与自身备注“注1–4、6–8、10–11已迁入并回链”矛盾；更新覆盖记录时应明确注5、9未迁入，不能继续把源注释记为完整。注2的Pacichelli citation qualifier称该缩写出版物此前已在注9出现，更需核清两处引用关系和各自source line，不用此文字代替缺失的注9记录。
+- `st-chp7-p191-i30`（L277，注11）：正文仅在“Madrid”后有注11，当前`footnote_refs`同时连注10（L386）和注11（L387）；移除i30到注10的多余锚，只保留注11。注10对应此前“artists a great support”后引文，不能因同页脚注复用串入跨行船运陈述。
+- `st-chp7-p191-i02`（L269）：Del Carpio汇集三十卷古代大师与当代艺术家素描的claim大体与原文一致，但集合候选`cand-6955`没有suggested_type；类型需待决或依taxonomy补充，不能假设这三十卷是单一艺术品。
+- `st-chp7-p191-i01`（L269，承接p.190）：跨页回链到`st-chp7-p190-i28`正确；原文“he clearly felt an affinity”当前只写felt an affinity，建议保留`clearly`这一判断强度。不得把审美相似扩大为私交、合作或历史关系。
+- `st-chp7-p191-i03`（L269）：称Maratta为Del Carpio最喜爱的画家有据、注1已回链；qualifier却称“脚注仍待迁入”，与现有注1 refs冲突，应修正陈旧说明。
+- `st-chp7-p191-i04`—`i06`、`i08`—`i11`、`i13`—`i16`、`i19`—`i22`、`i24`—`i29`、`i31`—`i32`：总体可保留相应来源限定、时间、引语或跨页关系；具体保持边界为：Bernini在Del Carpio任期内去世不表示其死于罗马；小型喷泉版本与Navona广场原作须区分；传闻的3万scudi报价没有成交；报价被拒及Haskell的回应不等于买入；匿名来源报告那不勒斯画家失去保护人须仍标为转述；Paolo de Matteis copying altarpieces 后career被“launched”不补出未述的具体委托；1100/1800增藏数字保持Haskell报告；Pinacci负责藏画及擅长修复不等于修复了本段具体作品；宫殿地点留在来源所称Naples；i28引用中的father/support是比喻而非亲属关系；注10所引支持判断与i29作者背书分层；i32只记p.191未完成的比较句并链接p.192，不在本页补完谓词。
+- `st-chp7-p191-i17`、`i18`（L274）：保留“great lover and protector”及“no native Italian”作为Haskell转述/概括，不能将被引判断升级为实际政治父亲关系或意大利人普查结论。候选`cand-6963`是未指名意大利人群体且suggested_type=term；应保持人群身份类型待证，不强塞术语类。
+- `st-chp7-p191-i30`的关系主张可保留为数年间船运绘画和古代雕像由Naples运往Del Carpio后代在Madrid的收藏；候选`cand-6970`为运输事件、`cand-6969`为后代收藏而未定类型。需维持群体、作品集合与收藏目的地边界，不据shipment补每件作品、具体后代或现存馆藏。
+- 本页13条citation statements（n1–n4、n6–n8、n10–n11）在真实locator后均出现“The prior note records:”内部处理摘要；摘要不是原书脚注内容，应从claim移除，仅保留可见的书目定位、Haskell引用行为和“未独立查阅被引材料”限制。注3所列Bernino、注4所引1684年信、注7地址、注8两项书目、注10 De Dominici/Saxl、注11 Listas手稿均不因S2 citation anchor而成为已独立阅读来源。
+- 页图已核实L273的Niccolo印本作Niccolò；L276 `1100 to 1800/`中的斜线为注7标记，不是数字或比率分隔符；L277 OCR `picturesand`应分作`pictures and`；当前相关校读有部分只写在自由qualification，需在对应statement的结构化`ocr_corrections`中一致保留，冻结S0转录不改。其余脚注校读n7 `ame`→`ante`、`Exento`→`Excmo.`，n8 `Et`→`II`，n11 `da Nápoles`→`de Nápoles`应维持印本校读，不再重复修订。
+
+**本批结论：**47/47条现存statement均已逐条核读，但本页源注5、9没有S2 citation statement，且i07端点方向、i12来源语气、i23空端点关系及i30注释回链等问题未解决；因此仅接收“已核读该批次”的覆盖事实，不接收p.191或第七章。Ch7当前剩余472条statement未审。
+### 2026-10-20：第七章p.192当前ID独立语义复核
+
+按当前登记段 `chp-7:07_CHP-7_sec_i:l282-291` 对照S0 L283–291、印刷p.192/PDF物理页30及复合脚注段 `chp-7:07_CHP-7_sec_i:l293-389` 的注1（L388）与注2（L389）。逐条核对当前本段31条正文statement：`st-chp7-p192-i01`—`i16`、`i17`及其`i17-spaniards-dazzled`、`i17-giaquinto-employment`、`i17-tiepolo-employment`三个子项、`i18`—`i28`；另核注1—2的六条citation/注释statement，共37条。又核同一印刷页、另一登记段 `chp-7:07_CHP-7_sec_iv:l3-4` 的 `st-chp7-p192-iv01`，所以本批在同一印刷页实际逐条审阅38条。第一个段31条正文中true=22、false=9；六条citation均true；另段`iv01`为false；批次合计true=28、false=10、unset=0。正文段53条mention、脚注段L388–389的12条mention、`sec_iv`段6条mention均逐一按登记段原文和字符偏移核对，未见跨度不符。coverage表已将两个段记为reviewed/complete、注1–2已迁入；该机械记录不替代本次语义判断。Ch7累计当前ID直接复核804/1,238（true=736、false=68、unset=0），未复核434条；本章不接收。本批仅追加审阅记录，未改S0、S2表、候选或KU。
+
+**需修订或保持待证：**
+
+- `st-chp7-p192-i01`（S0 p.191 L278续至p.192 L283）：原文比较Del Carpio对那不勒斯文化的贡献“not so much by works he commissioned from local artists as by enlightened reforms”，claim及跨页关联大体准确，但建议保留“local artists”与“hideously corrupt”的具体限定，避免把作品和改革概括成无边界的价值比较。`st-chp7-p191-i32`回链正确；不要在此重复补全上一页的半句或以Haskell的评价生成正式关系。
+- `st-chp7-p192-i02`、`i04`、`i05`（L283）：分别将Monterey等统治者治理不善及其后的内乱/灾害、司法不存在、贫富差异列为Haskell的社会史评价，`relation_candidate=false`恰当；i02保留“civilised Europe中无可比拟”是Haskell对情势的比较评价。当前claim里的“Naples”由上下文推及，仍需保留作者叙述归属，不能当作独立核实的总体史实。
+- `st-chp7-p192-i03`（L283）：原句“Brigandage was openly encouraged by an irresponsible aristocracy”方向为贵族群体鼓励盗匪活动，当前端点方向正确。但未具名贵族集合`cand-12004`的suggested_type为`term`，不符合人物群体而应待分类/保留类型未决；不要推为某个正式组织、全体贵族或已识别成员。`cand-12003`“brigandage”作为社会实践term可留。
+- `st-chp7-p192-i06`—`i08`（L283–284）：Del Carpio短暂治理首次认真处理前述弊病、由此招致“some sections”贵族强烈敌意、又为“new civilisation”奠基并预期很快使Naples重回欧洲知识前沿。主体、方向和Haskell归属可保留；i07保留“some sections”，贵族群组候选`cand-6979`仍为term且名称“Neapolitan noble factions”不应扩大为全体贵族或已列明的阵营；i08保留“soon”未来预测及引号内新文明的比喻/计划，不作为已实现结果。`cand-6980`治理弊病、`cand-6981`新文明作为抽象概念term可保留。
+- `st-chp7-p192-i09`（L285–287，注1）：Del Carpio在Rome时曾劝说若干画家，重点提Calandrucci和Berrettoni去Madrid为King效力；当前正确保留try-to-persuade而非已成功招募，King具体身份仍未知。但受劝画家群体`cand-6978`为term，实际是未具名人群，类型待定；在身份映射确认前不要把群组当术语或把该次尝试变成已任职。该行`footnote_refs`错误同时连接注1和注2：注1出现在Madrid后且支持本句；注2中的Zanotti报告讲的是Giordano赴西班牙的邀请及Franceschini先前拒绝，不是Del Carpio招募Calandrucci/Berrettoni，移除i09的注2回链。
+- `st-chp7-p192-i10`、`i11`（L287–288）：i10的1692年“not until”及下一句明确命名Luca Giordano，当前把“considerable Italian artist”解析为Giordano有紧邻原文依据。i11确实报告有大量意大利绘画进入Alcazar，但claim不必重复成“1692前还没有重要意大利画家赴西班牙”；让它聚焦pictures抵达及`although`对照，避免跨句合并。`cand-6982`作品集合与`cand-6983`地点端点相符。校读印本“It was”而S0为`It-was`需登记结构化`ocr_corrections`，不能只留自由qualification。
+- `st-chp7-p192-i12`、`i13`（L288–289）：Giordano于1692年启程并在西班牙近十年，原句明示后续时长；保留“nearly”且不换算精确日期。King热情欢迎并提供“vast salary”有据，君主身份原文未指名，维持匿名候选。`i12`现有marker2脚注引用有主题依据（注2含Zanotti关于Giordano邀请先于Franceschini拒绝），但应将对应`n2-franceschini-refusal`回链精确到这项邀约，而不是同时连i09或笼统连风格描述i15。
+- `st-chp7-p192-i14`、`i15`（L289）：i14保留Giordano把一种西班牙本土画家原本欠缺的绘画类型带进其装饰的宫殿与教堂的来源范围；当前claim提到了宫殿/教堂和画种，但结构端点只设Giordano→画种`cand-6986`、未设场所候选`cand-6985`，若要保留“带入建筑空间”的关系，应补场所角色或拆成有明确端点的主张。`cand-6988`当前把“Spaniards themselves deficient”与后文“some local painters”合为西班牙画家组且标term；保持原文群体范围、`some`及来源评价，勿把欠缺描述普遍化为所有画家。i15准确保留色彩/表现力判断、`facile perhaps`、精妙技艺、巴洛克技法及个人轻盈幻想；但`cand-6987`“Baroque masters”是未列举的画家群组而标term，类型应待定。风格描述属于Haskell评价，不是外部风格鉴定。
+- `st-chp7-p192-i16`（L289）：将Giordano的西班牙之行为Haskell所谓17世纪意大利艺术家境外“最富成果”之旅列false合适；保留比较范围、Haskell评价和非母国措辞。印本为`the`与`country during`，S0 `thé`、`countryduring`的校读应放到结构化OCR字段，现有自由qualification不足以替代。
+- `st-chp7-p192-i17`及3个子项（L289）：将Giordano才华使西班牙人眼前一亮、最终导致其雇用Giaquinto和Tiepolo的合并句与个别聘用事实拆分，保留为Haskell的因果解释，方向与名单正确。群体端点`cand-6989`“Spaniards”标term但实为不具名受众/雇用者群体，需待定类型；不能从集合泛化到具体王室雇主。对子statement中的`led eventually`保留迟后因果范围，不把“eventually”抹掉。
+- `st-chp7-p192-i18`、`i19`（L289）：i18的`may have`、`some`、already feeble均保留；未具名local painters候选`cand-6988`标term不适配人群。i19保留Giordano影响很久以后被年轻Goya“with profit”吸收的原文判断，不推成两人亲交或合作；若后续改成形式关系，主张应表达“影响被吸收”而非Giordano本人直接作用于Goya。
+- `st-chp7-p192-i20`、`i21`（L289–290）：Madrid岁月对Giordano也同样重要，以及与一代前在Paris的Bernini作对比，均为Haskell评论/比较而非人际关系；false分类与qualifier基本适当。保留`equally`的上下文比较和“一代前”时间界限。
+- `st-chp7-p192-i22`—`i24`（L290）：Giordano已欣赏威尼斯艺术，在王宫见到数量与质量均称世界无匹的Titians收藏，并在其影响下放弃“大部分”剩余的较暗那不勒斯风格。i22及风格term `cand-6993`、`cand-6992`方向和限定可保留；`i23`集合候选`cand-6991`没有suggested_type，应作为未分类作品集合待证，不强行合并为单一正式收藏或具名宫殿。i24“under their impact”来源指向Titians收藏，claim已有说明，保留most，不写成完全放弃。
+- `st-chp7-p192-i25`、`i26`（L290）：当前把“copied Rubens”和“appreciation of Velasquez”分别以`cand-2293`、`cand-2709`（均为人物）作为被复制/欣赏对象。原文中的艺术史惯用简称更可能指Rubens与Velasquez的作品/艺术；person端点会把临摹、欣赏误写成人对人的行动。改为未枚举作品集合/作品端点，或将原文报告降为来源层文字并等待作品身份；不要虚构具体作品。i26保留Giordano以真诚欣赏使主人高兴的语气，不断言两位艺术家会面。
+- `st-chp7-p192-i27`、`i28`（L290–291）：返意大利后仅余两年生命的叙述及70岁时被誉为当代最“advanced”的评价，false分类合适；i28保留引号和Haskell排名式评价，不改为客观测量。页图核实`hve`应为`live`；与i27 qualifier所写一样应结构化登记校读。
+- `st-chp7-p192-n1-cite-pascoli-vol1`、`n1-cite-pascoli-vol2`（注1，L388）及`n2-cite-griseri`、`n2-cite-longhi`、`n2-cite-zanotti`、`n2-franceschini-refusal`（注2，L389）：书目locator及“经Haskell引用、被引页未独立阅读”的来源状态可保留。前5个citation claim均有`The prior note records:`内部摘要，应删除摘要，仅保留书目信息和引用定位。页图印文为`Pascoli`，S0 OCR `Pascoíi`，须为两条Pascoli citation补结构化校读。`n2-franceschini-refusal`将Zanotti所报“Giordano邀请在Franceschini拒绝后发生”作为Haskell脚注的转述，当前内容/说话者限定可留；其`related_body_statement_ids`和`footnote_refs`却同时连i09、i12、i15，应该主要回链到i12赴西班牙的Giordano事件；Griseri/Longhi引用风格评价可留给i15，不把拒绝其他画家的事实连到Del Carpio劝说画家的i09。
+- 同页的`st-chp7-p192-iv01`（`chp-7:07_CHP-7_sec_iv:l3-4`，印刷p.192 L4–5）：authorial synthesis的false分类、时间序列“as the century drew to a close”及不将区域直接当作具体patron的qualification可留。但`cand-6995`意大利艺术家组、`cand-6996`意大利赞助人组均标term，实为人群；按类型规则保持待证。`cand-5120`在别处被定义为与政治实体区分的Spain地理地点，而此句“impact of Spain”指广义文化影响，提及映射需核对身份边界；`cand-6809`在此映射England为地域而非政治制度，作为未指定具体宫廷/赞助人的地理序列可暂留，但不得凭该词生成实体—实体patronage关系。
+- p.192页图确认正文OCR校读：L285 `Niccolo`→印本`Niccolò`；L287 `It-was`→`It was`；L289 `thé`→`the`、`countryduring`→`country during`；L290 `hve`→`live`。除i09的Niccolò、i10的It was、i16的the/country during、i27的live目前仅写在自由qualification或引用原文中，均需写入对应statement的结构化`ocr_corrections`；S0冻结原文不改。
+
+**批次结论：**本批38/38当前ID已逐条核读，mention spans全部精确；可接收coverage数量和来源锚点的核读，不接收p.192两个登记段或第七章。仍须修正人物—作品端点、人群候选类型、脚注2的statement映射、结构化OCR校读及未分类collection；第七章尚有434条statement未核，不能以本批或coverage complete推导章接收。
+### 2026-10-20：第七章p.193当前ID独立语义复核
+
+按当前登记段 `chp-7:07_CHP-7_sec_iv:l6-21` 逐条对照S0 L7–21、印刷p.193/PDF物理页31；另核脚注复合段 `chp-7:07_CHP-7_sec_iv:l97-119` 的注1（L98）和注3（L99）。当前 `book-statements.jsonl` 中 `printed_page=193` 共31条：正文24、嵌入登记段的注2四条、复合段注1/3共三条；true=30、false=1、未分类=0。逐条审阅ID为：`st-chp7-p193-adelaide-fails-to-attract-guarini`、`st-chp7-p193-adelaide-surrounds-artists`、`st-chp7-p193-barelli-nymphenburg`、`st-chp7-p193-barelli-theatine-church`、`st-chp7-p193-ferdinand-maria-marriage`、`st-chp7-p193-leopold-bequest`、`st-chp7-p193-leopold-commissions-stage-sets`、`st-chp7-p193-leopold-commissions-wing`、`st-chp7-p193-leopold-father-summoned-burnacini`、`st-chp7-p193-leopold-i-patronage`、`st-chp7-p193-leopold-patronizes-vecchia`、`st-chp7-p193-leopold-venetian-painters`、`st-chp7-p193-liberi-vienna`、`st-chp7-p193-loot-mitigated`、`st-chp7-p193-munich-italian-painters`、`st-chp7-p193-n1-von-holst`、`st-chp7-p193-n2-boschini-citation`、`st-chp7-p193-n2-boschini-collection`、`st-chp7-p193-n2-boschini-dedication`、`st-chp7-p193-n2-gualdo-citation`、`st-chp7-p193-n3-cite-lavagnino`、`st-chp7-p193-n3-cite-heilbronner`、`st-chp7-p193-prague-looting`、`st-chp7-p193-rulers-generalization-open`、`st-chp7-p193-theatre-italian-influence`、`st-chp7-p193-vecchia-forgeries`、`st-chp7-p193-vienna-threat-limits-building`、`st-chp7-p193-war-vienna`、`st-chp7-p193-wittelsbach-alliance`、`st-chp7-p193-wittelsbach-recovery`、`st-chp7-p193-zuccalli-schleissheim-project`。本段和复合注段分别有92、56条mention；以当前源段切回核对本页正文/注2及注1、3的mention spans，未见span定位错误。coverage对两段标为reviewed/complete且注释已迁入，仅作迁移状态证据，不替代下列语义裁决。
+
+**实质问题及去向：**
+
+- `st-chp7-p193-rulers-generalization-open`（L20；p.194 L24继续）：原文在“desperately anxious to make up for the”处跨页未完；本行却写入Versailles为object、将该碎句列作true关系。保留开放续句并移除本页的关系端点/关系分类；完整谓词和“glories of the Renaissance”需在核读p.194后按其正文对象另行裁决，不把Versailles当补句端点。未具名统治者组`cand-7165`目前为term，也应保持人群类型待定。
+- `st-chp7-p193-war-vienna`（L7–8）：把三十年战争对中欧的破坏、维也纳遭军事占领威胁、1648年最终未被占领但极度贫困压成一个事件关系。建议分出区域战争影响与维也纳威胁/结果，保留“much of”“threatened”及“unscathed if greatly impoverished”，不得写为实际占领。
+- `st-chp7-p193-prague-looting`、`st-chp7-p193-loot-mitigated`（L8）：前者将Hapsburg皇室收藏与Christina连为“为其利益而劫掠”，但漏掉文本明示的施事瑞典军队；受劫收藏候选`cand-1289`无类型。按劫掠事件/施事/受影响收藏/最终受益人分开记录，保留Haskell的“ultimate benefit”框架，不列未指明藏品。后者把灾害影响的缓解、Leopold Wilhelm自荷兰返回、其任Governor及所带图片（其中“some”来自Charles I画廊）合并；应拆分或明确端点角色，保留“some”，`cand-6812`画廊无类型。
+- `st-chp7-p193-vecchia-forgeries`（L8）：Giorgione端点为人物`cand-1188`，但原文“forgeries of Giorgione”指伪作/作品归属，不是伪造Giorgione本人。改指未枚举作品集合/作品候选，或作为Haskell对Vecchia声誉来源的文字判断；不得虚构具体伪作。`st-chp7-p193-leopold-patronizes-vecchia`可保留，但`cand-7164`“Venetian painters”组标为term，类型不适合人物群体。
+- `st-chp7-p193-liberi-vienna`（L8–9）：把劝说赴维也纳、1658年到达、停留一年、画大量作品及“in return”受封Count Palatine打包为Archduke→Liberi一条关系；拆开迁居/任职、作品和授衔，并保持授衔者开放。保留“most successful Venetian painter of the day”是Haskell评价。注2的Gualdo引用已在两端出现关联，但正文仍缺规范化的`footnote_refs`回链字段；统一正文与脚注侧结构字段，避免只靠`linked_footnote_statement_ids`与`linked_body_statement_ids`形成非对称表示。
+- `st-chp7-p193-leopold-i-patronage`（L10）：将“keen but fitful patron”评价、1658–1705统治时间及转向意大利寻找艺术家并为一项以Italy为对象的patronage关系。拆分作者评价和行动；Italy是来源/招募方向，不是被赞助对象，艺术家集合也未具名。Leopold的父亲`cand-7163`仍应保持匿名；`st-chp7-p193-leopold-commissions-wing`与`...stage-sets`在端点之外还应明确Burnacini是受委托创作者，而非仅留在predicate中。不要推断建筑完成或戏剧制作名单。
+- `st-chp7-p193-vienna-threat-limits-building`（L11–12）：把维也纳受土耳其人持续威胁和“大型建造或装饰很少可能”连为单边。保留“little”和来源解释，拆出威胁事实与建设限制；不把威胁改成冲突/占领结果。`st-chp7-p193-theatre-italian-influence`（L10–11）分类false、无object，适合作为来源层概述而不是正式关系。
+- `st-chp7-p193-wittelsbach-recovery`（L13–14）：恢复速度与《威斯特伐利亚和约》巩固其地位是两个主张，可拆开；保留“some speed”。`st-chp7-p193-wittelsbach-alliance`（L14–15）中原文只说与“most astute ruling family”结盟，候选`cand-7157`保持未识别家族，不从萨伏依婚姻推断其身份。`st-chp7-p193-adelaide-surrounds-artists`（L15）应分开艺术热爱评价与其周围意大利画家、建筑师群体；`cand-7158`组为term，需待定人物群体类型。失败吸引Guarini的`...adelaide-fails-to-attract-guarini`可保留，不外推后续行程。
+- `st-chp7-p193-barelli-theatine-church`、`st-chp7-p193-barelli-nymphenburg`（L15–16）：前者捆绑Barelli于1662年来慕尼黑、为Theatines建教堂及以罗马S. Andrea della Valle为原型；拆出到达、教堂、原型角色，Barelli身份交叉索引留待验证。后者把“中央区块”归入整个Nymphenburg宫殿地点`cand-1715`；应建立/指向建筑构件对象，或明确palace仅为地点语境，不能把单个区块与整座宫殿合并。`st-chp7-p193-zuccalli-schleissheim-project`可保留1712年受命建造引号中的“Versailles”项目及未完成边界。
+- `st-chp7-p193-munich-italian-painters`（L18–19）：包含Liberi、Triva、Bellotti在三十年战争后“三个十年”期间受雇于慕尼黑的群体事实；`cand-7168`为term而实际指画家群体，类型待定。保留“a number”“best known”和相对时间，不将列举者当作穷尽名单。
+- 注1、2、3的citation statement保留印本书目信息及“未独立查阅被引页”的来源状态；清除`st-chp7-p193-n1-von-holst`、`n2-boschini-citation`、`n2-gualdo-citation`中的“The note’s original topical context is”及`n3-cite-lavagnino`、`n3-cite-heilbronner`中的“The prior footnote records”等内部整理文字。注2 Boschini对Archduke收藏的讨论应留在脚注说法层，不能视为独立核实；`cand-7148`旧大师收藏无suggested_type。p.193 L14的S0串接`positionhadbeenstrengthened`应在对应statement的结构化OCR校读中更正为印本词间空格，S0冻结原文不改。
+
+**可保留项：**Ferdinand Maria于1652年与Adelaide Enrichetta结婚、Leopold Wilhelm遗赠侄子、Adelaide未能吸引Guarini、Zuccalli项目的未完成/引号语气、以及注1–3的引用和页码可按Haskell叙述或脚注内容保留。跨页未完句、藏品与收藏类型、人物群组类型、两项建筑的对象边界、脚注正文回链和citation内部文本仍未解决，因此本批仅接收“31条当前ID已逐条核读”这一覆盖记录，不接收p.193或第七章。
+
+本批结束时，第七章当前statement总量1,238，逐条语义复核835/1,238（true=766、false=69、未分类=0），未审403条；其中本批新增31条（true=30、false=1）。下一页从p.194的`chp-7:07_CHP-7_sec_iv:l23-36`开始，p.194续句尚未计入本批。仅追加本审阅过程记录，未修改S0、`book-statements.jsonl`、mentions、candidate或KU。
+
+### 2026-10-20：第七章p.194当前ID独立语义复核
+
+依据当前登记段 `chp-7:07_CHP-7_sec_iv:l23-36` 核对S0 L24–36、印刷p.194/PDF物理页32；同页注1、3、4另在登记脚注段 `chp-7:07_CHP-7_sec_iv:l97-119` 核到L100–102，注2位于正文登记段L36。当前 `book-statements.jsonl` 中 `printed_page=194` 共39条：正文33、注2引用2、复合段注1/3/4引用4条；relation_candidate=true 34、false 5、未分类0。逐条核读ID为：`st-chp7-p194-arrighini-theatre-celle`、`st-chp7-p194-bologna-affected-by-patronage`、`st-chp7-p194-cadani-employed-dresden`、`st-chp7-p194-carlone-court-migration`、`st-chp7-p194-cross-page-renaissance`、`st-chp7-p194-german-princely-taste-variation`、`st-chp7-p194-italian-painters-work-for-princes`、`st-chp7-p194-letter-subject-suggestions`、`st-chp7-p194-liechtenstein-enriched-by-expropriations`、`st-chp7-p194-liechtenstein-letter-subject-discretion`、`st-chp7-p194-liechtenstein-order-franceschini`、`st-chp7-p194-mediocre-artists-assessment`、`st-chp7-p194-n1-lavagnino`、`st-chp7-p194-n2-wilhelm-citation`、`st-chp7-p194-n2-zanotti-citation`、`st-chp7-p194-n3-cite-hantsch-scherf`、`st-chp7-p194-n3-cite-von-freeden`、`st-chp7-p194-n4-wilhelm`、`st-chp7-p194-nudes-expected`、`st-chp7-p194-output-sent-north`、`st-chp7-p194-painters-new-patronal-responsibilities`、`st-chp7-p194-papal-cardinal-collection-limit`、`st-chp7-p194-patronage-decisive-for-painting`、`st-chp7-p194-princely-palace-collections`、`st-chp7-p194-principalities-attract-painters`、`st-chp7-p194-roman-patronage-comparison`、`st-chp7-p194-rome-affected-by-patronage`、`st-chp7-p194-schoenborn-commission-balestra`、`st-chp7-p194-schoenborn-commission-cignani`、`st-chp7-p194-schoenborn-commission-giordano`、`st-chp7-p194-schoenborn-commission-group`、`st-chp7-p194-schoenborn-commission-lazzarini`、`st-chp7-p194-schoenborn-commission-luti`、`st-chp7-p194-schoenborn-commission-maratta`、`st-chp7-p194-schoenborn-commission-solimena`、`st-chp7-p194-schoenborn-commission-trevisani`、`st-chp7-p194-scope-of-german-patronage`、`st-chp7-p194-unattributed-quote-open`、`st-chp7-p194-venice-affected-by-patronage`。正文登记段73条mentions和复合注段56条mentions均以登记段字符偏移回切当前S0核对，span不匹配0；复合注段56条跨p.193–199，本批只审p.194注1、3、4相关的L100–102，未把其他页注释计入本批。coverage标记`reviewed/complete`仅证实迁移状态，不替代语义审阅。
+
+**需修订、回链或保持待决：**
+
+- `st-chp7-p194-cross-page-renaissance`（L24，承接p.193 L20）：p.194的“all turned southwards”以“them”指前页未具名的autocratic rulers；当前完整claim方向与“被文艺复兴荣光错过/被冲突截断”的限定基本符合原文，但应显式续接`st-chp7-p193-rulers-generalization-open`，不要把两页同一句误作两个独立事实。`cand-7165`“autocratic rulers”目前suggested_type=term，实际是未具名人物群体；保留为开放群体/类型待决，不能当概念term。前页碎句仍不应单独以Versailles为端点生成关系。
+- `st-chp7-p194-arrighini-theatre-celle`（L24）：Arrighini为Georg Wilhelm、末代Celle公爵建剧院，年份1674和人物角色可从原句保留；statement端点目前只有建筑师和未识别剧院，公爵仅在mentions中，predicate“built … for Duke”隐含但未结构化委托/受益角色。补受益者/委托者端点或将其作为有明确角色的事件，剧院保持未识别，不外推建成物身份。`st-chp7-p194-cadani-employed-dresden`可保留1669年前Johann Georg III在Dresden雇用Cadani的原文时间与地点；但正文qualifier仍写“note marker … still pending”，而注1已迁入并链接，应更新陈旧状态和统一正文脚注字段。
+- `st-chp7-p194-carlone-court-migration`、`st-chp7-p194-mediocre-artists-assessment`（L24–25）：Haskell说“whole families”移入德国并在各宫廷间流动，Carlone只是例子，随后“these men tended to be only mediocre”是作者评价。`cand-7171`所指画家/工匠家族群被设为term，类型不合；保持集体边界和成员未尽，类型待决。false的评价statement不建艺术家质量关系，当前分类适当。
+- `st-chp7-p194-principalities-attract-painters`（L25–26）：保留“from the 1680s onwards”“several dozen”及富有足以吸引画家这一趋势；`cand-7173`为政治实体群，suggested_type=institution符合taxonomy的政治实体归类。其另一端`cand-7174`是未具名意大利画家群却标term；保持人物群体开放，不推成穷尽名单或逐人招募。`st-chp7-p194-scope-of-german-patronage`与`st-chp7-p194-patronage-decisive-for-painting`的false分类、无正式关系端点可保留，后者是Haskell的强调性判断。
+- `st-chp7-p194-roman-patronage-comparison`（L33）：false分类可留作Haskell比较判断，且`cand-7186`“Roman patronage”作subject合适；它只将Vienna放入object，Pommersfelden与Vaduz另在mentions中，若保留结构化comparison对象应纳入三地或将该判断留为非关系文字。相邻`st-chp7-p194-papal-cardinal-collection-limit`的subject却误复用`cand-7186`（其定义是Roman patronage term），原句主语实际为泛指pope/cardinal，且claim是不能集合如此广泛来源/时间跨度的图片。改为无形式端点的作者概括或单独开放“教宗/枢机群体”候选；不得把Roman patronage映射为pope/cardinal。该statement false、无object的去向合适。
+- `st-chp7-p194-italian-painters-work-for-princes`、`st-chp7-p194-output-sent-north`、`st-chp7-p194-nudes-expected`、`st-chp7-p194-german-princely-taste-variation`、`st-chp7-p194-painters-new-patronal-responsibilities`（L29、34–35）：`cand-7174`意大利画家群与`cand-7175`德意志诸侯/赞助人群目前均标term，实际是未具名人物群体，应保留开放群体/类型待决。`output-sent-north`的“in some cases almost the whole”限定虽正确，但claim端点是画家组→北阿尔卑斯地区，谓词提到作品产出而没有作品集合端点；补未指名作品组或保留为来源层概述，不将艺术家本人等同于其作品。`nudes-expected`应保留被动语态“they were expected”和Haskell概括，不能推为每位德国雇主都提出该要求。`painters-new-patronal-responsibilities`把远距离雇主导致的新问题、赞助人多为天主教徒、祭坛画/虔敬画易于提供及缺少直接联系造成额外职责并成一条；拆出宗教图像可提供性与缺少直接联系的后果，保留“mostly”“easy enough”“some”等范围。
+- `st-chp7-p194-liechtenstein-enriched-by-expropriations`、`st-chp7-p194-liechtenstein-order-franceschini`（L29）：家族因Hapsburg领地内新教战败后的征没而致富、以及Liechtenstein家族单独向Franceschini订购42幅画，各自claim和端点方向均可保留；不补征没资产、日期、42幅作品名称或交付事实。注2 Zanotti/Wilhelm是Haskell的引用而未独立核读。`st-chp7-p194-schoenborn-commission-group`（L29–31）能提供Schönborn家族与八位具名艺术家的完整来源锚点；八条个人statement中`...commission-maratta`、`...commission-luti`、`...commission-cignani`、`...commission-giordano`、`...commission-solimena`、`...commission-trevisani`的source_line仅覆盖人名所在L30–31，却把Schönborn家族放进端点/mentioned_candidate_ids，家族只在L29出现。应将个人拆分claim扩为L29–31的完整句证据范围，或明确链接`st-chp7-p194-schoenborn-commission-group`；不应靠mentions或单独人名行证明委托者。其余Balestra、Lazzarini条目涵盖L29，可沿用；各人的Venice/Rome/Naples/Bologna是句中关联地，不推出画作制作地点。组内“Pommersfelden”是commission语境，qualification正确保留没有逐幅作品与制作地证据。
+- `st-chp7-p194-princely-palace-collections`（L31–33）：claim保留“often still is”和与Italy对照；但statement把`cand-7175`德意志诸侯组设为subject、`cand-7179`“Italian late Baroque painting”概念term设为object，未表达“代表性收藏在诸侯的宫殿中”这一地点/收藏关系。保留画种term与未具名收藏/宫殿的区别；应开放未具名收藏/宫殿集合端点或作为作者概括，不将painting类别当收藏身份。
+- `st-chp7-p194-letter-subject-suggestions`（L35）：Prince信件给Franceschini选择主题的自由并提出Flora、代表Spring的人物或花园暗示三种备选。当前对象只有Flora候选，Spring只作为mentioned_candidate_ids，花园暗示无结构对象。拆开备选项或建立未识别主题建议组；`cand-7180`信件可作文本来源，不把建议写成已委托/已完成作品。`st-chp7-p194-liechtenstein-letter-subject-discretion`的Prince→Franceschini选择权方向准确，保留“fairly typical letter”为Haskell评语；Prince身份仍按索引候选与文本称号待S3，不能在此提前定为Wenzel。
+- `st-chp7-p194-unattributed-quote-open`（L35）与`st-chp7-p195-liechtenstein-gallery-worldly`存在双计风险：p.194只到意大利引文“Tutte le pitture che intrano questa”，余句和1691归属在p.195完成；当前p.194 claim已包含p.195的“gallery/worldly”完整事实，p.195又有该完整statement。保留跨页引文的continuation链接，把完整断言和归属只在一条完整来源锚点上计一次；本页仅记开头片段/待续，避免双建relation_candidate。匿名画廊cand-7189和画作组仍未识别。
+- citation statement `st-chp7-p194-n1-lavagnino`、`n2-wilhelm-citation`、`n2-zanotti-citation`、`n3-cite-hantsch-scherf`、`n3-cite-von-freeden`、`n4-wilhelm`：保留Haskell的书目引用与页码/`passim`状态，不声称独立阅读；删除claims中“The note’s original topical context is”及“The prior footnote records”等内部整理文本。`n1-lavagnino`的`mentioned_candidate_ids`误带无关`cand-7154`（Wittelsbach），须移除；n2两个引用行把Liechtenstein家族和Franceschini、n3行带Schönborn家族、n4带Prince列入mentioned_candidate_ids，但这些词不在对应脚注行L36、L101、L102，脚注到正文关联保留在`linked_body_statement_ids`而不混作本行mentions。正文Cadani脚注qualifier陈旧；Liechtenstein 42幅订单与subject-discretion行须和note2、note4补齐规范化footnote_refs/正文关联，当前脚注statement已有指向但正文侧字段不一致。
+- 页图物理页32显示S0/OCR需作结构化校读：L29 `Schônborn`→`Schönborn`（当前group statement有校读）；L33 `Pommersfclden`→`Pommersfelden`、`could'now`→`could now`（comparison/papal行已有相应校读）；L35 `tire Prince`→`the Prince`（discretion行已有校读）；注3 L101序号`8`→`3`、`Schers`→`Scherf`（n3两条citation的original_quote/mentions仍沿用错读，需同时保留脚注原文锚点与校读字段）。S0冻结原文不改。
+
+**可保留项与本批结论：**Cadani、Arrighini、Liechtenstein 42幅订购、Schönborn八位画家名单及相邻城市语境、German principalities作为政治实体组、Haskell比较判断的来源归属和限定可保留；五条false记录适合作为来源层作者判断，不凭其端点造正式关系。p.194本批39/39条已逐条核读，但仍有群组类型、Arrighini委托端点、跨页回链/双计、收藏与作品端点、个人委托拆分行定位、脚注mention/回链及OCR校读问题；因此不接收p.194或第七章。当前Ch7共1,238条，本批前p.193覆盖835条，本批后逐条复核874/1,238（true=800、false=74、未分类=0），未审364条。下一游标p.195：`chp-7:07_CHP-7_sec_iv:l38-46`；尚未计入本批。仅追加过程记录，没有改动S0、S2表、mentions、coverage、候选或KU。
+
+### 2026-10-20：第七章p.195当前ID独立语义复核
+
+依当前来源登记段 `chp-7:07_CHP-7_sec_iv:l38-46` 对照S0 L39–46、印刷p.195/PDF物理页33；并核当前复合脚注段 `chp-7:07_CHP-7_sec_iv:l97-119` 中本页注1–5（L103–106）。当前 `book-statements.jsonl` 中 `printed_page=195` 共36条，正文31条、脚注5条；全部被标为relation_candidate=true。逐条核读ID为：`st-chp7-p195-arlington-introduced-verrio`、`st-chp7-p195-baccinelli-susanna`、`st-chp7-p195-cagnacci-cleopatra-lucretia-output`、`st-chp7-p195-cagnacci-from-romagna-to-venice`、`st-chp7-p195-cagnacci-summoned-vienna`、`st-chp7-p195-charlesii-motive`、`st-chp7-p195-charlesii-no-contemporary-italian-interest`、`st-chp7-p195-charlesii-recovers-pictures`、`st-chp7-p195-cignani-bacchanal`、`st-chp7-p195-cignani-testimony`、`st-chp7-p195-england-impact-comparison`、`st-chp7-p195-english-patronage-next-century`、`st-chp7-p195-female-nude-historical-role`、`st-chp7-p195-fumiani-christ`、`st-chp7-p195-german-patron-generalization`、`st-chp7-p195-lazzarini-output-germany`、`st-chp7-p195-lazzarini-testimony`、`st-chp7-p195-liechtenstein-gallery-worldly`、`st-chp7-p195-loth-lot-daughters`、`st-chp7-p195-lothar-schonborn-letter`、`st-chp7-p195-maratta-bathsheba`、`st-chp7-p195-n1-prince-taste-comment`、`st-chp7-p195-n2-schoenborn-letter`、`st-chp7-p195-n3-da-canal`、`st-chp7-p195-n4-zanotti`、`st-chp7-p195-n5-whinney-millar`、`st-chp7-p195-piola-vanita`、`st-chp7-p195-plate28a-cagnacci-work`、`st-chp7-p195-price-of-german-orders`、`st-chp7-p195-sea-triumph-open`、`st-chp7-p195-strudel-joseph`、`st-chp7-p195-strudel-tarquin`、`st-chp7-p195-verrio-brought-by-ambassador`、`st-chp7-p195-verrio-employed-by-charlesii`、`st-chp7-p195-verrio-lebrun-versailles`、`st-chp7-p195-verrio-origin-and-self-description`。正文登记段76个mention span及复合注段56个span回切当前S0均无偏移/文本不匹配；注段跨p.193–199，本批只语义审p.195注1–5，不把其他印刷页注释计入。coverage中两段的`reviewed/complete`只表示迁入状态，不替代逐条裁决。
+
+**实质问题、遗漏与建议去向：**
+
+- `st-chp7-p195-liechtenstein-gallery-worldly`（L39）与前页`st-chp7-p194-unattributed-quote-open`双计同一事实：当前p.195行是完整续句，但p.194行的claim已经写入完整引文、1691归属和“画廊图片世俗”内容。保留p.194为仅含未完引文的continuation片段；完整断言和关系候选只计入p.195一行，继续链接而不重复建边。其`cand-7189`为place类型的未识别gallery，但句意是进入该gallery的画作均“mondane”；保持收藏/作品组与建筑空间的界线开放，别把画廊地点直接当全部画作的端点。
+- `st-chp7-p195-cignani-bacchanal`、`maratta-bathsheba`、`baccinelli-susanna`、`piola-vanita`、`loth-lot-daughters`、`fumiani-christ`、`strudel-tarquin`、`strudel-joseph`（L39–40）：逐件statement保留Prince 1691年信中所列画名/题材和Haskell转述归属；具体物件、版本、现藏均未识别，当前匿名work候选应保持开放，不用作品题名推定实物身份。`st-chp7-p195-n1-prince-taste-comment`（L103）是Haskell对“mondane”一词和Prince偏好的脚注解释，当前却把Prince `cand-1405`连到被引Wilhelm文献`cand-7185`，把证据来源误作被评论对象。保持为Haskell的限定评论/脚注证据，不生成Prince—Wilhelm关系；其true分类及endpoint应重审，并保留“curious”“even in sacred pictures”以及注中没有说明所有作品皆神圣/世俗的边界。
+- `st-chp7-p195-cagnacci-cleopatra-lucretia-output`、`st-chp7-p195-cagnacci-from-romagna-to-venice`、`st-chp7-p195-cagnacci-summoned-vienna`、`st-chp7-p195-female-nude-historical-role`（L41）：第一行准确保留Cagnacci的Cleopatra/Lucrezia画作组和Haskell对身体描绘及“sophisticated perversion”的解释，但漏掉同句“devoted much of his career to satisfying the demand”；补入或拆为艺术家长期投入市场与未枚举画作的判断，并保留“much of”。第二行claim说“from his native Romagna”而只以Venice为object，补Romagna来源角色/地点或保持行程端点待定。第三行正确保留1657年到维也纳且summoner未名。第四行说German patrons的影响使female nude在意大利绘画中“during the half-century after 1670”比“ever before or since”更重要，语气和时间应保留；`cand-1313`的canonical term是“Indecency and the erotic”，与“female nude”并非同一概念，考虑另建/保留“女性裸体题材”term并加入影响者`cand-7175`角色，不能把nudity自动折成indecency。Cagnacci组画与Plate 28a个别《克娄巴特拉之死》仍分开。
+- p.195 L42：来源还说“Many other painters were interested in the same market, though they tended to have a less equivocal approach”；当前表未见对应claim，应新增覆盖记录或说明该群体句暂不迁入，保留“many”“less equivocal”的Haskell范围，不用后列Lazzarini、Cignani代表穷尽全组。`st-chp7-p195-lazzarini-testimony`把“擅长画pretty naked women”与“吸引all the best amateurs”合成一条，拆为Haskell转述的技能评价与匿名受众结果，保留“we hear of”并保持amateurs未识别；`cand-1313`不是具体裸体画作集合。`st-chp7-p195-lazzarini-output-germany`可保留“much of his output”送往Germany，但未枚举作品，宜补未识别作品组端点或把作品端点开放。
+- `st-chp7-p195-german-patron-generalization`（L41）：“Every other German patron would have agreed with this sentiment”是Haskell外推，不是逐人证据；保留它对Lothar Franz引文的指代及“would have”，不得扩成每位可识别赞助人的实际偏好。`cand-7175` German princes group当前suggested_type=term，实际是未具名人物群体，应开放待分类。
+- `st-chp7-p195-price-of-german-orders`（L43）：原文“But this was a small price to pay for uninterrupted German order books”是Haskell对画家迎合题材要求的价值判断；当前以German patronage为subject、Italian painters为object，方向与“画家付出的代价以换取订单”不符。留作来源层评价或明确拆成画家端与订单端，保留“small”“uninterrupted”及其承接的前文，不把隐喻当已发生的正式交易关系。`st-chp7-p195-plate28a-cagnacci-work`只记录正文Plate 28a指向图版标题/署名，不是历史主体关系；应保留来源内图文链接，不送入正式历史relations。
+- `st-chp7-p195-charlesii-recovers-pictures`、`st-chp7-p195-charlesii-motive`、`st-chp7-p195-charlesii-no-contemporary-italian-interest`（L45–46）：可保留Charles II于1660年后试图收回仍可获得的Charles I旧藏图片、作者评价其动机更偏filial piety而非爱好绘画、以及对当代意大利艺术无兴趣的Haskell判断。`charlesii-motive`当前object是人物Charles I `cand-0650`，而predicate是动机“filial piety”；拆开画作回收与动机解释，将filial piety作为动机概念/作者归因，并保留“more … than any love of painting”，不要把父亲当动机端点。
+- `st-chp7-p195-england-impact-comparison`、`st-chp7-p195-english-patronage-next-century`（L44）：前者保留Haskell的比较判断及“before 1700/almost negligible”限定，不当作量化数据。后者原句的“it”承接“impact of England upon Italian art”，当前subject却改为English patronage `cand-0970`；以原句指代为准，保留“next century it was to be so important”这一未来于当时的章节叙述，不增写为已量化的赞助规模。两行的relationship candidate属性应与作者比较/篇章预告区分，避免直接升级为事实关系。
+- `st-chp7-p195-verrio-origin-and-self-description`（L46）：将Verrio从Paris来英、出生Lecce、自称Neapolitan、与Gentileschi先前路径比较并为一条claim；subject之外只有Paris `cand-4653`一个object，遗漏England目的地、Lecce出生地和身份称谓，拆为地点移动/出生/自称三项并保持姓氏Gentileschi身份未定。页图已确认OCR `Gentilcschi`→`Gentileschi`，但mentions中的Orazio候选只作为待证映射，不在S2确认为同一人。`st-chp7-p195-verrio-lebrun-versailles`将Le Brun在Versailles雇用的其他艺术家组`cand-7204`（当前term类型）用作Verrio所“失去个性”的关系object；拆出Verrio曾与Le Brun/Versailles的用工语境和Haskell关于失去个性的评价，组成员及评价都来源限定，不构造Verrio与其他画家的正式关系。
+- `st-chp7-p195-arlington-introduced-verrio`（L46）：原文是Lord Arlington作为Verrio第一位英国赞助人，将Verrio介绍给King；当前端点Arlington→Charles II，Verrio仅在mentions，缺少“被介绍者”角色。改成有三方角色的事件/明确边，至少让Verrio成为关系端点；不可把Arlington与King之间当成唯一关系。`st-chp7-p195-verrio-employed-by-charlesii`可保留约在1660后十五年进入Charles II service及“little discrimination”这项作者评价；`st-chp7-p195-verrio-brought-by-ambassador`的未名Ambassador与Lord Arlington应保持不同候选，来源只说被带到英国，不能合并身份。
+- `st-chp7-p195-sea-triumph-open`（L46）只含p.195未完短语`His earliest royal picture—A Sea triumph, being`，claim却已写入p.196的完整作品描述，且p.196另有`st-chp7-p196-sea-triumph-description`。p.195保持待续片段，完整claim仅在跨页完成的statement计一次，避免双计；作品身份仍未独立确认。
+- citation行`st-chp7-p195-n2-schoenborn-letter`、`n3-da-canal`、`n4-zanotti`、`n5-whinney-millar`的claim含“The note’s original topical context is”内部整理文本，应删除，只留印本引文、Haskell citation及未独立阅读的状态。`n3-da-canal`尤需修正：S0 L105/页图注3印作“Da Canal, especially pp. 71–3”，但statement object `cand-6593`名称带`p.69`、claim也写p.69，而同一qualifier.page却是71–73。以印本71–73作locator，查清/调整候选引用，不把p.69留作同一脚注证据。注2、3、4、5 citation行的`mentioned_candidate_ids`分别混入Lothar、Lazzarini、Cignani、Verrio等正文linked对象；这些人名不出现在L104–106对应脚注文本，应留在`linked_body_statement_ids`而非该脚注的mentions。正文L40–42、L46的footnote markers及`footnote_pending`描述仍陈旧，尽管相应n2–n5 citation已迁入且脚注行反向linked；同步正文侧结构化脚注回链，Lothar letter的“日期来自尚未处理脚注”qualification需改为当前注2已给出的1708-10-10（仍未独立读被引页）。
+- 页图物理页33确认OCR校读：`charlesii-motive`的`fdial piety`→`filial piety`、`verrio-origin`的`Gentilcschi`→`Gentileschi`、Arlington句尾`1675/`为页下注5标记、注2 `Schers`→`Scherf`、注1 `in. sacred pictures`→`in sacred pictures`；这些现有结构化OCR corrections与印本一致。注3 locator差异不是OCR校读可以代替的事实判断。
+
+**可保留项与本批结论：**七幅Liechtenstein信中所列作品的题材/画家署名可以作为Haskell转述保持候选，但实物身份开放；Lothar Franz引文、Charles II旧藏收回、Cagnacci与Lazzarini/Cignani叙述、以及Verrio被带到英国与进入王室服务均须附来源和语气限定。p.195本批36/36当前ID已逐条核读，但存在跨页重复、缺失的市场群体断言、人物/作品/地点/动机端点错位、多人组term误用、脚注定位和回链矛盾；本批不接收p.195或第七章。Ch7当前共1,238条statement，本批前已复核874条，本批后逐条复核910/1,238（true=836、false=74、未分类=0），未审328条。下一游标为p.196 `chp-7:07_CHP-7_sec_iv:l48-61`；未计入本批。仅追加过程记录，未改S0、S2表、mentions、coverage、候选或KU。
+
+
+### 2026-10-20：第七章p.196当前ID独立语义复核
+
+按当前来源登记段 `chp-7:07_CHP-7_sec_iv:l48-61` 对照S0 L49–61、印刷p.196/PDF物理页34；并核复合脚注登记段 `chp-7:07_CHP-7_sec_iv:l97-119` 中本页注1（L107）及注2锚点。逐条审查当前 `book-statements.jsonl` 的27条p.196记录：`st-chp7-p196-footnote2-wind`、`st-chp7-p196-gennari-arrival_and_kinship`、`st-chp7-p196-gennari-mythological_pictures`、`st-chp7-p196-gennari-paris_success`、`st-chp7-p196-gennari_ancient_guise_practice`、`st-chp7-p196-gennari_departure_1688`、`st-chp7-p196-gennari_new_style`、`st-chp7-p196-gennari_salary_and_commissions`、`st-chp7-p196-gennari_subject_shift`、`st-chp7-p196-hampton_fresco_subject`、`st-chp7-p196-jamesii-demand_for_italian_artists`、`st-chp7-p196-n1-gennari-evidence`、`st-chp7-p196-sea-triumph-description`、`st-chp7-p196-verrio-brings-baroque-decoration`、`st-chp7-p196-verrio-illusionistic-effects`、`st-chp7-p196-verrio-style_evaluation`、`st-chp7-p196-verrio-windsor-fresco-series`、`st-chp7-p196-verrio_career_alignment`、`st-chp7-p196-verrio-served-williamiii`、`st-chp7-p196-verrio_conflicting_programmes`、`st-chp7-p196-verrio_hampton_court_employment`、`st-chp7-p196-verrio_leaves_court`、`st-chp7-p196-verrio_pension_open`、`st-chp7-p196-verrio_shaftesbury_roles`、`st-chp7-p196-whitehall_programme`、`st-chp7-p196-windsor-charles-rubens-comparison`、`st-chp7-p196-windsor-frescoes-absolutism`。本段70个mention span逐项回切S0；注释登记段跨p.193–199，本页注1相关span位于该复合段的本页范围。页图确认£500、上标注号及相关文字。当前页逐条审阅为true=26、false=1、未分类=0。coverage中的迁移/complete状态不作为语义接收依据。
+
+**需修订、拆分或保持待证：**
+
+- `st-chp7-p196-gennari-arrival_and_kinship`（L52–53）把Gennari由Bologna来英、与Verrio大致同时抵达、为Guercino外甥，以及Charles I约50年前曾试图招揽Guercino合为一条；当前主体/端点仅表达Gennari来英。拆成移动、亲属关系及历史比较，分别保留“大致同时”和“约50年前”，不把相对时间改成精确日期。
+- `st-chp7-p196-gennari_salary_and_commissions`（L53）将年薪、国王和未具名王后的委托、以及无法接受其他赞助人委托合并；图文原文为£500，当前claim写“500 a year”，qualifier称可见英镑符号但开放理由又说币种未明，彼此冲突。按薪酬及委托拆分/修正，保留未具名王后和其他赞助人，并留意原文“not only for portraits”的范围。
+- `st-chp7-p196-gennari_new_style`（L58）将Gennari的新风格落到`cand-7218`祭坛画组，但此处mentions只有L55的“altar paintings”提及，L58的风格判断没有对应风格mention；端点及提及映射均不成立。改为适当风格term或开放端点，修正`mentioned_candidate_ids`，不得用作品组代替风格。
+- `st-chp7-p196-gennari_departure_1688`（L58）把离开英格兰、返回法国并最终去意大利的行程合在一项，当前仅以法国作object。拆开阶段并分别标记离开地、途经/返回地和最终去向；维持原文“eventually”而不把多段行程折叠成单一迁移。
+- `st-chp7-p196-hampton_fresco_subject`（L59）当前只连作品与William III；原文还说作品表现对抗由法国领导的天主教势力的胜利。补出/开放对手群组角色或拆为来源限定断言，保留“led by France”，不补造具体国家或成员。
+- `st-chp7-p196-verrio_hampton_court_employment`（L59）谓词指向Verrio受“新政权”雇用，object却是Hampton Court（地点）。分开未具名雇主`cand-7225`与工作地点`cand-7212`；不得把场所作为雇主。
+- `st-chp7-p196-verrio_pension_open`（L60，续至p.197 L64）把p.197的“doubtless there to greet Cassana”并入p.196，且continuation状态未正确连接。p.196限于Verrio活至1707年及获Queen Anne年金；把p.197的推测、Cassana与未指明的“there”留在下一页断言，连接跨页续句并避免双计。
+- `st-chp7-p196-verrio_shaftesbury_roles`（L60）把Shaftesbury第一伯爵被描绘为Faction，与第三伯爵/孙辈提供新教美德建议合在一起；当前只连第一伯爵`cand-2425`，缺第三伯爵`cand-2426`及角色区分。拆分人物与角色，保留原文的代际指代，不据此添加画作或日期。
+- `st-chp7-p196-verrio-style_evaluation`（L51）将Haskell对作品“mediocre”的评价与风格使英国追上欧洲发展并成一条，当前主体Verrio、object为装饰term `cand-4723`，无法表达后半句对英国艺术语境的影响。拆分评价与历史影响，明确Haskell归属；不把评价转成独立风格鉴定。
+- `st-chp7-p196-n1-gennari-evidence`（复合注段L107）claim夹入“The note’s original topical context is”内部整理语句，并将Whinney & Millar、Zanotti及MS B.344/Archiginnasio/Warburg photocopy等不同引文合并到仅有MS的object。删除内部过程文本，按各引文拆分来源锚点，并保留尚未独立查阅的状态；该注与薪酬正文的链接可保留。
+- `st-chp7-p196-footnote2-wind`：注释行的链接正文`st-chp7-p196-hampton_fresco_subject`和来源引用可保留，但当前speaker标为Haskell；按书中脚注的发言/引述层级改为book footnote，与注1层级一致，不把脚注的引文内容改写成Haskell直接断言。
+- `st-chp7-p196-sea-triumph-description`（L49）本页已给出完整作品描述；p.195的`st-chp7-p195-sea-triumph-open`也提前写入同一完整描述。将p.195保留为未完引文片段，完整claim及关系候选只在跨页完成的p.196记录计一次，作品身份仍开放。
+- `st-chp7-p196-whitehall_programme`（L55–57）原文把Gennari、Verrio、Wren、Gibbons与Whitehall一所未具名教堂的巴洛克方案并述，当前主体/宾语偏向Gennari与方案，其他创作者仅在mentions。保留集体创作/参与的来源边界，补足或开放其他参与者与未识别教堂角色，不推成贡献相等，也不猜测具体教堂或作品。
+- `st-chp7-p196-verrio_leaves_court`（L59）合并Haskell“more cunning”的评价、离开宫廷及携物在未具名乡间住宅工作的内容。将评论与可叙事实项分开，保留匿名地点及来源范围，不补作委托关系。
+- `st-chp7-p196-verrio-brings-baroque-decoration`（L50–51）：来源限定“部分基于法国、来得较迟、此前未见”应继续保留；`cand-4723`现名是“Baroque ceiling decoration as an artistic mode”，与此处较广的装饰类别边界需在跨章S3比较中核定，不能因同含Baroque便默认同一术语。
+
+**可保留项及裁决：**`st-chp7-p196-gennari-mythological_pictures`、`gennari-paris_success`、`gennari_ancient_guise_practice`、`gennari_subject_shift`、`jamesii-demand_for_italian_artists`、`verrio-illusionistic-effects`、`verrio-windsor-fresco-series`、`verrio_career_alignment`、`verrio-served-williamiii`、`verrio_conflicting_programmes`及`windsor-frescoes-absolutism`整体有原文支持；仍须保留人物群体未具名、Haskell评价归属、“from then onwards”“within little more than a generation”等限定。`st-chp7-p196-windsor-charles-rubens-comparison`列`relation_candidate=false`合适：来源是Charles I项目与Rubens的类比，不断言Rubens参与Verrio工程。除上述需修订/待证项外，本批不提出新的身份认定。
+
+本批当前p.196的27/27条已逐条核读（true=26、false=1、未分类=0），但存在断言合并、端点类型/角色错位、mention映射缺口、注释层级和跨页重复等问题，因此不接收p.196或第七章。Ch7当前1,238条中累计逐条审阅937条（true=862、false=75、未分类=0），未审301条；下一游标p.197 `chp-7:07_CHP-7_sec_iv:l63-75`，未计入本批。仅追加本过程记录；未改S0、statements、mentions、coverage、候选或KU。
