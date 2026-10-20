@@ -8857,3 +8857,28 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 **写入后核对与纠正：** 首次 apply 已生成4张卡、3条 S6 关系和19条 S5 字段，但复制对齐行后修改了原行而未修改输出副本，导致4条 S4 `ku_id` 未写入。表审计发现待登记映射没有下降；已逐项核实并补写 cand-5473、cand-5491、cand-7042、cand-7043 的 KU 映射及本批 `process_ref`，未重复写入关系、字段或卡片。批次脚本已修正为修改待写副本，并按未登记组的全部成员计算直接端点队列。
 
 **本批后当前状态：** S4 已登记1,329/4,805组、1,532/5,029条成员映射；待登记3,476组／3,497条映射。直接关系端点待登记1,725组／1,725个端点候选／1,739条组成员映射（person 2/2、institution 90/90、event 101/101、place 224/224、work 319/328、archive 464/469、term 525/525），非直接待登记1,751组／1,758条映射。KU=2349；S6关系表1269条（1267 formal、2 pending）；本过程累计逐条裁决70条 S2 关系候选（42 formal、23 pending、5 rejected）。S5字段表11,757条，其中1,625条unverified。非直接字段责任者和未决人物仍按其原S3状态保留。
+
+<a id="s4-s5-s6-archive-la-educazione-virile-20261020"></a>
+
+### S4/S5/S6 archive：La Educazione Virile 两种语言版本（2026-10-20）
+
+按直接关系候选数、来源锚点和身份边界选择 `cand-9806`。S3 已将其判为单成员 `archive-group-67c9d4e846db`；Haskell 第10章 p.326、p.327注3分别支持发行、两种语言版本、出版项及书内报告的馆藏号。本批不新增 S3 决定或外部身份核验。
+
+**S4 登记与边界：** 登记为 [《La Educazione Virile》阐释性小册子 archive KU](../../../04-knowledge/units/archives/la-educazione-virile-pamphlets-1773.md)。卡片按 Haskell 所述的法文、意大利文两种版本作为一个来源组记录，不断言两个具体实体册相同，也不推断精确版次或翻译关系。候选映射、manifest 与 accepted 均指向同一卡。
+
+**S5 定向字段：** 从 Haskell p.326–327新增7条 `source_backed` 字段：小册子类型、书内称呼、语言版本、书内归属措辞、出版地、出版年及 Correr 报告馆藏/索书号。Riviera 的作者责任保留原书归属语气；不从“own”推定作者，也不把书内馆藏报告写成今日馆藏核验。
+
+**S6 逐条裁决：**
+
+| statement_id | 端点与定位 | 决定 |
+|---|---|---|
+| `st-chp10-p326-riviera-issued-explanatory-pamphlet` | archive → Lazzaro Riviera；p.326 L216 | formal，`rel-1270 issued_by`；原文直接说 Riviera 发行说明小册子，不补发行日期。 |
+| `st-chp10-p327-n03-riviera-pamphlets-attributed` | Lazzaro Riviera → archive；p.327 n.3 L237 | pending，`rel-1271 authored_by`；“Riviera’s own”没有明确区分作者责任与发行责任，故不把发行事实重复转成作者边。 |
+| `st-chp10-p327-n03-pamphlets-published-verona` | archive → Verona；p.327 n.3 L237 | formal，`rel-1272 located_at`；角色为出版地，时间1773，不表示实体册现藏于维罗纳。 |
+| `st-chp10-p327-n03-pamphlet-copies-correr` | archive → Biblioteca Correr；p.327 n.3 L237 | formal，`rel-1273 located_at`；记录 Haskell 报告的两版馆藏位置及索书号，不声称独立核验当前馆藏。 |
+
+本批新增3条 formal、1条 pending，无 rejected；所有关系均绑定 `haskell-1980-rev-ed` 和对应来源行。
+
+**本批后当前状态：** S4 已登记1,330/4,805组、1,533/5,029条候选映射；待登记3,475组／3,496条映射。直接关系端点待登记1,724组／1,724个端点候选／1,738条成员映射（archive 463组／468成员）；非直接队列1,751组／1,758条映射。KU=2,350。S5字段表11,764条，其中1,625条unverified。S6关系表1,273条（1,270 formal、3 pending）；本过程累计逐条裁决74条S2候选（45 formal、24 pending、5 rejected）。候选待办表有5条记录、pending=0。
+
+**验证与写回边界：** 定点字段抽取为本卡生成7条记录，warnings=0；全库 `build_field_facts.py` 预览发现既有字段行和来源登记差异（11条更新、16条新增、9条移除、5条来源登记变化），故未执行全库 apply。定点 `build_cards.py --preview` 核对4条关系展示，`--render` 写回1张卡且写后预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性审计的断链、无效谓词、缺逆向边、弱证据均为0。
