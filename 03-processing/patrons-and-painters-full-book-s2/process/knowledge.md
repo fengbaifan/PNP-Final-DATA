@@ -1,5 +1,48 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp7-bibliography-endpoints-20261021"></a>
+
+### S4/S5/S6 archive：第7章书目引注端点（2026-10-21）
+
+沿用既有 S3 `new` 决定登记 11 个 archive 身份组。书目原题、责任者形式、出版信息及章节引注仅据 Haskell 第7章和第21章书目记录；被引作品、页码内容、版本及馆藏均未独立核验。除 Seicento 展览条目保留“1956–7”外，书目拼写按来源转录；Vaes 条目中的 “in Roma” 不据此推断为城市或刊物名称，Walker 的责任者保留首字母 `J.`，Dhanens 的出版地保留原拼写 `Brussel`。
+
+| candidate_id | S3组 | S4登记 | 书目来源 |
+|---|---|---|---|
+| cand-6997 | archive-group-a0ddb6d233ff | `units/archives/vaes-appunti-carel-van-mander-1931` | 第21章书目 p.439 |
+| cand-7001 | archive-group-9dff1dcba5e1 | `units/archives/walker-bellini-titian-ferrara-1956` | 第21章书目 p.440 |
+| cand-7002 | archive-group-42090cb712e1 | `units/archives/trapier-ribera-1952` | 第21章书目 p.438 |
+| cand-7018 | archive-group-4b5f1398e517 | `units/archives/blunt-poussin-studies-viii-1959` | 第21章书目 p.415 |
+| cand-7019 | archive-group-5f718ca9ec49 | `units/archives/crozet-vie-artistique-france-1954` | 第21章书目 p.420 |
+| cand-7021 | archive-group-27fd394715e7 | `units/archives/batiffol-vie-intime-reine-france-1906` | 第21章书目 p.413 |
+| cand-7023 | archive-group-0ebcddcd0a80 | `units/archives/tapie-france-louis-xiii-richelieu-1952` | 第21章书目 p.438 |
+| cand-7028 | archive-group-ba8b77de79ee | `units/archives/desjardins-oeuvre-jean-bologne-1883` | 第21章书目 p.421 |
+| cand-7029 | archive-group-7323e5625231 | `units/archives/dhanens-jean-boulogne-1956` | 第21章书目 p.421 |
+| cand-7030 | archive-group-d9b843c23a8f | `units/archives/sterling-gentileschi-in-france-1958` | 第21章书目 p.437 |
+| cand-7041 | archive-group-3a4bc353b919 | `units/archives/seicento-europeo-1956-1957` | 第21章书目 p.436 |
+
+每卡登记 4 条 `source_backed` 书目字段：文献类型、原题名、书目责任者形式、出版信息，共 44 条；字段均回指第21章书目来源 `haskell-1980-rev-ed`。中英文卡名是描述性工作译名，不表示正式译名已核实。作者姓名未自动链接或合并为人物 KU。
+
+14 条 `cites` 候选均裁为 `formal`，仅表达 Haskell 在对应脚注引用该书，不证明被引页面支持脚注所述论点：
+
+| statement_id | 书内引注 | 决定 |
+|---|---|---|
+| st-chp7-p170-n1-cite | p.170 n.1：Vaes, 1931, p.202 | rel-1331 formal |
+| st-chp7-p171-n4-cite | p.171 n.4：Walker, p.78 | rel-1332 formal |
+| st-chp7-p171-n6-cite-trapier | p.171 n.6：Trapier, p.109 | rel-1333 formal |
+| st-chp7-p172-n2-cite-trapier | p.172 n.2：Trapier, p.72 | rel-1334 formal |
+| st-chp7-p172-n4-cite-blunt | p.172 n.4：Blunt, 1959, pp.389–390 | rel-1335 formal |
+| st-chp7-p173-n2-cite-crozet | p.173 n.2：Crozet, p.49 | rel-1336 formal |
+| st-chp7-p173-n3-cite-batiffol | p.173 n.3：Batiffol（未给页码） | rel-1337 formal |
+| st-chp7-p174-n3-cite-batiffol | p.174 n.3：Batiffol, p.430 | rel-1338 formal |
+| st-chp7-p173-n3-cite-tapie | p.173 n.3：Tapié, p.67 | rel-1339 formal |
+| st-chp7-p174-n1-cite-desjardins | p.174 n.1：Desjardins, p.49 | rel-1340 formal |
+| st-chp7-p174-n2-cite-desjardins | p.174 n.2：Desjardins, p.50 | rel-1341 formal |
+| st-chp7-p174-n1-cite-dhanens | p.174 n.1：Dhanens（未给页码） | rel-1342 formal |
+| st-chp7-p174-n4-cite-sterling | p.174 n.4：Sterling, pp.112–120 | rel-1343 formal |
+| st-chp7-p175-n1-cite-seicento | p.175 n.1：Seicento Europeo, 1956, p.64 | rel-1344 formal |
+
+`build_field_facts.py --apply` 预检与写回均为 `warnings=0`、新增44条、无来源登记变化；定点卡片渲染覆盖11卡、44字段及14条关系投影，写后字节核验通过。本批未更改S2复核状态，也未进行外部书目核验。
+
 更新日期：2026-10-20。
 
 <a id="s4-s5-s6-archive-cross-chapter-citations-20261020"></a>
