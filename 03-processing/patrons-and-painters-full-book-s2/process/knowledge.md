@@ -14,6 +14,39 @@
 
 胸像与作为其图像依据的 Van Dyck 三人肖像保留为两个作品组；“based on”是后续 S6 关系候选，不作为 S3 同一身份。三项记录沿用稳定 alignment ID `aln-0639`、`aln-1299`、`aln-6471`，并在本段保留原决定及修订理由。S3 现为 12,408/12,408：same 2,026、new 5,028（4,802组）、conflict 9、excluded 100、undecided 5,245（其中类型未决622）。S4待登记组数维持3,406，候选映射增至3,428；直接关系端点为1,661组／1,677条组成员映射。本批未变更S2覆盖、S5字段或S6裁决；两件作品仍待S4登记，相关 p.177–179 关系在同批登记时逐条裁决。
 
+<a id="s4-s5-s6-chp7-p177-179-bernini-and-vandyck-works-20261021"></a>
+
+### S4/S5/S6：第七章 p.177–179 胸像、肖像及跨章人物地点关系（2026-10-21）
+
+**S4 身份登记。** 将 S3 `new` 组 `workgrp-bernini-charles-i-bust` 登记为 [贝尼尼的查理一世胸像](../../../04-knowledge/units/works/bernini-charles-i-bust.md)，映射 `cand-0304`（`aln-0639`）。将 `workgrp-926d6c0d9362b9` 登记为 [范·戴克的查理一世三面肖像](../../../04-knowledge/units/works/van-dyck-triple-portrait-charles-i.md)，`cand-4437`（`aln-4620`）和索引候选 `cand-0964`（`aln-1299`）共用该作品卡。两件作品保持不同身份；标题是描述性暂题，未核为原作正式题名或外部作品身份。`cand-6290` 继续复用 England KU。
+
+**定点 S2 结构修订。** 保留 S0 引文，对 p.179 的“抵达英格兰”与“以三面肖像为依据”拆为独立候选；另将 Bernini 雕制与胸像描绘对象、Van Dyck 肖像作者分开记录。`st-chp7-p179-i05` 的关系端点由两件作品改为 Bernini 与 Van Dyck 两位画家，范围限定为 Haskell 对该胸像的审美判断；后世接受和 Charles I 本人欣赏结果分别拆存。`st-chp7-p179-i06` 仅保留赠礼事实，欣赏胸像另立候选。新增六条 statement；这些是针对关系端点的定点修订，不计入独立 S2 复核分子，也不表示第七章已接收。
+
+**S5 字段。** 从两张卡提取四条 Haskell 书内 `source_backed` 字段：两件作品各一条描述性暂题和一条作品类型（`enr-15776`–`enr-15779`）。四条均回指 `haskell-1980-rev-ed`，无来源登记变化、无提取 warning。
+
+**S6 逐项裁决。** 每个关系候选均有去向；pending / rejected 是图谱关系的去向，原书陈述仍保存在 S2：
+
+| S2 statement | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp7-p177-i19` | pending | England 与 Rome 间的外交交流没有具名参与者、具体交流或日期；不以两个地理端点建边。 |
+| `st-chp7-p178-i08` | formal | `rel-1378`：Orazio `located_at` England，时间按原书保留为“probably late 1625”；不推定未具名的招募者。与既有 `rel-0243`（London，1626）时间和地点粒度不同，可并存。 |
+| `st-chp7-p178-i10` | pending | “受到 Charles 与 Buckingham 欢迎”没有对应的受控关系类型；不把欢迎改写成委托或赞助。 |
+| `st-chp7-p178-n5-artemisia-england` | formal | `rel-1379`：Artemisia `located_at` England，约1638年、一两年；保留不确定时间与期限，不推定赞助人。 |
+| `st-chp7-p179-i03` | pending | Charles 促成 Barberini 授权的原书陈述保留；具体授权者未名，当前受控类型不能准确表达授权过程。 |
+| `st-chp7-p179-i03-portrait-subject` | formal | `rel-1372`：胸像 `has_subject` Charles I。 |
+| `st-chp7-p179-i03-bust-created-by` | formal | `rel-1371`：胸像 `created_by` Bernini。 |
+| `st-chp7-p179-i04` | formal | `rel-1373`：胸像于1637年7月抵达 England；该边只表达历史抵达，不表示当前所在地。 |
+| `st-chp7-p179-i04-model-for` | formal | `rel-1375`：Van Dyck 肖像 `model_for` Bernini 胸像；二者仍是不同作品。 |
+| `st-chp7-p179-i04-portrait-created-by` | formal | `rel-1374`：三面肖像 `created_by` Van Dyck；归属只按 Haskell 原书记载。 |
+| `st-chp7-p179-i05` | formal | `rel-1376`：Bernini `influenced_by` Van Dyck；范围仅限 Haskell 对该胸像的审美解释。 |
+| `st-chp7-p179-i05-sitter-response` | rejected（仅否决图谱边） | 原书称 Charles 欣赏该胸像；当前受控关系类型没有作品接受／欣赏边，原句保留。 |
+| `st-chp7-p179-i06` | rejected（仅否决图谱边） | Charles 向 Bernini赠送未具名礼物；没有可用的受控赠礼类型与礼物对象，原句保留。 |
+| `st-chp7-p179-i08` | formal | `rel-1377`：Van Dyck 肖像被 Baker 带到 Rome；记录历史转运语境，不表示现藏地。 |
+| `st-chp7-p179-i09` | formal（复用） | 复用既有 `rel-0452`：Bernini 创作 Thomas Baker 胸像，不重复写边。 |
+| `st-chp7-p179-i10` | pending | Urban VIII 停止进一步英格兰委托，但未具名委托者或受影响作品；不以 Charles 或 Baker 补成缺失端点。 |
+
+本批后：S2 共 15,180 条 statement，统一口径复核仍为 9,490/15,180（62.5%，第七章 1,099/1,250）；六条新增记录未计入复核分子。S2 关系候选 10,415 条，至少缺一个端点候选 ID 的仍为335条。S3 仍为 12,408/12,408：same 2,026、new 5,028（4,802组）、conflict 9、excluded 100、undecided 5,245（含622项类型未决）。S4 已登记 1,398/4,802 组、1,603/5,028 条候选映射；待登记 3,404 组／3,425 条映射，其中直接关系端点 1,659 组／1,674 条组成员映射，非直接 1,745 组／1,751 条。S5 字段 12,010 条（1,634 条 `unverified`）。S6 累计逐条裁决 235/10,415 条（157 formal、65 pending、13 rejected），尚余 10,180 条；`relations.csv` 为 1,379 条（1,376 formal、3 pending）。candidate-backlog 仍保留5条历史记录，pending=0。
+
 <a id="s3-s4-s5-s6-chp10-p296-staircase-fresco-20261021"></a>
 
 ### S3/S4/S5/S6：第10章 p.296 楼梯厅顶画及旧制度主题端点（2026-10-21）

@@ -12825,10 +12825,10 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 
 **需修订/待证：**
 
-- `st-chp7-p179-i04`、`m-chp7-p179-b-010`、`m-chp7-p179-b-015`（S0 L115–116，印刷p.179）：`cand-0304` 的当前类型是person，规范名为Bernini；statement却把它作为“the bust”的subject，两个mention也把“his portrait”“the bust”映到这位雕塑家。原文明确说Charles I的雕像胸像于1637年抵达英格兰，且以Van Dyck三人肖像为图像来源。需以独立work端点表示Charles胸像并修正两处work mention；可与较早的宽泛授权画像候选 `cand-4435` 对照后再界定此作，不把雕塑家当作品。`cand-0295`与`cand-0304`都为Bernini本人person候选，宜在S3按证据处理同一身份组，不能因此把作品候选并入人物。
-- `st-chp7-p179-i03`（L115）：claim将Charles使用影响力取得Barberini授权、以教宗对英国天主教徒的希望/忧虑达成目的写为一个复合事实。拆开授权/达成目的与Haskell所述说服手段，保留Charles、Bernini、Barberini家族、Urban VIII及English Catholics各自角色；不把“Barberini”改成未具名的特定红衣主教。
-- `st-chp7-p179-i05`（L116）：把Bernini对Van Dyck肖像的艺术转化、后世将忧郁气质与Charles相联、Charles本人欣赏结果合为一条。拆开艺术解释和接受反应；保留`Haskell`的评价归属及“subsequent generations”限定，不写成可独立核实的心理事实。
-- `st-chp7-p179-i06`（L116）：claim将Charles欣赏胸像与赠送Bernini丰厚礼物合并，subject/object不能同时表达作品反应与赠礼。拆成Charles对具体胸像的反应及Charles→Bernini赠礼；保留赠礼未具名/未估值。
+- `st-chp7-p179-i04`、`m-chp7-p179-b-010`、`m-chp7-p179-b-015`：S3已将 `cand-0304` 修正为胸像作品，两个mention均指向该work候选；跨章审查确认其与范戴克三面肖像是不同作品。S2现将抵英、依据肖像、胸像描绘对象及作者分开建句；`cand-0964`、`cand-4437` 已登记为同一范戴克肖像KU。定点修订不计入独立复核分子，也不表示第七章已接收。
+- `st-chp7-p179-i03`（L115）：Charles促成Barberini授权、并借教宗对英国天主教徒的希望与忧虑达成目的，仍作为来源陈述保留；具体授权者未名，当前S6为pending。胸像作者及描绘对象已另立statement；不把“Barberini”改成某位未具名红衣主教。完整S2段落复核仍待进行。
+- `st-chp7-p179-i05`（L116）：端点已由“胸像—三面肖像”更正为 Bernini—Van Dyck，关系限定为 Haskell 对该胸像的审美解读，S6为 `influenced_by` formal（rel-1376）。后世接受与 Charles 本人欣赏结果已分开记录；sitter-response 图谱边因无受控谓词而 rejected，原书陈述保留。定点修订不等于本段独立接收。
+- `st-chp7-p179-i06`（L116）：原句已拆分为 Charles 欣赏胸像与赠送 Bernini 礼物；赠礼未具名／未估值，当前S6否决图谱边（无受控赠礼类型与礼物对象），欣赏结果另作 statement 并否决无受控关系类型的图谱边。两项原书陈述均保留；定点修订不计入独立复核分子。
 - `st-chp7-p179-i07`（L116）：被动句“plans were put in hand”没有指出谁启动王后胸像计划，当前subject却是Bernini。将计划发起者保留未名/开放；p.179 L122后文只说明该计划中的胸像归于Bernini，不能反推由Bernini启动计划。
 - `st-chp7-p179-i12`（L119）：声明Arundel要求制作浮雕且由年轻雕刻家Francesco尝试，但结构端点只有浮雕；雕刻家 `cand-6750`、地点Florence及信中“said to be valente Huomo”的报告限定只留在mentions/引文。保留“试作”意图，不写成已受托或完成；补足艺术家角色与来源限定，若不能编码则分拆为开放的制作提议。
 - `st-chp7-p179-i13`（L119–120）：愿望关系端点只有Arundel和浮雕，Bernini与Duquesnoy虽为“or”备选制作者却只在mentions；显式保留替代关系和“希望”语气，不当作委托或完成关系。
