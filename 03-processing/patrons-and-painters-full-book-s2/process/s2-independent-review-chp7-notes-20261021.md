@@ -89,3 +89,14 @@ Pozzo ceiling与summons两条关系候选分别裁为S6 `pending`：作品候选
 | `st-chp7-p202-v-smaller-towns-anticipated-turin` | 不为未具名省镇补造城市身份；前指仅表示后文将转入讨论。 |
 
 本段未新增或修订S2 statement／mention。发现`cand-2663`将城市Turin误列为`term`，已在对应S3记录中修正为`place`并复用既有 `units/places/turin`；Savoy作为政治实体归`institution`符合本项目类型表。该S3更正不改变原书断言，也未提前写入S6关系。本段13条计入逐条复核后，第七章为1,112/1,252、全书为9,503/15,182（62.6%）；第七章与全书仍未接收。下一游标为复合脚注段 `chp-7:07_CHP-7_sec_v:l62-76`，其中含p.202注1；该脚注内容将在该段统一复核，不在此重复计数。
+
+<a id="s2-review-chp7-p200-p202-composite-notes-20261022"></a>
+## 第七章 p.200–202 复合脚注段 S2 逐条语义复核
+
+对照登记段 `chp-7:07_CHP-7_sec_v:l62-76` 与原书页图：p.200 PDF物理页38的注1–5、7；p.201物理页43的注1–6；p.202物理页44的注1。逐条复核该段34条statement和44条mention；44个mention span逐字符复核均无偏移错误。33条statement保留为关系候选，另1条“Binchs must be Admiral Byng”为Haskell的身份判断而非正式关系候选。被引出版物和页码均未独立查阅。
+
+校读保留在statement的 `ocr_corrections`，不改写S0文本：本批补记p.200注4 `tojbe`→`to be`；既有记录已涵盖 `Soprani, H`→`II`、截断句点、Peterborough空格、注5编号6→5、`bave`→`have`、`H, p. 4$`→`II, p. 45`、`Ug`→`Ilg`及p.202 `i893`→`1893`。p.200注6文本位于S0行18，属于此前已复核的 `l9-18` 段；其Daun肖像statement和四条引文已与Daun赞助断言链接，本批不重复计数。S0行69是物理页40 Plate 30的倒置图注抽取，所指图版已在图版清单复核中登记，不作为本脚注段的新statement。
+
+复核正文注释回链时，更新 `st-chp7-p201-v-eugene-reputation-among-italians`：将“注3尚待复核”的旧限定改为已核对Haskell注3引Zanotti卷I页275，并补齐该正文statement至 `st-chp7-p201-n3-cite-zanotti` 的脚注定位。其余注释statement的现有正文回链与原文支持对象相符。没有新增或删除statement、mention、候选或关系行；没有改变S3、S4或S6裁决。
+
+本段34条statement按ID去重后计入统一S2语义复核：第七章1,146/1,252，全书9,537/15,182（62.8%）；尚有5,645条未进入统一复核分子。第七章与全书均未接收。按 `segments.jsonl` 的后续顺序，下一项为 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`（Plate 30/31标题行）；先核对其与已完成图版清单的覆盖关系，无新增statement时以既有图版记录为据排除重复，再进入下一未复核源段。

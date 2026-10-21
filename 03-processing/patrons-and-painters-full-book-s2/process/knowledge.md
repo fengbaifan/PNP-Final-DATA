@@ -9562,3 +9562,27 @@ Turin更正只解决本候选的类型和身份去向，不表示S3全书收口�
 | 类型未定 | 0 | 0／0 | 0／0 | 0 | 43 | 622 | 0 |
 
 这些缺行仍为待处理候选；本核查没有凭候选名称、类型或邻近候选推定same/new，也未将其从分母删除。现有12,388条决定分布为same 2,022（涉及1,088个既有KU）、new 5,015（4,790组）、conflict 9、excluded 100、undecided 5,242（其中622条类型未定）。S4仅对已有`new`决定计数：已登记1,387/4,790组、1,592/5,015条映射；待登记3,403组／3,423条映射。直接关系端点待登记1,657组／1,657个已对齐候选／1,672条组成员映射，非直接1,746组／1,751条。`audit_tables.py --strict-stage` 未检查“每个candidate必有alignment行”这一覆盖条件；故机械审计通过不构成S3全覆盖证据。后续先逐项补齐这20条决定，再按类型跨章处理622条类型未定及9条冲突。
+
+<a id="s3-s4-s5-s6-diario-romano-cross-chapter-citations-20261022"></a>
+
+### S3/S4/S5/S6 archive：Diario Romano 跨章引注端点（2026-10-22）
+
+**S3跨章身份复核。** 第21章印刷页423、Markdown L523的书目著录为“Gigli, Giacinto: Diario Romano—a cura di Giuseppe Ricciotti, Roma 1958.”。它确认Haskell书目列出的出版物题名、编者形式、地点与年份。cand-6076原已属于new组archive-group-1bfc6126228c；据新增书目证据，将第6章cand-6269（p.146 n.4，pp.203–240）与cand-6360（p.150 n.2，p.233）由undecided改为new并并入同组。p.233包含在pp.203–240之内，故二者是同一出版物的页定位，不是两种出版物。旧undecided理由保留于alignment resolution_note；被引版本与页面均未独立查阅。
+
+**当前计数口径校正。** 统计只将alignment.csv中的非external_source主裁决行视为S3决定。20项只有外部对齐记录的候选仍为缺裁决，不计入same/new等类别。按当前唯一身份组标记重算，new组为4,789，修正此前当前快照所列4,790；本次只增加两个候选到既有组，没有处理其他缺行或未决对象。
+
+**S4/S5登记。** 将身份组登记为units/archives/gigli-diario-romano-ricciotti-1958，映射cand-6076、cand-6269、cand-6360。卡片只记录Haskell书目和四处书内引注，不等同于日记手稿，不据书目署名新增Gigli作者关系。新增10条source_backed字段：书目类型、题名、责任者形式、编者、出版地、出版年及四处引注定位；来源ID haskell-1980-rev-ed未改写。
+
+**S6逐条裁决。** 四条明确书内引注均裁为formal archive→archive cites；正式边只记录Haskell的引注路径，不确认被引版本内容：
+
+| statement_id | 原书定位与引注 | 决定 | 正式关系 |
+|---|---|---|---|
+| st-chp5-note-p131-n4-citation | 第5章p.131注4，Gigli passim，L147 | formal cites | rel-1386 |
+| st-chp5-notes-l129-gigli-citation | 第5章p.133注1，Gigli passim及pp.77、162、290、324–325，L129 | formal cites | rel-1387 |
+| st-chp6-p146-note4-gigli | 第6章p.146注4，Gigli pp.203–240，L11 | formal cites | rel-1388 |
+| st-chp6-notes-l131-p150-n2 | 第6章p.150注2，Gigli p.233，L131 | formal cites | rel-1389 |
+| st-chp5-p131-gigli-diary | 第5章p.131正文称Gigli kept a detailed diary，L123 | pending；无准确keeper谓词，不改写为authored_by | 不写formal边 |
+
+“Gigli kept a detailed diary”作为Haskell原书陈述保留。pending只表示当前关系词表不能准确表达该角色，不否认原书陈述。
+
+批后S3决定行仍为12,388/12,408，另有20项缺行未变；same 2,022、new 5,017（4,789组）、conflict 9、excluded 100、undecided 5,240。S4已登记1,388/4,789组、1,595/5,017条映射；待登记3,401组／3,422条，其中直接端点1,656组／1,671条，非直接1,745组／1,751条。S5字段12,024条、1,634条unverified。S6裁决248/10,417条（168 formal、66 pending、14 rejected）；关系表1,389条，source_id缺失0。

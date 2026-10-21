@@ -13484,3 +13484,10 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第七章 p.202 正文与Turin候选复核
 
 完成 `chp-7:07_CHP-7_sec_v:l57-60` 的13条statement、15条mention逐条语义复核，无S2行改动；统一复核覆盖增至第七章1,112/1,252、全书9,503/15,182。随后纠正 `cand-2663`：Turin由 `term/new` 改为 `place/same`，复用 `units/places/turin`。表间覆盖核对后，S3有12,388/12,408项候选具备裁决行；20项缺行（person 16、archive 2、institution 2）。现有same=2,022、new=5,015（4,790组）、conflict=9、excluded=100、undecided=5,242。S4待登记3,403组／3,423条候选映射，直接关系端点1,657组／1,672条组成员映射。S2与S3均未全书接收／收口。下一S2游标为第七章复合脚注 `chp-7:07_CHP-7_sec_v:l62-76`。证据见[S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p202-正文-s2-逐条语义复核)与[S3裁决记录](knowledge.md#s3-chp7-p202-turin-type-correction-20261022)。
+
+<a id="s2-chp7-p200-p202-composite-notes-20261022"></a>
+### 2026-10-22：第七章 p.200–202 复合脚注段 S2 语义复核
+
+对照PDF物理页38、43、44，复核登记段 `chp-7:07_CHP-7_sec_v:l62-76` 的34条statement和44条mention；全部mention跨度精确。标注并校读p.200注4 `tojbe`→`to be`；本段的其他OCR更正已在statement记录中。S0行18的p.200注6早已随 `l9-18` 复核，S0行69为Plate 30倒置图注且对应图版清单已处理，均不重复计数。补齐p.201 Eugene contemporaneous reputation statement至注3 Zanotti引文的回链，并清除“注3尚待复核”的旧限定；未新增/删除statement、mention或候选，S3、S4、S6不变。
+
+复核后统一S2覆盖为第七章1,146/1,252、全书9,537/15,182（62.8%）。下一项按段目录为图版标题 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`，先与已复核的图版清单核对重复覆盖。逐条结论见[S2复核记录](s2-independent-review-chp7-notes-20261021.md#s2-review-chp7-p200-p202-composite-notes-20261022)。
