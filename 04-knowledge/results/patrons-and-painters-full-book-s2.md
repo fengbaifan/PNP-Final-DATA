@@ -2,6 +2,18 @@
 
 更新日期：2026-10-22。
 
+### S3/S4/S5/S6 archive：Roma XVIII（1940）与 1672 年 Avviso 跨章批次（2026-10-22）
+
+将 cand-5242、cand-6477、cand-6570 对齐为同一 Roma XVIII（1940）档案/期刊卷，并将 cand-6476 登记为独立的 1672 年 Avviso；本批 S2 定点修复了脚注引注主体，S2独立复核计数不变。新增11条来源支持字段；五条关系候选全部有去向：4 formal cites、1 pending。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch3-ch6-roma-xviii-1940-cross-chapter-20261022)。
+
+批后：S4已登记1,407/4,786组、1,616/5,016条映射；待登记3,379组／3,400条映射（直接端点1,635组／1,649条，非直接1,744组／1,751条）。S5字段12,067条（1,634条`unverified`）。S6已逐项裁决286/10,417条（189 formal、80 pending、17 rejected），剩余10,131条；关系表1,411条（1,408 formal、3 pending）。S2仍为9,537/15,182；S3决定类别覆盖仍为12,388/12,408。
+
+### S3定点复核与S4/S5/S6：第10章 p.329 有用艺术论证（2026-10-22）
+
+`cand-9846` 保持S3 `new`，并与第10章同页提及的Gozzi较早社会价值论述、旧有 *diletto ed utile* 理论分开。登记为来源限定术语KU，新增3条Haskell书内来源支持字段（`enr-15823`–`enr-15825`）。3条直接关系候选均逐项裁为pending：当前受控谓词及域值域不能表达“人物提出论证”或“论证所称经济作用”，不写入formal边。S2独立复核计数不变。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p329-useful-arts-argument-20261022)。
+
+批后：S4已登记1,405/4,788组、1,612/5,016条映射；待登记3,383组／3,404条映射（直接端点1,638组／1,653条、非直接1,745组／1,751条）。S5字段12,056条（1,634条`unverified`）。S6已裁决281/10,417条（185 formal、79 pending、17 rejected），剩余10,136条；关系表1,407条（1,404 formal、3 pending）。S2仍为9,537/15,182；S3决定类别不变。
+
 ### S3/S4/S5/S6：第七章 p.188 路易十四胸像与跨章术语（2026-10-22）
 
 cand-6915依据第7章 p.188 L237 对 Plate 27b 的直接回指，从S3 new定点修订为same，复用既有Bernini路易十四胸像卡；保留原决定和组号作为历史。骑马像 cand-6917 仍为独立作品。cand-6916 与 cand-6923 保持new并登记为两项术语；cand-6923 同时承接第10章 p.296 的跨章语境，与“ancien régime”区分。胸像新增3条、术语新增3条S5来源支持字段（enr-15817–enr-15822）。四条S6候选逐项裁决为3 formal（rel-1404–rel-1407）和1 pending：委托者未在被动句中具名，不能据被描绘者推定。S2独立复核计数不变。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p188-louis-xiv-bust-20261022)。批后S3为same 2,023（1,089个既有KU）、new 5,016（4,788组）、conflict 9、excluded 100、undecided 5,240；S4已登记1,404/4,788组、1,611/5,016条映射；S5为12,053条字段（1,634条unverified）；S6为278/10,417条候选已裁决（185 formal、76 pending、17 rejected），关系表1,407条（1,404 formal、3 pending）。

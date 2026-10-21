@@ -9716,3 +9716,54 @@ cand-6916 与 cand-6923 保持各自的S3 new决定，分别登记为“个人�
 | st-chp7-p188-i18 | formal | rel-1406：胸像 created_by Bernini（“he made”承接前句）；rel-1407：胸像 has_subject 专制主义术语。Haskell的“most compelling”保留为评价，不作为客观排名。 |
 
 本批不增加S2独立复核分子，也不声称p.188已独立语义接收。批后S3决定行仍为12,388/12,408；same 2,023（指向1,089个既有KU），new 5,016项／4,788组，conflict 9，excluded 100，undecided 5,240。S4已登记1,404/4,788组、1,611/5,016条映射；待登记3,384组／3,405条映射，其中直接端点1,639组／1,654条组成员映射、非直接1,745组／1,751条。S5字段12,053条（1,634条 unverified）。S6累计裁决278/10,417条（185 formal、76 pending、17 rejected），其余10,139条待逐项裁决；关系表1,407条（1,404 formal、3 pending）。
+<a id="s4-s5-s6-chp10-p329-useful-arts-argument-20261022"></a>
+### S3定点复核与S4/S5/S6：第10章 p.329 有用艺术论证（2026-10-22）
+
+**S3定点复核。** 登记 `cand-9846` 前重查同型术语，保留其既有 `new` 决定及 `sg3-term-cand-9846` 身份组。它记录 Haskell 转述的 Zanetti the Younger 后出论证；与 `cand-1805`（Gozzi较早的绘画社会价值论述）及 `cand-9845`（旧有 *diletto ed utile* 理论）分别保留。相关术语虽有承接关系，但不是同一论证对象；未发现可复用的精确同型已登记KU。没有改变S3类别计数。
+
+**S4登记。** 将 `cand-9846` 映射至 `units/terms/useful-arts-argument-for-painting-and-its-patronage`，补入accepted units及KU manifest。该卡只记录Haskell所述论证，不把贸易机制写成经独立核实的经济结果。
+
+**S5字段。** 新增 `enr-15823`–`enr-15825` 三条 `source_backed` 字段：有用艺术主张（p.329 L249）、赞助辩护（L250–251）、外国购画与意大利艺术家受聘返国的贸易论据（L251）。来源均为 `haskell-1980-rev-ed`；Zanetti原文及其经济因果主张未在本批另行核验。
+
+**S6逐候选裁决。** 三条 `relation_candidate=true` 的S2候选逐条裁为 `pending`。当前受控词表与域值域矩阵不能准确表达这些角色；不使用泛化关系替代，也不写入formal边：
+
+| statement_id | 端点 | 决定与理由 |
+|---|---|---|
+| `st-chp10-p329-zanetti-useful-arts` | `cand-2857` Zanetti（S4已登记）→ `cand-9846` 术语 | pending：原文报告Zanetti提出该论证，但没有准确的“提出／主张”谓词；person→term也不在当前关系域值域内。 |
+| `st-chp10-p329-utilitarian-patronage-defense` | `cand-2857` Zanetti → `cand-9846` 术语 | pending：原文说明Zanetti以功用理由辩护绘画赞助，当前没有准确表达该论证关系的受控谓词；不改写为 patronized_by 或 supports_claim。 |
+| `st-chp10-p329-princely-commissions-and-trade` | `cand-9846` 术语 → `cand-3461` Italy（S4已登记） | pending：来源报告论证将委托与意大利贸易相连；没有准确的“论证所称经济作用”谓词，term→place也未列入当前域值域。该句不作为已核实经济影响。 |
+
+`st-chp10-p329-foreign-market-chain` 与 `st-chp10-p329-academy-organization-new-theories` 的 `relation_candidate` 均为false，保留为书内陈述，不计入本批S6候选。没有新增formal关系行。S2独立语义复核分子不变；本次只做知识元登记及其直接关系裁决。
+
+**批后状态。** S4已登记1,405/4,788个新身份组、1,612/5,016条候选映射；待登记3,383组／3,404条映射，其中直接端点1,638组／1,653条组成员映射、非直接1,745组／1,751条。S5字段表12,056条（1,634条 `unverified`）。S6逐条裁决累计281/10,417条（185 formal、79 pending、17 rejected），尚余10,136条。关系表保持1,407条（1,404 formal、3 pending），本批没有添加正式边。S3为same 2,023（指向1,089个既有KU）、new 5,016（4,788组）、conflict 9、excluded 100、undecided 5,240；S2独立复核为9,537/15,182，不变。
+
+<a id="s3-s4-s5-s6-ch3-ch6-roma-xviii-1940-cross-chapter-20261022"></a>
+### S3/S4/S5/S6 archive：Roma XVIII（1940）与 1672 年 Avviso 跨章批次（2026-10-22）
+
+**跨章 S3 身份分组。** 对照 Haskell 第3章 p.80 注2、注4（`03_CHP-3_sec_iv.md` L197–198）与第6章 p.161 注2、p.162 注4（`06_CHP-6_sec_v.md` L12、L51），确认 `cand-5242`、`cand-6477`、`cand-6570` 指向同一《Roma》第XVIII卷（1940），而不是三件不同的出版物。三候选统一为 `archive-group-486910621857`；旧组号保留在 `previous_group`，p.238、p.57、pp.58/95 作为分立引注定位保留。该分组只依据原书书名、卷次、年份与交叉引注，不声称已核对完整期刊目录、编者、出版者或卷内原件。
+
+`cand-6476` 是另一件对象：第6章 p.161 注2所引、日期为1672年4月9日的单条 Avviso，刊载定位为 Roma XVIII p.57；保持独立 new 身份组。第3章 p.80 所引 1675 年 Avviso `cand-5241` 的具体身份仍未决，不因其定位到 Roma XVIII 而推定为 cand-6476。
+
+**S4 登记。** 建立并登记两张来源限定 archive KU：
+- `cand-5242`、`cand-6477`、`cand-6570` → `units/archives/roma-volume-xviii-1940`
+- `cand-6476` → `units/archives/avviso-1672-04-09-roma-vol-xviii-p57`
+
+两卡仅表达 Haskell 书内书目身份与定位，不表示已独立查阅 Roma 卷或 Avviso 内容。相关卡片及作为引注来源端点的 `units/archives/patrons-and-painters` 已预览并定向渲染。
+
+**S2 定点修复。** 将 `st-chp6-p161-note2-avviso` 的主语与谓词修复为 Haskell 的书内脚注引注（`cand-2962`，`footnote_citation`）；Jesuits 保留为该注所述抗议语境，不再作为引注发出者。该问题来自既有独立复核记录；此定点修复不增加 S2 独立复核覆盖率或分子。详情见 [S2 过程记录](stages.md)。
+
+**S5 字段。** 新增 11 条 Haskell 书内来源支持字段：`enr-15826`–`enr-15832` 记录 Roma XVIII 的书名、卷次、年份及三个章节中的引注定位；`enr-15833`–`enr-15836` 记录 1672 年 Avviso 的日期、刊载位置与来源限定。没有将引注内容写成已核实事实。
+
+**S6 逐候选裁决。** 五条直接候选全部有明确去向：四条 `formal cites`（`rel-1408`–`rel-1411`），一条 `pending`。四条 formal 边只记录 Haskell 对 Roma／Avviso 的书内引注；被引出版物、刊物内容及 Avviso 原件均未在本批独立查阅。
+
+| statement_id | 决定 | 裁决 |
+|---|---|---|
+| `st-chp3-seciv-l48-56-avviso-citation-locator` | pending | 1675 年 Avviso `cand-5241` 身份未定；Roma XVIII p.238 仅为引注定位，不能据此补全对象身份或建立正式边。 |
+| `st-chp3-seciv-notes-l189-204-p80-n2-avviso-roma` | formal | `rel-1408`；Haskell 第3章 p.80 注2 cites Roma XVIII p.238。 |
+| `st-chp3-seciv-notes-l189-204-p80-n4-avviso-roma` | formal | `rel-1409`；Haskell 第3章 p.80 注4 cites Roma XVIII p.238。 |
+| `st-chp6-p161-note2-avviso` | formal | `rel-1411`；Haskell 第6章 p.161 注2 cites 1672-04-09 Avviso；Roma XVIII p.57 是刊载定位。 |
+| `st-chp6-p162-n4-cite` | formal | `rel-1410`；Haskell 第6章 p.162 注4 cites Roma XVIII pp.58, 95。 |
+
+**批后状态。** S3 决定类别未变：12,388/12,408；same 2,023（指向1,089个既有KU）、new 5,016（4,786组）、conflict 9、excluded 100、undecided 5,240。合并后的 S4 为 1,407/4,786 组、1,616/5,016 条候选映射；待登记3,379组／3,400条映射，其中直接关系端点1,635组／1,649条组成员映射，非直接1,744组／1,751条。S5字段12,067条（1,634条 `unverified`）。S6累计逐条裁决286/10,417条（189 formal、80 pending、17 rejected），尚余10,131条；关系表1,411条（1,408 formal、3 pending）。S2独立复核仍为9,537/15,182；候选关系裁决与本批S2定点修复均未改变其分子。
+
+**验证。** `audit_tables.py --strict-stage --summary` 无错误；保留两项既有警告：S4仍有3,400条映射待登记，S2语义质量仍需人工复核。`audit_relation_consistency.py --dry-run` 报告 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic relation 均为0。`build_field_facts.py` dry-run 为 record_changes=0、new_ids=0、removed_ids=0、warnings=0。三张受影响卡片在定向渲染后再次 preview 均无差异。

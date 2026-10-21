@@ -13491,3 +13491,8 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 对照PDF物理页38、43、44，复核登记段 `chp-7:07_CHP-7_sec_v:l62-76` 的34条statement和44条mention；全部mention跨度精确。标注并校读p.200注4 `tojbe`→`to be`；本段的其他OCR更正已在statement记录中。S0行18的p.200注6早已随 `l9-18` 复核，S0行69为Plate 30倒置图注且对应图版清单已处理，均不重复计数。补齐p.201 Eugene contemporaneous reputation statement至注3 Zanotti引文的回链，并清除“注3尚待复核”的旧限定；未新增/删除statement、mention或候选，S3、S4、S6不变。
 
 复核后统一S2覆盖为第七章1,146/1,252、全书9,537/15,182（62.8%）。下一项按段目录为图版标题 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`，先与已复核的图版清单核对重复覆盖。逐条结论见[S2复核记录](s2-independent-review-chp7-notes-20261021.md#s2-review-chp7-p200-p202-composite-notes-20261022)。
+### 2026-10-22：第六章 p.161 注2 引文主体定点修订
+
+依据既有 p.161 L3–12 逐条审读中记录的引文方向问题，回读S0第6章印刷页161注2（Markdown L12）。该句是 Haskell 提示读者查阅 1672年4月9日avviso，不是“Jesuits 引用了 avviso”。将 `st-chp6-p161-note2-avviso` 的subject由 `cand-1321` Jesuits改为 `cand-2962`《赞助人与画家》，并将predicate由 `citation_locator`统一为 `footnote_citation`；保留 `cand-6476` avviso为被引对象、Roma XVIII第57页为定位信息。Jesuit indignation仅保留为引注语境，不转为新的关系事实。
+
+本次修订对应已有审读中“引文主体需复核”的明确待办，不新增或删除statement，也不增加独立语义复核覆盖计数。逐条S6去向及登记依据见[第3章—第6章 Roma XVIII 跨章批次](knowledge.md#s3-s4-s5-s6-ch3-ch6-roma-xviii-1940-cross-chapter-20261022)。
