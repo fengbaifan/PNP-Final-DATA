@@ -58,8 +58,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 赞助者／保护人（`patron_of`） | [格雷戈里奥·德·费拉里（Gregorio de Ferrari）](gregorio-de-ferrari.md) | 哈斯克尔先称军事指挥官会委托当地艺术家，继而记载诺阿耶说服德·费拉里赴马赛为其作画。本边仅表达人物层面的赞助关系；原文未给可换算的年份，所涉画作仍未识别；角色：说服画家赴马赛为其作画的赞助者；范围：第7章p.200所述未识别画作的赞助语境；不映射到具体作品；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_v.md)；haskell-1980-rev-ed；line 11; printed p. 200 |
 
-**中文：** 直接S2候选（待S6）：st-chp7-p200-v-noailles-secures-de-ferrari-at-marseilles。
 
-**English:** Direct S2 relation candidates pending individual review in S6: st-chp7-p200-v-noailles-secures-de-ferrari-at-marseilles.
+**中文：** 第7章p.200的直接S2候选已裁为正式赞助关系，见上表；所涉画作未作单件身份判断。
+
+**English:** The direct S2 candidate from chapter 7, p. 200 has been adjudicated as the formal patronage relation shown above; no individual picture is identified.

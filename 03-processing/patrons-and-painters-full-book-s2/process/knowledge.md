@@ -9767,3 +9767,27 @@ cand-6916 与 cand-6923 保持各自的S3 new决定，分别登记为“个人�
 **批后状态。** S3 决定类别未变：12,388/12,408；same 2,023（指向1,089个既有KU）、new 5,016（4,786组）、conflict 9、excluded 100、undecided 5,240。合并后的 S4 为 1,407/4,786 组、1,616/5,016 条候选映射；待登记3,379组／3,400条映射，其中直接关系端点1,635组／1,649条组成员映射，非直接1,744组／1,751条。S5字段12,067条（1,634条 `unverified`）。S6累计逐条裁决286/10,417条（189 formal、80 pending、17 rejected），尚余10,131条；关系表1,411条（1,408 formal、3 pending）。S2独立复核仍为9,537/15,182；候选关系裁决与本批S2定点修复均未改变其分子。
 
 **验证。** `audit_tables.py --strict-stage --summary` 无错误；保留两项既有警告：S4仍有3,400条映射待登记，S2语义质量仍需人工复核。`audit_relation_consistency.py --dry-run` 报告 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic relation 均为0。`build_field_facts.py` dry-run 为 record_changes=0、new_ids=0、removed_ids=0、warnings=0。三张受影响卡片在定向渲染后再次 preview 均无差异。
+
+<a id="s4-s5-s6-person-direct-endpoints-chp7-p200-20261022"></a>
+
+### S4/S5/S6 person：第七章 p.200 de Ferrari 与 del Po 直接端点（2026-10-22）
+
+#### S4 登记
+
+- 沿用既有 S3 `new` 组 `new-person:de-ferrari-gregorio-3448c4192e`，将 `cand-1021` 登记至 [Gregorio de Ferrari 人物卡](../../../04-knowledge/units/persons/gregorio-de-ferrari.md)。依据为索引 F.csv#36 与第7章 p.200 line 11。卡片只记录书内具名人物及画家语境；未访问外部身份源。
+- 沿用既有 S3 `new` 组 `new-person:del-giacomo-po-22f5d9a1b3`，将 `cand-1963`（索引 P.csv#164，页码200、201）与 `cand-7296`（第7章 p.200 line 11）共同映射至 [Giacomo del Po 人物卡](../../../04-knowledge/units/persons/giacomo-del-po.md)。这是同一全名锚点的索引／正文映射，不按姓氏相似合并；未访问外部身份源。
+
+#### S5 字段
+
+两卡各保存一条书内称名和一条来源语境角色字段，共新增4条 `source_backed` 字段。字段由全书索引及哈斯克尔第7章 p.200 的相应句段支持；不将未识别画布组、单件作品归属或未载日期转写为字段事实。
+
+#### S6 逐条裁决
+
+| statement_id | 端点／候选 | 决定 | 理由 |
+|---|---|---|---|
+| `st-chp7-p200-v-noailles-secures-de-ferrari-at-marseilles` | [Maréchal de Noailles](../../../04-knowledge/units/persons/marechal-de-noailles.md) → Gregorio de Ferrari | `formal` `patron_of`，`rel-1412` | p.200 line 11先称军事指挥官委托当地艺术家，继而记载Noailles说服de Ferrari赴马赛为其作画。现有受控 `patron_of` 的person→person域值域适配；关系限定为人物层面的赞助，不建立具体画作端点。原文“soon after”不换算成年份，画作仍未识别。 |
+| `st-chp7-p200-v-del-po-canvases-for-daun-palace` | Giacomo del Po → `cand-7300` 未识别画布组（S3 `undecided`） | `pending`，本批复核后维持 | del Po 人物端点现已登记，但画布组仍无可用KU，原文亦未给单件标题或艺术家—作品一一分配。保留此前待证决定，不重复新增裁决行，不写入 `relations.csv`。 |
+
+本批未涉及 `cand-4159` Queen；其身份与复制许可候选继续按既有过程记录待证。本批未新开 S3 裁决，两个身份组沿用现有 S3 `new` 决定。
+
+人物卡与诺阿耶卡片经 `build_cards.py --preview` 核对后定点渲染；del Po 卡预览无差异。批后：S4 已登记1,409/4,786组、1,619/5,016条映射；待登记3,377组／3,397条映射（直接端点1,633组／1,646条，非直接1,744组／1,751条）。S5字段表12,071条（1,634条 `unverified`）。S6累计逐项裁决287/10,417条（190 formal、80 pending、17 rejected），尚余10,130条；关系表1,412条（1,409 formal、3 pending）。S2与S3覆盖计数不变。

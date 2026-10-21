@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S4/S5/S6 person：第七章 p.200 de Ferrari 与 del Po 直接端点（2026-10-22）
+
+登记两个既有 S3 `new` 人物组、三条候选映射，并为两卡新增4条书内来源支持字段。Noailles—de Ferrari 候选依 p.200 对军事指挥官委托当地艺术家的语境及具体说服作画记载，裁为 `patron_of` formal（`rel-1412`）；关系限于人物赞助，不推定未识别画作。del Po—画布组候选复核后仍为 pending，因为 `cand-7300` 未完成身份对齐且无单件作品分配。本批未重开 S3、未访问外部身份源。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-person-direct-endpoints-chp7-p200-20261022)。
+
+批后：S4已登记1,409/4,786组、1,619/5,016条映射；待登记3,377组／3,397条（直接端点1,633组／1,646条，非直接1,744组／1,751条）。S5字段12,071条（1,634条 `unverified`）。S6已裁决287/10,417条（190 formal、80 pending、17 rejected），剩余10,130条；关系表1,412条（1,409 formal、3 pending）。S2为9,537/15,182；S3决定记录仍为12,388/12,408。
+
 ### S3/S4/S5/S6 archive：Roma XVIII（1940）与 1672 年 Avviso 跨章批次（2026-10-22）
 
 将 cand-5242、cand-6477、cand-6570 对齐为同一 Roma XVIII（1940）档案/期刊卷，并将 cand-6476 登记为独立的 1672 年 Avviso；本批 S2 定点修复了脚注引注主体，S2独立复核计数不变。新增11条来源支持字段；五条关系候选全部有去向：4 formal cites、1 pending。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch3-ch6-roma-xviii-1940-cross-chapter-20261022)。
