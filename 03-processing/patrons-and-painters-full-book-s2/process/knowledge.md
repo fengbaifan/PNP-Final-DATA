@@ -9586,3 +9586,35 @@ Turin更正只解决本候选的类型和身份去向，不表示S3全书收口�
 “Gigli kept a detailed diary”作为Haskell原书陈述保留。pending只表示当前关系词表不能准确表达该角色，不否认原书陈述。
 
 批后S3决定行仍为12,388/12,408，另有20项缺行未变；same 2,022、new 5,017（4,789组）、conflict 9、excluded 100、undecided 5,240。S4已登记1,388/4,789组、1,595/5,017条映射；待登记3,401组／3,422条，其中直接端点1,656组／1,671条，非直接1,745组／1,751条。S5字段12,024条、1,634条unverified。S6裁决248/10,417条（168 formal、66 pending、14 rejected）；关系表1,389条，source_id缺失0。
+
+<a id="s4-s5-s6-chp2-wooden-candlesticks-crucifixes-20261022"></a>
+### S2引文修订与S4/S5/S6：木制烛台、十字架端点批次（2026-10-22）
+
+**S2定点修订。** 第2章印刷页43、PDF物理页28的独立复核发现，两条Cardinal S. Onofrio订置物件的statement引文都截断在“sent them to”，未包括原文“the church”。已将 `st-chp2-secii-l141-145-s-onofrio-orders-candlesticks` 与 `st-chp2-secii-l141-145-s-onofrio-orders-crucifixes` 的 `original_quote` 延伸至完整句末“the church”。来源L143逐字支持新跨度；不新增或删除statement，不改变S2统一复核分子。该段此前的逐条复核记录见[s2-independent-review-chp1-2-4-20261020.md](s2-independent-review-chp1-2-4-20261020.md)。
+
+**S3/S4登记。** 未重开S3。保留现有两个互相区分的 `new` 身份组：`workgrp-f8ffd77be43521` → `units/works/dozen-wooden-candlesticks`（`cand-4537`，十二支烛台）与 `workgrp-93d64b0d557676` → `units/works/two-wooden-crucifixes`（`cand-4538`，两件十字架）。两个组均只含本组候选；不把同句出现的两个对象合并。新卡仅记录Haskell支持的对象类别、数量、材质和上下文，不补创作者、独立题名、安装状态或现存地点。
+
+**S5字段。** 每张卡新增作品类型、数量、材质三项字段。字段均由Haskell第2章L143直接支持；书内送达、退回及烛台获接收的信息在卡内按来源限定描述，不作为所有权、安装或现存地点字段。
+
+| KU | 字段 | 值 | 证据 |
+|---|---|---|---|
+| units/works/dozen-wooden-candlesticks | 作品类型 | 一组木制烛台；来源未给出独立正式题名 | S1；Haskell第2章，印刷页43，L143。 |
+| units/works/dozen-wooden-candlesticks | 数量 | 12支 | S1；Haskell第2章，印刷页43，L143。 |
+| units/works/dozen-wooden-candlesticks | 材质 | 木 | S1；Haskell第2章，印刷页43，L143。 |
+| units/works/two-wooden-crucifixes | 作品类型 | 一组木制十字架；来源未给出独立正式题名 | S1；Haskell第2章，印刷页43，L143。 |
+| units/works/two-wooden-crucifixes | 数量 | 2件 | S1；Haskell第2章，印刷页43，L143。 |
+| units/works/two-wooden-crucifixes | 材质 | 木 | S1；Haskell第2章，印刷页43，L143。 |
+
+**S6逐条裁决。** 两条“Cardinal S. Onofrio订置并送达”的候选裁为formal `supplied_by`，方向为作品→提供者；原文明确其订置并发送两组物件，但不据此推定制造者或创作者。三条退还／接收候选裁为pending：Haskell明确记载这些事件，但受控关系类型没有准确表达“退还”或“坚持接收”的谓词；`held_by`会错误表示当前保管，`owned_by`会错误表示所有权。没有为这些事件生成正式边。
+
+| S2 statement | S6决定 | 正式关系／待证理由 |
+|---|---|---|
+| `st-chp2-secii-l141-145-s-onofrio-orders-candlesticks` | formal | `rel-1390`，作品→Cardinal Antonio Barberini，`supplied_by`。 |
+| `st-chp2-secii-l141-145-s-onofrio-orders-crucifixes` | formal | `rel-1391`，作品→Cardinal Antonio Barberini，`supplied_by`。 |
+| `st-chp2-secii-l141-145-capuchin-reject-and-return-wooden-furnishings` | pending | Capuchin修士退回烛台；当前没有准确的退还谓词，且不表示现有保管。 |
+| `st-chp2-secii-l141-145-capuchin-return-crucifixes` | pending | Capuchin修士退回十字架；当前没有准确的退还谓词，且不表示现有保管。 |
+| `st-chp2-secii-l141-145-urban-insists-candlesticks-accepted` | pending | Urban VIII坚持后烛台被接受；当前没有准确的接收／施压谓词，不推定所有权或安装。 |
+
+正式边来源均为 `haskell-1980-rev-ed`，Haskell第2章L143、印刷页43（PDF物理页28）。只记录书中报告；不表示另行查阅了引文所述的原始账目或档案。
+
+**本批后状态变化：** S4新增2组、2条候选映射；S5新增6条source-backed字段；S6新增5条逐项裁决（2 formal、3 pending），relations.csv新增2条formal `supplied_by`。全书S2计数不变，S3决定行及各类身份决定不变。

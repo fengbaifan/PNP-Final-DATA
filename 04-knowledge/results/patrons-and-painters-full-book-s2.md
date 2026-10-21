@@ -71,16 +71,22 @@ S6 对第6章 p.166 注2和第7章 p.195 注3两条关系候选逐条裁为 form
 
 对照 CHP-7.pdf 印刷页202、物理页44，逐条复核13条statement与15条mention；跨度和页图一致，未改S2行。确认 `cand-2663` 指向Turin城市而非抽象term，将其从S3 `new` 身份组修订为 `same` → `units/places/turin`，类型更正为 `place`；没有新增S6关系。该13条计入统一逐条复核后，全书为9,503/15,182（62.6%），第七章1,112/1,252；两者均未接收。下一游标是第七章复合脚注 `chp-7:07_CHP-7_sec_v:l62-76`。详细证据及逐条理由见[复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/s2-independent-review-chp7-notes-20261021.md#第七章-p202-正文-s2-逐条语义复核)与[身份裁决记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-chp7-p202-turin-type-correction-20261022)。
 
+### S2/S4/S5/S6：第2章木制烛台与十字架直接端点（2026-10-22）
+
+第2章印刷页43、PDF物理页28的独立复核指出，两条Cardinal S. Onofrio订置陈设的statement引文截断于“sent them to”。已修正两条 `original_quote`，纳入来源L143中的“the church”；不增删statement，不改变S2统一复核计数。保留现有S3新组，分别登记十二支木制烛台和两件木制十字架，未重开S3。两张卡各新增三条直接有据的S5字段（类型、数量、材质）。
+
+S6逐项裁决五条候选：两条订置并送达候选以作品→提供者 `supplied_by` 裁为formal（rel-1390、rel-1391）；Capuchin修士退回两组物件的两条候选，以及Urban VIII坚持接收烛台的一条候选均裁为pending。来源虽然支持退还／接收事件，但当前受控谓词不能准确表达这些事实；不以`held_by`或`owned_by`替代。逐条理由见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-wooden-candlesticks-crucifixes-20261022)。
+
 ## 当前全书阶段总览（2026-10-22）
 
 - **S2：** 内部处理15,182条statement；统一口径独立逐条语义复核9,537/15,182（62.8%，第七章1,146/1,252），尚未接收；尚余5,645条未进入统一复核分子。第八章487/1,462；第3章1,173/1,174和第10–12章1,567/1,567另有独立章节复核记录，均未接收且不并入统一口径。本批34条既有statement计入统一复核分子；OCR校读与脚注回链更新不增删statement。S2机械覆盖832个segment（678 complete、154 excluded、queued=0），不等于语义复核完成。全书10,417条关系候选中，335条至少缺一个S2候选端点ID（仅缺subject 45、仅缺object 218、两端均缺72）。
 - **S3：** 候选共12,408项，其中12,388项有S3裁决行；另20项缺裁决行（person 16、archive 2、institution 2）。现有same=2,022（指向1,088个既有KU）、new=5,017（4,789组）、conflict=9、excluded=100、undecided=5,240；缺行不计入任何决定类别。
 - **S3未决类型：** undecided 5,240条，包括 work 1,625、person 1,078、archive 692、term 656、place 312、institution 120、event 115、family 18、procedure 2，以及类型未定622；另有9项冲突（work 5、person 4）。
-- **S4：** 已登记1,388/4,789组、1,595/5,017条候选映射；待登记3,401组／3,422条映射，直接端点1,656组／1,671条组成员映射。
-- **S5：** 字段表12,024条，其中1,634条为 unverified；未核字段按证据逐项处理。
-- **S6：** 关系表1,389条（1,386 formal、3 pending）；过程记录累计逐条裁决248/10,417条S2关系候选（168 formal、66 pending、14 rejected），其余10,169条待逐项裁决。
+- **S4：** 已登记1,390/4,789组、1,597/5,017条候选映射；待登记3,399组／3,420条映射，其中直接关系端点1,654组／1,669条组成员映射，非直接1,745组／1,751条。
+- **S5：** 字段表12,030条，其中1,634条为 unverified；本批新增6条source-backed字段。
+- **S6：** 关系表1,391条（1,388 formal、3 pending）；过程记录累计逐条裁决253/10,417条S2关系候选（170 formal、69 pending、14 rejected），其余10,164条待逐项裁决。
 - **S7：** 尚未启动；等待 S2 独立语义验收及 S3–S6 收口条件。知识发现与页面工作继续暂停。
-- **后续顺序：** ① 先逐项补齐20条缺少alignment裁决的候选（person 16、archive 2、institution 2），根据来源和跨章身份证据写入same/new/conflict/excluded/undecided及理由；不按类型或姓名默认决定。② 复核622条类型未定候选与9条冲突，再按类型进行全书跨章分组，建议先person、work、archive，再term、place、institution、event、family、procedure；每项明确复用对象、新身份组、冲突处置、排除依据或待证条件。③ S4按正式关系端点及证据完整度登记直接端点（当前1,657组／1,672条成员映射），逐批与S6候选裁决联动；pending/rejected保留理由。④ S2从第七章p.202复合脚注 `chp-7:07_CHP-7_sec_v:l62-76` 继续，再完成本章余下140条和第八章余下975条；之后按章节推进，并以statement ID核对第3章及第10–12章的独立复核是否并入口径。⑤ S5优先处理直接关系端点卡的关键字段，再按证据处理余下1,634条unverified字段；S6先裁S4直接端点，再按章节／关系类型分批处理剩余10,174条。S2尚未独立验收、S3尚有缺行／未决、S4–S6未收口；完成相应门禁后再准备S7。知识发现与页面仍等待用户明确启动。
+- **后续顺序：** ① 按关系解锁价值和证据完整度批次登记S4直接端点，并在同批逐条完成相应S6裁决；谓词不准确时保留pending。② 为已登记端点补入来源明确的S5关键字段。③ 按证据追踪335条缺少S2端点ID的关系候选；具名端点通过candidate-backlog按S1→S3→S4处理，端点未就绪的边保持pending。④ 继续分章S2独立语义审读和问题修订，并按statement ID核对独立复核记录，不自动合并不同口径。⑤ 仅当登记或新证据触发时定点重开S3，不批量重复既有决定。⑥ 直接端点完成后继续非直接S4、S5未验证字段和其余S6候选。满足S2独立验收与S3–S6收口门槛后准备S7；知识发现与页面仍等待用户明确启动。
 
 ### S2语义复核与S6待证裁决：第七章 p.200 正文（2026-10-21）
 
