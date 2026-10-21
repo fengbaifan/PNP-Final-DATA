@@ -13496,3 +13496,6 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 依据既有 p.161 L3–12 逐条审读中记录的引文方向问题，回读S0第6章印刷页161注2（Markdown L12）。该句是 Haskell 提示读者查阅 1672年4月9日avviso，不是“Jesuits 引用了 avviso”。将 `st-chp6-p161-note2-avviso` 的subject由 `cand-1321` Jesuits改为 `cand-2962`《赞助人与画家》，并将predicate由 `citation_locator`统一为 `footnote_citation`；保留 `cand-6476` avviso为被引对象、Roma XVIII第57页为定位信息。Jesuit indignation仅保留为引注语境，不转为新的关系事实。
 
 本次修订对应已有审读中“引文主体需复核”的明确待办，不新增或删除statement，也不增加独立语义复核覆盖计数。逐条S6去向及登记依据见[第3章—第6章 Roma XVIII 跨章批次](knowledge.md#s3-s4-s5-s6-ch3-ch6-roma-xviii-1940-cross-chapter-20261022)。
+### 2026-10-22：第15章 p.370 Daphnis print-series statement 定向修复
+
+已复核段 `chp-15:15_CHP-15_sec_ii:l61-67` 中的 `st-chp15-p370-querini-study-daphnis-chloe-print-series` 原将位置与目的合写。现将 location claim 收窄至 Querini study，并新增一条 purpose statement，限定为Haskell所述设计意图而非心理效果。`cand-10549` 仍S3 undecided，五条关联S6候选pending；不增加S2独立复核分子。第15章其余未修复项仍阻断章节接收。详见[逐条语义审读补记](s2-independent-review-chp13-17-20261020.md#s2-repair-chp15-p370-daphnis-print-series-20261022)及[知识过程](knowledge.md#s3-s4-s5-s6-chp15-cabane-inscription-huber-20261022)。

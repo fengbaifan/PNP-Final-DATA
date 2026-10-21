@@ -252,3 +252,10 @@ p.368–372 其余已读行的端点类型/方向、原文时序与推测限定�
 ## 当前累计与未覆盖范围
 
 截至本次记录，当前表版本已逐条核读第13章正文559条及20条plates visual transcription、第14章502条、第15章551条、第16章206条、第17章142条、结论24条、附录116条，累计 **2120/2120**；按当前分配范围没有剩余statement未审。第13–19章各范围均有待修/待证项，均不建议接收。第13章plates转录与附录receipt转录是不同来源，分别计20条和附录内2条，不重复计数。当前总表哈希为 `book-statements.jsonl` `a3379b08ef8323b8e2b169c80bc138641729917fd378de6380500f4ae58d678d`、`mentions.csv` `0de98420707e874d4828467b6177680ad41428cadf77aa22bffd9d1d60e1e3ee`。后续如哈希变化，仅对受影响差异行重核，不沿用旧版本覆盖数。本次只写入本审阅过程记录，未修改源文、statement、mention、candidate或知识卡。
+<a id="s2-repair-chp15-p370-daphnis-print-series-20261022"></a>
+
+## 2026-10-22：p.370 Daphnis and Chloe print-series 复合 statement 定向修复
+
+针对上表记录的 `st-chp15-p370-querini-study-daphnis-chloe-print-series`，回读第15章 p.370 L62 及 CHP-15.pdf physical p.10。将原 claim 限定为“版画组在 Querini 书房”，新增 `st-chp15-p370-querini-print-series-intended-to-lighten-mind` 单独记录“设计用于舒缓其过度劳累的心绪”。新 claim 保留 Haskell 的目的语气，不推论实际效果。因该版画组 `cand-10549` 仍无稳定身份边界，且无精确受控谓词表达目的，相关五条S6候选均记 pending；不建系列KU，不改 S3 `undecided`。此项是对已覆盖段的定向修订，不增加独立复核计数；p.361–367仍有待修/复核项，故第15章不接收。
+
+逐项 S4/S5/S6 记录见[知识过程](knowledge.md#s3-s4-s5-s6-chp15-cabane-inscription-huber-20261022)。

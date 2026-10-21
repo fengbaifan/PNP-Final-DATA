@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S2定向修复与 S4/S5/S6：第15章 p.370 小屋铭文、Huber 版画及 Daphnis print series（2026-10-22）
+
+拆分书房版画组statement的位置与设计目的；后者只记Haskell所述意图，不写成已证实效果。三个S3 `new`直接端点登记为地点、档案和作品KU，新增11条来源支持字段；本批10条 p.370 关系候选均有去向：5 formal、5 pending，版画组 `cand-10549` 继续 undecided。
+
+批后：S2 9,537/15,183（62.8%），未接收；S3决定记录12,388/12,408，类别未变；S4已登记1,412/4,786组、1,622/5,016映射，待登记3,374组／3,394条（直接端点1,630组／1,643条）；S5字段12,082（1,634 unverified）；S6已裁决297/10,418条（195 formal、85 pending、17 rejected），剩余10,121条；relations.csv 1,417条（1,414 formal、3 pending）。逐项端点、证据和待决理由见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp15-cabane-inscription-huber-20261022)。
+
 ### S4/S5/S6 person：第七章 p.200 de Ferrari 与 del Po 直接端点（2026-10-22）
 
 登记两个既有 S3 `new` 人物组、三条候选映射，并为两卡新增4条书内来源支持字段。Noailles—de Ferrari 候选依 p.200 对军事指挥官委托当地艺术家的语境及具体说服作画记载，裁为 `patron_of` formal（`rel-1412`）；关系限于人物赞助，不推定未识别画作。del Po—画布组候选复核后仍为 pending，因为 `cand-7300` 未完成身份对齐且无单件作品分配。本批未重开 S3、未访问外部身份源。逐项依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-person-direct-endpoints-chp7-p200-20261022)。

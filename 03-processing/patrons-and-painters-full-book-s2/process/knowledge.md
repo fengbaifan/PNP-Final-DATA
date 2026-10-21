@@ -9791,3 +9791,47 @@ cand-6916 与 cand-6923 保持各自的S3 new决定，分别登记为“个人�
 本批未涉及 `cand-4159` Queen；其身份与复制许可候选继续按既有过程记录待证。本批未新开 S3 裁决，两个身份组沿用现有 S3 `new` 决定。
 
 人物卡与诺阿耶卡片经 `build_cards.py --preview` 核对后定点渲染；del Po 卡预览无差异。批后：S4 已登记1,409/4,786组、1,619/5,016条映射；待登记3,377组／3,397条映射（直接端点1,633组／1,646条，非直接1,744组／1,751条）。S5字段表12,071条（1,634条 `unverified`）。S6累计逐项裁决287/10,417条（190 formal、80 pending、17 rejected），尚余10,130条；关系表1,412条（1,409 formal、3 pending）。S2与S3覆盖计数不变。
+<a id="s3-s4-s5-s6-chp15-cabane-inscription-huber-20261022"></a>
+### S2定向修复与S4/S5/S6：第15章 p.370 Cabane inscription、Huber 版画及 Daphnis print series（2026-10-22）
+
+#### S2 定向修复
+
+对照 Haskell 第15章 p.370、`15_CHP-15_sec_ii.md` L62、PDF physical p.10，修复已在统一逐条复核中覆盖的复合 statement `st-chp15-p370-querini-study-daphnis-chloe-print-series`。原 claim 同时表达“版画组存于 Querini 书房”与“设计目的在舒缓其过度劳累的心绪”，而既有主体、宾语和 `located_at` 只支持位置。现将原 statement 收窄为位置，并将“意在舒缓心绪”另记为 `st-chp15-p370-querini-print-series-intended-to-lighten-mind`。新行明确记录来源所述意图，不声称实际心理效果；候选版画组 `cand-10549` 仍保持 S3 `undecided`，不建立模糊的系列KU。该定向修复不增加独立复核分子；S2 statements 增至15,183，关系候选增至10,418。
+
+#### S4 与 S5
+
+按既有 S3 `new` 组登记三个可独立识别、且为已有 S2 关系候选直接端点的对象；未重开 S3：
+
+| Candidate | S3 identity group | KU | 书内边界 |
+|---|---|---|---|
+| `cand-10562` | `sg3-place-cand-10562` | `units/places/cabane-de-la-folie-querini-garden` | Haskell所称奎里尼园林语境中的茅草屋；园内精确位置及现存状态未定。|
+| `cand-10563` | `archive-group-7c37024b6884` | `units/archives/montaigne-dictum-cabane-de-la-folie` | 固定在屋门上的法文题辞；具体原件、文本版本及来源未识别。|
+| `cand-10566` | `workgrp-35f45dcf13bc35` | `units/works/jean-huber-engraving-voltaire-head-multiple-angles` | Haskell称由 Huber 创作、表现多个角度的 Voltaire 头像的版画；无题名、日期或存世印张。|
+
+S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,016条映射。待登记3,374组／3,394条映射；直接端点1,630组／1,643条，非直接1,744组／1,751条。S5从卡片字段表提取并复核11条 `source_backed` 字段（`enr-15841`–`enr-15851`），无 unverified 新增、来源登记变化或重复 occurrence；字段总数12,082，unverified仍1,634。
+
+#### S6 正式关系
+
+原书第15章 p.370 L67的关系按受控谓词、精确端点和语境逐条登记：
+
+| Relation | Statement | 裁决边界 |
+|---|---|---|
+| `rel-1413` `located_at` archive → place | `st-chp15-p370-cabane-de-la-folie-and-montaigne-inscription` | Haskell称题辞固定于小屋门上；不确认现存铭文或所据文本版本。|
+| `rel-1414` `authored_by` archive → person | `st-chp15-p370-montaigne-dictum-text-authored-by-montaigne` | 只记录Haskell的 Montaigne 归属表述；未独立核验格言来源。|
+| `rel-1415` `located_at` work → place | `st-chp15-p370-huber-voltaire-angle-engraving` | 只记录Haskell所述版画挂于小屋墙上；不表示当前地点或存世状态。|
+| `rel-1416` `created_by` work → person | `st-chp15-p370-huber-engraving-created-by-huber` | 只记录“one by Huber”的书内创作者归属。|
+| `rel-1417` `has_subject` work → person | `st-chp15-p370-huber-engraving-depicts-voltaire` | 表达版画以 Voltaire 头像为图像主题，不混同创作者。|
+
+#### S6 待证对象
+
+`cand-10549` 是尚未形成稳定边界的 Daphnis and Chloe print group，不能作为单一作品端点；`cand-0901` 的 archive 身份也未决。下列五项均记 `pending`，不写成 formal：
+
+| Statement | 待证原因／去向 |
+|---|---|
+| `st-chp15-p370-querini-study-daphnis-chloe-print-series` | 版画组身份未决；`cand-11538` study 虽为 S3 new，S4尚未登记。仅保留来源所述位置。|
+| `st-chp15-p370-daphnis-chloe-prints-illustrate-text` | subject为未定界版画组，object `cand-0901` 文献版本／范围未决。|
+| `st-chp15-p370-daphnis-chloe-prints-drawn-by-regent` | Regent端点已登记，版画组subject仍未定界。|
+| `st-chp15-p370-daphnis-chloe-prints-engraved-by-audran` | Audran端点已登记，版画组subject仍未定界。|
+| `st-chp15-p370-querini-print-series-intended-to-lighten-mind` | 来源表达目的而非实际效果；subject身份未决，现有受控谓词也没有精确表达该目的，保留原断言并待后续规则／身份支持。|
+
+本批 S3 不变：12,388/12,408 个候选有决定记录，缺行20；same=2,023（1,089个既有KU）、new=5,016（4,786组）、conflict=9、excluded=100、undecided=5,240（其中622项类型未决）。S6累计裁决297/10,418条（195 formal、85 pending、17 rejected），剩余10,121条；relations.csv为1,417条（1,414 formal、3 pending）。本批5条 pending 决定缺少可入正式关系表的稳定对象端点，逐条保存在本记录；formal 关系按表登记。没有新增外部身份来源或另行验证 Haskell 所引事实。第15章 p.361–367仍有独立审读缺项，因此本批不构成章节接收。
