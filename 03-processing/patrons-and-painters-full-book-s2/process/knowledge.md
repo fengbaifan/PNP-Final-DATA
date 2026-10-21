@@ -9973,3 +9973,33 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 卡片预览显示礼拜堂S5空间定位字段指向S. Ignazio，但本批S2/S6关系候选未单列礼拜堂与教堂的空间边。回核印刷页93 L185：Haskell先在同句指明左耳堂位于S. Ignazio，随后以“The chapel in the right transept”续指右耳堂礼拜堂；新增statement `st-chp3-seciv-l179-187-right-chapel-located-at-s-ignazio`，subject `cand-5454`（右耳堂礼拜堂），object `cand-5439`（教堂，已S3 same至`units/places/s-ignazio`），predicate `located_at`。两端均复用既有候选和决定，不重开S3；限定说明教堂名取自紧邻前句，未独立核验现状。同步将S5空间定位字段链接至既有教堂KU。
 
 该statement未经过独立逐条复核，因此统一S2覆盖分子仍为9,573、分母更新为15,195；第3章独立章节覆盖变为1,173/1,175。S6新增formal `rel-1431 located_at`（礼拜堂→S. Ignazio）。原候选`st-chp3-seciv-l179-187-annunciation-relief-in-right-chapel`仍pending：新增位置边不证明浮雕单独的安装或现存地点。批后S6累计339/10,424（209 formal、108 pending、22 rejected），关系表1,431条（1,428 formal、3 pending）。
+<a id="s3-s4-s5-s6-chp7-p175-bacchanals-20261022"></a>
+### S3定点复核与 S4/S5/S6：第七章 p.175 三幅 Bacchanals 端点批次（2026-10-22）
+
+**S3触发与决定。** 为登记直接关系端点，回核 `cand-1998` 当前S2锚点。旧S3说明称该索引候选无可核S2正文提及；现有 `mentions.csv` 已将 `m-chp7-p175-b-070` 精确定位到印刷页175 L69的“three Bacchanals”，同段statement `st-chp7-p175-i28` 也记录1635年订购三幅作品。原文提供了可登记的来源限定作品群边界，但没有单件作品身份、正式题名、完成状态或存世版本。故在本次直接端点登记触发下，将 `cand-1998` 从 `undecided` 定点改为 `new`，组 `sg3-work-cand-1998`，保留旧决定理由于 `prior_resolution_note`；未使用外部身份源，也未将作品群扩成三张单件卡。
+
+**S2端点定向修订。** 将 `st-chp7-p175-i28` 的端点和方向校正为作品群 `cand-1998` → 委托人 `cand-2189`，谓词 `commissioned_by`。新增两条原子statement：`st-chp7-p175-i28b-bacchanals-intended-for-chateau`（作品群 `cand-1998` → 城堡 `cand-6700`，`intended_for`）及 `st-chp7-p175-i28c-chateau-located-at-richelieu`（城堡 `cand-6700` → 地点 `cand-6701`，`located_at`）。现有mention已分别覆盖作品群、建筑与地名。此为定点端点修订，不是新的独立S2逐条审读；独立复核分子保持9,573，statement分母由15,195增至15,197。
+
+**S4登记。** 三组均建立独立KU并写入manifest及accepted登记；黎塞留人物 `cand-2189` 已映射至既有卡，本批没有重复处理。
+
+| S3候选 | 决定／组 | KU | 登记边界 |
+|---|---|---|---|
+| `cand-1998` | `new`／`sg3-work-cand-1998` | `units/works/three-bacchanals-ordered-by-richelieu-1635` | 原文所称三幅作品群；不认定单件作品或完成状态 |
+| `cand-6700` | `new`／`sg3-place-cand-6700` | `units/places/chateau-at-richelieu` | 来源中的城堡建筑；与枢机及地点分开 |
+| `cand-6701` | `new`／`sg3-place-cand-6701` | `units/places/richelieu-locality` | 原文地点指称；不扩展现代行政边界 |
+
+**S5来源字段。** 卡片表抽取新增11条字段 `enr-15904`–`enr-15914`，均引用 `haskell-1980-rev-ed`、`S1` 且为 `source_backed`。作品字段只记来源所称三幅作品群、数量、订购年份、委托人、预定地点和未说明的完成状态；城堡与地点卡只记该段支持的称谓及空间关系。本批没有增加 `unverified` 字段。
+
+**S6逐条裁决。** 三条直接关系候选均裁为 `formal`，并写入 `relations.csv`：
+
+| Statement | 决定 | 去向 |
+|---|---|---|
+| `st-chp7-p175-i28` | formal | `rel-1432 commissioned_by`：作品群 → Cardinal Richelieu；时间限定为1635年订购 |
+| `st-chp7-p175-i28b-bacchanals-intended-for-chateau` | formal | `rel-1433 intended_for`：作品群 → 黎塞留城堡；不表示完成安置 |
+| `st-chp7-p175-i28c-chateau-located-at-richelieu` | formal | `rel-1434 located_at`：城堡 → Richelieu 地点；不表示产权或行政归属 |
+
+三条边均以 `haskell-1980-rev-ed` 和原书印刷页175 L69为证据。S6裁决数增至342/10,426（212 formal、108 pending、22 rejected），余10,084条；关系表增至1,434条（1,431 formal、3 pending）。candidate-backlog仍5条历史记录、pending=0。
+
+**批后当前统计。** S2为9,573/15,197（63.0%，未接收），335条关系候选缺至少一个S2候选端点ID。S3决定行12,388/12,408：same=2,024（指向1,088个既有KU）、new=5,016（4,786组）、conflict=9、excluded=100、undecided=5,239（含622项类型未决），缺行20项。S4已登记1,434/4,786组、1,644/5,016条映射；待登记3,352组／3,372条映射，其中直接端点1,610组／1,624条，非直接1,742组／1,748条。S5共12,145条字段，1,634条 `unverified`。S6与关系表口径如上；S2/S5/S6均未全书收口。
+
+**必要检查。** `build_field_facts.py --apply` 预览无警告，新增11条来源字段且来源登记无变化；`audit_tables.py --summary` errors为空、`s2_missing=[]`；`audit_relation_consistency.py` 的 broken target、invalid relation type、missing inverse、weak evidence 均为0。`build_cards.py --check` 全库预检通过；定向渲染本批三张新卡及黎塞留人物卡共4个文件，写入后字节校验通过。

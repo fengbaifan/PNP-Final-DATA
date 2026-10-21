@@ -37,17 +37,17 @@ sources:
   sentence_summary: Treccani以Armand-Jean Du Plessis de Richelieu为规范条目名，称其为枢机和政治人物，生卒年为1585–1642；用于身份识别，不核实Haskell的艺术史叙述。
   original_quotes: []
 created: '2026-10-18'
-updated: '2026-10-18'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018
+updated: '2026-10-22'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本卡识别书中第2、7、18、20章所称的黎塞留枢机。Haskell称其为法国大臣，并记述他于1635年向Nicolas Poussin订购三幅画作，拟置于黎塞留城堡。此处记录书内说法；围绕该人物的15条S2关系候选仍待S6逐条审查。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**中文：** 本卡识别书中第2、7、18、20章所称的黎塞留枢机。Haskell称其为法国大臣，并记述他于1635年向Nicolas Poussin订购三幅画作，拟置于黎塞留城堡。此处记录书内说法；围绕该人物的15条S2关系候选仍待S6逐条审查。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022)
 
-**English:** This card identifies Cardinal Richelieu as named in Chapters 2, 7, 18, and 20. Haskell describes him as a French minister and reports that in 1635 he ordered three paintings from Nicolas Poussin for the château at Richelieu. This records Haskell’s account; the 15 S2 relation candidates involving him remain for item-by-item S6 review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**English:** This card identifies Cardinal Richelieu as named in Chapters 2, 7, 18, and 20. Haskell describes him as a French minister and reports that in 1635 he ordered three paintings from Nicolas Poussin for the château at Richelieu. This records Haskell’s account; the 15 S2 relation candidates involving him remain for item-by-item S6 review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022)
 
 ### 姓名与身份
 
@@ -63,11 +63,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份入口
 
-- **S3身份组：** `new-person:armand-jean-du-plessis-de-richelieu-20261018`；候选映射：`cand-2189`。该候选映射至本人物KU；身份裁决见[S3/S4过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)。
+- **S3身份组：** `new-person:armand-jean-du-plessis-de-richelieu-20261018`；候选映射：`cand-2189`。该候选映射至本人物KU；身份裁决见[S3/S4过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022)。
 - **外部身份记录：** [Treccani人物条目](https://www.treccani.it/enciclopedia/armand-jean-du-plessis-de-richelieu/)。支持人物身份与规范名称；不验证书中所述委托、交往、出版或艺术活动。
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [三幅酒神题材作品（Three Bacchanals ordered by Richelieu from Poussin, 1635）](../works/three-bacchanals-ordered-by-richelieu-1635.md) | S6 statement st-chp7-p175-i28; work-group candidate cand-1998; commissioner candidate cand-2189.；时间：1635；角色：作品群委托人；范围：Haskell states that Cardinal Richelieu ordered the source-described three Bacchanals from Poussin in 1635. This records the work-group commission only; individual paintings, execution, completion, and surviving versions are not identified.；原断言与证据见发出端卡片“三幅酒神题材作品（Three Bacchanals ordered by Richelieu from Poussin, 1635）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p. 175 L69; PDF physical p. 9 |
 
-本批未写入正式关系。与该人物对应的 15 条 S2 关系候选继续留待 S6 逐项审查；书内陈述和各自限定见 `book-statements.jsonl`。
+
+当前 formal 关系由 `relations.csv` 与卡内关系表呈现。本批新增其作为三幅酒神题材作品委托人的关系；其他候选仍以全书 S6 过程记录中的逐项状态为准。
