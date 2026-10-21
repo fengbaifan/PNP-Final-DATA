@@ -136,3 +136,8 @@ p.134正文复核14条既有statement并新增13条原子statement，27条现全
 p.144新增候选 cand-12323 和精确mention m-chp5-p144-derossi-small-pictures，将De’ Rossi取得的Rosa小幅作品组与其私人博物馆及礼拜堂祭坛画分开；具体题名、数量未给出。p.145新增 cand-12324–cand-12327，分别表示De Dominici所述Giordano受众类别、Passeri所述作品出现的住所组、Rosa所抨击的conventional patronage，以及Haskell所述contemporary patronage的outer circles。四项均只按原文范围建模；前一引文不转归Rosa，住所不推定具体地址，社会成员身份不外推。“no one would take seriously”没有可界定受众，继续开放。无新增KU或S6正式关系。
 
 写后严格阶段表审计通过：12,305 candidates、26,500 mentions、15,118 statements，开放端点481；errors=[]、s2_missing=[]。SHA-256及恢复副本见全书S2过程记录。
+
+
+## 定点S2独立复核补充（2026-10-22）
+
+第5章 p.138 `chp-5:05_CHP-5_sec_iii:l82-93` 的36条statement已逐条核读；31条既有mention跨度精确，补入4条缺失候选mention。为跨章确认同一死亡事件，第6章 p.146另补1条Urban VIII之死的精确mention，不把该局部修复记为整段复核。此项不代表第5章或全书接收；逐项依据见[S2复核记录](../process/s2-independent-review-chp5-20261022.md#s2-review-chp5-p138-battle-discussion-20261022)及[跨阶段批次](../process/knowledge.md#s3-s4-s5-s6-chp5-p138-cerquozzi-battle-discussion-20261022)。

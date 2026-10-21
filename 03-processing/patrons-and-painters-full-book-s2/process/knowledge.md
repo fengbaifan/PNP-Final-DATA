@@ -9835,3 +9835,40 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 | `st-chp15-p370-querini-print-series-intended-to-lighten-mind` | 来源表达目的而非实际效果；subject身份未决，现有受控谓词也没有精确表达该目的，保留原断言并待后续规则／身份支持。|
 
 本批 S3 不变：12,388/12,408 个候选有决定记录，缺行20；same=2,023（1,089个既有KU）、new=5,016（4,786组）、conflict=9、excluded=100、undecided=5,240（其中622项类型未决）。S6累计裁决297/10,418条（195 formal、85 pending、17 rejected），剩余10,121条；relations.csv为1,417条（1,414 formal、3 pending）。本批5条 pending 决定缺少可入正式关系表的稳定对象端点，逐条保存在本记录；formal 关系按表登记。没有新增外部身份来源或另行验证 Haskell 所引事实。第15章 p.361–367仍有独立审读缺项，因此本批不构成章节接收。
+
+
+<a id="s3-s4-s5-s6-chp5-p138-cerquozzi-battle-discussion-20261022"></a>
+### S2/S3/S4/S5/S6：第5章 p.138 战事绘画跨章端点批次（2026-10-22）
+
+**S2逐条复核与mention修复。** 对照第5章 p.138（PDF物理页23），逐条复核段 `chp-5:05_CHP-5_sec_iii:l82-93` 的36条statement；已有31条mention跨度均精确。补入4条候选mention：`cand-11931`“princes and prelates”、`cand-11932`“death of Urban VIII”、`cand-11933`在L89、L90的两处泛指战争跨度。第6章 p.146 L8同一事件补入 `m-chp6-p146-sec-i-055`，并将 `cand-11932` 加入 `st-chp6-p146-urban-death` 的候选mention列表；未改变该statement主客体、谓词或claim。完整复核记录见[S2逐条复核](s2-independent-review-chp5-20261022.md#s2-review-chp5-p138-battle-discussion-20261022)。
+
+**S3跨章身份。** `cand-6152`（战事绘画题材）、`cand-6155`（滑铁卢战役比较指称）和 `cand-11932`（乌尔班八世之死）沿用既有 `new` 组；cand-11932的Ch5与Ch6精确mention共同锚定同一死亡事件，和作为前序事件的 `cand-6259` 1644年3月和约、其后的选举事件 cand-6260分别保留。`cand-6159`保持 `sg3-term-cand-6159`，并与第10章 `cand-9695` 分开：前者是战事场景的引述性效果评价，后者是十八世纪艺术倾向；与 `cand-6154` 的Saxl分析也不同。本轮未用外部身份源。既有对齐行 `aln-6340`、`aln-12094`、`aln-12096` 补入跨章比较和mention证据；原决定与旧理由保留在同一行。`cand-11931`与`cand-11933`仍为 `undecided`：前者是无成员、无组织锚点的跨身份社交群体，当前类型不稳定；后者的两个mention均指宽泛复数战争集合，没有单一事件边界。两项均继续为`undecided`，并保留精确mention及待证去向；二者不进入S4。
+
+**S4登记。** 新增4个KU及4条candidate映射：
+
+| Candidate／组 | 类型 | KU |
+|---|---|---|
+| `cand-6152`／`sg3-term-cand-6152` | term | [切尔奎齐的战事绘画题材](../../../04-knowledge/units/terms/cerquozzi-battle-painting-genre.md) |
+| `cand-6159`／`sg3-term-cand-6159` | term | [哈斯克尔所述战事场景的“现实感”](../../../04-knowledge/units/terms/battle-scene-realism-haskell.md) |
+| `cand-6155`／`sg3-event-cand-6155` | event | [滑铁卢战役](../../../04-knowledge/units/events/battle-of-waterloo-stendhal-comparison.md) |
+| `cand-11932`／`sg3-event-cand-11932` | event | [教皇乌尔班八世之死](../../../04-knowledge/units/events/death-of-pope-urban-viii.md) |
+
+卡片只记录Haskell书内语境；滑铁卢卡不延伸为战役史，乌尔班八世卡不推定具体死亡日期。
+
+**S5来源支持字段。** 新增5条Haskell书内字段 `enr-15852`–`enr-15856`：战事题材专擅、相对 *Bambocciate* 的作者评价、场景“现实感”、滑铁卢比较语境、乌尔班八世之死的跨章锚点。S5未验证字段数不变。
+
+**S6关系裁决。** 本批裁决7条直接关联新增KU或修复提及的S2候选；同段另外13条关系候选不在本批裁决范围，继续留在S6总队列。
+
+| Statement | 决定 | 理由与去向 |
+|---|---|---|
+| `st-chp5-p138-battle-specialization` | pending | 当前受控谓词没有“专擅某题材”；不以 `instantiates` 替换人物专长。 |
+| `st-chp5-p138-realism-waterloo-comparison` | pending | 这是场景效果解释；受控谓词不能准确表达“疏离突出现实感”，不以 `has_subject` 代替。 |
+| `st-chp5-p138-vicarious-participation` | pending | 画作提供观者的替代性参与机会，当前谓词不能表达该效果；战争集合身份仍待证。 |
+| `st-chp5-p138-work-characterization` | pending | `friend_of` 的值域要求人物；`cand-11931`未具名且未定类型。 |
+| `st-chp5-p138-patronage-political-shift` | pending | 事件端点已登记，但当前词表没有人物处境受事件影响的精确关系类型。 |
+| `st-chp5-p138-battle-genre-described-as-more-respectable-than-bambocciate` | rejected | “更受尊重”是Haskell的比较性评价，不转为正式图谱边；S2和S5仍保留原始评价。 |
+| `st-chp5-p138-battle-imagery-foreshadowed-stendhals-view-of-waterloo` | rejected | “有时几乎像在预示”是受限定的文学类比，不是战役间正式关系。 |
+
+本批未新增formal关系，`relations.csv`不变；五条待证关系与两条被否决图谱边均保留原书陈述。
+
+**本批后状态。** S2为9,573/15,183（63.1%，未接收）；S3仍有12,388/12,408项有决定行，same=2,023、new=5,016（4,788组）、conflict=9、excluded=100、undecided=5,240。S4已登记1,417/4,788组、1,626/5,016条映射；待登记3,371组／3,390条，其中直接关系端点1,626组／1,639条成员映射，非直接1,745组／1,751条。S5为12,087条字段（1,634条unverified）。S6逐条裁决304/10,418条（195 formal、90 pending、19 rejected），尚余10,114条；关系表仍为1,417条（1,414 formal、3 pending）。

@@ -13499,3 +13499,10 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第15章 p.370 Daphnis print-series statement 定向修复
 
 已复核段 `chp-15:15_CHP-15_sec_ii:l61-67` 中的 `st-chp15-p370-querini-study-daphnis-chloe-print-series` 原将位置与目的合写。现将 location claim 收窄至 Querini study，并新增一条 purpose statement，限定为Haskell所述设计意图而非心理效果。`cand-10549` 仍S3 undecided，五条关联S6候选pending；不增加S2独立复核分子。第15章其余未修复项仍阻断章节接收。详见[逐条语义审读补记](s2-independent-review-chp13-17-20261020.md#s2-repair-chp15-p370-daphnis-print-series-20261022)及[知识过程](knowledge.md#s3-s4-s5-s6-chp15-cabane-inscription-huber-20261022)。
+
+
+### 2026-10-22：第5章 p.138 端点触发的S2复核与跨章mention补足
+
+对 `chp-5:05_CHP-5_sec_iii:l82-93` 的36条statement逐条复核，31条既有mention跨度均精确；增加4条缺失candidate mention。另为第6章p.146的Urban VIII之死添加精确mention，供同一事件跨章对齐；原关系statement端点与谓词未改。S2统一复核增至9,573/15,183，章节不作接收结论。复核证据见[S2记录](s2-independent-review-chp5-20261022.md#s2-review-chp5-p138-battle-discussion-20261022)，身份与S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-chp5-p138-cerquozzi-battle-discussion-20261022)。
+
+按现有来源顺序，下一S2游标仍为第七章视觉转录标题 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`：先核对图版清单是否已覆盖，去重后再进入下一未复核源段。本次第5章局部复核由直接端点批次触发，不移动该章序游标。
