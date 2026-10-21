@@ -78,6 +78,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）](../works/mazarin-gallery-vault-decoration.md) | 角色：宫殿装饰委托者；范围：马扎然宫上层画廊装饰；不把1644年建筑扩建委托等同绘画完工日期；原断言与证据见发出端卡片“马扎然画廊穹顶装饰（Vault Decoration of the Galerie Mazarine）”：[来源](https://www.bnf.fr/en/mazarin-gallery)；src-74f81a2927eecba5；La galerie d’apparat du palais Mazarin：委托、绘制者、灰泥与上层穹顶 |
+| ← 雇主（`employer_of`，反向投影） | [尼古拉·富凯（Nicolas Fouquet）](nicolas-fouquet.md) | past-tense雇佣事实按来源限定记录，不补年份；角色：employment；范围：Haskell says Fouquet had been employed by Mazarin; the employment period is not specified.；原断言与证据见发出端卡片“尼古拉·富凯（Nicolas Fouquet）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, p.186, L221–222 |
+| ← 雇主（`employer_of`，反向投影） | [让-巴蒂斯特·柯尔贝尔（Jean-Baptiste Colbert）](jean-baptiste-colbert.md) | past-tense雇佣事实按来源限定记录，不补年份；角色：employment；范围：Haskell says Colbert had been employed by Mazarin; the employment period is not specified.；原断言与证据见发出端卡片“让-巴蒂斯特·柯尔贝尔（Jean-Baptiste Colbert）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, p.186, L221–222 |
 
 ### 关系候选入口
 

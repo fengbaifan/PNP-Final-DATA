@@ -63,3 +63,9 @@ The index main entry `Fouquet, Nicolas` (F.csv#77) points to p. 186; the surname
 - `st-chp7-p187-i01`
 
 “意大利艺术的热情收藏者”是 Haskell 对 Fouquet 与 Colbert 的共同描述；本次未据此补作品、收藏清单或正式关系，未写入 `relations.csv`。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 受雇于（`employed_by`） | [朱尔·马扎然（Jules Mazarin）](mazarin.md) | past-tense雇佣事实按来源限定记录，不补年份；角色：employment；范围：Haskell says Fouquet had been employed by Mazarin; the employment period is not specified.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, p.186, L221–222 |

@@ -9872,3 +9872,40 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 本批未新增formal关系，`relations.csv`不变；五条待证关系与两条被否决图谱边均保留原书陈述。
 
 **本批后状态。** S2为9,573/15,183（63.1%，未接收）；S3仍有12,388/12,408项有决定行，same=2,023、new=5,016（4,788组）、conflict=9、excluded=100、undecided=5,240。S4已登记1,417/4,788组、1,626/5,016条映射；待登记3,371组／3,390条，其中直接关系端点1,626组／1,639条成员映射，非直接1,745组／1,751条。S5为12,087条字段（1,634条unverified）。S6逐条裁决304/10,418条（195 formal、90 pending、19 rejected），尚余10,114条；关系表仍为1,417条（1,414 formal、3 pending）。
+
+<a id="s4-s5-s6-ch7-p186-direct-endpoints-20261022"></a>
+### S2/S4/S5/S6：第七章 p.186 画廊、教堂工程与脚注端点（2026-10-22）
+
+**S2定向修订。** 对照印刷页186（PDF物理页24）及既有逐条审读记录，修订14条既有statement，拆出8条原子statement（`i21`–`i28`）。将挂毯位置、前任持有人、审美评价、三幅告别画作、修会分支、教堂遗嘱用途、Guarini工程与完成时序分别表达；纠正p.186 L219 的 `aile` 印本读法为 `alle`，移除 `isolated-example` 的错误OCR更正。原S0未改。p.186注1补入Wittkower作者及 `1958, p. 269` 两条精确mention（`5752:5761`、`5763:5775`）；被引页未独立查阅。新增statement没有另计为独立语义复核，S2复核分子不变。
+
+**S3与S4。** 未改动S3决定；沿用10个既有 `new` 组，登记为KU并映射其候选：`cand-6863`、`cand-6864`、`cand-6872`、`cand-6875`、`cand-6869`、`cand-6877`、`cand-6878`、`cand-6880`、`cand-6881`、`cand-6886`。其中 `cand-6869` Titian’s Venus 保持独立，不与p.185的Venus del Pardo合并。新卡共补23条直接由Haskell书页支持的S5字段（`enr-15857`–`enr-15879`）；`unverified` 数量不变。按关系表变化渲染本批10张卡及6张既有端点卡。
+
+**S6逐条裁决。** 本段及注1共23条关系候选均有明确去向：5 formal、15 pending、3 rejected。正式边仅记录书内明确位置、来源限定的作品归属、两项任职关系及脚注引文。没有把词表已有但域值域矩阵缺项的 `instantiates`、`replaces` 直接写为formal；未把整个Theatine修会当作来源中未具名的“一支分支”。
+
+| statement_id | 决定 | 裁决与去向 |
+|---|---|---|
+| `st-chp7-p186-i01` | formal | `rel-1418`，挂毯位于Brienne所述小画廊；限定为来源记载，版本未定。 |
+| `st-chp7-p186-i02` | pending | 设计归属见于Brienne引文；当前没有精确的 `designed_by` 谓词，不能用 `created_by` 代替。 |
+| `st-chp7-p186-i03` | rejected | 告别时对离开画作的感慨不是持续的人物—收藏关系；原陈述保留。 |
+| `st-chp7-p186-i04` | rejected | Cortège只在一次引述中被点名；不建立持续作品关系。 |
+| `st-chp7-p186-i05` | rejected | “from the grave”是Haskell修辞性解释，不表示Mazarin死后实际施行赞助行为。 |
+| `st-chp7-p186-i06` | pending | 召请一支修会分支赴巴黎；没有精确受控谓词，分支也未与整个Theatine组织区分登记。 |
+| `st-chp7-p186-i07` | pending | 遗嘱留款及重建用途明确，但当前词表没有精确的遗赠／款项转移谓词。 |
+| `st-chp7-p186-i08` | pending | 记录遗嘱中的心脏安葬指示，不推为实际安葬；当前无精确的遗嘱指示谓词。 |
+| `st-chp7-p186-i09` | pending | Theatines召来Guarini参与工程；没有精确召请谓词，不改写为已核验的建造委托。 |
+| `st-chp7-p186-i10` | pending | 来源说Guarini开始工程，但未说他受委托或受托建造；无精确谓词。 |
+| `st-chp7-p186-i11` | pending | 立面取法于S. Carlo的来源判断保留；work→place不符合现行域值域矩阵。 |
+| `st-chp7-p186-i13` | pending | “未迁就当时法国实践”是比较性评价，没有精确受控谓词。 |
+| `st-chp7-p186-i14` | pending | `instantiates` 的域值域矩阵缺项；不扩写规则来制造formal边。 |
+| `st-chp7-p186-i15` | pending | 可能阻止后续尝试是限定性解释，未指明尝试者或具体实验对象。 |
+| `st-chp7-p186-i17` | pending | Fouquet被捕与Louis XIV掌权之间是时间语境；当前没有精确时间谓词。 |
+| `st-chp7-p186-i18` | pending | 原文称Colbert接替Fouquet，但 `replaces` 的域值域矩阵缺项。 |
+| `st-chp7-p186-i19` | formal | `rel-1420`，Fouquet曾受Mazarin雇用；不补任期。 |
+| `st-chp7-p186-i20` | formal | `rel-1421`，Colbert曾受Mazarin雇用；不补任期。 |
+| `st-chp7-p186-i21` | pending | Brienne称挂毯曾属Saint-André元帅；完整人物身份未解决，保留来源断言。 |
+| `st-chp7-p186-i23` | formal | `rel-1419`，引文把未定版本的Venus归于Titian；不与p.185作品合并。 |
+| `st-chp7-p186-i24` | pending | 引文把Deluge归于Antoine Carrache，但人物身份和作品版本仍未在S3解决。 |
+| `st-chp7-p186-i25` | pending | 一支未具名Theatine分支定居塞纳河岸；`cand-2564`代表修会整体，分支端点未确立。 |
+| `st-chp7-p186-n1-cite-wittkower` | formal | `rel-1422`，Haskell注1引Wittkower（1958）第269页；不声称已读该页。 |
+
+**批后状态。** S2为9,573/15,191（63.0%，未接收），第七章1,146/1,260。S3仍有12,388/12,408项决定行；same=2,023、new=5,016（4,788组）、conflict=9、excluded=100、undecided=5,240。S4已登记1,427/4,788组、1,636/5,016条映射；待登记3,361组／3,380条，其中直接端点1,616组／1,629条成员映射，非直接1,745组／1,751条。S5字段12,110条（1,634条unverified）。S6累计逐条裁决327/10,420条（200 formal、105 pending、22 rejected），尚余10,093条；关系表1,422条（1,419 formal、3 pending）。

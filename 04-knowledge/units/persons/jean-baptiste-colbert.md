@@ -94,3 +94,9 @@ English: The postscript’s phrase “through Colbert” describes an intermedia
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 受雇于（`employed_by`） | [朱尔·马扎然（Jules Mazarin）](mazarin.md) | past-tense雇佣事实按来源限定记录，不补年份；角色：employment；范围：Haskell says Colbert had been employed by Mazarin; the employment period is not specified.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, p.186, L221–222 |

@@ -111,6 +111,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 只确认Haskell的书目引用，不确认被引页内容；角色：footnote 1 citation；范围：Chapter 7, p.186, footnote 1 cites Wittkower (1958), p.269; the cited page was not independently consulted.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, p.186, footnote 1, L361 |
+
 
 6条S2关系候选仍待S6逐项审查：`st-chp1-secii-l661-n3-cites-wittkower-1958-p96`、`st-chp1-secii-p12-n2-cites-wittkower-1958-p218`、`st-chp6-notes-l122-p148-n1`、`st-chp6-p149-n1-cites-wittkower-1958-p141`、`st-chp7-p186-n1-cite-wittkower`、`st-chp7-p187-n6-cite-wittkower`。本批不把引文直接转为正式关系，也不把书目当作被引页内容的独立核验。
