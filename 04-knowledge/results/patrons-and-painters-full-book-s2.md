@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S3跨章身份复用与 S4/S5/S6：教会机构及关系端点（2026-10-22）
+
+`cand-3400` 经跨章来源复核从 `new` 改为 `same`，复用第9章p.268 `cand-8672` 已建立的教会机构KU；该决定仅统一Haskell书内的机构指称，不作外部身份或连续性断言。既有卡片扩展至第1–4、8–10章语境，新增1条有原书依据的S5字段。8条直接S6候选逐项裁决：3条formal（`rel-1435`–`rel-1437`），3条pending，2条因端点错置rejected。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-church-institution-cross-chapter-20261022)。
+
+批后：S2为9,573/15,197，未接收；S3决定行12,388/12,408，same=2,025（1,089个既有KU）、new=5,015（4,785组）、undecided=5,239，缺行20；S4已登记1,434/4,785组、1,644/5,015条映射，待登记3,351组／3,371条（直接端点1,609组／1,623条）；S5字段12,146条（1,634条`unverified`）；S6累计裁决350/10,426（215 formal、111 pending、24 rejected），余10,076条；`relations.csv`为1,437条（1,434 formal、3 pending）。
+
 ### S3定点复核与 S4/S5/S6：第七章 p.175 三幅 Bacchanals 端点批次（2026-10-22）
 
 `cand-1998`在S4直接端点登记触发下，依据印刷页175 L69及现有S2正文mention从`undecided`定点修订为来源限定的三幅作品群`new`；不识别单件作品或完成状态。登记三组：作品群、黎塞留城堡及Richelieu地点；黎塞留人物复用既有卡。修正作品群委托端点，新增预定地点与城堡所在地两条原子statement。新增11条`source_backed`的S5字段。三条相关S6候选全部裁为formal（`rel-1432`–`rel-1434`），关系表增至1,434条（1,431 formal、3 pending）。独立S2复核分子不变。逐项依据见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022)。

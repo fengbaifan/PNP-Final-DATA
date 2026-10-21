@@ -58,3 +58,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 以下8条直接 S2 关系候选留待 S6 逐项审查；本卡不将其登记为正式关系：st-chp4-sec-ii-l232-308-cassiano-admitted-to-lincei, st-chp4-sec-ii-l232-308-cesi-identified-as-founder, st-chp4-sec-ii-l232-308-clerical-patronage-and-church-conflict, st-chp4-sec-ii-l232-308-heresy-charges-and-attacks-left-lincei-firm, st-chp4-sec-ii-l232-308-lincei-described-as-scientific-ancestor, st-chp4-sec-ii-l232-308-lincei-disintegrated-after-cesi-death, st-chp4-sec-ii-l232-308-lincei-membership-rule, st-chp4-sec-ii-l232-308-lynx-metaphor-and-suppression。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 争执（`disputed_with`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](church-as-patron-in-venice-haskell-account.md) | S2 statement st-chp4-sec-ii-l232-308-clerical-patronage-and-church-conflict; controlled predicate disputed_with preserves the stated institutional conflict without treating Haskell’s causal interpretation as independently verified.；角色：冲突对方；范围：Haskell says the Lincei members’ research objective led to trouble with the Church despite individual piety. This records only Haskell’s authorial characterization; it does not independently verify a specific proceeding, doctrinal dispute or institutional action.；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p. 99 L233 |

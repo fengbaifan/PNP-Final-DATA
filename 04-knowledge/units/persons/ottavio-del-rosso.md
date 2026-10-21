@@ -65,4 +65,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](../institutions/church-as-patron-in-venice-haskell-account.md) | S2 statement st-chp8-p211-ottavio-entered-church; the text does not identify a religious order.；角色：宗教机构成员归属；范围：Haskell says Ottavio entered the Church. This records institutional affiliation only; no religious order, office, date or later appointment is inferred.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p. 211 L86–87 |
+
 目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 4 条（st-chp8-p210-house-inhabited-by-ottavio-del-rosso, st-chp8-p211-ottavio-bishop-volterra, st-chp8-p211-ottavio-entered-church, st-chp8-p211-ottavio-lived-in-volterra），保留待 S6 审查；本卡登记不等于关系裁决。

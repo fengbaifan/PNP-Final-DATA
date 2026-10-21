@@ -94,3 +94,9 @@ English: This identification follows the continuous Chapter 8 account, the p.221
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 隶属／任职于（`member_of`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](../institutions/church-as-patron-in-venice-haskell-account.md) | S2 statement st-chp8-p221-ruffo-enters-church; the next sentence names later offices but does not date his entry into the Church.；角色：宗教机构成员归属；范围：Haskell says Ruffo entered the Church. This records institutional affiliation only; no order or entry date is inferred.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221 L116 |

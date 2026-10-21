@@ -10003,3 +10003,31 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 **批后当前统计。** S2为9,573/15,197（63.0%，未接收），335条关系候选缺至少一个S2候选端点ID。S3决定行12,388/12,408：same=2,024（指向1,088个既有KU）、new=5,016（4,786组）、conflict=9、excluded=100、undecided=5,239（含622项类型未决），缺行20项。S4已登记1,434/4,786组、1,644/5,016条映射；待登记3,352组／3,372条映射，其中直接端点1,610组／1,624条，非直接1,742组／1,748条。S5共12,145条字段，1,634条 `unverified`。S6与关系表口径如上；S2/S5/S6均未全书收口。
 
 **必要检查。** `build_field_facts.py --apply` 预览无警告，新增11条来源字段且来源登记无变化；`audit_tables.py --summary` errors为空、`s2_missing=[]`；`audit_relation_consistency.py` 的 broken target、invalid relation type、missing inverse、weak evidence 均为0。`build_cards.py --check` 全库预检通过；定向渲染本批三张新卡及黎塞留人物卡共4个文件，写入后字节校验通过。
+
+<a id="s3-s4-s5-s6-church-institution-cross-chapter-20261022"></a>
+### S3跨章身份复用与 S4/S5/S6：教会机构及关系端点（2026-10-22）
+
+**S3身份决定。** 复核 `cand-3400` 的跨章来源用法：第1、2章出现Church领土、遗产与为Church取得Urbino的语境；第3章谈修会与教阶；第4章p.99将林采学院成员的研究目标与“trouble with the Church”联系；第8章p.211、p.221记Ottavio和Ruffo进入Church；第10章又将Church称为传统赞助来源及委托主体。第9章p.268的既有候选 `cand-8672` 已建立同书的教会机构KU。将 `cand-3400` 从 `new` 改为 `same`，复用该KU；这只统一Haskell书内的机构指称，不主张外部组织的法律身份、边界或跨时期连续性，也不把Church与教廷国家、领土、宗教修会、城市或教堂建筑等同。
+
+| 候选 | 决定 | 既有KU | 依据与边界 |
+|---|---|---|---|
+| `cand-3400` | `new` → `same` | `units/institutions/church-as-patron-in-venice-haskell-account` | 跨章语境均指书内机构性Church；与第9章p.268 `cand-8672` 复用同一来源限定KU。无外部机构核验。 |
+
+**S4/S5。** 无新增KU；更新既有KU标题和跨章双语描述，补入第1–4、8–10章的S1来源定位，并将一条“书内跨章指称与边界”结构化字段写入S5。字段来自原书，不新增来源记录；S5未验证数量不变。
+
+**S6逐候选裁决。** 本批8条S2关系候选均有明确去向：
+
+| S2 statement | 决定 | S6去向与理由 |
+|---|---|---|
+| `st-chp4-sec-ii-l232-308-clerical-patronage-and-church-conflict` | formal | `rel-1435 disputed_with`：林采学院→Church。保留Haskell“研究目标导致与Church发生麻烦”的作者性表述，不称为独立核实的诉讼、教义争议或机构行动。 |
+| `st-chp8-p211-ottavio-entered-church` | formal | `rel-1436 member_of`：Ottavio→Church。只记进入Church，不推断修会、职务、日期或后续任命。 |
+| `st-chp8-p221-ruffo-enters-church` | formal | `rel-1437 member_of`：Ruffo→Church。不据后文职务推定入教日期或修会。 |
+| `st-chp9-p268-church-altarpiece-market` | pending | `cand-12389` 尚无S4 KU登记，且现有端点/受控谓词不能完整表达Church需求提供现代绘画市场的语义；等待市场对象登记及关系表达核定。 |
+| `st-chp9-p268-church-leading-patron` | pending | `cand-2735` 的Venice身份仍未决，且Venice是地点语境而非赞助对象；等待艺术对象端点或合适表示方式。 |
+| `st-chp9-p268-history-painters-church-work` | pending | `cand-8676` 是未具体识别的历史画家集合，类型与成员边界未决；不将群体概括强制登记为个人关系。 |
+| `st-chp9-p268-church-decoration-patrician-ideals` | rejected | 原句主语是教堂装饰，当前关系端点却把机构Church作为主语并把贵族理想实体化；现有S2端点不支持该正式边。 |
+| `st-chp9-p268-noble-commissions` | rejected | 原句中的“church”是贵族委托和雇用画家发生的场所；Church机构不是该委托关系的对象。保留S2原句，不改写为贵族赞助教会。 |
+
+三条formal边均以 `haskell-1980-rev-ed` 及对应印刷页行号为证据。`relations.csv` 增至1,437条（1,434 formal、3 pending）；S2候选断言及五条威尼斯段落候选的待证/拒绝理由均保留。
+
+**批后当前统计。** S2为9,573/15,197（63.0%，未接收），10,426条关系候选中335条缺至少一个S2候选端点ID。S3决定行12,388/12,408：same=2,025（指向1,089个既有KU）、new=5,015（4,785组）、conflict=9、excluded=100、undecided=5,239（含622项类型未决），缺行20项。S4已登记1,434/4,785组、1,644/5,015条候选映射；待登记3,351组／3,371条映射，其中直接端点1,609组／1,623条成员映射，非直接1,742组／1,748条。S5为12,146条字段（1,634条`unverified`）。S6累计裁决350/10,426条（215 formal、111 pending、24 rejected），余10,076条；`relations.csv`为1,437条（1,434 formal、3 pending）。本批不表示S2独立语义接收、S5/S6全书收口或知识发现启动。
