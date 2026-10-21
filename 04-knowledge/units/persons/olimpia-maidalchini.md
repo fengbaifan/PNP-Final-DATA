@@ -116,3 +116,9 @@ English: This card represents the sole S3 candidate cand-1496 in the cross-chapt
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）](../works/portrait-of-donna-olimpia.md) | S2 statement: st-chp4-sec-ii-p116-donna-portrait-has-subject.；角色：肖像对象；范围：Haskell称该像描绘Donna Olimpia；不补作品正式题名；原断言与证据见发出端卡片“奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；line 197; print p.116 |

@@ -63,8 +63,9 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 为其所涉对象（`subject_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：肖像人物；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；题名及Summary |
-| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650绘制后至1677去世；角色：最初所有人；范围：NT1257142，Provenance明确持有至去世；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；Provenance首句及题名生卒 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 角色：肖像人物；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；src-da4cfd0b933026a8；题名及Summary |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650绘制后至1677去世；角色：最初所有人；范围：NT1257142，Provenance明确持有至去世；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；src-da4cfd0b933026a8；Provenance首句及题名生卒 |
+| ← 取得者（`acquirer_of`，反向投影） | [奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）](../works/portrait-of-donna-olimpia.md) | S2 statement: st-chp4-sec-ii-p116-donna-olimpia-portrait.；角色：取得者；范围：Haskell称Massimi从画家处取得这幅Donna Olimpia肖像；不补日期或现藏地点；原断言与证据见发出端卡片“奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；line 197; print p.116 |
 
 ### 关系候选入口
 

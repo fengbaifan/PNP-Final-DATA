@@ -1,5 +1,32 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-ch4-p116-ch7-p190-donna-olimpia-portrait-20261021"></a>
+
+### S3/S4/S5/S6：第4章 p.116 与第7章 p.190 的两幅 Velasquez 肖像（2026-10-21）
+
+**S3 跨章身份。** 现有 new 组 workgrp-d0e22375b7c593 原有候选 cand-5970（第4章 p.116 正文“a portrait of Donna Olimpia”）。将仅有索引锚的 cand-1498（M.csv#35，p.116，子目“Velasquez portrait”）和 cand-2713（UVWXYZ.csv#49，pp.116、190，子目“portrait of Donna Olimpia Maidalchini”）并入同一作品组：p.116正文与索引互证同一对象，p.190正文又将 Donna Olimpia 肖像列为 Velasquez 的作品，且同一索引子目交叉列出两个页码。无现存完全对应的 work KU，故建立一张书内来源限定卡，不主张已确定外部实物身份。cand-2712（UVWXYZ.csv#48，Velasquez 的 Camillo Massimi 肖像，pp.116、190）改为 same，复用图版20已登记的 units/works/velasquez-camillo-massimi；页码、画家与肖像人物相合。
+
+**S2 定点结构修订。** 第7章 p.190 原两条子statement把 Del Carpio 和两幅肖像端点倒置，且使用非受控的取得谓词；改为各自作品 acquired_by Del Carpio。按原句“two portraits by Velasquez”新建两条作品 created_by Velasquez statement（作品分别为 Camillo Massimi 肖像和 Donna Olimpia 肖像）。不得由相邻的遗产处置句推断这两件具体作品来自 Massimi 遗产。古物组 claim 移除“无来源”等处理用语，原文取得事实保留；因端点是未识别的复数对象组且当前类型未定，S6否决其图谱边。p.190的既有独立逐条复核记录仍是历史覆盖；本次两条新statement和定点修订不计入统一S2复核分子，也不表示p.190或第七章接收。
+
+**S4/S5。** 将 workgrp-d0e22375b7c593 登记为 [奥林皮娅·马伊达尔基尼肖像](../../../04-knowledge/units/works/portrait-of-donna-olimpia.md)，映射 cand-5970、cand-1498、cand-2713；cand-2712 复用现有 Camillo Massimi 肖像KU。卡片采用描述性暂题，原书未给正式题名、创作日期或现藏地点。新增四条 Haskell 书内 source_backed 字段 enr-15780–enr-15783：暂题、作品类型、创作者、描绘对象；来源表未变，不把 Massimi 后续取得写成已证实的遗产来源链。
+
+**S6 逐条裁决。** 所有八项关系候选均有明确去向：
+
+| S2 statement | 决定 | 关系／去向 |
+|---|---|---|
+| st-chp4-sec-ii-p116-donna-olimpia-portrait | formal | rel-1380：Donna Olimpia 肖像 acquired_by Camillo Massimi。 |
+| st-chp4-sec-ii-p116-donna-portrait-supplied-by-velasquez | formal | rel-1381：该像 supplied_by Velasquez；只表示 Massimi 交易中的供给者，不由此单独推定作者。 |
+| st-chp4-sec-ii-p116-donna-portrait-has-subject | formal | rel-1382：该像 has_subject Donna Olimpia。 |
+| st-chp7-p190-i26-massimi-portrait-created-by-velasquez | formal（复用） | 复用 rel-1044：Velasquez created_by 现有 Camillo Massimi 肖像，不重复造边。 |
+| st-chp7-p190-i26-massimi-portrait | formal | rel-1385：Camillo Massimi 肖像 acquired_by Del Carpio；不推断该像来自 Massimi 遗产。 |
+| st-chp7-p190-i26-donna-olimpia-portrait-created-by-velasquez | formal | rel-1383：Donna Olimpia 肖像 created_by Velasquez。 |
+| st-chp7-p190-i26-donna-olimpia-portrait | formal | rel-1384：Donna Olimpia 肖像 acquired_by Del Carpio；不推断该像来自 Massimi 遗产。 |
+| st-chp7-p190-i26-antiquities | rejected（仅否决图谱边） | 未识别的古物复数组不是当前可登记的 work/archive 端点；原书取得大量古物及计划刻印的陈述仍保留在S2。 |
+
+本批后：KU 2,418；S2共15,182条statement，统一独立逐条复核仍为9,490/15,182（62.5%，第七章1,099/1,252），尚未接收；关系候选10,417条，缺至少一个S2端点候选ID仍为335。S3为same 2,027、new 5,030（4,803组）、conflict 9、excluded 100、undecided 5,242（其中类型未定622）。S4已登记1,399/4,803组、1,606/5,030条映射；待登记3,404组／3,424条映射，其中直接关系端点1,658组／1,673条、非直接1,746组／1,751条。S5为12,014条字段（1,634条unverified）。S6累计逐条裁决243/10,417条（164 formal、65 pending、14 rejected），尚余10,174条；relations.csv 为1,385条（1,382 formal、3 pending）。candidate-backlog仍为5条历史记录、pending=0。
+
+**S3组号解析校正（2026-10-22）。** 复核发现12条`new`候选此前缺少统一机器可读的`group=`标记：10条档案候选使用中文“身份组”字段，Donna肖像的2条索引候选只在说明中写明并入既有组。仅规范化组号字段，不改变任何身份决定、KU映射或证据判断。按全部12,408个候选的主裁决行重算，new=5,030/4,803组，S4已登记1,399组、待登记3,404组/3,424条映射；当前S4直接端点队列为1,658组/1,673条组成员映射。此前快照的4,802组及相关待登记组数少计1组。
+
 <a id="s3-s4-s6-chp7-p179-cross-chapter-identity-20261021"></a>
 
 ### S3：第七章 p.179 胸像、肖像与 England 的跨章身份复核（2026-10-21）

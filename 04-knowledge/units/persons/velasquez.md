@@ -87,8 +87,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 所创作对象（`creator_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650；角色：画家；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；对象字段及Makers |
+| ← 所创作对象（`creator_of`，反向投影） | [卡米洛·马西米肖像（Portrait of Camillo Massimi）](../works/velasquez-camillo-massimi.md) | 时间：1649–1650；角色：画家；范围：NT1257142；原断言与证据见发出端卡片“卡米洛·马西米肖像（Portrait of Camillo Massimi）”：[来源](https://www.nationaltrustcollections.org.uk/object/1257142)；src-da4cfd0b933026a8；对象字段及Makers |
 | ← 所创作对象（`creator_of`，反向投影） | [胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）](../works/velasquez-juan-de-pareja.md) | 时间：1650；角色：画家；范围：1971.86；原断言与证据见发出端卡片“胡安·德·帕雷哈肖像（Portrait of Juan de Pareja）”：[来源](https://www.metmuseum.org/art/collection/search/437869)；src-4a68b9825000e16a；Artwork Details：Artist及Date |
+| ← 供应者（`supplier_of`，反向投影） | [奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）](../works/portrait-of-donna-olimpia.md) | S2 statement: st-chp4-sec-ii-p116-donna-portrait-supplied-by-velasquez.；角色：交易中的提供者；范围：Massimi从画家处取得该像；记录交易供给者，不据此单独推定该像由其创作；原断言与证据见发出端卡片“奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；line 197; print p.116 |
+| ← 所创作对象（`creator_of`，反向投影） | [奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）](../works/portrait-of-donna-olimpia.md) | S2 statement: st-chp7-p190-i26-donna-olimpia-portrait-created-by-velasquez.；角色：画家；范围：Haskell第7章p.190称两幅所述肖像由Velasquez绘制；索引和跨章语境指认本像；原断言与证据见发出端卡片“奥林皮娅·马伊达尔基尼肖像（Portrait of Donna Olimpia Maidalchini）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；line 266; print p.190 |
 
 ### 关系候选入口
 
