@@ -9657,3 +9657,41 @@ Young’s Wood 作为花园内被命名的区域登记；柱与葬瓮的具体�
 以下两项裁为 rejected graph edge，原书陈述仍保留：st-chp15-p370-querini-garden-as-expression-of-taste 是 Haskell 对花园与住宅表达品味的比较评价；st-chp15-p371-querini-garden-allegories-straightforward 是 Haskell 报告 Wynne-Rosenberg 对寓意易于理解的判断。两项都没有提出需要建立的正式对象关系。
 
 **批后状态。** 本批新增S4映射7条、S5字段12条、S6裁决12条（6 formal、4 pending、2 rejected），relations.csv新增rel-1392–rel-1397六条formal边。Apollo statement 的引文修订未改变S2独立复核分子；S3决定类别总数不变。八张受影响卡片中，七张因关系渲染而更新，定向渲染写入并核验7个文件；未对全库595张历史渲染差异作批量写回。
+
+
+<a id="s4-s5-s6-chp15-alticchiero-vices-20261022"></a>
+### S4/S5/S6：Alticchiero 祭坛、浮雕与三种拟人化恶德（2026-10-22）
+
+**证据范围与S3边界。** 依据 Haskell 第15章印刷页371、来源文件 15_CHP-15_sec_ii.md L70–73；该 segment 的正文及图像文字已在第15章 p.361–372 独立复核记录中复核，本批不增加S2独立复核分子。保留五项现有S3 new身份决定：祭坛 cand-10569（workgrp-53b4e19963b777）、浮雕 cand-10570（workgrp-ac8f31b21aee92）、Ignorance cand-10592、Envy cand-10593、Calumny cand-10594（三者各自独立 term 组）。不把祭坛、浮雕和三种概念合并，也不将概念视为已识别的具体人物或单件雕像。cand-12246（Apelles据Pliny记载的著名构图）继续S3 undecided：来源没有给出作品题名、版本或可确认的实物身份；不为满足S4而登记该端点。
+
+**S4登记。** 五个已有new候选各登记一个source-local KU并写入 manifest、alignment 与 accepted.yml：
+- cand-10569 → units/works/altar-dedicated-to-ignorance-envy-calumny-alticchiero
+- cand-10570 → units/works/bas-relief-ignorance-envy-calumny-alticchiero
+- cand-10592 → units/terms/ignorance-personified-vice-alticchiero
+- cand-10593 → units/terms/envy-personified-vice-alticchiero
+- cand-10594 → units/terms/calumny-personified-vice-alticchiero
+
+不补作品作者、正式题名、尺寸或现存状态。cand-12246已有S1/S3记录，因此本批不新写candidate-backlog行；指向该候选的关系维持pending。
+
+**S5字段。** build_field_facts dry-run显示新增5项、record_changes=0、removed_ids=0、warnings=0；apply后仅保留以下本批字段，其他既有行按字节保持不变：
+| enrichment_id | KU | 字段 | 证据 |
+|---|---|---|---|
+| enr-15812 | units/works/altar-dedicated-to-ignorance-envy-calumny-alticchiero | 来源用法与范围 | Haskell第15章印刷页371，L70–73 |
+| enr-15813 | units/works/bas-relief-ignorance-envy-calumny-alticchiero | 作品类型 | Haskell第15章印刷页371，L72–73 |
+| enr-15814 | units/terms/ignorance-personified-vice-alticchiero | 来源用法与范围 | Haskell第15章印刷页371，L70–73 |
+| enr-15815 | units/terms/envy-personified-vice-alticchiero | 来源用法与范围 | Haskell第15章印刷页371，L70–73 |
+| enr-15816 | units/terms/calumny-personified-vice-alticchiero | 来源用法与范围 | Haskell第15章印刷页371，L70–73 |
+
+**S6逐候选裁决。** 九条候选分别为六条formal、两条pending、一条rejected。formal边均引用 Haskell, 1980 revised edition、chapter 15 p.371；不新增外部事实：
+| statement_id | 决定 | 正式关系 |
+|---|---|---|
+| st-chp15-p371-altar-dedicated-to-ignorance | formal | rel-1398；祭坛 has_subject Ignorance |
+| st-chp15-p371-relief-depicts-ignorance | formal | rel-1399；浮雕 has_subject Ignorance |
+| st-chp15-p371-altar-dedicated-to-envy | formal | rel-1400；祭坛 has_subject Envy |
+| st-chp15-p371-relief-depicts-envy | formal | rel-1401；浮雕 has_subject Envy |
+| st-chp15-p371-altar-dedicated-to-calumny | formal | rel-1402；祭坛 has_subject Calumny |
+| st-chp15-p371-relief-depicts-calumny | formal | rel-1403；浮雕 has_subject Calumny |
+
+使用受控谓词 has_subject 表达作品所涉概念主题：relation-domain-range.yml 允许 work→term；当前词表没有 depicts，dedicated_to 的值域仅为 person。scope 保留来源分别使用“dedicated to”和“depicted”的语义，不把概念误写成个体人物。以下两条不生成formal边：st-chp15-p371-altar-highlights-querini-temperament为Haskell所报告的性格解释，受控谓词没有精确表达“祭坛强调人物性格”；st-chp15-p371-relief-based-on-apelles-composition的目标cand-12246仍S3 undecided，且来源没有确认构图身份，故保持pending。st-chp15-p371-vices-depicted-after-apelles-pliny裁为rejected graph edge：该汇总句无独立端点，三条浮雕描绘关系已由原子候选分别裁决；来源事实仍保留，不表示句子为假。
+
+**批后状态。** S4新增5组/5条映射；S5新增5条source-backed字段；S6新增9项裁决（6 formal、2 pending、1 rejected），relations.csv新增rel-1398–rel-1403六条formal has_subject边。S3分类总数及S2独立复核计数均不变。五张KU卡片预览后定向渲染：5/5卡片关系预检通过、写入并核验5个文件。
