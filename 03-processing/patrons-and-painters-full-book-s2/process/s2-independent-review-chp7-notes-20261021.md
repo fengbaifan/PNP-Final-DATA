@@ -1,6 +1,6 @@
 # 第七章脚注段 S2 独立语义复核
 
-更新：2026-10-21。状态：本段已独立复核并接收（31条statement、56条mention）；第七章整体仍未接收。
+更新：2026-10-22。各局部复核范围与状态见下文；第七章整体仍未接收。
 
 ## 范围与方法
 
@@ -72,3 +72,20 @@ S3现行决定将32a作品、Ribera和Roomer分别复用至 `units/works/ribera-
 Pozzo ceiling与summons两条关系候选分别裁为S6 `pending`：作品候选尚未登记为KU；皇帝候选仍是S3 `undecided`，且来源不明示召见的时间和目的。没有新formal边，S4直接端点队列计数不变（`cand-7320`此前已在队列）。全书关系候选数增至10,407，缺S2候选端点仍335；S6累计裁决213/10,407（143 formal、61 pending、9 rejected），尚余10,194。S3决定记录与S5字段数不变。
 
 本段38条按statement ID去重后计入统一复核：第七章1,099/1,244、全书9,490/15,172（62.5%）。第七章及全书仍未接收。下一段为p.202 `chp-7:07_CHP-7_sec_v:l57-60`，随后核对p.200脚注 `l62-76`。
+
+## 第七章 p.202 正文 S2 逐条语义复核
+
+对照 S0 登记段 `chp-7:07_CHP-7_sec_v:l57-60` 与 `CHP-7.pdf` 印刷p.202、物理页44，复核现有13条statement和15条mention。段落偏移从源文件L57的`[Page 202]`页眉起算；15个mention跨度均与S0逐字符相符，statement原文范围与页图对应。S0文本保留不改写；已有校读`“scries”→“series”`、`“makejhejourney”→“make the journey”`由印本确认。
+
+语义检查保留以下边界：Baroque的“last conquest”是Haskell的历史解释；Savoy战后转变与胜利伴随艺术繁荣分别记录，未补造具体胜利；Turin建筑的历史地位、绘画赞助的评价、地方人才稀少及外地画家招募失败分别保留；公爵的狩猎／军事兴趣和“似乎听天由命”分开，并保留`seemed`限定；Victor Amadeus与Juvarra作为复数行动主体保留，`“artistic dictator”`仅作Haskell措辞，不推定正式官职；“leading painters, or at least their pictures”保持原文二择范围，未命名来源城市、画家和作品不拆成具名对象；较小省镇保持未识别群体和叙述前指。
+
+| statement_id | 复核结果 |
+|---|---|
+| `st-chp7-p202-v-baroque-conquest-transition` | 保留为带作者归属的解释性断言。 |
+| `st-chp7-p202-v-savoy-transformed-after-war`、`st-chp7-p202-v-savoy-victory-flowering-arts` | 两个相邻断言分开；脚注1反向链接仍指向 Claretta 引注候选。 |
+| `st-chp7-p202-v-savoy-dukes-preferred-hunting-and-military`、`st-chp7-p202-v-dukes-resigned-to-patronage-situation` | 保留未具名群体、比较语气和“seemed”。 |
+| `st-chp7-p202-v-turin-architecture-and-painting-patronage`、`st-chp7-p202-v-turin-painting-patronage-futility`、`st-chp7-p202-v-turin-local-artists-rare`、`st-chp7-p202-v-turin-recruitment-failures` | 分别表达建筑、绘画赞助评价、地方人才与招募结果；不把评价写成量化事实。 |
+| `st-chp7-p202-v-victor-amadeus-and-juvarra-change-turin`、`st-chp7-p202-v-turin-attracted-painters-or-pictures`、`st-chp7-p202-v-victor-juvarra-follow-other-centres` | Juvarra协同行动、吸引画家／作品的二择和比较先例均保留在限定范围。 |
+| `st-chp7-p202-v-smaller-towns-anticipated-turin` | 不为未具名省镇补造城市身份；前指仅表示后文将转入讨论。 |
+
+本段未新增或修订S2 statement／mention。发现`cand-2663`将城市Turin误列为`term`，已在对应S3记录中修正为`place`并复用既有 `units/places/turin`；Savoy作为政治实体归`institution`符合本项目类型表。该S3更正不改变原书断言，也未提前写入S6关系。本段13条计入逐条复核后，第七章为1,112/1,252、全书为9,503/15,182（62.6%）；第七章与全书仍未接收。下一游标为复合脚注段 `chp-7:07_CHP-7_sec_v:l62-76`，其中含p.202注1；该脚注内容将在该段统一复核，不在此重复计数。

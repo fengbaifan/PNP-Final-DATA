@@ -13479,3 +13479,8 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-21：第10章 p.296 楼梯厅顶画定点复核及端点修复
 
 对照 chp-10:10_CHP-10_intro:l318-330 与 Plate 50 图版说明，修正四洲致敬 statement 的主体/主题方向及 ancien régime statement 的作品/term 端点；新增作品创作者、所在建筑两条原子陈述及 he→Tiepolo mention。Agreement 陈述仍留作原书 claim；图版局部 detail 与整幅壁画的身份判断触发 cand-4180 从 new 复核为 same。该定点复核检查两条新增及两条修正 statement，但不计入统一 S2 复核分子；第10–12章原有独立复核记录仍为1,567/1,567、未接收且不并入统一口径。全书当前为9,490/15,174，尚未独立语义验收。具体身份和S6去向见 [S3/S4/S5/S6记录](knowledge.md#s3-s4-s5-s6-chp10-p296-staircase-fresco-20261021)；第10章局部记录见 [结果](../results/chp-10.md#s2-review-chp10-p296-staircase-fresco-20261021)。
+
+
+### 2026-10-22：第七章 p.202 正文与Turin候选复核
+
+完成 `chp-7:07_CHP-7_sec_v:l57-60` 的13条statement、15条mention逐条语义复核，无S2行改动；统一复核覆盖增至第七章1,112/1,252、全书9,503/15,182。随后纠正 `cand-2663`：Turin由 `term/new` 改为 `place/same`，复用 `units/places/turin`。表间覆盖核对后，S3有12,388/12,408项候选具备裁决行；20项缺行（person 16、archive 2、institution 2）。现有same=2,022、new=5,015（4,790组）、conflict=9、excluded=100、undecided=5,242。S4待登记3,403组／3,423条候选映射，直接关系端点1,657组／1,672条组成员映射。S2与S3均未全书接收／收口。下一S2游标为第七章复合脚注 `chp-7:07_CHP-7_sec_v:l62-76`。证据见[S2复核记录](s2-independent-review-chp7-notes-20261021.md#第七章-p202-正文-s2-逐条语义复核)与[S3裁决记录](knowledge.md#s3-chp7-p202-turin-type-correction-20261022)。

@@ -9529,3 +9529,36 @@ Mariette信在Haskell第14章p.351注2被明称为Algarotti致Mariette、1751年
 | `st-chp7-p201-v-pozzo-summoned-by-emperor` | `cand-2033`（Andrea Pozzo，S4已登记）→ `cand-4531`（未具名皇帝，S3 `undecided`） | `pending`：皇帝身份未决，来源未给召见时间或目的；不将召见改写成正式委托。 |
 
 两条statement均有具体p.201原书跨度；S6 `pending` 仅表示当前无法形成formal图谱边，不否定来源陈述。作品候选 `cand-7320` 已在S4直接端点队列，因此本批不改变其规模。批后S6累计逐条裁决213/10,407条（143 formal、61 pending、9 rejected），尚余10,194条；关系表仍为1,368条（1,365 formal、3 pending）。
+
+
+<a id="s3-chp7-p202-turin-type-correction-20261022"></a>
+
+### S3：第七章 p.202 Turin 城市候选类型与身份复核（2026-10-22）
+
+`cand-2663`（候选来源 `T.csv#126`，索引短语“art patronage in late 17th century”；第七章正文印刷p.202）此前被列为 `term`，S3 `new`，组号 `sg3-term-cand-2663`。对照正文及S2复核，候选指向城市Turin；依 `01-domain/taxonomy-registry.md` 的place边界，城市应归 `place`，而非抽象term。既有 `units/places/turin` 已代表该城市，故将稳定裁决行 `aln-2998` 从 `new` 修订为 `same`，映射该KU，并保留先前决定和本次纠正理由于 `resolution_note`；候选的 `suggested_type` 同步更正为 `place`。原S2断言和关系候选不改写，未创建新KU或S6关系。Savoy作为政治实体继续归 `institution`，不受此更正影响。
+
+Turin更正只解决本候选的类型和身份去向，不表示S3全书收口。随后按候选表与alignment表独立核对覆盖，发现另有20项候选缺alignment裁决行；当前逐项决定统计和S4分母见下方覆盖核查记录。
+
+
+<a id="s3-alignment-coverage-audit-20261022"></a>
+
+### S3覆盖核查：20项候选缺少alignment裁决行（2026-10-22）
+
+将 `entity-candidates.csv` 的12,408个唯一 `candidate_id` 与 `alignment.csv` 的非外部候选裁决逐项连接，得到12,388项现有决定、20项无决定行。缺行清单：person `cand-0250` Baronio, Cardinal；`cand-0657` Charles II of Spain；`cand-1448` Louis XV；`cand-2683` Valeriano, Padre；`cand-2687` Vallisnieri, Antonio；`cand-2887` Zucchi, Antonio；`cand-4147` Ralph Bankes；`cand-4167` Piovano Arlotto；`cand-5025` Alessandro de’ Medici；`cand-6180` Giulio Briganti；`cand-7034` Catherine de’ Medici；`cand-7036` Philip III of Spain；`cand-7603` R. Longhi；`cand-10696` Bernardo Castelli；`cand-10748` Mattia di Rossi；`cand-10828` Farinelli。archive `cand-5503`（Bottari, vol. VI；题名／版本未明）及 `cand-6200`（Bottari, *Raccolta*, vol. II, 1822）。institution `cand-9739`（Inquisitori di Stato，p.320–327语境）及 `cand-10464`（p.364注1所指机构）。
+
+现有决定按类型分布如下；“新组”是S3=`new`的group数，“S4已登／待登”按这些new组统计。缺行另列，不并入决定分布。
+
+| 类型 | same | new候选／新组 | S4已登／待登组 | conflict | excluded | undecided | 缺裁决行 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| archive | 91 | 1,295／1,238 | 188／1,050 | 0 | 18 | 694 | 2 |
+| event | 7 | 235／231 | 77／154 | 0 | 0 | 115 | 0 |
+| family | 22 | 94／88 | 88／0 | 0 | 1 | 18 | 0 |
+| institution | 180 | 194／184 | 33／151 | 0 | 0 | 120 | 2 |
+| person | 1,197 | 1,161／1,059 | 792／267 | 4 | 7 | 1,078 | 16 |
+| place | 232 | 567／557 | 52／505 | 0 | 0 | 312 | 0 |
+| procedure | 10 | 31／29 | 29／0 | 0 | 0 | 2 | 0 |
+| term | 43 | 940／928 | 53／875 | 0 | 2 | 656 | 0 |
+| work | 240 | 498／476 | 75／401 | 5 | 29 | 1,625 | 0 |
+| 类型未定 | 0 | 0／0 | 0／0 | 0 | 43 | 622 | 0 |
+
+这些缺行仍为待处理候选；本核查没有凭候选名称、类型或邻近候选推定same/new，也未将其从分母删除。现有12,388条决定分布为same 2,022（涉及1,088个既有KU）、new 5,015（4,790组）、conflict 9、excluded 100、undecided 5,242（其中622条类型未定）。S4仅对已有`new`决定计数：已登记1,387/4,790组、1,592/5,015条映射；待登记3,403组／3,423条映射。直接关系端点待登记1,657组／1,657个已对齐候选／1,672条组成员映射，非直接1,746组／1,751条。`audit_tables.py --strict-stage` 未检查“每个candidate必有alignment行”这一覆盖条件；故机械审计通过不构成S3全覆盖证据。后续先逐项补齐这20条决定，再按类型跨章处理622条类型未定及9条冲突。
