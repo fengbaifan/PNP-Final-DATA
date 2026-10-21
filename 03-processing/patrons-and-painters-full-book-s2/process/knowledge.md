@@ -9936,3 +9936,40 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 `relation-types.yml`与域值域矩阵新增`designed_by`、`erected_by`及对称`compared_with`，明确区分设计、施工和艺术史比较。`relations.csv`增至1,427条（1,424 formal、3 pending）；7项裁决后，全书S6累计334/10,423条（205 formal、107 pending、22 rejected），余10,089条。正式关系均保留`source_id`和精确书内页行。
 
 **批后状态。** S2为9,573/15,194（63.0%，未接收）；关系候选10,423条，其中335条至少缺一个S2候选端点ID（45仅缺subject、218仅缺object、72两端均缺）。S3有12,388/12,408项决定记录：same=2,024（1,088个既有KU）、new=5,015（4,785组）、conflict=9、excluded=100、undecided=5,240（622项类型未决），缺行20项。S4已登记1,428/4,785组、1,638/5,015条映射；待登记3,357组／3,377条映射，其中直接关系端点1,615组／1,629条、非直接1,742组／1,748条。S5为12,116条字段（1,634条`unverified`）。S6关系表及候选累计如上。候选表审计无错误；关系一致性检查的断链目标、无效关系类型、缺少逆向关系、弱证据和未基线泛型关系均为0。本批未做外部来源核验，也不表示S2独立语义验收或S5/S6全书收口。
+
+<a id="s3-s4-s5-s6-chp3-p93-annunciation-endpoints-20261022"></a>
+### S3复用/S4/S5/S6：第3章 p.93 右耳堂、报喜浮雕与 Fabrini 引文端点（2026-10-22）
+
+**来源与候选修订。** 对照 `CHP-3.pdf` PDF物理页35（印刷页93）核读：右侧耳堂礼拜堂于1749年完工；Haskell在同句称Filippo della Valle与Pietro Bracci制作《天使报喜》大理石浅浮雕，并写“see Fabrini”。再对照 `CHP-21Bibliography.pdf` PDF物理页11（印刷页421）页图，书目原文为“Fabrini, P. Natale: La chiesa di S. Ignazio in Roma, Roma 1952”。`cand-5456`既有跨章mention与S3 `new` 身份组已把p.93的Fabrini指引和p.421书目项连在同一候选上；不重开S3，不把书目署名扩为人物身份，也不声称读过被引书。
+
+修正 `cand-5456` 的候选说明和p.93提及注释，去除“题名与年份未定”的过期说法。将 `st-chp3-seciv-l179-187-fabrini-cited-for-annunciation-relief` 的主客体改为Haskell书 `cand-2962` → Fabrini书 `cand-5456`，谓词改为 `cites`；在限定中保留书目身份、无具体页码及未独立查阅边界。原文引句和精确span不变；这次S2定向修订不计入独立语义复核分子。
+
+**S4登记。** 沿用三项既有 `new` 决定并登记各自KU；不与耶稣堂右耳堂礼拜堂合并：
+
+| 候选／既有S3组 | KU | 去向 |
+|---|---|---|
+| `cand-5454`／`sg3-place-cand-5454` | `units/places/right-transept-chapel-s-ignazio` | 圣依纳爵堂右侧耳堂礼拜堂；只记Haskell来源限定的内部空间和1749年完工。 |
+| `cand-5455`／`workgrp-71f837881d06ac` | `units/works/annunciation-bas-relief-s-ignazio-right-transept` | Haskell第3章1749年右耳堂叙述中的《天使报喜》大理石浅浮雕；不补正式题名、现存状态或现址。 |
+| `cand-5456`／`archive-group-3e103960a271` | `units/archives/fabrini-la-chiesa-s-ignazio-1952` | 《罗马圣依纳爵堂》；书目责任者形式保留为“Fabrini, P. Natale”，不建作者人物KU。 |
+
+**S5来源字段。** 新增18条 Haskell书内 `source_backed` 字段（`enr-15886`–`enr-15903`）：礼拜堂4条、浮雕7条、Fabrini书目项7条。支持位置分别为第3章印刷页93 L185与第21章书目印刷页421 L457；没有进行外部目录或被引书正文核验。全表12,134条，`unverified`仍为1,634条。
+
+**S6逐候选裁决。** 四条直接关系候选均有明确去向：
+
+| Statement | 决定 | 裁决与去向 |
+|---|---|---|
+| `st-chp3-seciv-l179-187-bracci-made-annunciation-relief` | formal | `rel-1428 created_by`：浮雕→Pietro Bracci。Haskell直接称Bracci为制作人；1749仅按同句礼拜堂完工语境记录。 |
+| `st-chp3-seciv-l179-187-della-valle-made-annunciation-relief` | formal | `rel-1429 created_by`：浮雕→Filippo della Valle；限定同上。 |
+| `st-chp3-seciv-l179-187-fabrini-cited-for-annunciation-relief` | formal | `rel-1430 cites`：Haskell书→Fabrini《La chiesa di S. Ignazio in Roma》。p.421书目解析引文对象；未声称查阅该书或具体页。 |
+| `st-chp3-seciv-l179-187-annunciation-relief-in-right-chapel` | pending | 原句将制作与礼拜堂完成并述，但未明确给出浮雕单独的安置或奉献事实。当前 `installed_at`／`located_at` 会断言物理位置，受控词表无准确的“随礼拜堂完工制作”谓词，故不建formal边；保留S2原句及待证候选。 |
+
+两条 `created_by` 和一条 `cites` 均通过域值域约束；`relations.csv` 增至1,430条（1,427 formal、3条既有pending）。本批没有将待证的礼拜堂—浮雕语境关系写成正式边。
+
+**批后当前统计。** S2为9,573/15,194（63.0%，未接收），10,423条关系候选中335条缺至少一个S2候选端点ID。S3决定行12,388/12,408：same=2,024（1,088个既有KU）、new=5,015（4,785组）、conflict=9、excluded=100、undecided=5,240（622项类型未定）、缺行20项。S4已登记1,431/4,785组、1,641/5,015条候选映射；待登记3,354组／3,374条映射，其中直接端点1,612组／1,626条成员映射，非直接1,742组／1,748条。KU manifest为2,462项。S5为12,134条字段（1,634条`unverified`）。S6累计裁决338/10,423条（208 formal、108 pending、22 rejected），余10,085条；`relations.csv`为1,430条（1,427 formal、3 pending）。candidate-backlog仍为5条历史记录、pending=0。本批不表示S2独立接收或S5/S6全书收口。
+
+
+### 第3章 p.93 右耳堂礼拜堂位置边补记（2026-10-22）
+
+卡片预览显示礼拜堂S5空间定位字段指向S. Ignazio，但本批S2/S6关系候选未单列礼拜堂与教堂的空间边。回核印刷页93 L185：Haskell先在同句指明左耳堂位于S. Ignazio，随后以“The chapel in the right transept”续指右耳堂礼拜堂；新增statement `st-chp3-seciv-l179-187-right-chapel-located-at-s-ignazio`，subject `cand-5454`（右耳堂礼拜堂），object `cand-5439`（教堂，已S3 same至`units/places/s-ignazio`），predicate `located_at`。两端均复用既有候选和决定，不重开S3；限定说明教堂名取自紧邻前句，未独立核验现状。同步将S5空间定位字段链接至既有教堂KU。
+
+该statement未经过独立逐条复核，因此统一S2覆盖分子仍为9,573、分母更新为15,195；第3章独立章节覆盖变为1,173/1,175。S6新增formal `rel-1431 located_at`（礼拜堂→S. Ignazio）。原候选`st-chp3-seciv-l179-187-annunciation-relief-in-right-chapel`仍pending：新增位置边不证明浮雕单独的安装或现存地点。批后S6累计339/10,424（209 formal、108 pending、22 rejected），关系表1,431条（1,428 formal、3 pending）。

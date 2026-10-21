@@ -48,9 +48,11 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [罗马（Rome）](rome.md) | Evidence: S. Ignazio, Rome S2 statement: st-chp3-secii-l89-90-p15-church-city.；角色：教堂所在城市；范围：图版15题注将 S. Ignazio 标为位于 Rome。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 90; Plate 15 caption; PDF physical p. 13 |
+| ← 所在地（`location_of`，反向投影） | [圣依纳爵堂拱顶壁画（Fresco on the Vault of S. Ignazio）](../works/pozzo-fresco-vault-s-ignazio.md) | Evidence: Modello for fresco on vault of S. Ignazio, Rome S2 statement: st-chp3-secii-l89-90-p15-fresco-location.；角色：图版题注所指作品地点；范围：图版15题注将壁画定位于 S. Ignazio 拱顶；此边指壁画，不表示模型实际存放于该教堂。；原断言与证据见发出端卡片“圣依纳爵堂拱顶壁画（Fresco on the Vault of S. Ignazio）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；line 90; Plate 15 caption; PDF physical p. 13 |
+| ← 所在地（`location_of`，反向投影） | [圣依纳爵堂右侧耳堂礼拜堂（Right-Transept Chapel of S. Ignazio）](right-transept-chapel-s-ignazio.md) | S2 statement st-chp3-seciv-l179-187-right-chapel-located-at-s-ignazio; chapel cand-5454 -> units/places/right-transept-chapel-s-ignazio; church cand-5439 -> units/places/s-ignazio.；角色：建筑内部空间；范围：Haskell identifies the chapel as the right-transept chapel immediately after referring to the left transept of S. Ignazio. This records its historical location within that church; present condition is not independently verified.；原断言与证据见发出端卡片“圣依纳爵堂右侧耳堂礼拜堂（Right-Transept Chapel of S. Ignazio）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 93 L185; PDF physical p. 35 |
 
 ### 关系候选入口
 

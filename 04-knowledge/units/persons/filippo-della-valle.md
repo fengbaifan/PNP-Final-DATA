@@ -23,9 +23,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡记录第3章具名的人物Filippo della Valle。Haskell称他与Pietro Bracci制作了右侧耳堂礼拜堂的《天使报喜》大理石浅浮雕，并称礼拜堂于1749年完成；本卡仅保存原书语境，不据此登记作品现状或正式关系。中文名为项目工作音译。
+**中文：** 本卡记录第3章具名的人物Filippo della Valle。Haskell称他与Pietro Bracci制作了[第3章1749年右耳堂叙述中的《天使报喜》大理石浅浮雕](../works/annunciation-bas-relief-s-ignazio-right-transept.md)，并称礼拜堂于1749年完成；本卡不据此推定作品现状或现址。中文名为项目工作音译。
 
-**English:** This card records the person named as Filippo della Valle in Chapter 3. Haskell says he and Pietro Bracci made a marble bas-relief of the Annunciation for the right-transept chapel, which was completed in 1749. This preserves the book's account without asserting the work's present state or registering a formal relation. The Chinese display name is a project working transliteration.
+**English:** This card records the person named as Filippo della Valle in Chapter 3. Haskell says he and Pietro Bracci made the [Annunciation marble bas-relief in his 1749 right-chapel account](../works/annunciation-bas-relief-s-ignazio-right-transept.md), and that the chapel was completed in 1749. The card does not infer the work's present state or current location. The Chinese display name is a project working transliteration.
 
 ### 姓名形式
 
@@ -41,4 +41,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。`st-chp3-seciv-l179-187-della-valle-made-annunciation-relief`仍是S2关系候选；与[皮埃特罗·布拉奇](../../../04-knowledge/units/persons/pietro-bracci.md)的共同制作表述待S6核对，本次未登记正式边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [Haskell 1749年右耳堂叙述中的《天使报喜》大理石浅浮雕（Annunciation Marble Bas-Relief in Haskell’s 1749 Right-Chapel Account）](../works/annunciation-bas-relief-s-ignazio-right-transept.md) | S2 statement st-chp3-seciv-l179-187-della-valle-made-annunciation-relief; Haskell directly names della Valle as maker.；时间：1749；角色：制作人；范围：Haskell names this person as one of the two makers of the marble bas-relief; 1749 is the chapel-completion context in the sentence, not an independently verified separate inscription or dedication date.；原断言与证据见发出端卡片“Haskell 1749年右耳堂叙述中的《天使报喜》大理石浅浮雕（Annunciation Marble Bas-Relief in Haskell’s 1749 Right-Chapel Account）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 93 L185; PDF physical p. 35 |

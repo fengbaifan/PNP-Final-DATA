@@ -13512,3 +13512,8 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 依据既有对 `chp-7:07_CHP-7_sec_i:l215-222` 的22条statement、83条原有mention跨度审读记录，复看印刷页186（PDF物理页24），定向修订14条旧statement并拆出8条原子statement。把挂毯位置、前任持有人与评价分开；拆开告别中提到的Cortège、Titian Venus和Deluge；把召请、塞纳河定居、遗嘱用途、安葬指示、Guarini开始工程及其后的工程中断和完成时序分别保存。L219的S0 `aile`按印本校读为`alle`，写入statement校读元数据，不改S0；L220印本中的`isolated-example`连字符保留，不列作OCR错误。修订后的Deluge引文使用来源原有弯引号，确保逐字匹配S0。注1脚注段补齐Wittkower作者与`1958, p. 269`的mention跨度；被引页未独立查阅。
 
 新增statement尚未经过第二位复核者逐条复核，因此全书统一S2独立复核分子不增加；既有审读及其未接收状态保留。原章序游标不变，仍先核对视觉转录标题与图版清单是否重复覆盖。S3身份、S4映射、S5字段与S6关系去向见[同批知识过程](knowledge.md)。
+
+
+### 2026-10-22：第3章 p.93 端点触发的S2位置候选补入
+
+为已登记的右耳堂礼拜堂与S. Ignazio之间补入一条`located_at`候选，依据印刷页93 L185连续叙述：先称左耳堂位于S. Ignazio，再称“the chapel in the right transept”。复用`cand-5454`与`cand-5439`，不重开S3；随后在S6登记`rel-1431`。新增statement未独立逐条复核，S2覆盖分子仍为9,573，分母更新为15,195；第3章独立章节覆盖为1,173/1,175。原章序游标不变，S2/S3均未全书接收/收口。

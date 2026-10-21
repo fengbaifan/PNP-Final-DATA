@@ -33,9 +33,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记Haskell所称制作《天使报喜》大理石浅浮雕的Pietro Bracci。第3章称他与Filippo della Valle共同制作该浮雕，所在礼拜堂于1749年完工；索引子目为“Annunciation”。本卡不推定作品现状、地点或独立作品身份。中文名为本项目工作音译。 [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md) [索引 B.csv#272](../../../02-sources/03-Index/03-2-Index-CSV/B.csv)
+**中文：** 本卡登记Haskell所称制作《天使报喜》大理石浅浮雕的Pietro Bracci。第3章称他与Filippo della Valle共同制作该浮雕，礼拜堂于1749年完工；对应浮雕现登记为独立作品KU。本卡不推定作品现状或当前地点。中文名为本项目工作音译。 [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md) [索引 B.csv#272](../../../02-sources/03-Index/03-2-Index-CSV/B.csv)
 
-**English:** This card records Pietro Bracci, whom Haskell names with Filippo della Valle as a maker of a marble bas-relief of the Annunciation. Chapter 3 says the right-transept chapel was completed in 1749; the index sub-entry is “Annunciation.” This card does not infer the work's present state, location, or a separately verified work identity. The Chinese name is a working transliteration. [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md) [索引 B.csv#272](../../../02-sources/03-Index/03-2-Index-CSV/B.csv)
+**English:** This card records Pietro Bracci, whom Haskell names with Filippo della Valle as a maker of a marble bas-relief of the Annunciation. Chapter 3 says the right-transept chapel was completed in 1749; the index sub-entry is “Annunciation.” The relief is now registered as a separate work KU. This card does not infer its present state or current location. The Chinese name is a working transliteration. [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md) [索引 B.csv#272](../../../02-sources/03-Index/03-2-Index-CSV/B.csv)
 
 ### 姓名
 
@@ -45,14 +45,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 作品候选cand-5455仍须按S3/S4状态处理；制作关系候选留待S6，未据此建立作品KU或正式边。 [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)
+**中文：** Haskell称Bracci与Filippo della Valle制作了[第3章1749年右耳堂叙述中的《天使报喜》大理石浅浮雕](../works/annunciation-bas-relief-s-ignazio-right-transept.md)；礼拜堂于1749年完工。正式制作关系依原书表述登记，不推定作品现存状态或现址。 [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)
 
-**English:** Work candidate cand-5455 remains subject to its S3/S4 status; the maker relation remains for S6, and no work KU or formal edge is created here. [第3章 p.93；OCR L185](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)
+**English:** Haskell says Bracci and Filippo della Valle made the [Annunciation marble bas-relief in his 1749 right-chapel account](../works/annunciation-bas-relief-s-ignazio-right-transept.md); the chapel was completed in 1749. The formal maker relation records the source's wording and does not assert the work's survival or present location. [Chapter 3, p. 93](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
-
-S2直接关系候选 `st-chp3-seciv-l179-187-bracci-made-annunciation-relief` 留待S6逐条审查；本次S4不创建正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [Haskell 1749年右耳堂叙述中的《天使报喜》大理石浅浮雕（Annunciation Marble Bas-Relief in Haskell’s 1749 Right-Chapel Account）](../works/annunciation-bas-relief-s-ignazio-right-transept.md) | S2 statement st-chp3-seciv-l179-187-bracci-made-annunciation-relief; Haskell directly names Bracci as maker.；时间：1749；角色：制作人；范围：Haskell names this person as one of the two makers of the marble bas-relief; 1749 is the chapel-completion context in the sentence, not an independently verified separate inscription or dedication date.；原断言与证据见发出端卡片“Haskell 1749年右耳堂叙述中的《天使报喜》大理石浅浮雕（Annunciation Marble Bas-Relief in Haskell’s 1749 Right-Chapel Account）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 93 L185; PDF physical p. 35 |
