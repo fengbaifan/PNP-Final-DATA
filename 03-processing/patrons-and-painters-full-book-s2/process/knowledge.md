@@ -1,5 +1,19 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-chp7-p179-cross-chapter-identity-20261021"></a>
+
+### S3：第七章 p.179 胸像、肖像与 England 的跨章身份复核（2026-10-21）
+
+第七章 p.179 的关系端点核对触发三项定点 S3 修订；本批只处理候选类型与身份，不作 S2 段落复核，也不新增 KU 或关系边。
+
+| 候选 | 原决定 | 当前决定 | 依据与去向 |
+|---|---|---|---|
+| `cand-0304` | `same` → Bernini 人物 KU | `new`，`workgrp-bernini-charles-i-bust` | B.csv#151 的主条目为 Bernini，但子目是 “bust of Charles I”；p.179 `m-chp7-p179-b-010`（“his portrait”）和 `m-chp7-p179-b-015`（“the bust”）指向作品对象。将候选类型修正为 `work`，与人物 `cand-0295` 分开；manifest 无可直接对应的胸像 KU。 |
+| `cand-0964` | `undecided`（仅索引候选） | `new`，加入 `workgrp-926d6c0d9362b9` | D.csv#66 子目为 Van Dyck 的 Charles I 三人肖像。第2章 p.37 的正文作品候选 `cand-4437` 与第7章 p.179 的 `m-chp7-p179-b-013`、`m-chp7-p179-b-026` 锚点相互印证；属于同一书内作品组，manifest 无同一 work KU。 |
+| `cand-6290` | `new`，place 组 | `same` → `units/places/england` | 该候选在第6章 p.43 以经济竞争角色提到 England，第7章 p.179 又作为胸像抵达地点。角色语境不构成另一个实体；既有 KU 的类型与英文名均为 place / England。 |
+
+胸像与作为其图像依据的 Van Dyck 三人肖像保留为两个作品组；“based on”是后续 S6 关系候选，不作为 S3 同一身份。三项记录沿用稳定 alignment ID `aln-0639`、`aln-1299`、`aln-6471`，并在本段保留原决定及修订理由。S3 现为 12,408/12,408：same 2,026、new 5,028（4,802组）、conflict 9、excluded 100、undecided 5,245（其中类型未决622）。S4待登记组数维持3,406，候选映射增至3,428；直接关系端点为1,661组／1,677条组成员映射。本批未变更S2覆盖、S5字段或S6裁决；两件作品仍待S4登记，相关 p.177–179 关系在同批登记时逐条裁决。
+
 <a id="s3-s4-s5-s6-chp10-p296-staircase-fresco-20261021"></a>
 
 ### S3/S4/S5/S6：第10章 p.296 楼梯厅顶画及旧制度主题端点（2026-10-21）
