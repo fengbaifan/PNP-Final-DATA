@@ -1,4 +1,4 @@
-version: 2
+version: 3
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -29,12 +29,15 @@ types:
   - compiled_by
   - compiler_of
   - collaborated_with
+  - compared_with
   - corresponded_with
   - contains
   - contributed_by
   - contributor_to
   - created_by
   - creator_of
+  - designed_by
+  - designer_of
   - child_of
   - derived_from
   - dedicated_by
@@ -101,6 +104,8 @@ types:
   - employer_of
   - entrusted_to_build
   - entrusted_with_building_of
+  - erected_by
+  - erector_of
   - renamed_from
   - replaces
   - same_as
@@ -168,6 +173,8 @@ inverse:
   contributor_to: contributed_by
   created_by: creator_of
   creator_of: created_by
+  designed_by: designer_of
+  designer_of: designed_by
   child_of: parent_of
   derived_from: source_of
   dedicated_by: dedicator_of
@@ -232,6 +239,9 @@ inverse:
   education_of: educated_at
   entrusted_to_build: entrusted_with_building_of
   entrusted_with_building_of: entrusted_to_build
+  erected_by: erector_of
+  erector_of: erected_by
+  compared_with: compared_with
   scene_of: occurred_at
   source_of: derived_from
   subject_of: has_subject

@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S3/S4/S5/S6：第九章 p.248–249 圣玛利亚·德尔·吉廖立面端点批次（2026-10-22）
+
+`cand-8153`从S3 `new`按第七章版图与第九章文字的同一对象证据改为`same`，复用立面KU；Tempio Malatestiano与Rimini两个既有`new`决定完成S4登记。S2将设计、颂扬、比较与地点拆为原子断言，并新增3条statement；独立复核分子不变。补入6条来源字段。7条S6候选全部有去向：5 formal、2 pending；后两项分别因四兄弟集体身份和六处地点计划的对象边界未决而保留。逐项依据见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-p248-facade-endpoints-20261022)。
+
+批后：S2为9,573/15,194，未接收；S3决定行12,388/12,408；S4已登记1,428/4,785组、1,638/5,015条映射；S5字段12,116条（1,634条`unverified`）；S6已裁决334/10,423条（205 formal、107 pending、22 rejected），余10,089条；`relations.csv`为1,427条（1,424 formal、3 pending）。
+
 ### S2定向修复与S3复用下的S4/S5/S6：第七章 p.186 画廊、教堂工程与脚注端点（2026-10-22）
 
 依据印刷页186（PDF物理页24）修订14条旧statement、拆出8条原子statement，并为注1补入Wittkower作者和 `1958, p. 269` 两条精确mention。S3决定不变，沿用10个既有 `new` 身份组登记KU；新增23条有原书依据的S5字段。本段及脚注23条S6关系候选全部有去向：5 formal、15 pending、3 rejected；未以域值域缺项制造formal边，也未将整个Theatine修会代表未具名分支。新拆statement不计入独立S2复核分子。逐项理由见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)。

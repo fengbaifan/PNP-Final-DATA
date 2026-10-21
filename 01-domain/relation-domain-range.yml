@@ -1,6 +1,6 @@
-version: 1
-authority: relation-domain-range-v1
-status: draft-v1
+version: 2
+authority: relation-domain-range-v2
+status: draft-v2
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
@@ -28,12 +28,15 @@ domain_range:
   child_of:         {domain: [person], range: [person]}
   cites:            {domain: [archive], range: [archive]}
   collaborated_with: {domain: [person], range: [person]}
+  compared_with:   {domain: [place, work], range: [place, work]}
   commissioned_by:  {domain: [place, work], range: [family, institution, person]}
   compiled_by:      {domain: [archive], range: [person]}
   contributed_by:   {domain: [archive, work], range: [institution, person]}
   corresponded_with: {domain: [person], range: [person]}
   created_by:       {domain: [work], range: [person]}
   creator_of:       {domain: [person], range: [work]}
+  designed_by:      {domain: [work], range: [person]}
+  designer_of:      {domain: [person], range: [work]}
   dedicated_by:     {domain: [work], range: [person]}
   dedicated_to:     {domain: [work], range: [person]}
   derived_from:     {domain: [archive, work], range: [archive, work]}
@@ -42,6 +45,8 @@ domain_range:
   employed_by:      {domain: [person], range: [institution, person]}
   entrusted_to_build: {domain: [place], range: [person]}
   entrusted_with_building_of: {domain: [person], range: [place]}
+  erected_by:        {domain: [work], range: [person]}
+  erector_of:        {domain: [person], range: [work]}
   exemplified_by:   {domain: [procedure], range: [event]}
   friend_of:        {domain: [person], range: [person]}
   granted_privilege_to: {domain: [person], range: [institution, person]}

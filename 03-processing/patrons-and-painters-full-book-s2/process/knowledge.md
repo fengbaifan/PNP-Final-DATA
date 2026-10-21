@@ -9909,3 +9909,30 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 | `st-chp7-p186-n1-cite-wittkower` | formal | `rel-1422`，Haskell注1引Wittkower（1958）第269页；不声称已读该页。 |
 
 **批后状态。** S2为9,573/15,191（63.0%，未接收），第七章1,146/1,260。S3仍有12,388/12,408项决定行；same=2,023、new=5,016（4,788组）、conflict=9、excluded=100、undecided=5,240。S4已登记1,427/4,788组、1,636/5,016条映射；待登记3,361组／3,380条，其中直接端点1,616组／1,629条成员映射，非直接1,745组／1,751条。S5字段12,110条（1,634条unverified）。S6累计逐条裁决327/10,420条（200 formal、105 pending、22 rejected），尚余10,093条；关系表1,422条（1,419 formal、3 pending）。
+
+<a id="s3-s4-s5-s6-chp9-p248-facade-endpoints-20261022"></a>
+### S3/S4/S5/S6：第九章 p.248–249 圣玛利亚·德尔·吉廖立面端点批次（2026-10-22）
+
+**S3 身份决定。** `cand-8153` 原裁为 `new`、组号 `workgrp-183cf25dc7d3c4`；S4登记核对时，以第九章 p.248 L42 与第七章第41a版图所指同一圣玛利亚·德尔·吉廖立面为依据，改裁 `same`，复用 `units/works/facade-of-s-maria-del-giglio`。保留原决定与组号，不用外部身份来源。`cand-8170`（Tempio Malatestiano）和`cand-8171`（Rimini）沿用S3 `new`，分别形成两个来源限定的地点KU。没有扩大到建筑史或现状核验。
+
+**S2 原子化与提及范围修复。** 对第九章 p.248 L42–45及p.249 L78复核后，将立面设计归属（`designed_by`）、立面对Antonio的颂扬（`glorifies`）、对四兄弟的颂扬（`glorifies`）、Tempio比较（`compared_with`）和Tempio书中所在地（`located_at`）分为独立断言。新建三条statement：Antonio颂扬、四兄弟颂扬、Tempio位于Rimini；总statement数由15,191增至15,194，S2独立语义复核分子不变。比较statement只保留立面和Tempio端点；`cand-0736`教堂提及属于同段其他陈述，不属于本比较断言，故从该statement的提及候选列表移除；原始mention行不删。未新增S2候选mention。
+
+**S4 KU登记。** 登记`cand-8170`至[Tempio Malatestiano at Rimini](../../../04-knowledge/units/places/tempio-malatestiano-rimini.md)，登记`cand-8171`至[Rimini](../../../04-knowledge/units/places/rimini.md)。前者仅表示Haskell比较中指称的建筑／地点，后者仅表示原书明确写出的所在地；均不主张已作外部身份验证。`cand-8153`复用既有立面卡，不新建重复KU。
+
+**S5来源支持字段。** 新增6条书内来源字段（`enr-15880`–`enr-15885`），覆盖立面性质、颂扬对象、图像装饰方案，以及Tempio名称和“at Rimini”来源定位；全表增至12,116条，`unverified`仍为1,634条。立面、Tempio和Rimini卡片的关系与字段投影已更新。
+
+**S6关系候选逐项裁决。** 本批7条直接关系候选全部有去向：5条formal、2条pending，无rejected。
+
+| Statement | 决定 | 裁决与去向 |
+|---|---|---|
+| `st-chp9-p248-facade-design-and-building` | formal | `rel-1423`，立面`designed_by` Antonio Barbaro；保留Haskell的归属口径，注4未独立核读。 |
+| `st-chp9-p248-facade-apotheosis-of-antonio` | formal | `rel-1424`，立面`has_subject` Antonio Barbaro；表达Haskell的颂扬解释，不推定作者意图。 |
+| `st-chp9-p248-facade-erected-by-sardi` | formal | `rel-1425`，立面`erected_by` Giuseppe Sardi；保留1675–1683时段，不推定委托关系。 |
+| `st-chp9-p249-tempio-comparison` | formal | `rel-1426`，立面`compared_with` Tempio Malatestiano；是艺术史比较，不表示同一、传播、复制或物理连接。 |
+| `st-chp9-p249-tempio-located-at-rimini` | formal | `rel-1427`，Tempio`located_at` Rimini；仅记录Haskell原书定位，不声称当代核验。 |
+| `st-chp9-p248-facade-apotheosis-of-brothers` | pending | 四兄弟未具名且`cand-8163`的集体身份边界仍为S3 undecided；不建立对象身份未稳的正式边。 |
+| `st-chp9-p248-facade-place-plans-and-ambassador` | pending | 六处地点的计划图被原书作为集合提及，`cand-12376`的对象边界仍为S3 undecided；不把六项图像计划强拆成六件独立作品。 |
+
+`relation-types.yml`与域值域矩阵新增`designed_by`、`erected_by`及对称`compared_with`，明确区分设计、施工和艺术史比较。`relations.csv`增至1,427条（1,424 formal、3 pending）；7项裁决后，全书S6累计334/10,423条（205 formal、107 pending、22 rejected），余10,089条。正式关系均保留`source_id`和精确书内页行。
+
+**批后状态。** S2为9,573/15,194（63.0%，未接收）；关系候选10,423条，其中335条至少缺一个S2候选端点ID（45仅缺subject、218仅缺object、72两端均缺）。S3有12,388/12,408项决定记录：same=2,024（1,088个既有KU）、new=5,015（4,785组）、conflict=9、excluded=100、undecided=5,240（622项类型未决），缺行20项。S4已登记1,428/4,785组、1,638/5,015条映射；待登记3,357组／3,377条映射，其中直接关系端点1,615组／1,629条、非直接1,742组／1,748条。S5为12,116条字段（1,634条`unverified`）。S6关系表及候选累计如上。候选表审计无错误；关系一致性检查的断链目标、无效关系类型、缺少逆向关系、弱证据和未基线泛型关系均为0。本批未做外部来源核验，也不表示S2独立语义验收或S5/S6全书收口。
