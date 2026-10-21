@@ -9695,3 +9695,24 @@ Young’s Wood 作为花园内被命名的区域登记；柱与葬瓮的具体�
 使用受控谓词 has_subject 表达作品所涉概念主题：relation-domain-range.yml 允许 work→term；当前词表没有 depicts，dedicated_to 的值域仅为 person。scope 保留来源分别使用“dedicated to”和“depicted”的语义，不把概念误写成个体人物。以下两条不生成formal边：st-chp15-p371-altar-highlights-querini-temperament为Haskell所报告的性格解释，受控谓词没有精确表达“祭坛强调人物性格”；st-chp15-p371-relief-based-on-apelles-composition的目标cand-12246仍S3 undecided，且来源没有确认构图身份，故保持pending。st-chp15-p371-vices-depicted-after-apelles-pliny裁为rejected graph edge：该汇总句无独立端点，三条浮雕描绘关系已由原子候选分别裁决；来源事实仍保留，不表示句子为假。
 
 **批后状态。** S4新增5组/5条映射；S5新增5条source-backed字段；S6新增9项裁决（6 formal、2 pending、1 rejected），relations.csv新增rel-1398–rel-1403六条formal has_subject边。S3分类总数及S2独立复核计数均不变。五张KU卡片预览后定向渲染：5/5卡片关系预检通过、写入并核验5个文件。
+
+<a id="s3-s4-s5-s6-chp7-p188-louis-xiv-bust-20261022"></a>
+### S3/S4/S5/S6：第七章 p.188 路易十四胸像与跨章术语（2026-10-22）
+
+**证据与身份裁决。** 依据 Haskell 第7章印刷页188 L237（chp-7:07_CHP-7_sec_i:l232-241）及本章图版目录“Plate 27b, Bernini: Louis XIV (Versailles)”。S4查重时发现 cand-6915 与已登记作品 units/works/bernini-louis-xiv 指向同一胸像；原S3决定由 new 修订为 same，映射至该既有KU。alignment保留原 workgrp-bba8c093e7b581 与先前决定，并在修订说明中记录书内直接交叉引用依据；这不构成外部实物核验。骑马像 cand-6917 与胸像保持为不同作品。
+
+cand-6916 与 cand-6923 保持各自的S3 new决定，分别登记为“个人君主制形象”与“哈斯克尔视觉艺术叙述中的专制主义”术语KU。cand-6923 同时承接第10章 p.296 的专制主义语境，作为跨章同一术语记录；两处语境分别保留，不把第10章对提埃坡罗的表述扩成胸像关系，也不与“ancien régime”合并。
+
+**S4登记。** 胸像候选复用既有作品卡；两项术语组新增映射并纳入accepted units及manifest。未给胸像补入未具名的委托者，也未把骑马像合并进胸像卡。
+
+**S5字段。** 本批新增六条由原书支持的字段：enr-15817–enr-15819（胸像年份、委托语境、真人写生方式），enr-15820–enr-15821（专制主义术语在第7章与第10章的语境），enr-15822（个人君主制形象的来源解释）。未增加外部事实或验证状态。
+
+**S6逐候选裁决。** 四条候选中三条formal、一条pending；正式边为 rel-1404–rel-1407：
+| statement_id | 决定 | 正式关系或待证理由 |
+|---|---|---|
+| st-chp7-p188-i15 | pending | 作品确为Bernini受托制作，但原句被动语态未说明委托人；不能因胸像描绘Louis XIV就推定由国王委托。 |
+| st-chp7-p188-i16 | formal | rel-1404；胸像 has_subject Louis XIV，保留按真人描绘的来源范围。 |
+| st-chp7-p188-i17 | formal | rel-1405；胸像 has_subject 个人君主制形象术语，归属为Haskell的解释；注1所引Wittkower页未独立查阅。 |
+| st-chp7-p188-i18 | formal | rel-1406：胸像 created_by Bernini（“he made”承接前句）；rel-1407：胸像 has_subject 专制主义术语。Haskell的“most compelling”保留为评价，不作为客观排名。 |
+
+本批不增加S2独立复核分子，也不声称p.188已独立语义接收。批后S3决定行仍为12,388/12,408；same 2,023（指向1,089个既有KU），new 5,016项／4,788组，conflict 9，excluded 100，undecided 5,240。S4已登记1,404/4,788组、1,611/5,016条映射；待登记3,384组／3,405条映射，其中直接端点1,639组／1,654条组成员映射、非直接1,745组／1,751条。S5字段12,053条（1,634条 unverified）。S6累计裁决278/10,417条（185 formal、76 pending、17 rejected），其余10,139条待逐项裁决；关系表1,407条（1,404 formal、3 pending）。
