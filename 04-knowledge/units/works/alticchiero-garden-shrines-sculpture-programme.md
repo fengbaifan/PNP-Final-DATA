@@ -49,7 +49,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-未建立正式关系。该候选有 6 条 `relation_candidate=true` 的直接 S2 关系候选：`st-chp15-p370-other-altars-material`、`st-chp15-p370-garden-sculpture-programme-located-in-grounds`、`st-chp15-p370-altar-ideal-tranquillity`、`st-chp15-p370-altar-ideal-country-life`、`st-chp15-p370-altar-ideal-fortune`、`st-chp15-p370-altar-ideal-apollo`。这些候选均保留待 S6 逐条审查；本次只完成 S4 身份登记，没有写入 `relations.csv`。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [阿尔蒂基耶罗奎里尼庄园花园（Querini’s Garden at Alticchiero）](../places/querini-garden-at-alticchiero.md) | S2 statement: st-chp15-p370-garden-sculpture-programme-located-in-grounds. Haskell ch.15 p.370; the edge records only the source-scoped relation described there, without asserting external verification or current survival.；角色：园林配置的空间地点；范围：Haskell称神龛与雕塑分布在园林 grounds；不指定单件作品位置或当前存放地点。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 64; print p. 370 |
+| → 所涉对象（`has_subject`） | [宁静主题（Tranquillity in the Alticchiero Garden-altar Programme）](../terms/tranquillity-alticchiero-garden.md) | S2 statement: st-chp15-p370-altar-ideal-tranquillity. Haskell ch.15 p.370; the edge records only the source-scoped relation described there, without asserting external verification or current survival.；角色：Haskell列举的园林祭坛主题；范围：来源将Tranquillity列作其他花园祭坛所表现的理想；不映射至单一祭坛或存世物件。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 65; print p. 370 |
+| → 所涉对象（`has_subject`） | [田园生活主题（Country Life in the Alticchiero Garden-altar Programme）](../terms/country-life-alticchiero-garden.md) | S2 statement: st-chp15-p370-altar-ideal-country-life. Haskell ch.15 p.370; the edge records only the source-scoped relation described there, without asserting external verification or current survival.；角色：Haskell列举的园林祭坛主题；范围：来源将Country Life列作其他花园祭坛所表现的理想；不映射至单一祭坛或存世物件。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 65; print p. 370 |
+| → 所涉对象（`has_subject`） | [Fortune主题（Fortune in the Alticchiero Garden-altar Programme）](../terms/fortune-alticchiero-garden.md) | S2 statement: st-chp15-p370-altar-ideal-fortune. Haskell ch.15 p.370; the edge records only the source-scoped relation described there, without asserting external verification or current survival.；角色：Haskell列举的园林祭坛主题；范围：来源将Fortune列入园林祭坛相关主题；原文未判定其抽象、拟人或具体祭坛对象。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 66; print p. 370 |
+| ← 包含成员（`contains`，反向投影） | [阿波罗雕塑（Apollo Sculpture in Querini’s Garden at Alticchiero）](apollo-sculpture-alticchiero.md) | S2 statement: st-chp15-p370-altar-ideal-apollo. Haskell ch.15 p.370; the edge records only the source-scoped relation described there, without asserting external verification or current survival.；角色：园林祭坛装饰配置中的雕塑；范围：来源将阿波罗雕塑列入园林祭坛主题配置；雕塑家未具名，不指定单座祭坛或当前地点。；原断言与证据见发出端卡片“阿波罗雕塑（Apollo Sculpture in Querini’s Garden at Alticchiero）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 66; print p. 370 |
+
+正式关系记录由 `relations.csv` 渲染；各候选的裁决状态与理由保存在全书处理过程记录中。
 
 ### 身份与外部链接
 

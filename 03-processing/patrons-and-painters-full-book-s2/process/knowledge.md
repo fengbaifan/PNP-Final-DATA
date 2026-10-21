@@ -9618,3 +9618,42 @@ Turin更正只解决本候选的类型和身份去向，不表示S3全书收口�
 正式边来源均为 `haskell-1980-rev-ed`，Haskell第2章L143、印刷页43（PDF物理页28）。只记录书中报告；不表示另行查阅了引文所述的原始账目或档案。
 
 **本批后状态变化：** S4新增2组、2条候选映射；S5新增6条source-backed字段；S6新增5条逐项裁决（2 formal、3 pending），relations.csv新增2条formal `supplied_by`。全书S2计数不变，S3决定行及各类身份决定不变。
+
+
+<a id="s3-s4-s5-s6-chp15-alticchiero-garden-endpoints-20261022"></a>
+### S3身份边界修订与S4/S5/S6：Alticchiero花园、青年林及祭坛项目（2026-10-22）
+
+**证据范围。** 本批依据 Haskell, 1980 revised edition, chapter 15, printed pp. 370–371；主要段落为来源文件 15_CHP-15_sec_ii.md 的 L61–67（印刷页370，segment chp-15:15_CHP-15_sec_ii:l61-67），Wynne-Rosenberg 的评述在 p.371 L74–75。索引 Q-R.csv#8 的 sub-entry 为 garden、p.370；Q-R.csv#7 为 country house at Alticchiero、pp.369–372。
+
+**S3定点更正。** cand-2081 的 S3 decision 保持 new；仅将身份组从 sg3-place-queriniangelo 改为 sg3-place-cand-2081。原组标记将独立的花园索引项与 cand-2080（country house at Alticchiero，仍 undecided）混在一起。来源 L63 明确区分 house 与 garden，故将花园作为独立 place；不与 cand-2075（Angelo Querini 人物）合并，也不复用范围更广的 units/places/alticchiero-querini-villa-estate。S3决定类别及 new 组总数不变；cand-2080 仍待决。
+
+**S2定点修订。** 将 st-chp15-p370-altar-ideal-apollo 的 original_quote 补至 p.370 L66 的完整句，包含 Apollo 的描写及来源所称“modern and still living sculptor”。该操作只修复引文跨度；没有增删 statement，也未增加独立S2复核分子。Apollo 创作者仍未具名。
+
+**S4登记。** 下列七个 source-local new 候选各登记为独立KU并完成候选映射；不作外部身份声明：
+- cand-2081 → units/places/querini-garden-at-alticchiero
+- cand-10550 → units/places/youngs-wood-alticchiero
+- cand-10553 → units/terms/philosophers-way-of-life-querini-garden
+- cand-10559 → units/terms/tranquillity-alticchiero-garden
+- cand-11539 → units/terms/country-life-alticchiero-garden
+- cand-11540 → units/terms/fortune-alticchiero-garden
+- cand-10560 → units/works/apollo-sculpture-alticchiero
+
+Young’s Wood 作为花园内被命名的区域登记；柱与葬瓮的具体布置仍由来源描述，不据此创设单件作品。Tranquillity、Country Life、Fortune 作为来源列举的祭坛主题/理想登记，不声称对应某一具体祭坛。Apollo 雕塑只记录来源所述题材、姿态及未具名的当代雕塑家。
+
+**S5字段。** 新增 enr-15800–enr-15811 共12条有来源支持的字段：花园3条、Young’s Wood 2条、哲学家生活方式概念1条、Tranquillity/Country Life/Fortune各1条、Apollo雕塑3条。字段限于来源所述范围、布置、命名、主题、题材、姿态及创作者未具名等信息。另将 Donna Olimpia 肖像卡的既有 enr-15780–enr-15783 四条字段的 source_ref、source_citations、occurrence_id 与当前卡片证据对齐；字段值未变，来源限定为卡片现载的 Haskell S2 证据。
+
+**S6逐项裁决。** 本批裁决12条关系候选，六条 formal、四条 pending、两条 rejected。六条正式边均来源于 Haskell 的书内陈述，source_id=haskell-1980-rev-ed，定位 p.370 L63–66：
+| statement_id | 决定 | 关系 |
+|---|---|---|
+| st-chp15-p370-youngs-wood-part-of-garden | formal | rel-1392；Young’s Wood part_of Querini garden |
+| st-chp15-p370-garden-sculpture-programme-located-in-grounds | formal | rel-1393；sculpture programme located_at garden |
+| st-chp15-p370-altar-ideal-tranquillity | formal | rel-1394；programme has_subject Tranquillity |
+| st-chp15-p370-altar-ideal-country-life | formal | rel-1395；programme has_subject Country Life |
+| st-chp15-p370-altar-ideal-fortune | formal | rel-1396；programme has_subject Fortune；来源未判定其抽象或拟人范围 |
+| st-chp15-p370-altar-ideal-apollo | formal | rel-1397；Apollo sculpture part_of programme |
+
+以下四项保留 pending，不生成 formal 边：st-chp15-p370-garden-allegory-philosophers-way-of-life（来源解释花园设计寓意，但受控关系类型没有精确的 place→term 谓词）；st-chp15-p370-youngs-wood-landscape-arrangement（柱与葬瓮的组合未能独立识别，cand-10552 未有可登记的作品端点）；st-chp15-p370-youngs-wood-named-in-honour-of-young（关系词表无 place named in honour of person 的准确谓词，honoured_by 方向及含义不符）；st-chp15-p370-other-altars-material（来源称其他祭坛由古代雕塑或现代仿制品构成，但未给出可识别的材料/作品端点，当前也无 made_of 谓词）。
+
+以下两项裁为 rejected graph edge，原书陈述仍保留：st-chp15-p370-querini-garden-as-expression-of-taste 是 Haskell 对花园与住宅表达品味的比较评价；st-chp15-p371-querini-garden-allegories-straightforward 是 Haskell 报告 Wynne-Rosenberg 对寓意易于理解的判断。两项都没有提出需要建立的正式对象关系。
+
+**批后状态。** 本批新增S4映射7条、S5字段12条、S6裁决12条（6 formal、4 pending、2 rejected），relations.csv新增rel-1392–rel-1397六条formal边。Apollo statement 的引文修订未改变S2独立复核分子；S3决定类别总数不变。八张受影响卡片中，七张因关系渲染而更新，定向渲染写入并核验7个文件；未对全库595张历史渲染差异作批量写回。
