@@ -13474,3 +13474,8 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 按来源顺序对照 CHP-7.pdf 物理页43复核 `chp-7:07_CHP-7_sec_v:l42-55`。原37条statement在拆分Pozzo“受召”与“开始绘制天顶画”后为38条；mention从95条补至97条，加入两处指向p.200高意大利裔军官群的精确代词span。Eugene对Venetian风格的无兴趣判断与“其他画家在Vienna工作”分开并互链；其他claim保留原作者限定和未完成状态。无新候选或S3决定；`cand-7320`已属直接端点队列，S4队列不变。
 
 Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关系裁决](knowledge.md#s6-chp7-p201-pozzo-ceiling-and-summons-20261021)。本段计入后S2独立复核为第七章1,099/1,244、全书9,490/15,172（62.5%）；关系候选10,407，缺S2端点335；S6逐项决定213/10,407（143 formal、61 pending、9 rejected）。下一段为p.202 `chp-7:07_CHP-7_sec_v:l57-60`，随后检查p.200脚注。
+
+
+### 2026-10-21：第10章 p.296 楼梯厅顶画定点复核及端点修复
+
+对照 chp-10:10_CHP-10_intro:l318-330 与 Plate 50 图版说明，修正四洲致敬 statement 的主体/主题方向及 ancien régime statement 的作品/term 端点；新增作品创作者、所在建筑两条原子陈述及 he→Tiepolo mention。Agreement 陈述仍留作原书 claim；图版局部 detail 与整幅壁画的身份判断触发 cand-4180 从 new 复核为 same。该定点复核检查两条新增及两条修正 statement，但不计入统一 S2 复核分子；第10–12章原有独立复核记录仍为1,567/1,567、未接收且不并入统一口径。全书当前为9,490/15,174，尚未独立语义验收。具体身份和S6去向见 [S3/S4/S5/S6记录](knowledge.md#s3-s4-s5-s6-chp10-p296-staircase-fresco-20261021)；第10章局部记录见 [结果](../results/chp-10.md#s2-review-chp10-p296-staircase-fresco-20261021)。

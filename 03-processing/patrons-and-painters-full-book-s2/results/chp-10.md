@@ -142,3 +142,12 @@
 脚注1中，早期传记作者关于Christian Cole建议Carriera改用粉彩的归属、Zanetti日期更正、Crespi 1703年比较、Haskell关于Guido Reni晚期“chalky”画法及鉴赏家接受度的判断分开记录。新增`cand-12401`–`cand-12403`；Malamani原页未独立查阅。
 
 正文“All three”明确回指State、nobles、Church。新增`cand-12404`–`cand-12409`，记录传统赞助及绘画倾向、战争背景、未具名外交使团、外国国王与未具名军事行动；分别保留Venice中立、求盟和避战压力主张。使团“intrigued”的对象和确切地点未明，保留为带理由的开放statement。无新增KU或正式S6关系。
+
+
+<a id="s2-review-chp10-p296-staircase-fresco-20261021"></a>
+
+## 第十章 p.296 楼梯厅顶画定点复核与端点修复（2026-10-21）
+
+按 chp-10:10_CHP-10_intro:l318-330 对照 S0 与 Haskell p.296，修正四洲向 Karl Philip 致敬的关系方向，将 ancien régime 解释限定为 Haskell 对该壁画的阐释；新增 Tiepolo 创作者与 Residenz 所在空间陈述，并补精确代词 mention（he，[2765,2767)）。外部[巴伐利亚宫殿管理局《Würzburg Residence: Staircase》](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)（访问：2026-10-21）确认整幅楼梯厅顶画、Tiepolo及1752–53年绘制；图版50为局部的判断仍仅依据 Haskell 图版说明。
+
+同一性复核后，cand-4180 从 new 改为复用完整壁画 KU，避免局部图像和整幅壁画重复建卡；cand-9136 登记为来源限定的 term KU，S5新增1条来源支持字段。六项 S6 候选全部裁决：两条 formal 新边、两条复用既有正式边、两条仅否决图谱边并保留原书陈述。未接收第十章或全书 S2。

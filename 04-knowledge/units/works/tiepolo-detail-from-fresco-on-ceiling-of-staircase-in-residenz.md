@@ -121,6 +121,8 @@ relations:
 | → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | 时间：1752–1753；角色：顶画作者；范围：完整楼梯厅天顶壁画；图版50只复制局部；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；src-7719e81540252ce3；Staircase正文 |
 | → 安置于（`installed_at`） | [维尔茨堡宫（Residenz, Würzburg）](../places/residenz-wurzburg.md) | 时间：1752–1753绘成；角色：楼梯厅天顶；范围：壁画与建筑空间一体，不把书中局部复制图像另作馆藏原件；证据：[来源](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)；src-7719e81540252ce3；Staircase正文 |
 | → 位于（`located_at`） | [维尔茨堡（Würzburg）](../places/wurzburg.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版50明确的城市位置；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 128–128; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [卡尔·菲利普·冯·格赖芬克劳（Karl Philip von Greiffenklau）](../persons/karl-philip-von-greiffenklau.md) | S2 statement st-chp10-p296-four-continents-fresco; 不由图像主题推断原文未述的属性；角色：图像主题；范围：四洲向 Karl Philip von Greiffenklau 致敬；与 Carriera 第295页的四洲寓意画不同；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；lines 326–327; print p.296 |
+| → 所涉对象（`has_subject`） | [哈斯克尔所述提埃坡罗维尔茨堡楼梯厅顶画中的旧制度社会（Haskell’s Ancien Régime Vision in Tiepolo’s Würzburg Staircase Fresco）](../terms/haskell-ancien-regime-vision-wurzburg-staircase-fresco.md) | S2 statement st-chp10-p296-ancien-regime-vision; 保留作者阐释边界；角色：作者解释的画作主题关联；范围：仅指哈斯克尔对 ancien régime 的视觉阐释；不是该历史制度的一般定义；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；line 328; print p.296 |
 
 ### 关系候选入口
 

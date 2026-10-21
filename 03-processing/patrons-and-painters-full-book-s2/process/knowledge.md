@@ -1,5 +1,28 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp10-p296-staircase-fresco-20261021"></a>
+
+### S3/S4/S5/S6：第10章 p.296 楼梯厅顶画及旧制度主题端点（2026-10-21）
+
+**S2定点复核与身份触发。** 对照第10章规范来源 chp-10:10_CHP-10_intro:l318-330（印刷 p.296）复核本段及 Plate 50 caption。修正 st-chp10-p296-four-continents-fresco 的关系方向：四洲向 Karl Philip von Greiffenklau 致敬，作品为主体、Karl Philip 为图像主题端点。st-chp10-p296-ancien-regime-vision 改为作品指向来源限定 term，保留 Haskell 的解释范围。新增 creator 与 location 两条原子陈述；代词 he 的 mention 指向同段已命名的 Tiepolo，精确跨度为 [2765,2767)。agreement 陈述保留为来源 claim，不直接改写成委托边。
+
+端点查重触发 S3 复核：cand-4180 原为 workgrp-984806077dfac0 的 new。既有整幅楼梯厅壁画 KU 明确把 Plate 50 限为该作品的局部，且 cand-4102 已映射到同一 KU；因此将 cand-4180 改判 same，指向 units/works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz，不重复登记局部作品。[巴伐利亚宫殿管理局《Würzburg Residence: Staircase》](https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm)（访问：2026-10-21）确认 Tiepolo 于1752–53年装饰该楼梯厅拱顶，并将约600平方米的画面描述为整体；该页面支持整幅作品、作者和空间身份。Plate 50 的“detail”范围依据 Haskell 图版说明，不归因于官方页面。沿用既有 rel-1001、rel-1002 的外部来源证据，不把外部身份证据扩大为额外原书断言。
+
+**S4/S5登记。** cand-9136 沿用 S3 new 组 sg3-term-cand-9136，登记为 source-local term KU units/terms/haskell-ancien-regime-vision-wurzburg-staircase-fresco。卡片仅表达 Haskell 在 p.296 对该壁画的 ancien régime 阐释，不作历史制度的一般定义。新增1条 source_backed 字段 enr-15775（来源语境释义）；其证据为同一原书段落，不表示外部核验。更新 accepted.yml、ku-manifest.csv、alignment.csv，并渲染新 term 卡和受影响 work 卡。
+
+**S6逐条决定。** 六条候选均有明确去向；否决的是图谱边，不删除原书陈述：
+
+| statement_id | 决定 | 关系或去向 |
+|---|---|---|
+| st-chp10-p296-four-continents-fresco | formal | 新增 rel-1369：work has_subject Karl Philip；四洲致敬限定保留。 |
+| st-chp10-p296-ancien-regime-vision | formal | 新增 rel-1370：work has_subject 来源限定 term；只表达 Haskell 的解释。 |
+| st-chp10-p296-staircase-fresco-created-by-tiepolo | formal | 复用既有 rel-1001 created_by；不重复写边。 |
+| st-chp10-p296-staircase-fresco-located-at-residenz | formal | 复用既有 rel-1002 installed_at；不重复写边。 |
+| st-chp10-p296-staircase-ceiling-commission | rejected（边） | 原句只记录 Tiepolo 同意绘制天花的意向，没有可确认的委托方和可成立的 commissioned_by 边；保留 S2 claim。 |
+| st-fm-pl-p50-parent_fresco | rejected（边） | 局部与整幅壁画现映射到同一 work KU，detail-of 将形成自环；保留图版说明，不建立自环。 |
+
+批后：S2 共15,174条statement；统一复核计数仍为9,490条，分母更新为15,174（62.5%），本次新增两条只记定点复核，不并入统一分子或第10–12章既有1,567/1,567单独口径。S2关系候选10,410条，缺至少一个候选端点ID仍为335条。S3仍全数12,408/12,408有记录：same 2,026，new 5,027（4,802组），conflict 9，excluded 100，undecided 5,246。S4已登记1,396/4,802组、1,600/5,027条映射；待登记3,406组／3,427条映射，直接端点1,661组／1,676条组成员映射，非直接1,745组／1,751条。S5为12,006条字段（1,634条 unverified）。S6累计裁决219/10,410条（147 formal、61 pending、11 rejected），尚余10,191条；relations.csv 为1,370条（1,367 formal、3 pending）。candidate-backlog仍有5条历史记录、pending=0。
+
 <a id="s4-s5-s6-storm-at-sea-20261021"></a>
 
 ### S4/S5/S6 work：Claude《A Storm at Sea》直接端点（2026-10-21）
