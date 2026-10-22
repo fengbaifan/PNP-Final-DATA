@@ -1,5 +1,24 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp10-canons-edgware-20261022"></a>
+### S4/S5/S6 place：第10章 p.281 Canons 庄园地点端点（2026-10-22）
+
+**S3沿用与S4登记。** 沿用 `cand-0531` 的既有 S3 `new` 身份组 `sg3-place-cand-0531`，经 `aln-0866` 登记为[坎诺斯庄园地点卡](../../../04-knowledge/units/places/canons-edgware.md)，加入 `ku-manifest.csv` 与 `accepted.yml`。本对象是 Edgware 的 Canons 庄园／宫殿，区别于同页礼拜堂候选 `cand-8942`；不因卡片登记重开 S3，也不将礼拜堂并入庄园。
+
+**S5书内字段。** 从 Haskell 第10章印刷页281正文L128–131及注2 L519登记三条 `source_backed` 字段 `enr-16106`–`enr-16108`：建筑性质、Edgware地点、1747年拆毁记载。只记录原书表述，不补现址、坐标或外部建筑史。字段生成器全库 dry-run 当时报告30条新ID、27条待替换旧ID、0 warnings、0 source-registry changes；其中27条已有对象记录不属本批，未对其执行全表 apply，本批仅写入 Canons 卡导出的三条记录。
+
+**S6逐条裁决。** 三条直接候选均已在 `relations.csv` 登记为 `formal`：
+
+| S2 statement | 关系与去向 | 证据范围 |
+|---|---|---|
+| `st-chp10-p281-brydges-acquired-canons` | `rel-1517 owned_by`：Canons→James Brydges，时间1713 | 原书直接记载取得旧庄园；只表达取得时的历史所有权，不推断之后连续产权。 |
+| `st-chp10-p281-bellucci-state-room-ceilings` | `rel-1518 located_at`：Antonio Bellucci→Canons，角色为装饰工作地点 | 同一陈述也提及一处未具名 London house；本边仅覆盖 Canons state rooms，不推断房间数、题材或伦敦住宅身份。 |
+| `st-chp10-p281-brydges-canons-concerts` | `rel-1519 located_at`：James Brydges→Canons，角色为款待朋友的音乐会举办地点 | 原书未给具体日期或节目；不据此推断常住。 |
+
+**卡片投影与核查。** 单卡预览发现 `build_cards.py` 先前按反向端点对去重；若同一对对象同时有不同谓词，可能漏掉另一关系的反向投影。本批将去重条件改为端点与受控反向谓词同时匹配。Canons、Brydges、Bellucci 三张卡均完成预览、定向渲染和写后字节核对；渲染后单卡预览无剩余差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性审计 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。全库差异预检为555张卡、584个待写文件；本批只写三张受影响卡。
+
+本批未改写 S2 statement、未增加独立复核分子，S3决定与22项跨来源差异计数不变。批后全书统计见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
 <a id="s3-s4-s5-s6-palomino-barberini-cross-chapter-20261022"></a>
 ### S2定向修订／S3跨章身份分组／S4/S5/S6：Palomino 肖像与卷册引注（2026-10-22）
 

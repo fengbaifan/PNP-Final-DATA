@@ -74,3 +74,9 @@ English: This passage does not resolve the precise institutional or dynastic bou
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [坎诺斯庄园（Canons）](../places/canons-edgware.md) | 哈斯克尔称Bellucci为Canons与一处未具名London house的state-room ceilings绘制寓意题材；本边只记录Canons这一直接地点，沿用艺术家装饰工作地点的located_at语境；角色：装饰工作地点；范围：仅指Canons state rooms中的天花板装饰；同一S2陈述还提及身份未明的London house，本边不解析该处；未载具体数量或题材。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 281, L130–131; S2 statement: st-chp10-p281-bellucci-state-room-ceilings |

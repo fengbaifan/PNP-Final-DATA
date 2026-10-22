@@ -50,3 +50,10 @@ This card refers to James Brydges as a person; “first Duke of Chandos” is hi
 ## 关系与证据
 
 6条直接 S2 `relation_candidate` 保留待 S6：st-chp10-p281-bellucci-chandos-chapel-team, st-chp10-p281-brydges-acquired-canons, st-chp10-p281-brydges-bellucci-patron, st-chp10-p281-brydges-canons-concerts, st-chp10-p281-brydges-created-duke, st-chp10-p281-brydges-paymaster-service。本轮未登记正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 收藏者／所有者（`owner_of`，反向投影） | [坎诺斯庄园（Canons）](../places/canons-edgware.md) | Haskell直接记载James Brydges于1713年取得Canons旧庄园；只记录取得时的历史所有权；时间：1713；角色：历史所有人（1713年取得）；范围：哈斯克尔所记旧伊丽莎白时期庄园；仅记录1713年取得，不推断此后或拆毁前各时期的产权连续性。；原断言与证据见发出端卡片“坎诺斯庄园（Canons）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 281, L128–129; S2 statement: st-chp10-p281-brydges-acquired-canons |
+| → 位于（`located_at`） | [坎诺斯庄园（Canons）](../places/canons-edgware.md) | 只记录来源所述社交音乐会的举办地点与Brydges的款待角色，不据此推断常住、具体场次或节目；角色：款待朋友的音乐会举办地点；范围：哈斯克尔称Brydges在Canons款待朋友，音乐会由Handel与Dr Pepusch组织；日期与节目未载。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 281, L129–130; S2 statement: st-chp10-p281-brydges-canons-concerts |

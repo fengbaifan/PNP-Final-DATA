@@ -92,8 +92,8 @@ def relation_rows(manifest_rows: list[dict], relation_table_rows: list[dict]) ->
         text = (BASE / row["card_path"]).read_text(encoding="utf-8-sig")
         titles[key] = frontmatter_title(text, row.get("canonical_name", ""))
     ku_to_key = {row["ku_id"]: card_key(row["card_path"]) for row in manifest_rows}
-    explicit_pairs = {
-        (ku_to_key[row["subject_ku_id"]], ku_to_key[row["object_ku_id"]])
+    explicit_edges = {
+        (ku_to_key[row["subject_ku_id"]], ku_to_key[row["object_ku_id"]], row.get("predicate", ""))
         for row in relation_table_rows if row.get("status") == "formal"
         and row.get("subject_ku_id") in ku_to_key and row.get("object_ku_id") in ku_to_key
     }
@@ -119,7 +119,7 @@ def relation_rows(manifest_rows: list[dict], relation_table_rows: list[dict]) ->
             continue
         by_unit[source].append(_row("outgoing", raw["predicate"], titles[target], _relative_link(source, target), context))
         inverse = INVERSE_MAP.get(raw["predicate"])
-        if inverse and (target, source) not in explicit_pairs:
+        if inverse and (target, source, inverse) not in explicit_edges:
             by_unit[target].append(_row("incoming", inverse, titles[source], _relative_link(target, source), _context(source, edge, source_title=titles[source])))
     return by_unit
 
