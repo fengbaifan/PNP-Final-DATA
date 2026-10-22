@@ -1,5 +1,29 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-archive-hoogewerff-1913-cross-chapter-citations-20261022"></a>
+
+### S4/S5/S6 archive：Hoogewerff 1913 跨章引注（2026-10-22）
+
+**S3沿用。** `cand-6199` 保留既有 `new` 身份组 `archive-group-b1605ff43569`；本批没有改动S3决定。该组仅含一个archive候选，对应Haskell第21章书目所列的1913年出版物。
+
+**S4登记。** 新建[Hoogewerff 1913年出版物卡](../../../04-knowledge/units/archives/hoogewerff-bescheiden-en-italie-1913.md)，将 `cand-6199` 映射至 `units/archives/hoogewerff-bescheiden-en-italie-1913`，并登记到manifest及accepted.yml。以第21章印刷页426为身份依据；扫描页读作 `omtrent`，据此记录原题，不沿用Markdown OCR的 `omirent`。中文标题是描述性工作译名。仅登记书目责任者形式 `Hoogewerff, G. J.`，不据此确定人物身份或建立作者关系。
+
+**S5补足。** 从该书目项写入四个 `source_backed` 字段：原题名 `enr-15972`、责任者形式 `enr-15973`、出版地 `enr-15974`、出版年 `enr-15975`。它们都由Haskell第21章p.426的书目条目支持；被引出版物及其第49–50页未独立查阅。
+
+**S6逐条裁决。** 两条明确的书内引注分别裁为formal `cites`，各留一条关系和一个S6决定：
+
+| S2 statement | 决定 | 关系 | 证据与范围 |
+|---|---|---|---|
+| `st-chp1-secii-p18-n1-cites-hoogewerff-1913` | formal | `rel-1468 cites` | 第1章p.18注1将范拉尔与Cerquozzi的学院成员名单指向该书第49–50页；仅证明Haskell在书内作出该引注，不证明名单内容。 |
+| `st-chp5-notes-l156-hoogewerff-1913` | formal | `rel-1469 cites` | 第5章p.141注1引用该书第50页；仅记录书内引注，不证明被引页内容。 |
+
+两条S6候选的主体都是已登记的《赞助人与画家》archive KU，客体为本批登记的archive KU；`cites`域值范围合法。两处引注各自保留精确来源行和语境，关系不合并为无法追踪的单一注释。
+
+**核查。** 字段预览及应用均无warning，新增4条；两个受影响知识元的关系投影预检通过并写回，写后字节核对通过。严格表格审计 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic均为0。S2分子、S3决定及候选总数不变。
+
+批后：S2为9,573/15,204；S3有决定行12,388/12,408；S4已登记1,466/4,791组、1,681/5,020条映射，待登记3,325组／3,339条映射，其中直接端点1,588组／1,597条映射；S5字段12,206条（1,634条 `unverified`）；S6累计逐条裁决425/10,432条（252 formal、122 pending、51 rejected），尚余10,007条；`relations.csv`为1,469条（1,465 formal、4 pending）。
+
+
 <a id="s3-s4-s5-s6-ch4-p116-ch7-p190-donna-olimpia-portrait-20261021"></a>
 
 ### S3/S4/S5/S6：第4章 p.116 与第7章 p.190 的两幅 Velasquez 肖像（2026-10-21）
