@@ -1,5 +1,32 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp10-palazzo-balbi-country-house-20261022"></a>
+
+### S3定点复核／S4/S5/S6：第10章 p.302–304 Palazzo Balbi 与 Mogliano 乡间宅邸（2026-10-22）
+
+**触发与 S3 身份裁决。** S4直接关系端点登记触发对第10章两处房产的定点核查。`cand-2464` 保留既有 `new` 组 `sg3-place-smithjoseph`；p.302 的 “Smith’s palace” 与 p.303 明称 “Palazzo Balbi near the Rialto” 按连续叙述确定为同一书内地点，未发现同类型既有 KU。`cand-9207` 从 `undecided` 改为来源限定的 `new` 组 `sg3-place-cand-9207`：p.304 明确描述Smith此前承租、1731年购置的那一座Mogliano乡间宅邸；足以登记书内对象，不足以识别外部建筑或现存建筑。`cand-9208` 沿用 `new` 组 `sg3-place-cand-9208`，记录Mogliano地名；`cand-9209` 继续复用 Treviso KU。宅邸、Mogliano与Treviso保持为不同地点。`cand-9210` 所指绘画与素描集合仍为类型未决，不登记为KU。
+
+**S2 定向修订。** 依据 Haskell 第10章 p.303 L408、p.304 L412–413（PDF物理页32–33），保留 `st-chp10-p303-smith-age-palazzo-balbi` 与 `st-chp10-p304-smith-settled-palazzo`，并分别表达时年55岁居住及初抵时已定居于Palazzo Balbi。拆分 `st-chp10-p304-smith-country-house-lease-purchase`（只表达1731年购买），新增 `st-chp10-p304-smith-country-house-lease-from-canal`（“四年前”的约1727年租赁）与 `st-chp10-p304-country-house-located-at-mogliano`。原 `st-chp10-p304-smith-displayed-works` 限定为乡间宅邸位置，另增 `st-chp10-p304-smith-displayed-works-at-palazzo-balbi`；“these two properties”复合指代据p.303和p.304拆开，不把具体未具名藏品臆造为独立作品。删除重复重叠的乡间宅邸 mention，保留明确宅邸 mention 与Palazzo Balbi回指 mention。本次定向修订不计入S2独立复核分子。
+
+**S4登记与S5字段。** 新登记三组、三条候选映射：`cand-2464`→[Palazzo Balbi地点卡](../../../04-knowledge/units/places/palazzo-balbi-near-rialto.md)，`cand-9207`→[Smith在Mogliano的乡间宅邸卡](../../../04-knowledge/units/places/joseph-smith-country-house-at-mogliano.md)，`cand-9208`→[Mogliano地点卡](../../../04-knowledge/units/places/mogliano-near-treviso.md)。均写入 `ku-manifest.csv`、`accepted.yml` 与 `alignment.csv`。按Haskell书内来源新增9条 `source_backed` 字段 `enr-16010`–`enr-16018`；不声称已查阅外部建筑目录、产权档案或被引档案记录。
+
+**S6逐条裁决。** 八项候选逐项去向如下；pending保留原书断言，不强造正式关系：
+
+| S2 statement | 决定 | 关系去向与理由 |
+|---|---|---|
+| `st-chp10-p302-boccage-palace-english-taste` | pending | Mme du Boccage对宅邸风格的评价没有适用的 person→place 受控关系类型；不把“描述”伪装成位置、所有权或赞助关系。 |
+| `st-chp10-p303-smith-age-palazzo-balbi` | formal | 新增 `rel-1482 located_at`：Smith→Palazzo Balbi；时年55岁，年份未载，只表示原书所述居住，不表示现状或持续居住。 |
+| `st-chp10-p304-smith-settled-palazzo` | formal | 新增 `rel-1483 located_at`：Smith→Palazzo Balbi；时间限于初抵时，抵达年份未载。 |
+| `st-chp10-p304-smith-country-house-lease-purchase` | formal | 新增 `rel-1484 owned_by`：乡间宅邸→Smith；只记录1731年购置，不推断之后或现今产权。 |
+| `st-chp10-p304-smith-country-house-lease-from-canal` | pending | 约1727年的承租人与出租人关系缺乏精确受控谓词；不以所有权、任职或一般隶属替代。 |
+| `st-chp10-p304-country-house-located-at-mogliano` | formal | 新增 `rel-1485 located_at`：乡间宅邸→Mogliano；“near Treviso”仅保留为位置限定，不另造 Mogliano→Treviso 正式边。 |
+| `st-chp10-p304-smith-displayed-works` | pending | 绘画与素描集合 `cand-9210` 类型未决、未登记；不以未定集合端点建立关系。 |
+| `st-chp10-p304-smith-displayed-works-at-palazzo-balbi` | pending | 同一未定集合端点阻断正式关系；原书所述展示地点保留在S2。 |
+
+四条 formal 边写入 `relations.csv`；四条 pending 决定及解除条件保留在本过程记录，因关系谓词或端点未满足关系表约束，不写成正式边。三张地点卡与Smith人物卡均完成定向关系投影预览、渲染和写后字节核对。
+
+**批后状态与检查。** S0仍为832个源段（678 complete、154 excluded）。S2为9,573/15,211，独立复核分子不变、尚未接收。S3主决定12,388/12,408：same=2,026，new=5,021（4,792组），conflict=9，excluded=100，undecided=5,232（类型边界未决622）；另有20个候选没有主决定行。S4已登记1,480/4,792组、1,694/5,021条映射，待登记3,312组／3,327条映射。S5为12,249条字段（1,634条 `unverified`）。S6裁决445/10,439条（268 formal、126 pending、51 rejected），余9,994条；`relations.csv`共1,485条（1,481 formal、4 pending）；candidate-backlog为5条历史记录、pending=0。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。以上仅确认结构及本批证据边界，不表示全书S2语义接收或S3–S6收口。
+
 <a id="s4-s5-s6-archive-faldi-guidotti-1957-cross-chapter-citations-20261022"></a>
 
 ### S3沿用／S4/S5/S6 archive：Faldi《骑士厅壁画》跨章引注（2026-10-22）

@@ -1367,7 +1367,7 @@ m-chp10-p304-modern-art-collection,chp-10:10_CHP-10_intro:l411-421,cand-9210,col
 m-chp10-p304-venice,chp-10:10_CHP-10_intro:l411-421,cand-3401,Venice,462,468,
 m-chp10-p304-old-masters,chp-10:10_CHP-10_intro:l411-421,cand-9210,old masters,509,520,Part of the same growing collection; the line distinguishes these from modern works.
 m-chp10-p304-smith-started-collecting,chp-10:10_CHP-10_intro:l411-421,cand-2440,Smith began to accumulate,642,667,
-m-chp10-p304-smith-palace,chp-10:10_CHP-10_intro:l411-421,cand-2464,his palace,700,710,Index cue points to Palazzo Balbi; alignment remains for S3.
+m-chp10-p304-smith-palace,chp-10:10_CHP-10_intro:l411-421,cand-2464,his palace,700,710,Corefers to the source-local Palazzo Balbi explicitly named on p.303; S3 identity trigger reviewed before S4 registration.
 m-chp10-p304-individual-taste,chp-10:10_CHP-10_intro:l411-421,cand-9211,individual taste,738,754,
 m-chp10-p304-england,chp-10:10_CHP-10_intro:l411-421,cand-8983,England,864,871,
 m-chp10-p304-taste-shift,chp-10:10_CHP-10_intro:l411-421,cand-9211,a move away from large-scale history pictures towards views and landscapes,873,947,
@@ -27334,3 +27334,4 @@ m-chp8-p237-don-carlo-silva-n2,chp-8:08_CHP-8_sec_ii:l372-461,cand-2433,Don Carl
 m-chp21-bib-l1059-1100-012-author-sagredo,chp-21:21_CHP-21Bibliography:l1059-1100,cand-9839,"Sagredo, A.",1324,1335,Author form nested within the complete bibliography-entry mention.
 m-chp21-bib-l87-127-017-author-bassi,chp-21:21_CHP-21Bibliography:l87-127,cand-9841,"Bassi, Elena",1985,1997,Author form nested within the complete bibliography-entry mention.
 m-chp21-bib-l461-496-018-author-fogolari,chp-21:21_CHP-21Bibliography:l461-496,cand-9843,"Fogolari, Gino",1638,1652,Author form nested within the complete bibliography-entry mention.
+m-chp10-p304-two-properties-palazzo-balbi,chp-10:10_CHP-10_intro:l411-421,cand-2464,these two properties,186,206,Plural anaphor refers to the Palazzo Balbi named on p.303; kept distinct from the Mogliano country house.
