@@ -10251,3 +10251,14 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **S5写回与S6关系落表。** 新增 `enr-15933`–`enr-15937` 五条原书支持字段：教堂与礼拜堂性质、Salvi建造者、Conca与Giaquinto装饰者。`build_field_facts.py` 写前预览与写后复核均为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；字段表总计12,168条，1,634条 `unverified`。S6 formal 边 `rel-1454 part_of` 已写入 `relations.csv`，三条谓词缺口候选保持 pending。
 
 **批后状态与检查。** S2为9,573/15,201（63.0%，未接收），第八章为487/1,464；本批定向原子化不增加独立复核分子。S2关系候选10,429条，其中335条缺至少一个S2端点候选ID。S3主决定行12,388/12,408，分类未变，缺主决定行20。S4（按主决定行统计）已登记1,452/4,792组、1,662/5,022条映射；待登记3,340组／3,360条，其中直接端点1,601组／1,615条、非直接1,739组／1,745条。S6累计裁决406/10,429条（236 formal、119 pending、51 rejected），余10,023条；`relations.csv`共1,454条（1,450 formal、4 pending）。`audit_tables.py --summary` 返回 `errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。检查仅确认机械一致性，不表示全书语义接收或阶段收口。
+
+<a id="s4-s5-s6-chp4-p118-umoristi-20261022"></a>
+### S4/S5/S6：第4章 p.118 Accademia degli Umoristi 机构端点（2026-10-22）
+
+**S3身份与跨章核对。** 沿用 `cand-0002` 的既有 `new` 决定及单成员组 `sg3-institution-cand-0002`。该候选来自索引 A.csv#1；S3记录锚定第4章 p.118 的正文陈述。回查索引和全书候选后，未发现另一候选需要与该学院合并；不与 Accademia di S. Luca 混同，不作外部机构身份核验。
+
+**S4登记与S5字段。** 将 `cand-0002` 登记到 `units/institutions/accademia-degli-umoristi`，并加入 `ku-manifest.csv` 与 `accepted.yml`。卡片以来源限定的描述名记录原书所称的罗马学院；新增1条 `source_backed` 机构性质字段 `enr-15938`，依据第4章 p.118 L222。无外部来源或新来源登记。
+
+**S6逐候选裁决。** `st-chp4-sec-ii-p118-umoristi-reorganized` 保持 `pending`。Haskell称 Massimi 对衰落中的学院实施重组，但 `relation-domain-range.yml` 的受控谓词中没有能够精确表达“重组机构”的行动关系；不以成员、管理、赞助或一般隶属谓词替代，也不据此新增正式边。S2来源断言与卡片语境保留。
+
+**批后状态与检查。** S2为9,573/15,201；独立复核分子不变。S3主决定行仍为12,388/12,408，决定分类不变。S4已登记1,453/4,792组、1,663/5,022条映射；待登记3,339组／3,359条，其中直接端点1,600组／1,614条（机构子队列79组／79条成员映射），非直接1,739组／1,745条。S5字段表12,169条（1,634条 `unverified`）。S6累计裁决407/10,429条（236 formal、120 pending、51 rejected），余10,022条；`relations.csv`保持1,454条（1,450 formal、4 pending）。字段预览写回后复核为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`，关系一致性检查无 broken target、invalid relation_type、missing inverse、weak evidence 或 unbaselined generic evidence-backed。卡片定向预览后写入并完成字节核对。机械检查不表示语义接收或阶段收口。

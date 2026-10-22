@@ -2,6 +2,10 @@
 
 更新日期：2026-10-22。
 
+### S4/S5/S6：第4章 p.118 Accademia degli Umoristi 机构端点（2026-10-22）
+
+沿用 `cand-0002` 的S3 `new`身份组，登记乌莫里斯蒂学院为来源限定的机构KU，新增1条S5字段 `enr-15938`。Massimi重组学院的S2关系候选保持pending：受控关系词表没有精确表达“重组机构”的谓词，不以成员、管理或赞助关系替代；无新增formal关系。批后S4为1,453/4,792组、1,663/5,022映射；S5为12,169条（1,634条 `unverified`）；S6累计407/10,429（236 formal、120 pending、51 rejected），余10,022条；关系表1,454条（1,450 formal、4 pending）。S2独立复核分子、S3决定均未改变。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp4-p118-umoristi-20261022)。
+
 ### S3沿用／S4／S5／S6：第八章 p.223 鲁福礼拜堂与所在教堂（2026-10-22）
 
 沿用两个既有 S3 `new` 地点组，登记教堂与其内部的鲁福礼拜堂为不同 KU。将原有建造陈述与地点关系拆分，礼拜堂→教堂的 `part_of` 裁为 formal（`rel-1454`）；建造者及两位装饰者候选因缺少精确受控谓词均记 pending，不强套创作、委托或建造谓词。新增5条 Haskell 原书支持字段，Conca 拼写按扫描页校读；未添加外部身份核验。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp8-p223-ruffo-chapel-20261022)。
