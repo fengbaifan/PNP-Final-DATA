@@ -10745,3 +10745,26 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **S6逐项去向。** 七条相关候选逐项处理：`st-chp2-seciv-l114-125-urbino-due-to-be-incorporated-into-papal-states` 依据Treccani line 46裁为formal，新增 `rel-1529 part_of`（乌尔比诺公国→教皇国，1631）；`urban-claims-urbino` 因受控谓词无对应领土政治主张而pending；`urban-transfers-effective-authority` 因无忠实表达“劝说”的受控谓词而pending，不改写成 `advised`；`duke-transfers-effective-authority-to-unnamed-governor` 因接收者未具名而pending；`possession-steps-after-duke-death` 因行动者未具名而pending；`urbino-despoiled` 因加害者未具名且“Urbino”具体范围未定而pending；`urbino-collection-dispersal` 因无已定类型的收藏KU和去向而pending。六项待证只留过程裁决，不写入不满足受控关系契约的关系表行，也不为匿名角色虚构KU或加入backlog。
 
 **渲染与批后核验。** 对新卡先运行定向预览，确认只新增其 `part_of` 关系视图，再定向渲染；写后字节核对通过，渲染后再次预览为无差异。`audit_tables.py --strict-stage --summary`：exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S0为832段（678 complete、154 excluded）；S2为15,236条statement，统一独立复核9,573条（62.8%，未接收）；S3主决定12,388/12,408，same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决），缺主决定20项，另22项跨来源decision差异待定点核对；S4登记1,508/4,798组、1,725/5,030映射，待登记3,290组／3,305映射；S5共12,328字段（1,634条unverified）；S6逐条裁决515/10,459（310 formal、143 pending、62 rejected），余9,944条；`relations.csv`共1,529条（1,522 formal、7 pending）；candidate-backlog 6条（5 completed、1 undecided，pending=0）。至少缺一个S2候选端点ID的关系候选为339条（仅缺subject 46、仅缺object 221、两端均缺72）。机械检查通过不代表S2语义验收或S3–S6全书收口。
+
+<a id="s4-s5-s6-chp10-p328-329-painting-social-significance-20261022"></a>
+
+### S4／S5／S6：第10章 p.328–329 绘画社会意义论题、Gozzi论述与旧理论（2026-10-22）
+
+**来源阅读与类型边界。** 逐页核对 Haskell 第10章印刷页328–329（PDF物理页61–62）原书扫描，并复读对应S2段 `chp-10:10_CHP-10_sec_ii:l241-246` 与 `l248-256`。p.328提出18世纪中叶绘画是否影响现代生活的问题；p.329记录Gozzi先以国家荣誉回应、再试探性强调艺术社会价值，并转入Zanetti the Younger关于绘画教化、精神休憩及较新有用艺术论证的叙述。没有发现需修订这两个完整source segment的S2 claim或quote；本次针对性读源不增加独立S2复核分子。
+
+三个端点均沿用既有S3 `new` 决定，分别属于三个独立term组；同粒度卡片检查没有发现可复用的既有KU。`cand-1805`（`sg3-term-cand-1805`）是第10章索引所指的绘画社会意义论题；`cand-1222`（`sg3-term-gozzigasparo`）是索引子目 G.csv#130“Gozzi, Gasparo — on social value of painting”所代表的来源限定论述主题，不是人物 cand-1220；`cand-9845`（`sg3-term-cand-9845`）是Haskell所称旧有 *diletto ed utile* 绘画理论。它们分别与人物 cand-1220、绘画社会意义的广题以及既有 `cand-9846` 有用艺术论证区分。本次未触发S3重开或改组。
+
+**S4与S5。** 登记 `cand-9845` 为 `units/terms/diletto-ed-utile-painting-theory`、`cand-1222` 为 `units/terms/gozzi-social-value-of-painting`、`cand-1805` 为 `units/terms/painting-social-significance-mid-eighteenth-century-italy`；对应卡片含双语范围、概念辨析及原书页码定位。新增4条Haskell支持字段：`enr-16152` 旧理论说明；`enr-16153` Gozzi索引子目；`enr-16154` Gozzi论述范围；`enr-16155` 中叶意大利绘画社会意义论题。全库 `build_field_facts.py` dry-run提示 `new_ids=36`、`removed_ids=32`、`record_changes=0`、`source_registry_changes=0`；检查后仅为这三张新卡定向应用4条抽取记录，未全库重建。应用后的全库preview仍只显示其余32组历史增删差异、无新卡警告。
+
+**S6逐项裁决。** 六条关联候选均有明确pending去向，当前受控关系词表没有足以忠实表达这些思想史论述的谓词，因此不写入关系表、不把论证主题强制变成形式边：
+
+| statement_id | 决定 | 理由 |
+|---|---|---|
+| `st-chp10-p328-gozzi-criticism-for-journal-space` | pending | Gozzi较早讨论绘画的现代生活意义；“较早讨论”没有对应的受控关系类型。 |
+| `st-chp10-p329-gozzi-social-value` | pending | Gozzi论述主题与广义论题之间是概念/论证关系，词表无对应term→term谓词。 |
+| `st-chp10-p329-gozzi-traditional-glory-reply` | pending | 国家荣誉回应是Gozzi论述中的一项观点，不能以受控边表示为人物或作品事实。 |
+| `st-chp10-p329-gozzi-political-economists` | pending | 论述回应了未具名“new political economists”的指责；cand-12117仍为S3 undecided，且无忠实受控谓词。 |
+| `st-chp10-p329-painting-teaches-and-relaxes` | pending | 来源报告Zanetti的理论主张；现有词表没有person→term的论述/提出关系谓词。 |
+| `st-chp10-p329-diletto-ed-utile` | pending | Haskell说明新论述改编旧理论，但词表没有能表达此term→term思想承接关系且域值域适用的受控谓词。 |
+
+**渲染与批后计数。** 三张卡分别经过 `build_cards.py --preview` 与定向 `--render`；每张只增加关系区“当前没有正式关系”提示，写后字节核对通过。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。批后S2仍15,236条；统一独立复核仍为9,573（62.8%，未接收）。S3仍为12,388/12,408主决定；S4登记1,511/4,798组和1,728/5,030映射，待登记3,287组／3,302映射；S5为12,332字段（1,634条unverified）；S6为521/10,459（310 formal、149 pending、62 rejected），余9,938条；`relations.csv`仍1,529条（1,522 formal、7 pending）；candidate-backlog仍6条（5 completed、1 undecided，pending=0）。三组卡片的关系候选由pending过程裁决追踪，未新增formal边。
