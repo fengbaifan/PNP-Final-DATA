@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp15-p363-boscovich-letter-20261022"></a>
+
+### S3沿用／S4/S5/S6：第15章 p.363 注2 Boscovich 致 Vallisnieri 书信（2026-10-22）
+
+**S3/S4登记。** 沿用 `cand-10450` 的既有 S3 `new` 决定与单成员组 `archive-group-f3f7886f4c97`；通过 `aln-10620` 将其映射至 [1772年书信卡](../../../04-knowledge/units/archives/boscovich-letter-to-vallisnieri-1772.md)，并登记 `ku-manifest.csv` 与 `accepted.yml`。题名为描述性工作标题，保留书内形式“P. Boscovich”与“Vallisnieri”，不扩展首字母。收信人沿用 `cand-2687` 既有映射 `aln-3022` → Antonio Vallisnieri junior；该映射已依据 Treccani 父子区分限定为儿子，当前批次没有重开该身份决定。发信人 `cand-0414` 仍为 S3 `undecided`，不据此新建人物或推断全名。
+
+**S5补足。** 新增五条原书 `source_backed` 字段：`enr-16040` 文献类型、`enr-16041` 书内成文年份、`enr-16042` 书内发信人形式、`enr-16043` 书内收信人形式、`enr-16044` 书内刊布定位。证据均为 Haskell 第15章印刷页363注2、Markdown L36（PDF物理页3）。注2称该信于1811年刊出、见第33页；原信与刊本未独立查阅。
+
+**S6逐条裁决。** 三项关系候选均有明确去向：
+
+| S2 statement | 决定 | 关系去向与理由 |
+|---|---|---|
+| `st-chp15-p363-note2-boscovich-letter` | formal | 新增 `rel-1488 cites`：《赞助人与画家》→该书信。只记录Haskell注2的书内引注及其“1811年刊本第33页”定位，不表示原信或刊本已查阅，也不据此前文确定赞语作者。 |
+| `st-chp15-p363-note2-boscovich-letter-addressed-to-vallisnieri` | formal | 新增 `rel-1489 addressed_to`：书信→Antonio Vallisnieri junior，时间1772。原书仅写“Vallisnieri”；客体采用 `cand-2687` 已有S3/S4身份映射。 |
+| `st-chp15-p363-note2-boscovich-letter-authored-by-boscovich` | pending | 原书仅写“P. Boscovich”；对应人物候选 `cand-0414` 仍为S3 `undecided`，缺少有效人物KU，故不写入关系表。不得扩展首字母，也不把该人等同于p.363赞语作者。待取得可区分身份的直接证据后再复核S3/S6。 |
+
+**批后状态与核查。** 本批不改S2独立复核分子。当前S3主决定仍为12,388/12,408；S4已登记1,485/4,791组、1,700/5,021条候选映射，待登记3,306组／3,321条映射；S5为12,275条字段（1,634条 `unverified`）；S6累计裁决458/10,439条（272 formal、130 pending、56 rejected），余9,981条；`relations.csv`共1,489条（1,485 formal、4 pending）；candidate-backlog为5条历史记录、pending=0。三张受影响卡均完成单卡预览，预览无待写差异；字段表重算预览为零变更、零warning。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械检查不代表全书S2语义接收或S3–S6收口。
+
 <a id="s3-s4-s5-s6-chp10-palazzo-balbi-country-house-20261022"></a>
 
 ### S3定点复核／S4/S5/S6：第10章 p.302–304 Palazzo Balbi 与 Mogliano 乡间宅邸（2026-10-22）
