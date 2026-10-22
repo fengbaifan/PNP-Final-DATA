@@ -13447,6 +13447,11 @@ S4/S6 处理六个直接端点时，定向澄清三条既有 statement qualifier
 
 本段14条按statement ID去重后计入独立复核覆盖：第七章1,023/1,239、全书9,414/15,167（62.1%）。本段接收仅及上述登记段，第七章及全书仍未接收。下一游标为p.200 `chp-7:07_CHP-7_sec_v:l9-18`；后续应优先检查战争开篇续句、政治实体及艺术委托statement的端点类型，不由未具名群体推定个体。
 
+<a id="s2-targeted-repair-palomino-barberini-20261022"></a>
+### S2定向修订：第2、8、21章 Palomino 跨章引用（2026-10-22）
+
+依据Haskell第2章p.60正文L28与注5 L48、第8章p.205注2 L131及第21章p.432书目L920，修订肖像断言的原子性并关联同一书目卷册。将第2章既有复合statement限缩为Francesco可能肖像的`created_by`待证候选，新增Francesco—Velasquez友谊statement；新增第8章p.205注2 `cites` statement、第21章书目责任者`authored_by` statement，并为“Palomino, Antonio”增加字符范围2729–2746的精确mention。Haskell明确推断Palomino把Antonio与Francesco混淆；执行、座者与创作者边界按来源层级分开记录。Palomino原书及所引p.336、p.311均未独立查阅。新增3条statement；此为定向修订，不计入S2独立语义复核分子，也不扩大章节审读覆盖。详细S3/S4/S5/S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-palomino-barberini-cross-chapter-20261022)。
+
 <a id="s2-repair-storm-at-sea-footnote-anchor-20261021"></a>
 
 ### S2定向修复：A Storm at Sea 注7定位与校读（2026-10-21）
@@ -13567,3 +13572,7 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第八章 p.238 Crespi 三幅作品的端点触发校正
 
 依据Haskell印刷页238 L332、p.237注2 L440，修正“as a gift for Ferdinand”的从句归属：它指《无辜者屠杀》最初受托创作的用途，不说明后句讽刺画的收件人。将讽刺画与Don Carlo Silva的描绘对象关系单列；三幅作品均只记原文明确的Crespi寄送行为，不推断创作者、赠与人或收件人。新增一条S2 statement及八条mention锚点；注4所称Pisa cabinet及“这些画”的范围留待证，不能据此认定三件作品均位于Pisa。本次定向修订不计入独立S2复核分子；全书statement升至15,218，第八章分母升至1,465，关系候选升至10,445。此前阶段记录中的相反解释保留为历史，并由知识过程记录明确更正。详见[本批裁决](knowledge.md#s3-s4-s5-s6-chp8-p238-crespi-pictures-20261022)。
+
+### 2026-10-22：第八章 p.238 当前 statement ID 独立语义复核
+
+对照印刷页238、PDF物理页44–45及S0正文 `l327-336`、本页注1–6的 `l443-448`，逐条核读当前50条 `st-chp8-p238-*` statement：`relation_candidate=true` 43、`false` 7、`unset` 0。claim、端点、原子性、说话层、时间限定、页间续句及现有statement引用均与印本相符；7条false保留为Haskell评价、作品描述或传记陈述。现存36条mention跨度均逐项核对准确。候选引用和同段mention映射另有49组差异，须人工辨别明确提及、概括指代、索引对象和跨页指代，不机械补写。未改S2表、S3决定或关系候选，未增加统一复核分子；正式复核记录及待办见[s2-independent-review-chp8-p238-20261022.md](s2-independent-review-chp8-p238-20261022.md)。本页与全章均不接收。

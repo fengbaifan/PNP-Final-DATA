@@ -47,7 +47,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [醉西勒诺斯（The drunken Silenus）](../works/ribera-the-drunken-silenus.md) | 角色：据转述的赞助关系；范围：Haskell reports that Palomino says this painting was painted for Roomer. This is the report in Haskell’s note, not a directly consulted Palomino page; no contract, payment, ownership, or independent commission record is asserted.；原断言与证据见发出端卡片“醉西勒诺斯（The drunken Silenus）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.205 note 2 L131; S2 statement: st-chp8-p205-palomino-says-drunken-silenus-painted-for-roomer |
+
 
 ### 关系候选入口
 

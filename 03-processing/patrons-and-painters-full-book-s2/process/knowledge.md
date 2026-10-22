@@ -1,5 +1,32 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-palomino-barberini-cross-chapter-20261022"></a>
+### S2定向修订／S3跨章身份分组／S4/S5/S6：Palomino 肖像与卷册引注（2026-10-22）
+
+**触发与来源核查。** 第2章印刷页60正文L28保留Francesco可能请Velasquez绘肖像的不确定表述；同页注5称Palomino在第三卷第336页说Velasquez曾绘制Cardinal Antonio Barberini肖像，Haskell依据Antonio于1653年才返罗马、Velasquez早已离开而推断Palomino混淆了Antonio与Francesco。第21章印刷页432书目扫描（PDF物理页22）著录`Palomino, Antonio: El Museo Pictorico, y escala optico, Madrid, 3 vols. in 2, 1715-1724.`；据此确认本书所引第三卷书目身份，并把第8章p.205注2所引第三卷p.311归入同一著录。Palomino原书及p.336、p.311均未独立查阅。
+
+**S2原子化。** 将`st-chp2-secvii-l21-30-velasquez-francesco-portrait-uncertain`从“友谊＋肖像创作者不确定”的复合断言限缩为Francesco可能肖像的`created_by`待证候选；新增独立友谊statement `st-chp2-secvii-l21-30-francesco-velasquez-friendship`，保留1650年罗马访问语境。新增第8章引注statement `st-chp8-p205-n2-palomino-citation`与第21章书目署名statement `st-chp21-bib-l883-926-palomino-authored-by`。原书目statement补入作者候选与跨章关系提示；为书目责任者增加精确mention `m-chp21-bib-l883-926-026-author`（L920条目字符偏移2729–2746）。定向修订不计入S2独立语义复核分子。
+
+**S3决定与S4登记。** `cand-4929`从`undecided`转`new`并与既有`new`候选`cand-4956`同组`workgrp-dfe38791e78198`；Haskell注5明确把两处肖像说法解释为对Francesco的同一来源局部指称，但不证实作品实际绘成、存世或Velasquez作者身份。`cand-4954`依据p.432“Palomino, Antonio”转`new`为仅限书内命名的人物；`cand-4955`（vol. III p.336）与`cand-7587`（vol. III p.311）均转`new`并同组为该书目所列多卷出版物。三组S4登记如下：`units/works/palomino-barberini-portrait`映射`cand-4929`、`cand-4956`；`units/persons/antonio-palomino`映射`cand-4954`；`units/archives/palomino-el-museo-pictorico-y-escala-optico-1715-1724`映射`cand-4955`、`cand-7587`。无匹配既有Palomino KU；人物卡不补生平。
+
+**S5字段。** 新增`enr-16052`记录该肖像的来源限定描述性暂题，保留座者争议、绘成状态和创作者未定；新增`enr-16053`记录Haskell书目对Palomino著作的著录。没有把被引页内容或外部人物事实写成已核字段。
+
+**S6逐候选裁决。** 九条关系候选各有去向：
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp2-secvii-l21-30-francesco-velasquez-friendship` | formal | `rel-1501 friend_of`：Francesco Barberini→Velasquez；时间限于1650年罗马访问语境。 |
+| `st-chp2-secvii-l21-30-velasquez-francesco-portrait-uncertain` | pending | 与Palomino转述共用`rel-1507 created_by`；正文明确保留是否绘成的不确定性。 |
+| `st-chp2-secvii-l38-54-fn-p60-5a-palomino-attribution` | pending | 与正文候选共用`rel-1507`；p.336仅由Haskell转述，不能确认为创作事实。 |
+| `st-chp2-secvii-l38-54-fn-p60-5a-sitter-identification` | rejected | Antonio座者识别受Haskell同注时间线反驳，不作为当前`has_subject`边；原来源说法保留在S2。 |
+| `st-chp2-secvii-l38-54-fn-p60-5c-palomino-confusion-inference` | formal | `rel-1502 has_subject`：该来源局部肖像→Francesco，仅表达Haskell依据时间线提出的座者推断，不确认实物或作者。 |
+| `st-chp2-secvii-l38-54-fn-p60-5d-palomino-citation` | formal | `rel-1503 cites`：Haskell本书→Palomino出版物，仅记录p.336书内引注。 |
+| `st-chp8-p205-n2-palomino-citation` | formal | `rel-1504 cites`：Haskell本书→同一Palomino出版物，仅记录p.311书内引注。 |
+| `st-chp8-p205-palomino-says-drunken-silenus-painted-for-roomer` | formal | `rel-1505 patronized_by`：Ribera《醉酒的西勒诺斯》→Gaspar Roomer；这是Haskell对Palomino说法的转述，不表示已查阅原页、合同、付款或产权。 |
+| `st-chp21-bib-l883-926-palomino-authored-by` | formal | `rel-1506 authored_by`：书目所列出版物→Palomino；仅表达Haskell书目中的责任者著录。 |
+
+两条pending候选共用一条关系表记录，分别保留在过程决定中；最终只有六条formal和一条pending边进入`relations.csv`，另有一条Antonio座者候选拒绝。新增三条S2 statement使S2总数增至15,221、关系候选增至10,448；独立复核仍为9,573条。S4登记后为1,496/4,796组、1,713/5,028条候选映射；S5为12,284条字段（1,634条`unverified`）；S6累计481/10,448（289 formal、133 pending、59 rejected），`relations.csv`共1,507条（1,502 formal、5 pending）。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。8张相关卡片完成预览、定向渲染和写后字节核对；机械检查不代表S2独立接收或S3–S6全书收口。
+
 <a id="s3-s4-s5-s6-chp8-p238-crespi-pictures-20261022"></a>
 ### S2定向校正／S3沿用与分组／S4／S5／S6：第八章 p.238 Crespi 三幅作品（2026-10-22）
 

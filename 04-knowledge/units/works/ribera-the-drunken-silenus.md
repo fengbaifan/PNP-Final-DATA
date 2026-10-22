@@ -119,6 +119,7 @@ relations:
 | → 创作者（`created_by`） | [胡塞佩·德·里贝拉（Jusepe de Ribera）](../persons/ribera.md) | 时间：1626；角色：画家；范围：ICCD1500626054／Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；src-f422deec776aa514；作者与断代字段 |
 | → 由其保管（`held_by`） | [卡波迪蒙特博物馆（Museo di Capodimonte）](../institutions/museo-di-capodimonte.md) | 角色：所引馆藏记录保管机构；范围：Q298；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1500626054)；src-f422deec776aa514；库存及定位字段 |
 | → 位于（`located_at`） | [那不勒斯（Naples）](../places/naples.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版32a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 92–92; 章前：图版目录；印刷页xiv |
+| → 受其赞助／保护（`patronized_by`） | [加斯帕尔·罗默（Gaspar Roomer）](../persons/gaspar-roomer.md) | 角色：据转述的赞助关系；范围：Haskell reports that Palomino says this painting was painted for Roomer. This is the report in Haskell’s note, not a directly consulted Palomino page; no contract, payment, ownership, or independent commission record is asserted.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.205 note 2 L131; S2 statement: st-chp8-p205-palomino-says-drunken-silenus-painted-for-roomer |
 
 ### 关系候选入口
 
