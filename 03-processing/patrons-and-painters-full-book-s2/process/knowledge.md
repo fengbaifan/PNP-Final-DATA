@@ -10886,3 +10886,21 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 两条关系均限于Haskell第10章p.277注5；无pending、rejected或backlog新增。定向复读扫描页不增加S2独立复核分子。
 
 **卡片投影与批后核验。** `build_cards.py --render` 定向更新Bolagno作品、Canaletto人物和Hermitage机构三张卡，写后字节核对通过；三卡再次preview均无待写差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S4为1,517/4,798组和1,734/5,030映射，待登记3,281组／3,296映射；S5为12,348条字段（1,634条unverified）；S6累计裁决534/10,459（319 formal、153 pending、62 rejected），余9,925条；relations.csv共1,537条（1,530 formal、7 pending）。candidate-backlog仍6条（5条完成、1条明确undecided，pending=0）。S2 statement数和9,573条统一独立复核分子未变；本批扫描复读不计入独立复核。
+<a id="s4-s5-s6-chp15-p362-note1-farsetti-family-history-20261023"></a>
+
+### S3沿用／S4／S5／S6：第15章 p.362 注1与第21章书目的 Farsetti 1778 年家族史（2026-10-23）
+
+**来源与S3沿用。** 对照第15章印刷页362注1（PDF物理页2）、第15章p.364（PDF物理页4）及第21章印刷页422（PDF物理页12）扫描。注1称Tommaso Giuseppe于1778年出版一部法尔塞蒂家族史，但未列题名；第21章书目以“Farsetti, T. G.”署名列出 *Notizie della famiglia Farsetti con l’albero e le vite di sei uomini illustri a quella spettanti*，Venezia 1778。沿用`cand-10443`的S3 `new`组`archive-group-ca70d9ac8f95`与`aln-10613`，登记所列出版物为独立archive，不将其并入作者人物卡或其他家族史。卡片中文题名为描述性暂译；书目著录不表示已查阅被引出版物。
+
+**S4与S5。** 将`cand-10443`映射至[Farsetti家族史卡](../../../04-knowledge/units/archives/notizie-della-famiglia-farsetti-1778.md)，更新manifest与accepted。新增3条书内支持字段`enr-16204`–`enr-16206`：原文题名、哈斯克尔书目责任者署名、出版地与年份，均限于第21章p.422 L465书目记录。未补出版者、语言、册数或原书内容。
+
+**S6逐条裁决。** 两条直接候选均有去向：
+
+| relation_id／statement_id | 决定 | 关系与边界 |
+|---|---|---|
+| `rel-1538`／`st-chp15-p362-note1-family-history` | formal | 《赞助人与画家》`cites`该archive。第15章注1直接列出对1778年家族史的引注；第21章书目p.422的作者形式、题名、出版地和年份用于识别被引书。只记录书内引注，不声称查阅了被引书或其内容。 |
+| `rel-1539`／`st-chp15-p364-tommaso-authored-family-account` | pending | archive `authored_by` Tommaso Giuseppe 的候选保留待证。p.364称其写有关于家族传统的记述但未给题名；p.362注1与p.422书目指向一部同年家族史，但Haskell未明确将p.364的记述与该出版物等同。 |
+
+第二条关系虽保留pending，候选、端点、S2 statement和未决身份条件均已明确；本批未增加candidate-backlog。S3身份决定未重开，S2 statements及9,573条统一独立复核分子未变。
+
+**投影与批后核验。** 对新archive与《赞助人与画家》两卡定向渲染；写后字节核验通过，两卡再次preview均无待写差异。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。批后S4为1,518/4,798组、1,735/5,030条映射，待登记3,280组／3,295条映射；S5为12,351条字段（1,634条unverified）；S6累计裁决536/10,459（320 formal、154 pending、62 rejected），余9,923条；`relations.csv`共1,539条（1,531 formal、8 pending）。机械检查不表示S2独立语义复核已接收或S4–S6全书收口。
