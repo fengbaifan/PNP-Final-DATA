@@ -91,4 +91,11 @@ English: This card refers only to Paolo Giordano II Orsini. The existing `paolo-
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本轮完成身份登记；S2 中涉及的其他创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查；当前 formal 关系见下方关系记录。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [《海上风暴》（A Storm at Sea）](../works/a-storm-at-sea-claude-orsini.md) | Haskell 明言 Paolo 委托该画；不据此确认格言寓意或其他作品身份；角色：委托人；范围：仅指 Haskell 所称的 A Storm at Sea；格言寓意另保留为待证候选。；原断言与证据见发出端卡片“《海上风暴》（A Storm at Sea）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_i.md)；haskell-1980-rev-ed；lines 29–30; print p.97 |
+| ← 为收信人（`addressee_of`，反向投影） | [致保罗·乔尔达诺二世、涉及贝尔尼尼的四封未刊书信（Four unpublished letters to Paolo Giordano II relating to Bernini）](../archives/four-unpublished-letters-to-paolo-giordano-ii-relating-to-bernini.md) | S2 原文明确称四封信致 Paolo Giordano；关系方向与 addressed_to 定义一致，不推定具体日期或发信人；角色：收信人；范围：Haskell 第4章 p.97 脚注1所指附录2四封未刊书信；原断言与证据见发出端卡片“致保罗·乔尔达诺二世、涉及贝尔尼尼的四封未刊书信（Four unpublished letters to Paolo Giordano II relating to Bernini）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_i.md)；haskell-1980-rev-ed；Chapter 4, printed p. 97, note 1 (L32; PDF physical p. 4); S2 statement |

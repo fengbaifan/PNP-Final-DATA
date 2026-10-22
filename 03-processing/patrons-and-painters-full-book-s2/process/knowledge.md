@@ -10825,3 +10825,24 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 上述pending裁决端点均已映射，无新增candidate-backlog项。`relations.csv`新增 `rel-1532` 一条formal关系；过程裁决累计新增1 formal、2 pending。
 
 **卡片投影与批后核验。** 对旧堂和Rome两卡预览后定向 `build_cards.py --render --ku ...`；preflight通过，渲染2张卡、写入2个文件，写后字节核对通过，恢复快照清理。Rome卡预览显示四条原已formal但此前未投影的既有反向边（Aedes Barberinae、Discalced Trinitarians、S. Ignazio、Van Dyck三面肖像），以及本批旧堂反向边；并将一条既有Camillo Massimi投影补齐来源ID。这些改动均由现存 `relations.csv` 正式记录驱动。渲染后两卡preview均无差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；批后S4为1,514/4,798组、1,731/5,030映射，待登记3,284组／3,299映射；S5为12,336字段（1,634条unverified）；S6为528/10,459（313 formal、153 pending、62 rejected），余9,931条；`relations.csv`共1,532条（1,525 formal、7 pending）；candidate-backlog仍6条、pending=0。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S2 statement数和9,573条统一独立复核分子未变；本次源页核对不计入独立复核。机械审计不表示S2语义接收或S4–S6全书收口。
+
+
+<a id="s4-s5-s6-chp4-p97-four-letters-20261023"></a>
+
+### S3沿用／S4／S5／S6：第4章 p.97 附录2四封 Bernini 相关书信（2026-10-23）
+
+**来源与身份边界。** 对照第4章 p.97 脚注1扫描页（PDF物理页4）及其S2转录 chp-4:04_CHP-4_sec_i:l26-33#L32。Haskell 原文称附录2刊出四封致 Paolo Giordano、涉及 Bernini 的未刊书信；脚注在前段 L53 续接，依现有 footnote link 记录，不把脚注重复成第二条事实。沿用 S3 new 组 archive-group-299d11aeb24e，只对应这个四封书信集合。第19章附录2中各封信另有单件 archive 候选；Tacca 的独立书信、Fondo Orsini 候选及 Biblioteca Vallicelliana 均不并入该集合，也不在此卡上增造馆藏关系。现有证据未触发S3身份重开。
+
+**S4与S5。** 将 cand-5568 映射至 units/archives/four-unpublished-letters-to-paolo-giordano-ii-relating-to-bernini，更新manifest与accepted索引。卡片只登记四封书信集合及中英文描述性题名；四条书内来源字段指明集合范围和未独立查阅原始书信的限制，不加入作者、日期或原件馆藏位置。
+
+**S6逐项裁决。** 两条直接关系候选均有明确去向，且对象端点已登记。受控关系词表及domain/range允许 archive→person：
+
+| statement_id | 决定 | 正式关系 | 理由与限定 |
+|---|---|---|---|
+| st-chp4-sec-i-l26-33-appendix-letters | formal；rel-1533 | archive addressed_to Paolo Giordano II | 原文明确称 letters to Paolo Giordano；不推定发信人和日期。 |
+| st-chp4-sec-i-l26-33-letters-relate-to-bernini | formal；rel-1534 | archive has_subject Bernini | “relating to Bernini”表达书信所述人物；采用受控 has_subject，不扩成作者、委托或创作事实。 |
+
+两项 source_span 均限于第4章 p.97 注1及对应S2 statement；附录转录不等于核阅档案原件。无pending、rejected或backlog新增；本批不增加S2独立复核分子。
+
+
+**卡片投影与批后核验。** build_cards.py --render 定向更新书信、Paolo Giordano II 与 Bernini 三张卡；写后字节核对通过，三卡再次preview均无待写差异。人物卡同时补齐由既有formal关系表驱动的历史关系投影，未新增其语义裁决。audit_tables.py --strict-stage --summary exit 0，errors=[]、s2_missing=[]；批后S4为1,515/4,798组和1,732/5,030映射，待登记3,283组／3,298映射；S5为12,340条字段（1,634条unverified）；S6累计裁决530/10,459（315 formal、153 pending、62 rejected），余9,929条；relations.csv共1,534条（1,527 formal、7 pending）；candidate-backlog仍6条、pending=0。audit_relation_consistency.py --dry-run未发现broken target、invalid relation_type、missing inverse、weak evidence或unbaselined generic evidence-backed。S2 statement数与9,573条统一独立复核分子未变；机械检查不表示全书阶段接收。
