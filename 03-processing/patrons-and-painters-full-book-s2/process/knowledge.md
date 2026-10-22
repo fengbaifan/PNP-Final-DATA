@@ -10348,3 +10348,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 本批未改写 S2 statement，定向端点审查不计入独立语义复核分子。`build_cards.py --preview` 逐卡审阅后，仅渲染作品、教堂与 Duquesnoy 三卡；写入3个文件并通过写后字节核对。
 
 **批后状态与机械核验。** S2仍为9,573/15,202、尚未接收；S3主决定仍为12,388/12,408，缺20行。S4已登记1,462/4,791组、1,677/5,020条映射；待登记3,329组／3,343条，其中直接关系端点1,590组／1,599条，非直接1,739组／1,744条。S5共12,197条，`unverified`仍为1,634。S6累计裁决420/10,430条（247 formal、122 pending、51 rejected），余10,010条；`relations.csv`共1,464条（1,460 formal、4 pending）。candidate-backlog仍为5条历史记录、pending=0。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`，唯一阶段警告仍指向3,343条new映射待S4登记及S2语义质量待按过程记录检查；关系一致性核验的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。机械检查不代表全书阶段接收或收口。
+<a id="s4-s5-s6-chp7-p201-pozzo-ceiling-20261022"></a>
+### S2定向关系补足／S3沿用／S4/S5/S6：第七章 p.201 Pozzo 天顶画（2026-10-22）
+
+**S2定向补足。** S4端点复核时回看第7章印刷页201 L54（PDF物理页43）及此前已逐条审读的段落。原 statement `st-chp7-p201-v-pozzo-garden-palace-ceiling-1704` 记录 Pozzo 于1704年开始绘制天顶画，但未将同句明确给出的所在大厅及大厅所属花园宫殿拆为可裁决的位置关系。复用已有精确mention `m-chp7-p201-p202-074`（the ceiling）、`-075`（the hall）和`-076`（their garden palace），新增两条来源限定statement：`st-chp7-p201-v-ceiling-painting-located-at-hall`（work→place `located_at`）与`st-chp7-p201-v-garden-palace-hall-part-of-palace`（hall→garden palace `part_of`）。未新增mention或改变原S2来源。此次为端点触发的定向补充，不计入独立S2复核分子；全书statement分母增至15,204、第七章分母增至1,262，独立复核仍为9,573。
+
+**S3与S4登记。** 沿用既有 `new` 组，不重开S3：`cand-7318` / `sg3-place-cand-7318` 登记 Liechtenstein 家族花园宫殿；`cand-7319` / `sg3-place-cand-7319` 登记其内部大厅；`cand-7320` / `workgrp-52903ba6bc5d54` 登记1704年开始绘制的大厅天顶画。三条映射分别写入 `aln-7494`–`aln-7496`，三卡进入 `ku-manifest.csv` 与 `accepted.yml`。宫殿、大厅与作品分别建模；描述性题名不冒充原书正式题名，也不指认现存馆藏版本。没有补造具体地址、房间名或完成状态。
+
+**S5字段。** 由Haskell第7章印刷页201 L54支持，新增五条来源字段 `enr-15967`–`enr-15971`：宫殿性质、大厅空间性质、作品题名性质、作品类型和创作起始。卡内来源序号均为S1；字段预览及应用均为0警告，source registry无变化，`unverified`维持1,634。
+
+**S6逐候选裁决。** 三条候选均有明确去向并以同一原书跨度支持：
+
+| S2 statement | 决定 | 关系去向与范围 |
+|---|---|---|
+| `st-chp7-p201-v-pozzo-garden-palace-ceiling-1704` | formal | 将此前因作品端点未登记而pending的候选更新为 `rel-1465 creator_of`：Andrea Pozzo→天顶画；仅记录Haskell所述1704年开始绘制，不推断完成、存世或委托。 |
+| `st-chp7-p201-v-ceiling-painting-located-at-hall` | formal | 新增 `rel-1466 located_at`：天顶画→大厅；仅记录原书中的建筑位置，不声称现今位置。 |
+| `st-chp7-p201-v-garden-palace-hall-part-of-palace` | formal | 新增 `rel-1467 part_of`：大厅→花园宫殿；表达空间包含，不推断产权。 |
+
+同段 `st-chp7-p201-v-pozzo-summoned-by-emperor` 仍pending：未具名皇帝的身份和召见语境仍不足以构成正式边，本批不改动其S3决定。四张受影响卡片经逐卡预览后渲染，写后字节核对通过。
+
+**批后状态与检查。** S2为9,573/15,204、尚未接收；335条关系候选仍缺至少一个S2端点候选ID。S3决定行仍为12,388/12,408，缺20行；类别和组号不变。S4已登记1,465/4,791组、1,680/5,020条映射；待登记3,326组／3,340条，其中直接端点1,589组／1,598条、非直接1,737组／1,742条。S5共12,202条（1,634条 `unverified`）。S6累计裁决423/10,432条（250 formal、122 pending、51 rejected），余10,009条；`relations.csv`共1,467条（1,463 formal、4 pending）。`candidate-backlog.csv`仍为5条历史记录、pending=0。机械检查用于核对结构，不代表S2或全书阶段接收。

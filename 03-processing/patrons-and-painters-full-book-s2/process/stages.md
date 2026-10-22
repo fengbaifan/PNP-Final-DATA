@@ -13547,3 +13547,9 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第七章 Plate 30/31 标题段章序游标去重
 
 核对章序游标 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`：S0只有分组标题“ENGLISH VISITORS OF THE SEVENTEENTH CENTURY AND ITALIAN ARTISTS (see Plates 30 and 31)”。`s2-coverage.csv`已登记该段为 `reviewed/complete`，注记 `no_semantic_content`；它是物理页40的图版导航，不新增statement。紧接的同文件段 `l3-3` 是Plate 32b图注，已在物理页42图版簇完成复核，六条statement与八条mention均已计入既有记录。此次只消除重复游标，不增加S2复核分子、statement或mention。全书832个segment均已有complete/excluded处置、queued=0；但statement级语义复核台账仍需按当前ID及来源版本核平，下一项应从核平后的首个未复核statement单元恢复，不凭segment处置状态猜测覆盖。
+<a id="s2-chp7-p201-pozzo-location-relations-20261022"></a>
+### 2026-10-22：第七章 p.201 端点触发的S2空间关系补足
+
+在登记第七章 p.201 Pozzo 天顶画端点时，依据Haskell印刷页201 L54（PDF物理页43）补充原statement未原子化的两个空间事实：复用既有mention，将天顶画与其所在大厅拆为 `located_at`，再将大厅与 Liechtenstein 家族花园宫殿拆为 `part_of`。新增statement为 `st-chp7-p201-v-ceiling-painting-located-at-hall` 和 `st-chp7-p201-v-garden-palace-hall-part-of-palace`；各自保留精确候选端点及原句锚点。未新增mention。原有 Pozzo 开始绘画的statement与S2原始转录未改。
+
+本次为S4端点触发的定向补充，不增加独立逐条语义复核分子；全书statement增至15,204，第七章增至1,262，S2统一复核暂为9,573/15,204。独立复核台账尚须按当前ID和来源版本核平；新增两条不视为已独立接收。
