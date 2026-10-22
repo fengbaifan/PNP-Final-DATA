@@ -121,6 +121,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | ← 所创作对象（`creator_of`，反向投影） | [田园（Idyll）](../works/piazzetta-idyll.md) | 范围：图版54，科隆2806；原断言与证据见发出端卡片“田园（Idyll）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 132–132; print p. xv |
 | ← 所创作对象（`creator_of`，反向投影） | [舒伦堡元帅肖像（Portrait of Marshal Schulenburg）](../works/piazzetta-marshal-schulenburg.md) | 时间：本书所述时点；角色：素描作者；范围：图版53a；书内定位和署名，不消解外部1730–1735／1738断代异文；原断言与证据见发出端卡片“舒伦堡元帅肖像（Portrait of Marshal Schulenburg）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
 | ← 所创作对象（`creator_of`，反向投影） | [田园场景（Pastoral Scene）](../works/piazzetta-pastoral-scene-chicago.md) | 时间：1740；角色：画家；范围：1937.68；原断言与证据见发出端卡片“田园场景（Pastoral Scene）”：[来源](https://api.artic.edu/api/v1/artworks/23333)；src-634c16f565e32123；artist_display、date_display |
+| ← 所创作对象（`creator_of`，反向投影） | [《三位多明我会圣人》祭坛画（Altarpiece of Three Dominican Saints）](../works/piazzetta-three-dominican-saints-altarpiece.md) | 时间：1737–1739；角色：创作者；范围：Haskell says Piazzetta produced the Three Dominican Saints altarpiece during the years given for Tiepolo’s fresco; the named saints are not independently identified.；原断言与证据见发出端卡片“《三位多明我会圣人》祭坛画（Altarpiece of Three Dominican Saints）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p. 271, L40–41; S2 statement: st-chp9-p271-piazzetta-three-dominican-saints-altarpiece |
 
 ### 关系候选入口
 

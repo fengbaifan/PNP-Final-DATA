@@ -47,9 +47,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 1653年入贵族阶层及支付立面费用均按Haskell原书陈述保存；注释所引记录未核，两个S2候选留待S6。 [C.csv#138](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第9章第II节 p.269；OCR L22-23](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)
+**中文：** 1653年入贵族阶层及立面付款均按Haskell原书陈述保存；注释所引记录未独立查阅。付款候选已裁为pending：原文支持付款人身份，但不能据此认定其为委托人；入贵族阶层候选仍待单独S6裁决。 [C.csv#138](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第9章第II节 p.269；OCR L22-23](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)
 
-**English:** The reported 1653 patriciate admission and façade payment remain statements in Haskell; the cited record was not checked, and both S2 candidates remain for S6. [C.csv#138](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第9章第II节 p.269；OCR L22-23](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)
+**English:** Haskell reports the 1653 patriciate admission and façade payment; the cited record was not independently consulted. The payment candidate is pending because payer status does not establish commissioning. The patriciate-admission candidate remains for separate S6 adjudication. [C.csv#138](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第9章第II节 p.269；OCR L22-23](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)
 
 ## 关系与证据
 
@@ -57,4 +57,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 当前没有正式关系。正文中的导航与线索不自动形成关系边。
 
-当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp9-p269-cavazza-admission-patriciate`, `st-chp9-p269-cavazza-paid-facade` 留待S6审查；本次S4登记不裁决或创建正式关系。
+未建立正式委托关系。付款候选 `st-chp9-p269-cavazza-paid-facade` 已以 `rel-1516` 保留为pending；1653年入贵族阶层候选 `st-chp9-p269-cavazza-admission-patriciate` 仍待S6裁决。

@@ -74,4 +74,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-目前没有登记在 relations.csv 中的正式关系。直接关系候选 st-chp9-p272-massari-architect, st-chp9-p272-massari-palladian-lines 留待 S6；第9章 p.270 与第10章 p.321 的相关陈述也保留在过程记录供 S6 核对。本卡不据此预先建立委托、建造或作品关系。逐组记录见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-giorgio-massari-20261018)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 受托建造（`entrusted_with_building_of`，反向投影） | [威尼斯圣母玫瑰堂（Church of S. Maria del Rosario, Venice）](../places/s-maria-del-rosario-venice-church.md) | 角色：建造者；范围：Haskell says the Gesuati were beginning to employ Giorgio Massari to build the new church. This records the named building role and does not infer a separate design role.；原断言与证据见发出端卡片“威尼斯圣母玫瑰堂（Church of S. Maria del Rosario, Venice）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p. 270, L35; S2 statement: st-chp9-p270-gesuati-church-builder-massari |
+
+上表已登记Massari受托建造Zattere新堂的正式关系，依据第9章p.270的聘用叙述，不另推定其建筑师角色。第9章p.272的 st-chp9-p272-massari-architect、st-chp9-p272-massari-palladian-lines，以及第10章p.321相关陈述仍待S6逐项裁决。此前过程记录见[Massari登记记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-giorgio-massari-20261018)。

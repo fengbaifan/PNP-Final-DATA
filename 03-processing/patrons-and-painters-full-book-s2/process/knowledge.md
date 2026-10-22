@@ -10634,3 +10634,47 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 七条正式边的端点、谓词及证据已核对；relations.csv新增rel-1490–rel-1496。受影响卡经逐卡预览后定向渲染，卡片展示不再包含过程组号说明。
 
 **批后状态。** S0仍为832个源段（678 complete、154 excluded）；S2为9,573/15,217，尚未接收；S3仍为12,388/12,408，缺主决定20；S4为1,490/4,791组、1,705/5,021条映射；S5为12,279条字段（1,634条unverified）；S6累计裁决467/10,444（279 formal、130 pending、58 rejected），余9,977条；relations.csv共1,496条（1,492 formal、4 pending）。candidate-backlog.csv为5条历史记录、pending=0。audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；关系一致性检查无broken target、invalid relation type、missing inverse、weak evidence或unbaselined generic。机械通过不代表S2独立接收或S4–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp9-churches-artwork-endpoints-20261022"></a>
+### S2定向修订／S3跨章身份分组／S4/S5/S6：第9章 Scalzi 与 Gesuati 教堂及多明我会作品端点（2026-10-22）
+
+**触发与来源核读。** 第9章印刷页268–272的原文和索引条目触发六个可直接进入地点、机构或作品关系的对象。核读第268–272页相关句段以及索引 C.csv #261、#262 和 P.csv #125，并对照现有 manifest、知识卡与 S2 mentions。S. Maria di Nazareth（Scalzi church）与 S. Maria del Rosario 是不同地点；Gesuati 按本书语境作机构登记，不并入耶稣会；Tiepolo 的天顶壁画、Piazzetta 祭坛画和教堂绘画群组分别建模。未对外部建筑目录或作品目录作身份核验。
+
+**S2定向原子化。** 新增五条 statement：`st-chp9-p269-scalzi-replacement-church-longhena`、`st-chp9-p269-scalzi-replacement-church-sardi`、`st-chp9-p270-gesuati-church-builder-massari`、`st-chp9-p270-gesuati-church-public-funding`、`st-chp9-p271-piazzetta-three-dominican-saints-altarpiece`。另收窄三条既有 statement：`st-chp9-p269-scalzi-original-church-too-small` 只保留原教堂因受欢迎而变得过小的叙述，并设 `relation_candidate=false`；Longhena、Sardi 的新堂建造事实分开成直接端点候选。`st-chp9-p270-gesuati-new-church-public-funding` 保留Gesuati开始聘用人员建造新堂的关系陈述，拆出Massari建造角色和未具名公众资金；脚注7只留在后续“强调公众支持”的statement，其注释与该Gesuati资金断言不匹配。`st-chp9-p271-tiepolo-dominican-fresco-and-piazzetta-altarpiece` 收窄为Tiepolo天顶壁画，另列Piazzetta祭坛画及三位圣人的原文名称，不对圣人作身份合并。定向修订不增加S2独立复核分子。
+
+**S3跨章类型分组。**
+
+| 候选 | 本批决定与身份组 | 依据和边界 |
+|---|---|---|
+| `cand-0738` | `new`，`sg3-place-cand-0738` → `units/places/s-maria-di-nazareth-venice-scalzi-church` | C.csv #262子目明确为“S. Maria di Nazareth (Scalzi church)”；与Scalzi修会和原教堂分开。 |
+| `cand-0737` | `new`，`sg3-place-cand-0737` → `units/places/s-maria-del-rosario-venice-church` | C.csv #261与p.270–272的Zattere新堂叙述在书内索引语境相接；不推断现存建筑状态。 |
+| `cand-1150` | `new`，`sg3-institution-cand-1150` → `units/institutions/gesuati-order-source-local` | p.270称其为Order的另一支；只登记书内身份，不与Jesuits合并。 |
+| `cand-2605` | `undecided`→`new`，`sg3-work-cand-2605` → `units/works/tiepolo-st-dominic-instituting-rosary-fresco` | S2有p.271与p.272直接作品提及；与教堂绘画群组分开，未宣称现代目录身份。 |
+| `cand-1924` | `undecided`→`new`，`sg3-work-cand-1924` → `units/works/piazzetta-three-dominican-saints-altarpiece` | P.csv #125与p.271正文直接相合；“Vincent、Hyacinth、Lawrence”保留为来源名称，不猜定具体圣人。 |
+| `cand-8726` | 沿用既有 `new` 组 `workgrp-2e0de3864205a4` → `units/works/dominican-painting-ensemble-s-maria-del-rosario` | 修正旧决定说明：该对象是集体绘画组，不是单件作品或完整清单。 |
+
+本批未发现六组应复用的既有同类型KU，也没有身份冲突证据。Tiepolo与Piazzetta分别复用既有person KU作为S6关系端点；作品本身不与人物卡或群组卡合并。
+
+**S4登记与S5字段。** 六组已加入`ku-manifest.csv`与`accepted.yml`并建立六张中英文卡；cand-2605、cand-1924的S3决定写为`new`且连接其已核对的S2 mention。新字段为`enr-16054`–`enr-16078`共25条，全部`source_backed`：Scalzi新堂5条（书内名、地点性质、原新教堂区别、立面费用与付款报告）；Rosario教堂7条（书内名、Zattere位置、公众资金概述、1742年访客所述拱顶、小堂、地面/唱诗班/建筑评价及累计支出与施舍）；Gesuati机构2条；Tiepolo壁画4条；Piazzetta祭坛画4条；绘画群组3条。访客与注释材料均以Haskell转述标识，未表示已查阅原件、账目或建筑现状。新字段没有增加`unverified`记录。
+
+**S6逐候选裁决。** 本批13条关系候选均有去向：
+
+| S2 statement | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp9-p269-scalzi-replacement-church-longhena` | formal | `rel-1508 entrusted_to_build`：Scalzi新堂→Longhena，记录建造者，不推断设计或竣工。 |
+| `st-chp9-p269-scalzi-replacement-church-sardi` | formal | `rel-1509 entrusted_to_build`：Scalzi新堂→Sardi，记录建造者，不推断设计或竣工。 |
+| `st-chp9-p268-manin-scalzi-attempt` | rejected | Haskell明确说高坛营建尝试未成功，不作为已完成委托关系。 |
+| `st-chp9-p268-manin-scalzi-chapel` | pending（过程记录） | 原文说Manin家族后来接管一座未具名小堂的装饰；当前受控关系词表无精确谓词，不用宽泛建造或委托边替代。 |
+| `st-chp9-p269-cavazza-paid-facade` | pending | `rel-1516 commissioned_by`暂存Scalzi新堂→Cavazza；原文支持付款人，但不能据此断定委托人。 |
+| `st-chp9-p269-nobles-competed-for-high-altar` | pending（backlog） | 集体“nobles”仍是S3类型/身份未决候选；`bl-0006`保留subject端点，不推造未具名赞助人或KU。 |
+| `st-chp9-p270-gesuati-new-church-public-funding` | formal | `rel-1510 commissioned_by`：Rosario新堂→Gesuati；仅记建造项目的聘用/委托角色，不把公众资助当作机构关系。 |
+| `st-chp9-p270-gesuati-church-builder-massari` | formal | `rel-1511 entrusted_to_build`：Rosario新堂→Massari；不另推定建筑师或设计角色。 |
+| `st-chp9-p270-gesuati-emphasized-public-support` | rejected | 这是作者关于修会强调公众支持的叙述，不构成受控实体关系；footnote 7内容不支持该资金断言。 |
+| `st-chp9-p271-tiepolo-dominican-fresco-and-piazzetta-altarpiece` | formal | `rel-1512 created_by`：Tiepolo壁画→Tiepolo，保留Haskell所述1737–1739年。 |
+| `st-chp9-p271-piazzetta-three-dominican-saints-altarpiece` | formal | `rel-1514 created_by`：Piazzetta祭坛画→Piazzetta，原文时间语境为1737–1739年。 |
+| `st-chp9-p272-dominican-ceiling` | formal | `rel-1513 location_of`：Rosario教堂→Tiepolo天顶壁画；记录书内空间定位。 |
+| `st-chp9-p272-dominican-ensemble` | formal | `rel-1515 located_at`：绘画群组→Rosario教堂；不扩成逐件作品目录。 |
+
+最终新增8条formal关系与1条pending关系记录；Manin小堂无精确谓词的pending理由、nobles未决端点及两项rejected理由均保留在本过程记录，未制造不可表达的关系表行。Sardi、Massari、Cavazza及六张新卡的受影响关系视图均在逐卡预览后定向渲染。
+
+**批后状态。** S2为15,226条statement，统一独立逐条复核仍为9,573条（62.9%，未接收）；第9章现有913条statement（603 relation candidate、310非关系、0未分类），本次新增/修订不计入独立复核。S3主决定12,388/12,408；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223，其中622项类型边界未决；仍缺20项主决定，另22项跨来源decision差异待定点核查。S4已登记1,502/4,798组、1,719/5,030条候选映射；待登记3,296组/3,311条映射。S5为12,309条字段（1,634条`unverified`）。S6已逐项裁决494/10,451（297 formal、136 pending、61 rejected），余9,957条；`relations.csv`为1,516条（1,510 formal、6 pending）。`candidate-backlog.csv`六条，其中五条已完成、一条保留为`undecided`。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查无broken target、invalid relation type、missing inverse、weak evidence或unbaselined generic。机械通过不代表全书S2语义接收或S3–S6收口。全库`build_cards.py --check`预检通过，但列出551张卡片的关系视图差异、预计写入578个文件；本批只渲染已逐卡预览的11张，其他差异待按关系来源和影响范围分批复核。

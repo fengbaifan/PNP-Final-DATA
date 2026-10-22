@@ -70,4 +70,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在relations.csv中的正式关系。直接S2关系候选 st-chp9-p248-facade-erected-by-sardi；st-chp9-p269-scalzi-original-church-too-small 留待S6审查；本次S4登记不创建正式边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← erector_of（`erector_of`，反向投影） | [百合圣母堂立面（Facade of S. Maria del Giglio）](../works/facade-of-s-maria-del-giglio.md) | 施工者与设计者分别记录；不据此推断委托关系；时间：between 1675 and 1683；角色：建造者；范围：Haskell states that Giuseppe Sardi erected the façade within this interval; no single construction year is inferred.；原断言与证据见发出端卡片“百合圣母堂立面（Facade of S. Maria del Giglio）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, p.248, L43 |
+| ← 受托建造（`entrusted_with_building_of`，反向投影） | [威尼斯圣母纳匝肋堂（Church of S. Maria di Nazareth, Venice; Scalzi church）](../places/s-maria-di-nazareth-venice-scalzi-church.md) | 角色：建造者；范围：Haskell says Longhena and Sardi were employed to build the replacement Scalzi church after the original church became too small. This records Sardi’s builder role only, not design or completion.；原断言与证据见发出端卡片“威尼斯圣母纳匝肋堂（Church of S. Maria di Nazareth, Venice; Scalzi church）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p. 269, L21–22; S2 statement: st-chp9-p269-scalzi-replacement-church-sardi |
+
+上表已登记Sardi受托建造Scalzi新堂的正式关系；该边记录书内建造者角色，不推断其为设计者。独立候选 st-chp9-p248-facade-erected-by-sardi 仍待S6审查；本批已将 st-chp9-p269-scalzi-original-church-too-small 收窄为原教堂过小的叙述，Longhena与Sardi的建造关系分别记录。
