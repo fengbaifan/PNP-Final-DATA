@@ -72,10 +72,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - 两条 S1 索引候选 `cand-0012` 与 `cand-0013` 由 S3 归入同一人物组 `new-person:adam-robert-145d4691c8`；第10章和第13章正文均明称 Robert Adam。此卡只据书内全名及跨章语境登记，不以外部生平补充身份事实。
 - 第10章 p.310 注1报告1757年访问并转述对收藏的评价；Haskell 所引 Orlandi 与 Fleming 页码未独立查阅。该项在 S2 中标为非关系陈述，作为语境证据保留，不升格为正式关系。[第10章 p.310 注1](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L630）
 
-### 关系与证据
+## 关系与证据
 
-以下3条关系候选留待 S6；本卡未新增正式关系：
+以下2条关系候选仍留待 S6；James Adam致Robert Adam的书信收信人关系已裁为formal（见关系表）：
 
-- `st-chp10-p302-note1-letter-locator`：James → Robert Adam；来源仅为书中注释所给信件定位，原信与副本未查阅。
 - `st-chp13-p336-adam-authored-diocletian-palace-book`：Robert Adam → `cand-10002`；书名、作品身份及版本尚待对应候选裁决。
 - `st-chp13-p336-adam-entrusted-book-sale-to-albrizzi`：Robert Adam → `cand-0025`；原文只说托付代售，不证明出版或印制。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [詹姆斯·亚当致罗伯特·亚当的信，1760年8月20日（Letter from James Adam to Robert Adam, 20 August 1760）](../archives/james-adam-letter-to-robert-adam-1760-08-20.md) | statement=st-chp10-p302-note1-letter-locator; source-local relationship only; original letter and Fleming publication not consulted.；时间：1760-08-20；角色：收信人；范围：Haskell第10章注1明确称此信由James写给Robert Adam；本边只记录书内收信人和信件日期，不表示已查阅原信或Fleming刊本。；原断言与证据见发出端卡片“詹姆斯·亚当致罗伯特·亚当的信，1760年8月20日（Letter from James Adam to Robert Adam, 20 August 1760）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；printed p. 302 n. 1 (L595); PDF physical p. 31 |

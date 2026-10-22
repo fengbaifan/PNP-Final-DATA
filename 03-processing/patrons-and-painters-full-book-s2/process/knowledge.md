@@ -11039,3 +11039,21 @@ accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` �
 **卡片与批后交接。** 同步删除Negroni与Oliva人物卡中“本卡未新增正式关系”的过期说明，并修正两张卡的关系候选状态；三张卡的关系视图按relations.csv生成。S3决定未变；S4新增1组／1条映射，S5新增4条 `source_backed` 字段，S6本批2条候选均有明确去向。本次不新增S2 statement，也不把引文中纪念两位教皇的记录另拆成已识别手稿对象。
 
 本轮定向与全表核验：`build_cards.py --render`对三卡预检通过，检查1个字段表、4行字段、4条投影关系并写入3卡；三卡渲染后再次`--preview`均无差异。`audit_tables.py --strict-stage --summary`报告2561个KU、12720条alignment、1564条relation、12392条enrichment，`errors=[]`、`s2_missing=[]`、backlog pending=0；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全量字段抽取仍有record_changes=8、new_ids=32、removed_ids=32，未应用。
+
+<a id="s4-s5-s6-chp10-p302-p392-adam-letter-20261023"></a>
+
+### S3沿用／S4／S5／S6 archive：第10章 p.302 与第19章 p.392 James Adam 致 Robert Adam 书信（2026-10-23）
+
+**S3身份沿用与来源核对。** 沿用 `cand-9519` 的既有S3 `new`组 `archive-group-dc4fb0d20cd5`，不重开S3。对照《赞助人与画家》第10章印刷页302（PDF物理页31）扫描：注1称1760年8月20日一封James致Robert Adam的信，并称Haskell感谢John Fleming向其展示副本；同页正文将James具名为James Adam。第19章附录印刷页392（PDF物理页7）再次引述该信，注为Fleming 1962, p. 270。James、Robert与Joseph Smith三个端点分别沿用既有 `cand-0011`、`cand-0012`、`cand-2447` 的人物KU。原信、副本馆藏及Fleming刊本均未独立查阅；不补造手稿编号、保管地或刊本版本细节。John Fleming仅作为Haskell披露的副本展示来源，不设为本信作者、收信人或保管者。
+
+**S4登记与S5字段。** 将 `cand-9519` 映射到 `units/archives/james-adam-letter-to-robert-adam-1760-08-20`，manifest、accepted与候选待办同步更新；新增 `bl-0010` 并标为completed。新增 `enr-16280`–`enr-16284` 五条Haskell来源支持字段：文献类型、日期、Haskell引文位置、副本／刊录线索与信件内容摘要。第10章、19章页码都是Haskell书内定位，不是信件原始页码；所有字段均为 `source_backed`，没有将条件性破产判断写成现实结果。
+
+**S6逐候选裁决。** 三条直接关系候选的域值域均有效；作者身份沿用第10章同页正文对James Adam的完整称名。
+
+| relation_id／statement_id | 决定 | 关系与边界 |
+|---|---|---|
+| `rel-1565`／`st-chp10-p302-note1-letter-locator` | formal | archive `authored_by` James Adam；time=`1760-08-20`。S3/S4身份沿用 `cand-0011`；只记录Haskell的书内作者归属。 |
+| `rel-1566`／`st-chp10-p302-note1-letter-locator` | formal | archive `addressed_to` Robert Adam；time=`1760-08-20`。依据第10章注1；原信与副本未查阅。 |
+| `rel-1567`／`st-chp19-p392-adam-1760-financial-report` | formal | archive `has_subject` Joseph Smith；time=`1760-08-20`。关系仅表示信件谈及Smith的财务状况，不确认其实际或后来破产。 |
+
+James对Smith逢迎言辞的独立S2评价候选 `st-chp10-p302-james-adam-criticism` 不是以上书信档案端点关系，本批未将其混入；其S6状态仍按相应独立候选处理。已修正Robert、James Adam与Joseph Smith三张人物卡中的过期“待S6／无正式关系”说明，再由 `relations.csv` 投影正式边。

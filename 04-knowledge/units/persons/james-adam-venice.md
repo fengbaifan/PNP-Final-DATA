@@ -64,7 +64,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [詹姆斯·亚当致罗伯特·亚当的信，1760年8月20日（Letter from James Adam to Robert Adam, 20 August 1760）](../archives/james-adam-letter-to-robert-adam-1760-08-20.md) | statement=st-chp10-p302-note1-letter-locator; source-local relationship only; original letter and Fleming publication not consulted.；时间：1760-08-20；角色：作者；范围：第10章印刷页302注1记信由James写给Robert；同页正文L392将James具名为James Adam。沿用cand-0011既有跨章人物KU；本边记录书内作者归属，不表示已查阅原信或Fleming刊本。；原断言与证据见发出端卡片“詹姆斯·亚当致罗伯特·亚当的信，1760年8月20日（Letter from James Adam to Robert Adam, 20 August 1760）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；printed p. 302 n. 1 (L595) and surrounding body L392; PDF physical p. 31 |
+
+1760年8月20日致Robert Adam的书信作者关系已登记；其余正文导航与线索不自动形成关系边。
 
 书内评价候选 `st-chp10-p302-james-adam-criticism` 留待 S6 裁决。
 
