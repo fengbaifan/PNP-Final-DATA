@@ -11063,3 +11063,11 @@ James对Smith逢迎言辞的独立S2评价候选 `st-chp10-p302-james-adam-criti
 沿用 `cand-4582` 的 S3 `new` 身份组 `workgrp-b6ea3c43ecb75a`，该组仅含一个候选；与整幅《乌尔班八世统治的荣耀》天花壁画保持不同身份。登记 work KU `units/works/forge-of-vulcan-in-pietro-da-cortona-ceiling-fresco`。Pietro da Cortona（`cand-0342`）与 Palazzo Barberini（`cand-0240`）分别复用既有 person、place KU；未做外部身份核查。印本 p.33 注1读作 “Forge of Vulcan”，S0 OCR 原文 “forge os Vulcan” 在卡片原引文中保留；注释转引 Pastor XIII, p.865，该文献未查阅。新增 S5 来源支持字段 `enr-16285`，只记录原文称名。
 
 S6 对两个原书关系候选逐项裁决为 formal：`st-chp2-secii-l147-193-forge-identification` → `rel-1568 creator_of`，范围限于 Haskell 所述包含该场景的 Pietro da Cortona 天花壁画作者语境，不断言独立载体或版本；`st-chp2-secii-l147-193-forge-location` → `rel-1569 located_at`，只记壁画在 Palazzo Barberini 的书内位置，不推断当前馆藏地点。另依脚注明确的 “in ... ceiling fresco” 表述登记 `rel-1570 part_of`（场景 → 整幅壁画）；这是来源直接支持的组成关系，保持两个 KU 身份分组，不由 S3 分组本身推出。三个正式边均使用 Haskell p.33 注1、L153（PDF physical p.14）作证。
+
+### S3沿用／S4／S5／S6：第5章 p.124 注1 Scaramuccia《Venus and Adonis》版画（2026-10-23）
+
+沿用 S3 `new` 身份组 `workgrp-585607341d0f02`，将正文作品候选 `cand-6018` 与索引子项作品候选 `cand-2391` 映射到同一张 work KU `units/works/luigi-scaramuccia-venus-and-adonis-print-dedicated-to-simonelli`；不为同一版画重复建卡。与现有 Sebastiano Ricci《Venus and Adonis》绘画按媒材与作者语境保持区分。Scaramuccia（`cand-2390`）及 Simonelli（`cand-2434`）分别复用既有 person KU；S3决定未重开。Haskell脚注文字见打印页124注1、脚注文本L142（正文注号L44）、PDF physical p.5；该书称Luigi Scaramuccia题献版画给Simonelli，并转述题词内容。S5新增 `enr-16286`，仅记录原文称名；版画及题词原件未查阅，不推定Scaramuccia为绘制者或刻印者。
+
+S6对两条候选分别裁为formal：`st-chp5-p124-scaramuccia-print-dedication` → `rel-1571 dedicated_to` Simonelli；`st-chp5-note-p124-n1-scaramuccia-dedicated-by` → `rel-1572 dedicated_by` Scaramuccia。二边方向不同，分别记录受献者与题献者，不合并成作者关系。此前过程记录提示正文作品候选与索引候选需核映射（`stages.md` 第5章 p.124注1批）；本次按现有S3同组决定和原文页锚完成S4，不新增或改写S2 statement。
+
+**卡片与批后核验。** 更新版画、Scaramuccia与Simonelli三张卡；定向渲染报告3张卡、5个字段表、17行字段、7条关系投影，写入后均通过字节核验。三卡随后逐一 `--preview` 均无差异。`audit_tables.py --strict-stage --summary` 报告2,564个KU、12,720条alignment、1,572条relation、12,399条enrichment，`errors=[]`、`s2_missing=[]`、backlog pending=0；`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。此机械核验不构成S2语义接收或S3–S6全书收口。
