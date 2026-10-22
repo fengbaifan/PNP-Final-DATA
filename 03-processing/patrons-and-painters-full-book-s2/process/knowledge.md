@@ -10438,4 +10438,4 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 
 ### S3候选级决定账目核对（2026-10-22）
 
-对 `alignment.csv` 按 `candidate_id` 分组：12,716条来源级记录覆盖12,408个唯一候选；289个候选有多个 `external_source` 记录，22个候选在不同来源行中出现不同 `decision`。依schema，S3自然键为 `candidate_id + external_source`，多来源行不是可直接删除的重复；但行数覆盖也不能代替候选级最终身份状态核定。机械盘点未作语义改判，不能用最大 `alignment_id` 自动覆盖较早决定。后续逐项比对这些候选的 `process_ref`、`resolution_note` 与类型/跨章组，保留来源行轨迹并明确当前same、new、conflict、excluded或带待证去向的undecided。此前结果文件中的“主决定12,388/12,408”被此盘点的候选行覆盖数更新；跨来源分歧尚待语义核平。
+对 `alignment.csv` 按 `candidate_id` 分组：12,716条来源级记录覆盖12,408个唯一候选；289个候选有多个 `external_source` 记录，22个候选在不同来源行中出现不同 `decision`。依schema，S3自然键为 `candidate_id + external_source`，多来源行不是可直接删除的重复；但行数覆盖也不能代替候选级最终身份状态核定。机械盘点未作语义改判，不能用最大 `alignment_id` 自动覆盖较早决定。后续仅对被选作S4直接关系端点或被新证据触发的候选，逐项比对这些记录的 `process_ref`、`resolution_note` 与类型/跨章组，保留来源行轨迹并确认本对象当前same、new、conflict、excluded或带待证去向的undecided；其他候选不因本次机械盘点而全表重开。此前结果文件中的“主决定12,388/12,408”由本次按candidate_id核得的候选记录覆盖数更新；跨来源不同决定值本身不等于身份裁决冲突。
