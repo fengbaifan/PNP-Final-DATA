@@ -10731,3 +10731,17 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 | `st-chp10-p307-claimed-vermeer-influence` | rejected | Haskell明确说影响说法“difficult to substantiate”，只保留为被报告的学术主张；当前`influenced_by`域值域也不允许work→person，故不建立Canaletto受该画影响的正式边。原claim继续留在S2。 |
 
 **渲染与批后状态。** 两张新卡及Joseph Smith、Frans van Mieris卡均完成定向预览；关系表新增2条formal和1条pending关系，拒绝项只在过程记录中保留去向，不制造关系表事实。`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`；结果为S2 15,232 statements、S4 1,507/4,798组和1,724/5,030映射、S5 12,325字段（1,634 `unverified`）、S6 508/10,456（309 formal、137 pending、62 rejected，余9,948），`relations.csv` 1,528条（1,521 formal、7 pending）。`audit_relation_consistency.py`未发现broken target、invalid relation_type、missing inverse、weak evidence或unbaselined generic。审计为机械检查，不构成S2独立验收或S4–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp2-urbino-duchy-20261022"></a>
+
+### S3类型修订／S4／S5／S6：第2章 p.54、p.61 乌尔比诺历史政治实体（2026-10-22）
+
+**来源与身份边界。** 对照 Haskell 修订版第2章印刷页54 L120–123、页61 L34，以及 Treccani《Urbino》条目 lines 40–46。Haskell页54称“State of Urbino”，另在同段用“the city”；页61以“acquiring Urbino for the Church”概述 Urban VIII 的行动。Treccani把历史公国／政治实体与乌尔比诺城市分别表述，并记载1631年公国并入教皇国。由此将 cand-4741 的类型从 place 修订为 institution，身份组由 `sg3-place-cand-4741` 改为 `sg3-institution-cand-4741`；S3决定仍为 `new`，S4登记为 `units/institutions/duchy-of-urbino`。它与乌尔比诺城市 cand-4648、教皇国 cand-1833 分别建模。此处外部证据支持历史政治实体及1631年并入关系；不推定现代边界、行政制度或具体权力移交过程。
+
+**S2定向修订。** 将原“公爵之死与领地取得”statement收窄为1631年4月28日的死亡事实，并标为非关系候选；将 Urban VIII 对乌尔比诺的政治主张、预期继承、劝说公爵交权、死后采取占有步骤、领地遭劫掠及绘画收藏散失分别表达。新增四条statement，分别记录预期并入教皇国、向未具名总督移交有效权力、未具名行动者采取占有步骤、乌尔比诺遭劫掠。收藏散失仍未确定具体收藏对象及去向。页61相关statement的候选类型限定同步改为 cand-4741 属 institution、Rome cand-4490 属 place。本批修改不增加S2独立语义复核分子；新增内容仍须与复核台账按当前statement ID及来源版本核平。
+
+**S4与S5。** 登记 cand-4741 所属既有 `new` 组；新增知识元卡[乌尔比诺公国](../../../04-knowledge/units/institutions/duchy-of-urbino.md)，在正文、来源表和知识元字段中分别保留Haskell页54、页61及Treccani的证据范围。新增S5记录 `enr-16149`–`enr-16151`：书内称谓和类型说明、Treccani历史身份及1631年并入信息、外部来源入口。全库字段表构建器的dry-run显示会同时新增35项并移除32项既有ID，且会影响无关卡片；因此本批仅按预览后的三个字段定向写入，没有应用全库重建。
+
+**S6逐项去向。** 七条相关候选逐项处理：`st-chp2-seciv-l114-125-urbino-due-to-be-incorporated-into-papal-states` 依据Treccani line 46裁为formal，新增 `rel-1529 part_of`（乌尔比诺公国→教皇国，1631）；`urban-claims-urbino` 因受控谓词无对应领土政治主张而pending；`urban-transfers-effective-authority` 因无忠实表达“劝说”的受控谓词而pending，不改写成 `advised`；`duke-transfers-effective-authority-to-unnamed-governor` 因接收者未具名而pending；`possession-steps-after-duke-death` 因行动者未具名而pending；`urbino-despoiled` 因加害者未具名且“Urbino”具体范围未定而pending；`urbino-collection-dispersal` 因无已定类型的收藏KU和去向而pending。六项待证只留过程裁决，不写入不满足受控关系契约的关系表行，也不为匿名角色虚构KU或加入backlog。
+
+**渲染与批后核验。** 对新卡先运行定向预览，确认只新增其 `part_of` 关系视图，再定向渲染；写后字节核对通过，渲染后再次预览为无差异。`audit_tables.py --strict-stage --summary`：exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S0为832段（678 complete、154 excluded）；S2为15,236条statement，统一独立复核9,573条（62.8%，未接收）；S3主决定12,388/12,408，same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决），缺主决定20项，另22项跨来源decision差异待定点核对；S4登记1,508/4,798组、1,725/5,030映射，待登记3,290组／3,305映射；S5共12,328字段（1,634条unverified）；S6逐条裁决515/10,459（310 formal、143 pending、62 rejected），余9,944条；`relations.csv`共1,529条（1,522 formal、7 pending）；candidate-backlog 6条（5 completed、1 undecided，pending=0）。至少缺一个S2候选端点ID的关系候选为339条（仅缺subject 46、仅缺object 221、两端均缺72）。机械检查通过不代表S2语义验收或S3–S6全书收口。

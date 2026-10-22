@@ -2,18 +2,19 @@
 
 ### 本轮进度与后续工作（2026-10-22）
 
-本轮沿用两个已有 S3 `new` 组，登记《Lady at the Virginals》作品与 Buckingham Palace 地点卡；在已标记 `reviewed/complete` 的第10章 p.307 源段补入一条有明确主客体的 S2 `located_at` 候选。五条 S5 字段均来自 Haskell 原书。四条关系候选逐条给出去向：2条 formal、1条 pending、1条 rejected；两张新卡及Joseph Smith、Frans van Mieris两张受影响卡均经定向预览。独立复核分子未增加，S3未重开。来源扫描与裁决理由见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p307-vermeer-lady-at-virginals-20261022)。
+本轮依据 Haskell 第2章 p.54、p.61 与 Treccani《Urbino》区分乌尔比诺历史公国、城市及教皇国；将 cand-4741 从 place 修订为 institution，沿用 `new` 决定并登记公国KU。补充来源限定的S2事实、3条S5字段，并为7条相关关系候选分别确定1条formal、6条pending去向。新卡经定向预览、渲染及写后复核；独立S2复核分子未增加。证据、类型修订和裁决理由见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-urbino-duchy-20261022)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,232条 statement，统一独立逐条复核9,573条（62.9%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮增加的statement不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义定点核对。S4已登记1,507/4,798组、1,724/5,030条映射，待登记3,291组／3,306条映射。S5有12,325条字段，1,634条unverified。S6裁决508/10,456条（309 formal、137 pending、62 rejected），余9,948条；relations.csv共1,528条（1,521 formal、7 pending）。335条关系候选至少缺一个S2端点候选ID（缺subject 45、缺object 218、两端均缺72）。candidate-backlog共6条（5条完成，1条明确undecided）。本批后严格表审计 errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械通过不等于语义接收或全书阶段收口。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,236条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮新增及修订statement不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义定点核对。S4已登记1,508/4,798组、1,725/5,030条映射，待登记3,290组／3,305条映射。S5有12,328条字段，1,634条unverified。S6裁决515/10,459条（310 formal、143 pending、62 rejected），余9,944条；relations.csv共1,529条（1,522 formal、7 pending）。339条关系候选至少缺一个S2端点候选ID（缺subject 46、缺object 221、两端均缺72）。candidate-backlog共6条（5条完成，1条明确undecided，pending=0）。严格表审计 exit 0、errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械通过不等于语义接收或全书阶段收口。
 
 **后续工作顺序。**
 
-1. **继续关系解锁价值最高的S4批次。** 每批从仍未登记的S3 `new` 组中，优先选原书对象边界清楚、且有最多直接关系候选连接到既有KU的端点；同步核对身份映射、补齐必需S5字段，并逐条完成该端点关联的S6候选。每批结束后重算队列，不按固定数量登记。
-2. **推进端点齐全的S6候选与缺端点候选分流。** 对端点已映射者逐项给出formal、pending或rejected。对335条至少缺一个S2端点候选ID的候选，先读来源判断是否有独立对象；有依据才补S1→S3→S4端点，身份或类型不足则保留有理由的待证／否决，不从关系反推对象。
-3. **按关系与关键事实需要补S5。** 从1,634条`unverified`字段中筛出正在解锁的端点、创作者/责任者、作品流传和必要身份范围；只用可定位来源补足，不能补证时记录具体缺口，不进行无区分的全量外查。
-4. **核平S2复核台账并继续分章审读。** 先把9,573条统一复核记录与当前statement ID、来源版本和范围对应；再从未复核章节继续完整逐条阅读。定向S2新增或修订不增加独立复核分子，章节记录完成同口径核平前分别报告。
-5. **按触发条件定点重开S3。** 仅当当前S4登记或新证据触及身份、版本、冲突、跨来源归组时复核相关候选；20个缺主决定、22项decision差异及类型边界未决继续列为跟踪缺口，不因此全表重跑或阻塞证据充分的S4/S6批次。
-6. **满足放行条件后准备S7。** 全部S4 `new`映射均已登记，S5必需字段有来源或明确缺口，所有S6候选和backlog均有可追溯去向后，再做发布验证、来源与权利检查。知识发现和页面继续暂停，等待用户明确启动。
+1. **先收口S3的可追溯决定。** 按人物、机构、文献类型逐批处理20项缺主决定、22项跨来源decision差异及622项类型边界未决。每项必须落到same、new、conflict、excluded或附有身份／类型理由的undecided；跨来源相异值按来源与对象身份核对，不直接当成身份冲突。无需全表重跑。
+2. **继续S4端点批次并同步完成关联S6。** 当前有1,563个尚未登记的S3 `new`对象组，至少连接一条S2关系候选。队列最高原始度数为 cand-1805（“Painting, social significance of”，5条）；先核读来源并判清term与独立对象边界，再决定KU类型及是否登记。确认对象成立后，才连同身份映射、必要S5字段及其S6候选一起处理。
+3. **推进关系端点齐全者，分流339条缺端点候选。** 对已有有效KU端点的候选逐项给出formal、pending或rejected。缺候选ID者先读上下文；只有来源支持独立、可识别对象时才补S1→S3→S4，身份或谓词不足则保留有理由的待证／否决，不从关系反推对象或虚构匿名端点。
+4. **按当前工作需要补S5。** 从1,634条`unverified`中优先筛出正在处理的端点、作品流传、责任者及必要身份范围；使用可定位来源补充，无法补证时记录明确缺口，不做无差别全量外查。
+5. **核平S2复核台账并继续分章审读。** 先把9,573条统一复核记录与当前statement ID、来源版本和范围对应，再从未复核章节继续逐条阅读。定向新增或修订不增加独立复核分子；章节记录在统一口径核平前分开报告。
+6. **前置条件满足后准备S7。** S4映射全部登记，S5必需字段有来源或明确缺口，全部S6候选及backlog均有可追溯去向后，再进行发布验证、来源与权利检查。知识发现和页面仍暂停，等待用户明确启动。
+
 ### S3沿用／S4/S5/S6：第9章 p.275 注2 Gherardi 致 Muratori 书信（2026-10-22）
 
 沿用既有书信与机构S3 `new`组，登记1746年2月20日档案卡及Biblioteca Estense机构卡；新增4条Haskell原书支持字段。三条直接S6候选逐项裁为formal：书信 `authored_by` Gherardi、`addressed_to` Muratori、`located_at` Biblioteca Estense。仅记录Haskell书内通信与馆藏定位，不表示原信或馆藏目录已查阅，也不将其与其他年份的Gherardi–Muratori信件或未定复数通信合并。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-p275-gherardi-muratori-20261022)。
