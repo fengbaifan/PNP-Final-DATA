@@ -10178,3 +10178,26 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 S6本批2条均有明确去向：1 formal、0 pending、1 rejected；只有formal边进入 `relations.csv`。两张新增卡的关系视图经定向预览后分别写回；未运行全库渲染。
 
 **批后状态。** S2为9,573/15,198（63.0%，未接收）；S3决定分类为same=2,025（1,089个既有KU）、new=5,022（4,792组）、conflict=9、excluded=100、undecided=5,232（其中622项类型未决）；主决定行覆盖12,388/12,408，仍缺20条。S4已登记1,446/4,792组、1,656/5,022条候选映射；待登记3,346组／3,366条映射，其中直接端点待登记1,604组／1,618条，非直接1,742组／1,748条。S5字段表12,148条（1,634条unverified）。S6累计逐条裁决395/10,427条（230 formal、116 pending、49 rejected），尚余10,032条；`relations.csv`为1,448条（1,444 formal、4 pending）。`candidate-backlog.csv`保留5条历史记录，pending=0。
+
+
+<a id="s4-s5-s6-bamboccianti-catalogue-20261022"></a>
+### S4/S5/S6：I Bamboccianti 展览图录及引言关系端点（2026-10-22）
+
+**S3决定与跨章分组。** `cand-6181` 沿用既有 S3 `new` 决定 `aln-6362`，归入单成员档案身份组 `archive-group-362a907b36bc`；第5章 p.132 注2引注与第21章 p.413 书目是同一展览图录的两处书内锚点，本批不重开身份裁决。该候选原 alignment 解释与 S1 detail 含损坏文字，现以可读文本补明同一来源对象、区分实体及未核范围；`new`决定、组号、来源锚点和候选范围均未变。直接关系端点人物 `cand-6180` 已在先前 S3/S4 批次作为独立人物组登记到 `units/persons/giuliano-briganti`（`aln-6361`）；沿用其姓名校准和身份范围，不将引言作者角色扩大为整部图录作者。
+
+**S4登记。** 将 `cand-6181` 映射到 `units/archives/i-bamboccianti-exhibition-catalogue-1950`，更新 `alignment.csv`、`ku-manifest.csv` 与 `accepted.yml`。卡片记录 Haskell 第21章书目所列图录身份；中文题名是描述性工作译名。
+
+**S5字段。** 第21章印刷页413、L91–93支持5条 `source_backed` 字段，新增 `enr-15918`–`enr-15922`：文献类型、原题名、展览组织者 Alessandro Morandotti、图录编辑者 Giuliano Briganti，以及原文列示的机构/地点/年份。最后一项不推定出版者身份。第5章注2 OCR 引句保留 “Brigand”；既有第5章页图校读记录确认印刷读法为 “Briganti”。图录与引言均未独立查阅。
+
+**S6候选逐条裁决。** 两条候选均有正式去向；书内原断言保留：
+
+| Statement | 裁决 | 正式边与范围 |
+|---|---|---|
+| `st-chp5-notes-l128-briganti-survey` | formal | `rel-1449 cites`：Haskell《赞助人与画家》→ I Bamboccianti 图录。仅记录第5章 p.132 注2将读者指向图录引言作为 general survey，不表示独立阅读图录或引言。 |
+| `st-chp5-notes-l128-briganti-authored-introduction` | formal | `rel-1450 contributed_by`：I Bamboccianti 图录→ Giuliano Briganti，角色为引言作者。S2脚注印本校读和 `cand-6180`→`aln-6361` 身份路径支持端点；关系范围仅为引言，不声称其为整部图录的唯一作者。 |
+
+S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类型通过关系域值域约束。经定向预览后仅渲染新增图录、Briganti人物及 Haskell 原书三张卡片。
+
+**字段抽取保护。** 写回前的全库字段预览发现 Silva 与 Crespi 两张既有卡各只有一个来源，但表格标记为 `S2`，将导致这两条既有 `source_backed` 记录被误降为 `unverified`。按卡内唯一来源序号改为 `S1`，保留原值和证据定位；`enr-15916`、`enr-15917` 维持 `source_backed`，全库 `unverified` 总数不变。修正后预览显示新增5条、删除0条、仅更新上述2条定位元数据，随后才执行 `build_field_facts.py --apply`。
+
+**批后状态与检查。** S2复核分子不变；S3决定行仍为12,388/12,408。S4已登记1,447/4,792组、1,657/5,022条映射；待登记3,345组／3,365条，其中直接端点1,603组／1,617条，非直接1,742组／1,748条。S5字段12,153条（1,634条 `unverified`）。S6累计397/10,427（232 formal、116 pending、49 rejected），余10,030条；`relations.csv`为1,450条（1,446 formal、4 pending）。`audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查：broken target、invalid type、missing inverse、weak evidence 均为0。机械检查不等于 S2 独立接收或全书阶段收口。

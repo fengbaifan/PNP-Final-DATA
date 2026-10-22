@@ -35,7 +35,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 描述性题名 | Massacre of the Innocents（Crespi index entry） | S2；第8章，印刷页237 L318–319、注2 L440 |
+| 描述性题名 | Massacre of the Innocents（Crespi index entry） | S1；第8章，印刷页237 L318–319、注2 L440 |
 
 ## 关系与证据
 

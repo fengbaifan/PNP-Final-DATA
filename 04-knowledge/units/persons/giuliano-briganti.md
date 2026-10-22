@@ -84,7 +84,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [《巴姆博恰蒂展览图录》（I Bamboccianti Exhibition Catalogue, Rome 1950）](../archives/i-bamboccianti-exhibition-catalogue-1950.md) | S2 statement: st-chp5-notes-l128-briganti-authored-introduction. The OCR transcription reads “Brigand”; the existing page-image review records the printed reading as “Briganti”. S3 person endpoint cand-6180 was registered to Giuliano Briganti in aln-6361 using external authority records; this edge is limited to authorship of the introduction and does not claim authorship of the whole catalogue.；角色：图录引言作者；范围：仅指I Bamboccianti图录的引言，不延伸为整部图录作者；依据Haskell第5章印刷页132注2。；原断言与证据见发出端卡片“《巴姆博恰蒂展览图录》（I Bamboccianti Exhibition Catalogue, Rome 1950）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；line 128; printed p. 132 n. 2 |
+
 
 ### 关系候选入口
 
