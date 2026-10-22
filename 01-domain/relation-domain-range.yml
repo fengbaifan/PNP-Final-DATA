@@ -53,6 +53,8 @@ domain_range:
   handled_by:       {domain: [work], range: [institution]}
   has_participant:  {domain: [event], range: [institution, person]}
   has_subject:      {domain: [archive, event, work], range: [archive, family, institution, person, place, term, work]}
+  sent_by:          {domain: [work], range: [person]}
+  sender_of:        {domain: [person], range: [work]}
   held_by:          {domain: [work], range: [institution, person]}
   honourer_of:      {domain: [person], range: [person]}
   influenced_by:    {domain: [person], range: [person]}

@@ -27335,3 +27335,11 @@ m-chp21-bib-l1059-1100-012-author-sagredo,chp-21:21_CHP-21Bibliography:l1059-110
 m-chp21-bib-l87-127-017-author-bassi,chp-21:21_CHP-21Bibliography:l87-127,cand-9841,"Bassi, Elena",1985,1997,Author form nested within the complete bibliography-entry mention.
 m-chp21-bib-l461-496-018-author-fogolari,chp-21:21_CHP-21Bibliography:l461-496,cand-9843,"Fogolari, Gino",1638,1652,Author form nested within the complete bibliography-entry mention.
 m-chp10-p304-two-properties-palazzo-balbi,chp-10:10_CHP-10_intro:l411-421,cand-2464,these two properties,186,206,Plural anaphor refers to the Palazzo Balbi named on p.303; kept distinct from the Mogliano country house.
+m-chp8-p238-crespi-sender-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-0871,he,1668,1670,"Coreference to Crespi, named earlier in the same paragraph; identifies the sender, not the maker."
+m-chp8-p238-satirical-picture,chp-8:08_CHP-8_sec_ii:l327-336,cand-0885,a satirical picture,1681,1700,Matches index subentry C.csv#419; the source does not give a formal title or surviving-object identity.
+m-chp8-p238-priest-silva-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-2433,the priest,1704,1714,Coreference to the priest identified as Don Carlo Silva in p.237 note 2; not the satire's maker or recipient.
+m-chp8-p238-massacre-innocents,chp-8:08_CHP-8_sec_ii:l327-336,cand-0882,Massacre of the Innocents,1751,1776,The phrase refers to the prior commissioned picture; it is not the subject-object of the satirical-picture claim.
+m-chp8-p238-ferdinand-massacre-gift,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,Ferdinand,1791,1800,"Here Ferdinand is the intended recipient of the Massacre commission described in the relative clause, not an explicit recipient of the satire."
+m-chp8-p238-children-at-play,chp-8:08_CHP-8_sec_ii:l327-336,cand-0874,Children at Play,1898,1914,Named genre-scene candidate; matched to index subentry C.csv#408.
+m-chp8-p238-women-washing-title,chp-8:08_CHP-8_sec_ii:l327-336,cand-0887,Women washing their Laundry at a Fountain,1919,1960,Named genre-scene candidate; matched to index subentry C.csv#421.
+m-chp8-p238-pisa-cabinet,chp-8:08_CHP-8_sec_ii:l372-461,cand-8048,Gabinetto del R. Intendente di Finanza di Pisa,12193,12239,"Named location in note 4; exact institutional, office, or spatial identity remains unresolved."

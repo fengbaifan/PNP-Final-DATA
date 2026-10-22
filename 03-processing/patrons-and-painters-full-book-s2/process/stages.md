@@ -13563,3 +13563,7 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第三章 p.83 雕像组端点触发的 S2 定向原子化
 
 将 st-chp3-seciv-l69-73-sixteen-stucco-figures 收窄为 Gaulli 设计十六尊雕像组；新增追随者执行、窗龛安置及 Ethiopia、Peru、China、Mexico 四条地区表现 statement，共六条新 statement。两个原有指向Jesuits机构的解释候选保留为候选，由S6明确否决正式边。此为S4端点触发的修订，不计入独立语义复核。当前全书statement为15,217；第3章statement分母由1,175变为1,181，既有独立复核分子仍为1,173。提及范围未变；具体端点、字段与逐条关系裁决见知识过程的 s4-s5-s6-chp3-p83-figures-20261022。
+
+### 2026-10-22：第八章 p.238 Crespi 三幅作品的端点触发校正
+
+依据Haskell印刷页238 L332、p.237注2 L440，修正“as a gift for Ferdinand”的从句归属：它指《无辜者屠杀》最初受托创作的用途，不说明后句讽刺画的收件人。将讽刺画与Don Carlo Silva的描绘对象关系单列；三幅作品均只记原文明确的Crespi寄送行为，不推断创作者、赠与人或收件人。新增一条S2 statement及八条mention锚点；注4所称Pisa cabinet及“这些画”的范围留待证，不能据此认定三件作品均位于Pisa。本次定向修订不计入独立S2复核分子；全书statement升至15,218，第八章分母升至1,465，关系候选升至10,445。此前阶段记录中的相反解释保留为历史，并由知识过程记录明确更正。详见[本批裁决](knowledge.md#s3-s4-s5-s6-chp8-p238-crespi-pictures-20261022)。

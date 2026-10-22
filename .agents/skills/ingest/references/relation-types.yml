@@ -110,6 +110,8 @@ types:
   - replaces
   - same_as
   - scene_of
+  - sender_of
+  - sent_by
   - source_of
   - subject_of
   - successor_of
@@ -243,6 +245,8 @@ inverse:
   erector_of: erected_by
   compared_with: compared_with
   scene_of: occurred_at
+  sent_by: sender_of
+  sender_of: sent_by
   source_of: derived_from
   subject_of: has_subject
   successor_of: predecessor_of

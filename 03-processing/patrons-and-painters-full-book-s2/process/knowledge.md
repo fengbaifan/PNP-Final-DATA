@@ -1,5 +1,28 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp8-p238-crespi-pictures-20261022"></a>
+### S2定向校正／S3沿用与分组／S4／S5／S6：第八章 p.238 Crespi 三幅作品（2026-10-22）
+
+**S2来源语义与修订。** 对照Haskell第八章印刷页238 L332及p.237注2 L440，修正此前把三幅作品都解释为寄给Ferdinand、并据注4一并定位Pisa的过度推断。L332的“as a gift for Ferdinand”修饰《无辜者屠杀》最初受托创作的用途，不是后句讽刺画的收件人。原文明确说Crespi寄送《Children at Play》、描绘Don Carlo Silva的讽刺画及《Women washing their Laundry at a Fountain》，但此处未明示收件人或创作者。新增statement `st-chp8-p238-silva-satirical-picture-has-subject-silva`，依据p.237注2将讽刺画描绘的神父对应Don Carlo Silva；未推断画家、肖像原型或现存版本。新增8条精确mention锚点；来源段和S0未改写。此前阶段记录中“均寄给Ferdinand／均在Pisa”的解释由本记录更正，历史记录保留以追踪判断变化。
+
+**S3与S4去向。** `cand-0874`、`cand-0885`、`cand-0887`均由`undecided`转为独立`new`组：`sg3-work-cand-0874`、`sg3-work-cand-0885`、`sg3-work-cand-0887`。分别检索当前manifest及卡片，未找到可复用的同一作品对象；书内题名与索引C.csv#408、#419、#421支持三个彼此独立的来源局部作品身份。已新增三张work卡，分别写入aln-1209、aln-1220、aln-1222及manifest／accepted映射。Ferdinand与Crespi复用既有person KU，不把“寄送”转写为创作、赠与、所有权或接收关系。
+
+**S5字段。** 新增`enr-16049`–`enr-16051`三条Haskell原书支持字段，均记录各作品在正文中的描述性题名及其来源定位；题名未核作现存作品题签。没有使用外部书目或搜索摘要新增作品事实。
+
+**S6逐条裁决。** 本批五条候选各有明确去向：
+
+| S2 statement | 决定 | 去向及边界 |
+|---|---|---|
+| `st-chp8-p238-genre-scenes-and-subject-popularity` | formal | `rel-1497 sent_by`：Children at Play→Crespi。仅记录1708年期间由Crespi寄送，未载具体日期与收件人。 |
+| `st-chp8-p238-silva-satirical-picture` | formal | `rel-1498 sent_by`：讽刺画→Crespi。仅记录寄送，不表示创作、赠与、拥有或收件人身份。 |
+| `st-chp8-p238-women-washing-scene-sent` | formal | `rel-1499 sent_by`：Women washing→Crespi；同样不推断作品创作者或收件人。 |
+| `st-chp8-p238-silva-satirical-picture-has-subject-silva` | formal | `rel-1500 has_subject`：讽刺画→Don Carlo Silva；p.238描绘对象与p.237注2身份交叉支持。 |
+| `st-chp8-p238-note4-pictures-at-pisa-cabinet` | pending | `cand-12373`所指“这些画”的范围可能为两幅风俗画，也可能包括前述讽刺画；`cand-8048`所指Pisa cabinet的机构、办公室或空间边界未明。两端未有可用KU映射，不写入`relations.csv`；待明确作品范围和地点身份后再复核。 |
+
+四条formal边均具备S2证据、有效端点、受控谓词、方向与限定语境；注4暂缓项保留在过程记录。受影响的3张新work卡及Crespi、Silva人物卡完成定向预览与渲染。
+
+**批后状态与核查。** S2为9,573/15,218，独立复核分子不变、尚未接收；第八章statement分母升至1,465。S3主决定仍为12,388/12,408；same=2,026、new=5,024（4,794组）、conflict=9、excluded=100、undecided=5,229（含622项类型边界未决），缺主决定20。S4已登记1,493/4,794组、1,708/5,024条映射，待登记3,301组／3,316条映射。S5为12,282条字段（1,634条`unverified`）。S6累计裁决472/10,445（283 formal、131 pending、58 rejected），余9,973条；`relations.csv`共1,500条（1,496 formal、4 pending）；candidate-backlog为5条历史记录、pending=0。`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`；关系一致性检查未发现结构阻断项。机械检查不代表S2独立接收或S3–S6全书收口。
+
 <a id="s4-s5-s6-chp15-p363-boscovich-letter-20261022"></a>
 
 ### S3沿用／S4/S5/S6：第15章 p.363 注2 Boscovich 致 Vallisnieri 书信（2026-10-22）

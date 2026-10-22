@@ -42,6 +42,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [克雷斯皮索引所列《无辜者屠杀》（Crespi-indexed Massacre of the Innocents）](../works/crespi-massacre-of-the-innocents.md) | S2 statement st-chp8-p237-note2-massacre-commission-and-default. Formal only for the commission reported by Haskell; note 2 also reports a later default and withdrawal of the intended gift, not a completed transfer.；角色：委托人；范围：Haskell称该画由Silva委托作为呈给Ferdinand的作品；不表示赠画完成或所有权转移。；原断言与证据见发出端卡片“克雷斯皮索引所列《无辜者屠杀》（Crespi-indexed Massacre of the Innocents）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.237 L440, note 2 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [描绘席尔瓦的讽刺画（Satirical Picture Depicting Don Carlo Silva）](../works/crespi-satirical-picture-don-carlo-silva.md) | 角色：讽刺画描绘对象；范围：Haskell称该画描绘一名神父；第8章p.237注2将该神父识别为Don Carlo Silva。本边不识别画家、肖像原型或作品版本。；原断言与证据见发出端卡片“描绘席尔瓦的讽刺画（Satirical Picture Depicting Don Carlo Silva）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 238, L332 and p. 237 n.2, L440; S2 statement: st-chp8-p238-silva-satirical-picture-has-subject-silva |
 
 ### 身份与外部链接
 
