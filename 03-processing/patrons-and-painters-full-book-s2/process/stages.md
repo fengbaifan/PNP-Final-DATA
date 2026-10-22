@@ -13543,3 +13543,7 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### S2定向关系原子化修订：第9章 p.255 图版44（2026-10-22）
 
 保留st-chp9-p255-theological-virtues-around-virgin原ID，将其claim与quote收窄为Faith、Hope、Charity三项theological virtues，并从mentioned_candidate_ids移出Wisdom端点。新增st-chp9-p255-wisdom-around-virgin，把原文末尾另列的Wisdom记录为独立work→term关系候选，端点沿用既有cand-8340及其mention m-chp9-p255-wisdom。两条均定位第9章印刷页255 L149，原文与来源segment未改。该修改源于关系端点复核，不计为独立S2逐条语义审读；S2复核分子仍为9,573，statement分母更新为15,202，关系候选共10,430。S3/S4/S5/S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-chp9-pisani-plate44-20261022)。
+
+### 2026-10-22：第七章 Plate 30/31 标题段章序游标去重
+
+核对章序游标 `chp-7:07_CHP-7_sec_v_visual-transcription:l1-1`：S0只有分组标题“ENGLISH VISITORS OF THE SEVENTEENTH CENTURY AND ITALIAN ARTISTS (see Plates 30 and 31)”。`s2-coverage.csv`已登记该段为 `reviewed/complete`，注记 `no_semantic_content`；它是物理页40的图版导航，不新增statement。紧接的同文件段 `l3-3` 是Plate 32b图注，已在物理页42图版簇完成复核，六条statement与八条mention均已计入既有记录。此次只消除重复游标，不增加S2复核分子、statement或mention。全书832个segment均已有complete/excluded处置、queued=0；但statement级语义复核台账仍需按当前ID及来源版本核平，下一项应从核平后的首个未复核statement单元恢复，不凭segment处置状态猜测覆盖。
