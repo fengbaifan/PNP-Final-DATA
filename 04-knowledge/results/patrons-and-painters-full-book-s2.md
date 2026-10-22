@@ -2,6 +2,13 @@
 
 更新日期：2026-10-22。
 
+### S3定点复核与 S2/S4/S5/S6：第9章 p.254–255 皮萨尼寓意壁画（图版44）
+
+S3将作品候选复用到既有Plate 44作品KU；另将不适配现有类型的在世家族成员集合保留为undecided。对p.255关系候选作S2原子化修订，分别记录theological virtues与Wisdom；登记两个term端点，补入11条来源支持字段。5条S6候选均裁决：4 formal（含复用rel-1004）及1 pending；新增rel-1455–rel-1457。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-pisani-plate44-20261022)。
+
+批后：S2为9,573/15,202，关系候选10,430条、335条缺至少一个S2端点候选ID；S3主决定覆盖12,388/12,408；S4已登记1,455/4,791组、1,665/5,020映射，待登记3,336组／3,355映射（直接端点1,597组／1,611映射）；S5为12,180条（1,634条unverified）；S6裁决412/10,430（240 formal、121 pending、51 rejected），余10,018条；关系表1,457条（1,453 formal、4 pending）。结构审计通过不代表全书阶段接收。
+
+
 ### S4/S5/S6：第4章 p.118 Accademia degli Umoristi 机构端点（2026-10-22）
 
 沿用 `cand-0002` 的S3 `new`身份组，登记乌莫里斯蒂学院为来源限定的机构KU，新增1条S5字段 `enr-15938`。Massimi重组学院的S2关系候选保持pending：受控关系词表没有精确表达“重组机构”的谓词，不以成员、管理或赞助关系替代；无新增formal关系。批后S4为1,453/4,792组、1,663/5,022映射；S5为12,169条（1,634条 `unverified`）；S6累计407/10,429（236 formal、120 pending、51 rejected），余10,022条；关系表1,454条（1,450 formal、4 pending）。S2独立复核分子、S3决定均未改变。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp4-p118-umoristi-20261022)。

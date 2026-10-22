@@ -10262,3 +10262,32 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **S6逐候选裁决。** `st-chp4-sec-ii-p118-umoristi-reorganized` 保持 `pending`。Haskell称 Massimi 对衰落中的学院实施重组，但 `relation-domain-range.yml` 的受控谓词中没有能够精确表达“重组机构”的行动关系；不以成员、管理、赞助或一般隶属谓词替代，也不据此新增正式边。S2来源断言与卡片语境保留。
 
 **批后状态与检查。** S2为9,573/15,201；独立复核分子不变。S3主决定行仍为12,388/12,408，决定分类不变。S4已登记1,453/4,792组、1,663/5,022条映射；待登记3,339组／3,359条，其中直接端点1,600组／1,614条（机构子队列79组／79条成员映射），非直接1,739组／1,745条。S5字段表12,169条（1,634条 `unverified`）。S6累计裁决407/10,429条（236 formal、120 pending、51 rejected），余10,022条；`relations.csv`保持1,454条（1,450 formal、4 pending）。字段预览写回后复核为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`，关系一致性检查无 broken target、invalid relation_type、missing inverse、weak evidence 或 unbaselined generic evidence-backed。卡片定向预览后写入并完成字节核对。机械检查不表示语义接收或阶段收口。
+
+
+<a id="s3-s4-s5-s6-chp9-pisani-plate44-20261022"></a>
+### S3定点复核、S2修订与 S4/S5/S6：第9章 p.254–255 皮萨尼寓意壁画（图版44）（2026-10-22）
+
+**S2定向原子化修订。** S2原statement st-chp9-p255-theological-virtues-around-virgin保留ID并收窄为圣母周围的Faith、Hope、Charity三项theological virtues；原句末尾另列的Wisdom不再包在该候选端点中。新增st-chp9-p255-wisdom-around-virgin，以既有候选cand-8340为端点，单独记录Wisdom。两条均锚定第9章印刷页255 L149及同一原文句；没有新增mention或改动来源段落覆盖。此为S2定向修订，不计入独立逐条语义复核分子；statement分母增至15,202，关系候选增至10,430。
+
+**S3身份与跨章证据。**
+- cand-8316此前为单成员new组workgrp-bb83f041e18a6d。第9章p.254 L145称the Apotheosis of the Pisani位于Stra，p.255 L149以“for it”续指并明引Plate 44；图版目录p.xiv L118将Plate 44列为Glorification of the Pisani family (Villa Pisani, Stra)。标题、连续指代、图版与地点相合，改为same并复用units/works/tiepolo-glorification-of-the-pisani-family；原new决定历史保留于本记录与alignment理由中，不作外部身份核验。
+- cand-8334此前为term new组sg3-term-cand-8334。本段实际指在世Pisani家族成员及其肖像，是具体人物集合，不是术语概念，也不等同于跨时期的Pisani family整体；仅Almorò具名，母亲未具名。现有类型不能安全表达该集合，改为undecided，不登记为KU。
+- cand-8336沿用new组sg3-term-cand-8336，核对manifest未见同粒度theological virtues KU；登记范围限Faith、Hope、Charity，原句另列的Wisdom不纳入。
+- cand-8340沿用new组sg3-term-cand-8340。既有同类型Wisdom KU仅记录Sacchi作品语境；本段不足以证明同名图像主题与其同一，因此保留为本章来源限定的new组，不声称两处一般神学概念不同。
+
+**S4登记。** 复用既有作品KU，不建重复卡；将cand-8336登记到units/terms/theological-virtues，将cand-8340登记到units/terms/wisdom-personified-pisani-allegory。两条新KU均已登记到manifest与accepted.yml，alignment保留原S3组号。cand-8334未登记，等待可识别成员端点或合适类型依据。
+
+**S5字段。** 本批新增5条神学美德字段（enr-15941–enr-15945）及4条Wisdom字段（enr-15946–enr-15949）；既有作品卡新增enr-15939–enr-15940，分别记录第9章另一称名the Apotheosis of the Pisani，以及哈斯克尔所述寓意场景年份1762。该场景年份与既有外部来源记载的作品创作时间1761–1762分列，不互相替代。11条均为source_backed；字段预览与应用均无警告、无既有记录改写、来源表无变化；unverified维持1,634条。
+
+**S6逐候选裁决。**
+| S2 statement | 决定 | 关系去向与范围 |
+|---|---|---|
+| st-chp9-p254-apotheosis-of-pisani-last-great-work | formal（复用） | 复用既有rel-1004 created_by的反向作者关系，不增重复边。Haskell支持Tiepolo绘制该作及其离威尼斯前的叙述，但本句不提供1761–1762的具体日期；该时间仍由既有外部来源支持。 |
+| st-chp9-p255-pisani-living-members-and-portraits | pending | 集合端点cand-8334类型与成员身份未解决。既有rel-1005 has_subject记录作品题名所示的Pisani family整体，不能代替此处“在世成员”子集。 |
+| st-chp9-p255-theological-virtues-around-virgin | formal | 新增rel-1455 has_subject：作品→神学美德组；仅限Faith、Hope、Charity，Wisdom另列。 |
+| st-chp9-p255-tiepolo-designed-pisani-allegory | formal | 新增rel-1456 designer_of：Tiepolo→作品；记录原文明确表述的设计角色，不推断独立设计稿或委托关系。 |
+| st-chp9-p255-wisdom-around-virgin | formal | 新增rel-1457 has_subject：作品→本章Wisdom主题；与三项theological virtues分列，不推广为一般神学定义。 |
+
+本批5条S6候选均有去向：4 formal（其中1条复用既有关系）、1 pending、0 rejected；关系表净增3条formal边。
+
+**批后当前统计与检查。** S2为9,573/15,202（约63.0%，尚未接收），10,430条关系候选中335条仍缺至少一个S2端点候选ID。S3主决定覆盖12,388/12,408：same=2,026（指向1,089个既有KU）、new=5,020（4,791组）、conflict=9、excluded=100、undecided=5,233（其中类型边界未决623）；缺主决定20。S4已登记1,455/4,791组、1,665/5,020条候选映射；待登记3,336组／3,355条映射，其中直接端点1,597组／1,611条、非直接1,739组／1,744条。S5共12,180条字段（1,634条unverified）。S6累计裁决412/10,430条（240 formal、121 pending、51 rejected），余10,018条；relations.csv为1,457条（1,453 formal、4 pending）。candidate-backlog.csv仍为5条历史记录、pending=0。audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。机械检查不代表S2独立验收或S4/S5/S6全书收口。

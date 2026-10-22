@@ -13538,3 +13538,8 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第八章 p.223 端点触发的S2原子化修订
 
 修订 `st-chp8-p223-salvi-built-chapel`，将建造者及为 Ruffo 建造的陈述与礼拜堂在 S. Lorenzo in Damaso 内的位置分开；新增 `st-chp8-p223-chapel-part-of-san-lorenzo`，端点复用既有 `cand-7728`、`cand-6559`。引用 CHP-8.pdf 物理页25核对，确认OCR `Cbnca` 的印刷读法为 `Conca`。本次定向修订不计入S2独立语义复核分子；S2 statement 和 S6候选分母各增加1，第八章当前分母加1。原章序复核游标不变。
+
+
+### S2定向关系原子化修订：第9章 p.255 图版44（2026-10-22）
+
+保留st-chp9-p255-theological-virtues-around-virgin原ID，将其claim与quote收窄为Faith、Hope、Charity三项theological virtues，并从mentioned_candidate_ids移出Wisdom端点。新增st-chp9-p255-wisdom-around-virgin，把原文末尾另列的Wisdom记录为独立work→term关系候选，端点沿用既有cand-8340及其mention m-chp9-p255-wisdom。两条均定位第9章印刷页255 L149，原文与来源segment未改。该修改源于关系端点复核，不计为独立S2逐条语义审读；S2复核分子仍为9,573，statement分母更新为15,202，关系候选共10,430。S3/S4/S5/S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-chp9-pisani-plate44-20261022)。
