@@ -10935,3 +10935,43 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 第15章注2的引注线索statement `st-chp15-p361-note2-mariette-letter` 在S2中标记为非关系候选；本批未把引注链另造为 `cites` 边。S3决定未重开，S2 statement数和9,573条统一独立复核分子不变。
 
 **卡片投影与批后核验。** 对书信、Mariette和Temanza三卡执行selected-card preflight及定向渲染；共检查3张卡、3个字段表、11行字段和5行关系投影，写入3个文件并通过写后字节核对；三卡再次preview均无待写差异。两张人物卡中与本次正式边冲突的旧“待S6”说明已移除，正式关系视图由`relations.csv`投影。`audit_tables.py --strict-stage --summary` exit 0：2,549 KU、12,716条alignment、12,354条S5字段、15,236 statements、`errors=[]`、`s2_missing=[]`；S4尚有3,294条new映射待登记，S2语义质量仍须独立审查。`audit_relation_consistency.py`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全库`build_cards.py --check`另在`units/institutions/papal-states`报告既有relation subsection presence mismatch；与本批三卡无关，尚待定向修复。批后S4为1,519/4,798组、1,736/5,030条映射；S5为12,354条字段（1,634条unverified）；S6为538/10,459条逐项裁决（322 formal、154 pending、62 rejected），剩余9,921条；`relations.csv`共1,541条（1,533 formal、8 pending）。机械通过不表示全书S2语义接收或S4–S6阶段收口。
+
+
+<a id="s4-s5-s6-ch10-p282n3-five-works-20261023"></a>
+
+### S4/S5/S6 work：第10章 p.282 注3的五件作品端点（2026-10-23）
+
+**S3身份沿用与来源核对。** 对照《赞助人与画家》第10章印刷页282（PDF物理页11）扫描及 `10_CHP-10_intro.md` 正文L146–147、注3 L522。五个既有单成员S3 `new` 组逐组核对，分别是 `workgrp-2325aebfbcb679`、`workgrp-942a5a55e8cad1`、`workgrp-d3d6a28516da01`、`workgrp-47ccee5bb55998`、`workgrp-82b823f18c5ebc`；组间对象独立，不合并。`cand-9327` 的 *Rape of the Sabines* 与候选表其他同名作品保持区分。没有出现身份或版本新证据，本批不重开S3。按当前主`alignment.csv`逐行去重候选组后核对，`new`仍为5,030个候选、4,799组（先前总览将组数少记1）；本批前已登记1,522组，本批登记5组后为1,527组。Pascoli、Zanotti及Lavagnino均为Haskell所引来源，本项目未查阅。
+
+Haskell正文称 Johann Wilhelm 委托包括 Cignani、Franceschini、Gian Gioseffo dal Sole 在内的画家为其工作；注3将五件作品分别列为这些画家的作品并称“for him”。因此本批将“创作者”和“委托人”分别记录为作品→人物的直接边。注3把1702、1715两年与两件Cignani作品并列，未映射单件年份；又称两画当时在Augsburg和Munich但未逐件映射城市。两项只作为组级未映射信息保存在Cignani卡片，不设置个体 `time` 或 `located_at`。其余三件未补出原书没有给出的日期或地点。
+
+**S4登记与S5字段。** 沿用既有 `aln-9495`–`aln-9499`、`cand-9323`–`cand-9327` 的 `new` 决定，将五个候选各映射至独立work KU：
+
+| 候选 | KU | 卡片 |
+|---|---|---|
+| `cand-9323` | `units/works/cignani-st-john-the-baptist-haskell-p282n3` | [作品卡](../../../04-knowledge/units/works/cignani-st-john-the-baptist-haskell-p282n3.md) |
+| `cand-9324` | `units/works/cignani-jupiter-giving-suck-haskell-p282n3` | [作品卡](../../../04-knowledge/units/works/cignani-jupiter-giving-suck-haskell-p282n3.md) |
+| `cand-9325` | `units/works/franceschini-venus-three-graces-haskell-p282n3` | [作品卡](../../../04-knowledge/units/works/franceschini-venus-three-graces-haskell-p282n3.md) |
+| `cand-9326` | `units/works/dal-sole-st-teresa-wounded-by-christ-haskell-p282n3` | [作品卡](../../../04-knowledge/units/works/dal-sole-st-teresa-wounded-by-christ-haskell-p282n3.md) |
+| `cand-9327` | `units/works/dal-sole-rape-of-sabines-haskell-p282n3` | [作品卡](../../../04-knowledge/units/works/dal-sole-rape-of-sabines-haskell-p282n3.md) |
+
+accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` 字段：每件作品一条来源称名和一条作品类型；另在两张Cignani卡分别记录成对年份与成对地点的“未映射到本件”限定。字段ID为 `enr-16248`–`enr-16261`。题名均为来源局部描述性暂题，不声称为正式馆藏题名或已识别现存实物。
+
+**S6逐候选裁决。** 十条关系候选均有S2锚点、已登记端点、有效类型和本书直接支持，逐项裁为formal：
+
+| 关系ID | S2 statement | 决定 | 关系 |
+|---|---|---|---|
+| `rel-1548` | `st-chp10-notes-p282n3-cignani-john-the-baptist` | formal | `created_by` → `units/persons/carlo-cignani` |
+| `rel-1549` | `st-chp10-notes-p282n3-cignani-john-the-baptist-commissioner` | formal | `commissioned_by` → `units/persons/johann-wilhelm-elector-palatine` |
+| `rel-1550` | `st-chp10-notes-p282n3-cignani-jupiter-giving-suck` | formal | `created_by` → `units/persons/carlo-cignani` |
+| `rel-1551` | `st-chp10-notes-p282n3-cignani-jupiter-giving-suck-commissioner` | formal | `commissioned_by` → `units/persons/johann-wilhelm-elector-palatine` |
+| `rel-1552` | `st-chp10-notes-p282n3-franceschini-venus-graces` | formal | `created_by` → `units/persons/marcantonio-franceschini` |
+| `rel-1553` | `st-chp10-notes-p282n3-franceschini-venus-graces-commissioner` | formal | `commissioned_by` → `units/persons/johann-wilhelm-elector-palatine` |
+| `rel-1554` | `st-chp10-notes-p282n3-dal-sole-st-teresa` | formal | `created_by` → `units/persons/giovan-gioseffo-dal-sole` |
+| `rel-1555` | `st-chp10-notes-p282n3-dal-sole-st-teresa-commissioner` | formal | `commissioned_by` → `units/persons/johann-wilhelm-elector-palatine` |
+| `rel-1556` | `st-chp10-notes-p282n3-dal-sole-rape-sabines` | formal | `created_by` → `units/persons/giovan-gioseffo-dal-sole` |
+| `rel-1557` | `st-chp10-notes-p282n3-dal-sole-rape-sabines-commissioner` | formal | `commissioned_by` → `units/persons/johann-wilhelm-elector-palatine` |
+
+所有边的 `time` 留空。Cignani两件作品不分配具体年份或城市；其余作品没有单件年代或地点证据。四位人物端点分别复用既有Cignani、Franceschini、dal Sole与Johann Wilhelm KU。S2 statement及独立复核计数未改变。
+
+**批后状态。** S4登记1,527/4,799组、1,743/5,030条候选映射；余3,272组／3,287条映射。S5字段12,374条，`unverified`仍1,634条。S6累计裁决554/10,462条（338 formal、154 pending、62 rejected），余9,908条；`relations.csv`共1,557条（1,549 formal、8 pending）。关系候选中339条至少缺一个S2候选端点ID（subject-only 46、object-only 221、both 72）。candidate-backlog 6条、pending=0。机械审计与本轮抽样只确认表格结构和本批来源链，不表示S2独立语义复核获接收，也不表示S3–S6全书收口。

@@ -103,4 +103,10 @@ English: This card refers only to the Bolognese painter the book calls Marcanton
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本批将第10章 p.282 注3所列作品登记为本书语境下的作品KU，并将其创作者关系裁为formal；作品的年代与个体地点未由该注明确。其他涉及本人的候选依各自S6记录处理。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [维纳斯与三美神（Venus and The Three Graces (Marcantonio Franceschini; Haskell, ch. 10, p. 282 n. 3; descriptive label)）](../works/franceschini-venus-three-graces-haskell-p282n3.md) | S6裁决：formal；仅记录Haskell书内创作者归属或委托语境；所引Zanotti未由本项目查阅；角色：创作者；范围：Haskell 第10章 p.282 注3 将该作品归于 Marcantonio Franceschini。所引 Zanotti 未由本项目查阅；只记录书内归属。；原断言与证据见发出端卡片“维纳斯与三美神（Venus and The Three Graces (Marcantonio Franceschini; Haskell, ch. 10, p. 282 n. 3; descriptive label)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 282, footnote 3 L522; S2 statement: st-chp10-notes-p282n3-franceschini-venus-graces |

@@ -96,5 +96,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及该人物的17条 S2 陈述中15条为关系候选，均留待 S6 逐条核查；第10章所列两件作品另有各自候选身份记录，作者归属和作品指代仍按原文与候选证据分别审查。[第7章 p.201](../../../02-sources/02-Markdown/07_CHP-7_sec_v.md)（L49–52） [第8章 p.203](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L8–9） [第8章 p.214 注](../../../02-sources/02-Markdown/08_CHP-8_sec_i_notes_p214_visual-transcription.md)（L1） [第8章 pp.223、225、227](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L142、164、196） [第10章 p.282](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L147、注3 L522）
-    
+本批将第10章 p.282 注3所列两件作品分别登记为来源局部work KU，并将两条创作者关系裁为formal。此项裁决限于Haskell书内的作者归属；作品的个体年代与地点未由该注明确。其他涉及本人的S2候选须按各自S6记录查看，不据此宣称关系阶段收口。[第7章 p.201](../../../02-sources/02-Markdown/07_CHP-7_sec_v.md)（L49–52） [第8章 p.203](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L8–9） [第8章 p.214 注](../../../02-sources/02-Markdown/08_CHP-8_sec_i_notes_p214_visual-transcription.md)（L1） [第8章 pp.223、225、227](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L142、164、196） [第10章 p.282](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L147、注3 L522）
+
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [被基督刺伤的圣德肋撒（St Teresa Wounded by Christ (Giovan Gioseffo dal Sole; Haskell, ch. 10, p. 282 n. 3; descriptive label)）](../works/dal-sole-st-teresa-wounded-by-christ-haskell-p282n3.md) | S6裁决：formal；仅记录Haskell书内创作者归属或委托语境；所引Zanotti未由本项目查阅；角色：创作者；范围：Haskell 第10章 p.282 注3 将该作品归于 Giovan Gioseffo dal Sole。所引 Zanotti 未由本项目查阅；只记录书内归属。；原断言与证据见发出端卡片“被基督刺伤的圣德肋撒（St Teresa Wounded by Christ (Giovan Gioseffo dal Sole; Haskell, ch. 10, p. 282 n. 3; descriptive label)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 282, footnote 3 L522; S2 statement: st-chp10-notes-p282n3-dal-sole-st-teresa |
+| ← 所创作对象（`creator_of`，反向投影） | [萨宾妇女被劫（Rape of the Sabines (Giovan Gioseffo dal Sole; Haskell, ch. 10, p. 282 n. 3; descriptive label)）](../works/dal-sole-rape-of-sabines-haskell-p282n3.md) | S6裁决：formal；仅记录Haskell书内创作者归属或委托语境；所引Zanotti未由本项目查阅；角色：创作者；范围：Haskell 第10章 p.282 注3 将该作品归于 Giovan Gioseffo dal Sole。所引 Zanotti 未由本项目查阅；只记录书内归属。；原断言与证据见发出端卡片“萨宾妇女被劫（Rape of the Sabines (Giovan Gioseffo dal Sole; Haskell, ch. 10, p. 282 n. 3; descriptive label)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 282, footnote 3 L522; S2 statement: st-chp10-notes-p282n3-dal-sole-rape-sabines |

@@ -97,4 +97,11 @@ English: This card is limited to the name and account of Carlo Cignani in the bo
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本批将第10章 p.282 注3所列两件作品分别登记为本书语境下的作品KU，并将其创作者关系裁为formal。注3所列两年、两地未分配给单件；其他涉及本人的候选依各自S6记录处理。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [施洗者圣约翰（St John the Baptist (Carlo Cignani; Haskell, ch. 10, p. 282 n. 3; descriptive label)）](../works/cignani-st-john-the-baptist-haskell-p282n3.md) | S6裁决：formal；仅记录Haskell书内创作者归属或委托语境；所引Pascoli未由本项目查阅；角色：创作者；范围：Haskell 第10章 p.282 注3 将该作品归于 Carlo Cignani。所引 Pascoli 未由本项目查阅；只记录书内归属。 Haskell 的1702、1715年及Augsburg、Munich信息属于两件Cignani作品的合并表述，未分别对应本件，故不作个体限定。；原断言与证据见发出端卡片“施洗者圣约翰（St John the Baptist (Carlo Cignani; Haskell, ch. 10, p. 282 n. 3; descriptive label)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 282, footnote 3 L522; S2 statement: st-chp10-notes-p282n3-cignani-john-the-baptist |
+| ← 所创作对象（`creator_of`，反向投影） | [吮乳的朱庇特（Jupiter Giving Suck (Carlo Cignani; Haskell, ch. 10, p. 282 n. 3; descriptive label)）](../works/cignani-jupiter-giving-suck-haskell-p282n3.md) | S6裁决：formal；仅记录Haskell书内创作者归属或委托语境；所引Pascoli未由本项目查阅；角色：创作者；范围：Haskell 第10章 p.282 注3 将该作品归于 Carlo Cignani。所引 Pascoli 未由本项目查阅；只记录书内归属。 Haskell 的1702、1715年及Augsburg、Munich信息属于两件Cignani作品的合并表述，未分别对应本件，故不作个体限定。；原断言与证据见发出端卡片“吮乳的朱庇特（Jupiter Giving Suck (Carlo Cignani; Haskell, ch. 10, p. 282 n. 3; descriptive label)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 282, footnote 3 L522; S2 statement: st-chp10-notes-p282n3-cignani-jupiter-giving-suck |
