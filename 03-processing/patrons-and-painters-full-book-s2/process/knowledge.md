@@ -10768,3 +10768,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 | `st-chp10-p329-diletto-ed-utile` | pending | Haskell说明新论述改编旧理论，但词表没有能表达此term→term思想承接关系且域值域适用的受控谓词。 |
 
 **渲染与批后计数。** 三张卡分别经过 `build_cards.py --preview` 与定向 `--render`；每张只增加关系区“当前没有正式关系”提示，写后字节核对通过。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。批后S2仍15,236条；统一独立复核仍为9,573（62.8%，未接收）。S3仍为12,388/12,408主决定；S4登记1,511/4,798组和1,728/5,030映射，待登记3,287组／3,302映射；S5为12,332字段（1,634条unverified）；S6为521/10,459（310 formal、149 pending、62 rejected），余9,938条；`relations.csv`仍1,529条（1,522 formal、7 pending）；candidate-backlog仍6条（5 completed、1 undecided，pending=0）。三组卡片的关系候选由pending过程裁决追踪，未新增formal边。
+
+
+<a id="s4-s6-queue-cand-5259-chp3-p82-20261022"></a>
+
+### S4／S6：第3章 p.82 Duplex Intercessio 穹顶构图端点（2026-10-22）
+
+**原书与身份边界。** 复核 Haskell 第3章印刷页82（PDF物理页24）原书扫描及 `chp-3:03_CHP-3_sec_iv:l58-67`、注4 L204。正文称 Gaulli 最终实现的穹顶方案以不同于 Blood of Christ 的题材构成，并称为 Duplex Intercessio；注4说明 Adam 与 Eve 在两类图像方案中的出现构成图像学联系，并称 Gaulli 改编了 Bernini 先前处理的 Duplex Intercessio。按 taxonomy，具体构图／设计对象可归 `work`。`cand-5259` 仍沿用 S3 `new`，组 `workgrp-997240e10a005c` 与 Bernini 的源构图 `cand-11608`、Blood of Christ 主题 `cand-5254` 及Gesù整体装饰委托分别识别；清查现有 work manifest 未发现精确同一对象。登记为 `units/works/gaulli-gesu-dome-duplex-intercessio-composition`，不声称外部身份核验，也不将其等同某一未明确的预备图稿。
+
+**S6逐项去向。** 四条直连关系候选均记为 pending；当前均不满足正式关系所需的完整端点与受控语义条件，不写入 `relations.csv`：
+
+| statement_id | 决定 | 理由 |
+|---|---|---|
+| `st-chp3-seciv-l58-67-composition-figures-and-arrangement` | pending | 对端 `cand-5262`（Adam）仍是S3类型边界未决，尚无可用KU；不把图像角色强作person。 |
+| `st-chp3-seciv-l58-67-duplex-intercessio-composition` | pending | 对端 `cand-11607`（Haskell所述神性受告者）仍是S3类型边界未决，尚无可用KU。 |
+| `st-chp3-seciv-l58-67-final-scheme-different-but-linked` | pending | 对端 Blood of Christ term 已登记，但“题材不同而保留联系”不等于 `has_subject`；`derived_from` 的值域也不接受term，当前无忠实受控谓词。 |
+| `st-chp3-seciv-notes-l189-204-p82-n4-adam-eve-link-the-programmes` | pending | 记录Haskell对共享图像人物所作的解释性联系；词表没有能表达该种方案间图像学联系的受控谓词，弃用的 `related_to` 不新增。 |
+
+本批没有新增 formal relation；四个待证状态均保留具体 statement、端点和待解决条件。`cand-5263`（Eve）在同段的S3类型边界仍未决；因它不是这四条statement的独立S6端点，不额外制造关系候选。
+
+**卡片与批后核验。** `build_cards.py --preview --ku units/works/gaulli-gesu-dome-duplex-intercessio-composition`仅显示标准“当前没有正式关系”提示；定向渲染1张卡并通过写后字节核验，渲染后再次preview无差异。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。批后S4为1,512/4,798组、1,729/5,030映射，待登记3,286组／3,301映射；S6过程裁决525/10,459（310 formal、153 pending、62 rejected），余9,934项；`relations.csv`仍1,529条（1,522 formal、7 pending）。S2及其独立复核分子、S3决定与S5字段数均未变化。机械审计不等于语义接收或阶段收口。

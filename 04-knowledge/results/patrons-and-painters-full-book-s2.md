@@ -2,17 +2,17 @@
 
 ### 本轮进度与后续工作（2026-10-22）
 
-本轮登记第10章 p.328–329 的三个独立S3 `new` term组：绘画社会意义论题、Gozzi关于绘画社会价值的论述、旧有 *diletto ed utile* 理论；新增4条原书支持S5字段，并为6条相关S2关系候选逐条记录pending理由。原书扫描与对应S2片段已定向复读，未改S2内容或独立复核分子。三张新卡均经定向预览和渲染，未新增formal关系。依据、边界与逐项决定见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p328-329-painting-social-significance-20261022)。
+本轮登记第10章 p.328–329的三个独立S3 `new` term组，新增4条原书支持S5字段，并逐项为6条关系候选记录pending理由；另登记第3章 p.82的Gaulli穹顶 Duplex Intercessio构图为S3 `new` work组，并为4条直连S2关系候选记录pending去向。两个批次均定向复读原书扫描与S2片段；未改S2内容或增加独立语义复核分子。三张term卡和新增work卡均完成定向渲染；没有为未决关系建立formal边。依据、边界和逐项决定见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-queue-cand-5259-chp3-p82-20261022)及[第10章批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p328-329-painting-social-significance-20261022)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,236条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮源段复读不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义定点核对。S4已登记1,511/4,798组、1,728/5,030条映射，待登记3,287组／3,302条映射。S5有12,332条字段，1,634条unverified。S6裁决521/10,459条（310 formal、149 pending、62 rejected），余9,938条；relations.csv共1,529条（1,522 formal、7 pending）。339条关系候选至少缺一个S2端点候选ID（缺subject 46、缺object 221、两端均缺72）。candidate-backlog共6条（5条完成，1条明确undecided，pending=0）。严格表审计 exit 0、errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械通过不等于语义接收或全书阶段收口。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,236条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮源段复读不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义定点核对。S4已登记1,512/4,798组、1,729/5,030条候选映射，待登记3,286组／3,301条映射。S5有12,332条字段，1,634条unverified。S6裁决525/10,459条（310 formal、153 pending、62 rejected），余9,934条；relations.csv共1,529条（1,522 formal、7 pending）。339条关系候选至少缺一个S2端点候选ID（缺subject 46、缺object 221、两端均缺72）。candidate-backlog共6条（5条完成，1条明确undecided，pending=0）。严格表审计 exit 0、errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械通过不等于语义接收或全书阶段收口。
 
 **后续工作顺序。**
 
-1. **继续按关系解锁价值推进S4，并同批裁决S6。** 每批先核对S3 new组的对象类型、来源边界和同类型既有KU，再按端点就绪度、受控谓词兼容性、证据强度与直接关系数综合排序；不要只按节点度数。当前重算队列后，`cand-5259`（Duplex Intercessio穹顶构图，work组）是下一批可审端点之一，连接4条直接关系候选并关联已登记的 Blood of Christ term；先重读第3章p.82上下文，再决定登记并逐项完成S6。
-2. **证据定向处理缺端点关系。** 对339条至少缺一个S2端点ID的候选回到原文；只有具名、可独立识别对象才补S1→S3→S4，不从关系反推对象，不为匿名角色虚构KU。
-3. **按当前端点批次补S5。** 从1,634条`unverified`中优先处理在用端点、作品流传、责任者和必要身份范围；每批只应用经预览且范围明确的字段，不全库重建。
-4. **继续分章S2独立审读和问题修订。** 先核平9,573条复核记录与当前statement ID、来源版本和范围，再继续未复核章节；定向复读或S2修订不增加独立复核分子，章节记录在统一口径核平前分开报告。
-5. **S3只在触发时重开。** 新KU登记、当前端点映射或新证据若暴露同一性、类型或跨章归组冲突，只定点复核受影响组；不因S3总表未满而全库重跑。
+1. **继续按端点可裁决性推进S4，并同批裁决S6。** 优先S3 `new`组中另一端点已登记、来源明确且可用受控谓词准确表达的候选；对象类型、既有KU同一性、证据强度与关系语义均需核对，不按节点度数单独排序。`cand-5259`现已登记为work，但四条直连关系均pending：两条依赖Adam与God两项S3类型边界判断，两条对Blood of Christ主题的表述缺少合适受控谓词；因此将其作为已追踪端点，不作为立即能解锁formal边的收益样本。
+2. **完成S3未决决定的分型处理。** 先补齐20项缺主决定并核对22项跨来源decision差异；再按taxonomy逐类处理622项类型边界未决。same、new、conflict、excluded或有具体身份／类型理由的undecided均须留痕；原决定只在登记或新证据触发身份冲突时定点重开。
+3. **证据定向处理缺端点关系。** 对339条至少缺一个S2端点ID的候选回到原文；只有具名、可独立识别对象才补S1→S3→S4，不从关系反推对象，不为匿名角色虚构KU。
+4. **按当前端点批次补S5。** 从1,634条`unverified`中优先处理在用端点、作品流传、责任者和必要身份范围；每批只应用经预览且范围明确的字段，不全库重建。
+5. **继续分章S2独立审读并先核平复核台账。** 将9,573条统一复核记录与当前statement ID、来源版本和范围对应，再继续未复核章节；定向复读或S2修订不增加独立复核分子，章节记录在统一口径核平前分开报告。
 6. **满足门槛后准备S7。** 所有S4 new映射均登记，必要S5字段有证据或明确缺口，全部S6候选与backlog有可追溯去向后，再做发布验证。知识发现与页面仍暂停，等待用户明确启动。
 
 ### S3沿用／S4/S5/S6：第9章 p.275 注2 Gherardi 致 Muratori 书信（2026-10-22）
