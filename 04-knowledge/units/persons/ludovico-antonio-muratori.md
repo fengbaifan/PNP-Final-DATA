@@ -54,9 +54,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记L. A. Muratori所指的卢多维科·安东尼奥·穆拉托里。Haskell将他列为1749年著作的作者及Gherardi书信的收信人；Treccani DBI提供规范身份及书目对应。相关内容保留为书内记载，不据此补写其他生平；5条S2关系候选待S6审查。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**中文：** 本卡登记L. A. Muratori所指的卢多维科·安东尼奥·穆拉托里。Haskell将他列为1749年著作的作者及Gherardi书信的收信人；Treccani DBI提供规范身份及书目对应。相关内容保留为书内记载，不据此补写其他生平。五条S2关系候选中，1746年信件收信关系已裁为formal，其余四条仍待S6审查。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
 
-**English:** This card identifies the L. A. Muratori named in Haskell as Ludovico Antonio Muratori. Haskell names him as the author of a 1749 work and as the addressee of Gherardi letters; the Treccani DBI supplies the authorized identity and bibliographic match. These remain source-bounded accounts, with no additional biography inferred; the five S2 relation candidates remain for S6 review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**English:** This card identifies the L. A. Muratori named in Haskell as Ludovico Antonio Muratori. Haskell names him as the author of a 1749 work and as the addressee of Gherardi letters; the Treccani DBI supplies the authorized identity and bibliographic match. These remain source-bounded accounts, with no additional biography inferred. Of five S2 relation candidates, the addressee relation for the 1746 letter is now formal; the other four remain for S6 review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
 
 ### 姓名与身份
 
@@ -75,6 +75,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [彼得罗·埃尔科莱·盖拉尔迪致卢多维科·安东尼奥·穆拉托里的信，1746年2月20日（Letter from Pietro Ercole Gherardi to Ludovico Antonio Muratori, 20 February 1746）](../archives/letter-p-e-gherardi-to-muratori-1746-02-20.md) | S6 statement st-chp9-p275-n02-letter-addressed-to; S3/S4 endpoint groups: archive-group-f8f0cc239f21 / new-person:ludovico-antonio-muratori-20261018. Haskell gives the abbreviated form Muratori; the full identity follows the separate cross-chapter S3 ruling. Source-reported addressee only; the manuscript was not consulted.；时间：1746-02-20；角色：收信人；范围：Haskell第9章印刷页275注2记载该信写给Muratori；本关系采用既有S3身份映射指向Ludovico Antonio Muratori。只记录书内所述收信人，未查阅原信。；原断言与证据见发出端卡片“彼得罗·埃尔科莱·盖拉尔迪致卢多维科·安东尼奥·穆拉托里的信，1746年2月20日（Letter from Pietro Ercole Gherardi to Ludovico Antonio Muratori, 20 February 1746）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p. 275 n. 2, Markdown L127; S2 statement: st-chp9-p275-n02-letter-addressed-to |
 
-本批未写入正式关系。与该人物对应的 5 条 S2 关系候选继续留待 S6 逐项审查；书内陈述和各自限定见 `book-statements.jsonl`。
+
+本批将1746年信件的收信人关系记为formal，严格限定于Haskell书内记载；其余4条S2关系候选仍待S6逐项审查。书内陈述和各自限定见 `book-statements.jsonl`。

@@ -10439,3 +10439,24 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 ### S3候选级决定账目核对（2026-10-22）
 
 对 `alignment.csv` 按 `candidate_id` 分组：12,716条来源级记录覆盖12,408个唯一候选；289个候选有多个 `external_source` 记录，22个候选在不同来源行中出现不同 `decision`。依schema，S3自然键为 `candidate_id + external_source`，多来源行不是可直接删除的重复；但行数覆盖也不能代替候选级最终身份状态核定。机械盘点未作语义改判，不能用最大 `alignment_id` 自动覆盖较早决定。后续仅对被选作S4直接关系端点或被新证据触发的候选，逐项比对这些记录的 `process_ref`、`resolution_note` 与类型/跨章组，保留来源行轨迹并确认本对象当前same、new、conflict、excluded或带待证去向的undecided；其他候选不因本次机械盘点而全表重开。此前结果文件中的“主决定12,388/12,408”由本次按candidate_id核得的候选记录覆盖数更新；跨来源不同决定值本身不等于身份裁决冲突。
+
+<a id="s4-s5-s6-chp9-p275-gherardi-muratori-20261022"></a>
+### S3沿用／S4／S5／S6：第9章 p.275 注2 Gherardi 致 Muratori 书信与 Biblioteca Estense（2026-10-22）
+
+**范围与S3身份沿用。** 第9章p.275注2（Markdown L127，PDF物理页41）记载P. E. Gherardi于1746年2月20日写信给Muratori，并称信件在Biblioteca Estense, Modena。该书信候选 `cand-8823` 沿用S3 `new` 组 `archive-group-f8f0cc239f21`；映射 `aln-8996` 登记到 `units/archives/letter-p-e-gherardi-to-muratori-1746-02-20`。发信人与收信人分别沿用已登记人物组 `new-person:ercole-gherardi-pietro-8af999ae11`、`new-person:ludovico-antonio-muratori-20261018`。不将本信与第9章p.261注8的1745年信、p.271注1的1742年信或第13章1749年信合并。
+
+机构候选 `cand-8539` 沿用既有S3 `new`组 `sg3-institution-cand-8539`，其跨章提及包括第9章p.261、p.271、p.275，第10章p.300注3、p.302注4，第13章p.336注8及第21章保存机构列表；既有候选已把这些同名、同地的书内提及归为同一机构。当前登记至 `units/institutions/biblioteca-estense`。本批没有查阅该馆目录或通信原件，不补写机构沿革或现今藏址。第10章p.300注3的未定复数通信对象 `cand-9498` 仍与单封具日期书信分开；该注的对象范围未明，本批不把它改成对 `cand-8823` 的引注关系。
+
+**S4与S5。** 新增档案卡和机构卡，写入 `ku-manifest.csv` 与 `accepted.yml`；更新 `aln-8996`、`aln-8712` 的既有 `new` 行 `ku_id`，不增加或改写S3决定行。四项Haskell书内支持字段经预览后写入：`enr-16006`（信件类型）、`enr-16007`（1746-02-20）、`enr-16008`（原文机构名Biblioteca Estense）、`enr-16009`（来源所载城市Modena）。所有字段标为 `source_backed`、来源为 `haskell-1980-rev-ed`；不声称核验原信或现行机构状态。
+
+**S6逐项裁决。** 三项S2关系候选均有明确去向，按第9章p.275注2同一定位记录为formal：
+
+| S2 statement | 决定 | 关系去向与范围 |
+|---|---|---|
+| `st-chp9-p275-n02-letter-authored-by` | formal | 新增 `rel-1479 authored_by`：1746年信→Pietro Ercole Gherardi；Haskell书内作者归属，原信未查阅。 |
+| `st-chp9-p275-n02-letter-addressed-to` | formal | 新增 `rel-1480 addressed_to`：1746年信→Ludovico Antonio Muratori；按既有跨章S3身份裁决映射Haskell所写“Muratori”，不将此句误作全名证据。 |
+| `st-chp9-p275-n02-letter-held-at` | formal | 新增 `rel-1481 located_at`：1746年信→Biblioteca Estense；只记录Haskell所报馆藏定位，不断言现今保存状态。 |
+
+三条边的端点和关系域值域均符合现有词表。档案卡、机构卡及两张人物卡的关系视图经定向预览后渲染；人物卡中原先“尚无formal关系”及待审计数已同步更新。Haskell书内注释是这三项关系的唯一当前依据；正式图谱记录不等于原件事实独立核验。
+
+**批后状态与机械检查。** 表格审计返回 `errors=[]`、`s2_missing=[]`，并报S4仍有3,329条 `new` 映射待登记、candidate-backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。当前S0为832个源段（678 complete、154 excluded）；S2为9,573/15,208，独立复核分子未增加、未接收；S3来源级记录12,716行覆盖12,408个候选，其中289个多来源候选、22个跨来源decision差异仍按触发条件定点核查；S4登记1,477/4,791组、1,691/5,020条映射；S5字段12,240条（1,634条 `unverified`）；S6裁决437/10,436（264 formal、122 pending、51 rejected），余9,999条；`relations.csv`共1,481条（1,477 formal、4 pending）。审计为结构检查，不构成全书S2语义接收或S4–S6收口。
