@@ -13553,3 +13553,9 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 在登记第七章 p.201 Pozzo 天顶画端点时，依据Haskell印刷页201 L54（PDF物理页43）补充原statement未原子化的两个空间事实：复用既有mention，将天顶画与其所在大厅拆为 `located_at`，再将大厅与 Liechtenstein 家族花园宫殿拆为 `part_of`。新增statement为 `st-chp7-p201-v-ceiling-painting-located-at-hall` 和 `st-chp7-p201-v-garden-palace-hall-part-of-palace`；各自保留精确候选端点及原句锚点。未新增mention。原有 Pozzo 开始绘画的statement与S2原始转录未改。
 
 本次为S4端点触发的定向补充，不增加独立逐条语义复核分子；全书statement增至15,204，第七章增至1,262，S2统一复核暂为9,573/15,204。独立复核台账尚须按当前ID和来源版本核平；新增两条不视为已独立接收。
+
+### 2026-10-22：第10章 p.329 与第21章书目跨章端点触发的 S2 定向修订
+
+第10章注2扫描页（CHP-10.pdf物理页62）确认题名为 *Relazione per le riforme*；保留S0 OCR `risorme`及原S2转录，仅沿用既有校读记录。将报告—Sagredo出版物候选统一为Sagredo 1857出版物 `cites` 报告；新增Haskell《赞助人与画家》`cites` Sagredo 1857出版物的statement。将注3两条既有引注主体由威尼斯学院改为Haskell书，谓词规范为 `cites`，学院只保留在语境说明中。根据第21章书目为Sagredo、Bassi、Fogolari三条著作作者关系增加 `authored_by` statements，并在完整书目mention中补三条精确的嵌套作者mentions；没有改写S0来源段。
+
+本次新增4条S2 statements，复用并定向修订3条关系候选；S2 statement总数增至15,208，关系候选增至10,436。此类S4端点触发的定向修订不计入S2独立语义复核分子；本批新增与修改内容未宣称独立复核或章节接收。完整端点映射与逐条S6理由见[知识过程](knowledge.md#s3-s4-s5-s6-ch10-p329-sagredo-bassi-fogolari-citations-20261022)。

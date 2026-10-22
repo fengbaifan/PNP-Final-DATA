@@ -10410,3 +10410,32 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 同段 `st-chp7-p201-v-pozzo-summoned-by-emperor` 仍pending：未具名皇帝的身份和召见语境仍不足以构成正式边，本批不改动其S3决定。四张受影响卡片经逐卡预览后渲染，写后字节核对通过。
 
 **批后状态与检查。** S2为9,573/15,204、尚未接收；335条关系候选仍缺至少一个S2端点候选ID。S3决定行仍为12,388/12,408，缺20行；类别和组号不变。S4已登记1,465/4,791组、1,680/5,020条映射；待登记3,326组／3,340条，其中直接端点1,589组／1,598条、非直接1,737组／1,742条。S5共12,202条（1,634条 `unverified`）。S6累计裁决423/10,432条（250 formal、122 pending、51 rejected），余10,009条；`relations.csv`共1,467条（1,463 formal、4 pending）。`candidate-backlog.csv`仍为5条历史记录、pending=0。机械检查用于核对结构，不代表S2或全书阶段接收。
+
+<a id="s3-s4-s5-s6-ch10-p329-sagredo-bassi-fogolari-citations-20261022"></a>
+### S3沿用／S4／S5／S6：第10章 p.329 注2–3 与第21章书目跨章引注及作者端点（2026-10-22）
+
+**S3身份组沿用。** 七个候选均已有可追溯的 `new` 决定，本批不重开 S3：`cand-9838`→`archive-group-92b4775d5ccf`（1772年8月18日 *Relazione per le riforme*）；`cand-9839`→`new-person:agostino-sagredo-fa681c8b8c`；`cand-9840`→`archive-group-6c1deaf13d3f`（Sagredo 1857年出版物）；`cand-9841`→`new-person:bassi-elena-fe1888af25`；`cand-9842`→`archive-group-5396a1a86675`（Bassi 1941年著作）；`cand-9843`→`new-person:fogolari-gino-738e1a0d53`；`cand-9844`→`archive-group-85ee247530bf`（Fogolari 1913年文章）。组内人物—文献责任关系仅按Haskell书内注释与书目匹配，不表示外部身份核验或已查阅被引原件。
+
+**S2定向修订与交接。** 查看 `CHP-10.pdf` 物理页62，注2印本确读 *Relazione per le riforme*；原S2 OCR转录 `risorme` 及既有校读注保留，未改写S0来源。将 `st-chp10-p329-n02-relazione-in-sagredo` 的方向与谓词标准化为Sagredo出版物 `cites` 报告，并保留Haskell报告该引文的限定；新增 `st-chp10-p329-n02-cites-sagredo-1857` 记录Haskell注2对1857年转引来源的书内引用。第10章注3的两条现有候选原以学院为引注主体，现改为Haskell书 `cites` Bassi 1941与Fogolari 1913文献；学院保留为引注语境。根据第21章书目作者栏，新增三条archive `authored_by` person候选，并在完整书目条目mention内增加三条精确嵌套作者mention。没有改写S0分段或宣称本批statement经过独立复核。
+
+**S4登记。** 七条既有 `new` 映射完成：`cand-9838`→[报告卡](../../../04-knowledge/units/archives/relazione-per-le-riforme-1772.md)，`cand-9839`→[Agostino Sagredo人物卡](../../../04-knowledge/units/persons/agostino-sagredo.md)，`cand-9840`→[Sagredo 1857年书籍卡](../../../04-knowledge/units/archives/sulle-consorterie-arti-edificatorie-venezia-1857.md)，`cand-9841`→[Elena Bassi人物卡](../../../04-knowledge/units/persons/elena-bassi.md)，`cand-9842`→[Bassi 1941年书籍卡](../../../04-knowledge/units/archives/la-regia-accademia-belle-arti-venezia-1941.md)，`cand-9843`→[Gino Fogolari人物卡](../../../04-knowledge/units/persons/gino-fogolari.md)，`cand-9844`→[Fogolari 1913年文章卡](../../../04-knowledge/units/archives/accademia-veneziana-pittura-scoltura-fogolari-1913.md)。七卡均以中英双语说明来源范围和未查阅限制；三位人物只按书内姓名与书目责任形式登记。
+
+**S5字段。** 由Haskell书内来源新增25条 `source_backed` 字段（`enr-15981`–`enr-16005`）：报告3条；Sagredo书5条；Bassi书5条；Fogolari文章6条；三位作者人物各2条姓名/责任者形式。字段标记按各卡 `sources` 顺序绑定：报告卡字段引用其唯一的S1注释来源；多来源卡的注释字段标S1、书目字段标S2。字段预览无既有记录改动、无警告，`unverified`总数未增加。被引著作、报告及文章内容均未独立查阅。
+
+**S6逐条裁决。** 七条均正式记录为Haskell书内可见的引注或书目作者归属；formal不代表被引材料内容已核实。
+
+| S2 statement | 裁决 | 关系 |
+|---|---|---|
+| `st-chp10-p329-n02-relazione-in-sagredo` | formal | `rel-1472 cites`：Sagredo 1857出版物→1772年报告；仅依Haskell注2所述转引方向。 |
+| `st-chp10-p329-n02-cites-sagredo-1857` | formal | `rel-1473 cites`：Haskell《赞助人与画家》→Sagredo 1857出版物；书目识别为书内列出的1857年Sagredo条目。 |
+| `st-chp10-p329-n03-bassi-academy-study` | formal | `rel-1474 cites`：Haskell《赞助人与画家》→Bassi 1941年著作。 |
+| `st-chp10-p329-n03-fogolari-academy-study` | formal | `rel-1475 cites`：Haskell《赞助人与画家》→Fogolari 1913年文章。 |
+| `st-chp21-bib-l1059-1100-entry-12-authored-by-sagredo` | formal | `rel-1476 authored_by`：Sagredo 1857出版物→Agostino Sagredo；按书目缩写与第10章全名做来源内对应。 |
+| `st-chp21-bib-l87-127-entry-17-authored-by-bassi` | formal | `rel-1477 authored_by`：Bassi 1941年著作→Elena Bassi；依书目责任者著录。 |
+| `st-chp21-bib-l461-496-entry-18-authored-by-fogolari` | formal | `rel-1478 authored_by`：Fogolari 1913年文章→Gino Fogolari；不并入紧接的1931年书目条目。 |
+
+关系域值域均符合archive→archive `cites`及archive→person `authored_by`。七卡和Haskell原书卡经定向预览后渲染；8张受影响卡写入后复预览无差异。全表门禁返回 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic均为0。批后结构化状态：S2为9,573/15,208，独立复核分子不变、未接收；S3对齐表有12,716条来源级记录，覆盖12,408个唯一候选；跨来源决定一致性另见本节后附账目核对；S4为1,475/4,791组、1,689/5,020条可登记映射，待登记3,316组/3,331条映射；S5共12,236条、1,634条 `unverified`；S6累计裁决434/10,436（261 formal、122 pending、51 rejected），余10,002条；关系表1,478条（1,474 formal、4 pending）。机械检查不代表全书语义接收或S4/S5/S6收口。
+
+### S3候选级决定账目核对（2026-10-22）
+
+对 `alignment.csv` 按 `candidate_id` 分组：12,716条来源级记录覆盖12,408个唯一候选；289个候选有多个 `external_source` 记录，22个候选在不同来源行中出现不同 `decision`。依schema，S3自然键为 `candidate_id + external_source`，多来源行不是可直接删除的重复；但行数覆盖也不能代替候选级最终身份状态核定。机械盘点未作语义改判，不能用最大 `alignment_id` 自动覆盖较早决定。后续逐项比对这些候选的 `process_ref`、`resolution_note` 与类型/跨章组，保留来源行轨迹并明确当前same、new、conflict、excluded或带待证去向的undecided。此前结果文件中的“主决定12,388/12,408”被此盘点的候选行覆盖数更新；跨来源分歧尚待语义核平。

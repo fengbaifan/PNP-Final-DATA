@@ -1,5 +1,11 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
+### S3沿用／S4／S5／S6：第10章 p.329 注2–3 与第21章书目跨章端点（2026-10-22）
+
+沿用七个已有S3 `new`身份组，登记四条archive与三位作者person KU；S2定向补入Haskell对Sagredo 1857出版物的引注及三条书目作者候选，并修正两条Academy语境脚注的引注主体。扫描确认注2原题为 *Relazione per le riforme*。七条相关S6候选逐条裁为formal（`rel-1472`–`rel-1478`）：三条Haskell书内 `cites`、一条Sagredo出版物→报告的 `cites`、三条archive→person `authored_by`。被引材料与原件均未独立查阅；未重开S3。25条字段预览均有对应来源，未增加 `unverified`。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch10-p329-sagredo-bassi-fogolari-citations-20261022)。
+
+批后（结构化表和本批记录）：S0 832个源段均有complete/excluded处置；S2为9,573/15,208，独立复核分子未增加、未接收；S3对齐表12,716行覆盖12,408个唯一候选；289个候选有多来源记录，其中22个跨来源decision不一致，需核平最终身份裁决；本批七个对象沿用既有new决定；S4已登记1,475/4,791组、1,689/5,020条映射，待登记3,316组/3,331条映射；S5字段12,236条（1,634条 `unverified`）；S6裁决434/10,436（261 formal、122 pending、51 rejected），余10,002条；`relations.csv`共1,478条（1,474 formal、4 pending）；candidate-backlog 5条历史记录、pending=0。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查未发现broken target、invalid relation type、missing inverse、weak evidence或unbaselined generic。仍有3,331条new映射待S4，且全书S2语义审读未完成；机械检查不等于阶段收口。
+
 ### S3沿用／S4/S5/S6 archive：Faldi 1957 跨章引注（2026-10-22）
 
 沿用 `archive-group-47abbb90563f` 登记 `cand-4331`，新增一张archive KU及5条书目支持字段。第21章扫描书目确认题名、责任者形式、期刊、年份与页码；扫描行末的 `di - Sutri` 按候选身份中的连续地名形式写作 `di Sutri`，不表示已查阅文章正文。第1章p.14注3与第2章p.29注5两条明确引注分别裁为formal `cites`（`rel-1470`、`rel-1471`），只记录Haskell书内引注。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-faldi-guidotti-1957-cross-chapter-citations-20261022)。
@@ -9,11 +15,11 @@
 
 ### 后续工作优先顺序（截至2026-10-22）
 
-1. **先解关系端点阻断。** 对20个尚无S3主决定的候选先补可追溯主决定，其中17个直接作为关系端点（14 person、2 archive、1 institution）；对已有 `undecided` 的候选，只在本轮端点登记或新证据实际触发时重开，优先核查直接关系端点。5,233个显式未决中有3,077个直接关系端点，含622个类型尚未定的候选（其中467个是直接端点）；无法定型者保留有理由的待证去向，不按建议类型自动入库。
-2. **按端点组串行完成S4→定向S5→S6。** 当前待登记3,323组／3,338条映射，其中直接关系端点1,587组／1,596条组成员映射。优先选择能解锁多个候选关系的组；每组完成身份映射后，只补关系所需且有来源支持的关键字段，并在同批逐条将相应S6候选裁为formal、pending或rejected。
-3. **再清理剩余S6队列。** 目前10,432条关系候选已逐条裁决427条（254 formal、122 pending、51 rejected），尚余10,005条；按端点与谓词分组复核，证据不足、对象未定或受控类型不能表达的关系保留pending并写清解除条件。
-4. **继续S2分章独立语义审读。** 全书统一口径为9,573/15,204，尚未接收；接续当前章节顺序游标，先核对第七章视觉转录标题与图版清单的覆盖重叠，再进入下一未复核源段。端点批次触发的局部修订单独记载，不计入独立复核分子；章3及章10–12的专项记录继续与统一口径分列。
-5. **满足S4/S5/S6收口条件后再准备S7。** 检查所有新决定都有KU或明确待证去向、声明字段已填或标缺口、关系候选全有裁决、候选待办清零；之后再导出冻结发布包。知识发现和页面仍暂停，除非用户明确启动。
+1. **先核平S3候选级决定，再按类型处理待证对象。** `alignment.csv`有12,716条来源级记录，覆盖12,408个唯一候选；289个候选有多来源记录，其中22个跨来源决定值不一致。按`candidate_id + external_source`区分证据行，逐项核对`process_ref`与`resolution_note`，不按行数或最大ID自动决定最终状态；随后先清理类型未决项，再分person、archive、work、institution等类型处理same/new/conflict/excluded/undecided。每个same指向既有KU；每个new对应身份组；conflict保留双方及处理结果；excluded有范围理由；undecided写明待证目标和解除条件。
+2. **按直接关系端点推进S4→定向S5→同批S6。** 当前待登记3,316组／3,331条映射；优先能解锁多条关系且有明确证据的组。登记后仅补关系所需、有来源支持的字段，并逐条裁决该组解锁的关系；S5现有12,236条字段中1,634条 `unverified`，按端点与必需字段定向核验，不批量升格。
+3. **分组清理剩余S6。** 目前已裁决434/10,436条（261 formal、122 pending、51 rejected），余10,002条；按端点与谓词批次推进。端点未登记、证据不足或受控谓词不适配者保留pending并注明解除条件，不以共现或弱关系补边。
+4. **继续S2分章独立语义审读。** 当前统一口径9,573/15,208，尚未接收；先按当前statement ID与来源版本核平独立复核台账，再从首个未复核单元继续。端点批次局部修订不计入独立复核分子；第3章和第10–12章专项记录继续分列。
+5. **通过S0–S6交接门槛后再准备S7。** 候选均有可追溯决定及去向，new已登记或明确待证，适用字段已填或标明缺口，关系候选逐条裁决，candidate-backlog清零；随后导出并验证冻结发布包。知识发现与页面仍暂停，除非用户明确启动。
 ### S3沿用／S4/S5/S6：Hoogewerff 1913 跨章引注（2026-10-22）
 
 沿用 `archive-group-b1605ff43569` 登记 `cand-6199`，新增一张archive KU及4条书目支持字段。扫描页确认第21章p.426原题拼写 `omtrent`，Markdown OCR作 `omirent`；登记仅限书目所列出版物，不解决Hoogewerff人物身份。第1章p.18注1与第5章p.141注1两条明确引注均逐项裁为formal `cites`（`rel-1468`、`rel-1469`），只记录Haskell书内引注，不表示被引出版物或其第49–50页已独立查阅。详细证据见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-hoogewerff-1913-cross-chapter-citations-20261022)。
