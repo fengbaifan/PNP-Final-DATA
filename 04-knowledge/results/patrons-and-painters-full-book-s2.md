@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S4/S5/S6：第15章 p.370 阿尔蒂基耶罗图书室、藏书与培根胸像（2026-10-22）
+
+沿用3个既有S3 `new`组，登记藏书集合、胸像及图书室三个KU，新增4条原书支持字段。三条S2关系候选均裁为formal：藏书集合和胸像分别 `located_at` 图书室；胸像→Francis Bacon以受控 `has_subject` 表达，不推断创作者或现今地点。`idol of the temple`保留为Haskell修辞，不作作品题名。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp15-p370-alticchiero-library-bacon-20261022)。
+
+批后：S2为9,573/15,202，尚未接收；S3主决定仍为12,388/12,408，本批未重开身份决定；S4已登记1,458/4,791组、1,668/5,020映射，待登记3,333组／3,352映射（直接端点1,594组／1,608映射）；S5为12,184条（1,634条unverified）；S6裁决415/10,430（243 formal、121 pending、51 rejected），余10,015条；关系表1,460条（1,456 formal、4 pending）。结构审计与关系一致性检查通过，不代表全书阶段接收。
+
 ### S3定点复核与 S2/S4/S5/S6：第9章 p.254–255 皮萨尼寓意壁画（图版44）
 
 S3将作品候选复用到既有Plate 44作品KU；另将不适配现有类型的在世家族成员集合保留为undecided。对p.255关系候选作S2原子化修订，分别记录theological virtues与Wisdom；登记两个term端点，补入11条来源支持字段。5条S6候选均裁决：4 formal（含复用rel-1004）及1 pending；新增rel-1455–rel-1457。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-pisani-plate44-20261022)。

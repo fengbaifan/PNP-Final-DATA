@@ -10291,3 +10291,25 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 本批5条S6候选均有去向：4 formal（其中1条复用既有关系）、1 pending、0 rejected；关系表净增3条formal边。
 
 **批后当前统计与检查。** S2为9,573/15,202（约63.0%，尚未接收），10,430条关系候选中335条仍缺至少一个S2端点候选ID。S3主决定覆盖12,388/12,408：same=2,026（指向1,089个既有KU）、new=5,020（4,791组）、conflict=9、excluded=100、undecided=5,233（其中类型边界未决623）；缺主决定20。S4已登记1,455/4,791组、1,665/5,020条候选映射；待登记3,336组／3,355条映射，其中直接端点1,597组／1,611条、非直接1,739组／1,744条。S5共12,180条字段（1,634条unverified）。S6累计裁决412/10,430条（240 formal、121 pending、51 rejected），余10,018条；relations.csv为1,457条（1,453 formal、4 pending）。candidate-backlog.csv仍为5条历史记录、pending=0。audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。机械检查不代表S2独立验收或S4/S5/S6全书收口。
+
+
+<a id="s4-s5-s6-chp15-p370-alticchiero-library-bacon-20261022"></a>
+### S4/S5/S6：第15章 p.370 阿尔蒂基耶罗图书室、藏书与培根胸像（2026-10-22）
+
+**S3身份沿用。** 本批不重开S3，沿用三个既有 `new` 身份组：`cand-10547`（`archive-group-1795c155cf7f`，图书室藏书集合）、`cand-10548`（`workgrp-d40f72b1a73aef`，Haskell称作Bacon胸像的作品）及 `cand-11536`（`sg3-place-cand-11536`，阿尔蒂基耶罗图书室）。候选、来源和S2 statement分别由既有映射锚定；人物端点 `cand-0155` 已映射至 `units/persons/francis-bacon`。本批没有外部身份核验，也没有依据图书室藏书或胸像的共现合并对象。
+
+**S4登记。** 新增三张KU卡并登记三条映射：`cand-10547`→`units/archives/alticchiero-library-book-collection`，`cand-10548`→`units/works/francis-bacon-bust-alticchiero`，`cand-11536`→`units/places/alticchiero-library-room`。分别写入 `ku-manifest.csv` 与 `accepted.yml`。藏书集合、图书室空间和胸像保持为三个不同对象。
+
+**S5字段。** 依据Haskell第15章印刷页370 L62，新增4条 `source_backed` 字段 `enr-15950`–`enr-15953`：藏书类型、藏书内容范围、胸像类型、图书室性质。原文没有逐项书目或数量；卡片明确保持此范围。`idol of the temple`仅记录为Haskell修辞称呼，不升为作品题名。图书室卡同时使用第15章p.369 L53支持Alticchiero宅邸语境。字段表抽取预览和应用均为新增4、既有记录改写0、来源表变化0、警告0；本批没有新增 `unverified` 字段。
+
+**S6逐候选裁决。** 三条p.370关系候选全部有明确去向：
+
+| S2 statement | 决定 | 正式边与范围 |
+|---|---|---|
+| `st-chp15-p370-alticchiero-library-contents` | formal | 新增 `rel-1458 located_at`：藏书集合→图书室。只表达Haskell称藏书在该图书室，不表示现今馆藏；藏书与空间分别登记。 |
+| `st-chp15-p370-bacon-bust-at-alticchiero` | formal | 新增 `rel-1459 located_at`：胸像→图书室。只表达来源所述历史位置，不推定现存或现今位置；`idol of the temple`为修辞语。 |
+| `st-chp15-p370-bacon-bust-depicts-francis-bacon` | formal | S2候选谓词 `depicts` 对应受控谓词 `has_subject`，新增 `rel-1460 has_subject`：胸像→Francis Bacon；角色为被描绘对象，不推断创作者或归属作者。 |
+
+三条正式边均以 `haskell-1980-rev-ed`、第15章印刷页370 L62及对应S2 statement为证据；时间未载，留空。关系边和卡内关系视图均不把历史位置写成当前状态。
+
+**批后当前统计与检查。** S2独立复核仍为9,573/15,202，尚未接收；S3主决定仍为12,388/12,408，本批没有身份决定变化。S4已登记1,458/4,791组、1,668/5,020条候选映射；待登记3,333组／3,352条，其中直接关系端点1,594组／1,608条、非直接1,739组／1,744条。S5共12,184条字段（1,634条 `unverified`）。S6累计裁决415/10,430条（243 formal、121 pending、51 rejected），余10,015条；`relations.csv`共1,460条（1,456 formal、4 pending）。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。全库卡片预检通过；仅渲染上述3张卡，写入3个文件并完成字节核对。机械检查不代表S2独立接收或S4/S5/S6全书收口。
