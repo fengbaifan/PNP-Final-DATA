@@ -25,9 +25,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** Haskell第10章注5称Canaletto绘制了Count of Bolagno的入城图，年份为1729；Haskell称这位Count为Imperial ambassador，但没有提供名字或足以确定其个人身份的信息，也没有说他委托了这幅画。该作品与同注所述1725年Comte de Gergy入城图及Carlevarijs于1726年绘制的Count of Colloredo入城图分别登记。Haskell称本画当时在Hermitage，并引用V. Moschini 1954年页29；本项目未查阅该页，因此只记录Haskell来源所报位置，不把它表述为已核实的现址。
+**中文：** Haskell第10章注5称Canaletto绘制了Count of Bolagno的入城图，年份为1729；Haskell称这位Count为Imperial ambassador，但没有提供名字或足以确定其个人身份的信息，也没有说他委托了这幅画。标题中的“博拉尼奥伯爵入城图”是据英文题名所作的描述性暂译，不声称为官方中文译名。该作品与同注所述1725年Comte de Gergy入城图及Carlevarijs于1726年绘制的Count of Colloredo入城图分别登记。Haskell称本画当时在Hermitage，并引用V. Moschini 1954年页29；本项目未查阅该页，因此只记录Haskell来源所报位置，不把它表述为已核实的现址。
 
-**English:** Haskell’s chapter 10, note 5 says that Canaletto painted the entry of the Count of Bolagno in 1729. Haskell identifies the Count as an Imperial ambassador but gives no first name or sufficient information to establish his personal identity, and does not say that he commissioned the painting. This work is recorded separately from the Comte de Gergy entry of 1725 and Carlevarijs’s Count of Colloredo entry of 1726, both mentioned in the same note. Haskell reports the painting as then being in the Hermitage and cites V. Moschini, 1954, p. 29; that page was not consulted, so this card records only the location as reported by Haskell and does not present it as a verified current location.
+**English:** Haskell’s chapter 10, note 5 says that Canaletto painted the entry of the Count of Bolagno in 1729. Haskell identifies the Count as an Imperial ambassador but gives no first name or sufficient information to establish his personal identity, and does not say that he commissioned the painting. The Chinese title is a descriptive translation of the English title, not a claimed official Chinese title. This work is recorded separately from the Comte de Gergy entry of 1725 and Carlevarijs’s Count of Colloredo entry of 1726, both mentioned in the same note. Haskell reports the painting as then being in the Hermitage and cites V. Moschini, 1954, p. 29; that page was not consulted, so this card records only the location as reported by Haskell and does not present it as a verified current location.
 
 ### 基本信息
 
