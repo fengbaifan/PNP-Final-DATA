@@ -41,15 +41,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 书内描述性题名 | Ceiling Fresco of St Dominic Instituting the Rosary（描述性暂题，非核定原题） | 第9章印刷页271 L40；非现存作品题签。 |
+| 书内描述性题名 | Ceiling Fresco of St Dominic Instituting the Rosary（描述性暂题，非核定原题） | S1；第9章印刷页271 L40；非现存作品题签。 |
 
 ### 基本信息
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 作品类型 | 天顶壁画。 | 第9章印刷页271 L40；Haskell称ceiling fresco。 |
-| 题材 | 圣道明设立玫瑰经。 | 第9章印刷页271 L40；按原书题材描述。 |
-| 书内创作年代 | 1737–1739。 | 第9章印刷页271 L40；Haskell所述年代，未独立外部核验。 |
+| 作品类型 | 天顶壁画。 | S1；第9章印刷页271 L40；Haskell称ceiling fresco。 |
+| 题材 | 圣道明设立玫瑰经。 | S1；第9章印刷页271 L40；按原书题材描述。 |
+| 书内创作年代 | 1737–1739。 | S1；第9章印刷页271 L40；Haskell所述年代，未独立外部核验。 |
 
 ### 本章相关内容
 

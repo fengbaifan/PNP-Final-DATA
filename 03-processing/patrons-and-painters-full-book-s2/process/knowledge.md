@@ -1,5 +1,25 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp7-p193-boschini-gualdo-20261023"></a>
+### S3沿用／S4/S5/S6 archive与person：第7章 p.193 注2及第21章书目 Boschini、Gualdo Priorato 跨章端点（2026-10-23）
+
+**S3身份沿用与S4登记。** 沿用 archive 组 `archive-group-d9136bc0e649`（`cand-7166`，`aln-7342`）登记《La carta del navegar pittoresco》；沿用 archive 组 `archive-group-554e2a42f09e`（`cand-7167`，`aln-7343`）登记 *Vita del Cav. Pietro Liberi pittore padovano*；沿用人物组 `new-person:galeazzo-gualdo-priorato-999b9f5055`（`cand-5622`，`aln-5803`）登记 Galeazzo Gualdo Priorato。三组均为既有 S3 `new` 决定，本批只完成 S4 映射，不改写身份裁决。Boschini 人物端点复用已登记 `units/persons/marco-boschini`。
+
+**S2与S5。** 第21章书目 p.416 L231 与 p.424 L558–559分别明确列出 Boschini、Gualdo Priorato 的书目责任者形式。本批新增两条 `authored_by` S2关系候选statement，并为作者形式新增精确 mention：`st-chp21-bib-l207-241-entry-19-authored-by`、`st-chp21-bib-l538-575-entry-14-authored-by`；两段原有 S2 复核/迁移记录未并入统一独立复核分子。三张卡共新增11条来源支持字段；显示题名中文/英文均为编辑性工作译名，原题保留意大利文。Gualdo书目“1664, published Vicenza 1818”照录，不推断1664的含义；两处脚注被引页 p.44 与 p.15、两部出版物本身均未独立查阅。
+
+**S6逐条裁决。**
+
+| S2 statement | 决定与关系 | 理由与边界 |
+|---|---|---|
+| `st-chp7-p193-n2-boschini-citation` | formal，`rel-1586`，Haskell archive `cites` Boschini archive | 注2明确引 Boschini p.44；只登记 Haskell 的引文，未查被引页。 |
+| `st-chp7-p193-n2-gualdo-citation` | formal，`rel-1587`，Haskell archive `cites` Gualdo archive | 注2明确引 Gualdo 1818 p.15；只登记书内引文，未查被引页。 |
+| `st-chp21-bib-l207-241-entry-19-authored-by` | formal，`rel-1588`，Boschini archive `authored_by` Marco Boschini | 第21章书目 p.416 L231 的责任者著录；只表达 Haskell 书目归属。 |
+| `st-chp21-bib-l538-575-entry-14-authored-by` | formal，`rel-1589`，Gualdo archive `authored_by` Galeazzo Gualdo Priorato | 第21章书目 p.424 L558–559 的责任者著录；只表达 Haskell 书目归属。 |
+| `st-chp7-p193-n2-boschini-collection` | pending，无正式边 | `cand-7148`收藏对象仍无支持类型和KU，收藏范围也未定；沿用其 S3 undecided，不强制建卡。 |
+| `st-chp7-p193-n2-boschini-dedication` | pending，无正式边 | Haskell报告该书题献 Archduke，但 `dedicated_to` 当前域要求 work，书目对象按项目规则为 archive；不绕过域值域约束或扩展谓词。 |
+
+**批后核验。** 4条正式边均有登记端点、受控关系类型及对应 S2 statement；两条未闭合关系分别保留为类型/对象边界待证和谓词域值域待证。来源与被引材料未作外部身份或全文核验。
+
 
 <a id="s4-s5-s6-chp13-zanetti-gori-letters-20261023"></a>
 ### S3沿用／S4／S5／S6 archive：第13章两封 Zanetti 致 Gori 书信（2026-10-23）

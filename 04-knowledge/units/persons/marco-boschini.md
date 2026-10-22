@@ -45,8 +45,8 @@ sources:
     source_file: 02-sources/03-Index/03-2-Index-CSV/B.csv
     source_span: B.csv#259–260
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-boschini-crosschapter-20261017
+updated: '2026-10-23'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp7-p193-boschini-gualdo-20261023
 ---
 
 ## 内容
@@ -66,4 +66,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本轮未在 relations.csv 新增正式关系。姓名同现、引文或作品归属依据仍按具体 statement 及关系阶段处理。逐组裁决见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-boschini-crosschapter-20261017)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《如画航海图》（The Chart of Picturesque Navigation）](../archives/la-carta-del-navegar-pittoresco.md) | The author name is mapped to the existing S4 Marco Boschini person KU.；角色：Haskell bibliography attribution；范围：Haskell’s Chapter 21 bibliography lists Marco Boschini as the author of this book. This edge records the bibliographic attribution only; the publication itself was not independently consulted.；原断言与证据见发出端卡片“《如画航海图》（The Chart of Picturesque Navigation）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21 bibliography, printed p. 416, line 231; statement=st-chp21-bib-l207-241-entry-19-authored-by |
+
+身份组登记见[历史过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-boschini-crosschapter-20261017)；本批书目作者关系的证据与裁决见[当前过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp7-p193-boschini-gualdo-20261023)。

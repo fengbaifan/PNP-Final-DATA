@@ -43,7 +43,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 原书书目著录 | Palomino, Antonio；El Museo Pictorico, y escala optico；马德里；3卷分2册；1715–1724／Palomino, Antonio; El Museo Pictorico, y escala optico; Madrid; 3 vols. in 2; 1715–1724 | 第21章印刷页432 L920；记录Haskell书目著录，未独立查阅Palomino原书及p.336、p.311。 |
+| 原书书目著录 | Palomino, Antonio；El Museo Pictorico, y escala optico；马德里；3卷分2册；1715–1724／Palomino, Antonio; El Museo Pictorico, y escala optico; Madrid; 3 vols. in 2; 1715–1724 | S1；第21章印刷页432 L920；记录Haskell书目著录，未独立查阅Palomino原书及p.336、p.311。 |
 
 ## 关系与证据
 

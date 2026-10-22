@@ -33,7 +33,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 原文称名 | Venus and Adonis | Haskell 第5章 p.124 注1；S2 |
+| 原文称名 | Venus and Adonis | S1；Haskell 第5章 p.124 注1 |
 
 ## 关系与证据
 

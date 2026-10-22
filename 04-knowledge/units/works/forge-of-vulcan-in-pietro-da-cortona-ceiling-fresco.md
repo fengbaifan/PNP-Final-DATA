@@ -33,7 +33,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 原文称名 | Forge of Vulcan | Haskell 第2章 p.33 注1；印本校读，S2 |
+| 原文称名 | Forge of Vulcan | S1；Haskell 第2章 p.33 注1；印本校读 |
 
 ## 关系与证据
 

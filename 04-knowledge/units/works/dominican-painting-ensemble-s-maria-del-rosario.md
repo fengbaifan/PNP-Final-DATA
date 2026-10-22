@@ -31,14 +31,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 描述性名称 | Painting Ensemble at S. Maria del Rosario（书内集体对象；非单件题名） | 第9章印刷页272 L55；为Haskell集体描述所拟名称。 |
+| 描述性名称 | Painting Ensemble at S. Maria del Rosario（书内集体对象；非单件题名） | S1；第9章印刷页272 L55；为Haskell集体描述所拟名称。 |
 
 ### 基本信息
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 作品对象性质 | 教堂绘画群组；Haskell称其中绘画赞颂Order。 | 第9章印刷页272 L55；群组层级，不是单件作品。 |
-| 群组表达与范围 | Haskell称其圣人绘画以三人为组，并逐步引向天顶的圣道明题材；这不是逐件清单。 | 第9章印刷页272 L55；集体概括，不扩充个别作品或创作者。 |
+| 作品对象性质 | 教堂绘画群组；Haskell称其中绘画赞颂Order。 | S1；第9章印刷页272 L55；群组层级，不是单件作品。 |
+| 群组表达与范围 | Haskell称其圣人绘画以三人为组，并逐步引向天顶的圣道明题材；这不是逐件清单。 | S1；第9章印刷页272 L55；集体概括，不扩充个别作品或创作者。 |
 
 ### 本章相关内容
 

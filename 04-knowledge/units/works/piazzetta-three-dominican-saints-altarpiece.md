@@ -41,15 +41,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 索引与正文题名 | Three Dominican Saints（书内索引及正文名称；非核定原件题名） | 本书索引 P.csv #125；第9章印刷页271 L41。 |
+| 索引与正文题名 | Three Dominican Saints（书内索引及正文名称；非核定原件题名） | S1-S2；本书索引 P.csv #125；第9章印刷页271 L41。 |
 
 ### 基本信息
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 作品类型 | 祭坛画。 | 第9章印刷页271 L41；Haskell称altarpiece。 |
-| 题材名称 | Vincent、Hyacinth和Lawrence三位多明我会圣人；不据名称判定具体历史人物。 | 第9章印刷页271 L41；保留原书所列名称，不作身份对齐。 |
-| 书内创作时期 | 1737–1739年间（Haskell将其置于Tiepolo天顶壁画的同一时间段）。 | 第9章印刷页271 L40–41；未推断更精确年代。 |
+| 作品类型 | 祭坛画。 | S2；第9章印刷页271 L41；Haskell称altarpiece。 |
+| 题材名称 | Vincent、Hyacinth和Lawrence三位多明我会圣人；不据名称判定具体历史人物。 | S2；第9章印刷页271 L41；保留原书所列名称，不作身份对齐。 |
+| 书内创作时期 | 1737–1739年间（Haskell将其置于Tiepolo天顶壁画的同一时间段）。 | S2；第9章印刷页271 L40–41；未推断更精确年代。 |
 
 ### 本章相关内容
 

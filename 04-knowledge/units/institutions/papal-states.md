@@ -95,9 +95,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - 本卡表示政治地域/国家实体，与 Rome 城市及候选 `cand-4424` 所指 Holy See 分开；不把历史领土边界或政体结构推定为跨时期不变。
 - 书内的 “Papal States”“States of the Church” 与相应 papal territory 表述在 S3 中归为同一实体；Treccani 仅辅助身份/类型判断，不证明书内每项历史陈述。
 
-### 关系与证据
+## 关系与证据
 
-以下8条关系候选留待 S6；本卡未新增正式关系：
+以下8条书内关系候选仍待逐条完成 S6 裁决。当前已登记的正式关系见下方关系记录：Treccani 记载乌尔比诺公国于1631年并入教皇国。
 
 - `st-chp2-sec-ii-l10-18-urban-professed-wealth-policy`、`st-chp2-sec-ii-l10-18-urban-role-absolute-monarch`、`st-chp2-sec-ii-l3-8-sovereignty`：Haskell 对 Urban VIII 统治权与公开意图的不同表述，保留来源限定。
 - `st-chp2-sec-ii-l10-18-venetian-income-estimate`、`st-chp2-secii-l42-50-cost_reported`：威尼斯使节收入估值及华盖造价/收入比较，均为书中转述或作者报告，未独立核实。
@@ -106,3 +106,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - `st-chp8-p203-bologna-second-capital`：Bologna 被称为“second capital”的书内历史表述，不据此推定具体行政制度。
 
 `st-chp2-sec-ii-l10-18-papal-states-wealth-at-accession` 的“rich enough”是相对评价；`st-chp6-p162-v1-05` 是未具名威尼斯使节的贫困评价引语。这两项在 S2 中均为非关系陈述，保留为来源主张，不升格为关系边。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [乌尔比诺公国（Duchy of Urbino）](duchy-of-urbino.md) | Treccani line 46 reports that after Francesco Maria II’s death in 1631 Urban VIII could proclaim annexation of the duchy to the Papal State. This confirms the historical part_of relation from 1631; Haskell p.54 reports the expected incorporation only.；时间：1631；角色：纳入教皇国的历史政治实体；范围：历史公国，区别于乌尔比诺城市；不推定现代行政边界；原断言与证据见发出端卡片“乌尔比诺公国（Duchy of Urbino）”：[来源](https://www.treccani.it/enciclopedia/urbino_%28Enciclopedia-machiavelliana%29/)；src-78c3793d291934bd；line 46 (annexation of the duchy to the Papal State); S2 contextual candidate st-chp2-seciv-l114-125-urbino-due-to-be-incorporated-into-papal-states |

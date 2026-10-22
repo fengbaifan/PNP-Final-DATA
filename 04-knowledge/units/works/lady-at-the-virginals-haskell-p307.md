@@ -34,15 +34,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 依据 |
 |---|---|---|
-| 作品名（Haskell所称） | *Lady at the Virginals*；Haskell称其为“Vermeer’s Lady at the Virginals”。此处为描述性识别名，不声明已核实正式题名或现行作者。 | S2；第10章，印刷页307，L448；S2候选 cand-9234 |
+| 作品名（Haskell所称） | *Lady at the Virginals*；Haskell称其为“Vermeer’s Lady at the Virginals”。此处为描述性识别名，不声明已核实正式题名或现行作者。 | S1；第10章，印刷页307，L448；候选 cand-9234 |
 
 ### 基本信息
 
 | 字段 | 值 | 依据 |
 |---|---|---|
-| 作品类型 | 绘画；Haskell称其为“one of his masterpieces of Dutch painting”；“masterpiece”为Haskell的评价。书页未说明媒介、材料或技法。 | S2；第10章，印刷页307，L447–448 |
-| 历史归属 | Haskell称该画当时“was attributed to the secondary painter Frans van Mieris”；这不是对现行作者的确认。 | S2；第10章，印刷页307，L448–449；S2 statement st-chp10-p307-vermeer-attribution-to-mieris |
-| 流传信息 | Haskell称Smith“almost certainly”从Pellegrini遗孀处取得该画；下文又以“if this picture ... really came”保留条件，未核实单件作品的交易或流传记录。 | S2；第10章，印刷页307，L447–449；S2 statement st-chp10-p307-smith-acquired-vermeer |
+| 作品类型 | 绘画；Haskell称其为“one of his masterpieces of Dutch painting”；“masterpiece”为Haskell的评价。书页未说明媒介、材料或技法。 | S1；第10章，印刷页307，L447–448 |
+| 历史归属 | Haskell称该画当时“was attributed to the secondary painter Frans van Mieris”；这不是对现行作者的确认。 | S1；第10章，印刷页307，L448–449；statement st-chp10-p307-vermeer-attribution-to-mieris |
+| 流传信息 | Haskell称Smith“almost certainly”从Pellegrini遗孀处取得该画；下文又以“if this picture ... really came”保留条件，未核实单件作品的交易或流传记录。 | S1；第10章，印刷页307，L447–449；statement st-chp10-p307-smith-acquired-vermeer |
 
 ### 待证信息
 

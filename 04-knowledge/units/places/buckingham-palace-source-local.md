@@ -31,7 +31,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 依据 |
 |---|---|---|
-| 本段中的地点范围 | 书中只将Buckingham Palace称为画作当时所在地点；未指明房间、展厅或具体馆藏编号。 | S2；第10章，印刷页307，L448；S2 candidate cand-9240 |
+| 本段中的地点范围 | 书中只将Buckingham Palace称为画作当时所在地点；未指明房间、展厅或具体馆藏编号。 | S1；第10章，印刷页307，L448；candidate cand-9240 |
 
 ## 关系与证据
 

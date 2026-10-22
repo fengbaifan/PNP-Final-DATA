@@ -33,7 +33,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 书内描述性题名 | 帕洛米诺所述、归于维拉斯奎兹的巴贝里尼枢机肖像（座者有争议，是否绘成未定）／Palomino’s reported Barberini cardinal portrait attributed to Velasquez, sitter disputed, execution uncertain | 第2章印刷页60正文L28及注5 L48；描述性暂题，不是原件题名；执行与创作者仍未确认。 |
+| 书内描述性题名 | 帕洛米诺所述、归于维拉斯奎兹的巴贝里尼枢机肖像（座者有争议，是否绘成未定）／Palomino’s reported Barberini cardinal portrait attributed to Velasquez, sitter disputed, execution uncertain | S1；第2章印刷页60正文L28及注5 L48；描述性暂题，不是原件题名；执行与创作者仍未确认。 |
 
 ## 关系与证据
 

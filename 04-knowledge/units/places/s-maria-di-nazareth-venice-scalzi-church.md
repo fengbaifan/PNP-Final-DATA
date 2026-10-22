@@ -44,16 +44,16 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 索引子目名称 | S. Maria di Nazareth (Scalzi church) | 本书索引 C.csv #262。 |
+| 索引子目名称 | S. Maria di Nazareth (Scalzi church) | S1；本书索引 C.csv #262。 |
 
 ### 基本信息
 
 | 字段 | 值 | 证据 |
 | --- | --- | --- |
-| 地点性质 | 威尼斯Scalzi修会的新教堂；与修会机构及原教堂分别记录。 | 第9章印刷页269 L21–23；书内叙述与索引范围，不推断现代身份。 |
-| 原教堂与新堂 | Haskell称修会受欢迎使原教堂过小，Longhena与Sardi受聘建造新堂。 | 第9章印刷页269 L21–22；建造角色分别列关系，不推断设计角色。 |
-| 立面费用 | 74,000 ducats（Haskell所报）。 | 第9章印刷页269 L22–23；书内报告金额。 |
-| 立面付款报告 | Haskell称Conte Cavazza支付了立面费用；付款人与委托人角色是否相同仍待证。 | 第9章印刷页269 L22–23；仅记录付款报告，S6关系保持pending。 |
+| 地点性质 | 威尼斯Scalzi修会的新教堂；与修会机构及原教堂分别记录。 | S2；第9章印刷页269 L21–23；书内叙述与索引范围，不推断现代身份。 |
+| 原教堂与新堂 | Haskell称修会受欢迎使原教堂过小，Longhena与Sardi受聘建造新堂。 | S2；第9章印刷页269 L21–22；建造角色分别列关系，不推断设计角色。 |
+| 立面费用 | 74,000 ducats（Haskell所报）。 | S2；第9章印刷页269 L22–23；书内报告金额。 |
+| 立面付款报告 | Haskell称Conte Cavazza支付了立面费用；付款人与委托人角色是否相同仍待证。 | S2；第9章印刷页269 L22–23；仅记录付款报告，关系阶段保持 pending。 |
 
 ### 本章相关内容
 
