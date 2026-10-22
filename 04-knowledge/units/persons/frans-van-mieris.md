@@ -45,12 +45,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 该画的历史归属候选留待S6；本次登记不将其表述为作品现行作者。
+**中文：** 第10章p.307称其为“the secondary painter Frans van Mieris”，并说《Lady at the Virginals》当时被归为他。这里记录的是Haskell报告的历史归属，不确认该画由他创作或由他担任现行作者。
 
-**English:** The historical attribution candidate remains for S6; this registration does not present him as the work's current accepted author.
+**English:** Chapter 10, p.307 calls him “the secondary painter Frans van Mieris” and says *Lady at the Virginals* was then attributed to him. This records Haskell’s historical attribution report; it does not establish that he created the work or is its present accepted author.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有登记在 `relations.csv` 中的正式关系。S2关系候选 `st-chp10-p307-vermeer-attribution-to-mieris` 保留来源归因并留待S6裁决；本次S4身份登记不将其转为正式关系。
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
+
+当前没有由Van Mieris发出的正式关系。S2候选 `st-chp10-p307-vermeer-attribution-to-mieris` 已裁为待证：Haskell报告的是历史归属，受控关系词表没有可忠实表达归属事件的谓词，因此不将其登记为作品的正式创作者关系。逐条理由见[批次过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p307-vermeer-lady-at-virginals-20261022)。

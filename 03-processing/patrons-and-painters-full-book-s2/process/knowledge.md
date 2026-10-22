@@ -10710,3 +10710,24 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **S6逐项裁决。** 七条关系候选全部正式裁为 formal：st-chp8-p234-cook-created-by-cassana → rel-1520 created_by（Cook→Cassana）；st-chp8-p234-cook-arrival → rel-1521 located_at（Cook→Florence，1707-09，仅为历史抵达地）；st-chp8-p240-cook-intended-for-florence → rel-1522 intended_for（Cook→Florence，仅为计划展示语境）；st-chp8-p240-letter120-authored-by-ferdinand → rel-1523 authored_by（Letter 120→Ferdinand）；st-chp8-p240-letter120-addressed-to-cassana → rel-1524 addressed_to（Letter 120→Cassana）；st-chp8-p234-note4-cites-fogolari-letter120 与 st-chp8-p240-note4-fogolari-letter120 → 共用 rel-1525 cites（Haskell→Letter 120）。两处引注指向同一书信定位，因此保留两条S2证据而只建立一条自然键相同的正式边。
 
 **渲染与批后核验。** 新作品、新书信、Cassana、Ferdinand、Florence、Haskell六张卡均预览后定向渲染，6个文件写入并通过写后字节核对；两张既有卡的渲染同时对齐了关系表中此前已有的Baines地点边及Hugh Honour书评反向边。audit_tables.py --strict-stage --summary：errors=[]、s2_missing=[]；audit_relation_consistency.py：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后 S0 为832个源段（678 complete、154 excluded）；S2共15,231条 statement，统一独立复核仍为9,573条，未接收，第八章分母为1,471；S3主决定口径未变（12,388/12,408，缺20项；另22项跨来源决定差异待定点核对）；S4登记1,505/4,798组、1,722/5,030条映射，待登记3,293组／3,308条映射；S5为12,320条，1,634条 unverified；S6逐项裁决504/10,455条（307 formal、136 pending、61 rejected），余9,951条；relations.csv共1,525条（1,519 formal、6 pending）。candidate-backlog.csv仍6条（5条已完成、1条明确 undecided）。本批不增加S2独立复核分子；上述机械审计不构成全书阶段接收。
+
+<a id="s4-s5-s6-chp10-p307-vermeer-lady-at-virginals-20261022"></a>
+
+### S2定向补充／沿用S3／S4/S5/S6：第10章 p.307《Lady at the Virginals》及 Buckingham Palace（2026-10-22）
+
+**来源与范围。** 对照 Haskell 修订版第10章印刷页307（PDF物理页36）与来源段 `chp-10:10_CHP-10_intro:l445-454`。扫描确认正文为“the Vermeer”，S0 OCR 的 `theWermeer` 已由原 mention 校读记录；本次只新增位置关系 statement `st-chp10-p307-vermeer-then-at-buckingham-palace`，其原文为“Lady at the Virginals (now in Buckingham Palace).” 该句作为 `located_at` 候选，保留“now”相对于Haskell叙述的来源时间，不宣称2026年现址。源段原已标记 `reviewed/complete`；本次定向补足不改变该迁移状态，也不增加独立复核分子。新增statement未计入9,573条统一复核记录，须在台账按当前statement ID及来源版本核平。
+
+**S3与S4。** 作品 `cand-9234` 沿用已有S3 `new`组 `workgrp-d1825a442f1d6e`（`aln-9406`），登记为[《Lady at the Virginals》](../../../04-knowledge/units/works/lady-at-the-virginals-haskell-p307.md)。地点 `cand-9240` 沿用已有S3 `new`组 `sg3-place-cand-9240`（`aln-9412`），登记为[Buckingham Palace](../../../04-knowledge/units/places/buckingham-palace-source-local.md)。两个对象均作书内来源限定身份登记；没有重开S3、没有外部身份核验，也没有依据“Vermeer’s”标题裁定作品现行作者。其他端点复用既有S3映射：Canaletto `cand-0514` → `units/persons/canaletto`、Joseph Smith `cand-2440` → `units/persons/joseph-smith-venice`、Frans van Mieris `cand-1663` → `units/persons/frans-van-mieris`。
+
+**S5字段。** 新增5条Haskell原书支持字段：`enr-16144`–`enr-16147` 为作品描述性题名、绘画类型、当时归属和来源限定的取得信息；`enr-16148` 为地点在本段中的范围说明。题名按原文称呼作描述性名称；当时归属不是现行作者；“almost certainly”及随后条件句共同保留；地点未扩写到房间、展厅或馆藏号。没有将未核实字段标成 externally verified。
+
+**S6逐条裁决。** 四条关系候选各有明确去向：
+
+| statement_id | 决定 | 记录与理由 |
+|---|---|---|
+| `st-chp10-p307-vermeer-then-at-buckingham-palace` | formal | `rel-1526 located_at`：作品→Buckingham Palace。原书直接记载，`now`只按Haskell本书语境保留，不当作本轮现址核验。 |
+| `st-chp10-p307-smith-acquired-vermeer` | formal | `rel-1527 acquired_by`：作品→Joseph Smith。Haskell称“almost certainly”，随后又条件化；formal边表示该来源限定的历史叙述，不证明实际交易或完整流传链。未给单件作品精确取得时间，time留空。 |
+| `st-chp10-p307-vermeer-attribution-to-mieris` | pending | `rel-1528 created_by`暂存作品→Frans van Mieris；来源只报告当时归属，未确认实际创作；受控词表没有忠实表达历史归属报告的谓词，因此不作为正式作者边，也不投影为Mieris发出的正式关系。 |
+| `st-chp10-p307-claimed-vermeer-influence` | rejected | Haskell明确说影响说法“difficult to substantiate”，只保留为被报告的学术主张；当前`influenced_by`域值域也不允许work→person，故不建立Canaletto受该画影响的正式边。原claim继续留在S2。 |
+
+**渲染与批后状态。** 两张新卡及Joseph Smith、Frans van Mieris卡均完成定向预览；关系表新增2条formal和1条pending关系，拒绝项只在过程记录中保留去向，不制造关系表事实。`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`；结果为S2 15,232 statements、S4 1,507/4,798组和1,724/5,030映射、S5 12,325字段（1,634 `unverified`）、S6 508/10,456（309 formal、137 pending、62 rejected，余9,948），`relations.csv` 1,528条（1,521 formal、7 pending）。`audit_relation_consistency.py`未发现broken target、invalid relation_type、missing inverse、weak evidence或unbaselined generic。审计为机械检查，不构成S2独立验收或S4–S6全书收口。
