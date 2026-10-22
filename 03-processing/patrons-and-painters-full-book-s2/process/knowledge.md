@@ -10326,3 +10326,25 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **S6逐候选裁决。** 第15章 p.371 注2的 `st-chp15-p371-note2-cites-moschini-1924` 裁为 formal，新增 `rel-1461 cites`：*Patrons and Painters*→Moschini 1924。该注未标被引页码。`st-chp15-p371-note2-cites-pallucchini-1941` 裁为 formal，新增 `rel-1462 cites`：*Patrons and Painters*→Pallucchini 1941；范围限于注中所列 p.112。两边只记录 Haskell 的引注，不表示被引书或其内容已核实。其他跨章引注定位未对应本批 S6 关系候选，不另造边。
 
 **渲染、核验与批后状态。** 两张卡经定向预览后渲染，写入后字节核对通过，复查预览无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`，表内关系1,462条、S5字段12,194条；剩余警告分别指向3,345条new映射待S4登记及S2语义质量仍需按过程记录检查。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2仍为9,573/15,202、尚未接收；S3仍为12,388/12,408，缺主决定行20。S4已登记1,460/4,791组、1,675/5,020条映射；待登记3,331组／3,345条，其中直接关系端点1,592组／1,601条、非直接1,739组／1,744条。S5为12,194条（1,634条 `unverified`）。S6累计裁决417/10,430条（245 formal、121 pending、51 rejected），余10,013条；`relations.csv`共1,462条（1,458 formal、4 pending）。这些检查不构成全书阶段接收或收口。
+
+
+<a id="s4-s5-s6-chp4-p104-st-susanna-20261022"></a>
+### S3身份沿用／S4/S5/S6：第4章 p.104 St Susanna 与 S. Maria di Loreto（2026-10-22）
+
+**S3身份沿用。** 沿用 `cand-5736` 的 `new` 作品组 `workgrp-6265febf778d7f` 和 `cand-5737` 的 `new` 地点组 `sg3-place-cand-5737`；不重开身份决定。创作者 `cand-0952` 已映射至 `units/persons/francois-duquesnoy`。比较对象 `cand-5750` 仍为 `undecided` term；本批没有新身份证据或具名比较者，不据作品登记推定比较对象。
+
+**S4登记。** 将 `cand-5736` 登记为 `units/works/francois-duquesnoy-st-susanna-s-maria-di-loreto`，将 `cand-5737` 登记为 `units/places/church-of-s-maria-di-loreto`；两项映射写入 `alignment.csv`，两张卡写入 `ku-manifest.csv` 与 `accepted.yml`。工作题名是来源限定的描述性名称，不声称已对准具体馆藏版本；地点仅按 Haskell 的教堂名称与语境登记，没有补入城市或现今状态。
+
+**S5字段。** 依据第4章印刷页104 L58，新增 `enr-15964` 原书称名、`enr-15965` Haskell所载评价、`enr-15966` 地点性质，均为 `source_backed`。卡片仅列一条原书来源，字段证据格采用卡内来源序号 S1；来源与页行定位一致。没有增加外部身份或现今位置字段。
+
+**S6逐候选裁决。** 三条关系候选均有去向：
+
+| S2 statement | 决定 | 关系去向与范围 |
+|---|---|---|
+| `st-chp4-sec-ii-l53-63-duquesnoy-created-st-susanna` | formal | 新增 `rel-1463 creator_of`：Duquesnoy→St Susanna。仅记录 Haskell 的书内创作者归属，不等于独立核定具体实物版本。 |
+| `st-chp4-sec-ii-l53-63-st-susanna-located-at-loreto` | formal | 新增 `rel-1464 located_at`：St Susanna→S. Maria di Loreto 教堂。仅记录书中所述位置，不断言现今仍在址或作品现存。 |
+| `st-chp4-sec-ii-l53-63-susanna-judged-equal-to-ancients` | pending | Haskell 转述未具名同时代人的比较判断；`cand-5750` 未指向具体人物或作品且身份边界未决。受控 `compared_with` 不允许 work→term，`has_subject` 也不能表达该评价；保留 S2 原断言，不写入 formal 图谱边。 |
+
+本批未改写 S2 statement，定向端点审查不计入独立语义复核分子。`build_cards.py --preview` 逐卡审阅后，仅渲染作品、教堂与 Duquesnoy 三卡；写入3个文件并通过写后字节核对。
+
+**批后状态与机械核验。** S2仍为9,573/15,202、尚未接收；S3主决定仍为12,388/12,408，缺20行。S4已登记1,462/4,791组、1,677/5,020条映射；待登记3,329组／3,343条，其中直接关系端点1,590组／1,599条，非直接1,739组／1,744条。S5共12,197条，`unverified`仍为1,634。S6累计裁决420/10,430条（247 formal、122 pending、51 rejected），余10,010条；`relations.csv`共1,464条（1,460 formal、4 pending）。candidate-backlog仍为5条历史记录、pending=0。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`，唯一阶段警告仍指向3,343条new映射待S4登记及S2语义质量待按过程记录检查；关系一致性核验的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。机械检查不代表全书阶段接收或收口。
