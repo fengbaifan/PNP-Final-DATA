@@ -1,5 +1,10 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
+### S3沿用／S4/S5/S6 archive：Faldi 1957 跨章引注（2026-10-22）
+
+沿用 `archive-group-47abbb90563f` 登记 `cand-4331`，新增一张archive KU及5条书目支持字段。第21章扫描书目确认题名、责任者形式、期刊、年份与页码；扫描行末的 `di - Sutri` 按候选身份中的连续地名形式写作 `di Sutri`，不表示已查阅文章正文。第1章p.14注3与第2章p.29注5两条明确引注分别裁为formal `cites`（`rel-1470`、`rel-1471`），只记录Haskell书内引注。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-faldi-guidotti-1957-cross-chapter-citations-20261022)。
+
+本批后（由当前结构化表重算）：S2为9,573/15,204，未接收；S3主决定12,388/12,408，另有20个候选尚无主决定（16 person、2 institution、2 archive）；已有主决定中same 2,026、new 5,020、conflict 9、excluded 100、undecided 5,233，其中622项类型未决。S4已登记1,468/4,791组、1,682/5,020条映射；待登记3,323组／3,338条映射，其中直接关系端点1,587组／1,596条组成员映射；S5字段12,211条（1,634条 `unverified`）；S6裁决427/10,432（254 formal、122 pending、51 rejected），余10,005条；`relations.csv`共1,471条（1,467 formal、4 pending）。本次表格审计 `errors=[]`、`s2_missing=[]`；关系结构审计未发现 broken target、invalid type、missing inverse、weak evidence 或 unbaselined generic。机械检查不代表全书S2语义接收或S3–S6收口。
 更新日期：2026-10-22。
 
 ### S3沿用／S4/S5/S6：Hoogewerff 1913 跨章引注（2026-10-22）

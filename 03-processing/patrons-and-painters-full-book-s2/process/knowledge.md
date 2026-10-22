@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-archive-faldi-guidotti-1957-cross-chapter-citations-20261022"></a>
+
+### S3沿用／S4/S5/S6 archive：Faldi《骑士厅壁画》跨章引注（2026-10-22）
+
+**S3沿用。** `cand-4331` 保留既有 `new` 身份组 `archive-group-47abbb90563f`；本批未更改 S3 决定。第21章书目将题名列为 Paolo Guidotti 与 Bassano di Sutri 的 Sala del Cavaliere 壁画文章；本项目只确认书目所列文章身份，不表示已查阅文章本身。
+
+**S4登记。** 登记 [Faldi 1957年文章卡](../../../04-knowledge/units/archives/faldi-guidotti-sala-del-cavaliere-1957.md)，将候选 `cand-4331` 映射到 `units/archives/faldi-guidotti-sala-del-cavaliere-1957`，并加入 `ku-manifest.csv` 与 `accepted.yml`。扫描页为第21章印刷页422、PDF物理页12；题名在行末排作 `di - Sutri`，卡片按既有候选的连续地名形式写作 `di Sutri`。责任者、期刊、年份和页码均按Haskell书目转录；未外推责任者身份或被引文章内容。
+
+**S5补足。** 从第21章书目写入五条 `source_backed` 字段：原题名 `enr-15976`、责任者形式 `enr-15977`、期刊 `enr-15978`、出版年 `enr-15979`、文章页码 `enr-15980`。这些字段只支持书目事实。
+
+**S6逐条裁决。** 两条 Haskell 书内引注分别裁为 formal `cites`，每条保留独立证据与范围：
+
+| S2 statement | 决定 | 关系 | 证据与范围 |
+|---|---|---|---|
+| `st-chp1-secii-p14-n3-cites-faldi-1957-pp278-295` | formal | `rel-1470 cites` | 第1章印刷页14注3引用Faldi 1957年文章第278–295页，用于Paolo Guidotti例证；只记录Haskell的书内引注，未独立阅读被引页或文章。 |
+| `st-chp2-seci-l95-106-citation-faldi` | formal | `rel-1471 cites` | 第2章印刷页29注5将Faldi列为1957年相关文章作者之一；第21章书目解析为本文章；只记录书内引注，未独立阅读文章。 |
+
+两条边均为 `units/archives/patrons-and-painters` → Faldi文章archive，符合 `cites` 域值范围。批后对Faldi卡及《赞助人与画家》卡做关系预览并渲染；未新增S3身份判断或候选待办。
 <a id="s4-s5-s6-archive-hoogewerff-1913-cross-chapter-citations-20261022"></a>
 
 ### S4/S5/S6 archive：Hoogewerff 1913 跨章引注（2026-10-22）
