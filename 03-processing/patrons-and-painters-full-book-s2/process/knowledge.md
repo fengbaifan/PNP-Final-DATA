@@ -10313,3 +10313,16 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 三条正式边均以 `haskell-1980-rev-ed`、第15章印刷页370 L62及对应S2 statement为证据；时间未载，留空。关系边和卡内关系视图均不把历史位置写成当前状态。
 
 **批后当前统计与检查。** S2独立复核仍为9,573/15,202，尚未接收；S3主决定仍为12,388/12,408，本批没有身份决定变化。S4已登记1,458/4,791组、1,668/5,020条候选映射；待登记3,333组／3,352条，其中直接关系端点1,594组／1,608条、非直接1,739组／1,744条。S5共12,184条字段（1,634条 `unverified`）。S6累计裁决415/10,430条（243 formal、121 pending、51 rejected），余10,015条；`relations.csv`共1,460条（1,456 formal、4 pending）。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。全库卡片预检通过；仅渲染上述3张卡，写入3个文件并完成字节核对。机械检查不代表S2独立接收或S4/S5/S6全书收口。
+
+<a id="s4-s5-s6-chp15-de-non-citations-moschini-pallucchini-20261022"></a>
+### S3身份沿用／S4／S5／S6：第15章 p.371 注2的 Moschini 与 Pallucchini 引注（2026-10-22）
+
+**S3跨章身份组沿用。** 不重开身份裁决。沿用 `archive-group-ec73462cbd49`，将六个 `new` 候选 `cand-9561`、`cand-9821`、`cand-9886`、`cand-10191`、`cand-10220`、`cand-10587` 登记到 `units/archives/dell-incisione-in-venezia-moschini-1924`；另沿用 `archive-group-2c13a0aa6c14`，将 `cand-10588` 登记到 `units/archives/mostra-degli-incisori-veneti-del-settecento-1941`。身份依据为 Haskell 第21章书目：第431页列 G. A. Moschini, *Dell'Incisione in Venezia*（Venezia, 1924），第432页列 R. Pallucchini, *Mostra degli Incisori Veneti del Settecento*（Venezia, 1941）。这是来源限定的书目身份；没有独立查阅两部被引原书或所引页。
+
+**跨章引注定位。** Moschini 1924 的书内定位分布为：第10章 p.309 注5引 p.82、p.312 注3引 p.93、p.327 注3引 p.145；第13章引注 locators 指向 p.82、p.340 注4与注5指向 p.132、p.345 注3指向 p.167；第15章 p.371 注2列 Moschini, 1924但未给被引页码。第15章注2同时引 Pallucchini 1941 图录 p.112 讨论 De Non。第10、13章引注和第21章书目只用于身份与引注定位，不额外转换为图谱边；未据此声称已核实被引页的内容。
+
+**S4登记与S5字段。** 七条候选映射写入 `alignment.csv`，两张档案卡写入 `ku-manifest.csv` 与 `accepted.yml`。新增十条 Haskell 来源支持字段 `enr-15954`–`enr-15963`，登记责任者、原文题名、书目出版信息、文献类型及 Haskell 书内引注定位；两张卡的双语描述均明确限定为书目识别和书内引用记录。
+
+**S6逐候选裁决。** 第15章 p.371 注2的 `st-chp15-p371-note2-cites-moschini-1924` 裁为 formal，新增 `rel-1461 cites`：*Patrons and Painters*→Moschini 1924。该注未标被引页码。`st-chp15-p371-note2-cites-pallucchini-1941` 裁为 formal，新增 `rel-1462 cites`：*Patrons and Painters*→Pallucchini 1941；范围限于注中所列 p.112。两边只记录 Haskell 的引注，不表示被引书或其内容已核实。其他跨章引注定位未对应本批 S6 关系候选，不另造边。
+
+**渲染、核验与批后状态。** 两张卡经定向预览后渲染，写入后字节核对通过，复查预览无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`，表内关系1,462条、S5字段12,194条；剩余警告分别指向3,345条new映射待S4登记及S2语义质量仍需按过程记录检查。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2仍为9,573/15,202、尚未接收；S3仍为12,388/12,408，缺主决定行20。S4已登记1,460/4,791组、1,675/5,020条映射；待登记3,331组／3,345条，其中直接关系端点1,592组／1,601条、非直接1,739组／1,744条。S5为12,194条（1,634条 `unverified`）。S6累计裁决417/10,430条（245 formal、121 pending、51 rejected），余10,013条；`relations.csv`共1,462条（1,458 formal、4 pending）。这些检查不构成全书阶段接收或收口。

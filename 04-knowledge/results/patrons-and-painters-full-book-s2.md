@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S3身份沿用／S4／S5／S6：第15章 p.371 注2的 Moschini 与 Pallucchini 引注（2026-10-22）
+
+沿用两组跨章 `new` 身份组，将六条 Moschini 候选与一条 Pallucchini 候选登记为两张 archive KU；新增十条原书支持字段。第15章注2的两条 `cites` 候选均裁为 formal（`rel-1461`、`rel-1462`），仅记录 Haskell 的引注，不声称已查阅被引原书或页码。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp15-de-non-citations-moschini-pallucchini-20261022)。
+
+批后：S2为9,573/15,202，尚未接收；S3主决定仍为12,388/12,408，缺20；S4已登记1,460/4,791组、1,675/5,020映射，待登记3,331组／3,345映射（直接端点1,592组／1,601映射）；S5为12,194条（1,634条 `unverified`）；S6裁决417/10,430（245 formal、121 pending、51 rejected），余10,013条；关系表1,462条（1,458 formal、4 pending）。审计无结构错误，但不代表全书阶段收口。
+
 ### S4/S5/S6：第15章 p.370 阿尔蒂基耶罗图书室、藏书与培根胸像（2026-10-22）
 
 沿用3个既有S3 `new`组，登记藏书集合、胸像及图书室三个KU，新增4条原书支持字段。三条S2关系候选均裁为formal：藏书集合和胸像分别 `located_at` 图书室；胸像→Francis Bacon以受控 `has_subject` 表达，不推断创作者或现今地点。`idol of the temple`保留为Haskell修辞，不作作品题名。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp15-p370-alticchiero-library-bacon-20261022)。
