@@ -10866,3 +10866,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 该关系来源限于Haskell第15章p.368；Bozzola引文未独立核查。无pending、rejected或backlog新增。本次源页阅读不增加S2独立复核分子。
 
 **卡片投影与批后核验。** `build_cards.py --render` 定向更新事件与Querini两张卡，2个文件写后字节核对通过；两卡再次preview无待写差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全书累计数见当前结果页；本批没有修改S2独立复核计数。
+
+
+<a id="s4-s5-s6-chp10-p277n5-bolagno-entry-20261023"></a>
+
+### S3沿用／S4／S5／S6：第10章 p.277 注5 Canaletto《Count of Bolagno 入城图》（2026-10-23）
+
+**来源与S3沿用。** 复核第10章印刷页277注5扫描图（PDF物理页2）和S2源段 chp-10:10_CHP-10_intro:l491-634。原文称Canaletto绘制Count of Bolagno的入城图，年份1729，并称该Count为Imperial ambassador；注5报告作品当时在Hermitage并引用V. Moschini 1954年页29，本批未查阅被引页。沿用`cand-0505`的S3 `new`决定和组`sg3-work-canaletto-entry-count-bolagno-1729`；候选索引C.csv#29、原书标题/年代和已登记的1725年Comte de Gergy及1726年Carlevarijs/Count of Colloredo条目支持其为独立作品身份。未推定Count of Bolagno个人身份或委托关系，不重开S3。
+
+**S4与S5。** 登记为[Canaletto《博拉尼奥伯爵入城图》（Entry of the Count of Bolagno）](../../../04-knowledge/units/works/canaletto-entry-count-bolagno-1729.md)，更新accepted、manifest和候选映射。新增4条书内支持字段：来源所载题名、年代、Haskell所述对象称谓、来源所报位置及引证边界。位置按Haskell注5的出版语境记录，不宣称现址已核验。
+
+**S6逐条裁决。** 两条直接关系候选均裁为formal，方向、类型和限定如下：
+
+| statement_id | 决定 | 正式关系 | 理由与限定 |
+|---|---|---|---|
+| st-chp10-notes-p277n5-bolagno-entry | formal；rel-1536 | 作品 `created_by` Canaletto；time=1729 | 原文直接称Canaletto绘制该入城图；不推定委托人。 |
+| st-chp10-notes-p277n5-bolagno-location | formal；rel-1537 | 作品 `located_at` Hermitage；time=V. Moschini 1954页29（Haskell 1980注5所引） | Haskell注5报告“now in the Hermitage”；被引页未查阅，不表示现址已核验。 |
+
+两条关系均限于Haskell第10章p.277注5；无pending、rejected或backlog新增。定向复读扫描页不增加S2独立复核分子。
+
+**卡片投影与批后核验。** `build_cards.py --render` 定向更新Bolagno作品、Canaletto人物和Hermitage机构三张卡，写后字节核对通过；三卡再次preview均无待写差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S4为1,517/4,798组和1,734/5,030映射，待登记3,281组／3,296映射；S5为12,348条字段（1,634条unverified）；S6累计裁决534/10,459（319 formal、153 pending、62 rejected），余9,925条；relations.csv共1,537条（1,530 formal、7 pending）。candidate-backlog仍6条（5条完成、1条明确undecided，pending=0）。S2 statement数和9,573条统一独立复核分子未变；本批扫描复读不计入独立复核。
