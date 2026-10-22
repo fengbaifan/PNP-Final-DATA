@@ -71,4 +71,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-`cand-1379` 在第3章的11条直接 S2 陈述均标为关系候选，仍逐条留待 S6；本次未写入正式关系。其他候选端点、作品身份与关系方向须在 S6 按其自身证据裁决。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [圣依纳爵堂左耳堂1697年祭坛（1697 Altar in the Left Transept of S. Ignazio）](../works/pozzo-1697-altar-s-ignazio-left-transept.md) | Mapped from the source's completion wording; no broader authorship is inferred.；角色：以浅浮雕完成祭坛；范围：Haskell says Legros completed the altar with an appealing bas-relief. This records his stated contribution to the altar's completion; it does not identify him as the altar's designer or claim that he alone made the relief.；原断言与证据见发出端卡片“圣依纳爵堂左耳堂1697年祭坛（1697 Altar in the Left Transept of S. Ignazio）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 93 L185; PDF physical p. 35; statement=st-chp3-seciv-l179-187-legros-completed-altar-with-relief |
+
+本批将第3章 p.93 的祭坛完成候选裁为 formal `contributed_by`（rel-1581），记录Legros以浅浮雕完成1697年祭坛。cand-1379在第3章另有10条直接关系候选，不在本批裁决；其余关系仍须按各自证据与端点逐条处理。

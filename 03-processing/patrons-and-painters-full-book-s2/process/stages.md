@@ -13581,3 +13581,13 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第八章 p.234、p.240 的 S2 定向修订与端点交接
 
 S4端点触发新增5条来源限定 statement，并修正一条把展示意图误作关系候选的标记；《Portrait of a Cook》与 Fogolari Letter 120 沿用既有 S3 new 身份组，Florence 沿用既有 same 对齐。新增裁决和S5字段不计入独立S2复核分子，现全书statement为15,231，第八章分母为1,471。端点、七条S6裁决、证据边界及审计结果见[知识过程记录](knowledge.md)。
+### S2定向补关系端点：第3章 p.93 左耳堂祭坛与浮雕（2026-10-23）
+
+为S4/S6直接端点工作定向补入两条原子关系statement，均定位到第3章印刷页93 L185并复用本段已有mentions。未改变实体候选、既有S3决定或身份组，也未把修订计入独立语义审读。
+
+| 新statement | 主体候选 | 客体候选 | 原子关系 |
+|---|---|---|---|
+| st-chp3-seciv-l179-187-relief-part-of-1697-altar | cand-5452 | cand-5451 | Haskell says Legros completed Pozzo's altar with an appealing bas-relief, recording the relief as a component of the altar. |
+| st-chp3-seciv-l179-187-left-transept-part-of-s-ignazio | cand-5459 | cand-5439 | Haskell identifies the left transept as part of S. Ignazio. |
+
+浮雕—祭坛关系以原文“Legros completed [the altar] with an appealing bas-relief”为依据；耳堂—教堂关系以“the left transept of S. Ignazio”为依据。S2统一复核分子维持9,573，第3章独立章节分母由1,181增至1,183。

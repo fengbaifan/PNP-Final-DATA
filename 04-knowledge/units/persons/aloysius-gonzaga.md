@@ -67,12 +67,16 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 本书称该人物为S. Ignazio左横堂一件浮雕所表现的主题，并以the Assumption of the Blessed Luigi Gonzaga称述；这里依原句表述为Luigi Gonzaga升天主题，不据此另造作品题名。第8章及第9章另以S. Luigi Gonzaga指称绘画与modello主题。相应S2关系候选留待S6，不在S4建立作品关系。
+**中文：** 本书称该人物为S. Ignazio左横堂一件浮雕所表现的主题，并以the Assumption of the Blessed Luigi Gonzaga称述；这里依原句表述为Luigi Gonzaga升天主题，不据此另造作品题名。第8章及第9章另以S. Luigi Gonzaga指称绘画与modello主题。第3章 p.93 的表现主题候选已在S6裁为 formal `has_subject`（rel-1582）。
 
-**English:** The book names him as the subject of the Assumption bas-relief in the left transept of S. Ignazio; Chapters 8 and 9 also use S. Luigi Gonzaga for the subjects of a painting and a modello. The S2 relation candidate remains for S6; no work relation is created in S4.
+**English:** The book names him as the subject of the Assumption bas-relief in the left transept of S. Ignazio; Chapters 8 and 9 also use S. Luigi Gonzaga for the subjects of a painting and a modello. The Chapter 3, p. 93 subject candidate was adjudicated formal in S6 as `has_subject` (rel-1582).
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有登记在 `relations.csv` 中的正式关系。S2关系候选 `st-chp3-seciv-l179-187-assumption-relief-represents-luigi-gonzaga` 保留来源归因并留待S6裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [路易吉·贡扎加升天主题浅浮雕（Bas-Relief of the Assumption of Blessed Luigi Gonzaga）](../works/assumption-of-blessed-luigi-gonzaga-bas-relief-s-ignazio.md) | The existing person KU is reused; no separate work title is inferred from the subject phrase.；角色：表现主题；范围：Haskell describes the bas-relief as representing the Assumption of Blessed Luigi Gonzaga. This records its represented subject, not a portrait or an independently established formal title.；原断言与证据见发出端卡片“路易吉·贡扎加升天主题浅浮雕（Bas-Relief of the Assumption of Blessed Luigi Gonzaga）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 93 L185; PDF physical p. 35; statement=st-chp3-seciv-l179-187-assumption-relief-represents-luigi-gonzaga |
+
+第3章 p.93 的S2关系候选 `st-chp3-seciv-l179-187-assumption-relief-represents-luigi-gonzaga` 已登记为 formal `has_subject`（rel-1582）；关系表记录其来源范围与主题限定。

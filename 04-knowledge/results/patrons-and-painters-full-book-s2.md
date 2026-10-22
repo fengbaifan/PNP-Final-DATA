@@ -2,20 +2,19 @@
 
 ### 本轮进度与后续工作（2026-10-23）
 
-本轮完成第18批S4/S5/S6关系端点工作。此前累计登记26个KU、71条S5字段，并对58条关系候选作出明确去向（42 formal、16 pending）；本批新增3个KU、17条 `source_backed` 字段，8条候选均有明确去向（7 formal、1 pending），其中creator边复用既有 `rel-0419`。累计登记29个KU、88条S5字段；累计裁决66条关系候选（49 formal、17 pending）。本批将索引子目、正文作品与图版候选合并至既有《La Burla》KU，并登记Giglioli与Steinbart两篇文章及一项来源局部术语；详情见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp8-p231-la-burla-20261023)。
+本轮完成第19批S4/S5/S6关系端点工作：沿用既有S3 new组登记3个KU及3条候选映射，为新卡补录8条Haskell书内来源支持字段，并将6条直接关系候选逐项裁为formal；没有重开S3决定。逐项依据见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p93-altar-relief-transept-20261023)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,245条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264、第八章487/1,474；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收；统一复核台账待按statement ID与来源版本核平。S3主决定覆盖12,390/12,410个候选，仍缺20项（person 16、institution 2、archive 2）；same=2,028、new=5,032（4,801组）、conflict=9、excluded=100、undecided=5,221（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义逐项复核，不直接视为身份冲突。S4已登记1,538/4,801组（32.0%）、1,755/5,032条候选映射（34.9%），待登记3,263组／3,277条映射。S5有12,416条字段，1,634条unverified。原始 `book-statements.jsonl` 中 `relation_candidate=true` 共10,470条；S6已裁决579/10,470条（359 formal、158 pending、62 rejected；5.5%），余9,891条；relations.csv共1,579条（1,570 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。candidate-backlog共10条（9条完成、1条明确undecided，pending=0）。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,247条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264、第八章487/1,474；第3章1,173/1,183及第10–12章1,567/1,567的独立记录仍分开报告，均未接收；统一复核台账待按statement ID与来源版本核平。S3主决定覆盖12,390/12,410个候选，仍缺20项（person 16、institution 2、archive 2）；same=2,028、new=5,032（4,801组）、conflict=9、excluded=100、undecided=5,221（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义逐项复核，不直接视为身份冲突。S4已登记1,541/4,801组（32.1%）、1,758/5,032条候选映射（34.9%），待登记3,260组／3,274条映射。S5有12,424条字段，1,634条unverified（本批新增字段：enr-16304、enr-16305、enr-16306、enr-16307、enr-16308、enr-16309、enr-16310、enr-16311）。原始book-statements.jsonl中relation_candidate=true共10,472条；S6已裁决585/10,472条（365 formal、158 pending、62 rejected；5.6%），余9,887条；relations.csv共1,585条（1,576 formal、9 pending；本批新增：rel-1580、rel-1581、rel-1582、rel-1583、rel-1584、rel-1585）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。candidate-backlog共10条（9条完成、1条明确undecided，pending=0）。
 
-本批将S2中购入、创作、地点及两条书内引用拆分，新增3条statement；S2独立复核分子与接收状态未变。关系矩阵现支持来源明确的work→term影响边。严格表格审计为 `errors=[]`、`s2_missing=[]`、backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。受影响卡片完成定向预览／渲染后再核对无差异。机械通过不等于语义接收或全书阶段收口。全库卡片预检仍受既有Papal States关系小节不一致阻断；此前全库字段抽取预览曾显示 `record_changes=8`、`new_ids=32`、`removed_ids=32`，未应用全表重写，须先逐项解释差异再处理。
+本批新增2条S2原子关系statement，均引用既有mentions与第3章p.93 L185；统一S2独立复核分子不变。S5字段均来自Haskell书内原句；关系裁决限于设计、以浮雕完成祭坛、表现贡扎加升天主题、祭坛位置、浮雕组成祭坛及左耳堂属于教堂。此批不作外部作品身份核验，也不把S2定向补充分子并入独立审读。严格表格审计为errors=[]、s2_missing=[]、backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0；7张受影响卡片渲染后定向预览无差异。全库卡片预检仍被Papal States关系小节不匹配阻断；全库字段抽取只读预览为record_changes=10、new_ids=32、removed_ids=32、source_registry_changes=0，未应用，待逐项解释。
 
 **后续工作规划。**
 
-1. **先补S3主决定缺口，再按类型分组。** 针对20个缺少主决定的候选逐一建立可追溯去向；将22项跨来源decision差异与真实身份冲突分开核查。随后优先处理已影响直接关系端点、同名跨章对象和类型边界未决项；其余undecided继续保留具体理由与解除条件，不做无证据批量改判。
-2. **用S4/S6成对批次处理直接端点。** 当前3,263个新组、3,277条候选映射待登记；按既有S3身份组批量登记KU，紧接着逐项裁决其直接关系候选。先处理339条缺S2端点候选ID的关系中可由原文定位的对象，再处理端点完整且证据直接的关系；不足处记pending或rejected及理由。
-3. **核平并继续S2独立语义复核。** 先按当前statement ID与来源版本对齐9,573条复核记录，再从覆盖较低的第八章487/1,474继续连续页段；第七章目前1,146/1,264。第3章与第10–12章的独立记录继续分开，复核、语义接收与机械覆盖分别报告。
-4. **分批处理S5与S6队列。** 对1,634条 `unverified` 字段按来源与字段风险核实；对剩余9,891条关系候选先依端点完整度、谓词方向和证据范围分层。保留已知全表抽取 `8/32/32` 差异，逐项确认后再决定是否应用，避免无关全表改写。
-5. **S2–S6达成收口条件后准备S7。** S2台账核平并完成规定语义接收；S3每个候选有可追溯主决定及待决去向；S4新组完成登记；S5字段有来源核验或明确未决条件；S6全部10,470条候选均为formal、pending或rejected；受影响卡片和全书关系／来源审计通过后再准备发布。知识发现与页面制作尚未启动。
-
+1. **继续按关系解锁价值登记S4并同批裁决S6。** 优先从有直接S2关系、端点证据明确的S3既有new组中批量登记KU；每批完成受影响的全部直接关系候选去向。
+2. **定向补缺端点与关键S5字段。** 对缺少S2候选端点的关系回到具体来源段，补入原子statement并按新证据需要核对身份；字段只按明确缺口补足或记录待证条件。
+3. **继续分章S2独立语义审读。** 先核平statement ID与来源版本台账，再从第八章低覆盖段落连续推进；定向修订不计入独立复核分子。
+4. **S3仅在当前登记或新证据触发时重开。** 不启动全库S3重扫；触发时保留原决定与组号，记录改变判断的具体证据。
+5. **S4/S5/S6满足收口条件并完成全书审计后准备S7。** 知识发现与页面制作仍暂不开展。
 ### S4/S5/S6 archive：第10章 p.302 与第19章 p.392 James Adam 书信端点（2026-10-23）
 
 沿用既有跨章S3 `new`组，登记1个archive KU，新增5条Haskell来源支持字段；三条直接S6关系均裁为formal：`authored_by` James Adam、`addressed_to` Robert Adam、`has_subject` Joseph Smith。最后一条只表明信件讨论Smith的财务状况，不证明实际或后来破产。原信、副本与Fleming刊本均未查阅。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p302-p392-adam-letter-20261023)。

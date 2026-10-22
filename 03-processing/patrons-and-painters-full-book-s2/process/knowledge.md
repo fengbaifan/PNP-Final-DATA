@@ -11101,3 +11101,45 @@ S6对两条候选分别裁为formal：`st-chp5-p124-scaramuccia-print-dedication
 两条正向影响判断由此触发 `relation-domain-range.yml` 中 `influenced_by` 与逆向 `influenced` 的成对域值域扩展；受控词表原有逆谓词已存在，新增矩阵规则见 `06-runtime/governance/CHANGELOG.md` 2026-10-23。未把Haskell的比较性判断改写为独立证实的影响史事实。
 
 **批后状态与边界。** 表格审计报告2,567个KU、12,720条alignment、15,245条statement、1,579条relation及12,416条enrichment，`errors=[]`、`s2_missing=[]`、candidate-backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。S3主决定12,392/12,410；S4登记1,538/4,801组、1,755/5,032映射；S6累计决定579/10,470（359 formal、158 pending、62 rejected），关系表1,570 formal、9 pending。本批未增加S2独立复核记录或接收状态；全文S2、S3、S4、S5、S6均未因此全书收口。
+<a id="s4-s5-s6-chp3-p93-altar-relief-transept-20261023"></a>
+### S4/S5/S6：第3章 p.93 左耳堂祭坛与贡扎加浮雕端点（2026-10-23）
+
+本批只沿用当前alignment.csv中的S3决定，不重开身份裁决。cand-5451、cand-5452与cand-5459分别保持既有new组；Pozzo、Legros、Aloysius Gonzaga与S. Ignazio均指向已登记KU。cand-1379的主决定仍为new并沿用已登记的Pierre II Legros KU；其外部身份行不替代主决定。
+
+| 候选 | S3身份组 | S4 KU | 类型 |
+|---|---|---|---|
+| cand-5451 | workgrp-fceb5486119b13 | units/works/pozzo-1697-altar-s-ignazio-left-transept | work |
+| cand-5452 | workgrp-94bba391cc10ad | units/works/assumption-of-blessed-luigi-gonzaga-bas-relief-s-ignazio | work |
+| cand-5459 | sg3-place-cand-5459 | units/places/left-transept-s-ignazio | place |
+
+新增三张卡均以Haskell第3章印刷页93、L185为直接书内来源；未作外部作品身份核验。S5新增字段如下，共8条，均为source_backed：
+
+| enrichment ID | KU | 字段 | 状态 |
+|---|---|---|---|
+| enr-16304 | units/works/pozzo-1697-altar-s-ignazio-left-transept | 描述性名称 | source_backed |
+| enr-16305 | units/works/pozzo-1697-altar-s-ignazio-left-transept | 作品类型 | source_backed |
+| enr-16306 | units/works/pozzo-1697-altar-s-ignazio-left-transept | 设计年份 | source_backed |
+| enr-16307 | units/works/assumption-of-blessed-luigi-gonzaga-bas-relief-s-ignazio | 描述性名称 | source_backed |
+| enr-16308 | units/works/assumption-of-blessed-luigi-gonzaga-bas-relief-s-ignazio | 作品类型 | source_backed |
+| enr-16309 | units/works/assumption-of-blessed-luigi-gonzaga-bas-relief-s-ignazio | 来源所述主题 | source_backed |
+| enr-16310 | units/places/left-transept-s-ignazio | 描述性名称 | source_backed |
+| enr-16311 | units/places/left-transept-s-ignazio | 空间类型 | source_backed |
+
+原段已含四条直接关系候选：Pozzo设计祭坛、Legros以浮雕完成祭坛、浮雕表现Blessed Luigi Gonzaga升天主题、祭坛位于左耳堂。新增两条S2原子statement：浮雕是该祭坛组成部分；左耳堂属于S. Ignazio。两条均复用既有mention/candidate，不新增mention，不计入独立S2审读。
+
+| S2关系候选 | 决定 | 正式关系 | 裁决依据 |
+|---|---|---|---|
+| st-chp3-seciv-l179-187-pozzo-designed-1697-altar | formal | rel-1580 designed_by | Haskell directly says Padre Pozzo designed the altar in 1697. This records the design attribution and year stated in the passage; it does not assert completion or present condition. |
+| st-chp3-seciv-l179-187-legros-completed-altar-with-relief | formal | rel-1581 contributed_by | Haskell says Legros completed the altar with an appealing bas-relief. This records his stated contribution to the altar's completion; it does not identify him as the altar's designer or claim that he alone made the relief. |
+| st-chp3-seciv-l179-187-assumption-relief-represents-luigi-gonzaga | formal | rel-1582 has_subject | Haskell describes the bas-relief as representing the Assumption of Blessed Luigi Gonzaga. This records its represented subject, not a portrait or an independently established formal title. |
+| st-chp3-seciv-l179-187-pozzo-altar-located-left-transept | formal | rel-1583 located_at | Haskell places the 1697 altar in the left transept of S. Ignazio. This records the historical location stated in the passage and makes no claim about present survival. |
+| st-chp3-seciv-l179-187-relief-part-of-1697-altar | formal | rel-1584 part_of | Haskell says Legros completed the altar with an appealing bas-relief. This records the relief as a component used to complete the altar; it does not assert the relief's separate installation history or present location. |
+| st-chp3-seciv-l179-187-left-transept-part-of-s-ignazio | formal | rel-1585 part_of | The source calls this space the left transept of S. Ignazio. This records the transept as part of that church and does not claim a present-day architectural survey. |
+
+Legros的角色限于原文所述以浮雕完成祭坛，不推为祭坛设计者或浮雕唯一制作者；has_subject记录主题，不当作人物肖像或正式作品题名；part_of两边分别表达浮雕与祭坛的组成关系、耳堂与教堂的空间组成关系。六条关系均有第3章p.93 L185的Haskell书内证据。
+
+批后：S2为9,573/15,247，独立复核分子不变；第3章独立章节覆盖为1,173/1,183。S3决定与分组未变。S4登记1,541/4,801组、1,758/5,032条映射；S5字段12,424条（1,634条unverified）；S6裁决585/10,472（365 formal、158 pending、62 rejected）；relations.csv为1,585条（1,576 formal、9 pending）。
+
+audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、candidate-backlog pending=0；关系表1,585条、字段表12,424条、S2 statements 15,247条。audit_relation_consistency.py 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。七张受影响卡片渲染后定向预览均无差异。
+
+全库 build_cards.py --check 仍被 units/institutions/papal-states 的关系小节存在性不匹配阻断。全库 build_field_facts.py 只读预览报告 record_changes=10、new_ids=32、removed_ids=32、source_registry_changes=0；未应用重写，需逐项解释既有差异。上述机械检查不代表全书语义接收或S4–S6收口。
