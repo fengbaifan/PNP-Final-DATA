@@ -11071,3 +11071,33 @@ S6 对两个原书关系候选逐项裁决为 formal：`st-chp2-secii-l147-193-f
 S6对两条候选分别裁为formal：`st-chp5-p124-scaramuccia-print-dedication` → `rel-1571 dedicated_to` Simonelli；`st-chp5-note-p124-n1-scaramuccia-dedicated-by` → `rel-1572 dedicated_by` Scaramuccia。二边方向不同，分别记录受献者与题献者，不合并成作者关系。此前过程记录提示正文作品候选与索引候选需核映射（`stages.md` 第5章 p.124注1批）；本次按现有S3同组决定和原文页锚完成S4，不新增或改写S2 statement。
 
 **卡片与批后核验。** 更新版画、Scaramuccia与Simonelli三张卡；定向渲染报告3张卡、5个字段表、17行字段、7条关系投影，写入后均通过字节核验。三卡随后逐一 `--preview` 均无差异。`audit_tables.py --strict-stage --summary` 报告2,564个KU、12,720条alignment、1,572条relation、12,399条enrichment，`errors=[]`、`s2_missing=[]`、backlog pending=0；`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。此机械核验不构成S2语义接收或S3–S6全书收口。
+
+
+<a id="s3-s4-s5-s6-chp8-p231-la-burla-20261023"></a>
+
+### S3身份分组／S4／S5／S6：第8章 p.231《La Burla》、引注与地点（2026-10-23）
+
+**S3跨源身份裁决。** 对照Haskell第8章印刷页231（PDF物理页33）、图版目录第37c项及第21章书目：`cand-1068` 是F.csv#83中挂在Franceschini名下的作品子目，不是Franceschini人物；它与正文 `cand-7860`、图版 `cand-4006` 指同一幅《La Burla》，统一映射到既有 `units/works/baldassare-franceschini-la-burla-del-piovano-arlotto`，不重复建卡。正文候选 `cand-7860` 原先的S3 `new` 决定改为 `same`，历史决定与理由保留在 `aln-8035`；索引候选 `cand-1068` 由undecided改为same，见 `aln-1403`。
+
+`cand-7866` 的短引注“Giglioli, 1908”与第21章书目L526–527唯一的Giglioli 1908文章对应，身份定为新archive组 `archive-group-giglioli-volterrano-uffizi-1908`（`aln-8041`）。Treccani《Volterrano》书目列 *Bollettino d’Arte* VII (1908), pp.355–358；文化部期刊扫描首页为印刷页355。Haskell书目所载pp.335–358与外部书目信息冲突，完整保留为页码异文。官方扫描首页及百科条目支持文章身份与题材相关性，但文章全文未读；本裁决不认定Giglioli文章所说的具体画与Haskell图版／Pitti No.582为同一物件。来源：[文化部原刊扫描](https://bollettinodarte.cultura.gov.it/wp-content/uploads/Importer/1349785796180_6_-_Odoardo_H._Giglioli_p._355.pdf)、[Treccani《Volterrano》](https://www.treccani.it/enciclopedia/volterrano_(Enciclopedia-Italiana)/)，访问日期2026-10-23。
+
+`cand-7867` 沿用S3 `new`组 `archive-group-7dc45d864705`；将p.231脚注OCR “Steinhart”与页图／第21章书目“Steinbart”校为同一1936年 *Pantheon* 文章，登记新archive，不声称读过文章。`cand-12095` 沿用 `sg3-term-cand-12095`，登记为Haskell在p.231所述的来源局部“十五世纪托斯卡纳叙事传统”术语，不把它定义成整个地区或传统。负向比较项 `cand-12096` 仍为独立S3 `new`对照候选，不把自然主义当作正向影响端点，也未在本批创建该项S4卡。更新记录见 `aln-8042`、`aln-12258`。
+
+**S4登记与S5字段。** 登记三张新卡：Giglioli 1908文章、Steinbart 1936文章、Haskell p.231来源局部术语；同一La Burla作品复用既有KU。accepted、manifest与alignment同步。用 `build_field_facts.py` 的解析函数仅对上述三张新卡及La Burla既有卡做定向预览，确认无warning、无既有字段变更，随后只追加17条 `source_backed` 字段 `enr-16287`–`enr-16303`，并新增两条外部来源登记；原有enrichment和source行未被全表重写。媒材字段记录Haskell所述tempera，不推定未名私人市民身份或独立委托关系。
+
+**S6逐候选裁决。** 新增3条statement（creator、Giglioli引注、Steinbart引注），将既有购入statement限缩为收购断言，并把note 2拆成地点与两条文献引注。8个有关系候选均有明确决定：
+
+| statement | 决定与关系 | 依据与去向 |
+|---|---|---|
+| `st-chp8-p231-la-burla-purchase-and-making` | formal，新增 `rel-1573 acquired_by` | 作品→Ferdinand；保留“1693年前”，不再把创作、匿名私人市民合并进购入边。 |
+| `st-chp8-p231-la-burla-created-by` | formal，复用既有 `rel-0419 created_by` | 作品→Franceschini；仅记录Haskell的作者、蛋彩媒材及“many years earlier”报告，不增设匿名委托人。 |
+| `st-fm-pl-p37c-figure` | formal，新增 `rel-1574 has_subject` | 作品题名所指Piovano Arlotto；复用既有Arlotto Mainardi身份，不推定其为模特。 |
+| `st-chp8-p231-note2-cites-giglioli-1908` | formal，新增 `rel-1575 cites` | Haskell archive→Giglioli文章；仅记录书内引用。 |
+| `st-chp8-p231-note2-cites-steinbart-1936` | formal，新增 `rel-1576 cites` | Haskell archive→Steinbart文章；仅记录书内引用。 |
+| `st-chp8-p231-note2-la-burla-location-history` | pending，新增 `rel-1577 located_at` | Haskell注2称Pitti No.582，但同卷图版目录称Uffizi；Treccani的Pitti记载未能证明特定实物相同，暂不消解。 |
+| `st-chp8-p231-la-burla-style-and-subject` | formal，新增 `rel-1578 influenced_by` | 作品→十五世纪托斯卡纳叙事传统；只记录Haskell的风格比较判断。 |
+| `st-chp8-p231-la-burla-subject-inspiration` | formal，新增 `rel-1579 influenced_by` | 作品→同一术语；与风格判断分开，记录题材灵感比较。 |
+
+两条正向影响判断由此触发 `relation-domain-range.yml` 中 `influenced_by` 与逆向 `influenced` 的成对域值域扩展；受控词表原有逆谓词已存在，新增矩阵规则见 `06-runtime/governance/CHANGELOG.md` 2026-10-23。未把Haskell的比较性判断改写为独立证实的影响史事实。
+
+**批后状态与边界。** 表格审计报告2,567个KU、12,720条alignment、15,245条statement、1,579条relation及12,416条enrichment，`errors=[]`、`s2_missing=[]`、candidate-backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。S3主决定12,392/12,410；S4登记1,538/4,801组、1,755/5,032映射；S6累计决定579/10,470（359 formal、158 pending、62 rejected），关系表1,570 formal、9 pending。本批未增加S2独立复核记录或接收状态；全文S2、S3、S4、S5、S6均未因此全书收口。

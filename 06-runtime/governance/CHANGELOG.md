@@ -3,6 +3,12 @@
 > 治理日志已冻结归档：`user-revisions.md` 与 `system-upgrade-log.md` 自 2026-09-25 起只读，不再追加。
 > 此后的规则与系统变更只记在这里，按时间倒序；`current-requirements.md` 仍索引有效要求。
 
+## 2026-10-23
+
+### 允许作品以来源传统作为影响端点
+
+第八章 p.231 将《La Burla》的风格及题材灵感归于十五世纪托斯卡纳叙事传统。为保留这两条有明确来源限定的作品影响关系，`influenced_by` 的域值域扩为 person/work → person/term/work，并同步扩展逆向 `influenced` 为 person/term/work → person/work。该矩阵调整不改变既有关系，仅允许登记来源明确的作品—术语影响边。
+
 ## 2026-10-22
 
 ### 按反向谓词区分同端点关系投影

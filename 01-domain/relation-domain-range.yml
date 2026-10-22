@@ -57,7 +57,8 @@ domain_range:
   sender_of:        {domain: [person], range: [work]}
   held_by:          {domain: [work], range: [institution, person]}
   honourer_of:      {domain: [person], range: [person]}
-  influenced_by:    {domain: [person], range: [person]}
+  influenced:       {domain: [person, term, work], range: [person, work]}
+  influenced_by:    {domain: [person, work], range: [person, term, work]}
   installed_at:     {domain: [work], range: [place]}
   intended_for:     {domain: [work], range: [institution, place]}
   intended_site_of: {domain: [place], range: [work]}

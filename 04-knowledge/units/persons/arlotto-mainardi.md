@@ -69,7 +69,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）](../works/baldassare-franceschini-la-burla-del-piovano-arlotto.md) | S3 identity is reused; no sitter claim is inferred.；角色：题名所指人物；范围：The plate-list title names Piovano Arlotto as the painting’s subject. The personal identity is aligned to Arlotto Mainardi through the existing S3 decision; this edge concerns iconographic subject, not sitter status.；原断言与证据见发出端卡片“阿尔洛托教区神父的玩笑（La Burla del Piovano Arlotto）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；printed p. xiv, lines 105–106; statement=st-fm-pl-p37c-figure |
+
 
 ### 关系候选入口
 
