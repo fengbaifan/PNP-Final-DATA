@@ -2530,6 +2530,9 @@ units:
 - 04-knowledge/units/archives/libri-di-memorie-antonio-benigna-ms-ital-cl-vii-1620.md
 - 04-knowledge/units/terms/manin-style-coloured-marble-stucco-draperies.md
 - 04-knowledge/units/terms/assumption-of-the-virgin-dedication-santa-maria-assunta.md
+- 04-knowledge/units/works/crespi-children-at-play.md
+- 04-knowledge/units/works/crespi-satirical-picture-don-carlo-silva.md
+- 04-knowledge/units/works/crespi-women-washing-at-fountain.md
 
 claims:
 - m1-papal-nephews-led-patronage
@@ -2544,7 +2547,4 @@ claims:
 - m10-rosa-independence-and-exceptions
 - m11-patronage-instability-and-market
 - m12-academy-and-bent-overlap
-- 04-knowledge/units/works/crespi-children-at-play.md
-- 04-knowledge/units/works/crespi-satirical-picture-don-carlo-silva.md
-- 04-knowledge/units/works/crespi-women-washing-at-fountain.md
 structure: []
