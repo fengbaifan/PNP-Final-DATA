@@ -10993,3 +10993,29 @@ accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` �
 | st-chp8-p217-flood-placed-south-door | pending（过程记录） | 两端分别为work，但受控关系没有work→work的“位于构件上方”类型；located_at仅允许指向place或institution。保留南门上方这一精确位置，不将端点降格替换为整座教堂，也不创建不受控正式边；只有受控关系能表达该空间关系或原端点身份发生变化时再审。 |
 
 定向渲染南入口和Giovanni da Campione两卡：所选预检通过，2张卡、3个表、4行字段、2条关系投影受检；渲染后字节核对通过。人物卡更新为南入口建造关系已记录、门廊建造候选仍待审，移除过期的“两个关系均留待S6”说明。本批未改S2 statement或独立复核分子。机械检查只确认受影响记录和卡片投影，不代表全书阶段接收。
+
+
+<a id="s3-s4-s5-s6-20261023-bellori-nota-musei-cross-chapter"></a>
+
+### S3身份分组／S4／S5／S6：第21章书目 Bellori《Nota delli Musei》附录组（2026-10-23）
+
+**S3身份判断与类型边界。** cand-4805沿用既有new决定与组archive-group-bellori-nota-musei-1664，登记为[1664年书目附录项目](../../../04-knowledge/units/archives/nota-delli-musei-roma-1664-appendix.md)。Haskell第21章印刷页414影像（PDF物理页4）给出完整题名、[Bellori, G. P.]责任者形式、appendice a Lunadoro: Relatione della corte di Roma、Roma e Venezia 1664；第2、5、6章短引文据此并入该书目身份。Treccani《古代艺术百科》称该题名见于1663、1664、1667年的刊本，且归属Bellori未完全证实；故本组限定在Haskell所列1664年书目项目，不把Bellori作者身份写成已确认，也不把所有年份版本合并。Haskell被引刊本及其被引页均未独立查阅。
+
+**新增S1端点与S3分组。** 按backlog规则新建cand-12431（《Relatione della corte di Roma》题名端点）和cand-12432（书目责任者形式Lunadoro）。前者分入新组archive-group-lunadoro-relatione-della-corte-di-roma，映射至[Relatione题名卡](../../../04-knowledge/units/archives/relatione-della-corte-di-roma.md)；后者分入新组person-group-girolamo-lunadoro-1575-1642，映射至[Girolamo Lunadoro人物卡](../../../04-knowledge/units/persons/girolamo-lunadoro.md)。S3未发现同一已登记KU。Treccani DBI将Relatione归于Girolamo Lunadoro，并与侄子Romolo区分；LILLIT记录IT ICCU UM1E 023143列出完整书名、Girolamo Lunadoro及1664年威尼斯刊本。Google Books另有Brigonci 1664年、248页记录；其公开题名和目录信息没有确认Bellori附录在该具体副本中。不同目录记录仅用于身份比较，未互相强并，也未把出版者、页数或装订状态倒填至Haskell所指的具体副本。S3沿用／新增证据分别记于aln-4988、aln-12720–aln-12723。
+
+**S4登记与S5字段。** 完成3个S4映射：cand-4805→units/archives/nota-delli-musei-roma-1664-appendix，cand-12431→units/archives/relatione-della-corte-di-roma，cand-12432→units/persons/girolamo-lunadoro；对应bl-0007、bl-0008均完成S1→S3→S4。新增11条Haskell原书或Treccani支持字段：Nota 4条、Relatione 5条、Lunadoro人物2条。LILLIT与Google Books的外部目录限定保留在卡片来源及本过程，不作为Haskell原书字段；不补充无关传记信息。
+
+**S6逐项裁决。**
+
+| S2 statement | 决定 | 去向与范围 |
+|---|---|---|
+| st-chp5-note-p124-n1-cites-bellori-nota | formal | rel-1559 cites：Haskell→Nota；仅记第5章p.124注1书内引注。 |
+| st-chp6-notes-l157-p156-n2-bellori-citation | formal | rel-1560 cites：Haskell→Nota；仅记第6章p.156注2引注，不推断被引页。 |
+| st-chp21-bib-l129-163-nota-part-of-relatione | formal | rel-1561 part_of：Nota→Relatione题名；只表达书目所载附录关系，不确认Haskell所指物理副本的装订内容。 |
+| st-chp21-bib-l129-163-relatione-authored-by-lunadoro | formal | rel-1562 authored_by：Relatione→Girolamo Lunadoro；Treccani与LILLIT支持作者身份及书名。关系指向题名层级作品，不声称已核对具体副本。 |
+| st-chp21-bib-l129-163-nota-attributed-to-bellori | pending | 保留Haskell方括号责任者归属；Treccani指出归属未完全证实，且受控谓词不能表达“书目将作品归于某人”而不断言作者。待有直接身份／版本证据或精确谓词后复核，不建authored_by边。 |
+| st-chp5-seciv-note-l47-p144-bellori-nota-refers-to-de-rossi-collection | pending | cand-11484仍为类型／身份未决，且refers_to_collection不是当前受控关系；保留原文指涉，不改成所有权或馆藏关系。 |
+
+**来源范围与交接。** Treccani《BELLORI, Giovanni Pietro》，Enciclopedia dell’Arte Antica (1959)，https://www.treccani.it/enciclopedia/giovanni-pietro-bellori_(Enciclopedia-dell'-Arte-Antica)/，访问日期2026-10-23：用于版本年份与作者归属限定。Filippo Crucitti, “LUNADORO, Girolamo,” Dizionario Biografico degli Italiani 66 (2006)，https://www.treccani.it/enciclopedia/girolamo-lunadoro_(Dizionario-Biografico)/，访问日期2026-10-23：支持全名、作品归属与多版次背景。LILLIT记录IT ICCU UM1E 023143，https://lillit.share-family.org/lillit/resource?uri=476690，访问日期2026-10-23：支持书名、责任者及1664威尼斯书目记录。Google Books ID kG5UAAAAcAAJ，https://books.google.com/books?id=kG5UAAAAcAAJ，访问日期2026-10-23：另列1664年Brigonci记录；不据其目录宣称含Bellori附录。外部身份／书目记录不等于阅读刊本或被引页。
+
+**批后状态。** 新增3条S2 statement，统一独立复核分子不变；S3主决定12,390/12,410；S4登记1,531/4,801组、1,747/5,032候选映射；S5为12,388条，unverified仍为1,634；S6为562/10,465（343 formal、157 pending、62 rejected），relations.csv为1,562条（1,554 formal、8 pending）；candidate-backlog 8条、7条完成、1条undecided、pending=0。新增卡片字段提取11条且均有来源；三张卡片关系视图已渲染，写后字节核对通过；audit_tables.py --strict-stage --summary为errors=[]、s2_missing=[]，关系一致性审计的broken target、invalid type、missing inverse、weak evidence、unbaselined generic均为0。全库卡片预检仍因既有Papal States关系小节不一致而中断；全库字段抽取预览还显示record_changes=8、new_ids=32、removed_ids=32，未执行全表写回，作为后续S5台账对齐事项。

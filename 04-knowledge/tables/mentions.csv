@@ -27354,3 +27354,6 @@ m-chp8-p240-cook-display-here,chp-8:08_CHP-8_sec_ii:l350-359,cand-1041,here,1974
 m-chp8-p240-note4-ibid,chp-8:08_CHP-8_sec_ii:l372-461,cand-7894,ibid.,13725,13730,The note’s “ibid.” refers to the Fogolari 1937 publication.
 m-chp8-p240-note4-letter120,chp-8:08_CHP-8_sec_ii:l372-461,cand-7950,Letter 120,13732,13742,Specific letter locator and date in Haskell’s p.240 note 4.
 m-chp8-p234-note4-letter120,chp-8:08_CHP-8_sec_ii:l372-461,cand-7950,Letter 120,7982,7992,Specific letter locator and date in Haskell’s p.234 note 4.
+m-chp21-bib-l1301-1306-relatione,chp-21:21_CHP-21Bibliography:l1301-1306,cand-12431,Relatione della corte di Roma,212,241,Title appears in page-image bibliography entry; displaced from S0 OCR segment.
+m-chp21-bib-l1301-1306-lunadoro,chp-21:21_CHP-21Bibliography:l1301-1306,cand-12432,Lunadoro,202,210,Responsibility form in page-image entry; full identity resolved through Treccani DBI and LILLIT.
+m-chp21-bib-l1301-1306-bellori-attribution,chp-21:21_CHP-21Bibliography:l1301-1306,cand-3056,"[Bellori, G. P.]",56,72,Bracketed responsibility form in printed bibliography; not treated as verified authorship.
