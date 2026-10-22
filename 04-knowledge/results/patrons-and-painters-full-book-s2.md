@@ -2,11 +2,11 @@
 
 ### 本轮进度与后续工作（2026-10-23）
 
-本轮完成第21批S4/S5/S6跨章端点工作：沿用四个既有S3 `new`组，登记四个archive KU及四条候选映射；补入两处脚注局部mention、四条书信发信/收信原子statement，并增加17条Haskell书内支持字段。对19条直接S6候选逐项裁决：14条formal、5条rejected，新增12条formal关系记录并复用两条既有/本批关系；未重开S3。原信、馆藏目录及Mauroner文章未独立查阅。逐项依据见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp16-p373-strange-sasso-endpoints-20261023)。
+本轮完成第22批S3/S4/S5/S6端点工作：将第七章十幅阿波罗与缪斯画作裁为来源限定作品群并登记；新增6条Haskell书内支持字段。该组的3条直接关系候选均有去向：1条formal、2条pending。礼物是否送达、接收者与个体画作身份仍未证实。逐项依据见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-baglione-muses-20261023)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,253条statement；统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264、第八章487/1,474；第3章1,173/1,183、第10–12章1,567/1,567的独立章节记录仍分开报告，均未接收；第16章当前复核记录206/210，新增4条定向statement不计入独立复核。统一复核台账仍待按statement ID与来源版本核平。S3主决定覆盖12,390/12,410个候选，缺20项；same=2,028、new=5,032（4,801组）、conflict=9、excluded=100、undecided=5,221（含622项类型未定）；另22项跨来源决定不同。S4已登记1,548/4,801组（32.2%）、1,765/5,032条候选映射（35.1%），待登记3,253组／3,267条映射。S5共12,452条字段，1,634条 `unverified`。relation_candidate=true共10,478条；S6已裁决610/10,478条（383 formal、160 pending、67 rejected；5.8%），余9,868条；`relations.csv`共1,601条（1,592 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。`candidate-backlog.csv`共10条，9条完成、1条明确undecided，pending=0。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,253条statement；统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264、第八章487/1,474；第3章1,173/1,183、第10–12章1,567/1,567的独立章节记录仍分开报告，均未接收；第16章当前复核记录206/210，新增4条定向statement不计入独立复核。统一复核台账仍待按statement ID与来源版本核平。S3主决定覆盖12,390/12,410个候选，缺20项；same=2,028、new=5,033（4,802组）、conflict=9、excluded=100、undecided=5,220（含622项类型未定）；另22项跨来源决定不同。S4已登记1,549/4,802组（32.3%）、1,766/5,033条候选映射（35.1%），待登记3,253组／3,267条映射。S5共12,458条字段，1,634条 `unverified`。relation_candidate=true共10,478条；S6已裁决613/10,478条（384 formal、162 pending、67 rejected；5.9%），余9,865条；`relations.csv`共1,602条（1,593 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。`candidate-backlog.csv`共10条，9条完成、1条明确undecided，pending=0。
 
-本批只记录Haskell书内归属、引注、通信与馆藏定位，不声称独立查阅书信原件、馆藏目录或Mauroner文章。S3决定与身份组未改变；新增S2关系statement及mention不计入独立复核分子。关系视图仅在定向预览后更新受影响卡片。
+本批S3仅改变被直接登记触发的 `cand-6693` 身份决定；S2 statement与mention、独立复核分子均未改变。formal关系视图经定向预览后仅更新作品群卡与黎塞留人物卡。
 
 **后续工作。**
 
@@ -15,6 +15,14 @@
 3. 先核平S2复核台账的statement ID与来源版本，再接续低覆盖章节的独立逐条审读；定向修订不并入复核分子。
 4. S3只在当前登记或新证据触发时复核；逐类型推进既有未决队列。
 5. 完成S4、S5、S6收口及全库核验后准备S7；知识发现与页面仍暂不开展。
+
+### S3身份分组／S4登记／S5来源字段／S6裁决：第七章 p.175 阿波罗与缪斯十幅画（2026-10-23）
+
+`cand-6693`（`aln-6870`）由undecided裁为new，建立来源限定作品群并登记KU `units/works/ten-pictures-apollo-muses-baglione-rome`。身份范围仅为Haskell所称十幅以阿波罗与缪斯为题、由Giovanni Baglione从罗马带来的作品群；不识别单幅作品、作者或版本，也不与《公共幸福战胜危险》合并。费迪南多提议将画作送作礼物，但送达、接收者与接受状态未确认。
+
+S4新增一条候选映射；S5新增6条source_backed字段，均指向Haskell第7章印刷页175 L64–65（PDF物理页9）。未查证单幅作品的外部身份。
+
+S6逐项裁决三条直接候选：`st-chp7-p175-i17` pending（礼物提议未说明接收者且不证明送达）；`st-chp7-p175-i18` pending（玛丽提出描绘要求，但原文未说明是否实施，当前关系词表不能精确表达该请求）；`st-chp7-p175-i19` formal，新增 `rel-1602 influenced`（作品群→黎塞留），只记录Haskell所述的间接注意力影响，不推断购入。未改动S2 statements或mentions，未增加独立S2复核计数。
 ### S4/S5/S6 archive：第10章 p.302 与第19章 p.392 James Adam 书信端点（2026-10-23）
 
 沿用既有跨章S3 `new`组，登记1个archive KU，新增5条Haskell来源支持字段；三条直接S6关系均裁为formal：`authored_by` James Adam、`addressed_to` Robert Adam、`has_subject` Joseph Smith。最后一条只表明信件讨论Smith的财务状况，不证明实际或后来破产。原信、副本与Fleming刊本均未查阅。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-p302-p392-adam-letter-20261023)。

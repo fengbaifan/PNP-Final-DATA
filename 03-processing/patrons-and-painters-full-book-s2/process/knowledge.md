@@ -11232,3 +11232,21 @@ Legros的角色限于原文所述以浮雕完成祭坛，不推为祭坛设计�
 audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、candidate-backlog pending=0；关系表1,585条、字段表12,424条、S2 statements 15,247条。audit_relation_consistency.py 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。七张受影响卡片渲染后定向预览均无差异。
 
 全库 build_cards.py --check 仍被 units/institutions/papal-states 的关系小节存在性不匹配阻断。全库 build_field_facts.py 只读预览报告 record_changes=10、new_ids=32、removed_ids=32、source_registry_changes=0；未应用重写，需逐项解释既有差异。上述机械检查不代表全书语义接收或S4–S6收口。
+
+
+<a id="s3-s4-s5-s6-chp7-p175-baglione-muses-20261023"></a>
+### S3身份分组／S4登记／S5来源字段／S6裁决：第七章 p.175 阿波罗与缪斯十幅画（2026-10-23）
+
+**S3跨章身份决定。** 将 `cand-6693`（`aln-6870`）从undecided裁为new，建立来源限定作品群 `workgrp-d93f8b0b50ebfb`，登记KU `units/works/ten-pictures-apollo-muses-baglione-rome`。身份粒度为原文明确的十幅画作群；不把未名单件画、画家或版本视为已识别对象，也不与《公共幸福战胜危险》合并。Haskell称这组画由Giovanni Baglione几年前从罗马带来，并记费迪南多提议作为礼物送出。提议不证明送达、接收或接受。
+
+**S4/S5。** 新增一张work卡及一条候选映射；卡内六项S1来源字段的enrichment ID为 `enr-16340, enr-16341, enr-16342, enr-16343, enr-16344, enr-16345`，均由Haskell第7章印刷页175 L64–65（PDF物理页9）支持。未作外部作品身份确认。
+
+**S6逐候选裁决。** 本批覆盖与该作品群直接相关的三条关系候选；S2 statements与mentions未改动，也未计入独立S2审读。
+
+| statement_id | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp7-p175-i17` | pending | 费迪南多提议将画作作为礼物送出；该句未标明接收者，也不证明实际送达或接受。保留S2断言，不造已完成的赠与关系。 |
+| `st-chp7-p175-i18` | pending | 玛丽要求限制缪斯的裸露与放荡描绘；原文未说明要求是否实施，当前受控谓词不能精确表达该请求，不以赞助或委托关系代替。 |
+| `st-chp7-p175-i19` | formal | 新增 `rel-1602 influenced`：作品群→黎塞留。只记录Haskell明确称其“间接”引起黎塞留对曼图亚的关注，不推断购入或取得这十幅画。 |
+
+**批后统计。** S3主决定12,390/12,410；new为5,033（4,802组），undecided为5,220，缺主决定20项。S4登记1,549/4,802组、1,766/5,033条映射；待登记3,253组／3,267条映射。S5为12,458条字段（1,634条unverified）。S6累计613/10,478（384 formal、162 pending、67 rejected）；`relations.csv`为1,602条（1,593 formal、9 pending）。本批未改变S2独立复核分子；全书S2尚未接收，S3–S6仍未全书收口。

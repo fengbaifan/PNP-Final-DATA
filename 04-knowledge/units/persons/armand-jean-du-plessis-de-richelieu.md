@@ -37,7 +37,7 @@ sources:
   sentence_summary: Treccani以Armand-Jean Du Plessis de Richelieu为规范条目名，称其为枢机和政治人物，生卒年为1585–1642；用于身份识别，不核实Haskell的艺术史叙述。
   original_quotes: []
 created: '2026-10-18'
-updated: '2026-10-22'
+updated: '2026-10-23'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p175-bacchanals-20261022
 ---
 
@@ -71,6 +71,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [三幅酒神题材作品（Three Bacchanals ordered by Richelieu from Poussin, 1635）](../works/three-bacchanals-ordered-by-richelieu-1635.md) | S6 statement st-chp7-p175-i28; work-group candidate cand-1998; commissioner candidate cand-2189.；时间：1635；角色：作品群委托人；范围：Haskell states that Cardinal Richelieu ordered the source-described three Bacchanals from Poussin in 1635. This records the work-group commission only; individual paintings, execution, completion, and surviving versions are not identified.；原断言与证据见发出端卡片“三幅酒神题材作品（Three Bacchanals ordered by Richelieu from Poussin, 1635）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p. 175 L69; PDF physical p. 9 |
+| ← influenced_by（`influenced_by`，反向投影） | [乔瓦尼·巴廖内自罗马带来的阿波罗与缪斯十幅画（Ten pictures of Apollo and the Muses brought from Rome by Giovanni Baglione）](../works/ten-pictures-apollo-muses-baglione-rome.md) | The source explicitly marks the effect as indirect; acquisition and delivery are not inferred.；角色：间接引起对曼图亚的关注；范围：Haskell says the proposed pictures indirectly turned Cardinal Richelieu’s attention toward Mantua. This records only the reported indirect influence on his attention; it does not say Richelieu acquired the ten pictures.；原断言与证据见发出端卡片“乔瓦尼·巴廖内自罗马带来的阿波罗与缪斯十幅画（Ten pictures of Apollo and the Muses brought from Rome by Giovanni Baglione）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p. 175 L65; PDF physical p. 9; statement=st-chp7-p175-i19 |
 
 
-当前 formal 关系由 `relations.csv` 与卡内关系表呈现。本批新增其作为三幅酒神题材作品委托人的关系；其他候选仍以全书 S6 过程记录中的逐项状态为准。
+当前 formal 关系由 `relations.csv` 与卡内关系表呈现，包含三幅酒神题材作品的委托关系，以及十幅阿波罗与缪斯画作被称为间接引起其对曼图亚关注的关系。其他候选仍以全书 S6 过程记录中的逐项状态为准。
