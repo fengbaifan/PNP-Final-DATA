@@ -87,10 +87,14 @@ English: The index gives Cardinal Giovan Francesco Negroni; the prose mainly use
 
 ### 身份边界
 
-中文：本卡对应唯一候选 `cand-1732`，属于 S3 组 `new-person:francesco-giovan-negroni-9728ee603a`。身份依据为 N.csv#12 的全名，以及第3章 p.84–85 中连续叙述的 Monsignor Negroni／the Cardinal；现有 Negroni family KU 属 family 类型，不与本人物合并，也不据同姓断定家族归属。17条直接 S2 断言端点中15条为关系候选，均留待 S6；本批不新增正式关系、外部身份记录或 S5 补足。
+中文：本卡对应唯一候选 `cand-1732`，属于 S3 组 `new-person:francesco-giovan-negroni-9728ee603a`。身份依据为 N.csv#12 的全名，以及第3章 p.84–85 中连续叙述的 Monsignor Negroni／the Cardinal；现有 Negroni family KU 属 family 类型，不与本人物合并，也不据同姓断定家族归属。17条直接S2断言端点中15条为关系候选；本批已将书信作者关系裁为formal，其余关系候选仍需逐项处理。本批不新增外部身份记录或本人物卡S5字段。
 
-English: This card represents the sole candidate `cand-1732` in S3 group `new-person:francesco-giovan-negroni-9728ee603a`. Identity is anchored by the full form in N.csv#12 and the continuous Chapter 3 account on pp. 84–85, which refers to Monsignor Negroni and then the Cardinal. The existing Negroni family KU is a family, not this person; no family membership is inferred from the surname. Fifteen of 17 direct S2 statement endpoints are relation candidates and remain for S6. This batch adds no formal relations, external identity record, or S5 enrichment.
+English: This card represents the sole candidate `cand-1732` in S3 group `new-person:francesco-giovan-negroni-9728ee603a`. Identity is anchored by the full form in N.csv#12 and the continuous Chapter 3 account on pp. 84–85, which refers to Monsignor Negroni and then the Cardinal. The existing Negroni family KU is a family, not this person; no family membership is inferred from the surname. Fifteen of the 17 direct S2 statement endpoints are relation candidates. This batch adjudicates the letter-author relation as formal; the other relation candidates still require individual decisions. It adds no external identity record or S5 field to this person card.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [内格罗尼致吉安·保罗·奥利瓦关于礼拜堂的信件（Letter from Giovan Francesco Negroni to Gian Paolo Oliva concerning the chapel）](../archives/negroni-letter-to-gian-paolo-oliva-chapel.md) | statement=st-chp3-seciv-l83-94-negroni-letter；仅据Haskell叙述及引文记录，未查阅原信；角色：作者；范围：仅记录Haskell叙述与引文所载的书内作者归属；本处未提供原信手稿身份、日期与保管信息。；原断言与证据见发出端卡片“内格罗尼致吉安·保罗·奥利瓦关于礼拜堂的信件（Letter from Giovan Francesco Negroni to Gian Paolo Oliva concerning the chapel）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；printed p. 85; PDF physical p. 27; lines 85–86 |

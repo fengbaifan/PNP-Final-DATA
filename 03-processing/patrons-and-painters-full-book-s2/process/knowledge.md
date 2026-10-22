@@ -11019,3 +11019,23 @@ accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` �
 **来源范围与交接。** Treccani《BELLORI, Giovanni Pietro》，Enciclopedia dell’Arte Antica (1959)，https://www.treccani.it/enciclopedia/giovanni-pietro-bellori_(Enciclopedia-dell'-Arte-Antica)/，访问日期2026-10-23：用于版本年份与作者归属限定。Filippo Crucitti, “LUNADORO, Girolamo,” Dizionario Biografico degli Italiani 66 (2006)，https://www.treccani.it/enciclopedia/girolamo-lunadoro_(Dizionario-Biografico)/，访问日期2026-10-23：支持全名、作品归属与多版次背景。LILLIT记录IT ICCU UM1E 023143，https://lillit.share-family.org/lillit/resource?uri=476690，访问日期2026-10-23：支持书名、责任者及1664威尼斯书目记录。Google Books ID kG5UAAAAcAAJ，https://books.google.com/books?id=kG5UAAAAcAAJ，访问日期2026-10-23：另列1664年Brigonci记录；不据其目录宣称含Bellori附录。外部身份／书目记录不等于阅读刊本或被引页。
 
 **批后状态。** 新增3条S2 statement，统一独立复核分子不变；S3主决定12,390/12,410；S4登记1,531/4,801组、1,747/5,032候选映射；S5为12,388条，unverified仍为1,634；S6为562/10,465（343 formal、157 pending、62 rejected），relations.csv为1,562条（1,554 formal、8 pending）；candidate-backlog 8条、7条完成、1条undecided、pending=0。新增卡片字段提取11条且均有来源；三张卡片关系视图已渲染，写后字节核对通过；audit_tables.py --strict-stage --summary为errors=[]、s2_missing=[]，关系一致性审计的broken target、invalid type、missing inverse、weak evidence、unbaselined generic均为0。全库卡片预检仍因既有Papal States关系小节不一致而中断；全库字段抽取预览还显示record_changes=8、new_ids=32、removed_ids=32，未执行全表写回，作为后续S5台账对齐事项。
+
+
+<a id="s4-s5-s6-chp3-p85-negroni-letter-oliva-20261023"></a>
+
+### S3沿用／S4／S5／S6 archive：第3章 p.85 Negroni 致 Oliva 的礼拜堂书信（2026-10-23）
+
+**S3身份沿用与来源范围。** 沿用 `cand-5306` 的 S3 `new` 决定及组 `archive-group-3835d8d3b9a8`，不重开身份判断。Haskell 第3章印刷页85（PDF物理页27）称 Negroni 写信给 Gian Paolo Oliva，并引录一段关于命石工开始制作纪念两位教皇记录的信文。关系对象是 Haskell 转引的一封来源局部书信；未查阅原信，原件身份、日期与保管信息均未提供。祭坛上两位教皇徽章的叙述与引文中的书信内容保持区分。
+
+**S4登记与S5字段。** 将 `cand-5306` 映射至 `units/archives/negroni-letter-to-gian-paolo-oliva-chapel`，登记于manifest与accepted。新增 `enr-16276`–`enr-16279` 四条书内支持字段：文献类型、Haskell此处未载成文日期、Haskell引文位置（不是原信页码）及引文内容摘要；均由第3章 p.85、L85–86支持，未生成外部核验字段。
+
+**S6逐条裁决。** 两条关系候选的端点均已登记，类型与方向符合 `archive → person` 域值域；书内直接叙述足以支持“书内责任／收信人”关系。
+
+| statement_id | 决定 | 关系与边界 |
+|---|---|---|
+| `st-chp3-seciv-l83-94-negroni-letter` | formal `rel-1563` | 书信 `authored_by` Cardinal Giovan Francesco Negroni；不据此认定原件或日期。 |
+| `st-chp3-seciv-l83-94-letter-addressed-to-oliva` | formal `rel-1564` | 书信 `addressed_to` Gian Paolo Oliva；仅记录Haskell所引书信的收信人。 |
+
+**卡片与批后交接。** 同步删除Negroni与Oliva人物卡中“本卡未新增正式关系”的过期说明，并修正两张卡的关系候选状态；三张卡的关系视图按relations.csv生成。S3决定未变；S4新增1组／1条映射，S5新增4条 `source_backed` 字段，S6本批2条候选均有明确去向。本次不新增S2 statement，也不把引文中纪念两位教皇的记录另拆成已识别手稿对象。
+
+本轮定向与全表核验：`build_cards.py --render`对三卡预检通过，检查1个字段表、4行字段、4条投影关系并写入3卡；三卡渲染后再次`--preview`均无差异。`audit_tables.py --strict-stage --summary`报告2561个KU、12720条alignment、1564条relation、12392条enrichment，`errors=[]`、`s2_missing=[]`、backlog pending=0；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全量字段抽取仍有record_changes=8、new_ids=32、removed_ids=32，未应用。

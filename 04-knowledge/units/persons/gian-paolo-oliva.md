@@ -91,10 +91,14 @@ English: The normalized name follows the full form Gian Paolo Oliva in Chapter 3
 
 ### 身份边界
 
-中文：本卡只指索引所列 Gian Paolo Oliva。cand-1771的一般人物主项以及cand-1772（and Bernini）、cand-1773（and Borgognone）、cand-1774（and Duke of Parma）、cand-1775（and Gaulli）与cand-1776（and Cardinal Negroni）均隶属同一人物主项；四条原待决person型子目现映射为same。它们锚定第3章这位以全名出现的耶稣会士；第3章后续反复以 Oliva、General Oliva 指称同一人，第6章的 General of the Jesuits 也与之相接。不把 Bernini、Andrea Pozzo、Carlo Maratta 或其他 Jesuit 人物并入本卡。友谊、艺术赞助、召请 Pozzo 及建筑计划仍是书内断言，不构成本轮新增正式关系或外部生平。
+中文：本卡只指索引所列 Gian Paolo Oliva。cand-1771的一般人物主项以及cand-1772（and Bernini）、cand-1773（and Borgognone）、cand-1774（and Duke of Parma）、cand-1775（and Gaulli）与cand-1776（and Cardinal Negroni）均隶属同一人物主项；四条原待决person型子目现映射为same。它们锚定第3章这位以全名出现的耶稣会士；第3章后续反复以 Oliva、General Oliva 指称同一人，第6章的 General of the Jesuits 也与之相接。不把 Bernini、Andrea Pozzo、Carlo Maratta 或其他 Jesuit 人物并入本卡。书信收信人关系已登记为formal；友谊、艺术赞助、召请 Pozzo 及建筑计划仍是书内断言，未在本批另行裁为formal，也未补入外部生平。
 
-English: This card refers only to the indexed Gian Paolo Oliva. cand-1771's general person entry and cand-1772 (and Bernini), cand-1773 (and Borgognone), cand-1774 (and Duke of Parma), cand-1775 (and Gaulli), and cand-1776 (and Cardinal Negroni) all belong to the same person headword; the four previously undecided person-type subentries now map to this KU as same. They anchor to the Jesuit named in full in Chapter 3; the subsequent references to Oliva and General Oliva continue the same account, and Chapter 6's General of the Jesuits is consistent with it. Bernini, Andrea Pozzo, Carlo Maratta, and other Jesuits are not merged into this card. Friendship, patronage, the summons to Pozzo, and architectural plans remain book-reported claims and add neither formal relations nor external biography in this batch.
+English: This card refers only to the indexed Gian Paolo Oliva. cand-1771's general person entry and cand-1772 (and Bernini), cand-1773 (and Borgognone), cand-1774 (and Duke of Parma), cand-1775 (and Gaulli), and cand-1776 (and Cardinal Negroni) all belong to the same person headword; the four previously undecided person-type subentries now map to this KU as same. They anchor to the Jesuit named in full in Chapter 3; the subsequent references to Oliva and General Oliva continue the same account, and Chapter 6's General of the Jesuits is consistent with it. Bernini, Andrea Pozzo, Carlo Maratta, and other Jesuits are not merged into this card. The letter’s addressee relation is recorded as formal; friendship, patronage, the summons to Pozzo, and architectural plans remain book-reported claims and are not formalized in this batch.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [内格罗尼致吉安·保罗·奥利瓦关于礼拜堂的信件（Letter from Giovan Francesco Negroni to Gian Paolo Oliva concerning the chapel）](../archives/negroni-letter-to-gian-paolo-oliva-chapel.md) | statement=st-chp3-seciv-l83-94-letter-addressed-to-oliva；仅据Haskell叙述及引文记录，未查阅原信；角色：收信人；范围：仅记录Haskell叙述所载的书内收信人；本处未提供原信手稿身份、日期与保管信息。；原断言与证据见发出端卡片“内格罗尼致吉安·保罗·奥利瓦关于礼拜堂的信件（Letter from Giovan Francesco Negroni to Gian Paolo Oliva concerning the chapel）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；printed p. 85; PDF physical p. 27; line 85 |
