@@ -54,6 +54,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-尚无本批新增正式关系。`st-chp10-p299-gori-guicciardini-and-museum`、`st-chp10-p328-n02-letter-addressed-to-gori`、`st-chp13-p342-notes-note6-letter-to-gori-locator`、`st-chp13-p344-gori-latin_commentary` 均保留为S2关系候选，待S6逐条审查；身份对齐不单独证明其谓词或转述内容。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [老安东·玛丽亚·扎内蒂致安东·弗朗切斯科·戈里的信，1752年12月22日（Letter from Anton Maria Zanetti the Elder to Anton Francesco Gori, 22 December 1752）](../archives/zanetti-letter-to-gori-1752-12-22-marucelliana-b-viii-13-p-400.md) | S6 decision: formal; recipient is explicit in Haskell note 6.；时间：1752-12-22；角色：收信人；范围：Haskell第13章印刷页342注6明确称该信写给A. F. Gori；仅记录书内所列收信人，不表示本项目已查阅原信。；原断言与证据见发出端卡片“老安东·玛丽亚·扎内蒂致安东·弗朗切斯科·戈里的信，1752年12月22日（Letter from Anton Maria Zanetti the Elder to Anton Francesco Gori, 22 December 1752）”：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p. 342 note 6 L233 (PDF physical p. 11); S2 statement: st-chp13-p342-notes-note6-letter-to-gori-locator |
+| ← 为收信人（`addressee_of`，反向投影） | [老安东·玛丽亚·扎内蒂致安东·弗朗切斯科·戈里的信，1752年8月26日（Letter from Anton Maria Zanetti the Elder to Anton Francesco Gori, 26 August 1752）](../archives/zanetti-letter-to-gori-1752-08-26-marucelliana-b-viii-13.md) | S6 decision: formal; recipient is explicit in Haskell note 8.；时间：1752-08-26；角色：收信人；范围：Haskell第13章印刷页344注8明确称该信写给A. F. Gori；仅记录书内所列收信人，不表示本项目已查阅原信。；原断言与证据见发出端卡片“老安东·玛丽亚·扎内蒂致安东·弗朗切斯科·戈里的信，1752年8月26日（Letter from Anton Maria Zanetti the Elder to Anton Francesco Gori, 26 August 1752）”：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p. 344 note 8 L246 (PDF physical p. 13); S2 statement: st-chp13-p344-notes-note8-zanetti-gori-letter-1752-08-26 |
+
+第13章p.342注6与p.344注8所列两封Zanetti致Gori书信的作者、收信人与Haskell书内馆藏定位，已分别写入 `relations.csv`；两封信保持为不同档案对象。`st-chp10-p299-gori-guicciardini-and-museum`、`st-chp10-p328-n02-letter-addressed-to-gori` 与 `st-chp13-p344-gori-latin_commentary` 仍为S2关系候选，待S6逐条审查；身份对齐不单独证明其谓词或转述内容。
 
 [本批身份裁决与组映射](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-gori-cross-chapter-20261019)。

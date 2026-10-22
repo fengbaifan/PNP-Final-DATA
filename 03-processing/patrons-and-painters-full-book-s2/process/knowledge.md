@@ -1,5 +1,16 @@
 # 全书 S3 身份对齐过程
 
+
+<a id="s4-s5-s6-chp13-zanetti-gori-letters-20261023"></a>
+### S3沿用／S4／S5／S6 archive：第13章两封 Zanetti 致 Gori 书信（2026-10-23）
+
+**证据与S3身份。** 对照 Haskell 修订版第13章扫描页：印刷页342（PDF物理页11）注6称 Biblioteca Marucelliana, Florence, MSS. B. VIII, 13, p. 400，并明确为1752年12月22日致 A. F. Gori 的信；印刷页344（PDF物理页13）注8称同馆藏定位下1752年8月26日致 Gori 的信。两条日期、页码与脚注锚点指向不同文献件，分别沿用既有 S3 `new` 组 `archive-group-576539777eb7`（`cand-10210`／`aln-10382`）与 `archive-group-9608ade6c691`（`cand-10218`／`aln-10390`），不合并，也不重开S3身份判断。
+
+**S2与S4/S5。** 新增两条正文作者归属关系候选及一条 p.344 注8馆藏定位候选；把已有 `st-chp13-p344-notes-note8-zanetti-gori-letter-1752-08-26` 限定为原书明确的 `addressed_to`，馆藏定位另列为独立statement。两个书信KU分别登记为[1752年12月22日书信](../../../04-knowledge/units/archives/zanetti-letter-to-gori-1752-12-22-marucelliana-b-viii-13-p-400.md)与[1752年8月26日书信](../../../04-knowledge/units/archives/zanetti-letter-to-gori-1752-08-26-marucelliana-b-viii-13.md)。从Haskell书内描述提取6条 `source_backed` 字段 `enr-16242`–`enr-16247`（每卡文献类型、日期和书内所引馆藏定位）；全库生成器dry-run另报38条新ID、32条移除、8条改动、0 warnings，本批仅将这6条新增字段写入，未覆盖其余已有卡片差异，来源登记无变化。
+
+**S6逐条裁决。** 六条直接关系候选均裁为 `formal`（`rel-1542`–`rel-1547`）：每封信各有 `authored_by` Zanetti、`addressed_to` Gori、`located_at` Biblioteca Marucelliana。作者边依据正文引语归属并由相连注释识别具体信件；收信人和馆藏定位依脚注明文。两条 `located_at` 仅表达Haskell所引机构、馆藏号与页码，不声称现今保管状态已独立核实；原信与馆藏目录均未查阅。Gori与Marucelliana卡同步移除本批已解决项的待审表述，其余S2候选保持原状态。五张受影响卡片定向渲染后预览均无差异；`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`，关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。审计警告仅反映全书尚有3,292条S4 new映射待登记，以及S2语义质量仍需按过程记录审查。未增加独立S2复核分子。
+
+批后：S2共15,239条statement，统一独立复核9,573条（62.8%，未接收）；S3主决定仍为12,388/12,408；S4登记1,521/4,798组、1,738/5,030条映射；S5字段12,360条（1,634条 `unverified`）；S6裁决544/10,462条（328 formal、154 pending、62 rejected），余9,918条；`relations.csv`共1,547条（1,539 formal、8 pending）。本批未改变缺S2端点ID的关系候选数。机械检查不代表全书语义验收或阶段收口。
 <a id="s4-s5-s6-chp10-canons-edgware-20261022"></a>
 ### S4/S5/S6 place：第10章 p.281 Canons 庄园地点端点（2026-10-22）
 
