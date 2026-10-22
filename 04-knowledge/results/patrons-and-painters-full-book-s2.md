@@ -2,20 +2,17 @@
 
 ### 本轮进度与后续工作（2026-10-22）
 
-本批按关系解锁价值完成 Canons 地点端点：沿用`cand-0531`既有S3 `new`组并完成1组／1条候选映射S4登记；新增3条原书支持S5字段；其3条直接S6候选全部裁为formal（`rel-1517`–`rel-1519`）。Canons庄园与礼拜堂候选保持区分，不新增未具名画作或音乐会事件对象。`build_cards.py`反向关系投影改为按端点及反向谓词共同去重；Canons、Brydges、Bellucci三张卡已定向渲染。过程和逐条依据见[Canons批次记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp10-canons-edgware-20261022)。本批不改S2 statement或独立复核分子，也不重开S3。
+本轮新增《Portrait of a Cook》与 Fogolari Letter 120 两个 S4 对象；复用既有 Florence 对齐。七条直接 S6 候选各有 formal 去向，新增8条有据 S5 字段；六张受影响卡片已定向渲染并通过写后校验。展出意图与1706年展览分开，人物身份、现藏地、实际展览及书信原件仍待证。依据与逐条理由见[第八章批次记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)。
 
-此前批次包括第9章p.268–272教堂与作品端点、第2/8/21章Palomino肖像与卷册引注，以及第八章p.238 Crespi三幅作品；其逐项过程分别保留在本文件后续历史记录与对应S2复核记录中。
-
-**当前全书状态。** S0为832个源段（678 complete、154 excluded）；S2共15,226条statement，独立逐条语义复核9,573/15,226（62.9%，尚未接收）。第七章1,146/1,264、第八章487/1,466；第3章独立章节记录1,173/1,181、第10–12章1,567/1,567仍分开报告且均未接收。复核台账尚待按当前statement ID与来源版本核平。S3主决定覆盖12,388/12,408个候选，缺20项；same=2,026（指向1,089个既有KU）、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）。另有22个候选在主决定与其他来源行的decision不同。S4已登记1,503/4,798组、1,720/5,030条候选映射；待登记3,295组／3,310条映射。S5共12,312条字段，其中1,634条`unverified`。S6已逐条裁决497/10,451（300 formal、136 pending、61 rejected），余9,954条；`relations.csv`共1,519条（1,513 formal、6 pending）。另有335条关系候选至少缺一个S2候选端点ID（仅缺subject 45、仅缺object 218、两端均缺72）。candidate-backlog为6条（5条历史记录已完成、1条明确`undecided`）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。全库`build_cards.py --check`无写入预检通过，但仍列出555张卡片的关系视图差异、预计写入584个文件；本批只定向渲染3张卡。机械通过不代表S2语义接收或S3–S6全书收口。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,231条 statement，统一独立逐条复核9,573条（62.9%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,798组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须按来源与身份语义定点核对。S4已登记1,505/4,798组、1,722/5,030条映射，待登记3,293组／3,308条映射。S5有12,320条字段，1,634条unverified。S6裁决504/10,455条（307 formal、136 pending、61 rejected），余9,951条；relations.csv共1,525条（1,519 formal、6 pending）。335条关系候选至少缺一个S2端点候选ID（缺subject 45、缺object 218、两端均缺72）。candidate-backlog共6条（5条完成，1条明确undecided）。本批后严格表审计 errors=[]、s2_missing=[]；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。机械通过不等于语义接收或全书阶段收口。
 
 **后续工作顺序。**
 
-1. **继续以关系解锁价值驱动S4。** 从既有S3 `new`组筛选高关联端点，优先处理对端KU已登记且书内证据明确者；初筛中`cand-2189`关联15条关系候选，其中10条对端已有KU，作为下一轮核查对象，不据此自动登记。每批完成S4后，同批逐项裁决其S6候选并补必要S5字段。
-2. **按证据处理缺S2端点关系。** 针对335条至少缺一个S2候选端点ID的关系候选，逐批核对来源提及、指代与类型；具名且可独立识别的对象依候选待办规则进入S1→S3→S4，证据或对象边界不足的关系保留待证及解除条件，不从关系反推新实体。
-3. **继续S6与S5收口。** 在端点已齐的批次中处理剩余9,954条S6候选，每条明确formal、pending或rejected；对1,634条`unverified`字段先核查关系端点和关键事实所需信息，逐字段记录有据结果或明确缺口。
-4. **继续分章S2独立审读。** 先按statement ID与来源版本核平9,573条统一复核分子，再继续未复核范围；第3章和第10–12章的独立记录仍分开报告，不并入未核平的统一口径。定向S2修订不冒充独立复核。
-5. **达到S4/S5/S6放行条件后再准备S7。** 核实S4所有既有`new`映射、S5必需字段的证据或缺口、S6所有候选去向及backlog状态，再做发布准备与权利检查。555张卡的全库渲染差异先分组预览，仅写回已审阅内容；知识发现和页面仍待用户明确启动。
-
+1. **先核平S3主账与跨来源差异。** 处理20个缺主决定候选（person 16、institution 2、archive 2）并逐一给出same、new、conflict、excluded或有理由的undecided；对22项跨来源decision差异逐项辨明主决定、来源行和身份含义，不把记录差异直接算作身份冲突。622项类型边界未决按 taxonomy 的对象边界分组处理，保留真正待证项及解除条件。
+2. **重排S4下一批端点。** 按未登记S3 new组与已登记对端的直接关系候选数重新排序，选原文证据明确、能同步解锁关系的一组批量登记；旧候选 cand-2189 已登记，不再沿用为下一步。每批同时补必需S5字段，并逐条裁决关联S6候选。
+3. **处理缺S2端点和剩余S6/S5缺口。** 335条缺端点候选逐项判定是否需要S1→S3→S4补端点，不能从关系倒推对象；端点齐全的候选继续裁决，逐条明确formal、pending或rejected。对1,634条unverified字段优先查关系端点及关键事实所需字段，留下证据或具体缺口。
+4. **核平S2复核台账后继续分章独立审读。** 将现有9,573条复核记录与当前statement ID、来源版本和章节范围逐条对齐，再继续未复核范围；定向S2修订不增加独立复核分子。章节记录只有完成同一口径核平后才可合并报告。
+5. **满足放行条件后准备S7。** 核实全部S4 new映射已登记、S5必需字段已有证据或明确缺口、所有S6候选及backlog均有可追溯去向，再做发布准备和权利检查。知识发现与页面制作继续等待用户明确启动。
 ### S3沿用／S4/S5/S6：第9章 p.275 注2 Gherardi 致 Muratori 书信（2026-10-22）
 
 沿用既有书信与机构S3 `new`组，登记1746年2月20日档案卡及Biblioteca Estense机构卡；新增4条Haskell原书支持字段。三条直接S6候选逐项裁为formal：书信 `authored_by` Gherardi、`addressed_to` Muratori、`located_at` Biblioteca Estense。仅记录Haskell书内通信与馆藏定位，不表示原信或馆藏目录已查阅，也不将其与其他年份的Gherardi–Muratori信件或未定复数通信合并。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-p275-gherardi-muratori-20261022)。

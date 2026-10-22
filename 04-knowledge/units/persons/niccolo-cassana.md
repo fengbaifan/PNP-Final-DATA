@@ -108,3 +108,10 @@ English: This card represents both members of S3 group `new-person:cassana-nicco
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [厨师肖像（Portrait of a Cook）](../works/niccolo-cassana-portrait-of-a-cook.md) | 角色：画家；范围：Haskell称Cassana为Ferdinand的画家，并以“his Portrait”指《Portrait of a Cook》；这是书内归属，不是外部目录核实或创作日期判定。；原断言与证据见发出端卡片“厨师肖像（Portrait of a Cook）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 234, L285–286; S2 statement: st-chp8-p234-cook-created-by-cassana |
+| ← 为收信人（`addressee_of`，反向投影） | [Fogolari第120号书信（1707年9月3日）（Fogolari, Letter 120, 3 September 1707）](../archives/fogolari-letter-120-1707-09-03.md) | 时间：1707-09-03；角色：书内报告的收信人；范围：Haskell正文称Ferdinand于1707年写信给Cassana，注4将该通信定位为Letter 120 of 3 September 1707。时间来自书内引注；原信未查阅。；原断言与证据见发出端卡片“Fogolari第120号书信（1707年9月3日）（Fogolari, Letter 120, 3 September 1707）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 240, L357 and note 4 L455; S2 statements: st-chp8-p240-ferdinand-displays-sacconi-and-cassana; st-chp8-p240-letter120-addressed-to-cassana |

@@ -13576,3 +13576,8 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第八章 p.238 当前 statement ID 独立语义复核
 
 对照印刷页238、PDF物理页44–45及S0正文 `l327-336`、本页注1–6的 `l443-448`，逐条核读当前50条 `st-chp8-p238-*` statement：`relation_candidate=true` 43、`false` 7、`unset` 0。claim、端点、原子性、说话层、时间限定、页间续句及现有statement引用均与印本相符；7条false保留为Haskell评价、作品描述或传记陈述。现存36条mention跨度均逐项核对准确。候选引用和同段mention映射另有49组差异，须人工辨别明确提及、概括指代、索引对象和跨页指代，不机械补写。未改S2表、S3决定或关系候选，未增加统一复核分子；正式复核记录及待办见[s2-independent-review-chp8-p238-20261022.md](s2-independent-review-chp8-p238-20261022.md)。本页与全章均不接收。
+
+
+### 2026-10-22：第八章 p.234、p.240 的 S2 定向修订与端点交接
+
+S4端点触发新增5条来源限定 statement，并修正一条把展示意图误作关系候选的标记；《Portrait of a Cook》与 Fogolari Letter 120 沿用既有 S3 new 身份组，Florence 沿用既有 same 对齐。新增裁决和S5字段不计入独立S2复核分子，现全书statement为15,231，第八章分母为1,471。端点、七条S6裁决、证据边界及审计结果见[知识过程记录](knowledge.md)。

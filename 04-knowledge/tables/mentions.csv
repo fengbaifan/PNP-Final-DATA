@@ -27344,3 +27344,13 @@ m-chp8-p238-children-at-play,chp-8:08_CHP-8_sec_ii:l327-336,cand-0874,Children a
 m-chp8-p238-women-washing-title,chp-8:08_CHP-8_sec_ii:l327-336,cand-0887,Women washing their Laundry at a Fountain,1919,1960,Named genre-scene candidate; matched to index subentry C.csv#421.
 m-chp8-p238-pisa-cabinet,chp-8:08_CHP-8_sec_ii:l372-461,cand-8048,Gabinetto del R. Intendente di Finanza di Pisa,12193,12239,"Named location in note 4; exact institutional, office, or spatial identity remains unresolved."
 m-chp21-bib-l883-926-026-author,chp-21:21_CHP-21Bibliography:l883-926,cand-4954,"Palomino, Antonio",2729,2746,Bibliographic author form as printed; linked to the source-named Antonio Palomino person candidate.
+m-chp8-p240-art-exhibition,chp-8:08_CHP-8_sec_ii:l350-359,cand-0128,art exhibition,1378,1392,Generic index-term mention; does not establish a distinct event identity.
+m-chp8-p240-florence-context,chp-8:08_CHP-8_sec_ii:l350-359,cand-1041,Florence,1280,1288,Explicit city context for the planned display discussed later in the paragraph.
+m-chp8-p240-ferdinand-explicit,chp-8:08_CHP-8_sec_ii:l350-359,cand-1609,Ferdinand,1557,1566,Explicit subject of the exhibition policy; antecedent for the following pronoun.
+m-chp8-p240-ferdinand-wrote,chp-8:08_CHP-8_sec_ii:l350-359,cand-1609,he,1816,1818,Anaphoric subject of “wrote”; refers to Grand Prince Ferdinand.
+m-chp8-p240-cassana,chp-8:08_CHP-8_sec_ii:l350-359,cand-0593,Cassana,1800,1807,Named addressee in Haskell’s report of the 1707 letter.
+m-chp8-p240-cook-title,chp-8:08_CHP-8_sec_ii:l350-359,cand-7940,Portrait of a Cook,1881,1899,Named painting in the reported letter and display intention.
+m-chp8-p240-cook-display-here,chp-8:08_CHP-8_sec_ii:l350-359,cand-1041,here,1974,1978,Anaphoric local-audience reference; read with “Florence of his day” at L355.
+m-chp8-p240-note4-ibid,chp-8:08_CHP-8_sec_ii:l372-461,cand-7894,ibid.,13725,13730,The note’s “ibid.” refers to the Fogolari 1937 publication.
+m-chp8-p240-note4-letter120,chp-8:08_CHP-8_sec_ii:l372-461,cand-7950,Letter 120,13732,13742,Specific letter locator and date in Haskell’s p.240 note 4.
+m-chp8-p234-note4-letter120,chp-8:08_CHP-8_sec_ii:l372-461,cand-7950,Letter 120,7982,7992,Specific letter locator and date in Haskell’s p.234 note 4.
