@@ -10846,3 +10846,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 
 
 **卡片投影与批后核验。** build_cards.py --render 定向更新书信、Paolo Giordano II 与 Bernini 三张卡；写后字节核对通过，三卡再次preview均无待写差异。人物卡同时补齐由既有formal关系表驱动的历史关系投影，未新增其语义裁决。audit_tables.py --strict-stage --summary exit 0，errors=[]、s2_missing=[]；批后S4为1,515/4,798组和1,732/5,030映射，待登记3,283组／3,298映射；S5为12,340条字段（1,634条unverified）；S6累计裁决530/10,459（315 formal、153 pending、62 rejected），余9,929条；relations.csv共1,534条（1,527 formal、7 pending）；candidate-backlog仍6条、pending=0。audit_relation_consistency.py --dry-run未发现broken target、invalid relation_type、missing inverse、weak evidence或unbaselined generic evidence-backed。S2 statement数与9,573条统一独立复核分子未变；机械检查不表示全书阶段接收。
+
+
+<a id="s4-s6-chp15-p368-querini-crisis-20261023"></a>
+
+### S3沿用／S4／S5／S6：第15章 p.368 Querini 与1761年宪政危机（2026-10-23）
+
+**来源与S3沿用。** 核对第15章印刷页368扫描图（PDF物理页8）与S2源段 chp-15:15_CHP-15_sec_ii:l38-47。原文在Querini小节称他于1761年宪政危机期间首次受到注意，并在危机中发挥主导作用；第7注引Bozzola 1948年研究页93–116，本次未查阅该被引研究。沿用S3 new组 sg3-event-cand-10523（cand-10523），没有新证据触发S3重开；事件范围限于Haskell所述的1761年危机，不补写起讫日期、法律进程或外部史实。
+
+**S4与S5。** 将候选登记为 [units/events/venetian-constitutional-crisis-1761](../../../04-knowledge/units/events/venetian-constitutional-crisis-1761.md)，更新manifest与accepted。新增4条书内支持字段：中英文题名、Haskell所述参与范围、引证边界。事件类型由名称和描述表达，年代见名称及关系时间限定；没有据被引研究添加事件细节。
+
+**S6逐条裁决。** 两条直接S2关系候选均裁为formal，指向同一自然边，避免重复关系行：
+
+| statement_id | 决定 | 关系记录 | 理由与限定 |
+|---|---|---|---|
+| st-chp15-p368-querini-leading-role-1761-crisis | formal；rel-1535 | 本事件 has_participant Angelo Querini；time=1761；role=leading role | 扫描页明言Querini在危机中发挥主导作用；按受控类型表的 event→person 方向记录。 |
+| st-chp15-p368-querini-first-notoriety-1761 | formal；rel-1535 | 与上项共用同一event-person边 | 此句将Querini首次受到注意的时间置于同一危机，作为同边时间语境；不另建notoriety关系。 |
+
+该关系来源限于Haskell第15章p.368；Bozzola引文未独立核查。无pending、rejected或backlog新增。本次源页阅读不增加S2独立复核分子。
+
+**卡片投影与批后核验。** `build_cards.py --render` 定向更新事件与Querini两张卡，2个文件写后字节核对通过；两卡再次preview无待写差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全书累计数见当前结果页；本批没有修改S2独立复核计数。

@@ -74,3 +74,9 @@ English: Register the person from the full name and cross-chapter references in 
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [威尼斯1761年宪政危机（Venetian constitutional crisis of 1761）](../events/venetian-constitutional-crisis-1761.md) | 扫描页明确称Querini在危机中发挥主导作用。两个S2候选描述同一 event-person 自然边：leading-role断言建立参与边，first-notoriety断言提供同页时间语境；共用一个relation_id，不重复建边。主记录按受控 has_participant 方向 event→person；人物卡显示 participated_in 仅为反向投影。第7注所引Bozzola未独立查阅；时间：1761；角色：在危机中发挥主导作用；范围：Haskell所述的1761年宪政危机；不延伸到未载的危机起讫时间；原断言与证据见发出端卡片“威尼斯1761年宪政危机（Venetian constitutional crisis of 1761）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p. 368 (L46; PDF physical p. 8); S2 statements: st-chp15-p368-querini-leading-role-1761-crisis, st-chp15-p368-querini-first-notoriety-1761 |
