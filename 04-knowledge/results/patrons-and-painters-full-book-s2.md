@@ -2,6 +2,13 @@
 
 更新日期：2026-10-22。
 
+### S3沿用／S4／S5／S6：第八章 p.223 鲁福礼拜堂与所在教堂（2026-10-22）
+
+沿用两个既有 S3 `new` 地点组，登记教堂与其内部的鲁福礼拜堂为不同 KU。将原有建造陈述与地点关系拆分，礼拜堂→教堂的 `part_of` 裁为 formal（`rel-1454`）；建造者及两位装饰者候选因缺少精确受控谓词均记 pending，不强套创作、委托或建造谓词。新增5条 Haskell 原书支持字段，Conca 拼写按扫描页校读；未添加外部身份核验。详情见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp8-p223-ruffo-chapel-20261022)。
+
+批后状态：S2为9,573/15,201，关系候选10,429条，335条缺至少一个S2候选端点ID；第八章当前统一复核覆盖487/1,464，独立复核分子未因本批定向修订增加。S3主决定行12,388/12,408，类别未变、缺行20。S4已登记1,452/4,792组、1,662/5,022条映射；待登记3,340组／3,360条，其中直接端点1,601组／1,615条。S5字段表12,168条（1,634条 `unverified`），本批新增 `enr-15933`–`enr-15937`；预览与应用均无警告。S6累计裁决406/10,429条（236 formal、119 pending、51 rejected），余10,023条；关系表1,454条（1,450 formal、4 pending）。表格审计 `errors=[]`、`s2_missing=[]`；关系一致性检查无 broken target、invalid type、missing inverse 或 weak evidence。上述机械检查不构成S2语义接收或全书阶段收口。
+
+
 ### S4/S5/S6：第20章 p.401 两个胸像版本及馆藏端点（2026-10-22）
 
 沿用既有S3 `new`组登记Humphris版本、普利茅斯另一版本及City Museum and Art Gallery, Plymouth，共3组／3条映射；两件作品分开建卡。新增10条原书支持字段。S2原子性修订拆分“另一版本”与馆藏位置、Radcliffe研究转述；新增版本关系裁为formal（`rel-1453 variant_of`）。Humphris持有叙述及馆藏位置分别为`rel-1451`、`rel-1452 held_by`；Wittkower提出的Bernini归属及Haskell转述的反对理由均拒绝作为当前图谱边，原书陈述仍保留。Radcliffe讨论保留为S2来源报告，不建图谱边；S3身份决定未重开。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp20-p401-bust-versions-20261022)。

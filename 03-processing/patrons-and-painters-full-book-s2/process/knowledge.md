@@ -10226,3 +10226,28 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 另新增的`st-chp20-p401-plymouth-bust-radcliffe-discussion`为S2来源报告，不属于S6关系候选：受控关系词表无“学者讨论作品”谓词，脚注4的两条出版物引注分别保留。S6本批共5条：3 formal、0 pending、2 rejected；`held_by`两边与`variant_of`一边进入`relations.csv`。正式边域值域分别为work→person/institution、work→work。四张受影响卡经定向预览后渲染；包括Humphris人物卡旧有“关系仍待S6”说明的同步修订，以及普利茅斯版本卡新增`variant_of`关系视图。
 
 **批后状态与检查。** S2为9,573/15,200（63.0%，未接收）；S3主决定行仍为12,388/12,408，未重开。S4已登记1,450/4,792组、1,660/5,022条映射；待登记3,342组／3,362条，其中直接端点1,600组／1,614条、非直接1,742组／1,748条。S5共12,163条（1,634条`unverified`）。S6累计402/10,428（235 formal、116 pending、51 rejected），余10,026条；`relations.csv`共1,453条（1,449 formal、4 pending）。candidate-backlog仍为5条历史记录、pending=0。`audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`，15,200 statements、10,428条关系候选、S5 12,163条、relations 1,453条；关系一致性检查中broken target、invalid type、missing inverse、weak evidence、unbaselined generic均为0。审计仍提示S4有3,362条new映射待登记、S2语义质量须按过程记录复核；机械检查不等于S2独立接收或S4/S5/S6全书收口。
+
+<a id="s4-s5-s6-chp8-p223-ruffo-chapel-20261022"></a>
+### S3沿用／S4／S5／S6：第八章 p.223 鲁福礼拜堂与 S. Lorenzo in Damaso（2026-10-22）
+
+**S3与对象边界。** 沿用既有 `new` 身份组：`cand-6559`（`sg3-place-cand-6559`）是第6章与第8章所称的 S. Lorenzo in Damaso 教堂；`cand-7728`（`sg3-place-cand-7728`）是第8章所述教堂内部的鲁福礼拜堂。两者各为单成员地点组；本批不重开 S3，也不作外部建筑身份核验。
+
+**S2定向原子化。** 将 `st-chp8-p223-salvi-built-chapel` 收窄为 Nicola Salvi 为 Cardinal Tommaso Ruffo 建造礼拜堂的来源陈述；礼拜堂位于 S. Lorenzo in Damaso 的位置拆为新候选 `st-chp8-p223-chapel-part-of-san-lorenzo`。装饰者陈述保持原位。新statement复用既有 `cand-7728` 与 `cand-6559`，不新增 mention 或改变 S3 决定。此为定向修订，不增加 S2 独立语义复核分子；S2 statement 和关系候选分母各增加1。
+
+**S4登记与S5字段。** 新增两条映射：`cand-6559`→`units/places/church-of-s-lorenzo-in-damaso`、`cand-7728`→`units/places/ruffo-chapel-s-lorenzo-in-damaso`。教堂卡记录第6章的 titular church 语境；礼拜堂卡分列地点性质、建造者 Nicola Salvi、装饰者 Sebastiano Conca 和 Corrado Giaquinto，共5条由 Haskell 原书支持的字段。Conca 姓名按扫描印刷页25校读；OCR原样及校读依据保留。未加入外部来源。
+
+**S6逐候选裁决。**
+
+| S2 statement | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp8-p223-salvi-built-chapel` | pending | 原书报告 Salvi 建造礼拜堂并为 Ruffo 建造。当前受控词表无精确的地点建造者关系；不以 `created_by`、`erected_by`、`entrusted_to_build` 或 `commissioned_by` 替代。S2原文范围和S5字段保留。 |
+| `st-chp8-p223-conca-decorated-chapel` | pending | 原书称 Conca 装饰礼拜堂，但词表没有装饰者谓词；不改写为创作者关系。 |
+| `st-chp8-p223-giaquinto-decorated-chapel` | pending | 原书称 Giaquinto 装饰礼拜堂，但词表没有装饰者谓词；不改写为创作者关系。 |
+| `st-chp8-p223-chapel-part-of-san-lorenzo` | formal | `rel-1454 part_of`：礼拜堂→S. Lorenzo in Damaso 教堂。只表达原书称该内部空间位于教堂中，不推断更精细的建筑边界。 |
+
+三条谓词缺口候选明确记为 pending，因当前无可用受控谓词，不写入 `relations.csv`；formal `part_of` 边写入关系表。定向卡片预览与渲染仅涉及上述两张地点卡。
+
+
+**S5写回与S6关系落表。** 新增 `enr-15933`–`enr-15937` 五条原书支持字段：教堂与礼拜堂性质、Salvi建造者、Conca与Giaquinto装饰者。`build_field_facts.py` 写前预览与写后复核均为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；字段表总计12,168条，1,634条 `unverified`。S6 formal 边 `rel-1454 part_of` 已写入 `relations.csv`，三条谓词缺口候选保持 pending。
+
+**批后状态与检查。** S2为9,573/15,201（63.0%，未接收），第八章为487/1,464；本批定向原子化不增加独立复核分子。S2关系候选10,429条，其中335条缺至少一个S2端点候选ID。S3主决定行12,388/12,408，分类未变，缺主决定行20。S4（按主决定行统计）已登记1,452/4,792组、1,662/5,022条映射；待登记3,340组／3,360条，其中直接端点1,601组／1,615条、非直接1,739组／1,745条。S6累计裁决406/10,429条（236 formal、119 pending、51 rejected），余10,023条；`relations.csv`共1,454条（1,450 formal、4 pending）。`audit_tables.py --summary` 返回 `errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。检查仅确认机械一致性，不表示全书语义接收或阶段收口。

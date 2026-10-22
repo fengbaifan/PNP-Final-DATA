@@ -13534,3 +13534,7 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第20章 p.401 两个胸像版本 statement 原子性定向修订
 
 由S4端点登记复核触发；对照印刷p.401 L87–88，将 `st-chp20-p401-plymouth-bust-version-discussed` 收窄为馆藏位置statement，新增 `st-chp20-p401-plymouth-bust-another-version` 保存原书明示的“another version”，并新增非图谱关系statement `st-chp20-p401-plymouth-bust-radcliffe-discussion` 保存Radcliffe于1978、1979年讨论该版本的来源报告。对应新增 `rel-1453 variant_of`，两件作品保持不同身份；不据此推断作者、制作关系或实物同一。S2 statement分母增加2至15,200，关系候选分母增加1至10,428；统一独立复核分子仍为9,573，本次定向修订不计作独立复核。S3裁决和现行章序阅读游标均未改变。裁决及当前核验结果见[知识过程](knowledge.md#s4-s5-s6-chp20-p401-bust-versions-20261022)。
+
+### 2026-10-22：第八章 p.223 端点触发的S2原子化修订
+
+修订 `st-chp8-p223-salvi-built-chapel`，将建造者及为 Ruffo 建造的陈述与礼拜堂在 S. Lorenzo in Damaso 内的位置分开；新增 `st-chp8-p223-chapel-part-of-san-lorenzo`，端点复用既有 `cand-7728`、`cand-6559`。引用 CHP-8.pdf 物理页25核对，确认OCR `Cbnca` 的印刷读法为 `Conca`。本次定向修订不计入S2独立语义复核分子；S2 statement 和 S6候选分母各增加1，第八章当前分母加1。原章序复核游标不变。
