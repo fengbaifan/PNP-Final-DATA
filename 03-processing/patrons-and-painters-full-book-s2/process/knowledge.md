@@ -10201,3 +10201,28 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 **字段抽取保护。** 写回前的全库字段预览发现 Silva 与 Crespi 两张既有卡各只有一个来源，但表格标记为 `S2`，将导致这两条既有 `source_backed` 记录被误降为 `unverified`。按卡内唯一来源序号改为 `S1`，保留原值和证据定位；`enr-15916`、`enr-15917` 维持 `source_backed`，全库 `unverified` 总数不变。修正后预览显示新增5条、删除0条、仅更新上述2条定位元数据，随后才执行 `build_field_facts.py --apply`。
 
 **批后状态与检查。** S2复核分子不变；S3决定行仍为12,388/12,408。S4已登记1,447/4,792组、1,657/5,022条映射；待登记3,345组／3,365条，其中直接端点1,603组／1,617条，非直接1,742组／1,748条。S5字段12,153条（1,634条 `unverified`）。S6累计397/10,427（232 formal、116 pending、49 rejected），余10,030条；`relations.csv`为1,450条（1,446 formal、4 pending）。`audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查：broken target、invalid type、missing inverse、weak evidence 均为0。机械检查不等于 S2 独立接收或全书阶段收口。
+
+<a id="s4-s5-s6-chp20-p401-bust-versions-20261022"></a>
+### S4/S5/S6：第20章 p.401 两个胸像版本及馆藏端点（2026-10-22）
+
+**S3身份组与边界。** 沿用三个既有 `new` 身份组，不重开 S3：`cand-10965`（`workgrp-10ae8b71daeeb5`）为Haskell所述进入Cyril Humphris之手的版本；`cand-10966`（`workgrp-09f72370b284a3`）为原文所称的另一版本；`cand-10969`（`sg3-institution-cand-10969`）为原书称作City Museum and Art Gallery, Plymouth的机构。两件作品分别登记；S2修订后仅按原文建立`variant_of`版本关系，不将两件实物合一，也不推断制作关系、共同作者或后续流转。未查询外部目录；人物/机构的来源内称名不作为外部身份核验。
+
+**S4登记。** 新增三条映射：`cand-10965`→`units/works/paolo-giordano-ii-bust-humphris-version`、`cand-10966`→`units/works/paolo-giordano-ii-bust-plymouth-version`、`cand-10969`→`units/institutions/city-museum-and-art-gallery-plymouth`。三张卡分别纳入`ku-manifest.csv`与`accepted.yml`。
+
+**S5字段。** 从Haskell第20章后记印刷页401 L85–88新增10条 `source_backed` 字段（`enr-15923`–`enr-15932`）：第一版本的来源称名、类型/材质、Humphris持有叙述及归属争论；另一版本的来源称谓、类型/材质、所述馆藏机构及Radcliffe研究转述；机构的来源称名和其在该段中的角色。没有将该书内历史状态改写为当前馆藏事实；所引研究及机构沿革未独立核验。字段抽取预览为新增10、更新0、删除0、警告0，随后应用。
+
+**S2原子性修订。** S4登记复核发现 `st-chp20-p401-plymouth-bust-version-discussed` 将“another version”、位于City Museum and Art Gallery及Radcliffe的1978/1979年讨论合并在同一claim。保留原statement ID并将其收窄为馆藏位置；新增`st-chp20-p401-plymouth-bust-another-version`单独记录原书明示的版本关系，新增`st-chp20-p401-plymouth-bust-radcliffe-discussion`保存学术讨论的来源报告并标为非图谱关系。讨论者和年份仍作为S5来源信息；不新造受控的“学者讨论作品”边。S2 statement分母增加2、关系候选分母增加1；独立语义复核分子不变，本次定向修订不冒称独立复核。没有S3决定变化。修订细节见[第20章S2补记](stages.md#s2-repair-chp20-p401-bust-version-claims-20261022)。
+
+**S6候选逐条裁决。** 五条与上述两个版本直接相关的S2关系候选均有去向，原文叙述保留：
+
+| Statement | 裁决 | 正式边与范围 |
+|---|---|---|
+| `st-chp20-p401-humphris-bust-possession` | formal | `rel-1451 held_by`：Humphris版本→Cyril Humphris。Haskell称其在本书第一版出版后进入Humphris之手；记录来源所述持有，不等同于所有权或当前持有，转移日期未载。 |
+| `st-chp20-p401-plymouth-bust-version-discussed` | formal | `rel-1452 held_by`：普利茅斯版本→City Museum and Art Gallery, Plymouth。只对应“在该馆”的位置语句，不表示当前馆藏；同句关于Radcliffe于1978、1979年讨论该版本的内容不映射为此边。 |
+| `st-chp20-p401-plymouth-bust-another-version` | formal | `rel-1453 variant_of`：普利茅斯版本→Humphris版本。仅表示Haskell称其为“another version”；不推断两件实物同一、共同制作或作者归属。 |
+| `st-chp20-p401-wittkower-bust-attribution-proposal` | rejected（仅拒绝当前图谱边） | 该候选记录Wittkower提出的学术归属意见；现有受控谓词不能表达“学者提出某归属”。不以`created_by`将Bernini写成事实作者；S2原命题及其限定保留在来源记录和作品卡。 |
+| `st-chp20-p401-haskell-rejects-bernini-bust-attribution` | rejected（仅拒绝当前图谱边） | Haskell转述其所理解的拒绝归属理由，不构成Bernini与作品之间的正向或反向正式边；不把本裁决写成归属争议已由本项目独立解决。 |
+
+另新增的`st-chp20-p401-plymouth-bust-radcliffe-discussion`为S2来源报告，不属于S6关系候选：受控关系词表无“学者讨论作品”谓词，脚注4的两条出版物引注分别保留。S6本批共5条：3 formal、0 pending、2 rejected；`held_by`两边与`variant_of`一边进入`relations.csv`。正式边域值域分别为work→person/institution、work→work。四张受影响卡经定向预览后渲染；包括Humphris人物卡旧有“关系仍待S6”说明的同步修订，以及普利茅斯版本卡新增`variant_of`关系视图。
+
+**批后状态与检查。** S2为9,573/15,200（63.0%，未接收）；S3主决定行仍为12,388/12,408，未重开。S4已登记1,450/4,792组、1,660/5,022条映射；待登记3,342组／3,362条，其中直接端点1,600组／1,614条、非直接1,742组／1,748条。S5共12,163条（1,634条`unverified`）。S6累计402/10,428（235 formal、116 pending、51 rejected），余10,026条；`relations.csv`共1,453条（1,449 formal、4 pending）。candidate-backlog仍为5条历史记录、pending=0。`audit_tables.py --summary`：`errors=[]`、`s2_missing=[]`，15,200 statements、10,428条关系候选、S5 12,163条、relations 1,453条；关系一致性检查中broken target、invalid type、missing inverse、weak evidence、unbaselined generic均为0。审计仍提示S4有3,362条new映射待登记、S2语义质量须按过程记录复核；机械检查不等于S2独立接收或S4/S5/S6全书收口。

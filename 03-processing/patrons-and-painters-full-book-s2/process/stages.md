@@ -13528,3 +13528,9 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第八章 p.237 漏记人物与作品提及的定点补齐
 
 在S3复核中发现 `cand-2433`（Don Carlo Silva）与 `cand-0882`（Crespi名下《无辜者屠杀》）已有正文／注2锚点，但相应mentions缺行。按源段字符跨度补入4条精确mention并回查无重叠，不改变原S2 statement、来源段覆盖或独立复核分子。后续S3／S4／S5／S6处置见[知识过程](knowledge.md#s3-s4-s5-s6-chp8-p237-silva-massacre-20261022)。
+
+
+<a id="s2-repair-chp20-p401-bust-version-claims-20261022"></a>
+### 2026-10-22：第20章 p.401 两个胸像版本 statement 原子性定向修订
+
+由S4端点登记复核触发；对照印刷p.401 L87–88，将 `st-chp20-p401-plymouth-bust-version-discussed` 收窄为馆藏位置statement，新增 `st-chp20-p401-plymouth-bust-another-version` 保存原书明示的“another version”，并新增非图谱关系statement `st-chp20-p401-plymouth-bust-radcliffe-discussion` 保存Radcliffe于1978、1979年讨论该版本的来源报告。对应新增 `rel-1453 variant_of`，两件作品保持不同身份；不据此推断作者、制作关系或实物同一。S2 statement分母增加2至15,200，关系候选分母增加1至10,428；统一独立复核分子仍为9,573，本次定向修订不计作独立复核。S3裁决和现行章序阅读游标均未改变。裁决及当前核验结果见[知识过程](knowledge.md#s4-s5-s6-chp20-p401-bust-versions-20261022)。

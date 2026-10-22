@@ -2,6 +2,12 @@
 
 更新日期：2026-10-22。
 
+### S4/S5/S6：第20章 p.401 两个胸像版本及馆藏端点（2026-10-22）
+
+沿用既有S3 `new`组登记Humphris版本、普利茅斯另一版本及City Museum and Art Gallery, Plymouth，共3组／3条映射；两件作品分开建卡。新增10条原书支持字段。S2原子性修订拆分“另一版本”与馆藏位置、Radcliffe研究转述；新增版本关系裁为formal（`rel-1453 variant_of`）。Humphris持有叙述及馆藏位置分别为`rel-1451`、`rel-1452 held_by`；Wittkower提出的Bernini归属及Haskell转述的反对理由均拒绝作为当前图谱边，原书陈述仍保留。Radcliffe讨论保留为S2来源报告，不建图谱边；S3身份决定未重开。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp20-p401-bust-versions-20261022)。
+
+批后：S2为9,573/15,200（63.0%，未接收）；S3主决定行12,388/12,408，缺20；S4已登记1,450/4,792组、1,660/5,022映射，待登记3,342组／3,362映射（直接端点1,600组／1,614映射）；S5为12,163条字段（1,634条 `unverified`）；S6裁决402/10,428（235 formal、116 pending、51 rejected），余10,026；`relations.csv`共1,453条（1,449 formal、4 pending）。candidate-backlog为5条历史记录、pending=0。全表审计`s2_missing=[]`、`errors=[]`；关系一致性检查的broken target、invalid type、missing inverse、weak evidence及unbaselined generic均为0。机械检查通过不等于S2语义接收或全书收口。
+
 ### S4/S5/S6：I Bamboccianti 展览图录与引言关系端点（2026-10-22）
 
 沿用 `cand-6181` 的既有 S3 `new` 身份组完成图录登记，修复候选说明中的乱码而不改决定或组号，新增5条书目字段；将脚注引文与引言作者两条S6候选分别裁为 `cites`、`contributed_by`（`rel-1449`、`rel-1450`）。引言作者责任仅限于图录引言；原 OCR “Brigand” 保留，印本校读及 S3 人物端点路径见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-bamboccianti-catalogue-20261022)。批后：S4为1,447/4,792组、1,657/5,022映射；S5为12,153条（1,634条 `unverified`）；S6为397/10,427条（232 formal、116 pending、49 rejected），关系表1,450条（1,446 formal、4 pending）。
