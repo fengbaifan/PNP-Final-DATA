@@ -1,5 +1,74 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp16-p373-strange-sasso-endpoints-20261023"></a>
+### S4/S5/S6：第16章 p.373 Strange–Sasso 跨章书信端点（2026-10-23）
+
+**S3沿用与证据范围。** 沿用四个已存在的S3 `new`身份组 `archive-group-d2b5daf1a095`、`archive-group-36ae30a621a5`、`archive-group-9c46e57b3bc4`、`archive-group-4121c2b1989e`，分别映射John Strange致Sasso书信群、Epistolario Moschini系列、F. Mauroner 1947文章、Sasso致Strange四封信；S3决定与组号均未重开。Sasso、John Strange、Correr Library、British Museum、Manfrin 1793 letter复用当前已映射KU。没有查阅原信、馆藏目录或Mauroner文章。
+
+**S4登记。**
+
+| 候选 | S3身份组 | S4 KU | 类型 |
+|---|---|---|---|
+| `cand-10604` | `archive-group-d2b5daf1a095` | `units/archives/strange-to-sasso-letters-epistolario-moschini` | archive |
+| `cand-10605` | `archive-group-36ae30a621a5` | `units/archives/epistolario-moschini` | archive |
+| `cand-10606` | `archive-group-9c46e57b3bc4` | `units/archives/mauroner-collezionisti-vedutisti-1947` | archive |
+| `cand-10607` | `archive-group-4121c2b1989e` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | archive |
+
+书信群、具体信件、档案系列和书目文章分别保留，不因同一通信背景而合并。Manfrin 1793年单封信与Epistolario Moschini系列分层；Strange致Sasso群与British Museum所藏Sasso致Strange四封信亦分开。
+
+**S2定向修复。** 第16章 p.373 注2当前segment `chp-16:16_CHP-16_intro:l69-89`此前将 `cand-2517` 列入提及候选，但缺脚注局部mention。按源段字符偏移补入John Strange两处mention：`m-chp16-p373-sasso-0031`（270–277）及 `m-chp16-p373-sasso-0032`（483–490）；没有改写来源正文。既有 `st-chp16-p373-note2-epistolario-at-correr` 增加 `Cotter`→`Correr` 的印本校读记录（CHP-16.pdf physical p.1）。新增四条原子关系statement：Strange书信群的发信人与收信人、Sasso四封信的发信人与收信人；这些定向补充不计入独立S2复核分子。
+
+**S5书内支持字段。** 新卡与原文/目录条目共抽取下列字段；F. Mauroner保持原书责任者形式，文章中文名为工作译名。字段的 `source_backed` 只表示Haskell书内依据，不代表原件或文章全文已核验。
+
+| enrichment ID | KU | 字段 | 状态 |
+|---|---|---|---|
+| `enr-16323` | `units/archives/strange-to-sasso-letters-epistolario-moschini` | 描述性名称 | source_backed |
+| `enr-16324` | `units/archives/strange-to-sasso-letters-epistolario-moschini` | 文献类型 | source_backed |
+| `enr-16325` | `units/archives/strange-to-sasso-letters-epistolario-moschini` | 书内所报通信方向 | source_backed |
+| `enr-16326` | `units/archives/epistolario-moschini` | 描述性名称 | source_backed |
+| `enr-16327` | `units/archives/epistolario-moschini` | 书内所称系列名称 | source_backed |
+| `enr-16328` | `units/archives/epistolario-moschini` | 书内所报保管机构 | source_backed |
+| `enr-16329` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 描述性名称 | source_backed |
+| `enr-16330` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 原文题名 | source_backed |
+| `enr-16331` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 书目责任者形式 | source_backed |
+| `enr-16332` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 期刊 | source_backed |
+| `enr-16333` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 书目年份 | source_backed |
+| `enr-16334` | `units/archives/mauroner-collezionisti-vedutisti-1947` | 书目页码 | source_backed |
+| `enr-16335` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | 描述性名称 | source_backed |
+| `enr-16336` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | 文献类型 | source_backed |
+| `enr-16337` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | 书内所报数量 | source_backed |
+| `enr-16338` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | 书内所报通信方向 | source_backed |
+| `enr-16339` | `units/archives/sasso-to-strange-four-letters-british-museum-add-ms-23730` | 书内所报馆藏与索书号 | source_backed |
+
+**S6逐候选裁决。** 本批共19条：14条formal、5条rejected。两条候选复用既有或本批关系记录：`st-chp16-p373-note2-correr-in-venice`复用 `rel-0316`（Correr Library `located_at` Venice）；`st-chp16-p373-note2-sasso-wrote-four-letters-to-strange`作为本批通信关系的第二项书内证据，复用 `rel-1595`。其余12条formal边见关系表；没有pending边。
+
+| S2关系候选 | 决定 | 正式关系 | 裁决理由与边界 |
+|---|---|---|---|
+| `st-chp16-p373-sasso-strange-corresponded-nearly-twenty-years` | formal | rel-1595 corresponded_with | Haskell says Sasso and Strange corresponded for nearly twenty years. The duration is approximate; neither the letters nor their dates were independently checked. The four Sasso-to-Strange letters in note 2 are additional evidence for this correspondence, not a separate relationship. |
+| `st-chp16-p373-sasso-strange-shared-social-complaints` | rejected | — | The passage reports a shared conversational topic, not a durable relationship represented by a controlled predicate. |
+| `st-chp16-p373-strange-employed-sasso-to-buy-pictures` | formal | rel-1596 employed_by | Haskell says Strange employed Sasso to buy Venetian pictures for him. This records the stated purchasing role only; no dates, contract, or legal employment terms are supplied. |
+| `st-chp16-p373-sasso-strange-on-excellent-terms` | rejected | — | Excellent terms do not by themselves establish friendship; no friend_of edge is inferred. |
+| `st-chp16-p373-sasso-strange-saw-each-other` | rejected | — | The source reports meetings but identifies no event-level object or controlled relation that the current schema can express without invention. |
+| `st-chp16-p373-sasso-strange-condoled-losses-and-illnesses` | rejected | — | This is episodic conduct during losses and illnesses, not a separate durable relation; no friendship or care predicate is inferred. |
+| `st-chp16-p373-sasso-strange-exchanged-gossip` | rejected | — | This reports conversational activity without an applicable controlled relation; correspondence is separately recorded from explicit source evidence. |
+| `st-chp16-p373-sasso-strange-did-lucrative-business` | formal | rel-1597 collaborated_with | Haskell says Sasso and Strange did involved, lucrative business together. The edge is limited to this reported joint business activity; it does not assert a legal partnership, equal roles, or specific transactions. |
+| `st-chp16-p373-note2-strange-sasso-letters-in-epistolario` | formal | rel-1590 part_of | Haskell locates the Strange-to-Sasso letters in the Epistolario Moschini. The individual letters, series catalog, and item-level shelfmarks were not independently consulted. |
+| `st-chp16-p373-note2-mauroner-quotes-letters` | formal | rel-1591 cites | Haskell says pages 48-50 of Mauroner's 1947 article contain quotations from the Strange-to-Sasso letters. The article and those pages were not independently consulted. |
+| `st-chp16-p373-note2-four-sasso-letters-british-museum` | formal | rel-1594 located_at | Haskell reports four letters from Sasso to Strange at the British Museum under Add. MSS. 23,730, folios 359-363. The manuscripts and current catalog were not independently consulted. |
+| `st-chp16-p373-note2-epistolario-at-correr` | formal | rel-1592 located_at | Haskell's note locates the Epistolario Moschini at Biblioteca Correr, Venice. The OCR transcription says Cotter; the printed reading Correr was checked against Chapter 16 PDF physical page 1. The manuscript and current catalog were not consulted. |
+| `st-chp16-p373-note2-correr-in-venice` | formal | rel-0316 located_at (reused) | Haskell identifies Biblioteca Correr as being in Venice; the existing formal Correr Library-to-Venice relation directly expresses this location and is reused without duplicating the edge. |
+| `st-chp16-p373-note2-sasso-wrote-four-letters-to-strange` | formal | rel-1595 corresponded_with (shared evidence) | The note identifies four Sasso-to-Strange letters; this is additional evidence for the correspondence relation already supported by the p.373 narrative, not a second duplicate edge. |
+| `st-chp19-p395-manfrin-edwards-letter-source` | formal | rel-1593 part_of | Appendix 7 identifies the 3 December 1793 Manfrin-to-Edwards letter and locates it in the Epistolario Moschini at Biblioteca Correr. The manuscript and catalog were not independently consulted. |
+| `st-chp16-p373-note2-strange-letters-authored-by-john-strange` | formal | rel-1598 authored_by | The note explicitly describes these as letters from Strange to Sasso. This records Haskell's attribution for the source-local group; the letters were not consulted. |
+| `st-chp16-p373-note2-strange-letters-addressed-to-sasso` | formal | rel-1599 addressed_to | The note explicitly describes these as letters from Strange to Sasso. This records Haskell's stated addressee for the source-local group; the letters were not consulted. |
+| `st-chp16-p373-note2-sasso-letters-authored-by-sasso` | formal | rel-1600 authored_by | The note says there are four letters from him to Strange immediately after identifying Sasso's replies. This records Haskell's attribution of the four-letter group to Sasso; the manuscripts were not consulted. |
+| `st-chp16-p373-note2-sasso-letters-addressed-to-strange` | formal | rel-1601 addressed_to | The note explicitly says the four letters are from Sasso to Strange. This records Haskell's stated addressee for the group; the manuscripts were not consulted. |
+
+五条rejected均保留S2原始断言：共同抱怨、关系良好、见面、互相慰问、交换闲谈分别是短暂行为或不足以推断受控关系；不从`excellent terms`推为友谊，也不把交往活动扩写成契约、正式伙伴关系或新事件。Sasso与Strange的长期通信、为购画雇佣及共同从事有利可图业务则分别依原文按 `corresponded_with`、`employed_by`、`collaborated_with` 表达，后者不表示法律合伙或角色对等。
+
+批后全书统计、审计及定向卡片写回结果见[当前结果](../../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+
 <a id="s4-s5-s6-chp7-p193-boschini-gualdo-20261023"></a>
 ### S3沿用／S4/S5/S6 archive与person：第7章 p.193 注2及第21章书目 Boschini、Gualdo Priorato 跨章端点（2026-10-23）
 

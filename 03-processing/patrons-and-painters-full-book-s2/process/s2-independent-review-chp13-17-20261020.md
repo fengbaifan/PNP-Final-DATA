@@ -12,12 +12,16 @@
 | 第13章 plates visual transcription | 20（true 20） | 20/20；4个视觉转录段，plates 57a–60 | 0 | 不接收；statement 有来源 mention 锚点缺口及一处端点类型错误 |
 | 第14章正文 `14_CHP-14_intro.md` | 502（true 314 / false 188） | 502/502；p.347–364及未分页caption；正文、注释与图版caption均逐条复核 | 0 | 不接收；有下列未修问题 |
 | 第15章（3个分节文件） | 551（true 434 / false 117） | 551/551；p.361–372，正文至 p.372 L88、注释至 L113 | 0 | 全章不接收；有下列未修问题 |
-| 第16章 `16_CHP-16_intro.md` | 206（true 129 / false 77） | 206/206；p.373–378 | 0 | 不接收；有下列未修问题 |
+| 第16章 `16_CHP-16_intro.md` | 210（true 133 / false 77） | 206/210；p.373–378；新增4条S2端点statement未计入复核分子 | 4 | 不接收；有下列未修问题 |
 | 第17章（3个分节文件） | 142（true 96 / false 46） | 142/142；folio i、p.380–383 | 0 | 不接收；有下列未修问题 |
 | 结论 `18_CHP-18Conclusion.md` | 24（true 14 / false 10） | 24/24；p.384–385 | 0 | 不接收；有下列未修问题 |
 | 附录 `19_CHP-19Appendix.md`及receipt visual transcription | 116（true 82 / false 34） | 116/116；p.386 L3 至 p.395 L208 | 0 | 不接收；有下列未修问题 |
 
 第13章累计覆盖 579/579。此次复核快照哈希：`book-statements.jsonl` `a3379b08ef8323b8e2b169c80bc138641729917fd378de6380500f4ae58d678d`；`mentions.csv` `0de98420707e874d4828467b6177680ad41428cadf77aa22bffd9d1d60e1e3ee`；正文源 `13_CHP-13_intro.md` `c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；视觉转录源 `13_CHP-13_intro_plates_visual-transcription.md` `73d5fad85a4b84f11508ef0cad9590bded516b69ed2ce203dc3afaf3079906bd`。复核后哈希若变化，须对差异行重新核对，不能沿用本覆盖数。
+
+### 2026-10-23：第16章 p.373 注2定向修复补记
+
+补录John Strange在注2源段的两处局部mention（segment字符270–277、483–490），并将印本所见 `Correr` 记录为OCR `Cotter` 的校读。另新增四条书信发信人/收信人原子statement，服务于已确定S3身份组的S4登记和S6裁决；这四条是定向增补，不属于本独立复核记录的审阅分子。因此第16章记录为206/210，整章仍不接收，原有待修项继续有效。
 
 ## 第13章待修发现
 

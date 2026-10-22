@@ -58,3 +58,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 当前没有本任务新增的正式关系。直接S2关系候选`st-chp17-p380-note6-edwards-letter-source`与`st-chp19-p395-manfrin-edwards-letter-source`保留待S6复核；身份登记不代替对书信、档案系列或附录刊布关系的正式审查。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 组成部分（`part_of`） | [莫斯基尼书信集（Epistolario Moschini manuscript series）](epistolario-moschini.md) | The single letter remains distinct from the collection-level KU. Source=Haskell's book account; statement=st-chp19-p395-manfrin-edwards-letter-source.；时间：1793-12-03 (letter date stated in Appendix 7 heading)；角色：书信系列成员；范围：Appendix 7 identifies the 3 December 1793 Manfrin-to-Edwards letter and locates it in the Epistolario Moschini at Biblioteca Correr. The manuscript and catalog were not independently consulted.；证据：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 19, printed p. 395, Appendix 7 heading L197; PDF physical p. 10; statement=st-chp19-p395-manfrin-edwards-letter-source |

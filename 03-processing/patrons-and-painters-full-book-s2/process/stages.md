@@ -13591,3 +13591,16 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 | st-chp3-seciv-l179-187-left-transept-part-of-s-ignazio | cand-5459 | cand-5439 | Haskell identifies the left transept as part of S. Ignazio. |
 
 浮雕—祭坛关系以原文“Legros completed [the altar] with an appealing bas-relief”为依据；耳堂—教堂关系以“the left transept of S. Ignazio”为依据。S2统一复核分子维持9,573，第3章独立章节分母由1,181增至1,183。
+
+### 2026-10-23：第16章 p.373 注2 S2端点定向补充
+
+对照当前 `16_CHP-16_intro.md` L71、已登记segment `chp-16:16_CHP-16_intro:l69-89` 及CHP-16.pdf physical p.1。为Strange致Sasso书信群和Sasso致Strange四封信各新增发信人与收信人原子statement；共4条，均有S2端点且标为关系候选。原书中的 `Biblioteca Cotter` 按印本图像核作Correr，原始OCR来源不改写。
+
+| 新statement | 主体候选 | 客体候选 | 谓词 |
+|---|---|---|---|
+| `st-chp16-p373-note2-strange-letters-authored-by-john-strange` | `cand-10604` | `cand-2517` | `authored_by` |
+| `st-chp16-p373-note2-strange-letters-addressed-to-sasso` | `cand-10604` | `cand-2364` | `addressed_to` |
+| `st-chp16-p373-note2-sasso-letters-authored-by-sasso` | `cand-10607` | `cand-2364` | `authored_by` |
+| `st-chp16-p373-note2-sasso-letters-addressed-to-strange` | `cand-10607` | `cand-2517` | `addressed_to` |
+
+本修复回应第13–17章独立复核表指出的两个脚注局部John Strange mention缺口；不把该定向修订算作独立复核。复核原有206条分子不变，当前第16章statement分母由206增至210；新增4条未由本批自审计入独立分子。
