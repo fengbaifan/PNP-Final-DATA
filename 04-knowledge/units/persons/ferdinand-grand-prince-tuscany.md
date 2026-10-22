@@ -67,6 +67,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 赞助者／保护人（`patron_of`，反向投影） | [弗朗切斯科·彼得鲁奇（Francesco Petrucci）](francesco-petrucci.md) | 角色：复制画委托赞助者；范围：宫廷复制画委托，不把整组未具名复制画并作一个作品；原断言与证据见发出端卡片“弗朗切斯科·彼得鲁奇（Francesco Petrucci）”：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900378126)；src-63d4f690ddf9fa16；Notizie storico critiche：Petrucci学生身份、宫廷复制画委托段 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）](../works/francesco-petrucci-grand-prince-ferdinand-of-tuscany.md) | 角色：大公子肖像人物；范围：图版36a；Grand Prince称号不改写为Grand Duke；原断言与证据见发出端卡片“托斯卡纳大公子费迪南多肖像（Portrait of Grand Prince Ferdinand of Tuscany）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 101–101; 章前：图版目录；印刷页xiv |
+| → 位于（`located_at`） | [普拉特里诺（Pratolino）](../places/pratolino.md) | S2 statement: st-chp8-p230-retired-to-pratolino. Source-scoped destination among Ferdinand’s country houses; no date or continuous residence is inferred.；角色：退居目的地；范围：Haskell列Pratolino为Ferdinand退居的乡间居所之一；不推断退居年份或永久居住。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 230 L228 |
 
 ### 关系候选入口
 

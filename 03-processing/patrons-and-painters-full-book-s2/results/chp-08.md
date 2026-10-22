@@ -1,8 +1,8 @@
 # 第八章全书 S2 当前结果
 
-任务：`patrons-and-painters-full-book-s2`。状态：此前statement分类已处理至p.236；本轮开放端点按书序复核至p.225，下一待复核项为`st-chp8-p238-note4-pictures-at-pisa-cabinet`（p.238注4，1条开放statement）。此前statement分类的下一未分类项仍在p.237 `chp-8:08_CHP-8_sec_ii:l311-325`，11条statement中3条未分类。以上均不等于全书召回验收或S3交接完成。全书状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，裁决证据见[过程记录](../process/stages.md)。
+任务：`patrons-and-painters-full-book-s2`。截至2026-10-22，p.237当前statement已按第八章逐条复核记录处理，原“11条中3条未分类”游标是历史快照；当前p.237有39条statement，`relation_candidate=true/false/unset`为33/6/0。发现并修复一条把委托与违约、撤回赠画意图合并的statement；该新行已加入当前总数。另为Silva人物及Crespi《无辜者屠杀》补齐4条正文／注2精确mention，其S3新组、S4登记与两条S6去向已记录；S2独立复核台账仍未按当前statement ID核平，第八章暂记487/1,463；不据此接收全章。开放端点下一待复核项仍为`st-chp8-p238-note4-pictures-at-pisa-cabinet`（p.238注4，1条开放statement）。以上均不等于全书召回验收或S3交接完成。全书状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，逐条复核见[记录](../process/s2-independent-review-chp8-p237-20261022.md)，跨阶段裁决见[过程记录](../process/knowledge.md)。
 
-## 当前处理
+## 既有处理记录：p.233–236
 
 - 覆盖账本：56段`reviewed/complete`、5段`excluded/complete`，无queued或partial；这是覆盖登记，不替代statement语义裁决。
 - 本轮按源序复核p.233–236共44条既有statement，新增63条statement。四段合计107条，77条`relation_candidate=true`、30条false；p.234新增2个候选和1条mention，无新增KU或S6正式关系。
@@ -10,9 +10,13 @@
 - p.234（L281–289）：34条（25 true、9 false）；拆开Fumiani方案和审稿、Cassana履历与作品、Cook肖像评价及Ratti/Langetti报告；两处引句修复恢复S0原文契约。
 - p.235（L291–301）：25条（20 true、5 false）；拆开Giordano绘画/到访/服务、两位未名画家、Ricci委托/购藏/运输/延期及装饰和毁损；脚注1–6按印本回链。
 - p.236（L303–309）：21条（14 true、7 false）；拆开Haskell推论与Gherardi报告、风格判断与Ferdinand反应、Ricci画组/合作者/引语；校正引句行锚。
-- 严格表审计：1,019 KU、12,076 candidates、28,120 mentions、14,630 statements；`s2_missing=[]`、`errors=[]`。关系一致性硬错误均为0；两条既存enrichment source_ref警告及通用语义复核提示仍在。
+- 历史严格表审计快照：1,019 KU、12,076 candidates、28,120 mentions、14,630 statements；`s2_missing=[]`、`errors=[]`。该旧快照不代表当前全书表量；当前表结构审计见全书结果。关系一致性硬错误均为0；两条既存enrichment source_ref警告及通用语义复核提示仍在。
 
-下一statement分类段为第八章p.237 `chp-8:08_CHP-8_sec_ii:l311-325`：11条statement中3条未分类。全库剩余1,519条未分类statement；全书S2交接审计仍在进行。
+截至2026-10-22，p.237 statement分类已从当前表复核为33条 `true`、6条 `false`、0条 `unset`；旧记录中的“11条、3条未分类”不再是有效游标。全库分类待办及复核台账需按当前statement ID继续核对；不以机械覆盖或章节直接核读替代语义接收。
+
+## 2026-10-22：p.237 当前 statement ID 语义复核
+
+逐条核读38条既有 `st-chp8-p237-*` statement，覆盖正文/页下注释与分置于复合来源段的注2–4文本。将Silva委托画作与完成后违约、撤回赠画意图拆为两条原子statement，新增1条statement和1条关系候选；修订后当前p.237共有39条，关系候选分类33 true、6 false、0 unset。具体判断及限定见[独立复核记录](../process/s2-independent-review-chp8-p237-20261022.md)。统一S2复核分子未调整；第八章统一口径与直接核读记录尚待ID级核平。
 
 ## 2026-10-15：p.203–204 开放端点语义复核
 

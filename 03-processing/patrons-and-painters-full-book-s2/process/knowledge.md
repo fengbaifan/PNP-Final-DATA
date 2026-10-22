@@ -10124,3 +10124,57 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 **批后状态。** S2仍为9,573/15,197（63.0%，尚未接收）。S3主决定行12,388/12,408：same=2,025（指向1,089个既有KU）、new=5,020（4,790组）、conflict=9、excluded=100、undecided=5,234（含622项类型未决），仍缺20条主S3决定行。S4已登记1,443/4,790组、1,653/5,020条new候选映射；待登记3,347组／3,367条映射，其中直接关系端点待登记1,605组／1,619条，非直接1,742组／1,748条。KU manifest共2,474项。S5共12,146条字段（1,634条unverified）。S6本批裁决40条，12 formal、5 pending、23 rejected；累计390/10,426（227 formal、116 pending、47 rejected），尚余10,036条候选未裁决。`candidate-backlog.csv`仍为5条历史记录、pending=0。此批不代表S2独立语义验收、S5/S6全书收口或S7启动。
 
 **机械检查与卡片投影。** `audit_tables.py --summary` 的errors为空且 `s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。`build_cards.py --check` 全库预检通过。逐张预览关系视图后，定向渲染8张新增或受关系影响的卡片，写后字节校验通过；最终全库预检通过。
+
+<a id="s4-s6-pratolino-direct-endpoint-20261022"></a>
+### S4/S6：第八章 p.230、p.238 Pratolino 地点端点（2026-10-22）
+
+**范围与S3状态。** 为解锁地点直接关系，核对 `cand-7838` 现有S3 `new` 决定及第8章印刷页230、238的原书指称。该候选保留在既有身份组 `sg3-place-cand-7838`；本批不重开S3，不补外部身份、边界或建筑认定。相邻候选 `cand-7839`（Pratolino内的剧场）仍为 `undecided`，作为不同对象处理，不能合并进地点卡。
+
+**S4登记。** 将 `cand-7838` 按原书限定登记至 `units/places/pratolino`，新增一张地点卡及一条candidate→KU映射 `aln-8013`，更新 `ku-manifest.csv` 与 `accepted.yml`。卡片仅记录p.230称其为Ferdinand乡间居所之一、p.238称其别墅供Crespi于1709年居住数月；不界定庄园边界、不识别特定建筑。无S5字段新增。
+
+**S6直接候选逐项裁决。** 本批审查三个含Pratolino候选端点的S6关系候选：
+
+| Statement | 裁决 | 去向与依据 |
+|---|---|---|
+| `st-chp8-p230-retired-to-pratolino` | formal | `rel-1446 located_at`：Ferdinand→Pratolino。原文将其列为退居的乡间居所之一；不推断年份或永久居住。 |
+| `st-chp8-p238-crespi-stayed-at-pratolino` | formal | `rel-1447 located_at`：Crespi→Pratolino，限定1709年、数月、Ferdinand的别墅；不推断所有权或长期居住。 |
+| `st-chp8-p240-collections-at-pratolino-and-castello` | rejected（仅拒绝当前图谱边） | 原断言称Ferdinand把进一步的大型收藏保存在Pratolino和Villa di Castello；其端点是“收藏所在地”，不是Ferdinand本人的所在状态。S2原断言保留，不把收藏位置改写为个人居住关系；当前无独立定义的收藏KU可作准确边端点。 |
+
+前两条formal关系的来源均为Haskell原书及对应S2 statement。第三项的rejected不否认书内收藏事实，仅表示当前person→place候选边错置，且没有足够语义边界将集合对象重构为KU。本批S6范围共3条：2 formal、0 pending、1 rejected。
+
+**批后状态。** S2新增一条独立复核发现的原子statement，将全书总量增1；S2统一复核分子不变，具体复核与全书ID台账未核平问题见[S2 p.237复核记录](s2-independent-review-chp8-p237-20261022.md)。S4新增1个已登记组和1条映射；S6关系表新增2条formal关系，关系过程新增3条裁决。当前候选计数及登记队列以 `04-knowledge/results/patrons-and-painters-full-book-s2.md` 为准。
+
+**定向卡片投影。** 预览Pratolino、Ferdinand和Crespi三张卡后，仅定向渲染这三张卡。`build_cards.py --render --ku ...` 写后字节核对通过；全库 `build_cards.py --check` 只预检、不写卡片。项目整体尚未S4/S5/S6收口，也未启动S7或第二阶段工作。
+
+
+<a id="s3-s4-s5-s6-chp8-p237-silva-massacre-20261022"></a>
+### S3/S4/S5/S6：第八章 p.237 Don Carlo Silva 与 Crespi《无辜者屠杀》端点（2026-10-22）
+
+**触发与S2提及修复。** p.237复核发现 `cand-2433`（S.csv#121）及 `cand-0882`（C.csv#416）在正文／注2中有明确原文提及，但 `mentions.csv` 缺少映射。补入 `m-chp8-p237-massacre-title-body`（l311-325，[1016,1041)）、`m-chp8-p237-silva-citation-n2`（同段，[2186,2191)）、`m-chp8-p237-massacre-title-note2`（l372-461，[10613,10638)）及 `m-chp8-p237-don-carlo-silva-n2`（同段，[10863,10878)）。四处跨度均与来源文本逐字匹配且不与既有提及重叠。此前未决原因是S2正文mention缺失；本次没有外部身份核验。
+
+**S3身份裁决。** 两候选均与同类型既有KU比较后认定为书内来源限定的新身份组；没有将同题材视为同一作品。
+
+| Candidate | 旧决定 | 当前决定 | S3组／比较边界 |
+|---|---|---|---|
+| `cand-2433` | `undecided`，缺S2 mention | `new`（`aln-2768`） | `sg3-person-cand-2433`；正文注释中的Silva与注2全名Don Carlo Silva相连；无同名既有person KU，不补外部身份或生平。 |
+| `cand-0882` | `undecided`，缺S2 mention | `new`（`aln-1217`） | `sg3-work-cand-0882`；正文与注2同指Crespi名下作品。Poussin、Reni的同题材作品维持独立；不声称具体存世物、版本、材质或外部归属。 |
+
+原未决理由保留在每条alignment决定的 `prior_resolution_note` 中；本批证据限定只够支持书内身份和关系，不是外部权威身份确认。
+
+**S4登记与S5字段。** 两个S3 `new`身份组各登记一张来源限定KU卡，并更新 `ku-manifest.csv`、`accepted.yml`及候选映射。新增人员身份字段“神父（priest）”及作品描述性题名字段 `Massacre of the Innocents（Crespi index entry）`，分别对应 `enr-15916`、`enr-15917`；不登记存世状态、媒材、实际赠与或转移。
+
+| Candidate | KU | 卡片 |
+|---|---|---|
+| `cand-2433` | `units/persons/don-carlo-silva` | [Don Carlo Silva](../../../04-knowledge/units/persons/don-carlo-silva.md) |
+| `cand-0882` | `units/works/crespi-massacre-of-the-innocents` | [Crespi《无辜者屠杀》](../../../04-knowledge/units/works/crespi-massacre-of-the-innocents.md) |
+
+**S6逐候选裁决。**
+
+| Statement | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp8-p237-note2-massacre-commission-and-default` | formal | `rel-1448 commissioned_by`：Crespi名下《无辜者屠杀》→Silva。Haskell注2明确报告Silva委托该画作为呈给Ferdinand的作品；只记录委托，不表示完成赠与或所有权转移。 |
+| `st-chp8-p237-note2-silva-defaulted-on-massacre-gift` | rejected（仅拒绝当前图谱边） | 一次性违约并撤回赠画意图没有与其匹配的持续受控关系谓词；保留S2断言和来源限定，不把撤回写成赠画、所有权或交付关系。 |
+
+S6本批2条均有明确去向：1 formal、0 pending、1 rejected；只有formal边进入 `relations.csv`。两张新增卡的关系视图经定向预览后分别写回；未运行全库渲染。
+
+**批后状态。** S2为9,573/15,198（63.0%，未接收）；S3决定分类为same=2,025（1,089个既有KU）、new=5,022（4,792组）、conflict=9、excluded=100、undecided=5,232（其中622项类型未决）；主决定行覆盖12,388/12,408，仍缺20条。S4已登记1,446/4,792组、1,656/5,022条候选映射；待登记3,346组／3,366条映射，其中直接端点待登记1,604组／1,618条，非直接1,742组／1,748条。S5字段表12,148条（1,634条unverified）。S6累计逐条裁决395/10,427条（230 formal、116 pending、49 rejected），尚余10,032条；`relations.csv`为1,448条（1,444 formal、4 pending）。`candidate-backlog.csv`保留5条历史记录，pending=0。

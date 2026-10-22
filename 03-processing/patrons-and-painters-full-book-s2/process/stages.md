@@ -13517,3 +13517,14 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 ### 2026-10-22：第3章 p.93 端点触发的S2位置候选补入
 
 为已登记的右耳堂礼拜堂与S. Ignazio之间补入一条`located_at`候选，依据印刷页93 L185连续叙述：先称左耳堂位于S. Ignazio，再称“the chapel in the right transept”。复用`cand-5454`与`cand-5439`，不重开S3；随后在S6登记`rel-1431`。新增statement未独立逐条复核，S2覆盖分子仍为9,573，分母更新为15,195；第3章独立章节覆盖为1,173/1,175。原章序游标不变，S2/S3均未全书接收/收口。
+
+### 2026-10-22：第八章 p.237 当前 statement ID 独立语义复核与原子性修订
+
+对照 `CHP-8.pdf` 物理页43与S0，逐条核读 p.237 当前39条 `st-chp8-p237-*` statement，范围包括 `l311-325` 正文/页下注释及 `l372-461` 的L439–442注2–4连续文本；核对 claim、主客体、语气与说话层、原子性、页间续句、引文定位和mentions。发现 `st-chp8-p237-note2-massacre-commission-and-default` 混合Silva委托《无辜者屠杀》与其违约并撤回赠画意图；保留原ID记录委托及预定赠予Ferdinand的目的，新增 `st-chp8-p237-note2-silva-defaulted-on-massacre-gift` 单独记录完成后违约和不再赠予。两项均保留Haskell转述层级，不推定赠画完成、交付或所有权转移。其他37条断言本身未发现需修订的语义问题；后续发现本页正文及注2有4条候选提及未写入mentions.csv，现已按精确跨度补齐，身份和关系裁决见[知识过程](knowledge.md#s3-s4-s5-s6-chp8-p237-silva-massacre-20261022)。
+
+修订后 p.237 当前 statement 数为39，`relation_candidate=true/false/unset` 为33/6/0；全书 statement 与 S6 候选分母各增加1。本批不改统一S2复核分子：全书与第八章复核台账仍须按当前statement ID去重核平，避免把章节直接核读或本次记录重复计入统一统计。详情见[S2逐条复核记录](s2-independent-review-chp8-p237-20261022.md)。第八章结果文件的“11条中3条未分类”属于旧快照，已按当前表状态更正；本段及全章均不接收。
+
+
+### 2026-10-22：第八章 p.237 漏记人物与作品提及的定点补齐
+
+在S3复核中发现 `cand-2433`（Don Carlo Silva）与 `cand-0882`（Crespi名下《无辜者屠杀》）已有正文／注2锚点，但相应mentions缺行。按源段字符跨度补入4条精确mention并回查无重叠，不改变原S2 statement、来源段覆盖或独立复核分子。后续S3／S4／S5／S6处置见[知识过程](knowledge.md#s3-s4-s5-s6-chp8-p237-silva-massacre-20261022)。
