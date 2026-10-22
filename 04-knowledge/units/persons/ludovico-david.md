@@ -43,4 +43,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 6 条（st-chp8-p220-david-competitive-scheme, st-chp8-p220-david-guild-review, st-chp8-p220-david-hears-about-project-from-colleague, st-chp8-p220-david-offers-all-pictures, st-chp8-p220-david-offers-share-with-artists, st-chp8-p220-david-rejects-committee-terms），保留待 S6 审查；本卡登记不等于关系裁决。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 争执（`disputed_with`） | [圣母玛利亚大殿装饰委员会（Santa Maria Maggiore Decoration Committee）](../institutions/santa-maria-maggiore-decoration-committee.md) | S6 statement st-chp8-p220-david-rejects-committee-terms. The source records David's explicit objection to the committee's proposed terms; this is limited to that dispute, not a continuing personal conflict.；角色：对委员会付款条件提出异议；范围：David对委员会提出的付款条件的异议；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 220 L106 |
+
+直接 S2 关系候选共 6 条：`st-chp8-p220-david-rejects-committee-terms` 已 formal 登记为 `rel-1444 disputed_with`，仅记录其对付款条件的明确异议；其余 5 条涉及提案、同事消息及审核程序，仍留 S6 逐项复核。该边不表示持续冲突或正式合同关系。

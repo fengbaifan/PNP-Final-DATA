@@ -1,4 +1,4 @@
-﻿---
+---
 title: 安东尼奥·赞基《摩西击石》（Antonio Zanchi, Moses striking the Rock, Bergamo）
 name_en: Moses striking the Rock (Antonio Zanchi, Bergamo)
 type: work
@@ -52,6 +52,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - 索引将作品定位在 S. Maria Maggiore, Bergamo；正文未指出画作原定安置于该堂哪一具体门或墙面，也未说明此后的去向。
 - 不与索引中归于 Ottavio Vannini、位于 p.212 的另一条同题作品子目合并；相同题材名称不足以证明是同一画作。
 
-### 关系候选
+### 相关候选裁决
 
-直接涉及本作品的7条 S2 关系候选留待 S6 审查；本卡不将其登记为正式关系：`st-chp8-p218-committee-accepts-zanchi-canvas, st-chp8-p218-committee-deliberates-on-zanchi-canvas, st-chp8-p218-experts-set-price-if-accepted, st-chp8-p218-zanchi-canvas-completed-four-months, st-chp8-p218-zanchi-canvas-sent, st-chp8-p218-zanchi-receives-825-ducats, st-chp8-p218-zanchi-selected-for-moses-rock`。
+本批完成委员会委托端点相关的四条候选：`st-chp8-p218-zanchi-selected-for-moses-rock`、`st-chp8-p218-experts-set-price-if-accepted`、`st-chp8-p218-committee-accepts-zanchi-canvas`、`st-chp8-p218-zanchi-no-fee-and-return-terms`共同支持 `rel-1440 commissioned_by`；`st-chp8-p218-committee-deliberates-on-zanchi-canvas`被否决为正式边，因为它记录审议过程而非独立关系。`st-chp8-p218-zanchi-canvas-completed-four-months`、`st-chp8-p218-zanchi-canvas-sent`、`st-chp8-p218-zanchi-receives-825-ducats`仍在S6队列，分别核定创作、运送和付款关系。
+
+## 关系与证据
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其委托（`commissioned_by`） | [圣母玛利亚大殿装饰委员会（Santa Maria Maggiore Decoration Committee）](../institutions/santa-maria-maggiore-decoration-committee.md) | S6 statements st-chp8-p218-zanchi-selected-for-moses-rock, st-chp8-p218-zanchi-no-fee-and-return-terms, st-chp8-p218-experts-set-price-if-accepted, st-chp8-p218-committee-accepts-zanchi-canvas. Records the committee commission and acceptance as reported by Haskell; no unstated date is added.；角色：作品委托人；范围：Zanchi受命绘制的《摩西击石》；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 218 L84 and L91-93 |

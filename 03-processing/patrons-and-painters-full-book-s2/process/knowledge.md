@@ -10031,3 +10031,96 @@ S4由1,409/4,786组、1,619/5,016条候选映射增至1,412/4,786组、1,622/5,0
 三条formal边均以 `haskell-1980-rev-ed` 及对应印刷页行号为证据。`relations.csv` 增至1,437条（1,434 formal、3 pending）；S2候选断言及五条威尼斯段落候选的待证/拒绝理由均保留。
 
 **批后当前统计。** S2为9,573/15,197（63.0%，未接收），10,426条关系候选中335条缺至少一个S2候选端点ID。S3决定行12,388/12,408：same=2,025（指向1,089个既有KU）、new=5,015（4,785组）、conflict=9、excluded=100、undecided=5,239（含622项类型未决），缺行20项。S4已登记1,434/4,785组、1,644/5,015条候选映射；待登记3,351组／3,371条映射，其中直接端点1,609组／1,623条成员映射，非直接1,742组／1,748条。S5为12,146条字段（1,634条`unverified`）。S6累计裁决350/10,426条（215 formal、111 pending、24 rejected），余10,076条；`relations.csv`为1,437条（1,434 formal、3 pending）。本批不表示S2独立语义接收、S5/S6全书收口或知识发现启动。
+
+
+<a id="s3-s4-s6-chp8-p215-221-decoration-committee-20261022"></a>
+### S3/S4/S6：第八章 p.215–221 装饰委员会与直接关系端点（2026-10-22）
+
+**范围与身份边界。** 为登记第八章委托关系直接端点，核对印刷页215–221及其S2提及、statement和现有KU。S6范围限定为40条在S2中将 `cand-7641`（委员会）列作主语或宾语的关系候选；仅出现在同一段提及列表、但不是statement端点的候选不计入这40条。另对相邻的两个委托事实作定向反查。未更改S2 statement及其独立复核分子。
+
+**S3身份决定。** 五项此前 `undecided` 对象有可定位正文提及和足够稳定的书内边界，改为来源限定的 `new`；不作外部身份声明：
+
+| 候选 | 类型／身份组 | 决定与边界 |
+|---|---|---|
+| `cand-7641` | institution／`sg3-institution-cand-7641` | 未具名装饰委员会；与 `cand-7640` Consiglio del Consorzio（教堂治理机构）分开。成员姓名和成员连续性未载。 |
+| `cand-7663` | work／`sg3-work-cand-7663` | 北耳堂及门区十六幅绘画计划；不等同1653年总体装饰计划，也不拆作未识别的单件作品。 |
+| `cand-7686` | work／`sg3-work-cand-7686` | 中殿十四幅绘画委托组；与十六幅计划及未计数的附加画作分开，不推定组内作品均已完成。 |
+| `cand-7678` | work／`sg3-work-cand-7678` | 1677年《挪亚献祭》竞赛画作；与其他同题作品分开，不声称外部对象或现存版本。 |
+| `cand-7679` | event／`sg3-event-cand-7679` | 1677年《挪亚献祭》竞赛；原书未给具体举行日或场地。 |
+
+为 `cand-7663`、`cand-7666`、`cand-7678`、`cand-7679`、`cand-7686` 补入五条精确S2 mention；另为信件收信人 `cand-1401` 在“sent off to Liberi”处补一条mention。其余四项沿用既有 `new` 决定。无跨章同一对象需要复用；委员会与 Consiglio 的角色边界由本章原文直接区分。
+
+**S4登记。** 九条candidate→KU映射均已写入alignment、manifest及accepted范围：
+
+| 候选 | 类型 | KU |
+|---|---|---|
+| `cand-7640` | institution | [Consiglio del Consorzio](../../../04-knowledge/units/institutions/consiglio-del-consorzio-santa-maria-maggiore.md) |
+| `cand-7641` | institution | [圣母玛利亚大殿装饰委员会](../../../04-knowledge/units/institutions/santa-maria-maggiore-decoration-committee.md) |
+| `cand-7644` | place | [圣母玛利亚大殿北耳堂穹顶空间](../../../04-knowledge/units/places/santa-maria-maggiore-northern-transept-vault.md) |
+| `cand-7648` | work | [Guercino门区画作计划](../../../04-knowledge/units/works/santa-maria-maggiore-guercino-door-canvas-plan.md) |
+| `cand-7663` | work | [北耳堂与门区十六幅绘画计划](../../../04-knowledge/units/works/santa-maria-maggiore-sixteen-picture-plan.md) |
+| `cand-7666` | archive | [委员会致Pietro Liberi的《洪水》信件](../../../04-knowledge/units/archives/letter-santa-maria-maggiore-committee-to-pietro-liberi-the-flood.md) |
+| `cand-7686` | work | [中殿十四幅绘画委托组](../../../04-knowledge/units/works/santa-maria-maggiore-fourteen-central-nave-paintings.md) |
+| `cand-7678` | work | [竞赛《挪亚献祭》画作](../../../04-knowledge/units/works/sacrifice-of-noah-santa-maria-maggiore-competition.md) |
+| `cand-7679` | event | [1677年《挪亚献祭》绘画竞赛](../../../04-knowledge/units/events/1677-sacrifice-of-noah-competition-santa-maria-maggiore.md) |
+
+本批没有新增S5字段；九张KU卡的名称和描述均限定在Haskell原书所能支持的范围。
+
+**S6直接候选逐项裁决。** 40条候选中12条formal、5条pending、23条rejected。formal候选映射至七条新增正式关系：
+
+| Statement | 决定 | 关系／理由 |
+|---|---|---|
+| `st-chp8-p217-north-transept-scheme` | formal | `rel-1438 commissioned_by`：十六幅计划→委员会。限于原书所述计划及后续合同，不表示全部完成或成员连续不变。 |
+| `st-chp8-p217-committee-sends-letter` | formal | `rel-1439 addressed_to`：关于《洪水》的信→Pietro Liberi。原书说信寄给Liberi；未独立查阅原件。 |
+| `st-chp8-p218-zanchi-selected-for-moses-rock` | formal | `rel-1440 commissioned_by`：《摩西击石》→委员会。 |
+| `st-chp8-p218-zanchi-no-fee-and-return-terms` | formal | 同属 `rel-1440` 的委托条件证据；不另建支付关系。 |
+| `st-chp8-p218-experts-set-price-if-accepted` | formal | 同属 `rel-1440`；记作委托条件，不推断评审人身份。 |
+| `st-chp8-p218-committee-accepts-zanchi-canvas` | formal | 同属 `rel-1440`；原书报告画布验收及费用，不补地点或日期。 |
+| `st-chp8-p217-liberi-contract-cancelled` | formal | 同属 `rel-1438`：取消Liberi合同仍证实十六幅计划的委托关系；不表示作品完成。 |
+| `st-chp8-p217-ferri-chosen-to-replace-liberi` | formal | 同属 `rel-1438`：Ferri接替Liberi负责该计划。 |
+| `st-chp8-p217-ferri-invited-to-bergamo` | formal | 同属 `rel-1438`：邀请属于同一计划的后续委托过程。 |
+| `st-chp8-p219-noah-competition` | formal | `rel-1442 has_participant`：竞赛→委员会，role=organizer，时间限1677年。 |
+| `st-chp8-p219-committee-can-meet-giordano-terms` | formal | `rel-1443 commissioned_by`：中殿十四幅画组→委员会。合同已签但Giordano未履行；不记成完成。 |
+| `st-chp8-p220-david-rejects-committee-terms` | formal | `rel-1444 disputed_with`：Ludovico David与委员会；范围仅为David对付款条件的明确异议，不推成持续冲突。 |
+
+| Statement | 决定 | 待证去向 |
+|---|---|---|
+| `st-chp8-p215-committee-orders-oil-paintings` | pending | `appointed_by` 的域值域仅允许人物→人物；机构→机构不合法。暂不改写为 `part_of`，等待准确受控关系表达。 |
+| `st-chp8-p216-cocchi-five-pictures` | pending | 画作组 `cand-7647` 身份仍为S3 undecided；待该组有明确S3/S4去向后再审。 |
+| `st-chp8-p216-magni-experimental-commission` | pending | 实验画作 `cand-7646` 身份仍为S3 undecided；不以候选人姓名代替作品端点。 |
+| `st-chp8-p219-giordano-sends-crossing` | pending | 《红海渡口》候选 `cand-7668` 身份未决；待S3定界并核实适用关系类型，保留来源断言。 |
+| `st-chp8-p220-committee-proposes-to-painters` | pending | 画家集体 `cand-12063` 类型及边界未定；不把未具名集合伪装为机构或人物。 |
+
+| Statement | 决定 | 理由（S2原断言继续保留） |
+|---|---|---|
+| `st-chp8-p216-guercino-proposed-door-canvas` | rejected | 未获接受的提议／接洽，不构成正式委托边。 |
+| `st-chp8-p216-next-north-transept-phase-open` | rejected | 记录工程转向耳堂穹顶的阶段变化，不是稳定关系。 |
+| `st-chp8-p216-storer-first-choice` | rejected | 委员会的择人过程，不转为人物—机构关系。 |
+| `st-chp8-p216-storer-delay-led-fresco-alternative` | rejected | 延误导致考虑壁画替代方案，是因果过程，不是正式边。 |
+| `st-chp8-p216-committee-assessment-visit` | rejected | 一次现场考察／评估，不形成受控关系。 |
+| `st-chp8-p217-committee-turns-to-venice` | rejected | 艺术家来源地语境，不表示委员会与威尼斯的关系。 |
+| `st-chp8-p217-committee-rejects-flood` | rejected | 一次性拒绝行为；不把评价过程转为持续关系。 |
+| `st-chp8-p217-last-judgement-sketch-rejected` | rejected | 草图评价及拒绝事件，不存在精确受控谓词。 |
+| `st-chp8-p217-ferri-request-details-open` | rejected | 画家索要开工细节，是谈判动作。 |
+| `st-chp8-p218-ferri-request-for-sketch-approval` | rejected | 画家请求委员会批准草图，是程序往来。 |
+| `st-chp8-p218-committee-agrees-sketch-submission` | rejected | 对提交草图流程的一次同意，不另建机构—人物边。 |
+| `st-chp8-p218-committee-reviews-side-door-picture` | rejected | 对未定界门区画作的审查事件，不是正式关系；作品身份仍在S3待证。 |
+| `st-chp8-p218-three-paintings-remain` | rejected | 作品数量与委托状态陈述，不构成关系边；三件作品身份仍待证。 |
+| `st-chp8-p218-zanchi-agrees-to-terms` | rejected | 一次性接受合同条件，不转成持续关系。 |
+| `st-chp8-p218-committee-deliberates-on-zanchi-canvas` | rejected | 审议时长是过程信息，不另建正式作品—委员会边。 |
+| `st-chp8-p219-committee-compromise-for-cignani` | rejected | 未达成协议的谈判／折衷方案，不是正式委托。 |
+| `st-chp8-p219-project-funds-strained` | rejected | 资金限制与项目背景，不表达候选端点间关系。 |
+| `st-chp8-p219-committee-presses-giordano-for-remainder` | rejected | 未成功的催促，不构成作品委托或任职边。 |
+| `st-chp8-p219-committee-attracted-by-giordano-speed` | rejected | 作者说明的择人动机，不是关系事实。 |
+| `st-chp8-p220-committee-approaches-franceschini` | rejected | 接洽行为，未形成明确委托。 |
+| `st-chp8-p220-committee-turns-to-naples` | rejected | 地理来源背景，不构成委员会—城市关系。 |
+| `st-chp8-p220-committee-reapproaches-cignani` | rejected | 未成功的再次谈判，不是正式关系。 |
+| `st-chp8-p221-committee-criticism-unavoidable` | rejected | Haskell转述的委员会评价，不存在对应受控关系类型。 |
+
+**相邻关系反查。** `st-chp8-p219-cervelli-wins-noah`直接记载委员会竞赛的获胜画作与付款结果；新增 `rel-1441 commissioned_by`（《挪亚献祭》画作→委员会），仅限书内竞赛结果。`st-chp8-p221-melanconici-commission`称“安排”Melanconici获得整项委托，但被动句没有写明安排者；另存 `rel-1445 pending commissioned_by`（十四幅画组→委员会），待证具体授予主体。该pending关系的端点类型合法，因此保存在relations.csv；其pending理由不是缺少端点卡。此项不并入上述40条显式relation_candidate统计。
+
+关系表新增7条formal与1条pending，增至1,445条（1,441 formal、4 pending）。没有新增S2 statement或S5字段。
+
+**批后状态。** S2仍为9,573/15,197（63.0%，尚未接收）。S3主决定行12,388/12,408：same=2,025（指向1,089个既有KU）、new=5,020（4,790组）、conflict=9、excluded=100、undecided=5,234（含622项类型未决），仍缺20条主S3决定行。S4已登记1,443/4,790组、1,653/5,020条new候选映射；待登记3,347组／3,367条映射，其中直接关系端点待登记1,605组／1,619条，非直接1,742组／1,748条。KU manifest共2,474项。S5共12,146条字段（1,634条unverified）。S6本批裁决40条，12 formal、5 pending、23 rejected；累计390/10,426（227 formal、116 pending、47 rejected），尚余10,036条候选未裁决。`candidate-backlog.csv`仍为5条历史记录、pending=0。此批不代表S2独立语义验收、S5/S6全书收口或S7启动。
+
+**机械检查与卡片投影。** `audit_tables.py --summary` 的errors为空且 `s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。`build_cards.py --check` 全库预检通过。逐张预览关系视图后，定向渲染8张新增或受关系影响的卡片，写后字节校验通过；最终全库预检通过。

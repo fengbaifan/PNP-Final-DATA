@@ -1,4 +1,4 @@
-﻿ku_id,type,canonical_name,name_en,source_task,card_path
+ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -2464,3 +2464,12 @@ units/archives/fabrini-la-chiesa-s-ignazio-1952,archive,《罗马圣依纳爵堂
 units/works/three-bacchanals-ordered-by-richelieu-1635,work,三幅酒神题材作品（黎塞留1635年订购）,"Three Bacchanals ordered by Richelieu from Poussin, 1635",patrons-and-painters-full-book-s2,04-knowledge/units/works/three-bacchanals-ordered-by-richelieu-1635.md
 units/places/chateau-at-richelieu,place,黎塞留的城堡,Chateau at Richelieu,patrons-and-painters-full-book-s2,04-knowledge/units/places/chateau-at-richelieu.md
 units/places/richelieu-locality,place,黎塞留地点,Richelieu locality named by Haskell,patrons-and-painters-full-book-s2,04-knowledge/units/places/richelieu-locality.md
+units/institutions/consiglio-del-consorzio-santa-maria-maggiore,institution,圣母玛利亚大殿的 Consiglio del Consorzio,Consiglio del Consorzio of Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/institutions/consiglio-del-consorzio-santa-maria-maggiore.md
+units/institutions/santa-maria-maggiore-decoration-committee,institution,圣母玛利亚大殿装饰委员会,Santa Maria Maggiore Decoration Committee,patrons-and-painters-full-book-s2,04-knowledge/units/institutions/santa-maria-maggiore-decoration-committee.md
+units/places/santa-maria-maggiore-northern-transept-vault,place,圣母玛利亚大殿北耳堂穹顶空间,North Transept Vault of Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/places/santa-maria-maggiore-northern-transept-vault.md
+units/works/santa-maria-maggiore-guercino-door-canvas-plan,work,圣母玛利亚大殿门上画布计划,Planned Door Canvas for Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/works/santa-maria-maggiore-guercino-door-canvas-plan.md
+units/works/santa-maria-maggiore-sixteen-picture-plan,work,圣母玛利亚大殿北耳堂与门区十六幅绘画计划,Sixteen-Picture Plan for the North Transept and Doors of Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/works/santa-maria-maggiore-sixteen-picture-plan.md
+units/archives/letter-santa-maria-maggiore-committee-to-pietro-liberi-the-flood,archive,圣母玛利亚大殿委员会致彼得罗·利贝里的信,Letter from the Santa Maria Maggiore Committee to Pietro Liberi,patrons-and-painters-full-book-s2,04-knowledge/units/archives/letter-santa-maria-maggiore-committee-to-pietro-liberi-the-flood.md
+units/works/santa-maria-maggiore-fourteen-central-nave-paintings,work,圣母玛利亚大殿中殿十四幅绘画委托组,Fourteen-Painting Commission for the Central Nave of Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/works/santa-maria-maggiore-fourteen-central-nave-paintings.md
+units/works/sacrifice-of-noah-santa-maria-maggiore-competition,work,圣母玛利亚大殿竞赛获选《挪亚献祭》画作,Competition-Winning Sacrifice of Noah Painting at Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/works/sacrifice-of-noah-santa-maria-maggiore-competition.md
+units/events/1677-sacrifice-of-noah-competition-santa-maria-maggiore,event,1677年圣母玛利亚大殿《挪亚献祭》绘画竞赛,1677 Competition for The Sacrifice of Noah at Santa Maria Maggiore,patrons-and-painters-full-book-s2,04-knowledge/units/events/1677-sacrifice-of-noah-competition-santa-maria-maggiore.md

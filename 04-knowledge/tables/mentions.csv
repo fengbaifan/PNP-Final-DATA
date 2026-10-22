@@ -1,4 +1,4 @@
-﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -27321,3 +27321,9 @@ m-chp5-sec-iii-l82-93-035,chp-5:05_CHP-5_sec_iii:l82-93,cand-11933,battles that 
 m-chp6-p146-sec-i-055,chp-6:06_CHP-6_sec_i:l3-11,cand-11932,Urban VIII died,1611,1626,"Exact cross-chapter event mention; the sentence places the death soon after the March 1644 peace, without a precise date."
 m-chp7-p186-n1-wittkower-author,chp-7:07_CHP-7_sec_i:l293-389,cand-2818,Wittkower,5752,5761,Author named in Haskell's printed footnote.
 m-chp7-p186-n1-wittkower-publication,chp-7:07_CHP-7_sec_i:l293-389,cand-4557,"1958, p. 269",5763,5775,Year and locator identify the cited publication in this footnote; its title is not printed here.
+m-chp8-p217-sixteen-pictures,chp-8:08_CHP-8_sec_ii:l69-76,cand-7663,sixteen pictures,572,588,The source-bounded north-transept and door decoration scheme.
+m-chp8-p217-committee-cold-letter,chp-8:08_CHP-8_sec_ii:l69-76,cand-7666,A cold letter,858,871,The reported committee letter concerning The Flood.
+m-chp8-p219-sacrifice-of-noah,chp-8:08_CHP-8_sec_ii:l86-98,cand-7678,Sacrifice of Noah,195,212,The competition painting; distinguish from other works of the same subject.
+m-chp8-p219-noah-competition,chp-8:08_CHP-8_sec_ii:l86-98,cand-7679,competition,369,380,The 1677 competition event for the painting.
+m-chp8-p219-fourteen-paintings,chp-8:08_CHP-8_sec_ii:l86-98,cand-7686,Fourteen more paintings,1485,1508,The additional central-nave commission group.
+m-chp8-p217-liberi-recipient,chp-8:08_CHP-8_sec_ii:l69-76,cand-1401,Liberi,888,894,Addressee of the reported cold letter; source does not identify the original document.
