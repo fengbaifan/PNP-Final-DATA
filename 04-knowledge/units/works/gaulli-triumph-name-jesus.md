@@ -92,6 +92,7 @@ relations:
 | → 创作者（`created_by`） | [乔万尼·巴蒂斯塔·盖乌利（Giovanni Battista Gaulli）](../persons/giovan-battista-gaulli.md) | 角色：原书署名作者；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [罗马耶稣堂（Gesù, Rome）](../places/gesu-rome.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
+| → 位于（`located_at`） | [罗马耶稣堂中殿（Nave of the Gesù）](../places/gesu-nave.md) | 角色：图版14图注所载建筑空间位置；范围：图版14图注将该作品定位于Gesù中殿；此边记录图注所载书内空间定位，与教堂整体地点层级区分。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, Plate 14 caption, Markdown L87; S2 statement: st-chp3-secii-l86-87-p14-location |
 
 ### 关系候选入口
 

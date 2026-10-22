@@ -45,7 +45,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [耶稣堂中殿窗龛中的十六尊灰泥像（Sixteen Stucco Figures in the Gesù Nave Window Niches）](../works/sixteen-stucco-figures-gesu-nave.md) | 角色：图像集体表现的地区；范围：Haskell将China列入该组雕像集体表现的地域范围；原文没有将某一尊像对应到China，也未界定现代政治边界。；原断言与证据见发出端卡片“耶稣堂中殿窗龛中的十六尊灰泥像（Sixteen Stucco Figures in the Gesù Nave Window Niches）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 83, Markdown L73; S2 statement: st-chp3-seciv-l69-73-figures-represent-china |
+
 
 暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
 

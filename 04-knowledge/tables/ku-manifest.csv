@@ -1,4 +1,4 @@
-ku_id,type,canonical_name,name_en,source_task,card_path
+﻿ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -2514,3 +2514,8 @@ units/archives/libri-di-memorie-antonio-benigna-ms-ital-cl-vii-1620,archive,"Lib
 units/terms/manin-style-coloured-marble-stucco-draperies,term,Manin style of coloured marble or stucco cut to imitate hanging draperies,Manin style of coloured marble or stucco imitating hanging draperies,patrons-and-painters-full-book-s2,04-knowledge/units/terms/manin-style-coloured-marble-stucco-draperies.md
 units/terms/assumption-of-the-virgin-dedication-santa-maria-assunta,term,Assumption of the Virgin as the dedication of S. Maria Assunta,Assumption of the Virgin dedication of Santa Maria Assunta,patrons-and-painters-full-book-s2,04-knowledge/units/terms/assumption-of-the-virgin-dedication-santa-maria-assunta.md
 units/archives/boscovich-letter-to-vallisnieri-1772,archive,P. 博斯科维奇致瓦利斯涅里的信，1772年,"Letter from P. Boscovich to Vallisnieri, 1772",patrons-and-painters-full-book-s2,04-knowledge/units/archives/boscovich-letter-to-vallisnieri-1772.md
+units/works/sixteen-stucco-figures-gesu-nave,work,耶稣堂中殿窗龛中的十六尊灰泥像,Sixteen Stucco Figures in the Gesù Nave Window Niches,patrons-and-painters-full-book-s2,04-knowledge/units/works/sixteen-stucco-figures-gesu-nave.md
+units/places/gesu-nave,place,罗马耶稣堂中殿,Nave of the Gesù,patrons-and-painters-full-book-s2,04-knowledge/units/places/gesu-nave.md
+units/places/ethiopia,place,埃塞俄比亚,Ethiopia,patrons-and-painters-full-book-s2,04-knowledge/units/places/ethiopia.md
+units/places/peru,place,秘鲁,Peru,patrons-and-painters-full-book-s2,04-knowledge/units/places/peru.md
+units/places/mexico,place,墨西哥,Mexico,patrons-and-painters-full-book-s2,04-knowledge/units/places/mexico.md

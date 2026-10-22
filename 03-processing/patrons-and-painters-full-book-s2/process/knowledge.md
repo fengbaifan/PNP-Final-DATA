@@ -10557,3 +10557,30 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 两条正式边均有S2定位、有效端点和受控域值域。`relations.csv`新增`rel-1486`–`rel-1487`；未把端点未决或谓词不准的pending/rejected候选伪装成图谱事实。定向预览后渲染四张新卡及Manin家族卡；卡片投影写入后复核无差异。
 
 **批后状态与检查。** S2仍为9,573/15,211，尚未接收；局部端点修订不计入独立审读。S3主决定仍覆盖12,388/12,408，已有same=2,026、new=5,021（4,791组）、conflict=9、excluded=100、undecided=5,232（含622项类型边界未决），缺主决定20。S4为1,484/4,791组、1,699/5,021条映射，待登记3,307组／3,322条映射。S5共12,270条，1,634条`unverified`。S6累计455/10,439（270 formal、129 pending、56 rejected），尚余9,984条；关系表1,487条（1,483 formal、4 pending）。`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`；本批卡片定向预览后渲染，五张卡写入后字节核对通过。机械检查不代表全书S2语义接收或S3–S6收口。
+
+<a id="s4-s5-s6-chp3-p83-figures-20261022"></a>
+### S2定向原子化／S3沿用／S4／S5／S6：第三章 p.83 中殿窗龛灰泥像组（2026-10-22）
+
+**S3 与 S4 登记。** 沿用已有决定，不重开 S3：cand-5277 属于 workgrp-44b0b90f0c83af，登记为一组十六尊灰泥像；cand-5073 为独立建筑空间中殿；cand-5278 Ethiopia、cand-5279 Peru、cand-5281 Mexico 沿用各自 new 组登记，cand-5280 China 沿用 same 映射至既有 China KU。新增五张双语卡及五条候选映射。中殿与Gesù教堂整体、雕像组work相区分；地区描述不采用现代政治边界。
+
+**S2 定向修订。** 将 st-chp3-seciv-l69-73-sixteen-stucco-figures 收窄为 Gaulli 设计群组；移出执行者和安置端点。新增六条当前 statement：一条非关系断言记未具名追随者以灰泥执行；一条 cand-5277→cand-5073 的安置候选；四条 cand-5277→Ethiopia、Peru、China、Mexico 的具名地区表现候选。原文把四地作为集体地域范围，没有将单尊雕像逐一分配给某地。此前两个指向Jesuits机构的解释性候选保留在S2，未改作正式边。此项由端点登记触发，不计入独立S2复核分子；原第3章独立复核记录仍为1,173条已审，当前statement分母因本批升至1,181。
+
+**S5 字段。** 新增四条原书支持字段：作品类型、数量、材质及未具名追随者执行；对应 enr-16045–enr-16048。未补创作年、单尊像身份或现状。
+
+**S6 逐项裁决。** 本批共九条关系候选均给出结论，七 formal、两 rejected、零 pending：
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| st-chp3-seciv-l69-73-sixteen-stucco-figures | formal | rel-1490 designed_by：雕像组→Gaulli；仅记录设计归属，不将执行或安置归于Gaulli。 |
+| st-chp3-seciv-l69-73-figures-located-in-nave-niches | formal | rel-1491 located_at：雕像组→耶稣堂中殿；只记录Haskell报告的历史安置。 |
+| st-chp3-seciv-l69-73-figures-represent-ethiopia | formal | rel-1492 has_subject：雕像组→Ethiopia；群组层面的地区表现。 |
+| st-chp3-seciv-l69-73-figures-represent-peru | formal | rel-1493 has_subject：雕像组→Peru；群组层面的地区表现。 |
+| st-chp3-seciv-l69-73-figures-represent-china | formal | rel-1494 has_subject：雕像组→China；群组层面的地区表现。 |
+| st-chp3-seciv-l69-73-figures-represent-mexico | formal | rel-1495 has_subject：雕像组→Mexico；群组层面的地区表现。 |
+| st-chp3-secii-l86-87-p14-location | formal | rel-1496 located_at：图版14作品→耶稣堂中殿；图注空间定位，独立于教堂整体位置。 |
+| st-chp3-seciv-l69-73-matter-spirit-and-missionary-emphasis | rejected | Haskell的物质／精神及传教力量解释不表达作品与Jesuits机构之间明确、受控的实体关系；原书解释仍保留在S2。 |
+| st-chp3-seciv-l69-73-regional-missionary-presence | rejected | 原候选将图像表现对象指向Jesuits机构；原文直接列出的对象是地区，不支持作品→机构正式边。地区断言由以上四条关系单独承载。 |
+
+七条正式边的端点、谓词及证据已核对；relations.csv新增rel-1490–rel-1496。受影响卡经逐卡预览后定向渲染，卡片展示不再包含过程组号说明。
+
+**批后状态。** S0仍为832个源段（678 complete、154 excluded）；S2为9,573/15,217，尚未接收；S3仍为12,388/12,408，缺主决定20；S4为1,490/4,791组、1,705/5,021条映射；S5为12,279条字段（1,634条unverified）；S6累计裁决467/10,444（279 formal、130 pending、58 rejected），余9,977条；relations.csv共1,496条（1,492 formal、4 pending）。candidate-backlog.csv为5条历史记录、pending=0。audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；关系一致性检查无broken target、invalid relation type、missing inverse、weak evidence或unbaselined generic。机械通过不代表S2独立接收或S4–S6全书收口。

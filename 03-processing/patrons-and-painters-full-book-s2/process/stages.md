@@ -13559,3 +13559,7 @@ Pozzo ceiling与summons两条S2关系候选分别记为S6 pending，详见[关�
 第10章注2扫描页（CHP-10.pdf物理页62）确认题名为 *Relazione per le riforme*；保留S0 OCR `risorme`及原S2转录，仅沿用既有校读记录。将报告—Sagredo出版物候选统一为Sagredo 1857出版物 `cites` 报告；新增Haskell《赞助人与画家》`cites` Sagredo 1857出版物的statement。将注3两条既有引注主体由威尼斯学院改为Haskell书，谓词规范为 `cites`，学院只保留在语境说明中。根据第21章书目为Sagredo、Bassi、Fogolari三条著作作者关系增加 `authored_by` statements，并在完整书目mention中补三条精确的嵌套作者mentions；没有改写S0来源段。
 
 本次新增4条S2 statements，复用并定向修订3条关系候选；S2 statement总数增至15,208，关系候选增至10,436。此类S4端点触发的定向修订不计入S2独立语义复核分子；本批新增与修改内容未宣称独立复核或章节接收。完整端点映射与逐条S6理由见[知识过程](knowledge.md#s3-s4-s5-s6-ch10-p329-sagredo-bassi-fogolari-citations-20261022)。
+
+### 2026-10-22：第三章 p.83 雕像组端点触发的 S2 定向原子化
+
+将 st-chp3-seciv-l69-73-sixteen-stucco-figures 收窄为 Gaulli 设计十六尊雕像组；新增追随者执行、窗龛安置及 Ethiopia、Peru、China、Mexico 四条地区表现 statement，共六条新 statement。两个原有指向Jesuits机构的解释候选保留为候选，由S6明确否决正式边。此为S4端点触发的修订，不计入独立语义复核。当前全书statement为15,217；第3章statement分母由1,175变为1,181，既有独立复核分子仍为1,173。提及范围未变；具体端点、字段与逐条关系裁决见知识过程的 s4-s5-s6-chp3-p83-figures-20261022。

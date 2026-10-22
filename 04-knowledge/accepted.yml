@@ -1651,6 +1651,7 @@ units:
 - 04-knowledge/units/places/edinburgh.md
 - 04-knowledge/units/places/egypt.md
 - 04-knowledge/units/places/england.md
+- 04-knowledge/units/places/ethiopia.md
 - 04-knowledge/units/places/europe.md
 - 04-knowledge/units/places/ferrara.md
 - 04-knowledge/units/places/filippo-farsetti-country-house-s-maria-di-sala.md
@@ -1662,6 +1663,7 @@ units:
 - 04-knowledge/units/places/genoa.md
 - 04-knowledge/units/places/germany.md
 - 04-knowledge/units/places/gesu-chapel-st-ignatius.md
+- 04-knowledge/units/places/gesu-nave.md
 - 04-knowledge/units/places/gesu-right-transept-chapel-st-francis-xavier.md
 - 04-knowledge/units/places/gesu-rome.md
 - 04-knowledge/units/places/gubbio.md
@@ -1684,6 +1686,7 @@ units:
 - 04-knowledge/units/places/mazarin-upper-gallery.md
 - 04-knowledge/units/places/melbourne.md
 - 04-knowledge/units/places/messina.md
+- 04-knowledge/units/places/mexico.md
 - 04-knowledge/units/places/milan.md
 - 04-knowledge/units/places/modena.md
 - 04-knowledge/units/places/molfetta.md
@@ -1713,6 +1716,7 @@ units:
 - 04-knowledge/units/places/pantheon-rome.md
 - 04-knowledge/units/places/paris.md
 - 04-knowledge/units/places/parma.md
+- 04-knowledge/units/places/peru.md
 - 04-knowledge/units/places/perugia.md
 - 04-knowledge/units/places/piacenza.md
 - 04-knowledge/units/places/piazza-di-spagna.md
@@ -2137,6 +2141,7 @@ units:
 - 04-knowledge/units/works/sebastiano-ricci-pan-and-syrinx.md
 - 04-knowledge/units/works/sebastiano-ricci-rape-of-europa.md
 - 04-knowledge/units/works/sebastiano-ricci-venus-and-adonis.md
+- 04-knowledge/units/works/sixteen-stucco-figures-gesu-nave.md
 - 04-knowledge/units/works/smith-palladian-overdoor-series.md
 - 04-knowledge/units/works/solimena-dido-and-aeneas.md
 - 04-knowledge/units/works/the-flood-canvas-liberi-bergamo.md
