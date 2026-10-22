@@ -10788,3 +10788,20 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 本批没有新增 formal relation；四个待证状态均保留具体 statement、端点和待解决条件。`cand-5263`（Eve）在同段的S3类型边界仍未决；因它不是这四条statement的独立S6端点，不额外制造关系候选。
 
 **卡片与批后核验。** `build_cards.py --preview --ku units/works/gaulli-gesu-dome-duplex-intercessio-composition`仅显示标准“当前没有正式关系”提示；定向渲染1张卡并通过写后字节核验，渲染后再次preview无差异。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。批后S4为1,512/4,798组、1,729/5,030映射，待登记3,286组／3,301映射；S6过程裁决525/10,459（310 formal、153 pending、62 rejected），余9,934项；`relations.csv`仍1,529条（1,522 formal、7 pending）。S2及其独立复核分子、S3决定与S5字段数均未变化。机械审计不等于语义接收或阶段收口。
+
+<a id="s4-s5-s6-chp10-p277n5-gergy-entry-20261022"></a>
+
+### S4／S5／S6：第10章 p.277 注5 Canaletto《德·热尔吉伯爵入城图》（2026-10-22）
+
+**原书、S3沿用与对象边界。** 复核 Haskell 修订版第10章印刷页277注5原书扫描（`02-sources/01-book/CHP-10.pdf`物理页2）、对应S2 statement `st-chp10-notes-p277n5-gergy-entry`／`st-chp10-notes-p277n5-gergy-location`，并核对索引 `C.csv#28`。S2正文锚点称 Canaletto 于1725年绘制 *Entry of the Comte de Gergy*；索引把该项列于作品子目。沿用 S3 `new` 组 `sg3-work-canaletto-entry-comte-de-gergy-1725` 和映射 `aln-0839`，登记为 `units/works/canaletto-entry-comte-de-gergy-1725`。同类work核查未找到精确可复用 KU；与 Canaletto 的 Count of Bolagno 入城图（1729）及 Carlevarijs 的 Count of Colloredo 入城图（1726）分别识别。来源未给 Comte de Gergy 名字，也未称其委托该画；不推断个人身份或委托关系。作品身份取自原书及索引，不声称已做外部作品身份核验。
+
+**S4与S5。** 将 `cand-0504` 映射到上述work并登记 manifest、`accepted.yml`。新卡记录原书题名及1725年，新增 `enr-16188`（来源所载题名，证据为印刷页277注5及C.csv#28）和 `enr-16189`（来源所载年代1725，证据为印刷页277注5、PDF物理页2）。`build_field_facts.py`全库只读预览报告 `new_ids=32`、`removed_ids=32`、`record_changes=0`、`source_registry_changes=0`、`warnings=0`；检查确认新卡两行已可识别，仅应用这两条目标字段，没有全库重建或来源登记改动。该预览的32组增删是既有历史ID漂移，不构成本批记录变化。
+
+**S6逐条裁决。** 两条原书关系候选均有S2 statement锚点、明确端点及可用受控谓词，裁为formal并写入 `relations.csv`：
+
+| relation_id | statement_id | 裁决与限定 |
+|---|---|---|
+| `rel-1530` | `st-chp10-notes-p277n5-gergy-entry` | `units/works/canaletto-entry-comte-de-gergy-1725` → `units/persons/canaletto`，`created_by`，时间1725；记录注5所述作者，不表示Comte委托。 |
+| `rel-1531` | `st-chp10-notes-p277n5-gergy-location` | 该work → `units/institutions/hermitage-museum`，`located_at`；Haskell 1980注5转引Haskell 1956 p.298的“now in the Hermitage”。被引1956页未独立查阅；该边限定为出版语境中的来源所载位置，不是当前馆藏位置核验。 |
+
+**卡片投影与批后核验。** 对work、Canaletto及Hermitage三卡定向渲染并通过写后核对；随后三卡 `build_cards.py --preview --ku ...` 均无待写差异。Hermitage卡同时由renderer规范化了一条既有关系投影的来源ID；本批未改变该既有关系的语义或 `relations.csv` 记录。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`，当前S4待登记映射3,300条、S5字段12,334条（1,634条unverified）、relations.csv为1,531条（1,524 formal、7 pending）；过程累计S6裁决527/10,459（312 formal、153 pending、62 rejected），余9,932条。`audit_relation_consistency.py --dry-run`中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2 statement数和9,573条统一独立复核分子未变化；本次定向复读不计为独立S2复核。审计只证明表结构与受影响投影无已知机械错误，不表示S2语义接收或S4–S6全书收口。
