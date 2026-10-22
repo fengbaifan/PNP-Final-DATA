@@ -102,4 +102,7 @@ The index entry M.csv#85 lists pp. 165, 284n, 285, 331, 341, 343n, and 361. Chap
 
 ### 关系记录
 
-本轮未新增正式关系。涉及 Zanetti、Ricci、Algarotti、Temanza 及信件的陈述仍留在原 S2 statements，待 S6 逐条审查。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [阿尔加罗蒂致皮埃尔-让·马里埃特的书信（Letter from Francesco Algarotti to Pierre-Jean Mariette, 13 February 1751）](../archives/algarotti-letter-to-mariette-1751-02-13.md) | st-chp14-p351-note2-letter-addressed-to-mariette；时间：13 February 1751；角色：addressee；范围：Haskell第14章p.351注2明称收信人为Mariette；原信及刊本未独立查阅。；原断言与证据见发出端卡片“阿尔加罗蒂致皮埃尔-让·马里埃特的书信（Letter from Francesco Algarotti to Pierre-Jean Mariette, 13 February 1751）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；line 181; print p. 351 n. 2 |
+| ← 所著文献（`author_of`，反向投影） | [皮埃尔-让·马里埃特致托马索·特曼扎的信，1768年4月15日（Letter from Pierre-Jean Mariette to Tommaso Temanza, 15 April 1768）](../archives/mariette-letter-to-temanza-1768-04-15-muntz-1890.md) | S6 statement st-chp15-p361-note2-mariette-letter-authored-by; S3/S4 endpoint groups: archive-group-6abae2423f3a / new-person:jean-mariette-pierre-69263c8b1d. Haskell surname form Mariette follows the existing cross-chapter person mapping.；时间：1768-04-15；角色：作者；范围：Haskell第15章印刷页361注2将此信称为Mariette于1768年4月15日写给Temanza；本边仅记录书内作者归属，不表示本项目已查阅原信或刊本。；原断言与证据见发出端卡片“皮埃尔-让·马里埃特致托马索·特曼扎的信，1768年4月15日（Letter from Pierre-Jean Mariette to Tommaso Temanza, 15 April 1768）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_intro.md)；haskell-1980-rev-ed；Chapter 15, printed p. 361 n. 2 (L9; PDF physical p. 1); S2 statement: st-chp15-p361-note2-mariette-letter-authored-by |

@@ -87,4 +87,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 st-chp15-p361-note2-mariette-letter-addressed-to-temanza 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [皮埃尔-让·马里埃特致托马索·特曼扎的信，1768年4月15日（Letter from Pierre-Jean Mariette to Tommaso Temanza, 15 April 1768）](../archives/mariette-letter-to-temanza-1768-04-15-muntz-1890.md) | S6 statement st-chp15-p361-note2-mariette-letter-addressed-to-temanza; S3/S4 endpoint groups: archive-group-6abae2423f3a / new-person:temanza-tommaso-8171d459b0. Haskell surname form Temanza follows the existing cross-chapter person mapping.；时间：1768-04-15；角色：收信人；范围：Haskell第15章印刷页361注2将此信称为Mariette于1768年4月15日写给Temanza；本边仅记录书内收信人归属，不表示本项目已查阅原信或刊本。；原断言与证据见发出端卡片“皮埃尔-让·马里埃特致托马索·特曼扎的信，1768年4月15日（Letter from Pierre-Jean Mariette to Tommaso Temanza, 15 April 1768）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_intro.md)；haskell-1980-rev-ed；Chapter 15, printed p. 361 n. 2 (L9; PDF physical p. 1); S2 statement: st-chp15-p361-note2-mariette-letter-addressed-to-temanza |

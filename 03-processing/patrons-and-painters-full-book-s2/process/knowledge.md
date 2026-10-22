@@ -10904,3 +10904,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 第二条关系虽保留pending，候选、端点、S2 statement和未决身份条件均已明确；本批未增加candidate-backlog。S3身份决定未重开，S2 statements及9,573条统一独立复核分子未变。
 
 **投影与批后核验。** 对新archive与《赞助人与画家》两卡定向渲染；写后字节核验通过，两卡再次preview均无待写差异。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。批后S4为1,518/4,798组、1,735/5,030条映射，待登记3,280组／3,295条映射；S5为12,351条字段（1,634条unverified）；S6累计裁决536/10,459（320 formal、154 pending、62 rejected），余9,923条；`relations.csv`共1,539条（1,531 formal、8 pending）。机械检查不表示S2独立语义复核已接收或S4–S6全书收口。
+
+
+<a id="s4-s5-s6-chp15-p361-mariette-temanza-letter-20261023"></a>
+
+### S3沿用／S4／S5／S6 archive：第15章 p.361 注2 Mariette 致 Temanza 书信（2026-10-23）
+
+**直接端点与来源核对。** 按关系解锁优先级选择 `cand-10426`：两条S2关系候选的另一端分别已有S4人物KU，且同一书内注释给出日期和通信方向。检查 `02-sources/01-book/CHP-15.pdf` PDF物理页1扫描与第15章引言OCR L9。扫描注2原文为 “Letter from Mariette to Temanza of 15 April 1768 published by E. Müntz, 1890, p. 116.” 身份沿用已有 `aln-10596` 的S3 `new` 组 `archive-group-6abae2423f3a`，未发现触发S3重开的身份冲突；`cand-1547`沿用Pierre-Jean Mariette KU，`cand-2546`沿用Tommaso Temanza KU。原信及Müntz刊本未查阅；不推定刊物题名、Müntz的具体责任角色或信件内容。
+
+**S4与S5。** 将 `cand-10426` 映射至 `units/archives/mariette-letter-to-temanza-1768-04-15-muntz-1890`，写入manifest与accepted。题名依据已登记人物身份拟作双语描述性题名，不称原题。新增3条书内支持字段：`enr-16207` 文献类型（信件）、`enr-16208` 成文日期（1768-04-15）、`enr-16209` Haskell所引刊录位置（E. Müntz, 1890, p. 116）。全部定位在第15章印刷页361注2 L9；未将刊录人写成编者或出版者，也未补造出版物题名。
+
+**S6逐条裁决。** 两个关系候选均有直接书内证据，端点类型和方向符合关系矩阵；姓名展开只沿用现有S3身份组：
+
+| relation_id／statement_id | 决定 | 关系与边界 |
+|---|---|---|
+| `rel-1540`／`st-chp15-p361-note2-mariette-letter-authored-by` | formal | archive `authored_by` Pierre-Jean Mariette；time=`1768-04-15`。Haskell将信记为Mariette所写；只记录书内作者归属，不表示本项目查阅原信或Müntz刊本。 |
+| `rel-1541`／`st-chp15-p361-note2-mariette-letter-addressed-to-temanza` | formal | archive `addressed_to` Tommaso Temanza；time=`1768-04-15`。Haskell将信记为致Temanza；只记录书内收信人归属，不表示本项目查阅原信或Müntz刊本。 |
+
+第15章注2的引注线索statement `st-chp15-p361-note2-mariette-letter` 在S2中标记为非关系候选；本批未把引注链另造为 `cites` 边。S3决定未重开，S2 statement数和9,573条统一独立复核分子不变。
+
+**卡片投影与批后核验。** 对书信、Mariette和Temanza三卡执行selected-card preflight及定向渲染；共检查3张卡、3个字段表、11行字段和5行关系投影，写入3个文件并通过写后字节核对；三卡再次preview均无待写差异。两张人物卡中与本次正式边冲突的旧“待S6”说明已移除，正式关系视图由`relations.csv`投影。`audit_tables.py --strict-stage --summary` exit 0：2,549 KU、12,716条alignment、12,354条S5字段、15,236 statements、`errors=[]`、`s2_missing=[]`；S4尚有3,294条new映射待登记，S2语义质量仍须独立审查。`audit_relation_consistency.py`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全库`build_cards.py --check`另在`units/institutions/papal-states`报告既有relation subsection presence mismatch；与本批三卡无关，尚待定向修复。批后S4为1,519/4,798组、1,736/5,030条映射；S5为12,354条字段（1,634条unverified）；S6为538/10,459条逐项裁决（322 formal、154 pending、62 rejected），剩余9,921条；`relations.csv`共1,541条（1,533 formal、8 pending）。机械通过不表示全书S2语义接收或S4–S6阶段收口。
