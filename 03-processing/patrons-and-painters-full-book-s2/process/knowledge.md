@@ -10487,3 +10487,55 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 三条边的端点和关系域值域均符合现有词表。档案卡、机构卡及两张人物卡的关系视图经定向预览后渲染；人物卡中原先“尚无formal关系”及待审计数已同步更新。Haskell书内注释是这三项关系的唯一当前依据；正式图谱记录不等于原件事实独立核验。
 
 **批后状态与机械检查。** 表格审计返回 `errors=[]`、`s2_missing=[]`，并报S4仍有3,329条 `new` 映射待登记、candidate-backlog pending=0；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。当前S0为832个源段（678 complete、154 excluded）；S2为9,573/15,208，独立复核分子未增加、未接收；S3来源级记录12,716行覆盖12,408个候选，其中289个多来源候选、22个跨来源decision差异仍按触发条件定点核查；S4登记1,477/4,791组、1,691/5,020条映射；S5字段12,240条（1,634条 `unverified`）；S6裁决437/10,436（264 formal、122 pending、51 rejected），余9,999条；`relations.csv`共1,481条（1,477 formal、4 pending）。审计为结构检查，不构成全书S2语义接收或S4–S6收口。
+
+
+<a id="s3-s4-s5-s6-chp9-venice-jesuit-church-20261022"></a>
+### S3组别核定／S4／S5／S6：第9章威尼斯耶稣会教堂及相关对象（2026-10-22）
+
+**范围与证据。** 本批围绕第9章印刷页251、268、271–272（PDF物理页13、34、37–38）中同一座威尼斯耶稣会教堂及直接提及的手稿、术语、奉献主题与未识别对象。读取Haskell原书对应分节；未查阅Benigna手稿、Biblioteca Marciana目录或外部建筑身份资料。
+
+**S3候选决定与身份组。** 依据第251页的“Jesuit church in Venice”及第272页同一叙述称“S. Maria Assunta”，将地点候选 `cand-8827` 的先前独立组 `sg3-place-cand-8827` 合并到 `cand-0734` 的 `sg3-place-cand-0734`。保留原组号作为 `prior_group_id`，保留两条候选映射；这是一项跨段落书内同一性判断，不代表外部建筑身份核验。其余新组和待决对象如下：
+
+| 候选 | S3决定与身份组 | 去向及理由 |
+|---|---|---|
+| `cand-0734` | `new`；`sg3-place-cand-0734` | 书内地点锚点覆盖第251、268、272页；与`cand-8827`共用同一教堂KU。 |
+| `cand-8827` | `new`；并入`sg3-place-cand-0734`；原组`sg3-place-cand-8827`保留为历史组号 | 第272页以S. Maria Assunta称呼同一耶稣会教堂语境；没有将其与耶稣会机构合并。 |
+| `cand-8778` | `new`；`archive-group-9b2b7db2b3f7` | Haskell明确引用Benigna《Libri di Memorie》及Biblioteca Marciana手稿标识；对象为被引手稿，不声称已读原件。 |
+| `cand-8234` | `new`；`sg3-term-cand-8234` | 登记Haskell本地称作Manin style的装饰术语；不推广为外部分类。 |
+| `cand-8723` | `new`；`sg3-term-cand-8723` | 登记教堂的圣母升天奉献主题；不归为作品。 |
+| `cand-8725` | 保留`undecided` | 原文只给“一或两件”耶稣会圣徒祭坛画，未给确切作品、题名或作者；未建立作品KU。解除条件为可匹配的具体作品证据。 |
+| `cand-8780` | 保留`undecided`；`sg3-family-cand-8780` | Benigna引文只给“S. Ant.o e S. Nicolò Fratelli Co:Co:Manini”缩写，个人身份及家族支系未明；不得并入Manin家族KU。解除条件为核明完整条目和可识别的家族指涉。 |
+
+**S2端点修正。** `st-chp9-p268-n05-benigna-church-decoration-list` 的断言主语是Haskell所引的Benigna记事簿条目，故将其 `subject_candidate_id` 从未决的兄弟候选 `cand-8780` 改为手稿候选 `cand-8778`；原文中另一个有关兄弟为主祭坛出资的断言仍指向`cand-8780`并保持待证。保留原引文、教堂端点和脚注；Haskell括号内“of the Jesuit Church”仍明确标为编辑插入。本次局部端点修订不改变S2独立复核分子或statement总数。
+
+**S4登记。** 将五条候选映射写入`alignment.csv`和`ku-manifest.csv`，`accepted.yml`新增四个KU：
+
+| S3组／候选 | KU |
+|---|---|
+| `sg3-place-cand-0734`：`cand-0734`、`cand-8827` | `units/places/s-maria-assunta-venice-jesuit-church` |
+| `archive-group-9b2b7db2b3f7`：`cand-8778` | `units/archives/libri-di-memorie-antonio-benigna-ms-ital-cl-vii-1620` |
+| `sg3-term-cand-8234`：`cand-8234` | `units/terms/manin-style-coloured-marble-stucco-draperies` |
+| `sg3-term-cand-8723`：`cand-8723` | `units/terms/assumption-of-the-virgin-dedication-santa-maria-assunta` |
+
+`cand-8725`和`cand-8780`均没有S4映射，等待上述身份缺口的证据；没有由关系猜造作品或家族对象。
+
+**S5字段。** 新增`enr-16019`–`enr-16039`共21条原书支持字段，均为`source_backed`，`unverified`数不变。四张新卡分别保留教堂名称、地理与建造语境、奉献和Haskell评价；手稿题名、原书所列责任者、手稿标识及被引条目日期（不把1729误作手稿编纂年）；Manin style的材料、造型及Udine Cathedral合唱席、威尼斯耶稣会教堂、Manin宫殿与乡间宅邸四个原书实例；以及圣母升天主题及其奉献角色。四项地点风格候选即使不生成关系边，原书事实仍留在术语卡“来源实例”字段。
+
+**S6逐项决定。** 本批对以下10条`relation_candidate`逐项给出去向：
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp9-p268-manin-jesuit-church` | `formal` | 新增`rel-1486 commissioned_by`：教堂→Manin家族；范围仅限Haskell所述正面与主祭坛建造责任，不补施工者、日期、合同或完工状态。 |
+| `st-chp9-p268-n05-benigna-church-decoration-list` | `formal` | 新增`rel-1487 has_subject`：Benigna手稿→教堂；仅表示Haskell所引1729条目涉及该教堂。括号内教堂名称为编辑插入，原件未查。 |
+| `st-chp9-p268-n05-benigna-manini-high-altar` | `pending` | 兄弟身份及家族支系未定，手稿未读；不把此对象与Manin家族合并，不写入关系表。 |
+| `st-chp9-p271-jesuit-readmission-and-manin-resources` | `pending` | 同一statement混合1657年回归、约半世纪后建堂及主要资源来源，尚未拆成可准确映射的原子关系；现有受控谓词不能忠实表达其建造／资源分配断言。 |
+| `st-chp9-p272-jesuit-altarpieces` | `pending` | 对象为数量范围而非已识别作品；候选`cand-8725`保持undecided，不写入关系表。 |
+| `st-chp9-p272-jesuit-church-dedication` | `rejected` | 该事实为地点奉献属性，且现有`dedicated_to`域为work；奉献对象已在地点及term卡中按S5保存。否决图谱边，不否定原书断言。 |
+| `st-chp9-p251-manin-style-at-udine-cathedral` | `rejected` | 术语→地点的“风格实例”无精确受控谓词；事实保留于Manin style术语卡。 |
+| `st-chp9-p251-manin-style-at-jesuit-church` | `rejected` | 同上；保留Haskell所述教堂实例，不把共现写作关系边。 |
+| `st-chp9-p251-manin-style-at-palace` | `rejected` | 同上；保留Manin宫殿实例。 |
+| `st-chp9-p251-manin-style-at-country-house` | `rejected` | 同上；保留Manin乡间宅邸实例。 |
+
+两条正式边均有S2定位、有效端点和受控域值域。`relations.csv`新增`rel-1486`–`rel-1487`；未把端点未决或谓词不准的pending/rejected候选伪装成图谱事实。定向预览后渲染四张新卡及Manin家族卡；卡片投影写入后复核无差异。
+
+**批后状态与检查。** S2仍为9,573/15,211，尚未接收；局部端点修订不计入独立审读。S3主决定仍覆盖12,388/12,408，已有same=2,026、new=5,021（4,791组）、conflict=9、excluded=100、undecided=5,232（含622项类型边界未决），缺主决定20。S4为1,484/4,791组、1,699/5,021条映射，待登记3,307组／3,322条映射。S5共12,270条，1,634条`unverified`。S6累计455/10,439（270 formal、129 pending、56 rejected），尚余9,984条；关系表1,487条（1,483 formal、4 pending）。`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`；本批卡片定向预览后渲染，五张卡写入后字节核对通过。机械检查不代表全书S2语义接收或S3–S6收口。
