@@ -11057,3 +11057,9 @@ accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` �
 | `rel-1567`／`st-chp19-p392-adam-1760-financial-report` | formal | archive `has_subject` Joseph Smith；time=`1760-08-20`。关系仅表示信件谈及Smith的财务状况，不确认其实际或后来破产。 |
 
 James对Smith逢迎言辞的独立S2评价候选 `st-chp10-p302-james-adam-criticism` 不是以上书信档案端点关系，本批未将其混入；其S6状态仍按相应独立候选处理。已修正Robert、James Adam与Joseph Smith三张人物卡中的过期“待S6／无正式关系”说明，再由 `relations.csv` 投影正式边。
+
+### S3沿用／S4／S5／S6：第2章 p.33 注1 Forge of Vulcan 场景（2026-10-23）
+
+沿用 `cand-4582` 的 S3 `new` 身份组 `workgrp-b6ea3c43ecb75a`，该组仅含一个候选；与整幅《乌尔班八世统治的荣耀》天花壁画保持不同身份。登记 work KU `units/works/forge-of-vulcan-in-pietro-da-cortona-ceiling-fresco`。Pietro da Cortona（`cand-0342`）与 Palazzo Barberini（`cand-0240`）分别复用既有 person、place KU；未做外部身份核查。印本 p.33 注1读作 “Forge of Vulcan”，S0 OCR 原文 “forge os Vulcan” 在卡片原引文中保留；注释转引 Pastor XIII, p.865，该文献未查阅。新增 S5 来源支持字段 `enr-16285`，只记录原文称名。
+
+S6 对两个原书关系候选逐项裁决为 formal：`st-chp2-secii-l147-193-forge-identification` → `rel-1568 creator_of`，范围限于 Haskell 所述包含该场景的 Pietro da Cortona 天花壁画作者语境，不断言独立载体或版本；`st-chp2-secii-l147-193-forge-location` → `rel-1569 located_at`，只记壁画在 Palazzo Barberini 的书内位置，不推断当前馆藏地点。另依脚注明确的 “in ... ceiling fresco” 表述登记 `rel-1570 part_of`（场景 → 整幅壁画）；这是来源直接支持的组成关系，保持两个 KU 身份分组，不由 S3 分组本身推出。三个正式边均使用 Haskell p.33 注1、L153（PDF physical p.14）作证。

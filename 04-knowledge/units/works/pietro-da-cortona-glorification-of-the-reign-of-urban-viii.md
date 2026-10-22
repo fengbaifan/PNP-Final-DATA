@@ -104,6 +104,7 @@ relations:
 | → 所涉对象（`has_subject`） | [乌尔班八世（Urban VIII）](../persons/urbano-viii.md) | 角色：统治颂扬对象；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [巴贝里尼宫（Palazzo Barberini）](../places/palazzo-barberini.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版13；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 59–60; 章前：图版目录；印刷页xii |
+| ← 包含成员（`contains`，反向投影） | [伏尔甘锻炉场景（Forge of Vulcan）](forge-of-vulcan-in-pietro-da-cortona-ceiling-fresco.md) | explicit containment in Haskell footnote; identity groups remain distinct; cited Pastor passage not consulted.；角色：整幅天花壁画中的图像场景；范围：Haskell第2章注1明确称Forge of Vulcan在Pietro da Cortona的天花壁画之中，支持场景到整幅壁画的part_of关系。两者身份保持分开；本边不单独判定该场景的物质载体或版本。；原断言与证据见发出端卡片“伏尔甘锻炉场景（Forge of Vulcan）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；printed p. 33 n. 1, L153; PDF physical p. 14; statements=st-chp2-secii-l147-193-forge-identification,st-chp2-secii-l147-193-forge-location |
 
 ### 关系候选入口
 
