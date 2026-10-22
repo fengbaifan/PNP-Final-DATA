@@ -10805,3 +10805,23 @@ S6本批共2条：2 formal、0 pending、0 rejected；两个谓词与端点类�
 | `rel-1531` | `st-chp10-notes-p277n5-gergy-location` | 该work → `units/institutions/hermitage-museum`，`located_at`；Haskell 1980注5转引Haskell 1956 p.298的“now in the Hermitage”。被引1956页未独立查阅；该边限定为出版语境中的来源所载位置，不是当前馆藏位置核验。 |
 
 **卡片投影与批后核验。** 对work、Canaletto及Hermitage三卡定向渲染并通过写后核对；随后三卡 `build_cards.py --preview --ku ...` 均无待写差异。Hermitage卡同时由renderer规范化了一条既有关系投影的来源ID；本批未改变该既有关系的语义或 `relations.csv` 记录。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`，当前S4待登记映射3,300条、S5字段12,334条（1,634条unverified）、relations.csv为1,531条（1,524 formal、7 pending）；过程累计S6裁决527/10,459（312 formal、153 pending、62 rejected），余9,932条。`audit_relation_consistency.py --dry-run`中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2 statement数和9,573条统一独立复核分子未变化；本次定向复读不计为独立S2复核。审计只证明表结构与受影响投影无已知机械错误，不表示S2语义接收或S4–S6全书收口。
+
+<a id="s4-s5-s6-chp3-p68-old-vallicella-20261023"></a>
+
+### S4／S5／S6：第3章 p.68 S. Maria della Vallicella 旧堂（2026-10-23）
+
+**原书、S3沿用与对象边界。** 对照Haskell第3章印刷页68（PDF物理页6）扫描、S2段 `chp-3:03_CHP-3_sec_ii:l33-38` 及三条直接关系候选。扫描可见原文称 S. Maria della Vallicella 于1575年由Gregory XIII分配给Philip Neri，位于Rome；其规模被认为过小，后被拆除并由同名更大的建筑取代，后者常称Chiesa Nuova。沿用S3 `new` 组 `sg3-place-cand-5027`、映射 `aln-5210`，不重开S3。登记 `units/places/original-santa-maria-della-vallicella-rome` 为place中的建筑地点；同类型KU检索没有找到旧堂对象。`cand-0710`已有`same`映射指向后继教堂 `units/places/chiesa-nuova`；旧堂和后继建筑按原书的拆除、取代描述分开记录。不补造精确拆除年份，也不声称外部身份核验或现代地点状态。
+
+**S4与S5。** 更新 `cand-5027` 对齐到新KU，登记 `ku-manifest.csv` 与 `accepted.yml`。新增两条原书支持的建筑字段：`enr-16190` 建筑类型（原书所述较小旧堂，区别于Chiesa Nuova）、`enr-16191` 建筑状态（原堂因过小而拆除并由同名较大教堂取代）。`build_field_facts.py` 全库dry-run在目标写入前显示 `new_ids=34`、`removed_ids=32`、`record_changes=0`、`source_registry_changes=0`、`warnings=0`；确认后仅定向写入这两条目标记录。写后preview仍只有其他历史ID的32组新增／32组缺失差异，`record_changes=0`，无全库重建或来源登记变更。
+
+**S6逐条裁决。** 三条关系候选均有明确去向；只将受控类型和证据范围均成立的一条写为formal：
+
+| relation_id／statement_id | 决定 | 理由与限定 |
+|---|---|---|
+| `rel-1532`／`st-chp3-secii-l33-38-original-church-in-fashionable-rome` | formal；`located_at`，旧堂 → Rome | Haskell明确称其位于Rome；保留评价语属于Haskell，不推成行政隶属或现代精确位置。 |
+| `st-chp3-secii-l33-38-original-church-assigned-to-philip-1575` | pending | 原书说教宗于1575年将教堂分配给Philip Neri；当前没有忠实表达place→person分配的受控谓词，不改写为委托、产权、赞助或建造关系。 |
+| `st-chp3-secii-l33-38-original-church-small-and-replaced-by-chiesa-nuova` | pending | 原书说旧堂被拆除并由较大的Chiesa Nuova取代；关系类型中没有建筑`replaced_by`，`part_of`或`variant_of`也不等义。后继端点已有KU，但不因此强行生成形式边。 |
+
+上述pending裁决端点均已映射，无新增candidate-backlog项。`relations.csv`新增 `rel-1532` 一条formal关系；过程裁决累计新增1 formal、2 pending。
+
+**卡片投影与批后核验。** 对旧堂和Rome两卡预览后定向 `build_cards.py --render --ku ...`；preflight通过，渲染2张卡、写入2个文件，写后字节核对通过，恢复快照清理。Rome卡预览显示四条原已formal但此前未投影的既有反向边（Aedes Barberinae、Discalced Trinitarians、S. Ignazio、Van Dyck三面肖像），以及本批旧堂反向边；并将一条既有Camillo Massimi投影补齐来源ID。这些改动均由现存 `relations.csv` 正式记录驱动。渲染后两卡preview均无差异。`audit_tables.py --strict-stage --summary` exit 0，`errors=[]`、`s2_missing=[]`；批后S4为1,514/4,798组、1,731/5,030映射，待登记3,284组／3,299映射；S5为12,336字段（1,634条unverified）；S6为528/10,459（313 formal、153 pending、62 rejected），余9,931条；`relations.csv`共1,532条（1,525 formal、7 pending）；candidate-backlog仍6条、pending=0。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S2 statement数和9,573条统一独立复核分子未变；本次源页核对不计入独立复核。机械审计不表示S2语义接收或S4–S6全书收口。
