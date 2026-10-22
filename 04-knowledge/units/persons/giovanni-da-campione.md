@@ -45,14 +45,17 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 门廊与南入口是两项不同建造陈述；后一项只给出“数年后”，不补出确切年份。两项关系均留待S6。 [第8章 p.215；OCR L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [索引 C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
+**中文：** 门廊与南入口是两项不同建造陈述。Haskell只称南入口建于门廊之后数年，未给出确切年份；南入口建造关系已记录，门廊建造关系仍待S6裁决。 [第8章 p.215；OCR L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [索引 C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
 
-**English:** The portico and south entrance are two separate construction statements; the latter is dated only as a few years later. Both remain for S6. [第8章 p.215；OCR L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [索引 C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
+**English:** The portico and south entrance are separate construction claims. Haskell dates the south entrance only to a few years after the portico, with no exact year; its builder relation is recorded, while the portico relation remains for S6 review. [Chapter 8, p.215, L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [Index C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← erector_of（`erector_of`，反向投影） | [贝加莫圣母大殿南入口（South entrance of Santa Maria Maggiore, Bergamo）](../works/santa-maria-maggiore-south-entrance-bergamo.md) | statement=st-chp8-p215-campione-built-south-entrance；记录来源所述建造者，不推定设计、委托或精确建成年份；时间：1355年门廊建成数年后；南入口的确切年份未载；角色：建造者；范围：Haskell称 Giovanni da Campione 于1355年建门廊，数年后又建南入口；保留相对年代，不推定具体年份。；原断言与证据见发出端卡片“贝加莫圣母大殿南入口（South entrance of Santa Maria Maggiore, Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215, L13 |
 
-当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp8-p215-campione-erected-gothic-portico-1355`, `st-chp8-p215-campione-built-south-entrance` 留待S6审查；本次S4登记不裁决或创建正式关系。
+
+南入口建造关系已进入正式关系表；门廊建造关系候选 `st-chp8-p215-campione-erected-gothic-portico-1355` 仍待 S6 裁决。

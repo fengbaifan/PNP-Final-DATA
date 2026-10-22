@@ -2,17 +2,17 @@
 
 ### 本轮进度与后续工作（2026-10-23）
 
-本轮在此前十个S4端点批次后，追加第十一批五件作品：沿用五个既有S3 `new` 组，新增5个work KU、14条Haskell原书支持S5字段，并对10条直接关系候选逐项裁为formal（`created_by` 与 `commissioned_by` 各5条）。五个S3身份组没有重开；Cignani两件作品的年份与Augsburg/Munich地点均只作未映射的组级信息，不赋给单件作品。合计11批18个KU、46条S5字段、41条关系候选均有去向（28 formal、13 pending）。详细证据见[第10章五件作品批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#{anchor})及前述批次链接。
+本轮截至目前完成12批直接端点工作：此前11批登记18个KU，本批沿用第8章南入口的既有S3 `new` 组，再登记1个work KU，新增3条原书支持S5字段。至此合计19个KU、49条S5字段、43条关系候选有明确去向（29 formal、14 pending）。本批把Giovanni da Campione建造南入口裁为formal `erected_by`；The Flood位于南门上方因受控关系无法表达work→work精确位置而保留pending。详细依据见[南入口批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp8-p215-south-entrance-20261023)及[第10章五件作品批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch10-p282n3-five-works-20261023)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,239条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮定向复读不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,799组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须在相关来源或新证据触发时局部复核，不直接视为身份冲突。S4已登记1,527/4,799组、1,743/5,030条候选映射，待登记3,272组／3,287条映射。S5有12,374条字段，1,634条 `unverified`。S6裁决554/10,462条（338 formal、154 pending、62 rejected），余9,908条；`relations.csv`共1,557条（1,549 formal、8 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。candidate-backlog共6条（5条完成，1条明确undecided，pending=0）。严格表审计exit 0、`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全库卡片预检曾在Papal States卡报告relation subsection presence mismatch；该项仍待修复。机械通过不等于语义接收或全书阶段收口。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,239条statement，统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,264，第八章487/1,471；第3章1,173/1,181及第10–12章1,567/1,567的独立记录仍分开报告，均未接收，统一复核台账待按statement ID与来源版本核平。本轮定向复读不计入独立复核分子。S3主决定覆盖12,388/12,408个候选，缺20项（person 16、institution 2、archive 2）；same=2,026、new=5,030（4,799组）、conflict=9、excluded=100、undecided=5,223（含622项类型边界未决）；另22项跨来源decision不同，须在相关来源或新证据触发时局部复核，不直接视为身份冲突。S4已登记1,528/4,799组、1,744/5,030条候选映射，待登记3,271组／3,286条映射。S5有12,377条字段，1,634条 `unverified`。S6裁决556/10,462条（339 formal、155 pending、62 rejected），余9,906条；`relations.csv`共1,558条（1,550 formal、8 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。candidate-backlog共6条（5条完成，1条明确undecided，pending=0）。此前严格表审计与关系一致性检查通过；本批完成所选卡片预检、渲染及写后字节核对，更新后全表审计待复核。全库卡片预检曾在Papal States卡报告relation subsection presence mismatch；该项仍待修复。机械通过不等于语义接收或全书阶段收口。
 
 **后续工作规划。**
 
-1. **继续以直接S4端点带动同批S5/S6。** 从已定为`new`且能解锁多条直接关系的组中，按来源语境成批登记；字段只补当前必需且有据项目，关系候选逐条记formal、pending或rejected。避免无关系收益的纯登记批次挤占审读时间。
-2. **完成全书S3候选有据去向。** 当前仍有20个候选缺主决定、5,223项`undecided`（含622项类型边界待决）和22项跨来源decision差异。按实体类型建立候选—来源锚点—身份组对照，语义相同才复用，同一性未决就保留明确条件；不因本批五个既有组无新证据而重复打开。新S4端点或新证据触发时先做局部S3裁决。
-3. **核平并继续S2分章独立语义复核。** 按当前statement ID与source version对齐9,573条统一台账后，继续下一未复核章节范围；分章结果单列，端点修订、抽样和结构审计不计入独立复核分子。
-4. **持续处理已有S6候选和S5未验证字段。** 对端点齐全、证据已定位的关系候选逐条审；端点缺失或谓词不合时保留pending并写出解除条件。1,634条`unverified`逐字段处理，不批量升级状态。
-5. **满足前置门槛后再进入S7。** 先完成S2独立接收、S3逐候选有据去向、S4全部`new`映射、S5缺口处置、S6逐项决定及backlog清零；修复Papal States关系视图差异后，再做发布验证。知识发现和页面制作继续暂停，直至用户明确启动。
+1. **先核平S2独立复核基线与S3决策空项。** 将9,573条统一独立复核记录按statement ID和source version与当前15,239条statement核对；先补齐20个尚无S3主决定的候选（person 16、institution 2、archive 2），保留来源行轨迹。随后按实体类型处理已标记的边界、身份冲突和22项跨来源decision差异；decision值不同只触发逐条核对，不自动归为身份冲突。
+2. **按“复用／新建／冲突／排除／待证去向”逐类型收口S3。** 对每个候选留下决定、原书锚点、跨章组或既有KU、理由及下一步；同一性未决时保留undecided并写明解除条件，不强行合并或新建。622项类型边界待决和其余undecided分开记录，不把“有undecided决定”误报为对象已解决。
+3. **继续高关系收益的S4批次，并在同批完成S5/S6。** 从S3已明确为new、且能解锁直接关系的组中优先选取；每批先核原书与候选边界，再登记KU、只补必要来源字段、逐条裁为formal/pending/rejected。当前尚有3,271组／3,286条new候选映射待S4；端点不清楚时走backlog或明确待证，不凭关系猜对象。S3仅由当前注册或新证据触发局部重审。
+4. **清理S6与S5剩余队列。** 对9,906条未裁决关系候选先按端点齐备与证据可用性分队，直接裁决可完成项；至少一个S2端点候选ID缺失的339条单独回查来源，区分可补S2端点、类型未决和无可用关系谓词。1,634条`unverified`字段按字段和证据逐项处理，不批量升级状态。
+5. **满足门槛后再准备S7。** S2统一独立审读完成并接收，S3每个候选均有可追溯决定及明确去向，所有S4 `new`映射完成，S5字段缺口有处置，S6每条候选有formal/pending/rejected裁决且backlog清零；修复Papal States关系视图差异后执行发布验证。知识发现和页面制作继续等待用户明确启动。
 
 ### S3沿用／S4/S5/S6：第9章 p.275 注2 Gherardi 致 Muratori 书信（2026-10-22）
 

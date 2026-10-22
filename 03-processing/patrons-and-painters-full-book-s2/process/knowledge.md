@@ -10975,3 +10975,21 @@ accepted清单及manifest已同步。新增14条Haskell原书 `source_backed` �
 所有边的 `time` 留空。Cignani两件作品不分配具体年份或城市；其余作品没有单件年代或地点证据。四位人物端点分别复用既有Cignani、Franceschini、dal Sole与Johann Wilhelm KU。S2 statement及独立复核计数未改变。
 
 **批后状态。** S4登记1,527/4,799组、1,743/5,030条候选映射；余3,272组／3,287条映射。S5字段12,374条，`unverified`仍1,634条。S6累计裁决554/10,462条（338 formal、154 pending、62 rejected），余9,908条；`relations.csv`共1,557条（1,549 formal、8 pending）。关系候选中339条至少缺一个S2候选端点ID（subject-only 46、object-only 221、both 72）。candidate-backlog 6条、pending=0。机械审计与本轮抽样只确认表格结构和本批来源链，不表示S2独立语义复核获接收，也不表示S3–S6全书收口。
+
+
+<a id="s4-s5-s6-chp8-p215-south-entrance-20261023"></a>
+
+### S3沿用／S4／S5／S6 work：第8章 p.215 圣母大殿南入口（2026-10-23）
+
+**原书与S3身份边界。** 对照Haskell第8章印刷页215（PDF物理页13）扫描及 chp-8:08_CHP-8_sec_ii:l11-19。原文称 Giovanni da Campione 于1355年建成哥特门廊，“数年后”又建较为简朴的南入口；未给南入口精确年份。沿用S3 new 组 workgrp-f70c0dfe6ca297、候选 cand-7631 和决定 aln-7807，不重开S3；按taxonomy将单独描述的建筑构件归为work，与 units/places/santa-maria-maggiore-bergamo 教堂整体分开。新对象仍是来源局部指称，不声称外部身份核验或现存实物鉴定。
+
+**S4与S5。** 将 cand-7631 映射至 units/works/santa-maria-maggiore-south-entrance-bergamo，加入manifest及accepted清单。新卡只保留可由原书支持的描述性指称、建筑构件类型与相对建造时间，新增 enr-16262–enr-16264；不把南入口称作正式题名，也不补确切年份。原书扫描还显示 The Flood 重绘后被安置在“South door”上方，且“still is”限于Haskell叙述时点。
+
+**S6逐条裁决。** 两条直接关系候选各有去向：
+
+| statement_id | 决定 | 依据与去向 |
+|---|---|---|
+| st-chp8-p215-campione-built-south-entrance | formal；新增 rel-1558 erected_by：南入口→Giovanni da Campione | Haskell直接称Campione建造南入口；沿用“1355年门廊之后数年”的相对时间，不推为具体年份，不推定设计或委托。 |
+| st-chp8-p217-flood-placed-south-door | pending（过程记录） | 两端分别为work，但受控关系没有work→work的“位于构件上方”类型；located_at仅允许指向place或institution。保留南门上方这一精确位置，不将端点降格替换为整座教堂，也不创建不受控正式边；只有受控关系能表达该空间关系或原端点身份发生变化时再审。 |
+
+定向渲染南入口和Giovanni da Campione两卡：所选预检通过，2张卡、3个表、4行字段、2条关系投影受检；渲染后字节核对通过。人物卡更新为南入口建造关系已记录、门廊建造候选仍待审，移除过期的“两个关系均留待S6”说明。本批未改S2 statement或独立复核分子。机械检查只确认受影响记录和卡片投影，不代表全书阶段接收。
