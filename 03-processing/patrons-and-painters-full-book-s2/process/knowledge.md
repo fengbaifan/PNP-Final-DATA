@@ -9013,6 +9013,7 @@ cand-7963 沿用既有 S3 new 身份组 sg3-place-cand-7963，登记至[知识�
 
 登记后S4已登记1,295/4,806组、1,497/5,029条映射；待登记3,511组／3,532条映射。直接关系端点队列降至1,759组／1,759个候选／1,773条成员映射，其中术语528组／528成员；另有1,752组／1,759条非直接映射待登记。KU总数2,314。
 
+<a id="s3-s4-institution-inquisitori-di-stato-20261020"></a>
 ### S3/S4 institution：Inquisitori di Stato 跨章身份组（2026-10-20）
 
 `cand-9739`（第10章 p.320，L159）保留原有 S3 `new` 决定；`cand-10464`（第15章 p.364 注1，L51）由 `undecided` 改为 `new`，与前者共用身份组 `sg3-institution-cand-9739`，两条映射登记至[威尼斯国家审判官机构卡](../../04-knowledge/units/institutions/inquisitori-di-stato-venice.md)。跨章判断依据是第15章脚注明确写出 `Inquisitori di Stato (Busta 540)`，并由威尼斯国家档案官方指南的同名机构条目核对；该外部指南只用于名称及身份，不替代档案原件查阅。机构本体、Archivio di Stato di Venezia 保管机构及 Busta 540 / Annotazioni 档案记录保持分立；不据此推断机构权限、Lodoli 案件详情或档案内容，也不与 `Inquisitori alle Arti` 合并。
@@ -11595,3 +11596,36 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 **S5与S6去向。** 新卡增加三条Haskell来源支持字段 `enr-16440`–`enr-16442`：文献类型、来源所称发信人称谓、嵌套信件的提及语境。S6将内层信→既有人物Luca Giordano裁为 formal `rel-1657 addressed_to`；两条 authorship 候选因缺个人端点保留 pending，并分别由 `bl-0012`（总督个人身份）和 `bl-0011`（外层写信人）指向各自S2 statement。关系表不写空端点行。外层书信、内层信件和Giordani回复不合并为一个档案对象。
 
 **检查与当前计数。** S2为15,267条；统一独立复核仍为9,573（62.7%，未接收），第八章分母1,484。S3主决定12,394/12,415，新增一条 `new`；S4已登记1,582组、1,802/5,042条new映射，尚余3,240条映射；S5为12,555条（1,634条 `unverified`）；S6为726/10,490项（441 formal、213 pending、72 rejected），尚余9,764项；`relations.csv` 为1,657条（1,647 formal、10 pending）。关系候选缺S2端点共340条（subject-only 45、object-only 223、两端均缺72）；backlog 12条（10 completed、2 undecided，pending=0）。字段抽取写入后复预览无变化，卡片定向渲染后预览无差异，正式表审计和关系一致性审计待最终收口复核。
+
+<a id="s3-main-decision-repair-21-20261023"></a>
+### S3主决定覆盖修复：补齐21项候选的主裁决行（2026-10-23）
+
+**核查范围与判断。** 按当前 `entity-candidates.csv` 的12,415个唯一候选与 `alignment.csv` 主决定行逐项连接，修复前有12,394个候选具主决定；另21项虽已有外部身份记录，但缺少 `external_source` 与 `external_id` 均为空的候选级主行。2026-10-22的20项清单为历史快照：`cand-7603`、`cand-10696`此后已补主行；当前候选新增后另有`cand-7866`、`cand-12431`、`cand-12432`缺主行。逐项复核既有S3/S4过程证据后，确认其中17项沿用已有 `new` 组及已登记KU，4项沿用已有 `same` 目标；不新增身份结论，不更改外部记录，不据身份决定新增关系或来源事实。
+
+**逐项回填。** 新增`aln-12731`–`aln-12751`。每行保留候选主决定、S4现有KU去向、可解析的 `new` 组标识、对应外部证据行及原过程锚点。人物姓名异文、特定卷册与系列边界、机构本体与保管机构、书目题名与具体副本均沿用各自原裁决范围。
+
+| 候选 | 新主行 | S3决定 | 组／same目标 | 已有KU | 外部证据行 | 过程依据 |
+|---|---|---|---|---|---|---|
+| `cand-0250` | `aln-12731` | new | `new-person:cesare-baronio-20261019` | `units/persons/cesare-baronio` | `aln-0585` | [Baronio跨章裁决](#s3-s4-person-baronio-cross-chapter-20261019) |
+| `cand-0657` | `aln-12732` | new | `new-person:charles-ii-of-spain-4bf5c541dc` | `units/persons/charles-ii-of-spain` | `aln-0992` | [四组人物裁决](#s3-s4-person-batch-four-20261019) |
+| `cand-10464` | `aln-12733` | new | `sg3-institution-cand-9739` | `units/institutions/inquisitori-di-stato-venice` | `aln-10634` | [Inquisitori di Stato跨章组](#s3-s4-institution-inquisitori-di-stato-20261020) |
+| `cand-10748` | `aln-12734` | same | — | `units/persons/mattia-de-rossi` | `aln-10916` | [人物端点复核](#s3-s4-person-endpoints-batch-20261018) |
+| `cand-10828` | `aln-12735` | new | `new-person:amigoni-an-as-entry-farinelli-in-named-por-c9e3ccef70` | `units/persons/carlo-broschi-farinelli` | `aln-10996` | [人物端点复核](#s3-s4-person-endpoints-20261019) |
+| `cand-12431` | `aln-12736` | new | `archive-group-lunadoro-relatione-della-corte-di-roma` | `units/archives/relatione-della-corte-di-roma` | `aln-12720`、`aln-12721` | [Bellori附录与Relatione跨章裁决](#s3-s4-s5-s6-20261023-bellori-nota-musei-cross-chapter) |
+| `cand-12432` | `aln-12737` | new | `person-group-girolamo-lunadoro-1575-1642` | `units/persons/girolamo-lunadoro` | `aln-12722` | [Bellori附录与Lunadoro跨章裁决](#s3-s4-s5-s6-20261023-bellori-nota-musei-cross-chapter) |
+| `cand-1448` | `aln-12738` | new | `new-person:louis-xv-bbd43bc0ca` | `units/persons/louis-xv` | `aln-1783` | [四组人物裁决](#s3-s4-person-batch-four-20261019) |
+| `cand-2683` | `aln-12739` | same | — | `units/persons/giuseppe-valeriani` | `aln-3018` | [Padre Valeriano复用裁决](#s3-person-padre-valeriano-reuse-20261019) |
+| `cand-2687` | `aln-12740` | new | `new-person:antonio-vallisnieri-5feb4b6253` | `units/persons/antonio-vallisnieri-junior` | `aln-3022` | [人物端点复核](#s3-s4-person-endpoints-20261019) |
+| `cand-2887` | `aln-12741` | same | — | `units/persons/andrea-zucchi` | `aln-3222` | [人物端点复核与Antonio／Andrea异文](#s3-s4-person-endpoints-20261019) |
+| `cand-4147` | `aln-12742` | same | — | `units/persons/ralph-bankes` | `aln-4331` | [既有KU复用与Bankes区分](#s3-person-existing-ku-reuse-20261019) |
+| `cand-4167` | `aln-12743` | new | `new-person:arlotto-piovano-69c355f1f2` | `units/persons/arlotto-mainardi` | `aln-4351` | [人物端点复核](#s3-s4-person-endpoints-batch-20261018) |
+| `cand-5025` | `aln-12744` | new | `new-person:alessandro-de-medici-40f1223058` | `units/persons/alessandro-de-medici` | `aln-5208` | [人物端点复核](#s3-s4-person-endpoints-20261019) |
+| `cand-5503` | `aln-12745` | new | `archive-group-bottari-ticozzi-raccolta-vol-vi` | `units/archives/bottari-ticozzi-raccolta-vol-vi-1822` | `aln-5684` | [Bottari卷VI登记](#s4-bottari-ticozzi-raccolta-vol-vi-1822-20261019) |
+| `cand-6180` | `aln-12746` | new | `new-person:briganti-giulio-b5d29561c9` | `units/persons/giuliano-briganti` | `aln-6361` | [人物端点复核](#s3-s4-person-endpoints-batch-20261018) |
+| `cand-6200` | `aln-12747` | new | `archive-group-bottari-ticozzi-raccolta-vol-ii` | `units/archives/bottari-ticozzi-raccolta-vol-ii-1822` | `aln-6381` | [Bottari卷II登记](#s4-bottari-ticozzi-raccolta-vol-ii-20261019) |
+| `cand-7034` | `aln-12748` | new | `new-person:catherine-de-medici-73fbaf8c57` | `units/persons/catherine-de-medici` | `aln-7210` | [四组人物裁决](#s3-s4-person-batch-four-20261019) |
+| `cand-7036` | `aln-12749` | new | `new-person:iii-of-philip-spain-c8b7eaf813` | `units/persons/philip-iii-of-spain` | `aln-7212` | [四组人物裁决](#s3-s4-person-batch-four-20261019) |
+| `cand-7866` | `aln-12750` | new | `archive-group-giglioli-volterrano-uffizi-1908` | `units/archives/giglioli-volterrano-uffizi-1908` | `aln-8041` | [Giglioli 1908书目身份裁决](#s3-s4-s5-s6-chp8-p231-la-burla-20261023) |
+| `cand-9739` | `aln-12751` | new | `sg3-institution-cand-9739` | `units/institutions/inquisitori-di-stato-venice` | `aln-9911` | [Inquisitori di Stato跨章组](#s3-s4-institution-inquisitori-di-stato-20261020) |
+
+**写后核对与交接。** 主决定覆盖为12,415/12,415；决策计数 same=2,039（1,096个目标KU）、new=5,059（4,809组）、conflict=9、excluded=101、undecided=5,207。新增17条已登记的new候选映射与4条same映射；S4变为1,596/4,809组、1,819/5,059条候选映射，仍有3,240条new候选映射待登记。17个new候选对应16个身份组，其中卷VI、卷II组此前已有成员，Inquisitori di Stato两候选共用一个组，故主表new组总数净增14。候选数、唯一主决定数与新增ID已逐项核对；S3其余未决、22项跨来源决定差异及53条new组标识口径仍按现行计划继续逐类核查。
