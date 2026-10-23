@@ -1,5 +1,63 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp2-p43-capuchin-furnishings-20261023"></a>
+### S2/S3/S4/S5/S6：第2章 p.43 高祭坛、陈设与祭坛画组（2026-10-23）
+
+**核查与S2定点修订。** 对照 Haskell 印刷页43（PDF物理页28）与当前30条statement、mentions及候选映射。沿用既有定点独立审读记录，不增加统一S2复核分子。将“the nephews”从Barberini家族整体cand-0198拆出为未具名集体候选cand-12438，类型边界仍未决；修正Urban VIII本人“had had designed”两项陈设的完整引文；将S. Onofrio两条引文延至“the church”；将“other paintings”补为精确mention；将“they”指向Capuchins；“them”保留一个不重叠的联合mention，并由两条statement端点分别指向木烛台组与十字架组；Pietro da Cortona断言保留“young Barberini favourite”限定。30条statement的mentioned_candidate_ids已按逐条直接提及及主客体端点核对，不把段落候选全集复制到每条断言。
+
+**S3身份决定与S4登记。** cand-11554祭坛画委托组与cand-4545“other paintings”子组均由undecided重开为new，分别建立workgrp-dccfd9a55cb9e5与workgrp-332d912a88281f；cand-2126索引子目由undecided裁为same，映射至本批登记的Reni画作KU。以下8组登记为独立work；作品方案、陈设组、单件画作及委托总组保持分开，不推定制作者、完整成员、现存身份或安装情况。
+
+| 候选 | S3组 | S4 KU | 边界 |
+|---|---|---|---|
+| cand-4539 | workgrp-e63e6dadf6dfe9 | units/works/high-altar-at-s-maria-della-concezione | 只记Haskell所称High Altar；“The same occurred”未复述前述争议的逐项步骤。 |
+| cand-4540 | workgrp-c24e55eda567d0 | units/works/bronze-tabernacle-design-capuchin-church | 先述青铜方案，后述改用pietre fine；不声称实际制作或安装。 |
+| cand-4541 | workgrp-f5d3250cdeb279 | units/works/metal-candelabra-design-capuchin-church | 提议的金属烛台组，来源称后来可以省略。 |
+| cand-4542 | workgrp-6451b9048568de | units/works/bronze-candlesticks-barberini-chapel | Barberini家族礼拜堂内的青铜烛台，不与cand-4541合并。 |
+| cand-4543 | workgrp-86239ebfbf0f6d | units/works/iron-grating-barberini-chapel | 家族礼拜堂的铁栏栅；饰材按原文保留“metal or bronze”。 |
+| cand-4544 | workgrp-096f9591daebde | units/works/the-archangel-michael-trampling-on-the-devil | 只记录Haskell所称画作及书内寄送，不由sent_by推定created_by。 |
+| cand-11554 | workgrp-dccfd9a55cb9e5 | units/works/altar-pictures-commissioned-for-s-maria-della-concezione | 委托作品总组；总数与完整成员未知。 |
+| cand-4545 | workgrp-332d912a88281f | units/works/other-altar-pictures-s-maria-della-concezione | 精确称谓为“other paintings”；题名、数量及逐件作者对应未知。 |
+
+cand-2126已same至Reni画作KU。cand-12438保持S3 undecided并写入backlog bl-0015；未给未具名侄辈群体强设family/person类型，也未建KU。
+
+**S5书内字段。** 八张卡片共新增24条Haskell来源字段enr-16471至enr-16494，均为source_backed、unverified数不变；未作外部身份或作品目录核验。tabernacle卡将扫描印刷页所见“pietre fine”与来源OCR连写“pietrefine”分开记录。
+
+**S6逐条裁决。** 本段27条relation_candidate=true statement全部有可追溯去向：14 formal（其中沿用rel-1390、rel-1391两条既有formal边；本批新裁formal 12条），4 pending，9 rejected。relations.csv新增20条formal边rel-1673至rel-1692。正式边只表达受控谓词允许的委托人、用途、书内所在、寄送、作品组从属、贡献者与师承关系；不表达设计者、实际制作、安装、个体作者归属或不明接受者。
+
+| S2关系候选 | 决定 | 正式关系／去向 |
+|---|---|---|
+| st-chp2-secii-l141-145-barberini-altar-pictures-commission | formal | rel-1673、1674 commissioned_by；rel-1675 intended_for；并为Reni作品的rel-1680 intended_for、rel-1681 part_of及其他画作组的rel-1687 intended_for提供委托语境。 |
+| st-chp2-secii-l141-145-barberini-chapel-bronze-candlesticks | formal | rel-1676 located_at Barberini chapel。 |
+| st-chp2-secii-l141-145-barberini-chapel-iron-grating | formal | rel-1677 located_at Barberini chapel。 |
+| st-chp2-secii-l141-145-barberini-decoration-responsibility-agreed | rejected | 报告家族承担装饰责任的协议；没有与该责任对象对应的可用work端点及精确受控谓词。 |
+| st-chp2-secii-l141-145-barberini-nephews-decoration-role | pending | cand-12438类型／集体边界未决，暂不能建立有类型保障的正式端点。 |
+| st-chp2-secii-l141-145-candelabra-omitted | rejected | 记录方案可省略的让步，不构成独立知识元间关系。 |
+| st-chp2-secii-l141-145-capuchin-poverty-plea | rejected | 保留为修士的书内申诉陈述；不把申诉改写成友谊、冲突或支持关系。 |
+| st-chp2-secii-l141-145-capuchin-reject-and-return-wooden-furnishings | pending | 沿用既有待决；当前无准确表达退回行为的受控谓词，不改作owned_by或held_by。 |
+| st-chp2-secii-l141-145-chapel-material-policy-agreed | rejected | 木材与大理石方案属于装饰政策陈述，不是人物／实体间关系。 |
+| st-chp2-secii-l141-145-ciarpi-master-of-pietro | formal | rel-1678 teacher_of，Baccio Ciarpi→Pietro da Cortona。 |
+| st-chp2-secii-l141-145-high-altar-similar-dispute | rejected | 保留“主祭坛发生类似争议”的原文断言；句子未重述事件步骤，不建立臆定事件或关系边。 |
+| st-chp2-secii-l141-145-other-artists-paintings-contributed | formal | rel-1682 contributed_by Domenichino；rel-1688 part_of委托总组。 |
+| st-chp2-secii-l141-145-reni-archangel-picture-sent | formal | rel-1679 sent_by Guido Reni；只记录书内寄送。 |
+| st-chp2-secii-l141-145-reni-picture-reception | rejected | “among the most admired”是未具名接受者的声誉断言；保留S2，不虚构赞赏者端点。 |
+| st-chp2-secii-l141-145-s-onofrio-orders-candlesticks | formal | 沿用rel-1390 supplied_by；不重复建边。 |
+| st-chp2-secii-l141-145-s-onofrio-orders-crucifixes | formal | 沿用rel-1391 supplied_by；不重复建边。 |
+| st-chp2-secii-l141-145-tabernacle-material-changed | rejected | 材质让步是作品属性变化陈述，不是关系。 |
+| st-chp2-secii-l141-145-urban-candelabra-designed | formal | rel-1691 commissioned_by Urban VIII；rel-1692 intended_for教堂。设计者不明，未建designed_by。 |
+| st-chp2-secii-l141-145-urban-dynastic-motive-continuation | rejected | Haskell对Urban动机的归因，不是可证关系边。 |
+| st-chp2-secii-l141-145-urban-insists-candlesticks-accepted | pending | 沿用既有待决；没有准确表达坚持后被接受的谓词，不推定所有权或安装。 |
+| st-chp2-secii-l141-145-urban-special-dispensation | rejected | 来源称Urban命令特许，但未具名签发者或被签发文书；不将命令等同于已签发的正式关系。 |
+| st-chp2-secii-l141-145-urban-tabernacle-designed | formal | rel-1689 commissioned_by Urban VIII；rel-1690 intended_for教堂。设计者不明，未建designed_by。 |
+| st-chp2-secii-l141-145-capuchin-return-crucifixes | pending | 沿用既有待决；不把退回行为推成当前保管或所有权。 |
+| st-chp2-secii-l141-145-lanfranco-paintings-contributed | formal | rel-1683 contributed_by Lanfranco；不落实到单件画。 |
+| st-chp2-secii-l141-145-pietro-da-cortona-paintings-contributed | formal | rel-1684 contributed_by Pietro da Cortona；不落实到单件画。 |
+| st-chp2-secii-l141-145-andrea-sacchi-paintings-contributed | formal | rel-1686 contributed_by Andrea Sacchi；不落实到单件画。 |
+| st-chp2-secii-l141-145-baccio-ciarpi-paintings-contributed | formal | rel-1685 contributed_by Baccio Ciarpi；不落实到单件画。 |
+
+另有3条statement的relation_candidate=false，未列入S6分母：pope-bewildered-and-adamant、reni-picture-evaluation与riches-and-devotion-authorial-context；它们仍保留为S2叙述／评价，不升级为关系。
+
+**批后状态。** S2统一复核仍为9,573/15,268，未接收；第2章p.43的定点修订不并入统一分子。S3当前12,416个候选均有主决定：same=2,040、new=5,062、conflict=9、excluded=101、undecided=5,204。S4新登记8个KU并补8条new候选映射；S5增加24条字段。S6新增22条逐候选裁决、20条formal关系边；候选状态与关系行数分别统计，不能视为同一数量。严格表审计、关系一致性核验及受影响卡片定向渲染结果另记于当前结果页。
+
 <a id="s4-s5-s6-chp16-p373-strange-sasso-endpoints-20261023"></a>
 ### S4/S5/S6：第16章 p.373 Strange–Sasso 跨章书信端点（2026-10-23）
 

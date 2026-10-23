@@ -53,6 +53,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 教师（`teacher_of`） | [皮耶特罗·达·科尔托纳（Pietro da Cortona）](pietro-da-cortona.md) | 角色：master of Pietro da Cortona；范围：Haskell calls Baccio Ciarpi Pietro da Cortona's master; no dates or further training details are supplied.；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 43, PDF physical p. 28; S2 statement: st-chp2-secii-l141-145-ciarpi-master-of-pietro |
+| ← 贡献者（`contributor_to`，反向投影） | [圣母无原罪始胎堂其他祭坛画组（Other Altar Pictures for S. Maria della Concezione）](../works/other-altar-pictures-s-maria-della-concezione.md) | 角色：contributor to the unidentified other-paintings group；范围：Haskell includes Baccio Ciarpi among the contributors; no individual title or specific painting attribution is stated.；原断言与证据见发出端卡片“圣母无原罪始胎堂其他祭坛画组（Other Altar Pictures for S. Maria della Concezione）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 43, PDF physical p. 28; S2 statement: st-chp2-secii-l141-145-baccio-ciarpi-paintings-contributed |
+
 
 当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp2-secii-l141-145-ciarpi-master-of-pietro`, `st-chp2-secii-l141-145-baccio-ciarpi-paintings-contributed` 留待S6审查；本次S4登记不裁决或创建正式关系。

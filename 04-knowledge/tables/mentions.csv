@@ -5785,7 +5785,7 @@ m-chp2-secii-l141-145-0005,chp-2:02_CHP-2_sec_ii:l141-145,cand-4538,two crucifix
 m-chp2-secii-l141-145-0006,chp-2:02_CHP-2_sec_ii:l141-145,cand-4521,the church,419,429,S. Maria della Concezione.
 m-chp2-secii-l141-145-0007,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,the Capuchin monks,476,494,The Capuchin Order objecting to and returning the wooden furnishings.
 m-chp2-secii-l141-145-0008,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,our Order,552,561,Capuchins speaking in the quotation relayed by Haskell.
-m-chp2-secii-l141-145-0009,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,they sent them back,597,616,The Capuchin monks return the wooden objects; the pronouns refer to the candlesticks and crucifixes.
+m-chp2-secii-l141-145-0009,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,they,597,601,Subject pronoun for the Capuchin monks; the separate plural object pronoun them is mapped to the returned candlesticks and crucifixes.
 m-chp2-secii-l141-145-0010,chp-2:02_CHP-2_sec_ii:l141-145,cand-3405,their protest,628,641,The Capuchins' objection to the wooden furnishings.
 m-chp2-secii-l141-145-0011,chp-2:02_CHP-2_sec_ii:l141-145,cand-0213,The Pope,664,672,Urban VIII; subject of the response to the Capuchin protest.
 m-chp2-secii-l141-145-0012,chp-2:02_CHP-2_sec_ii:l141-145,cand-4537,the candlesticks,687,703,The accepted objects after Urban VIII insisted.
@@ -5815,7 +5815,7 @@ m-chp2-secii-l141-145-0037,chp-2:02_CHP-2_sec_ii:l141-145,cand-0198,Barberini,19
 m-chp2-secii-l141-145-0034,chp-2:02_CHP-2_sec_ii:l141-145,cand-0342,Pietro da Cortona,1996,2013,Reuse the page 43 index candidate; do not resolve his cross-chapter candidate identity here.
 m-chp2-secii-l141-145-0035,chp-2:02_CHP-2_sec_ii:l141-145,cand-0745,Baccio Ciarpi,2030,2043,Reuse the page 43 index candidate; the text calls him Pietro da Cortona's master.
 m-chp2-secii-l141-145-0036,chp-2:02_CHP-2_sec_ii:l141-145,cand-2318,Andrea Sacchi,2067,2080,Reuse the chapter index candidate covering the page 43 reference.
-m-chp2-secii-l141-145-0038,chp-2:02_CHP-2_sec_ii:l141-145,cand-0198,the nephews,2117,2128,Unnamed Barberini nephews; specific individuals are not named in this segment.
+m-chp2-secii-l141-145-0038,chp-2:02_CHP-2_sec_ii:l141-145,cand-12438,the nephews,2117,2128,The unnamed collective of nephews in the decoration account; keep distinct from the Barberini family candidate cand-0198.
 m-chp2-secii-l147-193-0001,chp-2:02_CHP-2_sec_ii:l147-193,cand-4365,"Barozzi e Berchet, I, pp. 153-4",65,96,"Citation to volume I, pp. 153-154."
 m-chp2-secii-l147-193-0002,chp-2:02_CHP-2_sec_ii:l147-193,cand-4365,"ibid., I, p. 228",100,116,“ibid.” resolves to the Barozzi e Berchet volume cited on L148.
 m-chp2-secii-l147-193-0003,chp-2:02_CHP-2_sec_ii:l147-193,cand-4365,"ibid., I, p. 230",120,136,“ibid.” resolves to the Barozzi e Berchet volume cited on L148.
@@ -27406,3 +27406,6 @@ m-chp4-sec-ii-notes-p114-0056-phocion-title,chp-4:04_CHP-4_sec_ii:l232-308,cand-
 m-chp8-p212-letter-001,chp-8:08_CHP-8_sec_i:l126-157,cand-7613,a letter,5489,5497,Outer archival letter named in the locator; distinct from the Viceroy’s nested letter.
 m-chp8-p212-viceroy-letter-001,chp-8:08_CHP-8_sec_i:l126-157,cand-12437,lettera del Sig.r V.Re diretta,5611,5641,"Distinct inner Viceroy letter, not the outer letter in Filza 4123; the adjacent “Pittore Giordani” mention maps to cand-1172."
 m-chp8-p221-balustrade,chp-8:08_CHP-8_sec_ii:l112-124,cand-12076,the balustrade,2953,2967,Architectural component on the Archbishop’s Palace stairway; cited as the midpoint location of the Statue of Vigilance.
+m-chp2-secii-l141-145-0040,chp-2:02_CHP-2_sec_ii:l141-145,cand-4545,other paintings,1942,1957,Source-defined plural group of altar paintings other than the individually named Reni painting.
+m-chp2-secii-l141-145-0041,chp-2:02_CHP-2_sec_ii:l141-145,cand-0198,Barberini,2106,2115,The family name in the source phrase introducing the nephew cohort; distinct from the collective endpoint itself.
+m-chp2-secii-l141-145-0042,chp-2:02_CHP-2_sec_ii:l141-145,cand-4537,them,607,611,One joint plural reference in 'they sent them back'; its two statement endpoints are the candlesticks cand-4537 and crucifixes cand-4538.

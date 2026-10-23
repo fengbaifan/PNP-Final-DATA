@@ -2638,6 +2638,14 @@ units:
 - 04-knowledge/units/works/zenobio-palace-carlevarijs-landscape-series.md
 - 04-knowledge/units/places/zenobio-palace-corridor-to-salone.md
 - 04-knowledge/units/works/zenobio-palace-ceres-bacchus-ceiling.md
+- 04-knowledge/units/works/high-altar-at-s-maria-della-concezione.md
+- 04-knowledge/units/works/bronze-tabernacle-design-capuchin-church.md
+- 04-knowledge/units/works/metal-candelabra-design-capuchin-church.md
+- 04-knowledge/units/works/bronze-candlesticks-barberini-chapel.md
+- 04-knowledge/units/works/iron-grating-barberini-chapel.md
+- 04-knowledge/units/works/the-archangel-michael-trampling-on-the-devil.md
+- 04-knowledge/units/works/altar-pictures-commissioned-for-s-maria-della-concezione.md
+- 04-knowledge/units/works/other-altar-pictures-s-maria-della-concezione.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks
@@ -2651,4 +2659,5 @@ claims:
 - m10-rosa-independence-and-exceptions
 - m11-patronage-instability-and-market
 - m12-academy-and-bent-overlap
+
 structure: []
