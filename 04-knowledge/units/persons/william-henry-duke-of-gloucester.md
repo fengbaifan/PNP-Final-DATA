@@ -46,16 +46,19 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** Haskell称途经帕多瓦的格洛斯特公爵竖立了Azzo d’Este雕像；注1记其1775年9月和1777年5月在帕多瓦期间患病，并称Memmo首次访问时与他有联系、劝其订制雕像的日期不确定。 本批只登记人物身份；直接关系候选st-chp15-p366-duke-gloucester-azzo-statue, st-chp15-p366-note1-duke-visits, st-chp15-p366-note1-memmo-contact-and-order-date均保留待S6，不因建立KU而判定关系成立。
+**中文：** Haskell称途经帕多瓦的格洛斯特公爵竖立了Azzo d’Este雕像；注1记其1775年9月和1777年5月在帕多瓦期间患病，并称Memmo首次访问时与他有联系、劝其订制雕像的日期不确定。S6已将竖立雕像裁为正式关系 `erected_by`（`rel-1702`）；注1的公爵到访及Memmo接触候选仍待证。
 
-**English:** Haskell says the Duke of Gloucester erected a statue of Azzo d’Este while passing through Padua. Note 1 reports illness during visits in September 1775 and May 1777, and says Memmo was in touch with him on the first visit while the date of persuading him to order the statue remains uncertain. The direct S2 relation candidates st-chp15-p366-duke-gloucester-azzo-statue, st-chp15-p366-note1-duke-visits, st-chp15-p366-note1-memmo-contact-and-order-date remain for S6; registration itself creates no edge.
+**English:** Haskell says the Duke of Gloucester erected a statue of Azzo d’Este while passing through Padua. Note 1 reports illness during visits in September 1775 and May 1777, and says Memmo was in touch with him on the first visit while the date of persuading him to order the statue remains uncertain. S6 adjudicated the statue erection as a formal `erected_by` relation (`rel-1702`); the visit and Memmo-contact candidates in note 1 remain pending.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← erector_of（`erector_of`，反向投影） | [阿佐·德埃斯特侯爵纪念像（Statue of Azzo, Marchese d’Este）](../works/statue-of-azzo-marchese-deste-pra-della-valle.md) | Haskell says the Duke erected the statue; note 1 reports it had been erected by October 1777. The cited letter was not independently consulted; no exact installation date or present survival is inferred.；时间：by October 1777；角色：erector；范围：Haskell’s source-local Azzo statue at Prà della Valle；原断言与证据见发出端卡片“阿佐·德埃斯特侯爵纪念像（Statue of Azzo, Marchese d’Este）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366, L18 and note 1 L27; statements=st-chp15-p366-duke-gloucester-azzo-statue,st-chp15-p366-note1-azzo-statue-erected-by-1777 |
 
-**中文：** S2直接关系候选st-chp15-p366-duke-gloucester-azzo-statue, st-chp15-p366-note1-duke-visits, st-chp15-p366-note1-memmo-contact-and-order-date保留待S6逐条裁决；本批不新增正式关系。
 
-**English:** The direct S2 relation candidates st-chp15-p366-duke-gloucester-azzo-statue, st-chp15-p366-note1-duke-visits, st-chp15-p366-note1-memmo-contact-and-order-date remain for individual S6 review; this registration adds no formal relations.
+**中文：** 正式关系：`st-chp15-p366-duke-gloucester-azzo-statue` → `rel-1702`。待证候选：`st-chp15-p366-note1-duke-visits`、`st-chp15-p366-note1-memmo-contact-and-order-date`。
+
+**English:** Formal relation: `st-chp15-p366-duke-gloucester-azzo-statue` → `rel-1702`. Pending candidates: `st-chp15-p366-note1-duke-visits` and `st-chp15-p366-note1-memmo-contact-and-order-date`.

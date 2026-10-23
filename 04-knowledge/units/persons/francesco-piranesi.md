@@ -58,8 +58,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [弗朗切斯科·皮拉内西所刻普拉广场图稿版画（Francesco Piranesi’s engraving after Subleyras’s drawing）](../works/piranesi-engraving-after-subleyras-pra-drawing.md) | Haskell explicitly names Francesco Piranesi as the engraver. The nearby 1786 date belongs to Radicchio’s account, not a verified engraving date.；角色：engraver；范围：Haskell’s account of the engraving；原断言与证据见发出端卡片“弗朗切斯科·皮拉内西所刻普拉广场图稿版画（Francesco Piranesi’s engraving after Subleyras’s drawing）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366, L22; statement=st-chp15-p366-piranesi-engraves-subleyras-drawing |
 
-**中文：** 直接S2候选（待S6）：st-chp15-p366-piranesi-engraves-subleyras-drawing。
 
-**English:** Direct S2 relation candidates pending individual review in S6: st-chp15-p366-piranesi-engraves-subleyras-drawing.
+**中文：** `st-chp15-p366-piranesi-engraves-subleyras-drawing` 已裁为正式 `creator_of` 投影（`rel-1708`）；版画与 Subleyras 具体图稿的来源关系仍待证，见 `st-chp15-p366-piranesi-engraving-derived-from-subleyras-drawing`。
+
+**English:** `st-chp15-p366-piranesi-engraves-subleyras-drawing` was adjudicated as a formal `creator_of` projection (`rel-1708`). The link from the engraving to a specific Subleyras drawing remains pending; see `st-chp15-p366-piranesi-engraving-derived-from-subleyras-drawing`.

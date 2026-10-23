@@ -57,4 +57,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 st-chp15-p366-subleyras-drew-pra-plans 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [朱塞佩·苏布莱拉斯为梅莫普拉广场方案绘制的图稿组（Plans for Andrea Memmo’s Prà della Valle scheme by Giuseppe Subleyras）](../works/subleyras-pra-della-valle-plan-drawings.md) | Haskell says Subleyras drew the plans. The KU represents the source-defined plan group; no count, title, or individual sheet is claimed.；角色：draughtsman；范围：Haskell’s plans for Memmo’s Prà scheme；原断言与证据见发出端卡片“朱塞佩·苏布莱拉斯为梅莫普拉广场方案绘制的图稿组（Plans for Andrea Memmo’s Prà della Valle scheme by Giuseppe Subleyras）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366, L20–21; statement=st-chp15-p366-subleyras-drew-pra-plans |
+
+`st-chp15-p366-subleyras-drew-pra-plans` 已裁为正式 `creator_of` 投影（`rel-1707`），对象是本书所称的计划图稿组，不表示已识别具体单张或数量。图稿陈列地点未被精确识别；相关候选保持待证。版画所据单张 drawing 与该组的对应也仍 pending。

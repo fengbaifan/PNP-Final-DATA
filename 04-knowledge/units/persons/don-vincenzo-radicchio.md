@@ -57,9 +57,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** 正文全名见p.366，前页以姓氏形式提及；外部身份未核。 直接S2关系候选st-chp15-p366-radicchio-account-authored-by, st-chp15-p366-radicchio-secretary-to-memmo仍待S6逐条裁决；本次登记不建立正式边。
+**中文：** 正文全名见p.366，前页以姓氏形式提及；外部身份未核。S6已将 `st-chp15-p366-radicchio-account-authored-by` 裁为正式 `authored_by`（`rel-1709`）；Radicchio 与 Memmo 的秘书关系候选仍待裁决。
 
-**English:** The full name appears on p.366 and the surname form on the preceding page; no external identity is verified. Direct S2 relation candidates st-chp15-p366-radicchio-account-authored-by, st-chp15-p366-radicchio-secretary-to-memmo remain for individual S6 review; this registration creates no formal edges.
+**English:** The full name appears on p.366 and the surname form on the preceding page; no external identity is verified. S6 adjudicated `st-chp15-p366-radicchio-account-authored-by` as a formal `authored_by` relation (`rel-1709`); the secretary relationship between Radicchio and Memmo remains pending.
 
 ## 关系与证据
 
@@ -69,8 +69,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [普拉广场方案说明（1786）（Description of the general idea for the Prà della Valle scheme, 1786）](../archives/radicchio-descrizione-general-idea-pra-1786.md) | Haskell names Radicchio as the account’s author. The book bibliography records the same author, year, and Prà project publication; no independent consultation is claimed.；角色：author；范围：The 1786 Radicchio account matched to the chapter 21 bibliography；原断言与证据见发出端卡片“普拉广场方案说明（1786）（Description of the general idea for the Prà della Valle scheme, 1786）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366, L22; Chapter 21, printed p.435, L1026; statement=st-chp15-p366-radicchio-account-authored-by |
 
-**中文：** 直接S2候选（待S6）：st-chp15-p366-radicchio-account-authored-by, st-chp15-p366-radicchio-secretary-to-memmo。
 
-**English:** 直接S2候选（待S6）：st-chp15-p366-radicchio-account-authored-by, st-chp15-p366-radicchio-secretary-to-memmo。
+**中文：** 正式关系：`st-chp15-p366-radicchio-account-authored-by` → `rel-1709`。待证候选：`st-chp15-p366-radicchio-secretary-to-memmo`。
+
+**English:** Formal relation: `st-chp15-p366-radicchio-account-authored-by` → `rel-1709`. Pending candidate: `st-chp15-p366-radicchio-secretary-to-memmo`.

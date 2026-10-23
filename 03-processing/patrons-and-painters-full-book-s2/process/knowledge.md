@@ -11809,3 +11809,51 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 ### 状态
 
 S3触发项及本批S4、S5、S6已处理；本段不构成全章S2独立复核或全书S3–S6收口。后续优先继续关系直接端点批次，逐批完成登记与裁决；S2仍按章继续独立审读。
+
+## s3-s4-s5-s6-chp15-p365-p366-20261023
+
+### 范围与依据
+
+处理第15章印刷页365注2、p.366正文与注1，以及第21章印刷页435 Radicchio 书目项。仅使用 Haskell 书内叙述、既有 S2 提及锚点和书目页记录；未查阅 Radicchio 出版物或注1所引书信。来源 Markdown 保持不变。
+
+### S2 修订与新增
+
+- `cand-10495` 原候选名把句中的1786年错误归给 Piranesi 版画；原句的年份修饰 Radicchio 写作 account。本轮把候选名修为“Francesco Piranesi’s engraving after Giuseppe Subleyras’s drawing”，删除版画年份；未改变其作品身份组。
+- 复用现有 `m-chp15-p366-memmo-0037`（Constantinople）与 `m-chp15-p366-memmo-0059`（Subleyras’s drawing）等精确锚点，新增两条关系 statement：`st-chp15-p366-memmo-ambassadorship-occurred-at-constantinople`（事件→地点）和 `st-chp15-p366-piranesi-engraving-derived-from-subleyras-drawing`（版画→候选图稿组）。两条均标记 `origin=book`、`relation_candidate=true`。新增 statement 未做独立语义复核，不计入统一复核分子。
+
+### S3 跨章身份判断
+
+- `cand-10478` 保持 `new` 及既有 `archive-group-b70c266dc21d`：p.365注2的 Radicchio, 1786 引注与 p.435 书目对应，书目页提供保留省略号的完整题名、作者和 Roma 1786。
+- `cand-11526` 由 `undecided` 改为 `same`，指向 `cand-10478` 的 archive KU。p.366 account 与 p.435 书目有同一作者、年份和 Prà 项目主题；p.365注2又将 Radicchio 1786 用作该项目历史来源。该决定是书内跨章身份匹配，不声称独立查阅出版物或核实 account 与版画的装订、同版发行关系。
+- `cand-0981` 由 `undecided` 改为 `new`，建组 `person-group-azzo-marchese-deste`。原文称 Azzo, Marchese d’Este，并给出帕多瓦公民及不伦瑞克家族起源者的语境；只登记来源限定人物，不补全名、序号或外部身份。
+- `cand-10494` 由 `undecided` 改为 `new`，建组 `workgrp-subleyras-pra-plan-group`。原文明确称 Subleyras 为 Memmo 的 Prà 方案绘制 plans，故登记来源定义的图稿组；数量、题名及单张身份未提供。后文供 Piranesi 刻制的单数 drawing 未识别为组内某一具体件。
+- `cand-10486`、`cand-10491`、`cand-10492`、`cand-10495` 沿用既有 `new` 组。未发现 Constantinople、Azzo 或本批图稿的同类型既有 KU。
+
+### S4 与 S5
+
+新增7个 KU，并登记7条 `new` 候选映射；`cand-11526` 复用新登记的 Radicchio archive KU。新卡分别为 Azzo 人物、Subleyras Prà 方案图稿组、Radicchio 1786 出版物、Azzo 雕像、Constantinople、Memmo 大使任期、Piranesi 版画。新增27条 Haskell 书内来源支持字段；S5 `unverified` 仍为1,634，无重复来源记录或字段警告。
+
+### S6 逐候选裁决
+
+| statement_id | 决定 | 关系／去向 |
+|---|---|---|
+| `st-chp15-p365-note2-radicchio-1786` | formal | `rel-1701 cites`：Haskell archive→Radicchio 1786 archive；p.435 书目用于识别被引项，不表示查阅原出版物。 |
+| `st-chp15-p366-duke-gloucester-azzo-statue` | formal | `rel-1702 erected_by`：Azzo 雕像→格洛斯特公爵。 |
+| `st-chp15-p366-azzo-statue-subject` | formal | `rel-1703 has_subject`：雕像→来源限定的 Azzo 人物组。 |
+| `st-chp15-p366-azzo-described-as-paduan-citizen` | pending | `rel-1711 located_at` 保留待证：公民身份不等同居住或物理位置，不投影为正式地点关系。 |
+| `st-chp15-p366-azzo-originator-of-house-of-brunswick` | pending | 原文断言保留；当前受控谓词不能准确表达人物为家族起源者，不写 formal edge。 |
+| `st-chp15-p366-note1-azzo-statue-erected-by-1777` | formal | `rel-1704 located_at`：雕像→Prà della Valle；限定 Haskell 注1所报“至1777年10月已竖立”及注中地点，未推断确切安装日或现今存续。 |
+| `st-chp15-p366-subleyras-plans-displayed` | pending | Haskell 称 plans 悬挂于 Memmo 的 apartments，但没有精确地点 KU；不把地点写成 Memmo 人物关系。 |
+| `st-chp15-p366-piranesi-engraves-subleyras-drawing` | formal | `rel-1708 created_by`：Piranesi 版画→Francesco Piranesi；1786不作为版画日期。 |
+| `st-chp15-p366-piranesi-engraving-derived-from-subleyras-drawing` | pending | `rel-1712 derived_from` 保留待证：原文指单数 drawing，但未确认它是前述 plans 组中的哪一件。 |
+| `st-chp15-p366-radicchio-account-accompanies-engraving` | pending | `rel-1710 part_of` 保留待证： “to accompany”未证明说明与版画同版、同册、装订或构成其组成部分。 |
+| `st-chp15-p366-radicchio-account-authored-by` | formal | `rel-1709 authored_by`：与 `cand-10478` 同一的 Radicchio archive→Don Vincenzo Radicchio。 |
+| `st-chp15-p366-memmo-left-as-ambassador-1777` | formal | `rel-1705 has_participant`：大使任期事件→Andrea Memmo；时间记原文所报1777年离开及四年任期，未推算精确起止日。 |
+| `st-chp15-p366-subleyras-drew-pra-plans` | formal | `rel-1707 created_by`：来源限定的 plans 组→Giuseppe Subleyras。 |
+| `st-chp15-p366-memmo-ambassadorship-occurred-at-constantinople` | formal | `rel-1706 occurred_at`：Memmo 大使任期事件→Constantinople；不追加现代地名等同。 |
+
+9项裁为 formal、5项裁为 pending。`relations.csv` 新增12行（9 formal、3 pending）；“公爵与 Padua 公民身份”及“plans 悬挂于 apartments”因谓词／地点端点不足，仅在本过程明确记为 pending，不造正式边。没有 relation candidate 被静默略过。
+
+### 验证与当前状态
+
+7张新卡与7张关系端点既有卡定向渲染，共14张；渲染后逐卡复预览均无差异，写后字节核验通过。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；全库仍有3,214条 `new` 候选待 S4 登记。`audit_relation_consistency.py`：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。全书 S2 独立复核分子未增加；本批不构成 S2 语义接收或 S3–S6 全书收口。
