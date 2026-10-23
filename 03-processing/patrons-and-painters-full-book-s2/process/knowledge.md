@@ -11914,3 +11914,58 @@ cand-12219 原为类型边界未决。本段把“两层低矮翼部”裁为 wo
 ### 验证与交接
 
 本批后 S2 共15,276条，统一独立复核仍为9,573条；S3主决定仍覆盖12,416/12,416；S4新增11条映射；S5新增25条字段；S6新增20项可追溯裁决。定向 render 预检通过：选择15张卡片、15张表、88条表格行与53条关系投影，11张需写入；写入11张并通过写后字节核验。15张定向 preview 均无差异。build_field_facts 预览为 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。audit_tables.py --strict-stage --summary：kus=2659、candidates=12416、alignment_new_pending_registration=3204、backlog=18且pending=0、relations=1722（formal=1709）、enrichment_rows=12674（unverified=1634）、book_statements=15276、s2_missing=[]、errors=[]；仅报告全库尚有3204条new候选待S4登记及S2语义质量仍需依据过程记录核查。audit_relation_consistency.py：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。下一批按未解决关系候选的端点解锁数优先选择 S4 端点，并在同批逐项裁决可判定的 S6 候选。
+
+
+<a id="s4-s5-s6-chp3-p91-jesuit-altar-and-urn-20261024"></a>
+### S3沿用／S4／S5／S6：第3章 p.91 耶稣会祭坛与遗骨瓮直接端点（2026-10-24）
+
+#### 来源与身份
+
+依据 Haskell《Patrons and Painters》第3章印刷页91、PDF物理页33及本地页图复核。印本称：Della Porta 设计但未完成小堂祭坛；1622年遗骨移入小堂十五年后，耶稣会士获提供一只 Algardi 造型的瓮；同一时期 Cortona 建造新祭坛以替代前者；费用“presumably”由耶稣会承担。保留十五年这一相对时间，不换算精确年份；不把“提供”写成已接受或已安放，也不把推测付款改成确定事实。
+
+三项作品候选均沿用既有 S3 `new` 及原组，未重开或改写 S3。`cand-5246` 的候选锚点跨第3章 p.81、p.91 与 Postscript p.400：p.91 明确指向 Cortona 所建的替代祭坛；p.81 只称“圣依纳爵祭坛”，p.400 只提及一篇关于耶稣堂圣依纳爵祭坛的研究文章，不独立确定具体建造阶段。与 S. Ignazio 教堂内 1697 年祭坛保持分立。
+
+| candidate | 沿用的 S3 组 | S4 KU |
+|---|---|---|
+| `cand-5401` | `workgrp-2c4b7adaf7987e` | `units/works/urn-offered-for-ignatius-remains-gesu` |
+| `cand-5246` | `workgrp-f63dcaf565c38d` | `units/works/cortona-new-altar-left-transept-gesu` |
+| `cand-11624` | `workgrp-d3924bc8e5f845` | `units/works/uncompleted-della-porta-altar-left-transept-gesu` |
+
+#### S5 来源字段
+
+新增8条 Haskell 原书支持字段；字段标记均使用每张卡来源清单中的 `S1`，`evidence_status=source_backed`。不据本批材料声称外部作品身份、现存状态或独立核验。
+
+| enrichment_id | KU | 字段 | 证据状态 |
+|---|---|---|---|
+| `enr-16562` | `units/works/urn-offered-for-ignatius-remains-gesu` | 描述性名称 | source_backed |
+| `enr-16563` | `units/works/urn-offered-for-ignatius-remains-gesu` | 作品类型 | source_backed |
+| `enr-16564` | `units/works/urn-offered-for-ignatius-remains-gesu` | 原文所述用途 | source_backed |
+| `enr-16565` | `units/works/cortona-new-altar-left-transept-gesu` | 描述性名称 | source_backed |
+| `enr-16566` | `units/works/cortona-new-altar-left-transept-gesu` | 作品类型 | source_backed |
+| `enr-16567` | `units/works/uncompleted-della-porta-altar-left-transept-gesu` | 描述性名称 | source_backed |
+| `enr-16568` | `units/works/uncompleted-della-porta-altar-left-transept-gesu` | 作品类型 | source_backed |
+| `enr-16569` | `units/works/uncompleted-della-porta-altar-left-transept-gesu` | 完成状态 | source_backed |
+
+#### S6 逐候选裁决
+
+本批7条直接关系候选均有可追溯结果：4条 formal、3条 pending、0条 rejected。
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp3-seciv-l152-163-algardi-modelled-ignatius-urn` | formal；`rel-1723 created_by`，瓮→Alessandro Algardi。`role=modeler (Haskell attribution)`，只记录原书造型者归属，不认定某件现存器物。 |
+| `st-chp3-seciv-l152-163-cortona-built-replacement-altar` | formal；`rel-1724 erected_by`，Cortona 新祭坛→Pietro da Cortona。保留原文相对时间，不推断精确年份或现存状态。 |
+| `st-chp3-seciv-l152-163-della-porta-designed-uncompleted-altar` | formal；`rel-1725 designed_by`，未完成的前身祭坛→Giacomo della Porta；设计与施工角色分开。 |
+| `st-chp3-seciv-l152-163-cortona-altar-replaced-della-porta-altar` | formal；`rel-1726 replaces`，Cortona 新祭坛→Della Porta 未完成祭坛。该谓词在受控词表中；不与 1690 年代更宏大的纪念工程合并。 |
+| `st-chp3-seciv-l152-163-altar-expense-presumed-jesuit` | pending；原文以 `presumably` 限定付款归属，且现有谓词不能精确表达付款人；不据此写 `patronized_by` 或其他正式边。 |
+| `st-chp3-seciv-l152-163-urn-offered-and-new-altar-built` | pending；原文为被动“耶稣会士获提供”，未说明提供者、是否接受；词表没有精确 `offered_to` 关系，不以 `intended_for` 代替。 |
+| `st-chp3-seciv-l152-163-urn-intended-to-hold-ignatius-remains` | pending；另一端 `cand-5220` 仍沿用 S3 `undecided` 类型边界决定，taxonomy 无通用遗物／遗骨类型，无 S4 KU；不写无端点或虚构 `contains` 边。新增 `bl-0019` 明确保留此待证端点及后续去向。 |
+
+不具备受控谓词或有效端点的三项 pending 决定保存在本过程表和 backlog，不写入 `relations.csv` 作为貌似正式的类型边；正式4边均带 Haskell 页行定位。`S3` 未决类型未被本批强制解决。
+
+#### 验证与批后状态
+
+`build_field_facts.py` 先预览后应用：`record_changes=0`、`new_ids=8`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；12,682条字段中1,634条仍为 `unverified`。三张卡定向渲染预检：`cards=3`、`tables=6`、`rows=8`、`projected_relation_rows=4`、`files_to_write=3`；写后字节核验通过。
+
+`audit_tables.py --strict-stage --summary`：`kus=2662`、`candidates=12416`、`alignment_new_pending_registration=3201`、`candidate_backlog_rows=19`（10 completed、9 undecided、pending=0）、`relations=1726`（1713 formal、13 pending）、`enrichment_rows=12682`（1634 unverified）、`book_statements=15276`、`s2_missing=[]`、`errors=[]`。S4仍待映射3,201条 `new` 候选；其中已判 `new` 的直接关系端点候选ID仍有1,471个未映射。
+
+本批后 S6 有816/10,499条候选形成逐条决定：498 formal、235 pending、83 rejected。全书 S2 统一独立复核仍为9,573/15,276，未增加；本批未改写 S2 statements 或 mentions，不构成全书 S2 接收或 S3–S6 收口。后续仍按关系解锁价值推进 S4/S6；仅在登记或新证据暴露身份问题时局部重开 S3。
