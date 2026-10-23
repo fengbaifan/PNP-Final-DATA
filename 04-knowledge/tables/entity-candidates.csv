@@ -3989,7 +3989,7 @@ cand-1876,P.csv#77,"Peretti-Montalto, Cardinal Alessandro","4, 5, 6, 71, 72",per
 cand-1877,P.csv#78,"Peretti-Montalto, Cardinal Alessandro","71, 72",place,open,P.csv,and S. Andrea della Valle,,,,
 cand-1878,P.csv#79,"Peri, Pellegrino",122,person,open,P.csv,,,,,
 cand-1879,P.csv#80,"Permoser, Balthasar",,person,open,P.csv,,,,,
-cand-1880,P.csv#81,"Permoser, Balthasar",201,work,open,P.csv,Apotheosis of Prince Eugene,,,,
+cand-1880,P.csv#81,"Permoser, Balthasar",201,person,open,P.csv,Apotheosis of Prince Eugene,"P.csv#81 main entry is Permoser, Balthasar; “Apotheosis of Prince Eugene” is the index subentry, not the candidate type. S2 p.201 L47–48 names Permoser as maker; Getty ULAN 500006029 identifies Balthasar Permoser as a person. The work remains the separate cand-7308.",,,
 cand-1881,P.csv#82,"Perrot, Joseph",291n,person,open,P.csv,,,,,
 cand-1882,P.csv#83,"Perugini, Giovanni","21, 219",person,open,P.csv,,,,,
 cand-1883,P.csv#84,"Perugino, Pietro","56, 175",person,open,P.csv,,,,,

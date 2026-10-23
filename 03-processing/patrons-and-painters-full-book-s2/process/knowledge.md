@@ -12301,3 +12301,31 @@ S4/S5表审计：kus=2687、candidates=12416、alignment_new_pending_registratio
 #### 验证与批后状态
 
 `build_field_facts.py` 写入前预览 `new_ids=4`、`warnings=0`；应用后复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。新卡和《赞助人与画家》档案卡均完成定向渲染及复预览，无剩余差异；Haskell 卡渲染同时补齐上一批已正式登记的 `rel-1763` 投影。`audit_tables.py --strict-stage --summary`：`kus=2693`、`candidates=12416`、`alignments=12749`、`alignment_new_pending_registration=3166`、`relations=1766`（1753 formal）、`enrichment_rows=12815`（1634 unverified）、`sources=1772`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。关系一致性检查中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S2统一独立语义复核仍为9,617/15,291（62.9%，尚未接收）；新增 statement 不计入复核分子。S3–S6仍未全书收口。
+
+<a id="s3-s4-s5-s6-chp7-p201-apotheosis-endpoints-20261024"></a>
+### S3/S4/S5/S6：第7章 p.201《神化》作品与 Permoser 身份组（2026-10-24）
+
+#### 跨章身份分组与 S3 裁决
+
+`cand-1879`（P.csv#80）与 `cand-1880`（P.csv#81）规范名均为 “Permoser, Balthasar”；P#81 的 “Apotheosis of Prince Eugene” 是作品子目，不改变人物主条目的类型。`cand-1879` 原因没有映射正文 mention 而保留 undecided；本批结合相邻索引行、正文 p.201 “the marble Apotheosis by Permoser which he himself designed” 及 Getty ULAN 500006029，确认两条人物候选指向同一人。未发现可复用的人物 KU，因此同组 `sg3-person-balthasar-permoser` 的两条主决定均为 `new`，映射到 `units/persons/balthasar-permoser`。ULAN 记录作为独立外部身份证据行（aln-12753、aln-12755），不把人物与作品索引子目混作同一实体。
+
+`cand-7308` 沿用 S3 `new` 组 `workgrp-301b06e53ec604`，S2 将其识别为一件由欧根亲王设计、Permoser 制作的大理石《神化》作品。Belvedere Sammlung Online object 3013（inventory no. 4219）将同名作品著录为 Balthasar Permoser 创作，材质为大理石、日期约 1718/1721；作者、媒材、题材及来源语境支持与 Haskell 所指为同一现实作品。当前无可复用的同类型 work KU，故保留 `new` 并映射至 `units/works/marble-apotheosis-prince-eugene-permoser`。馆藏对齐支持作品身份和目录字段，不自动验证 Haskell 的设计者或心理解释。
+
+#### S4/S5 登记
+
+本批登记 2 个 KU，将 3 条 new 候选映射到人物与作品两张卡。S5 新增 10 条 source-backed 字段（人物 2 条：职业、生卒年；作品 8 条：目录题名、对象类型、材质、日期、尺寸、馆藏编号、目录所列地点、Haskell 所报存世状态），字段提取预览 warnings=0，写入后复预览无差异。尺寸依馆方在线目录记录为 234 × 124 × 100 cm，不为未标明的轴序指定长宽高；地点字段保留目录的 Lower Belvedere 记法，不写成当前展厅定位。
+
+Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Belvedere 单体 KU 或候选。新增 `bl-0026`，status=`undecided`，将其排入下一批 S1→S3→S4；`cand-7307` 是“两座 Belvedere”集合候选，不能代替 Lower Belvedere 单体。该地点关系不写入 `relations.csv`，待身份裁决后再建立或保持待证。
+
+#### S6 逐候选去向
+
+| statement_id / 来源 | 决定与关系 |
+|---|---|
+| `st-chp7-p201-v-apotheosis-designed-by-eugene` | formal `rel-1767 designed_by`：Haskell 仅明确欧根亲王设计该作品；不扩展为建筑设计。 |
+| `st-chp7-p201-v-apotheosis-evaluative-interpretation` | rejected 为正式图谱边：保留 Haskell 对作品与亲王的解释性评价及其 “if not of his taste” 限定，不作心理诊断或实体关系。 |
+| `st-chp7-p201-v-apotheosis-executed-by-permoser` | formal `rel-1768 created_by`：记录 Haskell 的制作人归属；Belvedere 目录独立列名 Permoser，但此边不宣称项目完成归属学审查。 |
+| Belvedere object 3013 作品说明 | 新增外部 formal `rel-1769 has_subject`：目录将欧根亲王描述为雕塑表现对象；不推断委托关系。 |
+
+#### 核验与批后状态
+
+本批没有增改 S2 statement 或 mention；统一独立复核仍为 9,617/15,291（62.9%，未接收）。严格表审计：`kus=2695`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3165`、`relations=1769`（1,756 formal、13 pending）、`enrichment_rows=12825`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。S3 主决定为 same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含 623 项类型边界未决）。S4 已登记 1,899/5,064 条 new 候选映射；1,438 个直接关系端点 new 候选仍待映射（term 498、archive 346、work 241、place 185、event 91、institution 76、person 1）。S6 累计 883/10,514 条候选已裁决（540 formal、253 pending、90 rejected），尚余 9,631 条；candidate-backlog 共 26 条（10 completed、16 undecided，pending=0）。关系一致性检查中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为 0。三张受影响卡完成定向渲染、写后字节核对及复预览；机械检查不构成 S2 语义接收或 S3–S6 全书收口。

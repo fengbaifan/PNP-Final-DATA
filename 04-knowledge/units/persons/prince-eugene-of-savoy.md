@@ -108,3 +108,10 @@ English: This card represents cand-2384, cand-2385, and cand-2386 in the S3 grou
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← designer_of（`designer_of`，反向投影） | [欧根亲王的《神化》大理石作品（Apotheosis of Prince Eugene of Savoy）](../works/marble-apotheosis-prince-eugene-permoser.md) | 仅记录Haskell书内所述设计角色；S2 attribution candidate；角色：设计者；范围：Haskell称欧根亲王亲自设计这件大理石《神化》作品；仅记录其设计者角色，与Permoser的制作归属分别表达，不推及建筑设计。；原断言与证据见发出端卡片“欧根亲王的《神化》大理石作品（Apotheosis of Prince Eugene of Savoy）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_v.md)；haskell-1980-rev-ed；Chapter 7, printed p. 201, L48; PDF physical p. 43; statement=st-chp7-p201-v-apotheosis-designed-by-eugene |
+| ← 为其所涉对象（`subject_of`，反向投影） | [欧根亲王的《神化》大理石作品（Apotheosis of Prince Eugene of Savoy）](../works/marble-apotheosis-prince-eugene-permoser.md) | External catalogue subject relation for the sculpture; distinct from Haskell’s designed_by relation.；角色：描绘人物；范围：Belvedere object 3013的作品说明将欧根亲王描述为作品所表现的人物（“second Hercules”）；不据此推断委托关系。；原断言与证据见发出端卡片“欧根亲王的《神化》大理石作品（Apotheosis of Prince Eugene of Savoy）”：[来源](https://sammlung.belvedere.at/objects/3013/apotheose-des-prinzen-eugen-von-savoyen)；src-fafe74be6f3ca959；Object 3013 description, represented figure; collection title and description |
