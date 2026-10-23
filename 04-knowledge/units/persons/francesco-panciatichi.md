@@ -58,7 +58,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [那不勒斯致弗朗切斯科·潘恰蒂基的信（Letter from Naples to Francesco Panciatichi, 2 April 1686）](../archives/letter-from-naples-to-francesco-panciatichi-1686-04-02.md) | S6裁决：formal。只记录 Haskell 所报外层来信的收件人；不与信中提及的总督来信混同；时间：1686-04-02；角色：收件人；范围：Haskell 所报信件收件关系；“him”回指同一脚注中的 Senator Francesco Panciatichi；不表示已查阅原件。；原断言与证据见发出端卡片“那不勒斯致弗朗切斯科·潘恰蒂基的信（Letter from Naples to Francesco Panciatichi, 2 April 1686）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.212, footnote 5, L153; PDF physical p.10; S2 statement: st-chp8-p212-n5-letter-addressed-to-panciatichi |
+
 
 **中文：** 直接S2候选（待S6）：st-chp8-p212-n5-panciatichi-nicola-kinship, st-chp8-p212-n5-panciatichi-office。
 

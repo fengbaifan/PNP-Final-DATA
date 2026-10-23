@@ -11571,3 +11571,27 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 本批未改动S2 statement或候选映射；复合说明和p.223画廊句不作为额外关系候选。身份与关系判断限于Haskell的原书报告，未构成外部核验或S2独立复核。
 
 **检查与计数。** 字段抽取预览为新增6条（enr-16428–enr-16433）、既有字段变化0条、删除0条、警告0条；写回后再次预览为record_changes=0、new_ids=0、removed_ids=0、warnings=0。S6新增4条formal记录；表审计exit 0、errors=[]、s2_missing=[]，关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。Palazzo Cibo、Trevi Fountain与Tommaso Ruffo卡片定向渲染，Cibo family卡片无变化；四张卡片渲染后预览均无差异。当前relations.csv共1,654条（formal 1,644、pending 10），S6逐条裁决721/10,486，尚余9,765条。全库其余关系投影差异仍需后续分批复核，本批四张卡片的验收不代表全库投影已一致。
+
+
+### S3沿用／S4/S5/S6：第8章 p.212 注5外层书信与档案端点（2026-10-23）
+
+**来源与身份。** 对照 Haskell 原书页图及转录，注5先称 Senator Francesco Panciatichi，随后记载 Archivio Mediceo (Filza 4123) 中有一封“letter to him from Naples”，日期为1686年4月2日。cand-7613 与 cand-7612 分别沿用既有 S3 `new` 组 `archive-group-38e1e8c71dbd` 和 `archive-group-48a52a10816a`，不重开 S3；分别登记为 `units/archives/letter-from-naples-to-francesco-panciatichi-1686-04-02` 与 `units/archives/archivio-mediceo-filza-4123`。收件人沿用 cand-1825 → Francesco Panciatichi。外层信与引文中提及的总督来信为不同文献；不据此识别匿名写信人或总督。
+
+**S2原子关系候选。** 在原有报告级内容断言之外新增两条statement：`st-chp8-p212-n5-letter-addressed-to-panciatichi`（letter → Panciatichi）与 `st-chp8-p212-n5-letter-in-filza-4123`（letter → Filza 4123）。为 `cand-7613` 补入精确提及 `m-chp8-p212-letter-001`（segment字符区间[5489,5497)，end exclusive）。这两条定向新增断言未纳入统一独立S2复核分子。原statement `st-chp8-p212-n5-archivio-letter-content` 保留报告级内容及其开放端点，不把外层写信人、内层总督信或 Giordani 的回复压成一条形式关系。
+
+**S4与S5。** 新登记两个 archive KU；新增六条 Haskell 来源支持字段 `enr-16434`–`enr-16439`，包括 Archivio Mediceo / Filza 4123 的来源名称与案卷号，以及书信类型、日期、来源所报来信地点和档案定位。字段均为 `source_backed`，不表示独立核查。档案原件与 Filza 4123 均未查阅。
+
+**S6逐项裁决。** 两条新增直接关系均为 formal：`rel-1655 addressed_to`（书信 → Francesco Panciatichi；“him”回指本注前句的 Senator Francesco Panciatichi）及 `rel-1656 part_of`（书信 → Archivio Mediceo, Filza 4123；仅保留 Haskell 的书内案卷定位）。初批结束时，原报告级内容候选 `st-chp8-p212-n5-archivio-letter-content` 暂列 pending；随后将其改作非关系报告statement，并把可裁决关系拆成独立候选。当前决定与理由见下方“内层总督来信原子化”补记。`bl-0011` 与 `bl-0012` 仍分别保留外层写信人和内层总督个人身份的 `undecided` 去向。
+
+**检查与计数。** `build_field_facts.py` 写入六条后复预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。`audit_tables.py --strict-stage --summary` 退出0，`errors=[]`、`s2_missing=[]`；关系一致性五项结构错误均为0。书信、案卷及 Panciatichi 三张受影响卡片定向渲染，渲染后预览无差异。以上数字仅为外层来信初批后的历史快照；p.212内层来信后续批次增加了三条S2 statement并更新S3/S4/S5/S6。当前计数以知识过程追加的“内层总督来信原子化”补记及全书结果总览为准。
+
+<a id="s3-s4-s5-s6-ch8-p212-nested-viceroy-letter-20261023"></a>
+### 第8章 p.212 注5：内层总督来信原子化（2026-10-23）
+
+**发现与S3。** 同一脚注明确提到一封“lettera del Sig.r V.Re diretta al Pittore Giordani”，与外层致 Francesco Panciatichi 的1686年书信是不同文献。全书候选检查未发现可据以合并的同一内层信件；第4章 Paolo Giordano 来信记录指向不同人物，不作身份合并。新增 `cand-12437`，决定为 `new`，身份组 `archive-group-viceroy-letter-to-painter-giordani-mentioned-at-ch8-p212`；S4登记至 `units/archives/viceroy-letter-to-painter-giordani-mentioned-at-ch8-p212`。保留来源称谓“Viceroy”，不补内层信日期、案卷定位或原件身份。
+
+**S2定向原子化。** 补入mention `m-chp8-p212-viceroy-letter-001`，精确跨度为 `chp-8:08_CHP-8_sec_i:l126-157` 的字符 `[5611,5641)`；相邻的 `Pittore Giordani` mention继续映射至既有 `cand-1172`（Luca Giordano）。原报告statement `st-chp8-p212-n5-archivio-letter-content` 保留为Haskell内容报告，但 `relation_candidate` 改为false，并加入新内层信候选。另增三条原子候选：内层信→Giordani `addressed_to`；内层信→Viceroy `authored_by`；外层信→未具名写信人 `authored_by`。本次定向修订不计入独立S2复核分子。
+
+**S5与S6去向。** 新卡增加三条Haskell来源支持字段 `enr-16440`–`enr-16442`：文献类型、来源所称发信人称谓、嵌套信件的提及语境。S6将内层信→既有人物Luca Giordano裁为 formal `rel-1657 addressed_to`；两条 authorship 候选因缺个人端点保留 pending，并分别由 `bl-0012`（总督个人身份）和 `bl-0011`（外层写信人）指向各自S2 statement。关系表不写空端点行。外层书信、内层信件和Giordani回复不合并为一个档案对象。
+
+**检查与当前计数。** S2为15,267条；统一独立复核仍为9,573（62.7%，未接收），第八章分母1,484。S3主决定12,394/12,415，新增一条 `new`；S4已登记1,582组、1,802/5,042条new映射，尚余3,240条映射；S5为12,555条（1,634条 `unverified`）；S6为726/10,490项（441 formal、213 pending、72 rejected），尚余9,764项；`relations.csv` 为1,657条（1,647 formal、10 pending）。关系候选缺S2端点共340条（subject-only 45、object-only 223、两端均缺72）；backlog 12条（10 completed、2 undecided，pending=0）。字段抽取写入后复预览无变化，卡片定向渲染后预览无差异，正式表审计和关系一致性审计待最终收口复核。
