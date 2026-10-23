@@ -12268,3 +12268,36 @@ S4/S5表审计：kus=2687、candidates=12416、alignment_new_pending_registratio
 #### 检查与批后状态
 
 本批未改S2 statement/mention，S2独立复核分子不变。字段写入前预览为4条新记录、2条source registry新增、warnings=0；写入后复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。新卡单卡定向渲染预检为 `cards=1 tables=1 rows=4 projected_relation_rows=1 files_to_write=1`；写后字节核验通过，再预览无差异。批后 `audit_tables.py --strict-stage --summary`：`kus=2692`、`candidates=12416`、`alignments=12749`、`alignment_new_pending_registration=3167`、`relations=1763`（1750 formal）、`enrichment_rows=12811`（1634 unverified）、`sources=1772`、`book_statements=15290`、`mentions=26759`、`s2_missing=[]`、`errors=[]`；保留的warning为3,167条new映射仍待S4及S2语义质量尚需检查。`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`build_field_facts.py`复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；新卡定向复预览无待写差异。上述机械通过不构成S2独立语义接收或S3–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp5-p135-bertolotti-citations-20261024"></a>
+### S3沿用／S4登记／S5补足／S6裁决：第5章 p.135 Bertolotti 引注档案端点（2026-10-24）
+
+#### 身份与跨章分组
+
+`cand-6182` 沿用既有 S3 `new` 决定及 `archive-group-39f8e9e0d45d`，本批未重开 S3。第5章 p.135 注3短题 *Artisti belgi e olandesi* 与第21章 p.414 书目全题 *Artisti belgi ed olandesi a Roma nei secoli XVI e XVII*、作者著录 Bertolotti, A. 相对应。既有 `bertolotti-artisti-bolognesi` 是不同题名的1885年出版物，不复用为本候选。身份依据限于 Haskell 的引注和书目；未独立查阅被引作品或引文页。
+
+#### S4 登记
+
+将 `cand-6182` 映射到 `units/archives/bertolotti-artisti-belgi-olandesi-roma-1880`，更新 `aln-6363`，并在 `ku-manifest.csv`、`accepted.yml` 登记。新 KU 仅表示 Haskell 所指的书目对象，不推断内容已读或全文身份已外部核验。
+
+#### S5 来源字段
+
+新卡以 Haskell 第21章书目行157和第5章注3–5为依据，登记原题、作者著录、出版地与年份、哈斯克尔引用页码4条字段。字段限定为哈斯克尔的书目信息；没有将作者缩写扩写，也没有把被引页当作已核内容。字段预览与写入新增4条 `source_backed` 记录，未新增来源注册项。
+
+#### S2 定向补正
+
+页图复核 CHP-5.pdf physical p.16，注3印本为“Artisti belgi e olandesi, pp. 127 ff.”；S0 转录中的 `c` 和 `If.` 保持不改。新增 `st-chp5-notes-l136-cites-bertolotti-artisti-belgi-olandesi`，将注3书目引用与注4 p.134、注5 p.133 分别原子化；在新 statement 的 `ocr_corrections` 记录 `c`→`e`、`If.`→`ff.`，并将该 statement 加入对应正文 statement 的注释链接。新增 statement 尚未进入独立 S2 复核分子。
+
+#### S6 逐项裁决
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp5-notes-l136-cites-bertolotti-artisti-belgi-olandesi` | formal `rel-1764 cites`：Haskell 注3引用 pp. 127 ff.；仅记录该书目引用。 |
+| `st-chp5-notes-l137-ibid-page134` | formal `rel-1765 cites`：注4以 ibid. 引 p. 134；仅记录该引用。 |
+| `st-chp5-notes-l138-ibid-page133` | formal `rel-1766 cites`：注5以 ibid. 引 p. 133；仅记录该引用。 |
+
+三条边均为 archive→archive，符合 `cites` 域值域；各自保存注号、行号及具体引页。它们不表示哈斯克尔或本批已查阅被引书及对应页，也不验证注中所转述的内容。
+
+#### 验证与批后状态
+
+`build_field_facts.py` 写入前预览 `new_ids=4`、`warnings=0`；应用后复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。新卡和《赞助人与画家》档案卡均完成定向渲染及复预览，无剩余差异；Haskell 卡渲染同时补齐上一批已正式登记的 `rel-1763` 投影。`audit_tables.py --strict-stage --summary`：`kus=2693`、`candidates=12416`、`alignments=12749`、`alignment_new_pending_registration=3166`、`relations=1766`（1753 formal）、`enrichment_rows=12815`（1634 unverified）、`sources=1772`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。关系一致性检查中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S2统一独立语义复核仍为9,617/15,291（62.9%，尚未接收）；新增 statement 不计入复核分子。S3–S6仍未全书收口。
