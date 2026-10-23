@@ -96,7 +96,7 @@ S4已登记1,887/5,064条new候选映射，尚有3,177条待登记；当前映�
 4. **修复缺失S2端点并补关键S5字段。** 对340条至少缺一个S2端点候选ID的关系，按来源页查明指称；仅在原文证据足够时补候选与statement锚点，再接续S3/S4/S6。1,634条unverified字段按对身份、版本、时间、角色、地点或关系裁决的影响排序；没有证据的字段继续保持未验证。
 5. **按剩余S6队列逐条收口，之后才准备S7。** 当前9,648条relation candidate尚无可追溯裁决。正式边必须有合格端点、谓词、方向、语境和对应证据；pending须写清所缺证据或端点及解除条件，rejected须保留否决依据。S4 new映射、S5字段缺口、S6裁决和candidate-backlog均核平后再准备S7；知识发现与页面仍等待用户明确启动。
 
-**执行提速。** 以“共同身份组＋直接关系端点＋来源页”为批次单位，跨章查重后一次完成本批S4、必要S5和S6；只预览和渲染受影响卡片，批次结束做严格表审计，阶段里程碑再跑全量同步门禁。截图中的两次CI失败已定位为旧版导出测试硬编码了数据快照（1,499、2,873）；提交`fe6b776 Make export count tests data-driven`已改为从导出工件动态计算。当前`pytest tests/test_export_dataset.py`为6项通过；主线最新验证[run 40002546620](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/40002546620)成功，Ubuntu迁移提示只是notice。本机代理仍阻断Git fetch；GitHub API核对显示本地基线与远端main均为`c9a2ed67`，本轮提交后还需再次同步核验。
+**执行提速。** 以“共同身份组＋直接关系端点＋来源页”为批次单位，跨章查重后一次完成本批S4、必要S5和S6；只预览和渲染受影响卡片，批次结束做严格表审计，阶段里程碑再跑全量同步门禁。截图中的两次CI失败已定位为旧版导出测试硬编码了数据快照（1,499、2,873）；提交`fe6b776 Make export count tests data-driven`已改为从导出工件动态计算。当前`pytest tests/test_export_dataset.py`为6项通过；前一已完成主线验证[run 40002546620](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/40002546620)成功，Ubuntu迁移提示只是notice。
 
 ### S2定向修订／S3／S4／S5／S6：第七章黎塞留招揽政策与死亡事件（2026-10-23）
 
