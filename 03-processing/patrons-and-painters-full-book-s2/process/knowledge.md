@@ -12382,3 +12382,26 @@ Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Be
 #### 卡片与批后核验
 
 三张受影响卡片（海岸画、Origin of Coral、Claude Lorrain）均已定向渲染；逐卡复预览均无待写差异。`audit_tables.py --strict-stage --summary`：`kus=2698`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3162`、`relations=1773`（1,760 formal、13 pending）、`enrichment_rows=12828`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。审计通过只证明本批表结构与关系约束，不构成全书 S2 接收或 S3–S6 收口。
+
+<a id="s3-s4-s5-s6-chp4-p118-apollo-daphne-20261024"></a>
+### S3跨章身份组／S4登记／S5补足／S6裁决：第4章 pp.117–118《阿波罗与达芙妮》（2026-10-24）
+
+#### S2锚点修复与身份组
+
+复核第4章印刷页117–118原文后，修订三条既有statement的断言、回指与句段摘录：`st-chp4-sec-ii-p118-apollo-daphne-title` 连回 p.117 未完成作品赠予记录；`st-chp4-sec-ii-p118-apollo-theme` 保留 Haskell 对主题及尚未充分阐释的限定；`st-chp4-sec-ii-p118-poussin-fascinated-theme` 明确代词指回 Poussin。未新增statement。为 `cand-11669` 补入原文锚点 `m-chp4-sec-ii-p118-0041`，表面文本为 “the conflict between fertility and sterility”，所在 segment-relative 范围为 168:212；该词条仍表述来源限定的主题解释。
+
+跨章核对索引 P.csv#195 的 `cand-1992`（Poussin，《Apollo and Daphne》）与正文候选 `cand-5988`，判为同一件书内描述的未完成画作，合并至既有 new 组 `workgrp-d1f1c4a66e6011`。`cand-11669` 从 undecided 改为 new，进入 `sg3-term-cand-11669`。同题的 Bernini 雕塑候选 `cand-4349` 与 Maratta 绘画候选 `cand-1529`、`cand-6928` 保持独立；题名相同不构成身份合并。此批没有外部身份核验。
+
+#### S4/S5登记
+
+将 `cand-5988`、`cand-1992` 映射至 `units/works/poussin-apollo-and-daphne-unfinished`，将 `cand-11669` 映射至 `units/terms/fertility-sterility-conflict-poussin-theme`；同步登记manifest、accepted清单和双语知识卡。新增两条 Haskell 来源字段：`enr-16716` 记录作品类型为绘画（具体媒材未载），`enr-16717` 记录来源限定主题及其未充分阐释状态。
+
+#### S6逐项裁决
+
+| statement_id | 决定与关系 |
+|---|---|
+| `st-chp4-sec-ii-p117-unfinished-gift-1664` | formal `rel-1774 created_by` 与 `rel-1775 acquired_by`：分别记录 Haskell 的书内作者归属，以及1664年赠予 Massimi 的取得关系；不扩写后续所有权链。 |
+| `st-chp4-sec-ii-p118-apollo-theme` | formal `rel-1776 has_subject`：保留为 Haskell 的主题解释，不宣称其为终局阐释。 |
+| `st-chp4-sec-ii-p118-poussin-fascinated-theme` | rejected 为正式图谱边：`interested_in` 不属于当前受控关系类型；来源断言仍保留于S2。 |
+
+四项候选均有去向（3 formal、1 rejected）。两张新卡及 Poussin、Massimi 卡定向渲染并完成复预览。`audit_tables.py --strict-stage --summary`：`kus=2700`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3161`、`relations=1776`（1,763 formal、13 pending）、`enrichment_rows=12830`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26760`、`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py --dry-run` 中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。统一 S2 独立复核仍为9,617/15,291，未接收；本批没有新增statement，mention及身份决定的定向修复不构成独立复核。
