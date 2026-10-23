@@ -14,20 +14,22 @@ S3台账核平：为 `cand-7603` 新增主决定 `same → units/persons/roberto
 
 本轮完成第八章 p.240 跨章身份与关系端点批次。扫描对照后逐条复核40条 statement，补入2条独立断言，保留S0转录并在 `ocr_corrections` 记录扫描校读；详细行级处理见[复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/s2-independent-review-chp8-p240-20261023.md)。S3将 `cand-7977` 复用到第20章 `cand-11046` 的1706年展览组，合并 `cand-8066` 与第1、3章 St Luke 人物组；登记10个KU，建立12条候选映射（含2条same复用），将约250幅候选明确排除为展览统计，不建立作品KU。肖像 `cand-8071` 继续 undecided，已补S2提及锚点和具体待证理由。S5新增18条书内来源字段；S6新增8条formal关系，Letter 120复用既有 `rel-1525`。扫描、来源转录及身份范围不作外部核验。`audit_tables.py --strict-stage --summary` exit 0、`errors=[]`；关系一致性审计五类错误均为0；规则漂移检查为0。11张受影响卡片通过定向预检并渲染，渲染后逐卡预览无差异。该页40条复核不并入统一S2分子，p.240其他类型候选和未完成的S6候选另行排队。详见[过程裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p240-exhibition-venues-and-citations-20261023)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,256条statement；统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,265、第八章487/1,476；第3章1,173/1,181、第10–12章1,567/1,567、第16章206/210的独立章节记录仍分开报告，均未接收；统一复核台账仍待按statement ID与来源版本核平。第8章p.239、p.240各40条复核记录暂未计入统一分子。S3主决定覆盖12,390/12,411个候选，缺21项；same=2,033、new=5,035、conflict=9、excluded=101、undecided=5,212；另22项跨来源决定不同。未决项按建议类型：work 1,610、person 1,075、archive 688、term 657、place 308、institution 119、event 113、family 18、procedure 2；另有622项类型边界未决（suggested_type为空）。S4已登记1,560个new KU、1,779/5,035条new候选映射；尚有3,256条new映射待登记。53条new主决定行缺少可解析的内联group标识，S3组总量待核平。S5共12,499条字段，1,634条 `unverified`。relation_candidate=true共10,478条；S6已裁决645/10,478条（407 formal、171 pending、67 rejected），余9,833条；`relations.csv`共1,626条（1,617 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。`candidate-backlog.csv`仍为10条，9条完成、1条明确undecided，pending=0。
+本轮完成第八章 p.241 的跨章身份分组和直接关系端点批次：将 Haskell 第21章书目中的1960年文章与 p.241 注5合并到同一archive身份组，新增两个书内作品组及 Bernardo Sansone Sgrilli 人物组；登记7个KU并完成8条new候选映射。S5新增14条 Haskell 原书支持字段。S6对44个关系候选逐项裁决：13 formal、26 pending、5 rejected；复用展览—Ferdinand既有边，并将p.230与p.241两条Sgrilli引注合并为一条关系。新增5条S2 statement，不计入统一独立复核分子。借展类型边界、未具名群体及解释性断言保留具体待证或否决理由。详见[过程裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p241-direct-endpoints-20261023)。 14张受影响卡片完成定向渲染，渲染后复预览无差异；全表严格审计errors=[]、s2_missing=[]，关系一致性五项结构检查均为0。
+
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,261条statement；统一独立逐条复核9,573条（62.7%，尚未接收）；第七章1,146/1,265、第八章487/1,479；第3章1,173/1,181、第10–12章1,567/1,567、第16章206/210的独立章节记录仍分开报告，均未接收；统一复核台账仍待按statement ID与来源版本核平。第8章p.239、p.240各40条复核记录不计入统一分子；本轮定向新增statement亦未计入分子。S3主决定覆盖12,393/12,414个候选，仍缺21项；same=2,033、new=5,039、conflict=9、excluded=101、undecided=5,211；另22项跨来源决定不同，须按来源与身份语义逐项审查，不直接视为身份冲突。未决按建议类型：work 1,610、person 1,075、archive 687、term 657、place 308、institution 119、event 113、family 18、procedure 2；另有622项类型边界未决。S4已登记1,567个new KU组、1,787/5,039条new候选映射；尚有3,252条映射待登记，另有53条new主决定行的group标识需核平。S5共12,513条字段，其中1,634条unverified。relation_candidate=true共10,485条；S6已裁决689/10,485条（420 formal、197 pending、72 rejected），尚余9,796条；relations.csv共1,638条（1,628 formal、10 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。candidate-backlog.csv有10条记录：9条completed、1条明确undecided，pending=0；这不表示339个缺端点对象均已解决。各阶段进度不能压成单一项目百分比。
 
 前述第七章黎塞留批次的事件身份仅限 Haskell 书内所指事件；1642为书内所报年份，不声称外部核验。招揽政策与马萨林 1644 年贝尔尼尼行动、1648 年阿尔加迪行动分开。未将 `minister_to`、招募目标、负向“未中断”或作者因果解释强套进不精确的正式谓词。
 
 **后续工作规划与收口条件。**
 
-1. **先核平S3决定与组标识。** 补齐21项缺失主决定，逐项判读22项跨来源decision差异；检查53条 `new` 主决定行为什么缺可解析group标识。p.240本页尚有29个undecided候选：person `cand-8059/8073/8074`，place `cand-8062/8064`，work `cand-8060/8061/8063/8070/8071/8075/8076/8077/8082–8093`，event `cand-8079`，term `cand-8095/8102/8103`。同页 `cand-8078`（family）和 `cand-8104`（term）已有new决定，仍待S4；不得将本次10个KU说成p.240全页收口。
-2. **按直接关系端点优先开展类型S3和S4批次。** 目前3,256条new映射待S4。每批先确定人物、地点、作品、档案等候选的身份粒度及same/new/conflict/excluded/undecided去向，再登记所需KU和S5书内字段，并同批裁决端点齐备的S6候选；证据或受控谓词不足时保留具体pending理由。
-3. **完成S6逐条去向和缺端点队列。** 10,478条relation candidates已有645条裁决，尚余9,833条；p.240有27条relation_candidate，其中8条本批新增formal、4条复用既有formal，余15条需核对既往过程记录并补齐去向。339条候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）；具名且可独立识别者写入 `candidate-backlog.csv`，按S1→S3→S4处理，backlog pending=0不代表这些端点都已解决。
-4. **按依赖优先核验S5。** 1,634条 `unverified` 字段中，先查正式关系和新端点依赖的题名、版本、时间、角色、地点；其余保留书内来源或具体待证状态，不将书内转述升级为外部事实。
-5. **核平并继续S2独立审读。** 按statement ID与来源版本核对统一台账，再按章节推进低覆盖区；第8章p.239、p.240的40条复核分别保存，不并入9,573条统一分子，直到完成台账核平。定向修订不计入独立复核分子，只追踪受影响的端点与关系。
-6. **最后进入S7准备。** 所有S3 new组已有可追溯登记或阻断，所有S5待证字段有明确状态，全部10,478条S6候选已有formal、pending或rejected去向，正式边端点、谓词、方向、语境和证据合格后再做发布准备；知识发现和页面继续暂停。
+1. **先修复S3主决定台账。** 对21项缺主决定逐项补足证据、same/new/conflict/excluded/undecided去向；复核22项跨来源decision差异，保留每个来源行及改变理由；检查53条new主决定行的group标识。9项conflict决定也要确认冲突两侧与受影响端点均有可追溯依据。
+2. **按类型和关系端点收束S3。** 继续处理5,211项undecided（含622项类型边界未决），优先选择会阻断明确S6关系的候选。逐类形成跨章身份组，明确复用对象、来源内新对象、真实冲突、排除和仍待证项；不得因相似名称、共同出现或索引层级自动合并。p.240仍有29项未决身份候选；p.241的Gerini patronage-practice候选cand-8101仍待S4。
+3. **把已决定的new组登记到S4并补S5。** 目前3,252条new候选映射待登记。按人物、作品、档案、地点、机构、事件和术语等类型与端点依赖分批，每批先复用既有KU，再给确有新身份的组登记单一KU；字段逐项保留书内来源及未核验状态。1,634条unverified先处理直接关系所依赖的版本、时间、角色、地点与身份字段。
+4. **完成S6逐条处置和端点缺口。** 9,796条关系候选尚未裁决。对端点已齐者，逐条formal、pending或rejected，并检查类型、方向、语境和证据；p.240仍有15条relation_candidate未见formal/pending表行，先核对旧过程记录再补明确去向。339条缺端点候选按pipeline进入candidate-backlog，再走S1→S3→S4；不能因backlog的pending为0就宣称缺端点问题已清空。
+5. **并行核平S2独立复核台账。** 按statement ID和来源版本核对统一分子；之后优先推进覆盖较低章节，逐条区分来源转录、当前语义复核和端点修订。第8章p.239、p.240的40条记录及本轮定向修订均不重复计入统一分子；所有独立章节记录仍未接收。
+6. **S7只在S0–S6放行条件满足后准备。** 所有候选都有可追溯去向，new组已登记或有明确阻断，S5待证字段有状态，S6全候选都有裁决，且formal边的端点、谓词、方向、语境和证据合格后才进入发布准备。知识发现与页面继续暂停。
 
-**执行提速。** 用“端点优先、按类型成批”的S3→S4→S5→S6工作单元，复用已裁决身份；每批只运行受影响对象预检和关系一致性核查，在阶段性交付前运行一次全库严格审计，减少重复全库扫描和卡片重建。语义身份判断仍逐对象留证。
+**执行提速。** 采用“缺口主决定／类型身份组／直接端点关系”三类短批次；每批同步S3、必要S4、来源字段和可裁决S6，复用已有跨章判断。只对受影响卡片做预览与渲染，阶段里程碑再做一次全表严格审计；避免重复扫描全库和重复复核已稳定对象。语义判断仍逐对象留理由，待证对象不为了提高数字而强行裁决。
 
 ### S2定向修订／S3／S4／S5／S6：第七章黎塞留招揽政策与死亡事件（2026-10-23）
 

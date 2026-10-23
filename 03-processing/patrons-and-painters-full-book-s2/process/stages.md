@@ -13604,3 +13604,8 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 | `st-chp16-p373-note2-sasso-letters-addressed-to-strange` | `cand-10607` | `cand-2517` | `addressed_to` |
 
 本修复回应第13–17章独立复核表指出的两个脚注局部John Strange mention缺口；不把该定向修订算作独立复核。复核原有206条分子不变，当前第16章statement分母由206增至210；新增4条未由本批自审计入独立分子。
+
+
+### 2026-10-23：第八章 p.241 关系端点的 S2 定向修订
+
+为区分作品与作者、脚注引文主体及作品位置，修订 p.241 loans、颜色描述、Pitti No.75、目录引文、Sgrilli 引文、Gabburri／Bottari 引文、Gerini 跟随实践及肖像展示解释相关 statement 的端点、谓词或限定；p.230 注2主体修正为 Haskell 原书。新增5条有明确来源定位的 statement：p.241 Cagnacci Magdalene created_by、Cassana Portrait of a Hunter created_by、Haskell cites 1960文章，以及第21章书目所列 Haskell 文章和 Sgrilli 著作的 authored_by。对应 mentions、端点、限定及S3跨章身份映射见[知识过程](knowledge.md#s3-s4-s5-s6-ch8-p241-direct-endpoints-20261023)。这些是针对当前ID的定向修订，不记为独立逐条语义复核增量；统一S2分子维持9,573。

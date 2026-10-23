@@ -11372,3 +11372,87 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 **S5字段。** 新卡字段均为`source_backed`，分别记录展览日期和约250幅规模、礼拜堂／回廊空间称谓、目录题名与出版项、书目信息及信件编号日期、作品称谓与书内展示地点。负面展品来源、日期缺项、目录拼写和未展开身份均保留原有限定。
 
 **S6裁决。** 新增8条formal关系：event `has_participant` Ferdinand；event `occurred_at` 礼拜堂与回廊；Flight into Egypt `located_at` Piazza del Duomo；Haskell书籍分别`cites` Fogolari文章、Hugford著作、Letter 12与展览目录。Letter 120沿用既有`rel-1525`，未重复建边。目录“用于重建活动”的陈述不另建无受控类型边；chapel→St Luke因`dedicated_to`域值域不允许place→person，不创建正式边。全页27条`relation_candidate=true`中，`relations.csv`现有formal行覆盖12条（本批新增8条，既有4条沿用）；另15条目前没有formal/pending表行，需先核对已有过程裁决，再逐项补齐S6去向。
+\n
+
+<a id="s4-s5-s6-ch8-p241-direct-endpoints-20261023"></a>
+<a id="s3-s4-s5-s6-ch8-p241-direct-endpoints-20261023"></a>
+### 第八章 p.241 跨章身份分组与直接端点批次（2026-10-23）
+
+**范围与 S2 定向修订。** 对照第8章印刷页241（PDF物理页47）、注1–5和第21章书目，补充两个具名作品及两条书目作者关系 statement，并补齐相关 mentions。作品端点分别拆为 Guido Cagnacci 的《抹大拉的马利亚》与 Niccolò Cassana 的《猎人肖像》，不把画家姓名与作品合并。将注3、注4、注5及第21章书目项分别表示为 Haskell 原书的 cites／authored_by 断言；p.230 注2与 p.241 注4指向同一 Sgrilli 著作。修正 p.241 loans、作品颜色和馆藏地点 statement 的端点，将展览引用的主体改为 Haskell 原书，并区分 Gerini 跟随的赞助实践与人物端点。新增5条statement，其中3条定位于p.241、2条定位于第21章书目；这些定向修订不增加统一S2独立复核分子。原书所述作者、归属、收藏地点和书目信息均未被表述为外部核验结果。
+
+**S3 跨章身份决定。** p.241 索引子目不作为画作端点。cand-7847、cand-8081、cand-8099、cand-8096沿用既有 new 身份组；cand-10717 从 undecided 改为 new，与 cand-8096 合并到同一 Haskell 1960 年文章组。p.241 注5与第21章书目在题名、期刊、年份、卷期和页码上对应；文章本身未阅读。另为两个书内作品称谓和书目作者 Bernardo Sansone Sgrilli 建立 source-local new 组。未产生本批 S3 conflict 决定。
+
+| 身份组 | 候选 | S3去向与KU | 身份范围 |
+|---|---|---|---|
+| archive-group-1589af96e895 | cand-7847 | new → units/archives/descrizione-regia-villa-pratolino-sgrilli-1742 | Haskell 书目所列 1742 年 Sgrilli 著作 |
+| archive-group-8439051bbadc | cand-8081 | new → units/archives/1767-florentine-exhibition-catalogue-introduction | 1767 年展览目录序言 |
+| archive-group-bb048dac8882 | cand-8099 | new → units/archives/fogolari-letter-116-1705-10-17 | Fogolari 1937 年所刊第116号信 |
+| archive-group-d7c396b7c646 | cand-8096、cand-10717 | new → units/archives/haskell-artistic-contacts-florence-venice-1960 | 同一篇1960年文章；作者与被引文章身份限于Haskell书目和脚注 |
+| workgrp-b9c4039e11afda35 | cand-12434 | new → units/works/guido-cagnacci-magdalene | p.241所称 Cagnacci Magdalene，不断言外部作品版本 |
+| workgrp-abcd5720174a4315 | cand-12435 | new → units/works/niccolo-cassana-portrait-of-a-hunter | p.241所称 Cassana Portrait of a Hunter |
+| person-group-bernardo-sansone-sgrilli | cand-12436 | new → units/persons/bernardo-sansone-sgrilli | 第21章书目所列作者，不补写传记 |
+
+S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有组。新候选和映射分别为 cand-12434/aln-12727、cand-12435/aln-12728、cand-12436/aln-12729；其他映射见 alignment.csv。cand-8101 的 patronage-practice term 仍为 new、尚无S4卡片；本批不为待证关系强制登记该术语。
+
+**S5字段。** 新增14条 source_backed 字段 enr-16387 至 enr-16400，分布在上述7张卡片，均由 Haskell 原书相应正文、脚注或书目定位。字段只记录来源所报题名、出版信息、责任者、作品归属、陈列地点和范围；被引文本、画作外部身份、作者归属及历史馆藏均未独立核验。
+
+**S6逐项裁决。** 本批覆盖44条 relation_candidate：13条 formal、26条 pending、5条 rejected。formal 逐项去向如下：
+
+| statement_id | 决定 | 正式关系及处理 |
+|---|---|---|
+| st-chp8-p241-attendance-success-and-academy | formal | 复用 rel-1619：1706展览 has_participant Ferdinand；追加p.241证据，不重复建边 |
+| st-chp8-p241-note1-fogolari-letter116 | formal | rel-1627：Haskell 原书 cites Fogolari 所刊第116号信 |
+| st-chp8-p241-note3-1767-catalogue | formal | rel-1628：Haskell 原书 cites 1767年展览目录序言 |
+| st-chp8-p241-note4-sgrilli-locator | formal | rel-1629：Haskell 原书 cites Sgrilli 著作 |
+| st-chp8-p241-note5-haskell-cites-article | formal | rel-1630：Haskell 原书 cites 其1960年文章 |
+| st-chp8-p241-note5-gabburri-bottari-citation | formal | rel-1631：Haskell 原书 cites Bottari 第II卷；不把书内转引当作已查阅书信 |
+| st-chp8-p241-cagnacci-magdalene-created-by | formal | rel-1632：作品 created_by Guido Cagnacci，限于Haskell原书归属 |
+| st-chp8-p241-cagnacci-picture-at-pitti-75 | formal | rel-1633：作品 located_at Palazzo Pitti，限于Haskell所报地点与编号 |
+| st-chp8-p241-cassana-hunter-created-by | formal | rel-1634：作品 created_by Niccolò Cassana，限于Haskell原书归属 |
+| st-chp8-p241-academy-organized-exhibition | formal | rel-1635：1706展览 has_participant Accademia del Disegno；scope限定为Haskell所述庇护／组织角色 |
+| st-chp21-bib-l577-614-haskell-author | formal | rel-1636：Haskell文章 authored_by Francis Haskell；证据为书目责任说明 |
+| st-chp21-bib-l1102-1139-sgrilli-author | formal | rel-1637：Sgrilli著作 authored_by Bernardo Sansone Sgrilli；证据为书目责任说明 |
+| st-chp8-p230-note2-sgrilli | formal | 与p.241注4共用 rel-1629；同一Haskell原书→Sgrilli著作 cites 边，追加另一条引文证据 |
+
+以下候选逐项保留 pending，不以缺失端点、概率措辞、集体称谓或当前受控谓词缺口拼成 formal 边：
+
+| statement_id | pending理由与去向 |
+|---|---|
+| st-chp8-p241-additional-loans | 借展断言保留；当前受控谓词及域值域无法准确表达人物出借者、作品与展览的该项关系 |
+| st-chp8-p241-note2-uncertain-landscape-lender | 原文明确为 probably；两组 Marco Ricci 风景画是否同一仍未确定 |
+| st-chp8-p241-note5-gabburri-correspondence | Venetian artists 未具名，无法形成可识别的关系端点；书信出版物引注另以 formal cites 记录 |
+| st-chp8-p241-note5-gerini-follower | 对象是来源内的 patronage practice term；现有受控关系类型无法表达 Gerini follows the practice |
+| st-chp8-p241-portrait-as-patronage-signal | 保留肖像—展览的解释性断言；无合适受控谓词，且不改成 Ferdinand 的人物关系 |
+| st-chp8-p241-twenty-odd-loans | 二十余幅借展群作为展览规模记录；不创建无明确身份的单一作品关系 |
+| st-chp8-p241-ferdinand-taste-direction | 保留关于品味和艺术方向的解释性断言；无精确受控谓词 |
+| st-chp8-p241-giorgione-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-titian-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-veronese-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-tintoretto-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-pordenone-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-schiavone-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-bordone-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-guercino-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-carracci-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-schedoni-loan | 个别画家借展关系无法由当前谓词和端点域值域精确表示 |
+| st-chp8-p241-cassana-hunter-loan | 借展断言保留；当前受控谓词及域值域无法准确表示人物出借者、作品与展览的该项关系 |
+| st-chp8-p241-marco-ricci-landscape-loan | Marco Ricci 风景画的具体作品身份及与已收画作的对应未定 |
+| st-chp8-p241-cardinal-medici-loan | Cardinal Medici 的个人身份／端点粒度未解决；不按姓氏猜并入既有人物 |
+| st-chp8-p241-neapolitan-contingent | 集体称谓未提供可识别的具体参加者；不建立虚构集体人物端点 |
+| st-chp8-p241-del-rosso-neapolitan-lending | 只识别到 del Rosso 家族层级；借出者个人与受控关系类型均未定 |
+| st-chp8-p241-luca-giordano-presence | rel-1638 pending：has_participant 端点粒度已可登记，但原文无法区分画家本人或其作品在场 |
+| st-chp8-p241-ferdinand-died-before-later-exhibitions | 后续“类似展览”未逐一识别；先保留时间断言，不建立未识别事件边 |
+| st-chp8-p241-florence-painterly-centre | 保留对 Florence 与 painterly mode 的语境描述；现有受控谓词不能准确表达 |
+| st-chp8-p241-classical-academic-practice-rome | 保留理论与实践的来源断言；现有受控谓词不能准确表达 |
+
+以下五条明确标为 rejected，保留原 statement 但不建立 KU 间关系：
+
+| statement_id | rejected理由 |
+|---|---|
+| st-chp8-p241-venetian-and-neapolitan-contingents | 对威尼斯／那不勒斯群体的展示评价，不是可识别参展者关系 |
+| st-chp8-p241-venetian-school-and-florence | 威尼斯画派与意大利绘画的比较性评价，不是两项KU间关系 |
+| st-chp8-p241-venice-concluding-assessment | Haskell 对艺术地理分布的结论性评价，不建立 formal 边 |
+| st-chp8-p241-seven-venetian-old-masters | 七幅作品是借展群的构成属性，不另立集合间关系 |
+| st-chp8-p241-ferdinand-satisfaction-in-promotion | Ferdinand 的满足感及“最有活力”的评价性陈述，不是关系边 |
+
+批后结构化计数：S2新增5条statement、统一独立复核分子不变；S3新增3个候选并将1项既有候选由undecided改为new；S4新增7个KU与8条映射；S5新增14条source_backed字段；S6裁决44条（13 formal、26 pending、5 rejected），relation表新增11条formal及1条pending，另复用rel-1619并将p.230、p.241两项Sgrilli引注合并到rel-1629。14张受影响卡片完成定向预览与渲染（preflight：14 cards、24 tables、92 rows、202 projected relation rows；files_written=14），渲染后复预览files_to_write=0。audit_tables.py --strict-stage --summary退出0，errors=[]、s2_missing=[]；关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。孤立KU 1,384项、孤立预览行100项及过度连接2项另保留作图谱覆盖提示。机械审计不代表外部身份核验、被引作品阅读或全书阶段收口。机械审计不代表外部身份核验、被引作品阅读或全书阶段收口。
