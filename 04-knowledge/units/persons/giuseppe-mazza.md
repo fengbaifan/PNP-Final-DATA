@@ -47,17 +47,17 @@ sources:
     source_file: 02-sources/03-Index/03-2-Index-CSV/M.csv
     source_span: M.csv#141; CSV line 143; pp. 222, 251
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-crosschapter-person-endpoints-mazza-goya-mattielli-20261017
+updated: '2026-10-23'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p221-vigilance-stucco-endpoints-20261023
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本卡对应索引词头“Giuseppe Mazza”及第8、9章中的博洛尼亚雕塑家Giuseppe Mazza。第8章称有雕塑家是他的学生，并将Diana与Endymion半身像归于他；第9章提及Manin家族宫殿中的一尊大理石维纳斯像。作品归属与师生关系仍分别作为书内断言候选留待S6审查。
+**中文：** 本卡对应索引词头“Giuseppe Mazza”及第8、9章中的博洛尼亚雕塑家Giuseppe Mazza。第8章称Andrea Ferrerio是他的学生，并将Diana与Endymion半身像归于他；第9章提及Manin家族宫殿中的一尊大理石维纳斯像。Ferrerio师承关系已作为Haskell书内报告登记；半身像归属仍待S6审查。
 
-**English:** This card represents the index entry “Giuseppe Mazza” and the Bolognese sculptor Giuseppe Mazza in chapters 8 and 9. Chapter 8 calls a sculptor his pupil and attributes busts of Diana and Endymion to him. Chapter 9 mentions a marble Venus in a Manin family palace. The pupil and work attributions remain separate book statements awaiting S6 review.
+**English:** This card represents the index entry “Giuseppe Mazza” and the Bolognese sculptor Giuseppe Mazza in chapters 8 and 9. Chapter 8 names Andrea Ferrerio as his pupil and attributes busts of Diana and Endymion to him. Chapter 9 mentions a marble Venus in a Manin family palace. The Ferrerio pupil relation is now recorded as reported by Haskell; the bust attribution remains for S6 review.
 
 ## 关系与证据
 
@@ -67,7 +67,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 `relations.csv` 的正式关系。以下直接关系候选仍待S6逐条审查：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 教师（`teacher_of`，反向投影） | [安德烈亚·费雷里奥（Andrea Ferrerio）](andrea-ferrerio.md) | S6裁决：formal。person→person的trained_by与明确的pupil表述对应；角色：教师（Haskell称其为学生）；范围：Haskell称Ferrerio为Giuseppe Mazza的学生；关系保持在原书报告层级，不补充训练时间或外部传记事实。；原断言与证据见发出端卡片“安德烈亚·费雷里奥（Andrea Ferrerio）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 222, L127; PDF physical p. 24; S2 statement: st-chp8-p222-ferrerio-pupil |
 
-- [`st-chp8-p222-ferrerio-pupil`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。
+下列S2候选已分别裁决：Ferrerio师承关系为formal；Diana与Endymion半身像作者归属仍待S6审查。
+
 - [`st-chp8-p227-mazza-created-busts`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。

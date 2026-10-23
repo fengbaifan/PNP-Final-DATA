@@ -11656,3 +11656,39 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 **S6逐项裁决。** 四项均为formal并写入`relations.csv`：`rel-1658 contributed_by`（九幅版画系列→Toninotto，1785；role限定为Haskell所述出版责任，谓词不宣称印刷或出资）；`rel-1659 created_by`（版画系列→Giovanni del Pian，不补创作年份）；`rel-1660 has_subject`（版画系列→Carpaccio场景组，不建立单幅版画与单幅场景的一一映射）；`rel-1661 created_by`（场景组→Vittore Carpaccio，仅记录Haskell的归属表述）。S2 candidate、KU端点、受控类型、方向、语境和页行证据均在表及本记录中可追溯。
 
 **卡片与当前口径。** 定向渲染Carpaccio场景组、del Pian版画系列、Toninotto、Giovanni del Pian、Vittore Carpaccio五张卡；同时清除三张人物卡中过时的“关系尚未登记／候选待S6”文字。当前全书表计数为S2 15,268条（统一独立复核9,573/15,268，仍未接收；第16章局部记录206/211，不并入统一口径）；S3主决定不变；S4为1,821/5,059条new映射、3,238条待登记，已映射至1,599个不同KU ID，new组总数仍受既有缺失／多重group标签问题影响，不作收口声明；S5为12,561条字段、1,634条unverified；relation candidates为10,491条，S6为730/10,491（445 formal、213 pending、72 rejected），`relations.csv`为1,661条（1,651 formal、10 pending）。`audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic五项均为0。表审计仅报告尚待处理的3,238条S4 new映射和语义复核提醒。五张受影响卡片定向预检通过并完成渲染（files_written=5；渲染器已核验写后字节）；随后逐张复预览五张卡片均无差异。
+
+
+<a id="s3-s4-s5-s6-ch8-p221-vigilance-stucco-endpoints-20261023"></a>
+### 第八章 pp.221–222：Vigilance雕像、楼梯栏杆与灰泥装饰端点（2026-10-23）
+
+**范围与来源核对。** 对读《赞助人与画家》第8章印刷页221–222（PDF物理页23–24）扫描与Markdown L124、L127–128。原文称Vigilance雕像位于楼梯栏杆中段，由Cardinal Tommaso Ruffo委托Andrea Ferrerio制作；续页称Ferrerio为Giuseppe Mazza的学生，并称其设计楼梯墙灰泥装饰。装饰包括六位教皇的medallions，原书在该组叙述中只点名Innocent XII；楼梯顶层另述Clement XI medallion，保持为独立对象语境，不并入六人组。未查外部建筑、雕像或装饰记录。
+
+**S3与精确锚点。** `cand-7701`（`aln-7877`，`workgrp-c1e7a934e91916`）及`cand-7704`（`aln-7880`，`workgrp-5587336fc8c7c6`）沿用既有`new`决定。`cand-12076`原因缺少mention-level锚点而为undecided；本批新增mention `m-chp8-p221-balustrade`，surface `the balustrade`，segment `chp-8:08_CHP-8_sec_ii:l112-124`，字符跨度`[2953,2967)`，与`st-chp8-p221-vigilance-statue-on-balustrade`及L124原文对应。依taxonomy-registry将其裁为`new`，组`workgrp-chp8-p221-palace-balustrade`。未把位置关系反推为身份相同。`cand-12077`继续`undecided`：六教皇群组类型无充分依据，其他五位未具名；Clement XI不作为该群组成员补入。
+
+**S4登记。** 三个书内work端点均完成映射；不声称外部建筑或现存作品身份：
+
+| 候选与S3去向 | KU | 说明 |
+|---|---|---|
+| `cand-7701`：沿用new组`workgrp-c1e7a934e91916` | `units/works/statue-of-vigilance-archbishop-palace-ferrara` | 书内称Vigilance雕像；不识别现存雕像 |
+| `cand-7704`：沿用new组`workgrp-5587336fc8c7c6` | `units/works/archbishop-palace-ferrara-staircase-stucco-decoration` | 楼梯墙灰泥装饰；与楼梯空间及Clement XI medallion分开 |
+| `cand-12076`：本批undecided→new，组`workgrp-chp8-p221-palace-balustrade` | `units/works/archbishop-palace-ferrara-staircase-balustrade` | 书内所称楼梯栏杆建筑构件 |
+
+**S5书内字段。** 三张卡经`build_field_facts.py` evidence→preview→apply增加7条source_backed字段`enr-16449`–`enr-16455`；全部回指Haskell原书，`unverified`保持1,634条。写后预检`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+**S6逐候选裁决。** 本批七条`relation_candidate=true` statement均有明示去向：
+
+| statement_id | 决定 | 正式关系／理由 |
+|---|---|---|
+| `st-chp8-p221-vigilance-statue-commissioned-by-ruffo` | formal | `rel-1662 commissioned_by`：雕像→Tommaso Ruffo；只记Haskell所报书内委托 |
+| `st-chp8-p221-ferrerio-sculptor-of-vigilance` | formal | `rel-1663 created_by`：雕像→Andrea Ferrerio；只记Haskell所报雕塑家归属 |
+| `st-chp8-p222-ferrerio-pupil` | formal | `rel-1664 trained_by`：Andrea Ferrerio→Giuseppe Mazza；原书明确称pupil |
+| `st-chp8-p222-ferrerio-designed-staircase-stucco` | formal | `rel-1665 designed_by`：楼梯灰泥装饰→Andrea Ferrerio；不推为施工者 |
+| `st-chp8-p221-vigilance-statue-on-balustrade` | pending | 两端KU已登记，但受控谓词不能准确表达作品位于work型栏杆构件之上的位置；不强作`part_of`或`located_at` |
+| `st-chp8-p222-stucco-includes-six-papal-medallions` | pending | `cand-12077`类型与组员身份未定，不能登记KU |
+| `st-chp8-p222-six-popes-benefited-ferrara-or-legate` | pending | 同一未具名群组未定，且原文未分配对城市与Legate的具体受益对象 |
+
+四条formal关系写入`relations.csv`；三条pending均留在本过程记录及对应卡片，不写入缺端点或无有效关系类型的正式关系表行。`candidate-backlog.csv`新增`bl-0013`（栏杆端点completed）及`bl-0014`（六教皇群组undecided）；端点登记状态与关系S6裁决状态分别追踪。
+
+**卡片投影与核对。** 对三张新work卡、Andrea Ferrerio、Giuseppe Mazza、Tommaso Ruffo共6张卡做定向预览；4张卡表共12行，预览投影12条正式关系，5张卡有关系视图变化。Ferrerio、Mazza与Ruffo的陈旧“待审”描述已改正；定向渲染写入5张卡，写后复预览6卡均无差异。
+
+**批后状态与限制。** S2保持15,268条statement；仅新增1条mention至26,739，不增加统一独立复核分子。S3主决定为same=2,039、new=5,060、conflict=9、excluded=101、undecided=5,206；当前new组标签边界诊断为53条无可解析字段、33条多标记，4,798个全部标记值／4,786个按每行末标记计，均非语义核验组数。S4为1,824/5,060条new候选映射，尚余3,236条，指向1,602个KU ID。S5为12,568条字段（1,634条unverified）。S6累计737/10,491（449 formal、216 pending、72 rejected），尚余9,754；`relations.csv`为1,665条（1,655 formal、10 pending）。backlog共14条（10 completed、4 undecided，pending=0）。`audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。该批不等于第8章p.241独立S2审读或S3组数核平。

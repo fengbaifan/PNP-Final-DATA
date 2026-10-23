@@ -28,8 +28,8 @@ sources:
       source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
       source_span: lines 124–127; print pp. 221–222
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-relation-endpoints-batch3-20261017
+updated: '2026-10-23'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p221-vigilance-stucco-endpoints-20261023
 ---
 
 ## 内容
@@ -52,4 +52,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-本轮未登记正式关系。直接关系候选 st-chp8-p221-ferrerio-sculptor-of-vigilance、st-chp8-p222-ferrerio-designed-staircase-stucco、st-chp8-p222-ferrerio-pupil 的人物端点已映射至本卡；师承、委托、创作及建筑装饰关系仍待 S6 裁决。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [警醒雕像（Statue of Vigilance, Archbishop’s Palace, Ferrara）](../works/statue-of-vigilance-archbishop-palace-ferrara.md) | S6裁决：formal。work→person的created_by表达原书明确的雕塑家归属；不将其与委托关系混同；角色：雕塑家（Haskell所述）；范围：仅记录Haskell将Andrea Ferrerio称为该雕像的雕塑家；不表示已核验现存作品或外部归属。；原断言与证据见发出端卡片“警醒雕像（Statue of Vigilance, Archbishop’s Palace, Ferrara）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221, L124; PDF physical p. 23; S2 statement: st-chp8-p221-ferrerio-sculptor-of-vigilance |
+| → 师从／受训于（`trained_by`） | [朱塞佩·马扎（Giuseppe Mazza）](giuseppe-mazza.md) | S6裁决：formal。person→person的trained_by与明确的pupil表述对应；角色：教师（Haskell称其为学生）；范围：Haskell称Ferrerio为Giuseppe Mazza的学生；关系保持在原书报告层级，不补充训练时间或外部传记事实。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 222, L127; PDF physical p. 24; S2 statement: st-chp8-p222-ferrerio-pupil |
+| ← designer_of（`designer_of`，反向投影） | [费拉拉大主教宫楼梯灰泥装饰（Stucco Decoration on the Archbishop’s Palace Staircase, Ferrara）](../works/archbishop-palace-ferrara-staircase-stucco-decoration.md) | S6裁决：formal。work→person的designed_by保留来源明确的设计归属；角色：设计者（Haskell所述）；范围：仅记录Haskell称Ferrerio设计楼梯墙灰泥装饰；设计归属不自动表示施工者或作者身份已独立核验。；原断言与证据见发出端卡片“费拉拉大主教宫楼梯灰泥装饰（Stucco Decoration on the Archbishop’s Palace Staircase, Ferrara）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 222, L127; PDF physical p. 24; S2 statement: st-chp8-p222-ferrerio-designed-staircase-stucco |
+
+### 尚待证关系
+
+Haskell关于Vigilance雕像位于楼梯栏杆中段的陈述仍保留为S6待证：两端KU已登记，但受控关系类型不能准确表达作品位于建筑构件之上的位置关系。见 `st-chp8-p221-vigilance-statue-on-balustrade`。
