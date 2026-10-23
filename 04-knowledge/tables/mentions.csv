@@ -464,8 +464,8 @@ m-chp10-p288-canaletto,chp-10:10_CHP-10_intro:l218-227,cand-0498,Canaletto,2823,
 m-chp10-p288-cimaroli,chp-10:10_CHP-10_intro:l218-227,cand-0758,Cimaroli,2837,2845,Named landscape painter.
 m-chp10-p288-venetian_group,chp-10:10_CHP-10_intro:l218-227,cand-9009,All four Venetian artists,2890,2915,Collective reference to the named Venetian participants; their career sentence continues on p.289.
 m-chp10-p289-canaletto-careers,chp-10:10_CHP-10_intro:l229-238,cand-0498,Canaletto,23,32,Name in the continuation of the p.288 sentence; Haskell says he was almost unknown.
-m-chp10-p289-sebastiano-ricci,chp-10:10_CHP-10_intro:l229-238,cand-2171,Sebastiano,64,74,Mapped to the index sub-entry for the McSwiny monument to the Duke of Devonshire; global identity alignment remains S3.
-m-chp10-p289-marco-ricci,chp-10:10_CHP-10_intro:l229-238,cand-2151,Marco Ricci,79,90,Mapped to the index sub-entry for the McSwiny monument to the Duke of Devonshire; global identity alignment remains S3.
+m-chp10-p289-sebastiano-ricci,chp-10:10_CHP-10_intro:l229-238,cand-2154,Sebastiano,64,74,人物提及，映射至既有人物候选 cand-2154（Sebastiano Ricci）；作品候选 cand-2171保留索引所指的纪念碑身份。
+m-chp10-p289-marco-ricci,chp-10:10_CHP-10_intro:l229-238,cand-2149,Marco Ricci,79,90,人物提及，映射至既有人物候选 cand-2149（Marco Ricci）；作品候选 cand-2151保留索引所指的纪念碑身份。
 m-chp10-p289-monument,chp-10:10_CHP-10_intro:l229-238,cand-9016,the monument,111,123,Untitled individual work in the proposed series; note 1's artist table remains pending.
 m-chp10-p289-devonshire,chp-10:10_CHP-10_intro:l229-238,cand-0918,Duke of Devonshire,131,149,Title-only reference; personal identity is not inferred here.
 m-chp10-p289-scheme-began,chp-10:10_CHP-10_intro:l229-238,cand-9007,The scheme,274,284,Refers to McSwiny's proposed British Worthies monument series.
@@ -2456,8 +2456,8 @@ m-chp10-p289-table-row1-artist2,chp-10:10_CHP-10_intro_notes_p289_visual-transcr
 m-chp10-p289-table-row1-artist3,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-1915,Piazzetta,310,319,Table association only; no specific author/execution role is stated.
 m-chp10-p289-table-row1-subject,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9383,Lord Somers,322,333,Monument subject as printed; personal identity is not inferred beyond the named person candidate.
 m-chp10-p289-table-row1-label,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9385,Birmingham,336,346,Source-time location label; no current holding is asserted.
-m-chp10-p289-table-row2-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2151,Marco Ricci,351,362,Table association only; no specific author/execution role is stated.
-m-chp10-p289-table-row2-artist2,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2171,Sebastiano Ricci,364,380,Table association only; no specific author/execution role is stated.
+m-chp10-p289-table-row2-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2149,Marco Ricci,351,362,表格将Marco Ricci列入该行artists栏；只支持参与关联，不细分创作或执行角色。
+m-chp10-p289-table-row2-artist2,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2154,Sebastiano Ricci,364,380,表格将Sebastiano Ricci列入该行artists栏；只支持参与关联，不细分创作或执行角色。
 m-chp10-p289-table-row2-subject,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-0918,Duke of Devonshire,383,401,Monument subject as printed; personal identity is not inferred beyond the named person candidate.
 m-chp10-p289-table-row2-label,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9386,Barber Institute,404,420,Source-time location label; no current holding is asserted.
 m-chp10-p289-table-row3-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9381,Domenico Valeriani,425,443,Table association only; no specific author/execution role is stated.
@@ -2482,8 +2482,8 @@ m-chp10-p289-table-row6-artist3,chp-10:10_CHP-10_intro_notes_p289_visual-transcr
 m-chp10-p289-table-row6-subject,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9033,Lord Dorset,723,734,Monument subject as printed; personal identity is not inferred beyond the named person candidate.
 m-chp10-p289-table-row6-place,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-4490,Rome,737,741,City label in the table; not a current collection location.
 m-chp10-p289-table-row6-collection,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9393,private collection,743,761,Unidentified private collection; retained separately from Rome.
-m-chp10-p289-table-row7-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2152,Marco Ricci,766,777,Table association only; no specific author/execution role is stated.
-m-chp10-p289-table-row7-artist2,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2172,Sebastiano Ricci,779,795,Table association only; no specific author/execution role is stated.
+m-chp10-p289-table-row7-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2149,Marco Ricci,766,777,表格将Marco Ricci列入该行artists栏；所涉Shovel作品身份未定。
+m-chp10-p289-table-row7-artist2,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-2154,Sebastiano Ricci,779,795,表格将Sebastiano Ricci列入该行artists栏；所涉Shovel作品身份未定.
 m-chp10-p289-table-row7-subject,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9021,Sir Cloudesly Shovel,798,818,Monument subject as printed; personal identity is not inferred beyond the named person candidate.
 m-chp10-p289-table-row7-label,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-9395,Washington,821,831,Source-time location label; no current holding is asserted.
 m-chp10-p289-table-row8-artist1,chp-10:10_CHP-10_intro_notes_p289_visual-transcription:l1-12,cand-0512,Canaletto?,836,846,Printed question mark retained; individual contribution is not confirmed.

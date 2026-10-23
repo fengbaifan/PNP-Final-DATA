@@ -181,6 +181,7 @@ relations:
 | → 位于（`located_at`） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | 时间：1709–1710；角色：装饰工作地点；范围：共同绘制宅邸装饰画；不推定产权或建筑设计；证据：[来源](https://www.treccani.it/enciclopedia/marco-ricci_(Dizionario-Biografico)/)；src-87bb5a1ddae4f846；英国行程段：A Castle Howard, tra il 1709 e il 1710 |
 | ← 所创作对象（`creator_of`，反向投影） | [歌剧排练（An Operatic Rehearsal）](../works/marco-ricci-an-operatic-rehearsal.md) | 角色：画家；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“歌剧排练（An Operatic Rehearsal）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 125–125; 章前：图版目录；印刷页xv |
 | ← 所创作对象（`creator_of`，反向投影） | [村景（Village Scene）](../works/marco-ricci-village-scene.md) | 角色：原设计者；范围：原书对应图版所列制作责任；原设计与刻版分别保留角色；原断言与证据见发出端卡片“村景（Village Scene）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 133–133; 章前：图版目录；印刷页xv |
+| ← 贡献者（`contributor_to`，反向投影） | [麦克斯温尼方案中的德文郡公爵纪念画（McSwiny’s Monument to the Duke of Devonshire）](../works/mcswiny-duke-of-devonshire-monument.md) | Two candidate statements support one work-to-person edge; do not duplicate the edge.；角色：Haskell所述合作参与者；个人分工未细分；范围：正文明确称Marco Ricci collaborated on the monument，注1将其列入artists栏；只记录Haskell所述参与，不推断唯一作者、执行工序、具体版本或现今馆藏。；原断言与证据见发出端卡片“麦克斯温尼方案中的德文郡公爵纪念画（McSwiny’s Monument to the Duke of Devonshire）”：[来源](../../../02-sources/01-book/CHP-10.pdf)；haskell-1980-rev-ed；st-chp10-p289-marco-ricci-collaborated; st-chp10-p289-note1-row02-artist1; print p. 289, L230 and note 1 row 2; PDF physical p. 18 |
 
 ### 关系候选入口
 

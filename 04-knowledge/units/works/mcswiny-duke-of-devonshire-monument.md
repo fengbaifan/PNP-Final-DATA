@@ -43,9 +43,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记 Haskell 在 McSwiny 英国名人绘画方案中提到的一幅无题作品，原文称为 “monument to the Duke of Devonshire”。正文称 Sebastiano 与 Marco Ricci 参与其制作；注1表把两人列在 artists 栏，并将 Duke of Devonshire 列为题材。表内的 Barber Institute 是原书标注，不确认当前馆藏；书内作者角色仍是 S2 关系候选，待 S6 裁决。中文显示名为描述性工作题名。[第10章 p.289](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L230)；[注1表第2行](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md#L6)
+**中文：** 本卡登记 Haskell 在 McSwiny 英国名人绘画方案中提到的一幅无题作品，原文称为 “monument to the Duke of Devonshire”。正文称 Sebastiano 与 Marco Ricci 参与其制作；注1表把两人列在 artists 栏，并将 Duke of Devonshire 列为题材。表内的 Barber Institute 是原书标注，不确认当前馆藏；S3已将两个人名分别对齐至Marco Ricci与Sebastiano Ricci；S6已把Haskell所述合作记录为两条作品→人物`contributed_by`关系，仅确认参与，不细分个人创作或执行角色，也不确认具体版本。中文显示名为描述性工作题名。[第10章 p.289](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L230)；[注1表第2行](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md#L6)
 
-**English:** This card records an untitled work mentioned by Haskell within McSwiny’s scheme of British worthies, called in the text a “monument to the Duke of Devonshire.” The passage says Sebastiano and Marco Ricci participated in its making; note 1 lists both in the artists column and gives the Duke of Devonshire as the subject. “Barber Institute” is a label in Haskell’s table and does not establish current custody. The book’s artist-role claims remain S2 relation candidates for S6 adjudication. The English and Chinese names are descriptive working titles. [第10章 p.289](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L230); [注1表第2行](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md#L6)
+**English:** This card records an untitled work mentioned by Haskell within McSwiny’s scheme of British worthies, called in the text a “monument to the Duke of Devonshire.” The passage says Sebastiano and Marco Ricci participated in its making; note 1 lists both in the artists column and gives the Duke of Devonshire as the subject. “Barber Institute” is a label in Haskell’s table and does not establish current custody. S3 aligns the two names with Marco Ricci and Sebastiano Ricci. S6 records Haskell’s collaboration statement as two work-to-person `contributed_by` relations; these record participation only, without assigning individual creative or execution roles or identifying a specific version. The English and Chinese names are descriptive working titles. [第10章 p.289](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L230); [注1表第2行](../../../02-sources/02-Markdown/10_CHP-10_intro_notes_p289_visual-transcription.md#L6)
 
 ### 作品身份与版本边界
 
@@ -58,7 +58,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本卡没有新增正式关系。以下7条直接相关的S2关系候选仍留待S6逐条审查端点、角色和作者限定：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其贡献（`contributed_by`） | [马尔科·里奇（Marco Ricci）](../persons/marco-ricci.md) | Two candidate statements support one work-to-person edge; do not duplicate the edge.；角色：Haskell所述合作参与者；个人分工未细分；范围：正文明确称Marco Ricci collaborated on the monument，注1将其列入artists栏；只记录Haskell所述参与，不推断唯一作者、执行工序、具体版本或现今馆藏。；证据：[来源](../../../02-sources/01-book/CHP-10.pdf)；haskell-1980-rev-ed；st-chp10-p289-marco-ricci-collaborated; st-chp10-p289-note1-row02-artist1; print p. 289, L230 and note 1 row 2; PDF physical p. 18 |
+| → 由其贡献（`contributed_by`） | [塞巴斯蒂亚诺·里奇（Sebastiano Ricci）](../persons/sebastiano-ricci.md) | Two candidate statements support one work-to-person edge; do not duplicate the edge.；角色：Haskell所述合作参与者；个人分工未细分；范围：正文明确称Sebastiano Ricci collaborated on the monument，注1将其列入artists栏；只记录Haskell所述参与，不推断唯一作者、执行工序、具体版本或现今馆藏。；证据：[来源](../../../02-sources/01-book/CHP-10.pdf)；haskell-1980-rev-ed；st-chp10-p289-sebastiano-ricci-collaborated; st-chp10-p289-note1-row02-artist2; print p. 289, L230 and note 1 row 2; PDF physical p. 18 |
+
+本卡现有2条formal `contributed_by`关系；4条候选（正文与注1表格各支持一条）共同支撑这两条边。其余3条候选仍pending：Duke of Devonshire人物身份有冲突，另有作品版本未决。相关S2候选如下：
 
 - `st-chp10-p289-devonshire-monument-subject`
 - `st-chp10-p289-marco-ricci-collaborated`

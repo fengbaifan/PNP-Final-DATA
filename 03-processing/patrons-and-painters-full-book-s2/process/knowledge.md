@@ -11496,3 +11496,38 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 | st-chp4-sec-ii-notes-p114-fn2-phocion | pending | 该引注候选仍挂在未辨明的Cassiano作品组cand-5935上；版本／对象端点未解决 |
 
 **检查与计数。** `audit_tables.py --strict-stage --summary`通过，errors=[]、s2_missing=[]；`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全局`build_cards.py --check`通过，但显示全库关系投影仍有预览差异，本批不触发全量重渲染；10张受影响卡片已在选定范围预检与渲染，写后字节核验成功。批后：S2 statements 15,262；统一独立复核分子仍9,573。S3主决定数不变，为12,393/12,414，new增加2至5,041、undecided降至5,209。S4为1,574组、1,794/5,041条映射，待登记3,247条。S5为12,528字段，unverified 1,634条。S6为701/10,486项已裁决（427 formal、202 pending、72 rejected），尚余9,785项；relations.csv为1,645行（1,635 formal、10 pending）。全局关系候选端点缺失数无变化。机械检查不构成S2接收、外部身份核验或全阶段收口。
+
+
+<a id="s3-s4-s5-s6-chp10-p289-bernard-sale-ricci-endpoints-20261023"></a>
+### S2映射校正；S3—S6：第10章 p.289 Bernard拍卖条目、Ricci合作与直接端点（2026-10-23）
+
+本批只处理第10章印刷页289、PDF物理页18的直接对象及其相连关系候选。原书Markdown在该处含编码损坏；本批对照本地`CHP-10.pdf`页图核读拍卖句，读作Haskell感谢Sir Anthony Blunt指出，Sir Robert Bernard于1789年5月9日在Christie’s的拍卖中，第68号拍品目录描述为“Petoni—A pair of Triumphal Mausoleums”。这仍是Haskell转述Blunt的信息；未独立查阅原拍卖目录。
+
+**S2候选外键校正（不计新statement或独立复核分子）。** p.289正文及注1表第2行中的Marco Ricci、Sebastiano Ricci两个人名先前误映射到作品索引候选`cand-2151`／`cand-2171`。现将6条`mentions.csv`记录改接至既有人物候选`cand-2149`（Marco）／`cand-2154`（Sebastiano）；相应正文及表格艺术家statement的`subject_candidate_id`也改为人物候选、作品保留为object。10条相关S2 statement的`mentioned_candidate_ids`中，`cand-2151`／`cand-2152`改为`cand-2149`，`cand-2171`／`cand-2172`改为`cand-2154`。原始OCR quote保留，不改写来源资产或声称修复整章OCR。
+
+**S3身份复核。** 索引候选`cand-2151`（Q-R.csv#78）和`cand-2171`（Q-R.csv#98）均为McSwiny纪念碑的作品型子项，细项指向Duke of Devonshire；它们与正文及注1表格所指的唯一作品候选`cand-9016`一致，故重开并裁为`same → units/works/mcswiny-duke-of-devonshire-monument`，两条均指向既有作品KU。人物名不再被这些作品候选承载。相关索引候选`cand-2152`（Q-R.csv#79）和`cand-2172`（Q-R.csv#99）保留`undecided`：S2映射校正后，它们仍只是指向Sir Cloudesly Shovel的未识别纪念碑索引子项；注1第7行不能固定具体作品／版本，也无既有KU可复用。它们不作人物端点，不推断Washington为当前地点。
+
+**S4与S5。** 沿用既有`archive-group-5fa6986888ba`登记`cand-9402`为`units/archives/christies-bernard-sale-lot-68-1789`；沿用`workgrp-66bdfd7d0ae669`登记`cand-9404`为`units/works/a-pair-of-triumphal-mausoleums-bernard-sale-1789`。作品中文显示名“一对凯旋陵墓”为描述性译名；英文题名保留拍卖目录用语。分别新增4条拍卖书目字段和2条作品来源字段（`enr-16416`—`enr-16421`），证据均定位第10章注1、印刷页289、PDF物理页18。归属只记录Haskell经Blunt转述的“Petoni”，不与Paltronieri或Pittoni合并。
+
+**S6逐项裁决。** 本批14条candidate均留下明确决定；5条formal候选合并投影为3条正式关系（`rel-1646`—`rel-1648`），9条因身份、对象范围或受控谓词不足而pending。formal关系不扩张为拍卖目录核验、单人创作归属、当前馆藏或确定版本。
+
+| statement_id | 决定 | 裁决与边界 |
+|---|---|---|
+| `st-chp10-p289-marco-ricci-collaborated` | formal | rel-1647：McSwiny德文郡公爵纪念碑 `contributed_by` Marco Ricci；只记录Haskell所述合作参与。 |
+| `st-chp10-p289-sebastiano-ricci-collaborated` | formal | rel-1648：同一作品 `contributed_by` Sebastiano Ricci；只记录Haskell所述合作参与。 |
+| `st-chp10-p289-note1-bernard-sale-lot68` | formal | rel-1646：拍卖目录条目 `has_subject` A pair of Triumphal Mausoleums；仅记录Haskell经Blunt转述的目录用语。 |
+| `st-chp10-p289-note1-row02-artist1` | formal | 复用rel-1647；与正文合作陈述合并为一条边，不重复建边。 |
+| `st-chp10-p289-note1-row02-artist2` | formal | 复用rel-1648；与正文合作陈述合并为一条边，不重复建边。 |
+| `st-chp10-p289-devonshire-monument-subject` | pending | 人物候选cand-0918在S3为conflict且无KU；不据爵位推定具体人物。 |
+| `st-chp10-p289-note1-paltronieri-bolognese` | pending | “Bolognese painter”不足以在受控谓词中区分出生地、籍贯、画派或活动地；不推定born_in/active_in。 |
+| `st-chp10-p289-note2-richmond-probable-total` | pending | 句中保留Haskell的probably；作品集合cand-9413的身份/范围未定，不能把14或15条作确数或确定保管关系。 |
+| `st-chp10-p289-note2-vertue-goodwood-list` | pending | 所引Vertue卷册未独立查阅；十项清单与1741年清单并不完全一致，cand-9413所指集合/版本未定。 |
+| `st-chp10-p289-pictures-started-richmond-acquisition` | pending | “most” acquired by Richmond未标出具体子集；不能构造逐件取得关系。 |
+| `st-chp10-p289-note1-row02-subject` | pending | Duke of Devonshire候选cand-0918为S3 conflict；表中Barber Institute是原书时点标签，不证明当前馆藏。 |
+| `st-chp10-p289-note1-row07-artist1` | pending | 作品候选cand-9394未有S3 KU；不能建立未固定作品端点的边。 |
+| `st-chp10-p289-note1-row07-artist2` | pending | 作品候选cand-9394未有S3 KU；不能建立未固定作品端点的边。 |
+| `st-chp10-p289-note1-row07-subject` | pending | 作品cand-9394与人物cand-9021均未形成可用KU；Washington为原书表格标签，不确认现址。 |
+
+`rel-1646`将拍卖条目`has_subject`该题名作品，只记录目录题名的二手转述；`rel-1647`、`rel-1648`将既有德文郡公爵纪念碑分别`contributed_by`至Marco、Sebastiano Ricci。正文的合作断言与表格艺术家列各自支持同一人物边，不复制关系；不写成唯一作者、指定执行者或现存版本。
+
+其余表格第1、3—6、8行未触及。第7行的人物端点已正确接回Ricci人物候选，但其作品及Shovel人物端点仍未定，因此三条相关关系pending。candidate-backlog不新增行：本批未发现S1之外的新对象。
