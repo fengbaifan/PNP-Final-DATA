@@ -85,4 +85,10 @@ English: This unit is the fresco group, not the church building, the choir space
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+本批已登记壁画组位于 S. Vitale 的 formal `located_at` 关系；其他 S2 关系候选仍按各自过程记录处理。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [圣维塔莱堂（S. Vitale）](../places/s-vitale-rome.md) | Evidence: S2 statement st-chp3-secii-l19-31-vitale-frescoes-located-at-vitale.；角色：location of fresco decoration；范围：Haskell names S. Vitale then describes its decoration and fresco subjects; no exact room or present condition is inferred.；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3 print p. 67 L24–25; PDF physical p. 5 |

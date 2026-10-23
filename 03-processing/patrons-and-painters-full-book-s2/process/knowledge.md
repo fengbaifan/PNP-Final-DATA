@@ -12142,3 +12142,42 @@ audit_tables.py --strict-stage --summary：kus=2669、candidates=12416、alignme
 本批只登记1条S4候选映射、1条S5字段，新增1条formal关系；另2条S6候选分别记pending与rejected。批后全书计数以本记录所附严格表审计和关系一致性审计的实际输出更新；此批不构成S3–S6全书收口。
 
 `audit_tables.py --strict-stage --summary`：`kus=2683`、`candidates=12416`、`alignment_new_pending_registration=3179`、`candidate_backlog_rows=25`（`pending=0`）、`relations=1750`（`formal_relations=1737`）、`enrichment_rows=12775`（`1634 unverified`）、`book_statements=15283`、`s2_missing=[]`、`errors=[]`。剩余S4映射3,179条，其中已判`new`的直接关系端点候选ID仍有1,452个未映射。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S6逐条决定850/10,506（522 formal、244 pending、84 rejected），余9,656条；S3仍为12,416/12,416，本批未改动S2 statements或mentions。上述未决量说明阶段仍未收口。
+
+<a id="s3-s4-s5-s6-chp3-jesuit-church-endpoints-20261024"></a>
+### S3局部重判／S4登记／S5补足／S6关系：第3章耶稣会教堂端点（2026-10-24）
+
+#### S3身份与S4登记
+
+`cand-0703` 原 S3 决定为 `new`，组 `sg3-place-cand-0703`。第3章 p.87 的索引子项和 S2 提及明确指向罗马耶稣会教堂 S. Ignazio；同类型既有地点 KU `units/places/s-ignazio` 已由章前图版15和第3章 p.93 候选 `cand-5439` 承接该教堂。本次端点登记触发局部重判为 `same`，保留 `prior_decision=new` 与原组；不与 Gesù 教堂内的圣依纳爵礼拜堂或 S. Ignazio 内部空间合并。
+
+`cand-0724` 沿用 S3 `new` 组 `sg3-place-cand-0724`。第3章 p.67 将其称为罗马耶稣会第三所教堂和早期基督教建筑；现有 S. Vitale 知识元是壁画作品组（type `work`），不是同类型教堂地点，故登记独立地点 KU `units/places/s-vitale-rome`。不推断现代产权、现存状态或精确地址。
+
+#### S2新增断言与S5字段
+
+为给关系图提供分离的原子证据，新增三条 S2 statement：`st-chp3-secii-l19-31-vitale-located-at-rome`（S. Vitale → Rome，L23–24）、`st-chp3-secii-l19-31-vitale-owned-by-jesuits`（S. Vitale → Jesuits，L23）与 `st-chp3-secii-l19-31-vitale-frescoes-located-at-vitale`（壁画组 → S. Vitale，L24–26）。壁画位置依据先命名教堂、随后说明其装饰的紧邻语境。原段 mention 已包含三端点，本批未增 mention。三条新 statement 尚未独立语义复核，未计入统一复核分子。
+
+S. Vitale 地点卡新增一条 `source_backed` S5 字段“地点性质：早期基督教堂建筑”，依据 Haskell 第3章印刷 p.67 L24。其字段表经 `build_field_facts.py` 预览确认 `new_ids=1`、`warnings=0` 后应用；复预览为 `new_ids=0`、`record_changes=0`、`warnings=0`。
+
+#### S6逐项裁决
+
+本批关联的11条 S6 候选全部有正式、待证或否决去向；4条 formal 写入 `relations.csv`，5条 pending 与2条 rejected 保存在各自 statement 的裁决说明中。
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp3-secii-l19-31-planned-adoption-at-vitale` | pending：来源记载耶稣会计划将 S. Stefano 的壁画方式用于 S. Vitale；未证明实际实施，受控关系词表也无机构→地点的“计划采用”谓词。 |
+| `st-chp3-secii-l19-31-vitale-decoration-delayed` | rejected 为正式边：资金短缺造成装饰延误是来源叙述，但没有可表达该复合因果的受控端点关系。 |
+| `st-chp3-secii-l19-31-vitale-owned-by-jesuits` | formal `rel-1751 owned_by`：S. Vitale → Jesuits；L23明确称其为耶稣会拥有的教堂；不推断当前所有权或连续产权。 |
+| `st-chp3-secii-l19-31-vitale-given-to-society-by-clement` | pending：Haskell报告克莱孟八世将S. Vitale交给耶稣会，但未给日期或法律条件；当前受控谓词没有精确表达地点向机构转移的类型。此句不再单独支撑`owned_by`。 |
+| `st-chp3-secii-p68-note1-vitale-audience` | pending：S. Vitale 面向 Jesuit novices 的说法保留；受众候选 `cand-11901` 类型／身份未决，不推断实际准入或排斥。 |
+| `st-chp3-secii-l19-31-vitale-located-at-rome` | formal `rel-1752 located_at`：S. Vitale → Rome；只表达原书所述城市位置。 |
+| `st-chp3-secii-l19-31-vitale-frescoes-located-at-vitale` | formal `rel-1753 located_at`：壁画组 → S. Vitale；不推断确切房间或现存位置。 |
+| `st-chp3-seciv-l106-116-spatial-pressure-compared-to-s-ignazio` | formal `rel-1754 compared_with`：S. Andrea al Quirinale → S. Ignazio；范围限 Haskell 对空间和情绪效果的比较，不声称历史影响。 |
+| `st-chp3-seciv-l118-128-s-ignazio-remaining-large-problem` | rejected 为正式边： “one large problem” 是作者对装饰状态的描述，不构成明确受控关系。 |
+| `st-chp3-seciv-l130-139-s-ignazio-incomplete` | pending：来源将未完成与 Ludovisi 后裔争端相连，但地点→家族不符合当前 `disputed_with` 域值域，也未确立产权或法律角色。 |
+| `st-chp3-seciv-l96-104-ludovisi-s-ignazio-stopped` | pending：原书未具名教皇的视线异议阻止 Ludovisi 拟在该址建堂；教皇身份及拟建地点与后来的 S. Ignazio 教堂边界未决。 |
+
+#### 结构检查与卡片投影
+
+批后 `audit_tables.py --strict-stage --summary`：`kus=2684`、`candidates=12416`、`alignment_new_pending_registration=3177`、`candidate_backlog_rows=25`（`pending=0`）、`relations=1754`（1741 formal、13 pending）、`enrichment_rows=12776`（1634 unverified）、`book_statements=15286`、`s2_missing=[]`、`errors=[]`。关系一致性审计中 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。六张受影响卡片（S. Vitale、Jesuits、Rome、壁画组、S. Andrea、S. Ignazio）完成定向预览、渲染与复预览；渲染预检 `cards=6 tables=13 rows=106 projected_relation_rows=47 cards_with_relation_changes=6 files_to_write=6`，六个文件写后字节核验通过，复预览无差异。`build_field_facts.py` 复预览 `new_ids=0`、`record_changes=0`、`warnings=0`。本批新增三条 S2 statement 不计入 S2 独立复核分子。
+
+拆分历史所有权与转交断言后，修正 `rel-1751` 的证据锚点及范围；S. Vitale、Jesuits两卡重新定向渲染，写后字节核验与复预览无差异。全书 S6累计裁决为861/10,509（526 formal、249 pending、86 rejected），尚余9,648项。

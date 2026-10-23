@@ -126,6 +126,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [安德烈亚·波佐（Andrea Pozzo）](../persons/andrea-pozzo.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；原断言与证据见发出端卡片“安德烈亚·波佐（Andrea Pozzo）”：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；src-2642ba9e6dd62200；本卡 S6；入会与誓愿段 |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [圣维塔莱堂（S. Vitale）](../places/s-vitale-rome.md) | Evidence: S2 statement st-chp3-secii-l19-31-vitale-owned-by-jesuits; ownership is historical source wording only.；时间：Historical account; date not stated；角色：historical owner as described by Haskell；范围：Haskell identifies S. Vitale as a church owned by the Jesuits in Rome; transfer terms and current ownership are not established.；原断言与证据见发出端卡片“圣维塔莱堂（S. Vitale）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3 print p. 67 L23; PDF physical p. 5 |
 
 ### 身份与外部链接
 

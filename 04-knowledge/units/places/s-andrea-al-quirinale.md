@@ -46,9 +46,13 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → compared_with（`compared_with`） | [圣依纳爵堂（罗马）（S. Ignazio）](s-ignazio.md) | Evidence: S2 statement st-chp3-seciv-l106-116-spatial-pressure-compared-to-s-ignazio.；时间：Relative comparison in Haskell's narrative; no date supplied；角色：comparison of spatial and emotional effect；范围：Haskell compares the effect at S. Andrea with the later S. Ignazio; no historical influence is asserted.；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3 print p. 87 L110; PDF physical p. 29 |
 
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
+本批新增与 S. Ignazio 的 formal `compared_with` 关系；其他正文导航与线索不自动形成关系边。
+
+关系事实以本节表格为准；内容表中的知识元链接仅提供来源导航。
 
 ### 关系候选入口
 
