@@ -11305,3 +11305,9 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 第7章 p.176 的 i07、i08 仅记录 Haskell 转述的 Poussin 对艺术家群体的评价；群体边界与谓词均未解决，因此不生成替代边。第4章的 cand-5755 仍为既有 S3 undecided；本批不重开身份决定。第21章书目列出该1911年版，但 bibliography_lists_publication 不作为 cites relation-candidate。
 
 **S2 边界。** 未改动 statement 或 mention；本次逐页核对及定向归属不计入统一 S2 独立复核分子。原始书信和 Correspondance p.15、34、130、316、31 n.2、36–37、188均未独立查阅。
+
+<a id="s3-main-decision-cand10696-20261023"></a>
+
+### S3主决定补录：cand-10696 Bernardo／Bernardino Castelli（2026-10-23）
+
+主对齐表原缺 cand-10696 的决定。沿用已记录的跨章人物复核：第17章 p.381 注3 将 Teodoro Correr 肖像归于“Bernardo Castelli”；Haskell 图版目录59b为同一肖像列“Bernardino Castelli”。Treccani《意大利人传记辞典》Bernardino Castelli 条目记录其 Teodoro Correr 肖像，并提及1795年 Giaconi 版画（https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/，2026-10-23核读）。身份特征与对象语境一致，主决定为 same → units/persons/bernardino-castelli；保留来源拼写差异，不把身份决定当作对绘画归属的独立验证，也不据此裁决对应 S6 关系。既有 Treccani 外部来源行保留，并更新实际核读日期；S2 statement与mention未改。
