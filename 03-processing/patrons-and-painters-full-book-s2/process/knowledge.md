@@ -11311,3 +11311,10 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 ### S3主决定补录：cand-10696 Bernardo／Bernardino Castelli（2026-10-23）
 
 主对齐表原缺 cand-10696 的决定。沿用已记录的跨章人物复核：第17章 p.381 注3 将 Teodoro Correr 肖像归于“Bernardo Castelli”；Haskell 图版目录59b为同一肖像列“Bernardino Castelli”。Treccani《意大利人传记辞典》Bernardino Castelli 条目记录其 Teodoro Correr 肖像，并提及1795年 Giaconi 版画（https://www.treccani.it/enciclopedia/bernardino-castelli_(Dizionario-Biografico)/，2026-10-23核读）。身份特征与对象语境一致，主决定为 same → units/persons/bernardino-castelli；保留来源拼写差异，不把身份决定当作对绘画归属的独立验证，也不据此裁决对应 S6 关系。既有 Treccani 外部来源行保留，并更新实际核读日期；S2 statement与mention未改。
+
+
+<a id="s3-main-decision-cand7603-ledger-20261023"></a>
+### S3主决定台账补齐：cand-7603 R. Longhi（2026-10-23）
+
+- 对照 aln-12726 与既有来源专属行 `aln-7779`：后者已记录 `same → units/persons/roberto-longhi` 及 Fondazione Roberto Longhi 档案目录证据，但缺少 `external_source` 为空的主决定行。新增主决定行复用原裁决和过程记录，不改变身份判断。
+- 证据与边界沿用上方 `s3-person-longhi-1956-article-reuse-20261019`：Haskell 第8章与第21章书目项对应同一篇1956年文章，基金会目录支持首字母扩写；未独立阅读文章。未修改S2、S4、S5或S6。
