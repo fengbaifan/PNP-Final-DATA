@@ -45,6 +45,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [威尼斯国家档案馆 Inquisitori di Stato 案卷540 Annotazioni第164页（1792年5月30日）（Archivio di Stato, Venice, Inquisitori di Stato, Busta 540, Annotazioni, p. 164 (30 May 1792)）](../archives/inquisitori-di-stato-busta-540-annotazioni-p164-1792-05-30.md) | S2 pronoun endpoint corrected to the existing Urbani KU; records only the archival mention reported by Haskell.；角色：Person referred to by the record mention；范围：Haskell says Urbani de Ghelthof's papers and manuscripts are mentioned in this archive record; “His” refers to Urbani in the preceding sentence. This records Haskell's report only. The original record was not consulted; authorship, ownership, custody, or broader archival subject matter is not inferred. / Haskell第16章p.377注3称该档案记录提及Urbani de Ghelthof的文件与手稿；“His”回指前句的Urbani。仅记录哈斯克尔的转述，原件未查阅；不推定作者、所有权、保管状态或更广泛的档案主题。；原断言与证据见发出端卡片“威尼斯国家档案馆 Inquisitori di Stato 案卷540 Annotazioni第164页（1792年5月30日）（Archivio di Stato, Venice, Inquisitori di Stato, Busta 540, Annotazioni, p. 164 (30 May 1792)）”：[来源](../../../02-sources/01-book/CHP-16.pdf)；haskell-1980-rev-ed；st-chp16-p377-note3-state-archive-locator; print p. 377, note 3, line 64; PDF physical p. 5 |
+
 
 `st-chp16-p377-note3-ghelthof-provenance-claim`和`st-chp16-p377-note3-ghelthof-reliability-caution`两条S2关系候选保留待S6审查；本批未新增正式关系，也不对Haskell的可靠性评价另作裁决。

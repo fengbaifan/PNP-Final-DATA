@@ -32,8 +32,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 内容 | 依据 |
 |---|---|---|
-| 来源所记题名 | A pair of Triumphal Mausoleums | S2：第10章注1，印刷页289；PDF物理页18 |
-| 来源所报归属形式 | Petoni（Haskell转述Sir Anthony Blunt指出的目录写法；未与Paltronieri或Pittoni合并） | S2：第10章注1，印刷页289；PDF物理页18；原目录未独立查阅 |
+| 来源所记题名 | A pair of Triumphal Mausoleums | S1：第10章注1，印刷页289；PDF物理页18 |
+| 来源所报归属形式 | Petoni（Haskell转述Sir Anthony Blunt指出的目录写法；未与Paltronieri或Pittoni合并） | S1：第10章注1，印刷页289；PDF物理页18；原目录未独立查阅 |
 
 ## 关系与证据
 

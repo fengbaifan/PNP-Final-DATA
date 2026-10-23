@@ -11531,3 +11531,24 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 `rel-1646`将拍卖条目`has_subject`该题名作品，只记录目录题名的二手转述；`rel-1647`、`rel-1648`将既有德文郡公爵纪念碑分别`contributed_by`至Marco、Sebastiano Ricci。正文的合作断言与表格艺术家列各自支持同一人物边，不复制关系；不写成唯一作者、指定执行者或现存版本。
 
 其余表格第1、3—6、8行未触及。第7行的人物端点已正确接回Ricci人物候选，但其作品及Shovel人物端点仍未定，因此三条相关关系pending。candidate-backlog不新增行：本批未发现S1之外的新对象。
+
+
+<a id="s4-s5-s6-ch15-p364-chp16-p377-inquisitori-record-20261023"></a>
+### 第15章 p.364 与第16章 p.377 的 Inquisitori di Stato 档案记录直接端点（2026-10-23）
+
+本批复核Haskell印刷页364注1和377注3（PDF物理页4、5）。两处指向Archivio di Stato, Venice的Inquisitori di Stato案卷540、Annotazioni第164页、1792年5月30日这一档案定位。档案原件未查阅；本批的卡片与关系均只记录Haskell的书内引述。
+
+**S2回指定向校正（不计入统一独立复核分子）。** 第16章p.377注3中“His papers and manuscripts”紧接在对Urbani de Ghelthof的所属收藏声称和其文献使用评价之后，“His”指cand-12253的Urbani de Ghelthof，不是第16章前页的Amadeo Swajer。已将mention m-chp16-p377-celotti-0048、statement st-chp16-p377-note3-state-archive-locator的subject及mentioned_candidate_ids改接cand-12253，并从Amadeo Swajer的alignment提及列移除该回指。保留原来OCR和S0文本，本次不算整页或整章独立复核。
+
+**S3与S4。** 未重开S3。cand-10462保留既有`new`决定与`archive-group-9913b39778b7`身份组，现已登记至[档案卡](../../../04-knowledge/units/archives/inquisitori-di-stato-busta-540-annotazioni-p164-1792-05-30.md)。cand-12253早前已为new并登记至`units/persons/urbani-de-ghelthof`；该人物KU复用现有对齐。
+
+**S5字段与来源索引校正。** 新档案卡登记6条Haskell原书来源字段`enr-16426`—`enr-16431`，覆盖档案机构、系列、案卷、内部题名、页码及日期。字段建立器的事前预览发现有四张卡片共10条已建字段使用`S2`但每卡仅有一条`sources`引文；已将这些字段单元格中的来源序号修正为`S1`，保留已有证据状态。预览后执行`build_field_facts.py --apply`：24条记录同步，新增6条、移除0条，其中14条仅更新occurrence_id，来源注册无变更；全表仍12,540条、1,634条unverified。
+
+**S6逐条裁决。** 两条关系候选均有明确出路：
+
+| statement_id | 决定 | 正式关系与范围 |
+|---|---|---|
+| `st-chp15-p364-note1-inquisitors-record` | formal | `rel-1649 cites`：哈斯克尔原书引用该特定档案定位；不表示阅读或核验档案原件。 |
+| `st-chp16-p377-note3-state-archive-locator` | formal | `rel-1650 has_subject`：仅记录Haskell称该档案记录提及Urbani的文件与手稿；“His”指Urbani。不推断原件的作者、所有权、保管状态或更广的档案主题。 |
+
+**检查与计数。** `audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；S4待登记映3244条new映射，S5为12,540/1,634，`relations.csv`为1,650条（formal 1,640）。`audit_relation_consistency.py`中broken target、invalid relation_type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。卡片全库预检通过，但在本批渲染前报出568个文件有关系投影差异；本批仅定向渲染档案、Haskell原书和Urbani人物三卡，写后三卡preview均无差异。字段提取器再预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。全库其他卡片投影差异未在本批重渲染。档案原件与被引目录未独立查阅，本批不构成S2独立复核或外部核验。

@@ -32,10 +32,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 拍卖会 | Sir Robert Bernard’s sale at Christie’s | S2：第10章注1，印刷页289；PDF物理页18 |
-| 拍卖日期 | 9 May 1789（1789年5月9日） | S2：第10章注1，印刷页289；PDF物理页18 |
-| 拍品号 | 68 | S2：第10章注1，印刷页289；PDF物理页18 |
-| 目录描述（Haskell经Blunt转述） | Petoni—A pair of Triumphal Mausoleums；未独立查阅拍卖目录 | S2：第10章注1，印刷页289；PDF物理页18 |
+| 拍卖会 | Sir Robert Bernard’s sale at Christie’s | S1：第10章注1，印刷页289；PDF物理页18 |
+| 拍卖日期 | 9 May 1789（1789年5月9日） | S1：第10章注1，印刷页289；PDF物理页18 |
+| 拍品号 | 68 | S1：第10章注1，印刷页289；PDF物理页18 |
+| 目录描述（Haskell经Blunt转述） | Petoni—A pair of Triumphal Mausoleums；未独立查阅拍卖目录 | S1：第10章注1，印刷页289；PDF物理页18 |
 
 ## 关系与证据
 

@@ -32,7 +32,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 字段 | 内容 | 依据 |
 |---|---|---|
-| 来源所列题名 | Funeral of Phocion；中文《福基翁之葬》为描述性暂译，不声称是中文正式题名。 | S2：第4章，印刷页114，脚注2，L292；PDF物理页25。 |
+| 来源所列题名 | Funeral of Phocion；中文《福基翁之葬》为描述性暂译，不声称是中文正式题名。 | S1：第4章，印刷页114，脚注2，L292；PDF物理页25。 |
 
 ## 关系与证据
 
