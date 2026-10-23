@@ -12350,3 +12350,35 @@ Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Be
 #### 核验与批后状态
 
 仅定向渲染本卡1张；渲染前预览显示2条正式关系，渲染后复预览无差异。`audit_tables.py --strict-stage --summary`：`kus=2696`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3164`、`relations=1771`（1,758 formal、13 pending）、`enrichment_rows=12826`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。关系一致性检查：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。本批未修改S2 statement/mention及S3决定；统一S2独立复核仍为9,617/15,291（62.9%，未接收）。未访问外部来源。
+
+<a id="s4-s5-s6-chp4-p118-coral-endpoints-20261024"></a>
+### S3沿用／S4登记／S5补足／S6裁决：第4章 p.118 Claude 海岸画与 Origin of Coral 端点（2026-10-24）
+
+#### S3裁决与跨章身份
+
+沿用既有 S3 主决定，不改任何主决定值。`cand-5992` 保留 `new`，身份组 `workgrp-1ea5c515b97047` 登记为单件作品《A Coast View with Perseus and the Origin of Coral》；`cand-11673` 保留 `new`，身份组 `sg3-term-cand-11673` 登记为主题词 Origin of Coral。Haskell p.118 将 Origin of Coral 说成该画的 subject。没有把“Origin of Coral”与作品本身合并，也没有给单件画分配两幅画中的具体年份、材料或现藏地点。
+
+#### S4与S5
+
+将 `cand-5992` 映射至 `units/works/claude-coast-view-perseus-origin-coral`（`aln-6173`），将 `cand-11673` 映射至 `units/terms/origin-of-coral`（`aln-11836`），更新 manifest、accepted 清单和两张双语知识元卡。新增两条由 Haskell p.118 支持的 S5 字段：`enr-16714` 作品类型为绘画，`enr-16715` 主题词定义与范围为珊瑚起源题材；无新增来源注册项。现有 Claude 卡同步渲染本批正式关系投影。
+
+#### S6逐项裁决
+
+| statement_id | 决定与理由 |
+|---|---|
+| `st-chp4-sec-ii-p118-claude-two-paintings` | pending：两件画作的集合端点尚未解决，保留在 S6 候选记录；不以集合描述替代单件作品身份。 |
+| `st-chp4-sec-ii-p118-claude-pair-patron` | pending：集合端点尚未解决；不将对两幅画的合述关系分派给某一单件作品。 |
+| `st-chp4-sec-ii-p118-claude-pair-delphi-member` | pending：集合端点尚未解决；不把 Delphi 作品组和海岸画认作同一对象。 |
+| `st-chp4-sec-ii-p118-claude-pair-coast-view-member` | pending：集合端点尚未解决；保留组内单件身份待证。 |
+| `st-chp4-sec-ii-p118note-fn5-locations` | pending：脚注只说两幅画今藏两个地点，未逐件配对；不建立两条单件 `located_at` 边。 |
+| `st-chp4-sec-ii-p118-coast-view-title` | formal `rel-1772 created_by`：来源将该作品归于 Claude；关系语境限定为 Haskell 的书内归属。 |
+| `st-chp4-sec-ii-p118-coast-view-origin-subject` | formal `rel-1773 has_subject`：来源明确将 Origin of Coral 作为该画题材。 |
+| `st-chp4-sec-ii-p118-poussin-drawing-depicts-coast-view` | pending：Massimi 所有的 Poussin drawing 是同题材作品，不是这件 Claude 画；drawing 身份与可用端点尚未解决。 |
+| `st-chp4-sec-ii-p118note-fn5-cortona-origin-subject` | pending：Cassiano 时期 Cortona 作品的身份及其与主题词的关系仍未充分锚定。 |
+| `st-chp4-sec-ii-p118note-fn5-cortona-origin` | pending：Cassiano 曾拥有的 Cortona 作品尚无已登记作品端点；不把所有权说明并入 Claude 作品。 |
+
+上述 10 条候选本批均有去向（2 formal、8 pending）；没有把待证身份改判为冲突，也没有新增 S2 statement 或 mention。S2 统一独立复核分子与 S3 主决定保持不变。
+
+#### 卡片与批后核验
+
+三张受影响卡片（海岸画、Origin of Coral、Claude Lorrain）均已定向渲染；逐卡复预览均无待写差异。`audit_tables.py --strict-stage --summary`：`kus=2698`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3162`、`relations=1773`（1,760 formal、13 pending）、`enrichment_rows=12828`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。审计通过只证明本批表结构与关系约束，不构成全书 S2 接收或 S3–S6 收口。
