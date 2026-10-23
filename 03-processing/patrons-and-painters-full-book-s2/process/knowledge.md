@@ -11355,3 +11355,20 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 **S6逐候选裁决。** `st-chp8-p239-note5-inventory-description` 的端点现为已登记 archive KU 和既有 institution KU。原文谓词 `held_at` 不在受控词表；以域值域兼容的 `located_at` 建立 formal `rel-1618`，角色记为 Haskell 所报告的保管机构，时间留空，scope 明确不主张清单年代期间的保管、所有权或机构沿革。`st-chp8-p239-note5-spf-mark` 不构成受控的 KU 间关系，`relation_candidate` 改为 `false`；该处理保留原断言及 S5 标记字段，不是否定来源事实。
 
 **S2边界。** 本批没有增加 statement 或 mention，也不将 p.239 的40条逐条核读并入统一 S2 独立复核分子。p.239 relation candidates 由18 true／22 false调整为17 true／23 false；净关系候选减少1条，新增1条 formal 关系。
+
+
+<a id="s3-s4-s5-s6-ch8-p240-exhibition-venues-and-citations-20261023"></a>
+
+### 第八章 p.240 跨章身份、S4端点与S6引用（2026-10-23）
+
+**S2复核。** 对照扫描页46复核印刷页240正文L351–359、L452及注1–5（L453–456）。新增两条独立断言，修订Gabbiani作品端点、肖像空间端点和展览级统计字段；扫描校读为L355 `confmed`→`confined`、`instrumentof`→`instrument of`，L453 `p. l6l`→`p. 161`，L456 `I’Anno`→`l’Anno`。S0来源未改写。完整40条逐条复核见[s2-independent-review-chp8-p240-20261023.md](s2-independent-review-chp8-p240-20261023.md)。
+
+**S3跨章裁决。** `cand-11046`沿用`sg3-event-florentine-art-exhibition-1706`登记为单一1706年佛罗伦萨展览；`cand-7977`由p240正文锚点复用该KU。事件与1705年活动及后续展览保持区分。`cand-3564`和`cand-8066`统一为source-local St Luke人物组，依据第1章节日、第3章福音书及第8章节日／奉献语境；不补写传记。`cand-8065`广场、`cand-8067`礼拜堂、`cand-8068`回廊是不同地点；`cand-8069`展览目录、`cand-7871`Hugford著作、`cand-7894`Fogolari文章、`cand-7929`第12号信定位分别建组。`cand-1095`明确为Gabbiani名下Flight into Egypt作品候选。`cand-8072`的约250幅仅为事件计数，不构成独立work KU，S3裁为`excluded`并保留事件字段。`cand-8071`肖像仍`undecided`：仅知坐者与陈列位置，尚不能排除与其他同坐者肖像为同一对象。
+
+本批未覆盖p.240全页S3。仍为`undecided`的候选按类型为：person `cand-8059/8073/8074`；place `cand-8062/8064`；work `cand-8060/8061/8063/8070/8071/8075/8076/8077/8082–8093`；event `cand-8079`；term `cand-8095/8102/8103`。`cand-8078`（family）和`cand-8104`（term）已有`new`决定，仍待S4。p.240的S2提及和身份边界需在后续按候选类型及直接关系端点逐批收口。
+
+**S4登记。** 本批新增10个KU组：事件、人物St Luke、Piazza del Duomo、圣路加礼拜堂、SS Annunziata回廊、1706印刷目录、Hugford 1762著作、Fogolari 1937文章、Fogolari Letter 12 locator、Gabbiani《逃往埃及》。event/place/archive/work等类型分别登记，均限于书内身份；未声称外部核验或阅读被引文献。候选到KU映射见`alignment.csv`，有效卡片见`ku-manifest.csv`与`accepted.yml`。
+
+**S5字段。** 新卡字段均为`source_backed`，分别记录展览日期和约250幅规模、礼拜堂／回廊空间称谓、目录题名与出版项、书目信息及信件编号日期、作品称谓与书内展示地点。负面展品来源、日期缺项、目录拼写和未展开身份均保留原有限定。
+
+**S6裁决。** 新增8条formal关系：event `has_participant` Ferdinand；event `occurred_at` 礼拜堂与回廊；Flight into Egypt `located_at` Piazza del Duomo；Haskell书籍分别`cites` Fogolari文章、Hugford著作、Letter 12与展览目录。Letter 120沿用既有`rel-1525`，未重复建边。目录“用于重建活动”的陈述不另建无受控类型边；chapel→St Luke因`dedicated_to`域值域不允许place→person，不创建正式边。全页27条`relation_candidate=true`中，`relations.csv`现有formal行覆盖12条（本批新增8条，既有4条沿用）；另15条目前没有formal/pending表行，需先核对已有过程裁决，再逐项补齐S6去向。

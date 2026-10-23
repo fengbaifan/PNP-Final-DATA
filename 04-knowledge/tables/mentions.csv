@@ -27377,3 +27377,21 @@ m-chp8-p239-note3-zanotti-work,chp-8:08_CHP-8_sec_ii:l372-461,cand-7115,"Zanotti
 m-chp8-p239-note5-inventory,chp-8:08_CHP-8_sec_ii:l372-461,cand-8054,"Inventario di Quadri, che si ritrovano negl'appartamenti del gran palazzo de Pitti di S.A.R.",12816,12908,Title span for the Pitti-apartment inventory; the 1716 label is separately qualified as convenient.
 m-chp8-p239-note5-custodian,chp-8:08_CHP-8_sec_ii:l372-461,cand-8053,Soprintendenza alle Gallerie di Firenze,12922,12961,Institution named by Haskell as keeper; S4 waits for comparison with the existing Soprintendenza KU.
 m-chp8-p239-note5-spf,chp-8:08_CHP-8_sec_ii:l372-461,cand-8057,S.P.F.,13135,13141,Exact inventory mark; its expansion and S3 identity remain unresolved.
+m-chp8-p240-event-1706,chp-8:08_CHP-8_sec_ii:l350-359,cand-7977,something far grander,2132,2153,Anaphoric reference to the larger exhibition dated in this paragraph to 1706; linked to the cross-chapter event candidate.
+m-chp8-p240-flight-title,chp-8:08_CHP-8_sec_ii:l350-359,cand-1095,Flight into Egypt,1668,1685,Named work in Haskell's report of public display.
+m-chp8-p240-gabbiani-person,chp-8:08_CHP-8_sec_ii:l350-359,cand-1093,Gabbiani,1652,1660,Artist named in connection with the Flight into Egypt; S3 maps to the existing person KU.
+m-chp8-p240-piazza,chp-8:08_CHP-8_sec_ii:l350-359,cand-8065,Piazza del Duomo,1722,1738,Explicit public-display place named by Haskell.
+m-chp8-p240-saint-luke-day,chp-8:08_CHP-8_sec_ii:l350-359,cand-8066,St Luke’s day,2482,2495,Feast-day name for the same St Luke referenced in chapters 1 and 3.
+m-chp8-p240-chapel,chp-8:08_CHP-8_sec_ii:l350-359,cand-8067,chapel dedicated to that saint,2516,2546,Specific internal chapel; kept distinct from the surrounding cloister.
+m-chp8-p240-saint-luke-dedication,chp-8:08_CHP-8_sec_ii:l350-359,cand-8066,that saint,2536,2546,Anaphoric dedication reference to St Luke's day in the preceding sentence.
+m-chp8-p240-cloisters,chp-8:08_CHP-8_sec_ii:l350-359,cand-8068,cloisters of the Annunziata,2554,2581,Distinct parent architectural space named separately from the chapel.
+m-chp8-p240-note1-fogolari,chp-8:08_CHP-8_sec_ii:l372-461,cand-7894,"Fogolari, 1937",13578,13592,Cited article; the p.161 locator is recorded in the same footnote.
+m-chp8-p240-note2-hugford,chp-8:08_CHP-8_sec_ii:l372-461,cand-7871,Hugford,13663,13670,Cited book and page 10 locator.
+m-chp8-p240-note3-letter12,chp-8:08_CHP-8_sec_ii:l372-461,cand-7929,Letter 12,13697,13706,Specific letter locator and date in Haskell's citation.
+m-chp8-p240-note5-catalogue,chp-8:08_CHP-8_sec_ii:l372-461,cand-8069,Nota de’ Quadri,13790,13805,Printed catalogue title named in footnote 5.
+m-chp8-p240-note5-saint-luke,chp-8:08_CHP-8_sec_ii:l372-461,cand-8066,S. Luca,13839,13846,Italian feast-day name within the catalogue title.
+m-chp8-p240-note5-cloister,chp-8:08_CHP-8_sec_ii:l372-461,cand-8068,Chiostro del Monastero de' Padri della SS. Nonziata di Firenze,13906,13968,Catalogue title's wording for the cloister; scan spelling retained.
+m-chp8-p240-note5-firenze-title,chp-8:08_CHP-8_sec_ii:l372-461,cand-1041,di Firenze,13958,13968,Place wording at the end of the catalogue title.
+m-chp8-p240-note5-firenze-imprint,chp-8:08_CHP-8_sec_ii:l372-461,cand-1041,In Firenze,13982,13992,Place wording in the imprint following the catalogue title.
+m-chp8-p240-picture-count,chp-8:08_CHP-8_sec_ii:l372-461,cand-8072,250 pictures,13142,13154,Aggregate exhibition count; retained as an S1 mention anchor and excluded from KU identity because it is not an independently identifiable work.
+m-chp8-p240-portrait,chp-8:08_CHP-8_sec_ii:l372-461,cand-8071,a portrait of the Grand Prince,13545,13575,Source-defined portrait identified by sitter and display position only; identity remains unresolved.

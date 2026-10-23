@@ -66,6 +66,8 @@ units:
 - 04-knowledge/units/archives/ferdinand-letter-28-apr-1708-no-357.md
 - 04-knowledge/units/archives/ferdinando-bologna-francesco-solimena-1958.md
 - 04-knowledge/units/archives/ferri-ruffo-letter-1672.md
+- 04-knowledge/units/archives/fogolari-letter-12-1698-06-07.md
+- 04-knowledge/units/archives/fogolari-lettere-pittoriche-1937.md
 - 04-knowledge/units/archives/four-unpublished-letters-to-paolo-giordano-ii-relating-to-bernini.md
 - 04-knowledge/units/archives/fraschetti-il-bernini-1900.md
 - 04-knowledge/units/archives/friedlaender-caravaggio-studies-1955.md
@@ -93,6 +95,7 @@ units:
 - 04-knowledge/units/archives/hoogewerff-bescheiden-en-italie-1913.md
 - 04-knowledge/units/archives/i-bamboccianti-exhibition-catalogue-1950.md
 - 04-knowledge/units/archives/ignatius-xavier-canonization-centenary-1923.md
+- 04-knowledge/units/archives/ignazio-enrico-hugford-vita-gabbiani-1762.md
 - 04-knowledge/units/archives/il-filosofo-dell-alpi-ode.md
 - 04-knowledge/units/archives/il-gran-teatro-pitture-prospettive-venezia-1720.md
 - 04-knowledge/units/archives/jesuit-archives-ecclesia-s-ignatii-de-urbe-1255.md
@@ -140,6 +143,7 @@ units:
 - 04-knowledge/units/archives/museum-studies-art-institute-chicago.md
 - 04-knowledge/units/archives/naudaeana-et-patiniana-amsterdam-1703.md
 - 04-knowledge/units/archives/negri-san-tommaso-letter-1676.md
+- 04-knowledge/units/archives/nota-de-quadri-florence-1706.md
 - 04-knowledge/units/archives/nota-delli-musei-roma-1664-appendix.md
 - 04-knowledge/units/archives/novetti-ruffo-letter-1670.md
 - 04-knowledge/units/archives/osservatore-veneto-periodical.md
@@ -229,6 +233,7 @@ units:
 - 04-knowledge/units/events/first-operatic-performances-barberini-palace-1632.md
 - 04-knowledge/units/events/first-war-of-castro.md
 - 04-knowledge/units/events/flight-into-egypt-event-depicted-by-testa.md
+- 04-knowledge/units/events/florentine-art-exhibition-1706.md
 - 04-knowledge/units/events/giorgio-pisani-1780-election-and-entry.md
 - 04-knowledge/units/events/giorgio-pisani-1780-palace-entry-celebration.md
 - 04-knowledge/units/events/giulio-rospigliosi-accession-clement-ix-1667.md
@@ -1525,6 +1530,7 @@ units:
 - 04-knowledge/units/persons/romanelli.md
 - 04-knowledge/units/persons/rosalba-carriera.md
 - 04-knowledge/units/persons/rudolf-wittkower.md
+- 04-knowledge/units/persons/saint-luke.md
 - 04-knowledge/units/persons/saint-peter-the-apostle.md
 - 04-knowledge/units/persons/salvator-rosa.md
 - 04-knowledge/units/persons/samuel-hill.md
@@ -1624,6 +1630,7 @@ units:
 - 04-knowledge/units/institutions/scuola-di-san-rocco.md
 - 04-knowledge/units/places/alnwick-castle.md
 - 04-knowledge/units/places/alticchiero-querini-villa-estate.md
+- 04-knowledge/units/places/annunziata-chapel-of-saint-luke.md
 - 04-knowledge/units/places/antwerp.md
 - 04-knowledge/units/places/apse-of-gesu.md
 - 04-knowledge/units/places/augusta-sicily.md
@@ -1734,6 +1741,7 @@ units:
 - 04-knowledge/units/places/peru.md
 - 04-knowledge/units/places/perugia.md
 - 04-knowledge/units/places/piacenza.md
+- 04-knowledge/units/places/piazza-del-duomo-florence.md
 - 04-knowledge/units/places/piazza-di-spagna.md
 - 04-knowledge/units/places/piazza-di-trevi.md
 - 04-knowledge/units/places/piazza-navona.md
@@ -1783,6 +1791,7 @@ units:
 - 04-knowledge/units/places/sicily.md
 - 04-knowledge/units/places/side-chapels-of-gesu.md
 - 04-knowledge/units/places/spain.md
+- 04-knowledge/units/places/ss-annunziata-cloister-florence.md
 - 04-knowledge/units/places/st-asaph.md
 - 04-knowledge/units/places/st-johns-co-cathedral.md
 - 04-knowledge/units/places/st-peters-basilica.md
@@ -1916,6 +1925,7 @@ units:
 - 04-knowledge/units/terms/venetian-nobility-social-estate.md
 - 04-knowledge/units/terms/wisdom-personified-sacchi-divine-wisdom.md
 - 04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md
+- 04-knowledge/units/works/a-d-gabbiani-flight-into-egypt.md
 - 04-knowledge/units/works/a-storm-at-sea-claude-orsini.md
 - 04-knowledge/units/works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md
 - 04-knowledge/units/works/albani-servi-altarpiece-1639.md
