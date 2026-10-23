@@ -13615,3 +13615,6 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 对照本地Haskell第9章p.251页图，补入3条当前statement所需mention锚点，区间见知识过程的批次记录。保留S0的OCR原文Le Crazie；图像校读Le Grazie仅写入statement级ocr_corrections及相应字段证据。
 
 新增一条Haskell书目归属statement st-chp9-p251-le-grazie-authored-by-florio。该statement未独立逐条复核，不计入统一S2复核分子；全书statement分母由15,286增至15,287，统一复核保持9,617条。此定向端点补充不构成章节或全书接收。
+### 2026-10-24：第14章 p.355 三幅作品作者归属的 S2 定向补充
+
+对照 Haskell 第14章印刷 p.355、PDF physical p.9及注2，新增3条单件作品的 created_by statement：st-chp14-p355-caesar-created-by-piazzetta、st-chp14-p355-mucius-created-by-piazzetta、st-chp14-p355-darius-created-by-piazzetta。依据正文对受委托画及“两幅后续画”的归属和注2题名对应；不把注中并列的两个地点分配给具体作品。三条是 S2 定向端点修订，未独立复核，不计入统一复核分子；statement 分母由15,287增至15,290，复核分子维持9,617。

@@ -12221,3 +12221,25 @@ S. Vitale 地点卡新增一条 `source_backed` S5 字段“地点性质：早�
 S4/S5表审计：kus=2687、candidates=12416、alignment_new_pending_registration=3172、relations=1755（formal 1742）、enrichment_rows=12789（unverified 1634）、book_statements=15287、mentions=26759、s2_missing=[]、errors=[]。candidate-backlog.csv为25条，pending=0。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。build_field_facts.py预览record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。
 
 六张关联卡完成定向渲染：preflight cards=6、tables=10、rows=46、projected_relation_rows=4、cards_with_relation_changes=3、files_to_write=6；写后字节核验通过，六张卡复预览均无差异。上述机械审计和投影检查不构成S2独立接收或S3–S6全书收口。
+<a id="s3-s4-s5-s6-chp14-p355-algarotti-commission-20261024"></a>
+### S3/S4/S5/S6：第14章 p.355 Algarotti 委托与 Piazzetta 三幅画（2026-10-24）
+
+#### 来源与身份分组
+
+对照 Haskell 第14章印刷 p.355、PDF physical p.9；索引只用于题名定位，页图用于核实正文与注2。正文称委托来自 Francesco Algarotti，所绘题材为《凯撒与基利西亚海盗》（为奥古斯都而作）；同页称另有两幅同类画。注2列出《祭坛前的穆基乌斯·斯凯沃拉》和《大流士之死》，并转述 Pallucchini (1956, p.41) 说两幅均绘于 Algarotti 委托之后不久。该页未给委托日期、具体作品版本或两个并列地点与作品的逐一配对；未独立查阅 Pallucchini。
+
+- cand-10327 沿用 S3 new 组并登记委托 event KU units/events/algarotti-commission-piazzetta-caesar-corsairs。
+- cand-10307、cand-10308、cand-10309 沿用各自 S3 new 组并分别登记三张 work KU，映射为 units/works/piazzetta-caesar-corsairs-cilicia-for-augustus、units/works/piazzetta-mucius-scaevola-at-altar、units/works/piazzetta-death-of-darius。未发现可准确复用的同类型既有 KU。
+- 登记三件作品后重开集合描述候选 cand-12201：由 undecided 改判 excluded，理由为原文集合由三个不同画作组成，并非单件作品或有独立题名证据的系列。完整集合断言仍保留在 S2；不建集合 KU。若后续证据识别出具有稳定边界的系列或项目，再重开。
+
+#### S2 定向修订与 S5 字段
+
+新增三条单件作品 created_by statement，均指向 Piazzetta，来源范围限于 Haskell 的书内归属，不表示外部目录核实。新增18条 Haskell p.355 来源字段；未验证字段总数仍为1,634。三条 S2 statement 未独立复核，统一复核分子不变。
+
+#### S6 逐候选去向
+
+8条关系候选均有可追溯去向：7条 formal（rel-1756–rel-1762），1条 rejected。正式边分别记录 Algarotti 为委托参与者、event 所涉作品、三幅作品的书内 Piazzetta 作者归属，以及两幅后续画与委托事件的相对先后；不补造日期或地点。集合描述候选 st-chp14-p355-piazzetta-classical-works 不生成集合关系边，因其指向的候选是被排除的集合 KU，完整三画范围由原 S2 断言表达，故 rejected。
+
+#### 检查与批后状态
+
+六张受影响卡（四张新 KU、Algarotti、Piazzetta）完成预览和定向渲染；关系投影保留来源、角色与范围。严格表审计 errors=[]、s2_missing=[]；关系一致性检查的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。字段预览无新增或删除。机械检查不构成 S2 独立接收，也不代表 S3–S6 全书收口。
