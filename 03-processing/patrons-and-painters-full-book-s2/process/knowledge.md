@@ -12243,3 +12243,28 @@ S4/S5表审计：kus=2687、candidates=12416、alignment_new_pending_registratio
 #### 检查与批后状态
 
 六张受影响卡（四张新 KU、Algarotti、Piazzetta）完成预览和定向渲染；关系投影保留来源、角色与范围。严格表审计 errors=[]、s2_missing=[]；关系一致性检查的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。字段预览无新增或删除。机械检查不构成 S2 独立接收，也不代表 S3–S6 全书收口。
+
+<a id="s3-s4-s5-s6-ch15-p369-voyages-archive-20261024"></a>
+### S3/S4/S5/S6：第15章 p.369《Voyages》档案端点（2026-10-24）
+
+#### S3身份复核与S4登记
+
+候选 `cand-10528` 属于既有 `archive-group-1f1f285a9ee5`，S3主决定为 `new`。按 Haskell 第15章印刷 p.369 注1、PDF physical p.9 的题名、出版地/年份和卷次，登记为 `units/archives/voyages-en-differens-pays-europe-1774-1776-vol-1-1777`；对象范围仅为所引的1777年海牙第一卷，不声称已经查阅所引版本或第211页。无本地重复卡。
+
+同页作者候选 `cand-10527` 保留 `undecided`。访问于2026-10-24的 [CiNii Books，NCID BA26695615](https://ci.nii.ac.jp/ncid/BA26695615) 记录1777年海牙两卷本，并注明作者归属为 Pilati de Tassulo（参 Barbier）；[e-rara，titleinfo 27652945](https://www.e-rara.ch/kbg/content/titleinfo/27652945) 则是相关的1778年瑞士第一卷，元数据以方括号列 Carlo Antonio Pilati。后者不是 Haskell 引用的1777年海牙版，前者是归属注记而非该版题名页的确定署名；现有材料不足以把匿名作者与 Carlo Antonio Pilati 合并。仅在发现该1777版题名页或权威书目明确确立责任者后重开S3。
+
+#### S5字段
+
+新卡增加4条字段：Haskell书内题名/出版信息/引文页、CiNii 1777书目记录、e-rara相关1778版本的责任者记录，以及当前作者身份状态；新登记两条外部来源记录。四条均按来源和限定保留，不将作者归属注记写成确定作者事实，也不把书目字段解释为已读引文页。
+
+#### S6逐项裁决
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp15-p369-note1-cites-voyages-1777` | formal `rel-1763 cites`：Haskell 对第15章 p.369 注1所列第一卷第211页的书目引注；不表示已核阅该版本或确认所传闻的1764年作者归属。 |
+| `st-chp15-p369-note1-voyages-authored-anonymously` | pending：书内称作者匿名，外部记录对1777版及相关1778版提供不同强度的归属信息；需版次对应的责任者证据后再判断。因作者 KU 未确认，不建关系行。 |
+| `st-chp15-p369-note1-anonymous-voyages-rumour-source` | rejected 作为独立正式边：此候选只是“匿名作者报告该传闻”的限定性归因，不构成独立的受控实体关系；传闻属性仍保留于S2断言和档案卡说明。 |
+
+#### 检查与批后状态
+
+本批未改S2 statement/mention，S2独立复核分子不变。字段写入前预览为4条新记录、2条source registry新增、warnings=0；写入后复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。新卡单卡定向渲染预检为 `cards=1 tables=1 rows=4 projected_relation_rows=1 files_to_write=1`；写后字节核验通过，再预览无差异。批后 `audit_tables.py --strict-stage --summary`：`kus=2692`、`candidates=12416`、`alignments=12749`、`alignment_new_pending_registration=3167`、`relations=1763`（1750 formal）、`enrichment_rows=12811`（1634 unverified）、`sources=1772`、`book_statements=15290`、`mentions=26759`、`s2_missing=[]`、`errors=[]`；保留的warning为3,167条new映射仍待S4及S2语义质量尚需检查。`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`build_field_facts.py`复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；新卡定向复预览无待写差异。上述机械通过不构成S2独立语义接收或S3–S6全书收口。
