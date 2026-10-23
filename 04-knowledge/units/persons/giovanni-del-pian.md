@@ -1,4 +1,4 @@
-﻿---
+---
 title: 乔瓦尼·德尔·皮安（Giovanni del Pian）
 name_en: Giovanni del Pian
 type: person
@@ -58,8 +58,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [德尔·皮安《圣乌尔苏拉生平》九幅大版画（Nine large prints by Giovanni del Pian of Carpaccio’s Life of St Ursula scenes）](../works/del-pian-nine-large-prints-life-of-st-ursula.md) | 角色：版画作者（Haskell所述）；范围：仅记录Haskell将Giovanni del Pian与九幅版画系列相联系的作者归属；不分别指认各版画或补入创作年份。；原断言与证据见发出端卡片“德尔·皮安《圣乌尔苏拉生平》九幅大版画（Nine large prints by Giovanni del Pian of Carpaccio’s Life of St Ursula scenes）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；st-chp16-p376-del-pian-maker-of-print-series; printed p.376, L44; PDF physical p.4 |
 
-**中文：** 直接S2候选（待S6）：st-chp16-p376-del-pian-maker-of-print-series。
-
-**English:** Direct S2 relation candidates pending individual review in S6: st-chp16-p376-del-pian-maker-of-print-series.
+本书第16章 p.376 将Giovanni del Pian列为九幅大版画系列的作者；适用范围限于该系列，不分别指认各幅版画。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 朱塞佩·托尼诺托神父（Padre Giuseppe Toninotto）
 name_en: Padre Giuseppe Toninotto
 type: person
@@ -68,4 +68,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本轮未写入正式关系。第16章 p.376 的八条 S2 关系候选继续保留待 S6，部分作品端点仍为 `undecided`；逐条状态和候选映射见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [德尔·皮安《圣乌尔苏拉生平》九幅大版画（Nine large prints by Giovanni del Pian of Carpaccio’s Life of St Ursula scenes）](../works/del-pian-nine-large-prints-life-of-st-ursula.md) | 时间：1785；角色：出版责任者（Haskell所述）；范围：仅指Haskell所述对该九幅大版画系列的出版责任；不据此推定印刷者、出版机构、创作者或出资者。；原断言与证据见发出端卡片“德尔·皮安《圣乌尔苏拉生平》九幅大版画（Nine large prints by Giovanni del Pian of Carpaccio’s Life of St Ursula scenes）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；st-chp16-p376-toninotto-del-pian-prints-after-carpaccio; printed p.376, L44; PDF physical p.4 |

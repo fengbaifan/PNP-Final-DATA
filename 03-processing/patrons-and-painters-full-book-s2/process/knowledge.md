@@ -11642,3 +11642,17 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 **定向组完整性队列。** 按末个可解析组值将成员连接至主行后，有三个标签对应多个KU：`new-person:bellotto-bernardo-3bfd904005`同时包含person与work候选；`new-person:antonio-bellucci-f1e7b7cdb6`同时包含person与work候选；`new-person:andrea-del-rosso-670cf89453`包含两个不同person KU。前两组须审查类型边界与组标签是否沿用了历史值，第三组须审查是否为两个人物身份；本记录不预判合并或拆分。53条无组标记及33条多标记行仍须对照各自过程引用逐项核对。
 
 **结论与交接。** 22项跨来源决定差异已完成范围解释；`cand-2328`外部证据继续待证。候选级主决定覆盖仍为12,415/12,415。new组总数与上述异常组未核平前，S3的稳定身份组数量、S4组分母及KU组一一对应关系不作收口声明；下一批按关系端点优先逐类型审理时，遇到相关候选须先复核其组标记和KU目标。当前结果与队列见[阶段状态和后续规划](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+
+<a id="s3-s4-s5-s6-chp16-p376-del-pian-prints-20261023"></a>
+### S2定向原子化／沿用S3组／S4-S5-S6：第16章 p.376 德尔·皮安版画与卡尔帕乔场景组（2026-10-23）
+
+**S2定向修订。** p.376 L44称九幅大版画取材于“Carpaccio’s famous scenes of the Life of St Ursula”。原句明确把场景归于Carpaccio；为使该作者归属有独立的S2断言和S6去向，新增`st-chp16-p376-carpaccio-scenes-attribution`（work `cand-10635` → person `cand-0566`），复用该行已有的两个mention，不重复造mention。此为定向原子化，不并入统一独立复核分子；Haskell的归属表述也不等于外部核实。
+
+**S3与S4。** 未更改S3主决定。沿用`cand-10635`的new组`workgrp-10707a7a2edcb2`及`cand-10636`的new组`workgrp-d364f5c863a4ca`，分别登记Carpaccio场景组`units/works/carpaccio-life-of-st-ursula-scenes`和del Pian九幅大版画系列`units/works/del-pian-nine-large-prints-life-of-st-ursula`；更新两条主alignment映射并收入accepted集合。两对象不合并；不把九幅版画当作九个已识别的单件作品。并修正`cand-10636`主行中的S3理由：1785是Haskell所报Toninotto负责出版的年份，不用作版画创作年份；new决定和原身份组不变。
+
+**S5。** 从两张作品卡的结构表抽取六条`origin=book`、`source_backed`字段`enr-16443`–`enr-16448`，保留来源ID`haskell-1980-rev-ed`、S1页行定位、表格行和occurrence ID。字段仅记录场景组范围／题材／归属措辞，以及版画系列类别／数量／Haskell所报的1785出版年份。未将1785解释为创作年份；场景媒介未在此句说明。未改写书级sources登记行，避免以卡片局部引文覆盖全书来源记录。
+
+**S6逐项裁决。** 四项均为formal并写入`relations.csv`：`rel-1658 contributed_by`（九幅版画系列→Toninotto，1785；role限定为Haskell所述出版责任，谓词不宣称印刷或出资）；`rel-1659 created_by`（版画系列→Giovanni del Pian，不补创作年份）；`rel-1660 has_subject`（版画系列→Carpaccio场景组，不建立单幅版画与单幅场景的一一映射）；`rel-1661 created_by`（场景组→Vittore Carpaccio，仅记录Haskell的归属表述）。S2 candidate、KU端点、受控类型、方向、语境和页行证据均在表及本记录中可追溯。
+
+**卡片与当前口径。** 定向渲染Carpaccio场景组、del Pian版画系列、Toninotto、Giovanni del Pian、Vittore Carpaccio五张卡；同时清除三张人物卡中过时的“关系尚未登记／候选待S6”文字。当前全书表计数为S2 15,268条（统一独立复核9,573/15,268，仍未接收；第16章局部记录206/211，不并入统一口径）；S3主决定不变；S4为1,821/5,059条new映射、3,238条待登记，已映射至1,599个不同KU ID，new组总数仍受既有缺失／多重group标签问题影响，不作收口声明；S5为12,561条字段、1,634条unverified；relation candidates为10,491条，S6为730/10,491（445 formal、213 pending、72 rejected），`relations.csv`为1,661条（1,651 formal、10 pending）。`audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic五项均为0。表审计仅报告尚待处理的3,238条S4 new映射和语义复核提醒。五张受影响卡片定向预检通过并完成渲染（files_written=5；渲染器已核验写后字节）；随后逐张复预览五张卡片均无差异。

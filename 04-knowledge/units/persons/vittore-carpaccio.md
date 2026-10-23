@@ -1,4 +1,4 @@
-﻿---
+---
 title: 维托雷·卡帕乔（Vittore Carpaccio）
 name_en: Vittore Carpaccio
 type: person
@@ -63,4 +63,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-未登记正式关系。`st-chp16-p376-toninotto-del-pian-prints-after-carpaccio` 与 `st-chp20-p410-della-lena-painter-appreciations` 均为直接 S2 关系候选，留待 S6 核对端点和关系类型；第16章 statement 将本候选列入 `mentioned_candidate_ids`，并未把它设为现有 subject/object。该身份登记不新增正式边，也不把 Della Lena 所引文献中的评价当作已独立核验的原件内容。
+本卡正式关系仅记录Haskell第16章 p.376 所述场景归属；第20章 p.410 对Della Lena艺术欣赏的概述仍按其自身语境处理，不据此推断额外作品关系。所引Della Lena文献未在本轮独立查阅。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [维托雷·卡帕乔《圣乌尔苏拉生平》场景组（Scenes from the Life of St Ursula by Vittore Carpaccio）](../works/carpaccio-life-of-st-ursula-scenes.md) | 角色：来源所述作者归属；范围：仅保存Haskell称其为“Carpaccio’s famous scenes”的归属表述；未独立核验，也不识别组内单幅场景。；原断言与证据见发出端卡片“维托雷·卡帕乔《圣乌尔苏拉生平》场景组（Scenes from the Life of St Ursula by Vittore Carpaccio）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；st-chp16-p376-carpaccio-scenes-attribution; printed p.376, L44; PDF physical p.4 |

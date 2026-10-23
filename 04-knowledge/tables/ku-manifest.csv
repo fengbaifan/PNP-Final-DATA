@@ -1,4 +1,4 @@
-﻿ku_id,type,canonical_name,name_en,source_task,card_path
+ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -2615,3 +2615,5 @@ units/places/trevi-fountain-rome,place,特雷维喷泉,Trevi Fountain,patrons-an
 units/archives/archivio-mediceo-filza-4123,archive,Archivio Mediceo，第4123号案卷,"Archivio Mediceo, Filza 4123",patrons-and-painters-full-book-s2,04-knowledge/units/archives/archivio-mediceo-filza-4123.md
 units/archives/letter-from-naples-to-francesco-panciatichi-1686-04-02,archive,那不勒斯致弗朗切斯科·潘恰蒂基的信（1686年4月2日）,"Letter from Naples to Francesco Panciatichi, 2 April 1686",patrons-and-painters-full-book-s2,04-knowledge/units/archives/letter-from-naples-to-francesco-panciatichi-1686-04-02.md
 units/archives/viceroy-letter-to-painter-giordani-mentioned-at-ch8-p212,archive,总督致画家 Giordani 的信（潘恰蒂基来信所提）,"Viceroy’s letter to painter Giordani, mentioned in the letter to Francesco Panciatichi",patrons-and-painters-full-book-s2,04-knowledge/units/archives/viceroy-letter-to-painter-giordani-mentioned-at-ch8-p212.md
+units/works/carpaccio-life-of-st-ursula-scenes,work,维托雷·卡帕乔《圣乌尔苏拉生平》场景组,Scenes from the Life of St Ursula by Vittore Carpaccio,patrons-and-painters-full-book-s2,04-knowledge/units/works/carpaccio-life-of-st-ursula-scenes.md
+units/works/del-pian-nine-large-prints-life-of-st-ursula,work,德尔·皮安《圣乌尔苏拉生平》九幅大版画,Nine large prints by Giovanni del Pian of Carpaccio’s Life of St Ursula scenes,patrons-and-painters-full-book-s2,04-knowledge/units/works/del-pian-nine-large-prints-life-of-st-ursula.md
