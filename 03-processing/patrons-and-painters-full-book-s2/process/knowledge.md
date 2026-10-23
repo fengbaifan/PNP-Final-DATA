@@ -12087,3 +12087,31 @@ build_field_facts.py 写入前预览：record_changes=0、new_ids=26、removed_i
 audit_tables.py --strict-stage --summary：kus=2669、candidates=12416、alignment_new_pending_registration=3194、candidate_backlog_rows=21（10 completed、11 undecided、pending=0）、relations=1731（1718 formal、13 pending）、enrichment_rows=12708（1634 unverified）、book_statements=15276、s2_missing=[]、errors=[]。阶段警告仍提示待登记 new 候选及需依过程记录审查 S2 语义质量。
 
 关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。7张本批卡片均已关系预览；定向渲染预检通过，写入5个受关系变更影响的卡片文件，写后字节核验通过，恢复快照已清理。本批5条正式关系的方向、目标和来源跨度可追溯。全库预检另报告570个卡片文件待更新，本批未扩展到该范围。S2 统一独立复核保持9,573/15,276；S3决定数不变。全书 S4/S5/S6仍未收口，下一批按剩余直接关系端点解锁数排序；S2继续按当前 statement ID 与来源版本推进。
+
+<a id="s3-s4-s6-chp7-p189-montaiglon-citations-20261024"></a>
+### S3局部重判／S4复用／S6：第七章 p.189 Montaiglon 引注（2026-10-24）
+
+#### S3 身份与S4映射
+
+`cand-7113` 原主决定为 `new`（组 `archive-group-e9dd53bad1a9`），本批因端点登记触发局部重判为 `same`，映射至已登记 `units/archives/montaiglon-academy-correspondence`。第21章书目将原题著录为18卷出版集；既有KU卡记录同一原题、18卷信息及卷III引用，既有候选 `cand-3605` 也指向该KU。第7章注3、注4的卷I页104、190是该系列的引用定位，不另建卷级KU。该身份判断只依据Haskell书内书目／引注和既有KU，不声称查阅被引卷或页面。主决定历史与改判理由保存在 `alignment.csv` 对应行。
+
+本批不新建KU，也不新增S5字段：已有KU已承担18卷系列身份和书目字段；卷次及页码作为关系语境保存。`cand-7113` 不再占用new直接端点队列。
+
+#### S6 逐条裁决
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp7-p189-n3-cite-montaiglon` | formal `rel-1748 cites`：Haskell《赞助人与画家》→Montaiglon 18卷系列；范围限第7章p.189注3卷I p.104。只记录引注，不主张已读被引页或其内容。 |
+| `st-chp7-p189-n4-cite-montaiglon` | formal `rel-1749 cites`：同一端点；范围限第7章p.189注4卷I p.190。与注3为不同书内定位，分别保留。 |
+
+两条关系的端点类型为archive→archive，符合受控 `cites` domain/range；证据为对应脚注原文与明确页码。`book-statements.jsonl` 中两条relation-candidate note已同步formal状态，避免保留“尚无S6边”的旧说明。
+
+#### 同页S2复核与修订
+
+另按第七章印刷p.189、PDF物理页27，对正文32条及脚注12条现有statement作逐条语义复核，共44条；逐条去向见[S2复核记录](s2-independent-review-chp7-p189-20261024.md)。页图核实两处OCR校读并写入statement级 `ocr_corrections`，保留S0与原摘录：L249 `Considered`→`considered`；L373脚注号 `6`→`5`。未新增／删除statement或mention；统一复核计数更新至9,617/15,283，第七章1,190/1,267；本页复核不构成S2接收。统一复核台账仍待按当前ID与来源版本核平。
+
+#### 验证与批后状态
+
+表格严格审计：`kus=2682`、`candidates=12416`、`alignment_new_pending_registration=3180`、`relations=1749`（formal 1736）、`enrichment_rows=12774`、`book_statements=15283`、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。`build_cards.py` 对两个受影响KU预览仅显示本批新增投影；已定向渲染两卡，写后字节核验通过，复预览无差异。
+
+批后S3主决定12,416/12,416：same=2,043（1,099个KU目标）、new=5,065、conflict=9、excluded=101、undecided=5,198；S4仍有3,180条new候选待登记，其中1,453个直接关系端点候选ID待映射。S6逐条决定847/10,506（521 formal、243 pending、83 rejected），余9,659条；关系表1,749条（1,736 formal、13 pending）。S5字段12,774条（1,634 unverified）。本批不代表S3–S6全书收口。
