@@ -11341,3 +11341,17 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 ### 第八章 p.239 No.357 信件、Zanotti 引注与关系候选处理（2026-10-23）
 
 本批 S2、S3、S4、S5、S6 判断和未决边界见[第八章 p.239 语义复核记录](s2-independent-review-chp8-p239-20261023.md)。S2共读40条statement，不并入统一复核分子；沿用 cand-8032 的 new 组登记 No.357信件 archive KU；补录3条 source_backed 字段；formal裁决2条直接关系候选。注5库存与保管机构另有跨章身份核对待办，未在本批注册或正式裁边。
+
+<a id="s3-s4-s5-s6-ch8-p239-inventory-custody-20261023"></a>
+
+### 第八章 p.239 皮蒂宫绘画清单端点与保管地点（2026-10-23）
+
+**触发与身份裁决。** S4登记准备触发对 `cand-8053` 的定点 S3复核。扫描页45（印刷页239）注5给出清单原文题名，并称其“kept at the Soprintendenza alle Gallerie di Firenze”；本书章前图片来源及既有机构卡亦记录位于佛罗伦萨的 `Soprintendenza alle Gallerie`。据同一机构名称与城市范围，`aln-8228` 改为 `same → units/institutions/soprintendenza-alle-gallerie-florence`。该决定限于哈斯克尔所指的佛罗伦萨机构身份，不主张机构在1716–1723年间已存在或连续，也不独立验证清单保管状态。
+
+`cand-8054` 沿用 `archive-group-1cacae0e1693` 的既有 S3 `new` 决定，登记为 `units/archives/pitti-palace-apartments-picture-inventory-1716-1723`。范围仅为 Haskell p.239 n.5 所述绘画清单；描述性英文名不是原始题名，原件及外部目录未查。`cand-8057` 有了本页明确的 S2 mention：Haskell 将 S.P.F. 作为 Ferdinand 自有收藏画作的标记，但未展开缩写。更新 `aln-8232` 的未决理由，保持 `undecided`，待证类型／身份不强分为术语或其他记号。
+
+**S5字段。** 新卡增加4条 `source_backed` 字段（`enr-16365`–`enr-16368`）：意大利语原题、Haskell所报1716–1723年代范围、其为方便使用的“1716 Inventory”称呼、以及 S.P.F. 标记仅适用于其所述 Ferdinand 自有收藏画作。所有字段均定位至第8章 p.239 n.5、源文件L451；不把年代范围压缩为1716年，不扩写 S.P.F.，也不推及所有皮蒂宫画作。
+
+**S6逐候选裁决。** `st-chp8-p239-note5-inventory-description` 的端点现为已登记 archive KU 和既有 institution KU。原文谓词 `held_at` 不在受控词表；以域值域兼容的 `located_at` 建立 formal `rel-1618`，角色记为 Haskell 所报告的保管机构，时间留空，scope 明确不主张清单年代期间的保管、所有权或机构沿革。`st-chp8-p239-note5-spf-mark` 不构成受控的 KU 间关系，`relation_candidate` 改为 `false`；该处理保留原断言及 S5 标记字段，不是否定来源事实。
+
+**S2边界。** 本批没有增加 statement 或 mention，也不将 p.239 的40条逐条核读并入统一 S2 独立复核分子。p.239 relation candidates 由18 true／22 false调整为17 true／23 false；净关系候选减少1条，新增1条 formal 关系。
