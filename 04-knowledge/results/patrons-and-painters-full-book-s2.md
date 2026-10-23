@@ -30,7 +30,7 @@ S3主决定覆盖修复：在复用既有S3/S4过程裁决与来源证据的基�
 
 S3主决定覆盖12,415/12,415个候选：same=2,039（指向1,096个既有KU）、new=5,059、conflict=9、excluded=101、undecided=5,207。new组数尚未核平：按字段边界解析`resolution_note`中的`group=`后，5,059条new行有53条无可解析标记、33条含多个标记；共识别4,797个不同标记值，按最后一个标记计4,785个，均不能直接等同稳定身份组。当前报表中的4,809组暂不作为已核实总数。S4已完成1,819/5,059条new候选映射，尚有3,240条待登记；这些映射指向1,597个不同KU ID，和既报1,596个已登记组的计数差异仍待核平。
 
-另有22个候选在主决定与外部来源行之间decision不同（共29条外部行）。22项主决定均为项目内`new`；其中28条外部`same`行与主决定指向同一KU，属于项目内新建身份组与外部身份确认两个不同范围的记录，不是身份冲突。`cand-2328`的外部行`aln-12663`仍为`undecided`，不改变其项目内`new`决定。S3未决候选按suggested_type分布及relation_candidate端点覆盖见下表；类型未定项单列。S5共12,555条字段，其中1,634条unverified。relation_candidate=true共10,490条；S6已裁决726/10,490条（441 formal、213 pending、72 rejected），尚余9,764条；relations.csv共1,657条（1,647 formal、10 pending）。340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有12条记录：10条completed、2条明确undecided，pending=0；这不代表340个缺端点对象均已解决。各阶段进度不能压成单一项目百分比。
+另有22个候选在主决定与外部来源行之间decision不同（共29条外部行）。22项主决定均为项目内`new`；其中28条外部`same`行与主决定指向同一KU，属于项目内新建身份组与外部身份确认两个不同范围的记录，不是身份冲突。`cand-2328`的外部行`aln-12663`仍为`undecided`，不改变其项目内`new`决定。组标记与跨来源核对依据见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-group-and-cross-source-audit-20261023)。S3未决候选按suggested_type分布及relation_candidate端点覆盖见下表；类型未定项单列。S5共12,555条字段，其中1,634条unverified。relation_candidate=true共10,490条；S6已裁决726/10,490条（441 formal、213 pending、72 rejected），尚余9,764条；relations.csv共1,657条（1,647 formal、10 pending）。340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有12条记录：10条completed、2条明确undecided，pending=0；这不代表340个缺端点对象均已解决。各阶段进度不能压成单一项目百分比。
 
 | 建议类型／边界队列 | S3 undecided候选 | 其中唯一关系端点候选 |
 |---|---:|---:|
