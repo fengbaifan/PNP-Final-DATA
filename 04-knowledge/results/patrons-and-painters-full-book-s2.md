@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第4章 p.100 图版17a 卡西亚诺讽刺像端点批次（2026-10-24）：** 沿用 `cand-5655` 的S3 `new` 身份组，登记1个作品KU并补1条书内来源作品类型字段；两条图版题注关系 formal（`rel-1770 created_by`、`rel-1771 has_subject`），正文对“唯一已知肖像”的视觉评述保留为S2断言并拒绝作为正式图边。新卡定向渲染和复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。S2复核分子与S3决定不变。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp4-p100-plate17a-cassiano-caricature-20261024)。
+
 **第7章 p.201《神化》作品与 Permoser 跨章身份组（2026-10-24）：** 将 P.csv#80（cand-1879）与 P.csv#81（cand-1880）归并为同一人物身份组，S3 均判 `new` 并映射到巴尔塔萨·佩尔莫泽 KU；把 P#81 的作品子目与人物主条目区分。cand-7308 沿用既有作品组，经 Belvedere object 3013 对照后登记为独立 work KU。S5新增10条字段；三条 Haskell 关系候选裁为2 formal（rel-1767、rel-1768）和1 rejected，另新增1条外部 `has_subject` formal（rel-1769）。Lower Belvedere 单体端点尚无 KU，记入 bl-0026，未建立 located_at 边。三张卡完成定向渲染及复预览；严格表审计 errors=[]、s2_missing=[]，关系一致性五类阻断均为0；S2独立复核分子不变。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p201-apotheosis-endpoints-20261024)。
 
 **第5章 p.135 Bertolotti 引注档案端点批次（2026-10-24）：** 沿用 `cand-6182` 的既有 S3 `new` 组，登记档案 KU 并补4条 Haskell 书目字段；从页图确认注3短题和 pp. 127 ff.，新增一条 S2 `cites` statement，将注3、注4和注5拆为三个有独立范围的 formal S6 引注边。S0 原转录保留，OCR 校读只记入 S2 qualifiers；新 statement 未计入独立复核分子。新卡和 Haskell 来源卡定向渲染并复预览无差异，严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。被引书及所引页未独立查阅。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p135-bertolotti-citations-20261024)。
@@ -26,11 +28,11 @@
 
 **第9章 p.251跨章身份与端点批次（2026-10-24）：** cand-6960 与 cand-8218 经跨章核对分别复用圣彼得大殿及 Bernini 柱廊 KU；cand-1518、cand-8229、cand-8231 登记为 Manin Passeriano country house、Le Grazie（Florio）与 La Galleria di Minerva 第六卷。cand-8230 因可能与同卷第83页的 cand-9523 指向同一匿名信件，保留 S3 undecided。新增3条 mention 锚点、1条 authored_by S2 statement（不计独立复核分子），新增13条 S5 字段并更正 Daniele Florio 卡的印刷题名；5条相关 S6 候选逐条裁为1 formal、3 pending、1 rejected。六张受影响卡定向渲染并复预览无差异；严格表审计 errors=[]、s2_missing=[]，关系一致性五类阻断均为0。详见[本批过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-p251-endpoints-20261024)。
 
-**最新全书快照（2026-10-24，本批后）：** S0有832个源段（678 complete、154 excluded）。S2共15,291条statement、26,759条mention；统一独立逐条复核9,617/15,291（62.9%，尚未接收；复核台账仍待按当前statement ID与来源版本核平）。第七章为1,190/1,267、第八章487/1,487；其他章节局部复核不并入统一口径。S3主决定覆盖12,416/12,416：same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含623项类型边界未决）；决定覆盖不等于身份已解决。S4已登记1,899/5,064条new候选映射，待映射3,165条；其中1,438个已判new的直接关系端点候选待映射，按类型为term 498、archive 346、work 241、place 185、event 91、institution 76、person 1。S5字段12,825条（1,634条unverified）。S6已裁决883/10,514条（540 formal、253 pending、90 rejected），尚余9,631条；relations.csv共1,769条（1,756 formal、13 pending）。另有340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有26条记录（10 completed、16 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现和页面暂停。
+**最新全书快照（2026-10-24，本批后）：** S0有832个源段（678 complete、154 excluded）。S2共15,291条statement、26,759条mention；统一独立逐条复核9,617/15,291（62.9%，尚未接收；复核台账仍待按当前statement ID与来源版本核平）。第七章为1,190/1,267、第八章487/1,487；其他章节局部复核不并入统一口径。S3主决定覆盖12,416/12,416：same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含623项类型边界未决）；决定覆盖不等于身份已解决。S4已登记1,900/5,064条new候选映射，待映射3,164条；其中1,437个已判new的直接关系端点候选待映射，按类型为term 498、archive 346、work 240、place 185、event 91、institution 76、person 1。S5字段12,826条（1,634条unverified）。S6已裁决886/10,514条（542 formal、253 pending、91 rejected），尚余9,628条；relations.csv共1,771条（1,758 formal、13 pending）。另有340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有26条记录（10 completed、16 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现和页面暂停。
 
 **后续工作规划（按依赖与关系解锁价值）：**
 
-1. **优先完成已有 new 身份组的直接端点 S4，再同批裁决 S6。** 当前1,438个直接关系端点候选已判new但未映射，优先按唯一关系解锁数和共用来源页排序；term 498、archive 346、work 241、place 185、event 91、institution 76、person 1。每个身份组同时核跨章复用、登记所需关键S5字段，并对关联关系逐条给出formal、pending或rejected去向；只渲染受影响卡片。
+1. **优先完成已有 new 身份组的直接端点 S4，再同批裁决 S6。** 当前1,437个直接关系端点候选已判new但未映射，优先按唯一关系解锁数和共用来源页排序；term 498、archive 346、work 240、place 185、event 91、institution 76、person 1。每个身份组同时核跨章复用、登记所需关键S5字段，并对关联关系逐条给出formal、pending或rejected去向；只渲染受影响卡片。
 2. **分类型清空 S3 undecided。** 5,195项按类型分为：person 1,069、work 1,600、term 657、archive 686、place 308、event 113、institution 119、family 18、procedure 2、类型未定623。先从能解除最多S4/S6阻塞的work、person、archive、term组推进，再处理地点、机构、事件、家族、程序及类型边界候选；逐项比较来源语境与跨章身份，依据不足的保留有明确缺证条件的undecided。
 3. **继续 S2 独立语义复核并核平台账。** 以当前statement ID和来源版本核实9,617条统一复核分子；按章逐条复核尚未覆盖内容，局部页级记录不并入统一口径，未独立审读的新statement不计入分子。
 4. **定向解决 S5、S6 与端点缺失。** 从1,634条unverified中先审身份、版本、关键时空字段和正式关系端点；340条缺S2端点候选ID的关系按来源页回查并修正S2，再按S3→S4→S6依赖处理。当前candidate-backlog有16项undecided，新增Lower Belvedere端点按S1→S3→S4处理；端点确认前关系保持待证。
@@ -74,11 +76,11 @@ S3主决定覆盖修复：在复用既有S3/S4过程裁决与来源证据的基�
 
 本轮完成第八章 p.241 的跨章身份分组和直接关系端点批次：将 Haskell 第21章书目中的1960年文章与 p.241 注5合并到同一archive身份组，新增两个书内作品组及 Bernardo Sansone Sgrilli 人物组；登记7个KU并完成8条new候选映射。S5新增14条 Haskell 原书支持字段。S6对44个关系候选逐项裁决：13 formal、26 pending、5 rejected；复用展览—Ferdinand既有边，并将p.230与p.241两条Sgrilli引注合并为一条关系。新增5条S2 statement，不计入统一独立复核分子。借展类型边界、未具名群体及解释性断言保留具体待证或否决理由。详见[过程裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p241-direct-endpoints-20261023)。 14张受影响卡片完成定向渲染，渲染后复预览无差异；全表严格审计errors=[]、s2_missing=[]，关系一致性五项结构检查均为0。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,291条statement、26,759条mention；统一独立逐条复核9,617/15,291（62.9%，尚未接收，复核台账仍需按当前ID与来源版本核平）；第七章1,190/1,267、第八章487/1,487。S3主决定覆盖12,416/12,416：same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含623项类型边界未决）。S4已映射1,899/5,064条new候选，尚余3,165条；其中1,438个直接关系端点new候选待登记。S5字段12,825条（1,634条unverified）。S6已裁决883/10,514条（540 formal、253 pending、90 rejected），尚余9,631条；relations.csv共1,769条（1,756 formal、13 pending）。340条关系候选仍至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv共26条（10 completed、16 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面暂停。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,291条statement、26,759条mention；统一独立逐条复核9,617/15,291（62.9%，尚未接收，复核台账仍需按当前ID与来源版本核平）；第七章1,190/1,267、第八章487/1,487。S3主决定覆盖12,416/12,416：same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含623项类型边界未决）。S4已映射1,900/5,064条new候选，尚余3,164条；其中1,437个直接关系端点new候选待登记。S5字段12,826条（1,634条unverified）。S6已裁决886/10,514条（542 formal、253 pending、91 rejected），尚余9,628条；relations.csv共1,771条（1,758 formal、13 pending）。340条关系候选仍至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv共26条（10 completed、16 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面暂停。
 
 S3主决定覆盖12,416/12,416个候选：same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195。主决定行覆盖全，不表示候选身份均已解决；类型边界未决为623项。
 
-S4已登记1,899/5,064条new候选映射，尚余3,165条；已映射至1,676个不同KU。1,438个已判new的直接关系端点仍待登记，按类型为term 498、archive 346、work 241、place 185、event 91、institution 76、person 1。S5字段12,825条（1,634条unverified）。S6已裁决883/10,514（540 formal、253 pending、90 rejected），余9,631条；relations.csv有1,769条（1,756 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog有26条（10 completed、16 undecided，pending=0）。阶段进度不能压成单一项目百分比。
+S4已登记1,900/5,064条new候选映射，尚余3,164条；已映射至1,677个不同KU。1,437个已判new的直接关系端点仍待登记，按类型为term 498、archive 346、work 240、place 185、event 91、institution 76、person 1。S5字段12,826条（1,634条unverified）。S6已裁决886/10,514（542 formal、253 pending、91 rejected），余9,628条；relations.csv有1,771条（1,758 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog有26条（10 completed、16 undecided，pending=0）。阶段进度不能压成单一项目百分比。
 
 | S3 undecided建议类型 | 候选总数 | 其中唯一关系端点候选 |
 |---|---:|---:|
@@ -93,7 +95,7 @@ S4已登记1,899/5,064条new候选映射，尚余3,165条；已映射至1,676个
 | procedure | 2 | 2 |
 | 类型未定 | 623 | 468 |
 
-以上为当前主决定表按候选去重后的未决规模；关系端点列只计relation_candidate=true statement中出现的候选，不含缺失S2候选ID的端点。1,440个已判new而待S4登记的直接关系端点按类型为term 498、archive 347、work 242、place 185、event 91、institution 76、person 1；与S3未决队列分开处理。
+以上为当前主决定表按候选去重后的未决规模；关系端点列只计relation_candidate=true statement中出现的候选，不含缺失S2候选ID的端点。1,437个已判new而待S4登记的直接关系端点按类型为term 498、archive 346、work 240、place 185、event 91、institution 76、person 1；与S3未决队列分开处理。
 
 前述第七章黎塞留批次的事件身份仅限 Haskell 书内所指事件；1642为书内所报年份，不声称外部核验。招揽政策与马萨林 1644 年贝尔尼尼行动、1648 年阿尔加迪行动分开。未将 `minister_to`、招募目标、负向“未中断”或作者因果解释强套进不精确的正式谓词。
 

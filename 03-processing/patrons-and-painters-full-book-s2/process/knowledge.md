@@ -12329,3 +12329,24 @@ Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Be
 #### 核验与批后状态
 
 本批没有增改 S2 statement 或 mention；统一独立复核仍为 9,617/15,291（62.9%，未接收）。严格表审计：`kus=2695`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3165`、`relations=1769`（1,756 formal、13 pending）、`enrichment_rows=12825`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。S3 主决定为 same=2,046、new=5,064、conflict=9、excluded=102、undecided=5,195（含 623 项类型边界未决）。S4 已登记 1,899/5,064 条 new 候选映射；1,438 个直接关系端点 new 候选仍待映射（term 498、archive 346、work 241、place 185、event 91、institution 76、person 1）。S6 累计 883/10,514 条候选已裁决（540 formal、253 pending、90 rejected），尚余 9,631 条；candidate-backlog 共 26 条（10 completed、16 undecided，pending=0）。关系一致性检查中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为 0。三张受影响卡完成定向渲染、写后字节核对及复预览；机械检查不构成 S2 语义接收或 S3–S6 全书收口。
+
+<a id="s4-s5-s6-chp4-p100-plate17a-cassiano-caricature-20261024"></a>
+### S3沿用／S4登记／S5字段／S6裁决：第4章 p.100 图版17a 卡西亚诺讽刺像（2026-10-24）
+
+#### S3与S4
+`cand-5655` 沿用既有 `new` 决定及 `workgrp-dfd37faf6bd07e`。该组只含此一条书内作品候选；登记为 `units/works/bernini-caricature-cassiano-dal-pozzo-plate-17a`。第4章印刷页100正文提到图版17a讽刺像，图版17题注明确标为“Bernini: Cassiano dal Pozzo”。本卡将题注内容限定为Haskell的作品归属和对象识别，不表示独立作者核验或现存状况核验。
+
+#### S5字段
+新增1条 `source_backed` 字段“作品类型：讽刺像／Caricature”，依据第100页正文和图版17题注。题名、题注作者及描绘对象分别由卡片名称和S6关系表达；本批不补无来源支持的媒介、尺寸、现藏地或外部归属学判断。
+
+#### S6逐候选去向
+
+| statement_id | 裁决 |
+|---|---|
+| `st-chp4-sec-ii-l65-67-p17a-credit` | formal `rel-1770 created_by`：图版17a题注署名Bernini；语境保留“印刷题注归属”，不宣称已独立核验作者。 |
+| `st-chp4-sec-ii-l65-67-p17a-subject` | formal `rel-1771 has_subject`：同一题注明确写Cassiano dal Pozzo；不推导所有权或传记事实。 |
+| `st-chp4-sec-ii-l15-22-portrait-bernini-caricature` | rejected 为正式关系边；第100页的“讽刺像印象与唯一已知肖像相符”是Haskell的视觉评述，脚注2所谈肖像与图版17a讽刺像仍为不同对象，不建立影响、创作或同一性关系。原S2断言保留。 |
+
+#### 核验与批后状态
+
+仅定向渲染本卡1张；渲染前预览显示2条正式关系，渲染后复预览无差异。`audit_tables.py --strict-stage --summary`：`kus=2696`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3164`、`relations=1771`（1,758 formal、13 pending）、`enrichment_rows=12826`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26759`、`s2_missing=[]`、`errors=[]`。关系一致性检查：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。本批未修改S2 statement/mention及S3决定；统一S2独立复核仍为9,617/15,291（62.9%，未接收）。未访问外部来源。
