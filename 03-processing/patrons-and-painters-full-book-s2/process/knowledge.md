@@ -11318,3 +11318,26 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 
 - 对照 aln-12726 与既有来源专属行 `aln-7779`：后者已记录 `same → units/persons/roberto-longhi` 及 Fondazione Roberto Longhi 档案目录证据，但缺少 `external_source` 为空的主决定行。新增主决定行复用原裁决和过程记录，不改变身份判断。
 - 证据与边界沿用上方 `s3-person-longhi-1956-article-reuse-20261019`：Haskell 第8章与第21章书目项对应同一篇1956年文章，基金会目录支持首字母扩写；未独立阅读文章。未修改S2、S4、S5或S6。
+
+<a id="s4-s5-s6-chp4-p99-p107-naudaeana-20261023"></a>
+### S3沿用／S4／S5／S6：第4章 p.99、p.107《Naudaeana et Patiniana》引注（2026-10-23）
+
+**S3与S4。** 沿用 `cand-5650` 的既有 `new` 身份决定及跨章组 `archive-group-8a76fb502f71`，将唯一候选映射 `aln-5831` 登记为 `units/archives/naudaeana-et-patiniana-amsterdam-1703`。身份限于 Haskell 第21章书目所列的《Naudaeana et Patiniana》修订第二版（Amsterdam, 1703）；未独立查阅该版本或外部目录，不把书目身份当作对其内容的核验。没有重开S3决定。
+
+**S5。** 新卡登记3条 `source_backed` 字段（`enr-16359`–`enr-16361`）：原题名、修订第二版、阿姆斯特丹与1703年，均据 Haskell 第21章书目印刷页431、源文件L868。卡片另保留第4章印刷页99脚注及页107脚注的引文定位。p.99扫描页（PDF物理页6）确认脚注号为5，S0转录为6；此处只记录脚注引用，不改动S2 statement或其校勘记录。
+
+**S6逐项裁决。** 两条关系候选都明确记录 Haskell 的书内引证，端点均为 archive，`cites` 通过受控词表及域值域约束；被引版本未独立查阅，不将引文作为相邻历史断言的验证。
+
+| statement_id | 决定 | 关系与范围 |
+|---|---|---|
+| `st-chp4-sec-ii-l232-308-fn99-naudaeana-citation` | formal | `rel-1614 cites`：Haskell《赞助人与画家》→《Naudaeana et Patiniana》；第4章 p.99脚注5引至被引版本 p.29。扫描确认脚注号；S0 OCR转录为6。 |
+| `st-chp4-sec-ii-notes-l260-264-fn262-naudaeana` | formal | `rel-1615 cites`：Haskell《赞助人与画家》→《Naudaeana et Patiniana》；第4章 p.107脚注3引至被引版本 p.8。 |
+
+本批未新增或修订 S2 statement/mention。定向表审计 `errors=[]`；关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。新卡与 Haskell 原书关系视图已据 `relations.csv` 预览并渲染；渲染后再次预览无差异。机械核查不表示被引版本或相邻历史断言已独立验证。
+
+
+<a id="s4-s5-s6-chp8-p239-letter-zanotti-20261023"></a>
+
+### 第八章 p.239 No.357 信件、Zanotti 引注与关系候选处理（2026-10-23）
+
+本批 S2、S3、S4、S5、S6 判断和未决边界见[第八章 p.239 语义复核记录](s2-independent-review-chp8-p239-20261023.md)。S2共读40条statement，不并入统一复核分子；沿用 cand-8032 的 new 组登记 No.357信件 archive KU；补录3条 source_backed 字段；formal裁决2条直接关系候选。注5库存与保管机构另有跨章身份核对待办，未在本批注册或正式裁边。

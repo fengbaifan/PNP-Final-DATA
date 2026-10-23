@@ -2,22 +2,26 @@
 
 ### 本轮进度与后续工作（2026-10-23）
 
+本轮完成第8章 p.239 语义复核及 No.357 信件与 Zanotti 引注的 S4/S5/S6 批次：沿用 cand-8032 的既有 S3 new 组登记信件 archive KU，新增3条书内来源字段，formal 裁决2条直接关系候选；本页40条statement已核读并修正一项claim原子性和扫描误读，S2复核数字待台账核平，不计入统一分子。详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/s2-independent-review-chp8-p239-20261023.md)。
+
+本轮完成第4章 p.99、p.107 两处《Naudaeana et Patiniana》引注的 S4/S5/S6 批次：沿用 `cand-5650` 既有 S3 `new` 组登记 archive KU，补入3条 Haskell 书目支持字段，并将两条合法 `cites` 候选逐条裁为 formal。被引版本未独立查阅，不以引文验证相邻历史陈述；详情见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp4-p99-p107-naudaeana-20261023)。
+
 S3台账核平：为 `cand-7603` 新增主决定 `same → units/persons/roberto-longhi`（`aln-12726`），复用2026-10-19已记录的身份判断和来源证据；这是主表覆盖修复，不是新一轮身份核验。缺主决定由22项降至21项。
 
 本轮完成第七章 p.176 书信端点与跨章 S6 批次：沿用 `cand-6707` 的既有 S3 `new` 组，登记 Poussin 致 Jean Lemaire 的书信 archive KU，新增6条 Haskell 来源字段；逐条裁决12条相关 relation candidates，其中9条 formal、3条 pending，生成10条正式关系。补齐人物候选 `cand-10696` 的主 S3 决定，归为 `same → units/persons/bernardino-castelli`，保留 Bernardo／Bernardino 异文。同步渲染普桑、勒梅尔、Haskell 原书和 Correspondance 书信集卡片的关系投影。未改 S2 statement/mention，S2 独立复核分子不变。S6批次见[端点过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch7-p176-poussin-letter-20261023)，S3补录见[主决定过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-main-decision-cand10696-20261023)。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,254条statement；统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,265、第八章487/1,474；第3章1,173/1,181、第10–12章1,567/1,567、第16章206/210的独立章节记录仍分开报告，均未接收；统一复核台账仍待按statement ID与来源版本核平。S3主决定覆盖12,390/12,411个候选，缺21项；same=2,030、new=5,031（4,808组）、conflict=9、excluded=100、undecided=5,220；另22项跨来源决定不同。未决项按建议类型：work 1,612、person 1,076、archive 689、term 657、place 311、institution 119、event 114、family 18、procedure 2；另有622项类型边界未决（suggested_type为空）。S4已登记1,557/4,808组、1,766/5,031条候选映射；待登记3,251组／3,265条映射。S5共12,471条字段，1,634条 `unverified`。relation_candidate=true共10,480条；S6已裁决632/10,480条（394 formal、171 pending、67 rejected），余9,848条；`relations.csv`共1,613条（1,604 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。`candidate-backlog.csv`仍为10条，9条完成、1条明确undecided、pending=0。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,254条statement；统一独立逐条复核9,573条（62.8%，尚未接收）；第七章1,146/1,265、第八章487/1,474；第3章1,173/1,181、第10–12章1,567/1,567、第16章206/210的独立章节记录仍分开报告，均未接收；统一复核台账仍待按statement ID与来源版本核平。S3主决定覆盖12,390/12,411个候选，缺21项；same=2,030、new=5,031（4,808组）、conflict=9、excluded=100、undecided=5,220；另22项跨来源决定不同。未决项按建议类型：work 1,612、person 1,076、archive 689、term 657、place 311、institution 119、event 114、family 18、procedure 2；另有622项类型边界未决（suggested_type为空）。S4已登记1,559/4,808组、1,768/5,031条候选映射；待登记3,249组／3,263条映射。S5共12,477条字段，1,634条 `unverified`。relation_candidate=true共10,481条；S6已裁决636/10,481条（398 formal、171 pending、67 rejected），余9,845条；`relations.csv`共1,617条（1,608 formal、9 pending）。339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72）。`candidate-backlog.csv`仍为10条，9条完成、1条明确undecided，pending=0。
 
 本批新增事件身份仅限 Haskell 书内所指事件；1642为书内所报年份，不声称外部核验。招揽政策与马萨林 1644 年贝尔尼尼行动、1648 年阿尔加迪行动分开。未将 `minister_to`、招募目标、负向“未中断”或作者因果解释强套进不精确的正式谓词。
 
 **后续工作规划与收口条件。**
 
-1. **先核平 S3 主决定账。** 补齐21个缺主决定候选；逐项审查22处主决定与其他来源行的 decision 差异，依据各来源锚点和身份语义作出说明，不把来源记录差异直接视为身份冲突。
-2. **逐类型形成跨章身份组。** 5,220个 undecided 候选中，类型边界未决622项；其余按数量为 work 1,612、person 1,076、archive 689、term 657、place 311、institution 119、event 114、family 18、procedure 2。先处理类型边界，再以跨章聚组方式推进 work、person、archive、term 等大类，并把能够解锁关系端点的候选排在类型批次前部。每项只进入有证据支持的去向：same 指向既有 KU；new 纳入稳定跨章组并进入 S4；conflict 保留冲突证据；excluded 写明排除依据；暂不能裁定者保留 undecided 并记录具体缺口。
-3. **按 S3 决定交接 S4。** 当前待登记3,251组／3,265条映射；对每个已裁为 new 的身份组登记唯一 KU，或明确记录阻断理由。优先登记关系候选使用的直接端点，避免脱离 S3 单独补对象。
-4. **逐项完成 S5 与 S6。** 定向核验1,634条 `unverified` 字段；339条关系候选至少缺一个S2端点候选ID（subject-only 46、object-only 221、both 72），仅在原文支持时补候选并经 S3→S4 处理。S6尚有9,848条候选未裁决；逐项写明 formal、pending 或 rejected，formal边核对端点、谓词、方向、语境和证据，无法支持者留 pending。
-5. **核平并继续 S2 独立语义复核。** 先按当前 statement ID 与来源版本核平复核台账，再依统一口径续审并优先补低覆盖章节；章节复核记录单独报告，定向修订不并入独立复核分子，机械审计不代表语义接收。
-6. **达到 S7 门槛后再发布准备。** S3每个候选都有可追溯决定和去向；S4新组已登记或有明确阻断；S5每个未验证字段有结论；S6每项关系候选均有 formal、pending 或 rejected 决定，正式边满足语义与证据约束。知识发现及页面继续暂停。
+1. **继续 S4 直接端点登记并同批裁决 S6。** 现有待登记组中，先处理已是 S3 `new`、直接参与关系候选、且关系类型和域值域可表达的端点；每批登记唯一 KU、补足本批必需的 S5 来源字段，并逐条给对应候选 formal、pending 或 rejected 去向。谓词不精确或语义证据不足时保留 pending，不用近似谓词换取形式通过。
+2. **按证据处理缺端点关系。** 339条关系候选至少缺一个 S2 端点候选 ID（subject-only 46、object-only 221、both 72）。具名且可独立识别的缺端点先入 `candidate-backlog.csv`，按 S1→S3→S4 处理；只补原文可支持对象，不递归扩张。backlog 当前 pending=0 不代表这339项都已解决。
+3. **定向完成关键 S5 字段。** 在1,634条 `unverified` 字段中，优先核对当前关系端点和有效关系所依赖的题名、版本、时间、角色或地点字段；每条保留来源与范围，未能核验者写明缺口，不把书内转述升级为外部事实。
+4. **继续分章 S2 独立语义审读与修订。** 先按 statement ID 和来源版本核平复核台账，再按章节推进并单独报告章节复核记录；优先补低覆盖章节。定向修改不计入独立复核分子；若复核发现影响现有端点或身份的新证据，只追踪受影响对象。
+5. **S3 仅按触发范围重开。** 当前关系端点需要登记但没有可用既有 S3 `new` 决定，或 S2/外部核验产生新的身份证据时，才重开相应候选；不为推进 S4/S6 全面重跑 S3。新判断仍需记录 same、new、conflict、excluded 或带具体缺口的 undecided 去向。
+6. **达到 S7 门槛后再做发布准备。** 全部 S3 `new` 组已登记或有明确阻断；S5未验证字段均有结论；10,480条 S6候选均有 formal、pending 或 rejected 去向；正式边端点、谓词、方向、语境和证据均合格。知识发现和页面继续暂停。
 
 ### S2定向修订／S3／S4／S5／S6：第七章黎塞留招揽政策与死亡事件（2026-10-23）
 

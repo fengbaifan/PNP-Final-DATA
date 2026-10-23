@@ -27367,3 +27367,13 @@ m-chp16-p373-sasso-0031,chp-16:16_CHP-16_intro:l69-89,cand-2517,Strange,270,277,
 m-chp16-p373-sasso-0032,chp-16:16_CHP-16_intro:l69-89,cand-2517,Strange,483,490,Exact local mention in 'four letters from him to Strange'; added after the Chapter 13-17 S2 review flagged the missing note-level anchor.
 m-chp7-p176-b-088,chp-7:07_CHP-7_sec_i:l76-89,cand-12433,the death of its subject,2464,2488,"The Richelieu bust's subject; this is the death event, used only as a relative time reference."
 m-chp7-p180-b-079,chp-7:07_CHP-7_sec_i:l128-138,cand-12433,death of Richelieu in 1642,585,611,Haskell's explicit cross-reference to the same death event; p.180 supplies the source-reported year 1642.
+m-chp8-p239-body-crespi,chp-8:08_CHP-8_sec_ii:l338-348,cand-0871,Crespi,51,57,Page-local explicit artist name; already mapped to the Giuseppe Maria Crespi KU.
+m-chp8-p239-body-ferdinand,chp-8:08_CHP-8_sec_ii:l338-348,cand-1609,Ferdinand,210,219,Page-local explicit patron name; already mapped to the Grand Prince Ferdinand of Tuscany KU.
+m-chp8-p239-note3-ferdinand,chp-8:08_CHP-8_sec_ii:l372-461,cand-1609,Ferdinand,12744,12753,Explicit sender named in Haskell’s description of the 28 April 1708 letter.
+m-chp8-p239-note3-archival-locator,chp-8:08_CHP-8_sec_ii:l372-461,cand-8040,"Archivio Medicco, Filza 5904",12774,12802,S0 transcription of the cited archive-series locator; scan correction is recorded on the letter statement.
+m-chp8-p239-note3-letter-357,chp-8:08_CHP-8_sec_ii:l372-461,cand-8032,Letter from Ferdinand of 28 April 1708,12732,12770,Specific letter distinguished from the three-letter citation at p.238.
+m-chp8-p239-note3-zanotti-author,chp-8:08_CHP-8_sec_ii:l372-461,cand-7114,Zanotti,12700,12707,Surname in Haskell’s p.239 note 3; author identity remains distinct from the cited work.
+m-chp8-p239-note3-zanotti-work,chp-8:08_CHP-8_sec_ii:l372-461,cand-7115,"Zanotti, II, pp. 52 and 54",12700,12726,Exact locator for the existing Storia dell’Accademia Clementina archive KU.
+m-chp8-p239-note5-inventory,chp-8:08_CHP-8_sec_ii:l372-461,cand-8054,"Inventario di Quadri, che si ritrovano negl'appartamenti del gran palazzo de Pitti di S.A.R.",12816,12908,Title span for the Pitti-apartment inventory; the 1716 label is separately qualified as convenient.
+m-chp8-p239-note5-custodian,chp-8:08_CHP-8_sec_ii:l372-461,cand-8053,Soprintendenza alle Gallerie di Firenze,12922,12961,Institution named by Haskell as keeper; S4 waits for comparison with the existing Soprintendenza KU.
+m-chp8-p239-note5-spf,chp-8:08_CHP-8_sec_ii:l372-461,cand-8057,S.P.F.,13135,13141,Exact inventory mark; its expansion and S3 identity remain unresolved.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: G. P. Zanotti《克莱门蒂娜学院史》两卷本（博洛尼亚，1739）（G. P. Zanotti, History of the Accademia Clementina, 2 vols. (Bologna, 1739)）
 name_en: G. P. Zanotti, History of the Accademia Clementina, 2 vols. (Bologna, 1739)
 type: archive
@@ -69,4 +69,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-本卡未新增正式关系。书内引文候选仍由对应 S2 陈述追踪并留待 S6；本次 KU 登记不把被引页内容写成已核实事实。书目所列两卷作为一个两卷本书目对象登记，未拆成独立卷册卡。
+S6 已将 Haskell 第8章 p.239 注3 对本书卷II第52、54页的引注登记为正式 cites 关系；该关系只记录书内引证，不表示已查阅或核实被引页。书目所列两卷作为一个两卷本书目对象登记，未拆成独立卷册卡。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | Records Haskell’s citation only; does not verify any claim in the cited Zanotti volume.；角色：footnote citation；范围：Chapter 8, printed p.239, note 3; cites volume II, pp.52 and 54. The cited pages were not independently consulted.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；line 450; printed p.239, footnote 3; PDF physical p.45; statement=st-chp8-p239-note3-zanotti-citation |
