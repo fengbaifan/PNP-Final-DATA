@@ -570,6 +570,12 @@ def audit_tables(strict_stage: bool = False) -> dict:
     unit_type = {row["ku_id"]: row.get("type", "") for row in ku_rows}
     matrix = yaml.safe_load((BASE / "01-domain" / "relation-domain-range.yml").read_text(encoding="utf-8"))
     domain_range = matrix.get("domain_range", {})
+    deprecated_relations = set(matrix.get("deprecated_for_new_edges", []))
+    relation_types_path = (
+        BASE / ".agents" / "skills" / "ingest" / "references" / "relation-types.yml"
+    )
+    relation_types_data = yaml.safe_load(relation_types_path.read_text(encoding="utf-8")) or {}
+    controlled_relation_types = set(relation_types_data.get("types", []))
     for row in relation_rows:
         if row.get("subject_ku_id") not in ku_ids or row.get("object_ku_id") not in ku_ids:
             errors.append(f"{row.get('relation_id')}: relation endpoint absent from ku-manifest")
@@ -587,9 +593,17 @@ def audit_tables(strict_stage: bool = False) -> dict:
             errors.append(f"{row.get('relation_id')}: pending relation lacks rationale")
         if not row.get("predicate", "").strip():
             errors.append(f"{row.get('relation_id')}: predicate is required")
-        limits = domain_range.get(row.get("predicate"), {})
-        if not limits:
-            errors.append(f"{row.get('relation_id')}: predicate missing from domain/range matrix")
+        predicate = row.get("predicate", "")
+        if predicate in deprecated_relations:
+            errors.append(f"{row.get('relation_id')}: deprecated relation predicate {predicate!r}")
+            continue
+        if predicate not in controlled_relation_types:
+            errors.append(f"{row.get('relation_id')}: unknown relation predicate {predicate!r}")
+            continue
+        limits = domain_range.get(predicate)
+        # relation-domain-range.yml explicitly leaves non-deprecated predicates
+        # absent from domain_range unrestricted until a first use needs a bound.
+        if limits is None:
             continue
         source_type = unit_type.get(row.get("subject_ku_id"), "")
         target_type = unit_type.get(row.get("object_ku_id"), "")

@@ -11857,3 +11857,60 @@ S3触发项及本批S4、S5、S6已处理；本段不构成全章S2独立复核�
 ### 验证与当前状态
 
 7张新卡与7张关系端点既有卡定向渲染，共14张；渲染后逐卡复预览均无差异，写后字节核验通过。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；全库仍有3,214条 `new` 候选待 S4 登记。`audit_relation_consistency.py`：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。全书 S2 独立复核分子未增加；本批不构成 S2 语义接收或 S3–S6 全书收口。
+
+### 范围与依据
+
+本批复核 Haskell 第15章印刷页362–363、源文件 02-sources/02-Markdown/15_CHP-15_sec_i.md 第24–29行（PDF物理页2–3）。仅据原书及已有索引候选判断；未查外部建筑、神庙或人物记录。本批新增的3条 S2 statement 未独立语义复核，也不计入统一 S2 复核分子。
+
+### S3 跨章身份分组与 S4 登记
+
+cand-12219 原为类型边界未决。本段把“两层低矮翼部”裁为 work：原文将其作为连接主楼与端部亭体的独立建筑构件描述，而非房间或一般空间；不推定未载尺寸。决定为 new，建立 workgrp-farsetti-villa-lower-wings。其余10项沿用各自既有 new 组。11项均完成一对一 KU 映射：
+
+| candidate | 类型与 S3 组 | S4 KU |
+|---|---|---|
+| cand-10433 | place；sg3-place-cand-10433 | units/places/farsetti-family-estates-s-maria-di-sala |
+| cand-10434 | event；sg3-event-cand-10434 | units/events/filippo-farsetti-padua-roman-villa-plan |
+| cand-10435 | work；workgrp-56699c69ba3a27 | units/works/forty-two-doric-columns-from-temple-dea-concordia |
+| cand-10436 | place；sg3-place-cand-10436 | units/places/temple-dea-concordia-rome |
+| cand-10457 | place；sg3-place-cand-10457 | units/places/farsetti-villa-gardens-s-maria-di-sala |
+| cand-12215 | term；sg3-term-cand-12215 | units/terms/standard-venetian-villa-prototypes |
+| cand-12216 | term；sg3-term-cand-12216 | units/terms/austrian-architectural-pattern-farsetti-villa |
+| cand-12217 | work；workgrp-8f1eeb58dfacda | units/works/farsetti-country-villa-central-convex-bay |
+| cand-12218 | work；workgrp-fc99a793b2a4a2 | units/works/farsetti-country-villa-main-block |
+| cand-12219 | work；workgrp-farsetti-villa-lower-wings | units/works/farsetti-country-villa-lower-wings |
+| cand-12220 | place；sg3-place-cand-12220 | units/places/farsetti-country-villa-end-pavilions |
+
+同步新增3条原子 S2 构件断言：st-chp15-p362-country-villa-main-block-part-of-villa、st-chp15-p362-country-villa-lower-wings-part-of-villa、st-chp15-p362-country-villa-end-pavilions-part-of-villa。它们各自支持构件→别墅整体的 part_of；原复合 statement 仍保留，不以原复合断言替代三条原子记录。S5 新增25条来源限定字段，全部依据 Haskell 原书；unverified 计数不变。
+
+### S6 逐候选裁决
+
+20项全部有明确去向。正式关系写入 relations.csv，未把评价、比较或复合陈述强转为边。
+
+| statement_id | 决定与去向 |
+|---|---|
+| st-chp15-p362-country-villa-central-convex-bay | formal；rel-1713 part_of，凸湾部→主楼。 |
+| st-chp15-p362-country-villa-main-block-part-of-villa | formal；rel-1714 part_of，主楼→别墅。 |
+| st-chp15-p362-country-villa-lower-wings-part-of-villa | formal；rel-1715 part_of，翼部→别墅。 |
+| st-chp15-p362-country-villa-end-pavilions-part-of-villa | formal；rel-1716 part_of，端部亭体→别墅。 |
+| st-chp15-p362-villa-located-at-s-maria-di-sala | formal；rel-1717 located_at，别墅→家族庄园地点；不表示产权或现代行政边界。 |
+| st-chp15-p362-country-villa-arcades-and-columns-partial | formal；rel-1718 installed_at，四十二根柱群→别墅；限于原书所述历史安置，不推定现状。 |
+| st-chp15-p362-columns-derived-from-temple | formal；rel-1719 source_of，德阿·协和神庙→柱群；只记录原书来源说法。 |
+| st-chp15-p362-temple-located-in-rome | formal；rel-1720 located_at，神庙→Rome；保留原文定位，不确认具体遗址身份。 |
+| st-chp15-p363-pope-ceded-columns-to-farsetti | formal；同一移交断言支持两个角色边：rel-1721 acquired_by（柱群→Farsetti）及 rel-1722 supplied_by（柱群→Pope Clement XIII）。不推定日期。 |
+| st-chp15-p362-padua-villa-plan-abandoned-after-dispute | pending；计划未实施，不用 occurred_at 表达计划地点或失败事件。 |
+| st-chp15-p362-farsetti-estates-at-s-maria-di-sala | pending；“转向庄园”的叙述不能单独证明产权、居住或另一正式地点边。 |
+| st-chp15-p362-country-villa-design-description | pending；整体设计评价未提供可唯一拆分的端点与受控关系。 |
+| st-chp15-p362-country-villa-wings-and-pavilions | pending；原句是翼部与亭体的复合构造描述，保留复合断言，不代替逐构件关系。 |
+| st-chp15-p362-villa-intended-for-cast-collection | pending；cand-1005 类型与对象边界未决，保持无 S4 映射。 |
+| st-chp15-p362-villa-intended-for-painting-collection | pending；cand-1006 类型与对象边界未决，保持无 S4 映射。 |
+| st-chp15-p362-country-villa-closer-to-austrian-pattern | pending；泛称比较项为 term，当前受控关系不能准确表达该 work→term 比较。 |
+| st-chp15-p363-farsetti-said-spent-million-ducats | pending；保留原书关于耗资的断言；当前谓词集无精确支出关系，不造边。 |
+| st-chp15-p363-contemporary-praised-villa | pending；匿名同时代人身份未明；脚注引 Boscovich 书信但未查该信，不能据此认定发言者。 |
+| st-chp15-p363-attention-to-gardens | rejected；“与房屋同等关注”是评价性比较，不构成稳定、受控关系。 |
+| st-chp15-p363-garden-botanical-rarities | rejected；“威尼托著名景观”是声誉陈述，不构成花园到 Veneto 的 located_at 事实。 |
+
+以上9项裁为 formal、9项裁为 pending、2项裁为 rejected；pending 的身份／类型缺口分别记入 backlog：bl-0016（cand-1005）、bl-0017（cand-1006）、bl-0018（cand-11564）。三项均明确 undecided，不建立 KU，不以未完成候选伪装为正式边。
+
+### 验证与交接
+
+本批后 S2 共15,276条，统一独立复核仍为9,573条；S3主决定仍覆盖12,416/12,416；S4新增11条映射；S5新增25条字段；S6新增20项可追溯裁决。定向 render 预检通过：选择15张卡片、15张表、88条表格行与53条关系投影，11张需写入；写入11张并通过写后字节核验。15张定向 preview 均无差异。build_field_facts 预览为 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。audit_tables.py --strict-stage --summary：kus=2659、candidates=12416、alignment_new_pending_registration=3204、backlog=18且pending=0、relations=1722（formal=1709）、enrichment_rows=12674（unverified=1634）、book_statements=15276、s2_missing=[]、errors=[]；仅报告全库尚有3204条new候选待S4登记及S2语义质量仍需依据过程记录核查。audit_relation_consistency.py：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。下一批按未解决关系候选的端点解锁数优先选择 S4 端点，并在同批逐项裁决可判定的 S6 候选。

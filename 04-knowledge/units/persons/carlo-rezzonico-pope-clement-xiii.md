@@ -79,6 +79,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 供应者（`supplier_of`，反向投影） | [德阿·协和神庙移交的四十二根多立克柱（Forty-two Doric columns ceded from the Temple of the Dea Concordia）](../works/forty-two-doric-columns-from-temple-dea-concordia.md) | S3/S4/S6 decision recorded at 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch15-p362-farsetti-villa-architecture-20261023.；角色：原书所述的移交者；范围：原书称柱群由教皇移交；端点按既有 S3/S4 记录映射至 Carlo Rezzonico（Pope Clement XIII）；不推定移交日期。；原断言与证据见发出端卡片“德阿·协和神庙移交的四十二根多立克柱（Forty-two Doric columns ceded from the Temple of the Dea Concordia）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)；haskell-1980-rev-ed；Chapter 15, print p. 362 L25; p. 363 L28; S2 statement: st-chp15-p363-pope-ceded-columns-to-farsetti |
+
 当前没有登记在 `relations.csv` 的正式关系。以下直接关系候选仍待S6逐条审查：
 
 - [`st-chp9-p254-carlo-rezzonico-elected-pope`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。

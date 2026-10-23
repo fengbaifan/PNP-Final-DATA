@@ -233,6 +233,7 @@ units:
 - 04-knowledge/units/events/eighth-general-congregation-society-jesus-1646.md
 - 04-knowledge/units/events/exhibition-of-16-august-1770-albrizzi-account.md
 - 04-knowledge/units/events/federico-cesi-death-1630.md
+- 04-knowledge/units/events/filippo-farsetti-padua-roman-villa-plan.md
 - 04-knowledge/units/events/first-fronde-mazarin-patronage-setback-1649.md
 - 04-knowledge/units/events/first-operatic-performances-barberini-palace-1632.md
 - 04-knowledge/units/events/first-war-of-castro.md
@@ -1679,6 +1680,9 @@ units:
 - 04-knowledge/units/places/england.md
 - 04-knowledge/units/places/ethiopia.md
 - 04-knowledge/units/places/europe.md
+- 04-knowledge/units/places/farsetti-country-villa-end-pavilions.md
+- 04-knowledge/units/places/farsetti-family-estates-s-maria-di-sala.md
+- 04-knowledge/units/places/farsetti-villa-gardens-s-maria-di-sala.md
 - 04-knowledge/units/places/ferrara.md
 - 04-knowledge/units/places/filippo-farsetti-country-house-s-maria-di-sala.md
 - 04-knowledge/units/places/flavio-chigi-palace-ss-apostoli.md
@@ -1804,6 +1808,7 @@ units:
 - 04-knowledge/units/places/stra.md
 - 04-knowledge/units/places/stuttgart.md
 - 04-knowledge/units/places/tempio-malatestiano-rimini.md
+- 04-knowledge/units/places/temple-dea-concordia-rome.md
 - 04-knowledge/units/places/temple-newsam.md
 - 04-knowledge/units/places/theater-auf-der-cortina.md
 - 04-knowledge/units/places/treviso.md
@@ -1858,6 +1863,7 @@ units:
 - 04-knowledge/units/terms/artistic-temperament.md
 - 04-knowledge/units/terms/artists-drawn-to-rome-by-patronage-and-prospects.md
 - 04-knowledge/units/terms/artists-selected-for-venetian-publishers-commissions.md
+- 04-knowledge/units/terms/austrian-architectural-pattern-farsetti-villa.md
 - 04-knowledge/units/terms/bamboccianti.md
 - 04-knowledge/units/terms/bambocciate-small-pictures-everyday-life.md
 - 04-knowledge/units/terms/baroque-cultural-category-haskell.md
@@ -1920,6 +1926,7 @@ units:
 - 04-knowledge/units/terms/self-portrait.md
 - 04-knowledge/units/terms/servitu-particolare.md
 - 04-knowledge/units/terms/spanish-cause-in-rome-haskell-account.md
+- 04-knowledge/units/terms/standard-venetian-villa-prototypes.md
 - 04-knowledge/units/terms/stoicism-seventeenth-century.md
 - 04-knowledge/units/terms/titular-church.md
 - 04-knowledge/units/terms/tuscan-narrative-tradition-fifteenth-century-haskell-p231.md
@@ -2055,11 +2062,15 @@ units:
 - 04-knowledge/units/works/facade-chiesa-nuova.md
 - 04-knowledge/units/works/facade-of-s-maria-del-giglio.md
 - 04-knowledge/units/works/facade-ss-vincenzo-ed-anastasio-piazza-di-trevi.md
+- 04-knowledge/units/works/farsetti-country-villa-central-convex-bay.md
+- 04-knowledge/units/works/farsetti-country-villa-lower-wings.md
+- 04-knowledge/units/works/farsetti-country-villa-main-block.md
 - 04-knowledge/units/works/ferri-laparelli-altarpiece.md
 - 04-knowledge/units/works/ferri-sant-agnese-cupola.md
 - 04-knowledge/units/works/ferri-sant-agnese-modello.md
 - 04-knowledge/units/works/fiammeri-s-vitale-martyrdom-frescoes.md
 - 04-knowledge/units/works/fortune-salvator-rosa.md
+- 04-knowledge/units/works/forty-two-doric-columns-from-temple-dea-concordia.md
 - 04-knowledge/units/works/francesco-algarotti.md
 - 04-knowledge/units/works/francesco-fanelli-charles-i.md
 - 04-knowledge/units/works/francesco-guardi-view-of-john-strange-s-villa-at-paese-near-treviso.md

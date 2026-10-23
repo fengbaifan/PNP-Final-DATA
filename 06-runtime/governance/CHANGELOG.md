@@ -5,6 +5,10 @@
 
 ## 2026-10-23
 
+### Align strict relation audit with unrestricted matrix entries
+
+The relation-domain-range.yml contract states that a controlled, non-deprecated predicate absent from domain_range has no domain/range restriction until a first use needs one. audit_tables.py incorrectly treated every such predicate as an error. The audit now validates controlled/deprecated status first, checks endpoint types when a matrix entry exists, and otherwise follows the documented unrestricted default. This allows the controlled source_of relation for a source place and a work without weakening predicates that have explicit domain/range limits.
+
 ### 允许作品以来源传统作为影响端点
 
 第八章 p.231 将《La Burla》的风格及题材灵感归于十五世纪托斯卡纳叙事传统。为保留这两条有明确来源限定的作品影响关系，`influenced_by` 的域值域扩为 person/work → person/term/work，并同步扩展逆向 `influenced` 为 person/term/work → person/work。该矩阵调整不改变既有关系，仅允许登记来源明确的作品—术语影响边。

@@ -94,3 +94,9 @@ English: This card refers to Filippo Farsetti as a person and remains distinct f
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 取得者（`acquirer_of`，反向投影） | [德阿·协和神庙移交的四十二根多立克柱（Forty-two Doric columns ceded from the Temple of the Dea Concordia）](../works/forty-two-doric-columns-from-temple-dea-concordia.md) | S3/S4/S6 decision recorded at 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch15-p362-farsetti-villa-architecture-20261023.；角色：教皇让与的接收人；范围：原书称该柱群被移交给法尔塞蒂；未给日期，也不推定各柱个体记录。；原断言与证据见发出端卡片“德阿·协和神庙移交的四十二根多立克柱（Forty-two Doric columns ceded from the Temple of the Dea Concordia）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)；haskell-1980-rev-ed；Chapter 15, print p. 362 L25; p. 363 L28; S2 statement: st-chp15-p363-pope-ceded-columns-to-farsetti |
