@@ -12181,3 +12181,43 @@ S. Vitale 地点卡新增一条 `source_backed` S5 字段“地点性质：早�
 批后 `audit_tables.py --strict-stage --summary`：`kus=2684`、`candidates=12416`、`alignment_new_pending_registration=3177`、`candidate_backlog_rows=25`（`pending=0`）、`relations=1754`（1741 formal、13 pending）、`enrichment_rows=12776`（1634 unverified）、`book_statements=15286`、`s2_missing=[]`、`errors=[]`。关系一致性审计中 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。六张受影响卡片（S. Vitale、Jesuits、Rome、壁画组、S. Andrea、S. Ignazio）完成定向预览、渲染与复预览；渲染预检 `cards=6 tables=13 rows=106 projected_relation_rows=47 cards_with_relation_changes=6 files_to_write=6`，六个文件写后字节核验通过，复预览无差异。`build_field_facts.py` 复预览 `new_ids=0`、`record_changes=0`、`warnings=0`。本批新增三条 S2 statement 不计入 S2 独立复核分子。
 
 拆分历史所有权与转交断言后，修正 `rel-1751` 的证据锚点及范围；S. Vitale、Jesuits两卡重新定向渲染，写后字节核验与复预览无差异。全书 S6累计裁决为861/10,509（526 formal、249 pending、86 rejected），尚余9,648项。
+
+<a id="s3-s4-s5-s6-chp9-p251-endpoints-20261024"></a>
+### S3局部重判／S4登记／S5补足／S6关系：第9章 p.251跨章端点（2026-10-24）
+
+#### S3身份与S4登记
+
+- cand-6960：S3由new局部改判same，复用units/places/st-peters-basilica；保留prior_group和原决定理由。与第7章跨章同名候选指向同一书内圣彼得大殿。
+- cand-8218：S3由new局部改判same，复用units/works/bernini-colonnade-st-peters-square；保留prior_group。Haskell所称Bernini的St Peter's porticos与既有柱廊作品KU相同；不推断某一精确建筑构件是复制品。
+- cand-1518：沿用new组，登记units/places/manin-country-house-passeriano。只登记Haskell所称Passeriano的Manin country house，与威尼斯Manin Palace分开。
+- cand-8229：沿用跨章new组，登记units/archives/le-grazie-florio-1766；登记范围为Haskell所引的Florio诗集，不声称已阅读被引诗页。
+- cand-8231：沿用跨章new组，登记units/archives/la-galleria-di-minerva-volume-vi-1708；仅登记第六卷书目对象。
+- cand-8230：保留S3 undecided。第9章p.251所引匿名婚礼信可能与cand-9523在同卷p.83所指对象相同；身份与版本未核清前不建新KU。
+
+#### S2定向修订与mention锚点
+
+对照当前S0段落与Haskell第9章印刷p.251、PDF物理页13。新增3条精确mention锚点：the villa [4823,4832)、St Peter’s [4873,4883)、Co: di N.N. [5071,5082)；区间以段落拼接并换行的文本为零起点、左闭右开位置。addressee对应mention原已存在。S0转录保留OCR原文Le Crazie；页图校读为Le Grazie的差异写入statement级ocr_corrections，不回写来源正文或伪改原始转录。
+
+新增statement st-chp9-p251-le-grazie-authored-by-florio：S2仅记录Haskell注2对Daniele Florio与《Le Grazie》的书目作者归属，注4辅助核对题名及页码；没有独立查看1766年版本或被引诗页。该statement有明确subject/object候选和来源定位，但本批未进行独立逐条复核，也未增加S2复核分子。
+
+#### S5来源字段
+
+新增13条Haskell来源字段enr-16664至enr-16676：Manin country house 2条、Le Grazie 6条、Galleria di Minerva第六卷5条。更新既有enr-15411，将Daniele卡的印刷题名由OCR形式Le Crazie校正为Le Grazie，证据记录保留S0 OCR及页图依据。source fields未被作为诗集全文事实或外部核验。
+
+#### S6逐项裁决
+
+| statement_id | 决定与记录 |
+|---|---|
+| st-chp9-p251-le-grazie-authored-by-florio | formal rel-1755 authored_by：Le Grazie archive → Daniele Florio；证据限于Haskell第9章p.251注2及注4的书目归属。 |
+| st-chp9-p251-st-peters-poetic-influence-note | pending：引注所述诗歌与St Peter’s之间的影响对象或作用方向未明确；诗文未独立查阅。 |
+| st-chp9-p251-passeriano-wings | pending：Passeriano建筑翼部与Bernini柱廊之间的具体适配对象未定，现有谓词不能表达未指明构件的改造关系。 |
+| st-chp9-p251-anonymous-1708-source-citation | pending：cand-8230与cand-9523可能指同一匿名信件；未核明同一性与版本前不建立刊载关系。 |
+| st-chp9-p251-florio-citation-note4 | rejected作为独立图谱边：注4是题名和页码的书目定位；作者关系已由注2支持并记录，不另把定位脚注当作第二关系事实。 |
+
+既有st-chp9-p251-manin-style-at-country-house的rejected决定本批保持不变，不重复计数或裁决。
+
+#### 检查与批后状态
+
+S4/S5表审计：kus=2687、candidates=12416、alignment_new_pending_registration=3172、relations=1755（formal 1742）、enrichment_rows=12789（unverified 1634）、book_statements=15287、mentions=26759、s2_missing=[]、errors=[]。candidate-backlog.csv为25条，pending=0。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。build_field_facts.py预览record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。
+
+六张关联卡完成定向渲染：preflight cards=6、tables=10、rows=46、projected_relation_rows=4、cards_with_relation_changes=3、files_to_write=6；写后字节核验通过，六张卡复预览均无差异。上述机械审计和投影检查不构成S2独立接收或S3–S6全书收口。

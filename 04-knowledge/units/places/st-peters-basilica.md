@@ -3,7 +3,7 @@ title: "圣彼得大殿（St Peter's Basilica）"
 name_en: "St Peter's Basilica"
 type: place
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-10-24
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 3, 5.'
@@ -71,6 +71,18 @@ sources:
 - citation: "Musei Capitolini, Burial of Saint Petronilla, Inv. PC 140. https://www.museicapitolini.org/en/opera/seppellimento-di-santa-petronilla. Accessed 2026-09-10."
   location: "对象字段与 Origin 流传记录；未读所有相关作品"
   sentence_summary: "Guercino 1621–1623 年原油画的当前收藏与流传，排除将原画仍列为圣彼得大殿现藏的表述。"
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 9, p. 251.'
+  location: 第9章；印刷页251；L107–108、注2 L350；PDF physical p.13
+  sentence_summary: Haskell称Passeriano乡间宅邸的柱廊翼仿自Bernini为St Peter’s所作porticos，并转引诗人关于St Peter’s影响的说明；诗歌未独立查阅。
+  original_quotes:
+  - source_span: lines 107–108; printed p.251; PDF physical p.13
+    text: Their country house at Passeriano was approached through two colonnaded wings adapted from Bernini’s porticos for St Peter’s.
+  - source_span: note 2, line 350; printed p.251; PDF physical p.13
+    text: The influence of St Peter’s was noted by eighteenth-century poets.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/09_CHP-9_intro.md
+    source_span: lines 107–108, 350; printed p.251; PDF physical p.13
 process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-places-st-peters-basilica
 ---
 
@@ -139,6 +151,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 预定地点（`intended_site_of`，反向投影） | [《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）](../works/caravaggio-madonna-palafrenieri.md) | Madonna and Child with Saint Anne (Madonna dei Palafrenieri)原定用于该建筑或礼拜堂；时间：1605–1606；角色：原定安置地点；范围：原拟安置圣彼得大殿，短期展出后移出；当前保管在博尔盖塞美术馆。；原断言与证据见发出端卡片“《马夫圣母》（Madonna and Child with Saint Anne (Madonna dei Palafrenieri)）”：[来源](https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri)；src-f6feb49dde36cd50；本卡S2；有S4时并参原定安置段 |
+| ← 所在地（`location_of`，反向投影） | [圣彼得大殿后殿的宗徒之椅（Apostle’s Chair in the Apse of St Peter’s Basilica）](../works/apostles-chair-st-peters-basilica.md) | S2 statement: st-chp6-p151-chair-light-and-architecture; direct location wording is in the immediately preceding sentence on the same source line；角色：原书所述后殿安装位置；范围：Haskell称 Bernini 在圣彼得大殿后殿树立宗徒之椅，并描述其装饰与建筑框架的关系；记录书中所述历史安装语境，不表示当前陈设、保管或现状。；原断言与证据见发出端卡片“圣彼得大殿后殿的宗徒之椅（Apostle’s Chair in the Apse of St Peter’s Basilica）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Ch.6 sec. I line 65; print p.151 |
+
+### 待证关联
+
+第9章注2将St Peter’s与Passeriano乡间宅邸联系为诗人所述影响；原诗未独立查阅，且当前受控词表不能准确表达place→place的影响边，S6保留待证，未新增正式关系。
 
 ### 身份与外部链接
 
