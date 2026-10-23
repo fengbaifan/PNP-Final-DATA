@@ -11785,3 +11785,27 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 七条formal边写入`relations.csv`；term与Palazzo Farnese之间的pending判断保留在本记录和术语卡，不写入不兼容类型的关系行。六张新卡定向预览后渲染，写入5张有正式关系投影的卡；六张卡写后复预览均无差异。全库`build_cards.py --check`仍显示549张卡有关系视图差异、573个文件待渲染；本批只处理六张受影响卡，未触发全库重渲染。
 
 **批后计数与核验。** S2为15,268条statement、26,739条mention；统一独立复核仍为9,573/15,268（62.7%，尚未接收）。S3决定不变，仍为12,415/12,415；new组标签仍待语义核平。S4登记1,830/5,060条new候选映射，尚余3,230条，已映射至1,608个不同KU ID。S5为12,583条字段（1,634条unverified）。S6为745/10,491（456 formal、217 pending、72 rejected），余9,746条；`relations.csv`共1,672条（1,662 formal、10 pending）。relation-candidate中已判new且关系端点的未登记候选减少至1,499个。`audit_tables.py --strict-stage --summary`退出0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic均为0。关系表与卡片局部渲染检查不代表全库关系投影已一致，也不构成S2语义接收或S3–S6全书收口。
+
+## s3-s4-s5-s6-ch8-p237-note2-20261023
+
+### 范围与触发
+
+接续第8章印刷页237注2（源文件L322，PDF物理页43）的五条 `cites` 候选及直接人物端点。扫描页显示四封 Ferdinand–Silva 信件的 Filza 为5904；S0转录保留 `3904`，未改写来源文件。受影响的S2 statement以 `ocr_corrections` 记录 `3904 → 5904` 及扫描页证据。图像保留印刷写法 `letters-between`，故移除旧记录中缺乏图像依据的 `letters between` 校正。
+
+### S2 与 S3
+
+- 为四个唯一编号（96、155、299、607）、No.287、Eleonora姓名及Ferdinand的相关提及补入字符锚点；新增三条关系候选：四封信支持的限定通信、No.287的 `authored_by` 与 `addressed_to`。原信未查阅。
+- `cand-2831` 原为 `undecided`；新锚点明确给出 Marchesa Eleonora Zambeccari 姓名及收信人角色，当前manifest/card无相同人物KU，故按S3 `new` 建立独立组 `sg3-person-cand-2831`。不补入传记或外部身份结论。
+- 四个Filza 5904项目与No.287分别保留既有独立archive身份组，不因同一脚注或相同通信双方而合并。
+
+### S4 与 S5
+
+新登记6个KU：5件书内可区分的档案引文记录，以及Eleonora人物KU。档案卡只记录对应编号、书内文献形式及校勘范围；人物卡只记录书内称谓。档案号来自Haskell书内引文及扫描页校勘，未声称原件核验、当前馆藏或信件内容。
+
+### S6 裁决
+
+本批新增8条 `formal`：5条Haskell书籍至档案记录的 `cites`；1条No.287 `authored_by` Ferdinand；1条No.287 `addressed_to` Eleonora；1条Ferdinand–Silva `corresponded_with`，范围限于脚注列出的四件。四封信不逐封推断发收方向、日期或内容；No.287也不补日期与内容。各关系引用第8章印刷页237注2、L322及PDF物理页43。
+
+### 状态
+
+S3触发项及本批S4、S5、S6已处理；本段不构成全章S2独立复核或全书S3–S6收口。后续优先继续关系直接端点批次，逐批完成登记与裁决；S2仍按章继续独立审读。
