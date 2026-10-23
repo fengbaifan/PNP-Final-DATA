@@ -11276,3 +11276,32 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 **结果与核验。** S4两条直接新组均已登记；S6六项保留明确 pending，一项 formal。当前待续包括 `cand-6667` 的身份/类型边界、p.176 Duquesnoy 死亡事件与 p.181 双死亡陈述的 S2 原子化。定向表审计、关系一致性审计和两张卡关系视图预览结果见本记录末尾追加的核验段。
 
 **核验补记（2026-10-23）。** `audit_tables.py --strict-stage --summary` exit 0：2,580个KU、12,411个候选、12,721条alignment、15,254条statement、12,465条S5字段、`errors=[]`、`s2_missing=[]`；待S4登记3,266条new映射，candidate-backlog pending=0。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。政策事件、死亡事件、黎塞留人物三卡定向渲染后，各自再次 `--preview` 均无差异；渲染写后字节核验通过。本批未把机械审计记作S2语义接收或全书S3–S6收口。
+
+<a id="s4-s5-s6-ch7-p176-poussin-letter-20261023"></a>
+
+### S3沿用／S4／S5／S6：第七章 p.176 Poussin 致 Jean Lemaire 书信与 Correspondance 引注（2026-10-23）
+
+**S3 与 S4。** 沿用 cand-6707 的既有 S3 new 决定和身份组 archive-group-d09186f7edd3，将一封 Haskell 报告的1639年初书信登记为 archive KU units/archives/poussin-letter-to-jean-lemaire-early-1639。依据为第7章 p.176 L81及注2；该书信与已登记的 Jouanny 1911年 Correspondance 书信集是不同对象。新卡将题名标为描述性暂题，不声称已查阅原信或刊本，也不补确切日期、手稿身份或保管地点。未重开 S3。
+
+**S5。** 新卡增加6条 Haskell 原书支持字段（enr-16353–enr-16358）：文献类型、作者、收信人、约略时间、内容摘要和 Haskell 引注定位。均为 source_backed；没有把书信内容转述标成原信引文。
+
+**S6 逐项裁决。** 本批处理与书信端点、相同 Correspondance 版本及 Poussin—Lemaire 关系直接相关的12条 relation candidates。9条 formal 决定生成10条正式关系；3条保留 pending，不在 relations.csv 中创建无有效端点或无受控谓词的占位边。
+
+| statement_id | 决定 | 去向 |
+|---|---|---|
+| st-chp7-p176-i06 | formal | rel-1604 authored_by Poussin; rel-1605 addressed_to Jean Lemaire. |
+| st-chp4-sec-ii-l80-89-poussin-friend-of-jean-lemaire | formal | rel-1606 friend_of; Haskell explicitly states the relationship. |
+| st-chp4-sec-ii-notes-l255-259-fn258-letter-citation | formal | rel-1607 cites the 1911 edition at p. 130. |
+| st-chp4-sec-ii-notes-p112-fn4-poussin-correspondance | formal | rel-1608 cites the 1911 edition at p. 34. |
+| st-chp6-p146-note1-correspondance | formal | rel-1609 cites the 1911 edition at p. 316. |
+| st-chp7-p176-n2-cite-correspondance | formal | rel-1610 cites the 1911 edition at p. 15. |
+| st-chp7-p176-n3-cite-correspondance | formal | rel-1611 cites the 1911 edition at p. 31 n. 2; ibid. resolves to note 2. |
+| st-chp7-p176-n4-cite-correspondance | formal | rel-1612 cites the 1911 edition at pp. 36–37; ibid. resolves to note 2. |
+| st-chp7-p176-n8-cite-poussin-correspondance | formal | rel-1613 cites the 1911 edition at p. 188. |
+| st-chp7-p176-i07 | pending | cand-6667 remains S3 undecided; opinion target and controlled predicate unresolved. |
+| st-chp7-p176-i08 | pending | cand-6708 remains S3 undecided; group endpoint and controlled predicate unresolved. |
+| st-chp4-sec-ii-l80-89-lemaire-created-capricci | pending | cand-5755 is an unidentified plural work group and remains S3 undecided. |
+
+第7章 p.176 的 i07、i08 仅记录 Haskell 转述的 Poussin 对艺术家群体的评价；群体边界与谓词均未解决，因此不生成替代边。第4章的 cand-5755 仍为既有 S3 undecided；本批不重开身份决定。第21章书目列出该1911年版，但 bibliography_lists_publication 不作为 cites relation-candidate。
+
+**S2 边界。** 未改动 statement 或 mention；本次逐页核对及定向归属不计入统一 S2 独立复核分子。原始书信和 Correspondance p.15、34、130、316、31 n.2、36–37、188均未独立查阅。
