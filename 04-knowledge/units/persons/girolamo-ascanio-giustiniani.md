@@ -46,16 +46,20 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** Haskell称Giustiniani为Querini最亲密的朋友，并称友谊祭坛下的铭文献给他；铭文文字未见转录。两条直接S2关系候选留待S6。 直接S2关系候选st-chp15-p370-altar-inscription-dedicated-to-giustiniani, st-chp15-p370-giustiniani-querinis-closest-friend保留待S6；本批不据身份登记裁定关系。
+**中文：** Haskell称Giustiniani为Querini最亲密的朋友，并称友谊祭坛下的铭文献给他；两项关系均按第15章的原书报告登记，铭文文字未见转录，未作外部核验。
 
-**English:** Haskell calls Giustiniani Querini’s closest friend and says an inscription below the Altar of Friendship was dedicated to him; the inscription is not transcribed. Both direct S2 relation candidates remain for S6. The direct S2 relation candidate st-chp15-p370-altar-inscription-dedicated-to-giustiniani, st-chp15-p370-giustiniani-querinis-closest-friend remains for S6; this registration makes no relation decision.
+**English:** Haskell calls Giustiniani Querini’s closest friend and says an inscription below the Altar of Friendship was dedicated to him; both relations are recorded as Haskell’s account in chapter 15. The inscription is not transcribed, and neither relation is externally verified.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← dedication_recipient_of（`dedication_recipient_of`，反向投影） | [阿尔蒂基耶罗友谊祭坛下方献给朱斯蒂尼亚尼的铭文（Inscription below the Altar of Friendship dedicated to Girolamo Ascanio Giustiniani）](../works/inscription-dedicated-to-girolamo-ascanio-giustiniani-alticchiero.md) | 记录原书所述献辞对象，不补写铭文文本；角色：受献者；范围：Haskell称铭文献给Girolamo Ascanio Giustiniani；铭文文字未被本书转录。；原断言与证据见发出端卡片“阿尔蒂基耶罗友谊祭坛下方献给朱斯蒂尼亚尼的铭文（Inscription below the Altar of Friendship dedicated to Girolamo Ascanio Giustiniani）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；st-chp15-p370-altar-inscription-dedicated-to-giustiniani; line 65; print p. 370; PDF p. 10 |
+| ← 朋友（`friend_of`，反向投影） | [安杰洛·奎里尼（Angelo Querini）](angelo-querini.md) | 原文前后文将“his”指向Querini；关系判断限于该段作者叙述；角色：最亲密的朋友；范围：Haskell在友谊祭坛段落称Giustiniani为Querini最亲密的朋友；仅记录书内关系报告，不作外部核验。；原断言与证据见发出端卡片“安杰洛·奎里尼（Angelo Querini）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；st-chp15-p370-giustiniani-querinis-closest-friend; line 65; print p. 370; PDF p. 10 |
 
-**中文：** 直接S2关系候选st-chp15-p370-altar-inscription-dedicated-to-giustiniani, st-chp15-p370-giustiniani-querinis-closest-friend保留待S6逐条裁决；本批不新增正式关系。
 
-**English:** The direct S2 relation candidate st-chp15-p370-altar-inscription-dedicated-to-giustiniani, st-chp15-p370-giustiniani-querinis-closest-friend remains for individual S6 review; this registration adds no formal relation.
+**中文：** 友谊关系依据原书报告登记为formal；铭文献辞关系见本卡上方的受献者关系入口。两项均限于哈斯克尔所述，不表示外部核验。
+
+**English:** The friendship is registered as formal based on Haskell’s report; the inscription dedication appears above as a relation entry. Both claims are limited to Haskell’s account and are not externally verified.

@@ -11456,3 +11456,43 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 | st-chp8-p241-ferdinand-satisfaction-in-promotion | Ferdinand 的满足感及“最有活力”的评价性陈述，不是关系边 |
 
 批后结构化计数：S2新增5条statement、统一独立复核分子不变；S3新增3个候选并将1项既有候选由undecided改为new；S4新增7个KU与8条映射；S5新增14条source_backed字段；S6裁决44条（13 formal、26 pending、5 rejected），relation表新增11条formal及1条pending，另复用rel-1619并将p.230、p.241两项Sgrilli引注合并到rel-1629。14张受影响卡片完成定向预览与渲染（preflight：14 cards、24 tables、92 rows、202 projected relation rows；files_written=14），渲染后复预览files_to_write=0。audit_tables.py --strict-stage --summary退出0，errors=[]、s2_missing=[]；关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。孤立KU 1,384项、孤立预览行100项及过度连接2项另保留作图谱覆盖提示。机械审计不代表外部身份核验、被引作品阅读或全书阶段收口。机械审计不代表外部身份核验、被引作品阅读或全书阶段收口。
+
+<a id="s3-s4-s5-s6-chp15-p370-phocion-cross-chapter-20261023"></a>
+### 第十五章 p.370 友谊祭坛及第4、21章交叉引注（2026-10-23）
+
+**来源范围与S2增补。** 复核第15章印刷页370（PDF物理页10）L64–65：Haskell称友谊祭坛有Epicurus与Phocion的巨型半身像，分别附法语称谓；将Phocion描述为曾反对ignorant mob者及Querini的特别英雄；并称祭坛下有献给Girolamo Ascanio Giustiniani的铭文。对照第4章印刷页114脚注2（PDF物理页25）L292及第21章印刷页435 L1046，确认书内同时指称《Funeral of Phocion》、引用Sheila Rinehart在Actes的文章，以及书目所列“Poussin et la famille dal Pozzo”。新加 mention `m-chp4-sec-ii-notes-p114-0056-phocion-title` 与 statement `st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject`，对应既有书内标题提及；S2总量增加1。该statement没有独立复核，不计入统一S2独立复核分子；第4章2026-10-20复核记录的1,082条历史分子保持不变。
+
+原书脚注OCR将题名连写为“Funeral ofPhocion”，保留S0转录并以结构化校正记录页面读法。第21章扫描书目读作“1960, I”，第4章脚注写1961；年份差异继续并列待证。未查阅Rinehart文章、Actes目录或被引页面，亦未据此给Rinehart建立人物身份或authored_by边。`cand-5935`仍指向未辨明数量／版本的Cassiano绘画组，不与《Funeral of Phocion》强并；`cand-5937`仅登记书中明确列名的作品候选，具体版本与Lord Plymouth藏品对应待证。
+
+**S3跨章身份裁决。** 既有S3对齐仅因新书内语境重新开启两项：`cand-0977` Epicurus（aln-1312）及`cand-10556` Phocion（aln-10726）从undecided改为new，分别建立书内人物组。第15章提供人物名、半身像主题及称谓；第4章标题中的Phocion提供跨章书内锚点。两项均未作外部身份核查。新旧决定及原理由保存在alignment.csv resolution_note；不把p.114作品版本待证转化为人物身份冲突。
+
+| 候选 | S3决定 | S4映射 | 范围 |
+|---|---|---|---|
+| cand-10555 | new；既有work组 | units/works/altar-of-friendship-alticchiero | Haskell所称花园祭坛；题名按来源称谓记录 |
+| cand-10557 | new；既有work组 | units/works/colossal-busts-epicurus-phocion-alticchiero | 两尊半身像作为同一组；来源未分别给创作者、年代或现址 |
+| cand-10558 | new；既有work组 | units/works/inscription-dedicated-to-girolamo-ascanio-giustiniani-alticchiero | 铭文对象，未转录原文 |
+| cand-0977 | new；本轮重开 | units/persons/epicurus | 第15章语境中的来源内人物身份 |
+| cand-10556 | new；本轮重开 | units/persons/phocion | 第15章及第4章题名中的来源内人物身份 |
+| cand-5937 | new；既有work组 | units/works/funeral-of-phocion | 题名所指作品；版本与具体藏品映射未解决 |
+| cand-11428 | new；既有archive组 | units/archives/rinehart-poussin-et-la-famille-dal-pozzo-actes | 第4章脚注与第21章书目对应的文章；作者身份与1960/1961差异未解决 |
+
+**S4与S5。** 新登记7个KU组并完成7条候选映射；alignment.csv分别为aln-10725、aln-10727、aln-10728、aln-1312、aln-10726、aln-6118、aln-11591。新增15条`source_backed`字段（enr-16401–enr-16415），位于七张新卡片，记录来源称谓、作品类型、书内责任者形式、题名、文集卷次、页码及年份差异。卡片将书内报告与外部事实核验分开；没有为未知作者、日期、材质、现存状态等补空值。七张新卡及Haskell、Giustiniani、Angelo Querini三张既有卡共10张完成定向预检与渲染；Giustiniani和Querini因本段友谊边新增再次渲染。
+
+**S6逐项裁决。** 本批12条关系候选全部形成去向：7条formal，5条pending；新增`relations.csv` formal行`rel-1639`–`rel-1645`。其中历史遗留候选`st-chp15-p370-giustiniani-querinis-closest-friend`依据第15章该段前后文将“his”指向Querini，新增rel-1645：Angelo Querini `friend_of` Girolamo Ascanio Giustiniani；仅记录Haskell的明确书内描述，不作外部核验。
+
+| statement_id | 决定 | 裁决及边界 |
+|---|---|---|
+| st-chp15-p370-friendship-altar-epicurus-phocion-busts | formal | rel-1639：半身像组`part_of`友谊祭坛；仅记Haskell的书内陈述，不推断现存 |
+| st-chp15-p370-altar-bust-pair-depicts-epicurus | formal | rel-1640：半身像组`has_subject` Epicurus；不推断创作者、年代或现址 |
+| st-chp15-p370-altar-bust-pair-depicts-phocion | formal | rel-1641：半身像组`has_subject` Phocion；同上 |
+| st-chp15-p370-altar-inscription-dedicated-to-giustiniani | formal | rel-1642：铭文`dedicated_to` Girolamo Ascanio Giustiniani；原文未转录 |
+| st-chp15-p370-giustiniani-querinis-closest-friend | formal | rel-1645：Angelo Querini `friend_of` Girolamo Ascanio Giustiniani；第15章原文明确称其为Querini的closest friend，按来源叙述记录 |
+| st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject | formal | rel-1643：作品题名`has_subject` Phocion；只表达Haskell所列题名，不证明被引版本或具体复制品 |
+| st-chp4-sec-ii-notes-p114-fn2-cite-rinehart-actes | formal | rel-1644：Haskell原书`cites` Rinehart文章；保留两处年份差异，不把引注视为文章事实核验 |
+| st-chp15-p370-phocion-described-as-querini-hero | pending | 原文为人物描述，但现有受控关系类型不能准确表达“Querini的特别英雄”；不改写为朋友或赞助关系 |
+| st-chp15-p370-epicurus-misunderstood-by-vulgar-minds | pending | “vulgar minds”为未具名修辞性群体，不能构造具名端点 |
+| st-chp15-p370-phocion-stood-out-against-ignorant-mob | pending | “ignorant mob”为未具名群体，且叙述是来源对人物行为的描述；无可识别端点或精确受控谓词 |
+| st-chp15-p370-altar-inscription-located-below-altar | pending | 空间描述有来源支持，但祭坛为work；当前`located_at`域值域不兼容，`part_of`又不能准确表示“下方”，故不强制成边 |
+| st-chp4-sec-ii-notes-p114-fn2-phocion | pending | 该引注候选仍挂在未辨明的Cassiano作品组cand-5935上；版本／对象端点未解决 |
+
+**检查与计数。** `audit_tables.py --strict-stage --summary`通过，errors=[]、s2_missing=[]；`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。全局`build_cards.py --check`通过，但显示全库关系投影仍有预览差异，本批不触发全量重渲染；10张受影响卡片已在选定范围预检与渲染，写后字节核验成功。批后：S2 statements 15,262；统一独立复核分子仍9,573。S3主决定数不变，为12,393/12,414，new增加2至5,041、undecided降至5,209。S4为1,574组、1,794/5,041条映射，待登记3,247条。S5为12,528字段，unverified 1,634条。S6为701/10,486项已裁决（427 formal、202 pending、72 rejected），尚余9,785项；relations.csv为1,645行（1,635 formal、10 pending）。全局关系候选端点缺失数无变化。机械检查不构成S2接收、外部身份核验或全阶段收口。

@@ -67,9 +67,9 @@ English: The book names him Angelo Querini; the Chinese form is for display only
 
 ### 身份边界
 
-中文：姓名按书内全名和第10、15章回指登记；不将哈斯克尔的评价改写成客观排名，不补未引证的头衔、家系或外部生平。S2 的赞助、收藏及人物交往断言仍留待 S6，不在本卡新增正式关系。中文名为便于识别的音译。
+中文：姓名按书内全名和第10、15章回指登记；不将哈斯克尔的评价改写成客观排名，不补未引证的头衔、家系或外部生平。第15章称Querini与Giustiniani为朋友的S2断言已按原书报告登记为formal关系；其他赞助、收藏及人物交往候选仍逐项留待S6。中文名为便于识别的音译。
 
-English: Register the person from the full name and cross-chapter references in the book. Do not turn Haskell's assessments into objective rankings or add uncited titles, genealogy, or external biography. S2 claims about patronage, collecting, and associations remain for S6; this card adds no formal relations. The Chinese display name is a transliteration for readability.
+English: Register the person from the full name and cross-chapter references in the book. Do not turn Haskell's assessments into objective rankings or add uncited titles, genealogy, or external biography. The chapter 15 statement naming Giustiniani as Querini's closest friend is recorded as a formal relation based on Haskell's report; other patronage, collecting, and personal-association candidates remain for individual S6 review. The Chinese display name is a transliteration for readability.
 
 ## 关系与证据
 
@@ -80,3 +80,4 @@ English: Register the person from the full name and cross-chapter references in 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 参与事件（`participated_in`，反向投影） | [威尼斯1761年宪政危机（Venetian constitutional crisis of 1761）](../events/venetian-constitutional-crisis-1761.md) | 扫描页明确称Querini在危机中发挥主导作用。两个S2候选描述同一 event-person 自然边：leading-role断言建立参与边，first-notoriety断言提供同页时间语境；共用一个relation_id，不重复建边。主记录按受控 has_participant 方向 event→person；人物卡显示 participated_in 仅为反向投影。第7注所引Bozzola未独立查阅；时间：1761；角色：在危机中发挥主导作用；范围：Haskell所述的1761年宪政危机；不延伸到未载的危机起讫时间；原断言与证据见发出端卡片“威尼斯1761年宪政危机（Venetian constitutional crisis of 1761）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p. 368 (L46; PDF physical p. 8); S2 statements: st-chp15-p368-querini-leading-role-1761-crisis, st-chp15-p368-querini-first-notoriety-1761 |
+| → 朋友（`friend_of`） | [吉罗拉莫·阿斯卡尼奥·朱斯蒂尼亚尼（Girolamo Ascanio Giustiniani）](girolamo-ascanio-giustiniani.md) | 原文前后文将“his”指向Querini；关系判断限于该段作者叙述；角色：最亲密的朋友；范围：Haskell在友谊祭坛段落称Giustiniani为Querini最亲密的朋友；仅记录书内关系报告，不作外部核验。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；st-chp15-p370-giustiniani-querinis-closest-friend; line 65; print p. 370; PDF p. 10 |

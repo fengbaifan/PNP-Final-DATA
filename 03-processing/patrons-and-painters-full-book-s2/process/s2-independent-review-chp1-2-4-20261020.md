@@ -1863,3 +1863,7 @@ capuchin-introduction-forecast、committee-lists-amended、committee-preferred-o
 这些差集不是自动修复清单。直接对应文本的项目应补映射/mention或说明限定，例如L240 Munich drawing (cand-1714)、L254 bird paintings (cand-5743)、L259 Leonardo/Mazenta/Chantelou相关对象、L270 Gaudenzi letters (cand-5839)、L291未具名contemporaries (cand-11681)、L301 “these pictures” (cand-11667)和L307–308 Claude画组/馆藏、Cortona画、Bartoli plates；相反，p.116 L295的三条Claude映射无据，应移除而非补造mention。cand-2962是引用statement的来源书记录；不应仅因它作为cites主语而自动补成书内mention。其余差异需逐一判断是正文跨段先行项、脚注所指但未在本注重提的对象、作者/文献层级混用，还是实际映射遗漏；不能据差集推断对象身份或改写来源事实。
 
 **本批结论**：199/199条均已逐条核读，未将true/false标签当作接受；本段存在claim限定丢失、复合断言、脚注引文锚不足、引用页码错误、局部mention映射不齐及引文转录未结构化校正等问题，故不接收。第4章累计逐条核读1,082/1,082；未审statement为0，但章节仍不接收，待上列实质问题与待证端点逐项修订/裁决后再复核。只追加本独立审阅过程记录；未修改来源资产、book-statements.jsonl、mentions.csv、候选表或知识卡。
+
+### 2026-10-23定向增补后的复核计数
+
+在上述复核之后，S4/S5/S6跨章批次向第4章印刷页114脚注2新增mention `m-chp4-sec-ii-notes-p114-0056-phocion-title`，并向`book-statements.jsonl`新增statement `st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject`。该条只记录Haskell引注标题中的Phocion，不证明具体作品版本或复制品身份，且尚未独立逐条复核。因此本过程记录的历史复核分子仍为1,082；按当前表内statement计，第4章相应范围为1,082/1,083，新增1条必须在后续复核中单独处理，不能沿用2026-10-20的“未审statement为0”。该项不计入全书统一S2独立复核分子。
