@@ -15859,7 +15859,7 @@ m-chp7-p176-b-065,chp-7:07_CHP-7_sec_i:l76-89,cand-2191,it,2342,2344,The Bernini
 m-chp7-p176-b-064,chp-7:07_CHP-7_sec_i:l76-89,cand-0643,Phikppe de Champaigne,2348,2369,"The named painter of the unidentified triple portrait; the scan reads 'Philippe', while S0 OCR has 'Phikppe'."
 m-chp7-p176-b-066,chp-7:07_CHP-7_sec_i:l76-89,cand-4653,Paris,2388,2393,The bust's destination.
 m-chp7-p176-b-067,chp-7:07_CHP-7_sec_i:l76-89,cand-2189,its subject,2477,2488,Cardinal Richelieu.
-m-chp7-p176-b-068,chp-7:07_CHP-7_sec_i:l76-89,cand-2189,Richelieu’s death,2491,2508,Cardinal Richelieu.
+m-chp7-p176-b-068,chp-7:07_CHP-7_sec_i:l76-89,cand-12433,Richelieu’s death,2491,2508,Richelieu's death event; distinct from person candidate cand-2189.
 m-chp7-p176-b-069,chp-7:07_CHP-7_sec_i:l76-89,cand-2190,French plans,2535,2547,The policy of bringing Italian artists to Paris.
 m-chp7-p176-b-070,chp-7:07_CHP-7_sec_i:l76-89,cand-6709,the Surintendant,2552,2568,The unnamed Surintendant des Bâtiments referred to earlier.
 m-chp7-p176-b-071,chp-7:07_CHP-7_sec_i:l76-89,cand-6718,‘toute la troupe des vertueux’,2588,2618,The unnamed group informed of continuing French plans.
@@ -27365,3 +27365,5 @@ m-chp21-bib-l207-241-019-author,chp-21:21_CHP-21Bibliography:l207-241,cand-0412,
 m-chp21-bib-l538-575-014-author,chp-21:21_CHP-21Bibliography:l538-575,cand-5622,"Gualdo Priorato, Galeazzo",1238,1263,Author form in the Haskell bibliography entry; S3 groups it with the cross-chapter Galeazzo Gualdo Priorato candidate.
 m-chp16-p373-sasso-0031,chp-16:16_CHP-16_intro:l69-89,cand-2517,Strange,270,277,Exact local mention in 'letters from Strange to Sasso'; added after the Chapter 13-17 S2 review flagged the missing note-level anchor.
 m-chp16-p373-sasso-0032,chp-16:16_CHP-16_intro:l69-89,cand-2517,Strange,483,490,Exact local mention in 'four letters from him to Strange'; added after the Chapter 13-17 S2 review flagged the missing note-level anchor.
+m-chp7-p176-b-088,chp-7:07_CHP-7_sec_i:l76-89,cand-12433,the death of its subject,2464,2488,"The Richelieu bust's subject; this is the death event, used only as a relative time reference."
+m-chp7-p180-b-079,chp-7:07_CHP-7_sec_i:l128-138,cand-12433,death of Richelieu in 1642,585,611,Haskell's explicit cross-reference to the same death event; p.180 supplies the source-reported year 1642.

@@ -11250,3 +11250,29 @@ audit_tables.py --strict-stage --summary 通过：errors=[]、s2_missing=[]、ca
 | `st-chp7-p175-i19` | formal | 新增 `rel-1602 influenced`：作品群→黎塞留。只记录Haskell明确称其“间接”引起黎塞留对曼图亚的关注，不推断购入或取得这十幅画。 |
 
 **批后统计。** S3主决定12,390/12,410；new为5,033（4,802组），undecided为5,220，缺主决定20项。S4登记1,549/4,802组、1,766/5,033条映射；待登记3,253组／3,267条映射。S5为12,458条字段（1,634条unverified）。S6累计613/10,478（384 formal、162 pending、67 rejected）；`relations.csv`为1,602条（1,593 formal、9 pending）。本批未改变S2独立复核分子；全书S2尚未接收，S3–S6仍未全书收口。
+
+<a id="s3-s4-s5-s6-ch7-richelieu-policy-death-20261023"></a>
+
+### S2定向修订／S3／S4／S5／S6：第七章黎塞留招揽政策与死亡事件（2026-10-23）
+
+**S2修订与来源边界。** 接续 `process/stages.md` 的第七章 p.175–176 独立核读问题：`st-chp7-p175-i21` 原标 `relation_candidate=false`，但原句 “her minister, Cardinal Richelieu” 明确断言人物角色，已改为 `true`；`st-chp7-p176-i27` 的主语原映射到人物 `cand-2189`，扫描与 S0 均明确写的是 “Richelieu’s death”，现将主语改为独立事件候选 `cand-12433`。新增 `st-chp7-p180-richelieu-death-event-person`，将 p.180 对 “the death of Richelieu in 1642” 的明文定位转成事件—逝者候选。新增/修订不计入 S2 独立复核分子；p.181 将黎塞留与路易十三之死及马萨林艺术抱负合并的 statement 仍待单独原子化，未视作已解决。
+
+**S3跨段身份与S4登记。** `cand-2190` 沿用 S3 `new` 身份组 `sg3-event-cand-2190`，登记为 `units/events/richelieu-attempt-to-recruit-italian-artists-paris`。事件粒度限于 Haskell 所述黎塞留在生命最后几年启动的招揽政策尝试；不与马萨林 1644 年招揽贝尔尼尼、1648 年招揽阿尔加迪两次具体行动合并。新增 `cand-12433`，将 p.176 “Richelieu’s death” 与 p.180 “death of Richelieu in 1642” 判为同一死亡事件，S3 `new` 组 `sg3-event-richelieu-death-1642`，登记为 `units/events/death-of-cardinal-richelieu-haskell-1642`。日期仅按 Haskell p.180 记录；未补具体日、地点、死因或外部事件标识。事件候选与黎塞留人物 KU 保持不同类型和身份。
+
+**S5来源字段。** 两张事件卡从 Haskell 书内段落抽取 7 条 source-backed 字段（`enr-16346`–`enr-16352`）；无外部核验字段。招揽政策的时间只记为“黎塞留生命最后几年”，不推算年份；目标艺术家未作成员识别。
+
+**S6逐候选裁决。** 本批覆盖六条既有关系候选及一条新增事件—人物候选：
+
+| statement_id | 决定 | 去向 |
+|---|---|---|
+| `st-chp7-p180-richelieu-death-event-person` | formal `rel-1603 has_participant` | 死亡事件 → 黎塞留人物；角色限于逝者，1642为Haskell来源所报年份。 |
+| `st-chp7-p175-i21` | pending | 书内明确为 minister 角色；受控词表没有精确谓词，不改写为 `employed_by` 或 `advised`。 |
+| `st-chp7-p175-i29` | pending | 政策事件的招募目标仍连到 S3 `undecided` 的 `cand-6667`；“招募目标”没有精确受控谓词，不改用 `has_subject`。 |
+| `st-chp7-p176-i27` | pending | 两个事件端点已登记，但“死亡没有中断计划”是负向延续陈述；不能改成正向 `influenced`。 |
+| `st-chp7-p176-i28` | pending | 通知者仍未具名，`toute la troupe des vertueux` 不证明正式组织，且没有精确通知谓词。 |
+| `st-chp7-p180-i03` | pending | 保留马萨林接掌法国政府的来源陈述；当前候选谓词不能精确表达“接管政府”，不以泛化组织关系替代。 |
+| `st-chp7-p181-i17` | pending | 哈斯克尔把黎塞留与路易十三之死合并为马萨林艺术抱负的因果解释；路易十三事件及原子化仍缺，不把解释转成单一正式边。 |
+
+**结果与核验。** S4两条直接新组均已登记；S6六项保留明确 pending，一项 formal。当前待续包括 `cand-6667` 的身份/类型边界、p.176 Duquesnoy 死亡事件与 p.181 双死亡陈述的 S2 原子化。定向表审计、关系一致性审计和两张卡关系视图预览结果见本记录末尾追加的核验段。
+
+**核验补记（2026-10-23）。** `audit_tables.py --strict-stage --summary` exit 0：2,580个KU、12,411个候选、12,721条alignment、15,254条statement、12,465条S5字段、`errors=[]`、`s2_missing=[]`；待S4登记3,266条new映射，candidate-backlog pending=0。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。政策事件、死亡事件、黎塞留人物三卡定向渲染后，各自再次 `--preview` 均无差异；渲染写后字节核验通过。本批未把机械审计记作S2语义接收或全书S3–S6收口。
