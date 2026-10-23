@@ -12115,3 +12115,30 @@ audit_tables.py --strict-stage --summary：kus=2669、candidates=12416、alignme
 表格严格审计：`kus=2682`、`candidates=12416`、`alignment_new_pending_registration=3180`、`relations=1749`（formal 1736）、`enrichment_rows=12774`、`book_statements=15283`、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。`build_cards.py` 对两个受影响KU预览仅显示本批新增投影；已定向渲染两卡，写后字节核验通过，复预览无差异。
 
 批后S3主决定12,416/12,416：same=2,043（1,099个KU目标）、new=5,065、conflict=9、excluded=101、undecided=5,198；S4仍有3,180条new候选待登记，其中1,453个直接关系端点候选ID待映射。S6逐条决定847/10,506（521 formal、243 pending、83 rejected），余9,659条；关系表1,749条（1,736 formal、13 pending）。S5字段12,774条（1,634 unverified）。本批不代表S3–S6全书收口。
+
+<a id="s4-s5-s6-ch6-p146-castro-town-20261024"></a>
+### S4／S5／S6：第6章 p.146 卡斯特罗镇（2026-10-24）
+
+#### S3沿用与S4登记
+
+沿用 `cand-6257` 的既有 S3 `new` 主决定及单成员组 `sg3-place-cand-6257`，登记至[卡斯特罗镇地点卡](../../../04-knowledge/units/places/castro-town.md)。第6章印刷页146 L6称 Castro 为 “a little town”，并说其位于 papal territory 以内。登记对象是书中指称的城镇，不与 `units/events/first-war-of-castro` 战争事件合并；不推定现代行政区、精确现址或与别名地名的身份。未发现需要重开 S3 的新冲突。
+
+#### S5 来源字段
+
+新增1条 `source_backed` 字段（“地点性质：小镇”），依据 Haskell 第6章 p.146 L6。书内称名由卡片标题与 `name_en` 保留，不另作重复字段；“位于教皇领地以内”由下述正式关系表达，不重复为地点属性。
+
+#### S6 逐项裁决
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp6-p146-castro-papal-territory` | formal `rel-1750 located_at`：卡斯特罗镇 → Papal States；仅表达 Haskell 所述的历史地理位置，不据此推定现代行政归属。 |
+| `st-chp6-p146-castro-location` | pending：原文称城镇“belonging to the Duke of Parma”，但不足以在地产所有、封建／领土归属等含义间裁决；当前受控谓词不能准确表达此处歧义，不替换为 `owned_by` 或 `part_of`。 |
+| `st-chp6-p146-castro-dispute` | rejected 为正式关系：段落把财政争端、Duke 遭绝罚及城镇被占领连作复合叙述，未单独支持 Duke 与 Castro 之间的特定受控关系或行动主体；原文语境仍保留在卡片，不把复合因果拆成图边。 |
+
+#### 检查与批后状态
+
+`build_field_facts.py` 写入前预览：`record_changes=0`、`new_ids=1`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；应用后字段表新增1行，`unverified` 数未变。卡斯特罗镇与 Papal States 两张卡的定向预览只显示 `rel-1750` 正向边及其 `location_of` 反向投影；两卡定向渲染通过写后字节核验，复预览无差异。
+
+本批只登记1条S4候选映射、1条S5字段，新增1条formal关系；另2条S6候选分别记pending与rejected。批后全书计数以本记录所附严格表审计和关系一致性审计的实际输出更新；此批不构成S3–S6全书收口。
+
+`audit_tables.py --strict-stage --summary`：`kus=2683`、`candidates=12416`、`alignment_new_pending_registration=3179`、`candidate_backlog_rows=25`（`pending=0`）、`relations=1750`（`formal_relations=1737`）、`enrichment_rows=12775`（`1634 unverified`）、`book_statements=15283`、`s2_missing=[]`、`errors=[]`。剩余S4映射3,179条，其中已判`new`的直接关系端点候选ID仍有1,452个未映射。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。批后S6逐条决定850/10,506（522 formal、244 pending、84 rejected），余9,656条；S3仍为12,416/12,416，本批未改动S2 statements或mentions。上述未决量说明阶段仍未收口。
