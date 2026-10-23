@@ -1,4 +1,4 @@
-mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -27418,3 +27418,8 @@ m-ch8-p237-note2-silva-letter-299,chp-8:08_CHP-8_sec_ii:l311-325,cand-8019,299,2
 m-ch8-p237-note2-silva-letter-607,chp-8:08_CHP-8_sec_ii:l311-325,cand-8020,607,2247,2250,Fourth cited locator number.
 m-ch8-p237-note2-eleonora-zambeccari,chp-8:08_CHP-8_sec_ii:l311-325,cand-2831,Marchesa Eleonora Zambeccari,2290,2318,Named addressee of the cited No. 287 letter.
 m-ch8-p237-note2-zambeccari-letter-287,chp-8:08_CHP-8_sec_ii:l311-325,cand-8021,No. 287,2352,2359,Unique locator for Ferdinand’s cited letter to Eleonora Zambeccari.
+m-chp21-bib-l498-536-ghelli-author,chp-21:21_CHP-21Bibliography:l498-536,cand-7121,"Ghelli, M. E.",1672,1685,Bibliography author form; initials retained.
+m-chp21-bib-l701-754-maclaren-author,chp-21:21_CHP-21Bibliography:l701-754,cand-7123,"Maclaren, N.",1098,1110,Bibliography author form; initial retained.
+m-chp21-bib-l883-926-orlandi-author,chp-21:21_CHP-21Bibliography:l883-926,cand-7136,"Orlandi, Pellegrino Antonio",1164,1191,Full author form as printed in the bibliography.
+m-chp21-bib-l883-926-pacichelli-author,chp-21:21_CHP-21Bibliography:l883-926,cand-6974,"Pacichelli, Abbate Gio: Battista",1904,1936,Author form as printed; do not expand Gio: or infer further identity details.
+m-chp21-bib-l1059-1100-saxl-author,chp-21:21_CHP-21Bibliography:l1059-1100,cand-6153,"Saxl, F.",2558,2566,Bibliographic author form matched by the identical article title.

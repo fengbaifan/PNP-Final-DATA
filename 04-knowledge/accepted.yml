@@ -2680,6 +2680,19 @@ units:
 - 04-knowledge/units/works/illusionistic-colonnade-spada-garden.md
 - 04-knowledge/units/works/domenichino-cardinal-virtues-catinari-pendentives.md
 - 04-knowledge/units/terms/cardinal-virtues.md
+- 04-knowledge/units/archives/ghelli-il-vicere-marchese-del-carpio-1933-1934.md
+- 04-knowledge/units/archives/maclaren-the-spanish-school-1952.md
+- 04-knowledge/units/archives/avviso-1677-06-12.md
+- 04-knowledge/units/archives/society-of-antiquaries-del-carpio-antiquities-album.md
+- 04-knowledge/units/archives/pacichelli-memorie-viaggi-europa-christiana-1685.md
+- 04-knowledge/units/archives/letter-destrees-to-louis-xiv-1684-07-27.md
+- 04-knowledge/units/archives/discursos-berwick-public-reception-1924.md
+- 04-knowledge/units/archives/orlandi-abecedario-pittorico-1753.md
+- 04-knowledge/units/archives/saxl-battle-scene-without-hero-1939-1940.md
+- 04-knowledge/units/archives/listas-el-escorial-ms-iv-25.md
+- 04-knowledge/units/persons/gio-battista-pacichelli.md
+- 04-knowledge/units/persons/pellegrino-antonio-orlandi.md
+- 04-knowledge/units/persons/fritz-saxl.md
 claims:
 - m1-papal-nephews-led-patronage
 - m2-compatriot-networks
@@ -2693,5 +2706,4 @@ claims:
 - m10-rosa-independence-and-exceptions
 - m11-patronage-instability-and-market
 - m12-academy-and-bent-overlap
-
 structure: []

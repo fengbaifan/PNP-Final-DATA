@@ -11916,6 +11916,70 @@ cand-12219 原为类型边界未决。本段把“两层低矮翼部”裁为 wo
 本批后 S2 共15,276条，统一独立复核仍为9,573条；S3主决定仍覆盖12,416/12,416；S4新增11条映射；S5新增25条字段；S6新增20项可追溯裁决。定向 render 预检通过：选择15张卡片、15张表、88条表格行与53条关系投影，11张需写入；写入11张并通过写后字节核验。15张定向 preview 均无差异。build_field_facts 预览为 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。audit_tables.py --strict-stage --summary：kus=2659、candidates=12416、alignment_new_pending_registration=3204、backlog=18且pending=0、relations=1722（formal=1709）、enrichment_rows=12674（unverified=1634）、book_statements=15276、s2_missing=[]、errors=[]；仅报告全库尚有3204条new候选待S4登记及S2语义质量仍需依据过程记录核查。audit_relation_consistency.py：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。下一批按未解决关系候选的端点解锁数优先选择 S4 端点，并在同批逐项裁决可判定的 S6 候选。
 
 
+<a id="s3-s4-s5-s6-chp7-p190-p191-archive-endpoints-20261024"></a>
+### S3跨章复核／S4／S5／S6：第七章 pp.190–191 与第21章书目档案端点（2026-10-24）
+
+#### S3 身份组与裁决
+
+以 Haskell 第七章印刷页190–191及第21章书目印刷页432、436为书内依据，跨章核对引注与书目作者。重开两项主决定：`cand-7125` 原 `new` 改为 `same`，指向已登记的 `units/archives/roma-volume-xix-1941`（候选 `cand-6575` 已将该刊卷登记在此 KU）；`cand-6974` 从 `undecided` 改为 `new`，书目足以支持来源限定的作者名形式“Pacichelli, Abbate Gio: Battista”，但不扩写名字或作外部身份认定。其余 S3 决定仅在原有身份组下登记；没有因相似标题将不同文献合并。
+
+| candidate | identity group | S4 KU |
+|---|---|---|
+| `cand-6153` | `new-person:fritz-saxl-abb28f661f` | `units/persons/fritz-saxl` |
+| `cand-6973` | `archive-group-dd2e16f2f844` | `units/archives/pacichelli-memorie-viaggi-europa-christiana-1685` |
+| `cand-6974` | `new-person:pacichelli-gio-battista-67a9fdfeba` | `units/persons/gio-battista-pacichelli` |
+| `cand-7122` | `archive-group-a30cb8cfe741` | `units/archives/ghelli-il-vicere-marchese-del-carpio-1933-1934` |
+| `cand-7124` | `archive-group-d80c20627c81` | `units/archives/maclaren-the-spanish-school-1952` |
+| `cand-7126` | `archive-group-d6bd0d24679b` | `units/archives/avviso-1677-06-12` |
+| `cand-7129` | `archive-group-c9bfa5e32601` | `units/archives/society-of-antiquaries-del-carpio-antiquities-album` |
+| `cand-7131` | `archive-group-df43362f4a0b` | `units/archives/letter-destrees-to-louis-xiv-1684-07-27` |
+| `cand-7135` | `archive-group-4d9895b4a8bb` | `units/archives/discursos-berwick-public-reception-1924` |
+| `cand-7136` | `new-person:antonio-orlandi-pellegrino-91f3f73e6f` | `units/persons/pellegrino-antonio-orlandi` |
+| `cand-7137` | `archive-group-a4fef8d9ba54` | `units/archives/orlandi-abecedario-pittorico-1753` |
+| `cand-7138` | `archive-group-c77e376144d8` | `units/archives/saxl-battle-scene-without-hero-1939-1940` |
+| `cand-7139` | `archive-group-103d97df50ab` | `units/archives/listas-el-escorial-ms-iv-25` |
+
+所有13项均有对应主决定和 S4 映射；新增对象路径已加入 `04-knowledge/accepted.yml`。`cand-7121`（Ghelli）、`cand-7123`（Maclaren）、`cand-7128`（未注明分支的 Society of Antiquaries）及 `cand-0983`（Duc d’Estrées）仍保留未决身份，不补造姓名或机构分支。
+
+#### S2 与 S5 支持
+
+新增7条原子关系 statement：`st-chp21-bib-l498-536-ghelli-authored-by`、`st-chp21-bib-l701-754-maclaren-authored-by`、`st-chp21-bib-l883-926-pacichelli-authored-by`、`st-chp7-p191-n4-letter-authored-by`、`st-chp7-p191-n4-letter-addressed-to-louis-xiv`、`st-chp21-bib-l883-926-orlandi-authored-by`、`st-chp21-bib-l1059-1100-saxl-authored-by`。同时新增5条精确书内 mention。以上 statement 尚未计入 S2 独立语义复核分子；statement 总数增加7条。
+
+13张卡新增66条 Haskell 原书来源字段（`enr-16596`–`enr-16661`）；均限于原书引注、题名、署名、刊期或来源定位，不声称已查阅被引作品。第21章 Saxl 条目在页图复核后记录印本年份及页码为1939–40、70–87；S0 转录原样保留，S2 correction 记录承接 OCR 字符间隔。对应6条 S5 证据定位已更新，没有新增或删除字段；字段表 `unverified` 数量不变。
+
+#### S6 逐候选去向
+
+本批20条候选均有决定：16条 formal（`rel-1732`–`rel-1747`），4条 pending；没有空端点边写入 `relations.csv`。
+
+| statement_id | 决定与记录 |
+|---|---|
+| `st-chp7-p190-n2-cite-ghelli` | formal；`rel-1732 cites`，Haskell 引注指向 Ghelli 文献。 |
+| `st-chp7-p190-n3-cite-maclaren` | formal；`rel-1733 cites`，Haskell 引注指向 Maclaren 专著。 |
+| `st-chp7-p190-n4-cite-avviso` | formal；`rel-1734 cites`，仅记录书中引注。 |
+| `st-chp7-p190-n4-avviso-published-in-roma` | formal；`rel-1735 part_of`，Avviso 属于 Roma 第 XIX 卷；原刊与告示均未查阅。 |
+| `st-chp7-p190-n5-album-belongs-to-society` | pending；`cand-7128` 未指明城市、分支或馆藏号；`bl-0022` 保留机构边界，未写 ownership 或所属关系。 |
+| `st-chp7-p190-n5-inscription-names-gasparo-purchaser` | formal；`rel-1736 has_subject`，限于 Haskell 引述的卷首题铭内容；不表示 Del Carpio 拥有该册。 |
+| `st-chp7-p191-n2-cite-album` | formal；`rel-1737 cites`，只记 Haskell 引向相册导言。 |
+| `st-chp7-p191-n2-cite-pacichelli` | formal；`rel-1738 cites`，只记 Haskell 对 Pacichelli 卷册与页码的引注。 |
+| `st-chp7-p191-n4-cite-letter` | formal；`rel-1739 cites`，信件由 Montaiglon 转引，未查原信。 |
+| `st-chp7-p191-n4-letter-addressed-to-louis-xiv` | formal；`rel-1740 addressed_to`，收信人来自引注标题。 |
+| `st-chp7-p191-n4-letter-authored-by` | pending；引注只称“Duc d’Estrées”；`bl-0025` 保留发送者身份未决。 |
+| `st-chp7-p191-n7-cite-address` | formal；`rel-1741 cites`，只记 Berwick 接受院士资格时的公开演说集引注；不添加演说作者或 `has_subject` Duke of Berwick。 |
+| `st-chp7-p191-n8-cite-orlandi` | formal；`rel-1742 cites`，只记书目引注。 |
+| `st-chp7-p191-n10-cite-saxl` | formal；`rel-1743 cites`，只记书目引注。 |
+| `st-chp7-p191-n11-cite-list` | formal；`rel-1744 cites`，只记 El Escorial 手稿目录定位，未声称查阅手稿或影印本。 |
+| `st-chp21-bib-l498-536-ghelli-authored-by` | pending；`cand-7121` 仅有 “M. E. Ghelli”；`bl-0023` 保留人名未决。 |
+| `st-chp21-bib-l701-754-maclaren-authored-by` | pending；`cand-7123` 仅有 “N. Maclaren”；`bl-0024` 保留人名未决。 |
+| `st-chp21-bib-l883-926-pacichelli-authored-by` | formal；`rel-1745 authored_by`，仅记录书目作者署名，保留 Gio: 原形式。 |
+| `st-chp21-bib-l883-926-orlandi-authored-by` | formal；`rel-1746 authored_by`，仅记录书目作者署名。 |
+| `st-chp21-bib-l1059-1100-saxl-authored-by` | formal；`rel-1747 authored_by`，跨章依文章题名对应第5章的全名形式；未查文章全文。 |
+
+#### 验证与批后状态
+
+受影响的13张新卡与《赞助人与画家》、Roma 卷、Del Carpio、Louis XIV 四张既有卡共17张完成定向渲染；预检覆盖24个表、131条表格行及205条关系投影，15张卡存在关系视图差异，全部17个文件写入并通过字节核验。`build_field_facts.py` 复预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+`audit_tables.py --strict-stage --summary`：`kus=2682`、`candidates=12416`、`alignment_new_pending_registration=3181`、`candidate_backlog_rows=25`（10 completed、15 undecided、pending=0）、`relations=1747`（1734 formal、13 pending）、`enrichment_rows=12774`（1634 unverified）、`book_statements=15283`、`s2_missing=[]`、`errors=[]`。关系一致性审计的 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。S2统一独立复核仍为9,573条；新增7条 statement 未复核。S3–S6仍未全书收口，下一批继续按已判 new 的直接关系端点解锁价值组批，并在同批逐项裁决可判定的 S6 候选。
+
 <a id="s4-s5-s6-chp3-p91-jesuit-altar-and-urn-20261024"></a>
 ### S3沿用／S4／S5／S6：第3章 p.91 耶稣会祭坛与遗骨瓮直接端点（2026-10-24）
 
