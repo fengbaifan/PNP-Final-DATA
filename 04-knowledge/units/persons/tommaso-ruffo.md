@@ -89,14 +89,17 @@ English: The index headword and manuscript title quoted on p.224 read Ruffo; the
 
 中文：本卡依据第8章同一连续叙述、p.221 页图和后注中的手稿题名识别人物；页图证实首处正文印作 Ruffo，而相应 OCR 误作 Russo。候选 cand-2305（Q-R.csv#233；pp.222–223）与 cand-2308（Q-R.csv#236；p.223）是 Ruffo 索引主项下的子目，现均 same 映射至本卡。此身份决定不确认子目所涉作品或关系；S2 中关于职务、作品、收藏、委托和相关人物的断言仍待 S6 逐项审查。本卡不新增正式关系，也不补入外部生平。
 
-English: This identification follows the continuous Chapter 8 account, the p.221 page image, and the manuscript title quoted in its note. The page image prints Ruffo at first mention where the corresponding OCR reads Russo. Index candidates cand-2305 (Q-R.csv#233; pp.222–223) and cand-2308 (Q-R.csv#236; p.223) are subentries under the Ruffo headword and now map as same to this card. This identity decision does not confirm the works or relations named by the subentries; S2 claims about offices, works, collecting, commissions, and other people remain for item-level S6 review. This card adds no formal relations or external biography.
+English: This identification follows the continuous Chapter 8 account, the p.221 page image, and the manuscript title quoted in its note. The page image prints Ruffo at first mention where the corresponding OCR reads Russo. Index candidates cand-2305 (Q-R.csv#233; pp.222–223) and cand-2308 (Q-R.csv#236; p.223) are subentries under the Ruffo headword and now map as same to this card. This identity decision does not confirm the works or other relations named by the subentries. The p.221 residence, purchase, and death-at-place candidates are adjudicated in the linked S6 records; other S2 claims about offices, works, collecting, commissions, and people remain for item-level review. This card adds no external biography.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本批裁决了第8章p.221关于晚年居所、宫殿购置和去世地点的候选；创作、委托及其他地点、家族和人物陈述仍须按各自端点与证据在S6逐项审查。本批不作外部生平核验。
 
 ### 关系记录
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](../institutions/church-as-patron-in-venice-haskell-account.md) | S2 statement st-chp8-p221-ruffo-enters-church; the next sentence names later offices but does not date his entry into the Church.；角色：宗教机构成员归属；范围：Haskell says Ruffo entered the Church. This records institutional affiliation only; no order or entry date is inferred.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221 L116 |
+| → 位于（`located_at`） | [罗马奇博宫（Palazzo Cibo）](../places/palazzo-cibo-rome.md) | S6裁决：formal。仅记录原书所述晚年居所；不补造起始年份、精确地址或现状；角色：晚年居所；范围：Haskell称Ruffo晚年居住于该罗马宫殿；起始年份未载，不表示连续居住或今日住址。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221, L120; PDF physical p. 23; S2 statement: st-chp8-p221-ruffo-lives-in-rome-palace |
+| → 位于（`located_at`） | [罗马奇博宫（Palazzo Cibo）](../places/palazzo-cibo-rome.md) | S6裁决：formal。只记录书内所述去世地点，不外推宫殿当前状态；时间：1753；角色：去世地点；范围：Haskell称Ruffo于1753年在该宫殿去世，享年90岁；年龄与日期均限于原书报告。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221, L121; PDF physical p. 23; S2 statement: st-chp8-p221-ruffo-dies-in-palace |
+| ← 收藏者／所有者（`owner_of`，反向投影） | [罗马奇博宫（Palazzo Cibo）](../places/palazzo-cibo-rome.md) | S6裁决：formal。以place→person的owned_by表达原书所述购置结果；Cibo家族作为卖方保留在证据语境，购置日期与完整产权链未载；角色：购置后的所有人；范围：Haskell称Ruffo从Cibo家族购得该宫殿；购置日期未载。本边记录原书明确购置所支持的历史所有关系，不表示连续或现时产权，也不将Cibo家族另判为登记所有人。；原断言与证据见发出端卡片“罗马奇博宫（Palazzo Cibo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 221, L120–121; PDF physical p. 23; S2 statement: st-chp8-p221-ruffo-buys-palace-from-cibo-family |

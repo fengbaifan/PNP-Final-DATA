@@ -11552,3 +11552,22 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 | `st-chp16-p377-note3-state-archive-locator` | formal | `rel-1650 has_subject`：仅记录Haskell称该档案记录提及Urbani的文件与手稿；“His”指Urbani。不推断原件的作者、所有权、保管状态或更广的档案主题。 |
 
 **检查与计数。** `audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；S4待登记映3244条new映射，S5为12,540/1,634，`relations.csv`为1,650条（formal 1,640）。`audit_relation_consistency.py`中broken target、invalid relation_type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。卡片全库预检通过，但在本批渲染前报出568个文件有关系投影差异；本批仅定向渲染档案、Haskell原书和Urbani人物三卡，写后三卡preview均无差异。字段提取器再预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。全库其他卡片投影差异未在本批重渲染。档案原件与被引目录未独立查阅，本批不构成S2独立复核或外部核验。
+
+
+### S4 S5 S6 CHP8 P221 Cibo Palace Trevi Fountain 20261023
+
+**第八章 p.221：奇博宫与特雷维喷泉关系裁决。**
+
+**输入与身份。** 依据第8章印刷页221（PDF物理页23）及页图核对，Haskell称Ruffo晚年住在罗马一座与Trevi Fountain相对的宫殿、从Cibo家族购得该宫殿，并于1753年在那里去世；p.223（PDF物理页25）将其画廊所在处称为“Palazzo Cibo”。cand-0746 与 cand-7698 的既有S3决定均为 new，分别沿用原组登记 units/places/palazzo-cibo-rome 与 units/places/trevi-fountain-rome；不重开S3。cand-2304 Ruffo复用既有 units/persons/tommaso-ruffo；cand-7699 Cibo family沿用已登记的 units/families/cibo-family。两张地点卡只记录原书可支持的书内对象与基本字段，不补入地址、建造史、现状或外部身份结论。
+
+**S5字段。** 从两张新卡的证据表抽取6条Haskell来源字段：Palazzo Cibo 的原文名称、建筑类型、罗马位置、与喷泉相对的位置；Trevi Fountain 的原文名称及喷泉地标类型。6条均由卡片明确标注的S1引文支持，写为 source_backed；字段表既有记录无更新或删除。该来源只支持原书陈述，本批未查阅外部目录或建筑档案。
+
+**S6逐条裁决。** 四条直接关系候选均作出明确决定，全部为formal：
+- st-chp8-p221-ruffo-lives-in-rome-palace → rel-1651 located_at：Ruffo晚年居所；原文未给起始年份，不表示连续居住或现址。
+- st-chp8-p221-ruffo-dies-in-palace → rel-1652 located_at：去世地点，限定于原书所报1753年；年龄仅按原书陈述。
+- st-chp8-p221-rome-palace-opposite-trevi-fountain → rel-1653 located_at：宫殿相对地标，关系说明保留“opposite”；不表达包含、同址或 part_of。
+- st-chp8-p221-ruffo-buys-palace-from-cibo-family → rel-1654 owned_by：宫殿指向购置后的Ruffo，记原书所支持的历史所有关系；购置日期与完整产权链未载，不推断持续或现时产权；Cibo family仅作为原文所述卖方，不另建所有权边。
+
+本批未改动S2 statement或候选映射；复合说明和p.223画廊句不作为额外关系候选。身份与关系判断限于Haskell的原书报告，未构成外部核验或S2独立复核。
+
+**检查与计数。** 字段抽取预览为新增6条（enr-16428–enr-16433）、既有字段变化0条、删除0条、警告0条；写回后再次预览为record_changes=0、new_ids=0、removed_ids=0、warnings=0。S6新增4条formal记录；表审计exit 0、errors=[]、s2_missing=[]，关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence和unbaselined generic evidence-backed均为0。Palazzo Cibo、Trevi Fountain与Tommaso Ruffo卡片定向渲染，Cibo family卡片无变化；四张卡片渲染后预览均无差异。当前relations.csv共1,654条（formal 1,644、pending 10），S6逐条裁决721/10,486，尚余9,765条。全库其余关系投影差异仍需后续分批复核，本批四张卡片的验收不代表全库投影已一致。
