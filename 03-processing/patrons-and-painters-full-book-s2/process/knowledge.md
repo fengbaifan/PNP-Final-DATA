@@ -11629,3 +11629,16 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 | `cand-9739` | `aln-12751` | new | `sg3-institution-cand-9739` | `units/institutions/inquisitori-di-stato-venice` | `aln-9911` | [Inquisitori di Stato跨章组](#s3-s4-institution-inquisitori-di-stato-20261020) |
 
 **写后核对与交接。** 主决定覆盖为12,415/12,415；决策计数 same=2,039（1,096个目标KU）、new=5,059（4,809组）、conflict=9、excluded=101、undecided=5,207。新增17条已登记的new候选映射与4条same映射；S4变为1,596/4,809组、1,819/5,059条候选映射，仍有3,240条new候选映射待登记。17个new候选对应16个身份组，其中卷VI、卷II组此前已有成员，Inquisitori di Stato两候选共用一个组，故主表new组总数净增14。候选数、唯一主决定数与新增ID已逐项核对；S3其余未决、22项跨来源决定差异及53条new组标识口径仍按现行计划继续逐类核查。
+
+<a id="s3-group-and-cross-source-audit-20261023"></a>
+### S3组标识与跨来源决定范围核对（2026-10-23）
+
+**范围与方法。** 对当前`entity-candidates.csv`和`alignment.csv`按`candidate_id`连接，核对12,415个候选的唯一主决定行、new行的`resolution_note`组标记及外部来源行与主决定的不同值。组标记只识别以字段分隔符开始的`group=`键，避免把`prior_group`、`previous_group`、`group_members`等历史说明误判为当前组。
+
+**跨来源差异。** 当前22个候选共29条外部记录与主行decision值不同，22个主行均为项目内`new`。其中28条外部`same`记录均与主行指向相同KU；这两类记录分别表达项目内身份组创建和外部身份确认，不能据decision字面不同认作冲突。唯一外部`undecided`行为`aln-12663`／`cand-2328`（Princeton University Art Museum），其`ku_id`为空；保留此外部身份待证，不改动该候选项目内`new`决定。未改写任何alignment行。
+
+**组标记核对。** 5,059条new主行中53条没有可解析的当前`group=`字段，5,006条至少含一个可解析字段，其中33条含两个或以上标记。按全部标记字符串计有4,797个唯一值，按每行末个可解析值计4,785个；由于部分备注保留历史组变更，这两个值都不是经语义核定的身份组计数，现有报数4,809组也无法由该解析复现。映射后的new主行含1,819条候选映射，指向1,597个不同KU ID；这与现报1,596个已登记组的差异一并待核。未因统计差异批量改决定或组号。
+
+**定向组完整性队列。** 按末个可解析组值将成员连接至主行后，有三个标签对应多个KU：`new-person:bellotto-bernardo-3bfd904005`同时包含person与work候选；`new-person:antonio-bellucci-f1e7b7cdb6`同时包含person与work候选；`new-person:andrea-del-rosso-670cf89453`包含两个不同person KU。前两组须审查类型边界与组标签是否沿用了历史值，第三组须审查是否为两个人物身份；本记录不预判合并或拆分。53条无组标记及33条多标记行仍须对照各自过程引用逐项核对。
+
+**结论与交接。** 22项跨来源决定差异已完成范围解释；`cand-2328`外部证据继续待证。候选级主决定覆盖仍为12,415/12,415。new组总数与上述异常组未核平前，S3的稳定身份组数量、S4组分母及KU组一一对应关系不作收口声明；下一批按关系端点优先逐类型审理时，遇到相关候选须先复核其组标记和KU目标。当前结果与队列见[阶段状态和后续规划](../../04-knowledge/results/patrons-and-painters-full-book-s2.md#当前全书状态)。
