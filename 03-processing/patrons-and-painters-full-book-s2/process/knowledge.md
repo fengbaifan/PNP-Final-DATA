@@ -11969,3 +11969,57 @@ cand-12219 原为类型边界未决。本段把“两层低矮翼部”裁为 wo
 `audit_tables.py --strict-stage --summary`：`kus=2662`、`candidates=12416`、`alignment_new_pending_registration=3201`、`candidate_backlog_rows=19`（10 completed、9 undecided、pending=0）、`relations=1726`（1713 formal、13 pending）、`enrichment_rows=12682`（1634 unverified）、`book_statements=15276`、`s2_missing=[]`、`errors=[]`。S4仍待映射3,201条 `new` 候选；其中已判 `new` 的直接关系端点候选ID仍有1,471个未映射。
 
 本批后 S6 有816/10,499条候选形成逐条决定：498 formal、235 pending、83 rejected。全书 S2 统一独立复核仍为9,573/15,276，未增加；本批未改写 S2 statements 或 mentions，不构成全书 S2 接收或 S3–S6 收口。后续仍按关系解锁价值推进 S4/S6；仅在登记或新证据暴露身份问题时局部重开 S3。
+
+
+<a id="s4-s5-s6-chp3-p73-76-aurora-colonnade-allegories-20261024"></a>
+### S3沿用／S4／S5／S6：第3章 pp.73–76 赌场、壁画与柱廊端点（2026-10-24）
+
+#### S3 身份与跨章边界
+
+对照第3章印刷页73、75、76（PDF物理页15、17、18）及现有 S3 组，沿用七项既有 new 决定，不新增身份合并：
+
+| candidate | 原 S3 组 | 本批 S4 KU |
+|---|---|---|
+| cand-5077 | sg3-place-cand-5077 | units/places/ludovisi-casino-on-pincio |
+| cand-5085 | workgrp-b2cba5b98a7693 | units/works/guercino-aurora-fresco-pincio-casino |
+| cand-5108 | workgrp-6de89adcf21161 | units/works/angels-carrying-instruments-of-passion-cortona |
+| cand-5109 | workgrp-453e20fcd0c33a | units/works/st-philip-in-ecstasy-cortona |
+| cand-5117 | workgrp-715e6cf21308b9 | units/works/illusionistic-colonnade-spada-garden |
+| cand-5174 | sg3-term-cand-5174 | units/terms/cardinal-virtues |
+| cand-5175 | workgrp-0aa9d5c616e60b | units/works/domenichino-cardinal-virtues-catinari-pendentives |
+
+跨章核对保持边界：第2章 cand-4290 是 Guido Reni 的 Borghese casino Aurora，和本章 Guercino／Ludovisi／Pincio 的壁画与赌场分别；cand-4291 的 Borghese casino 不与本赌场合并。cand-5174 是原文明确称为 Cardinal Virtues 的主题词；第2章 cand-4709 与第6章 cand-6470 指向特定拟人／寓意群组，且各自仍为 undecided，不因同词而并作同一对象。Bernini 的受难天使雕塑候选也不与 Cortona 的小型壁画 cand-5108 合并。
+
+两项仍未解决的对象不注册 KU：cand-5112 的宫殿／花园身份不明，虽可能与 Palazzo Spada 有关但没有足够证据合并；cand-5178 仅称 Cardinal Borghese，个人身份未明。两项新增 undecided backlog 记录 bl-0020、bl-0021。原书的 “for Cardinal Borghese” 保留为来源语境，不据此建立 commissioned_by 关系。
+
+#### S5 来源字段
+
+七张卡新增 26 条书内 source_backed 字段，均来自 Haskell 第3章相应页行。涵盖赌场类型／地点／原书所载购入、三幅壁画或建筑作品的类型／题材／规模／位置，以及相对时间。赌场购入年份、作品存世身份、未具名小堂、柱廊的完成状态和 Cardinal Borghese 身份均未补造。cand-5174 主题词只按本页原文用法记录，不扩写概念定义。
+
+#### S6 逐项裁决
+
+| statement | 决定 |
+|---|---|
+| st-chp3-secii-l102-113-aurora-created | formal rel-1727 created_by：Guercino → Aurora 壁画。 |
+| st-chp3-secii-l102-113-aurora-location | formal rel-1728 located_at：Aurora 壁画 → 本批登记的 Pincio 赌场；只表达 Haskell 所述位置。 |
+| st-chp3-secii-l102-113-casino-purchase | pending：原文明确记述从 Cardinal del Monte 购入，但候选谓词 acquired_from 不在受控词表；acquired_by 当前适用域为 work，不能套用于 place，也不以 owned_by 替代交易双方事实。 |
+| st-chp3-secii-l125-135-angels-fresco | formal rel-1729 created_by：Pietro da Cortona →《天使持受难刑具》。 |
+| st-chp3-secii-l125-135-colonnade | pending：Borromini 建造柱廊使用未来语气；未证明建造已完成，不写 erected_by。 |
+| st-chp3-secii-l125-135-colonnade-for-spada | pending：commissioned_by 为受控谓词，但 “was to employ” 表述计划，未证明实际委托／雇用已发生。 |
+| st-chp3-secii-l125-135-fresco-significance | pending：Haskell 所述 Cortona 与奥拉托利会的“密切联系”有来源支持，但当前受控词表没有保留该角色及其通过两幅壁画建立的精确谓词；不降格为泛化 associated_with 或 collaboration。 |
+| st-chp3-secii-l125-135-philip-fresco | formal rel-1730 created_by：Pietro da Cortona →《圣斐理伯神魂超拔》。 |
+| st-chp3-secii-p76-note3-domenichino-allegories | formal rel-1731 creator_of：Domenichino → S. Carlo ai Catinari 穹隅枢德寓意壁画。保留相对时间；穹顶本身归于 Guido Reni 的一名学生，另作区分。 |
+
+共9项逐条有去向：5 formal、4 pending；只有5条受控且端点明确的 formal 边写入 relations.csv。未以推测的委托、非受控谓词或未实现的计划增加正式关系。
+
+#### S2 定向结构修订
+
+将 st-chp3-secii-p76-note3-domenichino-allegories qualifiers 中的 subject_candidate_id=cand-5174 改为 depicted_subject_candidate_id=cand-5174。原 statement 顶层关系主语仍为 Domenichino、宾语仍为作品；此键名修订明确 Cardinal Virtues 是作品表现主题，不改变 statement 数量或 S2 独立复核分子。此项为定向语义修订，不冒称独立接收。
+
+#### 检查与批后状态
+
+build_field_facts.py 写入前预览：record_changes=0、new_ids=26、removed_ids=0、source_registry_changes=0、warnings=0；应用后再次预览无变化。
+
+audit_tables.py --strict-stage --summary：kus=2669、candidates=12416、alignment_new_pending_registration=3194、candidate_backlog_rows=21（10 completed、11 undecided、pending=0）、relations=1731（1718 formal、13 pending）、enrichment_rows=12708（1634 unverified）、book_statements=15276、s2_missing=[]、errors=[]。阶段警告仍提示待登记 new 候选及需依过程记录审查 S2 语义质量。
+
+关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。7张本批卡片均已关系预览；定向渲染预检通过，写入5个受关系变更影响的卡片文件，写后字节核验通过，恢复快照已清理。本批5条正式关系的方向、目标和来源跨度可追溯。全库预检另报告570个卡片文件待更新，本批未扩展到该范围。S2 统一独立复核保持9,573/15,276；S3决定数不变。全书 S4/S5/S6仍未收口，下一批按剩余直接关系端点解锁数排序；S2继续按当前 statement ID 与来源版本推进。
