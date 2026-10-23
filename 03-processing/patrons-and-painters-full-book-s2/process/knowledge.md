@@ -11692,3 +11692,38 @@ S4新增7个KU、完成8条候选映射；cand-10717复用 cand-8096 的现有�
 **卡片投影与核对。** 对三张新work卡、Andrea Ferrerio、Giuseppe Mazza、Tommaso Ruffo共6张卡做定向预览；4张卡表共12行，预览投影12条正式关系，5张卡有关系视图变化。Ferrerio、Mazza与Ruffo的陈旧“待审”描述已改正；定向渲染写入5张卡，写后复预览6卡均无差异。
 
 **批后状态与限制。** S2保持15,268条statement；仅新增1条mention至26,739，不增加统一独立复核分子。S3主决定为same=2,039、new=5,060、conflict=9、excluded=101、undecided=5,206；当前new组标签边界诊断为53条无可解析字段、33条多标记，4,798个全部标记值／4,786个按每行末标记计，均非语义核验组数。S4为1,824/5,060条new候选映射，尚余3,236条，指向1,602个KU ID。S5为12,568条字段（1,634条unverified）。S6累计737/10,491（449 formal、216 pending、72 rejected），尚余9,754；`relations.csv`为1,665条（1,655 formal、10 pending）。backlog共14条（10 completed、4 undecided，pending=0）。`audit_tables.py --strict-stage --summary`退出0，`errors=[]`、`s2_missing=[]`；关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。该批不等于第8章p.241独立S2审读或S3组数核平。
+
+<a id="s4-s5-s6-chp9-p250-zenobio-direct-endpoints-20261023"></a>
+### 第九章 p.250：Zenobio宫、Dorigny壁画组及Carlevarijs作品端点（2026-10-23）
+
+**范围与依据。** 本批依据第9章印刷页250的本地转录及现有S2候选、mention与关系statement锚点，不新增或改写S2 statement／mention，也不增加统一S2独立复核分子。原书将泽诺比奥宫、Dorigny神话壁画组、Carlevarijs风景画系列、通往Salone的走廊、Lazzarini的Ceres与Bacchus天花板，以及“Carraccesque nudes”分别描述；不把作品、建筑内部空间、框架和人物形象合并。S3决定沿用；本批未作外部身份或现存状况核验。
+
+**S4登记。** 六个既有S3 `new`组均登记为独立KU，各组当前只对应下表候选；不代表该对象的外部身份或作品目录已核验。
+
+| 候选／对齐行 | S3身份组 | S4 KU |
+|---|---|---|
+| `cand-2871`／`aln-3206` | `sg3-place-cand-2871` | `units/places/zenobio-palace-venice` |
+| `cand-8186`／`aln-8361` | `workgrp-15957cf68cc753` | `units/works/zenobio-palace-mythological-fresco-cycle` |
+| `cand-8189`／`aln-8364` | `sg3-term-cand-8189` | `units/terms/carraccesque-nude-figures` |
+| `cand-8191`／`aln-8366` | `workgrp-1d9b01c690fb13` | `units/works/zenobio-palace-carlevarijs-landscape-series` |
+| `cand-8192`／`aln-8367` | `sg3-place-cand-8192` | `units/places/zenobio-palace-corridor-to-salone` |
+| `cand-8194`／`aln-8369` | `workgrp-7f02a40b93c1da` | `units/works/zenobio-palace-ceres-bacchus-ceiling` |
+
+**S5来源字段。** 六张卡的类型、描述性题名、原书用语和必要时间限定经`build_field_facts.py`预览后写入15条source-backed字段`enr-16456`–`enr-16470`。`unverified`仍为1,634条；写后预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。译名“卡拉奇式裸像”标明为描述性暂译；`romantic landscapes`未解释为现代浪漫主义流派；壁画约十五年前的表述未换算为确切年份。
+
+**S6逐候选裁决。** 本页八条关系候选均有明确去向：
+
+| statement_id | 决定 | 正式关系／理由 |
+|---|---|---|
+| `st-chp9-p250-zenobio-wealth-and-palace` | formal | `rel-1666 owned_by`：泽诺比奥宫→Zenobio family；记录原书所述从Morosini购得，不表示现今产权或连续产权链。 |
+| `st-chp9-p250-zenobio-fresco-cycle` | formal | `rel-1667 created_by`：神话壁画组→Louis Dorigny；保留约十五年前这一相对时间，不换算具体年份。 |
+| `st-chp9-p250-zenobio-nudes-derived-from-farnese` | pending | 原候选为term→place；受控`derived_from`仅接受archive/work端点，来源未指明可替代的具体作品端点，因此不写入关系表。若原书证据进一步识别来源作品或适用关系类型，再复核。 |
+| `st-chp9-p250-carlevarijs-landscapes` | formal | `rel-1669 created_by`：风景画系列→Luca Carlevarijs；不补作品数量、单幅题名或年份。 |
+| `st-chp9-p250-carlevarijs-lodged-at-palace` | formal | `rel-1668 located_at`：Carlevarijs→泽诺比奥宫；role限定为lodging，不推为连续居住或现址。 |
+| `st-chp9-p250-carlevarijs-landscape-placement` | formal | `rel-1670 installed_at`：风景画系列→通往Salone的走廊；限于原书所述嵌入沿廊画框，不推定日期或后续去向。 |
+| `st-chp9-p250-lazzarini-ceres-bacchus` | formal | `rel-1671 created_by`：天花板画→Gregorio Lazzarini；原书仅称其装饰一处以Ceres与Bacchus为题材的天花板。 |
+| `st-chp9-p250-tiepolo-early-works` | formal | `rel-1672 patronized_by`：Giambattista Tiepolo→Zenobio family；限于原书所述为该家族制作部分早期作品，不补具体作品、年份或委托条件。 |
+
+七条formal边写入`relations.csv`；term与Palazzo Farnese之间的pending判断保留在本记录和术语卡，不写入不兼容类型的关系行。六张新卡定向预览后渲染，写入5张有正式关系投影的卡；六张卡写后复预览均无差异。全库`build_cards.py --check`仍显示549张卡有关系视图差异、573个文件待渲染；本批只处理六张受影响卡，未触发全库重渲染。
+
+**批后计数与核验。** S2为15,268条statement、26,739条mention；统一独立复核仍为9,573/15,268（62.7%，尚未接收）。S3决定不变，仍为12,415/12,415；new组标签仍待语义核平。S4登记1,830/5,060条new候选映射，尚余3,230条，已映射至1,608个不同KU ID。S5为12,583条字段（1,634条unverified）。S6为745/10,491（456 formal、217 pending、72 rejected），余9,746条；`relations.csv`共1,672条（1,662 formal、10 pending）。relation-candidate中已判new且关系端点的未登记候选减少至1,499个。`audit_tables.py --strict-stage --summary`退出0、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic均为0。关系表与卡片局部渲染检查不代表全库关系投影已一致，也不构成S2语义接收或S3–S6全书收口。

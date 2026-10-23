@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-23）
 
+本轮新增第9章p.250 Zenobio宫端点批次：沿用6个既有S3 `new`组并登记为独立KU，写入15条Haskell来源S5字段；逐项裁决8条关系候选，7 formal、1 pending。六张卡片中五张写入formal关系投影，写后复预览均无差异；未增加S2 statement、mention或独立复核分子。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-p250-zenobio-direct-endpoints-20261023)。
+
 本轮完成第8章 pp.221–222 的Vigilance雕像、栏杆构件与楼梯灰泥装饰端点批次：沿用2组S3 new身份，补齐栏杆精确mention后将cand-12076由undecided定为new；登记3个work KU、7条Haskell来源字段，7条S6候选逐项裁为4 formal、3 pending。S5 unverified未增加；6张相关卡片完成定向渲染与复预览。严格表审计errors=[]、s2_missing=[]，关系一致性五类结构错误均为0。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p221-vigilance-stucco-endpoints-20261023)。
 
 本轮完成第16章 p.376 直接端点批次：沿用两组既有S3 new身份，登记Carpaccio《圣乌尔苏拉生平》场景组与del Pian九幅大版画系列；更正S3理由中的1785年份范围（出版责任年份，不是创作年份）；新增一条定向S2作者归属断言（不计独立复核），补6条Haskell来源字段，裁决4条关系候选为formal并定向渲染5张卡片。批后S2为15,268条；S4映射1,821/5,059；S5字段12,561条；S6为730/10,491。严格表审计errors=[]、s2_missing=[]，关系一致性五类结构错误均为0；new组总数仍待核平。详见[第16章 p.376过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp16-p376-del-pian-prints-20261023)。
@@ -34,7 +36,7 @@ S3主决定覆盖修复：在复用既有S3/S4过程裁决与来源证据的基�
 
 S3主决定覆盖12,415/12,415个候选：same=2,039（指向1,096个既有KU）、new=5,060、conflict=9、excluded=101、undecided=5,206。new组数尚未语义核平：当前解析诊断为53条new行没有可解析的group字段、33条含多字段；全部组标记共有4,798个值、按每行末标记计4,786个，均不能直接作为稳定身份组总数。历史报表4,809组不作当前验收值。22项跨来源决定差异已查明范围：28条外部same行与项目内new主行指向相同KU；cand-2328的外部行仍undecided。622项类型边界未决；按类型与关系端点优先级的未决分布见下表。
 
-S4已登记1,824/5,060条new候选映射，尚有3,236条待登记；当前映射指向1,602个不同KU ID。new组分母仍待按候选身份组逐项核平。S5字段表12,568条，其中1,634条unverified。relation_candidate=true共10,491条；S6已裁决737/10,491条（449 formal、216 pending、72 rejected），尚余9,754条；relations.csv共1,665条（1,655 formal、10 pending）。340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有14条记录（10条completed、4条明确undecided，pending=0）；这不代表340条缺端点对象均已解决。当前有1,505个已判new的关系端点候选尚未完成S4映射。各阶段进度不能压成单一项目百分比。
+S4已登记1,830/5,060条new候选映射，尚有3,230条待登记；当前映射指向1,608个不同KU ID。new组分母仍待按候选身份组逐项核平。S5字段表12,583条，其中1,634条unverified。relation_candidate=true共10,491条；S6已裁决745/10,491条（456 formal、217 pending、72 rejected），尚余9,746条；relations.csv共1,672条（1,662 formal、10 pending）。340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有14条记录（10条completed、4条明确undecided，pending=0）；这不代表340条缺端点对象均已解决。当前有1,499个已判new的关系端点候选尚未完成S4映射。各阶段进度不能压成单一项目百分比。
 
 | 建议类型／边界队列 | S3 undecided候选 | 其中唯一关系端点候选 |
 |---|---:|---:|
