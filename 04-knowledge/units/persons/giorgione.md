@@ -49,6 +49,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [乔尔乔内《暴风雨》（Giorgione’s Tempesta）](../works/giorgione-tempesta.md) | Formal S6 decision: Haskell’s possessive attribution is retained as a book-reported creator relation only; it is not independently authenticated. The p.410 passage repeats the named work within collection history.；角色：哈斯克尔所述创作者归属；范围：仅记录 Haskell 对 Giorgione 的来源归属；未独立核验作品身份或归属，不推断创作年代、媒介或现藏地。；原断言与证据见发出端卡片“乔尔乔内《暴风雨》（Giorgione’s Tempesta）”：[来源](../../../02-sources/02-Markdown/17_CHP-17_sec_i.md)；haskell-1980-rev-ed；Chapter 17, printed p.381, line 23; Chapter 20, printed p.410, lines 208–209; S2 statements: st-chp17-p381-tempesta-created-by-giorgione and st-chp20-p410-manfrin-tempesta-collection. |
 
-本批未写入正式关系。与`cand-1188`相关的1条S2关系候选留待S6逐项审查；人物候选与作品候选`cand-1189`严格分开，相关限定见`book-statements.jsonl`及S3过程记录。
+
+现已登记 `rel-1911 created_by` 的反向投影 `creator_of`：仅保留 Haskell 对《Tempesta》的书内归属，未作外部核验。Manfrin 画廊与收藏端点仍未定型，其两条作品关系保持 pending；人物与作品候选继续分开，裁决依据见本批知识过程。

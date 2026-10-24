@@ -23644,7 +23644,7 @@ m-chp17-p381-0005,chp-17:17_CHP-17_sec_i:l22-24,cand-1053,Marco Foscarini,228,24
 m-chp17-p381-0006,chp-17:17_CHP-17_sec_i:l22-24,cand-1513,the gallery,248,259,The Manfrin collection/gallery; physical-space versus collection scope remains contextual.
 m-chp17-p381-0007,chp-17:17_CHP-17_sec_i:l22-24,cand-2719,Venice,209,215,City in which the gallery is described as one of the finest.
 m-chp17-p381-0008,chp-17:17_CHP-17_sec_i:l22-24,cand-2719,the city,366,374,Anaphoric reference to Venice.
-m-chp17-p381-0009,chp-17:17_CHP-17_sec_i:l22-24,cand-1189,Giorgione,404,413,Painter indexed with a p.381 Tempest subentry.
+m-chp17-p381-0009,chp-17:17_CHP-17_sec_i:l22-24,cand-1188,Giorgione,404,413,"Painter named in the possessive creator attribution Giorgione’s Tempesta; maps to person candidate cand-1188, not the work candidate."
 m-chp17-p381-0010,chp-17:17_CHP-17_sec_i:l22-24,cand-10695,Tempesta,416,424,Specific painting named among the gallery’s treasures.
 m-chp17-p381-0011,chp-17:17_CHP-17_sec_i:l22-24,cand-1512,Manfrin’s,426,435,Subject of the account of his patronage ventures.
 m-chp17-p381-0012,chp-17:17_CHP-17_sec_i:l22-24,cand-0817,competitions,690,702,Topical index candidate ‘Competitions’ includes p.381; the person entry cand-1514 remains a separate Manfrin subentry and is not used as the activity entity.
@@ -25068,7 +25068,7 @@ m-chp20-p410-019,chp-20:20_CHP-20Postscript:l201-209,cand-11153,Vivarini,1471,14
 m-chp20-p410-020,chp-20:20_CHP-20Postscript:l201-209,cand-0565,Carpaccio,1481,1490,Reuse the indexed Vittore Carpaccio candidate covering p.410.
 m-chp20-p410-021,chp-20:20_CHP-20Postscript:l201-209,cand-0270,Bellini,1495,1502,Reuse the indexed Giovanni Bellini candidate covering p.410.
 m-chp20-p410-022,chp-20:20_CHP-20Postscript:l201-209,cand-1512,Manfrin,1525,1532,Reuse the Girolamo Manfrin candidate covering p.410; the text refers to his collection.
-m-chp20-p410-023,chp-20:20_CHP-20Postscript:l201-209,cand-1189,Giorgione,1572,1581,Reuse the indexed Giorgione candidate covering p.410.
+m-chp20-p410-023,chp-20:20_CHP-20Postscript:l201-209,cand-1188,Giorgione,1572,1581,"Painter named in the possessive creator attribution Giorgione’s Tempesta; maps to person candidate cand-1188, not the work candidate."
 m-chp20-p410-024,chp-20:20_CHP-20Postscript:l201-209,cand-10695,Tempesta,1584,1592,Reuse the existing work candidate Giorgione's Tempesta.
 m-chp20-p410-025,chp-20:20_CHP-20Postscript:l201-209,cand-11154,Vincenzo Fontana,1884,1900,Person named as the author of the cited article.
 m-chp20-p410-026,chp-20:20_CHP-20Postscript:l201-209,cand-11155,article by Vincenzo Fontana,1873,1900,The untitled article cited in footnote 5; exact bibliographic record remains pending.

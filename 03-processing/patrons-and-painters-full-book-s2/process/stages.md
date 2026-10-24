@@ -13633,3 +13633,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 依 p.193 既有逐条复核对 `st-chp7-p193-wittelsbach-recovery` 的拆分意见，保留该ID专记 Wittelsbach 王朝从三十年战争影响中“with some speed”恢复，端点由 `cand-7156` 改为战争候选 `cand-4965`；另建 `st-chp7-p193-wittelsbach-position-strengthened-by-westphalia`，以 p.193 L14 记录《威斯特伐利亚和约》增强王朝地位的原书说法，并将 `positionhadbeenstrengthened` 的页图校读移至新 statement。该新statement尚未独立逐条复核。
 
 对照第6章印刷页153（PDF physical p.8），将既有 `st-chp6-p153-alexander-protests-1648-settlement` 的 claim 收窄为抗议和对教宗利益的说明；另建 `st-chp6-p153-peace-settlement-ended-thirty-years-war` 表达同句中“1648年和约结束三十年战争”的独立关系。共新增2条statement、不新增mention；p.153 尚未完成整页独立语义复核，p.193 仅沿用其既有31条逐条复核覆盖，不把此次编辑计入复核分子或接收状态。
+
+### 2026-10-24：第17章 p.381 Tempesta 创作者提及映射与 S2 关系断言修订
+
+由 Tempesta 作品 S4 端点登记触发。复核第17章 p.381 L23 与第20章 p.410 L208–209 后，将 `m-chp17-p381-0009`、`m-chp20-p410-023` 的 “Giorgione” 提及从作品索引候选 `cand-1189` 更正为人物候选 `cand-1188`；`Tempesta` 的两条作品提及仍映射至 `cand-10695`。为 p.381 “Giorgione’s Tempesta” 新增原子 `created_by` statement `st-chp17-p381-tempesta-created-by-giorgione`，并在原收藏断言的 mentioned candidates 中补入 `cand-1188`。S2 statements 净增1、mentions总数不变；此为定向端点修订，不计入9,617条统一独立复核分子，不代表章节或全书接收。

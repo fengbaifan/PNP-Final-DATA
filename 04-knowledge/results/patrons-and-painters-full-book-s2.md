@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第17章 p.381／第20章 p.410 Tempesta 跨章作品端点（2026-10-24）：** 沿用 S3 作品组 `workgrp-ab3548af485776`，将正文候选 `cand-10695` 与索引候选 `cand-1189` 映射至1个新 work KU；修正两条误映射到作品的 Giorgione 人物提及，并新增1条书内 `created_by` S2 statement（不增加 mention，不计入独立复核）。S5 新增2条来源支持字段。3项直接 S6 候选均有去向：Haskell 所述创作者归属 formal `rel-1911`；Manfrin 画廊与收藏端点因类型／范围未决分别 pending，理由留在过程记录而未写成无效端点关系。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性阻断为0。批后 S2 为15,334 statements／26,779 mentions；S4 映射2,037/5,071条 `new` 候选，待映射3,034条；S5为13,154条（1,634条 `unverified`）；S6已裁决1,188/10,548（677 formal、404 pending、107 rejected），余9,360；`relations.csv`为1,911条（1,893 formal、18 pending）。本次归属仅限 Haskell 的书内表述，未作外部作品身份核验。详见[本批 S2–S6 过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-tempesta-crosschapter-20261024)。
+
 **第9、16、17章 Seminario Patriarcale 与 Armanni–Sasso 档案端点批次（2026-10-24）：** 沿用3个既有 S3 `new` 组，登记1个institution与2个archive KU并映射3条候选；新增9条 Haskell `source_backed` S5字段。3条直接 S6 候选均 pending：受控 `located_at` 仍为 `needs_split`，`held_by` 不允许 archive→institution；没有新增 formal 边。MSS.565–566两卷材料与1790年单封信保持不同粒度；与既有Vincenzo Armanni刊本分开。S2记录和独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-seminario-patriarcale-ch9-ch16-ch17-20261024)。
 
 **第7、8、14章 Zanotti 人物端点批次（2026-10-24）：** 沿用既有 S3 跨章 new 组 `cand-7114`，登记1个 person KU 并映射1条候选；新增2条 Haskell `source_backed` S5 字段。两条直接 S6 候选均 pending：一条是 Haskell 对未读 Zanotti 页的归因性解释，另一条受制于未决信件端点；未新增 formal 边。S2 statement、mention和独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-zanotti-ch7-ch8-ch14-person-endpoint-20261024)。

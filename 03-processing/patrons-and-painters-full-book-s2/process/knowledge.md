@@ -1,5 +1,24 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-tempesta-crosschapter-20261024"></a>
+### 第17章 p.381／第20章 p.410 Tempesta 跨章作品端点批次（2026-10-24）
+
+**S2定向修订。** 两处原文都以 “Giorgione’s Tempesta” 称呼同一作品。此前 `m-chp17-p381-0009` 与 `m-chp20-p410-023` 将表面形式 “Giorgione” 错挂到作品索引候选 `cand-1189`；现改映射到人物候选 `cand-1188`，两条 “Tempesta” 提及仍映射到作品候选 `cand-10695`。在 p.381 L23 新增 `st-chp17-p381-tempesta-created-by-giorgione`，把来源所述创作者归属单独原子化；原 p.381、p.410 收藏断言的 mentioned candidates 补入人物 `cand-1188`。该修订由 S4 端点登记触发，不计入 S2 独立复核分子，也不改变 mention 总数。
+
+**S3/S4。** 沿用既有 `workgrp-ab3548af485776`，不重开 `new` 身份决定；`cand-10695` 与索引候选 `cand-1189` 共映射至[乔尔乔内《暴风雨》](../../../04-knowledge/units/works/giorgione-tempesta.md)。`cand-1188` 的人物身份与作品保持分离。名称按书内称谓登记；中文译名为描述性译名，未声称已匹配外部作品目录。
+
+**S5。** 新增2条 Haskell `source_backed` 字段：来源题名和历史收藏语境，分别定位第17章 p.381 L23 与第20章 p.410 L208–209。未补写媒介、年代、尺寸、存世版本或现今位置。
+
+**S6逐项裁决。** `st-chp17-p381-tempesta-created-by-giorgione` 记为 formal `created_by`，新增 `rel-1911`；边只保留 Haskell 的书内归属，不表示外部核验。Manfrin 收藏相关的两个候选均 pending，未因作品端点已登记而推定收藏对象类型或个人产权。因 pending 对象尚无有效 KU 端点，裁决与理由记录在本节，不写入要求有效 KU 端点的 `relations.csv`。
+
+| S2 statement | 决定 | 理由／正式边 |
+|---|---|---|
+| `st-chp17-p381-tempesta-created-by-giorgione` | formal `rel-1911 created_by` | “Giorgione’s Tempesta”是 Haskell 的来源归属表述；仅记录作品→人物创作者归属，不作外部认证。p.410 同一称谓作为收藏史语境的旁证。 |
+| `st-chp17-p381-tempesta-in-gallery` | pending | `cand-1513` 的 Manfrin gallery／collection 类型未决；不能把未定端点写成作品位置或产权边。 |
+| `st-chp20-p410-manfrin-tempesta-collection` | pending | `cand-11518` 的 Manfrin dispersed collection 类型与范围未决；原文不足以推断 Manfrin 个人直接所有。 |
+
+**复核与检查。** 定向渲染作品卡与 Giorgione 人物卡各1张；严格表审计 `kus=2823`、`candidates=12424`、S4 待映射 `3034`、S5字段 `13154`（1634 `unverified`）、`relations.csv=1911`（1893 formal、18 pending）、S2 statements `15334`、mentions `26779`，`s2_missing=[]`、`errors=[]`。关系一致性检查 broken target、invalid type、missing inverse、weak evidence 与 unbaselined generic 均为0。S2 独立复核分子维持9617；本次定向修改不构成独立接收。
+
 <a id="s3-person-giampietro-zanotti-ch7-ch8-ch14-20261024"></a>
 ### S3人物身份跨章归组：G. P. Zanotti（2026-10-24）
 
