@@ -58,3 +58,10 @@ English: Do not add a complete genealogy or membership list. Preserve Haskell's 
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 赞助者／保护人（`patron_of`，反向投影） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | Formal S6 decision; source-reported person-to-family patronage. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-tiepolo-dolfin-cycle-ch9-p252-20261024；时间：1720s；角色：来源所述赞助人；范围：Haskell 称 Dolfin 是 Tiepolo 在1720年代最重要的赞助人；保留来源评价及时间范围，不推定具体家族成员或单项委托。；原断言与证据见发出端卡片“乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.252, line 119; statement=st-chp9-p252-tiepolo-dolfin-patronage |
+| ← 赞助者／保护人（`patron_of`，反向投影） | [蒂埃波罗为多尔芬家族绘制的十幅罗马史画（Ten Roman-history canvases painted by Tiepolo for the Dolfin family）](../works/tiepolo-dolfin-roman-history-canvases.md) | Formal S6 decision; group-level relation only. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-tiepolo-dolfin-cycle-ch9-p252-20261024；角色：来源所述受画方；范围：Haskell 称 Tiepolo 为 Dolfin 绘制该组十幅画；只表达该组作品的赞助/受画关系，不推定合同、付款或产权。；原断言与证据见发出端卡片“蒂埃波罗为多尔芬家族绘制的十幅罗马史画（Ten Roman-history canvases painted by Tiepolo for the Dolfin family）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.252, line 119; statement=st-chp9-p252-tiepolo-cycle-painted-for-dolfin |

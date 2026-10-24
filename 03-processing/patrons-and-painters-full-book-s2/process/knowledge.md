@@ -13328,7 +13328,7 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 | statement_id | status | decision / evidence boundary |
 |---|---|---|
 | `st-chp9-p253-aristocracy-work-and-fragmentation` | pending | 人物→term 的“为贵族工作”没有精确受控谓词；patronized_by 的值域不接受该 term，不能改写为委托或赞助。 |
-| `st-chp9-p253-barbaro-dolfin-roman-epics` | pending | 罗马史诗组候选 cand-8241 的作品身份与范围仍为 S3 undecided；待作品边界解决后再判断。 |
+| `st-chp9-p253-barbaro-dolfin-roman-epics` | pending | cand-8241 已登记为有稳定来源边界的十幅作品组；但“纪念”没有精确受控谓词，故不改写为作者、主题或赞助关系。 |
 | `st-chp9-p253-commission-to-palace-and-cathedral` | pending | summoned 没有精确受控关系类型；句子同时涉及主教座堂和 S3 未决的宫殿对象，不改写成 commissioned_by。 |
 | `st-chp9-p253-dionisio-saw-tiepolo-masterpieces` | pending | 候选 cand-12377 的作品组身份与成员范围仍为 S3 undecided，且“看见”没有精确受控谓词。 |
 | `st-chp9-p253-note1-later-recall-and-chapel` | pending | 原复合断言拆分后，保留丹尼埃莱召回吉安巴蒂斯塔·蒂埃波罗的独立主张；summoned/recalled 无精确受控谓词。 |
@@ -13341,7 +13341,7 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 | `st-chp9-p253-justice-solomon-work` | formal | 正式边 creator_of，见 `relations.csv` 新增关系。 |
 | `st-chp9-p253-justice-solomon-location` | formal | 正式边 located_at，见 `relations.csv` 新增关系。 |
 | `st-chp9-p253-tiepolo-summoned-outside-venice` | pending | 原文未给召集者或目的地；不从相邻 Udine 叙述推断缺失端点。 |
-| `st-chp9-p253-roman-epics-commemorate-daniele-dolfin` | pending | 史诗作品组 cand-8241 尚未定界，且原文的 Daniele Dolfin 与 Daniele III 的身份对应仍待证。 |
+| `st-chp9-p253-roman-epics-commemorate-daniele-dolfin` | pending | cand-8241 已登记为有稳定来源边界的十幅作品组；原文的 Daniele Dolfin 与 Daniele III 身份对应仍待证，且“纪念”没有精确受控谓词。 |
 | `st-chp9-p253-tiepolo-aimed-at-rich-noble-patrons` | pending | 受众为 term 集合，人物到社会类别没有精确的受控谓词；intended_for 仅接受 work→institution/place。 |
 | `st-chp9-p253-note2-italian-advice-to-young-artists` | pending | advised 的值域为 person；此处接收对象是未具名青年画家 term 集合，且引语经意大利报纸转述。 |
 | `st-chp9-p253-note1-recalled-gian-domenico-1759` | pending | 丹尼埃莱召回吉安·多梅尼科的独立主张有注释支持，但 recalled 没有精确受控谓词。 |
@@ -13449,3 +13449,34 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 `build_cards.py --render` 定向覆盖10张信件、机构和人物端点卡，预检15个表区、52行和31条关系投影；10张均写后字节核验通过。修正机构卡重复英文标题，并更新 Franceschini、Marchesini、Torelli 人物卡中过时的关系状态文案。
 
 严格表审计：`kus=2827`、`candidates=12424`、`alignments=12766`、新候选待S4登记 `3028`、关系表 `1924`（1903 formal、21 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S3主决定：same=2052、new=5070、conflict=9、excluded=103、undecided=5190；26个跨来源决定差异仍按候选逐项解释，不视为自动冲突。S6累计裁决 `1208/10559`（690 formal、410 pending、108 rejected），余 `9351`。统一S2复核分子仍为9617，本批新增statement不计入，也不构成S2接收或S3–S6全书收口。
+
+<a id="s3-s4-s6-tiepolo-dolfin-cycle-ch9-p252-20261024"></a>
+
+### 第9章 p.252 Tiepolo–Dolfin 十幅罗马史组画跨章分组与关系裁决（2026-10-24）
+
+#### S3 跨章身份决定与 S4 登记
+
+定点复核 `cand-8241`：Haskell 正文明确将十幅罗马史场景、Florus 来源、Tiepolo 创作和 Dolfin 受画方连为一组；注3回指 “the pictures”，第253页 “Roman epics” 又回指该组。此为可登记的来源限定作品集合，虽未逐一列出十幅单件；与注5归于 Niccolò Bambini、位于 Palazzo Vendramin-Calergi 的另一组画保持分立。故将其从 `undecided` 改为 `new`，组标识 `workgrp-tiepolo-dolfin-ten-roman-history-canvases`，映射至 `units/works/tiepolo-dolfin-roman-history-canvases`。
+
+跨章对照后，`cand-5796` 沿用 `sg3-place-cand-5796`，统一第4章 Hermitage 定位和第9章组画注3中的历史城市名 Leningrad；映射至 `units/places/leningrad-historical-city`，不增加现代地名等同判断。`cand-8263` 沿用 `archive-group-33affe9737ee`，第9章 p.252 注4与 p.256 注1的题名及 XI E 2/6 架号支持同一被引手稿身份；映射至 `units/archives/discendenze-patrizie-manuscript-correr-xi-e2-6`。手稿原件与目录均未查阅。
+
+#### S6 逐项裁决
+
+本批裁决6条直接关系候选；新增3条 formal 与3条 pending 关系记录。`st-chp9-p252-tiepolo-dolfin-patronage` 表达人物层级赞助，`st-chp9-p252-tiepolo-cycle-painted-for-dolfin` 表达作品组受画方，两者分别保留原断言层级，不推定合同、付款或产权。
+
+| statement_id | 决定 | 记录/理由 |
+|---|---|---|
+| `st-chp9-p252-tiepolo-dolfin-cycle` | formal | `rel-1926 creator_of`；第252页正文明确称 Tiepolo 绘制该十幅组画。 |
+| `st-chp9-p252-tiepolo-dolfin-patronage` | formal | `rel-1927 patronized_by`；来源称 Dolfin 是 Tiepolo 在1720年代最重要的赞助人，保留人物层级与年代范围。 |
+| `st-chp9-p252-tiepolo-cycle-painted-for-dolfin` | formal | `rel-1928 patronized_by`；仅记录组画为 Dolfin 所绘，不推断合同、付款或产权。 |
+| `st-chp9-p252-tiepolo-cycle-partly-in-leningrad` | pending | `rel-1929 located_at`；只报告组画部分画布在 Leningrad，未分配单幅或数量；该谓词仍标为 `needs_split`。 |
+| `st-chp9-p252-tiepolo-cycle-partly-in-vienna` | pending | `rel-1930 located_at`；同上，不把组画位置报告转换为单幅现存地点。 |
+| `st-chp9-p252-correr-manuscript-citation-note4` | pending | `rel-1931 located_at`；仅为书内手稿定位，原件未查，保管与物理位置谓词边界尚未拆分。 |
+
+`st-chp9-p256-note1-correr-manuscript-locator` 的 `relation_candidate=false`，只作为同一手稿的跨章身份分组依据，不重复建立第二条 S6 边。p.253 的两条组画纪念断言重新审阅后仍为 pending：组画身份已稳定，但受控谓词不足；Daniele Dolfin 个体身份对应亦待证。决定与解除条件分别保留在上方 p.253 S6 表中。本批未新增 S2 statement／mention 或 S5 字段，也未增加 S2 独立复核分子。
+
+#### 投影与审计
+
+`build_cards.py --render` 定向渲染5张受影响卡（新作品组、Leningrad、档案手稿、Tiepolo、Dolfin family）；预检 `cards=5`、`tables=7`、`rows=18`、`projected_relation_rows=20`、`files_to_write=5`。5张均写后字节核验通过，事务恢复快照清理；逐卡复预览均无差异。
+
+严格表审计：`kus=2832`、`candidates=12424`、`alignments=12766`、待S4登记 `3025`、`relations=1931`（1907 formal、24 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；全库孤立KU 1367、over-connected KU 2。S3主决定为 same=2052、new=5072、conflict=9、excluded=103、undecided=5188；26个跨来源决定差异仍按候选逐项处理。S6累计裁决 `1216/10559`（694 formal、414 pending、108 rejected），余 `9343`。统一S2独立复核仍为9617/15343，台账待核平，未接收；本批不改变S2/S5，也不构成S3–S6全书收口。
