@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-ch9-p252-vendramin-cycle-20261024"></a>
+### 第9章 p.252 Palazzo Vendramin-Calergi 组画端点（2026-10-24）
+
+**触发与 S3/S4。** S4 端点登记时核对 `cand-8253`（Palazzo Vendramin-Calergi）及其直接关系主语 `cand-8254`。前者沿用既有 `new` 决定，登记为 place KU `units/places/palazzo-vendramin-calergi`。对 `cand-8254` 定点重开 S3：Haskell 第9章 p.252 注5称其为“另一组”罗马历史题材画布，且与注3的 Tiepolo 组分开；来源足以支持该组作为来源限定的 work 身份，不要求先识别单幅画作。故从 `undecided` 改判为 `new`，组 `sg3-work-cand-8254`，登记至 `units/works/vendramin-calergi-roman-history-canvas-cycle`。该裁决不识别单幅作品、正式题名、制作时间、存世范围或作者。
+
+沿用 S2 已有注5语义审读。语句转录的脚注序号仍保留 OCR “6”；既有 S2 qualifier 记载对照 PDF 物理页14校读为注5，并记录 Niccolo→Niccolò 的识读。未改写 S0 转录、statement 或 mention；本批不增加独立 S2 复核分子。卡片中文名称均为描述性译名／音译，不声称正式题名。
+
+**S5。** `no_delta`：没有新建 `enrichment.jsonl` 属性行；只把有据的对象范围和来源限制写入两张双语卡片描述，不添加外部身份、建筑史或作品个体事实。
+
+**S6 逐项裁决。**
+
+| S2 statement | 决定 | 理由／正式边 |
+|---|---|---|
+| `st-chp9-p252-vendramin-cycle-attribution-note5` | formal `rel-1925 located_at` | 原文直接称另一组罗马史画布“is in” Palazzo Vendramin-Calergi；工作组与地点的端点均已登记。只记录来源所报的空间位置，并在范围中与注3的 Tiepolo 组区分；不推定时间、单幅画布分配或现状。 |
+| `st-chp9-p252-vendramin-cycle-attributed-to-bambini` | pending（过程级） | “have been attributed to”表达来源报告的归属，当前受控词表没有 `attributed_to`。`created_by` 会把未定归属写成创作事实，因此不写入 `relations.csv`。若受控谓词能表达归属报告，或出现足以裁定作者关系的直接证据，再重开。 |
+
+**定向呈现与审计。** 两张卡定向预览后渲染；预检 `cards=2`、`projected_relation_rows=2`、`files_to_write=2`，写后字节核验通过。`audit_tables.py --strict-stage --summary`：`kus=2829`、S4 待登记 3027、S5 字段 13177（1634 `unverified`）、`relations.csv=1925`（1904 formal、21 pending）、S2 statements 15343、mentions 26781，`s2_missing=[]`、`errors=[]`。关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。批后 S3 `same=2052`、`new=5071`、`conflict=9`、`excluded=103`、`undecided=5189`；S4 已映射 2044/5071，待登记 3027（其中 1309 条触及直接关系端点）；S6 已裁决 1210/10559（691 formal、411 pending、108 rejected），余 9349。S2 独立复核分子仍为 9617，尚未按当前 statement ID／来源版本核平，也未接收。
+
 <a id="s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024"></a>
 ### 第7章 p.191 注5、注9迁入及引证裁决（2026-10-24）
 

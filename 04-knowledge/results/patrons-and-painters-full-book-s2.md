@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第9章 p.252 Vendramin-Calergi 组画关系端点批次（2026-10-24）：** 将 `cand-8253` 登记为 place KU；S3定点复核 `cand-8254`，由 `undecided` 改为来源限定的 `new` 组画身份并登记 work KU。两项S4映射完成；地点关系新增 formal `rel-1925 located_at`，Bambini“被归于”表述因无精确受控谓词保留为过程级pending，不误写 `created_by`。两张卡定向渲染并写后核验；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性阻断为0。S2 statement／mention及独立复核分子未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch9-p252-vendramin-cycle-20261024)。
+
 **第8、9、19章 Lucca MS(S). 3299 书信跨章组及 S6 裁决（2026-10-24）：** 将 `cand-7801`、`cand-7802`、`cand-10797`、`cand-7803`、`cand-8620` 归入4个跨章身份组，登记3封档案信与Lucca机构4张KU卡、5条候选映射；第8章注2与附录3的Torelli条目确认是同封信。新增6条S2作者/收件人statement、23条Haskell来源S5字段，不增加mention或独立复核分子。14项S6均有去向（7 formal、6 pending、1 rejected），其中4项非表级裁决保存在知识过程记录；relations.csv新增10行。10张受影响卡定向渲染并通过写后核验。批次记录见[逐项过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-lucca-ms3299-letters-20261024)。
 
 **第7章 p.191 注5、注9迁入与裁决（2026-10-24）：** 补入 Pascoli 卷I、卷II及 Pacichelli 三条引证 statement、两条卷级 mention，并修正本段的脚注指向、转述语气和12条引文的编辑性后缀。S3将 cand-6972 的“卷I+卷II”合并身份排除；两卷和 Pacichelli 均复用既有 archive KU。三条 S6 引证去向明确：复用 rel-1862、新增 rel-1914、复用 rel-1738。S5 no_delta，统一独立复核分子不变。严格表审计及关系一致性审计在偏移修正后通过；残余 st-chp7-p191-i07 端点判断、cand-6955 类型仍待处理，本页未接收。当前 S2 15,337 statements、26,781 mentions，独立复核9,617/15,337（62.70%，未接收，台账仍待核平）；S3 same=2,052、new=5,069、conflict=9、excluded=103、undecided=5,191；S4映射2,037/5,069、待映射3,032（其中1,313条触及直接关系端点）；S5字段13,154（1,634 unverified）；S6已裁决1,194/10,551（683 formal、404 pending、107 rejected），余9,357；relations.csv 1,914条（1,896 formal、18 pending）。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024）。
@@ -86,14 +88,14 @@
 
 **第9章 p.251跨章身份与端点批次（2026-10-24）：** cand-6960 与 cand-8218 经跨章核对分别复用圣彼得大殿及 Bernini 柱廊 KU；cand-1518、cand-8229、cand-8231 登记为 Manin Passeriano country house、Le Grazie（Florio）与 La Galleria di Minerva 第六卷。cand-8230 因可能与同卷第83页的 cand-9523 指向同一匿名信件，保留 S3 undecided。新增3条 mention 锚点、1条 authored_by S2 statement（不计独立复核分子），新增13条 S5 字段并更正 Daniele Florio 卡的印刷题名；5条相关 S6 候选逐条裁为1 formal、3 pending、1 rejected。六张受影响卡定向渲染并复预览无差异；严格表审计 errors=[]、s2_missing=[]，关系一致性五类阻断均为0。详见[本批过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-p251-endpoints-20261024)。
 
-**最新全书快照（2026-10-24，含 Lucca MS(S). 3299 书信批次）：** S0的832个源段均有机械处置（678 complete、154 excluded）。S2有15,343条statement、26,781条mention；统一独立逐条复核分子9,617，按当前分母为62.68%，但尚未按statement ID和来源版本核平，也未接收。S3主决定覆盖12,424/12,424，均有决定理由和过程引用：same=2,052、new=5,070、conflict=9、excluded=103、undecided=5,190；另有26个候选的跨来源decision值不同，须按来源和身份语义逐项核对，不自动视为冲突。未决候选中3,048个是S2关系端点。S4已映射2,042/5,070条new候选，待登记3,028条，其中1,310条触及关系端点；当前KU共2,827个。S5字段13,177条（1,634条unverified）。S6已裁决1,208/10,559条（690 formal、410 pending、108 rejected），余9,351条；relations.csv共1,924条（1,903 formal、21 pending）。另有337条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有33条（12 completed、21 undecided；严格审计pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断为0。另列1,368个零关系KU和2个高连接KU，作为后续定向语义核查项。上述机械检查不等于语义接收；S2尚未独立接收，S3–S6未全书收口，S7未启动，知识发现与页面暂停。
+**最新全书快照（2026-10-24，含第9章 p.252 组画端点批次）：** S0的832个源段均有机械处置（678 complete、154 excluded）。S2有15,343条statement、26,781条mention；统一独立逐条复核分子9,617，按当前分母为62.68%，但尚未按statement ID和来源版本核平，也未接收。S3主决定覆盖12,424/12,424，均有决定理由和过程引用：same=2,052、new=5,071、conflict=9、excluded=103、undecided=5,189；另有26个候选的跨来源decision值不同，须按来源和身份语义逐项核对，不自动视为冲突。未决候选中3,047个是S2关系端点。S4已映射2,044/5,071条new候选，待登记3,027条，其中1,309条触及关系端点；当前KU共2,829个。S5字段13,177条（1,634条unverified）。S6已裁决1,210/10,559条（691 formal、411 pending、108 rejected），余9,349条；relations.csv共1,925条（1,904 formal、21 pending）。另有337条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有33条（12 completed、21 undecided；严格审计pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断为0。另列1,368个零关系KU和2个高连接KU，作为后续定向语义核查项。上述机械检查不等于语义接收；S2尚未独立接收，S3–S6未全书收口，S7未启动，知识发现与页面暂停。
 
 **后续工作规划：** 按相邻来源页和已证成的跨章身份组连续处理，每批闭合 S3→S4→S6；只对受影响卡片做预览和渲染，并独立推进 S2 复核台账核平。
 
-1. **逐类型处理S3待证身份。** 当前5,190项保持undecided，先核对626个类型未定候选（其中471个是关系端点），再处理work（1,600，其中1,107个端点）、term（658/444）、person（1,067/432）、archive（680/297）、place（307/132）、institution（119/83）、event（113/67）、family（18/13）和procedure（2/2）。每项继续保留same、new、conflict、excluded或undecided的证据理由和去向。
-2. **同批完成S4直接端点登记。** 3,028条new候选待映射，其中1,310条触及S2关系端点。按已确认身份组登记或复用KU，再补关系裁决所必需且有来源支持的S5字段；同一对象的正文、脚注和索引候选共用映射。
+1. **逐类型处理S3待证身份。** 当前5,189项保持undecided，先核对626个类型未定候选（其中471个是关系端点），再处理work（1,599，其中1,106个端点）、term（658/444）、person（1,067/432）、archive（680/297）、place（307/132）、institution（119/83）、event（113/67）、family（18/13）和procedure（2/2）。每项继续保留same、new、conflict、excluded或undecided的证据理由和去向。
+2. **同批完成S4直接端点登记。** 3,027条new候选待映射，其中1,309条触及S2关系端点。按已确认身份组登记或复用KU，再补关系裁决所必需且有来源支持的S5字段；同一对象的正文、脚注和索引候选共用映射。
 3. **补齐337条缺S2端点候选ID的关系候选。** 分别处理仅缺subject 45条、仅缺object 220条、两端均缺72条；回到来源段修复mention和候选映射。端点仍不可识别时保留待证，不造空端点。
-4. **分批完成S6剩余9,351项。** 优先裁决S3/S4已稳定且端点齐备的候选；每项落为formal、pending或rejected，记录方向、受控谓词、语境和具体证据。缺端点、来源或准确谓词时明确解除条件。
+4. **分批完成S6剩余9,349项。** 优先裁决S3/S4已稳定且端点齐备的候选；每项落为formal、pending或rejected，记录方向、受控谓词、语境和具体证据。缺端点、来源或准确谓词时明确解除条件。
 5. **定向核查S5的1,634条unverified字段。** 先处理身份和正式关系所依赖的字段；仅在适用原件、专业目录或权威来源支持时改变证据状态。
 6. **核平S2独立复核台账并继续章节审读。** 将9,617条既有记录逐项对到当前15,343条statement ID与来源版次，区分有效、重复、已改写、失效和新增；核平前不将62.68%称为已确认覆盖或接收。
 7. **清点backlog并保持阶段边界。** 现有33项中12项completed、21项undecided；新增具名端点按规则进入backlog。S2–S6前置条件完成后再准备S7；知识发现和页面继续等待用户明确启动。
@@ -103,7 +105,7 @@
 | S3 undecided类型 | 候选总数 | 其中关系端点候选 |
 |---|---:|---:|
 | 类型未定 | 626 | 471 |
-| work | 1,600 | 1,107 |
+| work | 1,599 | 1,106 |
 | term | 658 | 444 |
 | person | 1,067 | 432 |
 | archive | 680 | 297 |
@@ -112,7 +114,7 @@
 | event | 113 | 67 |
 | family | 18 | 13 |
 | procedure | 2 | 2 |
-| **合计** | **5,190** | **3,048** |
+| **合计** | **5,189** | **3,047** |
 
 **本批验证与提速方式：** 第4章 pp.106、113 本批13个S4 KU、36条S5来源字段、60项S6逐条决定；19条formal边涉及22张卡，定向渲染后22/22复预览无差异。严格表审计`s2_missing=[]`、`errors=[]`，关系一致性五类阻断为0；S2独立复核分子仍为9,617。本项目继续以同一来源页闭环方式推进，脚本只负责定位、结构核查和已审定内容的写回，不代替身份与关系判断。
 
