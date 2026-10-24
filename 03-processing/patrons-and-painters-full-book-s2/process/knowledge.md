@@ -13480,3 +13480,39 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 `build_cards.py --render` 定向渲染5张受影响卡（新作品组、Leningrad、档案手稿、Tiepolo、Dolfin family）；预检 `cards=5`、`tables=7`、`rows=18`、`projected_relation_rows=20`、`files_to_write=5`。5张均写后字节核验通过，事务恢复快照清理；逐卡复预览均无差异。
 
 严格表审计：`kus=2832`、`candidates=12424`、`alignments=12766`、待S4登记 `3025`、`relations=1931`（1907 formal、24 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；全库孤立KU 1367、over-connected KU 2。S3主决定为 same=2052、new=5072、conflict=9、excluded=103、undecided=5188；26个跨来源决定差异仍按候选逐项处理。S6累计裁决 `1216/10559`（694 formal、414 pending、108 rejected），余 `9343`。统一S2独立复核仍为9617/15343，台账待核平，未接收；本批不改变S2/S5，也不构成S3–S6全书收口。
+
+<a id="s3-s4-s6-ch9-p273-two-schemes-20261025"></a>
+
+### 第9章 p.273 两套卡尔米内学院方案及主题端点批次（2026-10-25）
+
+#### S3 跨章身份边界与 S4 登记
+
+沿用已有 S3 `new` 决定，登记5个候选：`cand-8741`（`workgrp-e98b6801b14225`）为第一套天顶方案；`cand-8748`、`cand-8749`、`cand-8750`、`cand-8751` 分别为第二套方案中的 Faith、Hope、Charity，以及第一套方案举例的天使拯救炼狱灵魂主题。映射分别写入 `units/works/scuola-del-carmine-first-ceiling-scheme` 与4张 term 卡。`cand-8742` 仍映射至既有第二方案卡。
+
+跨章复核了第9章 p.255 的 `theological-virtues` 集合记录及三项被人格化的图像候选。集合卡记录三项概念的整体，不能一对一替代 Faith、Hope、Charity 三个独立端点；被人格化的画中形象也不是方案所指的抽象美德。故保留本批既有 S3 `new` 分组，不与集合卡或具体人物化主题合并；不宣称对其他章节中所有同名概念完成全局归并。`cand-8706` 仍为 `undecided` institution，`cand-8705` 仍为 `undecided` work，本批不推定其对象边界。
+
+#### S6 逐项裁决
+
+11条 `relation_candidate=true` 的 p.273 statement 均获得 formal 或 pending 去向；6条写入 `relations.csv`，5条因端点或谓词问题保留为过程级 pending（未用缺端点的关系行占位）。
+
+| statement_id | 决定 | 记录/理由 |
+|---|---|---|
+| `st-chp9-p273-first-scheme-confraternity-privileges` | pending | 第一方案与 Confraternity 的主题关系有原文支持，但端点 `cand-8706` 的机构边界仍为 S3 `undecided`，未登记KU；待身份边界确定后再按精确关系类型裁决。 |
+| `st-chp9-p273-first-scheme-doctrinal-subjects` | formal | `rel-1932 has_subject`；仅记录第一方案拟表现的一个教义主题示例，不称其为八幅画布完整清单或已确认存世作品。 |
+| `st-chp9-p273-scuola-asked-tiepolo-for-decoration-advice` | pending | Scuola 身份端点 `cand-8706` 未决；当前受控类型没有精确表达“机构征询人物意见”的谓词。 |
+| `st-chp9-p273-scuola-pressured-tiepolo-to-prioritize-religious-commissions` | pending | `cand-8706` 未决，且现有谓词不能准确表达原文所述道德施压及优先次序建议；不改写为赞助、任职或委托关系。 |
+| `st-chp9-p273-second-scheme-chosen-and-executed` | pending | 第二方案端点已登记，但所述壁画组候选 `cand-8705` 仍为 S3 `undecided`；方案与执行作品的身份/版本边界及实现关系尚不能正式连边。 |
+| `st-chp9-p273-tiepolo-drew-virtues-from-ripa` | pending | Ripa 手册候选 `cand-2203` 的对象类型、版本及身份尚未确定；当前关系词表也没有精确表达该处“从手册插图取用描述”的责任关系。 |
+| `st-chp9-p273-tiepolo-proposed-two-schemes` | formal | `rel-1933 designed_by`；仅记录 Tiepolo 被 Haskell 记为第一方案提案者，不推定方案实施或被否决。 |
+| `st-chp9-p273-tiepolo-proposed-second-scuola-scheme` | formal | `rel-1937 designed_by`；仅记录 Tiepolo 被 Haskell 记为第二方案提案者，方案后来“经少量修改”实施的状态仍另行限定。 |
+| `st-chp9-p273-second-scheme-depicts-faith` | formal | `rel-1934 has_subject`；记录第二方案周围画布所拟表现的抽象 Faith 主题，不识别单件存世画布或人物化形象。 |
+| `st-chp9-p273-second-scheme-depicts-hope` | formal | `rel-1935 has_subject`；记录第二方案周围画布所拟表现的抽象 Hope 主题，不识别单件存世画布或人物化形象。 |
+| `st-chp9-p273-second-scheme-depicts-charity` | formal | `rel-1936 has_subject`；记录第二方案周围画布所拟表现的抽象 Charity 主题，不识别单件存世画布或人物化形象。 |
+
+本批不改 S2 statements、mentions 或 S2 独立复核分子；不增加外部身份标识或 S5 外部核验字段。第二方案原有的 S1 提案者字段仅改写为与 S6 关系表达一致的书内限定说明。
+
+#### 投影与审计
+
+`build_cards.py --render` 定向渲染7张受影响卡（两套方案、4个主题端点、Tiepolo）；预检 `cards=7`、`tables=9`、`rows=24`、`projected_relation_rows=25`、`files_to_write=7`。7张均写后字节核验通过；逐卡复预览均无差异。
+
+严格表审计：`kus=2837`、`candidates=12424`、`alignments=12766`、待S4登记 `3020`、`relations=1937`（1913 formal、24 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；全库孤立KU 1366、over-connected KU 2。S3主决定 same=2052、new=5072、conflict=9、excluded=103、undecided=5188；26个跨来源决定差异仍按候选逐项处理。S6累计裁决 `1227/10559`（700 formal、419 pending、108 rejected），余 `9332`。统一S2独立复核仍为 `9617/15343`，台账待核平，未接收；本批不构成S3–S6全书收口。
