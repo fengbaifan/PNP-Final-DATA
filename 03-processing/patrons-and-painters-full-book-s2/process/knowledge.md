@@ -13785,3 +13785,33 @@ python scripts/audit_tables.py --strict-stage --summary退出码0：errors=[]、
 Haskell来源卡与两张新archive卡定向预览后渲染；写后复预览3/3无差异，渲染器写后字节核验通过。`python scripts/audit_tables.py --strict-stage --summary`退出码0：KU=2,871，S3候选=12,426，待S4登记=2,989，关系表=1,964（1,940 formal、24 pending），S5字段=13,243（1,634 unverified），S2 statements=15,343、mentions=26,787，`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。`git diff --check`退出码0；enrichment按Git基线恢复了13,235条旧行的原始文本，仅保留本批新增8行。
 
 批后：S2统一独立复核仍为9,617/15,343（62.68%，未接收）；S3主决定仍为same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186；S4已映射2,086/5,075条new，待登记2,989条，其中1,272个未映射new候选仍触及直接关系端点；KU共2,871。S5为13,243条字段（1,634 `unverified`）；S6已裁决1,272/10,559（718 formal、444 pending、110 rejected），余9,287；`relations.csv`共1,964条（1,940 formal、24 pending）；`candidate-backlog.csv`仍为34条（12 completed、22 undecided，严格审计pending=0）。本批未改变S2独立复核分子，不构成S2接收或S3–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp2-p59-letters-20261025"></a>
+### S3/S4/S5/S6：第2章 p.59 两封书信与 Lumbroso 书目跨章端点（2026-10-25）
+
+#### S3逐对象裁决与跨章身份分组
+
+以第2章 p.59 注2、注3及第21章书目行721为范围，逐项处理三个相关候选：
+
+| candidate_id | 决定变化／S3组 | 可追溯依据与去向 |
+|---|---|---|
+| `cand-4943` | 沿用 `new`；`archive-group-fdf0355254b4` | 第2章 p.59 n.2 称 1646年1月21日书信刊于 Pollak 1913 p.50。对象是该封具体书信，不与已有 Pollak 1913 出版物合并；登记为 `units/archives/letter-1646-01-21-pollak-1913`。来源未给发信人、收信人和档案编号，原信及被引页未独立查阅。 |
+| `cand-4944` | 沿用 `new`；`archive-group-6f10d340fc53` | 第2章 p.59 n.3 称 1646年3月9日致 Cassiano dal Pozzo 的书信见 Lumbroso p.312。对象是该封具体书信，不与 Lumbroso 著作合并；登记为 `units/archives/letter-1646-03-09-to-cassiano-dal-pozzo-lumbroso`。脚注未给发信人；原信及被引页未独立查阅。 |
+| `cand-4946` | `undecided` → `same`；沿用 `archive-group-01f343df099c` | 将书内简称 Lumbroso 对应至既有 `units/archives/lumbroso-notizie-cassiano-dal-pozzo-1874`。第21章 p.428、Markdown L721 的唯一 Lumbroso 书目项为 G. Lumbroso, *Notizie sulla vita di Cassiano dal Pozzo*, Torino 1874。此匹配限定书目对象身份；未查阅该书 p.312，也未验证其所载书信全文。 |
+
+`cand-4945` 的收件人 Cassiano dal Pozzo 已映射至既有 person KU；本批不改动其决定。Pollak 1913 书目卡与单封信件卡继续作为不同对象。
+
+#### S4与S5登记
+
+新增两张 archive KU，分别承载上述具体书信；`cand-4943`、`cand-4944` 映射沿用既有 S3 `new` 组。accepted.yml 与 ku-manifest.csv 已登记。新增9条 source-backed 字段（`enr-17158`–`enr-17166`）：1月21日信卡记录书信类型、日期、Pollak 1913 书目指引及 p.50 定位；3月9日信卡记录书信类型、日期、收件人 Cassiano、Lumbroso 1874 书目指引及 p.312 定位。字段证据限于 Haskell 的书内引注和书目，不表示独立核查原件或被引页；本批没有新增 unverified 字段。
+
+#### S6逐条裁决
+
+| statement_id | 决定 | 关系记录 | 范围与限制 |
+|---|---|---|---|
+| `st-chp2-secvii-l38-54-fn-p59-2-letter-1646-01-21` | formal | `rel-1965 cites`：Haskell archive → 1646年1月21日书信卡 | 仅记录第2章 p.59 n.2 对 Pollak 1913 p.50 的引注；不把关系指向 Pollak 书目卡，也不补写书信作者、收件人或档案编号。 |
+| `st-chp2-secvii-l38-54-fn-p59-3-letter-1646-03-09` | formal | `rel-1966 cites`：Haskell archive → 1646年3月9日书信卡 | 仅记录第2章 p.59 n.3 的书信引注；Lumbroso 1874 是被引刊物，既有书目 KU 与具体书信分开。 |
+
+#### 卡片投影与审计
+
+对两张新信件卡及 Haskell 来源卡预览后定向渲染3张；写后复预览3/3无差异，渲染器的写后字节核验通过。Lumbroso 书目卡预览无差异，无需重渲染。`python scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,873，待 S4 登记=2,987，S5=13,252（1,634 unverified），relations.csv=1,966（1,942 formal、24 pending），S2=15,343 statements／26,787 mentions，`s2_missing=[]`、`errors=[]`。关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。S2独立复核分子未变；本批不构成 S2 接收或 S3–S6 全书收口。

@@ -6,6 +6,16 @@ sub_type: book
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
+  location: 第2章，印刷页59，注3，L41；仅记录 Haskell 对书信刊载页的书内指引。
+  sentence_summary: 第2章注3称一封1646年3月9日致 Cassiano dal Pozzo 的信刊于 Lumbroso 第312页；第21章唯一的 Lumbroso 书目项与本卡对应。信件身份见独立 archive 卡；Lumbroso 第312页和书信未独立查阅。
+  original_quotes:
+  - source_span: line 41; print p. 59 n.3
+    text: 3 Letter of 9 March 1646 to Cassiano dal Pozzo published by Lumbroso, p. 312.
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/02_CHP-2_sec_vii.md
+    source_span: line 41; print p. 59 n.3
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)'
   location: 第4章，印刷页101；OCR L242；此处列的是被引 Lumbroso 版本的页码，不是 Haskell 本书页码。
   sentence_summary: 第4章 p.101 注1引用 Lumbroso 多页，并将其与 Bottari、Peiresc 的相关引文并列；原书题名和出版信息见第21章参考书目。
   original_quotes:
@@ -44,16 +54,16 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记 G. Lumbroso 的 *Notizie sulla vita di Cassiano dal Pozzo*，即1874年在 Torino 出版的文献。Haskell 第4章多条注释引用其不同页码，第7章 p.177 注4亦引用第369页；第21章参考书目列出完整题名、责任者、Torino 与1874年。卡片仅标识 Haskell 引用的书目对象，不表示已独立查阅 Lumbroso 原书或验证引文内容。中文名《卡西亚诺·达尔·波佐生平札记》为描述性工作译名。
+**中文：** 本卡登记 G. Lumbroso 的 *Notizie sulla vita di Cassiano dal Pozzo*，即1874年在 Torino 出版的文献。哈斯克尔第2章 p.59 注3将一封1646年3月9日致 Cassiano 的信定位到 Lumbroso 第312页；该简称依据第21章唯一的 Lumbroso 书目项对应至本书，不表示已查阅该页。第4章多条注释及第7章 p.177 注4也引用本书。卡片仅标识 Haskell 的书目对象，不表示已独立查阅 Lumbroso 原书或验证引文内容。中文名《卡西亚诺·达尔·波佐生平札记》为描述性工作译名。
 
-**English:** This card records G. Lumbroso’s *Notizie sulla vita di Cassiano dal Pozzo*, published in Torino in 1874. Several notes in Chapter 4 cite different pages, and Chapter 7, p. 177, note 4 cites p. 369. Chapter 21’s bibliography supplies the full title, author, place, and year. The card identifies the bibliographic work cited by Haskell; it does not indicate independent consultation of Lumbroso’s book or verification of the cited passages. The Chinese title is a descriptive working translation.
+**English:** This card records G. Lumbroso’s *Notizie sulla vita di Cassiano dal Pozzo*, published in Torino in 1874. Chapter 2, p. 59, note 3 locates a letter to Cassiano dated 9 March 1646 at Lumbroso, p. 312; the abbreviated citation is matched to this book because it is the sole Lumbroso entry in Chapter 21’s bibliography. That cited page was not consulted. Other notes in Chapters 4 and 7 also cite the book. The card identifies Haskell’s bibliographic object; it does not indicate independent consultation of Lumbroso’s book or verification of the cited passages. The Chinese title is a descriptive working translation.
 
 ### 书目身份
 
 - **原题名：** *Notizie sulla vita di Cassiano dal Pozzo*；第21章参考书目 p.428。
 - **责任者：** G. Lumbroso；照录参考书目形式。
 - **出版信息：** Torino，1874年；第21章参考书目 p.428。
-- **引文语境：** Haskell 在第4章 p.101 注1列 Lumbroso pp.176、179、197、251、299；同章还引 pp.167、185、202、211、314 等；第7章 p.177 注4引 p.369。被引页未在本次登记中独立查阅。
+- **引文语境：** 第2章 p.59 注3以 Lumbroso p.312 定位一封1646年3月9日致 Cassiano dal Pozzo 的信；第4章 p.101 注1列 pp.176、179、197、251、299，同章还有 pp.167、185、202、211、314 等；第7章 p.177 注4引 p.369。所有被引页均未在本次登记中独立查阅。
 
 ### 身份边界
 
@@ -61,7 +71,7 @@ S3 新组 `archive-group-01f343df099c` 仅含 `cand-5683`，指向此1874年书�
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中九条 Haskell 引用该书的关系候选留待 S6 逐条核验端点、引用方向、语境与证据；被引页未独立阅读。
+关系表已有 formal `rel-1880`，对应 Haskell 第4章 p.106 注2对本书的直接引注。第2章 p.59 注3的关系对象是刊载于本书的具体书信，故本批将 `cites` 边指向该书信，不据此重复建立 Haskell → 本书的第二条边；其他引注仍按各自 S2 候选核对。被引页未独立阅读。
 
 ### 关系记录
 
