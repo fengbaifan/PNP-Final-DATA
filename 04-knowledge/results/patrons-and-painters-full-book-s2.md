@@ -103,7 +103,7 @@ S3主决定行覆盖12,418个候选，不等于身份已全部解决。5,193个u
 | procedure | 2 | 2 |
 | 类型未定 | 623 | 468 |
 
-S4已登记1,915/5,068条new候选映射，尚余3,153条；已映射至1,691个不同KU。其中1,427个已判new的直接关系端点仍待登记（term 497、archive 339、work 238、place 185、event 91、institution 76、person 1）；其余1,726条待映射候选尚未见于当前正式关系端点。S5字段12,873条（1,634条unverified）。S6已裁决920/10,524条（563 formal、263 pending、94 rejected），余9,604条；relations.csv有1,792条（1,779 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有30条（12 completed、18 undecided，pending=0）。阶段进度不能压成单一项目百分比。
+S4已登记1,916/5,068条new候选映射，尚余3,152条；已映射至1,692个不同KU。其中1,426个已判new的直接关系端点仍待登记（term 497、archive 339、work 237、place 185、event 91、institution 76、person 1）；其余1,726条待映射候选尚未见于当前正式关系端点。S5字段12,876条（1,634条unverified）。S6已裁决921/10,524条（564 formal、263 pending、94 rejected），余9,603条；relations.csv有1,793条（1,780 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有30条（12 completed、18 undecided，pending=0）。阶段进度不能压成单一项目百分比。
 前述第七章黎塞留批次的事件身份仅限 Haskell 书内所指事件；1642为书内所报年份，不声称外部核验。招揽政策与马萨林 1644 年贝尔尼尼行动、1648 年阿尔加迪行动分开。未将 `minister_to`、招募目标、负向“未中断”或作者因果解释强套进不精确的正式谓词。
 
 **阶段收口条件。** S2需完成当前ID／来源版本核平及独立逐条语义审读；S3需让每个候选都有可追溯的复用、新增、冲突、排除或有理由待证去向；S4需把全部new决定映射至有效KU；S5的关键字段需有核实、待证或不适用说明；S6每条关系候选均有formal、pending或rejected记录。阶段覆盖和机械审计不替代语义接收。
