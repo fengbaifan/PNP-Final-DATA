@@ -46,9 +46,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** 正文和索引均给出全名；不将规划者与之后施工、装饰者混同。 直接S2关系候选st-chp8-p215-ricchini-planned-dome-1612仍待S6逐条裁决；本次登记不建立正式边。
+**中文：** 正文和索引均给出全名；不将规划者与之后施工、装饰者混同。直接S2候选 `st-chp8-p215-ricchini-planned-dome-1612` 已裁为 Ricchini → 穹顶的 `designer_of`，时间限定为1612年规划；不表示施工、完工或之后的装饰角色（`rel-1828`）。
 
-**English:** The body and index both give his full name; the planner is kept distinct from later builders and decorators. Direct S2 relation candidates st-chp8-p215-ricchini-planned-dome-1612 remain for individual S6 review; this registration creates no formal edges.
+**English:** The body and index both give his full name; the planner is kept distinct from later builders and decorators. The direct S2 candidate `st-chp8-p215-ricchini-planned-dome-1612` is recorded as `designer_of` the dome, limited to the 1612 planning role; it does not assert construction, completion, or later decorative work (`rel-1828`).
 
 ## 关系与证据
 
@@ -58,8 +58,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → designer_of（`designer_of`） | [贝加莫圣母大殿穹顶（Dome of Santa Maria Maggiore in Bergamo）](../works/dome-santa-maria-maggiore-bergamo.md) | S2 relation candidate st-chp8-p215-ricchini-planned-dome-1612. The source identifies Ricchini as architect and says he planned the dome in 1612.；时间：1612（规划）；角色：建筑师／规划者；范围：仅记录 Haskell 所述 Ricchini 于1612年规划穹顶；不表示实际施工或完工，也不推及灰泥与壁画装饰。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed pp.215 L13–14; statement=st-chp8-p215-ricchini-planned-dome-1612 |
 
-**中文：** 直接S2候选（待S6）：st-chp8-p215-ricchini-planned-dome-1612。
+正式关系由 `relations.csv` 渲染；本卡与穹顶的设计关系及其来源限定见上文与关系记录。
 
-**English:** 直接S2候选（待S6）：st-chp8-p215-ricchini-planned-dome-1612。
+**中文：** 直接S2候选已正式裁决：`st-chp8-p215-ricchini-planned-dome-1612` → `rel-1828`。
+
+**English:** Direct S2 candidate adjudicated formal: `st-chp8-p215-ricchini-planned-dome-1612` → `rel-1828`.

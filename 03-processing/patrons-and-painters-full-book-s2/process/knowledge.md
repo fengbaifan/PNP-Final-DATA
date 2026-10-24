@@ -1,5 +1,16 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-ch8-p215-architectural-work-endpoints-20261024"></a>
+### S3/S4/S5/S6 work：第8章 p.215 钟楼、穹顶与灰泥装饰（2026-10-24）
+
+**S3身份与边界。** 沿用 `cand-7632`／`workgrp-de82b84a0a1630`、`cand-7636`／`workgrp-90011fea1403a2`、`cand-7637`／`workgrp-cda9778b0ca695` 的既有 `new` 决定，没有重开 S3。按 taxonomy 分别登记教堂钟楼、穹顶建筑构件和穹顶内灰泥装饰；三者与 Santa Maria Maggiore 教堂地点及南入口、祭衣间等其他对象保持区分。依据 Haskell 印刷页215（PDF物理页13），钟楼于1425年完成，Ricchini于1612年规划穹顶，丰富厚重的灰泥装饰覆于穹顶内侧；不把规划年当作建造／完工年，也不推断装饰者、精确年代或未述作者。
+
+**S4登记与S5字段。** `aln-7808`、`aln-7812`、`aln-7813` 分别映射 `cand-7632`、`cand-7636`、`cand-7637` 到新增 work KU：`units/works/campanile-santa-maria-maggiore-bergamo`、`units/works/dome-santa-maria-maggiore-bergamo`、`units/works/stucco-ornamentation-dome-santa-maria-maggiore-bergamo`。三卡写入 `accepted.yml` 与 `ku-manifest.csv`。由卡片来源表生成8条 `source_backed` 字段 `enr-16799`–`enr-16806`，包括来源描述名称、作品类型、钟楼完工年与穹顶规划年；未新增外部补足或独立核验。
+
+**S6逐项裁决。** `st-chp8-p215-campanile-completed-1425` → `rel-1827 part_of`（钟楼 work → Santa Maria Maggiore place；1425年另记S5，不作为关系时间）；`st-chp8-p215-ricchini-planned-dome-1612` → `rel-1828 designer_of`（Ricchini → 穹顶，限定1612年规划）；`st-chp8-p215-stucco-ornament-covers-dome-interior` → `rel-1829 part_of`（灰泥装饰 work → 穹顶 work，仅表示原文所述的穹顶内饰关系）。三条均有 Haskell 页码与 statement 锚点。另五条同页／相邻页候选仍在各自队列，不因本批自动裁决。
+
+**渲染与核验。** 五张受影响卡（钟楼、穹顶、灰泥装饰、Santa Maria Maggiore、Francesco Maria Ricchini）定向渲染后复预览无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；关系一致性检查五类阻断项均为0。新增3个KU、8条S5字段和3条formal S6决定；S2 statement／mention及独立复核分子不变。未查外部建筑史或原始建筑档案。
+
 <a id="s3-s4-s5-s6-chp6-p166-crespi-six-sacraments-20261024"></a>
 ### S3/S4/S5/S6 work：第6章 p.166 Crespi 余下六件圣事（2026-10-24）
 
