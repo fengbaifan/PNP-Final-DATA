@@ -56,6 +56,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）](../works/g-m-crespi-jupiter-handed-over-by-cybele-to-the-corybantes-to-be-fed.md) | 时间：1728–1729；角色：委托人；范围：Stuttgart的Giove tra i coribanti；原断言与证据见发出端卡片“库柏勒将朱庇特交给科律班忒斯哺育（Jupiter handed over by Cybele to the Corybantes to be fed）”：[来源](https://www.treccani.it/enciclopedia/crespi-giuseppe-maria-detto-lo-spagnolo_(Dizionario-Biografico)/)；src-0ebafb3ebde8cb77；Giove tra i coribanti专段 |
+| ← 为收信人（`addressee_of`，反向投影） | [朱塞佩·马里亚·克雷斯皮致斯特凡诺·孔蒂的信（1729年7月4日；MSS. 3299）（Letter from Giuseppe Maria Crespi to Stefano Conti, 4 July 1729; MSS. 3299）](../archives/giuseppe-maria-crespi-letter-to-stefano-conti-1729-07-04-ms-3299.md) | S6 formal; source-reported relationship only; manuscript not checked. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-lucca-ms3299-letters-20261024；时间：1729-07-04；角色：收件人；范围：仅记录第9章对书信收件人的明确识别；原件未独立查阅。；原断言与证据见发出端卡片“朱塞佩·马里亚·克雷斯皮致斯特凡诺·孔蒂的信（1729年7月4日；MSS. 3299）（Letter from Giuseppe Maria Crespi to Stefano Conti, 4 July 1729; MSS. 3299）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.265 L299; statement=st-chp9-p265-crespi-letter-addressed-to |
 
 ### 关系候选入口
 

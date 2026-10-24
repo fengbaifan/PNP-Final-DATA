@@ -59,4 +59,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 st-chp19-p389-giuseppe-reports-felice-trojan-subject 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [朱塞佩·托雷利致亚历山德罗·马尔凯西尼的信（1705年2月24日；MS. 3299）（Letter from Giuseppe Torelli to Alessandro Marchesini, 24 February 1705; MS 3299）](../archives/giuseppe-torelli-letter-to-alessandro-marchesini-1705-02-24-ms-3299.md) | S6 formal; source-reported relationship only; manuscript not checked. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-lucca-ms3299-letters-20261024；时间：1705-02-24；角色：寄件人；范围：仅记录附录3题头所报寄件人；原件未独立查阅。；原断言与证据见发出端卡片“朱塞佩·托雷利致亚历山德罗·马尔凯西尼的信（1705年2月24日；MS. 3299）（Letter from Giuseppe Torelli to Alessandro Marchesini, 24 February 1705; MS 3299）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 19, printed p.389 L82; statement=st-chp19-p389-torelli-letter-authored-by |
+
+正式作者关系见上方关系记录，依据是 Haskell 附录3题头对信件作者的标示，未独立查阅手稿。S2关系候选 `st-chp19-p389-giuseppe-reports-felice-trojan-subject` 保留原书归因和限制：信中由 Felice 选择画题，候选作品 `cand-7798` 的 S3 身份仍待证，因此不建立人物到作品的正式边。

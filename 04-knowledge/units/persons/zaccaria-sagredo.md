@@ -79,6 +79,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）](../works/gian-antonio-faldoni-zaccaria-sagredo.md) | 角色：肖像／纪念对象；范围：图版题名中的肖像或寓意纪念对象；不是出资或所有权证明；原断言与证据见发出端卡片“扎卡里亚·萨格雷多肖像（Portrait of Zaccaria Sagredo）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [朱塞佩·马里亚·克雷斯皮致斯特凡诺·孔蒂的信（1729年7月4日；MSS. 3299）（Letter from Giuseppe Maria Crespi to Stefano Conti, 4 July 1729; MSS. 3299）](../archives/giuseppe-maria-crespi-letter-to-stefano-conti-1729-07-04-ms-3299.md) | S6 formal; limited to the excerpt reproduced by Haskell; manuscript not checked. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-lucca-ms3299-letters-20261024；时间：1729-07-04；角色：信件所谈人物；范围：仅表示哈斯克尔所录意大利文节选谈及 Zaccaria Sagredo；不概括未录出的整封信。；原断言与证据见发出端卡片“朱塞佩·马里亚·克雷斯皮致斯特凡诺·孔蒂的信（1729年7月4日；MSS. 3299）（Letter from Giuseppe Maria Crespi to Stefano Conti, 4 July 1729; MSS. 3299）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.265 L300–301; statement=st-chp9-p265-crespi-letter-italian-quotation |
 
 ### 关系候选入口
 

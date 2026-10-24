@@ -117,4 +117,11 @@ English: This card refers only to the painter Alessandro Marchesini named in Cha
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+下方关系记录列出本轮核定的两封信件收件人关系；两条边仅依据 Haskell 的书内引录，未独立查阅信件原件。其他 S2 陈述仍按各自端点、证据与 S6 裁决记录处理。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [马尔坎托尼奥·弗兰切斯基尼致亚历山德罗·马尔凯西尼的信（1705年2月17日；MS. 3299）（Letter from Marcantonio Franceschini to Alessandro Marchesini, 17 February 1705; MS 3299）](../archives/marcantonio-franceschini-letter-to-alessandro-marchesini-1705-02-17-ms-3299.md) | S6 formal; source-reported relationship only; manuscript not checked. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-lucca-ms3299-letters-20261024；时间：1705-02-17；角色：收件人；范围：仅记录附录3题头所报收件人；原件未独立查阅。；原断言与证据见发出端卡片“马尔坎托尼奥·弗兰切斯基尼致亚历山德罗·马尔凯西尼的信（1705年2月17日；MS. 3299）（Letter from Marcantonio Franceschini to Alessandro Marchesini, 17 February 1705; MS 3299）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 19, printed p.389 L78; statement=st-chp19-p389-franceschini-letter-addressed-to |
+| ← 为收信人（`addressee_of`，反向投影） | [朱塞佩·托雷利致亚历山德罗·马尔凯西尼的信（1705年2月24日；MS. 3299）（Letter from Giuseppe Torelli to Alessandro Marchesini, 24 February 1705; MS 3299）](../archives/giuseppe-torelli-letter-to-alessandro-marchesini-1705-02-24-ms-3299.md) | S6 formal; source-reported relationship only; manuscript not checked. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-lucca-ms3299-letters-20261024；时间：1705-02-24；角色：收件人；范围：仅记录附录3题头所报收件人；原件未独立查阅。；原断言与证据见发出端卡片“朱塞佩·托雷利致亚历山德罗·马尔凯西尼的信（1705年2月24日；MS. 3299）（Letter from Giuseppe Torelli to Alessandro Marchesini, 24 February 1705; MS 3299）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 19, printed p.389 L82; statement=st-chp19-p389-torelli-letter-addressed-to |

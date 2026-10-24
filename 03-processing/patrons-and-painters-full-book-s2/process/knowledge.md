@@ -13378,3 +13378,56 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 | `st-chp17-p380-note1-armanni-sasso-letter-locator` | pending | Haskell注1给出机构名、MSS. 566与1790-07-20信件的定位式引注；原件未查阅，且 `located_at` 为 `needs_split`。 |
 
 本批不改 S2 statements、mentions 或独立复核分子。关系解除条件为关系类型对 archive→repository custody 提供不与物理位置混用的受控谓词；待S6后续按类型治理记录衔接。
+
+<a id="s3-s4-s5-s6-lucca-ms3299-letters-20261024"></a>
+
+### 第8、9、19章 Lucca MS(S). 3299 三封信与保管机构跨章分组（2026-10-24）
+
+#### S3 身份分组与 S4 登记
+
+依据第8章 p.227 注1–2、第9章 p.265及第19章附录3 p.389的书内定位和题头，完成5条候选到4个身份组/KU的映射。`cand-7802`由 `undecided` 改为 `new`；第8章注2明确指向附录3全文，而 `cand-10797` 是同封信的附录题头候选。两候选均保留 `new`，归入既有组 `archive-group-7e1dba91708d` 并共用一个 KU；不是两封信或重复卡。没有查阅 MS(S). 3299 原件或外部目录；不据书内定位断言当前馆藏状态。
+
+| candidate_id | S3 决定与组 | S4 KU | 类型及身份范围 |
+|---|---|---|---|
+| `cand-7801` | `new`；`archive-group-9faa314e4ad2` | `units/archives/marcantonio-franceschini-letter-to-alessandro-marchesini-1705-02-17-ms-3299` | 1705-02-17 Franceschini→Marchesini 单封信 |
+| `cand-7802` | `undecided`→`new`；`archive-group-7e1dba91708d` | `units/archives/giuseppe-torelli-letter-to-alessandro-marchesini-1705-02-24-ms-3299` | 1705-02-24 Torelli→Marchesini 单封信；与 cand-10797 同组 |
+| `cand-10797` | 既有 `new`；`archive-group-7e1dba91708d` | `units/archives/giuseppe-torelli-letter-to-alessandro-marchesini-1705-02-24-ms-3299` | 附录3题头；与第8章注2 cand-7802 为同封信 |
+| `cand-7803` | `new`；`sg3-institution-cand-7803` | `units/institutions/biblioteca-governativa-lucca` | Haskell 所称 Biblioteca Governativa, Lucca；不等同于单件档案或未经核对的现存保管状态 |
+| `cand-8620` | `new`；`archive-group-0b311865f4c8` | `units/archives/giuseppe-maria-crespi-letter-to-stefano-conti-1729-07-04-ms-3299` | 1729-07-04 Crespi→Conti 单封信；与两封1705年信分开 |
+
+原有提及 `m-chp19-p389-030` 已覆盖托雷利信件题头，未重复新增 mention。新增3张 archive 卡和1张 institution 卡，登记5条候选映射；馆藏号原文写作 MS. 3299/MSS. 3299 的差异按来源保留。
+
+#### S2 定向原子化与 S5 字段
+
+新增6条原子 S2 statement：三封信的作者和收件人各一条（`st-chp19-p389-franceschini-letter-authored-by`、`st-chp19-p389-franceschini-letter-addressed-to`、`st-chp19-p389-torelli-letter-authored-by`、`st-chp19-p389-torelli-letter-addressed-to`、`st-chp9-p265-crespi-letter-authored-by`、`st-chp9-p265-crespi-letter-addressed-to`）。端点均映射到已登记人物 KU；S2 mentions总数不变。6条新 statement 尚未独立逐条复核，不计入统一复核分子。
+
+新增23条由 Haskell 原书支持的 S5 字段，限于各信件题头/定位和 Lucca 机构的来源称谓；没有从未读手稿、外部目录或转引材料补入事实。三封信仍作为独立 archive KU，机构单独登记。
+
+#### S6 逐项裁决
+
+本批14条 S2 关系候选逐项有去向：7 formal、6 pending、1 rejected。Formal边只记录 Haskell 对题头作者/收件人及已录意大利文节选主题对象的书内陈述；原件未独立查阅。
+
+| statement_id | 决定 | 记录/理由 |
+|---|---|---|
+| `st-chp19-p389-franceschini-letter-authored-by` | formal | `rel-1915 authored_by`；附录3题头明示作者 |
+| `st-chp19-p389-franceschini-letter-addressed-to` | formal | `rel-1916 addressed_to`；附录3题头明示收件人 |
+| `st-chp19-p389-torelli-letter-authored-by` | formal | `rel-1917 authored_by`；附录3题头明示作者 |
+| `st-chp19-p389-torelli-letter-addressed-to` | formal | `rel-1918 addressed_to`；附录3题头明示收件人 |
+| `st-chp9-p265-crespi-letter-authored-by` | formal | `rel-1919 authored_by`；第9章题头明确识别作者 |
+| `st-chp9-p265-crespi-letter-addressed-to` | formal | `rel-1920 addressed_to`；第9章题头明确识别收件人 |
+| `st-chp9-p265-crespi-letter-italian-quotation` | formal | `rel-1921 has_subject`；仅限哈斯克尔实际录出的意大利文节选谈及 Zaccaria Sagredo，不概括整封未读信件 |
+| `st-chp8-p227-note1-letter-location` | pending | `rel-1922 located_at`；仅为 Haskell 所报历史/书目定位，`located_at` 仍标 `needs_split`，不等于现存馆藏核验 |
+| `st-chp8-p227-note2-letter-location` | pending | `rel-1923 located_at`；同上；该注释指向附录3题头所列的同一封 Torelli 信 |
+| `st-chp9-p265-crespi-letter-locator` | pending | `rel-1924 located_at`；仅为书内 MSS. 3299 定位，保管与物理位置谓词边界未拆分 |
+| `st-chp19-p389-appendix3-conti-franceschini` | pending（过程记录） | 附录标题称档案文件“relating to”Conti 对 Franceschini 的委托；没有具体委托作品/单项档案端点，谓词也未受控，不建立泛化委托边 |
+| `st-chp19-p389-appendix3-conti-felice-torelli` | pending（过程记录） | 附录标题称档案文件涉及 Conti 对 Felice Torelli 的委托；缺少可唯一界定的作品/档案端点，不建立泛化委托边 |
+| `st-chp19-p389-giuseppe-reports-felice-trojan-subject` | pending（过程记录） | 作者 Giuseppe 报告其兄 Felice 选了拟议画作题材；作品候选 `cand-7798` 仍为 S3 undecided，保留来源归因，不建立人物→作品正式边 |
+| `st-chp19-p389-franceschini-subject-options` | rejected（正式图边） | 原书关于 Franceschini 提出备选题材的断言保留；此谓词表达信件内容报告，不形成有类型边界的受控人物/作品关系 |
+
+上表最后四项只有过程级 pending/rejected 决定，不写入 `relations.csv`；原书断言与端点待证状态保留。`relations.csv` 新增10行：7 formal、3 pending。
+
+#### 投影与审计
+
+`build_cards.py --render` 定向覆盖10张信件、机构和人物端点卡，预检15个表区、52行和31条关系投影；10张均写后字节核验通过。修正机构卡重复英文标题，并更新 Franceschini、Marchesini、Torelli 人物卡中过时的关系状态文案。
+
+严格表审计：`kus=2827`、`candidates=12424`、`alignments=12766`、新候选待S4登记 `3028`、关系表 `1924`（1903 formal、21 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S3主决定：same=2052、new=5070、conflict=9、excluded=103、undecided=5190；26个跨来源决定差异仍按候选逐项解释，不视为自动冲突。S6累计裁决 `1208/10559`（690 formal、410 pending、108 rejected），余 `9351`。统一S2复核分子仍为9617，本批新增statement不计入，也不构成S2接收或S3–S6全书收口。

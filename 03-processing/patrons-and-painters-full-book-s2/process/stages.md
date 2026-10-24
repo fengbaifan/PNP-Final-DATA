@@ -13634,6 +13634,10 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 
 对照第6章印刷页153（PDF physical p.8），将既有 `st-chp6-p153-alexander-protests-1648-settlement` 的 claim 收窄为抗议和对教宗利益的说明；另建 `st-chp6-p153-peace-settlement-ended-thirty-years-war` 表达同句中“1648年和约结束三十年战争”的独立关系。共新增2条statement、不新增mention；p.153 尚未完成整页独立语义复核，p.193 仅沿用其既有31条逐条复核覆盖，不把此次编辑计入复核分子或接收状态。
 
+### 2026-10-24：第8、9、19章 Lucca MS(S). 3299 书信端点原子化
+
+对照第19章附录3 p.389题头与信件节选、第9章 p.265 Crespi信件定位，为Franceschini、Torelli、Crespi三封信各记录一条 `authored_by` 和一条 `addressed_to` statement，共新增6条；复用现有mention锚点，mentions不变。第8章注2回指附录3同一Torelli信，不新增重复mention。新增statement未独立逐条复核，不计入统一S2复核分子。S3组、S4映射、S5字段、S6逐项去向和关系投影见[批次记录](knowledge.md#s3-s4-s5-s6-lucca-ms3299-letters-20261024)。
+
 ### 2026-10-24：第17章 p.381 Tempesta 创作者提及映射与 S2 关系断言修订
 
 由 Tempesta 作品 S4 端点登记触发。复核第17章 p.381 L23 与第20章 p.410 L208–209 后，将 `m-chp17-p381-0009`、`m-chp20-p410-023` 的 “Giorgione” 提及从作品索引候选 `cand-1189` 更正为人物候选 `cand-1188`；`Tempesta` 的两条作品提及仍映射至 `cand-10695`。为 p.381 “Giorgione’s Tempesta” 新增原子 `created_by` statement `st-chp17-p381-tempesta-created-by-giorgione`，并在原收藏断言的 mentioned candidates 中补入 `cand-1188`。S2 statements 净增1、mentions总数不变；此为定向端点修订，不计入9,617条统一独立复核分子，不代表章节或全书接收。

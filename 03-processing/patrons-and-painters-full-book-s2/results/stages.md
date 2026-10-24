@@ -2787,3 +2787,7 @@ l82–93中，为五个原文明示但此前缺少标量端点的对象增加来
 ### 第9章 p.253 注1定向修订（2026-10-24）
 
 依据既有逐页复核意见，将原复合 recall/decorate statement 原子化为四条人物或地点关系主张；净增3条 statement、mention 不变，不计入独立复核分子。原文只报告召回画家以装饰礼拜堂，不据此断言装饰已完成。过程及 S6 去向见 [第9章 p.253 批次](../../patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-p253-tiepolo-endpoints-20261024)。
+
+### 2026-10-24：第8、9、19章 Lucca MS(S). 3299 书信关系端点
+
+新增6条S2原子statement，分别明确三封信的作者和收件人；复用现有mentions，新增statement不计入统一独立复核。S3将第8章注2和附录3同一Torelli信归入同组，S4登记3封信及Lucca机构；S6七项formal、六项pending、一项rejected。完整端点和逐条理由见[知识过程](../process/knowledge.md#s3-s4-s5-s6-lucca-ms3299-letters-20261024)。
