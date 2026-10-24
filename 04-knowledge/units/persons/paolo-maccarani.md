@@ -44,3 +44,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 当前没有正式关系。第7章 p.183 的相关关系候选 st-chp7-p183-i08 留待 S6 审查；此处仅提供书内身份入口。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [马扎林致保罗·马卡拉尼的书信（1661年3月6日）（Mazarin letter to Paolo Maccarani, 6 March 1661）](../archives/mazarin-letter-to-maccarani-1661-03-06.md) | S2 relation candidate: st-chp7-p183-i11-letter-addressed-to-maccarani; cited material and editions remain source-limited as stated.；时间：1661-03-06；角色：Haskell-identified recipient；范围：Haskell says Mazarin wrote to Maccarani; note 3 identifies the letter as dated 6 March 1661.；原断言与证据见发出端卡片“马扎林致保罗·马卡拉尼的书信（1661年3月6日）（Mazarin letter to Paolo Maccarani, 6 March 1661）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；lines 164, 350; printed p.183 n.3; PDF physical page 17 |
+| ← 为收信人（`addressee_of`，反向投影） | [1650年6月3日致保罗·马卡拉尼的书信（Letter to Paolo Maccarani, 3 June 1650）](../archives/mazarin-letter-to-maccarani-1650-06-03.md) | S2 relation candidate: st-chp7-p183-n3-letter-1650-to-maccarani; cited material and editions remain source-limited as stated.；时间：1650-06-03；角色：收信人；范围：哈斯克尔注3识别此信为1650年6月3日致 Paolo Maccarani；书信未独立查阅。；原断言与证据见发出端卡片“1650年6月3日致保罗·马卡拉尼的书信（Letter to Paolo Maccarani, 3 June 1650）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；line 350; printed p.183 n.3; PDF physical page 17 |

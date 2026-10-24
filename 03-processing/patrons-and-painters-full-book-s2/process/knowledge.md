@@ -12405,3 +12405,44 @@ Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Be
 | `st-chp4-sec-ii-p118-poussin-fascinated-theme` | rejected 为正式图谱边：`interested_in` 不属于当前受控关系类型；来源断言仍保留于S2。 |
 
 四项候选均有去向（3 formal、1 rejected）。两张新卡及 Poussin、Massimi 卡定向渲染并完成复预览。`audit_tables.py --strict-stage --summary`：`kus=2700`、`candidates=12416`、`alignments=12752`、`alignment_new_pending_registration=3161`、`relations=1776`（1,763 formal、13 pending）、`enrichment_rows=12830`（1,634 unverified）、`sources=1774`、`book_statements=15291`、`mentions=26760`、`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py --dry-run` 中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。统一 S2 独立复核仍为9,617/15,291，未接收；本批没有新增statement，mention及身份决定的定向修复不构成独立复核。
+
+<a id="s3-s4-s5-s6-chp7-p183-note3-endpoints-20261024"></a>
+### S3沿用／S4跨章端点登记／S5补足／S6逐项裁决：第7章 p.183 注3与第21章书目（2026-10-24）
+
+#### 跨章身份与S4登记
+
+逐类型核对 p.183 注3的三项书目引注、1650年书信，以及正文引述并由注3定位的1661年书信；回看第21章印刷页414、429书目。沿用 `cand-7080`–`cand-7084` 的既有 S3 `new` 身份组，登记 Benedetti 人物、1661年葬礼出版物、《Epistolario inedito》、九卷本《Lettres pendant son ministère》及1650年致 Maccarani 书信。另将既有 `cand-6798`（`archive-group-a379a9ae09b0`）登记为1661年3月6日致 Maccarani 的书信；p.183 正文引语与注3卷IX、p.693定位相连，故复用该候选，不另建重复身份。新增 `cand-12439` Carlo Morbio 与 `cand-12440` M. A. Chéruel 两个人物候选及其来源局部 S3 `new` 组，严格保留书目责任形式；不扩写生平或外部身份。八项 S4 映射均写回 manifest、accepted 清单和双语卡片。
+
+页图核对发现：p.183 L350 文本层将 “letter of 6 March 1661” 误识为 “fletter osò March 1661”；第21章书目 L144、L784 的文本层含替换字符。S0 原始转录不改；校读结果及其页图依据写入相应 S2 statement qualifiers。p.183 的 Benedetti mention 已指向人物候选，出版物候选沿用第21章完整书目 mention，未将同一字符串重复映射给两个对象。共新增12条 mention、10条有锚点的S2关系候选 statement；这些新 statement 未计入独立语义复核分子。
+
+新增27条 Haskell 来源 S5 字段，均仅记录书目和注释明确给出的标题、类型、日期、责任形式、刊本定位等信息；原出版物、原信及被引页均未独立查阅。未对人物卡重复写入出版物字段。
+
+#### S6逐项裁决
+
+| statement_id | 决定与关系 |
+|---|---|
+| `st-chp7-p183-n3-cite-avviso` | pending：未能识别 1646 年 avviso 的具体身份／粒度；不以 Roma 1938 的承载出版物替代该通知。`cand-7079` 保留待证。 |
+| `st-chp7-p183-n3-cite-benedetti` | formal `rel-1780 cites`：只记录 Haskell 的书内引注及 p.5 定位。 |
+| `st-chp7-p183-n3-cite-epistolario` | formal `rel-1781 cites`：只记录 Haskell 的书内引注及 p.119 定位。 |
+| `st-chp7-p183-n3-cite-lettres` | formal `rel-1782 cites`：只记录 Haskell 的书内引注及卷IX、p.693定位。 |
+| `st-chp7-p183-n3-cite-spon-wheler` | 沿用既有 formal `rel-1297`；不重复建边。 |
+| `st-chp7-p183-n3-facade-inscription` | rejected 为独立正式图边：该断言转述立面铭文，不构成 Mazarin 与建筑之间有明确受控谓词的关系；断言仍留在 S2。 |
+| `st-chp7-p183-i11` | rejected 为单一正式边：复合谓词不能作为受控关系类型；拆为下列作者、收信人候选，不撤回 Haskell 对书信内容的报告。 |
+| `st-chp7-p183-i11-letter-authored-by-mazarin` | formal `rel-1777 authored_by`：来源将该书信归于 Mazarin；信件未独立查阅。 |
+| `st-chp7-p183-i11-letter-addressed-to-maccarani` | formal `rel-1778 addressed_to`：来源明称 Mazarin 写给 Maccarani；日期由同页注3限定。 |
+| `st-chp7-p183-n3-letter-1661-part-of-lettres` | formal `rel-1779 part_of`：只记录 Haskell 对卷IX、p.693 的文本定位。 |
+| `st-chp7-p183-n3-letter-1650-to-maccarani` | formal `rel-1783 addressed_to`：1650年书信的收信人按注3登记；信件未独立查阅。 |
+| `st-chp7-p183-n3-maccarani-gallery-1675` | pending：对象类型和当前 taxonomy 边界未解决；`cand-7085` 保留待证。 |
+| `st-chp21-bib-l129-163-entry-13-authored-by-benedetti` | formal `rel-1784 authored_by`：只记录哈斯克尔书目列出的责任者。 |
+| `st-chp21-bib-l756-806-entry-16-authored-by-mazarin` | formal `rel-1785 authored_by`：只记录哈斯克尔书目责任形式 `Mazarin, G.`。 |
+| `st-chp21-bib-l756-806-entry-16-published-by-morbio` | formal `rel-1786 published_by`：记录书目明确所列 *pubblicato da*。 |
+| `st-chp21-bib-l756-806-entry-17-authored-by-mazarin` | formal `rel-1787 authored_by`：只记录哈斯克尔书目责任形式 `Mazarin, G.`。 |
+| `st-chp21-bib-l756-806-entry-17-compiled-by-cheruel` | formal `rel-1788 compiled_by`：保留来源所列 M. A. Chéruel 首字母形式。 |
+| `st-chp21-bib-l756-806-entry-17-published-by-cheruel` | formal `rel-1789 published_by`：保留书目刊行责任范围。 |
+| `st-chp7-p183-n3-letter-part-of-epistolario` | formal `rel-1790 part_of`：记录 Haskell 将1650年书信定位于《Epistolario inedito》p.119；未声称查阅该页。 |
+
+本批新作出的18项 S6 决定中，14项 formal、2项 pending、2项 rejected；另复用既有 `rel-1297`。新建关系 `rel-1777`–`rel-1790` 共14条，所有正式边均有 S2 statement 与 Haskell 来源定位。`cand-7079`、`cand-7085` 记为 undecided，Morbio、Chéruel 两条 backlog 记为 completed；不因本批完成而清除原待证项。
+
+#### 卡片与批后核验
+
+八张新卡定向渲染并写后校验；发现既有马扎林、马卡拉尼与 Haskell 书目总卡也需更新反向／引注投影后，将这三张一并定向渲染，三张复预览均无差异。批后 `audit_tables.py --strict-stage --summary`：`kus=2708`、`candidates=12418`、`alignments=12754`、`alignment_new_pending_registration=3155`、`candidate_backlog_rows=30`（pending=0）、`relations=1790`（1,777 formal、13 pending）、`enrichment_rows=12857`（1,634 unverified）、`book_statements=15301`、`mentions=26772`、`s2_missing=[]`、`errors=[]`。关系一致性审计中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。统一 S2 独立复核分子保持9,617，未接收；结构和关系门禁通过不等于全书 S3–S6 收口。

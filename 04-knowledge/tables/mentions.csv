@@ -27427,3 +27427,15 @@ m-chp9-notes-p251-n2-villa,chp-9:09_CHP-9_intro:l323-445,cand-1518,the villa,482
 m-chp9-notes-p251-n2-st-peters,chp-9:09_CHP-9_intro:l323-445,cand-6960,St Peter’s,4873,4883,Exact span for St Peter's in footnote 2.
 m-chp9-notes-p251-n3-anonymous-correspondent,chp-9:09_CHP-9_intro:l323-445,cand-8232,Co: di N.N.,5071,5082,Anonymous correspondent placeholder in the cited letter title; identity remains unknown.
 m-chp4-sec-ii-p118-0041,chp-4:04_CHP-4_sec_ii:l218-227,cand-11669,the conflict between fertility and sterility,168,212,哈斯克尔明确点名的生育/不育主题；记录其来源限定解释，不作终局阐释。
+m-chp7-p183-n3-epistolario,chp-7:07_CHP-7_sec_i:l293-389,cand-7082,Mazarin: Epistolario inedito,4590,4618,Cited edition and locator in Haskell’s p.183 n.3.
+m-chp7-p183-n3-mazarin,chp-7:07_CHP-7_sec_i:l293-389,cand-1588,Mazarin,4590,4597,Name attached to the correspondence entry in Haskell’s p.183 n.3.
+m-chp7-p183-n3-letter-1650,chp-7:07_CHP-7_sec_i:l293-389,cand-7084,letter of 3 June 1650 to Maccarani,4628,4662,Specific letter named in Haskell’s p.183 n.3.
+m-chp7-p183-n3-maccarani-1650,chp-7:07_CHP-7_sec_i:l293-389,cand-1463,Maccarani,4653,4662,Recipient named for the 1650 letter in Haskell’s p.183 n.3.
+m-chp7-p183-n3-lettres,chp-7:07_CHP-7_sec_i:l293-389,cand-7083,Mazarin: Lettres pendant son ministère,4751,4789,Cited edition and locator in Haskell’s p.183 n.3.
+m-chp7-p183-n3-maccarani-1661,chp-7:07_CHP-7_sec_i:l293-389,cand-1463,Maccarani,4828,4837,Recipient named for the 1661 letter in Haskell’s p.183 n.3; the scan confirms the date and text-layer OCR is corrupt.
+m-chp7-p183-n3-letter-1661-20261024,chp-7:07_CHP-7_sec_i:l293-389,cand-6798,p. 693,4795,4801,Haskell’s locator for the 6 March 1661 letter; the printed scan confirms the adjacent text-layer OCR correction.
+m-chp21-bib-l129-163-benedetti-person-20261024,chp-21:21_CHP-21Bibliography:l129-163,cand-7080,"Benedetti, Elpidio",1246,1264,Author responsibility form in Haskell’s bibliography entry.
+m-chp21-bib-l756-806-morbio-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-12439,Carlo Morbio,1556,1568,Named publishing responsibility in Haskell’s bibliography.
+m-chp21-bib-l756-806-mazarin-epistolario-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-1588,"Mazarin, G.",1509,1520,Principal bibliographic responsibility form in the Epistolario entry.
+m-chp21-bib-l756-806-cheruel-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-12440,M. A. Chéruel,1654,1667,The source text layer contains replacement characters; the physical page image confirms M. A. Chéruel.
+m-chp21-bib-l756-806-mazarin-lettres-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-1588,"Mazarin, G.",1583,1594,Principal bibliographic responsibility form in the Lettres entry.
