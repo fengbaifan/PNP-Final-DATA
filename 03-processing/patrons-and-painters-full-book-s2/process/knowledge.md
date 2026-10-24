@@ -13736,3 +13736,23 @@ mention m-chp2-seci-l124-157-0040 的精确表面词“de Rinaldis”原先重�
 批后：S2为15,343条statement、26,787条mention；统一独立复核9,617/15,343（62.68%，未接收）。S3主决定12,426条：same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186。S4已映射2,083/5,075条new，尚待登记2,992条；触及直接关系的未映射候选1,275条。S5为13,231条字段（1,634 unverified）。S6已裁决1,269/10,559（715 formal、444 pending、110 rejected），余9,290；relations.csv共1,961条（1,937 formal、24 pending）。candidate-backlog.csv共34条（12 completed、22 undecided，严格审计pending=0）。
 
 python scripts/audit_tables.py --strict-stage --summary退出码0：errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0；孤立KU 1,372、over-connected KU 2为全库结构统计。七张目标卡写后复预览无差异，git diff --check通过。全库仍有2,992条new候选待S4登记、1,275个直接关系端点未映射、5,186个S3 undecided、9,290条S6未裁决以及5,726条S2 statement未进入统一独立复核；本批不构成S2接收或S3–S6全书收口。
+
+### S3-S4-S5-S6 Ch3 Baumgarten 20261025
+
+#### S3沿用与跨章身份依据
+
+不重开S3。沿用 `cand-5494` 的既有 `new` 决定及身份组 `archive-group-e5c8b64933ba`。第3章p.92注1的简称“Baumgarten”与第21章p.414书目项“Baumgarten, S.: *Pierre Legros artiste romain*, Paris 1923”在同一候选及两处mention下相连；这是哈斯克尔书内的跨章文献身份，不表示外部书目核验或查阅该著作。
+
+#### S4与S5登记
+
+登记 `units/archives/baumgarten-pierre-legros-artiste-romain-1923`，将 `cand-5494` 映射至该KU，并加入accepted.yml与ku-manifest.csv。以第21章书目行132为唯一事实来源，新增4条 `source_backed` 字段：责任者书目形式、原题、出版项和文献类型；未新增 `unverified` 字段。
+
+#### S6裁决
+
+`st-chp3-seciv-notes-l205-243-p92-n1-baumgarten` 裁为formal，新增 `rel-1962 cites`：`units/archives/patrons-and-painters` → Baumgarten书目项。该边只记录Haskell第3章脚注的书目指引；第21章书目用于限定被引对象，未据此宣称独立查阅或验证其内容。
+
+#### 卡片投影与审计
+
+对Haskell来源卡与新archive卡分别预览，随后定向渲染2张卡；写后复预览2/2无差异，渲染器写后字节核验通过。`python scripts/audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0；`git diff --check`通过。
+
+批后：S2仍为15,343 statements／26,787 mentions，统一独立复核9,617/15,343（62.68%，未接收）；S3主决定12,426（same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186）；S4已映射2,084/5,075条new，待登记2,991条，其中1,274个未映射new候选仍触及直接关系端点；KU共2,869。S5为13,235条字段（1,634 `unverified`）；S6已裁决1,270/10,559（716 formal、444 pending、110 rejected），余9,289；`relations.csv`共1,962条（1,938 formal、24 pending）；`candidate-backlog.csv`共34条（12 completed、22 undecided，严格审计pending=0）。本批不构成S2接收或S3–S6全书收口。
