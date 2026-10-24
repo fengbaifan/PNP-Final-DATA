@@ -30,6 +30,7 @@ ENRICHMENT = TABLES / "enrichment.jsonl"
 SOURCES = TABLES / "sources.csv"
 SOURCE_COLUMNS = ["source_id", "kind", "label", "version", "accessed_date", "citation", "url"]
 URL_START_RE = re.compile(r"https?://")
+CITATION_HEADER_RE = re.compile(r"证据|依据|出处|引用|evidence|citation", re.I)
 
 
 def normalize_url(value: str) -> str:
@@ -88,6 +89,10 @@ def citation_identity(citation: str) -> tuple[str, str]:
     return f"src-{digest}", "external"
 
 
+def has_citation_column(header: list[str]) -> bool:
+    return bool(header and header[-1] and CITATION_HEADER_RE.search(header[-1]))
+
+
 def load_existing_ids(path: Path) -> tuple[dict[str, deque[str]], dict[tuple[str, str, str, str], deque[str]], int]:
     by_occurrence: dict[str, deque[str]] = defaultdict(deque)
     by_natural_key: dict[tuple[str, str, str, str], deque[str]] = defaultdict(deque)
@@ -144,7 +149,7 @@ def value_fields(header: list[str], cells: list[str], section: str) -> tuple[str
     width = max(len(header), len(cells))
     normalized_header = (header + [""] * width)[:width]
     normalized_cells = (cells + [""] * width)[:width]
-    citation_col = bool(normalized_header[-1] and re.search(r"证据|依据|出处|引用|evidence|citation", normalized_header[-1], re.I))
+    citation_col = has_citation_column(normalized_header)
     data_cells = normalized_cells[:-1] if citation_col else normalized_cells
     data_headers = normalized_header[:-1] if citation_col else normalized_header
     if len(data_cells) >= 2 and data_headers and data_headers[0] in {"字段", "项目", "名称", "类别", "类型", "时间", "时期", "身份", "角色", "作品", "文献类型", "主体", "环节", "来源", "阶段", "标签", "数据"}:
@@ -190,7 +195,7 @@ def extract_records(ku_rows: list[dict]) -> tuple[list[dict], dict[str, dict], l
                     continue
                 field, value, evidence = value_fields(block["header"], cells, block["section"])
                 all_text = "\n".join(cells)
-                refs = source_refs(all_text)
+                refs = source_refs(cells[-1] if has_citation_column(block["header"]) and cells else all_text)
                 mapped = [src for src in indexed_sources if src["index"] in refs]
                 urls = citation_urls(all_text)
                 # If an inline URL matches a card citation, it is a better locator
@@ -280,14 +285,33 @@ def write_sources(path: Path, old_rows: list[dict], registry: dict[str, dict]) -
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="write enrichment and merge source registry")
+    parser.add_argument(
+        "--ku",
+        dest="ku_ids",
+        action="append",
+        default=[],
+        metavar="KU_ID",
+        help="limit extraction to this KU; repeat to select multiple cards",
+    )
     args = parser.parse_args()
     ku_path = TABLES / "ku-manifest.csv"
     with ku_path.open(encoding="utf-8-sig", newline="") as handle:
-        ku_rows = list(csv.DictReader(handle))
-    if not ku_rows:
+        all_ku_rows = list(csv.DictReader(handle))
+    if not all_ku_rows:
         raise SystemExit("ku-manifest.csv is empty; refusing to write")
+    requested_ku_ids = set(args.ku_ids)
+    if requested_ku_ids:
+        manifest_ids = {row["ku_id"] for row in all_ku_rows}
+        unknown_ku_ids = requested_ku_ids - manifest_ids
+        if unknown_ku_ids:
+            raise SystemExit("unknown KU id(s): " + ", ".join(sorted(unknown_ku_ids)))
+        ku_rows = [row for row in all_ku_rows if row["ku_id"] in requested_ku_ids]
+    else:
+        ku_rows = all_ku_rows
     records, source_registry, warnings, cards_with_tables = extract_records(ku_rows)
     assign_ids(records, ENRICHMENT)
     existing_records = [
@@ -296,31 +320,56 @@ def main() -> int:
     existing_by_id = {row.get("enrichment_id", ""): row for row in existing_records}
     generated_by_id = {row.get("enrichment_id", ""): row for row in records}
     existing_ids = set(existing_by_id)
-    # Keep the established ledger order stable when a manifest gains new cards.
-    # Rewriting in manifest order creates a large unrelated diff on every apply.
-    ordered_records = [
-        generated_by_id[row.get("enrichment_id", "")]
-        for row in existing_records
-        if row.get("enrichment_id", "") in generated_by_id
-    ]
-    ordered_records.extend(
-        row for row in records if row.get("enrichment_id", "") not in existing_ids
-    )
+    # Keep the established ledger order stable. In targeted mode, leave every
+    # unselected KU row byte-equivalent at the record level and replace only
+    # rows belonging to selected cards.
+    if requested_ku_ids:
+        ordered_records = []
+        for old_row in existing_records:
+            enrichment_id = old_row.get("enrichment_id", "")
+            if old_row.get("ku_id") in requested_ku_ids:
+                if enrichment_id in generated_by_id:
+                    ordered_records.append(generated_by_id[enrichment_id])
+            else:
+                ordered_records.append(old_row)
+        ordered_records.extend(
+            row for row in records if row.get("enrichment_id", "") not in existing_ids
+        )
+    else:
+        ordered_records = [
+            generated_by_id[row.get("enrichment_id", "")]
+            for row in existing_records
+            if row.get("enrichment_id", "") in generated_by_id
+        ]
+        ordered_records.extend(
+            row for row in records if row.get("enrichment_id", "") not in existing_ids
+        )
     changed_ids = sorted(
         key for key in existing_by_id.keys() & generated_by_id.keys()
         if existing_by_id[key] != generated_by_id[key]
     )
     new_ids = generated_by_id.keys() - existing_by_id.keys()
     removed_ids = existing_by_id.keys() - generated_by_id.keys()
+    if requested_ku_ids:
+        removed_ids = {
+            enrichment_id for enrichment_id in removed_ids
+            if existing_by_id[enrichment_id].get("ku_id") in requested_ku_ids
+        }
     old_source_rows = list(csv.DictReader(SOURCES.open(encoding="utf-8-sig", newline=""))) if SOURCES.exists() else []
     old_sources_by_id = {row.get("source_id", ""): row for row in old_source_rows if row.get("source_id")}
     merged_sources = dict(old_sources_by_id)
     for source_id, row in source_registry.items():
+        if requested_ku_ids and source_id in old_sources_by_id:
+            # A card citation may omit registry metadata such as an established
+            # URL. Targeted extraction must not clear or rewrite that authority.
+            continue
         merged_sources[source_id] = {**old_sources_by_id.get(source_id, {}), **row}
     source_changes = sum(merged_sources.get(source_id) != row for source_id, row in old_sources_by_id.items())
     source_changes += len(merged_sources.keys() - old_sources_by_id.keys())
     natural_keys = [(r["ku_id"], r["field"], r["value"], r["source_id"], r["occurrence_id"]) for r in records]
     duplicates = len(natural_keys) - len(set(natural_keys))
+    scope = "all accepted cards" if not requested_ku_ids else ", ".join(sorted(requested_ku_ids))
+    print(f"scope={scope}")
     print(f"cards={len(ku_rows)} cards_with_tables={cards_with_tables} rows={len(records)} unique_sources={len(source_registry)}")
     print(f"records_with_source={sum(bool(r['source_ids']) for r in records)} unverified={sum(r['evidence_status']=='unverified' for r in records)} duplicate_occurrences={duplicates}")
     print(f"record_changes={len(changed_ids)} new_ids={len(new_ids)} removed_ids={len(removed_ids)} source_registry_changes={source_changes}")
@@ -328,6 +377,14 @@ def main() -> int:
         before, after = existing_by_id[enrichment_id], generated_by_id[enrichment_id]
         changed_fields = sorted(key for key in before.keys() | after.keys() if before.get(key) != after.get(key))
         print(f"UPDATE {enrichment_id}: {', '.join(changed_fields)}")
+    if requested_ku_ids:
+        for enrichment_id in sorted(new_ids):
+            row = generated_by_id[enrichment_id]
+            print(
+                f"ADD {enrichment_id}: {row['ku_id']} | {row['field']}={row['value']} | "
+                f"source_ids={','.join(row['source_ids'])} | source_ref={row['source_ref']} | "
+                f"status={row['evidence_status']} | evidence={row['evidence']}"
+            )
     print(f"warnings={len(warnings)}")
     for warning in warnings[:30]:
         print(f"WARNING: {warning}")
@@ -336,7 +393,13 @@ def main() -> int:
         return 2
     if args.apply:
         write_jsonl(ENRICHMENT, ordered_records)
-        write_sources(SOURCES, old_source_rows, source_registry)
+        registry_for_write = source_registry
+        if requested_ku_ids:
+            registry_for_write = {
+                source_id: row for source_id, row in source_registry.items()
+                if source_id not in old_sources_by_id
+            }
+        write_sources(SOURCES, old_source_rows, registry_for_write)
         print(f"applied enrichment={ENRICHMENT.relative_to(BASE)} sources={SOURCES.relative_to(BASE)}")
     else:
         print("preview only; pass --apply to write")

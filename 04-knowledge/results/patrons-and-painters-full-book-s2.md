@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第10章 p.310／附录5 p.391 1762年售藏跨章端点批次（2026-10-24）：** 将 `cand-2471`、`cand-9278` 保留各自 `new` 决定并归入同一事件身份组，登记1个 event KU及2条S4映射；S2原子化后 statement 净增3条、mention净增1条，不计入独立复核分子。事件卡定向补足6条书内字段；6项直接S6候选均有去向（2 formal、2 pending、2 rejected），新增 `rel-1841`、`rel-1842`。三张受影响卡渲染后复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。仍未接收S2语义复核，未收口全书S4–S6。详见[跨章身份组与逐项裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch10-p310-smith-sale-20261024)。
+
 **第5、7、8章德尔罗索跨章关系端点批次（2026-10-24）：** 将第5章Ghezzi papers与第8章Ghezzi notes依明确回引归入同一档案来源组（候选各保留new决定），新增15个KU、16条S4映射及23条Haskell来源字段；25项S6候选均有去向（9 formal、15 pending、1 rejected），新增rel-1832–rel-1840。修正1条S2关系候选的原子性，新增1条遗嘱关系statement，不增加独立复核分子。19张目标卡预检，14张定向渲染并写后核验；复预览files_to_write=0。严格表审计errors=[]、s2_missing=[]，关系一致性五项阻断均为0。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024)。
 
 **第8章 p.215 祭衣间与1653年装饰计划端点批次（2026-10-24）：** 沿用 `cand-7633`、`cand-7639` 两个既有S3 `new` 身份组，登记1个 place KU、1个 event KU及2条S4映射；新增8条Haskell来源字段。两项直接S6候选分别裁为 `rel-1830 part_of`（祭衣间→教堂）和 `rel-1831 has_participant`（装饰计划→Consiglio del Consorzio）。六条教堂直接候选当前为2 formal、1条既有rejected、3 pending。四张受影响卡定向渲染并复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五项结构阻断均为0。未改S2 statement／mention、S3主决定或独立复核分子。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-p215-sacristy-decoration-programme-20261024)。

@@ -24057,7 +24057,7 @@ m-chp19-p391-010,chp-19:19_CHP-19Appendix:l109-124,cand-2471,Smith sold to Georg
 m-chp19-p391-011,chp-19:19_CHP-19Appendix:l109-124,cand-1141,George III,885,895,Buyer identified in the account of the 1762 sale.
 m-chp19-p391-012,chp-19:19_CHP-19Appendix:l109-124,cand-10807,paintings and drawings,919,941,The aggregate group of artworks reported in the 1762 sale.
 m-chp19-p391-013,chp-19:19_CHP-19Appendix:l109-124,cand-2292,Royal Collection,991,1007,Current collection identified by Haskell as holding works from the sale.
-m-chp19-p391-014,chp-19:19_CHP-19Appendix:l109-124,cand-2471,logued by him,1028,1041,The printed word is split by line-end hyphenation as cata- / . logued; the pronoun refers to Joseph Smith.
+m-chp19-p391-014,chp-19:19_CHP-19Appendix:l109-124,cand-10807,These,1009,1014,Anaphoric subject of the catalogue and traceability sentences; refers to the sold paintings and drawings.
 m-chp19-p391-015,chp-19:19_CHP-19Appendix:l109-124,cand-11510,several hundred pictures,1218,1242,"The several hundred pictures recorded in 1770; cand-10806 is the archival list, not the pictures."
 m-chp19-p391-016,chp-19:19_CHP-19Appendix:l109-124,cand-2665,Ferdinando Uccelli,1271,1289,Notary named as recorder of the pictures.
 m-chp19-p391-017,chp-19:19_CHP-19Appendix:l109-124,cand-9171,his palace,1302,1312,Joseph Smith's palace referenced in the collection account.
@@ -27440,3 +27440,4 @@ m-chp21-bib-l756-806-mazarin-epistolario-20261024,chp-21:21_CHP-21Bibliography:l
 m-chp21-bib-l756-806-cheruel-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-12440,M. A. Chéruel,1654,1667,The source text layer contains replacement characters; the physical page image confirms M. A. Chéruel.
 m-chp21-bib-l756-806-mazarin-lettres-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-1588,"Mazarin, G.",1583,1594,Principal bibliographic responsibility form in the Lettres entry.
 m-chp7-p169-i-043,chp-7:07_CHP-7_sec_i:l3-9,cand-6602,every day I have to turn down commissions (and important ones at that) from all over Europe,188,279,"Quoted passage in the letter identified by linked footnote st-chp7-p169-n1-cite; dates and De Rinaldis page remain Haskell locators, not independent verification."
+m-chp19-p391-041-smith-cataloguer,chp-19:19_CHP-19Appendix:l109-124,cand-2447,him,1038,1041,Haskell's pronoun in the catalogue sentence refers to Joseph Smith.

@@ -3,6 +3,12 @@
 > 治理日志已冻结归档：`user-revisions.md` 与 `system-upgrade-log.md` 自 2026-09-25 起只读，不再追加。
 > 此后的规则与系统变更只记在这里，按时间倒序；`current-requirements.md` 仍索引有效要求。
 
+## 2026-10-24
+
+### 支持按 KU 定向提取 S5 字段
+
+用户原话：“有什么办法加速整个项目的速度？”全库 `build_field_facts.py` 预览会合并无关卡片变更，阻碍按证据批次登记关键字段。新增可重复的 `--ku <KU_ID>` 选择器；默认仍为全库模式，定向模式只替换所选 KU 的 enrichment 行，保留范围外记录，并避免用卡片中的简略引文清空已有来源登记信息。带独立证据列的表格只从该列读取 S 来源标记，避免标题或正文中的年份被误认为来源编号。`scripts/README.md` 已同步入口说明。
+
 ## 2026-10-23
 
 ### Align strict relation audit with unrestricted matrix entries

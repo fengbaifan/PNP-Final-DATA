@@ -12694,3 +12694,40 @@ pending 与 rejected 项保留在裁决记录，不生成伪 formal 行；relati
 
 
 远端提交与CI：commit `9a33b41327e35129b062ae39cc1dc53d14bc5398` 已推送至 `main`，SSH核验远端 `main` 指向同一提交，跟踪关系 `origin/main...main` 为 `0 0`。Quality Gate运行40064539030成功；validate (3.10)与validate (3.12)的测试、规则漂移检查均通过，发布专用全量闭合步骤因push事件按workflow条件跳过。
+
+
+<a id="s3-s4-s5-s6-ch10-p310-smith-sale-20261024"></a>
+### 跨章身份组／S4事件登记／S5关键字段／S6逐项裁决：第10章 p.310 与附录5 p.391 的 1762 年售藏（2026-10-24）
+
+#### S3 身份分组与 S4 登记
+
+第10章 p.310 L488 的 `st-chp10-p310-1762-sale-to-george-iii` 与附录5 p.391 L117–118、L123–124 的 `st-chp19-p391-smith-1762-sale-to-george-iii` 经同页明确复述及第10章注6回指确认指向同一笔1762年交易。将 `cand-2471`、`cand-9278` 共同归入事件身份组 `sg3-event-cand-9278`；两项仍保留 S3 `new` 决定，共映射到 `units/events/joseph-smith-1762-sale-to-george-iii`。此处仅合并事件身份，不合并售出作品集合、Royal Collection 或 1761 年遗嘱；不把 1756 年中断的谈判直接推成无间断延续，也不将“most／a very large number”扩写为出售全部收藏。
+
+S4 新增1个 event KU、2条候选映射，并登记到 `ku-manifest.csv` 与 `accepted.yml`。事件卡的双语标题为描述性名称，不是 Haskell 的正式事件题名；来源为原书同版文本，本批未作外部身份或交易事实核验。
+
+#### S2 原子化与提及修订
+
+保留 `st-chp19-p391-smith-1762-sale-to-george-iii` ID，将其收窄为售藏事件向 George III 出售大量绘画和素描的断言，并将 object endpoint 从未定类型的 Royal Collection 改为人物 `cand-1141`。新增三条有原文锚点的独立断言：`st-chp19-p391-sold-works-in-royal-collection`（作品集合 `cand-10807` → `cand-2292`）、`st-chp19-p391-smith-catalogued-sold-works`（作品集合→Joseph Smith `cand-2447`）和 `st-chp19-p391-sold-works-most-recognisable-or-traceable`（作品集合的作者评价，不作关系候选）。
+
+将 mention `m-chp19-p391-014` 从错误映射的 “logued by him” 改为回指作品集合的 “These”，并新增 `m-chp19-p391-041-smith-cataloguer` 锚定 “him”→Joseph Smith。statement 总数由15,307增至15,310；mention 总数由26,773增至26,774。新增／修订只为端点及断言原子性服务，没有计入 S2 独立语义复核分子。
+
+#### S5 字段
+
+从事件卡定向提取6条 Haskell 原书支持字段 `enr-16838`–`enr-16843`：描述性中英文名、事件性质、1762年（不补月日）、交易范围（保留“多数”及无逐件清单限制），以及 Haskell 对有意选择的推论。六条均为 `source_backed`，来源标记分别指向卡片中的 S1–S3 引文；未增加或改写 `sources.csv`，原有1,634条 `unverified` 保持不变。
+
+#### S6 逐项去向
+
+| statement_id | 裁决 | 去向与范围 |
+|---|---|---|
+| `st-chp10-p310-1762-sale-to-george-iii` | formal `rel-1841` | `has_participant`：事件→Joseph Smith；角色为卖方，保留售出范围限定。 |
+| `st-chp19-p391-smith-1762-sale-to-george-iii` | formal `rel-1842` | `has_participant`：同一事件→George III；角色为买方，不把 Royal Collection 当作事件地点或参与者。 |
+| `st-chp19-p391-sold-works-in-royal-collection` | pending | 作品集合 `cand-10807` 的类型与范围未决；`cand-2292` 仍无类型决定，暂不建立关系行。 |
+| `st-chp19-p391-smith-1761-expectation-and-1762-sale` | pending | 1761年遗嘱端点 `cand-2476` 仍为 S3 `undecided`；该句并述未实现的遗嘱计划与后来的交易，不推造二者间正式关系。 |
+| `st-chp19-p391-smith-catalogued-sold-works` | rejected | 原书的编目断言保留于 S2；被编目录或版本未识别，现有受控谓词不能在作品集合与人物间准确表达该行为。 |
+| `st-chp19-p392-artists-in-1762-sale-selection-inference` | rejected | Haskell 的选择推论继续保留为解释性断言；事件两端归为同一售藏事件，不建立事件自指关系。 |
+
+本批关系总计2 formal、2 pending、2 rejected；只有正式边写入 `relations.csv`，待证与否决理由留在本裁决表。`cand-10807`、`cand-2292`、`cand-2476` 的既有 S3 未决状态不因本批写入而强行改变。
+
+#### 卡片与批后检查
+
+经预览后定向更新售藏事件卡、Joseph Smith 人物卡及 George III 人物卡的关系投影；George III 卡移除“当前没有正式关系”及过时的待裁决总数表述。严格表审计：`kus=2740`、`alignment_new_pending_registration=3121`、`relations=1842`（1,829 formal、13 pending）、`enrichment_rows=12929`（1,634 unverified）、`book_statements=15310`、`mentions=26774`、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。S2统一独立复核分子不变，仍未接收；本批不是全书 S2 验收，也不构成 S4–S6 全书收口。

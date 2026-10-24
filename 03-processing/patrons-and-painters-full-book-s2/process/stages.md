@@ -13623,3 +13623,7 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 ### 第8章 p.211 遗嘱综合断言与受遗赠关系拆分（2026-10-24）
 
 st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及其他画作及 Lorenzo 的例外遗赠合并。保留来源综合断言但标为 relation_candidate=false；新增 st-chp8-p211-caravaggio-bequeathed-to-coriolano，以 p.211 L93–94 为锚，方向为作品 cand-7514 →受遗赠人 cand-7512。谓词不受控，S6 pending；不以 owned_by 代替，不断言遗赠已执行。重用既有 person/work mentions，不增 mentions。该修订增加1条 statement，不计独立 S2 复核；复核分子不变，台账需按当前 statement ID 对账。
+
+### 2026-10-24：第19章附录5 p.391 1762年售藏断言原子化与人物提及更正
+
+依据同页 L117–118、L123–124及第10章注6回指，将 `st-chp19-p391-smith-1762-sale-to-george-iii` 限定为1762年 Smith 向 George III 出售大量绘画和素描；作品集合留在独立断言中。新增作品集合仍属 Royal Collection、Smith 曾为售出作品编目、Haskell 对可识别性的评价三条statement；新增作品集合回指和 Smith 宾语代词提及，并修正原 `logued by him` 提及误挂到售藏事件的问题。statement净增3、mention净增1。该定向修订不计入独立逐条语义复核分子；详细S3/S4/S5/S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-ch10-p310-smith-sale-20261024)。

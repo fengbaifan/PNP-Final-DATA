@@ -81,4 +81,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及 George III 的 28 条 S2 关系候选保留待 S6 逐条裁决；Smith 与王室收藏的交易范围、作品端点和对应语境继续按原书记录的限定处理。[第10章 pp.300、310](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L369、488） [第15章 p.361](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)（L11） [附录5 pp.391–393](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)（L117–120、149）
+与 George III 相关的已裁 formal 关系见下表；其余直接关系候选仍待 S6 逐项裁决。Smith 与王室收藏的交易范围、作品端点和对应语境继续按原书记录的限定处理。[第10章 pp.300、310](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L369、488） [第15章 p.361](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)（L11） [附录5 pp.391–393](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)（L117–120、149）
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [约瑟夫·史密斯向乔治三世出售藏品（1762）（Joseph Smith's 1762 Sale of Collections to George III）](../events/joseph-smith-1762-sale-to-george-iii.md) | 方向为事件→参与者；只记录George III作为买方，不表示Royal Collection在交易时已是该事件的地点或参与者；S2 relation candidate: st-chp19-p391-smith-1762-sale-to-george-iii。裁决过程见 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch10-p310-smith-sale-20261024；时间：1762；角色：买方；范围：Haskell称该笔交易向George III出售大量绘画和素描；没有给出精确件数或逐件清单。；原断言与证据见发出端卡片“约瑟夫·史密斯向乔治三世出售藏品（1762）（Joseph Smith's 1762 Sale of Collections to George III）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Appendix 5, printed p.391 L117; statement=st-chp19-p391-smith-1762-sale-to-george-iii |
