@@ -13627,3 +13627,9 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-24：第19章附录5 p.391 1762年售藏断言原子化与人物提及更正
 
 依据同页 L117–118、L123–124及第10章注6回指，将 `st-chp19-p391-smith-1762-sale-to-george-iii` 限定为1762年 Smith 向 George III 出售大量绘画和素描；作品集合留在独立断言中。新增作品集合仍属 Royal Collection、Smith 曾为售出作品编目、Haskell 对可识别性的评价三条statement；新增作品集合回指和 Smith 宾语代词提及，并修正原 `logued by him` 提及误挂到售藏事件的问题。statement净增3、mention净增1。该定向修订不计入独立逐条语义复核分子；详细S3/S4/S5/S6去向见[知识过程](knowledge.md#s3-s4-s5-s6-ch10-p310-smith-sale-20261024)。
+
+### 2026-10-24：第6章 p.153 与第7章 p.193 的定向原子化
+
+依 p.193 既有逐条复核对 `st-chp7-p193-wittelsbach-recovery` 的拆分意见，保留该ID专记 Wittelsbach 王朝从三十年战争影响中“with some speed”恢复，端点由 `cand-7156` 改为战争候选 `cand-4965`；另建 `st-chp7-p193-wittelsbach-position-strengthened-by-westphalia`，以 p.193 L14 记录《威斯特伐利亚和约》增强王朝地位的原书说法，并将 `positionhadbeenstrengthened` 的页图校读移至新 statement。该新statement尚未独立逐条复核。
+
+对照第6章印刷页153（PDF physical p.8），将既有 `st-chp6-p153-alexander-protests-1648-settlement` 的 claim 收窄为抗议和对教宗利益的说明；另建 `st-chp6-p153-peace-settlement-ended-thirty-years-war` 表达同句中“1648年和约结束三十年战争”的独立关系。共新增2条statement、不新增mention；p.153 尚未完成整页独立语义复核，p.193 仅沿用其既有31条逐条复核覆盖，不把此次编辑计入复核分子或接收状态。

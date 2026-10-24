@@ -13205,3 +13205,25 @@ note 1 的 Pascoli 引注属于相邻 Canini 讨论，不纳入本批 Altieri �
 三张新地点卡按关系表和字段表定向渲染，3/3写后字节核验通过；逐卡复预览无差异，字段抽取复预览`new_ids=0`、`record_changes=0`。严格表审计：`kus=2808`、`candidates=12424`、`alignments=12766`、`alignment_new_pending_registration=3052`、`candidate_backlog_rows=33`（pending=0）、`relations=1908`（1890 formal、18 pending）、`enrichment_rows=13125`（1634 unverified）、`book_statements=15328`、`mentions=26779`、`s2_missing=[]`、`errors=[]`。关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`；孤立KU为1,362、over-connected为2，属于全局诊断，不代表全书语义验收。
 
 S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），尚余9,387。S2统一独立复核分子仍为9,617；本批不计入分子，也不代表S2接收或S3–S6全书收口。
+
+<a id="s3-s4-s5-s6-peace-of-westphalia-crosschapter-20261024"></a>
+### 跨章事件身份归组与 S2/S4/S5/S6 闭环：1648年和约（2026-10-24）
+
+**S3 身份裁决。** `cand-6322`（第6章 p.153 L80）称为“peace settlement of 1648”，并说该和约结束了三十年战争；`cand-7156`（第7章 p.193 L14）明确称“Peace of Westphalia”，并称其增强 Wittelsbach 王朝地位。两者是同一1648年和约事件，且无既有同类型和约 KU。两条主决定均保留 `new`，统一到身份组 `sg3-event-peace-of-westphalia-1648`；不是将一个候选改判为 `same`。该组据 Haskell 第6、7章的事件年份、战争语境和明确名称完成跨章消歧；没有把书内未载事实补入身份判断。
+
+**S2 定向拆分。** 依 p.193 既有复核建议，将 `st-chp7-p193-wittelsbach-recovery` 限定为王朝从三十年战争影响中“with some speed”恢复，端点改为 `cand-4965`；新增 `st-chp7-p193-wittelsbach-position-strengthened-by-westphalia` 记录和约增强王朝地位，并将 L14 OCR 校读移到新statement。第6章 `st-chp6-p153-alexander-protests-1648-settlement` 收窄为抗议及教宗利益说明；新增 `st-chp6-p153-peace-settlement-ended-thirty-years-war` 表达和约结束战争。两条新增statement均未独立复核，不计入S2复核分子；p.153 整页仍待逐条审读。
+
+**S4 与 S5。** 将两条 `new` 候选映射至一个 KU `units/events/peace-of-westphalia-1648`，登记事件性质、原书称名、1648年、结束三十年战争的书内陈述及 Wittelsbach 地位增强陈述，共5条字段，均以 Haskell p.153、p.193 为证据；不补签约方、确切签署日期与地点、条款或外部核验。
+
+#### S6 逐项裁决
+
+| S2 statement | 决定 | 理由与解除条件 |
+|---|---|---|
+| `st-chp6-p153-alexander-protests-1648-settlement` | pending | 原文记 Alexander VII“vainly protested against”该和约；受控词表无准确抗议谓词，通用 `influenced_by` 也不表达抗议且其值域不含 event。仅在受控类型能表达该角色且端点域值域适配时重审。 |
+| `st-chp6-p153-peace-settlement-ended-thirty-years-war` | pending | 这是和约事件→战争事件的“ended”关系；词表无精确事件终结谓词，不以 `affected_by` 等近似关系替代。 |
+| `st-chp7-p193-wittelsbach-recovery` | pending | “从战争影响中恢复”是家族／王朝→战争事件的恢复关系；`influenced_by` 的域值域仅允许 person/work 指向 person/term/work，不适用于 family→event。 |
+| `st-chp7-p193-wittelsbach-position-strengthened-by-westphalia` | pending | Haskell明确说王朝地位因和约增强，但 `influenced_by` 的域值域不允许 family→event，且没有更精确的因果谓词；不以共现或泛化边代替。 |
+
+四项均有明确 S2 端点及来源锚点，但因无准确受控谓词留在过程级 pending，不写入 `relations.csv`，也不建立空边。若后续关系域新增精确谓词，再按端点类型和原书证据重审。
+
+**检查与范围。** 该批新增2条statement、5条S5字段、1张事件卡及2条S4映射；S2 mentions不变。四项S6均进入逐项裁决，独立S2复核分子未增加。卡片仅定向预览与渲染；机械审计结果及批后全书计数见当前结果文件。该批不表示S2接收或S3–S6全书收口。
