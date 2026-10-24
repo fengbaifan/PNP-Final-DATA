@@ -2,11 +2,20 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，Portoghesi 1955批次后）：** S0已处置832段（678 complete、154 excluded）；S2为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,104/5,078条new，待登记2,974条，其中1,259个关系端点候选决定一致为new且未映射，KU=2,888；S5字段13,306条（1,634 unverified）；S6已裁决1,297/10,564（737 formal、450 pending、110 rejected），余9,267；`relations.csv`为1,989条（1,964 formal、25 pending）；backlog 37条（12 completed、25 undecided，pending=0）。另有337条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。
+**当前快照（2026-10-25，Giustiniani术语批次后）：** S0已处置832段（678 complete、154 excluded）；S2为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收，余5,731条未进入统一复核）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,105/5,078条new，待登记2,973条，其中1,258个关系端点候选决定一致为new且未映射，KU=2,889；S5字段13,312条（1,634 unverified）；S6已裁决1,301/10,564（737 formal、454 pending、110 rejected），余9,263；`relations.csv`为1,989条（1,964 formal、25 pending）；backlog 37条（12 completed、25 undecided，pending=0）。另有337条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。
 
-**本批完成：** 沿用 `cand-6352` 的S3 `new`身份组，登记 Portoghesi 1955文章KU并映射 `aln-6531`；新增5条书目支持S5字段；`st-chp6-notes-l122-p148-n1-portoghesi-citation` 裁为 `rel-1988 formal cites`，另加 `rel-1989 authored_by` 结构关系。三张受影响卡定向渲染后复预览无差异。逐项证据与限制见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch6-p148-portoghesi-lateran-basilica-1955-20261025)。
+**本批完成：** 沿用 `cand-4337` 的既有S3 `new`身份组，登记跨第2、4章的来源局部术语KU；新增6条书内 `source_backed` 字段。四条直接S2关系候选均裁为 `pending`：两条缺尚未定身份的文献端点，两条 person→term 观点关系无准确受控谓词；未造 formal 边或占位行。单卡定向渲染、写后字节核验及复预览通过；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-chp4-giustiniani-eclecticism-20261025)。
 
-**后续顺序：** 继续登记有明确书内关系锚点的S4直接端点，并在同批逐项裁决对应S6；定向推进337条缺端点候选ID待办和S5未核字段；按章继续S2独立语义审读。S3只在登记或新证据触发时复核，优先核平26个跨来源差异并为未决项保留有依据的待证去向。全库卡片预检仍有563个投影文件待写；S4–S6未收口前不启动S7，知识发现与页面仍待用户明确启动。
+**后续工作规划（按依赖与关系解锁价值排序）：**
+
+1. **继续S4→S6端点批次。** 优先选择跨章复用价值高、已有明确书内身份锚点且连接多条S2关系候选的 `new` 组；每批将S4映射、可由现有来源支持的S5字段、对应S6 formal/pending/rejected裁决合并处理，避免只增加KU而把关系判断全部推后。当前仍有2,973条 `new` 映射未登记，其中1,258个未登记候选直接触及关系端点。
+2. **修复337条缺少S2端点候选ID的关系语句。** 按章节和端点角色定向复核原文；仅在来源支持时补候选ID，无法唯一确定时保留待证并记录解除条件，不猜造端点。
+3. **按章推进S2独立语义审读。** 统一口径为9,617/15,348（62.66%），尚有5,731条未进入统一复核。延续既有章节顺序，逐章核对statement与来源、mention、指代和修订；章内局部复核不并入统一分子。阶段结论仍为未接收。
+4. **定向处理S5未核字段。** 1,634条 `unverified` 先按关系端点、身份关键字段和下游使用价值排序；逐项补到来源支持或明确记为可接受缺口，不做无目标的全库外部采集。
+5. **按触发条件处理S3未决。** 12,426个主决定行均有状态，但5,182项仍为 `undecided`，另有26项跨来源decision差异。身份只在新登记或新证据直接触及时复核；要求每个 `same/new/conflict/excluded/undecided` 都有可追溯理由和明确去向，未决对象保留证据需求，不以批量重跑强改身份。
+6. **S7收口门槛。** 每条仍有效的 `new` 对齐均须有S4 KU映射；身份证据不足或不适合登记的候选先回S3改作有依据的其他状态，不把未映射的 `new` 当作已收口。S5字段须有证据或具体缺口，S6每条关系候选都有 formal/pending/rejected 去向，候选待办无未处理的 actionable pending，表与关系审计阻断为0，再准备S7。当前S2尚未独立接收；S7、知识发现和页面制作继续按项目边界暂缓。
+
+**提速方式：** 以共同来源页和共享端点编组，按一组身份判断能解锁的关系候选数优先排队；只定向预览和渲染本批受影响卡片，逐批运行必要表/关系审计，全库投影差异留到明确收口任务处理。CI矩阵的分钟级耗时不是语义处理主瓶颈，不通过删减Python版本门禁换取虚假提速。
 
 **当前快照与第2章 p.58 Bernini临时剧场及《L’Inondazione del Tevere》批次（2026-10-25）：** `cand-4819` 由 `undecided` 改判 `new` 并登记来源限定的临时剧场地点；`cand-4821` 保留 `new`，将实体类型与身份组由 archive 更正为 work。未界定的剧目组 `cand-4820` 与未识别的匿名见证档案 `cand-4824` 保持 `undecided`，分别记入 `bl-0035`、`bl-0036`。新增2个KU、2条S4映射、5条source-backed字段；S2新增5条statement。11项S6候选逐条有去向：6 formal（`rel-1967`–`rel-1972`）、5 pending。5张受影响卡定向渲染并写后复预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。批后S2为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,076、conflict=9、excluded=103、undecided=5,184；S4已映射2,090/5,076条new、待登记2,986条，其中1,268条触及直接关系端点；KU共2,875。S5字段13,257（1,634 unverified）；S6已裁决1,285/10,564（726 formal、449 pending、110 rejected），余9,279；`relations.csv`共1,972条（1,948 formal、24 pending）；`candidate-backlog.csv`共36条（12 completed、24 undecided，严格审计pending=0）。本段原有20条statement中17条未变，3条修订及5条新增共8条仍待独立语义复核，不计入统一复核分子。详见[本批身份与逐项裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p58-inondazione-20261025)。
 

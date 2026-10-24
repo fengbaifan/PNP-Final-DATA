@@ -13952,4 +13952,32 @@ Haskell来源卡和六张新卡逐卡预览后定向渲染；写后字节核验�
 新增文章卡、Haskell书目卡与Paolo Portoghesi人物卡共3张定向预览并写回；渲染预检覆盖3张卡、5张表、41行和245个投影关系，写后字节校验通过，三张卡复预览均无待写差异。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；仍有S4待登记警告。关系一致性检查的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。`build_cards.py --check` 全库预检另显示563个卡片文件有待写投影差异；本批只同步三张直接受影响卡，故全库投影仍未核平。
 
 批后：S2仍为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,104/5,078、待登记2,974，其中1,259个关系端点候选的对齐决定一致为 `new` 且尚无KU；KU=2,888。S5字段13,306条（1,634 `unverified`）；S6已裁决1,297/10,564（737 formal、450 pending、110 rejected），余9,267；`relations.csv`共1,989条（1,964 formal、25 pending）；backlog仍为37条（12 completed、25 undecided，pending=0）。S2复核分子未增加；S3决定未改变。
+
+<a id="s4-s5-s6-chp2-chp4-giustiniani-eclecticism-20261025"></a>
+### S4/S5/S6：第2章与第4章朱斯蒂尼亚尼兼收并蓄品味术语端点（2026-10-25）
+
+#### S3身份沿用与S4登记
+
+沿用 `cand-4337` 的既有 S3 `new` 身份组 `sg3-term-cand-4337`，登记为[朱斯蒂尼亚尼的兼收并蓄品味术语卡](../../04-knowledge/units/terms/giustiniani-eclecticism-haskell-account.md)，并将 `aln-4520` 映射到该 KU。第2章 p.29 L103 称 Giustiniani 写文章阐述其 *eclecticism*；第4章 p.94 L3–4 再称其品味能欣赏不同画家，并报告他在致 Dirk Ameyden 的信中为这种倾向辩护。两处足以支持同一书内概念语境，不证明第2章文章与第4章书信为同一文献，也不把 *eclecticism* 命名为正式学说或流派。S3决定未重开。
+
+#### S5书内字段
+
+术语卡登记6条有书内来源的字段 `enr-17221`–`enr-17226`：原词、描述性名称、适用范围、第2章文章叙述、第4章书信叙述，以及第4章 p.95 L8 对结合两种画风的结论。字段构建器定向预览与写入均为6条 `source_backed`、0条 `unverified`、0条警告。书信未直接查阅；第4章 p.94 的印刷页码按索引推定，原页未见页码。
+
+#### S6逐项裁决
+
+| S2语句 | 决定 | 去向与解除条件 |
+|---|---|---|
+| `st-chp2-seci-l95-106-essay-purpose` | pending | `cand-4322`（未具名 essay）仍为 S3 `undecided`、无 KU；不写缺端点关系行。若其身份裁决并登记，复核 archive → term 的 `has_subject` 是否精确表达原文。 |
+| `st-chp4-sec-i-l3-4-letter-styles` | pending | `cand-5507`（Giustiniani 致 Dirk Ameyden 的未定年书信候选）仍为 S3 `undecided`、无 KU；当前证据是 Haskell 对信件内容的转述，未直接查阅该信。待书信端点身份可登记后再审 `has_subject`。 |
+| `st-chp4-sec-i-l3-4-taste-range` | pending | Giustiniani person → term 的作者品味／观点描述没有精确受控谓词。保留为术语来源用例，不误写为 `influenced_by` 或一般相关边；若治理后有准确谓词再复核。 |
+| `st-chp4-sec-i-l6-18-style-combination` | pending | Haskell 转述 Giustiniani 的风格结论，属于 person → term 观点关系；当前词表无精确受控谓词。保留来源限定的概念用例，待准确关系类型可用时再审。 |
+
+四项均未写入 `relations.csv`：前两项缺可登记的 archive 端点，后两项缺适配的受控谓词。它们的 pending 状态及解除条件在本过程记录和术语卡中可追溯；不以占位行代替端点或关系类型。
+
+#### 定向渲染、审计与批后状态
+
+新增术语卡只含本批来源字段，无 formal 关系投影。单卡预览后定向渲染1张卡，写后字节核验通过；复预览无差异。字段构建器复预览 `record_changes=0`、`new_ids=0`、`warnings=0`。`audit_tables.py --strict-stage --summary` 退出码0：KU=2,889，alignment=12,773，待S4登记2,973，backlog=37（pending=0），relations.csv=1,989（1,964 formal、25 pending），S5=13,312（1,634 unverified），S2=15,348 statements／26,787 mentions，`errors=[]`、`s2_missing=[]`。关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；`git diff --check` 退出码0，只有工作树换行符规范提示。
+
+批后：S2统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,105/5,078、待登记2,973，其中1,258个直接关系端点候选仍为一致的 `new` 且未映射；KU=2,889。S5=13,312（1,634 unverified）；S6已裁决1,301/10,564（737 formal、454 pending、110 rejected），余9,263。`relations.csv`和`candidate-backlog.csv`行数未变。S2 statement／mention及统一复核分子未变；S3身份决定未重开。
 ，例如 cand-6352（第6章 Portoghesi 1955书目／引注端点），每批同时完成相应S4、来源可支持的S5及已有S2候选的S6；遇到身份或端点不明则保留 undecided／pending 和待办。随后按候选类型核平26个跨来源decision差异及S3未决项；同时继续按章推进S2独立语义复核，并定点处理337条缺候选端点ID语句。S5只补有明确证据的字段，S6逐条裁决，不以端点数量替代语义判断。S7须等S4–S6具备正式收口条件后再启动；Topic/Theme/Dimension/Domain发现及页面仍需用户明确启动。
