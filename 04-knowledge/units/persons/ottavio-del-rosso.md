@@ -57,9 +57,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** Haskell称 Ottavio del Rosso 是 Andrea 与 Lorenzo del Rosso 的兄弟，曾入教会并居于 Volterra；原书 OCR 将其职衔识别为“Bjshop”，按语境释读为主教，未作外部核验。书中记 Ottavio 于1714年去世。相关亲缘、任职与居住关系留待 S6 审查。中文名为项目工作音译。〔[第8章印刷页210–211；Markdown L82、85–87、96](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)〕
+**中文：** Haskell称 Ottavio del Rosso 是 Andrea 与 Lorenzo del Rosso 的兄弟，曾入教会并居于 Volterra；原书 OCR 将其职衔识别为“Bjshop”，按语境释读为主教，未作外部核验。书中记 Ottavio 于1714年去世。入教会与居住两项关系已分别登记为 `rel-1436 member_of` 和 `rel-1837 located_at`；主教职衔与住宅相关候选依各自 S6 记录处理。中文名为项目工作音译。〔[第8章印刷页210–211；Markdown L82、85–87、96](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)〕
 
-**English:** Haskell identifies Ottavio del Rosso as a brother of Andrea and Lorenzo del Rosso, says he entered the Church and lived in Volterra, and records his death in 1714. The OCR reads his office as “Bjshop”; the description interprets this in context as bishop, without independent external verification. The family, office, and residence relation candidates remain for S6 review. The Chinese name is a project working transliteration. ([第8章印刷页210–211；Markdown L82、85–87、96](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md))
+**English:** Haskell identifies Ottavio del Rosso as a brother of Andrea and Lorenzo del Rosso, says he entered the Church and lived in Volterra, and records his death in 1714. The OCR reads his office as “Bjshop”; the description interprets this in context as bishop, without independent external verification. The Church entry and residence are recorded as `rel-1436 member_of` and `rel-1837 located_at`; the bishopric and house-related candidates retain their individual S6 decisions. The Chinese name is a project working transliteration. ([第8章印刷页210–211；Markdown L82、85–87、96](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md))
 
 ## 关系与证据
 
@@ -68,5 +68,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](../institutions/church-as-patron-in-venice-haskell-account.md) | S2 statement st-chp8-p211-ottavio-entered-church; the text does not identify a religious order.；角色：宗教机构成员归属；范围：Haskell says Ottavio entered the Church. This records institutional affiliation only; no religious order, office, date or later appointment is inferred.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p. 211 L86–87 |
+| → 位于（`located_at`） | [沃尔泰拉（Volterra）](../places/volterra.md) | S2 relation candidate: st-chp8-p211-ottavio-lived-in-volterra. Decision recorded in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024.；角色：source-reported residence；范围：Haskell says Ottavio lived in Volterra; the separate bishopric claim is not encoded as relation to the city-as-office.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.211 L87; statement=st-chp8-p211-ottavio-lived-in-volterra |
 
-目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 4 条（st-chp8-p210-house-inhabited-by-ottavio-del-rosso, st-chp8-p211-ottavio-bishop-volterra, st-chp8-p211-ottavio-entered-church, st-chp8-p211-ottavio-lived-in-volterra），保留待 S6 审查；本卡登记不等于关系裁决。
+`relations.csv` 当前记录 `rel-1436 member_of` 与 `rel-1837 located_at`。直接 S2 候选 `st-chp8-p211-ottavio-entered-church` 和 `st-chp8-p211-ottavio-lived-in-volterra` 已分别对应上述正式边；住宅与主教职衔候选的去向见 S6 过程记录，不据此增加其他边。

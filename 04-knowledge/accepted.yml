@@ -5,6 +5,7 @@ units:
 - 04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
 - 04-knowledge/units/archives/algarotti-letter-to-mariette-s-rocco-by-1751.md
 - 04-knowledge/units/archives/ameyden-relazione-1642.md
+- 04-knowledge/units/archives/andrea-del-rosso-family-collection-inventory.md
 - 04-knowledge/units/archives/andrea-memmo-inventory-petizion-488-1792.md
 - 04-knowledge/units/archives/andrea-memmo-notes-status-painters.md
 - 04-knowledge/units/archives/apollo-periodical.md
@@ -38,6 +39,7 @@ units:
 - 04-knowledge/units/archives/carriera-journal-vianello-1793.md
 - 04-knowledge/units/archives/cellini-autobiography.md
 - 04-knowledge/units/archives/christies-bernard-sale-lot-68-1789.md
+- 04-knowledge/units/archives/cinelli-del-rosso-collection-account-1677.md
 - 04-knowledge/units/archives/claretta-i-reali-di-savoia-1893.md
 - 04-knowledge/units/archives/claude-lorrain-paintings-1961.md
 - 04-knowledge/units/archives/cochin-volume-iii-sagredo-pictures-1758.md
@@ -69,6 +71,7 @@ units:
 - 04-knowledge/units/archives/ferdinand-letter-28-apr-1708-no-357.md
 - 04-knowledge/units/archives/ferdinando-bologna-francesco-solimena-1958.md
 - 04-knowledge/units/archives/ferri-ruffo-letter-1672.md
+- 04-knowledge/units/archives/florentine-flour-decree-copy-1676.md
 - 04-knowledge/units/archives/fogolari-letter-12-1698-06-07.md
 - 04-knowledge/units/archives/fogolari-lettere-pittoriche-1937.md
 - 04-knowledge/units/archives/four-unpublished-letters-to-paolo-giordano-ii-relating-to-bernini.md
@@ -83,6 +86,7 @@ units:
 - 04-knowledge/units/archives/gini-cortona-letter-1666.md
 - 04-knowledge/units/archives/giovanni-adamo-piola-letter-1690.md
 - 04-knowledge/units/archives/giuseppe-delogu-g-b-castiglione-il-grechetto-1928.md
+- 04-knowledge/units/archives/giuseppe-ghezzi-papers.md
 - 04-knowledge/units/archives/goldoni-opere-vol-2-1761.md
 - 04-knowledge/units/archives/grassi-cortona-bozzetti-1957.md
 - 04-knowledge/units/archives/griseri-bozzetti-luca-giordano-escorial-1956.md
@@ -157,6 +161,7 @@ units:
 - 04-knowledge/units/archives/ottonelli-cortona-treatise-1652.md
 - 04-knowledge/units/archives/papal-nuncio-report-1729-08-20.md
 - 04-knowledge/units/archives/pascoli-trevisani-life-ms1383.md
+- 04-knowledge/units/archives/passerini-19-25-del-rosso-family-genealogy.md
 - 04-knowledge/units/archives/pastor-popes-english-vol33.md
 - 04-knowledge/units/archives/patrons-and-painters.md
 - 04-knowledge/units/archives/pecchiai-i-barberini-1959.md
@@ -166,6 +171,7 @@ units:
 - 04-knowledge/units/archives/pisani-entry-pamphlet-set-1780.md
 - 04-knowledge/units/archives/pitti-palace-apartments-picture-inventory-1716-1723.md
 - 04-knowledge/units/archives/poerson-letter-1708.md
+- 04-knowledge/units/archives/poligrafo-gargano-del-rosso-references.md
 - 04-knowledge/units/archives/pollak-italienische-kuenstlerbriefe-1913.md
 - 04-knowledge/units/archives/poussin-correspondance-jouanny-1911.md
 - 04-knowledge/units/archives/poussin-letter-to-jean-lemaire-early-1639.md
@@ -175,6 +181,7 @@ units:
 - 04-knowledge/units/archives/redig-de-campos-van-dyck-gesu-article-1936.md
 - 04-knowledge/units/archives/relatione-della-corte-di-roma.md
 - 04-knowledge/units/archives/relazione-per-le-riforme-1772.md
+- 04-knowledge/units/archives/resta-two-letters-to-gabburri.md
 - 04-knowledge/units/archives/ricci-bologna-terms-1682.md
 - 04-knowledge/units/archives/roland-michel-chardin-1994.md
 - 04-knowledge/units/archives/roma-volume-xix-1941.md
@@ -424,6 +431,7 @@ units:
 - 04-knowledge/units/institutions/british-academy.md
 - 04-knowledge/units/institutions/british-museum.md
 - 04-knowledge/units/institutions/ca-foscari-university-venice.md
+- 04-knowledge/units/institutions/cavalieri-di-santo-stefano.md
 - 04-knowledge/units/institutions/church-as-patron-in-venice-haskell-account.md
 - 04-knowledge/units/institutions/cini-institute-of-art-history.md
 - 04-knowledge/units/institutions/capitoline-museums.md
@@ -490,6 +498,7 @@ units:
 - 04-knowledge/units/institutions/museo-correr.md
 - 04-knowledge/units/institutions/museo-del-prado.md
 - 04-knowledge/units/institutions/museo-di-capodimonte.md
+- 04-knowledge/units/institutions/museo-di-roma.md
 - 04-knowledge/units/institutions/museum-boymansvan-beuningen.md
 - 04-knowledge/units/institutions/museum-of-fine-arts-houston.md
 - 04-knowledge/units/institutions/museum-schloss-wilhelmshoehe.md
@@ -506,6 +515,7 @@ units:
 - 04-knowledge/units/institutions/oratorians.md
 - 04-knowledge/units/institutions/osvaldo-bohm-photographic-publisher.md
 - 04-knowledge/units/institutions/papacy.md
+- 04-knowledge/units/institutions/papal-postal-services.md
 - 04-knowledge/units/institutions/papal-states.md
 - 04-knowledge/units/institutions/pasquali-venetian-publishing-firm.md
 - 04-knowledge/units/institutions/phaidon.md
@@ -794,6 +804,7 @@ units:
 - 04-knowledge/units/persons/comte-de-caylus.md
 - 04-knowledge/units/persons/conte-cavazza.md
 - 04-knowledge/units/persons/conte-ventura-carrara.md
+- 04-knowledge/units/persons/coriolano-montemagni.md
 - 04-knowledge/units/persons/corneille-schut.md
 - 04-knowledge/units/persons/cornelius-de-stael.md
 - 04-knowledge/units/persons/cornelius-de-wael.md
@@ -1651,6 +1662,7 @@ units:
 - 04-knowledge/units/places/bergamo.md
 - 04-knowledge/units/places/berlin.md
 - 04-knowledge/units/places/bologna.md
+- 04-knowledge/units/places/burghley.md
 - 04-knowledge/units/places/ca-pesaro.md
 - 04-knowledge/units/places/ca-rezzonico.md
 - 04-knowledge/units/places/cambridge.md
@@ -1839,6 +1851,7 @@ units:
 - 04-knowledge/units/places/villa-pisani.md
 - 04-knowledge/units/places/villa-valmarana-vicenza-haskell-reference.md
 - 04-knowledge/units/places/viterbo.md
+- 04-knowledge/units/places/volterra.md
 - 04-knowledge/units/places/wurzburg.md
 - 04-knowledge/units/procedures/artist-title-conferral.md
 - 04-knowledge/units/procedures/commission-contracting.md
@@ -2036,6 +2049,7 @@ units:
 - 04-knowledge/units/works/caravaggio-portrait-wignacourt.md
 - 04-knowledge/units/works/caravaggio-raising-lazarus.md
 - 04-knowledge/units/works/caravaggio-rest-flight-egypt.md
+- 04-knowledge/units/works/caravaggio-s-gio-decullato-in-lorenzo-del-rosso-will.md
 - 04-knowledge/units/works/caravaggio-sacrifice-isaac-princeton.md
 - 04-knowledge/units/works/caravaggio-sacrifice-isaac-uffizi.md
 - 04-knowledge/units/works/caravaggio-saint-augustine-disputed.md
@@ -2052,6 +2066,7 @@ units:
 - 04-knowledge/units/works/carlevarijs-colloredo-entry-1726.md
 - 04-knowledge/units/works/carlevarijs-manchester-entry-1707.md
 - 04-knowledge/units/works/carlevarijs-regatta-frederick-iv-1709.md
+- 04-knowledge/units/works/carlo-dolci-flight-into-egypt-lord-exeter.md
 - 04-knowledge/units/works/carlo-dolci-sir-john-finch.md
 - 04-knowledge/units/works/carlo-dolci-sir-thomas-baines.md
 - 04-knowledge/units/works/carlo-maratta-cardinal-antonio-barberini.md

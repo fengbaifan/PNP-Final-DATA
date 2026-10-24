@@ -46,9 +46,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** 对应书目记录端点cand-7500已判为new但尚未登记；库存描述及其关系留待S6。 直接S2关系候选st-chp8-p213-nome-inventory-described-as-lorenese仍待S6逐条裁决；本次登记不建立正式边。
+**中文：** 对应书目记录端点 cand-7500 已判为 new、尚待 S4 登记。本批将清册对 Nomé 的 Lorenese 描述裁为 formal `rel-1838 has_subject`；该边仅记录清册描述，不确认其出生地或国籍。
 
-**English:** The corresponding bibliographic-record endpoint cand-7500 is decided new but not yet registered; the inventory description and relation remain for S6. Direct S2 relation candidates st-chp8-p213-nome-inventory-described-as-lorenese remain for individual S6 review; this registration creates no formal edges.
+**English:** The corresponding bibliographic-record endpoint cand-7500 is decided new and awaits S4 registration. This batch formalized the inventory's description of Nomé as Lorenese in `rel-1838 has_subject`; the edge records the inventory's description and does not establish birthplace or nationality.
 
 ## 关系与证据
 
@@ -58,8 +58,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [安德烈亚·德尔罗索家族收藏清册（Andrea del Rosso's inventory of the family collection）](../archives/andrea-del-rosso-family-collection-inventory.md) | S2 relation candidate: st-chp8-p213-nome-inventory-described-as-lorenese. Decision recorded in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024.；角色：person described in inventory；范围：Haskell reports the inventory described Nomé as Lorenese; this is not asserted as birthplace or nationality.；原断言与证据见发出端卡片“安德烈亚·德尔罗索家族收藏清册（Andrea del Rosso's inventory of the family collection）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.213 L112; statement=st-chp8-p213-nome-inventory-described-as-lorenese |
 
-**中文：** 直接S2候选（待S6）：st-chp8-p213-nome-inventory-described-as-lorenese。
+当前正式关系见 `relations.csv`：`rel-1838 has_subject` connects this person to Andrea del Rosso's inventory. Navigation and textual clues do not create additional relation edges.
 
-**English:** Direct S2 relation candidates pending individual review in S6: st-chp8-p213-nome-inventory-described-as-lorenese.
+**中文：** 直接 S2 候选 `st-chp8-p213-nome-inventory-described-as-lorenese` 已以 `rel-1838 has_subject` 登记；仅记录清册对该人物的描述，不确认出生地或国籍。
+
+**English:** Direct S2 candidate `st-chp8-p213-nome-inventory-described-as-lorenese` is represented by `rel-1838 has_subject`; it records only the inventory's description, not birthplace or nationality.

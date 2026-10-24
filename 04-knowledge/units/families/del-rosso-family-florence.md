@@ -49,4 +49,13 @@ Chapter 8, page 211, identifies the Del Rosso family and brothers; page 241 agai
 
 ## 关系与证据
 
-本轮完成身份登记；正文中的家族成员、收藏与赞助陈述仍须按各自来源和端点在 S6 审查。本卡未新增正式关系。
+本卡当前关系视图展示两条正式来源关系，分别来自 Passerini 与 Poligrafo Gargano 记录。家族成员、收藏与赞助陈述按各自 S6 裁决记录处理，不由这两条边外推。
+
+The current relation view shows two formal source-to-family edges, from the Passerini and Poligrafo Gargano records. Membership, collection, and patronage claims retain their individual S6 decisions; these two edges do not establish them.
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [Passerini 19(25) 德尔罗索家族谱系手稿（Passerini 19(25), Informazione sopra la Nobiltà della Famiglia del Rosso di Firenze）](../archives/passerini-19-25-del-rosso-family-genealogy.md) | S2 relation candidate: st-chp8-p211-passerini-and-poligrafo-gargano-genealogical-sources. Decision recorded in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024.；角色：genealogical subject；范围：Haskell cites this manuscript for family and genealogical information; it was not independently consulted.；原断言与证据见发出端卡片“Passerini 19(25) 德尔罗索家族谱系手稿（Passerini 19(25), Informazione sopra la Nobiltà della Famiglia del Rosso di Firenze）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i_notes_p211_visual-transcription.md)；haskell-1980-rev-ed；Chapter 8, printed p.211 n.1; statement=st-chp8-p211-passerini-and-poligrafo-gargano-genealogical-sources |
+| ← 为其所涉对象（`subject_of`，反向投影） | [Poligrafo Gargano 德尔罗索家族资料（Poligrafo Gargano manuscript references on the del Rosso family）](../archives/poligrafo-gargano-del-rosso-references.md) | S2 relation candidate: st-chp8-p211-poligrafo-gargano-family-references. Decision recorded in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024.；角色：family references；范围：Haskell reports additional family references in the Poligrafo Gargano collection; individual items are unspecified.；原断言与证据见发出端卡片“Poligrafo Gargano 德尔罗索家族资料（Poligrafo Gargano manuscript references on the del Rosso family）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i_notes_p211_visual-transcription.md)；haskell-1980-rev-ed；Chapter 8, printed p.211 n.1; statement=st-chp8-p211-poligrafo-gargano-family-references |

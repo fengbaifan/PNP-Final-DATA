@@ -12637,3 +12637,57 @@ S6 对本批两项直接关系候选逐项裁决：
 | `st-chp8-p215-1653-decoration-programme` | formal | `rel-1831 has_participant`，1653年装饰计划 event → Consiglio del Consorzio institution；角色为发起决定的治理机构。仅记录Haskell所述启动决定，不外推现代法人身份或作品完成情况。 |
 
 教堂卡的六条直接候选现在为两条 formal（`rel-1827`、`rel-1830`）、一条既有 rejected（`st-chp8-p216-committee-assessment-visit`，沿用原过程记录），三条 pending：`st-chp8-p215-church-work-began-1137`、`st-chp8-p215-gothic-fresco-traces-remain`、`st-chp8-p215-decoration-changed-and-altar-paintings-appeared`。本批未新增S2 statement／mention，不改变S2独立复核计数、S3决定或backlog。新增两组KU、两条S4映射、八条S5字段和两条formal关系；新卡、教堂卡与Consiglio卡按关系投影定向预览及渲染。
+
+
+<a id="s3-s4-s5-s6-ch8-p211-del-rosso-cross-chapter-20261024"></a>
+### S3 跨章来源组复核／S4登记／S5字段／S6裁决：第5、7、8章德尔罗索端点批次（2026-10-24）
+
+#### S3 身份组与 S4 登记
+
+沿用候选现有 S3 主决定 new。第8章 p.211 n.1 的 “see p.125, note 1” 明确回指第5章的 Ghezzi papers；据此将 cand-12049（Ghezzi notes）与 cand-6029（Ghezzi papers）归入同一档案来源组 archive-group-ae3cd2ebafac，登记到 units/archives/giuseppe-ghezzi-papers。此组表示来源集合，不声称 notes 与 papers 是同一具体文书；两条候选的决定仍各为 new。另登记 cand-6030 Museo di Roma。Burghley 依第7章 p.198 country-house 描述登记为 place；第8章 p.211–212 的其余端点按各自原有 new 组登记。
+
+本批新增15个 KU、16条候选映射（Ghezzi 两候选共用一 KU）及23条 Haskell 来源字段。S3 决定行数不变；新身份组数因归并减少1。Gualandi 卷页范围沿用 p.211 页图校读 pp.115–128；清册时间保留为“1677年记述十二年后”，不补成精确年份。Ghezzi papers 的 Museo di Roma 位置只作为 Haskell 当时的来源报告。
+
+#### S2 关系断言修订
+
+将 st-chp8-p211-wills-and-caravaggio-bequest 改为 relation_candidate=false，保留关于两份遗嘱定位及例外记载的综合来源主张。新增 st-chp8-p211-caravaggio-bequeathed-to-coriolano：作品 cand-7514 →受遗赠人 cand-7512，锚定 p.211 L93–94。谓词 bequeathed_to 不受控，S6 保持 pending；不以 owned_by 替代，也不推断遗赠已执行。新增1条 statement、未新增 mention；不增加独立 S2 复核分子。
+
+#### S6 逐项去向
+
+本批裁决25条候选：9 formal、15 pending、1 rejected。st-chp7-p197-n5-exeter-pictures-burghley 沿用既有 rejected；st-chp8-p211-ottavio-entered-church 沿用 rel-1436 member_of，不重复建边。档案到 Museo di Roma 使用 located_at，因为受控域范围不允许 archive 使用 held_by；位置仅按 Haskell 所述时点限定。
+
+| statement_id | 去向 | 裁决与边界 |
+|---|---|---|
+| st-chp5-note-p125-ghezzi-papers-held-by-museo | formal rel-1832 located_at | Archive-to-institution location; Haskell's reported location is not current verification. |
+| st-chp8-p211-andrea-artistic-activity-sources | formal rel-1833 has_subject | Ghezzi source group discusses Andrea; p.211 explicitly points to p.125 n.1. |
+| st-chp8-p211-andrea-directed-papal-postal-services | formal rel-1834 employed_by | Andrea is described as director-general; no dates inferred. |
+| st-chp8-p211-passerini-and-poligrafo-gargano-genealogical-sources | formal rel-1835 has_subject | Passerini manuscript is cited for family and genealogical information. |
+| st-chp8-p211-andrea-artistic-activity-in-resta-letters | formal rel-1836 has_subject | The letters are reported to refer to Andrea's activities; they were not read independently. |
+| st-chp8-p211-ottavio-lived-in-volterra | formal rel-1837 located_at | Haskell's reported residence only; bishopric claim remains pending. |
+| st-chp8-p213-nome-inventory-described-as-lorenese | formal rel-1838 has_subject | Lorenese is attributed to the inventory, not promoted to birthplace or nationality. |
+| st-chp8-p211-poligrafo-gargano-family-references | formal rel-1839 has_subject | Family references are reported; individual items remain unspecified. |
+| st-chp8-p211-dolci-picture-at-burghley | formal rel-1840 located_at | Source-reported location only, not present-day verification. |
+| st-chp8-p211-del-rosso-admitted-to-cavalieri-order | pending — | Family-level wording does not identify which individual members entered; no family-to-order edge. |
+| st-chp8-p211-dolci-flight-sent-to-lord-exeter | pending — | Current S2 endpoints do not distinguish sender and named recipient roles; preserve the direction in the claim. |
+| st-chp8-p211-dolci-picture-burghley-exhibition-reference | pending — | The 1960 exhibition event remains S3 undecided and exhibited_at is not controlled. |
+| st-chp8-p211-dolci-exhibition-held-in-london | pending — | The event candidate is undecided and lacks a title or duration. |
+| st-chp8-p211-flour-decree-citation | pending — | No controlled predicate yet preserves the decree-to-concession legal grant and scope. |
+| st-chp8-p211-flour-decree-preserved-at-archive | pending — | The Archivio di Stato branch candidate remains undecided. |
+| st-chp8-p211-ottavio-bishop-volterra | pending — | Volterra is a city, not an identified diocese or office. |
+| st-chp8-p211-principal-sources-for-del-rosso-collection | pending — | The collection candidate remains type-undecided. |
+| st-chp8-p211-andrea-inventory-principal-source | pending — | The collection candidate remains type-undecided; source relation is not safely encoded. |
+| st-chp8-p211-andrea-born-and-flour-monopoly | pending — | Compound birth and grant claim requires separation before formal relation. |
+| st-chp8-p211-del-rosso-inventory-reports-glass-and-durer-pairs | pending — | The collection endpoint remains type-undecided. |
+| st-chp8-p213-collection-emphasis-on-naples-and-neglect-of-rome | pending — | Source-evaluative claim and unresolved collection type; no formal relation. |
+| st-chp8-p213-collection-neglected-rome | pending — | Source-evaluative claim; collection type and scope remain unresolved. |
+| st-chp8-p213-collection-shift-from-disegno-to-colore | pending — | Source characterization of an unresolved collection, not a relation. |
+| st-chp8-p211-caravaggio-bequeathed-to-coriolano | pending — | bequeathed_to is uncontrolled; owned_by would overstate execution of the will. |
+| st-chp8-p211-cinelli-inventory-incidental-biographical-information | rejected — | Both documents provide incidental information; no relation between the documents is asserted. |
+
+pending 与 rejected 项保留在裁决记录，不生成伪 formal 行；relations.csv 新增 rel-1832 至 rel-1840。本批未处理其他章节候选，也未启动 S7、知识发现或页面。
+
+#### 卡片与批后检查
+
+对15张新卡及4张既有端点卡共19个目标执行关系与字段渲染预检：`cards=19`、`tables=16`、`rows=25`、`projected_relation_rows=19`、`files_to_write=14`。修正Andrea、del Rosso family、Ottavio及François Nomé卡片中过时的S6待办描述后，定向渲染14张受影响卡；写后字节核验通过，二次定向预检`cards_with_relation_changes=0`、`files_to_write=0`。
+
+严格表审计结果：`kus=2739`、`candidates=12418`、`alignments=12758`、S4待映射3123、backlog 32（pending=0）、`relations=1840`（1827 formal、13 pending）、S5字段12923（1634 unverified）、`sources=1777`、`segments=832`、S2 `book_statements=15307`、`mentions=26773`、`s2_missing=[]`、`errors=[]`。关系一致性检查`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic`均为0。S2独立复核分子仍为9617，未接收；S3候选决定数不变。

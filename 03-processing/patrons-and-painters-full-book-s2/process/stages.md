@@ -13618,3 +13618,8 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 ### 2026-10-24：第14章 p.355 三幅作品作者归属的 S2 定向补充
 
 对照 Haskell 第14章印刷 p.355、PDF physical p.9及注2，新增3条单件作品的 created_by statement：st-chp14-p355-caesar-created-by-piazzetta、st-chp14-p355-mucius-created-by-piazzetta、st-chp14-p355-darius-created-by-piazzetta。依据正文对受委托画及“两幅后续画”的归属和注2题名对应；不把注中并列的两个地点分配给具体作品。三条是 S2 定向端点修订，未独立复核，不计入统一复核分子；statement 分母由15,287增至15,290，复核分子维持9,617。
+
+
+### 第8章 p.211 遗嘱综合断言与受遗赠关系拆分（2026-10-24）
+
+st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及其他画作及 Lorenzo 的例外遗赠合并。保留来源综合断言但标为 relation_candidate=false；新增 st-chp8-p211-caravaggio-bequeathed-to-coriolano，以 p.211 L93–94 为锚，方向为作品 cand-7514 →受遗赠人 cand-7512。谓词不受控，S6 pending；不以 owned_by 代替，不断言遗赠已执行。重用既有 person/work mentions，不增 mentions。该修订增加1条 statement，不计独立 S2 复核；复核分子不变，台账需按当前 statement ID 对账。
