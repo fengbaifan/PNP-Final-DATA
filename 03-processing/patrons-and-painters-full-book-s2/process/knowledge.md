@@ -12530,9 +12530,74 @@ S6 对七项关联候选逐项裁决，均有明确去向：
 |---|---|---|---|
 | `cand-6205` | archive | undecided → new | 与第7章及第21章书目候选 `cand-6605` 归入既有 `archive-group-1bb1eb317ce0`；第5章 p.142 n.4、p.143 n.4及后续注释中的1939年页码引注指向同一书目版本。 |
 | `cand-6370` | archive | undecided → new | 第6章 p.152 n.5所引1939年 pp.150、161–162，与 `cand-6605` 的第21章书目身份相合；归入同一 archive 组。 |
-| `cand-6369` | person | undecided → new | 将第6章 p.152及第7章引注中的姓氏形式限定为该1939年版的编者／转录者 Aldo De Rinaldis；新组 `new-person:aldo-de-rinaldis-1939-editor`。身份仅覆盖此书责任角色，不表示其撰写Salvator Rosa原信。 |
+| `cand-6369` | person | undecided → new | 将第6章 p.152及第7章引注中的姓氏形式限定为目录所列该1939年版的转录者／注释者 Aldo De Rinaldis；新组 `new-person:aldo-de-rinaldis-1939-editor`。身份仅覆盖此书责任角色，不表示其撰写Salvator Rosa原信。 |
 | `cand-6605` | archive | new（沿用） | 原书第7章引注与第21章书目身份得到目录交叉支持；候选仍属于 `archive-group-1bb1eb317ce0`，不新建第二出版物组。 |
 
 外部记录：[Accademia dei Georgofili 图书馆目录](https://www.georgofili.it/biblioteca/ricerca?c1=Keywords&c2=&o=and&str1=Ricciardi&str2=)；[WorldCat OCLC 8520231](https://search.worldcat.org/title/Lettere-inedite-di-Salvator-Rosa-a-G.B.-Ricciardi/oclc/8520231)。`alignment.csv` 保留四条来源证据行；三个此前 undecided 候选各有候选级主决定与理由，`new` 的 `ku_id` 仍留空，交由S4按身份组登记。
 
 本批不改S2 statement／mention及独立复核分子，不登记S4、不增S5字段、不裁S6关系。S3主决定覆盖仍为12,418个候选；new增至5,070、undecided降至5,190。S4待映射增至3,153条，其中直接关系端点1,426条；本批涉及的两个archive候选进入该端点队列。下一步先登记该archive组和Aldo De Rinaldis人物组，再按证据范围处理相关S5字段与引注关系；未查原书的页码继续保持“仅由Haskell转引”的限定。
+
+
+<a id="s4-s6-de-rinaldis-1939-rosa-ricciardi-citations-20261024"></a>
+
+### S3沿用／S4跨章端点登记／S5状态说明／S6逐项裁决：De Rinaldis 1939及第7章书信、书目引注（2026-10-24）
+
+沿用上一节已完成的跨章 S3 身份组，不重开候选的身份决定。将第5、6、7章与第21章互相定位的1939年 De Rinaldis 书信集映射到同一 archive KU；把第6章姓氏候选登记为只覆盖该版本转录、注释责任的来源限定人物；其余候选依各自既有 S3 new 组登记为书信或出版物 KU。8条 S4 主映射均完成，其中 `cand-6205`、`cand-6370`、`cand-6605` 共用同一出版物 KU，新增6个 KU。
+
+| 候选／映射 | S3身份组与决定 | S4去向 |
+|---|---|---|
+| `cand-6205` / `aln-6386` | `archive-group-1bb1eb317ce0`；new | `units/archives/de-rinaldis-lettere-inedite-rosa-ricciardi-1939` |
+| `cand-6370` / `aln-6549` | 同上；new | 复用同一1939年出版物 KU |
+| `cand-6605` / `aln-6783` | 同上；沿用 new | 复用同一1939年出版物 KU |
+| `cand-6369` / `aln-6548` | `new-person:aldo-de-rinaldis-1939-editor`；new | `units/persons/aldo-de-rinaldis`；身份限于目录所列转录、注释责任 |
+| `cand-6602` / `aln-6780` | `archive-group-225deeca4f21`；new | `units/archives/rosa-letter-to-ricciardi-1669-06-08` |
+| `cand-7110` / `aln-7286` | `archive-group-40fbe5525831`；new | `units/archives/bailly-inventaire-tableaux-du-roy-1899` |
+| `cand-7101` / `aln-7277` | `archive-group-7aa2b834fcb0`；new | `units/archives/blunt-art-architecture-france-1500-1700-1953` |
+| `cand-7102` / `aln-7278` | `archive-group-5a66076eca71`；new | `units/archives/chantelou-journal-voyage-bernin-france-1877-1884` |
+
+两条已有外部对齐行 WorldCat OCLC 8520231 与 Georgofili 图书馆目录继续保留在 `alignment.csv`，不重复改写。两个外部来源也登记入 `sources.csv`，仅用于出版物和版本的身份依据。书内页码及原信没有因此被视为已查阅。
+
+#### S2补锚点与S5状态
+
+第7章p.169正文明确说Rosa正在写给G. B. Ricciardi，注1（`07_CHP-7_intro.md` L12）给出1669年6月8日及De Rinaldis 1939年第221页。新增两条来源限定的关系候选 statement：`st-chp7-p169-letter-authored-by-rosa`、`st-chp7-p169-letter-addressed-to-ricciardi`；新增 mention `m-chp7-p169-i-043`，对应正文引文在 `chp-7:07_CHP-7_sec_i:l3-9` 的字符区间188–279。两条statement进入总分母，未计入独立 S2 复核分子。
+
+本批未新增 `enrichment.jsonl` 字段（S5净增0）。`build_field_facts.py` 的全局预览含目标以外的既有记录改动，并会把已有来源支持字段降为未核实；因此没有应用全局写回。新卡只记录可追溯的书目身份与来源描述，不把这些基础登记冒充为S5字段。下一批S5应先隔离预览差异，再按已核实来源定向登记必要字段。
+
+#### S6逐项裁决
+
+25项形成新 formal 关系；第7章p.187注6对Hautecœur的引注复用既有 `rel-1239`，不重复建边。下表列出本批26项关联候选的逐项去向：
+
+| statement_id | 去向 | 关系与边界 |
+|---|---|---|
+| `st-chp5-seciv-note-l43-p143-marker4` | formal `rel-1799` | Haskell→De Rinaldis 1939；p.143 n.4只记录第191页引注。 |
+| `st-chp5-seciv-note-l46-p144-marker1` | formal `rel-1800` | Haskell→De Rinaldis 1939；p.144 n.1只记录第199页引注，不补信件日期或收件人。 |
+| `st-chp5-seciv-note-l48-p144-marker4` | formal `rel-1801` | Haskell→1651-04-24信；p.144 n.4、第17页定位。 |
+| `st-chp5-seciv-note-l49-p144-marker5` | formal `rel-1802` | Haskell→1651-05-12信；p.144 n.5、第19页定位。 |
+| `st-chp5-seciv-note-l51-p145-marker1` | formal `rel-1803` | Haskell→1664-05-21信；p.145 n.1、第164页定位。 |
+| `st-chp6-notes-l144-p152-n5` | formal `rel-1804` | Haskell→De Rinaldis 1939；p.152 n.5、pp.150及161–162定位。 |
+| `st-chp7-p169-n1-cite` | formal `rel-1805` | Haskell→1669-06-08信；p.169 n.1、第221页定位。 |
+| `st-chp7-p187-n5-cite-limentani` | formal `rel-1806` | Haskell→Limentani 1950；p.187 n.5、第21页定位。 |
+| `st-chp7-p187-n5-cite-de-rinaldis` | formal `rel-1807` | Haskell→De Rinaldis 1939；p.187 n.5、第193页定位。 |
+| `st-chp7-p187-n5-cite-bailly` | formal `rel-1808` | Haskell→Bailly 1899；只记第50页引注，不核实1697年事件。 |
+| `st-chp7-p187-n6-cite-blunt` | formal `rel-1809` | Haskell→Blunt 1953；一般参考，不补页码。 |
+| `st-chp7-p187-n6-cite-wittkower` | formal `rel-1810` | Haskell→Wittkower 1958；沿用页图校读，保留一般参考范围。 |
+| `st-chp7-p187-n6-cite-hautecoeur` | 复用 `rel-1239` | 既有 Haskell→Hautecœur cites 边，未重复登记。 |
+| `st-chp7-p187-n6-cite-chantelou` | formal `rel-1811` | Haskell→Chantelou刊本；一般参考，不声称已读刊本。 |
+| `st-chp5-notes-l163-rosa-ricciardi-letter` | formal `rel-1812` | Haskell→1660-04-02信；p.142 n.4、第109页定位。 |
+| `st-chp5-notes-l126-165-l163-letter-published-in-de-rinaldis` | formal `rel-1813 part_of` | 书信→1939年刊本；按Haskell第109页书目定位作来源限定的刊本包含关系，原S2谓词保持不变。 |
+| `st-chp5-l163-letter-authored-by` | formal `rel-1814 authored_by` | 1660-04-02信→Rosa；依据相连正文与注4。 |
+| `st-chp5-l163-letter-addressed-to` | formal `rel-1815 addressed_to` | 1660-04-02信→Ricciardi；依据注4及相连正文语境。 |
+| `st-chp5-l48-letter-authored-by` | formal `rel-1816 authored_by` | 1651-04-24信→Rosa；原信未独立查阅。 |
+| `st-chp5-l48-letter-addressed-to` | formal `rel-1817 addressed_to` | 1651-04-24信→Ricciardi；原信未独立查阅。 |
+| `st-chp5-l49-letter-authored-by` | formal `rel-1818 authored_by` | 1651-05-12信→Rosa；原信未独立查阅。 |
+| `st-chp5-l49-letter-addressed-to` | formal `rel-1819 addressed_to` | 1651-05-12信→Ricciardi；原信未独立查阅。 |
+| `st-chp5-l51-letter-authored-by` | formal `rel-1820 authored_by` | 1664-05-21信→Rosa；收件人和作者限于相连正文语境。 |
+| `st-chp5-l51-letter-addressed-to` | formal `rel-1821 addressed_to` | 1664-05-21信→Ricciardi；原信未独立查阅。 |
+| `st-chp7-p169-letter-authored-by-rosa` | formal `rel-1822 authored_by` | 1669-06-08信→Rosa；正文与日期脚注交叉定位。 |
+| `st-chp7-p169-letter-addressed-to-ricciardi` | formal `rel-1823 addressed_to` | 1669-06-08信→Ricciardi；正文与日期脚注交叉定位。 |
+
+所有 `cites` 只表示Haskell书内引注；被引页、出版物正文及原信均未据此宣称已独立查阅。`cand-6369`不是S2关系候选；现有受控谓词无法准确表达目录所述“转录并注释”，所以不强建 `compiled_by` 等边。p.144 n.1未提供可建立信件作者／收件人边的证据，本批只裁为书目引注。上述26项没有pending或rejected；已复用边明确列出。
+
+#### 卡片与批后检查
+
+6张新卡完成登记；16张受影响卡按单KU预览，14张有预期差异并完成定向渲染，2张无差异。`build_cards.py --render`预检：`cards=14`、`tables=9`、`rows=61`、`projected_relation_rows=241`、`files_to_write=14`；写后字节核验通过，事务恢复快照已清理。严格表审计：`kus=2718`、`alignments=12758`、S4待登记3145、`relations=1823`（1,810 formal、13 pending）、S5字段12,882（1,634 unverified）、`sources=1776`、`book_statements=15306`、`mentions=26773`、`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0。S3决定数不变；S2独立复核分子仍为9,617，未接收。S6累计为956/10,529（595 formal、265 pending、96 rejected），其余9,573项待逐条裁决。

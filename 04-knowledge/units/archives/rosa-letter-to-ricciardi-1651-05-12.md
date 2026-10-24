@@ -48,3 +48,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - `st-chp5-seciv-note-l49-p144-marker5`
 - `st-chp5-l49-letter-authored-by`
 - `st-chp5-l49-letter-addressed-to`
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 relation candidate: st-chp5-seciv-note-l49-p144-marker5. The source note supplies the date and locator; linked body supplies correspondence context.；角色：第5章 p.144 注5书信引注；范围：只记录Haskell对1651年5月12日书信及同一刊本第19页的定位；原信与刊本页未独立查阅。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.144 n.5; PDF physical p.29; statement=st-chp5-seciv-note-l49-p144-marker5 |
+| → 作者（`authored_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | S2 relation candidate: st-chp5-l49-letter-authored-by. The person role follows the linked body passage and the cited letter locator.；时间：1651-05-12；角色：书信作者；范围：依据Haskell相连正文与书内信件引注；仅作来源限定的作者识别，原信未独立查阅。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.144 n.5; PDF physical p.29; statement=st-chp5-l49-letter-authored-by |
+| → 致函（`addressed_to`） | [詹巴蒂斯塔·里恰尔迪（Giambattista Ricciardi）](../persons/giambattista-ricciardi.md) | S2 relation candidate: st-chp5-l49-letter-addressed-to. The person role follows the linked body passage and the cited letter locator.；时间：1651-05-12；角色：书信收件人；范围：依据Haskell相连正文与书内信件引注；仅作来源限定的收件人识别，原信未独立查阅。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.144 n.5; PDF physical p.29; statement=st-chp5-l49-letter-addressed-to |

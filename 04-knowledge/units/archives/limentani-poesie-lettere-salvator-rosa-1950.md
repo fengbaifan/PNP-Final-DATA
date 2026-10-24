@@ -59,6 +59,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - `st-chp7-p187-n5-cite-limentani`
 - `st-chp5-seciv-note-l41-p143-cites-limentani-p79`
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 relation candidate: st-chp7-p187-n5-cite-limentani. Bibliographic citation only.；角色：第7章 p.187 注5书目引注；范围：只记录Haskell引用Limentani（1950）第21页；文章与被引页未独立查阅。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.187 n.5; PDF physical p.25; statement=st-chp7-p187-n5-cite-limentani |
+
 ## 身份与外部链接
 
 本轮未新增外部身份记录。登记依据见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-bottari-ticozzi-volumes-i-iii-20261020)。

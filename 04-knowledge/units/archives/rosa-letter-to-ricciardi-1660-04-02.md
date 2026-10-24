@@ -47,3 +47,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - `st-chp5-l163-letter-authored-by`
 - `st-chp5-l163-letter-addressed-to`
 - `st-chp5-notes-l126-165-l163-letter-published-in-de-rinaldis`
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S2 relation candidate: st-chp5-notes-l163-rosa-ricciardi-letter. The note names the correspondents and letter date.；角色：第5章 p.142 注4书信引注；范围：只记录Haskell引用1660年4月2日书信并定位De Rinaldis（1939）第109页；原信与刊本页未独立查阅。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p.142 n.4; PDF physical p.27; statement=st-chp5-notes-l163-rosa-ricciardi-letter |
+| → 组成部分（`part_of`） | [萨尔瓦托·罗萨致吉安巴蒂斯塔·里恰尔迪未刊书信集（Unpublished Letters of Salvator Rosa to Giambattista Ricciardi (1939)）](de-rinaldis-lettere-inedite-rosa-ricciardi-1939.md) | S2 relation candidate: st-chp5-notes-l126-165-l163-letter-published-in-de-rinaldis. Controlled S6 predicate part_of used for the edition locator; original S2 predicate published_in is retained unchanged.；时间：1660-04-02；角色：Haskell所引刊本中的书信定位；范围：只表达Haskell将该信定位在1939年版第109页；不声称查阅原信或第109页。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.142 n.4; PDF physical p.27; statement=st-chp5-notes-l126-165-l163-letter-published-in-de-rinaldis |
+| → 作者（`authored_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | S2 relation candidate: st-chp5-l163-letter-authored-by. The person role follows the linked body passage and the cited letter locator.；时间：1660-04-02；角色：书信作者；范围：依据Haskell相连正文与书内信件引注；仅作来源限定的作者识别，原信未独立查阅。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.142 n.4; PDF physical p.27; statement=st-chp5-l163-letter-authored-by |
+| → 致函（`addressed_to`） | [詹巴蒂斯塔·里恰尔迪（Giambattista Ricciardi）](../persons/giambattista-ricciardi.md) | S2 relation candidate: st-chp5-l163-letter-addressed-to. The person role follows the linked body passage and the cited letter locator.；时间：1660-04-02；角色：书信收件人；范围：依据Haskell相连正文与书内信件引注；仅作来源限定的收件人识别，原信未独立查阅。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.142 n.4; PDF physical p.27; statement=st-chp5-l163-letter-addressed-to |

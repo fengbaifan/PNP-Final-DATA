@@ -2,7 +2,7 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
-**第5–7章 De Rinaldis 1939 跨章身份组（2026-10-24）：** 以 Georgofili 图书馆目录和 WorldCat OCLC 8520231 对照书名、版本与编辑责任，将 `cand-6205`、`cand-6370` 由 undecided 改判 new 并并入 `archive-group-1bb1eb317ce0`；将 `cand-6369` 限定为该版编者／转录者 Aldo De Rinaldis 的来源内人物组；沿用 `cand-6605` 的 archive 身份组并补入目录证据。S3 undecided 减少3项；S4、S5、S6未在本批写入，archive端点待S4登记。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-de-rinaldis-1939-crosschapter-20261024)。
+**第5–7章 De Rinaldis 1939 跨章身份与 S4/S6 批次（2026-10-24）：** 沿用已复核的跨章 S3 身份组，完成8条 S4 映射并新增6个 KU；第5–7章与第21章的引注和书信关系逐项裁决为25条 formal 新边、复用既有 `rel-1239` 一条。新增两条第七章书信关系候选及一条mention，不计入独立 S2 复核分子。S5本批未写入，因全局预览包含范围外变更及既有来源支持字段降级；16张受影响卡预览、14张定向渲染。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-de-rinaldis-1939-rosa-ricciardi-citations-20261024)。
 
 **第5章 p.136 Cerquozzi Plate 22a 跨章身份与关系端点批次（2026-10-24）：** 将 `cand-6137`／`aln-6318` 从原 `new` 修正为 `same → units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends`，前置图版目录 FM-P22a 的作品题名、作者与图版号均与正文p.136直接相合；复用已有 `rel-0793 created_by`，不重复建KU或作者边。新增 `rel-1794 has_subject` 连接Vincenzo Neri；未具名朋友 `cand-6138` 保留S3 undecided、S6 pending，并列入 `bl-0031`，不为缺失端点伪造关系行。未新增S2 statement／mention或重复S5字段；两张受影响卡已定向更新。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp5-p136-cerquozzi-plate22a-20261024)。
 
@@ -41,10 +41,18 @@
 
 **第9章 p.251跨章身份与端点批次（2026-10-24）：** cand-6960 与 cand-8218 经跨章核对分别复用圣彼得大殿及 Bernini 柱廊 KU；cand-1518、cand-8229、cand-8231 登记为 Manin Passeriano country house、Le Grazie（Florio）与 La Galleria di Minerva 第六卷。cand-8230 因可能与同卷第83页的 cand-9523 指向同一匿名信件，保留 S3 undecided。新增3条 mention 锚点、1条 authored_by S2 statement（不计独立复核分子），新增13条 S5 字段并更正 Daniele Florio 卡的印刷题名；5条相关 S6 候选逐条裁为1 formal、3 pending、1 rejected。六张受影响卡定向渲染并复预览无差异；严格表审计 errors=[]、s2_missing=[]，关系一致性五类阻断均为0。详见[本批过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-p251-endpoints-20261024)。
 
-**最新全书快照（2026-10-24，本批后）：** S0共832个源段（678 complete、154 excluded）。S2共15,304条statement、26,772条mention；统一独立逐条复核9,617/15,304（62.8%，尚未接收，台账待按当前statement ID与来源版本核平）；第七章1,190/1,271、第八章487/1,487，其他章节局部复核不自动并入统一口径。S3主决定覆盖12,418/12,418：same=2,047、new=5,067、conflict=9、excluded=102、undecided=5,193（类型未定623）。另有25个候选的主决定与外部来源对齐行值不同，应逐项按来源语义核对，不直接记作身份冲突。S4已映射1,917/5,067条new候选，待映射3,150条；其中1,424条为直接关系端点。S5字段12,882条（1,634条unverified）。S6累计裁决931/10,527条关系候选（570 formal、265 pending、96 rejected），尚余9,596条；relations.csv有1,798条关系（1,785 formal、13 pending）。另有340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided；严格审计pending=0）。S2尚未独立接收，S3–S6未全书收口，S7未启动；知识发现与页面仍等待明确启动。
+**最新全书快照（2026-10-24，本批后）：** S0有832个源段（678 complete、154 excluded）。S2共15,306条statement、26,773条mention；统一独立逐条复核9,617/15,306（62.8%，尚未接收，台账待按当前statement ID与来源版本核平）；第七章1,190/1,273、第八章487/1,487，其他章节局部复核不自动并入统一口径。S3主决定覆盖12,418/12,418：same=2,047、new=5,070、conflict=9、excluded=102、undecided=5,190（类型边界未决623）；另有25个候选的主决定与外部来源对齐行值不同，按来源语义核对，不直接视为身份冲突。S4已映射1,925/5,070条new候选，待映射3,145条，其中1,419条为直接关系端点。S5字段12,882条（1,634条unverified）。S6累计裁决956/10,529条关系候选（595 formal、265 pending、96 rejected），尚余9,573条；relations.csv有1,823条关系（1,810 formal、13 pending）。另有340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided；严格审计pending=0）。S2独立复核尚未接收，S3–S6未全书收口，S7未启动；知识发现与页面仍等待明确启动。
 
-**后续工作规划入口：** 当前全书状态后的规划列出队列规模、依赖顺序和阶段完成条件；本轮优先围绕关系端点推进S3身份裁决、S4登记及同批S5/S6，避免把机械覆盖率当作语义收口。
-**提速方式：** 同批只读一次来源页，合并跨章身份判断、S4映射、必要S5和S6裁决；脚本用于分组定位、结构计数与局部校验，卡片只渲染受影响对象，里程碑再做全量门禁。分阶段报告证据状态，不合并成单一项目百分比。
+**后续工作规划：**
+
+1. **S4直接端点优先：** 在5,070条new映射中还有3,145条待登记，其中1,419条直接关系端点。按同章页组和跨章书目／人物组批次处理；每批先完成身份分组，再登记KU和卡片，不重复打开已有same决定。
+2. **同批收口S6：** 当前尚有9,573项关系候选未裁决。优先处理端点已齐且有明确来源定位的 `cites`、书信往来、作品作者／委托等候选；每项明确为formal、复用、pending或rejected。缺端点对象进入backlog，补证后再登记，不写空端点。
+3. **证据定向补S5：** 先处理直接关系端点和影响关键关系解释的字段；每条保留来源、位置和核验状态。当前全局字段预览存在范围外变更与来源状态降级，先隔离并解决该差异，再批量应用，不能用全库写回来换速度。
+4. **继续分章S2独立语义复核与修订：** 以当前statement ID和来源版本核平台账；新增statement只进入分母，只有实际逐条复核后才增加分子。未解决事实、身份和类型边界继续保留明确待证理由。
+5. **受触发才重开S3：** 仅当登记发现身份冲突、出现新来源证据或跨章对象边界改变时重开相关候选；其他候选按现有决定前进。
+6. **S7门槛：** 待S4、S5、S6各自达到可交接状态并完成相应核对后再准备发布；知识发现与页面仍暂停，需用户明确启动。
+
+**提速方式：** 按同一来源页、脚注组和跨章身份组一次阅读、一次裁决；只渲染实际受影响卡片，里程碑再运行全库门禁。分别报告覆盖数、语义未决和待证项，不把它们折成单一项目百分比。
 
 本轮完成第15章p.365–366与第21章p.435的跨章端点批次：`cand-11526`由`undecided`改为`same`并复用Radicchio 1786 archive；Azzo人物`cand-0981`与Subleyras计划图稿组`cand-10494`依据来源语境改判`new`。新增7个KU及7条new候选映射，新增2条S2关系断言；修正Piranesi版画候选名，不再把1786年误赋给版画。新增27条Haskell来源字段；14条相关S6候选逐项裁为9 formal、5 pending。14张相关卡片定向渲染及复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断检查均为0。新增2条S2 statement尚未独立复核。详见[第15章跨章裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp15-p365-p366-20261023)。
 
