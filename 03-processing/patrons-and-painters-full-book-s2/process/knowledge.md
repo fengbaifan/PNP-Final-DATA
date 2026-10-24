@@ -13116,3 +13116,59 @@ note 1 的 Pascoli 引注属于相邻 Canini 讨论，不纳入本批 Altieri �
 `build_field_facts.py`正式接口预览并应用21条字段，新增`enr-16920`–`enr-16940`，warnings=0。`build_cards.py --render`定向作用于8张新卡与4张既有端点卡，共12张、18个字段表、71条字段行及21条关系展示行；首次写入12张并完成写后字节核验，事务恢复快照已清理。复执行相同定向渲染后`files_to_write=0`。
 
 批后严格表审计：`kus=2781`、候选12,418、alignment rows 12,759、待S4登记3,078、关系表1,874（1,859 formal、15 pending）、S5字段13,026（1,634 unverified）、S2 statements 15,318、mentions 26,774、`s2_missing=[]`、`errors=[]`。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S3主决定仍为same=2,048、new=5,068、conflict=9、excluded=102、undecided=5,191。S6累计1,081/10,538（643 formal、333 pending、105 rejected），余9,457项未裁决。S2独立复核记录分子仍为9,617，未接收且待台账核平。上述机械审计不构成全书语义验收或S3–S6收口。
+
+<a id="s3-s4-s5-s6-chp7-p193-198-direct-endpoints-20261024"></a>
+### S3沿用／S4直接关系端点登记／S5补足／S6逐项裁决：第7章 pp.193–198（2026-10-24）
+
+本批沿用10个既有S3 `new`候选组，登记8个archive、2个work；另登记既有 `cand-1342`（Thomas Killigrew）的来源局部person组，为肖像描绘对象关系补齐端点。没有重开这些候选的S3身份决定，也没有加入外部身份核验。
+
+| candidate_id | S3身份组 | KU | 依据与边界 |
+|---|---|---|---|
+| `cand-7250` | `archive-group-fad2b6785931` | `units/archives/von-holst-pittura-veneziana-reno-neva-1951` | 第21章书目印刷页426及第7章p.193注1；论文和p.132未独立查阅。 |
+| `cand-7252` | `archive-group-2333d87ba012` | `units/archives/heilbronner-arte-italiana-mondo-1936` | 第21章书目印刷页425及第7章p.193注3；论文和pp.887–904未独立查阅。 |
+| `cand-7253` | `archive-group-e96d417e186f` | `units/archives/von-freeden-quellen-barocks-franken-schoenborn-1955` | 第21章书目印刷页422及第7章p.194注3；书目保留 I. Teil, zweiter Halbband。 |
+| `cand-7254` | `archive-group-705356d6ce02` | `units/archives/brett-third-earl-shaftesbury-1951` | 第21章书目印刷页417及第7章p.198注3；书与p.38未独立查阅。 |
+| `cand-7255` | `archive-group-89c1070aa290` | `units/archives/vertue-notebooks-walpole-society-1930-1955` | 第21章书目印刷页439及第7章p.198注1；书目区分六卷与另列索引，不称七卷本。 |
+| `cand-7260` | `archive-group-758b8ebd4760` | `units/archives/honour-english-patrons-italian-sculptors-1958` | 第21章书目印刷页426及第7章p.197注6；论文和pp.220 ff.未独立查阅。 |
+| `cand-7262` | `archive-group-1c78e0c55f2c` | `units/archives/gennari-raccolta-memorie-ms-b344` | 第7章p.196注1只支持题名、MS B.344、来源所列保管机构及影印件说明；不推断作者或稿件内容。 |
+| `cand-7265` | `archive-group-6fe9be2f1018` | `units/archives/croce-shaftesbury-in-italia-1927` | 第21章书目印刷页420及第7章p.198注6；再版论文和所引页未独立查阅。 |
+| `cand-7269` | `workgrp-3f4eed0a1ba762` | `units/works/portrait-thomas-killigrew-canini-1651` | 第7章p.197正文和注2；题名为描述性工作题名，不映射至某一图版。 |
+| `cand-7270` | `workgrp-aae9f8afeca1b9` | `units/works/james-altham-as-hermit-salvator-rosa-1665` | 第7章p.197正文和注2；Bankes Collection保留为另一个身份／类型未决候选。 |
+| `cand-1342` | `new-person:killigrew-thomas-b439c4a7d3` | `units/persons/thomas-killigrew` | 索引全名及第7章p.197正文／注2为书内身份锚点；未补写生平或外部身份。 |
+
+#### S2原子化补足与待证对象
+
+第7章p.197正文L65称 Thomas Killigrew、James Altham 等游客各有由重要画家绘制的肖像；注2 L109列出 Killigrew 与 Altham 肖像的描述。新增两条 `has_subject` relation-candidate statements（`st-chp7-p197-killigrew-portrait-has-subject`、`st-chp7-p197-altham-portrait-has-subject`），分别将作品候选连接到Thomas Killigrew和已登记的James Altham。两条均保留正文statement与注2的来源链接；新增statement未独立复核，也未增加mention。当前工作只识别描绘对象，不据图版30a、30b、31a建立一一对应。
+
+候选 `cand-7271` Bankes Collection在注2中仅以名称出现，不能据此确定具体Bankes家族、收藏实体、保管机构或现今地点；保持S3 `undecided`，以 `bl-0033` 登记类型和身份缺口，不建立所有权或当前位置关系。群体层statement `st-chp7-p197-tourist-portrait-examples` 仍待S6：Haskell没有逐人对应Rome、Naples、Florence或图版号。
+
+#### S5来源字段
+
+10张archive/work卡共提取57条Haskell原书支持字段，均为 `source_backed`，无新增 `unverified`。字段只记录书目题名、责任者形式、刊本信息、引注定位，以及Haskell对肖像的描述、归属、年代和Bankes Collection记载；所引出版物、原稿和页码均未独立查阅。
+
+#### S6逐项裁决
+
+12项直接关系候选均有明确去向并登记为formal。8条 `cites` 只表示Haskell书内引注；2条作品作者边用 `created_by` 保留Haskell的来源归属，不表示外部核验；2条 `has_subject` 只记录Haskell所称描绘对象。
+
+| statement_id | 决定与关系 |
+|---|---|
+| `st-chp7-p193-n1-von-holst` | formal `rel-1894 cites`；第7章p.193注1，p.132定位；被引页未读。 |
+| `st-chp7-p193-n3-cite-heilbronner` | formal `rel-1895 cites`；第7章p.193注3，pp.887–904定位；被引文献未读。 |
+| `st-chp7-p194-n3-cite-von-freeden` | formal `rel-1896 cites`；第7章p.194注3；来源仅提供书目身份。 |
+| `st-chp7-p198-n3-brett` | formal `rel-1897 cites`；第7章p.198注3，p.38定位；被引页未读。 |
+| `st-chp7-p198-n1-vertue` | formal `rel-1898 cites`；第7章p.198注1，卷II、p.132定位；被引页未读。 |
+| `st-chp7-p197-n6-monnot-tomb-citations` | formal `rel-1899 cites`；第7章p.197注6，pp.220 ff.定位；被引文献未读。 |
+| `st-chp7-p196-n1-gennari-evidence` | formal `rel-1900 cites`；仅记录Haskell所列手稿引注及架号。 |
+| `st-chp7-p198-n6-shaftesbury-citations` | formal `rel-1901 cites`；只记录Haskell对Croce论文的引注。 |
+| `st-chp7-p197-n2-killigrew-portrait` | formal `rel-1902 created_by`；Canini、1651为Haskell来源归属和年代。 |
+| `st-chp7-p197-n2-altham-portrait` | formal `rel-1903 created_by`；Rosa、1665为Haskell来源归属和年代。 |
+| `st-chp7-p197-killigrew-portrait-has-subject` | formal `rel-1904 has_subject`；Thomas Killigrew为Haskell所称描绘对象。 |
+| `st-chp7-p197-altham-portrait-has-subject` | formal `rel-1905 has_subject`；James Altham为Haskell所称描绘对象。 |
+
+新增S6决定12项均formal，无新增pending或rejected；所有正式边均有S2 statement、候选端点、来源位置和语境范围。
+
+#### 卡片投影与批后核验
+
+57条字段经 `build_field_facts.py` 定向预览／应用，warnings=0。11张新卡与Patrons and Painters、Canini、Rosa、James Altham四张受影响旧卡共15张定向渲染并完成写后字节核验；同范围复预览 `files_to_write=0`。全库只读预检显示575张卡存在待渲染差异；本批未全库写回。
+
+批后 `audit_tables.py --strict-stage --summary`：`kus=2805`、`candidates=12424`、`alignments=12766`、`alignment_new_pending_registration=3055`、`candidate_backlog_rows=33`（pending=0）、`relations=1905`（1,890 formal、15 pending）、`enrichment_rows=13119`（1,634 unverified）、`book_statements=15328`、`mentions=26779`、`s2_missing=[]`、`errors=[]`。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另有1,365个孤立KU及2个超过50条关系的对象供后续语义核查。S6累计逐项裁决1,153/10,543（674 formal、372 pending、107 rejected），余9,390条。S2独立复核分子仍为9,617，按statement ID和来源版次核平前不视为接收或确定完成比例。

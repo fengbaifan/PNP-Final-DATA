@@ -71,4 +71,10 @@ This card represents the person grouped under index entry C.csv#54. Giovanni Ang
 
 ## 关系与证据
 
-本轮只登记人物身份；以下 5 条直接 S2 `relation_candidate` 保留待 S6，未新增正式关系：st-chp6-p154-canini-and-gaulli-palace-works, st-chp6-p161-canini-faithful-pupil-of-domenichino, st-chp6-p161-canini-protege-of-bellori, st-chp6-p161-christina-patronizes-canini-with-bellori-guidance, st-chp7-p197-n2-killigrew-portrait。
+本轮另裁决 Killigrew 肖像的来源归属，新增 formal `created_by` 边 rel-1902；以下4条直接 S2 `relation_candidate` 仍待 S6：st-chp6-p154-canini-and-gaulli-palace-works, st-chp6-p161-canini-faithful-pupil-of-domenichino, st-chp6-p161-canini-protege-of-bellori, st-chp6-p161-christina-patronizes-canini-with-bellori-guidance。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [托马斯·基利格鲁肖像（Portrait of Thomas Killigrew）](../works/portrait-thomas-killigrew-canini-1651.md) | Haskell book evidence only; any cited external work or page remains unconsulted as stated.；时间：1651；角色：Haskell-reported painter attribution；范围：Haskell p.197 n.2 reports the attribution to Giovanni Angelo Canini and the date 1651; the attribution is recorded as Haskell’s source report, not independently authenticated. The cited Vertue, vol. I, p.114 was not consulted.；原断言与证据见发出端卡片“托马斯·基利格鲁肖像（Portrait of Thomas Killigrew）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_iv.md)；haskell-1980-rev-ed；Chapter 7, printed p.197, footnote 2, line 109; PDF physical p.35; S2 statement: st-chp7-p197-n2-killigrew-portrait |

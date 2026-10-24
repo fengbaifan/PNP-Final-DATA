@@ -65,4 +65,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 st-chp7-p197-tourist-portrait-examples、st-chp7-p197-n2-altham-portrait 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [詹姆斯·阿尔瑟姆扮作隐士（James Altham as a Hermit）](../works/james-altham-as-hermit-salvator-rosa-1665.md) | Haskell book evidence only; any cited external work or page remains unconsulted as stated.；角色：depicted person identified by Haskell；范围：Haskell’s p.197 body says James Altham had his portrait painted; linked note 2 identifies the corresponding portrait description. This relation records the depicted-person identification only; cited material was not independently consulted and no plate-to-sitter mapping is inferred.；原断言与证据见发出端卡片“詹姆斯·阿尔瑟姆扮作隐士（James Altham as a Hermit）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_iv.md)；haskell-1980-rev-ed；Chapter 7, printed p.197, body line 65 and footnote 2 line 109; PDF physical p.35; S2 statement: st-chp7-p197-altham-portrait-has-subject |
+
+本批将 Altham 肖像的来源归属登记为 formal `created_by` 边 rel-1903，并登记描绘对象关系 rel-1905。群体层 statement `st-chp7-p197-tourist-portrait-examples` 仍待 S6：Haskell 未把三位游客分别对应到罗马、那不勒斯、佛罗伦萨或图版30a、30b、31a。Bankes Collection 的候选 cand-7271 类型与身份仍未决，见本批待证记录。
