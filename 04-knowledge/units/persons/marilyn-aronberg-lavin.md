@@ -45,4 +45,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《17世纪巴贝里尼文献与艺术品清单》（Seventeenth-Century Barberini Documents and Inventories of Art）](../archives/lavin-barberini-documents-inventories-1975.md) | S2 bibliographic entry st-chp21-bib-l658-699-entry-09 names Marilyn Aronberg Lavin as author; cited publication not independently consulted.；角色：author；范围：Haskell bibliography, printed p.427; source-level attribution only.；原断言与证据见发出端卡片“《17世纪巴贝里尼文献与艺术品清单》（Seventeenth-Century Barberini Documents and Inventories of Art）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；lines 670–671; printed p.427; bibliographic entry |
+
 本任务未新增正式关系。直接S2关系候选`st-chp2-seciv-l139-152-lavin-publishes-barberini-inventories`留待S6逐条裁决。

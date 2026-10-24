@@ -89,6 +89,7 @@ relations:
 |---|---|---|
 | → 隶属／任职于（`member_of`） | [美国艺术与科学院（American Academy of Arts and Sciences）](../institutions/american-academy-of-arts-and-sciences.md) | 时间：1969；角色：当选成员；范围：成员目录Elected1969；不据此指定Columbia任期；证据：[来源](https://www.amacad.org/person/howard-hibbard)；src-0fd5028d6ce7d489；完整人物字段：姓名、生卒、机构、学科、当选年；页面更新2025-04 |
 | ← 贡献者（`contributor_to`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：纠错建议；范围：第二版序言感谢其指出书中错误；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_02_Preface_2nd_Ed.md)；haskell-1980-rev-ed；lines 12–12; 章前：第二版序言；印刷页vi；PDF 4 |
+| ← 所著文献（`author_of`，反向投影） | [《卡洛·马代尔诺与罗马建筑 1580–1630》（Carlo Maderno and Roman Architecture 1580–1630）](../archives/hibbard-carlo-maderno-and-roman-architecture-1580-1630.md) | Haskell calls it Howard Hibbard’s monograph and the bibliography lists Hibbard, H. with the matching title; no independent consultation of the monograph.；角色：author；范围：The monograph on Carlo Maderno cited by Haskell; bibliography title matched at p.425.；原断言与证据见发出端卡片“《卡洛·马代尔诺与罗马建筑 1580–1630》（Carlo Maderno and Roman Architecture 1580–1630）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；line 12; printed p.396; see also Chapter 21 bibliography line 612, printed p.425 |
 
 ### 关系候选入口
 

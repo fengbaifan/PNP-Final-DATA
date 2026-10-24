@@ -1,4 +1,32 @@
-# 全书 S3 身份对齐过程
+﻿# 全书 S3 身份对齐过程
+
+<a id="s3-s4-s5-s6-chp20-p396-archives-cross-chapter-20261025"></a>
+### 第20章后记与第21章书目跨章出版物端点（2026-10-25）
+
+**触发与 S3/S4。** 本批从已判 new 且直接进入关系候选的 archive 端点中登记五项：cand-5163（Hibbard, *Carlo Maderno and Roman Architecture 1580–1630*）、cand-10852（Fagiolo/Carandini, *L’Effimero Barocco*）、cand-10853（Marilyn Aronberg Lavin, *Seventeenth-Century Barberini Documents and Inventories of Art*）、cand-10860（Irving Lavin, *Bernini and the Crossing of Saint Peter’s*）及 cand-11464（Haskell 本书初版指称）。前四项沿用各自现有 archive-group-*；初版只记录 p.396 对版本的指称，不补出版年、出版地或版本细节。
+
+为完成必要的作者字段与对应身份入口，沿用 cand-10850 的既有 S3 new 组 new-person:arca-dell-fagiolo-5eee8da370，以第21章书目 p.421 将展示名补为 Maurizio Fagiolo dell’Arca，并登记人物卡。cand-10851 由 undecided 改为来源限定 new 组 new-person:silvia-carandini-ba4a88ae04：p.418 作者交叉索引及 p.421 联合书目给出 Silvia Carandini 全名；该姓名足以建立本书中的合作者身份，不并入索引中的 Camillo 或 Elisa Carandini，也不声称外部身份已核验。cand-4872 由 undecided 改为 same → units/persons/howard-hibbard：第20章 p.396 称 Howard Hibbard 的 Carlo Maderno 专著，第21章 p.425 列出匹配的 H. Hibbard 1971 书目项，与第2章 p.47 注5的简称相合。此为本次档案登记触发的定点 S3；其余未因本批触发的 S3 决定不重开。
+
+S4 共新增7个 KU（5 archive、2 person）及7条 new 映射；另将 cand-4872 的 same 候选指向现有人物 KU。题名、责任者和出版信息仅按 Haskell 后记与第21章书目记录；未查阅被引出版物原文。
+
+**S5。** 新增18条 source_backed 结构字段：五张 archive 卡16条书目身份字段，Fagiolo 与 Carandini 人物卡各1条全名字段。Hibbard 题名的年份范围按印刷页图像校读为1580–1630；Fagiolo 题名的 OCR 字符按印刷页校读为 L’Effimero 与 ’600。未补被引书的内容、ISBN、出版者或外部标识；Haskell 本书初版日期与刊记继续未定。
+
+**S6 逐项裁决。** 五条 relation_candidate=true 的 S2 statement 全部有去向：
+
+| S2 statement | 决定 | 理由／正式边 |
+|---|---|---|
+| st-chp20-p396-fagiolo-carandini-study | formal rel-1951 has_subject | Haskell 明说研究涉及“the city”（Rome）中的17世纪节庆；边的 scope 限为研究所涉罗马节庆，不代表该研究覆盖罗马所有主题。 |
+| st-chp20-p396-lavin-barberini-inventory-publication | formal rel-1952 has_subject | Haskell 明说该出版物刊出巴贝里尼家族成员的清单，并讨论家族赞助与收藏；不把出版物与清单原件合并。 |
+| st-chp20-p396-first-edition-corsini-portrait | pending（过程级） | 版本指称已登记，但目标 cand-10857 仍为未识别的 Corsini 肖像候选；待出现能识别该具体图像的来源证据后再重开。 |
+| st-chp20-p396-hibbard-maderno-monograph | formal rel-1953 has_subject | Haskell 明说专著讨论 family palace 的起源；沿用 cand-0240 的既有 S3 same → Palazzo Barberini。 |
+| st-chp20-p396-lavin-bernini-crossing-open | pending（过程级） | 关系端点 cand-10861 的地点身份及交叉部空间范围仍未定；待来源支持准确地点/空间端点后再裁决。 |
+
+另据第21章书目责任者字段及 p.396“本书初版”上下文，反查并新增6条 formal authored_by 边 rel-1945–rel-1950（共同作者各一条）；这些结构性书目记录的 S2 标记仍为 relation_candidate=false，故不计入上述 10,559 条 S2 关系候选队列分母。书目边仅表示 Haskell 的著录/叙述，不表示被引作品已独立阅读。两条 pending 留在本过程记录，不写占位关系行。
+
+**呈现与核查。** 五张新 archive 卡、两张新人物卡及七张既有端点卡共14张，逐卡预览后定向渲染；预检 `cards=14`、`projected_relation_rows=84`、`files_to_write=14`，写后字节核验通过，14/14 张卡复预览均无差异。全库 `--check` 显示另有578张卡待投影更新；本批未执行全库渲染。严格表审计结果为 KU=2,862、S4待登记 `new` 映射=2,996、S5字段=13,195（1,634 `unverified`）、relations.csv=1,953（1,929 formal、24 pending）、S2 statements=15,343、mentions=26,781，`s2_missing=[]`、`errors=[]`。关系一致性：`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。S2 statements/mentions 未变，独立复核分子不增加。
+
+---
+
 
 <a id="s3-s4-s6-ch9-p252-vendramin-cycle-20261024"></a>
 ### 第9章 p.252 Palazzo Vendramin-Calergi 组画端点（2026-10-24）

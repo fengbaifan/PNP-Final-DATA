@@ -48,7 +48,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《贝尔尼尼与圣彼得大教堂交叉部》（Bernini and the Crossing of Saint Peter’s）](../archives/lavin-bernini-crossing-st-peters-1968.md) | S2 bibliographic entry st-chp21-bib-l658-699-entry-07 names Irving Lavin as author; cited publication not independently consulted.；角色：author；范围：Haskell bibliography, printed p.427; source-level attribution only.；原断言与证据见发出端卡片“《贝尔尼尼与圣彼得大教堂交叉部》（Bernini and the Crossing of Saint Peter’s）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；line 668; printed p.427; bibliographic entry |
+
 
 ### 关系候选入口
 

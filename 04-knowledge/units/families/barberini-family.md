@@ -47,3 +47,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ### 本书语境
 
 第1章第15页以 Barberini 作为统治家族及大规模赞助能力的例子。索引候选与该正文候选指向同一集体家族；它与类型为 institution 的 Barberini household KU 分开记录。
+
+## 关系与证据
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [《17世纪巴贝里尼文献与艺术品清单》（Seventeenth-Century Barberini Documents and Inventories of Art）](../archives/lavin-barberini-documents-inventories-1975.md) | S2 statement st-chp20-p396-lavin-barberini-inventory-publication; records Haskell’s description of the publication, distinct from the underlying inventories.；范围：Haskell describes the publication as covering inventories of Barberini family members and their patronage and collecting.；原断言与证据见发出端卡片“《17世纪巴贝里尼文献与艺术品清单》（Seventeenth-Century Barberini Documents and Inventories of Art）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；line 9; printed p.396 |
