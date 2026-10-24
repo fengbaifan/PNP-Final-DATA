@@ -1,5 +1,14 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-person-giampietro-zanotti-ch7-ch8-ch14-20261024"></a>
+### S3人物身份跨章归组：G. P. Zanotti（2026-10-24）
+
+`cand-7114`（`aln-7290`）在第7章 pp.189、192、194，第8章 pp.223–225、239及第14章 p.349 反复以 Zanotti／G. P. Zanotti 出现。第7、8章脚注引用 Zanotti《Storia dell’Accademia Clementina》卷I、II；第14章将一封1735年信件归于 G. P. Zanotti。该候选沿用一个跨章人物锚点，不把同姓的其他人物或书目对象合并。
+
+查阅 Treccani《意大利人传记辞典》Giampietro Zanotti Cavazzoni 条目（https://www.treccani.it/enciclopedia/giampietro-zanotti-cavazzoni_(Dizionario-Biografico)/，访问日期2026-10-24）。条目明确称他著有两卷本《Storia dell’Accademia Clementina di Bologna》（1739），与本书脚注的卷次和作品相合；并说明 Eustachio 是其子。因此 `cand-7114` 从 `undecided` 改为 `new`，建立身份组 `new-person:giampietro-zanotti-cavazzoni-32c6552065`，不映射到既有 Eustachio Zanotti KU。主决定行和 Treccani 外部来源行分别保留身份去向与来源记录，访问日期为2026-10-24。书中所引页及1735年信件内容未独立阅读；本裁决不扩展生平或其他内容事实。
+
+本批仅完成 S3 身份决定，尚未登记 S4 KU；涉及该候选的 S6 关系继续依其端点和谓词证据另行裁决。
+
 <a id="s3-s4-s5-s6-chp4-p106-p113-endpoints-20261024"></a>
 ### 跨章身份分组／S2定向修订／S4登记／S5字段／S6逐项裁决：第4章 pp.106、113（2026-10-24）
 
