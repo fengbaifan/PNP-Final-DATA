@@ -13927,4 +13927,29 @@ Haskell来源卡和六张新卡逐卡预览后定向渲染；写后字节核验�
 
 批后状态：S2统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision不一致项；S4已映射2,103/5,078、待登记2,975，KU=2,887；S5=13,301（1,634 unverified）；S6已裁决1,296/10,564（736 formal、450 pending、110 rejected），余9,268。relation_candidate语句涉及的去重端点中，决定一致为new且尚无KU的候选为1,260；另有337条语句至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。本批不是S2接收，也不表示S3–S6全书收口；S7仍未启动，知识发现与页面继续暂停。
 
-下一步先处理仍未登记且直接承载书内关系的明确new候选，例如 cand-6352（第6章 Portoghesi 1955书目／引注端点），每批同时完成相应S4、来源可支持的S5及已有S2候选的S6；遇到身份或端点不明则保留 undecided／pending 和待办。随后按候选类型核平26个跨来源decision差异及S3未决项；同时继续按章推进S2独立语义复核，并定点处理337条缺候选端点ID语句。S5只补有明确证据的字段，S6逐条裁决，不以端点数量替代语义判断。S7须等S4–S6具备正式收口条件后再启动；Topic/Theme/Dimension/Domain发现及页面仍需用户明确启动。
+下一步从剩余的S4直接关系端点队列中选择有明确信息与S2关系锚点的候选，继续同批处理S4、来源支持的S5和相关S6；同步推进337条缺少S2端点候选ID的定向待办与逐章S2独立语义审读。S3仅按当前登记或新证据触发复核。全库卡片预检仍有563个投影文件待写，不能据本批定向渲染声称全库卡片投影均已同步。
+
+<a id="s4-s5-s6-ch6-p148-portoghesi-lateran-basilica-1955-20261025"></a>
+### S4/S5/S6：第6章 p.148 注1 Portoghesi 1955（2026-10-25）
+
+#### S3/S4身份与登记
+
+沿用 `cand-6352` 的既有S3 `new`决定和身份组 `archive-group-160524570a11`，不重开S3。第21章书目（印刷页434，Markdown L995，PDF物理页24）与第6章注1（印刷页148，Markdown L122，PDF物理页3）共同支持该书目文章身份；将 `aln-6531` 映射到 `units/archives/portoghesi-monumenti-borrominiani-basilica-lateranense-1955`。书目没有页码范围，未补页码；文章正文与被引页未独立查阅。
+
+#### S5字段
+
+新增五条 `source_backed` 书目字段 `enr-17216`–`enr-17220`：原题名 *I monumenti borrominiani della Basilica Lateranense*、责任者形式 `Portoghesi, P.`、期刊 *Quaderni dell’Istituto di Storia dell’Architettura*、出版年1955、月份 `Luglio`。字段构建器定向预览确认五条均映射至 `haskell-1980-rev-ed`、无 `unverified`、无警告；写入后复预览 `record_changes=0`。
+
+#### S6关系裁决
+
+| 语句／关系 | 决定 | 关系去向与限制 |
+|---|---|---|
+| `st-chp6-notes-l122-p148-n1-portoghesi-citation` | formal | `rel-1988 cites`：Haskell → Portoghesi 1955文章；仅表示第6章注1的书内引注，书目项确认引注对象，不表示文章内容或所引页已独立核验。 |
+| 结构性书目责任关系（非 `relation_candidate` S2关系候选） | formal | `rel-1989 authored_by`：Portoghesi 1955文章 → 书内人物KU Paolo Portoghesi。第21章的 `Portoghesi, P.` 责任者形式、`cand-4325` 在第2章的全名及其第6章引注提及共同支持书内映射；不扩展为外部身份核验，文章未独立查阅。该结构边不计入S6候选分母。 |
+
+#### 渲染、审计与批后状态
+
+新增文章卡、Haskell书目卡与Paolo Portoghesi人物卡共3张定向预览并写回；渲染预检覆盖3张卡、5张表、41行和245个投影关系，写后字节校验通过，三张卡复预览均无待写差异。`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；仍有S4待登记警告。关系一致性检查的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic 均为0。`build_cards.py --check` 全库预检另显示563个卡片文件有待写投影差异；本批只同步三张直接受影响卡，故全库投影仍未核平。
+
+批后：S2仍为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,104/5,078、待登记2,974，其中1,259个关系端点候选的对齐决定一致为 `new` 且尚无KU；KU=2,888。S5字段13,306条（1,634 `unverified`）；S6已裁决1,297/10,564（737 formal、450 pending、110 rejected），余9,267；`relations.csv`共1,989条（1,964 formal、25 pending）；backlog仍为37条（12 completed、25 undecided，pending=0）。S2复核分子未增加；S3决定未改变。
+，例如 cand-6352（第6章 Portoghesi 1955书目／引注端点），每批同时完成相应S4、来源可支持的S5及已有S2候选的S6；遇到身份或端点不明则保留 undecided／pending 和待办。随后按候选类型核平26个跨来源decision差异及S3未决项；同时继续按章推进S2独立语义复核，并定点处理337条缺候选端点ID语句。S5只补有明确证据的字段，S6逐条裁决，不以端点数量替代语义判断。S7须等S4–S6具备正式收口条件后再启动；Topic/Theme/Dimension/Domain发现及页面仍需用户明确启动。
