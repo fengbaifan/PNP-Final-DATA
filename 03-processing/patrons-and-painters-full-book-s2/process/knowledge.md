@@ -13838,3 +13838,42 @@ Haskell来源卡与两张新archive卡定向预览后渲染；写后复预览3/3
 #### 卡片投影与审计
 
 对两张新信件卡及 Haskell 来源卡预览后定向渲染3张；写后复预览3/3无差异，渲染器的写后字节核验通过。Lumbroso 书目卡预览无差异，无需重渲染。`python scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,873，待 S4 登记=2,987，S5=13,252（1,634 unverified），relations.csv=1,966（1,942 formal、24 pending），S2=15,343 statements／26,787 mentions，`s2_missing=[]`、`errors=[]`。关系一致性审计的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。S2独立复核分子未变；本批不构成 S2 接收或 S3–S6 全书收口。
+
+<a id="s4-s5-s6-chp15-p362-p363-farsetti-citations-20261025"></a>
+### S3/S4/S5/S6：第15章 pp.362–363 Farsetti书目与公证档案端点（2026-10-25）
+
+#### S3跨章身份组与既有决定
+
+本批逐项沿用既有S3 new决定，不重开身份裁决。五项书目候选由第15章引注与第21章书目项交叉锚定；公证文书候选由第15章脚注指向具体馆藏层级定位。六组均为单成员身份组，未将“被同一著作引用”误作对象同一性：
+
+| candidate_id | 既有决定与身份组 | 跨章锚点及登记去向 |
+|---|---|---|
+| cand-10444 | new；archive-group-1c44edc8c88c | 第15章p.362 n.1引P. A. Paravia 1829年小册子；第21章p.433书目L930给出题名及出版项。登记 units/archives/paravia-delle-lodi-farsetti-1829。 |
+| cand-10447 | new；archive-group-38be94a37566 | 第15章p.362 n.1引Giovanni Sforza 1911年文章；第21章p.437书目L1106–1107给出题名、期刊、卷次与页码。登记 units/archives/sforza-testamento-bibliofilo-farsetti-1911。 |
+| cand-10451 | new；archive-group-62a12f72e13a | 第15章p.363 n.1引De Tipaldo 1833年出版物；第21章p.438书目L1165–1166给出独立书目项。与同页另列的多卷本Biografia区分。登记 units/archives/tipaldo-descrizione-villa-sala-mircovich-1833。 |
+| cand-10452 | new；archive-group-e402f6c3b729 | 第15章p.363 n.1引Mazzotti 1954年出版物p.133；第21章p.429书目L791给出题名、第三版及出版项。扫描页读作Mazzotti，OCR作Mazzetti；沿用扫描页校读。登记 units/archives/mazzotti-le-ville-venete-catalogo-1954。 |
+| cand-10453 | new；archive-group-a107643fd9ae | 第15章p.363 n.3直接指向Archivio di Stato, Venice, Sezione Notarile, Lodovico Gabrieli—Atti 7567, p.788v, 11 April 1764。扫描页读数及S2 OCR更正已经记录；未查阅公证原件。登记 units/archives/atti-lodovico-gabrieli-7567-1764-04-11。 |
+| cand-10454 | new；archive-group-8692b06bb5a8 | 第15章p.363 n.4引Malamani, Canova, p.6；第21章p.428书目L738给出作者形式、题名、Milano及n.d.。末尾短横线不作出版数据。登记 units/archives/malamani-canova-milano-nd。 |
+
+#### S4登记与S5字段
+
+六个既有身份组分别登记为archive KU，更新 accepted.yml、ku-manifest.csv 及对应 alignment.csv 映射。字段表定向预览后新增29条Haskell书内 source_backed 字段（enr-17172–enr-17200），涉及书目责任者、原题、出版项、版次、刊物卷页、引注页码及公证文书定位；0条新增 unverified。字段只记录Haskell的书目和引注形式，不表示已独立查阅被引书刊或档案原件，也不验证其内容。
+
+#### S6逐条裁决
+
+六项S2关系候选均为Haskell明确的书内引注，受控谓词 cites 与archive→archive域值相容；逐条裁为formal：
+
+| statement_id | 决定 | 关系记录 | 证据范围 |
+|---|---|---|---|
+| st-chp15-p362-note1-paravia-pamphlet | formal | rel-1973 cites：Haskell → Paravia 1829 pamphlet | 第15章p.362 n.1 L44；只记录引注，不验证小册子内容。 |
+| st-chp15-p362-note1-sforza-article | formal | rel-1974 cites：Haskell → Sforza 1911 article | 第15章p.362 n.1 L44；不把Haskell对文章内容的介绍作为独立核验。 |
+| st-chp15-p363-note1-life-citations | formal | rel-1975 cites：Haskell → De Tipaldo 1833 publication | 第15章p.363 n.1 L46；被引出版物未独立查阅。 |
+| st-chp15-p363-note1-mazzotti-citation | formal | rel-1976 cites：Haskell → Mazzotti 1954 catalogue | 第15章p.363 n.1 L46；p.133未独立查阅。 |
+| st-chp15-p363-note3-archival-act | formal | rel-1977 cites：Haskell → Gabrieli Atti 7567 | 第15章p.363 n.3 L47；津贴内容仍为Haskell报告，公证原件未查阅。 |
+| st-chp15-p363-note4-malamani-canova | formal | rel-1978 cites：Haskell → Malamani, Canova | 第15章p.363 n.4 L48；p.6未独立查阅。 |
+
+#### 卡片投影与审计
+
+Haskell来源卡和六张新卡逐卡预览后定向渲染；写后字节核验通过，复预览7/7无差异。严格表审计 scripts/audit_tables.py --strict-stage --summary 退出码0：KU=2,881，候选=12,426，待S4登记=2,980，relations.csv=1,978（1,954 formal、24 pending），S5字段=13,286（1,634 unverified），S2 statements=15,348、mentions=26,787，s2_missing=[]、errors=[]。关系一致性审计 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic=0。git diff --check退出码0。
+
+批后S2统一独立复核仍为9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,076、conflict=9、excluded=103、undecided=5,184；S4已映射2,096/5,076条new；S6已裁决1,291/10,564（732 formal、449 pending、110 rejected），余9,273；candidate-backlog.csv仍为36条（12 completed、24 undecided，严格审计pending=0）。依据relation_candidate语句的去重端点候选ID重算，未映射new关系端点为1,263；批前基线为1,269，较旧结果摘要所记1,268校正一项计数。S2 statement与mention未变，本批不构成S2接收或S3–S6全书收口。
