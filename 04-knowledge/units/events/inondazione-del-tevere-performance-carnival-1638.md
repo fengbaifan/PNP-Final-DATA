@@ -49,4 +49,13 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-暂无已登记的正式关系。
+### 身份与外部链接
+
+未登记外部身份标识。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← performance_of（`performance_of`，反向投影） | [《台伯河洪水》（L’Inondazione del Tevere）](../works/inondazione-del-tevere-bernini-play.md) | The event is the 1638 performance, not the play itself.；时间：1638年狂欢节期间；角色：演出作品；范围：作品与该次演出是不同对象；Haskell称该剧于此时上演。；原断言与证据见发出端卡片“《台伯河洪水》（L’Inondazione del Tevere）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p.58, L185–186; statements=st-chp2-seciv-l181-188-inondazione-performed-carnival-1638 |
+| → 发生于（`occurred_at`） | [贝尔尼尼自宅外临时剧场（Provisional Theatre outside Bernini’s House）](../places/bernini-provisional-theatre-outside-house.md) | The venue is established contextually in the same sentence; no exact address is inferred.；时间：1638年狂欢节期间；角色：演出场所；范围：“Here”回指Bernini在自宅外搭建的临时剧场；具体宅邸与演出空间位置未明。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p.58, L185–186; statements=st-chp2-seciv-l181-188-inondazione-performance-at-provisional-theatre |

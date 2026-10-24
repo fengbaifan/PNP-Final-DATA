@@ -1,5 +1,12 @@
 ﻿# 规则变更日志
 
+## 2026-10-25
+
+### 为剧目、演出与临时场所补充关系表达
+
+为第2章 p.58 的有据关系新增 directed_by／director_of、has_performance／performance_of、inspired_by／inspiration_for，分别表达导演、剧目与演出、作品受事件启发；将 erected_by／erector_of 的场所端点纳入域值域。关系仍须逐条以原文和可识别端点支持。过程依据见 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p58-inondazione-20261025。
+
+
 > 治理日志已冻结归档：`user-revisions.md` 与 `system-upgrade-log.md` 自 2026-09-25 起只读，不再追加。
 > 此后的规则与系统变更只记在这里，按时间倒序；`current-requirements.md` 仍索引有效要求。
 

@@ -35,4 +35,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-暂无已登记的正式关系。
+### 身份与外部链接
+
+未登记外部身份标识。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← inspiration_for（`inspiration_for`，反向投影） | [《台伯河洪水》（L’Inondazione del Tevere）](../works/inondazione-del-tevere-bernini-play.md) | Preserves the source's relative date and does not infer that the flood was the Tiber.；时间：相对时间：演出前一年；角色：创作灵感来源（Haskell所述）；范围：原文只称“前一年”的一次洪水；未明确河流或精确日期。；原断言与证据见发出端卡片“《台伯河洪水》（L’Inondazione del Tevere）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p.58, L185–186; statements=st-chp2-seciv-l181-188-play-inspired-by-prior-year-flood |

@@ -1867,3 +1867,12 @@ capuchin-introduction-forecast、committee-lists-amended、committee-preferred-o
 ### 2026-10-23定向增补后的复核计数
 
 在上述复核之后，S4/S5/S6跨章批次向第4章印刷页114脚注2新增mention `m-chp4-sec-ii-notes-p114-0056-phocion-title`，并向`book-statements.jsonl`新增statement `st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject`。该条只记录Haskell引注标题中的Phocion，不证明具体作品版本或复制品身份，且尚未独立逐条复核。因此本过程记录的历史复核分子仍为1,082；按当前表内statement计，第4章相应范围为1,082/1,083，新增1条必须在后续复核中单独处理，不能沿用2026-10-20的“未审statement为0”。该项不计入全书统一S2独立复核分子。
+
+## 2026-10-25：第2章 p.58 批次变更后的定向复核边界
+
+原记录对 `chp-2:02_CHP-2_sec_iv:l181-188` 的20条statement复核针对修改前版本。2026-10-25批次后该段共有25条：17条原statement未变；以下3条被修订，另新增5条，需回到第2章印刷p.58（PDF物理p.47）逐条复核后，方可把本段更新纳入独立复核覆盖：
+
+- 修订：`st-chp2-seciv-l181-188-bernini-built-provisional-theatre`（收窄为搭建剧场）；`st-chp2-seciv-l181-188-bernini-wrote-and-directed-play-group`（收窄至导演群体剧目）；`st-chp2-seciv-l181-188-anonymous-spectator-describes-staged-flood`（匿名见证叙述对象改为1638年演出事件cand-4822）。
+- 新增：`st-chp2-seciv-l181-188-bernini-wrote-play-group`、`st-chp2-seciv-l181-188-bernini-often-acted-in-play-group`、`st-chp2-seciv-l181-188-bernini-authored-inondazione`、`st-chp2-seciv-l181-188-bernini-directed-inondazione`、`st-chp2-seciv-l181-188-inondazione-performance-at-provisional-theatre`。
+
+这8条暂不计入统一独立复核分子；S2全库分母因新增5条由15,343增至15,348，现为9,617/15,348（62.66%）。本记录只界定回看范围，不把编辑者自查称为独立复核，也不据此接收S2。

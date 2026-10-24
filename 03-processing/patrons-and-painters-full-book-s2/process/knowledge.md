@@ -13786,6 +13786,29 @@ Haskell来源卡与两张新archive卡定向预览后渲染；写后复预览3/3
 
 批后：S2统一独立复核仍为9,617/15,343（62.68%，未接收）；S3主决定仍为same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186；S4已映射2,086/5,075条new，待登记2,989条，其中1,272个未映射new候选仍触及直接关系端点；KU共2,871。S5为13,243条字段（1,634 `unverified`）；S6已裁决1,272/10,559（718 formal、444 pending、110 rejected），余9,287；`relations.csv`共1,964条（1,940 formal、24 pending）；`candidate-backlog.csv`仍为34条（12 completed、22 undecided，严格审计pending=0）。本批未改变S2独立复核分子，不构成S2接收或S3–S6全书收口。
 
+<a id="s3-s4-s5-s6-chp2-p58-inondazione-20261025"></a>
+### S3/S4/S5/S6：第2章 p.58 临时剧场、Bernini剧目与《L’Inondazione del Tevere》（2026-10-25）
+
+#### S3逐对象裁决与跨章身份分组
+
+| candidate_id | 决定与身份组 | 去向及依据 |
+|---|---|---|
+| `cand-4819` | `undecided` → `new`；`sg3-place-cand-4819` | 登记来源限定的临时剧场地点 `units/places/bernini-provisional-theatre-outside-house`。原文说剧场搭建在Bernini自宅之外；宅邸身份和精确地点不明，不补写地址或存续状态。 |
+| `cand-4821` | 保留 `new`；身份组由archive类型更正为 `work-group-d21473654a30` | 登记 `units/works/inondazione-del-tevere-bernini-play`。这是Bernini创作并执导、1638年狂欢节上演的剧目；与演出事件 `cand-4822`、前一年洪水事件 `cand-4823` 分开。 |
+| `cand-4820` | 保留 `undecided`，类型澄清为work | 泛指剧目组没有可界定的题名或成员清单，无法稳定登记；记入 `bl-0035`，不以新命名把集合范围伪装成已识别作品组。 |
+| `cand-4824` | 保留 `undecided`，archive | 观众见证者及其原始叙述文献未识别。脚注对Fraschetti p.264的指引不足以证明Fraschetti著作就是匿名见证原件；记入 `bl-0036`。 |
+
+#### S2定向修订、S4登记与S5字段
+
+收窄 `st-chp2-seciv-l181-188-bernini-built-provisional-theatre` 的命题范围；将 `st-chp2-seciv-l181-188-bernini-wrote-and-directed-play-group` 限定为导演群体剧目，并保留“written and often acted”作为独立角色断言。将匿名见证statement的对象由错误的S. Alessio景观候选改为演出事件 `cand-4822`。新增5条原子statement：Bernini写作群体剧目、常出演群体剧目、创作具名剧目、执导具名剧目、该剧在临时剧场演出。提及数量不变；这些修改使该段25条statement中有3条修订、5条新增，均须独立复核。
+
+登记临时剧场place卡与具名work卡，写入 `accepted.yml`、`ku-manifest.csv` 并建立2条S4映射。新增5条Haskell书内 `source_backed` 字段 `enr-17167`–`enr-17171`；仅记录原文提供的类型、角色、演出时间/地点和相对洪水时间，不扩展到具体宅邸、洪水河流或存世版本。
+
+#### S6逐条裁决与卡片投影
+
+本批11项S6候选均留下去向：6项formal，新增 `rel-1967`–`rel-1972`（Bernini搭建临时剧场；具名剧目作者与导演；作品与1638年演出事件的关系；作品受前一年洪水启发；演出发生于临时剧场），5项因剧目组范围未界定或匿名见证端点未识别而保持pending，未写缺端点占位关系。关系谓词补入 `directed_by`、`has_performance`、`inspired_by` 及对应逆向类型；`erector_of` 的domain扩至place；版本修订见 `06-runtime/governance/CHANGELOG.md`。
+
+临时剧场、具名剧目、Bernini、1638年演出和前一年洪水5张卡通过定向预检后渲染，写后字节核验及5/5复预览通过。严格表审计 `scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,875，候选=12,426，待S4登记=2,986，backlog=36（pending=0），relations.csv=1,972（1,948 formal、24 pending），S5=13,257（1,634 unverified），S2=15,348 statements／26,787 mentions，`errors=[]`、`s2_missing=[]`。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。S2仍未接收，S3–S6未全书收口。
 <a id="s3-s4-s5-s6-chp2-p59-letters-20261025"></a>
 ### S3/S4/S5/S6：第2章 p.59 两封书信与 Lumbroso 书目跨章端点（2026-10-25）
 

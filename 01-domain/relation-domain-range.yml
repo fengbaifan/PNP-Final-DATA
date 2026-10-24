@@ -1,6 +1,6 @@
-version: 2
-authority: relation-domain-range-v2
-status: draft-v2
+version: 3
+authority: relation-domain-range-v3
+status: draft-v3
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
@@ -36,6 +36,8 @@ domain_range:
   created_by:       {domain: [work], range: [person]}
   creator_of:       {domain: [person], range: [work]}
   designed_by:      {domain: [work], range: [person]}
+  directed_by:      {domain: [work], range: [person]}
+  director_of:      {domain: [person], range: [work]}
   designer_of:      {domain: [person], range: [work]}
   dedicated_by:     {domain: [work], range: [person]}
   dedicated_to:     {domain: [work], range: [person]}
@@ -45,13 +47,14 @@ domain_range:
   employed_by:      {domain: [person], range: [institution, person]}
   entrusted_to_build: {domain: [place], range: [person]}
   entrusted_with_building_of: {domain: [person], range: [place]}
-  erected_by:        {domain: [work], range: [person]}
-  erector_of:        {domain: [person], range: [work]}
+  erected_by:        {domain: [place, work], range: [person]}
+  erector_of:        {domain: [person], range: [place, work]}
   exemplified_by:   {domain: [procedure], range: [event]}
   friend_of:        {domain: [person], range: [person]}
   granted_privilege_to: {domain: [person], range: [institution, person]}
   handled_by:       {domain: [work], range: [institution]}
   has_participant:  {domain: [event], range: [institution, person]}
+  has_performance:  {domain: [work], range: [event]}
   has_subject:      {domain: [archive, event, work], range: [archive, family, institution, person, place, term, work]}
   sent_by:          {domain: [work], range: [person]}
   sender_of:        {domain: [person], range: [work]}
@@ -59,6 +62,8 @@ domain_range:
   honourer_of:      {domain: [person], range: [person]}
   influenced:       {domain: [person, term, work], range: [person, work]}
   influenced_by:    {domain: [person, work], range: [person, term, work]}
+  inspired_by:      {domain: [work], range: [event]}
+  inspiration_for:  {domain: [event], range: [work]}
   installed_at:     {domain: [work], range: [place]}
   intended_for:     {domain: [work], range: [institution, place]}
   intended_site_of: {domain: [place], range: [work]}
@@ -74,6 +79,7 @@ domain_range:
   owned_by:         {domain: [archive, place, work], range: [family, institution, person]}
   parent_of:        {domain: [person], range: [person]}
   part_of:          {domain: [archive, institution, place, work], range: [archive, institution, place, work]}
+  performance_of:   {domain: [event], range: [work]}
   patron_of:        {domain: [person], range: [person]}
   patronized_by:    {domain: [person, work], range: [family, person]}
   pendant_of:       {domain: [work], range: [work]}

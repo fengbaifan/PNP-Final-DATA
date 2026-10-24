@@ -1,4 +1,4 @@
-version: 3
+version: 4
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -37,6 +37,8 @@ types:
   - created_by
   - creator_of
   - designed_by
+  - directed_by
+  - director_of
   - designer_of
   - child_of
   - derived_from
@@ -49,6 +51,7 @@ types:
   - exemplified_by
   - has_subject
   - has_participant
+  - has_performance
   - handled_by
   - handler_of
   - held_by
@@ -62,6 +65,8 @@ types:
   - includes_unit
   - influenced
   - influenced_by
+  - inspired_by
+  - inspiration_for
   - installed_at
   - installation_site_of
   - instantiates
@@ -83,6 +88,7 @@ types:
   - owned_by
   - owner_of
   - parent_of
+  - performance_of
   - participated_in
   - patron_of
   - patronized_by
@@ -176,6 +182,8 @@ inverse:
   created_by: creator_of
   creator_of: created_by
   designed_by: designer_of
+  directed_by: director_of
+  director_of: directed_by
   designer_of: designed_by
   child_of: parent_of
   derived_from: source_of
@@ -200,6 +208,10 @@ inverse:
   includes_unit: member_of
   influenced: influenced_by
   influenced_by: influenced
+  has_performance: performance_of
+  performance_of: has_performance
+  inspired_by: inspiration_for
+  inspiration_for: inspired_by
   installed_at: installation_site_of
   installation_site_of: installed_at
   intended_for: intended_site_of
