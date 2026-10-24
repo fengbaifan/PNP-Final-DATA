@@ -13756,3 +13756,32 @@ python scripts/audit_tables.py --strict-stage --summary退出码0：errors=[]、
 对Haskell来源卡与新archive卡分别预览，随后定向渲染2张卡；写后复预览2/2无差异，渲染器写后字节核验通过。`python scripts/audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py` 的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0；`git diff --check`通过。
 
 批后：S2仍为15,343 statements／26,787 mentions，统一独立复核9,617/15,343（62.68%，未接收）；S3主决定12,426（same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186）；S4已映射2,084/5,075条new，待登记2,991条，其中1,274个未映射new候选仍触及直接关系端点；KU共2,869。S5为13,235条字段（1,634 `unverified`）；S6已裁决1,270/10,559（716 formal、444 pending、110 rejected），余9,289；`relations.csv`共1,962条（1,938 formal、24 pending）；`candidate-backlog.csv`共34条（12 completed、22 undecided，严格审计pending=0）。本批不构成S2接收或S3–S6全书收口。
+
+<a id="s4-s5-s6-ch3-p81-dudon-guibert-20261025"></a>
+### S4/S5/S6：第3章 p.81 Dudon 与 de Guibert 跨章引注端点（2026-10-25）
+
+#### S3沿用与跨章身份分组
+
+本批不重开 S3。`cand-5470` 与 `cand-5471` 各保留已有 `new` 决定及独立 archive 组：`archive-group-3988225ea4b3`、`archive-group-115a32999b02`。第3章印刷页81脚注2在同一注中分别点名 Paul Dudon 与 J. de Guibert；第21章书目行436与561分别给出相应书名、出版地及年份。两项是不同出版物，不能把共同注释合并为同一对象。Dudon的说明仍与莫利诺斯本人著作区分；Guibert责任者保留书目缩写，不扩写全名。身份依据限于Haskell书内跨章指引，未核对外部目录或被引原著。
+
+| candidate_id | S3组／决定 | S4去向 | 跨章依据 |
+|---|---|---|---|
+| `cand-5470` | `archive-group-3988225ea4b3`／`new` | `units/archives/dudon-quietiste-espagnol-michel-molinos-1921` | 第3章p.81 n.2“Paul Dudon”；第21章p.421书目“Dudon, Paul: Le quiétiste espagnol Michel Molinos, Paris 1921”。 |
+| `cand-5471` | `archive-group-115a32999b02`／`new` | `units/archives/guibert-spiritualite-compagnie-jesus-1953` | 第3章p.81 n.2“J. de Guibert”；第21章p.424书目“Guibert, J. de: La spiritualité de la Compagnie de Jesus, Roma 1953”。 |
+
+#### S4与S5登记
+
+登记两张archive KU，沿用原candidate及S3 `new`决策，不发起候选身份合并。两张卡各登记4条 `origin=book`、`evidence_status=source_backed`字段（`enr-17150`–`enr-17157`）：书目责任者形式、原书题名、出版项和文献类型。字段来源均为Haskell第21章对应书目行；第3章脚注另作各卡的引注证据，不表示被引著作已读。未添加外部标识或外部补足字段。
+
+#### S6逐条裁决
+
+| statement_id | 决定 | 关系记录 | 理由 |
+|---|---|---|---|
+| `st-chp3-seciv-notes-l189-204-p81-n2-dudon` | formal | `rel-1963 cites`：Haskell archive → Dudon archive | 脚注明确列出Dudon为该节参考文献之一；书目行436限定被引对象。仅记录引注，不把“well-documented but very hostile”扩展为本项目对原著的独立判断。 |
+| `st-chp3-seciv-notes-l205-243-p81-n2-guibert-citation` | formal | `rel-1964 cites`：Haskell archive → Guibert archive | 同一脚注明确写“also J. de Guibert”；书目行561限定被引对象。仅记录引注，不推断作者全名或被引内容。 |
+
+#### 卡片投影与审计
+
+Haskell来源卡与两张新archive卡定向预览后渲染；写后复预览3/3无差异，渲染器写后字节核验通过。`python scripts/audit_tables.py --strict-stage --summary`退出码0：KU=2,871，S3候选=12,426，待S4登记=2,989，关系表=1,964（1,940 formal、24 pending），S5字段=13,243（1,634 unverified），S2 statements=15,343、mentions=26,787，`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。`git diff --check`退出码0；enrichment按Git基线恢复了13,235条旧行的原始文本，仅保留本批新增8行。
+
+批后：S2统一独立复核仍为9,617/15,343（62.68%，未接收）；S3主决定仍为same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186；S4已映射2,086/5,075条new，待登记2,989条，其中1,272个未映射new候选仍触及直接关系端点；KU共2,871。S5为13,243条字段（1,634 `unverified`）；S6已裁决1,272/10,559（718 formal、444 pending、110 rejected），余9,287；`relations.csv`共1,964条（1,940 formal、24 pending）；`candidate-backlog.csv`仍为34条（12 completed、22 undecided，严格审计pending=0）。本批未改变S2独立复核分子，不构成S2接收或S3–S6全书收口。
