@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-ch7-p201-citations-20261024"></a>
+### S3沿用／S4 archive登记／S5书目字段／S6逐项裁决：第7章 p.201 注2 的跨章引注（2026-10-24）
+
+**跨章身份与S3。** 对照 Haskell 第7章 p.201 注2 与第21章书目，确认 `cand-7349`（`archive-group-dcae6c414ac1`）、`cand-7350`（`archive-group-fe1d3488c190`）、`cand-7351`（`archive-group-9d04c948f337`）分别是 Ilg、Tietze、Baudi di Vesme 的三项不同文献；沿用各自既有 `new` 身份决定，不合并三篇来源。Ilg 条目的第21章题名为 *Prinz Eugen von Savoyen als Kunstfreunde*，p.201 注2 当前 OCR 转写为 “Ug, passim”。TU Wien reposiTUm（DOI `10.34726/dig.17665819`）将其著录为 *Prinz Eugen von Savoyen als Kunstfreund*（单数），作者 Albert Ilg，Graeser，Wien，1889；据跨章题名、作者形式、出版地和年份将其匹配到同一书目对象。新增外部身份行 `aln-12762`（`same` → Ilg KU），保存书目复数／单数形式和 OCR 异文，不改写来源文件、不声称查阅该书内容。Tietze 与 Baudi di Vesme 仅按 Haskell 书目及脚注记录，不扩写作者人物身份或文献内容。
+
+**S4登记与S5字段。** `aln-7525`、`aln-7526`、`aln-7527` 分别映射到 `units/archives/prinz-eugen-von-savoyen-als-kunstfreund-1889`、`units/archives/tietze-eugenio-di-savoia-amico-dellarte-1933`、`units/archives/baudi-di-vesme-acquisto-quadreria-principe-eugenio-1886`。三张 archive 卡分别保留 Haskell 书目原文、引用位置及不确定范围；Ilg 卡另记录 TU Wien 的题名、责任者、出版信息、语种和 DOI。`build_field_facts.py` 定向生成 `enr-16844`–`enr-16866` 共23条 `source_backed` 字段；新增来源登记 `src-cd974e231eef0433`。未将 citation 当作被引内容已核实。
+
+**S6逐项裁决。** 三条 `cites` 候选均 formal，方向为《赞助人与画家》archive → 被引文献 archive，符合类型和值域：
+
+| statement_id | 决定 |
+|---|---|
+| `st-chp7-p201-n2-cite-ilg` | formal `rel-1843 cites`；只记“Ilg, passim”，注中无具体页码；OCR 的 `Ug` 与书目题名差异另行保留。 |
+| `st-chp7-p201-n2-cite-tietze` | formal `rel-1844 cites`；只记 Haskell 引用 Tietze pp.891–907。 |
+| `st-chp7-p201-n2-cite-baudi` | formal `rel-1845 cites`；只记 Haskell 引用 Baudi di Vesme 1886, pp.161–256，不据此确认藏品购藏史。 |
+
+三张新卡与《赞助人与画家》卡完成定向渲染，写后字节核验通过，复预览无差异。字段复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。批次新增3个 KU、3条 new 候选映射、23条S5字段和3项 formal S6裁决；未新增或修改 S2 statement／mention，S2独立复核分子不变。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性检查 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。
+
+
 <a id="s4-s5-s6-ch8-p215-architectural-work-endpoints-20261024"></a>
 ### S3/S4/S5/S6 work：第8章 p.215 钟楼、穹顶与灰泥装饰（2026-10-24）
 
