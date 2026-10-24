@@ -12846,3 +12846,59 @@ S4 新增1个 event KU、2条候选映射，并登记到 `ku-manifest.csv` 与 `
 #### 卡片与批后检查
 
 12 个 S4 KU 卡片已建立；根据关系与字段投影定向渲染 9 张受影响卡，`build_cards.py --render` 写入9张并通过写后字节核验；9/9 定向复预览无差异。严格表审计当前 `kus=2757`、候选12,418、主决定12,418、S4待映射新候选3,102（已映射1,966）、S5字段12,973（1,634 unverified）、S6累计1,035/10,531（629 formal、304 pending、102 rejected）、关系表1,860（1,845 formal、15 pending）、`s2_missing=[]`、`errors=[]`。审计仍提示S4登记未完成及S2语义复核质量尚待独立检查。关系一致性审计五类阻断项（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）均为0；这不代表孤立单元、过连接项或全书关系语义已通过。S2统一复核分子仍为9,617/15,310，未接收；本批不构成全书 S2 验收或 S3–S6 收口。
+<a id="s3-s4-s5-s6-chp6-p146-election-factors-20261024"></a>
+### S3/S4/S5/S6：第6章 p.146 教宗当选与解释因素端点批次（2026-10-24）
+
+本批沿第6章印刷页146的同段关系端点处理6个已判 `new` 的候选，并核对第7章同一术语候选。只依据 Haskell 原书及当前工作区的既有知识元；未补查外部身份或历史事实。
+
+#### S3跨章身份复核
+
+6项原有决定均保留 `new`，不改变全书决策分类数；补足候选级理由并更新当前过程引用。
+
+| candidate_id | 身份组 | 本次核对 |
+|---|---|---|
+| `cand-11955` | `sg3-event-cand-11955` | p.146 L4 明确指 Giambattista Pamfili 当选 Innocent X；与 Innocent X 人物、Urban VIII 去世 (`cand-11932`) 及随后召开的 conclave (`cand-6260`) 分开。早期“索引定位不足”的旧理由仅作为历史保留。 |
+| `cand-6244` | `sg3-term-cand-6244` | “the arts as a whole”作为受影响的艺术整体范围；与已有 `units/terms/decline-of-roman-patronage` 所表示的“赞助衰退”分析框架不同，不因该卡引用同一原句而合并。 |
+| `cand-6245` | `sg3-term-cand-6245` | 同一候选还锚定第7章 p.180 L129 “new European balance of power”；两处是同一跨章术语候选，沿用一个身份组。未将其并入任何单一条约或事件。 |
+| `cand-6246` | `sg3-term-cand-6246` | 指政治野心这一概念类别，不与 Barberini family 实体合并；第6章 p.146 L4 列出该项，L6 随后提及 Barberini 扩张私人领地的计划。 |
+| `cand-6248` | `sg3-term-cand-6248` | 作者列出的个体性情解释类别；未识别具体人物，不改写为任何人的性格事实。 |
+| `cand-6252` | `sg3-term-cand-6252` | 作者列出的时尚变化类别；未识别具体风格、作品或年代，不延伸到未被提及的对象。 |
+
+#### S4登记
+
+沿用上述 S3 身份组新增6个 KU 与6条映射：
+
+| candidate_id | ku_id |
+|---|---|
+| `cand-11955` | `units/events/election-giambattista-pamfili-innocent-x` |
+| `cand-6244` | `units/terms/arts-as-a-whole-haskell-account` |
+| `cand-6245` | `units/terms/european-balance-of-power-haskell-account` |
+| `cand-6246` | `units/terms/barberini-family-political-ambitions-haskell-account` |
+| `cand-6248` | `units/terms/individual-quirks-of-temperament-haskell-account` |
+| `cand-6252` | `units/terms/changes-of-fashion-haskell-account` |
+
+`cand-6245` 的第6、7章语境同卡呈现。所有新卡只记录书内概念或事件，不推定选举日期、个体身份、概念边界或独立历史解释。
+
+#### S5来源支持字段
+
+新增 `enr-16888`–`enr-16893` 共6条 Haskell 原书字段，逐卡一条，涵盖事件识别范围、艺术整体的书内范围、欧洲势力均衡的跨章语境、家族政治野心的作者解释、未具名的性情类别及未具体化的时尚变化。字段均标 `source_backed`，证据只定位原书；没有外部补足或独立事实验证。
+
+#### S6逐项裁决
+
+以下5项 S2 关系候选均有明确 `pending` 去向；不写入正式关系表，因为目前没有受控谓词可不失真地表达相应角色：
+
+| statement_id | 端点 | 去向与理由 |
+|---|---|---|
+| `st-chp6-p146-arts-election` | 艺术整体术语→Pamfili 当选事件 | pending：原文保留 Haskell 的宽泛“艺术受打击”判断；当前受控词表没有适用的术语→事件“受影响”谓词，改用 `influenced_by` 会同时违反角色方向及域值域。若受控关系类型将来能准确表达这种来源限定的影响主张，再重审。 |
+| `st-chp6-p146-factor-european-balance` | 欧洲势力均衡术语→罗马艺术赞助衰退术语 | pending：原文称其为因素；当前受控词表没有能表达 term→term 因素关系的谓词。不得改作 `part_of` 或泛化影响边。 |
+| `st-chp6-p146-factor-family-ambition` | 巴贝里尼家族政治野心术语→罗马艺术赞助衰退术语 | pending：同为作者因素框架；无准确受控 term→term 谓词，不将 family 作为该关系主体。 |
+| `st-chp6-p146-factor-temperament` | 个体性情特殊倾向术语→罗马艺术赞助衰退术语 | pending：原文没有指明具体人物或行为；无准确受控 term→term 因素谓词。 |
+| `st-chp6-p146-factor-fashion` | 时尚变化术语→罗马艺术赞助衰退术语 | pending：原文没有指明具体时尚、作品或年代；无准确受控 term→term 因素谓词。 |
+
+以上 pending 状态和重开条件保留在本过程记录；没有伪造 `relations.csv` 谓词，也没有新增 formal relation。S2 statement／mention 内容不变，独立 S2 复核分子不变。
+
+#### 卡片与批后审计（第6章 p.146 端点批次）
+
+`build_field_facts.py` 对6张新卡预览 `rows=6`、`new_ids=6`、`warnings=0`，应用后新增 `enr-16888`–`enr-16893`，来源注册无变化。`build_cards.py --render` 对7张目标卡预检通过（6张字段表、6行、关系投影变更0、`files_to_write=0`）；因此没有卡片字节写入。7张卡写后定向预览均无差异。
+
+`audit_tables.py --strict-stage --summary`：`kus=2763`、new候选已映射1,972、待登记3,096、S5字段12,979（1,634 unverified）、`s2_missing=[]`、`errors=[]`。保留全书S4登记未完成与S2语义质量待核的审计提示。`audit_relation_consistency.py` 五类阻断项均为0；全库诊断仍列1,366个零关系单元及2个高连接单元，这不是本批新增问题，也不构成全书关系语义验收。`git diff --check` exit 0。
