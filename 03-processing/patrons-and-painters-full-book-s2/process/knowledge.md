@@ -13308,3 +13308,27 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 | `st-chp14-p349-note4-zanotti-letter` | pending | `authored_by` 类型可表达 archive→person，但信件候选 `cand-10262` 仍为 S3 undecided，身份／粒度端点未解决；S3 决定后再评估正式边。原 OCR 的1733与打印页1735差异照实保留。 |
 
 本批不改 S2 statement、mention 或独立复核分子；两条 pending 的解除条件分别是关系语义可由受控类型表达，以及 `cand-10262` 的 S3 身份／粒度得到证据支持。
+
+<a id="s4-s5-s6-seminario-patriarcale-ch9-ch16-ch17-20261024"></a>
+
+### 第9、16、17章 Seminario Patriarcale 机构与 Armanni–Sasso 档案端点批次（2026-10-24）
+
+#### S3 身份组与 S4 登记
+
+沿用既有 S3 `new` 决定：`cand-6589`（`sg3-institution-cand-6589`）登记为来源所称 Seminario Patriarcale 机构；`cand-10614`（`archive-group-ecd614e1ccea`）登记为1783–1803年 Armanni–Sasso 两卷书信材料；`cand-10689`（`archive-group-a178ede378fa`）登记为1790年7月20日单封信。三者映射到各自 KU，不重开 S3。两卷文献集合与单封信保持不同粒度；来源共同出现 MSS. 566 不足以追加 part_of 边。既有 `armanni-delle-lettere` 卡记录的是 Vincenzo Armanni 17世纪刊本，作者、年代、题名及载体不同，不与本批 archive 合并。
+
+#### S5 来源字段
+
+新增9条 Haskell `source_backed` 字段：机构的原书称谓、书内定位功能和被引用馆藏号；两卷文献的原书称谓、范围/时间及馆藏号；单封信的文献描述、日期及馆藏号。所列手稿均未独立查阅，馆藏现状不作外部确认。
+
+#### S6 逐项裁决
+
+三条直接关系候选均记为 pending，未新增 `relations.csv` formal 边。现行 `located_at` 虽覆盖 archive→institution 域值，但被项目记录为 `needs_split`；`held_by` 的受控域值不允许 archive→institution。为避免把仓储保管与物理位置混为一边，三项均等待关系谓词边界澄清：
+
+| statement_id | status | decision / evidence boundary |
+|---|---|---|
+| `st-chp9-p261-note2-seminario-edwards-inventories` | pending | Haskell注2称MSS. 788.13收有Pietro Edwards编制的库存，位于Seminario Patriarcale档案范围；来源支持书内保管定位，但当前 `located_at` 为 `needs_split`，暂不转为formal。 |
+| `st-chp16-p374-note3-armanni-sasso-letters-and-poore` | pending | Haskell注3明确称MSS. 565、566的两卷书信在该机构Archivio；关系事实有书内依据，但保管与位置谓词边界未拆分。 |
+| `st-chp17-p380-note1-armanni-sasso-letter-locator` | pending | Haskell注1给出机构名、MSS. 566与1790-07-20信件的定位式引注；原件未查阅，且 `located_at` 为 `needs_split`。 |
+
+本批不改 S2 statements、mentions 或独立复核分子。关系解除条件为关系类型对 archive→repository custody 提供不与物理位置混用的受控谓词；待S6后续按类型治理记录衔接。
