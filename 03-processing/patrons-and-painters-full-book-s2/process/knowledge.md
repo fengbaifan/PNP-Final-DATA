@@ -12691,3 +12691,6 @@ pending 与 rejected 项保留在裁决记录，不生成伪 formal 行；relati
 对15张新卡及4张既有端点卡共19个目标执行关系与字段渲染预检：`cards=19`、`tables=16`、`rows=25`、`projected_relation_rows=19`、`files_to_write=14`。修正Andrea、del Rosso family、Ottavio及François Nomé卡片中过时的S6待办描述后，定向渲染14张受影响卡；写后字节核验通过，二次定向预检`cards_with_relation_changes=0`、`files_to_write=0`。
 
 严格表审计结果：`kus=2739`、`candidates=12418`、`alignments=12758`、S4待映射3123、backlog 32（pending=0）、`relations=1840`（1827 formal、13 pending）、S5字段12923（1634 unverified）、`sources=1777`、`segments=832`、S2 `book_statements=15307`、`mentions=26773`、`s2_missing=[]`、`errors=[]`。关系一致性检查`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic`均为0。S2独立复核分子仍为9617，未接收；S3候选决定数不变。
+
+
+远端提交与CI：commit `9a33b41327e35129b062ae39cc1dc53d14bc5398` 已推送至 `main`，SSH核验远端 `main` 指向同一提交，跟踪关系 `origin/main...main` 为 `0 0`。Quality Gate运行40064539030成功；validate (3.10)与validate (3.12)的测试、规则漂移检查均通过，发布专用全量闭合步骤因push事件按workflow条件跳过。

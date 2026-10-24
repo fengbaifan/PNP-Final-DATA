@@ -60,7 +60,7 @@
 5. **定向收束S5和S2复核。** 1,634条unverified字段按关系端点依赖和关键身份属性排序，逐项核实或记录待证／不适用。S2复核台账核平后继续独立语义复核；当前第七章为1,190/1,273，第八章487/1,488，其他章节按核平后的statement ID推进。S2独立复核未接收前，不将内部处理完成表述为语义验收。
 6. **最后准备S7。** 只有S0–S6各自产物通过语义交接、每个S3候选有可追溯去向、S4 new映射完整、S5缺口与S6候选有明确状态，且严格审计无结构错误后，才准备S7发布验证；知识发现和页面仍暂停。
 
-**提速方式：** 同一来源页一次完整阅读，再集中完成该页的跨章身份组、S4映射、必要S5字段与S6候选；先处理关系端点密集的类型，减少反复回读。脚本只用于定位、编号、写回和机械审计；每批只预览／渲染变更影响到的卡片，里程碑再执行全量门禁。按S2语义复核、S3决定去向、S4有效映射、S5字段状态、S6裁决分别报数，不折成单一百分比。旧版导出测试硬编码快照已由`fe6b776 Make export count tests data-driven`修复；最近已同步提交的Quality Gate运行[40048485941](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/40048485941)为success。
+**提速方式：** 同一来源页一次完整阅读，再集中完成该页的跨章身份组、S4映射、必要S5字段与S6候选；先处理关系端点密集的类型，减少反复回读。脚本只用于定位、编号、写回和机械审计；每批只预览／渲染变更影响到的卡片，里程碑再执行全量门禁。按S2语义复核、S3决定去向、S4有效映射、S5字段状态、S6裁决分别报数，不折成单一百分比。旧版导出测试硬编码快照已由`fe6b776 Make export count tests data-driven`修复；本批提交9a33b41触发的[Quality Gate运行](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/40064539030)通过；validate (3.10)耗时2m36s、validate (3.12)耗时1m45s，两项测试与规则漂移检查均成功。
 
 本轮完成第15章p.365–366与第21章p.435的跨章端点批次：`cand-11526`由`undecided`改为`same`并复用Radicchio 1786 archive；Azzo人物`cand-0981`与Subleyras计划图稿组`cand-10494`依据来源语境改判`new`。新增7个KU及7条new候选映射，新增2条S2关系断言；修正Piranesi版画候选名，不再把1786年误赋给版画。新增27条Haskell来源字段；14条相关S6候选逐项裁为9 formal、5 pending。14张相关卡片定向渲染及复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断检查均为0。新增2条S2 statement尚未独立复核。详见[第15章跨章裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp15-p365-p366-20261023)。
 
