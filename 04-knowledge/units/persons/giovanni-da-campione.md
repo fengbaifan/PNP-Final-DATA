@@ -45,9 +45,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 门廊与南入口是两项不同建造陈述。Haskell只称南入口建于门廊之后数年，未给出确切年份；南入口建造关系已记录，门廊建造关系仍待S6裁决。 [第8章 p.215；OCR L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [索引 C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
+**中文：** 门廊与南入口是两项不同建造陈述。Haskell只称南入口建于门廊之后数年，未给出确切年份；南入口建造关系已记录，门廊与南入口是不同构件，前者1355年的建造关系、后者的相对年代分别记录。 [第8章 p.215；OCR L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [索引 C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
 
-**English:** The portico and south entrance are separate construction claims. Haskell dates the south entrance only to a few years after the portico, with no exact year; its builder relation is recorded, while the portico relation remains for S6 review. [Chapter 8, p.215, L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [Index C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
+**English:** The portico and south entrance are separate construction claims. Haskell dates the south entrance only to a few years after the portico, with no exact year; its builder relation is recorded, the two building relations are separately recorded, with 1355 fixed only for the portico and a relative date for the south entrance. [Chapter 8, p.215, L13](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) [Index C.csv#18](../../../02-sources/03-Index/03-2-Index-CSV/C.csv)
 
 ## 关系与证据
 
@@ -56,6 +56,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← erector_of（`erector_of`，反向投影） | [贝加莫圣母大殿南入口（South entrance of Santa Maria Maggiore, Bergamo）](../works/santa-maria-maggiore-south-entrance-bergamo.md) | statement=st-chp8-p215-campione-built-south-entrance；记录来源所述建造者，不推定设计、委托或精确建成年份；时间：1355年门廊建成数年后；南入口的确切年份未载；角色：建造者；范围：Haskell称 Giovanni da Campione 于1355年建门廊，数年后又建南入口；保留相对年代，不推定具体年份。；原断言与证据见发出端卡片“贝加莫圣母大殿南入口（South entrance of Santa Maria Maggiore, Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215, L13 |
+| ← erector_of（`erector_of`，反向投影） | [贝加莫圣母大殿哥特式门廊（Gothic portico of Santa Maria Maggiore, Bergamo）](../works/santa-maria-maggiore-gothic-portico-bergamo.md) | S2 relation candidate: st-chp8-p215-campione-erected-gothic-portico-1355; the source directly identifies the builder and year. The two stone lions and the later south entrance are outside this edge.；时间：1355；角色：建造者；范围：只记录Haskell所述Giovanni da Campione于1355年建造哥特式门廊；不推定设计、委托、两座石狮的作者或南入口建造日期。；原断言与证据见发出端卡片“贝加莫圣母大殿哥特式门廊（Gothic portico of Santa Maria Maggiore, Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215, L13; PDF physical p.13; statement=st-chp8-p215-campione-erected-gothic-portico-1355 |
 
 
-南入口建造关系已进入正式关系表；门廊建造关系候选 `st-chp8-p215-campione-erected-gothic-portico-1355` 仍待 S6 裁决。
+南入口与门廊分别有正式建造关系；前者只记“门廊建成数年后”，后者记1355年，不推定南入口确切年份。

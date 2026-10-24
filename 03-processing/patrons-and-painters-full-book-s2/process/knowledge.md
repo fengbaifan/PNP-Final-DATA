@@ -12469,3 +12469,14 @@ S6逐项裁决：两项均符合archive到archive的cites类型和值域，只�
 | st-chp7-p192-n2-cite-longhi | formal rel-1792 cites；p.192 n.2，1954，pp.28–39。|
 
 本批新增2个S4映射、16条S5字段、2项S6 formal决定；S3决定数、S2 statement数和独立复核分子不变。
+
+<a id="s3-s4-s5-s6-chp8-p215-gothic-portico-20261024"></a>
+### S3沿用／S4作品端点登记／S5补足／S6逐项裁决：第8章 p.215 哥特式门廊（2026-10-24）
+
+沿用 `cand-7629` 所属 `workgrp-262fc42bf39a7d` 的既有 S3 `new` 主决定，不重开 S3。对照第8章印刷页215（S2段落 L13、PDF物理页13）和局部扫描后，确认其指称是 Santa Maria Maggiore 的哥特式门廊。它与教堂整体 `cand-7627`、成对石狮 `cand-7630`、数年后另建的南入口 `cand-7631` 分属不同对象；没有外部对象对齐依据，本卡仅作来源局部身份登记。
+
+S4将 `cand-7629` 映射至 `units/works/santa-maria-maggiore-gothic-portico-bergamo`，新增作品卡并登记 manifest、accepted。S5新增3条 Haskell 来源支持字段：来源描述性称谓、建筑构件类型、1355年建造时间（`enr-16788`–`enr-16790`）；没有增加外部验证状态。
+
+S6候选 `st-chp8-p215-campione-erected-gothic-portico-1355` 逐项裁为 formal `rel-1793 erected_by`，方向为门廊作品→Giovanni da Campione。原文直接称 Giovanni 于1355年建造门廊，谓词与 work→person 值域相符。该边不推定设计、委托、两座石狮的作者，也不把1355年移给另一个南入口。同步更新 Giovanni 人物卡的关系说明与 S4 对齐理由。
+
+本批没有新增或修改 S2 statement/mention，没有修改 S3 决定或 S2 独立复核分子。S4增加1条候选映射，S5增加3条来源支持字段，S6增加1项 formal 决定和1条正式关系；门廊与Giovanni两张卡定向渲染后复预览均无差异。`audit_tables.py --strict-stage --summary`：`kus=2711`、`candidates=12418`、`alignments=12754`、`alignment_new_pending_registration=3152`、`relations=1793`（1,780 formal）、`enrichment_rows=12876`（1,634 unverified）、`book_statements=15301`、`mentions=26772`、`s2_missing=[]`、`errors=[]`；warning仅提示剩余S4新组未登记及S2语义质量仍需审查。关系一致性审计五类结构阻断均为0。
