@@ -2783,3 +2783,7 @@ l82–93中，为五个原文明示但此前缺少标量端点的对象增加来
 
 
 2026-10-15 开放端点证据核对：331条开放候选均有理由；对照记录后确认第四章“works of art”属未界定泛称，statement引句已收窄至直接支持该断言的原句；第十章脚注“pictures or prints”保留二选一，不强配客体。表规模不变，严格审计`errors=[]`、`s2_missing=[]`。该核对不构成独立语义验收。
+
+### 第9章 p.253 注1定向修订（2026-10-24）
+
+依据既有逐页复核意见，将原复合 recall/decorate statement 原子化为四条人物或地点关系主张；净增3条 statement、mention 不变，不计入独立复核分子。原文只报告召回画家以装饰礼拜堂，不据此断言装饰已完成。过程及 S6 去向见 [第9章 p.253 批次](../../patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-p253-tiepolo-endpoints-20261024)。

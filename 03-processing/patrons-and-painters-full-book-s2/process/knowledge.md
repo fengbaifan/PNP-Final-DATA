@@ -13227,3 +13227,61 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 四项均有明确 S2 端点及来源锚点，但因无准确受控谓词留在过程级 pending，不写入 `relations.csv`，也不建立空边。若后续关系域新增精确谓词，再按端点类型和原书证据重审。
 
 **检查与范围。** 该批新增2条statement、5条S5字段、1张事件卡及2条S4映射；S2 mentions不变。四项S6均进入逐项裁决，独立S2复核分子未增加。卡片仅定向预览与渲染；机械审计结果及批后全书计数见当前结果文件。该批不表示S2接收或S3–S6全书收口。
+
+### S2 定向原子化修订：第9章 p.253 注1（2026-10-24）
+
+依据既有第9章逐页复核指出的复合关系问题，重读 Haskell 第9章印刷页253注1。原 statement `st-chp9-p253-note1-later-recall-and-chapel` 现保留为丹尼埃莱·多尔芬召回吉安巴蒂斯塔·蒂埃波罗的个体化主张；另新增三条 statement，分别记录丹尼埃莱召回吉安·多梅尼科、两位画家各自被召回以装饰 Cappella della Purità 的目的。原注只说 recalled to decorate，不证明装饰完成；S0 OCR 不变，既有 mention 已足够，不新增 mention。本次净增3条 S2 statement，不计入独立复核分子。
+
+<a id="s4-s5-s6-chp9-p253-tiepolo-endpoints-20261024"></a>
+
+### 第9章 p.253 跨章端点登记及 S6 逐项裁决（2026-10-24）
+
+#### S3 身份组与 S4 登记
+
+本批沿用既有 S3 决定，不重开身份判断。登记9个 S3 new 身份组、10条候选映射；正文 cand-8283 与索引 cand-2595 沿用 workgrp-d5a413438b3817，共用一张《所罗门的审判》KU。三个宫殿内部空间、Purità 礼拜堂、该作品及四个来源局部术语各自保持边界；未登记楼梯壁画 cand-8281、Abraham 场景集合 cand-8282、宫殿 cand-8277 或 first-masterpieces 组 cand-12377，因其 S3 身份或边界仍待证。
+
+| S3 candidate | existing identity group | S4 KU | type |
+|---|---|---|---|
+| `cand-8278` | `sg3-place-cand-8278` | `units/places/staircase-in-archiepiscopal-palace-udine` | place |
+| `cand-8279` | `sg3-place-cand-8279` | `units/places/gallery-in-archiepiscopal-palace-udine` | place |
+| `cand-8280` | `sg3-place-cand-8280` | `units/places/tribunal-hall-archiepiscopal-palace-udine` | place |
+| `cand-8283` | `workgrp-d5a413438b3817` | `units/works/the-justice-of-solomon-tiepolo-udine` | work |
+| `cand-8285` | `sg3-place-cand-8285` | `units/places/cappella-della-purita-udine` | place |
+| `cand-8293` | `sg3-term-cand-8293` | `units/terms/provincial-nobles-declined-patrician-status-1775` | term |
+| `cand-8294` | `sg3-term-cand-8294` | `units/terms/venetian-patrician-status` | term |
+| `cand-8297` | `sg3-term-cand-8297` | `units/terms/young-artists-in-tiepolo-reported-advice` | term |
+| `cand-8299` | `sg3-term-cand-8299` | `units/terms/wealthy-and-noble-patrons-in-tiepolo-advice` | term |
+| `cand-2595` | `workgrp-d5a413438b3817` | `units/works/the-justice-of-solomon-tiepolo-udine` | work; index mapping |
+
+#### S2 修订与 S5 字段
+
+注1复合关系按人物和礼拜堂端点原子化：丹尼埃莱→吉安巴蒂斯塔、丹尼埃莱→吉安·多梅尼科、吉安巴蒂斯塔→礼拜堂（以装饰为目的召回）、吉安·多梅尼科→礼拜堂（以装饰为目的召回）。statement 净增3，mention 不变；此修订不增加统一独立 S2 复核分子。新增 11 条 Haskell 原书支持的 S5 字段，均为 source_backed，未添加外部身份或未读引文信息。
+
+#### S6 逐项裁决
+
+本页及 p.252–253 跨页连续语境内的20条 S2 关系候选均有当前去向：2 formal、18 pending。Formal 边为 `rel-1909` creator_of（Tiepolo→The Justice of Solomon）与 `rel-1910` located_at（作品→审判厅）。pending 不进入正式关系投影；本页没有 rejected 项。逐项理由如下：
+
+| statement_id | status | decision / evidence boundary |
+|---|---|---|
+| `st-chp9-p253-aristocracy-work-and-fragmentation` | pending | 人物→term 的“为贵族工作”没有精确受控谓词；patronized_by 的值域不接受该 term，不能改写为委托或赞助。 |
+| `st-chp9-p253-barbaro-dolfin-roman-epics` | pending | 罗马史诗组候选 cand-8241 的作品身份与范围仍为 S3 undecided；待作品边界解决后再判断。 |
+| `st-chp9-p253-commission-to-palace-and-cathedral` | pending | summoned 没有精确受控关系类型；句子同时涉及主教座堂和 S3 未决的宫殿对象，不改写成 commissioned_by。 |
+| `st-chp9-p253-dionisio-saw-tiepolo-masterpieces` | pending | 候选 cand-12377 的作品组身份与成员范围仍为 S3 undecided，且“看见”没有精确受控谓词。 |
+| `st-chp9-p253-note1-later-recall-and-chapel` | pending | 原复合断言拆分后，保留丹尼埃莱召回吉安巴蒂斯塔·蒂埃波罗的独立主张；summoned/recalled 无精确受控谓词。 |
+| `st-chp9-p253-note4-provincial-nobles-berengo` | pending | 群体拒绝取得身份地位的语义有据，但当前受控词表无准确的拒绝取得关系；不把未具名贵族拆成个人。 |
+| `st-chp9-p253-two-dolfin-members-imprisoned-or-exiled` | pending | 两名家族成员均未具名；“入狱或流亡”没有当前适用的受控关系类型，不能伪装为受机构任职或成员关系。 |
+| `st-chp9-p253-udine-fresco-sites-and-works` | pending | 楼梯壁画候选 cand-8281 缺少 mention-level 锚定且身份仍为 S3 undecided；不补造单件作品。 |
+| `st-chp9-p253-staircase-fresco-location` | pending | 地点已登记，但作品端点 cand-8281 仍为 S3 undecided；端点未解析前不建立正式位置边。 |
+| `st-chp9-p253-abraham-scenes-work` | pending | Abraham 场景为未枚举的作品集合，cand-8282 的身份粒度与边界仍为 S3 undecided。 |
+| `st-chp9-p253-abraham-scenes-location` | pending | gallery 地点已登记，但作品集合 cand-8282 的身份边界仍未确定；位置边保持待证。 |
+| `st-chp9-p253-justice-solomon-work` | formal | 正式边 creator_of，见 `relations.csv` 新增关系。 |
+| `st-chp9-p253-justice-solomon-location` | formal | 正式边 located_at，见 `relations.csv` 新增关系。 |
+| `st-chp9-p253-tiepolo-summoned-outside-venice` | pending | 原文未给召集者或目的地；不从相邻 Udine 叙述推断缺失端点。 |
+| `st-chp9-p253-roman-epics-commemorate-daniele-dolfin` | pending | 史诗作品组 cand-8241 尚未定界，且原文的 Daniele Dolfin 与 Daniele III 的身份对应仍待证。 |
+| `st-chp9-p253-tiepolo-aimed-at-rich-noble-patrons` | pending | 受众为 term 集合，人物到社会类别没有精确的受控谓词；intended_for 仅接受 work→institution/place。 |
+| `st-chp9-p253-note2-italian-advice-to-young-artists` | pending | advised 的值域为 person；此处接收对象是未具名青年画家 term 集合，且引语经意大利报纸转述。 |
+| `st-chp9-p253-note1-recalled-gian-domenico-1759` | pending | 丹尼埃莱召回吉安·多梅尼科的独立主张有注释支持，但 recalled 没有精确受控谓词。 |
+| `st-chp9-p253-note1-tiepolo-recalled-to-decorate-chapel` | pending | 注释只报告以装饰礼拜堂为目的的召回，不证明装饰实际完成；人物→地点也无精确适用谓词。 |
+| `st-chp9-p253-note1-gian-domenico-recalled-to-decorate-chapel` | pending | 注释只报告以装饰礼拜堂为目的的召回，不证明装饰实际完成；人物→地点也无精确适用谓词。 |
+
+不为没有精确谓词的召回、劝诫、社会受众、拒绝身份地位或惩罚行为扩充关系类型。未决作品端点和开放目的地均保留各自的 S3/S2 卡点，不用相邻语境推断。

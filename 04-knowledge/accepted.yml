@@ -1673,6 +1673,7 @@ units:
 - 04-knowledge/units/places/cambridge.md
 - 04-knowledge/units/places/camposanto-pisa.md
 - 04-knowledge/units/places/cappella-delci-santa-sabina.md
+- 04-knowledge/units/places/cappella-della-purita-udine.md
 - 04-knowledge/units/places/capuchin-church-rome.md
 - 04-knowledge/units/places/carlo-cordellina-vicenza-house.md
 - 04-knowledge/units/places/castello-sforzesco.md
@@ -1710,6 +1711,7 @@ units:
 - 04-knowledge/units/places/florence.md
 - 04-knowledge/units/places/france.md
 - 04-knowledge/units/places/galerie-mazarin.md
+- 04-knowledge/units/places/gallery-in-archiepiscopal-palace-udine.md
 - 04-knowledge/units/places/gallery-palazzo-buonaccorsi.md
 - 04-knowledge/units/places/genoa.md
 - 04-knowledge/units/places/germany.md
@@ -1827,6 +1829,7 @@ units:
 - 04-knowledge/units/places/st-johns-co-cathedral.md
 - 04-knowledge/units/places/st-peters-basilica.md
 - 04-knowledge/units/places/st-petersburg.md
+- 04-knowledge/units/places/staircase-in-archiepiscopal-palace-udine.md
 - 04-knowledge/units/places/stockholm.md
 - 04-knowledge/units/places/stra.md
 - 04-knowledge/units/places/stuttgart.md
@@ -1836,6 +1839,7 @@ units:
 - 04-knowledge/units/places/theater-auf-der-cortina.md
 - 04-knowledge/units/places/treviso.md
 - 04-knowledge/units/places/tribuna-uffizi.md
+- 04-knowledge/units/places/tribunal-hall-archiepiscopal-palace-udine.md
 - 04-knowledge/units/places/tribune-of-gesu.md
 - 04-knowledge/units/places/trinitarian-building-site-quattro-fontane.md
 - 04-knowledge/units/places/trinitarian-monastery-rome-context.md
@@ -1950,6 +1954,7 @@ units:
 - 04-knowledge/units/terms/poem-eulogy-collections-noble-ceremonies.md
 - 04-knowledge/units/terms/printmakers-employed-by-venetian-publishers.md
 - 04-knowledge/units/terms/procuratore-di-san-marco-office.md
+- 04-knowledge/units/terms/provincial-nobles-declined-patrician-status-1775.md
 - 04-knowledge/units/terms/public-happiness-personification-altieri-fresco.md
 - 04-knowledge/units/terms/publishers-in-venice.md
 - 04-knowledge/units/terms/richeome-fresco-subject-devotional-function.md
@@ -1965,6 +1970,8 @@ units:
 - 04-knowledge/units/terms/venetian-art-tradition-haskell-account.md
 - 04-knowledge/units/terms/venetian-artists-collective-category.md
 - 04-knowledge/units/terms/venetian-nobility-social-estate.md
+- 04-knowledge/units/terms/venetian-patrician-status.md
+- 04-knowledge/units/terms/wealthy-and-noble-patrons-in-tiepolo-advice.md
 - 04-knowledge/units/terms/wisdom-personified-sacchi-divine-wisdom.md
 - 04-knowledge/units/terms/french-hostility-italian-art-17th-century.md
 - 04-knowledge/units/terms/native-french-artistic-taste.md
@@ -1973,6 +1980,7 @@ units:
 - 04-knowledge/units/terms/state-religion-papal-independence-haskell.md
 - 04-knowledge/units/terms/italian-floridity-haskell-account.md
 - 04-knowledge/units/terms/italian-artistic-prestige-france.md
+- 04-knowledge/units/terms/young-artists-in-tiepolo-reported-advice.md
 - 04-knowledge/units/works/a-d-gabbiani-a-group-of-musicians.md
 - 04-knowledge/units/works/a-d-gabbiani-flight-into-egypt.md
 - 04-knowledge/units/works/a-pair-of-triumphal-mausoleums-bernard-sale-1789.md
@@ -2234,6 +2242,7 @@ units:
 - 04-knowledge/units/works/solimena-dido-and-aeneas.md
 - 04-knowledge/units/works/ten-pictures-apollo-muses-baglione-rome.md
 - 04-knowledge/units/works/the-flood-canvas-liberi-bergamo.md
+- 04-knowledge/units/works/the-justice-of-solomon-tiepolo-udine.md
 - 04-knowledge/units/works/tiepolo-banquet-cognacq-jay.md
 - 04-knowledge/units/works/tiepolo-banquet-victoria.md
 - 04-knowledge/units/works/tiepolo-detail-from-fresco-on-ceiling-of-staircase-in-residenz.md
