@@ -13285,3 +13285,26 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 | `st-chp9-p253-note1-gian-domenico-recalled-to-decorate-chapel` | pending | 注释只报告以装饰礼拜堂为目的的召回，不证明装饰实际完成；人物→地点也无精确适用谓词。 |
 
 不为没有精确谓词的召回、劝诫、社会受众、拒绝身份地位或惩罚行为扩充关系类型。未决作品端点和开放目的地均保留各自的 S3/S2 卡点，不用相邻语境推断。
+
+<a id="s4-s5-s6-zanotti-ch7-ch8-ch14-person-endpoint-20261024"></a>
+
+### 第7、8、14章 Giampietro Zanotti 跨章人物端点登记及 S6 裁决（2026-10-24）
+
+#### S3 身份组与 S4 登记
+
+沿用既有 S3 决定：`cand-7114` 属于 `new-person:giampietro-zanotti-cavazzoni-32c6552065`，跨第7章 pp.189、192、194，第8章 pp.223–225、239及第14章 p.349；映射至 `units/persons/giampietro-zanotti-cavazzoni`。本批不重开 S3，不把 Zanotti 与其子 Eustachio 合并；书名及身份理由见既有 S3 记录。
+
+#### S5 来源字段
+
+新增 2 条 Haskell 来源、`source_backed` 字段：文献表所列署名与著作，以及第14章注4的书信归属。S2 转录将日期 OCR 为1733，打印页核读为1735；本批保留这一来源校读边界，不声称查阅过所引信件。
+
+#### S6 逐项裁决
+
+两条直接使用 Zanotti 为关系端点的 S2 候选均记为 pending；未新增 formal 关系行。
+
+| statement_id | status | decision / evidence boundary |
+|---|---|---|
+| `st-chp8-p239-note1-zanotti-multiple-visits` | pending | 这是 Haskell 对未独立查阅的 Zanotti II, p.54 的归因性解释，不是可直接表达的 Zanotti→Crespi 受控关系；保留原书判断，不把它改写为历史关系。 |
+| `st-chp14-p349-note4-zanotti-letter` | pending | `authored_by` 类型可表达 archive→person，但信件候选 `cand-10262` 仍为 S3 undecided，身份／粒度端点未解决；S3 决定后再评估正式边。原 OCR 的1733与打印页1735差异照实保留。 |
+
+本批不改 S2 statement、mention 或独立复核分子；两条 pending 的解除条件分别是关系语义可由受控类型表达，以及 `cand-10262` 的 S3 身份／粒度得到证据支持。
