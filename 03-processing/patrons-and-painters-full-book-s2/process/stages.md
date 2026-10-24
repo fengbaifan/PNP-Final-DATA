@@ -13637,3 +13637,11 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-24：第17章 p.381 Tempesta 创作者提及映射与 S2 关系断言修订
 
 由 Tempesta 作品 S4 端点登记触发。复核第17章 p.381 L23 与第20章 p.410 L208–209 后，将 `m-chp17-p381-0009`、`m-chp20-p410-023` 的 “Giorgione” 提及从作品索引候选 `cand-1189` 更正为人物候选 `cand-1188`；`Tempesta` 的两条作品提及仍映射至 `cand-10695`。为 p.381 “Giorgione’s Tempesta” 新增原子 `created_by` statement `st-chp17-p381-tempesta-created-by-giorgione`，并在原收藏断言的 mentioned candidates 中补入 `cand-1188`。S2 statements 净增1、mentions总数不变；此为定向端点修订，不计入9,617条统一独立复核分子，不代表章节或全书接收。
+
+### 2026-10-24：第8章 p.234 撒迦利亚被石击关系端点定向复用
+
+由 S4 端点核对触发 S3 定点复核：`cand-7939` 与图版目录 Plate 40b 及既有作品 KU 为同一作品；`cand-7936` 与 p.239 注5所述皮蒂宫公寓绘画清单相同；`cand-7945` 的“Uffizi”在该作品保管语境中复用既有 Uffizi institution。三者分别改为 same→既有 KU，未新建卡。S2 statement／mention不变，不计入独立复核。三个直接 S6 候选均裁决：`commissioned_by` formal `rel-1912`（保留 Haskell 基于遗失指示的题材推断）、清单 `has_subject` formal `rel-1913`、Uffizi `held_by` formal并复用既有 `rel-0737`。S5 `no_delta`。详见[本批知识过程](knowledge.md#s3-s4-s5-s6-ch8-p234-zechariah-endpoints-20261024)。
+
+### 2026-10-24 第7章 p.191 注5、注9迁入与正文引注修复
+
+对照本页图像、来源行L279–280及第21章书目L883–926，补入 Pascoli 卷I、卷II及 Pacichelli 的三条注释引证 statement，并登记卷级 mention。同步修复 p.191 i12、i23、i30 的脚注引用和转述范围，清除12条引用 statement 中的编辑性总结后缀；修正 i01、i03 的准确措辞/引用链接。注5原合卷候选 cand-6972 在 S3 排除为单一身份，两个已登记卷级 archive KU 分别复用；注9复用 Pacichelli archive KU。三条直接 S6 引证分别复用 rel-1862、新增 rel-1914、复用 rel-1738。新增3条 statement、2条 mention，统一独立复核分子不变。被引页未独立核读。残余 st-chp7-p191-i07 关系端点及 cand-6955 类型问题继续待处理；本页和第7章均未接收。过程详见 [knowledge.md](knowledge.md#s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024)。

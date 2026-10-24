@@ -70,3 +70,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 本卡未新增正式关系。书内引文候选仍由对应 S2 陈述追踪并留待 S6；本次 KU 登记不把被引页内容写成已核实事实。第二卷与第一卷保持不同卷次，第一卷已有独立身份卡。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S3/S4/S6 batch; bibliography p.433 identifies the volume-level archive endpoint. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024.；角色：cited source；范围：Haskell p.191 note 5 cites Pascoli, vol. II, p.202; cited page unread.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.191 n.5; statement=st-chp7-p191-n5-cite-pascoli-vol-ii |

@@ -1,5 +1,32 @@
 # 全书 S3 身份对齐过程
 
+<a id="s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024"></a>
+### 第7章 p.191 注5、注9迁入及引证裁决（2026-10-24）
+
+**S2迁入与文字校正：** 对照 p.191/PDF物理页29及来源行L279–280，补入注5、注9的三条引证 statement：注5分别指向 Pascoli《Vite de’ Pittori》卷I（页48、186）与卷II（页202），注9指向 Pacichelli《Memorie...》（页39）。加入两条卷级 mention，并按审计器使用的完整源段字符偏移校准新增 span；原合并引文与 Pacichelli 提及的既有范围保持不变。被引页面未独立查阅，不据此声称其内容已核实。修正正文 i12 对“据称多次到访”的转述语气及注5引用；i23接入注9引用；i30只保留注11而移除误挂的注10；同步清理本页12条引用 statement 中的编辑性后缀。另修正文 i01、i03的措辞与注释链接。此为来源迁入与表述修复，统一S2独立复核分子仍为9,617。
+
+**S3/S4：** cand-6972 原为没有标题、版本身份的合并卷次引文候选；书目 p.433 已分别列出卷I与卷II版本，故将该合并候选裁决为 excluded，排除的是“卷I+卷II作为单一档案身份”的候选，不排除两卷本身。卷I复用 archive KU units/archives/lione-pascoli-vite-dei-pittori-vol-i（cand-4834），卷II复用 units/archives/lione-pascoli-vite-dei-pittori-vol-ii（cand-4552）；注9复用 units/archives/pacichelli-memorie-viaggi-europa-christiana-1685（cand-6973）。没有新建 archive KU。S5 no_delta：现有卷级卡片已有本次可支持的书目信息。
+
+**S6裁决：** 三条新增 cites statement 均裁为 formal：Haskell→Pascoli卷I复用既有 rel-1862，Haskell→Pascoli卷II新增 rel-1914，Haskell→Pacichelli复用既有 rel-1738。两个复用边已把本页注5、注9的来源范围和 statement 入口写入关系记录。此处只登记 Haskell 的引文行为，不主张被引页面已核读。三个候选均有明确去向；未新增重复边。
+
+**计数与边界：** S2新增3条 statement、2条 mention，原有宽范围 mention 保留为被排除的合卷身份并嵌套两个卷级 mention。当前S3裁决为 same=2,052、new=5,069、conflict=9、excluded=103、undecided=5,191；S4/S5无变化。S6为1,194/10,551（683 formal、404 pending、107 rejected），relations.csv 1,914条（1,896 formal、18 pending）。p.191仍有未裁决项：st-chp7-p191-i07 的未具名素描及 acquisition 关系端点需结合相关候选继续判定；cand-6955 所指三十册绘图收藏尚无可靠类型，保留未分类，不强行登记。故本记录不构成第7章语义接收。
+<a id="s3-s4-s5-s6-ch8-p234-zechariah-endpoints-20261024"></a>
+### 第8章 p.234《撒迦利亚被石击》直接关系端点复用批次（2026-10-24）
+
+**触发与 S3/S4。** 关系端点登记检查发现 `cand-7939`、`cand-7936` 与已有 KU 对象相同，依“仅在当前登记或新证据触发时重开 S3”定点复核。`cand-7939` 从 `new` 改为复用 `units/works/giannantonio-fumiani-the-stoning-of-zechariah`：第8章 p.234 L284 明确回指 Plate 40b，图版目录 p.xiv L111 题为 GiannAntonio Fumiani, *The stoning of Zechariah* (Uffizi, Florence)。`cand-7936` 从 `new` 改为复用 `units/archives/pitti-palace-apartments-picture-inventory-1716-1723`：p.234 正文及注3（L426）称该画见于 Ferdinand 的 “1716 inventory”，p.239 注5（L451）说明同一清单的意大利题名、1716–1723 年代范围及“1716 Inventory”只是便利称呼。`cand-7945` 从无类型 `undecided` 改为 `same`，类型定为 institution，映射到 `units/institutions/uffizi-gallery`：本段的 Uffizi 是该作品的保管机构，图版目录与既有 `rel-0737 held_by` 提供同书同作品的端点语境，不另建物理地点。三条均复用现有 KU，不新建对象；未作外部身份或馆藏事实核验。
+
+**S5。** `no_delta`：作品卡、1716 清单卡和 Uffizi 机构卡已有本批所需的题名、来源语境与机构类型字段；p.234 新证据用于关系判断，没有新增独立字段。
+
+**S6 逐项裁决。**
+
+| S2 statement | 决定 | 理由／正式边 |
+|---|---|---|
+| `st-chp8-p234-subject-change` | formal `rel-1912 commissioned_by` | Haskell 叙述 Ferdinand 向 Fumiani 提出画作方案并改变题材；因指示遗失，题材识别为该作品仍明确是 Haskell 的推断。只记录来源所述委托关系与推断，不补创作日期。 |
+| `st-chp8-p234-zechariah-inventory-record` | formal `rel-1913 has_subject` | 清单 KU → 作品 KU；正文称画作记入 Ferdinand 的 1716 inventory，注3回指该清单。仅记录 Haskell 的书内报告，未查阅清单原件。 |
+| `st-chp8-p234-zechariah-uffizi-location` | formal，复用既有 `rel-0737 held_by` | Plate 40b 明确连接同一作品与 Uffizi；关系自然键和语境与既有保管边相同，故不新增重复边。`rel-0737` 的 note 已记录本条 S2 证据入口。 |
+
+本批没有修改 S2 statement／mention；对既有 S2 断言作端点映射与关系裁决，不计入 S2 独立语义复核分子。表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。批后 S3：same=2,052、new=5,069、conflict=9、excluded=102、undecided=5,192；S4 新候选映射2,037/5,069，待映射3,032（其中1,313条直接触及关系端点）；S5字段13,154条（1,634条 `unverified`）；S6已裁决1,191/10,548（680 formal、404 pending、107 rejected），余9,357；`relations.csv`为1,913条（1,895 formal、18 pending）。
+
 <a id="s4-s5-s6-tempesta-crosschapter-20261024"></a>
 ### 第17章 p.381／第20章 p.410 Tempesta 跨章作品端点批次（2026-10-24）
 

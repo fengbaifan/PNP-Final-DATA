@@ -15255,7 +15255,7 @@ m-chp7-p191-080,chp-7:07_CHP-7_sec_i:l268-280,cand-6975,Neapolitan culture,2369,
 m-chp7-p191-081,chp-7:07_CHP-7_sec_i:l268-280,cand-6971,works he commissioned from local artists,2422,2462,
 m-chp7-p191-083,chp-7:07_CHP-7_sec_i:l268-280,cand-6962,local artists,2449,2462,Broad group reference; exact membership is not supplied.
 m-chp7-p191-084,chp-7:07_CHP-7_sec_i:l268-280,cand-1842,Pascoli,2467,2474,
-m-chp7-p191-085,chp-7:07_CHP-7_sec_i:l268-280,cand-6972,"Pascoli, I, pp. 48 and 186, and II, p. 202",2467,2509,
+m-chp7-p191-085,chp-7:07_CHP-7_sec_i:l268-280,cand-6972,"Pascoli, I, pp. 48 and 186, and II, p. 202",2467,2509,Composite volumes I-II citation; split into nested volume-specific source mentions below.
 m-chp7-p191-086,chp-7:07_CHP-7_sec_i:l268-280,cand-6974,Pacichelli,2515,2525,
 m-chp7-p191-087,chp-7:07_CHP-7_sec_i:l268-280,cand-6973,"Pacichelli, Parte IV, Vol. I, p. 39",2515,2550,
 m-chp7-p192-002,chp-7:07_CHP-7_sec_i:l282-291,cand-0571,he,18,20,Refers to Del Carpio.
@@ -27446,3 +27446,5 @@ m-chp4-sec-ii-p113-0028,chp-4:04_CHP-4_sec_ii:l161-170,cand-12443,secondary arti
 m-chp4-sec-ii-p113-0029,chp-4:04_CHP-4_sec_ii:l161-170,cand-12444,scholars,2488,2496,Generic plural group encouraged by Cassiano; no individual scholar is named.
 m-chp4-sec-ii-p113-0030,chp-4:04_CHP-4_sec_ii:l161-170,cand-12445,French friends and clients,872,898,Generic plural group for whom Poussin worked after his 1642 return; no individual is named.
 m-chp4-sec-ii-l91-99-different-patrons,chp-4:04_CHP-4_sec_ii:l91-99,cand-12446,different patrons,446,463,Unnamed plural recipients associated with Poussin’s later profound pictures; no individuals are identified.
+m-chp7-p191-n5-vol-i,chp-7:07_CHP-7_sec_i:l268-280,cand-4834,"Pascoli, I, pp. 48 and 186",2467,2493,Volume I locator in note 5; cited pages not independently read.
+m-chp7-p191-n5-vol-ii,chp-7:07_CHP-7_sec_i:l268-280,cand-4552,"II, p. 202",2499,2509,Elliptical volume II locator continuing the Pascoli citation; cited page not independently read.

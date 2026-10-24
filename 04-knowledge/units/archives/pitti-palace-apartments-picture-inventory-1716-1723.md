@@ -48,6 +48,7 @@ Haskell 将这份清单与 Ferdinand 收藏的绘画联系起来，并报告其�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 位于（`located_at`） | [佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）](../institutions/soprintendenza-alle-gallerie-florence.md) | The source wording is ‘kept at’; controlled predicate held_at is unavailable. located_at is used for the reported repository role with scope explicitly narrowed. The inventory and repository record were not independently consulted.；角色：Haskell所述保管机构；范围：Haskell p.239 n.5 reports that the inventory was kept at this institution. This records the reported holding location in Haskell’s account only; it does not establish custody during 1716–1723, ownership, or institutional continuity across that date range.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；line 451; printed p.239, footnote 5; PDF physical p.45; statement=st-chp8-p239-note5-inventory-description |
+| → 所涉对象（`has_subject`） | [撒迦利亚被石击（The stoning of Zechariah）](../works/giannantonio-fumiani-the-stoning-of-zechariah.md) | 正式 S6 裁决：仅记录 Haskell 所述画作见于该清单；未查阅清单原件或外部目录；时间：1716–1723 (Haskell dating of inventory)；角色：被清单记录的画作；范围：Haskell称该画作记录于其所称“1716 Inventory”；注3指向的清单与第239页注5所述皮蒂宫公寓绘画清单相同。只记录书内报告，不表示已查阅原件或外部目录。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.234, L284 and note 3, L426; S2 statements st-chp8-p234-zechariah-inventory-record, st-chp8-p234-note3-stoning-record |
 
 ### 关系候选入口
 
