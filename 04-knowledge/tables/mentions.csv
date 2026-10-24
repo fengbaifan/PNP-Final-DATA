@@ -6743,8 +6743,8 @@ m-chp2-seciv-l171-179-0030,chp-2:02_CHP-2_sec_iv:l171-179,cand-1984,The artist,1
 m-chp2-seciv-l171-179-0035,chp-2:02_CHP-2_sec_iv:l171-179,cand-2263,Rospigliosi himself,1597,1616,
 m-chp2-seciv-l171-179-0031,chp-2:02_CHP-2_sec_iv:l171-179,cand-4798,The Dance of Human Life,1617,1640,
 m-chp2-seciv-l171-179-0032,chp-2:02_CHP-2_sec_iv:l171-179,cand-4799,Truth uncovered by Time,1642,1665,
-m-chp2-seciv-l171-179-0033,chp-2:02_CHP-2_sec_iv:l171-179,cand-4800,Happiness subject to Death,1670,1696,
-m-chp2-seciv-l171-179-0034,chp-2:02_CHP-2_sec_iv:l171-179,cand-4800,The Arcadian Shepherds,1701,1723,Parenthetical alternative title in Haskell’s sentence.
+m-chp2-seciv-l171-179-0033,chp-2:02_CHP-2_sec_iv:l171-179,cand-1995,Happiness subject to Death,1670,1696,
+m-chp2-seciv-l171-179-0034,chp-2:02_CHP-2_sec_iv:l171-179,cand-1995,The Arcadian Shepherds,1701,1723,Parenthetical alternative title in Haskell’s sentence.
 m-chp2-seciv-l171-179-0036,chp-2:02_CHP-2_sec_iv:l171-179,cand-1984,Poussin,1759,1766,One artistic approach in Haskell’s comparison.
 m-chp2-seciv-l171-179-0037,chp-2:02_CHP-2_sec_iv:l171-179,cand-4804,man’s destiny,1857,1870,
 m-chp2-seciv-l171-179-0038,chp-2:02_CHP-2_sec_iv:l171-179,cand-2263,Rospigliosi,1876,1887,Beginning of Haskell’s comparison of patrons.
@@ -7012,7 +7012,7 @@ m-chp2-seciv-l190-245-0122,chp-2:02_CHP-2_sec_iv:l190-245,cand-4861,"Prunires, 1
 m-chp2-seciv-l190-245-0123,chp-2:02_CHP-2_sec_iv:l190-245,cand-4862,Beani and Canevazzi,5523,5542,Citation gives surnames only.
 m-chp2-seciv-l190-245-0124,chp-2:02_CHP-2_sec_iv:l190-245,cand-4798,The Dance of Human Life,5546,5569,The note says this painting is in the Wallace Collection and dates it to about 1637.
 m-chp2-seciv-l190-245-0125,chp-2:02_CHP-2_sec_iv:l190-245,cand-4894,Wallace Collection,5580,5598,Named as the location of The Dance of Human Life.
-m-chp2-seciv-l190-245-0126,chp-2:02_CHP-2_sec_iv:l190-245,cand-4800,The Arcadian Shepherds,5600,5622,The note gives its location and reports competing dating proposals.
+m-chp2-seciv-l190-245-0126,chp-2:02_CHP-2_sec_iv:l190-245,cand-1995,The Arcadian Shepherds,5600,5622,The note gives its location and reports competing dating proposals.
 m-chp2-seciv-l190-245-0127,chp-2:02_CHP-2_sec_iv:l190-245,cand-4799,Truth and Time,5641,5655,The note says the painting disappeared and was engraved by Jean Dughet.
 m-chp2-seciv-l190-245-0128,chp-2:02_CHP-2_sec_iv:l190-245,cand-0950,Jean Dughet,5718,5729,Named engraver of the first and last works.
 m-chp2-seciv-l190-245-0129,chp-2:02_CHP-2_sec_iv:l190-245,cand-2263,Rospigliosi,5747,5758,Named as recipient of the engravings’ dedications and as the subject of Bellori’s account.
@@ -10793,7 +10793,7 @@ m-chp4-sec-ii-p117-0025,chp-4:04_CHP-4_sec_ii:l207-216,cand-1984,Poussin,1735,17
 m-chp4-sec-ii-p117-0024,chp-4:04_CHP-4_sec_ii:l207-216,cand-2036,Cassiano,1948,1956,Surname reference to Cassiano dal Pozzo.
 m-chp4-sec-ii-p117-0031,chp-4:04_CHP-4_sec_ii:l207-216,cand-2009,"King
 Midas washing his Face in the River Pactolus",2199,2248,Poussin index sub-entry; work title crosses source line.
-m-chp4-sec-ii-p117-0032,chp-4:04_CHP-4_sec_ii:l207-216,cand-4800,Arcadian Shepherds,2278,2296,First version of the named work.
+m-chp4-sec-ii-p117-0032,chp-4:04_CHP-4_sec_ii:l207-216,cand-1994,Arcadian Shepherds,2278,2296,"Explicit first-version mention; maps to index candidate cand-1994, distinct from the chapter 2 Louvre second version."
 m-chp4-sec-ii-p117-0033,chp-4:04_CHP-4_sec_ii:l207-216,cand-3535,Bellori,2529,2536,Named biographer cited for an anecdote.
 m-chp4-sec-ii-p117-0026,chp-4:04_CHP-4_sec_ii:l207-216,cand-1984,Poussin,2568,2575,Named painter.
 m-chp4-sec-ii-p117-0006,chp-4:04_CHP-4_sec_ii:l207-216,cand-1564,Massimi,2584,2591,Surname reference to Camillo Massimi.
@@ -26918,6 +26918,9 @@ m-s2-chp4-surface-793e617e68fbda6e,chp-4:04_CHP-4_sec_ii:l15-22,cand-5652,palace
 m-s2-chp4-surface-1a9c09cb374bf811,chp-4:04_CHP-4_sec_ii:l161-170,cand-5921,collection,557,567,The passage concerns Cassiano's painting collection as a group; preserve its unresolved type.
 m-s2-surface-b83d20e18db79b4f,chp-4:04_CHP-4_sec_ii:l191-205,cand-5317,France,419,425,
 m-s2-surface-7bbb2cba38cc9ac9,chp-4:04_CHP-4_sec_ii:l207-216,cand-3462,Europe,501,507,
+m-chp4-sec-ii-p117-0034,chp-4:04_CHP-4_sec_ii:l207-216,cand-11667,a pair of that painter’s most beautiful early works,2019,2070,"Source-defined pair of works; no pendant status, common original patron, or provenance is inferred."
+m-chp4-sec-ii-p117-0035,chp-4:04_CHP-4_sec_ii:l207-216,cand-11668,"heirs of
+Cassiano",1939,1956,Unidentified heirs are raised only as a possible source; Haskell expressly says there is no direct evidence.
 m-s2-chp4-surface-0e18254f1d62687c,chp-4:04_CHP-4_sec_ii:l218-227,cand-3567,connoisseurship,767,782,Connoisseurship is used as the same art-historical practice represented by the existing term candidate.
 m-s2-chp4-surface-cd62fb9207f3297d,chp-4:04_CHP-4_sec_ii:l218-227,cand-0090,palace,884,890,The new palace is locally identified as the Altieri palace in the same sentence.
 m-s2-surface-ad0ab80f1c62fe60,chp-4:04_CHP-4_sec_ii:l218-227,cand-3462,Europe,1219,1225,

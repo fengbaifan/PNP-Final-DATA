@@ -2,18 +2,20 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，Giustiniani术语批次后）：** S0已处置832段（678 complete、154 excluded）；S2为15,348 statements／26,787 mentions，统一独立复核9,617/15,348（62.66%，未接收，余5,731条未进入统一复核）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,105/5,078条new，待登记2,973条，其中1,258个关系端点候选决定一致为new且未映射，KU=2,889；S5字段13,312条（1,634 unverified）；S6已裁决1,301/10,564（737 formal、454 pending、110 rejected），余9,263；`relations.csv`为1,989条（1,964 formal、25 pending）；backlog 37条（12 completed、25 undecided，pending=0）。另有337条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。
+**当前快照（2026-10-25，Arcadian／Louvre批次后）：** S0已处置832段（678 complete、154 excluded）；S2为15,351 statements／26,789 mentions，统一独立复核9,617/15,351（62.65%，未接收，余5,734条未进入统一复核）；S3主决定12,426项：same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178，另有26个跨来源decision差异；S4已映射2,110/5,081条new，待登记2,971条，其中1,256个去重候选直接触及关系端点，KU=2,894；S5字段13,328条（1,634 unverified）；S6已裁决1,313/10,567（743 formal、457 pending、113 rejected），余9,254；`relations.csv`为1,996条（1,970 formal、26 pending）；backlog 37条（12 completed、25 undecided，严格pending=0）。另有337条关系候选缺至少一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。
 
-**本批完成：** 沿用 `cand-4337` 的既有S3 `new`身份组，登记跨第2、4章的来源局部术语KU；新增6条书内 `source_backed` 字段。四条直接S2关系候选均裁为 `pending`：两条缺尚未定身份的文献端点，两条 person→term 观点关系无准确受控谓词；未造 formal 边或占位行。单卡定向渲染、写后字节核验及复预览通过；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-chp4-giustiniani-eclecticism-20261025)。
+**本批完成：** 将复合候选 `cand-4800` 排除，分开第2章 p.57第二版与第4章 p.117第一版，并为King Midas、两件作品组和历史卢浮宫地点完成5项S4登记；新增3条S2关系statement与2条mention，补录16条书内 `source_backed` 字段。12条受影响S6候选均有去向（6 formal、3 pending、3 rejected），新增6条formal及1条pending关系行。7张目标卡定向预览、渲染并写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。`cand-11668`继承人组和`cand-4596`巴黎随员组仍`undecided`，各自理由与重开条件已记录。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s4-s5-s6-poussin-arcadian-pair-louvre-20261025)。
 
-**后续工作规划（按依赖与关系解锁价值排序）：**
+**前批完成（Giustiniani跨章术语）：** 沿用 `cand-4337` 的既有 S3 `new` 身份组，登记一个来源局部术语 KU 并新增6条书内 `source_backed` 字段；四条直接关系候选均 pending，理由分别为两条文献端点身份未定、两条 person→term 观点缺少准确受控谓词。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-chp4-giustiniani-eclecticism-20261025)。
 
-1. **继续S4→S6端点批次。** 优先选择跨章复用价值高、已有明确书内身份锚点且连接多条S2关系候选的 `new` 组；每批将S4映射、可由现有来源支持的S5字段、对应S6 formal/pending/rejected裁决合并处理，避免只增加KU而把关系判断全部推后。当前仍有2,973条 `new` 映射未登记，其中1,258个未登记候选直接触及关系端点。
-2. **修复337条缺少S2端点候选ID的关系语句。** 按章节和端点角色定向复核原文；仅在来源支持时补候选ID，无法唯一确定时保留待证并记录解除条件，不猜造端点。
-3. **按章推进S2独立语义审读。** 统一口径为9,617/15,348（62.66%），尚有5,731条未进入统一复核。延续既有章节顺序，逐章核对statement与来源、mention、指代和修订；章内局部复核不并入统一分子。阶段结论仍为未接收。
-4. **定向处理S5未核字段。** 1,634条 `unverified` 先按关系端点、身份关键字段和下游使用价值排序；逐项补到来源支持或明确记为可接受缺口，不做无目标的全库外部采集。
-5. **按触发条件处理S3未决。** 12,426个主决定行均有状态，但5,182项仍为 `undecided`，另有26项跨来源decision差异。身份只在新登记或新证据直接触及时复核；要求每个 `same/new/conflict/excluded/undecided` 都有可追溯理由和明确去向，未决对象保留证据需求，不以批量重跑强改身份。
-6. **S7收口门槛。** 每条仍有效的 `new` 对齐均须有S4 KU映射；身份证据不足或不适合登记的候选先回S3改作有依据的其他状态，不把未映射的 `new` 当作已收口。S5字段须有证据或具体缺口，S6每条关系候选都有 formal/pending/rejected 去向，候选待办无未处理的 actionable pending，表与关系审计阻断为0，再准备S7。当前S2尚未独立接收；S7、知识发现和页面制作继续按项目边界暂缓。
+**后续工作规划（围绕S3逐类型收口，并将可用端点同批推进S4/S6）：**
+
+1. **S3按类型核平候选去向。** 先核对26个跨来源decision差异和9个conflict，再按人物、作品、文献、地点／机构等类型逐批处理 `undecided`；每个候选留来源锚点、same/new/conflict/excluded/undecided理由及去向。证据不足的对象可以保留undecided，但须写清待补证据与重开条件，不以批量重跑改写身份。当前有5,178项undecided。
+2. **将可登记的S3 new端点同批走S4→S6。** 2,971条new候选尚未映射，其中1,256个去重候选直接触及关系端点。按关系解锁数与来源页聚类；确认身份后登记KU、补有书内证据的S5字段，并逐条formal/pending/rejected裁决对应S2候选。
+3. **修复337条缺少S2端点候选ID的关系语句。** 按章节和端点角色回到原文、mention和指代定向复核；只在来源支持时补ID，无法唯一确定则保留待证及解除条件。
+4. **按既有顺序继续S2独立语义审读。** 统一口径为9,617/15,351（62.65%），尚有5,734条未进入统一复核。逐章核对statement、来源、mention、指代和修订；章内局部复核不并入统一分子。阶段仍未接收。
+5. **定向处理S5未核字段。** 1,634条 `unverified` 按关系端点、身份关键字段与下游价值排序；逐项补到有据字段或记录明确缺口，不做无目标的全库外采。
+6. **满足门槛后准备S7。** 所有仍有效的 `new` 均有KU映射；S5字段有来源或具体缺口；S6候选均有formal/pending/rejected去向；backlog无未处理actionable pending；严格表审计与关系一致性无阻断。S2尚未独立接收，S7、知识发现与页面制作仍按项目边界暂缓。
 
 **提速方式：** 以共同来源页和共享端点编组，按一组身份判断能解锁的关系候选数优先排队；只定向预览和渲染本批受影响卡片，逐批运行必要表/关系审计，全库投影差异留到明确收口任务处理。CI矩阵的分钟级耗时不是语义处理主瓶颈，不通过删减Python版本门禁换取虚假提速。
 

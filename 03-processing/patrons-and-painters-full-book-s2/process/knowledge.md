@@ -1,5 +1,37 @@
 ﻿# 全书 S3 身份对齐过程
 
+<a id="s2-s3-s4-s5-s6-poussin-arcadian-pair-louvre-20261025"></a>
+### 第2、4、7章普桑《阿卡迪亚牧人》版本分组与卢浮宫地点端点（2026-10-25）
+
+**触发与 S3。** 定向复核发现 `cand-4800` 把第2章 p.57 的“Happiness subject to Death / The Arcadian Shepherds”（索引 P.csv#198，第二版）与第4章 p.117 明称“first version”的作品（P.csv#197）合并。两者是来源中明确区分的版本，不是同一作品的重复提及；`cand-4800` 因复合身份不代表独立第三件作品而改为 `excluded`。四个来源局部作品对象分别定为 `new`：`cand-1994` 第一版、`cand-1995` 第二版、`cand-2009`《迈达斯王在帕克托洛斯河中洗脸》、`cand-11667` p.117 两件作品组。`cand-1450` 沿用既有 `new` 历史卢浮宫地点组。`cand-11668`（未识别的 Cassiano 继承人）继续 `undecided`：原文只提出可能来源且明说没有直接证据；`cand-4596`（巴黎随员群体候选）继续 `undecided`，无足以决定其实体类型的证据。未将任一作品与外部馆藏实物等同，未推断 pendants、共同原始赞助人或可靠共同流传史。
+
+**S2 定向修订。** 将 p.57 的三条作品 mention 从 `cand-4800` 改连 `cand-1995`，将 p.117 第一版 mention 改连 `cand-1994`；p.57 注3断代 statement 的 `supporting_source_candidate_id` 从误连 Rothlisberger (`cand-4577`) 改为该行实际指明的 Mahon (`cand-4867`)，并修正版本端点。p.57 复合地点／版画／献辞 statement 的结构化作品和地点对同步改为第二版与当前历史卢浮宫候选；其聚合断言未冒充单一正式关系。新增两条 p.117 pair/heirs mention，并新增三条有明确端点和语境的 S2 statement：两件作品各自的书内创作者归属、第二版在书内所报卢浮宫地点。原始段落、来源转录未改写；独立复核分子不变。
+
+**S4/S5。** `cand-1994`、`cand-1995`、`cand-2009`、`cand-11667`、`cand-1450` 分别登记为四张来源限定作品卡与一张历史地点卡；不与现代卢浮宫博物馆机构卡合并。五卡共登记16条 `source_backed` 字段（`enr-17227`–`enr-17242`），来源均为 `haskell-1980-rev-ed`，按卡内页段标注来源索引。字段明确区分第一／第二版、组合对象与单件画作、断代建议与既定年代、历史地点与现代机构。
+
+**S6 逐项裁决。** 12条受影响的 S2 关系候选全部有决定：
+
+| S2 statement | 决定 | 去向／理由 |
+|---|---|---|
+| `st-chp2-seciv-l171-179-poussin-painted-happiness-subject-to-death` | formal | `rel-1990 created_by`，只记录 Haskell 的书内创作者表述，不推断委托给 Rospigliosi。 |
+| `st-chp2-seciv-l190-245-arcadian-shepherds-date-proposal` | rejected（关系边） | 保留为有归属的断代建议及 S5 字段，不把约1640年或通常1650–55年转成确定年代关系；另将支持来源修为 Mahon。 |
+| `st-chp2-seciv-l190-245-poussin-work-locations-and-dedications` | rejected（关系边） | statement 将多件作品地点、版画、献辞及 Bellori/Panofsky/Mahon 解释合并；精确的第二版—卢浮宫断言另由独立 S2 statement 表达并形成 `rel-1991`。其余内容仍留在 S2，待独立语义修订处理。 |
+| `st-chp4-sec-ii-p117-named-poussin-pair` | formal | `rel-1994 part_of`，King Midas 是书中两件作品组成员；不称为 pendant。 |
+| `st-chp4-sec-ii-p117-pair-arcadian-member` | formal | `rel-1995 part_of`，第一版《阿卡迪亚牧人》是该组另一成员。 |
+| `st-chp4-sec-ii-p117-possible-poussin-acquisition` | pending | `rel-1996` 仅作 pending；“may well have been now”是推测，不建立正式来源或确切收购年代。 |
+| `st-chp4-sec-ii-p117-pair-possible-source-heirs` | pending（过程级） | `cand-11668` 身份未决且没有 S4 KU；保留“possibly/no direct evidence”，不造占位关系行。 |
+| `st-chp2-seciv-l6-17-louvre-visit` | pending（过程级） | `cand-4596` 群体类型未定，且 `visited` 不是可用受控谓词；不写正式边。 |
+| `st-chp7-p174-i04` | rejected（关系边） | Haskell 对 Marie de Medici 抵达后反应的叙述保留在 S2；“horrified”是叙述性评价，不能转换为正式关系类型。 |
+| `st-chp4-sec-ii-p117-midas-created-by-poussin` | formal | `rel-1992 created_by`，仅限 Haskell 对早期作品的书内归属。 |
+| `st-chp4-sec-ii-p117-first-arcadian-created-by-poussin` | formal | `rel-1993 created_by`，仅限 Haskell 对第一版的书内归属。 |
+| `st-chp2-seciv-l190-245-arcadian-shepherds-louvre-location` | formal | `rel-1991 located_at`，第二版 → 历史卢浮宫地点；是来源所报位置，不声称当前馆藏。 |
+
+六条 formal 和一条 pending 边进入 `relations.csv`；其余三条 pending／三条 rejected 的逐项理由保存在本记录。S2 关系候选新增3条，因此批后 S6 共1,313/10,567（743 formal、457 pending、113 rejected，余9,254）；关系表共1,996条（1,970 formal、26 pending）。
+
+**定向呈现与审计。** 五张新卡及 Poussin、Massimi 两张关系端点卡共7张逐卡预览，6张实际写入；写后7/7复预览无差异。`audit_tables.py --strict-stage --summary`：KU=2,894、候选=12,426、new待S4登记=2,971、S5字段=13,328（1,634 `unverified`）、relations.csv=1,996、S2 statements=15,351、mentions=26,789，`s2_missing=[]`、`errors=[]`；backlog 37条、严格 pending=0。关系一致性审计五类阻断均为0。批后 S2 统一独立复核为9,617/15,351（62.65%，未接收，5,734条未进入统一复核）；S3 same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178，仍有26个跨来源 decision 差异；S4已映射2,110/5,081条 `new`，其中未映射直接关系端点1,256个；S5、S6及新增 mention 不增加 S2 独立复核分子。337条缺至少一个S2端点候选ID的关系语句未变更，留待按原文定向修复。
+
+---
+
 <a id="s3-s4-s5-s6-chp20-p396-crossing-space-resolution-20261025"></a>
 ### 第20章 pp.396–397 圣彼得大殿交叉部空间端点收束（2026-10-25）
 
