@@ -12496,3 +12496,26 @@ S4复用既有 FM-P22a KU；本批不新增KU或S4 `new` 映射。S5不重复写
 | `st-chp5-p136-plate22a-depicts-unnamed-friends` | pending；待端点与类型边界解决 | `cand-6138`仍S3 undecided，现行controlled relation/type无法登记有效端点；记入 `bl-0031`，不向缺失KU的 `relations.csv` 写空端点。待出现可用群体类型或来源识别成员时重审。 |
 
 本批不增改S2 statement／mention或统一S2复核分子。S3将1项 `new` 修正为 `same`；S4不增映射；S5结构字段无净增；3项S6候选裁为2项formal（1条复用既有边、1条新增关系）与1项pending。批后统计与定向卡片核验见全书结果快照。
+
+<a id="s3-s4-s5-s6-chp19-p390-ranuzzi-letter-20261024"></a>
+### S3沿用／S4档案端点登记／S5补足／S6逐项裁决：第19章 pp.390–391 Ranuzzi 介绍信（2026-10-24）
+
+沿用 `cand-8016`／`aln-8191` 的 S3 `new` 主决定及身份组 `archive-group-ff5267994d0f`，登记来源限定 archive KU `units/archives/ranuzzi-letter-introducing-crespi-to-ferdinand-1708`。第8章印刷页237注2将 Crespi 随身携带的介绍信定位到 Archivio Mediceo, Filza 5897, No. 183，并指向附录4；第19章印刷页390标题给出该档号、Vincenzo Ranuzzi 和 1708年1月31日，页391边注写作“Gius.e Crespi d.o”。这组跨章档号、日期和边注支持为同一封来源局部识别的信件，不将手稿原件未查的内容升级为外部核验事实。
+
+S5新增 `enr-16791`–`enr-16796` 六条 Haskell 书内字段，涵盖文献形式、日期、档案定位、发件人拼写、称谓／索引映射收件人及被介绍画家。正文称谓本身没有写出收件人姓名；Ferdinand 映射依据既有索引身份与上下文。Ranuzzi 标题拼写为 Vincenzo、签名转录为 Vincenzio，分别保留，不合并成未经说明的字形。
+
+新增三条带既有 mention 锚点的 S2 关系候选 statement：`st-chp19-p390-letter-authored-by-ranuzzi`、`st-chp19-p390-letter-addressed-to-ferdinand`、`st-chp19-p391-letter-introduced-crespi-by-ranuzzi`。新statement进入总分母，不计入独立S2复核分子。
+
+S6 对七项关联候选逐项裁决，均有明确去向：
+
+| statement / candidate | 去向 | 决定与边界 |
+|---|---|---|
+| Haskell 引注该信的候选 | formal | `rel-1795 cites`；只记录书内引注与档案定位。 |
+| `st-chp19-p390-letter-authored-by-ranuzzi` | formal | `rel-1796 authored_by`。 |
+| `st-chp19-p390-letter-addressed-to-ferdinand` | formal | `rel-1797 addressed_to`；依据称谓和既有索引映射，保留姓名不见于称谓的限制。 |
+| `st-chp19-p391-letter-introduced-crespi-by-ranuzzi` | formal | `rel-1798 introduced_by`；只表达这封信中的介绍，不外推师承、赞助或合作。 |
+| `st-chp8-p237-note2-crespi-arrived-with-letter` | rejected | “随身携带”不对应可用受控谓词；不因此否定信件介绍关系。 |
+| `st-chp19-p391-ranuzzi-margin-crespi` | rejected | 边注是身份线索，不构成 Ranuzzi 与 Crespi 两人之间的关系边。 |
+| `st-chp19-p391-ranuzzi-caldari-picture-incident` | pending | Caldari 所涉画作尚未识别；候选 `cand-10804` 仍 undecided，记入 `bl-0032`，待作品身份或更精确档案证据出现后重审，不写空端点。 |
+
+本批新增1个KU、1条S4映射、6条S5字段、3条S2 statement、4条formal关系；七项S6候选为4 formal、2 rejected、1 pending。新档案卡及四张受关系投影影响的既有卡均完成定向渲染、写后检查与复预览；复预览无差异。批后严格表审计：2,712 KUs、12,754条alignment、S4待登记3,150、backlog 32（pending=0）、relations.csv 1,798行（1,785 formal）、S5 12,882行（1,634 unverified）、15,304 statements、26,772 mentions、`s2_missing=[]`、`errors=[]`。关系一致性审计五类阻断均为0。全书S2独立复核仍未接收；新增statement未计入独立复核分子。

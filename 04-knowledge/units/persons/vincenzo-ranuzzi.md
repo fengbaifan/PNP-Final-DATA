@@ -69,7 +69,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [温琴佐·拉努齐致托斯卡纳大公子费迪南多的克雷斯皮介绍信（Letter of Introduction from Vincenzo Ranuzzi to Grand Prince Ferdinand of Tuscany, concerning Crespi）](../archives/ranuzzi-letter-introducing-crespi-to-ferdinand-1708.md) | S2 relation candidate: st-chp19-p390-letter-authored-by-ranuzzi; printed transcription, not independently consulted manuscript.；角色：发信人；范围：Appendix 4 p.390题头称信来自Vincenzo Ranuzzi；p.391署名拼作Vincenzio Ranuzzi。只记录本件发信责任。；原断言与证据见发出端卡片“温琴佐·拉努齐致托斯卡纳大公子费迪南多的克雷斯皮介绍信（Letter of Introduction from Vincenzo Ranuzzi to Grand Prince Ferdinand of Tuscany, concerning Crespi）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 19, Appendix 4, printed p.390 L105 and p.391 L113; PDF physical pp.5–6; statement=st-chp19-p390-letter-authored-by-ranuzzi |
+| ← introducer_of（`introducer_of`，反向投影） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](giuseppe-maria-crespi.md) | S2 relation candidate: st-chp19-p391-letter-introduced-crespi-by-ranuzzi; source-local and bounded to this letter.；角色：被介绍者→介绍人；范围：仅限Haskell所引的1708年介绍信及其对西班牙画家的书内识别；不表达师承、赞助或长期职业关系。；原断言与证据见发出端卡片“朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）”：[来源](../../../02-sources/02-Markdown/19_CHP-19Appendix.md)；haskell-1980-rev-ed；Chapter 8, printed p.237 n.2 L440; Chapter 19, Appendix 4, printed pp.390–391 L105–113; statement=st-chp19-p391-letter-introduced-crespi-by-ranuzzi |
+
 
 **中文：** 直接S2候选（待S6）：st-chp19-p391-ranuzzi-margin-crespi, st-chp19-p391-ranuzzi-caldari-picture-incident。
 
