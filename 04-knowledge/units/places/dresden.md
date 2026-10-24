@@ -64,3 +64,10 @@ English: “Dresden” also appears as contextual shorthand for the court or col
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [朱塞佩·马里亚·克雷斯皮《忏悔》（Giuseppe Maria Crespi, The Confession）](../works/giuseppe-maria-crespi-the-confession.md) | 对应 st-chp6-p166-n1-confession；注中所引 Crespi p.213 未独立查阅；时间：Haskell叙述中的“now”；未给具体日期；角色：书中所报现藏地；范围：第6章 p.166 注1；“These pictures”按S2链接到本画与相邻六幅圣事组；本边只记录 Haskell 对 The Confession 的报告，不代表现时馆藏核验。；原断言与证据见发出端卡片“朱塞佩·马里亚·克雷斯皮《忏悔》（Giuseppe Maria Crespi, The Confession）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 69; printed p.166, note 1 |
+| ← 所在地（`location_of`，反向投影） | [朱塞佩·玛丽亚·克雷斯皮为彼得罗·奥托博尼创作的六件圣事作品组（Six Sacraments commissioned from Giuseppe Maria Crespi by Pietro Ottoboni）](../works/giuseppe-maria-crespi-six-sacraments-for-ottoboni.md) | S2 relation candidate: st-chp6-p166-n1-sacraments. The museum biography independently places the complete seven-work series at Dresden; it does not identify the six works individually.；时间：Haskell's “now”; date unspecified；角色：reported location；范围：Haskell ch. 6, printed p.166 n.1: “These pictures are now at Dresden”; S2 links the note to this six-work group. This does not claim a present-day holding or independent verification of L. Crespi p.213.；原断言与证据见发出端卡片“朱塞佩·玛丽亚·克雷斯皮为彼得罗·奥托博尼创作的六件圣事作品组（Six Sacraments commissioned from Giuseppe Maria Crespi by Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.166 L69, note 1; statement=st-chp6-p166-n1-sacraments |

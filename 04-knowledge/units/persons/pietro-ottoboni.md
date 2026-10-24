@@ -115,6 +115,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | → 赞助者／保护人（`patron_of`） | [弗朗切斯科·特雷维萨尼（Francesco Trevisani）](francesco-trevisani.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 220–223; print pp. 7 |
 | → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1702年成为圣路加学院荣誉会员；荣誉资格与管理职务分开；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；src-c28e687a7f2dd974；本卡 S7；1702年段 |
 | → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1695年加入Arcadia；后续宫邸接待活动不与成员事实合并；证据：[来源](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)；src-c28e687a7f2dd974；本卡 S7；1695年入会段 |
+| ← 委托者（`commissioner_of`，反向投影） | [朱塞佩·玛丽亚·克雷斯皮为彼得罗·奥托博尼创作的六件圣事作品组（Six Sacraments commissioned from Giuseppe Maria Crespi by Pietro Ottoboni）](../works/giuseppe-maria-crespi-six-sacraments-for-ottoboni.md) | S2 relation candidate: st-chp6-p166-v1-05. Predicate direction is work to commissioner.；角色：commissioner；范围：Haskell ch. 6, printed p.166: Ottoboni commissioned the remaining six Sacraments after The Confession; individual works are not named.；原断言与证据见发出端卡片“朱塞佩·玛丽亚·克雷斯皮为彼得罗·奥托博尼创作的六件圣事作品组（Six Sacraments commissioned from Giuseppe Maria Crespi by Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.166 L43; statement=st-chp6-p166-v1-05 |
 
 ### 身份与外部链接
 

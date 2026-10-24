@@ -1,5 +1,13 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp6-p166-crespi-six-sacraments-20261024"></a>
+### S3/S4/S5/S6 work：第6章 p.166 Crespi 余下六件圣事（2026-10-24）
+
+**S3身份与边界。** 复核 `cand-6563`／`aln-6741`，沿用既有 `new` 决定及 `workgrp-7b6e5b7594e846`，不重开身份裁决。Haskell 第6章印刷页166 L43称 Ottoboni 在收到《忏悔》后委托 Crespi 创作“余下六件圣事”；注1 L69称“These pictures are now at Dresden”。本组与单独登记的《忏悔》（`cand-6562`）及完整七件系列保持边界；六件单幅题名未载。Museo Thyssen 的艺术家简介将完整《七件圣事》系列归于 Crespi、纪年1712并列于德累斯顿；此证据只支持系列级创作者与日期，不为六件逐一命名或定年。
+
+**S4登记与S5字段。** 新增[六件圣事作品组卡](../../../04-knowledge/units/works/giuseppe-maria-crespi-six-sacraments-for-ottoboni.md)，登记为 `units/works/giuseppe-maria-crespi-six-sacraments-for-ottoboni`，在 `accepted.yml` 中纳入有效单位，并以 `aln-6741` 将 `cand-6563` 映射至该KU。新增两条来源字段：`enr-16797` 记来源限定的六件作品组类型（Haskell p.166 L43）；`enr-16798` 记馆方对完整系列的1712年纪年，明确不据此为本组逐件定年。
+
+**S6逐项裁决。** 两条书内关系候选均 formal：`st-chp6-p166-v1-05` → `rel-1824 commissioned_by`，作品组至 Pietro Ottoboni；`st-chp6-p166-n1-sacraments` → `rel-1825 located_at` Dresden，时间限定保留 Haskell 的“now”、日期不详，且不表述为当前馆藏。另据馆方完整系列级归属新增外部 formal `rel-1826 creator_of`，Crespi→该六件子组，范围说明仍限定为系列整体来源；不计入S2候选裁决分母。相关卡片为作品组、Crespi、Ottoboni、Dresden四张，均完成定向渲染并复预览无差异。表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断项均为0；`git diff --check` 通过。未新增statement／mention，S2统一独立复核分子不变；本批未外推单幅题名、现存状态或独立核验L. Crespi p.213。
 <a id="s3-s4-s5-s6-chp2-p43-capuchin-furnishings-20261023"></a>
 ### S2/S3/S4/S5/S6：第2章 p.43 高祭坛、陈设与祭坛画组（2026-10-23）
 
