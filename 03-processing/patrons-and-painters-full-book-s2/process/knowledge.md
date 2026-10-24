@@ -12446,3 +12446,26 @@ Belvedere 目录地点需要一个明确的 place 端点，但未找到 Lower Be
 #### 卡片与批后核验
 
 八张新卡定向渲染并写后校验；发现既有马扎林、马卡拉尼与 Haskell 书目总卡也需更新反向／引注投影后，将这三张一并定向渲染，三张复预览均无差异。批后 `audit_tables.py --strict-stage --summary`：`kus=2708`、`candidates=12418`、`alignments=12754`、`alignment_new_pending_registration=3155`、`candidate_backlog_rows=30`（pending=0）、`relations=1790`（1,777 formal、13 pending）、`enrichment_rows=12857`（1,634 unverified）、`book_statements=15301`、`mentions=26772`、`s2_missing=[]`、`errors=[]`。关系一致性审计中 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。统一 S2 独立复核分子保持9,617，未接收；结构和关系门禁通过不等于全书 S3–S6 收口。
+
+
+<a id="s4-s5-s6-chp7-p192-griseri-longhi-citations-20261024"></a>
+
+### S4/S5/S6：第7章 p.192 注2的 Griseri 与 Longhi 书目端点（2026-10-24）
+
+从当前关系候选队列选取能解锁明确 cites 关系的两个 archive 端点。候选在 S3 已分别判为 new，本批不更改身份决定；第21章书目与第7章注2相互定位到相同期刊论文记录。两篇论文及注释所列页码均未独立查阅。
+
+| 候选 | S3身份组 | KU | 跨章证据与边界 |
+|---|---|---|---|
+| cand-7143 | archive-group-0b763e26ed55 | units/archives/griseri-bozzetti-luca-giordano-escorial-1956 | 第21章印刷页424书目及第7章p.192注2；意大利语原题保留；A. Griseri仅作书目署名。|
+| cand-7144 | archive-group-63ee5074760d | units/archives/longhi-il-goya-romano-1954 | 第21章印刷页428书目及第7章p.192注2；R. Longhi仅作书目署名，不补全人物身份。|
+
+S5新增16条source_backed字段，两张卡各8条，记录文献类型、原题名、书目署名、刊名、卷号、出版年、页码和Haskell引注位置。Griseri条目的OCR页码连写和Longhi条目的错置Paragone标题沿用既有S2页图校读；S0 OCR转录未改写。
+
+S6逐项裁决：两项均符合archive到archive的cites类型和值域，只确认Haskell注2的书目引注及页码，不把被引内容视为已核实。
+
+| statement_id | 裁决 |
+|---|---|
+| st-chp7-p192-n2-cite-griseri | formal rel-1791 cites；p.192 n.2，1956，pp.33–39。|
+| st-chp7-p192-n2-cite-longhi | formal rel-1792 cites；p.192 n.2，1954，pp.28–39。|
+
+本批新增2个S4映射、16条S5字段、2项S6 formal决定；S3决定数、S2 statement数和独立复核分子不变。
