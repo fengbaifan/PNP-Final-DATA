@@ -13172,3 +13172,36 @@ note 1 的 Pascoli 引注属于相邻 Canini 讨论，不纳入本批 Altieri �
 57条字段经 `build_field_facts.py` 定向预览／应用，warnings=0。11张新卡与Patrons and Painters、Canini、Rosa、James Altham四张受影响旧卡共15张定向渲染并完成写后字节核验；同范围复预览 `files_to_write=0`。全库只读预检显示575张卡存在待渲染差异；本批未全库写回。
 
 批后 `audit_tables.py --strict-stage --summary`：`kus=2805`、`candidates=12424`、`alignments=12766`、`alignment_new_pending_registration=3055`、`candidate_backlog_rows=33`（pending=0）、`relations=1905`（1,890 formal、15 pending）、`enrichment_rows=13119`（1,634 unverified）、`book_statements=15328`、`mentions=26779`、`s2_missing=[]`、`errors=[]`。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另有1,365个孤立KU及2个超过50条关系的对象供后续语义核查。S6累计逐项裁决1,153/10,543（674 formal、372 pending、107 rejected），余9,390条。S2独立复核分子仍为9,617，按statement ID和来源版次核平前不视为接收或确定完成比例。
+### S4／S5／S6：第7章 p.201 建筑端点登记与关系裁决（2026-10-24）
+
+#### 范围与 S4 映射
+
+本批处理印刷页201 L46–48与L54中三个已有 S3 `new` 建筑候选及其直接关系端点。三组此前均无 KU 映射，人物端点已登记：Fischer von Erlach、Lucas von Hildebrandt、Domenico Martinelli。
+
+| 候选 | S3 身份组与证据锚点 | S4 去向 | 身份范围 |
+|---|---|---|---|
+| `cand-7306` | `sg3-place-cand-7306`；第7章 p.201 L46 | `units/places/prince-eugene-winter-palace-vienna` | 只保留 Haskell 所称欧根亲王冬宫；不匹配某座现存建筑或补入地址。 |
+| `cand-7307` | `sg3-place-cand-7307`；第7章 p.201 L46–47 | `units/places/two-belvederes-prince-eugene-vienna` | 两座 Belvederes 保持为一组；不按附近 Upper／Lower 称谓拆成两个具体建筑。 |
+| `cand-7317` | `sg3-place-cand-7317`；第7章 p.201 L54 | `units/places/liechtenstein-family-town-palace` | 与已登记的 Liechtenstein garden palace 分开；保留来源局部的 town palace 名称。 |
+
+三张地点卡各保留原书页码、引文及双语描述，没有新增外部身份或现存建筑识别。S4新增3条候选映射；未新增S2 statement或mention。
+
+#### S5 来源字段
+
+`build_field_facts.py` 定向提取3张卡的6行字段；所有行均锚定 Haskell 第7章 p.201，`records_with_source=6`、`unverified=0`、`warnings=0`。字段只记录建筑称谓、成对范围、来源所述活动及必要限定；不把关系待证状态提升为已核实的建筑责任事实。
+
+#### S6 逐项裁决
+
+| S2 statement | 端点 | 决定 | 理由与解除条件 |
+|---|---|---|---|
+| `st-chp7-p201-v-winter-palace-begun-by-fischer` | 冬宫 → Fischer von Erlach | pending `rel-1906 entrusted_to_build` | Haskell只说冬宫由Fischer“begun”；未说明正式委托、精确职责或完工情况。取得能界定其建筑角色或委托关系的来源后再判断；当前不建formal边。 |
+| `st-chp7-p201-v-belvederes-by-hildebrandt` | 两座Belvederes → Lucas von Hildebrandt | pending `rel-1907 entrusted_to_build` | 原文“by”未区分设计、施工或正式委托，也未逐座识别对象。`entrusted_to_build`仅作为place→person待审候选；没有委托证据前不正式化。 |
+| `st-chp7-p201-v-martinelli-town-palace-1691` | town palace → Domenico Martinelli | pending `rel-1908 entrusted_to_build` | “came to build”保留1691语境，但句子未命名委托人或确认完工；在不推定正式委托或施工完成前保持pending。 |
+
+三项均留在`relations.csv`作待证记录，所有端点现有KU；未将建筑师归属、施工意向或时间改写成正式关系。每项保留具体statement、页码、来源文件、角色及解除条件。
+
+#### 卡片投影与机械核验
+
+三张新地点卡按关系表和字段表定向渲染，3/3写后字节核验通过；逐卡复预览无差异，字段抽取复预览`new_ids=0`、`record_changes=0`。严格表审计：`kus=2808`、`candidates=12424`、`alignments=12766`、`alignment_new_pending_registration=3052`、`candidate_backlog_rows=33`（pending=0）、`relations=1908`（1890 formal、18 pending）、`enrichment_rows=13125`（1634 unverified）、`book_statements=15328`、`mentions=26779`、`s2_missing=[]`、`errors=[]`。关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`；孤立KU为1,362、over-connected为2，属于全局诊断，不代表全书语义验收。
+
+S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），尚余9,387。S2统一独立复核分子仍为9,617；本批不计入分子，也不代表S2接收或S3–S6全书收口。
