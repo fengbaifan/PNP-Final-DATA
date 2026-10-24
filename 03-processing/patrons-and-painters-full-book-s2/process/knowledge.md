@@ -13572,3 +13572,35 @@ Pietà 地点的六条直接关系候选现为 2 formal、4 pending：本批新�
 9张目标卡均逐卡运行 `build_cards.py --preview --ku`；其中关系表预览变化限于 Gazzetta Veneta、Pietà 立面、Pietà 教堂地点、Rubens 组画及 Peter Paul Rubens 人物卡。随后对9张卡定向 `--render`，预检 `cards=9`、`tables=4`、`rows=24`、`projected_relation_rows=8`、`cards_with_relation_changes=5`、`files_to_write=5`；5个文件均写后字节核验通过，恢复快照已清理。
 
 `python scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,844、候选=12,424、alignment=12,766、待S4登记=3,013、关系表=1,940（1,916 formal、24 pending）、S5字段=13,177（1,634 unverified）、S2 statements=15,343、mentions=26,781、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；孤立KU 1,369、over-connected KU 2，属全库既有结构统计，不是本批阻断项。`git diff --check` 通过。审计仍提示3,013条 new 候选待S4登记及S2语义复核质量需继续核对；本批不改变 S2 独立复核分子，不构成 S2 接收或 S3–S6 全书收口。
+
+
+### S4/S6：第9章 p.250、p.275 S. Canciano 与 Corner 立面关系端点（2026-10-25）
+
+本批沿用既有 S3 身份决定登记 4 个直接关系端点；没有新增或改写 S3 决定。先按候选 ID、原文提及和 S2 statement 检索全书相关记录：p.250 的 Widmann 宫殿“near S. Canciano”是 relation_candidate=false 的地点语境；不据此生成正式 located_at 边。p.275 共发现 7 条 relation_candidate=true statement，以下逐项在 S6 裁决。cand-8771 祭坛组仍是 S3 undecided，本批不为其登记 KU。
+
+#### S4 登记
+
+| candidate_id | S3 组 / 决定 | KU | 登记依据与边界 |
+|---|---|---|---|
+| cand-8198 | sg3-place-cand-8198 / new | units/places/church-of-san-canciano-venice | p.250 将其作为 Widmann 宫殿附近的地标；p.275 称其为 Corner 的教区教堂。按同一书内地名候选登记地点，不外推现存建筑身份。 |
+| cand-8772 | sg3-term-cand-8772 / new | units/terms/flaminio-corner-uniform-marble-altar-preference | 记录来源所述的统一祭坛材质、形状与尺寸偏好，不称为已实施的全城建筑计划。 |
+| cand-12106 | workgrp-02e570dfb82360 / new | units/works/great-marble-facade-s-rocco | p.275 独立指称 S. Rocco 大理石立面；与教堂地点分立，不认定完工、设计者或 Corner 出资。 |
+| cand-12107 | workgrp-77c5022267d229 / new | units/works/great-marble-facade-carita | p.275 独立指称 Carità 处的大理石立面；保留地点身份、完工与出资未定。 |
+
+S4 后将 cand-8771 留在未决队列，未建立占位 KU。新增 4 张双语卡及 4 条 manifest、alignment、accepted 映射；未增加 S5 字段或外部身份标识。
+
+#### S6 逐项裁决
+
+7 条关系候选均裁为过程级 pending，不向 relations.csv 写入待证占位边：
+
+| statement_id | 决定 | 理由与解除条件 |
+|---|---|---|
+| st-chp9-p275-corner-advised-carita-facade | pending | “以建议鼓励、若非资金支持”不等于委托、设计或资助，当前词表没有精确“建议／鼓励兴建”谓词；Carità 地点身份也未定。待类型与地点证据具备后复裁。 |
+| st-chp9-p275-corner-advised-srocco-facade | pending | 同样不将建议鼓励改写为委托、设计或资助；来源不能证明 Corner 付款或立面完工。 |
+| st-chp9-p275-corner-harmony-creed | pending | 来源将“和谐”称为 Corner 的信条并报告其尝试贯彻，但没有可精确表达信念／设计原则的受控关系类型；不转换为 influenced_by。 |
+| st-chp9-p275-corner-marble-altar-preference | pending | 来源报告 Corner 希望威尼斯教堂祭坛以大理石替代石材；无精确偏好谓词，不把愿望写成实际实施或普遍影响。 |
+| st-chp9-p275-corner-uniform-altar-rules | pending | 来源报告同一教堂内祭坛应使用相同大理石并具相同形状、尺寸；无精确规则／偏好谓词，也不外推所有教堂的执行情况。 |
+| st-chp9-p275-priest-says-corner-built-altars | pending | “Built”来自 Haskell 转述未具名牧师的葬礼引语，且祭坛组 cand-8771 仍 undecided；未识别作品范围和精确角色前不登记委托或创作边。 |
+| st-chp9-p275-sanciano-surviving-style | pending | 教堂包含“该风格最完整现存例子”的说法没有精确受控谓词；例子对象指向未决的 cand-8771 祭坛组。 |
+
+S2 的非关系陈述（包括 p.250 宫殿邻近语境、p.275 Corner 的建筑兴趣、对戏剧性檐饰的反感、祭坛外观描述和审美比较）不进入本批 S6 计数。S5 与 S2 独立复核分子不变。
