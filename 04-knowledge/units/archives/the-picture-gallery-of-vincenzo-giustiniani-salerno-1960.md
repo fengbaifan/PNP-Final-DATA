@@ -63,6 +63,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S6 statement st-chp2-seci-l95-106-citation-salerno; object candidate cand-4324; S3 identity group archive-group-bd46446e4adc. Haskell citation only.；角色：被引文献；范围：The note points to Salerno’s published inventory; the bibliography and existing archive unit identify the title and 1960 publication. The edge records only Haskell’s citation.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_i.md)；haskell-1980-rev-ed；Chapter 2, printed p. 29 n. 5, Markdown L104, PDF p. 10; S2 statement: st-chp2-seci-l95-106-citation-salerno |
 
-S2 候选陈述 `st-chp2-seci-l95-106-citation-salerno` 与 `st-chp4-intro-notes-02-salerno-citation` 保留待 S6 裁决；书目条目本身不验证该文章的内容。作者人物候选 `cand-4323` 仍为 undecided，本卡不为其创建身份链接或正式作者关系。
+
+S2 候选陈述 `st-chp2-seci-l95-106-citation-salerno` 已裁为 formal（`rel-1979`）；第4章候选 `st-chp4-intro-notes-02-salerno-citation` 仍待 S6 裁决。书目条目本身不验证该文章内容。作者人物候选 `cand-4323` 仍为 undecided，本卡不为其创建身份链接或正式作者关系。

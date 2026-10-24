@@ -47,12 +47,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份边界
 
-本卡与同一书目项中的 Brugnoli 另一篇论文 *Il soggiorno a Roma di Bernardo Castello e le sue pitture nel Palazzo di Bassano di Sutri* 分开登记；作者相同、年份相同及共享页码不表示两篇文章是同一文献。`cand-4327` 的作者人物身份仍为 S3 `undecided`，本卡不创建或链接人物 KU。
+本卡与同一书目项中的 Brugnoli 另一篇论文 *Il soggiorno a Roma di Bernardo Castello e le sue pitture nel Palazzo di Bassano di Sutri* 分开登记；两篇题名分别作为文献身份保留。原书将两项列在 `Brugnoli, M. V.` 名下，故本卡通过 `authored_by` 关系连接到书内作者形式人物组 `new-person:m-v-brugnoli-ebd4150191`。缩写未展开，未声称匹配外部人物身份。
 
 ## 关系与证据
 
 ### 关系记录
 
-本卡没有新增正式关系。以下1条书内引文候选仍待S6审查：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S6 statement st-chp2-seci-l95-106-citation-brugnoli-frescoes; object candidate cand-4329; S3 identity group archive-group-brugnoli-albani-domenichino-bassano-1957. Haskell citation only.；角色：被引文献；范围：Note 5 names M. V. Brugnoli among 1957 articles; the bibliography separately lists this second title. Reuses the existing archive unit; article unread.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_i.md)；haskell-1980-rev-ed；Chapter 2, printed p. 29 n. 5, Markdown L104, PDF p. 10; S2 statement: st-chp2-seci-l95-106-citation-brugnoli-frescoes |
+| → 作者（`authored_by`） | [M. V. 布鲁尼奥利（M. V. Brugnoli）](../persons/m-v-brugnoli.md) | Bibliography-backed structural authorship; source statement st-chp21-bib-l243-293-entry-16. S3 person group linked in this batch. No external identity expansion.；角色：书目责任者；范围：Bibliography places the second quoted title under Brugnoli, M. V.; this reuses the same source-defined person group. Initials are not expanded; article unread.；证据：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p. 417, Markdown L266–L268.; S2 statement: st-chp21-bib-l243-293-entry-16; author form: Brugnoli, M. V. |
 
-- `st-chp2-seci-l95-106-citation-brugnoli-frescoes`
+第2章的书内引注已裁为 formal（`rel-1982`）；书目责任者关系也已按原书作者形式登记。文章及其内容未独立查阅。

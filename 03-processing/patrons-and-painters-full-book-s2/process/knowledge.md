@@ -13877,3 +13877,54 @@ Haskell来源卡与两张新archive卡定向预览后渲染；写后复预览3/3
 Haskell来源卡和六张新卡逐卡预览后定向渲染；写后字节核验通过，复预览7/7无差异。严格表审计 scripts/audit_tables.py --strict-stage --summary 退出码0：KU=2,881，候选=12,426，待S4登记=2,980，relations.csv=1,978（1,954 formal、24 pending），S5字段=13,286（1,634 unverified），S2 statements=15,348、mentions=26,787，s2_missing=[]、errors=[]。关系一致性审计 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic=0。git diff --check退出码0。
 
 批后S2统一独立复核仍为9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,076、conflict=9、excluded=103、undecided=5,184；S4已映射2,096/5,076条new；S6已裁决1,291/10,564（732 formal、449 pending、110 rejected），余9,273；candidate-backlog.csv仍为36条（12 completed、24 undecided，严格审计pending=0）。依据relation_candidate语句的去重端点候选ID重算，未映射new关系端点为1,263；批前基线为1,269，较旧结果摘要所记1,268校正一项计数。S2 statement与mention未变，本批不构成S2接收或S3–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp2-p29-bassano-bibliography-citations-20261025"></a>
+### S3/S4/S5/S6：第2章 p.29注5与第21章1957年书目、作者及引注端点（2026-10-25）
+
+#### S3跨章身份分组与裁决
+
+核对第2章印刷页29注5（Markdown L104，PDF p.10）、第21章书目第417、422、434、438页，以及第1、6章相应引注。身份分组以题名、书目责任者、年份、页码和书内锚点为据；没有把相近题材、同一条书目著录或脚注提及直接当作同一对象。相关原始论文和被引页未独立查阅。
+
+| 候选 | 本批决定／组别／去向 | 身份理由及边界 |
+|---|---|---|
+| cand-4323 | 保持 undecided；不建KU | 第2、4章仅见 Salerno／Dr. Salerno，现有书内材料不足以确定人名；与已登记的 Salerno 1960 文献 cand-4324 分开。 |
+| cand-4324 | 沿用 new；复用既有 Salerno 文献KU | 第2章注5的 Salerno 引注已与书内唯一对应文献记录及既有KU相连；本批复用，不新建卡。 |
+| cand-4325 | 沿用 new；人物组 new-person:paolo-portoghesi-c16452fb6c | 第2章注5写 Paolo Portoghesi；第6章有 P. Portoghesi 1955 引注，第21章列 P. Portoghesi 书目。限于本书内的名称对应，不主张外部身份核验。 |
+| cand-4326 | 沿用 new；archive-group-270ee4909a4b | 第21章印刷页434列 Portoghesi 1957 文章题名、期刊和 pp.222–240，与第2章注5的 1957 年 Portoghesi 引注相合。 |
+| cand-4327 | undecided → new；人物组 new-person:m-v-brugnoli-ebd4150191 | 第2章作 M. V. Brugnoli；第21章印刷页417同一责任者项下列两篇不同题名文章。保留首字母形式，不扩展姓名。 |
+| cand-4328 | 沿用 new；archive-group-29549968ccc7 | 第21章 p.417 第一篇 Brugnoli 文章，题名为 *Il soggiorno a Roma…*；与同项第二篇文章分开登记。 |
+| cand-4329、cand-11270 | 沿用 new；复用同一既有 Frescoes archive KU | 第21章 p.417 第二篇 *Gli affreschi dell’Albani e del Domenichino…* 与正文候选由题名、作者、年份相合；与 cand-4328 的第一篇文章保持不同身份。 |
+| cand-4330、cand-3516 | cand-4330 沿用 new；cand-3516 undecided → new；同属 new-person:faldi-italo-b95de85025 | 第2章注5写 Italo Faldi；第1章 p.14 n.3 的 Faldi 引 pp.278–295，与第21章 p.422 的 Faldi, Italo 1957 书目页码相合。由书内跨章证据归为一个 source-local 人物组，不映射外部人物KU。 |
+| cand-4331 | 沿用 new；复用既有 Faldi archive KU | 第21章 p.422 的 Faldi 1957 文章与现有 Sala del Cavaliere archive KU 对应。 |
+| cand-4332 | 保持 undecided；不与 cand-4333 或 cand-9345 合并 | 第2章注5仅作 I. Toesca；无法据书内现有材料确认与第21章 L. Toesca 的作者身份相同。 |
+| cand-4333 | 沿用 new；archive-group-4615b4c5c6c2 | 第21章 p.438 L.1169 给出 *Note sulla storia del Palazzo Giustiniani a San Luigi dei Francesi*、期刊、年份和页码，足以单独识别该书目文章；并不能证明第2章 I. Toesca 即为该文作者或注5引的就是此文。 |
+
+本批新增7条映射：cand-4325、4326、4327、4328、3516、4330、4333；复用已映射KU的候选为 cand-4324、4329、4331、11270。第2章另一个待证的人物 Salerno 与 Toesca I. 均保留原身份决定，不因S4可登记文献而强行合并。
+
+#### S4登记与S5字段
+
+新增6张KU并更新 accepted.yml、ku-manifest.csv：3篇archive文献（Portoghesi 1957、Brugnoli《贝尔纳多·卡斯泰洛…》1957、Toesca L. 1957）及3个书内限定人物组（Paolo Portoghesi、M. V. Brugnoli、Italo Faldi）。新增15条 source_backed 书目字段 enr-17201–enr-17215，每篇文献记录原题、书目责任者形式、期刊、年份、页码范围各5项；均以第21章书目为来源。它们不代表论文或被引页已经独立阅读。
+
+为 L. Toesca 作者身份新增待办 bl-0037（suggested_type=person，status=undecided），无 candidate_id、无 KU；在身份查明前不建 authored_by 边。I. Toesca cand-4332 仍是独立待决候选。
+
+#### S6逐项裁决
+
+| 语句／关系 | 决定 | 关系去向与限制 |
+|---|---|---|
+| st-chp2-seci-l95-106-citation-salerno | formal | rel-1979 cites：Haskell → 既有 Salerno 1960 文献KU；只记录书内引注。 |
+| st-chp2-seci-l95-106-citation-portoghesi | formal | rel-1980 cites：Haskell → Portoghesi 1957 文章KU；引注与书目相合，文章未独立查阅。 |
+| st-chp2-seci-l95-106-citation-brugnoli-castello | formal | rel-1981 cites：Haskell → Brugnoli 第一篇文章KU。 |
+| st-chp2-seci-l95-106-citation-brugnoli-frescoes | formal | rel-1982 cites：Haskell → 既有 Brugnoli Frescoes 文章KU。 |
+| st-chp2-seci-l95-106-citation-toesca | pending | rel-1983 暂存 Haskell → Toesca L. 文章的可能引注；第2章作 I.、第21章作 L.，注5无题名，不能正式确认。 |
+
+另按第21章书目责任者记录4条结构性 authored_by 边 rel-1984–rel-1987：Portoghesi 1957文章→Paolo Portoghesi；Brugnoli 两篇不同文章→同一 M. V. Brugnoli 书内限定人物组；既有 Faldi 1957文章→Italo Faldi。四边有书目项和作者形式支持，不扩展到外部人物身份；这些结构性边不属于S2关系候选分母。
+
+本批将 st-chp2-seci-l95-106-citation-toesca 的 qualifiers 修正为“仅属可能书目匹配、首字母不同、关系仍待证”，没有新增或删除statement，也未把该修订计入统一S2独立语义复核分子。
+
+#### 定向渲染与审计
+
+十张相关卡完成定向预览；字段表预览9张表、62行、254个投影关系，8张卡存在待写变更；渲染后复预览均无剩余差异（files_to_write=0）。Salerno 与 Brugnoli Frescoes 卡的关系段同步更新为本批正式映射／边及仍待决事项。`python scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,887；候选=12,426；new待S4登记=2,975；backlog=37（12 completed、25 undecided、严格审计pending=0）；relations.csv=1,987（1,962 formal、25 pending）；S5字段=13,301（1,634 unverified）；S2=15,348 statements／26,787 mentions，`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；`git diff --check`退出码0。
+
+批后状态：S2统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision不一致项；S4已映射2,103/5,078、待登记2,975，KU=2,887；S5=13,301（1,634 unverified）；S6已裁决1,296/10,564（736 formal、450 pending、110 rejected），余9,268。relation_candidate语句涉及的去重端点中，决定一致为new且尚无KU的候选为1,260；另有337条语句至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。本批不是S2接收，也不表示S3–S6全书收口；S7仍未启动，知识发现与页面继续暂停。
+
+下一步先处理仍未登记且直接承载书内关系的明确new候选，例如 cand-6352（第6章 Portoghesi 1955书目／引注端点），每批同时完成相应S4、来源可支持的S5及已有S2候选的S6；遇到身份或端点不明则保留 undecided／pending 和待办。随后按候选类型核平26个跨来源decision差异及S3未决项；同时继续按章推进S2独立语义复核，并定点处理337条缺候选端点ID语句。S5只补有明确证据的字段，S6逐条裁决，不以端点数量替代语义判断。S7须等S4–S6具备正式收口条件后再启动；Topic/Theme/Dimension/Domain发现及页面仍需用户明确启动。
