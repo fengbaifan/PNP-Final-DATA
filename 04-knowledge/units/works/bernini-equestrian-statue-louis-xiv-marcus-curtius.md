@@ -77,4 +77,15 @@ English: This candidate is distinct from the existing Portrait of Louis XIV by B
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其委托（`commissioned_by`） | [路易十四（Louis XIV）](../persons/louis-xiv.md) | The statue remains distinct from the Louis XIV bust and Constantine equestrian statue.；角色：commissioner；范围：Haskell says Louis XIV ordered the equestrian statue after being impressed by Bernini’s bust. This records the commission, not completion.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, L237; S2 statement: st-chp7-p188-i19 |
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | Records Bernini’s authorship as stated by Haskell; the source phrase concerns the start of work.；时间：four years after Bernini’s return to Rome；角色：sculptor；范围：Haskell says Bernini began work on the statue four years after returning to Rome; the relative interval is retained and no absolute year or completion date is inferred.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, L237–238; S2 statement: st-chp7-p188-i20 |
+| → 位于（`located_at`） | [巴黎（Paris）](../places/paris.md) | The year 1684 describes arrival in Paris only.；时间：1684；角色：arrival destination；范围：Haskell says the statue did not reach Paris until 1684, after Bernini’s death. This is its reported historical arrival destination, not a statement of present location.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, L238; S2 statement: st-chp7-p188-i21 |
+| → 位于（`located_at`） | [凡尔赛园地的偏远角落（Remote Corner of the Grounds at Versailles）](../places/versailles-remote-corner-grounds.md) | Endpoint orientation records the work’s destination; Louis XIV is retained as action agent in S2 qualifiers.；角色：historical placement destination；范围：Haskell says Louis XIV had the statue banished to a remote corner of the Versailles grounds. The exact corner is not identified; this is not a present-location claim. Louis XIV remains the action agent in the source statement.；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, L240; S2 statement: st-chp7-p188-i30 |
+
+### 关系候选入口
+
+[第七章 p.188 骑马像端点与关系裁决](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p188-endpoints-20261024)

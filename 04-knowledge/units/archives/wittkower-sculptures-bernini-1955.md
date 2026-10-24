@@ -100,6 +100,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | Records the explicit bibliographic citation only.；角色：cited source；范围：Chapter 7 note 1 cites Wittkower 1955, pp.230–231. The cited pages have not been independently read in this batch.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, note 1, L368; S2 statement: st-chp7-p188-n1-cite-wittkower |
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | “Ibid.” resolves to the preceding Wittkower citation; records the citation and page span only.；角色：cited source；范围：Chapter 7 note 2 uses “ibid.” for Wittkower 1955, pp.234–236. The cited pages have not been independently read in this batch.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.188, note 2, L369; S2 statement: st-chp7-p188-n2-cite-ibid-wittkower |
 
-6条S2关系候选仍待S6逐项审查：`st-chp2-seci-l124-157-cite-wittkower`、`st-chp7-p176-n7-cite-wittkower`、`st-chp7-p179-n1-cite-wittkower`、`st-chp7-p179-n2-cite-wittkower-ibid`、`st-chp7-p188-n1-cite-wittkower`、`st-chp7-p188-n2-cite-ibid-wittkower`。本批不把引文直接转为正式关系，也不把书目当作被引页内容的独立核验。
+
+4条其他S2关系候选仍待S6逐项审查：`st-chp2-seci-l124-157-cite-wittkower`、`st-chp7-p176-n7-cite-wittkower`、`st-chp7-p179-n1-cite-wittkower`、`st-chp7-p179-n2-cite-wittkower-ibid`。本批已将第七章p.188注1、注2的引注裁为formal cites；这些引注不表示所引页已独立查阅。

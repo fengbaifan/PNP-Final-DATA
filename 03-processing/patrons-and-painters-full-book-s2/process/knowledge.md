@@ -12767,3 +12767,82 @@ S4 新增1个 event KU、2条候选映射，并登记到 `ku-manifest.csv` 与 `
 #### 卡片与批后检查
 
 经预览后定向更新售藏事件卡、Joseph Smith 人物卡及 George III 人物卡的关系投影；George III 卡移除“当前没有正式关系”及过时的待裁决总数表述。严格表审计：`kus=2740`、`alignment_new_pending_registration=3121`、`relations=1842`（1,829 formal、13 pending）、`enrichment_rows=12929`（1,634 unverified）、`book_statements=15310`、`mentions=26774`、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0。S2统一独立复核分子不变，仍未接收；本批不是全书 S2 验收，也不构成 S4–S6 全书收口。
+
+<a id="s3-s4-s5-s6-chp7-p188-endpoints-20261024"></a>
+### S3跨章身份组／S4登记／S5字段／S6逐项裁决：第6章注2与第7章 pp.187–188 Bernini 端点（2026-10-24）
+
+#### S3身份分组与S4登记
+
+对第6章 p.148 n.2 与第7章 pp.187–188 的直接关系端点按对象类型和来源锚点复核。cand-6353 在第6章注2及第7章 p.188 分别指向君士坦丁骑马像，归入既有同一 work 组 `workgrp-bd403eb3ba35c3`；其余登记对象沿用各自既有 S3 `new` 身份组。S3 `new` 决定登记如下；这批身份均以书内锚点支持，不声称完成外部身份核验。
+
+| candidate_id | S3身份组／对象范围 | S4 KU |
+|---|---|---|
+| `cand-1082` | `sg3-term-cand-1082`；17世纪法国对意大利艺术的敌意 | `units/terms/french-hostility-italian-art-17th-century` |
+| `cand-6353` | `workgrp-bd403eb3ba35c3`；Bernini 的君士坦丁骑马像 | `units/works/bernini-equestrian-statue-constantine` |
+| `cand-6900` | `sg3-term-cand-6900`；Haskell 所述法国本土艺术趣味 | `units/terms/native-french-artistic-taste` |
+| `cand-6909` | `sg3-term-cand-6909`；Colbert 的费用与房间安排考量 | `units/terms/louvre-expense-room-arrangement-constraints` |
+| `cand-6910` | `sg3-institution-cand-6910`；Haskell 对法国君主制机构差异的论述 | `units/institutions/french-monarchy-haskell-account` |
+| `cand-6911` | `sg3-procedure-cand-6911`；教皇更替时更新统治实践 | `units/procedures/papal-succession-renewal-practice-haskell` |
+| `cand-6912` | `sg3-term-cand-6912`；法国王室继承与先王记忆 | `units/terms/french-hereditary-succession-memory` |
+| `cand-6914` | `sg3-event-cand-6914`；Bernini 返程至罗马 | `units/events/bernini-return-to-rome` |
+| `cand-6919` | `sg3-term-cand-6919`；Haskell 归述的国家宗教与教皇独立目标 | `units/terms/state-religion-papal-independence-haskell` |
+| `cand-6921` | `sg3-term-cand-6921`；Haskell 论述中的 Italian floridity | `units/terms/italian-floridity-haskell-account` |
+| `cand-6922` | `sg3-place-cand-6922`；凡尔赛园地内未精确定位的偏远角落 | `units/places/versailles-remote-corner-grounds` |
+| `cand-6924` | `sg3-term-cand-6924`；Haskell 论述中的意大利艺术在法国的声望 | `units/terms/italian-artistic-prestige-france` |
+
+候选 `cand-6913`（court factions）和 `cand-6920`（ultramontane claims）从 `new` 退回 `undecided`，不登记 KU：前者未识别具体派系、成员或可稳定界定的集合；后者没有指出一项离散主张，不能把泛称 claim 直接当作知识元。两项保留独立 S3 组和来源锚点，等待可识别对象与类型依据。另将 `cand-6911` 的类型从 term 精确为 procedure，因为原文描述反复发生的更替实践；身份决定仍为 `new`。`cand-6921` 的规范标签收窄为 “Italian floridity in Haskell’s account”，明确归述范围，不改变身份组。
+
+#### S2端点与原文转录修订
+
+修订 `st-chp6-notes-l123-p148-n2`：主客体为君士坦丁骑马像 `cand-6353` → Innocent X `cand-1819`，谓词 `commissioned_by`；保留 Haskell “only important” 的范围限定，不推断作品完成。扫描图（CHP-6 physical page 3 / printed p.148 n.2）读作 “the Fountain”，而 S0 Markdown 转录为 “die Fountain”。`original_quote` 现逐字匹配 S0 引文行；扫描校读仍记录在 `qualifiers.ocr_corrections`，不改写 S0 来源资产。
+
+修订 `st-chp7-p188-i30`：端点从人物→地点调整为作品 `cand-6917` →凡尔赛园地 `cand-6922`，保留谓词 `banished_to_versailles_grounds`；Louis XIV 作为行动者留在 S2 qualifier。该边只表示 Haskell 所述历史安置，不指示具体角落或当前所在地。上述为既有 statement 定点更正；本批不新增 statement／mention，也不增加独立 S2 复核分子。
+
+#### S5来源支持字段
+
+新增 14 条 Haskell 原书支持字段 `enr-16874`–`enr-16887`，覆盖本批 12 张新卡；包括法国敌意及变化、君士坦丁像委托者与其和路易十四骑马像的请求关系、法国本土趣味、行政考量、制度比较、教皇更替实践、王室继承记忆、Bernini 返罗马时间界限、国家宗教目标、Italian floridity、凡尔赛历史安置及意大利艺术声望。字段均按原书归述保留范围；不新增来源登记或外部身份断言。
+
+#### S6逐项裁决
+
+本批 32 项关联候选均记录明确去向：9 formal、20 pending、3 rejected。第7章 p.188 i15–i18 的既有裁决沿用，不重复计数或建边。
+
+| statement_id | 去向 | 裁决与边界 |
+|---|---|---|
+| `st-chp6-notes-l123-p148-n2` | formal `rel-1851` | `commissioned_by`：君士坦丁骑马像→Innocent X；只记录 Haskell 的委托归述，不宣称完工。 |
+| `st-chp7-p187-i18` | rejected | “超过纯粹种族情绪”是对敌意成因的限定，不构成可识别的正向关系边。 |
+| `st-chp7-p187-i20` | pending | 对方案“过于繁复／Baroque”的批评未形成当前受控谓词可准确表达的关系。 |
+| `st-chp7-p188-i01` | formal `rel-1852` | `advised`：Bernini→Louis XIV；直接劝请国王委托更宏大工程，不推断具体项目完成。 |
+| `st-chp7-p188-i02` | pending | Colbert“难以同样看待此事”未明确关系角色与受控谓词。 |
+| `st-chp7-p188-i03` | pending | 费用和房间安排是行政关切，尚无可准确表达的受控关系。 |
+| `st-chp7-p188-i04` | pending | 未能理解制度差异的评价缺少准确关系谓词，不改写为人物冲突边。 |
+| `st-chp7-p188-i05` | pending | 泛述每任新教皇欲胜过前任，未识别具体教皇对及关系实例。 |
+| `st-chp7-p188-i06` | pending | 王室继承和记忆的概括性对照，不构成具体人物间关系实例。 |
+| `st-chp7-p188-i07` | pending | 原文称 Louis 向 Bernini 解释其保留既有作品的情感；当前受控谓词不能精确表达该沟通行为。 |
+| `st-chp7-p188-i08` | rejected | 原文明确称解释没有影响新方案；保留非影响陈述，不建立影响边。 |
+| `st-chp7-p188-i09` | pending | 蔑视引发敌意的因果解释未落入当前受控关系类型，保留 Haskell 归述。 |
+| `st-chp7-p188-i10` | pending | `cand-6913` 的主体派系未识别且类型边界未决，不建空端点关系。 |
+| `st-chp7-p188-i11` | pending | `cand-6906` 所指计划未定；保留国王仍有兴趣的原文断言。 |
+| `st-chp7-p188-i12` | formal `rel-1853` | `has_participant`：Bernini 返罗马事件→Bernini；只保留“至10月时在返程”的时间界限。 |
+| `st-chp7-p188-i13` | pending | 未执行的计划未形成明确事件端点；保留“普遍认为不会实施”的来源归述。 |
+| `st-chp7-p188-i19` | formal `rel-1854` | `commissioned_by`：路易十四骑马像→Louis XIV；委托不等于完工。 |
+| `st-chp7-p188-i20` | formal `rel-1855` | `created_by`：路易十四骑马像→Bernini；保留“返罗马四年后开始制作”的相对时间。 |
+| `st-chp7-p188-i21` | formal `rel-1856` | `located_at`：路易十四骑马像→Paris，时间限定 1684 年抵达；不表示当前所在地。 |
+| `st-chp7-p188-i23` | rejected | 国家／国家组合的泛化比较没有具名对手端点，不建国家间关系。 |
+| `st-chp7-p188-i24` | pending | 国王的政治宗教目标按 Haskell 归述保留；现有受控谓词不能表达其与国家宗教的具体关系。 |
+| `st-chp7-p188-i25` | pending | 作品被认为不合意，但评判主体未名，尚不能建立具名主体关系。 |
+| `st-chp7-p188-i26` | pending `rel-1860` | `model_for`：来源只证实曾要求以君士坦丁像为蓝本，不足以证明成品实际采用该模型。 |
+| `st-chp7-p188-i27` | pending | `cand-6920` 未识别离散的 ultramontane claim 对象，不建关系边。 |
+| `st-chp7-p188-i28` | pending | 对 Italian floridity 的排斥评价缺少可成立的受控关系表述。 |
+| `st-chp7-p188-i29` | pending | Louis 想拆毁雕像是意图表述，未证明动作执行，且无精确受控谓词。 |
+| `st-chp7-p188-i30` | formal `rel-1857` | `located_at`：路易十四骑马像→凡尔赛园地偏远角落；历史安置，Louis XIV 保留为行动者。 |
+| `st-chp7-p188-i31` | pending | 改动及后续称为 Marcus Curtius 的叙述无法由当前受控谓词精确表达；不把名称变化另造为人物端点。 |
+| `st-chp7-p188-i32` | pending | “总被认为”所指解释者未名，保留声望衰落的解释性归述。 |
+| `st-chp7-p188-i33` | pending | 法国自信增强与反意大利情绪上升的时间关联不足以确立直接因果关系。 |
+| `st-chp7-p188-n1-cite-wittkower` | formal `rel-1858` | `cites`：Haskell→Wittkower 1955, pp.230–231；只记书内引注，未独立查阅被引页。 |
+| `st-chp7-p188-n2-cite-ibid-wittkower` | formal `rel-1859` | `cites`：按 ibid. 回指 Wittkower 1955, pp.234–236；只记书内引注，未独立查阅被引页。 |
+
+上述 9 条正式关系和1条待证关系分别写入 `relations.csv` 的 `rel-1851`–`rel-1860`；3 条 rejected 与其余 pending 理由只留在过程裁决表，不生成正式边。第7章 p.188 的既有 i15–i18 决定不纳入上述32项新裁决数。
+
+#### 卡片与批后检查
+
+12 个 S4 KU 卡片已建立；根据关系与字段投影定向渲染 9 张受影响卡，`build_cards.py --render` 写入9张并通过写后字节核验；9/9 定向复预览无差异。严格表审计当前 `kus=2757`、候选12,418、主决定12,418、S4待映射新候选3,102（已映射1,966）、S5字段12,973（1,634 unverified）、S6累计1,035/10,531（629 formal、304 pending、102 rejected）、关系表1,860（1,845 formal、15 pending）、`s2_missing=[]`、`errors=[]`。审计仍提示S4登记未完成及S2语义复核质量尚待独立检查。关系一致性审计五类阻断项（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）均为0；这不代表孤立单元、过连接项或全书关系语义已通过。S2统一复核分子仍为9,617/15,310，未接收；本批不构成全书 S2 验收或 S3–S6 收口。
