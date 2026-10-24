@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-inquisitori-state-inquisition-20261024"></a>
+### 跨章身份复用与国家宗教裁判所关系裁决（2026-10-24）
+
+**S3 身份复核。** 当前登记触发重开 `cand-10524`（`aln-10694`）。第15章 pp.368–369 的 “State Inquisition” 与第16章 pp.376–377 的 “State Inquisition / Inquisitors of State”，结合第10章 p.320 和第15章 p.364 注1 的 Inquisitori di Stato，指向同一威尼斯机构；改判 `same → units/institutions/inquisitori-di-stato-venice`。保留原主决定 `new` 于历史与本行说明中，不将其并入 Busta 540 档案、Archivio di Stato 或 Inquisitori alle Arti。
+
+**S6 逐项裁决。** `st-chp15-p368-querini-state-inquisition-dispute-partial` formal，新增 `rel-1846 disputed_with`，限于1761年 Querini 试图削弱机构权力的争议；Haskell 将改革描述为统治阶层内部权力平衡变化，不声称改革已实施。`st-chp16-p376-toninotto-disgrace-with-state-inquisition` 保留 pending，新增 `rel-1847`：原文称 Toninotto “in disgrace with” 该机构，尚不足以确认双方争端、正式程序或结果。`st-chp16-p377-swajer-inquisitors-acquired-secret-manuscripts` 记为过程级 pending：目标 `cand-10643` 的身份／粒度仍未决，且当前关系类型范围不支持将 archive 作为 `acquired_by` 的对象；不向 `relations.csv` 写入缺失端点行。
+
+<a id="s3-s4-s5-s6-chp15-p371-de-non-voltaire-ferney-20261024"></a>
+### 第15章 p.371 De Non 伏尔泰肖像与 Ferney 端点批次（2026-10-24）
+
+**跨章分组与 S3。** `cand-10582` 沿用 `workgrp-9019ffb6d537d2` 的既有 `new` 决定，登记为哈斯克尔描述的 De Non 版画，不与既有 Jean Huber 多角度伏尔泰头部版画合并。作品题名为描述性题名；来源未给正式题名、日期或可识别存世印张。登记直接暴露地点端点后重开 `cand-10581`：将原 `undecided` 的源文本地点 “Ferney” 判为 `new` 的 place 组，空间范围限于原文命名，具体建筑／地点和外部地理身份仍未确认。
+
+**S4、S5。** 登记作品 KU `units/works/dominique-de-non-portrait-of-voltaire-at-ferney` 与地点 KU `units/places/ferney`，分别完成 `aln-10751`、`aln-10750` 映射。两张卡从第15章 p.371 L79 提取并写入7条 `source_backed` 字段（作品5、地点2）；没有为未提供的题名、日期、技法、印张或具体地点范围补造值。
+
+**S6 逐条裁决。** `st-chp15-p371-de-non-voltaire-engraving-ferney`、`st-chp15-p371-voltaire-portrait-depicts-voltaire`、`st-chp15-p371-de-non-engraved-voltaire-portrait-at-ferney` 分别 formal 为 `rel-1848 created_by`、`rel-1849 has_subject`、`rel-1850 located_at`。地点边只表达制作地点，不表示现藏或保管位置。与上面的 Querini／宗教裁判所候选合计6项直接 S6 裁决：4 formal、2 pending、0 rejected；其中5项具备有效 KU 端点并进入关系表，Swajer 手稿获取候选因端点未决仅留过程级 pending。
+
+**受影响对象与检查。** 定向渲染7张卡；渲染预检通过（7 cards、5 tables、14 rows、13 projected relation rows），7个文件写后字节核验通过，逐卡复预览均无差异。S5定向复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性审计五类阻断（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）均为0，另有1354个孤立知识元、100行孤立预览和2个高连接对象供后续语义核查，不属于本批阻断。S2独立复核分子未因本批新增S4/S5/S6而增加；全局S4仍有3116条new候选映射待登记。
+
 <a id="s4-s5-s6-ch7-p201-citations-20261024"></a>
 ### S3沿用／S4 archive登记／S5书目字段／S6逐项裁决：第7章 p.201 注2 的跨章引注（2026-10-24）
 

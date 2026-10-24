@@ -47,8 +47,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 - **书内名称形式：** Dominique De Non；同段后文明确括注其后来名称为 Dominique Vivant-Denon。中文显示名“多米尼克·德农”为项目工作译名。[第15章 p.371](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)（L77–81）
 - **索引形式：** N.csv#32 将 “Non, Dominique De” 与 “Dominique Vivant-Denon” 并列；另一个索引交叉引用候选 cand-2930 是 “see under” 导引，不是第二个人物记录。[全书索引 N.csv#32](../../../02-sources/03-Index/03-2-Index-CSV/N.csv)
-- **书内经历边界：** Venice 居留约五年、版画与收藏活动及与 Querini、Mme Rosenberg 的交往均按 Haskell 叙述保留；未将版画、收藏对象或肖像并入人物，也未另建正式关系。[第15章 p.371](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)（L77–81）
+- **书内经历边界：** Venice 居留约五年、版画与收藏活动及与 Querini、Mme Rosenberg 的交往均按 Haskell 叙述保留；Voltaire 肖像作为独立作品登记，其刻制归属另有正式 `created_by` 关系记录；其他书内关系不因共现自动确认为正式关系。[第15章 p.371](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)（L77–81）
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及此人物的 13 条 S2 关系候选仍待 S6 逐条裁决；其中与 Napoleon 的机构职务表述按书内名称形式保留，相关端点及其他关系不在 S4 中定为正式关系。[第15章 p.371](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)（L77–81）
+第15章 p.371 报告的 De Non—Voltaire 肖像刻制关系已登记为正式 `created_by`。其他涉及此人物的 S2 关系候选按各自证据与端点逐项裁决；与 Napoleon 的机构职务表述仍保留其书内名称形式，不由本条作品归属推定。[本批 S3–S6 记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp15-p371-de-non-voltaire-ferney-20261024)
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [伏尔泰肖像版画（多米尼克·德农于费尔内刻制）](../works/dominique-de-non-portrait-of-voltaire-at-ferney.md) | Records only the creator attribution reported in Haskell.；角色：engraver as reported by Haskell；范围：Haskell says Dominique De Non engraved the portrait of Voltaire; no formal title, date, or surviving impression is identified.；原断言与证据见发出端卡片“伏尔泰肖像版画（多米尼克·德农于费尔内刻制）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.371, L79; S2 statement: st-chp15-p371-de-non-voltaire-engraving-ferney |

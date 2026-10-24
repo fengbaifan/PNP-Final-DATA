@@ -56,9 +56,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡以BnF规范记录所用的Voltaire为人物名，并保留François-Marie Arouet为关联姓名。Haskell在第10、14、15章提及此人，包括思想评论、交往及版画语境；这些仍是书内叙述。本组10条S2关系候选待S6审查。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**中文：** 本卡以BnF规范记录所用的Voltaire为人物名，并保留François-Marie Arouet为关联姓名。Haskell在第10、14、15章提及此人，包括思想评论、交往及版画语境；这些仍是书内叙述。De Non 于 Ferney 刻制的肖像已作为独立作品登记，并有正式 `has_subject` 关系；其他关系候选仍按各自证据和端点逐项处理。 [S3身份记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
 
-**English:** This card uses Voltaire, the form preferred by the BnF authority, and records François-Marie Arouet as an associated name. Haskell mentions him in Chapters 10, 14, and 15 in accounts of intellectual commentary, encounters, and prints; these remain source-bounded accounts. The 10 S2 relation candidates remain for S6 review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
+**English:** This card uses Voltaire, the form preferred by the BnF authority, and records François-Marie Arouet as an associated name. Haskell mentions him in Chapters 10, 14, and 15 in accounts of intellectual commentary, encounters, and prints; these remain source-bounded accounts. The portrait engraved by De Non at Ferney is registered as a separate work with a formal `has_subject` relation. Other relation candidates remain subject to their individual evidence and endpoint review. [S3 identity and S4 registration record](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-direct-endpoint-batch-20261018)
 
 ### 姓名与身份
 
@@ -78,6 +78,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [多角度伏尔泰头像版画（Huber’s Engraving of Voltaire’s Head from Multiple Angles）](../works/jean-huber-engraving-voltaire-head-multiple-angles.md) | S2 statement: st-chp15-p370-huber-engraving-depicts-voltaire. Source-limited relation; see the anchored S6 decision in the 2026-10-22 process record.；角色：图像主题；范围：版画表现伏尔泰头像的多个角度；本边不表示伏尔泰参与版画创作。；原断言与证据见发出端卡片“多角度伏尔泰头像版画（Huber’s Engraving of Voltaire’s Head from Multiple Angles）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 67; printed p. 370; PDF physical p. 10 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [伏尔泰肖像版画（多米尼克·德农于费尔内刻制）](../works/dominique-de-non-portrait-of-voltaire-at-ferney.md) | Records the person identified as the portrait subject.；角色：depicted person；范围：Haskell describes the engraving as a portrait of Voltaire; no more specific iconography is supplied.；原断言与证据见发出端卡片“伏尔泰肖像版画（多米尼克·德农于费尔内刻制）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.371, L79; S2 statement: st-chp15-p371-voltaire-portrait-depicts-voltaire |
 
-本批未写入正式关系。与该人物对应的 10 条 S2 关系候选继续留待 S6 逐项审查；书内陈述和各自限定见 `book-statements.jsonl`。
+
+De Non 于 Ferney 刻制的肖像已登记为独立作品，并正式连接至本人物；其他 S2 关系候选仍按各自裁决状态处理，不由该作品关系替代。裁决依据见 `book-statements.jsonl` 与相应 S6 过程记录。
