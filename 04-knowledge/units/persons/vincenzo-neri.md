@@ -46,9 +46,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** 作品端点cand-6137已有new身份组但尚未登记；作品归属表述留待S6。 直接S2关系候选st-chp5-p136-neri-and-friends-immortalised-in-plate-22a仍待S6逐条裁决；本次登记不建立正式边。
+**中文：** cand-6137现已依第5章p.136与前置图版目录FM-P22a对齐至《画家及友人群像》（`same`）。本卡关联的Neri画中人物候选已裁为formal rel-1794；其他未具名朋友仍待证。
 
-**English:** Work endpoint cand-6137 has a new identity group but is not yet registered; the attribution remains for S6. Direct S2 relation candidates st-chp5-p136-neri-and-friends-immortalised-in-plate-22a remain for individual S6 review; this registration creates no formal edges.
+**English:** Candidate cand-6137 is now aligned as `same` to The artist with a group of friends, using Chapter 5, p. 136 and front-matter plate entry FM-P22a. The Neri sitter candidate is formal as rel-1794; the other unnamed friends remain unresolved.
 
 ## 关系与证据
 
@@ -58,8 +58,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [画家及友人群像（The artist with a group of friends）](../works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md) | Haskell直接称医生Vincenzo Neri与其他朋友被Cerquozzi绘入图版22a作品；未具名朋友候选cand-6138另行待证；角色：画中人物；范围：第5章印刷页136、图版22a；只识别Vincenzo Neri，不推定其他朋友身份；原断言与证据见发出端卡片“画家及友人群像（The artist with a group of friends）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 136 L41; S2 statement st-chp5-p136-neri-and-friends-immortalised-in-plate-22a |
 
-**中文：** 直接S2候选（待S6）：st-chp5-p136-neri-and-friends-immortalised-in-plate-22a。
+正式关系见上方关系表：本批新增作品→Vincenzo Neri 的 `has_subject`（rel-1794）。正文导航与线索仍不自动形成关系边。
 
-**English:** Direct S2 relation candidates pending individual review in S6: st-chp5-p136-neri-and-friends-immortalised-in-plate-22a.
+**中文：** 直接S2候选 st-chp5-p136-neri-and-friends-immortalised-in-plate-22a 已裁为 formal rel-1794（`has_subject`）。
+
+**English:** Direct S2 candidate st-chp5-p136-neri-and-friends-immortalised-in-plate-22a was adjudicated formal as rel-1794 (`has_subject`).

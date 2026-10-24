@@ -14,6 +14,16 @@ sources:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 75–75; 章前：图版目录；印刷页xiii
+- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006).'
+  location: 第5章第III节；印刷页136；L41
+  sentence_summary: Haskell称医生Vincenzo Neri与其他朋友被Cerquozzi绘入图版22a所示的一幅作品。
+  original_quotes:
+  - source_span: line 41; print p.136
+    text: 'the doctor Vincenzo Neri whom with a group of other friends he immortalised in one of his finest paintings (Plate 22a)'
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/05_CHP-5_sec_iii.md
+    source_span: line 41; print p.136
 - citation: 'RKD Studies, Gerson Digital: Italy, 2.4 The Bambocciate in Rome and Beyond. https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/. Accessed 2026-09-14.'
   location: Cerquozzi正文、图21及注38–40；未通读整章
   sentence_summary: 图21为Cerquozzi的Garden party of artists in Rome，年代1640年代初，Kassel Museum Schloss Wilhelmshöhe馆号GK 554；注39所说失踪Bent群像不是这件已知馆藏作品。
@@ -21,7 +31,7 @@ sources:
   location: 论文全文及注释：合订PDF72–79／印刷73–80；图4所在PDF74图像已看；未通读104页整卷
   sentence_summary: 图4记卡塞尔Conversation in the Garden约1650年、布面油画97.5×132.5厘米；正文及注6把左侧黑衣人辨为Simonelli，是研究者判断。
 created: '2026-09-14'
-updated: '2026-09-15'
+updated: '2026-10-24'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md#德国馆藏版本与创作委托关系
 relations:
 - relation_type: created_by
@@ -44,6 +54,17 @@ relations:
   review_status: evidence_backed_relation
   bidirectional_required: false
   scope: 图版22a题名所指画家自我描绘
+- relation_type: has_subject
+  target: persons/vincenzo-neri.md
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/05_CHP-5_sec_iii.md
+    source_span: line 41; print p.136
+  relation_source: explicit
+  review_status: evidence_backed_relation
+  bidirectional_required: false
+  role: 画中人物
+  scope: 第5章p.136图版22a；不推定其他未具名朋友身份
 - relation_type: held_by
   target: institutions/kunstsammlungen-kassel.md
   evidence_ref:
@@ -70,9 +91,9 @@ relations:
 
 ### 描述
 
-**中文：** 米开朗基罗·切尔科齐描绘画家及友人聚会的布面油画，卡塞尔馆藏号GK 554。
+**中文：** 米开朗基罗·切尔阔齐的布面油画，卡塞尔馆藏号GK 554。第5章p.136称医生温琴佐·内里与其他朋友被画家绘入图版22a所示作品；其他朋友未具名。
 
-**English:** An oil painting by Michelangelo Cerquozzi depicting a gathering of the artist and friends, catalogued in Kassel as GK 554.
+**English:** An oil painting by Michelangelo Cerquozzi, catalogued in Kassel as GK 554. Chapter 5, p. 136, says doctor Vincenzo Neri and other friends were immortalized by the painter in the work shown as Plate 22a; the other friends remain unnamed.
 
 ### 名称
 
@@ -119,6 +140,7 @@ relations:
 | → 所涉对象（`has_subject`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | 范围：图版22a题名所指画家自我描绘；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; print p. xiii |
 | → 由其保管（`held_by`） | [卡塞尔艺术收藏机构（Kunstsammlungen, Kassel）](../institutions/kunstsammlungen-kassel.md) | 范围：本书图版22a所记保管机构；不推定取得时间；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; print p. xiii |
 | → 由其保管（`held_by`） | [威廉高地宫博物馆（Museum Schloss Wilhelmshöhe）](../institutions/museum-schloss-wilhelmshoehe.md) | 范围：RKD图21所记保管机构；不视为与书中机构之间的转让；证据：[来源](https://gersonitaly.rkdstudies.nl/2-rome/24-bambocciate-rome-and-beyond/)；src-1284a8465656ff73；图21；GK 554 |
+| → 所涉对象（`has_subject`） | [温琴佐·内里（Vincenzo Neri）](../persons/vincenzo-neri.md) | Haskell直接称医生Vincenzo Neri与其他朋友被Cerquozzi绘入图版22a作品；未具名朋友候选cand-6138另行待证；角色：画中人物；范围：第5章印刷页136、图版22a；只识别Vincenzo Neri，不推定其他朋友身份；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 136 L41; S2 statement st-chp5-p136-neri-and-friends-immortalised-in-plate-22a |
 
 ### 关系候选入口
 

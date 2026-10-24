@@ -12480,3 +12480,19 @@ S4将 `cand-7629` 映射至 `units/works/santa-maria-maggiore-gothic-portico-ber
 S6候选 `st-chp8-p215-campione-erected-gothic-portico-1355` 逐项裁为 formal `rel-1793 erected_by`，方向为门廊作品→Giovanni da Campione。原文直接称 Giovanni 于1355年建造门廊，谓词与 work→person 值域相符。该边不推定设计、委托、两座石狮的作者，也不把1355年移给另一个南入口。同步更新 Giovanni 人物卡的关系说明与 S4 对齐理由。
 
 本批没有新增或修改 S2 statement/mention，没有修改 S3 决定或 S2 独立复核分子。S4增加1条候选映射，S5增加3条来源支持字段，S6增加1项 formal 决定和1条正式关系；门廊与Giovanni两张卡定向渲染后复预览均无差异。`audit_tables.py --strict-stage --summary`：`kus=2711`、`candidates=12418`、`alignments=12754`、`alignment_new_pending_registration=3152`、`relations=1793`（1,780 formal）、`enrichment_rows=12876`（1,634 unverified）、`book_statements=15301`、`mentions=26772`、`s2_missing=[]`、`errors=[]`；warning仅提示剩余S4新组未登记及S2语义质量仍需审查。关系一致性审计五类结构阻断均为0。
+
+<a id="s3-s4-s6-chp5-p136-cerquozzi-plate22a-20261024"></a>
+
+### S3跨章身份复用／S4端点映射／S6：第5章 p.136 Cerquozzi Plate 22a（2026-10-24）
+
+第5章 p.136 L41 的候选 `cand-6137`（`aln-6318`）原判 `new`，当时理由是未发现对应作品KU。复核前置图版目录 FM-P22a 后发现已登记作品 [画家及友人群像](../../../04-knowledge/units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends.md)：图版号同为22a、题名逐字对应“The artist with a group of friends”、创作者均为Michelangelo Cerquozzi。正文直接称同一Plate 22a，故将主决定修正为 `same → units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends`；不创建重复作品，也不与Cerquozzi其他同类群像合并。`cand-6138`（`aln-6319`）仍为 `undecided`：成员未具名，当前分类无法稳妥表达该作品内群体对象。
+
+S4复用既有 FM-P22a KU；本批不新增KU或S4 `new` 映射。S5不重复写入结构字段；既有作品卡补入第5章来源证据、双语描述与迁移期关系对照，明确Neri为具名画中人物、其他朋友仍未具名。
+
+| statement_id | S6去向 | 依据与范围 |
+|---|---|---|
+| `st-chp5-p136-plate22a-painting-created-by-cerquozzi` | formal，复用 `rel-0793 created_by` | 与既有作品身份及创作者边完全同一；不重复建自然键相同的关系。 |
+| `st-chp5-p136-neri-and-friends-immortalised-in-plate-22a` | formal，新增 `rel-1794 has_subject` | 第5章 p.136 L41 明确点名医生Vincenzo Neri；只立作品→Neri画中人物边，不推定未具名朋友身份。 |
+| `st-chp5-p136-plate22a-depicts-unnamed-friends` | pending；待端点与类型边界解决 | `cand-6138`仍S3 undecided，现行controlled relation/type无法登记有效端点；记入 `bl-0031`，不向缺失KU的 `relations.csv` 写空端点。待出现可用群体类型或来源识别成员时重审。 |
+
+本批不增改S2 statement／mention或统一S2复核分子。S3将1项 `new` 修正为 `same`；S4不增映射；S5结构字段无净增；3项S6候选裁为2项formal（1条复用既有边、1条新增关系）与1项pending。批后统计与定向卡片核验见全书结果快照。
