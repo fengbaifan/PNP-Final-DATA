@@ -64,9 +64,6 @@ sub_type: scholarly analysis
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 作者（`authored_by`） | [欧文·拉文（Irving Lavin）](../persons/irving-lavin.md) | S2 bibliographic entry st-chp21-bib-l658-699-entry-07 names Irving Lavin as author; cited publication not independently consulted.；角色：author；范围：Haskell bibliography, printed p.427; source-level attribution only.；证据：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；line 668; printed p.427; bibliographic entry |
+| → 所涉对象（`has_subject`） | [圣彼得大殿交叉部（Crossing of St Peter’s Basilica）](../places/st-peters-basilica-crossing.md) | S2 statement st-chp20-p396-lavin-bernini-crossing-open; p.397 quotation closure st-chp20-p397-lavin-quote-closure describes the crossing’s gradual, unrealized transformation. Lavin’s book was not independently consulted.；范围：Lavin’s analysis concerns Bernini’s transformation of the source-named crossing of St Peter’s; exact architectural limits are not specified.；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；line 12; printed p.396; quotation continued and closed at line 15, printed p.397 |
 
 当前关系由 relations.csv 投影。
-
-### 待证关系
-
-S6 statement st-chp20-p396-lavin-bernini-crossing-open remains pending because cand-10861 still has unresolved identity and spatial scope; resume after a source-backed S3 endpoint decision.（详见[过程裁决](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p396-archives-cross-chapter-20261025)。）

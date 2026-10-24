@@ -1,5 +1,19 @@
 ﻿# 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp20-p396-crossing-space-resolution-20261025"></a>
+### 第20章 pp.396–397 圣彼得大殿交叉部空间端点收束（2026-10-25）
+
+**触发与 S3。** 前一批登记 Irving Lavin 的1968年档案卡时，`cand-10861`（Crossing of St Peter’s）因内部空间边界尚未说明而暂留 `undecided`，关联 S6 留在过程级 pending。本次回看 p.396 line 12 与跨页引文的 p.397 line 15：Haskell 明确称“the crossing of St Peter’s”，并转引 Lavin 将其描述为历时演变、未完全实现的建筑改造。依 taxonomy，具名建筑内部空间归为 place，且与圣彼得大殿整体及其内部作品分开。故定点重开 S3，将该候选判为来源限定 `new`，组 `new-place:st-peters-basilica-crossing-9a183af951`；新 KU 只记录这一空间指称，精确边界仍未定，不声称外部建筑空间身份或范围已核验。
+
+**S4/S5。** 将 `cand-10861` 映射至 `units/places/st-peters-basilica-crossing`，新增1张 place 卡与1条 source_backed 字段“来源空间指称”。卡片双语描述保留引文转述层级，明确所引 Lavin 原文未独立阅读；未将 crossing 与大殿、祭坛或穹顶作品合并。
+
+**S6。** `st-chp20-p396-lavin-bernini-crossing-open` 由 pending 改裁 formal，新增 `rel-1954 has_subject`（Lavin 1968 档案 → 圣彼得大殿交叉部）。p.397 的 `st-chp20-p397-lavin-quote-closure` 用作对端点语境与引文闭合的支持，但自身不是 S6 关系候选。关系范围只覆盖书中明指的交叉部分析，不推断 Lavin 原文、方案范围或具体建筑边界。
+
+**定向呈现与核查。** Lavin 档案卡与新 place 卡逐卡预览后定向渲染；预检 `cards=2`、`projected_relation_rows=3`、`files_to_write=2`，写后字节核验通过，2/2 张卡复预览无差异。严格表审计：KU=2,863、S4待登记 `new` 映射=2,996、S5字段=13,196（1,634 `unverified`）、relations.csv=1,954（1,930 formal、24 pending）、S2 statements=15,343、mentions=26,781，`s2_missing=[]`、`errors=[]`。关系一致性：`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。S2 statements/mentions 与统一独立复核分子不变。
+
+---
+
+
 <a id="s3-s4-s5-s6-chp20-p396-archives-cross-chapter-20261025"></a>
 ### 第20章后记与第21章书目跨章出版物端点（2026-10-25）
 
