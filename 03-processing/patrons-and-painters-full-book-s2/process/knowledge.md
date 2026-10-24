@@ -13516,3 +13516,59 @@ S6累计逐项裁决1,156/10,543（674 formal、375 pending、107 rejected），
 `build_cards.py --render` 定向渲染7张受影响卡（两套方案、4个主题端点、Tiepolo）；预检 `cards=7`、`tables=9`、`rows=24`、`projected_relation_rows=25`、`files_to_write=7`。7张均写后字节核验通过；逐卡复预览均无差异。
 
 严格表审计：`kus=2837`、`candidates=12424`、`alignments=12766`、待S4登记 `3020`、`relations=1937`（1913 formal、24 pending）、S5字段 `13177`（1634 unverified）、S2 statements `15343`、mentions `26781`、`s2_missing=[]`、`errors=[]`。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；全库孤立KU 1366、over-connected KU 2。S3主决定 same=2052、new=5072、conflict=9、excluded=103、undecided=5188；26个跨来源决定差异仍按候选逐项处理。S6累计裁决 `1227/10559`（700 formal、419 pending、108 rejected），余 `9332`。统一S2独立复核仍为 `9617/15343`，台账待核平，未接收；本批不构成S3–S6全书收口。
+
+
+<a id="s3-s4-s6-ch9-p270-p273-venetian-church-endpoints-20261025"></a>
+
+### 第9章 pp.270–273 威尼斯教会端点的跨章身份登记与 S6 裁决（2026-10-25）
+
+#### S3 定点复核与 S4 登记
+
+本批先复核 Tiepolo 穹顶作品候选 `cand-8550` 与 `cand-8732`。前者锚定第9章 p.262 对“穹顶壁画”的复数表述及 1754 年 500 zecchini 价目；后者锚定 p.272《信仰的胜利》单件命名、1754–1755 年日期，并由 p.273 的 “this” 回指该穹顶作品。前者的复数／组级措辞与后者的单件命名存在身份粒度疑点；现有书内证据未明确前者是后者的总称、组别还是另一层级对象，也没有足够依据分别登记为两个新身份。本次 S3 `no_delta`：二者均保留 `undecided`，不改为 `same`、`new` 或 `conflict`。解除条件是获得能明确说明壁画组与《信仰的胜利》单件关系的来源证据；在此之前不向 S4 登记 `cand-8732`。
+
+沿用七个既有 S3 `new` 决定登记新 KU；每个候选均按已记录的身份组映射，不增加外部身份标识，也不把同类型相近对象强行合并：
+
+| candidate | S3 身份组 | S4 KU | 类型 |
+|---|---|---|---|
+| `cand-0563` | `sg3-institution-cand-0563` | `units/institutions/carmelites` | institution |
+| `cand-8699` | `sg3-term-cand-8699` | `units/terms/palladian-venetian-ecclesiastical-tradition` | term |
+| `cand-8724` | `sg3-term-cand-8724` | `units/terms/jesuit-iconography` | term |
+| `cand-8729` | `archive-group-8cb0b86581fb` | `units/archives/gazzetta-veneta` | archive |
+| `cand-8731` | `workgrp-5caceab004fd30` | `units/works/pieta-church-facade` | work |
+| `cand-8806` | `workgrp-412ca2ab06ec56` | `units/works/modello-glory-s-luigi-gonzaga` | work |
+| `cand-8810` | `workgrp-d7bfa4b495a7d7` | `units/works/rubens-antwerp-jesuit-old-testament-series` | work |
+
+`cand-8729` 按期刊标题登记：第9章 p.272 仅给出 1760 年与期刊名，第10章 p.328 注7另记 1760 年7月26日的引文；现有书内材料不能证明两处为同一期、同一篇文章或同一引文。Rubens 系列仅登记注4明确命名的一组旧约场景；不推定系列单件，也不消解注4开头 “It” 的先行词。Seilern 目录条目及 Wilde 被引著作未在本批独立查阅。S5 本批 `no_delta`，不补外部来源字段。
+
+#### S6 逐项裁决
+
+本批对 17 条直接 `relation_candidate=true` statement 逐项给出 formal、pending 或 rejected 去向。仅 3 条满足精确受控谓词与稳定端点条件，写入 `relations.csv`；pending/rejected 的过程级决定不作为缺端点关系行写入表。
+
+| statement_id | 决定 | 记录或理由 |
+|---|---|---|
+| `st-chp9-p270-carmelite-patronage-comparison` | rejected | 哈斯克尔比较两修会的整体赞助评价，没有精确的受控关系类型；保留 S2 断言，不将评价升格为正式边。 |
+| `st-chp9-p272-elijah-carmelite-association` | pending | 原文确有以利亚题材与 Carmelites 的来源限定关联，但作品候选 `cand-1048` 仍是索引来源且 S3 `undecided`，现有关系词表也无精确的图像传统关联谓词。待作品身份及关系类型有据后复裁。 |
+| `st-chp9-p272-massari-palladian-lines` | pending | “受保守压力而按正统 Palladian 路线工作”不是精确的 `influenced_by` 关系断言；不把设计倾向改写成影响边。 |
+| `st-chp9-p272-three-angels-iconography` | rejected | 原文明确为否定判断（“no specific relationship”）；词表没有可承载该否定关系的受控谓词，故不建立正向或反向正式边，原断言仍保留在 S2。 |
+| `st-chp9-p272-pieta-gazzetta-description` | formal | `rel-1938 has_subject`；期刊标题指向其被引 1760 年报道所描述的 Pietà 教堂。期号、页码与原刊未核，不外推为期刊整体关系。 |
+| `st-chp9-p272-pieta-facade-delay` | formal | `rel-1939 part_of`；立面作为建筑组成部分归属教堂；“150年”仅保留为哈斯克尔的回顾性约数，不推算准确完工年份。 |
+| `st-chp9-p272-n03` | pending | Seilern 的姓名候选 `cand-8805` 仍 S3 `undecided`，且1959年目录第170号未独立查阅；书内二手所有权归属保留，暂不写正式边。 |
+| `st-chp9-p272-n03-wilde-modello-canonization-hypothesis` | pending | 这是 Wilde 经 Haskell 转述的“可能”用途假说，目标未实现祭坛画候选 `cand-8826` 已按本批限定范围排除；保留该假说，不将未实现对象或用途登记为已证关系。 |
+| `st-chp9-p272-n04-rubens-antwerp-series` | formal | `rel-1940 created_by`；Rubens → 注4明确命名的安特卫普耶稣会教堂旧约场景组。此边不确定注4开头 “It” 的先行词，也不补造系列成员。 |
+| `st-chp9-p272-fontebasso-elijah` | pending | 作品候选 `cand-1048` 的依据仍只是索引子项，S3 尚未解决；不能据索引题名登记作品端点。 |
+| `st-chp9-p272-fontebasso-three-angels` | pending | 作品候选 `cand-1049` 的依据仍只是索引子项，S3 尚未解决；不能据索引题名登记作品端点。 |
+| `st-chp9-p272-doge-grimani-rebuild` | pending | 原文说 Grimani 奠基并将重建决定定于1745年，但没有精确受控的“奠基者→教堂”谓词；不替换为委托、建造或所有权。 |
+| `st-chp9-p272-massari-architect` | pending | 书内称 Massari 为教堂建筑师；当前 `designed_by` 适用作品→人物，不允许地点→人物，词表也没有精确 `architect_of`。保留原断言，暂不扩展关系类型。 |
+| `st-chp9-p272-pieta-refuge-foundation` | pending | 收容所候选 `cand-8727` 的类型／身份边界未决，且没有精确受控的前身或同址关系；不将14世纪收容所并入后来教堂。 |
+| `st-chp9-p273-pieta-five-altar-pictures` | pending | 五件未具名画作仍是 S3 `undecided` 组候选 `cand-8733`；来源未给单件、艺术家或捐赠者，语境不足以确定正式位置或组成关系。 |
+| `st-chp9-p272-tiepolo-triumph-faith` | pending | 端点 `cand-8732` 与 `cand-8550` 的单件／复数穹顶壁画范围尚未厘清；在 S3 保持 `undecided`，不登记 `created_by` 边。 |
+| `st-chp9-p273-tiepolo-paid-for-dome-work` | pending | 付款对象依赖同一未决的穹顶作品粒度，且受控谓词无精确表达此项价格支付；不把 500 zecchini 转成委托或赞助关系。 |
+
+Pietà 地点的六条直接关系候选现为 2 formal、4 pending：本批新增的 Gazzetta 报道主题与立面组成边为 formal；Grimani 奠基、Massari 建筑师、旧收容所前身及五件祭坛画候选仍 pending。其余本批 S6 决定同样保留各自的来源限定与解除条件，不改变 S2 statement／mention、统一 S2 独立复核分子或 `candidate-backlog.csv`。
+
+
+#### 投影与审计
+
+9张目标卡均逐卡运行 `build_cards.py --preview --ku`；其中关系表预览变化限于 Gazzetta Veneta、Pietà 立面、Pietà 教堂地点、Rubens 组画及 Peter Paul Rubens 人物卡。随后对9张卡定向 `--render`，预检 `cards=9`、`tables=4`、`rows=24`、`projected_relation_rows=8`、`cards_with_relation_changes=5`、`files_to_write=5`；5个文件均写后字节核验通过，恢复快照已清理。
+
+`python scripts/audit_tables.py --strict-stage --summary` 退出码0：KU=2,844、候选=12,424、alignment=12,766、待S4登记=3,013、关系表=1,940（1,916 formal、24 pending）、S5字段=13,177（1,634 unverified）、S2 statements=15,343、mentions=26,781、`s2_missing=[]`、`errors=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；孤立KU 1,369、over-connected KU 2，属全库既有结构统计，不是本批阻断项。`git diff --check` 通过。审计仍提示3,013条 new 候选待S4登记及S2语义复核质量需继续核对；本批不改变 S2 独立复核分子，不构成 S2 接收或 S3–S6 全书收口。

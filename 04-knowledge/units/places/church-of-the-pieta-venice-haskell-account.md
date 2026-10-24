@@ -63,7 +63,14 @@ English: **Identity boundary:** This card denotes the church as a place, distinc
 
 ## 关系与证据
 
-未建立正式关系。该身份组有 6 条 `relation_candidate=true` 的直接 S2 关系候选：`st-chp9-p272-doge-grimani-rebuild`、`st-chp9-p272-massari-architect`、`st-chp9-p272-pieta-facade-delay`、`st-chp9-p272-pieta-gazzetta-description`、`st-chp9-p272-pieta-refuge-foundation`、`st-chp9-p273-pieta-five-altar-pictures`。这些候选均保留待 S6 逐条审查；本次只完成 S4 身份登记，没有写入 `relations.csv`。
+本地点当前有 2 条正式关系：Gazzetta Veneta 的 1760 年引文以教堂为描述主题（`has_subject` 反向投影），立面作为建筑组成部分归属教堂（`part_of` 反向投影）。另有 4 条直接 S2 候选仍为过程级 pending：Grimani 奠基、Massari 建筑师、14 世纪收容所前身及五件未具名祭坛画；逐项理由与待解除条件见[本批 S6 记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch9-p270-p273-venetian-church-endpoints-20261025)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [《Gazzetta Veneta》期刊（Gazzetta Veneta Periodical）](../archives/gazzetta-veneta.md) | Formal S6 decision; periodical-title level only. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch9-p270-p273-venetian-church-endpoints-20261025；时间：1760；角色：subject of the quoted periodical description；范围：Haskell reports that the periodical described the Pietà church as nearly complete and architecturally rich; issue and page are not supplied, and this edge does not identify the separate Ch.10 note 7 citation as the same issue.；原断言与证据见发出端卡片“《Gazzetta Veneta》期刊（Gazzetta Veneta Periodical）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p.272, line 57; statement=st-chp9-p272-pieta-gazzetta-description |
+| ← 包含成员（`contains`，反向投影） | [威尼斯 Pietà 教堂立面（Façade of the Pietà Church, Venice）](../works/pieta-church-facade.md) | Formal S6 decision; 150 years remains the author’s approximate retrospective statement. 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch9-p270-p273-venetian-church-endpoints-20261025；角色：architectural façade；范围：The façade is part of the Pietà church building; Haskell gives a retrospective delay of 150 years, not an exact completion year.；原断言与证据见发出端卡片“威尼斯 Pietà 教堂立面（Façade of the Pietà Church, Venice）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p.272, line 58; statement=st-chp9-p272-pieta-facade-delay |
 
 ### 身份与外部链接
 
