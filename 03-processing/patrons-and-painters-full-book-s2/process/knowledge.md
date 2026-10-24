@@ -10,7 +10,7 @@
 <a id="s3-s4-s5-s6-chp15-p371-de-non-voltaire-ferney-20261024"></a>
 ### 第15章 p.371 De Non 伏尔泰肖像与 Ferney 端点批次（2026-10-24）
 
-**跨章分组与 S3。** `cand-10582` 沿用 `workgrp-9019ffb6d537d2` 的既有 `new` 决定，登记为哈斯克尔描述的 De Non 版画，不与既有 Jean Huber 多角度伏尔泰头部版画合并。作品题名为描述性题名；来源未给正式题名、日期或可识别存世印张。登记直接暴露地点端点后重开 `cand-10581`：将原 `undecided` 的源文本地点 “Ferney” 判为 `new` 的 place 组，空间范围限于原文命名，具体建筑／地点和外部地理身份仍未确认。
+**跨章分组与 S3。** `cand-10582` 沿用 `workgrp-9019ffb6d537d2` 的既有 `new` 决定，登记为哈斯克尔描述的 De Non 版画，不与既有 Jean Huber 多角度伏尔泰头部版画合并。作品题名为描述性题名；来源未给正式题名、日期或可识别存世印张。登记直接暴露地点端点后重开 `cand-10581`：将原 `undecided` 的源文本地点 “Ferney” 判为 `new` 的 place 组 `sg3-place-cand-10581`，空间范围限于原文命名，具体建筑／地点和外部地理身份仍未确认。
 
 **S4、S5。** 登记作品 KU `units/works/dominique-de-non-portrait-of-voltaire-at-ferney` 与地点 KU `units/places/ferney`，分别完成 `aln-10751`、`aln-10750` 映射。两张卡从第15章 p.371 L79 提取并写入7条 `source_backed` 字段（作品5、地点2）；没有为未提供的题名、日期、技法、印张或具体地点范围补造值。
 
@@ -12902,3 +12902,72 @@ S4 新增1个 event KU、2条候选映射，并登记到 `ku-manifest.csv` 与 `
 `build_field_facts.py` 对6张新卡预览 `rows=6`、`new_ids=6`、`warnings=0`，应用后新增 `enr-16888`–`enr-16893`，来源注册无变化。`build_cards.py --render` 对7张目标卡预检通过（6张字段表、6行、关系投影变更0、`files_to_write=0`）；因此没有卡片字节写入。7张卡写后定向预览均无差异。
 
 `audit_tables.py --strict-stage --summary`：`kus=2763`、new候选已映射1,972、待登记3,096、S5字段12,979（1,634 unverified）、`s2_missing=[]`、`errors=[]`。保留全书S4登记未完成与S2语义质量待核的审计提示。`audit_relation_consistency.py` 五类阻断项均为0；全库诊断仍列1,366个零关系单元及2个高连接单元，这不是本批新增问题，也不构成全书关系语义验收。`git diff --check` exit 0。
+
+<a id="s3-s4-s5-s6-chp6-p161-altieri-endpoints-20261024"></a>
+
+### 跨章身份组／S4 登记／S5 字段／S6 逐项裁决：第6章 p.161 Altieri 宫殿与人物端点（2026-10-24）
+
+#### S3 身份组与 S4 登记
+
+本批沿用既有 S3 `new` 决定，不重开身份判断。cand-0090 以第4章 p.118、第6章 p.156 与 p.161 的连续书内提及归入 `sg3-place-cand-0090`；Altieri 宫殿、内部主厅、主厅壁画与整座宫殿装饰计划分别登记。cand-6464 与 cand-5108（Cortona 壁画）保持不同作品身份。Ponte S. Angelo 已有独立 `new` 地点候选 cand-6465。cand-6443 与 cand-1734 沿用各自跨章术语身份组，不并入一般 Baroque 或既有 Nepotism KU。
+
+| candidate_id | 既有 S3 身份组 | S4 KU | 对象范围 |
+|---|---|---|---|
+| `cand-0090` | `sg3-place-cand-0090` | `units/places/altieri-palace` | 将第4章装饰委托、第6章 p.156 的宫邸叙述与 p.161 的新家族宫殿视为同一宫殿候选；描述性名称，不声称已识别具体现存建筑。 |
+| `cand-6462` | `sg3-place-cand-6462` | `units/places/altieri-palace-principal-hall` | 独立于宫殿整体的内部空间；S3 按 place 登记，不把天顶或壁画并入空间对象。 |
+| `cand-6464` | `workgrp-429898c8edfe6c` | `units/works/bernini-angels-symbols-passion-ponte-sant-angelo` | 对应第6章 p.161 所述的一组雕塑；与 Cortona 的《持受难器具的天使》壁画候选 cand-5108 分开。Haskell 记为委托及拟安置，不证明已经安装或存世。 |
+| `cand-6465` | `sg3-place-cand-6465` | `units/places/ponte-sant-angelo` | 书中以 Ponte S. Angelo 指称的桥；本卡不补充现代桥梁身份史或现存构件信息。 |
+| `cand-6467` | `workgrp-e9e8a3bdf4d15e` | `units/works/altieri-palace-planned-decoration-programme` | 保持为整座宫殿的计划性装饰作品组；与主厅具体天顶壁画 cand-6466 及宫殿建造活动 cand-6483 区分。 |
+| `cand-6468` | `sg3-term-cand-6468` | `units/terms/clemency-personification-altieri-fresco` | 仅记录该壁画中的具体寓意形象，不将此用例扩展成一般概念史或独立人物实体。 |
+| `cand-6469` | `sg3-term-cand-6469` | `units/terms/public-happiness-personification-altieri-fresco` | 保留为壁画中的寓意形象；“三项主要美德”中的其他形象未具名，未作展开。 |
+| `cand-6475` | `sg3-term-cand-6475` | `units/terms/official-artistic-patronage-after-alexander-vii` | 限定于 Haskell 对 Alexander VII 去世后艺术赞助变化的历史表述；与既有“罗马艺术赞助衰退”卡的跨时期概述不合并。 |
+| `cand-6443` | `sg3-term-cand-6443` | `units/terms/high-baroque-haskell-cortona-gaulli-comparison` | 限于 Haskell 在第6章 p.160 的比较性用语；与其在 p.161 对 Altieri 壁画使用一般 Baroque 的表述相关，但不预设为同一概念或外部时期边界。 |
+| `cand-1734` | `sg3-term-cand-1734` | `units/terms/nepotism-in-rome-haskell-context` | 沿用既有跨章 S3 新术语组；与既有一般 Nepotism 概念卡分开，保持罗马教皇职位、亲族与赞助语境，不推定单一通用定义。 |
+
+相关候选 cand-6473 Barberini family、cand-6484 Chigi family、cand-6466 Altieri fresco、cand-6461 Altieri family、cand-6482 accession event 已按既有 S3 决定映射；本批不重复登记。复用对象包括 Clement IX、Clement X、Massimi、Maratta、Bellori、Rome 与 Urban VIII。以下仍保留 S3 待证：cand-6463 未识别肖像、cand-6470 未具名美德组、cand-6472 Cortona 天顶画、cand-6480 Berrettoni 未指定作品、cand-6479 A. Clark 书目、cand-6338 Bellori 1942 书目，以及 cand-6483 宫殿施工活动。cand-6481 学生未具名且类型未定。该范围没有新增 conflict；上述对象均不以卡片补齐为由强制归并。
+
+全书 S4 汇总预检另发现第15章 p.371 Ferney place 候选 cand-10581 已有 `new` 决定和 KU，但对齐说明漏写身份组标记。本批在原有 S3 说明中补记其单候选组 `sg3-place-cand-10581`，不改身份边界、决定或 KU；共用计数解析器同时接受历史 `Group=` 大小写写法。
+
+#### S2 原子化与页图校读
+
+将 `st-chp6-p161-v1-04` 收窄为 Clement IX 委托 Bernini 天使群，并新增 `st-chp6-p161-v1-04-intended-placement` 单独记录原定安置于桥上；不表示实际安装。将 `st-chp6-p161-v1-10` 收窄为 Massimi 建议选择 Maratta，新增咨询 Bellori 的断言；consultation 没有精确受控谓词，S6 pending。将 `st-chp6-p161-v1-14` 的壁画题材改为壁画→Public Happiness，并另存其旗帜象征 Don Gasparo 的来源解释。将 `st-chp6-p161-v1-15` 拆为 adopted nephew 关系和 Gonfaloniere 职衔属性，避免把 Clement X 误作职务端点。将 `st-chp6-p161-v1-19` 保留未完成及未说明分歧，并新增装饰计划 intended_for 宫殿的独立断言。新增5条 statement，其中4条为 S6 关系候选、1条职衔属性；未增 mention，均不计入 S2 独立语义复核分子。
+
+对照 CHP-6.pdf 物理页16（印刷页161）图像校读：原OCR `Clement IXin` 读作 `Clement IX in`；`osa Barberini` 读作 `a Barberini`，并由第162页续句补全 `or a Chigi`。S0 转录保留原样，校读取证写入 statement qualifiers，不改写来源文本。
+
+#### S5 来源字段
+
+10张新卡共提取 {len(fields)} 条 Haskell 原书字段，均为 source_backed，未新增外部来源或独立身份核验。字段限定宫殿与主厅空间、雕塑委托和原定安置、计划性装饰的未完成状态、两项壁画寓意及三个跨章术语的书内用法；没有把模糊的“the work dragged on”时间范围分派给某一对象。
+
+#### S6 逐项去向
+
+本批25项关系候选均有当前决定：10 formal、12 pending、3 rejected。仅formal写入 `relations.csv`，pending 与 rejected 保留理由但不生成边。
+
+| statement_id | 去向 | 裁决与边界 |
+|---|---|---|
+| `st-chp6-p161-note2-avviso` | formal `rel-1861` | rel-1861 cites：只记录 Haskell 对 avviso 的书目引注，不表示原件已查阅。 |
+| `st-chp6-p161-note3-bellori` | pending | Bellori 1942 的题名／版本未由当前脚注定位确定，cand-6338 仍 undecided。 |
+| `st-chp6-p161-note3-clark` | pending | A. Clark 1961 条目缺题名，且 Berrettoni 作品未识别；cand-6479、cand-6480 仍 undecided。 |
+| `st-chp6-p161-note4-pascoli` | formal `rel-1862` | rel-1862 cites：只记录 Haskell 对 Pascoli I, p.140 的引注，不表示已读该页。 |
+| `st-chp6-p161-v1-01` | rejected | 原句只给出死亡之后赞助下降的时间顺序，不主张因果或其他实体关系。 |
+| `st-chp6-p161-v1-02` | formal `rel-1863` | rel-1863 has_participant：1667年克雷芒九世即位事件→本人；两年任期按原文保留在 S2。 |
+| `st-chp6-p161-v1-03` | pending | 肖像题名与对象身份不明；cand-6463 保持 undecided。 |
+| `st-chp6-p161-v1-04` | formal `rel-1864` | rel-1864 commissioned_by：天使群作品→克雷芒九世；不表示完成。 |
+| `st-chp6-p161-v1-04-intended-placement` | formal `rel-1865` | rel-1865 intended_for：仅表示原定安置于 Ponte S. Angelo。 |
+| `st-chp6-p161-v1-06` | rejected | 家族的忧虑与预期不是当前图谱中的明确对象关系边。 |
+| `st-chp6-p161-v1-07` | pending | 施工活动身份 cand-6483 未定；Gesù 邻接与 Jesuit indignation 不能合并成一条受控关系。 |
+| `st-chp6-p161-v1-09` | pending | 准备装饰的状态不等同于可确认的 intended_for 或 part_of 关系；主厅与计划保持分别登记。 |
+| `st-chp6-p161-v1-10` | formal `rel-1866` | rel-1866 advised：Massimi→Maratta；仅编码建议参与选人。 |
+| `st-chp6-p161-v1-10-maratta-consults-bellori` | pending | consulted 在受控关系类型中没有精确谓词；不以 advised_by 替代咨询。 |
+| `st-chp6-p161-v1-11` | pending | Cortona ceiling 的具体作品身份 cand-6472 未决；不据泛称补建作品边。 |
+| `st-chp6-p161-v1-12` | formal `rel-1867` | rel-1867 has_subject：壁画→仁慈寓意；双关和光照保留为来源解释。 |
+| `st-chp6-p161-v1-13` | rejected | 这是壁画形制描述；灰泥框未单独识别为有边界的实体。 |
+| `st-chp6-p161-v1-14` | formal `rel-1868` | rel-1868 has_subject：壁画→公众幸福寓意。 |
+| `st-chp6-p161-v1-14-symbolizes-gasparo` | pending | symbolizes 没有精确受控谓词；不把寓意错写成作品的直接人物题材或所有权。 |
+| `st-chp6-p161-v1-15` | formal `rel-1869` | rel-1869 kin_of：只记录 Don Gasparo 为 Clement X 的 adopted nephew。 |
+| `st-chp6-p161-v1-17` | pending | high Baroque／Baroque 为来源风格评价；当前受控表无可准确编码作品风格的谓词。 |
+| `st-chp6-p161-v1-19` | pending | 未完成与 Don Gasparo 间的未具体说明分歧不等于 commissioned_by、disputed_with 或因果边。 |
+| `st-chp6-p161-v1-19-intended-for-palace` | formal `rel-1870` | rel-1870 intended_for：计划性装饰项目→Altieri 宫；未完成状态另行保留。 |
+| `st-chp6-p161-v1-21` | pending | reduce nepotism 是作者所述行动，不是现有谓词可准确表达的关系；保留 source-local 概念。 |
+| `st-chp6-p161-v1-22` | pending | 比较对象含家族且主体为人物；受控 compared_with 的域／值域不支持该组合，故不强塞。 |
+
+note 1 的 Pascoli 引注属于相邻 Canini 讨论，不纳入本批 Altieri 关系裁决。未决的 Bellori、Clark 与 Berrettoni 身份继续阻断对应正式引注边；原书中“the work”的指代不确定、未命名 stucco frame、主厅 readiness、Baroque 风格评价和 nepotism 政策表述均不以弱谓词替代。除上述25项外，本批不处理同页其他艺术家关系。

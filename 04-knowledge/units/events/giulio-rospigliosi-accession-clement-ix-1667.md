@@ -51,4 +51,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [朱利奥·罗斯皮廖西（Giulio Rospigliosi）](../persons/cardinal-rospigliosi-gimignani.md) | Formal S6 decision in the p.161 Altieri endpoint batch; only the source-supported relation and stated role are encoded.；时间：1667；角色：pope at accession；范围：Haskell reports Giulio Rospigliosi became Clement IX in 1667 and reigned for two years; no exact accession date beyond the year is added.；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.161; S2 statement: st-chp6-p161-v1-02 |
+
 尚无正式关系记录。人物与即位事件的正式参与关系留待 S6 审查；本卡不把两年概述转换为精确的在位起止日期。

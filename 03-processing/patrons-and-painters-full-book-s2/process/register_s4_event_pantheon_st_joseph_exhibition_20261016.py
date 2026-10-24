@@ -90,7 +90,7 @@ def write_csv(path: Path, fieldnames, rows):
 def get_group(note: str) -> str:
     note = note or ""
     patterns = (
-        re.compile(r"(?<![A-Za-z0-9_-])group=([A-Za-z0-9_./:-]+)"),
+        re.compile(r"(?<![A-Za-z0-9_-])group=([A-Za-z0-9_./:-]+)", re.IGNORECASE),
         re.compile(r"身份组=([A-Za-z0-9_./:-]+)"),
     )
     matches = [match for pattern in patterns for match in pattern.finditer(note)]
@@ -279,7 +279,9 @@ def update_result(result, stats, totals, manifest_count):
         f"尚待登记{fmt(totals['pending_groups'])}组、{fmt(totals['pending_members'])}条映射。"
     )
     result, n = re.subn(r"^\*\*当前状态：.*$", summary, result, count=1, flags=re.M)
-    assert n == 1, "could not refresh current status paragraph"
+    assert n <= 1, "multiple current status paragraphs found"
+    # Newer result files keep the live snapshot in a structured paragraph instead.
+    # Leave that paragraph for the caller to refresh from post-write audit counts.
 
     # The result's S3 tally table follows the dedicated section heading.
     s3_start = result.index("## S3 身份决定与交接")

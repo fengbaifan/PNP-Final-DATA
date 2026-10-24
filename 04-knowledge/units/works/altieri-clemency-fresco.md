@@ -60,4 +60,7 @@ sources:
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [阿尔蒂耶里宫壁画中的仁慈寓意（Clemency Personification in the Altieri Palace Fresco）](../terms/clemency-personification-altieri-fresco.md) | Formal S6 decision in the p.161 Altieri endpoint batch; only the source-supported relation and stated role are encoded.；角色：depicted allegorical figure；范围：Haskell identifies Clemency as the fresco’s female climax; the pun and lighting remain source interpretation.；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.161; S2 statement: st-chp6-p161-v1-12 |
+| → 所涉对象（`has_subject`） | [阿尔蒂耶里宫壁画中的公众幸福寓意（Public Happiness Personification in the Altieri Palace Fresco）](../terms/public-happiness-personification-altieri-fresco.md) | Formal S6 decision in the p.161 Altieri endpoint batch; only the source-supported relation and stated role are encoded.；角色：depicted allegorical figure；范围：Haskell identifies Public Happiness as a figure in the fresco; the separate symbolic reference remains pending.；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.161; S2 statement: st-chp6-p161-v1-14 |

@@ -99,6 +99,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 亲缘（`kin_of`，反向投影） | [加斯帕罗·阿尔蒂耶里（Don Gasparo Altieri）](don-gasparo-altieri.md) | Formal S6 decision in the p.161 Altieri endpoint batch; only the source-supported relation and stated role are encoded.；角色：adopted nephew；范围：Haskell calls Don Gasparo Clement X’s adopted nephew; the separate Gonfaloniere title is retained as a person attribute.；原断言与证据见发出端卡片“加斯帕罗·阿尔蒂耶里（Don Gasparo Altieri）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.161; S2 statement: st-chp6-p161-v1-15 |
+
 当前没有登记在 `relations.csv` 的正式关系。以下 S2 直接关系候选保留待 S6 审查，不因 S4 登记而视为已确认：
 
 - [`st-chp4-sec-ii-p118-clement-x-appointments`](../../tables/book-statements.jsonl)：S2直接关系候选，待 S6 逐条审查。

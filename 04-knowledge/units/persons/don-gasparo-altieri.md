@@ -44,3 +44,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 6条直接 S2 `relation_candidate` 保留待 S6：st-chp6-p161-v1-14, st-chp6-p161-v1-15, st-chp6-p161-v1-19, st-chp6-p161-v1-22, st-chp6-p162-v1-01, st-chp6-p162-v1-02。本轮未登记正式关系。阿尔蒂耶里家族保持为独立 family KU，不因姓氏相同而并入本人物卡。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 亲缘（`kin_of`） | [埃米利奥·阿尔蒂耶里（Emilio Altieri (Pope Clement X)）](emilio-altieri-pope-clement-x.md) | Formal S6 decision in the p.161 Altieri endpoint batch; only the source-supported relation and stated role are encoded.；角色：adopted nephew；范围：Haskell calls Don Gasparo Clement X’s adopted nephew; the separate Gonfaloniere title is retained as a person attribute.；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.161; S2 statement: st-chp6-p161-v1-15 |

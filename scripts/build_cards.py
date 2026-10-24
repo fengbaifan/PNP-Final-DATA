@@ -176,6 +176,8 @@ def render_card(text: str, ku_id: str, enrichment: list[dict], relation_markdown
         rendered = rendered[:insertion].rstrip("\n") + "\n\n### 关系记录\n\n" + rendered[insertion:].lstrip("\n")
     if RELATION_VIEW_HEADING.search(rendered):
         rendered = replace_relation_view(rendered, relation_markdown_rows)
+    if rendered.endswith("\n\n"):
+        rendered = rendered.rstrip("\n") + "\n"
     return rendered.replace("\n", newline) if newline != "\n" else rendered
 
 

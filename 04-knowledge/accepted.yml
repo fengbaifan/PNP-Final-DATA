@@ -1652,6 +1652,8 @@ units:
 - 04-knowledge/units/institutions/scuola-di-san-rocco.md
 - 04-knowledge/units/places/alnwick-castle.md
 - 04-knowledge/units/places/alticchiero-querini-villa-estate.md
+- 04-knowledge/units/places/altieri-palace-principal-hall.md
+- 04-knowledge/units/places/altieri-palace.md
 - 04-knowledge/units/places/annunziata-chapel-of-saint-luke.md
 - 04-knowledge/units/places/antwerp.md
 - 04-knowledge/units/places/apse-of-gesu.md
@@ -1778,6 +1780,7 @@ units:
 - 04-knowledge/units/places/pittsburgh.md
 - 04-knowledge/units/places/poggio-a-caiano-museum-room.md
 - 04-knowledge/units/places/poggio-a-caiano.md
+- 04-knowledge/units/places/ponte-sant-angelo.md
 - 04-knowledge/units/places/pra-della-valle.md
 - 04-knowledge/units/places/princeton-new-jersey.md
 - 04-knowledge/units/places/raleigh.md
@@ -1903,6 +1906,7 @@ units:
 - 04-knowledge/units/terms/cerquozzi-patrons-spanish-sphere-context.md
 - 04-knowledge/units/terms/churches-of-religious-orders-in-rome-haskell-account.md
 - 04-knowledge/units/terms/classicism-emerging-against-late-baroque-lodoli-account.md
+- 04-knowledge/units/terms/clemency-personification-altieri-fresco.md
 - 04-knowledge/units/terms/count-palatine.md
 - 04-knowledge/units/terms/counter-reformation.md
 - 04-knowledge/units/terms/decline-of-roman-patronage.md
@@ -1919,6 +1923,7 @@ units:
 - 04-knowledge/units/terms/gentiluomo-onore.md
 - 04-knowledge/units/terms/german-patronage-of-italian-art.md
 - 04-knowledge/units/terms/haskell-ancien-regime-vision-wurzburg-staircase-fresco.md
+- 04-knowledge/units/terms/high-baroque-haskell-cortona-gaulli-comparison.md
 - 04-knowledge/units/terms/history-painting.md
 - 04-knowledge/units/terms/holy-year.md
 - 04-knowledge/units/terms/indecency-and-erotic-in-haskell-index.md
@@ -1929,10 +1934,12 @@ units:
 - 04-knowledge/units/terms/modello.md
 - 04-knowledge/units/terms/neapolitan-anti-classical-painting.md
 - 04-knowledge/units/terms/neo-classicism.md
+- 04-knowledge/units/terms/nepotism-in-rome-haskell-context.md
 - 04-knowledge/units/terms/nepotism.md
 - 04-knowledge/units/terms/new-families-admitted-venetian-nobility.md
 - 04-knowledge/units/terms/news-sheets.md
 - 04-knowledge/units/terms/nostro-pittore.md
+- 04-knowledge/units/terms/official-artistic-patronage-after-alexander-vii.md
 - 04-knowledge/units/terms/ottoboni-influence-style-haskell-account.md
 - 04-knowledge/units/terms/painters-in-s-rocco-exhibition-reports.md
 - 04-knowledge/units/terms/patriarchate-of-aquileia-office.md
@@ -1942,6 +1949,7 @@ units:
 - 04-knowledge/units/terms/poem-eulogy-collections-noble-ceremonies.md
 - 04-knowledge/units/terms/printmakers-employed-by-venetian-publishers.md
 - 04-knowledge/units/terms/procuratore-di-san-marco-office.md
+- 04-knowledge/units/terms/public-happiness-personification-altieri-fresco.md
 - 04-knowledge/units/terms/publishers-in-venice.md
 - 04-knowledge/units/terms/richeome-fresco-subject-devotional-function.md
 - 04-knowledge/units/terms/richeome-ornamental-forms-and-devotion.md
@@ -1974,6 +1982,7 @@ units:
 - 04-knowledge/units/works/alessandro-longhi-g-m-sasso.md
 - 04-knowledge/units/works/alticchiero-garden-shrines-sculpture-programme.md
 - 04-knowledge/units/works/altieri-clemency-fresco.md
+- 04-knowledge/units/works/altieri-palace-planned-decoration-programme.md
 - 04-knowledge/units/works/amigoni-jupiter-and-io.md
 - 04-knowledge/units/works/amigoni-sigismund-streit.md
 - 04-knowledge/units/works/andrea-pozzo-modello-for-fresco-on-vault-of-s-ignazio.md
@@ -1988,6 +1997,7 @@ units:
 - 04-knowledge/units/works/barberini-salone-bozzetto-disputed.md
 - 04-knowledge/units/works/bellotto-ruins-church-of-the-cross-dresden.md
 - 04-knowledge/units/works/bernardino-castelli-teodoro-correr.md
+- 04-knowledge/units/works/bernini-angels-symbols-passion-ponte-sant-angelo.md
 - 04-knowledge/units/works/bernini-cardinal-borghese-head.md
 - 04-knowledge/units/works/bernini-caricature-of-cassiano-dal-pozzo.md
 - 04-knowledge/units/works/bernini-colonnade-st-peters-square.md
