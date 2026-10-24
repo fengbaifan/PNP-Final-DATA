@@ -12519,3 +12519,20 @@ S6 对七项关联候选逐项裁决，均有明确去向：
 | `st-chp19-p391-ranuzzi-caldari-picture-incident` | pending | Caldari 所涉画作尚未识别；候选 `cand-10804` 仍 undecided，记入 `bl-0032`，待作品身份或更精确档案证据出现后重审，不写空端点。 |
 
 本批新增1个KU、1条S4映射、6条S5字段、3条S2 statement、4条formal关系；七项S6候选为4 formal、2 rejected、1 pending。新档案卡及四张受关系投影影响的既有卡均完成定向渲染、写后检查与复预览；复预览无差异。批后严格表审计：2,712 KUs、12,754条alignment、S4待登记3,150、backlog 32（pending=0）、relations.csv 1,798行（1,785 formal）、S5 12,882行（1,634 unverified）、15,304 statements、26,772 mentions、`s2_missing=[]`、`errors=[]`。关系一致性审计五类阻断均为0。全书S2独立复核仍未接收；新增statement未计入独立复核分子。
+
+
+<a id="s3-de-rinaldis-1939-crosschapter-20261024"></a>
+### S3身份分组：De Rinaldis 1939出版物与责任者跨章复核（2026-10-24）
+
+补读第21章书目候选 `cand-6605` 所指的同一出版物，并以外部书目目录比较第5、6、7章引注。Accademia dei Georgofili 图书馆目录将该书著录为 *Lettere inedite di Salvator Rosa a G. B. Ricciardi*，责任说明为“trascritte e annotate da Aldo De Rinaldis”，出版地与出版者为 Roma: F.lli Palombi，年份1939；WorldCat 记录 OCLC 8520231 确认同题名、Roma、Fratelli Palombi及1939年。访问日期：2026-10-24。两条目录都只用于书目身份比对，本批未查阅被引页、书内原文或原信，也不把目录责任说明外推为De Rinaldis的其他生平事实。
+
+| candidate | 类型 | 原决定 → 当前决定 | 身份组与裁决范围 |
+|---|---|---|---|
+| `cand-6205` | archive | undecided → new | 与第7章及第21章书目候选 `cand-6605` 归入既有 `archive-group-1bb1eb317ce0`；第5章 p.142 n.4、p.143 n.4及后续注释中的1939年页码引注指向同一书目版本。 |
+| `cand-6370` | archive | undecided → new | 第6章 p.152 n.5所引1939年 pp.150、161–162，与 `cand-6605` 的第21章书目身份相合；归入同一 archive 组。 |
+| `cand-6369` | person | undecided → new | 将第6章 p.152及第7章引注中的姓氏形式限定为该1939年版的编者／转录者 Aldo De Rinaldis；新组 `new-person:aldo-de-rinaldis-1939-editor`。身份仅覆盖此书责任角色，不表示其撰写Salvator Rosa原信。 |
+| `cand-6605` | archive | new（沿用） | 原书第7章引注与第21章书目身份得到目录交叉支持；候选仍属于 `archive-group-1bb1eb317ce0`，不新建第二出版物组。 |
+
+外部记录：[Accademia dei Georgofili 图书馆目录](https://www.georgofili.it/biblioteca/ricerca?c1=Keywords&c2=&o=and&str1=Ricciardi&str2=)；[WorldCat OCLC 8520231](https://search.worldcat.org/title/Lettere-inedite-di-Salvator-Rosa-a-G.B.-Ricciardi/oclc/8520231)。`alignment.csv` 保留四条来源证据行；三个此前 undecided 候选各有候选级主决定与理由，`new` 的 `ku_id` 仍留空，交由S4按身份组登记。
+
+本批不改S2 statement／mention及独立复核分子，不登记S4、不增S5字段、不裁S6关系。S3主决定覆盖仍为12,418个候选；new增至5,070、undecided降至5,190。S4待映射增至3,153条，其中直接关系端点1,426条；本批涉及的两个archive候选进入该端点队列。下一步先登记该archive组和Aldo De Rinaldis人物组，再按证据范围处理相关S5字段与引注关系；未查原书的页码继续保持“仅由Haskell转引”的限定。

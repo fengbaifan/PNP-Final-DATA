@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第5–7章 De Rinaldis 1939 跨章身份组（2026-10-24）：** 以 Georgofili 图书馆目录和 WorldCat OCLC 8520231 对照书名、版本与编辑责任，将 `cand-6205`、`cand-6370` 由 undecided 改判 new 并并入 `archive-group-1bb1eb317ce0`；将 `cand-6369` 限定为该版编者／转录者 Aldo De Rinaldis 的来源内人物组；沿用 `cand-6605` 的 archive 身份组并补入目录证据。S3 undecided 减少3项；S4、S5、S6未在本批写入，archive端点待S4登记。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-de-rinaldis-1939-crosschapter-20261024)。
+
 **第5章 p.136 Cerquozzi Plate 22a 跨章身份与关系端点批次（2026-10-24）：** 将 `cand-6137`／`aln-6318` 从原 `new` 修正为 `same → units/works/michelangelo-cerquozzi-the-artist-with-a-group-of-friends`，前置图版目录 FM-P22a 的作品题名、作者与图版号均与正文p.136直接相合；复用已有 `rel-0793 created_by`，不重复建KU或作者边。新增 `rel-1794 has_subject` 连接Vincenzo Neri；未具名朋友 `cand-6138` 保留S3 undecided、S6 pending，并列入 `bl-0031`，不为缺失端点伪造关系行。未新增S2 statement／mention或重复S5字段；两张受影响卡已定向更新。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp5-p136-cerquozzi-plate22a-20261024)。
 
 **第8章 p.215 哥特式门廊端点批次（2026-10-24）：** 沿用 `cand-7629` 的 S3 `new` 身份组，登记门廊 work KU；与教堂整体、成对石狮及数年后建成的南入口分开。新增3条仅由 Haskell 书内来源支持的 S5 字段；将“Giovanni da Campione 于1355年建造门廊”裁为 formal `erected_by`（`rel-1793`），不外推设计、委托或南入口日期。S2 statement、S3决定及独立复核分子不变。批后计数与验证见下方快照和[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp8-p215-gothic-portico-20261024)。
@@ -80,16 +82,16 @@ S3主决定覆盖修复：在复用既有S3/S4过程裁决与来源证据的基�
 
 本轮完成第八章 p.241 的跨章身份分组和直接关系端点批次：将 Haskell 第21章书目中的1960年文章与 p.241 注5合并到同一archive身份组，新增两个书内作品组及 Bernardo Sansone Sgrilli 人物组；登记7个KU并完成8条new候选映射。S5新增14条 Haskell 原书支持字段。S6对44个关系候选逐项裁决：13 formal、26 pending、5 rejected；复用展览—Ferdinand既有边，并将p.230与p.241两条Sgrilli引注合并为一条关系。新增5条S2 statement，不计入统一独立复核分子。借展类型边界、未具名群体及解释性断言保留具体待证或否决理由。详见[过程裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p241-direct-endpoints-20261023)。 14张受影响卡片完成定向渲染，渲染后复预览无差异；全表严格审计errors=[]、s2_missing=[]，关系一致性五项结构检查均为0。
 
-**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,304条statement、26,772条mention；统一独立逐条复核9,617/15,304（62.8%，尚未接收，台账待按当前ID与来源版本核平）；第七章1,190/1,271、第八章487/1,487。S3主决定覆盖12,418/12,418：same=2,047、new=5,067、conflict=9、excluded=102、undecided=5,193（类型未定623）。S4已映射1,917/5,067条new候选，尚余3,150条；S5字段12,882条（1,634条unverified）。S6已裁决931/10,527条（570 formal、265 pending、96 rejected），尚余9,596条；relations.csv有1,798条关系（1,785 formal、13 pending）。340条关系候选仍至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面暂停。
+**当前全书状态。** S0有832个源段（678 complete、154 excluded）。S2共15,304条statement、26,772条mention；统一独立逐条复核9,617/15,304（62.8%，尚未接收，台账待按当前ID与来源版本核平）；第七章1,190/1,271、第八章487/1,487。S3主决定覆盖12,418/12,418：same=2,047、new=5,070、conflict=9、excluded=102、undecided=5,190（类型未定623）。S4已映射1,917/5,070条new候选，尚余3,153条；S5字段12,882条（1,634条unverified）。S6已裁决931/10,527条（570 formal、265 pending、96 rejected），尚余9,596条；relations.csv有1,798条关系（1,785 formal、13 pending）。340条关系候选仍至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided，pending=0）。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面暂停。
 
-S3主决定行覆盖12,418个候选，不等于身份已全部解决。5,193个undecided按当前建议类型分布如下；其中3,048个候选出现在关系候选端点：
+S3主决定行覆盖12,418个候选，不等于身份已全部解决。5,190个undecided按当前建议类型分布如下；其中3,046个候选出现在关系候选端点：
 
 | S3 undecided建议类型 | 候选总数 | 其中唯一关系端点候选 |
 |---|---:|---:|
 | work | 1,599 | 1,106 |
 | term | 656 | 442 |
-| person | 1,069 | 433 |
-| archive | 686 | 301 |
+| person | 1,068 | 433 |
+| archive | 684 | 299 |
 | place | 308 | 133 |
 | institution | 119 | 83 |
 | event | 113 | 67 |
@@ -97,7 +99,7 @@ S3主决定行覆盖12,418个候选，不等于身份已全部解决。5,193个u
 | procedure | 2 | 2 |
 | 类型未定 | 623 | 468 |
 
-S4已登记1,917/5,067条new候选映射，尚余3,150条；已映射至1,693个不同KU。其中1,424个已判new的直接关系端点仍待登记（term 497、archive 338、work 236、place 185、event 91、institution 76、person 1）；其余1,726条待映射候选尚未见于当前正式关系端点。S5字段12,882条（1,634条unverified）。S6已裁决931/10,527条（570 formal、265 pending、96 rejected），余9,596条；relations.csv有1,798条（1,785 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条（12 completed、20 undecided，pending=0）。阶段进度不能压成单一项目百分比。
+S4已登记1,917/5,070条new候选映射，尚余3,153条；已映射至1,693个不同KU。其中1,426个已判new的直接关系端点仍待登记（term 497、archive 340、work 236、place 185、event 91、institution 76、person 1）；其余1,727条待映射候选尚未见于当前正式关系端点。S5字段12,882条（1,634条unverified）。S6已裁决931/10,527条（570 formal、265 pending、96 rejected），余9,596条；relations.csv有1,798条（1,785 formal、13 pending）。340条候选至少缺一个S2端点ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条（12 completed、20 undecided，pending=0）。阶段进度不能压成单一项目百分比。
 前述第七章黎塞留批次的事件身份仅限 Haskell 书内所指事件；1642为书内所报年份，不声称外部核验。招揽政策与马萨林 1644 年贝尔尼尼行动、1648 年阿尔加迪行动分开。未将 `minister_to`、招募目标、负向“未中断”或作者因果解释强套进不精确的正式谓词。
 
 **阶段收口条件。** S2需完成当前ID／来源版本核平及独立逐条语义审读；S3需让每个候选都有可追溯的复用、新增、冲突、排除或有理由待证去向；S4需把全部new决定映射至有效KU；S5的关键字段需有核实、待证或不适用说明；S6每条关系候选均有formal、pending或rejected记录。阶段覆盖和机械审计不替代语义接收。
@@ -105,8 +107,8 @@ S4已登记1,917/5,067条new候选映射，尚余3,150条；已映射至1,693个
 **后续工作规划与提速。** 按依赖推进，不把阶段覆盖压成一个百分比：
 
 1. **核平工作基线。** 将S2独立复核记录逐项映射到当前statement ID与来源版本；检查25个S3主决定与外部对齐行的值差异，并核实本批新增statement的分母归属。完成前沿用当前可核实分子9,617，不把定向处理或自查计作独立复核。
-2. **先裁关系端点上的S3未决身份。** 在5,193个undecided中优先处理3,048个关系端点候选，按类型、跨章身份组与共同来源页批次裁决；其中468个类型边界未定候选单列。340条缺S2端点候选ID的关系回到来源页补mention与候选映射，证据不足时保留有理由的undecided和复查触发条件。
-3. **登记已判new的S4直接端点，并同批处理S5/S6。** 优先完成1,424条直接关系端点映射（term 497、archive 338、work 236、place 185、event 91、institution 76、person 1），在相同来源页批次补关键字段并逐条裁决关系。再完成其余1,726条非直接端点；pending保留具体缺口与重审条件。
+2. **先裁关系端点上的S3未决身份。** 在5,190个undecided中优先处理3,046个关系端点候选，按类型、跨章身份组与共同来源页批次裁决；本轮已裁决De Rinaldis 1939跨章组3项（2 archive、1 person）。其中468个类型边界未定候选单列。340条缺S2端点候选ID的关系回到来源页补mention与候选映射，证据不足时保留有理由的undecided和复查触发条件。
+3. **登记已判new的S4直接端点，并同批处理S5/S6。** 优先完成1,426条直接关系端点映射（term 497、archive 340、work 236、place 185、event 91、institution 76、person 1），在相同来源页批次补关键字段并逐条裁决关系。再完成其余1,727条非直接端点；pending保留具体缺口与重审条件。
 4. **闭合S3其余候选与S5/S6队列。** 让全部12,418个S3候选都有可追溯的same、new、conflict、excluded或有理由undecided去向；对1,634条unverified字段逐条核实或记录待证／不适用；对剩余9,596条关系候选逐项形成formal、pending或rejected决定。当前32条backlog（12 completed、20 undecided）逐条保留依据和复查条件。
 5. **并行完成S2独立语义复核，再进入S7门禁。** 基线核平后按当前ID继续逐章复核；第七章尚有81条、第八章尚有1,000条，其余章节按当前台账排队。S0–S6各自满足语义收口条件、严格表审计无结构错误后，才准备S7发布验证；知识发现和页面继续等待明确启动。
 
