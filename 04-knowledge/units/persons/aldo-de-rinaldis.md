@@ -43,3 +43,10 @@ sources:
 ## 关系与证据
 
 本卡没有可映射到现有受控关系类型的正式关系。目录支持其作为该书转录者与注释者的责任说明；不把该责任改写成未经裁定的编者、编纂者或原信作者关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《达尔皮诺与卡拉瓦乔》（D’Arpino and Caravaggio）](../archives/de-rinaldis-darpino-e-caravaggio-1936.md) | S3 candidate cand-6369 remains the source-local new author candidate mapped to the existing Aldo De Rinaldis KU. Braidense names Aldo as author of this exact article; publication identity only, not article-content verification.；角色：author listed as Aldo de Rinaldis；范围：D’Arpino e Caravaggio, Bollettino d’arte, 1936, pp.577–580；原断言与证据见发出端卡片“《达尔皮诺与卡拉瓦乔》（D’Arpino and Caravaggio）”：[来源](https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&fname=none&from=8&item%3A4%3ATitoli_collegati%3A%3A%40frase%40=Arpino.+-&nentries=1&resultForward=opac%2Fbraidense%2Ffull.jsp&saveparams=false&searchForm=opac%2Fbraidense%2Ferror.jsp)；src-16997e6c5a900b8a；Biblioteca Nazionale Braidense OPAC record NAP0506748; author, title and publication fields; accessed 2026-10-25 |
+| ← 所著文献（`author_of`，反向投影） | [《被没收的达尔皮诺骑士的艺术品》（Works of Art Seized from the Cavalier d’Arpino）](../archives/de-rinaldis-le-opere-sequestrate-al-cavalier-darpino-1936.md) | S3 candidate cand-6369 maps the A. de Rinaldis form to the existing Aldo De Rinaldis KU by cross-matching the Galleria entry with Braidense record NAP0506748 (source_id src-16997e6c5a900b8a), which names Aldo as author of the companion 1936 article. This identity match is limited to bibliographic author roles; journal citation form variance remains unresolved.；角色：author form A. de Rinaldis；范围：Le opere d’arte sequestrate al Cavalier d’Arpino, Archivi, 1936, pp.110–118; Haskell’s III and Galleria’s 2 journal citation forms retained as printed；原断言与证据见发出端卡片“《被没收的达尔皮诺骑士的艺术品》（Works of Art Seized from the Cavalier d’Arpino）”：[来源](https://www.collezionegalleriaborghese.it/opere/santa-caterinad-alessandria)；src-0c8c8612e9110daa；Galleria Borghese Bibliografia entry for A. de Rinaldis; page lines 138–139; accessed 2026-10-25 |

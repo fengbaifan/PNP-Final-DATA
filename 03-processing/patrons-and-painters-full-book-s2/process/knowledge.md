@@ -13688,3 +13688,51 @@ pending 的解除条件分别为受控谓词新增且符合本项目治理、端
 10张目标卡逐卡预览后，对10张卡定向运行 build_cards.py --render；预检 cards=10、tables=0、rows=0、projected_relation_rows=12、cards_with_relation_changes=6、files_to_write=6。6个文件写入后字节核验通过，恢复快照已清理；10张卡逐卡复预览均无差异。
 
 python scripts/audit_tables.py --strict-stage --summary 退出码0：KU=2,855、候选=12,424、alignment=12,766、待S4登记=3,002、关系表=1,944（1,920 formal、24 pending）、S5字段=13,177（1,634 unverified）、S2 statements=15,343、mentions=26,781、s2_missing=[]、errors=[]。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；孤立KU 1,376、over-connected KU 2 属全库结构统计，不是本批阻断项。git diff --check 通过。审计仍提示3,002条 new 候选待S4登记，且S2语义审读质量尚待继续核对；本批不构成S2接收或S3–S6全书收口。
+
+
+<a id="s3-s4-s5-s6-chp2-citations-20261025"></a>
+
+### S3跨章身份分组／S4/S5/S6：第2章引注与第21章书目作者、文献端点（2026-10-25）
+
+本批沿用现有 S3 主决定并补齐其跨章证据；不改写 book-statements.jsonl，不把书目命中当作被引文章内容的核读。第2章脚注 L127、L138、L154 与第21章书目 L614、L1043–1044、L1069–1070 形成四组文献引注和对应作者候选。
+
+#### S3逐对象裁决与跨章分组
+
+| candidate_id | 类型／S3组与决定 | S4去向／待证去向 | 跨章身份判断 |
+|---|---|---|---|
+| cand-4353 | archive-group-55be0209814a；既有 new | units/archives/hinks-michelangelo-merisi-caravaggio-1953 | Haskell第2章称Roger Hinks并引1953年书；第21章列Hinks, R.。Rijksmuseum记录30094221列Hinks, Roger (Roger Packman)、书名及London [1953]。只对齐出版物与书目责任身份，不称读过该书或第104页。 |
+| cand-4367 | archive-group-dbcbbcdb0073；既有 new | units/archives/de-rinaldis-darpino-e-caravaggio-1936 | 第2章注3的Bollettino d’Arte引文与第21章同题条目对应；Braidense NAP0506748列Aldo de Rinaldis、题名、年卷期和页577–580。 |
+| cand-4368 | archive-group-33ea3ca38d0a；既有 new | units/archives/de-rinaldis-le-opere-sequestrate-al-cavalier-darpino-1936 | 与同年另一篇D’Arpino文章分开建档。Haskell第21章写Archivi, III；Galleria Borghese书目同题条目写Archivi, 2 (1936), pp.110–118。题名、作者形式、年份和页码支持文献身份匹配；期刊著录形式保留为来源差异，不自行归一化。 |
+| cand-4384 | archive-group-493220bbe62a；既有 new | units/archives/rosi-congiura-giacomo-centini-1899 | 第2章p.31注2与第21章同题书目条目相接；作者形式为Rosi / M. Rosi，文章身份可登记，不能据此唯一识别作者人物。 |
+| cand-12447 | new-person:roger-hinks-1953-author；本批 new | units/persons/roger-hinks | 对齐Haskell的Roger Hinks / Hinks, R. 与Rijksmuseum所列责任者，仅限该1953年专著的书目作者角色。 |
+| cand-6369 | 既有 source-local new person组；沿用 | units/persons/aldo-de-rinaldis（既有KU） | 原候选覆盖1939年Rosa–Ricciardi版本的transcriber/annotator；本批把第2章与第21章的两篇1936年论文责任形式并入同一已存在人物KU，范围限于有据书目责任，不扩展生平或文章内容。 |
+| cand-12448 | sg3-person-cand-12448；本批 undecided | 不建KU；candidate-backlog.csv 新增 bl-0034 | 仅知第2章Rosi和第21章Rosi, M.；未找到能唯一识别全名的证据，作者端点待证。 |
+
+mention m-chp2-seci-l124-157-0040 的精确表面词“de Rinaldis”原先重复挂在文章与人物候选上；本批将现有该 mention 改挂到cand-6369，保留更长的书目引注 mention ...-0039 在cand-4367，并移除本批重复创建的同区间人物 mention。三条用于人物的1936年作者提及现为该章精确mention加第21章两条书目作者mention。S2 statement内容及数量不变。
+
+#### S4与S5登记
+
+五个既有或本批 new 对象完成KU映射：四篇archive与Roger Hinks person。cand-6369继续映射既有Aldo De Rinaldis KU；cand-12448维持undecided，不建占位KU。accepted.yml 与 ku-manifest.csv 已加入五个新KU。
+
+为五张新卡写入35条字段记录：Haskell字段以卡内来源序号S1映射到 haskell-1980-rev-ed；Rijksmuseum、Braidense和Galleria记录按S2映射到各自来源。目录卷期著录差异以两条分立字段保留。预览为35/35 source_backed、unverified=0、warnings=0；应用后新增3条外部来源登记。
+
+#### S6逐项裁决
+
+第2章四条 relation_candidate=true 引注均为书中明示书目关系，裁为formal，新增 cites 关系 rel-1955–rel-1958。这些边只记录Haskell书目指引，不验证被引文献的论点、原件或引页。
+
+| statement_id | 决定 | 关系记录／边界 |
+|---|---|---|
+| st-chp2-seci-l124-157-cite-hinks-dating | formal | rel-1955：Haskell → Hinks 1953专著，印刷页25注2。 |
+| st-chp2-seci-l124-157-cite-rinaldis-bollettino | formal | rel-1956：Haskell → D’Arpino e Caravaggio，印刷页27注3。 |
+| st-chp2-seci-l124-157-cite-rinaldis-archivi | formal | rel-1957：Haskell → Le opere d’arte sequestrate al Cavalier d’Arpino，印刷页27注3；原刊卷期形式尚未核对。 |
+| st-chp2-seci-l124-157-cite-rosi | formal | rel-1958：Haskell → Rosi 1899年论文，印刷页31注2；这条文献引注不解决作者人物身份。 |
+
+另新增3条由外部目录支撑的结构性 authored_by：rel-1959 Hinks专著→Roger Hinks，rel-1960 D’Arpino e Caravaggio→Aldo De Rinaldis，rel-1961 Le opere...→Aldo De Rinaldis。最后一条通过Galleria的“A. de Rinaldis”书目项与Braidense对同年配套论文的Aldo全名作者记录作范围受限的身份匹配；身份理由和期刊著录差异保留在note。三条作者边不是S2关系候选，不并入S6的10,559条分母。Rosi作者人名没有唯一映射，故没有 authored_by KU边，待办留在bl-0034。
+
+#### 卡片投影与定向审计
+
+先对关系涉及的7张卡逐卡预览；build_cards.py --render预检为 cards=7, tables=9, rows=71, projected_relation_rows=234, files_to_write=7，7张卡写后字节核验通过。后续修正“III / 2”为来源各自的期刊著录形式后，再预览并渲染第二篇论文卡与Aldo人物卡；写后两张卡的投影复预览无差异。
+
+批后：S2为15,343条statement、26,787条mention；统一独立复核9,617/15,343（62.68%，未接收）。S3主决定12,426条：same 2,053、new 5,075、conflict 9、excluded 103、undecided 5,186。S4已映射2,083/5,075条new，尚待登记2,992条；触及直接关系的未映射候选1,275条。S5为13,231条字段（1,634 unverified）。S6已裁决1,269/10,559（715 formal、444 pending、110 rejected），余9,290；relations.csv共1,961条（1,937 formal、24 pending）。candidate-backlog.csv共34条（12 completed、22 undecided，严格审计pending=0）。
+
+python scripts/audit_tables.py --strict-stage --summary退出码0：errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0；孤立KU 1,372、over-connected KU 2为全库结构统计。七张目标卡写后复预览无差异，git diff --check通过。全库仍有2,992条new候选待S4登记、1,275个直接关系端点未映射、5,186个S3 undecided、9,290条S6未裁决以及5,726条S2 statement未进入统一独立复核；本批不构成S2接收或S3–S6全书收口。

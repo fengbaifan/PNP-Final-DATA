@@ -5232,7 +5232,7 @@ m-chp2-seci-l124-157-0036,chp-2:02_CHP-2_sec_i:l124-157,cand-4366,"Pastor, XII, 
 m-chp2-seci-l124-157-0037,chp-2:02_CHP-2_sec_i:l124-157,cand-4365,"Barozzi c Berchet, I, p. 158",1381,1409,OCR reads “c”; print reads “e”.
 m-chp2-seci-l124-157-0038,chp-2:02_CHP-2_sec_i:l124-157,cand-4265,Renier Zeno,1411,1422,Reuse existing candidate.
 m-chp2-seci-l124-157-0039,chp-2:02_CHP-2_sec_i:l124-157,cand-4367,"articles by de Rinaldis in Bollettino d’Arte, 1936, pp. 577-80",1438,1500,Article title and author’s full name absent.
-m-chp2-seci-l124-157-0040,chp-2:02_CHP-2_sec_i:l124-157,cand-4367,de Rinaldis,1450,1461,Author form in the cited article.
+m-chp2-seci-l124-157-0040,chp-2:02_CHP-2_sec_i:l124-157,cand-6369,de Rinaldis,1450,1461,Author form in the cited article; linked to the existing De Rinaldis person candidate cand-6369.
 m-chp2-seci-l124-157-0041,chp-2:02_CHP-2_sec_i:l124-157,cand-4368,"Archivi, 1936, pp. 110-18",1506,1531,Second article; title absent.
 m-chp2-seci-l124-157-0042,chp-2:02_CHP-2_sec_i:l124-157,cand-4369,"Paola della Pergola, Vol. I and II, 1955-59",1611,1654,Two volumes; title absent.
 m-chp2-seci-l124-157-0043,chp-2:02_CHP-2_sec_i:l124-157,cand-4365,"Barozzi e Berchet, I, pp. 158-9",1701,1732,Citation for Scipione’s temporary disgrace.
@@ -27448,3 +27448,9 @@ m-chp4-sec-ii-p113-0030,chp-4:04_CHP-4_sec_ii:l161-170,cand-12445,French friends
 m-chp4-sec-ii-l91-99-different-patrons,chp-4:04_CHP-4_sec_ii:l91-99,cand-12446,different patrons,446,463,Unnamed plural recipients associated with Poussin’s later profound pictures; no individuals are identified.
 m-chp7-p191-n5-vol-i,chp-7:07_CHP-7_sec_i:l268-280,cand-4834,"Pascoli, I, pp. 48 and 186",2467,2493,Volume I locator in note 5; cited pages not independently read.
 m-chp7-p191-n5-vol-ii,chp-7:07_CHP-7_sec_i:l268-280,cand-4552,"II, p. 202",2499,2509,Elliptical volume II locator continuing the Pascoli citation; cited page not independently read.
+m-chp2-seci-l124-157-hinks-author-20261025,chp-2:02_CHP-2_sec_i:l124-157,cand-12447,Roger Hinks,246,257,Person author mention in Haskell footnote; candidate cand-4353 is the cited publication.
+m-chp21-bib-l577-614-hinks-author-20261025,chp-21:21_CHP-21Bibliography:l577-614,cand-12447,"Hinks, R.",2857,2866,Bibliography author form; title/year recorded on archive candidate cand-4353.
+m-chp21-bib-l1022-1057-rinaldis-author-01-20261025,chp-21:21_CHP-21Bibliography:l1022-1057,cand-6369,"Rinaldis, A. de",1881,1896,Printed author form for D’Arpino e Caravaggio; linked to S3 person candidate cand-6369.
+m-chp21-bib-l1022-1057-rinaldis-author-02-20261025,chp-21:21_CHP-21Bibliography:l1022-1057,cand-6369,"Rinaldis, A. de",1972,1987,Printed author form for Le opere d’arte sequestrate al Cavalier d’Arpino; linked to S3 person candidate cand-6369.
+m-chp2-seci-l124-157-rosi-author-20261025,chp-2:02_CHP-2_sec_i:l124-157,cand-12448,Rosi,2467,2471,Surname-only author mention in Haskell’s p.31 n.2.
+m-chp21-bib-l1059-1100-rosi-author-20261025,chp-21:21_CHP-21Bibliography:l1059-1100,cand-12448,"Rosi, M.",565,573,Bibliography author form; full personal identity unresolved.
