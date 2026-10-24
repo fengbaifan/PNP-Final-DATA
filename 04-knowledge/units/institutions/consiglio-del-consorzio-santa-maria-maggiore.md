@@ -38,5 +38,11 @@ updated: 2026-10-22
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [贝加莫圣母大殿1653年装饰计划（1653 Decoration Programme for Santa Maria Maggiore in Bergamo）](../events/santa-maria-maggiore-decoration-programme-1653.md) | S2 relation candidate st-chp8-p215-1653-decoration-programme. Direction normalized from institution→event to event→participant; records Haskell’s reported initiating body and decision year only.；时间：1653；角色：发起决定的治理机构；范围：Haskell称 Consiglio del Consorzio 于1653年决定启动大型装饰计划，主要目的为中央交叉空间提供绘画；只记录其在该书叙述中的发起主体，不主张现代法人身份或全部计划作品已完成。；原断言与证据见发出端卡片“贝加莫圣母大殿1653年装饰计划（1653 Decoration Programme for Santa Maria Maggiore in Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215 L16–17; statement=st-chp8-p215-1653-decoration-programme |
+
 ### 身份与外部链接
 本卡仅记录 Haskell 书内可定位的机构指称；未在本批次登记外部身份标识。

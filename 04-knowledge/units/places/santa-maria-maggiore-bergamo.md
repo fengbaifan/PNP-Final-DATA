@@ -55,21 +55,22 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份边界
 
-中文：**对象边界：** 本卡与贝加莫城市本身分开；教堂的钟楼、祭衣间、穹顶、交叉空间及内部祭坛画保持各自对象身份。钟楼与本教堂的 `part_of` 关系已依据 Haskell p.215 登记；其余书内工程与装饰候选仍按具体端点和证据留待 S6 审查。
+中文：**对象边界：** 本卡与贝加莫城市本身分开；教堂的钟楼、祭衣间、穹顶、交叉空间及内部祭坛画保持各自对象身份。钟楼与祭衣间同本教堂的 `part_of` 关系均已依据 Haskell p.215 登记；其他工程与装饰对象继续按具体端点和证据分别审查。
 
-English: **Identity boundary:** This card is distinct from the city of Bergamo. The campanile, sacristy, dome, crossing, and interior altarpieces remain separate objects. The `part_of` relation between the campanile and this church is recorded from Haskell, p. 215; the remaining construction and decoration candidates still require S6 review against their specific endpoints and evidence.
+English: **Identity boundary:** This card is distinct from the city of Bergamo. The campanile, sacristy, dome, crossing, and interior altarpieces remain separate objects. The `part_of` relations for the campanile and sacristy within this church are recorded from Haskell, p. 215; the other construction and decoration candidates remain subject to endpoint-specific review.
 
 **候选定位：** `cand-7627`；S3 身份组 `sg3-place-cand-7627`。
 
 ## 关系与证据
 
-六条直接 S2 关系候选中，`st-chp8-p215-campanile-completed-1425` 已裁为 formal `part_of`，连接钟楼 work 与本教堂 place（`rel-1827`）。其余五条——`st-chp8-p215-church-work-began-1137`、`st-chp8-p215-gothic-fresco-traces-remain`、`st-chp8-p215-decoration-changed-and-altar-paintings-appeared`、`st-chp8-p215-sacristy-added-late-15c`、`st-chp8-p216-committee-assessment-visit`——仍待 S6 逐项审查。
+六条直接 S2 关系候选中，两条已裁为 formal：`st-chp8-p215-campanile-completed-1425` 连接钟楼 work 与本教堂 place（`rel-1827 part_of`）；`st-chp8-p215-sacristy-added-late-15c` 连接祭衣间 place 与本教堂 place（`rel-1830 part_of`）。`st-chp8-p216-committee-assessment-visit` 已在既有记录裁为 rejected。其余三条——`st-chp8-p215-church-work-began-1137`、`st-chp8-p215-gothic-fresco-traces-remain`、`st-chp8-p215-decoration-changed-and-altar-paintings-appeared`——仍待 S6 逐项审查。
 
 ### 关系记录
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [贝加莫圣母大殿钟楼（Campanile of Santa Maria Maggiore in Bergamo）](../works/campanile-santa-maria-maggiore-bergamo.md) | S2 relation candidate st-chp8-p215-campanile-completed-1425. Relation direction normalized from work to containing church place; completion date is not encoded as relation time.；角色：建筑构件；范围：Haskell称其为 Santa Maria Maggiore 的 campanile；只记录钟楼属于教堂建筑，1425年完工另作为S5字段。；原断言与证据见发出端卡片“贝加莫圣母大殿钟楼（Campanile of Santa Maria Maggiore in Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215 L13; statement=st-chp8-p215-campanile-completed-1425 |
+| ← 包含成员（`contains`，反向投影） | [贝加莫圣母大殿布拉曼特式祭衣间（Bramantesque Sacristy of Santa Maria Maggiore in Bergamo）](bramantesque-sacristy-santa-maria-maggiore-bergamo.md) | S2 relation candidate st-chp8-p215-sacristy-added-late-15c. Direction normalized from church→sacristy to sacristy→church; construction timing remains approximate S5, and Haskell’s assessment remains attributed to the source.；角色：教堂内部空间；范围：Haskell称祭衣间位于 Santa Maria Maggiore 内；只记录其作为内部空间隶属教堂，不把约略增设时期转化为精确关系年代，亦不将“使原有平面难以理解”当作经核验效果。；原断言与证据见发出端卡片“贝加莫圣母大殿布拉曼特式祭衣间（Bramantesque Sacristy of Santa Maria Maggiore in Bergamo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.215 L13; statement=st-chp8-p215-sacristy-added-late-15c |
 
 ### 身份与外部链接
 

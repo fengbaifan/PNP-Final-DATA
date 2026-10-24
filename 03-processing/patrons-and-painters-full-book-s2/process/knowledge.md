@@ -12620,3 +12620,20 @@ S6 对七项关联候选逐项裁决，均有明确去向：
 #### 卡片与批后检查
 
 6张新卡完成登记；16张受影响卡按单KU预览，14张有预期差异并完成定向渲染，2张无差异。`build_cards.py --render`预检：`cards=14`、`tables=9`、`rows=61`、`projected_relation_rows=241`、`files_to_write=14`；写后字节核验通过，事务恢复快照已清理。严格表审计：`kus=2718`、`alignments=12758`、S4待登记3145、`relations=1823`（1,810 formal、13 pending）、S5字段12,882（1,634 unverified）、`sources=1776`、`book_statements=15306`、`mentions=26773`、`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0。S3决定数不变；S2独立复核分子仍为9,617，未接收。S6累计为956/10,529（595 formal、265 pending、96 rejected），其余9,573项待逐条裁决。
+
+
+<a id="s4-s5-s6-ch8-p215-sacristy-decoration-programme-20261024"></a>
+### S4登记／S5字段／S6关系裁决：第8章 p.215 祭衣间与1653年装饰计划（2026-10-24）
+
+沿用既有 S3 `new` 决定，不重开身份判断：`cand-7633`／`aln-7809` 属于 `sg3-place-cand-7633`，登记为 `units/places/bramantesque-sacristy-santa-maria-maggiore-bergamo`；`cand-7639`／`aln-7815` 属于 `sg3-event-cand-7639`，登记为 `units/events/santa-maria-maggiore-decoration-programme-1653`。第二项与第8章所述1695年装饰完成事件及各项单独委托保持区分。两条 alignment 的决定仍为 `new`，均链接本记录。
+
+S5 从 Haskell p.215 抽取八条 source-backed 字段：`enr-16807`–`enr-16810` 记录祭衣间的来源描述名、内部空间类型、Haskell所称的新 Bramantesque 风格及约略增设时期；`enr-16811`–`enr-16814` 记录装饰计划的来源描述名、事件性质、1653年启动决定及中央交叉空间供画目的。没有将约略时期写成精确年份、把书中评价当作已核验事实，或声称计划全部完成。
+
+S6 对本批两项直接关系候选逐项裁决：
+
+| statement | 去向 | 裁决与范围 |
+|---|---|---|
+| `st-chp8-p215-sacristy-added-late-15c` | formal | `rel-1830 part_of`，祭衣间 place → Santa Maria Maggiore place。只记录内部空间隶属关系；增设时间仍是约略S5字段，Haskell关于原有平面较难理解的说法仍归于作者。 |
+| `st-chp8-p215-1653-decoration-programme` | formal | `rel-1831 has_participant`，1653年装饰计划 event → Consiglio del Consorzio institution；角色为发起决定的治理机构。仅记录Haskell所述启动决定，不外推现代法人身份或作品完成情况。 |
+
+教堂卡的六条直接候选现在为两条 formal（`rel-1827`、`rel-1830`）、一条既有 rejected（`st-chp8-p216-committee-assessment-visit`，沿用原过程记录），三条 pending：`st-chp8-p215-church-work-began-1137`、`st-chp8-p215-gothic-fresco-traces-remain`、`st-chp8-p215-decoration-changed-and-altar-paintings-appeared`。本批未新增S2 statement／mention，不改变S2独立复核计数、S3决定或backlog。新增两组KU、两条S4映射、八条S5字段和两条formal关系；新卡、教堂卡与Consiglio卡按关系投影定向预览及渲染。

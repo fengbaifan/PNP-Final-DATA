@@ -2,6 +2,8 @@
 
 ### 本轮进度与后续工作（2026-10-24）
 
+**第8章 p.215 祭衣间与1653年装饰计划端点批次（2026-10-24）：** 沿用 `cand-7633`、`cand-7639` 两个既有S3 `new` 身份组，登记1个 place KU、1个 event KU及2条S4映射；新增8条Haskell来源字段。两项直接S6候选分别裁为 `rel-1830 part_of`（祭衣间→教堂）和 `rel-1831 has_participant`（装饰计划→Consiglio del Consorzio）。六条教堂直接候选当前为2 formal、1条既有rejected、3 pending。四张受影响卡定向渲染并复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五项结构阻断均为0。未改S2 statement／mention、S3主决定或独立复核分子。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-p215-sacristy-decoration-programme-20261024)。
+
 **第8章 p.215 钟楼、穹顶与灰泥装饰端点批次（2026-10-24）：** 沿用 `cand-7632`、`cand-7636`、`cand-7637` 的既有 S3 `new` 组，登记3个 work KU 和3条 S4 映射；新增8条 Haskell 来源字段，3条直接 S6 候选分别裁为 formal `part_of`（钟楼→教堂）、`designer_of`（Ricchini→穹顶，仅指1612年规划）、`part_of`（灰泥装饰→穹顶内饰）。五张受影响卡定向渲染并复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断项均为0。未重开 S3，也未新增 S2 statement／mention，独立复核分子不变。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-p215-architectural-work-endpoints-20261024)。
 
 **第6章 p.166 Crespi 余下六件圣事端点批次（2026-10-24）：** 沿用 `cand-6563` 的既有 S3 `new` 组并登记作品组KU；新增2条书内S5字段，裁决2条直接S6候选为 formal（`rel-1824 commissioned_by`、`rel-1825 located_at`），另按馆方完整系列级证据新增外部 formal `rel-1826 creator_of`。四张受影响卡定向渲染并复预览无差异；表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断为0。未新增S2 statement／mention，独立复核分子不变；系列级1712年信息未用于单幅作品定年。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p166-crespi-six-sacraments-20261024)。
@@ -45,18 +47,18 @@
 
 **第9章 p.251跨章身份与端点批次（2026-10-24）：** cand-6960 与 cand-8218 经跨章核对分别复用圣彼得大殿及 Bernini 柱廊 KU；cand-1518、cand-8229、cand-8231 登记为 Manin Passeriano country house、Le Grazie（Florio）与 La Galleria di Minerva 第六卷。cand-8230 因可能与同卷第83页的 cand-9523 指向同一匿名信件，保留 S3 undecided。新增3条 mention 锚点、1条 authored_by S2 statement（不计独立复核分子），新增13条 S5 字段并更正 Daniele Florio 卡的印刷题名；5条相关 S6 候选逐条裁为1 formal、3 pending、1 rejected。六张受影响卡定向渲染并复预览无差异；严格表审计 errors=[]、s2_missing=[]，关系一致性五类阻断均为0。详见[本批过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-p251-endpoints-20261024)。
 
-**最新全书快照（2026-10-24，本批后）：** S0有832个源段（678 complete、154 excluded）。S2共15,306条statement、26,773条mention；统一独立逐条复核9,617/15,306（62.8%，尚未接收，台账待按当前statement ID与来源版本核平）；第七章1,190/1,273、第八章487/1,487，其他章节局部复核不自动并入统一口径。S3主决定覆盖12,418/12,418：same=2,047、new=5,070、conflict=9、excluded=102、undecided=5,190（类型边界未决623）；另有25个候选的主决定与外部来源对齐行值不同，按来源语义核对，不直接视为身份冲突。S4已映射1,929/5,070条new候选，待映射3,141条，其中1,415条为直接关系端点。S5字段12,892条（1,634条unverified）。S6累计裁决961/10,529条关系候选（600 formal、265 pending、96 rejected），尚余9,568条；relations.csv有1,829条关系（1,816 formal、13 pending）。另有340条关系候选至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided；严格审计pending=0）。S2独立复核尚未接收，S3–S6未全书收口，S7未启动；知识发现与页面仍等待明确启动。
+**最新全书快照（2026-10-24，本批后）：** S0有832个源段（678 complete、154 excluded）。S2共15,306条statement、26,773条mention；统一独立逐条复核9,617/15,306（62.8%，尚未接收，台账待按当前ID与来源版本核平）；第七章1,190/1,273、第八章487/1,487，其他章节局部复核不自动并入统一口径。S3主决定覆盖12,418/12,418：same=2,047、new=5,070、conflict=9、excluded=102、undecided=5,190（类型边界未决623）；另有25个候选的主决定与外部来源对齐行值不同，按来源语义核对，不直接视为身份冲突。S4已映射1,931/5,070条new候选，待映射3,139条，其中1,413条为直接关系端点（term 497、archive 333、work 232、place 184、event 90、institution 76、person 1）；其余1,726条目前未见于formal S2关系端点。S5字段12,900条（1,634条unverified）。S6累计裁决963/10,529条关系候选（602 formal、265 pending、96 rejected），尚余9,566条；relations.csv有1,831条关系（1,818 formal、13 pending）。340条关系候选仍至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 223、两端均缺72）。candidate-backlog.csv有32条记录（12 completed、20 undecided；严格审计pending=0）。S2独立复核尚未接收，S3–S6未全书收口，S7未启动；知识发现与页面暂停。
 
-**后续工作规划：**
+**后续工作规划：** 按语义依赖推进，S3身份裁决与其后端点登记分开记账，S2独立复核作为并行工作线：
 
-1. **S4直接端点优先：** 在5,070条new映射中还有3,141条待登记，其中1,415条直接关系端点。按同章页组和跨章书目／人物组批次处理；每批先完成身份分组，再登记KU和卡片，不重复打开已有same决定。
-2. **同批收口S6：** 当前尚有9,568项关系候选未裁决。优先处理端点已齐且有明确来源定位的 `cites`、书信往来、作品作者／委托等候选；每项明确为formal、复用、pending或rejected。缺端点对象进入backlog，补证后再登记，不写空端点。
-3. **证据定向补S5：** 先处理直接关系端点和影响关键关系解释的字段；每条保留来源、位置和核验状态。当前全局字段预览存在范围外变更与来源状态降级，先隔离并解决该差异，再批量应用，不能用全库写回来换速度。
-4. **继续分章S2独立语义复核与修订：** 以当前statement ID和来源版本核平台账；新增statement只进入分母，只有实际逐条复核后才增加分子。未解决事实、身份和类型边界继续保留明确待证理由。
-5. **受触发才重开S3：** 仅当登记发现身份冲突、出现新来源证据或跨章对象边界改变时重开相关候选；其他候选按现有决定前进。
-6. **S7门槛：** 待S4、S5、S6各自达到可交接状态并完成相应核对后再准备发布；知识发现与页面仍暂停，需用户明确启动。
+1. **先核平工作基线。** 将9,617条S2独立复核记录逐项映射到当前statement ID与来源版本，核实新增statement的分母归属；同时核查25个S3主决定与外部对齐行值不同的候选。核平前不提高独立复核分子，也不把局部章节复核直接并入统一口径。
+2. **按类型完成跨章S3未决身份裁决。** 5,190个undecided中有3,046个出现在关系候选端点，优先以类型、共同来源页和跨章引注为组：work 1,106、term 442、person 433、archive 299、place 133、institution 83、event 67、family 13、procedure 2、类型边界未定468；建议先做work关系端点，再处理term、person与archive。对全部候选逐项给出same复用目标、new稳定身份组、conflict涉及对象与证据、excluded理由，或有理由的undecided及复查条件；9项conflict也保留逐项去向。
+3. **S3决定后优先登记直接端点并同批处理S5/S6。** 当前已判new但未登记的1,413个关系端点按来源页／跨章组登记；新完成S3且判new的端点进入同一队列。登记时只补有证据的关键字段，并逐项裁决已具备端点的关系；复预览只覆盖实际受影响卡片。其余1,726条当前未出现在正式关系端点中的new映射随后登记，总S4待映射为3,139条。
+4. **修复缺失端点并推进其余S6。** 340条关系候选至少缺一个S2端点候选ID，回对应来源页核查mention和候选映射；不得造空端点。其余已有端点的关系候选逐项记录formal、pending或rejected。目前9,566条尚无S6决定；已判pending的265条是明确待证去向，不与未裁决数混计。
+5. **定向收束S5和S2复核。** 1,634条unverified字段先按关系端点依赖和关键身份字段排序，逐条核实或记录待证／不适用。S2台账核平后继续按当前ID分章独立语义复核；第七章尚83条、第八章尚1,000条未列入该章复核记录，其他章节按核平后的台账推进。
+6. **最后准备S7。** 只有S0–S6分别达到可交接状态、缺口均有明确去向且严格审计无结构错误后，才准备发布验证；知识发现和页面仍暂停。
 
-**提速方式：** 按同一来源页、脚注组和跨章身份组一次阅读、一次裁决；只渲染实际受影响卡片，里程碑再运行全库门禁。分别报告覆盖数、语义未决和待证项，不把它们折成单一项目百分比。
+**提速方式：** 同一来源页一次完整阅读，再集中完成该页的跨章身份组、S4映射、必要S5字段与S6候选；先处理关系端点密集的类型，减少反复回读。脚本只用于定位、编号、写回和机械审计；每批只预览／渲染变更影响到的卡片，里程碑再执行全量门禁。按S2语义复核、S3决定去向、S4有效映射、S5字段状态、S6裁决分别报数，不折成单一百分比。旧版导出测试硬编码快照已由`fe6b776 Make export count tests data-driven`修复；最近已同步提交的Quality Gate运行[40048485941](https://github.com/fengbaifan/PNP-Final-DATA/actions/runs/40048485941)为success。
 
 本轮完成第15章p.365–366与第21章p.435的跨章端点批次：`cand-11526`由`undecided`改为`same`并复用Radicchio 1786 archive；Azzo人物`cand-0981`与Subleyras计划图稿组`cand-10494`依据来源语境改判`new`。新增7个KU及7条new候选映射，新增2条S2关系断言；修正Piranesi版画候选名，不再把1786年误赋给版画。新增27条Haskell来源字段；14条相关S6候选逐项裁为9 formal、5 pending。14张相关卡片定向渲染及复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断检查均为0。新增2条S2 statement尚未独立复核。详见[第15章跨章裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp15-p365-p366-20261023)。
 
