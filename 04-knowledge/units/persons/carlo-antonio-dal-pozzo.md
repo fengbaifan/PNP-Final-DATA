@@ -71,4 +71,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → sibling_of（`sibling_of`） | [卡西亚诺·达尔·波佐（Cassiano dal Pozzo）](cassiano-dal-pozzo.md) | The sibling relation is explicit in the source.；角色：younger brother；范围：Haskell states that Cassiano died survived by his brother Carlo Antonio.；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.113, line 162; S2 statement: st-chp4-sec-ii-p113-carlo-antonio-brother-of-cassiano |
+
 目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 5 条（st-chp4-sec-ii-l15-22-shared-home, st-chp4-sec-ii-l53-63-carlo-antonio-interested-in-poussin-bird-pictures, st-chp4-sec-ii-p104-footnote3-olina-notes-carlo-antonio-interest, st-chp4-sec-ii-p113-carlo-antonio-survival, st-chp4-sec-ii-p113-carlo-antonio-brother-of-cassiano），保留待 S6 审查；本卡登记不等于关系裁决。

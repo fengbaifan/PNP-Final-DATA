@@ -83,6 +83,10 @@ This unit records identity evidence from the book; no external identity link is 
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 朋友（`friend_of`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](nicolas-poussin.md) | Explicit source statement.；范围：Haskell explicitly calls Chantelou Poussin’s friend when describing the set given to him.；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.106, line 96; S2 statement: st-chp4-sec-ii-l91-99-poussin-friend-of-chantelou |
+
 当前没有正式关系记录。书内7条直接关系候选保留在断言账本中，尚未转为正式关系。
 
 No formal relations are recorded. Seven direct relation candidates from the book remain in the statement ledger and have not been converted into formal relations.

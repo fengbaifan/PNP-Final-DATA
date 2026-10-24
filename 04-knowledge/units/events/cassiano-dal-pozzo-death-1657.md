@@ -36,3 +36,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 直接 S2 关系候选 st-chp4-sec-ii-p113-cassiano-death 留待 S6 裁决；本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [卡西亚诺·达尔·波佐（Cassiano dal Pozzo）](../persons/cassiano-dal-pozzo.md) | No independent date verification is claimed.；时间：1657；角色：deceased；范围：Haskell reports Cassiano’s death in 1657. The event node records the reported year and deceased role only.；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.113, line 162; S2 statement: st-chp4-sec-ii-p113-cassiano-death |

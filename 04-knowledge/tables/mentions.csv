@@ -11556,7 +11556,7 @@ m-chp4-sec-ii-l91-99-mona-lisa,chp-4:04_CHP-4_sec_ii:l91-99,cand-5783,Mona Lisa,
 m-chp4-sec-ii-l91-99-trattato-copy,chp-4:04_CHP-4_sec_ii:l91-99,cand-2045,the Trattato,1346,1358,Reuse Cassiano's index subentry for his edition/copy; distinguish from Leonardo's source manuscript.
 m-chp4-sec-ii-l91-99-cassiano-copy,chp-4:04_CHP-4_sec_ii:l91-99,cand-2045,his own hand,1362,1374,Anaphoric reference to Cassiano's handwritten version of the Trattato.
 m-chp4-sec-ii-l91-99-leonardo-2,chp-4:04_CHP-4_sec_ii:l91-99,cand-1390,Leonardo,1447,1455,Artist named in the manuscript-ownership context pursued by Cassiano.
-m-chp4-sec-ii-l91-99-leonardo-correspondence,chp-4:04_CHP-4_sec_ii:l91-99,cand-5778,Leonardo manuscripts,1447,1467,Plural manuscript references; individual manuscripts other than the Trattato are not identified.
+m-chp4-sec-ii-l91-99-leonardo-correspondence,chp-4:04_CHP-4_sec_ii:l91-99,cand-12441,Leonardo manuscripts,1447,1467,Plural Leonardo manuscript owners mentioned in the correspondence sentence; this is not the specific Trattato manuscript cand-5778.
 m-chp4-sec-ii-l91-99-mazenta,chp-4:04_CHP-4_sec_ii:l91-99,cand-1601,Ambrogio Mazenta,1496,1512,Barnabite monk named as a notable correspondent and manuscript owner.
 m-chp4-sec-ii-l91-99-mazenta-collection,chp-4:04_CHP-4_sec_ii:l91-99,cand-5788,important collection,1519,1539,Collection of Leonardo manuscripts described by Haskell.
 m-chp4-sec-ii-l91-99-arconato,chp-4:04_CHP-4_sec_ii:l91-99,cand-0115,Galeazzo Arconato,1624,1641,Named as the person who largely reconstructed Mazenta's dispersed collection.
@@ -27441,3 +27441,8 @@ m-chp21-bib-l756-806-cheruel-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand
 m-chp21-bib-l756-806-mazarin-lettres-20261024,chp-21:21_CHP-21Bibliography:l756-806,cand-1588,"Mazarin, G.",1583,1594,Principal bibliographic responsibility form in the Lettres entry.
 m-chp7-p169-i-043,chp-7:07_CHP-7_sec_i:l3-9,cand-6602,every day I have to turn down commissions (and important ones at that) from all over Europe,188,279,"Quoted passage in the letter identified by linked footnote st-chp7-p169-n1-cite; dates and De Rinaldis page remain Haskell locators, not independent verification."
 m-chp19-p391-041-smith-cataloguer,chp-19:19_CHP-19Appendix:l109-124,cand-2447,him,1038,1041,Haskell's pronoun in the catalogue sentence refers to Joseph Smith.
+m-chp4-sec-ii-p113-0027,chp-4:04_CHP-4_sec_ii:l161-170,cand-12442,landscapes,1905,1915,Generic landscapes of Gaspard Dughet; no individual work is identified.
+m-chp4-sec-ii-p113-0028,chp-4:04_CHP-4_sec_ii:l161-170,cand-12443,secondary artists,699,716,Collective makers unnamed by Haskell; their personal identities do not survive in the account.
+m-chp4-sec-ii-p113-0029,chp-4:04_CHP-4_sec_ii:l161-170,cand-12444,scholars,2488,2496,Generic plural group encouraged by Cassiano; no individual scholar is named.
+m-chp4-sec-ii-p113-0030,chp-4:04_CHP-4_sec_ii:l161-170,cand-12445,French friends and clients,872,898,Generic plural group for whom Poussin worked after his 1642 return; no individual is named.
+m-chp4-sec-ii-l91-99-different-patrons,chp-4:04_CHP-4_sec_ii:l91-99,cand-12446,different patrons,446,463,Unnamed plural recipients associated with Poussin’s later profound pictures; no individuals are identified.

@@ -94,3 +94,10 @@ English: The series identity is distinct from any individual painting, version, 
 ## 关系与证据
 
 当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 创作者（`created_by`，反向投影） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | No individual panel dates inferred.；时间：second half of the 1630s；角色：painter；范围：Haskell says Poussin began painting the Seven Sacraments series in the second half of the 1630s; series-level attribution.；原断言与证据见发出端卡片“尼古拉·普桑（Nicolas Poussin）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.106, line 99; S2 statement: st-chp4-sec-ii-l91-99-seven-sacraments-series-begun-fragment |
+| → 受其赞助／保护（`patronized_by`） | [卡西亚诺·达尔·波佐（Cassiano dal Pozzo）](../persons/cassiano-dal-pozzo.md) | Series-level patronage; no commissioning contract inferred.；时间：second half of the 1630s (series begun)；角色：patron；范围：Haskell describes the Seven Sacraments as part of Poussin’s work for Cassiano and dates the beginning of the series to the second half of the 1630s.；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.106, line 99; S2 statement: st-chp4-sec-ii-l91-99-poussin-worked-for-cassiano-on-seven-sacraments |

@@ -62,3 +62,9 @@ S3 新组 `archive-group-01f343df099c` 仅含 `cand-5683`，指向此1874年书�
 ## 关系与证据
 
 当前没有登记正式关系。S2 中九条 Haskell 引用该书的关系候选留待 S6 逐条核验端点、引用方向、语境与证据；被引页未独立阅读。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | Citation only; book contents not consulted.；范围：Haskell footnote 2 cites Lumbroso, Notizie sulla vita di Cassiano dal Pozzo (1874).；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.106, footnote 2, line 259; S2 statement: st-chp4-sec-ii-notes-l255-259-fn259-mazenta-letter-citation |

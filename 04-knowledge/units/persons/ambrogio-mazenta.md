@@ -53,4 +53,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 通信（`corresponded_with`，反向投影） | [卡西亚诺·达尔·波佐（Cassiano dal Pozzo）](cassiano-dal-pozzo.md) | Cassiano is the grammatical subject; relation type is symmetric.；角色：correspondents；范围：Haskell reports that Cassiano began corresponding with scholars and manuscript owners, notably Mazenta; no letter contents inferred.；原断言与证据见发出端卡片“卡西亚诺·达尔·波佐（Cassiano dal Pozzo）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.106, line 96; S2 statement: st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners |
+
 当前没有登记在 `relations.csv` 中的正式关系。S2关系候选 `st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners`、`st-chp4-sec-ii-l91-99-mazenta-collection-reconstructed` 保留来源归因并留待S6裁决；本次S4身份登记不将其转为正式关系。

@@ -1,5 +1,82 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp4-p106-p113-endpoints-20261024"></a>
+### 跨章身份分组／S2定向修订／S4登记／S5字段／S6逐项裁决：第4章 pp.106、113（2026-10-24）
+
+**S2定向修订。** 修正 p.106 “Marriage of Peleus” 提议的发言者、扩充 Chantelou 手稿组、Poussin 插图者与1651年出版的引文范围；将 Errard 增补背景、绘画比较、Poussin 对插图工作的反应、对 Leonardo 的复杂感情、后来的致敬和七圣事系列评价拆为可追溯的独立断言。p.113 将 Velasquez 来访信件的宣布内容与作者／收件人候选分开；将 Tempest 的创作者、为 Cassiano 作画、风暴段落的文字来源与“合作高潮”分开；为未名次级画家、学者、法国客户及 Dughet 风景保留有界或待界定的候选。把“后期深刻作品由不同赞助人委托”的开放复数端点挂接 `cand-12446`；其对象组仍为 S3 undecided。未把单封1642年信件升格为持续通信，也未把作者的年代叙述转成关系边。独立 S2 复核分子不变，相关章段仍未接收。
+
+**S3身份与S4。** 以第21章书目补足第4章注释身份：`cand-5797` 与 `cand-11249` 共用 Białostocki 1954 文献组；`cand-5798` 与 `cand-11250` 共用 1960 文献组；`cand-5803` 按完整书目改判为 Carusi 1929–30 文章；`cand-5806` 由错误的新组改为复用 Lumbroso 1874 KU。保留各候选的原始决定轨迹；未声称阅读被引文章／书籍。将 `cand-2045` 的名称收窄为 Cassiano 手抄本，不与 Barberini 所藏底本、1651年出版物或 Chantelou 本合并。登记13个 KU，完成15条 `new` 候选映射；Białostocki 两篇文献各由跨章候选与本章候选共同映射到同一 KU。新增的未定候选 `cand-12441`–`cand-12446` 分别保留 Leonardo 手稿复数组、未指名 Dughet 风景、匿名次级画家、匿名学者、匿名法国友人与客户、未名赞助人组；未推断具体个体。
+
+**S5。** 对13张新卡按 Haskell 原书表格写入36条来源支持字段，均由来源页／注释定位；未用书目引注替代被引文献阅读，未宣称外部身份或具体事实独立核验。
+
+**S6逐项裁决。** 本批60条候选全部有决定：21 formal、37 pending、2 rejected。formal 仅写入 `relations.csv`（`rel-1875`–`rel-1893`）；pending、rejected 理由留在本表。
+
+| S2 statement | 决定 | 理由／正式边 |
+|---|---|---|
+| `st-chp4-sec-ii-l91-99-cassiano-commissioned-conventional-style` | pending | 未指明具体画作；现有端点是人物，不满足 `commissioned_by` 的作品域。 |
+| `st-chp4-sec-ii-l91-99-cassiano-copied-trattato` | pending | 抄写行为与物质手抄本关系未被现有受控谓词准确表达；保留抄本身份边界。 |
+| `st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners` | formal `rel-1875 corresponded_with` | Haskell 明言 Cassiano 开始与学者／手稿所有者通信，并点名 Ambrogio Mazenta；只记录该书内陈述。 |
+| `st-chp4-sec-ii-l91-99-cassiano-deepened-poussins-culture` | pending | 文化机会与影响没有精确受控谓词；不泛化为 `influenced`。 |
+| `st-chp4-sec-ii-l91-99-cassiano-gave-set-to-chantelou` | pending | “交给”是版本／物件转移事实，当前无准确转交谓词；不改写为所有权或委托。 |
+| `st-chp4-sec-ii-l91-99-cassiano-kept-original-drawings-and-copied-set` | pending | 原画组身份仍未决；“保留”不等于所有权，且复制组与原画须分开。 |
+| `st-chp4-sec-ii-l91-99-cassiano-owned-leonardo-attributed-portraits` | pending | 两幅女性肖像未识别，不能建立具名作品的 `owned_by` 边。 |
+| `st-chp4-sec-ii-l91-99-cassiano-saw-leonardo-paintings-fontainebleau` | pending | Fontainebleau 候选 `cand-4595` 仍 S3 undecided，具体地点边界未定；暂不写入无 KU 端点的 `located_at`。 |
+| `st-chp4-sec-ii-l91-99-errard-embellished-drawings-and-poussin-objected` | pending | 被增补的图组端点未决，修改行为也无精确受控谓词。 |
+| `st-chp4-sec-ii-l91-99-leonardo-treatise-in-barberini-library` | pending | Barberini library 端点 `cand-4777` 仍 S3 undecided；不建空或猜测的机构端点。 |
+| `st-chp4-sec-ii-l91-99-mazenta-collection-reconstructed` | pending | `reconstructed_by` 不等于 `compiled_by`；不以相近谓词强套。 |
+| `st-chp4-sec-ii-l91-99-poussin-acknowledged-paper-museum-debt` | pending | “paper museum”对象边界及“欠债”含义未定；不改写为赞助或隶属。 |
+| `st-chp4-sec-ii-l91-99-poussin-demands-rare-and-simple` | rejected | 断言描述证据稀少与作者对要求的概括，没有可独立表达的具体关系端点；原书解释仍留 S2。 |
+| `st-chp4-sec-ii-l91-99-poussin-drawings-compared-with-leonardo-sketches` | pending | 两组图像均未登记，虽可考虑 `compared_with`，当前身份与类型未定。 |
+| `st-chp4-sec-ii-l91-99-poussin-drawings-fine-but-not-enthusiastic` | pending | 图组端点未决；评价／情绪没有准确受控关系谓词。 |
+| `st-chp4-sec-ii-l91-99-poussin-later-tribute-to-leonardo` | pending | “致敬”的具体后期形式／作品未指明，不能建立作品端点。 |
+| `st-chp4-sec-ii-l91-99-poussin-mixed-feelings-about-leonardo` | pending | 情感判断没有精确关系类型；保留 Haskell 的复杂感情表述。 |
+| `st-chp4-sec-ii-l91-99-poussin-proposes-marriage-of-peleus` | pending | 是未落实的题材提议与意愿，不是已完成作品；候选题材仍未定。 |
+| `st-chp4-sec-ii-l91-99-profound-pictures-later-for-other-patrons` | pending | 已链接 `cand-12446` 未名赞助人组，但该组类型／成员未定，作品也未逐件识别。 |
+| `st-chp4-sec-ii-l91-99-publication-irritated-poussin` | pending | 对出版的情绪反应没有准确受控谓词，不写成冲突或影响边。 |
+| `st-chp4-sec-ii-l91-99-seven-sacraments-series-begun-fragment` | formal `rel-1876 creator_of` | Poussin→七圣事系列；只记录系列起始于1630年代后半的书内说法。 |
+| `st-chp4-sec-ii-notes-l255-259-fn258-letter-citation` | formal `rel-1877 cites` | 《赞助人与画家》→Jouanny 1911版《Correspondance》；仅记录脚注引注。 |
+| `st-chp4-sec-ii-notes-l255-259-fn259-chantelou-copy-location` | formal `rel-1878 located_at` | Chantelou 出版本→Hermitage；注明为 Haskell 所报版本位置。 |
+| `st-chp4-sec-ii-notes-l255-259-fn259-cited-literature` | formal `rel-1879 cites` | 《赞助人与画家》→Białostocki 1954 文章；不表示已读文章。 |
+| `st-chp4-sec-ii-notes-l255-259-fn259-mazenta-letter-citation` | formal `rel-1880 cites` | 《赞助人与画家》→Lumbroso 1874；不表示已读原书。 |
+| `st-chp4-sec-ii-notes-l255-259-fn259-version-locations` | formal `rel-1881 located_at` | Cassiano 手抄本→Biblioteca Ambrosiana；与 Barberini 底本区分，位置为 Haskell 所报。 |
+| `st-chp4-sec-ii-p113-archbishop-letter-authored-by` | pending | 信件 `cand-5930` 与作者 `cand-5925` 均未决；不建立署名事实。 |
+| `st-chp4-sec-ii-p113-archbishop-letter-addressed-to-cassiano` | pending | 收件人虽映射 Cassiano，信件本身仍未识别；不建立未定信件边。 |
+| `st-chp4-sec-ii-p113-carlo-antonio-survival` | rejected | “比 Cassiano 多活三十余年”是年代／生存时长断言，不是关系谓词；亲属边另行裁决。 |
+| `st-chp4-sec-ii-p113-cassiano-death` | formal `rel-1882 has_participant` | 死亡事件→Cassiano，角色 deceased、年份1657；仅按 Haskell 书内记载。 |
+| `st-chp4-sec-ii-p113-drawings-enrich-museum` | pending | 图组和 Museum Chartaceum 的类型／身份均未决。 |
+| `st-chp4-sec-ii-p113-drawings-made-by-secondary-artists` | pending | 制作者为匿名群体 `cand-12443` 且 S3 未决；不建立群体作者边。 |
+| `st-chp4-sec-ii-p113-first-private-patron-influence` | pending | “当时的艺术”是开放、宽泛目标；没有有界目标候选，保留作者判断。 |
+| `st-chp4-sec-ii-p113-friendship-may-have_cooled` | pending | Haskell 使用可能性措辞；不把关系写成确定的持续友谊或破裂。 |
+| `st-chp4-sec-ii-p113-leonardo-research` | pending | 研究受 Cassiano 之请属行动／委托解释，当前谓词的域值不适配。 |
+| `st-chp4-sec-ii-p113-men-continued-seeing` | pending | 持续见面不等同当前词表中的友谊、通信或合作谓词。 |
+| `st-chp4-sec-ii-p113-only-picture-for-cassiano` | formal `rel-1883 created_by` | Tempest→Poussin；依据 Haskell 对 Poussin 书信与画作的归述，保留来源归属状态。 |
+| `st-chp4-sec-ii-p113-picture-made-for-cassiano` | formal `rel-1884 patronized_by` | Tempest→Cassiano；保留 Haskell 的 “apparently”，不推断正式委托。 |
+| `st-chp4-sec-ii-p113-portrait-result-uncertain` | pending | “两位男士”指代、肖像作者／对象均未决；因果说明本身不锁定关系端点。 |
+| `st-chp4-sec-ii-p113-poussin-french-clients` | pending | `cand-12445` 是未名法国友人与客户组，类型和成员未决。 |
+| `st-chp4-sec-ii-p113-scholar-encouragement` | pending | `cand-12444` 学者组未决，且“鼓励”没有准确受控谓词。 |
+| `st-chp4-sec-ii-p113-storm-passage` | formal `rel-1885 derived_from` | Tempest→Trattato；限于风暴描写的文本来源，不表示物质抄本关系。 |
+| `st-chp4-sec-ii-p113-taste-currents-fragment` | pending | 目标为未界定的抽象趣味潮流，且原句跨页续接；不造概念端点。 |
+| `st-chp4-sec-ii-p113-tempest-dughet-influence` | pending | `cand-12442` 仅为未指名 Dughet 风景组且 S3 未决；不推断具体作品或影响边。 |
+| `st-chp4-sec-ii-p113-tempest-unique-cooperation` | formal `rel-1886 collaborated_with` | Poussin↔Cassiano；依据 Haskell 明言的长期合作，注明不表示共同创作。 |
+| `st-chp4-sec-ii-p113-carlo-antonio-brother-of-cassiano` | formal `rel-1887 sibling_of` | Carlo Antonio→Cassiano；原文明确称兄弟。 |
+| `st-chp4-sec-ii-l91-99-cassiano-selected-poussin-as-illustrator` | pending | 选择插图者这一角色无精确受控谓词；不以 `commissioned_by` 或 `creator_of` 替代。 |
+| `st-chp4-sec-ii-l91-99-cassiano-proposed-peleus-subject-to-poussin` | pending | 题材提议未形成具体作品或受控关系端点。 |
+| `st-chp4-sec-ii-l91-99-cassiano-had-poussin-drawings-copied` | pending | 图组端点未决；使他人复制的行为无准确谓词。 |
+| `st-chp4-sec-ii-l91-99-arconato-reconstructed-mazenta-collection` | pending | “重建”不等于编纂或创作；不以相似谓词替代。 |
+| `st-chp4-sec-ii-l91-99-st-john-seen-at-fontainebleau` | pending | Fontainebleau 候选 `cand-4595` 仍 S3 undecided；与 Leda 同一地点待决，不造具体宫殿或现藏地。 |
+| `st-chp4-sec-ii-l91-99-poussin-friend-of-chantelou` | formal `rel-1888 friend_of` | Poussin→Chantelou；原文直接称 Chantelou 为 Poussin 的朋友。 |
+| `st-chp4-sec-ii-l91-99-chantelou-took-set-to-paris` | pending | “带至巴黎”是转移行为；不能仅凭出版地推断该物件之后位置。 |
+| `st-chp4-sec-ii-l91-99-treatise-published-at-paris` | formal `rel-1889 located_at` | 1651年出版物→Paris；role 标明 publication place，不是现藏地。 |
+| `st-chp4-sec-ii-l91-99-cassiano-acquaintance-of-arconato` | pending | “熟识”没有精确受控谓词，不提升为朋友关系。 |
+| `st-chp4-sec-ii-l91-99-poussin-worked-for-cassiano-on-seven-sacraments` | formal `rel-1890 patronized_by` | 七圣事系列→Cassiano；系列层级赞助，不推断合同或单幅作品委托。 |
+| `st-chp4-sec-ii-l91-99-poussin-wrote-to-cassiano-from-paris` | pending | 本句只证一封信；词表将 `corresponded_with` 限于持续往来，未识别信件端点以用 `sent_by`。 |
+| `st-chp4-sec-ii-p106-fn259-cites-bialostocki-1960` | formal `rel-1891 cites` | 《赞助人与画家》→Białostocki 1960 文章；仅记录书目引注。 |
+| `st-chp4-sec-ii-p106-fn259-cites-trauman-steinitz-1953` | formal `rel-1892 cites` | 《赞助人与画家》→Trauman-Steinitz 1953 文章；仅记录书目引注。 |
+| `st-chp4-sec-ii-p106-fn259-cites-carusi-1929` | formal `rel-1893 cites` | 《赞助人与画家》→Carusi 1929–30 文章；仅记录书目引注。 |
+
+
+
+**复核与检查。** 本批19条正式关系通过域值域、端点和证据检查；两条 Fontainebleau 位置候选因 `cand-4595` 仍 undecided 保留 pending。对19条 formal 边涉及的22张卡定向预检并渲染；写后字节核验通过，22/22定向复预览无差异。13张新卡的 S5 复预览仍为36条字段、`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：`kus=2794`、`candidates=12424`、`alignments=12765`、待S4登记3065、S5字段13062（1634 unverified）、relations.csv 1893（1878 formal、15 pending）、S2 statements=15326、mentions=26779、`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0；另有1367个零关系KU、2个高连接KU供后续语义复核，不属于本批阻断。独立 S2 复核分子仍为9617，本批未提升或接收。
 <a id="s3-s4-s6-inquisitori-state-inquisition-20261024"></a>
 ### 跨章身份复用与国家宗教裁判所关系裁决（2026-10-24）
 
