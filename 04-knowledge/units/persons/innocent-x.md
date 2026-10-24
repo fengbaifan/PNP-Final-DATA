@@ -73,7 +73,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [君士坦丁骑马像（Equestrian Statue of Constantine）](../works/bernini-equestrian-statue-constantine.md) | Records Haskell’s source-attributed commission; not an independent confirmation of completion.；角色：commissioner；范围：Haskell lists the equestrian statue of Constantine among Bernini’s only important commissions from Innocent X. “Only important” is Haskell’s qualification; completion is not established.；原断言与证据见发出端卡片“君士坦丁骑马像（Equestrian Statue of Constantine）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Chapter 6, printed p.148, note 2, L123; S2 statement: st-chp6-notes-l123-p148-n2 |
+| ← 委托者（`commissioner_of`，反向投影） | [贝尼尼《四河喷泉》（Fountain of the Four Rivers by Bernini）](../works/bernini-fountain-four-rivers.md) | Formal S6 decision from the direct Haskell footnote; no completion status or exact date inferred.；范围：Haskell lists the Fountain among Bernini’s commissions from Innocent X; the note’s “Besides” marks this as a separate commission, without stating completion or date.；原断言与证据见发出端卡片“贝尼尼《四河喷泉》（Fountain of the Four Rivers by Bernini）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Chapter 6, printed p.148 n.2, line 123; S2 statement: st-chp6-notes-l123-p148-n2-fountain-commissioned-by-innocent |
+
 
 ### 身份与外部链接
 

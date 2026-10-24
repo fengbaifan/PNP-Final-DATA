@@ -12971,3 +12971,62 @@ S4 新增1个 event KU、2条候选映射，并登记到 `ku-manifest.csv` 与 `
 | `st-chp6-p161-v1-22` | pending | 比较对象含家族且主体为人物；受控 compared_with 的域／值域不支持该组合，故不强塞。 |
 
 note 1 的 Pascoli 引注属于相邻 Canini 讨论，不纳入本批 Altieri 关系裁决。未决的 Bellori、Clark 与 Berrettoni 身份继续阻断对应正式引注边；原书中“the work”的指代不确定、未命名 stucco frame、主厅 readiness、Baroque 风格评价和 nepotism 政策表述均不以弱谓词替代。除上述25项外，本批不处理同页其他艺术家关系。
+
+
+<a id="s3-s4-s5-s6-chp4-p104-endpoints-20261024"></a>
+
+### 跨章身份分组／S2定向修订／S4登记／S5字段／S6逐项裁决：第4章 p.104 与相关跨章端点（2026-10-24）
+
+#### S3身份组与S4登记
+
+本批沿用既有S3 `new`决定，登记8个跨章身份组。`cand-4937` 的第2章与第4章用例限定为 Haskell 所述 Barberini 赞助语境中的 High Baroque 风格术语；虽与第6章 `cand-6443` 共用 High Baroque 词面，后者是 Cortona／Gaulli 比较语境，概念边界与来源用法不同，故保持独立身份组，不合并。
+
+| candidate_id | S3身份组 | S4 KU |
+|---|---|---|
+| `cand-1516` | `sg3-term-cand-1516` | `units/terms/mannerist-painting-haskell-context` |
+| `cand-4937` | `sg3-term-cand-4937` | `units/terms/grand-baroque-style-urban-viii-haskell-account` |
+| `cand-5734` | `workgrp-b557ca8997a1d6` | `units/works/bernini-fountain-four-rivers` |
+| `cand-5738` | `sg3-term-cand-5738` | `units/terms/greek-style-duquesnoy-ideal` |
+| `cand-5739` | `sg3-term-cand-5739` | `units/terms/naturalism-haskell-account` |
+| `cand-5741` | `workgrp-20e8ad738d0f04` | `units/works/andrea-sacchi-st-romualdo-altarpiece-1638` |
+| `cand-5753` | `sg3-term-cand-5753` | `units/terms/classical-studies-poussin-roman-career` |
+| `cand-5754` | `workgrp-4d4d80c10244d0` | `units/works/modello-for-st-romualdo-altarpiece` |
+
+8条new候选均已映射至新KU，未与其他章节的相似词面或异名候选自动合并。Fountain的跨章组保留第4章 p.104 与第6章 p.148 n.2 的对象边界；St Romualdo altarpiece 与其 modello 分别建组，modello maker未识别。
+
+#### S2原子化和断言修订
+
+对照第4章 p.104既有逐条独立复核记录与来源文本，定向修订以下4条statement：将“fountains allow fantasy”保留为一般性论述，移除其对 Bernini《四河喷泉》的对象映射；将 Poussin 沉浸古典研究与 Cassiano 指导相关研究分为两个断言并互相链接；将 Cassiano “obtained” 的客体限定为 modello，不与 altarpiece 混作一物；补连modello、altarpiece与取得关系的statement引用。另新增3条未独立复核的relation-candidate statement：`st-chp4-sec-ii-l53-63-cassiano-directed-classical-studies`、`st-chp4-sec-ii-l53-63-sacchi-created-st-romualdo-altarpiece`、`st-chp6-notes-l123-p148-n2-fountain-commissioned-by-innocent`。新增statement不计入S2独立复核分子；原始OCR引文保持不改。
+
+#### S5来源字段
+
+8张新卡提取21条 Haskell 原书支持字段（`enr-16920`–`enr-16940`），均为 `source_backed`，本批未新增 `unverified` 字段。字段仅陈述书内对象、来源语境和原文描述，不构成对外部对象身份或事实的独立核验。
+
+#### S6逐项裁决
+
+16项关联候选均已逐条落位：4项formal写入`relations.csv`，12项pending保留过程理由，不生成formal边。
+
+| statement_id | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp2-secvii-l32-36-urban-promoted-baroque-style` | pending | “did much to promote”不足以套用会过度断言的受控谓词，暂不建风格推广关系。 |
+| `st-chp2-sec-viii-l3-7-barberini-heritage-and-artistic-choice` | pending | Barberini选择与城市未来建造之间的概括性因果范围不清，家族到术语的关系域也不匹配。 |
+| `st-chp4-sec-ii-l53-63-barberini-high-baroque-opposed-classical` | pending | 风格术语间的对立没有当前可用且域值匹配的正式谓词。 |
+| `st-chp4-sec-ii-l53-63-cassiano-enthusiastic-four-rivers` | pending | “热情赞赏”没有精确受控关系类型；“七年后”只保留为来源相对时间，不据此补日期。 |
+| `st-chp4-sec-ii-l53-63-duquesnoy-greek-style-saying` | pending | 引语评价“希腊风格”为完美之师，不等于当前图谱中可用的对象关系。 |
+| `st-chp4-sec-ii-l53-63-poussin-immersed-in-classical-studies` | pending | person→term的沉浸／学习关系无精确受控谓词。 |
+| `st-chp4-sec-ii-l53-63-cassiano-directed-classical-studies` | pending | person→term的指导关系无域值合适的受控谓词。 |
+| `st-chp4-sec-ii-l53-63-sacchi-and-poussin-kept-classical-path` | pending | person→term的风格路径关系无精确谓词，不把作者表述弱化成标签边。 |
+| `st-chp4-sec-ii-l53-63-poussin-kept-classical-path` | pending | person→term的风格路径关系无精确谓词，保留来源断言。 |
+| `st-chp6-p159-extremes-dangerous` | pending | Naturalism与Mannerism的评价性比较不符合当前`compared_with`的term→term域值约束。 |
+| `st-chp4-sec-ii-l53-63-mannerism-opposed-classical-path` | pending | Mannerism与true classical path之间的风格对立无匹配谓词。 |
+| `st-chp4-sec-ii-l53-63-naturalism-opposed-classical-path` | pending | Naturalism与true classical path之间的风格对立无匹配谓词。 |
+| `st-chp6-notes-l123-p148-n2-fountain-commissioned-by-innocent` | formal `rel-1871 commissioned_by` | Bernini《四河喷泉》→Innocent X；仅记录 Haskell 注释所述委托。 |
+| `st-chp4-sec-ii-l53-63-sacchi-created-st-romualdo-altarpiece` | formal `rel-1872 creator_of` | Andrea Sacchi→St Romualdo altarpiece；依据“one of his most famous altarpieces”，不声称外部作者权已核验。 |
+| `st-chp4-sec-ii-l53-63-cassiano-obtained-sacchi-modello` | formal `rel-1873 acquired_by` | St Romualdo modello→Cassiano；不把取得关系扩展为拥有或作品委托。 |
+| `st-chp4-sec-ii-l53-63-modello-for-st-romualdo` | formal `rel-1874 model_for` | modello→St Romualdo altarpiece；modello作者保持未识别。 |
+
+#### 投影与批后核验
+
+`build_field_facts.py`正式接口预览并应用21条字段，新增`enr-16920`–`enr-16940`，warnings=0。`build_cards.py --render`定向作用于8张新卡与4张既有端点卡，共12张、18个字段表、71条字段行及21条关系展示行；首次写入12张并完成写后字节核验，事务恢复快照已清理。复执行相同定向渲染后`files_to_write=0`。
+
+批后严格表审计：`kus=2781`、候选12,418、alignment rows 12,759、待S4登记3,078、关系表1,874（1,859 formal、15 pending）、S5字段13,026（1,634 unverified）、S2 statements 15,318、mentions 26,774、`s2_missing=[]`、`errors=[]`。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S3主决定仍为same=2,048、new=5,068、conflict=9、excluded=102、undecided=5,191。S6累计1,081/10,538（643 formal、333 pending、105 rejected），余9,457项未裁决。S2独立复核记录分子仍为9,617，未接收且待台账核平。上述机械审计不构成全书语义验收或S3–S6收口。

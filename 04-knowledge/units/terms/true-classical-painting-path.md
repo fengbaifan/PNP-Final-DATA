@@ -19,7 +19,7 @@ sources:
       source_file: 02-sources/02-Markdown/04_CHP-4_sec_ii.md
       source_span: lines 59–60; print p. 104
 created: '2026-10-20'
-updated: '2026-10-20'
+updated: '2026-10-24'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-term-direct-endpoints-crosschapter-20261020
 ---
 
@@ -39,4 +39,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-以下5条直接 S2 关系候选均待 S6 逐条审查，且尚无正式关系记录：`st-chp4-sec-ii-l53-63-barberini-high-baroque-opposed-classical`、`st-chp4-sec-ii-l53-63-mannerism-opposed-classical-path`、`st-chp4-sec-ii-l53-63-naturalism-opposed-classical-path`、`st-chp4-sec-ii-l53-63-sacchi-and-poussin-kept-classical-path`、`st-chp4-sec-ii-l53-63-poussin-kept-classical-path`。本次登记只补齐该组的 KU 端点，不构成相关 statement 或第4章的语义接收。
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
+
+以下5条直接 S2 关系候选现已逐项裁定为 pending：三条风格比较因受控关系类型不支持 term→term 的“相对”表达而保留待证；Sacchi 与 Poussin“保持古典路径”的两条候选因没有精确受控谓词而保留待证。裁决边界见[第4章 p.104 端点批次](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-p104-endpoints-20261024)。
