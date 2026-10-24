@@ -1829,6 +1829,7 @@ units/procedures/venetian-patrician-travel-permission,procedure,威尼斯贵族�
 units/procedures/venetian-political-unorthodoxy-prosecutions,procedure,威尼斯政治异端的检控,Prosecutions for political unorthodoxy in Venice,patrons-and-painters-full-book-s2,04-knowledge/units/procedures/venetian-political-unorthodoxy-prosecutions.md
 units/procedures/wealth-based-venetian-nobility-admission,procedure,以财富作为威尼斯贵族准入条件,Wealth-based admission to the Venetian nobility,patrons-and-painters-full-book-s2,04-knowledge/units/procedures/wealth-based-venetian-nobility-admission.md
 units/procedures/zanetti-chiaroscuro-colour-woodcut-process,procedure,三色或四色明暗木刻工艺,Process for making three- or four-colour chiaroscuro woodcuts,patrons-and-painters-full-book-s2,04-knowledge/units/procedures/zanetti-chiaroscuro-colour-woodcut-process.md
+units/terms/allegory-as-representational-mode-chp15,term,寓意作为表现方式,Allegory as a Representational Mode in Haskell’s p.371 Account,patrons-and-painters-full-book-s2,04-knowledge/units/terms/allegory-as-representational-mode-chp15.md
 units/terms/altarpiece,term,祭坛画,Altarpiece,,04-knowledge/units/terms/altarpiece.md
 units/terms/antique-sculpture-maffei-context,term,古代雕塑（马费伊收藏语境）,Antique Sculpture (Maffei Collecting Context),patrons-and-painters-full-book-s2,04-knowledge/units/terms/antique-sculpture-maffei-context.md
 units/terms/art-dealer,term,画商,Art dealer,,04-knowledge/units/terms/art-dealer.md
@@ -1887,6 +1888,8 @@ units/terms/pendant-pictures,term,成对绘画,Pendant pictures,chp-1,04-knowled
 units/terms/platonism,term,柏拉图主义,Platonism,chp-1,04-knowledge/units/terms/platonism.md
 units/terms/poem-eulogy-collections-noble-ceremonies,term,纪念贵族典礼的诗歌与颂诗集,Collections of poems and eulogies commemorating noble ceremonies,patrons-and-painters-full-book-s2,04-knowledge/units/terms/poem-eulogy-collections-noble-ceremonies.md
 units/terms/publishers-in-venice,term,威尼斯出版商群体,Publishers in Venice,patrons-and-painters-full-book-s2,04-knowledge/units/terms/publishers-in-venice.md
+units/terms/querini-reported-pagan-manichean-characterization,term,罗森伯格转述的奎里尼灵魂之异教／摩尼教色彩,Reported “Somewhat Pagan or at Least Manichean” Characterization of Querini’s Soul,patrons-and-painters-full-book-s2,04-knowledge/units/terms/querini-reported-pagan-manichean-characterization.md
+units/terms/querini-view-of-antique-restraint,term,奎里尼眼中古物的节制与不尚过度,Restraint and Lack of Excess in Querini’s View of the Antique,patrons-and-painters-full-book-s2,04-knowledge/units/terms/querini-view-of-antique-restraint.md
 units/terms/richeome-fresco-subject-devotional-function,term,里肖姆所论壁画题材的敬虔功能,Devotional Function of Fresco Subject Matter in Richeôme’s Account,patrons-and-painters-full-book-s2,04-knowledge/units/terms/richeome-fresco-subject-devotional-function.md
 units/terms/richeome-ornamental-forms-and-devotion,term,里肖姆所述不触及敬虔的装饰形式,Ornamental Forms Described by Richeôme as Not Touching Devotion,patrons-and-painters-full-book-s2,04-knowledge/units/terms/richeome-ornamental-forms-and-devotion.md
 units/terms/self-portrait,term,自画像,Self-portrait,,04-knowledge/units/terms/self-portrait.md
@@ -2020,6 +2023,7 @@ units/works/claude-mellan-vincenzo-giustiniani,work,文琴佐·朱斯蒂尼亚�
 units/works/claude-view-of-delphi-with-a-procession,work,有队列的德尔斐景观,View of Delphi with a Procession,front-matter,04-knowledge/units/works/claude-view-of-delphi-with-a-procession.md
 units/works/comedy-performed-1635,work,1635 年演出的喜剧（题名未明）,Unidentified comedy performed in 1635,chp-1,04-knowledge/units/works/comedy-performed-1635.md
 units/works/cortona-doria-pamfili-modelli-disputed,work,归于科尔托纳的多里亚—潘菲利画廊稿组（有争议）,Doria-Pamfili modelli attributed to Cortona (disputed),chp-1,04-knowledge/units/works/cortona-doria-pamfili-modelli-disputed.md
+units/works/de-non-amico-suavissimo-portrait,work,德农所绘并题有“amico suavissimo”的肖像,Portrait Drawn by Dominique De Non and Signed “amico suavissimo”,patrons-and-painters-full-book-s2,04-knowledge/units/works/de-non-amico-suavissimo-portrait.md
 units/works/domenichino-hunt-of-diana,work,狄安娜狩猎,Hunt of Diana,front-matter,04-knowledge/units/works/domenichino-hunt-of-diana.md
 units/works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle,work,Prà广场整治原始方案,Original proposals for reclaiming Prà della Valle,front-matter,04-knowledge/units/works/domenico-cerato-original-proposals-for-reclaiming-pra-della-valle.md
 units/works/facade-of-s-maria-del-giglio,work,百合圣母堂立面,Facade of S. Maria del Giglio,front-matter,04-knowledge/units/works/facade-of-s-maria-del-giglio.md
@@ -2082,6 +2086,7 @@ units/works/michelangelo-cerquozzi-women-s-bath,work,女浴,Women's Bath,front-m
 units/works/mola-air-valmontone,work,莫拉瓦尔蒙托内《空气》构图方案,Mola’s design for Air at Valmontone,chp-1,04-knowledge/units/works/mola-air-valmontone.md
 units/works/mola-four-elements-valmontone,work,莫拉的瓦尔蒙托内《四元素》壁画方案,Mola’s Four Elements fresco programme at Valmontone,,04-knowledge/units/works/mola-four-elements-valmontone.md
 units/works/mola-joint-caricature-of-simonelli-and-mola,work,西莫内利与莫拉联合漫画,Joint caricature of Simonelli and Mola,front-matter,04-knowledge/units/works/mola-joint-caricature-of-simonelli-and-mola.md
+units/works/monument-grand-duke-visit-apollo-relief,work,纪念托斯卡纳大公来访的纪念碑,Monument Commemorating the Grand Duke of Tuscany’s Visit,patrons-and-painters-full-book-s2,04-knowledge/units/works/monument-grand-duke-visit-apollo-relief.md
 units/works/monument-to-doge-giovanni-pesaro,work,乔瓦尼·佩萨罗总督纪念碑,Monument to Doge Giovanni Pesaro,,04-knowledge/units/works/monument-to-doge-giovanni-pesaro.md
 units/works/muziano-circumcision-gesu-high-altar,work,耶稣堂主祭坛《割礼》祭坛画,The Circumcision for the High Altar of the Gesù,patrons-and-painters-full-book-s2,04-knowledge/units/works/muziano-circumcision-gesu-high-altar.md
 units/works/nanteuil-cardinal-mazarin-in-his-gallery,work,画廊中的马扎然,Cardinal Mazarin in his Gallery,front-matter,04-knowledge/units/works/nanteuil-cardinal-mazarin-in-his-gallery.md
@@ -2124,6 +2129,8 @@ units/works/poussin-seven-sacraments-series,work,普桑《七件圣事》绘画�
 units/works/poussin-spring-valguarnera,work,普桑为瓦尔瓜尔内拉新订的《春》,Poussin’s Spring commissioned by Valguarnera,chp-1,04-knowledge/units/works/poussin-spring-valguarnera.md
 units/works/pozzo-fresco-cycle-tribune-apse-s-ignazio,work,波佐圣依纳爵堂祭坛区与后殿壁画组,Pozzo’s Fresco Cycle in the Tribune and Apse of S. Ignazio,patrons-and-painters-full-book-s2,04-knowledge/units/works/pozzo-fresco-cycle-tribune-apse-s-ignazio.md
 units/works/pozzo-fresco-vault-s-ignazio,work,圣依纳爵堂拱顶壁画,Fresco on the Vault of S. Ignazio,patrons-and-painters-full-book-s2,04-knowledge/units/works/pozzo-fresco-vault-s-ignazio.md
+units/works/querini-egyptian-figures,work,奎里尼所藏埃及人物像,Egyptian Figures Owned by Querini,patrons-and-painters-full-book-s2,04-knowledge/units/works/querini-egyptian-figures.md
+units/works/querini-etruscan-phallic-symbols,work,奎里尼所藏古代伊特鲁里亚阳具象征物,Ancient Etruscan Phallic Symbols Owned by Querini,patrons-and-painters-full-book-s2,04-knowledge/units/works/querini-etruscan-phallic-symbols.md
 units/works/religion-trampling-on-heresy-book-frontispiece,work,《宗教践踏异端》,Religion trampling on Heresy,patrons-and-painters-full-book-s2,04-knowledge/units/works/religion-trampling-on-heresy-book-frontispiece.md
 units/works/rembrandt-aristotle-contemplating-the-bust-of-homer,work,凝视荷马像的亚里士多德,Aristotle contemplating the bust of Homer,front-matter,04-knowledge/units/works/rembrandt-aristotle-contemplating-the-bust-of-homer.md
 units/works/reni-justice-embracing-peace,work,雷尼《正义拥抱和平》委托（1617）,Reni’s Justice embracing Peace commission (1617),chp-1,04-knowledge/units/works/reni-justice-embracing-peace.md

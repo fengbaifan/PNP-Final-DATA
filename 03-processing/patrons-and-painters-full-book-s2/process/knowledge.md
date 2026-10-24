@@ -13604,3 +13604,45 @@ S4 后将 cand-8771 留在未决队列，未建立占位 KU。新增 4 张双语
 | st-chp9-p275-sanciano-surviving-style | pending | 教堂包含“该风格最完整现存例子”的说法没有精确受控谓词；例子对象指向未决的 cand-8771 祭坛组。 |
 
 S2 的非关系陈述（包括 p.250 宫殿邻近语境、p.275 Corner 的建筑兴趣、对戏剧性檐饰的反感、祭坛外观描述和审美比较）不进入本批 S6 计数。S5 与 S2 独立复核分子不变。
+
+### S4/S6：第15章 p.371 Querini 直接关系端点批次（2026-10-25）
+
+本批沿用既有 S3 new 身份组，登记7个候选；不改写 S3 决定。按对象类型、书内来源跨度与现有 KU 正文核对：7项均无同一对象的既有同类型 KU，标题均为来源限定的描述性名称。纪念碑与园林中的阿波罗雕像、寓意表现方式与具体寓意作品分别保留；复数古代物件和埃及人物像不拆成未识别单件。没有外部身份核验或新增 S5 字段。
+
+#### S4 登记
+
+| candidate_id | S3 身份组／决定 | KU | 登记范围 |
+|---|---|---|---|
+| cand-10572 | sg3-term-cand-10572 / new | units/terms/querini-reported-pagan-manichean-characterization | 仅记录哈斯克尔转述罗森贝格对奎里尼灵魂的描述；不作信仰身份确认。 |
+| cand-10574 | workgrp-d0b91dce68dfb4 / new | units/works/monument-grand-duke-visit-apollo-relief | 纪念大公来访的纪念碑；保留大公未具名及原题、确切地点和存世状态未明。 |
+| cand-10578 | workgrp-f17547347d2034 / new | units/works/querini-etruscan-phallic-symbols | 来源所述奎里尼所有的古代伊特鲁里亚阳具象征物组；不推定数量或现藏位置。 |
+| cand-10579 | workgrp-d148ea5a4416e7 / new | units/works/querini-egyptian-figures | 来源所述奎里尼所有的大量埃及人物像；不补个数、单件身份或现藏位置。 |
+| cand-10584 | workgrp-7f08d441af5851 / new | units/works/de-non-amico-suavissimo-portrait | 德农所绘并题签的肖像；“his”所指坐者保持未决。 |
+| cand-11542 | sg3-term-cand-11542 / new | units/terms/allegory-as-representational-mode-chp15 | 仅记录寓意作为表现方式的来源用法，不指某一作品或普遍观众反应。 |
+| cand-12245 | sg3-term-cand-12245 / new | units/terms/querini-view-of-antique-restraint | 哈斯克尔转述奎里尼对古物节制与不尚过度的理解，不推广为古代艺术普遍属性。 |
+
+新增7张双语知识卡、7条 manifest 与 accepted 路径，并将原 alignment 行映射到对应 KU；S3 主决定、S2 statements／mentions 与候选 backlog 均不变。
+
+#### S6 逐候选裁决
+
+4条端点明确且语义和域值域匹配的关系裁为 formal，写入 relations.csv；其余5条保留过程级 pending，不写占位边：
+
+| statement_id | 决定 | 去向与理由 |
+|---|---|---|
+| st-chp15-p371-querini-etruacan-and-egyptian-objects | formal | rel-1941，古代伊特鲁里亚象征物 work → Querini，owned_by；不补数量、目录或现藏地。 |
+| st-chp15-p371-querini-erected-monument-for-visit | formal | rel-1942，Querini → 纪念碑，erector_of；来源明确称其为记录大公来访而竖立，不推定具体日期或现存。 |
+| st-chp15-p371-querini-owned-egyptian-figures | formal | rel-1943，埃及人物像 work → Querini，owned_by；“大量”不换算成件数。 |
+| st-chp15-p371-de-non-drew-signed-unidentified-sitter-portrait | formal | rel-1944，肖像 work → De Non，created_by；绘者明确，坐者代词未决不妨碍此边。 |
+| st-chp15-p371-querini-alter-spirits-and-mme-characterization | pending | Haskell 嵌套转述罗森贝格对 Querini 灵魂的描述；受控关系类型无精确“被某人描述为”语义，且不能转写为已证实信仰。 |
+| st-chp15-p371-grand-duke-monument-sphinx-apollo-relief | pending | 描绘对象 cand-4302 仍为 S3 undecided；不将未名大公强配到已有人物。端点身份确定后再按来源语义复裁。 |
+| st-chp15-p371-mme-rosenberg-distrust-of-allegory | pending | 来源报告罗森贝格对寓意表现方式的反应，但词表没有 person → term 的“反感／理解判断”精确谓词；不误用 influenced_by 或 has_subject。 |
+| st-chp15-p371-querini-antique-restraint | pending | 这是 Haskell 对 Querini 审美理解的归因性表述；没有精确表达 person → term 观点关系的受控谓词。 |
+| st-chp15-p371-rosenberg-difficulty-explaining-etruscan-symbols | pending | 来源报告罗森贝格解释物件时遇到困难；现有类型不表达解释困难，不能改写成评价或影响关系。 |
+
+pending 的解除条件分别为受控谓词新增且符合本项目治理、端点身份有新证据，或取得能改变端点／关系判断的具体来源；在此之前保留逐条理由，不因同页另有 formal 边而推定。
+
+#### 投影与审计
+
+10张目标卡逐卡预览后，对10张卡定向运行 build_cards.py --render；预检 cards=10、tables=0、rows=0、projected_relation_rows=12、cards_with_relation_changes=6、files_to_write=6。6个文件写入后字节核验通过，恢复快照已清理；10张卡逐卡复预览均无差异。
+
+python scripts/audit_tables.py --strict-stage --summary 退出码0：KU=2,855、候选=12,424、alignment=12,766、待S4登记=3,002、关系表=1,944（1,920 formal、24 pending）、S5字段=13,177（1,634 unverified）、S2 statements=15,343、mentions=26,781、s2_missing=[]、errors=[]。关系一致性审计 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic 均为0；孤立KU 1,376、over-connected KU 2 属全库结构统计，不是本批阻断项。git diff --check 通过。审计仍提示3,002条 new 候选待S4登记，且S2语义审读质量尚待继续核对；本批不构成S2接收或S3–S6全书收口。

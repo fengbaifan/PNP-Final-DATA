@@ -2,15 +2,15 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**第9章 p.250、p.275 S. Canciano 与 Corner 立面关系端点批次（2026-10-25）：** 沿用 4 个既有 S3 new 组登记地点、术语及两项建筑立面 KU；cand-8771 祭坛组维持 undecided。7 条直接 S6 候选全部逐项裁为 pending（建议鼓励、个人偏好、二手引语、例子关系均无精确可用谓词或端点范围未定），没有新增 formal 边。p.250 的 Widmann 宫殿邻近陈述为 relation_candidate=false，仅作地点语境。S2/S5 未变，S3 未重开。批后 S2 为15,343 statements／26,781 mentions，统一独立复核9,617/15,343（62.68%，仍未接收）；S3 same=2,052、new=5,072、conflict=9、excluded=103、undecided=5,188；S4 已映射2,063/5,072条 new 候选，待映射3,009条；KU共2,848。S5字段13,177（1,634 unverified）；S6累计1,251/10,559（703 formal、438 pending、110 rejected），未裁决9,308；relations.csv仍为1,940条（1,916 formal、24 pending）。详见[本批逐项过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch9-p250-p275-san-canciano-corner-endpoints-20261025）。
+**第15章 p.371 Querini 直接关系端点批次（2026-10-25）：** 沿用7个既有 S3 new 身份组，登记3个术语、4个作品；4条端点明确的关系裁为 formal（rel-1941–rel-1944），5条因缺精确谓词或对象身份待定而留在过程级 pending。坐者、未具名大公及归因性审美观点均保留原有不确定性。10张相关卡完成预览、定向渲染和写后复预览。严格表审计 errors=[]、s2_missing=[]；关系一致性五类阻断均为0。批后 S2 为15,343 statements／26,781 mentions，统一独立复核9,617/15,343（62.68%，未接收）；S3 same=2,052、new=5,072、conflict=9、excluded=103、undecided=5,188；S4 已映射2,070/5,072条 new 候选，待映射3,002条，其中1,284条仍触及直接关系端点；KU共2,855。S5字段13,177（1,634 unverified）；S6已裁决1,260/10,559（707 formal、443 pending、110 rejected），未裁决9,299；relations.csv共1,944条（1,920 formal、24 pending）。candidate-backlog.csv仍为33条（12 completed、21 undecided，严格审计 pending=0）。详见[本批逐项过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-chp15-p371-querini-endpoints-20261025)。
 
 **后续工作规划：**
 
-1. **S4/S6 关系端点批次：** 3,009 个 S3 new 候选仍待映射，其中 1,291 个已是直接关系端点，按类型为 term 461、archive 300、work 209、place 169、event 84、institution 67、person 1。先做证据与身份稳定的来源连贯批次，同批逐条裁决对应 S6；当前另有 9,308 条 S6 候选待裁决。
-2. **S3 分类型裁决：** 主决定字段已覆盖 12,424/12,424，但这不代表语义收口；5,188 个候选仍处于 undecided。按类型队列为 work 1,598、person 1,067、archive 680、term 658、place 307、institution 119、event 113、family 18、procedure 2、untyped 626。优先审查其中 3,046 个直接关系端点，先厘清 untyped 对象类型；另对 26 个跨来源 decision 值不一致候选逐源核查，不自动改列 conflict。证据充分时裁为 same/new/conflict/excluded，未足时保留 undecided 并写明去向及解除条件。
-3. **S2 独立审读：** 统一台账已复核 9,617/15,343，尚有 5,726 条待核；按章节继续审读，并用当前 statement ID 与来源版本核平台账。全书语义审读和核平完成前不宣称 S2 已接收。
-4. **S5 关键补足：** 1,634 条字段仍为 unverified；优先处理会改变身份、关键字段、关系端点或 S6 结论的字段。新证据只重审受影响对象与下游关系，不全库重跑。
-5. **S7 放行条件：** S2 已接收，S3 候选均有可追溯状态和明确去向，S4 new 候选完成登记或明确待决，S5 关键缺口已处理或留有证据化状态，S6 每条候选均有 formal/pending/rejected 决定且 backlog 按规则收口后，再准备 S7。知识发现与页面仍暂停。
+1. **S4/S6 直接关系端点批次：** 从剩余1,284个未映射、且触及直接关系的 S3 new 候选中，继续选择来源连贯、身份稳定的对象；每批完成 S4 映射，并逐条将关联 S6 statement 裁为 formal、pending 或 rejected。其余 new 候选按类型登记或留有具体待决理由。
+2. **S3 分类型身份裁决：** 5,188个 undecided 候选按 work 1,598、person 1,067、archive 680、term 658、place 307、institution 119、event 113、family 18、procedure 2、untyped 626 分队列处理。优先厘清这3,046个直接关系端点中仍未分类对象的类型；对26个跨来源 decision 值不一致候选逐源核对，不自动视为冲突。证据不足的候选保留 undecided，并记录缺口与解除条件。
+3. **S2 独立语义复核：** 尚有5,726条 statement 未进入统一逐条复核；按章节继续阅读并按当前 statement ID、来源版本核平台账。机械覆盖不等于语义接收。
+4. **S5 关键字段补足：** 1,634条字段仍为 unverified；优先核实会影响身份、关系端点或 S6 结论的字段，并只追踪受证据变化影响的下游对象。
+5. **S7 准备条件：** 等 S2 接收、S3 候选均有可追溯去向、S4 new 候选完成登记或明确待决、S5 关键缺口有证据化状态、S6 候选逐条裁决且 backlog 按规则收口后，再准备 S7。知识发现与页面继续暂停。
 
 **第9章 pp.270–273 威尼斯教会端点跨章登记与裁决（2026-10-25）：** 沿用7个既有 S3 `new` 身份组并完成7条 S4 映射；定点复核 Tiepolo 穹顶壁画组 `cand-8550` 与《信仰的胜利》`cand-8732` 后维持二者 `undecided`（no_delta），不把单件与复数壁画范围强行合并或拆为两个 new。17条 S6 候选均有去向：3 formal（`rel-1938`–`rel-1940`）、12 pending、2 rejected；仅正式边进入 `relations.csv`。9张受影响卡逐卡预览后定向渲染，5个文件写后字节核验通过。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。当前 S2 为15,343 statements／26,781 mentions，统一独立复核9,617/15,343（62.68%，仍未接收）；S3 same=2,052、new=5,072、conflict=9、excluded=103、undecided=5,188；S4 已映射2,059/5,072条 new 候选，待映射3,013条；KU共2,844。S5字段13,177（1,634 `unverified`）；S6累计1,244/10,559（703 formal、431 pending、110 rejected），余9,315；`relations.csv`共1,940条（1,916 formal、24 pending）；`candidate-backlog.csv`仍为33条（12 completed、21 undecided，严格审计 pending=0）。详见[本批逐项过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch9-p270-p273-venetian-church-endpoints-20261025)。
 
