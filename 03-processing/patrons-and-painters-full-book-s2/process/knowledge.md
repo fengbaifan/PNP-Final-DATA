@@ -14352,3 +14352,28 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 对8张新卡以及 Venus and Adonis、Pan and Syrinx、Rape of Europa、Sebastiano Ricci、Ferdinand、Palazzo Pitti 六张既有相关卡作定向预览后，`build_cards.py --render` 预检并写入14张卡：`cards=14`、`tables=25`、`rows=93`、`projected_relation_rows=53`、`cards_with_relation_changes=10`、`files_to_write=14`。渲染器完成写后字节核验并清理本次临时恢复快照。
 
 `build_field_facts.py` 定向预览确认零待写变化；`audit_tables.py` 退出码0，`errors=[]`、`s2_missing=[]`，仅报告2,955个S4待登记候选及语义复核仍需人工审读的预期提示。`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 五类阻断均为0；孤立KU及高连接数属于既有诊断，不代表关系阶段已收口。`git diff --check`退出码0。本批新增1条S2 statement未进入统一复核，S2分子仍为9,617；本批自查不构成独立语义接收。
+
+<a id="s3-s4-s5-s6-chp9-chp10-turin-court-ricci-20261025"></a>
+
+### S3/S4/S5/S6：第9、10章都灵宫廷与 Sebastiano Ricci 跨章端点（2026-10-25）
+
+#### S3身份裁决与跨章边界
+
+第10章索引候选 `cand-2184` 的子目为“work for Turin”，但其直接正文mention `m-chp10-p302-ricci-turin`（印刷页302 L396）及关系statement `st-chp10-p302-ricci-employment-venice-turin` 的主语均指画家Sebastiano Ricci，不是独立作品。将其候选类型由 `work` 更正为 `person`，S3判为 `same` 并复用 `units/persons/sebastiano-ricci`。不把索引主题误建成作品。
+
+`cand-8273` 所指 Haskell 称作“court of Turin”的雇主机构，见第9章印刷页252 L117及第10章印刷页302 L396；本批沿用既有 `new` 身份组 `sg3-institution-cand-8273`，不与城市 Turin 或 House of Savoy 合并。两章均将其置于Ricci的受雇语境，但未提供统治者、具体职位、正式机构全称、聘期或委托数量；身份仅限书内所称机构。
+
+#### S4登记与S5字段
+
+为 `cand-8273` 登记 institution KU `units/institutions/court-of-turin`，写入 `ku-manifest.csv` 与 `accepted.yml`；`cand-2184` 映射至既有Ricci人物KU。卡片双语描述保留来源局部身份范围。`build_field_facts.py` 定向预览及应用新增3条 Haskell `source_backed` 字段（`enr-17357`–`enr-17359`），分别记录书内名称、机构性质和雇主职能；0条 `unverified`、0警告、无来源登记变更。
+
+#### S6逐项裁决
+
+| statement_id | 决定 | 去向 | 边界 |
+|---|---|---|---|
+| `st-chp9-p252-ricci-employment-turin-court` | formal | 与第10章statement共同支持 `rel-2052 employed_by`：Sebastiano Ricci → Court of Turin | 仅记录Haskell所述雇佣角色及相对比较，不推定职位、聘期、合约或委托数量。 |
+| `st-chp10-p302-ricci-employment-venice-turin` | formal | 复用 `rel-2052` | 保留“威尼斯以外主要受雇于该宫廷”的限定；不另造重复边。 |
+
+#### 卡片投影与审计
+
+都灵宫廷与Ricci人物卡均预览后定向渲染；预检2张卡、26行表格、9行关系投影，2张卡有变化；写后字节核验通过，复预览2/2无差异。严格表审计退出码0：KU=2,926，S3候选=12,426，待S4登记 `new` 候选=2,951，S5=13,445（1,634 `unverified`），relations.csv=2,052（2,019 formal、33 pending），S2=15,356 statements／26,840 mentions，`s2_missing=[]`、`errors=[]`；`candidate-backlog.csv`=44（12 completed、32 undecided，严格审计pending=0）。本批两项S6均formal，累计台账按上一快照增至1,385（784 formal、485 pending、116 rejected）；由于历史分母10,578与当前关系候选statement数10,572仍差6，暂不据此报告完成率或余数。关系一致性五类阻断均为0；S2复核分子仍为9,617（62.63%），本批不构成S2接收或S3–S6全书收口。
