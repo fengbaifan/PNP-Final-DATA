@@ -36,6 +36,24 @@ S2只新增 `st-chp14-p353-neptune-fountain-created-by-mattielli`，复用p.353�
 
 **验证与状态。** `build_field_facts.py`预览为3张卡、12行、3个来源、0个unverified、0个重复occurrence，随后按计划应用；`build_cards.py --check`全库预检通过，列出565个需写回文件，其中本批仅定向渲染五张受影响卡（5张、10个表、28行、21条关系投影），写后字节校验通过。严格表审计返回`errors=[]`、`s2_missing=[]`；S4仍有2,941条new候选未登记。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；全库另有1,362个零关系KU和2个超50连接对象，属于既有诊断信息。`git diff --check`通过。新增statement `st-chp14-p353-neptune-fountain-created-by-mattielli`未独立复核，不增加9,617条已复核分子；本批自查和机械通过均不构成S2独立接收。批后主决定为S3 new=5,096、undecided=5,155，S4 mapped=2,155/5,096，S5=13,483字段，S6本批新增4 formal、6 pending、1 rejected；`relations.csv`新增4条formal边。
 
+<a id="s4-s5-s6-chp14-p357-algarotti-scarselli-letter-20261025"></a>
+### 第14章 p.357 注2 Algarotti—Scarselli书信端点（2026-10-25）
+
+**S3与S4。** `cand-10360` 沿用S3 `new`组 `archive-group-e511a82349db`，登记为档案KU `units/archives/algarotti-letter-to-abate-scarselli-1748`。本组身份限于Haskell p.357注2所述的1748年书信；不同候选 `cand-10361` 是Haskell引 *Opere*, XIII, p.207 的书目定位，不与信件合并。发信人候选 `cand-0065` 复用既有人物KU `units/persons/francesco-algarotti`。收信人候选 `cand-2392` 仅有“Abate Scarselli”称谓和姓氏，S3仍为 `undecided`，不登记人物KU。
+
+**S5。** 新卡依Haskell第14章 p.356–357 L97–108及p.357注2 L202登记7条 `source_backed` 字段：文献类型、发信人、原文称谓收信人、1748年、Potsdam、信件内容摘要及Haskell所列 *Opere*, XIII, p.207 定位。发信人“he”由邻近叙述中的Algarotti姓名解析；日期仅到年份。原信、所引卷册及馆藏目录未独立查阅；收信人身份未解决。
+
+**S6逐项裁决。**
+
+| statement_id | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp14-p357-note2-letter-authored-by-algarotti` | formal | 新增 `rel-2073 authored_by`，书信→Francesco Algarotti，限定1748年与author角色。依据Haskell相邻正文对“he”的指代；只记录其书内归属，不表示独立查阅信件或 *Opere*。 |
+| `st-chp14-p357-note2-scarselli-letter` | pending（process-only） | 原文明确称收信人为Abate Scarselli，但候选 `cand-2392` 身份未决且无KU；保留待证，不建不完整关系行或推定人物身份。 |
+
+`st-chp14-p357-note2-letter-requested-rome-artist-details` 的 `relation_candidate=false`，作为文献内容摘要保留，不计入S6。该注的S2 statement此前已有独立页内复核记录；本批不改写statement或mention，不增加统一S2复核分子。S3主决定、原new组与S4映射记录在 `alignment.csv`；收信人未决是明确保留的S3/S6待证对象。
+
+**核查。** `build_field_facts.py`对本卡预览7行、1个来源、0个 `unverified`、0个重复occurrence后应用；卡片关系视图定向预览及渲染。严格表审计、关系一致性阻断、写后卡片预览及最新全书计数见当前结果文件。本批不声称S2接收或S3–S6全书收口。
+
 <a id="s3-s4-s6-chp16-p373-longhi-sasso-portrait-20261025"></a>
 ### 第16章 p.373 注1 Longhi—Sasso肖像关系端点复用（2026-10-25）
 
