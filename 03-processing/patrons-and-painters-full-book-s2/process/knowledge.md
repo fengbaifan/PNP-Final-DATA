@@ -14423,4 +14423,18 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 
 **卡片、台账与验证：** 新版画卡及Pietro Monaco人物卡定向预览后渲染，写后复预览无差异；5字段走定向预览／应用，写后预览无待写变化。严格表审计：KU=2,929，S3候选=12,426，待S4登记 `new`=2,949，`candidate-backlog.csv`=44（严格审计pending=0），`relations.csv`=2,054（2,021 formal），S5=13,456（1,634 `unverified`），S2=15,356 statements／26,840 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；孤立KU=1,365、高连接数KU=2，为诊断项。`git diff --check`通过。S2 statement及mention未改，统一独立复核仍为9,617/15,356（62.63%，未接收）；本批不增加S2复核计数，也不代表第13章已接收。
 
-批后S4已映射2,146/5,095条 `new`，待登记2,949条。未映射直接关系端点为1,235个候选／1,235组、1,241条组成员映射，类型按组／候选计为term 457、archive 265、work 200、place 165、event 82、institution 65、person 1。S6累计记录1,390项（786 formal、487 pending、116 rejected）；历史分母10,578与当前 `relation_candidate=true` 的10,572项仍相差6，不报告全书完成率或余数。
+批后S4已映射2,146/5,095条 `new`，待登记2,949条。未映射直接关系端点为1,235个候选／1,235组、1,241条组成员映射，类型按组／候选计为term 457、archive 265、work 200、place 165、event 82、institution 65、person 1。前批S6四项决定中一项由pending改为formal，故S6累计仍为1,389项（786 formal、487 pending、116 rejected）；历史分母10,578与当前 `relation_candidate=true` 的10,572项仍相差6，不报告全书完成率或余数。
+
+<a id="s4-s5-s6-chp13-p336-piazzetta-frontispiece-20261025"></a>
+
+### S4/S5/S6：第13章 p.336 Piazzetta 为 Platnerus《Institutiones Chirurgicae》设计的卷首图（2026-10-25）
+
+沿用 S3 已裁 `new` 的唯一成员身份组 `workgrp-7f6a9472030432`，将 `cand-10004`（`aln-10176`）登记到 `units/works/platnerus-institutiones-chirurgicae-frontispiece-1747`。Haskell第13章印刷页336 L42–43明确说Piazzetta于1747年为Platnerus《Institutiones Chirurgicae》设计卷首图；原书称书“the most unpromising of books”属于Haskell对书的评价，不转录为作品属性。书中未提供完整出版项或图像，故不登记具体版次、现存印张或未经核实的载体档案KU；无同型既有work KU可复用。作者候选 `cand-1907` 已由S3 `same`复用 `units/persons/piazzetta`。
+
+**S5字段：** 对新作品卡的五条字段完成定向预览和应用（`enr-17371`–`enr-17375`），记录作品类型、题名性质、设计者、1747年设计年份及Haskell所载载体书名；全部为Haskell p.336 L42–43支持的 `source_backed` 内容，未增加 `unverified` 或外部书目断言。
+
+**S6裁决：** 对 `st-chp13-p336-piazzetta-designed-platnerus-frontispiece` 作formal决定，新增 `rel-2055 designed_by`（卷首图 → Giovanni Battista Piazzetta）。`designed_by` 与S2的设计行为和值域匹配；只表达Haskell的设计者归属，不替换为笼统创作者关系，也不推断完整出版、印刷或存世状态。
+
+**卡片与验证：** 新作品卡及Piazzetta人物卡预览后定向渲染，写后字节核验通过，复预览2/2无差异；字段写后预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=2,930，S3候选=12,426，待S4登记 `new`=2,948，backlog=44（严格审计pending=0），`relations.csv`=2,055（2,022 formal），S5=13,461（1,634 `unverified`），S2=15,356 statements／26,840 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；孤立KU=1,365、高连接数KU=2，为既有诊断项。`git diff --check`通过。未改动statement、mention或统一S2复核台账；复核仍为9,617/15,356（62.63%，未接收）。
+
+批后S4已映射2,147/5,095条 `new`，待登记2,948条。未映射直接关系端点为1,234个候选／1,234组、1,240条组成员映射，按组／候选计为term 457、archive 265、work 199、place 165、event 82、institution 65、person 1（work组另含6条非端点组成员映射）。S6累计裁决1,390项（787 formal、487 pending、116 rejected）；历史裁决分母10,578与当前 `relation_candidate=true` 的10,572项仍差6，不报告全书完成率或余数。
