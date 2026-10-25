@@ -73,6 +73,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - `st-chp8-p218-bottari-citation`
 - `st-chp8-p220-n1-bottari-citation`
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [1695年1月28日拉斯塔致朱塞佩·盖齐信（Letter from Resta to Giuseppe Ghezzi, 28 January 1695）](resta-letter-to-ghezzi-1695-01-28.md) | S6 formal; source-bounded; see the chapter 3 decision table in the process record.；角色：publication volume；范围：Haskell reports the letter published in Bottari III, pp.490–491; letter and cited pages not independently consulted.；原断言与证据见发出端卡片“1695年1月28日拉斯塔致朱塞佩·盖齐信（Letter from Resta to Giuseppe Ghezzi, 28 January 1695）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.77 n.2; statement=st-chp3-seciv-notes-l189-204-p77-n2-letter-date-and-publication |
+
 ## 身份与外部链接
 
 本轮未新增外部身份记录。卷册身份依据见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-archive-bottari-ticozzi-volumes-i-iii-20261020)。

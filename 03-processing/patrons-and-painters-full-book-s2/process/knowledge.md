@@ -15174,3 +15174,64 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 范围内另有4项既有formal决定（p.172/p.182 Röthlisberger、p.178 Whinney、p.187 De Rinaldis），本批未重复建边。pending与rejected理由和重开条件均留在此过程记录，不伪装成formal关系。新增的14行全为formal；无pending关系行写入relations.csv。
 
 **投影与审计。** 定向更新16张受影响卡；本批修改或新建的卡片关系区块由relations.csv投影，预览后复核无残余差异。严格表审计：KU=3,028、alignment=12,774、S4待登记new=2,849、S2=15,368 statements／26,843 mentions、S5=13,862（1,634 unverified）、relations.csv=2,170（2,137 formal、33既有pending）、candidate-backlog=46（13 completed、33 undecided、严格审计pending=0）、errors=[]、s2_missing=[]。关系一致性五类阻断均为0。S3主决定更新为same=2,070、new=5,097、conflict=9、excluded=104、undecided=5,147；26项跨来源decision差异仍待核平。S6累计1,569项（901 formal、548 pending、120 rejected）；10,588条当前relation-candidate statement与历史决定台账仍有1项差异。S2独立复核仍为9,617/15,368（62.58%，未接收）。
+
+### S3/S4/S5/S6：第3章 pp.77–93 档案、作品与地点端点（2026-10-26）
+
+<a id="s3-s4-s5-s6-chp3-notes-endpoints-20261026"></a>
+
+**S3跨章身份与候选去向。** 本批复核15个直接端点候选的来源锚点、类型边界和已有同类型KU。14个沿用各自既有 `new` 身份组；`cand-5476`（Berlin）在S4身份核对时发现既有城市KU，故由 `new` 定点改为 `same`。该变更保留原决定和理由，仅由本次具体同一性证据触发。
+
+| candidate_id | 类型 | S3决定 | 身份组／S4目标 |
+|---|---|---|---|
+| cand-11608 | work | new | workgrp-f9bb37ae5e8664 → units/works/bernini-duplex-intercessio-source-composition |
+| cand-5460 | archive | new | archive-group-3abaa390729f → units/archives/resta-letter-to-ghezzi-1695-01-28 |
+| cand-5464 | archive | new | archive-group-bca7b934e235 → units/archives/salvagnini-pittori-borgognone-cortese-1937 |
+| cand-5468 | archive | new | archive-group-21a0486e47ca → units/archives/avviso-1679-08-12-gaulli-tribune-criticism |
+| cand-5469 | archive | new | archive-group-acd31be6e78f → units/archives/avviso-1680-01-06 |
+| cand-5474 | archive | new | archive-group-f411be64e952 → units/archives/panofsky-imago-pietatis-1927 |
+| cand-5475 | archive | new | archive-group-a2937e11b32e → units/archives/brauer-wittkower-zeichnungen-bernini-1931 |
+| cand-5476 | place | same | sg3-ku-units-places-berlin → units/places/berlin |
+| cand-5477 | place | new | sg3-place-cand-5477 → units/places/dusseldorf |
+| cand-5479 | archive | new | archive-group-225da8ecbddb → units/archives/bartoli-vita-istituto-s-ignatio-1659 |
+| cand-5481 | archive | new | archive-group-b58ab71e237f → units/archives/gesu-perugia-ms-busta-152-1526-items-5-6 |
+| cand-5482 | work | new | workgrp-8fd5ddb147d6ba → units/works/maratta-death-of-st-francis-xavier |
+| cand-5492 | archive | new | archive-group-8d3a3edc2710 → units/archives/tacchi-venturi-la-casa-s-ignazio-roma-undated |
+| cand-5493 | archive | new | archive-group-72e252ff7364 → units/archives/tietze-andrea-pozzo-fursten-liechtenstein-1914-15 |
+| cand-5495 | archive | new | archive-group-786f4310a978 → units/archives/haskell-legros-stanislas-kostka-1955 |
+
+`cand-5476`与既有Berlin城市KU同类型、同地点；第3章注3只报告城市，不指定机构或单件图稿。`cand-5477`独立记录Düsseldorf城市，未把任何图稿映射到城市或馆藏。`cand-11608`为Bernini先行构图，与Gaulli最终用于Gesù穹顶的构图 `cand-5259` 分开；未识别存世图稿。`cand-5258`仍为多个Gaulli图稿的未闭合组，未改判或新建KU。已排除的未实施装饰方案 `cand-5240` 不作为work登记。
+
+**S2原子关系补充。** 第3章注2直接称书信为“Letter from Resta to Giuseppe Ghezzi”。保留原复合日期／刊载statement ID，另加 `st-chp3-seciv-notes-l189-204-p77-n2-letter-authored-by` 与 `st-chp3-seciv-notes-l189-204-p77-n2-letter-addressed-to`，分别指向既有人物候选 `cand-2134`、`cand-1157`。复用既有mention锚点 `m-chp3-seciv-notes-l189-204-0003`（chars 61–66，Resta）和 `m-chp3-seciv-notes-l189-204-0004`（chars 70–85，Giuseppe Ghezzi），本批未重复新增mention。S0 OCR正文不改写。两条新增statement不计入独立复核分子，待统一语义复核。
+
+**S4与S5。** 新登记14张双语卡片；Berlin复用既有KU。新卡只记录Haskell书内书目、引注、页图校读和明确对象边界，不表示被引书籍、告示、手稿或原始页已独立查阅。S5表格预览后写入51条 `source_backed` 字段（`enr-17777`–`enr-17827`），来源均为 `haskell-1980-rev-ed`；未新增外部核查。Bartoli题名和作者（p.83）、Düsseldorf拼写（p.82）及Maratta作品题名（p.85）以本书页图校读；S0 OCR保持不变。Resta书信记录日期及Bottari III pp.490–491定位；引注定位不表示查阅信件。
+
+**S6逐项决定。** 本批共有22项决定：19 formal、2 pending、1 rejected；新增17条formal关系行 `rel-2171`–`rel-2187`。Pastor XIV, part II 的三个引注statement（p.80 n.5、p.81 n.2、p.89 n.3）共用一条 `cites` 边 `rel-2174`，范围保留p.26与pp.325 ff.三个定位。其余formal关系如下：
+
+| statement_id | 去向 |
+|---|---|
+| st-chp3-seciv-notes-l189-204-p77-n2-letter-date-and-publication | formal `rel-2171 part_of`：书信→Bottari III；仅记录刊载关系 |
+| st-chp3-seciv-notes-l189-204-p77-n2-resta-letter | formal `rel-2172 cites` |
+| st-chp3-seciv-notes-l189-204-p78-n3-salvagnini | formal `rel-2173 cites` |
+| st-chp3-seciv-notes-l189-204-p80-n5-pastor | formal `rel-2174 cites`，合并到同一Pastor volume边 |
+| st-chp3-seciv-notes-l189-204-p82-n4-brauer-wittkower | formal `rel-2175 cites` |
+| st-chp3-seciv-notes-l189-204-p82-n4-gaulli-adapted-bernini-duplex-intercessio | formal `rel-2176 derived_from`：Gaulli构图→Bernini来源构图 |
+| st-chp3-seciv-notes-l189-204-p82-n4-panofsky | formal `rel-2177 cites` |
+| st-chp3-seciv-notes-l205-243-p83-n1-bartoli | formal `rel-2178 cites` |
+| st-chp3-seciv-notes-l205-243-p85-n1-perugia-ms | formal `rel-2179 cites` |
+| st-chp3-seciv-notes-l205-243-p85-n2-maratta-work | formal `rel-2180 creator_of` |
+| st-chp3-seciv-notes-l205-243-p89-n1-tacchi-house | formal `rel-2181 cites` |
+| st-chp3-seciv-notes-l205-243-p89-n3-pastor-baldinucci | formal `rel-2174 cites`，合并到同一Pastor volume边 |
+| st-chp3-seciv-notes-l205-243-p90-n3-tietze | formal `rel-2182 cites` |
+| st-chp3-seciv-notes-l205-243-p93-n1-haskell-legros | formal `rel-2183 cites` |
+| st-chp3-seciv-l58-67-bernin-treated-duplex | formal `rel-2185 creator_of`：限于Haskell对构图的来源归属，不识别实物图稿 |
+| st-chp3-seciv-notes-l205-243-p80-n5-avviso-1680-citation | formal `rel-2184 cites` |
+| st-chp3-seciv-notes-l205-243-p81-n2-pastor-citation | formal `rel-2174 cites`，合并到同一Pastor volume边 |
+| st-chp3-seciv-notes-l189-204-p77-n2-letter-authored-by | formal `rel-2186 authored_by`，书信日期限于1695-01-28 |
+| st-chp3-seciv-notes-l189-204-p77-n2-letter-addressed-to | formal `rel-2187 addressed_to`，书信日期限于1695-01-28 |
+| st-chp3-seciv-notes-l189-204-p80-n5-criticism-of-gaulli-paintings | rejected：目标 `cand-5240` 是未实施且无可识别独立对象的方案；保留原S2批评断言，不建work关系 |
+| st-chp3-seciv-notes-l189-204-p82-n3-drawings-held-in-berlin-and-dusseldorf | pending：`cand-5258`仍为未闭合图稿组；待可识别项目／封闭系列及其与Berlin对应的来源依据 |
+| st-chp3-seciv-notes-l189-204-p82-n3-drawings-held-in-dusseldorf | pending：`cand-5258`仍为未闭合图稿组；待可识别项目／封闭系列及其与Düsseldorf对应的来源依据 |
+
+被引书、告示、手稿和图版均未独立查阅；脚注可支持书内引注关系，不等同于核读被引内容。未对 `cand-5478`（Blood of Christ图稿）添加地点关系，也未把两个城市关系指派给特定图稿。pending与rejected只记录在本过程账和statement台账，不写成formal关系行。
+
+**渲染与机械核验（2026-10-26）。** `build_cards.py --render` 对22张受影响卡完成预检（28张字段表、170行、381条关系投影），写入22张卡并通过写后字节校验；同一目标集合复预览 `cards_with_relation_changes=0`、`files_to_write=0`。`build_field_facts.py` 定向预览14张新卡共51行，`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=3,042，alignment=12,774，S4待登记new=2,834，S2 statements=15,370、mentions=26,843，S5=13,913（1,634 unverified），relations.csv=2,187（2,154 formal、33 pending），backlog=46（13 completed、33 undecided、pending=0），`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；另有1,364个孤立KU及2个过度连接对象留作全库诊断。

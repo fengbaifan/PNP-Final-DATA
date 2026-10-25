@@ -75,6 +75,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [1695年1月28日拉斯塔致朱塞佩·盖齐信（Letter from Resta to Giuseppe Ghezzi, 28 January 1695）](../archives/resta-letter-to-ghezzi-1695-01-28.md) | S6 formal; source-bounded; see the chapter 3 decision table in the process record.；时间：1695-01-28；角色：sender named in the note；范围：Haskell identifies Resta as sender; letter not independently consulted.；原断言与证据见发出端卡片“1695年1月28日拉斯塔致朱塞佩·盖齐信（Letter from Resta to Giuseppe Ghezzi, 28 January 1695）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.77 n.2; statement=st-chp3-seciv-notes-l189-204-p77-n2-letter-authored-by |
+
 当前没有登记在 `relations.csv` 的正式关系。以下直接关系候选仍待S6逐条审查：
 
 - [`st-chp3-seciv-l8-14-resta-oval-scenes`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。

@@ -39,7 +39,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 源自（`derived_from`） | [贝尔尼尼《双重代求》构图（Bernini’s Duplex Intercessio composition）](bernini-duplex-intercessio-source-composition.md) | S6 formal; source-bounded; see the chapter 3 decision table in the process record.；角色：source composition；范围：Haskell reports that Gaulli adapted Bernini’s earlier composition; composition-level relation only, no specific surviving drawing identified.；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.82 n.4; statement=st-chp3-seciv-notes-l189-204-p82-n4-gaulli-adapted-bernini-duplex-intercessio |
+
 
 ### 待裁决的S2关系候选
 

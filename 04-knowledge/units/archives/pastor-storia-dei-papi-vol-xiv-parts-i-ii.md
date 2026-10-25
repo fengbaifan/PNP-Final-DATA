@@ -90,6 +90,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S6 formal; source-bounded; see the chapter 3 decision table in the process record.；角色：footnote citations；范围：Notes cite Pastor XIV, part II, p.26 (p.80 n.5 and p.89 n.3) and pp.325 ff. (p.81 n.2); Haskell locators only, not independent consultation.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, pp.80 n.5, 81 n.2, 89 n.3; statements=st-chp3-seciv-notes-l189-204-p80-n5-pastor;st-chp3-seciv-notes-l205-243-p81-n2-pastor-citation;st-chp3-seciv-notes-l205-243-p89-n3-pastor-baldinucci |
+
 
 15条S2关系候选仍待S6逐项审查；本批不把引文转为正式关系，也不把Haskell的书目记录当作所引原书页的独立核验。
