@@ -57,6 +57,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [海神喷泉（Neptune Fountain by Lorenzo Mattielli）](../works/neptune-fountain-by-lorenzo-mattielli-bruhl-residences.md) | Source-level attribution only; kept separate from the broader unidentified Mattielli sculpture group.；角色：maker attribution in Haskell；范围：Haskell calls this source-local Neptune fountain a work by Lorenzo Mattielli; no surviving object or exact residence is identified.；原断言与证据见发出端卡片“海神喷泉（Neptune Fountain by Lorenzo Mattielli）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；Chapter 14, printed p. 353, L71; statement=st-chp14-p353-neptune-fountain-created-by-mattielli |
+
 当前没有登记在 `relations.csv` 的正式关系。以下直接关系候选仍待S6逐条审查：
 
 - [`st-chp7-p201-v-mattielli-aristocratic-gardens`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。

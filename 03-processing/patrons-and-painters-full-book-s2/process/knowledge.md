@@ -1,5 +1,41 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp10-chp14-bruhl-letter-neptune-20261025"></a>
+### 第10、14章 Count Brühl、Algarotti书信与Mattielli海神喷泉端点（2026-10-25）
+
+**触发与跨章身份。** 关系端点登记触发对 `cand-0458` 的定点S3复核。索引 `B.csv#305` 将 Count Brühl 定位至第10章 pp.294–295及第14章 pp.352–353；两章均以 Augustus III 的 minister 语境称 Brühl。Deutsche Biographie 的 GND 118674609 规范记录为 “Brühl, Heinrich Graf von”，萨克森州政府人物页亦以 Heinrich Graf von Brühl 为题并记生卒日期。没有同一人物KU可复用，故 `cand-0458` 从 `undecided` 改判 `new`，链接该GND身份并登记一张人物KU。S3只解决人物身份，不把外部生平资料倒灌成Haskell的收藏判断。
+
+| 候选 | S3决定 | S4去向 | 身份组与范围 |
+|---|---|---|---|
+| `cand-0458` | `new`（由 `undecided` 定点重开） | `units/persons/heinrich-graf-von-bruehl` | `sg3-person-heinrich-graf-von-bruhl-gnd-118674609`；Haskell索引及第10、14章跨章称名与GND身份相符 |
+| `cand-10292` | `new`（沿用） | `units/archives/algarotti-letter-to-count-bruehl-undated` | `archive-group-chp14-undated-algarotti-letter-to-bruehl`；只登记Haskell所引书信，不补日期、原件馆藏或刊本定位 |
+| `cand-10294` | `new`（由 `undecided` 定点重开） | `units/works/neptune-fountain-by-lorenzo-mattielli-bruhl-residences` | `workgrp-chp14-neptune-fountain-mattielli-bruhl`；来源局部作品，不指认具体宅邸或存世喷泉 |
+| `cand-10293` | `undecided`（明确保留） | 不建KU；关系继续待证 | 悬挂花园为复数称谓，未逐一识别，也未给出城内或乡间宅邸的具体地点 |
+
+`cand-0045` Francesco Algarotti 与 `cand-1584` Lorenzo Mattielli 复用既有人物KU。Mattielli雕塑组 `cand-7329` 不与这座具名喷泉合并。S3决定、历史缺口及本批映射写入相应 `alignment.csv` 行；新旧决定未被覆盖。
+
+**S4与S5。** 新增3个KU：一名人物、一封未定年书信及一座来源局部喷泉；`accepted.yml` 与 `ku-manifest.csv` 同步登记。人物身份采用GND 118674609；生卒日期及1746年首相任命采用萨克森州政府人物页。另按Haskell原文登记Count Brühl称名、书信类型／作者／收信人／缺少日期及原件定位、喷泉书内称名／类型／宅邸范围。`build_field_facts.py` 预检并应用12条 `source_backed` 字段，无unverified项、无重复occurrence；来源登记增加Deutsche Biographie与萨克森州政府两条记录。
+
+**S6逐项裁决。** 11条当前关系候选逐条给出去向：
+
+| statement_id | S6决定 | 去向与边界 |
+|---|---|---|
+| `st-chp10-p294-augustusiii-bruehl-collecting` | rejected | Haskell并列评价Augustus III与Brühl各自的收藏活动；没有断言两人之间存在可登记关系，不把共同行动转成关系边。 |
+| `st-chp14-p353-two-pictures-sent-to-bruhl` | pending（process-only） | 原文说两件受委托作品被送往Brühl；受控词表没有精确的 `sent_to`，且送达不证明接收或安装。 |
+| `st-chp14-p353-subjects-chosen-to-flatter-bruhl` | pending（process-only） | Haskell对Algarotti选题目的解释；当前无准确受控谓词表达该解释，不转写成委托、赞助或影响关系。 |
+| `st-chp14-p353-maecenas-sent-to-bruhl` | pending（process-only） | `sent_to` 无受控谓词对应；不以 `held_by`、`intended_for` 或赠与关系替代。 |
+| `st-chp14-p353-flora-sent-to-bruhl` | pending（process-only） | 同上；不从“送往”推断接收、安装或当前持有。 |
+| `st-chp14-p353-hanging-gardens-reported-bruhl-possession` | pending（process-only） | `cand-10293` 仍为未识别的复数地点；不造宅邸或单一花园端点。 |
+| `st-chp14-p353-neptune-fountain-reported-bruhl-possession` | formal | 新增 `rel-2072 owned_by`，喷泉→Brühl。Haskell明确称其为Brühl的珍藏；只记来源报告，不声称已核验法律产权、具体宅邸或存世实物。 |
+| `st-chp14-p353-bruhl-possessions-in-the-pictures` | pending（process-only） | Haskell说两处珍藏被插入“the picture”，但上下文涉及Maecenas与Flora两幅画，无法确定各图像端点或一一对应关系；不选定任一作品。 |
+| `st-chp14-p353-letter-authored-by-algarotti` | formal | 新增 `rel-2069 authored_by`，书信→Francesco Algarotti；只记录Haskell对引文来源的归属，信件原件未查。 |
+| `st-chp14-p353-letter-addressed-to-bruhl` | formal | 新增 `rel-2070 addressed_to`，书信→Heinrich Graf von Brühl；不推断该单封信的日期、刊本或原件馆藏。 |
+| `st-chp14-p353-neptune-fountain-created-by-mattielli` | formal | 本批新增S2原子statement并新增 `rel-2071 created_by`，喷泉→Lorenzo Mattielli；仅记录Haskell明确的书内归属，不指认存世版本。 |
+
+S2只新增 `st-chp14-p353-neptune-fountain-created-by-mattielli`，复用p.353已登记的喷泉与Mattielli候选mention，不新增mention。该statement尚未独立复核，不增加全书S2独立审读分子；复核对象为当前新版本本身。其余关系候选未改写，过程记录覆盖formal、pending与rejected去向。未登记不受控谓词或未决端点的relations.csv行。
+
+**验证与状态。** `build_field_facts.py`预览为3张卡、12行、3个来源、0个unverified、0个重复occurrence，随后按计划应用；`build_cards.py --check`全库预检通过，列出565个需写回文件，其中本批仅定向渲染五张受影响卡（5张、10个表、28行、21条关系投影），写后字节校验通过。严格表审计返回`errors=[]`、`s2_missing=[]`；S4仍有2,941条new候选未登记。关系一致性检查的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；全库另有1,362个零关系KU和2个超50连接对象，属于既有诊断信息。`git diff --check`通过。新增statement `st-chp14-p353-neptune-fountain-created-by-mattielli`未独立复核，不增加9,617条已复核分子；本批自查和机械通过均不构成S2独立接收。批后主决定为S3 new=5,096、undecided=5,155，S4 mapped=2,155/5,096，S5=13,483字段，S6本批新增4 formal、6 pending、1 rejected；`relations.csv`新增4条formal边。
+
 <a id="s3-s4-s6-chp16-p373-longhi-sasso-portrait-20261025"></a>
 ### 第16章 p.373 注1 Longhi—Sasso肖像关系端点复用（2026-10-25）
 
