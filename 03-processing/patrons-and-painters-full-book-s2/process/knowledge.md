@@ -15006,3 +15006,27 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **S6去向。** `st-chp7-p171-n6-series-located-prado`已有对象候选现可映射至Museo del Prado；主语候选`cand-7003`仍为`undecided`，其所指“series of ancient Roman scenes”尚未形成可登记的具体work身份组。候选statement因缺少已映射的subject KU而作process-only `pending`，不写formal `located_at`边，也不新增`relations.csv`记录。重开条件：先确定该画作组的S3身份与S4去向，再按来源的“now”语境和`located_at`的受控语义重评；本轮未阅读Passeri p.157、Trapier p.109或Prado目录，不声称独立馆藏核实。
 
 **局部影响。** S3 same增加1、new减少1；KU总数不变。S4的new待登记候选减少1；该候选为机构直接关系端点，登记缺口随same映射关闭。S6新增1条有明确条件的process-only pending。S2 statement、mention、coverage及统一独立复核分子均不变。
+
+<a id="s3-s4-s5-s6-chp7-chp8-neapolitan-terms-20261026"></a>
+
+### S3跨章身份分组与S4–S6：第7章 p.171–200及第8章 p.203那不勒斯术语（2026-10-26）
+
+**来源与既有KU边界。** 核对第7章p.171 L23–24、p.172 L301、p.200注7 L68，以及第8章p.203 L4、L6–8。cand-6625的书内用语包括“visual arts”“painting in the city”和第172页泛称“the arts”；cand-7356为p.200注7的“Neapolitan art”。两组语境都指向哈斯克尔所述那不勒斯艺术活动，故保留cand-6625既有组sg3-term-cand-6625并将cand-7356并入；不同段落的范围和评价仍各自留证，不把该term定义为单一画派或完整作品集合。cand-7011 p.172的“Neapolitan school”与cand-7382 p.203“a school of art”均指该城市的地区绘画传统，合入sg3-term-cand-7011；cand-7382原组sg3-term-cand-7382写入prior_group，旧决定与理由未删除。两组均与一般艺术领域分开。cand-1723虽以Naples索引项和“feudal landowners”子目记录，实体为南意大利土地所有者这一来源定义的社会类别，既非地点Naples，也没有正式机构身份或完整成员表，保留term类型和sg3-term-cand-1723。
+
+复查当前term KU后未发现等同对象。units/terms/neapolitan-anti-classical-painting表达反古典绘画倾向；units/terms/diffusion-of-neapolitan-painting表达那不勒斯绘画传播；units/terms/luca-giordano-darker-neapolitan-manner是特定风格描述；它们与本批地区艺术领域、画派和社会类别各有不同边界。
+
+**S3与S4去向。** 五个候选的主决定均保持new；只合并相同指涉的跨章组，不把related-to改成same，也未发现需标conflict的来源矛盾。最终映射为cand-6625、cand-7356 → units/terms/neapolitan-art-haskell-account；cand-7011、cand-7382 → units/terms/neapolitan-school-of-painting-haskell-account；cand-1723 → units/terms/neapolitan-feudal-landowners-haskell-account。三张卡均以来源限定命名并加入accepted.yml、ku-manifest.csv。五条alignment保留原candidate ID、new决定和可追溯来源定位；合并旧组在prior_group中留痕。
+
+**S5字段。** 三张双语卡共新增9条source_backed字段enr-17650–enr-17658，来源均映射至haskell-1980-rev-ed。字段预览确认records_with_source=9、unverified=0、duplicate_occurrences=0、source_registry_changes=0、warnings=0；apply后定向复预览record_changes=0、new_ids=0、removed_ids=0、warnings=0。
+
+**S6逐项去向。** 七条候选全部为process-only pending，不写relations.csv：
+
+- st-chp7-p171-i04 pending：视觉艺术“在这些条件下繁荣”是哈斯克尔的历史评价，不等于term→place的located_at，也没有精确受控谓词；待有能表达繁荣／活动条件的受控关系后重审。
+- st-chp7-p171-i05 pending：西班牙文化倾向给那不勒斯绘画“特殊印记”是term→term影响主张；受控influenced的值域不含term，influenced_by的主语域不含该term，不能强行映射；待出现兼容term端点的影响谓词后重审。
+- st-chp7-p172-cont-i09 pending：“did not ... neglect”是赞助叙述中的限定性反差，并非可直接裁成正向支持边；patronized_by不允许person→term，supported_by也不接收term主语。若有正向支持事实及兼容关系表达，再重审。
+- st-chp7-p172-cont-i16 pending：蒙特雷的挥霍与贪婪“刺激艺术”是带评价的因果判断；当前person→term方向不能由influenced的类型范围准确表达，也不能弱化为一般赞助关系。待关系类型能保留该因果角色后重审。
+- st-chp7-p200-n7-harrach-patronage pending：哈拉赫person→那不勒斯艺术term的赞助表述超出patronized_by允许的family/person值域；注释未列出可逐件识别的被赞助作品。若来源给出具体作品端点或出现兼容term的赞助关系类型，再重审。
+- st-chp8-p203-naples-families-and-school pending：来源称土地所有者在西班牙统治下兴盛；term→Spain polity的“under rule”没有准确受控谓词。不得把它改成part_of或member_of。待有能表达该类社会历史语境的关系类型与方向后重审。
+- st-chp8-p203-naples-school-support pending：土地所有者社会类别term→绘画学校term的“gave lavish support”有明确原文，但supported_by和patronized_by的域值域均不接受此term-to-term组合。待类别／画派具有可用关系类型后重审。
+
+**渲染与当前核验。** 三卡按字段接口定向渲染，渲染前预览仅有关系记录固定表述差异；写入后3/3卡片预览无差异。字段写后预览为0变化。严格表审计：KU=2,998、候选=12,427、alignment=12,774、未链接0、S4 new待登记2,881、S5=13,744（1,634 unverified）、relations.csv=2,136（2,103 formal、33 pending）、candidate-backlog=45（13 completed、32 undecided、pending=0）、S2 statements=15,367、mentions=26,841，errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S3主决定计数不变：same=2,066、new=5,099、conflict=9、excluded=104、undecided=5,149；跨来源decision差异仍26项。S4已映射2,218/5,099；未映射new直接关系端点1,171（term 442、archive 231、work 190、place 162、event 81、institution 64、person 1）。S6新增7项pending，累计1,520（866 formal、535 pending、119 rejected）；relation_candidate历史映射差异仍1项，暂不报完成率。S2 statement、mention及统一独立复核分子未变，复核仍为9,617/15,367（62.59%，未接收）。
