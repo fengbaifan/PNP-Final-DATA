@@ -14739,3 +14739,18 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 本批S3既有决定未重开；未查阅Bjurström专著或其引用内容。
 
 **批后核验。** `build_field_facts.py`定向应用6条字段，写后预览`record_changes=0`、`new_ids=0`、`warnings=0`，来源登记无变化。`build_cards.py --render`对《赞助人与画家》、专著卡、人物卡3张执行选定范围预检与写入，检查6个字段表、42行、252条关系投影；写后字节核对通过，3张卡再次`--preview`均无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=2,952、候选=12,427、alignment=12,774、new待S4登记=2,928、S5=13,543（1,634 unverified）、relations=2,087（2,054 formal、33 pending）、backlog=45（13 completed、32 undecided，pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S4已映射2,169/5,097条`new`；未映射new直接关系端点1,217个（term 457、archive 255、work 195、place 162、event 82、institution 65、person 1）。S6本批新增1项formal裁决，累计1,434项（818 formal、499 pending、117 rejected）；与当前10,578条`relation_candidate=true`分母仍差1，暂不报完成率。关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。S2 statement／mention及独立复核分子不变；修正的是既有引注claim中误混入的过程摘要，不代表S2独立复核。
+
+
+<a id="s4-s5-s6-chp7-romanelli-barberini-letter-20261025"></a>
+
+### S4–S5–S6：第7章 p.181 注4，Romanelli致Francesco Barberini书信（2026-10-25）
+
+**证据边界与S3组。** `cand-7073`沿用S3组`archive-group-3dbb7c123061`中的`new`决定（`aln-7249`），本批不重开S3。Haskell第7章印刷页181注4（Markdown L342；`CHP-7.pdf`物理页15）写明“Letter from Romanelli to Francesco Barberini of 6 July 1646”，并引Pollak（1913）第52页。此处只足以登记一件被明确区分的书信记录；未独立查阅Pollak该页、刊本或原信，不把它们的内容当作直接核验。作者候选`cand-2208`与收信人候选`cand-0203`分别沿用既有`units/persons/romanelli`及`units/persons/francesco-barberini`人物身份。
+
+**S4登记。** 将`cand-7073`映射至`units/archives/romanelli-letter-to-francesco-barberini-1646-07-06`，新增单件书信KU及卡片，并写入accepted、manifest。名称中的Romanelli全名遵循其既有跨章S3对齐；注4原文仅用姓氏。未添加外部标识或推断Pollak页码以外的出版、馆藏或原件信息。
+
+**S5字段。** 新增5条由同一条书内证据支持的字段：文献类型、书内日期、书内作者、书内收信人、书内引注定位。引注定位仅照录“Pollak, 1913, p. 52”；未据此扩写书目全名或断言已查阅刊本。
+
+**S6逐条裁决。** `st-chp7-p181-n4-letter-authored-by`裁决为formal，登记`rel-2088 authored_by`（书信→Romanelli）；`st-chp7-p181-n4-letter-addressed-to`裁决为formal，登记`rel-2089 addressed_to`（书信→Francesco Barberini）。两条边均以Haskell第7章p.181注4为证，时间按注释明确报告的1646-07-06保存，分别保留author与addressee角色。两种谓词及archive→person端点均符合受控词表和domain/range。Pollak第52页的刊载关系属于另一个未核实问题：当前没有对应的S2 relation_candidate，且该页未查阅；暂不建立formal关系，也不计入本批两项S6裁决，待获得该页证据后再评估。
+
+本批不改S2 statement、mention或独立复核分子；S6只对上列两条relation_candidate作出formal裁决。

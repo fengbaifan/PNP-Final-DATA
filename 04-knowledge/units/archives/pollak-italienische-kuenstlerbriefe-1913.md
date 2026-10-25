@@ -63,7 +63,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份边界
 
-S3 新组 `archive-group-4aa75cf1b8d7` 仅含出版物候选 `cand-4359`，不将它与刊载其中的个别信件候选合并。包括 `cand-4358`、`cand-4364`、`cand-4382`、`cand-4943`、`cand-7073` 和 `cand-3544` 的信件记录按各自对象保留；它们与此出版物的刊载关系仍须在 S6 核对。该补编也与 Pollak 的另一项著作 *Die Kunsttätigkeit unter Urban VIII*（候选 `cand-11421`）分开。未提供出版者或馆藏标识，不补造字段。
+S3 新组 `archive-group-4aa75cf1b8d7` 仅含出版物候选 `cand-4359`，不将它与刊载其中的个别信件候选合并。包括 `cand-4358`、`cand-4364`、`cand-4382`、`cand-4943`、`cand-7073` 和 `cand-3544` 的信件记录按各自对象保留。对 `cand-7073`，Haskell第7章p.181注4仅把Pollak 1913 p.52作为该信的引注定位；该页未独立查阅，因此本批不据此建立“刊载于”关系边。其他信件与本出版物的关系仍须按各自S2原文及端点在S6核对。该补编也与 Pollak 的另一项著作 *Die Kunsttätigkeit unter Urban VIII*（候选 `cand-11421`）分开。未提供出版者或馆藏标识，不补造字段。
+
+此关系问题仍为待核而非拒绝：若后续取得Pollak 1913 p.52或等效证据，再单独评估是否登记`part_of`边；当前不计入S2 relation_candidate或S6裁决分母。
 
 ## 关系与证据
 
