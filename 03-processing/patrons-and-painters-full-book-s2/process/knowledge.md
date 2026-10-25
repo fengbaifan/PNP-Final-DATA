@@ -1,5 +1,28 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp6-p147-ciampi-brigante-citations-20261025"></a>
+### 第6章 p.147 注1：Ciampi 与 Brigante Colonna 书目端点（2026-10-25）
+
+**S3跨章身份组与来源校读。** 两个候选沿用各自已有的 `new` archive 身份组：`cand-11266`／`archive-group-26bedca27212` 指向 Haskell 第21章书目中的 G. Brigante Colonna《Olimpia Pamfili》；`cand-11286`／`archive-group-aa1bfb537cbb` 指向 Ignazio Ciampi《Innocenzo X Pamfili e la sua corte》。题名、作者和出版信息均由 Haskell 第21章书目记录；两书是不同出版物，不合并。第6章 p.147 注1仅提供“see”引注，不证明被引书或其中内容已查阅。第21章印刷页417的扫描页显示 “Pamfili”；S1 Markdown 原始 OCR 行仍为 “Parafili”，本批只在卡片按印本读作 Pamfili，并记录校读，不改写来源资产或 S0 转录。
+
+| 候选 | S3决定与身份组 | S4去向 |
+|---|---|---|
+| `cand-11266` | 沿用 `new`；`archive-group-26bedca27212` | `units/archives/brigante-colonna-olimpia-pamfili-1941` |
+| `cand-11286` | 沿用 `new`；`archive-group-aa1bfb537cbb` | `units/archives/ciampi-innocenzo-x-pamfili-e-la-sua-corte-1878` |
+
+**S4与S5。** 登记两张 archive KU，并将两个 S3 `new` 候选分别映射到对应卡片。依据 Haskell 书目登记每本书的文献类型、原题、作者著录、出版地和出版年，共10条 `source_backed` 字段；S5预览显示2张卡、10行、1个来源、0条 unverified、0个重复 occurrence。没有补写作者全名、出版者、版本、馆藏或被引书内容。
+
+**S6逐项裁决。** 两条当前 relation candidate 均为 formal `cites`；关系方向为 Haskell 的《赞助人与画家》→被引出版物。
+
+| statement_id | 决定 | 关系 | 证据与边界 |
+|---|---|---|---|
+| `st-chp6-notes-l121-p147-n1-brigante-colonna-citation` | formal | `rel-2076 cites` | 第6章印刷页147注1明确指引参见 Brigante Colonna；第21章p.417书目确定对象为 *Olimpia Pamfili*。只记书目引注，不声称查阅该书。 |
+| `st-chp6-notes-l121-p147-n1-ciampi-citation` | formal | `rel-2077 cites` | 第6章印刷页147注1明确指引参见 Ciampi；第21章p.419书目确定对象为 *Innocenzo X Pamfili e la sua corte*。只记书目引注，不声称查阅该书。 |
+
+本批未改写或新增 S2 statement／mention，S2 独立复核分子不变；S3决定由 `new` 沿用，没有重开身份裁决。正式边及来源锚点已记录在 `relations.csv`、两张 archive 卡及 `alignment.csv`，不产生待证端点或额外 backlog 项。
+
+**核验。** 字段预览及写入均为2卡、10行、0条unverified、0重复；写后字段预览 `record_changes=0`。两张卡关系预览与实际投影相同；定向渲染写后字节校验通过，复预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S3未变；S4映射增加2，S5字段增加10，S6裁决增加2 formal。
+
 <a id="s3-s4-s5-s6-chp10-chp14-bruhl-letter-neptune-20261025"></a>
 ### 第10、14章 Count Brühl、Algarotti书信与Mattielli海神喷泉端点（2026-10-25）
 
