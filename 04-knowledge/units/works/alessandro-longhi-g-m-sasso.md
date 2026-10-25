@@ -116,8 +116,8 @@ relations:
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 创作者（`created_by`） | [亚历山德罗·隆吉（Alessandro Longhi）](../persons/alessandro-longhi.md) | 角色：画家；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
-| → 所涉对象（`has_subject`） | [乔万尼·马里亚·萨索（Giovanni Maria Sasso）](../persons/g-m-sasso.md) | 角色：肖像人物；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
+| → 创作者（`created_by`） | [亚历山德罗·隆吉（Alessandro Longhi）](../persons/alessandro-longhi.md) | 补充证据：[第16章 p.373 注1，L70](../../../02-sources/02-Markdown/16_CHP-16_intro.md#L70)，statement=st-chp16-p373-note1-longhi-painted-sasso-portrait。哈斯克尔在注中称这是一幅由 Alessandro Longhi 绘制的 Sasso 肖像；与本书图版目录第58b项所列作者和人物相符。该注未提供日期、媒材或其他作品身份信息；角色：画家；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
+| → 所涉对象（`has_subject`） | [乔万尼·马里亚·萨索（Giovanni Maria Sasso）](../persons/g-m-sasso.md) | 补充证据：[第16章 p.373 注1，L70](../../../02-sources/02-Markdown/16_CHP-16_intro.md#L70)，statement=st-chp16-p373-note1-portrait-depicts-sasso。S2 已将注中“his”解析为 Sasso；该注称所引肖像为其肖像，但未提供日期、媒材或其他作品身份信息；角色：肖像人物；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
 | → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
 | → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版58b；S2图35将同一肖像对应I.760，仅图录身份页已读；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 136–136; 章前：图版目录；印刷页xv |
 

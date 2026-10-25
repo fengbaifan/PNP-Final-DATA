@@ -1,5 +1,9 @@
 # 第七章全书 S2 当前结果
 
+## 2026-10-25：p.190 独立语义复核
+
+对照印刷页190及跨页续句所在p.191扫描图，逐条复核p.190对应的43条当前statement。当前OCR订正和p.190→p.191续句链接均准确；没有需改写的claim、候选端点或statement结构，本次未写回S2表。逐条结果见[独立复核记录](../process/s2-independent-review-chp7-p190-20261025.md)。此页的43条局部审读暂不并入全书汇总分子，待全书statement ID与来源版本台账核平后再汇总。
+
 任务：`patrons-and-painters-full-book-s2`。第七章共55个规范段；当前覆盖账本显示47段reviewed/complete、8段excluded/complete，queued与partial均为0。当前覆盖状态以`04-knowledge/tables/s2-coverage.csv`为准，全书状态见`04-knowledge/results/patrons-and-painters-full-book-s2.md`，逐项判断及执行记录见同任务`process/stages.md`。
 
 截至2026-10-21，当前ID独立逐条语义复核为1,099/1,244；这不同于上述段级coverage状态，也不表示第七章已接收。已按顺序完成p.200正文、Plate 32a–32b图版簇及p.201正文；下一游标为p.202 `chp-7:07_CHP-7_sec_v:l57-60`，随后核对p.200脚注 `l62-76`。

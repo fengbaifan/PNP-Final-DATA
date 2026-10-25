@@ -1,5 +1,16 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-chp16-p373-longhi-sasso-portrait-20261025"></a>
+### 第16章 p.373 注1 Longhi—Sasso肖像关系端点复用（2026-10-25）
+
+**S3由S4登记触发定点复核。** 候选 cand-10599（正文“his portrait by Alessandro Longhi”）与索引候选 cand-1426（L.csv#83，p.373注）此前同属 workgrp-8db122a4a485b6 的 new 组；S4映射时发现章前候选 cand-3999 已same至作品 KU units/works/alessandro-longhi-g-m-sasso。该卡对应本书图版58b：章前图版目录 L136 明列“Alessandro Longhi: G. M. Sasso (Museo Correr, Venice)”，与第16章 p.373 注1 L70 所述作者及肖像人物相符。故 cand-10599、cand-1426 改判 same 并映射至既有KU；在 alignment resolution_note 保留原 new 组及本次触发理由。作品候选 cand-1426 与人物候选 cand-11545 不混并。
+
+**S4与S5。** 两条候选均复用已有作品卡，无新KU。定向字段预览显示该卡现有题名、创作者、描绘对象、书中保管者及位置字段已source_backed；第16章注1未提供应另增的日期、媒材或现存对象字段，S5记no_delta。
+
+**S6逐条裁决。** st-chp16-p373-note1-longhi-painted-sasso-portrait formal对应created_by，复用既有rel-0397；st-chp16-p373-note1-portrait-depicts-sasso formal对应has_subject，复用既有rel-0398。两条statement的精确p.373注1 L70来源及ID补入既有关系note，原图版目录证据保留；不新增重复边。该注不支持作品日期、媒材、馆藏位置或更进一步的现存作品断定。
+
+**核查。** 表审计保持errors=[]、s2_missing=[]，关系一致性五类阻断为0；三张受影响卡定向预览后渲染，写后字节核验通过。字段事实预览record_changes=0、new_ids=0，故未改enrichment.jsonl。S2 statement及mention总数不变。统一独立复核台账需按当前statement ID与来源版本核平，本次另行完成的第七章p.190 43条页内审读暂不并入全书分子，逐条见[审读记录](s2-independent-review-chp7-p190-20261025.md)。
+
 <a id="s3-s4-s6-chp1-ferri-sant-agnese-modello-reuse-20261025"></a>
 ### 第1章 p.12 Ferri Sant’Agnese彩色稿候选复用（2026-10-25）
 
