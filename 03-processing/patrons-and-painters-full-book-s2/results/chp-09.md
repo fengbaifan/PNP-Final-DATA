@@ -1,6 +1,6 @@
 # 第九章全书 S2 当前结果
 
-更新日期：2026-10-22。任务：`patrons-and-painters-full-book-s2`。第九章全章S2语义复核仍未完成；本批第268–272页的定向修订已触发S3–S6，但不表示全章S2收口或增加独立复核分子。全书状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，逐项来源判断见[过程记录](../process/stages.md)。
+更新日期：2026-10-26。任务：`patrons-and-painters-full-book-s2`。第九章全章S2语义复核仍未完成。新增p.265页级来源核对，扫描复核34条statement，未修订statement/mention，也不增加统一独立复核分子；版画端点及题献边的S4–S6去向见[本批过程记录](../process/knowledge.md#s3-s4-s5-s6-chp9-p265-gherro-print-428-20261026)，逐条来源判断见[页内复核表](../process/s2-page-source-review-chp9-p265-20261026.md)。全书状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，逐项来源判断总入口见[过程记录](../process/stages.md)。
 
 ## 当前语义进度
 

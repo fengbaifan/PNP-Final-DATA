@@ -14901,3 +14901,17 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 - st-chp4-sec-i-l42-67-fn96-newsletter-item 保留pending：签名未识别，作者候选cand-5538仍为S3 undecided；不建立authored_by边。身份获得可靠支持或出现适用的匿名作者表达后再重审。
 
 **渲染与核验。** 四张卡定向渲染并写后复预览均无差异。严格表审计退出码0：KU=2,983、alignment未链接0、S4 new待登记2,901、S5=13,691（1,634 unverified）、relations.csv=2,124（2,091 formal、33既有pending）、S2 statements=15,366、mentions=26,841，errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。candidate-backlog仍为45条（13 completed、32 undecided、pending=0）。本批未改既有S3决定；S2统一独立复核仍为9,617/15,366（62.59%，未接收）。
+
+<a id="s3-s4-s5-s6-chp9-p265-gherro-print-428-20261026"></a>
+
+### S2定向来源复核与S4–S6：第9章 p.265《Raccolta Gherro》第三卷第428号版画（2026-10-26）
+
+**来源与身份范围。** 对照Haskell第9章印刷页265（PDF物理页31）的扫描图及当前该页34条statement。cand-8639沿用S3 `new`组`workgrp-71b88b34649eab`；正文L293–294与注3 L430共同将题献图像定位至该卷第428号。未独立查阅版画、题献原件或外部目录；不推定创作者、原题名、现存印本或现今保管地。
+
+**S2来源核对。** 34/34条逐项对照扫描页，未发现需修订claim、原文引句、mention或来源定位的错误。逐条结论见[s2页内来源复核记录](s2-page-source-review-chp9-p265-20261026.md)。这只是p.265页级来源核对；S2 statement总数与统一独立复核分子均不变，`9617/15366`继续标为未接收，版本台账待核平。
+
+**S4与S5。** 将`aln-8812`映射至`units/works/raccolta-gherro-vol-3-print-428`，不改S3 `new`决定。新卡加入accepted和manifest；字段预览/apply登记3条`source_backed`字段（描述性题名、作品类型、书内引注定位），均源自`st-chp9-p265-note3-correr-print-dedication`；`unverified=0`、`warnings=0`、写后字段复预览无差异。
+
+**S6逐项裁决。** `st-chp9-p265-zucchi-dedication-to-sagredo`与`st-chp9-p265-note3-correr-print-dedication`均表达同一幅版画题献给Zaccaria Sagredo；两候选合并至单条formal `rel-2125 dedicated_to`，避免重复边。关系记录限定为Haskell的书内转述，未查阅版画或题献原件。
+
+**渲染与审计。** 全卡渲染预检通过（2,984张卡、3,921张字段表）；仅对版画卡与Sagredo人物卡定向渲染，写后预览2/2无差异。严格表审计：`errors=[]`、`s2_missing=[]`、alignment未链接0；关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。批后S2为15,366 statements／26,841 mentions，独立复核9,617（62.59%，未接收）；S4映射2,202/5,102、待登记2,900，未映射new直接关系端点1,190；KU=2,984；S5=13,694（1,634 unverified）；S6=1,496项（857 formal、520 pending、119 rejected）；relations.csv=2,125（2,092 formal、33 pending）。
