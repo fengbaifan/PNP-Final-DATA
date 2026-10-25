@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，马萨涅洛起义事件端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,126/5,082条new，待登记2,956条，其中1,242个去重候选触及直接关系端点；KU共2,910。S5字段13,392条（1,634 `unverified`）。S6已裁决1,347/10,576条（758 formal、475 pending、114 rejected），余9,229；`relations.csv`为2,020条（1,991 formal、29 pending；结构性边不并入S6候选决定分母）。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，Madonna delle Arpie／Ricci《Crucifixion》端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,355 statements／26,797 mentions；统一独立逐条复核9,617/15,355（62.63%，未接收，5,738条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,055、new=5,083、conflict=9、excluded=104、undecided=5,175；26个跨来源decision差异待核。S4已映射2,128/5,083条new，待登记2,955条，其中1,241个去重候选触及直接关系端点；KU共2,912。S5字段13,400条（1,634 `unverified`）。S6已裁决1,354/10,578条（762 formal、478 pending、114 rejected），余9,224；`relations.csv`为2,026条（1,994 formal、32 pending；结构性边不并入S6候选决定分母）。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有40条记录（12 completed、28 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第8章《Madonna delle Arpie》与 Ricci《Crucifixion》跨章端点。** 索引候选 `cand-2362` 判为既有画作 `same`，正文人物mention改挂至 `cand-2361`；沿用 `cand-7862` 的作品 `new` 组登记《Madonna delle Arpie》，并将 `cand-7957` 判为来源限定的 Ricci 委托作品 `new` 组，新增2个KU。两个卖方／画廊对象继续 `undecided`，分别保留在 `bl-0039`、`bl-0040`。新增8条书内 `source_backed` 字段；7项S6候选裁为4 formal、3 pending，购藏双重叙述合并为一条边。六张受影响卡定向渲染并复预览无差异；严格表审计与关系一致性检查通过。逐项依据见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-madonna-delle-arpie-ricci-20261025)。
 
 **本批完成：第5、8章马萨涅洛起义事件端点。** 延用 `cand-1559`／`aln-1894` 的 S3 `new` 身份组登记 event KU `units/events/revolt-of-masaniello-1647`，与同名 Cerquozzi 作品分开。新增3条 Haskell `source_backed` 字段；两条跨章关系候选分别裁为1 formal（`rel-2020 visualizes`）和1 process-only pending（不把 Roomer 遇险误记为参与起义）。事件与作品卡定向渲染并写后复预览2/2无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp5-chp8-masaniello-revolt-1647-20261025)。
 
@@ -25,12 +27,12 @@
 
 **后续工作规划（按当前任务优先级）：**
 
-1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,957个new候选尚待S4，其中1,243个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
-2. **按类型推进S3收口。** 先核对26个跨来源decision差异，再处理9个conflict和5,177个undecided，按person、place、institution、event、work、archive等身份组逐项判定。same复用既有KU、new登记、conflict保留来源差异、excluded说明依据；缺身份或当前类型不能忠实表示的对象留在明确backlog，不强求转成已确定身份。
+1. **先推进关系直接端点的 S4/S6。** 当前2,955个new候选尚待S4，其中1,241个去重候选直接触及关系端点。按同源页与跨章身份组编批；批内先核身份和证据边界，再映射S4、补关键S5字段、逐条裁决关联S6。卖方、画廊等未达身份条件的端点保留待证和重开条件。
+2. **按类型完成S3逐候选去向。** 先核对26个跨来源decision差异，再处理9个conflict和5,175个undecided，按person、place、institution、event、work、archive等类型逐组对齐跨章身份。same复用既有KU、new登记、conflict保留来源差异、excluded说明依据；证据不足的候选继续带理由待证，不为清零数字而强判。
 3. **处理337条缺端点关系候选。** 按缺subject 45、缺object 220、两端均缺72分组；只有来源足以确定时才补候选并走S1–S4，再回到S6。端点不明则保留pending，不以缺少关系表行误作rejected。
-4. **持续按章完成S2独立语义复核。** 目前9,617/15,353（62.64%），另5,736条未进入统一逐条复核；按当前statement ID与来源版本核平，逐章记录证据、修订和真正独立的接收结果。补mention锚点或修元数据不增加复核分子。
+4. **持续按章完成S2独立语义复核。** 目前9,617/15,355（62.63%），另5,738条未进入统一逐条复核；按当前statement ID与来源版本核平，逐章记录证据、修订和真正独立的接收结果。补mention锚点或修元数据不增加复核分子。
 5. **定向补S5关键字段。** 1,634条`unverified`中，优先审查会改变身份、类型、端点或正式关系的字段；有充分来源才改为`source_backed`，否则保留未验证状态及具体缺口。
-6. **S7前置闭合。** S2独立接收且台账核平；S3每个候选有same/new/conflict/excluded决定或可追溯待证去向；可登记的new完成S4；关键S5字段有据或明确缺口；当前10,576项S6决定全部裁决；backlog不留未处理的actionable pending。达到这些条件后准备发布阶段S7。知识发现和页面仍待用户明确启动。
+6. **S7前置闭合。** S2独立接收且台账核平；S3每个候选有same/new/conflict/excluded决定或可追溯待证去向；可登记的new完成S4；关键S5字段有据或明确缺口；当前10,578项S6决定全部裁决；backlog不留未处理的actionable pending。达到这些条件后准备发布阶段S7。知识发现和页面仍待用户明确启动。
 
 **提速方式：** 以共同来源页、身份组和关系端点价值编批；只预览、渲染本批受影响卡片，并运行必要表审计。CI矩阵的执行时长与语义审读是不同成本，不通过删减Python版本门禁制造项目进度。
 

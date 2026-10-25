@@ -18251,7 +18251,7 @@ m-chp8-p231-florence,chp-8:08_CHP-8_sec_ii:l238-249,cand-3397,Florence,1978,1986
 m-chp8-p231-raphael,chp-8:08_CHP-8_sec_ii:l238-249,cand-2102,Raphael,2001,2008,Artist named for the Madonna del Baldacchino.
 m-chp8-p231-virgin-mary-1,chp-8:08_CHP-8_sec_ii:l238-249,cand-3427,Madonna,2011,2018,Religious figure named within the Raphael painting title.
 m-chp8-p231-baldacchino,chp-8:08_CHP-8_sec_ii:l238-249,cand-7861,Madonna del Baldacchino,2011,2034,Specific work by Raphael.
-m-chp8-p231-sarto,chp-8:08_CHP-8_sec_ii:l238-249,cand-2362,Andrea del Sarto,2036,2052,Artist named in Ferdinand's purchases.
+m-chp8-p231-sarto,chp-8:08_CHP-8_sec_ii:l238-249,cand-2361,Andrea del Sarto,2036,2052,Person mention in the possessive phrase naming the painter of Madonna delle Arpie; separate from the index-derived work candidate.
 m-chp8-p231-virgin-mary-2,chp-8:08_CHP-8_sec_ii:l238-249,cand-3427,Madonna,2055,2062,Religious figure named within the Andrea del Sarto painting title.
 m-chp8-p231-arpie,chp-8:08_CHP-8_sec_ii:l238-249,cand-7862,Madonna delle Arpie,2055,2074,Specific work by Andrea del Sarto.
 m-chp8-p231-cigoli,chp-8:08_CHP-8_sec_ii:l238-249,cand-0757,Cigoli,2076,2082,Artist named for the Deposition.
@@ -18457,6 +18457,13 @@ m-chp8-p235-demands,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,the demands,693,704
 m-chp8-p235-them-artists,chp-8:08_CHP-8_sec_ii:l291-301,cand-7958,them,716,720,Coreference to the two unnamed artists.
 m-chp8-p235-him-late-work,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,him,754,757,Coreference to Ferdinand.
 m-chp8-p235-ferdinand-contact,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,Ferdinand,812,821,Patron whose first contact with Ricci is described as unclear.
+m-chp8-p235-sebastiano-ricci,chp-8:08_CHP-8_sec_ii:l291-301,cand-2154,Sebastiano Ricci,848,864,Person named immediately before “from him”; resolves the commissioned painter in the following clause.
+m-chp8-p235-crucifixion-commission,chp-8:08_CHP-8_sec_ii:l291-301,cand-7957,"Crucifixion with the Madonna,
+St John and St Charles Borromeo",1016,1077,"Haskell’s named Crucifixion commission; source wording is a descriptive designation, not asserted as a formal original title."
+m-chp8-p235-sarto-artist,chp-8:08_CHP-8_sec_ii:l291-301,cand-2361,Andrea del Sarto,1089,1105,Artist named in the sentence identifying the painting being replaced.
+m-chp8-p235-madonna-delle-arpie,chp-8:08_CHP-8_sec_ii:l291-301,cand-7862,Madonna delle Arpie,1108,1127,The previously acquired painting named as the intended replacement target.
+m-chp8-p235-s-francesco-de-macci,chp-8:08_CHP-8_sec_ii:l291-301,cand-7960,S. Francesco de’ Macci,1165,1187,"Named house associated with the seller group; source does not settle whether it is a church, convent, or institution."
+m-chp8-p235-ferdinand-own-gallery,chp-8:08_CHP-8_sec_ii:l291-301,cand-7961,his own gallery,1192,1207,Ferdinand’s gallery is referenced without a physical location or unique room identity.
 m-chp9-p251-manin-family,chp-9:09_CHP-9_intro:l106-114,cand-1519,Manin,45,50,Manin family candidate from the index.
 m-chp9-p251-friuli,chp-9:09_CHP-9_intro:l106-114,cand-8237,Friuli,60,66,Region of origin as stated by Haskell.
 m-chp9-p251-manin-country-house,chp-9:09_CHP-9_intro:l106-114,cand-1518,country house,111,124,Manin country house at Passeriano.

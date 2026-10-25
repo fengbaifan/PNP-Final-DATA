@@ -14210,3 +14210,37 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 #### 卡片投影与审计
 
 事件卡和作品卡定向预览后渲染，renderer写后字节核验通过，复预览2/2无差异。严格表审计退出码0：KU=2,910，S3候选=12,426，S4 new待登记=2,956，关系表=2,020（1,991 formal、29 pending），S5=13,392（1,634 `unverified`），S2=15,353 statements／26,791 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0；`git diff --check`退出码0。本批使S6新增1项formal、1项process-only pending；不改变S2复核分子、S3决定或337条缺候选端点队列，也不构成全书S2接收或S3–S6收口。
+
+
+<a id="s3-s4-s5-s6-ch8-madonna-delle-arpie-ricci-20261025"></a>
+
+### S3/S4/S5/S6：第8章《Madonna delle Arpie》与 Ricci《Crucifixion》跨章端点（2026-10-25）
+
+#### S2锚点修订与边界
+
+第8章 p.231 的索引候选 `cand-2362` 是 Andrea del Sarto 名下的《Madonna delle Arpie》子目，不是人物；S3 将其判为 `same`，复用作品KU `units/works/andrea-del-sarto-madonna-delle-arpie`，并与正文候选 `cand-7862` 的既有 `new` 作品组对齐。正文所有格 “Andrea del Sarto’s Madonna delle Arpie” 支持来源归属判断，因此将既有 mention `m-chp8-p231-sarto` 从误指索引子目的 `cand-2362` 改挂到人物 `cand-2361`；保留mention ID和原文字符区间，不另建重叠mention。Andrea del Sarto人物KU沿用既有 `units/persons/andrea-del-sarto`。
+
+第8章 p.235 将 `cand-7957`（Ferdinand于1704年委托的《Crucifixion》）裁为来源限定的 `new` 作品组 `workgrp-sebastiano-ricci-crucifixion-1704`，登记KU `units/works/sebastiano-ricci-crucifixion-madonna-st-john-charles-borromeo-1704`。标题仅作辨识性描述，不声称原书正式题名、作品完成或现存版本。沿用人物 `cand-2154` 的既有 Sebastiano Ricci KU。两件作品分别新增KU，不合并为同一作品。
+
+为第8章 p.235 补入六个mention锚点：Ricci、委托作品、Andrea del Sarto、Madonna、S. Francesco de’ Macci及“his own gallery”。新增两条S2 statement：`st-chp8-p231-madonna-delle-arpie-created-by`记录Haskell所有格所表达的来源归属；`st-chp8-p235-ricci-crucifixion-creator-qualified`保留“seems”限定。两条新statement尚未进入统一独立逐条复核，不增加S2复核分子。
+
+`cand-7960` S3仍为 `undecided` 并记入 `bl-0039`：来源称“S. Francesco de’ Macci的修女”，但不足以判定该名称指教堂、修院还是机构，故不建卖方KU或关系行。`cand-7961` S3仍为 `undecided` 并记入 `bl-0040`：来源未识别Ferdinand的具体画廊，不并入Pitti或Poggio a Caiano，也不建地点边。
+
+#### S5与S6
+
+`build_field_facts.py` 对两件作品定向预览并应用8条 `source_backed` 字段（`enr-17307`–`enr-17314`），来源均为 `haskell-1980-rev-ed`；无 `unverified` 字段、警告或来源登记变更。字段只表达本书陈述和限定，不构成独立外部核验。
+
+| statement_id | 决定 | 去向 | 边界 |
+|---|---|---|---|
+| `st-chp8-p231-madonna-delle-arpie-created-by` | formal | `rel-2021 created_by`：作品 → Andrea del Sarto | Haskell所有格明确给出书内归属；未独立验证作者归属。 |
+| `st-chp8-p231-ferdinand-bought-madonna-delle-arpie`、`st-chp8-p235-madonna-acquisition` | formal | 合并写为一条 `rel-2022 acquired_by`：作品 → Ferdinand | 两段描述同一购藏，年份仅到1690年代；第二段所称卖方实体和画廊位置未解，不据此扩展端点。 |
+| `st-chp8-p235-ricci-commission` | formal | `rel-2023 commissioned_by`：作品 → Ferdinand（1704） | 只记录明确委托，不声称付款、完成或现存。 |
+| `st-chp8-p235-ricci-crucifixion-creator-qualified` | pending | `rel-2024 created_by`：作品 → Ricci | Haskell称Ricci“seems”曾赴佛罗伦萨作画，不能据此确认执行或完成。 |
+| `st-chp8-p235-crucifixion-replaces-madonna` | pending | `rel-2025 replaces`：委托作品 → Madonna | 仅支持拟替换意图；不证明新作已安装或旧作已移除。 |
+| `st-chp8-p235-ricci-visit-and-cassana-advice` | pending | `rel-2026 located_at`：Ricci → Florence | “seems”保留推断语气；本条不作为正式到访事实。 |
+
+七项S6候选决定为4 formal、3 pending；前两段购藏陈述合并为一条关系边，因此关系表新增6行（3 formal、3 pending）。同段另有Ricci协助Cassana的候选，不属于本批作品端点裁决，维持既有状态。
+
+#### 定向渲染与审计
+
+两张新作品卡及Andrea del Sarto、Ferdinand、Sebastiano Ricci、Florence四张相关卡逐卡预览；六张均完成定向渲染与写后复预览，6/6无剩余差异，5个实际受影响文件写入并通过字节核验。严格表审计退出码0：KU=2,912，S3候选=12,426，待S4登记的`new`=2,955，backlog=40（pending=0），relations.csv=2,026（1,994 formal、32 pending），S5=13,400（1,634 `unverified`），S2=15,355 statements／26,797 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0，`git diff --check`通过。本批S2统一复核仍为9,617条；结果文件据此更新，不将机械审计或本批自查写成独立语义接收。

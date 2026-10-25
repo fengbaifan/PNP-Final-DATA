@@ -45,4 +45,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本任务未新增正式关系。直接S2关系候选`st-chp2-seci-l108-119-palace-paintings-by-andrea-del-sarto`留待S6逐条裁决。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [哈耳庇厄圣母（Madonna delle Arpie）](../works/andrea-del-sarto-madonna-delle-arpie.md) | Formal S6 decision: “Andrea del Sarto’s Madonna delle Arpie” directly links the source-attributed painter to this work.；角色：Haskell’s source-attributed painter；范围：The possessive attribution on printed p.231 identifies Andrea del Sarto as the named painting’s creator; no independent attribution verification is claimed.；原断言与证据见发出端卡片“哈耳庇厄圣母（Madonna delle Arpie）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.231, line 247; statement st-chp8-p231-madonna-delle-arpie-created-by |
+
+本任务新增了与《Madonna delle Arpie》的书内作者归属边。另有直接S2关系候选`st-chp2-seci-l108-119-palace-paintings-by-andrea-del-sarto`仍待S6逐条裁决。
