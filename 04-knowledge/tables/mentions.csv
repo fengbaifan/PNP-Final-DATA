@@ -27466,3 +27466,44 @@ m-chp2-seci-l124-157-rosi-author-20261025,chp-2:02_CHP-2_sec_i:l124-157,cand-124
 m-chp21-bib-l1059-1100-rosi-author-20261025,chp-21:21_CHP-21Bibliography:l1059-1100,cand-12448,"Rosi, M.",565,573,Bibliography author form; full personal identity unresolved.
 m-chp5-note-143-061,chp-5:05_CHP-5_sec_iii:l126-165,cand-11941,cinque quadri bellissimi bislunghi tutti d’una misura,2690,2743,The five paintings are named together as a bounded but individually unidentified loan group.
 m-chp5-note-143-062,chp-5:05_CHP-5_sec_iii:l126-165,cand-11942,the exhibition at S. Salvatore in Lauro,2762,2801,Names the 1701 exhibition and venue; does not specify church proper versus cloisters.
+m-chp8-p235-marucelli-decoration-group,chp-8:08_CHP-8_sec_ii:l291-301,cand-7966,great decorations that he painted for Ferdinand’s friends the Marucelli,2438,2509,"Plural decorations are anchored; their number, rooms, and individual work identities remain unspecified."
+m-chp8-p235-marucelli-family-name,chp-8:08_CHP-8_sec_ii:l291-301,cand-7959,Marucelli,1580,1589,Collective family/group label; member identities and exact number remain unresolved.
+m-chp8-p235-marucelli-patron-name,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,Ferdinand’s friends,2476,2495,Named patron context for the Marucelli decorations.
+m-chp8-p235-pitti-room-decoration,chp-8:08_CHP-8_sec_ii:l291-301,cand-7967,for the Grand Prince himself in a small room in the Pitti,2514,2571,Anchor for the separate Pitti-room decoration; the exact room is not identified.
+m-chp8-p235-pitti-prince,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,the Grand Prince,916,932,Ferdinand de’ Medici in this source context.
+m-chp8-p235-pitti-palace,chp-8:08_CHP-8_sec_ii:l291-301,cand-7662,the Pitti,2562,2571,Palazzo Pitti named as the site of the small room.
+m-chp8-p235-allegory-title,chp-8:08_CHP-8_sec_ii:l291-301,cand-7965,Allegory of the Arts,2242,2262,"Named source-local painting, distinct from the Pitti-room decoration."
+m-chp8-p235-allegory-destroyed,chp-8:08_CHP-8_sec_ii:l291-301,cand-7965,This work has unfortunately been destroyed,2320,2362,Coreference and reported destroyed state for the Allegory of the Arts.
+m-chp8-p235-allegory-ricci,chp-8:08_CHP-8_sec_ii:l291-301,cand-2154,Ricci arrived to paint an,2216,2241,Artist named in the Allegory passage.
+m-chp8-p235-allegory-ferdinand,chp-8:08_CHP-8_sec_ii:l291-301,cand-1609,Ferdinand’s favourite gallery,2266,2295,Patron named in the Allegory passage.
+m-chp8-p236-pitti-frescoes,chp-8:08_CHP-8_sec_ii:l303-309,cand-7967,Ricci’s delightful frescoes,404,431,The named fresco group in the Pitti-room description.
+m-chp8-p236-ricci,chp-8:08_CHP-8_sec_ii:l303-309,cand-2154,Ricci,193,198,Named artist inside the parent-work mention.
+m-chp8-p236-ferdinand-patronage,chp-8:08_CHP-8_sec_ii:l303-309,cand-1609,Ferdinand’s patronage,38,59,Person named in Haskell’s patronage account.
+m-chp8-p236-ferdinand-court-name,chp-8:08_CHP-8_sec_ii:l303-309,cand-1609,Ferdinand’s,541,552,Person named as the referent of “court”; nested in the court-setting mention.
+m-chp8-p236-court-setting,chp-8:08_CHP-8_sec_ii:l303-309,cand-8010,Ferdinand’s court,541,558,Interpretive setting; this phrase alone does not establish a uniquely bounded institution.
+m-chp8-p236-venus-adonis-work,chp-8:08_CHP-8_sec_ii:l303-309,cand-7989,"Venus, in brilliant yellow, takes her leave from Adonis",1227,1282,"Ceiling work scene; linked to Plate 39, not treated as a separate mythological event."
+m-chp8-p236-venus-figure,chp-8:08_CHP-8_sec_ii:l303-309,cand-4171,Venus,1227,1232,Iconographic figure nested in the ceiling-scene mention.
+m-chp8-p236-adonis-figure,chp-8:08_CHP-8_sec_ii:l303-309,cand-4172,Adonis,1276,1282,Iconographic figure nested in the ceiling-scene mention.
+m-chp8-p236-diana-callisto-work,chp-8:08_CHP-8_sec_ii:l303-309,cand-7990,Diana and Callisto,1708,1726,Named wall-scene work; named figures are separate S2 mentions.
+m-chp8-p236-diana-callisto-diana,chp-8:08_CHP-8_sec_ii:l303-309,cand-4136,Diana,1708,1713,Iconographic figure nested in the wall-scene mention.
+m-chp8-p236-callisto,chp-8:08_CHP-8_sec_ii:l303-309,cand-7994,Callisto,1718,1726,Iconographic figure; no further identity inferred.
+m-chp8-p236-pan-syrinx-work,chp-8:08_CHP-8_sec_ii:l303-309,cand-7991,"Pan and
+Syrinx",1728,1742,Named wall scene continuing across the OCR line break.
+m-chp8-p236-pan,chp-8:08_CHP-8_sec_ii:l303-309,cand-4169,Pan,1728,1731,Iconographic figure nested in the wall-scene mention.
+m-chp8-p236-syrinx,chp-8:08_CHP-8_sec_ii:l303-309,cand-4170,Syrinx,1736,1742,Iconographic figure nested in the wall-scene mention.
+m-chp8-p236-europa-work,chp-8:08_CHP-8_sec_ii:l303-309,cand-7992,Europa and the Bull,1744,1763,Named wall scene; the Bull is not identified further.
+m-chp8-p236-europa,chp-8:08_CHP-8_sec_ii:l303-309,cand-4168,Europa,1744,1750,Iconographic figure nested in the wall-scene mention.
+m-chp8-p236-diana-actaeon-work,chp-8:08_CHP-8_sec_ii:l303-309,cand-7993,Diana and Actaeon,1765,1782,Named wall-scene work.
+m-chp8-p236-diana-actaeon-diana,chp-8:08_CHP-8_sec_ii:l303-309,cand-4136,Diana,1765,1770,Iconographic figure nested in the wall-scene mention.
+m-chp8-p236-actaeon,chp-8:08_CHP-8_sec_ii:l303-309,cand-7995,Actaeon,1775,1782,Iconographic figure; no further identity inferred.
+m-chp8-p236-corner-busts,chp-8:08_CHP-8_sec_ii:l303-309,cand-7996,painted busts of men and women,1829,1859,Bounded four-corner decorative group; sitters remain unnamed.
+m-chp8-p236-overdoor-composition,chp-8:08_CHP-8_sec_ii:l303-309,cand-7997,"Over the main door angels support a shield with the Medici arms while putti with a crown hover above, the whole forming a brilliant asymmetrical composition",1889,2045,Bounded overdoor composition described by Haskell.
+m-chp8-p236-medici-arms,chp-8:08_CHP-8_sec_ii:l303-309,cand-7998,the Medici arms,1937,1952,"Heraldic identification of the Medici family, not an individual person."
+m-chp8-p236-frescoes-delight,chp-8:08_CHP-8_sec_ii:l303-309,cand-7967,The frescoes,2174,2186,Coreference to the Pitti-room decoration in the response statement.
+m-chp8-p236-ferdinand-delighted,chp-8:08_CHP-8_sec_ii:l303-309,cand-1609,Ferdinand,38,47,Reported recipient of the frescoes’ effect.
+m-chp8-p236-note1-ricci,chp-8:08_CHP-8_sec_ii:l372-461,cand-2154,Writing of Ricci,9520,9536,Ricci named as subject of Gherardi’s report.
+m-chp8-p236-note1-work,chp-8:08_CHP-8_sec_ii:l372-461,cand-7967,composizion dell’ideato lavoro pittoresco da fare,9679,9728,"Pictorial work in Gherardi’s report, linked contextually to the Pitti decoration."
+m-chp8-p236-note1-florence,chp-8:08_CHP-8_sec_ii:l372-461,cand-3397,[Florence],9567,9577,Place explicitly supplied in the quoted passage.
+m-chp8-p236-note2-sketch,chp-8:08_CHP-8_sec_ii:l372-461,cand-8000,The sketch for this fresco,10002,10028,Source-described preparatory drawing; exact object identity not otherwise given.
+m-chp8-p236-note2-fresco,chp-8:08_CHP-8_sec_ii:l372-461,cand-7989,this fresco,10017,10028,Coreference to the immediately preceding Plate 39 Venus and Adonis fresco.
+m-chp8-p236-note2-museum,chp-8:08_CHP-8_sec_ii:l372-461,cand-7999,Orleans Museum,10043,10057,Institutional label as printed by Haskell; no current official name asserted.

@@ -82,6 +82,8 @@ relations:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 由其供应（`supplied_by`） | [佛罗伦萨美术馆监管机构（Soprintendenza alle Gallerie, Florence）](../institutions/soprintendenza-alle-gallerie-florence.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版39的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 170–171; 章前：图片来源；印刷页xvi |
+| → 组成部分（`part_of`） | [塞巴斯蒂亚诺·里奇的皮蒂宫小室壁画装饰（Sebastiano Ricci’s Fresco Decoration in a Small Room at the Pitti Palace）](sebastiano-ricci-pitti-small-room-fresco-decoration.md) | Source-backed compositional membership only; no independent date, title, or present condition is inferred.；角色：ceiling scene；范围：Haskell describes this separately bounded scene or decorative component as part of the Pitti-room fresco decoration.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.236; statement st-chp8-p236-ceiling-venus-adonis-scene |
+| ← 采用预备模型／样稿（`modeled_by`，反向投影） | [《维纳斯与阿多尼斯》壁画草图（Sketch for the Venus and Adonis Fresco）](ricci-sketch-for-venus-and-adonis-fresco.md) | The source’s referent is recorded; the sketch’s exact version and present status remain unverified.；角色：Preparatory sketch for the Plate 39 fresco；范围：Haskell says “the sketch for this fresco”; the note follows Plate 39, identified in the linked body statement as the Venus and Adonis ceiling scene.；原断言与证据见发出端卡片“《维纳斯与阿多尼斯》壁画草图（Sketch for the Venus and Adonis Fresco）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.236, note 2, line 437; statement st-chp8-p236-note2-sketch-for-venus-adonis-fresco |
 
 ### 关系候选入口
 

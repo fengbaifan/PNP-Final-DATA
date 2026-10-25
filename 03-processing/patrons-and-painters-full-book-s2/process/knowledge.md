@@ -14244,3 +14244,61 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 #### 定向渲染与审计
 
 两张新作品卡及Andrea del Sarto、Ferdinand、Sebastiano Ricci、Florence四张相关卡逐卡预览；六张均完成定向渲染与写后复预览，6/6无剩余差异，5个实际受影响文件写入并通过字节核验。严格表审计退出码0：KU=2,912，S3候选=12,426，待S4登记的`new`=2,955，backlog=40（pending=0），relations.csv=2,026（1,994 formal、32 pending），S5=13,400（1,634 `unverified`），S2=15,355 statements／26,797 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0，`git diff --check`通过。本批S2统一复核仍为9,617条；结果文件据此更新，不将机械审计或本批自查写成独立语义接收。
+
+<a id="s3-s4-s5-s6-ch8-ricci-pitti-room-20261025"></a>
+
+### S3/S4/S5/S6：第8章 Ricci 皮蒂宫小室壁画组、毁坏的《艺术寓意》与图版39草图（2026-10-25）
+
+#### 来源锚点与身份边界
+
+本批依据 Haskell 第8章 p.235（来源段 `chp-8:08_CHP-8_sec_ii:l291-301`）、p.236（`l303-309`）及图版39注2（`l372-461`）。补入40个精确来源锚定mention，覆盖壁画组、场景、图版、人物图像要素、草图、馆名及仍待证对象；跨行 “Pan and Syrinx” 按来源文本保留换行范围。另新增S2关系候选 `st-chp8-p236-note2-sketch-for-venus-adonis-fresco`，记录注2“the sketch for this fresco”指向前列图版39壁画。该新增statement尚未进入统一独立逐条复核，不增加S2复核分子。
+
+`cand-7967` 是一间未具名皮蒂宫小室的壁画装饰组；它与1704年《Crucifixion》委托作品及紧邻段落所述、已毁的《Allegory of the Arts》分别登记。正文只列出场景和装饰构件，未提供确切房间、完成日期或现状。图版目录把 Plate 38a、38b、39 分别列为《Rape of Europa》《Pan and Syrinx》《Venus and Adonis》并注明 Palazzo Pitti；此处据同书图版复用三个既有作品KU，不外推外部身份。图版39注2中的草图仍按来源局部对象登记，精确版本未明；“Orleans Museum”仅按 Haskell 原标签建机构KU，不断言现行机构正式名称或当前保管状态。
+
+#### S3身份组与S4去向
+
+本批有8项 `new`：
+
+- `cand-7967` → `workgrp-ricci-pitti-small-room-decoration` → `units/works/sebastiano-ricci-pitti-small-room-fresco-decoration`；
+- `cand-7965` → `workgrp-ricci-allegory-of-the-arts-favourite-villa` → `units/works/ricci-allegory-of-the-arts-favourite-villa`；
+- `cand-7990` → `workgrp-ricci-pitti-diana-callisto-wall-scene` → `units/works/sebastiano-ricci-pitti-diana-and-callisto-wall-scene`；
+- `cand-7993` → `workgrp-ricci-pitti-diana-actaeon-wall-scene` → `units/works/sebastiano-ricci-pitti-diana-and-actaeon-wall-scene`；
+- `cand-7996` → `workgrp-ricci-pitti-corner-busts` → `units/works/sebastiano-ricci-pitti-corner-busts`；
+- `cand-7997` → `workgrp-ricci-pitti-overdoor-medici-composition` → `units/works/sebastiano-ricci-pitti-overdoor-medici-composition`；
+- `cand-8000` → `workgrp-ricci-pitti-venus-and-adonis-sketch` → `units/works/ricci-sketch-for-venus-and-adonis-fresco`；
+- `cand-7999` → `institutiongrp-orleans-museum-book-label` → `units/institutions/orleans-museum`。
+
+三项由 `undecided` 改为 `same`：`cand-7989` 复用 `units/works/sebastiano-ricci-venus-and-adonis`，`cand-7991` 复用 `units/works/sebastiano-ricci-pan-and-syrinx`，`cand-7992` 复用 `units/works/sebastiano-ricci-rape-of-europa`。`cand-7998` 继续 `same` 到 `units/families/medici-family`；新补mention只锚定图像上的美第奇家族纹章，不映射为某一位个人。
+
+三个对象保持待证并写入backlog：`cand-7966`／`bl-0041`（Marucelli数间房的复数装饰未形成有界作品组）、`cand-7959`／`bl-0042`（Marucelli兄弟的集体身份及具体成员未定）、`cand-8010`／`bl-0043`（“Ferdinand’s court”是阐释性艺术环境，未确立独立机构边界）。各自均附缺证内容和重开条件，不新建KU。批后S3主决定为same 2,058、new 5,091、conflict 9、excluded 104、undecided 5,164；跨来源decision差异仍有26项待核。S4映射2,136/5,091个new，本批8个均已映射；尚有2,955个new未映射，全书未映射new关系端点为1,241个。
+
+#### S5字段与S6候选裁决
+
+对8个新KU应用25条 Haskell `source_backed` 字段（`enr-17315`–`enr-17339`）。应用后定向只读预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`；未新增 `unverified` 字段。字段只记录书内来源及其限定，不构成外部核验。
+
+20项关系候选逐项有去向：13项formal、6项pending、1项rejected。13项formal statement中的Gherardi正文报告与注1报告共同支持同一patronage边，故14项正式S6关系行来自13项formal候选：
+
+| statement_id | S6决定与去向 | 裁决边界 |
+|---|---|---|
+| `st-chp8-p235-pitti-decoration` | formal：`rel-2027 created_by`、`rel-2028 patronized_by`、`rel-2029 located_at` | 记录 Haskell 对 Ricci、Ferdinand 与 Pitti 小室的报告；不补确切房间、日期或现状。 |
+| `st-chp8-p236-gherardi-instructions-report`、`st-chp8-p236-note1-gherardi-report` | formal：共同支持 `rel-2028 patronized_by` | 这是 Haskell 转引 Gherardi 的指示、付款与赠礼叙述；未据此推为合作创作。 |
+| `st-chp8-p236-ceiling-venus-adonis-scene` | formal：`rel-2030 part_of` | 图版39场景属于小室装饰。 |
+| `st-chp8-p236-wall-scene-diana-callisto`、`st-chp8-p236-wall-scene-pan-syrinx`、`st-chp8-p236-wall-scene-europa-bull`、`st-chp8-p236-wall-scene-diana-actaeon` | formal：`rel-2031`–`rel-2034 part_of` | 四个命名壁面场景属于小室装饰；图版目录支持其中两件既有作品的复用。 |
+| `st-chp8-p236-corner-busts`、`st-chp8-p236-overdoor-composition` | formal：`rel-2035`、`rel-2036 part_of` | 四角胸像组和门上构图各作为有界装饰构件，不识别未具名人物。 |
+| `st-chp8-p235-allegory-arrival` | formal：`rel-2037 created_by`、`rel-2038 patronized_by` | 分开记录已毁《艺术寓意》的书内作者与赞助关系，不并入Pitti装饰。 |
+| `st-chp8-p236-note2-sketch-for-venus-adonis-fresco` | formal：`rel-2039 model_for` | 注2指向图版39的《Venus and Adonis》壁画；草图版本仍未定。 |
+| `st-chp8-p236-note2-sketch-at-orleans` | formal：`rel-2040 located_at` | 仅表示Haskell所记“now”在Orleans Museum，不表示当前保管状态。 |
+| `st-chp8-p235-surviving-decorations` | pending：process-only | Marucelli复数装饰缺少有界房间组或单件身份；对应 `bl-0041`。 |
+| `st-chp8-p235-marucelli-patronage` | pending：process-only | 姓氏群体不能识别具体兄弟及其身份组；对应 `bl-0042`。 |
+| `st-chp8-p235-poggio-visit-postponed`、`st-chp8-p235-ferdinand-postpones-poggio-scheme` | pending：process-only | 只报告拟议及延期的Poggio作画安排；不据此建立已完成作品或到访关系。 |
+| `st-chp8-p236-ricci-frescoes-and-court-atmosphere` | pending：process-only | “court atmosphere”属解释性环境，缺少实体边界和受控事实谓词；对应 `bl-0043`。 |
+| `st-chp8-p236-frescoes-delighted-ferdinand` | pending：process-only | 保留 Haskell 的效果陈述；当前受控关系不足以表达评价性反应。 |
+| `st-chp8-p236-ferdinand-collaboration-in-pitti-work` | rejected：process-only | 不采纳Haskell的推断为合作／共同创作边；经Gherardi转述的遵循委托者指示不能证明共同执行。 |
+
+本批S6累计台账按上一快照1,354项加本批20项记录为1,374项（775 formal、484 pending、115 rejected）。但上一快照分母10,578与当前 `book-statements.jsonl` 中 `relation_candidate=true` 的10,572项相差6；在逐项核明历史决定和标记变更前，不据此报告剩余量或完成率。
+
+#### 卡片渲染与机械检查
+
+对8张新卡以及 Venus and Adonis、Pan and Syrinx、Rape of Europa、Sebastiano Ricci、Ferdinand、Palazzo Pitti 六张既有相关卡作定向预览后，`build_cards.py --render` 预检并写入14张卡：`cards=14`、`tables=25`、`rows=93`、`projected_relation_rows=53`、`cards_with_relation_changes=10`、`files_to_write=14`。渲染器完成写后字节核验并清理本次临时恢复快照。
+
+`build_field_facts.py` 定向预览确认零待写变化；`audit_tables.py` 退出码0，`errors=[]`、`s2_missing=[]`，仅报告2,955个S4待登记候选及语义复核仍需人工审读的预期提示。`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 五类阻断均为0；孤立KU及高连接数属于既有诊断，不代表关系阶段已收口。`git diff --check`退出码0。本批新增1条S2 statement未进入统一复核，S2分子仍为9,617；本批自查不构成独立语义接收。
