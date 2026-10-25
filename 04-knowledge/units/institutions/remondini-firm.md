@@ -58,4 +58,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。S2 对这组记录20条直接陈述，其中16条为关系候选；人物、作品、地点及出版活动端点均保留在原断言中，待 S6 逐条审查。本次只登记机构身份，不创建正式关系。相关“低价仿印”程序另见[伦多尼印制低价仿本](../procedures/remondini-low-priced-facsimiles.md)，该程序卡不与本机构合并。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [巴萨诺德尔格拉帕（Bassano del Grappa）](../places/bassano-del-grappa.md) | The role is the firm's place of establishment; it does not assert that the Venice branch or all later operations were at Bassano.；角色：印刷商行设立地；范围：Haskell第13章印刷页340称Remondini商行设立于Bassano，并另有Venice分支；外部身份核对将此处Bassano识别为Bassano del Grappa。；证据：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p. 340, L83; statement=st-chp13-p340-remondini-established-at-bassano |
+
+本卡的正式关系仅展示已写入 `relations.csv` 并通过 S6 的边；尚未正式接收的候选及其待证理由保留在全书知识过程记录。相关“低价仿印”程序另见[伦多尼印制低价仿本](../procedures/remondini-low-priced-facsimiles.md)，该程序卡不与本机构合并。

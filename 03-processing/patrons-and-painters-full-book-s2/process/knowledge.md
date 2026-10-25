@@ -14607,3 +14607,20 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 现有独立审读已要求后两项保留施事未决，本批没有改写。原 S2 commission statement 的关系谓词已原子化为 person-to-work creator_of，新加两条 S2 statement 分别承载委托者和计划位置；修改后的原 statement 与两条新增 statement 均待纳入后续独立 S2 复核，不增加已审读分子。其他未改动的当前审核状态沿用原记录。
 
 定向验证完成：scripts/audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。build_cards.py定向渲染7/7张卡并逐卡复预览，7/7无差异；git diff --check无空白错误。上述机械检查不构成S2独立语义复核；本批修订/新增的三条statement仍待独立复核。
+
+### S4-S5-S6 Bassano di Sutri Remondini 20261025
+
+**S3跨章地点比较（由S4登记触发）：** 第2章 cand-4312 的Bassano di Sutri与第13章 cand-10052 的Remondini所在地Bassano名称相近，登记前回查当前place KU和两处来源，并核读适用的Treccani条目。Treccani《意大利百科全书》“Bassano di Sutri”（1930）称其为维泰博省Comune；“Bassano del Grappa”（1930）称其位于Vicenza省，并提到当地Remondini雕版印刷业；Mario Infelise《意大利人传记辞典》“REMONDINI”（卷86，2016）记述印刷企业及其生产基地在Bassano。比较结果为两个不同地点：cand-4312继续使用sg3-place-cand-4312，cand-10052继续使用sg3-place-cand-10052；均保留既有S3 new决定，不合并两地，也不与画家Jacopo Bassano混同。Bassano di Sutri词条对该镇Giustiniani宫殿的描述不证明Haskell所称乡间宅邸就是该宫殿。
+
+**S4登记：** cand-4311（sg3-place-cand-4311）登记为来源局部、无原书专名的乡间宅邸 units/places/vincenzo-giustiniani-country-house-bassano-di-sutri；cand-4312登记为units/places/bassano-di-sutri；cand-10052登记为units/places/bassano-del-grappa。前两项按Haskell第2章印刷页29 L100；Remondini地点按第13章印刷页340 L83与Treccani身份比较登记。当前manifest未有对应的Bassano di Sutri或Bassano del Grappa place KU。cand-4312及cand-10052的alignment保存Treccani来源、记录链接、访问日期和本次跨章身份比较。
+
+**S5字段：** 三卡共新增12条source-backed字段（乡间宅邸3、Bassano di Sutri 4、Bassano del Grappa 5）。字段包括原文描述性称谓、地点性质、Giustiniani参与设计而非唯一设计者、两地书内地名及外部身份定位。新增Treccani来源登记3条；没有把乡间宅邸认作Bassano di Sutri宫殿，也未补造乡间宅邸专名或所有权。
+
+**S6逐项裁决：**
+- st-chp2-seci-l95-106-country-house-location：formal rel-2074 located_at，乡间宅邸→Bassano di Sutri；Haskell报告地点，两个端点保持分立。
+- st-chp13-p340-remondini-established-at-bassano：formal rel-2075 located_at，Remondini印刷商行→Bassano del Grappa；role限定为设立地，Haskell同时说明Venice分支，未断言后续全部活动均在Bassano。
+- st-chp2-seci-l95-106-country-house-design：process-only pending，不写不完整关系行。来源仅称Giustiniani曾帮助设计；现有 designed_by 仅接受work→person、designer_of仅接受person→work，而建筑空间在本项目归place；erected_by或entrusted_to_build会把设计参与改成建造/受托施工，均不相符。只有批准了能表达place→person设计参与且保留“帮助”限定的受控谓词/域值域，或出现可映射现有受控类型的新证据时，才重评。
+
+**定向渲染与机械核对：** 三张新卡及Remondini机构卡共4张定向渲染，渲染器写后字节核对通过；4/4复预览无差异。build_field_facts.py写后预览为12条、unverified=0、record_changes=0、source_registry_changes=0。audit_tables.py --strict-stage --summary退出码0，errors=[]、s2_missing=[]；KU=2,942、relations=2,075（formal=2,042）、S5=13,502（unverified=1,634）。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；git diff --check退出码0。S2 statement／mention及统一独立复核分子未改变；本批不构成S2接收或S3–S6全书收口。
+
+**外部身份来源（2026-10-25查阅）：** Treccani, “BASSANO di Sutri,” *Enciclopedia Italiana* (1930), https://www.treccani.it/enciclopedia/bassano-di-sutri_(Enciclopedia-Italiana)/；Treccani, “BASSANO del Grappa,” *Enciclopedia Italiana* (1930), https://www.treccani.it/enciclopedia/bassano-del-grappa_(Enciclopedia-Italiana)/；Mario Infelise, “REMONDINI,” *Dizionario Biografico degli Italiani*, vol. 86 (2016), https://www.treccani.it/enciclopedia/remondini_(Dizionario-Biografico)/。这些来源用于地点/机构身份比较，不替代Haskell原书对两条正式关系的证据。
