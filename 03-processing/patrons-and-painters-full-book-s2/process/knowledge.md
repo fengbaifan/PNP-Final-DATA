@@ -14996,3 +14996,13 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **卡片与审计。** 六张受影响卡（含Haskell来源卡）定向渲染并复预览6/6无差异。严格表审计：KU=2,995；候选=12,427；alignment=12,774、未链接0；new待登记2,887；S5=13,735（1,634 unverified）；relations.csv=2,136（2,103 formal、33 pending）；backlog=45（13 completed、32 undecided、pending=0）；S2 statements=15,367、mentions=26,841；`errors=[]`、`s2_missing=[]`。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。按当前候选主决定汇总，S3为same=2,065、new=5,100、conflict=9、excluded=104、undecided=5,149；跨来源decision差异仍26项。S4映射2,213/5,100；未映射new直接关系端点1,177（term 447、archive 231、work 190、place 162、event 81、institution 65、person 1）。S6新增3项formal裁决，累计1,512（866 formal、527 pending、119 rejected）；历史statement映射差异仍1项。S2统一复核保持9,617/15,367（62.59%，未接收），本批不改statement／mention，不增加复核分子。
 
 **全库字段预览范围。** 额外运行的全库`build_field_facts.py`仅为只读预览，显示157条潜在记录变化、65个新增ID、65个移除ID及4项来源登记变化；未apply。其写回范围未纳入本批。后续保持卡片定向预览，只有厘清这些全库差异对应的事实变化与版本后再处理。
+
+<a id="s3-s4-s6-chp7-p171-prado-reuse-20261026"></a>
+
+### S3跨章复用与S6端点待证：第7章 p.171 n.6 Prado（2026-10-26）
+
+**S3身份修订。** 对照第7章候选`cand-7005`及Haskell p.171注6（`07_CHP-7_sec_i.md` L300）。此前候选因认为未有同类型KU而判`new`，组为`sg3-institution-cand-7005`；复查全局KU后发现已登记的机构`units/institutions/museo-del-prado`，且既有`cand-3256`已映射该KU。原文简称“the Prado”指向同一博物馆，候选类型为institution；Museo Nacional del Prado官方机构页确认其正式机构身份与名称（[官方机构信息](https://www.museodelprado.es/en/museo/carta-de-servicios)）。故保留旧组和旧决定为历史，当前修订为`same`并映射至现有KU；不新建重复机构卡。该官方页面只支持机构身份，不核实Haskell所述绘画组现今或历史具体馆藏。
+
+**S6去向。** `st-chp7-p171-n6-series-located-prado`已有对象候选现可映射至Museo del Prado；主语候选`cand-7003`仍为`undecided`，其所指“series of ancient Roman scenes”尚未形成可登记的具体work身份组。候选statement因缺少已映射的subject KU而作process-only `pending`，不写formal `located_at`边，也不新增`relations.csv`记录。重开条件：先确定该画作组的S3身份与S4去向，再按来源的“now”语境和`located_at`的受控语义重评；本轮未阅读Passeri p.157、Trapier p.109或Prado目录，不声称独立馆藏核实。
+
+**局部影响。** S3 same增加1、new减少1；KU总数不变。S4的new待登记候选减少1；该候选为机构直接关系端点，登记缺口随same映射关闭。S6新增1条有明确条件的process-only pending。S2 statement、mention、coverage及统一独立复核分子均不变。

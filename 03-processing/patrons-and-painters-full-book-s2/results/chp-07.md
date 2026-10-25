@@ -74,3 +74,7 @@
 ## 2026-10-20：p.199 定向语义修正
 
 复核已覆盖的p.199正文与注释，纠正一项将Shaftesbury去世时间误设为人物—作品关系的statement（改为单主语、非关系断言），并清理Sweetman脚注claim中的内部背景摘要。页图校读仍与原OCR分开保存；该修复不增加S2独立复核覆盖，也未生成S6正式边。详见全书过程记录 `stages.md`。
+
+## 第七章 p.171 n.6 Prado机构复用与关系待证（2026-10-26）
+
+`cand-7005`从独立`new`机构组重开为`same`，映射至既有`units/institutions/museo-del-prado`；机构身份由Haskell用语与普拉多官方机构页支持，不创建重复KU。关系statement `st-chp7-p171-n6-series-located-prado`仍process-only pending：主语`cand-7003`所指画作组尚无稳定S3/S4身份，且本轮未查阅被引页或目录；待主语身份与来源时间语境明确后再评`located_at`。本轮未改S2数据或建立正式关系。完整裁决见[过程记录](../process/knowledge.md#s3-s4-s6-chp7-p171-prado-reuse-20261026)。
