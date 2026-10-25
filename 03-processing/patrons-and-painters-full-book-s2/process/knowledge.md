@@ -14677,3 +14677,20 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 **S1提及锚点与S2状态。** 原书目条目提及 `m-chp21-bib-l985-1020-003` 从整条条目区间228–268改为作品与出版信息区间247–268（“Memorie, Milano i960.”）；新增人物提及 `m-chp21-bib-l985-1020-entry-03-author` 区间228–245（“Ponte, Lorenzo da”）。两段不重叠，冒号和空格未分配。第15章脚注中姓名与作品引注共用同一词段，保留原档案提及，不新增重叠提及。`book-statements.jsonl` 未改，statement数15,363不变；mentions增1至26,841；统一独立S2复核分子不变。来源Markdown未改。
 
 **定向渲染与机械核验。** `build_cards.py --render` 定向写入《赞助人与画家》、Neu-Mayr档案、Da Ponte档案与Da Ponte人物卡共4张；写后字节核对通过，4/4复预览无差异。严格表审计：`errors=[]`、`s2_missing=[]`，KU=2,948、候选=12,427、映射S3 new待登记=2,932、mentions=26,841、statements=15,363、relations=2,081（formal=2,048）、S5=13,526（unverified=1,634）、candidate-backlog=45（completed=13、undecided=32）。关系一致性检查的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；`git diff --check`退出码0。未改S2 statement或独立复核分子；本批不构成S2接收或S3–S6全书收口。
+
+
+<a id="s3-s4-s5-s6-chp15-brunelli-unamica-1923-crosschapter-20261025"></a>
+
+### S3–S4–S5–S6：第15章 Brunelli《Un’amica del Casanova》（1923）跨章档案登记（2026-10-25）
+
+**跨章 S3 身份组沿用。** `cand-9501`沿用`archive-group-brunelli-amica-casanova-1923`及既有`new`决定。第10章p.300注5以“B. Brunelli, 1923”引用；第15章p.365注1印本页图（`CHP-15.pdf`物理页5）读作“Brunelli, 1923”；第21章p.417书目（`CHP-21Bibliography.pdf`物理页7）列为“Brunelli, Bruno: Un’amica del Casanova, Milano 1923”。作者形式、题名和年份相符，归为同一来源限定出版物。OCR原文和来源Markdown保持不变。该书与脚注所引内容均未独立查阅；没有外部身份断言。
+
+**S4 登记。** `cand-9501`映射至`units/archives/brunelli-unamica-del-casanova-1923`并登记为[档案知识卡](../../../04-knowledge/units/archives/brunelli-unamica-del-casanova-1923.md)。既有作者人物KU `units/persons/bruno-brunelli`已存在，无需递归增加作者待办。S3的`new`决定未改写。
+
+**S5 字段。** 仅从Haskell第21章p.417书目登记文献类型、书内责任者形式、原题名、出版地和出版年共5条`source_backed`字段；不补写出版社、版本、页数或作品内容。中文展示名和英文括注为工作译名。
+
+**S6 逐项裁决。** `st-chp15-p365-note1-brunelli-1923` formal为`rel-2082 cites`，主语《赞助人与画家》、宾语为本书，证据为第15章p.365注1及第21章p.417书目。关系只表示Haskell的书内引注，不表示本项目查阅被引书或其第52页。另登记结构性`rel-2083 authored_by`，依据第21章书目；它不属于S2 `relation_candidate=true` 裁决分母。两条边分别符合archive→archive与archive→person方向。
+
+本批不改S2 statement／mention或统一独立复核分子；不增加S3候选数。
+
+**定向渲染与核验。** `build_field_facts.py`预览及应用均为5条`source_backed`、`unverified=0`、`warnings=0`；`build_cards.py --render`写入《赞助人与画家》、本书档案卡及Bruno Brunelli人物卡3张，写后字节核对通过，3/3复预览无差异。严格表审计退出码0：`errors=[]`、`s2_missing=[]`，KU=2,949、映射S3 new待登记=2,931、S5=13,531（1,634 unverified）、relations=2,083（2,050 formal）、backlog=45（13 completed、32 undecided，pending=0）。审计警告仅提示其余S4 new待登记及S2语义质量仍须完成，不表示全书收口。关系一致性审计中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。

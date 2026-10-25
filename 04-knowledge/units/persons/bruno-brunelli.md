@@ -57,7 +57,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《一位威尼斯元老与一座消失的别墅》（Un Senatore Veneziano ed una villa scomparsa）](../archives/brunelli-un-senatore-veneziano-ed-una-villa-scomparsa-1931.md) | S2 statement: st-chp15-p369-note4-brunelli-article-authored-by-brunelli; S3 cross-chapter identity is shared with bibliography candidate cand-11271.；时间：1931；角色：哈斯克尔报告的作者归属；范围：哈斯克尔第15章p.369 n.4称Brunelli 1931年文章；作者形式依哈斯克尔原书第21章书目p.417核对。文章未独立查阅。；原断言与证据见发出端卡片“《一位威尼斯元老与一座消失的别墅》（Un Senatore Veneziano ed una villa scomparsa）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；line 108; print p. 369, note 4; bibliography p. 417 |
+| ← 所著文献（`author_of`，反向投影） | [《卡萨诺瓦的女性友人》（Un’amica del Casanova）](../archives/brunelli-unamica-del-casanova-1923.md) | The author KU is the existing cross-chapter Bruno Brunelli identity used for his 1931 article; this relation records only the author form printed for the 1923 book.；时间：1923；角色：书目责任者归属；范围：Haskell第21章印刷页417书目以‘Brunelli, Bruno’著录《Un’amica del Casanova》；此边记录书内书目归属，不声称独立核验作者身份或著作内容。；原断言与证据见发出端卡片“《卡萨诺瓦的女性友人》（Un’amica del Casanova）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p.417, L269; statement=st-chp21-bib-l243-293-entry-17 |
+
 
 ### 关系候选入口
 
