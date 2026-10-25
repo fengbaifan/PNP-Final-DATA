@@ -51,9 +51,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有新增正式关系。以下5条S2关系候选均保留于`book-statements.jsonl`，待S6逐条核对关系类型、语境和端点；本卡不将其改写为正式关系：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《灵性绘画》（Spiritual Painting）](../archives/la-peinture-spirituelle-1611.md) | Candidate cand-5024 is mapped to the source-local archive record; this edge records Haskell’s report only and makes no external identity claim.；角色：作者（Haskell 对1611年所写著作的明确称述）；范围：Haskell identifies Richeôme as the author of a 1611 book; Chapter 21 bibliography identifies the book as La peinture spirituelle, Lyon 1611. The book and cited page were not independently consulted.；原断言与证据见发出端卡片“《灵性绘画》（Spiritual Painting）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, printed p. 67, lines 30-31; S2 statement st-chp3-secii-l19-31-richeome-wrote-book-1611; Chapter 21 bibliography, p. 435, line 1042 |
 
-- `st-chp3-secii-l19-31-richeome-wrote-book-1611`
+现登记1条书内 `authored_by` 正式关系：Haskell 第3章称 Richeôme 于1611年写作该书，第21章书目将其列为 *La peinture spirituelle*；原书未查阅。下列其余4条S2关系候选仍待S6逐条核对关系类型、语境和端点；不将作者观点或未定作品组改写为正式关系：
+
 - `st-chp3-secii-l33-38-haskell-calls-richeome-last-lonely-voice`
 - `st-chp3-secii-l33-38-haskell-says-simplicity-doctrine-unlikely-under-urban`
 - `st-chp3-secii-l33-38-richeome-focused-devotion-on-fresco-subject`

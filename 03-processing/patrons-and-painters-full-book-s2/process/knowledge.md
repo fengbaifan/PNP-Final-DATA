@@ -14066,3 +14066,15 @@ S4 将 `aln-7957` 映射到该人物KU；卡片只记书目责任形式。字段
 书目行明确将该出版物列于“Canal, Vincenzo da”名下，据此新增结构性 formal `authored_by` `rel-2008`（archive → person）。该关系只记录 Haskell 的书目责任者形式；不证明被引页内容，也不扩写外部身份。此项来自书目责任字段，不是新增 S2 关系候选决定，因此 S2 statement/mention 数、统一独立复核分子及 S6 候选决定分母均不变。原有普通引证不因本批登记为人物而转成关系边。
 
 人物卡与既有书目卡定向渲染2张，写后复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；`tests/test_export_dataset.py` 4项通过。
+
+<a id="s4-s5-s6-ch3-richeome-la-peinture-spirituelle-20261025"></a>
+
+### S4/S5/S6 档案端点：Richeôme《La peinture spirituelle》（2026-10-25）
+
+沿用 `cand-5024` 的既有 S3 `new` archive 身份组，登记为 [《灵性绘画》（Spiritual Painting）](../../04-knowledge/units/archives/la-peinture-spirituelle-1611.md)。第3章 p.67 L30–31 称 Louis Richeôme 于1611年写书并献给 Aquaviva；p.68 L34 接出主题为 S. Andrea 与 S. Vitale 的绘画。第21章 p.435 L1042 将其列为 “Richeôme, Louis: La peinture spirituelle, Lyon 1611”。交叉章书目名与第3章正文支持该候选书目身份；中文名为描述性暂译。本批仅依据 Haskell，未查原书、被引 p.21 或外部目录。
+
+S4 将 `aln-5207` 映射至新 archive KU；既有 Louis Richeôme（`cand-2192`）与 Claudio Aquaviva（`cand-0113`）人物 KU 不变。S5 表构建器预检并应用5条书内 `source_backed` 字段（题名、类型、内容主题、出版地、出版年），0条 `unverified`、0警告，来源登记无变化。
+
+三条相关 S2 关系候选逐条裁决：`st-chp3-secii-l19-31-richeome-wrote-book-1611` 为 formal，新增 `rel-2009`（archive → person，`authored_by`），只记录 Haskell 的书内作者称述；`st-chp3-secii-l19-31-richeome-dedicated-book-to-aquaviva` 为 pending，原文明确题献，但现行受控 `dedicated_to` 域值域只容纳 work → person，而项目类型表将书籍归为 archive，未为适配此例扩展关系规则；`st-chp3-secii-l33-38-richeome-book-topic-paintings` 为 pending，因候选 `cand-12315` 仍是边界未定的绘画组，不能假作单件或封闭组端点。两条 pending 的理由及重开条件留在本记录，不造缺端点或非法类型关系行。
+
+新 archive 卡及 Louis Richeôme 人物卡定向渲染2张，写后复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；`tests/test_export_dataset.py` 4项通过。

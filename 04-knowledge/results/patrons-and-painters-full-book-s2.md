@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，Correr档案与Da Canal人物端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,789 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178；26个跨来源decision差异待定点核对。S4已映射2,117/5,081条new，尚未映射2,964条，其中1,250个去重候选触及直接关系端点；KU共2,901。S5字段13,346条（1,634 unverified）。S6关系候选已裁决1,329/10,569条（753 formal、462 pending、114 rejected），余9,240；relations.csv为2,008条（1,981 formal、27 pending），另含1条书目派生结构性 authorship 关系，不计入上述S6候选分母。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有37条记录（12 completed、25 undecided，严格pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断均为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，Correr、Da Canal与Richeôme文献端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,789 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178；26个跨来源decision差异待定点核对。S4已映射2,118/5,081条new，尚未映射2,963条，其中1,249个去重候选触及直接关系端点；KU共2,902。S5字段13,351条（1,634 unverified）。S6关系候选已裁决1,332/10,569条（754 formal、464 pending、114 rejected），余9,237；relations.csv为2,009条（1,982 formal、27 pending），另含1条不计入上述S6候选分母的书目派生结构性 authorship 关系（rel-2008）；`rel-2009`来自S2候选并已计入S6 formal。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有37条记录（12 completed、25 undecided，严格pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断均为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第3章 Richeôme《La peinture spirituelle》档案端点组。** 沿用 `cand-5024` 既有 S3 `new` 组，登记为 archive KU `units/archives/la-peinture-spirituelle-1611`；第3章叙述与第21章书目支持作者、题名、Lyon和1611年。新增5条书内 `source_backed` 字段；3条相关S6候选分别为1 formal（`rel-2009`，`authored_by`）和2 pending（题献关系超出现行 archive 域值域；绘画组候选 `cand-12315` 边界未定）。定向渲染新 archive 与 Louis Richeôme 人物卡，写后复预览无差异；严格表审计与关系一致性检查通过，导出测试4项通过。未查原书、被引页或外部目录。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch3-richeome-la-peinture-spirituelle-20261025)。
 
 **本批完成：第8、9、21章 Vincenzo da Canal 人物端点组。** 沿用 `cand-7781` 的既有 S3 `new` 决定并登记为一个 source-local person KU；第8、9章引注与第21章完整书目责任形式支持跨章身份映射。新增1条书内 `source_backed` 姓名字段，并根据书目行新增结构性 formal `authored_by` `rel-2008`（archive → person），不并入S2关系候选决定分母。人物与 Da Canal 文献 KU 分开；不外推生平，不主张外部身份核验或被引页已读。人物卡与既有书目卡定向渲染及写后复预览2/2无差异。严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0，导出测试4项通过。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-ch9-ch21-vincenzo-da-canal-20261025)。
 
@@ -15,7 +17,7 @@
 
 **后续工作规划（按当前任务优先级）：**
 
-1. **继续高价值S4端点组并同批裁决S6。** 2,964条S3 new尚未映射，其中1,250个去重候选直接出现在关系候选端点。按共同来源页、对象类型、可解锁关系数和身份确定度排序；每批确认身份组后登记KU、补关键S5字段，并逐条记录formal／pending／rejected及重开条件。
+1. **继续高价值S4端点组并同批裁决S6。** 2,963条S3 new尚未映射，其中1,249个去重候选直接出现在关系候选端点。按共同来源页、对象类型、可解锁关系数和身份确定度排序；每批确认身份组后登记KU、补关键S5字段，并逐条记录formal／pending／rejected及重开条件。
 2. **按类型和跨章身份组收口S3。** 定点核对26个跨来源decision差异、9个conflict及5,178个undecided候选，先处理与关系端点相连者。same明确复用的KU；new登记独立对象；conflict说明来源与身份冲突；excluded写依据；undecided保留证据缺口及重开条件。
 3. **按章继续S2独立语义复核并核平台账。** 统一复核为9,617/15,353（62.64%），5,736条尚未进入统一逐条复核。以当前statement ID和来源版本对账，完成一章后只更新该章复核证据；本批语义修改和局部检查不增加独立复核分子。
 4. **定点修复337条缺S2端点候选ID的关系statement。** 回看对应来源段和mention；只有来源足以确定时才补候选ID，身份仍不明则保留pending及重开条件。
