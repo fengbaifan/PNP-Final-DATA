@@ -14647,3 +14647,18 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 **定向渲染与机械核对：** 三张新卡及Remondini机构卡共4张定向渲染，渲染器写后字节核对通过；4/4复预览无差异。build_field_facts.py写后预览为12条、unverified=0、record_changes=0、source_registry_changes=0。audit_tables.py --strict-stage --summary退出码0，errors=[]、s2_missing=[]；KU=2,942、relations=2,075（formal=2,042）、S5=13,502（unverified=1,634）。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；git diff --check退出码0。S2 statement／mention及统一独立复核分子未改变；本批不构成S2接收或S3–S6全书收口。
 
 **外部身份来源（2026-10-25查阅）：** Treccani, “BASSANO di Sutri,” *Enciclopedia Italiana* (1930), https://www.treccani.it/enciclopedia/bassano-di-sutri_(Enciclopedia-Italiana)/；Treccani, “BASSANO del Grappa,” *Enciclopedia Italiana* (1930), https://www.treccani.it/enciclopedia/bassano-del-grappa_(Enciclopedia-Italiana)/；Mario Infelise, “REMONDINI,” *Dizionario Biografico degli Italiani*, vol. 86 (2016), https://www.treccani.it/enciclopedia/remondini_(Dizionario-Biografico)/。这些来源用于地点/机构身份比较，不替代Haskell原书对两条正式关系的证据。
+
+
+### S4–S5–S6：第2章 p.61 Barberini 手稿定位（2026-10-25）
+
+**S4身份与登记。** `cand-4962`沿用S3 `new`组 `archive-group-0da5356aa30c`，登记为 `units/archives/vatican-library-ms-barb-lat-6463`。印本第2章p.61注1读作“Biblioteca Vaticana, MSS. Barb. Lat. 6463, and many other collections”；原书图像在仓库扫描页中复核，S0 Markdown L51的“OCR MSS. Barb. ,”保持不变，未改写来源资产。该候选只表示书内引用的档案定位，不表示查阅手稿或核实当前目录身份。
+
+**S5字段。** 新增2条 `source_backed` 字段：`馆藏定位=MSS. Barb. Lat. 6463`；`书内所称保管机构=Biblioteca Vaticana`，值内明确限定为Haskell印本所列，不表示现行保管已核实。证据为第2章印刷页61注1（PDF physical p.50）。未补写手稿题名、内容或作者信息。
+
+**S6逐项裁决。**
+- `st-chp2-secvii-l38-54-fn-p61-1-vatican-manuscript-reference`：formal `rel-2078 cites`，《赞助人与画家》→该手稿定位。范围仅为Haskell的书内引注，不表示项目查阅了手稿。
+- `st-chp2-secvii-l38-54-fn-p61-1-vatican-manuscript-holder`：process-only pending。原书把 `Biblioteca Vaticana` 列作该定位所涉机构，但端点 `cand-4380` 的S3身份/类型边界仍为 `undecided`；不建机构KU、不写不完整关系行，也不推断现行保管。
+
+本批未改S2 statement或mention；S2独立复核分子不变。
+
+**定向渲染与机械核验：** `build_cards.py --render` 对《赞助人与画家》与新手稿卡完成定向预检并写入2张卡（5张表、38条字段、245条投影关系）；渲染器核对写后字节。预览发现来源书卡还缺少上一批已入 `relations.csv` 的 `rel-2076`、`rel-2077` 两条 `cites` 视图，本次一并投影；不重裁决、不重复计数。两张卡写后复预览2/2无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`，KU=2,945、relations=2,078（2,045 formal）、S5=13,514（1,634 unverified）；`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；`git diff --check`退出码0。机械检查不构成S2独立语义接收。
