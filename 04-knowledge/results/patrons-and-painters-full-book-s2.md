@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，第8章 Ricci 皮蒂宫小室壁画端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,356 statements／26,837 mentions；统一独立逐条复核9,617/15,356（62.63%，未接收，5,739条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,058、new=5,091、conflict=9、excluded=104、undecided=5,164；26个跨来源decision差异待核。S4已映射2,136/5,091条new，待登记2,955条，其中1,241个未映射候选触及直接关系端点；KU共2,920。S5字段13,425条（1,634 `unverified`）。S6按上版累计与本批新增决定合计1,374项（775 formal、484 pending、115 rejected）；历史记录分母10,578与当前statement表中`relation_candidate=true`的10,572项不一致，须按statement ID核平后再报告余数。`relations.csv`为2,040条（2,008 formal、32 pending；含结构性边）。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有43条记录（12 completed、31 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，第9、14章 Contarini壁画跨章身份批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,356 statements／26,838 mentions；统一独立逐条复核9,617/15,356（62.63%，未接收，5,739条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,058、new=5,093、conflict=9、excluded=104、undecided=5,162；26个跨来源decision差异待核。S4已映射2,140/5,093条new，待登记2,953条，其中1,239个未映射候选触及直接关系端点；KU共2,923。S5字段13,433条（1,634 `unverified`）。S6累计裁决1,379项（779 formal、485 pending、115 rejected）；历史裁决分母10,578与当前statement表中`relation_candidate=true`的10,572项不一致，仍须按statement ID核平后再报告余数。`relations.csv`为2,044条（2,011 formal、33 pending；含结构性边）。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有44条记录（12 completed、32 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第9、14章 Tiepolo《亨利三世受迎》壁画跨章身份组、modello与雅克马尔-安德烈机构。** 将 `cand-8367` 与 `cand-2604` 从 `undecided` 裁为同一 `new` 身份组；modello `cand-10356` 保持独立作品，机构 `cand-8358` 映射至机构KU，共4个候选映射到3个KU。补1条第9章p.255壁画mention，S5新增8条来源字段。5条关系候选逐项决定为4 formal、1 pending；两条创作者断言共用 `rel-2041`，另加`rel-2042`、`rel-2043`；脚注地点候选记为`rel-2044` pending，建筑地点列入`bl-0044`待S1/S3/S4。3张新卡定向预览及渲染通过；严格表审计与关系一致性阻断检查通过。S2统一复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-chp14-contarini-henri-iii-fresco-20261025)。
 
 **本批完成：第8章 Ricci 皮蒂宫小室壁画组、毁坏的《艺术寓意》与图版39草图。** 为 p.235–236 和注2补40个来源锚定mention及1条尚未独立复核的草图—壁画S2关系statement。S3将8项判为来源局部 `new` 并完成S4，3项判为 `same` 并复用现有作品KU；`cand-7966`、`cand-7959`、`cand-8010` 保持 `undecided`，分别进入 `bl-0041`–`bl-0043`。S5新增25条书内 `source_backed` 字段。20项S6决定为13 formal、6 pending、1 rejected；正式关系表新增14条边（`rel-2027`–`rel-2040`）。14张相关卡预览后定向渲染，写后字节核验通过；表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。S2复核分子仍为9,617。本批过程记录同时揭示S6累计分母与当前 `relation_candidate` 标记有6项差异，须先核平再报告剩余量。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-ricci-pitti-room-20261025)。
 
@@ -30,7 +32,7 @@
 **后续工作规划（按当前任务优先级）：**
 
 1. **以S3逐类型收口为主线。** 先逐项核对26个跨来源decision差异，再处理9个 `conflict` 与5,164个 `undecided`。按人、地、机构、事件、作品、文献等类型和相邻章节编组；`same` 指向复用KU，`new` 形成唯一身份组并登记S4，`conflict` 保留冲突双方及证据，`excluded` 记录排除理由，`undecided` 写明缺证、重开条件和待证位置。未决对象有明确去向即可保留待证，不为清零而强判。
-2. **同批推进直接关系端点 S4/S5/S6。** 2,955个 `new` 候选待S4，其中1,241个未映射候选触及直接关系端点。优先处理候选关系两端的跨章身份；每批完成身份裁决后映射S4、补关键S5字段并裁决关联S6。未达到身份条件的端点留在 `candidate-backlog.csv`，给出具体解除条件。
+2. **同批推进直接关系端点 S4/S5/S6。** 2,953个 `new` 候选待S4，其中1,239个未映射候选触及直接关系端点。优先处理候选关系两端的跨章身份；每批完成身份裁决后映射S4、补关键S5字段并裁决关联S6。未达到身份条件的端点留在 `candidate-backlog.csv`，给出具体解除条件。
 3. **分组修复337条缺端点关系候选。** 按缺subject 45、缺object 220、两端均缺72分组；只有来源足以确定时才补S2候选和mention，再走S3–S4并回到S6。端点或谓词不明则保留pending，不把缺边误作rejected。
 4. **按章完成S2独立语义复核并核平台账。** 当前9,617/15,356（62.63%），另5,739条未进入统一逐条复核；逐章按当前statement ID与来源版本核平，记录有效、重复、已改写、失效或新增，再继续实质复核。补mention锚点或修元数据不增加复核分子。
 5. **定向补S5关键字段。** 1,634条`unverified`中，优先审查会改变身份、类型、端点或正式关系的字段；有充分来源才改为`source_backed`，否则保留未验证状态及具体缺口。

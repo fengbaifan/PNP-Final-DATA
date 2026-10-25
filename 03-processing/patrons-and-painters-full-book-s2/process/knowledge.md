@@ -1,5 +1,31 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp9-chp14-contarini-henri-iii-fresco-20261025"></a>
+### 第9、14章 Contarini壁画、modello与雅克马尔-安德烈机构端点（2026-10-25）
+
+**S3跨章身份裁决。** `cand-8367`（第9章p.255）与 `cand-2604`（第14章p.357索引子项及直接正文mention）分别是同一幅Tiepolo《亨利三世受迎》壁画的来源局部候选，共用身份组 `workgrp-1e590f1f4874ef`，均由 `undecided` 改判 `new` 并映射同一KU。相合依据是同一创作者、Contarini、Henri III受迎事件、Mira别墅语境；Musée Jacquemart-André官方作品记录题名为 “Henri III being welcomed to the Contarini Villa”，署名Giambattista Tiepolo，独立支持作品身份。第14章OCR `os France` 依已核对印本读作 `of France`，来源OCR不改。`cand-10356` 是另一件 `new` 作品：Algarotti取得的modello；保留既有独立组 `workgrp-9ef104d4311d42`，不与壁画合并。`cand-8358` 沿用 `new` 机构组 `sg3-institution-cand-8358`，不与物理建筑合并。
+
+**S2锚点修复与边界。** 为 `cand-8367` 补mention `m-chp9-p255-contarini-reception-fresco`，定位第9章p.255 L153，segment内字符区间2171–2322；span覆盖Tiepolo画Contarini迎接Henri III场景的完整描述，不改S0。原有mention `m-chp14-p357-0023`、`m-chp14-p357-0026`及五条关系候选statement均保留。未将未识别的villa `cand-8354`或welcome event `cand-8366`扩张为KU，二者继续S3 `undecided`。
+
+**S4/S5登记。** 映射 `cand-8367`、`cand-2604` → `units/works/tiepolo-reception-henri-iii-contarini-fresco`；`cand-10356` → `units/works/modello-for-tiepolo-reception-henri-iii-contarini-fresco`；`cand-8358` → `units/institutions/musee-jacquemart-andre`。四个候选对应三个KU，壁画与modello分立。新增8条有来源字段：壁画4条（Haskell名称、类型、题材；馆方记录题名）、modello 1条（类型）、机构3条（书内名称、馆方名称、注4所述标签）。馆方记录只用于作品身份/名称和机构名称核对；其关于壁画位于Hôtel Jacquemart-André楼梯空间的说明暴露了机构与物理地点边界，未冒充机构现存保管事实。
+
+**S6逐项裁决。**
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp9-p255-tiepolo-contarini-henri-welcome` | formal | `rel-2041 created_by`，壁画→Tiepolo；仅记录Haskell书内作者归属。 |
+| `st-chp14-p357-tiepolo-reception-fresco-and-modello` | formal（复用） | 与上条共用 `rel-2041`，不重复建边；原始 `attributed_to` 映射为受控 `created_by`。 |
+| `st-chp14-p357-modello-obtained-by-algarotti` | formal | `rel-2042 acquired_by`，modello→Algarotti；不表示Algarotti取得壁画。 |
+| `st-chp14-p357-modello-for-reception-fresco` | formal | `rel-2043 model_for`，modello→壁画；确认二者关联但保持对象分立。 |
+| `st-chp9-p255-note4-contarini-work-location-label` | pending | `rel-2044 located_at`候选仅记录Haskell短脚注定位；机构/物理地点类型尚未统一，非正式现藏结论。建筑端点记入 `bl-0044`，完成其S1/S3/S4后再复核。 |
+
+**定向预览、渲染与审计。** 三张受影响新卡逐卡预览；定向渲染预检为 `cards=3, tables=3, rows=8, projected_relation_rows=5`，写入3张卡并通过写后字节核验。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；关系一致性审计 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+**状态边界。** 本批不是S2独立语义复核，不增加统一复核分子。官方记录来源登记为 `src-821d4b71d11ff434`；不把网页提供的建筑信息递归登记为KU，本批仅按backlog规则保留必要地点端点。
+
+---
+
+
 <a id="s4-s5-s6-chp17-correr-archival-endpoints-20261025"></a>
 ### 第17章 p.381、p.383 科雷尔档案端点组（2026-10-25）
 
