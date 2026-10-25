@@ -14874,3 +14874,30 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **S6逐项裁决。** 13条候选逐项有结果：6个formal候选合并形成5条边（`rel-2117`–`rel-2121`）；6条process-only pending；1条rejected。formal边为：讲演`has_subject`理想概念；1672年书籍`authored_by` Bellori（两条作者statement合并为一条边）；讲演`part_of`该书；该书`has_subject` Algardi；该书`has_subject` Bernini。pending分别保留：讲演者与作者身份不能互推；人物以理想为criterion的关系无准确受控类型；Agucchi所阐发概念尚无可选精确类型；Poussin与该书思想关系当前谓词不精确；Accademia受众关系不能改写为地点或馆藏；Colbert题献的archive→person域值不兼容。`st-chp6-p159-bellori-selectivity`作为书籍范围描述留在S5，不建关系边。所有pending均记录重开条件；没有新增泛化关系。
 
 **渲染与核验。** 六张受影响卡定向渲染并逐卡复预览无差异；Algardi卡同时呈现了既有urn关系投影，不改变本批S6裁决。`audit_tables.py --strict-stage --summary`退出码0：KU=2,979；候选=12,427；alignment=12,774、未链接0；S4 new待登记2,905；S5=13,678（1,634 `unverified`）；relations=2,121（2,088 formal、33 pending）；backlog=45（13 completed、32 undecided、pending=0）；S2 statements=15,364、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`五类阻断均为0。S3主决定：same=2,064、new=5,102、conflict=9、excluded=104、undecided=5,148；另有26项跨来源decision差异待逐来源核平。S4尚有1,194条new候选触及未登记的直接关系端点。S6当前已有1,489条候选结果（852 formal、518 pending、119 rejected）；历史候选分母与结果账仍有1条差异待核。S2统一复核为9,617/15,364（62.60%，未接收）；本批8个新／改statement版本不计入分子。p.191三条statement已作来源对照，见独立过程备忘；待统一版本账核平后再决定是否进入复核口径。
+
+<a id="s4-s5-s6-fondo-orsini-records-20261026"></a>
+
+### S3沿用与S4–S5–S6：Fondo Orsini档案系列与直接端点（2026-10-26）
+
+**来源与身份边界。** 核对哈斯克尔第4章印刷页96注6、注7（L50–51）及第19章附录2印刷页387（L34–38），未查外部档案目录或原件。cand-5606沿用archive-group-9c5b89d3ecbc，同一Fondo Orsini档案系列在第4、19章出现；第4章抽取文本作“Fonda Orsini”，第19章作“Fondo Orsini”，未用页图裁定拼写差异。cand-10765指附录2所列171号c. I文献件，cand-5607指第4章注7所引170号c. 529新闻信，二者保留不同S3 new组和独立档案身份。cand-5605沿用其既有institution new组，代表引注中所列Biblioteca Vallicelliana。Barberini家族候选cand-0198已映射至现存家族KU，不另建卡；新闻信作者cand-5538仍为S3 undecided，不凭签名臆定人物。
+
+**S2关系拆分。** 新增st-chp4-sec-i-l42-67-fn96-fondo-library-locator，原子记录Fondo Orsini与Biblioteca Vallicelliana的书内档案定位；新增st-chp4-sec-i-l42-67-fn97-newsletter-in-fondo-locator，记录1623年新闻信与170号c. 529的档案定位。二者复用现有提及候选，不增加mention；S2 statement总数加2。新版本尚未独立审读，不计入统一复核分子。
+
+**S4登记。** 四个已有S3 new候选映射至四张新KU：
+- cand-5605 → units/institutions/biblioteca-vallicelliana
+- cand-5606 → units/archives/fondo-orsini-biblioteca-vallicelliana
+- cand-10765 → units/archives/fondo-orsini-item-171-c-i
+- cand-5607 → units/archives/fondo-orsini-newsletter-170-c529-1623-02-10
+
+名称与描述均为书内来源限定，不表示已查阅实体馆藏或档案原件。171号c. I与170号c. 529未合并。
+
+**S5字段。** 四张卡新增13条source_backed字段（enr-17593–enr-17605），覆盖系列名称与范围、机构名称与书内地点、两个文献件类型与定位、新闻信日期及未识别签名。字段接口预览/apply后复预览均为0 unverified、0 duplicate、0 warning，来源登记未变。
+
+**S6逐项裁决。** 五项关系候选均有去向，形成3条formal边和2条process-only pending：
+- st-chp19-p387-appendix2-archive-locator → rel-2122 part_of：171号c. I文献件属于Fondo Orsini的书内档案定位；不推断委托已经完成，也不声称核验档案层级。
+- st-chp4-sec-i-l42-67-fn97-newsletter-in-fondo-locator → rel-2123 part_of：新闻信的170号c. 529书内定位；不声称核验当前保管状态。
+- st-chp4-sec-i-l42-67-fn96-fondo-library-locator → rel-2124 located_at：仅记录哈斯克尔把Fondo Orsini与Biblioteca Vallicelliana并列的档案引注语境，不表示已核实现今馆藏或行政隶属。
+- st-chp4-sec-i-l42-67-fn96-fondo-correspondence 保留pending：原书称系列包含致Barberini的信，现有受控类型不能准确表示“档案系列所含信件以家族为收信方”；不替换为contains、has_subject或archive→person的addressed_to。若出现准确受控表达再重审。
+- st-chp4-sec-i-l42-67-fn96-newsletter-item 保留pending：签名未识别，作者候选cand-5538仍为S3 undecided；不建立authored_by边。身份获得可靠支持或出现适用的匿名作者表达后再重审。
+
+**渲染与核验。** 四张卡定向渲染并写后复预览均无差异。严格表审计退出码0：KU=2,983、alignment未链接0、S4 new待登记2,901、S5=13,691（1,634 unverified）、relations.csv=2,124（2,091 formal、33既有pending）、S2 statements=15,366、mentions=26,841，errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。candidate-backlog仍为45条（13 completed、32 undecided、pending=0）。本批未改既有S3决定；S2统一独立复核仍为9,617/15,366（62.59%，未接收）。
