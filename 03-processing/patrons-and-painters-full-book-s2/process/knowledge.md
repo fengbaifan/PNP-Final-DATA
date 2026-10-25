@@ -15117,3 +15117,60 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 
 
 **本批结构与投影核验。** `audit_tables.py --summary`：KU=3,018，alignment=12,774，未链接alignment=0，S4 new待登记=2,858，S2 statements=15,368、mentions=26,841，S5=13,823（unverified=1,634），`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。13卡字段写后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`；16卡定向投影首轮写入16张，复核预览`files_to_write=0`。全书卡片预检另报告571张有投影差异（545张关系视图有差异）；本批仅渲染已审阅的16张，剩余差异不在本批语义裁决范围内，后续按实际受影响卡片逐批刷新。
+
+<a id="s3-s4-s5-s6-chp7-p177-189-cross-chapter-archive-endpoints-20261026"></a>
+
+### S3跨章身份分组、S4/S5登记与S6：第7章 pp.177–189（2026-10-26）
+
+**S3身份去向与跨章分组。** 核对第7章p.177–189脚注、相邻章节书目和既有KU后，以下15个档案候选均保留各自的new身份决定，并全部映射到同一既有跨章身份组中已经登记的KU或本批新KU。候选来源和目标分列如下；6个目的地此前已有KU，9个为本批新增：
+
+| candidate_id | 类型 | S3决定 | S4目标 |
+|---|---|---|---|
+| cand-4577 | archive | new | units/archives/claude-lorrain-paintings-1961 |
+| cand-4633 | archive | new | units/archives/poussin-blunt-exhibition-catalogue-1960 |
+| cand-5618 | archive | new | units/archives/blunt-poussin-dans-les-musees-de-province-1958 |
+| cand-6605 | archive | new | units/archives/de-rinaldis-lettere-inedite-rosa-ricciardi-1939 |
+| cand-6807 | archive | new | units/archives/daumale-inventaire-mazarin-1861 |
+| cand-7053 | archive | new | units/archives/balestrieri-letter-to-duke-of-modena-1645 |
+| cand-7057 | archive | new | units/archives/mahon-guercino-paintings-semiramis-1949 |
+| cand-7058 | archive | new | units/archives/walpole-anecdotes-of-painting-in-england |
+| cand-7066 | archive | new | units/archives/english-art-1625-1714-whinney-millar-1957 |
+| cand-7070 | archive | new | units/archives/mahon-mazarin-and-poussin-1960 |
+| cand-7087 | archive | new | units/archives/les-richesses-du-palais-mazarin-1885 |
+| cand-7089 | archive | new | units/archives/taylor-taste-of-angels-1948 |
+| cand-7095 | archive | new | units/archives/hoog-attributions-anciennes-a-valentin-1960 |
+| cand-7100 | archive | new | units/archives/brienne-memoires-1916-1919 |
+| cand-7111 | archive | new | units/archives/wittkower-domenico-guidi-french-classicism-1938-39 |
+
+15个档案候选涉及23条重复alignment行，均已补齐同一组内的KU映射。另将cand-0170从undecided改为来源限定new组new-person:gabriele-balestrieri-source-local并映射到units/persons/gabriele-balestrieri-source-local：第7章p.177注4扫描页明确写出Gabriele Balestrieri为1645年书信发信人；不据此补写生平，也不声称识别出外部权威记录。cand-1675仍为undecided，因为收信人只称“Duke of Modena”；新增backlog bl-0046，待有姓名、可核日期或独立身份记录后重审。新增mention m-chp7-p177-fn4-gabriele-balestrieri与m-chp7-p177-fn4-duke-of-modena，原文锚点分别为L322 chars 2674–2694、2708–2722。此项未增加S2独立复核分子。
+
+**版本和书名边界。** 第7章p.178注2的扫描页写Walpole 1762、vol.II、p.51；第21章书目转录却列五卷版1726。只记录Haskell引文及书目中这项年份差异，不推定具体版次。p.183注2扫描页只写“d’Aumale, p.8”，没有书名或版次；已定点修正statement st-chp7-p183-n2-cite-daumale的扩展性claim/qualification，不修改其原引文，不把书名断言留在S2中。p.184注2明确引用d’Aumale pp.293 ff.，结合第21章书目可定位到1861年Inventaire；仅该引用被裁为formal。引用页和相关被引著作均未在本批独立查阅。
+
+**S4/S5登记。** 新建9张archive卡和1张person卡，补录accepted.yml及ku-manifest.csv；6个候选映射复用已有KU。S5字段接口先预览后写入39条source_backed字段（enr-17738–enr-17776），单一来源为Haskell 1980年修订版；最终预览record_changes=0、new_ids=0、removed_ids=0、warnings=0。新增卡只记录书目身份、Haskell的报告和证据边界，不推写未查阅的被引内容。
+
+**S6逐候选裁决。** 本批形成18项新决定：15项formal、2项pending、1项rejected。新增14条formal关系行rel-2157–rel-2170。rel-2161对应同一档案来源的两条引文statement，保留两个章页定位于同一边；其余引文逐项对应statement。被引作品/页面除已注明的直接来源外均未独立查阅。
+
+| statement_id | 去向 |
+|---|---|
+| st-chp7-p178-n1-cite-mahon | formal rel-2157 cites |
+| st-chp7-p178-n2-cite-walpole | formal rel-2158 cites；年份版本差异保留 |
+| st-chp7-p180-n3-cite-mahon | formal rel-2159 cites |
+| st-chp7-p180-n4-cite-poussin-catalog | formal rel-2160 cites |
+| st-chp7-p184-n1-cite-cosnac | formal rel-2161 cites |
+| st-chp7-p185-n1-cite-cosnac | formal rel-2161 cites；同一边保留第二定位 |
+| st-chp7-p184-n1-cite-taylor | formal rel-2162 cites |
+| st-chp7-p184-n2-cite-daumale | formal rel-2163 cites；限定于1861年清单版本和p.184引注 |
+| st-chp7-p184-n3-cite-blunt | formal rel-2164 cites |
+| st-chp7-p184-n3-cite-inventory-cosnac | formal rel-2165 cites |
+| st-chp7-p184-n4-cite-hoog | formal rel-2166 cites |
+| st-chp7-p185-n5-cite-brienne | formal rel-2167 cites |
+| st-chp7-p189-n2-cite-wittkower | formal rel-2168 cites |
+| st-chp7-p177-n4-letter-authored-by | formal rel-2169 authored_by；仅记录Haskell明确报告的发信人 |
+| st-chp7-p184-n3-podesta-inventory | formal rel-2170 compiled_by；保持清单→编制者方向，限于Haskell的报告 |
+| st-chp7-p177-n4-letter-addressed-to | pending：收信人仅有“Duke of Modena”称谓；待身份锚点明确后重审 |
+| st-chp7-p183-n2-cite-daumale | pending：原页未提供目标书名/版次，未写入空端点或猜定关系 |
+| st-chp7-p178-n2-walpole-assessment | rejected：这是Haskell对被引叙述可靠性的评价，没有匹配的受控关系谓词；保留S2断言，不建图边 |
+
+范围内另有4项既有formal决定（p.172/p.182 Röthlisberger、p.178 Whinney、p.187 De Rinaldis），本批未重复建边。pending与rejected理由和重开条件均留在此过程记录，不伪装成formal关系。新增的14行全为formal；无pending关系行写入relations.csv。
+
+**投影与审计。** 定向更新16张受影响卡；本批修改或新建的卡片关系区块由relations.csv投影，预览后复核无残余差异。严格表审计：KU=3,028、alignment=12,774、S4待登记new=2,849、S2=15,368 statements／26,843 mentions、S5=13,862（1,634 unverified）、relations.csv=2,170（2,137 formal、33既有pending）、candidate-backlog=46（13 completed、33 undecided、严格审计pending=0）、errors=[]、s2_missing=[]。关系一致性五类阻断均为0。S3主决定更新为same=2,070、new=5,097、conflict=9、excluded=104、undecided=5,147；26项跨来源decision差异仍待核平。S6累计1,569项（901 formal、548 pending、120 rejected）；10,588条当前relation-candidate statement与历史决定台账仍有1项差异。S2独立复核仍为9,617/15,368（62.58%，未接收）。

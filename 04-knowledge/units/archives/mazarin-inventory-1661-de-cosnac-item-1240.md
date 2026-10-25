@@ -72,4 +72,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记正式关系。Podesta作为编制者之一是Haskell转述；其与该清单、Mazarin的关系及刊本的刊录性质均留待S6审查。[第7章 p.184注3](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)（L356）
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 只记录Haskell对de Cosnac item 1240的引用定位；清单原件和de Cosnac刊载页未独立查阅；角色：脚注引文；范围：印刷页184注3；de Cosnac, item 1240（1661年清单）；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7; line 356; printed p.184 n.3; statements=st-chp7-p184-n3-cite-inventory-cosnac |
+| → compiled_by（`compiled_by`） | [乔瓦尼·安德烈亚·波德斯塔（Giovanni Andrea Podesta）](../persons/giovanni-andrea-podesta.md) | 关系按controlled predicate compiled_by记录为清单→编制者方向；这是Haskell的明确报告，de Cosnac item 1240及原件未独立查阅；时间：1661；角色：编制者之一；范围：Haskell报告Giovanni Andrea Podesta为de Cosnac item 1240所指1661年清单编制者之一；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, line 356; printed p.184 n.3; statement=st-chp7-p184-n3-podesta-inventory |
+
+第7章p.184注3对de Cosnac item 1240的引文及Haskell所报告的Podesta编制角色已分别登记为formal cites与compiled_by。该清单与Mazarin之间的其他关系候选仍待S6审查；清单及原件未独立查阅。[第7章 p.184注3](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)（L356）

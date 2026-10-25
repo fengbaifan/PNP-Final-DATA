@@ -75,4 +75,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记正式关系。与Gabriel-Jules de Cosnac的作者关系、以及书内1661年清单条目的刊录关系，留待S6审查。[第21章书目 p.420](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)（L380） [Smithsonian Libraries and Archives](<https://www.si.edu/object/siris_sil_278901>) [Persée authority record 727409](https://www.persee.fr/authority/727409)
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 仅记录Haskell引文定位；被引文献及页面未独立查阅；角色：脚注引文；范围：印刷页184注1 p.144；印刷页185注1 pp.169 ff.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7; lines 354, 358; printed pp.184 n.1, 185 n.1; statements=st-chp7-p184-n1-cite-cosnac,st-chp7-p185-n1-cite-cosnac |
+
+第7章p.184注1与p.185注1的引文已登记为formal cites。与Gabriel-Jules de Cosnac的作者关系及书内1661年清单条目的刊录关系仍待S6审查。[第21章书目 p.420](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)（L380） [Smithsonian Libraries and Archives](<https://www.si.edu/object/siris_sil_278901>) [Persée authority record 727409](https://www.persee.fr/authority/727409)

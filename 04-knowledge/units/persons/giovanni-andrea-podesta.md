@@ -103,4 +103,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记正式关系。第4章关于交往和版画题献、第7章关于清单编制者及Mazarin联系的S2关系候选，继续留待S6逐条审查。[第4章 p.97](../../../02-sources/02-Markdown/04_CHP-4_sec_i.md)（L30） [第4章 p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)（L82–83） [第7章 p.184注3](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)（L356）
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← compiler_of（`compiler_of`，反向投影） | [1661年马萨林身后清单（The 1661 Posthumous Inventory of Cardinal Mazarin）](../archives/mazarin-inventory-1661-de-cosnac-item-1240.md) | 关系按controlled predicate compiled_by记录为清单→编制者方向；这是Haskell的明确报告，de Cosnac item 1240及原件未独立查阅；时间：1661；角色：编制者之一；范围：Haskell报告Giovanni Andrea Podesta为de Cosnac item 1240所指1661年清单编制者之一；原断言与证据见发出端卡片“1661年马萨林身后清单（The 1661 Posthumous Inventory of Cardinal Mazarin）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, line 356; printed p.184 n.3; statement=st-chp7-p184-n3-podesta-inventory |
+
+第7章p.184注3所报告的清单编制角色已登记为反向投影compiler_of；这只记录Haskell的报告。第4章关于交往和版画题献等其他S2关系候选仍留待S6逐条审查。[第4章 p.97](../../../02-sources/02-Markdown/04_CHP-4_sec_i.md)（L30） [第4章 p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)（L82–83） [第7章 p.184注3](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)（L356）

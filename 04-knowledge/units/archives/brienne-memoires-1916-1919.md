@@ -95,4 +95,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 仅记录Haskell引文定位；被引文献及页面未独立查阅；角色：脚注引文；范围：印刷页185注5；Brienne, vol. III, pp.88–90；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7; line 360; printed p.185 n.5; statements=st-chp7-p185-n5-cite-brienne |
+
 尚无正式关系记录。作者和编者只按书目责任字段呈现；相关正式关系留待S6逐条审查。
