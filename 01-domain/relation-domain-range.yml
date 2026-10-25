@@ -56,8 +56,12 @@ domain_range:
   has_participant:  {domain: [event], range: [institution, person]}
   has_performance:  {domain: [work], range: [event]}
   has_subject:      {domain: [archive, event, work], range: [archive, family, institution, person, place, term, work]}
+  intended_gift_to: {domain: [work], range: [person]}
+  intended_recipient_of: {domain: [person], range: [work]}
   sent_by:          {domain: [work], range: [person]}
   sender_of:        {domain: [person], range: [work]}
+  sold_by:          {domain: [work], range: [person]}
+  seller_of:        {domain: [person], range: [work]}
   held_by:          {domain: [work], range: [institution, person]}
   honourer_of:      {domain: [person], range: [person]}
   influenced:       {domain: [person, term, work], range: [person, work]}

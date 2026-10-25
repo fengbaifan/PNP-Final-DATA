@@ -95,6 +95,8 @@ Rosanna De Gennaro 的DBI词条已全文阅读；其书目所列文献、合同�
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 受其赞助／保护（`patronized_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](antonio-ruffo.md) | 1646至1649年已有作品进入Ruffo收藏，二人随后保持长期往来；本边限于该购藏与赞助语境；时间：1646–1649起；角色：作品进入其收藏并保持往来的画家；范围：限Ruffo购藏与赞助网络；不表示清单中每件作品均由其委托；证据：[来源](https://www.treccani.it/enciclopedia/preti-mattia-detto-il-cavalier-calabrese_(Dizionario-Biografico)/)；src-bad578974eae7047；本卡 S6；Messina与Ruffo段 |
+| ← 所创作对象（`creator_of`，反向投影） | [马蒂亚·普雷蒂拟赠路易十四的寓意肖像（Mattia Preti’s Allegorical Portrait of Louis XIV Intended as a Gift）](../works/mattia-preti-allegorical-portrait-louis-xiv-gift.md) | 仅记录Haskell书内明确的创作归属；角色：创作者（Haskell书内归属）；范围：Haskell称Mattia Preti制作该寓意肖像；仅记录书内创作归属，不推断具体版本、材质或存世状态。；原断言与证据见发出端卡片“马蒂亚·普雷蒂拟赠路易十四的寓意肖像（Mattia Preti’s Allegorical Portrait of Louis XIV Intended as a Gift）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p. 189, lines 255–256; st-chp7-p189-i25 |
+| ← seller_of（`seller_of`，反向投影） | [马蒂亚·普雷蒂拟赠路易十四的寓意肖像（Mattia Preti’s Allegorical Portrait of Louis XIV Intended as a Gift）](../works/mattia-preti-allegorical-portrait-louis-xiv-gift.md) | 只确认Preti为书内叙述的出售者；买家与目的地仍未知；角色：出售者；范围：Haskell称Preti后来将该画卖往别处；买家、出售地点、日期和后续去向不明，不推断其他交易细节。；原断言与证据见发出端卡片“马蒂亚·普雷蒂拟赠路易十四的寓意肖像（Mattia Preti’s Allegorical Portrait of Louis XIV Intended as a Gift）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p. 189, line 256; st-chp7-p189-i27 |
 
 ### 身份与外部链接
 

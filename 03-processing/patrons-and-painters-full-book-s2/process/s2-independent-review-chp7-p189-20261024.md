@@ -58,3 +58,7 @@
 页图确认两处S0 OCR校读并补入statement级 `qualifiers.ocr_corrections`，S0原文和 `original_quote` 保留：`st-chp7-p189-i16` 的L249 `Considered`→`considered`；`st-chp7-p189-n5-cite-zanotti` 的L373脚注号 `6`→`5`。两条Montaiglon引注statement的关系候选说明同步为当前formal S6状态，分别指向 `rel-1748` 与 `rel-1749`；不改变两条citation claim本身。
 
 本页44条均保留现有statement与mention，无新增或删除；44条按当前statement ID计入统一逐条复核。第七章复核为1,190/1,267，全书为9,617/15,283（62.9%）。这只表示已复核，不构成第七章或全书S2接收。统一台账仍须按statement ID及来源版本核平；近期第七章p.190–191新增的7条关系statement仍未计入复核分子。
+
+## 2026-10-25：p.189 Preti 肖像statement版本更新
+
+2026-10-25依据同一页扫描图修订 `st-chp7-p189-i25`、`st-chp7-p189-i26`，并调整 `st-chp7-p189-i27` 的资格字段（移除把未知买家／去向误作本条卖方关系缺端点的标记）；另新增 `st-chp7-p189-i25-subject`、`st-chp7-p189-i25-intended-gift`。此前表格对旧版 i25、i26、i27 的复核结论保留为历史版本记录，不覆盖当前statement语义／关系候选状态。五条当前statement（i25、i25-subject、i25-intended-gift、i26、i27）须重新完成独立逐条复核后方可纳入统一复核分子。本记录只标注版本变化，不构成这五条的独立复核；本批S4/S5/S6处理不增加S2复核计数。

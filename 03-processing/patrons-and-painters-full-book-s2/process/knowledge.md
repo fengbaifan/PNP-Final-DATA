@@ -14462,3 +14462,36 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 **卡片与验证：** 新作品卡及Piazzetta人物卡预览后定向渲染，写后字节核验通过，复预览2/2无差异；字段写后预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=2,930，S3候选=12,426，待S4登记 `new`=2,948，backlog=44（严格审计pending=0），`relations.csv`=2,055（2,022 formal），S5=13,461（1,634 `unverified`），S2=15,356 statements／26,840 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；孤立KU=1,365、高连接数KU=2，为既有诊断项。`git diff --check`通过。未改动statement、mention或统一S2复核台账；复核仍为9,617/15,356（62.63%，未接收）。
 
 批后S4已映射2,147/5,095条 `new`，待登记2,948条。未映射直接关系端点为1,234个候选／1,234组、1,240条组成员映射，按组／候选计为term 457、archive 265、work 199、place 165、event 82、institution 65、person 1（work组另含6条非端点组成员映射）。S6累计裁决1,390项（787 formal、487 pending、116 rejected）；历史裁决分母10,578与当前 `relation_candidate=true` 的10,572项仍差6，不报告全书完成率或余数。
+
+<a id="s3-s4-s5-s6-chp7-p189-preti-louis-xiv-portrait-20261025"></a>
+
+### S2定向修订／S3沿用／S4/S5/S6：第7章 p.189 Mattia Preti 拟赠 Louis XIV 的寓意肖像（2026-10-25）
+
+#### 身份与S2断言边界
+
+`cand-6937`／`aln-7113` 保留既有 S3 `new` 组 `workgrp-b284e3c69421cc`，现映射至来源限定作品KU `units/works/mattia-preti-allegorical-portrait-louis-xiv-gift`。p.189只识别出一件由Haskell描述的寓意肖像；当前没有足以确认外部具体实物／版本的对象级信息，因此题名为描述性工作题名，不把该组并入任何同名或同作者作品。创作者 `cand-2056` 及肖像对象／拟赠对象 `cand-1447` 沿用既有Mattia Preti、Louis XIV人物KU。敌对行动候选 `cand-6936` 仍为未识别、未定年的事件候选，不映射到具体战争。
+
+对照本项目持有的Haskell第7章印刷页189扫描图（PDF物理页27），并回核来源Markdown L255–256。原 `st-chp7-p189-i25` 将作者、肖像对象和拟赠意图合并；现将其限定为Preti制作寓意肖像，并拆为两个独立statement：`st-chp7-p189-i25-subject`（portrait of Louis XIV）与 `st-chp7-p189-i25-intended-gift`（拟赠Louis XIV）。后者只表示意图，不表示已交付、接受或转移所有权。`st-chp7-p189-i26` 改为Haskell对Preti判断的来源归因叙述；法国—西班牙敌对行动与Malta处境保留为因果／语境信息，`relation_candidate=false`，不再以未识别事件→作品建边。`st-chp7-p189-i27` 保留“Preti将画卖往他处”的source claim，去除 `open_endpoint_reason`：本条formal关系只需已知卖方，未给出的买家、地点及日期不构成本条端点缺失。第7章注6指向De Dominici卷IV第50页；该页未独立查阅，不作为额外验证。
+
+#### S4、S5与S6裁决
+
+`cand-6937` 映射至新作品卡并写入 `ku-manifest.csv`、`accepted.yml`。本地没有与该书内作品身份直接对应的既有work KU；本批未开展外部标识或存世版本核查。S5按定向字段预览／应用新增1条Haskell `source_backed` 字段 `enr-17376`：作品类型“寓意肖像（allegorical portrait）”；无 `unverified` 新增，无来源登记变更。
+
+| statement_id | 决定 | 正式边 | 裁决范围 |
+|---|---|---|---|
+| `st-chp7-p189-i25` | formal | `rel-2056 created_by` | work → Mattia Preti；只记录书内创作归属。 |
+| `st-chp7-p189-i25-subject` | formal | `rel-2057 has_subject` | work → Louis XIV；只记录Haskell点名的肖像对象。 |
+| `st-chp7-p189-i25-intended-gift` | formal | `rel-2058 intended_gift_to` | work → Louis XIV；拟赠意图，不表示交付、接受或所有权转移。 |
+| `st-chp7-p189-i27` | formal | `rel-2059 sold_by` | work → Mattia Preti；只记录书内明确的卖方，不推断买家或去向。 |
+
+`st-chp7-p189-i26` 经S2修订为上下文判断，不是待裁关系候选；未新增事件关系。四条正式边均引用 `haskell-1980-rev-ed`、来源Markdown及相应statement ID，且保持 `time` 空值，不补造出售／创作日期。
+
+#### 卡片投影、审计与复核状态
+
+新作品卡及Mattia Preti、Louis XIV两张既有卡按目标集合预览后定向渲染；`build_cards.py --render`预检3张卡、6个表、26行及15行关系投影，写入3张卡并通过写后字节校验；随后三卡复预览均无差异。S5写后预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。`audit_rule_drift.py`类型／逆向漂移为0；严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`；`git diff --check`通过。全库仍有1,365个零关系KU及2个>50连接对象，为既有诊断项，不是本批阻断。
+
+`st-chp7-p189-i25`、`i26`已改写，`i27`的资格字段／候选端点状态已调整，另新增两条statement；故本页五条当前statement（i25、i25-subject、i25-intended-gift、i26、i27）须重新独立逐条复核。本批不把自我修订记为独立复核，也不增加统一复核分子；全书统一台账分子仍为9,617。
+
+批后当前S2为15,358 statements／26,840 mentions；S3主决定12,426（same=2,062、new=5,092、conflict=9、excluded=104、undecided=5,159）；S4已映射2,148/5,092条new、待登记2,944条；触及直接关系端点的未映射new组为1,231组／1,240条组成员映射（按组：term 457、archive 265、work 196、place 165、event 82、institution 65、person 1）；KU共2,931。S5=13,462字段（1,634 `unverified`）；S6累计1,397项（794 formal、487 pending、116 rejected）；当前 `relation_candidate=true` 为10,573项，与历史裁决分母10,578差5，仍不报告全书完成率或余数。`relations.csv`=2,059条（2,026 formal、33 pending）；缺至少一个S2端点候选ID的关系statement仍为337条（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`=44条（12 completed、32 undecided，严格审计pending=0）。
+
+后续依当前主线继续核对S4直接关系端点并在同批逐条裁决对应S6；第7章p.190的43条局部复核仍待与统一台账核平，修订后的p.189五条先进入独立复核队列；沿书序下一页为p.191。S2全书尚未接收，S3–S6未全书收口，S7与知识发现／页面仍未启动。

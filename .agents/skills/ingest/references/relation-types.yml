@@ -1,4 +1,4 @@
-version: 4
+version: 5
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -118,6 +118,8 @@ types:
   - scene_of
   - sender_of
   - sent_by
+  - sold_by
+  - seller_of
   - source_of
   - subject_of
   - successor_of
@@ -135,6 +137,8 @@ types:
   - trained_by
   - friend_of
   - intended_for
+  - intended_gift_to
+  - intended_recipient_of
   - intended_site_of
   - translation_of
   - uses_procedure
@@ -216,6 +220,8 @@ inverse:
   installation_site_of: installed_at
   intended_for: intended_site_of
   intended_site_of: intended_for
+  intended_gift_to: intended_recipient_of
+  intended_recipient_of: intended_gift_to
   instantiates: exemplified_by
   introduced_by: introducer_of
   introducer_of: introduced_by
@@ -259,6 +265,8 @@ inverse:
   scene_of: occurred_at
   sent_by: sender_of
   sender_of: sent_by
+  sold_by: seller_of
+  seller_of: sold_by
   source_of: derived_from
   subject_of: has_subject
   successor_of: predecessor_of

@@ -44,6 +44,8 @@ relations:
 | 教育 | `educated_at`／`education_of` | person → 就读机构；role保留学习阶段或学位，time保留入学／毕业或就读期间。仅有入学年不推定毕业，不与个人师承、雇佣或院士成员身份混合；反向只作导航。 |
 | 委托／赞助／创作 | `commissioned_by`、`patronized_by`、`created_by` | work → 委托人／赞助人／创作者；仅有合同对象时用scope明确未锁定存世版本 |
 | 作品寄送 | `sent_by`（反向 `sender_of`） | work → 寄送者；仅记录来源明确的寄送行为，不推定寄送者为创作者、赠与者、所有人或收件人；收件人未明时不补建收件边 |
+| 拟议赠礼 | `intended_gift_to`（反向 `intended_recipient_of`） | work → 拟赠对象；只记录来源明确的赠礼意图，不表示已经交付、接受或转移所有权 |
+| 出售 | `sold_by`（反向 `seller_of`） | work → 出售者；只记录来源明确的卖方，不推定买家、价格、日期、地点或交易完成后的去向 |
 | 设计归属 | `designed_by` | work → person；仅记录来源明确的设计者归属，与施工者、创作者和委托人分别表达；保留来源归属限定 |
 | 建造受托 | `entrusted_to_build`／`entrusted_with_building_of` | place → 受托建造者；仅记录来源明确的建造委托，不推定工程已开工或完工；反向仅作导航 |
 | 建造执行 | `erected_by` | work → person；来源明确记载实际建造者时使用，与设计者及建造委托分别表达；反向 `erector_of` 仅作导航 |
