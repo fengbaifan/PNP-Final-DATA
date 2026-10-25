@@ -1,5 +1,18 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-chp1-ferri-sant-agnese-modello-reuse-20261025"></a>
+### 第1章 p.12 Ferri Sant’Agnese彩色稿候选复用（2026-10-25）
+
+**S3身份复核。** `cand-11835` 原判 `new`，组 `workgrp-48b7174285ae1b`。逐字核对第1章 p.12 lines 437–440 后，与既有候选 `cand-3192` 及其映射 `units/works/ferri-sant-agnese-modello` 指向同一来源定义的彩色稿，故将 `cand-11835` 改判 `same` 并复用该KU。穹顶壁画 `cand-3191`／`units/works/ferri-sant-agnese-cupola` 仍为另一作品，不与预备稿合并；未作外部身份核验。
+
+**S4/S5。** 复用既有S4映射和作品卡；本批不新建KU、不新增S5字段。作品标题、稿本与穹顶壁画的区分、创作与委托边界沿用现卡。
+
+**S6逐项裁决。** `st-chp1-secii-l62-71-03` formal裁为 `created_by`，复用既有 `rel-0684`（`units/works/ferri-sant-agnese-modello` → `units/persons/ciro-ferri`），并在关系证据入口补入该statement ID。Haskell称费里被要求制作该modello且它获批，支持作品创作者关系；不据此确认稿本当前存世或具体载体。
+
+**核验与状态。** S2 statement、mention及统一独立复核台账未改。两张受影响卡定向渲染，写后预览均无差异；Ferri人物卡同时由渲染器补齐三条既有Treccani关系的来源登记ID。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；`git diff --check`通过。本批不新增KU、字段或关系行；S3主决定改为same +1、new −1，S6逐项裁决新增formal +1并复用既有边，详见结果快照。
+
+---
+
 <a id="s3-s4-s5-s6-chp16-chp17-ga-armanni-20261025"></a>
 ### 第16、17章 G. A. Armanni人物与1789年书信直接端点（2026-10-25）
 
