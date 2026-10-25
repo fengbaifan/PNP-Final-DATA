@@ -95,7 +95,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《博洛尼亚画家传》1841年版（Felsina Pittrice, Bologna 1841, two-volume edition）](../archives/felsina-pittrice-bologna-1841-edition.md) | Bibliographic authorship is structural and is not an S2 relation-candidate adjudication; the edition and its title page were not independently consulted.；角色：书目责任者归属；范围：Haskell第21章印刷页428书目 L743 以“Malvasia, Carlo Cesare”著录《Felsina Pittrice》两卷本 Bologna 1841 年版。本边仅表达书内书目责任者归属。；原断言与证据见发出端卡片“《博洛尼亚画家传》1841年版（Felsina Pittrice, Bologna 1841, two-volume edition）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p.428, bibliography L743; statement=st-chp21-bib-l701-754-entry-25 |
+
 
 ### 身份与外部链接
 

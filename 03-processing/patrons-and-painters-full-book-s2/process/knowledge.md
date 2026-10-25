@@ -2337,7 +2337,7 @@ S4 当前已登记256组/320条成员映射，尚待登记4,580组/4,685条。
 
 ### S4 archive：Malvasia《Felsina Pittrice》1678年作品身份组登记（2026-10-16）
 
-- cand-6933 → archive-group-04dd83a032f3 → units/archives/felsina-pittrice-1678-work，按 S3 组登记1678年作品身份。第7章 p.189 称该作题献 Louis XIV；第7、8章另有 Malvasia 卷页引文。第21章书目列两卷本 Bologna 1841 年版，候选 cand-11384 当前为 undecided；本卡不把该 edition 映射到1678年作品。
+- cand-6933 → archive-group-04dd83a032f3 → units/archives/felsina-pittrice-1678-work，按 S3 组登记1678年作品身份。第7章 p.189 称该作题献 Louis XIV；当时候选 cand-11384 尚为 undecided。2026-10-25 的定点S3复核将第21章书目所列Bologna 1841两卷本单独登记为另一archive KU；本作品卡不吸收该版本。详见[s3-s4-s5-s6-ch7-malvasia-1841-edition](#s3-s4-s5-s6-ch7-malvasia-1841-edition-20261025)。
 - 直接 S2 记录6条，全部为关系候选，留待 S6；卷页指向的具体印本未独立确认或查阅。
 - 未新增正式关系、外部版本身份或 S5 补足。
 
@@ -2653,7 +2653,7 @@ S4 当前已登记281组/352条成员映射，尚待登记4,550组/4,652条。
 ### S3 archive：Malvasia《Felsina Pittrice》索引候选复用（2026-10-16）
 
 - `cand-1502`（M.csv#39，p.189）从 `undecided` 改为 `same` → `units/archives/felsina-pittrice-1678-work`。索引 subentry 与第7章 p.189 同名，正文明确将 *Felsina Pittrice* 记为1678年作品；现有接收卡 `04-knowledge/04-knowledge/units/archives/felsina-pittrice-1678-work.md` 已记录该原文锚点，第7章 Markdown 行252–253。正文候选 `cand-6933` 已映射至同一 KU。由页码、题名、年代与既有卡证据可直接复用，不另建组。
-- 版本边界：第21章 p.428 书目候选 `cand-11384` 指向 Bologna 1841 年两卷本，仍 undecided；索引 p.189 指向作品身份，不足以证明具体引用的是1841年印本，因此不把该版本并入本卡。此裁决未添加外部身份记录或新的 KU/card。
+- 版本边界（2026-10-16当时状态）：第21章 p.428 书目候选 `cand-11384` 指向 Bologna 1841 年两卷本，尚未完成S3裁决；索引 p.189 指向1678年作品身份，故不并入该作品卡。2026-10-25后续复核将1841年版确认为独立new组，并将短式引注映射该版本；未将1841年版并入1678年作品，未添加外部身份记录。详见[s3-s4-s5-s6-ch7-malvasia-1841-edition](#s3-s4-s5-s6-ch7-malvasia-1841-edition-20261025)。
 
 ### S3 archive：Mancini《Considerazioni sulla Pittura》索引候选并组（2026-10-16）
 
@@ -14754,3 +14754,24 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 **S6逐条裁决。** `st-chp7-p181-n4-letter-authored-by`裁决为formal，登记`rel-2088 authored_by`（书信→Romanelli）；`st-chp7-p181-n4-letter-addressed-to`裁决为formal，登记`rel-2089 addressed_to`（书信→Francesco Barberini）。两条边均以Haskell第7章p.181注4为证，时间按注释明确报告的1646-07-06保存，分别保留author与addressee角色。两种谓词及archive→person端点均符合受控词表和domain/range。Pollak第52页的刊载关系属于另一个未核实问题：当前没有对应的S2 relation_candidate，且该页未查阅；暂不建立formal关系，也不计入本批两项S6裁决，待获得该页证据后再评估。
 
 本批不改S2 statement、mention或独立复核分子；S6只对上列两条relation_candidate作出formal裁决。
+
+
+<a id="s3-s4-s5-s6-ch7-malvasia-1841-edition-20261025"></a>
+
+### S3–S4–S5–S6 archive：Malvasia《Felsina Pittrice》1841年版跨章身份与引注（2026-10-25）
+
+**来源及身份边界。** Haskell第21章印刷页428、书目L743明确列“Malvasia, Carlo Cesare: Felsina Pittrice, 2 vols., Bologna 1841.”；第7章印刷页189则称《Felsina Pittrice》为1678年作品并报告其题献Louis XIV。前者是书目所指的具体出版版本，后者是作品身份；S3不能把版本信息回填为作品本体，也不能因同题名合并二者。此前`cand-11384`因未完成版本粒度判断保留`undecided`，现定点复核改为`new`并映射独立组`archive-group-27687f35cb8d5962`。`cand-6933`继续保持`archive-group-04dd83a032f3`和既有KU `units/archives/felsina-pittrice-1678-work`。
+
+**跨章引注归属修订。** Haskell第1章p.16注1引“Malvasia, II, p.27”，第7章p.176注5、p.178注1、p.182注3–4分别引卷II p.264、p.261、p.264及p.327，第8章p.203注3泛引“Malvasia and Zanotti, passim”。Haskell第21章仅列此一条Malvasia出版物书目项，故六条Malvasia引注目标归于`cand-11384`；第1章p.27原已这样映射，其余五条由`cand-6933`改挂到`cand-11384`。`m-chp8-p203-004`随引注目标转移；mentions总数不变。原引注文本与卷页定位保持不变，claim说明短式引注按唯一书目项定位。该修订只确定Haskell书内引用了哪个书目出版物，不证明1841年印本就是项目手上实物，也不表示已读被引页。未独立查阅Malvasia原作或所引卷页。
+
+**S4登记。** 将`cand-11384`登记到`units/archives/felsina-pittrice-bologna-1841-edition`，accepted与manifest新增一张archive KU卡；Malvasia作者端点复用`units/persons/carlo-cesare-malvasia`。保留`cand-6933`原映射，不合并、重定向或改类型。S3依据仅为本书的卷数、出版地、出版年及题名责任者书目行，没有外部目录/标识作为证据。
+
+**S5字段。** 根据第21章p.428 L743登记5条`source_backed`书目字段：题名（书目形式）、责任者（书目形式）、卷数、出版地、出版年；未填出版者或未给出的版次信息。卡标题中的中文为描述性标识，不冒称正式译名。`build_field_facts.py --ku units/archives/felsina-pittrice-bologna-1841-edition`预览确认1张卡、1个表、5行、0 `unverified`、0 warnings；apply后复预览`record_changes=0`、`new_ids=0`、`warnings=0`。
+
+**S6逐候选裁决。** 六条引用候选均formal为Haskell archive → 1841版archive的`cites`：`st-chp7-p176-n5-cite-malvasia`→`rel-2090`，`st-chp7-p178-n1-cite-malvasia`→`rel-2091`，`st-chp7-p182-n3-cite-malvasia`→`rel-2092`，`st-chp7-p182-n4-cite-malvasia`→`rel-2093`，`st-chp8-p203-n3-bologna-citations`→`rel-2094`，`st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`→`rel-2095`。每边按对应章、印刷页、注号和Markdown行定位；卷页只作为Haskell给出的locator，不扩展成被引内容事实。另用`rel-2096 authored_by`记录第21章书目行将出版物责任归于Malvasia；这是结构性书目边，不属于S2候选裁决分母。
+
+`st-chp7-p189-i21`所记录的题献陈述保留在1678年作品卡，但图谱边裁为rejected：S2候选自定义谓词`dedicated_to_louis_xiv_in_1678`不在受控词表；可对应的`dedicated_to`又仅允许`work → person`，本项目按类型规则将此文献登记为`archive`，不绕过域值域限制改造受控关系。此rejected仅否决当前图谱边，不否认Haskell的题献陈述。这样本批7条S2关系候选均有去向：6 formal、1 rejected；不写无效关系占位行。
+
+本批未增加S2 statement或mention，且没有对上述当前statement版本进行独立语义复核；统一复核分子保持9,617。候选与对象对齐修订不作为独立接收。
+
+**写后核验。** `build_cards.py --render`仅渲染《赞助人与画家》、Malvasia人物卡及1841年版卡3张（7个字段表、53行、263条关系投影；3 files written，写后bytes verified；其中2张关系视图变化）。三张卡写后`--preview`均无差异；字段表复预览no_delta。`audit_tables.py --strict-stage --summary`退出码0：KU=2,954，候选=12,427，S4待登记=2,927，S5=13,553（1,634 unverified），relations=2,096（2,063 formal、33 pending），backlog=45（13 completed、32 undecided、pending=0），statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S3同=2,063、new=5,098、conflict=9、excluded=104、undecided=5,153；S4已映射2,171/5,098条new。仍有1,216个new直接关系端点未登记（term 457、archive 254、work 195、place 162、event 82、institution 65、person 1）。S6累计裁决1,443项（826 formal、499 pending、118 rejected）；当前`relation_candidate=true`为10,578，历史裁决台账与当前statement版本分母差1，故不报告完成率或精确余数。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全书S2尚未接收，S3–S6仍未收口。
