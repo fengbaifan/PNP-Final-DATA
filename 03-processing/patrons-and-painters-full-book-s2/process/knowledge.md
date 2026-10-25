@@ -14495,3 +14495,33 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 批后当前S2为15,358 statements／26,840 mentions；S3主决定12,426（same=2,062、new=5,092、conflict=9、excluded=104、undecided=5,159）；S4已映射2,148/5,092条new、待登记2,944条；触及直接关系端点的未映射new组为1,231组／1,240条组成员映射（按组：term 457、archive 265、work 196、place 165、event 82、institution 65、person 1）；KU共2,931。S5=13,462字段（1,634 `unverified`）；S6累计1,397项（794 formal、487 pending、116 rejected）；当前 `relation_candidate=true` 为10,573项，与历史裁决分母10,578差5，仍不报告全书完成率或余数。`relations.csv`=2,059条（2,026 formal、33 pending）；缺至少一个S2端点候选ID的关系statement仍为337条（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`=44条（12 completed、32 undecided，严格审计pending=0）。
 
 后续依当前主线继续核对S4直接关系端点并在同批逐条裁决对应S6；第7章p.190的43条局部复核仍待与统一台账核平，修订后的p.189五条先进入独立复核队列；沿书序下一页为p.191。S2全书尚未接收，S3–S6未全书收口，S7与知识发现／页面仍未启动。
+
+
+<a id="s3-s4-s5-s6-ch7-p191-bernini-self-portrait-20261025"></a>
+### S3/S4/S5/S6：第7章 p.191 Bernini 自画像素描关系端点（2026-10-25）
+
+#### 触发与来源范围
+
+关系端点核对触发对 cand-6958 的定点 S3 复核及 S4 登记。对照 Haskell 第7章印刷页191、PDF物理页29、来源 Markdown L271–272及本地页图。正文明确称 Del Carpio 从 Bernini 的儿子 Domenico 处取得一幅 Bernini 自画像素描；原书没有作品题名、日期或可指认的存世版本。工作库中没有对应这一来源指称的作品 KU；cand-5722 是 Cassiano 收藏中的未识别复数 Bernini 素描，不与此单件合并，也没有把本件与任何外部目录对象对齐。
+
+#### S2 端点和原子关系修订
+
+既有 statement st-chp7-p191-i07 先前将素描置于 subject、Domenico 置于 object，并使用 acquired_from，虽 qualifiers 另存 Del Carpio 为 actor。现将边界修正为作品 cand-6958 → 取得者 cand-0573 Del Carpio，受控谓词 acquired_by；actor_candidate_id 与关系方向一致，新增 transferor_candidate_id=cand-0294 Domenico。claim 保留“from Domenico”的原文限定；语料没有说其为出售者，因此不增加 sold_by 或先前所有权边。原 statement 的注3回链保留，所引 Bernino p.28 未独立查阅，不作为作品版本或来源事实的独立验证。
+
+同句的 his self-portrait drawings 分别支持两条原子关系候选：st-chp7-p191-i07-created-by（作品 created_by Gian Lorenzo Bernini）与 st-chp7-p191-i07-has-subject（作品 has_subject Bernini）。限定为 Haskell 的书内自画像描述，不指认存世版本。复用现有 mention m-chp7-p191-021、m-chp7-p191-022，不新增 mention。此次定向修订和自查不计入统一 S2 独立复核；当前 p.191 的 i07、created-by、has-subject 三条版本待独立复审，不代表本页或第7章接收。
+
+#### S3 身份决定与 S4 登记
+
+cand-6958/aln-7134 由 undecided 改为来源局部 new 组 workgrp-bernini-self-portrait-drawing-del-carpio，并登记至 units/works/bernini-self-portrait-drawing-acquired-del-carpio。该组标识原书在此次取得叙述中指称的单件作品，不声称已经定位某一已知实物。对齐记录保留 prior_decision=undecided 和原缺口理由；不写外部来源或标识。Del Carpio cand-0573 继续复用 units/persons/marchese-del-carpio，Bernini cand-0295 继续复用 units/persons/gian-lorenzo-bernini，Domenico cand-0294 继续复用 units/persons/domenico-bernini。
+
+#### S5 字段与 S6 逐项裁决
+
+新卡仅记录三项 Haskell source_backed 字段：描述性项目题名、题名性质（原书未给题名）、作品类型（自画像素描）。没有外部来源登记，也没有新增 unverified 字段。
+
+| statement_id | S6 去向 | 关系行 | 语义边界 |
+|---|---|---|---|
+| st-chp7-p191-i07 | formal | rel-2060 acquired_by | work → Del Carpio；Domenico 为原文所称转移来源，不推定其出售或既有所有权。 |
+| st-chp7-p191-i07-created-by | formal | rel-2061 created_by | work → Gian Lorenzo Bernini；来源层面的自画像创作者描述，不对应特定存世版本。 |
+| st-chp7-p191-i07-has-subject | formal | rel-2062 has_subject | work → Gian Lorenzo Bernini；由 Haskell 的 self-portrait 描述识别对象。 |
+
+三条 S6 行均以 Haskell p.191 L271–272 和对应 statement 为具体证据。新卡及 Del Carpio、Gian Lorenzo Bernini 两张受影响人物卡通过同一关系表投影更新；Domenico 卡不新增正式关系边。原书没有交易日期、作品正式题名或可核的馆藏版本，本批均不补造。cand-6955 所指三十卷素描收藏仍类型未决，不在本批变更范围内。

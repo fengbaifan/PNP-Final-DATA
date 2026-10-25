@@ -13654,3 +13654,8 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-25：跨行mention的CRLF/LF字符偏移校正
 
 严格表审计定位622条mention的surface_form与段落字符区间不一致。逐条回到segments.jsonl对应的S0源段后，确认622条surface_form均在跨行处存储为CRLF，而审计按物理来源行拼接为LF；每条存储的start_char均指向同一规范化文本，换行统一为LF后与S0段落精确匹配。仅将这622条surface_form的CRLF改为LF，并把end_char设为start_char加规范化字符串长度；start_char、候选身份、mention语义和S0来源资产不变。校正后mention总数仍为26,789，无区间交叉；严格表审计errors=[]、s2_missing=[]。这是机械格式修复，不计入S2独立语义复核分子，也不构成语义接收。
+
+
+### 2026-10-25：第七章 p.191 Bernini 自画像素描关系端点修订
+
+依2026-10-20的逐条审读记录，纠正 st-chp7-p191-i07 的 subject/object 与 acquired_by 方向，保留 Domenico 作为原文所称转移来源；将 self-portrait 语义拆为创作者与被表现者两条来源限定关系候选。cand-6958 经 S3 定点复核登记为来源局部作品组，并在同批完成 S4/S5/S6。此前核读覆盖不能自动延伸到改写后的 statement 版本：i07 及新增两条候选仍待独立复审，不记入统一 S2 复核分子。详见 [知识过程](knowledge.md#s3-s4-s5-s6-ch7-p191-bernini-self-portrait-20261025)。
